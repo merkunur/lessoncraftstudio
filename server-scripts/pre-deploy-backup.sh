@@ -10,6 +10,7 @@ set -e
 SAMPLES_DIR="/var/www/lcs-media/samples"
 WG_DIR="/var/www/lcs-media/worksheet-generators"
 ADMIN_DIR="/var/www/lcs-media/admin-panels"
+DE_DIR="/var/www/lcs-media/design-elements"
 PUBLIC_DIR="/opt/lessoncraftstudio/frontend/public"
 BACKUP_DIR="/var/www/lcs-media/backups/pre-deploy"
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
@@ -79,6 +80,30 @@ else
     echo "  No worksheet files to backup"
 fi
 
+# ============================================
+# DESIGN ELEMENTS BACKUP
+# ============================================
+DE_SVG=$(find "$DE_DIR" -name "*.svg" -type f 2>/dev/null | wc -l)
+echo "  Design elements: $DE_SVG SVGs"
+
+if [ "$DE_SVG" -gt 0 ]; then
+    DE_BACKUP="$BACKUP_DIR/design-elements_$TIMESTAMP.tar.gz"
+    tar -czf "$DE_BACKUP" -C /var/www/lcs-media design-elements/
+
+    if [ -f "$DE_BACKUP" ] && [ -s "$DE_BACKUP" ]; then
+        DE_SIZE=$(du -h "$DE_BACKUP" | cut -f1)
+        echo "  Design-elements backup: $DE_BACKUP ($DE_SIZE)"
+    else
+        echo "  ERROR: Design-elements backup failed!"
+        exit 1
+    fi
+
+    # Keep only last 5 design-elements pre-deploy backups
+    ls -t "$BACKUP_DIR"/design-elements_*.tar.gz 2>/dev/null | tail -n +6 | xargs -r rm -f
+else
+    echo "  No design-element files to backup"
+fi
+
 echo ""
 echo "Pre-deployment backup complete."
-echo "COUNTS:$JPEG_COUNT:$WEBP_COUNT:$WG_HTML:$WG_JS:$ADMIN_HTML"
+echo "COUNTS:$JPEG_COUNT:$WEBP_COUNT:$WG_HTML:$WG_JS:$ADMIN_HTML:$DE_SVG"

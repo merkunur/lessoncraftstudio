@@ -10,6 +10,7 @@ set -e
 SAMPLES_DIR="/var/www/lcs-media/samples"
 WG_DIR="/var/www/lcs-media/worksheet-generators"
 ADMIN_DIR="/var/www/lcs-media/admin-panels"
+DE_DIR="/var/www/lcs-media/design-elements"
 PUBLIC_DIR="/opt/lessoncraftstudio/frontend/public"
 BACKUP_BASE="/var/www/lcs-media/backups"
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
@@ -129,6 +130,31 @@ if [ "$WG_TOTAL" -gt 0 ]; then
     echo "  Worksheet rotation: deleted $WG_DELETED old backup(s), keeping $RETENTION_COUNT"
 else
     echo "  No worksheet files to backup"
+fi
+
+# ============================================
+# DESIGN ELEMENTS BACKUP
+# ============================================
+DE_SVG=$(find "$DE_DIR" -name "*.svg" -type f 2>/dev/null | wc -l)
+echo "  Design elements: $DE_SVG SVGs"
+
+if [ "$DE_SVG" -gt 0 ]; then
+    DE_BACKUP_FILE="$BACKUP_DIR/design-elements_${BACKUP_TYPE}_$TIMESTAMP.tar.gz"
+    tar -czf "$DE_BACKUP_FILE" -C /var/www/lcs-media design-elements/
+
+    if [ -f "$DE_BACKUP_FILE" ] && [ -s "$DE_BACKUP_FILE" ]; then
+        DE_SIZE=$(du -h "$DE_BACKUP_FILE" | cut -f1)
+        echo "  Design-elements backup: $DE_BACKUP_FILE ($DE_SIZE)"
+    else
+        echo "  ERROR: Design-elements backup failed!"
+        exit 1
+    fi
+
+    DE_DELETED=$(ls -t "$BACKUP_DIR"/design-elements_*.tar.gz 2>/dev/null | tail -n +$((RETENTION_COUNT + 1)) | wc -l)
+    ls -t "$BACKUP_DIR"/design-elements_*.tar.gz 2>/dev/null | tail -n +$((RETENTION_COUNT + 1)) | xargs -r rm -f
+    echo "  Design-elements rotation: deleted $DE_DELETED old backup(s), keeping $RETENTION_COUNT"
+else
+    echo "  No design-element files to backup"
 fi
 
 echo "[$BACKUP_TYPE] Backup complete at $(date)"

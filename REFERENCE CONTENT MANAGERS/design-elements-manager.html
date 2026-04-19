@@ -1,0 +1,1357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Design Elements Manager - LessonCraftStudio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.0/fabric.min.js"></script>
+<style>
+    :root {
+        --bg-dark: #1a1a1e;
+        --bg-panel: #232329;
+        --bg-elevated: #2a2a30;
+        --border: #3a3a42;
+        --text-primary: #e8e8ec;
+        --text-secondary: #9a9aa0;
+        --text-dim: #6a6a70;
+        --accent: #4a9eff;
+        --accent-hover: #6ab0ff;
+        --danger: #e85555;
+        --success: #3ec77a;
+        --warning: #e8a64a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: var(--bg-dark);
+        color: var(--text-primary);
+        height: 100vh;
+        overflow: hidden;
+        font-size: 14px;
+    }
+    button { font-family: inherit; font-size: inherit; cursor: pointer; }
+    input, select, textarea { font-family: inherit; font-size: inherit; }
+
+    /* ===== Layout ===== */
+    .app {
+        display: grid;
+        grid-template-rows: 52px 1fr;
+        height: 100vh;
+    }
+    .header {
+        background: var(--bg-panel);
+        border-bottom: 1px solid var(--border);
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        gap: 16px;
+    }
+    .header-title {
+        font-weight: 600;
+        font-size: 16px;
+        margin-right: auto;
+    }
+    .header-title .dot { color: var(--accent); margin-right: 6px; }
+    .btn {
+        background: var(--bg-elevated);
+        color: var(--text-primary);
+        border: 1px solid var(--border);
+        padding: 7px 14px;
+        border-radius: 5px;
+        transition: all 0.15s;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+    }
+    .btn:hover { background: #333339; border-color: #4a4a52; }
+    .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+    .btn.primary:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
+    .btn.danger { background: var(--danger); border-color: var(--danger); color: #fff; }
+    .btn.danger:hover { background: #f06666; }
+    .btn.ghost { background: transparent; }
+    .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    .body {
+        display: grid;
+        grid-template-columns: 220px 1fr 380px;
+        overflow: hidden;
+    }
+    .body.preview-off { grid-template-columns: 220px 1fr 0; }
+    .body.preview-off .preview-pane { display: none; }
+
+    /* ===== Sidebar ===== */
+    .sidebar {
+        background: var(--bg-panel);
+        border-right: 1px solid var(--border);
+        overflow-y: auto;
+        padding: 12px 0;
+    }
+    .cat-item {
+        padding: 9px 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        border-left: 3px solid transparent;
+        transition: all 0.12s;
+        font-size: 13px;
+    }
+    .cat-item:hover { background: var(--bg-elevated); }
+    .cat-item.active {
+        background: var(--bg-elevated);
+        border-left-color: var(--accent);
+        color: #fff;
+    }
+    .cat-count {
+        font-size: 11px;
+        color: var(--text-dim);
+        background: rgba(255, 255, 255, 0.05);
+        padding: 1px 6px;
+        border-radius: 8px;
+    }
+    .cat-item.active .cat-count { color: var(--accent); }
+
+    /* ===== Main grid ===== */
+    .main {
+        overflow-y: auto;
+        padding: 18px;
+    }
+    .main-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 14px;
+    }
+    .main-title {
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    .main-filter {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 12px;
+        color: var(--text-secondary);
+    }
+    .main-filter input[type="checkbox"] { margin: 0; }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        gap: 12px;
+    }
+    .card {
+        background: var(--bg-panel);
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        overflow: hidden;
+        position: relative;
+        transition: all 0.12s;
+        cursor: pointer;
+    }
+    .card:hover { border-color: var(--accent); transform: translateY(-1px); }
+    .card.inactive { opacity: 0.45; }
+    .card.dragging { opacity: 0.4; }
+    .card-thumb {
+        aspect-ratio: 1 / 1;
+        background: #fdfbf4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    .card.wide .card-thumb { aspect-ratio: 2 / 1; }
+    .card-thumb svg { max-width: 100%; max-height: 100%; }
+    .card-body {
+        padding: 8px 10px;
+        font-size: 11px;
+        border-top: 1px solid var(--border);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 6px;
+    }
+    .card-name {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: var(--text-primary);
+    }
+    .card-actions {
+        display: flex;
+        gap: 4px;
+    }
+    .card-actions .icon-btn {
+        background: transparent;
+        border: none;
+        color: var(--text-dim);
+        padding: 2px 4px;
+        border-radius: 3px;
+        transition: all 0.12s;
+    }
+    .card-actions .icon-btn:hover { color: var(--text-primary); background: rgba(255,255,255,0.05); }
+    .card-actions .icon-btn.danger:hover { color: var(--danger); }
+
+    /* ===== Preview pane ===== */
+    .preview-pane {
+        background: var(--bg-panel);
+        border-left: 1px solid var(--border);
+        overflow-y: auto;
+        padding: 16px;
+    }
+    .preview-title {
+        font-size: 13px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: var(--text-secondary);
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    .preview-canvas-wrap {
+        background: #fdfbf4;
+        border-radius: 6px;
+        overflow: hidden;
+        border: 1px solid var(--border);
+        margin-bottom: 16px;
+    }
+    #previewCanvas { display: block; width: 100%; height: auto; }
+    .preview-meta {
+        font-size: 11px;
+        color: var(--text-secondary);
+        line-height: 1.6;
+    }
+    .preview-meta .row { display: flex; justify-content: space-between; padding: 3px 0; }
+    .preview-meta .row .key { color: var(--text-dim); }
+
+    /* ===== Modal ===== */
+    .modal-overlay {
+        display: none;
+        position: fixed; inset: 0;
+        background: rgba(0, 0, 0, 0.7);
+        align-items: center; justify-content: center;
+        z-index: 100;
+    }
+    .modal-overlay.active { display: flex; }
+    .modal {
+        background: var(--bg-panel);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        width: 560px;
+        max-width: 92vw;
+        max-height: 90vh;
+        overflow-y: auto;
+        padding: 22px;
+    }
+    .modal h2 {
+        font-size: 17px;
+        margin-bottom: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .modal h2 .close {
+        background: transparent;
+        border: none;
+        color: var(--text-dim);
+        font-size: 18px;
+    }
+    .modal h2 .close:hover { color: var(--text-primary); }
+
+    .field {
+        margin-bottom: 12px;
+    }
+    .field label {
+        display: block;
+        font-size: 12px;
+        color: var(--text-secondary);
+        margin-bottom: 4px;
+    }
+    .field input[type="text"],
+    .field input[type="number"],
+    .field select,
+    .field textarea {
+        width: 100%;
+        background: var(--bg-elevated);
+        border: 1px solid var(--border);
+        color: var(--text-primary);
+        padding: 7px 10px;
+        border-radius: 4px;
+        outline: none;
+    }
+    .field input:focus, .field select:focus, .field textarea:focus {
+        border-color: var(--accent);
+    }
+    .field input[type="range"] { width: 100%; }
+    .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .trans-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+    }
+    .trans-grid input { font-size: 12px; padding: 5px 8px; }
+    .trans-grid label { font-size: 10px; }
+    .dropzone {
+        border: 2px dashed var(--border);
+        border-radius: 6px;
+        padding: 20px;
+        text-align: center;
+        color: var(--text-secondary);
+        cursor: pointer;
+        transition: all 0.12s;
+    }
+    .dropzone.hover { border-color: var(--accent); background: rgba(74, 158, 255, 0.08); }
+    .svg-preview {
+        background: #fdfbf4;
+        border-radius: 4px;
+        padding: 10px;
+        min-height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 8px;
+    }
+    .svg-preview svg { max-width: 100%; max-height: 200px; }
+    .modal-actions {
+        display: flex;
+        justify-content: flex-end;
+        gap: 8px;
+        margin-top: 16px;
+    }
+
+    /* ===== Login overlay ===== */
+    .login-overlay {
+        display: none;
+        position: fixed; inset: 0;
+        background: rgba(0, 0, 0, 0.85);
+        align-items: center; justify-content: center;
+        z-index: 200;
+    }
+    .login-overlay.active { display: flex; }
+    .login-box {
+        background: var(--bg-panel);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 30px;
+        width: 340px;
+    }
+    .login-box h2 { font-size: 18px; margin-bottom: 16px; text-align: center; }
+    .login-input {
+        width: 100%;
+        background: var(--bg-elevated);
+        border: 1px solid var(--border);
+        color: var(--text-primary);
+        padding: 10px 12px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        outline: none;
+    }
+    .login-input:focus { border-color: var(--accent); }
+    .login-btn {
+        width: 100%;
+        background: var(--accent);
+        color: #fff;
+        border: none;
+        padding: 10px;
+        border-radius: 4px;
+        font-weight: 600;
+    }
+    .login-btn:disabled { opacity: 0.6; }
+    .login-error {
+        color: var(--danger);
+        font-size: 12px;
+        margin-bottom: 10px;
+        min-height: 16px;
+    }
+
+    /* ===== Toast ===== */
+    .toast {
+        position: fixed;
+        bottom: 20px; right: 20px;
+        background: var(--bg-panel);
+        border: 1px solid var(--border);
+        color: var(--text-primary);
+        padding: 11px 16px;
+        border-radius: 6px;
+        font-size: 13px;
+        z-index: 300;
+        opacity: 0;
+        transform: translateY(10px);
+        transition: all 0.25s;
+        pointer-events: none;
+    }
+    .toast.show { opacity: 1; transform: translateY(0); }
+    .toast.success { border-left: 3px solid var(--success); }
+    .toast.error { border-left: 3px solid var(--danger); }
+    .toast.warning { border-left: 3px solid var(--warning); }
+
+    /* ===== Palettes view ===== */
+    .palette-list {
+        display: grid;
+        gap: 10px;
+    }
+    .palette-row {
+        background: var(--bg-panel);
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        padding: 10px 12px;
+        display: grid;
+        grid-template-columns: 170px 1fr auto;
+        gap: 10px;
+        align-items: center;
+    }
+    .palette-row input[type="text"] {
+        background: var(--bg-elevated);
+        border: 1px solid var(--border);
+        color: var(--text-primary);
+        padding: 6px 9px;
+        border-radius: 4px;
+        outline: none;
+    }
+    .palette-colors { display: flex; gap: 4px; flex-wrap: wrap; }
+    .palette-colors input[type="color"] {
+        width: 30px; height: 30px;
+        border: 1px solid var(--border);
+        border-radius: 4px;
+        cursor: pointer;
+        background: transparent;
+        padding: 0;
+    }
+    .palette-colors button {
+        background: var(--bg-elevated);
+        border: 1px dashed var(--border);
+        color: var(--text-dim);
+        width: 30px; height: 30px;
+        border-radius: 4px;
+    }
+
+    .empty { text-align: center; padding: 60px 20px; color: var(--text-dim); }
+</style>
+</head>
+<body>
+
+<div class="app">
+    <div class="header">
+        <div class="header-title"><span class="dot">&#9679;</span> Design Elements Manager</div>
+        <button class="btn" onclick="openUpload()"><i class="fa-solid fa-upload"></i> Upload SVG</button>
+        <button class="btn" onclick="regenerateManifest()"><i class="fa-solid fa-rotate"></i> Regenerate Manifest</button>
+        <button class="btn ghost" onclick="togglePreview()"><i class="fa-solid fa-eye"></i> <span id="previewLabel">Hide Preview</span></button>
+        <button class="btn ghost" onclick="logout()"><i class="fa-solid fa-right-from-bracket"></i> Logout</button>
+    </div>
+
+    <div class="body" id="body">
+        <div class="sidebar" id="sidebar"></div>
+        <div class="main" id="main"></div>
+        <div class="preview-pane">
+            <div class="preview-title">Preview</div>
+            <div class="preview-canvas-wrap">
+                <canvas id="previewCanvas" width="360" height="480"></canvas>
+            </div>
+            <div class="preview-meta" id="previewMeta">
+                <div style="color:var(--text-dim); font-size:11px;">Click an element to preview it on a blank page.</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Upload modal -->
+<div class="modal-overlay" id="uploadModal">
+    <div class="modal">
+        <h2>Upload SVG <button class="close" onclick="closeModal('uploadModal')">&times;</button></h2>
+        <div class="field">
+            <label>SVG File</label>
+            <div class="dropzone" id="dropzone" onclick="document.getElementById('fileInput').click()">
+                <i class="fa-solid fa-cloud-arrow-up" style="font-size:22px; margin-bottom:6px;"></i>
+                <div id="dropzoneLabel">Drop SVG here or click to pick</div>
+            </div>
+            <input type="file" id="fileInput" accept=".svg,image/svg+xml" style="display:none;">
+            <div class="svg-preview" id="uploadPreview" style="display:none;"></div>
+        </div>
+        <div class="field-row">
+            <div class="field">
+                <label>Slug</label>
+                <input type="text" id="uSlug" placeholder="my-element">
+            </div>
+            <div class="field">
+                <label>Category</label>
+                <select id="uCategory"></select>
+            </div>
+        </div>
+        <div class="field">
+            <label>Name (translations)</label>
+            <div class="trans-grid" id="uTrans"></div>
+        </div>
+        <div class="field-row">
+            <div class="field">
+                <label>Default Placement</label>
+                <select id="uPlacement">
+                    <option value="">(none)</option>
+                    <option value="center">center</option>
+                    <option value="top">top</option>
+                    <option value="bottom">bottom</option>
+                    <option value="full-frame">full-frame</option>
+                    <option value="divider">divider</option>
+                </select>
+            </div>
+            <div class="field">
+                <label>Default Scale: <span id="uScaleVal">0.50</span></label>
+                <input type="range" id="uScale" min="0" max="1" step="0.05" value="0.5">
+            </div>
+        </div>
+        <div class="field-row">
+            <div class="field" style="display:flex; align-items:center; gap:8px; padding-top:16px;">
+                <input type="checkbox" id="uTintable" checked>
+                <label for="uTintable" style="margin:0;">Tintable</label>
+            </div>
+            <div class="field">
+                <label>Tags (comma-separated)</label>
+                <input type="text" id="uTags" placeholder="star, seasonal">
+            </div>
+        </div>
+        <div class="modal-actions">
+            <button class="btn ghost" onclick="closeModal('uploadModal')">Cancel</button>
+            <button class="btn primary" onclick="submitUpload()" id="uploadBtn">Upload</button>
+        </div>
+    </div>
+</div>
+
+<!-- Edit modal -->
+<div class="modal-overlay" id="editModal">
+    <div class="modal">
+        <h2>Edit <span id="editSlug"></span> <button class="close" onclick="closeModal('editModal')">&times;</button></h2>
+        <div class="field">
+            <label>Name (translations)</label>
+            <div class="trans-grid" id="eTrans"></div>
+        </div>
+        <div class="field-row">
+            <div class="field">
+                <label>Default Placement</label>
+                <select id="ePlacement">
+                    <option value="">(none)</option>
+                    <option value="center">center</option>
+                    <option value="top">top</option>
+                    <option value="bottom">bottom</option>
+                    <option value="full-frame">full-frame</option>
+                    <option value="divider">divider</option>
+                </select>
+            </div>
+            <div class="field">
+                <label>Default Scale: <span id="eScaleVal">0.50</span></label>
+                <input type="range" id="eScale" min="0" max="1" step="0.05" value="0.5">
+            </div>
+        </div>
+        <div class="field-row">
+            <div class="field" style="display:flex; align-items:center; gap:8px; padding-top:16px;">
+                <input type="checkbox" id="eTintable">
+                <label for="eTintable" style="margin:0;">Tintable</label>
+            </div>
+            <div class="field">
+                <label>Tags</label>
+                <input type="text" id="eTags">
+            </div>
+        </div>
+        <div class="modal-actions">
+            <button class="btn danger" onclick="deleteCurrent()"><i class="fa-solid fa-trash"></i> Delete</button>
+            <button class="btn ghost" onclick="closeModal('editModal')">Cancel</button>
+            <button class="btn primary" onclick="submitEdit()" id="editBtn">Save</button>
+        </div>
+    </div>
+</div>
+
+<!-- Login overlay -->
+<div class="login-overlay" id="loginOverlay">
+    <div class="login-box">
+        <h2>Admin Login</h2>
+        <div class="login-error" id="loginError"></div>
+        <form onsubmit="handleLogin(event)">
+            <input type="email" class="login-input" id="loginEmail" placeholder="Email" value="admin@lessoncraftstudio.com" required>
+            <input type="password" class="login-input" id="loginPassword" placeholder="Password" required>
+            <button type="submit" class="login-btn" id="loginBtn">Sign In</button>
+        </form>
+    </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+/* =====================================================================
+   Design Elements Manager — Admin UI
+   Auth: same pattern as content-manager-v2.html (Bearer token + deviceId).
+   Preview canvas: uses verbatim helpers from REFERENCE APPS/coloring.html.
+   ===================================================================== */
+
+const API_URL = window.location.origin;
+
+const CATEGORIES = [
+    'patterns', 'textures', 'frames', 'corners', 'banners', 'dividers',
+    'badges', 'title-banners', 'accents', 'scatter-packs', 'footers', 'palettes'
+];
+const LOCALES = [
+    { code: 'en', label: 'English' },
+    { code: 'de', label: 'German' },
+    { code: 'fr', label: 'French' },
+    { code: 'es', label: 'Spanish' },
+    { code: 'pt', label: 'Portuguese' },
+    { code: 'it', label: 'Italian' },
+    { code: 'nl', label: 'Dutch' },
+    { code: 'sv', label: 'Swedish' },
+    { code: 'da', label: 'Danish' },
+    { code: 'no', label: 'Norwegian' },
+    { code: 'fi', label: 'Finnish' }
+];
+const PLACEMENT_CATEGORIES = { patterns:'bg', textures:'bg' };
+
+let currentCategory = 'patterns';
+let allItems = [];       // live rows
+let allPalettes = [];
+let editingSlug = null;
+let pendingSvgText = null;   // for upload preview
+let pendingSvgFile = null;
+
+/* ===== Auth ===== */
+function getAuthToken() { return localStorage.getItem('accessToken') || ''; }
+function getDeviceId() {
+    let id = localStorage.getItem('deviceId');
+    if (!id) {
+        const fp = [navigator.userAgent, navigator.language, screen.width+'x'+screen.height,
+                    screen.colorDepth, new Date().getTimezoneOffset(),
+                    navigator.hardwareConcurrency || '', navigator.deviceMemory || ''].join('|');
+        id = 'device_' + btoa(fp).replace(/[^a-zA-Z0-9]/g, '').substring(0, 32);
+        localStorage.setItem('deviceId', id);
+    }
+    return id;
+}
+async function authFetch(url, options = {}) {
+    const token = getAuthToken();
+    if (!token) { showLogin(); throw new Error('No auth token'); }
+    const resp = await fetch(url, { ...options, headers: { ...(options.headers||{}), 'Authorization': 'Bearer ' + token } });
+    if (resp.status === 401) { showLogin(); throw new Error('Authentication required'); }
+    return resp;
+}
+function showLogin() { document.getElementById('loginOverlay').classList.add('active'); }
+function hideLogin() { document.getElementById('loginOverlay').classList.remove('active'); }
+function logout() { localStorage.removeItem('accessToken'); showLogin(); }
+
+async function handleLogin(e) {
+    e.preventDefault();
+    const email = document.getElementById('loginEmail').value;
+    const pw = document.getElementById('loginPassword').value;
+    const btn = document.getElementById('loginBtn');
+    const err = document.getElementById('loginError');
+    err.textContent = '';
+    btn.disabled = true; btn.textContent = 'Signing in...';
+    try {
+        const resp = await fetch(API_URL + '/api/auth/signin', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({ email, password: pw, deviceId: getDeviceId(), rememberMe: false })
+        });
+        if (resp.ok) {
+            const data = await resp.json();
+            if (data.accessToken) {
+                localStorage.setItem('accessToken', data.accessToken);
+                hideLogin();
+                showToast('Signed in', 'success');
+                await loadAll();
+            } else throw new Error('no accessToken');
+        } else if (resp.status === 409) {
+            const conf = await resp.json();
+            if (confirm('Signed in elsewhere: ' + (conf.currentSession?.deviceName || 'Unknown') + '\n\nSign out there and continue here?')) {
+                const fresp = await fetch(API_URL + '/api/auth/force-signin', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({ email, password: pw, deviceId: getDeviceId(), rememberMe: false })
+                });
+                if (fresp.ok) {
+                    const data = await fresp.json();
+                    localStorage.setItem('accessToken', data.accessToken);
+                    hideLogin();
+                    showToast('Signed in', 'success');
+                    await loadAll();
+                } else {
+                    const e2 = await fresp.json();
+                    err.textContent = e2.error || 'Sign-in failed';
+                }
+            }
+        } else {
+            const e2 = await resp.json();
+            err.textContent = e2.error || 'Invalid credentials';
+        }
+    } catch (ex) {
+        err.textContent = 'Sign-in failed';
+    } finally {
+        btn.disabled = false; btn.textContent = 'Sign In';
+    }
+}
+
+/* ===== Toast ===== */
+function showToast(msg, kind = 'success') {
+    const t = document.getElementById('toast');
+    t.textContent = msg;
+    t.className = 'toast show ' + kind;
+    setTimeout(() => { t.className = 'toast ' + kind; }, 2600);
+}
+
+/* ===== Data load ===== */
+async function loadAll() {
+    try {
+        const resp = await authFetch(API_URL + '/api/design-elements/list');
+        if (!resp.ok) throw new Error('list failed');
+        const data = await resp.json();
+        allItems = data.items || [];
+        allPalettes = data.palettes || [];
+    } catch (e) {
+        console.error(e);
+        showToast('Failed to load items', 'error');
+        allItems = [];
+    }
+    renderSidebar();
+    renderMain();
+}
+
+/* ===== Sidebar ===== */
+function renderSidebar() {
+    const side = document.getElementById('sidebar');
+    const counts = {};
+    CATEGORIES.forEach(c => counts[c] = 0);
+    allItems.forEach(it => { if (counts[it.category] !== undefined) counts[it.category]++; });
+    counts.palettes = allPalettes.length;
+
+    side.innerHTML = '';
+    CATEGORIES.forEach(cat => {
+        const d = document.createElement('div');
+        d.className = 'cat-item' + (cat === currentCategory ? ' active' : '');
+        d.onclick = () => { currentCategory = cat; renderSidebar(); renderMain(); };
+        d.innerHTML = '<span>' + cat + '</span><span class="cat-count">' + counts[cat] + '</span>';
+        side.appendChild(d);
+    });
+}
+
+/* ===== Main grid ===== */
+function renderMain() {
+    const main = document.getElementById('main');
+    if (currentCategory === 'palettes') {
+        renderPalettes(main);
+        return;
+    }
+    const items = allItems.filter(i => i.category === currentCategory);
+    main.innerHTML = '';
+
+    const hdr = document.createElement('div');
+    hdr.className = 'main-header';
+    hdr.innerHTML = '<div class="main-title">' + currentCategory + ' (' + items.length + ')</div>' +
+        '<div class="main-filter"><span>Drag to reorder within category</span></div>';
+    main.appendChild(hdr);
+
+    if (items.length === 0) {
+        const empty = document.createElement('div');
+        empty.className = 'empty';
+        empty.innerHTML = '<i class="fa-solid fa-box-open" style="font-size:28px; margin-bottom:8px;"></i><div>No ' + currentCategory + ' yet. Click "Upload SVG" to add one.</div>';
+        main.appendChild(empty);
+        return;
+    }
+
+    const grid = document.createElement('div');
+    grid.className = 'grid';
+    const wideCats = ['banners', 'dividers', 'title-banners', 'scatter-packs', 'footers'];
+    const isWide = wideCats.includes(currentCategory);
+
+    items.forEach(it => {
+        const card = document.createElement('div');
+        card.className = 'card' + (isWide ? ' wide' : '') + (it.isActive === false ? ' inactive' : '');
+        card.draggable = true;
+        card.dataset.slug = it.slug;
+        card.onclick = () => { previewItem(it); };
+
+        const thumb = document.createElement('div');
+        thumb.className = 'card-thumb';
+        // Fetch the SVG content asynchronously and inject
+        fetch(it.url).then(r => r.text()).then(svg => {
+            thumb.innerHTML = svg;
+        }).catch(() => { thumb.innerHTML = '<span style="color:#aaa; font-size:10px;">preview unavailable</span>'; });
+        card.appendChild(thumb);
+
+        const body = document.createElement('div');
+        body.className = 'card-body';
+        const name = document.createElement('div');
+        name.className = 'card-name';
+        name.textContent = it.name || it.slug;
+        body.appendChild(name);
+
+        const actions = document.createElement('div');
+        actions.className = 'card-actions';
+        const editBtn = document.createElement('button');
+        editBtn.className = 'icon-btn';
+        editBtn.innerHTML = '<i class="fa-solid fa-pen"></i>';
+        editBtn.onclick = (e) => { e.stopPropagation(); openEdit(it); };
+        const delBtn = document.createElement('button');
+        delBtn.className = 'icon-btn danger';
+        delBtn.innerHTML = '<i class="fa-solid fa-trash"></i>';
+        delBtn.onclick = (e) => { e.stopPropagation(); quickDelete(it); };
+        actions.appendChild(editBtn); actions.appendChild(delBtn);
+        body.appendChild(actions);
+        card.appendChild(body);
+
+        // Drag to reorder
+        card.addEventListener('dragstart', (e) => {
+            card.classList.add('dragging');
+            e.dataTransfer.setData('text/plain', it.slug);
+        });
+        card.addEventListener('dragend', () => card.classList.remove('dragging'));
+        card.addEventListener('dragover', (e) => { e.preventDefault(); });
+        card.addEventListener('drop', (e) => {
+            e.preventDefault();
+            const draggedSlug = e.dataTransfer.getData('text/plain');
+            if (!draggedSlug || draggedSlug === it.slug) return;
+            reorderWithin(currentCategory, draggedSlug, it.slug);
+        });
+
+        grid.appendChild(card);
+    });
+    main.appendChild(grid);
+}
+
+async function reorderWithin(category, movedSlug, targetSlug) {
+    const items = allItems.filter(i => i.category === category).map(i => i.slug);
+    const fromIdx = items.indexOf(movedSlug);
+    const toIdx = items.indexOf(targetSlug);
+    if (fromIdx < 0 || toIdx < 0) return;
+    items.splice(fromIdx, 1);
+    items.splice(toIdx, 0, movedSlug);
+    try {
+        const resp = await authFetch(API_URL + '/api/design-elements/reorder', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({ category, slugs: items })
+        });
+        if (!resp.ok) throw new Error('reorder failed');
+        showToast('Reordered', 'success');
+        await loadAll();
+    } catch (e) {
+        showToast('Reorder failed', 'error');
+    }
+}
+
+/* ===== Palettes ===== */
+function renderPalettes(main) {
+    main.innerHTML = '';
+    const hdr = document.createElement('div');
+    hdr.className = 'main-header';
+    hdr.innerHTML = '<div class="main-title">Color Palettes (' + allPalettes.length + ')</div>' +
+        '<div><button class="btn" onclick="addPalette()"><i class="fa-solid fa-plus"></i> Add Palette</button> ' +
+        '<button class="btn primary" onclick="savePalettes()">Save All</button></div>';
+    main.appendChild(hdr);
+
+    const list = document.createElement('div');
+    list.className = 'palette-list';
+
+    allPalettes.forEach((p, idx) => {
+        const row = document.createElement('div');
+        row.className = 'palette-row';
+
+        const nameIn = document.createElement('input');
+        nameIn.type = 'text';
+        nameIn.value = p.name;
+        nameIn.oninput = (e) => { allPalettes[idx].name = e.target.value; };
+        row.appendChild(nameIn);
+
+        const colorsDiv = document.createElement('div');
+        colorsDiv.className = 'palette-colors';
+        p.colors.forEach((c, ci) => {
+            const inp = document.createElement('input');
+            inp.type = 'color';
+            inp.value = c;
+            inp.oninput = (e) => { allPalettes[idx].colors[ci] = e.target.value; };
+            colorsDiv.appendChild(inp);
+        });
+        if (p.colors.length < 8) {
+            const addC = document.createElement('button');
+            addC.innerHTML = '<i class="fa-solid fa-plus"></i>';
+            addC.title = 'Add color';
+            addC.onclick = () => { allPalettes[idx].colors.push('#888888'); renderMain(); };
+            colorsDiv.appendChild(addC);
+        }
+        if (p.colors.length > 3) {
+            const rmC = document.createElement('button');
+            rmC.innerHTML = '<i class="fa-solid fa-minus"></i>';
+            rmC.title = 'Remove last color';
+            rmC.onclick = () => { allPalettes[idx].colors.pop(); renderMain(); };
+            colorsDiv.appendChild(rmC);
+        }
+        row.appendChild(colorsDiv);
+
+        const rmBtn = document.createElement('button');
+        rmBtn.className = 'btn danger';
+        rmBtn.innerHTML = '<i class="fa-solid fa-trash"></i>';
+        rmBtn.onclick = () => { allPalettes.splice(idx, 1); renderMain(); renderSidebar(); };
+        row.appendChild(rmBtn);
+
+        list.appendChild(row);
+    });
+    main.appendChild(list);
+}
+function addPalette() {
+    allPalettes.push({ name: 'New Palette', colors: ['#cccccc','#999999','#666666','#333333','#000000'] });
+    renderMain(); renderSidebar();
+}
+async function savePalettes() {
+    try {
+        const resp = await authFetch(API_URL + '/api/design-elements/palettes', {
+            method: 'PUT',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({ palettes: allPalettes })
+        });
+        const j = await resp.json();
+        if (!resp.ok) throw new Error(j.error || 'save failed');
+        showToast('Palettes saved', 'success');
+    } catch (e) {
+        showToast('Save failed: ' + e.message, 'error');
+    }
+}
+
+/* ===== Upload ===== */
+function openUpload() {
+    pendingSvgText = null; pendingSvgFile = null;
+    document.getElementById('uSlug').value = '';
+    document.getElementById('uCategory').innerHTML = CATEGORIES.filter(c => c !== 'palettes')
+        .map(c => '<option value="' + c + '">' + c + '</option>').join('');
+    document.getElementById('uCategory').value = currentCategory === 'palettes' ? 'patterns' : currentCategory;
+    document.getElementById('uPlacement').value = '';
+    document.getElementById('uScale').value = '0.5';
+    document.getElementById('uScaleVal').textContent = '0.50';
+    document.getElementById('uTintable').checked = true;
+    document.getElementById('uTags').value = '';
+    document.getElementById('uploadPreview').style.display = 'none';
+    document.getElementById('uploadPreview').innerHTML = '';
+    document.getElementById('dropzoneLabel').textContent = 'Drop SVG here or click to pick';
+    document.getElementById('fileInput').value = '';
+
+    const trans = document.getElementById('uTrans');
+    trans.innerHTML = '';
+    LOCALES.forEach(l => {
+        const w = document.createElement('div');
+        w.innerHTML = '<label>' + l.code.toUpperCase() + ' ' + (l.code === 'en' ? '(required)' : '') + '</label>' +
+                      '<input type="text" data-trans="' + l.code + '" placeholder="' + l.label + '">';
+        trans.appendChild(w);
+    });
+
+    document.getElementById('uploadModal').classList.add('active');
+}
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('fileInput').addEventListener('change', (e) => readSvg(e.target.files[0]));
+    document.getElementById('uScale').addEventListener('input', (e) => {
+        document.getElementById('uScaleVal').textContent = Number(e.target.value).toFixed(2);
+    });
+    document.getElementById('eScale').addEventListener('input', (e) => {
+        document.getElementById('eScaleVal').textContent = Number(e.target.value).toFixed(2);
+    });
+    const dz = document.getElementById('dropzone');
+    dz.addEventListener('dragover', (e) => { e.preventDefault(); dz.classList.add('hover'); });
+    dz.addEventListener('dragleave', () => dz.classList.remove('hover'));
+    dz.addEventListener('drop', (e) => {
+        e.preventDefault(); dz.classList.remove('hover');
+        const f = e.dataTransfer.files[0];
+        if (f) readSvg(f);
+    });
+});
+
+function readSvg(file) {
+    if (!file) return;
+    if (!/svg/.test(file.type) && !file.name.toLowerCase().endsWith('.svg')) {
+        showToast('Only SVG files', 'error'); return;
+    }
+    pendingSvgFile = file;
+    const r = new FileReader();
+    r.onload = (e) => {
+        pendingSvgText = e.target.result;
+        const pv = document.getElementById('uploadPreview');
+        pv.innerHTML = pendingSvgText;
+        pv.style.display = 'flex';
+        document.getElementById('dropzoneLabel').textContent = file.name;
+        if (!document.getElementById('uSlug').value) {
+            const sl = file.name.replace(/\.svg$/i, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+            document.getElementById('uSlug').value = sl;
+        }
+    };
+    r.readAsText(file);
+}
+
+async function submitUpload() {
+    const slug = document.getElementById('uSlug').value.trim();
+    const category = document.getElementById('uCategory').value;
+    const placement = document.getElementById('uPlacement').value || '';
+    const scale = document.getElementById('uScale').value;
+    const tintable = document.getElementById('uTintable').checked;
+    const tagsRaw = document.getElementById('uTags').value.trim();
+    const trans = {};
+    document.querySelectorAll('#uTrans input[data-trans]').forEach(el => {
+        if (el.value.trim()) trans[el.dataset.trans] = el.value.trim();
+    });
+
+    if (!pendingSvgFile) { showToast('Pick an SVG first', 'error'); return; }
+    if (!slug) { showToast('Slug required', 'error'); return; }
+    if (!trans.en) { showToast('English name required', 'error'); return; }
+
+    const tags = tagsRaw ? tagsRaw.split(',').map(s => s.trim()).filter(Boolean) : [];
+
+    const fd = new FormData();
+    fd.append('svg', pendingSvgFile);
+    fd.append('slug', slug);
+    fd.append('category', category);
+    fd.append('translations', JSON.stringify(trans));
+    if (placement) fd.append('defaultPlacement', placement);
+    fd.append('defaultScale', scale);
+    fd.append('tintable', String(tintable));
+    fd.append('tags', JSON.stringify(tags));
+
+    const btn = document.getElementById('uploadBtn');
+    btn.disabled = true; btn.textContent = 'Uploading...';
+    try {
+        const resp = await authFetch(API_URL + '/api/design-elements/upload', { method: 'POST', body: fd });
+        const j = await resp.json();
+        if (!resp.ok) throw new Error(j.error || 'upload failed');
+        showToast('Uploaded', 'success');
+        closeModal('uploadModal');
+        currentCategory = category;
+        await loadAll();
+    } catch (e) {
+        showToast(e.message, 'error');
+    } finally {
+        btn.disabled = false; btn.textContent = 'Upload';
+    }
+}
+
+/* ===== Edit ===== */
+function openEdit(it) {
+    editingSlug = it.slug;
+    document.getElementById('editSlug').textContent = it.slug;
+    document.getElementById('ePlacement').value = it.defaultPlacement || '';
+    const scale = it.defaultScale ?? 0.5;
+    document.getElementById('eScale').value = String(scale);
+    document.getElementById('eScaleVal').textContent = Number(scale).toFixed(2);
+    document.getElementById('eTintable').checked = it.tintable !== false;
+    document.getElementById('eTags').value = (it.tags || []).join(', ');
+
+    const trans = document.getElementById('eTrans');
+    trans.innerHTML = '';
+    LOCALES.forEach(l => {
+        const w = document.createElement('div');
+        const val = (it.translations && it.translations[l.code]) || (l.code === 'en' ? (it.name || '') : '');
+        w.innerHTML = '<label>' + l.code.toUpperCase() + '</label>' +
+                      '<input type="text" data-trans="' + l.code + '" value="' + escapeHtml(val) + '">';
+        trans.appendChild(w);
+    });
+    document.getElementById('editModal').classList.add('active');
+}
+function escapeHtml(s) { return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]); }
+
+async function submitEdit() {
+    if (!editingSlug) return;
+    const placement = document.getElementById('ePlacement').value || null;
+    const scale = parseFloat(document.getElementById('eScale').value);
+    const tintable = document.getElementById('eTintable').checked;
+    const tags = document.getElementById('eTags').value.split(',').map(s => s.trim()).filter(Boolean);
+    const trans = {};
+    document.querySelectorAll('#eTrans input[data-trans]').forEach(el => {
+        if (el.value.trim()) trans[el.dataset.trans] = el.value.trim();
+    });
+
+    const body = { translations: trans, defaultPlacement: placement, defaultScale: scale, tintable, tags };
+    const btn = document.getElementById('editBtn');
+    btn.disabled = true; btn.textContent = 'Saving...';
+    try {
+        const resp = await authFetch(API_URL + '/api/design-elements/' + encodeURIComponent(editingSlug), {
+            method: 'PUT',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify(body)
+        });
+        const j = await resp.json();
+        if (!resp.ok) throw new Error(j.error || 'save failed');
+        showToast('Saved', 'success');
+        closeModal('editModal');
+        await loadAll();
+    } catch (e) {
+        showToast(e.message, 'error');
+    } finally {
+        btn.disabled = false; btn.textContent = 'Save';
+    }
+}
+
+async function deleteCurrent() {
+    if (!editingSlug) return;
+    if (!confirm('Soft-delete "' + editingSlug + '"? (It will disappear from apps but remain in DB.)')) return;
+    try {
+        const resp = await authFetch(API_URL + '/api/design-elements/' + encodeURIComponent(editingSlug), { method: 'DELETE' });
+        const j = await resp.json();
+        if (!resp.ok) throw new Error(j.error || 'delete failed');
+        showToast('Deleted', 'success');
+        closeModal('editModal');
+        await loadAll();
+    } catch (e) {
+        showToast(e.message, 'error');
+    }
+}
+async function quickDelete(it) {
+    if (!confirm('Soft-delete "' + it.slug + '"?')) return;
+    try {
+        const resp = await authFetch(API_URL + '/api/design-elements/' + encodeURIComponent(it.slug), { method: 'DELETE' });
+        if (!resp.ok) throw new Error('delete failed');
+        showToast('Deleted', 'success');
+        await loadAll();
+    } catch (e) {
+        showToast('Delete failed', 'error');
+    }
+}
+
+function closeModal(id) { document.getElementById(id).classList.remove('active'); }
+
+/* ===== Manifest regen ===== */
+async function regenerateManifest() {
+    if (!confirm('Rebuild manifest.json from DB? (runs on server)')) return;
+    try {
+        const resp = await authFetch(API_URL + '/api/design-elements/manifest/regenerate', { method: 'POST' });
+        const j = await resp.json();
+        if (!resp.ok) throw new Error(j.error || 'regen failed');
+        showToast('Manifest regenerated (' + j.count + ' items)', 'success');
+    } catch (e) {
+        showToast(e.message, 'error');
+    }
+}
+
+/* ===== Preview toggle ===== */
+function togglePreview() {
+    document.getElementById('body').classList.toggle('preview-off');
+    document.getElementById('previewLabel').textContent =
+        document.getElementById('body').classList.contains('preview-off') ? 'Show Preview' : 'Hide Preview';
+}
+
+/* =====================================================================
+   PREVIEW CANVAS — uses the verbatim helpers from REFERENCE APPS/coloring.html
+   These encode 15 bugfixes from yesterday's coloring.html integration —
+   DO NOT modify.
+   ===================================================================== */
+
+let previewCanvas = null;
+let dePageBgObject = null;
+let dePageBgOpacity = 1;
+
+function initPreview() {
+    previewCanvas = new fabric.Canvas('previewCanvas', {
+        backgroundColor: '#fdfbf4',
+        preserveObjectStacking: true,
+        selection: false,
+        enableRetinaScaling: true
+    });
+    window.canvas = previewCanvas;
+    window.dispatchEvent(new CustomEvent('coloring-canvas-ready'));
+}
+
+// Logical size helper — matches coloring.html
+function getLogicalSize(cv) {
+    const zoom = (cv && cv.getZoom && cv.getZoom()) || 1;
+    return {
+        width: (cv ? cv.getWidth() : 360) / zoom,
+        height: (cv ? cv.getHeight() : 480) / zoom
+    };
+}
+
+// Render SVG string → fabric.Image via native Image (bugfix #1 from lessons)
+function svgToFabricImage(svgString, targetWidth, callback) {
+    let clean = svgString.replace(/<text\b[^>]*>[\s\S]*?<\/text>/g, '');
+    const w = Math.max(2, Math.round(targetWidth || 800));
+    if (!/\<svg[^>]*\swidth=/.test(clean)) {
+        clean = clean.replace(/<svg\b/, `<svg width="${w}"`);
+    }
+    const blob = new Blob([clean], { type: 'image/svg+xml;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const nativeImg = new Image();
+    nativeImg.onload = () => {
+        const fabImg = new fabric.Image(nativeImg);
+        callback(fabImg);
+    };
+    nativeImg.onerror = () => { URL.revokeObjectURL(url); console.warn('SVG load failed'); };
+    nativeImg.src = url;
+}
+
+function clearPreview() {
+    if (!previewCanvas) return;
+    previewCanvas.getObjects().slice().forEach(o => previewCanvas.remove(o));
+    dePageBgObject = null;
+    previewCanvas.setBackgroundColor('#fdfbf4', previewCanvas.renderAll.bind(previewCanvas));
+}
+
+function setPagePattern(svgString) {
+    const cv = previewCanvas;
+    if (!cv) return;
+    if (dePageBgObject) { cv.remove(dePageBgObject); dePageBgObject = null; }
+    const { width: W, height: H } = getLogicalSize(cv);
+    let modified = svgString
+        .replace(/viewBox="0 0 100 100"/, `viewBox="0 0 ${W} ${H}"`)
+        .replace(/<rect\s+width="100"\s+height="100"/g, '<rect width="100%" height="100%"');
+    modified = modified.replace(/<svg\b([^>]*)>/, (m, attrs) => {
+        attrs = attrs.replace(/\swidth="[^"]*"/g, '').replace(/\sheight="[^"]*"/g, '').replace(/\spreserveAspectRatio="[^"]*"/g, '');
+        return `<svg${attrs} width="${W}" height="${H}">`;
+    });
+    const blob = new Blob([modified], { type: 'image/svg+xml;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    fabric.Image.fromURL(url, (img) => {
+        URL.revokeObjectURL(url);
+        if (!img) return;
+        img.set({ left: 0, top: 0, originX:'left', originY:'top', selectable:false, evented:false, hoverCursor:'default', opacity: dePageBgOpacity });
+        img.scaleX = W / (img.width || 1);
+        img.scaleY = H / (img.height || 1);
+        cv.add(img); cv.sendToBack(img);
+        dePageBgObject = img;
+        cv.renderAll();
+    });
+}
+
+function setPageTexture(svgString) {
+    const cv = previewCanvas;
+    if (!cv) return;
+    if (dePageBgObject) { cv.remove(dePageBgObject); dePageBgObject = null; }
+    const { width: W, height: H } = getLogicalSize(cv);
+    let sized = svgString.replace(/<svg\b([^>]*)>/, (m, attrs) => {
+        attrs = attrs.replace(/\swidth="[^"]*"/g, '').replace(/\sheight="[^"]*"/g, '').replace(/\spreserveAspectRatio="[^"]*"/g, '');
+        return `<svg${attrs} width="${W}" height="${H}" preserveAspectRatio="none">`;
+    });
+    const blob = new Blob([sized], { type: 'image/svg+xml;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    fabric.Image.fromURL(url, (img) => {
+        URL.revokeObjectURL(url);
+        if (!img) return;
+        img.set({ left:0, top:0, originX:'left', originY:'top', selectable:false, evented:false, hoverCursor:'default', opacity: dePageBgOpacity });
+        img.scaleX = W / (img.width || 1);
+        img.scaleY = H / (img.height || 1);
+        cv.add(img); cv.sendToBack(img);
+        dePageBgObject = img;
+        cv.renderAll();
+    });
+}
+
+function addElement(svgString, placement='center', scaleRatio=0.5) {
+    const cv = previewCanvas;
+    if (!cv) return;
+    const { width: W, height: H } = getLogicalSize(cv);
+    const maxW = W * scaleRatio;
+    svgToFabricImage(svgString, maxW, (img) => {
+        if (placement === 'full-frame') img.scaleToWidth(W * 0.92);
+        else if (placement === 'divider') img.scaleToWidth(W * 0.8);
+        else if (img.width > maxW) img.scaleToWidth(maxW);
+        const visW = img.width * (img.scaleX || 1);
+        const visH = img.height * (img.scaleY || 1);
+        let left, top;
+        switch(placement) {
+            case 'top': left=(W-visW)/2; top=H*0.05; break;
+            case 'bottom': left=(W-visW)/2; top=H-visH-(H*0.03); break;
+            default: left=(W-visW)/2; top=(H-visH)/2;
+        }
+        img.set({ left, top, originX:'left', originY:'top' });
+        img.setCoords();
+        cv.add(img).renderAll();
+    });
+}
+
+function addCornerOrnaments(svgString) {
+    const cv = previewCanvas;
+    if (!cv) return;
+    const { width: W, height: H } = getLogicalSize(cv);
+    const size = 42; // proportionally smaller for the preview
+    const pad = 10;
+    const positions = [
+        { left: pad, top: pad, flipX:false, flipY:false },
+        { left: W - pad - size, top: pad, flipX:true, flipY:false },
+        { left: pad, top: H - pad - size, flipX:false, flipY:true },
+        { left: W - pad - size, top: H - pad - size, flipX:true, flipY:true }
+    ];
+    let sized = svgString.replace(/<text\b[^>]*>[\s\S]*?<\/text>/g, '');
+    if (!/\<svg[^>]*\swidth=/.test(sized)) sized = sized.replace(/<svg\b/, `<svg width="${size}"`);
+    const blob = new Blob([sized], { type: 'image/svg+xml;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const nativeImg = new Image();
+    nativeImg.onload = () => {
+        positions.forEach(p => {
+            const f = new fabric.Image(nativeImg, { left:p.left, top:p.top, originX:'left', originY:'top', flipX:p.flipX, flipY:p.flipY });
+            f.scaleToWidth(size);
+            f.set({ left:p.left, top:p.top });
+            f.setCoords();
+            cv.add(f);
+        });
+        cv.renderAll();
+        URL.revokeObjectURL(url);
+    };
+    nativeImg.onerror = () => URL.revokeObjectURL(url);
+    nativeImg.src = url;
+}
+
+async function previewItem(it) {
+    clearPreview();
+
+    // Update metadata panel
+    const meta = document.getElementById('previewMeta');
+    meta.innerHTML = '';
+    const rows = [
+        ['Slug', it.slug],
+        ['Category', it.category],
+        ['File', it.filePath],
+        ['Placement', it.defaultPlacement || '(none)'],
+        ['Scale', it.defaultScale != null ? String(it.defaultScale) : '(default)'],
+        ['Tintable', it.tintable === false ? 'no' : 'yes'],
+        ['Tags', (it.tags || []).join(', ') || '—']
+    ];
+    rows.forEach(([k, v]) => {
+        const d = document.createElement('div');
+        d.className = 'row';
+        d.innerHTML = '<span class="key">' + escapeHtml(k) + '</span><span>' + escapeHtml(v) + '</span>';
+        meta.appendChild(d);
+    });
+
+    // Fetch SVG content and render
+    let svgText = '';
+    try {
+        const r = await fetch(it.url);
+        svgText = await r.text();
+    } catch (e) {
+        showToast('Failed to load SVG', 'error');
+        return;
+    }
+
+    const cat = it.category;
+    const scale = it.defaultScale ?? (
+        cat === 'frames' ? 0.92 :
+        cat === 'dividers' ? 0.8 :
+        cat === 'corners' ? 0.3 :
+        cat === 'banners' ? 0.8 :
+        cat === 'title-banners' ? 0.9 :
+        cat === 'badges' ? 0.35 :
+        cat === 'accents' ? 0.25 :
+        cat === 'scatter-packs' ? 0.8 :
+        cat === 'footers' ? 0.85 : 0.5
+    );
+    const placement = it.defaultPlacement || (
+        cat === 'frames' ? 'full-frame' :
+        cat === 'dividers' ? 'divider' :
+        cat === 'banners' || cat === 'title-banners' ? 'top' :
+        cat === 'footers' ? 'bottom' : 'center'
+    );
+
+    if (cat === 'patterns') setPagePattern(svgText);
+    else if (cat === 'textures') setPageTexture(svgText);
+    else if (cat === 'corners') addCornerOrnaments(svgText);
+    else addElement(svgText, placement, scale);
+}
+
+/* ===== Boot ===== */
+document.addEventListener('DOMContentLoaded', () => {
+    initPreview();
+    if (!getAuthToken()) {
+        showLogin();
+    } else {
+        loadAll();
+    }
+});
+</script>
+
+</body>
+</html>

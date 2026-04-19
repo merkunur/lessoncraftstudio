@@ -92,6 +92,26 @@ if [ "$WG_JS_COUNT" -lt 30 ]; then
 fi
 
 echo "   Found $WG_HTML_COUNT HTML apps, $WG_JS_COUNT JS translations, $ADMIN_COUNT admin panels"
+
+# ============================================
+# DESIGN ELEMENTS PROTECTION - ISOLATED STORAGE
+# ============================================
+echo "🔒 Design elements protection check..."
+DE_SVG_COUNT=$(find /var/www/lcs-media/design-elements -name "*.svg" -type f 2>/dev/null | wc -l)
+
+if [ "$DE_SVG_COUNT" -lt 70 ]; then
+    echo ""
+    echo "⛔ CRITICAL: Design elements protection check FAILED!"
+    echo "   Expected: 70+ SVG files"
+    echo "   Found: $DE_SVG_COUNT files"
+    echo ""
+    echo "   Check: /var/www/lcs-media/design-elements/"
+    echo "   Or run: /opt/lessoncraftstudio/server-scripts/setup-design-elements-protection.sh"
+    echo ""
+    exit 1
+fi
+
+echo "   Found $DE_SVG_COUNT design-element SVGs"
 echo "✅ Worksheet generators protected"
 echo ""
 
@@ -269,6 +289,21 @@ elif [ "$POST_WG_JS" -lt "$WG_JS_COUNT" ]; then
     echo "      This should NOT happen - translations are in isolated storage!"
 else
     echo "✅ Worksheet generators verified in isolated storage"
+fi
+
+# ============================================
+# DESIGN ELEMENTS VERIFICATION
+# ============================================
+echo ""
+echo "🔒 Verifying design elements in isolated storage..."
+POST_DE_SVG=$(find /var/www/lcs-media/design-elements -name "*.svg" -type f 2>/dev/null | wc -l)
+echo "   Found $POST_DE_SVG design-element SVGs"
+
+if [ "$POST_DE_SVG" -lt "$DE_SVG_COUNT" ]; then
+    echo "   ⚠️  WARNING: Design-element SVG count dropped from $DE_SVG_COUNT to $POST_DE_SVG"
+    echo "      This should NOT happen - design elements are in isolated storage!"
+else
+    echo "✅ Design elements verified in isolated storage"
 fi
 
 # Quick HTTP test for sample accessibility (via nginx)

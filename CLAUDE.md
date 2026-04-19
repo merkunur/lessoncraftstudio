@@ -383,6 +383,129 @@ bash /var/www/lcs-media/scripts/update-worksheet.sh --public /tmp/homepage-conte
 
 ---
 
+## DESIGN ELEMENTS PROTECTION - ISOLATED STORAGE (ABSOLUTE RULE)
+
+**Decorative SVG elements (81 SVGs + 12 color palettes) are stored in ISOLATED STORAGE at `/var/www/lcs-media/design-elements/`**
+
+These elements back the "Design Elements" accordion in the coloring worksheet generator and will back the same feature in other worksheet apps. Categories: patterns, textures, frames, corners, banners, dividers, badges, title-banners, accents, scatter-packs, footers. Color palettes stored as JSON.
+
+### Source of truth & entry points
+- **Content manager URL:** `https://www.lessoncraftstudio.com/admin/design-elements-manager.html`
+- **Manager HTML source:** `REFERENCE CONTENT MANAGERS/design-elements-manager.html`
+- **DB table:** `design_elements` (Prisma model: `DesignElement` in `frontend/prisma/schema.prisma`)
+- **API routes:** `frontend/app/api/design-elements/` (list, upload, [slug], reorder, palettes, manifest/regenerate)
+- **Health endpoint:** `/api/health/design-elements`
+
+### Server File Structure
+```
+/var/www/lcs-media/design-elements/          (ISOLATED from code - bulletproof)
+├── manifest.json                             (rebuilt from DB via API)
+├── palettes.json                             (12 color palettes, edited via manager)
+├── patterns/     (12 SVGs)
+├── textures/     (8 SVGs)
+├── frames/       (15 SVGs)
+├── corners/      (6 SVGs)
+├── banners/      (5 SVGs)
+├── dividers/     (8 SVGs)
+├── badges/       (2 SVGs)
+├── title-banners/ (4 SVGs)
+├── accents/      (13 SVGs)
+├── scatter-packs/ (4 SVGs)
+└── footers/      (5 SVGs)
+```
+
+### 7-Layer Protection
+
+| Layer | Protection | How It Works |
+|-------|------------|--------------|
+| 1 | **Physical Isolation** | Files at `/var/www/lcs-media/design-elements/` - separate from code |
+| 2 | **Dedicated User** | `lcs-media` owns files - deploy runs as different user |
+| 3 | **Immutable Flags** | `chattr +i` on all SVGs + manifest.json + palettes.json |
+| 4 | **Pre-deploy Backup** | `design-elements_*.tar.gz` before EVERY deployment |
+| 5 | **Deployment Guards** | `deploy.sh` aborts if SVG count < 70 |
+| 6 | **Scheduled Backups** | Hourly/daily/weekly/monthly via `scheduled-backup.sh` |
+| 7 | **Health Monitoring** | 15-minute count check via `health-check.sh` |
+
+### NEVER DO LIST - DESIGN ELEMENTS
+
+**Claude must NEVER run these commands:**
+
+```bash
+# NEVER DELETE
+rm -rf /var/www/lcs-media/design-elements
+rm -rf /var/www/lcs-media/design-elements/*
+
+# NEVER REMOVE IMMUTABLE FLAGS without explicit user request
+chattr -i /var/www/lcs-media/design-elements/*
+chattr -R -i /var/www/lcs-media/design-elements
+
+# NEVER BULK DELETE
+find /var/www/lcs-media/design-elements -delete
+
+# NEVER MOVE
+mv /var/www/lcs-media/design-elements /some/other/path
+```
+
+```sql
+-- NEVER truncate or drop the DB table
+DELETE FROM design_elements;
+TRUNCATE design_elements;
+DROP TABLE design_elements;
+```
+
+### Safe Operations
+
+```bash
+# READ operations - safe
+ls /var/www/lcs-media/design-elements/
+find /var/www/lcs-media/design-elements -name "*.svg" | wc -l
+lsattr /var/www/lcs-media/design-elements/patterns/dotgrid.svg
+
+# SAFE UPDATE (use update-design-element.sh)
+bash /var/www/lcs-media/scripts/update-design-element.sh /tmp/scalloped.svg frames/scalloped.svg
+bash /var/www/lcs-media/scripts/update-design-element.sh /tmp/manifest.json manifest.json
+bash /var/www/lcs-media/scripts/update-design-element.sh /tmp/palettes.json palettes.json
+
+# SAFE DELETE (requires --confirm)
+bash /var/www/lcs-media/scripts/delete-design-element.sh --confirm frames/obsolete.svg
+```
+
+### Content Manager Deployment
+
+Update the manager HTML via the admin-panel workflow:
+```bash
+"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\REFERENCE CONTENT MANAGERS\design-elements-manager.html" root@65.108.5.250:/tmp/design-elements-manager.html
+
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /var/www/lcs-media/scripts/update-worksheet.sh --admin /tmp/design-elements-manager.html design-elements-manager.html"
+
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/admin/design-elements-manager.html' '.next/standalone/public/admin/design-elements-manager.html' && pm2 restart lessoncraftstudio"
+```
+
+### Verification Commands
+
+```bash
+# SVG count (should be >= 81)
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "find /var/www/lcs-media/design-elements -name '*.svg' | wc -l"
+
+# Immutable flags (should show 'i')
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "lsattr /var/www/lcs-media/design-elements/patterns/*.svg 2>/dev/null | head -3"
+
+# DB count (should match file count)
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "PGPASSWORD='LcS2025SecureDBPass' psql -U lcs_user -d lessoncraftstudio_prod -t -c \"SELECT COUNT(*) FROM design_elements WHERE is_active;\""
+
+# Health endpoint
+curl https://www.lessoncraftstudio.com/api/health/design-elements
+```
+
+### Initial Setup (One-Time)
+
+If migrating design elements to isolated storage for the first time:
+```bash
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /opt/lessoncraftstudio/server-scripts/setup-design-elements-protection.sh"
+```
+
+---
+
 ## DIACRITICS PROTECTION - IMAGE TRANSLATIONS (ABSOLUTE RULE)
 
 **The `image_library_items.translations` database was fixed on 2026-03-03.**
@@ -417,102 +540,113 @@ bash /var/www/lcs-media/scripts/update-worksheet.sh --public /tmp/homepage-conte
 
 ---
 
-## STRIPE PROTECTION - ABSOLUTE RULES
+## LEMON SQUEEZY PAYMENT SYSTEM - ABSOLUTE RULES
 
-**Stripe code was removed during the Feb 2027 pivot (Stage 1). It will be rebuilt for Stage 3. The backup and protection rules remain in effect.**
+**Lemon Squeezy is the payment processor. There is NO license key system. App ownership is purchase-based: a row in the `purchases` table with `user_id` + `apps_access[]` array = the user owns those apps.**
 
-### Current Working Configuration
+### The actual payment flow
 
-| Protection | Location |
-|------------|----------|
-| **Immutable Backup** | `/opt/lessoncraftstudio/stripe-backup/stripe-config.backup` (chattr +i) |
-| **PM2 Ecosystem** | `/opt/lessoncraftstudio/frontend/ecosystem.config.js` |
-| **Database Triggers** | Prevent TRUNCATE on users/subscriptions tables |
+1. User clicks Buy → redirected to Lemon Squeezy hosted checkout (`lessoncraftstudio-com.lemonsqueezy.com/checkout/buy/{uuid}`)
+2. User completes payment on LS
+3. LS sends webhook → `/api/webhooks/lemonsqueezy` (handler: `frontend/app/api/webhooks/lemonsqueezy/route.ts`)
+4. Webhook verifies HMAC-SHA256 signature via `LEMONSQUEEZY_WEBHOOK_SECRET`
+5. Idempotency check via `ls_webhook_events` table (unique `event_id`)
+6. For `order_created`: finds user by email OR auto-creates user + creates `Purchase` row with `apps_access[]` + sends password-reset email to new users
+7. For `order_refunded`: sets `Purchase.status='refunded'`, user loses access on next watermark check
+8. User logs in normally (email + password). Member dashboard at `/member/dashboard` queries `purchases` table by `userId`.
 
-### Multi-Layer Protection System
+### Required environment variables
 
-| Layer | Protection | How It Works |
-|-------|------------|--------------|
-| 1 | **Immutable Backup** | `stripe-config.backup` with chattr +i flag |
-| 2 | **PM2 Ecosystem Config** | Stripe vars loaded separately from .env files |
-| 3 | **Database Triggers** | Prevent TRUNCATE on users and subscriptions tables |
-| 4 | **Audit Triggers** | Log all stripe_customer_id changes |
-| 5 | **CLAUDE.md Rules** | Explicit NEVER commands below |
+| Variable | Purpose |
+|---|---|
+| `LEMONSQUEEZY_WEBHOOK_SECRET` | HMAC-SHA256 signing — if missing ALL webhooks rejected |
+| `LEMONSQUEEZY_API_KEY` | Lemon Squeezy API access |
+| `LEMONSQUEEZY_STORE_ID` | Numeric store ID |
+| `LEMONSQUEEZY_STORE_SLUG` | Subdomain (e.g., `lessoncraftstudio-com`) |
+| `SMTP_*` or `EMAIL_PROVIDER` credentials | For password-reset emails to new accounts |
 
-### NEVER DO LIST - STRIPE
+### Product config
+
+- Source of truth: `frontend/config/lemonsqueezy-products.ts`
+- 33 individual apps @ $49 + 6 category bundles @ $149 = 39 products
+- Each entry maps app-slug → LS product_id → hosted checkout URL
+- Helper: `getAppsForLSProduct(lsProductId)` returns array of app slugs
+
+### NEVER DO LIST - LEMON SQUEEZY
 
 **Claude must NEVER run these commands without EXPLICIT user request:**
 
 ```bash
-# NEVER modify Stripe environment variables
-sed -i '.*STRIPE.*' /opt/lessoncraftstudio/frontend/.env*
-echo "STRIPE_" >> .env*
+# NEVER modify Lemon Squeezy environment variables
+sed -i '.*LEMONSQUEEZY.*' /opt/lessoncraftstudio/frontend/.env*
+echo "LEMONSQUEEZY_" >> .env*
 
-# NEVER delete ecosystem config
-rm /opt/lessoncraftstudio/frontend/ecosystem.config.js
+# NEVER delete the webhook handler
+rm /opt/lessoncraftstudio/frontend/app/api/webhooks/lemonsqueezy/route.ts
 
-# NEVER unlock immutable backup
-chattr -i /opt/lessoncraftstudio/stripe-backup/stripe-config.backup
+# NEVER delete the product config
+rm /opt/lessoncraftstudio/frontend/config/lemonsqueezy-products.ts
 ```
 
 ```sql
--- NEVER clear customer data in bulk
-UPDATE users SET stripe_customer_id = NULL;
-DELETE FROM users WHERE stripe_customer_id IS NOT NULL;
+-- NEVER clear purchase data in bulk
+DELETE FROM purchases;
+TRUNCATE purchases;
+
+-- NEVER clear webhook audit log (breaks idempotency)
+DELETE FROM ls_webhook_events;
+TRUNCATE ls_webhook_events;
+
+-- NEVER drop user accounts tied to purchases
+DELETE FROM users WHERE id IN (SELECT user_id FROM purchases);
 TRUNCATE users;
-
--- NEVER delete subscriptions in bulk
-DELETE FROM subscriptions;
-TRUNCATE subscriptions;
-
--- NEVER clear payment history
-DELETE FROM payments;
-TRUNCATE payments;
 ```
 
 ### Safe Operations
 
-These operations ARE safe:
 ```bash
-# READ Stripe config - safe
-cat /opt/lessoncraftstudio/stripe-backup/stripe-config.backup
-cat /opt/lessoncraftstudio/frontend/ecosystem.config.js
+# Read (never edit) the webhook handler
+cat /opt/lessoncraftstudio/frontend/app/api/webhooks/lemonsqueezy/route.ts
 
-# Query subscription data - safe
-SELECT * FROM subscriptions WHERE user_id = 'specific-user-id';
-SELECT * FROM payments WHERE user_id = 'specific-user-id';
+# Query purchase data - safe
+# SELECT * FROM purchases WHERE user_id = '...';
+# SELECT * FROM ls_webhook_events WHERE status = 'failed' ORDER BY processed_at DESC;
+# SELECT * FROM users WHERE email = '...';
 
-# Create checkout sessions - safe (handled by API)
-# Process webhook events - safe (handled by API)
-# Query subscription status - safe (handled by API)
+# Test webhook endpoint liveness (returns 401 without valid signature - that's correct)
+curl -X POST https://www.lessoncraftstudio.com/api/webhooks/lemonsqueezy -d '{}'
 ```
 
 ### Recovery Procedure
 
-If Stripe breaks, restore from immutable backup:
-```bash
-# View correct values (backup is read-only while immutable)
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cat /opt/lessoncraftstudio/stripe-backup/stripe-config.backup"
-
-# To restore (requires explicit user permission):
-# 1. Unlock: chattr -i /opt/lessoncraftstudio/stripe-backup/stripe-config.backup
-# 2. Copy values to .env.production
-# 3. Re-lock: chattr +i /opt/lessoncraftstudio/stripe-backup/stripe-config.backup
-# 4. Restart PM2: pm2 restart ecosystem.config.js
-```
+If the payment system breaks:
+1. Check env vars: `cat /opt/lessoncraftstudio/frontend/.env.production | grep LEMONSQUEEZY`
+2. Check webhook handler exists: `ls -la /opt/lessoncraftstudio/frontend/app/api/webhooks/lemonsqueezy/route.ts`
+3. Check product config intact: `head -5 /opt/lessoncraftstudio/frontend/config/lemonsqueezy-products.ts`
+4. Check recent webhook failures: `PGPASSWORD='LcS2025SecureDBPass' psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT event_id, event_type, error_message, processed_at FROM ls_webhook_events WHERE status = 'failed' ORDER BY processed_at DESC LIMIT 10;"`
+5. Check Lemon Squeezy dashboard for webhook delivery failures (webhooks tab shows retry attempts + response codes)
 
 ### Verification Commands
 
 ```bash
-# Check backup exists and is immutable
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "lsattr /opt/lessoncraftstudio/stripe-backup/stripe-config.backup"
+# Webhook endpoint responds correctly (401 = signature check is running, which is what we want)
+curl -s -o /dev/null -w "%{http_code}\n" -X POST https://www.lessoncraftstudio.com/api/webhooks/lemonsqueezy
+# Expected: 401
 
-# Check ecosystem config exists
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls -la /opt/lessoncraftstudio/frontend/ecosystem.config.js"
+# Count purchases
+PGPASSWORD='LcS2025SecureDBPass' psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM purchases WHERE status='active';"
 
-# Check database triggers exist
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "PGPASSWORD='LcS2025SecureDBPass' psql -U lcs_user -d lessoncraftstudio_prod -c \"SELECT tgname FROM pg_trigger WHERE tgname LIKE '%stripe%' OR tgname LIKE '%truncate%';\""
+# Check for any webhook failures
+PGPASSWORD='LcS2025SecureDBPass' psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT status, COUNT(*) FROM ls_webhook_events GROUP BY status;"
+
+# Verify all purchases linked to users
+PGPASSWORD='LcS2025SecureDBPass' psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM purchases WHERE user_id IS NULL;"
+# Expected: 0
 ```
+
+### Legacy Stripe backup (reference only — NOT the active system)
+
+An immutable Stripe backup at `/opt/lessoncraftstudio/stripe-backup/stripe-config.backup` is preserved for historical reference. **Do not use it — Stripe is NOT the active payment processor.** Do not delete it either (immutable flag).
 
 ---
 
@@ -602,34 +736,40 @@ curl -I "https://www.lessoncraftstudio.com/samples/english/addition/sample-1.jpe
 - **NEVER** delete or modify `/var/www/lcs-media/image-library/`
 - **NEVER** delete or modify `/var/www/lcs-media/worksheet-generators/`
 - **NEVER** delete or modify `/var/www/lcs-media/admin-panels/`
+- **NEVER** delete or modify `/var/www/lcs-media/design-elements/`
+- **NEVER** run TRUNCATE, DROP, or bulk DELETE on the `design_elements` DB table
 - **NEVER** remove symlinks at `frontend/public/worksheet-generators` or `frontend/public/admin`
 - **NEVER** run `rm -rf` on any image, sample, or worksheet directories
 - **NEVER** run `chattr -i` on protected files without explicit user request
 - **NEVER** run `git add .` in project root (could include samples/images)
-- **NEVER** modify Stripe environment variables without explicit user request
-- **NEVER** run TRUNCATE or bulk DELETE on users or subscriptions tables
-- **NEVER** delete or modify `/opt/lessoncraftstudio/stripe-backup/`
+- **NEVER** modify `LEMONSQUEEZY_*` environment variables without explicit user request
+- **NEVER** run TRUNCATE or bulk DELETE on `users`, `purchases`, or `ls_webhook_events` tables
+- **NEVER** delete the webhook handler at `/opt/lessoncraftstudio/frontend/app/api/webhooks/lemonsqueezy/route.ts`
+- **NEVER** delete the product config at `/opt/lessoncraftstudio/frontend/config/lemonsqueezy-products.ts`
+- **NEVER** delete or modify `/opt/lessoncraftstudio/stripe-backup/` (legacy — preserved for reference, NOT the active system)
 
-## Current Architecture (Post-Pivot Feb 2027)
+## Current Architecture
 
 **Business:** Professional Printable Business Toolkit for entrepreneurs, Etsy sellers, Amazon KDP publishers.
 
-**Three-stage plan:**
-1. **Stage 1 (CURRENT):** Launch individual apps on WarriorPlus with 50% affiliate commissions
-2. **Stage 2:** Bundle apps into 6 category packages on WarriorPlus
-3. **Stage 3:** Rebuild subscription model, website becomes self-sufficient
+**Payment model:** Direct sales via **Lemon Squeezy**.
+- **33 individual apps** at **$49** each (one-time, full access, commercial license)
+- **6 category bundles** at **$149** each (Math, Literacy, Visual, Matching, Puzzle, Search)
+- All purchases are one-time, no tiers, no subscriptions, no upsell funnels
+- Access to an app = a row in the `purchases` table with `status='active'` linking `user_id` to `apps_access[]`
 
 ### What's Live
-- **33 worksheet generator apps** (all free with watermark, no signup required)
+- **33 worksheet generator apps** (all free to try with watermark, no signup required; paid access removes watermark)
 - **11 locales:** en, de, fr, es, pt, it, nl, sv, da, no, fi
 - **App detail pages:** `frontend/app/[locale]/apps/[slug]/page.tsx` (localized slugs)
 - **Apps listing:** `frontend/app/[locale]/apps/page.tsx` (6 categories)
 - **Homepage:** Entrepreneur-focused messaging
-- **Auth system:** Intact (login, signup, email verification)
-- **Admin system:** Intact (dormant, accessible at `/dashboard/admin`)
-- **Member portal:** WarriorPlus license key activation at `/member`
+- **Auth system:** Email + password, signup at `/auth/signup` or `/[locale]/auth/signup`, signin at `/auth/signin` or `/[locale]/auth/signin`
+- **Admin system:** Accessible at `/dashboard/admin`
+- **Member portal:** `/member` + `/member/dashboard` — shows user's active purchases (from `purchases` table). New users are auto-created on first Lemon Squeezy purchase and receive a password-reset email to set up login.
 - **Legal pages:** Terms, privacy, license
-- **WarriorPlus integration:** `frontend/config/warriorplus-products.ts` (source of truth for 33 apps, 6 categories)
+- **Lemon Squeezy integration:** `frontend/config/lemonsqueezy-products.ts` (source of truth for 33 apps + 6 bundles)
+- **Webhook handler:** `frontend/app/api/webhooks/lemonsqueezy/route.ts`
 
 ### What's Removed (Returns 410 Gone)
 - Blog (`/[locale]/blog/*`)
@@ -646,7 +786,8 @@ curl -I "https://www.lessoncraftstudio.com/samples/english/addition/sample-1.jpe
 | File | Purpose |
 |------|---------|
 | `frontend/middleware.ts` | 410 Gone routing for removed URLs + locale handling |
-| `frontend/config/warriorplus-products.ts` | Source of truth: 33 apps, 6 categories |
+| `frontend/config/lemonsqueezy-products.ts` | Source of truth: 33 apps + 6 bundles, LS product IDs, checkout URLs |
+| `frontend/app/api/webhooks/lemonsqueezy/route.ts` | Lemon Squeezy webhook handler (order_created, order_refunded) |
 | `frontend/config/product-page-slugs.ts` | Localized app detail page slugs (11 locales) |
 | `frontend/app/[locale]/apps/[slug]/page.tsx` | App detail pages |
 | `frontend/app/sitemap.ts` | Sitemap: static pages + app detail pages only |

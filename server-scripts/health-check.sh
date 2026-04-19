@@ -8,6 +8,8 @@
 SAMPLES_DIR="/var/www/lcs-media/samples"
 WG_DIR="/var/www/lcs-media/worksheet-generators"
 ADMIN_DIR="/var/www/lcs-media/admin-panels"
+DE_DIR="/var/www/lcs-media/design-elements"
+DE_MIN_COUNT=70
 STATE_DIR="/var/run/lcs-media"
 ALERT_EMAIL="${LCS_ALERT_EMAIL:-}"  # Set via environment variable
 DROP_THRESHOLD=10  # Alert if count drops by more than 10%
@@ -105,6 +107,38 @@ if [ "$PREV_ADMIN" -gt 0 ] && [ "$CURRENT_ADMIN" -lt "$PREV_ADMIN" ]; then
 fi
 
 # ============================================
+# CHECK DESIGN ELEMENTS
+# ============================================
+CURRENT_DE=$(find "$DE_DIR" -name "*.svg" -type f 2>/dev/null | wc -l)
+
+PREV_DE=0
+if [ -f "$STATE_DIR/de_count" ]; then
+    PREV_DE=$(cat "$STATE_DIR/de_count" 2>/dev/null || echo "0")
+fi
+echo "$CURRENT_DE" > "$STATE_DIR/de_count"
+
+# Absolute minimum check (must be at least DE_MIN_COUNT)
+if [ -d "$DE_DIR" ] && [ "$CURRENT_DE" -lt "$DE_MIN_COUNT" ] && [ "$PREV_DE" -gt 0 ]; then
+    MESSAGE="ALERT: Design-element SVG count is $CURRENT_DE, below minimum $DE_MIN_COUNT (was $PREV_DE)"
+    echo "$MESSAGE" >&2
+    logger -t lcs-health-check "$MESSAGE"
+    [ -n "$ALERT_EMAIL" ] && echo "$MESSAGE" | mail -s "LCS Alert: Design Element Count Drop" "$ALERT_EMAIL"
+    ISSUES=$((ISSUES + 1))
+fi
+
+# Percentage drop check
+if [ "$PREV_DE" -gt 0 ]; then
+    DE_DROP=$(( (PREV_DE - CURRENT_DE) * 100 / PREV_DE ))
+    if [ "$DE_DROP" -gt "$DROP_THRESHOLD" ]; then
+        MESSAGE="ALERT: Design-element count dropped from $PREV_DE to $CURRENT_DE ($DE_DROP% drop)"
+        echo "$MESSAGE" >&2
+        logger -t lcs-health-check "$MESSAGE"
+        [ -n "$ALERT_EMAIL" ] && echo "$MESSAGE" | mail -s "LCS Alert: Design Element Count Drop" "$ALERT_EMAIL"
+        ISSUES=$((ISSUES + 1))
+    fi
+fi
+
+# ============================================
 # REPORT
 # ============================================
 if [ "$ISSUES" -gt 0 ]; then
@@ -117,5 +151,5 @@ if [ "$CURRENT_SAMPLE_TOTAL" -eq 0 ] && [ "$CURRENT_WG_HTML" -eq 0 ]; then
     exit 0
 fi
 
-echo "OK: Samples=$CURRENT_SAMPLE_TOTAL (JPEG:$CURRENT_JPEG WebP:$CURRENT_WEBP) | Worksheets=$CURRENT_WG_HTML HTML $CURRENT_WG_JS JS | Admin=$CURRENT_ADMIN"
+echo "OK: Samples=$CURRENT_SAMPLE_TOTAL (JPEG:$CURRENT_JPEG WebP:$CURRENT_WEBP) | Worksheets=$CURRENT_WG_HTML HTML $CURRENT_WG_JS JS | Admin=$CURRENT_ADMIN | DesignElements=$CURRENT_DE"
 exit 0

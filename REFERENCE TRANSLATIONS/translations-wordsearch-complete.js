@@ -39,6 +39,23 @@ const translations = {
     // ENGLISH (Base Language)
     // ==========================================
     en: {
+        // Design Elements (added 2026-04-19)
+        "deBgTitle": "Page Background",
+        "dePatterns": "Patterns",
+        "deTextures": "Textures",
+        "deOpacity": "Opacity",
+        "deClearBg": "Clear Background",
+        "deFramesTitle": "Frames",
+        "deCornersTitle": "Corner Ornaments",
+        "deBannersTitle": "Banners",
+        "deDividersTitle": "Dividers",
+        "deBadgesTitle": "Badges & Seals",
+        "deTitleBannersTitle": "Title Banners",
+        "deAccentsTitle": "Decorative Accents",
+        "deScatterTitle": "Scatter Packs",
+        "deFootersTitle": "Footers",
+        "dePalettesTitle": "Color Palettes",
+        "dePaletteHint": "Click a color to apply. If an element is selected, it gets that fill color. Otherwise, it becomes the page background.",
         // App Metadata & Titles
         "app.title": "Word Search Generator",
         "worksheetGenerator": "Worksheet Generator",
@@ -255,6 +272,23 @@ const translations = {
     // GERMAN / DEUTSCH
     // ==========================================
     de: {
+        // Design Elements (added 2026-04-19)
+        "deBgTitle": "Seitenhintergrund",
+        "dePatterns": "Muster",
+        "deTextures": "Texturen",
+        "deOpacity": "Deckkraft",
+        "deClearBg": "Hintergrund entfernen",
+        "deFramesTitle": "Rahmen",
+        "deCornersTitle": "Eckverzierungen",
+        "deBannersTitle": "Banner",
+        "deDividersTitle": "Trennlinien",
+        "deBadgesTitle": "Abzeichen & Siegel",
+        "deTitleBannersTitle": "Titelbanner",
+        "deAccentsTitle": "Dekorative Akzente",
+        "deScatterTitle": "Streudekor",
+        "deFootersTitle": "Fußzeilen",
+        "dePalettesTitle": "Farbpaletten",
+        "dePaletteHint": "Klicke auf eine Farbe, um sie anzuwenden. Wenn ein Element ausgewählt ist, erhält es diese Füllfarbe. Sonst wird sie zum Seitenhintergrund.",
         // App-Metadaten & Titel
         "app.title": "Worträtsel-Generator",
         "worksheetGenerator": "Arbeitsblatt-Ersteller",
@@ -470,6 +504,23 @@ const translations = {
     // FRENCH / FRANÇAIS
     // ==========================================
     fr: {
+        // Design Elements (added 2026-04-19)
+        "deBgTitle": "Arrière-plan",
+        "dePatterns": "Motifs",
+        "deTextures": "Textures",
+        "deOpacity": "Opacité",
+        "deClearBg": "Effacer l'arrière-plan",
+        "deFramesTitle": "Cadres",
+        "deCornersTitle": "Ornements de coin",
+        "deBannersTitle": "Bannières",
+        "deDividersTitle": "Séparateurs",
+        "deBadgesTitle": "Badges et sceaux",
+        "deTitleBannersTitle": "Bannières de titre",
+        "deAccentsTitle": "Accents décoratifs",
+        "deScatterTitle": "Éléments épars",
+        "deFootersTitle": "Pieds de page",
+        "dePalettesTitle": "Palettes de couleurs",
+        "dePaletteHint": "Cliquez sur une couleur pour l'appliquer. Si un élément est sélectionné, il prend cette couleur de remplissage. Sinon, elle devient l'arrière-plan de la page.",
         // Métadonnées et titres
         "app.title": "Générateur de mots mêlés",
         "worksheetGenerator": "Générateur de fiches d'exercices",
@@ -686,6 +737,23 @@ const translations = {
     // SPANISH / ESPAÑOL
     // ==========================================
     es: {
+        // Design Elements (added 2026-04-19)
+        "deBgTitle": "Fondo de página",
+        "dePatterns": "Patrones",
+        "deTextures": "Texturas",
+        "deOpacity": "Opacidad",
+        "deClearBg": "Borrar fondo",
+        "deFramesTitle": "Marcos",
+        "deCornersTitle": "Adornos de esquina",
+        "deBannersTitle": "Pancartas",
+        "deDividersTitle": "Separadores",
+        "deBadgesTitle": "Insignias y sellos",
+        "deTitleBannersTitle": "Pancartas de título",
+        "deAccentsTitle": "Acentos decorativos",
+        "deScatterTitle": "Elementos dispersos",
+        "deFootersTitle": "Pies de página",
+        "dePalettesTitle": "Paletas de colores",
+        "dePaletteHint": "Haga clic en un color para aplicarlo. Si hay un elemento seleccionado, recibe ese color de relleno. De lo contrario, se convierte en el fondo de página.",
         // Metadatos y títulos
         "app.title": "Generador de sopas de letras",
         "worksheetGenerator": "Generador de hojas de ejercicios",
@@ -902,6 +970,23 @@ const translations = {
     // ITALIAN / ITALIANO
     // ==========================================
     it: {
+        // Design Elements (added 2026-04-19)
+        "deBgTitle": "Sfondo pagina",
+        "dePatterns": "Motivi",
+        "deTextures": "Texture",
+        "deOpacity": "Opacità",
+        "deClearBg": "Rimuovi sfondo",
+        "deFramesTitle": "Cornici",
+        "deCornersTitle": "Decori angolari",
+        "deBannersTitle": "Striscioni",
+        "deDividersTitle": "Separatori",
+        "deBadgesTitle": "Distintivi e sigilli",
+        "deTitleBannersTitle": "Striscioni titolo",
+        "deAccentsTitle": "Accenti decorativi",
+        "deScatterTitle": "Elementi sparsi",
+        "deFootersTitle": "Piè di pagina",
+        "dePalettesTitle": "Tavolozze di colori",
+        "dePaletteHint": "Clicca un colore per applicarlo. Se è selezionato un elemento, riceve quel colore di riempimento. Altrimenti, diventa lo sfondo della pagina.",
         // Metadati e titoli
         "app.title": "Generatore di crucipuzzle",
         "worksheetGenerator": "Creatore di schede didattiche",
@@ -1116,6 +1201,23 @@ const translations = {
     // PORTUGUESE / PORTUGUÊS
     // ==========================================
     pt: {
+        // Design Elements (added 2026-04-19)
+        "deBgTitle": "Fundo da página",
+        "dePatterns": "Padrões",
+        "deTextures": "Texturas",
+        "deOpacity": "Opacidade",
+        "deClearBg": "Limpar fundo",
+        "deFramesTitle": "Molduras",
+        "deCornersTitle": "Ornamentos de canto",
+        "deBannersTitle": "Faixas",
+        "deDividersTitle": "Divisórias",
+        "deBadgesTitle": "Distintivos e selos",
+        "deTitleBannersTitle": "Faixas de título",
+        "deAccentsTitle": "Detalhes decorativos",
+        "deScatterTitle": "Elementos espalhados",
+        "deFootersTitle": "Rodapés",
+        "dePalettesTitle": "Paletas de cores",
+        "dePaletteHint": "Clique numa cor para a aplicar. Se um elemento estiver selecionado, recebe essa cor de preenchimento. Caso contrário, torna-se o fundo da página.",
         // Metadados e títulos
         "app.title": "Criador de caça-palavras",
         "worksheetGenerator": "Criador de folhas de trabalho",
@@ -1332,6 +1434,23 @@ const translations = {
     // DUTCH / NEDERLANDS
     // ==========================================
     nl: {
+        // Design Elements (added 2026-04-19)
+        "deBgTitle": "Pagina-achtergrond",
+        "dePatterns": "Patronen",
+        "deTextures": "Texturen",
+        "deOpacity": "Dekking",
+        "deClearBg": "Achtergrond wissen",
+        "deFramesTitle": "Kaders",
+        "deCornersTitle": "Hoekornamenten",
+        "deBannersTitle": "Banners",
+        "deDividersTitle": "Scheidingslijnen",
+        "deBadgesTitle": "Badges en zegels",
+        "deTitleBannersTitle": "Titelbanners",
+        "deAccentsTitle": "Decoratieve accenten",
+        "deScatterTitle": "Verspreide elementen",
+        "deFootersTitle": "Voetteksten",
+        "dePalettesTitle": "Kleurenpaletten",
+        "dePaletteHint": "Klik op een kleur om toe te passen. Als een element is geselecteerd, krijgt het die vulkleur. Anders wordt het de pagina-achtergrond.",
         // Metadata en titels
         "app.title": "Woordzoeker generator",
         "worksheetGenerator": "Werkbladmaker",
@@ -1546,6 +1665,23 @@ const translations = {
     // SWEDISH / SVENSKA
     // ==========================================
     sv: {
+        // Design Elements (added 2026-04-19)
+        "deBgTitle": "Sidbakgrund",
+        "dePatterns": "Mönster",
+        "deTextures": "Texturer",
+        "deOpacity": "Opacitet",
+        "deClearBg": "Rensa bakgrund",
+        "deFramesTitle": "Ramar",
+        "deCornersTitle": "Hörnornament",
+        "deBannersTitle": "Banderoller",
+        "deDividersTitle": "Avdelare",
+        "deBadgesTitle": "Märken och sigill",
+        "deTitleBannersTitle": "Titelbanderoller",
+        "deAccentsTitle": "Dekorativa accenter",
+        "deScatterTitle": "Spridda element",
+        "deFootersTitle": "Sidfötter",
+        "dePalettesTitle": "Färgpaletter",
+        "dePaletteHint": "Klicka på en färg för att använda den. Om ett element är markerat får det den fyllningsfärgen. Annars blir det sidans bakgrund.",
         // Metadata och titlar
         "app.title": "Ordjaktsgenerator",
         "worksheetGenerator": "Övningsbladsgenerator",
@@ -1762,6 +1898,23 @@ const translations = {
     // DANISH / DANSK
     // ==========================================
     da: {
+        // Design Elements (added 2026-04-19)
+        "deBgTitle": "Sidebaggrund",
+        "dePatterns": "Mønstre",
+        "deTextures": "Teksturer",
+        "deOpacity": "Opacitet",
+        "deClearBg": "Ryd baggrund",
+        "deFramesTitle": "Rammer",
+        "deCornersTitle": "Hjørneornamenter",
+        "deBannersTitle": "Bannere",
+        "deDividersTitle": "Adskillere",
+        "deBadgesTitle": "Mærker og segl",
+        "deTitleBannersTitle": "Titelbannere",
+        "deAccentsTitle": "Dekorative accenter",
+        "deScatterTitle": "Spredte elementer",
+        "deFootersTitle": "Sidefødder",
+        "dePalettesTitle": "Farvepaletter",
+        "dePaletteHint": "Klik på en farve for at anvende den. Hvis et element er valgt, får det den fyldfarve. Ellers bliver det sidens baggrund.",
         // Metadata og titler
         "app.title": "Ordsøgningsskaber",
         "worksheetGenerator": "Opgaveark-skaber", // Per RATIONALE: "Opgaveark" is standard Danish education term
@@ -1978,6 +2131,23 @@ const translations = {
     // NORWEGIAN / NORSK
     // ==========================================
     no: {
+        // Design Elements (added 2026-04-19)
+        "deBgTitle": "Sidebakgrunn",
+        "dePatterns": "Mønstre",
+        "deTextures": "Teksturer",
+        "deOpacity": "Opasitet",
+        "deClearBg": "Fjern bakgrunn",
+        "deFramesTitle": "Rammer",
+        "deCornersTitle": "Hjørneornamenter",
+        "deBannersTitle": "Bannere",
+        "deDividersTitle": "Skilletegn",
+        "deBadgesTitle": "Merker og segl",
+        "deTitleBannersTitle": "Tittelbannere",
+        "deAccentsTitle": "Dekorative aksenter",
+        "deScatterTitle": "Spredte elementer",
+        "deFootersTitle": "Bunntekster",
+        "dePalettesTitle": "Fargepaletter",
+        "dePaletteHint": "Klikk på en farge for å bruke den. Hvis et element er valgt, får det fyllfargen. Ellers blir det sidens bakgrunn.",
         // Metadata og titler
         "app.title": "Ordsøkgenerator",
         "worksheetGenerator": "Oppgavearkgenerator",
@@ -2194,6 +2364,23 @@ const translations = {
     // FINNISH / SUOMI
     // ==========================================
     fi: {
+        // Design Elements (added 2026-04-19)
+        "deBgTitle": "Sivun tausta",
+        "dePatterns": "Kuviot",
+        "deTextures": "Tekstuurit",
+        "deOpacity": "Peittävyys",
+        "deClearBg": "Tyhjennä tausta",
+        "deFramesTitle": "Kehykset",
+        "deCornersTitle": "Kulmakoristeet",
+        "deBannersTitle": "Banderollit",
+        "deDividersTitle": "Erottimet",
+        "deBadgesTitle": "Merkit ja sinetit",
+        "deTitleBannersTitle": "Otsikkobanderollit",
+        "deAccentsTitle": "Koristekorostukset",
+        "deScatterTitle": "Hajotetut elementit",
+        "deFootersTitle": "Alatunnisteet",
+        "dePalettesTitle": "Väripaletit",
+        "dePaletteHint": "Napsauta väriä käyttääksesi sitä. Jos elementti on valittuna, se saa täyttövärin. Muuten siitä tulee sivun tausta.",
         // Metadata ja otsikot
         "app.title": "Sanaristikkogeneraattori",
         "worksheetGenerator": "Tehtäväarkki-generaattori",

@@ -1139,68 +1139,68 @@
                 <!-- ================================================================ -->
 
                 <details class="de-subsection">
-                  <summary>Page Background <span class="de-subsection-count" id="deBgCount"></span></summary>
+                  <summary><span data-translate="deBgTitle">Page Background</span> <span class="de-subsection-count" id="deBgCount"></span></summary>
                   <div class="de-tabs">
-                    <button class="de-tab active" data-de-tab="patterns" onclick="deSwitchBgTab('patterns')">Patterns</button>
-                    <button class="de-tab" data-de-tab="textures" onclick="deSwitchBgTab('textures')">Textures</button>
+                    <button class="de-tab active" data-de-tab="patterns" onclick="deSwitchBgTab('patterns')" data-translate="dePatterns">Patterns</button>
+                    <button class="de-tab" data-de-tab="textures" onclick="deSwitchBgTab('textures')" data-translate="deTextures">Textures</button>
                   </div>
                   <div class="de-grid" id="de-grid-bg-patterns"></div>
                   <div class="de-grid" id="de-grid-bg-textures" style="display:none;"></div>
                   <div class="de-opacity-row">
-                    <span>Opacity</span>
+                    <span data-translate="deOpacity">Opacity</span>
                     <input type="range" id="deBgOpacity" min="0" max="100" value="100">
                     <span class="de-opacity-val" id="deBgOpacityVal">100%</span>
                   </div>
-                  <button id="deClearBg" style="font-size:11px; padding:5px 8px; margin-top:4px;">Clear Background</button>
+                  <button id="deClearBg" data-translate="deClearBg" style="font-size:11px; padding:5px 8px; margin-top:4px;">Clear Background</button>
                 </details>
 
                 <details class="de-subsection">
-                  <summary>Frames <span class="de-subsection-count" id="deFramesCount"></span></summary>
+                  <summary><span data-translate="deFramesTitle">Frames</span> <span class="de-subsection-count" id="deFramesCount"></span></summary>
                   <div class="de-grid" id="de-grid-frames"></div>
                 </details>
 
                 <details class="de-subsection">
-                  <summary>Corner Ornaments <span class="de-subsection-count" id="deCornersCount"></span></summary>
+                  <summary><span data-translate="deCornersTitle">Corner Ornaments</span> <span class="de-subsection-count" id="deCornersCount"></span></summary>
                   <div class="de-grid" id="de-grid-corners"></div>
                 </details>
 
                 <details class="de-subsection">
-                  <summary>Banners <span class="de-subsection-count" id="deBannersCount"></span></summary>
+                  <summary><span data-translate="deBannersTitle">Banners</span> <span class="de-subsection-count" id="deBannersCount"></span></summary>
                   <div class="de-grid" id="de-grid-banners" style="grid-template-columns: repeat(2, 1fr);"></div>
                 </details>
 
                 <details class="de-subsection">
-                  <summary>Dividers <span class="de-subsection-count" id="deDividersCount"></span></summary>
+                  <summary><span data-translate="deDividersTitle">Dividers</span> <span class="de-subsection-count" id="deDividersCount"></span></summary>
                   <div class="de-grid" id="de-grid-dividers" style="grid-template-columns: repeat(2, 1fr);"></div>
                 </details>
 
                 <details class="de-subsection">
-                  <summary>Badges &amp; Seals <span class="de-subsection-count" id="deBadgesCount"></span></summary>
+                  <summary><span data-translate="deBadgesTitle">Badges &amp; Seals</span> <span class="de-subsection-count" id="deBadgesCount"></span></summary>
                   <div class="de-grid" id="de-grid-badges"></div>
                 </details>
 
                 <details class="de-subsection">
-                  <summary>Title Banners <span class="de-subsection-count" id="deTitleBannersCount"></span></summary>
+                  <summary><span data-translate="deTitleBannersTitle">Title Banners</span> <span class="de-subsection-count" id="deTitleBannersCount"></span></summary>
                   <div class="de-grid" id="de-grid-title-banners" style="grid-template-columns: repeat(2, 1fr);"></div>
                 </details>
 
                 <details class="de-subsection">
-                  <summary>Decorative Accents <span class="de-subsection-count" id="deAccentsCount"></span></summary>
+                  <summary><span data-translate="deAccentsTitle">Decorative Accents</span> <span class="de-subsection-count" id="deAccentsCount"></span></summary>
                   <div class="de-grid" id="de-grid-accents"></div>
                 </details>
 
                 <details class="de-subsection">
-                  <summary>Scatter Packs <span class="de-subsection-count" id="deScatterCount"></span></summary>
+                  <summary><span data-translate="deScatterTitle">Scatter Packs</span> <span class="de-subsection-count" id="deScatterCount"></span></summary>
                   <div class="de-grid" id="de-grid-scatter" style="grid-template-columns: repeat(2, 1fr);"></div>
                 </details>
 
                 <details class="de-subsection">
-                  <summary>Footers <span class="de-subsection-count" id="deFootersCount"></span></summary>
+                  <summary><span data-translate="deFootersTitle">Footers</span> <span class="de-subsection-count" id="deFootersCount"></span></summary>
                   <div class="de-grid" id="de-grid-footers" style="grid-template-columns: repeat(2, 1fr);"></div>
                 </details>
 
                 <details class="de-subsection">
-                  <summary>Color Palettes <span class="de-subsection-count" id="dePalettesCount"></span></summary>
+                  <summary><span data-translate="dePalettesTitle">Color Palettes</span> <span class="de-subsection-count" id="dePalettesCount"></span></summary>
                   <div id="de-grid-palettes"></div>
                 </details>
 
@@ -4452,7 +4452,8 @@ async function downloadPDF(canvasToExport, filename) {
     // Helper hint text at top
     const hint = document.createElement('p');
     hint.style.cssText = 'font-size: 11px; color: var(--app-text-secondary-dark-theme); padding: 4px 2px 10px 2px; line-height: 1.4; margin: 0;';
-    hint.innerHTML = 'Click a <strong>color</strong> to apply. If an element is selected, it gets that fill color. Otherwise, it becomes the page background.';
+    hint.setAttribute('data-translate', 'dePaletteHint');
+    hint.textContent = (typeof t === 'function') ? t('dePaletteHint') : 'Click a color to apply. If an element is selected, it gets that fill color. Otherwise, it becomes the page background.';
     container.appendChild(hint);
 
     DESIGN_ELEMENTS.palettes.forEach(p => {

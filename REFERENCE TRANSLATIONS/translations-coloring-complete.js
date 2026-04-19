@@ -34,6 +34,23 @@ if (typeof formatTranslation === 'undefined') {
 
 const translations = {
     en: {
+        // Design Elements (added 2026-04-19)
+        "deBgTitle": "Page Background",
+        "dePatterns": "Patterns",
+        "deTextures": "Textures",
+        "deOpacity": "Opacity",
+        "deClearBg": "Clear Background",
+        "deFramesTitle": "Frames",
+        "deCornersTitle": "Corner Ornaments",
+        "deBannersTitle": "Banners",
+        "deDividersTitle": "Dividers",
+        "deBadgesTitle": "Badges & Seals",
+        "deTitleBannersTitle": "Title Banners",
+        "deAccentsTitle": "Decorative Accents",
+        "deScatterTitle": "Scatter Packs",
+        "deFootersTitle": "Footers",
+        "dePalettesTitle": "Color Palettes",
+        "dePaletteHint": "Click a color to apply. If an element is selected, it gets that fill color. Otherwise, it becomes the page background.",
         // Core UI Elements
         "coloringPageDesigner": "Coloring Page Designer",
         "coloringDesigner": "Coloring Designer",
@@ -160,6 +177,23 @@ const translations = {
     },
 
     de: {
+        // Design Elements (added 2026-04-19)
+        "deBgTitle": "Seitenhintergrund",
+        "dePatterns": "Muster",
+        "deTextures": "Texturen",
+        "deOpacity": "Deckkraft",
+        "deClearBg": "Hintergrund entfernen",
+        "deFramesTitle": "Rahmen",
+        "deCornersTitle": "Eckverzierungen",
+        "deBannersTitle": "Banner",
+        "deDividersTitle": "Trennlinien",
+        "deBadgesTitle": "Abzeichen & Siegel",
+        "deTitleBannersTitle": "Titelbanner",
+        "deAccentsTitle": "Dekorative Akzente",
+        "deScatterTitle": "Streudekor",
+        "deFootersTitle": "Fußzeilen",
+        "dePalettesTitle": "Farbpaletten",
+        "dePaletteHint": "Klicke auf eine Farbe, um sie anzuwenden. Wenn ein Element ausgewählt ist, erhält es diese Füllfarbe. Sonst wird sie zum Seitenhintergrund.",
         // Core UI Elements
         "coloringPageDesigner": "Malvorlagen-Designer",
         "coloringDesigner": "Mal-Designer",
@@ -285,6 +319,23 @@ const translations = {
     },
 
     fr: {
+        // Design Elements (added 2026-04-19)
+        "deBgTitle": "Arrière-plan",
+        "dePatterns": "Motifs",
+        "deTextures": "Textures",
+        "deOpacity": "Opacité",
+        "deClearBg": "Effacer l'arrière-plan",
+        "deFramesTitle": "Cadres",
+        "deCornersTitle": "Ornements de coin",
+        "deBannersTitle": "Bannières",
+        "deDividersTitle": "Séparateurs",
+        "deBadgesTitle": "Badges et sceaux",
+        "deTitleBannersTitle": "Bannières de titre",
+        "deAccentsTitle": "Accents décoratifs",
+        "deScatterTitle": "Éléments épars",
+        "deFootersTitle": "Pieds de page",
+        "dePalettesTitle": "Palettes de couleurs",
+        "dePaletteHint": "Cliquez sur une couleur pour l'appliquer. Si un élément est sélectionné, il prend cette couleur de remplissage. Sinon, elle devient l'arrière-plan de la page.",
         // Core UI Elements
         "coloringPageDesigner": "Créateur de Pages à Colorier",
         "coloringDesigner": "Créateur de Coloriage",
@@ -410,6 +461,23 @@ const translations = {
     },
 
     es: {
+        // Design Elements (added 2026-04-19)
+        "deBgTitle": "Fondo de página",
+        "dePatterns": "Patrones",
+        "deTextures": "Texturas",
+        "deOpacity": "Opacidad",
+        "deClearBg": "Borrar fondo",
+        "deFramesTitle": "Marcos",
+        "deCornersTitle": "Adornos de esquina",
+        "deBannersTitle": "Pancartas",
+        "deDividersTitle": "Separadores",
+        "deBadgesTitle": "Insignias y sellos",
+        "deTitleBannersTitle": "Pancartas de título",
+        "deAccentsTitle": "Acentos decorativos",
+        "deScatterTitle": "Elementos dispersos",
+        "deFootersTitle": "Pies de página",
+        "dePalettesTitle": "Paletas de colores",
+        "dePaletteHint": "Haga clic en un color para aplicarlo. Si hay un elemento seleccionado, recibe ese color de relleno. De lo contrario, se convierte en el fondo de página.",
         // Core UI Elements
         "coloringPageDesigner": "Creador de Páginas para Colorear",
         "coloringDesigner": "Creador de Colorear",
@@ -536,6 +604,23 @@ const translations = {
     },
 
     it: {
+        // Design Elements (added 2026-04-19)
+        "deBgTitle": "Sfondo pagina",
+        "dePatterns": "Motivi",
+        "deTextures": "Texture",
+        "deOpacity": "Opacità",
+        "deClearBg": "Rimuovi sfondo",
+        "deFramesTitle": "Cornici",
+        "deCornersTitle": "Decori angolari",
+        "deBannersTitle": "Striscioni",
+        "deDividersTitle": "Separatori",
+        "deBadgesTitle": "Distintivi e sigilli",
+        "deTitleBannersTitle": "Striscioni titolo",
+        "deAccentsTitle": "Accenti decorativi",
+        "deScatterTitle": "Elementi sparsi",
+        "deFootersTitle": "Piè di pagina",
+        "dePalettesTitle": "Tavolozze di colori",
+        "dePaletteHint": "Clicca un colore per applicarlo. Se è selezionato un elemento, riceve quel colore di riempimento. Altrimenti, diventa lo sfondo della pagina.",
         // Core UI Elements
         "coloringPageDesigner": "Creatore di Pagine da Colorare", // Fixed: Per RATIONALE - more natural Italian than "Designer"
         "coloringDesigner": "Creatore da Colorare", // Fixed: Consistency with main title
@@ -660,6 +745,23 @@ const translations = {
     },
 
     pt: {
+        // Design Elements (added 2026-04-19)
+        "deBgTitle": "Fundo da página",
+        "dePatterns": "Padrões",
+        "deTextures": "Texturas",
+        "deOpacity": "Opacidade",
+        "deClearBg": "Limpar fundo",
+        "deFramesTitle": "Molduras",
+        "deCornersTitle": "Ornamentos de canto",
+        "deBannersTitle": "Faixas",
+        "deDividersTitle": "Divisórias",
+        "deBadgesTitle": "Distintivos e selos",
+        "deTitleBannersTitle": "Faixas de título",
+        "deAccentsTitle": "Detalhes decorativos",
+        "deScatterTitle": "Elementos espalhados",
+        "deFootersTitle": "Rodapés",
+        "dePalettesTitle": "Paletas de cores",
+        "dePaletteHint": "Clique numa cor para a aplicar. Se um elemento estiver selecionado, recebe essa cor de preenchimento. Caso contrário, torna-se o fundo da página.",
         // Core UI Elements
         "coloringPageDesigner": "Criador de Páginas para Colorir", // Fixed 2025-11-29: Per RATIONALE - more natural than "Designer"
         "coloringDesigner": "Criador de Colorir", // Fixed 2025-11-29: Consistency with main title
@@ -785,6 +887,23 @@ const translations = {
     },
 
     nl: {
+        // Design Elements (added 2026-04-19)
+        "deBgTitle": "Pagina-achtergrond",
+        "dePatterns": "Patronen",
+        "deTextures": "Texturen",
+        "deOpacity": "Dekking",
+        "deClearBg": "Achtergrond wissen",
+        "deFramesTitle": "Kaders",
+        "deCornersTitle": "Hoekornamenten",
+        "deBannersTitle": "Banners",
+        "deDividersTitle": "Scheidingslijnen",
+        "deBadgesTitle": "Badges en zegels",
+        "deTitleBannersTitle": "Titelbanners",
+        "deAccentsTitle": "Decoratieve accenten",
+        "deScatterTitle": "Verspreide elementen",
+        "deFootersTitle": "Voetteksten",
+        "dePalettesTitle": "Kleurenpaletten",
+        "dePaletteHint": "Klik op een kleur om toe te passen. Als een element is geselecteerd, krijgt het die vulkleur. Anders wordt het de pagina-achtergrond.",
         // Core UI Elements
         "coloringPageDesigner": "Kleurplaat Ontwerper", // Fixed: Capitalized per RATIONALE line 24-34
         "coloringDesigner": "Kleurontwerper", // Fixed: Proper Dutch compound (short form)
@@ -910,6 +1029,23 @@ const translations = {
     },
 
     sv: {
+        // Design Elements (added 2026-04-19)
+        "deBgTitle": "Sidbakgrund",
+        "dePatterns": "Mönster",
+        "deTextures": "Texturer",
+        "deOpacity": "Opacitet",
+        "deClearBg": "Rensa bakgrund",
+        "deFramesTitle": "Ramar",
+        "deCornersTitle": "Hörnornament",
+        "deBannersTitle": "Banderoller",
+        "deDividersTitle": "Avdelare",
+        "deBadgesTitle": "Märken och sigill",
+        "deTitleBannersTitle": "Titelbanderoller",
+        "deAccentsTitle": "Dekorativa accenter",
+        "deScatterTitle": "Spridda element",
+        "deFootersTitle": "Sidfötter",
+        "dePalettesTitle": "Färgpaletter",
+        "dePaletteHint": "Klicka på en färg för att använda den. Om ett element är markerat får det den fyllningsfärgen. Annars blir det sidans bakgrund.",
         // Core UI Elements
         "coloringPageDesigner": "Målarbladsdesigner", // Fixed 2025-11-30: Per RATIONALE - "Målarblad" is standard for coloring pages, natural Swedish compound
         "coloringDesigner": "Målarbladsdesigner", // Fixed 2025-11-30: Consistency with main title (short form)
@@ -1036,6 +1172,23 @@ const translations = {
     },
 
     da: {
+        // Design Elements (added 2026-04-19)
+        "deBgTitle": "Sidebaggrund",
+        "dePatterns": "Mønstre",
+        "deTextures": "Teksturer",
+        "deOpacity": "Opacitet",
+        "deClearBg": "Ryd baggrund",
+        "deFramesTitle": "Rammer",
+        "deCornersTitle": "Hjørneornamenter",
+        "deBannersTitle": "Bannere",
+        "deDividersTitle": "Adskillere",
+        "deBadgesTitle": "Mærker og segl",
+        "deTitleBannersTitle": "Titelbannere",
+        "deAccentsTitle": "Dekorative accenter",
+        "deScatterTitle": "Spredte elementer",
+        "deFootersTitle": "Sidefødder",
+        "dePalettesTitle": "Farvepaletter",
+        "dePaletteHint": "Klik på en farve for at anvende den. Hvis et element er valgt, får det den fyldfarve. Ellers bliver det sidens baggrund.",
         // Core UI Elements
         "coloringPageDesigner": "Farvelægningsdesigner", // Fixed 2025-11-30: Per RATIONALE line 24 - natural Danish compound without "side-"
         "coloringDesigner": "Farvelægningsdesigner", // Fixed 2025-11-30: Consistency with main title
@@ -1162,6 +1315,23 @@ const translations = {
     },
 
     no: {
+        // Design Elements (added 2026-04-19)
+        "deBgTitle": "Sidebakgrunn",
+        "dePatterns": "Mønstre",
+        "deTextures": "Teksturer",
+        "deOpacity": "Opasitet",
+        "deClearBg": "Fjern bakgrunn",
+        "deFramesTitle": "Rammer",
+        "deCornersTitle": "Hjørneornamenter",
+        "deBannersTitle": "Bannere",
+        "deDividersTitle": "Skilletegn",
+        "deBadgesTitle": "Merker og segl",
+        "deTitleBannersTitle": "Tittelbannere",
+        "deAccentsTitle": "Dekorative aksenter",
+        "deScatterTitle": "Spredte elementer",
+        "deFootersTitle": "Bunntekster",
+        "dePalettesTitle": "Fargepaletter",
+        "dePaletteHint": "Klikk på en farge for å bruke den. Hvis et element er valgt, får det fyllfargen. Ellers blir det sidens bakgrunn.",
         // Core UI Elements
         "coloringPageDesigner": "Fargeleggingsdesigner", // Fixed 2025-11-30: Per RATIONALE line 24 - natural compound, "Fargelegging" is standard term
         "coloringDesigner": "Fargeleggingsdesigner", // Fixed 2025-11-30: Consistency with main title
@@ -1288,6 +1458,23 @@ const translations = {
     },
 
     fi: {
+        // Design Elements (added 2026-04-19)
+        "deBgTitle": "Sivun tausta",
+        "dePatterns": "Kuviot",
+        "deTextures": "Tekstuurit",
+        "deOpacity": "Peittävyys",
+        "deClearBg": "Tyhjennä tausta",
+        "deFramesTitle": "Kehykset",
+        "deCornersTitle": "Kulmakoristeet",
+        "deBannersTitle": "Banderollit",
+        "deDividersTitle": "Erottimet",
+        "deBadgesTitle": "Merkit ja sinetit",
+        "deTitleBannersTitle": "Otsikkobanderollit",
+        "deAccentsTitle": "Koristekorostukset",
+        "deScatterTitle": "Hajotetut elementit",
+        "deFootersTitle": "Alatunnisteet",
+        "dePalettesTitle": "Väripaletit",
+        "dePaletteHint": "Napsauta väriä käyttääksesi sitä. Jos elementti on valittuna, se saa täyttövärin. Muuten siitä tulee sivun tausta.",
         // Core UI Elements
         "coloringPageDesigner": "Värityskuvasuunnittelija", // Fixed 2025-12-02: Per RATIONALE line 24 - "Värityskuva" is standard term, not "Värityssivu" (rejected line 33)
         "coloringDesigner": "Värityskuvasuunnittelija", // Fixed 2025-12-02: Consistency with main title

@@ -24,8 +24,11 @@ echo "=== Design Elements Protection Setup ==="
 echo ""
 
 # ============================================
-# OWNERSHIP & PERMISSIONS
+# OWNERSHIP & PERMISSIONS (must unlock first if re-running)
 # ============================================
+echo "Temporarily unlocking files to adjust ownership..."
+find "$BASE_DIR" -type f -exec chattr -i {} + 2>/dev/null || true
+
 echo "Setting ownership to lcs-media:lcs-media..."
 chown -R lcs-media:lcs-media "$BASE_DIR"
 

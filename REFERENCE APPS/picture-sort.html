@@ -3784,8 +3784,8 @@ async function downloadPDF(name, canvasToExport) {
   // ====================================================================
   // State
   // ====================================================================
-  let dePageBgObject = null;   // reference to current background fabric object
-  let dePageBgCanvas = null;   // canvas that currently holds the background
+  // Backgrounds are stored per-canvas on the canvas instance (cv.__dePageBg),
+  // so switching worksheet/answer-key tabs preserves each page's background.
   let dePageBgOpacity = 1;
   window.deActivePalette = null;
 
@@ -3853,7 +3853,7 @@ async function downloadPDF(name, canvasToExport) {
   function setPagePattern(svgString) {
     const cv = getCanvas();
     if (!cv) { console.warn('canvas not ready'); return; }
-    if (dePageBgObject && dePageBgCanvas) { dePageBgCanvas.remove(dePageBgObject); dePageBgCanvas.renderAll(); dePageBgObject = null; dePageBgCanvas = null; }
+    if (cv.__dePageBg) { cv.remove(cv.__dePageBg); cv.__dePageBg = null; cv.renderAll(); }
 
     const { width: W, height: H } = getLogicalSize(cv);
     let modified = svgString
@@ -3885,8 +3885,7 @@ async function downloadPDF(name, canvasToExport) {
       img.scaleY = H / (img.height || 1);
       cv.add(img);
       cv.sendToBack(img);
-      dePageBgObject = img;
-      dePageBgCanvas = cv;
+      cv.__dePageBg = img;
       attachBgGuard(cv);
       cv.renderAll();
     });
@@ -3896,7 +3895,7 @@ async function downloadPDF(name, canvasToExport) {
   function setPageTexture(svgString) {
     const cv = getCanvas();
     if (!cv) { console.warn('canvas not ready'); return; }
-    if (dePageBgObject && dePageBgCanvas) { dePageBgCanvas.remove(dePageBgObject); dePageBgCanvas.renderAll(); dePageBgObject = null; dePageBgCanvas = null; }
+    if (cv.__dePageBg) { cv.remove(cv.__dePageBg); cv.__dePageBg = null; cv.renderAll(); }
 
     const { width: W, height: H } = getLogicalSize(cv);
     // Strip ALL existing width/height/preserveAspectRatio and add new (avoiding duplicate attributes)
@@ -3923,27 +3922,28 @@ async function downloadPDF(name, canvasToExport) {
       img.scaleY = H / (img.height || 1);
       cv.add(img);
       cv.sendToBack(img);
-      dePageBgObject = img;
-      dePageBgCanvas = cv;
+      cv.__dePageBg = img;
       attachBgGuard(cv);
       cv.renderAll();
     });
   }
 
   function clearPageBackground() {
-    if (dePageBgObject && dePageBgCanvas) {
-      dePageBgCanvas.remove(dePageBgObject);
-      dePageBgCanvas.renderAll();
+    const cv = getCanvas();
+    if (!cv) return;
+    if (cv.__dePageBg) {
+      cv.remove(cv.__dePageBg);
+      cv.__dePageBg = null;
+      cv.renderAll();
     }
-    dePageBgObject = null;
-    dePageBgCanvas = null;
   }
 
   function updateBgOpacity(v) {
     dePageBgOpacity = v / 100;
-    if (dePageBgObject && dePageBgCanvas) {
-      dePageBgObject.set('opacity', dePageBgOpacity);
-      dePageBgCanvas.renderAll();
+    const cv = getCanvas();
+    if (cv && cv.__dePageBg) {
+      cv.__dePageBg.set('opacity', dePageBgOpacity);
+      cv.renderAll();
     }
   }
 
@@ -4202,12 +4202,11 @@ async function downloadPDF(name, canvasToExport) {
     if (!cv || cv.__deBgGuardAttached) return;
     cv.__deBgGuardAttached = true;
     cv.on('object:added', (e) => {
-      if (!dePageBgObject || dePageBgCanvas !== cv) return;
-      if (e.target === dePageBgObject) return;
+      if (!cv.__dePageBg) return;
+      if (e.target === cv.__dePageBg) return;
       setTimeout(() => {
-        if (dePageBgObject && dePageBgCanvas === cv &&
-            cv.getObjects().indexOf(dePageBgObject) !== 0) {
-          cv.sendToBack(dePageBgObject);
+        if (cv.__dePageBg && cv.getObjects().indexOf(cv.__dePageBg) !== 0) {
+          cv.sendToBack(cv.__dePageBg);
           cv.renderAll();
         }
       }, 0);

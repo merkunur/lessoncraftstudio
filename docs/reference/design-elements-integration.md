@@ -140,6 +140,26 @@ discovered during the original coloring.html integration (2026-04-18 to
 
 17. **Expose the canvas globally**: `window.canvas = canvas;` plus a
     `coloring-canvas-ready` CustomEvent so the IIFE can late-bind.
+    - **Multi-canvas apps** (addition, alphabet-train, bingo, big-small,
+      chart-count, code-addition, crossword, cryptogram — anything with a
+      worksheet+answerKey / worksheet+solution / worksheet+callouts pair)
+      have a `getActiveCanvas()` helper already. Use a getter so clicks
+      always target the active tab:
+      ```js
+      Object.defineProperty(window, 'canvas', {
+          get() { return getActiveCanvas(); },
+          configurable: true
+      });
+      ```
+    - **Single-canvas apps** (coloring, draw-and-color, and anything else
+      with only one fabric canvas and no `getActiveCanvas()` function)
+      assign directly:
+      ```js
+      window.canvas = worksheetCanvas;
+      ```
+    Both paths dispatch the `coloring-canvas-ready` event. Check the target
+    app's code before choosing — if it has two fabric canvases and a
+    `getActiveCanvas()` function, use the getter; otherwise assign directly.
 18. **DOMContentLoaded race**: the IIFE sits at the end of `<body>` and
     may load after DOMContentLoaded has already fired. Branch on
     `document.readyState === 'loading'` before attaching.

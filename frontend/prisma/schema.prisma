@@ -1164,3 +1164,37 @@ model LSWebhookEvent {
   @@index([eventType])
   @@map("ls_webhook_events")
 }
+
+// ============================================================
+// Design Elements Library
+// Decorative SVG elements (patterns, frames, corners, banners,
+// dividers, badges, accents, etc.) available to all 33 worksheet
+// apps through the shared design-elements-loader.
+// Parallel to ImageLibraryItem but simpler (no themes — categories
+// are fixed: patterns|textures|frames|corners|banners|dividers|
+// badges|title-banners|accents|scatter-packs|footers).
+// Color palettes live in /var/www/lcs-media/design-elements/palettes.json
+// (not in this table — they're color arrays, not files).
+// ============================================================
+model DesignElement {
+  id               String   @id @default(cuid())
+  slug             String   @unique
+  category         String   // patterns|textures|frames|corners|banners|dividers|badges|title-banners|accents|scatter-packs|footers
+  filename         String                                            // e.g. "scalloped.svg"
+  filePath         String   @map("file_path")                         // relative, e.g. "frames/scalloped.svg"
+  fileSize         Int?     @map("file_size")
+  mimeType         String   @default("image/svg+xml") @map("mime_type")
+  translations     Json     @default("{}")                            // {en: "Scalloped", de: "Gewellt", ...}
+  tags             String[] @default([])                              // searchable tags
+  defaultPlacement String?  @map("default_placement")                 // center|top|bottom|full-frame|divider
+  defaultScale     Float?   @map("default_scale")                     // 0.50, 0.85, etc.
+  tintable         Boolean  @default(true)                            // apply palette color via BlendColor filter
+  sortOrder        Int      @default(0) @map("sort_order")
+  isActive         Boolean  @default(true) @map("is_active")
+  createdAt        DateTime @default(now()) @map("created_at")
+  updatedAt        DateTime @updatedAt @map("updated_at")
+
+  @@index([category, isActive, sortOrder])
+  @@index([tags])
+  @@map("design_elements")
+}

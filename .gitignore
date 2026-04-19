@@ -144,3 +144,9 @@ scripts/create-stripe-products.js
 blog thumbnails/
 pinterest-pins/
 tpt-thumbnails/
+
+# Design Elements library — extracted SVG artifacts (regenerate via extract-design-elements.js)
+# Source of truth: DESIGN_ELEMENTS object inside REFERENCE APPS/coloring.html
+# Server storage: /var/www/lcs-media/design-elements/
+design-elements-library/
+design-elements-sampler.html

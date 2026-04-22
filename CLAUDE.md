@@ -1,839 +1,585 @@
-# Project Instructions for Claude Code
+# CLAUDE.md — LessonCraftStudio Interactive Worksheets Platform
 
-## CRITICAL: BULLETPROOF SAMPLE STORAGE
-
-**Samples are stored in ISOLATED STORAGE at `/var/www/lcs-media/samples/`**
-
-This is **COMPLETELY SEPARATE** from the code repository at `/opt/lessoncraftstudio/`. The deployment script **CANNOT** touch sample files because they're in a different directory entirely.
-
-### Why This Architecture?
-
-Previous setups had samples at `/opt/lessoncraftstudio/samples/` which led to accidental deletion during deployments. The new architecture makes data loss physically impossible - deploy.sh runs in `/opt/lessoncraftstudio/` and cannot affect `/var/www/lcs-media/`.
+**Version:** 1.1
+**Last updated:** 2026-04-23
+**Audience:** Every Claude Code session working on this project reads this file first.
 
 ---
 
-## 7-LAYER PROTECTION SYSTEM
+## 1. What we are building
 
-| Layer | Protection | How It Works |
-|-------|------------|--------------|
-| 1 | **Physical Isolation** | Samples in `/var/www/lcs-media/` - completely separate from code |
-| 2 | **Dedicated User** | `lcs-media` user owns files - deploy runs as different user |
-| 3 | **Immutable Flags** | `chattr +i` on files - even root can't delete without explicit unlock |
-| 4 | **Pre-deploy Backup** | Automatic tar.gz before EVERY deployment |
-| 5 | **Deployment Guards** | deploy.sh verifies count didn't drop |
-| 6 | **Scheduled Backups** | Hourly/daily/weekly/monthly with rotation |
-| 7 | **Health Monitoring** | 15-minute checks with alerting |
+We are transforming LessonCraftStudio from a tool-sold-to-sellers site into a **subscription catalog platform for teachers**. Teachers browse a catalog of ready-made interactive worksheet decks, find ones that match their lesson, and share a link with their students. Students play the deck in the browser — on iPads, Chromebooks, smartboards, phones — with instant feedback, no student account required.
 
----
+The 31 existing worksheet generator apps (excluding the coloring and writing apps) are being extended with an interactive output mode alongside their existing PDF output. The operator uses these apps internally to produce decks that populate the catalog. Teachers never touch the apps.
 
-## SAMPLE PROTECTION - GIT ISOLATION (ABSOLUTE RULE)
+Revenue comes primarily from annual subscriptions (~$69/year unlimited access) with individual deck purchases (~$5 each) available as an alternative. A free tier provides 3 decks per month to drive conversion.
 
-**The samples folder must NEVER touch git:**
+## 2. Why this matters — the operator's situation
 
-| Rule | Why |
-|------|-----|
-| Local `samples/` is in `.gitignore` | Already configured - verified |
-| NEVER run `git add samples/` | Would add 16GB to repository |
-| NEVER run `git add .` in project root | Could accidentally include samples |
-| NEVER commit sample files to the repository | Would freeze/crash the repository |
+The operator has spent two years building the 31 apps, the 3,000-image library, and the 11-language vocabulary system. This technical foundation is genuinely rare and valuable. The previous positioning (selling individual app licenses to KDP/Etsy sellers) has not produced sustainable revenue. This pivot is the operator's chance to monetize the existing asset by repackaging it for the market that actually wants ready-made content: teachers.
 
-**Upload path:** Content Manager UI → API → `/var/www/lcs-media/samples/` (NEVER through git)
+Runway is limited. Time-to-revenue matters. This project must ship within approximately four months, not twelve.
 
-**Pre-commit hook protection:** The `.git/hooks/pre-commit` hook will BLOCK any attempt to commit sample files.
+## 3. Core principles — read these before writing any code
 
-### If you need to commit changes:
-```bash
-# CORRECT: Add specific files
-git add frontend/app/api/product-samples/list/route.ts
-git add frontend/components/product-page/SampleGallery.tsx
-git commit -m "Update sample API"
+### 3.1 The existing codebase is production; treat it with care
 
-# WRONG: Never do this
-git add .  # DANGEROUS - could include samples if .gitignore fails
-git add samples/  # BLOCKED by pre-commit hook
-```
+This project extends the existing LessonCraftStudio codebase at `C:\Users\rkgen\lessoncraftstudio\`. It does not create a parallel project. The Next.js frontend, Prisma database, authentication, Lemon Squeezy integration, the 33 HTML apps, the image library, and the vocabulary files all continue to live where they are.
 
----
+**Before modifying any existing file**, check whether the change affects production behavior. The existing 33 apps still serve existing customers. The existing `/api/images` endpoint still serves the apps. The existing user accounts still work. All of this must continue working during and after the new work.
 
-## Deployment - CRITICAL
+When in doubt: add new files rather than modifying existing ones. Create new routes alongside old ones. Introduce new database tables, don't migrate existing ones destructively. The interactive platform is **additive**.
 
-### Before ANY Deployment
-1. **COMMIT** all changes: `git add . && git commit -m "message"`
-2. **PUSH** to remote: `git push`
-3. **THEN** deploy (git pull on server only gets pushed commits)
+### 3.2 The 31 apps' generation logic is not to be rewritten
 
-### Scenario 1: Next.js Code Changes (Product Pages, Components, Config)
-```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /opt/lessoncraftstudio/deploy.sh"
-```
-**Note:** The deploy.sh script handles everything. Samples are in isolated storage at `/var/www/lcs-media/samples/` and CANNOT be affected by deployment.
+The apps work. They produce deterministic, consistent content. They are the result of thousands of hours of work and subtle fixes. We extend them — we do not rewrite them.
 
-### Scenario 2: Worksheet Generator Updates (HTML files)
-```bash
-# 1. Upload to /tmp (files are immutable at destination)
-"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\REFERENCE APPS\[app].html" root@65.108.5.250:/tmp/[app].html
+Specifically: each app's existing rendering code (which builds Fabric.js canvas scenes) is the source of truth for what the worksheet looks like. The interactive output mode reuses this rendering logic; it does not duplicate or reimplement it. The new work is adding a second serialization target (interactive deck bundle) alongside the existing one (PDF). The apps' generation algorithms, image selection, layout, and customization surfaces are preserved unchanged.
 
-# 2. Safe update (unlock -> copy -> re-lock)
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /var/www/lcs-media/scripts/update-worksheet.sh /tmp/[app].html [app].html"
+If extending an app requires touching its core logic, stop and ask the operator before proceeding.
 
-# 3. Copy to standalone and restart
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/[app].html' '.next/standalone/public/worksheet-generators/[app].html' && pm2 restart lessoncraftstudio"
-```
+### 3.3 The catalog is the product; the apps are internal tooling
 
-### Scenario 3: Translation File Updates
-```bash
-# 1. Upload to /tmp
-"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\REFERENCE TRANSLATIONS\translations-[app].js" root@65.108.5.250:/tmp/translations-[app].js
+Teachers never see the apps. Teachers see the catalog, browse decks, click to share. The apps are the operator's production workstation — accessed through the existing app URLs or a new admin interface, not through the teacher-facing site.
 
-# 2. Safe update (unlock -> copy -> re-lock)
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /var/www/lcs-media/scripts/update-worksheet.sh /tmp/translations-[app].js js/translations-[app].js"
+When designing the teacher-facing UI: no "create worksheet" buttons, no "customize" flows, no app configurators. The teacher sees finished content, filter and search, a subscribe button, and a share link. That's the whole experience.
 
-# 3. Copy to standalone and restart
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/js/translations-[app].js' '.next/standalone/public/worksheet-generators/js/translations-[app].js' && pm2 restart lessoncraftstudio"
-```
+### 3.4 Launch with breadth, not depth of features
 
----
+The minimum viable launch includes: all 31 eligible apps converted to interactive mode, a catalog of 400-600 seeded decks, subscription and individual-purchase billing, a student play experience that works across all 31 exercise types, and a teacher-facing catalog with search and filter. This is the floor, not the ceiling.
 
-## IMAGE INFRASTRUCTURE - ISOLATED STORAGE ARCHITECTURE
+Things **deliberately excluded from launch**: student accounts, class management, progress tracking, teacher dashboards with analytics, parent portals, SSO, school-district features, complex DRM, custom worksheet creation tools for teachers, AI-assisted deck generation. Each of these is a rabbit hole. Do not add any of them without explicit operator direction.
 
-### Overview
-- **33 app detail pages** + **11 homepages** may display sample images
-- Images stored in **isolated directory**: `/var/www/lcs-media/samples/`
-- Images served **directly by nginx** (bypasses Next.js entirely)
-- WebP thumbnails (_thumb.webp) and previews (_preview.webp) generated automatically
-- Content uploaded via content manager is protected with **immutable flags**
+### 3.5 Standard infrastructure, not custom
 
-### Server File Structure
-```
-/var/www/lcs-media/                    (ISOLATED from code - bulletproof)
-├── samples/                           (sample images - 46 MB)
-│   ├── english/                       (11 language folders)
-│   ├── german/
-│   ├── french/
-│   ├── ... (8 more languages)
-│   └── finnish/
-├── image-library/                     (source PNG images - 2.6 GB)
-│   ├── animals/                       (104 theme folders)
-│   ├── food/
-│   ├── vehicles/
-│   └── ... (101 more themes)
-├── worksheet-generators/              (33+ HTML apps + 42+ JS translations)
-│   ├── addition.html                  (worksheet generator apps)
-│   ├── subtraction.html
-│   ├── ...
-│   └── js/
-│       ├── translations-addition-complete.js
-│       ├── image-vocabulary.js
-│       └── ...
-├── admin-panels/                      (admin tool HTML files)
-│   ├── product-sample-manager.html
-│   ├── homepage-thumbnail-manager.html
-│   └── ...
-├── scripts/                           (backup/health scripts)
-│   ├── pre-deploy-backup.sh
-│   ├── scheduled-backup.sh
-│   ├── health-check.sh
-│   ├── emergency-restore.sh
-│   ├── emergency-restore-worksheets.sh
-│   ├── protect-image-library.sh
-│   ├── setup-worksheet-isolation.sh
-│   └── update-worksheet.sh
-└── backups/                           (backup archives)
-    ├── pre-deploy/
-    ├── hourly/
-    ├── daily/
-    ├── weekly/
-    └── monthly/
+Use what's already in the codebase: Next.js 14 App Router, Prisma + Postgres, NextAuth, Lemon Squeezy, next-intl, Tailwind, existing `/api/*` route patterns. Do not introduce new frameworks, databases, ORMs, or auth systems. Do not introduce Redis, Elasticsearch, message queues, or distributed systems.
 
-/opt/lessoncraftstudio/                (CODE ONLY - git repo)
-├── frontend/
-│   └── public/
-│       ├── worksheet-generators → /var/www/lcs-media/worksheet-generators  (SYMLINK)
-│       ├── admin → /var/www/lcs-media/admin-panels  (SYMLINK)
-│       ├── homepage-content-manager.html  (immutable flag)
-│       └── user-control.html              (immutable flag)
-├── deploy.sh                          (CANNOT touch /var/www/lcs-media/)
-├── image library -> /var/www/lcs-media/image-library  (SYMLINK)
-└── ...
-```
+Deployment stays on the existing Hetzner server. Cloudflare free tier sits in front for CDN caching. That's the entire infrastructure. No microservices, no serverless functions, no Docker clusters.
 
-### How Images Are Served (Nginx-First)
-nginx serves `/samples/` requests directly from isolated storage:
-```nginx
-location /samples/ {
-    alias /var/www/lcs-media/samples/;
-    expires 1y;
-    add_header Cache-Control "public, immutable";
+### 3.6 Writing code: prefer clarity over cleverness
+
+Every future Claude Code session and every human reviewer should be able to understand any piece of code on first reading. Favor explicit over implicit. Favor long clear names over short cryptic ones. Avoid frameworks-within-frameworks. Avoid abstractions that exist only to be flexible someday.
+
+### 3.7 When uncertain, ask
+
+If a task requires interpreting operator intent beyond what this document or the specific task prompt provides, stop and ask. Do not guess. The cost of a clarifying question is five minutes; the cost of building the wrong thing is a week.
+
+## 4. The four architectural layers
+
+### 4.1 Layer 1 — The existing apps (unchanged foundation)
+
+33 worksheet generator apps in the existing repo. 31 of them will be extended with an interactive output mode (all except `coloring.html` and `writing.html`, which remain PDF-only). Each app contains its own Fabric.js-based rendering logic, its own UI for customization, its own consumption of the image library and vocabulary.
+
+**What changes:** A new export function is added to each app that serializes the current Fabric canvas and associated answer data to a JSON format (the "deck bundle"). This is a few hundred lines of new code per app, isolated from the existing PDF export path.
+
+**What does not change:** The apps' generation algorithms, customization UIs, image selection, layout code, PDF export, or any behavior visible to existing users.
+
+### 4.2 Layer 2 — The deck storage and publishing system (new)
+
+A new Prisma model `Deck` stores published decks. Fields include: id, operator-authored title, description, subject, age range, language, exercise type (which of the 31 apps produced it), topic tags, the deck bundle JSON (the Fabric canvas state plus answer data), preview image URL, publish status, creation timestamp, and an indexed slug for SEO URLs.
+
+A new admin route lets the operator publish a deck. The flow: the operator uses one of the 31 apps as normal, clicks a new "Publish as interactive deck" button, the current canvas state is captured, a preview image is generated, the deck is saved to the database with draft status. The operator then fills in metadata (title, subject, age, tags, language) and publishes.
+
+Decks are immutable after publish — editing a published deck creates a new version, not an in-place edit. This keeps shared links stable over time.
+
+### 4.3 Layer 3 — The teacher-facing catalog (new)
+
+New Next.js routes under `/[locale]/catalog/` provide:
+- Catalog landing page with category tiles (subject, age, exercise type, language)
+- Browse/search/filter page with pagination
+- Individual deck page with preview animation, metadata, and share/purchase actions
+- My Decks page for subscribers showing their shared links
+- Subscription management page
+
+All catalog pages are server-rendered for SEO. Deck slugs in URLs. Schema.org educational markup on deck pages. hreflang for the 11 language variants.
+
+Authentication gating: browsing is public (for SEO), the "get shareable link" action requires subscription, individual deck purchase available as an alternative.
+
+### 4.4 Layer 4 — The student play experience (new)
+
+Route pattern: `/play/[linkId]` where `linkId` is a random 10-character alphanumeric code. No authentication. No student account. The page loads the deck bundle as a static JSON file (served through Cloudflare CDN), renders the interactive version using a shared play-mode renderer, handles student interactions in the browser, validates answers client-side, shows feedback and score.
+
+The server is involved only in serving the initial HTML shell and the static deck bundle. Student interactions do not round-trip to the server. This is architecturally essential: it means one server handles unbounded concurrent play sessions without straining, and CDN caching means viral decks become free.
+
+Access control: the linkId is random enough to be unguessable (10 chars alphanumeric = 3.6 quadrillion combinations). The play page checks whether the link's creator has an active subscription or is within the 60-day grace period; if not, the page shows "this content is no longer available — [subscribe to get your own]".
+
+## 5. Technology decisions — locked for v1
+
+These are not up for debate without operator sign-off:
+
+- **Framework:** Next.js 14 App Router (existing)
+- **Language:** TypeScript
+- **Database:** Postgres via Prisma (existing)
+- **Auth:** NextAuth with email+password (existing)
+- **Billing:** Lemon Squeezy (existing integration extended)
+- **i18n:** next-intl (existing)
+- **UI:** Tailwind CSS (existing)
+- **Canvas rendering:** Fabric.js 5.3.1 (existing, used by the apps)
+- **CDN:** Cloudflare free tier
+- **Hosting:** existing Hetzner dedicated server
+- **File storage:** local filesystem, served via Next.js
+- **Image processing:** Sharp (existing)
+
+No additions without explicit justification and operator approval.
+
+## 6. The 11 languages
+
+English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, Finnish.
+
+The vocabulary file `REFERENCE TRANSLATIONS/image-vocabulary.js` is the canonical source of linguistic data. It contains 1,246 entries with singular, plural, and grammatical gender across all 11 languages. It is never modified directly without operator approval.
+
+All teacher-facing UI must work in all 11 languages via next-intl. All catalog metadata (subjects, ages, tags) must have 11-language translations. Deck content generated by the apps already handles all 11 languages through the vocabulary system.
+
+## 7. Pricing and subscription model
+
+**Free tier:**
+- 3 decks per month can be generated with shareable links
+- Decks display "Free Sample — Subscribe for unlimited" banner
+- All decks (free and paid) display a small "Made with LessonCraftStudio" attribution footer
+
+**Annual subscription: $69/year**
+- Unlimited deck generation
+- No "Free Sample" banner (attribution footer remains on all decks as product branding)
+- Access to all 11 languages
+- All 31 app types
+- Auto-renew with 30/14/3 day notification emails
+
+**Individual deck purchase: $5 per deck**
+- Permanent access to that specific deck (not time-limited like subscription access)
+- Available as alternative to subscription for teachers who want only one or two decks
+
+**Grace period on subscription lapse:** 60 days. Links generated while subscribed continue to work for 60 days after subscription ends, then return the "expired" page with a subscription prompt.
+
+## 8. Technical standards
+
+### 8.1 Database schema additions
+
+All new tables are added via Prisma migrations. Do not modify existing migrations. Do not rename existing tables. Do not remove existing columns. Any change to an existing table requires operator approval.
+
+Key new tables (minimum; more added as needed):
+
+```prisma
+model Deck {
+  id              String   @id @default(cuid())
+  slug            String   @unique
+  title           Json     // {en: "...", de: "...", ...} for 11 languages
+  description     Json
+  exerciseType    String   // "word-search" | "matching" | "sudoku" | ... (one of 31 app types)
+  language        String   // deck's primary content language
+  subjectTags     String[]
+  ageRange        String   // "3-5" | "6-8" | "9-11"
+  bundleUrl       String   // path to static deck bundle JSON on disk/CDN
+  previewImageUrl String
+  publishedAt     DateTime?
+  status          String   @default("draft") // "draft" | "published" | "archived"
+  createdBy       String   // operator user id
+  version         Int      @default(1)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  playLinks       PlayLink[]
+  purchases       DeckPurchase[]
+
+  @@index([status, publishedAt])
+  @@index([exerciseType, language])
+}
+
+model PlayLink {
+  id         String   @id @default(cuid())
+  linkId     String   @unique @db.VarChar(10)  // the 10-char random public ID
+  deckId     String
+  teacherId  String
+  createdAt  DateTime @default(now())
+  deck       Deck     @relation(fields: [deckId], references: [id])
+  teacher    User     @relation(fields: [teacherId], references: [id])
+
+  @@index([teacherId])
+}
+
+model DeckPurchase {
+  id         String   @id @default(cuid())
+  deckId     String
+  userId     String
+  priceCents Int
+  purchasedAt DateTime @default(now())
+  deck       Deck     @relation(fields: [deckId], references: [id])
+  user       User     @relation(fields: [userId], references: [id])
+
+  @@unique([deckId, userId])
+}
+
+model Subscription {
+  // extend existing subscription tracking as needed
+  // grace-period end computed as (lapsed_at + 60 days) when checking link validity
 }
 ```
 
-### NEVER DO LIST
-1. NEVER delete `/var/www/lcs-media/samples/`
-2. NEVER run `rm -rf` on any samples directory
-3. NEVER move sample images to a different location
-4. NEVER run `git add samples/` or `git add .` in project root
-5. NEVER commit sample files to git (16GB would crash repository)
+### 8.2 File organization
+
+New code follows the existing repo conventions:
+
+```
+frontend/
+├── app/
+│   ├── [locale]/
+│   │   ├── catalog/                  # NEW — teacher-facing catalog
+│   │   │   ├── page.tsx              # catalog landing
+│   │   │   ├── browse/page.tsx       # search/filter/paginate
+│   │   │   ├── deck/[slug]/page.tsx  # individual deck view
+│   │   │   └── my-decks/page.tsx     # subscriber's link history
+│   │   └── ...
+│   ├── api/
+│   │   ├── decks/                    # NEW — deck CRUD, play link generation
+│   │   ├── play/                     # NEW — play link resolution, access check
+│   │   └── ...
+│   └── play/
+│       └── [linkId]/page.tsx         # NEW — student play page, no locale prefix
+├── components/
+│   ├── catalog/                      # NEW
+│   └── play/                         # NEW — interactive deck renderer
+└── lib/
+    ├── deck-publishing/              # NEW — bundle extraction, preview generation
+    ├── play-access/                  # NEW — subscription + grace period check
+    └── ...
+
+apps/
+└── (existing 33 apps, each gets a new "Publish as deck" button)
+```
+
+### 8.3 Play-mode renderer
+
+The play-mode renderer is one shared module used by all 31 deck types. It takes a deck bundle JSON and renders the interactive version. Each app's interactive behavior (how you drag a match, how you circle a word, how you type a sudoku answer) is implemented as an "interaction plugin" specific to that exercise type. The shared renderer handles canvas setup, answer validation framework, feedback display, scoring, and accessibility.
+
+Interaction plugins live at `frontend/lib/play-mode/interactions/{type}.ts`. A new exercise type = add a new plugin. The shared renderer does not need to change for new exercise types.
+
+### 8.4 Caching and CDN
+
+Deck bundles are written as static JSON files at publish time. File path includes a version hash so deck updates don't cache-collide. These files are served through Next.js static asset routing and cached aggressively by Cloudflare.
+
+The play page HTML is short-cache (5 minutes) because it does the subscription-status check on every request. If subscription is active or grace-period-valid, the page renders and loads the cached deck bundle. If not, the page shows the expired state.
+
+Student interactions never touch the server. All answer validation is client-side JavaScript referencing the deck bundle's embedded answer data.
+
+### 8.5 SEO considerations
+
+Every catalog page is server-rendered. Every deck page has:
+- Unique, descriptive title tag
+- Meta description with deck content summary
+- Open Graph tags for Pinterest/Facebook previews
+- Schema.org `LearningResource` markup
+- hreflang alternates for all 11 language variants
+- Canonical URL
+- XML sitemap entry
+
+The sitemap auto-generates from published decks and is submitted to Google, Bing, and Pinterest.
+
+## 9. What "done" looks like for the launch
+
+**Engineering completeness:**
+- All 31 eligible apps have working interactive-output mode
+- Catalog browse, search, filter, individual deck pages all work
+- Student play page works across all 31 exercise types on mobile and desktop
+- Subscription checkout, individual purchase checkout, and free tier limits all enforced
+- Grace period on lapsed subscriptions works correctly
+- Cloudflare CDN in front of the site
+- All SEO basics in place (meta, schema, sitemap, hreflang)
+
+**Content completeness:**
+- 400-600 published decks in the catalog at launch
+- Distribution across subjects and age ranges broadly covering early-childhood and primary education
+- Distribution across languages weighted toward target markets (English, German, French, Spanish, Dutch, Swedish as initial priorities; the other 5 represented more sparsely)
+
+**Website transformation:**
+- Home page reworked to lead with the catalog and teacher subscription
+- Legacy seller-focused content moved to `/sellers` or similar secondary path
+- Pricing page presents Free/Subscribe/Buy-one structure clearly
+- About, FAQ, and support pages updated for teacher audience
+- Free sample decks prominently linked from the home page for zero-friction trial
+
+**Launch readiness:**
+- Pinterest account set up with initial 100+ pins queued
+- Facebook group presence established (30-day waiting period required by many groups, so start early)
+- TPT seller account open for free-sample listings
+- Email waitlist of teachers built before launch
+- Teacher-creator outreach list compiled
+
+## 10. How Claude Code sessions should operate
+
+### 10.1 Before starting a task
+
+- Read the specific task prompt carefully
+- Check if it conflicts with anything in this CLAUDE.md — if so, flag it to the operator rather than proceeding
+- Look at the relevant existing code before writing new code
+- If the task touches an existing file, understand what that file currently does before modifying it
+
+### 10.2 During a task
+
+- Write TypeScript, not JavaScript
+- Follow the existing code's style conventions even if they're not your preferred style
+- Add new files rather than modifying existing ones whenever possible
+- If you must modify an existing file, make the smallest change that works
+- Run the existing test suite before considering a task done (if tests exist for that area)
+- When adding a database table, add a Prisma migration; do not edit existing migrations
+
+### 10.3 What to never do without explicit operator approval
+
+- Rename or delete any existing file
+- Modify any of the 33 app HTML files' generation or customization logic
+- Modify `REFERENCE TRANSLATIONS/image-vocabulary.js` directly
+- Modify the existing `/api/images` endpoint's behavior
+- Change existing database tables or migrations
+- Add new dependencies to `package.json`
+- Change the Next.js or Prisma major versions
+- Remove or alter existing authentication flows
+- Remove or alter existing Lemon Squeezy integration
+- Commit credentials, API keys, or `.env` contents
+
+### 10.4 What to always do
+
+- Ask if a task is ambiguous
+- Flag if a task requires one of the "never do without approval" actions
+- Write small commits with clear messages
+- Test your work in the existing dev environment before saying it's done
+- Document new components and new modules with brief JSDoc or TS comments explaining purpose and usage
+
+### 10.5 What to flag to the operator
+
+- Anything that seems to conflict with production behavior
+- Any place where this CLAUDE.md is ambiguous or contradicts the specific task
+- Any time a task as specified would break something that currently works
+- Any time you are about to do something that feels irreversible
+- Any performance concern that could affect production traffic
+
+## 11. Scope discipline — what stays out of v1
+
+These ideas have come up in conversation and have been explicitly deferred. Do not build any of them without explicit operator direction:
+
+- Unified worksheet creation studio for teachers (cut: teachers buy finished content, not tools)
+- Local AI automation for content generation (cut: operator produces content manually with strategic input)
+- RTILA or similar scraping infrastructure
+- n8n or similar workflow orchestration
+- Mac Studio or any second-machine infrastructure
+- Knowledge base with RAG retrieval
+- LoRA fine-tuning or any model training
+- Student accounts, logins, or per-student data
+- Class management, assignment delivery, gradebooks
+- Parent portals or parent-facing features
+- School-district admin features, SSO, SAML
+- Real-time collaboration features
+- Mobile apps (native iOS/Android)
+- Offline play
+- AI-powered anything for v1
+
+These may become relevant in year two or three. They are not relevant now.
+
+## 12. When this document is wrong
+
+This CLAUDE.md will be wrong about some things. The operator's thinking will evolve. The product will reveal new constraints after launch. When you (Claude Code) find something in this document that seems to contradict current reality:
+
+- Do not quietly ignore it
+- Do not assume the new situation overrides it
+- Flag the contradiction to the operator explicitly
+- Ask for updated guidance before proceeding
+
+This document is the stable reference. When reality diverges from it, the operator updates the document, not you.
+
+## 13. The one sentence summary for every future session
+
+> Extend the existing LessonCraftStudio codebase to add an interactive-output mode to 31 worksheet apps, build a teacher-facing catalog and subscription product on top, launch within four months on existing infrastructure without destabilizing the production site.
+
+If your task appears to be outside this scope, stop and ask the operator before proceeding.
 
 ---
 
-## IMAGE LIBRARY PROTECTION - ABSOLUTE RULES
+## 14. Interactive-HTML export — current implementation status & porting recipe
 
-**Source PNG images (2.6GB) are stored in ISOLATED STORAGE at `/var/www/lcs-media/image-library/`**
+As of 2026-04-23, two of the 31 apps ship the interactive-HTML export: **addition (v4)** and **subtraction (v5)**. The remaining 29 are not yet converted. This section documents what's actually built so a new session can continue the port without re-deriving the architecture.
 
-A symlink at `/opt/lessoncraftstudio/image library` points to the isolated storage, so import scripts still work.
+### 14.1 What the current implementation is
 
-### 7-Layer Protection (Same as Samples)
+Each converted app has a new **Download → "Interactive Worksheet (HTML)"** button that emits a single self-contained `.html` file. The file works fully offline once downloaded:
 
-| Layer | Protection | How It Works |
-|-------|------------|--------------|
-| 1 | **Physical Isolation** | Images in `/var/www/lcs-media/image-library/` - separate from code |
-| 2 | **Symlink Bridge** | `/opt/lessoncraftstudio/image library` → isolated storage |
-| 3 | **Dedicated User** | `lcs-media` user owns files - deploy runs as different user |
-| 4 | **Immutable Flags** | `chattr +i` on files - even root can't delete without unlock |
-| 5 | **Deploy Guards** | deploy.sh aborts if count drops below 3000 |
-| 6 | **Git Isolation** | `image library/` is in `.gitignore` |
-| 7 | **CLAUDE.md Rules** | Explicit NEVER commands below |
+1. **Snapshot + overlay architecture.** The operator's Fabric canvas is captured as a JPEG (via `canvas.toDataURL({format:'jpeg', quality:0.85, multiplier:2})`) — this preserves every design element, border, background, theme image and header exactly as authored. The JPEG is the backdrop in the downloaded HTML.
+2. **Overlay layer with input boxes.** For each exercise, the exporter records the answer-line's world coordinates (via `calcTransformMatrix`) and the equals-sign's world center (via a helper that scans for a sub-group containing `fabric.Text` with content `"="`). An HTML input is overlaid at those coordinates in the standalone file. Position percentages are relative to the JPEG dimensions so the layout scales proportionally on any viewport.
+3. **Batch-check interaction.** The student fills every input at their own pace; a sticky "Check Answers" button at the bottom of the page stays disabled until every input has a value, then enables. Tap Check → every answer turns green (correct) or red (wrong). Wrong answers show the correct value in a green pill beside the crossed-out typed value. "Try Again" resets. Celebration modal (stars-out-of-3, worksheet thumbnail, Do Another / Print) triggers on 100% first-pass correct.
+4. **No Fabric.js on the student side.** The downloaded HTML is pure HTML + CSS + vanilla JS + a single Google Fonts link for Fredoka. Typical file size: ~200–300 KB including the JPEG backdrop.
+5. **Per-app interactive extensions.** Beyond the base batch-check, individual apps can layer app-specific interactions. Example: **subtraction's cross-out mode** adds a transparent clickable hitbox over each minuend image so the student must both type the answer AND click exactly `subtrahend` images to cross them out. Validation checks both conditions.
 
-### NEVER DO LIST - IMAGE LIBRARY
+### 14.2 Where the code lives
 
-**Claude must NEVER run these commands:**
+Each converted app's HTML contains one self-contained export block delimited by `// BEGIN: Interactive-HTML export v<N>` and `// END: Interactive-HTML export v<N>` inside the main inline `<script>`:
 
-```bash
-# NEVER DELETE
-rm -rf /var/www/lcs-media/image-library
-rm -rf "/opt/lessoncraftstudio/image library"
-rm -rf /var/www/lcs-media/image-library/*
+- `REFERENCE APPS/addition.html` — v4 block
+- `REFERENCE APPS/subtraction.html` — v5 block (v4 + cross-out)
 
-# NEVER REMOVE IMMUTABLE FLAGS
-chattr -i /var/www/lcs-media/image-library/*
-chattr -R -i /var/www/lcs-media/image-library
+The block contains: `extractDeckBundle()`, `renderStandaloneHTML()`, `downloadInteractiveHtml()`, plus three arrays — `INTERACTIVE_CSS_LINES`, `INTERACTIVE_RUNTIME_LINES`, and helper functions (`_captureWorksheetImage`, `_findAnswerLineDeep`, `_findEqualsSign`, `_worldLineRect`, and for subtraction: `_collectMinuendImages`, `_worldImageRect`). The runtime is stored as an array of line-strings joined at render time — this avoids template-literal escaping issues with `${` and `</script>`.
 
-# NEVER BULK DELETE
-find /var/www/lcs-media/image-library -delete
-find "/opt/lessoncraftstudio/image library" -delete
+### 14.3 How to port to a new app (the recipe)
 
-# NEVER MOVE
-mv /var/www/lcs-media/image-library /some/other/path
+Apps share the same scaffolding (`generateWorksheet()`, `exerciseRowGroup` with `isGeneratedItem` + `originalIndex`, answer lines, equals-sign sub-groups). To port:
 
-# NEVER TRUNCATE DATABASE WITHOUT EXPLICIT REQUEST
-DELETE FROM image_library_items;
-TRUNCATE image_library_items;
-```
+**Step A — Metadata patches in the operator app's rendering code** (all additive, no visual change):
+1. `worksheetCanvas.problemsData = problemsData;` inside `generateWorksheet()` so the exporter reads the data uniformly.
+2. `<rowGroup>.resolvedMode = exerciseMode;` after the row group is constructed, so mixed-mode sub-mode is preserved per problem.
+3. Add `isAnswerLine: true` to every `fabric.Line` the student fills in.
+4. For apps with interactive extensions (tap-to-classify, drag-to-match, cross-out, etc.), tag the relevant child objects with a per-feature boolean (e.g., `isMinuendImage: true`) so the exporter can enumerate them.
 
-### Safe Operations
+**Step B — Download button + wiring** (4 edits, same pattern as addition's first commit):
+1. New `<button id="downloadInteractiveHtmlBtn">` in the download dropdown.
+2. `const downloadInteractiveHtmlBtn = document.getElementById(...)`.
+3. Un-disable it in `generateWorksheet()` alongside the other download buttons.
+4. Click listener: `downloadInteractiveHtml(worksheetCanvas, '<app>_interactive.html')`.
 
-These operations ARE safe:
-```bash
-# READ operations - safe
-ls /var/www/lcs-media/image-library/
-find /var/www/lcs-media/image-library -name "*.png" | wc -l
-lsattr /var/www/lcs-media/image-library/animals/*.png
+**Step C — Copy and adapt the v5 block**:
+1. Copy `// BEGIN: Interactive-HTML export v5` through `// END:` from `REFERENCE APPS/subtraction.html`.
+2. Change `appType`, `title`, and bump `bundleVersion`.
+3. Adjust the mode list in `expectedAnswer(s)` so the right operand/result is expected per mode. **Critical branching rule**: for any mode where the student types a missing OPERAND (find-addend / find-subtrahend / etc.), expected is `operandB`; for modes where the student types the RESULT, expected is the arithmetic result. This is a frequent off-by-one source of "answers marked wrong."
+4. If the app has interactive extensions not in subtraction, extend `renderSlots`, `checkAll`, `resetAll`, and CSS as needed (pattern: one helper to build the extra hitbox element, one state field, one branch in `checkAll`).
 
-# COPY operations - safe (copies, doesn't move)
-cp /var/www/lcs-media/image-library/animals/cat.png /tmp/
+**Step D — Validate, sync, commit, deploy** (see §14.4–§14.5).
 
-# VERIFY operations - safe
-/opt/lessoncraftstudio/server-scripts/protect-image-library.sh
-```
+### 14.4 Local dev loop
 
-### Verification Commands
+A pre-existing unrelated Next.js route conflict blocks `npm run dev` until `frontend/app/sitemap.xml/route.ts` is renamed to `route.ts.DISABLED-FOR-DEV`. **Rename it back before any push to production** or the live sitemap breaks. This is a known wart; fixing it at the source is deferred.
 
-```bash
-# Check file count (should be 3000+)
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "find /var/www/lcs-media/image-library -type f -name '*.png' | wc -l"
+After edits to `REFERENCE APPS/<app>.html`:
+1. `scripts\master-sync.bat` (refreshes the two sibling tracked copies and the gitignored frontend/public copy).
+2. Hard-refresh `http://localhost:3000/worksheet-generators/<app>.html`.
+3. Click Generate, Download → Interactive Worksheet (HTML), open the downloaded file.
 
-# Check symlink
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls -la '/opt/lessoncraftstudio/image library'"
+### 14.5 Deployment — the TWO-STEP rule
 
-# Check immutable flags
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "lsattr /var/www/lcs-media/image-library/animals/*.png 2>/dev/null | head -3"
-```
+Worksheet-generator HTML updates require BOTH steps; `deploy.sh` alone is not enough because the served copy is `chattr +i` (immutable):
 
-### Initial Setup (One-Time)
+1. **Push + build:** `plink ... "bash /opt/lessoncraftstudio/deploy.sh"` — runs `git pull`, builds, smoke tests. Updates `/opt/lessoncraftstudio/REFERENCE APPS/<app>.html` but NOT the served copy.
+2. **Sync the served copy** (the critical second step that is easy to forget):
+   ```
+   plink ... "cp '/opt/lessoncraftstudio/REFERENCE APPS/<app>.html' /tmp/<app>.html && /var/www/lcs-media/scripts/update-worksheet.sh /tmp/<app>.html <app>.html"
+   ```
+3. **Verify:** `curl -s https://www.lessoncraftstudio.com/worksheet-generators/<app>.html | grep -c 'Interactive-HTML export v<N>'` must return ≥ 1.
 
-If migrating image library to isolated storage for the first time:
-```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /opt/lessoncraftstudio/server-scripts/protect-image-library.sh"
-```
+Skip step 2 and the site keeps serving the old HTML — we hit this on the addition deploy.
 
----
+### 14.6 Known gotchas (read before debugging)
 
-## WORKSHEET & CONTENT MANAGER PROTECTION - ISOLATED STORAGE (ABSOLUTE RULE)
+- **`getBoundingRect(true, true)` on a grouped child returns GROUP-LOCAL coords in Fabric 5.x**, not world coords. Use `calcTransformMatrix()` + `fabric.util.transformPoint` instead. This is why v1 slots clustered at the top-left of the worksheet.
+- **`calcTransformMatrix()` already includes the object's own scale.** Do not also feed `getScaledWidth()/getScaledHeight()` into `transformPoint` — that double-scales. Use intrinsic `img.width` / `img.height`. This is why v5's first cross-out hitboxes were tiny.
+- **`exerciseRowGroup.getCenterPoint().y` drifts off the equals sign when operand images aren't square** because the bbox center tracks the image span, not the equation centerline. Anchor to the actual `=` sign via `_findEqualsSign`. This is why addition v4 answer boxes visibly floated above the `=`.
+- **`expectedAnswer` MUST branch on mode** for find-addend / find-subtrahend / any "missing operand" mode. Otherwise every answer is compared against the arithmetic result and the student's correct answer is marked wrong.
+- **Inline `<script>` inside a string must escape `</script>` as `<\/script>`** to avoid the outer HTML parser closing the script prematurely.
+- **The operator may transform (scale/translate/rotate) the exerciseRowGroup after generation.** `calcTransformMatrix` and `getCenterPoint` both honor these transforms, which is why they're used instead of hardcoded offsets.
 
-**Worksheet generators, translations, and admin panels are stored in ISOLATED STORAGE at `/var/www/lcs-media/`**
+### 14.7 Remaining apps (29 of 31)
 
-Symlinks at `frontend/public/worksheet-generators` and `frontend/public/admin` point to isolated storage. Next.js and deploy.sh follow symlinks transparently. No nginx changes needed.
+alphabet-train, big-small, bingo, chart-count, code-addition, crossword, cryptogram, draw-and-color, drawing-lines, find-and-count, find-objects, grid-match, matching, math-puzzle, math-worksheet, missing-pieces, more-less, odd-one-out, pattern-train, pattern-worksheet, picture-path, picture-sort, prepositions, shadow-match, treasure-hunt, word-guess, word-scramble, wordsearch.
 
-### 7-Layer Protection
+(Coloring and writing are excluded per §1 — PDF-only, no interactive output.)
 
-| Layer | Protection | How It Works |
-|-------|------------|--------------|
-| 1 | **Physical Isolation** | Files at `/var/www/lcs-media/worksheet-generators/` and `/var/www/lcs-media/admin-panels/` |
-| 2 | **Dedicated User** | `lcs-media` owns files - deploy runs as different user |
-| 3 | **Immutable Flags** | `chattr +i` on all files - prevents deletion even by root |
-| 4 | **Pre-deploy Backup** | `worksheets_*.tar.gz` before EVERY deployment |
-| 5 | **Deployment Guards** | `deploy.sh` aborts if HTML < 30 or JS < 30 |
-| 6 | **Scheduled Backups** | Hourly/daily/weekly/monthly rotation |
-| 7 | **Health Monitoring** | 15-minute count checks with alerting |
-
-### NEVER DO LIST - WORKSHEETS & CONTENT MANAGERS
-
-**Claude must NEVER run these commands:**
-
-```bash
-# NEVER DELETE
-rm -rf /var/www/lcs-media/worksheet-generators
-rm -rf /var/www/lcs-media/admin-panels
-rm -rf /var/www/lcs-media/worksheet-generators/*
-rm -rf /var/www/lcs-media/admin-panels/*
-
-# NEVER REMOVE IMMUTABLE FLAGS without explicit user request
-chattr -i /var/www/lcs-media/worksheet-generators/*
-chattr -R -i /var/www/lcs-media/worksheet-generators
-chattr -i /var/www/lcs-media/admin-panels/*
-
-# NEVER BULK DELETE
-find /var/www/lcs-media/worksheet-generators -delete
-find /var/www/lcs-media/admin-panels -delete
-
-# NEVER MOVE
-mv /var/www/lcs-media/worksheet-generators /some/other/path
-mv /var/www/lcs-media/admin-panels /some/other/path
-
-# NEVER REMOVE SYMLINKS
-rm /opt/lessoncraftstudio/frontend/public/worksheet-generators
-rm /opt/lessoncraftstudio/frontend/public/admin
-```
-
-### Safe Operations
-
-```bash
-# READ operations - safe
-ls /var/www/lcs-media/worksheet-generators/
-find /var/www/lcs-media/worksheet-generators -name "*.html" | wc -l
-lsattr /var/www/lcs-media/worksheet-generators/addition.html
-
-# SAFE UPDATE (use update-worksheet.sh helper)
-bash /var/www/lcs-media/scripts/update-worksheet.sh /tmp/addition.html addition.html
-bash /var/www/lcs-media/scripts/update-worksheet.sh /tmp/translations-addition.js js/translations-addition.js
-bash /var/www/lcs-media/scripts/update-worksheet.sh --admin /tmp/manager.html manager.html
-bash /var/www/lcs-media/scripts/update-worksheet.sh --public /tmp/homepage-content-manager.html homepage-content-manager.html
-```
-
-### Updated Deployment Scenarios (Post-Isolation)
-
-#### Worksheet App Update
-```bash
-# 1. Upload to /tmp
-"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\REFERENCE APPS\[app].html" root@65.108.5.250:/tmp/[app].html
-
-# 2. Safe update (unlock -> copy -> re-lock)
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /var/www/lcs-media/scripts/update-worksheet.sh /tmp/[app].html [app].html"
-
-# 3. Copy to standalone + restart
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/[app].html' '.next/standalone/public/worksheet-generators/[app].html' && pm2 restart lessoncraftstudio"
-```
-
-#### Translation Update
-```bash
-"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\REFERENCE TRANSLATIONS\translations-[app].js" root@65.108.5.250:/tmp/translations-[app].js
-
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /var/www/lcs-media/scripts/update-worksheet.sh /tmp/translations-[app].js js/translations-[app].js"
-
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/js/translations-[app].js' '.next/standalone/public/worksheet-generators/js/translations-[app].js' && pm2 restart lessoncraftstudio"
-```
-
-#### Content Manager Update
-```bash
-# For admin/ managers:
-"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\REFERENCE CONTENT MANAGERS\[manager].html" root@65.108.5.250:/tmp/[manager].html
-
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /var/www/lcs-media/scripts/update-worksheet.sh --admin /tmp/[manager].html [manager].html"
-
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/admin/[manager].html' '.next/standalone/public/admin/[manager].html' && pm2 restart lessoncraftstudio"
-
-# For public/ root managers (homepage-content-manager.html, user-control.html):
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /var/www/lcs-media/scripts/update-worksheet.sh --public /tmp/[file].html [file].html"
-```
-
-### Verification Commands - Worksheets
-
-```bash
-# Check file counts (HTML should be 30+, JS should be 30+)
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "echo 'HTML:' && find /var/www/lcs-media/worksheet-generators -maxdepth 1 -name '*.html' -type f | wc -l && echo 'JS:' && find /var/www/lcs-media/worksheet-generators/js -name '*.js' -type f | wc -l"
-
-# Check symlink
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "ls -la /opt/lessoncraftstudio/frontend/public/worksheet-generators"
-
-# Check immutable flags
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "lsattr /var/www/lcs-media/worksheet-generators/addition.html 2>/dev/null"
-
-# Emergency restore
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /var/www/lcs-media/scripts/emergency-restore-worksheets.sh"
-```
-
-### Initial Setup (One-Time)
-
-```bash
-# Upload and run the migration script
-"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\server-scripts\*.sh" root@65.108.5.250:/opt/lessoncraftstudio/server-scripts/
-
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /opt/lessoncraftstudio/server-scripts/setup-worksheet-isolation.sh"
-```
+Math apps likely port in an afternoon each (same `exerciseRowGroup` + `isAnswerLine` pattern). Puzzle apps (wordsearch, crossword, cryptogram, sudoku, matching) will need new interactive extensions beyond the base batch-check — expect a larger per-app budget.
 
 ---
 
-## DESIGN ELEMENTS PROTECTION - ISOLATED STORAGE (ABSOLUTE RULE)
-
-**Decorative SVG elements (81 SVGs + 12 color palettes) are stored in ISOLATED STORAGE at `/var/www/lcs-media/design-elements/`**
-
-These elements back the "Design Elements" accordion in the coloring worksheet generator and will back the same feature in other worksheet apps. Categories: patterns, textures, frames, corners, banners, dividers, badges, title-banners, accents, scatter-packs, footers. Color palettes stored as JSON.
-
-### Source of truth & entry points
-- **Content manager URL:** `https://www.lessoncraftstudio.com/admin/design-elements-manager.html`
-- **Manager HTML source:** `REFERENCE CONTENT MANAGERS/design-elements-manager.html`
-- **DB table:** `design_elements` (Prisma model: `DesignElement` in `frontend/prisma/schema.prisma`)
-- **API routes:** `frontend/app/api/design-elements/` (list, upload, [slug], reorder, palettes, manifest/regenerate)
-- **Health endpoint:** `/api/health/design-elements`
-- **Integration guide (READ BEFORE porting to another app):** `docs/reference/design-elements-integration.md` — lists all 22 bugs discovered during the coloring.html integration that must not be repeated.
-
-### Server File Structure
-```
-/var/www/lcs-media/design-elements/          (ISOLATED from code - bulletproof)
-├── manifest.json                             (rebuilt from DB via API)
-├── palettes.json                             (12 color palettes, edited via manager)
-├── patterns/     (12 SVGs)
-├── textures/     (8 SVGs)
-├── frames/       (15 SVGs)
-├── corners/      (6 SVGs)
-├── banners/      (5 SVGs)
-├── dividers/     (8 SVGs)
-├── badges/       (2 SVGs)
-├── title-banners/ (4 SVGs)
-├── accents/      (13 SVGs)
-├── scatter-packs/ (4 SVGs)
-└── footers/      (5 SVGs)
-```
-
-### 7-Layer Protection
-
-| Layer | Protection | How It Works |
-|-------|------------|--------------|
-| 1 | **Physical Isolation** | Files at `/var/www/lcs-media/design-elements/` - separate from code |
-| 2 | **Dedicated User** | `lcs-media` owns files - deploy runs as different user |
-| 3 | **Immutable Flags** | `chattr +i` on all SVGs + manifest.json + palettes.json |
-| 4 | **Pre-deploy Backup** | `design-elements_*.tar.gz` before EVERY deployment |
-| 5 | **Deployment Guards** | `deploy.sh` aborts if SVG count < 70 |
-| 6 | **Scheduled Backups** | Hourly/daily/weekly/monthly via `scheduled-backup.sh` |
-| 7 | **Health Monitoring** | 15-minute count check via `health-check.sh` |
-
-### NEVER DO LIST - DESIGN ELEMENTS
-
-**Claude must NEVER run these commands:**
-
-```bash
-# NEVER DELETE
-rm -rf /var/www/lcs-media/design-elements
-rm -rf /var/www/lcs-media/design-elements/*
-
-# NEVER REMOVE IMMUTABLE FLAGS without explicit user request
-chattr -i /var/www/lcs-media/design-elements/*
-chattr -R -i /var/www/lcs-media/design-elements
-
-# NEVER BULK DELETE
-find /var/www/lcs-media/design-elements -delete
-
-# NEVER MOVE
-mv /var/www/lcs-media/design-elements /some/other/path
-```
-
-```sql
--- NEVER truncate or drop the DB table
-DELETE FROM design_elements;
-TRUNCATE design_elements;
-DROP TABLE design_elements;
-```
-
-### Safe Operations
-
-```bash
-# READ operations - safe
-ls /var/www/lcs-media/design-elements/
-find /var/www/lcs-media/design-elements -name "*.svg" | wc -l
-lsattr /var/www/lcs-media/design-elements/patterns/dotgrid.svg
-
-# SAFE UPDATE (use update-design-element.sh)
-bash /var/www/lcs-media/scripts/update-design-element.sh /tmp/scalloped.svg frames/scalloped.svg
-bash /var/www/lcs-media/scripts/update-design-element.sh /tmp/manifest.json manifest.json
-bash /var/www/lcs-media/scripts/update-design-element.sh /tmp/palettes.json palettes.json
-
-# SAFE DELETE (requires --confirm)
-bash /var/www/lcs-media/scripts/delete-design-element.sh --confirm frames/obsolete.svg
-```
-
-### Content Manager Deployment
-
-Update the manager HTML via the admin-panel workflow:
-```bash
-"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\REFERENCE CONTENT MANAGERS\design-elements-manager.html" root@65.108.5.250:/tmp/design-elements-manager.html
-
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /var/www/lcs-media/scripts/update-worksheet.sh --admin /tmp/design-elements-manager.html design-elements-manager.html"
-
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/admin/design-elements-manager.html' '.next/standalone/public/admin/design-elements-manager.html' && pm2 restart lessoncraftstudio"
-```
-
-### Verification Commands
-
-```bash
-# SVG count (should be >= 81)
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "find /var/www/lcs-media/design-elements -name '*.svg' | wc -l"
+## Appendix A — Production safety rules (operational guardrails)
 
-# Immutable flags (should show 'i')
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "lsattr /var/www/lcs-media/design-elements/patterns/*.svg 2>/dev/null | head -3"
+These are concrete operational rules that have prevented real incidents. They supplement §3.1 and §10.3 with specific paths and commands. Treat them as non-negotiable.
 
-# DB count (should match file count)
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "PGPASSWORD='LcS2025SecureDBPass' psql -U lcs_user -d lessoncraftstudio_prod -t -c \"SELECT COUNT(*) FROM design_elements WHERE is_active;\""
+### A.1 Server & isolated storage
 
-# Health endpoint
-curl https://www.lessoncraftstudio.com/api/health/design-elements
-```
+- **Host:** `65.108.5.250` (root). SSH via plink/pscp with `-pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU`.
+- **Code (git repo):** `/opt/lessoncraftstudio`
+- **Isolated storage (NOT in git, bulletproof):** `/var/www/lcs-media/`
+  - `samples/` — product sample images
+  - `image-library/` — source PNGs (2.6 GB, 3000+ files)
+  - `worksheet-generators/` — 33 HTML apps + `js/` translations
+  - `admin-panels/` — content-manager HTMLs
+  - `design-elements/` — 81+ SVGs + palettes + manifest
+  - `backups/` — hourly/daily/weekly/monthly tarballs
+  - `scripts/` — update/backup/health/restore helpers
+- **Symlinks** (follow transparently from the code repo; never remove them):
+  - `frontend/public/worksheet-generators` → `/var/www/lcs-media/worksheet-generators`
+  - `frontend/public/admin` → `/var/www/lcs-media/admin-panels`
+  - `image library` → `/var/www/lcs-media/image-library`
+- Samples are served by nginx directly (`location /samples/`), bypassing Next.js.
 
-### Initial Setup (One-Time)
+### A.2 Reference folders (source of truth)
 
-If migrating design elements to isolated storage for the first time:
-```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /opt/lessoncraftstudio/server-scripts/setup-design-elements-protection.sh"
-```
+Always edit these first; they are canonical for deployment:
+- `REFERENCE APPS/` — 33 worksheet generator HTML files
+- `REFERENCE TRANSLATIONS/` — translation JS files
+- `REFERENCE CONTENT MANAGERS/` — content-manager HTML files
 
----
+After modifying, run `scripts\master-sync.bat` to update local copies.
 
-## DIACRITICS PROTECTION - IMAGE TRANSLATIONS (ABSOLUTE RULE)
+### A.3 NEVER DO
 
-**The `image_library_items.translations` database was fixed on 2026-03-03.**
-- 837 translation fields corrected across 417 rows in 11 locales
-- Auto-healing runs during every deployment via deploy.sh
-- Smoke test (Test 13) verifies diacritics after every deployment
+**Git:**
+- `git add .` in project root (could pull in samples/images).
+- `git add samples/` or any image/PDF/sample file — the pre-commit hook blocks sample commits; 16 GB would crash the repo.
 
-### NEVER DO LIST - DIACRITICS
-- **NEVER re-run import scripts** (`scripts/import-*-images.js`) without also running the fix scripts afterward — import scripts have BAD hardcoded translations with stripped diacritics
-- **NEVER regenerate `image-vocabulary.js`** without verifying diacritics are correct in the raw JSON source
-- **NEVER bulk-update `image_library_items.translations`** without checking diacritics
+**Never `rm -rf`, `mv`, bulk-delete, `find -delete`, or `chattr -i` on:**
+- `/var/www/lcs-media/samples`
+- `/var/www/lcs-media/image-library` (and the `image library` symlink)
+- `/var/www/lcs-media/worksheet-generators`
+- `/var/www/lcs-media/admin-panels`
+- `/var/www/lcs-media/design-elements`
+- `/opt/lessoncraftstudio/stripe-backup` (immutable; legacy reference — not the active payment system)
 
-### Fix Scripts (Permanent, on Server)
-| Script | Location | Purpose |
-|--------|----------|---------|
-| `audit-db-diacritics.js` | `/opt/lessoncraftstudio/server-scripts/` | Reports all mismatches |
-| `fix-db-diacritics.js` | `/opt/lessoncraftstudio/server-scripts/` | Fixes base-key translations |
-| `fix-db-diacritics-numbered.js` | `/opt/lessoncraftstudio/server-scripts/` | Fixes numbered variants |
-| `image-vocabulary-raw.json` | `/opt/lessoncraftstudio/server-scripts/` | Reference source of truth |
+**Never delete these files/symlinks:**
+- `frontend/public/worksheet-generators` (symlink)
+- `frontend/public/admin` (symlink)
+- `frontend/app/api/webhooks/lemonsqueezy/route.ts`
+- `frontend/config/lemonsqueezy-products.ts`
+- Immutable content managers in `frontend/public/` (`homepage-content-manager.html`, `user-control.html`)
 
-### Manual Verification
-```bash
-# Check for stripped diacritics (should return 0)
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "PGPASSWORD='LcS2025SecureDBPass' psql -U lcs_user -d lessoncraftstudio_prod -t -c \"SELECT COUNT(*) FROM image_library_items WHERE translations->>'sv' IN ('Bjorn','Dorr','Fonster','Kylskap','Sang');\""
+**Never run without EXPLICIT operator approval:**
+- `chattr -i` / `chattr -R -i` on any protected path.
+- Modify any `LEMONSQUEEZY_*` env var.
+- `DELETE` / `TRUNCATE` / `DROP` on: `users`, `purchases`, `ls_webhook_events`, `design_elements`, `image_library_items`.
+- Re-run `scripts/import-*-images.js` — these strip diacritics; must re-run fix scripts afterward.
+- Regenerate `image-vocabulary.js` without verifying diacritics in the raw JSON source.
 
-# Run full audit
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && node /opt/lessoncraftstudio/server-scripts/audit-db-diacritics.js"
+### A.4 Update helpers — never direct `cp` on immutable files
 
-# Manual fix (if needed)
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && node /opt/lessoncraftstudio/server-scripts/fix-db-diacritics.js && node /opt/lessoncraftstudio/server-scripts/fix-db-diacritics-numbered.js"
-```
+- Worksheet / translation / content-manager updates: `/var/www/lcs-media/scripts/update-worksheet.sh`
+- Design-element updates: `/var/www/lcs-media/scripts/update-design-element.sh`
 
----
+These handle unlock → copy → re-lock. Direct `cp` on an immutable file fails and leaves the path in an inconsistent state.
 
-## LEMON SQUEEZY PAYMENT SYSTEM - ABSOLUTE RULES
+### A.5 Deployment
 
-**Lemon Squeezy is the payment processor. There is NO license key system. App ownership is purchase-based: a row in the `purchases` table with `user_id` + `apps_access[]` array = the user owns those apps.**
+**ALWAYS commit + push BEFORE running deploy.** `deploy.sh` runs `git pull`, so unpushed commits never arrive.
 
-### The actual payment flow
+- Code deploy: `plink ... "bash /opt/lessoncraftstudio/deploy.sh"`
+- Per-scenario commands for worksheet / translation / content-manager updates live in **`DEPLOYMENT.md`**.
 
-1. User clicks Buy → redirected to Lemon Squeezy hosted checkout (`lessoncraftstudio-com.lemonsqueezy.com/checkout/buy/{uuid}`)
-2. User completes payment on LS
-3. LS sends webhook → `/api/webhooks/lemonsqueezy` (handler: `frontend/app/api/webhooks/lemonsqueezy/route.ts`)
-4. Webhook verifies HMAC-SHA256 signature via `LEMONSQUEEZY_WEBHOOK_SECRET`
-5. Idempotency check via `ls_webhook_events` table (unique `event_id`)
-6. For `order_created`: finds user by email OR auto-creates user + creates `Purchase` row with `apps_access[]` + sends password-reset email to new users
-7. For `order_refunded`: sets `Purchase.status='refunded'`, user loses access on next watermark check
-8. User logs in normally (email + password). Member dashboard at `/member/dashboard` queries `purchases` table by `userId`.
+### A.6 Lemon Squeezy (current payment integration — extended, not replaced, by the new subscription model)
 
-### Required environment variables
+- **Source of truth:** `frontend/config/lemonsqueezy-products.ts`
+- **Webhook handler:** `frontend/app/api/webhooks/lemonsqueezy/route.ts` (HMAC-SHA256, idempotent via `ls_webhook_events.event_id`)
+- **Required env vars:** `LEMONSQUEEZY_WEBHOOK_SECRET`, `LEMONSQUEEZY_API_KEY`, `LEMONSQUEEZY_STORE_ID`, `LEMONSQUEEZY_STORE_SLUG`, plus `SMTP_*` / `EMAIL_PROVIDER`.
+- Stripe is **not** the active processor. The backup at `/opt/lessoncraftstudio/stripe-backup/` is immutable historical reference — do not use, do not delete.
 
-| Variable | Purpose |
-|---|---|
-| `LEMONSQUEEZY_WEBHOOK_SECRET` | HMAC-SHA256 signing — if missing ALL webhooks rejected |
-| `LEMONSQUEEZY_API_KEY` | Lemon Squeezy API access |
-| `LEMONSQUEEZY_STORE_ID` | Numeric store ID |
-| `LEMONSQUEEZY_STORE_SLUG` | Subdomain (e.g., `lessoncraftstudio-com`) |
-| `SMTP_*` or `EMAIL_PROVIDER` credentials | For password-reset emails to new accounts |
+### A.7 Diacritics (image translations)
 
-### Product config
+`image_library_items.translations` was fully corrected on 2026-03-03. `deploy.sh` runs auto-healing every deployment; Test 13 is the smoke test.
 
-- Source of truth: `frontend/config/lemonsqueezy-products.ts`
-- 33 individual apps @ $49 + 6 category bundles @ $149 = 39 products
-- Each entry maps app-slug → LS product_id → hosted checkout URL
-- Helper: `getAppsForLSProduct(lsProductId)` returns array of app slugs
+Fix scripts at `/opt/lessoncraftstudio/server-scripts/`:
+- `audit-db-diacritics.js` — reports mismatches
+- `fix-db-diacritics.js` — base-key translations
+- `fix-db-diacritics-numbered.js` — numbered variants
+- `image-vocabulary-raw.json` — source of truth
 
-### NEVER DO LIST - LEMON SQUEEZY
+### A.8 Sample-commit protection
 
-**Claude must NEVER run these commands without EXPLICIT user request:**
+- Local `samples/` is in `.gitignore`.
+- `.git/hooks/pre-commit` blocks any sample-file commit.
+- Uploads flow: **Content Manager UI → API → `/var/www/lcs-media/samples/`** — never via git.
 
-```bash
-# NEVER modify Lemon Squeezy environment variables
-sed -i '.*LEMONSQUEEZY.*' /opt/lessoncraftstudio/frontend/.env*
-echo "LEMONSQUEEZY_" >> .env*
+### A.9 More detail
 
-# NEVER delete the webhook handler
-rm /opt/lessoncraftstudio/frontend/app/api/webhooks/lemonsqueezy/route.ts
+- **`DEPLOYMENT.md`** — full deployment scenarios + recovery workflows.
+- **`docs/reference/server-verification.md`** — health checks, file-count verification, backup inspection, image/payment recovery commands.
+- **`docs/reference/design-elements-integration.md`** — 22 load-bearing rules for the Design Elements accordion (read before porting it to a new app).
+- **`docs/reference/12-content-creation-guide.md`** — content creation guide.
 
-# NEVER delete the product config
-rm /opt/lessoncraftstudio/frontend/config/lemonsqueezy-products.ts
-```
-
-```sql
--- NEVER clear purchase data in bulk
-DELETE FROM purchases;
-TRUNCATE purchases;
-
--- NEVER clear webhook audit log (breaks idempotency)
-DELETE FROM ls_webhook_events;
-TRUNCATE ls_webhook_events;
-
--- NEVER drop user accounts tied to purchases
-DELETE FROM users WHERE id IN (SELECT user_id FROM purchases);
-TRUNCATE users;
-```
-
-### Safe Operations
-
-```bash
-# Read (never edit) the webhook handler
-cat /opt/lessoncraftstudio/frontend/app/api/webhooks/lemonsqueezy/route.ts
-
-# Query purchase data - safe
-# SELECT * FROM purchases WHERE user_id = '...';
-# SELECT * FROM ls_webhook_events WHERE status = 'failed' ORDER BY processed_at DESC;
-# SELECT * FROM users WHERE email = '...';
-
-# Test webhook endpoint liveness (returns 401 without valid signature - that's correct)
-curl -X POST https://www.lessoncraftstudio.com/api/webhooks/lemonsqueezy -d '{}'
-```
-
-### Recovery Procedure
-
-If the payment system breaks:
-1. Check env vars: `cat /opt/lessoncraftstudio/frontend/.env.production | grep LEMONSQUEEZY`
-2. Check webhook handler exists: `ls -la /opt/lessoncraftstudio/frontend/app/api/webhooks/lemonsqueezy/route.ts`
-3. Check product config intact: `head -5 /opt/lessoncraftstudio/frontend/config/lemonsqueezy-products.ts`
-4. Check recent webhook failures: `PGPASSWORD='LcS2025SecureDBPass' psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT event_id, event_type, error_message, processed_at FROM ls_webhook_events WHERE status = 'failed' ORDER BY processed_at DESC LIMIT 10;"`
-5. Check Lemon Squeezy dashboard for webhook delivery failures (webhooks tab shows retry attempts + response codes)
-
-### Verification Commands
-
-```bash
-# Webhook endpoint responds correctly (401 = signature check is running, which is what we want)
-curl -s -o /dev/null -w "%{http_code}\n" -X POST https://www.lessoncraftstudio.com/api/webhooks/lemonsqueezy
-# Expected: 401
-
-# Count purchases
-PGPASSWORD='LcS2025SecureDBPass' psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM purchases WHERE status='active';"
-
-# Check for any webhook failures
-PGPASSWORD='LcS2025SecureDBPass' psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT status, COUNT(*) FROM ls_webhook_events GROUP BY status;"
-
-# Verify all purchases linked to users
-PGPASSWORD='LcS2025SecureDBPass' psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM purchases WHERE user_id IS NULL;"
-# Expected: 0
-```
-
-### Legacy Stripe backup (reference only — NOT the active system)
-
-An immutable Stripe backup at `/opt/lessoncraftstudio/stripe-backup/stripe-config.backup` is preserved for historical reference. **Do not use it — Stripe is NOT the active payment processor.** Do not delete it either (immutable flag).
-
----
-
-## BACKUP PROCEDURES
-
-### Automated Backups (Cron)
-Backups run automatically via `/etc/cron.d/lcs-media-backups`:
-- **Hourly:** 4x daily during business hours → `/var/www/lcs-media/backups/hourly/`
-- **Daily:** 2 AM → `/var/www/lcs-media/backups/daily/`
-- **Weekly:** Sundays 3 AM → `/var/www/lcs-media/backups/weekly/`
-- **Monthly:** 1st of month 4 AM → `/var/www/lcs-media/backups/monthly/`
-
-### Manual Backup Commands
-```bash
-# Create immediate backup
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "/var/www/lcs-media/scripts/scheduled-backup.sh daily"
-
-# List existing backups
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "find /var/www/lcs-media/backups -name '*.tar.gz' -ls"
-
-# Emergency restore (interactive)
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "/var/www/lcs-media/scripts/emergency-restore.sh"
-```
-
----
-
-## IMAGE RECOVERY PROCEDURES
-
-If images are not loading:
-
-### Step 1: Check nginx is serving samples
-```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "curl -sI 'https://www.lessoncraftstudio.com/samples/english/addition/sample-1.jpeg' | head -5"
-```
-**Expected:** HTTP 200, Server: nginx
-
-### Step 2: Check samples health API
-```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "curl -s 'http://localhost:3000/api/health/samples'"
-```
-**Expected:** `{"status":"healthy",...}`
-
-### Step 3: Check file counts
-```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "/var/www/lcs-media/scripts/health-check.sh"
-```
-
-### Step 4: If samples are missing, restore from backups
-```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "/var/www/lcs-media/scripts/emergency-restore.sh"
-```
-
----
-
-## IMAGE VERIFICATION COMMANDS
-
-```bash
-# Check file counts in isolated storage
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "echo 'JPEG:' && find /var/www/lcs-media/samples -name '*.jpeg' | wc -l && echo 'WebP:' && find /var/www/lcs-media/samples -name '*.webp' | wc -l"
-
-# Check immutable flags on files
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "lsattr /var/www/lcs-media/samples/english/addition/*.jpeg 2>/dev/null | head -5"
-
-# Test HTTP access
-curl -I "https://www.lessoncraftstudio.com/samples/english/addition/sample-1.jpeg"
-```
-**Note:** Count varies based on content uploaded via content manager. Zero is valid.
-
----
-
-## Server Info
-- **IP**: 65.108.5.250
-- **User**: root
-- **Code Path**: /opt/lessoncraftstudio
-- **Samples Path**: /var/www/lcs-media/samples (ISOLATED)
-- **Image Library Path**: /var/www/lcs-media/image-library (ISOLATED)
-- **Worksheet Generators Path**: /var/www/lcs-media/worksheet-generators (ISOLATED)
-- **Admin Panels Path**: /var/www/lcs-media/admin-panels (ISOLATED)
-
-## Critical Rules
-- **ALWAYS** include `-hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU` in plink/pscp commands
-- **ALWAYS** commit and push BEFORE deploying (git pull gets nothing otherwise)
-- **ALWAYS** use REFERENCE folders for worksheet generators and translations
-- **ALWAYS** use `update-worksheet.sh` to update protected files on server (never direct `cp`)
-- **NEVER** store sample images directly in `frontend/public/` (gets wiped on build)
-- **NEVER** delete or modify `/var/www/lcs-media/samples/`
-- **NEVER** delete or modify `/var/www/lcs-media/image-library/`
-- **NEVER** delete or modify `/var/www/lcs-media/worksheet-generators/`
-- **NEVER** delete or modify `/var/www/lcs-media/admin-panels/`
-- **NEVER** delete or modify `/var/www/lcs-media/design-elements/`
-- **NEVER** run TRUNCATE, DROP, or bulk DELETE on the `design_elements` DB table
-- **NEVER** remove symlinks at `frontend/public/worksheet-generators` or `frontend/public/admin`
-- **NEVER** run `rm -rf` on any image, sample, or worksheet directories
-- **NEVER** run `chattr -i` on protected files without explicit user request
-- **NEVER** run `git add .` in project root (could include samples/images)
-- **NEVER** modify `LEMONSQUEEZY_*` environment variables without explicit user request
-- **NEVER** run TRUNCATE or bulk DELETE on `users`, `purchases`, or `ls_webhook_events` tables
-- **NEVER** delete the webhook handler at `/opt/lessoncraftstudio/frontend/app/api/webhooks/lemonsqueezy/route.ts`
-- **NEVER** delete the product config at `/opt/lessoncraftstudio/frontend/config/lemonsqueezy-products.ts`
-- **NEVER** delete or modify `/opt/lessoncraftstudio/stripe-backup/` (legacy — preserved for reference, NOT the active system)
-
-## Current Architecture
-
-**Business:** Professional Printable Business Toolkit for entrepreneurs, Etsy sellers, Amazon KDP publishers.
-
-**Payment model:** Direct sales via **Lemon Squeezy**.
-- **33 individual apps** at **$49** each (one-time, full access, commercial license)
-- **6 category bundles** at **$149** each (Math, Literacy, Visual, Matching, Puzzle, Search)
-- All purchases are one-time, no tiers, no subscriptions, no upsell funnels
-- Access to an app = a row in the `purchases` table with `status='active'` linking `user_id` to `apps_access[]`
-
-### What's Live
-- **33 worksheet generator apps** (all free to try with watermark, no signup required; paid access removes watermark)
-- **11 locales:** en, de, fr, es, pt, it, nl, sv, da, no, fi
-- **App detail pages:** `frontend/app/[locale]/apps/[slug]/page.tsx` (localized slugs)
-- **Apps listing:** `frontend/app/[locale]/apps/page.tsx` (6 categories)
-- **Homepage:** Entrepreneur-focused messaging
-- **Auth system:** Email + password, signup at `/auth/signup` or `/[locale]/auth/signup`, signin at `/auth/signin` or `/[locale]/auth/signin`
-- **Admin system:** Accessible at `/dashboard/admin`
-- **Member portal:** `/member` + `/member/dashboard` — shows user's active purchases (from `purchases` table). New users are auto-created on first Lemon Squeezy purchase and receive a password-reset email to set up login.
-- **Legal pages:** Terms, privacy, license
-- **Lemon Squeezy integration:** `frontend/config/lemonsqueezy-products.ts` (source of truth for 33 apps + 6 bundles)
-- **Webhook handler:** `frontend/app/api/webhooks/lemonsqueezy/route.ts`
-
-### What's Removed (Returns 410 Gone)
-- Blog (`/[locale]/blog/*`)
-- Theme/worksheet pages (`/[locale]/worksheets/*`)
-- Pricing page (`/[locale]/pricing`)
-- Category pages (`/[locale]/apps/category/*`)
-- Grade pages (`/[locale]/apps/grades/*`)
-- Buy pages (`/buy/*`)
-- Stripe API routes (removed from code, backup preserved)
-- 550 theme content files, 363 product content files
-- Blog components, theme-page components, pricing components
-
-### Key Files
-| File | Purpose |
-|------|---------|
-| `frontend/middleware.ts` | 410 Gone routing for removed URLs + locale handling |
-| `frontend/config/lemonsqueezy-products.ts` | Source of truth: 33 apps + 6 bundles, LS product IDs, checkout URLs |
-| `frontend/app/api/webhooks/lemonsqueezy/route.ts` | Lemon Squeezy webhook handler (order_created, order_refunded) |
-| `frontend/config/product-page-slugs.ts` | Localized app detail page slugs (11 locales) |
-| `frontend/app/[locale]/apps/[slug]/page.tsx` | App detail pages |
-| `frontend/app/sitemap.ts` | Sitemap: static pages + app detail pages only |
-| `frontend/lib/schema-generator.ts` | JSON-LD schemas (cleaned, 543 lines) |
-
----
-
-## Reference Folders (Source of Truth)
-- `REFERENCE APPS/` - 33 worksheet generator HTML files
-- `REFERENCE TRANSLATIONS/` - Translation JS files
-- `REFERENCE CONTENT MANAGERS/` - Content manager HTML files
-
-## After Modifying Worksheet Generators
-Run master-sync to update all local copies:
-```bash
-scripts\master-sync.bat
-```
-
----
-
-## INITIAL SETUP (One-Time)
-
-If setting up the isolated storage for the first time:
-
-```bash
-# Upload and run the setup script
-"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\server-scripts\*.sh" root@65.108.5.250:/opt/lessoncraftstudio/server-scripts/
-
-"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\server-scripts\lcs-media-backups.cron" root@65.108.5.250:/opt/lessoncraftstudio/server-scripts/
-
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /opt/lessoncraftstudio/server-scripts/setup-isolated-storage.sh"
-```
-
-Then update nginx config to serve `/samples/` from `/var/www/lcs-media/samples/`.
-
----
-
-## Health Check Endpoints
-```bash
-# Sample images health
-curl http://localhost:3000/api/health/samples
-
-# Database health
-curl http://localhost:3000/api/health/database
-```
-
-## Full Documentation
-See `DEPLOYMENT.md` for complete details on all scenarios and security considerations.
+*End of CLAUDE.md.*

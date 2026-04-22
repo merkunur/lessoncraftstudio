@@ -4374,7 +4374,7 @@ async function downloadPDF(canvasToExport, fileName) {
         '  var celebrationShown=false;',
         '  var titleEl,progressEl,overlayEl,muteBtn,celebrationEl,liveEl,imgEl,checkBtn,resetBtn,summaryEl;',
         '',
-        '  function expectedAnswer(s){return s.operandA - s.operandB}',
+        '  function expectedAnswer(s){return (s.mode==="find-subtrahend")?s.operandB:(s.operandA - s.operandB)}',
         '',
         '  function init(){',
         '    titleEl=document.getElementById("lcs-title");',

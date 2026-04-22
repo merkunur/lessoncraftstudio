@@ -4293,7 +4293,16 @@
                 modeByIndex[idx] = obj.resolvedMode || (exerciseModeSelect ? exerciseModeSelect.value : 'image-image');
                 var line = _findAnswerLineDeep(obj);
                 if (line) {
-                    rectByIndex[idx] = _worldLineRect(line);
+                    // Horizontal: use the answer line's world center x and length.
+                    // Vertical: use the exerciseRowGroup's world center y — that
+                    // sits on the equation's visible centerline (where the `=`
+                    // and operand symbols are). The answer line itself is 16
+                    // canvas-pixels below, which would float the box above the
+                    // equation. getCenterPoint honors any scale/translate the
+                    // operator applied after generation.
+                    var lw = _worldLineRect(line);
+                    var gc = obj.getCenterPoint();
+                    rectByIndex[idx] = { x: lw.x, y: gc.y, w: lw.w };
                 }
             }
         });
@@ -4348,7 +4357,7 @@
         '.lcs-worksheet{position:relative;display:block;width:100%;max-width:880px;background:#FFF;border-radius:10px;box-shadow:0 4px 18px rgba(28,28,30,.08);overflow:visible}',
         '.lcs-worksheet__img{display:block;width:100%;height:auto;user-select:none;-webkit-user-drag:none;pointer-events:none;border-radius:10px}',
         '.lcs-overlay{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none}',
-        '.lcs-slot{position:absolute;transform:translate(-50%,-100%);height:5.6%;min-height:28px;pointer-events:none}',
+        '.lcs-slot{position:absolute;transform:translate(-50%,-50%);height:5.6%;min-height:28px;pointer-events:none}',
         '.lcs-input{position:absolute;inset:0;width:100%;height:100%;font-family:inherit;font-weight:700;text-align:center;color:#1C1C1E;padding:0 4px;outline:none;font-size:clamp(15px,2.6vw,24px);pointer-events:auto;cursor:pointer;-webkit-appearance:none;appearance:none;border:3px dashed #4E5FE8;border-radius:8px;background:rgba(255,248,230,.92);transition:background-color .2s,border-color .2s,border-style .2s,box-shadow .2s,color .2s}',
         '.lcs-input::placeholder{color:rgba(78,95,232,.5);font-weight:600}',
         '.lcs-input:hover{background:#FFF8E6;border-color:#3F4FD0}',

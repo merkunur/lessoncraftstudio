@@ -4226,20 +4226,16 @@
     // END: Standardized Download Functions
 
     // ====================================================================
-    // BEGIN: Interactive-HTML export v3 (snapshot + overlay)
+    // BEGIN: Interactive-HTML export v4 (snapshot + overlay + batch check)
     // The student sees the operator's worksheet rendered pixel-perfect from
-    // a JPEG snapshot of the Fabric canvas (preserving title, border,
-    // background, theme images, every decoration). Input fields sit on top
-    // of each answer line at pre-computed coordinates. Commit-based
-    // feedback, coral shake on wrong, sparkle on correct, ten-frame hint
-    // popover after two wrong attempts, progress dots, celebration with
-    // first-try stars, mute toggle, prefers-reduced-motion branch.
-    // No Fabric.js on the student side; no objects to drag.
+    // a JPEG snapshot (preserving title, border, background, theme images).
+    // Each answer line becomes an obvious clickable hotspot. The student
+    // fills every line at their own pace; a sticky "Check Answers" button
+    // at the bottom lights up when all lines have a value. On click, every
+    // line flips green (correct) or red (wrong). Wrong lines show the
+    // correct answer next to the typed value. "Try Again" resets.
     // ====================================================================
 
-    // Capture the worksheet as a JPEG data URI. Mirrors the existing
-    // getCanvasDataURLWithOptions path (lines 4057+) but targets JPEG at
-    // multiplier 2 and quality 0.85 so the file stays under ~300 KB.
     async function _captureWorksheetImage(canvas) {
         var savedZoom = canvas.getZoom();
         var savedW = canvas.getWidth();
@@ -4259,7 +4255,6 @@
         return dataURL;
     }
 
-    // Walk a group and its descendants for the first child flagged isAnswerLine.
     function _findAnswerLineDeep(group) {
         if (!group || !group._objects) return null;
         for (var i = 0; i < group._objects.length; i++) {
@@ -4273,8 +4268,21 @@
         return null;
     }
 
-    // Build the slim v3 bundle: one worksheet JPEG + per-problem answer-
-    // line coordinates (in canvas pixels, to be converted to % at render).
+    // Compute a child object's world-space center and horizontal extent.
+    // Fabric 5.x getBoundingRect on a grouped child returns group-LOCAL
+    // coords; calcTransformMatrix walks the parent chain and returns the
+    // real world transform. We transform three anchor points through it to
+    // derive center (x, y) and line width in canvas pixels.
+    function _worldLineRect(line) {
+        var m = line.calcTransformMatrix();
+        var center = fabric.util.transformPoint({ x: 0, y: 0 }, m);
+        var halfW = (line.width || 50) / 2;
+        var leftPt = fabric.util.transformPoint({ x: -halfW, y: 0 }, m);
+        var rightPt = fabric.util.transformPoint({ x: halfW, y: 0 }, m);
+        var worldW = Math.hypot(rightPt.x - leftPt.x, rightPt.y - leftPt.y);
+        return { x: center.x, y: center.y, w: worldW };
+    }
+
     async function extractDeckBundle(canvas) {
         var problemsData = canvas.problemsData || [];
         var modeByIndex = {};
@@ -4285,12 +4293,7 @@
                 modeByIndex[idx] = obj.resolvedMode || (exerciseModeSelect ? exerciseModeSelect.value : 'image-image');
                 var line = _findAnswerLineDeep(obj);
                 if (line) {
-                    var r = line.getBoundingRect(true, true);
-                    rectByIndex[idx] = {
-                        x: r.left + r.width / 2,
-                        y: r.top + r.height / 2,
-                        w: r.width
-                    };
+                    rectByIndex[idx] = _worldLineRect(line);
                 }
             }
         });
@@ -4308,7 +4311,7 @@
         var worksheetImage = await _captureWorksheetImage(canvas);
 
         return {
-            bundleVersion: '3.0.0',
+            bundleVersion: '4.0.0',
             appType: 'addition',
             createdAt: new Date().toISOString(),
             contentLanguage: (window.currentLocale || (languageSelect && languageSelect.value) || 'en'),
@@ -4322,71 +4325,63 @@
         };
     }
 
-    // Design tokens locked in the plan. Warm cream bg, indigo primary,
-    // grass correct, warm coral wrong, sunshine yellow stars. 5-6 colors total.
     var INTERACTIVE_CSS_LINES = [
         '*{box-sizing:border-box}',
         'html,body{margin:0;padding:0}',
         'body{font-family:"Fredoka",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#FEFAF3;color:#1C1C1E;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;min-height:100vh}',
-        '#lcs-app{max-width:980px;margin:0 auto;padding:0 12px 56px}',
-        '.lcs-bar{position:sticky;top:0;z-index:5;background:rgba(254,250,243,.92);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding:12px 4px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}',
+        '#lcs-app{max-width:980px;margin:0 auto;padding:0 12px;padding-bottom:120px}',
+        '.lcs-bar{position:sticky;top:0;z-index:10;background:rgba(254,250,243,.94);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding:12px 4px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}',
         '.lcs-title{font-size:clamp(18px,2.6vw,24px);font-weight:600;color:#1C1C1E;margin:0;flex:1 1 auto;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}',
         '.lcs-progress{display:flex;gap:6px;flex-wrap:wrap;flex:0 1 auto}',
-        '.lcs-dot{width:18px;height:18px;border-radius:50%;background:#FFF;border:2px solid #DCE1E6;padding:0;cursor:pointer;transition:background-color .2s,border-color .2s,box-shadow .2s}',
-        '.lcs-dot:hover{border-color:#4E5FE8}',
+        '.lcs-dot{width:16px;height:16px;border-radius:50%;background:#FFF;border:2px solid #DCE1E6;padding:0;cursor:pointer;transition:background-color .2s,border-color .2s,transform .2s}',
+        '.lcs-dot:hover{border-color:#4E5FE8;transform:scale(1.1)}',
         '.lcs-dot:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+        '.lcs-dot--filled{background:#4E5FE8;border-color:#4E5FE8}',
         '.lcs-dot--correct{background:#4CAF50;border-color:#4CAF50}',
-        '.lcs-dot--wrong{background:#FF8A65;border-color:#FF8A65}',
-        '.lcs-dot--current{box-shadow:0 0 0 4px rgba(78,95,232,.2)}',
+        '.lcs-dot--wrong{background:#E53935;border-color:#E53935}',
         '.lcs-mute{width:40px;height:40px;border-radius:10px;border:2px solid #DCE1E6;background:#FFF;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;color:#545458;flex-shrink:0}',
         '.lcs-mute:hover{background:#FEFAF3}',
         '.lcs-mute:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
         '.lcs-mute svg{width:20px;height:20px;pointer-events:none}',
         '.lcs-mute[data-muted="1"]{background:#FFF8E6;border-color:#FFC857;color:#8A6D00}',
-        '.lcs-worksheet-wrap{display:flex;justify-content:center;padding-top:6px}',
-        '.lcs-worksheet{position:relative;display:block;width:100%;max-width:880px;background:#FFF;border-radius:10px;overflow:visible;box-shadow:0 4px 18px rgba(28,28,30,.08)}',
+        '.lcs-worksheet-wrap{display:flex;justify-content:center;padding-top:8px}',
+        '.lcs-worksheet{position:relative;display:block;width:100%;max-width:880px;background:#FFF;border-radius:10px;box-shadow:0 4px 18px rgba(28,28,30,.08);overflow:visible}',
         '.lcs-worksheet__img{display:block;width:100%;height:auto;user-select:none;-webkit-user-drag:none;pointer-events:none;border-radius:10px}',
-        '.lcs-overlay{position:absolute;inset:0;pointer-events:none}',
-        '.lcs-slot{position:absolute;transform:translate(-50%,-100%);height:5.4%;min-height:26px;pointer-events:none}',
-        '.lcs-input{position:absolute;inset:0;width:100%;height:100%;font-family:inherit;font-weight:600;text-align:center;border:2px dashed rgba(28,28,30,.28);border-radius:6px;background:rgba(255,248,230,.55);color:#1C1C1E;padding:0 4px;outline:none;font-size:clamp(14px,2.4vw,22px);transition:background-color .2s,border-color .2s,box-shadow .2s;pointer-events:auto;-webkit-appearance:none;appearance:none}',
-        '.lcs-input:hover{background:rgba(255,248,230,.85);border-color:#4E5FE8}',
-        '.lcs-input:focus-visible{border:3px solid #4E5FE8;background:rgba(255,248,230,1);box-shadow:0 0 0 4px rgba(78,95,232,.18)}',
-        '.lcs-slot--correct .lcs-input{border:2px solid #4CAF50;background:rgba(232,245,233,.95);color:#2E7D32}',
-        '.lcs-slot--correct .lcs-input:focus-visible{box-shadow:0 0 0 4px rgba(76,175,80,.22)}',
-        '.lcs-slot--wrong .lcs-input{border:2px solid #FF8A65;background:rgba(255,229,220,.96)}',
-        '.lcs-slot--current .lcs-input{border-style:solid;border-color:#4E5FE8;background:rgba(255,248,230,.95)}',
-        '.lcs-check{position:absolute;left:calc(100% + 6px);top:50%;transform:translateY(-50%) scale(0);width:24px;height:24px;color:#4CAF50;transition:transform .3s cubic-bezier(.2,1.4,.6,1);pointer-events:none}',
-        '.lcs-check svg{width:100%;height:100%;display:block}',
-        '.lcs-slot--correct .lcs-check{transform:translateY(-50%) scale(1)}',
-        '.lcs-slot--shake{animation:lcs-shake .4s ease}',
-        '@keyframes lcs-shake{0%,100%{transform:translate(-50%,-100%)}20%{transform:translate(calc(-50% - 5px),-100%)}40%{transform:translate(calc(-50% + 5px),-100%)}60%{transform:translate(calc(-50% - 4px),-100%)}80%{transform:translate(calc(-50% + 4px),-100%)}}',
-        '.lcs-sparkle{position:absolute;left:50%;top:50%;width:0;height:0;pointer-events:none;z-index:3}',
-        '.lcs-spark{position:absolute;width:8px;height:8px;border-radius:50%;background:#FFC857;opacity:0;left:-4px;top:-4px;animation:lcs-spark-fly .55s ease-out forwards}',
-        '@keyframes lcs-spark-fly{0%{opacity:0;transform:translate(0,0) scale(.5)}25%{opacity:1}100%{opacity:0;transform:translate(var(--sx,40px),var(--sy,-30px)) scale(1.2)}}',
-        '.lcs-popover{position:absolute;top:calc(100% + 8px);left:50%;transform:translateX(-50%);background:#FFFFFF;border:1px solid #DCE1E6;border-radius:12px;padding:10px 12px;box-shadow:0 12px 32px rgba(28,28,30,.18);min-width:180px;z-index:20;pointer-events:auto;opacity:0;visibility:hidden;transition:opacity .2s}',
-        '.lcs-slot--hinted .lcs-popover{opacity:1;visibility:visible}',
-        '.lcs-popover__cue{font-size:13px;color:#545458;text-align:center;padding-bottom:8px;font-weight:500}',
-        '.lcs-tenframe{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;width:160px;margin:0 auto}',
-        '.lcs-tf{width:100%;aspect-ratio:1/1;border-radius:50%;background:#F0F2F5;border:1.5px solid #DCE1E6}',
-        '.lcs-tf--a{background:#4CAF50;border-color:#4CAF50}',
-        '.lcs-tf--b{background:#FF8A65;border-color:#FF8A65}',
-        '.lcs-celebration{position:fixed;inset:0;background:rgba(28,28,30,.45);display:none;align-items:center;justify-content:center;z-index:10000;padding:16px}',
+        '.lcs-overlay{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none}',
+        '.lcs-slot{position:absolute;transform:translate(-50%,-100%);height:5.6%;min-height:28px;pointer-events:none}',
+        '.lcs-input{position:absolute;inset:0;width:100%;height:100%;font-family:inherit;font-weight:700;text-align:center;color:#1C1C1E;padding:0 4px;outline:none;font-size:clamp(15px,2.6vw,24px);pointer-events:auto;cursor:pointer;-webkit-appearance:none;appearance:none;border:3px dashed #4E5FE8;border-radius:8px;background:rgba(255,248,230,.92);transition:background-color .2s,border-color .2s,border-style .2s,box-shadow .2s,color .2s}',
+        '.lcs-input::placeholder{color:rgba(78,95,232,.5);font-weight:600}',
+        '.lcs-input:hover{background:#FFF8E6;border-color:#3F4FD0}',
+        '.lcs-input:focus-visible{border-style:solid;border-color:#4E5FE8;background:#FFFFFF;box-shadow:0 0 0 4px rgba(78,95,232,.22)}',
+        '.lcs-slot--empty .lcs-input{animation:lcs-pulse 2.2s ease-in-out infinite}',
+        '@keyframes lcs-pulse{0%,100%{box-shadow:0 0 0 0 rgba(78,95,232,.35)}50%{box-shadow:0 0 0 8px rgba(78,95,232,0)}}',
+        '.lcs-slot--filled .lcs-input{background:#FFFFFF;border-style:solid;animation:none}',
+        '.lcs-slot--correct .lcs-input{border:3px solid #4CAF50;background:#E8F5E9;color:#2E7D32;animation:none}',
+        '.lcs-slot--wrong .lcs-input{border:3px solid #E53935;background:#FFEBEE;color:#C62828;animation:none;text-decoration:line-through;text-decoration-thickness:2px}',
+        '.lcs-mark{position:absolute;left:calc(100% + 6px);top:50%;transform:translateY(-50%);display:flex;align-items:center;gap:4px;pointer-events:none;white-space:nowrap;font-weight:700;font-size:clamp(14px,2.2vw,20px)}',
+        '.lcs-mark__icon{width:22px;height:22px;display:block;flex-shrink:0}',
+        '.lcs-mark__correct-value{color:#2E7D32;background:#FFF;border:2px solid #4CAF50;border-radius:6px;padding:2px 8px}',
+        '.lcs-footer{position:sticky;bottom:0;z-index:10;margin-top:24px;background:rgba(254,250,243,.95);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-top:1px solid #DCE1E6;padding:16px 12px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap}',
+        '.lcs-btn{font-family:inherit;font-weight:700;font-size:17px;padding:14px 28px;border-radius:12px;border:none;cursor:pointer;min-height:52px;min-width:160px;transition:background-color .2s,transform .1s,box-shadow .2s,opacity .2s}',
+        '.lcs-btn:active:not([disabled]){transform:scale(.97)}',
+        '.lcs-btn:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+        '.lcs-btn[disabled]{opacity:.45;cursor:not-allowed}',
+        '.lcs-btn--primary{background:#4E5FE8;color:#FFF;box-shadow:0 4px 14px rgba(78,95,232,.3)}',
+        '.lcs-btn--primary:hover:not([disabled]){background:#3F4FD0;box-shadow:0 6px 20px rgba(78,95,232,.4)}',
+        '.lcs-btn--ghost{background:#FFF;color:#1C1C1E;border:2px solid #DCE1E6}',
+        '.lcs-btn--ghost:hover{background:#FEFAF3;border-color:#4E5FE8}',
+        '.lcs-summary{font-size:16px;font-weight:600;color:#545458;align-self:center;padding:0 8px}',
+        '.lcs-summary--all-correct{color:#2E7D32}',
+        '.lcs-celebration{position:fixed;inset:0;background:rgba(28,28,30,.5);display:none;align-items:center;justify-content:center;z-index:10000;padding:16px}',
         '.lcs-celebration--shown{display:flex}',
-        '.lcs-celebration__inner{position:relative;background:#FFFFFF;border-radius:24px;padding:28px 24px 20px;max-width:520px;width:100%;box-shadow:0 20px 60px rgba(28,28,30,.35);text-align:center;z-index:2}',
+        '.lcs-celebration__inner{position:relative;background:#FFFFFF;border-radius:24px;padding:32px 28px 24px;max-width:520px;width:100%;box-shadow:0 20px 60px rgba(28,28,30,.35);text-align:center;z-index:2}',
         '.lcs-celebration__title{font-size:clamp(36px,7vw,56px);margin:0 0 4px;color:#4E5FE8;font-weight:700}',
         '.lcs-stars{font-size:clamp(40px,7vw,52px);letter-spacing:10px;margin:12px 0;line-height:1}',
         '.lcs-star{color:#DCE1E6}',
         '.lcs-star--filled{color:#FFC857;filter:drop-shadow(0 2px 4px rgba(255,200,87,.35))}',
         '.lcs-celebration__sub{color:#545458;font-size:16px;margin:0 0 20px}',
-        '.lcs-mini{display:block;max-width:100%;max-height:220px;margin:0 auto 20px;border-radius:8px;border:1px solid #DCE1E6}',
+        '.lcs-mini{display:block;max-width:100%;max-height:200px;margin:0 auto 20px;border-radius:8px;border:1px solid #DCE1E6}',
         '.lcs-celebration__cta{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}',
-        '.lcs-btn{font-family:inherit;font-weight:600;font-size:17px;padding:14px 24px;border-radius:12px;border:none;cursor:pointer;min-height:48px;transition:background-color .2s,transform .1s}',
-        '.lcs-btn:active{transform:scale(.97)}',
-        '.lcs-btn:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
-        '.lcs-btn--primary{background:#4E5FE8;color:#FFF}',
-        '.lcs-btn--primary:hover{background:#3F4FD0}',
-        '.lcs-btn--ghost{background:transparent;color:#545458;border:2px solid #DCE1E6}',
-        '.lcs-btn--ghost:hover{background:#FEFAF3;color:#1C1C1E}',
         '.lcs-confetti{position:absolute;inset:0;pointer-events:none;overflow:hidden;border-radius:24px}',
         '.lcs-confetti__piece{position:absolute;width:8px;height:14px;top:-20px;animation:lcs-fall linear forwards;border-radius:2px}',
         '@keyframes lcs-fall{to{transform:translateY(620px) rotate(540deg);opacity:0}}',
@@ -4396,35 +4391,33 @@
         '.lcs-attrib a:hover{color:#4E5FE8}',
         '@media (prefers-reduced-motion:reduce){',
         '  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.15s !important}',
-        '  .lcs-slot--shake{animation:none}',
-        '  .lcs-spark{display:none}',
-        '  .lcs-confetti{display:none}',
+        '  .lcs-spark,.lcs-confetti{display:none}',
         '}',
         '@media print{',
         '  body{background:#FFF}',
-        '  .lcs-bar,.lcs-celebration,.lcs-attrib,.lcs-popover,.lcs-check{display:none !important}',
+        '  .lcs-bar,.lcs-footer,.lcs-celebration,.lcs-attrib,.lcs-mark{display:none !important}',
         '  .lcs-worksheet{box-shadow:none;border:none}',
-        '  .lcs-input{background:transparent;border:1px solid #000;color:#000}',
+        '  .lcs-input{background:transparent;border:1px solid #000;color:#000;animation:none}',
         '}'
     ];
 
-    // Student-side runtime. Array-of-lines pattern so no template-literal
-    // escaping is needed in the outer addition.html. Uses DOUBLE quotes.
     var INTERACTIVE_RUNTIME_LINES = [
         '(function(){',
         '  "use strict";',
         '  var STRINGS = {',
-        '    en:{title:"Addition Practice",tryAgain:"Try again!",youDidIt:"You did it!",doAnother:"Do Another",printMyWorksheet:"Print my worksheet",mute:"Mute sounds",unmute:"Turn sounds on",hintCountCue:"Count the dots",problemNumber:"Problem",correct:"correct",firstTryStars:"first-try stars"}',
+        '    en:{title:"Addition Practice",checkAnswers:"Check Answers",tryAgain:"Try Again",youDidIt:"You did it!",doAnother:"Do Another",printMyWorksheet:"Print my worksheet",mute:"Mute sounds",unmute:"Turn sounds on",problemNumber:"Problem",correct:"correct",score:"{n} of {total} correct",firstTryStars:"first-try stars",allCorrect:"All correct!"}',
         '  };',
         '  function T(key){var loc=(DECK_BUNDLE.contentLanguage||"en").slice(0,2);var t=STRINGS[loc]||STRINGS.en;return t[key]||STRINGS.en[key]||key}',
         '',
-        '  var state=DECK_BUNDLE.problems.map(function(p){return{index:p.index,operandA:p.operandA,operandB:p.operandB,mode:p.resolvedMode||"image-image",inputRect:p.inputRect,value:"",attempts:0,firstTryCorrect:null,status:"unsolved"}});',
+        '  var state=DECK_BUNDLE.problems.map(function(p){return{index:p.index,operandA:p.operandA,operandB:p.operandB,mode:p.resolvedMode||"image-image",inputRect:p.inputRect,value:"",status:"empty"}});',
         '  var muted=false;try{muted=localStorage.getItem("lcsMuted")==="1"}catch(e){}',
         '  var reducedMotion=false;try{reducedMotion=window.matchMedia("(prefers-reduced-motion: reduce)").matches}catch(e){}',
         '  var audioCtx=null;',
-        '  var currentIndex=0;',
+        '  var phase="fill";', // fill | reviewed
         '  var celebrationShown=false;',
-        '  var titleEl,progressEl,overlayEl,muteBtn,celebrationEl,liveEl,imgEl;',
+        '  var titleEl,progressEl,overlayEl,muteBtn,celebrationEl,liveEl,imgEl,checkBtn,resetBtn,summaryEl;',
+        '',
+        '  function expectedAnswer(s){return (s.mode==="find-addend")?s.operandB:(s.operandA+s.operandB)}',
         '',
         '  function init(){',
         '    titleEl=document.getElementById("lcs-title");',
@@ -4434,12 +4427,18 @@
         '    celebrationEl=document.getElementById("lcs-celebration");',
         '    liveEl=document.getElementById("lcs-live");',
         '    imgEl=document.getElementById("lcs-worksheet-img");',
+        '    checkBtn=document.getElementById("lcs-check");',
+        '    resetBtn=document.getElementById("lcs-reset");',
+        '    summaryEl=document.getElementById("lcs-summary");',
         '    if(titleEl) titleEl.textContent=DECK_BUNDLE.title||T("title");',
         '    renderProgress();',
-        '    renderSlots();',
+        '    // Wait for the worksheet image to load before positioning slots — percentage',
+        '    // heights need a resolved container height, which comes from the img.',
+        '    if(imgEl&&imgEl.complete&&imgEl.naturalHeight>0){renderSlots();}',
+        '    else if(imgEl){imgEl.addEventListener("load",renderSlots);imgEl.addEventListener("error",function(){console.error("[LCS] Worksheet image failed to load")});}',
         '    wireMute();',
         '    updateMuteButton();',
-        '    setTimeout(function(){focusProblem(0)},80);',
+        '    wireButtons();',
         '  }',
         '',
         '  function renderProgress(){',
@@ -4460,7 +4459,7 @@
         '      var s=state[i];var cls="lcs-dot";',
         '      if(s.status==="correct")cls+=" lcs-dot--correct";',
         '      else if(s.status==="wrong")cls+=" lcs-dot--wrong";',
-        '      if(i===currentIndex)cls+=" lcs-dot--current";',
+        '      else if(s.status==="filled")cls+=" lcs-dot--filled";',
         '      dots[i].className=cls;',
         '    }',
         '  }',
@@ -4474,20 +4473,17 @@
         '      var ir=s.inputRect;',
         '      var xPct=(ir.x/pw)*100;',
         '      var yPct=(ir.y/ph)*100;',
-        '      var wPct=((ir.w*1.2)/pw)*100;',
+        '      var wPct=((ir.w*1.3)/pw)*100;',
         '      var slot=document.createElement("div");',
-        '      slot.className="lcs-slot";',
+        '      slot.className="lcs-slot lcs-slot--empty";',
         '      slot.setAttribute("data-idx",String(i));',
         '      slot.style.left=xPct+"%";',
         '      slot.style.top=yPct+"%";',
-        '      slot.style.width="max("+wPct.toFixed(2)+"%,56px)";',
+        '      slot.style.width="max("+wPct.toFixed(2)+"%,64px)";',
         '      var input=buildInput(i);',
         '      slot.appendChild(input);',
-        '      var check=document.createElement("span");check.className="lcs-check";',
-        '      check.innerHTML="<svg viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\"><path d=\\"M5 12l4 4 10-10\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"3.5\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\"/></svg>";',
-        '      slot.appendChild(check);',
-        '      var pop=document.createElement("div");pop.className="lcs-popover";pop.id="lcs-pop-"+i;',
-        '      slot.appendChild(pop);',
+        '      var mark=document.createElement("span");mark.className="lcs-mark";mark.id="lcs-mark-"+i;',
+        '      slot.appendChild(mark);',
         '      overlayEl.appendChild(slot);',
         '    });',
         '  }',
@@ -4501,36 +4497,32 @@
         '    input.setAttribute("autocorrect","off");',
         '    input.setAttribute("autocapitalize","off");',
         '    input.setAttribute("spellcheck","false");',
+        '    input.setAttribute("placeholder","?");',
         '    input.className="lcs-input";',
         '    input.setAttribute("data-idx",String(idx));',
         '    var s=state[idx];',
         '    var label=T("problemNumber")+" "+(idx+1)+": "+s.operandA+" + "+(s.mode==="find-addend"?"?":s.operandB)+" = "+(s.mode==="find-addend"?(s.operandA+s.operandB):"?");',
         '    input.setAttribute("aria-label",label);',
-        '    input.addEventListener("focus",function(){currentIndex=idx;syncDots();setCurrentSlot(idx)});',
-        '    input.addEventListener("blur",function(){commit(idx,false)});',
-        '    input.addEventListener("keydown",function(e){',
-        '      if(e.key==="Enter"){e.preventDefault();if(commit(idx,true))advanceFrom(idx)}',
-        '    });',
         '    input.addEventListener("input",function(){',
+        '      if(phase!=="fill")return;',
         '      input.value=input.value.replace(/[^0-9]/g,"").slice(0,3);',
+        '      state[idx].value=input.value;',
+        '      state[idx].status=input.value.length>0?"filled":"empty";',
         '      var slot=slotFor(idx);',
-        '      if(slot&&state[idx].status!=="correct"){slot.classList.remove("lcs-slot--wrong")}',
+        '      if(slot){slot.classList.remove("lcs-slot--empty","lcs-slot--filled","lcs-slot--correct","lcs-slot--wrong");slot.classList.add(state[idx].status==="filled"?"lcs-slot--filled":"lcs-slot--empty")}',
+        '      syncDots();',
+        '      updateCheckButton();',
+        '    });',
+        '    input.addEventListener("keydown",function(e){',
+        '      if(e.key==="Enter"){e.preventDefault();advanceFrom(idx)}',
         '    });',
         '    return input;',
         '  }',
         '  function slotFor(idx){return overlayEl.querySelector(".lcs-slot[data-idx=\\""+idx+"\\"]")}',
         '  function inputFor(idx){return overlayEl.querySelector(".lcs-input[data-idx=\\""+idx+"\\"]")}',
         '',
-        '  function setCurrentSlot(idx){',
-        '    var slots=overlayEl.querySelectorAll(".lcs-slot");',
-        '    for(var i=0;i<slots.length;i++){',
-        '      if(parseInt(slots[i].getAttribute("data-idx"),10)===idx)slots[i].classList.add("lcs-slot--current");',
-        '      else slots[i].classList.remove("lcs-slot--current");',
-        '    }',
-        '  }',
         '  function focusProblem(idx){',
         '    if(idx<0||idx>=state.length)return;',
-        '    currentIndex=idx;syncDots();setCurrentSlot(idx);',
         '    var input=inputFor(idx);',
         '    if(input){input.focus();if(input.select)try{input.select()}catch(e){}',
         '      var slot=slotFor(idx);',
@@ -4538,91 +4530,78 @@
         '    }',
         '  }',
         '  function advanceFrom(idx){',
-        '    for(var i=idx+1;i<state.length;i++){if(state[i].status!=="correct"){focusProblem(i);return}}',
-        '    for(var j=0;j<idx;j++){if(state[j].status!=="correct"){focusProblem(j);return}}',
+        '    for(var i=idx+1;i<state.length;i++){if(state[i].status!=="correct"&&state[i].status!=="filled"){focusProblem(i);return}}',
+        '    for(var i2=idx+1;i2<state.length;i2++){focusProblem(i2);return}',
+        '    for(var j=0;j<idx;j++){if(state[j].status!=="correct"&&state[j].status!=="filled"){focusProblem(j);return}}',
         '  }',
         '',
-        '  function commit(idx,viaEnter){',
-        '    var s=state[idx];if(s.status==="correct")return false;',
-        '    var input=inputFor(idx);if(!input)return false;',
-        '    var val=input.value.trim();',
-        '    if(val==="")return false;',
-        '    s.value=val;',
-        '    var n=parseInt(val,10);',
-        '    if(isNaN(n))return false;',
-        '    var expected=(s.mode==="find-addend")?s.operandB:(s.operandA+s.operandB);',
-        '    var slot=slotFor(idx);',
-        '    if(n===expected){',
-        '      if(s.firstTryCorrect===null)s.firstTryCorrect=(s.attempts===0);',
-        '      s.status="correct";',
-        '      slot.classList.remove("lcs-slot--wrong","lcs-slot--hinted");',
-        '      slot.classList.add("lcs-slot--correct");',
+        '  function updateCheckButton(){',
+        '    if(!checkBtn)return;',
+        '    var allFilled=state.every(function(s){return s.value&&s.value.length>0});',
+        '    checkBtn.disabled=!allFilled||phase!=="fill";',
+        '  }',
+        '',
+        '  function wireButtons(){',
+        '    checkBtn.addEventListener("click",checkAll);',
+        '    resetBtn.addEventListener("click",resetAll);',
+        '  }',
+        '',
+        '  function checkAll(){',
+        '    if(phase!=="fill")return;',
+        '    phase="reviewed";',
+        '    var correct=0;',
+        '    state.forEach(function(s,idx){',
+        '      var input=inputFor(idx);if(!input)return;',
+        '      var slot=slotFor(idx);if(!slot)return;',
+        '      var mark=document.getElementById("lcs-mark-"+idx);',
+        '      var typed=parseInt(s.value,10);',
+        '      var exp=expectedAnswer(s);',
         '      input.setAttribute("readonly","readonly");',
-        '      input.setAttribute("aria-invalid","false");',
-        '      renderSparkle(slot);',
-        '      playTone(523.25,0.09);',
-        '      syncDots();',
-        '      announce(T("correct")+"! "+T("problemNumber")+" "+(idx+1));',
-        '      setTimeout(checkCompletion,700);',
-        '      return true;',
-        '    } else {',
-        '      if(s.firstTryCorrect===null)s.firstTryCorrect=false;',
-        '      s.attempts+=1;',
-        '      s.status="wrong";',
-        '      slot.classList.remove("lcs-slot--correct");',
-        '      slot.classList.add("lcs-slot--wrong");',
-        '      input.setAttribute("aria-invalid","true");',
-        '      playTone(220,0.08);',
-        '      slot.classList.remove("lcs-slot--shake");void slot.offsetWidth;',
-        '      if(!reducedMotion)slot.classList.add("lcs-slot--shake");',
-        '      syncDots();',
-        '      if(s.attempts>=2)showHint(idx);',
-        '      announce(T("tryAgain"));',
-        '      return false;',
-        '    }',
-        '  }',
-        '',
-        '  function renderSparkle(slot){',
-        '    if(reducedMotion)return;',
-        '    var burst=document.createElement("div");burst.className="lcs-sparkle";',
-        '    var n=6;',
-        '    for(var i=0;i<n;i++){',
-        '      var angle=(i/n)*Math.PI*2;',
-        '      var dist=28+Math.random()*10;',
-        '      var p=document.createElement("span");p.className="lcs-spark";',
-        '      p.style.setProperty("--sx",(Math.cos(angle)*dist)+"px");',
-        '      p.style.setProperty("--sy",(Math.sin(angle)*dist)+"px");',
-        '      p.style.animationDelay=(i*20)+"ms";',
-        '      burst.appendChild(p);',
-        '    }',
-        '    slot.appendChild(burst);',
-        '    setTimeout(function(){if(burst.parentNode)burst.parentNode.removeChild(burst)},600);',
-        '  }',
-        '',
-        '  function showHint(idx){',
-        '    var s=state[idx];',
-        '    var pop=document.getElementById("lcs-pop-"+idx);',
-        '    var slot=slotFor(idx);',
-        '    if(!pop||!slot)return;',
-        '    if(pop.dataset.rendered!=="1"){',
-        '      pop.dataset.rendered="1";',
-        '      var cue=document.createElement("div");cue.className="lcs-popover__cue";cue.textContent=T("hintCountCue");pop.appendChild(cue);',
-        '      var maxTotal=s.operandA+s.operandB;',
-        '      if(maxTotal<=20&&maxTotal>0){',
-        '        var frame=document.createElement("div");frame.className="lcs-tenframe";',
-        '        var cells=Math.max(10,maxTotal);',
-        '        for(var i=0;i<cells;i++){',
-        '          var cell=document.createElement("span");cell.className="lcs-tf";',
-        '          if(i<s.operandA)cell.classList.add("lcs-tf--a");',
-        '          else if(i<maxTotal)cell.classList.add("lcs-tf--b");',
-        '          frame.appendChild(cell);',
-        '        }',
-        '        pop.appendChild(frame);',
+        '      slot.classList.remove("lcs-slot--empty","lcs-slot--filled","lcs-slot--correct","lcs-slot--wrong");',
+        '      if(typed===exp){',
+        '        s.status="correct";',
+        '        slot.classList.add("lcs-slot--correct");',
+        '        correct++;',
+        '        if(mark)mark.innerHTML=\'<svg class="lcs-mark__icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#4CAF50" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg>\';',
         '      } else {',
-        '        var text=document.createElement("div");text.style.textAlign="center";text.style.fontWeight="600";text.textContent=s.operandA+" + "+s.operandB+" = ?";pop.appendChild(text);',
+        '        s.status="wrong";',
+        '        slot.classList.add("lcs-slot--wrong");',
+        '        if(mark)mark.innerHTML=\'<svg class="lcs-mark__icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#E53935" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M6 18L18 6"/></svg><span class="lcs-mark__correct-value">\'+exp+\'</span>\';',
         '      }',
+        '    });',
+        '    syncDots();',
+        '    checkBtn.hidden=true;',
+        '    resetBtn.hidden=false;',
+        '    var total=state.length;',
+        '    var txt=T("score").replace("{n}",correct).replace("{total}",total);',
+        '    if(correct===total){summaryEl.textContent=T("allCorrect");summaryEl.className="lcs-summary lcs-summary--all-correct"}',
+        '    else{summaryEl.textContent=txt;summaryEl.className="lcs-summary"}',
+        '    announce(txt);',
+        '    if(correct===total){',
+        '      playTone(659.25,0.13);',
+        '      setTimeout(function(){playTone(987.77,0.18)},160);',
+        '      setTimeout(showCelebration,500);',
+        '    } else {',
+        '      playTone(440,0.1);',
         '    }',
-        '    slot.classList.add("lcs-slot--hinted");',
+        '  }',
+        '',
+        '  function resetAll(){',
+        '    phase="fill";',
+        '    celebrationShown=false;',
+        '    state.forEach(function(s,idx){',
+        '      s.value="";s.status="empty";',
+        '      var input=inputFor(idx);if(input){input.value="";input.removeAttribute("readonly")}',
+        '      var slot=slotFor(idx);if(slot){slot.classList.remove("lcs-slot--filled","lcs-slot--correct","lcs-slot--wrong");slot.classList.add("lcs-slot--empty")}',
+        '      var mark=document.getElementById("lcs-mark-"+idx);if(mark)mark.innerHTML="";',
+        '    });',
+        '    syncDots();',
+        '    checkBtn.hidden=false;',
+        '    resetBtn.hidden=true;',
+        '    summaryEl.textContent="";summaryEl.className="lcs-summary";',
+        '    updateCheckButton();',
+        '    focusProblem(0);',
+        '    celebrationEl.classList.remove("lcs-celebration--shown");',
         '  }',
         '',
         '  function playTone(freq,dur){',
@@ -4640,20 +4619,13 @@
         '      osc.start(now);osc.stop(now+dur+0.03);',
         '    }catch(e){}',
         '  }',
-        '',
         '  function announce(msg){if(liveEl)liveEl.textContent=msg}',
         '',
-        '  function checkCompletion(){',
-        '    if(celebrationShown)return;',
-        '    var allCorrect=state.every(function(s){return s.status==="correct"});',
-        '    if(!allCorrect)return;',
-        '    celebrationShown=true;',
-        '    showCelebration();',
-        '  }',
         '  function showCelebration(){',
+        '    if(celebrationShown)return;celebrationShown=true;',
         '    var total=state.length;',
-        '    var firstTry=state.reduce(function(acc,s){return acc+(s.firstTryCorrect?1:0)},0);',
-        '    var pct=total>0?(firstTry/total):0;',
+        '    var correct=state.reduce(function(acc,s){return acc+(s.status==="correct"?1:0)},0);',
+        '    var pct=total>0?(correct/total):0;',
         '    var stars=pct>=0.9?3:pct>=0.6?2:1;',
         '    var starsHTML="";',
         '    for(var i=1;i<=3;i++){starsHTML+="<span class=\\"lcs-star"+(i<=stars?" lcs-star--filled":"")+"\\">\\u2605</span>"}',
@@ -4661,24 +4633,21 @@
         '      "<div class=\\"lcs-celebration__inner\\">"+',
         '      "<h1 class=\\"lcs-celebration__title\\">"+T("youDidIt")+"</h1>"+',
         '      "<div class=\\"lcs-stars\\" aria-label=\\""+stars+" out of 3 stars\\">"+starsHTML+"</div>"+',
-        '      "<p class=\\"lcs-celebration__sub\\">"+firstTry+" / "+total+" "+T("firstTryStars")+"</p>"+',
+        '      "<p class=\\"lcs-celebration__sub\\">"+correct+" / "+total+" "+T("correct")+"</p>"+',
         '      "<img class=\\"lcs-mini\\" alt=\\"Your completed worksheet\\" src=\\""+DECK_BUNDLE.worksheetImage+"\\" />"+',
         '      "<div class=\\"lcs-celebration__cta\\">"+',
         '        "<button class=\\"lcs-btn lcs-btn--primary\\" type=\\"button\\" id=\\"lcs-do-another\\">"+T("doAnother")+"</button>"+',
-        '        "<button class=\\"lcs-btn lcs-btn--ghost\\" type=\\"button\\" id=\\"lcs-print\\">"+T("printMyWorksheet")+"</button>"+',
+        '        "<button class=\\"lcs-btn lcs-btn--ghost\\" type=\\"button\\" id=\\"lcs-cel-print\\">"+T("printMyWorksheet")+"</button>"+',
         '      "</div>"+',
         '      "</div>"+',
         '      "<div class=\\"lcs-confetti\\" aria-hidden=\\"true\\"></div>";',
         '    celebrationEl.classList.add("lcs-celebration--shown");',
         '    document.getElementById("lcs-do-another").addEventListener("click",function(){location.reload()});',
-        '    document.getElementById("lcs-print").addEventListener("click",function(){window.print()});',
+        '    document.getElementById("lcs-cel-print").addEventListener("click",function(){window.print()});',
         '    if(!reducedMotion)spawnConfetti();',
-        '    playTone(659.25,0.13);',
-        '    setTimeout(function(){playTone(987.77,0.18)},160);',
         '  }',
         '  function spawnConfetti(){',
-        '    var layer=celebrationEl.querySelector(".lcs-confetti");',
-        '    if(!layer)return;',
+        '    var layer=celebrationEl.querySelector(".lcs-confetti");if(!layer)return;',
         '    var colors=["#4E5FE8","#4CAF50","#FF8A65","#FFC857","#6AB7FF","#B39DDB"];',
         '    for(var i=0;i<48;i++){',
         '      var c=document.createElement("span");c.className="lcs-confetti__piece";',
@@ -4711,7 +4680,6 @@
         var bundleJSON = JSON.stringify(bundle);
         var lang = (bundle.contentLanguage || 'en').slice(0, 2);
         var title = (bundle.title || 'Addition Practice');
-        var aspectRatio = bundle.page.width + '/' + bundle.page.height;
         var parts = [];
         parts.push('<!DOCTYPE html>');
         parts.push('<html lang="' + lang + '">');
@@ -4733,13 +4701,18 @@
         parts.push('    <button type="button" id="lcs-mute" class="lcs-mute" aria-label="Mute sounds"></button>');
         parts.push('  </div>');
         parts.push('  <div class="lcs-worksheet-wrap">');
-        parts.push('    <div class="lcs-worksheet" id="lcs-worksheet" style="aspect-ratio:' + aspectRatio + ';">');
+        parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');
         parts.push('      <img class="lcs-worksheet__img" id="lcs-worksheet-img" alt="" src="' + bundle.worksheetImage + '">');
         parts.push('      <div class="lcs-overlay" id="lcs-overlay"></div>');
         parts.push('    </div>');
         parts.push('  </div>');
         parts.push('  <p class="lcs-attrib">Made with <a href="https://www.lessoncraftstudio.com" target="_blank" rel="noopener">LessonCraftStudio</a></p>');
         parts.push('</main>');
+        parts.push('<footer class="lcs-footer">');
+        parts.push('  <button type="button" id="lcs-check" class="lcs-btn lcs-btn--primary" disabled>Check Answers</button>');
+        parts.push('  <button type="button" id="lcs-reset" class="lcs-btn lcs-btn--ghost" hidden>Try Again</button>');
+        parts.push('  <span id="lcs-summary" class="lcs-summary" aria-live="polite"></span>');
+        parts.push('</footer>');
         parts.push('<div class="lcs-celebration" id="lcs-celebration" role="dialog" aria-modal="true" aria-label="You did it!"></div>');
         parts.push('<div class="lcs-sr" id="lcs-live" role="status" aria-live="polite"></div>');
         parts.push('<script>var DECK_BUNDLE = ' + bundleJSON + ';<\/script>');
@@ -4757,6 +4730,9 @@
         showMessage('Preparing ' + fileName + '...', 'info', 0);
         try {
             var bundle = await extractDeckBundle(canvasInstance);
+            if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
+                throw new Error('Worksheet snapshot is empty.');
+            }
             var html = renderStandaloneHTML(bundle);
 
             var blob = new Blob([html], { type: 'text/html;charset=utf-8' });
@@ -4771,11 +4747,11 @@
 
             showMessage('Interactive worksheet downloaded.', 'success');
         } catch (e) {
-            console.error('[Interactive Export v3] Failed:', e);
+            console.error('[Interactive Export v4] Failed:', e);
             showMessage('Interactive export failed: ' + e.message, 'error');
         }
     }
-    // END: Interactive-HTML export v3
+    // END: Interactive-HTML export v4
 
     // --- BORDER & BACKGROUND LOGIC ---
     // REMOVED - Now handled entirely by BulletproofLoader

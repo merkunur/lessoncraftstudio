@@ -4268,6 +4268,27 @@
         return null;
     }
 
+    // The `=` sign in addition.html is built as `new fabric.Group([equalsCircle,
+    // equalsText])` where equalsText is a fabric.Text whose content is literally
+    // "=". Find that sub-group so the input slot can be anchored to its real
+    // visual center in world coords — the exerciseRowGroup's bbox center
+    // drifts off the equals line when operand images aren't square.
+    function _findEqualsSign(group) {
+        if (!group || !group._objects) return null;
+        for (var i = 0; i < group._objects.length; i++) {
+            var c = group._objects[i];
+            if (c && c.type === 'group' && c._objects) {
+                for (var j = 0; j < c._objects.length; j++) {
+                    var x = c._objects[j];
+                    if (x && x.type === 'text' && x.text === '=') {
+                        return c;
+                    }
+                }
+            }
+        }
+        return null;
+    }
+
     // Compute a child object's world-space center and horizontal extent.
     // Fabric 5.x getBoundingRect on a grouped child returns group-LOCAL
     // coords; calcTransformMatrix walks the parent chain and returns the
@@ -4294,15 +4315,23 @@
                 var line = _findAnswerLineDeep(obj);
                 if (line) {
                     // Horizontal: use the answer line's world center x and length.
-                    // Vertical: use the exerciseRowGroup's world center y — that
-                    // sits on the equation's visible centerline (where the `=`
-                    // and operand symbols are). The answer line itself is 16
-                    // canvas-pixels below, which would float the box above the
-                    // equation. getCenterPoint honors any scale/translate the
+                    // Vertical: use the `=` sign's own world center. Earlier
+                    // attempts (answer-line y, then group bbox center) drifted
+                    // when operand images weren't square — bbox extends to
+                    // whatever the images span, which isn't centered on the
+                    // equals line. Anchoring to the = sign itself is exact in
+                    // every mode and honors any scale/translate/rotate the
                     // operator applied after generation.
                     var lw = _worldLineRect(line);
-                    var gc = obj.getCenterPoint();
-                    rectByIndex[idx] = { x: lw.x, y: gc.y, w: lw.w };
+                    var eq = _findEqualsSign(obj);
+                    var yWorld;
+                    if (eq) {
+                        var em = eq.calcTransformMatrix();
+                        yWorld = fabric.util.transformPoint({ x: 0, y: 0 }, em).y;
+                    } else {
+                        yWorld = obj.getCenterPoint().y;
+                    }
+                    rectByIndex[idx] = { x: lw.x, y: yWorld, w: lw.w };
                 }
             }
         });

@@ -1525,6 +1525,8 @@
                 <button id="downloadWorksheetPdfBtn" disabled data-translate="worksheetPdf">Worksheet (PDF)</button>
                 <button id="downloadAnswerKeyPdfBtn" disabled data-translate="answerKeyPdf">Answer Key (PDF)</button>
                 <hr style="margin: 6px 0; border-color: #eee;">
+                <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
+                <hr style="margin: 6px 0; border-color: #eee;">
                 <label class="checkbox-label">
                     <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
                 </label>
@@ -1735,6 +1737,7 @@
       const downloadAnswerKeyJpegBtn = document.getElementById("downloadAnswerKeyJpegBtn");
       const downloadWorksheetPdfBtn = document.getElementById("downloadWorksheetPdfBtn");
       const downloadAnswerKeyPdfBtn = document.getElementById("downloadAnswerKeyPdfBtn");
+      const downloadInteractiveHtmlBtn = document.getElementById("downloadInteractiveHtmlBtn");
       const clearBtn = document.getElementById("clearBtn");
       const grayscaleToggle = document.getElementById('grayscaleToggle');
 
@@ -3635,6 +3638,8 @@
                     isGeneratedItem: true,
                     originalIndex: i // Tag for re-applying transforms
                 });
+                // Interactive-HTML export needs to know which sub-mode 'mixed' landed on for each row.
+                exerciseRowGroup.resolvedMode = exerciseMode;
 
                 // Scale down if exercise is too wide for the canvas
                 const maxWidth = canvasWidth - leftMargin - rightMargin;
@@ -3665,6 +3670,7 @@
         worksheetCanvas.renderAll();
         downloadWorksheetJpegBtn.disabled = false;
         downloadWorksheetPdfBtn.disabled = false;
+        downloadInteractiveHtmlBtn.disabled = false;
         generateAnswerKeyBtn.disabled = false;
         showMessage(t('worksheetGeneratedSuccessfully'), "success");
 
@@ -4219,6 +4225,315 @@
     }
     // END: Standardized Download Functions
 
+    // ====================================================================
+    // BEGIN: Interactive-HTML export
+    // Produces a single self-contained .html file that plays the current
+    // worksheet interactively in any browser, offline. Reuses the existing
+    // Fabric canvas state + per-problem answer data; does not touch the
+    // PDF/JPEG export paths above.
+    // ====================================================================
+
+    // Custom props the player needs on top of the nine used by undo/redo.
+    var INTERACTIVE_EXPORT_PROPS = [
+        'isAdditionProblem','isGeneratedItem','isAnswerKeyItem',
+        'isPageBorder','isHeaderDesc','isHeaderElement','isBorder','isBackground',
+        'originalIndex','isAnswerLine','isOverlay','isDeBackground','resolvedMode'
+    ];
+
+    // Walk every fabric.Image in the canvas tree and convert each unique
+    // source to a base64 data URI using the already-loaded image element.
+    // Mirrors the existing grayscale pattern at lines 4020-4048: draw to
+    // a throwaway 2D canvas, then call toDataURL. No network fetch needed
+    // because images were loaded with crossOrigin='anonymous' (line 3442).
+    function collectImageDataURIs(canvas) {
+        var map = {};
+        function walk(objs) {
+            if (!objs) return;
+            for (var i = 0; i < objs.length; i++) {
+                var obj = objs[i];
+                if (obj.type === 'image') {
+                    var el = obj.getElement ? obj.getElement() : obj._element;
+                    var src = obj.getSrc ? obj.getSrc() : (el && el.src) || obj.src || '';
+                    if (src && !map[src] && src.indexOf('data:') !== 0 && el && el.complete) {
+                        try {
+                            var tmp = document.createElement('canvas');
+                            tmp.width = el.naturalWidth || el.width;
+                            tmp.height = el.naturalHeight || el.height;
+                            tmp.getContext('2d').drawImage(el, 0, 0);
+                            map[src] = tmp.toDataURL('image/png');
+                        } catch (e) {
+                            console.warn('[Interactive Export] Could not embed image:', src, e);
+                        }
+                    }
+                }
+                if (obj._objects) walk(obj._objects);
+                if (obj.objects) walk(obj.objects);
+            }
+        }
+        walk(canvas.getObjects());
+        return map;
+    }
+
+    // Rewrite every image node's src in the serialized canvas JSON to its
+    // data-URI equivalent so the standalone file needs no network access.
+    function rewriteImageSrcs(node, map) {
+        if (!node) return;
+        if (Array.isArray(node)) {
+            for (var i = 0; i < node.length; i++) rewriteImageSrcs(node[i], map);
+            return;
+        }
+        if (node.type === 'image' && node.src && map[node.src]) {
+            node.src = map[node.src];
+        }
+        if (node.objects) rewriteImageSrcs(node.objects, map);
+    }
+
+    // Build the deck bundle from the current worksheet canvas state.
+    function extractDeckBundle(canvas) {
+        var problemsData = canvas.problemsData || [];
+        // Collect the rendered row groups so we can pull resolvedMode per index.
+        var modeByIndex = {};
+        canvas.getObjects().forEach(function(obj) {
+            if (obj.isGeneratedItem === true && typeof obj.originalIndex === 'number') {
+                modeByIndex[obj.originalIndex] = obj.resolvedMode || (exerciseModeSelect ? exerciseModeSelect.value : 'image-image');
+            }
+        });
+        var problems = problemsData.map(function(p, i) {
+            return {
+                index: i,
+                operandA: p.operandA,
+                operandB: p.operandB,
+                resolvedMode: modeByIndex[i] || (exerciseModeSelect ? exerciseModeSelect.value : 'image-image')
+            };
+        });
+
+        var canvasStateJSON = canvas.toJSON(INTERACTIVE_EXPORT_PROPS);
+        var imageMap = collectImageDataURIs(canvas);
+        rewriteImageSrcs(canvasStateJSON, imageMap);
+
+        return {
+            bundleVersion: '1.0.0',
+            appType: 'addition',
+            createdAt: new Date().toISOString(),
+            contentLanguage: (window.currentLocale || (languageSelect && languageSelect.value) || 'en'),
+            page: {
+                width: currentCanvasConfig.width,
+                height: currentCanvasConfig.height,
+                backgroundColor: canvas.backgroundColor || '#ffffff'
+            },
+            settings: {
+                exerciseMode: exerciseModeSelect ? exerciseModeSelect.value : 'image-image',
+                minOperand: parseInt(minOperandInput.value, 10),
+                maxOperand: parseInt(maxOperandInput.value, 10),
+                problemCount: parseInt(problemCountInput.value, 10),
+                includeNameDate: !!(includeNameDateCheckbox && includeNameDateCheckbox.checked),
+                showPlusSign: !!(showPlusSignCheckbox && showPlusSignCheckbox.checked),
+                includeExerciseNumbers: !!(includeExerciseNumbersCheckbox && includeExerciseNumbersCheckbox.checked),
+                useFriendlyBox: !!(useFriendlyBoxCheckbox && useFriendlyBoxCheckbox.checked),
+                showWrittenExpression: !!(showWrittenExpressionCheckbox && showWrittenExpressionCheckbox.checked)
+            },
+            problems: problems,
+            canvasStateJSON: canvasStateJSON
+        };
+    }
+
+    // Runtime code that runs inside the downloaded standalone HTML.
+    // Stored as an array of line-strings joined at render time so no
+    // outer-template escaping is needed.
+    var INTERACTIVE_RUNTIME_LINES = [
+        '(function(){',
+        '  var wrapper, outer, canvas, overlay, checkBtn, tryAgainBtn, scoreEl, inputs=[];',
+        '  function init(){',
+        '    outer = document.getElementById("lcs-wrapper-outer");',
+        '    wrapper = document.getElementById("lcs-play-wrapper");',
+        '    overlay = document.getElementById("lcs-overlay");',
+        '    checkBtn = document.getElementById("lcs-check");',
+        '    tryAgainBtn = document.getElementById("lcs-try-again");',
+        '    scoreEl = document.getElementById("lcs-score");',
+        '    canvas = new fabric.Canvas("playCanvas", {selection:false, interactive:false, skipOffscreen:false});',
+        '    canvas.setDimensions({width: DECK_BUNDLE.page.width, height: DECK_BUNDLE.page.height});',
+        '    canvas.setBackgroundColor(DECK_BUNDLE.page.backgroundColor || "#ffffff", function(){',
+        '      canvas.loadFromJSON(DECK_BUNDLE.canvasStateJSON, function(){',
+        '        canvas.renderAll();',
+        '        placeInputs();',
+        '        resize();',
+        '      });',
+        '    });',
+        '    window.addEventListener("resize", resize);',
+        '    if (window.ResizeObserver){ new ResizeObserver(resize).observe(document.body); }',
+        '    checkBtn.addEventListener("click", checkAnswers);',
+        '    tryAgainBtn.addEventListener("click", tryAgain);',
+        '  }',
+        '  function findAnswerLine(group){',
+        '    if (!group._objects) return null;',
+        '    for (var i=0;i<group._objects.length;i++){',
+        '      var c = group._objects[i];',
+        '      if (c.isAnswerLine === true) return c;',
+        '      if (c._objects){ var f = findAnswerLine(c); if (f) return f; }',
+        '    }',
+        '    return null;',
+        '  }',
+        '  function placeInputs(){',
+        '    overlay.innerHTML = "";',
+        '    inputs = [];',
+        '    var groups = canvas.getObjects().filter(function(o){ return o.isGeneratedItem === true; });',
+        '    groups.forEach(function(g){',
+        '      var idx = g.originalIndex;',
+        '      var problem = null;',
+        '      for (var i=0;i<DECK_BUNDLE.problems.length;i++){ if (DECK_BUNDLE.problems[i].index === idx){ problem = DECK_BUNDLE.problems[i]; break; } }',
+        '      if (!problem) return;',
+        '      var line = findAnswerLine(g);',
+        '      if (!line) return;',
+        '      var rect = line.getBoundingRect(true, true);',
+        '      var inputH = 36;',
+        '      var padX = 10;',
+        '      var inputW = rect.width + padX * 2;',
+        '      var minW = 48;',
+        '      if (inputW < minW) inputW = minW;',
+        '      var cx = rect.left + rect.width / 2;',
+        '      var input = document.createElement("input");',
+        '      input.type = "text";',
+        '      input.inputMode = "numeric";',
+        '      input.setAttribute("pattern", "[0-9]*");',
+        '      input.setAttribute("maxlength", "3");',
+        '      input.setAttribute("autocomplete", "off");',
+        '      input.setAttribute("autocorrect", "off");',
+        '      input.setAttribute("autocapitalize", "off");',
+        '      input.setAttribute("spellcheck", "false");',
+        '      input.className = "lcs-answer-input";',
+        '      input.style.left = (cx - inputW / 2) + "px";',
+        '      input.style.top = (rect.top + rect.height - inputH) + "px";',
+        '      input.style.width = inputW + "px";',
+        '      input.style.height = inputH + "px";',
+        '      input.dataset.index = String(idx);',
+        '      input.dataset.mode = problem.resolvedMode || "image-image";',
+        '      input.dataset.a = String(problem.operandA);',
+        '      input.dataset.b = String(problem.operandB);',
+        '      input.addEventListener("input", function(){ input.classList.remove("lcs-correct","lcs-wrong"); });',
+        '      overlay.appendChild(input);',
+        '      inputs.push(input);',
+        '    });',
+        '  }',
+        '  function resize(){',
+        '    var available = Math.max(320, Math.min(window.innerWidth - 32, 1400));',
+        '    var scale = available / DECK_BUNDLE.page.width;',
+        '    if (scale > 1) scale = 1;',
+        '    wrapper.style.width = DECK_BUNDLE.page.width + "px";',
+        '    wrapper.style.height = DECK_BUNDLE.page.height + "px";',
+        '    wrapper.style.transform = "scale(" + scale + ")";',
+        '    outer.style.width = (DECK_BUNDLE.page.width * scale) + "px";',
+        '    outer.style.height = (DECK_BUNDLE.page.height * scale) + "px";',
+        '  }',
+        '  function checkAnswers(){',
+        '    var correct = 0;',
+        '    inputs.forEach(function(input){',
+        '      var val = parseInt(input.value, 10);',
+        '      var a = parseInt(input.dataset.a, 10);',
+        '      var b = parseInt(input.dataset.b, 10);',
+        '      var mode = input.dataset.mode;',
+        '      var expected = (mode === "find-addend") ? b : (a + b);',
+        '      input.classList.remove("lcs-correct","lcs-wrong");',
+        '      if (!isNaN(val) && val === expected){ input.classList.add("lcs-correct"); correct++; }',
+        '      else { input.classList.add("lcs-wrong"); }',
+        '    });',
+        '    scoreEl.textContent = correct + " / " + inputs.length + " correct";',
+        '  }',
+        '  function tryAgain(){',
+        '    inputs.forEach(function(input){ input.value = ""; input.classList.remove("lcs-correct","lcs-wrong"); });',
+        '    scoreEl.textContent = "";',
+        '  }',
+        '  if (document.readyState === "loading"){ document.addEventListener("DOMContentLoaded", init); } else { init(); }',
+        '})();'
+    ];
+
+    // Assemble the self-contained HTML document.
+    function renderStandaloneHTML(bundle) {
+        var runtime = INTERACTIVE_RUNTIME_LINES.join('\n');
+        var bundleJSON = JSON.stringify(bundle);
+        var parts = [];
+        parts.push('<!DOCTYPE html>');
+        parts.push('<html lang="' + (bundle.contentLanguage || 'en') + '">');
+        parts.push('<head>');
+        parts.push('<meta charset="UTF-8">');
+        parts.push('<meta name="viewport" content="width=device-width, initial-scale=1.0">');
+        parts.push('<title>Addition Practice</title>');
+        parts.push('<link rel="preconnect" href="https://fonts.googleapis.com">');
+        parts.push('<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>');
+        parts.push('<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;600;700&family=Nunito:wght@400;700;900&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">');
+        parts.push('<script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"><\/script>');
+        parts.push('<style>');
+        parts.push('body{margin:0;padding:16px;background:#f5f5f7;font-family:"Nunito",sans-serif;min-height:100vh;}');
+        parts.push('#lcs-wrapper-outer{margin:0 auto;overflow:hidden;box-shadow:0 2px 14px rgba(0,0,0,0.1);background:#fff;border-radius:6px;}');
+        parts.push('#lcs-play-wrapper{position:relative;transform-origin:0 0;background:#fff;}');
+        parts.push('#playCanvas{display:block;}');
+        parts.push('#lcs-overlay{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;}');
+        parts.push('.lcs-answer-input{position:absolute;pointer-events:auto;font-family:"Fredoka",sans-serif;font-size:22px;font-weight:700;color:#333;background:rgba(255,255,255,0.92);border:2px solid transparent;border-bottom:2.5px solid #333;border-radius:6px;text-align:center;outline:none;box-sizing:border-box;padding:0 4px;transition:background .2s, border-color .2s, color .2s;}');
+        parts.push('.lcs-answer-input:focus{background:#fffef0;border-color:#1976D2;}');
+        parts.push('.lcs-answer-input.lcs-correct{background:#d7f0db;border-color:#4CAF50;color:#2E7D32;}');
+        parts.push('.lcs-answer-input.lcs-wrong{background:#fadada;border-color:#E53935;color:#C62828;}');
+        parts.push('.lcs-controls{text-align:center;margin:20px auto;max-width:640px;}');
+        parts.push('.lcs-btn{background:#1976D2;color:#fff;border:none;padding:12px 28px;border-radius:8px;font-family:"Nunito",sans-serif;font-size:18px;font-weight:700;cursor:pointer;margin:0 6px;}');
+        parts.push('.lcs-btn:hover{background:#1565C0;}');
+        parts.push('.lcs-btn.lcs-secondary{background:#78909C;}');
+        parts.push('.lcs-btn.lcs-secondary:hover{background:#546E7A;}');
+        parts.push('.lcs-score{display:block;margin-top:14px;font-family:"Fredoka",sans-serif;font-size:22px;font-weight:700;color:#333;min-height:28px;}');
+        parts.push('.lcs-attrib{text-align:center;margin:24px 0 8px;font-size:12px;color:#888;font-family:"Nunito",sans-serif;}');
+        parts.push('.lcs-attrib a{color:#888;text-decoration:none;}');
+        parts.push('</style>');
+        parts.push('</head>');
+        parts.push('<body>');
+        parts.push('<div id="lcs-wrapper-outer"><div id="lcs-play-wrapper"><canvas id="playCanvas"></canvas><div id="lcs-overlay"></div></div></div>');
+        parts.push('<div class="lcs-controls">');
+        parts.push('<button id="lcs-check" class="lcs-btn">Check Answers</button>');
+        parts.push('<button id="lcs-try-again" class="lcs-btn lcs-secondary">Try Again</button>');
+        parts.push('<span id="lcs-score" class="lcs-score"></span>');
+        parts.push('</div>');
+        parts.push('<div class="lcs-attrib">Made with <a href="https://www.lessoncraftstudio.com" target="_blank" rel="noopener">LessonCraftStudio</a></div>');
+        parts.push('<script>var DECK_BUNDLE = ' + bundleJSON + ';<\/script>');
+        parts.push('<script>' + runtime + '<\/script>');
+        parts.push('</body>');
+        parts.push('</html>');
+        return parts.join('\n');
+    }
+
+    async function downloadInteractiveHtml(canvasInstance, fileName) {
+        if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
+            showMessage(t('pleaseGenerateContentFirst') || 'Please generate a worksheet first.', 'error');
+            return;
+        }
+        showMessage('Preparing ' + fileName + '...', 'info', 0);
+        try {
+            // Make sure the canvas is at its logical size so the exported
+            // Fabric JSON and any getBoundingRect calls use unzoomed coords.
+            var savedZoom = canvasInstance.getZoom();
+            canvasInstance.discardActiveObject();
+            canvasInstance.setZoom(1);
+            canvasInstance.renderAll();
+
+            var bundle = extractDeckBundle(canvasInstance);
+            var html = renderStandaloneHTML(bundle);
+
+            canvasInstance.setZoom(savedZoom);
+            canvasInstance.renderAll();
+
+            var blob = new Blob([html], { type: 'text/html;charset=utf-8' });
+            var url = URL.createObjectURL(blob);
+            var a = document.createElement('a');
+            a.href = url;
+            a.download = fileName;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            setTimeout(function(){ URL.revokeObjectURL(url); }, 1000);
+
+            showMessage('Interactive worksheet downloaded.', 'success');
+        } catch (e) {
+            console.error('[Interactive Export] Failed:', e);
+            showMessage('Interactive export failed: ' + e.message, 'error');
+        }
+    }
+    // END: Interactive-HTML export
+
     // --- BORDER & BACKGROUND LOGIC ---
     // REMOVED - Now handled entirely by BulletproofLoader
     // Original loadBorderThemes function has been replaced by BulletproofLoader.init()
@@ -4603,6 +4918,7 @@
       downloadAnswerKeyJpegBtn.addEventListener("click", () => downloadJpegFile(answerKeyCanvas, 'addition_answer_key.jpeg'));
       downloadWorksheetPdfBtn.addEventListener("click", () => downloadPdfFile(worksheetCanvas, 'addition_worksheet.pdf'));
       downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPdfFile(answerKeyCanvas, 'addition_answer_key.pdf'));
+      downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'addition_interactive.html'));
 
       // Zoom button listeners (matches wordsearch)
       zoomInBtn.addEventListener('click', zoomIn);

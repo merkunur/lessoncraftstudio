@@ -4226,195 +4226,150 @@
     // END: Standardized Download Functions
 
     // ====================================================================
-    // BEGIN: Interactive-HTML export v2
-    // Produces a single self-contained .html file. The student sees a
-    // responsive card layout (one-col phone, 2-col tablet, 3-col desktop),
-    // not a replica of the printed worksheet. Inputs commit on Enter/Tab/
-    // blur, wrong answers shake coral + unlock a ten-frame hint after 2
-    // tries, correct answers sparkle + advance focus. End-of-sheet
-    // celebration awards 1-3 stars based on first-try accuracy. Pure
-    // HTML/CSS/vanilla-JS; no Fabric.js on the student side.
-    // Design tokens, rationale, and research sources are in the plan file.
+    // BEGIN: Interactive-HTML export v3 (snapshot + overlay)
+    // The student sees the operator's worksheet rendered pixel-perfect from
+    // a JPEG snapshot of the Fabric canvas (preserving title, border,
+    // background, theme images, every decoration). Input fields sit on top
+    // of each answer line at pre-computed coordinates. Commit-based
+    // feedback, coral shake on wrong, sparkle on correct, ten-frame hint
+    // popover after two wrong attempts, progress dots, celebration with
+    // first-try stars, mute toggle, prefers-reduced-motion branch.
+    // No Fabric.js on the student side; no objects to drag.
     // ====================================================================
 
-    // Pull an imageKey out of a theme-image path like "/images/animals/cat.png"
-    // or a data: URI (custom upload, which we key by a stable prefix hash).
-    function _imageKeyFor(imagePath) {
-        if (!imagePath) return 'fallback';
-        if (imagePath.indexOf('data:') === 0) {
-            // Use last 24 chars as a stable-enough local key for dedupe.
-            return 'custom-' + imagePath.slice(-24).replace(/[^a-z0-9]/gi, '');
+    // Capture the worksheet as a JPEG data URI. Mirrors the existing
+    // getCanvasDataURLWithOptions path (lines 4057+) but targets JPEG at
+    // multiplier 2 and quality 0.85 so the file stays under ~300 KB.
+    async function _captureWorksheetImage(canvas) {
+        var savedZoom = canvas.getZoom();
+        var savedW = canvas.getWidth();
+        var savedH = canvas.getHeight();
+        canvas.discardActiveObject();
+        canvas.setZoom(1);
+        canvas.setDimensions({ width: currentCanvasConfig.width, height: currentCanvasConfig.height });
+        canvas.renderAll();
+        var dataURL;
+        try {
+            dataURL = canvas.toDataURL({ format: 'jpeg', quality: 0.85, multiplier: 2 });
+        } finally {
+            canvas.setZoom(savedZoom);
+            canvas.setDimensions({ width: savedW, height: savedH });
+            canvas.renderAll();
         }
-        var parts = imagePath.split('/');
-        return parts[parts.length - 1] || 'img';
+        return dataURL;
     }
 
-    // Convert each unique image path referenced by problemsData to a
-    // base64 data URI using the already-loaded fabric.Image element if we
-    // can find it; otherwise draw a fresh <img> onto a 2D canvas and toDataURL.
-    // Same pattern as the existing grayscale helper at lines 4020-4048.
-    function collectProblemImages(canvas, problems) {
-        var map = {};
-        // Build a path -> fabric.Image element lookup from the current canvas.
-        var fabricImagesBySrc = {};
-        (function walk(objs){
-            if (!objs) return;
-            objs.forEach(function(o){
-                if (o.type === 'image') {
-                    var src = o.getSrc ? o.getSrc() : (o._element && o._element.src) || o.src || '';
-                    if (src) fabricImagesBySrc[src] = o;
-                }
-                if (o._objects) walk(o._objects);
-            });
-        })(canvas.getObjects());
-
-        function srcToDataURI(src) {
-            if (!src) return null;
-            if (src.indexOf('data:') === 0) return src;
-            var fabImg = fabricImagesBySrc[src];
-            var el = fabImg && (fabImg.getElement ? fabImg.getElement() : fabImg._element);
-            if (!el || !el.complete) {
-                // Absolute fallback: synchronous retrieve via a new Image would be async; skip.
-                return null;
-            }
-            try {
-                var tmp = document.createElement('canvas');
-                tmp.width = el.naturalWidth || el.width;
-                tmp.height = el.naturalHeight || el.height;
-                tmp.getContext('2d').drawImage(el, 0, 0);
-                return tmp.toDataURL('image/png');
-            } catch (e) {
-                console.warn('[Interactive Export v2] embed failed:', src, e);
-                return null;
+    // Walk a group and its descendants for the first child flagged isAnswerLine.
+    function _findAnswerLineDeep(group) {
+        if (!group || !group._objects) return null;
+        for (var i = 0; i < group._objects.length; i++) {
+            var c = group._objects[i];
+            if (c && c.isAnswerLine === true) return c;
+            if (c && c._objects) {
+                var found = _findAnswerLineDeep(c);
+                if (found) return found;
             }
         }
-
-        problems.forEach(function(p, i) {
-            var src = p._imagePath;
-            var key = p.imageKey;
-            if (!map[key]) {
-                var d = srcToDataURI(src);
-                if (d) map[key] = d;
-            }
-        });
-        return map;
+        return null;
     }
 
-    // Build the slim v2 bundle from the current worksheet canvas.
-    function extractDeckBundle(canvas) {
+    // Build the slim v3 bundle: one worksheet JPEG + per-problem answer-
+    // line coordinates (in canvas pixels, to be converted to % at render).
+    async function extractDeckBundle(canvas) {
         var problemsData = canvas.problemsData || [];
         var modeByIndex = {};
-        canvas.getObjects().forEach(function(obj) {
+        var rectByIndex = {};
+        canvas.getObjects().forEach(function (obj) {
             if (obj.isGeneratedItem === true && typeof obj.originalIndex === 'number') {
-                modeByIndex[obj.originalIndex] = obj.resolvedMode || (exerciseModeSelect ? exerciseModeSelect.value : 'image-image');
+                var idx = obj.originalIndex;
+                modeByIndex[idx] = obj.resolvedMode || (exerciseModeSelect ? exerciseModeSelect.value : 'image-image');
+                var line = _findAnswerLineDeep(obj);
+                if (line) {
+                    var r = line.getBoundingRect(true, true);
+                    rectByIndex[idx] = {
+                        x: r.left + r.width / 2,
+                        y: r.top + r.height / 2,
+                        w: r.width
+                    };
+                }
             }
         });
-        var problems = problemsData.map(function(p, i) {
-            var imagePath = (p.image && p.image.path) || '';
-            var key = _imageKeyFor(imagePath);
+
+        var problems = problemsData.map(function (p, i) {
             return {
                 index: i,
                 operandA: p.operandA,
                 operandB: p.operandB,
                 resolvedMode: modeByIndex[i] || (exerciseModeSelect ? exerciseModeSelect.value : 'image-image'),
-                imageKey: key,
-                _imagePath: imagePath
+                inputRect: rectByIndex[i] || null
             };
-        });
+        }).filter(function (p) { return p.inputRect !== null; });
 
-        var images = collectProblemImages(canvas, problems);
-
-        // Strip the _imagePath scratch field before shipping.
-        var cleanProblems = problems.map(function(p) {
-            return {
-                index: p.index,
-                operandA: p.operandA,
-                operandB: p.operandB,
-                resolvedMode: p.resolvedMode,
-                imageKey: p.imageKey
-            };
-        });
+        var worksheetImage = await _captureWorksheetImage(canvas);
 
         return {
-            bundleVersion: '2.0.0',
+            bundleVersion: '3.0.0',
             appType: 'addition',
             createdAt: new Date().toISOString(),
             contentLanguage: (window.currentLocale || (languageSelect && languageSelect.value) || 'en'),
             title: 'Addition Practice',
-            settings: {
-                exerciseMode: exerciseModeSelect ? exerciseModeSelect.value : 'image-image',
-                minOperand: parseInt(minOperandInput.value, 10),
-                maxOperand: parseInt(maxOperandInput.value, 10),
-                problemCount: parseInt(problemCountInput.value, 10),
-                includeNameDate: !!(includeNameDateCheckbox && includeNameDateCheckbox.checked),
-                showPlusSign: !!(showPlusSignCheckbox && showPlusSignCheckbox.checked),
-                includeExerciseNumbers: !!(includeExerciseNumbersCheckbox && includeExerciseNumbersCheckbox.checked),
-                useFriendlyBox: !!(useFriendlyBoxCheckbox && useFriendlyBoxCheckbox.checked),
-                showWrittenExpression: !!(showWrittenExpressionCheckbox && showWrittenExpressionCheckbox.checked)
+            page: {
+                width: currentCanvasConfig.width,
+                height: currentCanvasConfig.height
             },
-            problems: cleanProblems,
-            images: images
+            worksheetImage: worksheetImage,
+            problems: problems
         };
     }
 
-    // The CSS baked into the standalone. Design tokens locked in the plan.
+    // Design tokens locked in the plan. Warm cream bg, indigo primary,
+    // grass correct, warm coral wrong, sunshine yellow stars. 5-6 colors total.
     var INTERACTIVE_CSS_LINES = [
         '*{box-sizing:border-box}',
         'html,body{margin:0;padding:0}',
         'body{font-family:"Fredoka",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#FEFAF3;color:#1C1C1E;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;min-height:100vh}',
-        '#lcs-app{max-width:1200px;margin:0 auto;padding:12px 16px 48px}',
-        '.lcs-header{display:flex;align-items:center;justify-content:space-between;padding:8px 4px 16px;gap:12px}',
-        '.lcs-title{font-size:clamp(22px,4vw,30px);font-weight:600;color:#1C1C1E;margin:0}',
-        '.lcs-mute{width:48px;height:48px;border-radius:12px;border:2px solid #DCE1E6;background:#FFF;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;color:#545458}',
-        '.lcs-mute:hover{background:#FEFAF3}',
-        '.lcs-mute:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
-        '.lcs-mute svg{width:22px;height:22px;pointer-events:none}',
-        '.lcs-mute[data-muted="1"]{background:#FFF8E6;border-color:#FFC857;color:#8A6D00}',
-        '.lcs-progress{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;padding:8px 0 24px;min-height:34px}',
-        '.lcs-dot{width:20px;height:20px;border-radius:50%;background:#FFF;border:2px solid #DCE1E6;padding:0;cursor:pointer;transition:background-color .2s,border-color .2s,box-shadow .2s}',
+        '#lcs-app{max-width:980px;margin:0 auto;padding:0 12px 56px}',
+        '.lcs-bar{position:sticky;top:0;z-index:5;background:rgba(254,250,243,.92);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding:12px 4px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}',
+        '.lcs-title{font-size:clamp(18px,2.6vw,24px);font-weight:600;color:#1C1C1E;margin:0;flex:1 1 auto;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}',
+        '.lcs-progress{display:flex;gap:6px;flex-wrap:wrap;flex:0 1 auto}',
+        '.lcs-dot{width:18px;height:18px;border-radius:50%;background:#FFF;border:2px solid #DCE1E6;padding:0;cursor:pointer;transition:background-color .2s,border-color .2s,box-shadow .2s}',
         '.lcs-dot:hover{border-color:#4E5FE8}',
         '.lcs-dot:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
         '.lcs-dot--correct{background:#4CAF50;border-color:#4CAF50}',
         '.lcs-dot--wrong{background:#FF8A65;border-color:#FF8A65}',
-        '.lcs-dot--current{box-shadow:0 0 0 4px rgba(78,95,232,.18)}',
-        '.lcs-grid{display:grid;grid-template-columns:1fr;gap:16px}',
-        '@media (min-width:640px){.lcs-grid{grid-template-columns:1fr 1fr;gap:20px}}',
-        '@media (min-width:1024px){.lcs-grid{grid-template-columns:1fr 1fr 1fr}}',
-        '.lcs-card{position:relative;background:#FFFFFF;border-radius:16px;box-shadow:0 2px 8px rgba(28,28,30,.08);padding:20px 16px 12px;transition:box-shadow .25s,background-color .25s,transform .25s;overflow:hidden}',
-        '.lcs-card--focused{box-shadow:0 8px 24px rgba(28,28,30,.12);transform:translateY(-2px)}',
-        '.lcs-card--correct{background:#E8F5E9}',
-        '.lcs-card--wrong{background:#FFE5DC}',
-        '.lcs-card__badge{position:absolute;top:10px;left:10px;min-width:28px;height:28px;padding:0 8px;border-radius:14px;background:#FFF8E6;color:#8A6D00;font-size:14px;font-weight:600;display:flex;align-items:center;justify-content:center}',
-        '.lcs-eq{display:flex;align-items:center;justify-content:center;gap:10px;padding:18px 4px 8px;flex-wrap:wrap;min-height:96px}',
-        '.lcs-imgs{display:flex;gap:4px;flex-wrap:wrap;max-width:200px;justify-content:center}',
-        '.lcs-img{width:40px;height:40px;object-fit:contain;display:block;user-select:none;-webkit-user-drag:none}',
-        '.lcs-sym{font-size:clamp(26px,5vw,32px);font-weight:600;line-height:1;width:44px;height:44px;display:flex;align-items:center;justify-content:center;border-radius:50%;flex-shrink:0}',
-        '.lcs-sym--plus{background:#E8F5E9;color:#43A047}',
-        '.lcs-sym--eq{background:#E0E8FF;color:#4E5FE8}',
-        '.lcs-num{font-size:clamp(32px,6vw,44px);font-weight:700;color:#1C1C1E;padding:0 6px;min-width:32px;text-align:center}',
-        '.lcs-sum{color:#4CAF50}',
-        '.lcs-input-wrap{position:relative;display:inline-flex;align-items:center}',
-        '.lcs-input{width:clamp(68px,13vw,92px);height:clamp(60px,11vw,72px);font-size:clamp(28px,5.5vw,36px);font-family:inherit;font-weight:600;text-align:center;border:3px solid #DCE1E6;border-radius:12px;background:#FFF;color:#1C1C1E;padding:0;outline:none;transition:border-color .2s,background-color .2s,box-shadow .2s;-webkit-appearance:none;appearance:none}',
-        '.lcs-input:focus-visible{border-color:#4E5FE8;background:#FFF8E6;box-shadow:0 0 0 4px rgba(78,95,232,.18)}',
-        '.lcs-card--correct .lcs-input{border-color:#4CAF50;background:#FFF;color:#2E7D32}',
-        '.lcs-card--correct .lcs-input:focus-visible{box-shadow:0 0 0 4px rgba(76,175,80,.22)}',
-        '.lcs-card--wrong .lcs-input{border-color:#FF8A65;background:#FFF}',
-        '.lcs-check{position:absolute;right:-38px;top:50%;transform:translateY(-50%) scale(0);color:#4CAF50;transition:transform .3s cubic-bezier(.2,1.4,.6,1);pointer-events:none}',
-        '.lcs-check svg{width:28px;height:28px;display:block}',
-        '.lcs-card--correct .lcs-check{transform:translateY(-50%) scale(1)}',
-        '.lcs-card--shake{animation:lcs-shake .4s ease}',
-        '@keyframes lcs-shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-4px)}40%{transform:translateX(4px)}60%{transform:translateX(-3px)}80%{transform:translateX(3px)}}',
-        '.lcs-sparkle{position:absolute;top:50%;left:50%;width:0;height:0;pointer-events:none;z-index:3}',
-        '.lcs-spark{position:absolute;width:8px;height:8px;border-radius:50%;background:#FFC857;opacity:0;animation:lcs-spark-fly .55s ease-out forwards}',
+        '.lcs-dot--current{box-shadow:0 0 0 4px rgba(78,95,232,.2)}',
+        '.lcs-mute{width:40px;height:40px;border-radius:10px;border:2px solid #DCE1E6;background:#FFF;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;color:#545458;flex-shrink:0}',
+        '.lcs-mute:hover{background:#FEFAF3}',
+        '.lcs-mute:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+        '.lcs-mute svg{width:20px;height:20px;pointer-events:none}',
+        '.lcs-mute[data-muted="1"]{background:#FFF8E6;border-color:#FFC857;color:#8A6D00}',
+        '.lcs-worksheet-wrap{display:flex;justify-content:center;padding-top:6px}',
+        '.lcs-worksheet{position:relative;display:block;width:100%;max-width:880px;background:#FFF;border-radius:10px;overflow:visible;box-shadow:0 4px 18px rgba(28,28,30,.08)}',
+        '.lcs-worksheet__img{display:block;width:100%;height:auto;user-select:none;-webkit-user-drag:none;pointer-events:none;border-radius:10px}',
+        '.lcs-overlay{position:absolute;inset:0;pointer-events:none}',
+        '.lcs-slot{position:absolute;transform:translate(-50%,-100%);height:5.4%;min-height:26px;pointer-events:none}',
+        '.lcs-input{position:absolute;inset:0;width:100%;height:100%;font-family:inherit;font-weight:600;text-align:center;border:2px dashed rgba(28,28,30,.28);border-radius:6px;background:rgba(255,248,230,.55);color:#1C1C1E;padding:0 4px;outline:none;font-size:clamp(14px,2.4vw,22px);transition:background-color .2s,border-color .2s,box-shadow .2s;pointer-events:auto;-webkit-appearance:none;appearance:none}',
+        '.lcs-input:hover{background:rgba(255,248,230,.85);border-color:#4E5FE8}',
+        '.lcs-input:focus-visible{border:3px solid #4E5FE8;background:rgba(255,248,230,1);box-shadow:0 0 0 4px rgba(78,95,232,.18)}',
+        '.lcs-slot--correct .lcs-input{border:2px solid #4CAF50;background:rgba(232,245,233,.95);color:#2E7D32}',
+        '.lcs-slot--correct .lcs-input:focus-visible{box-shadow:0 0 0 4px rgba(76,175,80,.22)}',
+        '.lcs-slot--wrong .lcs-input{border:2px solid #FF8A65;background:rgba(255,229,220,.96)}',
+        '.lcs-slot--current .lcs-input{border-style:solid;border-color:#4E5FE8;background:rgba(255,248,230,.95)}',
+        '.lcs-check{position:absolute;left:calc(100% + 6px);top:50%;transform:translateY(-50%) scale(0);width:24px;height:24px;color:#4CAF50;transition:transform .3s cubic-bezier(.2,1.4,.6,1);pointer-events:none}',
+        '.lcs-check svg{width:100%;height:100%;display:block}',
+        '.lcs-slot--correct .lcs-check{transform:translateY(-50%) scale(1)}',
+        '.lcs-slot--shake{animation:lcs-shake .4s ease}',
+        '@keyframes lcs-shake{0%,100%{transform:translate(-50%,-100%)}20%{transform:translate(calc(-50% - 5px),-100%)}40%{transform:translate(calc(-50% + 5px),-100%)}60%{transform:translate(calc(-50% - 4px),-100%)}80%{transform:translate(calc(-50% + 4px),-100%)}}',
+        '.lcs-sparkle{position:absolute;left:50%;top:50%;width:0;height:0;pointer-events:none;z-index:3}',
+        '.lcs-spark{position:absolute;width:8px;height:8px;border-radius:50%;background:#FFC857;opacity:0;left:-4px;top:-4px;animation:lcs-spark-fly .55s ease-out forwards}',
         '@keyframes lcs-spark-fly{0%{opacity:0;transform:translate(0,0) scale(.5)}25%{opacity:1}100%{opacity:0;transform:translate(var(--sx,40px),var(--sy,-30px)) scale(1.2)}}',
-        '.lcs-hint{max-height:0;overflow:hidden;transition:max-height .35s ease,padding .35s ease;padding:0 4px}',
-        '.lcs-card--hinted .lcs-hint{max-height:260px;padding:12px 4px 8px}',
-        '.lcs-hint__cue{font-size:15px;color:#545458;text-align:center;padding-bottom:10px}',
-        '.lcs-tenframe{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;max-width:220px;margin:0 auto}',
-        '.lcs-tf{width:100%;aspect-ratio:1/1;border-radius:50%;background:#F0F2F5;border:2px solid #DCE1E6}',
+        '.lcs-popover{position:absolute;top:calc(100% + 8px);left:50%;transform:translateX(-50%);background:#FFFFFF;border:1px solid #DCE1E6;border-radius:12px;padding:10px 12px;box-shadow:0 12px 32px rgba(28,28,30,.18);min-width:180px;z-index:20;pointer-events:auto;opacity:0;visibility:hidden;transition:opacity .2s}',
+        '.lcs-slot--hinted .lcs-popover{opacity:1;visibility:visible}',
+        '.lcs-popover__cue{font-size:13px;color:#545458;text-align:center;padding-bottom:8px;font-weight:500}',
+        '.lcs-tenframe{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;width:160px;margin:0 auto}',
+        '.lcs-tf{width:100%;aspect-ratio:1/1;border-radius:50%;background:#F0F2F5;border:1.5px solid #DCE1E6}',
         '.lcs-tf--a{background:#4CAF50;border-color:#4CAF50}',
         '.lcs-tf--b{background:#FF8A65;border-color:#FF8A65}',
-        '.lcs-hint__fallback{text-align:center;font-size:clamp(20px,4vw,26px);font-weight:600;color:#1C1C1E}',
         '.lcs-celebration{position:fixed;inset:0;background:rgba(28,28,30,.45);display:none;align-items:center;justify-content:center;z-index:10000;padding:16px}',
         '.lcs-celebration--shown{display:flex}',
         '.lcs-celebration__inner{position:relative;background:#FFFFFF;border-radius:24px;padding:28px 24px 20px;max-width:520px;width:100%;box-shadow:0 20px 60px rgba(28,28,30,.35);text-align:center;z-index:2}',
@@ -4423,10 +4378,7 @@
         '.lcs-star{color:#DCE1E6}',
         '.lcs-star--filled{color:#FFC857;filter:drop-shadow(0 2px 4px rgba(255,200,87,.35))}',
         '.lcs-celebration__sub{color:#545458;font-size:16px;margin:0 0 20px}',
-        '.lcs-mini{background:#FEFAF3;border-radius:12px;padding:12px 16px;margin:0 0 20px;max-height:200px;overflow-y:auto;text-align:left}',
-        '.lcs-mini__row{display:flex;justify-content:space-between;align-items:center;padding:4px 0;font-size:15px}',
-        '.lcs-mini__eq{font-weight:500}',
-        '.lcs-mini__check{color:#4CAF50;font-weight:700;margin-left:8px}',
+        '.lcs-mini{display:block;max-width:100%;max-height:220px;margin:0 auto 20px;border-radius:8px;border:1px solid #DCE1E6}',
         '.lcs-celebration__cta{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}',
         '.lcs-btn{font-family:inherit;font-weight:600;font-size:17px;padding:14px 24px;border-radius:12px;border:none;cursor:pointer;min-height:48px;transition:background-color .2s,transform .1s}',
         '.lcs-btn:active{transform:scale(.97)}',
@@ -4439,59 +4391,55 @@
         '.lcs-confetti__piece{position:absolute;width:8px;height:14px;top:-20px;animation:lcs-fall linear forwards;border-radius:2px}',
         '@keyframes lcs-fall{to{transform:translateY(620px) rotate(540deg);opacity:0}}',
         '.lcs-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}',
-        '.lcs-attrib{text-align:center;margin:32px 0 8px;font-size:12px;color:#8a8a8e}',
+        '.lcs-attrib{text-align:center;margin:24px 0 8px;font-size:12px;color:#8a8a8e}',
         '.lcs-attrib a{color:#8a8a8e;text-decoration:none}',
         '.lcs-attrib a:hover{color:#4E5FE8}',
         '@media (prefers-reduced-motion:reduce){',
         '  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.15s !important}',
-        '  .lcs-card--focused{transform:none}',
-        '  .lcs-card--shake{animation:none}',
+        '  .lcs-slot--shake{animation:none}',
         '  .lcs-spark{display:none}',
         '  .lcs-confetti{display:none}',
         '}',
         '@media print{',
         '  body{background:#FFF}',
-        '  .lcs-header,.lcs-progress,.lcs-mute,.lcs-celebration,.lcs-attrib{display:none !important}',
-        '  .lcs-card{box-shadow:none;border:1px solid #CCC;break-inside:avoid;background:transparent !important}',
-        '  .lcs-grid{grid-template-columns:1fr 1fr 1fr;gap:12px}',
-        '  .lcs-input{border:1px solid #000;color:#000;background:transparent}',
-        '  .lcs-check{display:none}',
+        '  .lcs-bar,.lcs-celebration,.lcs-attrib,.lcs-popover,.lcs-check{display:none !important}',
+        '  .lcs-worksheet{box-shadow:none;border:none}',
+        '  .lcs-input{background:transparent;border:1px solid #000;color:#000}',
         '}'
     ];
 
-    // Student-side runtime. Array-of-lines joined at render time so we
-    // never have to escape single quotes, backticks, or template literals
-    // in the outer file. Keep this block using DOUBLE quotes for JS strings.
+    // Student-side runtime. Array-of-lines pattern so no template-literal
+    // escaping is needed in the outer addition.html. Uses DOUBLE quotes.
     var INTERACTIVE_RUNTIME_LINES = [
         '(function(){',
         '  "use strict";',
         '  var STRINGS = {',
-        '    en:{title:"Addition Practice",tryAgain:"Try again!",greatJob:"Great job!",youDidIt:"You did it!",doAnother:"Do Another",printMyWorksheet:"Print my worksheet",mute:"Mute sounds",unmute:"Turn sounds on",hintCountCue:"Count the dots",problemNumber:"Problem",plus:"plus",equals:"equals",blank:"blank",correct:"correct",firstTryStars:"first-try stars"}',
+        '    en:{title:"Addition Practice",tryAgain:"Try again!",youDidIt:"You did it!",doAnother:"Do Another",printMyWorksheet:"Print my worksheet",mute:"Mute sounds",unmute:"Turn sounds on",hintCountCue:"Count the dots",problemNumber:"Problem",correct:"correct",firstTryStars:"first-try stars"}',
         '  };',
         '  function T(key){var loc=(DECK_BUNDLE.contentLanguage||"en").slice(0,2);var t=STRINGS[loc]||STRINGS.en;return t[key]||STRINGS.en[key]||key}',
         '',
-        '  var state=DECK_BUNDLE.problems.map(function(p){return{index:p.index,operandA:p.operandA,operandB:p.operandB,imageKey:p.imageKey,mode:p.resolvedMode||"image-image",value:"",attempts:0,firstTryCorrect:null,status:"unsolved"}});',
+        '  var state=DECK_BUNDLE.problems.map(function(p){return{index:p.index,operandA:p.operandA,operandB:p.operandB,mode:p.resolvedMode||"image-image",inputRect:p.inputRect,value:"",attempts:0,firstTryCorrect:null,status:"unsolved"}});',
         '  var muted=false;try{muted=localStorage.getItem("lcsMuted")==="1"}catch(e){}',
         '  var reducedMotion=false;try{reducedMotion=window.matchMedia("(prefers-reduced-motion: reduce)").matches}catch(e){}',
         '  var audioCtx=null;',
         '  var currentIndex=0;',
         '  var celebrationShown=false;',
-        '  var appEl,titleEl,progressEl,gridEl,muteBtn,celebrationEl,liveEl;',
+        '  var titleEl,progressEl,overlayEl,muteBtn,celebrationEl,liveEl,imgEl;',
         '',
         '  function init(){',
-        '    appEl=document.getElementById("lcs-app");',
         '    titleEl=document.getElementById("lcs-title");',
         '    progressEl=document.getElementById("lcs-progress");',
-        '    gridEl=document.getElementById("lcs-grid");',
+        '    overlayEl=document.getElementById("lcs-overlay");',
         '    muteBtn=document.getElementById("lcs-mute");',
         '    celebrationEl=document.getElementById("lcs-celebration");',
         '    liveEl=document.getElementById("lcs-live");',
+        '    imgEl=document.getElementById("lcs-worksheet-img");',
         '    if(titleEl) titleEl.textContent=DECK_BUNDLE.title||T("title");',
         '    renderProgress();',
-        '    renderCards();',
+        '    renderSlots();',
         '    wireMute();',
         '    updateMuteButton();',
-        '    setTimeout(function(){focusProblem(0)},50);',
+        '    setTimeout(function(){focusProblem(0)},80);',
         '  }',
         '',
         '  function renderProgress(){',
@@ -4517,62 +4465,34 @@
         '    }',
         '  }',
         '',
-        '  function renderCards(){',
-        '    gridEl.innerHTML="";',
+        '  function renderSlots(){',
+        '    overlayEl.innerHTML="";',
+        '    var pw=DECK_BUNDLE.page.width;',
+        '    var ph=DECK_BUNDLE.page.height;',
         '    state.forEach(function(s,i){',
-        '      var card=document.createElement("article");',
-        '      card.className="lcs-card";card.id="lcs-card-"+i;',
-        '      var badge=document.createElement("div");badge.className="lcs-card__badge";badge.textContent=String(i+1);card.appendChild(badge);',
-        '      var eq=document.createElement("div");eq.className="lcs-eq";buildEquation(eq,s,i);card.appendChild(eq);',
-        '      var hint=document.createElement("div");hint.className="lcs-hint";hint.id="lcs-hint-"+i;card.appendChild(hint);',
-        '      gridEl.appendChild(card);',
+        '      if(!s.inputRect) return;',
+        '      var ir=s.inputRect;',
+        '      var xPct=(ir.x/pw)*100;',
+        '      var yPct=(ir.y/ph)*100;',
+        '      var wPct=((ir.w*1.2)/pw)*100;',
+        '      var slot=document.createElement("div");',
+        '      slot.className="lcs-slot";',
+        '      slot.setAttribute("data-idx",String(i));',
+        '      slot.style.left=xPct+"%";',
+        '      slot.style.top=yPct+"%";',
+        '      slot.style.width="max("+wPct.toFixed(2)+"%,56px)";',
+        '      var input=buildInput(i);',
+        '      slot.appendChild(input);',
+        '      var check=document.createElement("span");check.className="lcs-check";',
+        '      check.innerHTML="<svg viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\"><path d=\\"M5 12l4 4 10-10\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"3.5\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\"/></svg>";',
+        '      slot.appendChild(check);',
+        '      var pop=document.createElement("div");pop.className="lcs-popover";pop.id="lcs-pop-"+i;',
+        '      slot.appendChild(pop);',
+        '      overlayEl.appendChild(slot);',
         '    });',
         '  }',
         '',
-        '  function buildEquation(container,s,idx){',
-        '    container.appendChild(buildOperandImages(s.operandA,s.imageKey));',
-        '    container.appendChild(makeSym("+"));',
-        '    if(s.mode==="image-image"){',
-        '      container.appendChild(buildOperandImages(s.operandB,s.imageKey));',
-        '      container.appendChild(makeSym("="));',
-        '      container.appendChild(buildInput(idx));',
-        '    } else if(s.mode==="image-number"){',
-        '      container.appendChild(makeNum(s.operandB));',
-        '      container.appendChild(makeSym("="));',
-        '      container.appendChild(buildInput(idx));',
-        '    } else if(s.mode==="find-addend"){',
-        '      container.appendChild(buildInput(idx));',
-        '      container.appendChild(makeSym("="));',
-        '      container.appendChild(makeNum(s.operandA+s.operandB,"lcs-sum"));',
-        '    } else {',
-        '      container.appendChild(makeSym("="));',
-        '      container.appendChild(buildInput(idx));',
-        '    }',
-        '  }',
-        '  function buildOperandImages(count,imageKey){',
-        '    var group=document.createElement("div");group.className="lcs-imgs";',
-        '    var src=DECK_BUNDLE.images&&DECK_BUNDLE.images[imageKey];',
-        '    if(count<=0){var ph=document.createElement("span");ph.className="lcs-num";ph.textContent="0";return ph}',
-        '    for(var i=0;i<count;i++){',
-        '      if(src){',
-        '        var img=document.createElement("img");img.className="lcs-img";img.alt="";img.setAttribute("draggable","false");img.src=src;group.appendChild(img);',
-        '      } else {',
-        '        var circle=document.createElement("span");circle.className="lcs-img";circle.style.background="#FFC857";circle.style.borderRadius="50%";group.appendChild(circle);',
-        '      }',
-        '    }',
-        '    return group;',
-        '  }',
-        '  function makeSym(sym){',
-        '    var el=document.createElement("div");el.className="lcs-sym";el.textContent=sym;',
-        '    if(sym==="+")el.classList.add("lcs-sym--plus");',
-        '    else if(sym==="=")el.classList.add("lcs-sym--eq");',
-        '    return el;',
-        '  }',
-        '  function makeNum(n,extra){',
-        '    var el=document.createElement("div");el.className="lcs-num"+(extra?" "+extra:"");el.textContent=String(n);return el;',
-        '  }',
         '  function buildInput(idx){',
-        '    var wrap=document.createElement("div");wrap.className="lcs-input-wrap";',
         '    var input=document.createElement("input");',
         '    input.type="text";input.inputMode="numeric";',
         '    input.setAttribute("pattern","[0-9]*");',
@@ -4584,39 +4504,37 @@
         '    input.className="lcs-input";',
         '    input.setAttribute("data-idx",String(idx));',
         '    var s=state[idx];',
-        '    var label=T("problemNumber")+" "+(idx+1)+": "+s.operandA+" "+T("plus")+" "+(s.mode==="find-addend"?T("blank"):s.operandB)+" "+T("equals")+" "+(s.mode==="find-addend"?(s.operandA+s.operandB):T("blank"));',
+        '    var label=T("problemNumber")+" "+(idx+1)+": "+s.operandA+" + "+(s.mode==="find-addend"?"?":s.operandB)+" = "+(s.mode==="find-addend"?(s.operandA+s.operandB):"?");',
         '    input.setAttribute("aria-label",label);',
-        '    input.addEventListener("focus",function(){currentIndex=idx;syncDots();setFocusedCard(idx)});',
+        '    input.addEventListener("focus",function(){currentIndex=idx;syncDots();setCurrentSlot(idx)});',
         '    input.addEventListener("blur",function(){commit(idx,false)});',
         '    input.addEventListener("keydown",function(e){',
         '      if(e.key==="Enter"){e.preventDefault();if(commit(idx,true))advanceFrom(idx)}',
         '    });',
         '    input.addEventListener("input",function(){',
         '      input.value=input.value.replace(/[^0-9]/g,"").slice(0,3);',
-        '      var card=document.getElementById("lcs-card-"+idx);',
-        '      if(card&&state[idx].status!=="correct"){card.classList.remove("lcs-card--wrong")}',
+        '      var slot=slotFor(idx);',
+        '      if(slot&&state[idx].status!=="correct"){slot.classList.remove("lcs-slot--wrong")}',
         '    });',
-        '    wrap.appendChild(input);',
-        '    var check=document.createElement("span");check.className="lcs-check";',
-        '    check.innerHTML="<svg viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\"><path d=\\"M5 12l4 4 10-10\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"3.5\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\"/></svg>";',
-        '    wrap.appendChild(check);',
-        '    return wrap;',
+        '    return input;',
         '  }',
+        '  function slotFor(idx){return overlayEl.querySelector(".lcs-slot[data-idx=\\""+idx+"\\"]")}',
+        '  function inputFor(idx){return overlayEl.querySelector(".lcs-input[data-idx=\\""+idx+"\\"]")}',
         '',
-        '  function setFocusedCard(idx){',
-        '    var cards=gridEl.querySelectorAll(".lcs-card");',
-        '    for(var i=0;i<cards.length;i++){',
-        '      if(i===idx)cards[i].classList.add("lcs-card--focused");',
-        '      else cards[i].classList.remove("lcs-card--focused");',
+        '  function setCurrentSlot(idx){',
+        '    var slots=overlayEl.querySelectorAll(".lcs-slot");',
+        '    for(var i=0;i<slots.length;i++){',
+        '      if(parseInt(slots[i].getAttribute("data-idx"),10)===idx)slots[i].classList.add("lcs-slot--current");',
+        '      else slots[i].classList.remove("lcs-slot--current");',
         '    }',
         '  }',
         '  function focusProblem(idx){',
         '    if(idx<0||idx>=state.length)return;',
-        '    currentIndex=idx;syncDots();setFocusedCard(idx);',
-        '    var input=gridEl.querySelector(".lcs-input[data-idx=\\""+idx+"\\"]");',
+        '    currentIndex=idx;syncDots();setCurrentSlot(idx);',
+        '    var input=inputFor(idx);',
         '    if(input){input.focus();if(input.select)try{input.select()}catch(e){}',
-        '      var card=document.getElementById("lcs-card-"+idx);',
-        '      if(card&&card.scrollIntoView){card.scrollIntoView({behavior:reducedMotion?"auto":"smooth",block:"center"})}',
+        '      var slot=slotFor(idx);',
+        '      if(slot&&slot.scrollIntoView){slot.scrollIntoView({behavior:reducedMotion?"auto":"smooth",block:"center"})}',
         '    }',
         '  }',
         '  function advanceFrom(idx){',
@@ -4626,23 +4544,22 @@
         '',
         '  function commit(idx,viaEnter){',
         '    var s=state[idx];if(s.status==="correct")return false;',
-        '    var input=gridEl.querySelector(".lcs-input[data-idx=\\""+idx+"\\"]");',
-        '    if(!input)return false;',
+        '    var input=inputFor(idx);if(!input)return false;',
         '    var val=input.value.trim();',
         '    if(val==="")return false;',
         '    s.value=val;',
         '    var n=parseInt(val,10);',
         '    if(isNaN(n))return false;',
         '    var expected=(s.mode==="find-addend")?s.operandB:(s.operandA+s.operandB);',
-        '    var card=document.getElementById("lcs-card-"+idx);',
+        '    var slot=slotFor(idx);',
         '    if(n===expected){',
         '      if(s.firstTryCorrect===null)s.firstTryCorrect=(s.attempts===0);',
         '      s.status="correct";',
-        '      card.classList.remove("lcs-card--wrong");',
-        '      card.classList.add("lcs-card--correct");',
+        '      slot.classList.remove("lcs-slot--wrong","lcs-slot--hinted");',
+        '      slot.classList.add("lcs-slot--correct");',
         '      input.setAttribute("readonly","readonly");',
         '      input.setAttribute("aria-invalid","false");',
-        '      renderSparkle(card);',
+        '      renderSparkle(slot);',
         '      playTone(523.25,0.09);',
         '      syncDots();',
         '      announce(T("correct")+"! "+T("problemNumber")+" "+(idx+1));',
@@ -4652,12 +4569,12 @@
         '      if(s.firstTryCorrect===null)s.firstTryCorrect=false;',
         '      s.attempts+=1;',
         '      s.status="wrong";',
-        '      card.classList.remove("lcs-card--correct");',
-        '      card.classList.add("lcs-card--wrong");',
+        '      slot.classList.remove("lcs-slot--correct");',
+        '      slot.classList.add("lcs-slot--wrong");',
         '      input.setAttribute("aria-invalid","true");',
         '      playTone(220,0.08);',
-        '      card.classList.remove("lcs-card--shake");void card.offsetWidth;',
-        '      if(!reducedMotion)card.classList.add("lcs-card--shake");',
+        '      slot.classList.remove("lcs-slot--shake");void slot.offsetWidth;',
+        '      if(!reducedMotion)slot.classList.add("lcs-slot--shake");',
         '      syncDots();',
         '      if(s.attempts>=2)showHint(idx);',
         '      announce(T("tryAgain"));',
@@ -4665,51 +4582,47 @@
         '    }',
         '  }',
         '',
-        '  function renderSparkle(cardEl){',
+        '  function renderSparkle(slot){',
         '    if(reducedMotion)return;',
         '    var burst=document.createElement("div");burst.className="lcs-sparkle";',
         '    var n=6;',
         '    for(var i=0;i<n;i++){',
         '      var angle=(i/n)*Math.PI*2;',
-        '      var dist=36+Math.random()*12;',
+        '      var dist=28+Math.random()*10;',
         '      var p=document.createElement("span");p.className="lcs-spark";',
         '      p.style.setProperty("--sx",(Math.cos(angle)*dist)+"px");',
         '      p.style.setProperty("--sy",(Math.sin(angle)*dist)+"px");',
         '      p.style.animationDelay=(i*20)+"ms";',
         '      burst.appendChild(p);',
         '    }',
-        '    cardEl.appendChild(burst);',
+        '    slot.appendChild(burst);',
         '    setTimeout(function(){if(burst.parentNode)burst.parentNode.removeChild(burst)},600);',
         '  }',
         '',
         '  function showHint(idx){',
         '    var s=state[idx];',
-        '    var hintEl=document.getElementById("lcs-hint-"+idx);',
-        '    if(!hintEl)return;',
-        '    if(hintEl.dataset.rendered==="1"){',
-        '      var card0=document.getElementById("lcs-card-"+idx);if(card0)card0.classList.add("lcs-card--hinted");',
-        '      return;',
-        '    }',
-        '    hintEl.dataset.rendered="1";',
-        '    var cue=document.createElement("div");cue.className="lcs-hint__cue";cue.textContent=T("hintCountCue");hintEl.appendChild(cue);',
-        '    var maxTotal=s.operandA+s.operandB;',
-        '    if(maxTotal<=20&&maxTotal>0){',
-        '      var frame=document.createElement("div");frame.className="lcs-tenframe";',
-        '      var cells=Math.max(10,maxTotal);',
-        '      for(var i=0;i<cells;i++){',
-        '        var cell=document.createElement("span");cell.className="lcs-tf";',
-        '        if(i<s.operandA)cell.classList.add("lcs-tf--a");',
-        '        else if(i<maxTotal)cell.classList.add("lcs-tf--b");',
-        '        frame.appendChild(cell);',
+        '    var pop=document.getElementById("lcs-pop-"+idx);',
+        '    var slot=slotFor(idx);',
+        '    if(!pop||!slot)return;',
+        '    if(pop.dataset.rendered!=="1"){',
+        '      pop.dataset.rendered="1";',
+        '      var cue=document.createElement("div");cue.className="lcs-popover__cue";cue.textContent=T("hintCountCue");pop.appendChild(cue);',
+        '      var maxTotal=s.operandA+s.operandB;',
+        '      if(maxTotal<=20&&maxTotal>0){',
+        '        var frame=document.createElement("div");frame.className="lcs-tenframe";',
+        '        var cells=Math.max(10,maxTotal);',
+        '        for(var i=0;i<cells;i++){',
+        '          var cell=document.createElement("span");cell.className="lcs-tf";',
+        '          if(i<s.operandA)cell.classList.add("lcs-tf--a");',
+        '          else if(i<maxTotal)cell.classList.add("lcs-tf--b");',
+        '          frame.appendChild(cell);',
+        '        }',
+        '        pop.appendChild(frame);',
+        '      } else {',
+        '        var text=document.createElement("div");text.style.textAlign="center";text.style.fontWeight="600";text.textContent=s.operandA+" + "+s.operandB+" = ?";pop.appendChild(text);',
         '      }',
-        '      hintEl.appendChild(frame);',
-        '    } else {',
-        '      var text=document.createElement("div");text.className="lcs-hint__fallback";',
-        '      text.textContent=s.operandA+" + "+s.operandB+" = ?";',
-        '      hintEl.appendChild(text);',
         '    }',
-        '    var card=document.getElementById("lcs-card-"+idx);',
-        '    if(card)card.classList.add("lcs-card--hinted");',
+        '    slot.classList.add("lcs-slot--hinted");',
         '  }',
         '',
         '  function playTone(freq,dur){',
@@ -4744,17 +4657,12 @@
         '    var stars=pct>=0.9?3:pct>=0.6?2:1;',
         '    var starsHTML="";',
         '    for(var i=1;i<=3;i++){starsHTML+="<span class=\\"lcs-star"+(i<=stars?" lcs-star--filled":"")+"\\">\\u2605</span>"}',
-        '    var miniHTML="";',
-        '    state.forEach(function(st){',
-        '      var expr=(st.mode==="find-addend")?(st.operandA+" + "+st.value+" = "+(st.operandA+st.operandB)):(st.operandA+" + "+st.operandB+" = "+st.value);',
-        '      miniHTML+="<div class=\\"lcs-mini__row\\"><span class=\\"lcs-mini__eq\\">"+expr+"</span><span class=\\"lcs-mini__check\\">\\u2713</span></div>";',
-        '    });',
         '    celebrationEl.innerHTML=',
         '      "<div class=\\"lcs-celebration__inner\\">"+',
         '      "<h1 class=\\"lcs-celebration__title\\">"+T("youDidIt")+"</h1>"+',
         '      "<div class=\\"lcs-stars\\" aria-label=\\""+stars+" out of 3 stars\\">"+starsHTML+"</div>"+',
         '      "<p class=\\"lcs-celebration__sub\\">"+firstTry+" / "+total+" "+T("firstTryStars")+"</p>"+',
-        '      "<div class=\\"lcs-mini\\">"+miniHTML+"</div>"+',
+        '      "<img class=\\"lcs-mini\\" alt=\\"Your completed worksheet\\" src=\\""+DECK_BUNDLE.worksheetImage+"\\" />"+',
         '      "<div class=\\"lcs-celebration__cta\\">"+',
         '        "<button class=\\"lcs-btn lcs-btn--primary\\" type=\\"button\\" id=\\"lcs-do-another\\">"+T("doAnother")+"</button>"+',
         '        "<button class=\\"lcs-btn lcs-btn--ghost\\" type=\\"button\\" id=\\"lcs-print\\">"+T("printMyWorksheet")+"</button>"+',
@@ -4801,8 +4709,9 @@
         var css = INTERACTIVE_CSS_LINES.join('\n');
         var runtime = INTERACTIVE_RUNTIME_LINES.join('\n');
         var bundleJSON = JSON.stringify(bundle);
-        var lang = (bundle.contentLanguage || 'en').slice(0,2);
+        var lang = (bundle.contentLanguage || 'en').slice(0, 2);
         var title = (bundle.title || 'Addition Practice');
+        var aspectRatio = bundle.page.width + '/' + bundle.page.height;
         var parts = [];
         parts.push('<!DOCTYPE html>');
         parts.push('<html lang="' + lang + '">');
@@ -4818,12 +4727,17 @@
         parts.push('</head>');
         parts.push('<body>');
         parts.push('<main id="lcs-app">');
-        parts.push('  <header class="lcs-header">');
+        parts.push('  <div class="lcs-bar">');
         parts.push('    <h1 class="lcs-title" id="lcs-title">' + title + '</h1>');
+        parts.push('    <nav class="lcs-progress" id="lcs-progress" aria-label="Problem progress"></nav>');
         parts.push('    <button type="button" id="lcs-mute" class="lcs-mute" aria-label="Mute sounds"></button>');
-        parts.push('  </header>');
-        parts.push('  <nav class="lcs-progress" id="lcs-progress" aria-label="Problem progress"></nav>');
-        parts.push('  <section class="lcs-grid" id="lcs-grid"></section>');
+        parts.push('  </div>');
+        parts.push('  <div class="lcs-worksheet-wrap">');
+        parts.push('    <div class="lcs-worksheet" id="lcs-worksheet" style="aspect-ratio:' + aspectRatio + ';">');
+        parts.push('      <img class="lcs-worksheet__img" id="lcs-worksheet-img" alt="" src="' + bundle.worksheetImage + '">');
+        parts.push('      <div class="lcs-overlay" id="lcs-overlay"></div>');
+        parts.push('    </div>');
+        parts.push('  </div>');
         parts.push('  <p class="lcs-attrib">Made with <a href="https://www.lessoncraftstudio.com" target="_blank" rel="noopener">LessonCraftStudio</a></p>');
         parts.push('</main>');
         parts.push('<div class="lcs-celebration" id="lcs-celebration" role="dialog" aria-modal="true" aria-label="You did it!"></div>');
@@ -4842,16 +4756,8 @@
         }
         showMessage('Preparing ' + fileName + '...', 'info', 0);
         try {
-            var savedZoom = canvasInstance.getZoom();
-            canvasInstance.discardActiveObject();
-            canvasInstance.setZoom(1);
-            canvasInstance.renderAll();
-
-            var bundle = extractDeckBundle(canvasInstance);
+            var bundle = await extractDeckBundle(canvasInstance);
             var html = renderStandaloneHTML(bundle);
-
-            canvasInstance.setZoom(savedZoom);
-            canvasInstance.renderAll();
 
             var blob = new Blob([html], { type: 'text/html;charset=utf-8' });
             var url = URL.createObjectURL(blob);
@@ -4861,15 +4767,15 @@
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
-            setTimeout(function(){ URL.revokeObjectURL(url); }, 1000);
+            setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
 
             showMessage('Interactive worksheet downloaded.', 'success');
         } catch (e) {
-            console.error('[Interactive Export v2] Failed:', e);
+            console.error('[Interactive Export v3] Failed:', e);
             showMessage('Interactive export failed: ' + e.message, 'error');
         }
     }
-    // END: Interactive-HTML export v2
+    // END: Interactive-HTML export v3
 
     // --- BORDER & BACKGROUND LOGIC ---
     // REMOVED - Now handled entirely by BulletproofLoader

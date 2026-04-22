@@ -4192,10 +4192,14 @@ async function downloadPDF(canvasToExport, fileName) {
     // AABB for a child image in world coords. Unlike the answer line (a
     // thin horizontal primitive we only need centered on), the hitbox must
     // cover the full image so the kid's tap registers anywhere inside.
+    // Use raw width/height (not getScaledWidth/getScaledHeight): the
+    // transform matrix already applies the object's own scale AND any
+    // parent-group scale; feeding scaled dimensions as well would
+    // double-scale and produce a tiny hitbox.
     function _worldImageRect(img) {
         var m = img.calcTransformMatrix();
-        var hw = (img.getScaledWidth() || img.width || 40) / 2;
-        var hh = (img.getScaledHeight() || img.height || 40) / 2;
+        var hw = (img.width || 40) / 2;
+        var hh = (img.height || 40) / 2;
         var corners = [
             fabric.util.transformPoint({ x: -hw, y: -hh }, m),
             fabric.util.transformPoint({ x: hw, y: -hh }, m),

@@ -1466,6 +1466,8 @@
                             <button id="downloadWorksheetPdfBtn" disabled data-translate="worksheetPdf">Worksheet (PDF)</button>
                             <button id="downloadAnswerKeyPdfBtn" disabled data-translate="answerKeyPdf">Answer Key (PDF)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
                             <label class="checkbox-label" id="grayscaleLabel">
                                 <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
                             </label>
@@ -1674,6 +1676,7 @@
       const downloadAnswerKeyJpegBtn = document.getElementById("downloadAnswerKeyJpegBtn");
       const downloadWorksheetPdfBtn = document.getElementById("downloadWorksheetPdfBtn");
       const downloadAnswerKeyPdfBtn = document.getElementById("downloadAnswerKeyPdfBtn");
+      const downloadInteractiveHtmlBtn = document.getElementById("downloadInteractiveHtmlBtn");
       const clearBtn = document.getElementById("clearBtn");
       const grayscaleToggle = document.getElementById('grayscaleToggle');
       const zoomInBtn = document.getElementById('zoomInBtn');
@@ -2920,6 +2923,9 @@
             if (!problemsData) return;
             lastProblemsData = problemsData;
         }
+        // Expose on the canvas so the Interactive-HTML exporter can find it
+        // uniformly across apps (addition uses the same pattern).
+        worksheetCanvas.problemsData = problemsData;
 
         const oldTransforms = {};
         const oldGeneratedItems = [];
@@ -3085,7 +3091,7 @@
                 allRowObjects.push(expressionObject);
                 currentX += expressionObject.getScaledWidth() + itemPadding;
 
-                const answerLine = new fabric.Line([currentX, imageSize / 2 + textFontSize / 2 + 2, currentX + 50, imageSize / 2 + textFontSize / 2 + 2], { stroke: '#333', strokeWidth: 2, selectable: false, evented: false });
+                const answerLine = new fabric.Line([currentX, imageSize / 2 + textFontSize / 2 + 2, currentX + 50, imageSize / 2 + textFontSize / 2 + 2], { stroke: '#333', strokeWidth: 2, selectable: false, evented: false, isAnswerLine: true });
                 allRowObjects.push(answerLine);
 
             } else if (exerciseMode === 'image-number') {
@@ -3167,7 +3173,7 @@
                 currentX += equalsCircleSize + itemPadding * 2;
 
                 // Now add the answer line (writing line)
-                const answerLine = new fabric.Line([currentX, imageSize / 2 + textFontSize / 2 + 2, currentX + 50, imageSize / 2 + textFontSize / 2 + 2], { stroke: '#333', strokeWidth: 2, selectable: false, evented: false });
+                const answerLine = new fabric.Line([currentX, imageSize / 2 + textFontSize / 2 + 2, currentX + 50, imageSize / 2 + textFontSize / 2 + 2], { stroke: '#333', strokeWidth: 2, selectable: false, evented: false, isAnswerLine: true });
                 allRowObjects.push(answerLine);
 
             } else {
@@ -3212,7 +3218,7 @@
                 currentX += minusCircleSize + itemPadding * 2;
 
                 // Add answer line for subtrahend (this is what students fill in)
-                const subtrahendLine = new fabric.Line([currentX, imageSize / 2 + textFontSize / 2 + 2, currentX + 40, imageSize / 2 + textFontSize / 2 + 2], { stroke: '#333', strokeWidth: 2, selectable: false, evented: false });
+                const subtrahendLine = new fabric.Line([currentX, imageSize / 2 + textFontSize / 2 + 2, currentX + 40, imageSize / 2 + textFontSize / 2 + 2], { stroke: '#333', strokeWidth: 2, selectable: false, evented: false, isAnswerLine: true });
                 allRowObjects.push(subtrahendLine);
                 currentX += 45 + itemPadding * 2;
 
@@ -3268,6 +3274,7 @@
                 cornerColor: 'var(--app-accent-primary)',
                 isGeneratedItem: true,
                 originalIndex: i,
+                resolvedMode: exerciseMode,
                 objectCaching: false,
                 cornerSize: 10,
                 transparentCorners: false,
@@ -3308,6 +3315,7 @@
 
         downloadWorksheetJpegBtn.disabled = false;
         downloadWorksheetPdfBtn.disabled = false;
+        downloadInteractiveHtmlBtn.disabled = false;
         generateAnswerKeyBtn.disabled = false;
         showMessage(t('worksheetGeneratedSuccessfully'), "success");
 
@@ -3324,11 +3332,12 @@
             const img = await new Promise(resolve => fabric.Image.fromURL(imgData.path, resolve, { crossOrigin: 'anonymous' }));
             if (!img) continue;
             img.scaleToHeight(imageSize);
-            img.set({ 
-                left: currentImageX, 
+            img.set({
+                left: currentImageX,
                 top: 0,
-                selectable: false, 
-                evented: false 
+                selectable: false,
+                evented: false,
+                isMinuendImage: true
             });
             images.push(img);
             currentImageX += img.getScaledWidth() + itemPadding;
@@ -3352,10 +3361,11 @@
                 top: imageToCover.top + imageToCover.getScaledHeight() / 2,
                 originX: 'center',
                 originY: 'center',
-                selectable: false, 
-                evented: false, 
+                selectable: false,
+                evented: false,
                 opacity: 0.7,
-                objectCaching: false
+                objectCaching: false,
+                isCrossOutExample: true
             });
             crosses.push(cross);
         }
@@ -4085,6 +4095,676 @@ async function downloadPDF(canvasToExport, fileName) {
         } finally { removeWatermarkFromCanvas(canvasToExport, watermarkData); if (button) button.disabled = false; }
     }
 
+    // ====================================================================
+    // BEGIN: Interactive-HTML export v5 (snapshot + overlay + batch check +
+    // cross-out). Port of addition's v4 plus per-minuend-image hitboxes
+    // for the subtraction cross-out mode. The example X's the operator's
+    // worksheet pre-draws on problem 1 are hidden from the JPEG snapshot
+    // so every cross-out problem is fully interactive. A cross-out answer
+    // is correct iff the typed number is (minuend - subtrahend) AND the
+    // student has crossed out exactly `subtrahend` images.
+    // ====================================================================
+
+    async function _captureWorksheetImage(canvas) {
+        var savedZoom = canvas.getZoom();
+        var savedW = canvas.getWidth();
+        var savedH = canvas.getHeight();
+        canvas.discardActiveObject();
+        canvas.setZoom(1);
+        canvas.setDimensions({ width: currentCanvasConfig.width, height: currentCanvasConfig.height });
+        // Hide the operator's pre-drawn example X's so the student gets a
+        // clean slate on every cross-out problem.
+        var hiddenExamples = [];
+        (function walk(objs) {
+            if (!objs) return;
+            objs.forEach(function (o) {
+                if (o && o.isCrossOutExample === true && o.visible !== false) {
+                    o.visible = false;
+                    hiddenExamples.push(o);
+                }
+                if (o && o._objects) walk(o._objects);
+            });
+        })(canvas.getObjects());
+        canvas.renderAll();
+        var dataURL;
+        try {
+            dataURL = canvas.toDataURL({ format: 'jpeg', quality: 0.85, multiplier: 2 });
+        } finally {
+            hiddenExamples.forEach(function (o) { o.visible = true; });
+            canvas.setZoom(savedZoom);
+            canvas.setDimensions({ width: savedW, height: savedH });
+            canvas.renderAll();
+        }
+        return dataURL;
+    }
+
+    function _findAnswerLineDeep(group) {
+        if (!group || !group._objects) return null;
+        for (var i = 0; i < group._objects.length; i++) {
+            var c = group._objects[i];
+            if (c && c.isAnswerLine === true) return c;
+            if (c && c._objects) {
+                var found = _findAnswerLineDeep(c);
+                if (found) return found;
+            }
+        }
+        return null;
+    }
+
+    function _findEqualsSign(group) {
+        if (!group || !group._objects) return null;
+        for (var i = 0; i < group._objects.length; i++) {
+            var c = group._objects[i];
+            if (c && c.type === 'group' && c._objects) {
+                for (var j = 0; j < c._objects.length; j++) {
+                    var x = c._objects[j];
+                    if (x && x.type === 'text' && x.text === '=') {
+                        return c;
+                    }
+                }
+            }
+        }
+        return null;
+    }
+
+    function _collectMinuendImages(group) {
+        var out = [];
+        (function walk(objs) {
+            if (!objs) return;
+            objs.forEach(function (o) {
+                if (o && o.isMinuendImage === true && o.type === 'image') out.push(o);
+                if (o && o._objects) walk(o._objects);
+            });
+        })(group._objects || []);
+        return out;
+    }
+
+    function _worldLineRect(line) {
+        var m = line.calcTransformMatrix();
+        var center = fabric.util.transformPoint({ x: 0, y: 0 }, m);
+        var halfW = (line.width || 50) / 2;
+        var leftPt = fabric.util.transformPoint({ x: -halfW, y: 0 }, m);
+        var rightPt = fabric.util.transformPoint({ x: halfW, y: 0 }, m);
+        var worldW = Math.hypot(rightPt.x - leftPt.x, rightPt.y - leftPt.y);
+        return { x: center.x, y: center.y, w: worldW };
+    }
+
+    // AABB for a child image in world coords. Unlike the answer line (a
+    // thin horizontal primitive we only need centered on), the hitbox must
+    // cover the full image so the kid's tap registers anywhere inside.
+    function _worldImageRect(img) {
+        var m = img.calcTransformMatrix();
+        var hw = (img.getScaledWidth() || img.width || 40) / 2;
+        var hh = (img.getScaledHeight() || img.height || 40) / 2;
+        var corners = [
+            fabric.util.transformPoint({ x: -hw, y: -hh }, m),
+            fabric.util.transformPoint({ x: hw, y: -hh }, m),
+            fabric.util.transformPoint({ x: hw, y: hh }, m),
+            fabric.util.transformPoint({ x: -hw, y: hh }, m)
+        ];
+        var xs = corners.map(function (c) { return c.x; });
+        var ys = corners.map(function (c) { return c.y; });
+        var minX = Math.min.apply(null, xs);
+        var maxX = Math.max.apply(null, xs);
+        var minY = Math.min.apply(null, ys);
+        var maxY = Math.max.apply(null, ys);
+        return { x: minX, y: minY, w: maxX - minX, h: maxY - minY };
+    }
+
+    async function extractDeckBundle(canvas) {
+        var problemsData = canvas.problemsData || [];
+        var modeByIndex = {};
+        var rectByIndex = {};
+        var crossOutImagesByIndex = {};
+        canvas.getObjects().forEach(function (obj) {
+            if (obj.isGeneratedItem === true && typeof obj.originalIndex === 'number') {
+                var idx = obj.originalIndex;
+                modeByIndex[idx] = obj.resolvedMode || (exerciseModeSelect ? exerciseModeSelect.value : 'image-number');
+                var line = _findAnswerLineDeep(obj);
+                if (line) {
+                    var lw = _worldLineRect(line);
+                    var eq = _findEqualsSign(obj);
+                    var yWorld;
+                    if (eq) {
+                        var em = eq.calcTransformMatrix();
+                        yWorld = fabric.util.transformPoint({ x: 0, y: 0 }, em).y;
+                    } else {
+                        yWorld = obj.getCenterPoint().y;
+                    }
+                    rectByIndex[idx] = { x: lw.x, y: yWorld, w: lw.w };
+                }
+                if (modeByIndex[idx] === 'cross-out') {
+                    var imgs = _collectMinuendImages(obj);
+                    crossOutImagesByIndex[idx] = imgs.map(_worldImageRect);
+                }
+            }
+        });
+
+        var problems = problemsData.map(function (p, i) {
+            var out = {
+                index: i,
+                operandA: p.minuend,
+                operandB: p.subtrahend,
+                resolvedMode: modeByIndex[i] || (exerciseModeSelect ? exerciseModeSelect.value : 'image-number'),
+                inputRect: rectByIndex[i] || null
+            };
+            if (out.resolvedMode === 'cross-out') {
+                out.crossOutImages = crossOutImagesByIndex[i] || [];
+            }
+            return out;
+        }).filter(function (p) { return p.inputRect !== null; });
+
+        var worksheetImage = await _captureWorksheetImage(canvas);
+
+        return {
+            bundleVersion: '5.0.0',
+            appType: 'subtraction',
+            createdAt: new Date().toISOString(),
+            contentLanguage: (window.currentLocale || (languageSelect && languageSelect.value) || 'en'),
+            title: 'Subtraction Practice',
+            page: {
+                width: currentCanvasConfig.width,
+                height: currentCanvasConfig.height
+            },
+            worksheetImage: worksheetImage,
+            problems: problems
+        };
+    }
+
+    var INTERACTIVE_CSS_LINES = [
+        '*{box-sizing:border-box}',
+        'html,body{margin:0;padding:0}',
+        'body{font-family:"Fredoka",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#FEFAF3;color:#1C1C1E;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;min-height:100vh}',
+        '#lcs-app{max-width:980px;margin:0 auto;padding:0 12px;padding-bottom:120px}',
+        '.lcs-bar{position:sticky;top:0;z-index:10;background:rgba(254,250,243,.94);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding:12px 4px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}',
+        '.lcs-title{font-size:clamp(18px,2.6vw,24px);font-weight:600;color:#1C1C1E;margin:0;flex:1 1 auto;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}',
+        '.lcs-progress{display:flex;gap:6px;flex-wrap:wrap;flex:0 1 auto}',
+        '.lcs-dot{width:16px;height:16px;border-radius:50%;background:#FFF;border:2px solid #DCE1E6;padding:0;cursor:pointer;transition:background-color .2s,border-color .2s,transform .2s}',
+        '.lcs-dot:hover{border-color:#4E5FE8;transform:scale(1.1)}',
+        '.lcs-dot:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+        '.lcs-dot--filled{background:#4E5FE8;border-color:#4E5FE8}',
+        '.lcs-dot--correct{background:#4CAF50;border-color:#4CAF50}',
+        '.lcs-dot--wrong{background:#E53935;border-color:#E53935}',
+        '.lcs-mute{width:40px;height:40px;border-radius:10px;border:2px solid #DCE1E6;background:#FFF;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;color:#545458;flex-shrink:0}',
+        '.lcs-mute:hover{background:#FEFAF3}',
+        '.lcs-mute:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+        '.lcs-mute svg{width:20px;height:20px;pointer-events:none}',
+        '.lcs-mute[data-muted="1"]{background:#FFF8E6;border-color:#FFC857;color:#8A6D00}',
+        '.lcs-worksheet-wrap{display:flex;justify-content:center;padding-top:8px}',
+        '.lcs-worksheet{position:relative;display:block;width:100%;max-width:880px;background:#FFF;border-radius:10px;box-shadow:0 4px 18px rgba(28,28,30,.08);overflow:visible}',
+        '.lcs-worksheet__img{display:block;width:100%;height:auto;user-select:none;-webkit-user-drag:none;pointer-events:none;border-radius:10px}',
+        '.lcs-overlay{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none}',
+        '.lcs-slot{position:absolute;transform:translate(-50%,-50%);height:5.6%;min-height:28px;pointer-events:none}',
+        '.lcs-input{position:absolute;inset:0;width:100%;height:100%;font-family:inherit;font-weight:700;text-align:center;color:#1C1C1E;padding:0 4px;outline:none;font-size:clamp(15px,2.6vw,24px);pointer-events:auto;cursor:pointer;-webkit-appearance:none;appearance:none;border:3px dashed #4E5FE8;border-radius:8px;background:rgba(255,248,230,.92);transition:background-color .2s,border-color .2s,border-style .2s,box-shadow .2s,color .2s}',
+        '.lcs-input::placeholder{color:rgba(78,95,232,.5);font-weight:600}',
+        '.lcs-input:hover{background:#FFF8E6;border-color:#3F4FD0}',
+        '.lcs-input:focus-visible{border-style:solid;border-color:#4E5FE8;background:#FFFFFF;box-shadow:0 0 0 4px rgba(78,95,232,.22)}',
+        '.lcs-slot--empty .lcs-input{animation:lcs-pulse 2.2s ease-in-out infinite}',
+        '@keyframes lcs-pulse{0%,100%{box-shadow:0 0 0 0 rgba(78,95,232,.35)}50%{box-shadow:0 0 0 8px rgba(78,95,232,0)}}',
+        '.lcs-slot--filled .lcs-input{background:#FFFFFF;border-style:solid;animation:none}',
+        '.lcs-slot--correct .lcs-input{border:3px solid #4CAF50;background:#E8F5E9;color:#2E7D32;animation:none}',
+        '.lcs-slot--wrong .lcs-input{border:3px solid #E53935;background:#FFEBEE;color:#C62828;animation:none;text-decoration:line-through;text-decoration-thickness:2px}',
+        '.lcs-mark{position:absolute;left:calc(100% + 6px);top:50%;transform:translateY(-50%);display:flex;align-items:center;gap:4px;pointer-events:none;white-space:nowrap;font-weight:700;font-size:clamp(14px,2.2vw,20px)}',
+        '.lcs-mark__icon{width:22px;height:22px;display:block;flex-shrink:0}',
+        '.lcs-mark__correct-value{color:#2E7D32;background:#FFF;border:2px solid #4CAF50;border-radius:6px;padding:2px 8px}',
+        '.lcs-mark__correct-value--count{color:#C62828;border-color:#E53935}',
+        '.lcs-cross-hit{position:absolute;background:transparent;border:2px solid transparent;border-radius:6px;padding:0;cursor:pointer;pointer-events:auto;transition:border-color .15s,background-color .15s;display:block}',
+        '.lcs-cross-hit:hover{border-color:rgba(211,47,47,.45);background:rgba(255,235,235,.2)}',
+        '.lcs-cross-hit:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+        '.lcs-cross-hit__x{position:absolute;inset:0;width:100%;height:100%;opacity:0;transition:opacity .18s;pointer-events:none}',
+        '.lcs-cross-hit[data-crossed="true"] .lcs-cross-hit__x{opacity:.9}',
+        '.lcs-cross-hit[data-reviewed="1"]{cursor:default}',
+        '.lcs-footer{position:sticky;bottom:0;z-index:10;margin-top:24px;background:rgba(254,250,243,.95);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-top:1px solid #DCE1E6;padding:16px 12px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap}',
+        '.lcs-btn{font-family:inherit;font-weight:700;font-size:17px;padding:14px 28px;border-radius:12px;border:none;cursor:pointer;min-height:52px;min-width:160px;transition:background-color .2s,transform .1s,box-shadow .2s,opacity .2s}',
+        '.lcs-btn:active:not([disabled]){transform:scale(.97)}',
+        '.lcs-btn:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+        '.lcs-btn[disabled]{opacity:.45;cursor:not-allowed}',
+        '.lcs-btn--primary{background:#4E5FE8;color:#FFF;box-shadow:0 4px 14px rgba(78,95,232,.3)}',
+        '.lcs-btn--primary:hover:not([disabled]){background:#3F4FD0;box-shadow:0 6px 20px rgba(78,95,232,.4)}',
+        '.lcs-btn--ghost{background:#FFF;color:#1C1C1E;border:2px solid #DCE1E6}',
+        '.lcs-btn--ghost:hover{background:#FEFAF3;border-color:#4E5FE8}',
+        '.lcs-summary{font-size:16px;font-weight:600;color:#545458;align-self:center;padding:0 8px}',
+        '.lcs-summary--all-correct{color:#2E7D32}',
+        '.lcs-celebration{position:fixed;inset:0;background:rgba(28,28,30,.5);display:none;align-items:center;justify-content:center;z-index:10000;padding:16px}',
+        '.lcs-celebration--shown{display:flex}',
+        '.lcs-celebration__inner{position:relative;background:#FFFFFF;border-radius:24px;padding:32px 28px 24px;max-width:520px;width:100%;box-shadow:0 20px 60px rgba(28,28,30,.35);text-align:center;z-index:2}',
+        '.lcs-celebration__title{font-size:clamp(36px,7vw,56px);margin:0 0 4px;color:#4E5FE8;font-weight:700}',
+        '.lcs-stars{font-size:clamp(40px,7vw,52px);letter-spacing:10px;margin:12px 0;line-height:1}',
+        '.lcs-star{color:#DCE1E6}',
+        '.lcs-star--filled{color:#FFC857;filter:drop-shadow(0 2px 4px rgba(255,200,87,.35))}',
+        '.lcs-celebration__sub{color:#545458;font-size:16px;margin:0 0 20px}',
+        '.lcs-mini{display:block;max-width:100%;max-height:200px;margin:0 auto 20px;border-radius:8px;border:1px solid #DCE1E6}',
+        '.lcs-celebration__cta{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}',
+        '.lcs-confetti{position:absolute;inset:0;pointer-events:none;overflow:hidden;border-radius:24px}',
+        '.lcs-confetti__piece{position:absolute;width:8px;height:14px;top:-20px;animation:lcs-fall linear forwards;border-radius:2px}',
+        '@keyframes lcs-fall{to{transform:translateY(620px) rotate(540deg);opacity:0}}',
+        '.lcs-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}',
+        '.lcs-attrib{text-align:center;margin:24px 0 8px;font-size:12px;color:#8a8a8e}',
+        '.lcs-attrib a{color:#8a8a8e;text-decoration:none}',
+        '.lcs-attrib a:hover{color:#4E5FE8}',
+        '@media (prefers-reduced-motion:reduce){',
+        '  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.15s !important}',
+        '  .lcs-confetti{display:none}',
+        '}',
+        '@media print{',
+        '  body{background:#FFF}',
+        '  .lcs-bar,.lcs-footer,.lcs-celebration,.lcs-attrib,.lcs-mark,.lcs-cross-hit{display:none !important}',
+        '  .lcs-worksheet{box-shadow:none;border:none}',
+        '  .lcs-input{background:transparent;border:1px solid #000;color:#000;animation:none}',
+        '}'
+    ];
+
+    var INTERACTIVE_RUNTIME_LINES = [
+        '(function(){',
+        '  "use strict";',
+        '  var STRINGS = {',
+        '    en:{title:"Subtraction Practice",checkAnswers:"Check Answers",tryAgain:"Try Again",youDidIt:"You did it!",doAnother:"Do Another",printMyWorksheet:"Print my worksheet",mute:"Mute sounds",unmute:"Turn sounds on",problemNumber:"Problem",correct:"correct",score:"{n} of {total} correct",firstTryStars:"first-try stars",allCorrect:"All correct!",crossOut:"cross out {n}"}',
+        '  };',
+        '  function T(key){var loc=(DECK_BUNDLE.contentLanguage||"en").slice(0,2);var t=STRINGS[loc]||STRINGS.en;return t[key]||STRINGS.en[key]||key}',
+        '',
+        '  var state=DECK_BUNDLE.problems.map(function(p){return{index:p.index,operandA:p.operandA,operandB:p.operandB,mode:p.resolvedMode||"image-number",inputRect:p.inputRect,crossOutImages:p.crossOutImages||[],value:"",crossed:[],status:"empty"}});',
+        '  var muted=false;try{muted=localStorage.getItem("lcsMuted")==="1"}catch(e){}',
+        '  var reducedMotion=false;try{reducedMotion=window.matchMedia("(prefers-reduced-motion: reduce)").matches}catch(e){}',
+        '  var audioCtx=null;',
+        '  var phase="fill";',
+        '  var celebrationShown=false;',
+        '  var titleEl,progressEl,overlayEl,muteBtn,celebrationEl,liveEl,imgEl,checkBtn,resetBtn,summaryEl;',
+        '',
+        '  function expectedAnswer(s){return s.operandA - s.operandB}',
+        '',
+        '  function init(){',
+        '    titleEl=document.getElementById("lcs-title");',
+        '    progressEl=document.getElementById("lcs-progress");',
+        '    overlayEl=document.getElementById("lcs-overlay");',
+        '    muteBtn=document.getElementById("lcs-mute");',
+        '    celebrationEl=document.getElementById("lcs-celebration");',
+        '    liveEl=document.getElementById("lcs-live");',
+        '    imgEl=document.getElementById("lcs-worksheet-img");',
+        '    checkBtn=document.getElementById("lcs-check");',
+        '    resetBtn=document.getElementById("lcs-reset");',
+        '    summaryEl=document.getElementById("lcs-summary");',
+        '    if(titleEl) titleEl.textContent=DECK_BUNDLE.title||T("title");',
+        '    renderProgress();',
+        '    if(imgEl&&imgEl.complete&&imgEl.naturalHeight>0){renderSlots();}',
+        '    else if(imgEl){imgEl.addEventListener("load",renderSlots);imgEl.addEventListener("error",function(){console.error("[LCS] Worksheet image failed to load")});}',
+        '    wireMute();',
+        '    updateMuteButton();',
+        '    wireButtons();',
+        '  }',
+        '',
+        '  function renderProgress(){',
+        '    progressEl.innerHTML="";',
+        '    state.forEach(function(s,i){',
+        '      var d=document.createElement("button");',
+        '      d.className="lcs-dot";',
+        '      d.type="button";',
+        '      d.setAttribute("aria-label",T("problemNumber")+" "+(i+1));',
+        '      d.addEventListener("click",function(){focusProblem(i)});',
+        '      progressEl.appendChild(d);',
+        '    });',
+        '    syncDots();',
+        '  }',
+        '  function syncDots(){',
+        '    var dots=progressEl.querySelectorAll(".lcs-dot");',
+        '    for(var i=0;i<dots.length;i++){',
+        '      var s=state[i];var cls="lcs-dot";',
+        '      if(s.status==="correct")cls+=" lcs-dot--correct";',
+        '      else if(s.status==="wrong")cls+=" lcs-dot--wrong";',
+        '      else if(s.status==="filled")cls+=" lcs-dot--filled";',
+        '      dots[i].className=cls;',
+        '    }',
+        '  }',
+        '',
+        '  function renderSlots(){',
+        '    overlayEl.innerHTML="";',
+        '    var pw=DECK_BUNDLE.page.width;',
+        '    var ph=DECK_BUNDLE.page.height;',
+        '    state.forEach(function(s,i){',
+        '      // Cross-out hitboxes for this problem (rendered first so inputs sit above)',
+        '      if(s.mode==="cross-out"&&s.crossOutImages&&s.crossOutImages.length){',
+        '        s.crossOutImages.forEach(function(r,j){',
+        '          var hit=buildCrossHit(i,j,r,pw,ph);',
+        '          overlayEl.appendChild(hit);',
+        '        });',
+        '      }',
+        '      if(!s.inputRect) return;',
+        '      var ir=s.inputRect;',
+        '      var xPct=(ir.x/pw)*100;',
+        '      var yPct=(ir.y/ph)*100;',
+        '      var wPct=((ir.w*1.3)/pw)*100;',
+        '      var slot=document.createElement("div");',
+        '      slot.className="lcs-slot lcs-slot--empty";',
+        '      slot.setAttribute("data-idx",String(i));',
+        '      slot.style.left=xPct+"%";',
+        '      slot.style.top=yPct+"%";',
+        '      slot.style.width="max("+wPct.toFixed(2)+"%,64px)";',
+        '      var input=buildInput(i);',
+        '      slot.appendChild(input);',
+        '      var mark=document.createElement("span");mark.className="lcs-mark";mark.id="lcs-mark-"+i;',
+        '      slot.appendChild(mark);',
+        '      overlayEl.appendChild(slot);',
+        '    });',
+        '  }',
+        '',
+        '  function buildCrossHit(problemIdx,imgIdx,rect,pw,ph){',
+        '    var hit=document.createElement("button");',
+        '    hit.type="button";',
+        '    hit.className="lcs-cross-hit";',
+        '    hit.setAttribute("data-problem",String(problemIdx));',
+        '    hit.setAttribute("data-img",String(imgIdx));',
+        '    hit.setAttribute("data-crossed","false");',
+        '    hit.setAttribute("aria-label","Cross out image "+(imgIdx+1)+" of problem "+(problemIdx+1));',
+        '    hit.setAttribute("aria-pressed","false");',
+        '    hit.style.left=((rect.x/pw)*100).toFixed(3)+"%";',
+        '    hit.style.top=((rect.y/ph)*100).toFixed(3)+"%";',
+        '    hit.style.width=((rect.w/pw)*100).toFixed(3)+"%";',
+        '    hit.style.height=((rect.h/ph)*100).toFixed(3)+"%";',
+        '    hit.innerHTML="<svg class=\\"lcs-cross-hit__x\\" viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" fill=\\"none\\" stroke=\\"#D32F2F\\" stroke-width=\\"3.5\\" stroke-linecap=\\"round\\"><path d=\\"M4 4l16 16M20 4L4 20\\"/></svg>";',
+        '    hit.addEventListener("click",function(){',
+        '      if(phase!=="fill")return;',
+        '      var s=state[problemIdx];',
+        '      var crossed=hit.getAttribute("data-crossed")==="true";',
+        '      if(crossed){',
+        '        hit.setAttribute("data-crossed","false");',
+        '        hit.setAttribute("aria-pressed","false");',
+        '        var k=s.crossed.indexOf(imgIdx); if(k>=0)s.crossed.splice(k,1);',
+        '        playTone(320,0.05);',
+        '      } else {',
+        '        hit.setAttribute("data-crossed","true");',
+        '        hit.setAttribute("aria-pressed","true");',
+        '        if(s.crossed.indexOf(imgIdx)<0)s.crossed.push(imgIdx);',
+        '        playTone(520,0.06);',
+        '      }',
+        '    });',
+        '    return hit;',
+        '  }',
+        '',
+        '  function buildInput(idx){',
+        '    var input=document.createElement("input");',
+        '    input.type="text";input.inputMode="numeric";',
+        '    input.setAttribute("pattern","[0-9]*");',
+        '    input.setAttribute("maxlength","3");',
+        '    input.setAttribute("autocomplete","off");',
+        '    input.setAttribute("autocorrect","off");',
+        '    input.setAttribute("autocapitalize","off");',
+        '    input.setAttribute("spellcheck","false");',
+        '    input.setAttribute("placeholder","?");',
+        '    input.className="lcs-input";',
+        '    input.setAttribute("data-idx",String(idx));',
+        '    var s=state[idx];',
+        '    var label;',
+        '    if(s.mode==="find-subtrahend"){',
+        '      label=T("problemNumber")+" "+(idx+1)+": "+s.operandA+" - ? = "+(s.operandA-s.operandB);',
+        '    } else {',
+        '      label=T("problemNumber")+" "+(idx+1)+": "+s.operandA+" - "+s.operandB+" = ?";',
+        '    }',
+        '    input.setAttribute("aria-label",label);',
+        '    input.addEventListener("input",function(){',
+        '      if(phase!=="fill")return;',
+        '      input.value=input.value.replace(/[^0-9]/g,"").slice(0,3);',
+        '      state[idx].value=input.value;',
+        '      state[idx].status=input.value.length>0?"filled":"empty";',
+        '      var slot=slotFor(idx);',
+        '      if(slot){slot.classList.remove("lcs-slot--empty","lcs-slot--filled","lcs-slot--correct","lcs-slot--wrong");slot.classList.add(state[idx].status==="filled"?"lcs-slot--filled":"lcs-slot--empty")}',
+        '      syncDots();',
+        '      updateCheckButton();',
+        '    });',
+        '    input.addEventListener("keydown",function(e){',
+        '      if(e.key==="Enter"){e.preventDefault();advanceFrom(idx)}',
+        '    });',
+        '    return input;',
+        '  }',
+        '  function slotFor(idx){return overlayEl.querySelector(".lcs-slot[data-idx=\\""+idx+"\\"]")}',
+        '  function inputFor(idx){return overlayEl.querySelector(".lcs-input[data-idx=\\""+idx+"\\"]")}',
+        '',
+        '  function focusProblem(idx){',
+        '    if(idx<0||idx>=state.length)return;',
+        '    var input=inputFor(idx);',
+        '    if(input){input.focus();if(input.select)try{input.select()}catch(e){}',
+        '      var slot=slotFor(idx);',
+        '      if(slot&&slot.scrollIntoView){slot.scrollIntoView({behavior:reducedMotion?"auto":"smooth",block:"center"})}',
+        '    }',
+        '  }',
+        '  function advanceFrom(idx){',
+        '    for(var i=idx+1;i<state.length;i++){if(state[i].status!=="correct"&&state[i].status!=="filled"){focusProblem(i);return}}',
+        '    for(var i2=idx+1;i2<state.length;i2++){focusProblem(i2);return}',
+        '    for(var j=0;j<idx;j++){if(state[j].status!=="correct"&&state[j].status!=="filled"){focusProblem(j);return}}',
+        '  }',
+        '',
+        '  function updateCheckButton(){',
+        '    if(!checkBtn)return;',
+        '    var allFilled=state.every(function(s){return s.value&&s.value.length>0});',
+        '    checkBtn.disabled=!allFilled||phase!=="fill";',
+        '  }',
+        '',
+        '  function wireButtons(){',
+        '    checkBtn.addEventListener("click",checkAll);',
+        '    resetBtn.addEventListener("click",resetAll);',
+        '  }',
+        '',
+        '  function checkAll(){',
+        '    if(phase!=="fill")return;',
+        '    phase="reviewed";',
+        '    var correct=0;',
+        '    state.forEach(function(s,idx){',
+        '      var input=inputFor(idx);if(!input)return;',
+        '      var slot=slotFor(idx);if(!slot)return;',
+        '      var mark=document.getElementById("lcs-mark-"+idx);',
+        '      var typed=parseInt(s.value,10);',
+        '      var exp=expectedAnswer(s);',
+        '      input.setAttribute("readonly","readonly");',
+        '      slot.classList.remove("lcs-slot--empty","lcs-slot--filled","lcs-slot--correct","lcs-slot--wrong");',
+        '      var answerRight=(typed===exp);',
+        '      var countRight=true;',
+        '      if(s.mode==="cross-out"){countRight=(s.crossed.length===s.operandB)}',
+        '      // Lock the cross-out hitboxes for this problem',
+        '      var hits=overlayEl.querySelectorAll(".lcs-cross-hit[data-problem=\\""+idx+"\\"]");',
+        '      for(var h=0;h<hits.length;h++){hits[h].setAttribute("data-reviewed","1")}',
+        '      if(answerRight&&countRight){',
+        '        s.status="correct";',
+        '        slot.classList.add("lcs-slot--correct");',
+        '        correct++;',
+        '        if(mark)mark.innerHTML=\'<svg class="lcs-mark__icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#4CAF50" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg>\';',
+        '      } else {',
+        '        s.status="wrong";',
+        '        slot.classList.add("lcs-slot--wrong");',
+        '        if(mark){',
+        '          var pillHTML;',
+        '          if(!answerRight){',
+        '            pillHTML=\'<span class="lcs-mark__correct-value">\'+exp+\'</span>\';',
+        '          } else {',
+        '            pillHTML=\'<span class="lcs-mark__correct-value lcs-mark__correct-value--count">\'+T("crossOut").replace("{n}",s.operandB)+\'</span>\';',
+        '          }',
+        '          mark.innerHTML=\'<svg class="lcs-mark__icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#E53935" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M6 18L18 6"/></svg>\'+pillHTML;',
+        '        }',
+        '      }',
+        '    });',
+        '    syncDots();',
+        '    checkBtn.hidden=true;',
+        '    resetBtn.hidden=false;',
+        '    var total=state.length;',
+        '    var txt=T("score").replace("{n}",correct).replace("{total}",total);',
+        '    if(correct===total){summaryEl.textContent=T("allCorrect");summaryEl.className="lcs-summary lcs-summary--all-correct"}',
+        '    else{summaryEl.textContent=txt;summaryEl.className="lcs-summary"}',
+        '    announce(txt);',
+        '    if(correct===total){',
+        '      playTone(659.25,0.13);',
+        '      setTimeout(function(){playTone(987.77,0.18)},160);',
+        '      setTimeout(showCelebration,500);',
+        '    } else {',
+        '      playTone(440,0.1);',
+        '    }',
+        '  }',
+        '',
+        '  function resetAll(){',
+        '    phase="fill";',
+        '    celebrationShown=false;',
+        '    state.forEach(function(s,idx){',
+        '      s.value="";s.status="empty";s.crossed=[];',
+        '      var input=inputFor(idx);if(input){input.value="";input.removeAttribute("readonly")}',
+        '      var slot=slotFor(idx);if(slot){slot.classList.remove("lcs-slot--filled","lcs-slot--correct","lcs-slot--wrong");slot.classList.add("lcs-slot--empty")}',
+        '      var mark=document.getElementById("lcs-mark-"+idx);if(mark)mark.innerHTML="";',
+        '    });',
+        '    var allHits=overlayEl.querySelectorAll(".lcs-cross-hit");',
+        '    for(var h=0;h<allHits.length;h++){allHits[h].setAttribute("data-crossed","false");allHits[h].setAttribute("aria-pressed","false");allHits[h].removeAttribute("data-reviewed")}',
+        '    syncDots();',
+        '    checkBtn.hidden=false;',
+        '    resetBtn.hidden=true;',
+        '    summaryEl.textContent="";summaryEl.className="lcs-summary";',
+        '    updateCheckButton();',
+        '    focusProblem(0);',
+        '    celebrationEl.classList.remove("lcs-celebration--shown");',
+        '  }',
+        '',
+        '  function playTone(freq,dur){',
+        '    if(muted)return;',
+        '    try{',
+        '      if(!audioCtx){var Ctx=window.AudioContext||window.webkitAudioContext;if(!Ctx)return;audioCtx=new Ctx()}',
+        '      if(audioCtx.state==="suspended")audioCtx.resume();',
+        '      var osc=audioCtx.createOscillator();var gain=audioCtx.createGain();',
+        '      osc.type="sine";osc.frequency.value=freq;',
+        '      var now=audioCtx.currentTime;',
+        '      gain.gain.setValueAtTime(0,now);',
+        '      gain.gain.linearRampToValueAtTime(0.14,now+0.012);',
+        '      gain.gain.linearRampToValueAtTime(0,now+dur);',
+        '      osc.connect(gain);gain.connect(audioCtx.destination);',
+        '      osc.start(now);osc.stop(now+dur+0.03);',
+        '    }catch(e){}',
+        '  }',
+        '  function announce(msg){if(liveEl)liveEl.textContent=msg}',
+        '',
+        '  function showCelebration(){',
+        '    if(celebrationShown)return;celebrationShown=true;',
+        '    var total=state.length;',
+        '    var correct=state.reduce(function(acc,s){return acc+(s.status==="correct"?1:0)},0);',
+        '    var pct=total>0?(correct/total):0;',
+        '    var stars=pct>=0.9?3:pct>=0.6?2:1;',
+        '    var starsHTML="";',
+        '    for(var i=1;i<=3;i++){starsHTML+="<span class=\\"lcs-star"+(i<=stars?" lcs-star--filled":"")+"\\">\\u2605</span>"}',
+        '    celebrationEl.innerHTML=',
+        '      "<div class=\\"lcs-celebration__inner\\">"+',
+        '      "<h1 class=\\"lcs-celebration__title\\">"+T("youDidIt")+"</h1>"+',
+        '      "<div class=\\"lcs-stars\\" aria-label=\\""+stars+" out of 3 stars\\">"+starsHTML+"</div>"+',
+        '      "<p class=\\"lcs-celebration__sub\\">"+correct+" / "+total+" "+T("correct")+"</p>"+',
+        '      "<img class=\\"lcs-mini\\" alt=\\"Your completed worksheet\\" src=\\""+DECK_BUNDLE.worksheetImage+"\\" />"+',
+        '      "<div class=\\"lcs-celebration__cta\\">"+',
+        '        "<button class=\\"lcs-btn lcs-btn--primary\\" type=\\"button\\" id=\\"lcs-do-another\\">"+T("doAnother")+"</button>"+',
+        '        "<button class=\\"lcs-btn lcs-btn--ghost\\" type=\\"button\\" id=\\"lcs-cel-print\\">"+T("printMyWorksheet")+"</button>"+',
+        '      "</div>"+',
+        '      "</div>"+',
+        '      "<div class=\\"lcs-confetti\\" aria-hidden=\\"true\\"></div>";',
+        '    celebrationEl.classList.add("lcs-celebration--shown");',
+        '    document.getElementById("lcs-do-another").addEventListener("click",function(){location.reload()});',
+        '    document.getElementById("lcs-cel-print").addEventListener("click",function(){window.print()});',
+        '    if(!reducedMotion)spawnConfetti();',
+        '  }',
+        '  function spawnConfetti(){',
+        '    var layer=celebrationEl.querySelector(".lcs-confetti");if(!layer)return;',
+        '    var colors=["#4E5FE8","#4CAF50","#FF8A65","#FFC857","#6AB7FF","#B39DDB"];',
+        '    for(var i=0;i<48;i++){',
+        '      var c=document.createElement("span");c.className="lcs-confetti__piece";',
+        '      c.style.left=(Math.random()*100)+"%";',
+        '      c.style.background=colors[i%colors.length];',
+        '      c.style.animationDelay=(Math.random()*0.5)+"s";',
+        '      c.style.animationDuration=(1.8+Math.random()*1.3)+"s";',
+        '      c.style.transform="rotate("+(Math.random()*360)+"deg)";',
+        '      layer.appendChild(c);',
+        '    }',
+        '  }',
+        '',
+        '  function wireMute(){muteBtn.addEventListener("click",function(){muted=!muted;try{localStorage.setItem("lcsMuted",muted?"1":"0")}catch(e){}updateMuteButton()})}',
+        '  function updateMuteButton(){',
+        '    muteBtn.setAttribute("aria-label",muted?T("unmute"):T("mute"));',
+        '    muteBtn.setAttribute("data-muted",muted?"1":"0");',
+        '    muteBtn.innerHTML=muted',
+        '      ? "<svg viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\"><path d=\\"M11 5L6 9H2v6h4l5 4V5z\\"/><line x1=\\"23\\" y1=\\"9\\" x2=\\"17\\" y2=\\"15\\"/><line x1=\\"17\\" y1=\\"9\\" x2=\\"23\\" y2=\\"15\\"/></svg>"',
+        '      : "<svg viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\"><path d=\\"M11 5L6 9H2v6h4l5 4V5z\\"/><path d=\\"M15.54 8.46a5 5 0 0 1 0 7.07\\"/><path d=\\"M19.07 4.93a10 10 0 0 1 0 14.14\\"/></svg>";',
+        '  }',
+        '',
+        '  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);',
+        '  else init();',
+        '})();'
+    ];
+
+    function renderStandaloneHTML(bundle) {
+        var css = INTERACTIVE_CSS_LINES.join('\n');
+        var runtime = INTERACTIVE_RUNTIME_LINES.join('\n');
+        var bundleJSON = JSON.stringify(bundle);
+        var lang = (bundle.contentLanguage || 'en').slice(0, 2);
+        var title = (bundle.title || 'Subtraction Practice');
+        var parts = [];
+        parts.push('<!DOCTYPE html>');
+        parts.push('<html lang="' + lang + '">');
+        parts.push('<head>');
+        parts.push('<meta charset="UTF-8">');
+        parts.push('<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">');
+        parts.push('<meta name="theme-color" content="#FEFAF3">');
+        parts.push('<title>' + title + '</title>');
+        parts.push('<link rel="preconnect" href="https://fonts.googleapis.com">');
+        parts.push('<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>');
+        parts.push('<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">');
+        parts.push('<style>' + css + '</style>');
+        parts.push('</head>');
+        parts.push('<body>');
+        parts.push('<main id="lcs-app">');
+        parts.push('  <div class="lcs-bar">');
+        parts.push('    <h1 class="lcs-title" id="lcs-title">' + title + '</h1>');
+        parts.push('    <nav class="lcs-progress" id="lcs-progress" aria-label="Problem progress"></nav>');
+        parts.push('    <button type="button" id="lcs-mute" class="lcs-mute" aria-label="Mute sounds"></button>');
+        parts.push('  </div>');
+        parts.push('  <div class="lcs-worksheet-wrap">');
+        parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');
+        parts.push('      <img class="lcs-worksheet__img" id="lcs-worksheet-img" alt="" src="' + bundle.worksheetImage + '">');
+        parts.push('      <div class="lcs-overlay" id="lcs-overlay"></div>');
+        parts.push('    </div>');
+        parts.push('  </div>');
+        parts.push('  <p class="lcs-attrib">Made with <a href="https://www.lessoncraftstudio.com" target="_blank" rel="noopener">LessonCraftStudio</a></p>');
+        parts.push('</main>');
+        parts.push('<footer class="lcs-footer">');
+        parts.push('  <button type="button" id="lcs-check" class="lcs-btn lcs-btn--primary" disabled>Check Answers</button>');
+        parts.push('  <button type="button" id="lcs-reset" class="lcs-btn lcs-btn--ghost" hidden>Try Again</button>');
+        parts.push('  <span id="lcs-summary" class="lcs-summary" aria-live="polite"></span>');
+        parts.push('</footer>');
+        parts.push('<div class="lcs-celebration" id="lcs-celebration" role="dialog" aria-modal="true" aria-label="You did it!"></div>');
+        parts.push('<div class="lcs-sr" id="lcs-live" role="status" aria-live="polite"></div>');
+        parts.push('<script>var DECK_BUNDLE = ' + bundleJSON + ';<\/script>');
+        parts.push('<script>' + runtime + '<\/script>');
+        parts.push('</body>');
+        parts.push('</html>');
+        return parts.join('\n');
+    }
+
+    async function downloadInteractiveHtml(canvasInstance, fileName) {
+        if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
+            showMessage(t('pleaseGenerateContentFirst') || 'Please generate a worksheet first.', 'error');
+            return;
+        }
+        showMessage('Preparing ' + fileName + '...', 'info', 0);
+        try {
+            var bundle = await extractDeckBundle(canvasInstance);
+            if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
+                throw new Error('Worksheet snapshot is empty.');
+            }
+            var html = renderStandaloneHTML(bundle);
+
+            var blob = new Blob([html], { type: 'text/html;charset=utf-8' });
+            var url = URL.createObjectURL(blob);
+            var a = document.createElement('a');
+            a.href = url;
+            a.download = fileName;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+
+            showMessage('Interactive worksheet downloaded.', 'success');
+        } catch (e) {
+            console.error('[Interactive Export v5] Failed:', e);
+            showMessage('Interactive export failed: ' + e.message, 'error');
+        }
+    }
+    // END: Interactive-HTML export v5
+
     // --- Border & Background Logic ---
     async function loadAssetThemes(assetType, selectElement) {
         // Background and border themes are hardcoded since Directus has limited theme structure
@@ -4417,6 +5097,7 @@ async function downloadPDF(canvasToExport, fileName) {
       downloadAnswerKeyJpegBtn.addEventListener("click", () => downloadImageFile(answerKeyCanvas, 'answer_key.jpeg'));
       downloadWorksheetPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
       downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'answer_key.pdf'));
+      downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'subtraction_interactive.html'));
 
       themeSelect.addEventListener("change", loadDictionary);
       searchInput.addEventListener("input", () => { if(this.searchTimeout) clearTimeout(this.searchTimeout); this.searchTimeout = setTimeout(loadDictionary, 300); });

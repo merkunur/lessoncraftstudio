@@ -56,6 +56,15 @@ next-env.d.ts
 /public/worksheet-generators/*
 /public/worksheet-generators/**/*
 
+# Exception: the shared attribution-manager.js is a small, version-controlled
+# utility used by every worksheet-generator app. Unlike translations and HTML
+# files (which are large and auto-regenerated), this one wants git tracking
+# so the deploy pipeline ships it like any other source file. Need to
+# un-ignore the parent directories too, otherwise git skips descent.
+!/public/worksheet-generators/
+!/public/worksheet-generators/js/
+!/public/worksheet-generators/js/attribution-manager.js
+
 # Ignore admin panels (managed independently, served from isolated storage)
 /public/admin/*
 /public/admin/**/*

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
+    <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <title data-translate="additionGenerator">Image Addition Worksheet Generator</title>
@@ -3667,6 +3668,13 @@
         enforceZOrder(worksheetCanvas);
         userAddedObjects.forEach(obj => worksheetCanvas.bringToFront(obj));
 
+        // Add the shared "Made with LessonCraftStudio.com" attribution to
+        // the bottom-center of the canvas. Included in every export path
+        // (PDF/JPEG/interactive) because they all capture canvas state.
+        if (window.LCSAttribution) {
+            LCSAttribution.addToCanvas(worksheetCanvas, { currentCanvasConfig: currentCanvasConfig });
+        }
+
         worksheetCanvas.renderAll();
         downloadWorksheetJpegBtn.disabled = false;
         downloadWorksheetPdfBtn.disabled = false;
@@ -4004,6 +4012,10 @@
         // Part C, Step 4: Finalize Canvas and Z-Order
         enforceZOrder(answerKeyCanvas);
         userAddedObjects.forEach(obj => answerKeyCanvas.bringToFront(obj));
+
+        if (window.LCSAttribution) {
+            LCSAttribution.addToCanvas(answerKeyCanvas, { currentCanvasConfig: currentCanvasConfig });
+        }
 
         answerKeyCanvas.renderAll();
 
@@ -4346,6 +4358,12 @@
             };
         }).filter(function (p) { return p.inputRect !== null; });
 
+        // Extract the attribution's world rect (if present) so the play
+        // page can overlay a clickable <a href> on top of the baked text.
+        var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
+            ? LCSAttribution.getRectFromCanvas(canvas)
+            : null;
+
         var worksheetImage = await _captureWorksheetImage(canvas);
 
         return {
@@ -4359,7 +4377,12 @@
                 height: currentCanvasConfig.height
             },
             worksheetImage: worksheetImage,
-            problems: problems
+            problems: problems,
+            attribution: attributionRect ? {
+                text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
+                url: (window.LCSAttribution && LCSAttribution.URL) || 'https://lessoncraftstudio.com',
+                rect: attributionRect
+            } : null
         };
     }
 
@@ -4424,14 +4447,19 @@
         '.lcs-confetti__piece{position:absolute;width:8px;height:14px;top:-20px;animation:lcs-fall linear forwards;border-radius:2px}',
         '@keyframes lcs-fall{to{transform:translateY(620px) rotate(540deg);opacity:0}}',
         '.lcs-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}',
-        '.lcs-attrib{text-align:center;margin:24px 0 8px;font-size:12px;color:#8a8a8e}',
-        '.lcs-attrib a{color:#8a8a8e;text-decoration:none}',
-        '.lcs-attrib a:hover{color:#4E5FE8}',
+        // Invisible clickable hotspot overlaid on top of the baked-in
+        // attribution text inside the worksheet JPEG. The text itself is
+        // rendered by the canvas (via the shared attribution module), so
+        // this anchor has no visible appearance; it just captures clicks.
+        '.lcs-attrib-link{position:absolute;transform:translate(-50%,-50%);pointer-events:auto;cursor:pointer;background:transparent;outline:none;border-radius:4px;transition:background .15s}',
+        '.lcs-attrib-link:hover{background:rgba(78,95,232,.06)}',
+        '.lcs-attrib-link:focus-visible{outline:2px solid #4E5FE8;outline-offset:2px}',
         '@media (prefers-reduced-motion:reduce){',
         '  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.15s !important}',
         '  .lcs-spark,.lcs-confetti{display:none}',
         '}',
         '@media print{',
+        '  .lcs-attrib-link{display:none !important}',
         '  body{background:#FFF}',
         '  .lcs-bar,.lcs-footer,.lcs-celebration,.lcs-attrib,.lcs-mark{display:none !important}',
         '  .lcs-worksheet{box-shadow:none;border:none}',
@@ -4524,6 +4552,24 @@
         '      slot.appendChild(mark);',
         '      overlayEl.appendChild(slot);',
         '    });',
+        '    // Invisible clickable anchor overlaid on the baked-in',
+        '    // attribution text. Keeps the attribution inside the worksheet',
+        '    // area (per spec) while still being a working hyperlink.',
+        '    var attr=DECK_BUNDLE.attribution;',
+        '    if(attr&&attr.rect){',
+        '      var a=document.createElement("a");',
+        '      a.className="lcs-attrib-link";',
+        '      a.href=attr.url;',
+        '      a.target="_blank";',
+        '      a.rel="noopener noreferrer";',
+        '      a.setAttribute("aria-label",attr.text);',
+        '      a.title=attr.text;',
+        '      a.style.left=((attr.rect.x/pw)*100).toFixed(3)+"%";',
+        '      a.style.top=((attr.rect.y/ph)*100).toFixed(3)+"%";',
+        '      a.style.width=((attr.rect.w/pw)*100).toFixed(3)+"%";',
+        '      a.style.height=((attr.rect.h/ph)*100).toFixed(3)+"%";',
+        '      overlayEl.appendChild(a);',
+        '    }',
         '  }',
         '',
         '  function buildInput(idx){',
@@ -4744,7 +4790,6 @@
         parts.push('      <div class="lcs-overlay" id="lcs-overlay"></div>');
         parts.push('    </div>');
         parts.push('  </div>');
-        parts.push('  <p class="lcs-attrib">Made with <a href="https://www.lessoncraftstudio.com" target="_blank" rel="noopener">LessonCraftStudio</a></p>');
         parts.push('</main>');
         parts.push('<footer class="lcs-footer">');
         parts.push('  <button type="button" id="lcs-check" class="lcs-btn lcs-btn--primary" disabled>Check Answers</button>');

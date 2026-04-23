@@ -3260,7 +3260,39 @@
                     finalLeft -= 10;  // 10px left
                 }
 
-                if (clues.includes(letter) && letterToImage[letter]) {
+                const isClue = clues.includes(letter) && letterToImage[letter];
+
+                // Invisible wagon-marker rect, ALWAYS created (for every
+                // letter — clue AND empty). Size and position match the
+                // train template's visible dashed rectangle inside each
+                // wagon, i.e. conceptualBoxSizeForScaling centered inside
+                // the wagonBoxSize frame. The interactive exporter uses
+                // this rect as: (a) the drop-target cell for empty wagons,
+                // (b) the anchor for letter badges on every wagon, and
+                // (c) the piece size so pieces exactly fill the picture
+                // area after being dropped.
+                const pictureSize = conceptualBoxSizeForScaling;
+                const inset = (WAGON_BOX_SIZE_BASE * S_SCALE - pictureSize) / 2;
+                const markerRect = new fabric.Rect({
+                    left: finalLeft + inset,
+                    top: finalTop + inset,
+                    width: pictureSize,
+                    height: pictureSize,
+                    originX: 'left', originY: 'top',
+                    fill: 'transparent',
+                    stroke: 'transparent',
+                    selectable: false,
+                    evented: false,
+                    objectCaching: false,
+                    isTrainGeneratedItem: true,
+                    generationId: 'wagonMarker_' + letter,
+                    isWagonMarker: true,
+                    wagonLetter: letter,
+                    isEmptyWagon: !isClue
+                });
+                newGeneratedObjects.push(markerRect);
+
+                if (isClue) {
                     const clueFabImg = await loadImage(letterToImage[letter].path);
                     let scaleFactor = Math.min(conceptualBoxSizeForScaling / clueFabImg.width, conceptualBoxSizeForScaling / clueFabImg.height);
 
@@ -3281,33 +3313,9 @@
                         cornerColor: 'var(--app-accent-primary)',
                         cornerSize: 8,
                         transparentCorners: false,
-                        cornerStyle: 'circle',
-                        isClueWagonImage: true,
-                        wagonLetter: letter
+                        cornerStyle: 'circle'
                     });
                     masterElements.push(clueFabImg);
-                } else {
-                    // Invisible marker rect so the Interactive-HTML exporter
-                    // can find the wagon's world position. Fill+stroke both
-                    // transparent ⇒ no visible change on the JPEG / PDF.
-                    const wagonBoxSize = WAGON_BOX_SIZE_BASE * S_SCALE;
-                    const markerRect = new fabric.Rect({
-                        left: finalLeft,
-                        top: finalTop,
-                        width: wagonBoxSize,
-                        height: wagonBoxSize,
-                        originX: 'left', originY: 'top',
-                        fill: 'transparent',
-                        stroke: 'transparent',
-                        selectable: false,
-                        evented: false,
-                        objectCaching: false,
-                        isTrainGeneratedItem: true,
-                        generationId: 'emptyWagon_' + letter,
-                        isEmptyWagon: true,
-                        wagonLetter: letter
-                    });
-                    newGeneratedObjects.push(markerRect);
                 }
             }
             // Add train background as a separate object
@@ -4044,23 +4052,21 @@ async function downloadPDF(canvasToExport, fileName) {
         return { x: (minX + maxX) / 2, y: (minY + maxY) / 2, w: maxX - minX, h: maxY - minY };
     }
 
-    // Collect every empty-wagon marker, every cutout image (draggable),
-    // and every clue-wagon image (on the train JPEG) so the play page can
-    // render letter badges for ALL letters after Check Answers.
+    // Wagon markers (every wagon) + cutout images (draggable pieces).
+    // Letter badges come from markers — one per wagon, consistent size
+    // and position for clue and empty alike.
     function _collectTaggedItems(canvas) {
-        var wagons = [];
+        var markers = [];
         var cutouts = [];
-        var clues = [];
         (function walk(objs) {
             if (!objs) return;
             objs.forEach(function (o) {
-                if (o && o.isEmptyWagon === true) wagons.push(o);
+                if (o && o.isWagonMarker === true) markers.push(o);
                 if (o && o.isAlphabetCutout === true) cutouts.push(o);
-                if (o && o.isClueWagonImage === true) clues.push(o);
                 if (o && o._objects) walk(o._objects);
             });
         })(canvas.getObjects());
-        return { wagons: wagons, cutouts: cutouts, clues: clues };
+        return { markers: markers, cutouts: cutouts };
     }
 
     // Convert a loaded fabric.Image's underlying HTMLImageElement to a
@@ -4085,20 +4091,32 @@ async function downloadPDF(canvasToExport, fileName) {
 
     async function extractDeckBundle(canvas) {
         var found = _collectTaggedItems(canvas);
-        // Wagons in alphabetical order so cells[i] is stable and matches
-        // how a teacher would read the train left-to-right.
-        found.wagons.sort(function (a, b) {
+        // Sort markers alphabetically so iteration order is stable A→K.
+        found.markers.sort(function (a, b) {
             return String(a.wagonLetter || '').localeCompare(String(b.wagonLetter || ''));
         });
 
-        var cells = found.wagons.map(function (w, i) {
+        // Drop-target cells = EMPTY wagons only.
+        var cells = found.markers
+            .filter(function (m) { return m.isEmptyWagon === true; })
+            .map(function (m, i) {
+                return {
+                    cellIndex: i,
+                    rect: _worldRectBounds(m),
+                    operationText: '',
+                    expectedNumber: String(m.wagonLetter || '')
+                };
+            });
+
+        // Letter badges = one per wagon (clue or empty) anchored on the
+        // marker's top-right corner (computed at play time from rect).
+        var letterBadges = found.markers.map(function (m) {
+            var b = _worldRectBounds(m);
             return {
-                cellIndex: i,
-                rect: _worldRectBounds(w),
-                operationText: '',
-                expectedNumber: String(w.wagonLetter || '')
+                letter: String(m.wagonLetter || ''),
+                rect: { x: b.x, y: b.y, w: b.w, h: b.h }
             };
-        });
+        }).filter(function (b) { return b.letter; });
 
         var pieces = found.cutouts.map(function (c, i) {
             return {
@@ -4108,17 +4126,6 @@ async function downloadPDF(canvasToExport, fileName) {
                 initialRect: _worldRectBounds(c)
             };
         }).filter(function (p) { return p.imgDataUrl && p.number; });
-
-        // Clue badges — one per pre-filled clue image. Rendered as hidden
-        // letter circles on top of each clue wagon; revealed after Check
-        // Answers so the student sees every letter on the finished train.
-        var clueBadges = found.clues.map(function (c) {
-            var b = _worldRectBounds(c);
-            return {
-                letter: String(c.wagonLetter || ''),
-                rect: { x: b.x, y: b.y, w: b.w, h: b.h }
-            };
-        }).filter(function (b) { return b.letter; });
 
         var worksheetImage = await _captureWorksheetImage(canvas);
 
@@ -4135,7 +4142,7 @@ async function downloadPDF(canvasToExport, fileName) {
             worksheetImage: worksheetImage,
             grid: { rows: 1, cols: cells.length, cells: cells },
             pieces: pieces,
-            clueBadges: clueBadges
+            letterBadges: letterBadges
         };
     }
 
@@ -4292,12 +4299,12 @@ async function downloadPDF(canvasToExport, fileName) {
         '      el.style.height=((c.rect.h/ph)*100).toFixed(3)+"%";',
         '      overlayEl.appendChild(el);',
         '    });',
-        '    // Clue-letter badges (hidden until Check is clicked). Anchor',
-        '    // each badge on the clue image\'s top-right corner so its',
-        '    // placement matches the piece-badge placement (which sits on',
-        '    // the top-right corner of each piece div).',
-        '    var clueBadges=DECK_BUNDLE.clueBadges||[];',
-        '    clueBadges.forEach(function(cb){',
+        '    // Letter badges — one per wagon (every marker), anchored at',
+        '    // the marker\'s top-right corner. Markers are sized to the',
+        '    // picture area (the visible dashed rect inside each wagon),',
+        '    // so the badge lands on the corner of where the picture sits.',
+        '    var letterBadges=DECK_BUNDLE.letterBadges||[];',
+        '    letterBadges.forEach(function(cb){',
         '      var el=document.createElement("div");',
         '      el.className="lcs-clue-badge";',
         '      el.textContent=cb.letter;',
@@ -4433,13 +4440,12 @@ async function downloadPDF(canvasToExport, fileName) {
         '        placePieceInCell(pieceIdx,targetCell);',
         '      } else {',
         '        var myOld=pieces[pieceIdx].placedInCell;',
-        '        var occInit=pieces[occupant].initialRect;',
         '        if(typeof myOld==="number"){',
         '          pieces[occupant].placedInCell=myOld;',
-        '          placePieceAtRect(pieceEl(occupant),{x:cells[myOld].rect.x,y:cells[myOld].rect.y,w:occInit.w,h:occInit.h});',
+        '          placePieceAtRect(pieceEl(occupant),cells[myOld].rect);',
         '        } else {',
         '          pieces[occupant].placedInCell=null;',
-        '          placePieceAtRect(pieceEl(occupant),occInit);',
+        '          placePieceAtRect(pieceEl(occupant),pieces[occupant].initialRect);',
         '        }',
         '        placePieceInCell(pieceIdx,targetCell);',
         '        playTone(420,0.05);',
@@ -4452,13 +4458,10 @@ async function downloadPDF(canvasToExport, fileName) {
         '',
         '  function placePieceInCell(pieceIdx,cellIdx){',
         '    pieces[pieceIdx].placedInCell=cellIdx;',
-        '    var p=pieces[pieceIdx];',
-        '    var c=cells[cellIdx].rect;',
-        '    // Center on the wagon but keep the piece at its own image size',
-        '    // (same size as the printed cutout). That matches clue images',
-        '    // which are also scaled to ~70% of the wagon frame — pieces',
-        '    // then visually align 1:1 with clue images.',
-        '    placePieceAtRect(pieceEl(pieceIdx),{x:c.x,y:c.y,w:p.initialRect.w,h:p.initialRect.h});',
+        '    // Fill the picture area (= marker = visible dashed rect). The',
+        '    // image inside keeps its aspect ratio via background-size:',
+        '    // contain, matching the size and position of clue images.',
+        '    placePieceAtRect(pieceEl(pieceIdx),cells[cellIdx].rect);',
         '    playTone(560,0.05);',
         '  }',
         '  function sendPieceHome(pieceIdx){',
@@ -4468,8 +4471,7 @@ async function downloadPDF(canvasToExport, fileName) {
         '  function returnPieceToCurrent(pieceIdx){',
         '    var p=pieces[pieceIdx];',
         '    if(typeof p.placedInCell==="number"){',
-        '      var c=cells[p.placedInCell].rect;',
-        '      placePieceAtRect(pieceEl(pieceIdx),{x:c.x,y:c.y,w:p.initialRect.w,h:p.initialRect.h});',
+        '      placePieceAtRect(pieceEl(pieceIdx),cells[p.placedInCell].rect);',
         '    } else {',
         '      placePieceAtRect(pieceEl(pieceIdx),p.initialRect);',
         '    }',

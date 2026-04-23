@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
+    <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1332,6 +1333,8 @@
                             <button id="downloadWorksheetPdfBtn" disabled data-translate="worksheetPdf">Worksheet (PDF)</button>
                             <button id="downloadAnswerKeyPdfBtn" disabled data-translate="answerKeyPdf">Answer Key (PDF)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveHtml">Interactive Worksheet (HTML)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
                             <label class="checkbox-label" id="grayscaleLabel">
                                 <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
                             </label>
@@ -1478,6 +1481,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const downloadAnswerKeyJpegBtn = getEl('downloadAnswerKeyJpegBtn');
     const downloadWorksheetPdfBtn = getEl('downloadWorksheetPdfBtn');
     const downloadAnswerKeyPdfBtn = getEl('downloadAnswerKeyPdfBtn');
+    const downloadInteractiveHtmlBtn = getEl('downloadInteractiveHtmlBtn');
 
     const messageDiv = getEl("message");
 
@@ -1872,6 +1876,7 @@ document.addEventListener("DOMContentLoaded", function() {
         downloadAnswerKeyJpegBtn.addEventListener("click", () => downloadImageFile(answerKeyCanvas, 'answer_key.jpeg'));
         downloadWorksheetPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
         downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'answer_key.pdf'));
+        downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'wordsearch_interactive.html'));
         grayscaleLabel.addEventListener('click', (e) => e.stopPropagation());
         
         // Image Library
@@ -2179,11 +2184,19 @@ document.addEventListener("DOMContentLoaded", function() {
 
         enforceZOrder(worksheetCanvas);
         userAddedObjects.forEach(obj => obj.bringToFront());
+
+        // Expose data for the interactive-HTML exporter.
+        worksheetCanvas.problemsData = lastGeneratedData;
+
+        if (window.LCSAttribution) {
+            LCSAttribution.addToCanvas(worksheetCanvas, { currentCanvasConfig: currentCanvasConfig });
+        }
         worksheetCanvas.renderAll();
-        
+
         showMessage(t("worksheetGeneratedSuccessfully"), "success");
         downloadWorksheetJpegBtn.disabled = false;
         downloadWorksheetPdfBtn.disabled = false;
+        downloadInteractiveHtmlBtn.disabled = false;
         generateAnswerKeyBtn.disabled = false;
         
         
@@ -2294,11 +2307,14 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         
         answerKeyCanvas.add(...newObjects);
-        
+
         enforceZOrder(answerKeyCanvas);
         userAddedObjects.forEach(obj => obj.bringToFront());
+        if (window.LCSAttribution) {
+            LCSAttribution.addToCanvas(answerKeyCanvas, { currentCanvasConfig: currentCanvasConfig });
+        }
         answerKeyCanvas.renderAll();
-        
+
         document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
         showMessage(t("answerKeyGenerated"), "success");
         downloadAnswerKeyJpegBtn.disabled = false;
@@ -2842,7 +2858,16 @@ document.addEventListener("DOMContentLoaded", function() {
             selectable: true,
             evented: true,
             borderColor: 'var(--app-accent-primary)',
-            cornerColor: 'var(--app-accent-primary)'
+            cornerColor: 'var(--app-accent-primary)',
+            // Metadata for the interactive-HTML exporter. Only the worksheet
+            // grid carries this; the answer-key grid is tagged isAnswerKeyItem
+            // but never extracted (exporter only reads the worksheet canvas).
+            isWordsearchGrid: !isAnswerKey,
+            wsRows: rows,
+            wsCols: cols,
+            wsCellSize: cellSize,
+            wsGridWidth: totalGridWidth,
+            wsGridHeight: totalGridHeight
         });
 
         // --- Create Word List with Smart Layout ---
@@ -3120,6 +3145,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         downloadWorksheetJpegBtn.disabled = true;
         downloadWorksheetPdfBtn.disabled = true;
+        downloadInteractiveHtmlBtn.disabled = true;
         downloadAnswerKeyJpegBtn.disabled = true;
         downloadAnswerKeyPdfBtn.disabled = true;
         generateAnswerKeyBtn.disabled = true;
@@ -4066,15 +4092,673 @@ async function downloadPDF(canvasToExport, fileName) {
             
             pdf.save(fileName);
             showMessage(t('pdfDownloaded'), 'success');
-        } catch(e) { 
+        } catch(e) {
             showMessage(t('errorCreatingPdf'), 'error');
-            console.error(e); 
+            console.error(e);
         } finally {
             // Remove watermark after export
             removeWatermarkFromCanvas(canvasToExport, watermarkData);
         }
     }
-    
+
+    // ====================================================================
+    // BEGIN: Interactive-HTML export v15 (wordsearch drag-to-select)
+    // First puzzle-kind port. Fundamentally different from the letter
+    // fill-in apps (v4..v14): there are no per-answer slots. Instead the
+    // bundle carries the letter grid, the placed-word entries (start cell,
+    // direction, length), and the grid's world bbox. The runtime overlays
+    // a transparent cell grid over the baked JPEG; pointerdown starts a
+    // selection, drag snaps to the nearest of 8 directions, pointerup
+    // validates the path endpoints against placedWordsInfo (unordered pair
+    // match, so finding a word in either direction counts). Found words
+    // get a pastel highlight and a strike-through in the interactive word
+    // list rendered below the grid.
+    // ====================================================================
+
+    async function _captureWorksheetImage(canvas) {
+        var savedZoom = canvas.getZoom();
+        var savedW = canvas.getWidth();
+        var savedH = canvas.getHeight();
+        canvas.discardActiveObject();
+        canvas.setZoom(1);
+        canvas.setDimensions({ width: currentCanvasConfig.width, height: currentCanvasConfig.height });
+        canvas.renderAll();
+        var dataURL;
+        try {
+            dataURL = canvas.toDataURL({ format: 'jpeg', quality: 0.85, multiplier: 2 });
+        } finally {
+            canvas.setZoom(savedZoom);
+            canvas.setDimensions({ width: savedW, height: savedH });
+            canvas.renderAll();
+        }
+        return dataURL;
+    }
+
+    function _worldRectBounds(rect) {
+        var m = rect.calcTransformMatrix();
+        var hw = (rect.width || 40) / 2;
+        var hh = (rect.height || 20) / 2;
+        var corners = [
+            fabric.util.transformPoint({ x: -hw, y: -hh }, m),
+            fabric.util.transformPoint({ x:  hw, y: -hh }, m),
+            fabric.util.transformPoint({ x:  hw, y:  hh }, m),
+            fabric.util.transformPoint({ x: -hw, y:  hh }, m)
+        ];
+        var xs = corners.map(function (c) { return c.x; });
+        var ys = corners.map(function (c) { return c.y; });
+        var minX = Math.min.apply(null, xs), maxX = Math.max.apply(null, xs);
+        var minY = Math.min.apply(null, ys), maxY = Math.max.apply(null, ys);
+        return { x: (minX + maxX) / 2, y: (minY + maxY) / 2, w: maxX - minX, h: maxY - minY };
+    }
+
+    // Top-left corner AABB (for use cases where center/wh is awkward).
+    function _worldTLRect(rect) {
+        var b = _worldRectBounds(rect);
+        return { x: b.x - b.w / 2, y: b.y - b.h / 2, w: b.w, h: b.h };
+    }
+
+    function _findGridGroup(canvas) {
+        var objs = canvas.getObjects();
+        for (var i = 0; i < objs.length; i++) {
+            if (objs[i] && objs[i].isWordsearchGrid === true) return objs[i];
+        }
+        return null;
+    }
+
+    async function extractDeckBundle(canvas) {
+        var data = canvas.problemsData;
+        if (!data || !data.grid || !data.placedWordsInfo) {
+            throw new Error('No puzzle data on canvas. Regenerate and try again.');
+        }
+        var gridGroup = _findGridGroup(canvas);
+        if (!gridGroup) {
+            throw new Error('Grid group not found on worksheet canvas.');
+        }
+        // The grid group's first child is the white background rect sized
+        // (totalGridWidth × totalGridHeight) in group-local coords. Its
+        // world AABB gives the grid's exact on-page bbox.
+        var bgRect = gridGroup._objects && gridGroup._objects[0];
+        if (!bgRect) throw new Error('Grid background rect missing.');
+        var gridRect = _worldTLRect(bgRect);
+
+        // Filter to words the worksheet actually shows. The operator's
+        // generateGridData() strips non-letters before placing (so
+        // "Orange Juice" → "ORANGEJUICE"), but createPuzzleObjects() only
+        // renders a word-list entry when the *original* wordsConfig entry
+        // uppercases to match a placed word exactly. That mismatch leaves
+        // stray placedWordsInfo entries that never appear on the page — if
+        // we include them as interactive slots, the student can never
+        // complete the set. Mirror the operator's filter here so the
+        // interactive word list matches the baked worksheet 1:1.
+        var wordsConfig = (data.settings && data.settings.wordsConfig) || [];
+        var visibleSet = {};
+        wordsConfig.forEach(function (wc) {
+            if (wc && wc.word) visibleSet[String(wc.word).toUpperCase()] = true;
+        });
+        var words = data.placedWordsInfo
+            .filter(function (p) {
+                return visibleSet[String(p.word || '').toUpperCase()] === true;
+            })
+            .map(function (p) {
+                return {
+                    word: String(p.word || '').toUpperCase(),
+                    r: p.r,
+                    c: p.c,
+                    dr: p.dr,
+                    dc: p.dc,
+                    len: String(p.word || '').length
+                };
+            });
+
+        var worksheetImage = await _captureWorksheetImage(canvas);
+
+        var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
+            ? LCSAttribution.getRectFromCanvas(canvas) : null;
+
+        return {
+            bundleVersion: '15.0.0',
+            appType: 'wordsearch',
+            createdAt: new Date().toISOString(),
+            contentLanguage: (window.currentLocale || 'en'),
+            title: 'Word Search',
+            page: {
+                width: currentCanvasConfig.width,
+                height: currentCanvasConfig.height
+            },
+            grid: data.grid,
+            rows: gridGroup.wsRows || data.settings.rows,
+            cols: gridGroup.wsCols || data.settings.cols,
+            gridRect: gridRect,
+            words: words,
+            worksheetImage: worksheetImage,
+            attribution: attributionRect ? {
+                text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
+                url: (window.LCSAttribution && LCSAttribution.URL) || 'https://lessoncraftstudio.com',
+                rect: attributionRect
+            } : null
+        };
+    }
+
+    var INTERACTIVE_CSS_LINES = [
+        '*{box-sizing:border-box}',
+        'html,body{margin:0;padding:0}',
+        'body{font-family:"Fredoka",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#FEFAF3;color:#1C1C1E;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;min-height:100vh;touch-action:manipulation}',
+        '#lcs-app{max-width:1100px;margin:0 auto;padding:0 12px;padding-bottom:120px}',
+        '.lcs-bar{position:sticky;top:0;z-index:10;background:rgba(254,250,243,.94);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding:12px 4px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}',
+        '.lcs-title{font-size:clamp(18px,2.6vw,24px);font-weight:600;color:#1C1C1E;margin:0;flex:1 1 auto;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}',
+        '.lcs-progress-counter{font-size:16px;font-weight:700;color:#4E5FE8;padding:6px 12px;background:#FFF;border-radius:999px;border:2px solid #DCE1E6}',
+        '.lcs-mute{width:40px;height:40px;border-radius:10px;border:2px solid #DCE1E6;background:#FFF;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;color:#545458;flex-shrink:0}',
+        '.lcs-mute:hover{background:#FEFAF3}',
+        '.lcs-mute:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+        '.lcs-mute svg{width:20px;height:20px;pointer-events:none}',
+        '.lcs-mute[data-muted="1"]{background:#FFF8E6;border-color:#FFC857;color:#8A6D00}',
+        '.lcs-worksheet-wrap{display:flex;justify-content:center;padding-top:8px}',
+        '.lcs-worksheet{position:relative;display:block;width:100%;max-width:960px;background:#FFF;border-radius:10px;box-shadow:0 4px 18px rgba(28,28,30,.08);overflow:visible;touch-action:none}',
+        '.lcs-worksheet__img{display:block;width:100%;height:auto;user-select:none;-webkit-user-drag:none;pointer-events:none;border-radius:10px}',
+        '.lcs-grid-overlay{position:absolute;pointer-events:auto;touch-action:none;-webkit-user-select:none;user-select:none}',
+        '.lcs-cell{position:absolute;cursor:pointer;background:transparent;transition:background .12s}',
+        '.lcs-cell--hover{background:rgba(78,95,232,.18)}',
+        '.lcs-cell--selecting{background:rgba(255,200,87,.45)}',
+        '.lcs-cell--found{pointer-events:none}',
+        '.lcs-found-layer{position:absolute;inset:0;pointer-events:none}',
+        '.lcs-found-mark{position:absolute;border-radius:999px;opacity:.58;box-shadow:0 0 0 2px rgba(255,255,255,.65) inset}',
+        '.lcs-attrib-link{position:absolute;transform:translate(-50%,-50%);pointer-events:auto;cursor:pointer;background:transparent;text-decoration:none;border-radius:4px;outline:none}',
+        '.lcs-attrib-link:focus-visible{outline:2px solid #4E5FE8;outline-offset:2px}',
+        '.lcs-attrib-link:hover{background:rgba(78,95,232,.08)}',
+        '.lcs-footer{position:sticky;bottom:0;z-index:10;margin-top:24px;background:rgba(254,250,243,.95);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-top:1px solid #DCE1E6;padding:16px 12px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap}',
+        '.lcs-btn{font-family:inherit;font-weight:700;font-size:17px;padding:14px 28px;border-radius:12px;border:none;cursor:pointer;min-height:52px;min-width:160px;transition:background-color .2s,transform .1s,box-shadow .2s,opacity .2s}',
+        '.lcs-btn:active:not([disabled]){transform:scale(.97)}',
+        '.lcs-btn:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+        '.lcs-btn[disabled]{opacity:.45;cursor:not-allowed}',
+        '.lcs-btn--ghost{background:#FFF;color:#1C1C1E;border:2px solid #DCE1E6}',
+        '.lcs-btn--ghost:hover{background:#FEFAF3;border-color:#4E5FE8}',
+        '.lcs-summary{font-size:16px;font-weight:600;color:#545458;align-self:center;padding:0 8px}',
+        '.lcs-summary--all-correct{color:#2E7D32}',
+        '.lcs-celebration{position:fixed;inset:0;background:rgba(28,28,30,.5);display:none;align-items:center;justify-content:center;z-index:10000;padding:16px}',
+        '.lcs-celebration--shown{display:flex}',
+        '.lcs-celebration__inner{position:relative;background:#FFFFFF;border-radius:24px;padding:32px 28px 24px;max-width:520px;width:100%;box-shadow:0 20px 60px rgba(28,28,30,.35);text-align:center;z-index:2}',
+        '.lcs-celebration__title{font-size:clamp(36px,7vw,56px);margin:0 0 4px;color:#4E5FE8;font-weight:700}',
+        '.lcs-stars{font-size:clamp(40px,7vw,52px);letter-spacing:10px;margin:12px 0;line-height:1}',
+        '.lcs-star{color:#DCE1E6}',
+        '.lcs-star--filled{color:#FFC857;filter:drop-shadow(0 2px 4px rgba(255,200,87,.35))}',
+        '.lcs-celebration__sub{color:#545458;font-size:16px;margin:0 0 20px}',
+        '.lcs-mini{display:block;max-width:100%;max-height:200px;margin:0 auto 20px;border-radius:8px;border:1px solid #DCE1E6}',
+        '.lcs-celebration__cta{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}',
+        '.lcs-confetti{position:absolute;inset:0;pointer-events:none;overflow:hidden;border-radius:24px}',
+        '.lcs-confetti__piece{position:absolute;width:8px;height:14px;top:-20px;animation:lcs-fall linear forwards;border-radius:2px}',
+        '@keyframes lcs-fall{to{transform:translateY(620px) rotate(540deg);opacity:0}}',
+        '.lcs-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}',
+        '@media (prefers-reduced-motion:reduce){',
+        '  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.15s !important}',
+        '  .lcs-confetti{display:none}',
+        '}',
+        '@media print{',
+        '  body{background:#FFF}',
+        '  .lcs-bar,.lcs-footer,.lcs-celebration,.lcs-attrib-link{display:none !important}',
+        '  .lcs-worksheet{box-shadow:none;border:none}',
+        '}'
+    ];
+
+    var INTERACTIVE_RUNTIME_LINES = [
+        '(function(){',
+        '  "use strict";',
+        '  var STRINGS = {',
+        '    en:{title:"Word Search",tryAgain:"Try Again",youDidIt:"You did it!",doAnother:"Do Another",printMyWorksheet:"Print my worksheet",mute:"Mute sounds",unmute:"Turn sounds on",wordsFound:"Words: {n} / {total}",allCorrect:"All found!",correct:"correct"}',
+        '  };',
+        '  function T(key){var loc=(DECK_BUNDLE.contentLanguage||"en").slice(0,2);var t=STRINGS[loc]||STRINGS.en;return t[key]||STRINGS.en[key]||key}',
+        '',
+        '  // Pastel highlight palette for found words (cycled).',
+        '  var PALETTE=["#FFD66B","#FF9EB5","#7FD8BE","#9FC9FF","#D1B8FF","#FFB08A","#B8E986","#F4A3F4"];',
+        '',
+        '  var words=DECK_BUNDLE.words.map(function(w,i){return{idx:i,word:String(w.word).toUpperCase(),r:w.r,c:w.c,dr:w.dr,dc:w.dc,len:w.len,found:false,color:PALETTE[i%PALETTE.length]}});',
+        '  var ROWS=DECK_BUNDLE.rows;',
+        '  var COLS=DECK_BUNDLE.cols;',
+        '  var GRID=DECK_BUNDLE.grid;',
+        '',
+        '  var muted=false;try{muted=localStorage.getItem("lcsMuted")==="1"}catch(e){}',
+        '  var reducedMotion=false;try{reducedMotion=window.matchMedia("(prefers-reduced-motion: reduce)").matches}catch(e){}',
+        '  var audioCtx=null;',
+        '  var celebrationShown=false;',
+        '  var titleEl,counterEl,overlayEl,foundLayerEl,muteBtn,celebrationEl,liveEl,imgEl,worksheetEl,resetBtn,summaryEl;',
+        '  var activeDrag=null;',
+        '  var cellEls=[];',
+        '',
+        '  function init(){',
+        '    titleEl=document.getElementById("lcs-title");',
+        '    counterEl=document.getElementById("lcs-counter");',
+        '    muteBtn=document.getElementById("lcs-mute");',
+        '    celebrationEl=document.getElementById("lcs-celebration");',
+        '    liveEl=document.getElementById("lcs-live");',
+        '    imgEl=document.getElementById("lcs-worksheet-img");',
+        '    worksheetEl=document.getElementById("lcs-worksheet");',
+        '    resetBtn=document.getElementById("lcs-reset");',
+        '    summaryEl=document.getElementById("lcs-summary");',
+        '    if(titleEl) titleEl.textContent=DECK_BUNDLE.title||T("title");',
+        '    if(imgEl&&imgEl.complete&&imgEl.naturalHeight>0){renderGrid();}',
+        '    else if(imgEl){imgEl.addEventListener("load",renderGrid);imgEl.addEventListener("error",function(){console.error("[LCS] Worksheet image failed to load")});}',
+        '    updateCounter();',
+        '    wireMute();',
+        '    updateMuteButton();',
+        '    if(resetBtn)resetBtn.addEventListener("click",resetAll);',
+        '    window.addEventListener("resize",function(){positionOverlay();positionFoundMarks()});',
+        '  }',
+        '',
+        '  function renderGrid(){',
+        '    // Build the transparent cell overlay. Absolute-positioned inside',
+        '    // worksheetEl (which is position:relative); the grid\'s bbox is',
+        '    // stored in DECK_BUNDLE.gridRect as page-pt coords so percentages',
+        '    // against the bundle page size place it correctly on the img.',
+        '    var existing=document.getElementById("lcs-grid-overlay");',
+        '    if(existing)existing.remove();',
+        '    var existingFound=document.getElementById("lcs-found-layer");',
+        '    if(existingFound)existingFound.remove();',
+        '',
+        '    var overlay=document.createElement("div");',
+        '    overlay.id="lcs-grid-overlay";',
+        '    overlay.className="lcs-grid-overlay";',
+        '    positionOverlayEl(overlay);',
+        '    worksheetEl.appendChild(overlay);',
+        '    overlayEl=overlay;',
+        '',
+        '    var foundLayer=document.createElement("div");',
+        '    foundLayer.id="lcs-found-layer";',
+        '    foundLayer.className="lcs-found-layer";',
+        '    overlay.appendChild(foundLayer);',
+        '    foundLayerEl=foundLayer;',
+        '',
+        '    cellEls=[];',
+        '    var cellW=100/COLS, cellH=100/ROWS;',
+        '    for(var r=0;r<ROWS;r++){',
+        '      cellEls[r]=[];',
+        '      for(var c=0;c<COLS;c++){',
+        '        var cell=document.createElement("div");',
+        '        cell.className="lcs-cell";',
+        '        cell.style.left=(c*cellW).toFixed(4)+"%";',
+        '        cell.style.top=(r*cellH).toFixed(4)+"%";',
+        '        cell.style.width=cellW.toFixed(4)+"%";',
+        '        cell.style.height=cellH.toFixed(4)+"%";',
+        '        cell.setAttribute("data-r",String(r));',
+        '        cell.setAttribute("data-c",String(c));',
+        '        overlay.appendChild(cell);',
+        '        cellEls[r][c]=cell;',
+        '      }',
+        '    }',
+        '',
+        '    overlay.addEventListener("pointerdown",onPointerDown);',
+        '    overlay.addEventListener("pointermove",onPointerMove);',
+        '    overlay.addEventListener("pointerup",onPointerUp);',
+        '    overlay.addEventListener("pointercancel",onPointerUp);',
+        '    overlay.addEventListener("pointerleave",onPointerUp);',
+        '',
+        '    if(DECK_BUNDLE.attribution&&DECK_BUNDLE.attribution.rect){',
+        '      var ar=DECK_BUNDLE.attribution.rect;',
+        '      var pw=DECK_BUNDLE.page.width;',
+        '      var ph=DECK_BUNDLE.page.height;',
+        '      var axPct=(ar.x/pw)*100;var ayPct=(ar.y/ph)*100;',
+        '      var awPct=(ar.w/pw)*100;var ahPct=(ar.h/ph)*100;',
+        '      var existingLink=document.getElementById("lcs-attrib-link");',
+        '      if(existingLink)existingLink.remove();',
+        '      var link=document.createElement("a");',
+        '      link.id="lcs-attrib-link";',
+        '      link.className="lcs-attrib-link";',
+        '      link.href=DECK_BUNDLE.attribution.url||"https://lessoncraftstudio.com";',
+        '      link.target="_blank";link.rel="noopener";',
+        '      link.setAttribute("aria-label",DECK_BUNDLE.attribution.text||"Made with LessonCraftStudio.com");',
+        '      link.style.left=axPct+"%";link.style.top=ayPct+"%";',
+        '      link.style.width=awPct.toFixed(2)+"%";link.style.height=ahPct.toFixed(2)+"%";',
+        '      worksheetEl.appendChild(link);',
+        '    }',
+        '',
+        '    // Restore any finds that were already recorded (e.g. if renderGrid',
+        '    // is re-called on reset — currently not used, but keeps the fn',
+        '    // idempotent so future orientation/resize handlers can rebuild).',
+        '    words.forEach(function(w){if(w.found)drawFoundMark(w)});',
+        '  }',
+        '',
+        '  function positionOverlayEl(overlay){',
+        '    var pw=DECK_BUNDLE.page.width;',
+        '    var ph=DECK_BUNDLE.page.height;',
+        '    var gr=DECK_BUNDLE.gridRect;',
+        '    overlay.style.left=((gr.x/pw)*100).toFixed(4)+"%";',
+        '    overlay.style.top=((gr.y/ph)*100).toFixed(4)+"%";',
+        '    overlay.style.width=((gr.w/pw)*100).toFixed(4)+"%";',
+        '    overlay.style.height=((gr.h/ph)*100).toFixed(4)+"%";',
+        '  }',
+        '  function positionOverlay(){if(overlayEl)positionOverlayEl(overlayEl)}',
+        '',
+        '  function cellFromEvent(e){',
+        '    var rect=overlayEl.getBoundingClientRect();',
+        '    var x=e.clientX-rect.left;',
+        '    var y=e.clientY-rect.top;',
+        '    var cw=rect.width/COLS;',
+        '    var ch=rect.height/ROWS;',
+        '    var c=Math.floor(x/cw);',
+        '    var r=Math.floor(y/ch);',
+        '    if(r<0||r>=ROWS||c<0||c>=COLS)return null;',
+        '    return {r:r,c:c};',
+        '  }',
+        '',
+        '  function onPointerDown(e){',
+        '    if(e.button!==undefined&&e.button!==0)return;',
+        '    var cell=cellFromEvent(e);',
+        '    if(!cell)return;',
+        '    e.preventDefault();',
+        '    try{overlayEl.setPointerCapture(e.pointerId)}catch(_e){}',
+        '    activeDrag={pointerId:e.pointerId,start:cell,last:cell,path:[cell]};',
+        '    highlightPath([cell],"selecting");',
+        '  }',
+        '',
+        '  function onPointerMove(e){',
+        '    if(!activeDrag)return;',
+        '    if(e.pointerId!==activeDrag.pointerId)return;',
+        '    var cell=cellFromEvent(e);',
+        '    if(!cell)return;',
+        '    if(cell.r===activeDrag.last.r&&cell.c===activeDrag.last.c&&activeDrag.path.length>1)return;',
+        '    var path=snappedPath(activeDrag.start,cell);',
+        '    activeDrag.last=cell;',
+        '    activeDrag.path=path;',
+        '    clearSelectionHighlights();',
+        '    highlightPath(path,"selecting");',
+        '  }',
+        '',
+        '  function onPointerUp(e){',
+        '    if(!activeDrag)return;',
+        '    if(e.pointerId!==undefined&&e.pointerId!==activeDrag.pointerId)return;',
+        '    try{overlayEl.releasePointerCapture(activeDrag.pointerId)}catch(_e){}',
+        '    var path=activeDrag.path;',
+        '    var start=path[0];',
+        '    var end=path[path.length-1];',
+        '    activeDrag=null;',
+        '    clearSelectionHighlights();',
+        '    var matched=tryMatch(start,end);',
+        '    if(matched){',
+        '      matched.found=true;',
+        '      drawFoundMark(matched);',
+        '      updateCounter();',
+        '      announce(matched.word+" "+T("correct"));',
+        '      playTone(659.25,0.13);',
+        '      if(words.every(function(w){return w.found})){',
+        '        setTimeout(function(){playTone(987.77,0.18)},160);',
+        '        setTimeout(showCelebration,500);',
+        '      }',
+        '    } else {',
+        '      playTone(220,0.08);',
+        '    }',
+        '  }',
+        '',
+        '  // Snap the drag to the nearest of 8 directions (horizontal,',
+        '  // vertical, or diagonal). Length is the max of |dr| and |dc|, so',
+        '  // diagonal snapping is clean (equal steps in both axes).',
+        '  function snappedPath(start,current){',
+        '    var dr=current.r-start.r;',
+        '    var dc=current.c-start.c;',
+        '    if(dr===0&&dc===0)return [start];',
+        '    // Choose direction vector whose angle most closely matches the',
+        '    // drag angle. Using Chebyshev distance then normalizing gives',
+        '    // the right diagonal/cardinal snap.',
+        '    var adr=Math.abs(dr), adc=Math.abs(dc);',
+        '    var ratio=Math.min(adr,adc)/Math.max(adr,adc);',
+        '    // If the smaller axis is >~40% of the larger, snap diagonal.',
+        '    var dirR,dirC,steps;',
+        '    if(ratio>0.4){',
+        '      dirR=dr>0?1:(dr<0?-1:0);',
+        '      dirC=dc>0?1:(dc<0?-1:0);',
+        '      steps=Math.max(adr,adc);',
+        '    } else if(adr>adc){',
+        '      dirR=dr>0?1:-1;dirC=0;steps=adr;',
+        '    } else {',
+        '      dirR=0;dirC=dc>0?1:-1;steps=adc;',
+        '    }',
+        '    var path=[];',
+        '    for(var i=0;i<=steps;i++){',
+        '      var r=start.r+dirR*i;',
+        '      var c=start.c+dirC*i;',
+        '      if(r<0||r>=ROWS||c<0||c>=COLS)break;',
+        '      path.push({r:r,c:c});',
+        '    }',
+        '    return path;',
+        '  }',
+        '',
+        '  function highlightPath(path,mode){',
+        '    var cls="lcs-cell--"+mode;',
+        '    path.forEach(function(p){',
+        '      var el=cellEls[p.r]&&cellEls[p.r][p.c];',
+        '      if(el)el.classList.add(cls);',
+        '    });',
+        '  }',
+        '  function clearSelectionHighlights(){',
+        '    for(var r=0;r<ROWS;r++){',
+        '      for(var c=0;c<COLS;c++){',
+        '        var el=cellEls[r][c];',
+        '        if(el)el.classList.remove("lcs-cell--selecting","lcs-cell--hover");',
+        '      }',
+        '    }',
+        '  }',
+        '',
+        '  // Match the student\'s drag against placed words. Acceptance rule:',
+        '  // the unordered pair {start, end} of the drag equals the unordered',
+        '  // pair {word.start, word.end}. This rejects stray coincidental',
+        '  // letter matches along non-placed paths.',
+        '  function tryMatch(start,end){',
+        '    for(var i=0;i<words.length;i++){',
+        '      var w=words[i];',
+        '      if(w.found)continue;',
+        '      var wStart={r:w.r,c:w.c};',
+        '      var wEnd={r:w.r+w.dr*(w.len-1),c:w.c+w.dc*(w.len-1)};',
+        '      var forwardMatch=(start.r===wStart.r&&start.c===wStart.c&&end.r===wEnd.r&&end.c===wEnd.c);',
+        '      var reverseMatch=(start.r===wEnd.r&&start.c===wEnd.c&&end.r===wStart.r&&end.c===wStart.c);',
+        '      if(forwardMatch||reverseMatch)return w;',
+        '    }',
+        '    return null;',
+        '  }',
+        '',
+        '  function drawFoundMark(w){',
+        '    // Build a rounded "pill" stretched along the word\'s axis. Uses',
+        '    // the first and last cell centers in % units, then sizes the',
+        '    // pill to cover roughly 70% of cellW.',
+        '    var cellWPct=100/COLS, cellHPct=100/ROWS;',
+        '    var r0=w.r, c0=w.c;',
+        '    var r1=w.r+w.dr*(w.len-1), c1=w.c+w.dc*(w.len-1);',
+        '    var x0=(c0+0.5)*cellWPct, y0=(r0+0.5)*cellHPct;',
+        '    var x1=(c1+0.5)*cellWPct, y1=(r1+0.5)*cellHPct;',
+        '    var midX=(x0+x1)/2, midY=(y0+y1)/2;',
+        '    var dxPct=x1-x0, dyPct=y1-y0;',
+        '    // Convert percent-delta to pixels via actual overlay size so',
+        '    // rotation math works in a square coord system.',
+        '    var rect=overlayEl.getBoundingClientRect();',
+        '    var dx=(dxPct/100)*rect.width;',
+        '    var dy=(dyPct/100)*rect.height;',
+        '    var lenPx=Math.sqrt(dx*dx+dy*dy);',
+        '    var cellPx=Math.min(rect.width/COLS,rect.height/ROWS);',
+        '    var pillH=cellPx*0.72;',
+        '    var pillW=lenPx+cellPx*0.82;',
+        '    var angleDeg=Math.atan2(dy,dx)*180/Math.PI;',
+        '    var mark=document.createElement("div");',
+        '    mark.className="lcs-found-mark";',
+        '    mark.setAttribute("data-word-idx",String(w.idx));',
+        '    mark.style.background=w.color;',
+        '    mark.style.left=midX+"%";',
+        '    mark.style.top=midY+"%";',
+        '    mark.style.width=pillW+"px";',
+        '    mark.style.height=pillH+"px";',
+        '    mark.style.transform="translate(-50%,-50%) rotate("+angleDeg.toFixed(2)+"deg)";',
+        '    foundLayerEl.appendChild(mark);',
+        '  }',
+        '  function positionFoundMarks(){',
+        '    // On resize, pill widths (px-based) drift relative to the',
+        '    // rescaled overlay. Redraw them.',
+        '    if(!foundLayerEl)return;',
+        '    foundLayerEl.innerHTML="";',
+        '    words.forEach(function(w){if(w.found)drawFoundMark(w)});',
+        '  }',
+        '',
+        '  function updateCounter(){',
+        '    var found=words.reduce(function(a,w){return a+(w.found?1:0)},0);',
+        '    var total=words.length;',
+        '    if(counterEl)counterEl.textContent=T("wordsFound").replace("{n}",found).replace("{total}",total);',
+        '    if(summaryEl){',
+        '      if(found===total){summaryEl.textContent=T("allCorrect");summaryEl.className="lcs-summary lcs-summary--all-correct"}',
+        '      else{summaryEl.textContent="";summaryEl.className="lcs-summary"}',
+        '    }',
+        '  }',
+        '',
+        '  function resetAll(){',
+        '    celebrationShown=false;',
+        '    words.forEach(function(w){w.found=false});',
+        '    foundLayerEl.innerHTML="";',
+        '    updateCounter();',
+        '    celebrationEl.classList.remove("lcs-celebration--shown");',
+        '  }',
+        '',
+        '  function playTone(freq,dur){',
+        '    if(muted)return;',
+        '    try{',
+        '      if(!audioCtx){var Ctx=window.AudioContext||window.webkitAudioContext;if(!Ctx)return;audioCtx=new Ctx()}',
+        '      if(audioCtx.state==="suspended")audioCtx.resume();',
+        '      var osc=audioCtx.createOscillator();var gain=audioCtx.createGain();',
+        '      osc.type="sine";osc.frequency.value=freq;',
+        '      var now=audioCtx.currentTime;',
+        '      gain.gain.setValueAtTime(0,now);',
+        '      gain.gain.linearRampToValueAtTime(0.14,now+0.012);',
+        '      gain.gain.linearRampToValueAtTime(0,now+dur);',
+        '      osc.connect(gain);gain.connect(audioCtx.destination);',
+        '      osc.start(now);osc.stop(now+dur+0.03);',
+        '    }catch(e){}',
+        '  }',
+        '  function announce(msg){if(liveEl)liveEl.textContent=msg}',
+        '',
+        '  function showCelebration(){',
+        '    if(celebrationShown)return;celebrationShown=true;',
+        '    var total=words.length;',
+        '    var correct=words.reduce(function(acc,w){return acc+(w.found?1:0)},0);',
+        '    var pct=total>0?(correct/total):0;',
+        '    var stars=pct>=0.9?3:pct>=0.6?2:1;',
+        '    var starsHTML="";',
+        '    for(var i=1;i<=3;i++){starsHTML+="<span class=\\"lcs-star"+(i<=stars?" lcs-star--filled":"")+"\\">\\u2605</span>"}',
+        '    celebrationEl.innerHTML=',
+        '      "<div class=\\"lcs-celebration__inner\\">"+',
+        '      "<h1 class=\\"lcs-celebration__title\\">"+T("youDidIt")+"</h1>"+',
+        '      "<div class=\\"lcs-stars\\" aria-label=\\""+stars+" out of 3 stars\\">"+starsHTML+"</div>"+',
+        '      "<p class=\\"lcs-celebration__sub\\">"+correct+" / "+total+" "+T("correct")+"</p>"+',
+        '      "<img class=\\"lcs-mini\\" alt=\\"Your completed worksheet\\" src=\\""+DECK_BUNDLE.worksheetImage+"\\" />"+',
+        '      "<div class=\\"lcs-celebration__cta\\">"+',
+        '        "<button class=\\"lcs-btn lcs-btn--ghost\\" type=\\"button\\" id=\\"lcs-do-another\\">"+T("doAnother")+"</button>"+',
+        '        "<button class=\\"lcs-btn lcs-btn--ghost\\" type=\\"button\\" id=\\"lcs-cel-print\\">"+T("printMyWorksheet")+"</button>"+',
+        '      "</div>"+',
+        '      "</div>"+',
+        '      "<div class=\\"lcs-confetti\\" aria-hidden=\\"true\\"></div>";',
+        '    celebrationEl.classList.add("lcs-celebration--shown");',
+        '    document.getElementById("lcs-do-another").addEventListener("click",function(){location.reload()});',
+        '    document.getElementById("lcs-cel-print").addEventListener("click",function(){window.print()});',
+        '    if(!reducedMotion)spawnConfetti();',
+        '  }',
+        '  function spawnConfetti(){',
+        '    var layer=celebrationEl.querySelector(".lcs-confetti");if(!layer)return;',
+        '    var colors=["#4E5FE8","#4CAF50","#FF8A65","#FFC857","#6AB7FF","#B39DDB"];',
+        '    for(var i=0;i<48;i++){',
+        '      var c=document.createElement("span");c.className="lcs-confetti__piece";',
+        '      c.style.left=(Math.random()*100)+"%";',
+        '      c.style.background=colors[i%colors.length];',
+        '      c.style.animationDelay=(Math.random()*0.5)+"s";',
+        '      c.style.animationDuration=(1.8+Math.random()*1.3)+"s";',
+        '      c.style.transform="rotate("+(Math.random()*360)+"deg)";',
+        '      layer.appendChild(c);',
+        '    }',
+        '  }',
+        '',
+        '  function wireMute(){muteBtn.addEventListener("click",function(){muted=!muted;try{localStorage.setItem("lcsMuted",muted?"1":"0")}catch(e){}updateMuteButton()})}',
+        '  function updateMuteButton(){',
+        '    muteBtn.setAttribute("aria-label",muted?T("unmute"):T("mute"));',
+        '    muteBtn.setAttribute("data-muted",muted?"1":"0");',
+        '    muteBtn.innerHTML=muted',
+        '      ? "<svg viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\"><path d=\\"M11 5L6 9H2v6h4l5 4V5z\\"/><line x1=\\"23\\" y1=\\"9\\" x2=\\"17\\" y2=\\"15\\"/><line x1=\\"17\\" y1=\\"9\\" x2=\\"23\\" y2=\\"15\\"/></svg>"',
+        '      : "<svg viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\"><path d=\\"M11 5L6 9H2v6h4l5 4V5z\\"/><path d=\\"M15.54 8.46a5 5 0 0 1 0 7.07\\"/><path d=\\"M19.07 4.93a10 10 0 0 1 0 14.14\\"/></svg>";',
+        '  }',
+        '',
+        '  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);',
+        '  else init();',
+        '})();'
+    ];
+
+    function renderStandaloneHTML(bundle) {
+        var css = INTERACTIVE_CSS_LINES.join('\n');
+        var runtime = INTERACTIVE_RUNTIME_LINES.join('\n');
+        var bundleJSON = JSON.stringify(bundle);
+        var lang = (bundle.contentLanguage || 'en').slice(0, 2);
+        var title = (bundle.title || 'Word Search');
+        var parts = [];
+        parts.push('<!DOCTYPE html>');
+        parts.push('<html lang="' + lang + '">');
+        parts.push('<head>');
+        parts.push('<meta charset="UTF-8">');
+        parts.push('<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">');
+        parts.push('<meta name="theme-color" content="#FEFAF3">');
+        parts.push('<title>' + title + '</title>');
+        parts.push('<link rel="preconnect" href="https://fonts.googleapis.com">');
+        parts.push('<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>');
+        parts.push('<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">');
+        parts.push('<style>' + css + '</style>');
+        parts.push('</head>');
+        parts.push('<body>');
+        parts.push('<main id="lcs-app">');
+        parts.push('  <div class="lcs-bar">');
+        parts.push('    <h1 class="lcs-title" id="lcs-title">' + title + '</h1>');
+        parts.push('    <span class="lcs-progress-counter" id="lcs-counter">0 / 0</span>');
+        parts.push('    <button type="button" id="lcs-mute" class="lcs-mute" aria-label="Mute sounds"></button>');
+        parts.push('  </div>');
+        parts.push('  <div class="lcs-worksheet-wrap">');
+        parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');
+        parts.push('      <img class="lcs-worksheet__img" id="lcs-worksheet-img" alt="" src="' + bundle.worksheetImage + '">');
+        parts.push('    </div>');
+        parts.push('  </div>');
+        parts.push('</main>');
+        parts.push('<footer class="lcs-footer">');
+        parts.push('  <button type="button" id="lcs-reset" class="lcs-btn lcs-btn--ghost">Try Again</button>');
+        parts.push('  <span id="lcs-summary" class="lcs-summary" aria-live="polite"></span>');
+        parts.push('</footer>');
+        parts.push('<div class="lcs-celebration" id="lcs-celebration" role="dialog" aria-modal="true" aria-label="You did it!"></div>');
+        parts.push('<div class="lcs-sr" id="lcs-live" role="status" aria-live="polite"></div>');
+        parts.push('<script>var DECK_BUNDLE = ' + bundleJSON + ';<\/script>');
+        parts.push('<script>' + runtime + '<\/script>');
+        parts.push('</body>');
+        parts.push('</html>');
+        return parts.join('\n');
+    }
+
+    async function downloadInteractiveHtml(canvasInstance, fileName) {
+        if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
+            showMessage(t('pleaseGenerateContentFirst') || 'Please generate a worksheet first.', 'error');
+            return;
+        }
+        showMessage('Preparing ' + fileName + '...', 'info', 0);
+        try {
+            var bundle = await extractDeckBundle(canvasInstance);
+            if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
+                throw new Error('Worksheet snapshot is empty.');
+            }
+            if (!bundle.words || bundle.words.length === 0) {
+                throw new Error('No placed words detected. Regenerate the worksheet and try again.');
+            }
+            var html = renderStandaloneHTML(bundle);
+
+            var blob = new Blob([html], { type: 'text/html;charset=utf-8' });
+            var url = URL.createObjectURL(blob);
+            var a = document.createElement('a');
+            a.href = url;
+            a.download = fileName;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+
+            showMessage('Interactive worksheet downloaded.', 'success');
+        } catch (e) {
+            console.error('[Interactive Export v15] Failed:', e);
+            showMessage('Interactive export failed: ' + e.message, 'error');
+        }
+    }
+    // END: Interactive-HTML export v15
+
     // --- Context Toolbar Handlers ---
     let activePopover = null;
 

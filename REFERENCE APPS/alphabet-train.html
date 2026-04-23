@@ -3241,6 +3241,12 @@
             }
             const remainingLettersForCutouts = selectedLetters.filter(letter => !clues.includes(letter)).sort(() => 0.5 - Math.random());
 
+            // Per-wagon fine-tune in canvas-pt units, applied after
+            // S_SCALE. Indices 0..4 are the top row (5 wagons); 5..10 are
+            // the bottom row (6 wagons). Operator-requested trim so every
+            // picture lands exactly inside its template's wagon body.
+            const PER_WAGON_LEFT_PX = [-10, -10, 0, 0, 0, -15, -15, -15, 0, 0, 0];
+
             const masterElements = [trainBgImg];
             for (let idx = 0; idx < selectedLetters.length; idx++) {
                 if (idx >= BASE_WAGON_POSITIONS.length) break;
@@ -3259,6 +3265,8 @@
                     finalTop -= 15;  // 15px up
                     finalLeft -= 10;  // 10px left
                 }
+
+                finalLeft += (PER_WAGON_LEFT_PX[idx] || 0);
 
                 if (clues.includes(letter) && letterToImage[letter]) {
                     const clueFabImg = await loadImage(letterToImage[letter].path);

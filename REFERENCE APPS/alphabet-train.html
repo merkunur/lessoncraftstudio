@@ -3281,7 +3281,9 @@
                         cornerColor: 'var(--app-accent-primary)',
                         cornerSize: 8,
                         transparentCorners: false,
-                        cornerStyle: 'circle'
+                        cornerStyle: 'circle',
+                        isClueWagonImage: true,
+                        wagonLetter: letter
                     });
                     masterElements.push(clueFabImg);
                 } else {
@@ -3378,7 +3380,7 @@
                 cutoutElements.push(cutFabImg);
             }
             if (cutoutElements.length > 0) {
-                const cutOutsBlockGroup = new fabric.Group(cutoutElements, { selectable: true, hasControls: true, hasBorders: true, borderColor: 'var(--app-accent-secondary)', cornerColor: 'var(--app-accent-secondary)', isTrainGeneratedItem: true, originalIndex: 1 });
+                const cutOutsBlockGroup = new fabric.Group(cutoutElements, { selectable: true, hasControls: true, hasBorders: true, borderColor: 'var(--app-accent-secondary)', cornerColor: 'var(--app-accent-secondary)', isTrainGeneratedItem: true, originalIndex: 1, isCutoutPalette: true });
                 if (shouldPreserveTransforms && oldTransforms[1]) cutOutsBlockGroup.set(oldTransforms[1]);
                 newGeneratedObjects.push(cutOutsBlockGroup);
             }
@@ -3994,8 +3996,11 @@ async function downloadPDF(canvasToExport, fileName) {
         (function walk(objs) {
             if (!objs) return;
             objs.forEach(function (o) {
-                if (o && o.isTrainGeneratedItem === true &&
-                    o.originalIndex === 1 && o.visible !== false) {
+                // Hide the cutout palette group specifically. Using a
+                // dedicated flag (not originalIndex===1) — the first wagon
+                // image shares originalIndex=1, which used to cause the
+                // first clue wagon to go missing from the JPEG backdrop.
+                if (o && o.isCutoutPalette === true && o.visible !== false) {
                     o.visible = false;
                     hidden.push(o);
                 }
@@ -4039,20 +4044,23 @@ async function downloadPDF(canvasToExport, fileName) {
         return { x: (minX + maxX) / 2, y: (minY + maxY) / 2, w: maxX - minX, h: maxY - minY };
     }
 
-    // Collect every empty-wagon marker and every cutout image, even when
-    // cutouts are nested inside the cutout palette group.
+    // Collect every empty-wagon marker, every cutout image (draggable),
+    // and every clue-wagon image (on the train JPEG) so the play page can
+    // render letter badges for ALL letters after Check Answers.
     function _collectTaggedItems(canvas) {
         var wagons = [];
         var cutouts = [];
+        var clues = [];
         (function walk(objs) {
             if (!objs) return;
             objs.forEach(function (o) {
                 if (o && o.isEmptyWagon === true) wagons.push(o);
                 if (o && o.isAlphabetCutout === true) cutouts.push(o);
+                if (o && o.isClueWagonImage === true) clues.push(o);
                 if (o && o._objects) walk(o._objects);
             });
         })(canvas.getObjects());
-        return { wagons: wagons, cutouts: cutouts };
+        return { wagons: wagons, cutouts: cutouts, clues: clues };
     }
 
     // Convert a loaded fabric.Image's underlying HTMLImageElement to a
@@ -4101,6 +4109,17 @@ async function downloadPDF(canvasToExport, fileName) {
             };
         }).filter(function (p) { return p.imgDataUrl && p.number; });
 
+        // Clue badges — one per pre-filled clue image. Rendered as hidden
+        // letter circles on top of each clue wagon; revealed after Check
+        // Answers so the student sees every letter on the finished train.
+        var clueBadges = found.clues.map(function (c) {
+            var b = _worldRectBounds(c);
+            return {
+                letter: String(c.wagonLetter || ''),
+                rect: { x: b.x, y: b.y, w: b.w, h: b.h }
+            };
+        }).filter(function (b) { return b.letter; });
+
         var worksheetImage = await _captureWorksheetImage(canvas);
 
         return {
@@ -4115,14 +4134,15 @@ async function downloadPDF(canvasToExport, fileName) {
             },
             worksheetImage: worksheetImage,
             grid: { rows: 1, cols: cells.length, cells: cells },
-            pieces: pieces
+            pieces: pieces,
+            clueBadges: clueBadges
         };
     }
 
     var INTERACTIVE_CSS_LINES = [
         '*{box-sizing:border-box}',
         'html,body{margin:0;padding:0}',
-        'body{font-family:"Fredoka",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#FEFAF3;color:#1C1C1E;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;min-height:100vh}',
+        'body{font-family:"Fredoka",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#FEFAF3;color:#1C1C1E;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;min-height:100vh;-webkit-print-color-adjust:exact;print-color-adjust:exact}',
         '#lcs-app{max-width:980px;margin:0 auto;padding:0 12px;padding-bottom:120px}',
         '.lcs-bar{position:sticky;top:0;z-index:10;background:rgba(254,250,243,.94);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding:12px 4px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}',
         '.lcs-title{font-size:clamp(18px,2.6vw,24px);font-weight:600;color:#1C1C1E;margin:0;flex:1 1 auto;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}',
@@ -4152,7 +4172,10 @@ async function downloadPDF(canvasToExport, fileName) {
         '.lcs-piece--dragging{z-index:999;cursor:grabbing;box-shadow:0 10px 24px rgba(0,0,0,.28);transition:none}',
         '.lcs-piece--correct{border-color:#4CAF50;cursor:default}',
         '.lcs-piece--wrong{border-color:#E53935;cursor:default}',
-        '.lcs-piece__num{position:absolute;top:-8px;right:-8px;min-width:22px;height:22px;padding:0 6px;background:#FFC857;color:#1C1C1E;border-radius:11px;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 4px rgba(0,0,0,.22);pointer-events:none}',
+        '.lcs-piece__num{position:absolute;top:-10px;right:-10px;min-width:24px;height:24px;padding:0 7px;background:#FFC857;color:#1C1C1E;border-radius:12px;font-size:13px;font-weight:700;display:none;align-items:center;justify-content:center;box-shadow:0 1px 4px rgba(0,0,0,.22);pointer-events:none}',
+        '.lcs-clue-badge{position:absolute;transform:translate(-50%,-50%);width:clamp(22px,3vw,28px);height:clamp(22px,3vw,28px);background:#FFC857;color:#1C1C1E;border-radius:50%;font-size:clamp(12px,1.8vw,15px);font-weight:700;display:none;align-items:center;justify-content:center;box-shadow:0 1px 4px rgba(0,0,0,.22);pointer-events:none;z-index:5}',
+        '.lcs-overlay--reviewed .lcs-piece__num{display:flex}',
+        '.lcs-overlay--reviewed .lcs-clue-badge{display:flex}',
         '.lcs-footer{position:sticky;bottom:0;z-index:10;margin-top:24px;background:rgba(254,250,243,.95);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-top:1px solid #DCE1E6;padding:16px 12px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap}',
         '.lcs-btn{font-family:inherit;font-weight:700;font-size:17px;padding:14px 28px;border-radius:12px;border:none;cursor:pointer;min-height:52px;min-width:160px;transition:background-color .2s,transform .1s,box-shadow .2s,opacity .2s}',
         '.lcs-btn:active:not([disabled]){transform:scale(.97)}',
@@ -4186,10 +4209,10 @@ async function downloadPDF(canvasToExport, fileName) {
         '  .lcs-confetti{display:none}',
         '}',
         '@media print{',
-        '  body{background:#FFF}',
-        '  .lcs-bar,.lcs-footer,.lcs-celebration,.lcs-attrib,.lcs-piece__num{display:none !important}',
+        '  body{background:#FFF;-webkit-print-color-adjust:exact;print-color-adjust:exact}',
+        '  .lcs-bar,.lcs-footer,.lcs-celebration,.lcs-attrib,.lcs-piece__num,.lcs-clue-badge{display:none !important}',
         '  .lcs-worksheet{box-shadow:none;border:none}',
-        '  .lcs-piece{box-shadow:none;border:1px solid #000}',
+        '  .lcs-piece{box-shadow:none;border:1px solid #DCE1E6;-webkit-print-color-adjust:exact;print-color-adjust:exact}',
         '  .lcs-cell{border-color:transparent !important;background:transparent !important}',
         '}'
     ];
@@ -4258,6 +4281,7 @@ async function downloadPDF(canvasToExport, fileName) {
         '',
         '  function renderWorksheet(){',
         '    overlayEl.innerHTML="";',
+        '    overlayEl.classList.remove("lcs-overlay--reviewed");',
         '    cells.forEach(function(c,i){',
         '      var el=document.createElement("div");',
         '      el.className="lcs-cell";',
@@ -4266,6 +4290,17 @@ async function downloadPDF(canvasToExport, fileName) {
         '      el.style.top=((c.rect.y/ph)*100).toFixed(3)+"%";',
         '      el.style.width=((c.rect.w/pw)*100).toFixed(3)+"%";',
         '      el.style.height=((c.rect.h/ph)*100).toFixed(3)+"%";',
+        '      overlayEl.appendChild(el);',
+        '    });',
+        '    // Clue-letter badges (hidden until Check is clicked).',
+        '    var clueBadges=DECK_BUNDLE.clueBadges||[];',
+        '    clueBadges.forEach(function(cb){',
+        '      var el=document.createElement("div");',
+        '      el.className="lcs-clue-badge";',
+        '      el.textContent=cb.letter;',
+        '      el.style.left=((cb.rect.x/pw)*100).toFixed(3)+"%";',
+        '      // Anchor badge near the top-right of the wagon image.',
+        '      el.style.top=(((cb.rect.y - cb.rect.h * 0.35)/ph)*100).toFixed(3)+"%";',
         '      overlayEl.appendChild(el);',
         '    });',
         '    pieces.forEach(function(p,i){',
@@ -4286,11 +4321,17 @@ async function downloadPDF(canvasToExport, fileName) {
         '    });',
         '  }',
         '',
-        '  function placePieceAtRect(el,rect){',
-        '    el.style.left=((rect.x/pw)*100).toFixed(3)+"%";',
-        '    el.style.top=((rect.y/ph)*100).toFixed(3)+"%";',
-        '    el.style.width=((rect.w/pw)*100).toFixed(3)+"%";',
-        '    el.style.height=((rect.h/ph)*100).toFixed(3)+"%";',
+        '  // xy supplies the center position; size supplies w/h. When size is',
+        '  // omitted, the piece retains its own dimensions (xy itself may',
+        '  // supply both). Separating the two lets a dropped piece snap to a',
+        '  // wagon\'s center while keeping the original cutout size, which',
+        '  // otherwise would stretch to fill the larger wagon box.',
+        '  function placePieceAtRect(el,xy,size){',
+        '    var sz=size||xy;',
+        '    el.style.left=((xy.x/pw)*100).toFixed(3)+"%";',
+        '    el.style.top=((xy.y/ph)*100).toFixed(3)+"%";',
+        '    el.style.width=((sz.w/pw)*100).toFixed(3)+"%";',
+        '    el.style.height=((sz.h/ph)*100).toFixed(3)+"%";',
         '  }',
         '',
         '  function pieceEl(i){return overlayEl.querySelector(\'.lcs-piece[data-piece="\'+i+\'"]\')}',
@@ -4388,12 +4429,16 @@ async function downloadPDF(canvasToExport, fileName) {
         '        placePieceInCell(pieceIdx,targetCell);',
         '      } else {',
         '        var myOld=pieces[pieceIdx].placedInCell;',
+        '        var occInit=pieces[occupant].initialRect;',
         '        if(typeof myOld==="number"){',
         '          pieces[occupant].placedInCell=myOld;',
-        '          placePieceAtRect(pieceEl(occupant),cells[myOld].rect);',
+        '          // Keep the displaced piece\'s original size even when it',
+        '          // lands in a larger wagon (alphabet-train wagons are',
+        '          // wider than the picture cutouts).',
+        '          placePieceAtRect(pieceEl(occupant),{x:cells[myOld].rect.x,y:cells[myOld].rect.y,w:occInit.w,h:occInit.h});',
         '        } else {',
         '          pieces[occupant].placedInCell=null;',
-        '          placePieceAtRect(pieceEl(occupant),pieces[occupant].initialRect);',
+        '          placePieceAtRect(pieceEl(occupant),occInit);',
         '        }',
         '        placePieceInCell(pieceIdx,targetCell);',
         '        playTone(420,0.05);',
@@ -4406,7 +4451,11 @@ async function downloadPDF(canvasToExport, fileName) {
         '',
         '  function placePieceInCell(pieceIdx,cellIdx){',
         '    pieces[pieceIdx].placedInCell=cellIdx;',
-        '    placePieceAtRect(pieceEl(pieceIdx),cells[cellIdx].rect);',
+        '    var p=pieces[pieceIdx];',
+        '    var c=cells[cellIdx].rect;',
+        '    // Center on the wagon but keep the piece\'s own dimensions so',
+        '    // a ~70%-of-wagon-size cutout doesn\'t stretch to fill the box.',
+        '    placePieceAtRect(pieceEl(pieceIdx),{x:c.x,y:c.y,w:p.initialRect.w,h:p.initialRect.h});',
         '    playTone(560,0.05);',
         '  }',
         '  function sendPieceHome(pieceIdx){',
@@ -4416,7 +4465,8 @@ async function downloadPDF(canvasToExport, fileName) {
         '  function returnPieceToCurrent(pieceIdx){',
         '    var p=pieces[pieceIdx];',
         '    if(typeof p.placedInCell==="number"){',
-        '      placePieceAtRect(pieceEl(pieceIdx),cells[p.placedInCell].rect);',
+        '      var c=cells[p.placedInCell].rect;',
+        '      placePieceAtRect(pieceEl(pieceIdx),{x:c.x,y:c.y,w:p.initialRect.w,h:p.initialRect.h});',
         '    } else {',
         '      placePieceAtRect(pieceEl(pieceIdx),p.initialRect);',
         '    }',
@@ -4443,6 +4493,7 @@ async function downloadPDF(canvasToExport, fileName) {
         '  function checkAll(){',
         '    if(phase!=="fill")return;',
         '    phase="reviewed";',
+        '    overlayEl.classList.add("lcs-overlay--reviewed");',
         '    var correct=0;',
         '    cells.forEach(function(c,i){',
         '      var occ=findPieceInCell(i);',
@@ -4487,6 +4538,7 @@ async function downloadPDF(canvasToExport, fileName) {
         '  function resetAll(){',
         '    phase="fill";',
         '    celebrationShown=false;',
+        '    overlayEl.classList.remove("lcs-overlay--reviewed");',
         '    pieces.forEach(function(p,i){',
         '      p.placedInCell=null;',
         '      p.status="empty";',

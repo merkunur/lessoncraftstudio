@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
+    <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1114,6 +1115,8 @@
                             <button id="downloadWorksheetPdfBtn" disabled data-translate="worksheetPdf">Worksheet (PDF)</button>
                             <button id="downloadAnswerKeyPdfBtn" disabled data-translate="answerKeyPdf">Answer Key (PDF)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveHtml">Interactive Worksheet (HTML)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
                             <label class="checkbox-label" id="grayscaleLabel">
                                 <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
                             </label>
@@ -1227,6 +1230,7 @@
             downloadAnswerKeyJpegBtn: document.getElementById("downloadAnswerKeyJpegBtn"),
             downloadWorksheetPdfBtn: document.getElementById("downloadWorksheetPdfBtn"),
             downloadAnswerKeyPdfBtn: document.getElementById("downloadAnswerKeyPdfBtn"),
+            downloadInteractiveHtmlBtn: document.getElementById("downloadInteractiveHtmlBtn"),
             
             grayscaleToggle: document.getElementById('grayscaleToggle'),
             clearBtn: document.getElementById("clearBtn"),
@@ -1532,6 +1536,7 @@
             ui.downloadAnswerKeyJpegBtn.addEventListener("click", () => downloadImageFile(answerKeyCanvas, 'jpeg', 'answer-key'));
             ui.downloadWorksheetPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet'));
             ui.downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'answer-key'));
+            ui.downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'word-guess_interactive.html'));
 
 
             ui.tabButtons.forEach(btn => {
@@ -2648,13 +2653,20 @@
             }
             
             await renderPuzzles(worksheetCanvas, lastGeneratedPuzzles, false, oldTransforms);
-            
+
+            // Expose data for the interactive-HTML exporter.
+            worksheetCanvas.problemsData = lastGeneratedPuzzles;
+            worksheetCanvas.letterCaseValue = document.querySelector('input[name="letterCase"]:checked').value;
+
             // Part B, Step 4: Finalize
             userAddedObjects.forEach(o => worksheetCanvas.bringToFront(o));
             enforceZOrder(worksheetCanvas);
+            if (window.LCSAttribution) {
+                LCSAttribution.addToCanvas(worksheetCanvas, { currentCanvasConfig: currentCanvasConfig });
+            }
             worksheetCanvas.renderAll();
 
-            [ui.downloadWorksheetJpegBtn, ui.downloadWorksheetPdfBtn, ui.generateAnswerKeyBtn].forEach(b => b.disabled = false);
+            [ui.downloadWorksheetJpegBtn, ui.downloadWorksheetPdfBtn, ui.downloadInteractiveHtmlBtn, ui.generateAnswerKeyBtn].forEach(b => b.disabled = false);
             showMessage(t('message.worksheetGenerated'), 'success');
 
             // Save state after generation is complete
@@ -2735,6 +2747,9 @@
             await renderPuzzles(answerKeyCanvas, lastGeneratedPuzzles, true, oldTransforms);
             userAddedObjects.forEach(o => answerKeyCanvas.bringToFront(o));
             enforceZOrder(answerKeyCanvas);
+            if (window.LCSAttribution) {
+                LCSAttribution.addToCanvas(answerKeyCanvas, { currentCanvasConfig: currentCanvasConfig });
+            }
             answerKeyCanvas.renderAll();
 
             ui.tabButtons[1].click(); // Switch to answer key tab
@@ -2922,7 +2937,16 @@
                                 left: cellWidth / 2, top: cellHeight / 2,
                                 visible: isAnswerKey || wordClues.has(j)
                             });
-                            const cellGroup = new fabric.Group([rect, text], { left: gridCellX, top: 0 });
+                            const isBlankCell = !isAnswerKey && !wordClues.has(j);
+                            const cellGroup = new fabric.Group([rect, text], {
+                                left: gridCellX, top: 0,
+                                isLetterCell: true,
+                                isBlankLetterCell: isBlankCell,
+                                letterValue: letter,
+                                letterProblemIndex: globalIndex,
+                                letterWordIndex: wi,
+                                letterIndex: j
+                            });
                             gridElements.push(cellGroup);
                             gridCellX += cellWidth;
                         }
@@ -3401,7 +3425,7 @@
             clearCanvas(worksheetCanvas, true);
             clearCanvas(answerKeyCanvas, true);
             
-            [ui.downloadWorksheetJpegBtn, ui.downloadWorksheetPdfBtn, ui.generateAnswerKeyBtn, ui.downloadAnswerKeyJpegBtn, ui.downloadAnswerKeyPdfBtn].forEach(b => b.disabled = true);
+            [ui.downloadWorksheetJpegBtn, ui.downloadWorksheetPdfBtn, ui.downloadInteractiveHtmlBtn, ui.generateAnswerKeyBtn, ui.downloadAnswerKeyJpegBtn, ui.downloadAnswerKeyPdfBtn].forEach(b => b.disabled = true);
             
             ui.puzzleCount.value = 8;
             document.querySelector('input[name="difficulty"][value="0"]').checked = true;
@@ -3705,6 +3729,603 @@ async function downloadPDF(canvasToExport, fileName = 'download') {
                 removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         }
+
+        // ====================================================================
+        // BEGIN: Interactive-HTML export v13 (letter-fill batch check)
+        // Derived from code-addition's v6 multi-slot block. Each word-guess
+        // puzzle has N letter cells; non-clue cells are the student's slots.
+        // The operator's case choice (letterCase: upper|lower) is baked into
+        // the clue letters and also carried in the bundle so the runtime
+        // coerces the student's input to the same case for display. Compare
+        // is case-insensitive so typing the "wrong" case is still correct.
+        // Slot detection: renderPuzzles tags each cellGroup with
+        // isBlankLetterCell=true + letterValue on the WORKSHEET canvas only
+        // (the answer-key canvas gets isBlankLetterCell=false), so walking
+        // rowGroups recursively and filtering by that flag gives exactly
+        // the student's answer positions.
+        // ====================================================================
+
+        async function _captureWorksheetImage(canvas) {
+            var savedZoom = canvas.getZoom();
+            var savedW = canvas.getWidth();
+            var savedH = canvas.getHeight();
+            canvas.discardActiveObject();
+            canvas.setZoom(1);
+            canvas.setDimensions({ width: currentCanvasConfig.width, height: currentCanvasConfig.height });
+            canvas.renderAll();
+            var dataURL;
+            try {
+                dataURL = canvas.toDataURL({ format: 'jpeg', quality: 0.85, multiplier: 2 });
+            } finally {
+                canvas.setZoom(savedZoom);
+                canvas.setDimensions({ width: savedW, height: savedH });
+                canvas.renderAll();
+            }
+            return dataURL;
+        }
+
+        // AABB for a child rect in world coords. Use raw width/height — the
+        // transform matrix already applies the object's own scale; feeding
+        // getScaledWidth()/getScaledHeight() here would double-scale (see
+        // CLAUDE.md §14.6 "double-scale bug").
+        function _worldRectBounds(rect) {
+            var m = rect.calcTransformMatrix();
+            var hw = (rect.width || 40) / 2;
+            var hh = (rect.height || 20) / 2;
+            var corners = [
+                fabric.util.transformPoint({ x: -hw, y: -hh }, m),
+                fabric.util.transformPoint({ x:  hw, y: -hh }, m),
+                fabric.util.transformPoint({ x:  hw, y:  hh }, m),
+                fabric.util.transformPoint({ x: -hw, y:  hh }, m)
+            ];
+            var xs = corners.map(function (c) { return c.x; });
+            var ys = corners.map(function (c) { return c.y; });
+            var minX = Math.min.apply(null, xs), maxX = Math.max.apply(null, xs);
+            var minY = Math.min.apply(null, ys), maxY = Math.max.apply(null, ys);
+            return { x: (minX + maxX) / 2, y: (minY + maxY) / 2, w: maxX - minX, h: maxY - minY };
+        }
+
+        // Collect every blank letter cell inside a row group. The cell group
+        // itself is tagged — find the rect child so _worldRectBounds can use
+        // its untransformed 45×45 box (scale comes from parent group chain).
+        function _collectBlankLetterCells(group) {
+            var out = [];
+            (function walk(objs) {
+                if (!objs) return;
+                objs.forEach(function (o) {
+                    if (o && o.isBlankLetterCell === true) {
+                        out.push(o);
+                    }
+                    if (o && o._objects) walk(o._objects);
+                });
+            })(group._objects || []);
+            return out;
+        }
+
+        function _rectChildOfCell(cellGroup) {
+            if (!cellGroup || !cellGroup._objects) return null;
+            for (var i = 0; i < cellGroup._objects.length; i++) {
+                var c = cellGroup._objects[i];
+                if (c && c.type === 'rect') return c;
+            }
+            return null;
+        }
+
+        async function extractDeckBundle(canvas) {
+            var caseValue = canvas.letterCaseValue
+                || (document.querySelector('input[name="letterCase"]:checked') || {}).value
+                || 'upper';
+
+            // Each puzzle's row is a top-level group tagged isGeneratedItem
+            // with a numeric originalIndex. Walk each row and pick out the
+            // tagged blank cells in document order (left-to-right inside
+            // each row thanks to Fabric preserving children order).
+            var rowGroups = canvas.getObjects().filter(function (o) {
+                return o.isGeneratedItem === true && typeof o.originalIndex === 'number';
+            });
+            rowGroups.sort(function (a, b) { return a.originalIndex - b.originalIndex; });
+
+            var slots = [];
+            rowGroups.forEach(function (row) {
+                var blanks = _collectBlankLetterCells(row);
+                blanks.forEach(function (cell) {
+                    var r = _rectChildOfCell(cell);
+                    if (!r) return;
+                    slots.push({
+                        problemIndex: typeof cell.letterProblemIndex === 'number' ? cell.letterProblemIndex : row.originalIndex,
+                        wordIndex: typeof cell.letterWordIndex === 'number' ? cell.letterWordIndex : 0,
+                        letterIndex: typeof cell.letterIndex === 'number' ? cell.letterIndex : 0,
+                        slotType: 'letter',
+                        kind: 'letter',
+                        expected: String(cell.letterValue || ''),
+                        rect: _worldRectBounds(r)
+                    });
+                });
+            });
+
+            var worksheetImage = await _captureWorksheetImage(canvas);
+
+            var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
+                ? LCSAttribution.getRectFromCanvas(canvas) : null;
+
+            return {
+                bundleVersion: '13.0.0',
+                appType: 'word-guess',
+                createdAt: new Date().toISOString(),
+                contentLanguage: (window.currentLocale || 'en'),
+                title: 'Word Guess Practice',
+                caseValue: caseValue,
+                page: {
+                    width: currentCanvasConfig.width,
+                    height: currentCanvasConfig.height
+                },
+                worksheetImage: worksheetImage,
+                slots: slots,
+                attribution: attributionRect ? {
+                    text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
+                    url: (window.LCSAttribution && LCSAttribution.URL) || 'https://lessoncraftstudio.com',
+                    rect: attributionRect
+                } : null
+            };
+        }
+
+        var INTERACTIVE_CSS_LINES = [
+            '*{box-sizing:border-box}',
+            'html,body{margin:0;padding:0}',
+            'body{font-family:"Fredoka",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#FEFAF3;color:#1C1C1E;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;min-height:100vh}',
+            '#lcs-app{max-width:980px;margin:0 auto;padding:0 12px;padding-bottom:120px}',
+            '.lcs-bar{position:sticky;top:0;z-index:10;background:rgba(254,250,243,.94);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding:12px 4px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}',
+            '.lcs-title{font-size:clamp(18px,2.6vw,24px);font-weight:600;color:#1C1C1E;margin:0;flex:1 1 auto;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}',
+            '.lcs-progress{display:flex;gap:6px;flex-wrap:wrap;flex:0 1 auto;max-width:60%}',
+            '.lcs-dot{width:14px;height:14px;border-radius:50%;background:#FFF;border:2px solid #DCE1E6;padding:0;cursor:pointer;transition:background-color .2s,border-color .2s,transform .2s}',
+            '.lcs-dot:hover{border-color:#4E5FE8;transform:scale(1.1)}',
+            '.lcs-dot:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+            '.lcs-dot--filled{background:#4E5FE8;border-color:#4E5FE8}',
+            '.lcs-dot--correct{background:#4CAF50;border-color:#4CAF50}',
+            '.lcs-dot--wrong{background:#E53935;border-color:#E53935}',
+            '.lcs-mute{width:40px;height:40px;border-radius:10px;border:2px solid #DCE1E6;background:#FFF;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;color:#545458;flex-shrink:0}',
+            '.lcs-mute:hover{background:#FEFAF3}',
+            '.lcs-mute:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+            '.lcs-mute svg{width:20px;height:20px;pointer-events:none}',
+            '.lcs-mute[data-muted="1"]{background:#FFF8E6;border-color:#FFC857;color:#8A6D00}',
+            '.lcs-worksheet-wrap{display:flex;justify-content:center;padding-top:8px}',
+            '.lcs-worksheet{position:relative;display:block;width:100%;max-width:880px;background:#FFF;border-radius:10px;box-shadow:0 4px 18px rgba(28,28,30,.08);overflow:visible}',
+            '.lcs-worksheet__img{display:block;width:100%;height:auto;user-select:none;-webkit-user-drag:none;pointer-events:none;border-radius:10px}',
+            '.lcs-overlay{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none}',
+            '.lcs-slot{position:absolute;transform:translate(-50%,-50%);pointer-events:none}',
+            '.lcs-input{position:absolute;inset:0;width:100%;height:100%;font-family:inherit;font-weight:700;text-align:center;color:#1C1C1E;padding:0;outline:none;font-size:clamp(14px,2.6vw,24px);pointer-events:auto;cursor:pointer;-webkit-appearance:none;appearance:none;border:3px dashed #4E5FE8;border-radius:6px;background:rgba(255,248,230,.92);transition:background-color .2s,border-color .2s,border-style .2s,box-shadow .2s,color .2s}',
+            '.lcs-input::placeholder{color:rgba(78,95,232,.5);font-weight:600}',
+            '.lcs-input:hover{background:#FFF8E6;border-color:#3F4FD0}',
+            '.lcs-input:focus-visible{border-style:solid;border-color:#4E5FE8;background:#FFFFFF;box-shadow:0 0 0 4px rgba(78,95,232,.22)}',
+            '.lcs-slot--empty .lcs-input{animation:lcs-pulse 2.2s ease-in-out infinite}',
+            '@keyframes lcs-pulse{0%,100%{box-shadow:0 0 0 0 rgba(78,95,232,.35)}50%{box-shadow:0 0 0 8px rgba(78,95,232,0)}}',
+            '.lcs-slot--filled .lcs-input{background:#FFFFFF;border-style:solid;animation:none}',
+            '.lcs-slot--correct .lcs-input{border:3px solid #4CAF50;background:#E8F5E9;color:#2E7D32;animation:none}',
+            '.lcs-slot--wrong .lcs-input{border:3px solid #E53935;background:#FFEBEE;color:#C62828;animation:none;text-decoration:line-through;text-decoration-thickness:2px}',
+            '.lcs-mark{position:absolute;left:50%;top:calc(100% + 2px);transform:translateX(-50%);display:flex;align-items:center;gap:4px;pointer-events:none;white-space:nowrap;font-weight:700;font-size:clamp(12px,2vw,18px)}',
+            '.lcs-mark__icon{width:18px;height:18px;display:block;flex-shrink:0}',
+            '.lcs-mark__correct-value{color:#2E7D32;background:#FFF;border:2px solid #4CAF50;border-radius:6px;padding:1px 6px;font-size:clamp(12px,2vw,16px)}',
+            '.lcs-footer{position:sticky;bottom:0;z-index:10;margin-top:24px;background:rgba(254,250,243,.95);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-top:1px solid #DCE1E6;padding:16px 12px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap}',
+            '.lcs-btn{font-family:inherit;font-weight:700;font-size:17px;padding:14px 28px;border-radius:12px;border:none;cursor:pointer;min-height:52px;min-width:160px;transition:background-color .2s,transform .1s,box-shadow .2s,opacity .2s}',
+            '.lcs-btn:active:not([disabled]){transform:scale(.97)}',
+            '.lcs-btn:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+            '.lcs-btn[disabled]{opacity:.45;cursor:not-allowed}',
+            '.lcs-btn--primary{background:#4E5FE8;color:#FFF;box-shadow:0 4px 14px rgba(78,95,232,.3)}',
+            '.lcs-btn--primary:hover:not([disabled]){background:#3F4FD0;box-shadow:0 6px 20px rgba(78,95,232,.4)}',
+            '.lcs-btn--ghost{background:#FFF;color:#1C1C1E;border:2px solid #DCE1E6}',
+            '.lcs-btn--ghost:hover{background:#FEFAF3;border-color:#4E5FE8}',
+            '.lcs-summary{font-size:16px;font-weight:600;color:#545458;align-self:center;padding:0 8px}',
+            '.lcs-summary--all-correct{color:#2E7D32}',
+            '.lcs-celebration{position:fixed;inset:0;background:rgba(28,28,30,.5);display:none;align-items:center;justify-content:center;z-index:10000;padding:16px}',
+            '.lcs-celebration--shown{display:flex}',
+            '.lcs-celebration__inner{position:relative;background:#FFFFFF;border-radius:24px;padding:32px 28px 24px;max-width:520px;width:100%;box-shadow:0 20px 60px rgba(28,28,30,.35);text-align:center;z-index:2}',
+            '.lcs-celebration__title{font-size:clamp(36px,7vw,56px);margin:0 0 4px;color:#4E5FE8;font-weight:700}',
+            '.lcs-stars{font-size:clamp(40px,7vw,52px);letter-spacing:10px;margin:12px 0;line-height:1}',
+            '.lcs-star{color:#DCE1E6}',
+            '.lcs-star--filled{color:#FFC857;filter:drop-shadow(0 2px 4px rgba(255,200,87,.35))}',
+            '.lcs-celebration__sub{color:#545458;font-size:16px;margin:0 0 20px}',
+            '.lcs-mini{display:block;max-width:100%;max-height:200px;margin:0 auto 20px;border-radius:8px;border:1px solid #DCE1E6}',
+            '.lcs-celebration__cta{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}',
+            '.lcs-confetti{position:absolute;inset:0;pointer-events:none;overflow:hidden;border-radius:24px}',
+            '.lcs-confetti__piece{position:absolute;width:8px;height:14px;top:-20px;animation:lcs-fall linear forwards;border-radius:2px}',
+            '@keyframes lcs-fall{to{transform:translateY(620px) rotate(540deg);opacity:0}}',
+            '.lcs-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}',
+            '.lcs-attrib-link{position:absolute;transform:translate(-50%,-50%);pointer-events:auto;cursor:pointer;background:transparent;text-decoration:none;border-radius:4px;outline:none}',
+            '.lcs-attrib-link:focus-visible{outline:2px solid #4E5FE8;outline-offset:2px}',
+            '.lcs-attrib-link:hover{background:rgba(78,95,232,.08)}',
+            '@media (prefers-reduced-motion:reduce){',
+            '  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.15s !important}',
+            '  .lcs-confetti{display:none}',
+            '}',
+            '@media print{',
+            '  body{background:#FFF}',
+            '  .lcs-bar,.lcs-footer,.lcs-celebration,.lcs-attrib-link,.lcs-mark{display:none !important}',
+            '  .lcs-worksheet{box-shadow:none;border:none}',
+            '  .lcs-input{background:transparent;border:1px solid #000;color:#000;animation:none}',
+            '}'
+        ];
+
+        var INTERACTIVE_RUNTIME_LINES = [
+            '(function(){',
+            '  "use strict";',
+            '  var STRINGS = {',
+            '    en:{title:"Word Guess Practice",checkAnswers:"Check Answers",tryAgain:"Try Again",youDidIt:"You did it!",doAnother:"Do Another",printMyWorksheet:"Print my worksheet",mute:"Mute sounds",unmute:"Turn sounds on",slotNumber:"Letter",correct:"correct",score:"{n} of {total} correct",firstTryStars:"first-try stars",allCorrect:"All correct!"}',
+            '  };',
+            '  function T(key){var loc=(DECK_BUNDLE.contentLanguage||"en").slice(0,2);var t=STRINGS[loc]||STRINGS.en;return t[key]||STRINGS.en[key]||key}',
+            '',
+            '  var CASE=(DECK_BUNDLE.caseValue==="lower")?"lower":"upper";',
+            '  var state=DECK_BUNDLE.slots.map(function(sl,i){return{index:i,problemIndex:sl.problemIndex,wordIndex:sl.wordIndex,letterIndex:sl.letterIndex,expected:sl.expected,rect:sl.rect,value:"",status:"empty"}});',
+            '  var muted=false;try{muted=localStorage.getItem("lcsMuted")==="1"}catch(e){}',
+            '  var reducedMotion=false;try{reducedMotion=window.matchMedia("(prefers-reduced-motion: reduce)").matches}catch(e){}',
+            '  var audioCtx=null;',
+            '  var phase="fill";',
+            '  var celebrationShown=false;',
+            '  var titleEl,progressEl,overlayEl,muteBtn,celebrationEl,liveEl,imgEl,checkBtn,resetBtn,summaryEl;',
+            '',
+            '  function coerceCase(c){return CASE==="lower"?c.toLowerCase():c.toUpperCase()}',
+            '  function normalize(v){return String(v==null?"":v).trim().toUpperCase()}',
+            '  function isCorrect(s){return normalize(s.value)===normalize(s.expected)}',
+            '',
+            '  function init(){',
+            '    titleEl=document.getElementById("lcs-title");',
+            '    progressEl=document.getElementById("lcs-progress");',
+            '    overlayEl=document.getElementById("lcs-overlay");',
+            '    muteBtn=document.getElementById("lcs-mute");',
+            '    celebrationEl=document.getElementById("lcs-celebration");',
+            '    liveEl=document.getElementById("lcs-live");',
+            '    imgEl=document.getElementById("lcs-worksheet-img");',
+            '    checkBtn=document.getElementById("lcs-check");',
+            '    resetBtn=document.getElementById("lcs-reset");',
+            '    summaryEl=document.getElementById("lcs-summary");',
+            '    if(titleEl) titleEl.textContent=DECK_BUNDLE.title||T("title");',
+            '    renderProgress();',
+            '    if(imgEl&&imgEl.complete&&imgEl.naturalHeight>0){renderSlots();}',
+            '    else if(imgEl){imgEl.addEventListener("load",renderSlots);imgEl.addEventListener("error",function(){console.error("[LCS] Worksheet image failed to load")});}',
+            '    wireMute();',
+            '    updateMuteButton();',
+            '    wireButtons();',
+            '  }',
+            '',
+            '  function renderProgress(){',
+            '    progressEl.innerHTML="";',
+            '    state.forEach(function(s,i){',
+            '      var d=document.createElement("button");',
+            '      d.className="lcs-dot";',
+            '      d.type="button";',
+            '      d.setAttribute("aria-label",T("slotNumber")+" "+(i+1));',
+            '      d.addEventListener("click",function(){focusSlot(i)});',
+            '      progressEl.appendChild(d);',
+            '    });',
+            '    syncDots();',
+            '  }',
+            '  function syncDots(){',
+            '    var dots=progressEl.querySelectorAll(".lcs-dot");',
+            '    for(var i=0;i<dots.length;i++){',
+            '      var s=state[i];var cls="lcs-dot";',
+            '      if(s.status==="correct")cls+=" lcs-dot--correct";',
+            '      else if(s.status==="wrong")cls+=" lcs-dot--wrong";',
+            '      else if(s.status==="filled")cls+=" lcs-dot--filled";',
+            '      dots[i].className=cls;',
+            '    }',
+            '  }',
+            '',
+            '  function renderSlots(){',
+            '    overlayEl.innerHTML="";',
+            '    var pw=DECK_BUNDLE.page.width;',
+            '    var ph=DECK_BUNDLE.page.height;',
+            '    state.forEach(function(s,i){',
+            '      if(!s.rect) return;',
+            '      var r=s.rect;',
+            '      var xPct=(r.x/pw)*100;',
+            '      var yPct=(r.y/ph)*100;',
+            '      var wPct=(r.w/pw)*100;',
+            '      var hPct=(r.h/ph)*100;',
+            '      var slot=document.createElement("div");',
+            '      slot.className="lcs-slot lcs-slot--empty";',
+            '      slot.setAttribute("data-idx",String(i));',
+            '      slot.style.left=xPct+"%";',
+            '      slot.style.top=yPct+"%";',
+            '      slot.style.width=wPct.toFixed(2)+"%";',
+            '      slot.style.height=hPct.toFixed(2)+"%";',
+            '      var input=buildInput(i);',
+            '      slot.appendChild(input);',
+            '      var mark=document.createElement("span");mark.className="lcs-mark";mark.id="lcs-mark-"+i;',
+            '      slot.appendChild(mark);',
+            '      overlayEl.appendChild(slot);',
+            '      // Scale font to fit the rendered slot — cells can be small in',
+            '      // dense 2-column landscape layouts, so floor at 10px.',
+            '      var sw=slot.offsetWidth,sh=slot.offsetHeight;',
+            '      var fontPx=Math.max(10,Math.min(sw*0.65,sh*0.68,26));',
+            '      input.style.fontSize=fontPx.toFixed(1)+"px";',
+            '    });',
+            '    if(DECK_BUNDLE.attribution&&DECK_BUNDLE.attribution.rect){',
+            '      var ar=DECK_BUNDLE.attribution.rect;',
+            '      var axPct=(ar.x/pw)*100;var ayPct=(ar.y/ph)*100;',
+            '      var awPct=(ar.w/pw)*100;var ahPct=(ar.h/ph)*100;',
+            '      var link=document.createElement("a");',
+            '      link.className="lcs-attrib-link";',
+            '      link.href=DECK_BUNDLE.attribution.url||"https://lessoncraftstudio.com";',
+            '      link.target="_blank";link.rel="noopener";',
+            '      link.setAttribute("aria-label",DECK_BUNDLE.attribution.text||"Made with LessonCraftStudio.com");',
+            '      link.style.left=axPct+"%";link.style.top=ayPct+"%";',
+            '      link.style.width=awPct.toFixed(2)+"%";link.style.height=ahPct.toFixed(2)+"%";',
+            '      overlayEl.appendChild(link);',
+            '    }',
+            '  }',
+            '',
+            '  function buildInput(idx){',
+            '    var input=document.createElement("input");',
+            '    input.type="text";',
+            '    input.setAttribute("autocomplete","off");',
+            '    input.setAttribute("autocorrect","off");',
+            '    input.setAttribute("autocapitalize","off");',
+            '    input.setAttribute("spellcheck","false");',
+            '    input.setAttribute("placeholder","?");',
+            '    input.className=CASE==="lower"?"lcs-input":"lcs-input lcs-input--upper";',
+            '    input.setAttribute("data-idx",String(idx));',
+            '    input.inputMode="text";',
+            '    input.setAttribute("maxlength","1");',
+            '    input.setAttribute("aria-label",T("slotNumber")+" "+(idx+1));',
+            '    input.addEventListener("input",function(){',
+            '      if(phase!=="fill")return;',
+            '      var raw=input.value;',
+            '      var cleaned=raw.replace(/[^A-Za-z]/g,"").slice(0,1);',
+            '      cleaned=cleaned?coerceCase(cleaned):"";',
+            '      if(cleaned!==raw)input.value=cleaned;',
+            '      state[idx].value=input.value;',
+            '      state[idx].status=input.value.length>0?"filled":"empty";',
+            '      var slot=slotFor(idx);',
+            '      if(slot){slot.classList.remove("lcs-slot--empty","lcs-slot--filled","lcs-slot--correct","lcs-slot--wrong");slot.classList.add(state[idx].status==="filled"?"lcs-slot--filled":"lcs-slot--empty")}',
+            '      syncDots();',
+            '      updateCheckButton();',
+            '      if(state[idx].status==="filled")advanceFrom(idx);',
+            '    });',
+            '    input.addEventListener("keydown",function(e){',
+            '      if(e.key==="Enter"){e.preventDefault();advanceFrom(idx)}',
+            '      else if(e.key==="Backspace"&&!input.value){retreatFrom(idx)}',
+            '    });',
+            '    return input;',
+            '  }',
+            '  function slotFor(idx){return overlayEl.querySelector(".lcs-slot[data-idx=\\""+idx+"\\"]")}',
+            '  function inputFor(idx){return overlayEl.querySelector(".lcs-input[data-idx=\\""+idx+"\\"]")}',
+            '',
+            '  function focusSlot(idx){',
+            '    if(idx<0||idx>=state.length)return;',
+            '    var input=inputFor(idx);',
+            '    if(input){input.focus();if(input.select)try{input.select()}catch(e){}',
+            '      var slot=slotFor(idx);',
+            '      if(slot&&slot.scrollIntoView){slot.scrollIntoView({behavior:reducedMotion?"auto":"smooth",block:"center"})}',
+            '    }',
+            '  }',
+            '  function advanceFrom(idx){',
+            '    for(var i=idx+1;i<state.length;i++){if(state[i].status!=="correct"&&state[i].status!=="filled"){focusSlot(i);return}}',
+            '    for(var j=0;j<idx;j++){if(state[j].status!=="correct"&&state[j].status!=="filled"){focusSlot(j);return}}',
+            '  }',
+            '  function retreatFrom(idx){',
+            '    for(var i=idx-1;i>=0;i--){focusSlot(i);return}',
+            '  }',
+            '',
+            '  function updateCheckButton(){',
+            '    if(!checkBtn)return;',
+            '    var allFilled=state.every(function(s){return s.value&&s.value.length>0});',
+            '    checkBtn.disabled=!allFilled||phase!=="fill";',
+            '  }',
+            '',
+            '  function wireButtons(){',
+            '    checkBtn.addEventListener("click",checkAll);',
+            '    resetBtn.addEventListener("click",resetAll);',
+            '  }',
+            '',
+            '  function checkAll(){',
+            '    if(phase!=="fill")return;',
+            '    phase="reviewed";',
+            '    var correct=0;',
+            '    state.forEach(function(s,idx){',
+            '      var input=inputFor(idx);if(!input)return;',
+            '      var slot=slotFor(idx);if(!slot)return;',
+            '      var mark=document.getElementById("lcs-mark-"+idx);',
+            '      input.setAttribute("readonly","readonly");',
+            '      slot.classList.remove("lcs-slot--empty","lcs-slot--filled","lcs-slot--correct","lcs-slot--wrong");',
+            '      if(isCorrect(s)){',
+            '        s.status="correct";',
+            '        slot.classList.add("lcs-slot--correct");',
+            '        correct++;',
+            '        if(mark)mark.innerHTML=\'<svg class="lcs-mark__icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#4CAF50" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg>\';',
+            '      } else {',
+            '        s.status="wrong";',
+            '        slot.classList.add("lcs-slot--wrong");',
+            '        if(mark){',
+            '          var displayAnswer=coerceCase(s.expected||"");',
+            '          var pillHTML=\'<span class="lcs-mark__correct-value">\'+displayAnswer+\'</span>\';',
+            '          mark.innerHTML=\'<svg class="lcs-mark__icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#E53935" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M6 18L18 6"/></svg>\'+pillHTML;',
+            '        }',
+            '      }',
+            '    });',
+            '    syncDots();',
+            '    checkBtn.hidden=true;',
+            '    resetBtn.hidden=false;',
+            '    var total=state.length;',
+            '    var txt=T("score").replace("{n}",correct).replace("{total}",total);',
+            '    if(correct===total){summaryEl.textContent=T("allCorrect");summaryEl.className="lcs-summary lcs-summary--all-correct"}',
+            '    else{summaryEl.textContent=txt;summaryEl.className="lcs-summary"}',
+            '    announce(txt);',
+            '    if(correct===total){',
+            '      playTone(659.25,0.13);',
+            '      setTimeout(function(){playTone(987.77,0.18)},160);',
+            '      setTimeout(showCelebration,500);',
+            '    } else {',
+            '      playTone(440,0.1);',
+            '    }',
+            '  }',
+            '',
+            '  function resetAll(){',
+            '    phase="fill";',
+            '    celebrationShown=false;',
+            '    state.forEach(function(s,idx){',
+            '      s.value="";s.status="empty";',
+            '      var input=inputFor(idx);if(input){input.value="";input.removeAttribute("readonly")}',
+            '      var slot=slotFor(idx);if(slot){slot.classList.remove("lcs-slot--filled","lcs-slot--correct","lcs-slot--wrong");slot.classList.add("lcs-slot--empty")}',
+            '      var mark=document.getElementById("lcs-mark-"+idx);if(mark)mark.innerHTML="";',
+            '    });',
+            '    syncDots();',
+            '    checkBtn.hidden=false;',
+            '    resetBtn.hidden=true;',
+            '    summaryEl.textContent="";summaryEl.className="lcs-summary";',
+            '    updateCheckButton();',
+            '    focusSlot(0);',
+            '    celebrationEl.classList.remove("lcs-celebration--shown");',
+            '  }',
+            '',
+            '  function playTone(freq,dur){',
+            '    if(muted)return;',
+            '    try{',
+            '      if(!audioCtx){var Ctx=window.AudioContext||window.webkitAudioContext;if(!Ctx)return;audioCtx=new Ctx()}',
+            '      if(audioCtx.state==="suspended")audioCtx.resume();',
+            '      var osc=audioCtx.createOscillator();var gain=audioCtx.createGain();',
+            '      osc.type="sine";osc.frequency.value=freq;',
+            '      var now=audioCtx.currentTime;',
+            '      gain.gain.setValueAtTime(0,now);',
+            '      gain.gain.linearRampToValueAtTime(0.14,now+0.012);',
+            '      gain.gain.linearRampToValueAtTime(0,now+dur);',
+            '      osc.connect(gain);gain.connect(audioCtx.destination);',
+            '      osc.start(now);osc.stop(now+dur+0.03);',
+            '    }catch(e){}',
+            '  }',
+            '  function announce(msg){if(liveEl)liveEl.textContent=msg}',
+            '',
+            '  function showCelebration(){',
+            '    if(celebrationShown)return;celebrationShown=true;',
+            '    var total=state.length;',
+            '    var correct=state.reduce(function(acc,s){return acc+(s.status==="correct"?1:0)},0);',
+            '    var pct=total>0?(correct/total):0;',
+            '    var stars=pct>=0.9?3:pct>=0.6?2:1;',
+            '    var starsHTML="";',
+            '    for(var i=1;i<=3;i++){starsHTML+="<span class=\\"lcs-star"+(i<=stars?" lcs-star--filled":"")+"\\">\\u2605</span>"}',
+            '    celebrationEl.innerHTML=',
+            '      "<div class=\\"lcs-celebration__inner\\">"+',
+            '      "<h1 class=\\"lcs-celebration__title\\">"+T("youDidIt")+"</h1>"+',
+            '      "<div class=\\"lcs-stars\\" aria-label=\\""+stars+" out of 3 stars\\">"+starsHTML+"</div>"+',
+            '      "<p class=\\"lcs-celebration__sub\\">"+correct+" / "+total+" "+T("correct")+"</p>"+',
+            '      "<img class=\\"lcs-mini\\" alt=\\"Your completed worksheet\\" src=\\""+DECK_BUNDLE.worksheetImage+"\\" />"+',
+            '      "<div class=\\"lcs-celebration__cta\\">"+',
+            '        "<button class=\\"lcs-btn lcs-btn--primary\\" type=\\"button\\" id=\\"lcs-do-another\\">"+T("doAnother")+"</button>"+',
+            '        "<button class=\\"lcs-btn lcs-btn--ghost\\" type=\\"button\\" id=\\"lcs-cel-print\\">"+T("printMyWorksheet")+"</button>"+',
+            '      "</div>"+',
+            '      "</div>"+',
+            '      "<div class=\\"lcs-confetti\\" aria-hidden=\\"true\\"></div>";',
+            '    celebrationEl.classList.add("lcs-celebration--shown");',
+            '    document.getElementById("lcs-do-another").addEventListener("click",function(){location.reload()});',
+            '    document.getElementById("lcs-cel-print").addEventListener("click",function(){window.print()});',
+            '    if(!reducedMotion)spawnConfetti();',
+            '  }',
+            '  function spawnConfetti(){',
+            '    var layer=celebrationEl.querySelector(".lcs-confetti");if(!layer)return;',
+            '    var colors=["#4E5FE8","#4CAF50","#FF8A65","#FFC857","#6AB7FF","#B39DDB"];',
+            '    for(var i=0;i<48;i++){',
+            '      var c=document.createElement("span");c.className="lcs-confetti__piece";',
+            '      c.style.left=(Math.random()*100)+"%";',
+            '      c.style.background=colors[i%colors.length];',
+            '      c.style.animationDelay=(Math.random()*0.5)+"s";',
+            '      c.style.animationDuration=(1.8+Math.random()*1.3)+"s";',
+            '      c.style.transform="rotate("+(Math.random()*360)+"deg)";',
+            '      layer.appendChild(c);',
+            '    }',
+            '  }',
+            '',
+            '  function wireMute(){muteBtn.addEventListener("click",function(){muted=!muted;try{localStorage.setItem("lcsMuted",muted?"1":"0")}catch(e){}updateMuteButton()})}',
+            '  function updateMuteButton(){',
+            '    muteBtn.setAttribute("aria-label",muted?T("unmute"):T("mute"));',
+            '    muteBtn.setAttribute("data-muted",muted?"1":"0");',
+            '    muteBtn.innerHTML=muted',
+            '      ? "<svg viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\"><path d=\\"M11 5L6 9H2v6h4l5 4V5z\\"/><line x1=\\"23\\" y1=\\"9\\" x2=\\"17\\" y2=\\"15\\"/><line x1=\\"17\\" y1=\\"9\\" x2=\\"23\\" y2=\\"15\\"/></svg>"',
+            '      : "<svg viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\"><path d=\\"M11 5L6 9H2v6h4l5 4V5z\\"/><path d=\\"M15.54 8.46a5 5 0 0 1 0 7.07\\"/><path d=\\"M19.07 4.93a10 10 0 0 1 0 14.14\\"/></svg>";',
+            '  }',
+            '',
+            '  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);',
+            '  else init();',
+            '})();'
+        ];
+
+        function renderStandaloneHTML(bundle) {
+            var css = INTERACTIVE_CSS_LINES.join('\n');
+            var runtime = INTERACTIVE_RUNTIME_LINES.join('\n');
+            var bundleJSON = JSON.stringify(bundle);
+            var lang = (bundle.contentLanguage || 'en').slice(0, 2);
+            var title = (bundle.title || 'Word Guess Practice');
+            var parts = [];
+            parts.push('<!DOCTYPE html>');
+            parts.push('<html lang="' + lang + '">');
+            parts.push('<head>');
+            parts.push('<meta charset="UTF-8">');
+            parts.push('<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">');
+            parts.push('<meta name="theme-color" content="#FEFAF3">');
+            parts.push('<title>' + title + '</title>');
+            parts.push('<link rel="preconnect" href="https://fonts.googleapis.com">');
+            parts.push('<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>');
+            parts.push('<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">');
+            parts.push('<style>' + css + '</style>');
+            parts.push('</head>');
+            parts.push('<body>');
+            parts.push('<main id="lcs-app">');
+            parts.push('  <div class="lcs-bar">');
+            parts.push('    <h1 class="lcs-title" id="lcs-title">' + title + '</h1>');
+            parts.push('    <nav class="lcs-progress" id="lcs-progress" aria-label="Answer progress"></nav>');
+            parts.push('    <button type="button" id="lcs-mute" class="lcs-mute" aria-label="Mute sounds"></button>');
+            parts.push('  </div>');
+            parts.push('  <div class="lcs-worksheet-wrap">');
+            parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');
+            parts.push('      <img class="lcs-worksheet__img" id="lcs-worksheet-img" alt="" src="' + bundle.worksheetImage + '">');
+            parts.push('      <div class="lcs-overlay" id="lcs-overlay"></div>');
+            parts.push('    </div>');
+            parts.push('  </div>');
+            parts.push('</main>');
+            parts.push('<footer class="lcs-footer">');
+            parts.push('  <button type="button" id="lcs-check" class="lcs-btn lcs-btn--primary" disabled>Check Answers</button>');
+            parts.push('  <button type="button" id="lcs-reset" class="lcs-btn lcs-btn--ghost" hidden>Try Again</button>');
+            parts.push('  <span id="lcs-summary" class="lcs-summary" aria-live="polite"></span>');
+            parts.push('</footer>');
+            parts.push('<div class="lcs-celebration" id="lcs-celebration" role="dialog" aria-modal="true" aria-label="You did it!"></div>');
+            parts.push('<div class="lcs-sr" id="lcs-live" role="status" aria-live="polite"></div>');
+            parts.push('<script>var DECK_BUNDLE = ' + bundleJSON + ';<\/script>');
+            parts.push('<script>' + runtime + '<\/script>');
+            parts.push('</body>');
+            parts.push('</html>');
+            return parts.join('\n');
+        }
+
+        async function downloadInteractiveHtml(canvasInstance, fileName) {
+            if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
+                showMessage(t('message.generateFirst') || 'Please generate a worksheet first.', 'error');
+                return;
+            }
+            showMessage('Preparing ' + fileName + '...', 'info', 0);
+            try {
+                var bundle = await extractDeckBundle(canvasInstance);
+                if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
+                    throw new Error('Worksheet snapshot is empty.');
+                }
+                if (!bundle.slots || bundle.slots.length === 0) {
+                    throw new Error('No blank letter cells detected. Regenerate the worksheet and try again.');
+                }
+                var html = renderStandaloneHTML(bundle);
+
+                var blob = new Blob([html], { type: 'text/html;charset=utf-8' });
+                var url = URL.createObjectURL(blob);
+                var a = document.createElement('a');
+                a.href = url;
+                a.download = fileName;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+
+                showMessage('Interactive worksheet downloaded.', 'success');
+            } catch (e) {
+                console.error('[Interactive Export v13] Failed:', e);
+                showMessage('Interactive export failed: ' + e.message, 'error');
+            }
+        }
+        // END: Interactive-HTML export v13
 
         // --- Initialize language selector with current content locale ---
         if (ui.languageSelect) {

@@ -5124,9 +5124,18 @@ async function downloadPDF(canvasToExport, filename) {
                 }
             } else {
                 // Comparison (image-to-image / image-to-number) — one choice
-                // slot, three options centered on the symbol area.
+                // slot, three options stacked vertically. Horizontal position
+                // comes from the symbol area (so buttons stay in the gap
+                // between left and right image groups), but VERTICAL extent
+                // comes from the card itself. Anchoring to cardBounds is what
+                // guarantees the 3 stacked buttons never overflow into the
+                // neighbor card — regardless of exercises-per-page, page
+                // orientation, or page size.
                 var sym = _findSymbolArea(card);
                 if (!sym) return;
+                var symBounds = _worldRectBounds(sym);
+                var cardBounds = _worldRectBounds(card);
+                var innerMargin = 6; // stay clear of the card's rounded border
                 slots.push({
                     problemIndex: i,
                     slotType: 'relation',
@@ -5137,7 +5146,12 @@ async function downloadPDF(canvasToExport, filename) {
                         { value: 'lt', label: '<' },
                         { value: 'eq', label: '=' }
                     ],
-                    rect: _worldRectBounds(sym)
+                    rect: {
+                        x: symBounds.x,
+                        y: cardBounds.y,
+                        w: symBounds.w,
+                        h: Math.max(cardBounds.h - 2 * innerMargin, 40)
+                    }
                 });
             }
         });
@@ -5193,7 +5207,7 @@ async function downloadPDF(canvasToExport, filename) {
         '.lcs-slot--correct .lcs-input{border:3px solid #4CAF50;background:#E8F5E9;color:#2E7D32;animation:none}',
         '.lcs-slot--wrong .lcs-input{border:3px solid #E53935;background:#FFEBEE;color:#C62828;animation:none;text-decoration:line-through;text-decoration-thickness:2px}',
         '.lcs-choice{position:absolute;inset:0;display:flex;flex-direction:column;align-items:stretch;justify-content:center;gap:4px;pointer-events:none}',
-        '.lcs-choice__btn{pointer-events:auto;cursor:pointer;flex:1 1 0;width:100%;min-height:28px;display:flex;align-items:center;justify-content:center;font-family:inherit;font-weight:700;font-size:clamp(15px,2.4vw,22px);color:#1C1C1E;background:rgba(255,248,230,.92);border:3px dashed #4E5FE8;border-radius:8px;padding:0;transition:background-color .15s,border-color .15s,border-style .15s,color .15s,box-shadow .15s,transform .1s}',
+        '.lcs-choice__btn{pointer-events:auto;cursor:pointer;flex:1 1 0;min-height:0;width:100%;display:flex;align-items:center;justify-content:center;font-family:inherit;font-weight:700;font-size:clamp(13px,2.2vw,22px);color:#1C1C1E;background:rgba(255,248,230,.92);border:2px dashed #4E5FE8;border-radius:8px;padding:0;transition:background-color .15s,border-color .15s,border-style .15s,color .15s,box-shadow .15s,transform .1s}',
         '.lcs-choice__btn:hover:not([disabled]){background:#FFF8E6;border-color:#3F4FD0}',
         '.lcs-choice__btn:active:not([disabled]){transform:scale(.96)}',
         '.lcs-choice__btn:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
@@ -5326,13 +5340,13 @@ async function downloadPDF(canvasToExport, filename) {
         '      slot.style.left=xPct+"%";',
         '      slot.style.top=yPct+"%";',
         '      if(s.kind==="choice"){',
-        '        // Choice buttons stack vertically INSIDE the symbol area to',
-        '        // avoid colliding with the image groups on either side.',
-        '        // Horizontal width stays near the symbol area width (small',
-        '        // tap-target floor); vertical height grows if needed so 3',
-        '        // stacked 28px buttons fit comfortably.',
+        '        // Height already derives from the card bounds in the',
+        '        // extractor, so no vertical floor is needed here — the slot',
+        '        // is guaranteed to fit inside the card. Keep a modest',
+        '        // horizontal floor so narrow symbol areas still render',
+        '        // tappable buttons.',
         '        slot.style.width="max("+wPct.toFixed(2)+"%,44px)";',
-        '        slot.style.height="max("+hPct.toFixed(2)+"%,120px)";',
+        '        slot.style.height=hPct.toFixed(2)+"%";',
         '        var choice=buildChoice(i);',
         '        slot.appendChild(choice);',
         '      } else {',

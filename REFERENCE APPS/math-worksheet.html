@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
+    <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <title>Math Worksheet Generator</title>
@@ -3881,6 +3882,10 @@
           enforceZOrder(worksheetCanvas);
           userAddedObjects.forEach(obj => worksheetCanvas.bringToFront(obj));
 
+          if (window.LCSAttribution) {
+              LCSAttribution.addToCanvas(worksheetCanvas, { currentCanvasConfig: currentCanvasConfig });
+          }
+
           worksheetCanvas.renderAll();
       }
 
@@ -4087,6 +4092,10 @@
           layoutAndRenderPuzzles(answerKeyCanvas, allAnswerKeyBlocks);
           enforceZOrder(answerKeyCanvas);
           userAddedObjects.forEach(obj => answerKeyCanvas.bringToFront(obj));
+
+          if (window.LCSAttribution) {
+              LCSAttribution.addToCanvas(answerKeyCanvas, { currentCanvasConfig: currentCanvasConfig });
+          }
 
           answerKeyCanvas.renderAll();
           document.querySelector('.tab-button[data-tab="answerTabContent"]').click();
@@ -4338,6 +4347,9 @@
 
           var worksheetImage = await _captureWorksheetImage(canvas);
 
+          var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
+              ? LCSAttribution.getRectFromCanvas(canvas) : null;
+
           return {
               bundleVersion: '9.0.0',
               appType: 'math-worksheet',
@@ -4349,7 +4361,12 @@
                   height: currentCanvasConfig.height
               },
               worksheetImage: worksheetImage,
-              slots: slots
+              slots: slots,
+              attribution: attributionRect ? {
+                  text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
+                  url: (window.LCSAttribution && LCSAttribution.URL) || 'https://lessoncraftstudio.com',
+                  rect: attributionRect
+              } : null
           };
       }
 
@@ -4414,16 +4431,16 @@
           '.lcs-confetti__piece{position:absolute;width:8px;height:14px;top:-20px;animation:lcs-fall linear forwards;border-radius:2px}',
           '@keyframes lcs-fall{to{transform:translateY(620px) rotate(540deg);opacity:0}}',
           '.lcs-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}',
-          '.lcs-attrib{text-align:center;margin:24px 0 8px;font-size:12px;color:#8a8a8e}',
-          '.lcs-attrib a{color:#8a8a8e;text-decoration:none}',
-          '.lcs-attrib a:hover{color:#4E5FE8}',
+          '.lcs-attrib-link{position:absolute;transform:translate(-50%,-50%);pointer-events:auto;cursor:pointer;background:transparent;text-decoration:none;border-radius:4px;outline:none}',
+          '.lcs-attrib-link:focus-visible{outline:2px solid #4E5FE8;outline-offset:2px}',
+          '.lcs-attrib-link:hover{background:rgba(78,95,232,.08)}',
           '@media (prefers-reduced-motion:reduce){',
           '  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.15s !important}',
           '  .lcs-confetti{display:none}',
           '}',
           '@media print{',
           '  body{background:#FFF}',
-          '  .lcs-bar,.lcs-footer,.lcs-celebration,.lcs-attrib,.lcs-mark{display:none !important}',
+          '  .lcs-bar,.lcs-footer,.lcs-celebration,.lcs-attrib-link,.lcs-mark{display:none !important}',
           '  .lcs-worksheet{box-shadow:none;border:none}',
           '  .lcs-input{background:transparent;border:1px solid #000;color:#000;animation:none}',
           '}'
@@ -4523,6 +4540,19 @@
           '      var fontPx=Math.max(9,Math.min(widthCap,heightCap,22));',
           '      input.style.fontSize=fontPx.toFixed(1)+"px";',
           '    });',
+          '    if(DECK_BUNDLE.attribution&&DECK_BUNDLE.attribution.rect){',
+          '      var ar=DECK_BUNDLE.attribution.rect;',
+          '      var axPct=(ar.x/pw)*100;var ayPct=(ar.y/ph)*100;',
+          '      var awPct=(ar.w/pw)*100;var ahPct=(ar.h/ph)*100;',
+          '      var link=document.createElement("a");',
+          '      link.className="lcs-attrib-link";',
+          '      link.href=DECK_BUNDLE.attribution.url||"https://lessoncraftstudio.com";',
+          '      link.target="_blank";link.rel="noopener";',
+          '      link.setAttribute("aria-label",DECK_BUNDLE.attribution.text||"Made with LessonCraftStudio.com");',
+          '      link.style.left=axPct+"%";link.style.top=ayPct+"%";',
+          '      link.style.width=awPct.toFixed(2)+"%";link.style.height=ahPct.toFixed(2)+"%";',
+          '      overlayEl.appendChild(link);',
+          '    }',
           '  }',
           '',
           '  function buildInput(idx){',
@@ -4745,7 +4775,6 @@
           parts.push('      <div class="lcs-overlay" id="lcs-overlay"></div>');
           parts.push('    </div>');
           parts.push('  </div>');
-          parts.push('  <p class="lcs-attrib">Made with <a href="https://www.lessoncraftstudio.com" target="_blank" rel="noopener">LessonCraftStudio</a></p>');
           parts.push('</main>');
           parts.push('<footer class="lcs-footer">');
           parts.push('  <button type="button" id="lcs-check" class="lcs-btn lcs-btn--primary" disabled>Check Answers</button>');

@@ -3461,11 +3461,16 @@
                 });
                 
                 // Position text separately (remains individually editable)
-                mainQuestionText.set({ 
+                mainQuestionText.set({
                     left: colX + numberImageGroup.width + 10,
                     top: currentColumnY,
-                    isGeneratedItem: !isAnswerKey, 
-                    isAnswerKeyItem: isAnswerKey
+                    isGeneratedItem: !isAnswerKey,
+                    isAnswerKeyItem: isAnswerKey,
+                    // v12 interactive: flag fill-in Q&A textboxes + per-problem index
+                    // so the exporter can locate the "__________" blank via
+                    // fabric's __charBounds and emit a typed slot per problem.
+                    isFillinExerciseText: true,
+                    originalIndex: i
                 });
                 
                 // Add group and text separately
@@ -4005,70 +4010,161 @@
         return { x: (minX + maxX) / 2, y: (minY + maxY) / 2, w: maxX - minX, h: maxY - minY };
     }
 
+    // For a fabric.Textbox, locate the first contiguous run of underscore
+    // characters in textbox.text and return its world rect using fabric's
+    // __charBounds (populated after initDimensions/renderAll). Used to
+    // position the interactive typed-answer input exactly where the
+    // printed "__________" blank sits inside the sentence.
+    function _findBlankRectInTextbox(tb) {
+        if (!tb || typeof tb.text !== 'string') return null;
+        var s = tb.text;
+        var firstUnderscore = s.indexOf('_');
+        if (firstUnderscore < 0) return null;
+        var lastUnderscore = firstUnderscore;
+        while (lastUnderscore + 1 < s.length && s.charAt(lastUnderscore + 1) === '_') lastUnderscore++;
+        // Ensure charBounds exist — forces measurement if needed.
+        if (typeof tb.initDimensions === 'function' && (!tb.__charBounds || !tb.__charBounds.length)) {
+            try { tb.initDimensions(); } catch (e) { /* ignore */ }
+        }
+        if (!tb.__charBounds || !tb.__charBounds.length) return null;
+        // Find which line contains the underscore run by accumulating
+        // character counts across lines. Textbox splits by grapheme so we
+        // mirror that by iterating the flat lines.
+        var lineIdx = 0, charsConsumed = 0, firstIdxInLine = 0, lastIdxInLine = 0;
+        for (var li = 0; li < tb.__charBounds.length; li++) {
+            var lineLen = tb.__charBounds[li].length;
+            if (firstUnderscore < charsConsumed + lineLen) {
+                lineIdx = li;
+                firstIdxInLine = firstUnderscore - charsConsumed;
+                lastIdxInLine = Math.min(lastUnderscore - charsConsumed, lineLen - 1);
+                break;
+            }
+            charsConsumed += lineLen + 1; // +1 for line break
+        }
+        var bounds = tb.__charBounds[lineIdx];
+        if (!bounds || !bounds[firstIdxInLine] || !bounds[lastIdxInLine]) return null;
+        var localLeft = bounds[firstIdxInLine].left;
+        var localRight = bounds[lastIdxInLine].left + bounds[lastIdxInLine].width;
+        // Textbox-local y: lineHeight * (lineIdx + 0.5) — approximate.
+        var fontSize = tb.fontSize || 14;
+        var lineHeight = tb.lineHeight || 1.16;
+        var localCenterY = (lineIdx + 0.5) * fontSize * lineHeight;
+        // Convert to object-local (centered) coords for calcTransformMatrix.
+        var objW = tb.width || 100;
+        var objH = tb.height || fontSize * lineHeight;
+        var localCenterX = (localLeft + localRight) / 2 - objW / 2;
+        var localYCentered = localCenterY - objH / 2;
+        var localWidth = localRight - localLeft;
+        var localHeight = fontSize * lineHeight;
+        var m = tb.calcTransformMatrix();
+        var center = fabric.util.transformPoint({ x: localCenterX, y: localYCentered }, m);
+        // Width/height in world: scale by textbox scaleX/scaleY (default 1).
+        var scaleX = tb.scaleX || 1;
+        var scaleY = tb.scaleY || 1;
+        return {
+            x: center.x,
+            y: center.y,
+            w: localWidth * scaleX,
+            h: localHeight * scaleY
+        };
+    }
+
     async function extractDeckBundle_v12(canvas) {
         var pd = canvas.problemsData || {};
         var mode = pd.mode || 'unknown';
-        if (mode !== 'multiplechoice') {
-            throw new Error('Interactive export currently supports Multiple Choice mode only. Switch mode and regenerate.');
+        if (mode !== 'multiplechoice' && mode !== 'fillin') {
+            throw new Error('Interactive export supports Multiple Choice or Fill-in mode. Regenerate a worksheet in one of those modes.');
         }
-
-        // Group all isMultipleChoiceCircle objects by problemIndex.
-        var byProblem = {};
-        canvas.getObjects().forEach(function (o) {
-            if (o && o.isMultipleChoiceCircle === true && typeof o.problemIndex === 'number') {
-                if (!byProblem[o.problemIndex]) byProblem[o.problemIndex] = [];
-                byProblem[o.problemIndex].push(o);
-            }
-        });
-
-        var problems = [];
-        var indices = Object.keys(byProblem).map(function (k) { return parseInt(k, 10); }).sort(function (a, b) { return a - b; });
-        indices.forEach(function (pi) {
-            var circles = byProblem[pi].slice().sort(function (a, b) { return (a.optionIndex || 0) - (b.optionIndex || 0); });
-            var options = circles.map(function (c) {
-                return {
-                    optionIndex: c.optionIndex || 0,
-                    rect: _worldRectBounds_v12(c),
-                    isCorrect: c.isCorrectOption === true
-                };
-            });
-            var expectedIndex = -1;
-            for (var i = 0; i < options.length; i++) {
-                if (options[i].isCorrect) { expectedIndex = i; break; }
-            }
-            if (options.length && expectedIndex >= 0) {
-                problems.push({
-                    problemIndex: pi,
-                    options: options,
-                    expectedIndex: expectedIndex
-                });
-            }
-        });
 
         var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
             ? LCSAttribution.getRectFromCanvas(canvas)
             : null;
-
         var worksheetImage = await _captureWorksheetImage_v12(canvas);
 
-        return {
+        var bundle = {
             bundleVersion: '12.0.0',
             appType: 'prepositions',
             createdAt: new Date().toISOString(),
             contentLanguage: (window.currentLocale || 'en'),
             title: 'Prepositions Practice',
+            mode: mode,
             page: {
                 width: currentCanvasConfig.width,
                 height: currentCanvasConfig.height
             },
             worksheetImage: worksheetImage,
-            problems: problems,
             attribution: attributionRect ? {
                 text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
                 url: (window.LCSAttribution && LCSAttribution.URL) || 'https://lessoncraftstudio.com',
                 rect: attributionRect
             } : null
         };
+
+        if (mode === 'multiplechoice') {
+            // Group all isMultipleChoiceCircle objects by problemIndex.
+            var byProblem = {};
+            canvas.getObjects().forEach(function (o) {
+                if (o && o.isMultipleChoiceCircle === true && typeof o.problemIndex === 'number') {
+                    if (!byProblem[o.problemIndex]) byProblem[o.problemIndex] = [];
+                    byProblem[o.problemIndex].push(o);
+                }
+            });
+            var problems = [];
+            var indices = Object.keys(byProblem).map(function (k) { return parseInt(k, 10); }).sort(function (a, b) { return a - b; });
+            indices.forEach(function (pi) {
+                var circles = byProblem[pi].slice().sort(function (a, b) { return (a.optionIndex || 0) - (b.optionIndex || 0); });
+                var options = circles.map(function (c) {
+                    return {
+                        optionIndex: c.optionIndex || 0,
+                        rect: _worldRectBounds_v12(c),
+                        isCorrect: c.isCorrectOption === true
+                    };
+                });
+                var expectedIndex = -1;
+                for (var i = 0; i < options.length; i++) {
+                    if (options[i].isCorrect) { expectedIndex = i; break; }
+                }
+                if (options.length && expectedIndex >= 0) {
+                    problems.push({
+                        problemIndex: pi,
+                        options: options,
+                        expectedIndex: expectedIndex
+                    });
+                }
+            });
+            bundle.problems = problems;
+        } else {
+            // Fill-in-the-blank mode: walk fill-in textboxes, find the
+            // "____" run via __charBounds, emit a typed slot per problem.
+            var assignments = pd.assignments || [];
+            var loc = (window.currentLocale || 'en').slice(0, 2);
+            var slots = [];
+            canvas.getObjects().forEach(function (o) {
+                if (!o || o.isFillinExerciseText !== true) return;
+                if (typeof o.originalIndex !== 'number') return;
+                var blankRect = _findBlankRectInTextbox(o);
+                if (!blankRect) return;
+                var assignment = assignments[o.originalIndex];
+                if (!assignment) return;
+                var expected = assignment.preposition;
+                // Localized expected answer: fall back to the English key if
+                // the translation table doesn't have this locale.
+                if (typeof PREPOSITION_TRANSLATIONS !== 'undefined'
+                    && PREPOSITION_TRANSLATIONS[assignment.preposition]
+                    && PREPOSITION_TRANSLATIONS[assignment.preposition][loc]) {
+                    expected = PREPOSITION_TRANSLATIONS[assignment.preposition][loc];
+                }
+                slots.push({
+                    problemIndex: o.originalIndex,
+                    rect: blankRect,
+                    expected: String(expected || '').trim()
+                });
+            });
+            slots.sort(function (a, b) { return a.problemIndex - b.problemIndex; });
+            bundle.slots = slots;
+        }
+
+        return bundle;
     }
 
     var INTERACTIVE_CSS_LINES_v12 = [
@@ -4101,6 +4197,19 @@
         '.lcs-choice-ring--correct{border-color:#4CAF50 !important;background-color:rgba(76,175,80,.14) !important;animation:none;cursor:default}',
         '.lcs-choice-ring--wrong{border-color:#E53935 !important;background-color:rgba(229,57,53,.14) !important;animation:none;cursor:default}',
         '.lcs-choice-ring--hint{border-color:#4CAF50 !important;border-style:dashed;background-color:rgba(76,175,80,.06) !important;animation:none;cursor:default}',
+        // Fill-in-the-blank typed-answer slots, overlaid on the textbox
+        // "__________" substring so the student types directly on top of
+        // the printed blank. A muted dashed border fades into the page;
+        // focus/filled states sharpen it.
+        '.lcs-fill-slot{position:absolute;transform:translate(-50%,-50%);pointer-events:none}',
+        '.lcs-fill-input{position:absolute;inset:0;width:100%;height:100%;font-family:inherit;font-weight:700;text-align:center;color:#1C1C1E;padding:0 4px;outline:none;font-size:clamp(12px,1.4vw,16px);pointer-events:auto;cursor:text;-webkit-appearance:none;appearance:none;border:none;border-bottom:2px dashed #4E5FE8;background:rgba(255,248,230,.5);transition:background-color .2s,border-color .2s,box-shadow .2s,color .2s}',
+        '.lcs-fill-input::placeholder{color:rgba(78,95,232,.45);font-weight:600}',
+        '.lcs-fill-input:hover{background:#FFF8E6}',
+        '.lcs-fill-input:focus-visible{border-bottom-style:solid;background:#FFFFFF;box-shadow:0 2px 0 rgba(78,95,232,.22)}',
+        '.lcs-fill-slot--correct .lcs-fill-input{border-bottom:2px solid #4CAF50;background:#E8F5E9;color:#2E7D32;animation:none}',
+        '.lcs-fill-slot--wrong .lcs-fill-input{border-bottom:2px solid #E53935;background:#FFEBEE;color:#C62828;animation:none;text-decoration:line-through;text-decoration-thickness:2px}',
+        '.lcs-fill-mark{position:absolute;left:calc(100% + 6px);top:50%;transform:translateY(-50%);display:flex;align-items:center;gap:4px;pointer-events:none;white-space:nowrap;font-weight:700;font-size:clamp(11px,1.4vw,14px)}',
+        '.lcs-fill-mark__correct-value{color:#2E7D32;background:#FFF;border:2px solid #4CAF50;border-radius:6px;padding:1px 6px}',
         '.lcs-attrib-link{position:absolute;transform:translate(-50%,-50%);pointer-events:auto;cursor:pointer;background:transparent;outline:none;border-radius:4px;transition:background .15s}',
         '.lcs-attrib-link:hover{background:rgba(78,95,232,.06)}',
         '.lcs-attrib-link:focus-visible{outline:2px solid #4E5FE8;outline-offset:2px}',
@@ -4146,7 +4255,10 @@
         '  var STRINGS={en:{title:"Prepositions Practice",checkAnswers:"Check Answers",tryAgain:"Try Again",youDidIt:"You did it!",doAnother:"Do Another",printMyWorksheet:"Print my worksheet",mute:"Mute sounds",unmute:"Turn sounds on",problemNumber:"Problem",correct:"correct",score:"{n} of {total} correct",allCorrect:"All correct!"}};',
         '  function T(k){var loc=(DECK_BUNDLE.contentLanguage||"en").slice(0,2);var t=STRINGS[loc]||STRINGS.en;return t[k]||STRINGS.en[k]||k}',
         '',
-        '  var state=DECK_BUNDLE.problems.map(function(p){return{problemIndex:p.problemIndex,expectedIndex:p.expectedIndex,options:p.options,selectedIndex:null,status:"empty"}});',
+        '  var MODE=DECK_BUNDLE.mode||"multiplechoice";',
+        '  var state=(MODE==="fillin")',
+        '    ? (DECK_BUNDLE.slots||[]).map(function(s){return{kind:"typed",problemIndex:s.problemIndex,rect:s.rect,expected:s.expected,value:"",status:"empty"}})',
+        '    : (DECK_BUNDLE.problems||[]).map(function(p){return{kind:"choice",problemIndex:p.problemIndex,expectedIndex:p.expectedIndex,options:p.options,selectedIndex:null,status:"empty"}});',
         '  var pw=DECK_BUNDLE.page.width,ph=DECK_BUNDLE.page.height;',
         '  var muted=false;try{muted=localStorage.getItem("lcsMuted")==="1"}catch(e){}',
         '  var reducedMotion=false;try{reducedMotion=window.matchMedia("(prefers-reduced-motion: reduce)").matches}catch(e){}',
@@ -4196,23 +4308,58 @@
         '',
         '  function renderOverlay(){',
         '    overlayEl.innerHTML="";',
-        '    state.forEach(function(s,pi){',
-        '      s.options.forEach(function(opt,oi){',
-        '        var el=document.createElement("button");',
-        '        el.type="button";',
-        '        el.className="lcs-choice-ring lcs-choice-ring--empty";',
-        '        el.setAttribute("data-prob",String(pi));',
-        '        el.setAttribute("data-opt",String(oi));',
-        '        el.setAttribute("aria-label","Problem "+(pi+1)+" option "+(oi+1));',
-        '        var size=Math.max(opt.rect.w,opt.rect.h);',
-        '        el.style.left=((opt.rect.x/pw)*100).toFixed(3)+"%";',
-        '        el.style.top=((opt.rect.y/ph)*100).toFixed(3)+"%";',
-        '        el.style.width=((size/pw)*100).toFixed(3)+"%";',
-        '        el.style.height=((size/ph)*100).toFixed(3)+"%";',
-        '        el.addEventListener("click",function(){onRingClick(pi,oi)});',
-        '        overlayEl.appendChild(el);',
+        '    if(MODE==="fillin"){',
+        '      state.forEach(function(s,i){',
+        '        if(!s.rect)return;',
+        '        var slot=document.createElement("div");',
+        '        slot.className="lcs-fill-slot";',
+        '        slot.setAttribute("data-idx",String(i));',
+        '        slot.style.left=((s.rect.x/pw)*100).toFixed(3)+"%";',
+        '        slot.style.top=((s.rect.y/ph)*100).toFixed(3)+"%";',
+        '        slot.style.width="max("+((s.rect.w/pw)*100).toFixed(3)+"%,60px)";',
+        '        slot.style.height="max("+((s.rect.h/ph)*100).toFixed(3)+"%,22px)";',
+        '        var input=document.createElement("input");',
+        '        input.type="text";',
+        '        input.className="lcs-fill-input";',
+        '        input.setAttribute("autocomplete","off");',
+        '        input.setAttribute("autocorrect","off");',
+        '        input.setAttribute("autocapitalize","off");',
+        '        input.setAttribute("spellcheck","false");',
+        '        input.setAttribute("placeholder","?");',
+        '        input.setAttribute("data-idx",String(i));',
+        '        input.setAttribute("aria-label",T("problemNumber")+" "+(i+1));',
+        '        input.addEventListener("input",function(){',
+        '          if(phase!=="fill")return;',
+        '          state[i].value=input.value;',
+        '          state[i].status=input.value.trim().length>0?"filled":"empty";',
+        '          syncDots();',
+        '          updateCheckButton();',
+        '        });',
+        '        input.addEventListener("keydown",function(e){if(e.key==="Enter"){e.preventDefault();advanceFromFill(i)}});',
+        '        slot.appendChild(input);',
+        '        var mark=document.createElement("span");mark.className="lcs-fill-mark";mark.id="lcs-fmark-"+i;',
+        '        slot.appendChild(mark);',
+        '        overlayEl.appendChild(slot);',
         '      });',
-        '    });',
+        '    } else {',
+        '      state.forEach(function(s,pi){',
+        '        s.options.forEach(function(opt,oi){',
+        '          var el=document.createElement("button");',
+        '          el.type="button";',
+        '          el.className="lcs-choice-ring lcs-choice-ring--empty";',
+        '          el.setAttribute("data-prob",String(pi));',
+        '          el.setAttribute("data-opt",String(oi));',
+        '          el.setAttribute("aria-label","Problem "+(pi+1)+" option "+(oi+1));',
+        '          var size=Math.max(opt.rect.w,opt.rect.h);',
+        '          el.style.left=((opt.rect.x/pw)*100).toFixed(3)+"%";',
+        '          el.style.top=((opt.rect.y/ph)*100).toFixed(3)+"%";',
+        '          el.style.width=((size/pw)*100).toFixed(3)+"%";',
+        '          el.style.height=((size/ph)*100).toFixed(3)+"%";',
+        '          el.addEventListener("click",function(){onRingClick(pi,oi)});',
+        '          overlayEl.appendChild(el);',
+        '        });',
+        '      });',
+        '    }',
         '    var attr=DECK_BUNDLE.attribution;',
         '    if(attr&&attr.rect){',
         '      var a=document.createElement("a");',
@@ -4247,9 +4394,19 @@
         '',
         '  function updateCheckButton(){',
         '    if(!checkBtn)return;',
-        '    var allPicked=state.every(function(s){return typeof s.selectedIndex==="number"});',
-        '    checkBtn.disabled=!allPicked||phase!=="fill";',
+        '    var allReady=(MODE==="fillin")',
+        '      ? state.every(function(s){return (s.value||"").trim().length>0})',
+        '      : state.every(function(s){return typeof s.selectedIndex==="number"});',
+        '    checkBtn.disabled=!allReady||phase!=="fill";',
         '  }',
+        '',
+        '  function advanceFromFill(idx){',
+        '    for(var i=idx+1;i<state.length;i++){',
+        '      var inp=overlayEl.querySelector(\'.lcs-fill-input[data-idx="\'+i+\'"]\');',
+        '      if(inp&&(!state[i].value||state[i].value.trim().length===0)){inp.focus();if(inp.select)try{inp.select()}catch(e){}return}',
+        '    }',
+        '  }',
+        '  function normalize(v){return String(v==null?"":v).trim().toLowerCase()}',
         '',
         '  function wireButtons(){',
         '    checkBtn.addEventListener("click",checkAll);',
@@ -4260,23 +4417,42 @@
         '    if(phase!=="fill")return;',
         '    phase="reviewed";',
         '    var correct=0;',
-        '    state.forEach(function(s,pi){',
-        '      var sel=s.selectedIndex;',
-        '      var rings=overlayEl.querySelectorAll(\'.lcs-choice-ring[data-prob="\'+pi+\'"]\');',
-        '      for(var k=0;k<rings.length;k++){',
-        '        var el=rings[k];',
-        '        var oi=parseInt(el.getAttribute("data-opt"),10);',
-        '        el.classList.remove("lcs-choice-ring--empty","lcs-choice-ring--selected","lcs-choice-ring--correct","lcs-choice-ring--wrong","lcs-choice-ring--hint");',
-        '        if(oi===sel){',
-        '          if(oi===s.expectedIndex){el.classList.add("lcs-choice-ring--correct")}',
-        '          else{el.classList.add("lcs-choice-ring--wrong")}',
-        '        } else if(oi===s.expectedIndex&&sel!==s.expectedIndex){',
-        '          el.classList.add("lcs-choice-ring--hint");',
+        '    if(MODE==="fillin"){',
+        '      state.forEach(function(s,i){',
+        '        var slot=overlayEl.querySelector(\'.lcs-fill-slot[data-idx="\'+i+\'"]\');',
+        '        var input=overlayEl.querySelector(\'.lcs-fill-input[data-idx="\'+i+\'"]\');',
+        '        var mark=document.getElementById("lcs-fmark-"+i);',
+        '        if(input)input.setAttribute("readonly","readonly");',
+        '        if(slot)slot.classList.remove("lcs-fill-slot--correct","lcs-fill-slot--wrong");',
+        '        if(normalize(s.value)===normalize(s.expected)){',
+        '          s.status="correct";correct++;',
+        '          if(slot)slot.classList.add("lcs-fill-slot--correct");',
+        '          if(mark)mark.innerHTML=\'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#4CAF50" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg>\';',
+        '        } else {',
+        '          s.status="wrong";',
+        '          if(slot)slot.classList.add("lcs-fill-slot--wrong");',
+        '          if(mark)mark.innerHTML=\'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E53935" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M6 18L18 6"/></svg><span class="lcs-fill-mark__correct-value">\'+s.expected+\'</span>\';',
         '        }',
-        '      }',
-        '      if(sel===s.expectedIndex){s.status="correct";correct++}',
-        '      else{s.status="wrong"}',
-        '    });',
+        '      });',
+        '    } else {',
+        '      state.forEach(function(s,pi){',
+        '        var sel=s.selectedIndex;',
+        '        var rings=overlayEl.querySelectorAll(\'.lcs-choice-ring[data-prob="\'+pi+\'"]\');',
+        '        for(var k=0;k<rings.length;k++){',
+        '          var el=rings[k];',
+        '          var oi=parseInt(el.getAttribute("data-opt"),10);',
+        '          el.classList.remove("lcs-choice-ring--empty","lcs-choice-ring--selected","lcs-choice-ring--correct","lcs-choice-ring--wrong","lcs-choice-ring--hint");',
+        '          if(oi===sel){',
+        '            if(oi===s.expectedIndex){el.classList.add("lcs-choice-ring--correct")}',
+        '            else{el.classList.add("lcs-choice-ring--wrong")}',
+        '          } else if(oi===s.expectedIndex&&sel!==s.expectedIndex){',
+        '            el.classList.add("lcs-choice-ring--hint");',
+        '          }',
+        '        }',
+        '        if(sel===s.expectedIndex){s.status="correct";correct++}',
+        '        else{s.status="wrong"}',
+        '      });',
+        '    }',
         '    syncDots();',
         '    checkBtn.hidden=true;resetBtn.hidden=false;',
         '    var total=state.length;',
@@ -4292,11 +4468,22 @@
         '',
         '  function resetAll(){',
         '    phase="fill";celebrationShown=false;',
-        '    state.forEach(function(s){s.selectedIndex=null;s.status="empty"});',
-        '    var rings=overlayEl.querySelectorAll(".lcs-choice-ring");',
-        '    for(var k=0;k<rings.length;k++){',
-        '      rings[k].classList.remove("lcs-choice-ring--selected","lcs-choice-ring--correct","lcs-choice-ring--wrong","lcs-choice-ring--hint");',
-        '      rings[k].classList.add("lcs-choice-ring--empty");',
+        '    if(MODE==="fillin"){',
+        '      state.forEach(function(s,i){',
+        '        s.value="";s.status="empty";',
+        '        var input=overlayEl.querySelector(\'.lcs-fill-input[data-idx="\'+i+\'"]\');',
+        '        if(input){input.value="";input.removeAttribute("readonly")}',
+        '        var slot=overlayEl.querySelector(\'.lcs-fill-slot[data-idx="\'+i+\'"]\');',
+        '        if(slot)slot.classList.remove("lcs-fill-slot--correct","lcs-fill-slot--wrong");',
+        '        var mark=document.getElementById("lcs-fmark-"+i);if(mark)mark.innerHTML="";',
+        '      });',
+        '    } else {',
+        '      state.forEach(function(s){s.selectedIndex=null;s.status="empty"});',
+        '      var rings=overlayEl.querySelectorAll(".lcs-choice-ring");',
+        '      for(var k=0;k<rings.length;k++){',
+        '        rings[k].classList.remove("lcs-choice-ring--selected","lcs-choice-ring--correct","lcs-choice-ring--wrong","lcs-choice-ring--hint");',
+        '        rings[k].classList.add("lcs-choice-ring--empty");',
+        '      }',
         '    }',
         '    syncDots();',
         '    checkBtn.hidden=false;resetBtn.hidden=true;',
@@ -4433,8 +4620,11 @@
             if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
                 throw new Error('Worksheet snapshot is empty.');
             }
-            if (!bundle.problems.length) {
-                throw new Error('No multiple-choice problems detected. Switch to Multiple Choice mode and regenerate.');
+            if (bundle.mode === 'multiplechoice' && (!bundle.problems || !bundle.problems.length)) {
+                throw new Error('No multiple-choice problems detected. Regenerate the worksheet.');
+            }
+            if (bundle.mode === 'fillin' && (!bundle.slots || !bundle.slots.length)) {
+                throw new Error('No fill-in blanks detected. Regenerate the worksheet.');
             }
             var html = renderStandaloneHTML_v12(bundle);
             var blob = new Blob([html], { type: 'text/html;charset=utf-8' });

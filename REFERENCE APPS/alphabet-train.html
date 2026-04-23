@@ -1337,6 +1337,8 @@
                         <button id="downloadWsPdfBtn" disabled data-translate="worksheetPDF">Worksheet (PDF)</button>
                         <button id="downloadAkPdfBtn" disabled data-translate="answerKeyPDF">Answer Key (PDF)</button>
                         <hr style="margin: 6px 0; border-color: var(--app-border-light);">
+                        <button id="downloadInteractiveHtmlBtn" disabled data-translate="alphabettrain.download.interactive.html">Interactive Worksheet (HTML)</button>
+                        <hr style="margin: 6px 0; border-color: var(--app-border-light);">
                         <label class="checkbox-label">
                             <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
                         </label>
@@ -1498,6 +1500,7 @@
     const downloadAkJpegBtn = document.getElementById('downloadAkJpegBtn');
     const downloadWsPdfBtn = document.getElementById('downloadWsPdfBtn');
     const downloadAkPdfBtn = document.getElementById('downloadAkPdfBtn');
+    const downloadInteractiveHtmlBtn = document.getElementById('downloadInteractiveHtmlBtn');
     const grayscaleToggle = document.getElementById('grayscaleToggle');
     const alphabetGridEl = document.getElementById('alphabetGrid');
     const letterCountEl = document.getElementById('letterCount');
@@ -2292,6 +2295,7 @@
         downloadDropdownBtn.disabled = !state.dropdown;
         downloadWsJpegBtn.disabled = !state.ws;
         downloadWsPdfBtn.disabled = !state.ws;
+        downloadInteractiveHtmlBtn.disabled = !state.ws;
         downloadAkJpegBtn.disabled = !state.ak;
         downloadAkPdfBtn.disabled = !state.ak;
         
@@ -3280,6 +3284,28 @@
                         cornerStyle: 'circle'
                     });
                     masterElements.push(clueFabImg);
+                } else {
+                    // Invisible marker rect so the Interactive-HTML exporter
+                    // can find the wagon's world position. Fill+stroke both
+                    // transparent ⇒ no visible change on the JPEG / PDF.
+                    const wagonBoxSize = WAGON_BOX_SIZE_BASE * S_SCALE;
+                    const markerRect = new fabric.Rect({
+                        left: finalLeft,
+                        top: finalTop,
+                        width: wagonBoxSize,
+                        height: wagonBoxSize,
+                        originX: 'left', originY: 'top',
+                        fill: 'transparent',
+                        stroke: 'transparent',
+                        selectable: false,
+                        evented: false,
+                        objectCaching: false,
+                        isTrainGeneratedItem: true,
+                        generationId: 'emptyWagon_' + letter,
+                        isEmptyWagon: true,
+                        wagonLetter: letter
+                    });
+                    newGeneratedObjects.push(markerRect);
                 }
             }
             // Add train background as a separate object
@@ -3344,7 +3370,10 @@
                 cutFabImg.scale(scaleFactorCut).set({
                     left: left_full + (enlargedCutBoxSize - cutFabImg.getScaledWidth()) / 2,
                     top: cutBoxTop_full + (enlargedCutBoxSize - cutFabImg.getScaledHeight()) / 2,
-                    selectable: false, evented: false
+                    selectable: false, evented: false,
+                    isAlphabetCutout: true,
+                    cutoutLetter: letter,
+                    cutoutImagePath: assignedImgData.path
                 });
                 cutoutElements.push(cutFabImg);
             }
@@ -3380,6 +3409,15 @@
             newGeneratedObjects.forEach(obj => worksheetCanvas.add(obj));
             enforceZOrder(worksheetCanvas);
             userAddedObjects.forEach(obj => worksheetCanvas.bringToFront(obj));
+
+            // Expose per-run data on the canvas so the Interactive-HTML
+            // exporter can enumerate letters, clues and cutouts uniformly.
+            worksheetCanvas.problemsData = {
+                selectedLetters: selectedLetters.slice(),
+                letterToImage: letterToImage,
+                clueLetters: clues.slice(),
+                cutoutLetters: remainingLettersForCutouts.slice()
+            };
 
         } catch (error) {
             console.error("Error building worksheet:", error);
@@ -3931,7 +3969,702 @@ async function downloadPDF(canvasToExport, fileName) {
             removeWatermarkFromCanvas(canvasToExport, watermarkData);
         }
     }
-    
+
+    // ====================================================================
+    // BEGIN: Interactive-HTML export v10 (drag-to-wagon matching)
+    // A v8-compatible bundle (same slots/runtime/CSS shape as math-puzzle)
+    // but adapted for the alphabet-train worksheet: empty wagons become
+    // drop-target cells, cutout pictures at the bottom become draggable
+    // pieces. The validation check in v8's runtime
+    // (pieces[occ].number === cells[i].expectedNumber) works identically
+    // on letter strings, so the v8 runtime is copied verbatim.
+    // ====================================================================
+
+    async function _captureWorksheetImage(canvas) {
+        var savedZoom = canvas.getZoom();
+        var savedW = canvas.getWidth();
+        var savedH = canvas.getHeight();
+        canvas.discardActiveObject();
+        canvas.setZoom(1);
+        canvas.setDimensions({ width: currentCanvasConfig.width, height: currentCanvasConfig.height });
+        // Hide the cutout palette (the whole group — dashed rects AND the
+        // pictures inside). Interactive pieces live purely as DOM overlay
+        // divs; the JPEG backdrop is just the train + clue wagons + header.
+        var hidden = [];
+        (function walk(objs) {
+            if (!objs) return;
+            objs.forEach(function (o) {
+                if (o && o.isTrainGeneratedItem === true &&
+                    o.originalIndex === 1 && o.visible !== false) {
+                    o.visible = false;
+                    hidden.push(o);
+                }
+                if (o && o.isAlphabetCutout === true && o.visible !== false) {
+                    o.visible = false;
+                    hidden.push(o);
+                }
+                if (o && o._objects) walk(o._objects);
+            });
+        })(canvas.getObjects());
+        canvas.renderAll();
+        var dataURL;
+        try {
+            dataURL = canvas.toDataURL({ format: 'jpeg', quality: 0.85, multiplier: 2 });
+        } finally {
+            hidden.forEach(function (o) { o.visible = true; });
+            canvas.setZoom(savedZoom);
+            canvas.setDimensions({ width: savedW, height: savedH });
+            canvas.renderAll();
+        }
+        return dataURL;
+    }
+
+    // AABB for a fabric object in world coords. Uses raw width/height —
+    // calcTransformMatrix already applies the object's own scale; feeding
+    // getScaledWidth() here would double-scale (CLAUDE.md §14.6).
+    function _worldRectBounds(obj) {
+        var m = obj.calcTransformMatrix();
+        var hw = (obj.width || 40) / 2;
+        var hh = (obj.height || 40) / 2;
+        var corners = [
+            fabric.util.transformPoint({ x: -hw, y: -hh }, m),
+            fabric.util.transformPoint({ x:  hw, y: -hh }, m),
+            fabric.util.transformPoint({ x:  hw, y:  hh }, m),
+            fabric.util.transformPoint({ x: -hw, y:  hh }, m)
+        ];
+        var xs = corners.map(function (c) { return c.x; });
+        var ys = corners.map(function (c) { return c.y; });
+        var minX = Math.min.apply(null, xs), maxX = Math.max.apply(null, xs);
+        var minY = Math.min.apply(null, ys), maxY = Math.max.apply(null, ys);
+        return { x: (minX + maxX) / 2, y: (minY + maxY) / 2, w: maxX - minX, h: maxY - minY };
+    }
+
+    // Collect every empty-wagon marker and every cutout image, even when
+    // cutouts are nested inside the cutout palette group.
+    function _collectTaggedItems(canvas) {
+        var wagons = [];
+        var cutouts = [];
+        (function walk(objs) {
+            if (!objs) return;
+            objs.forEach(function (o) {
+                if (o && o.isEmptyWagon === true) wagons.push(o);
+                if (o && o.isAlphabetCutout === true) cutouts.push(o);
+                if (o && o._objects) walk(o._objects);
+            });
+        })(canvas.getObjects());
+        return { wagons: wagons, cutouts: cutouts };
+    }
+
+    // Convert a loaded fabric.Image's underlying HTMLImageElement to a
+    // base64 PNG so the self-contained .html can render it offline. Images
+    // are loaded with crossOrigin:'anonymous', so the draw is tainted-free.
+    function _fabricImageToDataURL(img) {
+        var el = (img._element && img._element.nodeType) ? img._element : (img.getElement ? img.getElement() : null);
+        if (!el) return '';
+        var w = img.width || 100;
+        var h = img.height || 100;
+        var tc = document.createElement('canvas');
+        tc.width = Math.max(1, Math.round(w));
+        tc.height = Math.max(1, Math.round(h));
+        try {
+            tc.getContext('2d').drawImage(el, 0, 0, tc.width, tc.height);
+            return tc.toDataURL('image/png');
+        } catch (e) {
+            console.error('[Interactive Export v10] image→dataURL failed:', e);
+            return '';
+        }
+    }
+
+    async function extractDeckBundle(canvas) {
+        var found = _collectTaggedItems(canvas);
+        // Wagons in alphabetical order so cells[i] is stable and matches
+        // how a teacher would read the train left-to-right.
+        found.wagons.sort(function (a, b) {
+            return String(a.wagonLetter || '').localeCompare(String(b.wagonLetter || ''));
+        });
+
+        var cells = found.wagons.map(function (w, i) {
+            return {
+                cellIndex: i,
+                rect: _worldRectBounds(w),
+                operationText: '',
+                expectedNumber: String(w.wagonLetter || '')
+            };
+        });
+
+        var pieces = found.cutouts.map(function (c, i) {
+            return {
+                pieceIndex: i,
+                number: String(c.cutoutLetter || ''),
+                imgDataUrl: _fabricImageToDataURL(c),
+                initialRect: _worldRectBounds(c)
+            };
+        }).filter(function (p) { return p.imgDataUrl && p.number; });
+
+        var worksheetImage = await _captureWorksheetImage(canvas);
+
+        return {
+            bundleVersion: '10.0.0',
+            appType: 'alphabet-train',
+            createdAt: new Date().toISOString(),
+            contentLanguage: (window.currentLocale || 'en'),
+            title: 'Alphabet Train Practice',
+            page: {
+                width: currentCanvasConfig.width,
+                height: currentCanvasConfig.height
+            },
+            worksheetImage: worksheetImage,
+            grid: { rows: 1, cols: cells.length, cells: cells },
+            pieces: pieces
+        };
+    }
+
+    var INTERACTIVE_CSS_LINES = [
+        '*{box-sizing:border-box}',
+        'html,body{margin:0;padding:0}',
+        'body{font-family:"Fredoka",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#FEFAF3;color:#1C1C1E;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;min-height:100vh}',
+        '#lcs-app{max-width:980px;margin:0 auto;padding:0 12px;padding-bottom:120px}',
+        '.lcs-bar{position:sticky;top:0;z-index:10;background:rgba(254,250,243,.94);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding:12px 4px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}',
+        '.lcs-title{font-size:clamp(18px,2.6vw,24px);font-weight:600;color:#1C1C1E;margin:0;flex:1 1 auto;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}',
+        '.lcs-progress{display:flex;gap:6px;flex-wrap:wrap;flex:0 1 auto}',
+        '.lcs-dot{width:16px;height:16px;border-radius:50%;background:#FFF;border:2px solid #DCE1E6;padding:0;cursor:pointer;transition:background-color .2s,border-color .2s,transform .2s}',
+        '.lcs-dot:hover{border-color:#4E5FE8;transform:scale(1.1)}',
+        '.lcs-dot:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+        '.lcs-dot--filled{background:#4E5FE8;border-color:#4E5FE8}',
+        '.lcs-dot--correct{background:#4CAF50;border-color:#4CAF50}',
+        '.lcs-dot--wrong{background:#E53935;border-color:#E53935}',
+        '.lcs-mute{width:40px;height:40px;border-radius:10px;border:2px solid #DCE1E6;background:#FFF;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;color:#545458;flex-shrink:0}',
+        '.lcs-mute:hover{background:#FEFAF3}',
+        '.lcs-mute:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+        '.lcs-mute svg{width:20px;height:20px;pointer-events:none}',
+        '.lcs-mute[data-muted="1"]{background:#FFF8E6;border-color:#FFC857;color:#8A6D00}',
+        '.lcs-worksheet-wrap{display:flex;justify-content:center;padding-top:8px}',
+        '.lcs-worksheet{position:relative;display:block;width:100%;max-width:880px;background:#FFF;border-radius:10px;box-shadow:0 4px 18px rgba(28,28,30,.08);overflow:visible}',
+        '.lcs-worksheet__img{display:block;width:100%;height:auto;user-select:none;-webkit-user-drag:none;pointer-events:none;border-radius:10px}',
+        '.lcs-overlay{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none}',
+        '.lcs-cell{position:absolute;transform:translate(-50%,-50%);border:2px dashed transparent;border-radius:8px;pointer-events:none;transition:background-color .15s,border-color .15s}',
+        '.lcs-cell--hover{border-color:#4E5FE8;background:rgba(78,95,232,.10)}',
+        '.lcs-cell--correct{border-color:#4CAF50;background:rgba(76,175,80,.14)}',
+        '.lcs-cell--wrong{border-color:#E53935;background:rgba(229,57,53,.14)}',
+        '.lcs-piece{position:absolute;transform:translate(-50%,-50%);background-size:cover;background-position:center;background-repeat:no-repeat;background-color:#FFF;border:2px solid rgba(0,0,0,.12);border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.14);cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none;will-change:transform;pointer-events:auto;z-index:10;transition:box-shadow .15s,filter .15s}',
+        '.lcs-piece:hover{box-shadow:0 4px 14px rgba(0,0,0,.20)}',
+        '.lcs-piece:focus-visible{outline:3px solid #4E5FE8;outline-offset:3px}',
+        '.lcs-piece--dragging{z-index:999;cursor:grabbing;box-shadow:0 10px 24px rgba(0,0,0,.28);transition:none}',
+        '.lcs-piece--correct{border-color:#4CAF50;cursor:default}',
+        '.lcs-piece--wrong{border-color:#E53935;cursor:default}',
+        '.lcs-piece__num{position:absolute;top:-8px;right:-8px;min-width:22px;height:22px;padding:0 6px;background:#FFC857;color:#1C1C1E;border-radius:11px;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 4px rgba(0,0,0,.22);pointer-events:none}',
+        '.lcs-footer{position:sticky;bottom:0;z-index:10;margin-top:24px;background:rgba(254,250,243,.95);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-top:1px solid #DCE1E6;padding:16px 12px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap}',
+        '.lcs-btn{font-family:inherit;font-weight:700;font-size:17px;padding:14px 28px;border-radius:12px;border:none;cursor:pointer;min-height:52px;min-width:160px;transition:background-color .2s,transform .1s,box-shadow .2s,opacity .2s}',
+        '.lcs-btn:active:not([disabled]){transform:scale(.97)}',
+        '.lcs-btn:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+        '.lcs-btn[disabled]{opacity:.45;cursor:not-allowed}',
+        '.lcs-btn--primary{background:#4E5FE8;color:#FFF;box-shadow:0 4px 14px rgba(78,95,232,.3)}',
+        '.lcs-btn--primary:hover:not([disabled]){background:#3F4FD0;box-shadow:0 6px 20px rgba(78,95,232,.4)}',
+        '.lcs-btn--ghost{background:#FFF;color:#1C1C1E;border:2px solid #DCE1E6}',
+        '.lcs-btn--ghost:hover{background:#FEFAF3;border-color:#4E5FE8}',
+        '.lcs-summary{font-size:16px;font-weight:600;color:#545458;align-self:center;padding:0 8px}',
+        '.lcs-summary--all-correct{color:#2E7D32}',
+        '.lcs-celebration{position:fixed;inset:0;background:rgba(28,28,30,.5);display:none;align-items:center;justify-content:center;z-index:10000;padding:16px}',
+        '.lcs-celebration--shown{display:flex}',
+        '.lcs-celebration__inner{position:relative;background:#FFFFFF;border-radius:24px;padding:32px 28px 24px;max-width:520px;width:100%;box-shadow:0 20px 60px rgba(28,28,30,.35);text-align:center;z-index:2}',
+        '.lcs-celebration__title{font-size:clamp(36px,7vw,56px);margin:0 0 4px;color:#4E5FE8;font-weight:700}',
+        '.lcs-stars{font-size:clamp(40px,7vw,52px);letter-spacing:10px;margin:12px 0;line-height:1}',
+        '.lcs-star{color:#DCE1E6}',
+        '.lcs-star--filled{color:#FFC857;filter:drop-shadow(0 2px 4px rgba(255,200,87,.35))}',
+        '.lcs-celebration__sub{color:#545458;font-size:16px;margin:0 0 20px}',
+        '.lcs-mini{display:block;max-width:100%;max-height:200px;margin:0 auto 20px;border-radius:8px;border:1px solid #DCE1E6}',
+        '.lcs-celebration__cta{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}',
+        '.lcs-confetti{position:absolute;inset:0;pointer-events:none;overflow:hidden;border-radius:24px}',
+        '.lcs-confetti__piece{position:absolute;width:8px;height:14px;top:-20px;animation:lcs-fall linear forwards;border-radius:2px}',
+        '@keyframes lcs-fall{to{transform:translateY(620px) rotate(540deg);opacity:0}}',
+        '.lcs-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}',
+        '.lcs-attrib{text-align:center;margin:24px 0 8px;font-size:12px;color:#8a8a8e}',
+        '.lcs-attrib a{color:#8a8a8e;text-decoration:none}',
+        '.lcs-attrib a:hover{color:#4E5FE8}',
+        '@media (prefers-reduced-motion:reduce){',
+        '  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.15s !important}',
+        '  .lcs-confetti{display:none}',
+        '}',
+        '@media print{',
+        '  body{background:#FFF}',
+        '  .lcs-bar,.lcs-footer,.lcs-celebration,.lcs-attrib,.lcs-piece__num{display:none !important}',
+        '  .lcs-worksheet{box-shadow:none;border:none}',
+        '  .lcs-piece{box-shadow:none;border:1px solid #000}',
+        '  .lcs-cell{border-color:transparent !important;background:transparent !important}',
+        '}'
+    ];
+
+    var INTERACTIVE_RUNTIME_LINES = [
+        '(function(){',
+        '  "use strict";',
+        '  var STRINGS = {',
+        '    en:{title:"Alphabet Train Practice",checkAnswers:"Check Answers",tryAgain:"Try Again",youDidIt:"You did it!",doAnother:"Do Another",printMyWorksheet:"Print my worksheet",mute:"Mute sounds",unmute:"Turn sounds on",cellNumber:"Wagon",correct:"correct",score:"{n} of {total} correct",allCorrect:"All correct!"}',
+        '  };',
+        '  function T(key){var loc=(DECK_BUNDLE.contentLanguage||"en").slice(0,2);var t=STRINGS[loc]||STRINGS.en;return t[key]||STRINGS.en[key]||key}',
+        '',
+        '  var pieces=DECK_BUNDLE.pieces.map(function(p){return{pieceIndex:p.pieceIndex,number:p.number,imgDataUrl:p.imgDataUrl,initialRect:p.initialRect,placedInCell:null,status:"empty"}});',
+        '  var cells=DECK_BUNDLE.grid.cells.map(function(c){return{cellIndex:c.cellIndex,rect:c.rect,operationText:c.operationText,expectedNumber:c.expectedNumber,status:"empty"}});',
+        '  var pw=DECK_BUNDLE.page.width,ph=DECK_BUNDLE.page.height;',
+        '  var muted=false;try{muted=localStorage.getItem("lcsMuted")==="1"}catch(e){}',
+        '  var reducedMotion=false;try{reducedMotion=window.matchMedia("(prefers-reduced-motion: reduce)").matches}catch(e){}',
+        '  var audioCtx=null;',
+        '  var phase="fill";',
+        '  var celebrationShown=false;',
+        '  var titleEl,progressEl,overlayEl,muteBtn,celebrationEl,liveEl,imgEl,checkBtn,resetBtn,summaryEl,worksheetEl;',
+        '  var activeDrag=null;',
+        '',
+        '  function init(){',
+        '    titleEl=document.getElementById("lcs-title");',
+        '    progressEl=document.getElementById("lcs-progress");',
+        '    overlayEl=document.getElementById("lcs-overlay");',
+        '    muteBtn=document.getElementById("lcs-mute");',
+        '    celebrationEl=document.getElementById("lcs-celebration");',
+        '    liveEl=document.getElementById("lcs-live");',
+        '    imgEl=document.getElementById("lcs-worksheet-img");',
+        '    worksheetEl=document.getElementById("lcs-worksheet");',
+        '    checkBtn=document.getElementById("lcs-check");',
+        '    resetBtn=document.getElementById("lcs-reset");',
+        '    summaryEl=document.getElementById("lcs-summary");',
+        '    if(titleEl) titleEl.textContent=DECK_BUNDLE.title||T("title");',
+        '    renderProgress();',
+        '    if(imgEl&&imgEl.complete&&imgEl.naturalHeight>0){renderWorksheet();}',
+        '    else if(imgEl){imgEl.addEventListener("load",renderWorksheet);imgEl.addEventListener("error",function(){console.error("[LCS] Worksheet image failed to load")});}',
+        '    wireMute();',
+        '    updateMuteButton();',
+        '    wireButtons();',
+        '  }',
+        '',
+        '  function renderProgress(){',
+        '    progressEl.innerHTML="";',
+        '    cells.forEach(function(c,i){',
+        '      var d=document.createElement("button");',
+        '      d.className="lcs-dot";',
+        '      d.type="button";',
+        '      d.setAttribute("aria-label",T("cellNumber")+" "+(i+1)+(c.expectedNumber?" ("+c.expectedNumber+")":""));',
+        '      progressEl.appendChild(d);',
+        '    });',
+        '    syncDots();',
+        '  }',
+        '  function syncDots(){',
+        '    var dots=progressEl.querySelectorAll(".lcs-dot");',
+        '    for(var i=0;i<dots.length;i++){',
+        '      var c=cells[i];var cls="lcs-dot";',
+        '      if(c.status==="correct")cls+=" lcs-dot--correct";',
+        '      else if(c.status==="wrong")cls+=" lcs-dot--wrong";',
+        '      else if(c.status==="filled")cls+=" lcs-dot--filled";',
+        '      dots[i].className=cls;',
+        '    }',
+        '  }',
+        '',
+        '  function renderWorksheet(){',
+        '    overlayEl.innerHTML="";',
+        '    cells.forEach(function(c,i){',
+        '      var el=document.createElement("div");',
+        '      el.className="lcs-cell";',
+        '      el.setAttribute("data-cell",String(i));',
+        '      el.style.left=((c.rect.x/pw)*100).toFixed(3)+"%";',
+        '      el.style.top=((c.rect.y/ph)*100).toFixed(3)+"%";',
+        '      el.style.width=((c.rect.w/pw)*100).toFixed(3)+"%";',
+        '      el.style.height=((c.rect.h/ph)*100).toFixed(3)+"%";',
+        '      overlayEl.appendChild(el);',
+        '    });',
+        '    pieces.forEach(function(p,i){',
+        '      var el=document.createElement("div");',
+        '      el.className="lcs-piece";',
+        '      el.setAttribute("data-piece",String(i));',
+        '      el.setAttribute("role","button");',
+        '      el.setAttribute("tabindex","0");',
+        '      el.setAttribute("aria-label","Puzzle piece "+p.number);',
+        '      el.style.backgroundImage="url(\\""+p.imgDataUrl+"\\")";',
+        '      placePieceAtRect(el,p.initialRect);',
+        '      var num=document.createElement("span");',
+        '      num.className="lcs-piece__num";',
+        '      num.textContent=String(p.number);',
+        '      el.appendChild(num);',
+        '      attachDragHandlers(el,i);',
+        '      overlayEl.appendChild(el);',
+        '    });',
+        '  }',
+        '',
+        '  function placePieceAtRect(el,rect){',
+        '    el.style.left=((rect.x/pw)*100).toFixed(3)+"%";',
+        '    el.style.top=((rect.y/ph)*100).toFixed(3)+"%";',
+        '    el.style.width=((rect.w/pw)*100).toFixed(3)+"%";',
+        '    el.style.height=((rect.h/ph)*100).toFixed(3)+"%";',
+        '  }',
+        '',
+        '  function pieceEl(i){return overlayEl.querySelector(\'.lcs-piece[data-piece="\'+i+\'"]\')}',
+        '  function cellEl(i){return overlayEl.querySelector(\'.lcs-cell[data-cell="\'+i+\'"]\')}',
+        '',
+        '  function attachDragHandlers(el,pieceIdx){',
+        '    el.addEventListener("pointerdown",function(e){',
+        '      if(phase!=="fill")return;',
+        '      if(pieces[pieceIdx].status==="correct")return;',
+        '      e.preventDefault();',
+        '      try{el.setPointerCapture(e.pointerId)}catch(_e){}',
+        '      activeDrag={pointerId:e.pointerId,pieceIdx:pieceIdx,startClientX:e.clientX,startClientY:e.clientY};',
+        '      el.classList.add("lcs-piece--dragging");',
+        '    });',
+        '    el.addEventListener("pointermove",function(e){',
+        '      if(!activeDrag||activeDrag.pointerId!==e.pointerId)return;',
+        '      e.preventDefault();',
+        '      var dx=e.clientX-activeDrag.startClientX;',
+        '      var dy=e.clientY-activeDrag.startClientY;',
+        '      el.style.transform="translate(calc(-50% + "+dx+"px), calc(-50% + "+dy+"px))";',
+        '      highlightHoverCell(e.clientX,e.clientY);',
+        '    });',
+        '    el.addEventListener("pointerup",function(e){',
+        '      if(!activeDrag||activeDrag.pointerId!==e.pointerId)return;',
+        '      finishDrag(el,pieceIdx,e.clientX,e.clientY);',
+        '    });',
+        '    el.addEventListener("pointercancel",function(e){',
+        '      if(!activeDrag||activeDrag.pointerId!==e.pointerId)return;',
+        '      finishDrag(el,pieceIdx,-1,-1);',
+        '    });',
+        '    el.addEventListener("keydown",function(e){',
+        '      if(phase!=="fill")return;',
+        '      if(e.key!=="Enter"&&e.key!==" ")return;',
+        '      e.preventDefault();',
+        '      var p=pieces[pieceIdx];',
+        '      var from=(typeof p.placedInCell==="number")?p.placedInCell:-1;',
+        '      for(var k=from+1;k<=cells.length;k++){',
+        '        var target=(k===cells.length)?null:k;',
+        '        var occ=(target===null)?null:findPieceInCell(target);',
+        '        if(occ===null){',
+        '          if(target===null){',
+        '            sendPieceHome(pieceIdx);',
+        '          } else {',
+        '            placePieceInCell(pieceIdx,target);',
+        '          }',
+        '          return;',
+        '        }',
+        '      }',
+        '    });',
+        '  }',
+        '',
+        '  function clearHover(){',
+        '    var hs=overlayEl.querySelectorAll(".lcs-cell--hover");',
+        '    for(var i=0;i<hs.length;i++)hs[i].classList.remove("lcs-cell--hover");',
+        '  }',
+        '',
+        '  function highlightHoverCell(clientX,clientY){',
+        '    var idx=hitTestCell(clientX,clientY);',
+        '    clearHover();',
+        '    if(idx!==null){',
+        '      var el=cellEl(idx);',
+        '      if(el)el.classList.add("lcs-cell--hover");',
+        '    }',
+        '  }',
+        '',
+        '  function hitTestCell(clientX,clientY){',
+        '    for(var i=0;i<cells.length;i++){',
+        '      var el=cellEl(i);if(!el)continue;',
+        '      var r=el.getBoundingClientRect();',
+        '      if(clientX>=r.left&&clientX<=r.right&&clientY>=r.top&&clientY<=r.bottom)return i;',
+        '    }',
+        '    return null;',
+        '  }',
+        '',
+        '  function findPieceInCell(cellIdx){',
+        '    for(var i=0;i<pieces.length;i++){',
+        '      if(pieces[i].placedInCell===cellIdx)return i;',
+        '    }',
+        '    return null;',
+        '  }',
+        '',
+        '  function finishDrag(el,pieceIdx,clientX,clientY){',
+        '    el.classList.remove("lcs-piece--dragging");',
+        '    clearHover();',
+        '    var activePointer=activeDrag?activeDrag.pointerId:null;',
+        '    activeDrag=null;',
+        '    try{if(activePointer!==null)el.releasePointerCapture(activePointer)}catch(_e){}',
+        '    var targetCell=(clientX>=0&&clientY>=0)?hitTestCell(clientX,clientY):null;',
+        '    el.style.transform="";',
+        '    if(targetCell===null){',
+        '      returnPieceToCurrent(pieceIdx);',
+        '    } else {',
+        '      var occupant=findPieceInCell(targetCell);',
+        '      if(occupant===null||occupant===pieceIdx){',
+        '        placePieceInCell(pieceIdx,targetCell);',
+        '      } else {',
+        '        var myOld=pieces[pieceIdx].placedInCell;',
+        '        if(typeof myOld==="number"){',
+        '          pieces[occupant].placedInCell=myOld;',
+        '          placePieceAtRect(pieceEl(occupant),cells[myOld].rect);',
+        '        } else {',
+        '          pieces[occupant].placedInCell=null;',
+        '          placePieceAtRect(pieceEl(occupant),pieces[occupant].initialRect);',
+        '        }',
+        '        placePieceInCell(pieceIdx,targetCell);',
+        '        playTone(420,0.05);',
+        '      }',
+        '    }',
+        '    recomputeStatuses();',
+        '    syncDots();',
+        '    updateCheckButton();',
+        '  }',
+        '',
+        '  function placePieceInCell(pieceIdx,cellIdx){',
+        '    pieces[pieceIdx].placedInCell=cellIdx;',
+        '    placePieceAtRect(pieceEl(pieceIdx),cells[cellIdx].rect);',
+        '    playTone(560,0.05);',
+        '  }',
+        '  function sendPieceHome(pieceIdx){',
+        '    pieces[pieceIdx].placedInCell=null;',
+        '    placePieceAtRect(pieceEl(pieceIdx),pieces[pieceIdx].initialRect);',
+        '  }',
+        '  function returnPieceToCurrent(pieceIdx){',
+        '    var p=pieces[pieceIdx];',
+        '    if(typeof p.placedInCell==="number"){',
+        '      placePieceAtRect(pieceEl(pieceIdx),cells[p.placedInCell].rect);',
+        '    } else {',
+        '      placePieceAtRect(pieceEl(pieceIdx),p.initialRect);',
+        '    }',
+        '  }',
+        '',
+        '  function recomputeStatuses(){',
+        '    cells.forEach(function(c,i){',
+        '      var occ=findPieceInCell(i);',
+        '      c.status=(occ===null)?"empty":"filled";',
+        '    });',
+        '  }',
+        '',
+        '  function updateCheckButton(){',
+        '    if(!checkBtn)return;',
+        '    var allPlaced=pieces.every(function(p){return typeof p.placedInCell==="number"});',
+        '    checkBtn.disabled=!allPlaced||phase!=="fill";',
+        '  }',
+        '',
+        '  function wireButtons(){',
+        '    checkBtn.addEventListener("click",checkAll);',
+        '    resetBtn.addEventListener("click",resetAll);',
+        '  }',
+        '',
+        '  function checkAll(){',
+        '    if(phase!=="fill")return;',
+        '    phase="reviewed";',
+        '    var correct=0;',
+        '    cells.forEach(function(c,i){',
+        '      var occ=findPieceInCell(i);',
+        '      var cEl=cellEl(i);',
+        '      if(cEl)cEl.classList.remove("lcs-cell--hover","lcs-cell--correct","lcs-cell--wrong");',
+        '      if(occ===null){',
+        '        c.status="wrong";',
+        '        if(cEl)cEl.classList.add("lcs-cell--wrong");',
+        '        return;',
+        '      }',
+        '      var p=pieces[occ];',
+        '      if(p.number===c.expectedNumber){',
+        '        c.status="correct";',
+        '        p.status="correct";',
+        '        if(cEl)cEl.classList.add("lcs-cell--correct");',
+        '        var pEl=pieceEl(occ);if(pEl)pEl.classList.add("lcs-piece--correct");',
+        '        correct++;',
+        '      } else {',
+        '        c.status="wrong";',
+        '        p.status="wrong";',
+        '        if(cEl)cEl.classList.add("lcs-cell--wrong");',
+        '        var pEl2=pieceEl(occ);if(pEl2)pEl2.classList.add("lcs-piece--wrong");',
+        '      }',
+        '    });',
+        '    syncDots();',
+        '    checkBtn.hidden=true;',
+        '    resetBtn.hidden=false;',
+        '    var total=cells.length;',
+        '    var txt=T("score").replace("{n}",correct).replace("{total}",total);',
+        '    if(correct===total){summaryEl.textContent=T("allCorrect");summaryEl.className="lcs-summary lcs-summary--all-correct"}',
+        '    else{summaryEl.textContent=txt;summaryEl.className="lcs-summary"}',
+        '    announce(txt);',
+        '    if(correct===total){',
+        '      playTone(659.25,0.13);',
+        '      setTimeout(function(){playTone(987.77,0.18)},160);',
+        '      setTimeout(showCelebration,500);',
+        '    } else {',
+        '      playTone(440,0.1);',
+        '    }',
+        '  }',
+        '',
+        '  function resetAll(){',
+        '    phase="fill";',
+        '    celebrationShown=false;',
+        '    pieces.forEach(function(p,i){',
+        '      p.placedInCell=null;',
+        '      p.status="empty";',
+        '      var el=pieceEl(i);',
+        '      if(el){',
+        '        el.classList.remove("lcs-piece--correct","lcs-piece--wrong","lcs-piece--dragging");',
+        '        el.style.transform="";',
+        '        placePieceAtRect(el,p.initialRect);',
+        '      }',
+        '    });',
+        '    cells.forEach(function(c,i){',
+        '      c.status="empty";',
+        '      var el=cellEl(i);',
+        '      if(el)el.classList.remove("lcs-cell--hover","lcs-cell--correct","lcs-cell--wrong");',
+        '    });',
+        '    syncDots();',
+        '    checkBtn.hidden=false;',
+        '    resetBtn.hidden=true;',
+        '    summaryEl.textContent="";summaryEl.className="lcs-summary";',
+        '    updateCheckButton();',
+        '    celebrationEl.classList.remove("lcs-celebration--shown");',
+        '  }',
+        '',
+        '  function playTone(freq,dur){',
+        '    if(muted)return;',
+        '    try{',
+        '      if(!audioCtx){var Ctx=window.AudioContext||window.webkitAudioContext;if(!Ctx)return;audioCtx=new Ctx()}',
+        '      if(audioCtx.state==="suspended")audioCtx.resume();',
+        '      var osc=audioCtx.createOscillator();var gain=audioCtx.createGain();',
+        '      osc.type="sine";osc.frequency.value=freq;',
+        '      var now=audioCtx.currentTime;',
+        '      gain.gain.setValueAtTime(0,now);',
+        '      gain.gain.linearRampToValueAtTime(0.14,now+0.012);',
+        '      gain.gain.linearRampToValueAtTime(0,now+dur);',
+        '      osc.connect(gain);gain.connect(audioCtx.destination);',
+        '      osc.start(now);osc.stop(now+dur+0.03);',
+        '    }catch(e){}',
+        '  }',
+        '  function announce(msg){if(liveEl)liveEl.textContent=msg}',
+        '',
+        '  function showCelebration(){',
+        '    if(celebrationShown)return;celebrationShown=true;',
+        '    var total=cells.length;',
+        '    var correct=cells.reduce(function(acc,c){return acc+(c.status==="correct"?1:0)},0);',
+        '    var pct=total>0?(correct/total):0;',
+        '    var stars=pct>=0.9?3:pct>=0.6?2:1;',
+        '    var starsHTML="";',
+        '    for(var i=1;i<=3;i++){starsHTML+="<span class=\\"lcs-star"+(i<=stars?" lcs-star--filled":"")+"\\">\\u2605</span>"}',
+        '    celebrationEl.innerHTML=',
+        '      "<div class=\\"lcs-celebration__inner\\">"+',
+        '      "<h1 class=\\"lcs-celebration__title\\">"+T("youDidIt")+"</h1>"+',
+        '      "<div class=\\"lcs-stars\\" aria-label=\\""+stars+" out of 3 stars\\">"+starsHTML+"</div>"+',
+        '      "<p class=\\"lcs-celebration__sub\\">"+correct+" / "+total+" "+T("correct")+"</p>"+',
+        '      "<img class=\\"lcs-mini\\" alt=\\"Your completed worksheet\\" src=\\""+DECK_BUNDLE.worksheetImage+"\\" />"+',
+        '      "<div class=\\"lcs-celebration__cta\\">"+',
+        '        "<button class=\\"lcs-btn lcs-btn--primary\\" type=\\"button\\" id=\\"lcs-do-another\\">"+T("doAnother")+"</button>"+',
+        '        "<button class=\\"lcs-btn lcs-btn--ghost\\" type=\\"button\\" id=\\"lcs-cel-print\\">"+T("printMyWorksheet")+"</button>"+',
+        '      "</div>"+',
+        '      "</div>"+',
+        '      "<div class=\\"lcs-confetti\\" aria-hidden=\\"true\\"></div>";',
+        '    celebrationEl.classList.add("lcs-celebration--shown");',
+        '    document.getElementById("lcs-do-another").addEventListener("click",function(){location.reload()});',
+        '    document.getElementById("lcs-cel-print").addEventListener("click",function(){window.print()});',
+        '    if(!reducedMotion)spawnConfetti();',
+        '  }',
+        '  function spawnConfetti(){',
+        '    var layer=celebrationEl.querySelector(".lcs-confetti");if(!layer)return;',
+        '    var colors=["#4E5FE8","#4CAF50","#FF8A65","#FFC857","#6AB7FF","#B39DDB"];',
+        '    for(var i=0;i<48;i++){',
+        '      var c=document.createElement("span");c.className="lcs-confetti__piece";',
+        '      c.style.left=(Math.random()*100)+"%";',
+        '      c.style.background=colors[i%colors.length];',
+        '      c.style.animationDelay=(Math.random()*0.5)+"s";',
+        '      c.style.animationDuration=(1.8+Math.random()*1.3)+"s";',
+        '      c.style.transform="rotate("+(Math.random()*360)+"deg)";',
+        '      layer.appendChild(c);',
+        '    }',
+        '  }',
+        '',
+        '  function wireMute(){muteBtn.addEventListener("click",function(){muted=!muted;try{localStorage.setItem("lcsMuted",muted?"1":"0")}catch(e){}updateMuteButton()})}',
+        '  function updateMuteButton(){',
+        '    muteBtn.setAttribute("aria-label",muted?T("unmute"):T("mute"));',
+        '    muteBtn.setAttribute("data-muted",muted?"1":"0");',
+        '    muteBtn.innerHTML=muted',
+        '      ? "<svg viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\"><path d=\\"M11 5L6 9H2v6h4l5 4V5z\\"/><line x1=\\"23\\" y1=\\"9\\" x2=\\"17\\" y2=\\"15\\"/><line x1=\\"17\\" y1=\\"9\\" x2=\\"23\\" y2=\\"15\\"/></svg>"',
+        '      : "<svg viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\"><path d=\\"M11 5L6 9H2v6h4l5 4V5z\\"/><path d=\\"M15.54 8.46a5 5 0 0 1 0 7.07\\"/><path d=\\"M19.07 4.93a10 10 0 0 1 0 14.14\\"/></svg>";',
+        '  }',
+        '',
+        '  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);',
+        '  else init();',
+        '})();'
+    ];
+
+    function renderStandaloneHTML(bundle) {
+        var css = INTERACTIVE_CSS_LINES.join('\n');
+        var runtime = INTERACTIVE_RUNTIME_LINES.join('\n');
+        var bundleJSON = JSON.stringify(bundle);
+        var lang = (bundle.contentLanguage || 'en').slice(0, 2);
+        var title = (bundle.title || 'Alphabet Train Practice');
+        var parts = [];
+        parts.push('<!DOCTYPE html>');
+        parts.push('<html lang="' + lang + '">');
+        parts.push('<head>');
+        parts.push('<meta charset="UTF-8">');
+        parts.push('<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">');
+        parts.push('<meta name="theme-color" content="#FEFAF3">');
+        parts.push('<title>' + title + '</title>');
+        parts.push('<link rel="preconnect" href="https://fonts.googleapis.com">');
+        parts.push('<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>');
+        parts.push('<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">');
+        parts.push('<style>' + css + '</style>');
+        parts.push('</head>');
+        parts.push('<body>');
+        parts.push('<main id="lcs-app">');
+        parts.push('  <div class="lcs-bar">');
+        parts.push('    <h1 class="lcs-title" id="lcs-title">' + title + '</h1>');
+        parts.push('    <nav class="lcs-progress" id="lcs-progress" aria-label="Wagon progress"></nav>');
+        parts.push('    <button type="button" id="lcs-mute" class="lcs-mute" aria-label="Mute sounds"></button>');
+        parts.push('  </div>');
+        parts.push('  <div class="lcs-worksheet-wrap">');
+        parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');
+        parts.push('      <img class="lcs-worksheet__img" id="lcs-worksheet-img" alt="" src="' + bundle.worksheetImage + '">');
+        parts.push('      <div class="lcs-overlay" id="lcs-overlay"></div>');
+        parts.push('    </div>');
+        parts.push('  </div>');
+        parts.push('  <p class="lcs-attrib">Made with <a href="https://www.lessoncraftstudio.com" target="_blank" rel="noopener">LessonCraftStudio</a></p>');
+        parts.push('</main>');
+        parts.push('<footer class="lcs-footer">');
+        parts.push('  <button type="button" id="lcs-check" class="lcs-btn lcs-btn--primary" disabled>Check Answers</button>');
+        parts.push('  <button type="button" id="lcs-reset" class="lcs-btn lcs-btn--ghost" hidden>Try Again</button>');
+        parts.push('  <span id="lcs-summary" class="lcs-summary" aria-live="polite"></span>');
+        parts.push('</footer>');
+        parts.push('<div class="lcs-celebration" id="lcs-celebration" role="dialog" aria-modal="true" aria-label="You did it!"></div>');
+        parts.push('<div class="lcs-sr" id="lcs-live" role="status" aria-live="polite"></div>');
+        parts.push('<script>var DECK_BUNDLE = ' + bundleJSON + ';<\/script>');
+        parts.push('<script>' + runtime + '<\/script>');
+        parts.push('</body>');
+        parts.push('</html>');
+        return parts.join('\n');
+    }
+
+    async function downloadInteractiveHtml(canvasInstance, fileName) {
+        if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
+            showMessage(t('pleaseGenerateContentFirst') || 'Please generate a worksheet first.', 'error');
+            return;
+        }
+        showMessage('Preparing ' + fileName + '...', 'info', 0);
+        try {
+            var bundle = await extractDeckBundle(canvasInstance);
+            if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
+                throw new Error('Worksheet snapshot is empty.');
+            }
+            if (!bundle.grid || !bundle.grid.cells.length) {
+                throw new Error('No empty wagons detected. Use fewer clues (3–10) so at least one wagon is interactive.');
+            }
+            if (!bundle.pieces.length) {
+                throw new Error('No cutouts detected. Use fewer clues (3–10) so cutouts are produced.');
+            }
+            var html = renderStandaloneHTML(bundle);
+
+            var blob = new Blob([html], { type: 'text/html;charset=utf-8' });
+            var url = URL.createObjectURL(blob);
+            var a = document.createElement('a');
+            a.href = url;
+            a.download = fileName;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+
+            showMessage('Interactive worksheet downloaded.', 'success');
+        } catch (e) {
+            console.error('[Interactive Export v10] Failed:', e);
+            showMessage('Interactive export failed: ' + e.message, 'error');
+        }
+    }
+    // END: Interactive-HTML export v10
+
     // --- BORDER LOGIC ---
     async function loadBorderThemes() {
         try {
@@ -4363,6 +5096,7 @@ async function downloadPDF(canvasToExport, fileName) {
     downloadAkJpegBtn.addEventListener("click", () => downloadImageFile(answerKeyCanvas, "answer_key.jpeg"));
     downloadWsPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, "worksheet.pdf"));
     downloadAkPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, "answer_key.pdf"));
+    downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'alphabet-train_interactive.html'));
     
     async function initializeApp() {
         // --- APPLY TRANSLATIONS TO HTML ELEMENTS ---

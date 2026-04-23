@@ -1,6 +1,6 @@
 # CLAUDE.md — LessonCraftStudio Interactive Worksheets Platform
 
-**Version:** 1.1
+**Version:** 1.2
 **Last updated:** 2026-04-23
 **Audience:** Every Claude Code session working on this project reads this file first.
 
@@ -393,50 +393,83 @@ If your task appears to be outside this scope, stop and ask the operator before 
 
 ## 14. Interactive-HTML export — current implementation status & porting recipe
 
-As of 2026-04-23, two of the 31 apps ship the interactive-HTML export: **addition (v4)** and **subtraction (v5)**. The remaining 29 are not yet converted. This section documents what's actually built so a new session can continue the port without re-deriving the architecture.
+As of 2026-04-23, **12 of the 31 apps** ship the interactive-HTML export: addition (v4), subtraction (v5), code-addition (v6), more-less (v7), math-puzzle (v8), math-worksheet (v9), alphabet-train (v10), pattern-train (v11), prepositions (v12), word-guess (v13), word-scramble (v14), wordsearch (v15). The remaining 19 are not yet converted. All 12 live apps also carry the shared **LCSAttribution** footer (see §14.3).
 
 ### 14.1 What the current implementation is
 
 Each converted app has a new **Download → "Interactive Worksheet (HTML)"** button that emits a single self-contained `.html` file. The file works fully offline once downloaded:
 
 1. **Snapshot + overlay architecture.** The operator's Fabric canvas is captured as a JPEG (via `canvas.toDataURL({format:'jpeg', quality:0.85, multiplier:2})`) — this preserves every design element, border, background, theme image and header exactly as authored. The JPEG is the backdrop in the downloaded HTML.
-2. **Overlay layer with input boxes.** For each exercise, the exporter records the answer-line's world coordinates (via `calcTransformMatrix`) and the equals-sign's world center (via a helper that scans for a sub-group containing `fabric.Text` with content `"="`). An HTML input is overlaid at those coordinates in the standalone file. Position percentages are relative to the JPEG dimensions so the layout scales proportionally on any viewport.
-3. **Batch-check interaction.** The student fills every input at their own pace; a sticky "Check Answers" button at the bottom of the page stays disabled until every input has a value, then enables. Tap Check → every answer turns green (correct) or red (wrong). Wrong answers show the correct value in a green pill beside the crossed-out typed value. "Try Again" resets. Celebration modal (stars-out-of-3, worksheet thumbnail, Do Another / Print) triggers on 100% first-pass correct.
-4. **No Fabric.js on the student side.** The downloaded HTML is pure HTML + CSS + vanilla JS + a single Google Fonts link for Fredoka. Typical file size: ~200–300 KB including the JPEG backdrop.
-5. **Per-app interactive extensions.** Beyond the base batch-check, individual apps can layer app-specific interactions. Example: **subtraction's cross-out mode** adds a transparent clickable hitbox over each minuend image so the student must both type the answer AND click exactly `subtrahend` images to cross them out. Validation checks both conditions.
+2. **Overlay layer with interactive elements.** For each exercise, the exporter records per-slot world coordinates (via `calcTransformMatrix`) and emits an HTML overlay positioned in % against the page size so the layout scales with viewport.
+3. **No Fabric.js on the student side.** The downloaded HTML is pure HTML + CSS + vanilla JS + a single Google Fonts link for Fredoka. Typical file size: ~200–400 KB including the JPEG backdrop.
+4. **Attribution baked onto the canvas.** The shared `LCSAttribution.addToCanvas(canvas, opts)` module places a small "Made with LessonCraftStudio.com" text object at the bottom-center of both the worksheet and answer-key canvases — so it appears in PDF/JPEG/interactive exports uniformly. The interactive file also overlays an invisible clickable `<a class="lcs-attrib-link">` at the baked text's world rect so students can tap it.
 
-### 14.2 Where the code lives
+### 14.2 Two runtime families
 
-Each converted app's HTML contains one self-contained export block delimited by `// BEGIN: Interactive-HTML export v<N>` and `// END: Interactive-HTML export v<N>` inside the main inline `<script>`:
+Twelve ports have converged into two reusable families. Pick the closest reference app when porting a new one:
 
-- `REFERENCE APPS/addition.html` — v4 block
-- `REFERENCE APPS/subtraction.html` — v5 block (v4 + cross-out)
+#### A. **Letter fill-in** (v4–v14) — slot-per-answer, batch-check
+Student types into N independent input slots. "Check Answers" turns every slot green/red at once; wrong slots show the correct value in a green pill. Stars-out-of-3 celebration on 100% first-pass correct.
 
-The block contains: `extractDeckBundle()`, `renderStandaloneHTML()`, `downloadInteractiveHtml()`, plus three arrays — `INTERACTIVE_CSS_LINES`, `INTERACTIVE_RUNTIME_LINES`, and helper functions (`_captureWorksheetImage`, `_findAnswerLineDeep`, `_findEqualsSign`, `_worldLineRect`, and for subtraction: `_collectMinuendImages`, `_worldImageRect`). The runtime is stored as an array of line-strings joined at render time — this avoids template-literal escaping issues with `${` and `</script>`.
+- **Canonical reference:** `REFERENCE APPS/code-addition.html` (v6) for multi-slot with mixed kinds (numbers + letters); `REFERENCE APPS/word-guess.html` (v13) for the cleanest single-kind letter fill-in; `REFERENCE APPS/subtraction.html` (v5) for a base-plus-cross-out extension.
+- **Tagging convention:** tag each cell/line the student fills with a per-feature flag (e.g., `isAnswerLine`, `isBlankLetterCell`, `isSumBlank`, `isLetterBlank`). For apps with operator-controlled case (`letterCase` radio), store the chosen case on the canvas (`worksheetCanvas.letterCaseValue = …`) and put it in the bundle so the runtime coerces student input to match; compare case-insensitively.
+- **Extensions seen so far:** cross-out (subtraction), multi-slot rows with mixed number+letter kinds (code-addition), choice-button answer (more-less), drag-to-drop pieces (math-puzzle), drag-to-wagon matching (alphabet-train, pattern-train), image-choice plus optional fill-in (prepositions).
 
-### 14.3 How to port to a new app (the recipe)
+#### B. **Puzzle drag** (v15+) — spatial selection, no per-answer slots
+Student drags across a letter grid; path snaps to one of 8 directions. On release, endpoints are validated against known placed words; matches lock a pastel highlight over the path.
 
-Apps share the same scaffolding (`generateWorksheet()`, `exerciseRowGroup` with `isGeneratedItem` + `originalIndex`, answer lines, equals-sign sub-groups). To port:
+- **Canonical reference:** `REFERENCE APPS/wordsearch.html` (v15).
+- **Tagging convention:** tag the Fabric grid group with `isWordsearchGrid: true` + metadata (rows, cols, cellSize). Attach puzzle data (`grid`, `placedWordsInfo`, `settings`) to `worksheetCanvas.problemsData`. The exporter uses the group's first-child background rect for the grid's world AABB.
+- **Runtime shape:** transparent cell overlay absolute-positioned on top of the baked JPEG at the grid bbox; pointer events live on the overlay; a `foundLayer` sibling holds rotated-pill highlights; a progress counter in the top bar shows "N / M found".
 
-**Step A — Metadata patches in the operator app's rendering code** (all additive, no visual change):
-1. `worksheetCanvas.problemsData = problemsData;` inside `generateWorksheet()` so the exporter reads the data uniformly.
-2. `<rowGroup>.resolvedMode = exerciseMode;` after the row group is constructed, so mixed-mode sub-mode is preserved per problem.
-3. Add `isAnswerLine: true` to every `fabric.Line` the student fills in.
-4. For apps with interactive extensions (tap-to-classify, drag-to-match, cross-out, etc.), tag the relevant child objects with a per-feature boolean (e.g., `isMinuendImage: true`) so the exporter can enumerate them.
+### 14.3 Shared attribution module
 
-**Step B — Download button + wiring** (4 edits, same pattern as addition's first commit):
+`frontend/public/worksheet-generators/js/attribution-manager.js` (already on production — it's served by nginx from `/var/www/lcs-media/worksheet-generators/js/` and NOT in git because of a symlink conflict). Exposes:
+
+- `window.LCSAttribution.addToCanvas(canvas, opts)` — places a Fabric.Text at `width/2, height-22` tagged `{ isAttribution: true }`. Opts can override fontSize/fontFamily/fill/bottomMargin.
+- `window.LCSAttribution.getRectFromCanvas(canvas)` — returns the baked text's world `{x, y, w, h}` (center/size).
+- `window.LCSAttribution.TEXT` (`"Made with LessonCraftStudio.com"`), `.URL` (`"https://lessoncraftstudio.com"`).
+
+**Per-app port needs 7 edits:**
+1. Head script tag `<script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>` after `access-guard.js`.
+2. `LCSAttribution.addToCanvas(worksheetCanvas, { currentCanvasConfig })` immediately before the worksheet `renderAll()`.
+3. Same call for `answerKeyCanvas` before its `renderAll()`.
+4. Bundle return gets `attribution: { text, url, rect }` using `LCSAttribution.getRectFromCanvas(canvas)` (null-coalesce when the module isn't loaded).
+5. Replace the legacy `.lcs-attrib` CSS rules with three `.lcs-attrib-link` rules (invisible clickable overlay: `position:absolute;transform:translate(-50%,-50%);pointer-events:auto;cursor:pointer;background:transparent`).
+6. Change `@media print { ... .lcs-attrib ... }` → `.lcs-attrib-link`.
+7. In the runtime's render function, overlay an `<a class="lcs-attrib-link">` at the attribution rect (same %-position math as the slots).
+
+### 14.4 How to port a new app (recipe)
+
+**Step A — Decide which family (§14.2).** If the worksheet has a fixed set of answer positions → family A. If the interaction is spatial selection/drawing → family B.
+
+**Step B — Metadata patches in the operator's rendering code** (all additive, no visual change):
+1. `worksheetCanvas.problemsData = <the data object the exporter needs>;` inside `generateWorksheet()`.
+2. Tag the interactive elements with per-feature booleans (e.g., `isAnswerLine: true` on each fabric.Line the student fills, `isBlankLetterCell: !isAnswerKey && !clues.has(j)` on each non-clue letter cell, `isWordsearchGrid: true` on the grid group).
+3. For mode-branching worksheets, carry the operator choices needed for validation (e.g., `worksheetCanvas.letterCaseValue`, `<rowGroup>.resolvedMode`).
+
+**Step C — Download button + wiring** (4 edits):
 1. New `<button id="downloadInteractiveHtmlBtn">` in the download dropdown.
-2. `const downloadInteractiveHtmlBtn = document.getElementById(...)`.
-3. Un-disable it in `generateWorksheet()` alongside the other download buttons.
+2. `const downloadInteractiveHtmlBtn = document.getElementById(...)` alongside the other download consts.
+3. Un-disable it alongside the others in `generateWorksheet()`; disable it alongside the others in the clear/reset path.
 4. Click listener: `downloadInteractiveHtml(worksheetCanvas, '<app>_interactive.html')`.
 
-**Step C — Copy and adapt the v5 block**:
-1. Copy `// BEGIN: Interactive-HTML export v5` through `// END:` from `REFERENCE APPS/subtraction.html`.
-2. Change `appType`, `title`, and bump `bundleVersion`.
-3. Adjust the mode list in `expectedAnswer(s)` so the right operand/result is expected per mode. **Critical branching rule**: for any mode where the student types a missing OPERAND (find-addend / find-subtrahend / etc.), expected is `operandB`; for modes where the student types the RESULT, expected is the arithmetic result. This is a frequent off-by-one source of "answers marked wrong."
-4. If the app has interactive extensions not in subtraction, extend `renderSlots`, `checkAll`, `resetAll`, and CSS as needed (pattern: one helper to build the extra hitbox element, one state field, one branch in `checkAll`).
+**Step D — Copy the closest reference block and adapt:**
+- Bump `bundleVersion` to next N, change `appType` and `title`.
+- Rewrite `extractDeckBundle` for the new app's slot shape; reuse `_captureWorksheetImage`, `_worldRectBounds` as-is.
+- Extend `renderSlots`/`renderGrid`, `checkAll`, `resetAll` for app-specific interaction if needed.
+- Include the 7 attribution edits from §14.3.
 
-**Step D — Validate, sync, commit, deploy** (see §14.4–§14.5).
+**Step E — Validate, sync, commit, deploy** (see §14.5–§14.6).
+
+### 14.5 Local dev loop
+
+A pre-existing unrelated Next.js route conflict blocks `npm run dev` until `frontend/app/sitemap.xml/route.ts` is renamed to `route.ts.DISABLED-FOR-DEV`. **Rename it back before any push to production** or the live sitemap breaks. This is a known wart; fixing it at the source is deferred.
+
+After edits to `REFERENCE APPS/<app>.html`:
+1. `scripts\master-sync.bat` (refreshes the two sibling tracked copies and the gitignored frontend/public copy).
+2. Hard-refresh `http://localhost:3000/worksheet-generators/<app>.html`.
+3. Click Generate, Download → Interactive Worksheet (HTML), open the downloaded file.
 
 ### 14.4 Local dev loop
 
@@ -447,7 +480,7 @@ After edits to `REFERENCE APPS/<app>.html`:
 2. Hard-refresh `http://localhost:3000/worksheet-generators/<app>.html`.
 3. Click Generate, Download → Interactive Worksheet (HTML), open the downloaded file.
 
-### 14.5 Deployment — the TWO-STEP rule
+### 14.6 Deployment — the TWO-STEP rule
 
 Worksheet-generator HTML updates require BOTH steps; `deploy.sh` alone is not enough because the served copy is `chattr +i` (immutable):
 
@@ -460,22 +493,52 @@ Worksheet-generator HTML updates require BOTH steps; `deploy.sh` alone is not en
 
 Skip step 2 and the site keeps serving the old HTML — we hit this on the addition deploy.
 
-### 14.6 Known gotchas (read before debugging)
+### 14.7 Known gotchas (read before debugging)
 
-- **`getBoundingRect(true, true)` on a grouped child returns GROUP-LOCAL coords in Fabric 5.x**, not world coords. Use `calcTransformMatrix()` + `fabric.util.transformPoint` instead. This is why v1 slots clustered at the top-left of the worksheet.
-- **`calcTransformMatrix()` already includes the object's own scale.** Do not also feed `getScaledWidth()/getScaledHeight()` into `transformPoint` — that double-scales. Use intrinsic `img.width` / `img.height`. This is why v5's first cross-out hitboxes were tiny.
-- **`exerciseRowGroup.getCenterPoint().y` drifts off the equals sign when operand images aren't square** because the bbox center tracks the image span, not the equation centerline. Anchor to the actual `=` sign via `_findEqualsSign`. This is why addition v4 answer boxes visibly floated above the `=`.
+**Fabric geometry**
+- **`getBoundingRect(true, true)` on a grouped child returns GROUP-LOCAL coords in Fabric 5.x**, not world coords. Use `calcTransformMatrix()` + `fabric.util.transformPoint` instead.
+- **`calcTransformMatrix()` already includes the object's own scale.** Do not also feed `getScaledWidth()/getScaledHeight()` into `transformPoint` — that double-scales. Use intrinsic `img.width` / `img.height`.
+- **`exerciseRowGroup.getCenterPoint().y` drifts off the equals sign when operand images aren't square** because the bbox center tracks the image span, not the equation centerline. Anchor to the actual `=` sign via `_findEqualsSign`.
+- **The operator may transform (scale/translate/rotate) the rowGroup after generation.** `calcTransformMatrix` honors these transforms; that's why we use it everywhere instead of hardcoded offsets.
+
+**Bundle & runtime authoring**
+- **Inline `<script>` inside a string must escape `</script>` as `<\/script>`** to avoid the outer HTML parser closing the script prematurely. Search the new block before committing.
+- **Runtime stored as array-of-strings joined at render time** — avoids template-literal escaping issues with `${...}` and backticks. Keep this pattern when copying a block.
 - **`expectedAnswer` MUST branch on mode** for find-addend / find-subtrahend / any "missing operand" mode. Otherwise every answer is compared against the arithmetic result and the student's correct answer is marked wrong.
-- **Inline `<script>` inside a string must escape `</script>` as `<\/script>`** to avoid the outer HTML parser closing the script prematurely.
-- **The operator may transform (scale/translate/rotate) the exerciseRowGroup after generation.** `calcTransformMatrix` and `getCenterPoint` both honor these transforms, which is why they're used instead of hardcoded offsets.
 
-### 14.7 Remaining apps (29 of 31)
+**Operator/interactive filter mismatch (wordsearch-class)**
+- **When the operator pre-filters what shows on the worksheet, the interactive export must apply the same filter.** Example: `wordsearch.html` strips non-letters from each word before placing it in the grid, then `createPuzzleObjects` only renders a word-list entry when the *original* `wordsConfig[i].word` uppercases to match the *stripped* placed word. That leaves stray entries in `placedWordsInfo` that never appear to the student — if the interactive export includes them as targets, the 100%-found celebration can never fire. The v15 exporter filters `placedWordsInfo` against `wordsConfig` to mirror the operator's display. Any puzzle app that shows a subset of what it places needs the same double-check.
 
-alphabet-train, big-small, bingo, chart-count, code-addition, crossword, cryptogram, draw-and-color, drawing-lines, find-and-count, find-objects, grid-match, matching, math-puzzle, math-worksheet, missing-pieces, more-less, odd-one-out, pattern-train, pattern-worksheet, picture-path, picture-sort, prepositions, shadow-match, treasure-hunt, word-guess, word-scramble, wordsearch.
+**UX rules**
+- **Don't duplicate what the baked JPEG already shows.** The v15 draft had an interactive "Find these words" list below the grid — pulled immediately because the baked worksheet already listed the targets with images. The overlay layer adds interaction; it doesn't re-present content. The progress counter in the sticky bar is sufficient feedback.
+- **The operator's letterCase choice is baked into the clues; the interactive input must match it.** Store `worksheetCanvas.letterCaseValue` at generate time, put it in the bundle, coerce student input on the client. Compare case-insensitively (typing the "wrong" case is still correct — it's the display that matters).
+
+### 14.8 Bundle versions shipped
+
+| Version | App | Family | Notable shape |
+|---|---|---|---|
+| v4 | addition | Letter fill-in | Base — single numeric slot per row |
+| v5 | subtraction | Letter fill-in | v4 + cross-out image hitboxes |
+| v6 | code-addition | Letter fill-in | Multi-slot rows; number + letter kinds |
+| v7 | more-less | Letter fill-in | Choice-button answer variant |
+| v8 | math-puzzle | Letter fill-in | Drag-to-drop puzzle pieces |
+| v9 | math-worksheet | Letter fill-in | Symbolic multi-slot algebra |
+| v10 | alphabet-train | Letter fill-in | Drag-to-wagon letter matching |
+| v11 | pattern-train | Letter fill-in | Drag-to-wagon image matching |
+| v12 | prepositions | Letter fill-in | Image-choice circles + fill-in |
+| v13 | word-guess | Letter fill-in | Clean single-kind letter blanks (clean reference) |
+| v14 | word-scramble | Letter fill-in | Same as v13, with display-only scrambled strip |
+| v15 | wordsearch | Puzzle drag | First puzzle-kind; drag-to-select grid |
+
+Bundle versions bump on every port so the runtime can key on shape if needed. Family A ports share most code; Family B will grow its own references as crossword/cryptogram/matching/sudoku are added.
+
+### 14.9 Remaining apps (19 of 31)
+
+big-small, bingo, chart-count, crossword, cryptogram, draw-and-color, drawing-lines, find-and-count, find-objects, grid-match, matching, missing-pieces, odd-one-out, pattern-worksheet, picture-path, picture-sort, shadow-match, sudoku, treasure-hunt.
 
 (Coloring and writing are excluded per §1 — PDF-only, no interactive output.)
 
-Math apps likely port in an afternoon each (same `exerciseRowGroup` + `isAnswerLine` pattern). Puzzle apps (wordsearch, crossword, cryptogram, sudoku, matching) will need new interactive extensions beyond the base batch-check — expect a larger per-app budget.
+Simple Family-A ports (big-small, chart-count, find-and-count, find-objects, odd-one-out, pattern-worksheet, picture-sort, missing-pieces, shadow-match) should each fit in an afternoon. Puzzle apps (crossword, cryptogram, sudoku, matching, bingo) each need bespoke Family-B runtimes — budget a session each.
 
 ---
 

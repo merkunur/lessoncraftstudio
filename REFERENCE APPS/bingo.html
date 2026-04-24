@@ -2973,7 +2973,7 @@
       // --- END: Main Bingo Generation Logic ---
 
       // ============================================================
-      // Interactive-HTML export v24.2 (bingo) — Family F free-fill + deferred Check Answers
+      // Interactive-HTML export v24.3 (bingo) — Family F free-fill + caller bar + deferred Check
       // ============================================================
       async function _captureWorksheetImage(canvas) {
           var savedZoom = canvas.getZoom();
@@ -3045,7 +3045,7 @@
           }
 
           return {
-              bundleVersion: '24.2.0',
+              bundleVersion: '24.3.0',
               schemaFormat: 'image-references-v3',
               loadingMode: loadingMode,
               appType: 'bingo',
@@ -3079,6 +3079,11 @@
           '.lcs-mute:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
           '.lcs-mute svg{width:20px;height:20px;pointer-events:none}',
           '.lcs-mute[data-muted="1"]{background:#FFF8E6;border-color:#FFC857;color:#8A6D00}',
+          '.lcs-caller{margin:14px auto 0;max-width:880px;padding:18px 24px;background:linear-gradient(135deg,#FFF8E6 0%,#FFE6B5 100%);border:3px solid #FFC857;border-radius:18px;box-shadow:0 4px 18px rgba(255,200,87,.35);text-align:center}',
+          '.lcs-caller__label{font-size:14px;font-weight:700;color:#8A6D00;text-transform:uppercase;letter-spacing:.1em;margin-bottom:4px}',
+          '.lcs-caller__word{font-size:clamp(28px,5vw,44px);font-weight:800;color:#1C1C1E;letter-spacing:.02em;animation:lcs-call-in .4s ease-out;word-break:break-word}',
+          '.lcs-caller__word--done{color:#2E7D32;font-size:clamp(22px,3.6vw,32px)}',
+          '@keyframes lcs-call-in{0%{transform:translateY(8px) scale(.92);opacity:0}100%{transform:translateY(0) scale(1);opacity:1}}',
           '.lcs-worksheet-wrap{display:flex;justify-content:center;padding-top:14px}',
           '.lcs-worksheet{position:relative;display:block;width:100%;max-width:880px;background:#FFF;border-radius:10px;box-shadow:0 4px 18px rgba(28,28,30,.08);overflow:visible}',
           '.lcs-worksheet__img{display:block;width:100%;height:auto;user-select:none;-webkit-user-drag:none;pointer-events:none;border-radius:10px}',
@@ -3096,12 +3101,12 @@
           '.lcs-tile__btn[data-deployed="1"]{opacity:0;pointer-events:none}',
           '.lcs-tile__btn[data-drop-hover="ok"]{border:3px dashed #4CAF50;background:rgba(76,175,80,.14);box-shadow:0 0 0 4px rgba(76,175,80,.25)}',
           '.lcs-tile__btn[data-drop-hover="reject"]{border:3px dashed #E53935;background:rgba(229,57,53,.10);box-shadow:0 0 0 4px rgba(229,57,53,.18)}',
-          '.lcs-reveal{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;display:block;border-radius:50%;overflow:hidden;background:#FFF;box-shadow:0 2px 8px rgba(0,0,0,.18);animation:lcs-pop .3s ease-out}',
-          '.lcs-reveal img{width:100%;height:100%;display:block;object-fit:contain;border-radius:50%}',
-          '.lcs-reveal--wrong{box-shadow:inset 0 0 0 4px #E53935,0 2px 8px rgba(0,0,0,.18)}',
-          '.lcs-reveal-glow{position:absolute;inset:-6px;border-radius:50%;box-shadow:0 0 0 5px rgba(76,175,80,.55);animation:lcs-glow 1s ease-out forwards;pointer-events:none}',
+          '.lcs-reveal{position:absolute;inset:6%;pointer-events:none;display:flex;align-items:center;justify-content:center;animation:lcs-pop .3s ease-out}',
+          '.lcs-reveal img{max-width:100%;max-height:100%;width:auto;height:auto;display:block;object-fit:contain;border-radius:50%;box-shadow:0 2px 8px rgba(0,0,0,.22);background:#FFF}',
+          '.lcs-reveal--wrong img{box-shadow:0 0 0 4px #E53935,0 2px 8px rgba(0,0,0,.22)}',
+          '.lcs-reveal-glow{position:absolute;inset:0;border-radius:8px;box-shadow:inset 0 0 0 4px rgba(76,175,80,.55),0 0 18px rgba(76,175,80,.45);animation:lcs-glow 1s ease-out forwards;pointer-events:none}',
           '@keyframes lcs-pop{0%{transform:scale(.5);opacity:0}60%{transform:scale(1.1);opacity:1}100%{transform:scale(1);opacity:1}}',
-          '@keyframes lcs-glow{0%{box-shadow:0 0 0 5px rgba(76,175,80,.55)}100%{box-shadow:0 0 0 14px rgba(76,175,80,0)}}',
+          '@keyframes lcs-glow{0%{box-shadow:inset 0 0 0 4px rgba(76,175,80,.85),0 0 18px rgba(76,175,80,.65)}100%{box-shadow:inset 0 0 0 4px rgba(76,175,80,.55),0 0 0 rgba(76,175,80,0)}}',
           '.lcs-drag-ghost{position:fixed;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);border-radius:50%;box-shadow:0 12px 28px rgba(28,28,30,.35);background:#FFF;border:3px solid #4E5FE8;overflow:hidden;display:flex;align-items:center;justify-content:center}',
           '.lcs-drag-ghost img{width:100%;height:100%;object-fit:contain;border-radius:50%;display:block;-webkit-user-drag:none;user-select:none}',
           '.lcs-img-overlay{user-select:none;-webkit-user-drag:none}',
@@ -3137,7 +3142,7 @@
           '}',
           '@media print{',
           '  body{background:#FFF}',
-          '  .lcs-bar,.lcs-footer,.lcs-celebration,.lcs-attrib-link{display:none !important}',
+          '  .lcs-bar,.lcs-footer,.lcs-celebration,.lcs-attrib-link,.lcs-caller{display:none !important}',
           '  .lcs-worksheet{box-shadow:none;border:none}',
           '  .lcs-tile__btn{border:none !important;background:transparent !important}',
           '}'
@@ -3147,10 +3152,11 @@
           '(function(){',
           '  "use strict";',
           '  var STRINGS = {',
-          '    en:{title:"Picture Bingo",check:"Check Answers",tryAgain:"Try Again",mute:"Mute sounds",unmute:"Turn sounds on",printMyWorksheet:"Print my worksheet",doAnother:"Do Another",youDidIt:"You did it!",progressLabel:"{n} / {total}"}',
+          '    en:{title:"Picture Bingo",check:"Check Answers",tryAgain:"Try Again",mute:"Mute sounds",unmute:"Turn sounds on",printMyWorksheet:"Print my worksheet",doAnother:"Do Another",youDidIt:"You did it!",progressLabel:"{n} / {total}",callerLabel:"Find:",allDone:"All called!"}',
           '  };',
           '  function T(key){var loc=(DECK_BUNDLE.contentLanguage||"en").slice(0,2);var t=STRINGS[loc]||STRINGS.en;return t[key]||STRINGS.en[key]||key}',
           '  function fmt(s,vars){return s.replace(/\\{(\\w+)\\}/g,function(_,k){return vars[k]==null?"":String(vars[k])})}',
+          '  function shuffleArr(a){var x=a.slice();for(var i=x.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=x[i];x[i]=x[j];x[j]=t}return x}',
           '',
           '  var gridCells=DECK_BUNDLE.gridCells||[];',
           '  var chips=DECK_BUNDLE.chips||[];',
@@ -3161,6 +3167,11 @@
           '  var matched={};',
           '  // phase: "fill" while kid is placing chips, "reviewed" after Check',
           '  var phase="fill";',
+          '  // callerQueue: shuffled cell-words still to announce. Caller advances on',
+          '  // every NEW palette→cell placement (not on cell→cell moves). Has no',
+          '  // effect on correctness — purely a literacy prompt for the kid.',
+          '  var callerQueue=shuffleArr(gridCells.map(function(c){return c.word}));',
+          '  var currentCall=callerQueue.length?callerQueue[0]:null;',
           '  // drag: { chipIndex, chipWord, ghost, pointerId, sourceBtn, sourceKind, sourceCellIdx } or null',
           '  // sourceKind = "palette" (from chip strip) or "cell" (picked up from a placed cell)',
           '  var drag=null;',
@@ -3169,7 +3180,7 @@
           '  var reducedMotion=false;try{reducedMotion=window.matchMedia("(prefers-reduced-motion: reduce)").matches}catch(e){}',
           '  var audioCtx=null;',
           '  var celebrationShown=false;',
-          '  var titleEl,overlayEl,muteBtn,celebrationEl,liveEl,imgEl,checkBtn,resetBtn,progressEl;',
+          '  var titleEl,overlayEl,muteBtn,celebrationEl,liveEl,imgEl,checkBtn,resetBtn,progressEl,callerLabelEl,callerWordEl;',
           '',
           '  function init(){',
           '    titleEl=document.getElementById("lcs-title");',
@@ -3181,12 +3192,16 @@
           '    checkBtn=document.getElementById("lcs-check");',
           '    resetBtn=document.getElementById("lcs-reset");',
           '    progressEl=document.getElementById("lcs-progress");',
+          '    callerLabelEl=document.getElementById("lcs-caller-label");',
+          '    callerWordEl=document.getElementById("lcs-caller-word");',
           '    if(titleEl) titleEl.textContent=DECK_BUNDLE.title||T("title");',
           '    if(checkBtn) checkBtn.textContent=T("check");',
           '    if(resetBtn) resetBtn.textContent=T("tryAgain");',
+          '    if(callerLabelEl) callerLabelEl.textContent=T("callerLabel");',
           '    if(imgEl&&imgEl.complete&&imgEl.naturalHeight>0){renderTiles();}',
           '    else if(imgEl){imgEl.addEventListener("load",renderTiles);imgEl.addEventListener("error",function(){console.error("[LCS] Worksheet image failed to load")});}',
           '    wireMute();updateMuteButton();wireButtons();',
+          '    updateCallerBar();',
           '    updateProgress();',
           '    updateCheckButton();',
           '  }',
@@ -3252,6 +3267,29 @@
           '    progressEl.textContent=fmt(T("progressLabel"),{n:n,total:totalToCover});',
           '  }',
           '',
+          '  function updateCallerBar(){',
+          '    if(!callerWordEl)return;',
+          '    if(phase==="reviewed"||!currentCall){',
+          '      callerWordEl.textContent=T("allDone");',
+          '      callerWordEl.classList.add("lcs-caller__word--done");',
+          '    }else{',
+          '      callerWordEl.textContent=currentCall.toString().toUpperCase();',
+          '      callerWordEl.classList.remove("lcs-caller__word--done");',
+          '      // restart the slide-in animation',
+          '      callerWordEl.style.animation="none";void callerWordEl.offsetWidth;callerWordEl.style.animation="";',
+          '    }',
+          '  }',
+          '',
+          '  function advanceCaller(){',
+          '    if(callerQueue.length){',
+          '      callerQueue.shift();',
+          '      currentCall=callerQueue.length?callerQueue[0]:null;',
+          '    }else{',
+          '      currentCall=null;',
+          '    }',
+          '    updateCallerBar();',
+          '  }',
+          '',
           '  function updateCheckButton(){',
           '    if(!checkBtn)return;',
           '    if(phase!=="fill"){checkBtn.disabled=true;return;}',
@@ -3264,12 +3302,12 @@
           '    if(!refChip) return { w: 80, h: 80 };',
           '    var wsRect=document.getElementById("lcs-worksheet").getBoundingClientRect();',
           '    var pw=DECK_BUNDLE.page.width;var ph=DECK_BUNDLE.page.height;',
-          '    var refCell=gridCells[0];',
-          '    if(refCell){',
-          '      // Ghost matches cell size so the kid sees what will land.',
-          '      return { w: (refCell.rect.w/pw)*wsRect.width, h: (refCell.rect.h/ph)*wsRect.height };',
-          '    }',
-          '    return { w: (refChip.rect.w/pw)*wsRect.width, h: (refChip.rect.h/ph)*wsRect.height };',
+          '    // Ghost matches chip size (chips are circular — square bounding rect)',
+          '    // so border-radius:50% renders a true circle, not an ellipse.',
+          '    var w=(refChip.rect.w/pw)*wsRect.width;',
+          '    var h=(refChip.rect.h/ph)*wsRect.height;',
+          '    var side=Math.min(w,h);',
+          '    return { w: side, h: side };',
           '  }',
           '',
           '  function startDrag(e,chipIndex,chipWord,srcBtn,srcKind,srcCellIdx){',
@@ -3392,13 +3430,16 @@
           '    if(status==="ok"){',
           '      var cellIdx=parseInt(droppedOn.getAttribute("data-idx"),10);',
           '      placements[cellIdx]=chipIdx;',
-          '      // v24.2 — no instant feedback. The kid will hit Check Answers',
-          '      // when the puzzle is fully filled.',
+          '      // v24.2 — no instant right/wrong feedback. The kid will hit',
+          '      // Check Answers when the puzzle is fully filled.',
           '      syncCellVisual(cellIdx);',
           '      syncPaletteVisibility(chipIdx);',
           '      playTone(560,0.06);',
           '      updateProgress();',
           '      updateCheckButton();',
+          '      // v24.3 — caller announces the next file name on a NEW placement.',
+          '      // Cell→cell moves do not consume a call (placements count unchanged).',
+          '      if(srcKind==="palette") advanceCaller();',
           '      endDrag();',
           '    }else{',
           '      // Reject, self, or miss: snap back to where we picked up from.',
@@ -3474,6 +3515,7 @@
           '    });',
           '    if(checkBtn) checkBtn.hidden=true;',
           '    if(resetBtn) resetBtn.hidden=false;',
+          '    updateCallerBar();',
           '    updateProgress();',
           '    announce(correctCount+" of "+totalToCover+" correct");',
           '    if(correctCount===totalToCover){',
@@ -3495,6 +3537,8 @@
           '    matched={};',
           '    placements={};',
           '    phase="fill";',
+          '    callerQueue=shuffleArr(gridCells.map(function(c){return c.word}));',
+          '    currentCall=callerQueue.length?callerQueue[0]:null;',
           '    if(drag) endDrag();',
           '    if(overlayEl){',
           '      var btns=overlayEl.querySelectorAll(".lcs-tile__btn");',
@@ -3511,6 +3555,7 @@
           '    if(celebrationEl) celebrationEl.classList.remove("lcs-celebration--shown");',
           '    if(checkBtn){checkBtn.hidden=false;checkBtn.disabled=true;}',
           '    if(resetBtn){resetBtn.hidden=true}',
+          '    updateCallerBar();',
           '    updateProgress();',
           '  }',
           '',
@@ -3607,6 +3652,10 @@
           parts.push('    <span class="lcs-progress" id="lcs-progress" aria-live="polite">0 / 0</span>');
           parts.push('    <button type="button" id="lcs-mute" class="lcs-mute" aria-label="Mute sounds"></button>');
           parts.push('  </div>');
+          parts.push('  <div class="lcs-caller" aria-live="polite">');
+          parts.push('    <div class="lcs-caller__label" id="lcs-caller-label">Find:</div>');
+          parts.push('    <div class="lcs-caller__word" id="lcs-caller-word">—</div>');
+          parts.push('  </div>');
           parts.push('  <div class="lcs-worksheet-wrap">');
           parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');
           parts.push('      <img class="lcs-worksheet__img" id="lcs-worksheet-img" alt="" src="' + bundle.worksheetImage + '">');
@@ -3657,11 +3706,11 @@
               setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
               showMessage('Interactive worksheet downloaded.', 'success');
           } catch (e) {
-              console.error('[Interactive Export v24.2] Failed:', e);
+              console.error('[Interactive Export v24.3] Failed:', e);
               showMessage('Interactive export failed: ' + e.message, 'error');
           }
       }
-      // END: Interactive-HTML export v24.2
+      // END: Interactive-HTML export v24.3
 
       // --- Initial Worksheet Generation ---
       async function generateInitialWorksheet() {

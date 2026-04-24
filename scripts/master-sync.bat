@@ -2,10 +2,8 @@
 REM ============================================================================
 REM MASTER SYNCHRONIZATION SCRIPT
 REM ============================================================================
-REM Purpose: Sync REFERENCE folders (source of truth) to ALL local copies
+REM Purpose: Sync REFERENCE folders (source of truth) to the dev-server mirror
 REM
-REM REFERENCE APPS           -> legacy-apps/public
-REM REFERENCE APPS           -> worksheet generators/apps
 REM REFERENCE APPS           -> frontend/public/worksheet-generators
 REM REFERENCE TRANSLATIONS   -> frontend/public/worksheet-generators/js
 REM
@@ -70,45 +68,12 @@ echo   Verification PASSED
 echo.
 
 REM ============================================================================
-REM STEP 2: Sync REFERENCE APPS to legacy-apps/public
+REM STEP 2: Sync REFERENCE APPS to frontend/public/worksheet-generators
+REM   (the dormant legacy-apps/ and "worksheet generators/" Express
+REM    deployments were removed in commit chore: remove dormant ...; only
+REM    the dev-server-served frontend/public/ mirror is populated now.)
 REM ============================================================================
-echo [STEP 2] Syncing to legacy-apps/public...
-
-if not exist "legacy-apps\public" (
-    echo   Creating directory: legacy-apps\public
-    mkdir "legacy-apps\public"
-)
-
-set COPIED=0
-for %%f in ("REFERENCE APPS\*.html") do (
-    copy /Y "%%f" "legacy-apps\public\" >nul 2>&1
-    set /a COPIED+=1
-)
-echo   Copied %COPIED% files to legacy-apps\public
-echo.
-
-REM ============================================================================
-REM STEP 3: Sync REFERENCE APPS to worksheet generators/apps
-REM ============================================================================
-echo [STEP 3] Syncing to worksheet generators/apps...
-
-if not exist "worksheet generators\apps" (
-    echo   Creating directory: worksheet generators\apps
-    mkdir "worksheet generators\apps"
-)
-
-set COPIED=0
-for %%f in ("REFERENCE APPS\*.html") do (
-    copy /Y "%%f" "worksheet generators\apps\" >nul 2>&1
-    set /a COPIED+=1
-)
-echo   Copied %COPIED% files to worksheet generators\apps
-echo.
-
-REM ============================================================================
-REM STEP 4: Sync REFERENCE APPS to frontend/public/worksheet-generators
-REM ============================================================================
-echo [STEP 4] Syncing to frontend/public/worksheet-generators...
+echo [STEP 2] Syncing to frontend/public/worksheet-generators...
 
 if not exist "frontend\public\worksheet-generators" (
     echo   Creating directory: frontend\public\worksheet-generators
@@ -124,9 +89,9 @@ echo   Copied %COPIED% files to frontend\public\worksheet-generators
 echo.
 
 REM ============================================================================
-REM STEP 5: Sync REFERENCE TRANSLATIONS to frontend/public/worksheet-generators/js
+REM STEP 3: Sync REFERENCE TRANSLATIONS to frontend/public/worksheet-generators/js
 REM ============================================================================
-echo [STEP 5] Syncing translations to frontend/public/worksheet-generators/js...
+echo [STEP 3] Syncing translations to frontend/public/worksheet-generators/js...
 
 if not exist "frontend\public\worksheet-generators\js" (
     echo   Creating directory: frontend\public\worksheet-generators\js
@@ -142,7 +107,7 @@ echo   Copied %COPIED% translation files
 echo.
 
 REM ============================================================================
-REM STEP 6: Summary
+REM Summary
 REM ============================================================================
 echo ============================================================
 echo   SYNC COMPLETE

@@ -2,10 +2,8 @@
 # ============================================================================
 # MASTER SYNCHRONIZATION SCRIPT
 # ============================================================================
-# Purpose: Sync REFERENCE folders (source of truth) to ALL local copies
+# Purpose: Sync REFERENCE folders (source of truth) to the dev-server mirror
 #
-# REFERENCE APPS           -> legacy-apps/public
-# REFERENCE APPS           -> worksheet generators/apps
 # REFERENCE APPS           -> frontend/public/worksheet-generators
 # REFERENCE TRANSLATIONS   -> frontend/public/worksheet-generators/js
 #
@@ -68,31 +66,11 @@ echo "  Verification PASSED"
 echo ""
 
 # ============================================================================
-# STEP 2: Sync REFERENCE APPS to legacy-apps/public
+# STEP 2: Sync REFERENCE APPS to frontend/public/worksheet-generators
+#   (the dormant legacy-apps/ and "worksheet generators/" Express
+#    deployments were removed; only the dev-server mirror is populated.)
 # ============================================================================
-echo "[STEP 2] Syncing to legacy-apps/public..."
-
-mkdir -p "legacy-apps/public"
-cp "REFERENCE APPS"/*.html "legacy-apps/public/"
-COPIED=$(ls -1 "legacy-apps/public"/*.html 2>/dev/null | wc -l)
-echo "  Copied $COPIED files to legacy-apps/public"
-echo ""
-
-# ============================================================================
-# STEP 3: Sync REFERENCE APPS to worksheet generators/apps
-# ============================================================================
-echo "[STEP 3] Syncing to worksheet generators/apps..."
-
-mkdir -p "worksheet generators/apps"
-cp "REFERENCE APPS"/*.html "worksheet generators/apps/"
-COPIED=$(ls -1 "worksheet generators/apps"/*.html 2>/dev/null | wc -l)
-echo "  Copied $COPIED files to worksheet generators/apps"
-echo ""
-
-# ============================================================================
-# STEP 4: Sync REFERENCE APPS to frontend/public/worksheet-generators
-# ============================================================================
-echo "[STEP 4] Syncing to frontend/public/worksheet-generators..."
+echo "[STEP 2] Syncing to frontend/public/worksheet-generators..."
 
 mkdir -p "frontend/public/worksheet-generators"
 cp "REFERENCE APPS"/*.html "frontend/public/worksheet-generators/"
@@ -101,9 +79,9 @@ echo "  Copied $COPIED files to frontend/public/worksheet-generators"
 echo ""
 
 # ============================================================================
-# STEP 5: Sync REFERENCE TRANSLATIONS to frontend/public/worksheet-generators/js
+# STEP 3: Sync REFERENCE TRANSLATIONS to frontend/public/worksheet-generators/js
 # ============================================================================
-echo "[STEP 5] Syncing translations to frontend/public/worksheet-generators/js..."
+echo "[STEP 3] Syncing translations to frontend/public/worksheet-generators/js..."
 
 mkdir -p "frontend/public/worksheet-generators/js"
 cp "REFERENCE TRANSLATIONS"/*.js "frontend/public/worksheet-generators/js/"
@@ -112,7 +90,7 @@ echo "  Copied $COPIED translation files"
 echo ""
 
 # ============================================================================
-# STEP 6: Summary
+# Summary
 # ============================================================================
 echo "============================================================"
 echo "  SYNC COMPLETE"

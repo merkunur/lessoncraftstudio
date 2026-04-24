@@ -60,17 +60,6 @@ services:
       - lcs-network
     restart: unless-stopped
 
-  legacy-apps:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile.legacy
-    container_name: lcs-legacy-apps
-    ports:
-      - "3002:80"
-    networks:
-      - lcs-network
-    restart: unless-stopped
-
   strapi:
     build:
       context: ./strapi

@@ -88,23 +88,6 @@ services:
     depends_on:
       - strapi
       - api
-      - legacy-apps
-    networks:
-      - lcs-network
-
-  # Legacy Apps Server
-  legacy-apps:
-    build:
-      context: ./legacy-apps
-      dockerfile: Dockerfile
-    container_name: lcs-legacy-apps
-    environment:
-      PORT: 3002
-    volumes:
-      - ./legacy-apps:/app
-      - /app/node_modules
-    ports:
-      - "3002:3002"
     networks:
       - lcs-network
 

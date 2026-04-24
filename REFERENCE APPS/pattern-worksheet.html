@@ -203,6 +203,10 @@
     .accordion-content input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
     .accordion-content input[type="checkbox"] { width: auto; margin-right: 8px; vertical-align: middle; accent-color: var(--app-accent-primary); }
     .accordion-content label.checkbox-label { display: flex; align-items: center; font-size: 13px; font-weight: 400; margin-bottom: 12px; cursor: pointer; color: var(--app-text-secondary-dark-theme); }
+    .global-pattern-group { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px 10px; margin: 4px 0 6px; padding: 8px 10px; border: 1px solid rgba(255,255,255,0.08); border-radius: 6px; background: rgba(255,255,255,0.02); }
+    .global-pattern-group label.checkbox-label { margin-bottom: 4px; font-size: 12.5px; }
+    .global-pattern-group input[type="checkbox"] { margin-right: 5px; }
+    small.hint { display: block; font-size: 11.5px; color: var(--app-text-secondary-dark-theme); opacity: 0.75; margin-bottom: 12px; line-height: 1.35; }
 
     .accordion-content button {
         background-color: var(--app-surface-dark);
@@ -938,6 +942,20 @@
                     <option value="blank" data-translate="pattern.worksheet.global.qtype.blank">All blank boxes</option>
                     <option value="options" data-translate="pattern.worksheet.global.qtype.options">All choose from options</option>
                 </select>
+
+                <label data-translate="pattern.worksheet.global.pattern.types">Pattern types (all puzzles):</label>
+                <div id="globalPatternTypeGroup" class="global-pattern-group">
+                    <label class="checkbox-label"><input type="checkbox" value="AB" class="global-pattern-cb"> AB</label>
+                    <label class="checkbox-label"><input type="checkbox" value="AAB" class="global-pattern-cb"> AAB</label>
+                    <label class="checkbox-label"><input type="checkbox" value="ABB" class="global-pattern-cb"> ABB</label>
+                    <label class="checkbox-label"><input type="checkbox" value="ABC" class="global-pattern-cb"> ABC</label>
+                    <label class="checkbox-label"><input type="checkbox" value="AABB" class="global-pattern-cb"> AABB</label>
+                    <label class="checkbox-label"><input type="checkbox" value="ABBC" class="global-pattern-cb"> ABBC</label>
+                    <label class="checkbox-label"><input type="checkbox" value="AABC" class="global-pattern-cb"> AABC</label>
+                    <label class="checkbox-label"><input type="checkbox" value="ABCC" class="global-pattern-cb"> ABCC</label>
+                    <label class="checkbox-label"><input type="checkbox" value="ABCD" class="global-pattern-cb"> ABCD</label>
+                </div>
+                <small class="hint" data-translate="pattern.worksheet.global.pattern.hint">Leave all unchecked for mixed (any pattern). Check one to force it everywhere; check several for a random combination.</small>
 
                 <div id="individualPuzzleConfigContainer">
                     <h4 data-translate="pattern.worksheet.individual.settings">Individual Puzzle Settings</h4>
@@ -1758,6 +1776,7 @@
             useGlobalWorksheetTheme = false;
             ui.useWorksheetThemeCheckbox.checked = false;
             if (ui.globalQuestionTypeSelect) ui.globalQuestionTypeSelect.value = "mixed";
+            document.querySelectorAll('.global-pattern-cb').forEach(cb => { cb.checked = false; });
             ui.randomStartCheckbox.checked = false;
             ui.randomBlankCheckbox.checked = false;
             toggleIndividualPuzzleControls(true);
@@ -2034,20 +2053,32 @@
             const globalQType = (ui.globalQuestionTypeSelect && ui.globalQuestionTypeSelect.value) || 'mixed';
             const pickQType = (fallback) => (globalQType === 'mixed' ? fallback : globalQType);
 
+            // Worksheet-wide pattern-type override. Zero checked → use the fallback
+            // (any-pattern / per-puzzle setting). One checked → force that pattern.
+            // Multiple checked → pick a random pattern from the checked subset per puzzle.
+            const checkedPatternBoxes = Array.from(document.querySelectorAll('.global-pattern-cb:checked'))
+                .map(cb => cb.value)
+                .filter(v => v in PATTERNS);
+            const pickPattern = (fallback) => {
+                if (checkedPatternBoxes.length === 0) return fallback;
+                if (checkedPatternBoxes.length === 1) return checkedPatternBoxes[0];
+                return getRandomElement(checkedPatternBoxes);
+            };
+
             if (useGlobalWorksheetTheme) {
                 const theme = ui.worksheetThemeSelect.value;
                 if (theme === 'none') {
                     throw new Error(t('pattern.worksheet.msg.select.theme.required'));
                 }
                 for (let i = 0; i < exerciseCount; i++) {
-                    const randomPattern = getRandomElement(Object.keys(PATTERNS));
-                    const numImagesNeeded = PATTERNS[randomPattern];
+                    const chosenPattern = pickPattern(getRandomElement(Object.keys(PATTERNS)));
+                    const numImagesNeeded = PATTERNS[chosenPattern];
                     const randomImages = await getRandomImages(theme, numImagesNeeded);
                     const questionType = pickQType(getRandomElement(['blank', 'options']));
                     puzzlesToGenerateConfig.push({
                         ...globalOptions,
                         randomBlank: ui.randomBlankCheckbox.checked && questionType === 'blank',
-                        patternType: randomPattern,
+                        patternType: chosenPattern,
                         images: randomImages,
                         questionType: questionType,
                         puzzleNumber: globalOptions.includeNumbers ? i + 1 : null,
@@ -2061,12 +2092,24 @@
 
                     if (isComplete) {
                         const effectiveQType = pickQType(config.questionType);
+                        const effectivePattern = pickPattern(config.patternType);
+                        let imagesToUse = config.images.filter(img => img);
+                        if (effectivePattern !== config.patternType) {
+                            // Global pattern overrides what the per-puzzle config asked for.
+                            // The saved images no longer match the required count — regenerate
+                            // from the puzzle's theme (fall back to a random theme if missing).
+                            const numNeeded = PATTERNS[effectivePattern];
+                            const fallbackThemes = Array.from(ui.worksheetThemeSelect.options).map(opt => opt.value).filter(v => v !== 'none');
+                            const imgTheme = config.imageLibraryTheme || getRandomElement(fallbackThemes) || 'all';
+                            imagesToUse = await getRandomImages(imgTheme, numNeeded);
+                        }
                         puzzlesToGenerateConfig.push({
                             ...config,
                             ...globalOptions,
+                            patternType: effectivePattern,
                             questionType: effectiveQType,
                             randomBlank: ui.randomBlankCheckbox.checked && effectiveQType === 'blank',
-                            images: config.images.filter(img => img),
+                            images: imagesToUse,
                             puzzleNumber: globalOptions.includeNumbers ? i + 1 : null
                         });
                     } else {
@@ -2075,15 +2118,15 @@
                         const allThemes = Array.from(ui.worksheetThemeSelect.options).map(opt => opt.value).filter(v => v !== 'none');
                         const randomTheme = getRandomElement(allThemes) || 'all';
 
-                        const randomPattern = getRandomElement(Object.keys(PATTERNS));
-                        const numImagesNeeded = PATTERNS[randomPattern];
+                        const chosenPattern = pickPattern(getRandomElement(Object.keys(PATTERNS)));
+                        const numImagesNeeded = PATTERNS[chosenPattern];
                         const randomImages = await getRandomImages(randomTheme, numImagesNeeded);
                         const questionType = pickQType(getRandomElement(['blank', 'options']));
 
                         puzzlesToGenerateConfig.push({
                             ...globalOptions,
                             randomBlank: ui.randomBlankCheckbox.checked && questionType === 'blank',
-                            patternType: randomPattern,
+                            patternType: chosenPattern,
                             images: randomImages,
                             questionType: questionType,
                             puzzleNumber: globalOptions.includeNumbers ? i + 1 : null,

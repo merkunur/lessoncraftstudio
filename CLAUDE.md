@@ -393,7 +393,7 @@ If your task appears to be outside this scope, stop and ask the operator before 
 
 ## 14. Interactive-HTML export — current implementation status & porting recipe
 
-As of 2026-04-24, **14 of the 31 apps** ship the interactive-HTML export: addition (v4), subtraction (v5), code-addition (v6), more-less (v7), math-puzzle (v8), math-worksheet (v9), alphabet-train (v10), pattern-train (v11), prepositions (v12), word-guess (v13), word-scramble (v14), wordsearch (v15), cryptogram (v16), big-small (v17). The remaining 17 are not yet converted. All 14 live apps also carry the shared **LCSAttribution** footer (see §14.3).
+As of 2026-04-24, **15 of the 31 apps** ship the interactive-HTML export: addition (v4), subtraction (v5), code-addition (v6), more-less (v7), math-puzzle (v8), math-worksheet (v9), alphabet-train (v10), pattern-train (v11), prepositions (v12), word-guess (v13), word-scramble (v14), wordsearch (v15), cryptogram (v16), big-small (v17), pattern-worksheet (v18). The remaining 16 are not yet converted. All 15 live apps also carry the shared **LCSAttribution** footer (see §14.3).
 
 ### 14.1 What the current implementation is
 
@@ -531,12 +531,13 @@ Skip step 2 and the site keeps serving the old HTML — we hit this on the addit
 | v15 | wordsearch | Puzzle drag | First puzzle-kind; drag-to-select grid |
 | v16 | cryptogram | Letter fill-in | Global cipher auto-propagation + live legend read-only display |
 | v17 | big-small | Letter fill-in (choice) | Find-one + order-N; transparent button-over-image overlay, per-problem progress dots |
+| v18 | pattern-worksheet | Letter fill-in (choice) | Per-puzzle mode: options-tap OR blank-cycle through the puzzle's unique-image palette |
 
 Bundle versions bump on every port so the runtime can key on shape if needed. Family A ports share most code; Family B will grow its own references as crossword/matching/sudoku are added.
 
-### 14.9 Remaining apps (17 of 31)
+### 14.9 Remaining apps (16 of 31)
 
-bingo, chart-count, crossword, draw-and-color, drawing-lines, find-and-count, find-objects, grid-match, matching, missing-pieces, odd-one-out, pattern-worksheet, picture-path, picture-sort, shadow-match, sudoku, treasure-hunt.
+bingo, chart-count, crossword, draw-and-color, drawing-lines, find-and-count, find-objects, grid-match, matching, missing-pieces, odd-one-out, picture-path, picture-sort, shadow-match, sudoku, treasure-hunt.
 
 (Coloring and writing are excluded per §1 — PDF-only, no interactive output.)
 

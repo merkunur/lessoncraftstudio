@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
+    <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
+    <script src="/worksheet-generators/js/image-reference.js?v=1"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <title>Picture Bingo Worksheet Generator</title>
@@ -896,6 +898,9 @@
                     <button id="downloadWorksheetPdfBtn" disabled data-translate="worksheetPdf">Worksheet (PDF)</button>
                     <button id="downloadCalloutPdfBtn" disabled data-translate="calloutPdf">Call-out (PDF)</button>
                     <hr style="margin: 6px 0; border-color: #eee;">
+                    <button id="downloadInteractiveHtmlBtn" disabled>Interactive Worksheet (HTML)</button>
+                    <button id="downloadInteractiveHtmlReferenceBtn" disabled title="For server-hosted catalog playback. Smaller file, requires the same site to host the WebP library.">Interactive Worksheet (Catalog/URL refs)</button>
+                    <hr style="margin: 6px 0; border-color: #eee;">
                     <label class="checkbox-label" id="grayscaleLabel">
                         <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
                     </label>
@@ -1115,6 +1120,8 @@
       const downloadCalloutJpegBtn = document.getElementById("downloadCalloutJpegBtn");
       const downloadWorksheetPdfBtn = document.getElementById("downloadWorksheetPdfBtn");
       const downloadCalloutPdfBtn = document.getElementById("downloadCalloutPdfBtn");
+      const downloadInteractiveHtmlBtn = document.getElementById("downloadInteractiveHtmlBtn");
+      const downloadInteractiveHtmlReferenceBtn = document.getElementById("downloadInteractiveHtmlReferenceBtn");
 
       const clearBtn = document.getElementById("clearBtn");
       const grayscaleToggle = document.getElementById('grayscaleToggle');
@@ -2448,13 +2455,19 @@
 
           // Create grid elements with RELATIVE positions (starting from 0,0)
           // This ensures proper scaling when exported with multiplier
+          // v24.0 — collect per-cell metadata for the interactive export
+          const cellMeta = [];
           for(let r = 0; r < rows; r++) {
               for(let c = 0; c < cols; c++) {
                   const idx = r * cols + c;
                   const item = cardItems[idx];
                   const cellLeft = c * cellWidth;  // RELATIVE position
                   const cellTop = r * cellHeight;   // RELATIVE position
-                  gridElements.push(new fabric.Rect({ left: cellLeft, top: cellTop, width: cellWidth, height: cellHeight, fill: '#fafafa', stroke: '#999', strokeWidth: 1 }));
+                  const rect = new fabric.Rect({ left: cellLeft, top: cellTop, width: cellWidth, height: cellHeight, fill: '#fafafa', stroke: '#999', strokeWidth: 1 });
+                  rect.cellRow = r; rect.cellCol = c; rect.cellWord = (item && item.word) || '';
+                  rect.isBingoCardCell = true;
+                  cellMeta.push({ row: r, col: c, word: rect.cellWord, relLeft: cellLeft, relTop: cellTop, w: cellWidth, h: cellHeight });
+                  gridElements.push(rect);
                   if (cardFill === 'image') {
                       const img = await new Promise(resolve => fabric.Image.fromURL(item.path, resolve, { crossOrigin: 'anonymous' }));
                       if(img) {
@@ -2481,12 +2494,15 @@
           // Calculate chip size to fit within the cell
           const chipSize = Math.min(chipCellWidth, chipCellHeight) * 0.95; // Increased from 0.8 to 0.95 for more coverage
 
-          shuffle([...cardItems]).forEach((item, idx) => {
+          // v24.0 — preserve chip metadata across the async loading
+          const chipShuffled = shuffle([...cardItems]);
+          chipShuffled.forEach((item, idx) => {
               const promise = new Promise(resolve => {
                   if (chipFill === 'image') {
                       fabric.Image.fromURL(item.path, img => {
                           if (!img) {
                               const errorCircle = new fabric.Circle({ radius: chipSize / 2, fill: '#FFFFFF', stroke: '#FF0000', strokeWidth: 2 });
+                              errorCircle.chipIndex = idx; errorCircle.chipWord = item.word;
                               resolve(errorCircle);
                               return;
                           }
@@ -2504,6 +2520,7 @@
                               strokeWidth: 2,
                               strokeDashArray: [5, 5]
                           });
+                          circle.chipIndex = idx; circle.chipWord = item.word;
                           resolve(circle);
                       }, { crossOrigin: 'anonymous' });
                   } else {
@@ -2517,12 +2534,14 @@
                           width: chipSize * 0.9,
                           textAlign: 'center'
                       });
-                      resolve(new fabric.Group([circle, wordText]));
+                      const grp = new fabric.Group([circle, wordText]);
+                      grp.chipIndex = idx; grp.chipWord = item.word;
+                      resolve(grp);
                   }
               });
               chipObjectPromises.push(promise);
           });
-          
+
           const chipObjects = await Promise.all(chipObjectPromises);
 
           // Position chips with RELATIVE coordinates (starting from 0,0)
@@ -2559,6 +2578,8 @@
           targetCanvas.add(cardGridGroup);
           cardGridGroup.setCoords();
 
+          // Track chip world rects for the export (only for card 0).
+          const chipExportData = [];
           // Add chip elements with absolute positioning
           chipObjects.forEach(chip => {
               chip.set({
@@ -2568,7 +2589,40 @@
               chip.isBingoElement = true;
               chip.originalIndex = `chips_${index}_elem`;
               targetCanvas.add(chip);
+              // Chip rects for export — chip uses originX/Y (default 'left'/'top'
+              // for raw circle; 'center' would have been set elsewhere). Compute
+              // from current transform.
+              const cw = chip.getScaledWidth();
+              const ch = chip.getScaledHeight();
+              const cx = (chip.originX === 'center') ? chip.left - cw / 2 : chip.left;
+              const cy = (chip.originY === 'center') ? chip.top - ch / 2 : chip.top;
+              chipExportData.push({
+                  index: (typeof chip.chipIndex === 'number') ? chip.chipIndex : chipExportData.length,
+                  word: chip.chipWord || '',
+                  rect: { x: cx, y: cy, w: cw, h: ch }
+              });
           });
+
+          // v24.0 — only the first card seeds the interactive bundle. Stash the
+          // metadata on the canvas; the post-generate hook in generateWorksheet
+          // copies it onto worksheetCanvas.problemsData.
+          if (index === 0) {
+              const cellExportData = cellMeta.map(m => ({
+                  index: m.row * cols + m.col,
+                  row: m.row,
+                  col: m.col,
+                  word: m.word,
+                  rect: {
+                      x: contentMargin + m.relLeft,
+                      y: actualTopMargin + m.relTop,
+                      w: m.w,
+                      h: m.h
+                  }
+              }));
+              targetCanvas.bingoExportCells = cellExportData;
+              targetCanvas.bingoExportChips = chipExportData;
+              targetCanvas.bingoExportDims = { rows: rows, cols: cols };
+          }
       }
       
       async function renderCalloutCanvas(allItems) {
@@ -2866,7 +2920,37 @@
 
           enforceZOrder(worksheetCanvas);
           userAddedObjects.forEach(obj => worksheetCanvas.bringToFront(obj));
+
+          // v24.0 — bake LCSAttribution onto the worksheet canvas so PDF/JPEG/
+          // interactive exports all carry the footer.
+          if (window.LCSAttribution && LCSAttribution.addToCanvas) {
+              LCSAttribution.addToCanvas(worksheetCanvas, { currentCanvasConfig: currentCanvasConfig });
+          }
+
           worksheetCanvas.renderAll();
+
+          // v24.0 — snapshot per-cell + per-chip metadata onto problemsData so
+          // extractDeckBundle can find them later. Defensive deep-copy so post-
+          // generation mutations of the source can't bleed through (find-and-
+          // count v19.1.1 pattern).
+          try {
+              const cells = (worksheetCanvas.bingoExportCells || []).map(c => ({
+                  index: c.index, row: c.row, col: c.col, word: c.word,
+                  rect: { x: c.rect.x, y: c.rect.y, w: c.rect.w, h: c.rect.h }
+              }));
+              const chips = (worksheetCanvas.bingoExportChips || []).map(c => ({
+                  index: c.index, word: c.word,
+                  rect: { x: c.rect.x, y: c.rect.y, w: c.rect.w, h: c.rect.h }
+              }));
+              const dims = worksheetCanvas.bingoExportDims || { rows: parseInt(bingoRowsInput.value, 10), cols: parseInt(bingoColsInput.value, 10) };
+              worksheetCanvas.problemsData = {
+                  gridDims: { rows: dims.rows, cols: dims.cols },
+                  gridCells: cells,
+                  chips: chips
+              };
+          } catch (e) {
+              console.warn('[bingo v24.0] failed to capture problemsData:', e);
+          }
 
           // Store current canvas size for future comparisons
           worksheetCanvas.lastCanvasSize = {
@@ -2875,13 +2959,602 @@
           };
 
           [downloadWorksheetJpegBtn, downloadWorksheetPdfBtn, downloadCalloutJpegBtn, downloadCalloutPdfBtn].forEach(b => b.disabled = false);
+          if (downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = false;
+          if (downloadInteractiveHtmlReferenceBtn) downloadInteractiveHtmlReferenceBtn.disabled = false;
           showMessage('bingoWorksheetGenerated', 'success');
+
+          // Required by image-reference.js propagation checklist item 10.
+          window.__lcsGenerationCounter = (window.__lcsGenerationCounter || 0) + 1;
 
           // Reset generation flag and save state for undo/redo
           isGenerating = false;
           saveCanvasState();
       }
       // --- END: Main Bingo Generation Logic ---
+
+      // ============================================================
+      // Interactive-HTML export v24.0 (bingo) — Family G drag-with-caller
+      // ============================================================
+      async function _captureWorksheetImage(canvas) {
+          var savedZoom = canvas.getZoom();
+          var savedW = canvas.getWidth();
+          var savedH = canvas.getHeight();
+          var savedBg = canvas.backgroundColor;
+          canvas.discardActiveObject();
+          canvas.setZoom(1);
+          canvas.setDimensions({ width: currentCanvasConfig.width, height: currentCanvasConfig.height });
+          if (!savedBg || savedBg === 'transparent') canvas.backgroundColor = '#FFFFFF';
+          canvas.renderAll();
+          var dataURL;
+          try {
+              dataURL = canvas.toDataURL({ format: 'jpeg', quality: 0.85, multiplier: 2 });
+          } finally {
+              canvas.backgroundColor = savedBg;
+              canvas.setZoom(savedZoom);
+              canvas.setDimensions({ width: savedW, height: savedH });
+              canvas.renderAll();
+          }
+          return dataURL;
+      }
+
+      async function extractDeckBundle(canvas, options) {
+          var loadingMode = (options && options.loadingMode === 'reference') ? 'reference' : 'inline';
+          var pd = canvas.problemsData || null;
+          if (!pd || !Array.isArray(pd.gridCells) || !Array.isArray(pd.chips)) {
+              throw new Error('No problemsData on canvas. Generate a worksheet first.');
+          }
+          if (pd.gridCells.length === 0 || pd.chips.length === 0) {
+              throw new Error('Empty grid or chip palette.');
+          }
+
+          var worksheetImage = await _captureWorksheetImage(canvas);
+          var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
+              ? LCSAttribution.getRectFromCanvas(canvas) : null;
+
+          return {
+              bundleVersion: '24.0.0',
+              schemaFormat: 'image-references-v3',
+              loadingMode: loadingMode,
+              appType: 'bingo',
+              createdAt: new Date().toISOString(),
+              contentLanguage: (window.currentLocale || 'en'),
+              title: 'Picture Bingo',
+              page: { width: currentCanvasConfig.width, height: currentCanvasConfig.height },
+              worksheetImage: worksheetImage,
+              gridDims: pd.gridDims,
+              gridCells: pd.gridCells,
+              chips: pd.chips,
+              imageRefs: {},
+              attribution: attributionRect ? {
+                  text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
+                  url: (window.LCSAttribution && LCSAttribution.URL) || 'https://lessoncraftstudio.com',
+                  rect: attributionRect
+              } : null
+          };
+      }
+
+      var INTERACTIVE_CSS_LINES = [
+          '*{box-sizing:border-box}',
+          'html,body{margin:0;padding:0}',
+          'body{font-family:"Fredoka",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#FEFAF3;color:#1C1C1E;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;min-height:100vh}',
+          '#lcs-app{max-width:980px;margin:0 auto;padding:0 12px;padding-bottom:120px}',
+          '.lcs-bar{position:sticky;top:0;z-index:10;background:rgba(254,250,243,.94);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding:12px 4px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}',
+          '.lcs-title{font-size:clamp(18px,2.6vw,24px);font-weight:600;color:#1C1C1E;margin:0;flex:1 1 auto;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}',
+          '.lcs-progress{font-size:clamp(14px,2vw,18px);font-weight:700;color:#4E5FE8;padding:6px 12px;border-radius:999px;background:rgba(78,95,232,.12);font-variant-numeric:tabular-nums;flex-shrink:0}',
+          '.lcs-mute{width:40px;height:40px;border-radius:10px;border:2px solid #DCE1E6;background:#FFF;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;color:#545458;flex-shrink:0}',
+          '.lcs-mute:hover{background:#FEFAF3}',
+          '.lcs-mute:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+          '.lcs-mute svg{width:20px;height:20px;pointer-events:none}',
+          '.lcs-mute[data-muted="1"]{background:#FFF8E6;border-color:#FFC857;color:#8A6D00}',
+          '.lcs-caller{margin:14px auto 0;max-width:880px;padding:18px 24px;background:linear-gradient(135deg,#FFF8E6 0%,#FFE6B5 100%);border:3px solid #FFC857;border-radius:18px;box-shadow:0 4px 18px rgba(255,200,87,.35);text-align:center}',
+          '.lcs-caller__label{font-size:14px;font-weight:700;color:#8A6D00;text-transform:uppercase;letter-spacing:.1em;margin-bottom:4px}',
+          '.lcs-caller__word{font-size:clamp(28px,5vw,44px);font-weight:800;color:#1C1C1E;letter-spacing:.02em;animation:lcs-call-in .4s ease-out;word-break:break-word}',
+          '.lcs-caller__word--done{color:#2E7D32;font-size:clamp(22px,3.6vw,32px)}',
+          '@keyframes lcs-call-in{0%{transform:translateY(8px) scale(.92);opacity:0}100%{transform:translateY(0) scale(1);opacity:1}}',
+          '.lcs-worksheet-wrap{display:flex;justify-content:center;padding-top:14px}',
+          '.lcs-worksheet{position:relative;display:block;width:100%;max-width:880px;background:#FFF;border-radius:10px;box-shadow:0 4px 18px rgba(28,28,30,.08);overflow:visible}',
+          '.lcs-worksheet__img{display:block;width:100%;height:auto;user-select:none;-webkit-user-drag:none;pointer-events:none;border-radius:10px}',
+          '.lcs-overlay{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none}',
+          '.lcs-tile{position:absolute;pointer-events:none}',
+          '.lcs-tile__btn{position:absolute;inset:0;width:100%;height:100%;border:3px solid transparent;background:transparent;pointer-events:auto;padding:0;border-radius:6px;transition:border-color .15s,background-color .15s,box-shadow .15s,opacity .2s;touch-action:none}',
+          '.lcs-tile__btn[data-kind="chip"]{cursor:grab;border-radius:50%}',
+          '.lcs-tile__btn[data-kind="chip"]:active{cursor:grabbing}',
+          '.lcs-tile__btn[data-kind="chip"]:hover{border-color:#4E5FE8;background:rgba(78,95,232,.10);box-shadow:0 0 0 4px rgba(78,95,232,.12)}',
+          '.lcs-tile__btn[data-kind="chip"][data-call-now="1"]{border:3px solid #FFC857;background:rgba(255,200,87,.18);box-shadow:0 0 0 4px rgba(255,200,87,.25),0 0 14px rgba(255,200,87,.4);animation:lcs-pulse 1.4s ease-in-out infinite}',
+          '@keyframes lcs-pulse{0%,100%{box-shadow:0 0 0 4px rgba(255,200,87,.25),0 0 14px rgba(255,200,87,.4)}50%{box-shadow:0 0 0 8px rgba(255,200,87,.18),0 0 22px rgba(255,200,87,.55)}}',
+          '.lcs-tile__btn[data-kind="cell"]{cursor:default}',
+          '.lcs-tile__btn[data-locked="1"]{cursor:default;pointer-events:none;border-color:transparent}',
+          '.lcs-tile__btn[data-deployed="1"]{opacity:0;pointer-events:none}',
+          '.lcs-tile__btn[data-drop-hover="ok"]{border:3px dashed #4CAF50;background:rgba(76,175,80,.14);box-shadow:0 0 0 4px rgba(76,175,80,.25)}',
+          '.lcs-tile__btn[data-drop-hover="reject"]{border:3px dashed #E53935;background:rgba(229,57,53,.10);box-shadow:0 0 0 4px rgba(229,57,53,.18)}',
+          '.lcs-tile__btn[data-wrong="1"]{animation:lcs-shake .35s cubic-bezier(.36,.07,.19,.97)}',
+          '@keyframes lcs-shake{10%,90%{transform:translateX(-2px)}20%,80%{transform:translateX(3px)}30%,50%,70%{transform:translateX(-5px)}40%,60%{transform:translateX(5px)}}',
+          '.lcs-marker{position:absolute;inset:6%;border-radius:50%;background:radial-gradient(circle at 35% 35%,rgba(255,255,255,.55) 0%,rgba(255,200,87,.85) 35%,rgba(214,138,17,.95) 100%);box-shadow:0 4px 14px rgba(0,0,0,.25),inset 0 -3px 10px rgba(214,138,17,.55);pointer-events:none;animation:lcs-pop .3s ease-out;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.95);font-size:clamp(16px,3vw,28px);font-weight:800;text-shadow:0 1px 2px rgba(0,0,0,.3)}',
+          '@keyframes lcs-pop{0%{transform:scale(.5);opacity:0}60%{transform:scale(1.1);opacity:1}100%{transform:scale(1);opacity:1}}',
+          '.lcs-drag-ghost{position:fixed;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);border-radius:50%;box-shadow:0 12px 28px rgba(28,28,30,.35);background:radial-gradient(circle at 35% 35%,rgba(255,255,255,.55) 0%,rgba(255,200,87,.85) 35%,rgba(214,138,17,.95) 100%);border:3px solid #4E5FE8;display:flex;align-items:center;justify-content:center;color:#FFF;font-weight:800;font-size:clamp(14px,2.4vw,20px);text-shadow:0 1px 2px rgba(0,0,0,.3);text-align:center;padding:0 6px;line-height:1.05;word-break:break-word}',
+          '.lcs-img-overlay{user-select:none;-webkit-user-drag:none}',
+          '.lcs-footer{position:sticky;bottom:0;z-index:10;margin-top:24px;background:rgba(254,250,243,.95);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-top:1px solid #DCE1E6;padding:16px 12px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap}',
+          '.lcs-btn{font-family:inherit;font-weight:700;font-size:17px;padding:14px 28px;border-radius:12px;border:none;cursor:pointer;min-height:52px;min-width:160px;transition:background-color .2s,transform .1s,box-shadow .2s,opacity .2s}',
+          '.lcs-btn:active:not([disabled]){transform:scale(.97)}',
+          '.lcs-btn:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+          '.lcs-btn[disabled]{opacity:.45;cursor:not-allowed}',
+          '.lcs-btn--ghost{background:#FFF;color:#1C1C1E;border:2px solid #DCE1E6}',
+          '.lcs-btn--ghost:hover{background:#FEFAF3;border-color:#4E5FE8}',
+          '.lcs-celebration{position:fixed;inset:0;background:rgba(28,28,30,.5);display:none;align-items:center;justify-content:center;z-index:10000;padding:16px}',
+          '.lcs-celebration--shown{display:flex}',
+          '.lcs-celebration__inner{position:relative;background:#FFFFFF;border-radius:24px;padding:32px 28px 24px;max-width:520px;width:100%;box-shadow:0 20px 60px rgba(28,28,30,.35);text-align:center;z-index:2}',
+          '.lcs-celebration__title{font-size:clamp(36px,7vw,56px);margin:0 0 4px;color:#4E5FE8;font-weight:700}',
+          '.lcs-stars{font-size:clamp(40px,7vw,52px);letter-spacing:10px;margin:12px 0;line-height:1}',
+          '.lcs-star{color:#DCE1E6}',
+          '.lcs-star--filled{color:#FFC857;filter:drop-shadow(0 2px 4px rgba(255,200,87,.35))}',
+          '.lcs-celebration__sub{color:#545458;font-size:16px;margin:0 0 20px}',
+          '.lcs-mini{display:block;max-width:100%;max-height:200px;margin:0 auto 20px;border-radius:8px;border:1px solid #DCE1E6}',
+          '.lcs-celebration__cta{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}',
+          '.lcs-confetti{position:absolute;inset:0;pointer-events:none;overflow:hidden;border-radius:24px}',
+          '.lcs-confetti__piece{position:absolute;width:8px;height:14px;top:-20px;animation:lcs-fall linear forwards;border-radius:2px}',
+          '@keyframes lcs-fall{to{transform:translateY(620px) rotate(540deg);opacity:0}}',
+          '.lcs-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}',
+          '.lcs-attrib-link{position:absolute;transform:translate(-50%,-50%);pointer-events:auto;cursor:pointer;background:transparent;text-decoration:none;border-radius:4px;outline:none}',
+          '.lcs-attrib-link:focus-visible{outline:2px solid #4E5FE8;outline-offset:2px}',
+          '.lcs-attrib-link:hover{background:rgba(78,95,232,.08)}',
+          '@media (prefers-reduced-motion:reduce){',
+          '  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.15s !important}',
+          '  .lcs-confetti{display:none}',
+          '}',
+          '@media print{',
+          '  body{background:#FFF}',
+          '  .lcs-bar,.lcs-footer,.lcs-celebration,.lcs-attrib-link,.lcs-caller{display:none !important}',
+          '  .lcs-worksheet{box-shadow:none;border:none}',
+          '  .lcs-tile__btn{border:none !important;background:transparent !important}',
+          '}'
+      ];
+
+      var INTERACTIVE_RUNTIME_LINES = [
+          '(function(){',
+          '  "use strict";',
+          '  var STRINGS = {',
+          '    en:{title:"Picture Bingo",reset:"Reset",mute:"Mute sounds",unmute:"Turn sounds on",printMyWorksheet:"Print my worksheet",doAnother:"Do Another",youDidIt:"You did it!",progressLabel:"{n} / {total}",callerLabel:"Find:",allDone:"All called!"}',
+          '  };',
+          '  function T(key){var loc=(DECK_BUNDLE.contentLanguage||"en").slice(0,2);var t=STRINGS[loc]||STRINGS.en;return t[key]||STRINGS.en[key]||key}',
+          '  function fmt(s,vars){return s.replace(/\\{(\\w+)\\}/g,function(_,k){return vars[k]==null?"":String(vars[k])})}',
+          '  function shuffleArr(a){var x=a.slice();for(var i=x.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=x[i];x[i]=x[j];x[j]=t}return x}',
+          '',
+          '  var gridCells=DECK_BUNDLE.gridCells||[];',
+          '  var chips=DECK_BUNDLE.chips||[];',
+          '  // matched: cellIndex -> chipIndex (only on correct drops)',
+          '  var matched={};',
+          '  // callerQueue: shuffled words still to be called',
+          '  var callerQueue=shuffleArr(gridCells.map(function(c){return c.word}));',
+          '  var currentCall=callerQueue.length?callerQueue[0]:null;',
+          '  var totalToCover=gridCells.length;',
+          '  // drag: { chipIndex, ghost, pointerId, sourceBtn } or null',
+          '  var drag=null;',
+          '',
+          '  var muted=false;try{muted=localStorage.getItem("lcsMuted")==="1"}catch(e){}',
+          '  var reducedMotion=false;try{reducedMotion=window.matchMedia("(prefers-reduced-motion: reduce)").matches}catch(e){}',
+          '  var audioCtx=null;',
+          '  var celebrationShown=false;',
+          '  var titleEl,overlayEl,muteBtn,celebrationEl,liveEl,imgEl,resetBtn,progressEl,callerWordEl;',
+          '',
+          '  function init(){',
+          '    titleEl=document.getElementById("lcs-title");',
+          '    overlayEl=document.getElementById("lcs-overlay");',
+          '    muteBtn=document.getElementById("lcs-mute");',
+          '    celebrationEl=document.getElementById("lcs-celebration");',
+          '    liveEl=document.getElementById("lcs-live");',
+          '    imgEl=document.getElementById("lcs-worksheet-img");',
+          '    resetBtn=document.getElementById("lcs-reset");',
+          '    progressEl=document.getElementById("lcs-progress");',
+          '    callerWordEl=document.getElementById("lcs-caller-word");',
+          '    if(titleEl) titleEl.textContent=DECK_BUNDLE.title||T("title");',
+          '    if(imgEl&&imgEl.complete&&imgEl.naturalHeight>0){renderTiles();}',
+          '    else if(imgEl){imgEl.addEventListener("load",renderTiles);imgEl.addEventListener("error",function(){console.error("[LCS] Worksheet image failed to load")});}',
+          '    wireMute();updateMuteButton();wireButtons();',
+          '    updateCallerBar();',
+          '    updateProgress();',
+          '  }',
+          '',
+          '  function chipBtn(idx){return overlayEl?overlayEl.querySelector(\'.lcs-tile__btn[data-kind="chip"][data-idx="\'+idx+\'"]\'):null}',
+          '  function cellBtn(idx){return overlayEl?overlayEl.querySelector(\'.lcs-tile__btn[data-kind="cell"][data-idx="\'+idx+\'"]\'):null}',
+          '',
+          '  function renderTiles(){',
+          '    overlayEl.innerHTML="";',
+          '    var pw=DECK_BUNDLE.page.width;var ph=DECK_BUNDLE.page.height;',
+          '    // Drop targets (cells)',
+          '    gridCells.forEach(function(c){',
+          '      var wrap=document.createElement("div");',
+          '      wrap.className="lcs-tile";',
+          '      wrap.style.left=((c.rect.x/pw)*100)+"%";',
+          '      wrap.style.top=((c.rect.y/ph)*100)+"%";',
+          '      wrap.style.width=((c.rect.w/pw)*100).toFixed(3)+"%";',
+          '      wrap.style.height=((c.rect.h/ph)*100).toFixed(3)+"%";',
+          '      var btn=document.createElement("button");',
+          '      btn.type="button";btn.className="lcs-tile__btn";',
+          '      btn.setAttribute("data-kind","cell");',
+          '      btn.setAttribute("data-idx",String(c.index));',
+          '      btn.setAttribute("aria-label","Cell "+c.word);',
+          '      wrap.appendChild(btn);',
+          '      overlayEl.appendChild(wrap);',
+          '    });',
+          '    // Drag sources (chips)',
+          '    chips.forEach(function(ch){',
+          '      var wrap=document.createElement("div");',
+          '      wrap.className="lcs-tile";',
+          '      wrap.style.left=((ch.rect.x/pw)*100)+"%";',
+          '      wrap.style.top=((ch.rect.y/ph)*100)+"%";',
+          '      wrap.style.width=((ch.rect.w/pw)*100).toFixed(3)+"%";',
+          '      wrap.style.height=((ch.rect.h/ph)*100).toFixed(3)+"%";',
+          '      var btn=document.createElement("button");',
+          '      btn.type="button";btn.className="lcs-tile__btn";',
+          '      btn.setAttribute("data-kind","chip");',
+          '      btn.setAttribute("data-idx",String(ch.index));',
+          '      btn.setAttribute("data-word",ch.word);',
+          '      btn.setAttribute("aria-label","Chip "+ch.word);',
+          '      btn.addEventListener("pointerdown",function(e){onChipPointerDown(e,ch.index,ch.word)});',
+          '      wrap.appendChild(btn);',
+          '      overlayEl.appendChild(wrap);',
+          '    });',
+          '    if(DECK_BUNDLE.attribution&&DECK_BUNDLE.attribution.rect){',
+          '      var ar=DECK_BUNDLE.attribution.rect;',
+          '      var link=document.createElement("a");',
+          '      link.className="lcs-attrib-link";',
+          '      link.href=DECK_BUNDLE.attribution.url||"https://lessoncraftstudio.com";',
+          '      link.target="_blank";link.rel="noopener";',
+          '      link.setAttribute("aria-label",DECK_BUNDLE.attribution.text||"Made with LessonCraftStudio.com");',
+          '      link.style.left=((ar.x/pw)*100)+"%";link.style.top=((ar.y/ph)*100)+"%";',
+          '      link.style.width=((ar.w/pw)*100).toFixed(2)+"%";link.style.height=((ar.h/ph)*100).toFixed(2)+"%";',
+          '      overlayEl.appendChild(link);',
+          '    }',
+          '    syncCallNowHint();',
+          '  }',
+          '',
+          '  // Highlight the chip(s) whose word matches the current call so the kid',
+          '  // knows which one to drag. (Multiple chips may share a word in some',
+          '  // configurations — highlight all that match.)',
+          '  function syncCallNowHint(){',
+          '    if(!overlayEl)return;',
+          '    var btns=overlayEl.querySelectorAll(\'.lcs-tile__btn[data-kind="chip"]\');',
+          '    for(var i=0;i<btns.length;i++){',
+          '      var b=btns[i];',
+          '      if(b.getAttribute("data-deployed")==="1"){b.removeAttribute("data-call-now");continue}',
+          '      if(currentCall&&b.getAttribute("data-word")===currentCall) b.setAttribute("data-call-now","1");',
+          '      else b.removeAttribute("data-call-now");',
+          '    }',
+          '  }',
+          '',
+          '  function updateCallerBar(){',
+          '    if(!callerWordEl)return;',
+          '    if(!currentCall){',
+          '      callerWordEl.textContent=T("allDone");',
+          '      callerWordEl.classList.add("lcs-caller__word--done");',
+          '    }else{',
+          '      callerWordEl.textContent=currentCall.toString().toUpperCase();',
+          '      callerWordEl.classList.remove("lcs-caller__word--done");',
+          '      // restart the slide-in animation',
+          '      callerWordEl.style.animation="none";void callerWordEl.offsetWidth;callerWordEl.style.animation="";',
+          '    }',
+          '  }',
+          '',
+          '  function updateProgress(){',
+          '    if(!progressEl)return;',
+          '    progressEl.textContent=fmt(T("progressLabel"),{n:Object.keys(matched).length,total:totalToCover});',
+          '  }',
+          '',
+          '  function advanceCaller(){',
+          '    // Pop until we find a word that\'s still uncovered.',
+          '    while(callerQueue.length){',
+          '      callerQueue.shift();',
+          '      var nxt=callerQueue.length?callerQueue[0]:null;',
+          '      if(!nxt){currentCall=null;break}',
+          '      var stillNeeded=gridCells.some(function(c){return c.word===nxt&&!matched.hasOwnProperty(c.index)});',
+          '      if(stillNeeded){currentCall=nxt;break}',
+          '      // else: the word is already covered (rare in well-formed cards) — skip',
+          '    }',
+          '    if(!callerQueue.length){currentCall=null}',
+          '    updateCallerBar();',
+          '    syncCallNowHint();',
+          '  }',
+          '',
+          '  function ghostSizePx(){',
+          '    var refChip=chips[0];',
+          '    if(!refChip) return { w: 80, h: 80 };',
+          '    var wsRect=document.getElementById("lcs-worksheet").getBoundingClientRect();',
+          '    var pw=DECK_BUNDLE.page.width;var ph=DECK_BUNDLE.page.height;',
+          '    return { w: (refChip.rect.w/pw)*wsRect.width, h: (refChip.rect.h/ph)*wsRect.height };',
+          '  }',
+          '',
+          '  function onChipPointerDown(e,chipIndex,chipWord){',
+          '    var src=e.currentTarget;',
+          '    if(!src||src.getAttribute("data-deployed")==="1")return;',
+          '    if(drag)return;',
+          '    e.preventDefault();',
+          '    var sz=ghostSizePx();',
+          '    var ghost=document.createElement("div");',
+          '    ghost.className="lcs-drag-ghost";',
+          '    ghost.style.width=sz.w+"px";ghost.style.height=sz.h+"px";',
+          '    ghost.style.left=e.clientX+"px";ghost.style.top=e.clientY+"px";',
+          '    ghost.textContent=String(chipWord||"").toUpperCase();',
+          '    document.body.appendChild(ghost);',
+          '    src.setAttribute("data-dragging","1");',
+          '    drag={chipIndex:chipIndex,chipWord:chipWord,ghost:ghost,pointerId:e.pointerId,sourceBtn:src};',
+          '    window.addEventListener("pointermove",onDragMove);',
+          '    window.addEventListener("pointerup",onDragUp);',
+          '    window.addEventListener("pointercancel",onDragCancel);',
+          '    try{src.setPointerCapture&&src.setPointerCapture(e.pointerId);}catch(err){}',
+          '    playTone(620,0.05);',
+          '  }',
+          '',
+          '  function cellAtPoint(x,y){',
+          '    if(!overlayEl)return null;',
+          '    var btns=overlayEl.querySelectorAll(\'.lcs-tile__btn[data-kind="cell"]\');',
+          '    for(var i=0;i<btns.length;i++){',
+          '      var b=btns[i];',
+          '      var r=b.getBoundingClientRect();',
+          '      if(x>=r.left&&x<=r.right&&y>=r.top&&y<=r.bottom) return b;',
+          '    }',
+          '    return null;',
+          '  }',
+          '',
+          '  function clearDropHover(){',
+          '    if(!overlayEl)return;',
+          '    var hovered=overlayEl.querySelectorAll(\'.lcs-tile__btn[data-drop-hover]\');',
+          '    for(var i=0;i<hovered.length;i++) hovered[i].removeAttribute("data-drop-hover");',
+          '  }',
+          '',
+          '  function onDragMove(e){',
+          '    if(!drag||e.pointerId!==drag.pointerId)return;',
+          '    drag.ghost.style.left=e.clientX+"px";',
+          '    drag.ghost.style.top=e.clientY+"px";',
+          '    clearDropHover();',
+          '    var hovered=cellAtPoint(e.clientX,e.clientY);',
+          '    if(!hovered) return;',
+          '    var cIdx=parseInt(hovered.getAttribute("data-idx"),10);',
+          '    if(matched.hasOwnProperty(cIdx)){hovered.setAttribute("data-drop-hover","reject");return}',
+          '    var cell=gridCells.find(function(c){return c.index===cIdx});',
+          '    var ok=(cell&&cell.word===drag.chipWord&&cell.word===currentCall);',
+          '    hovered.setAttribute("data-drop-hover",ok?"ok":"reject");',
+          '  }',
+          '',
+          '  function endDrag(){',
+          '    if(!drag)return;',
+          '    if(drag.sourceBtn){',
+          '      drag.sourceBtn.removeAttribute("data-dragging");',
+          '      try{drag.sourceBtn.releasePointerCapture&&drag.sourceBtn.releasePointerCapture(drag.pointerId);}catch(e){}',
+          '    }',
+          '    if(drag.ghost&&drag.ghost.parentNode) drag.ghost.parentNode.removeChild(drag.ghost);',
+          '    window.removeEventListener("pointermove",onDragMove);',
+          '    window.removeEventListener("pointerup",onDragUp);',
+          '    window.removeEventListener("pointercancel",onDragCancel);',
+          '    clearDropHover();',
+          '    drag=null;',
+          '  }',
+          '',
+          '  function onDragCancel(e){',
+          '    if(!drag||e.pointerId!==drag.pointerId)return;',
+          '    endDrag();',
+          '  }',
+          '',
+          '  function onDragUp(e){',
+          '    if(!drag||e.pointerId!==drag.pointerId)return;',
+          '    var droppedOn=cellAtPoint(e.clientX,e.clientY);',
+          '    var chipWord=drag.chipWord;',
+          '    var chipIdx=drag.chipIndex;',
+          '    if(!droppedOn){endDrag();return}',
+          '    var cIdx=parseInt(droppedOn.getAttribute("data-idx"),10);',
+          '    if(matched.hasOwnProperty(cIdx)){endDrag();return}',
+          '    var cell=gridCells.find(function(c){return c.index===cIdx});',
+          '    var correct=(cell&&cell.word===chipWord&&cell.word===currentCall);',
+          '    if(correct){',
+          '      matched[cIdx]=chipIdx;',
+          '      placeMarker(cIdx);',
+          '      droppedOn.setAttribute("data-locked","1");',
+          '      var cBtn=chipBtn(chipIdx);',
+          '      if(cBtn){cBtn.setAttribute("data-deployed","1");cBtn.removeAttribute("data-call-now")}',
+          '      playTone(659.25,0.1);',
+          '      setTimeout(function(){playTone(987.77,0.1)},120);',
+          '      updateProgress();',
+          '      advanceCaller();',
+          '      endDrag();',
+          '      if(Object.keys(matched).length>=totalToCover){setTimeout(showCelebration,400)}',
+          '    }else{',
+          '      droppedOn.setAttribute("data-wrong","1");',
+          '      playTone(220,0.08);',
+          '      setTimeout(function(){droppedOn.removeAttribute("data-wrong")},400);',
+          '      endDrag();',
+          '    }',
+          '  }',
+          '',
+          '  function placeMarker(cellIdx){',
+          '    var btn=cellBtn(cellIdx);if(!btn)return;',
+          '    var existing=btn.parentNode.querySelector(".lcs-marker");',
+          '    if(existing) return;',
+          '    var marker=document.createElement("span");',
+          '    marker.className="lcs-marker";',
+          '    marker.textContent="\\u2713";',
+          '    btn.parentNode.appendChild(marker);',
+          '  }',
+          '',
+          '  function wireButtons(){',
+          '    if(resetBtn) resetBtn.addEventListener("click",resetAll);',
+          '  }',
+          '',
+          '  function resetAll(){',
+          '    celebrationShown=false;',
+          '    matched={};',
+          '    if(drag) endDrag();',
+          '    callerQueue=shuffleArr(gridCells.map(function(c){return c.word}));',
+          '    currentCall=callerQueue.length?callerQueue[0]:null;',
+          '    if(overlayEl){',
+          '      var btns=overlayEl.querySelectorAll(".lcs-tile__btn");',
+          '      for(var i=0;i<btns.length;i++){',
+          '        btns[i].removeAttribute("data-locked");',
+          '        btns[i].removeAttribute("data-deployed");',
+          '        btns[i].removeAttribute("data-dragging");',
+          '        btns[i].removeAttribute("data-drop-hover");',
+          '        btns[i].removeAttribute("data-wrong");',
+          '        btns[i].removeAttribute("data-call-now");',
+          '      }',
+          '      var markers=overlayEl.querySelectorAll(".lcs-marker");',
+          '      for(var r=0;r<markers.length;r++){if(markers[r].parentNode) markers[r].parentNode.removeChild(markers[r])}',
+          '    }',
+          '    if(celebrationEl) celebrationEl.classList.remove("lcs-celebration--shown");',
+          '    if(resetBtn){resetBtn.hidden=true}',
+          '    syncCallNowHint();',
+          '    updateCallerBar();',
+          '    updateProgress();',
+          '  }',
+          '',
+          '  function playTone(freq,dur){',
+          '    if(muted)return;',
+          '    try{',
+          '      if(!audioCtx){var Ctx=window.AudioContext||window.webkitAudioContext;if(!Ctx)return;audioCtx=new Ctx()}',
+          '      if(audioCtx.state==="suspended")audioCtx.resume();',
+          '      var osc=audioCtx.createOscillator();var gain=audioCtx.createGain();',
+          '      osc.type="sine";osc.frequency.value=freq;',
+          '      var now=audioCtx.currentTime;',
+          '      gain.gain.setValueAtTime(0,now);gain.gain.linearRampToValueAtTime(0.14,now+0.012);gain.gain.linearRampToValueAtTime(0,now+dur);',
+          '      osc.connect(gain);gain.connect(audioCtx.destination);',
+          '      osc.start(now);osc.stop(now+dur+0.03);',
+          '    }catch(e){}',
+          '  }',
+          '  function announce(msg){if(liveEl)liveEl.textContent=msg}',
+          '',
+          '  function showCelebration(){',
+          '    if(celebrationShown)return;celebrationShown=true;',
+          '    if(resetBtn) resetBtn.hidden=false;',
+          '    var stars=3;var starsHTML="";',
+          '    for(var i=1;i<=3;i++){starsHTML+="<span class=\\"lcs-star"+(i<=stars?" lcs-star--filled":"")+"\\">\\u2605</span>"}',
+          '    celebrationEl.innerHTML=',
+          '      "<div class=\\"lcs-celebration__inner\\">"+',
+          '      "<h1 class=\\"lcs-celebration__title\\">"+T("youDidIt")+"</h1>"+',
+          '      "<div class=\\"lcs-stars\\" aria-label=\\""+stars+" out of 3 stars\\">"+starsHTML+"</div>"+',
+          '      "<p class=\\"lcs-celebration__sub\\">"+totalToCover+" / "+totalToCover+"</p>"+',
+          '      "<img class=\\"lcs-mini\\" alt=\\"Your completed worksheet\\" src=\\""+DECK_BUNDLE.worksheetImage+"\\" />"+',
+          '      "<div class=\\"lcs-celebration__cta\\">"+',
+          '        "<button class=\\"lcs-btn lcs-btn--ghost\\" type=\\"button\\" id=\\"lcs-do-another\\">"+T("doAnother")+"</button>"+',
+          '        "<button class=\\"lcs-btn lcs-btn--ghost\\" type=\\"button\\" id=\\"lcs-cel-print\\">"+T("printMyWorksheet")+"</button>"+',
+          '      "</div></div>"+',
+          '      "<div class=\\"lcs-confetti\\" aria-hidden=\\"true\\"></div>";',
+          '    celebrationEl.classList.add("lcs-celebration--shown");',
+          '    announce(T("youDidIt"));',
+          '    playTone(659.25,0.13);',
+          '    setTimeout(function(){playTone(987.77,0.18)},160);',
+          '    document.getElementById("lcs-do-another").addEventListener("click",function(){location.reload()});',
+          '    document.getElementById("lcs-cel-print").addEventListener("click",function(){window.print()});',
+          '    if(!reducedMotion)spawnConfetti();',
+          '  }',
+          '  function spawnConfetti(){',
+          '    var layer=celebrationEl.querySelector(".lcs-confetti");if(!layer)return;',
+          '    var colors=["#4E5FE8","#4CAF50","#FF8A65","#FFC857","#6AB7FF","#B39DDB"];',
+          '    for(var i=0;i<48;i++){',
+          '      var c=document.createElement("span");c.className="lcs-confetti__piece";',
+          '      c.style.left=(Math.random()*100)+"%";',
+          '      c.style.background=colors[i%colors.length];',
+          '      c.style.animationDelay=(Math.random()*0.5)+"s";',
+          '      c.style.animationDuration=(1.8+Math.random()*1.3)+"s";',
+          '      c.style.transform="rotate("+(Math.random()*360)+"deg)";',
+          '      layer.appendChild(c);',
+          '    }',
+          '  }',
+          '',
+          '  function wireMute(){muteBtn.addEventListener("click",function(){muted=!muted;try{localStorage.setItem("lcsMuted",muted?"1":"0")}catch(e){}updateMuteButton()})}',
+          '  function updateMuteButton(){',
+          '    muteBtn.setAttribute("aria-label",muted?T("unmute"):T("mute"));',
+          '    muteBtn.setAttribute("data-muted",muted?"1":"0");',
+          '    muteBtn.innerHTML=muted',
+          '      ? "<svg viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\"><path d=\\"M11 5L6 9H2v6h4l5 4V5z\\"/><line x1=\\"23\\" y1=\\"9\\" x2=\\"17\\" y2=\\"15\\"/><line x1=\\"17\\" y1=\\"9\\" x2=\\"23\\" y2=\\"15\\"/></svg>"',
+          '      : "<svg viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\"><path d=\\"M11 5L6 9H2v6h4l5 4V5z\\"/><path d=\\"M15.54 8.46a5 5 0 0 1 0 7.07\\"/><path d=\\"M19.07 4.93a10 10 0 0 1 0 14.14\\"/></svg>";',
+          '  }',
+          '',
+          '  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);',
+          '  else init();',
+          '})();'
+      ];
+
+      function renderStandaloneHTML(bundle) {
+          var css = INTERACTIVE_CSS_LINES.join('\n');
+          var runtime = INTERACTIVE_RUNTIME_LINES.join('\n');
+          var bundleJSON = JSON.stringify(bundle);
+          var lang = (bundle.contentLanguage || 'en').slice(0, 2);
+          var title = bundle.title || 'Picture Bingo';
+          var parts = [];
+          parts.push('<!DOCTYPE html>');
+          parts.push('<html lang="' + lang + '">');
+          parts.push('<head>');
+          parts.push('<meta charset="UTF-8">');
+          parts.push('<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">');
+          parts.push('<meta name="theme-color" content="#FEFAF3">');
+          parts.push('<title>' + title + '</title>');
+          parts.push('<link rel="preconnect" href="https://fonts.googleapis.com">');
+          parts.push('<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>');
+          parts.push('<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700;800&display=swap" rel="stylesheet">');
+          parts.push('<style>' + css + '</style>');
+          parts.push('</head>');
+          parts.push('<body>');
+          parts.push('<main id="lcs-app">');
+          parts.push('  <div class="lcs-bar">');
+          parts.push('    <h1 class="lcs-title" id="lcs-title">' + title + '</h1>');
+          parts.push('    <span class="lcs-progress" id="lcs-progress" aria-live="polite">0 / 0</span>');
+          parts.push('    <button type="button" id="lcs-mute" class="lcs-mute" aria-label="Mute sounds"></button>');
+          parts.push('  </div>');
+          parts.push('  <div class="lcs-caller" aria-live="polite">');
+          parts.push('    <div class="lcs-caller__label">Find:</div>');
+          parts.push('    <div class="lcs-caller__word" id="lcs-caller-word">—</div>');
+          parts.push('  </div>');
+          parts.push('  <div class="lcs-worksheet-wrap">');
+          parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');
+          parts.push('      <img class="lcs-worksheet__img" id="lcs-worksheet-img" alt="" src="' + bundle.worksheetImage + '">');
+          parts.push('      <div class="lcs-overlay" id="lcs-overlay"></div>');
+          parts.push('    </div>');
+          parts.push('  </div>');
+          parts.push('</main>');
+          parts.push('<footer class="lcs-footer">');
+          parts.push('  <button type="button" id="lcs-reset" class="lcs-btn lcs-btn--ghost" hidden>Reset</button>');
+          parts.push('</footer>');
+          parts.push('<div class="lcs-celebration" id="lcs-celebration" role="dialog" aria-modal="true" aria-label="You did it!"></div>');
+          parts.push('<div class="lcs-sr" id="lcs-live" role="status" aria-live="polite"></div>');
+          parts.push('<script>var DECK_BUNDLE = ' + bundleJSON + ';<\/script>');
+          parts.push('<script>' + runtime + '<\/script>');
+          parts.push('</body>');
+          parts.push('</html>');
+          return parts.join('\n');
+      }
+
+      async function downloadInteractiveHtml(canvasInstance, fileName, options) {
+          var loadingMode = (options && options.loadingMode) || 'inline';
+          if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
+              showMessage('Please generate a worksheet first.', 'error');
+              return;
+          }
+          showMessage('Preparing ' + fileName + '...', 'info', 0);
+          try {
+              var bundle = await extractDeckBundle(canvasInstance, { loadingMode: loadingMode });
+              if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
+                  throw new Error('Worksheet snapshot is empty.');
+              }
+              if (!bundle.gridCells || bundle.gridCells.length === 0) {
+                  throw new Error('No grid cells detected. Regenerate and try again.');
+              }
+              if (!bundle.chips || bundle.chips.length === 0) {
+                  throw new Error('No chips detected. Regenerate and try again.');
+              }
+              var html = renderStandaloneHTML(bundle);
+              var blob = new Blob([html], { type: 'text/html;charset=utf-8' });
+              var url = URL.createObjectURL(blob);
+              var a = document.createElement('a');
+              a.href = url;
+              a.download = fileName;
+              document.body.appendChild(a);
+              a.click();
+              document.body.removeChild(a);
+              setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+              showMessage('Interactive worksheet downloaded.', 'success');
+          } catch (e) {
+              console.error('[Interactive Export v24.0] Failed:', e);
+              showMessage('Interactive export failed: ' + e.message, 'error');
+          }
+      }
+      // END: Interactive-HTML export v24.0
 
       // --- Initial Worksheet Generation ---
       async function generateInitialWorksheet() {
@@ -3156,6 +3829,8 @@
         
         renderSelectedImages(); renderUploadedImages();
         [downloadWorksheetJpegBtn, downloadCalloutJpegBtn, downloadWorksheetPdfBtn, downloadCalloutPdfBtn].forEach(b => b.disabled = true);
+        if (downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = true;
+        if (downloadInteractiveHtmlReferenceBtn) downloadInteractiveHtmlReferenceBtn.disabled = true;
         closeAllPopups();
         searchInput.value = "";
         themeSelect.value = "all";
@@ -3303,6 +3978,10 @@
       downloadCalloutJpegBtn.addEventListener("click", () => downloadSingleImageFile(calloutsCanvas, 'callout.jpeg'));
       downloadWorksheetPdfBtn.addEventListener("click", () => downloadPdfFile(null, 'bingo_cards.pdf', true));
       downloadCalloutPdfBtn.addEventListener("click", () => downloadPdfFile(calloutsCanvas, 'callout.pdf', false));
+      downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'bingo_interactive.html', { loadingMode: 'inline' }));
+      if (downloadInteractiveHtmlReferenceBtn) {
+          downloadInteractiveHtmlReferenceBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'bingo_interactive_catalog.html', { loadingMode: 'reference' }));
+      }
 
       clearBtn.addEventListener("click", clearAll);
 

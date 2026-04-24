@@ -393,7 +393,7 @@ If your task appears to be outside this scope, stop and ask the operator before 
 
 ## 14. Interactive-HTML export — current implementation status & porting recipe
 
-As of 2026-04-23, **12 of the 31 apps** ship the interactive-HTML export: addition (v4), subtraction (v5), code-addition (v6), more-less (v7), math-puzzle (v8), math-worksheet (v9), alphabet-train (v10), pattern-train (v11), prepositions (v12), word-guess (v13), word-scramble (v14), wordsearch (v15). The remaining 19 are not yet converted. All 12 live apps also carry the shared **LCSAttribution** footer (see §14.3).
+As of 2026-04-24, **14 of the 31 apps** ship the interactive-HTML export: addition (v4), subtraction (v5), code-addition (v6), more-less (v7), math-puzzle (v8), math-worksheet (v9), alphabet-train (v10), pattern-train (v11), prepositions (v12), word-guess (v13), word-scramble (v14), wordsearch (v15), cryptogram (v16), big-small (v17). The remaining 17 are not yet converted. All 14 live apps also carry the shared **LCSAttribution** footer (see §14.3).
 
 ### 14.1 What the current implementation is
 
@@ -529,12 +529,14 @@ Skip step 2 and the site keeps serving the old HTML — we hit this on the addit
 | v13 | word-guess | Letter fill-in | Clean single-kind letter blanks (clean reference) |
 | v14 | word-scramble | Letter fill-in | Same as v13, with display-only scrambled strip |
 | v15 | wordsearch | Puzzle drag | First puzzle-kind; drag-to-select grid |
+| v16 | cryptogram | Letter fill-in | Global cipher auto-propagation + live legend read-only display |
+| v17 | big-small | Letter fill-in (choice) | Find-one + order-N; transparent button-over-image overlay, per-problem progress dots |
 
-Bundle versions bump on every port so the runtime can key on shape if needed. Family A ports share most code; Family B will grow its own references as crossword/cryptogram/matching/sudoku are added.
+Bundle versions bump on every port so the runtime can key on shape if needed. Family A ports share most code; Family B will grow its own references as crossword/matching/sudoku are added.
 
-### 14.9 Remaining apps (19 of 31)
+### 14.9 Remaining apps (17 of 31)
 
-big-small, bingo, chart-count, crossword, cryptogram, draw-and-color, drawing-lines, find-and-count, find-objects, grid-match, matching, missing-pieces, odd-one-out, pattern-worksheet, picture-path, picture-sort, shadow-match, sudoku, treasure-hunt.
+bingo, chart-count, crossword, draw-and-color, drawing-lines, find-and-count, find-objects, grid-match, matching, missing-pieces, odd-one-out, pattern-worksheet, picture-path, picture-sort, shadow-match, sudoku, treasure-hunt.
 
 (Coloring and writing are excluded per §1 — PDF-only, no interactive output.)
 

@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
+    <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
+    <script src="/worksheet-generators/js/image-reference.js?v=1"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -1127,6 +1129,9 @@
                             <button id="downloadWorksheetPdfBtn" disabled data-translate="chartcount.download.worksheet.pdf">Worksheet (PDF)</button>
                             <button id="downloadAnswerKeyPdfBtn" disabled data-translate="chartcount.download.answer.pdf">Answer Key (PDF)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadInteractiveHtmlBtn" disabled>Interactive Worksheet (HTML)</button>
+                            <button id="downloadInteractiveHtmlReferenceBtn" disabled title="For server-hosted catalog playback. Smaller file, requires the same site to host the WebP library.">Interactive Worksheet (Catalog/URL refs)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
                             <label class="checkbox-label" id="grayscaleLabel">
                                 <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
                             </label>
@@ -1277,6 +1282,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const downloadAkJpegBtn = document.getElementById('downloadAnswerKeyJpegBtn');
     const downloadWsPdfBtn = document.getElementById('downloadWorksheetPdfBtn');
     const downloadAkPdfBtn = document.getElementById('downloadAnswerKeyPdfBtn');
+    const downloadInteractiveHtmlBtn = document.getElementById('downloadInteractiveHtmlBtn');
+    const downloadInteractiveHtmlReferenceBtn = document.getElementById('downloadInteractiveHtmlReferenceBtn');
     const grayscaleToggle = document.getElementById('grayscaleToggle');
     const zoomInBtn = document.getElementById('zoomInBtn');
     const zoomOutBtn = document.getElementById('zoomOutBtn');
@@ -1602,6 +1609,10 @@ document.addEventListener('DOMContentLoaded', function() {
         downloadAkJpegBtn.addEventListener('click', () => downloadCanvasAsJPEG(solutionCanvas, 'answer_key.jpeg'));
         downloadWsPdfBtn.addEventListener('click', () => downloadCanvasAsPDF(worksheetCanvas, 'worksheet.pdf'));
         downloadAkPdfBtn.addEventListener('click', () => downloadCanvasAsPDF(solutionCanvas, 'answer_key.pdf'));
+        downloadInteractiveHtmlBtn.addEventListener('click', () => downloadInteractiveHtml(worksheetCanvas, 'chart_count_interactive.html', { loadingMode: 'inline' }));
+        if (downloadInteractiveHtmlReferenceBtn) {
+            downloadInteractiveHtmlReferenceBtn.addEventListener('click', () => downloadInteractiveHtml(worksheetCanvas, 'chart_count_interactive_catalog.html', { loadingMode: 'reference' }));
+        }
 
         // Language selector handler
         if (languageSelect) {
@@ -2308,7 +2319,51 @@ document.addEventListener('DOMContentLoaded', function() {
             height: currentCanvasConfig.height
         };
 
+        // v20.0 — bake LCSAttribution onto the worksheet canvas so PDF/JPEG/
+        // interactive exports all carry the footer.
+        if (window.LCSAttribution && LCSAttribution.addToCanvas) {
+            LCSAttribution.addToCanvas(worksheetCanvas, { currentCanvasConfig: currentCanvasConfig });
+        }
+
         worksheetCanvas.renderAll();
+
+        // v20.0 — capture per-cell world rects + problemsData snapshot for the
+        // interactive bundle. Walking the chart group AFTER renderAll guarantees
+        // setCoords() has run and calcTransformMatrix is up to date.
+        try {
+            const chartGroup = worksheetCanvas.getObjects().find(o => o.isWorksheetExercise && o.originalIndex === 1);
+            if (chartGroup && chartGroup._objects) {
+                const m = chartGroup.calcTransformMatrix();
+                const cells = chartGroup._objects.filter(o => o && o.isChartCell === true);
+                const cellRects = cells.map(cell => {
+                    const tl = fabric.util.transformPoint({ x: cell.left, y: cell.top }, m);
+                    const br = fabric.util.transformPoint({ x: cell.left + cell.width, y: cell.top + cell.height }, m);
+                    return {
+                        row: cell.cellRow,
+                        col: cell.cellCol,
+                        x: Math.min(tl.x, br.x),
+                        y: Math.min(tl.y, br.y),
+                        w: Math.abs(br.x - tl.x),
+                        h: Math.abs(br.y - tl.y)
+                    };
+                });
+                worksheetCanvas.chartCellRects = cellRects;
+            }
+            // Snapshot lastGeneratedData so post-generation mutations of the
+            // source data can never bleed into the bundle (find-and-count §19.1.1
+            // bug pattern).
+            if (lastGeneratedData) {
+                worksheetCanvas.problemsData = {
+                    counts: Object.assign({}, lastGeneratedData.counts || {}),
+                    chartImages: (lastGeneratedData.chartImages || []).map(img => Object.assign({}, img))
+                };
+            }
+        } catch (e) {
+            console.warn('[chart-count v20.0] could not capture chart cell rects:', e);
+        }
+
+        // Required by image-reference.js propagation checklist item 10.
+        window.__lcsGenerationCounter = (window.__lcsGenerationCounter || 0) + 1;
     }
     // END: Refactor Step 2
 
@@ -2547,9 +2602,549 @@ document.addEventListener('DOMContentLoaded', function() {
             height: currentCanvasConfig.height
         };
 
+        // v20.0 — bake LCSAttribution onto the answer-key canvas so its PDF/JPEG
+        // exports also carry the footer.
+        if (window.LCSAttribution && LCSAttribution.addToCanvas) {
+            LCSAttribution.addToCanvas(solutionCanvas, { currentCanvasConfig: currentCanvasConfig });
+        }
+
         solutionCanvas.renderAll();
     }
     // END: Refactor Step 3
+
+    // ============================================================
+    // Interactive-HTML export v20.0 (chart-count)
+    // ============================================================
+    async function _captureWorksheetImage(canvas) {
+        var savedZoom = canvas.getZoom();
+        var savedW = canvas.getWidth();
+        var savedH = canvas.getHeight();
+        var savedBg = canvas.backgroundColor;
+        canvas.discardActiveObject();
+        canvas.setZoom(1);
+        canvas.setDimensions({ width: currentCanvasConfig.width, height: currentCanvasConfig.height });
+        if (!savedBg || savedBg === 'transparent') canvas.backgroundColor = '#FFFFFF';
+        canvas.renderAll();
+        var dataURL;
+        try {
+            dataURL = canvas.toDataURL({ format: 'jpeg', quality: 0.85, multiplier: 2 });
+        } finally {
+            canvas.backgroundColor = savedBg;
+            canvas.setZoom(savedZoom);
+            canvas.setDimensions({ width: savedW, height: savedH });
+            canvas.renderAll();
+        }
+        return dataURL;
+    }
+
+    async function _pathToDataURL(path) {
+        try {
+            var res = await fetch(path, { cache: 'force-cache' });
+            if (!res.ok) return path;
+            var blob = await res.blob();
+            return await new Promise(function (resolve) {
+                var reader = new FileReader();
+                reader.onload = function () { resolve(reader.result); };
+                reader.onerror = function () { resolve(path); };
+                reader.readAsDataURL(blob);
+            });
+        } catch (e) { return path; }
+    }
+
+    async function extractDeckBundle(canvas, options) {
+        var loadingMode = (options && options.loadingMode === 'reference') ? 'reference' : 'inline';
+        var pd = canvas.problemsData || null;
+        if (!pd || !pd.counts || !pd.chartImages) {
+            throw new Error('No problemsData on canvas. Generate a worksheet first.');
+        }
+        if (!Array.isArray(canvas.chartCellRects) || canvas.chartCellRects.length !== 30) {
+            throw new Error('Chart grid not detected on canvas. Regenerate the worksheet.');
+        }
+
+        // Build per-column targets (one per chart column).
+        var targets = pd.chartImages.map(function (img, col) {
+            var word = img.name || img.word || '';
+            var key = word.toLowerCase();
+            var parsed = (window.LCSImageRef && img.path) ? LCSImageRef.parseImagePath(img.path) : null;
+            return {
+                col: col,
+                key: key,
+                word: word,
+                theme: parsed ? parsed.theme : null,
+                canonicalKey: parsed ? parsed.key : null,
+                path: img.path,
+                totalCount: pd.counts[word] || 0
+            };
+        });
+
+        // Cells from canvas — already in world coords thanks to renderWorksheet.
+        var chartCells = canvas.chartCellRects.map(function (c) {
+            return { row: c.row, col: c.col, x: c.x, y: c.y, w: c.w, h: c.h };
+        });
+
+        // Build imageRefs map for any column icons that resolve to canonical
+        // library paths. The legend icons are baked into the JPEG; this map
+        // is only used by the runtime if it needs to render variant-aware
+        // icons elsewhere (e.g., a future hint pill).
+        var imageRefs = {};
+        if (window.LCSImageRef) {
+            var pairs = [];
+            var seen = {};
+            targets.forEach(function (t) {
+                if (t.theme && t.canonicalKey) {
+                    var k = t.theme + '/' + t.canonicalKey;
+                    if (!seen[k]) { seen[k] = true; pairs.push({ theme: t.theme, key: t.canonicalKey }); }
+                }
+            });
+            var resolver = (loadingMode === 'reference')
+                ? LCSImageRef.referenceVariants
+                : LCSImageRef.inlineVariants;
+            var loaded = await Promise.all(pairs.map(function (p) {
+                return resolver(p.key, p.theme).then(function (v) {
+                    return { theme: p.theme, key: p.key, variants: v };
+                });
+            }));
+            loaded.forEach(function (e) {
+                imageRefs[e.theme + '/' + e.key] = { variants: e.variants };
+            });
+        }
+
+        // Embed non-canonical (uploaded) target paths as base64 in inline mode.
+        if (loadingMode === 'inline') {
+            var nonCanonical = {};
+            targets.forEach(function (t) {
+                if (!t.theme && t.path) nonCanonical[t.path] = true;
+            });
+            var uniquePaths = Object.keys(nonCanonical);
+            var resolved = await Promise.all(uniquePaths.map(function (p) { return _pathToDataURL(p); }));
+            var pathMap = {};
+            uniquePaths.forEach(function (p, i) { pathMap[p] = resolved[i]; });
+            targets.forEach(function (t) {
+                if (!t.theme && t.path && pathMap[t.path]) t.path = pathMap[t.path];
+            });
+        }
+
+        var worksheetImage = await _captureWorksheetImage(canvas);
+        var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
+            ? LCSAttribution.getRectFromCanvas(canvas) : null;
+
+        return {
+            bundleVersion: '20.0.0',
+            schemaFormat: 'image-references-v3',
+            loadingMode: loadingMode,
+            appType: 'chart-count',
+            createdAt: new Date().toISOString(),
+            contentLanguage: (window.currentLocale || 'en'),
+            title: 'Picture Graph',
+            page: { width: currentCanvasConfig.width, height: currentCanvasConfig.height },
+            worksheetImage: worksheetImage,
+            chartDims: { rows: 5, cols: 6 },
+            chartCells: chartCells,
+            targets: targets,
+            imageRefs: imageRefs,
+            attribution: attributionRect ? {
+                text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
+                url: (window.LCSAttribution && LCSAttribution.URL) || 'https://lessoncraftstudio.com',
+                rect: attributionRect
+            } : null
+        };
+    }
+
+    var INTERACTIVE_CSS_LINES = [
+        '*{box-sizing:border-box}',
+        'html,body{margin:0;padding:0}',
+        'body{font-family:"Fredoka",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#FEFAF3;color:#1C1C1E;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;min-height:100vh}',
+        '#lcs-app{max-width:1080px;margin:0 auto;padding:0 12px;padding-bottom:120px}',
+        '.lcs-bar{position:sticky;top:0;z-index:10;background:rgba(254,250,243,.94);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding:12px 4px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}',
+        '.lcs-title{font-size:clamp(18px,2.6vw,24px);font-weight:600;color:#1C1C1E;margin:0;flex:1 1 auto;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}',
+        '.lcs-mute{width:40px;height:40px;border-radius:10px;border:2px solid #DCE1E6;background:#FFF;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;color:#545458;flex-shrink:0}',
+        '.lcs-mute:hover{background:#FEFAF3}',
+        '.lcs-mute:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+        '.lcs-mute svg{width:20px;height:20px;pointer-events:none}',
+        '.lcs-mute[data-muted="1"]{background:#FFF8E6;border-color:#FFC857;color:#8A6D00}',
+        '.lcs-worksheet-wrap{display:flex;justify-content:center;padding-top:8px}',
+        '.lcs-worksheet{position:relative;display:block;width:100%;max-width:980px;background:#FFF;border-radius:10px;box-shadow:0 4px 18px rgba(28,28,30,.08);overflow:visible}',
+        '.lcs-worksheet__img{display:block;width:100%;height:auto;user-select:none;-webkit-user-drag:none;pointer-events:none;border-radius:10px}',
+        '.lcs-overlay{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none}',
+        '.lcs-cell{position:absolute;pointer-events:none}',
+        '.lcs-cell__btn{position:absolute;inset:0;width:100%;height:100%;border:none;background:transparent;cursor:pointer;pointer-events:auto;padding:0;border-radius:4px;transition:background-color .15s,box-shadow .15s,opacity .15s}',
+        '.lcs-cell__btn:hover{background:rgba(78,95,232,.08);box-shadow:inset 0 0 0 2px rgba(78,95,232,.35)}',
+        '.lcs-cell__btn:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+        '.lcs-cell__btn[data-filled="1"]{background:#FFC857;box-shadow:inset 0 0 0 1px rgba(140,90,0,.25)}',
+        '.lcs-cell__btn[data-filled="1"]:hover{background:#FFB935}',
+        '.lcs-cell__btn[data-col-status="correct"]{box-shadow:inset 0 0 0 3px #4CAF50}',
+        '.lcs-cell__btn[data-col-status="wrong"]{box-shadow:inset 0 0 0 3px #E53935}',
+        '.lcs-cell__btn[data-col-status="correct"][data-filled="1"]{background:#A5D6A7;box-shadow:inset 0 0 0 3px #4CAF50}',
+        '.lcs-cell__btn[data-col-status="wrong"][data-filled="1"]{background:#FFCDD2;box-shadow:inset 0 0 0 3px #E53935}',
+        '.lcs-col-hint{position:absolute;top:calc(100% + 6px);left:50%;transform:translateX(-50%);font-size:clamp(12px,2vw,16px);font-weight:800;color:#2E7D32;white-space:nowrap;pointer-events:none;background:#FFF;padding:2px 8px;border-radius:999px;border:1.5px solid #4CAF50;box-shadow:0 1px 2px rgba(0,0,0,.08);opacity:0;transition:opacity .15s}',
+        '.lcs-col-hint[data-shown="1"]{opacity:1}',
+        '.lcs-img-overlay{user-select:none;-webkit-user-drag:none}',
+        '.lcs-footer{position:sticky;bottom:0;z-index:10;margin-top:24px;background:rgba(254,250,243,.95);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-top:1px solid #DCE1E6;padding:16px 12px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap}',
+        '.lcs-btn{font-family:inherit;font-weight:700;font-size:17px;padding:14px 28px;border-radius:12px;border:none;cursor:pointer;min-height:52px;min-width:160px;transition:background-color .2s,transform .1s,box-shadow .2s,opacity .2s}',
+        '.lcs-btn:active:not([disabled]){transform:scale(.97)}',
+        '.lcs-btn:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+        '.lcs-btn[disabled]{opacity:.45;cursor:not-allowed}',
+        '.lcs-btn--ghost{background:#FFF;color:#1C1C1E;border:2px solid #DCE1E6}',
+        '.lcs-btn--ghost:hover{background:#FEFAF3;border-color:#4E5FE8}',
+        '.lcs-btn--primary{background:#4E5FE8;color:#FFF;box-shadow:0 4px 14px rgba(78,95,232,.3)}',
+        '.lcs-btn--primary:hover:not([disabled]){background:#3F4FD0;box-shadow:0 6px 20px rgba(78,95,232,.4)}',
+        '.lcs-summary{font-size:16px;font-weight:600;color:#545458;align-self:center;padding:0 8px}',
+        '.lcs-summary--done{color:#2E7D32}',
+        '.lcs-celebration{position:fixed;inset:0;background:rgba(28,28,30,.5);display:none;align-items:center;justify-content:center;z-index:10000;padding:16px}',
+        '.lcs-celebration--shown{display:flex}',
+        '.lcs-celebration__inner{position:relative;background:#FFFFFF;border-radius:24px;padding:32px 28px 24px;max-width:520px;width:100%;box-shadow:0 20px 60px rgba(28,28,30,.35);text-align:center;z-index:2}',
+        '.lcs-celebration__title{font-size:clamp(36px,7vw,56px);margin:0 0 4px;color:#4E5FE8;font-weight:700}',
+        '.lcs-stars{font-size:clamp(40px,7vw,52px);letter-spacing:10px;margin:12px 0;line-height:1}',
+        '.lcs-star{color:#DCE1E6}',
+        '.lcs-star--filled{color:#FFC857;filter:drop-shadow(0 2px 4px rgba(255,200,87,.35))}',
+        '.lcs-celebration__sub{color:#545458;font-size:16px;margin:0 0 20px}',
+        '.lcs-mini{display:block;max-width:100%;max-height:200px;margin:0 auto 20px;border-radius:8px;border:1px solid #DCE1E6}',
+        '.lcs-celebration__cta{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}',
+        '.lcs-confetti{position:absolute;inset:0;pointer-events:none;overflow:hidden;border-radius:24px}',
+        '.lcs-confetti__piece{position:absolute;width:8px;height:14px;top:-20px;animation:lcs-fall linear forwards;border-radius:2px}',
+        '@keyframes lcs-fall{to{transform:translateY(620px) rotate(540deg);opacity:0}}',
+        '.lcs-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}',
+        '.lcs-attrib-link{position:absolute;transform:translate(-50%,-50%);pointer-events:auto;cursor:pointer;background:transparent;text-decoration:none;border-radius:4px;outline:none}',
+        '.lcs-attrib-link:focus-visible{outline:2px solid #4E5FE8;outline-offset:2px}',
+        '.lcs-attrib-link:hover{background:rgba(78,95,232,.08)}',
+        '@media (prefers-reduced-motion:reduce){',
+        '  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.15s !important}',
+        '  .lcs-confetti{display:none}',
+        '}',
+        '@media print{',
+        '  body{background:#FFF}',
+        '  .lcs-bar,.lcs-footer,.lcs-celebration,.lcs-attrib-link,.lcs-col-hint{display:none !important}',
+        '  .lcs-worksheet{box-shadow:none;border:none}',
+        '  .lcs-cell__btn{background:transparent !important;box-shadow:none !important}',
+        '  .lcs-cell__btn[data-filled="1"]{background:#FFC857 !important}',
+        '}'
+    ];
+
+    var INTERACTIVE_RUNTIME_LINES = [
+        '(function(){',
+        '  "use strict";',
+        '  var STRINGS = {',
+        '    en:{title:"Picture Graph",check:"Check Answers",tryAgain:"Try Again",mute:"Mute sounds",unmute:"Turn sounds on",printMyWorksheet:"Print my worksheet",doAnother:"Do Another",youDidIt:"All correct!",correct:"correct",score:"{n} of {total} correct",allCorrect:"All correct!"}',
+        '  };',
+        '  function T(key){var loc=(DECK_BUNDLE.contentLanguage||"en").slice(0,2);var t=STRINGS[loc]||STRINGS.en;return t[key]||STRINGS.en[key]||key}',
+        '  function fmt(s,vars){return s.replace(/\\{(\\w+)\\}/g,function(_,k){return vars[k]==null?"":String(vars[k])})}',
+        '',
+        '  var ROWS=(DECK_BUNDLE.chartDims&&DECK_BUNDLE.chartDims.rows)||5;',
+        '  var COLS=(DECK_BUNDLE.chartDims&&DECK_BUNDLE.chartDims.cols)||6;',
+        '  var targets=DECK_BUNDLE.targets||[];',
+        '  var heights=new Array(COLS).fill(0); // current bar height per column, 0..ROWS',
+        '',
+        '  var muted=false;try{muted=localStorage.getItem("lcsMuted")==="1"}catch(e){}',
+        '  var reducedMotion=false;try{reducedMotion=window.matchMedia("(prefers-reduced-motion: reduce)").matches}catch(e){}',
+        '  var audioCtx=null;',
+        '  var phase="fill";',
+        '  var celebrationShown=false;',
+        '  var titleEl,overlayEl,muteBtn,celebrationEl,liveEl,imgEl,checkBtn,resetBtn,summaryEl;',
+        '',
+        '  function init(){',
+        '    titleEl=document.getElementById("lcs-title");',
+        '    overlayEl=document.getElementById("lcs-overlay");',
+        '    muteBtn=document.getElementById("lcs-mute");',
+        '    celebrationEl=document.getElementById("lcs-celebration");',
+        '    liveEl=document.getElementById("lcs-live");',
+        '    imgEl=document.getElementById("lcs-worksheet-img");',
+        '    checkBtn=document.getElementById("lcs-check");',
+        '    resetBtn=document.getElementById("lcs-reset");',
+        '    summaryEl=document.getElementById("lcs-summary");',
+        '    if(titleEl) titleEl.textContent=DECK_BUNDLE.title||T("title");',
+        '    if(imgEl&&imgEl.complete&&imgEl.naturalHeight>0){renderCells();}',
+        '    else if(imgEl){imgEl.addEventListener("load",renderCells);imgEl.addEventListener("error",function(){console.error("[LCS] Worksheet image failed to load")});}',
+        '    wireMute();updateMuteButton();wireButtons();',
+        '  }',
+        '',
+        '  function btnFor(row,col){return overlayEl?overlayEl.querySelector(\'.lcs-cell__btn[data-row="\'+row+\'"][data-col="\'+col+\'"]\'):null}',
+        '',
+        '  function renderCells(){',
+        '    overlayEl.innerHTML="";',
+        '    var pw=DECK_BUNDLE.page.width;var ph=DECK_BUNDLE.page.height;',
+        '    var cells=DECK_BUNDLE.chartCells||[];',
+        '    cells.forEach(function(c){',
+        '      var wrap=document.createElement("div");',
+        '      wrap.className="lcs-cell";',
+        '      wrap.style.left=((c.x/pw)*100)+"%";',
+        '      wrap.style.top=((c.y/ph)*100)+"%";',
+        '      wrap.style.width=((c.w/pw)*100).toFixed(3)+"%";',
+        '      wrap.style.height=((c.h/ph)*100).toFixed(3)+"%";',
+        '      var btn=document.createElement("button");',
+        '      btn.type="button";',
+        '      btn.className="lcs-cell__btn";',
+        '      btn.setAttribute("data-row",String(c.row));',
+        '      btn.setAttribute("data-col",String(c.col));',
+        '      btn.setAttribute("aria-label","Column "+(c.col+1)+" row "+(c.row+1));',
+        '      btn.addEventListener("click",function(){onCellClick(c.row,c.col)});',
+        '      wrap.appendChild(btn);',
+        '      // Hint pill anchored to the bottom row of each column',
+        '      if(c.row===ROWS-1){',
+        '        var hint=document.createElement("span");',
+        '        hint.className="lcs-col-hint";',
+        '        hint.setAttribute("data-hint-for-col",String(c.col));',
+        '        wrap.appendChild(hint);',
+        '      }',
+        '      overlayEl.appendChild(wrap);',
+        '    });',
+        '    if(DECK_BUNDLE.attribution&&DECK_BUNDLE.attribution.rect){',
+        '      var ar=DECK_BUNDLE.attribution.rect;',
+        '      var link=document.createElement("a");',
+        '      link.className="lcs-attrib-link";',
+        '      link.href=DECK_BUNDLE.attribution.url||"https://lessoncraftstudio.com";',
+        '      link.target="_blank";link.rel="noopener";',
+        '      link.setAttribute("aria-label",DECK_BUNDLE.attribution.text||"Made with LessonCraftStudio.com");',
+        '      link.style.left=((ar.x/pw)*100)+"%";link.style.top=((ar.y/ph)*100)+"%";',
+        '      link.style.width=((ar.w/pw)*100).toFixed(2)+"%";link.style.height=((ar.h/ph)*100).toFixed(2)+"%";',
+        '      overlayEl.appendChild(link);',
+        '    }',
+        '    syncAllColumns();',
+        '    updateCheckButton();',
+        '  }',
+        '',
+        '  function syncColumn(col){',
+        '    var h=heights[col];',
+        '    for(var r=0;r<ROWS;r++){',
+        '      var btn=btnFor(r,col);if(!btn)continue;',
+        '      // Bar fills from bottom up. Cell at row r is filled if (ROWS-1-r) < h,',
+        '      // i.e., distance from the bottom is less than the bar height.',
+        '      var filled=(ROWS-1-r)<h;',
+        '      if(filled) btn.setAttribute("data-filled","1");',
+        '      else btn.removeAttribute("data-filled");',
+        '    }',
+        '  }',
+        '  function syncAllColumns(){for(var c=0;c<COLS;c++) syncColumn(c)}',
+        '',
+        '  function onCellClick(row,col){',
+        '    if(phase!=="fill")return;',
+        '    var current=heights[col];',
+        '    var tapped=ROWS-row; // tapping row 4 (bottom) → height 1; tapping row 0 → height 5',
+        '    if(current===0){',
+        '      heights[col]=tapped;        // first tap: snap to here',
+        '    }else if(tapped>current){',
+        '      heights[col]=tapped;        // tap above current top: extend upward',
+        '    }else if(tapped===current){',
+        '      heights[col]=current-1;     // tap current top: reduce by one',
+        '    }else{',
+        '      heights[col]=tapped;        // tap below current top: snap down',
+        '    }',
+        '    syncColumn(col);',
+        '    playTone(heights[col]>current?620:380,0.06);',
+        '    updateCheckButton();',
+        '  }',
+        '',
+        '  function updateCheckButton(){',
+        '    if(!checkBtn)return;',
+        '    if(phase!=="fill"){checkBtn.disabled=true;return}',
+        '    // Enabled as long as at least one column has been touched',
+        '    var any=heights.some(function(h){return h>0});',
+        '    checkBtn.disabled=!any;',
+        '  }',
+        '',
+        '  function checkAll(){',
+        '    if(phase!=="fill")return;',
+        '    phase="reviewed";',
+        '    var correct=0;',
+        '    targets.forEach(function(t){',
+        '      var col=t.col;',
+        '      var got=heights[col]||0;',
+        '      var ok=(got===t.totalCount);',
+        '      // Mark every cell in this column with the column status',
+        '      for(var r=0;r<ROWS;r++){',
+        '        var btn=btnFor(r,col);if(!btn)continue;',
+        '        btn.setAttribute("data-col-status",ok?"correct":"wrong");',
+        '        btn.disabled=true;',
+        '      }',
+        '      if(!ok){',
+        '        var hint=overlayEl.querySelector(\'.lcs-col-hint[data-hint-for-col="\'+col+\'"]\');',
+        '        if(hint){hint.textContent="\\u2192 "+t.totalCount;hint.setAttribute("data-shown","1");}',
+        '      }',
+        '      if(ok) correct++;',
+        '    });',
+        '    if(checkBtn) checkBtn.hidden=true;',
+        '    if(resetBtn) resetBtn.hidden=false;',
+        '    var total=targets.length;',
+        '    if(summaryEl){',
+        '      if(correct===total){summaryEl.textContent=T("allCorrect");summaryEl.className="lcs-summary lcs-summary--done"}',
+        '      else{summaryEl.textContent=fmt(T("score"),{n:correct,total:total});summaryEl.className="lcs-summary"}',
+        '    }',
+        '    announce(correct+" of "+total+" correct");',
+        '    if(correct===total){',
+        '      playTone(659.25,0.13);',
+        '      setTimeout(function(){playTone(987.77,0.18)},160);',
+        '      setTimeout(showCelebration,500);',
+        '    }else{',
+        '      playTone(440,0.1);',
+        '    }',
+        '  }',
+        '',
+        '  function wireButtons(){',
+        '    if(checkBtn) checkBtn.addEventListener("click",checkAll);',
+        '    if(resetBtn) resetBtn.addEventListener("click",resetAll);',
+        '  }',
+        '',
+        '  function resetAll(){',
+        '    phase="fill";celebrationShown=false;',
+        '    heights=new Array(COLS).fill(0);',
+        '    if(overlayEl){',
+        '      var btns=overlayEl.querySelectorAll(".lcs-cell__btn");',
+        '      for(var i=0;i<btns.length;i++){btns[i].removeAttribute("data-filled");btns[i].removeAttribute("data-col-status");btns[i].disabled=false}',
+        '      var hints=overlayEl.querySelectorAll(".lcs-col-hint");',
+        '      for(var h=0;h<hints.length;h++){hints[h].textContent="";hints[h].removeAttribute("data-shown")}',
+        '    }',
+        '    if(celebrationEl) celebrationEl.classList.remove("lcs-celebration--shown");',
+        '    if(summaryEl){summaryEl.textContent="";summaryEl.className="lcs-summary"}',
+        '    if(checkBtn){checkBtn.hidden=false;}',
+        '    if(resetBtn){resetBtn.hidden=true;}',
+        '    updateCheckButton();',
+        '  }',
+        '',
+        '  function playTone(freq,dur){',
+        '    if(muted)return;',
+        '    try{',
+        '      if(!audioCtx){var Ctx=window.AudioContext||window.webkitAudioContext;if(!Ctx)return;audioCtx=new Ctx()}',
+        '      if(audioCtx.state==="suspended")audioCtx.resume();',
+        '      var osc=audioCtx.createOscillator();var gain=audioCtx.createGain();',
+        '      osc.type="sine";osc.frequency.value=freq;',
+        '      var now=audioCtx.currentTime;',
+        '      gain.gain.setValueAtTime(0,now);gain.gain.linearRampToValueAtTime(0.14,now+0.012);gain.gain.linearRampToValueAtTime(0,now+dur);',
+        '      osc.connect(gain);gain.connect(audioCtx.destination);',
+        '      osc.start(now);osc.stop(now+dur+0.03);',
+        '    }catch(e){}',
+        '  }',
+        '  function announce(msg){if(liveEl)liveEl.textContent=msg}',
+        '',
+        '  function showCelebration(){',
+        '    if(celebrationShown)return;celebrationShown=true;',
+        '    var total=targets.length;',
+        '    var stars=3;',
+        '    var starsHTML="";',
+        '    for(var i=1;i<=3;i++){starsHTML+="<span class=\\"lcs-star"+(i<=stars?" lcs-star--filled":"")+"\\">\\u2605</span>"}',
+        '    celebrationEl.innerHTML=',
+        '      "<div class=\\"lcs-celebration__inner\\">"+',
+        '      "<h1 class=\\"lcs-celebration__title\\">"+T("youDidIt")+"</h1>"+',
+        '      "<div class=\\"lcs-stars\\" aria-label=\\""+stars+" out of 3 stars\\">"+starsHTML+"</div>"+',
+        '      "<p class=\\"lcs-celebration__sub\\">"+total+" / "+total+" "+T("correct")+"</p>"+',
+        '      "<img class=\\"lcs-mini\\" alt=\\"Your completed worksheet\\" src=\\""+DECK_BUNDLE.worksheetImage+"\\" />"+',
+        '      "<div class=\\"lcs-celebration__cta\\">"+',
+        '        "<button class=\\"lcs-btn lcs-btn--primary\\" type=\\"button\\" id=\\"lcs-do-another\\">"+T("doAnother")+"</button>"+',
+        '        "<button class=\\"lcs-btn lcs-btn--ghost\\" type=\\"button\\" id=\\"lcs-cel-print\\">"+T("printMyWorksheet")+"</button>"+',
+        '      "</div></div>"+',
+        '      "<div class=\\"lcs-confetti\\" aria-hidden=\\"true\\"></div>";',
+        '    celebrationEl.classList.add("lcs-celebration--shown");',
+        '    document.getElementById("lcs-do-another").addEventListener("click",function(){location.reload()});',
+        '    document.getElementById("lcs-cel-print").addEventListener("click",function(){window.print()});',
+        '    if(!reducedMotion)spawnConfetti();',
+        '  }',
+        '  function spawnConfetti(){',
+        '    var layer=celebrationEl.querySelector(".lcs-confetti");if(!layer)return;',
+        '    var colors=["#4E5FE8","#4CAF50","#FF8A65","#FFC857","#6AB7FF","#B39DDB"];',
+        '    for(var i=0;i<48;i++){',
+        '      var c=document.createElement("span");c.className="lcs-confetti__piece";',
+        '      c.style.left=(Math.random()*100)+"%";',
+        '      c.style.background=colors[i%colors.length];',
+        '      c.style.animationDelay=(Math.random()*0.5)+"s";',
+        '      c.style.animationDuration=(1.8+Math.random()*1.3)+"s";',
+        '      c.style.transform="rotate("+(Math.random()*360)+"deg)";',
+        '      layer.appendChild(c);',
+        '    }',
+        '  }',
+        '',
+        '  function wireMute(){muteBtn.addEventListener("click",function(){muted=!muted;try{localStorage.setItem("lcsMuted",muted?"1":"0")}catch(e){}updateMuteButton()})}',
+        '  function updateMuteButton(){',
+        '    muteBtn.setAttribute("aria-label",muted?T("unmute"):T("mute"));',
+        '    muteBtn.setAttribute("data-muted",muted?"1":"0");',
+        '    muteBtn.innerHTML=muted',
+        '      ? "<svg viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\"><path d=\\"M11 5L6 9H2v6h4l5 4V5z\\"/><line x1=\\"23\\" y1=\\"9\\" x2=\\"17\\" y2=\\"15\\"/><line x1=\\"17\\" y1=\\"9\\" x2=\\"23\\" y2=\\"15\\"/></svg>"',
+        '      : "<svg viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\"><path d=\\"M11 5L6 9H2v6h4l5 4V5z\\"/><path d=\\"M15.54 8.46a5 5 0 0 1 0 7.07\\"/><path d=\\"M19.07 4.93a10 10 0 0 1 0 14.14\\"/></svg>";',
+        '  }',
+        '',
+        '  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);',
+        '  else init();',
+        '})();'
+    ];
+
+    function renderStandaloneHTML(bundle) {
+        var css = INTERACTIVE_CSS_LINES.join('\n');
+        var runtime = INTERACTIVE_RUNTIME_LINES.join('\n');
+        var bundleJSON = JSON.stringify(bundle);
+        var lang = (bundle.contentLanguage || 'en').slice(0, 2);
+        var title = bundle.title || 'Picture Graph';
+        var parts = [];
+        parts.push('<!DOCTYPE html>');
+        parts.push('<html lang="' + lang + '">');
+        parts.push('<head>');
+        parts.push('<meta charset="UTF-8">');
+        parts.push('<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">');
+        parts.push('<meta name="theme-color" content="#FEFAF3">');
+        parts.push('<title>' + title + '</title>');
+        parts.push('<link rel="preconnect" href="https://fonts.googleapis.com">');
+        parts.push('<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>');
+        parts.push('<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">');
+        parts.push('<style>' + css + '</style>');
+        parts.push('</head>');
+        parts.push('<body>');
+        parts.push('<main id="lcs-app">');
+        parts.push('  <div class="lcs-bar">');
+        parts.push('    <h1 class="lcs-title" id="lcs-title">' + title + '</h1>');
+        parts.push('    <button type="button" id="lcs-mute" class="lcs-mute" aria-label="Mute sounds"></button>');
+        parts.push('  </div>');
+        parts.push('  <div class="lcs-worksheet-wrap">');
+        parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');
+        parts.push('      <img class="lcs-worksheet__img" id="lcs-worksheet-img" alt="" src="' + bundle.worksheetImage + '">');
+        parts.push('      <div class="lcs-overlay" id="lcs-overlay"></div>');
+        parts.push('    </div>');
+        parts.push('  </div>');
+        parts.push('</main>');
+        parts.push('<footer class="lcs-footer">');
+        parts.push('  <span id="lcs-summary" class="lcs-summary" aria-live="polite"></span>');
+        parts.push('  <button type="button" id="lcs-check" class="lcs-btn lcs-btn--primary" disabled>Check Answers</button>');
+        parts.push('  <button type="button" id="lcs-reset" class="lcs-btn lcs-btn--ghost" hidden>Try Again</button>');
+        parts.push('</footer>');
+        parts.push('<div class="lcs-celebration" id="lcs-celebration" role="dialog" aria-modal="true" aria-label="All correct!"></div>');
+        parts.push('<div class="lcs-sr" id="lcs-live" role="status" aria-live="polite"></div>');
+        parts.push('<script>var DECK_BUNDLE = ' + bundleJSON + ';<\/script>');
+        parts.push('<script>' + runtime + '<\/script>');
+        parts.push('</body>');
+        parts.push('</html>');
+        return parts.join('\n');
+    }
+
+    async function downloadInteractiveHtml(canvasInstance, fileName, options) {
+        var loadingMode = (options && options.loadingMode) || 'inline';
+        if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
+            showMessage('error', 'Please generate a worksheet first.');
+            return;
+        }
+        showMessage('info', 'Preparing ' + fileName + '...', 0);
+        try {
+            var bundle = await extractDeckBundle(canvasInstance, { loadingMode: loadingMode });
+            if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
+                throw new Error('Worksheet snapshot is empty.');
+            }
+            if (!bundle.targets || bundle.targets.length !== 6) {
+                throw new Error('Expected 6 column targets, got ' + (bundle.targets || []).length);
+            }
+            if (!bundle.chartCells || bundle.chartCells.length !== 30) {
+                throw new Error('Expected 30 chart cells, got ' + (bundle.chartCells || []).length);
+            }
+            var html = renderStandaloneHTML(bundle);
+            var blob = new Blob([html], { type: 'text/html;charset=utf-8' });
+            var url = URL.createObjectURL(blob);
+            var a = document.createElement('a');
+            a.href = url;
+            a.download = fileName;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+            showMessage('success', 'Interactive worksheet downloaded.');
+        } catch (e) {
+            console.error('[Interactive Export v20.0] Failed:', e);
+            showMessage('error', 'Interactive export failed: ' + e.message);
+        }
+    }
+    // END: Interactive-HTML export v20.0
 
     function generateIconSetFromSource(sourceImagesForChart) {
       if (!sourceImagesForChart || sourceImagesForChart.length !== 6) return null;
@@ -2649,6 +3244,11 @@ document.addEventListener('DOMContentLoaded', function() {
                     width: cellWidth, height: cellHeight,
                     fill: 'transparent', stroke: '#666666', strokeWidth: 3
                 });
+                // v20.0 — tag cells so the interactive exporter can find each
+                // one and read its world rect via parent group's transform.
+                rect.isChartCell = true;
+                rect.cellRow = row;
+                rect.cellCol = col;
                 const colImageName = chartImages[col].name || chartImages[col].word;
                 if (isSolution && counts[colImageName] >= (5 - row)) {
                     rect.set('fill', '#FFC857');
@@ -3433,7 +4033,9 @@ document.addEventListener('DOMContentLoaded', function() {
         downloadDropdownBtn.disabled = !enabled;
         downloadWsJpegBtn.disabled = !enabled;
         downloadWsPdfBtn.disabled = !enabled;
-        
+        if (downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = !enabled;
+        if (downloadInteractiveHtmlReferenceBtn) downloadInteractiveHtmlReferenceBtn.disabled = !enabled;
+
         // This function will NOT enable the AK buttons. They are enabled separately in handleGenerateSolution.
         // On a general disable (e.g. Clear All), disable them.
         if (!enabled) {

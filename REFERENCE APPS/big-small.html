@@ -4360,14 +4360,18 @@ async function downloadPDF(canvasInstance, fileName) {
           var savedZoom = canvas.getZoom();
           var savedW = canvas.getWidth();
           var savedH = canvas.getHeight();
+          // JPEG has no alpha; transparent pixels paint black unless we force a bg.
+          var savedBg = canvas.backgroundColor;
           canvas.discardActiveObject();
           canvas.setZoom(1);
           canvas.setDimensions({ width: currentCanvasConfig.width, height: currentCanvasConfig.height });
+          if (!savedBg || savedBg === 'transparent') canvas.backgroundColor = '#FFFFFF';
           canvas.renderAll();
           var dataURL;
           try {
               dataURL = canvas.toDataURL({ format: 'jpeg', quality: 0.85, multiplier: 2 });
           } finally {
+              canvas.backgroundColor = savedBg;
               canvas.setZoom(savedZoom);
               canvas.setDimensions({ width: savedW, height: savedH });
               canvas.renderAll();

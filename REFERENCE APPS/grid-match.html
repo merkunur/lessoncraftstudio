@@ -3532,7 +3532,7 @@
         }
 
         // ============================================================
-        // Interactive-HTML export v22.2 (grid-match)
+        // Interactive-HTML export v22.3 (grid-match)
         // ============================================================
         async function _captureWorksheetImage(canvas) {
             var savedZoom = canvas.getZoom();
@@ -3571,7 +3571,7 @@
                 ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
             return {
-                bundleVersion: '22.2.0',
+                bundleVersion: '22.3.0',
                 schemaFormat: 'image-references-v3',
                 loadingMode: loadingMode,
                 appType: 'grid-match',
@@ -3676,7 +3676,7 @@
             '(function(){',
             '  "use strict";',
             '  var STRINGS = {',
-            '    en:{title:"Grid Match",tryAgain:"Try Again",mute:"Mute sounds",unmute:"Turn sounds on",printMyWorksheet:"Print my worksheet",doAnother:"Do Another",youDidIt:"You did it!",progressLabel:"{n} / {total}"}',
+            '    en:{title:"Grid Match",check:"Check Answers",tryAgain:"Try Again",mute:"Mute sounds",unmute:"Turn sounds on",printMyWorksheet:"Print my worksheet",doAnother:"Do Another",youDidIt:"You did it!",progressLabel:"{n} / {total}"}',
             '  };',
             '  function T(key){var loc=(DECK_BUNDLE.contentLanguage||"en").slice(0,2);var t=STRINGS[loc]||STRINGS.en;return t[key]||STRINGS.en[key]||key}',
             '  function fmt(s,vars){return s.replace(/\\{(\\w+)\\}/g,function(_,k){return vars[k]==null?"":String(vars[k])})}',
@@ -3700,8 +3700,9 @@
             '  var muted=false;try{muted=localStorage.getItem("lcsMuted")==="1"}catch(e){}',
             '  var reducedMotion=false;try{reducedMotion=window.matchMedia("(prefers-reduced-motion: reduce)").matches}catch(e){}',
             '  var audioCtx=null;',
+            '  var phase="fill"; // "fill" while kid is placing pieces, "reviewed" after Check Answers',
             '  var celebrationShown=false;',
-            '  var titleEl,overlayEl,muteBtn,celebrationEl,liveEl,imgEl,resetBtn,progressEl;',
+            '  var titleEl,overlayEl,muteBtn,celebrationEl,liveEl,imgEl,checkBtn,resetBtn,progressEl;',
             '',
             '  function init(){',
             '    titleEl=document.getElementById("lcs-title");',
@@ -3710,6 +3711,7 @@
             '    celebrationEl=document.getElementById("lcs-celebration");',
             '    liveEl=document.getElementById("lcs-live");',
             '    imgEl=document.getElementById("lcs-worksheet-img");',
+            '    checkBtn=document.getElementById("lcs-check");',
             '    resetBtn=document.getElementById("lcs-reset");',
             '    progressEl=document.getElementById("lcs-progress");',
             '    if(titleEl) titleEl.textContent=DECK_BUNDLE.title||T("title");',
@@ -3717,6 +3719,7 @@
             '    else if(imgEl){imgEl.addEventListener("load",renderTiles);imgEl.addEventListener("error",function(){console.error("[LCS] Worksheet image failed to load")});}',
             '    wireMute();updateMuteButton();wireButtons();',
             '    updateProgress();',
+            '    updateCheckButton();',
             '  }',
             '',
             '  function cellBtn(idx){return overlayEl?overlayEl.querySelector(\'.lcs-tile__btn[data-kind="cell"][data-idx="\'+idx+\'"]\'):null}',
@@ -3841,12 +3844,14 @@
             '  }',
             '',
             '  function onPalettePointerDown(e,n){',
+            '    if(phase!=="fill")return;',
             '    var src=e.currentTarget;',
             '    if(!src||src.getAttribute("data-locked")==="1"||src.getAttribute("data-deployed")==="1")return;',
             '    startDrag(e,n,src,"palette",-1);',
             '  }',
             '',
             '  function onCellPointerDown(e,cellIdx){',
+            '    if(phase!=="fill")return;',
             '    if(!placements.hasOwnProperty(cellIdx))return;     // empty cell, nothing to pick up',
             '    if(matched.hasOwnProperty(cellIdx))return;          // locked, can\'t move',
             '    var paletteNumber=placements[cellIdx];',
@@ -3906,26 +3911,14 @@
             '    if(status==="ok"){',
             '      var cellIdx=parseInt(droppedOn.getAttribute("data-idx"),10);',
             '      placements[cellIdx]=paletteNumber;',
-            '      var correct=(solutionLabels[cellIdx]===paletteNumber);',
-            '      if(correct){',
-            '        matched[cellIdx]=paletteNumber;',
-            '        droppedOn.setAttribute("data-locked","1");',
-            '        var pBtn=paletteBtn(paletteNumber);',
-            '        if(pBtn) pBtn.setAttribute("data-locked","1");',
-            '      }',
+            '      // v22.3 — no instant feedback. Just place. The kid will hit',
+            '      // Check Answers when the puzzle is fully filled.',
             '      syncCellVisual(cellIdx);',
             '      syncPaletteVisibility(paletteNumber);',
-            '      if(correct){',
-            '        playTone(659.25,0.1);',
-            '        setTimeout(function(){playTone(987.77,0.1)},120);',
-            '      }else{',
-            '        playTone(330,0.08);',
-            '      }',
+            '      playTone(560,0.06);',
             '      updateProgress();',
+            '      updateCheckButton();',
             '      endDrag();',
-            '      if(Object.keys(matched).length>=totalToMatch){',
-            '        setTimeout(showCelebration,400);',
-            '      }',
             '    }else{',
             '      // Reject, self, or miss: snap back to where we picked up from.',
             '      if(srcKind==="cell"){',
@@ -3933,6 +3926,7 @@
             '        syncCellVisual(srcCellIdx);',
             '      }',
             '      syncPaletteVisibility(paletteNumber);',
+            '      updateCheckButton();',
             '      if(status==="reject") playTone(220,0.08);',
             '      endDrag();',
             '    }',
@@ -3942,14 +3936,17 @@
             '  function syncCellVisual(cellIdx){',
             '    var btn=cellBtn(cellIdx);if(!btn)return;',
             '    var wrap=btn.parentNode;',
-            '    // Remove existing reveal/glow nodes, then redraw based on placement state.',
             '    var existing=wrap.querySelectorAll(".lcs-reveal, .lcs-reveal-glow");',
             '    for(var i=0;i<existing.length;i++) if(existing[i].parentNode) existing[i].parentNode.removeChild(existing[i]);',
             '    if(placements.hasOwnProperty(cellIdx)){',
             '      var n=placements[cellIdx];',
-            '      var isLocked=matched.hasOwnProperty(cellIdx);',
+            '      // v22.3 — show right/wrong styling ONLY in reviewed phase.',
+            '      // During fill, every placement looks neutral.',
+            '      var reviewed=(phase==="reviewed");',
+            '      var isCorrect=reviewed&&(solutionLabels[cellIdx]===n);',
+            '      var isWrong=reviewed&&!isCorrect;',
             '      var reveal=document.createElement("span");',
-            '      reveal.className="lcs-reveal"+(isLocked?"":" lcs-reveal--wrong");',
+            '      reveal.className="lcs-reveal"+(isWrong?" lcs-reveal--wrong":"");',
             '      var tile=paletteReveals.find(function(pr){return pr.paletteNumber===n});',
             '      if(tile&&tile.imgDataUrl){',
             '        var img=document.createElement("img");img.alt="";img.src=tile.imgDataUrl;',
@@ -3957,7 +3954,7 @@
             '      }',
             '      wrap.appendChild(reveal);',
             '      btn.setAttribute("data-has-piece","1");',
-            '      if(isLocked){',
+            '      if(isCorrect){',
             '        var glow=document.createElement("span");',
             '        glow.className="lcs-reveal-glow";',
             '        wrap.appendChild(glow);',
@@ -3970,7 +3967,6 @@
             '',
             '  function syncPaletteVisibility(n){',
             '    var btn=paletteBtn(n);if(!btn)return;',
-            '    // Locked palettes stay locked. Otherwise: deployed if any cell currently has them.',
             '    if(btn.getAttribute("data-locked")==="1"){return}',
             '    var deployed=false;',
             '    for(var k in placements){ if(placements[k]===n){ deployed=true; break; } }',
@@ -3978,13 +3974,56 @@
             '    else btn.removeAttribute("data-deployed");',
             '  }',
             '',
+            '  function updateCheckButton(){',
+            '    if(!checkBtn)return;',
+            '    if(phase!=="fill"){checkBtn.disabled=true;return;}',
+            '    var placedCount=Object.keys(placements).length;',
+            '    checkBtn.disabled=(placedCount<totalToMatch);',
+            '  }',
+            '',
+            '  function checkAll(){',
+            '    if(phase!=="fill")return;',
+            '    phase="reviewed";',
+            '    matched={};',
+            '    var correctCount=0;',
+            '    // Walk every non-clue cell, mark correct/wrong, lock everything.',
+            '    gridCells.forEach(function(c){',
+            '      if(c.isClue) return;',
+            '      var n=placements[c.index];',
+            '      if(typeof n==="number"&&solutionLabels[c.index]===n){',
+            '        matched[c.index]=n;',
+            '        correctCount++;',
+            '      }',
+            '      var btn=cellBtn(c.index);',
+            '      if(btn) btn.setAttribute("data-locked","1");',
+            '      syncCellVisual(c.index);',
+            '    });',
+            '    // Lock all palette tiles (no more dragging after Check)',
+            '    paletteTiles.forEach(function(p){',
+            '      var b=paletteBtn(p.paletteNumber);',
+            '      if(b) b.setAttribute("data-locked","1");',
+            '    });',
+            '    if(checkBtn) checkBtn.hidden=true;',
+            '    if(resetBtn) resetBtn.hidden=false;',
+            '    updateProgress();',
+            '    announce(correctCount+" of "+totalToMatch+" correct");',
+            '    if(correctCount===totalToMatch){',
+            '      playTone(659.25,0.13);',
+            '      setTimeout(function(){playTone(987.77,0.18)},160);',
+            '      setTimeout(showCelebration,500);',
+            '    }else{',
+            '      playTone(440,0.1);',
+            '    }',
+            '  }',
+            '',
             '  function updateProgress(){',
             '    if(!progressEl)return;',
-            '    var n=Object.keys(matched).length;',
+            '    var n=(phase==="reviewed") ? Object.keys(matched).length : Object.keys(placements).length;',
             '    progressEl.textContent=fmt(T("progressLabel"),{n:n,total:totalToMatch});',
             '  }',
             '',
             '  function wireButtons(){',
+            '    if(checkBtn) checkBtn.addEventListener("click",checkAll);',
             '    if(resetBtn) resetBtn.addEventListener("click",resetAll);',
             '  }',
             '',
@@ -3992,6 +4031,7 @@
             '    celebrationShown=false;',
             '    matched={};',
             '    placements={};',
+            '    phase="fill";',
             '    if(drag) endDrag();',
             '    if(overlayEl){',
             '      var btns=overlayEl.querySelectorAll(".lcs-tile__btn");',
@@ -4006,6 +4046,7 @@
             '      for(var r=0;r<reveals.length;r++){if(reveals[r].parentNode) reveals[r].parentNode.removeChild(reveals[r])}',
             '    }',
             '    if(celebrationEl) celebrationEl.classList.remove("lcs-celebration--shown");',
+            '    if(checkBtn){checkBtn.hidden=false;checkBtn.disabled=true;}',
             '    if(resetBtn){resetBtn.hidden=true}',
             '    updateProgress();',
             '  }',
@@ -4112,6 +4153,7 @@
             parts.push('  </div>');
             parts.push('</main>');
             parts.push('<footer class="lcs-footer">');
+            parts.push('  <button type="button" id="lcs-check" class="lcs-btn lcs-btn--primary" disabled>Check Answers</button>');
             parts.push('  <button type="button" id="lcs-reset" class="lcs-btn lcs-btn--ghost" hidden>Try Again</button>');
             parts.push('</footer>');
             parts.push('<div class="lcs-celebration" id="lcs-celebration" role="dialog" aria-modal="true" aria-label="You did it!"></div>');
@@ -4150,11 +4192,11 @@
                 setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
                 showMessage('Interactive worksheet downloaded.', 'success');
             } catch (e) {
-                console.error('[Interactive Export v22.2] Failed:', e);
+                console.error('[Interactive Export v22.3] Failed:', e);
                 showMessage('Interactive export failed: ' + e.message, 'error');
             }
         }
-        // END: Interactive-HTML export v22.2
+        // END: Interactive-HTML export v22.3
 
         // --- Download Logic ---
         async function getCanvasDataURLForExport(targetCanvas) {

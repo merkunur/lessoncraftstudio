@@ -2847,6 +2847,19 @@
                 }
             }
 
+            // Tag visible pattern images as drag SOURCES (blank-mode puzzles only).
+            // Student taps a source → ghost duplicate → drags onto the blank.
+            if (mode === 'worksheet' && puzzleData.questionType === 'blank' && sequenceGroup && sequenceGroup._objects && Array.isArray(puzzleData.displayRow)) {
+                puzzleData.displayRow.forEach((item, k) => {
+                    if (item && !item.isBlank && item.path && sequenceGroup._objects[k]) {
+                        var srcObj = sequenceGroup._objects[k];
+                        srcObj.isPatternSource = true;
+                        srcObj.problemIndex = index;
+                        srcObj.sourcePath = item.path;
+                    }
+                });
+            }
+
             let unscaledWidth = sequenceGroup.width;
             if (numberText) unscaledWidth += numberText.width + spacing;
             if (mode === 'worksheet' && (questionGroup || (puzzleData.questionType === 'blank' && !puzzleData.randomBlank))) {
@@ -4279,14 +4292,18 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             var savedZoom = canvas.getZoom();
             var savedW = canvas.getWidth();
             var savedH = canvas.getHeight();
+            // JPEG has no alpha; transparent pixels paint black unless we force a bg.
+            var savedBg = canvas.backgroundColor;
             canvas.discardActiveObject();
             canvas.setZoom(1);
             canvas.setDimensions({ width: currentCanvasConfig.width, height: currentCanvasConfig.height });
+            if (!savedBg || savedBg === 'transparent') canvas.backgroundColor = '#FFFFFF';
             canvas.renderAll();
             var dataURL;
             try {
                 dataURL = canvas.toDataURL({ format: 'jpeg', quality: 0.85, multiplier: 2 });
             } finally {
+                canvas.backgroundColor = savedBg;
                 canvas.setZoom(savedZoom);
                 canvas.setDimensions({ width: savedW, height: savedH });
                 canvas.renderAll();
@@ -4314,16 +4331,18 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
         function _collectPatternAnnotations(canvas) {
             var choices = [];
             var blanks = [];
+            var sources = [];
             (function walk(objs) {
                 if (!objs) return;
                 objs.forEach(function (o) {
                     if (!o) return;
                     if (o.isPatternChoice === true) choices.push(o);
                     else if (o.isPatternBlank === true) blanks.push(o);
+                    else if (o.isPatternSource === true) sources.push(o);
                     if (o._objects) walk(o._objects);
                 });
             })(canvas.getObjects());
-            return { choices: choices, blanks: blanks };
+            return { choices: choices, blanks: blanks, sources: sources };
         }
 
         async function extractDeckBundle(canvas) {
@@ -4351,6 +4370,13 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
                     rect: _worldRectBounds(o)
                 };
             });
+            var sourceSlots = collected.sources.map(function (o) {
+                return {
+                    problemIndex: o.problemIndex,
+                    path: o.sourcePath || '',
+                    rect: _worldRectBounds(o)
+                };
+            });
 
             var worksheetImage = await _captureWorksheetImage(canvas);
             var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
@@ -4369,6 +4395,7 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
                 worksheetImage: worksheetImage,
                 optionSlots: optionSlots,
                 blankSlots: blankSlots,
+                sourceSlots: sourceSlots,
                 problems: puzzles,
                 attribution: attributionRect ? {
                     text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
@@ -4416,6 +4443,13 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             '.lcs-blank[data-status="wrong"]{border:3px solid #E53935;background:#FFEBEE;box-shadow:0 0 0 4px rgba(229,57,53,.2)}',
             '.lcs-blank img{max-width:88%;max-height:88%;display:block;user-select:none;-webkit-user-drag:none;pointer-events:none}',
             '.lcs-blank--empty::after{content:"?";font-size:clamp(24px,5vw,44px);font-weight:700;color:#4E5FE8;line-height:1}',
+            '.lcs-blank--drop-hover{border-color:#4CAF50;background:rgba(76,175,80,.15);box-shadow:0 0 0 4px rgba(76,175,80,.25)}',
+            '.lcs-source__btn{position:absolute;inset:0;width:100%;height:100%;background:transparent;border:3px dashed transparent;border-radius:8px;cursor:grab;touch-action:none;pointer-events:auto;padding:0}',
+            '.lcs-source__btn:hover{border-color:#4E5FE8;background:rgba(78,95,232,.06)}',
+            '.lcs-source__btn:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+            '.lcs-source__btn:active{cursor:grabbing;border-color:#4E5FE8;background:rgba(78,95,232,.1)}',
+            '.lcs-drag-ghost{position:fixed;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);border-radius:10px;box-shadow:0 8px 24px rgba(28,28,30,.35);background:#FFF;padding:4px;display:flex;align-items:center;justify-content:center}',
+            '.lcs-drag-ghost img{display:block;max-width:100%;max-height:100%;user-select:none;-webkit-user-drag:none}',
             '.lcs-mark{position:absolute;left:50%;top:calc(100% + 4px);transform:translateX(-50%);display:flex;align-items:center;justify-content:center;gap:4px;pointer-events:none;white-space:nowrap;font-weight:700;font-size:clamp(12px,2vw,16px);color:#4CAF50}',
             '.lcs-mark[data-kind="wrong"]{color:#E53935}',
             '.lcs-mark[data-kind="correct"]{color:#4CAF50}',
@@ -4471,22 +4505,26 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             '  };',
             '  function T(key){var loc=(DECK_BUNDLE.contentLanguage||"en").slice(0,2);var t=STRINGS[loc]||STRINGS.en;return t[key]||STRINGS.en[key]||key}',
             '',
-            '  // Build per-problem state. Each problem has either options (tap one) or a',
-            '  // single blank (tap cycles through the puzzle\'s unique-image palette).',
+            '  // Build per-problem state. Options mode: tap one of N. Blank mode: drag one',
+            '  // of the visible pattern images (sources) onto the blank.',
             '  var problems=(DECK_BUNDLE.problems||[]).map(function(p){',
             '    var optionChoices=DECK_BUNDLE.optionSlots.filter(function(s){return s.problemIndex===p.index}).sort(function(a,b){return a.choiceIndex-b.choiceIndex});',
             '    var blanksForP=DECK_BUNDLE.blankSlots.filter(function(s){return s.problemIndex===p.index});',
+            '    var sourcesForP=(DECK_BUNDLE.sourceSlots||[]).filter(function(s){return s.problemIndex===p.index});',
             '    return {',
             '      index:p.index,',
             '      questionType:p.questionType,',
             '      answerPath:p.answerPath||null,',
             '      correctOptionIdx:(typeof p.correctOptionIdx==="number"?p.correctOptionIdx:null),',
-            '      uniqueImages:Array.isArray(p.uniqueImages)?p.uniqueImages:[],',
             '      options:optionChoices.map(function(c){return {choiceIndex:c.choiceIndex,rect:c.rect,selected:false}}),',
-            '      blank:blanksForP.length?{rect:blanksForP[0].rect,cycleIndex:-1,path:null}:null,',
+            '      blank:blanksForP.length?{rect:blanksForP[0].rect,path:null}:null,',
+            '      sources:sourcesForP.map(function(s,k){return {idx:k,rect:s.rect,path:s.path}}),',
             '      status:"empty"',
             '    };',
             '  });',
+            '',
+            '  // Drag state (global; only one drag at a time).',
+            '  var drag=null;',
             '',
             '  var muted=false;try{muted=localStorage.getItem("lcsMuted")==="1"}catch(e){}',
             '  var reducedMotion=false;try{reducedMotion=window.matchMedia("(prefers-reduced-motion: reduce)").matches}catch(e){}',
@@ -4566,13 +4604,34 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             '        box.type="button";',
             '        box.className="lcs-blank lcs-blank--empty";',
             '        box.setAttribute("data-problem",String(p.index));',
-            '        box.setAttribute("aria-label",T("problem")+" "+(p.index+1)+" — tap to choose");',
+            '        box.setAttribute("data-role","blank");',
+            '        box.setAttribute("aria-label",T("problem")+" "+(p.index+1)+" — drop an image here");',
             '        box.style.left=((r.x/pw)*100)+"%";',
             '        box.style.top=((r.y/ph)*100)+"%";',
             '        box.style.width=((r.w/pw)*100).toFixed(2)+"%";',
             '        box.style.height=((r.h/ph)*100).toFixed(2)+"%";',
             '        box.addEventListener("click",function(){onBlankClick(p.index)});',
             '        overlayEl.appendChild(box);',
+            '        // Source drag-handles — one invisible button per visible pattern image',
+            '        // belonging to this problem. Pointerdown spawns a ghost the student drags.',
+            '        p.sources.forEach(function(src){',
+            '          if(!src.rect) return;',
+            '          var wrap=document.createElement("div");',
+            '          wrap.className="lcs-choice";',
+            '          wrap.style.left=((src.rect.x/pw)*100)+"%";',
+            '          wrap.style.top=((src.rect.y/ph)*100)+"%";',
+            '          wrap.style.width=((src.rect.w/pw)*100).toFixed(2)+"%";',
+            '          wrap.style.height=((src.rect.h/ph)*100).toFixed(2)+"%";',
+            '          var sbtn=document.createElement("button");',
+            '          sbtn.type="button";',
+            '          sbtn.className="lcs-source__btn";',
+            '          sbtn.setAttribute("data-problem",String(p.index));',
+            '          sbtn.setAttribute("data-source",String(src.idx));',
+            '          sbtn.setAttribute("aria-label",T("problem")+" "+(p.index+1)+" — grab to drag");',
+            '          sbtn.addEventListener("pointerdown",function(e){onSourcePointerDown(e,p.index,src)});',
+            '          wrap.appendChild(sbtn);',
+            '          overlayEl.appendChild(wrap);',
+            '        });',
             '      }',
             '    });',
             '    if(DECK_BUNDLE.attribution&&DECK_BUNDLE.attribution.rect){',
@@ -4605,28 +4664,73 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             '    syncDots();updateCheckButton();',
             '  }',
             '',
+            '  // Tap the blank while filled → clear it (undo). Empty taps are no-ops.',
             '  function onBlankClick(pi){',
             '    if(phase!=="fill")return;',
             '    var p=problems[pi];if(!p||!p.blank)return;',
-            '    var n=(p.uniqueImages||[]).length;',
-            '    if(n===0)return;',
-            '    // Advance through: -1 (empty) → 0 → 1 → ... → n-1 → -1 (empty).',
-            '    var next=p.blank.cycleIndex+1;',
-            '    if(next>=n)next=-1;',
-            '    p.blank.cycleIndex=next;',
-            '    p.blank.path=next>=0?p.uniqueImages[next].path:null;',
-            '    var box=blankFor(pi);if(!box)return;',
-            '    if(next<0){',
-            '      box.classList.add("lcs-blank--empty");',
-            '      box.innerHTML="";',
-            '      p.status="empty";',
-            '    }else{',
-            '      box.classList.remove("lcs-blank--empty");',
-            '      box.innerHTML=\'<img alt="" src="\'+p.uniqueImages[next].path+\'">\';',
-            '      p.status="filled";',
-            '    }',
-            '    box.removeAttribute("data-status");',
+            '    if(!p.blank.path)return;',
+            '    p.blank.path=null;',
+            '    var box=blankFor(pi);if(box){box.classList.add("lcs-blank--empty");box.innerHTML="";box.removeAttribute("data-status")}',
+            '    p.status="empty";',
             '    syncDots();updateCheckButton();',
+            '  }',
+            '',
+            '  // Pointerdown on a source → spawn a ghost attached to the pointer.',
+            '  function onSourcePointerDown(e,problemIndex,src){',
+            '    if(phase!=="fill")return;',
+            '    e.preventDefault();',
+            '    var ghost=document.createElement("div");',
+            '    ghost.className="lcs-drag-ghost";',
+            '    ghost.innerHTML=\'<img alt="" src="\'+src.path+\'">\';',
+            '    // Size ghost roughly to match the source\'s rendered size.',
+            '    var rect=e.currentTarget.getBoundingClientRect();',
+            '    var w=Math.max(44,Math.min(160,rect.width));',
+            '    var h=Math.max(44,Math.min(160,rect.height));',
+            '    ghost.style.width=w+"px";ghost.style.height=h+"px";',
+            '    ghost.style.left=e.clientX+"px";ghost.style.top=e.clientY+"px";',
+            '    document.body.appendChild(ghost);',
+            '    drag={problemIndex:problemIndex,path:src.path,ghost:ghost,pointerId:e.pointerId};',
+            '    window.addEventListener("pointermove",onDragMove);',
+            '    window.addEventListener("pointerup",onDragUp);',
+            '    window.addEventListener("pointercancel",onDragUp);',
+            '  }',
+            '  function onDragMove(e){',
+            '    if(!drag||e.pointerId!==drag.pointerId)return;',
+            '    drag.ghost.style.left=e.clientX+"px";drag.ghost.style.top=e.clientY+"px";',
+            '    // Hover highlight on matching blank when pointer is over it.',
+            '    var box=blankFor(drag.problemIndex);if(!box)return;',
+            '    var br=box.getBoundingClientRect();',
+            '    var hit=(e.clientX>=br.left&&e.clientX<=br.right&&e.clientY>=br.top&&e.clientY<=br.bottom);',
+            '    if(hit)box.classList.add("lcs-blank--drop-hover");',
+            '    else box.classList.remove("lcs-blank--drop-hover");',
+            '  }',
+            '  function onDragUp(e){',
+            '    if(!drag||e.pointerId!==drag.pointerId)return;',
+            '    var box=blankFor(drag.problemIndex);',
+            '    var hit=false;',
+            '    if(box){',
+            '      var br=box.getBoundingClientRect();',
+            '      hit=(e.clientX>=br.left&&e.clientX<=br.right&&e.clientY>=br.top&&e.clientY<=br.bottom);',
+            '    }',
+            '    if(hit){',
+            '      var p=problems[drag.problemIndex];',
+            '      if(p&&p.blank){',
+            '        p.blank.path=drag.path;',
+            '        p.status="filled";',
+            '        box.classList.remove("lcs-blank--empty");',
+            '        box.classList.remove("lcs-blank--drop-hover");',
+            '        box.innerHTML=\'<img alt="" src="\'+drag.path+\'">\';',
+            '        box.removeAttribute("data-status");',
+            '        syncDots();updateCheckButton();',
+            '      }',
+            '    }else if(box){',
+            '      box.classList.remove("lcs-blank--drop-hover");',
+            '    }',
+            '    if(drag.ghost&&drag.ghost.parentNode)drag.ghost.parentNode.removeChild(drag.ghost);',
+            '    window.removeEventListener("pointermove",onDragMove);',
+            '    window.removeEventListener("pointerup",onDragUp);',
+            '    window.removeEventListener("pointercancel",onDragUp);',
+            '    drag=null;',
             '  }',
             '',
             '  function focusProblem(pi){',
@@ -4639,7 +4743,7 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             '    if(!checkBtn)return;',
             '    var allReady=problems.every(function(p){',
             '      if(p.questionType==="options")return p.options.some(function(c){return c.selected});',
-            '      if(p.questionType==="blank")return p.blank&&p.blank.cycleIndex>=0;',
+            '      if(p.questionType==="blank")return !!(p.blank&&p.blank.path);',
             '      return true;',
             '    });',
             '    checkBtn.disabled=!allReady||phase!=="fill";',
@@ -4727,9 +4831,9 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             '          var m=markFor(p.index,c.choiceIndex);if(m){m.innerHTML="";m.removeAttribute("data-kind")}',
             '        });',
             '      }else if(p.questionType==="blank"&&p.blank){',
-            '        p.blank.cycleIndex=-1;p.blank.path=null;',
+            '        p.blank.path=null;',
             '        var box=blankFor(p.index);',
-            '        if(box){box.removeAttribute("data-status");box.disabled=false;box.classList.add("lcs-blank--empty");box.innerHTML=""}',
+            '        if(box){box.removeAttribute("data-status");box.disabled=false;box.classList.add("lcs-blank--empty");box.classList.remove("lcs-blank--drop-hover");box.innerHTML=""}',
             '      }',
             '    });',
             '    syncDots();',

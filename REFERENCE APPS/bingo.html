@@ -2973,7 +2973,7 @@
       // --- END: Main Bingo Generation Logic ---
 
       // ============================================================
-      // Interactive-HTML export v24.0 (bingo) — Family G drag-with-caller
+      // Interactive-HTML export v24.1 (bingo) — Family G drag-with-caller
       // ============================================================
       async function _captureWorksheetImage(canvas) {
           var savedZoom = canvas.getZoom();
@@ -3012,7 +3012,7 @@
               ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
           return {
-              bundleVersion: '24.0.0',
+              bundleVersion: '24.1.0',
               schemaFormat: 'image-references-v3',
               loadingMode: loadingMode,
               appType: 'bingo',
@@ -3060,8 +3060,7 @@
           '.lcs-tile__btn[data-kind="chip"]{cursor:grab;border-radius:50%}',
           '.lcs-tile__btn[data-kind="chip"]:active{cursor:grabbing}',
           '.lcs-tile__btn[data-kind="chip"]:hover{border-color:#4E5FE8;background:rgba(78,95,232,.10);box-shadow:0 0 0 4px rgba(78,95,232,.12)}',
-          '.lcs-tile__btn[data-kind="chip"][data-call-now="1"]{border:3px solid #FFC857;background:rgba(255,200,87,.18);box-shadow:0 0 0 4px rgba(255,200,87,.25),0 0 14px rgba(255,200,87,.4);animation:lcs-pulse 1.4s ease-in-out infinite}',
-          '@keyframes lcs-pulse{0%,100%{box-shadow:0 0 0 4px rgba(255,200,87,.25),0 0 14px rgba(255,200,87,.4)}50%{box-shadow:0 0 0 8px rgba(255,200,87,.18),0 0 22px rgba(255,200,87,.55)}}',
+          '.lcs-tile__btn[data-kind="chip"][data-dragging="1"]{opacity:.35;background:rgba(78,95,232,.10);border-color:#4E5FE8}',
           '.lcs-tile__btn[data-kind="cell"]{cursor:default}',
           '.lcs-tile__btn[data-locked="1"]{cursor:default;pointer-events:none;border-color:transparent}',
           '.lcs-tile__btn[data-deployed="1"]{opacity:0;pointer-events:none}',
@@ -3205,21 +3204,6 @@
           '      link.style.width=((ar.w/pw)*100).toFixed(2)+"%";link.style.height=((ar.h/ph)*100).toFixed(2)+"%";',
           '      overlayEl.appendChild(link);',
           '    }',
-          '    syncCallNowHint();',
-          '  }',
-          '',
-          '  // Highlight the chip(s) whose word matches the current call so the kid',
-          '  // knows which one to drag. (Multiple chips may share a word in some',
-          '  // configurations — highlight all that match.)',
-          '  function syncCallNowHint(){',
-          '    if(!overlayEl)return;',
-          '    var btns=overlayEl.querySelectorAll(\'.lcs-tile__btn[data-kind="chip"]\');',
-          '    for(var i=0;i<btns.length;i++){',
-          '      var b=btns[i];',
-          '      if(b.getAttribute("data-deployed")==="1"){b.removeAttribute("data-call-now");continue}',
-          '      if(currentCall&&b.getAttribute("data-word")===currentCall) b.setAttribute("data-call-now","1");',
-          '      else b.removeAttribute("data-call-now");',
-          '    }',
           '  }',
           '',
           '  function updateCallerBar(){',
@@ -3252,7 +3236,6 @@
           '    }',
           '    if(!callerQueue.length){currentCall=null}',
           '    updateCallerBar();',
-          '    syncCallNowHint();',
           '  }',
           '',
           '  function ghostSizePx(){',
@@ -3349,7 +3332,7 @@
           '      placeMarker(cIdx);',
           '      droppedOn.setAttribute("data-locked","1");',
           '      var cBtn=chipBtn(chipIdx);',
-          '      if(cBtn){cBtn.setAttribute("data-deployed","1");cBtn.removeAttribute("data-call-now")}',
+          '      if(cBtn){cBtn.setAttribute("data-deployed","1")}',
           '      playTone(659.25,0.1);',
           '      setTimeout(function(){playTone(987.77,0.1)},120);',
           '      updateProgress();',
@@ -3392,14 +3375,12 @@
           '        btns[i].removeAttribute("data-dragging");',
           '        btns[i].removeAttribute("data-drop-hover");',
           '        btns[i].removeAttribute("data-wrong");',
-          '        btns[i].removeAttribute("data-call-now");',
           '      }',
           '      var markers=overlayEl.querySelectorAll(".lcs-marker");',
           '      for(var r=0;r<markers.length;r++){if(markers[r].parentNode) markers[r].parentNode.removeChild(markers[r])}',
           '    }',
           '    if(celebrationEl) celebrationEl.classList.remove("lcs-celebration--shown");',
           '    if(resetBtn){resetBtn.hidden=true}',
-          '    syncCallNowHint();',
           '    updateCallerBar();',
           '    updateProgress();',
           '  }',
@@ -3550,11 +3531,11 @@
               setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
               showMessage('Interactive worksheet downloaded.', 'success');
           } catch (e) {
-              console.error('[Interactive Export v24.0] Failed:', e);
+              console.error('[Interactive Export v24.1] Failed:', e);
               showMessage('Interactive export failed: ' + e.message, 'error');
           }
       }
-      // END: Interactive-HTML export v24.0
+      // END: Interactive-HTML export v24.1
 
       // --- Initial Worksheet Generation ---
       async function generateInitialWorksheet() {

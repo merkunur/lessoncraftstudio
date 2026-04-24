@@ -3204,11 +3204,11 @@
 
                 const placeholders = [];
                 if (addIndicatorsCheckbox.checked) {
-                    loadedImageObjects.forEach(img => {
-                        const indicatorProps = { left: img.left + img.getScaledWidth() / 2, top: boxRect.height - 11, originX: 'center', originY: 'center', isPlaceholder: true };
+                    loadedImageObjects.forEach((img, j) => {
+                        const indicatorProps = { left: img.left + img.getScaledWidth() / 2, top: boxRect.height - 11, originX: 'center', originY: 'center', isPlaceholder: true, isBigSmallIndicator: true, problemIndex: i, choiceIndex: j };
                         if (qType.startsWith('order')) {
                             placeholders.push(new fabric.Rect({ ...indicatorProps, width: 20, height: 20, fill: 'rgba(0,0,0,0.05)', stroke: '#BBB', rx: 4, ry: 4 }));
-                        } else { 
+                        } else {
                             placeholders.push(new fabric.Circle({ ...indicatorProps, radius: 10, fill: 'rgba(0,0,0,0.05)', stroke: '#BBB' }));
                         }
                     });
@@ -4395,17 +4395,19 @@ async function downloadPDF(canvasInstance, fileName) {
           return { x: (minX + maxX) / 2, y: (minY + maxY) / 2, w: maxX - minX, h: maxY - minY };
       }
 
-      function _collectBigSmallChoices(canvas) {
-          var out = [];
+      function _collectBigSmallAnnotations(canvas) {
+          var choices = [];
+          var indicators = [];
           (function walk(objs) {
               if (!objs) return;
               objs.forEach(function (o) {
                   if (!o) return;
-                  if (o.isBigSmallChoice === true) out.push(o);
+                  if (o.isBigSmallChoice === true) choices.push(o);
+                  else if (o.isBigSmallIndicator === true) indicators.push(o);
                   if (o._objects) walk(o._objects);
               });
           })(canvas.getObjects());
-          return out;
+          return { choices: choices, indicators: indicators };
       }
 
       async function extractDeckBundle(canvas) {
@@ -4425,14 +4427,15 @@ async function downloadPDF(canvasInstance, fileName) {
               }
           }
 
-          var tagged = _collectBigSmallChoices(canvas);
-          if (tagged.length === 0) {
+          var collected = _collectBigSmallAnnotations(canvas);
+          var taggedImages = collected.choices;
+          if (taggedImages.length === 0) {
               throw new Error('No choice images detected. Regenerate the worksheet and try again.');
           }
 
           // Group tagged images by problemIndex to check imgs.length invariant.
           var byProblem = {};
-          tagged.forEach(function (img) {
+          taggedImages.forEach(function (img) {
               var pi = img.problemIndex;
               if (!byProblem[pi]) byProblem[pi] = [];
               byProblem[pi].push(img);
@@ -4445,11 +4448,23 @@ async function downloadPDF(canvasInstance, fileName) {
               throw new Error('Problem image count mismatch. Regenerate the worksheet.');
           }
 
-          var slots = tagged.map(function (img) {
+          var slots = taggedImages.map(function (img) {
               return {
                   problemIndex: img.problemIndex,
                   choiceIndex: img.choiceIndex,
                   rect: _worldRectBounds(img)
+              };
+          });
+
+          // Indicator circles/squares — per-choice feedback target. Present only
+          // if the operator enabled "Add answer indicators". When present, the
+          // runtime centers the check/cross mark inside this rect instead of
+          // below the image.
+          var indicators = collected.indicators.map(function (o) {
+              return {
+                  problemIndex: o.problemIndex,
+                  choiceIndex: o.choiceIndex,
+                  rect: _worldRectBounds(o)
               };
           });
 
@@ -4489,6 +4504,7 @@ async function downloadPDF(canvasInstance, fileName) {
               },
               worksheetImage: worksheetImage,
               slots: slots,
+              indicators: indicators,
               problems: bundledProblems,
               attribution: attributionRect ? {
                   text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
@@ -4533,7 +4549,13 @@ async function downloadPDF(canvasInstance, fileName) {
           '.lcs-choice__btn[data-status="correct"] .lcs-rank{background:#4CAF50}',
           '.lcs-choice__btn[data-status="wrong"] .lcs-rank{background:#E53935}',
           '.lcs-rank-correct{position:absolute;top:0;left:0;transform:translate(-30%,-30%);min-width:26px;height:26px;border-radius:13px;background:#4CAF50;color:#FFF;font-family:inherit;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:14px;pointer-events:none;box-shadow:0 2px 6px rgba(28,28,30,.25);padding:0 6px;border:2px solid #FFF}',
-          '.lcs-mark{position:absolute;left:50%;top:calc(100% + 4px);transform:translateX(-50%);display:flex;align-items:center;gap:4px;pointer-events:none;white-space:nowrap;font-weight:700;font-size:clamp(12px,2vw,16px)}',
+          '.lcs-mark{position:absolute;left:50%;top:calc(100% + 4px);transform:translateX(-50%);display:flex;align-items:center;justify-content:center;gap:4px;pointer-events:none;white-space:nowrap;font-weight:700;font-size:clamp(12px,2vw,16px);color:#4CAF50}',
+          '.lcs-mark[data-kind="wrong"]{color:#E53935}',
+          '.lcs-mark[data-kind="correct"]{color:#4CAF50}',
+          '.lcs-mark--in-indicator{position:absolute;left:auto;top:auto;transform:translate(-50%,-50%);display:flex;align-items:center;justify-content:center;padding:2px;border-radius:50%;background:rgba(255,255,255,0.85);box-shadow:0 0 0 2px currentColor}',
+          '.lcs-mark--in-indicator[data-kind="correct"]{color:#4CAF50}',
+          '.lcs-mark--in-indicator[data-kind="wrong"]{color:#E53935}',
+          '.lcs-mark--in-indicator .lcs-mark__icon{width:100%;height:100%}',
           '.lcs-mark__icon{width:20px;height:20px;display:block;flex-shrink:0}',
           '.lcs-footer{position:sticky;bottom:0;z-index:10;margin-top:24px;background:rgba(254,250,243,.95);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-top:1px solid #DCE1E6;padding:16px 12px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap}',
           '.lcs-btn{font-family:inherit;font-weight:700;font-size:17px;padding:14px 28px;border-radius:12px;border:none;cursor:pointer;min-height:52px;min-width:160px;transition:background-color .2s,transform .1s,box-shadow .2s,opacity .2s}',
@@ -4599,6 +4621,14 @@ async function downloadPDF(canvasInstance, fileName) {
           '      assignmentOrder:[],',
           '      status:"empty"',
           '    };',
+          '  });',
+          '',
+          '  // Indicator rect per (problemIndex, choiceIndex) — when present the',
+          '  // Check-Answers mark is centered inside it instead of below the image.',
+          '  var indicatorMap={};',
+          '  (DECK_BUNDLE.indicators||[]).forEach(function(ind){',
+          '    if(!ind||!ind.rect)return;',
+          '    indicatorMap[ind.problemIndex+"-"+ind.choiceIndex]=ind.rect;',
           '  });',
           '',
           '  var muted=false;try{muted=localStorage.getItem("lcsMuted")==="1"}catch(e){}',
@@ -4675,9 +4705,24 @@ async function downloadPDF(canvasInstance, fileName) {
           '          rank.style.display="none";',
           '          btn.appendChild(rank);',
           '        }',
-          '        var mark=document.createElement("span");mark.className="lcs-mark";mark.setAttribute("data-mark-for",String(p.index)+"-"+String(ch.choiceIndex));',
-          '        wrap.appendChild(btn);wrap.appendChild(mark);',
+          '        wrap.appendChild(btn);',
           '        overlayEl.appendChild(wrap);',
+          '        // Mark element — sibling of wrap when an indicator rect exists (so it',
+          '        // sits centered in the baked indicator circle), otherwise wrap-child.',
+          '        var mark=document.createElement("span");',
+          '        mark.setAttribute("data-mark-for",String(p.index)+"-"+String(ch.choiceIndex));',
+          '        var indRect=indicatorMap[p.index+"-"+ch.choiceIndex];',
+          '        if(indRect){',
+          '          mark.className="lcs-mark lcs-mark--in-indicator";',
+          '          mark.style.left=((indRect.x/pw)*100)+"%";',
+          '          mark.style.top=((indRect.y/ph)*100)+"%";',
+          '          mark.style.width=((indRect.w/pw)*100).toFixed(2)+"%";',
+          '          mark.style.height=((indRect.h/ph)*100).toFixed(2)+"%";',
+          '          overlayEl.appendChild(mark);',
+          '        }else{',
+          '          mark.className="lcs-mark";',
+          '          wrap.appendChild(mark);',
+          '        }',
           '      });',
           '    });',
           '    if(DECK_BUNDLE.attribution&&DECK_BUNDLE.attribution.rect){',
@@ -4780,8 +4825,9 @@ async function downloadPDF(canvasInstance, fileName) {
           '',
           '  function setMarkCheck(pi,ci,ok){',
           '    var m=markFor(pi,ci);if(!m)return;',
-          '    if(ok)m.innerHTML=\'<svg class="lcs-mark__icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#4CAF50" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg>\';',
-          '    else m.innerHTML=\'<svg class="lcs-mark__icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#E53935" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M6 18L18 6"/></svg>\';',
+          '    m.setAttribute("data-kind",ok?"correct":"wrong");',
+          '    if(ok)m.innerHTML=\'<svg class="lcs-mark__icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg>\';',
+          '    else m.innerHTML=\'<svg class="lcs-mark__icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M6 18L18 6"/></svg>\';',
           '  }',
           '',
           '  function checkAll(){',

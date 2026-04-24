@@ -4328,6 +4328,26 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             return { x: (minX + maxX) / 2, y: (minY + maxY) / 2, w: maxX - minX, h: maxY - minY };
         }
 
+        // Fetch an image by path and return a base64 data URL so the interactive
+        // HTML is self-contained (per CLAUDE.md §14.1 "works fully offline once
+        // downloaded"). On failure, falls back to the original path so the site
+        // still works online.
+        async function _pathToDataURL(path) {
+            try {
+                var res = await fetch(path, { cache: 'force-cache' });
+                if (!res.ok) return path;
+                var blob = await res.blob();
+                return await new Promise(function (resolve) {
+                    var reader = new FileReader();
+                    reader.onload = function () { resolve(reader.result); };
+                    reader.onerror = function () { resolve(path); };
+                    reader.readAsDataURL(blob);
+                });
+            } catch (e) {
+                return path;
+            }
+        }
+
         function _collectPatternAnnotations(canvas) {
             var choices = [];
             var blanks = [];
@@ -4378,6 +4398,38 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
                 };
             });
 
+            // Embed every library image the runtime needs as a base64 data URL so
+            // the downloaded HTML works offline. Dedupe first — a short pattern
+            // reuses the same 2–4 images across many sources.
+            var pathsToEmbed = {};
+            sourceSlots.forEach(function (s) { if (s.path) pathsToEmbed[s.path] = true; });
+            puzzles.forEach(function (p) {
+                if (p.answerPath) pathsToEmbed[p.answerPath] = true;
+                if (Array.isArray(p.uniqueImages)) {
+                    p.uniqueImages.forEach(function (im) { if (im && im.path) pathsToEmbed[im.path] = true; });
+                }
+            });
+            var uniquePaths = Object.keys(pathsToEmbed);
+            var resolvedURLs = await Promise.all(uniquePaths.map(function (p) { return _pathToDataURL(p); }));
+            var pathMap = {};
+            uniquePaths.forEach(function (p, i) { pathMap[p] = resolvedURLs[i]; });
+            var embed = function (p) { return (p && pathMap[p]) ? pathMap[p] : p; };
+
+            // Rewrite paths in the slot/puzzle structures we'll ship in the bundle.
+            sourceSlots.forEach(function (s) { s.path = embed(s.path); });
+            var rewrittenPuzzles = puzzles.map(function (p) {
+                return {
+                    index: p.index,
+                    questionType: p.questionType,
+                    randomBlank: p.randomBlank,
+                    answerPath: embed(p.answerPath),
+                    correctOptionIdx: p.correctOptionIdx,
+                    uniqueImages: (Array.isArray(p.uniqueImages) ? p.uniqueImages : []).map(function (im) {
+                        return { path: embed(im && im.path) };
+                    })
+                };
+            });
+
             var worksheetImage = await _captureWorksheetImage(canvas);
             var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
                 ? LCSAttribution.getRectFromCanvas(canvas) : null;
@@ -4396,7 +4448,7 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
                 optionSlots: optionSlots,
                 blankSlots: blankSlots,
                 sourceSlots: sourceSlots,
-                problems: puzzles,
+                problems: rewrittenPuzzles,
                 attribution: attributionRect ? {
                     text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
                     url: (window.LCSAttribution && LCSAttribution.URL) || 'https://lessoncraftstudio.com',

@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
+    <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
+    <script src="/worksheet-generators/js/image-reference.js?v=1"></script>
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex, nofollow">
     <title>MatchUp Maker</title>
@@ -1168,6 +1170,9 @@
                             <button id="downloadWsPdfBtn" disabled data-translate="worksheetPdf">Worksheet (PDF)</button>
                             <button id="downloadAkPdfBtn" disabled data-translate="answerKeyPdf">Answer Key (PDF)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadInteractiveHtmlBtn" disabled>Interactive Worksheet (HTML)</button>
+                            <button id="downloadInteractiveHtmlReferenceBtn" disabled title="For server-hosted catalog playback. Smaller file, requires the same site to host the WebP library.">Interactive Worksheet (Catalog/URL refs)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
                             <label class="checkbox-label" id="grayscaleLabel">
                                 <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
                             </label>
@@ -1310,6 +1315,8 @@
         // New Download Buttons
         const downloadWsJpegBtn = $('downloadWsJpegBtn'), downloadAkJpegBtn = $('downloadAkJpegBtn');
         const downloadWsPdfBtn = $('downloadWsPdfBtn'), downloadAkPdfBtn = $('downloadAkPdfBtn');
+        const downloadInteractiveHtmlBtn = $('downloadInteractiveHtmlBtn');
+        const downloadInteractiveHtmlReferenceBtn = $('downloadInteractiveHtmlReferenceBtn');
 
         // Zoom Controls
         const zoomInBtn = $('zoomInBtn');
@@ -2675,12 +2682,96 @@
 
                 enforceStackingOrder(worksheetCanvas);
                 userAddedObjects.forEach(o => worksheetCanvas.bringToFront(o));
+
+                // v21.0 — bake LCSAttribution onto the worksheet canvas so PDF/JPEG/
+                // interactive exports all carry the footer.
+                if (window.LCSAttribution && LCSAttribution.addToCanvas) {
+                    LCSAttribution.addToCanvas(worksheetCanvas, { currentCanvasConfig: currentCanvasConfig });
+                }
+
                 worksheetCanvas.renderAll();
+
+                // v21.0 — capture per-item world rects + correct pair mapping
+                // for the interactive bundle. Run AFTER renderAll so setCoords
+                // is up to date. Walk the canvas for the tagged left/right items.
+                try {
+                    const left = [];
+                    const right = [];
+                    worksheetCanvas.getObjects().forEach(o => {
+                        if (!o.isGeneratedItem) return;
+                        if (o.position === 'left' && typeof o.originalIndex === 'number') {
+                            const w = o.getScaledWidth();
+                            const h = o.getScaledHeight();
+                            // originX:'left', originY:'center'
+                            left.push({
+                                index: o.originalIndex,
+                                x: o.left,
+                                y: o.top - h / 2,
+                                w: w,
+                                h: h,
+                                anchorX: o.left + w + 5,
+                                anchorY: o.top
+                            });
+                        } else if (o.position === 'right' && typeof o.originalIndex === 'number') {
+                            const w = o.getScaledWidth();
+                            const h = o.getScaledHeight();
+                            // originX:'center', originY:'center'
+                            right.push({
+                                index: o.originalIndex,
+                                x: o.left - w / 2,
+                                y: o.top - h / 2,
+                                w: w,
+                                h: h,
+                                anchorX: o.left - w / 2 - 5,
+                                anchorY: o.top
+                            });
+                        }
+                    });
+                    left.sort((a, b) => a.index - b.index);
+                    right.sort((a, b) => a.index - b.index);
+                    worksheetCanvas.matchingItemRects = { left: left, right: right };
+
+                    // Compute correct-pair mapping: for each leftIndex, which
+                    // rightIndex is the correct match? Uses reference equality
+                    // between worksheet and answerKey item objects (both come
+                    // from the same basePairs source array — see lines 2658-2660).
+                    const wsPairs = pairs;
+                    const akPairs = answerKey;
+                    const correctMap = wsPairs.map((wp, leftIdx) => {
+                        const ak = akPairs.find(a => a.left === wp.left)
+                            || akPairs.find(a => a.left && wp.left && a.left.val === wp.left.val && a.left.type === wp.left.type);
+                        if (!ak) return -1;
+                        const correctRight = ak.right;
+                        const rightIdx = wsPairs.findIndex(p =>
+                            p.right === correctRight ||
+                            (p.right && correctRight && p.right.val === correctRight.val && p.right.type === correctRight.type)
+                        );
+                        return rightIdx;
+                    });
+
+                    worksheetCanvas.problemsData = {
+                        mode: m,
+                        pairs: wsPairs.map((p, i) => ({
+                            leftIndex: i,
+                            rightIndex: i, // index into worksheet's right column at render time
+                            correctRightIndex: correctMap[i],
+                            leftValue: (p.left && (p.left.val && (p.left.val.word || p.left.val.name || p.left.val)) || ''),
+                            rightValue: (p.right && (p.right.val && (p.right.val.word || p.right.val.name || p.right.val)) || '')
+                        }))
+                    };
+                } catch (e) {
+                    console.warn('[matching v21.0] could not capture item rects:', e);
+                }
+
+                // Required by image-reference.js propagation checklist item 10.
+                window.__lcsGenerationCounter = (window.__lcsGenerationCounter || 0) + 1;
 
                 generateAnswerKeyBtn.disabled = false;
                 downloadDropdownBtn.disabled = false;
                 downloadWsJpegBtn.disabled = false;
                 downloadWsPdfBtn.disabled = false;
+                if (downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = false;
+                if (downloadInteractiveHtmlReferenceBtn) downloadInteractiveHtmlReferenceBtn.disabled = false;
 
                 // Undo/Redo: Reset flag and save state after generation
                 isGenerating = false;
@@ -2749,9 +2840,16 @@
             }
 
             await renderCanvas(answerKeyCanvas, currentGeneratedData.answerKey, true, oldTransforms, mode);
-            
+
             enforceStackingOrder(answerKeyCanvas);
             userAddedObjects.forEach(o => answerKeyCanvas.bringToFront(o));
+
+            // v21.0 — bake LCSAttribution onto the answer-key canvas so its
+            // PDF/JPEG exports also carry the footer.
+            if (window.LCSAttribution && LCSAttribution.addToCanvas) {
+                LCSAttribution.addToCanvas(answerKeyCanvas, { currentCanvasConfig: currentCanvasConfig });
+            }
+
             answerKeyCanvas.renderAll();
 
             downloadAkJpegBtn.disabled = false;
@@ -3317,7 +3415,546 @@
                 removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         };
-        
+
+        // ============================================================
+        // Interactive-HTML export v21.0 (matching)
+        // ============================================================
+        async function _captureWorksheetImage(canvas) {
+            var savedZoom = canvas.getZoom();
+            var savedW = canvas.getWidth();
+            var savedH = canvas.getHeight();
+            var savedBg = canvas.backgroundColor;
+            canvas.discardActiveObject();
+            canvas.setZoom(1);
+            canvas.setDimensions({ width: currentCanvasConfig.width, height: currentCanvasConfig.height });
+            if (!savedBg || savedBg === 'transparent') canvas.backgroundColor = '#FFFFFF';
+            canvas.renderAll();
+            var dataURL;
+            try {
+                dataURL = canvas.toDataURL({ format: 'jpeg', quality: 0.85, multiplier: 2 });
+            } finally {
+                canvas.backgroundColor = savedBg;
+                canvas.setZoom(savedZoom);
+                canvas.setDimensions({ width: savedW, height: savedH });
+                canvas.renderAll();
+            }
+            return dataURL;
+        }
+
+        async function _pathToDataURL(path) {
+            try {
+                var res = await fetch(path, { cache: 'force-cache' });
+                if (!res.ok) return path;
+                var blob = await res.blob();
+                return await new Promise(function (resolve) {
+                    var reader = new FileReader();
+                    reader.onload = function () { resolve(reader.result); };
+                    reader.onerror = function () { resolve(path); };
+                    reader.readAsDataURL(blob);
+                });
+            } catch (e) { return path; }
+        }
+
+        async function extractDeckBundle(canvas, options) {
+            var loadingMode = (options && options.loadingMode === 'reference') ? 'reference' : 'inline';
+            var pd = canvas.problemsData || null;
+            if (!pd || !Array.isArray(pd.pairs) || pd.pairs.length === 0) {
+                throw new Error('No problemsData on canvas. Generate a worksheet first.');
+            }
+            var rects = canvas.matchingItemRects;
+            if (!rects || !Array.isArray(rects.left) || !Array.isArray(rects.right)) {
+                throw new Error('Matching item rects not detected on canvas. Regenerate the worksheet.');
+            }
+            if (rects.left.length !== pd.pairs.length || rects.right.length !== pd.pairs.length) {
+                throw new Error('Item rect count mismatch (left=' + rects.left.length + ', right=' + rects.right.length + ', pairs=' + pd.pairs.length + ').');
+            }
+
+            var worksheetImage = await _captureWorksheetImage(canvas);
+            var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
+                ? LCSAttribution.getRectFromCanvas(canvas) : null;
+
+            return {
+                bundleVersion: '21.0.0',
+                schemaFormat: 'image-references-v3',
+                loadingMode: loadingMode,
+                appType: 'matching',
+                createdAt: new Date().toISOString(),
+                contentLanguage: (window.currentLocale || 'en'),
+                title: 'Match Up',
+                page: { width: currentCanvasConfig.width, height: currentCanvasConfig.height },
+                worksheetImage: worksheetImage,
+                mode: pd.mode,
+                pairs: pd.pairs,
+                leftItems: rects.left,
+                rightItems: rects.right,
+                imageRefs: {},
+                attribution: attributionRect ? {
+                    text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
+                    url: (window.LCSAttribution && LCSAttribution.URL) || 'https://lessoncraftstudio.com',
+                    rect: attributionRect
+                } : null
+            };
+        }
+
+        var INTERACTIVE_CSS_LINES = [
+            '*{box-sizing:border-box}',
+            'html,body{margin:0;padding:0}',
+            'body{font-family:"Fredoka",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#FEFAF3;color:#1C1C1E;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;min-height:100vh}',
+            '#lcs-app{max-width:980px;margin:0 auto;padding:0 12px;padding-bottom:120px}',
+            '.lcs-bar{position:sticky;top:0;z-index:10;background:rgba(254,250,243,.94);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding:12px 4px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}',
+            '.lcs-title{font-size:clamp(18px,2.6vw,24px);font-weight:600;color:#1C1C1E;margin:0;flex:1 1 auto;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}',
+            '.lcs-mute{width:40px;height:40px;border-radius:10px;border:2px solid #DCE1E6;background:#FFF;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;color:#545458;flex-shrink:0}',
+            '.lcs-mute:hover{background:#FEFAF3}',
+            '.lcs-mute:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+            '.lcs-mute svg{width:20px;height:20px;pointer-events:none}',
+            '.lcs-mute[data-muted="1"]{background:#FFF8E6;border-color:#FFC857;color:#8A6D00}',
+            '.lcs-worksheet-wrap{display:flex;justify-content:center;padding-top:8px}',
+            '.lcs-worksheet{position:relative;display:block;width:100%;max-width:880px;background:#FFF;border-radius:10px;box-shadow:0 4px 18px rgba(28,28,30,.08);overflow:visible}',
+            '.lcs-worksheet__img{display:block;width:100%;height:auto;user-select:none;-webkit-user-drag:none;pointer-events:none;border-radius:10px}',
+            '.lcs-overlay{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none}',
+            '.lcs-svg{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none}',
+            '.lcs-svg line{stroke-linecap:round}',
+            '.lcs-item{position:absolute;pointer-events:none}',
+            '.lcs-item__btn{position:absolute;inset:0;width:100%;height:100%;border:3px solid transparent;background:transparent;cursor:pointer;pointer-events:auto;padding:0;border-radius:8px;transition:border-color .15s,background-color .15s,box-shadow .15s}',
+            '.lcs-item__btn:hover{border-color:#4E5FE8;background:rgba(78,95,232,.06)}',
+            '.lcs-item__btn:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+            '.lcs-item__btn[data-selected="1"]{border:3px solid #4E5FE8;background:rgba(78,95,232,.14);box-shadow:0 0 0 4px rgba(78,95,232,.18)}',
+            '.lcs-item__btn[data-status="correct"]{border:3px solid #4CAF50;background:rgba(76,175,80,.10)}',
+            '.lcs-item__btn[data-status="wrong"]{border:3px solid #E53935;background:rgba(229,57,53,.10)}',
+            '.lcs-img-overlay{user-select:none;-webkit-user-drag:none}',
+            '.lcs-footer{position:sticky;bottom:0;z-index:10;margin-top:24px;background:rgba(254,250,243,.95);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-top:1px solid #DCE1E6;padding:16px 12px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap}',
+            '.lcs-btn{font-family:inherit;font-weight:700;font-size:17px;padding:14px 28px;border-radius:12px;border:none;cursor:pointer;min-height:52px;min-width:160px;transition:background-color .2s,transform .1s,box-shadow .2s,opacity .2s}',
+            '.lcs-btn:active:not([disabled]){transform:scale(.97)}',
+            '.lcs-btn:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+            '.lcs-btn[disabled]{opacity:.45;cursor:not-allowed}',
+            '.lcs-btn--ghost{background:#FFF;color:#1C1C1E;border:2px solid #DCE1E6}',
+            '.lcs-btn--ghost:hover{background:#FEFAF3;border-color:#4E5FE8}',
+            '.lcs-btn--primary{background:#4E5FE8;color:#FFF;box-shadow:0 4px 14px rgba(78,95,232,.3)}',
+            '.lcs-btn--primary:hover:not([disabled]){background:#3F4FD0;box-shadow:0 6px 20px rgba(78,95,232,.4)}',
+            '.lcs-summary{font-size:16px;font-weight:600;color:#545458;align-self:center;padding:0 8px}',
+            '.lcs-summary--done{color:#2E7D32}',
+            '.lcs-celebration{position:fixed;inset:0;background:rgba(28,28,30,.5);display:none;align-items:center;justify-content:center;z-index:10000;padding:16px}',
+            '.lcs-celebration--shown{display:flex}',
+            '.lcs-celebration__inner{position:relative;background:#FFFFFF;border-radius:24px;padding:32px 28px 24px;max-width:520px;width:100%;box-shadow:0 20px 60px rgba(28,28,30,.35);text-align:center;z-index:2}',
+            '.lcs-celebration__title{font-size:clamp(36px,7vw,56px);margin:0 0 4px;color:#4E5FE8;font-weight:700}',
+            '.lcs-stars{font-size:clamp(40px,7vw,52px);letter-spacing:10px;margin:12px 0;line-height:1}',
+            '.lcs-star{color:#DCE1E6}',
+            '.lcs-star--filled{color:#FFC857;filter:drop-shadow(0 2px 4px rgba(255,200,87,.35))}',
+            '.lcs-celebration__sub{color:#545458;font-size:16px;margin:0 0 20px}',
+            '.lcs-mini{display:block;max-width:100%;max-height:200px;margin:0 auto 20px;border-radius:8px;border:1px solid #DCE1E6}',
+            '.lcs-celebration__cta{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}',
+            '.lcs-confetti{position:absolute;inset:0;pointer-events:none;overflow:hidden;border-radius:24px}',
+            '.lcs-confetti__piece{position:absolute;width:8px;height:14px;top:-20px;animation:lcs-fall linear forwards;border-radius:2px}',
+            '@keyframes lcs-fall{to{transform:translateY(620px) rotate(540deg);opacity:0}}',
+            '.lcs-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}',
+            '.lcs-attrib-link{position:absolute;transform:translate(-50%,-50%);pointer-events:auto;cursor:pointer;background:transparent;text-decoration:none;border-radius:4px;outline:none}',
+            '.lcs-attrib-link:focus-visible{outline:2px solid #4E5FE8;outline-offset:2px}',
+            '.lcs-attrib-link:hover{background:rgba(78,95,232,.08)}',
+            '@media (prefers-reduced-motion:reduce){',
+            '  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.15s !important}',
+            '  .lcs-confetti{display:none}',
+            '}',
+            '@media print{',
+            '  body{background:#FFF}',
+            '  .lcs-bar,.lcs-footer,.lcs-celebration,.lcs-attrib-link{display:none !important}',
+            '  .lcs-worksheet{box-shadow:none;border:none}',
+            '  .lcs-item__btn{border:none !important;background:transparent !important;box-shadow:none !important}',
+            '}'
+        ];
+
+        var INTERACTIVE_RUNTIME_LINES = [
+            '(function(){',
+            '  "use strict";',
+            '  var STRINGS = {',
+            '    en:{title:"Match Up",check:"Check Answers",tryAgain:"Try Again",mute:"Mute sounds",unmute:"Turn sounds on",printMyWorksheet:"Print my worksheet",doAnother:"Do Another",youDidIt:"All correct!",correct:"correct",score:"{n} of {total} correct",allCorrect:"All correct!"}',
+            '  };',
+            '  function T(key){var loc=(DECK_BUNDLE.contentLanguage||"en").slice(0,2);var t=STRINGS[loc]||STRINGS.en;return t[key]||STRINGS.en[key]||key}',
+            '  function fmt(s,vars){return s.replace(/\\{(\\w+)\\}/g,function(_,k){return vars[k]==null?"":String(vars[k])})}',
+            '',
+            '  var leftItems=DECK_BUNDLE.leftItems||[];',
+            '  var rightItems=DECK_BUNDLE.rightItems||[];',
+            '  var pairs=DECK_BUNDLE.pairs||[]; // each: { leftIndex, correctRightIndex, ... }',
+            '  // connections[leftIndex] = rightIndex it is currently connected to (or -1)',
+            '  var connections=new Array(leftItems.length).fill(-1);',
+            '  // selectedLeft = the leftIndex currently waiting for a right tap (or -1)',
+            '  var selectedLeft=-1;',
+            '',
+            '  var muted=false;try{muted=localStorage.getItem("lcsMuted")==="1"}catch(e){}',
+            '  var reducedMotion=false;try{reducedMotion=window.matchMedia("(prefers-reduced-motion: reduce)").matches}catch(e){}',
+            '  var audioCtx=null;',
+            '  var phase="fill";',
+            '  var celebrationShown=false;',
+            '  var titleEl,overlayEl,svgEl,muteBtn,celebrationEl,liveEl,imgEl,checkBtn,resetBtn,summaryEl;',
+            '',
+            '  function init(){',
+            '    titleEl=document.getElementById("lcs-title");',
+            '    overlayEl=document.getElementById("lcs-overlay");',
+            '    svgEl=document.getElementById("lcs-svg");',
+            '    muteBtn=document.getElementById("lcs-mute");',
+            '    celebrationEl=document.getElementById("lcs-celebration");',
+            '    liveEl=document.getElementById("lcs-live");',
+            '    imgEl=document.getElementById("lcs-worksheet-img");',
+            '    checkBtn=document.getElementById("lcs-check");',
+            '    resetBtn=document.getElementById("lcs-reset");',
+            '    summaryEl=document.getElementById("lcs-summary");',
+            '    if(titleEl) titleEl.textContent=DECK_BUNDLE.title||T("title");',
+            '    if(svgEl){var pw=DECK_BUNDLE.page.width,ph=DECK_BUNDLE.page.height;svgEl.setAttribute("viewBox","0 0 "+pw+" "+ph);}',
+            '    if(imgEl&&imgEl.complete&&imgEl.naturalHeight>0){renderItems();}',
+            '    else if(imgEl){imgEl.addEventListener("load",renderItems);imgEl.addEventListener("error",function(){console.error("[LCS] Worksheet image failed to load")});}',
+            '    wireMute();updateMuteButton();wireButtons();',
+            '  }',
+            '',
+            '  function leftBtn(idx){return overlayEl?overlayEl.querySelector(\'.lcs-item__btn[data-side="left"][data-idx="\'+idx+\'"]\'):null}',
+            '  function rightBtn(idx){return overlayEl?overlayEl.querySelector(\'.lcs-item__btn[data-side="right"][data-idx="\'+idx+\'"]\'):null}',
+            '',
+            '  function renderItems(){',
+            '    overlayEl.innerHTML="";',
+            '    var pw=DECK_BUNDLE.page.width;var ph=DECK_BUNDLE.page.height;',
+            '    [["left",leftItems],["right",rightItems]].forEach(function(pair){',
+            '      var side=pair[0];var arr=pair[1];',
+            '      arr.forEach(function(it){',
+            '        var wrap=document.createElement("div");',
+            '        wrap.className="lcs-item";',
+            '        wrap.style.left=((it.x/pw)*100)+"%";',
+            '        wrap.style.top=((it.y/ph)*100)+"%";',
+            '        wrap.style.width=((it.w/pw)*100).toFixed(3)+"%";',
+            '        wrap.style.height=((it.h/ph)*100).toFixed(3)+"%";',
+            '        var btn=document.createElement("button");',
+            '        btn.type="button";',
+            '        btn.className="lcs-item__btn";',
+            '        btn.setAttribute("data-side",side);',
+            '        btn.setAttribute("data-idx",String(it.index));',
+            '        btn.setAttribute("aria-label",(side==="left"?"Left ":"Right ")+"item "+(it.index+1));',
+            '        btn.addEventListener("click",function(){onItemClick(side,it.index)});',
+            '        wrap.appendChild(btn);',
+            '        overlayEl.appendChild(wrap);',
+            '      });',
+            '    });',
+            '    if(DECK_BUNDLE.attribution&&DECK_BUNDLE.attribution.rect){',
+            '      var ar=DECK_BUNDLE.attribution.rect;',
+            '      var link=document.createElement("a");',
+            '      link.className="lcs-attrib-link";',
+            '      link.href=DECK_BUNDLE.attribution.url||"https://lessoncraftstudio.com";',
+            '      link.target="_blank";link.rel="noopener";',
+            '      link.setAttribute("aria-label",DECK_BUNDLE.attribution.text||"Made with LessonCraftStudio.com");',
+            '      link.style.left=((ar.x/pw)*100)+"%";link.style.top=((ar.y/ph)*100)+"%";',
+            '      link.style.width=((ar.w/pw)*100).toFixed(2)+"%";link.style.height=((ar.h/ph)*100).toFixed(2)+"%";',
+            '      overlayEl.appendChild(link);',
+            '    }',
+            '    redrawLines();',
+            '    updateCheckButton();',
+            '  }',
+            '',
+            '  function clearSelection(){',
+            '    if(selectedLeft<0)return;',
+            '    var b=leftBtn(selectedLeft);',
+            '    if(b) b.removeAttribute("data-selected");',
+            '    selectedLeft=-1;',
+            '  }',
+            '',
+            '  function onItemClick(side,idx){',
+            '    if(phase!=="fill")return;',
+            '    if(side==="left"){',
+            '      // Tapping a left item with an existing connection: erase the line and start fresh',
+            '      if(connections[idx]>=0){',
+            '        connections[idx]=-1;',
+            '        redrawLines();',
+            '      }',
+            '      // Toggle selection',
+            '      if(selectedLeft===idx){',
+            '        clearSelection();',
+            '      }else{',
+            '        clearSelection();',
+            '        selectedLeft=idx;',
+            '        var b=leftBtn(idx);if(b) b.setAttribute("data-selected","1");',
+            '      }',
+            '      playTone(620,0.05);',
+            '    }else{',
+            '      // Right tap. If no left selected, ignore (or beep).',
+            '      if(selectedLeft<0){playTone(330,0.06);return;}',
+            '      // If this right is already used by another left, free that connection first.',
+            '      for(var i=0;i<connections.length;i++){',
+            '        if(connections[i]===idx){connections[i]=-1;}',
+            '      }',
+            '      connections[selectedLeft]=idx;',
+            '      clearSelection();',
+            '      redrawLines();',
+            '      playTone(660,0.07);',
+            '    }',
+            '    updateCheckButton();',
+            '  }',
+            '',
+            '  function redrawLines(){',
+            '    if(!svgEl)return;',
+            '    while(svgEl.firstChild) svgEl.removeChild(svgEl.firstChild);',
+            '    for(var i=0;i<connections.length;i++){',
+            '      var rIdx=connections[i];if(rIdx<0)continue;',
+            '      var L=leftItems[i],R=rightItems[rIdx];if(!L||!R)continue;',
+            '      var line=document.createElementNS("http://www.w3.org/2000/svg","line");',
+            '      line.setAttribute("x1",L.anchorX);line.setAttribute("y1",L.anchorY);',
+            '      line.setAttribute("x2",R.anchorX);line.setAttribute("y2",R.anchorY);',
+            '      line.setAttribute("stroke","#4E5FE8");',
+            '      line.setAttribute("stroke-width","4");',
+            '      line.setAttribute("data-line-for",String(i));',
+            '      line.setAttribute("opacity","0.92");',
+            '      // Allow tapping the line to undo its connection',
+            '      line.style.pointerEvents="auto";',
+            '      line.style.cursor="pointer";',
+            '      (function(left){',
+            '        line.addEventListener("click",function(e){',
+            '          e.stopPropagation();',
+            '          if(phase!=="fill")return;',
+            '          connections[left]=-1;',
+            '          redrawLines();updateCheckButton();',
+            '          playTone(440,0.05);',
+            '        });',
+            '      })(i);',
+            '      svgEl.appendChild(line);',
+            '    }',
+            '  }',
+            '',
+            '  function updateCheckButton(){',
+            '    if(!checkBtn)return;',
+            '    if(phase!=="fill"){checkBtn.disabled=true;return}',
+            '    var any=connections.some(function(c){return c>=0});',
+            '    checkBtn.disabled=!any;',
+            '  }',
+            '',
+            '  function checkAll(){',
+            '    if(phase!=="fill")return;',
+            '    phase="reviewed";',
+            '    clearSelection();',
+            '    var correct=0;var total=pairs.length;',
+            '    // Walk SVG lines and color each one. Then mark left+right item buttons.',
+            '    var lines=svgEl?svgEl.querySelectorAll("line[data-line-for]"):[];',
+            '    var connectedLeftSet={};',
+            '    for(var k=0;k<lines.length;k++){',
+            '      var ln=lines[k];',
+            '      var li=parseInt(ln.getAttribute("data-line-for"),10);',
+            '      var ri=connections[li];',
+            '      var pair=pairs.find(function(p){return p.leftIndex===li});',
+            '      var ok=(pair&&pair.correctRightIndex===ri);',
+            '      ln.setAttribute("stroke",ok?"#4CAF50":"#E53935");',
+            '      ln.setAttribute("stroke-width","5");',
+            '      ln.style.pointerEvents="none";',
+            '      var lb=leftBtn(li);if(lb){lb.setAttribute("data-status",ok?"correct":"wrong");lb.disabled=true}',
+            '      var rb=rightBtn(ri);if(rb){rb.setAttribute("data-status",ok?"correct":"wrong");rb.disabled=true}',
+            '      connectedLeftSet[li]=true;',
+            '      if(ok) correct++;',
+            '    }',
+            '    // Any left items WITHOUT a connection count as wrong; draw the correct',
+            '    // green dashed line as a hint.',
+            '    pairs.forEach(function(p){',
+            '      if(connectedLeftSet[p.leftIndex])return;',
+            '      var L=leftItems[p.leftIndex];var R=rightItems[p.correctRightIndex];',
+            '      if(!L||!R)return;',
+            '      var hint=document.createElementNS("http://www.w3.org/2000/svg","line");',
+            '      hint.setAttribute("x1",L.anchorX);hint.setAttribute("y1",L.anchorY);',
+            '      hint.setAttribute("x2",R.anchorX);hint.setAttribute("y2",R.anchorY);',
+            '      hint.setAttribute("stroke","#4CAF50");',
+            '      hint.setAttribute("stroke-width","3");',
+            '      hint.setAttribute("stroke-dasharray","8 6");',
+            '      hint.setAttribute("opacity","0.85");',
+            '      svgEl.appendChild(hint);',
+            '      var lb=leftBtn(p.leftIndex);if(lb){lb.setAttribute("data-status","wrong");lb.disabled=true}',
+            '    });',
+            '    // ALSO: pairs whose connection is wrong — draw the correct green dashed.',
+            '    pairs.forEach(function(p){',
+            '      var got=connections[p.leftIndex];',
+            '      if(got<0||got===p.correctRightIndex)return;',
+            '      var L=leftItems[p.leftIndex];var R=rightItems[p.correctRightIndex];',
+            '      if(!L||!R)return;',
+            '      var hint=document.createElementNS("http://www.w3.org/2000/svg","line");',
+            '      hint.setAttribute("x1",L.anchorX);hint.setAttribute("y1",L.anchorY);',
+            '      hint.setAttribute("x2",R.anchorX);hint.setAttribute("y2",R.anchorY);',
+            '      hint.setAttribute("stroke","#4CAF50");',
+            '      hint.setAttribute("stroke-width","3");',
+            '      hint.setAttribute("stroke-dasharray","8 6");',
+            '      hint.setAttribute("opacity","0.7");',
+            '      svgEl.appendChild(hint);',
+            '    });',
+            '    if(checkBtn) checkBtn.hidden=true;',
+            '    if(resetBtn) resetBtn.hidden=false;',
+            '    if(summaryEl){',
+            '      if(correct===total){summaryEl.textContent=T("allCorrect");summaryEl.className="lcs-summary lcs-summary--done"}',
+            '      else{summaryEl.textContent=fmt(T("score"),{n:correct,total:total});summaryEl.className="lcs-summary"}',
+            '    }',
+            '    announce(correct+" of "+total+" correct");',
+            '    if(correct===total){',
+            '      playTone(659.25,0.13);',
+            '      setTimeout(function(){playTone(987.77,0.18)},160);',
+            '      setTimeout(showCelebration,500);',
+            '    }else{',
+            '      playTone(440,0.1);',
+            '    }',
+            '  }',
+            '',
+            '  function wireButtons(){',
+            '    if(checkBtn) checkBtn.addEventListener("click",checkAll);',
+            '    if(resetBtn) resetBtn.addEventListener("click",resetAll);',
+            '  }',
+            '',
+            '  function resetAll(){',
+            '    phase="fill";celebrationShown=false;',
+            '    connections=new Array(leftItems.length).fill(-1);',
+            '    selectedLeft=-1;',
+            '    if(overlayEl){',
+            '      var btns=overlayEl.querySelectorAll(".lcs-item__btn");',
+            '      for(var i=0;i<btns.length;i++){btns[i].removeAttribute("data-selected");btns[i].removeAttribute("data-status");btns[i].disabled=false}',
+            '    }',
+            '    if(svgEl){while(svgEl.firstChild) svgEl.removeChild(svgEl.firstChild)}',
+            '    if(celebrationEl) celebrationEl.classList.remove("lcs-celebration--shown");',
+            '    if(summaryEl){summaryEl.textContent="";summaryEl.className="lcs-summary"}',
+            '    if(checkBtn){checkBtn.hidden=false}',
+            '    if(resetBtn){resetBtn.hidden=true}',
+            '    updateCheckButton();',
+            '  }',
+            '',
+            '  function playTone(freq,dur){',
+            '    if(muted)return;',
+            '    try{',
+            '      if(!audioCtx){var Ctx=window.AudioContext||window.webkitAudioContext;if(!Ctx)return;audioCtx=new Ctx()}',
+            '      if(audioCtx.state==="suspended")audioCtx.resume();',
+            '      var osc=audioCtx.createOscillator();var gain=audioCtx.createGain();',
+            '      osc.type="sine";osc.frequency.value=freq;',
+            '      var now=audioCtx.currentTime;',
+            '      gain.gain.setValueAtTime(0,now);gain.gain.linearRampToValueAtTime(0.14,now+0.012);gain.gain.linearRampToValueAtTime(0,now+dur);',
+            '      osc.connect(gain);gain.connect(audioCtx.destination);',
+            '      osc.start(now);osc.stop(now+dur+0.03);',
+            '    }catch(e){}',
+            '  }',
+            '  function announce(msg){if(liveEl)liveEl.textContent=msg}',
+            '',
+            '  function showCelebration(){',
+            '    if(celebrationShown)return;celebrationShown=true;',
+            '    var total=pairs.length;',
+            '    var stars=3;',
+            '    var starsHTML="";',
+            '    for(var i=1;i<=3;i++){starsHTML+="<span class=\\"lcs-star"+(i<=stars?" lcs-star--filled":"")+"\\">\\u2605</span>"}',
+            '    celebrationEl.innerHTML=',
+            '      "<div class=\\"lcs-celebration__inner\\">"+',
+            '      "<h1 class=\\"lcs-celebration__title\\">"+T("youDidIt")+"</h1>"+',
+            '      "<div class=\\"lcs-stars\\" aria-label=\\""+stars+" out of 3 stars\\">"+starsHTML+"</div>"+',
+            '      "<p class=\\"lcs-celebration__sub\\">"+total+" / "+total+" "+T("correct")+"</p>"+',
+            '      "<img class=\\"lcs-mini\\" alt=\\"Your completed worksheet\\" src=\\""+DECK_BUNDLE.worksheetImage+"\\" />"+',
+            '      "<div class=\\"lcs-celebration__cta\\">"+',
+            '        "<button class=\\"lcs-btn lcs-btn--primary\\" type=\\"button\\" id=\\"lcs-do-another\\">"+T("doAnother")+"</button>"+',
+            '        "<button class=\\"lcs-btn lcs-btn--ghost\\" type=\\"button\\" id=\\"lcs-cel-print\\">"+T("printMyWorksheet")+"</button>"+',
+            '      "</div></div>"+',
+            '      "<div class=\\"lcs-confetti\\" aria-hidden=\\"true\\"></div>";',
+            '    celebrationEl.classList.add("lcs-celebration--shown");',
+            '    document.getElementById("lcs-do-another").addEventListener("click",function(){location.reload()});',
+            '    document.getElementById("lcs-cel-print").addEventListener("click",function(){window.print()});',
+            '    if(!reducedMotion)spawnConfetti();',
+            '  }',
+            '  function spawnConfetti(){',
+            '    var layer=celebrationEl.querySelector(".lcs-confetti");if(!layer)return;',
+            '    var colors=["#4E5FE8","#4CAF50","#FF8A65","#FFC857","#6AB7FF","#B39DDB"];',
+            '    for(var i=0;i<48;i++){',
+            '      var c=document.createElement("span");c.className="lcs-confetti__piece";',
+            '      c.style.left=(Math.random()*100)+"%";',
+            '      c.style.background=colors[i%colors.length];',
+            '      c.style.animationDelay=(Math.random()*0.5)+"s";',
+            '      c.style.animationDuration=(1.8+Math.random()*1.3)+"s";',
+            '      c.style.transform="rotate("+(Math.random()*360)+"deg)";',
+            '      layer.appendChild(c);',
+            '    }',
+            '  }',
+            '',
+            '  function wireMute(){muteBtn.addEventListener("click",function(){muted=!muted;try{localStorage.setItem("lcsMuted",muted?"1":"0")}catch(e){}updateMuteButton()})}',
+            '  function updateMuteButton(){',
+            '    muteBtn.setAttribute("aria-label",muted?T("unmute"):T("mute"));',
+            '    muteBtn.setAttribute("data-muted",muted?"1":"0");',
+            '    muteBtn.innerHTML=muted',
+            '      ? "<svg viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\"><path d=\\"M11 5L6 9H2v6h4l5 4V5z\\"/><line x1=\\"23\\" y1=\\"9\\" x2=\\"17\\" y2=\\"15\\"/><line x1=\\"17\\" y1=\\"9\\" x2=\\"23\\" y2=\\"15\\"/></svg>"',
+            '      : "<svg viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\"><path d=\\"M11 5L6 9H2v6h4l5 4V5z\\"/><path d=\\"M15.54 8.46a5 5 0 0 1 0 7.07\\"/><path d=\\"M19.07 4.93a10 10 0 0 1 0 14.14\\"/></svg>";',
+            '  }',
+            '',
+            '  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);',
+            '  else init();',
+            '})();'
+        ];
+
+        function renderStandaloneHTML(bundle) {
+            var css = INTERACTIVE_CSS_LINES.join('\n');
+            var runtime = INTERACTIVE_RUNTIME_LINES.join('\n');
+            var bundleJSON = JSON.stringify(bundle);
+            var lang = (bundle.contentLanguage || 'en').slice(0, 2);
+            var title = bundle.title || 'Match Up';
+            var parts = [];
+            parts.push('<!DOCTYPE html>');
+            parts.push('<html lang="' + lang + '">');
+            parts.push('<head>');
+            parts.push('<meta charset="UTF-8">');
+            parts.push('<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">');
+            parts.push('<meta name="theme-color" content="#FEFAF3">');
+            parts.push('<title>' + title + '</title>');
+            parts.push('<link rel="preconnect" href="https://fonts.googleapis.com">');
+            parts.push('<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>');
+            parts.push('<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">');
+            parts.push('<style>' + css + '</style>');
+            parts.push('</head>');
+            parts.push('<body>');
+            parts.push('<main id="lcs-app">');
+            parts.push('  <div class="lcs-bar">');
+            parts.push('    <h1 class="lcs-title" id="lcs-title">' + title + '</h1>');
+            parts.push('    <button type="button" id="lcs-mute" class="lcs-mute" aria-label="Mute sounds"></button>');
+            parts.push('  </div>');
+            parts.push('  <div class="lcs-worksheet-wrap">');
+            parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');
+            parts.push('      <img class="lcs-worksheet__img" id="lcs-worksheet-img" alt="" src="' + bundle.worksheetImage + '">');
+            parts.push('      <svg class="lcs-svg" id="lcs-svg" preserveAspectRatio="none" aria-hidden="true"></svg>');
+            parts.push('      <div class="lcs-overlay" id="lcs-overlay"></div>');
+            parts.push('    </div>');
+            parts.push('  </div>');
+            parts.push('</main>');
+            parts.push('<footer class="lcs-footer">');
+            parts.push('  <span id="lcs-summary" class="lcs-summary" aria-live="polite"></span>');
+            parts.push('  <button type="button" id="lcs-check" class="lcs-btn lcs-btn--primary" disabled>Check Answers</button>');
+            parts.push('  <button type="button" id="lcs-reset" class="lcs-btn lcs-btn--ghost" hidden>Try Again</button>');
+            parts.push('</footer>');
+            parts.push('<div class="lcs-celebration" id="lcs-celebration" role="dialog" aria-modal="true" aria-label="All correct!"></div>');
+            parts.push('<div class="lcs-sr" id="lcs-live" role="status" aria-live="polite"></div>');
+            parts.push('<script>var DECK_BUNDLE = ' + bundleJSON + ';<\/script>');
+            parts.push('<script>' + runtime + '<\/script>');
+            parts.push('</body>');
+            parts.push('</html>');
+            return parts.join('\n');
+        }
+
+        async function downloadInteractiveHtml(canvasInstance, fileName, options) {
+            var loadingMode = (options && options.loadingMode) || 'inline';
+            if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
+                showMessage('Please generate a worksheet first.', 'error');
+                return;
+            }
+            showMessage('Preparing ' + fileName + '...', 'info', 0);
+            try {
+                var bundle = await extractDeckBundle(canvasInstance, { loadingMode: loadingMode });
+                if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
+                    throw new Error('Worksheet snapshot is empty.');
+                }
+                if (!bundle.pairs || bundle.pairs.length === 0) {
+                    throw new Error('No matching pairs detected. Regenerate and try again.');
+                }
+                var html = renderStandaloneHTML(bundle);
+                var blob = new Blob([html], { type: 'text/html;charset=utf-8' });
+                var url = URL.createObjectURL(blob);
+                var a = document.createElement('a');
+                a.href = url;
+                a.download = fileName;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+                showMessage('Interactive worksheet downloaded.', 'success');
+            } catch (e) {
+                console.error('[Interactive Export v21.0] Failed:', e);
+                showMessage('Interactive export failed: ' + e.message, 'error');
+            }
+        }
+        // END: Interactive-HTML export v21.0
+
         const clearAll = () => {
             if (worksheetCanvas) worksheetCanvas.clear().setBackgroundColor('#FFFFFF').renderAll();
             if (answerKeyCanvas) answerKeyCanvas.clear().setBackgroundColor('#FFFFFF').renderAll();
@@ -3345,6 +3982,8 @@
             downloadDropdownBtn.disabled = true;
             downloadWsJpegBtn.disabled = true;
             downloadWsPdfBtn.disabled = true;
+            if (downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = true;
+            if (downloadInteractiveHtmlReferenceBtn) downloadInteractiveHtmlReferenceBtn.disabled = true;
             downloadAkJpegBtn.disabled = true;
             downloadAkPdfBtn.disabled = true;
             generateAnswerKeyBtn.disabled = true;
@@ -3596,6 +4235,10 @@
             downloadAkJpegBtn.onclick = () => downloadImageFile(answerKeyCanvas, 'answer_key.jpeg');
             downloadWsPdfBtn.onclick = () => downloadPDF(worksheetCanvas, 'worksheet.pdf');
             downloadAkPdfBtn.onclick = () => downloadPDF(answerKeyCanvas, 'answer_key.pdf');
+            downloadInteractiveHtmlBtn.onclick = () => downloadInteractiveHtml(worksheetCanvas, 'matching_interactive.html', { loadingMode: 'inline' });
+            if (downloadInteractiveHtmlReferenceBtn) {
+                downloadInteractiveHtmlReferenceBtn.onclick = () => downloadInteractiveHtml(worksheetCanvas, 'matching_interactive_catalog.html', { loadingMode: 'reference' });
+            }
             
             menuToggleBtn.addEventListener('click', openMenu);
             menuCloseBtn.addEventListener('click', closeMenu);

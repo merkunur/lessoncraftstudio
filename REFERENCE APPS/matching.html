@@ -2691,50 +2691,11 @@
 
                 worksheetCanvas.renderAll();
 
-                // v21.0 — capture per-item world rects + correct pair mapping
-                // for the interactive bundle. Run AFTER renderAll so setCoords
-                // is up to date. Walk the canvas for the tagged left/right items.
+                // v21.1.0 — defer per-item rect capture to extractDeckBundle so
+                // operator drags/scales of individual left/right items between
+                // Generate and Download are honored. Compute the canvas-independent
+                // correct-pair mapping here and stash on problemsData.
                 try {
-                    const left = [];
-                    const right = [];
-                    worksheetCanvas.getObjects().forEach(o => {
-                        if (!o.isGeneratedItem) return;
-                        if (o.position === 'left' && typeof o.originalIndex === 'number') {
-                            const w = o.getScaledWidth();
-                            const h = o.getScaledHeight();
-                            // originX:'left', originY:'center'
-                            left.push({
-                                index: o.originalIndex,
-                                x: o.left,
-                                y: o.top - h / 2,
-                                w: w,
-                                h: h,
-                                anchorX: o.left + w + 5,
-                                anchorY: o.top
-                            });
-                        } else if (o.position === 'right' && typeof o.originalIndex === 'number') {
-                            const w = o.getScaledWidth();
-                            const h = o.getScaledHeight();
-                            // originX:'center', originY:'center'
-                            right.push({
-                                index: o.originalIndex,
-                                x: o.left - w / 2,
-                                y: o.top - h / 2,
-                                w: w,
-                                h: h,
-                                anchorX: o.left - w / 2 - 5,
-                                anchorY: o.top
-                            });
-                        }
-                    });
-                    left.sort((a, b) => a.index - b.index);
-                    right.sort((a, b) => a.index - b.index);
-                    worksheetCanvas.matchingItemRects = { left: left, right: right };
-
-                    // Compute correct-pair mapping: for each leftIndex, which
-                    // rightIndex is the correct match? Uses reference equality
-                    // between worksheet and answerKey item objects (both come
-                    // from the same basePairs source array — see lines 2658-2660).
                     const wsPairs = pairs;
                     const akPairs = answerKey;
                     const correctMap = wsPairs.map((wp, leftIdx) => {
@@ -2760,7 +2721,7 @@
                         }))
                     };
                 } catch (e) {
-                    console.warn('[matching v21.0] could not capture item rects:', e);
+                    console.warn('[matching v21.1.0] could not capture problemsData:', e);
                 }
 
                 // Required by image-reference.js propagation checklist item 10.
@@ -3461,12 +3422,45 @@
             if (!pd || !Array.isArray(pd.pairs) || pd.pairs.length === 0) {
                 throw new Error('No problemsData on canvas. Generate a worksheet first.');
             }
-            var rects = canvas.matchingItemRects;
-            if (!rects || !Array.isArray(rects.left) || !Array.isArray(rects.right)) {
-                throw new Error('Matching item rects not detected on canvas. Regenerate the worksheet.');
-            }
-            if (rects.left.length !== pd.pairs.length || rects.right.length !== pd.pairs.length) {
-                throw new Error('Item rect count mismatch (left=' + rects.left.length + ', right=' + rects.right.length + ', pairs=' + pd.pairs.length + ').');
+
+            // v21.1.0 — walk the canvas FRESH for each tagged left/right item.
+            // Operator drags or scales of individual items between Generate and
+            // Download are honored. Anchors are derived per-item from the item's
+            // CURRENT scaled bbox (not stored at generate time).
+            var leftItems = [];
+            var rightItems = [];
+            canvas.getObjects().forEach(function (o) {
+                if (!o.isGeneratedItem || typeof o.originalIndex !== 'number') return;
+                var w = o.getScaledWidth();
+                var h = o.getScaledHeight();
+                if (o.position === 'left') {
+                    // originX:'left', originY:'center'
+                    leftItems.push({
+                        index: o.originalIndex,
+                        x: o.left,
+                        y: o.top - h / 2,
+                        w: w,
+                        h: h,
+                        anchorX: o.left + w + 5,
+                        anchorY: o.top
+                    });
+                } else if (o.position === 'right') {
+                    // originX:'center', originY:'center'
+                    rightItems.push({
+                        index: o.originalIndex,
+                        x: o.left - w / 2,
+                        y: o.top - h / 2,
+                        w: w,
+                        h: h,
+                        anchorX: o.left - w / 2 - 5,
+                        anchorY: o.top
+                    });
+                }
+            });
+            leftItems.sort(function (a, b) { return a.index - b.index; });
+            rightItems.sort(function (a, b) { return a.index - b.index; });
+            if (leftItems.length !== pd.pairs.length || rightItems.length !== pd.pairs.length) {
+                throw new Error('Item rect count mismatch (left=' + leftItems.length + ', right=' + rightItems.length + ', pairs=' + pd.pairs.length + '). Regenerate.');
             }
 
             var worksheetImage = await _captureWorksheetImage(canvas);
@@ -3474,7 +3468,7 @@
                 ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
             return {
-                bundleVersion: '21.0.0',
+                bundleVersion: '21.1.0',
                 schemaFormat: 'image-references-v3',
                 loadingMode: loadingMode,
                 appType: 'matching',
@@ -3485,8 +3479,8 @@
                 worksheetImage: worksheetImage,
                 mode: pd.mode,
                 pairs: pd.pairs,
-                leftItems: rects.left,
-                rightItems: rects.right,
+                leftItems: leftItems,
+                rightItems: rightItems,
                 imageRefs: {},
                 attribution: attributionRect ? {
                     text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',

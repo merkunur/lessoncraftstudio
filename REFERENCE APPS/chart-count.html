@@ -2327,39 +2327,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
         worksheetCanvas.renderAll();
 
-        // v20.0 — capture per-cell world rects + problemsData snapshot for the
-        // interactive bundle. Walking the chart group AFTER renderAll guarantees
-        // setCoords() has run and calcTransformMatrix is up to date.
-        try {
-            const chartGroup = worksheetCanvas.getObjects().find(o => o.isWorksheetExercise && o.originalIndex === 1);
-            if (chartGroup && chartGroup._objects) {
-                const m = chartGroup.calcTransformMatrix();
-                const cells = chartGroup._objects.filter(o => o && o.isChartCell === true);
-                const cellRects = cells.map(cell => {
-                    const tl = fabric.util.transformPoint({ x: cell.left, y: cell.top }, m);
-                    const br = fabric.util.transformPoint({ x: cell.left + cell.width, y: cell.top + cell.height }, m);
-                    return {
-                        row: cell.cellRow,
-                        col: cell.cellCol,
-                        x: Math.min(tl.x, br.x),
-                        y: Math.min(tl.y, br.y),
-                        w: Math.abs(br.x - tl.x),
-                        h: Math.abs(br.y - tl.y)
-                    };
-                });
-                worksheetCanvas.chartCellRects = cellRects;
-            }
-            // Snapshot lastGeneratedData so post-generation mutations of the
-            // source data can never bleed into the bundle (find-and-count §19.1.1
-            // bug pattern).
-            if (lastGeneratedData) {
-                worksheetCanvas.problemsData = {
-                    counts: Object.assign({}, lastGeneratedData.counts || {}),
-                    chartImages: (lastGeneratedData.chartImages || []).map(img => Object.assign({}, img))
-                };
-            }
-        } catch (e) {
-            console.warn('[chart-count v20.0] could not capture chart cell rects:', e);
+        // v20.1.0 — defer per-cell world rect capture to extractDeckBundle so
+        // operator edits (drag/scale of the chart group) between Generate and
+        // Download are honored. We still snapshot problemsData here because
+        // counts + chartImages are canvas-independent (find-and-count §19.1.1
+        // bug pattern: prevents post-generation mutations of source data
+        // from bleeding into the bundle).
+        if (lastGeneratedData) {
+            worksheetCanvas.problemsData = {
+                counts: Object.assign({}, lastGeneratedData.counts || {}),
+                chartImages: (lastGeneratedData.chartImages || []).map(img => Object.assign({}, img))
+            };
         }
 
         // Required by image-reference.js propagation checklist item 10.
@@ -2657,9 +2635,34 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!pd || !pd.counts || !pd.chartImages) {
             throw new Error('No problemsData on canvas. Generate a worksheet first.');
         }
-        if (!Array.isArray(canvas.chartCellRects) || canvas.chartCellRects.length !== 30) {
+
+        // v20.1.0 — walk the canvas FRESH for the chart group + per-cell rects.
+        // Previously rects were captured at Generate time and stashed on
+        // canvas.chartCellRects, so operator drags/scales of the chart group
+        // between Generate and Download produced stale overlay positions.
+        var chartGroup = canvas.getObjects().find(function (o) {
+            return o.isWorksheetExercise && o.originalIndex === 1;
+        });
+        if (!chartGroup || !chartGroup._objects) {
             throw new Error('Chart grid not detected on canvas. Regenerate the worksheet.');
         }
+        var m = chartGroup.calcTransformMatrix();
+        var cells = chartGroup._objects.filter(function (o) { return o && o.isChartCell === true; });
+        if (cells.length !== 30) {
+            throw new Error('Chart cell count mismatch (' + cells.length + ', expected 30). Regenerate.');
+        }
+        var chartCells = cells.map(function (cell) {
+            var tl = fabric.util.transformPoint({ x: cell.left, y: cell.top }, m);
+            var br = fabric.util.transformPoint({ x: cell.left + cell.width, y: cell.top + cell.height }, m);
+            return {
+                row: cell.cellRow,
+                col: cell.cellCol,
+                x: Math.min(tl.x, br.x),
+                y: Math.min(tl.y, br.y),
+                w: Math.abs(br.x - tl.x),
+                h: Math.abs(br.y - tl.y)
+            };
+        });
 
         // Build per-column targets (one per chart column).
         var targets = pd.chartImages.map(function (img, col) {
@@ -2675,11 +2678,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 path: img.path,
                 totalCount: pd.counts[word] || 0
             };
-        });
-
-        // Cells from canvas — already in world coords thanks to renderWorksheet.
-        var chartCells = canvas.chartCellRects.map(function (c) {
-            return { row: c.row, col: c.col, x: c.x, y: c.y, w: c.w, h: c.h };
         });
 
         // Build imageRefs map for any column icons that resolve to canonical
@@ -2729,7 +2727,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
         return {
-            bundleVersion: '20.0.0',
+            bundleVersion: '20.1.0',
             schemaFormat: 'image-references-v3',
             loadingMode: loadingMode,
             appType: 'chart-count',

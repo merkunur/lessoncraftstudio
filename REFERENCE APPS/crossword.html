@@ -2482,96 +2482,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
         worksheetCanvas.renderAll();
 
-        // v31.0.1 — capture problemsData for the interactive export. Walk the
-        // canvas recursively for every isCrosswordBlankCell rect (lives inside
-        // the gridGroup) and compute its world rect via calcTransformMatrix —
-        // the matrix composes the parent group's transform, so transformed
-        // corners are true world coords (CLAUDE.md §14.7, mirrors cryptogram v16).
-        try {
-            const grid = worksheetCanvas.getObjects().find(o => o.isCrosswordGrid);
-            if (grid && grid.crosswordMeta) {
-                const meta = grid.crosswordMeta;
-
-                function worldRectOf(rect) {
-                    const m = rect.calcTransformMatrix();
-                    const hw = (rect.width || 1) / 2;
-                    const hh = (rect.height || 1) / 2;
-                    const pts = [
-                        fabric.util.transformPoint({ x: -hw, y: -hh }, m),
-                        fabric.util.transformPoint({ x:  hw, y: -hh }, m),
-                        fabric.util.transformPoint({ x:  hw, y:  hh }, m),
-                        fabric.util.transformPoint({ x: -hw, y:  hh }, m)
-                    ];
-                    const xs = pts.map(p => p.x), ys = pts.map(p => p.y);
-                    const minX = Math.min.apply(null, xs), maxX = Math.max.apply(null, xs);
-                    const minY = Math.min.apply(null, ys), maxY = Math.max.apply(null, ys);
-                    return { x: minX, y: minY, w: maxX - minX, h: maxY - minY };
-                }
-
-                const taggedCells = [];
-                (function walk(objs) {
-                    if (!objs) return;
-                    objs.forEach(function (o) {
-                        if (!o) return;
-                        if (o.isCrosswordBlankCell === true) taggedCells.push(o);
-                        if (o._objects) walk(o._objects);
-                    });
-                })(worksheetCanvas.getObjects());
-
-                const cells = taggedCells.map(o => ({
-                    r: o.crossR,
-                    c: o.crossC,
-                    rect: worldRectOf(o),
-                    correctLetter: String(o.correctLetter || '').toUpperCase(),
-                    number: (o.crossNumber != null) ? o.crossNumber : (meta.numbers[o.crossR + ',' + o.crossC] || null)
-                }));
-
-                // Words: assign each its cell list. clueNum = the placedWord's num.
-                const words = meta.placedWords.map(p => {
-                    const cellsList = [];
-                    for (let k = 0; k < p.word.length; k++) {
-                        const r = p.dir === 'down' ? p.y + k : p.y;
-                        const c = p.dir === 'across' ? p.x + k : p.x;
-                        cellsList.push({ r: r, c: c });
-                    }
-                    return {
-                        id: p.dir + '-' + p.num,
-                        dir: p.dir,
-                        startR: p.y,
-                        startC: p.x,
-                        length: p.word.length,
-                        answer: String(p.word).toUpperCase(),
-                        clueNum: p.num,
-                        cells: cellsList
-                    };
-                });
-
-                // Per-clue world rects.
-                const clueObjs = worksheetCanvas.getObjects().filter(o => o.isCrosswordClue);
-                const clues = meta.clues.map(cl => {
-                    const obj = clueObjs.find(o => o.clueNum === cl.num);
-                    const r = obj ? obj.getBoundingRect(true, true) : null;
-                    return {
-                        num: cl.num,
-                        word: cl.word,
-                        type: cl.type,
-                        path: cl.path,
-                        hint: cl.hint,
-                        name: cl.name,
-                        rect: r ? { x: r.left, y: r.top, w: r.width, h: r.height } : null
-                    };
-                });
-
-                worksheetCanvas.problemsData = {
-                    gridDims: meta.gridDims,
-                    cells: cells,
-                    words: words,
-                    clues: clues
-                };
-            }
-        } catch (e) {
-            console.warn('[crossword v31.0] failed to capture problemsData:', e);
-        }
+        // v31.0.3 — defer per-cell + per-clue rect capture to extractDeckBundle
+        // so any operator edits (move/resize/rotate of the grid or clue groups)
+        // since Generate are honored. Just flag that a grid exists.
+        const grid = worksheetCanvas.getObjects().find(o => o.isCrosswordGrid);
+        worksheetCanvas.problemsData = grid ? { hasGrid: true } : null;
 
         if (typeof downloadInteractiveHtmlBtn !== 'undefined' && downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = false;
         if (typeof downloadInteractiveHtmlReferenceBtn !== 'undefined' && downloadInteractiveHtmlReferenceBtn) downloadInteractiveHtmlReferenceBtn.disabled = false;
@@ -3518,7 +3433,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     
     // ============================================================
-    // Interactive-HTML export v31.0.2 (crossword) — Family A 2D-grid type-and-
+    // Interactive-HTML export v31.0.3 (crossword) — Family A 2D-grid type-and-
     // check. Each baked cell hosts a transparent single-letter input. Standard
     // crossword UX: tap-to-focus, type → auto-advance along the active word,
     // tap a focused cell to toggle direction (when both H+V words exist there),
@@ -3550,15 +3465,98 @@ document.addEventListener("DOMContentLoaded", function() {
 
     async function extractDeckBundle(canvas, options) {
         var loadingMode = (options && options.loadingMode === 'reference') ? 'reference' : 'inline';
-        var pd = canvas.problemsData || null;
-        if (!pd || !Array.isArray(pd.cells) || pd.cells.length === 0) {
-            throw new Error('No problemsData on canvas. Generate a worksheet first.');
+
+        // v31.0.3 — walk the canvas FRESH at download time so any operator
+        // edits (move/scale/rotate of the gridGroup or any clue group) since
+        // Generate are reflected in the bundle.
+        var grid = canvas.getObjects().find(function (o) { return o.isCrosswordGrid; });
+        if (!grid || !grid.crosswordMeta) {
+            throw new Error('No crossword grid on canvas. Generate a worksheet first.');
         }
+        var meta = grid.crosswordMeta;
+
+        function worldRectOf(rect) {
+            var m = rect.calcTransformMatrix();
+            var hw = (rect.width || 1) / 2;
+            var hh = (rect.height || 1) / 2;
+            var pts = [
+                fabric.util.transformPoint({ x: -hw, y: -hh }, m),
+                fabric.util.transformPoint({ x:  hw, y: -hh }, m),
+                fabric.util.transformPoint({ x:  hw, y:  hh }, m),
+                fabric.util.transformPoint({ x: -hw, y:  hh }, m)
+            ];
+            var xs = pts.map(function (p) { return p.x; });
+            var ys = pts.map(function (p) { return p.y; });
+            var minX = Math.min.apply(null, xs), maxX = Math.max.apply(null, xs);
+            var minY = Math.min.apply(null, ys), maxY = Math.max.apply(null, ys);
+            return { x: minX, y: minY, w: maxX - minX, h: maxY - minY };
+        }
+
+        var taggedCells = [];
+        (function walk(objs) {
+            if (!objs) return;
+            objs.forEach(function (o) {
+                if (!o) return;
+                if (o.isCrosswordBlankCell === true) taggedCells.push(o);
+                if (o._objects) walk(o._objects);
+            });
+        })(canvas.getObjects());
+
+        var cells = taggedCells.map(function (o) {
+            return {
+                r: o.crossR,
+                c: o.crossC,
+                rect: worldRectOf(o),
+                correctLetter: String(o.correctLetter || '').toUpperCase(),
+                number: (o.crossNumber != null) ? o.crossNumber : (meta.numbers[o.crossR + ',' + o.crossC] || null)
+            };
+        });
+
+        if (!cells.length) {
+            throw new Error('No crossword cells found on canvas. Generate a worksheet first.');
+        }
+
+        // Words are canvas-independent (logical grid coords).
+        var words = meta.placedWords.map(function (p) {
+            var cellsList = [];
+            for (var k = 0; k < p.word.length; k++) {
+                var r = p.dir === 'down' ? p.y + k : p.y;
+                var c = p.dir === 'across' ? p.x + k : p.x;
+                cellsList.push({ r: r, c: c });
+            }
+            return {
+                id: p.dir + '-' + p.num,
+                dir: p.dir,
+                startR: p.y,
+                startC: p.x,
+                length: p.word.length,
+                answer: String(p.word).toUpperCase(),
+                clueNum: p.num,
+                cells: cellsList
+            };
+        });
+
+        // Per-clue world rects fresh.
+        var clueObjs = canvas.getObjects().filter(function (o) { return o.isCrosswordClue; });
+        var clues = meta.clues.map(function (cl) {
+            var obj = clueObjs.find(function (o) { return o.clueNum === cl.num; });
+            var r = obj ? obj.getBoundingRect(true, true) : null;
+            return {
+                num: cl.num,
+                word: cl.word,
+                type: cl.type,
+                path: cl.path,
+                hint: cl.hint,
+                name: cl.name,
+                rect: r ? { x: r.left, y: r.top, w: r.width, h: r.height } : null
+            };
+        });
+
         var worksheetImage = await _captureWorksheetImage(canvas);
         var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
             ? LCSAttribution.getRectFromCanvas(canvas) : null;
         return {
-            bundleVersion: '31.0.2',
+            bundleVersion: '31.0.3',
             schemaFormat: 'image-references-v3',
             loadingMode: loadingMode,
             appType: 'crossword',
@@ -3568,10 +3566,10 @@ document.addEventListener("DOMContentLoaded", function() {
             page: { width: currentCanvasConfig.width, height: currentCanvasConfig.height },
             worksheetImage: worksheetImage,
             scoring: 'strict-per-cell',
-            gridDims: pd.gridDims,
-            cells: pd.cells,
-            words: pd.words,
-            clues: pd.clues,
+            gridDims: meta.gridDims,
+            cells: cells,
+            words: words,
+            clues: clues,
             imageRefs: {},
             attribution: attributionRect ? {
                 text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
@@ -3827,7 +3825,7 @@ document.addEventListener("DOMContentLoaded", function() {
         '',
         '  function onCellInput(r,c,inp){',
         '    if(phase!=="fill"){ inp.value=""; return; }',
-        '    var v=(inp.value||"").replace(/[^A-Za-z]/g,"").toUpperCase();',
+        '    var v=(inp.value||"").replace(/[^\\p{L}]/gu,"").toUpperCase();',
         '    v=v.slice(-1); // last char only',
         '    inp.value=v;',
         '    if(v){ values[r+","+c]=v; advanceCursor(); }',
@@ -4125,7 +4123,7 @@ document.addEventListener("DOMContentLoaded", function() {
             showMessage('Interactive export failed: ' + e.message, 'error');
         }
     }
-    // END: Interactive-HTML export v31.0.2
+    // END: Interactive-HTML export v31.0.3
 
     async function getCanvasDataURLWithOptions(canvasInstance, exportOpts) {
         let dataURL = canvasInstance.toDataURL({ format: 'jpeg', quality: 1.0, multiplier: exportOpts.multiplier });

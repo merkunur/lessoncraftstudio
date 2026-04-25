@@ -3,6 +3,7 @@
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
+    <script src="/worksheet-generators/js/image-reference.js?v=1"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1356,6 +1357,7 @@
                         <button id="downloadAkPdfBtn" disabled data-translate="pattern.train.download.answer.pdf">Answer Key (PDF)</button>
                         <hr style="margin: 6px 0; border-color: #eee;">
                         <button id="downloadInteractiveHtmlBtn" disabled data-translate="pattern.train.download.interactive.html">Interactive Worksheet (HTML)</button>
+                        <button id="downloadInteractiveHtmlReferenceBtn" disabled title="For server-hosted catalog playback. Smaller file, requires the same site to host the WebP library.">Interactive Worksheet (Catalog/URL refs)</button>
                         <hr style="margin: 6px 0; border-color: #eee;">
                         <label class="checkbox-label" id="grayscaleLabel">
                             <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
@@ -1532,6 +1534,7 @@
     const downloadWsPdfBtn = document.getElementById('downloadWsPdfBtn');
     const downloadAkPdfBtn = document.getElementById('downloadAkPdfBtn');
     const downloadInteractiveHtmlBtn = document.getElementById('downloadInteractiveHtmlBtn');
+    const downloadInteractiveHtmlReferenceBtn = document.getElementById('downloadInteractiveHtmlReferenceBtn');
     const generateDropdownContent = document.getElementById('generateDropdownContent');
 
     // Toolbar References
@@ -1578,6 +1581,7 @@
         downloadWsJpegBtn.disabled = !isGenerated;
         downloadWsPdfBtn.disabled = !isGenerated;
         downloadInteractiveHtmlBtn.disabled = !isGenerated;
+        if (downloadInteractiveHtmlReferenceBtn) downloadInteractiveHtmlReferenceBtn.disabled = !isGenerated;
 
         // Enable answer key generation button when worksheet is generated
         generateAnswerKeyBtn.disabled = !isGenerated;
@@ -1703,7 +1707,8 @@
         downloadAkJpegBtn.addEventListener("click", () => downloadImageFile(answerKeyCanvas, 'answer_key'));
         downloadWsPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet'));
         downloadAkPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'answer_key'));
-        downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'pattern-train_interactive.html'));
+        downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'pattern-train_interactive.html', { loadingMode: 'inline' }));
+        if (downloadInteractiveHtmlReferenceBtn) downloadInteractiveHtmlReferenceBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'pattern-train_interactive_reference.html', { loadingMode: 'reference' }));
     }
     
     function updateCanvasDisplayDimensions(width, height, fromLoad = false) {
@@ -3136,6 +3141,8 @@
       await buildWorksheetOnCanvas();
       await buildAnswerKeyOnCanvas();
       updateDownloadButtonsState(true);
+      // Required by image-reference.js propagation checklist item 10.
+      window.__lcsGenerationCounter = (window.__lcsGenerationCounter || 0) + 1;
       document.querySelector('.tab-button[data-tab="worksheetTab"]').click();
     });
 
@@ -3230,6 +3237,16 @@
                 objectCaching: false,
                 isTrainTemplate: true
             });
+            // v11.3 — stamp generate-time transform so extractDeckBundle can
+            // derive wagon marker world rects from the train's CURRENT transform
+            // if the operator drags or scales the train between Generate and
+            // Download. (Same fix as alphabet-train v10.3.0.)
+            trainBgImg.trainGenLeft = trainCenterX;
+            trainBgImg.trainGenTop = trainCenterY;
+            trainBgImg.trainGenScaleX = trainBgImg.scaleX;
+            trainBgImg.trainGenScaleY = trainBgImg.scaleY;
+            trainBgImg.trainGenWidth = trainBgImg.width;
+            trainBgImg.trainGenHeight = trainBgImg.height;
 
             const masterElements = [trainBgImg];
             const cutoutElements = [];
@@ -4004,7 +4021,8 @@ async function downloadPDF(canvasToExport, baseFilename) {
         }
     }
 
-    async function extractDeckBundle(canvas) {
+    async function extractDeckBundle(canvas, options) {
+        var loadingMode = (options && options.loadingMode === 'reference') ? 'reference' : 'inline';
         var found = _collectTaggedItems(canvas);
         // Sort wagons by wagonLetter so A/B/C symbols group together —
         // pattern-train can repeat the same symbol across multiple
@@ -4013,16 +4031,41 @@ async function downloadPDF(canvasToExport, baseFilename) {
             return String(a.wagonLetter || '').localeCompare(String(b.wagonLetter || ''));
         });
 
+        // v11.3 — derive each empty-wagon's CURRENT world rect from the train's
+        // current transform. Wagon markers are invisible and don't move with
+        // the train when the operator drags or scales it; this back-computes
+        // where the visible wagon outlines NOW are by applying the train's
+        // (translation + scale) delta to the wagon's stored generate-time
+        // top-left position. Falls back to the wagon's own bbox if the
+        // trainGen* stamp is missing (older worksheet from before v11.3).
+        var trainBg = canvas.getObjects().find(function (o) { return o.isTrainTemplate; });
+        function wagonWorldRect(wagon) {
+            if (!trainBg || trainBg.trainGenLeft == null) return _worldRectBounds(wagon);
+            var sx = trainBg.scaleX / trainBg.trainGenScaleX;
+            var sy = trainBg.scaleY / trainBg.trainGenScaleY;
+            var trainGenTLX = trainBg.trainGenLeft - trainBg.trainGenWidth * trainBg.trainGenScaleX / 2;
+            var trainGenTLY = trainBg.trainGenTop - trainBg.trainGenHeight * trainBg.trainGenScaleY / 2;
+            var trainNowTLX = trainBg.left - trainBg.width * trainBg.scaleX / 2;
+            var trainNowTLY = trainBg.top - trainBg.height * trainBg.scaleY / 2;
+            var newLeft = trainNowTLX + (wagon.left - trainGenTLX) * sx;
+            var newTop  = trainNowTLY + (wagon.top  - trainGenTLY) * sy;
+            var newW = (wagon.width  || 1) * sx;
+            var newH = (wagon.height || 1) * sy;
+            return { x: newLeft + newW / 2, y: newTop + newH / 2, w: newW, h: newH };
+        }
+
         var cells = found.wagons.map(function (w, i) {
             return {
                 cellIndex: i,
-                rect: _worldRectBounds(w),
+                rect: wagonWorldRect(w),
                 operationText: '',
                 expectedNumber: String(w.wagonLetter || '')
             };
         });
 
-        var pieces = found.cutouts.map(function (c, i) {
+        // v11.2 — compress each cutout snapshot to WebP q85 in browser (see
+        // alphabet-train v10.2 for rationale). Same per-piece ratio.
+        var rawPieces = found.cutouts.map(function (c, i) {
             return {
                 pieceIndex: i,
                 number: String(c.cutoutLetter || ''),
@@ -4030,6 +4073,16 @@ async function downloadPDF(canvasToExport, baseFilename) {
                 initialRect: _worldRectBounds(c)
             };
         }).filter(function (p) { return p.imgDataUrl && p.number; });
+        var pieces;
+        if (window.LCSImageRef && typeof LCSImageRef.compressPNGToWebP === 'function') {
+            pieces = await Promise.all(rawPieces.map(function (p) {
+                return LCSImageRef.compressPNGToWebP(p.imgDataUrl, 0.85).then(function (webpURL) {
+                    return { pieceIndex: p.pieceIndex, number: p.number, imgDataUrl: webpURL, initialRect: p.initialRect };
+                });
+            }));
+        } else {
+            pieces = rawPieces;
+        }
 
         var clueBadges = found.clues.map(function (c) {
             var b = _worldRectBounds(c);
@@ -4039,13 +4092,46 @@ async function downloadPDF(canvasToExport, baseFilename) {
             };
         }).filter(function (b) { return b.letter; });
 
+        // v11.1 — collect each clue wagon's library image as an ImagePlacement
+        // (same pattern as alphabet-train v10.1).
+        var imagePlacements = [];
+        if (window.LCSImageRef) {
+            found.clues.forEach(function (clue) {
+                var src = (clue._element && clue._element.src) || clue.src || null;
+                var parsed = src ? LCSImageRef.parseImagePath(src) : null;
+                if (!parsed) return;
+                var b = _worldRectBounds(clue);
+                imagePlacements.push({ key: parsed.key, theme: parsed.theme, rect: b });
+            });
+        }
+        var imageRefs = {};
+        if (window.LCSImageRef && imagePlacements.length) {
+            var uniqueKeys = {};
+            imagePlacements.forEach(function (p) { uniqueKeys[p.theme + '/' + p.key] = p; });
+            var pairs = Object.keys(uniqueKeys).map(function (k) { return uniqueKeys[k]; });
+            var resolver = (loadingMode === 'reference')
+                ? LCSImageRef.referenceVariants
+                : LCSImageRef.inlineVariants;
+            var loaded = await Promise.all(pairs.map(function (ref) {
+                return resolver(ref.key, ref.theme).then(function (variants) {
+                    return { key: ref.key, theme: ref.theme, variants: variants };
+                });
+            }));
+            loaded.forEach(function (entry) {
+                imageRefs[entry.theme + '/' + entry.key] = { variants: entry.variants };
+            });
+        }
+
         var worksheetImage = await _captureWorksheetImage(canvas);
 
         var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
             ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
         return {
-            bundleVersion: '11.0.0',
+            bundleVersion: '11.3.0',
+            schemaFormat: 'image-references-v3',
+            loadingMode: loadingMode,
+            snapshotMode: 'inline',
             appType: 'pattern-train',
             createdAt: new Date().toISOString(),
             contentLanguage: (window.currentLocale || 'en'),
@@ -4058,6 +4144,8 @@ async function downloadPDF(canvasToExport, baseFilename) {
             grid: { rows: 1, cols: cells.length, cells: cells },
             pieces: pieces,
             clueBadges: clueBadges,
+            imagePlacements: imagePlacements,
+            imageRefs: imageRefs,
             attribution: attributionRect ? {
                 text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
                 url: (window.LCSAttribution && LCSAttribution.URL) || 'https://lessoncraftstudio.com',
@@ -4128,6 +4216,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
         '@keyframes lcs-fall{to{transform:translateY(620px) rotate(540deg);opacity:0}}',
         '.lcs-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}',
         '.lcs-attrib-link{position:absolute;transform:translate(-50%,-50%);pointer-events:auto;cursor:pointer;background:transparent;text-decoration:none;border-radius:4px;outline:none}',
+        '.lcs-img-overlay{position:absolute;pointer-events:none;user-select:none;-webkit-user-drag:none;z-index:1}',
         '.lcs-attrib-link:focus-visible{outline:2px solid #4E5FE8;outline-offset:2px}',
         '.lcs-attrib-link:hover{background:rgba(78,95,232,.08)}',
         '@media (prefers-reduced-motion:reduce){',
@@ -4162,6 +4251,12 @@ async function downloadPDF(canvasToExport, baseFilename) {
         '  var titleEl,progressEl,overlayEl,muteBtn,celebrationEl,liveEl,imgEl,checkBtn,resetBtn,summaryEl,worksheetEl;',
         '  var activeDrag=null;',
         '',
+        '  // v11.1 — variant-selection helpers (mirrors addition v5.1)',
+        '  function pickVariant(w,dpr){var eff=(w||0)*(dpr||1);if(eff<=512)return"1x";if(eff<=1024)return"2x";return"3x";}',
+        '  function getImageURL(b,th,k,v){if(!b||!b.imageRefs)return null;var e=b.imageRefs[th+"/"+k];if(!e||!e.variants)return null;return e.variants[v]||e.variants["2x"]||e.variants["1x"]||e.variants["3x"]||null;}',
+        '  function updateOverlayVariant(img,ref){var rect=img.getBoundingClientRect();if(!rect||rect.width<=0)return;var v=pickVariant(rect.width,window.devicePixelRatio||1);if(img.dataset.variant===v)return;var url=getImageURL(DECK_BUNDLE,ref.theme,ref.key,v);if(url){img.dataset.variant=v;img.src=url;}}',
+        '  function refreshAllVariants(){if(!overlayEl)return;var imgs=overlayEl.querySelectorAll("img.lcs-img-overlay");for(var i=0;i<imgs.length;i++){var img=imgs[i];var k=img.getAttribute("data-image-ref")||"";var p=k.indexOf("/");if(p<0)continue;updateOverlayVariant(img,{theme:k.slice(0,p),key:k.slice(p+1)});}}',
+        '',
         '  function init(){',
         '    titleEl=document.getElementById("lcs-title");',
         '    progressEl=document.getElementById("lcs-progress");',
@@ -4181,6 +4276,8 @@ async function downloadPDF(canvasToExport, baseFilename) {
         '    wireMute();',
         '    updateMuteButton();',
         '    wireButtons();',
+        '    if(window.ResizeObserver&&overlayEl){try{new ResizeObserver(refreshAllVariants).observe(overlayEl);}catch(e){}}',
+        '    window.__lcsRefreshOverlayVariants=refreshAllVariants;',
         '  }',
         '',
         '  function renderProgress(){',
@@ -4208,6 +4305,20 @@ async function downloadPDF(canvasToExport, baseFilename) {
         '  function renderWorksheet(){',
         '    overlayEl.innerHTML="";',
         '    overlayEl.classList.remove("lcs-overlay--reviewed");',
+        '    var placements=DECK_BUNDLE.imagePlacements||[];',
+        '    for(var ipi=0;ipi<placements.length;ipi++){',
+        '      var ref=placements[ipi];',
+        '      if(!ref||!ref.rect)continue;',
+        '      var img=document.createElement("img");',
+        '      img.className="lcs-img-overlay";img.alt="";',
+        '      img.setAttribute("data-image-ref",ref.theme+"/"+ref.key);',
+        '      img.style.left=(((ref.rect.x-ref.rect.w/2)/pw)*100).toFixed(3)+"%";',
+        '      img.style.top=(((ref.rect.y-ref.rect.h/2)/ph)*100).toFixed(3)+"%";',
+        '      img.style.width=((ref.rect.w/pw)*100).toFixed(3)+"%";',
+        '      img.style.height=((ref.rect.h/ph)*100).toFixed(3)+"%";',
+        '      overlayEl.appendChild(img);',
+        '      updateOverlayVariant(img,ref);',
+        '    }',
         '    cells.forEach(function(c,i){',
         '      var el=document.createElement("div");',
         '      el.className="lcs-cell";',
@@ -4608,14 +4719,15 @@ async function downloadPDF(canvasToExport, baseFilename) {
         return parts.join('\n');
     }
 
-    async function downloadInteractiveHtml(canvasInstance, fileName) {
+    async function downloadInteractiveHtml(canvasInstance, fileName, options) {
+        var loadingMode = (options && options.loadingMode) || 'inline';
         if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
             showMessage(t('pattern.train.msg.generate.first') || 'Please generate a worksheet first.', 'error');
             return;
         }
         showMessage('Preparing ' + fileName + '...', 'info', 0);
         try {
-            var bundle = await extractDeckBundle(canvasInstance);
+            var bundle = await extractDeckBundle(canvasInstance, { loadingMode: loadingMode });
             if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
                 throw new Error('Worksheet snapshot is empty.');
             }

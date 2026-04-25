@@ -867,8 +867,20 @@
             <label for="leftCategoryThemeSelect" data-translate="picture.sort.left.category.theme">Left Category Theme</label>
             <select id="leftCategoryThemeSelect"></select>
 
-            <label for="rightCategoryThemeSelect" data-translate="picture.sort.right.category.theme">Right Category Theme</label>
+            <div id="leftCustomWordsSection" class="custom-words-section" style="display:none; margin-top:8px;">
+                <label for="leftCustomWordsInput">Left custom words (one per line, 2&ndash;10):</label>
+                <textarea id="leftCustomWordsInput" rows="5" placeholder="cat&#10;dog&#10;fox" style="width:100%; font-family:inherit; font-size:13px; padding:6px; box-sizing:border-box; resize:vertical;"></textarea>
+                <div id="leftCustomWordsCount" style="font-size:11px; color:var(--app-text-secondary-dark-theme); margin-top:2px;">0 words</div>
+            </div>
+
+            <label for="rightCategoryThemeSelect" data-translate="picture.sort.right.category.theme" style="margin-top:10px; display:block;">Right Category Theme</label>
             <select id="rightCategoryThemeSelect"></select>
+
+            <div id="rightCustomWordsSection" class="custom-words-section" style="display:none; margin-top:8px;">
+                <label for="rightCustomWordsInput">Right custom words (one per line, 2&ndash;10):</label>
+                <textarea id="rightCustomWordsInput" rows="5" placeholder="apple&#10;bread&#10;cheese" style="width:100%; font-family:inherit; font-size:13px; padding:6px; box-sizing:border-box; resize:vertical;"></textarea>
+                <div id="rightCustomWordsCount" style="font-size:11px; color:var(--app-text-secondary-dark-theme); margin-top:2px;">0 words</div>
+            </div>
         </div>
       </div>
       
@@ -1235,6 +1247,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let worksheetCutoutCellSize = 0; // To store cell size for answer key consistency
     const downloadMultiplier = 6;
     const MANUAL_MODE_VALUE = 'manual';
+    const CUSTOM_MODE_VALUE = 'custom';
     const MAX_TOTAL_IMAGES = 12;
     const MIN_TOTAL_IMAGES = 4;  // Minimum total images (2 per category * 2 categories)
     const MIN_PER_CATEGORY = 2;
@@ -1245,6 +1258,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- DOM ELEMENT REFERENCES ---
     const leftCategoryThemeSelect = document.getElementById('leftCategoryThemeSelect');
     const rightCategoryThemeSelect = document.getElementById('rightCategoryThemeSelect');
+    const leftCustomWordsSection = document.getElementById('leftCustomWordsSection');
+    const rightCustomWordsSection = document.getElementById('rightCustomWordsSection');
+    const leftCustomWordsInput = document.getElementById('leftCustomWordsInput');
+    const rightCustomWordsInput = document.getElementById('rightCustomWordsInput');
+    const leftCustomWordsCount = document.getElementById('leftCustomWordsCount');
+    const rightCustomWordsCount = document.getElementById('rightCustomWordsCount');
     const countInfo = document.getElementById('countInfo');
     const themeSelect = document.getElementById('themeSelect');
     const searchInput = document.getElementById('searchInput');
@@ -1775,7 +1794,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 downloadInteractiveHtml(worksheetCanvas, 'picture_sort_interactive_catalog.html', { loadingMode: 'reference' }));
         }
 
-        [leftCategoryThemeSelect, rightCategoryThemeSelect].forEach(el => el.addEventListener('change', updateButtonState));
+        [leftCategoryThemeSelect, rightCategoryThemeSelect].forEach(el => el.addEventListener('change', () => {
+            syncCustomWordsVisibility();
+            updateButtonState();
+        }));
+        [leftCustomWordsInput, rightCustomWordsInput].forEach(el => el && el.addEventListener('input', updateButtonState));
         themeSelect.addEventListener('change', handleThemeChange);
         searchInput.addEventListener('input', () => debounce(renderDictionary, 300));
         imageUploadInput.addEventListener('change', handleImageUpload);
@@ -1848,8 +1871,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const themes = await fetch(`/api/themes-translated?locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
             imageCache.themes = themes;
             const manualOpt = `<option value="${MANUAL_MODE_VALUE}">${t('picture.sort.manual.selection')}</option>`;
-            leftCategoryThemeSelect.innerHTML = manualOpt;
-            rightCategoryThemeSelect.innerHTML = manualOpt;
+            const customOpt = `<option value="${CUSTOM_MODE_VALUE}">Custom Words</option>`;
+            leftCategoryThemeSelect.innerHTML = manualOpt + customOpt;
+            rightCategoryThemeSelect.innerHTML = manualOpt + customOpt;
 
             // Get translated "All Themes" text
             const allThemesText = t('picture.sort.themes.all');
@@ -2008,16 +2032,52 @@ document.addEventListener('DOMContentLoaded', () => {
         updateButtonState();
     }
 
+    // --- Per-side mode resolution (theme | manual | custom) ---
+    function modeOf(selectValue) {
+        if (selectValue === MANUAL_MODE_VALUE) return 'manual';
+        if (selectValue === CUSTOM_MODE_VALUE) return 'custom';
+        return 'theme';
+    }
+
+    function parseCustomWords(text) {
+        if (!text) return [];
+        return text.split(/\r?\n/).map(s => s.trim()).filter(s => s.length > 0).slice(0, MAX_PER_CATEGORY);
+    }
+
+    function syncCustomWordsVisibility() {
+        if (leftCustomWordsSection) leftCustomWordsSection.style.display = (modeOf(leftCategoryThemeSelect.value) === 'custom') ? '' : 'none';
+        if (rightCustomWordsSection) rightCustomWordsSection.style.display = (modeOf(rightCategoryThemeSelect.value) === 'custom') ? '' : 'none';
+    }
+
     function updateButtonState() {
-        const isThemeMode = leftCategoryThemeSelect.value !== MANUAL_MODE_VALUE && rightCategoryThemeSelect.value !== MANUAL_MODE_VALUE;
-        const leftCount = categorizedSelections.filter(i => i.category === 'left').length;
-        const rightCount = categorizedSelections.filter(i => i.category === 'right').length;
-        const totalCount = categorizedSelections.length;
-        countInfo.textContent = t('picture.sort.count.format', {left: leftCount, right: rightCount, total: totalCount, max: MAX_TOTAL_IMAGES});
-        const isManualModeValid = totalCount >= MIN_TOTAL_IMAGES && totalCount <= MAX_TOTAL_IMAGES &&
-                                  leftCount >= MIN_PER_CATEGORY && leftCount <= MAX_PER_CATEGORY &&
-                                  rightCount >= MIN_PER_CATEGORY && rightCount <= MAX_PER_CATEGORY;
-        generateDropdownBtn.disabled = !(isThemeMode || isManualModeValid);
+        const leftMode = modeOf(leftCategoryThemeSelect.value);
+        const rightMode = modeOf(rightCategoryThemeSelect.value);
+
+        // Live word counts on each custom-words textarea.
+        const leftWordsCount = (leftMode === 'custom') ? parseCustomWords(leftCustomWordsInput && leftCustomWordsInput.value).length : 0;
+        const rightWordsCount = (rightMode === 'custom') ? parseCustomWords(rightCustomWordsInput && rightCustomWordsInput.value).length : 0;
+        if (leftCustomWordsCount) leftCustomWordsCount.textContent = leftWordsCount + ' word' + (leftWordsCount === 1 ? '' : 's');
+        if (rightCustomWordsCount) rightCustomWordsCount.textContent = rightWordsCount + ' word' + (rightWordsCount === 1 ? '' : 's');
+
+        // Manual-mode counts (only used when a side is in manual mode).
+        const leftManualCount = categorizedSelections.filter(i => i.category === 'left').length;
+        const rightManualCount = categorizedSelections.filter(i => i.category === 'right').length;
+        countInfo.textContent = t('picture.sort.count.format', {left: leftManualCount, right: rightManualCount, total: leftManualCount + rightManualCount, max: MAX_TOTAL_IMAGES});
+
+        // Per-side validation.
+        function sideOk(mode, side) {
+            if (mode === 'theme') return true; // server fetch decides counts
+            if (mode === 'manual') {
+                const c = (side === 'left') ? leftManualCount : rightManualCount;
+                return c >= MIN_PER_CATEGORY && c <= MAX_PER_CATEGORY;
+            }
+            if (mode === 'custom') {
+                const c = (side === 'left') ? leftWordsCount : rightWordsCount;
+                return c >= MIN_PER_CATEGORY && c <= MAX_PER_CATEGORY;
+            }
+            return false;
+        }
+        generateDropdownBtn.disabled = !(sideOk(leftMode, 'left') && sideOk(rightMode, 'right'));
     }
     
     // --- WORKSHEET GENERATION LOGIC ---
@@ -2045,28 +2105,40 @@ document.addEventListener('DOMContentLoaded', () => {
         switchTab(document.querySelector('.tab-button[data-tab="solutionTab"]'));
     }
 
-    async function buildSortData() {
-        const isThemeMode = leftCategoryThemeSelect.value !== MANUAL_MODE_VALUE && rightCategoryThemeSelect.value !== MANUAL_MODE_VALUE;
-        let finalSelections = [];
-        if (isThemeMode) {
-            showMessage('info', t('picture.sort.msg.generating.themes'), 0);
-            try {
-                const leftData = await fetch(`/api/images?theme=${encodeURIComponent(leftCategoryThemeSelect.value)}&locale=${currentLocale}`).then(res => res.json());
-                const rightData = await fetch(`/api/images?theme=${encodeURIComponent(rightCategoryThemeSelect.value)}&locale=${currentLocale}`).then(res => res.json());
-                const leftThemeImages = leftData.images || leftData;
-                const rightThemeImages = rightData.images || rightData;
-                if (leftThemeImages.length < THEME_MIN_IMAGES) throw new Error(t('picture.sort.msg.theme.insufficient', {theme: leftCategoryThemeSelect.options[leftCategoryThemeSelect.selectedIndex].text, min: THEME_MIN_IMAGES}));
-                if (rightThemeImages.length < THEME_MIN_IMAGES) throw new Error(t('picture.sort.msg.theme.insufficient', {theme: rightCategoryThemeSelect.options[rightCategoryThemeSelect.selectedIndex].text, min: THEME_MIN_IMAGES}));
-                const leftSet = getRandomElements(leftThemeImages, THEME_MIN_IMAGES, THEME_MAX_IMAGES).map(img => ({...img, category: 'left'}));
-                const rightSet = getRandomElements(rightThemeImages, THEME_MIN_IMAGES, THEME_MAX_IMAGES).map(img => ({...img, category: 'right'}));
-                finalSelections = [...leftSet, ...rightSet];
-            } catch (e) {
-                showMessage('error', e.message);
-                return null;
+    async function getItemsForSide(side) {
+        const selectEl = (side === 'left') ? leftCategoryThemeSelect : rightCategoryThemeSelect;
+        const mode = modeOf(selectEl.value);
+        if (mode === 'theme') {
+            const data = await fetch(`/api/images?theme=${encodeURIComponent(selectEl.value)}&locale=${currentLocale}`).then(res => res.json());
+            const images = data.images || data;
+            if (images.length < THEME_MIN_IMAGES) {
+                throw new Error(t('picture.sort.msg.theme.insufficient', {theme: selectEl.options[selectEl.selectedIndex].text, min: THEME_MIN_IMAGES}));
             }
-        } else {
-            finalSelections = [...categorizedSelections];
+            return getRandomElements(images, THEME_MIN_IMAGES, THEME_MAX_IMAGES);
         }
+        if (mode === 'manual') {
+            return categorizedSelections.filter(i => i.category === side).map(i => ({ ...i }));
+        }
+        // custom: text-only tiles built from the textarea word list
+        const textareaEl = (side === 'left') ? leftCustomWordsInput : rightCustomWordsInput;
+        const words = parseCustomWords(textareaEl && textareaEl.value);
+        return words.map(w => ({ isText: true, text: w, name: w, dictionaryKey: w }));
+    }
+
+    async function buildSortData() {
+        showMessage('info', t('picture.sort.msg.generating.themes'), 0);
+        let leftItems, rightItems;
+        try {
+            leftItems = await getItemsForSide('left');
+            rightItems = await getItemsForSide('right');
+        } catch (e) {
+            showMessage('error', e.message);
+            return null;
+        }
+        const finalSelections = [
+            ...leftItems.map(i => ({ ...i, category: 'left' })),
+            ...rightItems.map(i => ({ ...i, category: 'right' }))
+        ];
         return {
             leftImages: finalSelections.filter(i => i.category === 'left'),
             rightImages: finalSelections.filter(i => i.category === 'right'),
@@ -2392,34 +2464,51 @@ document.addEventListener('DOMContentLoaded', () => {
         const gridItemPromises = images.map((imgData, i) => {
             const r = Math.floor(i / cols);
             const c = i % cols;
+            const cellLeft = startX + c * (cellSize + gap);
+            const cellTop = startY + r * (cellSize + gap);
+            const cell = new fabric.Rect({
+                width: cellSize, height: cellSize, fill: 'white', stroke: '#666',
+                strokeWidth: 1.5, strokeDashArray: [4, 4], originX: 'center', originY: 'center',
+                rx: 4, ry: 4
+            });
+            const groupOpts = {
+                left: cellLeft, top: cellTop,
+                selectable: true, evented: true, isGeneratedItem: true, originalIndex: i,
+                isImageToSort: true,
+                correctCategory: imgData.category,
+                sourcePath: imgData.path || null,
+                sourceName: imgData.dictionaryKey || imgData.name || imgData.text || '',
+                cornerColor: 'var(--app-accent-primary)', borderColor: 'var(--app-accent-primary)',
+                cornerSize: Math.min(8, cellSize * 0.15), transparentCorners: false, cornerStyle: 'circle'
+            };
+
+            if (imgData.isText) {
+                // Text-only tile: render the word centered in the cell, shrink-to-fit.
+                const word = String(imgData.text || '');
+                const textboxWidth = cellSize * 0.86;
+                let fontSize = Math.max(10, Math.min(28, Math.floor(cellSize * 0.28)));
+                const text = new fabric.Textbox(word, {
+                    fontSize, fontFamily: 'Fredoka, system-ui, sans-serif', fontWeight: '600',
+                    fill: '#1c1c1e', textAlign: 'center', width: textboxWidth,
+                    originX: 'center', originY: 'center', splitByGrapheme: false
+                });
+                // If the text overflows the cell vertically, shrink fontSize until it fits.
+                while (text.height > cellSize * 0.86 && fontSize > 8) {
+                    fontSize -= 1;
+                    text.set({ fontSize });
+                    text.initDimensions && text.initDimensions();
+                }
+                const group = new fabric.Group([cell, text], groupOpts);
+                return Promise.resolve(group);
+            }
+
             return new Promise(resolve => {
                 fabric.Image.fromURL(imgData.path, img => {
-                    // Scale image to fit within cell with padding
-                    const imageSize = cellSize * 0.85; // 85% of cell size for padding
-                    if (img.width > img.height) {
-                        img.scaleToWidth(imageSize);
-                    } else {
-                        img.scaleToHeight(imageSize);
-                    }
+                    const imageSize = cellSize * 0.85;
+                    if (img.width > img.height) img.scaleToWidth(imageSize);
+                    else img.scaleToHeight(imageSize);
                     img.set({ originX: 'center', originY: 'center' });
-                    
-                    const cell = new fabric.Rect({
-                        width: cellSize, height: cellSize, fill: 'white', stroke: '#666',
-                        strokeWidth: 1.5, strokeDashArray: [4, 4], originX: 'center', originY: 'center',
-                        rx: 4, ry: 4 // Slight rounding for professional look
-                    });
-                    
-                    const group = new fabric.Group([cell, img], {
-                        left: startX + c * (cellSize + gap),
-                        top: startY + r * (cellSize + gap),
-                        selectable: true, evented: true, isGeneratedItem: true, originalIndex: i,
-                        isImageToSort: true,
-                        correctCategory: imgData.category,
-                        sourcePath: imgData.path,
-                        sourceName: imgData.dictionaryKey || imgData.name || '',
-                        cornerColor: 'var(--app-accent-primary)', borderColor: 'var(--app-accent-primary)',
-                        cornerSize: Math.min(8, cellSize * 0.15), transparentCorners: false, cornerStyle: 'circle'
-                    });
+                    const group = new fabric.Group([cell, img], groupOpts);
                     resolve(group);
                 }, { crossOrigin: 'anonymous' });
             });
@@ -2501,45 +2590,49 @@ document.addEventListener('DOMContentLoaded', () => {
         const startX = PADDING + (availableWidth - totalGridWidth) / 2;
         const startY = PADDING + (availableHeight - totalGridHeight) / 2;
         const imageItemPromises = images.map((imgData, i) => {
+            const col = i % actualCols;
+            const row = Math.floor(i / actualCols);
+            // Center of this slot in canvas (world) coords.
+            const slotCenterX = left + PADDING + (availableWidth - totalGridWidth) / 2 + col * (cellSize + gap) + (cellSize / 2);
+            const slotCenterY = top  + PADDING + (availableHeight - totalGridHeight) / 2 + row * (cellSize + gap) + (cellSize / 2);
+
+            const commonOpts = {
+                left: slotCenterX, top: slotCenterY,
+                originX: 'center', originY: 'center',
+                selectable: true, evented: true,
+                isAnswerKeyImage: true, containerSide: side,
+                hasControls: true, hasBorders: true,
+                borderColor: 'var(--app-accent-primary)',
+                cornerColor: 'var(--app-accent-primary)',
+                cornerSize: 8, transparentCorners: false, cornerStyle: 'circle',
+                shadow: new fabric.Shadow({ color: 'rgba(0,0,0,0.1)', blur: 8, offsetX: 2, offsetY: 2 })
+            };
+
+            if (imgData.isText) {
+                // Text-only answer-key tile: word centered, shrink-to-fit.
+                const word = String(imgData.text || '');
+                const textboxWidth = cellSize * 0.95;
+                let fontSize = Math.max(14, Math.min(72, Math.floor(cellSize * 0.32)));
+                const tb = new fabric.Textbox(word, {
+                    ...commonOpts,
+                    fontSize, fontFamily: 'Fredoka, system-ui, sans-serif', fontWeight: '600',
+                    fill: '#1c1c1e', textAlign: 'center', width: textboxWidth,
+                    splitByGrapheme: false
+                });
+                while (tb.height > cellSize * 0.95 && fontSize > 10) {
+                    fontSize -= 2;
+                    tb.set({ fontSize });
+                    tb.initDimensions && tb.initDimensions();
+                }
+                return Promise.resolve(tb);
+            }
+
             return new Promise(resolve => {
                 fabric.Image.fromURL(imgData.path, img => {
-                    // Professional image sizing - fill most of the cell
-                    const imageSize = cellSize * 0.95; // Use 95% for minimal padding
-                    
-                    // Scale to fit while maintaining aspect ratio
+                    const imageSize = cellSize * 0.95;
                     const scale = Math.min(imageSize / img.width, imageSize / img.height);
                     img.scale(scale);
-                    
-                    // Position in grid using actual columns calculated
-                    const col = i % actualCols;
-                    const row = Math.floor(i / actualCols);
-                    const imgLeft = (-width / 2) + startX + col * (cellSize + gap) + (cellSize / 2);
-                    const imgTop = (-height / 2) + startY + row * (cellSize + gap) + (cellSize / 2);
-                    
-                    // Make each image individually editable
-                    img.set({ 
-                        left: left + imgLeft + (width / 2), // Adjust position for non-grouped placement
-                        top: top + imgTop + (height / 2),   // Adjust position for non-grouped placement
-                        originX: 'center', 
-                        originY: 'center',
-                        selectable: true,  // Enable individual selection
-                        evented: true,      // Enable events
-                        isAnswerKeyImage: true,
-                        containerSide: side,
-                        hasControls: true,  // Show resize/rotate controls
-                        hasBorders: true,   // Show selection border
-                        borderColor: 'var(--app-accent-primary)',
-                        cornerColor: 'var(--app-accent-primary)',
-                        cornerSize: 8,
-                        transparentCorners: false,
-                        cornerStyle: 'circle',
-                        shadow: new fabric.Shadow({
-                            color: 'rgba(0,0,0,0.1)',
-                            blur: 8,
-                            offsetX: 2,
-                            offsetY: 2
-                        })
-                    });
+                    img.set(commonOpts);
                     resolve(img);
                 }, { crossOrigin: 'anonymous' });
             });
@@ -2673,9 +2766,13 @@ document.addEventListener('DOMContentLoaded', () => {
         lastGeneratedData = null; categorizedSelections = []; uploadedImages = [];
         worksheetCanvas.clear().set('backgroundColor', '#FFFFFF').renderAll();
         solutionCanvas.clear().set('backgroundColor', '#FFFFFF').renderAll();
-        updateSelectedImagesUI(); updateButtonState();
+        updateSelectedImagesUI();
         pageColorInput.value = '#FFFFFF'; includeNameDate.checked = false; grayscaleToggle.checked = false;
         leftCategoryThemeSelect.value = MANUAL_MODE_VALUE; rightCategoryThemeSelect.value = MANUAL_MODE_VALUE;
+        if (leftCustomWordsInput) leftCustomWordsInput.value = '';
+        if (rightCustomWordsInput) rightCustomWordsInput.value = '';
+        syncCustomWordsVisibility();
+        updateButtonState();
         document.querySelectorAll('.dictionary-item.selected').forEach(el => el.classList.remove('selected'));
         renderUploadedImages();
         generateSolutionBtn.disabled = true; updateDownloadButtonsState(false, false);
@@ -3337,8 +3434,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     // ============================================================
-    // Interactive-HTML export v25.0 (picture-sort) — Family F drag-and-drop
-    // with multi-occupancy bins + bipartition scoring (label-symmetric).
+    // Interactive-HTML export v25.1 (picture-sort) — Family F drag-and-drop
+    // with multi-occupancy bins + strict left/right scoring. Operator uses
+    // the existing text tool to add per-bin titles when needed.
     // ============================================================
     async function _captureWorksheetImage(canvas) {
         var savedZoom = canvas.getZoom();
@@ -3450,7 +3548,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         return {
-            bundleVersion: '25.0.0',
+            bundleVersion: '25.1.0',
             schemaFormat: 'image-references-v3',
             loadingMode: loadingMode,
             appType: 'picture-sort',
@@ -3459,7 +3557,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: 'Picture Sort',
             page: { width: currentCanvasConfig.width, height: currentCanvasConfig.height },
             worksheetImage: worksheetImage,
-            scoring: 'bipartition',
+            scoring: 'strict',
             items: itemsWithImages,
             bins: bins,
             imageRefs: {},
@@ -3885,30 +3983,21 @@ document.addEventListener('DOMContentLoaded', () => {
         '    progressEl.textContent=fmt(T("progressLabel"),{n:n,total:totalItems});',
         '  }',
         '',
-        '  function evaluateBipartition(){',
-        '    // Score under both label orientations; the one with fewer errors wins.',
-        '    var errA=0,errB=0;',
-        '    items.forEach(function(it){',
-        '      var p=placements[it.index];',
-        '      if(!p) return;',
-        '      if(p!==it.correctCategory) errA++;',
-        '      if(p===it.correctCategory) errB++;',
-        '    });',
-        '    var orientation=(errA<=errB)?"direct":"swapped";',
+        '  function evaluateStrict(){',
+        '    // Each item must land in the bin matching its correctCategory exactly.',
         '    var wrong={};',
+        '    var errs=0;',
         '    items.forEach(function(it){',
         '      var p=placements[it.index];',
-        '      if(!p){ wrong[it.index]=true; return; }',
-        '      var ok=(orientation==="direct")?(p===it.correctCategory):(p!==it.correctCategory);',
-        '      if(!ok) wrong[it.index]=true;',
+        '      if(!p||p!==it.correctCategory){ wrong[it.index]=true; errs++; }',
         '    });',
-        '    return { allCorrect:(Math.min(errA,errB)===0), wrongSet:wrong };',
+        '    return { allCorrect:(errs===0), wrongSet:wrong };',
         '  }',
         '',
         '  function checkAll(){',
         '    if(phase!=="fill")return;',
         '    if(Object.keys(placements).length<totalItems) return;',
-        '    var res=evaluateBipartition();',
+        '    var res=evaluateStrict();',
         '    wrongSet=res.wrongSet;',
         '    phase="reviewed";',
         '    // Lock all palette buttons so the kid cannot drag any more.',
@@ -4103,7 +4192,7 @@ document.addEventListener('DOMContentLoaded', () => {
             showMessage('error', 'Interactive export failed: ' + e.message);
         }
     }
-    // END: Interactive-HTML export v25.0
+    // END: Interactive-HTML export v25.1
 
     async function getCanvasDataURLWithOptions(canvasInstance, exportOpts) {
         canvasInstance.discardActiveObject().renderAll();

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
+  <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1248,6 +1249,9 @@
               <button id="downloadWorksheetPdfBtn" disabled data-translate="findobjects.download.worksheet.pdf">Worksheet (PDF)</button>
               <button id="downloadAnswerKeyPdfBtn" disabled data-translate="findobjects.download.answer.pdf">Answer Key (PDF)</button>
               <hr style="margin: 6px 0; border-color: #eee;">
+              <button id="downloadInteractiveHtmlBtn" disabled>Interactive Worksheet (HTML)</button>
+              <button id="downloadInteractiveHtmlReferenceBtn" disabled title="For server-hosted catalog playback. Smaller file, requires the same site to host the WebP library.">Interactive Worksheet (Catalog/URL refs)</button>
+              <hr style="margin: 6px 0; border-color: #eee;">
               <label class="checkbox-label" id="grayscaleLabel">
                 <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
               </label>
@@ -1466,6 +1470,8 @@ function updateTranslations() {
         const downloadAnswerKeyJpegBtn = getEl('downloadAnswerKeyJpegBtn');
         const downloadWorksheetPdfBtn = getEl('downloadWorksheetPdfBtn');
         const downloadAnswerKeyPdfBtn = getEl('downloadAnswerKeyPdfBtn');
+        const downloadInteractiveHtmlBtn = getEl('downloadInteractiveHtmlBtn');
+        const downloadInteractiveHtmlReferenceBtn = getEl('downloadInteractiveHtmlReferenceBtn');
         const clearBtn = getEl('clearBtn');
         const grayscaleToggle = getEl('grayscaleToggle');
         const themeSelect = getEl('themeSelect');
@@ -1744,7 +1750,15 @@ function updateTranslations() {
             downloadAnswerKeyJpegBtn.addEventListener('click', () => downloadImageFile(answerKeyCanvas, 'spotworks_answer_key'));
             downloadWorksheetPdfBtn.addEventListener('click', () => downloadPDF(worksheetCanvas, 'spotworks_worksheet.pdf'));
             downloadAnswerKeyPdfBtn.addEventListener('click', () => downloadPDF(answerKeyCanvas, 'spotworks_answer_key.pdf'));
-            
+            if (downloadInteractiveHtmlBtn) {
+                downloadInteractiveHtmlBtn.addEventListener('click', () =>
+                    downloadInteractiveHtml(worksheetCanvas, 'find_objects_interactive.html', { loadingMode: 'inline' }));
+            }
+            if (downloadInteractiveHtmlReferenceBtn) {
+                downloadInteractiveHtmlReferenceBtn.addEventListener('click', () =>
+                    downloadInteractiveHtml(worksheetCanvas, 'find_objects_interactive_catalog.html', { loadingMode: 'reference' }));
+            }
+
             clearBtn.addEventListener('click', clearAll);
             themeSelect.addEventListener('change', loadDictionary);
             searchInput.addEventListener('input', () => {
@@ -2868,9 +2882,75 @@ function updateTranslations() {
                     }
                 }
 
+                // v30.0 — bake LCSAttribution onto the worksheet canvas so PDF/
+                // JPEG/interactive exports all carry the footer.
+                worksheetCanvas.getObjects().filter(o => o.isAttribution).forEach(o => worksheetCanvas.remove(o));
+                if (window.LCSAttribution && LCSAttribution.addToCanvas) {
+                    LCSAttribution.addToCanvas(worksheetCanvas, { currentCanvasConfig: { width: worksheetCanvas.getWidth(), height: worksheetCanvas.getHeight() } });
+                }
+                worksheetCanvas.renderAll();
+
+                // v30.0 — capture per-item world rects + (I-Spy only) legend
+                // input rects for the interactive runtime.
+                try {
+                    const isOddOneOut = (lastGeneratedLayout.mode === 'oddoneout');
+                    const itemObjs = worksheetCanvas.getObjects().filter(o => o.isFindObjectsItem);
+                    const items = itemObjs.map((o, idx) => {
+                        const r = o.getBoundingRect(true, true);
+                        return {
+                            index: idx,
+                            rect: { x: r.left, y: r.top, w: r.width, h: r.height },
+                            isTarget: !!o.isTargetItem,
+                            imgPath: o.imgPath || null
+                        };
+                    });
+                    let legendBundle = null;
+                    if (!isOddOneOut) {
+                        const legendObj = worksheetCanvas.getObjects().find(o => o.isFindObjectsLegend);
+                        if (legendObj && legendObj.findObjectsLegendMeta) {
+                            const lm = legendObj.findObjectsLegendMeta;
+                            const lb = legendObj.getBoundingRect(true, true);
+                            // Each legend item carries its box's legend-local rect
+                            // (computed in createLegendGroup AFTER per-item positioning).
+                            // We just promote local → world by adding the legend's
+                            // bbox top-left. Scale (lsx/lsy) handles operator transforms.
+                            const intrinsicW = legendObj.width || lb.width;
+                            const intrinsicH = legendObj.height || lb.height;
+                            const lsx = lb.width  / Math.max(1, intrinsicW);
+                            const lsy = lb.height / Math.max(1, intrinsicH);
+                            // Inflate each input rect by 3 px on every side so it
+                            // fully covers the baked count box's stroke (the box
+                            // border is drawn at the rect edge; an exact-size
+                            // input would expose it as a thin halo).
+                            const padPx = 3;
+                            legendBundle = {
+                                items: lm.items.map(it => ({
+                                    imgPath: it.imgPath,
+                                    correctCount: it.correctCount,
+                                    rect: {
+                                        x: lb.left + it.boxLocalRect.x * lsx - padPx,
+                                        y: lb.top  + it.boxLocalRect.y * lsy - padPx,
+                                        w: it.boxLocalRect.w * lsx + padPx * 2,
+                                        h: it.boxLocalRect.h * lsy + padPx * 2
+                                    }
+                                }))
+                            };
+                        }
+                    }
+                    worksheetCanvas.problemsData = {
+                        mode: isOddOneOut ? 'oddoneout' : 'ispy',
+                        items: items,
+                        legend: legendBundle
+                    };
+                } catch (e) {
+                    console.warn('[find-objects v30.0] failed to capture problemsData:', e);
+                }
+
                 downloadDropdownBtn.disabled = false;
                 downloadWorksheetJpegBtn.disabled = false;
                 downloadWorksheetPdfBtn.disabled = false;
+                if (typeof downloadInteractiveHtmlBtn !== 'undefined' && downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = false;
+                if (typeof downloadInteractiveHtmlReferenceBtn !== 'undefined' && downloadInteractiveHtmlReferenceBtn) downloadInteractiveHtmlReferenceBtn.disabled = false;
                 generateAnswerKeyBtn.disabled = false;
                 showMessage(t('findobjects.msg.worksheet.success'), 'success');
             } catch (error) {
@@ -3018,6 +3098,13 @@ function updateTranslations() {
 
             enforceZOrder(answerKeyCanvas);
             userAddedObjects.forEach(o => answerKeyCanvas.add(o).bringToFront(o));
+
+            // v30.0 — bake LCSAttribution onto the answer-key canvas as well.
+            answerKeyCanvas.getObjects().filter(o => o.isAttribution).forEach(o => answerKeyCanvas.remove(o));
+            if (window.LCSAttribution && LCSAttribution.addToCanvas) {
+                LCSAttribution.addToCanvas(answerKeyCanvas, { currentCanvasConfig: { width: answerKeyCanvas.getWidth(), height: answerKeyCanvas.getHeight() } });
+            }
+
             answerKeyCanvas.renderAll();
 
             downloadAnswerKeyJpegBtn.disabled = false;
@@ -3582,7 +3669,12 @@ function updateTranslations() {
                             isHidden: itemInfo.isHidden || false,
                             isOddImage: itemInfo.isOdd || false,
                             pairId: itemInfo.pairId || null, // Store pairId for partner tracking
-                            uniqueId: uniqueId
+                            uniqueId: uniqueId,
+                            // v30.0 — interactive-export tags. Odd-image is the
+                            // target in Odd One Out mode; pair images are not.
+                            isFindObjectsItem: true,
+                            isTargetItem: !!itemInfo.isOdd,
+                            imgPath: itemInfo.path || null
                         });
 
                         // Layer ordering
@@ -3934,7 +4026,12 @@ function updateTranslations() {
                             isHidden: itemInfo.isHidden,
                             imagePath: itemInfo.path,  // Store for same-image adjacency checking
                             isOddImage: itemInfo.isOdd || false,  // Mark if this is an odd image
-                            uniqueId: uniqueId
+                            uniqueId: uniqueId,
+                            // v30.0 — interactive-export tags. Hidden image is the
+                            // target in I-Spy mode; distractors are not.
+                            isFindObjectsItem: true,
+                            isTargetItem: !!itemInfo.isHidden,
+                            imgPath: itemInfo.path || null
                         });
 
                         if(oldTransforms[uniqueId]) img.set(oldTransforms[uniqueId]);
@@ -4282,60 +4379,88 @@ function updateTranslations() {
 
         async function createLegendGroup(isAnswerKey, layoutData) {
             if (!layoutData || !layoutData.uniqueHidden || layoutData.uniqueHidden.length === 0) return null;
-            
+
             const { uniqueHidden, finalHidden } = layoutData;
-            const legendElements = [];
-            
-            const legendItemsPromises = uniqueHidden.map(async (item) => {
-                const count = finalHidden.filter(h => h.path === item.path).length;
+
+            // Build per-collectible records (item group + the source uniqueHidden +
+            // box's local rect inside the item group). Walked in the same order so
+            // the meta indices line up regardless of whether some images failed
+            // to load (those records are dropped via the filter below).
+            const records = await Promise.all(uniqueHidden.map(async (uniq) => {
+                const count = finalHidden.filter(h => h.path === uniq.path).length;
                 if (count === 0) return null;
 
                 const itemGroupElements = [];
-                const img = await createImagePromise(item.path, { targetHeight: 40 });
+                const img = await createImagePromise(uniq.path, { targetHeight: 40 });
+                if (!img) return null;
                 itemGroupElements.push(img);
-                
-                const box = new fabric.Rect({
-                    top: img.getScaledHeight() + 5, 
+
+                const boxLocal = {
                     left: (img.getScaledWidth() - 50) / 2,
-                    width: 50, 
-                    height: 25, 
-                    fill: 'transparent',
-                    stroke: '#333', 
-                    strokeWidth: 2
+                    top: img.getScaledHeight() + 5,
+                    width: 50,
+                    height: 25
+                };
+                const box = new fabric.Rect({
+                    top: boxLocal.top, left: boxLocal.left,
+                    width: boxLocal.width, height: boxLocal.height,
+                    fill: 'transparent', stroke: '#333', strokeWidth: 2
                 });
                 itemGroupElements.push(box);
-                
-                if(isAnswerKey) {
+
+                if (isAnswerKey) {
                     const countText = new fabric.Text(String(count), {
-                        top: box.top + box.height/2, 
-                        left: box.left + box.width/2,
-                        originX: 'center', 
-                        originY: 'center', 
-                        fontSize: 18,
-                        fontWeight: 'normal',
-                        fill: '#333'
+                        top: box.top + box.height / 2,
+                        left: box.left + box.width / 2,
+                        originX: 'center', originY: 'center',
+                        fontSize: 18, fontWeight: 'normal', fill: '#333'
                     });
                     itemGroupElements.push(countText);
                 }
-                
-                return new fabric.Group(itemGroupElements, {});
+
+                return {
+                    itemGroup: new fabric.Group(itemGroupElements, {}),
+                    imgPath: uniq.path,
+                    correctCount: count,
+                    boxLocalInItem: boxLocal
+                };
+            }));
+
+            const validRecords = records.filter(r => r);
+            if (validRecords.length === 0) return null;
+
+            // Arrange items horizontally and CAPTURE each item's left + box's
+            // legend-local rect AFTER positioning so the runtime can place an
+            // input PRECISELY over each baked count box.
+            const legendMetaItems = [];
+            let currentX = 0;
+            validRecords.forEach((rec) => {
+                rec.itemGroup.set({ left: currentX, top: 0 });
+                const itemW = rec.itemGroup.getScaledWidth();
+                // Box's legend-local rect (= item.left + boxLocalInItem.x, item.top + boxLocalInItem.y).
+                legendMetaItems.push({
+                    imgPath: rec.imgPath,
+                    correctCount: rec.correctCount,
+                    boxLocalRect: {
+                        x: currentX + rec.boxLocalInItem.left,
+                        y: 0 + rec.boxLocalInItem.top,
+                        w: rec.boxLocalInItem.width,
+                        h: rec.boxLocalInItem.height
+                    }
+                });
+                currentX += itemW + 20;
             });
 
-            const legendItems = (await Promise.all(legendItemsPromises)).filter(i => i);
-            if(legendItems.length === 0) return null;
-            
-            // Arrange items horizontally
-            let currentX = 0;
-            legendItems.forEach((item, index) => {
-                item.set({ left: currentX, top: 0 });
-                currentX += item.getScaledWidth() + 20;
-            });
-            
-            return new fabric.Group(legendItems, {
-                objectCaching: false, 
-                selectable: true, 
+            const legendGroup = new fabric.Group(validRecords.map(r => r.itemGroup), {
+                objectCaching: false,
+                selectable: true,
                 hasControls: true
             });
+            if (!isAnswerKey) {
+                legendGroup.isFindObjectsLegend = true;
+                legendGroup.findObjectsLegendMeta = { items: legendMetaItems };
+            }
+            return legendGroup;
         }
 
         function clearAll() {
@@ -4382,6 +4507,8 @@ function updateTranslations() {
             downloadAnswerKeyJpegBtn.disabled = true;
             downloadWorksheetPdfBtn.disabled = true;
             downloadAnswerKeyPdfBtn.disabled = true;
+            if (downloadInteractiveHtmlBtn)          downloadInteractiveHtmlBtn.disabled          = true;
+            if (downloadInteractiveHtmlReferenceBtn) downloadInteractiveHtmlReferenceBtn.disabled = true;
             showMessage(t('findobjects.msg.cleared'), 'success');
         }
 
@@ -4590,6 +4717,526 @@ function showMessage(msg, type = 'info', duration = 3000) {
                 img.src = dataURL;
             });
         }
+
+        // ============================================================
+        // Interactive-HTML export v30.0 (find-objects) — Family C tap-to-mark
+        // with deferred Check, dual-mode (I-Spy + Odd One Out). Each scene
+        // image is a transparent tap-button at its world bbox. I-Spy mode
+        // also renders typed-count inputs over the legend boxes; the count
+        // auto-fills as the kid taps target items in the scene (kid can
+        // override). Strict per-item scoring on Check; missed targets get
+        // a green-dashed reveal ring.
+        // ============================================================
+        async function _captureWorksheetImage(canvas) {
+            var savedZoom = canvas.getZoom();
+            var savedW = canvas.getWidth();
+            var savedH = canvas.getHeight();
+            var savedBg = canvas.backgroundColor;
+            canvas.discardActiveObject();
+            canvas.setZoom(1);
+            canvas.setDimensions({ width: currentCanvasConfig.width, height: currentCanvasConfig.height });
+            if (!savedBg || savedBg === 'transparent') canvas.backgroundColor = '#FFFFFF';
+            canvas.renderAll();
+            var dataURL;
+            try {
+                dataURL = canvas.toDataURL({ format: 'jpeg', quality: 0.85, multiplier: 2 });
+            } finally {
+                canvas.backgroundColor = savedBg;
+                canvas.setZoom(savedZoom);
+                canvas.setDimensions({ width: savedW, height: savedH });
+                canvas.renderAll();
+            }
+            return dataURL;
+        }
+
+        async function extractDeckBundle(canvas, options) {
+            var loadingMode = (options && options.loadingMode === 'reference') ? 'reference' : 'inline';
+            var pd = canvas.problemsData || null;
+            if (!pd || !Array.isArray(pd.items) || pd.items.length === 0) {
+                throw new Error('No problemsData on canvas. Generate a worksheet first.');
+            }
+            var worksheetImage = await _captureWorksheetImage(canvas);
+            var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
+                ? LCSAttribution.getRectFromCanvas(canvas) : null;
+            return {
+                bundleVersion: '30.0.0',
+                schemaFormat: 'image-references-v3',
+                loadingMode: loadingMode,
+                appType: 'find-objects',
+                createdAt: new Date().toISOString(),
+                contentLanguage: (window.currentLocale || 'en'),
+                title: pd.mode === 'oddoneout' ? 'Find the Odd One Out' : 'Find the Hidden Objects',
+                page: { width: currentCanvasConfig.width, height: currentCanvasConfig.height },
+                worksheetImage: worksheetImage,
+                scoring: 'strict',
+                mode: pd.mode,
+                items: pd.items,
+                legend: pd.legend || null,
+                imageRefs: {},
+                attribution: attributionRect ? {
+                    text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
+                    url: (window.LCSAttribution && LCSAttribution.URL) || 'https://lessoncraftstudio.com',
+                    rect: attributionRect
+                } : null
+            };
+        }
+
+        var INTERACTIVE_CSS_LINES = [
+            '*{box-sizing:border-box}',
+            'html,body{margin:0;padding:0}',
+            'body{font-family:"Fredoka",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#FEFAF3;color:#1C1C1E;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;min-height:100vh}',
+            '#lcs-app{max-width:980px;margin:0 auto;padding:0 12px;padding-bottom:120px}',
+            '.lcs-bar{position:sticky;top:0;z-index:10;background:rgba(254,250,243,.94);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding:12px 4px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}',
+            '.lcs-title{font-size:clamp(18px,2.6vw,24px);font-weight:600;color:#1C1C1E;margin:0;flex:1 1 auto;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}',
+            '.lcs-progress{font-size:clamp(14px,2vw,18px);font-weight:700;color:#4E5FE8;padding:6px 12px;border-radius:999px;background:rgba(78,95,232,.12);font-variant-numeric:tabular-nums;flex-shrink:0}',
+            '.lcs-mute{width:40px;height:40px;border-radius:10px;border:2px solid #DCE1E6;background:#FFF;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;color:#545458;flex-shrink:0}',
+            '.lcs-mute:hover{background:#FEFAF3}',
+            '.lcs-mute:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+            '.lcs-mute svg{width:20px;height:20px;pointer-events:none}',
+            '.lcs-mute[data-muted="1"]{background:#FFF8E6;border-color:#FFC857;color:#8A6D00}',
+            '.lcs-worksheet-wrap{display:flex;justify-content:center;padding-top:8px}',
+            '.lcs-worksheet{position:relative;display:block;width:100%;max-width:880px;background:#FFF;border-radius:10px;box-shadow:0 4px 18px rgba(28,28,30,.08);overflow:visible}',
+            '.lcs-worksheet__img{display:block;width:100%;height:auto;user-select:none;-webkit-user-drag:none;pointer-events:none;border-radius:10px}',
+            '.lcs-overlay{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none}',
+            // Find-item tap targets (transparent buttons over each baked scene image).
+            '.lcs-find-item{position:absolute;background:transparent;border:3px solid transparent;border-radius:50%;padding:0;margin:0;cursor:pointer;pointer-events:auto;outline:none;transition:border-color .15s,background-color .15s,box-shadow .15s,transform .1s}',
+            '.lcs-find-item:hover{border-color:rgba(78,95,232,.55);background:rgba(78,95,232,.08);box-shadow:0 0 0 4px rgba(78,95,232,.15)}',
+            '.lcs-find-item:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+            '.lcs-find-item[data-marked="1"]{border-color:#4E5FE8;background:rgba(78,95,232,.18);box-shadow:0 0 0 4px rgba(78,95,232,.28)}',
+            '.lcs-find-item[data-locked="1"]{cursor:default;pointer-events:none}',
+            '.lcs-find-item--correct{border-color:#2E7D32 !important;background:rgba(76,175,80,.20) !important;box-shadow:0 0 0 4px rgba(46,125,50,.45) !important}',
+            '.lcs-find-item--wrong{border-color:#C62828 !important;background:rgba(229,57,53,.20) !important;box-shadow:inset 0 0 0 5px #C62828,0 0 0 4px rgba(229,57,53,.55),0 0 14px 4px rgba(229,57,53,.45) !important;animation:lcs-wrong-shake .55s ease-in-out 1}',
+            '.lcs-find-item--wrong::after{content:"\\2716";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:clamp(20px,5vw,48px);font-weight:900;color:#C62828;line-height:1;pointer-events:none;text-shadow:2px 0 0 #FFF,-2px 0 0 #FFF,0 2px 0 #FFF,0 -2px 0 #FFF,2px 2px 0 #FFF,2px -2px 0 #FFF,-2px 2px 0 #FFF,-2px -2px 0 #FFF}',
+            '.lcs-find-item--reveal{border-color:#2E7D32 !important;background:rgba(76,175,80,.12) !important;box-shadow:0 0 0 4px #2E7D32 !important;animation:lcs-reveal-pulse 1.4s ease-out 1}',
+            '@keyframes lcs-wrong-shake{0%,100%{transform:translateX(0)}15%{transform:translateX(-8px)}30%{transform:translateX(8px)}45%{transform:translateX(-6px)}60%{transform:translateX(6px)}75%{transform:translateX(-3px)}90%{transform:translateX(3px)}}',
+            '@keyframes lcs-reveal-pulse{0%{box-shadow:0 0 0 0 #2E7D32}40%{box-shadow:0 0 0 12px rgba(46,125,50,.45)}100%{box-shadow:0 0 0 4px #2E7D32}}',
+            // Legend count inputs (I-Spy only). pointer-events:auto critical because
+            // the parent .lcs-overlay has pointer-events:none. Sized to fully cover
+            // the baked box (sharp corners, no border-radius, no shadow that would
+            // expose the baked outline behind it).
+            '.lcs-legend-input{position:absolute;z-index:50;pointer-events:auto;border:2px solid #4E5FE8;background:#FFF;border-radius:0;font-family:inherit;font-weight:700;font-size:clamp(14px,2vw,22px);color:#1C1C1E;text-align:center;padding:0;outline:none;box-sizing:border-box;cursor:text;-webkit-appearance:none;appearance:none;box-shadow:none;transition:border-color .15s,background-color .15s}',
+            '.lcs-legend-input:focus{border-color:#3D4FCC;box-shadow:0 0 0 3px rgba(78,95,232,.25)}',
+            '.lcs-legend-input[data-state="correct"]{border-color:#2E7D32;background:rgba(76,175,80,.15);color:#1B5E20}',
+            '.lcs-legend-input[data-state="wrong"]{border-color:#C62828;background:rgba(229,57,53,.15);color:#B71C1C}',
+            '.lcs-footer{position:sticky;bottom:0;z-index:10;margin-top:24px;background:rgba(254,250,243,.95);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-top:1px solid #DCE1E6;padding:16px 12px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap}',
+            '.lcs-btn{font-family:inherit;font-weight:700;font-size:17px;padding:14px 28px;border-radius:12px;border:none;cursor:pointer;min-height:52px;min-width:160px;transition:background-color .2s,transform .1s,box-shadow .2s,opacity .2s}',
+            '.lcs-btn:active:not([disabled]){transform:scale(.97)}',
+            '.lcs-btn:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+            '.lcs-btn[disabled]{opacity:.45;cursor:not-allowed}',
+            '.lcs-btn--primary{background:#4E5FE8;color:#FFF}',
+            '.lcs-btn--primary:hover:not([disabled]){background:#3D4FCC}',
+            '.lcs-btn--ghost{background:#FFF;color:#1C1C1E;border:2px solid #DCE1E6}',
+            '.lcs-btn--ghost:hover{background:#FEFAF3;border-color:#4E5FE8}',
+            '.lcs-celebration{position:fixed;inset:0;background:rgba(28,28,30,.5);display:none;align-items:center;justify-content:center;z-index:10000;padding:16px}',
+            '.lcs-celebration--shown{display:flex}',
+            '.lcs-celebration__inner{position:relative;background:#FFFFFF;border-radius:24px;padding:32px 28px 24px;max-width:520px;width:100%;box-shadow:0 20px 60px rgba(28,28,30,.35);text-align:center;z-index:2}',
+            '.lcs-celebration__title{font-size:clamp(36px,7vw,56px);margin:0 0 4px;color:#4E5FE8;font-weight:700}',
+            '.lcs-stars{font-size:clamp(40px,7vw,52px);letter-spacing:10px;margin:12px 0;line-height:1}',
+            '.lcs-star{color:#DCE1E6}',
+            '.lcs-star--filled{color:#FFC857;filter:drop-shadow(0 2px 4px rgba(255,200,87,.35))}',
+            '.lcs-celebration__sub{color:#545458;font-size:16px;margin:0 0 20px}',
+            '.lcs-mini{display:block;max-width:100%;max-height:200px;margin:0 auto 20px;border-radius:8px;border:1px solid #DCE1E6}',
+            '.lcs-celebration__cta{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}',
+            '.lcs-confetti{position:absolute;inset:0;pointer-events:none;overflow:hidden;border-radius:24px}',
+            '.lcs-confetti__piece{position:absolute;width:8px;height:14px;top:-20px;animation:lcs-fall linear forwards;border-radius:2px}',
+            '@keyframes lcs-fall{to{transform:translateY(620px) rotate(540deg);opacity:0}}',
+            '.lcs-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}',
+            '.lcs-attrib-link{position:absolute;transform:translate(-50%,-50%);pointer-events:auto;cursor:pointer;background:transparent;text-decoration:none;border-radius:4px;outline:none}',
+            '.lcs-attrib-link:focus-visible{outline:2px solid #4E5FE8;outline-offset:2px}',
+            '.lcs-attrib-link:hover{background:rgba(78,95,232,.08)}',
+            '@media (prefers-reduced-motion:reduce){',
+            '  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.15s !important}',
+            '  .lcs-confetti{display:none}',
+            '}',
+            '@media print{',
+            '  body{background:#FFF}',
+            '  .lcs-bar,.lcs-footer,.lcs-celebration,.lcs-attrib-link,.lcs-progress{display:none !important}',
+            '  .lcs-worksheet{box-shadow:none;border:none}',
+            '  .lcs-find-item,.lcs-legend-input{border:none !important;background:transparent !important;box-shadow:none !important}',
+            '}'
+        ];
+
+        var INTERACTIVE_RUNTIME_LINES = [
+            '(function(){',
+            '  "use strict";',
+            '  var STRINGS = {',
+            '    en:{title:"Find the Objects",check:"Check Answers",tryAgain:"Try Again",mute:"Mute sounds",unmute:"Turn sounds on",printMyWorksheet:"Print my worksheet",doAnother:"Do Another",youDidIt:"You did it!",progressLabel:"{n} / {total}"}',
+            '  };',
+            '  function T(key){var loc=(DECK_BUNDLE.contentLanguage||"en").slice(0,2);var t=STRINGS[loc]||STRINGS.en;return t[key]||STRINGS.en[key]||key}',
+            '  function fmt(s,vars){return s.replace(/\\{(\\w+)\\}/g,function(_,k){return vars[k]==null?"":String(vars[k])})}',
+            '',
+            '  var items=DECK_BUNDLE.items||[];',
+            '  var legend=DECK_BUNDLE.legend||null;',
+            '  var mode=DECK_BUNDLE.mode||"ispy";',
+            '  // marks: Set of itemIndex (the kid has tapped it).',
+            '  var marks={};',
+            '  // Number of TARGETS the kid must find (defines the Check threshold).',
+            '  var totalTargets=items.filter(function(it){return it.isTarget}).length;',
+            '  var phase="fill"; // "fill" | "reviewed"',
+            '  var celebrationShown=false;',
+            '',
+            '  var muted=false;try{muted=localStorage.getItem("lcsMuted")==="1"}catch(e){}',
+            '  var reducedMotion=false;try{reducedMotion=window.matchMedia("(prefers-reduced-motion: reduce)").matches}catch(e){}',
+            '  var audioCtx=null;',
+            '  var titleEl,overlayEl,muteBtn,celebrationEl,liveEl,imgEl,checkBtn,resetBtn,progressEl;',
+            '',
+            '  function init(){',
+            '    titleEl=document.getElementById("lcs-title");',
+            '    overlayEl=document.getElementById("lcs-overlay");',
+            '    muteBtn=document.getElementById("lcs-mute");',
+            '    celebrationEl=document.getElementById("lcs-celebration");',
+            '    liveEl=document.getElementById("lcs-live");',
+            '    imgEl=document.getElementById("lcs-worksheet-img");',
+            '    checkBtn=document.getElementById("lcs-check");',
+            '    resetBtn=document.getElementById("lcs-reset");',
+            '    progressEl=document.getElementById("lcs-progress");',
+            '    if(titleEl) titleEl.textContent=DECK_BUNDLE.title||T("title");',
+            '    if(checkBtn) checkBtn.textContent=T("check");',
+            '    if(resetBtn) resetBtn.textContent=T("tryAgain");',
+            '    if(imgEl&&imgEl.complete&&imgEl.naturalHeight>0){renderTiles();}',
+            '    else if(imgEl){imgEl.addEventListener("load",renderTiles);imgEl.addEventListener("error",function(){console.error("[LCS] Worksheet image failed to load")});}',
+            '    wireMute();updateMuteButton();wireButtons();',
+            '    updateProgress();updateCheckButton();',
+            '  }',
+            '',
+            '  function itemBtn(idx){return overlayEl?overlayEl.querySelector(\'.lcs-find-item[data-idx="\'+idx+\'"]\'):null}',
+            '  function legendInput(idx){return overlayEl?overlayEl.querySelector(\'.lcs-legend-input[data-legend-idx="\'+idx+\'"]\'):null}',
+            '',
+            '  function renderTiles(){',
+            '    overlayEl.innerHTML="";',
+            '    var pw=DECK_BUNDLE.page.width;var ph=DECK_BUNDLE.page.height;',
+            '    items.forEach(function(it){',
+            '      var btn=document.createElement("button");',
+            '      btn.type="button";btn.className="lcs-find-item";',
+            '      btn.setAttribute("data-idx",String(it.index));',
+            '      btn.setAttribute("aria-label","Item "+(it.index+1));',
+            '      btn.style.left=((it.rect.x/pw)*100)+"%";',
+            '      btn.style.top=((it.rect.y/ph)*100)+"%";',
+            '      btn.style.width=((it.rect.w/pw)*100).toFixed(3)+"%";',
+            '      btn.style.height=((it.rect.h/ph)*100).toFixed(3)+"%";',
+            '      btn.addEventListener("click",function(){onItemClick(it.index)});',
+            '      overlayEl.appendChild(btn);',
+            '    });',
+            '    // Legend inputs (I-Spy only).',
+            '    if(legend && legend.items && legend.items.length){',
+            '      legend.items.forEach(function(li,idx){',
+            '        var inp=document.createElement("input");',
+            '        inp.type="text";inp.inputMode="numeric";inp.pattern="[0-9]*";',
+            '        inp.maxLength=2;',
+            '        inp.className="lcs-legend-input";',
+            '        inp.setAttribute("data-legend-idx",String(idx));',
+            '        inp.setAttribute("aria-label","Count for legend item "+(idx+1));',
+            '        inp.style.left=((li.rect.x/pw)*100)+"%";',
+            '        inp.style.top=((li.rect.y/ph)*100)+"%";',
+            '        inp.style.width=((li.rect.w/pw)*100).toFixed(3)+"%";',
+            '        inp.style.height=((li.rect.h/ph)*100).toFixed(3)+"%";',
+            '        inp.addEventListener("input",function(){',
+            '          inp.value=inp.value.replace(/[^0-9]/g,"").slice(0,2);',
+            '          if(phase==="reviewed") inp.removeAttribute("data-state");',
+            '          updateCheckButton();',
+            '        });',
+            '        overlayEl.appendChild(inp);',
+            '      });',
+            '    }',
+            '    if(DECK_BUNDLE.attribution&&DECK_BUNDLE.attribution.rect){',
+            '      var ar=DECK_BUNDLE.attribution.rect;',
+            '      var link=document.createElement("a");',
+            '      link.className="lcs-attrib-link";',
+            '      link.href=DECK_BUNDLE.attribution.url||"https://lessoncraftstudio.com";',
+            '      link.target="_blank";link.rel="noopener";',
+            '      link.setAttribute("aria-label",DECK_BUNDLE.attribution.text||"Made with LessonCraftStudio.com");',
+            '      link.style.left=((ar.x/pw)*100)+"%";link.style.top=((ar.y/ph)*100)+"%";',
+            '      link.style.width=((ar.w/pw)*100).toFixed(2)+"%";link.style.height=((ar.h/ph)*100).toFixed(2)+"%";',
+            '      overlayEl.appendChild(link);',
+            '    }',
+            '  }',
+            '',
+            '  // Legend bundle now carries imgPath per item, so we look up directly.',
+            '  function legendIndexForItem(itemIdx){',
+            '    if(!legend||!legend.items) return -1;',
+            '    var it=null;',
+            '    for(var i=0;i<items.length;i++) if(items[i].index===itemIdx){ it=items[i]; break; }',
+            '    if(!it||!it.imgPath) return -1;',
+            '    for(var j=0;j<legend.items.length;j++){',
+            '      if(legend.items[j].imgPath===it.imgPath) return j;',
+            '    }',
+            '    return -1;',
+            '  }',
+            '',
+            '  function syncLegendCount(legendIdx){',
+            '    if(legendIdx<0) return;',
+            '    var inp=legendInput(legendIdx);',
+            '    if(!inp) return;',
+            '    if(phase==="reviewed") return;',
+            '    var path=legend.items[legendIdx].imgPath;',
+            '    if(!path) return;',
+            '    var n=0;',
+            '    for(var i=0;i<items.length;i++){',
+            '      if(marks[items[i].index] && items[i].imgPath===path) n++;',
+            '    }',
+            '    inp.value=String(n);',
+            '  }',
+            '',
+            '  function onItemClick(idx){',
+            '    if(phase!=="fill") return;',
+            '    var btn=itemBtn(idx);',
+            '    if(!btn) return;',
+            '    if(marks[idx]){',
+            '      delete marks[idx];',
+            '      btn.removeAttribute("data-marked");',
+            '    }else{',
+            '      marks[idx]=true;',
+            '      btn.setAttribute("data-marked","1");',
+            '    }',
+            '    // Auto-update legend count for the matching target image (I-Spy only).',
+            '    if(mode==="ispy" && legend && legend.items){',
+            '      var li=legendIndexForItem(idx);',
+            '      if(li>=0) syncLegendCount(li);',
+            '    }',
+            '    playTone(540,0.04);',
+            '    updateProgress();',
+            '    updateCheckButton();',
+            '  }',
+            '',
+            '  function updateCheckButton(){',
+            '    if(!checkBtn)return;',
+            '    if(phase!=="fill"){checkBtn.disabled=true;return;}',
+            '    var nMarked=Object.keys(marks).length;',
+            '    // Need at least totalTargets marked. Plus, if I-Spy has a legend,',
+            '    // every legend input should have a value (even if just "0").',
+            '    var ok=(nMarked>=totalTargets);',
+            '    if(ok && legend && legend.items){',
+            '      var ins=overlayEl.querySelectorAll(".lcs-legend-input");',
+            '      for(var i=0;i<ins.length;i++) if(!ins[i].value || ins[i].value.length===0){ ok=false; break; }',
+            '    }',
+            '    checkBtn.disabled=!ok;',
+            '  }',
+            '',
+            '  function updateProgress(){',
+            '    if(!progressEl)return;',
+            '    var n;',
+            '    if(phase==="reviewed"){',
+            '      n=0;',
+            '      items.forEach(function(it){ if(it.isTarget && marks[it.index]) n++; });',
+            '    }else{',
+            '      n=0;',
+            '      items.forEach(function(it){ if(it.isTarget && marks[it.index]) n++; });',
+            '    }',
+            '    progressEl.textContent=fmt(T("progressLabel"),{n:n,total:totalTargets});',
+            '  }',
+            '',
+            '  function checkAll(){',
+            '    if(phase!=="fill")return;',
+            '    phase="reviewed";',
+            '    var allItemsCorrect=true;',
+            '    items.forEach(function(it){',
+            '      var btn=itemBtn(it.index);',
+            '      if(!btn) return;',
+            '      btn.setAttribute("data-locked","1");',
+            '      var marked=!!marks[it.index];',
+            '      if(it.isTarget){',
+            '        if(marked) btn.classList.add("lcs-find-item--correct");',
+            '        else { btn.classList.add("lcs-find-item--reveal"); allItemsCorrect=false; }',
+            '      }else{',
+            '        if(marked){ btn.classList.add("lcs-find-item--wrong"); allItemsCorrect=false; }',
+            '      }',
+            '    });',
+            '    // Validate legend counts (I-Spy).',
+            '    var allCountsCorrect=true;',
+            '    if(legend && legend.items){',
+            '      legend.items.forEach(function(li,idx){',
+            '        var inp=legendInput(idx);',
+            '        if(!inp) return;',
+            '        var v=parseInt(inp.value||"",10);',
+            '        var ok=(!isNaN(v) && v===li.correctCount);',
+            '        inp.setAttribute("data-state",ok?"correct":"wrong");',
+            '        inp.readOnly=true;',
+            '        if(!ok) allCountsCorrect=false;',
+            '      });',
+            '    }',
+            '    var allOk=allItemsCorrect && allCountsCorrect;',
+            '    if(checkBtn) checkBtn.hidden=true;',
+            '    if(resetBtn) resetBtn.hidden=false;',
+            '    updateProgress();',
+            '    announce(allOk?"All correct!":"Not quite. Try again.");',
+            '    if(allOk){',
+            '      playTone(659.25,0.13);',
+            '      setTimeout(function(){playTone(987.77,0.18)},160);',
+            '      setTimeout(showCelebration,500);',
+            '    }else{',
+            '      playTone(220,0.12);',
+            '    }',
+            '  }',
+            '',
+            '  function wireButtons(){',
+            '    if(checkBtn) checkBtn.addEventListener("click",checkAll);',
+            '    if(resetBtn) resetBtn.addEventListener("click",resetAll);',
+            '  }',
+            '',
+            '  function resetAll(){',
+            '    celebrationShown=false;',
+            '    marks={};phase="fill";',
+            '    if(overlayEl){',
+            '      var btns=overlayEl.querySelectorAll(".lcs-find-item");',
+            '      for(var i=0;i<btns.length;i++){',
+            '        btns[i].removeAttribute("data-marked");',
+            '        btns[i].removeAttribute("data-locked");',
+            '        btns[i].classList.remove("lcs-find-item--correct","lcs-find-item--wrong","lcs-find-item--reveal");',
+            '      }',
+            '      var ins=overlayEl.querySelectorAll(".lcs-legend-input");',
+            '      for(var j=0;j<ins.length;j++){ ins[j].value=""; ins[j].removeAttribute("data-state"); ins[j].readOnly=false; }',
+            '    }',
+            '    if(celebrationEl) celebrationEl.classList.remove("lcs-celebration--shown");',
+            '    if(checkBtn){checkBtn.hidden=false;checkBtn.disabled=true;}',
+            '    if(resetBtn){resetBtn.hidden=true}',
+            '    updateProgress();',
+            '  }',
+            '',
+            '  function playTone(freq,dur){',
+            '    if(muted)return;',
+            '    try{',
+            '      if(!audioCtx){var Ctx=window.AudioContext||window.webkitAudioContext;if(!Ctx)return;audioCtx=new Ctx()}',
+            '      if(audioCtx.state==="suspended")audioCtx.resume();',
+            '      var osc=audioCtx.createOscillator();var gain=audioCtx.createGain();',
+            '      osc.type="sine";osc.frequency.value=freq;',
+            '      var now=audioCtx.currentTime;',
+            '      gain.gain.setValueAtTime(0,now);gain.gain.linearRampToValueAtTime(0.14,now+0.012);gain.gain.linearRampToValueAtTime(0,now+dur);',
+            '      osc.connect(gain);gain.connect(audioCtx.destination);',
+            '      osc.start(now);osc.stop(now+dur+0.03);',
+            '    }catch(e){}',
+            '  }',
+            '  function announce(msg){if(liveEl)liveEl.textContent=msg}',
+            '',
+            '  function showCelebration(){',
+            '    if(celebrationShown)return;celebrationShown=true;',
+            '    if(resetBtn) resetBtn.hidden=false;',
+            '    var stars=3;var starsHTML="";',
+            '    for(var i=1;i<=3;i++){starsHTML+="<span class=\\"lcs-star"+(i<=stars?" lcs-star--filled":"")+"\\">\\u2605</span>"}',
+            '    celebrationEl.innerHTML=',
+            '      "<div class=\\"lcs-celebration__inner\\">"+',
+            '      "<h1 class=\\"lcs-celebration__title\\">"+T("youDidIt")+"</h1>"+',
+            '      "<div class=\\"lcs-stars\\" aria-label=\\""+stars+" out of 3 stars\\">"+starsHTML+"</div>"+',
+            '      "<p class=\\"lcs-celebration__sub\\">"+totalTargets+" / "+totalTargets+"</p>"+',
+            '      "<img class=\\"lcs-mini\\" alt=\\"Your completed worksheet\\" src=\\""+DECK_BUNDLE.worksheetImage+"\\" />"+',
+            '      "<div class=\\"lcs-celebration__cta\\">"+',
+            '        "<button class=\\"lcs-btn lcs-btn--ghost\\" type=\\"button\\" id=\\"lcs-do-another\\">"+T("doAnother")+"</button>"+',
+            '        "<button class=\\"lcs-btn lcs-btn--ghost\\" type=\\"button\\" id=\\"lcs-cel-print\\">"+T("printMyWorksheet")+"</button>"+',
+            '      "</div></div>"+',
+            '      "<div class=\\"lcs-confetti\\" aria-hidden=\\"true\\"></div>";',
+            '    celebrationEl.classList.add("lcs-celebration--shown");',
+            '    announce(T("youDidIt"));',
+            '    playTone(659.25,0.13);',
+            '    setTimeout(function(){playTone(987.77,0.18)},160);',
+            '    document.getElementById("lcs-do-another").addEventListener("click",function(){location.reload()});',
+            '    document.getElementById("lcs-cel-print").addEventListener("click",function(){window.print()});',
+            '    if(!reducedMotion)spawnConfetti();',
+            '  }',
+            '  function spawnConfetti(){',
+            '    var layer=celebrationEl.querySelector(".lcs-confetti");if(!layer)return;',
+            '    var colors=["#4E5FE8","#4CAF50","#FF8A65","#FFC857","#6AB7FF","#B39DDB"];',
+            '    for(var i=0;i<48;i++){',
+            '      var c=document.createElement("span");c.className="lcs-confetti__piece";',
+            '      c.style.left=(Math.random()*100)+"%";',
+            '      c.style.background=colors[i%colors.length];',
+            '      c.style.animationDelay=(Math.random()*0.5)+"s";',
+            '      c.style.animationDuration=(1.8+Math.random()*1.3)+"s";',
+            '      c.style.transform="rotate("+(Math.random()*360)+"deg)";',
+            '      layer.appendChild(c);',
+            '    }',
+            '  }',
+            '',
+            '  function wireMute(){muteBtn.addEventListener("click",function(){muted=!muted;try{localStorage.setItem("lcsMuted",muted?"1":"0")}catch(e){}updateMuteButton()})}',
+            '  function updateMuteButton(){',
+            '    muteBtn.setAttribute("aria-label",muted?T("unmute"):T("mute"));',
+            '    muteBtn.setAttribute("data-muted",muted?"1":"0");',
+            '    muteBtn.innerHTML=muted',
+            '      ? "<svg viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\"><path d=\\"M11 5L6 9H2v6h4l5 4V5z\\"/><line x1=\\"23\\" y1=\\"9\\" x2=\\"17\\" y2=\\"15\\"/><line x1=\\"17\\" y1=\\"9\\" x2=\\"23\\" y2=\\"15\\"/></svg>"',
+            '      : "<svg viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\"><path d=\\"M11 5L6 9H2v6h4l5 4V5z\\"/><path d=\\"M15.54 8.46a5 5 0 0 1 0 7.07\\"/><path d=\\"M19.07 4.93a10 10 0 0 1 0 14.14\\"/></svg>";',
+            '  }',
+            '',
+            '  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);',
+            '  else init();',
+            '})();'
+        ];
+
+        function renderStandaloneHTML(bundle) {
+            var css = INTERACTIVE_CSS_LINES.join('\n');
+            var runtime = INTERACTIVE_RUNTIME_LINES.join('\n');
+            var bundleJSON = JSON.stringify(bundle);
+            var lang = (bundle.contentLanguage || 'en').slice(0, 2);
+            var title = bundle.title || 'Find the Objects';
+            var parts = [];
+            parts.push('<!DOCTYPE html>');
+            parts.push('<html lang="' + lang + '">');
+            parts.push('<head>');
+            parts.push('<meta charset="UTF-8">');
+            parts.push('<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">');
+            parts.push('<meta name="theme-color" content="#FEFAF3">');
+            parts.push('<title>' + title + '</title>');
+            parts.push('<link rel="preconnect" href="https://fonts.googleapis.com">');
+            parts.push('<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>');
+            parts.push('<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">');
+            parts.push('<style>' + css + '</style>');
+            parts.push('</head>');
+            parts.push('<body>');
+            parts.push('<main id="lcs-app">');
+            parts.push('  <div class="lcs-bar">');
+            parts.push('    <h1 class="lcs-title" id="lcs-title">' + title + '</h1>');
+            parts.push('    <span class="lcs-progress" id="lcs-progress" aria-live="polite">0 / 0</span>');
+            parts.push('    <button type="button" id="lcs-mute" class="lcs-mute" aria-label="Mute sounds"></button>');
+            parts.push('  </div>');
+            parts.push('  <div class="lcs-worksheet-wrap">');
+            parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');
+            parts.push('      <img class="lcs-worksheet__img" id="lcs-worksheet-img" alt="" src="' + bundle.worksheetImage + '">');
+            parts.push('      <div class="lcs-overlay" id="lcs-overlay"></div>');
+            parts.push('    </div>');
+            parts.push('  </div>');
+            parts.push('</main>');
+            parts.push('<footer class="lcs-footer">');
+            parts.push('  <button type="button" id="lcs-check" class="lcs-btn lcs-btn--primary" disabled>Check Answers</button>');
+            parts.push('  <button type="button" id="lcs-reset" class="lcs-btn lcs-btn--ghost" hidden>Try Again</button>');
+            parts.push('</footer>');
+            parts.push('<div class="lcs-celebration" id="lcs-celebration" role="dialog" aria-modal="true" aria-label="You did it!"></div>');
+            parts.push('<div class="lcs-sr" id="lcs-live" role="status" aria-live="polite"></div>');
+            parts.push('<script>var DECK_BUNDLE = ' + bundleJSON + ';<\/script>');
+            parts.push('<script>' + runtime + '<\/script>');
+            parts.push('</body>');
+            parts.push('</html>');
+            return parts.join('\n');
+        }
+
+        async function downloadInteractiveHtml(canvasInstance, fileName, options) {
+            var loadingMode = (options && options.loadingMode) || 'inline';
+            if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
+                showMessage('Please generate a worksheet first.', 'error');
+                return;
+            }
+            showMessage('Preparing ' + fileName + '...', 'info');
+            try {
+                var bundle = await extractDeckBundle(canvasInstance, { loadingMode: loadingMode });
+                if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
+                    throw new Error('Worksheet snapshot is empty.');
+                }
+                if (!bundle.items || bundle.items.length === 0) {
+                    throw new Error('No items detected. Regenerate and try again.');
+                }
+                var html = renderStandaloneHTML(bundle);
+                var blob = new Blob([html], { type: 'text/html;charset=utf-8' });
+                var url = URL.createObjectURL(blob);
+                var a = document.createElement('a');
+                a.href = url;
+                a.download = fileName;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+                showMessage('Interactive worksheet downloaded.', 'success');
+            } catch (e) {
+                console.error('[Interactive Export v30.0] Failed:', e);
+                showMessage('Interactive export failed: ' + e.message, 'error');
+            }
+        }
+        // END: Interactive-HTML export v30.0
 
         async function downloadImageFile(canvasToExport, baseFileName) {
             showMessage(`Preparing ${baseFileName}.jpeg...`, 'info', 0);

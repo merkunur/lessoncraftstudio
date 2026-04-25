@@ -3,6 +3,7 @@
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
+    <script src="/worksheet-generators/js/image-reference.js?v=1"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <title>Image Cryptogram Worksheet Generator</title>
@@ -1321,6 +1322,7 @@
               <button id="downloadAnswerKeyPdfBtn" disabled data-translate="cryptogram.download.answer.pdf">Answer Key (PDF)</button>
               <hr style="margin: 6px 0; border-color: #eee;">
               <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveHtml">Interactive Worksheet (HTML)</button>
+              <button id="downloadInteractiveHtmlReferenceBtn" disabled title="For server-hosted catalog playback. Smaller file, requires the same site to host the WebP library.">Interactive Worksheet (Catalog/URL refs)</button>
               <hr style="margin: 6px 0; border-color: #eee;">
               <label class="checkbox-label" id="grayscaleLabel">
                 <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
@@ -2096,7 +2098,9 @@
             document.getElementById('downloadAnswerKeyJpegBtn').addEventListener('click', () => downloadImageFile(answerKeyCanvas, 'cryptogram_answer_key.jpeg'));
             document.getElementById('downloadWorksheetPdfBtn').addEventListener('click', () => downloadPDF(worksheetCanvas, 'cryptogram_worksheet.pdf'));
             document.getElementById('downloadAnswerKeyPdfBtn').addEventListener('click', () => downloadPDF(answerKeyCanvas, 'cryptogram_answer_key.pdf'));
-            document.getElementById('downloadInteractiveHtmlBtn').addEventListener('click', () => downloadInteractiveHtml(worksheetCanvas, 'cryptogram_interactive.html'));
+            document.getElementById('downloadInteractiveHtmlBtn').addEventListener('click', () => downloadInteractiveHtml(worksheetCanvas, 'cryptogram_interactive.html', { loadingMode: 'inline' }));
+            var _refBtnWire = document.getElementById('downloadInteractiveHtmlReferenceBtn');
+            if (_refBtnWire) _refBtnWire.addEventListener('click', () => downloadInteractiveHtml(worksheetCanvas, 'cryptogram_interactive_reference.html', { loadingMode: 'reference' }));
 
             downloadDropdownContent.addEventListener('click', (e) => {
                 e.stopPropagation();
@@ -2314,6 +2318,10 @@
                 document.getElementById('downloadWorksheetJpegBtn').disabled = false;
                 document.getElementById('downloadWorksheetPdfBtn').disabled = false;
                 document.getElementById('downloadInteractiveHtmlBtn').disabled = false;
+                var _refBtn = document.getElementById('downloadInteractiveHtmlReferenceBtn');
+                if (_refBtn) _refBtn.disabled = false;
+                // Required by image-reference.js propagation checklist item 10.
+                window.__lcsGenerationCounter = (window.__lcsGenerationCounter || 0) + 1;
 
                 isGenerating = false; // 🚨 Re-enable state saving
                 saveCanvasState(); // ✅ Save state after successful generation
@@ -4322,7 +4330,50 @@ async function downloadPDF(canvasToExport, fileName) {
             return { gridRects: gridRects, legendRects: legendRects };
         }
 
-        async function extractDeckBundle(canvas) {
+        // v16.1 — walk all canvas objects for top-level fabric.Image
+        // instances (cryptogram is text-heavy; library images are rare but
+        // possible if the operator added clue illustrations). Will return
+        // an empty array for typical text-only cryptograms — that's fine,
+        // the wiring still provides schema-v2 conformance and dual-mode.
+        function _collectImagesDeepWithSrc_v161(group, out) {
+            if (!group) return out;
+            // Top-level walk: include the object itself if it's an image,
+            // then recurse into _objects.
+            if (group.type === 'image') {
+                var src = (group._element && group._element.src) || group.src || null;
+                if (src) {
+                    var m = group.calcTransformMatrix();
+                    var hw = (group.width || 1) / 2;
+                    var hh = (group.height || 1) / 2;
+                    var corners = [
+                        fabric.util.transformPoint({ x: -hw, y: -hh }, m),
+                        fabric.util.transformPoint({ x:  hw, y: -hh }, m),
+                        fabric.util.transformPoint({ x:  hw, y:  hh }, m),
+                        fabric.util.transformPoint({ x: -hw, y:  hh }, m)
+                    ];
+                    var xs = corners.map(function (p) { return p.x; });
+                    var ys = corners.map(function (p) { return p.y; });
+                    var minX = Math.min.apply(null, xs), maxX = Math.max.apply(null, xs);
+                    var minY = Math.min.apply(null, ys), maxY = Math.max.apply(null, ys);
+                    out.push({
+                        src: src,
+                        rect: {
+                            x: (minX + maxX) / 2,
+                            y: (minY + maxY) / 2,
+                            w: maxX - minX,
+                            h: maxY - minY
+                        }
+                    });
+                }
+            }
+            if (group._objects) {
+                for (var i = 0; i < group._objects.length; i++) _collectImagesDeepWithSrc_v161(group._objects[i], out);
+            }
+            return out;
+        }
+
+        async function extractDeckBundle(canvas, options) {
+            var loadingMode = (options && options.loadingMode === 'reference') ? 'reference' : 'inline';
             var tagged = _collectCryptogramTaggedRects(canvas);
 
             var slots = tagged.gridRects.map(function (r) {
@@ -4343,13 +4394,48 @@ async function downloadPDF(canvasToExport, fileName) {
                 };
             });
 
+            // v16.1 — collect any library images on the canvas.
+            var imagePlacements = [];
+            if (window.LCSImageRef) {
+                canvas.getObjects().forEach(function (o) {
+                    if (o && (o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderElement || o.isHeaderDesc)) return;
+                    var found = _collectImagesDeepWithSrc_v161(o, []);
+                    found.forEach(function (it) {
+                        var parsed = LCSImageRef.parseImagePath(it.src);
+                        if (!parsed) return;
+                        imagePlacements.push({ key: parsed.key, theme: parsed.theme, rect: it.rect });
+                    });
+                });
+            }
+            var imageRefs = {};
+            if (window.LCSImageRef && imagePlacements.length) {
+                var uniqueKeys = {};
+                imagePlacements.forEach(function (p) { uniqueKeys[p.theme + '/' + p.key] = p; });
+                var pairs = Object.keys(uniqueKeys).map(function (k) { return uniqueKeys[k]; });
+                var resolver = (loadingMode === 'reference')
+                    ? LCSImageRef.referenceVariants
+                    : LCSImageRef.inlineVariants;
+                var loaded = await Promise.all(pairs.map(function (ref) {
+                    return resolver(ref.key, ref.theme).then(function (variants) {
+                        return { key: ref.key, theme: ref.theme, variants: variants };
+                    });
+                }));
+                loaded.forEach(function (entry) {
+                    imageRefs[entry.theme + '/' + entry.key] = { variants: entry.variants };
+                });
+            }
+
             var worksheetImage = await _captureWorksheetImage(canvas);
 
             var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
                 ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
             return {
-                bundleVersion: '16.0.0',
+                bundleVersion: '16.1.1',
+                schemaFormat: 'image-references-v2',
+                loadingMode: loadingMode,
+                imagePlacements: imagePlacements,
+                imageRefs: imageRefs,
                 appType: 'cryptogram',
                 createdAt: new Date().toISOString(),
                 contentLanguage: (window.currentLocale || 'en'),
@@ -4433,6 +4519,7 @@ async function downloadPDF(canvasToExport, fileName) {
             '@keyframes lcs-fall{to{transform:translateY(620px) rotate(540deg);opacity:0}}',
             '.lcs-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}',
             '.lcs-attrib-link{position:absolute;transform:translate(-50%,-50%);pointer-events:auto;cursor:pointer;background:transparent;text-decoration:none;border-radius:4px;outline:none}',
+            '.lcs-img-overlay{position:absolute;pointer-events:none;user-select:none;-webkit-user-drag:none;z-index:1}',
             '.lcs-attrib-link:focus-visible{outline:2px solid #4E5FE8;outline-offset:2px}',
             '.lcs-attrib-link:hover{background:rgba(78,95,232,.08)}',
             '@media (prefers-reduced-motion:reduce){',
@@ -4468,6 +4555,12 @@ async function downloadPDF(canvasToExport, fileName) {
             '  function normalize(v){return String(v==null?"":v).trim().toUpperCase()}',
             '  function isCorrect(s){return normalize(s.value)===normalize(s.expected)}',
             '',
+            '  // v16.1 — variant-selection helpers',
+            '  function pickVariant(w,dpr){var eff=(w||0)*(dpr||1);if(eff<=512)return"1x";if(eff<=1024)return"2x";return"3x";}',
+            '  function getImageURL(b,th,k,v){if(!b||!b.imageRefs)return null;var e=b.imageRefs[th+"/"+k];if(!e||!e.variants)return null;return e.variants[v]||e.variants["2x"]||e.variants["1x"]||e.variants["3x"]||null;}',
+            '  function updateOverlayVariant(img,ref){var rect=img.getBoundingClientRect();if(!rect||rect.width<=0)return;var v=pickVariant(rect.width,window.devicePixelRatio||1);if(img.dataset.variant===v)return;var url=getImageURL(DECK_BUNDLE,ref.theme,ref.key,v);if(url){img.dataset.variant=v;img.src=url;}}',
+            '  function refreshAllVariants(){if(!overlayEl)return;var imgs=overlayEl.querySelectorAll("img.lcs-img-overlay");for(var i=0;i<imgs.length;i++){var img=imgs[i];var k=img.getAttribute("data-image-ref")||"";var p=k.indexOf("/");if(p<0)continue;updateOverlayVariant(img,{theme:k.slice(0,p),key:k.slice(p+1)});}}',
+            '',
             '  function init(){',
             '    titleEl=document.getElementById("lcs-title");',
             '    progressEl=document.getElementById("lcs-progress");',
@@ -4486,6 +4579,8 @@ async function downloadPDF(canvasToExport, fileName) {
             '    wireMute();',
             '    updateMuteButton();',
             '    wireButtons();',
+            '    if(window.ResizeObserver&&overlayEl){try{new ResizeObserver(refreshAllVariants).observe(overlayEl);}catch(e){}}',
+            '    window.__lcsRefreshOverlayVariants=refreshAllVariants;',
             '  }',
             '',
             '  // Progress dots: one per unique cipher letter, not per grid cell.',
@@ -4534,6 +4629,20 @@ async function downloadPDF(canvasToExport, fileName) {
             '    overlayEl.innerHTML="";',
             '    var pw=DECK_BUNDLE.page.width;',
             '    var ph=DECK_BUNDLE.page.height;',
+            '    var placements=DECK_BUNDLE.imagePlacements||[];',
+            '    for(var ipi=0;ipi<placements.length;ipi++){',
+            '      var ref=placements[ipi];',
+            '      if(!ref||!ref.rect)continue;',
+            '      var img=document.createElement("img");',
+            '      img.className="lcs-img-overlay";img.alt="";',
+            '      img.setAttribute("data-image-ref",ref.theme+"/"+ref.key);',
+            '      img.style.left=(((ref.rect.x-ref.rect.w/2)/pw)*100).toFixed(3)+"%";',
+            '      img.style.top=(((ref.rect.y-ref.rect.h/2)/ph)*100).toFixed(3)+"%";',
+            '      img.style.width=((ref.rect.w/pw)*100).toFixed(3)+"%";',
+            '      img.style.height=((ref.rect.h/ph)*100).toFixed(3)+"%";',
+            '      overlayEl.appendChild(img);',
+            '      updateOverlayVariant(img,ref);',
+            '    }',
             '    state.forEach(function(s,i){',
             '      if(!s.rect) return;',
             '      var r=s.rect;',
@@ -4604,7 +4713,7 @@ async function downloadPDF(canvasToExport, fileName) {
             '    input.addEventListener("input",function(){',
             '      if(phase!=="fill")return;',
             '      var raw=input.value;',
-            '      var cleaned=raw.replace(/[^A-Za-z]/g,"").slice(0,1);',
+            '      var cleaned=raw.replace(/[^\\p{L}]/gu,"").slice(0,1);',
             '      cleaned=cleaned?cleaned.toUpperCase():"";',
             '      propagate(state[idx].cipher,cleaned);',
             '      syncDots();',
@@ -4845,14 +4954,15 @@ async function downloadPDF(canvasToExport, fileName) {
             return parts.join('\n');
         }
 
-        async function downloadInteractiveHtml(canvasInstance, fileName) {
+        async function downloadInteractiveHtml(canvasInstance, fileName, options) {
+            var loadingMode = (options && options.loadingMode) || 'inline';
             if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
                 showMessage(t('cryptogram.msg.generate.first') || 'Please generate a worksheet first.', 'error');
                 return;
             }
             showMessage('Preparing ' + fileName + '...', 'info', 0);
             try {
-                var bundle = await extractDeckBundle(canvasInstance);
+                var bundle = await extractDeckBundle(canvasInstance, { loadingMode: loadingMode });
                 if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
                     throw new Error('Worksheet snapshot is empty.');
                 }

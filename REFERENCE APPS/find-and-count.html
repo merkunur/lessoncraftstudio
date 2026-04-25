@@ -4034,7 +4034,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         });
                         
                         // Count or blank line
-                        const countDisplay = isAnswerKey ? 
+                        const countDisplay = isAnswerKey ?
                             new fabric.Text(countValue, {
                                 fontSize: 28,
                                 fontFamily: 'Arial, sans-serif',
@@ -4045,6 +4045,16 @@ document.addEventListener("DOMContentLoaded", function() {
                                 stroke: '#999999',
                                 strokeWidth: 2
                             });
+                        // v19.2.0 — tag the blank Line as a child of the legend
+                        // group so extractDeckBundle can walk it fresh and use
+                        // calcTransformMatrix per blank. Operator can drag/scale
+                        // the legend and the input overlays follow.
+                        if (!isAnswerKey) {
+                            countDisplay.isLegendBlank = true;
+                            countDisplay.legendKey = (q.word || '').toLowerCase();
+                            countDisplay.inputDesignW = 64;
+                            countDisplay.inputDesignH = imageHeight * 0.95;
+                        }
                         
                         // Position elements in a simple row
                         img.set({ 
@@ -4161,43 +4171,11 @@ document.addEventListener("DOMContentLoaded", function() {
                     currentX += item.getScaledWidth() + (index < legendItems.length - 1 ? spaceBetweenItems : 0);
                 });
 
-                // v19.1 — capture per-question answer-blank world rects for the
-                // interactive runtime. Computed BEFORE the legend Group is built,
-                // because Fabric mutates child left/top during group construction
-                // (CLAUDE.md §14.7). Worksheet canvas only — answer key has the
-                // count rendered into the JPEG and needs no overlay.
-                if (!isAnswerKey) {
-                    const legendGroupWorldX = (canvasWidth - legendBoxWidth) / 2 + 4;
-                    const legendGroupWorldY = canvasHeight - legendBoxHeight - (isLandscape ? 50 : 55);
-                    const blankRects = legendItems.map((item, index) => {
-                        const q = questions[index];
-                        const children = (item._objects || []).slice();
-                        const imgChild = children[0];
-                        const itemScale = item.scaleX || 1;
-                        const imgScaledWidth = imgChild ? imgChild.getScaledWidth() : 0;
-                        // Match the per-item promise's positioning math:
-                        //   blankLine.left = imgScaledWidth + 50
-                        //   blankLine.top  = imageHeight / 2
-                        //   blankLine length = 40 (the Line is [0,0,40,0])
-                        const blankInternalCenterX = imgScaledWidth + 50 + 20; // 20 = half of 40
-                        const blankInternalCenterY = imageHeight / 2;
-                        const inputW = 64;   // input width in canvas pre-scale units
-                        const inputH = imageHeight * 0.95;
-                        const worldCenterX = legendGroupWorldX + item.left + blankInternalCenterX * itemScale;
-                        const worldCenterY = legendGroupWorldY + item.top + blankInternalCenterY * itemScale;
-                        const worldW = inputW * itemScale;
-                        const worldH = inputH * itemScale;
-                        return {
-                            key: (q && q.word ? q.word.toLowerCase() : ''),
-                            x: worldCenterX - worldW / 2,
-                            y: worldCenterY - worldH / 2,
-                            w: worldW,
-                            h: worldH
-                        };
-                    });
-                    canvas.legendBlankRects = blankRects;
-                }
-
+                // v19.2.0 — no more pre-grouping rect capture. Each blank Line
+                // is tagged isLegendBlank above; extractDeckBundle walks the
+                // legendGroup at download time and computes each blank's CURRENT
+                // world rect via calcTransformMatrix. Operator drags/scales of
+                // the legend now propagate correctly to the input overlays.
                 const legendGroup = new fabric.Group([legendBackground, ...legendItems], {
                     ...groupOptions,
                     left: (canvasWidth - legendBoxWidth) / 2 + 4,
@@ -4727,16 +4705,47 @@ async function downloadPDF(canvasToExport, filename) {
         var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
             ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
-        // v19.1 — per-target input slots overlaying the baked legend's answer
-        // blanks. Populated by renderToCanvas when isAnswerKey=false; matched to
-        // targets by lowercased word. Missing for letter-spotting mode (no legend).
-        var inputSlots = Array.isArray(canvas.legendBlankRects)
-            ? canvas.legendBlankRects.filter(function (r) { return r && r.key && byKey[r.key]; })
-                .map(function (r) { return { key: r.key, rect: { x: r.x, y: r.y, w: r.w, h: r.h } }; })
-            : [];
+        // v19.2.0 — walk the canvas FRESH for isLegendBlank Line objects (children
+        // of the legendGroup) and compute each input slot's CURRENT world rect via
+        // calcTransformMatrix. The line's intrinsic length is 40; we derive the
+        // input box (inputDesignW × inputDesignH stashed on the Line) by scaling
+        // around the line's world center. Operator drags/scales of the legend
+        // now propagate to the overlays. Missing for letter-spotting mode (no legend).
+        var blanks = [];
+        (function walk(objs) {
+            if (!objs) return;
+            objs.forEach(function (o) {
+                if (!o) return;
+                if (o.isLegendBlank === true) blanks.push(o);
+                if (o._objects) walk(o._objects);
+            });
+        })(canvas.getObjects());
+
+        var inputSlots = blanks.map(function (line) {
+            var key = String(line.legendKey || '').toLowerCase();
+            if (!key || !byKey[key]) return null;
+            var m = line.calcTransformMatrix();
+            var w = line.width || 1;
+            var center = fabric.util.transformPoint({ x: 0, y: 0 }, m);
+            var p0 = fabric.util.transformPoint({ x: -w / 2, y: 0 }, m);
+            var p1 = fabric.util.transformPoint({ x:  w / 2, y: 0 }, m);
+            var worldLineLen = Math.sqrt((p1.x - p0.x) * (p1.x - p0.x) + (p1.y - p0.y) * (p1.y - p0.y));
+            var scale = worldLineLen / w;
+            var inputW = (line.inputDesignW || 64) * scale;
+            var inputH = (line.inputDesignH || 30) * scale;
+            return {
+                key: key,
+                rect: {
+                    x: center.x - inputW / 2,
+                    y: center.y - inputH / 2,
+                    w: inputW,
+                    h: inputH
+                }
+            };
+        }).filter(function (s) { return s !== null; });
 
         return {
-            bundleVersion: '19.1.2',
+            bundleVersion: '19.2.0',
             schemaFormat: 'image-references-v3',
             loadingMode: loadingMode,
             appType: 'find-and-count',

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
+  <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <title>Missing Pieces Worksheet Generator</title>
@@ -1374,6 +1375,9 @@
                             <button id="downloadWorksheetPdfBtn" disabled data-translate="missingpieces.download.worksheet.pdf">Worksheet (PDF)</button>
                             <button id="downloadAnswerKeyPdfBtn" disabled data-translate="missingpieces.download.answer.pdf">Answer Key (PDF)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadInteractiveHtmlBtn" disabled>Interactive Worksheet (HTML)</button>
+                            <button id="downloadInteractiveHtmlReferenceBtn" disabled title="For server-hosted catalog playback. Smaller file, requires the same site to host the WebP library.">Interactive Worksheet (Catalog/URL refs)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
                             <label class="checkbox-label" id="grayscaleLabel">
                                 <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
                             </label>
@@ -1488,6 +1492,8 @@
         const downloadAnswerKeyJpegBtn = document.getElementById("downloadAnswerKeyJpegBtn");
         const downloadWorksheetPdfBtn = document.getElementById("downloadWorksheetPdfBtn");
         const downloadAnswerKeyPdfBtn = document.getElementById("downloadAnswerKeyPdfBtn");
+        const downloadInteractiveHtmlBtn = document.getElementById("downloadInteractiveHtmlBtn");
+        const downloadInteractiveHtmlReferenceBtn = document.getElementById("downloadInteractiveHtmlReferenceBtn");
         const clearBtn = document.getElementById("clearBtn");
         const grayscaleToggle = document.getElementById('grayscaleToggle');
         const zoomInBtn = document.getElementById('zoomInBtn');
@@ -3028,6 +3034,7 @@
                 cornerSize: 10, transparentCorners: false,
                 isGeneratedItem: !isAnswerKey,
                 isAnswerKeyItem: isAnswerKey,
+                isMainPuzzle: !isAnswerKey,
                 originalIndex: 'mainPuzzle'
             });
             // Only preserve transforms if canvas dimensions haven't changed
@@ -3128,6 +3135,9 @@
                     cornerSize: 8, transparentCorners: false,
                     isGeneratedItem: !isAnswerKey,
                     isAnswerKeyItem: isAnswerKey,
+                    isOptionPiece: !isAnswerKey,
+                    optionIndex: i,
+                    optionImgDataUrl: dataUrl,
                     originalIndex: `option_${i}`
                 });
                 return optionGroup;
@@ -3221,11 +3231,71 @@
 
                 enforceZOrder(worksheetCanvas);
                 userAddedObjects.forEach(obj => worksheetCanvas.bringToFront(obj));
+
+                // v26.0 — bake LCSAttribution onto the worksheet canvas so PDF/JPEG/
+                // interactive exports all carry the footer.
+                worksheetCanvas.getObjects().filter(o => o.isAttribution).forEach(o => worksheetCanvas.remove(o));
+                if (window.LCSAttribution && LCSAttribution.addToCanvas) {
+                    LCSAttribution.addToCanvas(worksheetCanvas, { currentCanvasConfig });
+                }
+
                 worksheetCanvas.renderAll();
-                isRestoring = false;
+
+                // v26.0 — snapshot the puzzle metadata for the interactive export.
+                // Hole world rects derive from the main puzzle group's actual rendered
+                // bbox (so operator transforms are honored).
+                try {
+                    const puzzleObj = worksheetCanvas.getObjects().find(o => o.isMainPuzzle);
+                    const optionObjs = worksheetCanvas.getObjects().filter(o => o.isOptionPiece).sort((a, b) => a.optionIndex - b.optionIndex);
+                    if (puzzleObj && optionObjs.length === puzzleData.optionPieces.length) {
+                        const pbox = puzzleObj.getBoundingRect(true, true);
+                        // Find the unscaled main-image dimensions: same algorithm the renderer used.
+                        const mainImgObj = await new Promise(r => fabric.Image.fromURL(puzzleData.mainImage.path, r, { crossOrigin: 'anonymous' }));
+                        const sx = pbox.width / mainImgObj.width;
+                        const sy = pbox.height / mainImgObj.height;
+                        const shape = puzzleData.pieceShape;
+                        function holeWHforShape(scaledSize) {
+                            switch (shape) {
+                                case 'rectPortrait':    return { w: scaledSize * 0.8, h: scaledSize       };
+                                case 'rectLandscape':   return { w: scaledSize,       h: scaledSize * 0.8 };
+                                case 'ellipsePortrait': return { w: scaledSize * 0.8, h: scaledSize       };
+                                case 'ellipseLandscape':return { w: scaledSize,       h: scaledSize * 0.8 };
+                                default:                return { w: scaledSize,       h: scaledSize       };
+                            }
+                        }
+                        const holes = puzzleData.positions.map((pos, i) => {
+                            const scaledSize = puzzleData.pieceSize * sx;
+                            const wh = holeWHforShape(scaledSize);
+                            return {
+                                index: i,
+                                rect: { x: pbox.left + pos.x * sx, y: pbox.top + pos.y * sy, w: wh.w, h: wh.h },
+                                shape,
+                                correctOptionIndex: puzzleData.correctIndices[i]
+                            };
+                        });
+                        const options = optionObjs.map((og) => {
+                            const r = og.getBoundingRect(true, true);
+                            return {
+                                index: og.optionIndex,
+                                rect: { x: r.left, y: r.top, w: r.width, h: r.height },
+                                imgDataUrl: og.optionImgDataUrl || null
+                            };
+                        });
+                        worksheetCanvas.problemsData = {
+                            holes,
+                            options,
+                            pieceShape: shape,
+                            puzzleBbox: { x: pbox.left, y: pbox.top, w: pbox.width, h: pbox.height }
+                        };
+                    }
+                } catch (e) {
+                    console.warn('[missing-pieces v26.0] failed to capture problemsData:', e);
+                }
 
                 generateAnswerKeyBtn.disabled = false;
                 [downloadWorksheetJpegBtn, downloadWorksheetPdfBtn].forEach(b => b.disabled = false);
+                if (downloadInteractiveHtmlBtn)          downloadInteractiveHtmlBtn.disabled          = false;
+                if (downloadInteractiveHtmlReferenceBtn) downloadInteractiveHtmlReferenceBtn.disabled = false;
                 showMessage(t('missingpieces.msg.worksheet.success'), "success");
 
                 // Save state for undo/redo after generation
@@ -3280,6 +3350,13 @@
 
                 enforceZOrder(answerKeyCanvas);
                 userAddedObjects.forEach(obj => answerKeyCanvas.bringToFront(obj));
+
+                // v26.0 — bake LCSAttribution onto the answer-key canvas as well.
+                answerKeyCanvas.getObjects().filter(o => o.isAttribution).forEach(o => answerKeyCanvas.remove(o));
+                if (window.LCSAttribution && LCSAttribution.addToCanvas) {
+                    LCSAttribution.addToCanvas(answerKeyCanvas, { currentCanvasConfig });
+                }
+
                 answerKeyCanvas.renderAll();
                 isRestoring = false;
 
@@ -3296,6 +3373,678 @@
         }
         
         // --- Download Functions (Standard) ---
+        // ============================================================
+        // Interactive-HTML export v26.1 (missing-pieces) — Family F drag-and-drop
+        // with strict 1-to-1 scoring (each hole has one correct option). Numbered
+        // option pieces are the palette; cutout holes in the puzzle image are the
+        // drop targets. Placed pieces fill the hole, masked to the hole's shape.
+        // ============================================================
+        async function _captureWorksheetImage(canvas) {
+            var savedZoom = canvas.getZoom();
+            var savedW = canvas.getWidth();
+            var savedH = canvas.getHeight();
+            var savedBg = canvas.backgroundColor;
+            canvas.discardActiveObject();
+            canvas.setZoom(1);
+            canvas.setDimensions({ width: currentCanvasConfig.width, height: currentCanvasConfig.height });
+            if (!savedBg || savedBg === 'transparent') canvas.backgroundColor = '#FFFFFF';
+            canvas.renderAll();
+            var dataURL;
+            try {
+                dataURL = canvas.toDataURL({ format: 'jpeg', quality: 0.85, multiplier: 2 });
+            } finally {
+                canvas.backgroundColor = savedBg;
+                canvas.setZoom(savedZoom);
+                canvas.setDimensions({ width: savedW, height: savedH });
+                canvas.renderAll();
+            }
+            return dataURL;
+        }
+
+        async function extractDeckBundle(canvas, options) {
+            var loadingMode = (options && options.loadingMode === 'reference') ? 'reference' : 'inline';
+            var pd = canvas.problemsData || null;
+            if (!pd || !Array.isArray(pd.holes) || !Array.isArray(pd.options)) {
+                throw new Error('No problemsData on canvas. Generate a worksheet first.');
+            }
+            if (pd.holes.length === 0) throw new Error('No holes detected.');
+            if (pd.options.length === 0) throw new Error('No option pieces detected.');
+
+            var worksheetImage = await _captureWorksheetImage(canvas);
+            var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
+                ? LCSAttribution.getRectFromCanvas(canvas) : null;
+
+            return {
+                bundleVersion: '26.1.0',
+                schemaFormat: 'image-references-v3',
+                loadingMode: loadingMode,
+                appType: 'missing-pieces',
+                createdAt: new Date().toISOString(),
+                contentLanguage: (window.currentLocale || 'en'),
+                title: 'Missing Pieces',
+                page: { width: currentCanvasConfig.width, height: currentCanvasConfig.height },
+                worksheetImage: worksheetImage,
+                scoring: 'strict',
+                pieceShape: pd.pieceShape || 'square',
+                holes: pd.holes,
+                optionsData: pd.options,
+                imageRefs: {},
+                attribution: attributionRect ? {
+                    text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
+                    url: (window.LCSAttribution && LCSAttribution.URL) || 'https://lessoncraftstudio.com',
+                    rect: attributionRect
+                } : null
+            };
+        }
+
+        var INTERACTIVE_CSS_LINES = [
+            '*{box-sizing:border-box}',
+            'html,body{margin:0;padding:0}',
+            'body{font-family:"Fredoka",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#FEFAF3;color:#1C1C1E;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;min-height:100vh}',
+            '#lcs-app{max-width:980px;margin:0 auto;padding:0 12px;padding-bottom:120px}',
+            '.lcs-bar{position:sticky;top:0;z-index:10;background:rgba(254,250,243,.94);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding:12px 4px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}',
+            '.lcs-title{font-size:clamp(18px,2.6vw,24px);font-weight:600;color:#1C1C1E;margin:0;flex:1 1 auto;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}',
+            '.lcs-progress{font-size:clamp(14px,2vw,18px);font-weight:700;color:#4E5FE8;padding:6px 12px;border-radius:999px;background:rgba(78,95,232,.12);font-variant-numeric:tabular-nums;flex-shrink:0}',
+            '.lcs-mute{width:40px;height:40px;border-radius:10px;border:2px solid #DCE1E6;background:#FFF;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;color:#545458;flex-shrink:0}',
+            '.lcs-mute:hover{background:#FEFAF3}',
+            '.lcs-mute:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+            '.lcs-mute svg{width:20px;height:20px;pointer-events:none}',
+            '.lcs-mute[data-muted="1"]{background:#FFF8E6;border-color:#FFC857;color:#8A6D00}',
+            '.lcs-worksheet-wrap{display:flex;justify-content:center;padding-top:8px}',
+            '.lcs-worksheet{position:relative;display:block;width:100%;max-width:880px;background:#FFF;border-radius:10px;box-shadow:0 4px 18px rgba(28,28,30,.08);overflow:visible}',
+            '.lcs-worksheet__img{display:block;width:100%;height:auto;user-select:none;-webkit-user-drag:none;pointer-events:none;border-radius:10px}',
+            '.lcs-overlay{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none}',
+            // Palette buttons over baked option strip
+            '.lcs-tile{position:absolute;pointer-events:none}',
+            '.lcs-tile__btn{position:absolute;inset:0;width:100%;height:100%;border:3px solid transparent;background:transparent;pointer-events:auto;padding:0;border-radius:6px;transition:border-color .15s,background-color .15s,box-shadow .15s;touch-action:none;cursor:grab}',
+            '.lcs-tile__btn:active{cursor:grabbing}',
+            '.lcs-tile__btn:hover{border-color:#4E5FE8;background:rgba(78,95,232,.08);box-shadow:0 0 0 4px rgba(78,95,232,.12)}',
+            '.lcs-tile__btn:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+            '.lcs-tile__btn[data-dragging="1"]{opacity:.35}',
+            '.lcs-tile__btn[data-locked="1"]{cursor:default;pointer-events:none;border-color:transparent;opacity:0}',
+            '.lcs-tile__btn[data-deployed="1"]{opacity:1;pointer-events:none;background:#FFFFFF;border:2px dashed #C0C0C0;border-radius:6px;box-shadow:none}',
+            '.lcs-tile__btn[data-kind="palette"][data-locked="1"][data-deployed="1"]{opacity:1;background:#FFFFFF;border:2px dashed #C0C0C0;border-radius:6px;box-shadow:none}',
+            '.lcs-tile__btn[data-deployed="1"][data-drop-hover="ok"]{background:rgba(76,175,80,.18);border:3px dashed #4CAF50;box-shadow:0 0 0 4px rgba(76,175,80,.28)}',
+            // Holes (drop targets) — shape via border-radius
+            '.lcs-hole{position:absolute;pointer-events:auto;background:transparent;transition:background-color .15s,box-shadow .15s,outline .15s;overflow:hidden}',
+            '.lcs-hole[data-shape="circle"]{border-radius:50%}',
+            '.lcs-hole[data-shape="ellipsePortrait"]{border-radius:50%}',
+            '.lcs-hole[data-shape="ellipseLandscape"]{border-radius:50%}',
+            '.lcs-hole[data-droptarget="ok"]{background:rgba(76,175,80,.18);box-shadow:inset 0 0 0 4px rgba(76,175,80,.65)}',
+            '.lcs-hole[data-droptarget="reject"]{background:rgba(229,57,53,.12);box-shadow:inset 0 0 0 4px rgba(229,57,53,.55)}',
+            '.lcs-placed-piece{position:absolute;inset:0;width:100%;height:100%;overflow:hidden;pointer-events:auto;cursor:grab;touch-action:none;animation:lcs-pop .35s ease-out;background:#FFF}',
+            '.lcs-placed-piece:active{cursor:grabbing}',
+            '.lcs-placed-piece[data-locked="1"]{cursor:default;pointer-events:none}',
+            '.lcs-placed-piece[data-dragging="1"]{opacity:.35}',
+            '.lcs-placed-piece img{display:block;width:100%;height:100%;object-fit:cover;user-select:none;-webkit-user-drag:none;pointer-events:none}',
+            '.lcs-hole[data-shape="circle"] .lcs-placed-piece,.lcs-hole[data-shape="ellipsePortrait"] .lcs-placed-piece,.lcs-hole[data-shape="ellipseLandscape"] .lcs-placed-piece{border-radius:50%}',
+            '.lcs-placed-piece--correct{box-shadow:inset 0 0 0 3px rgba(46,125,50,.65),0 0 0 3px rgba(46,125,50,.35)}',
+            // Wrong placement — multi-layer cue: thick red inset + outer red glow + drop shadow,
+            // a one-shot shake on Check, and a big white-outlined ✗ centered over the piece.
+            '.lcs-placed-piece--wrong{box-shadow:inset 0 0 0 5px #C62828,0 0 0 4px rgba(229,57,53,.55),0 0 14px 4px rgba(229,57,53,.45);animation:lcs-wrong-shake .55s ease-in-out 1}',
+            '.lcs-placed-piece--wrong::after{content:"\\2716";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:clamp(28px,7vw,72px);font-weight:900;color:#C62828;line-height:1;pointer-events:none;text-shadow:2px 0 0 #FFF,-2px 0 0 #FFF,0 2px 0 #FFF,0 -2px 0 #FFF,2px 2px 0 #FFF,2px -2px 0 #FFF,-2px 2px 0 #FFF,-2px -2px 0 #FFF,3px 3px 6px rgba(0,0,0,.35)}',
+            '@keyframes lcs-wrong-shake{0%,100%{transform:translateX(0)}15%{transform:translateX(-8px)}30%{transform:translateX(8px)}45%{transform:translateX(-6px)}60%{transform:translateX(6px)}75%{transform:translateX(-3px)}90%{transform:translateX(3px)}}',
+            '.lcs-drag-ghost{position:fixed;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);box-shadow:0 12px 28px rgba(28,28,30,.35);background:#FFF;padding:0;overflow:hidden;border:2px solid #4E5FE8;display:flex;align-items:center;justify-content:center}',
+            '.lcs-drag-ghost img{display:block;width:100%;height:100%;object-fit:cover;user-select:none;-webkit-user-drag:none}',
+            '.lcs-drag-ghost[data-shape="circle"],.lcs-drag-ghost[data-shape="ellipsePortrait"],.lcs-drag-ghost[data-shape="ellipseLandscape"]{border-radius:50%}',
+            '@keyframes lcs-pop{0%{transform:scale(.6);opacity:0}60%{transform:scale(1.05);opacity:1}100%{transform:scale(1);opacity:1}}',
+            '.lcs-footer{position:sticky;bottom:0;z-index:10;margin-top:24px;background:rgba(254,250,243,.95);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-top:1px solid #DCE1E6;padding:16px 12px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap}',
+            '.lcs-btn{font-family:inherit;font-weight:700;font-size:17px;padding:14px 28px;border-radius:12px;border:none;cursor:pointer;min-height:52px;min-width:160px;transition:background-color .2s,transform .1s,box-shadow .2s,opacity .2s}',
+            '.lcs-btn:active:not([disabled]){transform:scale(.97)}',
+            '.lcs-btn:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+            '.lcs-btn[disabled]{opacity:.45;cursor:not-allowed}',
+            '.lcs-btn--primary{background:#4E5FE8;color:#FFF}',
+            '.lcs-btn--primary:hover:not([disabled]){background:#3D4FCC}',
+            '.lcs-btn--ghost{background:#FFF;color:#1C1C1E;border:2px solid #DCE1E6}',
+            '.lcs-btn--ghost:hover{background:#FEFAF3;border-color:#4E5FE8}',
+            '.lcs-celebration{position:fixed;inset:0;background:rgba(28,28,30,.5);display:none;align-items:center;justify-content:center;z-index:10000;padding:16px}',
+            '.lcs-celebration--shown{display:flex}',
+            '.lcs-celebration__inner{position:relative;background:#FFFFFF;border-radius:24px;padding:32px 28px 24px;max-width:520px;width:100%;box-shadow:0 20px 60px rgba(28,28,30,.35);text-align:center;z-index:2}',
+            '.lcs-celebration__title{font-size:clamp(36px,7vw,56px);margin:0 0 4px;color:#4E5FE8;font-weight:700}',
+            '.lcs-stars{font-size:clamp(40px,7vw,52px);letter-spacing:10px;margin:12px 0;line-height:1}',
+            '.lcs-star{color:#DCE1E6}',
+            '.lcs-star--filled{color:#FFC857;filter:drop-shadow(0 2px 4px rgba(255,200,87,.35))}',
+            '.lcs-celebration__sub{color:#545458;font-size:16px;margin:0 0 20px}',
+            '.lcs-mini{display:block;max-width:100%;max-height:200px;margin:0 auto 20px;border-radius:8px;border:1px solid #DCE1E6}',
+            '.lcs-celebration__cta{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}',
+            '.lcs-confetti{position:absolute;inset:0;pointer-events:none;overflow:hidden;border-radius:24px}',
+            '.lcs-confetti__piece{position:absolute;width:8px;height:14px;top:-20px;animation:lcs-fall linear forwards;border-radius:2px}',
+            '@keyframes lcs-fall{to{transform:translateY(620px) rotate(540deg);opacity:0}}',
+            '.lcs-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}',
+            '.lcs-attrib-link{position:absolute;transform:translate(-50%,-50%);pointer-events:auto;cursor:pointer;background:transparent;text-decoration:none;border-radius:4px;outline:none}',
+            '.lcs-attrib-link:focus-visible{outline:2px solid #4E5FE8;outline-offset:2px}',
+            '.lcs-attrib-link:hover{background:rgba(78,95,232,.08)}',
+            '@media (prefers-reduced-motion:reduce){',
+            '  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.15s !important}',
+            '  .lcs-confetti{display:none}',
+            '}',
+            '@media print{',
+            '  body{background:#FFF}',
+            '  .lcs-bar,.lcs-footer,.lcs-celebration,.lcs-attrib-link,.lcs-progress{display:none !important}',
+            '  .lcs-worksheet{box-shadow:none;border:none}',
+            '  .lcs-tile__btn,.lcs-hole{border:none !important;background:transparent !important;box-shadow:none !important}',
+            '}'
+        ];
+
+        var INTERACTIVE_RUNTIME_LINES = [
+            '(function(){',
+            '  "use strict";',
+            '  var STRINGS = {',
+            '    en:{title:"Missing Pieces",check:"Check Answers",tryAgain:"Try Again",mute:"Mute sounds",unmute:"Turn sounds on",printMyWorksheet:"Print my worksheet",doAnother:"Do Another",youDidIt:"You did it!",progressLabel:"{n} / {total}"}',
+            '  };',
+            '  function T(key){var loc=(DECK_BUNDLE.contentLanguage||"en").slice(0,2);var t=STRINGS[loc]||STRINGS.en;return t[key]||STRINGS.en[key]||key}',
+            '  function fmt(s,vars){return s.replace(/\\{(\\w+)\\}/g,function(_,k){return vars[k]==null?"":String(vars[k])})}',
+            '',
+            '  var holes=DECK_BUNDLE.holes||[];',
+            '  var options=DECK_BUNDLE.optionsData||[];',
+            '  var pieceShape=DECK_BUNDLE.pieceShape||"square";',
+            '  var totalHoles=holes.length;',
+            '  // placements: holeIndex -> optionIndex (absent = empty hole)',
+            '  var placements={};',
+            '  // wrongSet: holeIndex -> true (computed at Check time, strict comparison)',
+            '  var wrongSet={};',
+            '  var phase="fill"; // "fill" | "reviewed"',
+            '  var celebrationShown=false;',
+            '  // drag: { optionIndex, ghost, pointerId, sourceBtn, sourceKind: "palette"|"hole", fromHoleIndex } or null',
+            '  var drag=null;',
+            '',
+            '  var muted=false;try{muted=localStorage.getItem("lcsMuted")==="1"}catch(e){}',
+            '  var reducedMotion=false;try{reducedMotion=window.matchMedia("(prefers-reduced-motion: reduce)").matches}catch(e){}',
+            '  var audioCtx=null;',
+            '  var titleEl,overlayEl,muteBtn,celebrationEl,liveEl,imgEl,checkBtn,resetBtn,progressEl;',
+            '  var holeEls={};',
+            '',
+            '  function init(){',
+            '    titleEl=document.getElementById("lcs-title");',
+            '    overlayEl=document.getElementById("lcs-overlay");',
+            '    muteBtn=document.getElementById("lcs-mute");',
+            '    celebrationEl=document.getElementById("lcs-celebration");',
+            '    liveEl=document.getElementById("lcs-live");',
+            '    imgEl=document.getElementById("lcs-worksheet-img");',
+            '    checkBtn=document.getElementById("lcs-check");',
+            '    resetBtn=document.getElementById("lcs-reset");',
+            '    progressEl=document.getElementById("lcs-progress");',
+            '    if(titleEl) titleEl.textContent=DECK_BUNDLE.title||T("title");',
+            '    if(checkBtn) checkBtn.textContent=T("check");',
+            '    if(resetBtn) resetBtn.textContent=T("tryAgain");',
+            '    if(imgEl&&imgEl.complete&&imgEl.naturalHeight>0){renderTiles();}',
+            '    else if(imgEl){imgEl.addEventListener("load",renderTiles);imgEl.addEventListener("error",function(){console.error("[LCS] Worksheet image failed to load")});}',
+            '    wireMute();updateMuteButton();wireButtons();',
+            '    updateProgress();updateCheckButton();',
+            '  }',
+            '',
+            '  function paletteBtn(idx){return overlayEl?overlayEl.querySelector(\'.lcs-tile__btn[data-kind="palette"][data-idx="\'+idx+\'"]\'):null}',
+            '  function optionFor(idx){for(var i=0;i<options.length;i++)if(options[i].index===idx)return options[i];return null}',
+            '  function holeFor(idx){for(var i=0;i<holes.length;i++)if(holes[i].index===idx)return holes[i];return null}',
+            '',
+            '  function renderTiles(){',
+            '    overlayEl.innerHTML="";',
+            '    holeEls={};',
+            '    var pw=DECK_BUNDLE.page.width;var ph=DECK_BUNDLE.page.height;',
+            '    // Holes (drop targets) — shape via data-shape attribute / CSS border-radius.',
+            '    holes.forEach(function(h){',
+            '      var hl=document.createElement("div");',
+            '      hl.className="lcs-hole";',
+            '      hl.setAttribute("data-idx",String(h.index));',
+            '      hl.setAttribute("data-shape",h.shape||pieceShape);',
+            '      hl.style.left=((h.rect.x/pw)*100)+"%";',
+            '      hl.style.top=((h.rect.y/ph)*100)+"%";',
+            '      hl.style.width=((h.rect.w/pw)*100).toFixed(3)+"%";',
+            '      hl.style.height=((h.rect.h/ph)*100).toFixed(3)+"%";',
+            '      overlayEl.appendChild(hl);',
+            '      holeEls[h.index]=hl;',
+            '    });',
+            '    // Palette buttons over baked option strip — pointerdown starts a drag.',
+            '    options.forEach(function(o){',
+            '      var wrap=document.createElement("div");',
+            '      wrap.className="lcs-tile";',
+            '      wrap.style.left=((o.rect.x/pw)*100)+"%";',
+            '      wrap.style.top=((o.rect.y/ph)*100)+"%";',
+            '      wrap.style.width=((o.rect.w/pw)*100).toFixed(3)+"%";',
+            '      wrap.style.height=((o.rect.h/ph)*100).toFixed(3)+"%";',
+            '      var btn=document.createElement("button");',
+            '      btn.type="button";btn.className="lcs-tile__btn";',
+            '      btn.setAttribute("data-kind","palette");',
+            '      btn.setAttribute("data-idx",String(o.index));',
+            '      btn.setAttribute("aria-label","Drag option "+(o.index+1)+" to a missing piece");',
+            '      btn.addEventListener("pointerdown",function(e){onPalettePointerDown(e,o.index)});',
+            '      wrap.appendChild(btn);',
+            '      overlayEl.appendChild(wrap);',
+            '    });',
+            '    if(DECK_BUNDLE.attribution&&DECK_BUNDLE.attribution.rect){',
+            '      var ar=DECK_BUNDLE.attribution.rect;',
+            '      var link=document.createElement("a");',
+            '      link.className="lcs-attrib-link";',
+            '      link.href=DECK_BUNDLE.attribution.url||"https://lessoncraftstudio.com";',
+            '      link.target="_blank";link.rel="noopener";',
+            '      link.setAttribute("aria-label",DECK_BUNDLE.attribution.text||"Made with LessonCraftStudio.com");',
+            '      link.style.left=((ar.x/pw)*100)+"%";link.style.top=((ar.y/ph)*100)+"%";',
+            '      link.style.width=((ar.w/pw)*100).toFixed(2)+"%";link.style.height=((ar.h/ph)*100).toFixed(2)+"%";',
+            '      overlayEl.appendChild(link);',
+            '    }',
+            '  }',
+            '',
+            '  function ghostSizePx(holeIdx){',
+            '    // Match the destination hole size if known, else fall back to first hole.',
+            '    var ref=(holeIdx!=null)?holeFor(holeIdx):holes[0];',
+            '    if(!ref) return { w: 80, h: 80 };',
+            '    var wsRect=document.getElementById("lcs-worksheet").getBoundingClientRect();',
+            '    var pw=DECK_BUNDLE.page.width;var ph=DECK_BUNDLE.page.height;',
+            '    return { w: (ref.rect.w/pw)*wsRect.width, h: (ref.rect.h/ph)*wsRect.height };',
+            '  }',
+            '',
+            '  function startDrag(e,optionIndex,srcBtn,srcKind,fromHoleIndex){',
+            '    if(drag) return;',
+            '    e.preventDefault();',
+            '    var sz=ghostSizePx(fromHoleIndex);',
+            '    var ghost=document.createElement("div");',
+            '    ghost.className="lcs-drag-ghost";',
+            '    ghost.setAttribute("data-shape",pieceShape);',
+            '    ghost.style.width=sz.w+"px";ghost.style.height=sz.h+"px";',
+            '    ghost.style.left=e.clientX+"px";ghost.style.top=e.clientY+"px";',
+            '    var o=optionFor(optionIndex);',
+            '    if(o&&o.imgDataUrl){',
+            '      var img=document.createElement("img");img.alt="";img.src=o.imgDataUrl;',
+            '      ghost.appendChild(img);',
+            '    }',
+            '    document.body.appendChild(ghost);',
+            '    if(srcBtn) srcBtn.setAttribute("data-dragging","1");',
+            '    drag={optionIndex:optionIndex,ghost:ghost,pointerId:e.pointerId,sourceBtn:srcBtn,sourceKind:srcKind,fromHoleIndex:(fromHoleIndex==null?-1:fromHoleIndex)};',
+            '    window.addEventListener("pointermove",onDragMove);',
+            '    window.addEventListener("pointerup",onDragUp);',
+            '    window.addEventListener("pointercancel",onDragCancel);',
+            '    try{srcBtn&&srcBtn.setPointerCapture&&srcBtn.setPointerCapture(e.pointerId);}catch(err){}',
+            '    playTone(620,0.05);',
+            '  }',
+            '',
+            '  function onPalettePointerDown(e,idx){',
+            '    if(phase!=="fill")return;',
+            '    var src=e.currentTarget;',
+            '    if(!src||src.getAttribute("data-locked")==="1"||src.getAttribute("data-deployed")==="1")return;',
+            '    startDrag(e,idx,src,"palette",-1);',
+            '  }',
+            '',
+            '  function onPlacedPointerDown(e,holeIdx){',
+            '    if(phase!=="fill")return;',
+            '    var thumb=e.currentTarget;',
+            '    if(!thumb||thumb.getAttribute("data-locked")==="1")return;',
+            '    var optionIndex=placements[holeIdx];',
+            '    if(typeof optionIndex!=="number")return;',
+            '    delete placements[holeIdx];',
+            '    syncHole(holeIdx);',
+            '    syncPaletteVisibility(optionIndex);',
+            '    var home=paletteBtn(optionIndex);',
+            '    startDrag(e,optionIndex,home,"hole",holeIdx);',
+            '  }',
+            '',
+            '  function clearDropHover(){',
+            '    if(!overlayEl)return;',
+            '    var hs=overlayEl.querySelectorAll(\'.lcs-hole[data-droptarget]\');',
+            '    for(var i=0;i<hs.length;i++) hs[i].removeAttribute("data-droptarget");',
+            '    var bs=overlayEl.querySelectorAll(\'.lcs-tile__btn[data-drop-hover]\');',
+            '    for(var j=0;j<bs.length;j++) bs[j].removeAttribute("data-drop-hover");',
+            '  }',
+            '',
+            '  function dropTargetAtPoint(x,y){',
+            '    if(!drag||!overlayEl) return null;',
+            '    // Holes first.',
+            '    for(var i=0;i<holes.length;i++){',
+            '      var h=holes[i];var el=holeEls[h.index];if(!el) continue;',
+            '      var r=el.getBoundingClientRect();',
+            '      if(x>=r.left&&x<=r.right&&y>=r.top&&y<=r.bottom){',
+            '        // Reject holes already filled by a different piece.',
+            '        if(placements.hasOwnProperty(h.index)&&placements[h.index]!==drag.optionIndex){',
+            '          return { kind:"reject", el:el };',
+            '        }',
+            '        return { kind:"hole", holeIndex:h.index, el:el };',
+            '      }',
+            '    }',
+            '    // Source palette home (return-to-strip).',
+            '    var home=paletteBtn(drag.optionIndex);',
+            '    if(home){',
+            '      var hr=home.getBoundingClientRect();',
+            '      if(x>=hr.left&&x<=hr.right&&y>=hr.top&&y<=hr.bottom){',
+            '        return { kind:"home", el:home };',
+            '      }',
+            '    }',
+            '    return null;',
+            '  }',
+            '',
+            '  function onDragMove(e){',
+            '    if(!drag||e.pointerId!==drag.pointerId)return;',
+            '    drag.ghost.style.left=e.clientX+"px";',
+            '    drag.ghost.style.top=e.clientY+"px";',
+            '    clearDropHover();',
+            '    var t=dropTargetAtPoint(e.clientX,e.clientY);',
+            '    if(!t) return;',
+            '    if(t.kind==="hole") t.el.setAttribute("data-droptarget","ok");',
+            '    else if(t.kind==="reject") t.el.setAttribute("data-droptarget","reject");',
+            '    else if(t.kind==="home") t.el.setAttribute("data-drop-hover","ok");',
+            '  }',
+            '',
+            '  function endDrag(){',
+            '    if(!drag)return;',
+            '    if(drag.sourceBtn){',
+            '      drag.sourceBtn.removeAttribute("data-dragging");',
+            '      try{drag.sourceBtn.releasePointerCapture&&drag.sourceBtn.releasePointerCapture(drag.pointerId);}catch(e){}',
+            '    }',
+            '    if(drag.ghost&&drag.ghost.parentNode) drag.ghost.parentNode.removeChild(drag.ghost);',
+            '    window.removeEventListener("pointermove",onDragMove);',
+            '    window.removeEventListener("pointerup",onDragUp);',
+            '    window.removeEventListener("pointercancel",onDragCancel);',
+            '    clearDropHover();',
+            '    drag=null;',
+            '  }',
+            '',
+            '  function onDragCancel(e){',
+            '    if(!drag||e.pointerId!==drag.pointerId)return;',
+            '    if(drag.sourceKind==="hole"&&drag.fromHoleIndex>=0){',
+            '      placements[drag.fromHoleIndex]=drag.optionIndex;',
+            '      syncHole(drag.fromHoleIndex);',
+            '    }',
+            '    syncPaletteVisibility(drag.optionIndex);',
+            '    endDrag();',
+            '  }',
+            '',
+            '  function onDragUp(e){',
+            '    if(!drag||e.pointerId!==drag.pointerId)return;',
+            '    var optionIndex=drag.optionIndex;',
+            '    var srcKind=drag.sourceKind;',
+            '    var fromHoleIndex=drag.fromHoleIndex;',
+            '    var t=dropTargetAtPoint(e.clientX,e.clientY);',
+            '    if(t&&t.kind==="hole"){',
+            '      var holeIdx=t.holeIndex;',
+            '      // If that hole already had this same piece (re-drop on origin), no-op.',
+            '      if(!(placements[holeIdx]===optionIndex)) placements[holeIdx]=optionIndex;',
+            '      syncHole(holeIdx);',
+            '      syncPaletteVisibility(optionIndex);',
+            '      playTone(560,0.06);',
+            '      updateProgress();',
+            '      updateCheckButton();',
+            '      endDrag();',
+            '    }else if(t&&t.kind==="home"){',
+            '      // Drop on the source piece\'s palette home — return.',
+            '      syncPaletteVisibility(optionIndex);',
+            '      playTone(440,0.05);',
+            '      updateProgress();',
+            '      updateCheckButton();',
+            '      endDrag();',
+            '    }else{',
+            '      // Miss / reject. Snap back to where we picked up from.',
+            '      if(srcKind==="hole"&&fromHoleIndex>=0){',
+            '        placements[fromHoleIndex]=optionIndex;',
+            '        syncHole(fromHoleIndex);',
+            '      }',
+            '      syncPaletteVisibility(optionIndex);',
+            '      updateProgress();',
+            '      updateCheckButton();',
+            '      playTone(220,0.08);',
+            '      endDrag();',
+            '    }',
+            '  }',
+            '',
+            '  function syncPaletteVisibility(optionIndex){',
+            '    var btn=paletteBtn(optionIndex);if(!btn)return;',
+            '    if(btn.getAttribute("data-locked")==="1") return;',
+            '    var deployed=false;',
+            '    for(var k in placements){ if(placements[k]===optionIndex){ deployed=true; break; } }',
+            '    if(deployed) btn.setAttribute("data-deployed","1");',
+            '    else btn.removeAttribute("data-deployed");',
+            '  }',
+            '',
+            '  function syncHole(holeIdx){',
+            '    var el=holeEls[holeIdx];if(!el)return;',
+            '    // Clear current placed piece.',
+            '    var existing=el.querySelectorAll(".lcs-placed-piece");',
+            '    for(var i=0;i<existing.length;i++) if(existing[i].parentNode) existing[i].parentNode.removeChild(existing[i]);',
+            '    if(placements.hasOwnProperty(holeIdx)){',
+            '      var optionIndex=placements[holeIdx];',
+            '      var o=optionFor(optionIndex);',
+            '      var pp=document.createElement("div");',
+            '      pp.className="lcs-placed-piece";',
+            '      pp.setAttribute("data-option-idx",String(optionIndex));',
+            '      if(o&&o.imgDataUrl){',
+            '        var img=document.createElement("img");img.alt="";img.src=o.imgDataUrl;',
+            '        pp.appendChild(img);',
+            '      }',
+            '      if(phase==="reviewed"){',
+            '        if(wrongSet[holeIdx]) pp.classList.add("lcs-placed-piece--wrong");',
+            '        else pp.classList.add("lcs-placed-piece--correct");',
+            '        pp.setAttribute("data-locked","1");',
+            '      }else{',
+            '        pp.addEventListener("pointerdown",function(e){onPlacedPointerDown(e,holeIdx)});',
+            '      }',
+            '      el.appendChild(pp);',
+            '    }',
+            '  }',
+            '',
+            '  function updateCheckButton(){',
+            '    if(!checkBtn)return;',
+            '    if(phase!=="fill"){checkBtn.disabled=true;return;}',
+            '    var placedCount=Object.keys(placements).length;',
+            '    checkBtn.disabled=(placedCount<totalHoles);',
+            '  }',
+            '',
+            '  function updateProgress(){',
+            '    if(!progressEl)return;',
+            '    var n;',
+            '    if(phase==="reviewed"){',
+            '      n=0;',
+            '      holes.forEach(function(h){ if(!wrongSet[h.index]) n++; });',
+            '    }else{',
+            '      n=Object.keys(placements).length;',
+            '    }',
+            '    progressEl.textContent=fmt(T("progressLabel"),{n:n,total:totalHoles});',
+            '  }',
+            '',
+            '  function evaluateStrict(){',
+            '    var wrong={};var errs=0;',
+            '    holes.forEach(function(h){',
+            '      var p=placements[h.index];',
+            '      if(typeof p!=="number"||p!==h.correctOptionIndex){ wrong[h.index]=true; errs++; }',
+            '    });',
+            '    return { allCorrect:(errs===0), wrongSet:wrong };',
+            '  }',
+            '',
+            '  function checkAll(){',
+            '    if(phase!=="fill")return;',
+            '    if(Object.keys(placements).length<totalHoles) return;',
+            '    var res=evaluateStrict();',
+            '    wrongSet=res.wrongSet;',
+            '    phase="reviewed";',
+            '    // Lock all palette buttons.',
+            '    var pbtns=overlayEl.querySelectorAll(\'.lcs-tile__btn[data-kind="palette"]\');',
+            '    for(var i=0;i<pbtns.length;i++) pbtns[i].setAttribute("data-locked","1");',
+            '    // Re-render holes to apply correct/wrong styling and lock them.',
+            '    holes.forEach(function(h){ syncHole(h.index); });',
+            '    if(checkBtn) checkBtn.hidden=true;',
+            '    if(resetBtn) resetBtn.hidden=false;',
+            '    var correctCount=totalHoles-Object.keys(wrongSet).length;',
+            '    updateProgress();',
+            '    announce(correctCount+" of "+totalHoles+" correct");',
+            '    if(res.allCorrect){',
+            '      playTone(659.25,0.13);',
+            '      setTimeout(function(){playTone(987.77,0.18)},160);',
+            '      setTimeout(showCelebration,500);',
+            '    }else{',
+            '      playTone(440,0.1);',
+            '    }',
+            '  }',
+            '',
+            '  function wireButtons(){',
+            '    if(checkBtn) checkBtn.addEventListener("click",checkAll);',
+            '    if(resetBtn) resetBtn.addEventListener("click",resetAll);',
+            '  }',
+            '',
+            '  function resetAll(){',
+            '    celebrationShown=false;',
+            '    placements={};wrongSet={};phase="fill";',
+            '    if(drag) endDrag();',
+            '    if(overlayEl){',
+            '      var btns=overlayEl.querySelectorAll(".lcs-tile__btn");',
+            '      for(var i=0;i<btns.length;i++){',
+            '        btns[i].removeAttribute("data-locked");',
+            '        btns[i].removeAttribute("data-deployed");',
+            '        btns[i].removeAttribute("data-dragging");',
+            '        btns[i].removeAttribute("data-drop-hover");',
+            '      }',
+            '    }',
+            '    holes.forEach(function(h){ syncHole(h.index); });',
+            '    if(celebrationEl) celebrationEl.classList.remove("lcs-celebration--shown");',
+            '    if(checkBtn){checkBtn.hidden=false;checkBtn.disabled=true;}',
+            '    if(resetBtn){resetBtn.hidden=true}',
+            '    updateProgress();',
+            '  }',
+            '',
+            '  function playTone(freq,dur){',
+            '    if(muted)return;',
+            '    try{',
+            '      if(!audioCtx){var Ctx=window.AudioContext||window.webkitAudioContext;if(!Ctx)return;audioCtx=new Ctx()}',
+            '      if(audioCtx.state==="suspended")audioCtx.resume();',
+            '      var osc=audioCtx.createOscillator();var gain=audioCtx.createGain();',
+            '      osc.type="sine";osc.frequency.value=freq;',
+            '      var now=audioCtx.currentTime;',
+            '      gain.gain.setValueAtTime(0,now);gain.gain.linearRampToValueAtTime(0.14,now+0.012);gain.gain.linearRampToValueAtTime(0,now+dur);',
+            '      osc.connect(gain);gain.connect(audioCtx.destination);',
+            '      osc.start(now);osc.stop(now+dur+0.03);',
+            '    }catch(e){}',
+            '  }',
+            '  function announce(msg){if(liveEl)liveEl.textContent=msg}',
+            '',
+            '  function showCelebration(){',
+            '    if(celebrationShown)return;celebrationShown=true;',
+            '    if(resetBtn) resetBtn.hidden=false;',
+            '    var stars=3;var starsHTML="";',
+            '    for(var i=1;i<=3;i++){starsHTML+="<span class=\\"lcs-star"+(i<=stars?" lcs-star--filled":"")+"\\">\\u2605</span>"}',
+            '    celebrationEl.innerHTML=',
+            '      "<div class=\\"lcs-celebration__inner\\">"+',
+            '      "<h1 class=\\"lcs-celebration__title\\">"+T("youDidIt")+"</h1>"+',
+            '      "<div class=\\"lcs-stars\\" aria-label=\\""+stars+" out of 3 stars\\">"+starsHTML+"</div>"+',
+            '      "<p class=\\"lcs-celebration__sub\\">"+totalHoles+" / "+totalHoles+"</p>"+',
+            '      "<img class=\\"lcs-mini\\" alt=\\"Your completed worksheet\\" src=\\""+DECK_BUNDLE.worksheetImage+"\\" />"+',
+            '      "<div class=\\"lcs-celebration__cta\\">"+',
+            '        "<button class=\\"lcs-btn lcs-btn--ghost\\" type=\\"button\\" id=\\"lcs-do-another\\">"+T("doAnother")+"</button>"+',
+            '        "<button class=\\"lcs-btn lcs-btn--ghost\\" type=\\"button\\" id=\\"lcs-cel-print\\">"+T("printMyWorksheet")+"</button>"+',
+            '      "</div></div>"+',
+            '      "<div class=\\"lcs-confetti\\" aria-hidden=\\"true\\"></div>";',
+            '    celebrationEl.classList.add("lcs-celebration--shown");',
+            '    announce(T("youDidIt"));',
+            '    playTone(659.25,0.13);',
+            '    setTimeout(function(){playTone(987.77,0.18)},160);',
+            '    document.getElementById("lcs-do-another").addEventListener("click",function(){location.reload()});',
+            '    document.getElementById("lcs-cel-print").addEventListener("click",function(){window.print()});',
+            '    if(!reducedMotion)spawnConfetti();',
+            '  }',
+            '  function spawnConfetti(){',
+            '    var layer=celebrationEl.querySelector(".lcs-confetti");if(!layer)return;',
+            '    var colors=["#4E5FE8","#4CAF50","#FF8A65","#FFC857","#6AB7FF","#B39DDB"];',
+            '    for(var i=0;i<48;i++){',
+            '      var c=document.createElement("span");c.className="lcs-confetti__piece";',
+            '      c.style.left=(Math.random()*100)+"%";',
+            '      c.style.background=colors[i%colors.length];',
+            '      c.style.animationDelay=(Math.random()*0.5)+"s";',
+            '      c.style.animationDuration=(1.8+Math.random()*1.3)+"s";',
+            '      c.style.transform="rotate("+(Math.random()*360)+"deg)";',
+            '      layer.appendChild(c);',
+            '    }',
+            '  }',
+            '',
+            '  function wireMute(){muteBtn.addEventListener("click",function(){muted=!muted;try{localStorage.setItem("lcsMuted",muted?"1":"0")}catch(e){}updateMuteButton()})}',
+            '  function updateMuteButton(){',
+            '    muteBtn.setAttribute("aria-label",muted?T("unmute"):T("mute"));',
+            '    muteBtn.setAttribute("data-muted",muted?"1":"0");',
+            '    muteBtn.innerHTML=muted',
+            '      ? "<svg viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\"><path d=\\"M11 5L6 9H2v6h4l5 4V5z\\"/><line x1=\\"23\\" y1=\\"9\\" x2=\\"17\\" y2=\\"15\\"/><line x1=\\"17\\" y1=\\"9\\" x2=\\"23\\" y2=\\"15\\"/></svg>"',
+            '      : "<svg viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\"><path d=\\"M11 5L6 9H2v6h4l5 4V5z\\"/><path d=\\"M15.54 8.46a5 5 0 0 1 0 7.07\\"/><path d=\\"M19.07 4.93a10 10 0 0 1 0 14.14\\"/></svg>";',
+            '  }',
+            '',
+            '  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);',
+            '  else init();',
+            '})();'
+        ];
+
+        function renderStandaloneHTML(bundle) {
+            var css = INTERACTIVE_CSS_LINES.join('\n');
+            var runtime = INTERACTIVE_RUNTIME_LINES.join('\n');
+            var bundleJSON = JSON.stringify(bundle);
+            var lang = (bundle.contentLanguage || 'en').slice(0, 2);
+            var title = bundle.title || 'Missing Pieces';
+            var parts = [];
+            parts.push('<!DOCTYPE html>');
+            parts.push('<html lang="' + lang + '">');
+            parts.push('<head>');
+            parts.push('<meta charset="UTF-8">');
+            parts.push('<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">');
+            parts.push('<meta name="theme-color" content="#FEFAF3">');
+            parts.push('<title>' + title + '</title>');
+            parts.push('<link rel="preconnect" href="https://fonts.googleapis.com">');
+            parts.push('<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>');
+            parts.push('<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">');
+            parts.push('<style>' + css + '</style>');
+            parts.push('</head>');
+            parts.push('<body>');
+            parts.push('<main id="lcs-app">');
+            parts.push('  <div class="lcs-bar">');
+            parts.push('    <h1 class="lcs-title" id="lcs-title">' + title + '</h1>');
+            parts.push('    <span class="lcs-progress" id="lcs-progress" aria-live="polite">0 / 0</span>');
+            parts.push('    <button type="button" id="lcs-mute" class="lcs-mute" aria-label="Mute sounds"></button>');
+            parts.push('  </div>');
+            parts.push('  <div class="lcs-worksheet-wrap">');
+            parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');
+            parts.push('      <img class="lcs-worksheet__img" id="lcs-worksheet-img" alt="" src="' + bundle.worksheetImage + '">');
+            parts.push('      <div class="lcs-overlay" id="lcs-overlay"></div>');
+            parts.push('    </div>');
+            parts.push('  </div>');
+            parts.push('</main>');
+            parts.push('<footer class="lcs-footer">');
+            parts.push('  <button type="button" id="lcs-check" class="lcs-btn lcs-btn--primary" disabled>Check Answers</button>');
+            parts.push('  <button type="button" id="lcs-reset" class="lcs-btn lcs-btn--ghost" hidden>Try Again</button>');
+            parts.push('</footer>');
+            parts.push('<div class="lcs-celebration" id="lcs-celebration" role="dialog" aria-modal="true" aria-label="You did it!"></div>');
+            parts.push('<div class="lcs-sr" id="lcs-live" role="status" aria-live="polite"></div>');
+            parts.push('<script>var DECK_BUNDLE = ' + bundleJSON + ';<\/script>');
+            parts.push('<script>' + runtime + '<\/script>');
+            parts.push('</body>');
+            parts.push('</html>');
+            return parts.join('\n');
+        }
+
+        async function downloadInteractiveHtml(canvasInstance, fileName, options) {
+            var loadingMode = (options && options.loadingMode) || 'inline';
+            if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
+                showMessage('Please generate a worksheet first.', 'error');
+                return;
+            }
+            showMessage('Preparing ' + fileName + '...', 'info', 0);
+            try {
+                var bundle = await extractDeckBundle(canvasInstance, { loadingMode: loadingMode });
+                if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
+                    throw new Error('Worksheet snapshot is empty.');
+                }
+                if (!bundle.holes || bundle.holes.length === 0) {
+                    throw new Error('No missing-piece holes detected. Regenerate and try again.');
+                }
+                if (!bundle.optionsData || bundle.optionsData.length === 0) {
+                    throw new Error('No option pieces detected. Regenerate and try again.');
+                }
+                var html = renderStandaloneHTML(bundle);
+                var blob = new Blob([html], { type: 'text/html;charset=utf-8' });
+                var url = URL.createObjectURL(blob);
+                var a = document.createElement('a');
+                a.href = url;
+                a.download = fileName;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+                showMessage('Interactive worksheet downloaded.', 'success');
+            } catch (e) {
+                console.error('[Interactive Export v26.1] Failed:', e);
+                showMessage('Interactive export failed: ' + e.message, 'error');
+            }
+        }
+        // END: Interactive-HTML export v26.1
+
         async function getCanvasDataURL(canvasInstance, exportOpts) {
             // Save current state
             const currentZoom = canvasInstance.getZoom();
@@ -3661,6 +4410,8 @@ async function downloadPDF(canvasToExport, filename) {
             if(worksheetCanvas) worksheetCanvas.backgroundColor = '#FFFFFF';
             if(answerKeyCanvas) answerKeyCanvas.backgroundColor = '#FFFFFF';
             [generateAnswerKeyBtn, downloadWorksheetJpegBtn, downloadAnswerKeyJpegBtn, downloadWorksheetPdfBtn, downloadAnswerKeyPdfBtn].forEach(b => b.disabled = true);
+            if (downloadInteractiveHtmlBtn)          downloadInteractiveHtmlBtn.disabled          = true;
+            if (downloadInteractiveHtmlReferenceBtn) downloadInteractiveHtmlReferenceBtn.disabled = true;
             if (generateDropdownContent) generateDropdownContent.style.display = 'none';
             if (downloadDropdownContent) downloadDropdownContent.style.display = 'none';
             pageSizeSelect.value = "612x792";
@@ -3714,6 +4465,14 @@ async function downloadPDF(canvasToExport, filename) {
         downloadAnswerKeyJpegBtn.addEventListener("click", () => downloadImageFile(answerKeyCanvas, "answer_key.jpeg"));
         downloadWorksheetPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, "worksheet.pdf"));
         downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, "answer_key.pdf"));
+        if (downloadInteractiveHtmlBtn) {
+            downloadInteractiveHtmlBtn.addEventListener("click", () =>
+                downloadInteractiveHtml(worksheetCanvas, 'missing_pieces_interactive.html', { loadingMode: 'inline' }));
+        }
+        if (downloadInteractiveHtmlReferenceBtn) {
+            downloadInteractiveHtmlReferenceBtn.addEventListener("click", () =>
+                downloadInteractiveHtml(worksheetCanvas, 'missing_pieces_interactive_catalog.html', { loadingMode: 'reference' }));
+        }
 
         themeSelect.addEventListener("change", loadDictionary);
         searchInput.addEventListener("input", () => { if (this.searchTimeout) clearTimeout(this.searchTimeout); this.searchTimeout = setTimeout(loadDictionary, 300); });

@@ -2986,27 +2986,35 @@
                 }
             }
             
-            // v22.0 — capture per-cell world rects before the grid Group is
-            // built (at the pre-operator-transform scale). Stored on the
-            // lastGeneratedData so the exporter can find them later.
+            // v22.4.0 — tag each cell with an INVISIBLE marker rect inside the
+            // gridGroup so extractDeckBundle can walk them at download time and
+            // compute world rects via calcTransformMatrix per cell. This honors
+            // operator drags/scales of the gridGroup (formerly stale because
+            // _exportGridCells was baked at generate time). Markers are
+            // transparent, non-interactive, sized to one cell.
             if (!isAnswerKey) {
-                const cellWorldRects = [];
                 for (let r = 0; r < appState.config.rows; r++) {
                     for (let c = 0; c < appState.config.cols; c++) {
                         const i = r * appState.config.cols + c;
-                        cellWorldRects.push({
-                            index: i, row: r, col: c,
-                            isClue: revealIndices.includes(i),
-                            rect: {
-                                x: gridPositionLeft + c * cellW,
-                                y: gridPositionTop + r * cellH,
-                                w: cellW,
-                                h: cellH
-                            }
+                        const marker = new fabric.Rect({
+                            left: c * cellW,
+                            top: r * cellH,
+                            width: cellW,
+                            height: cellH,
+                            fill: 'transparent',
+                            stroke: 'transparent',
+                            selectable: false,
+                            evented: false,
+                            objectCaching: false
                         });
+                        marker.isGridMatchCell = true;
+                        marker.cellIndex = i;
+                        marker.cellRow = r;
+                        marker.cellCol = c;
+                        marker.isClueCell = revealIndices.includes(i);
+                        gridElements.push(marker);
                     }
                 }
-                appState.lastGeneratedData._exportGridCells = cellWorldRects;
             }
 
             for(let i = 0; i < cells.length; i++) {
@@ -3282,20 +3290,16 @@
                 item.set({ left: newX, top: newY });
             });
             
-            // v22.0 — capture per-palette-tile world rects for the exporter.
-            // Uses each item's LOCAL newX/newY that we just set, plus the
-            // palette group's outer position.
-            const paletteWorldRects = allItems.map((item, i) => ({
-                paletteNumber: i + 1,
-                originalCellIndex: shuffledIndices[i],
-                rect: {
-                    x: paletteLeft + item.left,
-                    y: paletteTop + item.top,
-                    w: itemWidth,
-                    h: itemHeight
-                }
-            }));
-            appState.lastGeneratedData._exportPaletteTiles = paletteWorldRects;
+            // v22.4.0 — tag each palette item so extractDeckBundle can walk
+            // them at download time and compute world rects via
+            // calcTransformMatrix. Honors operator drags/scales of the
+            // paletteGroup (formerly stale because _exportPaletteTiles was
+            // baked at generate time).
+            allItems.forEach((item, i) => {
+                item.isGridMatchPaletteTile = true;
+                item.paletteNumber = i + 1;
+                item.paletteOriginalCellIndex = shuffledIndices[i];
+            });
 
             const paletteGroupConfig = {
                 left: paletteLeft,
@@ -3367,40 +3371,32 @@
 
                     wsCanvas.renderAll();
 
-                    // v22.0 — snapshot the interactive-export data onto the
-                    // worksheet canvas. Deep-copies critical fields so later
-                    // mutations of appState cannot bleed through (find-and-count
-                    // v19.1.1 defensive-copy pattern).
+                    // v22.4.0 — snapshot the canvas-independent fields onto
+                    // worksheet.problemsData. Per-cell + per-tile world rects
+                    // are now walked FRESH in extractDeckBundle so operator
+                    // drags/scales of the gridGroup or paletteGroup between
+                    // Generate and Download are honored. Deep-copies critical
+                    // fields so later mutations of appState cannot bleed
+                    // through (find-and-count v19.1.1 defensive-copy pattern).
                     try {
                         const lgd = appState.lastGeneratedData;
                         if (lgd) {
-                            const gridCells = (lgd._exportGridCells || []).map(c => ({
-                                index: c.index, row: c.row, col: c.col,
-                                isClue: c.isClue,
-                                rect: { x: c.rect.x, y: c.rect.y, w: c.rect.w, h: c.rect.h }
-                            }));
-                            const paletteTiles = (lgd._exportPaletteTiles || []).map(p => ({
-                                paletteNumber: p.paletteNumber,
-                                originalCellIndex: p.originalCellIndex,
-                                rect: { x: p.rect.x, y: p.rect.y, w: p.rect.w, h: p.rect.h }
-                            }));
-
                             // Pre-crop each palette tile's underlying source-image
-                            // region to a WebP data URL, sized to match the grid cell
-                            // (so the runtime can overlay it directly on a correct
-                            // match).
+                            // region to a WebP data URL, sized to match the grid cell.
+                            // Iteration order matches palette tile creation order
+                            // (allItems index → paletteNumber = i+1 → shuffledIndices[i]).
                             const paletteReveals = [];
-                            if (lgd.imgObj && lgd.cropData && lgd.gridMetrics) {
+                            if (lgd.imgObj && lgd.cropData && lgd.gridMetrics && Array.isArray(lgd.shuffledIndices)) {
                                 const { cellW, cellH, renderScale } = lgd.gridMetrics;
                                 const cropWidth = cellW * renderScale;
                                 const cropHeight = cellH * renderScale;
                                 const outW = Math.max(32, Math.round(cellW * 2));
                                 const outH = Math.max(32, Math.round(cellH * 2));
-                                for (let pi = 0; pi < paletteTiles.length; pi++) {
-                                    const pt = paletteTiles[pi];
-                                    const origCell = pt.originalCellIndex;
+                                for (let pi = 0; pi < lgd.shuffledIndices.length; pi++) {
+                                    const paletteNumber = pi + 1;
+                                    const origCell = lgd.shuffledIndices[pi];
                                     const crop = lgd.cropData[origCell];
-                                    if (!crop) { paletteReveals.push({ paletteNumber: pt.paletteNumber, imgDataUrl: '' }); continue; }
+                                    if (!crop) { paletteReveals.push({ paletteNumber: paletteNumber, imgDataUrl: '' }); continue; }
                                     const tmp = document.createElement('canvas');
                                     tmp.width = outW;
                                     tmp.height = outH;
@@ -3412,26 +3408,24 @@
                                             0, 0, outW, outH
                                         );
                                     } catch (err) {
-                                        console.warn('[grid-match v22.0] paletteReveal draw failed for', pt.paletteNumber, err);
+                                        console.warn('[grid-match v22.4.0] paletteReveal draw failed for', paletteNumber, err);
                                     }
                                     let url = '';
                                     try { url = tmp.toDataURL('image/webp', 0.85); }
                                     catch (err) { try { url = tmp.toDataURL('image/jpeg', 0.85); } catch (e2) { url = ''; } }
-                                    paletteReveals.push({ paletteNumber: pt.paletteNumber, imgDataUrl: url });
+                                    paletteReveals.push({ paletteNumber: paletteNumber, imgDataUrl: url });
                                 }
                             }
 
                             wsCanvas.problemsData = {
                                 gridDims: { rows: appState.config.rows, cols: appState.config.cols },
-                                gridCells: gridCells,
-                                paletteTiles: paletteTiles,
                                 solutionLabels: (lgd.solutionLabels || []).slice(),
                                 revealIndices: (lgd.revealIndices || []).slice(),
                                 paletteReveals: paletteReveals
                             };
                         }
                     } catch (err) {
-                        console.warn('[grid-match v22.0] failed to capture problemsData:', err);
+                        console.warn('[grid-match v22.4.0] failed to capture problemsData:', err);
                     }
 
                     // Enable worksheet-specific download buttons
@@ -3559,19 +3553,79 @@
         async function extractDeckBundle(canvas, options) {
             var loadingMode = (options && options.loadingMode === 'reference') ? 'reference' : 'inline';
             var pd = canvas.problemsData || null;
-            if (!pd || !Array.isArray(pd.gridCells) || !Array.isArray(pd.paletteTiles) || !Array.isArray(pd.solutionLabels)) {
+            if (!pd || !pd.gridDims || !Array.isArray(pd.solutionLabels)) {
                 throw new Error('No problemsData on canvas. Generate a worksheet first.');
             }
-            if (pd.gridCells.length !== pd.paletteTiles.length) {
-                throw new Error('Grid/palette count mismatch (' + pd.gridCells.length + ' vs ' + pd.paletteTiles.length + ').');
+
+            // v22.4.0 — walk the canvas FRESH for tagged cell markers and
+            // palette tiles. Operator drags/scales of the gridGroup or
+            // paletteGroup between Generate and Download are honored because
+            // calcTransformMatrix on a child composes the parent's CURRENT
+            // transform (cryptogram v16 / crossword v31.0.3 pattern).
+            function worldRectOf(obj) {
+                var m = obj.calcTransformMatrix();
+                var hw = (obj.width || 1) / 2;
+                var hh = (obj.height || 1) / 2;
+                var pts = [
+                    fabric.util.transformPoint({ x: -hw, y: -hh }, m),
+                    fabric.util.transformPoint({ x:  hw, y: -hh }, m),
+                    fabric.util.transformPoint({ x:  hw, y:  hh }, m),
+                    fabric.util.transformPoint({ x: -hw, y:  hh }, m)
+                ];
+                var xs = pts.map(function (p) { return p.x; });
+                var ys = pts.map(function (p) { return p.y; });
+                var minX = Math.min.apply(null, xs), maxX = Math.max.apply(null, xs);
+                var minY = Math.min.apply(null, ys), maxY = Math.max.apply(null, ys);
+                return { x: minX, y: minY, w: maxX - minX, h: maxY - minY };
             }
+
+            var taggedCells = [];
+            var taggedTiles = [];
+            (function walk(objs) {
+                if (!objs) return;
+                objs.forEach(function (o) {
+                    if (!o) return;
+                    if (o.isGridMatchCell === true) taggedCells.push(o);
+                    if (o.isGridMatchPaletteTile === true) taggedTiles.push(o);
+                    if (o._objects) walk(o._objects);
+                });
+            })(canvas.getObjects());
+
+            taggedCells.sort(function (a, b) { return (a.cellIndex || 0) - (b.cellIndex || 0); });
+            taggedTiles.sort(function (a, b) { return (a.paletteNumber || 0) - (b.paletteNumber || 0); });
+
+            var expectedCells = (pd.gridDims.rows || 0) * (pd.gridDims.cols || 0);
+            if (taggedCells.length !== expectedCells) {
+                throw new Error('Grid cell count mismatch (' + taggedCells.length + ', expected ' + expectedCells + '). Regenerate the worksheet.');
+            }
+            if (taggedTiles.length !== (pd.paletteReveals || []).length) {
+                throw new Error('Palette tile count mismatch (' + taggedTiles.length + ', expected ' + (pd.paletteReveals || []).length + '). Regenerate the worksheet.');
+            }
+
+            var gridCells = taggedCells.map(function (o) {
+                return {
+                    index: o.cellIndex,
+                    row: o.cellRow,
+                    col: o.cellCol,
+                    isClue: !!o.isClueCell,
+                    rect: worldRectOf(o)
+                };
+            });
+
+            var paletteTiles = taggedTiles.map(function (o) {
+                return {
+                    paletteNumber: o.paletteNumber,
+                    originalCellIndex: o.paletteOriginalCellIndex,
+                    rect: worldRectOf(o)
+                };
+            });
 
             var worksheetImage = await _captureWorksheetImage(canvas);
             var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
                 ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
             return {
-                bundleVersion: '22.3.0',
+                bundleVersion: '22.4.0',
                 schemaFormat: 'image-references-v3',
                 loadingMode: loadingMode,
                 appType: 'grid-match',
@@ -3581,8 +3635,8 @@
                 page: { width: currentCanvasConfig.width, height: currentCanvasConfig.height },
                 worksheetImage: worksheetImage,
                 gridDims: pd.gridDims,
-                gridCells: pd.gridCells,
-                paletteTiles: pd.paletteTiles,
+                gridCells: gridCells,
+                paletteTiles: paletteTiles,
                 solutionLabels: pd.solutionLabels,
                 revealIndices: pd.revealIndices,
                 paletteReveals: pd.paletteReveals || [],

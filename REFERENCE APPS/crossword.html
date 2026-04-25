@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
+    <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1287,6 +1288,9 @@
                             <button id="downloadWorksheetPdfBtn" disabled data-translate="worksheetPdf">Crossword (PDF)</button>
                             <button id="downloadAnswerKeyPdfBtn" disabled data-translate="answerKeyPdf">Answer Key (PDF)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadInteractiveHtmlBtn" disabled>Interactive Worksheet (HTML)</button>
+                            <button id="downloadInteractiveHtmlReferenceBtn" disabled title="For server-hosted catalog playback. Smaller file, requires the same site to host the WebP library.">Interactive Worksheet (Catalog/URL refs)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
                             <label class="checkbox-label" id="grayscaleLabel">
                                 <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
                             </label>
@@ -1395,6 +1399,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const downloadAnswerKeyJpegBtn = getEl("downloadAnswerKeyJpegBtn");
     const downloadWorksheetPdfBtn = getEl("downloadWorksheetPdfBtn");
     const downloadAnswerKeyPdfBtn = getEl("downloadAnswerKeyPdfBtn");
+    const downloadInteractiveHtmlBtn = getEl("downloadInteractiveHtmlBtn");
+    const downloadInteractiveHtmlReferenceBtn = getEl("downloadInteractiveHtmlReferenceBtn");
 
     const clearBtn = getEl("clearBtn");
     const grayscaleToggle = getEl('grayscaleToggle');
@@ -1676,6 +1682,14 @@ document.addEventListener("DOMContentLoaded", function() {
         downloadAnswerKeyJpegBtn.addEventListener("click", () => downloadImageFile(answerKeyCanvas, "crossword_answer_key.jpeg"));
         downloadWorksheetPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, "image-crossword-worksheet.pdf"));
         downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, "image-crossword-answer-key.pdf"));
+        if (downloadInteractiveHtmlBtn) {
+            downloadInteractiveHtmlBtn.addEventListener("click", () =>
+                downloadInteractiveHtml(worksheetCanvas, 'crossword_interactive.html', { loadingMode: 'inline' }));
+        }
+        if (downloadInteractiveHtmlReferenceBtn) {
+            downloadInteractiveHtmlReferenceBtn.addEventListener("click", () =>
+                downloadInteractiveHtml(worksheetCanvas, 'crossword_interactive_catalog.html', { loadingMode: 'reference' }));
+        }
 
         // Zoom Controls (from wordsearch lines 1520-1522)
         zoomInBtn.addEventListener('click', zoomIn);
@@ -2458,7 +2472,109 @@ document.addEventListener("DOMContentLoaded", function() {
 
         enforceZOrder(worksheetCanvas);
         userAddedObjects.forEach(obj => obj.bringToFront());
+
+        // v31.0 — bake LCSAttribution onto the worksheet canvas so PDF/JPEG/
+        // interactive exports all carry the footer.
+        worksheetCanvas.getObjects().filter(o => o.isAttribution).forEach(o => worksheetCanvas.remove(o));
+        if (window.LCSAttribution && LCSAttribution.addToCanvas) {
+            LCSAttribution.addToCanvas(worksheetCanvas, { currentCanvasConfig });
+        }
+
         worksheetCanvas.renderAll();
+
+        // v31.0.1 — capture problemsData for the interactive export. Walk the
+        // canvas recursively for every isCrosswordBlankCell rect (lives inside
+        // the gridGroup) and compute its world rect via calcTransformMatrix —
+        // the matrix composes the parent group's transform, so transformed
+        // corners are true world coords (CLAUDE.md §14.7, mirrors cryptogram v16).
+        try {
+            const grid = worksheetCanvas.getObjects().find(o => o.isCrosswordGrid);
+            if (grid && grid.crosswordMeta) {
+                const meta = grid.crosswordMeta;
+
+                function worldRectOf(rect) {
+                    const m = rect.calcTransformMatrix();
+                    const hw = (rect.width || 1) / 2;
+                    const hh = (rect.height || 1) / 2;
+                    const pts = [
+                        fabric.util.transformPoint({ x: -hw, y: -hh }, m),
+                        fabric.util.transformPoint({ x:  hw, y: -hh }, m),
+                        fabric.util.transformPoint({ x:  hw, y:  hh }, m),
+                        fabric.util.transformPoint({ x: -hw, y:  hh }, m)
+                    ];
+                    const xs = pts.map(p => p.x), ys = pts.map(p => p.y);
+                    const minX = Math.min.apply(null, xs), maxX = Math.max.apply(null, xs);
+                    const minY = Math.min.apply(null, ys), maxY = Math.max.apply(null, ys);
+                    return { x: minX, y: minY, w: maxX - minX, h: maxY - minY };
+                }
+
+                const taggedCells = [];
+                (function walk(objs) {
+                    if (!objs) return;
+                    objs.forEach(function (o) {
+                        if (!o) return;
+                        if (o.isCrosswordBlankCell === true) taggedCells.push(o);
+                        if (o._objects) walk(o._objects);
+                    });
+                })(worksheetCanvas.getObjects());
+
+                const cells = taggedCells.map(o => ({
+                    r: o.crossR,
+                    c: o.crossC,
+                    rect: worldRectOf(o),
+                    correctLetter: String(o.correctLetter || '').toUpperCase(),
+                    number: (o.crossNumber != null) ? o.crossNumber : (meta.numbers[o.crossR + ',' + o.crossC] || null)
+                }));
+
+                // Words: assign each its cell list. clueNum = the placedWord's num.
+                const words = meta.placedWords.map(p => {
+                    const cellsList = [];
+                    for (let k = 0; k < p.word.length; k++) {
+                        const r = p.dir === 'down' ? p.y + k : p.y;
+                        const c = p.dir === 'across' ? p.x + k : p.x;
+                        cellsList.push({ r: r, c: c });
+                    }
+                    return {
+                        id: p.dir + '-' + p.num,
+                        dir: p.dir,
+                        startR: p.y,
+                        startC: p.x,
+                        length: p.word.length,
+                        answer: String(p.word).toUpperCase(),
+                        clueNum: p.num,
+                        cells: cellsList
+                    };
+                });
+
+                // Per-clue world rects.
+                const clueObjs = worksheetCanvas.getObjects().filter(o => o.isCrosswordClue);
+                const clues = meta.clues.map(cl => {
+                    const obj = clueObjs.find(o => o.clueNum === cl.num);
+                    const r = obj ? obj.getBoundingRect(true, true) : null;
+                    return {
+                        num: cl.num,
+                        word: cl.word,
+                        type: cl.type,
+                        path: cl.path,
+                        hint: cl.hint,
+                        name: cl.name,
+                        rect: r ? { x: r.left, y: r.top, w: r.width, h: r.height } : null
+                    };
+                });
+
+                worksheetCanvas.problemsData = {
+                    gridDims: meta.gridDims,
+                    cells: cells,
+                    words: words,
+                    clues: clues
+                };
+            }
+        } catch (e) {
+            console.warn('[crossword v31.0] failed to capture problemsData:', e);
+        }
+
+        if (typeof downloadInteractiveHtmlBtn !== 'undefined' && downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = false;
+        if (typeof downloadInteractiveHtmlReferenceBtn !== 'undefined' && downloadInteractiveHtmlReferenceBtn) downloadInteractiveHtmlReferenceBtn.disabled = false;
     }
     
     async function renderAnswerKey() {
@@ -2491,6 +2607,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
         enforceZOrder(answerKeyCanvas);
         userAddedObjects.forEach(obj => obj.bringToFront());
+
+        // v31.0 — bake LCSAttribution onto the answer-key canvas as well.
+        answerKeyCanvas.getObjects().filter(o => o.isAttribution).forEach(o => answerKeyCanvas.remove(o));
+        if (window.LCSAttribution && LCSAttribution.addToCanvas) {
+            LCSAttribution.addToCanvas(answerKeyCanvas, { currentCanvasConfig });
+        }
+
         answerKeyCanvas.renderAll();
     }
 
@@ -2988,7 +3111,13 @@ document.addEventListener("DOMContentLoaded", function() {
         const gridData = buildGridFromString(lastGeneratedPlacedWords);
         const numberMap = new Map();
         lastGeneratedPlacedWords.forEach(p => numberMap.set(`${p.y},${p.x}`, p.num));
-        
+
+        // v31.0.1 — sidecar metadata for the interactive export. Cells are
+        // tagged individually below (isCrosswordBlankCell) so the export can
+        // walk them and use calcTransformMatrix per cell — robust against
+        // group bbox stroke padding.
+        const numbersBundle = {};
+
         // Find actual grid bounds (non-empty cells)
         let minRow = N, maxRow = -1, minCol = N, maxCol = -1;
         for(let r = 0; r < N; r++) {
@@ -3001,28 +3130,38 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             }
         }
-        
+
         const actualGridWidth = (maxCol - minCol + 1) * cellSize;
         const actualGridHeight = (maxRow - minRow + 1) * cellSize;
-        
+
         // Create grid cells
         for(let r = minRow; r <= maxRow; r++) {
             for(let c = minCol; c <= maxCol; c++) {
                 if(gridData[r][c]) {
                     const x = (c - minCol) * cellSize;
                     const y = (r - minRow) * cellSize;
-                    
-                    gridObjects.push(new fabric.Rect({ 
-                        left: x, 
-                        top: y, 
-                        width: cellSize, 
-                        height: cellSize, 
-                        fill: 'white', 
-                        stroke: '#ccc', 
-                        strokeWidth: 1, 
-                        selectable: false, 
-                        evented: false 
-                    }));
+
+                    const numAtCell = numberMap.get(`${r},${c}`);
+                    if (numAtCell !== undefined) numbersBundle[r + ',' + c] = numAtCell;
+
+                    const cellRect = new fabric.Rect({
+                        left: x,
+                        top: y,
+                        width: cellSize,
+                        height: cellSize,
+                        fill: 'white',
+                        stroke: '#ccc',
+                        strokeWidth: 1,
+                        selectable: false,
+                        evented: false
+                    });
+                    // v31.0.1 — per-cell tagging for the interactive export.
+                    cellRect.isCrosswordBlankCell = true;
+                    cellRect.crossR = r;
+                    cellRect.crossC = c;
+                    cellRect.correctLetter = String(gridData[r][c]).toUpperCase();
+                    if (numAtCell !== undefined) cellRect.crossNumber = numAtCell;
+                    gridObjects.push(cellRect);
                     
                     if(showAnswers) {
                         gridObjects.push(new fabric.Text(gridData[r][c], { 
@@ -3074,12 +3213,39 @@ document.addEventListener("DOMContentLoaded", function() {
         
         const group = new fabric.Group(gridObjects, {
             objectCaching: false,
-            borderColor: 'var(--app-accent-primary)', 
-            cornerColor: 'var(--app-accent-primary)', 
-            cornerSize: 10, 
+            borderColor: 'var(--app-accent-primary)',
+            cornerColor: 'var(--app-accent-primary)',
+            cornerSize: 10,
             transparentCorners: false
         });
-        
+
+        // v31.0.1 — sidecar metadata. Cells are tagged individually
+        // (isCrosswordBlankCell) so we no longer need cellLocalRects /
+        // intrinsicWidth / intrinsicHeight here; the export walks tagged
+        // cells and uses calcTransformMatrix for true world coords.
+        if (!showAnswers) {
+            group.isCrosswordGrid = true;
+            group.crosswordMeta = {
+                gridDims: { rows: maxRow - minRow + 1, cols: maxCol - minCol + 1 },
+                cellSize: cellSize,
+                numbers: numbersBundle,
+                placedWords: lastGeneratedPlacedWords.map(p => ({
+                    word: p.word, x: p.x, y: p.y, dir: p.dir, num: p.num
+                })),
+                clues: lastGeneratedClueImages.map((ci, idx) => {
+                    const matchingPlaced = lastGeneratedPlacedWords.find(p => p.word === String(ci.word).replace(/\s+/g, '').toUpperCase());
+                    return {
+                        num: matchingPlaced ? matchingPlaced.num : (idx + 1),
+                        word: String(ci.word || '').replace(/\s+/g, '').toUpperCase(),
+                        type: ci.hint ? 'text' : (ci.path ? 'image' : 'text'),
+                        path: ci.path || null,
+                        hint: ci.hint || null,
+                        name: ci.name || ci.word || ''
+                    };
+                })
+            };
+        }
+
         // Center the grid on canvas (accounting for header)
         const gridX = (canvasWidth - actualGridWidth) / 2;
         const availableHeight = canvasHeight - headerHeight;
@@ -3196,6 +3362,8 @@ document.addEventListener("DOMContentLoaded", function() {
                     clueGroup = new fabric.Group([numText, hintText], {
                         borderColor: 'var(--app-accent-primary)',
                         cornerColor: 'var(--app-accent-primary)',
+                        isCrosswordClue: true,
+                        clueNum: p.num
                     });
                 } else {
                     // Create image clue (traditional)
@@ -3219,6 +3387,8 @@ document.addEventListener("DOMContentLoaded", function() {
                     clueGroup = new fabric.Group([numText, img], {
                         borderColor: 'var(--app-accent-primary)',
                         cornerColor: 'var(--app-accent-primary)',
+                        isCrosswordClue: true,
+                        clueNum: p.num
                     });
                 }
                 
@@ -3341,10 +3511,622 @@ document.addEventListener("DOMContentLoaded", function() {
         downloadWorksheetPdfBtn.disabled = true;
         downloadAnswerKeyJpegBtn.disabled = true;
         downloadAnswerKeyPdfBtn.disabled = true;
+        if (downloadInteractiveHtmlBtn)          downloadInteractiveHtmlBtn.disabled          = true;
+        if (downloadInteractiveHtmlReferenceBtn) downloadInteractiveHtmlReferenceBtn.disabled = true;
         generateAnswerKeyBtn.disabled = true;
         showMessage(getTranslation('puzzleCleared', currentLocale), 'success');
     }
     
+    // ============================================================
+    // Interactive-HTML export v31.0.2 (crossword) — Family A 2D-grid type-and-
+    // check. Each baked cell hosts a transparent single-letter input. Standard
+    // crossword UX: tap-to-focus, type → auto-advance along the active word,
+    // tap a focused cell to toggle direction (when both H+V words exist there),
+    // tap a clue (picture or text) → focus its first cell + set direction,
+    // backspace deletes + steps back, arrow keys move + set direction.
+    // Strict per-cell Check on submit; case-insensitive comparison.
+    // ============================================================
+    async function _captureWorksheetImage(canvas) {
+        var savedZoom = canvas.getZoom();
+        var savedW = canvas.getWidth();
+        var savedH = canvas.getHeight();
+        var savedBg = canvas.backgroundColor;
+        canvas.discardActiveObject();
+        canvas.setZoom(1);
+        canvas.setDimensions({ width: currentCanvasConfig.width, height: currentCanvasConfig.height });
+        if (!savedBg || savedBg === 'transparent') canvas.backgroundColor = '#FFFFFF';
+        canvas.renderAll();
+        var dataURL;
+        try {
+            dataURL = canvas.toDataURL({ format: 'jpeg', quality: 0.85, multiplier: 2 });
+        } finally {
+            canvas.backgroundColor = savedBg;
+            canvas.setZoom(savedZoom);
+            canvas.setDimensions({ width: savedW, height: savedH });
+            canvas.renderAll();
+        }
+        return dataURL;
+    }
+
+    async function extractDeckBundle(canvas, options) {
+        var loadingMode = (options && options.loadingMode === 'reference') ? 'reference' : 'inline';
+        var pd = canvas.problemsData || null;
+        if (!pd || !Array.isArray(pd.cells) || pd.cells.length === 0) {
+            throw new Error('No problemsData on canvas. Generate a worksheet first.');
+        }
+        var worksheetImage = await _captureWorksheetImage(canvas);
+        var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
+            ? LCSAttribution.getRectFromCanvas(canvas) : null;
+        return {
+            bundleVersion: '31.0.2',
+            schemaFormat: 'image-references-v3',
+            loadingMode: loadingMode,
+            appType: 'crossword',
+            createdAt: new Date().toISOString(),
+            contentLanguage: (window.currentLocale || 'en'),
+            title: 'Crossword',
+            page: { width: currentCanvasConfig.width, height: currentCanvasConfig.height },
+            worksheetImage: worksheetImage,
+            scoring: 'strict-per-cell',
+            gridDims: pd.gridDims,
+            cells: pd.cells,
+            words: pd.words,
+            clues: pd.clues,
+            imageRefs: {},
+            attribution: attributionRect ? {
+                text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
+                url: (window.LCSAttribution && LCSAttribution.URL) || 'https://lessoncraftstudio.com',
+                rect: attributionRect
+            } : null
+        };
+    }
+
+    var INTERACTIVE_CSS_LINES = [
+        '*{box-sizing:border-box}',
+        'html,body{margin:0;padding:0}',
+        'body{font-family:"Fredoka",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#FEFAF3;color:#1C1C1E;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;min-height:100vh}',
+        '#lcs-app{max-width:980px;margin:0 auto;padding:0 12px;padding-bottom:120px}',
+        '.lcs-bar{position:sticky;top:0;z-index:10;background:rgba(254,250,243,.94);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding:12px 4px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}',
+        '.lcs-title{font-size:clamp(18px,2.6vw,24px);font-weight:600;color:#1C1C1E;margin:0;flex:1 1 auto;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}',
+        '.lcs-progress{font-size:clamp(14px,2vw,18px);font-weight:700;color:#4E5FE8;padding:6px 12px;border-radius:999px;background:rgba(78,95,232,.12);font-variant-numeric:tabular-nums;flex-shrink:0}',
+        '.lcs-mute{width:40px;height:40px;border-radius:10px;border:2px solid #DCE1E6;background:#FFF;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;color:#545458;flex-shrink:0}',
+        '.lcs-mute:hover{background:#FEFAF3}',
+        '.lcs-mute:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+        '.lcs-mute svg{width:20px;height:20px;pointer-events:none}',
+        '.lcs-mute[data-muted="1"]{background:#FFF8E6;border-color:#FFC857;color:#8A6D00}',
+        '.lcs-worksheet-wrap{display:flex;justify-content:center;padding-top:8px}',
+        '.lcs-worksheet{position:relative;display:block;width:100%;max-width:880px;background:#FFF;border-radius:10px;box-shadow:0 4px 18px rgba(28,28,30,.08);overflow:visible}',
+        '.lcs-worksheet__img{display:block;width:100%;height:auto;user-select:none;-webkit-user-drag:none;pointer-events:none;border-radius:10px}',
+        '.lcs-overlay{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none}',
+        // Cell inputs (one per blank crossword cell). pointer-events:auto critical.
+        // v31.0.2: cells stay visually identical to the baked grid until the
+        // user focuses one. Active state is a 2px blue inset ring with no fill,
+        // so the cell's white background and corner clue number stay visible.
+        // No active-word strip — that was visually noisy. The active CLUE image
+        // is highlighted instead (clearer 1:1 mapping for the kid).
+        '.lcs-cell-input{position:absolute;z-index:30;pointer-events:auto;border:0;background:transparent;border-radius:0;font-family:inherit;font-weight:700;color:#1C1C1E;text-align:center;padding:0;outline:none;box-sizing:border-box;cursor:text;text-transform:uppercase;-webkit-appearance:none;appearance:none;box-shadow:none;transition:box-shadow .12s,background-color .15s}',
+        '.lcs-cell-input[data-active="1"]{box-shadow:inset 0 0 0 2px #4E5FE8;z-index:31}',
+        '.lcs-cell-input[data-locked="1"]{cursor:default;pointer-events:none}',
+        '.lcs-cell-input--correct{background:rgba(76,175,80,.22) !important;color:#1B5E20 !important;box-shadow:inset 0 0 0 2px #2E7D32 !important}',
+        '.lcs-cell-input--wrong{background:rgba(229,57,53,.20) !important;color:#B71C1C !important;box-shadow:inset 0 0 0 2px #C62828 !important}',
+        // Clue hit-targets (transparent buttons over each baked clue group).
+        // Active state uses a glow ring instead of a hard border so the picture
+        // clue stays visually clean.
+        '.lcs-clue-hit{position:absolute;z-index:20;pointer-events:auto;background:transparent;border:0;border-radius:10px;cursor:pointer;outline:none;transition:box-shadow .18s,background-color .18s}',
+        '.lcs-clue-hit:hover{background:rgba(78,95,232,.05);box-shadow:0 0 0 2px rgba(78,95,232,.35)}',
+        '.lcs-clue-hit:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+        '.lcs-clue-hit[data-active="1"]{background:rgba(78,95,232,.06);box-shadow:0 0 0 3px #4E5FE8,0 0 12px 2px rgba(78,95,232,.35)}',
+        '.lcs-footer{position:sticky;bottom:0;z-index:10;margin-top:24px;background:rgba(254,250,243,.95);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-top:1px solid #DCE1E6;padding:16px 12px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap}',
+        '.lcs-btn{font-family:inherit;font-weight:700;font-size:17px;padding:14px 28px;border-radius:12px;border:none;cursor:pointer;min-height:52px;min-width:160px;transition:background-color .2s,transform .1s,box-shadow .2s,opacity .2s}',
+        '.lcs-btn:active:not([disabled]){transform:scale(.97)}',
+        '.lcs-btn:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+        '.lcs-btn[disabled]{opacity:.45;cursor:not-allowed}',
+        '.lcs-btn--primary{background:#4E5FE8;color:#FFF}',
+        '.lcs-btn--primary:hover:not([disabled]){background:#3D4FCC}',
+        '.lcs-btn--ghost{background:#FFF;color:#1C1C1E;border:2px solid #DCE1E6}',
+        '.lcs-btn--ghost:hover{background:#FEFAF3;border-color:#4E5FE8}',
+        '.lcs-celebration{position:fixed;inset:0;background:rgba(28,28,30,.5);display:none;align-items:center;justify-content:center;z-index:10000;padding:16px}',
+        '.lcs-celebration--shown{display:flex}',
+        '.lcs-celebration__inner{position:relative;background:#FFFFFF;border-radius:24px;padding:32px 28px 24px;max-width:520px;width:100%;box-shadow:0 20px 60px rgba(28,28,30,.35);text-align:center;z-index:2}',
+        '.lcs-celebration__title{font-size:clamp(36px,7vw,56px);margin:0 0 4px;color:#4E5FE8;font-weight:700}',
+        '.lcs-stars{font-size:clamp(40px,7vw,52px);letter-spacing:10px;margin:12px 0;line-height:1}',
+        '.lcs-star{color:#DCE1E6}',
+        '.lcs-star--filled{color:#FFC857;filter:drop-shadow(0 2px 4px rgba(255,200,87,.35))}',
+        '.lcs-celebration__sub{color:#545458;font-size:16px;margin:0 0 20px}',
+        '.lcs-mini{display:block;max-width:100%;max-height:200px;margin:0 auto 20px;border-radius:8px;border:1px solid #DCE1E6}',
+        '.lcs-celebration__cta{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}',
+        '.lcs-confetti{position:absolute;inset:0;pointer-events:none;overflow:hidden;border-radius:24px}',
+        '.lcs-confetti__piece{position:absolute;width:8px;height:14px;top:-20px;animation:lcs-fall linear forwards;border-radius:2px}',
+        '@keyframes lcs-fall{to{transform:translateY(620px) rotate(540deg);opacity:0}}',
+        '.lcs-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}',
+        '.lcs-attrib-link{position:absolute;transform:translate(-50%,-50%);pointer-events:auto;cursor:pointer;background:transparent;text-decoration:none;border-radius:4px;outline:none}',
+        '.lcs-attrib-link:focus-visible{outline:2px solid #4E5FE8;outline-offset:2px}',
+        '.lcs-attrib-link:hover{background:rgba(78,95,232,.08)}',
+        '@media (prefers-reduced-motion:reduce){',
+        '  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.15s !important}',
+        '  .lcs-confetti{display:none}',
+        '}',
+        '@media print{',
+        '  body{background:#FFF}',
+        '  .lcs-bar,.lcs-footer,.lcs-celebration,.lcs-attrib-link,.lcs-progress{display:none !important}',
+        '  .lcs-worksheet{box-shadow:none;border:none}',
+        '  .lcs-cell-input,.lcs-clue-hit{border:none !important;background:transparent !important;box-shadow:none !important}',
+        '}'
+    ];
+
+    var INTERACTIVE_RUNTIME_LINES = [
+        '(function(){',
+        '  "use strict";',
+        '  var STRINGS = {',
+        '    en:{title:"Crossword",check:"Check Answers",tryAgain:"Try Again",mute:"Mute sounds",unmute:"Turn sounds on",printMyWorksheet:"Print my worksheet",doAnother:"Do Another",youDidIt:"You did it!",progressLabel:"{n} / {total}"}',
+        '  };',
+        '  function T(key){var loc=(DECK_BUNDLE.contentLanguage||"en").slice(0,2);var t=STRINGS[loc]||STRINGS.en;return t[key]||STRINGS.en[key]||key}',
+        '  function fmt(s,vars){return s.replace(/\\{(\\w+)\\}/g,function(_,k){return vars[k]==null?"":String(vars[k])})}',
+        '',
+        '  var cells=DECK_BUNDLE.cells||[];',
+        '  var words=DECK_BUNDLE.words||[];',
+        '  var clues=DECK_BUNDLE.clues||[];',
+        '  var totalCells=cells.length;',
+        '  var values={}; // "r,c" -> typed letter (uppercase)',
+        '  var phase="fill"; // "fill" | "reviewed"',
+        '  var celebrationShown=false;',
+        '  var activeCell=null;  // {r,c} | null',
+        '  var activeDir="across"; // "across" | "down"',
+        '',
+        '  // Indexes built once for fast lookups.',
+        '  var cellByKey={}; // "r,c" -> cell',
+        '  cells.forEach(function(c){ cellByKey[c.r+","+c.c]=c; });',
+        '  var wordsByDirAtCell={}; // "r,c" -> { across:wordId, down:wordId }',
+        '  var wordById={};',
+        '  words.forEach(function(w){',
+        '    wordById[w.id]=w;',
+        '    (w.cells||[]).forEach(function(cc){',
+        '      var k=cc.r+","+cc.c;',
+        '      if(!wordsByDirAtCell[k]) wordsByDirAtCell[k]={};',
+        '      wordsByDirAtCell[k][w.dir]=w.id;',
+        '    });',
+        '  });',
+        '  var wordByClueNumDir={}; // "num-dir" -> word',
+        '  words.forEach(function(w){ wordByClueNumDir[w.clueNum+"-"+w.dir]=w; });',
+        '  var wordByClueNum={}; // "num" -> first matching word (a clue maps to one word here)',
+        '  words.forEach(function(w){ if(!wordByClueNum[w.clueNum]) wordByClueNum[w.clueNum]=w; });',
+        '',
+        '  var muted=false;try{muted=localStorage.getItem("lcsMuted")==="1"}catch(e){}',
+        '  var reducedMotion=false;try{reducedMotion=window.matchMedia("(prefers-reduced-motion: reduce)").matches}catch(e){}',
+        '  var audioCtx=null;',
+        '  var titleEl,overlayEl,muteBtn,celebrationEl,liveEl,imgEl,checkBtn,resetBtn,progressEl;',
+        '',
+        '  function init(){',
+        '    titleEl=document.getElementById("lcs-title");',
+        '    overlayEl=document.getElementById("lcs-overlay");',
+        '    muteBtn=document.getElementById("lcs-mute");',
+        '    celebrationEl=document.getElementById("lcs-celebration");',
+        '    liveEl=document.getElementById("lcs-live");',
+        '    imgEl=document.getElementById("lcs-worksheet-img");',
+        '    checkBtn=document.getElementById("lcs-check");',
+        '    resetBtn=document.getElementById("lcs-reset");',
+        '    progressEl=document.getElementById("lcs-progress");',
+        '    if(titleEl) titleEl.textContent=DECK_BUNDLE.title||T("title");',
+        '    if(checkBtn) checkBtn.textContent=T("check");',
+        '    if(resetBtn) resetBtn.textContent=T("tryAgain");',
+        '    if(imgEl&&imgEl.complete&&imgEl.naturalHeight>0){renderTiles();}',
+        '    else if(imgEl){imgEl.addEventListener("load",renderTiles);imgEl.addEventListener("error",function(){console.error("[LCS] Worksheet image failed to load")});}',
+        '    wireMute();updateMuteButton();wireButtons();',
+        '    updateProgress();updateCheckButton();',
+        '  }',
+        '',
+        '  function cellInput(r,c){return overlayEl?overlayEl.querySelector(\'.lcs-cell-input[data-r="\'+r+\'"][data-c="\'+c+\'"]\'):null}',
+        '  function clueHit(num){return overlayEl?overlayEl.querySelector(\'.lcs-clue-hit[data-num="\'+num+\'"]\'):null}',
+        '',
+        '  function renderTiles(){',
+        '    overlayEl.innerHTML="";',
+        '    var pw=DECK_BUNDLE.page.width;var ph=DECK_BUNDLE.page.height;',
+        '    // Cell inputs sized to the EXACT baked cell rect — no inflation.',
+        '    // The baked grid stroke remains the visual cell border.',
+        '    cells.forEach(function(cell){',
+        '      var inp=document.createElement("input");',
+        '      inp.type="text";inp.maxLength=1;',
+        '      inp.className="lcs-cell-input";',
+        '      inp.setAttribute("data-r",String(cell.r));',
+        '      inp.setAttribute("data-c",String(cell.c));',
+        '      inp.setAttribute("aria-label","Row "+(cell.r+1)+" col "+(cell.c+1));',
+        '      inp.style.left=((cell.rect.x/pw)*100)+"%";',
+        '      inp.style.top=((cell.rect.y/ph)*100)+"%";',
+        '      inp.style.width=((cell.rect.w/pw)*100).toFixed(3)+"%";',
+        '      inp.style.height=((cell.rect.h/ph)*100).toFixed(3)+"%";',
+        '      // Font sized to cell height.',
+        '      inp.style.fontSize="clamp(12px,2.4vw,28px)";',
+        '      inp.addEventListener("focus",function(){onCellFocus(cell.r,cell.c)});',
+        '      inp.addEventListener("click",function(){onCellClick(cell.r,cell.c)});',
+        '      inp.addEventListener("input",function(){onCellInput(cell.r,cell.c,inp)});',
+        '      inp.addEventListener("keydown",function(e){onCellKeyDown(e,cell.r,cell.c,inp)});',
+        '      overlayEl.appendChild(inp);',
+        '    });',
+        '    // Clue hit-targets (transparent buttons over each baked clue).',
+        '    clues.forEach(function(cl){',
+        '      if(!cl.rect) return;',
+        '      var btn=document.createElement("button");',
+        '      btn.type="button";btn.className="lcs-clue-hit";',
+        '      btn.setAttribute("data-num",String(cl.num));',
+        '      btn.setAttribute("aria-label","Clue "+cl.num+(cl.name?" — "+cl.name:""));',
+        '      btn.style.left=((cl.rect.x/pw)*100)+"%";',
+        '      btn.style.top=((cl.rect.y/ph)*100)+"%";',
+        '      btn.style.width=((cl.rect.w/pw)*100).toFixed(3)+"%";',
+        '      btn.style.height=((cl.rect.h/ph)*100).toFixed(3)+"%";',
+        '      btn.addEventListener("click",function(){onClueClick(cl.num)});',
+        '      overlayEl.appendChild(btn);',
+        '    });',
+        '    if(DECK_BUNDLE.attribution&&DECK_BUNDLE.attribution.rect){',
+        '      var ar=DECK_BUNDLE.attribution.rect;',
+        '      var link=document.createElement("a");',
+        '      link.className="lcs-attrib-link";',
+        '      link.href=DECK_BUNDLE.attribution.url||"https://lessoncraftstudio.com";',
+        '      link.target="_blank";link.rel="noopener";',
+        '      link.setAttribute("aria-label",DECK_BUNDLE.attribution.text||"Made with LessonCraftStudio.com");',
+        '      link.style.left=((ar.x/pw)*100)+"%";link.style.top=((ar.y/ph)*100)+"%";',
+        '      link.style.width=((ar.w/pw)*100).toFixed(2)+"%";link.style.height=((ar.h/ph)*100).toFixed(2)+"%";',
+        '      overlayEl.appendChild(link);',
+        '    }',
+        '  }',
+        '',
+        '  // Pick a sensible direction for a cell (prefer existing activeDir if it exists here).',
+        '  function pickDirForCell(r,c){',
+        '    var k=r+","+c;var avail=wordsByDirAtCell[k]||{};',
+        '    if(avail[activeDir]) return activeDir;',
+        '    if(avail.across) return "across";',
+        '    if(avail.down) return "down";',
+        '    return activeDir;',
+        '  }',
+        '',
+        '  function setActive(r,c,dir){',
+        '    activeCell={r:r,c:c};',
+        '    if(dir) activeDir=dir;',
+        '    else activeDir=pickDirForCell(r,c);',
+        '    repaintActive();',
+        '  }',
+        '',
+        '  function repaintActive(){',
+        '    if(!overlayEl)return;',
+        '    var inputs=overlayEl.querySelectorAll(".lcs-cell-input");',
+        '    for(var i=0;i<inputs.length;i++) inputs[i].removeAttribute("data-active");',
+        '    var hits=overlayEl.querySelectorAll(".lcs-clue-hit");',
+        '    for(var j=0;j<hits.length;j++) hits[j].removeAttribute("data-active");',
+        '    if(!activeCell) return;',
+        '    // Highlight the corresponding picture/text clue (no per-word strip).',
+        '    var k=activeCell.r+","+activeCell.c;',
+        '    var wid=(wordsByDirAtCell[k]||{})[activeDir];',
+        '    if(wid){',
+        '      var w=wordById[wid];',
+        '      var clueHitEl=clueHit(w.clueNum);',
+        '      if(clueHitEl) clueHitEl.setAttribute("data-active","1");',
+        '    }',
+        '    // Outline the focused cell.',
+        '    var actInp=cellInput(activeCell.r,activeCell.c);',
+        '    if(actInp) actInp.setAttribute("data-active","1");',
+        '  }',
+        '',
+        '  function onCellFocus(r,c){',
+        '    if(phase!=="fill") return;',
+        '    if(!activeCell || activeCell.r!==r || activeCell.c!==c) setActive(r,c,null);',
+        '    else repaintActive();',
+        '  }',
+        '',
+        '  function onCellClick(r,c){',
+        '    if(phase!=="fill") return;',
+        '    if(activeCell && activeCell.r===r && activeCell.c===c){',
+        '      // Toggle direction if BOTH words exist at this cell.',
+        '      var avail=wordsByDirAtCell[r+","+c]||{};',
+        '      if(avail.across && avail.down){',
+        '        activeDir=(activeDir==="across")?"down":"across";',
+        '        repaintActive();',
+        '      }',
+        '    }else{',
+        '      setActive(r,c,null);',
+        '    }',
+        '  }',
+        '',
+        '  function onCellInput(r,c,inp){',
+        '    if(phase!=="fill"){ inp.value=""; return; }',
+        '    var v=(inp.value||"").replace(/[^A-Za-z]/g,"").toUpperCase();',
+        '    v=v.slice(-1); // last char only',
+        '    inp.value=v;',
+        '    if(v){ values[r+","+c]=v; advanceCursor(); }',
+        '    else { delete values[r+","+c]; }',
+        '    inp.classList.remove("lcs-cell-input--correct","lcs-cell-input--wrong");',
+        '    updateProgress();updateCheckButton();',
+        '  }',
+        '',
+        '  function onCellKeyDown(e,r,c,inp){',
+        '    if(phase!=="fill") return;',
+        '    if(e.key==="Backspace"){',
+        '      if(!inp.value){',
+        '        // step back one cell along activeDir and clear it',
+        '        var prev=neighborCell(r,c,activeDir,-1);',
+        '        if(prev){',
+        '          var pInp=cellInput(prev.r,prev.c);',
+        '          if(pInp){ pInp.value=""; delete values[prev.r+","+prev.c]; setActive(prev.r,prev.c,activeDir); pInp.focus(); }',
+        '        }',
+        '        e.preventDefault();',
+        '        updateProgress();updateCheckButton();',
+        '      }',
+        '      return;',
+        '    }',
+        '    if(e.key==="ArrowRight"){ moveBy(0,1,"across"); e.preventDefault(); return; }',
+        '    if(e.key==="ArrowLeft"){ moveBy(0,-1,"across"); e.preventDefault(); return; }',
+        '    if(e.key==="ArrowDown"){ moveBy(1,0,"down"); e.preventDefault(); return; }',
+        '    if(e.key==="ArrowUp"){ moveBy(-1,0,"down"); e.preventDefault(); return; }',
+        '    if(e.key==="Tab"){ /* let default handle, but switch active */ return; }',
+        '  }',
+        '',
+        '  function neighborCell(r,c,dir,step){',
+        '    var dr=(dir==="down")?step:0;',
+        '    var dc=(dir==="across")?step:0;',
+        '    var nr=r+dr,nc=c+dc;',
+        '    return cellByKey[nr+","+nc]?{r:nr,c:nc}:null;',
+        '  }',
+        '',
+        '  function moveBy(dr,dc,dir){',
+        '    if(!activeCell) return;',
+        '    var nr=activeCell.r+dr,nc=activeCell.c+dc;',
+        '    if(cellByKey[nr+","+nc]){',
+        '      var inp=cellInput(nr,nc);',
+        '      setActive(nr,nc,dir);',
+        '      if(inp){ inp.focus(); inp.select && inp.select(); }',
+        '    }',
+        '  }',
+        '',
+        '  function advanceCursor(){',
+        '    if(!activeCell) return;',
+        '    var nxt=neighborCell(activeCell.r,activeCell.c,activeDir,1);',
+        '    if(nxt){',
+        '      var inp=cellInput(nxt.r,nxt.c);',
+        '      // Only advance into cells that are part of the current active word.',
+        '      var wid=(wordsByDirAtCell[activeCell.r+","+activeCell.c]||{})[activeDir];',
+        '      if(wid){',
+        '        var inWord=false;var w=wordById[wid];',
+        '        (w.cells||[]).forEach(function(cc){ if(cc.r===nxt.r && cc.c===nxt.c) inWord=true; });',
+        '        if(inWord && inp){',
+        '          setActive(nxt.r,nxt.c,activeDir);',
+        '          inp.focus(); inp.select && inp.select();',
+        '          return;',
+        '        }',
+        '      }',
+        '    }',
+        '    // End of word: stay put (kid moves manually).',
+        '  }',
+        '',
+        '  function onClueClick(num){',
+        '    if(phase!=="fill") return;',
+        '    var w=wordByClueNum[num];',
+        '    if(!w) return;',
+        '    var inp=cellInput(w.startR,w.startC);',
+        '    setActive(w.startR,w.startC,w.dir);',
+        '    if(inp){ inp.focus(); inp.select && inp.select(); }',
+        '  }',
+        '',
+        '  function updateCheckButton(){',
+        '    if(!checkBtn)return;',
+        '    if(phase!=="fill"){checkBtn.disabled=true;return;}',
+        '    var filled=0;',
+        '    cells.forEach(function(c){ if(values[c.r+","+c.c]) filled++; });',
+        '    checkBtn.disabled=(filled<totalCells);',
+        '  }',
+        '',
+        '  function updateProgress(){',
+        '    if(!progressEl)return;',
+        '    var n;',
+        '    if(phase==="reviewed"){',
+        '      n=0;',
+        '      cells.forEach(function(c){ if((values[c.r+","+c.c]||"")===c.correctLetter) n++; });',
+        '    }else{',
+        '      n=0;',
+        '      cells.forEach(function(c){ if(values[c.r+","+c.c]) n++; });',
+        '    }',
+        '    progressEl.textContent=fmt(T("progressLabel"),{n:n,total:totalCells});',
+        '  }',
+        '',
+        '  function checkAll(){',
+        '    if(phase!=="fill")return;',
+        '    var filled=0;cells.forEach(function(c){ if(values[c.r+","+c.c]) filled++; });',
+        '    if(filled<totalCells) return;',
+        '    phase="reviewed";',
+        '    var allOk=true;',
+        '    cells.forEach(function(c){',
+        '      var v=(values[c.r+","+c.c]||"").toUpperCase();',
+        '      var inp=cellInput(c.r,c.c); if(!inp) return;',
+        '      var ok=(v===c.correctLetter);',
+        '      inp.classList.add(ok?"lcs-cell-input--correct":"lcs-cell-input--wrong");',
+        '      inp.setAttribute("data-locked","1");',
+        '      inp.readOnly=true;',
+        '      if(!ok) allOk=false;',
+        '    });',
+        '    if(checkBtn) checkBtn.hidden=true;',
+        '    if(resetBtn) resetBtn.hidden=false;',
+        '    updateProgress();',
+        '    var correctCount=totalCells-cells.filter(function(c){return (values[c.r+","+c.c]||"")!==c.correctLetter}).length;',
+        '    announce(correctCount+" of "+totalCells+" correct");',
+        '    if(allOk){',
+        '      playTone(659.25,0.13);',
+        '      setTimeout(function(){playTone(987.77,0.18)},160);',
+        '      setTimeout(showCelebration,500);',
+        '    }else{',
+        '      playTone(220,0.12);',
+        '    }',
+        '  }',
+        '',
+        '  function wireButtons(){',
+        '    if(checkBtn) checkBtn.addEventListener("click",checkAll);',
+        '    if(resetBtn) resetBtn.addEventListener("click",resetAll);',
+        '  }',
+        '',
+        '  function resetAll(){',
+        '    celebrationShown=false;',
+        '    values={};phase="fill";activeCell=null;',
+        '    if(overlayEl){',
+        '      var ins=overlayEl.querySelectorAll(".lcs-cell-input");',
+        '      for(var i=0;i<ins.length;i++){',
+        '        ins[i].value="";',
+        '        ins[i].removeAttribute("data-locked");',
+        '        ins[i].removeAttribute("data-active");',
+        '        ins[i].removeAttribute("data-active-word");',
+        '        ins[i].readOnly=false;',
+        '        ins[i].classList.remove("lcs-cell-input--correct","lcs-cell-input--wrong");',
+        '      }',
+        '      var hits=overlayEl.querySelectorAll(".lcs-clue-hit");',
+        '      for(var j=0;j<hits.length;j++) hits[j].removeAttribute("data-active");',
+        '    }',
+        '    if(celebrationEl) celebrationEl.classList.remove("lcs-celebration--shown");',
+        '    if(checkBtn){checkBtn.hidden=false;checkBtn.disabled=true;}',
+        '    if(resetBtn){resetBtn.hidden=true}',
+        '    updateProgress();',
+        '  }',
+        '',
+        '  function playTone(freq,dur){',
+        '    if(muted)return;',
+        '    try{',
+        '      if(!audioCtx){var Ctx=window.AudioContext||window.webkitAudioContext;if(!Ctx)return;audioCtx=new Ctx()}',
+        '      if(audioCtx.state==="suspended")audioCtx.resume();',
+        '      var osc=audioCtx.createOscillator();var gain=audioCtx.createGain();',
+        '      osc.type="sine";osc.frequency.value=freq;',
+        '      var now=audioCtx.currentTime;',
+        '      gain.gain.setValueAtTime(0,now);gain.gain.linearRampToValueAtTime(0.14,now+0.012);gain.gain.linearRampToValueAtTime(0,now+dur);',
+        '      osc.connect(gain);gain.connect(audioCtx.destination);',
+        '      osc.start(now);osc.stop(now+dur+0.03);',
+        '    }catch(e){}',
+        '  }',
+        '  function announce(msg){if(liveEl)liveEl.textContent=msg}',
+        '',
+        '  function showCelebration(){',
+        '    if(celebrationShown)return;celebrationShown=true;',
+        '    if(resetBtn) resetBtn.hidden=false;',
+        '    var stars=3;var starsHTML="";',
+        '    for(var i=1;i<=3;i++){starsHTML+="<span class=\\"lcs-star"+(i<=stars?" lcs-star--filled":"")+"\\">\\u2605</span>"}',
+        '    celebrationEl.innerHTML=',
+        '      "<div class=\\"lcs-celebration__inner\\">"+',
+        '      "<h1 class=\\"lcs-celebration__title\\">"+T("youDidIt")+"</h1>"+',
+        '      "<div class=\\"lcs-stars\\" aria-label=\\""+stars+" out of 3 stars\\">"+starsHTML+"</div>"+',
+        '      "<p class=\\"lcs-celebration__sub\\">"+totalCells+" / "+totalCells+"</p>"+',
+        '      "<img class=\\"lcs-mini\\" alt=\\"Your completed worksheet\\" src=\\""+DECK_BUNDLE.worksheetImage+"\\" />"+',
+        '      "<div class=\\"lcs-celebration__cta\\">"+',
+        '        "<button class=\\"lcs-btn lcs-btn--ghost\\" type=\\"button\\" id=\\"lcs-do-another\\">"+T("doAnother")+"</button>"+',
+        '        "<button class=\\"lcs-btn lcs-btn--ghost\\" type=\\"button\\" id=\\"lcs-cel-print\\">"+T("printMyWorksheet")+"</button>"+',
+        '      "</div></div>"+',
+        '      "<div class=\\"lcs-confetti\\" aria-hidden=\\"true\\"></div>";',
+        '    celebrationEl.classList.add("lcs-celebration--shown");',
+        '    announce(T("youDidIt"));',
+        '    playTone(659.25,0.13);',
+        '    setTimeout(function(){playTone(987.77,0.18)},160);',
+        '    document.getElementById("lcs-do-another").addEventListener("click",function(){location.reload()});',
+        '    document.getElementById("lcs-cel-print").addEventListener("click",function(){window.print()});',
+        '    if(!reducedMotion)spawnConfetti();',
+        '  }',
+        '  function spawnConfetti(){',
+        '    var layer=celebrationEl.querySelector(".lcs-confetti");if(!layer)return;',
+        '    var colors=["#4E5FE8","#4CAF50","#FF8A65","#FFC857","#6AB7FF","#B39DDB"];',
+        '    for(var i=0;i<48;i++){',
+        '      var c=document.createElement("span");c.className="lcs-confetti__piece";',
+        '      c.style.left=(Math.random()*100)+"%";',
+        '      c.style.background=colors[i%colors.length];',
+        '      c.style.animationDelay=(Math.random()*0.5)+"s";',
+        '      c.style.animationDuration=(1.8+Math.random()*1.3)+"s";',
+        '      c.style.transform="rotate("+(Math.random()*360)+"deg)";',
+        '      layer.appendChild(c);',
+        '    }',
+        '  }',
+        '',
+        '  function wireMute(){muteBtn.addEventListener("click",function(){muted=!muted;try{localStorage.setItem("lcsMuted",muted?"1":"0")}catch(e){}updateMuteButton()})}',
+        '  function updateMuteButton(){',
+        '    muteBtn.setAttribute("aria-label",muted?T("unmute"):T("mute"));',
+        '    muteBtn.setAttribute("data-muted",muted?"1":"0");',
+        '    muteBtn.innerHTML=muted',
+        '      ? "<svg viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\"><path d=\\"M11 5L6 9H2v6h4l5 4V5z\\"/><line x1=\\"23\\" y1=\\"9\\" x2=\\"17\\" y2=\\"15\\"/><line x1=\\"17\\" y1=\\"9\\" x2=\\"23\\" y2=\\"15\\"/></svg>"',
+        '      : "<svg viewBox=\\"0 0 24 24\\" aria-hidden=\\"true\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\"><path d=\\"M11 5L6 9H2v6h4l5 4V5z\\"/><path d=\\"M15.54 8.46a5 5 0 0 1 0 7.07\\"/><path d=\\"M19.07 4.93a10 10 0 0 1 0 14.14\\"/></svg>";',
+        '  }',
+        '',
+        '  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);',
+        '  else init();',
+        '})();'
+    ];
+
+    function renderStandaloneHTML(bundle) {
+        var css = INTERACTIVE_CSS_LINES.join('\n');
+        var runtime = INTERACTIVE_RUNTIME_LINES.join('\n');
+        var bundleJSON = JSON.stringify(bundle);
+        var lang = (bundle.contentLanguage || 'en').slice(0, 2);
+        var title = bundle.title || 'Crossword';
+        var parts = [];
+        parts.push('<!DOCTYPE html>');
+        parts.push('<html lang="' + lang + '">');
+        parts.push('<head>');
+        parts.push('<meta charset="UTF-8">');
+        parts.push('<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">');
+        parts.push('<meta name="theme-color" content="#FEFAF3">');
+        parts.push('<title>' + title + '</title>');
+        parts.push('<link rel="preconnect" href="https://fonts.googleapis.com">');
+        parts.push('<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>');
+        parts.push('<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">');
+        parts.push('<style>' + css + '</style>');
+        parts.push('</head>');
+        parts.push('<body>');
+        parts.push('<main id="lcs-app">');
+        parts.push('  <div class="lcs-bar">');
+        parts.push('    <h1 class="lcs-title" id="lcs-title">' + title + '</h1>');
+        parts.push('    <span class="lcs-progress" id="lcs-progress" aria-live="polite">0 / 0</span>');
+        parts.push('    <button type="button" id="lcs-mute" class="lcs-mute" aria-label="Mute sounds"></button>');
+        parts.push('  </div>');
+        parts.push('  <div class="lcs-worksheet-wrap">');
+        parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');
+        parts.push('      <img class="lcs-worksheet__img" id="lcs-worksheet-img" alt="" src="' + bundle.worksheetImage + '">');
+        parts.push('      <div class="lcs-overlay" id="lcs-overlay"></div>');
+        parts.push('    </div>');
+        parts.push('  </div>');
+        parts.push('</main>');
+        parts.push('<footer class="lcs-footer">');
+        parts.push('  <button type="button" id="lcs-check" class="lcs-btn lcs-btn--primary" disabled>Check Answers</button>');
+        parts.push('  <button type="button" id="lcs-reset" class="lcs-btn lcs-btn--ghost" hidden>Try Again</button>');
+        parts.push('</footer>');
+        parts.push('<div class="lcs-celebration" id="lcs-celebration" role="dialog" aria-modal="true" aria-label="You did it!"></div>');
+        parts.push('<div class="lcs-sr" id="lcs-live" role="status" aria-live="polite"></div>');
+        parts.push('<script>var DECK_BUNDLE = ' + bundleJSON + ';<\/script>');
+        parts.push('<script>' + runtime + '<\/script>');
+        parts.push('</body>');
+        parts.push('</html>');
+        return parts.join('\n');
+    }
+
+    async function downloadInteractiveHtml(canvasInstance, fileName, options) {
+        var loadingMode = (options && options.loadingMode) || 'inline';
+        if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
+            showMessage('Please generate a worksheet first.', 'error');
+            return;
+        }
+        showMessage('Preparing ' + fileName + '...', 'info');
+        try {
+            var bundle = await extractDeckBundle(canvasInstance, { loadingMode: loadingMode });
+            if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
+                throw new Error('Worksheet snapshot is empty.');
+            }
+            if (!bundle.cells || bundle.cells.length === 0) {
+                throw new Error('No cells detected. Regenerate and try again.');
+            }
+            var html = renderStandaloneHTML(bundle);
+            var blob = new Blob([html], { type: 'text/html;charset=utf-8' });
+            var url = URL.createObjectURL(blob);
+            var a = document.createElement('a');
+            a.href = url;
+            a.download = fileName;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+            showMessage('Interactive worksheet downloaded.', 'success');
+        } catch (e) {
+            console.error('[Interactive Export v31.0] Failed:', e);
+            showMessage('Interactive export failed: ' + e.message, 'error');
+        }
+    }
+    // END: Interactive-HTML export v31.0.2
+
     async function getCanvasDataURLWithOptions(canvasInstance, exportOpts) {
         let dataURL = canvasInstance.toDataURL({ format: 'jpeg', quality: 1.0, multiplier: exportOpts.multiplier });
         if (exportOpts.applyGrayscale) {

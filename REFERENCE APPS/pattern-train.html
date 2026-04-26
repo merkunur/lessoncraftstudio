@@ -2310,10 +2310,24 @@
             'selection:created': function(e) { handleObjectSelection(e, this); },
             'selection:updated': function(e) { handleObjectSelection(e, this); },
             'selection:cleared': function(e) { handleSelectionCleared(e, this); },
-            'object:modified': function(e) { handleObjectModification(e, this); }
+            'object:modified': function(e) { handleObjectModification(e, this); },
+            // Live sync — cargo follows the train as the operator drags / scales /
+            // rotates the train background. The train is identified by
+            // generationId === 'trainBackground' (worksheet) or 'answerKeyTrain'
+            // (answer key); each cargo + drop-marker is tagged isTrainChild and
+            // carries its locked offset relative to the train.
+            'object:moving': function(e) {
+                if (isTrainBackgroundObj(e.target)) syncTrainChildren(this, e.target);
+            },
+            'object:scaling': function(e) {
+                if (isTrainBackgroundObj(e.target)) syncTrainChildren(this, e.target);
+            },
+            'object:rotating': function(e) {
+                if (isTrainBackgroundObj(e.target)) syncTrainChildren(this, e.target);
+            }
         });
     }
-    
+
     function handleObjectModification(e, canvas) {
         if (e.target) {
             if (e.target.isBorder) {
@@ -2322,7 +2336,90 @@
             if (e.target.isBackground) {
                  backgroundOpacityInput.value = e.target.opacity;
             }
+            // Train moved / scaled / rotated — final-state sync of all train children
+            // so cargos and drop targets land at their locked offsets.
+            if (isTrainBackgroundObj(e.target)) {
+                syncTrainChildren(canvas, e.target);
+            }
+            // Operator individually moved/scaled/rotated a cargo or drop-marker —
+            // re-bind that child's locked offset to the train so future train
+            // transforms preserve the operator's new positioning.
+            if (e.target.isTrainChild && !isTrainBackgroundObj(e.target)) {
+                const train = canvas.getObjects().find(isTrainBackgroundObj);
+                if (train) captureTrainChildOffset(e.target, train);
+            }
         }
+    }
+
+    // ============================================================
+    // Train-child locking — wagon centers stay locked to the train.
+    // ============================================================
+    // The train background (generationId === 'trainBackground' or
+    // 'answerKeyTrain') is the parent. Each cargo image and empty-wagon
+    // drop-marker is tagged isTrainChild and carries its center offset
+    // relative to the train, expressed in TRAIN-LOCAL (un-rotated, un-scaled)
+    // coordinates. When the operator transforms the train, syncTrainChildren
+    // reapplies the train's current transform to each child so the cargos
+    // follow the train. When the operator individually moves/scales/rotates a
+    // cargo, captureTrainChildOffset re-binds that child's offset so the new
+    // positioning sticks across future train edits.
+    function isTrainBackgroundObj(obj) {
+        return !!(obj && (obj.generationId === 'trainBackground'
+                       || obj.generationId === 'answerKeyTrain'));
+    }
+
+    function captureTrainChildOffset(child, train) {
+        if (!child || !train) return;
+        const childCenter = child.getCenterPoint();
+        const trainCenter = train.getCenterPoint();
+        const dx = childCenter.x - trainCenter.x;
+        const dy = childCenter.y - trainCenter.y;
+        const angRad = -((train.angle || 0) * Math.PI / 180);
+        const cosA = Math.cos(angRad);
+        const sinA = Math.sin(angRad);
+        const dxUnrot = dx * cosA - dy * sinA;
+        const dyUnrot = dx * sinA + dy * cosA;
+        child.parentTrainOffsetX = dxUnrot / (train.scaleX || 1);
+        child.parentTrainOffsetY = dyUnrot / (train.scaleY || 1);
+        child.parentTrainOriginalScaleX = child.scaleX || 1;
+        child.parentTrainOriginalScaleY = child.scaleY || 1;
+        child.parentTrainOriginalAngle  = child.angle  || 0;
+        child.parentTrainGenScaleX = train.scaleX || 1;
+        child.parentTrainGenScaleY = train.scaleY || 1;
+        child.parentTrainGenAngle  = train.angle  || 0;
+        child.isTrainChild = true;
+    }
+
+    function syncTrainChildren(canvas, train) {
+        if (!canvas || !train) return;
+        const curCenter = train.getCenterPoint();
+        const curAngle  = train.angle  || 0;
+        const curScaleX = train.scaleX || 1;
+        const curScaleY = train.scaleY || 1;
+        const curAngRad = curAngle * Math.PI / 180;
+        const cosCur = Math.cos(curAngRad);
+        const sinCur = Math.sin(curAngRad);
+        canvas.getObjects().forEach(obj => {
+            if (!obj.isTrainChild) return;
+            const localX = (obj.parentTrainOffsetX || 0) * curScaleX;
+            const localY = (obj.parentTrainOffsetY || 0) * curScaleY;
+            const rotX = localX * cosCur - localY * sinCur;
+            const rotY = localX * sinCur + localY * cosCur;
+            obj.setPositionByOrigin(
+                new fabric.Point(curCenter.x + rotX, curCenter.y + rotY),
+                'center', 'center'
+            );
+            const sxRatio = curScaleX / (obj.parentTrainGenScaleX || 1);
+            const syRatio = curScaleY / (obj.parentTrainGenScaleY || 1);
+            const angDelta = curAngle - (obj.parentTrainGenAngle || 0);
+            obj.set({
+                scaleX: (obj.parentTrainOriginalScaleX || 1) * sxRatio,
+                scaleY: (obj.parentTrainOriginalScaleY || 1) * syRatio,
+                angle:  (obj.parentTrainOriginalAngle  || 0) + angDelta
+            });
+            obj.setCoords();
+        });
+        canvas.requestRenderAll();
     }
 
     function handleObjectSelection(e, canvas) {
@@ -3159,6 +3256,11 @@
         ...[{ baseLeft: 180 - 50, baseTop: 220 + 50 }, { baseLeft: 270 - 25, baseTop: 220 + 50 }, { baseLeft: 360 - 15, baseTop: 220 + 50 }].map(p => ({ ...p, top: p.baseTop + 35, left: p.baseLeft + 0 })),
         ...[{ baseLeft: 458 + 5, baseTop: 220 + 50 }, { baseLeft: 548 + 30, baseTop: 220 + 50 }, { baseLeft: 638 + 45, baseTop: 220 + 50 }].map(p => ({ ...p, top: p.baseTop + 35, left: p.baseLeft + 0 }))
     ];
+    // Per-wagon fine-tune in canvas-pt units, applied after dynamicScale.
+    // Tuned in alphabet-train (same train.png artwork) — every picture lands
+    // exactly inside its template's wagon body. Module-scope so both the
+    // worksheet builder and the answer-key builder can read it.
+    const PER_WAGON_LEFT_PX = [-3, -3, 4, 2, 0, -11, -8, -8, -4, -4, 4];
 
     async function loadImage(url) {
         return new Promise((resolve, reject) => {
@@ -3272,11 +3374,6 @@
             // Check if page is in portrait mode
             const isPortrait = currentCanvasConfig.height > currentCanvasConfig.width;
 
-            // Per-wagon horizontal trim (canvas-pt, post-scale). Top-row
-            // 1-2 and bottom-row 1-3 mirror alphabet-train's adjustments;
-            // bottom-row 4-5 need an additional -10 nudge on pattern-train.
-            const PER_WAGON_LEFT_PX = [-10, -10, 0, 0, 0, -15, -15, -15, -10, -10, 0];
-
             for (let i = 0; i < lastFullSeq.length; i++) {
                 const idx = lastPosIndices[i];
                 const sym = seqArr[idx];  // Use wagon position to get correct pattern symbol
@@ -3305,6 +3402,9 @@
                     wagonLetter: sym
                 });
                 clueFabImg.wagonPosition = idx;  // Store actual wagon position for generationId
+                // Lock cargo's center offset to the train so transforms of the
+                // train (move/scale/rotate) carry the cargo with them.
+                captureTrainChildOffset(clueFabImg, trainBgImg);
                 masterElements.push(clueFabImg);
             }
 
@@ -3339,6 +3439,10 @@
                     isEmptyWagon: true,
                     wagonLetter: emptySym
                 });
+                // Lock the drop-target's center offset to the train so the
+                // interactive HTML exporter sees the marker at the right
+                // world position even after the operator transforms the train.
+                captureTrainChildOffset(markerRect, trainBgImg);
                 newGeneratedItems.push(markerRect);
             }
 
@@ -3555,7 +3659,7 @@
                 if (!basePos || !adj) return;
 
                 const finalTop = canvasBgTopEdge + ((basePos.top + adj.deltaTop) * dynamicScale);
-                const finalLeft = trainLeftEdge + ((basePos.left + adj.deltaLeft) * dynamicScale);
+                const finalLeft = trainLeftEdge + ((basePos.left + adj.deltaLeft) * dynamicScale) + (PER_WAGON_LEFT_PX[idx] || 0);
                 if (!elementToImage[sym] || !elementToImage[sym].path) return;
 
                 const promise = loadImage(elementToImage[sym].path).then(img => {
@@ -3563,8 +3667,8 @@
                     img.scale(scaleFactor).set({
                         left: finalLeft + ((WAGON_BOX_SIZE_BASE * dynamicScale - img.getScaledWidth()) / 2) - 8,
                         top: finalTop + ((WAGON_BOX_SIZE_BASE * dynamicScale - img.getScaledHeight()) / 2) - 20,
-                        originX: 'left', originY: 'top', 
-                        selectable: true, 
+                        originX: 'left', originY: 'top',
+                        selectable: true,
                         evented: true,
                         hasControls: true,
                         hasBorders: true,
@@ -3574,6 +3678,9 @@
                         transparentCorners: false,
                         cornerStyle: 'circle'
                     });
+                    // Lock cargo's center offset to the answer-key train so
+                    // transforms of the train carry the cargo with them.
+                    captureTrainChildOffset(img, trainBgImg);
                     answerKeyObjects.push(img);
                 });
                 imageLoadPromises.push(promise);

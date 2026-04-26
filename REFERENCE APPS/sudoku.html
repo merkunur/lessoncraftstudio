@@ -4,6 +4,8 @@
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
     <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
+    <script src="/worksheet-generators/js/jszip-3.10.1.min.js"></script>
+    <script src="/worksheet-generators/js/catalog-export.js?v=1"></script>
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1302,14 +1304,10 @@
                     <div class="dropdown-container">
                         <button id="downloadDropdownBtn" class="action-button download-btn"><span data-translate="sudoku.download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
                         <div id="downloadDropdownContent" class="dropdown-content">
-                            <button id="downloadWorksheetJpegBtn" disabled data-translate="sudoku.download.worksheet.jpeg">Worksheet (JPEG)</button>
-                            <button id="downloadAnswerKeyJpegBtn" disabled data-translate="sudoku.download.answer.jpeg">Answer Key (JPEG)</button>
+                            <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
                             <hr style="margin: 4px 0; border: none; border-top: 1px solid #eee;">
-                            <button id="downloadWorksheetPdfBtn" disabled data-translate="sudoku.download.worksheet.pdf">Worksheet (PDF)</button>
-                            <button id="downloadAnswerKeyPdfBtn" disabled data-translate="sudoku.download.answer.pdf">Answer Key (PDF)</button>
                             <hr style="margin: 4px 0; border: none; border-top: 1px solid #eee;">
-                            <button id="downloadInteractiveHtmlBtn" disabled>Interactive Worksheet (HTML)</button>
-                            <button id="downloadInteractiveHtmlReferenceBtn" disabled title="For server-hosted catalog playback. Smaller file, requires the same site to host the WebP library.">Interactive Worksheet (Catalog/URL refs)</button>
+                            <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
                             <hr style="margin: 4px 0; border: none; border-top: 1px solid #eee;">
                             <label class="checkbox-label" id="grayscaleLabel">
                                 <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
@@ -1451,12 +1449,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const downloadDropdownBtn = getEl('downloadDropdownBtn');
     const downloadDropdownContent = getEl('downloadDropdownContent');
 
-    const downloadWorksheetJpegBtn = getEl("downloadWorksheetJpegBtn");
-    const downloadAnswerKeyJpegBtn = getEl("downloadAnswerKeyJpegBtn");
-    const downloadWorksheetPdfBtn = getEl("downloadWorksheetPdfBtn");
-    const downloadAnswerKeyPdfBtn = getEl("downloadAnswerKeyPdfBtn");
+    const exportToCatalogBtn = getEl("exportToCatalogBtn");
     const downloadInteractiveHtmlBtn = getEl("downloadInteractiveHtmlBtn");
-    const downloadInteractiveHtmlReferenceBtn = getEl("downloadInteractiveHtmlReferenceBtn");
 
     const clearBtn = getEl("clearBtn");
     const grayscaleToggle = getEl('grayscaleToggle');
@@ -1724,18 +1718,11 @@ document.addEventListener("DOMContentLoaded", function() {
         
         clearBtn.addEventListener('click', clearAll);
         
-        downloadWorksheetJpegBtn.addEventListener("click", () => downloadImageFile(worksheetCanvas, 'sudoku_worksheet.jpeg'));
-        downloadAnswerKeyJpegBtn.addEventListener("click", () => downloadImageFile(answerKeyCanvas, 'sudoku_answer_key.jpeg'));
-        downloadWorksheetPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'sudoku_worksheet.pdf'));
-        downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'sudoku_answer_key.pdf'));
         if (downloadInteractiveHtmlBtn) {
             downloadInteractiveHtmlBtn.addEventListener("click", () =>
                 downloadInteractiveHtml(worksheetCanvas, 'sudoku_interactive.html', { loadingMode: 'inline' }));
         }
-        if (downloadInteractiveHtmlReferenceBtn) {
-            downloadInteractiveHtmlReferenceBtn.addEventListener("click", () =>
-                downloadInteractiveHtml(worksheetCanvas, 'sudoku_interactive_catalog.html', { loadingMode: 'reference' }));
-        }
+        exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
 
         grayscaleLabel.addEventListener('click', (e) => e.stopPropagation());
         
@@ -2160,8 +2147,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
             await renderWorksheet();
             showMessage(t('sudoku.msg.worksheet.success'), 'success');
-            downloadWorksheetJpegBtn.disabled = false;
-            downloadWorksheetPdfBtn.disabled = false;
             generateAnswerKeyBtn.disabled = false;
         } catch (error) {
             console.error("Error generating worksheet:", error);
@@ -2178,8 +2163,7 @@ document.addEventListener("DOMContentLoaded", function() {
         await renderAnswerKey();
         document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
         showMessage(t('sudoku.msg.answer.generated'), 'success');
-        downloadAnswerKeyJpegBtn.disabled = false;
-        downloadAnswerKeyPdfBtn.disabled = false;
+        exportToCatalogBtn.disabled = false;
     }
 
     // --- Initial Worksheet Generation ---
@@ -2758,7 +2742,6 @@ document.addEventListener("DOMContentLoaded", function() {
         worksheetCanvas.problemsData = { hasGrid: true };
 
         if (typeof downloadInteractiveHtmlBtn !== 'undefined' && downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = false;
-        if (typeof downloadInteractiveHtmlReferenceBtn !== 'undefined' && downloadInteractiveHtmlReferenceBtn) downloadInteractiveHtmlReferenceBtn.disabled = false;
 
         // Store current canvas size for future comparisons
         worksheetCanvas.lastCanvasSize = {
@@ -3483,12 +3466,8 @@ document.addEventListener("DOMContentLoaded", function() {
         renderSelectedImages(); renderDictionary(); renderUploadedImages();
         searchInput.value = "";
         
-        downloadWorksheetJpegBtn.disabled = true;
-        downloadWorksheetPdfBtn.disabled = true;
-        downloadAnswerKeyJpegBtn.disabled = true;
-        downloadAnswerKeyPdfBtn.disabled = true;
-        if (downloadInteractiveHtmlBtn)          downloadInteractiveHtmlBtn.disabled          = true;
-        if (downloadInteractiveHtmlReferenceBtn) downloadInteractiveHtmlReferenceBtn.disabled = true;
+        exportToCatalogBtn.disabled = true;
+        if (downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = true;
         generateAnswerKeyBtn.disabled = true;
 
         showMessage(t('sudoku.msg.cleared'), 'success');
@@ -4309,13 +4288,17 @@ document.addEventListener("DOMContentLoaded", function() {
 
     async function downloadInteractiveHtml(canvasInstance, fileName, options) {
         var loadingMode = (options && options.loadingMode) || 'inline';
+        var returnString = !!(options && options.returnString);
         if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
+            if (returnString) throw new Error('Please generate a worksheet first.');
             showMessage('Please generate a worksheet first.', 'error');
             return;
         }
-        showMessage('Preparing ' + fileName + '...', 'info', 0);
+        if (!returnString) showMessage('Preparing ' + fileName + '...', 'info', 0);
         try {
-            var bundle = await extractDeckBundle(canvasInstance, { loadingMode: loadingMode });
+            var bundle = (options && options.precomputedBundle)
+                ? options.precomputedBundle
+                : await extractDeckBundle(canvasInstance, { loadingMode: loadingMode });
             if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
                 throw new Error('Worksheet snapshot is empty.');
             }
@@ -4326,6 +4309,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 throw new Error('No cutout cards detected. Regenerate and try again.');
             }
             var html = renderStandaloneHTML(bundle);
+            if (returnString) {
+                return html;
+            }
             var blob = new Blob([html], { type: 'text/html;charset=utf-8' });
             var url = URL.createObjectURL(blob);
             var a = document.createElement('a');
@@ -4337,11 +4323,85 @@ document.addEventListener("DOMContentLoaded", function() {
             setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
             showMessage('Interactive worksheet downloaded.', 'success');
         } catch (e) {
+            if (returnString) throw e;
             console.error('[Interactive Export v28.2.0] Failed:', e);
             showMessage('Interactive export failed: ' + e.message, 'error');
         }
     }
     // END: Interactive-HTML export v28.2.0
+
+    function buildCatalogManifestSettings() {
+        var imagesUsed = [];
+        var seen = {};
+        if (typeof selectedImages !== 'undefined' && Array.isArray(selectedImages)) {
+            selectedImages.forEach(function (img) {
+                var path = img && img.path;
+                if (!path || seen[path]) return;
+                seen[path] = true;
+                imagesUsed.push(path.split('/').pop());
+            });
+        }
+        var settings = {};
+        var capture = function (id, key) {
+            var el = document.getElementById(id);
+            if (!el) return;
+            settings[key || id] = (el.type === 'checkbox') ? el.checked : el.value;
+        };
+        capture('themeSelect', 'theme_select');
+        capture('borderThemeSelect', 'border_theme_select');
+        capture('grayscaleToggle', 'grayscale');
+        var theme = (typeof themeSelect !== 'undefined' && themeSelect && themeSelect.value && themeSelect.value !== 'all')
+            ? themeSelect.value : null;
+        return {
+            settings: settings,
+            theme: theme,
+            images_used: imagesUsed,
+            vocabulary: [],
+            exercises: []
+        };
+    }
+
+    async function handleExportToCatalog() {
+        if (exportToCatalogBtn.disabled) return;
+        exportToCatalogBtn.disabled = true;
+        var previousLabel = exportToCatalogBtn.textContent;
+        exportToCatalogBtn.textContent = 'Exporting…';
+        try {
+            var cachedBundle = null;
+            var getBundle = async function () {
+                if (!cachedBundle) {
+                    cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline' });
+                }
+                return cachedBundle;
+            };
+            var result = await window.LCSCatalogExport.export({
+                app: { name: 'sudoku', version: '28.2.0', bundleVersion: 28 },
+                language: window.currentLocale || 'en',
+                exerciseType: 'sudoku',
+                exerciseMode: null,
+                producers: {
+                    pdf: function () { return downloadPDF(worksheetCanvas, 'printable.pdf', { returnBlob: true }); },
+                    answerKey: function () { return downloadPDF(answerKeyCanvas, 'answer-key.pdf', { returnBlob: true }); },
+                    deckHtml: async function () {
+                        var bundle = await getBundle();
+                        return downloadInteractiveHtml(worksheetCanvas, 'deck.html', { returnString: true, precomputedBundle: bundle });
+                    },
+                    worksheetSnapshot: async function () {
+                        var bundle = await getBundle();
+                        return bundle.worksheetImage;
+                    }
+                },
+                metadata: buildCatalogManifestSettings()
+            });
+            showMessage('Exported to catalog: ' + result.zipFileName, 'success');
+        } catch (e) {
+            console.error('[Catalog Export] Failed:', e);
+            showMessage('Catalog export failed: ' + e.message, 'error');
+        } finally {
+            exportToCatalogBtn.textContent = previousLabel;
+            exportToCatalogBtn.disabled = false;
+        }
+    }
 
     async function getCanvasDataURLWithOptions(canvasInstance, exportOpts) {
         // Save current state
@@ -4491,12 +4551,13 @@ document.addEventListener("DOMContentLoaded", function() {
         removeWatermarkFromCanvas(canvasToExport, watermarkData);
     }
 
-    async function downloadPDF(canvasToExport, filename) {
+    async function downloadPDF(canvasToExport, filename, opts) {
+        var returnBlob = !!(opts && opts.returnBlob);
         if (!canvasToExport || canvasToExport.getObjects().filter(o => o.isGenerated || o.isCutOut).length === 0) {
+            if (returnBlob) throw new Error('No generated content on canvas.');
             return showMessage(t('sudoku.msg.generate.content'), 'error');
         }
-        showMessage(formatTranslation(t('sudoku.msg.preparing'), {filename: filename}), 'info', 2000);
-        // Add watermark if free tier
+        if (!returnBlob) showMessage(formatTranslation(t('sudoku.msg.preparing'), {filename: filename}), 'info', 2000);
         await waitForAccessCheck();
         const watermarkData = addWatermarkToCanvas(canvasToExport);
         try {
@@ -4506,10 +4567,19 @@ document.addEventListener("DOMContentLoaded", function() {
 
             const exportOptions = { multiplier: downloadMultiplier, applyGrayscale: grayscaleToggle.checked };
             pdf.addImage(await getCanvasDataURLWithOptions(canvasToExport, exportOptions), 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
+            if (returnBlob) {
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
+                return pdf.output('blob');
+            }
             pdf.save(filename);
             showMessage(t('sudoku.msg.pdf.success'), 'success');
-        } catch(e) { showMessage(t('sudoku.msg.pdf.error'), 'error'); console.error(e); }
-        // Remove watermark after export
+        } catch(e) {
+            if (returnBlob) {
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
+                throw e;
+            }
+            showMessage(t('sudoku.msg.pdf.error'), 'error'); console.error(e);
+        }
         removeWatermarkFromCanvas(canvasToExport, watermarkData);
     }
 

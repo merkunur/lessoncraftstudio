@@ -4,6 +4,8 @@
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
     <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
+    <script src="/worksheet-generators/js/jszip-3.10.1.min.js"></script>
+    <script src="/worksheet-generators/js/catalog-export.js?v=1"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1110,14 +1112,10 @@
                     <div class="dropdown-container">
                         <button id="downloadDropdownBtn" class="action-button download-btn"><span data-translate="pattern.worksheet.download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
                         <div id="downloadDropdownContent" class="dropdown-content">
-                            <button id="downloadWsJpegBtn" data-translate="pattern.worksheet.download.worksheet.jpeg">Worksheet (JPEG)</button>
-                            <button id="downloadAkJpegBtn" disabled data-translate="pattern.worksheet.download.answer.jpeg">Answer Key (JPEG)</button>
+                            <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
-                            <button id="downloadWsPdfBtn" data-translate="pattern.worksheet.download.worksheet.pdf">Worksheet (PDF)</button>
-                            <button id="downloadAkPdfBtn" disabled data-translate="pattern.worksheet.download.answer.pdf">Answer Key (PDF)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
                             <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveHtml">Interactive Worksheet (HTML)</button>
-                            <button id="downloadInteractiveHtmlReferenceBtn" disabled title="For server-hosted catalog playback. Smaller file, requires the same site to host the WebP library.">Interactive Worksheet (Catalog/URL refs)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
                             <label class="checkbox-label" id="grayscaleLabel">
                                 <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
@@ -1261,12 +1259,8 @@
             generateAnswerKeyBtn: document.getElementById('generateAnswerKeyBtn'),
             downloadDropdownBtn: document.getElementById('downloadDropdownBtn'),
             downloadDropdownContent: document.getElementById('downloadDropdownContent'),
-            downloadWsJpegBtn: document.getElementById('downloadWsJpegBtn'),
-            downloadAkJpegBtn: document.getElementById('downloadAkJpegBtn'),
-            downloadWsPdfBtn: document.getElementById('downloadWsPdfBtn'),
-            downloadAkPdfBtn: document.getElementById('downloadAkPdfBtn'),
+            exportToCatalogBtn: document.getElementById('exportToCatalogBtn'),
             downloadInteractiveHtmlBtn: document.getElementById('downloadInteractiveHtmlBtn'),
-            downloadInteractiveHtmlReferenceBtn: document.getElementById('downloadInteractiveHtmlReferenceBtn'),
             grayscaleToggle: document.getElementById('grayscaleToggle'),
 
             // Header Controls - Zoom
@@ -1623,14 +1617,8 @@
             ui.generateAnswerKeyBtn.addEventListener('click', handleGenerateAnswerKey);
             
             // New Download Listeners
-            ui.downloadWsJpegBtn.addEventListener("click", () => downloadImageFile(worksheetCanvas, 'jpeg', 'pattern_worksheet'));
-            ui.downloadAkJpegBtn.addEventListener("click", () => downloadImageFile(answerKeyCanvas, 'jpeg', 'pattern_answer_key'));
-            ui.downloadWsPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'pattern_worksheet.pdf'));
-            ui.downloadAkPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'pattern_answer_key.pdf'));
             ui.downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'pattern-worksheet_interactive.html', { loadingMode: 'inline' }));
-            if (ui.downloadInteractiveHtmlReferenceBtn) {
-                ui.downloadInteractiveHtmlReferenceBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'pattern-worksheet_interactive_reference.html', { loadingMode: 'reference' }));
-            }
+            ui.exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
 
 
             // Prevent dropdown from closing on label click
@@ -1816,10 +1804,8 @@
             
             ui.generateAnswerKeyBtn.disabled = true;
             ui.downloadDropdownBtn.disabled = true;
-            ui.downloadAkJpegBtn.disabled = true;
-            ui.downloadAkPdfBtn.disabled = true;
+            ui.exportToCatalogBtn.disabled = true;
             if (ui.downloadInteractiveHtmlBtn) ui.downloadInteractiveHtmlBtn.disabled = true;
-                if (ui.downloadInteractiveHtmlReferenceBtn) ui.downloadInteractiveHtmlReferenceBtn.disabled = true;
 
 
             showMessage(t('pattern.worksheet.msg.cleared'), "success", 2000);
@@ -2009,7 +1995,6 @@
                 ui.generateAnswerKeyBtn.disabled = false;
                 ui.downloadDropdownBtn.disabled = false;
                 if (ui.downloadInteractiveHtmlBtn) ui.downloadInteractiveHtmlBtn.disabled = false;
-                if (ui.downloadInteractiveHtmlReferenceBtn) ui.downloadInteractiveHtmlReferenceBtn.disabled = false;
                 // Required by image-reference.js propagation checklist item 10.
                 window.__lcsGenerationCounter = (window.__lcsGenerationCounter || 0) + 1;
                 showMessage(t('pattern.worksheet.msg.generated'), "success");
@@ -2039,8 +2024,7 @@
                 isGenerating = false;
                 saveCanvasState();
 
-                ui.downloadAkJpegBtn.disabled = false;
-                ui.downloadAkPdfBtn.disabled = false;
+                ui.exportToCatalogBtn.disabled = false;
                 showMessage(t('pattern.worksheet.msg.answer.generated'), "success");
             } catch (err) {
                 console.error("Error generating answer key:", err);
@@ -3370,12 +3354,14 @@
         };
     }
 
-async function downloadPDF(canvasToExport, filename = 'download.pdf') {
-             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+async function downloadPDF(canvasToExport, filename = 'download.pdf', opts) {
+            var returnBlob = !!(opts && opts.returnBlob);
+            if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+                if (returnBlob) throw new Error('No content on canvas to render as PDF.');
                 showMessage(t('pattern.worksheet.msg.empty.page'), 'error');
                 return;
             }
-            showMessage(t('pattern.worksheet.msg.preparing.pdf'), 'info', 0);
+            if (!returnBlob) showMessage(t('pattern.worksheet.msg.preparing.pdf'), 'info', 0);
 
             await waitForAccessCheck();
             const watermarkData = addWatermarkToCanvas(canvasToExport);
@@ -3396,9 +3382,13 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
                 });
 
                 pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
+                if (returnBlob) {
+                    return pdf.output('blob');
+                }
                 pdf.save(filename);
                 showMessage(t('pattern.worksheet.msg.pdf.downloaded.alt'), 'success', 3000);
             } catch (err) {
+                if (returnBlob) throw err;
                 showMessage(t('pattern.worksheet.msg.pdf.error.detailed').replace('{message}', err.message), "error");
             } finally {
                 removeWatermarkFromCanvas(canvasToExport, watermarkData);
@@ -5188,13 +5178,17 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
 
         async function downloadInteractiveHtml(canvasInstance, fileName, options) {
             var loadingMode = (options && options.loadingMode) || 'inline';
+            var returnString = !!(options && options.returnString);
             if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
+                if (returnString) throw new Error('Please generate a worksheet first.');
                 showMessage(t('pattern.worksheet.msg.generate.first') || 'Please generate a worksheet first.', 'error');
                 return;
             }
-            showMessage('Preparing ' + fileName + '...', 'info', 0);
+            if (!returnString) showMessage('Preparing ' + fileName + '...', 'info', 0);
             try {
-                var bundle = await extractDeckBundle(canvasInstance, { loadingMode: loadingMode });
+                var bundle = (options && options.precomputedBundle)
+                    ? options.precomputedBundle
+                    : await extractDeckBundle(canvasInstance, { loadingMode: loadingMode });
                 if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
                     throw new Error('Worksheet snapshot is empty.');
                 }
@@ -5202,6 +5196,9 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
                     throw new Error('No interactive targets detected. Regenerate and try again.');
                 }
                 var html = renderStandaloneHTML(bundle);
+                if (returnString) {
+                    return html;
+                }
                 var blob = new Blob([html], { type: 'text/html;charset=utf-8' });
                 var url = URL.createObjectURL(blob);
                 var a = document.createElement('a');
@@ -5213,11 +5210,88 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
                 setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
                 showMessage('Interactive worksheet downloaded.', 'success');
             } catch (e) {
+                if (returnString) throw e;
                 console.error('[Interactive Export v18] Failed:', e);
                 showMessage('Interactive export failed: ' + e.message, 'error');
             }
         }
         // END: Interactive-HTML export v18
+
+        function buildCatalogManifestSettings() {
+            var pd = (worksheetCanvas && worksheetCanvas.problemsData) || {};
+            var imagesUsed = [];
+            var seen = {};
+            if (Array.isArray(pd.puzzles)) {
+                pd.puzzles.forEach(function (p) {
+                    if (Array.isArray(p.uniqueImages)) {
+                        p.uniqueImages.forEach(function (im) {
+                            var path = im && im.path;
+                            if (!path || seen[path]) return;
+                            seen[path] = true;
+                            imagesUsed.push(path.split('/').pop());
+                        });
+                    }
+                });
+            }
+            var settings = {};
+            var capture = function (id, key) {
+                var el = document.getElementById(id);
+                if (!el) return;
+                settings[key || id] = (el.type === 'checkbox') ? el.checked : el.value;
+            };
+            capture('themeSelect', 'theme_select');
+            capture('borderThemeSelect', 'border_theme_select');
+            capture('grayscaleToggle', 'grayscale');
+            return {
+                settings: settings,
+                theme: null,
+                images_used: imagesUsed,
+                vocabulary: [],
+                exercises: Array.isArray(pd.puzzles) ? pd.puzzles : [pd]
+            };
+        }
+
+        async function handleExportToCatalog() {
+            if (ui.exportToCatalogBtn.disabled) return;
+            ui.exportToCatalogBtn.disabled = true;
+            var previousLabel = ui.exportToCatalogBtn.textContent;
+            ui.exportToCatalogBtn.textContent = (typeof t === 'function' && t('exportingToCatalog')) || 'Exporting…';
+            try {
+                var cachedBundle = null;
+                var getBundle = async function () {
+                    if (!cachedBundle) {
+                        cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline' });
+                    }
+                    return cachedBundle;
+                };
+                var result = await window.LCSCatalogExport.export({
+                    app: { name: 'pattern-worksheet', version: '18.0.0', bundleVersion: 18 },
+                    language: window.currentLocale || 'en',
+                    exerciseType: 'pattern-worksheet',
+                    exerciseMode: null,
+                    producers: {
+                        pdf: function () { return downloadPDF(worksheetCanvas, 'printable.pdf', { returnBlob: true }); },
+                        answerKey: function () { return downloadPDF(answerKeyCanvas, 'answer-key.pdf', { returnBlob: true }); },
+                        deckHtml: async function () {
+                            var bundle = await getBundle();
+                            return downloadInteractiveHtml(worksheetCanvas, 'deck.html', { returnString: true, precomputedBundle: bundle });
+                        },
+                        worksheetSnapshot: async function () {
+                            var bundle = await getBundle();
+                            return bundle.worksheetImage;
+                        }
+                    },
+                    metadata: buildCatalogManifestSettings()
+                });
+                showMessage(((typeof t === 'function' && t('catalogExportSuccess')) || 'Exported to catalog: ') + result.zipFileName, 'success');
+            } catch (e) {
+                console.error('[Catalog Export] Failed:', e);
+                showMessage(((typeof t === 'function' && t('catalogExportError')) || 'Catalog export failed: ') + e.message, 'error');
+            } finally {
+                ui.exportToCatalogBtn.textContent = previousLabel;
+                ui.exportToCatalogBtn.disabled = false;
+            }
+        }
 
         // Start initialization
         init().catch(err => {

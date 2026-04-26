@@ -4,6 +4,8 @@
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
     <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
+    <script src="/worksheet-generators/js/jszip-3.10.1.min.js"></script>
+    <script src="/worksheet-generators/js/catalog-export.js?v=1"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <title>Math Puzzle Worksheet Generator</title>
@@ -1317,11 +1319,8 @@
                     <div class="dropdown-container">
                         <button id="downloadDropdownBtn" class="action-button download-btn"><span data-translate="mathpuzzle.download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
                         <div id="downloadDropdownContent" class="dropdown-content">
-                            <button id="downloadWsJpegBtn" disabled data-translate="mathpuzzle.download.worksheet.jpeg">Worksheet (JPEG)</button>
-                            <button id="downloadAkJpegBtn" disabled data-translate="mathpuzzle.download.answer.jpeg">Answer Key (JPEG)</button>
+                            <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
-                            <button id="downloadWsPdfBtn" disabled data-translate="mathpuzzle.download.worksheet.pdf">Worksheet (PDF)</button>
-                            <button id="downloadAkPdfBtn" disabled data-translate="mathpuzzle.download.answer.pdf">Answer Key (PDF)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
                             <button id="downloadInteractiveHtmlBtn" disabled data-translate="mathpuzzle.download.interactive.html">Interactive Worksheet (HTML)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
@@ -1521,10 +1520,7 @@ document.addEventListener("DOMContentLoaded", function() {
         generateAnswerKeyBtn: $('generateAnswerKeyBtn'),
         downloadDropdownBtn: $('downloadDropdownBtn'),
         downloadDropdownContent: $('downloadDropdownContent'),
-        downloadWsJpegBtn: $('downloadWsJpegBtn'),
-        downloadAkJpegBtn: $('downloadAkJpegBtn'),
-        downloadWsPdfBtn: $('downloadWsPdfBtn'),
-        downloadAkPdfBtn: $('downloadAkPdfBtn'),
+        exportToCatalogBtn: $('exportToCatalogBtn'),
         downloadInteractiveHtmlBtn: $('downloadInteractiveHtmlBtn'),
         grayscaleToggle: $('grayscaleToggle'),
         clearBtn: $('clearBtn'),
@@ -1875,11 +1871,8 @@ document.addEventListener("DOMContentLoaded", function() {
         elements.generateAnswerKeyBtn.addEventListener('click', handleGenerateAnswerKey);
         elements.clearBtn.addEventListener('click', clearAll);
         
-        elements.downloadWsJpegBtn.addEventListener('click', () => downloadImageFile(worksheetCanvas, 'worksheet.jpeg'));
-        elements.downloadAkJpegBtn.addEventListener('click', () => downloadImageFile(answerKeyCanvas, 'answer_key.jpeg'));
-        elements.downloadWsPdfBtn.addEventListener('click', () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
-        elements.downloadAkPdfBtn.addEventListener('click', () => downloadPDF(answerKeyCanvas, 'answer_key.pdf'));
         elements.downloadInteractiveHtmlBtn.addEventListener('click', () => downloadInteractiveHtml(worksheetCanvas, 'math-puzzle_interactive.html', { loadingMode: 'inline' }));
+        elements.exportToCatalogBtn.addEventListener('click', handleExportToCatalog);
 
         elements.addTextBtn.addEventListener('click', addText);
 
@@ -2269,8 +2262,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
         
         [
-            elements.downloadWsJpegBtn, elements.downloadAkJpegBtn,
-            elements.downloadWsPdfBtn, elements.downloadAkPdfBtn,
+            elements.exportToCatalogBtn,
             elements.downloadInteractiveHtmlBtn,
             elements.generateAnswerKeyBtn
         ].forEach(btn => btn.disabled = true);
@@ -2998,8 +2990,6 @@ document.addEventListener("DOMContentLoaded", function() {
             await renderWorksheet();
             showMessage(t('mathpuzzle.msg.worksheet.success'), 'success');
 
-            elements.downloadWsJpegBtn.disabled = false;
-            elements.downloadWsPdfBtn.disabled = false;
             elements.downloadInteractiveHtmlBtn.disabled = false;
             // Required by image-reference.js propagation checklist item 10.
             window.__lcsGenerationCounter = (window.__lcsGenerationCounter || 0) + 1;
@@ -3028,8 +3018,7 @@ document.addEventListener("DOMContentLoaded", function() {
         try {
             await renderAnswerKey();
             showMessage(t('mathpuzzle.msg.answer.generated'), 'success');
-            elements.downloadAkJpegBtn.disabled = false;
-            elements.downloadAkPdfBtn.disabled = false;
+            elements.exportToCatalogBtn.disabled = false;
 
             isGenerating = false;
             saveState();
@@ -4119,9 +4108,13 @@ document.addEventListener("DOMContentLoaded", function() {
         };
     }
 
-async function downloadPDF(canvasToExport, filename) {
-        if (!canvasToExport) return;
-        showMessage(t('mathpuzzle.msg.preparing.pdf'), 'info', 2000);
+async function downloadPDF(canvasToExport, filename, opts) {
+        var returnBlob = !!(opts && opts.returnBlob);
+        if (!canvasToExport) {
+            if (returnBlob) throw new Error('Canvas not available.');
+            return;
+        }
+        if (!returnBlob) showMessage(t('mathpuzzle.msg.preparing.pdf'), 'info', 2000);
 
         await waitForAccessCheck();
         const watermarkData = addWatermarkToCanvas(canvasToExport);
@@ -4136,9 +4129,13 @@ async function downloadPDF(canvasToExport, filename) {
 
             const dataURL = await getCanvasDataURL(canvasToExport);
             pdf.addImage(dataURL, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
+            if (returnBlob) {
+                return pdf.output('blob');
+            }
             pdf.save(filename);
 
         } catch (error) {
+            if (returnBlob) throw error;
             showMessage(t('mathpuzzle.msg.pdf.error.detailed').replace('{error}', error.message), "error");
         } finally {
             removeWatermarkFromCanvas(canvasToExport, watermarkData);
@@ -4862,13 +4859,17 @@ async function downloadPDF(canvasToExport, filename) {
 
     async function downloadInteractiveHtml(canvasInstance, fileName, options) {
         var loadingMode = (options && options.loadingMode) || 'inline';
+        var returnString = !!(options && options.returnString);
         if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
+            if (returnString) throw new Error('Please generate a worksheet first.');
             showMessage(t('mathpuzzle.msg.generate.first') || 'Please generate a worksheet first.', 'error');
             return;
         }
-        showMessage('Preparing ' + fileName + '...', 'info', 0);
+        if (!returnString) showMessage('Preparing ' + fileName + '...', 'info', 0);
         try {
-            var bundle = await extractDeckBundle(canvasInstance, { loadingMode: loadingMode });
+            var bundle = (options && options.precomputedBundle)
+                ? options.precomputedBundle
+                : await extractDeckBundle(canvasInstance, { loadingMode: loadingMode });
             if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
                 throw new Error('Worksheet snapshot is empty.');
             }
@@ -4879,6 +4880,9 @@ async function downloadPDF(canvasToExport, filename) {
                 throw new Error('No puzzle pieces detected. Regenerate the worksheet and try again.');
             }
             var html = renderStandaloneHTML(bundle);
+            if (returnString) {
+                return html;
+            }
 
             var blob = new Blob([html], { type: 'text/html;charset=utf-8' });
             var url = URL.createObjectURL(blob);
@@ -4892,11 +4896,92 @@ async function downloadPDF(canvasToExport, filename) {
 
             showMessage('Interactive worksheet downloaded.', 'success');
         } catch (e) {
+            if (returnString) throw e;
             console.error('[Interactive Export v8] Failed:', e);
             showMessage('Interactive export failed: ' + e.message, 'error');
         }
     }
     // END: Interactive-HTML export v8
+
+    function buildCatalogManifestSettings() {
+        var pd = (worksheetCanvas && worksheetCanvas.problemsData) || {};
+        var imagesUsed = [];
+        var seen = {};
+        var collectImagePath = function (path) {
+            if (!path || seen[path]) return;
+            seen[path] = true;
+            imagesUsed.push(path.split('/').pop());
+        };
+        if (Array.isArray(pd.pieces)) {
+            pd.pieces.forEach(function (p) { collectImagePath(p && p.imagePath); });
+        }
+        if (Array.isArray(pd.cells)) {
+            pd.cells.forEach(function (c) { collectImagePath(c && c.imagePath); });
+        }
+        var settings = {};
+        var capture = function (id, key) {
+            var el = document.getElementById(id);
+            if (!el) return;
+            settings[key || id] = (el.type === 'checkbox') ? el.checked : el.value;
+        };
+        capture('themeSelect', 'theme_select');
+        capture('borderThemeSelect', 'border_theme_select');
+        capture('backgroundThemeSelect', 'background_theme_select');
+        capture('operationSelect', 'operation');
+        capture('gridSize', 'grid_size');
+        capture('grayscaleToggle', 'grayscale');
+        var theme = (typeof themeSelect !== 'undefined' && themeSelect && themeSelect.value && themeSelect.value !== 'all')
+            ? themeSelect.value : null;
+        return {
+            settings: settings,
+            theme: theme,
+            images_used: imagesUsed,
+            vocabulary: [],
+            exercises: [pd]
+        };
+    }
+
+    async function handleExportToCatalog() {
+        if (elements.exportToCatalogBtn.disabled) return;
+        elements.exportToCatalogBtn.disabled = true;
+        var previousLabel = elements.exportToCatalogBtn.textContent;
+        elements.exportToCatalogBtn.textContent = (typeof t === 'function' && t('exportingToCatalog')) || 'Exporting…';
+        try {
+            var cachedBundle = null;
+            var getBundle = async function () {
+                if (!cachedBundle) {
+                    cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline' });
+                }
+                return cachedBundle;
+            };
+            var result = await window.LCSCatalogExport.export({
+                app: { name: 'math-puzzle', version: '8.0.0', bundleVersion: 8 },
+                language: window.currentLocale || 'en',
+                exerciseType: 'math-puzzle',
+                exerciseMode: (document.getElementById('operationSelect') && document.getElementById('operationSelect').value) || null,
+                producers: {
+                    pdf: function () { return downloadPDF(worksheetCanvas, 'printable.pdf', { returnBlob: true }); },
+                    answerKey: function () { return downloadPDF(answerKeyCanvas, 'answer-key.pdf', { returnBlob: true }); },
+                    deckHtml: async function () {
+                        var bundle = await getBundle();
+                        return downloadInteractiveHtml(worksheetCanvas, 'deck.html', { returnString: true, precomputedBundle: bundle });
+                    },
+                    worksheetSnapshot: async function () {
+                        var bundle = await getBundle();
+                        return bundle.worksheetImage;
+                    }
+                },
+                metadata: buildCatalogManifestSettings()
+            });
+            showMessage(((typeof t === 'function' && t('catalogExportSuccess')) || 'Exported to catalog: ') + result.zipFileName, 'success');
+        } catch (e) {
+            console.error('[Catalog Export] Failed:', e);
+            showMessage(((typeof t === 'function' && t('catalogExportError')) || 'Catalog export failed: ') + e.message, 'error');
+        } finally {
+            elements.exportToCatalogBtn.textContent = previousLabel;
+            elements.exportToCatalogBtn.disabled = false;
+        }
+    }
 
     // --- START THE APP ---
     initializeApp();

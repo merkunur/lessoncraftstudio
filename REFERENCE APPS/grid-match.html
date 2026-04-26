@@ -4,6 +4,8 @@
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
     <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
+    <script src="/worksheet-generators/js/jszip-3.10.1.min.js"></script>
+    <script src="/worksheet-generators/js/catalog-export.js?v=1"></script>
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1291,14 +1293,10 @@
                     <div class="dropdown-container">
                         <button id="downloadDropdownBtn" class="action-button download-btn"><span data-translate="gridmatch.download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
                         <div id="downloadDropdownContent" class="dropdown-content">
-                            <button id="downloadWsJpegBtn" disabled data-translate="gridmatch.download.worksheet.jpeg">Worksheet (JPEG)</button>
-                            <button id="downloadAkJpegBtn" disabled data-translate="gridmatch.download.answer.jpeg">Answer Key (JPEG)</button>
+                            <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
-                            <button id="downloadWsPdfBtn" disabled data-translate="gridmatch.download.worksheet.pdf">Worksheet (PDF)</button>
-                            <button id="downloadAkPdfBtn" disabled data-translate="gridmatch.download.answer.pdf">Answer Key (PDF)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
-                            <button id="downloadInteractiveHtmlBtn" disabled>Interactive Worksheet (HTML)</button>
-                            <button id="downloadInteractiveHtmlReferenceBtn" disabled title="For server-hosted catalog playback. Smaller file, requires the same site to host the WebP library.">Interactive Worksheet (Catalog/URL refs)</button>
+                            <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
                             <label class="checkbox-label" id="grayscaleLabel">
                                 <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
@@ -1383,12 +1381,8 @@
 
         const downloadDropdownBtn = $('downloadDropdownBtn');
         const downloadDropdownContent = $('downloadDropdownContent');
-        const downloadWsJpegBtn = $('downloadWsJpegBtn');
-        const downloadAkJpegBtn = $('downloadAkJpegBtn');
-        const downloadWsPdfBtn = $('downloadWsPdfBtn');
-        const downloadAkPdfBtn = $('downloadAkPdfBtn');
+        const exportToCatalogBtn = $('exportToCatalogBtn');
         const downloadInteractiveHtmlBtn = $('downloadInteractiveHtmlBtn');
-        const downloadInteractiveHtmlReferenceBtn = $('downloadInteractiveHtmlReferenceBtn');
         const clearBtn = $('clearBtn');
         const grayscaleToggle = $('grayscaleToggle');
 
@@ -3430,10 +3424,7 @@
 
                     // Enable worksheet-specific download buttons
                     downloadDropdownBtn.disabled = false;
-                    downloadWsJpegBtn.disabled = false;
-                    downloadWsPdfBtn.disabled = false;
                     if (downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = false;
-                    if (downloadInteractiveHtmlReferenceBtn) downloadInteractiveHtmlReferenceBtn.disabled = false;
 
                     generateAnswerKeyBtn.disabled = false;
 
@@ -3511,8 +3502,7 @@
                 akCanvas.renderAll();
 
                 generateAnswerKeyBtn.disabled = false; // Now enabled
-                downloadAkJpegBtn.disabled = false;
-                downloadAkPdfBtn.disabled = false;
+                exportToCatalogBtn.disabled = false;
 
                 showMessage(getTranslation('answerKeyGenerated'), 'success');
 
@@ -4221,13 +4211,17 @@
 
         async function downloadInteractiveHtml(canvasInstance, fileName, options) {
             var loadingMode = (options && options.loadingMode) || 'inline';
+            var returnString = !!(options && options.returnString);
             if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
+                if (returnString) throw new Error('Please generate a worksheet first.');
                 showMessage('Please generate a worksheet first.', 'error');
                 return;
             }
-            showMessage('Preparing ' + fileName + '...', 'info', 0);
+            if (!returnString) showMessage('Preparing ' + fileName + '...', 'info', 0);
             try {
-                var bundle = await extractDeckBundle(canvasInstance, { loadingMode: loadingMode });
+                var bundle = (options && options.precomputedBundle)
+                    ? options.precomputedBundle
+                    : await extractDeckBundle(canvasInstance, { loadingMode: loadingMode });
                 if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
                     throw new Error('Worksheet snapshot is empty.');
                 }
@@ -4235,6 +4229,9 @@
                     throw new Error('No grid cells detected. Regenerate and try again.');
                 }
                 var html = renderStandaloneHTML(bundle);
+                if (returnString) {
+                    return html;
+                }
                 var blob = new Blob([html], { type: 'text/html;charset=utf-8' });
                 var url = URL.createObjectURL(blob);
                 var a = document.createElement('a');
@@ -4246,11 +4243,90 @@
                 setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
                 showMessage('Interactive worksheet downloaded.', 'success');
             } catch (e) {
+                if (returnString) throw e;
                 console.error('[Interactive Export v22.3] Failed:', e);
                 showMessage('Interactive export failed: ' + e.message, 'error');
             }
         }
         // END: Interactive-HTML export v22.3
+
+        function buildCatalogManifestSettings() {
+            var pd = (wsCanvas && wsCanvas.problemsData) || {};
+            var imagesUsed = [];
+            var seen = {};
+            if (appState && appState.imageCache && Array.isArray(appState.imageCache)) {
+                appState.imageCache.forEach(function (img) {
+                    var path = img && img.path;
+                    if (!path || seen[path]) return;
+                    seen[path] = true;
+                    imagesUsed.push(path.split('/').pop());
+                });
+            }
+            var settings = {};
+            var capture = function (id, key) {
+                var el = document.getElementById(id);
+                if (!el) return;
+                settings[key || id] = (el.type === 'checkbox') ? el.checked : el.value;
+            };
+            capture('themeSelect', 'theme_select');
+            capture('borderThemeSelect', 'border_theme_select');
+            capture('backgroundThemeSelect', 'background_theme_select');
+            capture('rowInput', 'rows');
+            capture('colInput', 'cols');
+            capture('clueCountInput', 'clue_count');
+            capture('grayscaleToggle', 'grayscale');
+            var theme = (typeof themeSelect !== 'undefined' && themeSelect && themeSelect.value && themeSelect.value !== 'all')
+                ? themeSelect.value : null;
+            return {
+                settings: settings,
+                theme: theme,
+                images_used: imagesUsed,
+                vocabulary: [],
+                exercises: [pd]
+            };
+        }
+
+        async function handleExportToCatalog() {
+            if (exportToCatalogBtn.disabled) return;
+            exportToCatalogBtn.disabled = true;
+            var previousLabel = exportToCatalogBtn.textContent;
+            exportToCatalogBtn.textContent = (typeof t === 'function' && t('exportingToCatalog')) || 'Exporting…';
+            try {
+                var cachedBundle = null;
+                var getBundle = async function () {
+                    if (!cachedBundle) {
+                        cachedBundle = await extractDeckBundle(wsCanvas, { loadingMode: 'inline' });
+                    }
+                    return cachedBundle;
+                };
+                var result = await window.LCSCatalogExport.export({
+                    app: { name: 'grid-match', version: '22.4.0', bundleVersion: 22 },
+                    language: window.currentLocale || 'en',
+                    exerciseType: 'grid-match',
+                    exerciseMode: null,
+                    producers: {
+                        pdf: function () { return downloadPDF(wsCanvas, 'printable.pdf', { returnBlob: true }); },
+                        answerKey: function () { return downloadPDF(akCanvas, 'answer-key.pdf', { returnBlob: true }); },
+                        deckHtml: async function () {
+                            var bundle = await getBundle();
+                            return downloadInteractiveHtml(wsCanvas, 'deck.html', { returnString: true, precomputedBundle: bundle });
+                        },
+                        worksheetSnapshot: async function () {
+                            var bundle = await getBundle();
+                            return bundle.worksheetImage;
+                        }
+                    },
+                    metadata: buildCatalogManifestSettings()
+                });
+                showMessage(((typeof t === 'function' && t('catalogExportSuccess')) || 'Exported to catalog: ') + result.zipFileName, 'success');
+            } catch (e) {
+                console.error('[Catalog Export] Failed:', e);
+                showMessage(((typeof t === 'function' && t('catalogExportError')) || 'Catalog export failed: ') + e.message, 'error');
+            } finally {
+                exportToCatalogBtn.textContent = previousLabel;
+                exportToCatalogBtn.disabled = false;
+            }
+        }
 
         // --- Download Logic ---
         async function getCanvasDataURLForExport(targetCanvas) {
@@ -4486,12 +4562,17 @@
         };
     }
 
-async function downloadPDF(canvasToExport, filename) {
-            if (!canvasToExport) return showMessage('Canvas not available.', 'error');
-            showMessage(`Preparing ${filename}...`, 'info', 0);
-            
+async function downloadPDF(canvasToExport, filename, opts) {
+            var returnBlob = !!(opts && opts.returnBlob);
+            if (!canvasToExport) {
+                if (returnBlob) throw new Error('Canvas not available.');
+                return showMessage('Canvas not available.', 'error');
+            }
+            if (!returnBlob) showMessage(`Preparing ${filename}...`, 'info', 0);
+
             const btnId = canvasToExport === wsCanvas ? 'downloadWsPdfBtn' : 'downloadAkPdfBtn';
-            $(btnId).disabled = true;
+            var _btn = $(btnId);
+            if (!returnBlob && _btn) _btn.disabled = true;
 
             await waitForAccessCheck();
             const watermarkData = addWatermarkToCanvas(canvasToExport);
@@ -4533,14 +4614,18 @@ async function downloadPDF(canvasToExport, filename) {
                     height: currentHeight
                 });
                 
+                if (returnBlob) {
+                    return pdf.output('blob');
+                }
                 pdf.save(filename);
                 showMessage(`${filename} downloaded!`, 'success');
             } catch (error) {
+                if (returnBlob) throw error;
                 console.error("PDF Download Error:", error);
                 showMessage(`Error creating PDF: ${error.message}`, 'error');
             } finally {
                 removeWatermarkFromCanvas(canvasToExport, watermarkData);
-                $(btnId).disabled = false;
+                if (!returnBlob && _btn) _btn.disabled = false;
             }
         }
         
@@ -4581,12 +4666,8 @@ async function downloadPDF(canvasToExport, filename) {
 
             generateAnswerKeyBtn.disabled = true;
             downloadDropdownBtn.disabled = true;
-            downloadWsJpegBtn.disabled = true;
-            downloadAkJpegBtn.disabled = true;
-            downloadWsPdfBtn.disabled = true;
-            downloadAkPdfBtn.disabled = true;
+            exportToCatalogBtn.disabled = true;
             if (downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = true;
-            if (downloadInteractiveHtmlReferenceBtn) downloadInteractiveHtmlReferenceBtn.disabled = true;
 
             showMessage(getTranslation('formCleared'), 'success', 2000);
         }
@@ -4711,14 +4792,8 @@ async function downloadPDF(canvasToExport, filename) {
         });
 
         // New Download Listeners
-        downloadWsJpegBtn.addEventListener('click', () => downloadImageFile(wsCanvas, 'worksheet.jpeg'));
-        downloadAkJpegBtn.addEventListener('click', () => downloadImageFile(akCanvas, 'answer_key.jpeg'));
-        downloadWsPdfBtn.addEventListener('click', () => downloadPDF(wsCanvas, 'worksheet.pdf'));
-        downloadAkPdfBtn.addEventListener('click', () => downloadPDF(akCanvas, 'answer_key.pdf'));
         downloadInteractiveHtmlBtn.addEventListener('click', () => downloadInteractiveHtml(wsCanvas, 'grid_match_interactive.html', { loadingMode: 'inline' }));
-        if (downloadInteractiveHtmlReferenceBtn) {
-            downloadInteractiveHtmlReferenceBtn.addEventListener('click', () => downloadInteractiveHtml(wsCanvas, 'grid_match_interactive_catalog.html', { loadingMode: 'reference' }));
-        }
+        exportToCatalogBtn.addEventListener('click', handleExportToCatalog);
 
         layersBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePopover(layersDropdown); });
         alignBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePopover(alignDropdown); });

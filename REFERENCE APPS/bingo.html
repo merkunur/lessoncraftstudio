@@ -4,6 +4,8 @@
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
     <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
+    <script src="/worksheet-generators/js/jszip-3.10.1.min.js"></script>
+    <script src="/worksheet-generators/js/catalog-export.js?v=1"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <title>Picture Bingo Worksheet Generator</title>
@@ -11,7 +13,8 @@
   <!-- Core Libraries -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <!-- JSZip is loaded same-origin by the shared catalog-export.js script tag in <head>. -->
+  <!-- The legacy CDN load was: <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script> -->
 
   <!-- Set global locales BEFORE loading enhancement scripts -->
   <!-- uiLocale = Interface language (from main app's language selector in header) -->
@@ -892,14 +895,10 @@
             <div class="dropdown-container">
                 <button id="downloadDropdownBtn" class="action-button download-btn"><span data-translate="download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
                 <div id="downloadDropdownContent" class="dropdown-content">
-                    <button id="downloadWorksheetJpegBtn" disabled data-translate="worksheetJpeg">Worksheet (JPEG)</button>
-                    <button id="downloadCalloutJpegBtn" disabled data-translate="calloutJpeg">Call-out (JPEG)</button>
+                    <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
                     <hr style="margin: 6px 0; border-color: #eee;">
-                    <button id="downloadWorksheetPdfBtn" disabled data-translate="worksheetPdf">Worksheet (PDF)</button>
-                    <button id="downloadCalloutPdfBtn" disabled data-translate="calloutPdf">Call-out (PDF)</button>
                     <hr style="margin: 6px 0; border-color: #eee;">
-                    <button id="downloadInteractiveHtmlBtn" disabled>Interactive Worksheet (HTML)</button>
-                    <button id="downloadInteractiveHtmlReferenceBtn" disabled title="For server-hosted catalog playback. Smaller file, requires the same site to host the WebP library.">Interactive Worksheet (Catalog/URL refs)</button>
+                    <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
                     <hr style="margin: 6px 0; border-color: #eee;">
                     <label class="checkbox-label" id="grayscaleLabel">
                         <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
@@ -1116,12 +1115,8 @@
       const downloadDropdownBtn = document.getElementById("downloadDropdownBtn");
       const downloadDropdownContent = document.getElementById("downloadDropdownContent");
       
-      const downloadWorksheetJpegBtn = document.getElementById("downloadWorksheetJpegBtn");
-      const downloadCalloutJpegBtn = document.getElementById("downloadCalloutJpegBtn");
-      const downloadWorksheetPdfBtn = document.getElementById("downloadWorksheetPdfBtn");
-      const downloadCalloutPdfBtn = document.getElementById("downloadCalloutPdfBtn");
+      const exportToCatalogBtn = document.getElementById("exportToCatalogBtn");
       const downloadInteractiveHtmlBtn = document.getElementById("downloadInteractiveHtmlBtn");
-      const downloadInteractiveHtmlReferenceBtn = document.getElementById("downloadInteractiveHtmlReferenceBtn");
 
       const clearBtn = document.getElementById("clearBtn");
       const grayscaleToggle = document.getElementById('grayscaleToggle');
@@ -2927,9 +2922,8 @@
               height: currentCanvasConfig.height
           };
 
-          [downloadWorksheetJpegBtn, downloadWorksheetPdfBtn, downloadCalloutJpegBtn, downloadCalloutPdfBtn].forEach(b => b.disabled = false);
+          exportToCatalogBtn.disabled = false;
           if (downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = false;
-          if (downloadInteractiveHtmlReferenceBtn) downloadInteractiveHtmlReferenceBtn.disabled = false;
           showMessage('bingoWorksheetGenerated', 'success');
 
           // Required by image-reference.js propagation checklist item 10.
@@ -3704,13 +3698,17 @@
 
       async function downloadInteractiveHtml(canvasInstance, fileName, options) {
           var loadingMode = (options && options.loadingMode) || 'inline';
+          var returnString = !!(options && options.returnString);
           if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
+              if (returnString) throw new Error('Please generate a worksheet first.');
               showMessage('Please generate a worksheet first.', 'error');
               return;
           }
-          showMessage('Preparing ' + fileName + '...', 'info', 0);
+          if (!returnString) showMessage('Preparing ' + fileName + '...', 'info', 0);
           try {
-              var bundle = await extractDeckBundle(canvasInstance, { loadingMode: loadingMode });
+              var bundle = (options && options.precomputedBundle)
+                  ? options.precomputedBundle
+                  : await extractDeckBundle(canvasInstance, { loadingMode: loadingMode });
               if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
                   throw new Error('Worksheet snapshot is empty.');
               }
@@ -3721,6 +3719,9 @@
                   throw new Error('No chips detected. Regenerate and try again.');
               }
               var html = renderStandaloneHTML(bundle);
+              if (returnString) {
+                  return html;
+              }
               var blob = new Blob([html], { type: 'text/html;charset=utf-8' });
               var url = URL.createObjectURL(blob);
               var a = document.createElement('a');
@@ -3732,11 +3733,91 @@
               setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
               showMessage('Interactive worksheet downloaded.', 'success');
           } catch (e) {
+              if (returnString) throw e;
               console.error('[Interactive Export v24.3] Failed:', e);
               showMessage('Interactive export failed: ' + e.message, 'error');
           }
       }
       // END: Interactive-HTML export v24.3
+
+      function buildCatalogManifestSettings() {
+          var imagesUsed = [];
+          var seen = {};
+          if (typeof selectedImages !== 'undefined' && Array.isArray(selectedImages)) {
+              selectedImages.forEach(function (img) {
+                  var path = img && img.path;
+                  if (!path || seen[path]) return;
+                  seen[path] = true;
+                  imagesUsed.push(path.split('/').pop());
+              });
+          }
+          var settings = {};
+          var capture = function (id, key) {
+              var el = document.getElementById(id);
+              if (!el) return;
+              settings[key || id] = (el.type === 'checkbox') ? el.checked : el.value;
+          };
+          capture('themeSelect', 'theme_select');
+          capture('borderThemeSelect', 'border_theme_select');
+          capture('backgroundThemeSelect', 'background_theme_select');
+          capture('bingoRowsInput', 'rows');
+          capture('bingoColsInput', 'cols');
+          capture('bingoCardCountInput', 'card_count');
+          capture('cardFillSelect', 'card_fill');
+          capture('chipFillSelect', 'chip_fill');
+          var theme = (typeof themeSelect !== 'undefined' && themeSelect && themeSelect.value && themeSelect.value !== 'all')
+              ? themeSelect.value : null;
+          return {
+              settings: settings,
+              theme: theme,
+              images_used: imagesUsed,
+              vocabulary: [],
+              exercises: Array.isArray(worksheetCanvas.bingoData) ? worksheetCanvas.bingoData : []
+          };
+      }
+
+      async function handleExportToCatalog() {
+          if (exportToCatalogBtn.disabled) return;
+          exportToCatalogBtn.disabled = true;
+          var previousLabel = exportToCatalogBtn.textContent;
+          exportToCatalogBtn.textContent = 'Exporting…';
+          try {
+              var cachedBundle = null;
+              var getBundle = async function () {
+                  if (!cachedBundle) {
+                      cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline' });
+                  }
+                  return cachedBundle;
+              };
+              var result = await window.LCSCatalogExport.export({
+                  app: { name: 'bingo', version: '24.3.0', bundleVersion: 24 },
+                  language: window.currentLocale || 'en',
+                  exerciseType: 'bingo',
+                  exerciseMode: null,
+                  producers: {
+                      // Bingo's "answer key" equivalent is the caller's chip strip rendered on calloutsCanvas.
+                      pdf: function () { return downloadPdfFile(null, 'printable.pdf', true, { returnBlob: true }); },
+                      answerKey: function () { return downloadPdfFile(calloutsCanvas, 'answer-key.pdf', false, { returnBlob: true }); },
+                      deckHtml: async function () {
+                          var bundle = await getBundle();
+                          return downloadInteractiveHtml(worksheetCanvas, 'deck.html', { returnString: true, precomputedBundle: bundle });
+                      },
+                      worksheetSnapshot: async function () {
+                          var bundle = await getBundle();
+                          return bundle.worksheetImage;
+                      }
+                  },
+                  metadata: buildCatalogManifestSettings()
+              });
+              showMessage('Exported to catalog: ' + result.zipFileName, 'success');
+          } catch (e) {
+              console.error('[Catalog Export] Failed:', e);
+              showMessage('Catalog export failed: ' + e.message, 'error');
+          } finally {
+              exportToCatalogBtn.textContent = previousLabel;
+              exportToCatalogBtn.disabled = false;
+          }
+      }
 
       // --- Initial Worksheet Generation ---
       async function generateInitialWorksheet() {
@@ -3833,7 +3914,7 @@
 
       async function downloadSingleImageFile(canvasInstance, filename) {
           showMessage('preparingFile', 'info', 0, {filename: filename});
-          const btns = [downloadWorksheetJpegBtn, downloadCalloutJpegBtn, downloadWorksheetPdfBtn, downloadCalloutPdfBtn];
+          const btns = [exportToCatalogBtn]; // legacy worksheet/callout JPEG buttons removed
           btns.forEach(btn => btn.disabled = true);
           await waitForAccessCheck();
           const watermarkData = addWatermarkToCanvas(canvasInstance);
@@ -3848,7 +3929,7 @@
 
       async function downloadWorksheetAsZip() {
         showMessage('preparingZipFile', 'info', 0);
-        const btns = [downloadWorksheetJpegBtn, downloadCalloutJpegBtn, downloadWorksheetPdfBtn, downloadCalloutPdfBtn];
+        const btns = [exportToCatalogBtn]; // legacy worksheet/callout buttons removed
         btns.forEach(btn => btn.disabled = true);
         
         try {
@@ -3912,10 +3993,11 @@
         }
       }
 
-      async function downloadPdfFile(canvasInstance, filename, isMultiPage = false) {
-            showMessage('preparingFile', 'info', 0, {filename: filename});
-            const btns = [downloadWorksheetJpegBtn, downloadCalloutJpegBtn, downloadWorksheetPdfBtn, downloadCalloutPdfBtn];
-            btns.forEach(btn => btn.disabled = true);
+      async function downloadPdfFile(canvasInstance, filename, isMultiPage = false, opts) {
+            var returnBlob = !!(opts && opts.returnBlob);
+            if (!returnBlob) showMessage('preparingFile', 'info', 0, {filename: filename});
+            const btns = [exportToCatalogBtn];
+            if (!returnBlob) btns.forEach(btn => btn.disabled = true);
 
             try {
                 const { jsPDF } = window.jspdf;
@@ -3977,13 +4059,17 @@
                     pdf.addImage(dataURL, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
                 }
                 
+                if (returnBlob) {
+                    return pdf.output('blob');
+                }
                 pdf.save(filename);
                 showMessage('pdfDownloaded', 'success', 3000);
             } catch (error) {
+                if (returnBlob) throw error;
                 console.error(error);
                 showMessage('errorCreatingPdf', 'error', 3000, {error: error.message});
             } finally {
-                btns.forEach(btn => btn.disabled = !worksheetCanvas.bingoData);
+                if (!returnBlob) btns.forEach(btn => btn.disabled = !worksheetCanvas.bingoData);
             }
       }
 
@@ -4010,9 +4096,8 @@
         backgroundThemeSelect.value = "none"; backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme for backgrounds.</p>'; backgroundOpacitySlider.value = 1; backgroundOpacitySlider.disabled = true;
         
         renderSelectedImages(); renderUploadedImages();
-        [downloadWorksheetJpegBtn, downloadCalloutJpegBtn, downloadWorksheetPdfBtn, downloadCalloutPdfBtn].forEach(b => b.disabled = true);
+        exportToCatalogBtn.disabled = true;
         if (downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = true;
-        if (downloadInteractiveHtmlReferenceBtn) downloadInteractiveHtmlReferenceBtn.disabled = true;
         closeAllPopups();
         searchInput.value = "";
         themeSelect.value = "all";
@@ -4156,14 +4241,8 @@
       
       generateWorksheetBtn.addEventListener("click", () => { closeAllPopups(); generateWorksheet().catch(e => { console.error(e); showMessage('generationFailed', 'error', 3000, {error: e.message}); }); });
       
-      downloadWorksheetJpegBtn.addEventListener("click", () => downloadWorksheetAsZip());
-      downloadCalloutJpegBtn.addEventListener("click", () => downloadSingleImageFile(calloutsCanvas, 'callout.jpeg'));
-      downloadWorksheetPdfBtn.addEventListener("click", () => downloadPdfFile(null, 'bingo_cards.pdf', true));
-      downloadCalloutPdfBtn.addEventListener("click", () => downloadPdfFile(calloutsCanvas, 'callout.pdf', false));
       downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'bingo_interactive.html', { loadingMode: 'inline' }));
-      if (downloadInteractiveHtmlReferenceBtn) {
-          downloadInteractiveHtmlReferenceBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'bingo_interactive_catalog.html', { loadingMode: 'reference' }));
-      }
+      exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
 
       clearBtn.addEventListener("click", clearAll);
 

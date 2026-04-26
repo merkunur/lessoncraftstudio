@@ -4,6 +4,8 @@
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
     <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
+    <script src="/worksheet-generators/js/jszip-3.10.1.min.js"></script>
+    <script src="/worksheet-generators/js/catalog-export.js?v=1"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <title>Image Cryptogram Worksheet Generator</title>
@@ -1315,14 +1317,9 @@
           <div class="dropdown-container">
             <button id="downloadDropdownBtn" class="action-button download-btn" disabled><span data-translate="cryptogram.download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
             <div id="downloadDropdownContent" class="dropdown-content">
-              <button id="downloadWorksheetJpegBtn" disabled data-translate="cryptogram.download.worksheet.jpeg">Worksheet (JPEG)</button>
-              <button id="downloadAnswerKeyJpegBtn" disabled data-translate="cryptogram.download.answer.jpeg">Answer Key (JPEG)</button>
-              <hr style="margin: 6px 0; border-color: #eee;">
-              <button id="downloadWorksheetPdfBtn" disabled data-translate="cryptogram.download.worksheet.pdf">Worksheet (PDF)</button>
-              <button id="downloadAnswerKeyPdfBtn" disabled data-translate="cryptogram.download.answer.pdf">Answer Key (PDF)</button>
+              <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
               <hr style="margin: 6px 0; border-color: #eee;">
               <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveHtml">Interactive Worksheet (HTML)</button>
-              <button id="downloadInteractiveHtmlReferenceBtn" disabled title="For server-hosted catalog playback. Smaller file, requires the same site to host the WebP library.">Interactive Worksheet (Catalog/URL refs)</button>
               <hr style="margin: 6px 0; border-color: #eee;">
               <label class="checkbox-label" id="grayscaleLabel">
                 <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
@@ -2094,13 +2091,8 @@
                 handleImageUpload(e);
             });
 
-            document.getElementById('downloadWorksheetJpegBtn').addEventListener('click', () => downloadImageFile(worksheetCanvas, 'cryptogram_worksheet.jpeg'));
-            document.getElementById('downloadAnswerKeyJpegBtn').addEventListener('click', () => downloadImageFile(answerKeyCanvas, 'cryptogram_answer_key.jpeg'));
-            document.getElementById('downloadWorksheetPdfBtn').addEventListener('click', () => downloadPDF(worksheetCanvas, 'cryptogram_worksheet.pdf'));
-            document.getElementById('downloadAnswerKeyPdfBtn').addEventListener('click', () => downloadPDF(answerKeyCanvas, 'cryptogram_answer_key.pdf'));
             document.getElementById('downloadInteractiveHtmlBtn').addEventListener('click', () => downloadInteractiveHtml(worksheetCanvas, 'cryptogram_interactive.html', { loadingMode: 'inline' }));
-            var _refBtnWire = document.getElementById('downloadInteractiveHtmlReferenceBtn');
-            if (_refBtnWire) _refBtnWire.addEventListener('click', () => downloadInteractiveHtml(worksheetCanvas, 'cryptogram_interactive_reference.html', { loadingMode: 'reference' }));
+            document.getElementById('exportToCatalogBtn').addEventListener('click', handleExportToCatalog);
 
             downloadDropdownContent.addEventListener('click', (e) => {
                 e.stopPropagation();
@@ -2315,11 +2307,7 @@
                 await renderAnswerKey(puzzleData);
 
                 downloadDropdownBtn.disabled = false;
-                document.getElementById('downloadWorksheetJpegBtn').disabled = false;
-                document.getElementById('downloadWorksheetPdfBtn').disabled = false;
                 document.getElementById('downloadInteractiveHtmlBtn').disabled = false;
-                var _refBtn = document.getElementById('downloadInteractiveHtmlReferenceBtn');
-                if (_refBtn) _refBtn.disabled = false;
                 // Required by image-reference.js propagation checklist item 10.
                 window.__lcsGenerationCounter = (window.__lcsGenerationCounter || 0) + 1;
 
@@ -3101,8 +3089,7 @@
 
             canvas.renderAll();
 
-            document.getElementById('downloadAnswerKeyJpegBtn').disabled = false;
-            document.getElementById('downloadAnswerKeyPdfBtn').disabled = false;
+            document.getElementById('exportToCatalogBtn').disabled = false;
         }
 
 
@@ -3807,9 +3794,14 @@
         };
     }
 
-async function downloadPDF(canvasToExport, fileName) {
-            if (!canvasToExport) { showMessage(t("cryptogram.msg.canvas.unavailable") || "Canvas not available.", "error"); return; }
-            showMessage(t("cryptogram.msg.preparing.file", {fileName: fileName}) || `Preparing ${fileName}...`, 'info', 0);
+async function downloadPDF(canvasToExport, fileName, opts) {
+            var returnBlob = !!(opts && opts.returnBlob);
+            if (!canvasToExport) {
+                if (returnBlob) throw new Error('Canvas not available.');
+                showMessage(t("cryptogram.msg.canvas.unavailable") || "Canvas not available.", "error");
+                return;
+            }
+            if (!returnBlob) showMessage(t("cryptogram.msg.preparing.file", {fileName: fileName}) || `Preparing ${fileName}...`, 'info', 0);
             await waitForAccessCheck();
             const watermarkData = addWatermarkToCanvas(canvasToExport);
             try {
@@ -3821,9 +3813,13 @@ async function downloadPDF(canvasToExport, fileName) {
                 const imgData = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
                 pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
 
+                if (returnBlob) {
+                    return pdf.output('blob');
+                }
                 pdf.save(fileName);
                 showMessage(t("cryptogram.msg.pdf.downloaded") || 'PDF downloaded!', 'success');
             } catch (error) {
+                if (returnBlob) throw error;
                 showMessage(t("cryptogram.msg.pdf.error.details", {error: error.message}) || `Error creating PDF: ${error.message}`, "error");
             } finally {
                 removeWatermarkFromCanvas(canvasToExport, watermarkData);
@@ -4956,13 +4952,17 @@ async function downloadPDF(canvasToExport, fileName) {
 
         async function downloadInteractiveHtml(canvasInstance, fileName, options) {
             var loadingMode = (options && options.loadingMode) || 'inline';
+            var returnString = !!(options && options.returnString);
             if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
+                if (returnString) throw new Error('Please generate a worksheet first.');
                 showMessage(t('cryptogram.msg.generate.first') || 'Please generate a worksheet first.', 'error');
                 return;
             }
-            showMessage('Preparing ' + fileName + '...', 'info', 0);
+            if (!returnString) showMessage('Preparing ' + fileName + '...', 'info', 0);
             try {
-                var bundle = await extractDeckBundle(canvasInstance, { loadingMode: loadingMode });
+                var bundle = (options && options.precomputedBundle)
+                    ? options.precomputedBundle
+                    : await extractDeckBundle(canvasInstance, { loadingMode: loadingMode });
                 if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
                     throw new Error('Worksheet snapshot is empty.');
                 }
@@ -4970,6 +4970,9 @@ async function downloadPDF(canvasToExport, fileName) {
                     throw new Error('No blank letter cells detected. Regenerate the worksheet and try again.');
                 }
                 var html = renderStandaloneHTML(bundle);
+                if (returnString) {
+                    return html;
+                }
 
                 var blob = new Blob([html], { type: 'text/html;charset=utf-8' });
                 var url = URL.createObjectURL(blob);
@@ -4983,12 +4986,79 @@ async function downloadPDF(canvasToExport, fileName) {
 
                 showMessage('Interactive worksheet downloaded.', 'success');
             } catch (e) {
+                if (returnString) throw e;
                 console.error('[Interactive Export v16] Failed:', e);
                 showMessage('Interactive export failed: ' + e.message, 'error');
             }
         }
         // END: Interactive-HTML export v16
 
+        function buildCatalogManifestSettings() {
+            var pd = (worksheetCanvas && worksheetCanvas.problemsData) || {};
+            var phrases = (pd.phrases || '').split(/\r?\n/).map(function (s) { return s.trim(); }).filter(Boolean);
+            var settings = {};
+            var capture = function (id, key) {
+                var el = document.getElementById(id);
+                if (!el) return;
+                settings[key || id] = (el.type === 'checkbox') ? el.checked : el.value;
+            };
+            capture('phrasesInput', 'phrases');
+            capture('borderThemeSelect', 'border_theme_select');
+            capture('backgroundThemeSelect', 'background_theme_select');
+            capture('cipherType', 'cipher_type');
+            capture('revealCount', 'reveal_count');
+            capture('grayscaleToggle', 'grayscale');
+            return {
+                settings: settings,
+                theme: null,
+                images_used: [],
+                vocabulary: phrases,
+                exercises: [pd]
+            };
+        }
+
+        async function handleExportToCatalog() {
+            var btn = document.getElementById('exportToCatalogBtn');
+            if (!btn || btn.disabled) return;
+            btn.disabled = true;
+            var previousLabel = btn.textContent;
+            btn.textContent = (typeof t === 'function' && t('exportingToCatalog')) || 'Exporting…';
+            try {
+                var cachedBundle = null;
+                var getBundle = async function () {
+                    if (!cachedBundle) {
+                        cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline' });
+                    }
+                    return cachedBundle;
+                };
+                var result = await window.LCSCatalogExport.export({
+                    app: { name: 'cryptogram', version: '16.0.0', bundleVersion: 16 },
+                    language: window.currentLocale || 'en',
+                    exerciseType: 'cryptogram',
+                    exerciseMode: null,
+                    producers: {
+                        pdf: function () { return downloadPDF(worksheetCanvas, 'printable.pdf', { returnBlob: true }); },
+                        answerKey: function () { return downloadPDF(answerKeyCanvas, 'answer-key.pdf', { returnBlob: true }); },
+                        deckHtml: async function () {
+                            var bundle = await getBundle();
+                            return downloadInteractiveHtml(worksheetCanvas, 'deck.html', { returnString: true, precomputedBundle: bundle });
+                        },
+                        worksheetSnapshot: async function () {
+                            var bundle = await getBundle();
+                            return bundle.worksheetImage;
+                        }
+                    },
+                    metadata: buildCatalogManifestSettings()
+                });
+                showMessage(((typeof t === 'function' && t('catalogExportSuccess')) || 'Exported to catalog: ') + result.zipFileName, 'success');
+            } catch (e) {
+                console.error('[Catalog Export] Failed:', e);
+                showMessage(((typeof t === 'function' && t('catalogExportError')) || 'Catalog export failed: ') + e.message, 'error');
+            } finally {
+                btn.textContent = previousLabel;
+                btn.disabled = false;
+            }
+        }
 
         // --- START THE APP ---
         initializeApp();

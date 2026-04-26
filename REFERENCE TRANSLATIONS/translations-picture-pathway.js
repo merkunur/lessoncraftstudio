@@ -7,6 +7,10 @@
 
 const translations = {
   "en": {
+    "exportToCatalog": "Export to catalog",
+    "exportingToCatalog": "Exporting…",
+    "catalogExportSuccess": "Exported to catalog: ",
+    "catalogExportError": "Catalog export failed: ",
     // Design Elements (added 2026-04-19)
     "deBgTitle": "Page Background",
     "dePatterns": "Patterns",
@@ -238,6 +242,10 @@ const translations = {
     "zoomReset": "Reset Zoom",
   },
   "de": {
+    "exportToCatalog": "In den Katalog exportieren",
+    "exportingToCatalog": "Wird exportiert…",
+    "catalogExportSuccess": "In Katalog exportiert: ",
+    "catalogExportError": "Katalog-Export fehlgeschlagen: ",
     // Design Elements (added 2026-04-19)
     "deBgTitle": "Seitenhintergrund",
     "dePatterns": "Muster",
@@ -469,6 +477,10 @@ const translations = {
     "zoomReset": "Zoom zurücksetzen",
   },
   "fr": {
+    "exportToCatalog": "Exporter vers le catalogue",
+    "exportingToCatalog": "Exportation en cours…",
+    "catalogExportSuccess": "Exporté vers le catalogue : ",
+    "catalogExportError": "Échec de l'export vers le catalogue : ",
     // Design Elements (added 2026-04-19)
     "deBgTitle": "Arrière-plan",
     "dePatterns": "Motifs",
@@ -700,6 +712,10 @@ const translations = {
     "zoomReset": "Réinitialiser le zoom",
   },
   "es": {
+    "exportToCatalog": "Exportar al catálogo",
+    "exportingToCatalog": "Exportando…",
+    "catalogExportSuccess": "Exportado al catálogo: ",
+    "catalogExportError": "Error al exportar al catálogo: ",
     // Design Elements (added 2026-04-19)
     "deBgTitle": "Fondo de página",
     "dePatterns": "Patrones",
@@ -931,6 +947,10 @@ const translations = {
     "zoomReset": "Restablecer zoom",
   },
   "it": {
+    "exportToCatalog": "Esporta nel catalogo",
+    "exportingToCatalog": "Esportazione in corso…",
+    "catalogExportSuccess": "Esportato nel catalogo: ",
+    "catalogExportError": "Esportazione nel catalogo non riuscita: ",
     // Design Elements (added 2026-04-19)
     "deBgTitle": "Sfondo pagina",
     "dePatterns": "Motivi",
@@ -1161,6 +1181,10 @@ const translations = {
     "zoomReset": "Ripristina zoom",
   },
   "pt": {
+    "exportToCatalog": "Exportar para o catálogo",
+    "exportingToCatalog": "Exportando…",
+    "catalogExportSuccess": "Exportado para o catálogo: ",
+    "catalogExportError": "Falha ao exportar para o catálogo: ",
     // Design Elements (added 2026-04-19)
     "deBgTitle": "Fundo da página",
     "dePatterns": "Padrões",
@@ -1394,6 +1418,10 @@ const translations = {
     "zoomReset": "Redefinir zoom",
   },
   "nl": {
+    "exportToCatalog": "Naar catalogus exporteren",
+    "exportingToCatalog": "Bezig met exporteren…",
+    "catalogExportSuccess": "Geëxporteerd naar catalogus: ",
+    "catalogExportError": "Export naar catalogus mislukt: ",
     // Design Elements (added 2026-04-19)
     "deBgTitle": "Pagina-achtergrond",
     "dePatterns": "Patronen",
@@ -1627,6 +1655,10 @@ const translations = {
     "zoomReset": "Zoom terugzetten",
   },
   "sv": {
+    "exportToCatalog": "Exportera till katalog",
+    "exportingToCatalog": "Exporterar…",
+    "catalogExportSuccess": "Exporterad till katalog: ",
+    "catalogExportError": "Katalogexport misslyckades: ",
     // Design Elements (added 2026-04-19)
     "deBgTitle": "Sidbakgrund",
     "dePatterns": "Mönster",
@@ -1858,6 +1890,10 @@ const translations = {
     "zoomReset": "Återställ zoom",
   },
   "da": {
+    "exportToCatalog": "Eksporter til kataloget",
+    "exportingToCatalog": "Eksporterer…",
+    "catalogExportSuccess": "Eksporteret til kataloget: ",
+    "catalogExportError": "Katalog-eksport mislykkedes: ",
     // Design Elements (added 2026-04-19)
     "deBgTitle": "Sidebaggrund",
     "dePatterns": "Mønstre",
@@ -2091,6 +2127,10 @@ const translations = {
     "zoomReset": "Nulstil zoom",
   },
   "no": {
+    "exportToCatalog": "Eksporter til katalog",
+    "exportingToCatalog": "Eksporterer…",
+    "catalogExportSuccess": "Eksportert til katalog: ",
+    "catalogExportError": "Katalogeksport mislyktes: ",
     // Design Elements (added 2026-04-19)
     "deBgTitle": "Sidebakgrunn",
     "dePatterns": "Mønstre",
@@ -2324,6 +2364,10 @@ const translations = {
     "zoomReset": "Tilbakestill zoom",
   },
   "fi": {
+    "exportToCatalog": "Vie katalogiin",
+    "exportingToCatalog": "Viedään…",
+    "catalogExportSuccess": "Viety katalogiin: ",
+    "catalogExportError": "Katalogin vienti epäonnistui: ",
     // Design Elements (added 2026-04-19)
     "deBgTitle": "Sivun tausta",
     "dePatterns": "Kuviot",

@@ -4,6 +4,8 @@
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
     <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
+    <script src="/worksheet-generators/js/jszip-3.10.1.min.js"></script>
+    <script src="/worksheet-generators/js/catalog-export.js?v=1"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <title data-translate="additionGenerator">Image Addition Worksheet Generator</title>
@@ -1521,14 +1523,9 @@
           <div class="dropdown-container">
             <button id="downloadDropdownBtn" class="action-button download-btn"><span data-translate="download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
             <div id="downloadDropdownContent" class="dropdown-content">
-                <button id="downloadWorksheetJpegBtn" disabled data-translate="worksheetJpeg">Worksheet (JPEG)</button>
-                <button id="downloadAnswerKeyJpegBtn" disabled data-translate="answerKeyJpeg">Answer Key (JPEG)</button>
-                <hr style="margin: 6px 0; border-color: #eee;">
-                <button id="downloadWorksheetPdfBtn" disabled data-translate="worksheetPdf">Worksheet (PDF)</button>
-                <button id="downloadAnswerKeyPdfBtn" disabled data-translate="answerKeyPdf">Answer Key (PDF)</button>
+                <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
                 <hr style="margin: 6px 0; border-color: #eee;">
                 <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
-                <button id="downloadInteractiveHtmlReferenceBtn" disabled title="For server-hosted catalog playback. Smaller file, requires the same site to host the WebP library.">Interactive Worksheet (Catalog/URL refs)</button>
                 <hr style="margin: 6px 0; border-color: #eee;">
                 <label class="checkbox-label">
                     <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
@@ -1736,12 +1733,8 @@
 
       const downloadDropdownBtn = document.getElementById("downloadDropdownBtn");
       const downloadDropdownContent = document.getElementById("downloadDropdownContent");
-      const downloadWorksheetJpegBtn = document.getElementById("downloadWorksheetJpegBtn");
-      const downloadAnswerKeyJpegBtn = document.getElementById("downloadAnswerKeyJpegBtn");
-      const downloadWorksheetPdfBtn = document.getElementById("downloadWorksheetPdfBtn");
-      const downloadAnswerKeyPdfBtn = document.getElementById("downloadAnswerKeyPdfBtn");
+      const exportToCatalogBtn = document.getElementById("exportToCatalogBtn");
       const downloadInteractiveHtmlBtn = document.getElementById("downloadInteractiveHtmlBtn");
-      const downloadInteractiveHtmlReferenceBtn = document.getElementById("downloadInteractiveHtmlReferenceBtn");
       const clearBtn = document.getElementById("clearBtn");
       const grayscaleToggle = document.getElementById('grayscaleToggle');
 
@@ -2894,10 +2887,7 @@
             worksheetCanvas.problemsData = null;
         }
         if(answerKeyCanvas) { answerKeyCanvas.clear(); answerKeyCanvas.backgroundColor = '#fff'; answerKeyCanvas.renderAll(); }
-        downloadWorksheetJpegBtn.disabled = true;
-        downloadAnswerKeyJpegBtn.disabled = true;
-        downloadWorksheetPdfBtn.disabled = true;
-        downloadAnswerKeyPdfBtn.disabled = true;
+        exportToCatalogBtn.disabled = true;
         generateAnswerKeyBtn.disabled = true;
 
         if (generateDropdownContent) generateDropdownContent.style.display = 'none';
@@ -3679,10 +3669,7 @@
         }
 
         worksheetCanvas.renderAll();
-        downloadWorksheetJpegBtn.disabled = false;
-        downloadWorksheetPdfBtn.disabled = false;
         downloadInteractiveHtmlBtn.disabled = false;
-        downloadInteractiveHtmlReferenceBtn.disabled = false;
         generateAnswerKeyBtn.disabled = false;
         showMessage(t('worksheetGeneratedSuccessfully'), "success");
         // Required by image-reference.js propagation checklist item 10.
@@ -4027,8 +4014,7 @@
         answerKeyCanvas.renderAll();
 
         document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
-        downloadAnswerKeyJpegBtn.disabled = false;
-        downloadAnswerKeyPdfBtn.disabled = false;
+        exportToCatalogBtn.disabled = false;
         showMessage(t('answerKeyGenerated'), "success");
 
         // Reset generating flag and save initial state
@@ -4187,13 +4173,18 @@
      * Downloads a single canvas as a single-page PDF file.
      * @param {fabric.Canvas} canvasInstance The canvas to download.
      * @param {string} fileName The name for the downloaded file.
+     * @param {{returnBlob?: boolean}} [opts] When opts.returnBlob is true, returns
+     *   the PDF Blob instead of triggering a download. Used by catalog-export.js.
+     *   In returnBlob mode, errors are re-thrown rather than shown via toast.
      */
-    async function downloadPdfFile(canvasInstance, fileName) {
+    async function downloadPdfFile(canvasInstance, fileName, opts) {
+        var returnBlob = !!(opts && opts.returnBlob);
         if (!canvasInstance || canvasInstance.getObjects().length === 0) {
+            if (returnBlob) throw new Error('No content on canvas to render as PDF.');
             showMessage(t('pleaseGenerateContentFirst'), "error");
             return;
         }
-        showMessage(`Preparing ${fileName}...`, 'info', 0);
+        if (!returnBlob) showMessage(`Preparing ${fileName}...`, 'info', 0);
 
         const { jsPDF } = window.jspdf;
         const exportOpts = {
@@ -4234,9 +4225,13 @@
                 height: currentHeight
             });
 
+            if (returnBlob) {
+                return pdf.output('blob');
+            }
             pdf.save(fileName);
             showMessage(t('pdfDownloaded'), "success");
         } catch (e) {
+            if (returnBlob) throw e;
             showMessage(t('pdfError').replace('{}', e.message), "error");
         } finally {
             removeWatermarkFromCanvas(canvasInstance, watermarkData);
@@ -4948,18 +4943,25 @@
     }
 
     async function downloadInteractiveHtml(canvasInstance, fileName, options) {
+        var returnString = !!(options && options.returnString);
         if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
+            if (returnString) throw new Error('Please generate a worksheet first.');
             showMessage(t('pleaseGenerateContentFirst') || 'Please generate a worksheet first.', 'error');
             return;
         }
         var mode = (options && options.loadingMode) || 'inline';
-        showMessage('Preparing ' + fileName + ' (' + mode + ' mode)...', 'info', 0);
+        if (!returnString) showMessage('Preparing ' + fileName + ' (' + mode + ' mode)...', 'info', 0);
         try {
-            var bundle = await extractDeckBundle(canvasInstance, { loadingMode: mode });
+            var bundle = (options && options.precomputedBundle)
+                ? options.precomputedBundle
+                : await extractDeckBundle(canvasInstance, { loadingMode: mode });
             if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
                 throw new Error('Worksheet snapshot is empty.');
             }
             var html = renderStandaloneHTML(bundle);
+            if (returnString) {
+                return html;
+            }
 
             var blob = new Blob([html], { type: 'text/html;charset=utf-8' });
             var url = URL.createObjectURL(blob);
@@ -4973,11 +4975,56 @@
 
             showMessage('Interactive worksheet downloaded.', 'success');
         } catch (e) {
+            if (returnString) throw e;
             console.error('[Interactive Export v5] Failed:', e);
             showMessage('Interactive export failed: ' + e.message, 'error');
         }
     }
     // END: Interactive-HTML export v5 (image-references-v1)
+
+    /**
+     * Snapshot the canonical fields catalog-export.js needs for the
+     * generation.json layer (CLAUDE.md §15.1). Captures the operator's
+     * actual in-memory state at the moment of export — does not reconstruct
+     * or re-derive. The downstream publish-cli adds the metadata.json layer
+     * (title, description, topic_slugs, etc.) and the AI service adds the
+     * enrichment.json layer.
+     */
+    function buildCatalogManifestSettings() {
+        var problems = (worksheetCanvas && worksheetCanvas.problemsData) || [];
+        var imagesUsed = [];
+        var seenImages = {};
+        problems.forEach(function (p) {
+            var path = p && p.image && p.image.path;
+            if (!path || seenImages[path]) return;
+            seenImages[path] = true;
+            var name = path.split('/').pop();
+            imagesUsed.push(name);
+        });
+        var settings = {};
+        var captureValue = function (id, key) {
+            var el = document.getElementById(id);
+            if (!el) return;
+            settings[key || id] = (el.type === 'checkbox') ? el.checked : el.value;
+        };
+        captureValue('exerciseModeSelect', 'exercise_mode_select');
+        captureValue('themeSelect', 'theme_select');
+        captureValue('borderThemeSelect', 'border_theme_select');
+        captureValue('exercisesPerPageInput', 'exercises_per_page');
+        captureValue('itemsPerGroupMinInput', 'items_per_group_min');
+        captureValue('itemsPerGroupMaxInput', 'items_per_group_max');
+        captureValue('grayscaleToggle', 'grayscale');
+        var theme = (typeof themeSelect !== 'undefined' && themeSelect && themeSelect.value !== 'all')
+            ? themeSelect.value
+            : null;
+        return {
+            settings: settings,
+            theme: theme,
+            images_used: imagesUsed,
+            vocabulary: [],
+            exercises: problems
+        };
+    }
 
     // --- BORDER & BACKGROUND LOGIC ---
     // REMOVED - Now handled entirely by BulletproofLoader
@@ -5359,12 +5406,53 @@
           });
       });
 
-      downloadWorksheetJpegBtn.addEventListener("click", () => downloadJpegFile(worksheetCanvas, 'addition_worksheet.jpeg'));
-      downloadAnswerKeyJpegBtn.addEventListener("click", () => downloadJpegFile(answerKeyCanvas, 'addition_answer_key.jpeg'));
-      downloadWorksheetPdfBtn.addEventListener("click", () => downloadPdfFile(worksheetCanvas, 'addition_worksheet.pdf'));
-      downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPdfFile(answerKeyCanvas, 'addition_answer_key.pdf'));
       downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'addition_interactive.html', { loadingMode: 'inline' }));
-      downloadInteractiveHtmlReferenceBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'addition_interactive_reference.html', { loadingMode: 'reference' }));
+
+      // Export to catalog — bundles manifest + deck.html + printable.pdf +
+      // answer-key.pdf + thumbnail.png into <deck_id>.zip per CLAUDE.md §15.
+      // Caches the deck bundle so worksheetSnapshot and deckHtml share one
+      // capture instead of running extractDeckBundle twice.
+      exportToCatalogBtn.addEventListener("click", async () => {
+        if (exportToCatalogBtn.disabled) return;
+        exportToCatalogBtn.disabled = true;
+        const previousLabel = exportToCatalogBtn.textContent;
+        exportToCatalogBtn.textContent = t('exportingToCatalog') || 'Exporting…';
+        try {
+          let cachedBundle = null;
+          const getBundle = async () => {
+            if (!cachedBundle) {
+              cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline' });
+            }
+            return cachedBundle;
+          };
+          const result = await window.LCSCatalogExport.export({
+            app: { name: 'addition', version: '5.1.0', bundleVersion: 5 },
+            language: window.currentLocale || 'en',
+            exerciseType: 'addition',
+            exerciseMode: (typeof exerciseModeSelect !== 'undefined' && exerciseModeSelect) ? exerciseModeSelect.value : null,
+            producers: {
+              pdf: () => downloadPdfFile(worksheetCanvas, 'printable.pdf', { returnBlob: true }),
+              answerKey: () => downloadPdfFile(answerKeyCanvas, 'answer-key.pdf', { returnBlob: true }),
+              deckHtml: async () => {
+                const bundle = await getBundle();
+                return downloadInteractiveHtml(worksheetCanvas, 'deck.html', { returnString: true, precomputedBundle: bundle });
+              },
+              worksheetSnapshot: async () => {
+                const bundle = await getBundle();
+                return bundle.worksheetImage;
+              }
+            },
+            metadata: buildCatalogManifestSettings()
+          });
+          showMessage((t('catalogExportSuccess') || 'Exported to catalog: ') + result.zipFileName, 'success');
+        } catch (e) {
+          console.error('[Catalog Export] Failed:', e);
+          showMessage((t('catalogExportError') || 'Catalog export failed: ') + e.message, 'error');
+        } finally {
+          exportToCatalogBtn.textContent = previousLabel;
+          exportToCatalogBtn.disabled = false;
+        }
+      });
 
       // Zoom button listeners (matches wordsearch)
       zoomInBtn.addEventListener('click', zoomIn);

@@ -4,6 +4,8 @@
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
     <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
+    <script src="/worksheet-generators/js/jszip-3.10.1.min.js"></script>
+    <script src="/worksheet-generators/js/catalog-export.js?v=1"></script>
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -975,14 +977,10 @@
                     <div class="dropdown-container">
                         <button id="downloadDropdownBtn" class="action-button download-btn"><span data-translate="prepositions.download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
                         <div id="downloadDropdownContent" class="dropdown-content">
-                            <button id="downloadWsJpegBtn" disabled data-translate="prepositions.download.worksheet.jpeg">Worksheet (JPEG)</button>
-                            <button id="downloadAkJpegBtn" disabled data-translate="prepositions.download.answer.jpeg">Answer Key (JPEG)</button>
+                            <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
-                            <button id="downloadWsPdfBtn" disabled data-translate="prepositions.download.worksheet.pdf">Worksheet (PDF)</button>
-                            <button id="downloadAkPdfBtn" disabled data-translate="prepositions.download.answer.pdf">Answer Key (PDF)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
                             <button id="downloadInteractiveHtmlBtn" disabled data-translate="prepositions.download.interactive.html">Interactive Worksheet (HTML)</button>
-                            <button id="downloadInteractiveHtmlReferenceBtn" disabled title="For server-hosted catalog playback. Smaller file, requires the same site to host the WebP library.">Interactive Worksheet (Catalog/URL refs)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
                             <label class="checkbox-label" id="grayscaleLabel">
                                 <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
@@ -1332,12 +1330,8 @@
                 generateAnswerKeyBtn: document.getElementById('generateAnswerKeyBtn'),
                 downloadDropdownBtn: document.getElementById('downloadDropdownBtn'),
                 downloadDropdownContent: document.getElementById('downloadDropdownContent'),
-                downloadWsJpegBtn: document.getElementById('downloadWsJpegBtn'),
-                downloadAkJpegBtn: document.getElementById('downloadAkJpegBtn'),
-                downloadWsPdfBtn: document.getElementById('downloadWsPdfBtn'),
-                downloadAkPdfBtn: document.getElementById('downloadAkPdfBtn'),
+                exportToCatalogBtn: document.getElementById('exportToCatalogBtn'),
                 downloadInteractiveHtmlBtn: document.getElementById('downloadInteractiveHtmlBtn'),
-                downloadInteractiveHtmlReferenceBtn: document.getElementById('downloadInteractiveHtmlReferenceBtn'),
                 grayscaleToggle: document.getElementById('grayscaleToggle'),
                 clearBtn: document.getElementById('clearBtn'),
                 worksheetCanvasWrapper: document.getElementById('worksheetCanvasWrapper'),
@@ -1572,15 +1566,11 @@
             dom.generateWorksheetBtn.addEventListener('click', generateWorksheet);
             dom.generateAnswerKeyBtn.addEventListener('click', generateAnswerKey);
 
-            dom.downloadWsJpegBtn.addEventListener("click", () => downloadImageFile(worksheetCanvas, 'prepositions_worksheet'));
-            dom.downloadAkJpegBtn.addEventListener("click", () => downloadImageFile(answerKeyCanvas, 'prepositions_answer_key'));
-            dom.downloadWsPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'prepositions_worksheet'));
-            dom.downloadAkPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'prepositions_answer_key'));
             if (dom.downloadInteractiveHtmlBtn) {
                 dom.downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'prepositions_interactive.html', { loadingMode: 'inline' }));
             }
-            if (dom.downloadInteractiveHtmlReferenceBtn) {
-                dom.downloadInteractiveHtmlReferenceBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'prepositions_interactive_reference.html', { loadingMode: 'reference' }));
+            if (dom.exportToCatalogBtn) {
+                dom.exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
             }
 
             dom.clearBtn.addEventListener('click', clearAll);
@@ -1664,16 +1654,11 @@
         }
 
         function updateDownloadButtonsState(worksheetEnabled, answerKeyEnabled) {
+            if (dom.exportToCatalogBtn) dom.exportToCatalogBtn.disabled = !answerKeyEnabled;
             const anyEnabled = worksheetEnabled || answerKeyEnabled;
             dom.downloadDropdownBtn.disabled = !anyEnabled;
             
-            dom.downloadWsJpegBtn.disabled = !worksheetEnabled;
-            dom.downloadWsPdfBtn.disabled = !worksheetEnabled;
             if (dom.downloadInteractiveHtmlBtn) dom.downloadInteractiveHtmlBtn.disabled = !worksheetEnabled;
-            if (dom.downloadInteractiveHtmlReferenceBtn) dom.downloadInteractiveHtmlReferenceBtn.disabled = !worksheetEnabled;
-
-            dom.downloadAkJpegBtn.disabled = !answerKeyEnabled;
-            dom.downloadAkPdfBtn.disabled = !answerKeyEnabled;
 
             if (!anyEnabled) dom.downloadDropdownContent.style.display = 'none';
         }
@@ -3914,11 +3899,13 @@
     // Override the original downloadPDF function if it exists, otherwise create it
     const originalDownloadPDF = typeof downloadPDF !== 'undefined' ? downloadPDF : null;
     if (originalDownloadPDF || true) {  // Always create the function
-        window.downloadPDF = async function(canvasToExport, fileName) {
+        window.downloadPDF = async function(canvasToExport, fileName, opts) {
+            var returnBlob = !!(opts && opts.returnBlob);
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+                if (returnBlob) throw new Error('No content on canvas to render as PDF.');
                 return showMessage(t('prepositions.msg.generate.content.first'), 'error');
             }
-            showMessage(t('prepositions.msg.preparing.pdf'), 'info', 0);
+            if (!returnBlob) showMessage(t('prepositions.msg.preparing.pdf'), 'info', 0);
             
             // Add watermark if free tier
             await waitForAccessCheck();
@@ -3961,12 +3948,16 @@
                     height: currentHeight
                 });
                 canvasToExport.renderAll();
-                
+
+                if (returnBlob) {
+                    return pdf.output('blob');
+                }
                 pdf.save(fileName);
                 showMessage(t('prepositions.msg.pdf.downloaded'), 'success');
             } catch(e) {
-                showMessage(t('prepositions.msg.pdf.error'), 'error'); 
-                console.error(e); 
+                if (returnBlob) throw e;
+                showMessage(t('prepositions.msg.pdf.error'), 'error');
+                console.error(e);
             } finally {
                 // Remove watermark after export
                 removeWatermarkFromCanvas(canvasToExport, watermarkData);
@@ -4741,14 +4732,18 @@
     }
 
     window.downloadInteractiveHtml = async function (canvasInstance, fileName, options) {
+        var returnString = !!(options && options.returnString);
         if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
+            if (returnString) throw new Error('Please generate a worksheet first.');
             showMessage(t('prepositions.msg.generate.worksheet.first') || 'Please generate a worksheet first.', 'error');
             return;
         }
         var mode = (options && options.loadingMode) || 'inline';
-        showMessage('Preparing ' + fileName + ' (' + mode + ' mode)...', 'info', 0);
+        if (!returnString) showMessage('Preparing ' + fileName + ' (' + mode + ' mode)...', 'info', 0);
         try {
-            var bundle = await extractDeckBundle_v12(canvasInstance, { loadingMode: mode });
+            var bundle = (options && options.precomputedBundle)
+                ? options.precomputedBundle
+                : await extractDeckBundle_v12(canvasInstance, { loadingMode: mode });
             if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
                 throw new Error('Worksheet snapshot is empty.');
             }
@@ -4759,6 +4754,9 @@
                 throw new Error('No fill-in blanks detected. Regenerate the worksheet.');
             }
             var html = renderStandaloneHTML_v12(bundle);
+            if (returnString) {
+                return html;
+            }
             var blob = new Blob([html], { type: 'text/html;charset=utf-8' });
             var url = URL.createObjectURL(blob);
             var a = document.createElement('a');
@@ -4767,11 +4765,75 @@
             setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
             showMessage('Interactive worksheet downloaded.', 'success');
         } catch (e) {
+            if (returnString) throw e;
             console.error('[Interactive Export v12] Failed:', e);
             showMessage('Interactive export failed: ' + e.message, 'error');
         }
     };
     // END: Interactive-HTML export v12
+
+    function buildCatalogManifestSettings() {
+        var pd = (worksheetCanvas && worksheetCanvas.problemsData) || {};
+        var settings = {};
+        var capture = function (id, key) {
+            var el = document.getElementById(id);
+            if (!el) return;
+            settings[key || id] = (el.type === 'checkbox') ? el.checked : el.value;
+        };
+        capture('exerciseModeSelect', 'exercise_mode');
+        capture('themeSelect', 'theme_select');
+        capture('borderThemeSelect', 'border_theme_select');
+        capture('grayscaleToggle', 'grayscale');
+        return {
+            settings: settings,
+            theme: null,
+            images_used: [],
+            vocabulary: [],
+            exercises: Array.isArray(pd.assignments) ? pd.assignments : [pd]
+        };
+    }
+
+    async function handleExportToCatalog() {
+        if (!dom.exportToCatalogBtn || dom.exportToCatalogBtn.disabled) return;
+        dom.exportToCatalogBtn.disabled = true;
+        var previousLabel = dom.exportToCatalogBtn.textContent;
+        dom.exportToCatalogBtn.textContent = (typeof t === 'function' && t('exportingToCatalog')) || 'Exporting…';
+        try {
+            var cachedBundle = null;
+            var getBundle = async function () {
+                if (!cachedBundle) {
+                    cachedBundle = await extractDeckBundle_v12(worksheetCanvas, { loadingMode: 'inline' });
+                }
+                return cachedBundle;
+            };
+            var result = await window.LCSCatalogExport.export({
+                app: { name: 'prepositions', version: '12.0.0', bundleVersion: 12 },
+                language: window.currentLocale || 'en',
+                exerciseType: 'prepositions',
+                exerciseMode: (dom.exerciseModeSelect && dom.exerciseModeSelect.value) || null,
+                producers: {
+                    pdf: function () { return window.downloadPDF(worksheetCanvas, 'printable.pdf', { returnBlob: true }); },
+                    answerKey: function () { return window.downloadPDF(answerKeyCanvas, 'answer-key.pdf', { returnBlob: true }); },
+                    deckHtml: async function () {
+                        var bundle = await getBundle();
+                        return window.downloadInteractiveHtml(worksheetCanvas, 'deck.html', { returnString: true, precomputedBundle: bundle });
+                    },
+                    worksheetSnapshot: async function () {
+                        var bundle = await getBundle();
+                        return bundle.worksheetImage;
+                    }
+                },
+                metadata: buildCatalogManifestSettings()
+            });
+            showMessage(((typeof t === 'function' && t('catalogExportSuccess')) || 'Exported to catalog: ') + result.zipFileName, 'success');
+        } catch (e) {
+            console.error('[Catalog Export] Failed:', e);
+            showMessage(((typeof t === 'function' && t('catalogExportError')) || 'Catalog export failed: ') + e.message, 'error');
+        } finally {
+            dom.exportToCatalogBtn.textContent = previousLabel;
+            dom.exportToCatalogBtn.disabled = false;
+        }
+    }
 
     // Override the original downloadJPEG function if it exists
     const originalDownloadJPEG = typeof downloadJPEG !== 'undefined' ? downloadJPEG : null;

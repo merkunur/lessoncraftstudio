@@ -3494,13 +3494,28 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     
     // ============================================================
-    // Interactive-HTML export v28.0 (sudoku) — Family F drag-and-drop with
+    // Interactive-HTML export v28.2.0 (sudoku) — Family F drag-and-drop with
     // image-index matching (Sudoku-correct semantics: any cat card dropped
     // into a cat-needing cell is right). Cutout cards are the palette;
     // empty grid cells are the drop targets. Strict per-cell scoring,
     // standard fill→reviewed phase, NO reveal-on-wrong (the kid figures
     // it out via Try Again — preserves the logic-deduction nature of the
     // puzzle).
+    //
+    // v28.2.0 (visual fix): a kid-dropped piece now looks identical to a
+    // pre-placed clue cell on the grid. Earlier v28.0/v28.1 rendered the
+    // placed-piece div with its own #8B9DC3 2px border + drop shadow at
+    // 75% of the cell, AND the chip dataURL inside it had the cutout's
+    // imageFrame ring (#60A5FA 2px on pale blue) — producing a visible
+    // double ring around dropped pieces while clue cells had a single
+    // thin gray-blue ring. The exporter now generates a SECOND data URL
+    // per cutout (placedDataUrl) that re-renders the source image inside
+    // a clue-look frame (white circle + #8B9DC3 1.5px stroke + soft halo
+    // + image with the same drop shadow as the clue rendering). The
+    // placed-piece div is fully transparent during fill phase, and review
+    // states (correct/wrong) draw their colored ring on a ::before pseudo
+    // at the same 71% diameter as the clue frame so the verdict ring sits
+    // exactly over the clue ring rather than at the cell edge.
     // ============================================================
     async function _captureWorksheetImage(canvas) {
         var savedZoom = canvas.getZoom();
@@ -3597,7 +3612,10 @@ document.addEventListener("DOMContentLoaded", function() {
                 img.src = worksheetImage;
             });
             var outSize = 128;
-            cutoutsWithImages = cutoutsData.map(function(co){
+            cutoutsWithImages = cutoutsData.map(function(co, idx){
+                // Palette chip (imgDataUrl): crop the rendered cutout group from
+                // the worksheet — preserves the operator's chip visual (pale-blue
+                // background + #60A5FA ring) used in the bottom palette strip.
                 var tmp = document.createElement('canvas');
                 tmp.width = outSize; tmp.height = outSize;
                 var ctx = tmp.getContext('2d');
@@ -3612,14 +3630,87 @@ document.addEventListener("DOMContentLoaded", function() {
                 var url = '';
                 try { url = tmp.toDataURL('image/webp', 0.85); }
                 catch (e) { try { url = tmp.toDataURL('image/jpeg', 0.85); } catch (e2) { url = ''; } }
-                return Object.assign({}, co, { imgDataUrl: url });
+
+                // v28.2.0 — Placed-piece thumbnail (placedDataUrl): re-render the
+                // source image inside a CLUE-LOOK frame so a kid-dropped piece
+                // looks identical to a pre-placed clue cell on the grid (single
+                // thin gray-blue circle around the image, not the chip's pale-
+                // blue ring + the placed-piece div's extra border = double ring).
+                // Mirrors the clue rendering at createPuzzleGridGroup lines
+                // ~3075-3127: outer halo (rgba(147,197,253,.1)) + white circle
+                // with #8B9DC3 1.5px stroke + image at imageBoxSize with shadow.
+                var placedUrl = '';
+                var cutoutFab = cutouts[idx];
+                var srcEl = null;
+                if (cutoutFab) {
+                    var children = cutoutFab._objects || (cutoutFab.getObjects && cutoutFab.getObjects()) || [];
+                    for (var k = 0; k < children.length; k++) {
+                        if (children[k] && children[k].type === 'image' && children[k]._element) {
+                            srcEl = children[k]._element;
+                            break;
+                        }
+                    }
+                }
+                if (srcEl) {
+                    try {
+                        var pcanv = document.createElement('canvas');
+                        pcanv.width = outSize; pcanv.height = outSize;
+                        var pctx = pcanv.getContext('2d');
+                        var center = outSize / 2;
+                        // Match clue cell proportions (cellSize=outSize, imageBoxSize=cellSize*0.65):
+                        // imageBoxRadius = imageBoxSize/2 = outSize*0.325
+                        // halo radius   = imageBoxSize/2 + 6  ≈ outSize*0.371 (using +6 at cellSize≈128)
+                        // container R   = imageBoxSize/2 + 3  ≈ outSize*0.348
+                        var imageBoxRadius = outSize * 0.325;
+                        var bgRadius       = imageBoxRadius + 6;
+                        var containerRadius = imageBoxRadius + 3;
+                        // Outer soft halo
+                        pctx.fillStyle = 'rgba(147, 197, 253, 0.1)';
+                        pctx.beginPath();
+                        pctx.arc(center, center, bgRadius, 0, Math.PI * 2);
+                        pctx.fill();
+                        // White circle with thin gray-blue stroke (the visible "clue ring")
+                        pctx.fillStyle = '#FFFFFF';
+                        pctx.beginPath();
+                        pctx.arc(center, center, containerRadius, 0, Math.PI * 2);
+                        pctx.fill();
+                        pctx.strokeStyle = '#8B9DC3';
+                        pctx.lineWidth = 1.5;
+                        pctx.stroke();
+                        // Image, clipped to the inner area, with the same subtle drop
+                        // shadow as the clue rendering.
+                        pctx.save();
+                        pctx.beginPath();
+                        pctx.arc(center, center, imageBoxRadius, 0, Math.PI * 2);
+                        pctx.clip();
+                        var sw = srcEl.naturalWidth || srcEl.width || 0;
+                        var sh = srcEl.naturalHeight || srcEl.height || 0;
+                        if (sw > 0 && sh > 0) {
+                            var imgDiameter = imageBoxRadius * 2;
+                            var s = imgDiameter / Math.max(sw, sh);
+                            var dw = sw * s, dh = sh * s;
+                            pctx.shadowColor = 'rgba(0, 0, 0, 0.2)';
+                            pctx.shadowBlur = 8;
+                            pctx.shadowOffsetX = 2;
+                            pctx.shadowOffsetY = 2;
+                            pctx.drawImage(srcEl, center - dw/2, center - dh/2, dw, dh);
+                        }
+                        pctx.restore();
+                        try { placedUrl = pcanv.toDataURL('image/webp', 0.92); }
+                        catch (e) { try { placedUrl = pcanv.toDataURL('image/png'); } catch (e2) { placedUrl = ''; } }
+                    } catch (e) {
+                        console.warn('[sudoku v28.2.0] clue-look render failed for cutout ' + co.index + ':', e);
+                    }
+                }
+
+                return Object.assign({}, co, { imgDataUrl: url, placedDataUrl: placedUrl });
             });
         } catch (e) {
-            console.warn('[sudoku v28.1.0] cutout image cropping failed:', e);
+            console.warn('[sudoku v28.2.0] cutout image cropping failed:', e);
         }
 
         return {
-            bundleVersion: '28.1.0',
+            bundleVersion: '28.2.0',
             schemaFormat: 'image-references-v3',
             loadingMode: loadingMode,
             appType: 'sudoku',
@@ -3673,14 +3764,26 @@ document.addEventListener("DOMContentLoaded", function() {
         '.lcs-cell{position:absolute;pointer-events:auto;background:transparent;border-radius:8px;transition:background-color .15s,box-shadow .15s,outline .15s;overflow:hidden;display:flex;align-items:center;justify-content:center}',
         '.lcs-cell[data-droptarget="ok"]{background:rgba(76,175,80,.18);box-shadow:inset 0 0 0 4px rgba(76,175,80,.65)}',
         '.lcs-cell[data-droptarget="reject"]{background:rgba(229,57,53,.12);box-shadow:inset 0 0 0 4px rgba(229,57,53,.55)}',
-        '.lcs-placed-piece{position:absolute;width:75%;height:75%;overflow:hidden;pointer-events:auto;cursor:grab;touch-action:none;animation:lcs-pop .35s ease-out;background:#FFF;border:2px solid #8B9DC3;border-radius:50%;box-shadow:0 2px 6px rgba(0,0,0,.12)}',
+        // v28.2.0 — placed piece now renders the kid-dropped piece to look
+        // identical to a pre-placed clue cell on the grid. The image's clue
+        // frame (white circle + thin #8B9DC3 1.5px stroke + soft halo + drop
+        // shadow) is baked into placedDataUrl by the exporter; the div itself
+        // is fully transparent during fill phase so the kid sees no extra ring.
+        // Review states draw the colored ring on a ::before pseudo at the
+        // SAME diameter as the clue frame (~71% of the cell), so the kid sees
+        // the verdict ring exactly over the clue ring instead of a second
+        // outer ring at the cell edge.
+        '.lcs-placed-piece{position:absolute;inset:0;pointer-events:auto;cursor:grab;touch-action:none;animation:lcs-pop .35s ease-out;background:transparent}',
         '.lcs-placed-piece:active{cursor:grabbing}',
         '.lcs-placed-piece[data-locked="1"]{cursor:default;pointer-events:none}',
         '.lcs-placed-piece[data-dragging="1"]{opacity:.35}',
-        '.lcs-placed-piece img{display:block;width:100%;height:100%;object-fit:cover;user-select:none;-webkit-user-drag:none;pointer-events:none;border-radius:50%}',
-        '.lcs-placed-piece--correct{border-color:#2E7D32;box-shadow:0 0 0 3px rgba(46,125,50,.45)}',
-        // Wrong placement cue — same loud pattern as missing-pieces v26.1.
-        '.lcs-placed-piece--wrong{border-color:#C62828;box-shadow:inset 0 0 0 5px #C62828,0 0 0 4px rgba(229,57,53,.55),0 0 14px 4px rgba(229,57,53,.45);animation:lcs-wrong-shake .55s ease-in-out 1}',
+        '.lcs-placed-piece img{display:block;width:100%;height:100%;object-fit:contain;user-select:none;-webkit-user-drag:none;pointer-events:none}',
+        '.lcs-placed-piece::before{content:"";position:absolute;top:50%;left:50%;width:71%;height:71%;transform:translate(-50%,-50%);border-radius:50%;border:3px solid transparent;box-sizing:border-box;pointer-events:none}',
+        '.lcs-placed-piece--correct::before{border-color:#2E7D32;box-shadow:0 0 0 3px rgba(46,125,50,.45)}',
+        // Wrong placement cue — thick red ring at the clue-frame diameter +
+        // outer red glow + ✖ overlay + horizontal shake on the whole piece.
+        '.lcs-placed-piece--wrong{animation:lcs-wrong-shake .55s ease-in-out 1}',
+        '.lcs-placed-piece--wrong::before{border-color:#C62828;border-width:5px;box-shadow:0 0 0 4px rgba(229,57,53,.55),0 0 14px 4px rgba(229,57,53,.45)}',
         '.lcs-placed-piece--wrong::after{content:"\\2716";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:clamp(28px,7vw,72px);font-weight:900;color:#C62828;line-height:1;pointer-events:none;text-shadow:2px 0 0 #FFF,-2px 0 0 #FFF,0 2px 0 #FFF,0 -2px 0 #FFF,2px 2px 0 #FFF,2px -2px 0 #FFF,-2px 2px 0 #FFF,-2px -2px 0 #FFF,3px 3px 6px rgba(0,0,0,.35)}',
         '@keyframes lcs-wrong-shake{0%,100%{transform:translateX(0)}15%{transform:translateX(-8px)}30%{transform:translateX(8px)}45%{transform:translateX(-6px)}60%{transform:translateX(6px)}75%{transform:translateX(-3px)}90%{transform:translateX(3px)}}',
         '.lcs-drag-ghost{position:fixed;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);box-shadow:0 12px 28px rgba(28,28,30,.35);background:#FFF;padding:0;overflow:hidden;border:3px solid #4F46E5;border-radius:50%;display:flex;align-items:center;justify-content:center}',
@@ -3994,8 +4097,9 @@ document.addEventListener("DOMContentLoaded", function() {
         '      var pp=document.createElement("div");',
         '      pp.className="lcs-placed-piece";',
         '      pp.setAttribute("data-cutout-idx",String(cutoutIdx));',
-        '      if(co&&co.imgDataUrl){',
-        '        var img=document.createElement("img");img.alt="";img.src=co.imgDataUrl;',
+        '      var placedSrc=(co&&(co.placedDataUrl||co.imgDataUrl))||"";',
+        '      if(placedSrc){',
+        '        var img=document.createElement("img");img.alt="";img.src=placedSrc;',
         '        pp.appendChild(img);',
         '      }',
         '      if(phase==="reviewed"){',
@@ -4232,11 +4336,11 @@ document.addEventListener("DOMContentLoaded", function() {
             setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
             showMessage('Interactive worksheet downloaded.', 'success');
         } catch (e) {
-            console.error('[Interactive Export v28.0] Failed:', e);
+            console.error('[Interactive Export v28.2.0] Failed:', e);
             showMessage('Interactive export failed: ' + e.message, 'error');
         }
     }
-    // END: Interactive-HTML export v28.0
+    // END: Interactive-HTML export v28.2.0
 
     async function getCanvasDataURLWithOptions(canvasInstance, exportOpts) {
         // Save current state

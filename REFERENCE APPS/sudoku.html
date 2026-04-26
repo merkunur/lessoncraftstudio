@@ -2749,52 +2749,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
         worksheetCanvas.renderAll();
 
-        // v28.0 — snapshot per-cell + per-cutout metadata for the interactive
-        // export. The grid group's bounding rect is used to promote local cell
-        // positions to world coords; cutouts are top-level groups so we read
-        // their world rects via getBoundingRect directly.
-        try {
-            const grid = worksheetCanvas.getObjects().find(o => o.isSudokuGrid);
-            const cutouts = worksheetCanvas.getObjects().filter(o => o.isCutOut).sort((a, b) => a.cutoutIndex - b.cutoutIndex);
-            if (grid && grid.sudokuMeta && cutouts.length > 0) {
-                const meta = grid.sudokuMeta;
-                const gb = grid.getBoundingRect(true, true);
-                const sx = gb.width  / meta.intrinsicWidth;
-                const sy = gb.height / meta.intrinsicHeight;
-                const innerLeft = gb.left + meta.innerOffsetX * sx;
-                const innerTop  = gb.top  + meta.innerOffsetY * sy;
-                const cellW = meta.cellSize * sx;
-                const cellH = meta.cellSize * sy;
-                const holes = meta.blankPositions.map((pos, i) => ({
-                    index: i,
-                    row: pos.row,
-                    col: pos.col,
-                    rect: {
-                        x: innerLeft + pos.col * cellW,
-                        y: innerTop  + pos.row * cellH,
-                        w: cellW,
-                        h: cellH
-                    },
-                    correctImageIndex: meta.solution[pos.row][pos.col]
-                }));
-                const cutoutsData = cutouts.map(co => {
-                    const r = co.getBoundingRect(true, true);
-                    return {
-                        index: co.cutoutIndex,
-                        imageIndex: co.cutoutImageIndex,
-                        sourcePath: co.cutoutImagePath || null,
-                        rect: { x: r.left, y: r.top, w: r.width, h: r.height }
-                    };
-                });
-                worksheetCanvas.problemsData = {
-                    gridDims: { rows: 4, cols: 4 },
-                    holes: holes,
-                    cutouts: cutoutsData
-                };
-            }
-        } catch (e) {
-            console.warn('[sudoku v28.0] failed to capture problemsData:', e);
-        }
+        // v28.1.0 — defer per-cell + per-cutout world-rect math to
+        // extractDeckBundle so operator drags/scales of the grid Group or any
+        // individual cutout card between Generate and Download are honored.
+        // The grid Group still carries sudokuMeta (canvas-independent: cellSize,
+        // innerOffset, intrinsicWidth/Height, blankPositions, solution).
+        worksheetCanvas.problemsData = { hasGrid: true };
 
         if (typeof downloadInteractiveHtmlBtn !== 'undefined' && downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = false;
         if (typeof downloadInteractiveHtmlReferenceBtn !== 'undefined' && downloadInteractiveHtmlReferenceBtn) downloadInteractiveHtmlReferenceBtn.disabled = false;
@@ -3567,11 +3527,58 @@ document.addEventListener("DOMContentLoaded", function() {
     async function extractDeckBundle(canvas, options) {
         var loadingMode = (options && options.loadingMode === 'reference') ? 'reference' : 'inline';
         var pd = canvas.problemsData || null;
-        if (!pd || !Array.isArray(pd.holes) || !Array.isArray(pd.cutouts)) {
+        if (!pd || pd.hasGrid !== true) {
             throw new Error('No problemsData on canvas. Generate a worksheet first.');
         }
-        if (pd.holes.length === 0) throw new Error('No empty cells detected.');
-        if (pd.cutouts.length === 0) throw new Error('No cutout cards detected.');
+
+        // v28.1.0 — walk the canvas FRESH at download time so operator
+        // drags/scales of the grid Group OR any individual cutout card are
+        // honored. Hole world rects derive from the grid Group's CURRENT
+        // bbox using its sudokuMeta intrinsic geometry; cutouts are
+        // top-level Groups so getBoundingRect(true,true) reads their CURRENT
+        // world rect directly.
+        var grid = canvas.getObjects().find(function (o) { return o.isSudokuGrid; });
+        if (!grid || !grid.sudokuMeta) {
+            throw new Error('Sudoku grid not detected on canvas. Regenerate the worksheet.');
+        }
+        var meta = grid.sudokuMeta;
+        var gb = grid.getBoundingRect(true, true);
+        var sx = gb.width  / meta.intrinsicWidth;
+        var sy = gb.height / meta.intrinsicHeight;
+        var innerLeft = gb.left + meta.innerOffsetX * sx;
+        var innerTop  = gb.top  + meta.innerOffsetY * sy;
+        var cellW = meta.cellSize * sx;
+        var cellH = meta.cellSize * sy;
+        var holes = meta.blankPositions.map(function (pos, i) {
+            return {
+                index: i,
+                row: pos.row,
+                col: pos.col,
+                rect: {
+                    x: innerLeft + pos.col * cellW,
+                    y: innerTop  + pos.row * cellH,
+                    w: cellW,
+                    h: cellH
+                },
+                correctImageIndex: meta.solution[pos.row][pos.col]
+            };
+        });
+
+        var cutouts = canvas.getObjects()
+            .filter(function (o) { return o && o.isCutOut === true; })
+            .sort(function (a, b) { return a.cutoutIndex - b.cutoutIndex; });
+        if (cutouts.length === 0) throw new Error('No cutout cards detected on canvas. Regenerate the worksheet.');
+        var cutoutsData = cutouts.map(function (co) {
+            var r = co.getBoundingRect(true, true);
+            return {
+                index: co.cutoutIndex,
+                imageIndex: co.cutoutImageIndex,
+                sourcePath: co.cutoutImagePath || null,
+                rect: { x: r.left, y: r.top, w: r.width, h: r.height }
+            };
+        });
+
+        if (holes.length === 0) throw new Error('No empty cells detected.');
 
         var worksheetImage = await _captureWorksheetImage(canvas);
         var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
@@ -3581,7 +3588,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // render it as a thumbnail inside the placed cell (mirrors bingo v24.3 /
         // missing-pieces v26.1).
         var captureScale = 2;
-        var cutoutsWithImages = pd.cutouts;
+        var cutoutsWithImages = cutoutsData;
         try {
             var wsImg = await new Promise(function(resolve, reject){
                 var img = new Image();
@@ -3590,7 +3597,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 img.src = worksheetImage;
             });
             var outSize = 128;
-            cutoutsWithImages = pd.cutouts.map(function(co){
+            cutoutsWithImages = cutoutsData.map(function(co){
                 var tmp = document.createElement('canvas');
                 tmp.width = outSize; tmp.height = outSize;
                 var ctx = tmp.getContext('2d');
@@ -3608,11 +3615,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 return Object.assign({}, co, { imgDataUrl: url });
             });
         } catch (e) {
-            console.warn('[sudoku v28.0] cutout image cropping failed:', e);
+            console.warn('[sudoku v28.1.0] cutout image cropping failed:', e);
         }
 
         return {
-            bundleVersion: '28.0.0',
+            bundleVersion: '28.1.0',
             schemaFormat: 'image-references-v3',
             loadingMode: loadingMode,
             appType: 'sudoku',
@@ -3622,8 +3629,8 @@ document.addEventListener("DOMContentLoaded", function() {
             page: { width: currentCanvasConfig.width, height: currentCanvasConfig.height },
             worksheetImage: worksheetImage,
             scoring: 'image-index',
-            gridDims: pd.gridDims || { rows: 4, cols: 4 },
-            holes: pd.holes,
+            gridDims: { rows: 4, cols: 4 },
+            holes: holes,
             cutoutsData: cutoutsWithImages,
             imageRefs: {},
             attribution: attributionRect ? {

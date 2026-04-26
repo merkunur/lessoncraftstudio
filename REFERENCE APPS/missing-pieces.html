@@ -3241,55 +3241,30 @@
 
                 worksheetCanvas.renderAll();
 
-                // v26.0 — snapshot the puzzle metadata for the interactive export.
-                // Hole world rects derive from the main puzzle group's actual rendered
-                // bbox (so operator transforms are honored).
+                // v26.2.0 — defer hole + option world-rect math to
+                // extractDeckBundle so operator drags/scales of the
+                // mainPuzzleGroup or any option piece between Generate and
+                // Download are honored. Stash canvas-independent puzzle data
+                // (positions are in IMAGE-intrinsic coords; mainImage dims
+                // captured here so extract doesn't need to re-load the URL).
                 try {
                     const puzzleObj = worksheetCanvas.getObjects().find(o => o.isMainPuzzle);
-                    const optionObjs = worksheetCanvas.getObjects().filter(o => o.isOptionPiece).sort((a, b) => a.optionIndex - b.optionIndex);
-                    if (puzzleObj && optionObjs.length === puzzleData.optionPieces.length) {
-                        const pbox = puzzleObj.getBoundingRect(true, true);
-                        // Find the unscaled main-image dimensions: same algorithm the renderer used.
-                        const mainImgObj = await new Promise(r => fabric.Image.fromURL(puzzleData.mainImage.path, r, { crossOrigin: 'anonymous' }));
-                        const sx = pbox.width / mainImgObj.width;
-                        const sy = pbox.height / mainImgObj.height;
-                        const shape = puzzleData.pieceShape;
-                        function holeWHforShape(scaledSize) {
-                            switch (shape) {
-                                case 'rectPortrait':    return { w: scaledSize * 0.8, h: scaledSize       };
-                                case 'rectLandscape':   return { w: scaledSize,       h: scaledSize * 0.8 };
-                                case 'ellipsePortrait': return { w: scaledSize * 0.8, h: scaledSize       };
-                                case 'ellipseLandscape':return { w: scaledSize,       h: scaledSize * 0.8 };
-                                default:                return { w: scaledSize,       h: scaledSize       };
-                            }
-                        }
-                        const holes = puzzleData.positions.map((pos, i) => {
-                            const scaledSize = puzzleData.pieceSize * sx;
-                            const wh = holeWHforShape(scaledSize);
-                            return {
-                                index: i,
-                                rect: { x: pbox.left + pos.x * sx, y: pbox.top + pos.y * sy, w: wh.w, h: wh.h },
-                                shape,
-                                correctOptionIndex: puzzleData.correctIndices[i]
-                            };
-                        });
-                        const options = optionObjs.map((og) => {
-                            const r = og.getBoundingRect(true, true);
-                            return {
-                                index: og.optionIndex,
-                                rect: { x: r.left, y: r.top, w: r.width, h: r.height },
-                                imgDataUrl: og.optionImgDataUrl || null
-                            };
-                        });
-                        worksheetCanvas.problemsData = {
-                            holes,
-                            options,
-                            pieceShape: shape,
-                            puzzleBbox: { x: pbox.left, y: pbox.top, w: pbox.width, h: pbox.height }
-                        };
+                    const mainImgObj = await new Promise(r => fabric.Image.fromURL(puzzleData.mainImage.path, r, { crossOrigin: 'anonymous' }));
+                    if (puzzleObj && mainImgObj) {
+                        // Stash the intrinsic image dims on the puzzle group
+                        // so extract can compute scale = currentBbox / intrinsic.
+                        puzzleObj.mainImgIntrinsicW = mainImgObj.width;
+                        puzzleObj.mainImgIntrinsicH = mainImgObj.height;
                     }
+                    worksheetCanvas.problemsData = {
+                        pieceShape: puzzleData.pieceShape,
+                        positions: puzzleData.positions.map(p => ({ x: p.x, y: p.y })),
+                        pieceSize: puzzleData.pieceSize,
+                        correctIndices: puzzleData.correctIndices.slice(),
+                        optionCount: puzzleData.optionPieces.length
+                    };
                 } catch (e) {
-                    console.warn('[missing-pieces v26.0] failed to capture problemsData:', e);
+                    console.warn('[missing-pieces v26.2.0] failed to capture problemsData:', e);
                 }
 
                 generateAnswerKeyBtn.disabled = false;
@@ -3404,18 +3379,67 @@
         async function extractDeckBundle(canvas, options) {
             var loadingMode = (options && options.loadingMode === 'reference') ? 'reference' : 'inline';
             var pd = canvas.problemsData || null;
-            if (!pd || !Array.isArray(pd.holes) || !Array.isArray(pd.options)) {
+            if (!pd || !Array.isArray(pd.positions) || !Array.isArray(pd.correctIndices)) {
                 throw new Error('No problemsData on canvas. Generate a worksheet first.');
             }
-            if (pd.holes.length === 0) throw new Error('No holes detected.');
-            if (pd.options.length === 0) throw new Error('No option pieces detected.');
+
+            // v26.2.0 — walk the canvas FRESH for the main puzzle group + option
+            // pieces. Operator drags/scales of either are honored at download
+            // time. Hole world rects are derived from the puzzle group's
+            // CURRENT bbox + the canvas-independent puzzleData stashed on pd.
+            var puzzleObj = canvas.getObjects().find(function (o) { return o.isMainPuzzle; });
+            if (!puzzleObj) throw new Error('Main puzzle not detected on canvas. Regenerate the worksheet.');
+            var mainW = puzzleObj.mainImgIntrinsicW || puzzleObj.width || 1;
+            var mainH = puzzleObj.mainImgIntrinsicH || puzzleObj.height || 1;
+
+            var pbox = puzzleObj.getBoundingRect(true, true);
+            var sx = pbox.width / mainW;
+            var sy = pbox.height / mainH;
+            var shape = pd.pieceShape || 'square';
+            function holeWHforShape(scaledSize) {
+                switch (shape) {
+                    case 'rectPortrait':    return { w: scaledSize * 0.8, h: scaledSize       };
+                    case 'rectLandscape':   return { w: scaledSize,       h: scaledSize * 0.8 };
+                    case 'ellipsePortrait': return { w: scaledSize * 0.8, h: scaledSize       };
+                    case 'ellipseLandscape':return { w: scaledSize,       h: scaledSize * 0.8 };
+                    default:                return { w: scaledSize,       h: scaledSize       };
+                }
+            }
+            var holes = pd.positions.map(function (pos, i) {
+                var scaledSize = pd.pieceSize * sx;
+                var wh = holeWHforShape(scaledSize);
+                return {
+                    index: i,
+                    rect: { x: pbox.left + pos.x * sx, y: pbox.top + pos.y * sy, w: wh.w, h: wh.h },
+                    shape: shape,
+                    correctOptionIndex: pd.correctIndices[i]
+                };
+            });
+
+            var optionObjs = canvas.getObjects()
+                .filter(function (o) { return o && o.isOptionPiece === true; })
+                .sort(function (a, b) { return a.optionIndex - b.optionIndex; });
+            if (optionObjs.length !== pd.optionCount) {
+                throw new Error('Option count mismatch (' + optionObjs.length + ', expected ' + pd.optionCount + '). Regenerate the worksheet.');
+            }
+            var optionsData = optionObjs.map(function (og) {
+                var r = og.getBoundingRect(true, true);
+                return {
+                    index: og.optionIndex,
+                    rect: { x: r.left, y: r.top, w: r.width, h: r.height },
+                    imgDataUrl: og.optionImgDataUrl || null
+                };
+            });
+
+            if (holes.length === 0) throw new Error('No holes detected.');
+            if (optionsData.length === 0) throw new Error('No option pieces detected.');
 
             var worksheetImage = await _captureWorksheetImage(canvas);
             var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
                 ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
             return {
-                bundleVersion: '26.1.0',
+                bundleVersion: '26.2.0',
                 schemaFormat: 'image-references-v3',
                 loadingMode: loadingMode,
                 appType: 'missing-pieces',
@@ -3425,9 +3449,9 @@
                 page: { width: currentCanvasConfig.width, height: currentCanvasConfig.height },
                 worksheetImage: worksheetImage,
                 scoring: 'strict',
-                pieceShape: pd.pieceShape || 'square',
-                holes: pd.holes,
-                optionsData: pd.options,
+                pieceShape: shape,
+                holes: holes,
+                optionsData: optionsData,
                 imageRefs: {},
                 attribution: attributionRect ? {
                     text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',

@@ -2342,50 +2342,29 @@
 
           worksheetCanvas.renderAll();
 
-          // v23.0 — capture per-item world rects + correct-pair indices for the
-          // interactive bundle. Walk the canvas after renderAll to read each
-          // tagged item's final transform.
+          // v23.1.0 — defer per-item rect capture to extractDeckBundle so
+          // operator drags/scales of individual top/bottom items between
+          // Generate and Download are honored. Compute the canvas-independent
+          // correct-pair mapping here from the source-of-truth data
+          // (worksheetData.shadowDerangement). The actual top/bottom item
+          // count comes from a fresh canvas walk at extract time.
           try {
               const wd = worksheetCanvas.worksheetData;
-              const tops = []; // { index, rect:{x,y,w,h} }
-              const bottoms = []; // { index, rect:{x,y,w,h} }
-              const isMakeItWhole = (wd.exerciseMode === 'makeItWhole');
-              // Strict regex matching to skip label objects (`prob_label_0`,
-              // `first_half_label_0`, etc.) — only the image itself counts.
-              const topRe = isMakeItWhole ? /^first_half_(\d+)$/ : /^prob_(\d+)$/;
-              const botRe = isMakeItWhole ? /^second_half_(\d+)$/ : /^shadow_(\d+)$/;
-              worksheetCanvas.getObjects().forEach(o => {
-                  if (!o.isGeneratedItem) return;
-                  const id = o.originalIndex || '';
-                  if (typeof id !== 'string') return;
-                  const w = o.getScaledWidth();
-                  const h = o.getScaledHeight();
-                  // Items have originX/Y='center' so .left/.top is the center
-                  const rect = { x: o.left - w / 2, y: o.top - h / 2, w: w, h: h };
-                  let m = id.match(topRe);
-                  if (m) { tops.push({ index: parseInt(m[1], 10), rect: rect }); return; }
-                  m = id.match(botRe);
-                  if (m) { bottoms.push({ index: parseInt(m[1], 10), rect: rect }); }
-              });
-              tops.sort((a, b) => a.index - b.index);
-              bottoms.sort((a, b) => a.index - b.index);
-
-              // Compute correct-pair mapping: top index i matches bottom index
-              // shadowDerangement.indexOf(i). Same formula for both modes.
               const derangement = (wd.shadowDerangement || []).slice();
-              const pairs = tops.map(t => {
-                  const correctBottom = derangement.indexOf(t.index);
-                  return { topIndex: t.index, correctBottomIndex: correctBottom };
-              });
+              // pairs[i] = { topIndex: i, correctBottomIndex: derangement.indexOf(i) }
+              // for i in 0..derangement.length-1
+              const pairs = derangement.map((_, topIdx) => ({
+                  topIndex: topIdx,
+                  correctBottomIndex: derangement.indexOf(topIdx)
+              }));
 
               worksheetCanvas.problemsData = {
                   mode: wd.exerciseMode,
-                  topItems: tops,
-                  bottomItems: bottoms,
+                  derangement: derangement,
                   pairs: pairs
               };
           } catch (e) {
-              console.warn('[shadow-match v23.0] failed to capture problemsData:', e);
+              console.warn('[shadow-match v23.1.0] failed to capture problemsData:', e);
           }
 
           generateAnswerKeyBtn.disabled = false;
@@ -2516,11 +2495,36 @@
       async function extractDeckBundle(canvas, options) {
           var loadingMode = (options && options.loadingMode === 'reference') ? 'reference' : 'inline';
           var pd = canvas.problemsData || null;
-          if (!pd || !Array.isArray(pd.topItems) || !Array.isArray(pd.bottomItems) || !Array.isArray(pd.pairs)) {
+          if (!pd || !pd.mode || !Array.isArray(pd.pairs)) {
               throw new Error('No problemsData on canvas. Generate a worksheet first.');
           }
-          if (pd.topItems.length === 0 || pd.bottomItems.length === 0) {
-              throw new Error('No items detected. Regenerate the worksheet.');
+
+          // v23.1.0 — walk the canvas FRESH for tagged top/bottom items.
+          // Operator drags/scales of any individual item between Generate and
+          // Download are honored. Items have originX/Y='center' so .left/.top
+          // is the center.
+          var isMakeItWhole = (pd.mode === 'makeItWhole');
+          var topRe = isMakeItWhole ? /^first_half_(\d+)$/ : /^prob_(\d+)$/;
+          var botRe = isMakeItWhole ? /^second_half_(\d+)$/ : /^shadow_(\d+)$/;
+          var topItems = [];
+          var bottomItems = [];
+          canvas.getObjects().forEach(function (o) {
+              if (!o.isGeneratedItem) return;
+              var id = o.originalIndex || '';
+              if (typeof id !== 'string') return;
+              var w = o.getScaledWidth();
+              var h = o.getScaledHeight();
+              var rect = { x: o.left - w / 2, y: o.top - h / 2, w: w, h: h };
+              var m = id.match(topRe);
+              if (m) { topItems.push({ index: parseInt(m[1], 10), rect: rect }); return; }
+              m = id.match(botRe);
+              if (m) { bottomItems.push({ index: parseInt(m[1], 10), rect: rect }); }
+          });
+          topItems.sort(function (a, b) { return a.index - b.index; });
+          bottomItems.sort(function (a, b) { return a.index - b.index; });
+
+          if (topItems.length === 0 || bottomItems.length === 0) {
+              throw new Error('No items detected on canvas. Regenerate the worksheet.');
           }
 
           var worksheetImage = await _captureWorksheetImage(canvas);
@@ -2528,7 +2532,7 @@
               ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
           return {
-              bundleVersion: '23.0.0',
+              bundleVersion: '23.1.0',
               schemaFormat: 'image-references-v3',
               loadingMode: loadingMode,
               appType: 'shadow-match',
@@ -2538,8 +2542,8 @@
               page: { width: currentCanvasConfig.width, height: currentCanvasConfig.height },
               worksheetImage: worksheetImage,
               mode: pd.mode,
-              topItems: pd.topItems,
-              bottomItems: pd.bottomItems,
+              topItems: topItems,
+              bottomItems: bottomItems,
               pairs: pd.pairs,
               imageRefs: {},
               attribution: attributionRect ? {

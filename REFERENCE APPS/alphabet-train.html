@@ -4298,16 +4298,44 @@ async function downloadPDF(canvasToExport, fileName) {
             return String(a.wagonLetter || '').localeCompare(String(b.wagonLetter || ''));
         });
 
-        // v10.4 — wagon markers now follow the train via syncTrainChildren
-        // (added in the train-child-lock fix). So each marker's CURRENT
-        // world bbox is already at the correct post-transform position;
-        // read it directly. The earlier v10.3 back-compute (apply train
-        // translation + scale to the wagon's gen-time TL position) would
-        // double-count the train's transform now that wagons have already
-        // been moved by sync, breaking drop detection after the operator
-        // resizes / rotates / moves the train.
+        // v10.7 — recompute each wagon marker's world rect DIRECTLY from
+        // the train's CURRENT transform + the marker's locked offset (set
+        // by captureTrainChildOffset at generation time). Earlier versions
+        // depended on syncTrainChildren having already updated the marker's
+        // own left/top/scale via canvas events; that path proved unreliable
+        // — markers are invisible (selectable:false, evented:false) and the
+        // operator's transforms didn't always make their way to the
+        // marker's own properties before export. By computing the rect
+        // here from the captured offset + the train's CURRENT state, the
+        // bundle has correct drop-target positions regardless of whether
+        // sync fired or not.
+        var trainBgForBundle = canvas.getObjects().find(function (o) {
+            return o && (o.generationId === 'trainBackground' || o.generationId === 'answerKeyTrain');
+        });
         function wagonWorldRect(wagon) {
-            return _worldRectBounds(wagon);
+            if (!trainBgForBundle || typeof wagon.parentTrainOffsetX !== 'number') {
+                return _worldRectBounds(wagon);
+            }
+            var trainCurCenter = trainBgForBundle.getCenterPoint();
+            var trainCurAngle  = (trainBgForBundle.angle || 0) * Math.PI / 180;
+            var trainCurScaleX = trainBgForBundle.scaleX || 1;
+            var trainCurScaleY = trainBgForBundle.scaleY || 1;
+            var localX = wagon.parentTrainOffsetX * trainCurScaleX;
+            var localY = wagon.parentTrainOffsetY * trainCurScaleY;
+            var cosA = Math.cos(trainCurAngle);
+            var sinA = Math.sin(trainCurAngle);
+            var rotX = localX * cosA - localY * sinA;
+            var rotY = localX * sinA + localY * cosA;
+            var sxRatio = trainCurScaleX / (wagon.parentTrainGenScaleX || 1);
+            var syRatio = trainCurScaleY / (wagon.parentTrainGenScaleY || 1);
+            var w = (wagon.width  || 40) * (wagon.parentTrainOriginalScaleX || 1) * sxRatio;
+            var h = (wagon.height || 40) * (wagon.parentTrainOriginalScaleY || 1) * syRatio;
+            return {
+                x: trainCurCenter.x + rotX,
+                y: trainCurCenter.y + rotY,
+                w: w,
+                h: h
+            };
         }
 
         var cells = found.wagons.map(function (w, i) {
@@ -4374,7 +4402,7 @@ async function downloadPDF(canvasToExport, fileName) {
             ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
         return {
-            bundleVersion: '10.6.0',
+            bundleVersion: '10.7.0',
             schemaFormat: 'image-references-v3',
             loadingMode: loadingMode,
             snapshotMode: 'inline',

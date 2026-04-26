@@ -7019,79 +7019,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
     worksheetCanvas.renderAll();
 
-    // v29.0 — snapshot grid layout + solution path for the interactive export.
-    // Use the gridGroup's INTRINSIC width/height (= children's AABB, not the
-    // stroke/shadow-inflated bbox getBoundingRect would return). This is
-    // critical for picture-pathway mode where gridBorder has strokeWidth:5
-    // + a drop shadow; otherwise the runtime's per-cell math would be
-    // scaled up by ~5%, leaving the trace line offset from the actual
-    // image positions in the baked JPEG. Origin handling assumes default
-    // fabric.Group origin = 'center'.
-    try {
-        const grid = worksheetCanvas.getObjects().find(o => o.isPicturePathGrid);
-        if (grid && grid.picturePathMeta) {
-            const meta = grid.picturePathMeta;
-            const sx = (grid.scaleX || 1);
-            const sy = (grid.scaleY || 1);
-            const gw = grid.width  * sx;
-            const gh = grid.height * sy;
-            const ox = (grid.originX === 'left')   ? 0   : (grid.originX === 'right')  ? -gw : -gw/2;
-            const oy = (grid.originY === 'top')    ? 0   : (grid.originY === 'bottom') ? -gh : -gh/2;
-            const gridLeft = grid.left + ox;
-            const gridTop  = grid.top  + oy;
-            // v29.2 — derive each legend input's world rect by splitting the
-            // legend's world bbox into N equal columns (one per collectible)
-            // and putting the input in the right ~38% of each column, where
-            // the baked blank line sits. This avoids fragile per-child math
-            // (fabric.Group re-normalizes child coords on construction) and
-            // produces inputs that are reliably visible and well-aligned even
-            // if the bbox includes a small stroke padding.
-            let legendBundle = null;
-            const legendObj = worksheetCanvas.getObjects().find(o => o.isMazeLegend);
-            if (legendObj) {
-                if (!legendObj.mazeLegendMeta) {
-                    console.warn('[picture-path v29.2] legend tag found but mazeLegendMeta missing — fabric Group may have stripped custom props.');
-                } else {
-                    const lm = legendObj.mazeLegendMeta;
-                    const lb = legendObj.getBoundingRect(true, true);
-                    const n = lm.items.length;
-                    if (n > 0) {
-                        const colW = lb.width / n;
-                        // Input sits in the right portion of each column: 60% offset, 32% width.
-                        const inputOffsetXFrac = 0.60;
-                        const inputWidthFrac   = 0.32;
-                        const inputHeight      = Math.min(lb.height * 0.62, 36);
-                        legendBundle = {
-                            items: lm.items.map((it, i) => ({
-                                correctCount: it.correctCount,
-                                rect: {
-                                    x: lb.left + i * colW + colW * inputOffsetXFrac,
-                                    y: lb.top  + (lb.height - inputHeight) / 2,
-                                    w: colW * inputWidthFrac,
-                                    h: inputHeight
-                                }
-                            }))
-                        };
-                    }
-                }
-            }
-            worksheetCanvas.problemsData = {
-                mode: meta.mode,
-                gridDims: { rows: meta.rows, cols: meta.cols },
-                gridBbox: { x: gridLeft, y: gridTop, w: gw, h: gh },
-                gridPadding: { x: meta.gridPadding * sx, y: meta.gridPadding * sy },
-                gridStride:  { x: (meta.cellSize + meta.cellSpacing) * sx, y: (meta.cellSize + meta.cellSpacing) * sy },
-                cellSize:    { w: meta.cellSize * sx, h: meta.cellSize * sy },
-                solutionPath: meta.solutionPath,
-                startCell: meta.startCell,
-                endCell: meta.endCell,
-                mazeWalls: meta.mazeWalls || null,
-                legend: legendBundle
-            };
-        }
-    } catch (e) {
-        console.warn('[picture-path v29.0] failed to capture problemsData:', e);
-    }
+    // v29.3.0 — defer grid-bbox + legend-rect math to extractDeckBundle so
+    // operator drags/scales of the gridGroup (or the maze-legend group)
+    // between Generate and Download are honored. Grid carries
+    // picturePathMeta (canvas-independent: cellSize, cellSpacing,
+    // gridPadding, mode, rows, cols, solutionPath, start/endCell, mazeWalls)
+    // already stamped on the gridGroup at construction. legendObj carries
+    // mazeLegendMeta with per-collectible items.
+    worksheetCanvas.problemsData = { hasGrid: true };
 
     if (typeof downloadInteractiveHtmlBtn !== 'undefined' && downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = false;
     if (typeof downloadInteractiveHtmlReferenceBtn !== 'undefined' && downloadInteractiveHtmlReferenceBtn) downloadInteractiveHtmlReferenceBtn.disabled = false;
@@ -7164,8 +7099,61 @@ document.addEventListener("DOMContentLoaded", function() {
   async function extractDeckBundle(canvas, options) {
       var loadingMode = (options && options.loadingMode === 'reference') ? 'reference' : 'inline';
       var pd = canvas.problemsData || null;
-      if (!pd || !pd.gridDims || !Array.isArray(pd.solutionPath) || pd.solutionPath.length < 2) {
-          throw new Error('No problemsData on canvas. Generate a worksheet first (with a valid solution path).');
+      if (!pd || pd.hasGrid !== true) {
+          throw new Error('No problemsData on canvas. Generate a worksheet first.');
+      }
+
+      // v29.3.0 — walk the canvas FRESH for the gridGroup + maze-legend so
+      // operator drags/scales of either between Generate and Download are
+      // honored. Use the gridGroup's INTRINSIC width/height (= children's
+      // AABB, not the stroke/shadow-inflated bbox getBoundingRect would
+      // return). This is critical for picture-pathway mode where gridBorder
+      // has strokeWidth:5 + a drop shadow; otherwise the runtime's per-cell
+      // math would be scaled up by ~5%, leaving the trace line offset from
+      // the actual image positions in the baked JPEG.
+      var grid = canvas.getObjects().find(function (o) { return o.isPicturePathGrid; });
+      if (!grid || !grid.picturePathMeta) {
+          throw new Error('Picture-path grid not detected on canvas. Regenerate the worksheet.');
+      }
+      var meta = grid.picturePathMeta;
+      if (!Array.isArray(meta.solutionPath) || meta.solutionPath.length < 2) {
+          throw new Error('Solution path missing or invalid. Regenerate the worksheet.');
+      }
+      var sx = (grid.scaleX || 1);
+      var sy = (grid.scaleY || 1);
+      var gw = grid.width  * sx;
+      var gh = grid.height * sy;
+      var ox = (grid.originX === 'left')   ? 0   : (grid.originX === 'right')  ? -gw : -gw/2;
+      var oy = (grid.originY === 'top')    ? 0   : (grid.originY === 'bottom') ? -gh : -gh/2;
+      var gridLeft = grid.left + ox;
+      var gridTop  = grid.top  + oy;
+
+      var legendBundle = null;
+      var legendObj = canvas.getObjects().find(function (o) { return o.isMazeLegend; });
+      if (legendObj && legendObj.mazeLegendMeta) {
+          var lm = legendObj.mazeLegendMeta;
+          var lb = legendObj.getBoundingRect(true, true);
+          var n = lm.items.length;
+          if (n > 0) {
+              var colW = lb.width / n;
+              // Input sits in the right portion of each column: 60% offset, 32% width.
+              var inputOffsetXFrac = 0.60;
+              var inputWidthFrac   = 0.32;
+              var inputHeight      = Math.min(lb.height * 0.62, 36);
+              legendBundle = {
+                  items: lm.items.map(function (it, i) {
+                      return {
+                          correctCount: it.correctCount,
+                          rect: {
+                              x: lb.left + i * colW + colW * inputOffsetXFrac,
+                              y: lb.top  + (lb.height - inputHeight) / 2,
+                              w: colW * inputWidthFrac,
+                              h: inputHeight
+                          }
+                      };
+                  })
+              };
+          }
       }
 
       var worksheetImage = await _captureWorksheetImage(canvas);
@@ -7173,7 +7161,7 @@ document.addEventListener("DOMContentLoaded", function() {
           ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
       return {
-          bundleVersion: '29.2.0',
+          bundleVersion: '29.3.0',
           schemaFormat: 'image-references-v3',
           loadingMode: loadingMode,
           appType: 'picture-path',
@@ -7183,17 +7171,17 @@ document.addEventListener("DOMContentLoaded", function() {
           page: { width: currentCanvasConfig.width, height: currentCanvasConfig.height },
           worksheetImage: worksheetImage,
           scoring: 'strict-path',
-          mode: pd.mode,
-          gridDims: pd.gridDims,
-          gridBbox: pd.gridBbox,
-          gridPadding: pd.gridPadding,
-          gridStride: pd.gridStride,
-          cellSize: pd.cellSize,
-          solutionPath: pd.solutionPath,
-          startCell: pd.startCell,
-          endCell: pd.endCell,
-          mazeWalls: pd.mazeWalls || null,
-          legend: pd.legend || null,
+          mode: meta.mode,
+          gridDims: { rows: meta.rows, cols: meta.cols },
+          gridBbox: { x: gridLeft, y: gridTop, w: gw, h: gh },
+          gridPadding: { x: meta.gridPadding * sx, y: meta.gridPadding * sy },
+          gridStride:  { x: (meta.cellSize + meta.cellSpacing) * sx, y: (meta.cellSize + meta.cellSpacing) * sy },
+          cellSize:    { w: meta.cellSize * sx, h: meta.cellSize * sy },
+          solutionPath: meta.solutionPath,
+          startCell: meta.startCell,
+          endCell: meta.endCell,
+          mazeWalls: meta.mazeWalls || null,
+          legend: legendBundle,
           imageRefs: {},
           attribution: attributionRect ? {
               text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',

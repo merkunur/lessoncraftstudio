@@ -4138,27 +4138,15 @@ async function downloadPDF(canvasToExport, baseFilename) {
             return String(a.wagonLetter || '').localeCompare(String(b.wagonLetter || ''));
         });
 
-        // v11.3 — derive each empty-wagon's CURRENT world rect from the train's
-        // current transform. Wagon markers are invisible and don't move with
-        // the train when the operator drags or scales it; this back-computes
-        // where the visible wagon outlines NOW are by applying the train's
-        // (translation + scale) delta to the wagon's stored generate-time
-        // top-left position. Falls back to the wagon's own bbox if the
-        // trainGen* stamp is missing (older worksheet from before v11.3).
-        var trainBg = canvas.getObjects().find(function (o) { return o.isTrainTemplate; });
+        // v11.4 — wagon markers now follow the train via syncTrainChildren
+        // (added in the train-child-lock fix). So each marker's CURRENT
+        // world bbox is already at the correct post-transform position;
+        // read it directly. The earlier v11.3 back-compute would
+        // double-count the train's transform now that wagons have already
+        // been moved by sync, breaking drop detection after the operator
+        // resizes / rotates / moves the train.
         function wagonWorldRect(wagon) {
-            if (!trainBg || trainBg.trainGenLeft == null) return _worldRectBounds(wagon);
-            var sx = trainBg.scaleX / trainBg.trainGenScaleX;
-            var sy = trainBg.scaleY / trainBg.trainGenScaleY;
-            var trainGenTLX = trainBg.trainGenLeft - trainBg.trainGenWidth * trainBg.trainGenScaleX / 2;
-            var trainGenTLY = trainBg.trainGenTop - trainBg.trainGenHeight * trainBg.trainGenScaleY / 2;
-            var trainNowTLX = trainBg.left - trainBg.width * trainBg.scaleX / 2;
-            var trainNowTLY = trainBg.top - trainBg.height * trainBg.scaleY / 2;
-            var newLeft = trainNowTLX + (wagon.left - trainGenTLX) * sx;
-            var newTop  = trainNowTLY + (wagon.top  - trainGenTLY) * sy;
-            var newW = (wagon.width  || 1) * sx;
-            var newH = (wagon.height || 1) * sy;
-            return { x: newLeft + newW / 2, y: newTop + newH / 2, w: newW, h: newH };
+            return _worldRectBounds(wagon);
         }
 
         var cells = found.wagons.map(function (w, i) {

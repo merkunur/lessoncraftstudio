@@ -2890,60 +2890,17 @@ function updateTranslations() {
                 }
                 worksheetCanvas.renderAll();
 
-                // v30.0 — capture per-item world rects + (I-Spy only) legend
-                // input rects for the interactive runtime.
+                // v30.1.0 — defer per-item bbox + legend rect math to
+                // extractDeckBundle so operator drags/scales of any individual
+                // scene item OR the legend Group between Generate and Download
+                // are honored. Only canvas-independent mode is stashed here.
                 try {
                     const isOddOneOut = (lastGeneratedLayout.mode === 'oddoneout');
-                    const itemObjs = worksheetCanvas.getObjects().filter(o => o.isFindObjectsItem);
-                    const items = itemObjs.map((o, idx) => {
-                        const r = o.getBoundingRect(true, true);
-                        return {
-                            index: idx,
-                            rect: { x: r.left, y: r.top, w: r.width, h: r.height },
-                            isTarget: !!o.isTargetItem,
-                            imgPath: o.imgPath || null
-                        };
-                    });
-                    let legendBundle = null;
-                    if (!isOddOneOut) {
-                        const legendObj = worksheetCanvas.getObjects().find(o => o.isFindObjectsLegend);
-                        if (legendObj && legendObj.findObjectsLegendMeta) {
-                            const lm = legendObj.findObjectsLegendMeta;
-                            const lb = legendObj.getBoundingRect(true, true);
-                            // Each legend item carries its box's legend-local rect
-                            // (computed in createLegendGroup AFTER per-item positioning).
-                            // We just promote local → world by adding the legend's
-                            // bbox top-left. Scale (lsx/lsy) handles operator transforms.
-                            const intrinsicW = legendObj.width || lb.width;
-                            const intrinsicH = legendObj.height || lb.height;
-                            const lsx = lb.width  / Math.max(1, intrinsicW);
-                            const lsy = lb.height / Math.max(1, intrinsicH);
-                            // Inflate each input rect by 3 px on every side so it
-                            // fully covers the baked count box's stroke (the box
-                            // border is drawn at the rect edge; an exact-size
-                            // input would expose it as a thin halo).
-                            const padPx = 3;
-                            legendBundle = {
-                                items: lm.items.map(it => ({
-                                    imgPath: it.imgPath,
-                                    correctCount: it.correctCount,
-                                    rect: {
-                                        x: lb.left + it.boxLocalRect.x * lsx - padPx,
-                                        y: lb.top  + it.boxLocalRect.y * lsy - padPx,
-                                        w: it.boxLocalRect.w * lsx + padPx * 2,
-                                        h: it.boxLocalRect.h * lsy + padPx * 2
-                                    }
-                                }))
-                            };
-                        }
-                    }
                     worksheetCanvas.problemsData = {
-                        mode: isOddOneOut ? 'oddoneout' : 'ispy',
-                        items: items,
-                        legend: legendBundle
+                        mode: isOddOneOut ? 'oddoneout' : 'ispy'
                     };
                 } catch (e) {
-                    console.warn('[find-objects v30.0] failed to capture problemsData:', e);
+                    console.warn('[find-objects v30.1.0] failed to capture problemsData:', e);
                 }
 
                 downloadDropdownBtn.disabled = false;
@@ -4752,14 +4709,71 @@ function showMessage(msg, type = 'info', duration = 3000) {
         async function extractDeckBundle(canvas, options) {
             var loadingMode = (options && options.loadingMode === 'reference') ? 'reference' : 'inline';
             var pd = canvas.problemsData || null;
-            if (!pd || !Array.isArray(pd.items) || pd.items.length === 0) {
+            if (!pd || !pd.mode) {
                 throw new Error('No problemsData on canvas. Generate a worksheet first.');
             }
+
+            // v30.1.0 — walk the canvas FRESH for scene items + legend so
+            // operator drags/scales of either between Generate and Download
+            // are honored. getBoundingRect(true,true) returns each item's
+            // CURRENT world bbox (handles per-item rotation + scaling that
+            // the operator may apply individually).
+            var isOddOneOut = (pd.mode === 'oddoneout');
+            var itemObjs = canvas.getObjects().filter(function (o) { return o && o.isFindObjectsItem === true; });
+            var items = itemObjs.map(function (o, idx) {
+                var r = o.getBoundingRect(true, true);
+                return {
+                    index: idx,
+                    rect: { x: r.left, y: r.top, w: r.width, h: r.height },
+                    isTarget: !!o.isTargetItem,
+                    imgPath: o.imgPath || null
+                };
+            });
+            if (items.length === 0) {
+                throw new Error('No scene items detected on canvas. Regenerate the worksheet.');
+            }
+
+            var legendBundle = null;
+            if (!isOddOneOut) {
+                var legendObj = canvas.getObjects().find(function (o) { return o && o.isFindObjectsLegend === true; });
+                if (legendObj && legendObj.findObjectsLegendMeta) {
+                    var lm = legendObj.findObjectsLegendMeta;
+                    var lb = legendObj.getBoundingRect(true, true);
+                    // Each legend item carries its box's legend-local rect
+                    // (computed in createLegendGroup AFTER per-item positioning).
+                    // We just promote local → world by adding the legend's
+                    // bbox top-left. Scale (lsx/lsy) handles operator transforms.
+                    var intrinsicW = legendObj.width || lb.width;
+                    var intrinsicH = legendObj.height || lb.height;
+                    var lsx = lb.width  / Math.max(1, intrinsicW);
+                    var lsy = lb.height / Math.max(1, intrinsicH);
+                    // Inflate each input rect by 3 px on every side so it
+                    // fully covers the baked count box's stroke (the box
+                    // border is drawn at the rect edge; an exact-size
+                    // input would expose it as a thin halo).
+                    var padPx = 3;
+                    legendBundle = {
+                        items: lm.items.map(function (it) {
+                            return {
+                                imgPath: it.imgPath,
+                                correctCount: it.correctCount,
+                                rect: {
+                                    x: lb.left + it.boxLocalRect.x * lsx - padPx,
+                                    y: lb.top  + it.boxLocalRect.y * lsy - padPx,
+                                    w: it.boxLocalRect.w * lsx + padPx * 2,
+                                    h: it.boxLocalRect.h * lsy + padPx * 2
+                                }
+                            };
+                        })
+                    };
+                }
+            }
+
             var worksheetImage = await _captureWorksheetImage(canvas);
             var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
                 ? LCSAttribution.getRectFromCanvas(canvas) : null;
             return {
-                bundleVersion: '30.0.0',
+                bundleVersion: '30.1.0',
                 schemaFormat: 'image-references-v3',
                 loadingMode: loadingMode,
                 appType: 'find-objects',
@@ -4770,8 +4784,8 @@ function showMessage(msg, type = 'info', duration = 3000) {
                 worksheetImage: worksheetImage,
                 scoring: 'strict',
                 mode: pd.mode,
-                items: pd.items,
-                legend: pd.legend || null,
+                items: items,
+                legend: legendBundle,
                 imageRefs: {},
                 attribution: attributionRect ? {
                     text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',

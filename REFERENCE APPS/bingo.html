@@ -2578,9 +2578,9 @@
           targetCanvas.add(cardGridGroup);
           cardGridGroup.setCoords();
 
-          // Track chip world rects for the export (only for card 0).
-          const chipExportData = [];
-          // Add chip elements with absolute positioning
+          // Add chip elements with absolute positioning. Tagged for the
+          // interactive export — extractDeckBundle walks fresh at download
+          // time using these tags + each chip's CURRENT transform (v24.4.0).
           chipObjects.forEach(chip => {
               chip.set({
                   left: chip.left + contentMargin,
@@ -2588,40 +2588,19 @@
               });
               chip.isBingoElement = true;
               chip.originalIndex = `chips_${index}_elem`;
+              chip.bingoCardIndex = index;
               targetCanvas.add(chip);
-              // Chip rects for export — chip uses originX/Y (default 'left'/'top'
-              // for raw circle; 'center' would have been set elsewhere). Compute
-              // from current transform.
-              const cw = chip.getScaledWidth();
-              const ch = chip.getScaledHeight();
-              const cx = (chip.originX === 'center') ? chip.left - cw / 2 : chip.left;
-              const cy = (chip.originY === 'center') ? chip.top - ch / 2 : chip.top;
-              chipExportData.push({
-                  index: (typeof chip.chipIndex === 'number') ? chip.chipIndex : chipExportData.length,
-                  word: chip.chipWord || '',
-                  rect: { x: cx, y: cy, w: cw, h: ch }
-              });
           });
 
-          // v24.0 — only the first card seeds the interactive bundle. Stash the
-          // metadata on the canvas; the post-generate hook in generateWorksheet
-          // copies it onto worksheetCanvas.problemsData.
+          // v24.4.0 — only card 0 cells get a bingoCardIndex marker so the
+          // exporter walks the right ones. Cells already carry isBingoCardCell
+          // + cellRow + cellCol + cellWord (set in the loop above). The grid
+          // dims for card 0 are stashed on the canvas as a small sidecar.
           if (index === 0) {
-              const cellExportData = cellMeta.map(m => ({
-                  index: m.row * cols + m.col,
-                  row: m.row,
-                  col: m.col,
-                  word: m.word,
-                  rect: {
-                      x: contentMargin + m.relLeft,
-                      y: actualTopMargin + m.relTop,
-                      w: m.w,
-                      h: m.h
-                  }
-              }));
-              targetCanvas.bingoExportCells = cellExportData;
-              targetCanvas.bingoExportChips = chipExportData;
-              targetCanvas.bingoExportDims = { rows: rows, cols: cols };
+              gridElements.forEach(el => {
+                  if (el && el.isBingoCardCell === true) el.bingoCardIndex = 0;
+              });
+              targetCanvas.bingoCard0Dims = { rows: rows, cols: cols };
           }
       }
       
@@ -2929,27 +2908,17 @@
 
           worksheetCanvas.renderAll();
 
-          // v24.0 — snapshot per-cell + per-chip metadata onto problemsData so
-          // extractDeckBundle can find them later. Defensive deep-copy so post-
-          // generation mutations of the source can't bleed through (find-and-
-          // count v19.1.1 pattern).
+          // v24.4.0 — defer per-cell + per-chip rect capture to extractDeckBundle
+          // so operator drags/scales of the card 0 grid group or any chip
+          // between Generate and Download are honored. Only canvas-independent
+          // gridDims is stashed here.
           try {
-              const cells = (worksheetCanvas.bingoExportCells || []).map(c => ({
-                  index: c.index, row: c.row, col: c.col, word: c.word,
-                  rect: { x: c.rect.x, y: c.rect.y, w: c.rect.w, h: c.rect.h }
-              }));
-              const chips = (worksheetCanvas.bingoExportChips || []).map(c => ({
-                  index: c.index, word: c.word,
-                  rect: { x: c.rect.x, y: c.rect.y, w: c.rect.w, h: c.rect.h }
-              }));
-              const dims = worksheetCanvas.bingoExportDims || { rows: parseInt(bingoRowsInput.value, 10), cols: parseInt(bingoColsInput.value, 10) };
+              const dims = worksheetCanvas.bingoCard0Dims || { rows: parseInt(bingoRowsInput.value, 10), cols: parseInt(bingoColsInput.value, 10) };
               worksheetCanvas.problemsData = {
-                  gridDims: { rows: dims.rows, cols: dims.cols },
-                  gridCells: cells,
-                  chips: chips
+                  gridDims: { rows: dims.rows, cols: dims.cols }
               };
           } catch (e) {
-              console.warn('[bingo v24.0] failed to capture problemsData:', e);
+              console.warn('[bingo v24.4.0] failed to capture problemsData:', e);
           }
 
           // Store current canvas size for future comparisons
@@ -3000,11 +2969,68 @@
       async function extractDeckBundle(canvas, options) {
           var loadingMode = (options && options.loadingMode === 'reference') ? 'reference' : 'inline';
           var pd = canvas.problemsData || null;
-          if (!pd || !Array.isArray(pd.gridCells) || !Array.isArray(pd.chips)) {
+          if (!pd || !pd.gridDims) {
               throw new Error('No problemsData on canvas. Generate a worksheet first.');
           }
-          if (pd.gridCells.length === 0 || pd.chips.length === 0) {
-              throw new Error('Empty grid or chip palette.');
+
+          // v24.4.0 — walk the canvas FRESH for card 0 cells + card 0 chips.
+          // Operator drags/scales of the cardGridGroup (cells follow via
+          // calcTransformMatrix composing the parent transform) or any
+          // individual chip are honored at download time.
+          function worldRectOf(obj) {
+              var m = obj.calcTransformMatrix();
+              var hw = (obj.width || 1) / 2;
+              var hh = (obj.height || 1) / 2;
+              var pts = [
+                  fabric.util.transformPoint({ x: -hw, y: -hh }, m),
+                  fabric.util.transformPoint({ x:  hw, y: -hh }, m),
+                  fabric.util.transformPoint({ x:  hw, y:  hh }, m),
+                  fabric.util.transformPoint({ x: -hw, y:  hh }, m)
+              ];
+              var xs = pts.map(function (p) { return p.x; });
+              var ys = pts.map(function (p) { return p.y; });
+              var minX = Math.min.apply(null, xs), maxX = Math.max.apply(null, xs);
+              var minY = Math.min.apply(null, ys), maxY = Math.max.apply(null, ys);
+              return { x: minX, y: minY, w: maxX - minX, h: maxY - minY };
+          }
+
+          var taggedCells = [];
+          (function walk(objs) {
+              if (!objs) return;
+              objs.forEach(function (o) {
+                  if (!o) return;
+                  if (o.isBingoCardCell === true && o.bingoCardIndex === 0) taggedCells.push(o);
+                  if (o._objects) walk(o._objects);
+              });
+          })(canvas.getObjects());
+          taggedCells.sort(function (a, b) {
+              return (a.cellRow * 100 + a.cellCol) - (b.cellRow * 100 + b.cellCol);
+          });
+
+          var gridCells = taggedCells.map(function (o) {
+              return {
+                  index: o.cellRow * pd.gridDims.cols + o.cellCol,
+                  row: o.cellRow,
+                  col: o.cellCol,
+                  word: o.cellWord || '',
+                  rect: worldRectOf(o)
+              };
+          });
+
+          var chipObjs = canvas.getObjects().filter(function (o) {
+              return o && o.bingoCardIndex === 0 && (typeof o.chipIndex === 'number');
+          });
+          chipObjs.sort(function (a, b) { return a.chipIndex - b.chipIndex; });
+          var chips = chipObjs.map(function (o) {
+              return {
+                  index: o.chipIndex,
+                  word: o.chipWord || '',
+                  rect: worldRectOf(o)
+              };
+          });
+
+          if (gridCells.length === 0 || chips.length === 0) {
+              throw new Error('Empty grid or chip palette. Regenerate the worksheet.');
           }
 
           var worksheetImage = await _captureWorksheetImage(canvas);
@@ -3014,7 +3040,7 @@
           // v24.2 — crop each chip's image from the captured worksheet JPEG so the
           // runtime can show the placed chip on the cell during fill phase (Family F).
           var captureScale = 2; // matches multiplier:2 in _captureWorksheetImage
-          var chipsWithImages = pd.chips;
+          var chipsWithImages = chips;
           try {
               var wsImg = await new Promise(function(resolve, reject){
                   var img = new Image();
@@ -3023,7 +3049,7 @@
                   img.src = worksheetImage;
               });
               var outSize = 96;
-              chipsWithImages = pd.chips.map(function(ch){
+              chipsWithImages = chips.map(function(ch){
                   var tmp = document.createElement('canvas');
                   tmp.width = outSize; tmp.height = outSize;
                   var ctx = tmp.getContext('2d');
@@ -3041,11 +3067,11 @@
                   return Object.assign({}, ch, { imgDataUrl: url });
               });
           } catch (e) {
-              console.warn('[bingo v24.2] chip image cropping failed:', e);
+              console.warn('[bingo v24.4.0] chip image cropping failed:', e);
           }
 
           return {
-              bundleVersion: '24.3.0',
+              bundleVersion: '24.4.0',
               schemaFormat: 'image-references-v3',
               loadingMode: loadingMode,
               appType: 'bingo',
@@ -3055,7 +3081,7 @@
               page: { width: currentCanvasConfig.width, height: currentCanvasConfig.height },
               worksheetImage: worksheetImage,
               gridDims: pd.gridDims,
-              gridCells: pd.gridCells,
+              gridCells: gridCells,
               chips: chipsWithImages,
               imageRefs: {},
               attribution: attributionRect ? {

@@ -3,6 +3,7 @@
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
+    <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <title>Math Puzzle Worksheet Generator</title>
@@ -1447,7 +1448,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Apply translations will be called after translations are loaded (see setTimeout below)
 
     // --- App Constants and State ---
-    const downloadMultiplier = 6; // For high-resolution exports
+    const downloadMultiplier = 4; // For high-resolution exports
     let worksheetCanvas, answerKeyCanvas;
     let currentCanvasConfig = { width: 612, height: 792 };
     let currentThemeImages = []; // Cache for the currently selected theme's images
@@ -1878,7 +1879,7 @@ document.addEventListener("DOMContentLoaded", function() {
         elements.downloadAkJpegBtn.addEventListener('click', () => downloadImageFile(answerKeyCanvas, 'answer_key.jpeg'));
         elements.downloadWsPdfBtn.addEventListener('click', () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
         elements.downloadAkPdfBtn.addEventListener('click', () => downloadPDF(answerKeyCanvas, 'answer_key.pdf'));
-        elements.downloadInteractiveHtmlBtn.addEventListener('click', () => downloadInteractiveHtml(worksheetCanvas, 'math-puzzle_interactive.html'));
+        elements.downloadInteractiveHtmlBtn.addEventListener('click', () => downloadInteractiveHtml(worksheetCanvas, 'math-puzzle_interactive.html', { loadingMode: 'inline' }));
 
         elements.addTextBtn.addEventListener('click', addText);
 
@@ -2818,7 +2819,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const existing = activeCanvas.getObjects().find(obj => obj.isBackground);
         if (existing) activeCanvas.remove(existing);
 
-        fabric.Image.fromURL(path, (img) => {
+        LCSImageRef.loadCanvasImage(path, (img) => {
             if (!img) { showMessage(t('mathpuzzle.msg.background.failed'), 'error'); return; }
 
             // Scale to 70% of canvas height (professional standard)
@@ -2919,7 +2920,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function addBorderToCanvas(path) {
         const activeCanvas = getActiveCanvas();
         activeCanvas.getObjects().forEach(obj => { if (obj.isBorder) activeCanvas.remove(obj); });
-        fabric.Image.fromURL(path, (img) => {
+        LCSImageRef.loadCanvasImage(path, (img) => {
             if (!img) { showMessage(t('mathpuzzle.msg.border.failed'), 'error'); return; }
 
             // Scale to 70% of canvas height (professional standard)
@@ -3000,6 +3001,8 @@ document.addEventListener("DOMContentLoaded", function() {
             elements.downloadWsJpegBtn.disabled = false;
             elements.downloadWsPdfBtn.disabled = false;
             elements.downloadInteractiveHtmlBtn.disabled = false;
+            // Required by image-reference.js propagation checklist item 10.
+            window.__lcsGenerationCounter = (window.__lcsGenerationCounter || 0) + 1;
             elements.generateAnswerKeyBtn.disabled = false;
 
             isGenerating = false;
@@ -3496,7 +3499,7 @@ document.addEventListener("DOMContentLoaded", function() {
         worksheetCanvas.add(gridGroup);
         
         const piecePromises = scrambledPieces.map((p, index) => new Promise(resolve => {
-            fabric.Image.fromURL(p.imgDataUrl, (img) => {
+            LCSImageRef.loadCanvasImage(p.imgDataUrl, (img) => {
                 img.scaleToWidth(cellWidth * 1.2); // 20% bigger
                 const numberText = new fabric.Textbox(String(p.number), { top: -5, left: (cellWidth * 1.2) / 2, originX: 'center', originY: 'bottom', fontSize: 18 });
                 const border = new fabric.Rect({ width: cellWidth * 1.2, height: img.getScaledHeight(), fill: 'transparent', stroke: 'black', strokeWidth: 1, strokeDashArray: [5, 5] });
@@ -3927,7 +3930,7 @@ document.addEventListener("DOMContentLoaded", function() {
             height: currentCanvasConfig.height
         });
         
-        let dataURL = canvasInstance.toDataURL({ format: 'jpeg', quality: 1.0, multiplier: downloadMultiplier });
+        let dataURL = canvasInstance.toDataURL({ format: 'jpeg', quality: 0.85, multiplier: downloadMultiplier });
         if (elements.grayscaleToggle.checked) {
             try { dataURL = await applyGrayscaleToDataURL(dataURL); }
             catch (error) { console.error("Grayscale failed:", error); }
@@ -4233,7 +4236,8 @@ async function downloadPDF(canvasToExport, filename) {
         return out;
     }
 
-    async function extractDeckBundle(canvas) {
+    async function extractDeckBundle(canvas, options) {
+        var loadingMode = (options && options.loadingMode === 'reference') ? 'reference' : 'inline';
         var pd = canvas.problemsData || {};
         var rows = pd.rows || 0;
         var cols = pd.cols || 0;
@@ -4269,8 +4273,12 @@ async function downloadPDF(canvasToExport, filename) {
             });
         }
 
+        // v8.1 — compress each piece snapshot from PNG (default toDataURL
+        // output) to WebP q85 in the browser. Per the 2026-04-24 cutout
+        // pieces pilot, q85 is visually identical to q90 with ~85% size
+        // reduction. Falls back to original PNG if encode fails.
         var pieceRefs = _findPieces(canvas);
-        var pieces = pieceRefs.map(function (ref) {
+        var rawPieces = pieceRefs.map(function (ref) {
             var src = scrambledPieces[ref.idx] || {};
             return {
                 pieceIndex: ref.idx,
@@ -4279,6 +4287,16 @@ async function downloadPDF(canvasToExport, filename) {
                 initialRect: _worldRectBounds(ref.obj)
             };
         }).filter(function (p) { return p.imgDataUrl && p.number !== null; });
+        var pieces;
+        if (window.LCSImageRef && typeof LCSImageRef.compressPNGToWebP === 'function') {
+            pieces = await Promise.all(rawPieces.map(function (p) {
+                return LCSImageRef.compressPNGToWebP(p.imgDataUrl, 0.85).then(function (webpURL) {
+                    return { pieceIndex: p.pieceIndex, number: p.number, imgDataUrl: webpURL, initialRect: p.initialRect };
+                });
+            }));
+        } else {
+            pieces = rawPieces;
+        }
 
         var worksheetImage = await _captureWorksheetImage(canvas);
 
@@ -4286,7 +4304,10 @@ async function downloadPDF(canvasToExport, filename) {
             ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
         return {
-            bundleVersion: '8.0.0',
+            bundleVersion: '8.1.0',
+            schemaFormat: 'image-references-v3',
+            loadingMode: loadingMode,
+            snapshotMode: 'inline',
             appType: 'math-puzzle',
             createdAt: new Date().toISOString(),
             contentLanguage: (window.currentLocale || 'en'),
@@ -4839,14 +4860,15 @@ async function downloadPDF(canvasToExport, filename) {
         return parts.join('\n');
     }
 
-    async function downloadInteractiveHtml(canvasInstance, fileName) {
+    async function downloadInteractiveHtml(canvasInstance, fileName, options) {
+        var loadingMode = (options && options.loadingMode) || 'inline';
         if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
             showMessage(t('mathpuzzle.msg.generate.first') || 'Please generate a worksheet first.', 'error');
             return;
         }
         showMessage('Preparing ' + fileName + '...', 'info', 0);
         try {
-            var bundle = await extractDeckBundle(canvasInstance);
+            var bundle = await extractDeckBundle(canvasInstance, { loadingMode: loadingMode });
             if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
                 throw new Error('Worksheet snapshot is empty.');
             }
@@ -5148,7 +5170,7 @@ async function downloadPDF(canvasToExport, filename) {
 
     const blob = new Blob([modified], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('pattern failed to load'); return; }
       img.set({
@@ -5185,7 +5207,7 @@ async function downloadPDF(canvasToExport, filename) {
 
     const blob = new Blob([sized], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('texture failed to load'); return; }
       img.set({

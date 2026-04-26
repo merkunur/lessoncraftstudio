@@ -3,6 +3,7 @@
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
   <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
+  <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -1245,7 +1246,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let isGenerating = false; // Flag to prevent saving state during worksheet generation
 
     let worksheetCutoutCellSize = 0; // To store cell size for answer key consistency
-    const downloadMultiplier = 6;
+    const downloadMultiplier = 4;
     const MANUAL_MODE_VALUE = 'manual';
     const CUSTOM_MODE_VALUE = 'custom';
     const MAX_TOTAL_IMAGES = 12;
@@ -2503,7 +2504,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             return new Promise(resolve => {
-                fabric.Image.fromURL(imgData.path, img => {
+                LCSImageRef.loadCanvasImage(imgData.path, img => {
                     const imageSize = cellSize * 0.85;
                     if (img.width > img.height) img.scaleToWidth(imageSize);
                     else img.scaleToHeight(imageSize);
@@ -2628,7 +2629,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             return new Promise(resolve => {
-                fabric.Image.fromURL(imgData.path, img => {
+                LCSImageRef.loadCanvasImage(imgData.path, img => {
                     const imageSize = cellSize * 0.95;
                     const scale = Math.min(imageSize / img.width, imageSize / img.height);
                     img.scale(scale);
@@ -2934,7 +2935,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Unified overlay function - EXACTLY like addition.html and picture path.html
     async function addOverlayToCanvas(path, propName, opacitySlider) {
-        const img = await new Promise((resolve) => fabric.Image.fromURL(path, resolve, { crossOrigin: 'anonymous' }));
+        const img = await new Promise((resolve) => LCSImageRef.loadCanvasImage(path, resolve, { crossOrigin: 'anonymous' }));
         if (!img) return;
 
         const canvas = getActiveCanvas();
@@ -4211,7 +4212,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         let dataURL = canvasInstance.toDataURL({ 
             format: 'jpeg', 
-            quality: 1.0, 
+            quality: 0.85, 
             multiplier: exportOpts.multiplier 
         });
         
@@ -4778,7 +4779,7 @@ async function downloadPDF(name, canvasToExport) {
 
     const blob = new Blob([modified], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('pattern failed to load'); return; }
       img.set({
@@ -4815,7 +4816,7 @@ async function downloadPDF(name, canvasToExport) {
 
     const blob = new Blob([sized], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('texture failed to load'); return; }
       img.set({

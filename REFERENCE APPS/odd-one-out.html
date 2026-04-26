@@ -3,6 +3,7 @@
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
   <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
+  <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <title>Odd-One-Out Worksheet Generator</title>
@@ -1538,7 +1539,7 @@
       // --- CONSTANTS & DEFAULTS ---
       let EXERCISE_COUNT = 6; // Default, can be changed by user
       const DEFAULT_PAGE_SIZE = "612x792";
-      const downloadMultiplier = 6; // For high-res export
+      const downloadMultiplier = 4; // For high-res export
 
       // --- DOM ELEMENT REFERENCES ---
       const ui = {
@@ -2289,7 +2290,7 @@
           const existing = activeCanvas.getObjects().find(o => o.isBorder);
           if (existing) activeCanvas.remove(existing);
 
-          fabric.Image.fromURL(path, (img) => {
+          LCSImageRef.loadCanvasImage(path, (img) => {
               // Scale to 70% of canvas height (professional standard)
               const targetHeight = currentCanvasConfig.height * 0.7;
               img.scaleToHeight(targetHeight);
@@ -2316,7 +2317,7 @@
           const existing = activeCanvas.getObjects().find(o => o.isBackground);
           if (existing) activeCanvas.remove(existing);
 
-          fabric.Image.fromURL(path, (img) => {
+          LCSImageRef.loadCanvasImage(path, (img) => {
               // Scale to 70% of canvas height (professional standard)
               const targetHeight = currentCanvasConfig.height * 0.7;
               img.scaleToHeight(targetHeight);
@@ -2568,7 +2569,7 @@
         const existingAsset = worksheetCanvas.getObjects().find(o => o[propName]);
         if (existingAsset) worksheetCanvas.remove(existingAsset);
 
-        fabric.Image.fromURL(path, (img) => {
+        LCSImageRef.loadCanvasImage(path, (img) => {
             if (!img) { showMessage(t('oddoneout.msg.load.failed').replace('{type}', type), 'error'); return; }
             img.set({
                 originX: 'center', originY: 'center',
@@ -3339,7 +3340,7 @@
             cardElements.push(cardBg);
 
             const imagePromises = rowData.items.map(imgData => 
-              new Promise(resolve => fabric.Image.fromURL(imgData.path, img => resolve(img), { crossOrigin: 'anonymous' }))
+              new Promise(resolve => LCSImageRef.loadCanvasImage(imgData.path, img => resolve(img), { crossOrigin: 'anonymous' }))
             );
             const images = await Promise.all(imagePromises);
 
@@ -3782,7 +3783,7 @@
               height: currentCanvasConfig.height
           });
           
-          let dataURL = canvas.toDataURL({ format: 'jpeg', quality: 1.0, multiplier: downloadMultiplier });
+          let dataURL = canvas.toDataURL({ format: 'jpeg', quality: 0.85, multiplier: downloadMultiplier });
           if (grayscale) {
               dataURL = await applyGrayscaleToDataURL(dataURL);
           }
@@ -5029,7 +5030,7 @@
 
     const blob = new Blob([modified], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('pattern failed to load'); return; }
       img.set({
@@ -5066,7 +5067,7 @@
 
     const blob = new Blob([sized], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('texture failed to load'); return; }
       img.set({

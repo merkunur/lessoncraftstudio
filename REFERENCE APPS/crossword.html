@@ -3,6 +3,7 @@
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
+    <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1366,7 +1367,7 @@ window.formatTranslation = formatTranslation;
 document.addEventListener("DOMContentLoaded", function() {
     // --- CONSTANTS AND STATE ---
     const PUZZLE_IMAGE_COUNT = 8;
-    const downloadMultiplier = 6;
+    const downloadMultiplier = 4;
 
     let allImagesCache = {};
     let uploadedImages = [];
@@ -3198,7 +3199,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 } else {
                     // Load image as usual
                     const promise = new Promise((resolve) => {
-                        fabric.Image.fromURL(imageInfo.path, (img) => {
+                        LCSImageRef.loadCanvasImage(imageInfo.path, (img) => {
                             if (!img) { resolve(null); return; }
                             resolve({ img, p, imageInfo, isTextClue: false });
                         }, { crossOrigin: 'anonymous' });
@@ -4126,7 +4127,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // END: Interactive-HTML export v31.0.3
 
     async function getCanvasDataURLWithOptions(canvasInstance, exportOpts) {
-        let dataURL = canvasInstance.toDataURL({ format: 'jpeg', quality: 1.0, multiplier: exportOpts.multiplier });
+        let dataURL = canvasInstance.toDataURL({ format: 'jpeg', quality: 0.85, multiplier: exportOpts.multiplier });
         if (exportOpts.applyGrayscale) {
             try { dataURL = await applyGrayscaleToDataURL(dataURL); }
             catch (error) { console.error("Grayscale failed:", error); }
@@ -4570,7 +4571,7 @@ async function downloadPDF(canvasToExport, filename) {
     }
 
     function addOverlayToCanvas(path, propName) {
-        fabric.Image.fromURL(path, (img) => {
+        LCSImageRef.loadCanvasImage(path, (img) => {
             if (!img) {
                 const assetType = propName.replace('is', '').toLowerCase();
                 showMessage(getTranslation('crossword.asset.failed', currentLocale) || `Failed to load ${assetType} image.`, 'error');
@@ -5259,7 +5260,7 @@ async function downloadPDF(canvasToExport, filename) {
 
     const blob = new Blob([modified], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('pattern failed to load'); return; }
       img.set({
@@ -5296,7 +5297,7 @@ async function downloadPDF(canvasToExport, filename) {
 
     const blob = new Blob([sized], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('texture failed to load'); return; }
       img.set({

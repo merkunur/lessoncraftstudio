@@ -20,6 +20,7 @@
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
   <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
+  <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <title data-translate="picture.pathway.page.title">Picture Pathway</title>
@@ -1773,7 +1774,7 @@ document.addEventListener("DOMContentLoaded", function() {
   let selectedTheme = 'all';
   let messageTimeout = null;
   let lastGeneratedData = null; // Stores complete puzzle data for regeneration
-  const downloadMultiplier = 6; // For high-res printing
+  const downloadMultiplier = 4; // For high-res printing
 
   const includeNameDateCheckbox = document.getElementById('includeNameDate');
   const selectionTypeSelect = document.getElementById('selectionType');
@@ -2685,7 +2686,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
       const legendItemPromises = uniqueCollectibles.map(collectibleData => {
           return new Promise(resolve => {
-              fabric.Image.fromURL(collectibleData.image.path, img => {
+              LCSImageRef.loadCanvasImage(collectibleData.image.path, img => {
                   // Scale image to consistent height
                   img.scaleToHeight(imageHeight);
 
@@ -3338,7 +3339,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
           try {
               const fabricImg = await new Promise((resolve, reject) => {
-                  fabric.Image.fromURL(img.path, (img) => {
+                  LCSImageRef.loadCanvasImage(img.path, (img) => {
                       if (img) resolve(img);
                       else reject(new Error('Failed to load image'));
                   }, { crossOrigin: 'anonymous' });
@@ -3547,7 +3548,7 @@ document.addEventListener("DOMContentLoaded", function() {
               }
 
               const imgObj = await new Promise((resolve) => {
-                  fabric.Image.fromURL(item.image.path, (img) => {
+                  LCSImageRef.loadCanvasImage(item.image.path, (img) => {
                       if (!img) {
                           resolve(null);
                           return;
@@ -3820,7 +3821,7 @@ document.addEventListener("DOMContentLoaded", function() {
               const cellType = cellData.type || null;
 
               const imgInstance = await new Promise(resolve => {
-                  fabric.Image.fromURL(imgData.path, function(img) {
+                  LCSImageRef.loadCanvasImage(imgData.path, function(img) {
                       if (!img) { resolve(null); return; }
                       img.scaleToWidth(imageSize * 0.62);  // 35% reduction
 
@@ -4550,7 +4551,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Place a decoration image on the canvas
   function placeDecorationImage(imgData) {
-    fabric.Image.fromURL(imgData.path, (img) => {
+    LCSImageRef.loadCanvasImage(imgData.path, (img) => {
       if (!img) {
         displayMessage('Failed to load image', 'error');
         return;
@@ -7988,7 +7989,7 @@ async function downloadPDF(canvasToExport, fileName) {
       
       let dataURL = canvasInstance.toDataURL({
           format: 'jpeg',
-          quality: 1.0,
+          quality: 0.85,
           multiplier: exportOptions.multiplier,
           backgroundColor: canvasInstance.backgroundColor || '#FFFFFF'
       });
@@ -8137,7 +8138,7 @@ async function downloadPDF(canvasToExport, fileName) {
 
   // Unified overlay function - EXACTLY like addition.html
   async function addOverlayToCanvas(path, propName, opacitySlider) {
-      const img = await new Promise((resolve) => fabric.Image.fromURL(path, resolve, { crossOrigin: 'anonymous' }));
+      const img = await new Promise((resolve) => LCSImageRef.loadCanvasImage(path, resolve, { crossOrigin: 'anonymous' }));
       if (!img) return;
 
       const canvas = getActiveCanvas();
@@ -9206,7 +9207,7 @@ async function downloadPDF(canvasToExport, fileName) {
 
     const blob = new Blob([modified], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('pattern failed to load'); return; }
       img.set({
@@ -9243,7 +9244,7 @@ async function downloadPDF(canvasToExport, fileName) {
 
     const blob = new Blob([sized], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('texture failed to load'); return; }
       img.set({

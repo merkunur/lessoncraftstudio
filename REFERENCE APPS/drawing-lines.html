@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
+    <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex, nofollow">
     <title>Drawing Lines Worksheet Generator</title>
@@ -1071,7 +1072,7 @@ document.addEventListener("DOMContentLoaded", async function() {
     // --- STATE MANAGEMENT ---
     let worksheetCanvas;
     let currentCanvasConfig = { width: 612, height: 792 }; // Standard Letter Portrait
-    const downloadMultiplier = 6;
+    const downloadMultiplier = 4;
     let userZoomLevel = 1.0; // User-controlled zoom level (100% = 1.0)
 
     // --- UNDO/REDO STATE MANAGEMENT ---
@@ -2543,7 +2544,7 @@ document.addEventListener("DOMContentLoaded", async function() {
         if (existingOverlay) targetCanvas.remove(existingOverlay);
 
         return new Promise((resolve) => {
-            fabric.Image.fromURL(path, (img) => {
+            LCSImageRef.loadCanvasImage(path, (img) => {
                 if (!img) {
                     showMessage(t('failedToLoadOverlayImage'), 'error');
                     resolve();
@@ -3144,7 +3145,7 @@ document.addEventListener("DOMContentLoaded", async function() {
         });
     }
 
-    function loadImageAsFabric(url, options) { return new Promise((resolve, reject) => { fabric.Image.fromURL(url, (img) => { if(img) resolve(img); else reject(new Error('Failed to load image: ' + url)); }, options); }); }
+    function loadImageAsFabric(url, options) { return new Promise((resolve, reject) => { LCSImageRef.loadCanvasImage(url, (img) => { if(img) resolve(img); else reject(new Error('Failed to load image: ' + url)); }, options); }); }
     function loadSVGAsFabric(svgString) { return new Promise((resolve, reject) => { fabric.loadSVGFromString(svgString, (objects, options) => { if (objects) { resolve(fabric.util.groupSVGElements(objects, options)); } else { reject(new Error('Failed to load SVG string')); } }); }); }
     function cloneFabricObject(obj) { return new Promise((resolve) => { obj.clone((cloned) => resolve(cloned)); }); }
     function showMessage(msg, type = 'info', duration = 3000) { messageDiv.textContent = msg; messageDiv.className = `message ${type}`; messageDiv.style.display = 'block'; if (duration > 0) setTimeout(() => { messageDiv.style.display = 'none'; }, duration); }
@@ -3339,7 +3340,7 @@ document.addEventListener("DOMContentLoaded", async function() {
             height: currentCanvasConfig.height
         });
         
-        let dataURL = canvasInstance.toDataURL({ format: 'jpeg', quality: 1.0, multiplier: exportOpts.multiplier });
+        let dataURL = canvasInstance.toDataURL({ format: 'jpeg', quality: 0.85, multiplier: exportOpts.multiplier });
         if (exportOpts.applyGrayscale) {
             try { dataURL = await applyGrayscaleToDataURL(dataURL); }
             catch (error) { console.error("Grayscale failed:", error); showMessage(t('grayscaleConversionFailed'), 'error'); }
@@ -3839,7 +3840,7 @@ async function downloadPDF() {
 
     const blob = new Blob([modified], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('pattern failed to load'); return; }
       img.set({
@@ -3876,7 +3877,7 @@ async function downloadPDF() {
 
     const blob = new Blob([sized], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('texture failed to load'); return; }
       img.set({

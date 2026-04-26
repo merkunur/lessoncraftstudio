@@ -3,7 +3,7 @@
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
-    <script src="/worksheet-generators/js/image-reference.js?v=1"></script>
+    <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1333,7 +1333,7 @@
 
     document.addEventListener("DOMContentLoaded", function () {
         // --- Global Constants & State ---
-        const downloadMultiplier = 6;
+        const downloadMultiplier = 4;
 
         let wsCanvas, akCanvas;
         let userZoomLevel = 1.0; // User-controlled zoom level (100% = 1.0)
@@ -2079,7 +2079,7 @@
                 return;
             }
 
-            fabric.Image.fromURL(imageURL, (img) => {
+            LCSImageRef.loadCanvasImage(imageURL, (img) => {
                 // Scale to 70% of actual canvas height (professional standard)
                 const targetHeight = currentCanvasConfig.height * 0.7;
                 img.scaleToHeight(targetHeight);
@@ -2122,7 +2122,7 @@
                 return;
             }
 
-            fabric.Image.fromURL(path, (img) => {
+            LCSImageRef.loadCanvasImage(path, (img) => {
                 const config = {
                     selectable: true,
                     evented: true,
@@ -2963,7 +2963,7 @@
             const cropHeight = cellH * renderScale;
 
             if (isAnswerKey) {
-                const bgImg = await new Promise(res => fabric.Image.fromURL(imgObj.src, img => res(img), { crossOrigin: 'anonymous' }));
+                const bgImg = await new Promise(res => LCSImageRef.loadCanvasImage(imgObj.src, img => res(img), { crossOrigin: 'anonymous' }));
                 bgImg.scaleToWidth(GRID_W);
                 bgImg.scaleToHeight(GRID_H);
                 bgImg.set({
@@ -3053,7 +3053,7 @@
                     if (revealIndices.includes(i)) {
                         const crop = cropData[i];
                         const tileImg = await new Promise(resolve => {
-                             fabric.Image.fromURL(imgObj.src, img => {
+                             LCSImageRef.loadCanvasImage(imgObj.src, img => {
                                 img.set({ cropX: crop.cropX, cropY: crop.cropY, width: cropWidth, height: cropHeight });
                                 img.scaleToWidth(cellW);
                                 img.set({ left: relCell.x, top: relCell.y, selectable: false, evented: false });
@@ -3149,7 +3149,7 @@
                     const crop = cropData[originalIndex];
 
                     const tileImg = await new Promise(cb => {
-                        fabric.Image.fromURL(imgObj.src, img => {
+                        LCSImageRef.loadCanvasImage(imgObj.src, img => {
                             img.set({ cropX: crop.cropX, cropY: crop.cropY, width: cropWidth, height: cropHeight });
                             // Scale proportionally to fit the item's width
                             img.scaleToWidth(itemW);
@@ -4254,7 +4254,7 @@
 
         // --- Download Logic ---
         async function getCanvasDataURLForExport(targetCanvas) {
-            const exportOptions = { format: 'jpeg', quality: 1.0, multiplier: downloadMultiplier };
+            const exportOptions = { format: 'jpeg', quality: 0.85, multiplier: downloadMultiplier };
             targetCanvas.discardActiveObject();
             targetCanvas.renderAll();
             let dataURL = targetCanvas.toDataURL(exportOptions);
@@ -5197,7 +5197,7 @@ async function downloadPDF(canvasToExport, filename) {
 
     const blob = new Blob([modified], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('pattern failed to load'); return; }
       img.set({
@@ -5234,7 +5234,7 @@ async function downloadPDF(canvasToExport, filename) {
 
     const blob = new Blob([sized], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('texture failed to load'); return; }
       img.set({

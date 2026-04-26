@@ -3,7 +3,7 @@
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
-    <script src="/worksheet-generators/js/image-reference.js?v=1"></script>
+    <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1453,7 +1453,7 @@
     let uploadedImages = [];
     let allThemesData = []; // To store fetched theme names
     let currentThemeImages = []; // Stores images for selected specific dictionary theme
-    let downloadMultiplier = 6;
+    let downloadMultiplier = 4;
     let activePopover = null;
     let currentTemplatePath = '/images/background/train.png';
 
@@ -3270,7 +3270,7 @@
 
     async function loadImage(url) {
         return new Promise((resolve, reject) => {
-            fabric.Image.fromURL(url, (img) => {
+            LCSImageRef.loadCanvasImage(url, (img) => {
                 if (img) resolve(img); else reject(new Error(`Failed to load image: ${url}`));
             }, { crossOrigin: 'anonymous' });
         });
@@ -3766,7 +3766,7 @@
         // Export at high quality
         let dataURL = canvasInstance.toDataURL({
             format: 'png',  // Use PNG first for better quality
-            quality: 1.0,
+            quality: 0.85,
             multiplier: exportOpts.multiplier || 6
         });
 
@@ -4953,7 +4953,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
         const activeCanvas = getActiveCanvas();
         if (!activeCanvas) return;
 
-        fabric.Image.fromURL(path, (img) => {
+        LCSImageRef.loadCanvasImage(path, (img) => {
             if (!img) { showMessage(t('pattern.train.msg.border.failed'), 'error'); return; }
 
             const existingBorder = activeCanvas.getObjects().find(obj => obj.isBorder);
@@ -5076,7 +5076,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
         const activeCanvas = getActiveCanvas();
         if (!activeCanvas) return;
 
-        fabric.Image.fromURL(path, (img) => {
+        LCSImageRef.loadCanvasImage(path, (img) => {
             if (!img) { showMessage(t('pattern.train.msg.background.failed'), 'error'); return; }
 
             const existingBackground = activeCanvas.getObjects().find(obj => obj.isBackground);
@@ -5576,7 +5576,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
 
     const blob = new Blob([modified], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('pattern failed to load'); return; }
       img.set({
@@ -5613,7 +5613,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
 
     const blob = new Blob([sized], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('texture failed to load'); return; }
       img.set({

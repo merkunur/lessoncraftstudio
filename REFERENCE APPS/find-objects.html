@@ -3,6 +3,7 @@
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
   <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
+  <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1435,7 +1436,7 @@ function updateTranslations() {
 
     document.addEventListener("DOMContentLoaded", function() {
         // --- Globals & Constants ---
-        const downloadMultiplier = 6;
+        const downloadMultiplier = 4;
         let selectedDistractors = [];
         let selectedHidden = [];
         let uploadedImages = []; // ADDED: For custom uploads
@@ -3271,7 +3272,7 @@ function updateTranslations() {
         async function addDefaultBackground(canvas) {
             // Load Alphabet.png from Summer background theme
             return new Promise((resolve) => {
-                fabric.Image.fromURL('/images/backgrounds/summer/Alphabet.png', (img) => {
+                LCSImageRef.loadCanvasImage('/images/backgrounds/summer/Alphabet.png', (img) => {
                     if (!img) {
                         // Fallback to solid color if image fails to load
                         const background = new fabric.Rect({
@@ -3496,7 +3497,7 @@ function updateTranslations() {
             // Place items with constraints
             const placeItem = (itemInfo) => {
                 return new Promise(resolve => {
-                    fabric.Image.fromURL(itemInfo.path, (img) => {
+                    LCSImageRef.loadCanvasImage(itemInfo.path, (img) => {
                         if (!img) { resolve(); return; }
 
                         const uniqueId = `gen-item-${generatedItemCounter++}`;
@@ -3904,7 +3905,7 @@ function updateTranslations() {
             // Natural scattered placement with improved spacing
             const placeItem = (itemInfo, layerIndex) => {
                 return new Promise(resolve => {
-                    fabric.Image.fromURL(itemInfo.path, (img) => {
+                    LCSImageRef.loadCanvasImage(itemInfo.path, (img) => {
                         if (!img) { resolve(); return; }
 
                         const uniqueId = `gen-item-${generatedItemCounter++}`;
@@ -4097,7 +4098,7 @@ function updateTranslations() {
 
         function createImagePromise(url, options) {
             return new Promise((resolve) => {
-                fabric.Image.fromURL(url, (img) => {
+                LCSImageRef.loadCanvasImage(url, (img) => {
                     if (img) {
                         if (options.targetWidth)  img.scaleToWidth(options.targetWidth);
                         else if (options.targetHeight) img.scaleToHeight(options.targetHeight);
@@ -4588,7 +4589,7 @@ function showMessage(msg, type = 'info', duration = 3000) {
             const existing = activeCanvas.getObjects().find(obj => obj[propName]);
             if (existing) activeCanvas.remove(existing);
 
-            fabric.Image.fromURL(path, (img) => {
+            LCSImageRef.loadCanvasImage(path, (img) => {
                 if (!img) return;
                 // Scale to 70% of actual canvas height (professional standard)
                 const targetHeight = currentCanvasConfig.height * 0.7;
@@ -4613,7 +4614,7 @@ function showMessage(msg, type = 'info', duration = 3000) {
             if (existing) activeCanvas.remove(existing);
             activeCanvas.backgroundColor = getEl('pageColor').value; 
 
-            fabric.Image.fromURL(path, (img) => {
+            LCSImageRef.loadCanvasImage(path, (img) => {
                 if (!img) return;
                 // Scale to 70% of actual canvas height (professional standard)
                 const targetHeight = currentCanvasConfig.height * 0.7;
@@ -4647,7 +4648,7 @@ function showMessage(msg, type = 'info', duration = 3000) {
             });
             
             const format = 'jpeg';
-            let dataURL = canvasInstance.toDataURL({ format: format, quality: 1.0, multiplier: exportOpts.multiplier, backgroundColor: canvasInstance.backgroundColor });
+            let dataURL = canvasInstance.toDataURL({ format: format, quality: 0.85, multiplier: exportOpts.multiplier, backgroundColor: canvasInstance.backgroundColor });
             
             // Restore display state
             canvasInstance.setZoom(currentZoom);
@@ -5824,7 +5825,7 @@ async function downloadPDF(canvasToExport, fileName) {
 
     const blob = new Blob([modified], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('pattern failed to load'); return; }
       img.set({
@@ -5861,7 +5862,7 @@ async function downloadPDF(canvasToExport, fileName) {
 
     const blob = new Blob([sized], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('texture failed to load'); return; }
       img.set({

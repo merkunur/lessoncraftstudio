@@ -3,7 +3,7 @@
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
-    <script src="/worksheet-generators/js/image-reference.js?v=1"></script>
+    <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex, nofollow">
     <title>MatchUp Maker</title>
@@ -1278,7 +1278,7 @@
         let activeTextObject = null;
         let currentCanvasConfig = { width: 612, height: 792 }; // Standard Letter Portrait
         let currentConfig = currentCanvasConfig; // Alias for compatibility
-        const downloadMultiplier = 6;
+        const downloadMultiplier = 4;
         let userZoomLevel = 1.0; // User-controlled zoom level (100% = 1.0)
 
         // --- UNDO/REDO STATE MANAGEMENT ---
@@ -2214,7 +2214,7 @@
         // Unified overlay function for borders and backgrounds with proper centering
         async function addOverlayToCanvas(path, propName, opacitySlider, applyToAll = false) {
             const img = await new Promise((resolve) =>
-                fabric.Image.fromURL(path, resolve, { crossOrigin: 'anonymous' })
+                LCSImageRef.loadCanvasImage(path, resolve, { crossOrigin: 'anonymous' })
             );
 
             if (!img) {
@@ -2286,7 +2286,7 @@
                 canvas.backgroundColor = pageColorInput.value; 
             });
 
-            fabric.Image.fromURL(path, (img) => {
+            LCSImageRef.loadCanvasImage(path, (img) => {
                 if (!img) return;
                 const config = {
                     originX: 'left', top: 0, left: 0,
@@ -2870,7 +2870,7 @@
 
             if (item.type.includes('img')) {
                 obj = await new Promise(resolve => {
-                    fabric.Image.fromURL(item.val.path, (img) => {
+                    LCSImageRef.loadCanvasImage(item.val.path, (img) => {
                         img.scaleToWidth(64);
                         if(item.type === 'imgname') {
                             const displayName = item.val.name || item.val.word;
@@ -3304,7 +3304,7 @@
             
             let dataURL = canvasInstance.toDataURL({
                 format: 'jpeg',
-                quality: 1.0,
+                quality: 0.85,
                 multiplier: options.multiplier
             });
             if (grayscaleToggle.checked) {
@@ -4680,7 +4680,7 @@
 
     const blob = new Blob([modified], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('pattern failed to load'); return; }
       img.set({
@@ -4717,7 +4717,7 @@
 
     const blob = new Blob([sized], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('texture failed to load'); return; }
       img.set({

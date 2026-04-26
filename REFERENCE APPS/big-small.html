@@ -3,6 +3,7 @@
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
+    <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <title data-translate="bigsmall.page.title">Big & Small Worksheet Generator</title>
@@ -1410,6 +1411,7 @@
               <button id="downloadAnswerKeyPdfBtn" disabled data-translate="bigsmall.download.answer.pdf">Answer Key (PDF)</button>
               <hr style="margin: 6px 0; border-color: #eee;">
               <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveHtml">Interactive Worksheet (HTML)</button>
+              <button id="downloadInteractiveHtmlReferenceBtn" disabled title="For server-hosted catalog playback. Smaller file, requires the same site to host the WebP library.">Interactive Worksheet (Catalog/URL refs)</button>
               <hr style="margin: 6px 0; border-color: #eee;">
               <label class="checkbox-label" id="grayscaleLabel">
                 <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
@@ -1466,7 +1468,7 @@
       const DEFAULT_QTYPE = 'findBig';
       const DEFAULT_INDICATORS = true;
       const DEFAULT_EXERCISE_NUMBERS = true;
-      const downloadMultiplier = 6;
+      const downloadMultiplier = 4;
 
       // --- CACHE DOM ELEMENTS ---
       const problemCountInput = document.getElementById("problemCount");
@@ -2665,7 +2667,7 @@
           const existing = activeCanvas.getObjects().find(obj => obj[propName]);
           if (existing) activeCanvas.remove(existing);
 
-          fabric.Image.fromURL(path, (img) => {
+          LCSImageRef.loadCanvasImage(path, (img) => {
               img.clone(clonedImg => {
                   // Use ACTUAL canvas dimensions, not display dimensions
                   const actualWidth = currentCanvasConfig.width;
@@ -3163,7 +3165,7 @@
                 });
 
                 const loadedImageObjects = await Promise.all(cell.imgs.map(info => new Promise(resolveImg => {
-                    fabric.Image.fromURL(info.path, (img) => {
+                    LCSImageRef.loadCanvasImage(info.path, (img) => {
                         const baseScaleFactor = (imgCount === 3) ? 0.98 : 0.7;
                         const targetHeight = BOX_HEIGHT * baseScaleFactor * info.size * 0.595;
                         img.scaleToHeight(targetHeight);
@@ -3340,6 +3342,10 @@
             downloadWorksheetJpegBtn.disabled = false;
             downloadWorksheetPdfBtn.disabled = false;
             document.getElementById('downloadInteractiveHtmlBtn').disabled = false;
+            var _refBtnGen = document.getElementById('downloadInteractiveHtmlReferenceBtn');
+            if (_refBtnGen) _refBtnGen.disabled = false;
+            // Required by image-reference.js propagation checklist item 10.
+            window.__lcsGenerationCounter = (window.__lcsGenerationCounter || 0) + 1;
 
             showMessage(t('bigsmall.msg.worksheet.success'), 'success');
 
@@ -3527,7 +3533,7 @@
                 });
 
                 const loadedImageObjects = await Promise.all(cell.imgs.map(info => new Promise(resolveImg => {
-                    fabric.Image.fromURL(info.path, (img) => {
+                    LCSImageRef.loadCanvasImage(info.path, (img) => {
                         const baseScaleFactor = (imgCount === 3) ? 0.98 : 0.7;
                         const targetHeight = BOX_HEIGHT * baseScaleFactor * info.size * 0.595;
                         img.scaleToHeight(targetHeight);
@@ -3709,7 +3715,7 @@
 
 
       // --- DOWNLOAD FUNCTIONS ---
-      async function applyGrayscaleToDataURL(dataURL, outputFormat = 'image/jpeg', quality = 1.0) {
+      async function applyGrayscaleToDataURL(dataURL, outputFormat = 'image/jpeg', quality = 0.85) {
         return new Promise((resolve, reject) => {
             const img = new Image();
             img.onload = () => {
@@ -3745,7 +3751,7 @@
           
           const dataURL = canvasInstance.toDataURL({
               format: 'jpeg',
-              quality: 1.0,
+              quality: 0.85,
               multiplier: exportOptions.multiplier
           });
 
@@ -4129,7 +4135,9 @@ async function downloadPDF(canvasInstance, fileName) {
         downloadAnswerKeyJpegBtn.addEventListener('click', () => downloadJpegFile(answerKeyCanvas, 'big-small-worksheet_answer_key.jpeg'));
         downloadWorksheetPdfBtn.addEventListener('click', () => downloadPDF(worksheetCanvas, 'big-small-worksheet.pdf'));
         downloadAnswerKeyPdfBtn.addEventListener('click', () => downloadPDF(answerKeyCanvas, 'big-small-worksheet_answer_key.pdf'));
-        document.getElementById('downloadInteractiveHtmlBtn').addEventListener('click', () => downloadInteractiveHtml(worksheetCanvas, 'big-small_interactive.html'));
+        document.getElementById('downloadInteractiveHtmlBtn').addEventListener('click', () => downloadInteractiveHtml(worksheetCanvas, 'big-small_interactive.html', { loadingMode: 'inline' }));
+        var _refBtnWire = document.getElementById('downloadInteractiveHtmlReferenceBtn');
+        if (_refBtnWire) _refBtnWire.addEventListener('click', () => downloadInteractiveHtml(worksheetCanvas, 'big-small_interactive_reference.html', { loadingMode: 'reference' }));
         dictionaryThemeSelect.addEventListener("change", loadDictionary);
         includeNameDateCheckbox.addEventListener('change', addOrRemoveNameDateFields);
         searchInput.addEventListener("input", loadDictionary);
@@ -4414,7 +4422,8 @@ async function downloadPDF(canvasInstance, fileName) {
           return { choices: choices, indicators: indicators };
       }
 
-      async function extractDeckBundle(canvas) {
+      async function extractDeckBundle(canvas, options) {
+          var loadingMode = (options && options.loadingMode === 'reference') ? 'reference' : 'inline';
           var pd = canvas.problemsData || {};
           var qType = pd.qType || 'findBig';
           var imagesPerProblem = pd.imagesPerProblem || 2;
@@ -4452,13 +4461,40 @@ async function downloadPDF(canvasInstance, fileName) {
               throw new Error('Problem image count mismatch. Regenerate the worksheet.');
           }
 
+          // v17.1 — derive each tagged choice image's (theme, key) from its
+          // src and inline it on the slot for runtime variant lookup.
           var slots = taggedImages.map(function (img) {
-              return {
+              var src = (img._element && img._element.src) || img.src || null;
+              var parsed = (src && window.LCSImageRef) ? LCSImageRef.parseImagePath(src) : null;
+              var slot = {
                   problemIndex: img.problemIndex,
                   choiceIndex: img.choiceIndex,
                   rect: _worldRectBounds(img)
               };
+              if (parsed) { slot.theme = parsed.theme; slot.key = parsed.key; }
+              return slot;
           });
+          // Per-slot placements double as the imagePlacements array.
+          var imagePlacements = slots
+              .filter(function (s) { return s.theme && s.key; })
+              .map(function (s) { return { key: s.key, theme: s.theme, rect: s.rect }; });
+          var imageRefs = {};
+          if (window.LCSImageRef && imagePlacements.length) {
+              var uniqueKeys = {};
+              imagePlacements.forEach(function (p) { uniqueKeys[p.theme + '/' + p.key] = p; });
+              var pairs = Object.keys(uniqueKeys).map(function (k) { return uniqueKeys[k]; });
+              var resolver = (loadingMode === 'reference')
+                  ? LCSImageRef.referenceVariants
+                  : LCSImageRef.inlineVariants;
+              var loaded = await Promise.all(pairs.map(function (ref) {
+                  return resolver(ref.key, ref.theme).then(function (variants) {
+                      return { key: ref.key, theme: ref.theme, variants: variants };
+                  });
+              }));
+              loaded.forEach(function (entry) {
+                  imageRefs[entry.theme + '/' + entry.key] = { variants: entry.variants };
+              });
+          }
 
           // Indicator circles/squares — per-choice feedback target. Present only
           // if the operator enabled "Add answer indicators". When present, the
@@ -4495,7 +4531,11 @@ async function downloadPDF(canvasInstance, fileName) {
               ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
           return {
-              bundleVersion: '17.0.0',
+              bundleVersion: '17.1.0',
+              schemaFormat: 'image-references-v2',
+              loadingMode: loadingMode,
+              imagePlacements: imagePlacements,
+              imageRefs: imageRefs,
               appType: 'big-small',
               createdAt: new Date().toISOString(),
               contentLanguage: (window.currentLocale || 'en'),
@@ -4587,6 +4627,7 @@ async function downloadPDF(canvasInstance, fileName) {
           '@keyframes lcs-fall{to{transform:translateY(620px) rotate(540deg);opacity:0}}',
           '.lcs-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}',
           '.lcs-attrib-link{position:absolute;transform:translate(-50%,-50%);pointer-events:auto;cursor:pointer;background:transparent;text-decoration:none;border-radius:4px;outline:none}',
+          '.lcs-img-overlay{position:absolute;pointer-events:none;user-select:none;-webkit-user-drag:none;z-index:1}',
           '.lcs-attrib-link:focus-visible{outline:2px solid #4E5FE8;outline-offset:2px}',
           '.lcs-attrib-link:hover{background:rgba(78,95,232,.08)}',
           '@media (prefers-reduced-motion:reduce){',
@@ -4642,6 +4683,12 @@ async function downloadPDF(canvasInstance, fileName) {
           '  var celebrationShown=false;',
           '  var titleEl,progressEl,overlayEl,muteBtn,celebrationEl,liveEl,imgEl,checkBtn,resetBtn,summaryEl;',
           '',
+          '  // v17.1 — variant-selection helpers',
+          '  function pickVariant(w,dpr){var eff=(w||0)*(dpr||1);if(eff<=512)return"1x";if(eff<=1024)return"2x";return"3x";}',
+          '  function getImageURL(b,th,k,v){if(!b||!b.imageRefs)return null;var e=b.imageRefs[th+"/"+k];if(!e||!e.variants)return null;return e.variants[v]||e.variants["2x"]||e.variants["1x"]||e.variants["3x"]||null;}',
+          '  function updateOverlayVariant(img,ref){var rect=img.getBoundingClientRect();if(!rect||rect.width<=0)return;var v=pickVariant(rect.width,window.devicePixelRatio||1);if(img.dataset.variant===v)return;var url=getImageURL(DECK_BUNDLE,ref.theme,ref.key,v);if(url){img.dataset.variant=v;img.src=url;}}',
+          '  function refreshAllVariants(){if(!overlayEl)return;var imgs=overlayEl.querySelectorAll("img.lcs-img-overlay");for(var i=0;i<imgs.length;i++){var img=imgs[i];var k=img.getAttribute("data-image-ref")||"";var p=k.indexOf("/");if(p<0)continue;updateOverlayVariant(img,{theme:k.slice(0,p),key:k.slice(p+1)});}}',
+          '',
           '  function init(){',
           '    titleEl=document.getElementById("lcs-title");',
           '    progressEl=document.getElementById("lcs-progress");',
@@ -4658,6 +4705,8 @@ async function downloadPDF(canvasInstance, fileName) {
           '    if(imgEl&&imgEl.complete&&imgEl.naturalHeight>0){renderChoices();}',
           '    else if(imgEl){imgEl.addEventListener("load",renderChoices);imgEl.addEventListener("error",function(){console.error("[LCS] Worksheet image failed to load")});}',
           '    wireMute();updateMuteButton();wireButtons();',
+          '    if(window.ResizeObserver&&overlayEl){try{new ResizeObserver(refreshAllVariants).observe(overlayEl);}catch(e){}}',
+          '    window.__lcsRefreshOverlayVariants=refreshAllVariants;',
           '  }',
           '',
           '  function renderProgress(){',
@@ -4684,6 +4733,21 @@ async function downloadPDF(canvasInstance, fileName) {
           '',
           '  function renderChoices(){',
           '    overlayEl.innerHTML="";',
+          '    var pwAll=DECK_BUNDLE.page.width,phAll=DECK_BUNDLE.page.height;',
+          '    var placements=DECK_BUNDLE.imagePlacements||[];',
+          '    for(var ipi=0;ipi<placements.length;ipi++){',
+          '      var ref=placements[ipi];',
+          '      if(!ref||!ref.rect)continue;',
+          '      var img=document.createElement("img");',
+          '      img.className="lcs-img-overlay";img.alt="";',
+          '      img.setAttribute("data-image-ref",ref.theme+"/"+ref.key);',
+          '      img.style.left=(((ref.rect.x-ref.rect.w/2)/pwAll)*100).toFixed(3)+"%";',
+          '      img.style.top=(((ref.rect.y-ref.rect.h/2)/phAll)*100).toFixed(3)+"%";',
+          '      img.style.width=((ref.rect.w/pwAll)*100).toFixed(3)+"%";',
+          '      img.style.height=((ref.rect.h/phAll)*100).toFixed(3)+"%";',
+          '      overlayEl.appendChild(img);',
+          '      updateOverlayVariant(img,ref);',
+          '    }',
           '    var pw=DECK_BUNDLE.page.width;var ph=DECK_BUNDLE.page.height;',
           '    problems.forEach(function(p){',
           '      p.choices.forEach(function(ch){',
@@ -5026,14 +5090,15 @@ async function downloadPDF(canvasInstance, fileName) {
           return parts.join('\n');
       }
 
-      async function downloadInteractiveHtml(canvasInstance, fileName) {
+      async function downloadInteractiveHtml(canvasInstance, fileName, options) {
+          var loadingMode = (options && options.loadingMode) || 'inline';
           if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
               showMessage(t('bigsmall.msg.generate.first') || 'Please generate a worksheet first.', 'error');
               return;
           }
           showMessage('Preparing ' + fileName + '...', 'info', 0);
           try {
-              var bundle = await extractDeckBundle(canvasInstance);
+              var bundle = await extractDeckBundle(canvasInstance, { loadingMode: loadingMode });
               if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
                   throw new Error('Worksheet snapshot is empty.');
               }
@@ -5352,7 +5417,7 @@ async function downloadPDF(canvasInstance, fileName) {
 
     const blob = new Blob([modified], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('pattern failed to load'); return; }
       img.set({
@@ -5389,7 +5454,7 @@ async function downloadPDF(canvasInstance, fileName) {
 
     const blob = new Blob([sized], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('texture failed to load'); return; }
       img.set({

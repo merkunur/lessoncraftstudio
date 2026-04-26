@@ -3,6 +3,7 @@
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
   <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
+  <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <title data-translate="page.title">Treasure Hunt Worksheet Generator</title>
@@ -1274,7 +1275,7 @@
       let selectedImages = [];
       let availableThemes = [];
       let lastGeneratedData = null; 
-      const downloadMultiplier = 6;
+      const downloadMultiplier = 4;
 
       // --- DOM Element References ---
       const languageSelect = document.getElementById('languageSelect');
@@ -2823,7 +2824,7 @@
             for (let c = 0; c < gridSize; c++) {
                 const imageForCell = gridMap[r][c];
                 const promise = new Promise(resolve => {
-                    fabric.Image.fromURL(imageForCell.path, (img) => {
+                    LCSImageRef.loadCanvasImage(imageForCell.path, (img) => {
                         if (img.width >= img.height) {
                             img.scaleToWidth(cellSize * 0.9); // 10% reduction
                         } else {
@@ -2947,7 +2948,7 @@
         // Export at high quality
         const dataURL = canvasInstance.toDataURL({
             format: 'png',
-            quality: 1.0,
+            quality: 0.85,
             multiplier: multiplier
         });
         
@@ -3154,7 +3155,7 @@
     }
     // Unified overlay function - EXACTLY like addition.html
     async function addOverlayToCanvas(path, propName, opacitySlider) {
-        const img = await new Promise((resolve) => fabric.Image.fromURL(path, resolve, { crossOrigin: 'anonymous' }));
+        const img = await new Promise((resolve) => LCSImageRef.loadCanvasImage(path, resolve, { crossOrigin: 'anonymous' }));
         if (!img) return;
 
         const activeCanvas = getActiveCanvas();
@@ -4532,7 +4533,7 @@
 
     const blob = new Blob([modified], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('pattern failed to load'); return; }
       img.set({
@@ -4569,7 +4570,7 @@
 
     const blob = new Blob([sized], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('texture failed to load'); return; }
       img.set({

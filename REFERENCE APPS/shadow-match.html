@@ -3,7 +3,7 @@
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
-    <script src="/worksheet-generators/js/image-reference.js?v=1"></script>
+    <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <title data-translate="shadow.match.page.title">Shadow Match Worksheet Generator</title>
@@ -1504,7 +1504,7 @@
       const SELECT_COUNT = 4;
       const DEFAULT_SHOW_LABELS = true;
       const DEFAULT_INCLUDE_NAME_DATE = false;
-      const downloadMultiplier = 6; // For high-resolution downloads
+      const downloadMultiplier = 4; // For high-resolution downloads
 
       // --- DOM ELEMENT REFERENCES ---
       // Accordion & Responsive Menu
@@ -3324,7 +3324,7 @@
                   // Convert canvas to fabric.Image with FIXED target height
                   const halfDataUrl = tempCanvas.toDataURL('image/png');
                   const fabricHalfImg = await new Promise((resolve) => {
-                      fabric.Image.fromURL(halfDataUrl, (img) => {
+                      LCSImageRef.loadCanvasImage(halfDataUrl, (img) => {
                           console.log(`Fabric.Image ${halfIndex} BEFORE scaling: ${img.width}x${img.height}`);
 
                           // Use FIXED target height for ALL images to ensure perfect alignment
@@ -4442,7 +4442,7 @@
           const existing = activeCanvas?.getObjects().find(o => o.isBorder);
           if(existing) activeCanvas.remove(existing);
 
-          fabric.Image.fromURL(path, (img) => {
+          LCSImageRef.loadCanvasImage(path, (img) => {
               const config = {
                   isBorder: true,
                   selectable: true,
@@ -4483,7 +4483,7 @@
           const existing = activeCanvas?.getObjects().find(o => o.isBackground);
           if(existing) activeCanvas.remove(existing);
 
-          fabric.Image.fromURL(path, (img) => {
+          LCSImageRef.loadCanvasImage(path, (img) => {
               const config = {
                   isBackground: true,
                   selectable: true,
@@ -4539,7 +4539,7 @@
         
         canvasInstance.backgroundColor = canvasInstance.backgroundColor || '#FFFFFF';
         const options = { format: format, multiplier: downloadMultiplier || 6 };
-        if (format === 'jpeg') options.quality = 1.0;
+        if (format === 'jpeg') options.quality = 0.85;
         
         let dataURL = canvasInstance.toDataURL(options);
         
@@ -4582,7 +4582,7 @@
         const multiplier = exportOpts.multiplier || 6;
         let dataURL = canvasInstance.toDataURL({ 
             format: 'png',  // Use PNG first for better quality
-            quality: 1.0, 
+            quality: 0.85, 
             multiplier: multiplier
         });
         
@@ -5273,7 +5273,7 @@ async function downloadPDF(canvasToExport) {
 
     const blob = new Blob([modified], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('pattern failed to load'); return; }
       img.set({
@@ -5310,7 +5310,7 @@ async function downloadPDF(canvasToExport) {
 
     const blob = new Blob([sized], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('texture failed to load'); return; }
       img.set({

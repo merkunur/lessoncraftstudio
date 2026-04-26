@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
+    <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex, nofollow">
     <title data-translate="coloringPageDesigner">Coloring Page Designer</title>
@@ -1076,7 +1077,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let currentThemeImages = [];
     let uploadedImages = [];
     let currentCanvasConfig = { width: 612, height: 792 };
-    const downloadMultiplier = 6;
+    const downloadMultiplier = 4;
 
     // Zoom functionality (user-controlled zoom level)
     let userZoomLevel = 1.0;  // 100% = 1.0
@@ -1860,7 +1861,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     
     function addImageToCanvas(imgUrl) {
-        fabric.Image.fromURL(imgUrl, (img) => {
+        LCSImageRef.loadCanvasImage(imgUrl, (img) => {
             const maxDim = Math.min(currentCanvasConfig.width * 0.4, currentCanvasConfig.height * 0.4);
             img.scaleToWidth(maxDim);
             if (img.getScaledHeight() > maxDim) img.scaleToHeight(maxDim);
@@ -1936,7 +1937,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const existingBorder = canvas.getObjects().find(obj => obj.isBorder);
         if (existingBorder) canvas.remove(existingBorder);
 
-        fabric.Image.fromURL(path, (img) => {
+        LCSImageRef.loadCanvasImage(path, (img) => {
             if (!img) return;
 
             // Use ACTUAL canvas dimensions for correct centering
@@ -2252,7 +2253,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         const grayscaleEnabled = grayscaleToggle.checked;
         const format = 'jpeg';
-        let dataURL = canvasInstance.toDataURL({ format, quality: 1.0, multiplier });
+        let dataURL = canvasInstance.toDataURL({ format, quality: 0.85, multiplier });
         
         // Restore the display state after export
         canvasInstance.setZoom(currentZoom);
@@ -2754,7 +2755,7 @@ async function downloadPDF() {
 
     const blob = new Blob([modified], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('pattern failed to load'); return; }
       img.set({
@@ -2791,7 +2792,7 @@ async function downloadPDF() {
 
     const blob = new Blob([sized], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('texture failed to load'); return; }
       img.set({

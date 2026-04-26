@@ -3,6 +3,7 @@
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
+    <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1416,7 +1417,7 @@ document.addEventListener("DOMContentLoaded", function() {
     window.translatePage = translatePage;
 
     const REQUIRED_IMAGES = 4;
-    const downloadMultiplier = 6;
+    const downloadMultiplier = 4;
 
     let allImagesCache = {};
     let uploadedImages = [];
@@ -2892,7 +2893,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function loadImage(url) {
         return new Promise((resolve, reject) => {
-            fabric.Image.fromURL(url, (img) => {
+            LCSImageRef.loadCanvasImage(url, (img) => {
                 if (img) resolve(img);
                 else reject(new Error('Failed to load image: ' + url));
             }, { crossOrigin: 'anonymous' });
@@ -4355,7 +4356,7 @@ document.addEventListener("DOMContentLoaded", function() {
             height: currentCanvasConfig.height
         });
         
-        let dataURL = canvasInstance.toDataURL({ format: 'jpeg', quality: 1.0, multiplier: exportOpts.multiplier });
+        let dataURL = canvasInstance.toDataURL({ format: 'jpeg', quality: 0.85, multiplier: exportOpts.multiplier });
         
         // Restore display state
         canvasInstance.setZoom(currentZoom);
@@ -4713,7 +4714,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const actualHeight = currentCanvasConfig.height;
 
         canvases.forEach(targetCanvas => {
-            fabric.Image.fromURL(path, (img) => {
+            LCSImageRef.loadCanvasImage(path, (img) => {
                 if (!img) {
                     showMessage(formatTranslation(t('sudoku.asset.failed'), {asset: propName === 'isBorder' ? t('sudoku.border.title') : t('sudoku.background.title')}), 'error');
                     return;
@@ -5295,7 +5296,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const blob = new Blob([modified], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('pattern failed to load'); return; }
       img.set({
@@ -5332,7 +5333,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const blob = new Blob([sized], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('texture failed to load'); return; }
       img.set({

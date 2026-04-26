@@ -3,7 +3,7 @@
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
-    <script src="/worksheet-generators/js/image-reference.js?v=1"></script>
+    <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1423,7 +1423,7 @@
     let isAutoCreateMode = false;
     let worksheetGenerated = false;
     let answerKeyGenerated = false;
-    let downloadMultiplier = 6;
+    let downloadMultiplier = 4;
     let activePopover = null;
     let currentTemplatePath = '/images/background/train.png';
     
@@ -3018,7 +3018,7 @@
 
     async function loadImage(url) {
         return new Promise((resolve, reject) => {
-            fabric.Image.fromURL(url, (img) => {
+            LCSImageRef.loadCanvasImage(url, (img) => {
                 if (img) resolve(img); else reject(new Error(`Failed to load image: ${url}`));
             }, { crossOrigin: 'anonymous' });
         });
@@ -3904,7 +3904,7 @@
             height: currentCanvasConfig.height
         });
         
-        let dataURL = canvasInstance.toDataURL({ format: 'jpeg', quality: 1.0, multiplier: exportOpts.multiplier });
+        let dataURL = canvasInstance.toDataURL({ format: 'jpeg', quality: 0.85, multiplier: exportOpts.multiplier });
         
         // Restore the display state after export
         canvasInstance.setZoom(currentZoom);
@@ -5144,7 +5144,7 @@ async function downloadPDF(canvasToExport, fileName) {
 
     // EXACT PATTERN FROM WORDSEARCH - PROVEN TO WORK
     async function addOverlayToCanvas(path, propName, opacitySlider) {
-        const img = await new Promise((resolve) => fabric.Image.fromURL(path, resolve, { crossOrigin: 'anonymous' }));
+        const img = await new Promise((resolve) => LCSImageRef.loadCanvasImage(path, resolve, { crossOrigin: 'anonymous' }));
         if (!img) return;
 
         const applyOverlay = (canvas, isEditable) => {
@@ -5905,7 +5905,7 @@ async function downloadPDF(canvasToExport, fileName) {
 
     const blob = new Blob([modified], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('pattern failed to load'); return; }
       img.set({
@@ -5942,7 +5942,7 @@ async function downloadPDF(canvasToExport, fileName) {
 
     const blob = new Blob([sized], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('texture failed to load'); return; }
       img.set({

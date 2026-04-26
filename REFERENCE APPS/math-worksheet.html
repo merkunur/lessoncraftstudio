@@ -3,6 +3,7 @@
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
+    <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <title>Math Worksheet Generator</title>
@@ -1540,6 +1541,7 @@
                     <button id="downloadAnswerKeyPdfBtn" disabled data-translate="answerKeyPDF">Answer Key (PDF)</button>
                     <hr style="margin: 6px 0; border-color: #eee;">
                     <button id="downloadInteractiveHtmlBtn" disabled data-translate="worksheetInteractiveHtml">Interactive Worksheet (HTML)</button>
+                    <button id="downloadInteractiveHtmlReferenceBtn" disabled title="For server-hosted catalog playback. Smaller file, requires the same site to host the WebP library.">Interactive Worksheet (Catalog/URL refs)</button>
                     <hr style="margin: 6px 0; border-color: #eee;">
                     <label class="checkbox-label">
                         <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
@@ -1830,6 +1832,7 @@
       const downloadWorksheetPdfBtn = $('downloadWorksheetPdfBtn');
       const downloadAnswerKeyPdfBtn = $('downloadAnswerKeyPdfBtn');
       const downloadInteractiveHtmlBtn = $('downloadInteractiveHtmlBtn');
+      const downloadInteractiveHtmlReferenceBtn = $('downloadInteractiveHtmlReferenceBtn');
       const grayscaleToggle = $('grayscaleToggle');
       const clearBtn = $('clearBtn');
 
@@ -1857,7 +1860,7 @@
       let isGenerating = false; // Flag to prevent saving state during bulk generation
 
       let puzzlesData = []; // Renamed from 'puzzles' for clarity with Fabric.js objects
-      const downloadMultiplier = 6; // For higher resolution downloads
+      const downloadMultiplier = 4; // For higher resolution downloads
 
       // Toolbar References
       const objectContextToolbar = $('object-context-toolbar');
@@ -3642,6 +3645,11 @@
         downloadWorksheetJpegBtn.disabled = !hasWorksheetContent;
         downloadWorksheetPdfBtn.disabled = !hasWorksheetContent;
         downloadInteractiveHtmlBtn.disabled = !hasWorksheetContent;
+        if (downloadInteractiveHtmlReferenceBtn) downloadInteractiveHtmlReferenceBtn.disabled = !hasWorksheetContent;
+        if (hasWorksheetContent) {
+            // Required by image-reference.js propagation checklist item 10.
+            window.__lcsGenerationCounter = (window.__lcsGenerationCounter || 0) + 1;
+        }
         generateAnswerKeyBtn.disabled = puzzlesData.length === 0;
         isGenerating = false;
         saveCanvasState();
@@ -3782,7 +3790,7 @@
                   const equationParts = eq.expr.match(/[A-Z]+|\d+|[+\-*/=]/g) || [];
                   for (const part of equationParts) {
                       if (puzzle.symbolsUsed.includes(part) && puzzle.imageMap[part] && puzzle.imageMap[part].path) {
-                          const img = await new Promise(resolve => fabric.Image.fromURL(puzzle.imageMap[part].path, resolve, { crossOrigin: 'anonymous' }));
+                          const img = await new Promise(resolve => LCSImageRef.loadCanvasImage(puzzle.imageMap[part].path, resolve, { crossOrigin: 'anonymous' }));
                           img.scaleToHeight(symbolSize);
                           img.set({ left: currentXInRow, top: 0, originY: 'top' });
                           eqObjects.push(img); currentXInRow += img.getScaledWidth() + eqGap;
@@ -3808,7 +3816,7 @@
               const solutionObjects = []; let currentXInSolution = 0; const showAnswers = showAnswersCheck.checked;
               for (let i = 0; i < puzzle.symbolsUsed.length; i++) {
                   const sym = puzzle.symbolsUsed[i], imgData = puzzle.imageMap[sym];
-                  const img = await new Promise(resolve => fabric.Image.fromURL(imgData.path, resolve, { crossOrigin: 'anonymous' }));
+                  const img = await new Promise(resolve => LCSImageRef.loadCanvasImage(imgData.path, resolve, { crossOrigin: 'anonymous' }));
                   img.scaleToHeight(symbolSize * 0.8);
                   img.set({ left: currentXInSolution, top: 0, originY: 'top' });
                   solutionObjects.push(img); currentXInSolution += img.getScaledWidth() + solutionRowGap;
@@ -3979,7 +3987,7 @@
                   const equationParts = eq.expr.match(/[A-Z]+|\d+|[+\-*/=]/g) || [];
                   for (const part of equationParts) {
                       if (puzzle.symbolsUsed.includes(part) && puzzle.imageMap[part] && puzzle.imageMap[part].path) {
-                          const img = await new Promise(resolve => fabric.Image.fromURL(puzzle.imageMap[part].path, resolve, { crossOrigin: 'anonymous' }));
+                          const img = await new Promise(resolve => LCSImageRef.loadCanvasImage(puzzle.imageMap[part].path, resolve, { crossOrigin: 'anonymous' }));
                           img.scaleToHeight(symbolSize);
                           img.set({ left: currentXInRow, top: 0, originY: 'top' });
                           eqObjects.push(img); currentXInRow += img.getScaledWidth() + eqGap;
@@ -4005,7 +4013,7 @@
               const solutionObjects = []; let currentXInSolution = 0;
               for (let i = 0; i < puzzle.symbolsUsed.length; i++) {
                   const sym = puzzle.symbolsUsed[i], imgData = puzzle.imageMap[sym];
-                  const img = await new Promise(resolve => fabric.Image.fromURL(imgData.path, resolve, { crossOrigin: 'anonymous' }));
+                  const img = await new Promise(resolve => LCSImageRef.loadCanvasImage(imgData.path, resolve, { crossOrigin: 'anonymous' }));
                   img.scaleToHeight(symbolSize * 0.8);
                   img.set({ left: currentXInSolution, top: 0, originY: 'top' });
                   solutionObjects.push(img); currentXInSolution += img.getScaledWidth() + solutionRowGap;
@@ -4113,7 +4121,7 @@
           const format = 'jpeg';
           let dataURL = canvasInstance.toDataURL({ 
               format: format, 
-              quality: 1.0,
+              quality: 0.85,
               multiplier: exportOpts.multiplier, 
               backgroundColor: canvasInstance.backgroundColor || '#FFFFFF'
           });
@@ -4312,7 +4320,46 @@
           return { x: (minX + maxX) / 2, y: (minY + maxY) / 2, w: maxX - minX, h: maxY - minY };
       }
 
-      async function extractDeckBundle(canvas) {
+      // v9.1 — walk a subtree for fabric.Image children with src + world rect.
+      function _collectImagesDeepWithSrc_v91(group, out) {
+          if (!group || !group._objects) return out;
+          for (var i = 0; i < group._objects.length; i++) {
+              var c = group._objects[i];
+              if (!c) continue;
+              if (c.type === 'image') {
+                  var src = (c._element && c._element.src) || c.src || null;
+                  if (!src) continue;
+                  var m = c.calcTransformMatrix();
+                  var hw = (c.width || 1) / 2;
+                  var hh = (c.height || 1) / 2;
+                  var corners = [
+                      fabric.util.transformPoint({ x: -hw, y: -hh }, m),
+                      fabric.util.transformPoint({ x:  hw, y: -hh }, m),
+                      fabric.util.transformPoint({ x:  hw, y:  hh }, m),
+                      fabric.util.transformPoint({ x: -hw, y:  hh }, m)
+                  ];
+                  var xs = corners.map(function (p) { return p.x; });
+                  var ys = corners.map(function (p) { return p.y; });
+                  var minX = Math.min.apply(null, xs), maxX = Math.max.apply(null, xs);
+                  var minY = Math.min.apply(null, ys), maxY = Math.max.apply(null, ys);
+                  out.push({
+                      src: src,
+                      rect: {
+                          x: (minX + maxX) / 2,
+                          y: (minY + maxY) / 2,
+                          w: maxX - minX,
+                          h: maxY - minY
+                      }
+                  });
+              } else if (c._objects) {
+                  _collectImagesDeepWithSrc_v91(c, out);
+              }
+          }
+          return out;
+      }
+
+      async function extractDeckBundle(canvas, options) {
+          var loadingMode = (options && options.loadingMode === 'reference') ? 'reference' : 'inline';
           var puzzles = canvas.problemsData || [];
 
           var cardByIndex = {};
@@ -4345,13 +4392,47 @@
               });
           });
 
+          // v9.1 — collect each puzzle card's library images.
+          var imagePlacements = [];
+          if (window.LCSImageRef) {
+              Object.keys(cardByIndex).forEach(function (idx) {
+                  var found = _collectImagesDeepWithSrc_v91(cardByIndex[idx], []);
+                  found.forEach(function (it) {
+                      var parsed = LCSImageRef.parseImagePath(it.src);
+                      if (!parsed) return;
+                      imagePlacements.push({ key: parsed.key, theme: parsed.theme, rect: it.rect });
+                  });
+              });
+          }
+          var imageRefs = {};
+          if (window.LCSImageRef && imagePlacements.length) {
+              var uniqueKeys = {};
+              imagePlacements.forEach(function (p) { uniqueKeys[p.theme + '/' + p.key] = p; });
+              var pairs = Object.keys(uniqueKeys).map(function (k) { return uniqueKeys[k]; });
+              var resolver = (loadingMode === 'reference')
+                  ? LCSImageRef.referenceVariants
+                  : LCSImageRef.inlineVariants;
+              var loaded = await Promise.all(pairs.map(function (ref) {
+                  return resolver(ref.key, ref.theme).then(function (variants) {
+                      return { key: ref.key, theme: ref.theme, variants: variants };
+                  });
+              }));
+              loaded.forEach(function (entry) {
+                  imageRefs[entry.theme + '/' + entry.key] = { variants: entry.variants };
+              });
+          }
+
           var worksheetImage = await _captureWorksheetImage(canvas);
 
           var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
               ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
           return {
-              bundleVersion: '9.0.0',
+              bundleVersion: '9.1.0',
+              schemaFormat: 'image-references-v2',
+              loadingMode: loadingMode,
+              imagePlacements: imagePlacements,
+              imageRefs: imageRefs,
               appType: 'math-worksheet',
               createdAt: new Date().toISOString(),
               contentLanguage: (window.currentLocale || 'en'),
@@ -4432,6 +4513,7 @@
           '@keyframes lcs-fall{to{transform:translateY(620px) rotate(540deg);opacity:0}}',
           '.lcs-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}',
           '.lcs-attrib-link{position:absolute;transform:translate(-50%,-50%);pointer-events:auto;cursor:pointer;background:transparent;text-decoration:none;border-radius:4px;outline:none}',
+          '.lcs-img-overlay{position:absolute;pointer-events:none;user-select:none;-webkit-user-drag:none;z-index:1}',
           '.lcs-attrib-link:focus-visible{outline:2px solid #4E5FE8;outline-offset:2px}',
           '.lcs-attrib-link:hover{background:rgba(78,95,232,.08)}',
           '@media (prefers-reduced-motion:reduce){',
@@ -4465,6 +4547,12 @@
           '  function normalize(v){return String(v==null?"":v).trim().toUpperCase()}',
           '  function isCorrect(s){return normalize(s.value)===normalize(s.expected)}',
           '',
+          '  // v9.1 — variant-selection helpers',
+          '  function pickVariant(w,dpr){var eff=(w||0)*(dpr||1);if(eff<=512)return"1x";if(eff<=1024)return"2x";return"3x";}',
+          '  function getImageURL(b,th,k,v){if(!b||!b.imageRefs)return null;var e=b.imageRefs[th+"/"+k];if(!e||!e.variants)return null;return e.variants[v]||e.variants["2x"]||e.variants["1x"]||e.variants["3x"]||null;}',
+          '  function updateOverlayVariant(img,ref){var rect=img.getBoundingClientRect();if(!rect||rect.width<=0)return;var v=pickVariant(rect.width,window.devicePixelRatio||1);if(img.dataset.variant===v)return;var url=getImageURL(DECK_BUNDLE,ref.theme,ref.key,v);if(url){img.dataset.variant=v;img.src=url;}}',
+          '  function refreshAllVariants(){if(!overlayEl)return;var imgs=overlayEl.querySelectorAll("img.lcs-img-overlay");for(var i=0;i<imgs.length;i++){var img=imgs[i];var k=img.getAttribute("data-image-ref")||"";var p=k.indexOf("/");if(p<0)continue;updateOverlayVariant(img,{theme:k.slice(0,p),key:k.slice(p+1)});}}',
+          '',
           '  function init(){',
           '    titleEl=document.getElementById("lcs-title");',
           '    progressEl=document.getElementById("lcs-progress");',
@@ -4483,6 +4571,8 @@
           '    wireMute();',
           '    updateMuteButton();',
           '    wireButtons();',
+          '    if(window.ResizeObserver&&overlayEl){try{new ResizeObserver(refreshAllVariants).observe(overlayEl);}catch(e){}}',
+          '    window.__lcsRefreshOverlayVariants=refreshAllVariants;',
           '  }',
           '',
           '  function renderProgress(){',
@@ -4512,6 +4602,20 @@
           '    overlayEl.innerHTML="";',
           '    var pw=DECK_BUNDLE.page.width;',
           '    var ph=DECK_BUNDLE.page.height;',
+          '    var placements=DECK_BUNDLE.imagePlacements||[];',
+          '    for(var ipi=0;ipi<placements.length;ipi++){',
+          '      var ref=placements[ipi];',
+          '      if(!ref||!ref.rect)continue;',
+          '      var img=document.createElement("img");',
+          '      img.className="lcs-img-overlay";img.alt="";',
+          '      img.setAttribute("data-image-ref",ref.theme+"/"+ref.key);',
+          '      img.style.left=(((ref.rect.x-ref.rect.w/2)/pw)*100).toFixed(3)+"%";',
+          '      img.style.top=(((ref.rect.y-ref.rect.h/2)/ph)*100).toFixed(3)+"%";',
+          '      img.style.width=((ref.rect.w/pw)*100).toFixed(3)+"%";',
+          '      img.style.height=((ref.rect.h/ph)*100).toFixed(3)+"%";',
+          '      overlayEl.appendChild(img);',
+          '      updateOverlayVariant(img,ref);',
+          '    }',
           '    state.forEach(function(s,i){',
           '      if(!s.rect) return;',
           '      var r=s.rect;',
@@ -4790,14 +4894,15 @@
           return parts.join('\n');
       }
 
-      async function downloadInteractiveHtml(canvasInstance, fileName) {
+      async function downloadInteractiveHtml(canvasInstance, fileName, options) {
+          var loadingMode = (options && options.loadingMode) || 'inline';
           if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
               showMessage(t('pleaseGeneratePuzzlesFirst') || 'Please generate a worksheet first.', 'error');
               return;
           }
           showMessage('Preparing ' + fileName + '...', 'info', 0);
           try {
-              var bundle = await extractDeckBundle(canvasInstance);
+              var bundle = await extractDeckBundle(canvasInstance, { loadingMode: loadingMode });
               if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
                   throw new Error('Worksheet snapshot is empty.');
               }
@@ -4966,7 +5071,7 @@
           if (!worksheetCanvas || !answerKeyCanvas) return;
 
           const img = await new Promise((resolve) =>
-              fabric.Image.fromURL(path, resolve, { crossOrigin: 'anonymous' })
+              LCSImageRef.loadCanvasImage(path, resolve, { crossOrigin: 'anonymous' })
           );
 
           if (!img) {
@@ -5276,7 +5381,8 @@
       downloadAnswerKeyJpegBtn.addEventListener("click", () => downloadAsJpeg(answerKeyCanvas, 'answer_key.jpeg'));
       downloadWorksheetPdfBtn.addEventListener("click", () => downloadAsPdf(worksheetCanvas, 'worksheet.pdf'));
       downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadAsPdf(answerKeyCanvas, 'answer_key.pdf'));
-      downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'math-worksheet_interactive.html'));
+      downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'math-worksheet_interactive.html', { loadingMode: 'inline' }));
+      if (downloadInteractiveHtmlReferenceBtn) downloadInteractiveHtmlReferenceBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'math-worksheet_interactive_reference.html', { loadingMode: 'reference' }));
 
       clearBtn.addEventListener("click", clearAll);
 
@@ -5866,7 +5972,7 @@
 
     const blob = new Blob([modified], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('pattern failed to load'); return; }
       img.set({
@@ -5903,7 +6009,7 @@
 
     const blob = new Blob([sized], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('texture failed to load'); return; }
       img.set({

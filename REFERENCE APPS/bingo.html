@@ -3,7 +3,7 @@
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
-    <script src="/worksheet-generators/js/image-reference.js?v=1"></script>
+    <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <title>Picture Bingo Worksheet Generator</title>
@@ -1100,7 +1100,7 @@
       let allImages = [];
       let uploadedImages = [];
       let selectedImages = [];
-      const downloadMultiplier = 6;
+      const downloadMultiplier = 4;
 
       const messageDiv = document.getElementById("message");
       const themeSelect = document.getElementById("themeSelect");
@@ -1688,7 +1688,7 @@
               if (existingOverlay) canvas.remove(existingOverlay);
 
               await new Promise((resolve) => {
-                  fabric.Image.fromURL(path, (img) => {
+                  LCSImageRef.loadCanvasImage(path, (img) => {
                       if (!img) {
                           resolve();
                           return;
@@ -2469,7 +2469,7 @@
                   cellMeta.push({ row: r, col: c, word: rect.cellWord, relLeft: cellLeft, relTop: cellTop, w: cellWidth, h: cellHeight });
                   gridElements.push(rect);
                   if (cardFill === 'image') {
-                      const img = await new Promise(resolve => fabric.Image.fromURL(item.path, resolve, { crossOrigin: 'anonymous' }));
+                      const img = await new Promise(resolve => LCSImageRef.loadCanvasImage(item.path, resolve, { crossOrigin: 'anonymous' }));
                       if(img) {
                         const scale = Math.min((cellWidth * 0.9) / img.width, (cellHeight * 0.9) / img.height);
                         img.scale(scale).set({ left: cellLeft + cellWidth/2, top: cellTop + cellHeight/2, originX: 'center', originY: 'center' });
@@ -2499,7 +2499,7 @@
           chipShuffled.forEach((item, idx) => {
               const promise = new Promise(resolve => {
                   if (chipFill === 'image') {
-                      fabric.Image.fromURL(item.path, img => {
+                      LCSImageRef.loadCanvasImage(item.path, img => {
                           if (!img) {
                               const errorCircle = new fabric.Circle({ radius: chipSize / 2, fill: '#FFFFFF', stroke: '#FF0000', strokeWidth: 2 });
                               errorCircle.chipIndex = idx; errorCircle.chipWord = item.word;
@@ -3804,7 +3804,7 @@
           
           const grayscaleEnabled = grayscaleToggle.checked;
           const format = 'jpeg';
-          let dataURL = canvasInstance.toDataURL({ format: format, quality: 1.0, multiplier: exportOpts.multiplier });
+          let dataURL = canvasInstance.toDataURL({ format: format, quality: 0.85, multiplier: exportOpts.multiplier });
           
           // Restore display state
           canvasInstance.setZoom(currentZoom);
@@ -4697,7 +4697,7 @@
 
     const blob = new Blob([modified], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('pattern failed to load'); return; }
       img.set({
@@ -4734,7 +4734,7 @@
 
     const blob = new Blob([sized], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('texture failed to load'); return; }
       img.set({

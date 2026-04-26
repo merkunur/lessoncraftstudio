@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
+  <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -1419,7 +1420,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let selectedImage = null;
     let userManuallySelectedImage = false; // Track if user manually selected an image
     // Remove duplicate - already declared globally above
-    const downloadMultiplier = 6; // For high-resolution export
+    const downloadMultiplier = 4; // For high-resolution export
 
     // Undo/Redo State (from wordsearch)
     let historyStack = [];
@@ -2391,9 +2392,9 @@ document.addEventListener("DOMContentLoaded", function() {
             // This prevents the stroke from being clipped by the canvas edges.
             ctx.strokeRect(lineOffset, lineOffset, canvasSize - lineWidth, canvasSize - lineWidth);
 
-            const dataURL = tempCanvasEl.toDataURL({ quality: 1.0 });
+            const dataURL = tempCanvasEl.toDataURL({ quality: 0.85 });
 
-            fabric.Image.fromURL(dataURL, (imgObj) => {
+            LCSImageRef.loadCanvasImage(dataURL, (imgObj) => {
                 // Scale square canvas to desired size
                 imgObj.scaleToWidth(size);
                 imgObj.set({
@@ -2936,7 +2937,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const existing = worksheetCanvas.getObjects().find(obj => obj.isBackground);
         if (existing) worksheetCanvas.remove(existing);
 
-        fabric.Image.fromURL(path, (img) => {
+        LCSImageRef.loadCanvasImage(path, (img) => {
             if (!img) { showMessage(t('drawcolor.msg.image.error'), 'error'); return; }
 
             img.set({
@@ -2978,7 +2979,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const existingBorder = worksheetCanvas.getObjects().find(obj => obj.isBorder);
         if (existingBorder) worksheetCanvas.remove(existingBorder);
 
-        fabric.Image.fromURL(path, (img) => {
+        LCSImageRef.loadCanvasImage(path, (img) => {
             if (!img) { showMessage(t('drawcolor.msg.image.error'), 'error'); return; }
             
             // Scale to 70% of actual canvas height (professional standard)
@@ -3009,7 +3010,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // --- Standardized Download Logic ---
-    async function applyGrayscaleToDataURL(dataURL, outputFormat = 'image/jpeg', quality = 1.0) {
+    async function applyGrayscaleToDataURL(dataURL, outputFormat = 'image/jpeg', quality = 0.85) {
         return new Promise((resolve, reject) => {
             const img = new Image();
             img.onload = () => {
@@ -3049,7 +3050,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         let dataURL = canvasInstance.toDataURL({
             format: 'jpeg',
-            quality: 1.0,
+            quality: 0.85,
             multiplier: multiplier
         });
         
@@ -3969,7 +3970,7 @@ if (document.readyState === 'complete' || document.readyState === 'interactive')
 
     const blob = new Blob([modified], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('pattern failed to load'); return; }
       img.set({
@@ -4006,7 +4007,7 @@ if (document.readyState === 'complete' || document.readyState === 'interactive')
 
     const blob = new Blob([sized], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('texture failed to load'); return; }
       img.set({

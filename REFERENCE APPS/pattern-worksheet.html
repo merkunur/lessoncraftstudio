@@ -3,6 +3,7 @@
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
+    <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1116,6 +1117,7 @@
                             <button id="downloadAkPdfBtn" disabled data-translate="pattern.worksheet.download.answer.pdf">Answer Key (PDF)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
                             <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveHtml">Interactive Worksheet (HTML)</button>
+                            <button id="downloadInteractiveHtmlReferenceBtn" disabled title="For server-hosted catalog playback. Smaller file, requires the same site to host the WebP library.">Interactive Worksheet (Catalog/URL refs)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
                             <label class="checkbox-label" id="grayscaleLabel">
                                 <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
@@ -1264,6 +1266,7 @@
             downloadWsPdfBtn: document.getElementById('downloadWsPdfBtn'),
             downloadAkPdfBtn: document.getElementById('downloadAkPdfBtn'),
             downloadInteractiveHtmlBtn: document.getElementById('downloadInteractiveHtmlBtn'),
+            downloadInteractiveHtmlReferenceBtn: document.getElementById('downloadInteractiveHtmlReferenceBtn'),
             grayscaleToggle: document.getElementById('grayscaleToggle'),
 
             // Header Controls - Zoom
@@ -1296,7 +1299,7 @@
         // --- STATE MANAGEMENT ---
         let worksheetCanvas, answerKeyCanvas;
         // currentCanvasConfig already declared globally above
-        const downloadMultiplier = 6;
+        const downloadMultiplier = 4;
         let userZoomLevel = 1.0; // User-controlled zoom level (100% = 1.0)
 
         // --- UNDO/REDO STATE MANAGEMENT ---
@@ -1624,7 +1627,10 @@
             ui.downloadAkJpegBtn.addEventListener("click", () => downloadImageFile(answerKeyCanvas, 'jpeg', 'pattern_answer_key'));
             ui.downloadWsPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'pattern_worksheet.pdf'));
             ui.downloadAkPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'pattern_answer_key.pdf'));
-            ui.downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'pattern-worksheet_interactive.html'));
+            ui.downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'pattern-worksheet_interactive.html', { loadingMode: 'inline' }));
+            if (ui.downloadInteractiveHtmlReferenceBtn) {
+                ui.downloadInteractiveHtmlReferenceBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'pattern-worksheet_interactive_reference.html', { loadingMode: 'reference' }));
+            }
 
 
             // Prevent dropdown from closing on label click
@@ -1813,6 +1819,7 @@
             ui.downloadAkJpegBtn.disabled = true;
             ui.downloadAkPdfBtn.disabled = true;
             if (ui.downloadInteractiveHtmlBtn) ui.downloadInteractiveHtmlBtn.disabled = true;
+                if (ui.downloadInteractiveHtmlReferenceBtn) ui.downloadInteractiveHtmlReferenceBtn.disabled = true;
 
 
             showMessage(t('pattern.worksheet.msg.cleared'), "success", 2000);
@@ -2002,6 +2009,9 @@
                 ui.generateAnswerKeyBtn.disabled = false;
                 ui.downloadDropdownBtn.disabled = false;
                 if (ui.downloadInteractiveHtmlBtn) ui.downloadInteractiveHtmlBtn.disabled = false;
+                if (ui.downloadInteractiveHtmlReferenceBtn) ui.downloadInteractiveHtmlReferenceBtn.disabled = false;
+                // Required by image-reference.js propagation checklist item 10.
+                window.__lcsGenerationCounter = (window.__lcsGenerationCounter || 0) + 1;
                 showMessage(t('pattern.worksheet.msg.generated'), "success");
             } catch (err) {
                 console.error("Error generating worksheet:", err);
@@ -2987,7 +2997,7 @@
                     itemPromises.push(Promise.resolve({ isBlank: true }));
                 } else if (itemData && itemData.path) {
                     itemPromises.push(new Promise(resolve => {
-                        fabric.Image.fromURL(itemData.path, (img) => {
+                        LCSImageRef.loadCanvasImage(itemData.path, (img) => {
                             if (img) resolve(img);
                             else {
                                 console.warn("Could not load image:", itemData.path);
@@ -3193,7 +3203,7 @@
             try {
                 const dataURL = await getCanvasDataURLWithOptions(canvasToExport, {
                     format: format,
-                    quality: 1.0,
+                    quality: 0.85,
                     multiplier: downloadMultiplier,
                     applyGrayscale: ui.grayscaleToggle.checked
                 });
@@ -3380,7 +3390,7 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
 
                 const imgData = await getCanvasDataURLWithOptions(canvasToExport, {
                     format: 'jpeg',
-                    quality: 1.0,
+                    quality: 0.85,
                     multiplier: downloadMultiplier,
                     applyGrayscale: ui.grayscaleToggle.checked
                 });
@@ -3441,7 +3451,7 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             document.body.removeChild(link);
         }
         
-        async function applyGrayscaleToDataURL(dataURL, outputFormat = 'image/jpeg', quality = 1.0) {
+        async function applyGrayscaleToDataURL(dataURL, outputFormat = 'image/jpeg', quality = 0.85) {
             return new Promise((resolve, reject) => {
                 const img = new Image();
                 img.onload = () => {
@@ -3827,7 +3837,7 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             const existingAsset = activeCanvas.getObjects().find(obj => obj[assetFlag]);
             if (existingAsset) activeCanvas.remove(existingAsset);
 
-            fabric.Image.fromURL(path, (img) => {
+            LCSImageRef.loadCanvasImage(path, (img) => {
                 if (!img) { showMessage(t('pattern.worksheet.msg.asset.failed'), 'error'); return; }
 
                 const commonConfig = {
@@ -4423,7 +4433,8 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             return { choices: choices, blanks: blanks, sources: sources };
         }
 
-        async function extractDeckBundle(canvas) {
+        async function extractDeckBundle(canvas, options) {
+            var loadingMode = (options && options.loadingMode === 'reference') ? 'reference' : 'inline';
             var pd = canvas.problemsData || {};
             var puzzles = Array.isArray(pd.puzzles) ? pd.puzzles : [];
             if (puzzles.length === 0) {
@@ -4456,34 +4467,90 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
                 };
             });
 
-            // Embed every library image the runtime needs as a base64 data URL so
-            // the downloaded HTML works offline. Dedupe first — a short pattern
-            // reuses the same 2–4 images across many sources.
-            var pathsToEmbed = {};
-            sourceSlots.forEach(function (s) { if (s.path) pathsToEmbed[s.path] = true; });
+            // v18.1 — annotate every path with canonical {theme, key} (when
+            // parseImagePath resolves), populate bundle.imageRefs with WebP
+            // variants per unique (theme, key) pair, and SKIP _pathToDataURL
+            // for canonical paths (the variants in imageRefs cover them — no
+            // double-embedding). _pathToDataURL stays as fallback for any
+            // non-canonical path so non-library images still render offline.
+            function annotate(o, pathField) {
+                if (!o || !window.LCSImageRef) return;
+                var p = o[pathField || 'path'];
+                if (!p) return;
+                var parsed = LCSImageRef.parseImagePath(p);
+                if (parsed) { o.theme = parsed.theme; o.key = parsed.key; }
+            }
+            sourceSlots.forEach(function (s) { annotate(s, 'path'); });
             puzzles.forEach(function (p) {
-                if (p.answerPath) pathsToEmbed[p.answerPath] = true;
-                if (Array.isArray(p.uniqueImages)) {
-                    p.uniqueImages.forEach(function (im) { if (im && im.path) pathsToEmbed[im.path] = true; });
-                }
+                annotate(p, 'answerPath');
+                if (p.theme) { p.answerTheme = p.theme; p.answerKey = p.key; delete p.theme; delete p.key; }
+                if (Array.isArray(p.uniqueImages)) p.uniqueImages.forEach(function (im) { annotate(im, 'path'); });
             });
-            var uniquePaths = Object.keys(pathsToEmbed);
-            var resolvedURLs = await Promise.all(uniquePaths.map(function (p) { return _pathToDataURL(p); }));
-            var pathMap = {};
-            uniquePaths.forEach(function (p, i) { pathMap[p] = resolvedURLs[i]; });
-            var embed = function (p) { return (p && pathMap[p]) ? pathMap[p] : p; };
 
-            // Rewrite paths in the slot/puzzle structures we'll ship in the bundle.
-            sourceSlots.forEach(function (s) { s.path = embed(s.path); });
+            // Build bundle.imageRefs: unique (theme, key) → variants per loadingMode.
+            var imageRefs = {};
+            if (window.LCSImageRef) {
+                var uniqueKeys = {};
+                var collectKey = function (themeKey) {
+                    if (themeKey && themeKey.theme && themeKey.key) {
+                        uniqueKeys[themeKey.theme + '/' + themeKey.key] = { theme: themeKey.theme, key: themeKey.key };
+                    }
+                };
+                sourceSlots.forEach(collectKey);
+                puzzles.forEach(function (p) {
+                    if (p.answerTheme && p.answerKey) collectKey({ theme: p.answerTheme, key: p.answerKey });
+                    if (Array.isArray(p.uniqueImages)) p.uniqueImages.forEach(collectKey);
+                });
+                var pairs = Object.keys(uniqueKeys).map(function (k) { return uniqueKeys[k]; });
+                var resolver = (loadingMode === 'reference')
+                    ? LCSImageRef.referenceVariants
+                    : LCSImageRef.inlineVariants;
+                var loaded = await Promise.all(pairs.map(function (ref) {
+                    return resolver(ref.key, ref.theme).then(function (variants) {
+                        return { key: ref.key, theme: ref.theme, variants: variants };
+                    });
+                }));
+                loaded.forEach(function (entry) {
+                    imageRefs[entry.theme + '/' + entry.key] = { variants: entry.variants };
+                });
+            }
+
+            // Embed only NON-canonical paths via _pathToDataURL (canonical
+            // paths are covered by imageRefs). In reference mode skip this
+            // entirely — non-canonical paths keep their URL string and the
+            // browser fetches at render time.
+            var nonCanonicalPaths = {};
+            if (loadingMode === 'inline') {
+                sourceSlots.forEach(function (s) { if (s.path && !s.theme) nonCanonicalPaths[s.path] = true; });
+                puzzles.forEach(function (p) {
+                    if (p.answerPath && !p.answerTheme) nonCanonicalPaths[p.answerPath] = true;
+                    if (Array.isArray(p.uniqueImages)) {
+                        p.uniqueImages.forEach(function (im) { if (im && im.path && !im.theme) nonCanonicalPaths[im.path] = true; });
+                    }
+                });
+            }
+            var nonCanonicalUnique = Object.keys(nonCanonicalPaths);
+            var nonCanonicalResolved = await Promise.all(nonCanonicalUnique.map(function (p) { return _pathToDataURL(p); }));
+            var nonCanonicalMap = {};
+            nonCanonicalUnique.forEach(function (p, i) { nonCanonicalMap[p] = nonCanonicalResolved[i]; });
+            var embedNonCanonical = function (p) { return (p && nonCanonicalMap[p]) ? nonCanonicalMap[p] : p; };
+
+            // Rewrite paths: canonical paths stay as URL strings (runtime uses
+            // imageRefs); non-canonical paths get base64 in inline mode.
+            sourceSlots.forEach(function (s) { if (!s.theme) s.path = embedNonCanonical(s.path); });
             var rewrittenPuzzles = puzzles.map(function (p) {
                 return {
                     index: p.index,
                     questionType: p.questionType,
                     randomBlank: p.randomBlank,
-                    answerPath: embed(p.answerPath),
+                    answerPath: p.answerTheme ? p.answerPath : embedNonCanonical(p.answerPath),
+                    answerTheme: p.answerTheme,
+                    answerKey: p.answerKey,
                     correctOptionIdx: p.correctOptionIdx,
                     uniqueImages: (Array.isArray(p.uniqueImages) ? p.uniqueImages : []).map(function (im) {
-                        return { path: embed(im && im.path) };
+                        var rebuilt = { path: im && im.theme ? im.path : embedNonCanonical(im && im.path) };
+                        if (im && im.theme) { rebuilt.theme = im.theme; rebuilt.key = im.key; }
+                        return rebuilt;
                     })
                 };
             });
@@ -4493,7 +4560,9 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
                 ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
             return {
-                bundleVersion: '18.0.0',
+                bundleVersion: '18.1.0',
+                schemaFormat: 'image-references-v2',
+                loadingMode: loadingMode,
                 appType: 'pattern-worksheet',
                 createdAt: new Date().toISOString(),
                 contentLanguage: (window.currentLocale || 'en'),
@@ -4507,6 +4576,7 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
                 blankSlots: blankSlots,
                 sourceSlots: sourceSlots,
                 problems: rewrittenPuzzles,
+                imageRefs: imageRefs,
                 attribution: attributionRect ? {
                     text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
                     url: (window.LCSAttribution && LCSAttribution.URL) || 'https://lessoncraftstudio.com',
@@ -4566,6 +4636,8 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             '.lcs-mark__icon{width:22px;height:22px;display:block;flex-shrink:0}',
             '.lcs-hint-pill{position:absolute;left:50%;top:calc(100% + 4px);transform:translateX(-50%);padding:4px 10px;background:#FFF;border:2px solid #4CAF50;border-radius:999px;color:#2E7D32;font-size:clamp(12px,2vw,14px);font-weight:700;box-shadow:0 2px 6px rgba(28,28,30,.12);pointer-events:none;white-space:nowrap}',
             '.lcs-hint-pill img{width:22px;height:22px;vertical-align:middle;margin-right:4px}',
+            // v18.1 — invisible CSS class only used as a hook for variant-aware src selection.
+            '.lcs-img-overlay{user-select:none;-webkit-user-drag:none}',
             '.lcs-footer{position:sticky;bottom:0;z-index:10;margin-top:24px;background:rgba(254,250,243,.95);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-top:1px solid #DCE1E6;padding:16px 12px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap}',
             '.lcs-btn{font-family:inherit;font-weight:700;font-size:17px;padding:14px 28px;border-radius:12px;border:none;cursor:pointer;min-height:52px;min-width:160px;transition:background-color .2s,transform .1s,box-shadow .2s,opacity .2s}',
             '.lcs-btn:active:not([disabled]){transform:scale(.97)}',
@@ -4628,7 +4700,9 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             '      correctOptionIdx:(typeof p.correctOptionIdx==="number"?p.correctOptionIdx:null),',
             '      options:optionChoices.map(function(c){return {choiceIndex:c.choiceIndex,rect:c.rect,selected:false}}),',
             '      blank:blanksForP.length?{rect:blanksForP[0].rect,path:null}:null,',
-            '      sources:sourcesForP.map(function(s,k){return {idx:k,rect:s.rect,path:s.path}}),',
+            '      sources:sourcesForP.map(function(s,k){return {idx:k,rect:s.rect,path:s.path,theme:s.theme,key:s.key}}),',
+            '      answerTheme:p.answerTheme||null,',
+            '      answerKey:p.answerKey||null,',
             '      status:"empty"',
             '    };',
             '  });',
@@ -4642,6 +4716,21 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             '  var phase="fill";',
             '  var celebrationShown=false;',
             '  var titleEl,progressEl,overlayEl,muteBtn,celebrationEl,liveEl,imgEl,checkBtn,resetBtn,summaryEl;',
+            '',
+            '  // v18.1 — variant-selection helpers',
+            '  function pickVariant(w,dpr){var eff=(w||0)*(dpr||1);if(eff<=512)return"1x";if(eff<=1024)return"2x";return"3x";}',
+            '  function getImageURL(b,th,k,v){if(!b||!b.imageRefs)return null;var e=b.imageRefs[th+"/"+k];if(!e||!e.variants)return null;return e.variants[v]||e.variants["2x"]||e.variants["1x"]||e.variants["3x"]||null;}',
+            '  // Pick the right URL for an image at given CSS width: prefer the',
+            '  // canonical (theme,key) variant; fall back to the slot.path string',
+            '  // (which is either a URL or a base64 data URL for non-canonical paths).',
+            '  function srcUrlFor(theme,key,fallbackPath,cssWidth){',
+            '    if(theme&&key&&DECK_BUNDLE.imageRefs){',
+            '      var v=pickVariant(cssWidth,window.devicePixelRatio||1);',
+            '      var url=getImageURL(DECK_BUNDLE,theme,key,v);',
+            '      if(url)return url;',
+            '    }',
+            '    return fallbackPath||"";',
+            '  }',
             '',
             '  function init(){',
             '    titleEl=document.getElementById("lcs-title");',
@@ -4659,6 +4748,31 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             '    if(imgEl&&imgEl.complete&&imgEl.naturalHeight>0){renderTargets();}',
             '    else if(imgEl){imgEl.addEventListener("load",renderTargets);imgEl.addEventListener("error",function(){console.error("[LCS] Worksheet image failed to load")});}',
             '    wireMute();updateMuteButton();wireButtons();',
+            '    // v18.1 — re-pick variants on overlay resize. Walks every',
+            '    // .lcs-img-overlay we own and updates src to the appropriate',
+            '    // variant. Safe to call on transient img elements (ghost/pill).',
+            '    function refreshAllVariants(){',
+            '      if(!overlayEl)return;',
+            '      var imgs=overlayEl.querySelectorAll("img.lcs-img-overlay");',
+            '      for(var i=0;i<imgs.length;i++){',
+            '        var img=imgs[i];',
+            '        var rect=img.getBoundingClientRect();',
+            '        if(!rect||rect.width<=0)continue;',
+            '        // The img doesn\'t carry theme/key directly here — find the',
+            '        // owning blank via DOM ancestry to read its theme/key state.',
+            '        var box=img.closest&&img.closest(".lcs-blank");',
+            '        if(box){',
+            '          var pi=parseInt(box.getAttribute("data-problem"),10);',
+            '          var p=problems[pi];',
+            '          if(p&&p.blank&&(p.blank.theme||p.blank.path)){',
+            '            var newSrc=srcUrlFor(p.blank.theme,p.blank.key,p.blank.path,rect.width);',
+            '            if(img.src!==newSrc)img.src=newSrc;',
+            '          }',
+            '        }',
+            '      }',
+            '    }',
+            '    if(window.ResizeObserver&&overlayEl){try{new ResizeObserver(refreshAllVariants).observe(overlayEl);}catch(e){}}',
+            '    window.__lcsRefreshOverlayVariants=refreshAllVariants;',
             '  }',
             '',
             '  function renderProgress(){',
@@ -4791,15 +4905,16 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             '    e.preventDefault();',
             '    var ghost=document.createElement("div");',
             '    ghost.className="lcs-drag-ghost";',
-            '    ghost.innerHTML=\'<img alt="" src="\'+src.path+\'">\';',
             '    // Size ghost roughly to match the source\'s rendered size.',
             '    var rect=e.currentTarget.getBoundingClientRect();',
             '    var w=Math.max(44,Math.min(160,rect.width));',
             '    var h=Math.max(44,Math.min(160,rect.height));',
+            '    var ghostSrc=srcUrlFor(src.theme,src.key,src.path,w);',
+            '    ghost.innerHTML=\'<img alt="" class="lcs-img-overlay" src="\'+ghostSrc+\'">\';',
             '    ghost.style.width=w+"px";ghost.style.height=h+"px";',
             '    ghost.style.left=e.clientX+"px";ghost.style.top=e.clientY+"px";',
             '    document.body.appendChild(ghost);',
-            '    drag={problemIndex:problemIndex,path:src.path,ghost:ghost,pointerId:e.pointerId};',
+            '    drag={problemIndex:problemIndex,path:src.path,theme:src.theme,key:src.key,ghost:ghost,pointerId:e.pointerId};',
             '    window.addEventListener("pointermove",onDragMove);',
             '    window.addEventListener("pointerup",onDragUp);',
             '    window.addEventListener("pointercancel",onDragUp);',
@@ -4826,10 +4941,13 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             '      var p=problems[drag.problemIndex];',
             '      if(p&&p.blank){',
             '        p.blank.path=drag.path;',
+            '        p.blank.theme=drag.theme;p.blank.key=drag.key;',
             '        p.status="filled";',
             '        box.classList.remove("lcs-blank--empty");',
             '        box.classList.remove("lcs-blank--drop-hover");',
-            '        box.innerHTML=\'<img alt="" src="\'+drag.path+\'">\';',
+            '        var boxRect=box.getBoundingClientRect();',
+            '        var boxSrc=srcUrlFor(drag.theme,drag.key,drag.path,boxRect.width||80);',
+            '        box.innerHTML=\'<img alt="" class="lcs-img-overlay" src="\'+boxSrc+\'">\';',
             '        box.removeAttribute("data-status");',
             '        syncDots();updateCheckButton();',
             '      }',
@@ -4901,10 +5019,11 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             '            box.setAttribute("data-status","wrong");',
             '            probOk=false;',
             '            // Show the expected image as a pill below the blank.',
-            '            if(p.answerPath){',
+            '            if(p.answerPath||(p.answerTheme&&p.answerKey)){',
             '              var pill=document.createElement("span");',
             '              pill.className="lcs-hint-pill";',
-            '              pill.innerHTML=\'<img alt="" src="\'+p.answerPath+\'"> \\u2713\';',
+            '              var pillSrc=srcUrlFor(p.answerTheme,p.answerKey,p.answerPath,22);',
+            '              pill.innerHTML=\'<img alt="" class="lcs-img-overlay" src="\'+pillSrc+\'"> \\u2713\';',
             '              box.appendChild(pill);',
             '            }',
             '          }',
@@ -5067,14 +5186,15 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             return parts.join('\n');
         }
 
-        async function downloadInteractiveHtml(canvasInstance, fileName) {
+        async function downloadInteractiveHtml(canvasInstance, fileName, options) {
+            var loadingMode = (options && options.loadingMode) || 'inline';
             if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
                 showMessage(t('pattern.worksheet.msg.generate.first') || 'Please generate a worksheet first.', 'error');
                 return;
             }
             showMessage('Preparing ' + fileName + '...', 'info', 0);
             try {
-                var bundle = await extractDeckBundle(canvasInstance);
+                var bundle = await extractDeckBundle(canvasInstance, { loadingMode: loadingMode });
                 if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
                     throw new Error('Worksheet snapshot is empty.');
                 }
@@ -5373,7 +5493,7 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
 
     const blob = new Blob([modified], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('pattern failed to load'); return; }
       img.set({
@@ -5410,7 +5530,7 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
 
     const blob = new Blob([sized], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('texture failed to load'); return; }
       img.set({

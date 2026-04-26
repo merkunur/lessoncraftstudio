@@ -3,6 +3,7 @@
 <head>
     <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
+    <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <title data-translate="additionGenerator">Image Addition Worksheet Generator</title>
@@ -1527,6 +1528,7 @@
                 <button id="downloadAnswerKeyPdfBtn" disabled data-translate="answerKeyPdf">Answer Key (PDF)</button>
                 <hr style="margin: 6px 0; border-color: #eee;">
                 <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
+                <button id="downloadInteractiveHtmlReferenceBtn" disabled title="For server-hosted catalog playback. Smaller file, requires the same site to host the WebP library.">Interactive Worksheet (Catalog/URL refs)</button>
                 <hr style="margin: 6px 0; border-color: #eee;">
                 <label class="checkbox-label">
                     <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
@@ -1698,7 +1700,7 @@
       const DEFAULT_SHOW_PLUS_SIGN = true;
       const DEFAULT_INCLUDE_EXERCISE_NUMBERS = true;
       const DEFAULT_USE_FRIENDLY_BOX = true;
-      const downloadMultiplier = 6; // Use 6 for high-resolution output (minimum 400 DPI)
+      const downloadMultiplier = 4; // Use 6 for high-resolution output (minimum 400 DPI)
 
       const problemCountInput = document.getElementById("problemCount");
       const exerciseModeSelect = document.getElementById("exerciseMode");
@@ -1739,6 +1741,7 @@
       const downloadWorksheetPdfBtn = document.getElementById("downloadWorksheetPdfBtn");
       const downloadAnswerKeyPdfBtn = document.getElementById("downloadAnswerKeyPdfBtn");
       const downloadInteractiveHtmlBtn = document.getElementById("downloadInteractiveHtmlBtn");
+      const downloadInteractiveHtmlReferenceBtn = document.getElementById("downloadInteractiveHtmlReferenceBtn");
       const clearBtn = document.getElementById("clearBtn");
       const grayscaleToggle = document.getElementById('grayscaleToggle');
 
@@ -3443,7 +3446,7 @@
             async function createImageSubGroup(count, imgData, startXRel, overlayStartNum) {
                 const subGroupElements = []; let currentImgXRel = startXRel;
                 for (let j = 0; j < count; j++) {
-                    const img = await new Promise(resolve => fabric.Image.fromURL(imgData.path, resolve, { crossOrigin: 'anonymous' }));
+                    const img = await new Promise(resolve => LCSImageRef.loadCanvasImage(imgData.path, resolve, { crossOrigin: 'anonymous' }));
                     if (!img) continue;
                     img.scaleToWidth(imageSize);
                     const actualImageHeight = img.getScaledHeight();
@@ -3679,8 +3682,12 @@
         downloadWorksheetJpegBtn.disabled = false;
         downloadWorksheetPdfBtn.disabled = false;
         downloadInteractiveHtmlBtn.disabled = false;
+        downloadInteractiveHtmlReferenceBtn.disabled = false;
         generateAnswerKeyBtn.disabled = false;
         showMessage(t('worksheetGeneratedSuccessfully'), "success");
+        // Required by image-reference.js propagation checklist item 10.
+        // Verifier scripts watch this counter to detect generation completion.
+        window.__lcsGenerationCounter = (window.__lcsGenerationCounter || 0) + 1;
 
         // Reset generating flag and save initial state
         isGenerating = false;
@@ -3823,7 +3830,7 @@
             async function createImageSubGroup(count, imgData, startXRel, overlayStartNum) {
                 const subGroupElements = []; let currentImgXRel = startXRel;
                 for (let j = 0; j < count; j++) {
-                    const img = await new Promise(resolve => fabric.Image.fromURL(imgData.path, resolve, { crossOrigin: 'anonymous' }));
+                    const img = await new Promise(resolve => LCSImageRef.loadCanvasImage(imgData.path, resolve, { crossOrigin: 'anonymous' }));
                     if (!img) continue;
                     img.scaleToWidth(imageSize);
                     const actualImageHeight = img.getScaledHeight();
@@ -4089,7 +4096,7 @@
         
         let dataURL = canvasInstance.toDataURL({
             format: 'jpeg',
-            quality: 1.0,
+            quality: 0.85,
             multiplier: exportOpts.multiplier
         });
         
@@ -4316,10 +4323,54 @@
         return { x: center.x, y: center.y, w: worldW };
     }
 
-    async function extractDeckBundle(canvas) {
+    // Walk an isGeneratedItem group recursively, collecting every fabric.Image
+    // descendant with its world-space rect. The operand illustrations are the
+    // only fabric.Image instances inside these groups (no decorative
+    // background images live there), so this is a complete enumeration.
+    // Per CLAUDE.md §14.7: never use getBoundingRect on grouped children —
+    // calcTransformMatrix is the only correct path to world coords. Use the
+    // image's intrinsic width/height (NOT scaled — calcTransformMatrix already
+    // includes its own scale).
+    function _collectImagesDeep(group, out) {
+        if (!group || !group._objects) return out;
+        for (var i = 0; i < group._objects.length; i++) {
+            var c = group._objects[i];
+            if (!c) continue;
+            if (c.type === 'image') {
+                var m = c.calcTransformMatrix();
+                var hw = (c.width || 1) / 2;
+                var hh = (c.height || 1) / 2;
+                var corners = [
+                    fabric.util.transformPoint({ x: -hw, y: -hh }, m),
+                    fabric.util.transformPoint({ x:  hw, y: -hh }, m),
+                    fabric.util.transformPoint({ x:  hw, y:  hh }, m),
+                    fabric.util.transformPoint({ x: -hw, y:  hh }, m)
+                ];
+                var xs = corners.map(function (p) { return p.x; });
+                var ys = corners.map(function (p) { return p.y; });
+                var minX = Math.min.apply(null, xs), maxX = Math.max.apply(null, xs);
+                var minY = Math.min.apply(null, ys), maxY = Math.max.apply(null, ys);
+                out.push({
+                    rect: {
+                        x: (minX + maxX) / 2,
+                        y: (minY + maxY) / 2,
+                        w: maxX - minX,
+                        h: maxY - minY
+                    }
+                });
+            } else if (c._objects) {
+                _collectImagesDeep(c, out);
+            }
+        }
+        return out;
+    }
+
+    async function extractDeckBundle(canvas, options) {
+        var loadingMode = (options && options.loadingMode === 'reference') ? 'reference' : 'inline';
         var problemsData = canvas.problemsData || [];
         var modeByIndex = {};
         var rectByIndex = {};
+        var imageRefsByIndex = {};
         canvas.getObjects().forEach(function (obj) {
             if (obj.isGeneratedItem === true && typeof obj.originalIndex === 'number') {
                 var idx = obj.originalIndex;
@@ -4345,18 +4396,62 @@
                     }
                     rectByIndex[idx] = { x: lw.x, y: yWorld, w: lw.w };
                 }
+                // Bundle v5: collect world rects of every operand image
+                // illustration in this problem. The image identity (theme +
+                // key) comes from problemsData[idx].image, applied to all
+                // placements (per problem only one image is used — see
+                // createImageSubGroup at lines ~3443/3567).
+                imageRefsByIndex[idx] = _collectImagesDeep(obj, []);
             }
         });
 
+        // Resolve identity (key + theme) for each problem's image and attach
+        // it to the placement records. parseImagePath understands the
+        // /images/<theme>/<file>.png shape produced by /api/images.
+        var worksheetTheme = (typeof themeSelect !== 'undefined' && themeSelect && themeSelect.value) || null;
         var problems = problemsData.map(function (p, i) {
+            var placements = imageRefsByIndex[i] || [];
+            var parsed = (window.LCSImageRef && p && p.image && p.image.path)
+                ? LCSImageRef.parseImagePath(p.image.path)
+                : null;
+            var imageRefs = (parsed && placements.length)
+                ? placements.map(function (pl) { return { key: parsed.key, theme: parsed.theme, rect: pl.rect }; })
+                : [];
             return {
                 index: i,
                 operandA: p.operandA,
                 operandB: p.operandB,
                 resolvedMode: modeByIndex[i] || (exerciseModeSelect ? exerciseModeSelect.value : 'image-image'),
-                inputRect: rectByIndex[i] || null
+                inputRect: rectByIndex[i] || null,
+                imageRefs: imageRefs
             };
         }).filter(function (p) { return p.inputRect !== null; });
+
+        // Dedupe (theme, key) pairs across all problems. For each unique
+        // pair, build the variants map according to loadingMode:
+        //   inline    — base64 data URLs (offline-capable, larger bundle)
+        //   reference — absolute /image-library-webp/... URLs (server-hosted, small bundle)
+        // Either way, the bundle shape is identical; the runtime sets
+        // img.src to whichever string is present.
+        var imageRefs = {};
+        if (window.LCSImageRef) {
+            var uniqueKeys = {};
+            problems.forEach(function (p) {
+                p.imageRefs.forEach(function (ref) { uniqueKeys[ref.theme + '/' + ref.key] = ref; });
+            });
+            var pairs = Object.keys(uniqueKeys).map(function (k) { return uniqueKeys[k]; });
+            var resolver = (loadingMode === 'reference')
+                ? LCSImageRef.referenceVariants
+                : LCSImageRef.inlineVariants;
+            var loaded = await Promise.all(pairs.map(function (ref) {
+                return resolver(ref.key, ref.theme).then(function (variants) {
+                    return { key: ref.key, theme: ref.theme, variants: variants };
+                });
+            }));
+            loaded.forEach(function (entry) {
+                imageRefs[entry.theme + '/' + entry.key] = { variants: entry.variants };
+            });
+        }
 
         // Extract the attribution's world rect (if present) so the play
         // page can overlay a clickable <a href> on top of the baked text.
@@ -4367,16 +4462,20 @@
         var worksheetImage = await _captureWorksheetImage(canvas);
 
         return {
-            bundleVersion: '4.0.0',
+            bundleVersion: '5.1.0',
+            schemaFormat: 'image-references-v2',
+            loadingMode: loadingMode,
             appType: 'addition',
             createdAt: new Date().toISOString(),
             contentLanguage: (window.currentLocale || (languageSelect && languageSelect.value) || 'en'),
             title: 'Addition Practice',
+            theme: worksheetTheme,
             page: {
                 width: currentCanvasConfig.width,
                 height: currentCanvasConfig.height
             },
             worksheetImage: worksheetImage,
+            imageRefs: imageRefs,
             problems: problems,
             attribution: attributionRect ? {
                 text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
@@ -4454,6 +4553,12 @@
         '.lcs-attrib-link{position:absolute;transform:translate(-50%,-50%);pointer-events:auto;cursor:pointer;background:transparent;outline:none;border-radius:4px;transition:background .15s}',
         '.lcs-attrib-link:hover{background:rgba(78,95,232,.06)}',
         '.lcs-attrib-link:focus-visible{outline:2px solid #4E5FE8;outline-offset:2px}',
+        // Bundle v5 — sharp WebP overlay for each operand illustration. Sits
+        // on top of the baked JPEG snapshot at the same world coordinates so
+        // it visually replaces the JPEG region with a sharper variant chosen
+        // by device pixel ratio. pointer-events:none keeps clicks flowing to
+        // the answer-input slots that share the overlay layer.
+        '.lcs-img-overlay{position:absolute;pointer-events:none;user-select:none;-webkit-user-drag:none}',
         '@media (prefers-reduced-motion:reduce){',
         '  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.15s !important}',
         '  .lcs-spark,.lcs-confetti{display:none}',
@@ -4485,6 +4590,14 @@
         '',
         '  function expectedAnswer(s){return (s.mode==="find-addend")?s.operandB:(s.operandA+s.operandB)}',
         '',
+        '  // Bundle v5 — pick the appropriate WebP variant given the overlays',
+        '  // current CSS width × the device pixel ratio. Thresholds match the',
+        '  // converter (longest-edge: @1x≤512, @2x≤1024, @3x≤1536).',
+        '  function pickVariant(w,dpr){var eff=(w||0)*(dpr||1);if(eff<=512)return"1x";if(eff<=1024)return"2x";return"3x";}',
+        '  function getImageURL(b,th,k,v){if(!b||!b.imageRefs)return null;var e=b.imageRefs[th+"/"+k];if(!e||!e.variants)return null;return e.variants[v]||e.variants["2x"]||e.variants["1x"]||e.variants["3x"]||null;}',
+        '  function updateOverlayVariant(img,ref){var rect=img.getBoundingClientRect();if(!rect||rect.width<=0)return;var v=pickVariant(rect.width,window.devicePixelRatio||1);if(img.dataset.variant===v)return;var url=getImageURL(DECK_BUNDLE,ref.theme,ref.key,v);if(url){img.dataset.variant=v;img.src=url;}}',
+        '  function refreshAllVariants(){if(!overlayEl)return;var imgs=overlayEl.querySelectorAll("img.lcs-img-overlay");for(var i=0;i<imgs.length;i++){var img=imgs[i];var k=img.getAttribute("data-image-ref")||"";var p=k.indexOf("/");if(p<0)continue;updateOverlayVariant(img,{theme:k.slice(0,p),key:k.slice(p+1)});}}',
+        '',
         '  function init(){',
         '    titleEl=document.getElementById("lcs-title");',
         '    progressEl=document.getElementById("lcs-progress");',
@@ -4505,6 +4618,13 @@
         '    wireMute();',
         '    updateMuteButton();',
         '    wireButtons();',
+        '    // Re-pick WebP variants when the overlay container changes size',
+        '    // (browser resize, browser zoom, orientation change). Browser',
+        '    // caches data URLs so swapping img.src is essentially free.',
+        '    if(window.ResizeObserver&&overlayEl){try{new ResizeObserver(refreshAllVariants).observe(overlayEl);}catch(e){}}',
+        '    // Test hook — lets verification scripts force a re-pick after',
+        '    // manipulating overlay dimensions directly. No production effect.',
+        '    window.__lcsRefreshOverlayVariants=refreshAllVariants;',
         '  }',
         '',
         '  function renderProgress(){',
@@ -4535,6 +4655,28 @@
         '    var pw=DECK_BUNDLE.page.width;',
         '    var ph=DECK_BUNDLE.page.height;',
         '    state.forEach(function(s,i){',
+        '      // Bundle v5 — overlay sharp WebP at each operand image position.',
+        '      // Appended BEFORE the input slot so the slot stays on top in z-order.',
+        '      var pdata=DECK_BUNDLE.problems[i]||{};',
+        '      var refs=(pdata.imageRefs)||[];',
+        '      for(var ri=0;ri<refs.length;ri++){',
+        '        var ref=refs[ri];',
+        '        if(!ref||!ref.rect)continue;',
+        '        var img=document.createElement("img");',
+        '        img.className="lcs-img-overlay";',
+        '        img.alt="";',
+        '        img.setAttribute("data-image-ref",ref.theme+"/"+ref.key);',
+        '        var iLeft=((ref.rect.x-ref.rect.w/2)/pw)*100;',
+        '        var iTop=((ref.rect.y-ref.rect.h/2)/ph)*100;',
+        '        var iW=(ref.rect.w/pw)*100;',
+        '        var iH=(ref.rect.h/ph)*100;',
+        '        img.style.left=iLeft.toFixed(3)+"%";',
+        '        img.style.top=iTop.toFixed(3)+"%";',
+        '        img.style.width=iW.toFixed(3)+"%";',
+        '        img.style.height=iH.toFixed(3)+"%";',
+        '        overlayEl.appendChild(img);',
+        '        updateOverlayVariant(img,ref);',
+        '      }',
         '      if(!s.inputRect) return;',
         '      var ir=s.inputRect;',
         '      var xPct=(ir.x/pw)*100;',
@@ -4805,14 +4947,15 @@
         return parts.join('\n');
     }
 
-    async function downloadInteractiveHtml(canvasInstance, fileName) {
+    async function downloadInteractiveHtml(canvasInstance, fileName, options) {
         if (!canvasInstance || !canvasInstance.problemsData || canvasInstance.getObjects().length === 0) {
             showMessage(t('pleaseGenerateContentFirst') || 'Please generate a worksheet first.', 'error');
             return;
         }
-        showMessage('Preparing ' + fileName + '...', 'info', 0);
+        var mode = (options && options.loadingMode) || 'inline';
+        showMessage('Preparing ' + fileName + ' (' + mode + ' mode)...', 'info', 0);
         try {
-            var bundle = await extractDeckBundle(canvasInstance);
+            var bundle = await extractDeckBundle(canvasInstance, { loadingMode: mode });
             if (!bundle.worksheetImage || bundle.worksheetImage.length < 100) {
                 throw new Error('Worksheet snapshot is empty.');
             }
@@ -4830,11 +4973,11 @@
 
             showMessage('Interactive worksheet downloaded.', 'success');
         } catch (e) {
-            console.error('[Interactive Export v4] Failed:', e);
+            console.error('[Interactive Export v5] Failed:', e);
             showMessage('Interactive export failed: ' + e.message, 'error');
         }
     }
-    // END: Interactive-HTML export v4
+    // END: Interactive-HTML export v5 (image-references-v1)
 
     // --- BORDER & BACKGROUND LOGIC ---
     // REMOVED - Now handled entirely by BulletproofLoader
@@ -4943,7 +5086,7 @@
 
     // Unified overlay function - same pattern as alphabet train
     async function addOverlayToCanvas(path, propName, opacitySlider) {
-        const img = await new Promise((resolve) => fabric.Image.fromURL(path, resolve, { crossOrigin: 'anonymous' }));
+        const img = await new Promise((resolve) => LCSImageRef.loadCanvasImage(path, resolve, { crossOrigin: 'anonymous' }));
         if (!img) return;
 
         const activeCanvas = getActiveCanvas();
@@ -5220,7 +5363,8 @@
       downloadAnswerKeyJpegBtn.addEventListener("click", () => downloadJpegFile(answerKeyCanvas, 'addition_answer_key.jpeg'));
       downloadWorksheetPdfBtn.addEventListener("click", () => downloadPdfFile(worksheetCanvas, 'addition_worksheet.pdf'));
       downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPdfFile(answerKeyCanvas, 'addition_answer_key.pdf'));
-      downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'addition_interactive.html'));
+      downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'addition_interactive.html', { loadingMode: 'inline' }));
+      downloadInteractiveHtmlReferenceBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'addition_interactive_reference.html', { loadingMode: 'reference' }));
 
       // Zoom button listeners (matches wordsearch)
       zoomInBtn.addEventListener('click', zoomIn);
@@ -5725,7 +5869,7 @@
 
     const blob = new Blob([modified], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('pattern failed to load'); return; }
       img.set({
@@ -5762,7 +5906,7 @@
 
     const blob = new Blob([sized], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
-    fabric.Image.fromURL(url, (img) => {
+    LCSImageRef.loadCanvasImage(url, (img) => {
       URL.revokeObjectURL(url);
       if (!img) { console.warn('texture failed to load'); return; }
       img.set({

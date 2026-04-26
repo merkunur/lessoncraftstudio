@@ -3811,7 +3811,7 @@
 
         // --- File Download ---
         async function getFabricCanvasDataURLWithOptions(canvasInstance, exportOpts) { canvasInstance.discardActiveObject().renderAll(); let dataURL = canvasInstance.toDataURL({ format: 'jpeg', quality: 0.85, multiplier: exportOpts.multiplier }); if (exportOpts.applyGrayscale) dataURL = await applyGrayscaleToDataURL(dataURL); return dataURL; }
-        async function applyGrayscaleToDataURL(dataURL) { return new Promise((resolve) => { const img = new Image(); img.onload = () => { const canvas = document.createElement('canvas'); const ctx = canvas.getContext('2d'); canvas.width = img.width; canvas.height = img.height; ctx.drawImage(img, 0, 0); const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height); const data = imageData.data; for (let i = 0; i < data.length; i += 4) { const gray = data[i] * 0.2126 + data[i + 1] * 0.7152 + data[i + 2] * 0.0722; data[i] = data[i + 1] = data[i + 2] = gray; } ctx.putImageData(imageData, 0, 0); resolve(canvas.toDataURL('image/jpeg', 1.0)); }; img.crossOrigin = "Anonymous"; img.src = dataURL; }); }
+        async function applyGrayscaleToDataURL(dataURL) { return new Promise((resolve) => { const img = new Image(); img.onload = () => { const canvas = document.createElement('canvas'); const ctx = canvas.getContext('2d'); canvas.width = img.width; canvas.height = img.height; ctx.drawImage(img, 0, 0); const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height); const data = imageData.data; for (let i = 0; i < data.length; i += 4) { const gray = data[i] * 0.2126 + data[i + 1] * 0.7152 + data[i + 2] * 0.0722; data[i] = data[i + 1] = data[i + 2] = gray; } ctx.putImageData(imageData, 0, 0); resolve(canvas.toDataURL('image/jpeg', 0.85)); }; img.crossOrigin = "Anonymous"; img.src = dataURL; }); }
         async function downloadImageFile(canvasToExport, baseFilename) { 
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
                 showMessage(t('prepositions.msg.empty.canvas'), 'error');
@@ -3947,7 +3947,7 @@
                 });
 
                 const exportOptions = { 
-                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 4, 
                     applyGrayscale: dom.grayscaleToggle && dom.grayscaleToggle.checked 
                 };
                 
@@ -4788,7 +4788,7 @@
             
             try {
                 const exportOptions = { 
-                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 4, 
                     applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
                 };
                 const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);

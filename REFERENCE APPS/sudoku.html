@@ -4387,7 +4387,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     data[i] = data[i + 1] = data[i + 2] = g;
                 }
                 ctx.putImageData(iData, 0, 0);
-                resolve(c.toDataURL('image/jpeg', 1.0));
+                resolve(c.toDataURL('image/jpeg', 0.85));
             };
             img.onerror = (err) => reject(err);
             img.src = dataURL;

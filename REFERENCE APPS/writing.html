@@ -2718,7 +2718,7 @@ async function applyGrayscaleToDataURL(dataURL) {
                 data[i] = data[i + 1] = data[i + 2] = gray;
             }
             ctx.putImageData(imageData, 0, 0);
-            resolve(canvas.toDataURL('image/jpeg', 1.0));
+            resolve(canvas.toDataURL('image/jpeg', 0.85));
         };
         img.src = dataURL;
     });
@@ -2762,7 +2762,7 @@ async function downloadFile(format) {
             ctx.restore();
         }
 
-        let imageDataURL = capturedCanvas.toDataURL('image/jpeg', 1.0); // High quality JPEG
+        let imageDataURL = capturedCanvas.toDataURL('image/jpeg', 0.85); // High quality JPEG
 
         if (document.getElementById('grayscaleToggle').checked) {
             imageDataURL = await applyGrayscaleToDataURL(imageDataURL);
@@ -4885,7 +4885,7 @@ window.addEventListener('resize', renderWorksheet);
                 });
 
                 const exportOptions = { 
-                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 4, 
                     applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
                 };
                 
@@ -4919,7 +4919,7 @@ window.addEventListener('resize', renderWorksheet);
             
             try {
                 const exportOptions = { 
-                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 4, 
                     applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
                 };
                 const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);

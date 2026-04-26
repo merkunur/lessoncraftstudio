@@ -4306,7 +4306,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     data[i] = data[i + 1] = data[i + 2] = gray;
                 }
                 ctx.putImageData(imageData, 0, 0);
-                resolve(tempCanvas.toDataURL('image/jpeg', 1.0));
+                resolve(tempCanvas.toDataURL('image/jpeg', 0.85));
             };
             img.onerror = reject;
             img.src = dataURL;
@@ -4454,7 +4454,7 @@ document.addEventListener("DOMContentLoaded", function() {
             
             try {
                 const exportOptions = { 
-                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 4, 
                     applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
                 };
                 const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);

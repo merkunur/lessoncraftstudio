@@ -3063,7 +3063,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         if (grayscale) {
             try {
-                dataURL = await applyGrayscaleToDataURL(dataURL, 'image/jpeg', 1.0);
+                dataURL = await applyGrayscaleToDataURL(dataURL, 'image/jpeg', 0.85);
             } catch (error) {
                 console.error("Grayscale conversion failed:", error);
                 showMessage(t('drawcolor.msg.grayscale.error'), 'error');
@@ -3195,7 +3195,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 });
 
                 const exportOptions = { 
-                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 4, 
                     applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
                 };
                 
@@ -3229,7 +3229,7 @@ document.addEventListener("DOMContentLoaded", function() {
             
             try {
                 const exportOptions = { 
-                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 4, 
                     applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
                 };
                 const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);

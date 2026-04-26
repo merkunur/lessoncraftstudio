@@ -3763,7 +3763,7 @@
           });
 
           if (exportOptions.applyPixelLevelGrayscale) {
-              return applyGrayscaleToDataURL(dataURL, 'image/jpeg', 1.0);
+              return applyGrayscaleToDataURL(dataURL, 'image/jpeg', 0.85);
           }
           return dataURL;
       }
@@ -3907,7 +3907,7 @@
                 });
 
                 const exportOptions = { 
-                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 4, 
                     applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
                 };
                 
@@ -3941,7 +3941,7 @@
             
             try {
                 const exportOptions = { 
-                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 4, 
                     applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
                 };
                 const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);

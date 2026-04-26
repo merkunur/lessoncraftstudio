@@ -3934,7 +3934,7 @@
                 });
 
                 const exportOptions = {
-                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6,
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 4,
                     applyPixelLevelGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked
                 };
                 
@@ -3968,7 +3968,7 @@
             
             try {
                 const exportOptions = {
-                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6,
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 4,
                     applyPixelLevelGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked
                 };
                 const dataURL = await getFabricCanvasDataURLWithOptions(canvasToExport, exportOptions);

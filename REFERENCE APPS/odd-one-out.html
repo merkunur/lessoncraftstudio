@@ -3071,38 +3071,20 @@
 
         worksheetCanvas.renderAll();
 
-        // v27.0 — snapshot per-problem option rects + correctOptionIndex for the
-        // interactive export. Walk the problem cards, promote each option's local
-        // rect to world coords using the card's actual rendered bbox.
+        // v27.1.0 — defer per-option world-rect math to extractDeckBundle so
+        // operator drags/scales of individual problem cards between Generate
+        // and Download are honored. Stash a defensive snapshot of
+        // lastGeneratedRows (per-row item paths) on problemsData so the
+        // bundle's optionPath lookup is decoupled from later mutations.
         try {
-            const cardObjs = worksheetCanvas.getObjects().filter(o => o.isProblemCard).sort((a, b) => a.problemIndex - b.problemIndex);
-            const problems = cardObjs.map(card => {
-                const cb = card.getBoundingRect(true, true);
-                // Card bbox should equal the cardBg's world rect (the card is
-                // the largest child so its rect dominates the bbox).
-                const cw = card.cardWidth || cb.width;
-                const ch = card.cardHeight || cb.height;
-                const sx = cb.width / cw;
-                const sy = cb.height / ch;
-                const opts = (card.optionLocalRects || []).map((r, j) => ({
-                    index: j,
-                    rect: {
-                        x: cb.left + r.x * sx,
-                        y: cb.top  + r.y * sy,
-                        w: r.w * sx,
-                        h: r.h * sy
-                    },
-                    path: (lastGeneratedRows[card.problemIndex] && lastGeneratedRows[card.problemIndex].items[j]) ? lastGeneratedRows[card.problemIndex].items[j].path : null
-                }));
-                return {
-                    index: card.problemIndex,
-                    options: opts,
-                    correctOptionIndex: card.correctOptionIndex
-                };
-            });
-            worksheetCanvas.problemsData = { problems };
+            worksheetCanvas.problemsData = {
+                hasGeneration: true,
+                rowsSnapshot: (lastGeneratedRows || []).map(row => ({
+                    items: ((row && row.items) || []).map(it => ({ path: it && it.path ? it.path : null }))
+                }))
+            };
         } catch (e) {
-            console.warn('[odd-one-out v27.0] failed to capture problemsData:', e);
+            console.warn('[odd-one-out v27.1.0] failed to capture problemsData:', e);
         }
 
         ui.generateAnswerKeyBtn.disabled = false;
@@ -3847,8 +3829,47 @@
       async function extractDeckBundle(canvas, options) {
           var loadingMode = (options && options.loadingMode === 'reference') ? 'reference' : 'inline';
           var pd = canvas.problemsData || null;
-          if (!pd || !Array.isArray(pd.problems) || pd.problems.length === 0) {
+          if (!pd || pd.hasGeneration !== true) {
               throw new Error('No problemsData on canvas. Generate a worksheet first.');
+          }
+
+          // v27.1.0 — walk the canvas FRESH for problem cards. Each card's
+          // CURRENT bbox is used to promote its stored optionLocalRects to
+          // world coords; calcTransformMatrix-equivalent math via
+          // getBoundingRect(true,true) honors operator drags/scales of
+          // individual cards.
+          var cardObjs = canvas.getObjects()
+              .filter(function (o) { return o && o.isProblemCard === true; })
+              .sort(function (a, b) { return a.problemIndex - b.problemIndex; });
+          var rowsSnap = Array.isArray(pd.rowsSnapshot) ? pd.rowsSnapshot : [];
+          var problems = cardObjs.map(function (card) {
+              var cb = card.getBoundingRect(true, true);
+              var cw = card.cardWidth || cb.width;
+              var ch = card.cardHeight || cb.height;
+              var sx = cb.width / cw;
+              var sy = cb.height / ch;
+              var snapItems = (rowsSnap[card.problemIndex] && rowsSnap[card.problemIndex].items) || [];
+              var opts = (card.optionLocalRects || []).map(function (r, j) {
+                  return {
+                      index: j,
+                      rect: {
+                          x: cb.left + r.x * sx,
+                          y: cb.top  + r.y * sy,
+                          w: r.w * sx,
+                          h: r.h * sy
+                      },
+                      path: (snapItems[j] && snapItems[j].path) || null
+                  };
+              });
+              return {
+                  index: card.problemIndex,
+                  options: opts,
+                  correctOptionIndex: card.correctOptionIndex
+              };
+          });
+
+          if (problems.length === 0) {
+              throw new Error('No problem cards detected on canvas. Regenerate the worksheet.');
           }
 
           var worksheetImage = await _captureWorksheetImage(canvas);
@@ -3856,7 +3877,7 @@
               ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
           return {
-              bundleVersion: '27.0.0',
+              bundleVersion: '27.1.0',
               schemaFormat: 'image-references-v3',
               loadingMode: loadingMode,
               appType: 'odd-one-out',
@@ -3866,7 +3887,7 @@
               page: { width: currentCanvasConfig.width, height: currentCanvasConfig.height },
               worksheetImage: worksheetImage,
               scoring: 'strict',
-              problems: pd.problems,
+              problems: problems,
               imageRefs: {},
               attribution: attributionRect ? {
                   text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',

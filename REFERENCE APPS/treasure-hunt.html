@@ -3339,7 +3339,7 @@
       });
 
       // ============================================================
-      // Interactive-HTML export v32.0.0 (treasure-hunt) — Family B drag-to-trace
+      // Interactive-HTML export v32.0.1 (treasure-hunt) — Family B drag-to-trace
       // adapted from picture-path v29.3.0. The kid drags from the START cell
       // (locked) cell-by-cell along orthogonal-adjacent steps to the treasure.
       // No walls. No visible end marker (revealing the answer would defeat the
@@ -3447,7 +3447,7 @@
               ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
           return {
-              bundleVersion: '32.0.0',
+              bundleVersion: '32.0.1',
               schemaFormat: 'image-references-v3',
               appType: 'treasure-hunt',
               createdAt: new Date().toISOString(),
@@ -3695,14 +3695,9 @@
           '    if(!cell) return;',
           '    var last=trace[trace.length-1];',
           '    if(cellEqual(last,cell)) return;',
-          '    if(trace.length>=2 && cellEqual(trace[trace.length-2],cell)){',
-          '      trace.pop();',
-          '      redrawTrace();',
-          '      playTone(440,0.03);',
-          '      return;',
-          '    }',
           '    if(!canMoveTo(last,cell)) return;',
-          '    for(var i=0;i<trace.length;i++) if(cellEqual(trace[i],cell)) return;',
+          '    // Revisits intentional: solutionPath can repeat cells (e.g. "2 east, 1 west").',
+          '    if(trace.length>=totalCells) return;',
           '    trace.push(cell);',
           '    redrawTrace();',
           '    playTone(560+trace.length*8,0.03);',
@@ -3947,7 +3942,7 @@
               showMessage('Interactive export failed: ' + e.message, 'error');
           }
       }
-      // END: Interactive-HTML export v32.0.0
+      // END: Interactive-HTML export v32.0.1
 
       /**
        * Snapshot the canonical fields catalog-export.js needs for the
@@ -4005,7 +4000,7 @@
                   return cachedBundle;
               };
               var result = await window.LCSCatalogExport.export({
-                  app: { name: 'treasure-hunt', version: '32.0.0', bundleVersion: 32 },
+                  app: { name: 'treasure-hunt', version: '32.0.1', bundleVersion: 32 },
                   language: window.currentLocale || 'en',
                   exerciseType: 'treasure-hunt',
                   exerciseMode: null,

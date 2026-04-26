@@ -4363,6 +4363,17 @@ function updateTranslations() {
                     width: boxLocal.width, height: boxLocal.height,
                     fill: 'transparent', stroke: '#333', strokeWidth: 2
                 });
+                // v30.1.1 — tag the box so extractDeckBundle can walk it
+                // recursively and compute its CURRENT world rect via
+                // calcTransformMatrix. Robust against operator drags/scales
+                // of the legend group AND the negative-x boxLocal offset
+                // (boxLocal.left can be < 0 when the image is narrower than
+                // the box). Only tagged on worksheet, not answer key.
+                if (!isAnswerKey) {
+                    box.isFindObjectsLegendBox = true;
+                    box.legendImgPath = uniq.path;
+                    box.legendCorrectCount = count;
+                }
                 itemGroupElements.push(box);
 
                 if (isAnswerKey) {
@@ -4735,33 +4746,59 @@ function showMessage(msg, type = 'info', duration = 3000) {
 
             var legendBundle = null;
             if (!isOddOneOut) {
-                var legendObj = canvas.getObjects().find(function (o) { return o && o.isFindObjectsLegend === true; });
-                if (legendObj && legendObj.findObjectsLegendMeta) {
-                    var lm = legendObj.findObjectsLegendMeta;
-                    var lb = legendObj.getBoundingRect(true, true);
-                    // Each legend item carries its box's legend-local rect
-                    // (computed in createLegendGroup AFTER per-item positioning).
-                    // We just promote local → world by adding the legend's
-                    // bbox top-left. Scale (lsx/lsy) handles operator transforms.
-                    var intrinsicW = legendObj.width || lb.width;
-                    var intrinsicH = legendObj.height || lb.height;
-                    var lsx = lb.width  / Math.max(1, intrinsicW);
-                    var lsy = lb.height / Math.max(1, intrinsicH);
+                // v30.1.1 — walk the canvas RECURSIVELY for tagged box rects
+                // (children of itemGroups inside legendGroup). calcTransformMatrix
+                // on each box composes the box → itemGroup → legendGroup → world
+                // transform chain, giving true world coords regardless of:
+                //   - operator drags/scales of the legend (handled by legendGroup transform)
+                //   - the boxLocal.left being negative when image < box width
+                //   - any future per-item operator transforms
+                // This replaces v30.1.0's bbox-scaling math which assumed the
+                // legend's pre-group origin (0,0) mapped to its bbox top-left
+                // — but boxLocal.left can be -5 (box wider than narrow image),
+                // so the bbox top-left is at x=-25, not x=0. The earlier formula
+                // shifted boxes ~20-30 px left when the operator scaled the legend.
+                function legendBoxWorldRect(box) {
+                    var m = box.calcTransformMatrix();
+                    var hw = (box.width || 1) / 2;
+                    var hh = (box.height || 1) / 2;
+                    var pts = [
+                        fabric.util.transformPoint({ x: -hw, y: -hh }, m),
+                        fabric.util.transformPoint({ x:  hw, y: -hh }, m),
+                        fabric.util.transformPoint({ x:  hw, y:  hh }, m),
+                        fabric.util.transformPoint({ x: -hw, y:  hh }, m)
+                    ];
+                    var xs = pts.map(function (p) { return p.x; });
+                    var ys = pts.map(function (p) { return p.y; });
+                    var minX = Math.min.apply(null, xs), maxX = Math.max.apply(null, xs);
+                    var minY = Math.min.apply(null, ys), maxY = Math.max.apply(null, ys);
+                    return { x: minX, y: minY, w: maxX - minX, h: maxY - minY };
+                }
+                var taggedBoxes = [];
+                (function walk(objs) {
+                    if (!objs) return;
+                    objs.forEach(function (o) {
+                        if (!o) return;
+                        if (o.isFindObjectsLegendBox === true) taggedBoxes.push(o);
+                        if (o._objects) walk(o._objects);
+                    });
+                })(canvas.getObjects());
+
+                if (taggedBoxes.length > 0) {
                     // Inflate each input rect by 3 px on every side so it
-                    // fully covers the baked count box's stroke (the box
-                    // border is drawn at the rect edge; an exact-size
-                    // input would expose it as a thin halo).
+                    // fully covers the baked count box's stroke.
                     var padPx = 3;
                     legendBundle = {
-                        items: lm.items.map(function (it) {
+                        items: taggedBoxes.map(function (box) {
+                            var r = legendBoxWorldRect(box);
                             return {
-                                imgPath: it.imgPath,
-                                correctCount: it.correctCount,
+                                imgPath: box.legendImgPath,
+                                correctCount: box.legendCorrectCount,
                                 rect: {
-                                    x: lb.left + it.boxLocalRect.x * lsx - padPx,
-                                    y: lb.top  + it.boxLocalRect.y * lsy - padPx,
-                                    w: it.boxLocalRect.w * lsx + padPx * 2,
-                                    h: it.boxLocalRect.h * lsy + padPx * 2
+                                    x: r.x - padPx,
+                                    y: r.y - padPx,
+                                    w: r.w + padPx * 2,
+                                    h: r.h + padPx * 2
                                 }
                             };
                         })
@@ -4773,7 +4810,7 @@ function showMessage(msg, type = 'info', duration = 3000) {
             var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
                 ? LCSAttribution.getRectFromCanvas(canvas) : null;
             return {
-                bundleVersion: '30.1.0',
+                bundleVersion: '30.1.1',
                 schemaFormat: 'image-references-v3',
                 loadingMode: loadingMode,
                 appType: 'find-objects',

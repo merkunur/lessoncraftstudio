@@ -1888,6 +1888,20 @@
             'selection:updated': function(e) { handleObjectSelection(e, this); },
             'selection:cleared': function(e) { handleSelectionCleared(e, this); },
             'object:modified': function(e) { handleObjectModification(e, this); },
+            // Live sync — cargo follows the train as the operator drags / scales /
+            // rotates the train background. The train is identified by
+            // generationId === 'trainBackground'; each cargo + drop-marker is
+            // tagged isTrainChild and carries its locked offset relative to the
+            // train (in train-local, un-rotated, un-scaled coordinates).
+            'object:moving': function(e) {
+                if (isTrainBackgroundObj(e.target)) syncTrainChildren(this, e.target);
+            },
+            'object:scaling': function(e) {
+                if (isTrainBackgroundObj(e.target)) syncTrainChildren(this, e.target);
+            },
+            'object:rotating': function(e) {
+                if (isTrainBackgroundObj(e.target)) syncTrainChildren(this, e.target);
+            },
             'mouse:down': function(e) {
                 if (e.target) {
                     saveCanvasState();
@@ -1905,7 +1919,7 @@
             }
         });
     }
-    
+
     function handleObjectModification(e, canvas) {
         if (e.target) {
             if (e.target.isBorder) {
@@ -1914,7 +1928,102 @@
             if (e.target.isBackground) {
                  backgroundOpacityInput.value = e.target.opacity;
             }
+            // Train moved / scaled / rotated — final-state sync of all train children
+            // so cargos and drop targets land at their locked offsets.
+            if (isTrainBackgroundObj(e.target)) {
+                syncTrainChildren(canvas, e.target);
+            }
+            // Operator individually moved/scaled/rotated a cargo or drop-marker —
+            // re-bind that child's locked offset to the train so future train
+            // transforms preserve the operator's new positioning.
+            if (e.target.isTrainChild && !isTrainBackgroundObj(e.target)) {
+                const train = canvas.getObjects().find(isTrainBackgroundObj);
+                if (train) captureTrainChildOffset(e.target, train);
+            }
         }
+    }
+
+    // ============================================================
+    // Train-child locking — wagon centers stay locked to the train.
+    // ============================================================
+    // The train background (generationId === 'trainBackground') is the parent.
+    // Each cargo image and empty-wagon drop-marker is tagged isTrainChild and
+    // carries its center offset relative to the train, expressed in TRAIN-LOCAL
+    // (un-rotated, un-scaled) coordinates. When the operator transforms the
+    // train, syncTrainChildren reapplies the train's current transform to each
+    // child so the cargos follow the train. When the operator individually
+    // moves/scales/rotates a cargo, captureTrainChildOffset re-binds that
+    // child's offset so the new positioning sticks across future train edits.
+    function isTrainBackgroundObj(obj) {
+        // Recognize the worksheet train (generationId 'trainBackground') AND
+        // the answer-key train (generationId 'answerKeyTrain') so the same
+        // sync listeners apply to both canvases.
+        return !!(obj && (obj.generationId === 'trainBackground'
+                       || obj.generationId === 'answerKeyTrain'));
+    }
+
+    function captureTrainChildOffset(child, train) {
+        if (!child || !train) return;
+        const childCenter = child.getCenterPoint();
+        const trainCenter = train.getCenterPoint();
+        const dx = childCenter.x - trainCenter.x;
+        const dy = childCenter.y - trainCenter.y;
+        // Un-rotate by train's current angle so the offset is in train-local axes.
+        const angRad = -((train.angle || 0) * Math.PI / 180);
+        const cosA = Math.cos(angRad);
+        const sinA = Math.sin(angRad);
+        const dxUnrot = dx * cosA - dy * sinA;
+        const dyUnrot = dx * sinA + dy * cosA;
+        // Un-scale by train's current scale so the offset is in train-pixel units
+        // at the train's natural (untransformed) size.
+        child.parentTrainOffsetX = dxUnrot / (train.scaleX || 1);
+        child.parentTrainOffsetY = dyUnrot / (train.scaleY || 1);
+        // Capture the child's own transform AT BIND TIME so we can apply the
+        // train's scale/rotation delta later without losing the child's
+        // intrinsic scale/rotation.
+        child.parentTrainOriginalScaleX = child.scaleX || 1;
+        child.parentTrainOriginalScaleY = child.scaleY || 1;
+        child.parentTrainOriginalAngle  = child.angle  || 0;
+        child.parentTrainGenScaleX = train.scaleX || 1;
+        child.parentTrainGenScaleY = train.scaleY || 1;
+        child.parentTrainGenAngle  = train.angle  || 0;
+        child.isTrainChild = true;
+    }
+
+    function syncTrainChildren(canvas, train) {
+        if (!canvas || !train) return;
+        const curCenter = train.getCenterPoint();
+        const curAngle  = train.angle  || 0;
+        const curScaleX = train.scaleX || 1;
+        const curScaleY = train.scaleY || 1;
+        const curAngRad = curAngle * Math.PI / 180;
+        const cosCur = Math.cos(curAngRad);
+        const sinCur = Math.sin(curAngRad);
+        canvas.getObjects().forEach(obj => {
+            if (!obj.isTrainChild) return;
+            // Apply the train's current scale to the locked local offset.
+            const localX = (obj.parentTrainOffsetX || 0) * curScaleX;
+            const localY = (obj.parentTrainOffsetY || 0) * curScaleY;
+            // Rotate by the train's current angle.
+            const rotX = localX * cosCur - localY * sinCur;
+            const rotY = localX * sinCur + localY * cosCur;
+            obj.setPositionByOrigin(
+                new fabric.Point(curCenter.x + rotX, curCenter.y + rotY),
+                'center', 'center'
+            );
+            // Apply train's scale + rotation delta to the child's own transform
+            // so the child grows / rotates with the train.
+            const sxRatio = curScaleX / (obj.parentTrainGenScaleX || 1);
+            const syRatio = curScaleY / (obj.parentTrainGenScaleY || 1);
+            const angDelta = curAngle - (obj.parentTrainGenAngle || 0);
+            obj.set({
+                scaleX: (obj.parentTrainOriginalScaleX || 1) * sxRatio,
+                scaleY: (obj.parentTrainOriginalScaleY || 1) * syRatio,
+                angle:  (obj.parentTrainOriginalAngle  || 0) + angDelta
+            });
+            obj.setCoords();
+        });
+        canvas.requestRenderAll();
     }
 
     function handleObjectSelection(e, canvas) {
@@ -2896,6 +3005,12 @@
         ...[{ baseLeft: 180 - 50, baseTop: 220 + 50 }, { baseLeft: 270 - 25, baseTop: 220 + 50 }, { baseLeft: 360 - 15, baseTop: 220 + 50 }].map(p => ({ ...p, top: p.baseTop + 35, left: p.baseLeft + 0 })),
         ...[{ baseLeft: 458 + 5, baseTop: 220 + 50 }, { baseLeft: 548 + 30, baseTop: 220 + 50 }, { baseLeft: 638 + 45, baseTop: 220 + 50 }].map(p => ({ ...p, top: p.baseTop + 35, left: p.baseLeft + 0 }))
     ];
+    // Per-wagon fine-tune in canvas-pt units, applied after S_SCALE. Indices
+    // 0..4 are the top row (5 wagons); 5..10 are the bottom row (6 wagons).
+    // Operator-tuned via the diagnostic so every picture lands exactly inside
+    // its template's wagon body. Module-scope so both the worksheet builder
+    // and the answer-key builder can read it.
+    const PER_WAGON_LEFT_PX = [-3, -3, 4, 2, 0, -11, -8, -8, -4, -4, 4];
 
     async function loadImage(url) {
         return new Promise((resolve, reject) => {
@@ -3260,12 +3375,6 @@
             }
             const remainingLettersForCutouts = selectedLetters.filter(letter => !clues.includes(letter)).sort(() => 0.5 - Math.random());
 
-            // Per-wagon fine-tune in canvas-pt units, applied after
-            // S_SCALE. Indices 0..4 are the top row (5 wagons); 5..10 are
-            // the bottom row (6 wagons). Operator-requested trim so every
-            // picture lands exactly inside its template's wagon body.
-            const PER_WAGON_LEFT_PX = [-10, -10, 0, 0, 0, -15, -15, -15, 0, 0, 0];
-
             const masterElements = [trainBgImg];
             for (let idx = 0; idx < selectedLetters.length; idx++) {
                 if (idx >= BASE_WAGON_POSITIONS.length) break;
@@ -3312,6 +3421,9 @@
                         isClueWagonImage: true,
                         wagonLetter: letter
                     });
+                    // Lock cargo's center offset to the train so transforms of
+                    // the train (move/scale/rotate) carry the cargo with them.
+                    captureTrainChildOffset(clueFabImg, trainBgImg);
                     masterElements.push(clueFabImg);
                 } else {
                     // Invisible marker rect at the picture-zone size — the
@@ -3336,9 +3448,55 @@
                         isEmptyWagon: true,
                         wagonLetter: letter
                     });
+                    // Lock the drop-target's center offset to the train so the
+                    // interactive HTML exporter sees the marker at the right
+                    // world position even after the operator transforms the train.
+                    captureTrainChildOffset(markerRect, trainBgImg);
                     newGeneratedObjects.push(markerRect);
                 }
             }
+
+            // ============================================================
+            // DEBUG — wagon centering diagnostic (toggle DEBUG_SHOW_WAGON_NUMBERS)
+            // Draws the wagon number 1..11 at each wagon's CURRENT cargo center,
+            // i.e. the exact point where the cargo image is being centered. Use
+            // these labels to dial in per-wagon offsets in EXTRA_ADJUSTMENTS /
+            // PER_WAGON_LEFT_PX. Set the flag to false (or remove this block)
+            // once centering is correct.
+            // ============================================================
+            const DEBUG_SHOW_WAGON_NUMBERS = false;
+            if (DEBUG_SHOW_WAGON_NUMBERS) {
+                for (let dbgIdx = 0; dbgIdx < BASE_WAGON_POSITIONS.length; dbgIdx++) {
+                    const dbgBasePos = BASE_WAGON_POSITIONS[dbgIdx];
+                    const dbgAdj = EXTRA_ADJUSTMENTS[dbgIdx];
+                    // Mirror the cargo-placement math one-for-one (lines ~3273-3288).
+                    let dbgFinalTop  = canvasBgTopEdge + ((dbgBasePos.top  + dbgAdj.deltaTop ) * S_SCALE);
+                    let dbgFinalLeft = trainLeftEdge   + ((dbgBasePos.left + dbgAdj.deltaLeft) * S_SCALE);
+                    if (!isLandscape) { dbgFinalTop -= 20; dbgFinalLeft -=  8; }
+                    if ( isLandscape) { dbgFinalTop -= 15; dbgFinalLeft -= 10; }
+                    dbgFinalLeft += (PER_WAGON_LEFT_PX[dbgIdx] || 0);
+                    const dbgCx = dbgFinalLeft + (WAGON_BOX_SIZE_BASE * S_SCALE / 2);
+                    const dbgCy = dbgFinalTop  + (WAGON_BOX_SIZE_BASE * S_SCALE / 2);
+                    const dbgNum = new fabric.Text(String(dbgIdx + 1), {
+                        left: dbgCx, top: dbgCy,
+                        originX: 'center', originY: 'center',
+                        fontSize: 36 * S_SCALE,
+                        fontWeight: 'bold',
+                        fontFamily: 'Arial, sans-serif',
+                        fill: '#FF1744',
+                        stroke: '#FFFFFF',
+                        strokeWidth: 4,
+                        paintFirst: 'stroke',
+                        selectable: false,
+                        evented: false,
+                        isTrainGeneratedItem: true,
+                        generationId: 'wagonNumberDebug_' + dbgIdx,
+                        isWagonNumberDebug: true
+                    });
+                    newGeneratedObjects.push(dbgNum);
+                }
+            }
+
             // Add train background as a separate object
             trainBgImg.set({
                 isTrainGeneratedItem: true,
@@ -3601,6 +3759,10 @@
                     finalLeft -= 12;  // 12px left
                 }
 
+                // Apply the same dialed-in per-wagon left offset as the
+                // worksheet so each wagon lands inside its wagon body.
+                finalLeft += (PER_WAGON_LEFT_PX[idx] || 0);
+
                 const img = await loadImage(letterToImage[letter].path);
                 let scaleFactor = Math.min(conceptualBoxSizeForScaling / img.width, conceptualBoxSizeForScaling / img.height);
 
@@ -3649,7 +3811,13 @@
                 if (shouldPreserveTransforms && oldTransforms[`answerKeyWagon_${idx}`]) {
                     wagonGroup.set(oldTransforms[`answerKeyWagon_${idx}`]);
                 }
-                
+
+                // Lock this wagon group's center offset to the answer-key
+                // train so transforms of the train carry the wagon with it.
+                // Capture AFTER the transform restore so the offset reflects
+                // the final on-canvas position.
+                captureTrainChildOffset(wagonGroup, trainBgImg);
+
                 answerKeyCanvas.add(wagonGroup);
             });
             

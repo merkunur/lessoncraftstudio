@@ -2405,10 +2405,12 @@
             const localY = (obj.parentTrainOffsetY || 0) * curScaleY;
             const rotX = localX * cosCur - localY * sinCur;
             const rotY = localX * sinCur + localY * cosCur;
-            obj.setPositionByOrigin(
-                new fabric.Point(curCenter.x + rotX, curCenter.y + rotY),
-                'center', 'center'
-            );
+            // Apply scale + rotation delta to the child's own transform FIRST
+            // so setPositionByOrigin computes left/top using the new
+            // scale/angle. If we changed scale AFTER positioning, the center
+            // would shift by `width * (newScale - oldScale) / 2` for
+            // originX:'left' objects (cargo images and marker rects), making
+            // the kid's drops in the interactive HTML land off-center.
             const sxRatio = curScaleX / (obj.parentTrainGenScaleX || 1);
             const syRatio = curScaleY / (obj.parentTrainGenScaleY || 1);
             const angDelta = curAngle - (obj.parentTrainGenAngle || 0);
@@ -2417,6 +2419,10 @@
                 scaleY: (obj.parentTrainOriginalScaleY || 1) * syRatio,
                 angle:  (obj.parentTrainOriginalAngle  || 0) + angDelta
             });
+            obj.setPositionByOrigin(
+                new fabric.Point(curCenter.x + rotX, curCenter.y + rotY),
+                'center', 'center'
+            );
             obj.setCoords();
         });
         canvas.requestRenderAll();
@@ -4187,35 +4193,20 @@ async function downloadPDF(canvasToExport, baseFilename) {
             };
         }).filter(function (b) { return b.letter; });
 
-        // v11.1 — collect each clue wagon's library image as an ImagePlacement
-        // (same pattern as alphabet-train v10.1).
+        // v11.5 — image-overlay disabled (parallel to alphabet-train v10.5).
+        // The earlier v11.1 system overlaid a sharper WebP variant of each
+        // clue cargo on top of the baked JPEG, sourced via
+        // LCSImageRef.parseImagePath → inlineVariants. In the operator's
+        // setup the parsed library variant differed from the operator's
+        // actual uploaded image (different framing / card padding), so the
+        // overlay was rendering a slightly different cargo on top of the
+        // JPEG cargo — visible as a card frame / thin border around each
+        // pre-placed clue, only in the interactive HTML. The baked JPEG
+        // (multiplier:2, quality:0.85) is sharp enough on its own; passing
+        // empty arrays here makes the runtime's overlay loop a no-op and
+        // the canvas/interactive renderings match exactly.
         var imagePlacements = [];
-        if (window.LCSImageRef) {
-            found.clues.forEach(function (clue) {
-                var src = (clue._element && clue._element.src) || clue.src || null;
-                var parsed = src ? LCSImageRef.parseImagePath(src) : null;
-                if (!parsed) return;
-                var b = _worldRectBounds(clue);
-                imagePlacements.push({ key: parsed.key, theme: parsed.theme, rect: b });
-            });
-        }
         var imageRefs = {};
-        if (window.LCSImageRef && imagePlacements.length) {
-            var uniqueKeys = {};
-            imagePlacements.forEach(function (p) { uniqueKeys[p.theme + '/' + p.key] = p; });
-            var pairs = Object.keys(uniqueKeys).map(function (k) { return uniqueKeys[k]; });
-            var resolver = (loadingMode === 'reference')
-                ? LCSImageRef.referenceVariants
-                : LCSImageRef.inlineVariants;
-            var loaded = await Promise.all(pairs.map(function (ref) {
-                return resolver(ref.key, ref.theme).then(function (variants) {
-                    return { key: ref.key, theme: ref.theme, variants: variants };
-                });
-            }));
-            loaded.forEach(function (entry) {
-                imageRefs[entry.theme + '/' + entry.key] = { variants: entry.variants };
-            });
-        }
 
         var worksheetImage = await _captureWorksheetImage(canvas);
 
@@ -4223,7 +4214,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
             ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
         return {
-            bundleVersion: '11.3.0',
+            bundleVersion: '11.5.0',
             schemaFormat: 'image-references-v3',
             loadingMode: loadingMode,
             snapshotMode: 'inline',

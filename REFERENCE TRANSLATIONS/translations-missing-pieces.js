@@ -502,7 +502,13 @@ const translations = {
     "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
     "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
     "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
-    "srExerciseMissingPieces": "Frage {n}: Ziehe das fehlende {pieceShape}-Stück in die leere Stelle an Position {n}."
+    "srExerciseMissingPieces": "Frage {n}: Ziehe das fehlende {pieceShape}-Stück in die leere Stelle an Position {n}.",
+    "srShapeSquare": "Quadrat",
+    "srShapeCircle": "Kreis",
+    "srShapeRectPortrait": "hochkantes Rechteck",
+    "srShapeRectLandscape": "breites Rechteck",
+    "srShapeEllipsePortrait": "hochkante Ellipse",
+    "srShapeEllipseLandscape": "breite Ellipse"
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",

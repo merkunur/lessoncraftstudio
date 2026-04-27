@@ -417,7 +417,15 @@ const translations = {
     "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
     "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
     "srExercisePrepositionsChoice": "Frage {n}: Wähle die Präposition, die die Position der {item} im Verhältnis zur {shape} beschreibt.",
-    "srExercisePrepositionsFillIn": "Frage {n}: Schreibe die Präposition, die die Position der {item} im Verhältnis zur {shape} beschreibt."
+    "srExercisePrepositionsFillIn": "Frage {n}: Schreibe die Präposition, die die Position der {item} im Verhältnis zur {shape} beschreibt.",
+    "srShapeCircle": "Kreis",
+    "srShapeCube": "Würfel",
+    "srShapeCylinder": "Zylinder",
+    "srShapeHeart": "Herz",
+    "srShapeHexagon": "Sechseck",
+    "srShapeSquare": "Quadrat",
+    "srShapeStar": "Stern",
+    "srShapeTriangle": "Dreieck"
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",

@@ -3981,6 +3981,12 @@
         var INTERACTIVE_CSS_LINES = [
             '*{box-sizing:border-box}',
             'html,body{margin:0;padding:0}',
+            '.lcs-end-deck{max-width:760px;margin:24px auto 96px;padding:20px;background:#FFF;border:2px solid #DCE1E6;border-radius:14px}',
+            '.lcs-end-deck .end-deck-links h2{font-size:1.25rem;margin:0 0 12px;color:#1C1C1E}',
+            '.lcs-end-deck .end-deck-links ul{list-style:none;padding:0;margin:0;display:grid;gap:10px}',
+            '.lcs-end-deck .end-deck-links a{display:block;padding:12px 16px;border-radius:10px;background:#F4F6FB;color:#4E5FE8;text-decoration:none;font-weight:500;transition:background-color .15s}',
+            '.lcs-end-deck .end-deck-links a:hover{background:#E8ECF7}',
+            '.lcs-end-deck .end-deck-links a:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
             'body{font-family:"Fredoka",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#FEFAF3;color:#1C1C1E;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;min-height:100vh}',
             '#lcs-app{max-width:980px;margin:0 auto;padding:0 12px;padding-bottom:120px}',
             '.lcs-bar{position:sticky;top:0;z-index:10;background:rgba(254,250,243,.94);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding:12px 4px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}',
@@ -4382,6 +4388,26 @@
             var bundleJSON = JSON.stringify(bundle);
             var lang = (bundle.contentLanguage || 'en').slice(0, 2);
             var title = (bundle.title || 'Word Scramble Practice');
+            var seo = bundle.seoMeta || {};
+            var displayTitle = seo.exerciseTypeName || title;
+            var seoHead = (window.LCSCatalogExport && LCSCatalogExport.buildSeoHead)
+                ? LCSCatalogExport.buildSeoHead({
+                    language: lang,
+                    exerciseTypeName: displayTitle,
+                    exerciseTypeSlug: seo.exerciseTypeSlug || "word-scramble",
+                    themeName: seo.themeName || null,
+                    worksheetWord: seo.worksheetWord || 'Worksheet',
+                    instruction: seo.instruction || '',
+                    freeInteractive: seo.freeInteractive || 'Free interactive',
+                    forWord: seo.forWord || 'for',
+                    printOrPlay: seo.printOrPlay || 'Print or play online'
+                })
+                : '<title>' + displayTitle + '</title>';
+            var hreflangMarker = (window.LCSCatalogExport && LCSCatalogExport.HREFLANG_MARKER)
+                || '<!-- HREFLANG_INSERTION_POINT -->';
+            var endDeckLinks = (window.LCSCatalogExport && LCSCatalogExport.buildEndDeckLinks)
+                ? LCSCatalogExport.buildEndDeckLinks()
+                : '';
             var parts = [];
             parts.push('<!DOCTYPE html>');
             parts.push('<html lang="' + lang + '">');
@@ -4389,11 +4415,12 @@
             parts.push('<meta charset="UTF-8">');
             parts.push('<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">');
             parts.push('<meta name="theme-color" content="#FEFAF3">');
-            parts.push('<title>' + title + '</title>');
+            parts.push(seoHead);
             parts.push('<link rel="preconnect" href="https://fonts.googleapis.com">');
             parts.push('<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>');
             parts.push('<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">');
             parts.push('<style>' + css + '</style>');
+            parts.push(hreflangMarker);
             parts.push('</head>');
             parts.push('<body>');
             parts.push('<main id="lcs-app">');
@@ -4402,6 +4429,9 @@
             parts.push('    <nav class="lcs-progress" id="lcs-progress" aria-label="Answer progress"></nav>');
             parts.push('    <button type="button" id="lcs-mute" class="lcs-mute" aria-label="Mute sounds"></button>');
             parts.push('  </div>');
+            if (seo.instruction) {
+                parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');
+            }
             parts.push('  <div class="lcs-worksheet-wrap">');
             parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');
             parts.push('      <img class="lcs-worksheet__img" id="lcs-worksheet-img" alt="" src="' + bundle.worksheetImage + '">');
@@ -4414,6 +4444,11 @@
             parts.push('  <button type="button" id="lcs-reset" class="lcs-btn lcs-btn--ghost" hidden>Try Again</button>');
             parts.push('  <span id="lcs-summary" class="lcs-summary" aria-live="polite"></span>');
             parts.push('</footer>');
+            if (endDeckLinks) {
+                parts.push('<aside class="lcs-end-deck">');
+                parts.push(endDeckLinks);
+                parts.push('</aside>');
+            }
             parts.push('<div class="lcs-celebration" id="lcs-celebration" role="dialog" aria-modal="true" aria-label="You did it!"></div>');
             parts.push('<div class="lcs-sr" id="lcs-live" role="status" aria-live="polite"></div>');
             parts.push('<script>var DECK_BUNDLE = ' + bundleJSON + ';<\/script>');
@@ -4421,6 +4456,13 @@
             parts.push('</body>');
             parts.push('</html>');
             return parts.join('\n');
+        }
+
+        function escapeHtml(s) {
+            return String(s == null ? '' : s)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;');
         }
 
         async function downloadInteractiveHtml(canvasInstance, fileName, options) {

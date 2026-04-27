@@ -40,6 +40,20 @@ const SHARED_TRANSLATIONS = {
     "srShapeHexagon": "hexagon",
     "srShapeStar": "star",
     "srShapeTriangle": "triangle"
+  },
+  "de": {
+    "srShapeSquare": "Quadrat",
+    "srShapeCircle": "Kreis",
+    "srShapeRectPortrait": "hochkantes Rechteck",
+    "srShapeRectLandscape": "breites Rechteck",
+    "srShapeEllipsePortrait": "hochkantes Oval",
+    "srShapeEllipseLandscape": "breites Oval",
+    "srShapeCube": "Würfel",
+    "srShapeCylinder": "Zylinder",
+    "srShapeHeart": "Herz",
+    "srShapeHexagon": "Sechseck",
+    "srShapeStar": "Stern",
+    "srShapeTriangle": "Dreieck"
   }
 };
 

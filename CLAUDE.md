@@ -40,7 +40,7 @@ This project extends the existing LessonCraftStudio codebase at `C:\Users\rkgen\
 
 When in doubt: add new files rather than modifying existing ones. Create new routes alongside old ones. Introduce new database tables, don't migrate existing ones destructively. The interactive platform is **additive**.
 
-### 3.2 The 31 apps' generation logic is not to be rewritten
+### 3.2 The 29 apps' generation logic is not to be rewritten
 
 The apps work. They produce deterministic, consistent content. They are the result of thousands of hours of work and subtle fixes. We extend them — we do not rewrite them.
 
@@ -64,7 +64,7 @@ Things **deliberately excluded from launch**: student accounts, class management
 
 The infrastructure spans three machines connected via Tailscale, plus Cloudflare:
 
-- **PC workstation** (operator's main machine, Windows). Runs the 31 apps, runs Claude Code, produces decks. Source of all `generation.json` and `metadata.json`.
+- **PC workstation** (operator's main machine, Windows). Runs the 29 apps, runs Claude Code, produces decks. Source of all `generation.json` and `metadata.json`.
 - **Mac Studio M3 Ultra (headless, on Tailscale).** Dedicated to the local AI service. Runs Ollama with a chosen model. Reads from the catalog database, generates `enrichment.json` outputs (embeddings, descriptions, topic-level lesson plans), writes them back. Operator never logs in interactively except for maintenance.
 - **Hetzner dedicated server** (existing). Hosts the Next.js app, Postgres database, Lemon Squeezy integration, the catalog API, the operator's publish pipeline. The hub.
 - **Cloudflare CDN** (free tier). Caches and serves static deck HTML files, PDFs, thumbnails from the Hetzner origin. Sits in front of `lessoncraftstudio.com` and absorbs viral student traffic. The deck files themselves live on Hetzner; Cloudflare populates each edge cache on first request from that region.
@@ -85,9 +85,9 @@ If a task requires interpreting operator intent beyond what this document or the
 
 ### 4.1 Layer 1 — The existing apps (mostly unchanged foundation)
 
-33 worksheet generator apps in the existing repo. 31 of them are being extended with interactive output (all except `coloring.html` and `writing.html`, which remain PDF-only). Each app contains its own Fabric.js-based rendering logic, its own UI for customization, its own consumption of the image library and vocabulary.
+33 worksheet generator apps in the existing repo. 29 of them ship interactive output and the catalog-export pipeline; 4 remain PDF-only (`coloring.html`, `writing.html`, `draw-and-color.html`, `drawing-lines.html`) — these produce printable activities without discrete exercises and don't fit the interactive-worksheet pattern. See §14.10 for the canonical list of the 29. Each app contains its own Fabric.js-based rendering logic, its own UI for customization, its own consumption of the image library and vocabulary.
 
-**What changes:** A new export function on each app that emits a self-contained interactive HTML file (see §14 for the implementation, currently shipping in 15 of 31 apps). A future enhancement (see §15) consolidates the multiple download buttons into a single **Export to catalog** action that produces a ZIP containing the HTML, the manifest, the printable PDF, the answer key PDF, and a thumbnail.
+**What changes:** A new export function on each app that emits a self-contained interactive HTML file (see §14 for the implementation, now shipping in all 29 apps). The single **Export to catalog** action produces a ZIP containing the HTML, the manifest, the printable PDF, the answer key PDF, and a thumbnail (see §15).
 
 **What does not change:** The apps' generation algorithms, customization UIs, image selection, layout code, or any behavior visible to existing operator workflows.
 
@@ -95,7 +95,7 @@ If a task requires interpreting operator intent beyond what this document or the
 
 A new Prisma model `Deck` stores published decks. The deck's data is the merge of three layered manifest files (see §15): `generation.json` (written by the app at generation time), `metadata.json` (written by the publish step with operator review), and `enrichment.json` (written by the local AI). The catalog database holds the merged view; the original three files are kept on disk as the reproducible source of truth.
 
-A new admin route lets the operator publish a deck. The flow: the operator generates a worksheet in one of the 31 apps, clicks "Export to catalog," reviews the auto-filled metadata in a small publish form, hits Publish. The Hetzner server validates the manifest, ingests it into the database, and writes the static assets (HTML, PDF, thumbnail) to the public asset folder where Cloudflare's CDN caches them on first request from each region. Within a few minutes the local AI picks up the new deck and writes its enrichment.
+A new admin route lets the operator publish a deck. The flow: the operator generates a worksheet in one of the 29 apps, clicks "Export to catalog," reviews the auto-filled metadata in a small publish form, hits Publish. The Hetzner server validates the manifest, ingests it into the database, and writes the static assets (HTML, PDF, thumbnail) to the public asset folder where Cloudflare's CDN caches them on first request from each region. Within a few minutes the local AI picks up the new deck and writes its enrichment.
 
 Decks are immutable after publish — editing a published deck creates a new version, not an in-place edit. This keeps shared links stable over time.
 
@@ -236,7 +236,7 @@ model Deck {
   slug            String   @unique
   title           Json     // {en: "...", de: "...", ...} for 11 languages
   description     Json     // operator-authored short description, per language
-  exerciseType    String   // "word-search" | "matching" | "sudoku" | ... (one of 31 app types)
+  exerciseType    String   // "word-search" | "matching" | "sudoku" | ... (one of 29 app types — see §14.10)
   exerciseMode    String?  // app-specific submode (e.g., "image-image", "find-addend")
   language        String   // deck's primary content language
   subjectTags     String[]
@@ -485,7 +485,7 @@ The sitemap auto-generates from published decks and topic pages, and is submitte
 **Engineering completeness:**
 - The previous public-facing site (seller home page, KDP tools, seller guides, public app pages) deleted; the apps moved behind operator authentication (see §17 for migration details)
 - All 31 eligible apps producing catalog-ready output via the publish pipeline
-- "Export to catalog" workflow producing a ZIP per deck (§15) implemented for all 31 apps
+- "Export to catalog" workflow producing a ZIP per deck (§15) implemented for all 29 apps
 - Catalog browse, search, filter, individual deck pages all work
 - Topic destination pages render correctly with deck grid + PDF list; lesson plan section displays full content for subscribers and blurred preview with subscribe CTA for free users
 - Student play access page works across all 31 exercise types on mobile and desktop, identical experience regardless of teacher's tier
@@ -633,7 +633,7 @@ If your task appears to be outside this scope, stop and ask the operator before 
 
 ## 14. Interactive-HTML export — current implementation status & porting recipe
 
-As of 2026-04-25, **15 of the 31 apps** ship the interactive-HTML export: addition (v4), subtraction (v5), code-addition (v6), more-less (v7), math-puzzle (v8), math-worksheet (v9), alphabet-train (v10), pattern-train (v11), prepositions (v12), word-guess (v13), word-scramble (v14), wordsearch (v15), cryptogram (v16), big-small (v17), pattern-worksheet (v18). The remaining 16 are not yet converted. All 15 live apps also carry the shared **LCSAttribution** footer (see §14.3).
+As of 2026-04-25, **15 of the 29 apps** had shipped the interactive-HTML export: addition (v4), subtraction (v5), code-addition (v6), more-less (v7), math-puzzle (v8), math-worksheet (v9), alphabet-train (v10), pattern-train (v11), prepositions (v12), word-guess (v13), word-scramble (v14), wordsearch (v15), cryptogram (v16), big-small (v17), pattern-worksheet (v18). Porting subsequently completed for the remaining 14 apps; **all 29 apps now ship the interactive HTML feature, the LCSAttribution footer (see §14.3), and the catalog-export ZIP (see §15)**. The canonical app list is in §14.10.
 
 ### 14.1 What the current implementation is
 
@@ -770,19 +770,35 @@ Skip step 2 and the site keeps serving the old HTML — we hit this on the addit
 
 Bundle versions bump on every port so the runtime can key on shape if needed. Family A ports share most code; Family B will grow its own references as crossword/matching/sudoku are added.
 
-### 14.9 Remaining apps (16 of 31)
+### 14.9 Porting completion (historical)
 
-bingo, chart-count, crossword, draw-and-color, drawing-lines, find-and-count, find-objects, grid-match, matching, missing-pieces, odd-one-out, picture-path, picture-sort, shadow-match, sudoku, treasure-hunt.
+Porting completed in 2026 for the 14 apps not in the original v4–v18 batch shown in §14.8: bingo, chart-count, crossword, find-and-count, find-objects, grid-match, matching, missing-pieces, odd-one-out, picture-path, picture-sort, shadow-match, sudoku, treasure-hunt. All 14 received the interactive HTML feature, the LCSAttribution footer, and the catalog-export ZIP integration in the same wave.
 
-(Coloring and writing are excluded per §1 — PDF-only, no interactive output.)
+Simple Family-A ports (chart-count, find-and-count, find-objects, odd-one-out, picture-sort, missing-pieces, shadow-match) each fit in an afternoon. Puzzle apps (crossword, sudoku, matching, bingo) needed bespoke Family-B runtimes — roughly a session each. The historical effort estimates in earlier drafts of this document proved roughly accurate.
 
-Simple Family-A ports (big-small, chart-count, find-and-count, find-objects, odd-one-out, pattern-worksheet, picture-sort, missing-pieces, shadow-match) should each fit in an afternoon. Puzzle apps (crossword, cryptogram, sudoku, matching, bingo) each need bespoke Family-B runtimes — budget a session each.
+Four apps remain explicitly out of scope and are NOT part of the canonical 29: `coloring`, `writing`, `draw-and-color`, `drawing-lines`. These are PDF-only activities without discrete exercise instances and don't fit the interactive-worksheet-with-answers pattern. They produce printable outputs only and are not part of the catalog system.
+
+### 14.10 The canonical 29 apps (authoritative list)
+
+**This is the single authoritative source for the count and identity of the worksheet-generator apps in the catalog system.** All briefs, scope statements, and Claude Code prompts that reference "the apps" mean exactly these 29:
+
+`addition`, `alphabet-train`, `big-small`, `bingo`, `chart-count`, `code-addition`, `crossword`, `cryptogram`, `find-and-count`, `find-objects`, `grid-match`, `matching`, `math-puzzle`, `math-worksheet`, `missing-pieces`, `more-less`, `odd-one-out`, `pattern-train`, `pattern-worksheet`, `picture-path`, `picture-sort`, `prepositions`, `shadow-match`, `subtraction`, `sudoku`, `treasure-hunt`, `word-guess`, `word-scramble`, `wordsearch`
+
+All 29 ship:
+- The interactive HTML export feature (§14)
+- The shared LCSAttribution footer module (§14.3)
+- The catalog-export ZIP feature (§15)
+- The deck.html SEO surface placeholders (§17.8) — once Brief A ships
+
+**Out of scope, NOT part of the canonical 29:** `coloring`, `writing`, `draw-and-color`, `drawing-lines`. PDF-only activities; printable outputs only; not part of the catalog system.
+
+**Maintenance rule:** when this list changes (apps added or removed from the catalog system), update §14.10 first. All other CLAUDE.md references and any active brief defer to this list as the source of truth. Resist the temptation to update count references elsewhere without first updating §14.10 — drift between sections is a load-bearing risk for a document this reference-heavy.
 
 ---
 
 ## 15. The catalog data pipeline
 
-This section describes the end-to-end flow from a worksheet being generated in one of the 31 apps to its appearance in the teacher-facing catalog with full enrichment.
+This section describes the end-to-end flow from a worksheet being generated in one of the 29 apps (see §14.10 for the canonical list) to its appearance in the teacher-facing catalog with full enrichment.
 
 ### 15.1 The three-layer manifest
 

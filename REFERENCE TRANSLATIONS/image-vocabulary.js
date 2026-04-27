@@ -1446,3 +1446,12 @@ const ImageVocab = {
     return word + 's';
   }
 };
+
+// Expose ImageVocab on window so per-app helpers using `window.ImageVocab`
+// guards (the canonical pattern across the worksheet generators) can find
+// it. Top-level `const` declarations create a script-global binding but
+// don't attach to `window`, which made every `if (window.ImageVocab)`
+// check silently false and helpers fall through to literal-key fallbacks.
+if (typeof window !== 'undefined') {
+  window.ImageVocab = ImageVocab;
+}

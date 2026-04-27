@@ -11,7 +11,7 @@
   <title>Math Worksheet Generator</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="js/translations-math-worksheet-final.js?v=de-i18n-1"></script>
-  <script src="js/image-vocabulary.js?v=2"></script>
+  <script src="js/image-vocabulary.js?v=3"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <!-- Enhancement scripts for robust integration -->
@@ -4441,18 +4441,19 @@
               // excluded; promote to bundle when a second consumer needs them.
               puzzles: (puzzles || []).map(function (p) {
                   var imageKeyMap = {};
-                  // Brief A 5A.3 redo Commit 1.1: dual-shape — symbolImageMap
-                  // values are image OBJECTS (with .path) per source-trace,
-                  // but the original bundle code treated them as path strings
-                  // and silently produced empty maps. Verified deck happened
-                  // to have empty imageMap (symbol-only puzzle) which masked
-                  // the bug. Handle both shapes defensively.
+                  // Use ImageVocab.keyFromPath, which strips the
+                  // -<13digit-timestamp>-<hash> suffix on user-uploaded
+                  // image filenames, recovering the bare vocab key
+                  // (e.g. "/images/animals/camel-1769386104282-2351c8c4.png"
+                  // → "camel"). LCSImageRef.parseImagePath was producing the
+                  // raw suffixed key, which neither matched IMAGE_VOCABULARY
+                  // entries nor produced a clean fallback.
                   Object.keys(p.imageMap || {}).forEach(function (sym) {
                       var raw = p.imageMap[sym];
                       var pth = (typeof raw === 'string') ? raw : (raw && raw.path) || null;
-                      if (pth && window.LCSImageRef) {
-                          var parsed = LCSImageRef.parseImagePath(pth);
-                          if (parsed && parsed.key) imageKeyMap[sym] = parsed.key;
+                      if (pth && typeof ImageVocab !== 'undefined') {
+                          var key = ImageVocab.keyFromPath(pth);
+                          if (key) imageKeyMap[sym] = key;
                       }
                   });
                   return {

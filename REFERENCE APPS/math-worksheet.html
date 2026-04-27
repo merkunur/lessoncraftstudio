@@ -4441,8 +4441,15 @@
               // excluded; promote to bundle when a second consumer needs them.
               puzzles: (puzzles || []).map(function (p) {
                   var imageKeyMap = {};
+                  // Brief A 5A.3 redo Commit 1.1: dual-shape — symbolImageMap
+                  // values are image OBJECTS (with .path) per source-trace,
+                  // but the original bundle code treated them as path strings
+                  // and silently produced empty maps. Verified deck happened
+                  // to have empty imageMap (symbol-only puzzle) which masked
+                  // the bug. Handle both shapes defensively.
                   Object.keys(p.imageMap || {}).forEach(function (sym) {
-                      var pth = p.imageMap[sym];
+                      var raw = p.imageMap[sym];
+                      var pth = (typeof raw === 'string') ? raw : (raw && raw.path) || null;
                       if (pth && window.LCSImageRef) {
                           var parsed = LCSImageRef.parseImagePath(pth);
                           if (parsed && parsed.key) imageKeyMap[sym] = parsed.key;

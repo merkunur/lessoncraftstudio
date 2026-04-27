@@ -5195,11 +5195,18 @@ async function downloadPDF(canvasToExport, filename, opts) {
                 var imgB = row.imageB || row.R;
                 var cntA = (row.countA != null) ? row.countA : row.nL;
                 var cntB = (row.countB != null) ? row.countB : row.nR;
-                var imageAKey = (imgA && imgA.path && window.LCSImageRef)
-                    ? (LCSImageRef.parseImagePath(imgA.path) || {}).key || null
+                // Brief A 5A.3 redo Commit 1.1: dual-shape — source can hand
+                // back either a path string (post-flatten in some code paths)
+                // or an image object with .path. Both shapes are real in
+                // current generation code; the verifier's first PASS was a
+                // coverage gap, not a shape success.
+                var imgAPath = (typeof imgA === 'string') ? imgA : (imgA && imgA.path) || null;
+                var imgBPath = (typeof imgB === 'string') ? imgB : (imgB && imgB.path) || null;
+                var imageAKey = (imgAPath && window.LCSImageRef)
+                    ? (LCSImageRef.parseImagePath(imgAPath) || {}).key || null
                     : null;
-                var imageBKey = (imgB && imgB.path && window.LCSImageRef)
-                    ? (LCSImageRef.parseImagePath(imgB.path) || {}).key || null
+                var imageBKey = (imgBPath && window.LCSImageRef)
+                    ? (LCSImageRef.parseImagePath(imgBPath) || {}).key || null
                     : null;
                 return {
                     comparisonMode: row.comparisonMode || null,

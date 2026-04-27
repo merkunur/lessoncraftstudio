@@ -3978,8 +3978,12 @@
                 // 1:1 with them). imageKey replaces path per minimum-needed.
                 puzzles: ((typeof lastGeneratedPuzzles !== 'undefined' && Array.isArray(lastGeneratedPuzzles)) ? lastGeneratedPuzzles : []).map(function (puzzle) {
                     if (!puzzle) return null;
-                    var imageKey = (puzzle.image && puzzle.image.path && window.LCSImageRef)
-                        ? (LCSImageRef.parseImagePath(puzzle.image.path) || {}).key || null
+                    // Use ImageVocab.keyFromPath which strips the
+                    // -<13digit-timestamp>-<hash> suffix on user-uploaded
+                    // image filenames; LCSImageRef.parseImagePath leaves
+                    // it intact and breaks downstream vocab lookups.
+                    var imageKey = (puzzle.image && puzzle.image.path && typeof ImageVocab !== 'undefined')
+                        ? (ImageVocab.keyFromPath(puzzle.image.path) || null)
                         : null;
                     return {
                         imageKey: imageKey,

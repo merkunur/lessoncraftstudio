@@ -4424,7 +4424,16 @@
             var parsed = (window.LCSImageRef && p && p.image && p.image.path)
                 ? LCSImageRef.parseImagePath(p.image.path)
                 : null;
-            var altText = parsed ? _resolveAlt(parsed.key) : '';
+            // Vocab-canonical key for alt text — strips the
+            // -<13digit-timestamp>-<hash> suffix on user-uploaded
+            // image filenames that parseImagePath leaves intact.
+            // Bundle imageRefs.key keeps parseImagePath form for
+            // internal set+get consistency in the runtime's
+            // imageRefs[theme+'/'+key] lookup.
+            var vocabKey = (p && p.image && p.image.path && typeof ImageVocab !== 'undefined')
+                ? (ImageVocab.keyFromPath(p.image.path) || (parsed && parsed.key) || '')
+                : (parsed && parsed.key) || '';
+            var altText = vocabKey ? _resolveAlt(vocabKey) : '';
             var imageRefs = (parsed && placements.length)
                 ? placements.map(function (pl) { return { key: parsed.key, theme: parsed.theme, rect: pl.rect, alt: altText }; })
                 : [];

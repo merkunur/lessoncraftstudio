@@ -241,7 +241,13 @@ const translations = {
     "endDeckMoreTheme": "More {theme} worksheets",
     "endDeckMoreLevel": "More worksheets for {level}",
     "endDeckBrowseAll": "Browse all worksheets",
-    "srExerciseMissingPieces": "Question {n}: Drag the missing {pieceShape} piece into the empty space at position {n}."
+    "srExerciseMissingPieces": "Question {n}: Drag the missing {pieceShape} piece into the empty space at position {n}.",
+    "srShapeSquare": "square",
+    "srShapeCircle": "circle",
+    "srShapeRectPortrait": "tall rectangle",
+    "srShapeRectLandscape": "wide rectangle",
+    "srShapeEllipsePortrait": "tall ellipse",
+    "srShapeEllipseLandscape": "wide ellipse"
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",

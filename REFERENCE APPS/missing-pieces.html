@@ -5,7 +5,7 @@
   <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
   <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
   <script src="/worksheet-generators/js/jszip-3.10.1.min.js"></script>
-  <script src="/worksheet-generators/js/catalog-export.js?v=4"></script>
+  <script src="/worksheet-generators/js/catalog-export.js?v=5"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <title>Missing Pieces Worksheet Generator</title>
@@ -4014,12 +4014,21 @@
                 : '';
 
             // Per-row sr-only — missing-pieces. pieceShape is a deck-level
-            // string (square / circle / etc.); positions are bundled.holes.
+            // string (square / circle / rectPortrait / etc.); positions are
+            // bundled.holes. Shape labels go through srShape<Slug> lookup
+            // for localization (see catalog-export.js naming convention).
             var srExerciseTpl = (typeof t === 'function' && t('srExerciseMissingPieces'))
                 || 'Question {n}: Drag the missing {pieceShape} piece into the empty space at position {n}.';
             var srExerciseLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
                 || 'Worksheet questions';
-            var pieceShape = bundle.pieceShape || 'piece';
+            var pieceShapeRaw = bundle.pieceShape || 'piece';
+            var pieceShape = pieceShapeRaw;
+            if (typeof t === 'function' && pieceShapeRaw) {
+                var shapeSlug = pieceShapeRaw.charAt(0).toUpperCase() + pieceShapeRaw.slice(1);
+                var shapeKey = 'srShape' + shapeSlug;
+                var resolved = t(shapeKey);
+                if (resolved && resolved !== shapeKey) pieceShape = resolved;
+            }
             var holesForSr = Array.isArray(bundle.holes) ? bundle.holes : [];
             var srRows = holesForSr.map(function (_h, i) {
                 var n = i + 1;

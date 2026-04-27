@@ -319,6 +319,20 @@
    *                            operators into the template (math-worksheet).
    *                            Scoped per-app until a second consumer needs
    *                            them; promote to a shared keyset at that point.
+   *   srShape<Slug>            shape-name labels substituted into per-row
+   *                            sr-only when the deck's data carries a shape
+   *                            slug (e.g., srShapeSquare, srShapeCircle,
+   *                            srShapeRectPortrait, srShapeEllipseLandscape,
+   *                            srShapeCube, srShapeCylinder, srShapeHeart,
+   *                            srShapeHexagon, srShapeStar, srShapeTriangle).
+   *                            Slug = camelCased shape id, first letter
+   *                            uppercased ('rectPortrait' → 'RectPortrait').
+   *                            Currently used by missing-pieces (6 piece
+   *                            shapes) and prepositions (8 default backdrop
+   *                            shapes); 12 unique slugs across both apps.
+   *                            Per-app at present; promote to shared
+   *                            translation surface when a third consumer
+   *                            arrives.
    *
    * opts = {
    *   label?: string    // optional aria-label; omitted → bare section

@@ -4786,14 +4786,6 @@ function renderUploadedImages() {
 
 window.addEventListener('resize', renderWorksheet);
 
-    // Check if user is on free tier
-    function isFreeTier() {
-        // Access Guard: watermark ON by default.
-        // Removed only after server confirms purchase.
-        var urlParams = new URLSearchParams(window.location.search);
-        if (urlParams.get('tier') === 'free') return true;
-        return !window.__accessVerified;
-    }
 
     // Async version: waits for server verification before deciding.
     // Used by export functions to avoid race conditions.
@@ -4804,63 +4796,7 @@ window.addEventListener('resize', renderWorksheet);
         }
     }
 
-    // Add watermark to canvas before export
-    function addWatermarkToCanvas(canvas) {
-        if (!isFreeTier()) return;
 
-        const watermarkText = new fabric.Text(t('watermark.free'), {
-            fontSize: 40,
-            fill: 'rgba(0, 0, 0, 0.2)',
-            angle: -45,
-            left: canvas.width / 2,
-            top: canvas.height / 2,
-            originX: 'center',
-            originY: 'center',
-            selectable: false,
-            evented: false,
-            fontFamily: 'Arial, sans-serif',
-            fontWeight: 'bold'
-        });
-        
-        // Add multiple watermarks across the canvas
-        const watermarks = [];
-        const spacing = 250;
-        for (let x = 0; x < canvas.width; x += spacing) {
-            for (let y = 0; y < canvas.height; y += spacing) {
-                const wm = new fabric.Text(t('watermark.freeShort'), {
-                    fontSize: 20,
-                    fill: 'rgba(0, 0, 0, 0.15)',
-                    angle: -45,
-                    left: x,
-                    top: y,
-                    selectable: false,
-                    evented: false,
-                    fontFamily: 'Arial, sans-serif'
-                });
-                watermarks.push(wm);
-                canvas.add(wm);
-            }
-        }
-        
-        // Add main watermark
-        canvas.add(watermarkText);
-        canvas.renderAll();
-        
-        return { mainWatermark: watermarkText, watermarks };
-    }
-
-    // Remove watermark after export
-    function removeWatermarkFromCanvas(canvas, watermarkData) {
-        if (!watermarkData) return;
-        
-        if (watermarkData.mainWatermark) {
-            canvas.remove(watermarkData.mainWatermark);
-        }
-        if (watermarkData.watermarks) {
-            watermarkData.watermarks.forEach(wm => canvas.remove(wm));
-        }
-        canvas.renderAll();
-    }
 
     // Override the original downloadPDF function
     const originalDownloadPDF = typeof downloadPDF !== 'undefined' ? downloadPDF : null;
@@ -4873,7 +4809,6 @@ window.addEventListener('resize', renderWorksheet);
             
             // Add watermark if free tier
             await waitForAccessCheck();
-            const watermarkData = addWatermarkToCanvas(canvasToExport);
             
             try {
                 const { jsPDF } = window.jspdf;
@@ -4897,9 +4832,6 @@ window.addEventListener('resize', renderWorksheet);
             } catch(e) {
                 showMessage(t('message.pdfError'), 'error'); 
                 console.error(e); 
-            } finally {
-                // Remove watermark after export
-                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         };
     }
@@ -4915,7 +4847,6 @@ window.addEventListener('resize', renderWorksheet);
             
             // Add watermark if free tier
             await waitForAccessCheck();
-            const watermarkData = addWatermarkToCanvas(canvasToExport);
             
             try {
                 const exportOptions = { 
@@ -4932,9 +4863,6 @@ window.addEventListener('resize', renderWorksheet);
             } catch(e) {
                 showMessage(t('message.jpegError'), 'error'); 
                 console.error(e); 
-            } finally {
-                // Remove watermark after export
-                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         };
     }

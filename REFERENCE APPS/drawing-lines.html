@@ -3383,7 +3383,6 @@ document.addEventListener("DOMContentLoaded", async function() {
         if (!lastGeneratedData) { showMessage(t('pleaseGenerateWorksheetFirst'), 'error'); return; }
         showMessage(t('preparingJpegWait'), 'info', 0);
         await waitForAccessCheck();
-        const watermarkData = addWatermarkToCanvas(worksheetCanvas);
         try {
             const exportOptions = { multiplier: downloadMultiplier, applyGrayscale: grayscaleToggle.checked };
             const worksheetDataURL = await getCanvasDataURL(worksheetCanvas, exportOptions);
@@ -3393,18 +3392,9 @@ document.addEventListener("DOMContentLoaded", async function() {
             link.click();
             showMessage(t('jpegDownloadInitiated'), 'success', 3000);
         } catch (error) { showMessage(t('errorPreparingJpeg', {error: error.message}), 'error'); }
-        finally { removeWatermarkFromCanvas(worksheetCanvas, watermarkData); }
     }
     
     
-    // Check if user is on free tier
-    function isFreeTier() {
-        // Access Guard: watermark ON by default.
-        // Removed only after server confirms purchase.
-        var urlParams = new URLSearchParams(window.location.search);
-        if (urlParams.get('tier') === 'free') return true;
-        return !window.__accessVerified;
-    }
 
     // Async version: waits for server verification before deciding.
     // Used by export functions to avoid race conditions.
@@ -3415,63 +3405,7 @@ document.addEventListener("DOMContentLoaded", async function() {
         }
     }
 
-    // Add watermark to canvas before export
-    function addWatermarkToCanvas(canvas) {
-        if (!isFreeTier()) return;
-        
-        const watermarkText = new fabric.Text(t('watermarkText'), {
-            fontSize: 40,
-            fill: 'rgba(0, 0, 0, 0.2)',
-            angle: -45,
-            left: canvas.width / 2,
-            top: canvas.height / 2,
-            originX: 'center',
-            originY: 'center',
-            selectable: false,
-            evented: false,
-            fontFamily: 'Arial, sans-serif',
-            fontWeight: 'bold'
-        });
-        
-        // Add multiple watermarks across the canvas
-        const watermarks = [];
-        const spacing = 250;
-        for (let x = 0; x < canvas.width; x += spacing) {
-            for (let y = 0; y < canvas.height; y += spacing) {
-                const wm = new fabric.Text(t('watermarkSmallText'), {
-                    fontSize: 20,
-                    fill: 'rgba(0, 0, 0, 0.15)',
-                    angle: -45,
-                    left: x,
-                    top: y,
-                    selectable: false,
-                    evented: false,
-                    fontFamily: 'Arial, sans-serif'
-                });
-                watermarks.push(wm);
-                canvas.add(wm);
-            }
-        }
-        
-        // Add main watermark
-        canvas.add(watermarkText);
-        canvas.renderAll();
-        
-        return { mainWatermark: watermarkText, watermarks };
-    }
 
-    // Remove watermark after export
-    function removeWatermarkFromCanvas(canvas, watermarkData) {
-        if (!watermarkData) return;
-        
-        if (watermarkData.mainWatermark) {
-            canvas.remove(watermarkData.mainWatermark);
-        }
-        if (watermarkData.watermarks) {
-            watermarkData.watermarks.forEach(wm => canvas.remove(wm));
-        }
-        canvas.renderAll();
-    }
 
     // Override the original downloadPDF function
     const originalDownloadPDF = typeof downloadPDF !== 'undefined' ? downloadPDF : null;
@@ -3484,7 +3418,6 @@ document.addEventListener("DOMContentLoaded", async function() {
             
             // Add watermark if free tier
             await waitForAccessCheck();
-            const watermarkData = addWatermarkToCanvas(canvasToExport);
             
             try {
                 const { jsPDF } = window.jspdf;
@@ -3508,9 +3441,6 @@ document.addEventListener("DOMContentLoaded", async function() {
             } catch(e) { 
                 showMessage(t('errorCreatingPdf'), 'error'); 
                 console.error(e); 
-            } finally {
-                // Remove watermark after export
-                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         };
     }
@@ -3526,7 +3456,6 @@ document.addEventListener("DOMContentLoaded", async function() {
             
             // Add watermark if free tier
             await waitForAccessCheck();
-            const watermarkData = addWatermarkToCanvas(canvasToExport);
             
             try {
                 const exportOptions = { 
@@ -3543,9 +3472,6 @@ document.addEventListener("DOMContentLoaded", async function() {
             } catch(e) { 
                 showMessage(t('errorPreparingJpeg'), 'error'); 
                 console.error(e); 
-            } finally {
-                // Remove watermark after export
-                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         };
     }
@@ -3554,7 +3480,6 @@ async function downloadPDF() {
         if (!lastGeneratedData) { showMessage(t('pleaseGenerateWorksheetFirst'), 'error'); return; }
         showMessage(t('preparingPdfWait'), 'info', 0);
         await waitForAccessCheck();
-        const watermarkData = addWatermarkToCanvas(worksheetCanvas);
         try {
             const { jsPDF } = window.jspdf;
             const { width, height } = currentCanvasConfig;
@@ -3566,7 +3491,6 @@ async function downloadPDF() {
             pdf.save("drawing_lines_worksheet.pdf");
             showMessage(t('pdfDownloaded'), 'success', 3000);
         } catch (error) { showMessage(t('errorCreatingPdf', {error: error.message}), "error"); }
-        finally { removeWatermarkFromCanvas(worksheetCanvas, watermarkData); }
     }
 
     initializeApp();

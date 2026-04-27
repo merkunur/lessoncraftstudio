@@ -4404,7 +4404,6 @@ document.addEventListener('DOMContentLoaded', function() {
         const exportOpts = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
 
         await waitForAccessCheck();
-        const watermarkData = addWatermarkToCanvas(canvas);
         try {
             const dataURL = await getCanvasDataURLWithOptions(canvas, exportOpts);
             const link = document.createElement('a');
@@ -4416,8 +4415,6 @@ document.addEventListener('DOMContentLoaded', function() {
             showMessage('success', t('chartcount.msg.library.ready'), 3000);
         } catch (e) {
             showMessage('error', t('chartcount.msg.download.error'));
-        } finally {
-            removeWatermarkFromCanvas(canvas, watermarkData);
         }
     }
     
@@ -4437,7 +4434,6 @@ document.addEventListener('DOMContentLoaded', function() {
         const exportOpts = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
 
         await waitForAccessCheck();
-        const watermarkData = addWatermarkToCanvas(canvas);
         try {
             const imgData = await getCanvasDataURLWithOptions(canvas, exportOpts);
             const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'landscape' : 'portrait';
@@ -4456,8 +4452,6 @@ document.addEventListener('DOMContentLoaded', function() {
         } catch (e) {
             if (returnBlob) throw e;
             showMessage('error', t('chartcount.msg.pdf.error'));
-        } finally {
-            removeWatermarkFromCanvas(canvas, watermarkData);
         }
     }
 
@@ -4472,14 +4466,6 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <script>
-    // Check if user is on free tier
-    function isFreeTier() {
-        // Access Guard: watermark ON by default.
-        // Removed only after server confirms purchase.
-        var urlParams = new URLSearchParams(window.location.search);
-        if (urlParams.get('tier') === 'free') return true;
-        return !window.__accessVerified;
-    }
 
     // Async version: waits for server verification before deciding.
     // Used by export functions to avoid race conditions.
@@ -4490,63 +4476,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // Add watermark to canvas before export
-    function addWatermarkToCanvas(canvas) {
-        if (!isFreeTier()) return;
-        
-        const watermarkText = new fabric.Text('FREE VERSION - LessonCraftStudio.com', {
-            fontSize: 40,
-            fill: 'rgba(0, 0, 0, 0.2)',
-            angle: -45,
-            left: canvas.width / 2,
-            top: canvas.height / 2,
-            originX: 'center',
-            originY: 'center',
-            selectable: false,
-            evented: false,
-            fontFamily: 'Arial, sans-serif',
-            fontWeight: 'bold'
-        });
-        
-        // Add multiple watermarks across the canvas
-        const watermarks = [];
-        const spacing = 250;
-        for (let x = 0; x < canvas.width; x += spacing) {
-            for (let y = 0; y < canvas.height; y += spacing) {
-                const wm = new fabric.Text('FREE VERSION', {
-                    fontSize: 20,
-                    fill: 'rgba(0, 0, 0, 0.15)',
-                    angle: -45,
-                    left: x,
-                    top: y,
-                    selectable: false,
-                    evented: false,
-                    fontFamily: 'Arial, sans-serif'
-                });
-                watermarks.push(wm);
-                canvas.add(wm);
-            }
-        }
-        
-        // Add main watermark
-        canvas.add(watermarkText);
-        canvas.renderAll();
-        
-        return { mainWatermark: watermarkText, watermarks };
-    }
 
-    // Remove watermark after export
-    function removeWatermarkFromCanvas(canvas, watermarkData) {
-        if (!watermarkData) return;
-        
-        if (watermarkData.mainWatermark) {
-            canvas.remove(watermarkData.mainWatermark);
-        }
-        if (watermarkData.watermarks) {
-            watermarkData.watermarks.forEach(wm => canvas.remove(wm));
-        }
-        canvas.renderAll();
-    }
 
     // Override the original downloadPDF function
     const originalDownloadPDF = typeof downloadPDF !== 'undefined' ? downloadPDF : null;
@@ -4559,7 +4489,6 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Add watermark if free tier
             await waitForAccessCheck();
-            const watermarkData = addWatermarkToCanvas(canvasToExport);
             
             try {
                 const { jsPDF } = window.jspdf;
@@ -4583,9 +4512,6 @@ document.addEventListener('DOMContentLoaded', function() {
             } catch(e) { 
                 showMessage(t('chartcount.msg.pdf.error'), 'error'); 
                 console.error(e); 
-            } finally {
-                // Remove watermark after export
-                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         };
     }
@@ -4601,7 +4527,6 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Add watermark if free tier
             await waitForAccessCheck();
-            const watermarkData = addWatermarkToCanvas(canvasToExport);
             
             try {
                 const exportOptions = { 
@@ -4618,9 +4543,6 @@ document.addEventListener('DOMContentLoaded', function() {
             } catch(e) { 
                 showMessage(t('chartcount.msg.download.error'), 'error'); 
                 console.error(e); 
-            } finally {
-                // Remove watermark after export
-                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         };
     }

@@ -3331,7 +3331,6 @@
             showMessage(t('preparingFile').replace('{filename}', fileName), 'info', 0);
             const exportOptions = { multiplier: downloadMultiplier };
             await waitForAccessCheck();
-            const watermarkData = addWatermarkToCanvas(canvasToExport);
             try {
                 const dataURL = await getCanvasDataURL(canvasToExport, exportOptions);
                 const link = document.createElement('a');
@@ -3339,8 +3338,6 @@
                 link.href = dataURL;
                 link.click();
                 showMessage(t('downloadInitiated').replace('{filename}', fileName), "success");
-            } finally {
-                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         };
 
@@ -3360,7 +3357,6 @@
 
             const exportOptions = { multiplier: downloadMultiplier };
             await waitForAccessCheck();
-            const watermarkData = addWatermarkToCanvas(canvasToExport);
             try {
                 const dataURL = await getCanvasDataURL(canvasToExport, exportOptions);
                 pdf.addImage(dataURL, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
@@ -3372,8 +3368,6 @@
             } catch (e) {
                 if (returnBlob) throw e;
                 throw e;
-            } finally {
-                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         };
 
@@ -4328,14 +4322,6 @@
         await renderDictionary();
     });
     
-    // Check if user is on free tier
-    function isFreeTier() {
-        // Access Guard: watermark ON by default.
-        // Removed only after server confirms purchase.
-        var urlParams = new URLSearchParams(window.location.search);
-        if (urlParams.get('tier') === 'free') return true;
-        return !window.__accessVerified;
-    }
 
     // Async version: waits for server verification before deciding.
     // Used by export functions to avoid race conditions.
@@ -4346,63 +4332,7 @@
         }
     }
 
-    // Add watermark to canvas before export
-    function addWatermarkToCanvas(canvas) {
-        if (!isFreeTier()) return;
-        
-        const watermarkText = new fabric.Text('FREE VERSION - LessonCraftStudio.com', {
-            fontSize: 40,
-            fill: 'rgba(0, 0, 0, 0.2)',
-            angle: -45,
-            left: canvas.width / 2,
-            top: canvas.height / 2,
-            originX: 'center',
-            originY: 'center',
-            selectable: false,
-            evented: false,
-            fontFamily: 'Arial, sans-serif',
-            fontWeight: 'bold'
-        });
-        
-        // Add multiple watermarks across the canvas
-        const watermarks = [];
-        const spacing = 250;
-        for (let x = 0; x < canvas.width; x += spacing) {
-            for (let y = 0; y < canvas.height; y += spacing) {
-                const wm = new fabric.Text('FREE VERSION', {
-                    fontSize: 20,
-                    fill: 'rgba(0, 0, 0, 0.15)',
-                    angle: -45,
-                    left: x,
-                    top: y,
-                    selectable: false,
-                    evented: false,
-                    fontFamily: 'Arial, sans-serif'
-                });
-                watermarks.push(wm);
-                canvas.add(wm);
-            }
-        }
-        
-        // Add main watermark
-        canvas.add(watermarkText);
-        canvas.renderAll();
-        
-        return { mainWatermark: watermarkText, watermarks };
-    }
 
-    // Remove watermark after export
-    function removeWatermarkFromCanvas(canvas, watermarkData) {
-        if (!watermarkData) return;
-        
-        if (watermarkData.mainWatermark) {
-            canvas.remove(watermarkData.mainWatermark);
-        }
-        if (watermarkData.watermarks) {
-            watermarkData.watermarks.forEach(wm => canvas.remove(wm));
-        }
-        canvas.renderAll();
-    }
 
     // Override the original downloadPDF function
     const originalDownloadPDF = typeof downloadPDF !== 'undefined' ? downloadPDF : null;
@@ -4415,7 +4345,6 @@
             
             // Add watermark if free tier
             await waitForAccessCheck();
-            const watermarkData = addWatermarkToCanvas(canvasToExport);
             
             try {
                 const { jsPDF } = window.jspdf;
@@ -4439,9 +4368,6 @@
             } catch(e) { 
                 showMessage(t('errorCreatingPdf'), 'error'); 
                 console.error(e); 
-            } finally {
-                // Remove watermark after export
-                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         };
     }
@@ -4457,7 +4383,6 @@
             
             // Add watermark if free tier
             await waitForAccessCheck();
-            const watermarkData = addWatermarkToCanvas(canvasToExport);
             
             try {
                 const exportOptions = { 
@@ -4474,9 +4399,6 @@
             } catch(e) { 
                 showMessage(t('errorPreparingJpeg'), 'error'); 
                 console.error(e); 
-            } finally {
-                // Remove watermark after export
-                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         };
     }

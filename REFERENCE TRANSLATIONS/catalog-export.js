@@ -378,7 +378,14 @@
    * screen DOM (typically immediately before the closing </div> of
    * .lcs-celebration__inner, after the existing call-to-action buttons).
    */
-  function buildEndDeckLinks() {
+  // Emits the end-deck-links section per Brief A §5.5. Default behavior:
+  // returns empty string, so direct-download decks (operator's "Download
+  // → Interactive HTML" button) don't ship raw placeholder text. Pass
+  // {includePlaceholders: true} from a publish-cli-aware code path (e.g.
+  // the future catalog-export ZIP flow) to emit the placeholder block
+  // that publish-cli will substitute at upload time per §17.8.5.
+  function buildEndDeckLinks(opts) {
+    if (!opts || opts.includePlaceholders !== true) return '';
     return [
       '<div class="end-deck-links">',
       '  <h2>__END_DECK_HEADING__</h2>',

@@ -5,11 +5,12 @@
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
     <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
     <script src="/worksheet-generators/js/jszip-3.10.1.min.js"></script>
-    <script src="/worksheet-generators/js/catalog-export.js?v=1"></script>
+    <script src="/worksheet-generators/js/catalog-export.js?v=2"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <title data-translate="additionGenerator">Image Addition Worksheet Generator</title>
   <script src="js/translations-addition-complete.js?v=de-i18n-1"></script>
+  <script src="js/image-vocabulary.js?v=2"></script>
   <script>
     // CRITICAL: Set locales IMMEDIATELY after loading translations.js!
     const urlParams = new URLSearchParams(window.location.search);
@@ -3111,6 +3112,13 @@
             description = defaults.descriptionImageImage;
         }
 
+        // Cache localized title + instruction on the canvas so extractDeckBundle
+        // can include them in the SEO surface (Brief A §4 / §5).
+        if (canvas) {
+            canvas.lcsLocalizedTitle = title;
+            canvas.lcsLocalizedInstruction = description;
+        }
+
         // Get current canvas dimensions for responsive design
         const pageWidth = currentCanvasConfig.width;
         const pageHeight = currentCanvasConfig.height;
@@ -4398,13 +4406,27 @@
         // it to the placement records. parseImagePath understands the
         // /images/<theme>/<file>.png shape produced by /api/images.
         var worksheetTheme = (typeof themeSelect !== 'undefined' && themeSelect && themeSelect.value) || null;
+        var bundleLanguage = (window.currentLocale || (languageSelect && languageSelect.value) || 'en');
+        // Image alt resolver — looks up the vocabulary entry for an image key
+        // in the deck's language. Self-contained at generation time so the
+        // emitted deck.html stays small (no 480 KB image-vocabulary.js load).
+        function _resolveAlt(key) {
+            if (!key) return '';
+            if (window.ImageVocab && typeof ImageVocab.singular === 'function') {
+                var term = ImageVocab.singular(key, bundleLanguage);
+                if (term) return term;
+                console.warn('[addition] No vocabulary entry for image key:', key, '(language:', bundleLanguage + ')');
+            }
+            return key; // safe fallback per Brief A §5.3 — never empty alt for content images
+        }
         var problems = problemsData.map(function (p, i) {
             var placements = imageRefsByIndex[i] || [];
             var parsed = (window.LCSImageRef && p && p.image && p.image.path)
                 ? LCSImageRef.parseImagePath(p.image.path)
                 : null;
+            var altText = parsed ? _resolveAlt(parsed.key) : '';
             var imageRefs = (parsed && placements.length)
-                ? placements.map(function (pl) { return { key: parsed.key, theme: parsed.theme, rect: pl.rect }; })
+                ? placements.map(function (pl) { return { key: parsed.key, theme: parsed.theme, rect: pl.rect, alt: altText }; })
                 : [];
             return {
                 index: i,
@@ -4450,6 +4472,22 @@
 
         var worksheetImage = await _captureWorksheetImage(canvas);
 
+        // SEO inputs for the deck.html surface (Brief A §4). The SEO content
+        // is built by LCSCatalogExport.buildSeoHead() at render time using
+        // these fields. Localized strings come from createHeaderGroup's
+        // defaults (cached on the canvas at generation) and from t().
+        var _t = (typeof t === 'function') ? t : function(k){return null;};
+        var seoMeta = {
+            exerciseTypeSlug: 'addition',
+            exerciseTypeName: canvas.lcsLocalizedTitle || 'Addition Fun',
+            themeName: worksheetTheme,
+            instruction: canvas.lcsLocalizedInstruction || '',
+            worksheetWord: _t('worksheet') || 'Worksheet',
+            freeInteractive: _t('seoFreeInteractive') || 'Free interactive',
+            forWord: _t('seoFor') || 'for',
+            printOrPlay: _t('seoPrintOrPlayOnline') || 'Print or play online'
+        };
+
         return {
             bundleVersion: '5.1.0',
             schemaFormat: 'image-references-v2',
@@ -4459,6 +4497,7 @@
             contentLanguage: (window.currentLocale || (languageSelect && languageSelect.value) || 'en'),
             title: 'Addition Practice',
             theme: worksheetTheme,
+            seoMeta: seoMeta,
             page: {
                 width: currentCanvasConfig.width,
                 height: currentCanvasConfig.height
@@ -4477,6 +4516,15 @@
     var INTERACTIVE_CSS_LINES = [
         '*{box-sizing:border-box}',
         'html,body{margin:0;padding:0}',
+        // End-of-deck internal links (Brief A §5.5). Visible always rather
+        // than hidden behind the celebration overlay so Google indexes the
+        // links reliably.
+        '.lcs-end-deck{max-width:760px;margin:24px auto 96px;padding:20px;background:#FFF;border:2px solid #DCE1E6;border-radius:14px}',
+        '.lcs-end-deck .end-deck-links h2{font-size:1.25rem;margin:0 0 12px;color:#1C1C1E}',
+        '.lcs-end-deck .end-deck-links ul{list-style:none;padding:0;margin:0;display:grid;gap:10px}',
+        '.lcs-end-deck .end-deck-links a{display:block;padding:12px 16px;border-radius:10px;background:#F4F6FB;color:#4E5FE8;text-decoration:none;font-weight:500;transition:background-color .15s}',
+        '.lcs-end-deck .end-deck-links a:hover{background:#E8ECF7}',
+        '.lcs-end-deck .end-deck-links a:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
         'body{font-family:"Fredoka",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#FEFAF3;color:#1C1C1E;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;min-height:100vh}',
         '#lcs-app{max-width:980px;margin:0 auto;padding:0 12px;padding-bottom:120px}',
         '.lcs-bar{position:sticky;top:0;z-index:10;background:rgba(254,250,243,.94);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding:12px 4px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}',
@@ -4653,7 +4701,7 @@
         '        if(!ref||!ref.rect)continue;',
         '        var img=document.createElement("img");',
         '        img.className="lcs-img-overlay";',
-        '        img.alt="";',
+        '        img.alt=ref.alt||"";',
         '        img.setAttribute("data-image-ref",ref.theme+"/"+ref.key);',
         '        var iLeft=((ref.rect.x-ref.rect.w/2)/pw)*100;',
         '        var iTop=((ref.rect.y-ref.rect.h/2)/ph)*100;',
@@ -4894,7 +4942,58 @@
         var runtime = INTERACTIVE_RUNTIME_LINES.join('\n');
         var bundleJSON = JSON.stringify(bundle);
         var lang = (bundle.contentLanguage || 'en').slice(0, 2);
-        var title = (bundle.title || 'Addition Practice');
+        var seo = bundle.seoMeta || {};
+        // Localized worksheet title, falling back to the legacy English string.
+        var displayTitle = seo.exerciseTypeName || bundle.title || 'Addition Practice';
+        // SEO head HTML (Brief A §4) — title, meta description, canonical
+        // placeholder, JSON-LD. Hreflang marker is emitted separately as the
+        // last <head> element.
+        var seoHead = (window.LCSCatalogExport && LCSCatalogExport.buildSeoHead)
+            ? LCSCatalogExport.buildSeoHead({
+                language: lang,
+                exerciseTypeName: displayTitle,
+                exerciseTypeSlug: seo.exerciseTypeSlug || 'addition',
+                themeName: seo.themeName || null,
+                worksheetWord: seo.worksheetWord || 'Worksheet',
+                instruction: seo.instruction || '',
+                freeInteractive: seo.freeInteractive || 'Free interactive',
+                forWord: seo.forWord || 'for',
+                printOrPlay: seo.printOrPlay || 'Print or play online'
+            })
+            : '<title>' + displayTitle + '</title>';
+        var hreflangMarker = (window.LCSCatalogExport && LCSCatalogExport.HREFLANG_MARKER)
+            || '<!-- HREFLANG_INSERTION_POINT -->';
+
+        // Per-exercise screen-reader text (Brief A §5.4). Built from
+        // bundle.problems so Google + screen readers can read each question
+        // even though the visual exercise is rasterized into the canvas.
+        var srExerciseTpl = (typeof t === 'function' && t('srExerciseAddition'))
+            || 'Question {n}: {a} plus {b} equals blank.';
+        var srFindAddendTpl = (typeof t === 'function' && t('srExerciseAdditionFindAddend'))
+            || 'Question {n}: blank plus {b} equals {sum}.';
+        var srExerciseLabelTpl = (typeof t === 'function' && t('srWorksheetQuestions'))
+            || 'Worksheet questions';
+        var problemsForSr = Array.isArray(bundle.problems) ? bundle.problems : [];
+        var exerciseLines = problemsForSr.map(function (p, i) {
+            var n = i + 1;
+            var a = p.operandA, b = p.operandB;
+            var mode = p.resolvedMode || 'image-image';
+            var line;
+            if (mode === 'find-addend') {
+                var sum = (typeof a === 'number' && typeof b === 'number') ? (a + b) : '';
+                line = srFindAddendTpl.replace('{n}', n).replace('{b}', b).replace('{sum}', sum);
+            } else {
+                line = srExerciseTpl.replace('{n}', n).replace('{a}', a).replace('{b}', b);
+            }
+            return '      <li>' + escapeHtml(line) + '</li>';
+        }).join('\n');
+
+        // End-of-deck internal links (Brief A §5.5) — placeholder URLs Brief
+        // B's publish-cli substitutes at upload time.
+        var endDeckLinks = (window.LCSCatalogExport && LCSCatalogExport.buildEndDeckLinks)
+            ? LCSCatalogExport.buildEndDeckLinks()
+            : '';
+
         var parts = [];
         parts.push('<!DOCTYPE html>');
         parts.push('<html lang="' + lang + '">');
@@ -4902,19 +5001,30 @@
         parts.push('<meta charset="UTF-8">');
         parts.push('<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">');
         parts.push('<meta name="theme-color" content="#FEFAF3">');
-        parts.push('<title>' + title + '</title>');
+        parts.push(seoHead);
         parts.push('<link rel="preconnect" href="https://fonts.googleapis.com">');
         parts.push('<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>');
         parts.push('<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">');
         parts.push('<style>' + css + '</style>');
+        parts.push(hreflangMarker);
         parts.push('</head>');
         parts.push('<body>');
         parts.push('<main id="lcs-app">');
         parts.push('  <div class="lcs-bar">');
-        parts.push('    <h1 class="lcs-title" id="lcs-title">' + title + '</h1>');
+        parts.push('    <h1 class="lcs-title" id="lcs-title">' + escapeHtml(displayTitle) + '</h1>');
         parts.push('    <nav class="lcs-progress" id="lcs-progress" aria-label="Problem progress"></nav>');
         parts.push('    <button type="button" id="lcs-mute" class="lcs-mute" aria-label="Mute sounds"></button>');
         parts.push('  </div>');
+        if (seo.instruction) {
+            parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');
+        }
+        if (exerciseLines) {
+            parts.push('  <section class="lcs-sr" aria-label="' + escapeHtml(srExerciseLabelTpl) + '">');
+            parts.push('    <ol>');
+            parts.push(exerciseLines);
+            parts.push('    </ol>');
+            parts.push('  </section>');
+        }
         parts.push('  <div class="lcs-worksheet-wrap">');
         parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');
         parts.push('      <img class="lcs-worksheet__img" id="lcs-worksheet-img" alt="" src="' + bundle.worksheetImage + '">');
@@ -4927,6 +5037,11 @@
         parts.push('  <button type="button" id="lcs-reset" class="lcs-btn lcs-btn--ghost" hidden>Try Again</button>');
         parts.push('  <span id="lcs-summary" class="lcs-summary" aria-live="polite"></span>');
         parts.push('</footer>');
+        if (endDeckLinks) {
+            parts.push('<aside class="lcs-end-deck">');
+            parts.push(endDeckLinks);
+            parts.push('</aside>');
+        }
         parts.push('<div class="lcs-celebration" id="lcs-celebration" role="dialog" aria-modal="true" aria-label="You did it!"></div>');
         parts.push('<div class="lcs-sr" id="lcs-live" role="status" aria-live="polite"></div>');
         parts.push('<script>var DECK_BUNDLE = ' + bundleJSON + ';<\/script>');
@@ -4934,6 +5049,16 @@
         parts.push('</body>');
         parts.push('</html>');
         return parts.join('\n');
+    }
+
+    // Minimal HTML-escape helper used inside renderStandaloneHTML. Mirrors
+    // the same logic in catalog-export.js so worksheet content (titles,
+    // instructions, sr-only lines) can't break the static HTML structure.
+    function escapeHtml(s) {
+        return String(s == null ? '' : s)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;');
     }
 
     async function downloadInteractiveHtml(canvasInstance, fileName, options) {

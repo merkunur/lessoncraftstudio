@@ -198,7 +198,18 @@ const translations = {
     "selectBackgroundTheme": "Select a theme for backgrounds.",
     "selectBorderTheme": "Select a theme to see borders.",
     "uploadedImagesWillAppearHere": "Your uploaded images will appear here.",
-    "showPlusSignBetweenGroups": "Show '+' Between Image Groups"
+    "showPlusSignBetweenGroups": "Show '+' Between Image Groups",
+    "seoFreeInteractive": "Free interactive",
+    "seoFor": "for",
+    "seoPrintOrPlayOnline": "Print or play online",
+    "srExerciseAddition": "Question {n}: {a} plus {b} equals blank.",
+    "srExerciseAdditionFindAddend": "Question {n}: blank plus {b} equals {sum}.",
+    "srWorksheetQuestions": "Worksheet questions",
+    "endDeckHeading": "Want more?",
+    "endDeckMoreType": "More {type} worksheets",
+    "endDeckMoreTheme": "More {theme} worksheets",
+    "endDeckMoreLevel": "More worksheets for {level}",
+    "endDeckBrowseAll": "Browse all worksheets"
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -386,7 +397,18 @@ const translations = {
     "selectBackgroundTheme": "Wählen Sie ein Thema für Hintergründe.",
     "selectBorderTheme": "Wählen Sie ein Thema, um Rahmen anzuzeigen.",
     "uploadedImagesWillAppearHere": "Ihre hochgeladenen Bilder erscheinen hier.",
-    "showPlusSignBetweenGroups": "'+' zwischen Bildgruppen anzeigen"
+    "showPlusSignBetweenGroups": "'+' zwischen Bildgruppen anzeigen",
+    "seoFreeInteractive": "Kostenloses interaktives",
+    "seoFor": "für",
+    "seoPrintOrPlayOnline": "Drucken oder online spielen",
+    "srExerciseAddition": "Frage {n}: {a} plus {b} ist gleich Leerzeichen.",
+    "srExerciseAdditionFindAddend": "Frage {n}: Leerzeichen plus {b} ist gleich {sum}.",
+    "srWorksheetQuestions": "Arbeitsblatt-Fragen",
+    "endDeckHeading": "Mehr davon?",
+    "endDeckMoreType": "Mehr {type}-Arbeitsblätter",
+    "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
+    "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
+    "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen"
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",

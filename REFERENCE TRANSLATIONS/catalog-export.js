@@ -10,11 +10,39 @@
  * (access-guard.js, attribution-manager.js, image-reference.js). Depends on JSZip
  * 3.10.1 — load that first.
  *
- * Public API: window.LCSCatalogExport.export(opts) → Promise<{deckId, zipFileName}>
+ * Public API:
+ *   window.LCSCatalogExport.export(opts)         → Promise<{deckId, zipFileName}>
+ *   window.LCSCatalogExport.buildSeoHead(opts)   → string of SEO <head> HTML
+ *   window.LCSCatalogExport.buildEndDeckLinks()  → string of end-deck links HTML
  *
  * The export either succeeds completely or throws — never produces a partial ZIP.
  * The caller wraps the call in try/catch and surfaces the error message via the
  * app's existing toast/showMessage helper.
+ *
+ * ─────────────────────────────────────────────────────────────────────────────
+ *  PLACEHOLDER SUBSTITUTION CONTRACT (CLAUDE.md §17.8 / Brief A §6 / Brief B)
+ * ─────────────────────────────────────────────────────────────────────────────
+ *  buildSeoHead() and buildEndDeckLinks() emit deck.html content that contains
+ *  the placeholder tokens listed below. publish-cli (Brief B) substitutes them
+ *  at upload time. Do not change these tokens without updating publish-cli in
+ *  lockstep — mismatch fails silently.
+ *
+ *    __CANONICAL_URL__               canonical URL per §17.8
+ *    __EDUCATIONAL_LEVEL__           "Kindergarten" / "Grade 1" / etc. (English)
+ *    __EDUCATIONAL_LEVEL_LOCALIZED__ "Vorschule" / "Maternelle" / etc.
+ *    <!-- HREFLANG_INSERTION_POINT --> hreflang block (or empty in v1)
+ *    __LINK_MORE_TYPE__              URL of "more <type> worksheets" topic page
+ *    __LINK_MORE_THEME__             URL of "more <theme>" topic page (or null)
+ *    __LINK_MORE_LEVEL__             URL of "more for <level>" topic page
+ *    __LINK_BROWSE_ALL__             URL of catalog landing
+ *    __LINK_TEXT_MORE_TYPE__         localized "More addition worksheets"
+ *    __LINK_TEXT_MORE_THEME__        localized "More animal-themed worksheets"
+ *    __LINK_TEXT_MORE_LEVEL__        localized "More worksheets for kindergarten"
+ *    __LINK_TEXT_BROWSE_ALL__        localized "Browse all worksheets"
+ *    __END_DECK_HEADING__            localized "Want more?"
+ *
+ *  The hreflang marker MUST be the LAST element inside <head> (placement is
+ *  load-bearing for publish-cli's string replacement).
  */
 
 (function (global) {
@@ -144,11 +172,148 @@
         pdf: ASSET_NAMES.pdf,
         answer_key_pdf: ASSET_NAMES.answer_key_pdf,
         thumbnail: ASSET_NAMES.thumbnail
-      }
+      },
+      // Reserved per CLAUDE.md §17.8.7 — always null in v1; the v2 translate-
+      // this-deck workflow populates it for cross-language sibling tracking.
+      content_family_id: null
     };
     // Round-trip check per brief §5: schema must JSON-serialize cleanly.
     JSON.parse(JSON.stringify(manifest));
     return manifest;
+  }
+
+  // ───────────────────────────────────────────────────────────────────────────
+  //  SEO surface helpers (CLAUDE.md §17.8 / Brief A)
+  // ───────────────────────────────────────────────────────────────────────────
+
+  function escapeHtml(s) {
+    return String(s == null ? '' : s)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;');
+  }
+
+  function escapeAttr(s) {
+    return String(s == null ? '' : s)
+      .replace(/&/g, '&amp;')
+      .replace(/"/g, '&quot;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;');
+  }
+
+  /**
+   * Build the SEO content for a deck.html <head>. Returns a string that the
+   * per-app renderStandaloneHTML() injects between the existing viewport/theme-
+   * color metas and the font preconnects. The hreflang marker MUST end up as
+   * the last element inside <head> — keep that constraint in mind when wiring
+   * the call site.
+   *
+   * opts = {
+   *   language:           'en' | 'de' | ...,        // ISO 639-1
+   *   exerciseTypeName:   'Addition',               // localized
+   *   exerciseTypeSlug:   'addition',               // raw slug, used in JSON-LD "teaches"
+   *   themeName:          'Animals' | null,         // localized; null if no theme
+   *   worksheetWord:      'Worksheet',              // localized t('worksheet')
+   *   instruction:        'Add the numbers ...',    // localized instruction sentence
+   *   freeInteractive:    'Free interactive',       // t('seoFreeInteractive')
+   *   forWord:            'for',                    // t('seoFor')
+   *   printOrPlay:        'Print or play online'    // t('seoPrintOrPlayOnline')
+   * }
+   *
+   * Returns: string of HTML, newline-separated, no leading/trailing whitespace.
+   */
+  function buildSeoHead(opts) {
+    if (!opts) throw new Error('buildSeoHead: opts is required.');
+    var language        = String(opts.language || 'en');
+    var typeName        = String(opts.exerciseTypeName || '');
+    var typeSlug        = String(opts.exerciseTypeSlug || '');
+    var themeName       = opts.themeName ? String(opts.themeName) : null;
+    var worksheetWord   = String(opts.worksheetWord || 'Worksheet');
+    var instruction     = String(opts.instruction || '');
+    var freeInteractive = String(opts.freeInteractive || 'Free interactive');
+    var forWord         = String(opts.forWord || 'for');
+    var printOrPlay     = String(opts.printOrPlay || 'Print or play online');
+
+    // Title: "{Type} {Worksheet} — {Theme} — __EDUCATIONAL_LEVEL_LOCALIZED__ | LessonCraftStudio"
+    // Theme segment + its em-dashes are omitted when no theme is set.
+    var titleSegments = [typeName + ' ' + worksheetWord];
+    if (themeName) titleSegments.push(themeName);
+    titleSegments.push('__EDUCATIONAL_LEVEL_LOCALIZED__');
+    var titleCore = titleSegments.join(' — ');
+    var titleFull = titleCore + ' | LessonCraftStudio';
+
+    // Description: "{freeInteractive} {type} {worksheet} ({theme}) {for} __EDUCATIONAL_LEVEL_LOCALIZED__. {instruction}. {printOrPlay}."
+    // Preserve input casing — German requires capitalized nouns; lowercasing
+    // breaks grammar in 5+ of the 11 supported languages.
+    var descLead = freeInteractive + ' ' + typeName + ' ' + worksheetWord;
+    if (themeName) descLead += ' (' + themeName + ')';
+    descLead += ' ' + forWord + ' __EDUCATIONAL_LEVEL_LOCALIZED__';
+    var description = descLead + '.' + (instruction ? ' ' + instruction + (/[.!?]$/.test(instruction) ? '' : '.') : '') + ' ' + printOrPlay + '.';
+
+    // Schema.org LearningResource. Placeholders sit INSIDE string-quoted JSON
+    // values so JSON.parse stays valid both before and after publish-cli's
+    // literal-token substitution (CLAUDE.md §17.8.1.6 / Brief A §4.6).
+    var ld = {
+      '@context': 'https://schema.org',
+      '@type': 'LearningResource',
+      name: titleCore,
+      description: description,
+      learningResourceType: 'Worksheet',
+      educationalLevel: '__EDUCATIONAL_LEVEL__',
+      teaches: typeSlug,
+      inLanguage: language,
+      isAccessibleForFree: true,
+      creator: {
+        '@type': 'Organization',
+        name: 'LessonCraftStudio',
+        url: 'https://lessoncraftstudio.com'
+      },
+      audience: {
+        '@type': 'EducationalAudience',
+        educationalRole: 'student'
+      },
+      url: '__CANONICAL_URL__'
+    };
+
+    // The hreflang marker is NOT included here — it MUST be the LAST element
+    // inside <head>, while the SEO content typically belongs earlier (before
+    // font preconnects and <style>). Callers push HREFLANG_MARKER separately
+    // as the last element of <head>.
+    return [
+      '<title>' + escapeHtml(titleFull) + '</title>',
+      '<meta name="description" content="' + escapeAttr(description) + '">',
+      '<link rel="canonical" href="__CANONICAL_URL__">',
+      '<script type="application/ld+json">' + JSON.stringify(ld) + '<\/script>'
+    ].join('\n');
+  }
+
+  // Hreflang insertion-point marker. publish-cli (Brief B) replaces this
+  // string with the hreflang block (or empty string in v1). Per CLAUDE.md
+  // §17.8.1.5 it MUST be the last element inside <head>.
+  var HREFLANG_MARKER = '<!-- HREFLANG_INSERTION_POINT -->';
+
+  /**
+   * Build the end-of-deck internal-links section (CLAUDE.md §17.8.2 / Brief A
+   * §5.5). Returns a string of HTML containing only placeholder tokens — Brief
+   * B's publish-cli substitutes them at upload time with the localized link
+   * text and the topic-destination-page URLs.
+   *
+   * The caller inserts the returned HTML inside the existing celebration-
+   * screen DOM (typically immediately before the closing </div> of
+   * .lcs-celebration__inner, after the existing call-to-action buttons).
+   */
+  function buildEndDeckLinks() {
+    return [
+      '<div class="end-deck-links">',
+      '  <h2>__END_DECK_HEADING__</h2>',
+      '  <ul>',
+      '    <li><a href="__LINK_MORE_TYPE__">__LINK_TEXT_MORE_TYPE__</a></li>',
+      '    <li><a href="__LINK_MORE_THEME__">__LINK_TEXT_MORE_THEME__</a></li>',
+      '    <li><a href="__LINK_MORE_LEVEL__">__LINK_TEXT_MORE_LEVEL__</a></li>',
+      '    <li><a href="__LINK_BROWSE_ALL__">__LINK_TEXT_BROWSE_ALL__</a></li>',
+      '  </ul>',
+      '</div>'
+    ].join('\n');
   }
 
   function triggerDownload(blob, fileName) {
@@ -243,6 +408,9 @@
     utcStamp: utcStamp,
     isoUtc: isoUtc,
     slugify: slugify,
+    buildSeoHead: buildSeoHead,
+    buildEndDeckLinks: buildEndDeckLinks,
+    HREFLANG_MARKER: HREFLANG_MARKER,
     export: exportCatalog
   };
 }(typeof window !== 'undefined' ? window : this));

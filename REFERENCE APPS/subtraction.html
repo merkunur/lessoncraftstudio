@@ -4792,10 +4792,13 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             : '';
 
         // Per-row sr-only (Brief A §5.4 — Group A multi-row pattern).
+        // Brief A 5A.3 redo: bundle.problems[i] uses {operandA, operandB,
+        // resolvedMode} (extractDeckBundle reshapes from problemsData's
+        // {minuend, subtrahend}). Templates updated to reference operandA/B.
         var srExerciseTpl = (typeof t === 'function' && t('srExerciseSubtraction'))
-            || 'Question {n}: {minuend} minus {subtrahend} equals blank.';
+            || 'Question {n}: {operandA} minus {operandB} equals blank.';
         var srFindSubtrahendTpl = (typeof t === 'function' && t('srExerciseSubtractionFindSubtrahend'))
-            || 'Question {n}: {minuend} minus blank equals {result}.';
+            || 'Question {n}: {operandA} minus blank equals {result}.';
         var srExerciseLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
             || 'Worksheet questions';
         var problemsForSr = Array.isArray(bundle.problems) ? bundle.problems : [];
@@ -4803,13 +4806,13 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             var n = i + 1;
             var mode = p.resolvedMode || 'cross-out';
             if (mode === 'find-subtrahend') {
-                var result = (typeof p.minuend === 'number' && typeof p.subtrahend === 'number')
-                    ? (p.minuend - p.subtrahend) : '';
+                var result = (typeof p.operandA === 'number' && typeof p.operandB === 'number')
+                    ? (p.operandA - p.operandB) : '';
                 return srFindSubtrahendTpl
-                    .replace('{n}', n).replace('{minuend}', p.minuend).replace('{result}', result);
+                    .replace('{n}', n).replace('{operandA}', p.operandA).replace('{result}', result);
             }
             return srExerciseTpl
-                .replace('{n}', n).replace('{minuend}', p.minuend).replace('{subtrahend}', p.subtrahend);
+                .replace('{n}', n).replace('{operandA}', p.operandA).replace('{operandB}', p.operandB);
         });
         var srRowsHtml = (window.LCSCatalogExport && LCSCatalogExport.buildSrRows)
             ? LCSCatalogExport.buildSrRows({ label: srExerciseLabel, rows: srRows })

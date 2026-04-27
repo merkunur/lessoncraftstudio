@@ -235,8 +235,8 @@ const translations = {
     "endDeckMoreTheme": "More {theme} worksheets",
     "endDeckMoreLevel": "More worksheets for {level}",
     "endDeckBrowseAll": "Browse all worksheets",
-    "srExerciseSubtraction": "Question {n}: {minuend} minus {subtrahend} equals blank.",
-    "srExerciseSubtractionFindSubtrahend": "Question {n}: {minuend} minus blank equals {result}."
+    "srExerciseSubtraction": "Question {n}: {operandA} minus {operandB} equals blank.",
+    "srExerciseSubtractionFindSubtrahend": "Question {n}: {operandA} minus blank equals {result}."
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -465,8 +465,8 @@ const translations = {
     "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
     "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
     "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
-    "srExerciseSubtraction": "Frage {n}: {minuend} minus {subtrahend} ist gleich Leerzeichen.",
-    "srExerciseSubtractionFindSubtrahend": "Frage {n}: {minuend} minus Leerzeichen ist gleich {result}."
+    "srExerciseSubtraction": "Frage {n}: {operandA} minus {operandB} ist gleich Leerzeichen.",
+    "srExerciseSubtractionFindSubtrahend": "Frage {n}: {operandA} minus Leerzeichen ist gleich {result}."
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",

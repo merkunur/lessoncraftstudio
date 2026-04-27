@@ -210,7 +210,8 @@ const translations = {
     "endDeckMoreLevel": "More worksheets for {level}",
     "endDeckBrowseAll": "Browse all worksheets",
     "srExerciseShadowMatchShadow": "Question {n}: Match the {item} to its shadow.",
-    "srExerciseShadowMatchMakeItWhole": "Question {n}: Match the {item} to the piece that completes it."
+    "srExerciseShadowMatchMakeItWholeHorizontal": "Question {n}: Match the top half of the {item} to its bottom half.",
+    "srExerciseShadowMatchMakeItWholeVertical": "Question {n}: Match the left half of the {item} to its right half."
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -417,7 +418,8 @@ const translations = {
     "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
     "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
     "srExerciseShadowMatchShadow": "Frage {n}: Verbinde das {item} mit seinem Schatten.",
-    "srExerciseShadowMatchMakeItWhole": "Frage {n}: Verbinde das {item} mit dem Teil, das es vervollständigt."
+    "srExerciseShadowMatchMakeItWholeHorizontal": "Frage {n}: Verbinde die obere Hälfte des {item} mit seiner unteren Hälfte.",
+    "srExerciseShadowMatchMakeItWholeVertical": "Frage {n}: Verbinde die linke Hälfte des {item} mit seiner rechten Hälfte."
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",

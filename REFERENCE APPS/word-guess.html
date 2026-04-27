@@ -4306,11 +4306,18 @@ async function downloadPDF(canvasToExport, fileName = 'download', opts) {
                 || 'Question {n}: Spell the word for the picture shown. Some letters are already filled in.';
             var srExerciseLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
                 || 'Worksheet questions';
-            var puzzlesForSr = Array.isArray(bundle.puzzles) ? bundle.puzzles : [];
-            var srRows = puzzlesForSr.map(function (_p, i) {
-                var n = i + 1;
-                return srExerciseTpl.replace('{n}', n);
+            // Derive puzzle count from slots — bundle has no top-level puzzles
+            // array; each unique problemIndex in slots = one puzzle/word.
+            var slotsForSr = Array.isArray(bundle.slots) ? bundle.slots : [];
+            var problemIndexes = {};
+            slotsForSr.forEach(function (s) {
+                if (s && typeof s.problemIndex === 'number') problemIndexes[s.problemIndex] = true;
             });
+            var puzzleCount = Object.keys(problemIndexes).length;
+            var srRows = [];
+            for (var i = 0; i < puzzleCount; i++) {
+                srRows.push(srExerciseTpl.replace('{n}', i + 1));
+            }
             var srRowsHtml = (window.LCSCatalogExport && LCSCatalogExport.buildSrRows)
                 ? LCSCatalogExport.buildSrRows({ label: srExerciseLabel, rows: srRows })
                 : '';

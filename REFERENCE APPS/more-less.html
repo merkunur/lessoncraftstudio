@@ -5770,18 +5770,16 @@ async function downloadPDF(canvasToExport, filename, opts) {
         var srExerciseLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
             || 'Worksheet questions';
         var srLang = (bundle.contentLanguage || 'en').slice(0, 2);
-        function _moreLessPlural(imagePath) {
-            if (!imagePath || !window.ImageVocab) return '';
-            var key = ImageVocab.keyFromPath(imagePath);
-            if (!key) return '';
+        function _moreLessPlural(key) {
+            if (!key || !window.ImageVocab) return key || '';
             var plural = ImageVocab.plural(key, srLang);
             return plural || key;
         }
         var problemsForSr = Array.isArray(bundle.problems) ? bundle.problems : [];
         var srRows = problemsForSr.map(function (p, i) {
             var n = i + 1;
-            var pluralA = _moreLessPlural(p.imageA);
-            var pluralB = _moreLessPlural(p.imageB);
+            var pluralA = _moreLessPlural(p.imageAKey);
+            var pluralB = _moreLessPlural(p.imageBKey);
             var tpl = (p.comparisonMode === 'check-cross') ? srCheckCrossTpl : srComparisonTpl;
             return tpl.replace('{n}', n).replace('{pluralA}', pluralA).replace('{pluralB}', pluralB);
         });

@@ -5132,12 +5132,18 @@ async function downloadPDF(canvasInstance, baseFileName, opts) {
                 || 'Worksheet questions';
             var slotsForSr = Array.isArray(bundle.slots) ? bundle.slots : [];
             var isWordReveal = slotsForSr.some(function (s) { return s && s.slotType === 'letter'; });
-            var problemsForSr = Array.isArray(bundle.problems) ? bundle.problems : [];
-            var srRows = problemsForSr.map(function (_p, i) {
-                var n = i + 1;
-                var tpl = isWordReveal ? srWordRevealTpl : srExerciseTpl;
-                return tpl.replace('{n}', n);
+            // Derive problem count from slots — bundle has no top-level problems
+            // array; each problemIndex in slots corresponds to one row.
+            var problemIndexes = {};
+            slotsForSr.forEach(function (s) {
+                if (s && typeof s.problemIndex === 'number') problemIndexes[s.problemIndex] = true;
             });
+            var problemCount = Object.keys(problemIndexes).length;
+            var srRows = [];
+            for (var i = 0; i < problemCount; i++) {
+                var tpl = isWordReveal ? srWordRevealTpl : srExerciseTpl;
+                srRows.push(tpl.replace('{n}', i + 1));
+            }
             var srRowsHtml = (window.LCSCatalogExport && LCSCatalogExport.buildSrRows)
                 ? LCSCatalogExport.buildSrRows({ label: srExerciseLabel, rows: srRows })
                 : '';

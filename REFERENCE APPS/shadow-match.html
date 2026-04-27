@@ -2958,31 +2958,36 @@
               ? LCSCatalogExport.buildEndDeckLinks()
               : '';
 
-          // Per-row sr-only — shadow-match. Mode lives at deck level (radio).
+          // Per-row sr-only — shadow-match. Three templates: shadow-match
+          // mode, plus makeItWhole split by cutDirection (horizontal vs
+          // vertical halves). Item names looked up via ImageVocab from the
+          // bundled topImageKey.
           var srShadowTpl = (typeof t === 'function' && t('srExerciseShadowMatchShadow'))
               || 'Question {n}: Match the {item} to its shadow.';
-          var srMakeItWholeTpl = (typeof t === 'function' && t('srExerciseShadowMatchMakeItWhole'))
-              || 'Question {n}: Match the {item} to the piece that completes it.';
+          var srMakeItWholeHorizontalTpl = (typeof t === 'function' && t('srExerciseShadowMatchMakeItWholeHorizontal'))
+              || 'Question {n}: Match the top half of the {item} to its bottom half.';
+          var srMakeItWholeVerticalTpl = (typeof t === 'function' && t('srExerciseShadowMatchMakeItWholeVertical'))
+              || 'Question {n}: Match the left half of the {item} to its right half.';
           var srExerciseLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
               || 'Worksheet questions';
           var srLang = (bundle.contentLanguage || 'en').slice(0, 2);
-          function _smName(image) {
-              if (!image) return '';
-              if (image.path && window.ImageVocab) {
-                  var key = ImageVocab.keyFromPath(image.path);
-                  if (key) {
-                      var name = ImageVocab.singular(key, srLang);
-                      if (name) return name;
-                  }
-              }
-              return (image && (image.word || image.name)) || '';
+          function _smKeyToName(key) {
+              if (!key || !window.ImageVocab) return key || '';
+              var name = ImageVocab.singular(key, srLang);
+              return name || key;
           }
-          var srMode = bundle.mode || (bundle.exerciseMode === 'makeItWhole' ? 'makeItWhole' : 'shadowMatch');
+          var srMode = bundle.mode || 'shadowMatch';
+          var srCutDirection = bundle.cutDirection || 'horizontal';
           var pairsForSr = Array.isArray(bundle.pairs) ? bundle.pairs : [];
           var srRows = pairsForSr.map(function (pair, i) {
               var n = i + 1;
-              var item = _smName(pair && pair.image);
-              var tpl = (srMode === 'makeItWhole') ? srMakeItWholeTpl : srShadowTpl;
+              var item = _smKeyToName(pair && pair.topImageKey);
+              var tpl;
+              if (srMode === 'makeItWhole') {
+                  tpl = (srCutDirection === 'vertical') ? srMakeItWholeVerticalTpl : srMakeItWholeHorizontalTpl;
+              } else {
+                  tpl = srShadowTpl;
+              }
               return tpl.replace('{n}', n).replace('{item}', item);
           });
           var srRowsHtml = (window.LCSCatalogExport && LCSCatalogExport.buildSrRows)

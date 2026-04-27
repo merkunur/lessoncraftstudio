@@ -4677,26 +4677,27 @@
         var srExerciseLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
             || 'Worksheet questions';
         var srLang = (bundle.contentLanguage || 'en').slice(0, 2);
-        function _prepName(obj) {
-            if (!obj) return '';
-            if (obj.path && window.ImageVocab) {
-                var key = ImageVocab.keyFromPath(obj.path);
-                if (key) {
-                    var name = ImageVocab.singular(key, srLang);
-                    if (name) return name;
-                    return key;
-                }
-            }
-            return obj.word || obj.name || '';
+        function _prepKeyToName(key) {
+            if (!key || !window.ImageVocab) return key || '';
+            var name = ImageVocab.singular(key, srLang);
+            return name || key;
         }
-        var assignmentsForSr = (bundle.problems && Array.isArray(bundle.problems))
-            ? bundle.problems
-            : (Array.isArray(bundle.assignments) ? bundle.assignments : []);
+        function _prepShapeLabel(a) {
+            if (a && a.shapeKey) return _prepKeyToName(a.shapeKey);
+            if (a && a.shapeDefaultSlug && typeof t === 'function') {
+                var slug = a.shapeDefaultSlug.charAt(0).toUpperCase() + a.shapeDefaultSlug.slice(1);
+                var resolved = t('srShape' + slug);
+                if (resolved && resolved !== ('srShape' + slug)) return resolved;
+                return a.shapeDefaultSlug;
+            }
+            return (a && a.shapeDefaultSlug) || '';
+        }
+        var assignmentsForSr = Array.isArray(bundle.assignments) ? bundle.assignments : [];
         var srMode = (bundle.exerciseMode === 'multiplechoice') ? 'choice' : 'fillIn';
         var srRows = assignmentsForSr.map(function (a, i) {
             var n = i + 1;
-            var item = _prepName(a && a.item);
-            var shape = _prepName(a && a.shape);
+            var item = _prepKeyToName(a && a.itemKey);
+            var shape = _prepShapeLabel(a);
             var tpl = (srMode === 'choice') ? srChoiceTpl : srFillInTpl;
             return tpl.replace('{n}', n).replace('{item}', item).replace('{shape}', shape);
         });

@@ -3095,11 +3095,13 @@ document.addEventListener('DOMContentLoaded', function() {
         var srLang = (bundle.contentLanguage || 'en').slice(0, 2);
         function _ccWord(target) {
             if (!target) return '';
-            if (target.canonicalKey && window.ImageVocab) {
-                var name = ImageVocab.plural(target.canonicalKey, srLang);
+            // target.key is the lowercased name from the legend (vocab-stable);
+            // canonicalKey is path-derived and can be null. Prefer target.key.
+            if (target.key && window.ImageVocab) {
+                var name = ImageVocab.plural(target.key, srLang);
                 if (name) return name;
             }
-            return target.word || '';
+            return target.word || target.key || '';
         }
         var targetsForSr = Array.isArray(bundle.targets) ? bundle.targets : [];
         var srRows = targetsForSr.map(function (target, i) {

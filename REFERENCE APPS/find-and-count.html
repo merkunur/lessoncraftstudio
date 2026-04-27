@@ -5163,11 +5163,14 @@ async function downloadPDF(canvasToExport, filename, opts) {
         var srLang = (bundle.contentLanguage || 'en').slice(0, 2);
         function _facWord(target) {
             if (!target) return '';
-            if (target.canonicalKey && window.ImageVocab) {
-                var name = ImageVocab.singular(target.canonicalKey, srLang);
+            // target.key is the lowercased cell.word (vocab-stable);
+            // canonicalKey is path-derived and can be null when path
+            // parsing fails. Prefer target.key for ImageVocab lookup.
+            if (target.key && window.ImageVocab) {
+                var name = ImageVocab.singular(target.key, srLang);
                 if (name) return name;
             }
-            return target.word || '';
+            return target.word || target.key || '';
         }
         var targetsForSr = Array.isArray(bundle.targets) ? bundle.targets : [];
         var srRows = targetsForSr.map(function (target, i) {

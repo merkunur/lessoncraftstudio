@@ -4870,6 +4870,69 @@
           var endDeckLinks = (window.LCSCatalogExport && LCSCatalogExport.buildEndDeckLinks)
               ? LCSCatalogExport.buildEndDeckLinks()
               : '';
+
+          // Per-row sr-only — math-worksheet. One row per puzzle (card). Each
+          // row stitches puzzle.equations into a localized string by substituting
+          // each symbol letter with the localized image-vocabulary singular and
+          // each operator token with srOperator<Name>. Per-language concatenation
+          // limitation acknowledged in MEMORY.md — works for en + de, awkward in
+          // Romance/Dutch, structurally broken in Finnish.
+          var srExerciseTpl = (typeof t === 'function' && t('srExerciseMathWorksheet'))
+              || 'Question {n}: Find what each picture equals using these equations: {equations}.';
+          var srOpPlus = (typeof t === 'function' && t('srOperatorPlus')) || 'plus';
+          var srOpMinus = (typeof t === 'function' && t('srOperatorMinus')) || 'minus';
+          var srOpEquals = (typeof t === 'function' && t('srOperatorEquals')) || 'equals';
+          var srExerciseLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
+              || 'Worksheet questions';
+          var srLang = (bundle.contentLanguage || 'en').slice(0, 2);
+          function _mwSymbolLabel(symbol, imageMap) {
+              var imgPath = imageMap && imageMap[symbol];
+              if (imgPath && window.ImageVocab) {
+                  var key = ImageVocab.keyFromPath(imgPath);
+                  if (key) {
+                      var name = ImageVocab.singular(key, srLang);
+                      if (name) return name;
+                  }
+              }
+              return symbol;
+          }
+          function _mwTokenLabel(tok, imageMap) {
+              if (tok === '+') return srOpPlus;
+              if (tok === '-') return srOpMinus;
+              if (tok === '=') return srOpEquals;
+              return _mwSymbolLabel(tok, imageMap);
+          }
+          function _mwEquationToString(eq, imageMap) {
+              if (!eq || typeof eq.expr !== 'string') return '';
+              var parts = eq.expr.split(/\s+/).filter(Boolean).map(function (tok) {
+                  return _mwTokenLabel(tok, imageMap);
+              });
+              return parts.join(' ') + ' ' + srOpEquals + ' ' + (eq.result != null ? eq.result : '');
+          }
+          // Group bundle.slots by problemIndex to recover per-puzzle data — math-
+          // worksheet's bundle exposes slots-flat rather than puzzles[]; the
+          // puzzles array lives on canvas.problemsData and isn't bundled.
+          var puzzlesData = (typeof DECK_BUNDLE !== 'undefined' && DECK_BUNDLE.puzzlesData) || (typeof window !== 'undefined' && window._mwPuzzlesData) || [];
+          // Fallback: derive puzzle indices from slots
+          var slotsForSr = Array.isArray(bundle.slots) ? bundle.slots : [];
+          var maxIdx = -1;
+          slotsForSr.forEach(function (s) { if (s && typeof s.problemIndex === 'number' && s.problemIndex > maxIdx) maxIdx = s.problemIndex; });
+          var puzzleCount = maxIdx + 1;
+          var srRows = [];
+          for (var pi = 0; pi < puzzleCount; pi++) {
+              var n = pi + 1;
+              var puzzle = puzzlesData[pi] || {};
+              var equations = Array.isArray(puzzle.equations) ? puzzle.equations : [];
+              var imageMap = puzzle.imageMap || {};
+              var equationStrings = equations.map(function (eq) {
+                  return _mwEquationToString(eq, imageMap);
+              }).filter(Boolean);
+              var equationsStr = equationStrings.join(', ');
+              srRows.push(srExerciseTpl.replace('{n}', n).replace('{equations}', equationsStr));
+          }
+          var srRowsHtml = (window.LCSCatalogExport && LCSCatalogExport.buildSrRows)
+              ? LCSCatalogExport.buildSrRows({ label: srExerciseLabel, rows: srRows })
+              : '';
           var parts = [];
           parts.push('<!DOCTYPE html>');
           parts.push('<html lang="' + lang + '">');
@@ -4893,6 +4956,9 @@
           parts.push('  </div>');
           if (seo.instruction) {
               parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');
+          }
+          if (srRowsHtml) {
+              parts.push('  ' + srRowsHtml);
           }
           parts.push('  <div class="lcs-worksheet-wrap">');
           parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');

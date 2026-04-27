@@ -4983,6 +4983,36 @@ async function downloadPDF(canvasInstance, fileName, opts) {
           var endDeckLinks = (window.LCSCatalogExport && LCSCatalogExport.buildEndDeckLinks)
               ? LCSCatalogExport.buildEndDeckLinks()
               : '';
+
+          // Per-row sr-only — big-small. 5 mode variants per qType.
+          var srFindSmallTpl = (typeof t === 'function' && t('srExerciseBigSmallFindSmall'))
+              || 'Question {n}: Circle the smallest one.';
+          var srFindBigTpl = (typeof t === 'function' && t('srExerciseBigSmallFindBig'))
+              || 'Question {n}: Circle the biggest one.';
+          var srFindMedTpl = (typeof t === 'function' && t('srExerciseBigSmallFindMed'))
+              || 'Question {n}: Circle the medium-sized one.';
+          var srOrderAscTpl = (typeof t === 'function' && t('srExerciseBigSmallOrderAsc'))
+              || 'Question {n}: Number the {N} pictures from smallest (1) to biggest.';
+          var srOrderDescTpl = (typeof t === 'function' && t('srExerciseBigSmallOrderDesc'))
+              || 'Question {n}: Number the {N} pictures from biggest (1) to smallest.';
+          var srExerciseLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
+              || 'Worksheet questions';
+          var qType = bundle.qType || 'findBig';
+          var imagesPerProblem = bundle.imagesPerProblem || 0;
+          var problemsForSr = Array.isArray(bundle.problems) ? bundle.problems : [];
+          var srRows = problemsForSr.map(function (_p, i) {
+              var n = i + 1;
+              var tpl;
+              if (qType === 'findSmall') tpl = srFindSmallTpl;
+              else if (qType === 'findMed') tpl = srFindMedTpl;
+              else if (qType === 'orderAsc') tpl = srOrderAscTpl;
+              else if (qType === 'orderDesc') tpl = srOrderDescTpl;
+              else tpl = srFindBigTpl;
+              return tpl.replace('{n}', n).replace('{N}', String(imagesPerProblem));
+          });
+          var srRowsHtml = (window.LCSCatalogExport && LCSCatalogExport.buildSrRows)
+              ? LCSCatalogExport.buildSrRows({ label: srExerciseLabel, rows: srRows })
+              : '';
           var parts = [];
           parts.push('<!DOCTYPE html>');
           parts.push('<html lang="' + lang + '">');
@@ -5006,6 +5036,9 @@ async function downloadPDF(canvasInstance, fileName, opts) {
           parts.push('  </div>');
           if (seo.instruction) {
               parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');
+          }
+          if (srRowsHtml) {
+              parts.push('  ' + srRowsHtml);
           }
           parts.push('  <div class="lcs-worksheet-wrap">');
           parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');

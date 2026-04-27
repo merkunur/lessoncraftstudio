@@ -4920,6 +4920,22 @@ async function downloadPDF(canvasToExport, fileName, opts) {
         var endDeckLinks = (window.LCSCatalogExport && LCSCatalogExport.buildEndDeckLinks)
             ? LCSCatalogExport.buildEndDeckLinks()
             : '';
+
+        // Per-row sr-only — alphabet-train. expectedLetter NOT included
+        // (would leak the deduction the student is supposed to do — see Brief A
+        // 5A.2 Issue 2 alphabet-train fix).
+        var srExerciseTpl = (typeof t === 'function' && t('srExerciseAlphabetTrain'))
+            || 'Question {n}: Drag the correct letter into wagon {n}.';
+        var srExerciseLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
+            || 'Worksheet questions';
+        var cellsForSr = (bundle.grid && Array.isArray(bundle.grid.cells)) ? bundle.grid.cells : [];
+        var srRows = cellsForSr.map(function (_c, i) {
+            var n = i + 1;
+            return srExerciseTpl.replace(/\{n\}/g, n);
+        });
+        var srRowsHtml = (window.LCSCatalogExport && LCSCatalogExport.buildSrRows)
+            ? LCSCatalogExport.buildSrRows({ label: srExerciseLabel, rows: srRows })
+            : '';
         var parts = [];
         parts.push('<!DOCTYPE html>');
         parts.push('<html lang="' + lang + '">');
@@ -4943,6 +4959,9 @@ async function downloadPDF(canvasToExport, fileName, opts) {
         parts.push('  </div>');
         if (seo.instruction) {
             parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');
+        }
+        if (srRowsHtml) {
+            parts.push('  ' + srRowsHtml);
         }
         parts.push('  <div class="lcs-worksheet-wrap">');
         parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');

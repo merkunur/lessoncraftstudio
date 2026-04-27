@@ -4765,6 +4765,22 @@ async function downloadPDF(canvasToExport, filename, opts) {
         var endDeckLinks = (window.LCSCatalogExport && LCSCatalogExport.buildEndDeckLinks)
             ? LCSCatalogExport.buildEndDeckLinks()
             : '';
+
+        // Per-row sr-only — math-puzzle. operationText already contains the
+        // rendered equation (e.g., "5 + 3 ="), so substitution is direct.
+        var srExerciseTpl = (typeof t === 'function' && t('srExerciseMathPuzzle'))
+            || 'Question {n}: {operationText} blank.';
+        var srExerciseLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
+            || 'Worksheet questions';
+        var cellsForSr = (bundle.grid && Array.isArray(bundle.grid.cells)) ? bundle.grid.cells : [];
+        var srRows = cellsForSr.map(function (c, i) {
+            var n = i + 1;
+            var op = (c && c.operationText) || '';
+            return srExerciseTpl.replace('{n}', n).replace('{operationText}', op);
+        });
+        var srRowsHtml = (window.LCSCatalogExport && LCSCatalogExport.buildSrRows)
+            ? LCSCatalogExport.buildSrRows({ label: srExerciseLabel, rows: srRows })
+            : '';
         var parts = [];
         parts.push('<!DOCTYPE html>');
         parts.push('<html lang="' + lang + '">');
@@ -4788,6 +4804,9 @@ async function downloadPDF(canvasToExport, filename, opts) {
         parts.push('  </div>');
         if (seo.instruction) {
             parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');
+        }
+        if (srRowsHtml) {
+            parts.push('  ' + srRowsHtml);
         }
         parts.push('  <div class="lcs-worksheet-wrap">');
         parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');

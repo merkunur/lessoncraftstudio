@@ -3085,6 +3085,30 @@ document.addEventListener('DOMContentLoaded', function() {
         var endDeckLinks = (window.LCSCatalogExport && LCSCatalogExport.buildEndDeckLinks)
             ? LCSCatalogExport.buildEndDeckLinks()
             : '';
+
+        // Per-row sr-only — chart-count. {totalCount} deliberately NOT
+        // referenced (would leak the answer per Brief A 5A.2 Issue 1).
+        var srExerciseTpl = (typeof t === 'function' && t('srExerciseChartCount'))
+            || 'Question {n}: Count the {word} in the picture and shade the column to show how many you counted.';
+        var srExerciseLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
+            || 'Worksheet questions';
+        var srLang = (bundle.contentLanguage || 'en').slice(0, 2);
+        function _ccWord(target) {
+            if (!target) return '';
+            if (target.canonicalKey && window.ImageVocab) {
+                var name = ImageVocab.plural(target.canonicalKey, srLang);
+                if (name) return name;
+            }
+            return target.word || '';
+        }
+        var targetsForSr = Array.isArray(bundle.targets) ? bundle.targets : [];
+        var srRows = targetsForSr.map(function (target, i) {
+            var n = i + 1;
+            return srExerciseTpl.replace('{n}', n).replace('{word}', _ccWord(target));
+        });
+        var srRowsHtml = (window.LCSCatalogExport && LCSCatalogExport.buildSrRows)
+            ? LCSCatalogExport.buildSrRows({ label: srExerciseLabel, rows: srRows })
+            : '';
         var parts = [];
         parts.push('<!DOCTYPE html>');
         parts.push('<html lang="' + lang + '">');
@@ -3107,6 +3131,9 @@ document.addEventListener('DOMContentLoaded', function() {
         parts.push('  </div>');
         if (seo.instruction) {
             parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');
+        }
+        if (srRowsHtml) {
+            parts.push('  ' + srRowsHtml);
         }
         parts.push('  <div class="lcs-worksheet-wrap">');
         parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');

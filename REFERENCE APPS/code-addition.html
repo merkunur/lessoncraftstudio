@@ -5121,6 +5121,26 @@ async function downloadPDF(canvasInstance, baseFileName, opts) {
             var endDeckLinks = (window.LCSCatalogExport && LCSCatalogExport.buildEndDeckLinks)
                 ? LCSCatalogExport.buildEndDeckLinks()
                 : '';
+
+            // Per-row sr-only — code-addition. Word-reveal mode detected via
+            // presence of slot.slotType === 'letter' (no explicit mode field).
+            var srExerciseTpl = (typeof t === 'function' && t('srExerciseCodeAddition'))
+                || 'Question {n}: Add the picture values together and write the total.';
+            var srWordRevealTpl = (typeof t === 'function' && t('srExerciseCodeAdditionWordReveal'))
+                || 'Question {n}: Add the picture values, then write the letter that matches the total.';
+            var srExerciseLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
+                || 'Worksheet questions';
+            var slotsForSr = Array.isArray(bundle.slots) ? bundle.slots : [];
+            var isWordReveal = slotsForSr.some(function (s) { return s && s.slotType === 'letter'; });
+            var problemsForSr = Array.isArray(bundle.problems) ? bundle.problems : [];
+            var srRows = problemsForSr.map(function (_p, i) {
+                var n = i + 1;
+                var tpl = isWordReveal ? srWordRevealTpl : srExerciseTpl;
+                return tpl.replace('{n}', n);
+            });
+            var srRowsHtml = (window.LCSCatalogExport && LCSCatalogExport.buildSrRows)
+                ? LCSCatalogExport.buildSrRows({ label: srExerciseLabel, rows: srRows })
+                : '';
             var parts = [];
             parts.push('<!DOCTYPE html>');
             parts.push('<html lang="' + lang + '">');
@@ -5144,6 +5164,9 @@ async function downloadPDF(canvasInstance, baseFileName, opts) {
             parts.push('  </div>');
             if (seo.instruction) {
                 parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');
+            }
+            if (srRowsHtml) {
+                parts.push('  ' + srRowsHtml);
             }
             parts.push('  <div class="lcs-worksheet-wrap">');
             parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');

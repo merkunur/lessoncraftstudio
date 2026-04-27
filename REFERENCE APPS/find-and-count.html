@@ -5148,6 +5148,42 @@ async function downloadPDF(canvasToExport, filename, opts) {
         var endDeckLinks = (window.LCSCatalogExport && LCSCatalogExport.buildEndDeckLinks)
             ? LCSCatalogExport.buildEndDeckLinks()
             : '';
+
+        // Per-row sr-only — find-and-count. 4 keys per taskType.
+        var srCircleTpl = (typeof t === 'function' && t('srExerciseFindAndCountCircle'))
+            || 'Question {n}: Circle every {word} in the picture.';
+        var srSquareTpl = (typeof t === 'function' && t('srExerciseFindAndCountSquare'))
+            || 'Question {n}: Draw a square around every {word} in the picture.';
+        var srCrossTpl = (typeof t === 'function' && t('srExerciseFindAndCountCross'))
+            || 'Question {n}: Cross out every {word} in the picture.';
+        var srCountTpl = (typeof t === 'function' && t('srExerciseFindAndCountCount'))
+            || 'Question {n}: Count every {word} in the picture and write the total.';
+        var srExerciseLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
+            || 'Worksheet questions';
+        var srLang = (bundle.contentLanguage || 'en').slice(0, 2);
+        function _facWord(target) {
+            if (!target) return '';
+            if (target.canonicalKey && window.ImageVocab) {
+                var name = ImageVocab.singular(target.canonicalKey, srLang);
+                if (name) return name;
+            }
+            return target.word || '';
+        }
+        var targetsForSr = Array.isArray(bundle.targets) ? bundle.targets : [];
+        var srRows = targetsForSr.map(function (target, i) {
+            var n = i + 1;
+            var word = _facWord(target);
+            var taskType = (target && target.taskType) || 'circle';
+            var tpl;
+            if (taskType === 'square') tpl = srSquareTpl;
+            else if (taskType === 'cross') tpl = srCrossTpl;
+            else if (taskType === 'count') tpl = srCountTpl;
+            else tpl = srCircleTpl;
+            return tpl.replace('{n}', n).replace('{word}', word);
+        });
+        var srRowsHtml = (window.LCSCatalogExport && LCSCatalogExport.buildSrRows)
+            ? LCSCatalogExport.buildSrRows({ label: srExerciseLabel, rows: srRows })
+            : '';
         var parts = [];
         parts.push('<!DOCTYPE html>');
         parts.push('<html lang="' + lang + '">');
@@ -5170,6 +5206,9 @@ async function downloadPDF(canvasToExport, filename, opts) {
         parts.push('  </div>');
         if (seo.instruction) {
             parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');
+        }
+        if (srRowsHtml) {
+            parts.push('  ' + srRowsHtml);
         }
         parts.push('  <div class="lcs-worksheet-wrap">');
         parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');

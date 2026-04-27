@@ -4012,6 +4012,22 @@
             var endDeckLinks = (window.LCSCatalogExport && LCSCatalogExport.buildEndDeckLinks)
                 ? LCSCatalogExport.buildEndDeckLinks()
                 : '';
+
+            // Per-row sr-only — missing-pieces. pieceShape is a deck-level
+            // string (square / circle / etc.); positions are bundled.holes.
+            var srExerciseTpl = (typeof t === 'function' && t('srExerciseMissingPieces'))
+                || 'Question {n}: Drag the missing {pieceShape} piece into the empty space at position {n}.';
+            var srExerciseLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
+                || 'Worksheet questions';
+            var pieceShape = bundle.pieceShape || 'piece';
+            var holesForSr = Array.isArray(bundle.holes) ? bundle.holes : [];
+            var srRows = holesForSr.map(function (_h, i) {
+                var n = i + 1;
+                return srExerciseTpl.replace(/\{n\}/g, n).replace('{pieceShape}', pieceShape);
+            });
+            var srRowsHtml = (window.LCSCatalogExport && LCSCatalogExport.buildSrRows)
+                ? LCSCatalogExport.buildSrRows({ label: srExerciseLabel, rows: srRows })
+                : '';
             var parts = [];
             parts.push('<!DOCTYPE html>');
             parts.push('<html lang="' + lang + '">');
@@ -4035,6 +4051,9 @@
             parts.push('  </div>');
             if (seo.instruction) {
                 parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');
+            }
+            if (srRowsHtml) {
+                parts.push('  ' + srRowsHtml);
             }
             parts.push('  <div class="lcs-worksheet-wrap">');
             parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');

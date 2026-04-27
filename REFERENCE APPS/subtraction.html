@@ -4790,6 +4790,30 @@ async function downloadPDF(canvasToExport, fileName, opts) {
         var endDeckLinks = (window.LCSCatalogExport && LCSCatalogExport.buildEndDeckLinks)
             ? LCSCatalogExport.buildEndDeckLinks()
             : '';
+
+        // Per-row sr-only (Brief A §5.4 — Group A multi-row pattern).
+        var srExerciseTpl = (typeof t === 'function' && t('srExerciseSubtraction'))
+            || 'Question {n}: {minuend} minus {subtrahend} equals blank.';
+        var srFindSubtrahendTpl = (typeof t === 'function' && t('srExerciseSubtractionFindSubtrahend'))
+            || 'Question {n}: {minuend} minus blank equals {result}.';
+        var srExerciseLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
+            || 'Worksheet questions';
+        var problemsForSr = Array.isArray(bundle.problems) ? bundle.problems : [];
+        var srRows = problemsForSr.map(function (p, i) {
+            var n = i + 1;
+            var mode = p.resolvedMode || 'cross-out';
+            if (mode === 'find-subtrahend') {
+                var result = (typeof p.minuend === 'number' && typeof p.subtrahend === 'number')
+                    ? (p.minuend - p.subtrahend) : '';
+                return srFindSubtrahendTpl
+                    .replace('{n}', n).replace('{minuend}', p.minuend).replace('{result}', result);
+            }
+            return srExerciseTpl
+                .replace('{n}', n).replace('{minuend}', p.minuend).replace('{subtrahend}', p.subtrahend);
+        });
+        var srRowsHtml = (window.LCSCatalogExport && LCSCatalogExport.buildSrRows)
+            ? LCSCatalogExport.buildSrRows({ label: srExerciseLabel, rows: srRows })
+            : '';
         var parts = [];
         parts.push('<!DOCTYPE html>');
         parts.push('<html lang="' + lang + '">');
@@ -4813,6 +4837,9 @@ async function downloadPDF(canvasToExport, fileName, opts) {
         parts.push('  </div>');
         if (seo.instruction) {
             parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');
+        }
+        if (srRowsHtml) {
+            parts.push('  ' + srRowsHtml);
         }
         parts.push('  <div class="lcs-worksheet-wrap">');
         parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');

@@ -5084,6 +5084,24 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf', opts) {
             var endDeckLinks = (window.LCSCatalogExport && LCSCatalogExport.buildEndDeckLinks)
                 ? LCSCatalogExport.buildEndDeckLinks()
                 : '';
+
+            // Per-row sr-only — pattern-worksheet. qtype lives per-puzzle.
+            var srBlankTpl = (typeof t === 'function' && t('srExercisePatternWorksheetBlank'))
+                || 'Question {n}: Fill in the blank to complete the pattern.';
+            var srOptionsTpl = (typeof t === 'function' && t('srExercisePatternWorksheetOptions'))
+                || 'Question {n}: Choose the picture that completes the pattern.';
+            var srExerciseLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
+                || 'Worksheet questions';
+            var puzzlesForSr = Array.isArray(bundle.problems) ? bundle.problems : [];
+            var srRows = puzzlesForSr.map(function (p, i) {
+                var n = i + 1;
+                var qtype = (p && p.qtype) || (p && p.questionType) || 'blank';
+                var tpl = (qtype === 'options') ? srOptionsTpl : srBlankTpl;
+                return tpl.replace('{n}', n);
+            });
+            var srRowsHtml = (window.LCSCatalogExport && LCSCatalogExport.buildSrRows)
+                ? LCSCatalogExport.buildSrRows({ label: srExerciseLabel, rows: srRows })
+                : '';
             var parts = [];
             parts.push('<!DOCTYPE html>');
             parts.push('<html lang="' + lang + '">');
@@ -5107,6 +5125,9 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf', opts) {
             parts.push('  </div>');
             if (seo.instruction) {
                 parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');
+            }
+            if (srRowsHtml) {
+                parts.push('  ' + srRowsHtml);
             }
             parts.push('  <div class="lcs-worksheet-wrap">');
             parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');

@@ -4645,6 +4645,43 @@
         var endDeckLinks = (window.LCSCatalogExport && LCSCatalogExport.buildEndDeckLinks)
             ? LCSCatalogExport.buildEndDeckLinks()
             : '';
+
+        // Per-row sr-only — prepositions. Mode chosen at deck level
+        // (multiplechoice vs fill-in). Item + shape names looked up via
+        // ImageVocab where the assignment carries an image path.
+        var srChoiceTpl = (typeof t === 'function' && t('srExercisePrepositionsChoice'))
+            || 'Question {n}: Choose the preposition that describes the position of the {item} relative to the {shape}.';
+        var srFillInTpl = (typeof t === 'function' && t('srExercisePrepositionsFillIn'))
+            || 'Question {n}: Write the preposition that describes the position of the {item} relative to the {shape}.';
+        var srExerciseLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
+            || 'Worksheet questions';
+        var srLang = (bundle.contentLanguage || 'en').slice(0, 2);
+        function _prepName(obj) {
+            if (!obj) return '';
+            if (obj.path && window.ImageVocab) {
+                var key = ImageVocab.keyFromPath(obj.path);
+                if (key) {
+                    var name = ImageVocab.singular(key, srLang);
+                    if (name) return name;
+                    return key;
+                }
+            }
+            return obj.word || obj.name || '';
+        }
+        var assignmentsForSr = (bundle.problems && Array.isArray(bundle.problems))
+            ? bundle.problems
+            : (Array.isArray(bundle.assignments) ? bundle.assignments : []);
+        var srMode = (bundle.exerciseMode === 'multiplechoice') ? 'choice' : 'fillIn';
+        var srRows = assignmentsForSr.map(function (a, i) {
+            var n = i + 1;
+            var item = _prepName(a && a.item);
+            var shape = _prepName(a && a.shape);
+            var tpl = (srMode === 'choice') ? srChoiceTpl : srFillInTpl;
+            return tpl.replace('{n}', n).replace('{item}', item).replace('{shape}', shape);
+        });
+        var srRowsHtml = (window.LCSCatalogExport && LCSCatalogExport.buildSrRows)
+            ? LCSCatalogExport.buildSrRows({ label: srExerciseLabel, rows: srRows })
+            : '';
         var parts = [];
         parts.push('<!DOCTYPE html>');
         parts.push('<html lang="' + lang + '">');
@@ -4668,6 +4705,9 @@
         parts.push('  </div>');
         if (seo.instruction) {
             parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');
+        }
+        if (srRowsHtml) {
+            parts.push('  ' + srRowsHtml);
         }
         parts.push('  <div class="lcs-worksheet-wrap">');
         parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');

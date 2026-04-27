@@ -2929,6 +2929,37 @@
           var endDeckLinks = (window.LCSCatalogExport && LCSCatalogExport.buildEndDeckLinks)
               ? LCSCatalogExport.buildEndDeckLinks()
               : '';
+
+          // Per-row sr-only — shadow-match. Mode lives at deck level (radio).
+          var srShadowTpl = (typeof t === 'function' && t('srExerciseShadowMatchShadow'))
+              || 'Question {n}: Match the {item} to its shadow.';
+          var srMakeItWholeTpl = (typeof t === 'function' && t('srExerciseShadowMatchMakeItWhole'))
+              || 'Question {n}: Match the {item} to the piece that completes it.';
+          var srExerciseLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
+              || 'Worksheet questions';
+          var srLang = (bundle.contentLanguage || 'en').slice(0, 2);
+          function _smName(image) {
+              if (!image) return '';
+              if (image.path && window.ImageVocab) {
+                  var key = ImageVocab.keyFromPath(image.path);
+                  if (key) {
+                      var name = ImageVocab.singular(key, srLang);
+                      if (name) return name;
+                  }
+              }
+              return (image && (image.word || image.name)) || '';
+          }
+          var srMode = bundle.mode || (bundle.exerciseMode === 'makeItWhole' ? 'makeItWhole' : 'shadowMatch');
+          var pairsForSr = Array.isArray(bundle.pairs) ? bundle.pairs : [];
+          var srRows = pairsForSr.map(function (pair, i) {
+              var n = i + 1;
+              var item = _smName(pair && pair.image);
+              var tpl = (srMode === 'makeItWhole') ? srMakeItWholeTpl : srShadowTpl;
+              return tpl.replace('{n}', n).replace('{item}', item);
+          });
+          var srRowsHtml = (window.LCSCatalogExport && LCSCatalogExport.buildSrRows)
+              ? LCSCatalogExport.buildSrRows({ label: srExerciseLabel, rows: srRows })
+              : '';
           var parts = [];
           parts.push('<!DOCTYPE html>');
           parts.push('<html lang="' + lang + '">');
@@ -2951,6 +2982,9 @@
           parts.push('  </div>');
           if (seo.instruction) {
               parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');
+          }
+          if (srRowsHtml) {
+              parts.push('  ' + srRowsHtml);
           }
           parts.push('  <div class="lcs-worksheet-wrap">');
           parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');

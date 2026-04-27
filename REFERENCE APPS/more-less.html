@@ -5725,6 +5725,35 @@ async function downloadPDF(canvasToExport, filename, opts) {
         var endDeckLinks = (window.LCSCatalogExport && LCSCatalogExport.buildEndDeckLinks)
             ? LCSCatalogExport.buildEndDeckLinks()
             : '';
+
+        // Per-row sr-only — more-less. Plurals looked up via ImageVocab.plural
+        // at generation time so the deck.html sr-only carries the localized
+        // plural form (English-naive trailing 's' won't work in DE/SV/FI).
+        var srCheckCrossTpl = (typeof t === 'function' && t('srExerciseMoreLessCheckCross'))
+            || 'Question {n}: Count the {pluralA} on the left and the {pluralB} on the right. Write each count.';
+        var srComparisonTpl = (typeof t === 'function' && t('srExerciseMoreLessComparison'))
+            || 'Question {n}: Compare the groups of {pluralA} and {pluralB}. Pick the correct sign: greater than, less than, or equal to.';
+        var srExerciseLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
+            || 'Worksheet questions';
+        var srLang = (bundle.contentLanguage || 'en').slice(0, 2);
+        function _moreLessPlural(imagePath) {
+            if (!imagePath || !window.ImageVocab) return '';
+            var key = ImageVocab.keyFromPath(imagePath);
+            if (!key) return '';
+            var plural = ImageVocab.plural(key, srLang);
+            return plural || key;
+        }
+        var problemsForSr = Array.isArray(bundle.problems) ? bundle.problems : [];
+        var srRows = problemsForSr.map(function (p, i) {
+            var n = i + 1;
+            var pluralA = _moreLessPlural(p.imageA);
+            var pluralB = _moreLessPlural(p.imageB);
+            var tpl = (p.comparisonMode === 'check-cross') ? srCheckCrossTpl : srComparisonTpl;
+            return tpl.replace('{n}', n).replace('{pluralA}', pluralA).replace('{pluralB}', pluralB);
+        });
+        var srRowsHtml = (window.LCSCatalogExport && LCSCatalogExport.buildSrRows)
+            ? LCSCatalogExport.buildSrRows({ label: srExerciseLabel, rows: srRows })
+            : '';
         var parts = [];
         parts.push('<!DOCTYPE html>');
         parts.push('<html lang="' + lang + '">');
@@ -5748,6 +5777,9 @@ async function downloadPDF(canvasToExport, filename, opts) {
         parts.push('  </div>');
         if (seo.instruction) {
             parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');
+        }
+        if (srRowsHtml) {
+            parts.push('  ' + srRowsHtml);
         }
         parts.push('  <div class="lcs-worksheet-wrap">');
         parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');

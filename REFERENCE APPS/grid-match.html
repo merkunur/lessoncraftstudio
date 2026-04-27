@@ -4196,6 +4196,21 @@
             var endDeckLinks = (window.LCSCatalogExport && LCSCatalogExport.buildEndDeckLinks)
                 ? LCSCatalogExport.buildEndDeckLinks()
                 : '';
+
+            // Per-row sr-only — grid-match. solutionLabels are already-localized
+            // strings (label per cell). bundle.solutionLabels is a flat array.
+            var srExerciseTpl = (typeof t === 'function' && t('srExerciseGridMatch'))
+                || 'Question {n}: Drag the {label} tile into its matching grid cell.';
+            var srExerciseLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
+                || 'Worksheet questions';
+            var labelsForSr = Array.isArray(bundle.solutionLabels) ? bundle.solutionLabels : [];
+            var srRows = labelsForSr.map(function (label, i) {
+                var n = i + 1;
+                return srExerciseTpl.replace('{n}', n).replace('{label}', label || '');
+            });
+            var srRowsHtml = (window.LCSCatalogExport && LCSCatalogExport.buildSrRows)
+                ? LCSCatalogExport.buildSrRows({ label: srExerciseLabel, rows: srRows })
+                : '';
             var parts = [];
             parts.push('<!DOCTYPE html>');
             parts.push('<html lang="' + lang + '">');
@@ -4219,6 +4234,9 @@
             parts.push('  </div>');
             if (seo.instruction) {
                 parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');
+            }
+            if (srRowsHtml) {
+                parts.push('  ' + srRowsHtml);
             }
             parts.push('  <div class="lcs-worksheet-wrap">');
             parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');

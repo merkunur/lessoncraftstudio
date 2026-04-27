@@ -5195,15 +5195,28 @@ async function downloadPDF(canvasToExport, filename, opts) {
                 var imgB = row.imageB || row.R;
                 var cntA = (row.countA != null) ? row.countA : row.nL;
                 var cntB = (row.countB != null) ? row.countB : row.nR;
-                // Brief A 5A.3 redo Commit 1.1: dual-shape — source can hand
-                // back either a path string (post-flatten in some code paths)
-                // or an image object with .path. Both shapes are real in
-                // current generation code; the verifier's first PASS was a
-                // coverage gap, not a shape success.
-                // Use shared vocabKeyFromImage which handles all 3 image
-                // source forms (theme path, server-stored upload with
-                // timestamp+hash suffix, client-side data URL upload that
-                // falls back to img.word/name). Bug-family: eb510be4.2.
+                // more-less' selectedImages Set stores PATH STRINGS only, so
+                // row.L/R arrive here as bare strings — for theme uploads
+                // that's fine (path → keyFromPath → bare key) but for client-
+                // side data-URL uploads the original {word, path} pairing
+                // captured in uploadedImages is severed at the Set step.
+                // Re-pair the data-URL string against uploadedImages to
+                // recover the upload's word before handing to the helper.
+                // Bug-family: eb510be4.3 (5th coverage dimension —
+                // upload-source-vs-Set-membership linkage loss).
+                function _reattachUploadWord(p) {
+                    if (typeof p !== 'string') return p;
+                    if (p.indexOf('data:') === 0 && typeof uploadedImages !== 'undefined') {
+                        for (var i = 0; i < uploadedImages.length; i++) {
+                            if (uploadedImages[i] && uploadedImages[i].path === p) {
+                                return { path: p, word: uploadedImages[i].word, name: uploadedImages[i].name };
+                            }
+                        }
+                    }
+                    return p;
+                }
+                imgA = _reattachUploadWord(imgA);
+                imgB = _reattachUploadWord(imgB);
                 var imageAKey = (window.LCSCatalogExport && LCSCatalogExport.vocabKeyFromImage)
                     ? (LCSCatalogExport.vocabKeyFromImage(imgA) || null)
                     : null;

@@ -2548,8 +2548,12 @@
                   });
                   return (pd.pairs || []).map(function (pair) {
                       var img = topImagesByIndex[pair.topIndex] || null;
-                      var topImageKey = (img && img.path && window.LCSImageRef)
-                          ? (LCSImageRef.parseImagePath(img.path) || {}).key || null
+                      // Use ImageVocab.keyFromPath which strips the
+                      // -<13digit-timestamp>-<hash> suffix on user-uploaded
+                      // image filenames; LCSImageRef.parseImagePath leaves
+                      // it intact and breaks downstream vocab lookups.
+                      var topImageKey = (img && img.path && typeof ImageVocab !== 'undefined')
+                          ? (ImageVocab.keyFromPath(img.path) || null)
                           : null;
                       return {
                           topIndex: pair.topIndex,

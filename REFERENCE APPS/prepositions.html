@@ -4127,11 +4127,15 @@
         // of each exercise. Mode-stable — both branches read from pd.assignments.
         bundle.assignments = (pd.assignments || []).map(function (a) {
             if (!a) return null;
-            var itemKey = (a.item && a.item.path && window.LCSImageRef)
-                ? (LCSImageRef.parseImagePath(a.item.path) || {}).key || null
+            // Use ImageVocab.keyFromPath which strips the
+            // -<13digit-timestamp>-<hash> suffix on user-uploaded
+            // image filenames; LCSImageRef.parseImagePath leaves it
+            // intact and breaks downstream vocab lookups.
+            var itemKey = (a.item && a.item.path && typeof ImageVocab !== 'undefined')
+                ? (ImageVocab.keyFromPath(a.item.path) || null)
                 : null;
-            var shapeKey = (a.shape && !a.shape.isDefault && a.shape.path && window.LCSImageRef)
-                ? (LCSImageRef.parseImagePath(a.shape.path) || {}).key || null
+            var shapeKey = (a.shape && !a.shape.isDefault && a.shape.path && typeof ImageVocab !== 'undefined')
+                ? (ImageVocab.keyFromPath(a.shape.path) || null)
                 : null;
             var shapeDefaultSlug = (a.shape && a.shape.isDefault) ? (a.shape.name || null) : null;
             return {

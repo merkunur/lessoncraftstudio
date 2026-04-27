@@ -5202,11 +5202,15 @@ async function downloadPDF(canvasToExport, filename, opts) {
                 // coverage gap, not a shape success.
                 var imgAPath = (typeof imgA === 'string') ? imgA : (imgA && imgA.path) || null;
                 var imgBPath = (typeof imgB === 'string') ? imgB : (imgB && imgB.path) || null;
-                var imageAKey = (imgAPath && window.LCSImageRef)
-                    ? (LCSImageRef.parseImagePath(imgAPath) || {}).key || null
+                // Use ImageVocab.keyFromPath which strips the
+                // -<13digit-timestamp>-<hash> suffix on user-uploaded
+                // image filenames; LCSImageRef.parseImagePath leaves
+                // it intact and breaks downstream vocab lookups.
+                var imageAKey = (imgAPath && typeof ImageVocab !== 'undefined')
+                    ? (ImageVocab.keyFromPath(imgAPath) || null)
                     : null;
-                var imageBKey = (imgBPath && window.LCSImageRef)
-                    ? (LCSImageRef.parseImagePath(imgBPath) || {}).key || null
+                var imageBKey = (imgBPath && typeof ImageVocab !== 'undefined')
+                    ? (ImageVocab.keyFromPath(imgBPath) || null)
                     : null;
                 return {
                     comparisonMode: row.comparisonMode || null,

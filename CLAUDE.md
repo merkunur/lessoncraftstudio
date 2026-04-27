@@ -683,6 +683,25 @@ Student drags across a letter grid; path snaps to one of 8 directions. On releas
 
 **Attribution is tier-neutral and SEO-neutral.** The footer text and position are independent of the SEO surface defined in §17.8. Future SEO changes to deck.html must not modify attribution; future attribution changes must not affect the SEO content.
 
+### 14.3a Shared catalog-export helpers (`window.LCSCatalogExport`)
+
+`REFERENCE TRANSLATIONS/catalog-export.js` (synced into `frontend/public/worksheet-generators/js/catalog-export.js` by `scripts\master-sync.bat`, served from `/var/www/lcs-media/worksheet-generators/js/catalog-export.js?v=7`). Loaded by all 29 apps. Exposes the following public API on `window.LCSCatalogExport`:
+
+- **`buildSeoHead(manifest, opts)`** — returns the `<head>` SEO surface string for deck.html: `<title>`, `<meta name="description">`, `<link rel="canonical">` (with `__CANONICAL_URL__` placeholder), Schema.org `LearningResource` JSON-LD (with `__EDUCATIONAL_LEVEL__` and `__EDUCATIONAL_LEVEL_LOCALIZED__` placeholders). Per CLAUDE.md §17.8.1 / Brief A §4. The placeholder set is substituted at upload time by publish-cli per §17.8.5.
+- **`buildEndDeckLinks(opts)`** — returns the end-of-deck topic-destination links section per §17.8.2 / Brief A §5.5. Default behavior: returns empty string so direct-download decks (operator's "Download → Interactive HTML" button) don't ship raw placeholder text. Pass `{includePlaceholders: true}` from a publish-cli-aware code path (the future catalog-export ZIP flow) to emit the placeholder block (`__LINK_*__` URLs and `__LINK_TEXT_*__` labels) that publish-cli substitutes at upload.
+- **`buildSrRows({label, rows})`** — returns a `<section class="lcs-sr" aria-label="{label}"><ol><li>{row}</li>…</ol></section>` block. Group A pattern (§17.8.4 / Brief A §5.4) — used by multi-row apps where deck.html contains repeating exercise rows. Per-app code is responsible for building the `rows` strings (because exercise data shape varies per app); helper owns the structural wrapping and HTML-escaping. JSDoc on this function is the canonical source for the sr* translation-key naming convention table (`srExercise<App>`, `srExercise<App><Mode>`, `srPuzzle<App>`, `srWorksheetQuestions`, `srOperator<Name>`, `srShape<Slug>`) and the single-vs-≥2-consumer rule.
+- **`buildSrPuzzleSummary({label, summary})`** — single-puzzle variant of `buildSrRows`. Returns a `<section class="lcs-sr"><p>{summary}</p></section>` block. Used by single-puzzle apps (wordsearch, treasure-hunt, etc.) where the deck has one puzzle and a deck-level summary describes it instead of per-row content.
+- **`vocabKeyFromImage(img)`** — accepts a path string OR an image object `{path, word, name}`. Returns a vocabulary-canonical key (string) or `null`. Three image source forms documented (each surfaces a distinct bug if mis-handled):
+  1. **Theme path** — clean filename (e.g. `/images/animals/cat.png`). Resolved via `ImageVocab.keyFromPath` → bare key.
+  2. **Server-stored upload** — suffix-bearing filename (e.g. `/images/animals/camel-1769386104282-2351c8c4.png`). `ImageVocab.keyFromPath` strips the `-<13digit-timestamp>-<hash>` suffix to recover the bare key. (`LCSImageRef.parseImagePath` leaves the suffix intact and breaks downstream vocab lookup — bug-family eb510be4 / eb510be4.1.)
+  3. **Data URL upload** — client-side FileReader-encoded image (e.g. `data:image/png;base64,iVBORw0K…`). No path-derived key is meaningful; falls back to `img.word || img.name` (the original filename the upload form captured), then strips extension and known suffix patterns. (Bug-family eb510be4.2.)
+
+  Single helper covers all three so callers don't replicate the dispatch logic per-app. Required for any site that feeds the result into `ImageVocab.singular()` / `.plural()` / `.gender()`. See `feedback_coverage_dimensions_emerge_from_postmortems.md` for the bug-family chain (parseImagePath vs keyFromPath, real URL vs data URL) that motivated the helper's three-branch dispatch.
+- **`HREFLANG_MARKER`** — string constant `<!-- HREFLANG_INSERTION_POINT -->`. Per §17.8.1.5 it MUST be the last element inside `<head>`. Apps emit this marker; publish-cli substitutes it at upload with the hreflang block for v2 decks (`content_family_id` populated) or with empty string for v1 decks.
+- **`export(opts)`** — main entry point for the "Export to catalog" ZIP flow. Public API documented in catalog-export.js JSDoc on `exportCatalog`.
+
+The shared keyset complement to this module is `translations-shared.js` (loaded by all 29 apps; merge-on-load into `window.translations` with per-app collision warnings). See JSDoc on `buildSrRows` for the convention rule about when keys live in `translations-shared.js` vs per-app `translations-<app>.js` files.
+
 ### 14.4 How to port a new app (recipe)
 
 **Step A — Decide which family (§14.2).** If the worksheet has a fixed set of answer positions → family A. If the interaction is spatial selection/drawing → family B.

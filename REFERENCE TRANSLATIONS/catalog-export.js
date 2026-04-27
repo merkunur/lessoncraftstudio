@@ -305,34 +305,58 @@
    * per-row strings (because exercise data shape varies per app —
    * {operandA, operandB} for addition, {clue, answer} for crossword, etc.).
    *
-   * Translation-key naming convention for callers to follow:
-   *   srExercise<App>          per-row template for the app's default mode
-   *                            (e.g., srExerciseAddition, srExerciseSubtraction)
-   *   srExercise<App><Mode>    per-row template for a non-default mode
-   *                            (e.g., srExerciseAdditionFindAddend)
-   *   srWorksheetQuestions     localized aria-label for the section wrapper
-   *   srOperator<Name>         arithmetic operator words substituted INSIDE
-   *                            per-row sr-only constructions (e.g.,
-   *                            srOperatorPlus, srOperatorMinus, srOperatorEquals).
-   *                            Used by apps whose per-row text is built by
-   *                            stitching localized strings rather than baking
-   *                            operators into the template (math-worksheet).
-   *                            Scoped per-app until a second consumer needs
-   *                            them; promote to a shared keyset at that point.
-   *   srShape<Slug>            shape-name labels substituted into per-row
-   *                            sr-only when the deck's data carries a shape
-   *                            slug (e.g., srShapeSquare, srShapeCircle,
-   *                            srShapeRectPortrait, srShapeEllipseLandscape,
-   *                            srShapeCube, srShapeCylinder, srShapeHeart,
-   *                            srShapeHexagon, srShapeStar, srShapeTriangle).
-   *                            Slug = camelCased shape id, first letter
-   *                            uppercased ('rectPortrait' → 'RectPortrait').
-   *                            Currently used by missing-pieces (6 piece
-   *                            shapes) and prepositions (8 default backdrop
-   *                            shapes); 12 unique slugs across both apps.
-   *                            Per-app at present; promote to shared
-   *                            translation surface when a third consumer
-   *                            arrives.
+   * Translation-key naming convention:
+   *
+   *   PATTERN                  | SCOPE              | LOCATION
+   *   ─────────────────────────┼────────────────────┼─────────────────────────
+   *   srExercise<App>          | per-row template   | per-app translations file
+   *                            | for default mode   |
+   *                            | (e.g. srExerciseAddition,
+   *                            |       srExerciseSubtraction)
+   *   srExercise<App><Mode>    | per-row template   | per-app translations file
+   *                            | for non-default    |
+   *                            | mode variant       |
+   *                            | (e.g. srExerciseAdditionFindAddend)
+   *   srPuzzle<App>            | deck-level summary | per-app translations file
+   *                            | for single-puzzle  |
+   *                            | apps (wordsearch,  |
+   *                            | sudoku, etc.)      |
+   *   srWorksheetQuestions     | section aria-label | per-app translations file
+   *                            | (universal label)  |
+   *   srOperator<Name>         | arithmetic operator| per-app translations file
+   *                            | words substituted  | (currently single-
+   *                            | inside per-row sr  | consumer in
+   *                            | construction (e.g. | math-worksheet; promote
+   *                            | srOperatorPlus,    | to shared if/when a
+   *                            | srOperatorMinus,   | second consumer arrives)
+   *                            | srOperatorEquals)  |
+   *   srShape<Slug>            | shape-name slug    | translations-shared.js
+   *                            | → localized noun.  | (≥2 consumers from day
+   *                            | Slug = camelCased  | one: missing-pieces
+   *                            | shape id, first    | (6 piece shapes),
+   *                            | letter uppercased  | prepositions (6 unique
+   *                            | ('rectPortrait' →  | default backdrop shapes;
+   *                            | 'RectPortrait')    | reuses missing-pieces'
+   *                            |                    | srShapeSquare and
+   *                            |                    | srShapeCircle). 12
+   *                            |                    | unique slugs total.)
+   *
+   * Convention rule:
+   *   - Single-consumer keys live in the consuming app's translation file.
+   *   - ≥2-consumer keys live as a shared keyset in translations-shared.js.
+   *   - srShape* is the originating shared example.
+   *   - When a single-consumer key gains a second consumer, MIGRATE it to
+   *     translations-shared.js in the same commit that introduces the
+   *     second consumer (don't leave duplicated definitions).
+   *   - Shared keys CAN be overridden per-app (per-app file loads first,
+   *     wins on collision via hasOwnProperty check), but this is an
+   *     explicit choice; any unintended collision logs a console.warn
+   *     from translations-shared.js during init.
+   *   - Cache-buster versions on translations-shared.js bump independently
+   *     from per-app translation file versions. When a future commit adds
+   *     a shared key, only translations-shared.js's ?v= bumps; per-app
+   *     translation file versions remain unchanged unless their own
+   *     content changes.
    *
    * opts = {
    *   label?: string    // optional aria-label; omitted → bare section

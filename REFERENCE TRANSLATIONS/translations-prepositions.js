@@ -208,15 +208,7 @@ const translations = {
     "endDeckMoreLevel": "More worksheets for {level}",
     "endDeckBrowseAll": "Browse all worksheets",
     "srExercisePrepositionsChoice": "Question {n}: Choose the preposition that describes the position of the {item} relative to the {shape}.",
-    "srExercisePrepositionsFillIn": "Question {n}: Write the preposition that describes the position of the {item} relative to the {shape}.",
-    "srShapeCircle": "circle",
-    "srShapeCube": "cube",
-    "srShapeCylinder": "cylinder",
-    "srShapeHeart": "heart",
-    "srShapeHexagon": "hexagon",
-    "srShapeSquare": "square",
-    "srShapeStar": "star",
-    "srShapeTriangle": "triangle"
+    "srExercisePrepositionsFillIn": "Question {n}: Write the preposition that describes the position of the {item} relative to the {shape}."
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",

@@ -4754,9 +4754,11 @@ async function downloadPDF(canvasToExport, fileName, opts) {
         var hreflangMarker = (window.LCSCatalogExport && LCSCatalogExport.HREFLANG_MARKER)
             || '<!-- HREFLANG_INSERTION_POINT -->';
 
-        // Single-puzzle deck-level summary sr-only (Brief A §5.4 R4). Built
-        // from bundle.words so Google + screen readers know what the puzzle
-        // asks even though the grid is rasterized.
+        // Single-puzzle deck-level summary sr-only (Brief A §5.4 R4 — Group B
+        // pattern). Built from bundle.words so Google + screen readers know
+        // what the puzzle asks even though the grid is rasterized. Paragraph
+        // wrapping comes from the shared LCSCatalogExport.buildSrPuzzleSummary
+        // helper; per-app code only formats the localized summary string.
         var srPuzzleTpl = (typeof t === 'function' && t('srPuzzleWordsearch'))
             || 'Word search puzzle. Find these words in the letter grid: {words}.';
         var wordList = (Array.isArray(bundle.words) ? bundle.words : [])
@@ -4765,6 +4767,9 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             .join(', ');
         var deckSummary = wordList
             ? srPuzzleTpl.replace('{words}', wordList)
+            : '';
+        var deckSummaryHtml = (window.LCSCatalogExport && LCSCatalogExport.buildSrPuzzleSummary)
+            ? LCSCatalogExport.buildSrPuzzleSummary({ summary: deckSummary })
             : '';
 
         var endDeckLinks = (window.LCSCatalogExport && LCSCatalogExport.buildEndDeckLinks)
@@ -4795,8 +4800,8 @@ async function downloadPDF(canvasToExport, fileName, opts) {
         if (seo.instruction) {
             parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');
         }
-        if (deckSummary) {
-            parts.push('  <p class="lcs-sr">' + escapeHtml(deckSummary) + '</p>');
+        if (deckSummaryHtml) {
+            parts.push('  ' + deckSummaryHtml);
         }
         parts.push('  <div class="lcs-worksheet-wrap">');
         parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');

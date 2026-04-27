@@ -3905,7 +3905,10 @@
           var hreflangMarker = (window.LCSCatalogExport && LCSCatalogExport.HREFLANG_MARKER)
               || '<!-- HREFLANG_INSERTION_POINT -->';
 
-          // Single-puzzle deck-level summary sr-only (Brief A §5.4 R4).
+          // Single-puzzle deck-level summary sr-only (Brief A §5.4 R4 —
+          // Group B pattern). Paragraph wrapping comes from the shared
+          // LCSCatalogExport.buildSrPuzzleSummary helper; per-app code
+          // only formats the localized summary string.
           var srPuzzleTpl = (typeof t === 'function' && t('srPuzzleTreasureHunt'))
               || 'Treasure hunt puzzle. Trace the path from {start} to {end} following the directional clues.';
           var startCell = bundle.startCell ? ('row ' + (bundle.startCell.r + 1) + ', column ' + (bundle.startCell.c + 1)) : 'start';
@@ -3913,6 +3916,9 @@
               ? ('row ' + (bundle.solutionPath[bundle.solutionPath.length - 1].r + 1) + ', column ' + (bundle.solutionPath[bundle.solutionPath.length - 1].c + 1))
               : 'the treasure';
           var deckSummary = srPuzzleTpl.replace('{start}', startCell).replace('{end}', endCell);
+          var deckSummaryHtml = (window.LCSCatalogExport && LCSCatalogExport.buildSrPuzzleSummary)
+              ? LCSCatalogExport.buildSrPuzzleSummary({ summary: deckSummary })
+              : '';
 
           var endDeckLinks = (window.LCSCatalogExport && LCSCatalogExport.buildEndDeckLinks)
               ? LCSCatalogExport.buildEndDeckLinks()
@@ -3942,8 +3948,8 @@
           if (seo.instruction) {
               parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');
           }
-          if (deckSummary) {
-              parts.push('  <p class="lcs-sr">' + escapeHtml(deckSummary) + '</p>');
+          if (deckSummaryHtml) {
+              parts.push('  ' + deckSummaryHtml);
           }
           parts.push('  <div class="lcs-worksheet-wrap">');
           parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');

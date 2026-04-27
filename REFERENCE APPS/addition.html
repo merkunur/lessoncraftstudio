@@ -4964,29 +4964,32 @@
         var hreflangMarker = (window.LCSCatalogExport && LCSCatalogExport.HREFLANG_MARKER)
             || '<!-- HREFLANG_INSERTION_POINT -->';
 
-        // Per-exercise screen-reader text (Brief A §5.4). Built from
-        // bundle.problems so Google + screen readers can read each question
-        // even though the visual exercise is rasterized into the canvas.
+        // Per-exercise screen-reader text (Brief A §5.4 — Group A multi-row
+        // pattern). Built from bundle.problems so Google + screen readers
+        // can read each question even though the visual exercise is
+        // rasterized into the canvas. Section/ol/li wrapping comes from the
+        // shared LCSCatalogExport.buildSrRows helper; per-app code only
+        // formats the localized row strings.
         var srExerciseTpl = (typeof t === 'function' && t('srExerciseAddition'))
             || 'Question {n}: {a} plus {b} equals blank.';
         var srFindAddendTpl = (typeof t === 'function' && t('srExerciseAdditionFindAddend'))
             || 'Question {n}: blank plus {b} equals {sum}.';
-        var srExerciseLabelTpl = (typeof t === 'function' && t('srWorksheetQuestions'))
+        var srExerciseLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
             || 'Worksheet questions';
         var problemsForSr = Array.isArray(bundle.problems) ? bundle.problems : [];
-        var exerciseLines = problemsForSr.map(function (p, i) {
+        var srRows = problemsForSr.map(function (p, i) {
             var n = i + 1;
             var a = p.operandA, b = p.operandB;
             var mode = p.resolvedMode || 'image-image';
-            var line;
             if (mode === 'find-addend') {
                 var sum = (typeof a === 'number' && typeof b === 'number') ? (a + b) : '';
-                line = srFindAddendTpl.replace('{n}', n).replace('{b}', b).replace('{sum}', sum);
-            } else {
-                line = srExerciseTpl.replace('{n}', n).replace('{a}', a).replace('{b}', b);
+                return srFindAddendTpl.replace('{n}', n).replace('{b}', b).replace('{sum}', sum);
             }
-            return '      <li>' + escapeHtml(line) + '</li>';
-        }).join('\n');
+            return srExerciseTpl.replace('{n}', n).replace('{a}', a).replace('{b}', b);
+        });
+        var srRowsHtml = (window.LCSCatalogExport && LCSCatalogExport.buildSrRows)
+            ? LCSCatalogExport.buildSrRows({ label: srExerciseLabel, rows: srRows })
+            : '';
 
         // End-of-deck internal links (Brief A §5.5) — placeholder URLs Brief
         // B's publish-cli substitutes at upload time.
@@ -5018,12 +5021,8 @@
         if (seo.instruction) {
             parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');
         }
-        if (exerciseLines) {
-            parts.push('  <section class="lcs-sr" aria-label="' + escapeHtml(srExerciseLabelTpl) + '">');
-            parts.push('    <ol>');
-            parts.push(exerciseLines);
-            parts.push('    </ol>');
-            parts.push('  </section>');
+        if (srRowsHtml) {
+            parts.push('  ' + srRowsHtml);
         }
         parts.push('  <div class="lcs-worksheet-wrap">');
         parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');

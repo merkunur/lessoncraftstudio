@@ -239,6 +239,17 @@ const translations = {
     // ===== 15. WATERMARKS (2 items) =====
     "watermark.free": "FREE VERSION - LessonCraftStudio.com",
     "watermark.freeShort": "FREE VERSION"
+  ,
+    "seoFreeInteractive": "Free interactive",
+    "seoFor": "for",
+    "seoPrintOrPlayOnline": "Print or play online",
+    "srWorksheetQuestions": "Worksheet questions",
+    "endDeckHeading": "Want more?",
+    "endDeckMoreType": "More {type} worksheets",
+    "endDeckMoreTheme": "More {theme} worksheets",
+    "endDeckMoreLevel": "More worksheets for {level}",
+    "endDeckBrowseAll": "Browse all worksheets",
+    "srExerciseWordGuess": "Question {n}: Spell the word for the picture shown. Some letters are already filled in."
   },
 
   de: {
@@ -476,6 +487,17 @@ const translations = {
     // ===== 15. WATERMARKS (2 items) =====
     "watermark.free": "KOSTENLOSE VERSION - LessonCraftStudio.com",
     "watermark.freeShort": "KOSTENLOSE VERSION"
+  ,
+    "seoFreeInteractive": "Kostenloses interaktives",
+    "seoFor": "für",
+    "seoPrintOrPlayOnline": "Drucken oder online spielen",
+    "srWorksheetQuestions": "Arbeitsblatt-Fragen",
+    "endDeckHeading": "Mehr davon?",
+    "endDeckMoreType": "Mehr {type}-Arbeitsblätter",
+    "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
+    "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
+    "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
+    "srExerciseWordGuess": "Frage {n}: Buchstabiere das Wort zum gezeigten Bild. Einige Buchstaben sind bereits ausgefüllt."
   },
 
   fr: {

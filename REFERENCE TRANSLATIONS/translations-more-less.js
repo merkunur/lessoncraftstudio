@@ -317,6 +317,18 @@ const translations = {
     "moreless.checkcross.error.needtwoimages": "Check & Cross mode needs at least 2 different images.",
     "moreless.checkcross.more": "More",
     "moreless.checkcross.less": "Less"
+  ,
+    "seoFreeInteractive": "Free interactive",
+    "seoFor": "for",
+    "seoPrintOrPlayOnline": "Print or play online",
+    "srWorksheetQuestions": "Worksheet questions",
+    "endDeckHeading": "Want more?",
+    "endDeckMoreType": "More {type} worksheets",
+    "endDeckMoreTheme": "More {theme} worksheets",
+    "endDeckMoreLevel": "More worksheets for {level}",
+    "endDeckBrowseAll": "Browse all worksheets",
+    "srExerciseMoreLessCheckCross": "Question {n}: Count the {pluralA} on the left and the {pluralB} on the right. Write each count.",
+    "srExerciseMoreLessComparison": "Question {n}: Compare the groups of {pluralA} and {pluralB}. Pick the correct sign: greater than, less than, or equal to."
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -586,6 +598,18 @@ const translations = {
     "moreless.checkcross.error.needtwoimages": "Der Ankreuzmodus benötigt mindestens 2 verschiedene Bilder.",
     "moreless.checkcross.more": "Mehr",
     "moreless.checkcross.less": "Weniger"
+  ,
+    "seoFreeInteractive": "Kostenloses interaktives",
+    "seoFor": "für",
+    "seoPrintOrPlayOnline": "Drucken oder online spielen",
+    "srWorksheetQuestions": "Arbeitsblatt-Fragen",
+    "endDeckHeading": "Mehr davon?",
+    "endDeckMoreType": "Mehr {type}-Arbeitsblätter",
+    "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
+    "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
+    "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
+    "srExerciseMoreLessCheckCross": "Frage {n}: Zähle die {pluralA} links und die {pluralB} rechts. Schreibe jede Anzahl auf.",
+    "srExerciseMoreLessComparison": "Frage {n}: Vergleiche die Gruppen aus {pluralA} und {pluralB}. Wähle das richtige Zeichen: größer als, kleiner als oder gleich."
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",

@@ -203,6 +203,18 @@ const translations = {
     "zoomIn": "Zoom In",
     "zoomOut": "Zoom Out",
     "zoomReset": "Reset Zoom"
+  ,
+    "seoFreeInteractive": "Free interactive",
+    "seoFor": "for",
+    "seoPrintOrPlayOnline": "Print or play online",
+    "srWorksheetQuestions": "Worksheet questions",
+    "endDeckHeading": "Want more?",
+    "endDeckMoreType": "More {type} worksheets",
+    "endDeckMoreTheme": "More {theme} worksheets",
+    "endDeckMoreLevel": "More worksheets for {level}",
+    "endDeckBrowseAll": "Browse all worksheets",
+    "srExercisePatternWorksheetBlank": "Question {n}: Fill in the blank to complete the pattern.",
+    "srExercisePatternWorksheetOptions": "Question {n}: Choose the picture that completes the pattern."
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -401,6 +413,18 @@ const translations = {
     "zoomIn": "Vergrößern",
     "zoomOut": "Verkleinern",
     "zoomReset": "Zoom zurücksetzen"
+  ,
+    "seoFreeInteractive": "Kostenloses interaktives",
+    "seoFor": "für",
+    "seoPrintOrPlayOnline": "Drucken oder online spielen",
+    "srWorksheetQuestions": "Arbeitsblatt-Fragen",
+    "endDeckHeading": "Mehr davon?",
+    "endDeckMoreType": "Mehr {type}-Arbeitsblätter",
+    "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
+    "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
+    "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
+    "srExercisePatternWorksheetBlank": "Frage {n}: Fülle die Lücke, um das Muster zu vervollständigen.",
+    "srExercisePatternWorksheetOptions": "Frage {n}: Wähle das Bild, das das Muster vervollständigt."
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",

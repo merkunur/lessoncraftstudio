@@ -209,6 +209,17 @@ const translations = {
     "zoomReset": "Reset Zoom",
     "undo": "Undo (Ctrl+Z)",
     "redo": "Redo (Ctrl+Y)"
+  ,
+    "seoFreeInteractive": "Free interactive",
+    "seoFor": "for",
+    "seoPrintOrPlayOnline": "Print or play online",
+    "srWorksheetQuestions": "Worksheet questions",
+    "endDeckHeading": "Want more?",
+    "endDeckMoreType": "More {type} worksheets",
+    "endDeckMoreTheme": "More {theme} worksheets",
+    "endDeckMoreLevel": "More worksheets for {level}",
+    "endDeckBrowseAll": "Browse all worksheets",
+    "srExercisePatternTrain": "Question {n}: Drag the correct image into wagon {n} to complete the pattern."
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -413,6 +424,17 @@ const translations = {
     "zoomReset": "Zoom zurücksetzen",
     "undo": "Rückgängig (Strg+Z)",
     "redo": "Wiederholen (Strg+Y)"
+  ,
+    "seoFreeInteractive": "Kostenloses interaktives",
+    "seoFor": "für",
+    "seoPrintOrPlayOnline": "Drucken oder online spielen",
+    "srWorksheetQuestions": "Arbeitsblatt-Fragen",
+    "endDeckHeading": "Mehr davon?",
+    "endDeckMoreType": "Mehr {type}-Arbeitsblätter",
+    "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
+    "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
+    "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
+    "srExercisePatternTrain": "Frage {n}: Ziehe das richtige Bild in Waggon {n}, um das Muster zu vervollständigen."
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",

@@ -218,6 +218,17 @@ const translations = {
     "gridmatch.help.clue.cells": "Set how many cells will show the clue images",
     "gridmatch.help.image.select": "Click on an image to use it in the worksheet",
     "gridmatch.help.upload": "Upload your own images for the worksheet"
+  ,
+    "seoFreeInteractive": "Free interactive",
+    "seoFor": "for",
+    "seoPrintOrPlayOnline": "Print or play online",
+    "srWorksheetQuestions": "Worksheet questions",
+    "endDeckHeading": "Want more?",
+    "endDeckMoreType": "More {type} worksheets",
+    "endDeckMoreTheme": "More {theme} worksheets",
+    "endDeckMoreLevel": "More worksheets for {level}",
+    "endDeckBrowseAll": "Browse all worksheets",
+    "srExerciseGridMatch": "Question {n}: Drag the {label} tile into its matching grid cell."
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -426,6 +437,17 @@ const translations = {
     "gridmatch.help.clue.cells": "Legen Sie fest, wie viele Felder die Hinweisbilder anzeigen",
     "gridmatch.help.image.select": "Klicken Sie auf ein Bild, um es im Arbeitsblatt zu verwenden",
     "gridmatch.help.upload": "Laden Sie eigene Bilder für das Arbeitsblatt hoch"
+  ,
+    "seoFreeInteractive": "Kostenloses interaktives",
+    "seoFor": "für",
+    "seoPrintOrPlayOnline": "Drucken oder online spielen",
+    "srWorksheetQuestions": "Arbeitsblatt-Fragen",
+    "endDeckHeading": "Mehr davon?",
+    "endDeckMoreType": "Mehr {type}-Arbeitsblätter",
+    "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
+    "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
+    "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
+    "srExerciseGridMatch": "Frage {n}: Ziehe das Feld {label} in die passende Gitterzelle."
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",

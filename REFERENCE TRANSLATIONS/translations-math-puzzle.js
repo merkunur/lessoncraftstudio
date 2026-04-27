@@ -174,6 +174,17 @@ const translations = {
     "toolbar.delete": "Delete Selected",
     "toolbar.layers": "Layers",
     "toolbar.align": "Align"
+  ,
+    "seoFreeInteractive": "Free interactive",
+    "seoFor": "for",
+    "seoPrintOrPlayOnline": "Print or play online",
+    "srWorksheetQuestions": "Worksheet questions",
+    "endDeckHeading": "Want more?",
+    "endDeckMoreType": "More {type} worksheets",
+    "endDeckMoreTheme": "More {theme} worksheets",
+    "endDeckMoreLevel": "More worksheets for {level}",
+    "endDeckBrowseAll": "Browse all worksheets",
+    "srExerciseMathPuzzle": "Question {n}: {operationText} blank."
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -425,6 +436,17 @@ const translations = {
     "bringForward": "Nach vorne",
     "sendBackward": "Nach hinten",
     "sendToBack": "Ganz nach hinten"
+  ,
+    "seoFreeInteractive": "Kostenloses interaktives",
+    "seoFor": "für",
+    "seoPrintOrPlayOnline": "Drucken oder online spielen",
+    "srWorksheetQuestions": "Arbeitsblatt-Fragen",
+    "endDeckHeading": "Mehr davon?",
+    "endDeckMoreType": "Mehr {type}-Arbeitsblätter",
+    "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
+    "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
+    "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
+    "srExerciseMathPuzzle": "Frage {n}: {operationText} Leerzeichen."
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",

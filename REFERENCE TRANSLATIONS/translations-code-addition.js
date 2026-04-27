@@ -201,6 +201,18 @@ const CODE_ADDITION_TRANSLATIONS = {
     "codeaddition.word.reveal.auto.adjusted": "Settings auto-adjusted: {symbols} symbols, {addends} addends",
     "codeaddition.word.reveal.cannot.generate": "Cannot generate worksheet with current settings. Try a shorter word.",
     "codeaddition.original.settings.adjusted": "Settings adjusted: {symbols} symbols, {addends} addends to ensure unique exercises."
+  ,
+    "seoFreeInteractive": "Free interactive",
+    "seoFor": "for",
+    "seoPrintOrPlayOnline": "Print or play online",
+    "srWorksheetQuestions": "Worksheet questions",
+    "endDeckHeading": "Want more?",
+    "endDeckMoreType": "More {type} worksheets",
+    "endDeckMoreTheme": "More {theme} worksheets",
+    "endDeckMoreLevel": "More worksheets for {level}",
+    "endDeckBrowseAll": "Browse all worksheets",
+    "srExerciseCodeAddition": "Question {n}: Add the picture values together and write the total.",
+    "srExerciseCodeAdditionWordReveal": "Question {n}: Add the picture values, then write the letter that matches the total."
   },
 
   /**
@@ -396,6 +408,18 @@ const CODE_ADDITION_TRANSLATIONS = {
     "codeaddition.word.reveal.auto.adjusted": "Automatisch angepasst: {symbols} Symbole, {addends} Summanden",
     "codeaddition.word.reveal.cannot.generate": "Arbeitsblatt kann nicht erstellt werden. Versuche ein kürzeres Wort.",
     "codeaddition.original.settings.adjusted": "Einstellungen angepasst: {symbols} Symbole, {addends} Summanden für einzigartige Aufgaben."
+  ,
+    "seoFreeInteractive": "Kostenloses interaktives",
+    "seoFor": "für",
+    "seoPrintOrPlayOnline": "Drucken oder online spielen",
+    "srWorksheetQuestions": "Arbeitsblatt-Fragen",
+    "endDeckHeading": "Mehr davon?",
+    "endDeckMoreType": "Mehr {type}-Arbeitsblätter",
+    "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
+    "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
+    "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
+    "srExerciseCodeAddition": "Frage {n}: Addiere die Bildwerte und schreibe die Summe.",
+    "srExerciseCodeAdditionWordReveal": "Frage {n}: Addiere die Bildwerte und schreibe dann den Buchstaben, der zur Summe passt."
   },
 
   /**

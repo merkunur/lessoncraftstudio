@@ -212,7 +212,18 @@ const translations = {
         "worksheetPdf": "Worksheet (PDF)",
         "answerKeyPdf": "Answer Key (PDF)",
         "grayscale": "Grayscale"
-    },
+    ,
+    "seoFreeInteractive": "Free interactive",
+    "seoFor": "for",
+    "seoPrintOrPlayOnline": "Print or play online",
+    "srWorksheetQuestions": "Worksheet questions",
+    "endDeckHeading": "Want more?",
+    "endDeckMoreType": "More {type} worksheets",
+    "endDeckMoreTheme": "More {theme} worksheets",
+    "endDeckMoreLevel": "More worksheets for {level}",
+    "endDeckBrowseAll": "Browse all worksheets",
+    "srExerciseWordScramble": "Question {n}: Unscramble the letters {scrambledLetters} to spell the word for the picture shown."
+  },
 
     de: {
     "exportToCatalog": "In den Katalog exportieren",
@@ -422,7 +433,18 @@ const translations = {
         "worksheetPdf": "Arbeitsblatt (PDF)",
         "answerKeyPdf": "Lösungsblatt (PDF)",
         "grayscale": "Graustufen"
-    },
+    ,
+    "seoFreeInteractive": "Kostenloses interaktives",
+    "seoFor": "für",
+    "seoPrintOrPlayOnline": "Drucken oder online spielen",
+    "srWorksheetQuestions": "Arbeitsblatt-Fragen",
+    "endDeckHeading": "Mehr davon?",
+    "endDeckMoreType": "Mehr {type}-Arbeitsblätter",
+    "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
+    "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
+    "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
+    "srExerciseWordScramble": "Frage {n}: Entwirre die Buchstaben {scrambledLetters}, um das Wort zum gezeigten Bild zu schreiben."
+  },
 
     fr: {
     "exportToCatalog": "Exporter vers le catalogue",

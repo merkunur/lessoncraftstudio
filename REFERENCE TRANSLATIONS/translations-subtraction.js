@@ -225,6 +225,18 @@ const translations = {
     "worksheetJpeg": "Worksheet (JPEG)",
     "worksheetPdf": "Worksheet (PDF)",
     "yourUploadedImages": "Your Uploaded Images (This Session)"
+  ,
+    "seoFreeInteractive": "Free interactive",
+    "seoFor": "for",
+    "seoPrintOrPlayOnline": "Print or play online",
+    "srWorksheetQuestions": "Worksheet questions",
+    "endDeckHeading": "Want more?",
+    "endDeckMoreType": "More {type} worksheets",
+    "endDeckMoreTheme": "More {theme} worksheets",
+    "endDeckMoreLevel": "More worksheets for {level}",
+    "endDeckBrowseAll": "Browse all worksheets",
+    "srExerciseSubtraction": "Question {n}: {minuend} minus {subtrahend} equals blank.",
+    "srExerciseSubtractionFindSubtrahend": "Question {n}: {minuend} minus blank equals {result}."
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -443,6 +455,18 @@ const translations = {
     "worksheetJpeg": "Arbeitsblatt (JPEG)",
     "worksheetPdf": "Arbeitsblatt (PDF)",
     "yourUploadedImages": "Ihre hochgeladenen Bilder (diese Sitzung)"
+  ,
+    "seoFreeInteractive": "Kostenloses interaktives",
+    "seoFor": "für",
+    "seoPrintOrPlayOnline": "Drucken oder online spielen",
+    "srWorksheetQuestions": "Arbeitsblatt-Fragen",
+    "endDeckHeading": "Mehr davon?",
+    "endDeckMoreType": "Mehr {type}-Arbeitsblätter",
+    "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
+    "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
+    "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
+    "srExerciseSubtraction": "Frage {n}: {minuend} minus {subtrahend} ist gleich Leerzeichen.",
+    "srExerciseSubtractionFindSubtrahend": "Frage {n}: {minuend} minus Leerzeichen ist gleich {result}."
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",

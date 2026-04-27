@@ -202,6 +202,21 @@ const BIG_SMALL_TRANSLATIONS = {
     "bigsmall.asset.error": "Error loading {type}.",
     "bigsmall.watermark.text": "FREE VERSION - LessonCraftStudio.com",
     "bigsmall.watermark.short": "FREE VERSION"
+  ,
+    "seoFreeInteractive": "Free interactive",
+    "seoFor": "for",
+    "seoPrintOrPlayOnline": "Print or play online",
+    "srWorksheetQuestions": "Worksheet questions",
+    "endDeckHeading": "Want more?",
+    "endDeckMoreType": "More {type} worksheets",
+    "endDeckMoreTheme": "More {theme} worksheets",
+    "endDeckMoreLevel": "More worksheets for {level}",
+    "endDeckBrowseAll": "Browse all worksheets",
+    "srExerciseBigSmallFindSmall": "Question {n}: Circle the smallest one.",
+    "srExerciseBigSmallFindBig": "Question {n}: Circle the biggest one.",
+    "srExerciseBigSmallFindMed": "Question {n}: Circle the medium-sized one.",
+    "srExerciseBigSmallOrderAsc": "Question {n}: Number the {N} pictures from smallest (1) to biggest.",
+    "srExerciseBigSmallOrderDesc": "Question {n}: Number the {N} pictures from biggest (1) to smallest."
   },
 
   "de": {
@@ -386,6 +401,21 @@ const BIG_SMALL_TRANSLATIONS = {
     "bigsmall.asset.error": "Fehler beim Laden von {type}.",
     "bigsmall.watermark.text": "KOSTENLOSE VERSION - LessonCraftStudio.com",
     "bigsmall.watermark.short": "KOSTENLOSE VERSION"
+  ,
+    "seoFreeInteractive": "Kostenloses interaktives",
+    "seoFor": "für",
+    "seoPrintOrPlayOnline": "Drucken oder online spielen",
+    "srWorksheetQuestions": "Arbeitsblatt-Fragen",
+    "endDeckHeading": "Mehr davon?",
+    "endDeckMoreType": "Mehr {type}-Arbeitsblätter",
+    "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
+    "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
+    "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
+    "srExerciseBigSmallFindSmall": "Frage {n}: Kreise das kleinste ein.",
+    "srExerciseBigSmallFindBig": "Frage {n}: Kreise das größte ein.",
+    "srExerciseBigSmallFindMed": "Frage {n}: Kreise das mittelgroße ein.",
+    "srExerciseBigSmallOrderAsc": "Frage {n}: Nummeriere die {N} Bilder vom kleinsten (1) bis zum größten.",
+    "srExerciseBigSmallOrderDesc": "Frage {n}: Nummeriere die {N} Bilder vom größten (1) bis zum kleinsten."
   },
 
   "fr": {

@@ -240,7 +240,21 @@ const translations = {
         "chooseFiles": "Choose Files",
         "noFileChosen": "No file chosen",
         "filesSelected": "{count} file(s) selected"
-    },
+    ,
+    "seoFreeInteractive": "Free interactive",
+    "seoFor": "for",
+    "seoPrintOrPlayOnline": "Print or play online",
+    "srWorksheetQuestions": "Worksheet questions",
+    "endDeckHeading": "Want more?",
+    "endDeckMoreType": "More {type} worksheets",
+    "endDeckMoreTheme": "More {theme} worksheets",
+    "endDeckMoreLevel": "More worksheets for {level}",
+    "endDeckBrowseAll": "Browse all worksheets",
+    "srExerciseMathWorksheet": "Question {n}: Find what each picture equals using these equations: {equations}.",
+    "srOperatorPlus": "plus",
+    "srOperatorMinus": "minus",
+    "srOperatorEquals": "equals"
+  },
 
     de: {
     "exportToCatalog": "In den Katalog exportieren",
@@ -473,7 +487,21 @@ const translations = {
         "chooseFiles": "Dateien auswählen",
         "noFileChosen": "Keine Datei ausgewählt",
         "filesSelected": "{count} Datei(en) ausgewählt"
-    },
+    ,
+    "seoFreeInteractive": "Kostenloses interaktives",
+    "seoFor": "für",
+    "seoPrintOrPlayOnline": "Drucken oder online spielen",
+    "srWorksheetQuestions": "Arbeitsblatt-Fragen",
+    "endDeckHeading": "Mehr davon?",
+    "endDeckMoreType": "Mehr {type}-Arbeitsblätter",
+    "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
+    "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
+    "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
+    "srExerciseMathWorksheet": "Frage {n}: Finde heraus, was jedes Bild ergibt, mit Hilfe dieser Gleichungen: {equations}.",
+    "srOperatorPlus": "plus",
+    "srOperatorMinus": "minus",
+    "srOperatorEquals": "ist gleich"
+  },
 
     fr: {
     "exportToCatalog": "Exporter vers le catalogue",

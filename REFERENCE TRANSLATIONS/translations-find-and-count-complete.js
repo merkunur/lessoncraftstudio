@@ -207,6 +207,20 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "pleaseSelectTargetImage": "Please select at least 1 image starting with the letter {letter}.",
     "letterSpottingInstruction": "Find all the pictures that begin with the letter {letter}.",
     "more": "more"
+  ,
+    "seoFreeInteractive": "Free interactive",
+    "seoFor": "for",
+    "seoPrintOrPlayOnline": "Print or play online",
+    "srWorksheetQuestions": "Worksheet questions",
+    "endDeckHeading": "Want more?",
+    "endDeckMoreType": "More {type} worksheets",
+    "endDeckMoreTheme": "More {theme} worksheets",
+    "endDeckMoreLevel": "More worksheets for {level}",
+    "endDeckBrowseAll": "Browse all worksheets",
+    "srExerciseFindAndCountCircle": "Question {n}: Circle every {word} in the picture.",
+    "srExerciseFindAndCountSquare": "Question {n}: Draw a square around every {word} in the picture.",
+    "srExerciseFindAndCountCross": "Question {n}: Cross out every {word} in the picture.",
+    "srExerciseFindAndCountCount": "Question {n}: Count every {word} in the picture and write the total."
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -402,6 +416,20 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "pleaseSelectTargetImage": "Bitte wähle mindestens 1 Bild, das mit dem Buchstaben {letter} beginnt.",
     "letterSpottingInstruction": "Finde alle Bilder, die mit dem Buchstaben {letter} beginnen.",
     "more": "mehr"
+  ,
+    "seoFreeInteractive": "Kostenloses interaktives",
+    "seoFor": "für",
+    "seoPrintOrPlayOnline": "Drucken oder online spielen",
+    "srWorksheetQuestions": "Arbeitsblatt-Fragen",
+    "endDeckHeading": "Mehr davon?",
+    "endDeckMoreType": "Mehr {type}-Arbeitsblätter",
+    "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
+    "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
+    "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
+    "srExerciseFindAndCountCircle": "Frage {n}: Kreise jedes {word} im Bild ein.",
+    "srExerciseFindAndCountSquare": "Frage {n}: Zeichne ein Quadrat um jedes {word} im Bild.",
+    "srExerciseFindAndCountCross": "Frage {n}: Streiche jedes {word} im Bild durch.",
+    "srExerciseFindAndCountCount": "Frage {n}: Zähle jedes {word} im Bild und schreibe die Anzahl auf."
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",

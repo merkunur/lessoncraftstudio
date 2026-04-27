@@ -197,6 +197,18 @@ const translations = {
     "toolbar.send.backward": "Send Backward",
     "upload_custom_images": "Upload Custom Images",
     "width_px": "Width (px):"
+  ,
+    "seoFreeInteractive": "Free interactive",
+    "seoFor": "for",
+    "seoPrintOrPlayOnline": "Print or play online",
+    "srWorksheetQuestions": "Worksheet questions",
+    "endDeckHeading": "Want more?",
+    "endDeckMoreType": "More {type} worksheets",
+    "endDeckMoreTheme": "More {theme} worksheets",
+    "endDeckMoreLevel": "More worksheets for {level}",
+    "endDeckBrowseAll": "Browse all worksheets",
+    "srExercisePrepositionsChoice": "Question {n}: Choose the preposition that describes the position of the {item} relative to the {shape}.",
+    "srExercisePrepositionsFillIn": "Question {n}: Write the preposition that describes the position of the {item} relative to the {shape}."
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -386,6 +398,18 @@ const translations = {
     "toolbar.send.backward": "Nach hinten",
     "upload_custom_images": "Eigene Bilder hochladen",
     "width_px": "Breite (px):"
+  ,
+    "seoFreeInteractive": "Kostenloses interaktives",
+    "seoFor": "für",
+    "seoPrintOrPlayOnline": "Drucken oder online spielen",
+    "srWorksheetQuestions": "Arbeitsblatt-Fragen",
+    "endDeckHeading": "Mehr davon?",
+    "endDeckMoreType": "Mehr {type}-Arbeitsblätter",
+    "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
+    "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
+    "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
+    "srExercisePrepositionsChoice": "Frage {n}: Wähle die Präposition, die die Position der {item} im Verhältnis zur {shape} beschreibt.",
+    "srExercisePrepositionsFillIn": "Frage {n}: Schreibe die Präposition, die die Position der {item} im Verhältnis zur {shape} beschreibt."
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",

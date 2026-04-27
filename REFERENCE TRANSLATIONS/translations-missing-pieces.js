@@ -231,6 +231,17 @@ const translations = {
     "bringForward": "Bring Forward",
     "sendBackward": "Send Backward",
     "sendToBack": "Send to Back"
+  ,
+    "seoFreeInteractive": "Free interactive",
+    "seoFor": "for",
+    "seoPrintOrPlayOnline": "Print or play online",
+    "srWorksheetQuestions": "Worksheet questions",
+    "endDeckHeading": "Want more?",
+    "endDeckMoreType": "More {type} worksheets",
+    "endDeckMoreTheme": "More {theme} worksheets",
+    "endDeckMoreLevel": "More worksheets for {level}",
+    "endDeckBrowseAll": "Browse all worksheets",
+    "srExerciseMissingPieces": "Question {n}: Drag the missing {pieceShape} piece into the empty space at position {n}."
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -475,6 +486,17 @@ const translations = {
     "bringForward": "Nach vorne",
     "sendBackward": "Nach hinten",
     "sendToBack": "Ganz nach hinten"
+  ,
+    "seoFreeInteractive": "Kostenloses interaktives",
+    "seoFor": "für",
+    "seoPrintOrPlayOnline": "Drucken oder online spielen",
+    "srWorksheetQuestions": "Arbeitsblatt-Fragen",
+    "endDeckHeading": "Mehr davon?",
+    "endDeckMoreType": "Mehr {type}-Arbeitsblätter",
+    "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
+    "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
+    "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
+    "srExerciseMissingPieces": "Frage {n}: Ziehe das fehlende {pieceShape}-Stück in die leere Stelle an Position {n}."
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",

@@ -220,6 +220,17 @@ const CHART_COUNT_TRANSLATIONS = {
     "chartcount.reset.chart": "Reset Chart",
     "chartcount.export.chart": "Export Chart",
     "chartcount.upload.placeholder": "Your uploaded images will appear here."
+  ,
+    "seoFreeInteractive": "Free interactive",
+    "seoFor": "for",
+    "seoPrintOrPlayOnline": "Print or play online",
+    "srWorksheetQuestions": "Worksheet questions",
+    "endDeckHeading": "Want more?",
+    "endDeckMoreType": "More {type} worksheets",
+    "endDeckMoreTheme": "More {theme} worksheets",
+    "endDeckMoreLevel": "More worksheets for {level}",
+    "endDeckBrowseAll": "Browse all worksheets",
+    "srExerciseChartCount": "Question {n}: Count the {word} in the picture and shade the column to show how many you counted."
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -426,6 +437,17 @@ const CHART_COUNT_TRANSLATIONS = {
     "chartcount.reset.chart": "Diagramm zurücksetzen",
     "chartcount.export.chart": "Diagramm exportieren",
     "chartcount.upload.placeholder": "Ihre hochgeladenen Bilder erscheinen hier."
+  ,
+    "seoFreeInteractive": "Kostenloses interaktives",
+    "seoFor": "für",
+    "seoPrintOrPlayOnline": "Drucken oder online spielen",
+    "srWorksheetQuestions": "Arbeitsblatt-Fragen",
+    "endDeckHeading": "Mehr davon?",
+    "endDeckMoreType": "Mehr {type}-Arbeitsblätter",
+    "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
+    "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
+    "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
+    "srExerciseChartCount": "Frage {n}: Zähle die {word} im Bild und schattiere die Spalte, um zu zeigen, wie viele du gezählt hast."
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",

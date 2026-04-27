@@ -3546,6 +3546,9 @@ document.addEventListener("DOMContentLoaded", function() {
         var innerTop  = gb.top  + meta.innerOffsetY * sy;
         var cellW = meta.cellSize * sx;
         var cellH = meta.cellSize * sy;
+        // ANSWER-BEARING: holes[].correctImageIndex is the imageIndex the kid
+        // is supposed to drag into this cell. The sr-only template MUST NOT
+        // echo this — it's the answer to the puzzle.
         var holes = meta.blankPositions.map(function (pos, i) {
             return {
                 index: i,
@@ -3691,8 +3694,27 @@ document.addEventListener("DOMContentLoaded", function() {
             console.warn('[sudoku v28.2.0] cutout image cropping failed:', e);
         }
 
+        // Group B Phase 1 — uniqueImageKeys: vocab keys for the 4 unique
+        // images in this picture-sudoku puzzle (4×4 grid uses 4 distinct
+        // images). Sourced from script-scope lastGeneratedImages (the puzzle
+        // generator's image array, indexed by imageIndex 0..3); cutoutsData
+        // alone is insufficient because it only contains palette chips for
+        // empty cells (3 of 4 imageIndex values typically; the 4th lives
+        // only in pre-filled cells visible in worksheetImage). Each image's
+        // key is resolved via vocabKeyFromImage to handle theme paths,
+        // server-stored uploads (suffix-bearing), and data URL uploads
+        // uniformly. Descriptive (names what's in the puzzle) — NOT
+        // answer-bearing.
+        var uniqueImageKeys = [];
+        if (typeof lastGeneratedImages !== 'undefined' && Array.isArray(lastGeneratedImages)
+            && window.LCSCatalogExport && LCSCatalogExport.vocabKeyFromImage) {
+            uniqueImageKeys = lastGeneratedImages.map(function (img) {
+                return LCSCatalogExport.vocabKeyFromImage(img) || null;
+            });
+        }
+
         return {
-            bundleVersion: '28.2.0',
+            bundleVersion: '28.3.0',
             schemaFormat: 'image-references-v3',
             loadingMode: loadingMode,
             appType: 'sudoku',
@@ -3705,6 +3727,7 @@ document.addEventListener("DOMContentLoaded", function() {
             gridDims: { rows: 4, cols: 4 },
             holes: holes,
             cutoutsData: cutoutsWithImages,
+            uniqueImageKeys: uniqueImageKeys,
             imageRefs: {},
             attribution: attributionRect ? {
                 text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',

@@ -270,7 +270,18 @@ const translations = {
         "defaultNewText": "New Text",
         "puzzle": "Puzzle",
         "exercise": "Exercise"
-    },
+    ,
+    "seoFreeInteractive": "Free interactive",
+    "seoFor": "for",
+    "seoPrintOrPlayOnline": "Print or play online",
+    "srWorksheetQuestions": "Worksheet questions",
+    "endDeckHeading": "Want more?",
+    "endDeckMoreType": "More {type} worksheets",
+    "endDeckMoreTheme": "More {theme} worksheets",
+    "endDeckMoreLevel": "More worksheets for {level}",
+    "endDeckBrowseAll": "Browse all worksheets",
+    "srPuzzleWordsearch": "Word search puzzle. Find these words in the letter grid: {words}."
+  },
 
     // ==========================================
     // GERMAN / DEUTSCH
@@ -506,7 +517,18 @@ const translations = {
         "defaultNewText": "Neuer Text",
         "puzzle": "Rätsel",
         "exercise": "Übung"
-    },
+    ,
+    "seoFreeInteractive": "Kostenloses interaktives",
+    "seoFor": "für",
+    "seoPrintOrPlayOnline": "Drucken oder online spielen",
+    "srWorksheetQuestions": "Arbeitsblatt-Fragen",
+    "endDeckHeading": "Mehr davon?",
+    "endDeckMoreType": "Mehr {type}-Arbeitsblätter",
+    "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
+    "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
+    "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
+    "srPuzzleWordsearch": "Wortsuche-Rätsel. Finde diese Wörter im Buchstabengitter: {words}."
+  },
 
     // ==========================================
     // FRENCH / FRANÇAIS

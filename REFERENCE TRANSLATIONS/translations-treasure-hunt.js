@@ -178,6 +178,17 @@ const translations = {
     "toolbar.sendBackward": "Send Backward",
     "watermark.free": "FREE VERSION - LessonCraftStudio.com",
     "watermark.freeShort": "FREE VERSION"
+  ,
+    "seoFreeInteractive": "Free interactive",
+    "seoFor": "for",
+    "seoPrintOrPlayOnline": "Print or play online",
+    "srWorksheetQuestions": "Worksheet questions",
+    "endDeckHeading": "Want more?",
+    "endDeckMoreType": "More {type} worksheets",
+    "endDeckMoreTheme": "More {theme} worksheets",
+    "endDeckMoreLevel": "More worksheets for {level}",
+    "endDeckBrowseAll": "Browse all worksheets",
+    "srPuzzleTreasureHunt": "Treasure hunt puzzle. Trace the path from {start} to {end} following the directional clues."
   },
 
   de: {
@@ -354,6 +365,17 @@ const translations = {
     "toolbar.sendBackward": "Nach hinten",
     "watermark.free": "KOSTENLOSE VERSION - LessonCraftStudio.com",
     "watermark.freeShort": "KOSTENLOSE VERSION"
+  ,
+    "seoFreeInteractive": "Kostenloses interaktives",
+    "seoFor": "für",
+    "seoPrintOrPlayOnline": "Drucken oder online spielen",
+    "srWorksheetQuestions": "Arbeitsblatt-Fragen",
+    "endDeckHeading": "Mehr davon?",
+    "endDeckMoreType": "Mehr {type}-Arbeitsblätter",
+    "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
+    "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
+    "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
+    "srPuzzleTreasureHunt": "Schatzsuche-Rätsel. Verfolge den Weg von {start} nach {end} und folge den Richtungshinweisen."
   },
 
   fr: {

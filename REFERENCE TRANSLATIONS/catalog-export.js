@@ -311,6 +311,14 @@
    *   srExercise<App><Mode>    per-row template for a non-default mode
    *                            (e.g., srExerciseAdditionFindAddend)
    *   srWorksheetQuestions     localized aria-label for the section wrapper
+   *   srOperator<Name>         arithmetic operator words substituted INSIDE
+   *                            per-row sr-only constructions (e.g.,
+   *                            srOperatorPlus, srOperatorMinus, srOperatorEquals).
+   *                            Used by apps whose per-row text is built by
+   *                            stitching localized strings rather than baking
+   *                            operators into the template (math-worksheet).
+   *                            Scoped per-app until a second consumer needs
+   *                            them; promote to a shared keyset at that point.
    *
    * opts = {
    *   label?: string    // optional aria-label; omitted → bare section

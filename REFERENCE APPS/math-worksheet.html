@@ -5,7 +5,7 @@
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
     <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
     <script src="/worksheet-generators/js/jszip-3.10.1.min.js"></script>
-    <script src="/worksheet-generators/js/catalog-export.js?v=5"></script>
+    <script src="/worksheet-generators/js/catalog-export.js?v=6"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <title>Math Worksheet Generator</title>
@@ -4441,18 +4441,15 @@
               // excluded; promote to bundle when a second consumer needs them.
               puzzles: (puzzles || []).map(function (p) {
                   var imageKeyMap = {};
-                  // Use ImageVocab.keyFromPath, which strips the
-                  // -<13digit-timestamp>-<hash> suffix on user-uploaded
-                  // image filenames, recovering the bare vocab key
-                  // (e.g. "/images/animals/camel-1769386104282-2351c8c4.png"
-                  // → "camel"). LCSImageRef.parseImagePath was producing the
-                  // raw suffixed key, which neither matched IMAGE_VOCABULARY
-                  // entries nor produced a clean fallback.
+                  // Use shared vocabKeyFromImage which handles all 3
+                  // image source forms: theme path, server-stored upload
+                  // with timestamp+hash suffix, and client-side data URL
+                  // upload that falls back to img.word/name.
+                  // Bug-family: eb510be4.2.
                   Object.keys(p.imageMap || {}).forEach(function (sym) {
                       var raw = p.imageMap[sym];
-                      var pth = (typeof raw === 'string') ? raw : (raw && raw.path) || null;
-                      if (pth && typeof ImageVocab !== 'undefined') {
-                          var key = ImageVocab.keyFromPath(pth);
+                      if (window.LCSCatalogExport && LCSCatalogExport.vocabKeyFromImage) {
+                          var key = LCSCatalogExport.vocabKeyFromImage(raw);
                           if (key) imageKeyMap[sym] = key;
                       }
                   });

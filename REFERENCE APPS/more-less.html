@@ -5,7 +5,7 @@
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
     <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
     <script src="/worksheet-generators/js/jszip-3.10.1.min.js"></script>
-    <script src="/worksheet-generators/js/catalog-export.js?v=5"></script>
+    <script src="/worksheet-generators/js/catalog-export.js?v=6"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <title>Compare Numbers Worksheet</title>
@@ -5200,17 +5200,15 @@ async function downloadPDF(canvasToExport, filename, opts) {
                 // or an image object with .path. Both shapes are real in
                 // current generation code; the verifier's first PASS was a
                 // coverage gap, not a shape success.
-                var imgAPath = (typeof imgA === 'string') ? imgA : (imgA && imgA.path) || null;
-                var imgBPath = (typeof imgB === 'string') ? imgB : (imgB && imgB.path) || null;
-                // Use ImageVocab.keyFromPath which strips the
-                // -<13digit-timestamp>-<hash> suffix on user-uploaded
-                // image filenames; LCSImageRef.parseImagePath leaves
-                // it intact and breaks downstream vocab lookups.
-                var imageAKey = (imgAPath && typeof ImageVocab !== 'undefined')
-                    ? (ImageVocab.keyFromPath(imgAPath) || null)
+                // Use shared vocabKeyFromImage which handles all 3 image
+                // source forms (theme path, server-stored upload with
+                // timestamp+hash suffix, client-side data URL upload that
+                // falls back to img.word/name). Bug-family: eb510be4.2.
+                var imageAKey = (window.LCSCatalogExport && LCSCatalogExport.vocabKeyFromImage)
+                    ? (LCSCatalogExport.vocabKeyFromImage(imgA) || null)
                     : null;
-                var imageBKey = (imgBPath && typeof ImageVocab !== 'undefined')
-                    ? (ImageVocab.keyFromPath(imgBPath) || null)
+                var imageBKey = (window.LCSCatalogExport && LCSCatalogExport.vocabKeyFromImage)
+                    ? (LCSCatalogExport.vocabKeyFromImage(imgB) || null)
                     : null;
                 return {
                     comparisonMode: row.comparisonMode || null,

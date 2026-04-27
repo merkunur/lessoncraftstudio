@@ -5,7 +5,7 @@
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
     <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
     <script src="/worksheet-generators/js/jszip-3.10.1.min.js"></script>
-    <script src="/worksheet-generators/js/catalog-export.js?v=5"></script>
+    <script src="/worksheet-generators/js/catalog-export.js?v=6"></script>
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -4127,15 +4127,15 @@
         // of each exercise. Mode-stable — both branches read from pd.assignments.
         bundle.assignments = (pd.assignments || []).map(function (a) {
             if (!a) return null;
-            // Use ImageVocab.keyFromPath which strips the
-            // -<13digit-timestamp>-<hash> suffix on user-uploaded
-            // image filenames; LCSImageRef.parseImagePath leaves it
-            // intact and breaks downstream vocab lookups.
-            var itemKey = (a.item && a.item.path && typeof ImageVocab !== 'undefined')
-                ? (ImageVocab.keyFromPath(a.item.path) || null)
+            // Use shared vocabKeyFromImage which handles all 3 image
+            // source forms (theme path, server-stored upload with
+            // timestamp+hash suffix, client-side data URL upload that
+            // falls back to img.word/name). Bug-family: eb510be4.2.
+            var itemKey = (a.item && window.LCSCatalogExport && LCSCatalogExport.vocabKeyFromImage)
+                ? (LCSCatalogExport.vocabKeyFromImage(a.item) || null)
                 : null;
-            var shapeKey = (a.shape && !a.shape.isDefault && a.shape.path && typeof ImageVocab !== 'undefined')
-                ? (ImageVocab.keyFromPath(a.shape.path) || null)
+            var shapeKey = (a.shape && !a.shape.isDefault && window.LCSCatalogExport && LCSCatalogExport.vocabKeyFromImage)
+                ? (LCSCatalogExport.vocabKeyFromImage(a.shape) || null)
                 : null;
             var shapeDefaultSlug = (a.shape && a.shape.isDefault) ? (a.shape.name || null) : null;
             return {

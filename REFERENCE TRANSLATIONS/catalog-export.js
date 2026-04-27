@@ -413,6 +413,57 @@
     ].join('\n');
   }
 
+  /**
+   * Resolve a vocabulary-canonical key from a worksheet image. Used by
+   * per-app bundle code that needs to look up vocab via ImageVocab.
+   *
+   * Accepts either a path string or an image object with {path, word, name}.
+   * Returns a string suitable for ImageVocab.singular/plural/gender, or null.
+   *
+   * Three real-world image source forms (each surfaces different bug
+   * modes if mis-handled):
+   *
+   *   1. Theme images: img.path = "/images/<theme>/<filename>.png" with
+   *      a clean filename matching IMAGE_VOCABULARY entries directly.
+   *      ImageVocab.keyFromPath returns the bare key.
+   *
+   *   2. Server-stored uploaded images: img.path = "/images/<theme>/<file>"
+   *      with filename suffixed by -<13digit-timestamp>-<hash>.
+   *      ImageVocab.keyFromPath strips the suffix to recover the bare key.
+   *      LCSImageRef.parseImagePath leaves the suffix intact and breaks
+   *      vocab lookup downstream — the eb510be4 / eb510be4.1 bug family.
+   *
+   *   3. Client-side FileReader uploaded images: img.path = "data:image/...;base64,...".
+   *      Neither keyFromPath nor parseImagePath produces a meaningful
+   *      key (they operate on path components that don't exist in data
+   *      URLs). Fall back to img.word / img.name (the original filename
+   *      the upload form captured).
+   *
+   * Single helper covers all three so callers don't replicate the
+   * dispatch logic per-app.
+   */
+  function vocabKeyFromImage(img) {
+    if (img == null) return null;
+    if (typeof img === 'string') img = { path: img };
+    if (typeof img !== 'object') return null;
+    var path = img.path || '';
+
+    // Real URL path (forms 1 + 2): use ImageVocab.keyFromPath which
+    // strips both -N variant and -<13digit>-<hash> upload suffixes.
+    if (path && path.indexOf('data:') !== 0 && typeof ImageVocab !== 'undefined') {
+      var key = ImageVocab.keyFromPath(path);
+      if (key) return key;
+    }
+
+    // Data URL (form 3) or pathless: derive from filename word/name.
+    var raw = String(img.word || img.name || '').toLowerCase().trim();
+    if (!raw) return null;
+    return raw
+      .replace(/\.\w+$/, '')                 // .png/.jpg/.webp etc
+      .replace(/-\d{13}-[a-z0-9]+$/, '')     // upload timestamp + hash
+      .replace(/-\d+$/, '');                 // -N numeric variant
+  }
+
   function triggerDownload(blob, fileName) {
     var url = URL.createObjectURL(blob);
     var a = document.createElement('a');
@@ -509,6 +560,7 @@
     buildEndDeckLinks: buildEndDeckLinks,
     buildSrRows: buildSrRows,
     buildSrPuzzleSummary: buildSrPuzzleSummary,
+    vocabKeyFromImage: vocabKeyFromImage,
     HREFLANG_MARKER: HREFLANG_MARKER,
     export: exportCatalog
   };

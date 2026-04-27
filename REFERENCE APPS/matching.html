@@ -3338,6 +3338,9 @@
                 link.href = dataURL;
                 link.click();
                 showMessage(t('downloadInitiated').replace('{filename}', fileName), "success");
+            } catch (e) {
+                console.error('[matching] downloadImageFile failed:', e);
+                showMessage(t('errorDownloading') || 'Download failed: ' + e.message, 'error');
             }
         };
 

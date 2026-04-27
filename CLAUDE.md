@@ -241,7 +241,7 @@ model Deck {
   language        String   // deck's primary content language
   subjectTags     String[]
   topicSlugs      String[] // foreign keys into Topic.slug; a deck can belong to multiple topics
-  ageRange        String   // "3-5" | "6-8" | "9-11"
+  ageRange        String   // "3-5" | "5-7" | "6-8" | "7-9" | "8-10"
   htmlUrl         String   // path to the self-contained interactive HTML on CDN
   pdfUrl          String   // path to the printable PDF on CDN
   answerKeyUrl    String?  // path to answer-key PDF on CDN (optional)
@@ -279,7 +279,7 @@ model Topic {
   title           Json     // {en: "...", ...}
   description     Json
   subject         String
-  ageRange        String
+  ageRange        String   // "3-5" | "5-7" | "6-8" | "7-9" | "8-10"
   language        String
   curriculumTags  String[] // e.g. ["pyp-mathematics-numbers", "ipc-early-years-counting", "cambridge-primary-stage1"]
   parentSlug      String?  // optional taxonomy nesting
@@ -404,6 +404,8 @@ model Subscription {
   // schoolLicenseId field is added in v1.5 when school-license tier ships
 }
 ```
+
+When the `Deck` and `Topic` models are actually built in `schema.prisma`, `ageRange` should land as a Prisma `enum AgeRange { AGE_3_5 AGE_5_7 AGE_6_8 AGE_7_9 AGE_8_10 }` rather than a free-form `String`, so the database enforces the same five-tier set as §17.8.6.
 
 ### 8.2 File organization
 
@@ -1180,11 +1182,6 @@ Additionally, when a v2 sibling is published, `publish-cli` re-injects the updat
 | `8-10` | `Grade 3` | `seo.educational_level.grade_3` |
 
 The English value populates Schema.org's `educationalLevel`. The localized value (looked up via `seo.educational_level.<key>` in the existing next-intl translation system per §6) populates the localized `<title>` and `<meta name="description">`. Both are stored on the `metadata.json` layer of the manifest so that `publish-cli` doesn't recompute them per upload.
-
-Two pre-existing inconsistencies should be resolved before this mapping ships, **separate from this amendment** (flagged here for tracking, not patched here):
-
-- The Prisma `Deck.ageRange` and `Topic.ageRange` schemas in §8.1 document allowed values as `"3-5" | "6-8" | "9-11"`, which is a coarser bucket set than the table above. The `metadata.json` example in §15.1 uses `"5-7"`, which doesn't match the Prisma enum either. The mapping table assumes the granular bucket set (`3-5`, `5-7`, `6-8`, `7-9`, `8-10`); aligning the Prisma `ageRange` documentation and the metadata.json example with this finer-grained set is a small follow-up.
-- The K-3 audience scope (§1) bounds `educational_level` to `Preschool` through `Grade 3`. Adding `Grade 4` or beyond would require revising the audience scope first.
 
 #### 17.8.7 v1 vs v2 scope: cross-language sibling tracking
 

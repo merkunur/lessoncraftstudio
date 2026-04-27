@@ -4434,6 +4434,27 @@
               },
               worksheetImage: worksheetImage,
               slots: slots,
+              // Brief A 5A.2 redo: expose puzzles[].equations + imageKeyMap so
+              // sr-only can render the actual equations symbol-by-symbol with
+              // ImageVocab.singular() lookups and srOperator<Name> tokens.
+              // Trimmed to minimum-needed: values + symbolsUsed deliberately
+              // excluded; promote to bundle when a second consumer needs them.
+              puzzles: (puzzles || []).map(function (p) {
+                  var imageKeyMap = {};
+                  Object.keys(p.imageMap || {}).forEach(function (sym) {
+                      var pth = p.imageMap[sym];
+                      if (pth && window.LCSImageRef) {
+                          var parsed = LCSImageRef.parseImagePath(pth);
+                          if (parsed && parsed.key) imageKeyMap[sym] = parsed.key;
+                      }
+                  });
+                  return {
+                      equations: Array.isArray(p.equations) ? p.equations.map(function (eq) {
+                          return { expr: String(eq.expr || ''), result: eq.result };
+                      }) : [],
+                      imageKeyMap: imageKeyMap
+                  };
+              }),
               attribution: attributionRect ? {
                   text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
                   url: (window.LCSAttribution && LCSAttribution.URL) || 'https://lessoncraftstudio.com',

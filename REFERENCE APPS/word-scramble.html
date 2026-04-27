@@ -3970,6 +3970,22 @@
                 },
                 worksheetImage: worksheetImage,
                 slots: slots,
+                // Brief A 5A.2 redo: expose puzzles[] with imageKey + the
+                // scrambled word strings — the pedagogical content of a
+                // word-scramble exercise. Plural scrambledWords[] honors the
+                // source data shape (each puzzle.words is itself an array;
+                // a puzzle CAN have multiple words and the scramble pairs
+                // 1:1 with them). imageKey replaces path per minimum-needed.
+                puzzles: ((typeof lastGeneratedPuzzles !== 'undefined' && Array.isArray(lastGeneratedPuzzles)) ? lastGeneratedPuzzles : []).map(function (puzzle) {
+                    if (!puzzle) return null;
+                    var imageKey = (puzzle.image && puzzle.image.path && window.LCSImageRef)
+                        ? (LCSImageRef.parseImagePath(puzzle.image.path) || {}).key || null
+                        : null;
+                    return {
+                        imageKey: imageKey,
+                        scrambledWords: Array.isArray(puzzle.scrambledWords) ? puzzle.scrambledWords.slice() : []
+                    };
+                }).filter(Boolean),
                 attribution: attributionRect ? {
                     text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
                     url: (window.LCSAttribution && LCSAttribution.URL) || 'https://lessoncraftstudio.com',

@@ -4121,6 +4121,27 @@
         }
         bundle.imageRefs = imageRefs;
 
+        // Brief A 5A.2 redo: expose pd.assignments to bundle consumers
+        // (sr-only, future AI enrichment) so downstream code can reference
+        // the item / shape / preposition trio that's the pedagogical content
+        // of each exercise. Mode-stable — both branches read from pd.assignments.
+        bundle.assignments = (pd.assignments || []).map(function (a) {
+            if (!a) return null;
+            var itemKey = (a.item && a.item.path && window.LCSImageRef)
+                ? (LCSImageRef.parseImagePath(a.item.path) || {}).key || null
+                : null;
+            var shapeKey = (a.shape && !a.shape.isDefault && a.shape.path && window.LCSImageRef)
+                ? (LCSImageRef.parseImagePath(a.shape.path) || {}).key || null
+                : null;
+            var shapeDefaultSlug = (a.shape && a.shape.isDefault) ? (a.shape.name || null) : null;
+            return {
+                preposition: a.preposition || null,
+                itemKey: itemKey,
+                shapeKey: shapeKey,
+                shapeDefaultSlug: shapeDefaultSlug
+            };
+        }).filter(Boolean);
+
         if (mode === 'multiplechoice') {
             // Group all isMultipleChoiceCircle objects by problemIndex.
             var byProblem = {};

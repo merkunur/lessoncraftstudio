@@ -2527,9 +2527,37 @@
               page: { width: currentCanvasConfig.width, height: currentCanvasConfig.height },
               worksheetImage: worksheetImage,
               mode: pd.mode,
+              // Brief A 5A.2 redo: expose cutDirection (was on worksheetData
+              // but not propagated to bundle). makeItWhole's per-app sr-only
+              // template variant depends on this. Defensive null default;
+              // current code paths always set it to 'horizontal' or 'vertical'.
+              cutDirection: (canvas.worksheetData && canvas.worksheetData.cutDirection) || null,
               topItems: topItems,
               bottomItems: bottomItems,
-              pairs: pd.pairs,
+              // Brief A 5A.2 redo: augment pairs[] with topImageKey by reading
+              // canvas.worksheetData.problems[i].image at extract time. Pure
+              // bundle-side extension — pd.pairs is not mutated. Field shape
+              // per minimum-needed: {topIndex, correctBottomIndex, topImageKey}.
+              // topImagePath deliberately excluded; promote when a second
+              // consumer needs it.
+              pairs: (function () {
+                  var topImagesByIndex = {};
+                  var wd = canvas.worksheetData || {};
+                  (Array.isArray(wd.problems) ? wd.problems : []).forEach(function (p) {
+                      if (p && typeof p.topRowIndex === 'number') topImagesByIndex[p.topRowIndex] = p.image;
+                  });
+                  return (pd.pairs || []).map(function (pair) {
+                      var img = topImagesByIndex[pair.topIndex] || null;
+                      var topImageKey = (img && img.path && window.LCSImageRef)
+                          ? (LCSImageRef.parseImagePath(img.path) || {}).key || null
+                          : null;
+                      return {
+                          topIndex: pair.topIndex,
+                          correctBottomIndex: pair.correctBottomIndex,
+                          topImageKey: topImageKey
+                      };
+                  });
+              })(),
               imageRefs: {},
               attribution: attributionRect ? {
                   text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',

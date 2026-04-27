@@ -5183,6 +5183,33 @@ async function downloadPDF(canvasToExport, filename, opts) {
             },
             worksheetImage: worksheetImage,
             slots: slots,
+            // Brief A 5A.2 redo: expose per-row data normalized across the two
+            // mode-divergent source shapes (comparison mode emits {L,R,nL,nR};
+            // check-cross emits {imageA,imageB,countA,countB}). Bundle-side
+            // normalization avoids per-app code branching on which field is
+            // present. comparisonMode default is null so an unset value
+            // surfaces a generator bug rather than silently masking it.
+            problems: ((typeof lastGeneratedRows !== 'undefined' && Array.isArray(lastGeneratedRows)) ? lastGeneratedRows : []).map(function (row) {
+                if (!row) return null;
+                var imgA = row.imageA || row.L;
+                var imgB = row.imageB || row.R;
+                var cntA = (row.countA != null) ? row.countA : row.nL;
+                var cntB = (row.countB != null) ? row.countB : row.nR;
+                var imageAKey = (imgA && imgA.path && window.LCSImageRef)
+                    ? (LCSImageRef.parseImagePath(imgA.path) || {}).key || null
+                    : null;
+                var imageBKey = (imgB && imgB.path && window.LCSImageRef)
+                    ? (LCSImageRef.parseImagePath(imgB.path) || {}).key || null
+                    : null;
+                return {
+                    comparisonMode: row.comparisonMode || null,
+                    countA: (cntA != null) ? cntA : null,
+                    countB: (cntB != null) ? cntB : null,
+                    imageAKey: imageAKey,
+                    imageBKey: imageBKey,
+                    rel: row.rel || null
+                };
+            }).filter(Boolean),
             imagePlacements: imagePlacements,
             imageRefs: imageRefs,
             attribution: attributionRect ? {

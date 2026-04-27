@@ -11,9 +11,12 @@
  * 3.10.1 — load that first.
  *
  * Public API:
- *   window.LCSCatalogExport.export(opts)         → Promise<{deckId, zipFileName}>
- *   window.LCSCatalogExport.buildSeoHead(opts)   → string of SEO <head> HTML
- *   window.LCSCatalogExport.buildEndDeckLinks()  → string of end-deck links HTML
+ *   window.LCSCatalogExport.export(opts)               → Promise<{deckId, zipFileName}>
+ *   window.LCSCatalogExport.buildSeoHead(opts)         → string of SEO <head> HTML
+ *   window.LCSCatalogExport.buildEndDeckLinks()        → string of end-deck links HTML
+ *   window.LCSCatalogExport.buildSrRows(opts)          → string of per-row sr-only HTML (Group A)
+ *   window.LCSCatalogExport.buildSrPuzzleSummary(opts) → string of deck-level sr-only HTML (Group B/C)
+ *   window.LCSCatalogExport.HREFLANG_MARKER            → string, hreflang insertion-point comment
  *
  * The export either succeeds completely or throws — never produces a partial ZIP.
  * The caller wraps the call in try/catch and surfaces the error message via the
@@ -293,6 +296,71 @@
   var HREFLANG_MARKER = '<!-- HREFLANG_INSERTION_POINT -->';
 
   /**
+   * Build a screen-reader-only section listing per-row exercise descriptions.
+   * Group A pattern (CLAUDE.md §17.8.4 / Brief A §5.4) — used by multi-row
+   * apps where the deck.html contains repeating exercise rows.
+   *
+   * The shared helper owns the structural <section> + <ol> + <li> wrapping
+   * and HTML-escaping. Per-app code stays responsible for building the
+   * per-row strings (because exercise data shape varies per app —
+   * {operandA, operandB} for addition, {clue, answer} for crossword, etc.).
+   *
+   * Translation-key naming convention for callers to follow:
+   *   srExercise<App>          per-row template for the app's default mode
+   *                            (e.g., srExerciseAddition, srExerciseSubtraction)
+   *   srExercise<App><Mode>    per-row template for a non-default mode
+   *                            (e.g., srExerciseAdditionFindAddend)
+   *   srWorksheetQuestions     localized aria-label for the section wrapper
+   *
+   * opts = {
+   *   label?: string    // optional aria-label; omitted → bare section
+   *   rows:  string[]   // pre-formatted localized row strings, one per exercise
+   * }
+   *
+   * Returns an empty string when rows is missing or empty (caller can append
+   * the result without conditional checks).
+   */
+  function buildSrRows(opts) {
+    if (!opts || !Array.isArray(opts.rows) || opts.rows.length === 0) return '';
+    var lis = opts.rows.map(function (r) { return '<li>' + escapeHtml(String(r)) + '</li>'; }).join('');
+    var label = opts.label ? String(opts.label) : '';
+    if (label) {
+      return '<section class="lcs-sr" aria-label="' + escapeAttr(label) + '"><ol>' + lis + '</ol></section>';
+    }
+    return '<section class="lcs-sr"><ol>' + lis + '</ol></section>';
+  }
+
+  /**
+   * Build a screen-reader-only paragraph describing a single-puzzle deck.
+   * Group B / Group C pattern (CLAUDE.md §17.8.5 / Brief A §5.4 R4) — used
+   * by single-puzzle apps where the deck.html renders one puzzle as a whole
+   * (wordsearch, sudoku, picture-path, treasure-hunt, etc.). For Group C
+   * apps with semantically distinct element text (crossword clues,
+   * find-objects targets), this helper covers the deck-level summary;
+   * additional per-element sr-only spans are layered on top.
+   *
+   * Translation-key naming convention for callers to follow:
+   *   srPuzzle<App>            deck-level summary template for the app
+   *                            (e.g., srPuzzleWordsearch, srPuzzleTreasureHunt)
+   *
+   * opts = {
+   *   label?:  string    // optional aria-label; omitted → bare <p>
+   *   summary: string    // localized puzzle summary built from app data
+   * }
+   *
+   * Returns an empty string when summary is missing or empty.
+   */
+  function buildSrPuzzleSummary(opts) {
+    if (!opts || !opts.summary) return '';
+    var summary = String(opts.summary);
+    var label = opts.label ? String(opts.label) : '';
+    if (label) {
+      return '<section class="lcs-sr" aria-label="' + escapeAttr(label) + '"><p>' + escapeHtml(summary) + '</p></section>';
+    }
+    return '<p class="lcs-sr">' + escapeHtml(summary) + '</p>';
+  }
+
+  /**
    * Build the end-of-deck internal-links section (CLAUDE.md §17.8.2 / Brief A
    * §5.5). Returns a string of HTML containing only placeholder tokens — Brief
    * B's publish-cli substitutes them at upload time with the localized link
@@ -410,6 +478,8 @@
     slugify: slugify,
     buildSeoHead: buildSeoHead,
     buildEndDeckLinks: buildEndDeckLinks,
+    buildSrRows: buildSrRows,
+    buildSrPuzzleSummary: buildSrPuzzleSummary,
     HREFLANG_MARKER: HREFLANG_MARKER,
     export: exportCatalog
   };

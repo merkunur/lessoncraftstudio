@@ -3753,8 +3753,28 @@ document.addEventListener("DOMContentLoaded", function() {
               // selectedEndImage = null for classic-maze, populated for
               // choose-path (the correct endpoint's image, matching the
               // singular endCell which is mazeSolutionPath[last]).
+              //
+              // Phase 1 iteration round (29.4.0 → 29.4.1): choose-path's
+              // correct endpoint image lives in data.items[type==='end-correct'].image,
+              // NOT in data.selectedEndImage (undefined for choose-path —
+              // user picks via selectedPathImages multi-image UI, not the
+              // single-image UI). Type-based lookup; source line 6643
+              // guarantees exactly ONE 'end-correct' item per generation.
+              // Defensive null chain extends to .image.path so a
+              // placeholder image without a path falls back to null
+              // rather than dispatching malformed data into vocabKeyFromImage.
               selectedStartImage: null,
-              selectedEndImage: data.isChoosePath ? _ppCaptureImg(data.selectedEndImage) : null
+              selectedEndImage: (function () {
+                  if (!data.isChoosePath) return null;
+                  if (!Array.isArray(data.items)) return null;
+                  var correctEndItem = data.items.find(function (item) {
+                      return item && item.type === 'end-correct';
+                  });
+                  if (correctEndItem && correctEndItem.image && correctEndItem.image.path) {
+                      return _ppCaptureImg(correctEndItem.image);
+                  }
+                  return null;
+              })()
           };
       }
 
@@ -7229,7 +7249,7 @@ document.addEventListener("DOMContentLoaded", function() {
           : null;
 
       return {
-          bundleVersion: '29.4.0',
+          bundleVersion: '29.4.1',
           schemaFormat: 'image-references-v3',
           loadingMode: loadingMode,
           appType: 'picture-path',

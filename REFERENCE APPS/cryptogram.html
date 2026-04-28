@@ -4361,12 +4361,17 @@ async function downloadPDF(canvasToExport, fileName, opts) {
                 ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
             // Group B Phase 1 — cipherMap: novel dictionary-keyed-by-letter
-            // bundle field shape. Maps each cipher letter (A-Z subset, only
-            // letters used in this cryptogram) to {vocabKey, fallback}.
-            // Sourced from script-scope assignedImages (the per-app cipher
+            // bundle field shape. Maps each cipher letter actually used in
+            // this cryptogram's legend to {vocabKey, fallback}. Sourced
+            // from script-scope assignedImages (the per-app cipher
             // generation result at line ~1457; populated with one image per
             // letter such that the image's word starts with that letter,
-            // line ~3387-3389).
+            // line ~3387-3389) BUT FILTERED to the cipher letters in
+            // legendSlots — minimum-needed shape per the Phase 1 iteration
+            // round (16.2.1). assignedImages covers the full A-Z alphabet
+            // independent of the message; the legend on canvas only shows
+            // the letters actually used in this message; the sr-only
+            // template only describes what the kid can see.
             //
             //   vocabKey: canonical bare key via vocabKeyFromImage (handles
             //     theme paths, server-stored uploads with -<13digit>-<hash>
@@ -4384,12 +4389,14 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             var cipherMap = {};
             if (typeof assignedImages === 'object' && assignedImages != null
                 && window.LCSCatalogExport && LCSCatalogExport.vocabKeyFromImage) {
-                Object.keys(assignedImages).forEach(function (letter) {
+                legendSlots.forEach(function (slot) {
+                    var letter = slot && slot.cipherLetter;
+                    if (!letter) return;
                     var img = assignedImages[letter];
                     if (!img) return;
                     var vocabKey = LCSCatalogExport.vocabKeyFromImage(img);
                     var fallback = String((img && (img.word || img.name)) || '').trim() || null;
-                    cipherMap[String(letter).toUpperCase()] = {
+                    cipherMap[letter] = {
                         vocabKey: vocabKey || null,
                         fallback: fallback
                     };
@@ -4397,7 +4404,7 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             }
 
             return {
-                bundleVersion: '16.2.0',
+                bundleVersion: '16.2.1',
                 schemaFormat: 'image-references-v2',
                 loadingMode: loadingMode,
                 imagePlacements: imagePlacements,

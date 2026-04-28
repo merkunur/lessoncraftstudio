@@ -483,6 +483,14 @@ const translations = {
     "zoomIn": "Vergrößern",
     "zoomOut": "Verkleinern",
     "zoomReset": "Zoom zurücksetzen",
+
+    // ============= SR-ONLY (Group B Phase 3) =============
+    "srWorksheetQuestions": "Arbeitsblatt-Fragen",
+    "srPuzzlePicturePathPathway": "Bilder-Pfad-Rätsel auf einem {rows} mal {cols} Gitter. Folge der Bildspur vom {startImage} in Zeile {startRow} Spalte {startCol} bis zum {endImage} in Zeile {endRow} Spalte {endCol}.",
+    "srPuzzlePicturePathClassicMaze": "Labyrinth-Rätsel auf einem {rows} mal {cols} Gitter. Verfolge einen Weg vom Startpfeil in Zeile {startRow} Spalte {startCol} bis zum Zielpfeil in Zeile {endRow} Spalte {endCol}, vorbei an den Wänden.",
+    "srPuzzlePicturePathChoosePathSingle": "Labyrinth-Rätsel auf einem {rows} mal {cols} Gitter. Verfolge einen Weg vom Startpfeil in Zeile {startRow} Spalte {startCol} bis zum {endImage} in Zeile {endRow} Spalte {endCol}, vorbei an den Wänden.",
+    "srPuzzlePicturePathChoosePath": "Labyrinth-Rätsel auf einem {rows} mal {cols} Gitter. Beginne beim Pfeil in Zeile {startRow} Spalte {startCol}. Unter den {endpointCount} Bildern am Ende, verfolge den Weg, der zum {endImage} in Zeile {endRow} Spalte {endCol} führt.",
+    "srPuzzlePicturePathCollectibles": "Achte auf {itemList} entlang des Weges. Zähle, wie viele du von jedem siehst, und schreibe die Zahl neben das jeweilige Bild in der Legende.",
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",

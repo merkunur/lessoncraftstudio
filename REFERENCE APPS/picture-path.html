@@ -27,7 +27,7 @@
   <meta name="robots" content="noindex, nofollow">
   <title data-translate="picture.pathway.page.title">Picture Pathway</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="js/translations-picture-pathway.js?v=de-i18n-2"></script>
+  <script src="js/translations-picture-pathway.js?v=de-i18n-3"></script>
     <script src="js/translations-shared.js?v=2"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js"></script>
@@ -7921,10 +7921,19 @@ document.addEventListener("DOMContentLoaded", function() {
           var srTpl = srTranslate(srKey, fallbacks[srKey]);
           if (!srTpl) return;
 
-          // Number-word lookup. Out-of-range falls back to digit form with warn.
+          // Number-word lookup, locale-keyed. Out-of-range falls back to digit
+          // form with warn. Per-locale tables added as Phase 3 lands each
+          // language; currently EN + DE. Other locales fall through to EN
+          // (which is the EN ChoosePath template's working language anyway —
+          // a non-EN/non-DE deck will hit en-fallback srTpl + en number-word
+          // before its own Phase translation lands).
           function endpointCountWord(n) {
-              var words = { 2: 'two', 3: 'three' };
-              if (Object.prototype.hasOwnProperty.call(words, n)) return words[n];
+              var lookups = {
+                  en: { 2: 'two', 3: 'three' },
+                  de: { 2: 'zwei', 3: 'drei' }
+              };
+              var lookup = lookups[srLang] || lookups.en;
+              if (Object.prototype.hasOwnProperty.call(lookup, n)) return lookup[n];
               try { console.warn('picture-path: endpointCount=' + n + ' outside expected {1,2,3} — falling back to digit form.'); } catch (e) {}
               return String(n);
           }

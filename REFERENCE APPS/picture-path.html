@@ -7875,8 +7875,21 @@ document.addEventListener("DOMContentLoaded", function() {
           if (!bundle.gridDims || !bundle.startCell || !bundle.endCell) return;
 
           var srLang = (bundle.contentLanguage || 'en').slice(0, 2);
-          var srLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
-              || 'Worksheet questions';
+          // srLang-keyed lookup helper bypassing t(): picture-path's t() binds
+          // to uiLocale (with currentLocale fallback only when uiLocale
+          // undefined), which diverges from bundle.contentLanguage when the
+          // in-page picker switches content locale without touching uiLocale.
+          // Direct lookup against `translations[srLang][key]` ensures sr-only
+          // output tracks bundle.contentLanguage correctly. Three-level
+          // fallback: srLang-keyed → en-keyed → caller-supplied default.
+          function srTranslate(key, fallback) {
+              return (typeof translations !== 'undefined'
+                  && translations[srLang] && translations[srLang][key])
+                  || (typeof translations !== 'undefined'
+                      && translations.en && translations.en[key])
+                  || fallback;
+          }
+          var srLabel = srTranslate('srWorksheetQuestions', 'Worksheet questions');
 
           // Mode dispatch.
           var srKey = null;
@@ -7897,14 +7910,15 @@ document.addEventListener("DOMContentLoaded", function() {
               return; // unrecognized mode → skip
           }
 
-          // Default fallback strings (English) — used if t() lookup misses.
+          // Default fallback strings (English) — used if srTranslate() misses
+          // both srLang-keyed and en-keyed lookups.
           var fallbacks = {
               srPuzzlePicturePathPathway: 'Picture pathway puzzle on a {rows} by {cols} grid. Follow the trail of pictures from the {startImage} at row {startRow} column {startCol} to the {endImage} at row {endRow} column {endCol}.',
               srPuzzlePicturePathClassicMaze: 'Maze puzzle on a {rows} by {cols} grid. Trace a path from the start arrow at row {startRow} column {startCol} to the finish arrow at row {endRow} column {endCol}, going around the walls.',
               srPuzzlePicturePathChoosePathSingle: 'Maze puzzle on a {rows} by {cols} grid. Trace a path from the start arrow at row {startRow} column {startCol} to the {endImage} at row {endRow} column {endCol}, going around the walls.',
               srPuzzlePicturePathChoosePath: 'Maze puzzle on a {rows} by {cols} grid. Start at the arrow at row {startRow} column {startCol}. Among the {endpointCount} picture endings, trace the path that reaches the {endImage} at row {endRow} column {endCol}.'
           };
-          var srTpl = (typeof t === 'function' && t(srKey)) || fallbacks[srKey];
+          var srTpl = srTranslate(srKey, fallbacks[srKey]);
           if (!srTpl) return;
 
           // Number-word lookup. Out-of-range falls back to digit form with warn.
@@ -7948,8 +7962,10 @@ document.addEventListener("DOMContentLoaded", function() {
           // counts are NOT exposed (visual legend on worksheet shows blank
           // line, not count).
           if (bundle.legend && Array.isArray(bundle.legend.items) && bundle.legend.items.length > 0) {
-              var collectiblesTpl = (typeof t === 'function' && t('srPuzzlePicturePathCollectibles'))
-                  || 'Look for {itemList} along the path. Count how many of each you see and write the number next to its picture in the legend.';
+              var collectiblesTpl = srTranslate(
+                  'srPuzzlePicturePathCollectibles',
+                  'Look for {itemList} along the path. Count how many of each you see and write the number next to its picture in the legend.'
+              );
               var itemNames = bundle.legend.items.map(function (item) {
                   return vocabName(item && item.vocabKey);
               }).filter(Boolean);

@@ -4944,9 +4944,21 @@ async function downloadPDF(canvasToExport, fileName, opts) {
                 && bundle.cipherMap && Array.isArray(bundle.legendSlots)
                 && bundle.legendSlots.length > 0) {
                 var srLang = (bundle.contentLanguage || 'en').slice(0, 2);
-                var srLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
+                // srLang-keyed lookup bypassing t(): cryptogram's t() binds to
+                // uiLocale (URL-locked), which diverges from currentLocale when
+                // the in-page picker switches content locale. Direct lookup
+                // against `translations[srLang][key]` ensures sr-only output
+                // tracks bundle.contentLanguage correctly. Three-level fallback:
+                // srLang-keyed → en-keyed → hardcoded EN string.
+                var srLabel = (typeof translations !== 'undefined'
+                    && translations[srLang] && translations[srLang]['srWorksheetQuestions'])
+                    || (typeof translations !== 'undefined'
+                        && translations.en && translations.en['srWorksheetQuestions'])
                     || 'Worksheet questions';
-                var srTpl = (typeof t === 'function' && t('srPuzzleCryptogram'))
+                var srTpl = (typeof translations !== 'undefined'
+                    && translations[srLang] && translations[srLang]['srPuzzleCryptogram'])
+                    || (typeof translations !== 'undefined'
+                        && translations.en && translations.en['srPuzzleCryptogram'])
                     || 'Cryptogram puzzle. The cipher key shows pictures of {imageList}. Each picture stands for a letter. Sound out each picture\'s starting letter, then write that letter to fill in the secret message.';
                 var imageNames = bundle.legendSlots.map(function (slot) {
                     var entry = slot && slot.cipherLetter && bundle.cipherMap[slot.cipherLetter];

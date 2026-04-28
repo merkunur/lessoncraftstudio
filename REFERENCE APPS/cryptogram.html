@@ -4296,6 +4296,16 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             var loadingMode = (options && options.loadingMode === 'reference') ? 'reference' : 'inline';
             var tagged = _collectCryptogramTaggedRects(canvas);
 
+            // ANSWER-BEARING: BOTH slots[].cipherLetter AND slots[].expected
+            // contain the plaintext letter the kid is supposed to type — the
+            // ANSWER. Naming is misleading (`cipherLetter` despite holding
+            // the plaintext, not the cipher symbol; the cipher symbol is the
+            // image visible at this slot's rect on the canvas). Both fields
+            // are populated from the same source (r.expectedLetter ||
+            // r.cipherLetter) and contain identical values per slot. The
+            // sr-only template MUST NOT echo either field; the encoded
+            // message kid sees IS the answer kid produces. Use cipherMap
+            // (below) to describe the cipher key without leaking plaintext.
             var slots = tagged.gridRects.map(function (r) {
                 var letter = String(r.expectedLetter || r.cipherLetter || '').toUpperCase();
                 return {
@@ -4350,8 +4360,44 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
                 ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
+            // Group B Phase 1 — cipherMap: novel dictionary-keyed-by-letter
+            // bundle field shape. Maps each cipher letter (A-Z subset, only
+            // letters used in this cryptogram) to {vocabKey, fallback}.
+            // Sourced from script-scope assignedImages (the per-app cipher
+            // generation result at line ~1457; populated with one image per
+            // letter such that the image's word starts with that letter,
+            // line ~3387-3389).
+            //
+            //   vocabKey: canonical bare key via vocabKeyFromImage (handles
+            //     theme paths, server-stored uploads with -<13digit>-<hash>
+            //     suffix, and data URL uploads' word/name fallback uniformly)
+            //   fallback: img.word || img.name verbatim (the human-readable
+            //     label captured at upload time). Used by the sr-only
+            //     template when ImageVocab.singular(vocabKey, lang) misses
+            //     (no IMAGE_VOCABULARY entry for the key) — produces a
+            //     usable string instead of the title-cased _fallbackSingular
+            //     that may include suffix-bearing gibberish for user uploads.
+            //
+            // cipherMap is descriptive (names what's in the cipher key), NOT
+            // answer-bearing. The plaintext message itself (slots[].expected
+            // sequence) is deliberately NOT in the bundle — that's the answer.
+            var cipherMap = {};
+            if (typeof assignedImages === 'object' && assignedImages != null
+                && window.LCSCatalogExport && LCSCatalogExport.vocabKeyFromImage) {
+                Object.keys(assignedImages).forEach(function (letter) {
+                    var img = assignedImages[letter];
+                    if (!img) return;
+                    var vocabKey = LCSCatalogExport.vocabKeyFromImage(img);
+                    var fallback = String((img && (img.word || img.name)) || '').trim() || null;
+                    cipherMap[String(letter).toUpperCase()] = {
+                        vocabKey: vocabKey || null,
+                        fallback: fallback
+                    };
+                });
+            }
+
             return {
-                bundleVersion: '16.1.1',
+                bundleVersion: '16.2.0',
                 schemaFormat: 'image-references-v2',
                 loadingMode: loadingMode,
                 imagePlacements: imagePlacements,
@@ -4368,6 +4414,7 @@ async function downloadPDF(canvasToExport, fileName, opts) {
                 worksheetImage: worksheetImage,
                 slots: slots,
                 legendSlots: legendSlots,
+                cipherMap: cipherMap,
                 attribution: attributionRect ? {
                     text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
                     url: (window.LCSAttribution && LCSAttribution.URL) || 'https://lessoncraftstudio.com',

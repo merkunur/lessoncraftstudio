@@ -39,7 +39,20 @@ const SHARED_TRANSLATIONS = {
     "srShapeHeart": "heart",
     "srShapeHexagon": "hexagon",
     "srShapeStar": "star",
-    "srShapeTriangle": "triangle"
+    "srShapeTriangle": "triangle",
+
+    // Social-share v1 — labels for the in-deck share affordance
+    // (LCSCatalogExport.buildShareAffordance, social-share-v1 brief Sub-phase A).
+    // Consumed by all 29 apps that load translations-shared.js.
+    "srShareNative": "Share",
+    "srShareTo": "Share to",
+    "srShareCopyLink": "Copy link",
+    "srShareCopied": "Copied!",
+    "srShareAriaFacebook": "Share on Facebook",
+    "srShareAriaWhatsApp": "Share on WhatsApp",
+    "srShareAriaPinterest": "Share on Pinterest",
+    "srShareAriaEmail": "Share via email",
+    "srShareAriaCopyLink": "Copy link"
   },
   "de": {
     "srShapeSquare": "Quadrat",

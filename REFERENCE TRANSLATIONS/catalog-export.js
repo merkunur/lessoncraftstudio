@@ -11,12 +11,13 @@
  * 3.10.1 — load that first.
  *
  * Public API:
- *   window.LCSCatalogExport.export(opts)               → Promise<{deckId, zipFileName}>
- *   window.LCSCatalogExport.buildSeoHead(opts)         → string of SEO <head> HTML
- *   window.LCSCatalogExport.buildEndDeckLinks()        → string of end-deck links HTML
- *   window.LCSCatalogExport.buildSrRows(opts)          → string of per-row sr-only HTML (Group A)
- *   window.LCSCatalogExport.buildSrPuzzleSummary(opts) → string of deck-level sr-only HTML (Group B/C)
- *   window.LCSCatalogExport.HREFLANG_MARKER            → string, hreflang insertion-point comment
+ *   window.LCSCatalogExport.export(opts)                 → Promise<{deckId, zipFileName}>
+ *   window.LCSCatalogExport.buildSeoHead(opts)           → string of SEO <head> HTML
+ *   window.LCSCatalogExport.buildEndDeckLinks()          → string of end-deck links HTML
+ *   window.LCSCatalogExport.buildSrRows(opts)            → string of per-row sr-only HTML (Group A)
+ *   window.LCSCatalogExport.buildSrPuzzleSummary(opts)   → string of deck-level sr-only HTML (Group B/C)
+ *   window.LCSCatalogExport.buildShareAffordance(opts)   → string of in-deck share affordance HTML+CSS+JS
+ *   window.LCSCatalogExport.HREFLANG_MARKER              → string, hreflang insertion-point comment
  *
  * The export either succeeds completely or throws — never produces a partial ZIP.
  * The caller wraps the call in try/catch and surfaces the error message via the
@@ -500,6 +501,187 @@
   }
 
   /**
+   * Build the in-deck share affordance: a 40×40 icon button placed in
+   * lcs-bar after lcs-mute, plus a desktop overlay containing 5 platform
+   * buttons (Facebook, WhatsApp, Pinterest, email, copy-link).
+   *
+   * Click behavior: navigator.share when available (mobile primarily); else
+   * the overlay opens with the 5-platform row.
+   *
+   * Returns a self-contained string of HTML+CSS+inline-JS for embedding
+   * into deck.html chrome at generation time. No runtime dependency on
+   * catalog-export.js — deck.html stays self-contained per §14.1.
+   *
+   * Resolution order for canonicalURL:
+   *   1. opts.canonicalURL provided AND not a __PLACEHOLDER__ literal → use as-is
+   *   2. canonicalURL absent/placeholder, opts.locale + opts.title both
+   *      present → construct https://lessoncraftstudio.com/<locale>/decks/<slugify(title)>/
+   *   3. Insufficient inputs → return empty string (defensive skip per §17.8.11)
+   *
+   * Placeholder detection per §17.8.5 publish-cli substitution-token convention:
+   * tokens match /^__[A-Z_]+__$/ (e.g., __CANONICAL_URL__, __EDUCATIONAL_LEVEL__).
+   *
+   * Predicted-slug trade-off: if publish-cli's de-duplication appends a numeric
+   * suffix on slug collision (per §17.8.5), the predicted slug differs from
+   * the published slug. v1-acceptable risk per Sub-phase A authorization;
+   * filed in deferred queue under social-share-v1 family. Retire when
+   * publish-cli ships and starts substituting __CANONICAL_URL__.
+   *
+   * Translation keys consumed (from translations-shared.js, baked at
+   * generation time — strings appear as static text in the deck.html output):
+   *   srShareNative, srShareTo, srShareCopyLink, srShareCopied,
+   *   srShareAriaFacebook, srShareAriaWhatsApp, srShareAriaPinterest,
+   *   srShareAriaEmail, srShareAriaCopyLink
+   *
+   * Per-app integration in renderStandaloneHTML() (Sub-phase B):
+   *   parts.push('    ' + LCSCatalogExport.buildShareAffordance({
+   *       locale: lang,
+   *       title: title
+   *   }));
+   * Place inside lcs-bar, after the lcs-mute button emission.
+   */
+  function buildShareAffordance(opts) {
+    opts = opts || {};
+    var canonicalURL = opts.canonicalURL;
+    var locale = opts.locale || 'en';
+    var title = opts.title || '';
+
+    function isPlaceholder(s) {
+      return typeof s === 'string' && /^__[A-Z_]+__$/.test(s);
+    }
+
+    var url = null;
+    if (canonicalURL && typeof canonicalURL === 'string' && !isPlaceholder(canonicalURL)) {
+      url = canonicalURL;
+    } else if (locale && title) {
+      var slug = slugify(title);
+      if (slug) {
+        url = 'https://lessoncraftstudio.com/' + locale + '/decks/' + slug + '/';
+      }
+    }
+
+    // ANSWER-BEARING-style hygiene (§17.8.11 defensive skip): no real URL
+    // means the share button has no meaningful target. Empty string skips
+    // emission entirely. Do NOT render a degraded variant.
+    if (!url) return '';
+
+    // Read localized strings at generation time. window.translations is
+    // populated by per-app translations-<app>.js + translations-shared.js
+    // (both loaded before catalog-export.js per the apps' script-tag order).
+    // Strings bake into the deck.html output as static text — no runtime
+    // translation lookup needed in the self-contained deck.html.
+    var t = (typeof global !== 'undefined' && global.translations
+      && global.translations[locale]) || {};
+    var ten = (typeof global !== 'undefined' && global.translations
+      && global.translations.en) || {};
+    function str(key, fallback) { return t[key] || ten[key] || fallback; }
+
+    var labelShare = str('srShareNative', 'Share');
+    var labelShareTo = str('srShareTo', 'Share to');
+    var labelCopy = str('srShareCopyLink', 'Copy link');
+    var labelCopied = str('srShareCopied', 'Copied!');
+    var ariaFacebook = str('srShareAriaFacebook', 'Share on Facebook');
+    var ariaWhatsApp = str('srShareAriaWhatsApp', 'Share on WhatsApp');
+    var ariaPinterest = str('srShareAriaPinterest', 'Share on Pinterest');
+    var ariaEmail = str('srShareAriaEmail', 'Share via email');
+    var ariaCopyLink = str('srShareAriaCopyLink', 'Copy link');
+
+    function escAttr(s) {
+      return String(s == null ? '' : s)
+        .replace(/&/g, '&amp;')
+        .replace(/"/g, '&quot;')
+        .replace(/</g, '&lt;');
+    }
+    function escHtml(s) {
+      return String(s == null ? '' : s)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+    }
+
+    var encodedURL = encodeURIComponent(url);
+    var encodedTitle = encodeURIComponent(title);
+
+    return [
+      '<div class="lcs-share-wrap">',
+      '  <button type="button" class="lcs-share" id="lcs-share"',
+      '          aria-label="' + escAttr(labelShare) + '" aria-haspopup="true" aria-expanded="false">',
+      '    <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">',
+      '      <circle cx="18" cy="5" r="3"/>',
+      '      <circle cx="6" cy="12" r="3"/>',
+      '      <circle cx="18" cy="19" r="3"/>',
+      '      <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>',
+      '      <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>',
+      '    </svg>',
+      '  </button>',
+      '  <div class="lcs-share-overlay" id="lcs-share-overlay" hidden role="dialog" aria-label="' + escAttr(labelShareTo) + '">',
+      '    <div class="lcs-share-sheet">',
+      '      <a href="https://www.facebook.com/sharer/sharer.php?u=' + encodedURL + '" target="_blank" rel="noopener noreferrer" class="lcs-share-platform" aria-label="' + escAttr(ariaFacebook) + '">',
+      '        <span class="lcs-share-icon" aria-hidden="true">📘</span><span>Facebook</span>',
+      '      </a>',
+      '      <a href="https://api.whatsapp.com/send?text=' + encodedURL + '" target="_blank" rel="noopener noreferrer" class="lcs-share-platform" aria-label="' + escAttr(ariaWhatsApp) + '">',
+      '        <span class="lcs-share-icon" aria-hidden="true">💬</span><span>WhatsApp</span>',
+      '      </a>',
+      '      <a href="https://pinterest.com/pin/create/button/?url=' + encodedURL + '&description=" target="_blank" rel="noopener noreferrer" class="lcs-share-platform" aria-label="' + escAttr(ariaPinterest) + '">',
+      '        <span class="lcs-share-icon" aria-hidden="true">📌</span><span>Pinterest</span>',
+      '      </a>',
+      '      <a href="mailto:?subject=' + encodedTitle + '&body=' + encodedURL + '" class="lcs-share-platform" aria-label="' + escAttr(ariaEmail) + '">',
+      '        <span class="lcs-share-icon" aria-hidden="true">✉️</span><span>Email</span>',
+      '      </a>',
+      '      <button type="button" class="lcs-share-platform" id="lcs-share-copy" aria-label="' + escAttr(ariaCopyLink) + '" data-label-default="' + escAttr(labelCopy) + '" data-label-copied="' + escAttr(labelCopied) + '">',
+      '        <span class="lcs-share-icon" aria-hidden="true">🔗</span><span id="lcs-share-copy-label">' + escHtml(labelCopy) + '</span>',
+      '      </button>',
+      '    </div>',
+      '  </div>',
+      '</div>',
+      '<style>',
+      '.lcs-share-wrap{position:relative;display:inline-flex;flex-shrink:0}',
+      '.lcs-share{width:40px;height:40px;border-radius:10px;border:2px solid #DCE1E6;background:#FFF;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;color:#545458;flex-shrink:0}',
+      '.lcs-share:hover{background:#FEFAF3}',
+      '.lcs-share:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+      '.lcs-share svg{width:20px;height:20px;pointer-events:none}',
+      '.lcs-share-overlay{position:absolute;top:calc(100% + 8px);right:0;z-index:100;min-width:200px}',
+      '.lcs-share-overlay[hidden]{display:none}',
+      '.lcs-share-sheet{background:#FFF;border:2px solid #DCE1E6;border-radius:12px;box-shadow:0 4px 18px rgba(28,28,30,.18);padding:8px;display:grid;gap:4px}',
+      '.lcs-share-platform{display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:8px;text-decoration:none;color:#1C1C1E;font-family:inherit;font-size:15px;font-weight:500;border:none;background:transparent;cursor:pointer;text-align:left;width:100%}',
+      '.lcs-share-platform:hover{background:#F4F6FB}',
+      '.lcs-share-platform:focus-visible{outline:2px solid #4E5FE8;outline-offset:-2px}',
+      '.lcs-share-icon{font-size:18px;line-height:1;flex-shrink:0}',
+      '</style>',
+      '<script>(function(){',
+      'var btn=document.getElementById("lcs-share");',
+      'var overlay=document.getElementById("lcs-share-overlay");',
+      'var copyBtn=document.getElementById("lcs-share-copy");',
+      'var copyLabel=document.getElementById("lcs-share-copy-label");',
+      'if(!btn||!overlay)return;',
+      'var url=' + JSON.stringify(url) + ';',
+      'var title=' + JSON.stringify(title) + ';',
+      'function showOverlay(){overlay.hidden=false;btn.setAttribute("aria-expanded","true");setTimeout(function(){document.addEventListener("click",outside,true);},0);}',
+      'function hideOverlay(){overlay.hidden=true;btn.setAttribute("aria-expanded","false");document.removeEventListener("click",outside,true);}',
+      'function outside(e){if(!overlay.contains(e.target)&&e.target!==btn&&!btn.contains(e.target))hideOverlay();}',
+      'btn.addEventListener("click",function(e){',
+      'e.stopPropagation();',
+      'if(navigator.share){navigator.share({title:title,url:url}).catch(function(){});}',
+      'else{if(overlay.hidden)showOverlay();else hideOverlay();}',
+      '});',
+      'if(copyBtn&&copyLabel){',
+      'copyBtn.addEventListener("click",function(e){',
+      'e.preventDefault();e.stopPropagation();',
+      'var labelDefault=copyBtn.getAttribute("data-label-default");',
+      'var labelCopied=copyBtn.getAttribute("data-label-copied");',
+      'var done=function(){copyLabel.textContent=labelCopied;setTimeout(function(){copyLabel.textContent=labelDefault;hideOverlay();},2000);};',
+      'if(navigator.clipboard&&navigator.clipboard.writeText){',
+      'navigator.clipboard.writeText(url).then(done).catch(function(){});',
+      '}else{',
+      'var ta=document.createElement("textarea");ta.value=url;ta.style.position="fixed";ta.style.opacity="0";document.body.appendChild(ta);ta.select();try{document.execCommand("copy");done();}catch(e){}document.body.removeChild(ta);',
+      '}',
+      '});',
+      '}',
+      '})();<\/script>'
+    ].join('\n');
+  }
+
+  /**
    * Main entry point.
    *
    * opts = {
@@ -584,6 +766,7 @@
     buildEndDeckLinks: buildEndDeckLinks,
     buildSrRows: buildSrRows,
     buildSrPuzzleSummary: buildSrPuzzleSummary,
+    buildShareAffordance: buildShareAffordance,
     vocabKeyFromImage: vocabKeyFromImage,
     HREFLANG_MARKER: HREFLANG_MARKER,
     export: exportCatalog

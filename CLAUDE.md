@@ -702,6 +702,36 @@ Student drags across a letter grid; path snaps to one of 8 directions. On releas
 
 The shared keyset complement to this module is `translations-shared.js` (loaded by all 29 apps; merge-on-load into `window.translations` with per-app collision warnings). See JSDoc on `buildSrRows` for the convention rule about when keys live in `translations-shared.js` vs per-app `translations-<app>.js` files.
 
+#### 14.3a.1 Bundle-shape contract extensions (Group B Phase 1)
+
+Three apps gained mode-conditional and identity-mapping bundle fields during Group B Phase 1. The new fields are documented as part of the catalog-export bundle contract:
+
+- **sudoku** (bundleVersion `28.3.0`, commit `9b54ae4b`): `uniqueImageKeys: [vocabKey, ...]` — array of vocab-canonical keys for the N unique images in the picture-sudoku puzzle (4 for default 4×4). Sourced from script-scope `lastGeneratedImages` via `vocabKeyFromImage`. Indexed parallel to `holes[].correctImageIndex` and `cutoutsData[].imageIndex`.
+- **cryptogram** (bundleVersion `16.2.1`, commits `ac573fe4` → `5775b9c1`): `cipherMap: {[Letter]: {vocabKey, fallback}}` — letter-keyed dictionary FILTERED to letters appearing in `legendSlots` (minimum-needed shape per Phase 1 iteration round). Each entry has `vocabKey` (via `vocabKeyFromImage`) and `fallback` (`img.word || img.name`) for vocab-miss resilience.
+- **picture-path** (bundleVersion `29.4.2`, commits `5bfa496c` → `8fc9f522` → `a3697abe`): four new fields with mode-asymmetric population:
+  - `startCellImage: vocabKey | null` — populated for pathway, null for classic-maze + choose-path (arrows, not images at start)
+  - `endCellImage: vocabKey | null` — populated for pathway + choose-path (correct endpoint via `data.items[type==='end-correct'].image`), null for classic-maze
+  - `endpointCount: number | null` — count of endpoint destinations in choose-path mode (1, 2, or 3 per UI `#choosePathNumPaths`); null for pathway + classic-maze (Phase 1 reopen `a3697abe`)
+  - `legend.items[].vocabKey: vocabKey | null` — populated when collectibles configured (Treasure Trail variant of maze modes); existing `correctCount` field on items remains
+
+The surfacing rationale for these extensions is the **structural-vs-identity coverage** dimension promoted at Phase 1 close — bundles can be shape-correct, code-path-covered, image-source-clean, path-encoding-handled, and linkage-loss-free yet still **structurally undescribable** in screen-reader text because they tell you WHERE puzzle elements are without telling you WHAT they are. Recovery requires bundle-extension code to source the identity-mapping data from the puzzle generator's working state at extract time. See `feedback_coverage_dimensions_emerge_from_postmortems.md` dimension 6 for the full rationale.
+
+#### 14.3a.2 Number-word lookup convention for small-cardinality counts
+
+When a bundle field exposes a small-cardinality count needing K-3-natural rendering (e.g. picture-path's `endpointCount` in `{1, 2, 3}`), per-app code defines a small per-locale lookup table at template-fill time:
+
+```js
+var lookups = {
+    en: { 2: 'two', 3: 'three' },
+    de: { 2: 'zwei', 3: 'drei' }
+};
+var lookup = lookups[srLang] || lookups.en;
+```
+
+Out-of-range values fall back to digit form with a `console.warn` (defensive for future UI changes that might offer larger ranges). Tables live in per-app code (not in shared modules) when single-consumer; promote to a shared module if a second consumer adopts the same shape.
+
+Originating commits: picture-path Phase 2 `75d4a27c` (EN) + Phase 3 `263c67f2` (DE).
+
 ### 14.4 How to port a new app (recipe)
 
 **Step A — Decide which family (§14.2).** If the worksheet has a fixed set of answer positions → family A. If the interaction is spatial selection/drawing → family B.
@@ -1176,6 +1206,15 @@ The shared module gains responsibility for emitting the **structure** of the SEO
 - The placeholder URL strings for end-of-deck topic-destination links
 - The `aria-label` / `sr-only` text for each exercise row, generated from the manifest's `exercises` array
 
+**Multi-template-variant pattern (Group B Phase 2 — picture-path):** for apps whose sr-only output is mode-conditional, the per-row pattern generalizes to multiple template keys dispatched on `bundle.mode`. Picture-path establishes the pattern with four template keys:
+
+- `srPuzzlePicturePathPathway` — both endpoints have images
+- `srPuzzlePicturePathClassicMaze` — both endpoints are arrows
+- `srPuzzlePicturePathChoosePathSingle` — choose-path with `endpointCount === 1` (structurally a single-endpoint maze with image-at-end; reuses classic-maze structural language with image substitution)
+- `srPuzzlePicturePathChoosePath` — choose-path with `endpointCount >= 2` (multi-endpoint framing with number-word substitution per §14.3a.2)
+
+Per-app code in `renderStandaloneHTML()` selects the variant on `bundle.mode` (and secondary discriminators when applicable — see §17.8.12). Conditional segments — e.g. picture-path's collectibles segment when `bundle.legend.items[]` is non-empty — are handled by the same per-app code, appending after the mode-template-fill. Originating commit: picture-path Phase 2 `75d4a27c`. Single-template apps continue using a single `srPuzzle<App>` or `srExercise<App>` key as before.
+
 These all live in `catalog-export.js` and are written into the deck.html string before the ZIP is bundled. Per §3.2 the apps' generation algorithms are extended, not rewritten — per-app changes are surgical:
 
 - Replace the title element wrapper (`<div>` → `<h1>`)
@@ -1249,6 +1288,106 @@ The exact translate-this-deck workflow shape (button in the existing app, separa
 - Which apps export decks stays as in §14.9 (31 of 33).
 - The catalog-export ZIP bundle structure stays as in §15.2 (manifest + four assets); the manifest gains one new field on `generation.json` and two on `metadata.json` per §15.1.
 - The URL pattern for `/topics/...` destination pages remains §16's responsibility; `publish-cli` substitutes whatever the canonical pattern is once topic pages are built.
+
+#### 17.8.9 Answer-bearing-field hygiene
+
+Bundle fields that contain puzzle answers must be comment-marked at construction site with the canonical pattern:
+
+```js
+// ANSWER-BEARING — sr-only template MUST NOT echo this
+```
+
+Bundle fields exposing puzzle solutions are necessary for runtime evaluation (the kid's interactive client-side validation) but become a leak risk if the sr-only template author copies them into the screen-reader text. The comment establishes intent at the source-of-truth and protects against the leak when future sr-only template work touches the same bundle.
+
+Concrete answer-bearing fields per Group B Phase 0 inventory:
+
+- **sudoku**: `holes[].correctImageIndex` (the image index expected at each blank cell)
+- **picture-path**: `solutionPath` (the cell-by-cell trace), `legend.items[].correctCount` (per-collectible counts the kid must count)
+- **cryptogram**: `slots[].cipherLetter` AND `slots[].expected` — BOTH fields contain the plaintext answer letter; **naming is misleading** (`cipherLetter` despite holding the plaintext, not the cipher symbol)
+- **subtraction** (and other Brief A 5A apps): `slot.expected` — by template convention not echoed; included for completeness
+
+When a new app's bundle code adds an answer-bearing field, the canonical comment is required. The §17.8.11 defensive-skip discipline protects against wrong-end emission, but the comment-at-construction-site is the upstream protection.
+
+#### 17.8.10 Row+col 1-indexed indexing convention for sr-only output
+
+Bundle data uses 0-indexed row/col coordinates (matches source code's internal representation). Per-app code converts to 1-indexed at template-fill time when row/col reads as part of human-facing sr-only output. Bundle is structural truth; sr-only output is human-readable adaptation.
+
+```js
+var startRow1 = (bundle.startCell.r != null) ? (bundle.startCell.r + 1) : '';
+var startCol1 = (bundle.startCell.c != null) ? (bundle.startCell.c + 1) : '';
+```
+
+First surfacing app: picture-path Phase 2 (commit `75d4a27c`) — four template variants render row/col positions (e.g. "row 7 column 4" instead of bundle's `{r:6, c:3}`). Verified across 10 picture-path Gate 1 decks (Phase 4) and 2 sudoku decks. Generalization: any future app whose sr-only output names cell positions follows this convention. Bundle stays 0-indexed; per-app code converts.
+
+#### 17.8.11 Defensive-skip discipline for sr-only emission
+
+When bundle invariants are violated at sr-only emission time, sr-only emission is **skipped entirely** — do NOT render a degraded variant. Defensive skip protects against silently-wrong sr-only output for non-default operator configurations.
+
+Concrete invariants per app (Group B Phase 2):
+
+- **sudoku**: skip when `bundle.uniqueImageKeys` missing/empty/non-array OR `bundle.gridDims`/`bundle.holes` missing
+- **cryptogram**: skip when `bundle.cipherMap` missing OR `bundle.legendSlots` empty
+- **picture-path**: skip when `bundle.mode` unrecognized OR `bundle.gridDims`/`bundle.startCell`/`bundle.endCell` missing OR mode-specific image-field contracts violated (pathway with null `startCellImage` or null `endCellImage`; choose-path with null `endCellImage`) OR choose-path with null/undefined/0/non-numeric `endpointCount`
+
+When implementing sr-only emission, declare the invariants the template depends on. Skip emission if any invariant is violated. Do NOT guess or fall through to a degraded template — silent wrongness is worse than silent absence (the existing instruction sr-only span at §17.8.2 still provides minimal screen-reader access).
+
+Originating commits: sudoku Phase 2 `37cbec62`, cryptogram Phase 2 `9c9b1b55`, picture-path Phase 2 `75d4a27c`.
+
+#### 17.8.12 Mode-conditional dispatch with sub-variants
+
+Extension of §17.8.4's multi-template-variant pattern. For apps with multi-axis configuration variability, dispatch order:
+
+1. **Mode (primary):** `bundle.mode` → one of N template variants
+2. **Secondary scalar (when applicable):** a bundle field that further branches within a mode (e.g. picture-path's `endpointCount === 1` → `ChoosePathSingle` template; `endpointCount >= 2` → `ChoosePath` template)
+3. **Conditional segment presence:** optional segments appended when their backing data is non-null (e.g. picture-path's collectibles segment when `bundle.legend.items[]` non-empty; segment text shared across all mode variants — applied universally)
+
+First surfacing app: picture-path Phase 2 (commit `75d4a27c`) — 4-key dispatch (`Pathway` / `ClassicMaze` / `ChoosePathSingle` / `ChoosePath`) on `mode + endpointCount`, plus universal collectibles segment. Phase 1 reopen (`a3697abe`) added the `endpointCount` bundle field to enable the secondary-scalar dispatch.
+
+Generalization: any future app with multi-axis configuration variability follows this pattern. Cross-reference §17.8.4 for the multi-template-variant base pattern; sub-variants are the natural extension when a mode has internal configuration variability.
+
+#### 17.8.13 List-joiner convention (placeholder — promote to shared helper at 4th-consumer threshold)
+
+Locale-correct list joining at sr-only emission sites uses `Intl.ListFormat` directly with defensive fallback to a hardcoded English Oxford-comma joiner:
+
+```js
+try {
+    if (typeof Intl !== 'undefined' && Intl.ListFormat) {
+        list = new Intl.ListFormat(srLang, { style: 'long', type: 'conjunction' }).format(items);
+    } else {
+        throw new Error('Intl.ListFormat unavailable');
+    }
+} catch (e) {
+    if (items.length === 1) list = items[0];
+    else if (items.length === 2) list = items[0] + ' and ' + items[1];
+    else list = items.slice(0, -1).join(', ') + ', and ' + items[items.length - 1];
+}
+```
+
+For `srLang === 'en'` produces "a, b, and c" (Oxford-comma in V8/Chrome); for `'de'` produces "a, b und c" (no comma before "und"); for other locales, locale-correct conjunction word + punctuation. Browser support: Chrome 72+, Firefox 78+, Safari 14.1+ (all 2020+) — matches the apps' modern Canvas/Pointer Events baseline.
+
+Currently lives at three call sites: sudoku (`uniqueImageKeys`), cryptogram (`legendSlots` vocab list), picture-path (collectibles `{itemList}`). **Promote to `LCSCatalogExport.formatList(items, locale)` shared helper when a 4th consumer adopts the same shape.** Same threshold as §14.3a's "single-consumer keys per-app, ≥2-consumer keys shared" convention for translation keys — list-joining helpers follow the parallel rule.
+
+Originating commit: hotfix `8f4f9685`.
+
+#### 17.8.14 Sr-only-emission srLang-keyed lookup convention
+
+Sr-only emission sites use **srLang-keyed `translations[srLang][key]` lookup directly**, bypassing the per-app `t()` helper:
+
+```js
+var srTpl = (typeof translations !== 'undefined'
+    && translations[srLang] && translations[srLang]['srPuzzleX'])
+    || (typeof translations !== 'undefined'
+        && translations.en && translations.en['srPuzzleX'])
+    || '<hardcoded English fallback>';
+```
+
+Three-level fallback: `srLang → en → hardcoded EN string`. `srLang` is derived from `bundle.contentLanguage` at extract time (consistent with `ImageVocab.singular` and `Intl.ListFormat` dispatch at adjacent sites).
+
+**Reason:** per-app architectural divergence in `t()` locale binding causes mixed-locale sr-only output for content-locale-driven sr-only when the in-page picker switches `currentLocale` without touching `uiLocale`. Sudoku's `t()` binds to `currentLocale` (content-correct by accident); cryptogram's binds to `uiLocale` (URL-locked); picture-path's binds to `uiLocale` with `currentLocale` fallback only when `uiLocale` is undefined. The srLang-keyed direct lookup avoids the divergence at content-locale-driven emission sites.
+
+**Convention rule:** at sr-only emission sites in `renderStandaloneHTML()`, do NOT call `t(key)`. Use the explicit srLang-keyed lookup pattern. Optionally factor into a per-app local helper (e.g. picture-path's `srTranslate(key, fallback)`) for sites with multiple lookups.
+
+Cross-references: hotfix `573f69e0` (cryptogram + picture-path lookup-mechanism fix). The underlying root cause — per-app `t()` locale-binding architectural divergence — is filed in `project_deferred_items_queue.md` for cross-cutting operational hygiene work; not in scope for this convention to fix globally.
 
 ---
 

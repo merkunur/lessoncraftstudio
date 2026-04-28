@@ -4797,6 +4797,7 @@ async function downloadPDF(canvasToExport, fileName, opts) {
         parts.push('    <h1 class="lcs-title" id="lcs-title">' + escapeHtml(displayTitle) + '</h1>');
         parts.push('    <span class="lcs-progress-counter" id="lcs-counter">0 / 0</span>');
         parts.push('    <button type="button" id="lcs-mute" class="lcs-mute" aria-label="Mute sounds"></button>');
+        parts.push('    ' + LCSCatalogExport.buildShareAffordance({ locale: lang, title: displayTitle }));
         parts.push('  </div>');
         if (seo.instruction) {
             parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');

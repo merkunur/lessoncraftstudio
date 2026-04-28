@@ -3700,6 +3700,7 @@
           parts.push('    <h1 class="lcs-title" id="lcs-title">' + title + '</h1>');
           parts.push('    <span class="lcs-progress" id="lcs-progress" aria-live="polite">0 / 0</span>');
           parts.push('    <button type="button" id="lcs-mute" class="lcs-mute" aria-label="Mute sounds"></button>');
+          parts.push('    ' + LCSCatalogExport.buildShareAffordance({ locale: lang, title: title }));
           parts.push('  </div>');
           parts.push('  <div class="lcs-caller" aria-live="polite">');
           parts.push('    <div class="lcs-caller__label" id="lcs-caller-label">Find:</div>');

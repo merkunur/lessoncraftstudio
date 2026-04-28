@@ -3774,7 +3774,29 @@ document.addEventListener("DOMContentLoaded", function() {
                       return _ppCaptureImg(correctEndItem.image);
                   }
                   return null;
-              })()
+              })(),
+              // Group B Phase 1 reopen (29.4.1 → 29.4.2) — endpointCount: count
+              // of endpoint destinations in the generated puzzle. Populated only
+              // for choose-path mode (where the puzzle exposes 1, 2, or 3
+              // selectable endpoints per UI #choosePathNumPaths); null for
+              // pathway and classic-maze modes (which have a single endCell).
+              //
+              // Sourced from data.endCells.length (the actual generated
+              // structure) rather than the UI value, so the bundle reflects what
+              // was generated regardless of UI state at download time.
+              //
+              // Phase 2 sr-only template uses this field for the multi-endpoint
+              // framing ("Among the {endpointCount} picture endings…"). The
+              // endpointCount=1 case is structurally a single-endpoint maze and
+              // dispatches to a separate phrasing branch in the template.
+              //
+              // Descriptive — NOT answer-bearing. Names how many destinations
+              // the puzzle exposes; the correct destination is named separately
+              // via selectedEndImage (the puzzle goal, per Phase 0 interpretation
+              // (a) — endImage names the destination, not a hidden answer).
+              endpointCount: (data.isChoosePath && Array.isArray(data.endCells))
+                  ? data.endCells.length
+                  : null
           };
       }
 
@@ -7249,7 +7271,7 @@ document.addEventListener("DOMContentLoaded", function() {
           : null;
 
       return {
-          bundleVersion: '29.4.1',
+          bundleVersion: '29.4.2',
           schemaFormat: 'image-references-v3',
           loadingMode: loadingMode,
           appType: 'picture-path',
@@ -7270,6 +7292,11 @@ document.addEventListener("DOMContentLoaded", function() {
           endCell: meta.endCell,
           startCellImage: startCellImage,
           endCellImage: endCellImage,
+          // Group B Phase 1 reopen (29.4.2) — endpoint count for choose-path
+          // mode's multi-endpoint sr-only framing. Null for pathway and
+          // classic-maze. See picturePathMeta construction site for source
+          // and pedagogical rationale.
+          endpointCount: meta.endpointCount,
           mazeWalls: meta.mazeWalls || null,
           legend: legendBundle,
           imageRefs: {},

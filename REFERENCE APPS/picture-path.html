@@ -27,7 +27,7 @@
   <meta name="robots" content="noindex, nofollow">
   <title data-translate="picture.pathway.page.title">Picture Pathway</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="js/translations-picture-pathway.js?v=de-i18n-1"></script>
+  <script src="js/translations-picture-pathway.js?v=de-i18n-2"></script>
     <script src="js/translations-shared.js?v=2"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js"></script>
@@ -7828,6 +7828,143 @@ document.addEventListener("DOMContentLoaded", function() {
       var endDeckLinks = (window.LCSCatalogExport && LCSCatalogExport.buildEndDeckLinks)
           ? LCSCatalogExport.buildEndDeckLinks()
           : '';
+
+      // Group B Phase 2 — sr-only puzzle summary. Mode-conditional dispatch
+      // pattern (CLAUDE.md §17.8.4 / Brief A §5.4 multi-template-variant
+      // variant). Picture-path is the first app in the catalog with
+      // mode-conditional sr-only output; classic-maze and choose-path-1path
+      // share the maze structural template but with different goal
+      // descriptors. Four template keys total:
+      //
+      //   srPuzzlePicturePathPathway          — both endpoints have images
+      //   srPuzzlePicturePathClassicMaze      — both endpoints are arrows
+      //   srPuzzlePicturePathChoosePathSingle — choose-path with 1 endpoint
+      //                                         (structurally a maze with
+      //                                         image-at-end; reuses classic-
+      //                                         maze structural language)
+      //   srPuzzlePicturePathChoosePath       — choose-path with 2 or 3
+      //                                         endpoints (multi-endpoint
+      //                                         framing exposes endpointCount
+      //                                         via number-word substitution)
+      //
+      // Row+col 1-indexed conversion happens at template-fill time.
+      // bundle.startCell.r / startCell.c (etc.) stay 0-indexed in the bundle;
+      // human-readable sr-only output uses 1-indexed positions.
+      //
+      // Defensive skip:
+      //   - mode unrecognized → skip (don't fall through to a guessed template)
+      //   - choose-path with null/undefined/0/non-numeric endpointCount → skip
+      //   - pathway with null startCellImage or null endCellImage → skip
+      //     (Phase 1 contract says both populated for pathway)
+      //   - choose-path (any endpointCount) with null endCellImage → skip
+      //     (Phase 1 contract says endCellImage populated for choose-path)
+      //
+      // Collectibles segment: appended universally across all 4 mode keys
+      // when bundle.legend && bundle.legend.items.length > 0. Per equity
+      // boundary inspection (picture-path.html:2696-2706), the visual legend
+      // on the worksheet shows [image] = ___ (blank line, no count) — counts
+      // are NOT visible to sighted users. Therefore counts NOT exposed in
+      // sr-only either. Names items only via vocabKey resolution, no counts.
+      //
+      // Number-word lookup for endpointCount: 2 → "two", 3 → "three". Out-of-
+      // range values fall back to digit form with a console warn (defensive
+      // for future UI changes that might offer >3 paths).
+      var srPuzzleHtml = '';
+      (function buildPicturePathSrOnly() {
+          if (!window.LCSCatalogExport || !LCSCatalogExport.buildSrPuzzleSummary) return;
+          if (!bundle.gridDims || !bundle.startCell || !bundle.endCell) return;
+
+          var srLang = (bundle.contentLanguage || 'en').slice(0, 2);
+          var srLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
+              || 'Worksheet questions';
+
+          // Mode dispatch.
+          var srKey = null;
+          var mode = bundle.mode;
+          if (mode === 'pathway' || mode === 'picture-pathway') {
+              if (!bundle.startCellImage || !bundle.endCellImage) return; // contract: pathway populates both
+              srKey = 'srPuzzlePicturePathPathway';
+          } else if (mode === 'classic-maze') {
+              srKey = 'srPuzzlePicturePathClassicMaze';
+          } else if (mode === 'choose-path') {
+              if (!bundle.endCellImage) return; // contract: choose-path populates endCellImage
+              var ec = bundle.endpointCount;
+              if (typeof ec !== 'number' || !isFinite(ec) || ec < 1) return; // defensive
+              srKey = (ec === 1)
+                  ? 'srPuzzlePicturePathChoosePathSingle'
+                  : 'srPuzzlePicturePathChoosePath';
+          } else {
+              return; // unrecognized mode → skip
+          }
+
+          // Default fallback strings (English) — used if t() lookup misses.
+          var fallbacks = {
+              srPuzzlePicturePathPathway: 'Picture pathway puzzle on a {rows} by {cols} grid. Follow the trail of pictures from the {startImage} at row {startRow} column {startCol} to the {endImage} at row {endRow} column {endCol}.',
+              srPuzzlePicturePathClassicMaze: 'Maze puzzle on a {rows} by {cols} grid. Trace a path from the start arrow at row {startRow} column {startCol} to the finish arrow at row {endRow} column {endCol}, going around the walls.',
+              srPuzzlePicturePathChoosePathSingle: 'Maze puzzle on a {rows} by {cols} grid. Trace a path from the start arrow at row {startRow} column {startCol} to the {endImage} at row {endRow} column {endCol}, going around the walls.',
+              srPuzzlePicturePathChoosePath: 'Maze puzzle on a {rows} by {cols} grid. Start at the arrow at row {startRow} column {startCol}. Among the {endpointCount} picture endings, trace the path that reaches the {endImage} at row {endRow} column {endCol}.'
+          };
+          var srTpl = (typeof t === 'function' && t(srKey)) || fallbacks[srKey];
+          if (!srTpl) return;
+
+          // Number-word lookup. Out-of-range falls back to digit form with warn.
+          function endpointCountWord(n) {
+              var words = { 2: 'two', 3: 'three' };
+              if (Object.prototype.hasOwnProperty.call(words, n)) return words[n];
+              try { console.warn('picture-path: endpointCount=' + n + ' outside expected {1,2,3} — falling back to digit form.'); } catch (e) {}
+              return String(n);
+          }
+
+          // Image vocab resolution helper (lookup-then-fallback semantics
+          // shared with sudoku/cryptogram Phase 2 — falls through to the
+          // raw key if ImageVocab.singular returns falsy).
+          function vocabName(key) {
+              if (!key) return '';
+              if (typeof ImageVocab !== 'undefined') {
+                  return ImageVocab.singular(key, srLang) || key;
+              }
+              return key;
+          }
+
+          // 1-indexed positional conversion.
+          var startRow1 = (bundle.startCell.r != null) ? (bundle.startCell.r + 1) : '';
+          var startCol1 = (bundle.startCell.c != null) ? (bundle.startCell.c + 1) : '';
+          var endRow1   = (bundle.endCell.r   != null) ? (bundle.endCell.r   + 1) : '';
+          var endCol1   = (bundle.endCell.c   != null) ? (bundle.endCell.c   + 1) : '';
+
+          var summary = srTpl
+              .replace('{rows}', bundle.gridDims.rows)
+              .replace('{cols}', bundle.gridDims.cols)
+              .replace('{startRow}', startRow1)
+              .replace('{startCol}', startCol1)
+              .replace('{endRow}', endRow1)
+              .replace('{endCol}', endCol1)
+              .replace('{startImage}', vocabName(bundle.startCellImage))
+              .replace('{endImage}', vocabName(bundle.endCellImage))
+              .replace('{endpointCount}', (mode === 'choose-path' && bundle.endpointCount) ? endpointCountWord(bundle.endpointCount) : '');
+
+          // Collectibles segment — universal across all 4 mode keys when
+          // bundle.legend.items[] is non-empty. Per equity boundary,
+          // counts are NOT exposed (visual legend on worksheet shows blank
+          // line, not count).
+          if (bundle.legend && Array.isArray(bundle.legend.items) && bundle.legend.items.length > 0) {
+              var collectiblesTpl = (typeof t === 'function' && t('srPuzzlePicturePathCollectibles'))
+                  || 'Look for {itemList} along the path. Count how many of each you see and write the number next to its picture in the legend.';
+              var itemNames = bundle.legend.items.map(function (item) {
+                  return vocabName(item && item.vocabKey);
+              }).filter(Boolean);
+              if (itemNames.length > 0) {
+                  var itemList;
+                  if (itemNames.length === 1) itemList = itemNames[0];
+                  else if (itemNames.length === 2) itemList = itemNames[0] + ' and ' + itemNames[1];
+                  else itemList = itemNames.slice(0, -1).join(', ') + ', and ' + itemNames[itemNames.length - 1];
+                  summary = summary + ' ' + collectiblesTpl.replace('{itemList}', itemList);
+              }
+          }
+
+          srPuzzleHtml = LCSCatalogExport.buildSrPuzzleSummary({ label: srLabel, summary: summary });
+      })();
+
       var parts = [];
       parts.push('<!DOCTYPE html>');
       parts.push('<html lang="' + lang + '">');
@@ -7851,6 +7988,9 @@ document.addEventListener("DOMContentLoaded", function() {
       parts.push('  </div>');
       if (seo.instruction) {
           parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');
+      }
+      if (srPuzzleHtml) {
+          parts.push('  ' + srPuzzleHtml);
       }
       parts.push('  <div class="lcs-worksheet-wrap">');
       parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');

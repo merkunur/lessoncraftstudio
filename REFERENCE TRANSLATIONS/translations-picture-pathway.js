@@ -240,6 +240,14 @@ const translations = {
     "zoomIn": "Zoom In",
     "zoomOut": "Zoom Out",
     "zoomReset": "Reset Zoom",
+
+    // ============= SR-ONLY (Group B Phase 2) =============
+    "srWorksheetQuestions": "Worksheet questions",
+    "srPuzzlePicturePathPathway": "Picture pathway puzzle on a {rows} by {cols} grid. Follow the trail of pictures from the {startImage} at row {startRow} column {startCol} to the {endImage} at row {endRow} column {endCol}.",
+    "srPuzzlePicturePathClassicMaze": "Maze puzzle on a {rows} by {cols} grid. Trace a path from the start arrow at row {startRow} column {startCol} to the finish arrow at row {endRow} column {endCol}, going around the walls.",
+    "srPuzzlePicturePathChoosePathSingle": "Maze puzzle on a {rows} by {cols} grid. Trace a path from the start arrow at row {startRow} column {startCol} to the {endImage} at row {endRow} column {endCol}, going around the walls.",
+    "srPuzzlePicturePathChoosePath": "Maze puzzle on a {rows} by {cols} grid. Start at the arrow at row {startRow} column {startCol}. Among the {endpointCount} picture endings, trace the path that reaches the {endImage} at row {endRow} column {endCol}.",
+    "srPuzzlePicturePathCollectibles": "Look for {itemList} along the path. Count how many of each you see and write the number next to its picture in the legend.",
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",

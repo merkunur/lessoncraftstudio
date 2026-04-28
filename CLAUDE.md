@@ -685,12 +685,18 @@ Student drags across a letter grid; path snaps to one of 8 directions. On releas
 
 ### 14.3a Shared catalog-export helpers (`window.LCSCatalogExport`)
 
-`REFERENCE TRANSLATIONS/catalog-export.js` (synced into `frontend/public/worksheet-generators/js/catalog-export.js` by `scripts\master-sync.bat`, served from `/var/www/lcs-media/worksheet-generators/js/catalog-export.js?v=7`). Loaded by all 29 apps. Exposes the following public API on `window.LCSCatalogExport`:
+`REFERENCE TRANSLATIONS/catalog-export.js` (synced into `frontend/public/worksheet-generators/js/catalog-export.js` by `scripts\master-sync.bat`, served from `/var/www/lcs-media/worksheet-generators/js/catalog-export.js?v=9`). Loaded by all 29 apps. Exposes the following public API on `window.LCSCatalogExport`:
 
 - **`buildSeoHead(manifest, opts)`** — returns the `<head>` SEO surface string for deck.html: `<title>`, `<meta name="description">`, `<link rel="canonical">` (with `__CANONICAL_URL__` placeholder), Schema.org `LearningResource` JSON-LD (with `__EDUCATIONAL_LEVEL__` and `__EDUCATIONAL_LEVEL_LOCALIZED__` placeholders). Per CLAUDE.md §17.8.1 / Brief A §4. The placeholder set is substituted at upload time by publish-cli per §17.8.5.
 - **`buildEndDeckLinks(opts)`** — returns the end-of-deck topic-destination links section per §17.8.2 / Brief A §5.5. Default behavior: returns empty string so direct-download decks (operator's "Download → Interactive HTML" button) don't ship raw placeholder text. Pass `{includePlaceholders: true}` from a publish-cli-aware code path (the future catalog-export ZIP flow) to emit the placeholder block (`__LINK_*__` URLs and `__LINK_TEXT_*__` labels) that publish-cli substitutes at upload.
 - **`buildSrRows({label, rows})`** — returns a `<section class="lcs-sr" aria-label="{label}"><ol><li>{row}</li>…</ol></section>` block. Group A pattern (§17.8.4 / Brief A §5.4) — used by multi-row apps where deck.html contains repeating exercise rows. Per-app code is responsible for building the `rows` strings (because exercise data shape varies per app); helper owns the structural wrapping and HTML-escaping. JSDoc on this function is the canonical source for the sr* translation-key naming convention table (`srExercise<App>`, `srExercise<App><Mode>`, `srPuzzle<App>`, `srWorksheetQuestions`, `srOperator<Name>`, `srShape<Slug>`) and the single-vs-≥2-consumer rule.
 - **`buildSrPuzzleSummary({label, summary})`** — single-puzzle variant of `buildSrRows`. Returns a `<section class="lcs-sr"><p>{summary}</p></section>` block. Used by single-puzzle apps (wordsearch, treasure-hunt, etc.) where the deck has one puzzle and a deck-level summary describes it instead of per-row content.
+- **`buildShareAffordance({canonicalURL?, locale, title})`** — returns a self-contained HTML+CSS+inline-JS snippet for embedding inside `lcs-bar` (top-right, immediately after `<button class="lcs-mute">`, 40×40 icon button with `.lcs-share` class). Resolution order for the canonical URL:
+  1. `canonicalURL` provided AND not `__placeholder__`-shaped (regex `/^__[A-Z_]+__$/`) → use as-is.
+  2. `canonicalURL` absent or placeholder, `locale + title` both present → construct `https://lessoncraftstudio.com/<locale>/decks/<slugify(title)>/` using the existing `slugify` at `catalog-export.js:90`.
+  3. Insufficient inputs → return empty string (defensive skip per §17.8.11).
+
+  Self-contained constraint per §14.1: deck.html does NOT load catalog-export.js at runtime; the helper returns a snippet embedded at generation time with click handlers inlined. **String resolution uses bare-`translations` identifier per §17.8.14 convention** — reads at generation time from operator-side `window.translations` (populated by `translations-shared.js` + per-app `translations-<app>.js` merge); resolved strings (per-locale `srShareNative` / `srShareTo` / `srShareCopyLink` / `srShareCopied` / `srShareAria{Facebook,WhatsApp,Pinterest,Email,CopyLink}` keys, all carried in `translations-shared.js` from social-share-v1 onward) bake into the emitted snippet. No runtime translations lookup in the standalone deck.html. Originating commits: Sub-phase A (helper construction) → Sub-phase A.1 hotfix `bbcb444c` (string-resolution `global.translations` → bare-`translations` fix); Sub-phase C `ea8e006a` (DE keys); see §17.8.15 for click-behavior contract.
 - **`vocabKeyFromImage(img)`** — accepts a path string OR an image object `{path, word, name}`. Returns a vocabulary-canonical key (string) or `null`. Three image source forms documented (each surfaces a distinct bug if mis-handled):
   1. **Theme path** — clean filename (e.g. `/images/animals/cat.png`). Resolved via `ImageVocab.keyFromPath` → bare key.
   2. **Server-stored upload** — suffix-bearing filename (e.g. `/images/animals/camel-1769386104282-2351c8c4.png`). `ImageVocab.keyFromPath` strips the `-<13digit-timestamp>-<hash>` suffix to recover the bare key. (`LCSImageRef.parseImagePath` leaves the suffix intact and breaks downstream vocab lookup — bug-family eb510be4 / eb510be4.1.)
@@ -958,6 +964,8 @@ The operator runs a small `publish-cli` tool on the PC (Claude Code-built). It w
 5. Posts the merged `generation.json` + `metadata.json` to the Hetzner publish endpoint, which inserts the `Deck` row
 
 Within a minute or two, the local AI service on the Mac Studio polls `/api/ai-ingest/pending`, picks up the new deck's manifest, generates `enrichment.json` outputs, and posts them back to `/api/ai-ingest/complete`. The deck now has full enrichment and is ranked correctly in semantic search and shows up as a candidate for topic destination pages.
+
+**Note on `bundle.canonicalURL`.** v1 does NOT promote `canonicalURL` to a proper bundle field. The in-deck share affordance (§17.8.15) constructs its canonical URL at deck.html generation time using the predicted-slug fallback — `https://lessoncraftstudio.com/<locale>/decks/<slugify(bundle.title)>/` — Option A authorized at social-share-v1 Sub-phase A. The proper bundle field arrives when (a) `publish-cli` ships and starts substituting the real `__CANONICAL_URL__` placeholder per §17.8.5, AND (b) the catalog deck route `/[locale]/decks/[slug]` exists. See §17.8.15 for the predicted-slug construction detail and the two filed deferred-queue trade-offs (collision-suffix mismatch; English-title-derived slug regardless of content locale).
 
 ### 15.3 The local AI service contract
 
@@ -1388,6 +1396,48 @@ Three-level fallback: `srLang → en → hardcoded EN string`. `srLang` is deriv
 **Convention rule:** at sr-only emission sites in `renderStandaloneHTML()`, do NOT call `t(key)`. Use the explicit srLang-keyed lookup pattern. Optionally factor into a per-app local helper (e.g. picture-path's `srTranslate(key, fallback)`) for sites with multiple lookups.
 
 Cross-references: hotfix `573f69e0` (cryptogram + picture-path lookup-mechanism fix). The underlying root cause — per-app `t()` locale-binding architectural divergence — is filed in `project_deferred_items_queue.md` for cross-cutting operational hygiene work; not in scope for this convention to fix globally.
+
+#### 17.8.15 In-deck share affordance
+
+Each deck.html ships an in-deck share affordance produced by `LCSCatalogExport.buildShareAffordance` (§14.3a). The affordance lets a teacher share the deck's canonical URL to a social platform or copy it to clipboard, directly from the deck's `lcs-bar`.
+
+**Placement.** Top-right of `lcs-bar`, immediately after `<button class="lcs-mute">`, as a 40×40 icon button with `.lcs-share` class (parallel to `.lcs-mute`). All 29 in-scope apps' `renderStandaloneHTML()` emit one `buildShareAffordance` call site at this position; per-app placement uniformity validated at Sub-phase D Gate 2 across the 4-app deep-test reference set (addition / sudoku / cryptogram / picture-path × EN + DE).
+
+**Click behavior — Web Share API progressive enhancement.** Feature-detect `navigator.share` at click time:
+
+- **Web Share API capable** (most modern desktop and mobile browsers): invoke `navigator.share({title, url})` to open the OS-native share sheet. The sheet UI is rendered by the OS in the OS display language, **not under helper control**. The verification is structural — that `navigator.share` is invoked with the correct `{title, url}` payload — not visual.
+- **No Web Share API** (Firefox desktop, older browsers): open a self-contained 5-platform overlay rendered in the deck's content-locale via baked-at-generation-time strings. Both paths use the **same baked canonical URL**.
+
+Force-overlay diagnostic on Web-Share-API-capable browsers: paste `delete navigator.share` in the console before clicking the share button. The overlay path renders.
+
+**v1 platform set (locked decision).** Facebook, WhatsApp, Pinterest, email, copy-link, plus Web Share API on capable browsers. Skipping X, LinkedIn, Reddit, Threads, Bluesky.
+
+**Pre-filled share captions: empty (locked decision).** The OG card on the catalog deck route carries the marketing surface; share-intent text stays empty.
+
+**No platform JavaScript SDKs (locked decision).** Plain anchor links to share-intent URLs:
+
+- Facebook: `https://www.facebook.com/sharer/sharer.php?u={encodedURL}`
+- WhatsApp: `https://api.whatsapp.com/send?text={encodedURL}`
+- Pinterest: `https://pinterest.com/pin/create/button/?url={encodedURL}&description=`
+- Email: `mailto:?subject={encodedTitle}&body={encodedURL}`
+- Copy-link: `<button>` carrying `data-label-default` and `data-label-copied`; click handler invokes `navigator.clipboard.writeText(url)` with a 2-second feedback toast (the `srShareCopied` key — `Copied!` / `Kopiert!`).
+
+`encodedURL = encodeURIComponent(url)` and `encodedTitle = encodeURIComponent(title)` are baked at generation time.
+
+**Defensive-skip per §17.8.11.** When `canonicalURL` is missing AND `locale + title` cannot construct one, the helper returns an empty string and the affordance does NOT render. No degraded variant.
+
+**Cross-reference to §17.8.14.** `buildShareAffordance` is the **second consumer** of the §17.8.14 srLang-keyed lookup convention (sr-only emission sites being the first). Helper-emission sites adopting bare-`translations` from now on follow this precedent. The Sub-phase A.1 hotfix `bbcb444c` corrected an initial typo where the helper guarded with `typeof global !== 'undefined'` (Node.js builtin, undefined in browsers) — switching to bare `translations` matches the established convention exactly.
+
+**v1 canonical URL source — Option A predicted-slug fallback.** v1 ships without a real `canonicalURL` source (the catalog deck route `/[locale]/decks/[slug]` does not yet exist; ships post-Brief-B). The helper's resolution order falls through to the predicted-slug branch in v1 — `https://lessoncraftstudio.com/<locale>/decks/<slugify(bundle.title)>/`. Two filed deferred-queue items bound the v1 risk:
+
+- Predicted slug may collide with `publish-cli`'s eventual de-duplication suffixing (§17.8.5); rare, bounded.
+- All 29 apps currently hardcode English title literals in `bundle.title`, so the predicted slug is English-letter regardless of content locale — diverges from §17.4's native-language-slug principle. Resolves when apps populate localized titles into `bundle.title` AND `publish-cli` ASCII-folds correctly (§17.8.5 spec; current `slugify` at `catalog-export.js:90` converts non-ASCII to hyphens rather than ASCII-folding).
+
+Both items are bounded for v1 and await the catalog deck route + publish-cli before they become load-bearing.
+
+**Out-of-scope: catalog-page-side share work.** OG metadata on `/[locale]/decks/[slug]`, share row component on the catalog page, OG image at 1200×630 derived from the existing 480×620 `thumbnail.png` — all deferred to a future brief once the catalog deck route ships (likely follows Brief B publish-cli). The in-deck affordance ships now in both direct-download and catalog-export ZIP flows; the catalog-page surface is upstream-dependent.
+
+**Tier-neutral and SEO-neutral, like attribution (§14.3).** The same affordance bytes ship to free and subscriber teachers and are immutable per Cloudflare's per-version cache key (§4.4). Modifications must preserve cacheability; no per-request templating, no tier-dependent content.
 
 ---
 

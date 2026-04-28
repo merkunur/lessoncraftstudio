@@ -12,7 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="js/translations-cryptogram.js?v=de-i18n-1"></script>
+  <script src="js/translations-cryptogram.js?v=de-i18n-2"></script>
     <script src="js/translations-shared.js?v=2"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js?v=1759320100"></script>
@@ -4913,6 +4913,59 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             var endDeckLinks = (window.LCSCatalogExport && LCSCatalogExport.buildEndDeckLinks)
                 ? LCSCatalogExport.buildEndDeckLinks()
                 : '';
+
+            // Group B Phase 2 — sr-only puzzle summary. Single-puzzle deck-level
+            // pattern (CLAUDE.md §17.8.4 / Brief A §5.4 single-puzzle variant).
+            // Template "srPuzzleCryptogram" consumes:
+            //   {imageList}  — Oxford-comma-joined picture names from
+            //                  bundle.cipherMap, iterated in legendSlots order
+            //                  (preserves canvas order). cipherMap is
+            //                  ANSWER-ADJACENT but NOT answer-bearing: it
+            //                  describes the cipher key pictures (what the kid
+            //                  sees on screen) without committing them to
+            //                  specific letters. The picture→letter mapping IS
+            //                  the kid's puzzle task and is deliberately NOT
+            //                  exposed here. The plaintext message itself
+            //                  (slots[].cipherLetter / slots[].expected) is
+            //                  also NOT in the bundle — that's the answer.
+            //
+            // Per-image lookup-then-fallback dispatch (handles vocab-miss for
+            // user-uploaded images cleanly):
+            //   1. ImageVocab.singular(entry.vocabKey, srLang) — preferred for
+            //      theme images; resolves to grammatically correct singular in
+            //      the deck's language.
+            //   2. entry.fallback — the img.word || img.name verbatim, captured
+            //      at upload time. Used when ImageVocab returns falsy (no
+            //      IMAGE_VOCABULARY entry for the key, expected for user
+            //      uploads). Avoids using vocabKey-as-fallback because suffix-
+            //      bearing keys produce gibberish via _fallbackSingular.
+            var srPuzzleHtml = '';
+            if (window.LCSCatalogExport && LCSCatalogExport.buildSrPuzzleSummary
+                && bundle.cipherMap && Array.isArray(bundle.legendSlots)
+                && bundle.legendSlots.length > 0) {
+                var srLang = (bundle.contentLanguage || 'en').slice(0, 2);
+                var srLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
+                    || 'Worksheet questions';
+                var srTpl = (typeof t === 'function' && t('srPuzzleCryptogram'))
+                    || 'Cryptogram puzzle. The cipher key shows pictures of {imageList}. Each picture stands for a letter. Sound out each picture\'s starting letter, then write that letter to fill in the secret message.';
+                var imageNames = bundle.legendSlots.map(function (slot) {
+                    var entry = slot && slot.cipherLetter && bundle.cipherMap[slot.cipherLetter];
+                    if (!entry) return '';
+                    var resolved = (entry.vocabKey && typeof ImageVocab !== 'undefined')
+                        ? (ImageVocab.singular(entry.vocabKey, srLang) || null)
+                        : null;
+                    return resolved || entry.fallback || '';
+                }).filter(Boolean);
+                if (imageNames.length > 0) {
+                    var imageList;
+                    if (imageNames.length === 1) imageList = imageNames[0];
+                    else if (imageNames.length === 2) imageList = imageNames[0] + ' and ' + imageNames[1];
+                    else imageList = imageNames.slice(0, -1).join(', ') + ', and ' + imageNames[imageNames.length - 1];
+                    var summary = srTpl.replace('{imageList}', imageList);
+                    srPuzzleHtml = LCSCatalogExport.buildSrPuzzleSummary({ label: srLabel, summary: summary });
+                }
+            }
+
             var parts = [];
             parts.push('<!DOCTYPE html>');
             parts.push('<html lang="' + lang + '">');
@@ -4936,6 +4989,9 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             parts.push('  </div>');
             if (seo.instruction) {
                 parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');
+            }
+            if (srPuzzleHtml) {
+                parts.push('  ' + srPuzzleHtml);
             }
             parts.push('  <div class="lcs-worksheet-wrap">');
             parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');

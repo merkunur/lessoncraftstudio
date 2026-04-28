@@ -262,7 +262,11 @@ const translations = {
     "bringToFront": "Bring to Front",
     "bringForward": "Bring Forward",
     "sendBackward": "Send Backward",
-    "sendToBack": "Send to Back"
+    "sendToBack": "Send to Back",
+
+    // ============= SR-ONLY (Group B Phase 2) =============
+    "srWorksheetQuestions": "Worksheet questions",
+    "srPuzzleCryptogram": "Cryptogram puzzle. The cipher key shows pictures of {imageList}. Each picture stands for a letter. Sound out each picture's starting letter, then write that letter to fill in the secret message."
   },
   "da": {
     "exportToCatalog": "Eksporter til kataloget",

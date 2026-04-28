@@ -4341,12 +4341,26 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
                 return key || '';
             }).filter(Boolean);
-            // Oxford-comma join: "a, b, and c" for 3+; "a and b" for 2; "a" for 1.
+            // Locale-correct list join via Intl.ListFormat. For 'en' produces
+            // Oxford-comma "a, b, and c"; for 'de' produces "a, b und c"; etc.
+            // Defensive fallback to hardcoded English Oxford-comma joiner if
+            // Intl.ListFormat is unavailable or throws (worst case = pre-fix
+            // shipping behavior).
             var imageList;
             if (imageNames.length === 0) imageList = '';
-            else if (imageNames.length === 1) imageList = imageNames[0];
-            else if (imageNames.length === 2) imageList = imageNames[0] + ' and ' + imageNames[1];
-            else imageList = imageNames.slice(0, -1).join(', ') + ', and ' + imageNames[imageNames.length - 1];
+            else {
+                try {
+                    if (typeof Intl !== 'undefined' && Intl.ListFormat) {
+                        imageList = new Intl.ListFormat(srLang, { style: 'long', type: 'conjunction' }).format(imageNames);
+                    } else {
+                        throw new Error('Intl.ListFormat unavailable');
+                    }
+                } catch (e) {
+                    if (imageNames.length === 1) imageList = imageNames[0];
+                    else if (imageNames.length === 2) imageList = imageNames[0] + ' and ' + imageNames[1];
+                    else imageList = imageNames.slice(0, -1).join(', ') + ', and ' + imageNames[imageNames.length - 1];
+                }
+            }
             var summary = srTpl
                 .replace('{rows}', bundle.gridDims.rows)
                 .replace('{cols}', bundle.gridDims.cols)

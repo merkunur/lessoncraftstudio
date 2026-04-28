@@ -4957,10 +4957,21 @@ async function downloadPDF(canvasToExport, fileName, opts) {
                     return resolved || entry.fallback || '';
                 }).filter(Boolean);
                 if (imageNames.length > 0) {
+                    // Locale-correct list join via Intl.ListFormat. Defensive
+                    // fallback to hardcoded English Oxford-comma joiner if
+                    // Intl.ListFormat is unavailable or throws.
                     var imageList;
-                    if (imageNames.length === 1) imageList = imageNames[0];
-                    else if (imageNames.length === 2) imageList = imageNames[0] + ' and ' + imageNames[1];
-                    else imageList = imageNames.slice(0, -1).join(', ') + ', and ' + imageNames[imageNames.length - 1];
+                    try {
+                        if (typeof Intl !== 'undefined' && Intl.ListFormat) {
+                            imageList = new Intl.ListFormat(srLang, { style: 'long', type: 'conjunction' }).format(imageNames);
+                        } else {
+                            throw new Error('Intl.ListFormat unavailable');
+                        }
+                    } catch (e) {
+                        if (imageNames.length === 1) imageList = imageNames[0];
+                        else if (imageNames.length === 2) imageList = imageNames[0] + ' and ' + imageNames[1];
+                        else imageList = imageNames.slice(0, -1).join(', ') + ', and ' + imageNames[imageNames.length - 1];
+                    }
                     var summary = srTpl.replace('{imageList}', imageList);
                     srPuzzleHtml = LCSCatalogExport.buildSrPuzzleSummary({ label: srLabel, summary: summary });
                 }

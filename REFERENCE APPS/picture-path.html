@@ -7954,10 +7954,21 @@ document.addEventListener("DOMContentLoaded", function() {
                   return vocabName(item && item.vocabKey);
               }).filter(Boolean);
               if (itemNames.length > 0) {
+                  // Locale-correct list join via Intl.ListFormat. Defensive
+                  // fallback to hardcoded English Oxford-comma joiner if
+                  // Intl.ListFormat is unavailable or throws.
                   var itemList;
-                  if (itemNames.length === 1) itemList = itemNames[0];
-                  else if (itemNames.length === 2) itemList = itemNames[0] + ' and ' + itemNames[1];
-                  else itemList = itemNames.slice(0, -1).join(', ') + ', and ' + itemNames[itemNames.length - 1];
+                  try {
+                      if (typeof Intl !== 'undefined' && Intl.ListFormat) {
+                          itemList = new Intl.ListFormat(srLang, { style: 'long', type: 'conjunction' }).format(itemNames);
+                      } else {
+                          throw new Error('Intl.ListFormat unavailable');
+                      }
+                  } catch (e) {
+                      if (itemNames.length === 1) itemList = itemNames[0];
+                      else if (itemNames.length === 2) itemList = itemNames[0] + ' and ' + itemNames[1];
+                      else itemList = itemNames.slice(0, -1).join(', ') + ', and ' + itemNames[itemNames.length - 1];
+                  }
                   summary = summary + ' ' + collectiblesTpl.replace('{itemList}', itemList);
               }
           }

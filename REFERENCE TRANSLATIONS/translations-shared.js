@@ -66,7 +66,20 @@ const SHARED_TRANSLATIONS = {
     "srShapeHeart": "Herz",
     "srShapeHexagon": "Sechseck",
     "srShapeStar": "Stern",
-    "srShapeTriangle": "Dreieck"
+    "srShapeTriangle": "Dreieck",
+
+    // Social-share v1 — labels for the in-deck share affordance
+    // (LCSCatalogExport.buildShareAffordance, social-share-v1 brief Sub-phase C).
+    // Consumed by all 29 apps that load translations-shared.js.
+    "srShareNative": "Teilen",
+    "srShareTo": "Teilen mit",
+    "srShareCopyLink": "Link kopieren",
+    "srShareCopied": "Kopiert!",
+    "srShareAriaFacebook": "Auf Facebook teilen",
+    "srShareAriaWhatsApp": "Auf WhatsApp teilen",
+    "srShareAriaPinterest": "Auf Pinterest teilen",
+    "srShareAriaEmail": "Per E-Mail teilen",
+    "srShareAriaCopyLink": "Link kopieren"
   }
 };
 

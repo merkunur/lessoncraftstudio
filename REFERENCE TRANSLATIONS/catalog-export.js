@@ -570,10 +570,8 @@
     // (both loaded before catalog-export.js per the apps' script-tag order).
     // Strings bake into the deck.html output as static text — no runtime
     // translation lookup needed in the self-contained deck.html.
-    var t = (typeof global !== 'undefined' && global.translations
-      && global.translations[locale]) || {};
-    var ten = (typeof global !== 'undefined' && global.translations
-      && global.translations.en) || {};
+    var t = (typeof translations !== 'undefined' && translations[locale]) || {};
+    var ten = (typeof translations !== 'undefined' && translations.en) || {};
     function str(key, fallback) { return t[key] || ten[key] || fallback; }
 
     var labelShare = str('srShareNative', 'Share');

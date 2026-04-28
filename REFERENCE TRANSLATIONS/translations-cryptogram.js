@@ -1564,7 +1564,11 @@ const translations = {
     "bringToFront": "Ganz nach vorne",
     "bringForward": "Nach vorne",
     "sendBackward": "Nach hinten",
-    "sendToBack": "Ganz nach hinten"
+    "sendToBack": "Ganz nach hinten",
+
+    // ============= SR-ONLY (Group B Phase 3) =============
+    "srWorksheetQuestions": "Arbeitsblatt-Fragen",
+    "srPuzzleCryptogram": "Geheimschrift-Rätsel. Der Geheimcode zeigt diese Bilder: {imageList}. Jedes Bild steht für einen Buchstaben. Sprich den Anfangsbuchstaben jedes Bildes aus und trage ihn in die geheime Botschaft ein."
   },
   "it": {
     "exportToCatalog": "Esporta nel catalogo",

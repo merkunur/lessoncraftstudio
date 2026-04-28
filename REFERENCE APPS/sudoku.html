@@ -27,7 +27,7 @@
 
     <!-- Enhancement Scripts -->
     <script src="js/translations.js"></script>
-    <script src="js/translations-sudoku.js?v=de-i18n-1"></script>
+    <script src="js/translations-sudoku.js?v=de-i18n-2"></script>
     <script src="js/translations-shared.js?v=2"></script>
     <script src="js/image-vocabulary.js?v=3"></script>
     <script src="js/bulletproof-loader.js"></script>
@@ -4297,6 +4297,66 @@ document.addEventListener("DOMContentLoaded", function() {
         var endDeckLinks = (window.LCSCatalogExport && LCSCatalogExport.buildEndDeckLinks)
             ? LCSCatalogExport.buildEndDeckLinks()
             : '';
+
+        // Group B Phase 2 — sr-only puzzle summary. Single-puzzle deck-level
+        // pattern (CLAUDE.md §17.8.4 / Brief A §5.4 single-puzzle variant).
+        // Template "srPuzzleSudoku" consumes:
+        //   {rows}, {cols}     — from bundle.gridDims (data-driven; currently
+        //                        always 4 for picture-sudoku per source-locked
+        //                        4×4 invariance, but read from bundle for
+        //                        future-proofing)
+        //   {imageList}        — Oxford-comma-joined ImageVocab.singular()
+        //                        results for bundle.uniqueImageKeys (variable
+        //                        length; currently always 4 for picture-sudoku)
+        //   {blankCount}       — bundle.holes.length (the count of empty
+        //                        cells the kid needs to fill — descriptive,
+        //                        not answer-bearing; the per-cell
+        //                        correctImageIndex IS answer-bearing and
+        //                        deliberately NOT consumed here)
+        //   {boxRows}, {boxCols} — HARDCODED literal 2 / 2. Picture-sudoku is
+        //                        structurally locked at 4×4 with 2×2 boxes:
+        //                        gridDims hardcode at line 3727, cellSize math
+        //                        at lines 2553/2559, box-rendering comment at
+        //                        line 2939. If grid-size variability is ever
+        //                        added, change here AND in extractDeckBundle's
+        //                        gridDims field. Operator-evaluated 2026-04-28
+        //                        per Phase 2 design-question round; iterability
+        //                        for non-existent variability rejected.
+        var srPuzzleHtml = '';
+        if (window.LCSCatalogExport && LCSCatalogExport.buildSrPuzzleSummary
+            && Array.isArray(bundle.uniqueImageKeys) && bundle.uniqueImageKeys.length > 0
+            && bundle.gridDims && Array.isArray(bundle.holes)) {
+            var srLang = (bundle.contentLanguage || 'en').slice(0, 2);
+            var srLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
+                || 'Worksheet questions';
+            var srTpl = (typeof t === 'function' && t('srPuzzleSudoku'))
+                || 'Picture sudoku puzzle on a {rows} by {cols} grid using pictures of {imageList}. Drag the picture cards into the {blankCount} empty cells so that each row, each column, and each {boxRows} by {boxCols} box contains every picture.';
+            // Resolve uniqueImageKeys → localized singular forms via ImageVocab.
+            // Falls back to the raw key (suffix-stripped via _fallbackSingular)
+            // if the key isn't in IMAGE_VOCABULARY (vocab-miss, expected for
+            // user-uploaded images; theme images always resolve cleanly).
+            var imageNames = bundle.uniqueImageKeys.map(function (key) {
+                if (key && typeof ImageVocab !== 'undefined') {
+                    return ImageVocab.singular(key, srLang) || key;
+                }
+                return key || '';
+            }).filter(Boolean);
+            // Oxford-comma join: "a, b, and c" for 3+; "a and b" for 2; "a" for 1.
+            var imageList;
+            if (imageNames.length === 0) imageList = '';
+            else if (imageNames.length === 1) imageList = imageNames[0];
+            else if (imageNames.length === 2) imageList = imageNames[0] + ' and ' + imageNames[1];
+            else imageList = imageNames.slice(0, -1).join(', ') + ', and ' + imageNames[imageNames.length - 1];
+            var summary = srTpl
+                .replace('{rows}', bundle.gridDims.rows)
+                .replace('{cols}', bundle.gridDims.cols)
+                .replace('{imageList}', imageList)
+                .replace('{blankCount}', bundle.holes.length)
+                .replace('{boxRows}', 2)  // hardcoded — see comment above
+                .replace('{boxCols}', 2); // hardcoded — see comment above
+            srPuzzleHtml = LCSCatalogExport.buildSrPuzzleSummary({ label: srLabel, summary: summary });
+        }
+
         var parts = [];
         parts.push('<!DOCTYPE html>');
         parts.push('<html lang="' + lang + '">');
@@ -4320,6 +4380,9 @@ document.addEventListener("DOMContentLoaded", function() {
         parts.push('  </div>');
         if (seo.instruction) {
             parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');
+        }
+        if (srPuzzleHtml) {
+            parts.push('  ' + srPuzzleHtml);
         }
         parts.push('  <div class="lcs-worksheet-wrap">');
         parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');

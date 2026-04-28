@@ -228,7 +228,11 @@ const SUDOKU_TRANSLATIONS = {
 
     // ============= WATERMARK TEXT =============
     "watermarkText": "FREE VERSION - LessonCraftStudio.com",
-    "watermarkSmallText": "FREE VERSION"
+    "watermarkSmallText": "FREE VERSION",
+
+    // ============= SR-ONLY (Group B Phase 2) =============
+    "srWorksheetQuestions": "Worksheet questions",
+    "srPuzzleSudoku": "Picture sudoku puzzle on a {rows} by {cols} grid using pictures of {imageList}. Drag the picture cards into the {blankCount} empty cells so that each row, each column, and each {boxRows} by {boxCols} box contains every picture."
   },
 
   "de": {

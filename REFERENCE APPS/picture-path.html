@@ -2800,8 +2800,18 @@ document.addEventListener("DOMContentLoaded", function() {
       // of each column where the baked blank line is). Avoids fragile per-
       // child position math that broke when fabric.Group re-normalized
       // children's coords.
+      //
+      // ANSWER-BEARING: correctCount is the number of this collectible the
+      // kid is supposed to count along the solution path — the answer they
+      // type into the legend's blank input. The sr-only template MUST NOT
+      // echo correctCount. Group B Phase 1 adds image identity (vocab key
+      // resolution at bundle time) so the template can NAME each
+      // collectible (descriptive) without echoing the count (answer).
+      //
+      // Group B Phase 1 — capture the image as minimum-needed
+      // {path, word, name} for vocabKeyFromImage dispatch at bundle time.
       const legendItemRects = uniqueCollectibles.map(c => ({
-          imgPath: c.image ? c.image.path : null,
+          image: c.image ? { path: c.image.path || null, word: c.image.word || null, name: c.image.name || null } : null,
           correctCount: c.count
       }));
 
@@ -3706,6 +3716,22 @@ document.addEventListener("DOMContentLoaded", function() {
                   });
               });
           }
+          // ANSWER-BEARING: solutionPath is the correct trace through the
+          // maze (cell-by-cell from start to end). The sr-only template MUST
+          // NOT echo this — it's the answer to the puzzle. Group B Phase 1
+          // adds startCellImage / endCellImage as descriptive (what's at the
+          // endpoints) rather than answer-bearing.
+          //
+          // Group B Phase 1 — capture selectedStartImage / selectedEndImage
+          // as minimum-needed shape {path, word, name} for vocabKeyFromImage
+          // dispatch at bundle time. Per-mode asymmetry handled in bundle:
+          // classic-maze places arrows (not images) at start AND end so
+          // startCellImage/endCellImage resolve to null; choose-path places
+          // arrow at start, image at end so only endCellImage resolves.
+          var _ppCaptureImg = function (img) {
+              if (!img) return null;
+              return { path: img.path || null, word: img.word || null, name: img.name || null };
+          };
           mazeStructureGroup.isPicturePathGrid = true;
           mazeStructureGroup.picturePathMeta = {
               mode: data.gameMode || (data.isChoosePath ? 'choose-path' : 'classic-maze'),
@@ -3719,7 +3745,16 @@ document.addEventListener("DOMContentLoaded", function() {
               solutionPath: mazeSolutionPath.map(function(p){ return { r: p.r, c: p.c }; }),
               startCell: mazeSolutionPath.length > 0 ? { r: mazeSolutionPath[0].r, c: mazeSolutionPath[0].c } : null,
               endCell:   mazeSolutionPath.length > 0 ? { r: mazeSolutionPath[mazeSolutionPath.length - 1].r, c: mazeSolutionPath[mazeSolutionPath.length - 1].c } : null,
-              mazeWalls: mazeWallsSnapshot
+              mazeWalls: mazeWallsSnapshot,
+              // Maze modes: classic-maze places arrows at BOTH start AND end
+              // (source line 3481-3483, 3491-3493 → placeArrowOnly). choose-path
+              // places arrow at start, image at end (source line 3487-3490).
+              // So: selectedStartImage = null for both maze modes;
+              // selectedEndImage = null for classic-maze, populated for
+              // choose-path (the correct endpoint's image, matching the
+              // singular endCell which is mazeSolutionPath[last]).
+              selectedStartImage: null,
+              selectedEndImage: data.isChoosePath ? _ppCaptureImg(data.selectedEndImage) : null
           };
       }
 
@@ -3933,6 +3968,15 @@ document.addEventListener("DOMContentLoaded", function() {
       // by `cellSpacing` and inset by `gridInnerPadding`. Together with the
       // group's bounding rect, the runtime can compute per-cell hit zones.
       if (!isAnswerKey) {
+          // ANSWER-BEARING: solutionPath is the correct trace — sr-only template
+          // MUST NOT echo. Group B Phase 1 — capture selectedStartImage and
+          // selectedEndImage as minimum-needed shape for vocabKeyFromImage
+          // dispatch. Pathway mode places actual images at start AND end
+          // (source line 3497-3504), so both fields populate.
+          var _ppCaptureImg = function (img) {
+              if (!img) return null;
+              return { path: img.path || null, word: img.word || null, name: img.name || null };
+          };
           gridGroup.isPicturePathGrid = true;
           gridGroup.picturePathMeta = {
               mode: data.gameMode || 'picture-pathway',
@@ -3945,7 +3989,9 @@ document.addEventListener("DOMContentLoaded", function() {
               intrinsicHeight: gridHeight,
               solutionPath: (solutionPath || []).map(p => ({ r: p.r, c: p.c })),
               startCell: (solutionPath && solutionPath.length > 0) ? { r: solutionPath[0].r, c: solutionPath[0].c } : null,
-              endCell:   (solutionPath && solutionPath.length > 0) ? { r: solutionPath[solutionPath.length - 1].r, c: solutionPath[solutionPath.length - 1].c } : null
+              endCell:   (solutionPath && solutionPath.length > 0) ? { r: solutionPath[solutionPath.length - 1].r, c: solutionPath[solutionPath.length - 1].c } : null,
+              selectedStartImage: _ppCaptureImg(data.selectedStartImage),
+              selectedEndImage: _ppCaptureImg(data.selectedEndImage)
           };
       }
 
@@ -7135,8 +7181,17 @@ document.addEventListener("DOMContentLoaded", function() {
               var inputHeight      = Math.min(lb.height * 0.62, 36);
               legendBundle = {
                   items: lm.items.map(function (it, i) {
+                      // Group B Phase 1 — vocabKey: vocab-canonical key for
+                      // each collectible image, sourced from item.image (the
+                      // {path, word, name} captured at legend construction)
+                      // via vocabKeyFromImage. Descriptive (names what the
+                      // collectible is) — NOT answer-bearing.
+                      var vocabKey = (window.LCSCatalogExport && LCSCatalogExport.vocabKeyFromImage)
+                          ? (LCSCatalogExport.vocabKeyFromImage(it.image) || null)
+                          : null;
                       return {
                           correctCount: it.correctCount,
+                          vocabKey: vocabKey,
                           rect: {
                               x: lb.left + i * colW + colW * inputOffsetXFrac,
                               y: lb.top  + (lb.height - inputHeight) / 2,
@@ -7153,8 +7208,28 @@ document.addEventListener("DOMContentLoaded", function() {
       var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
           ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
+      // Group B Phase 1 — startCellImage / endCellImage: vocab-canonical
+      // keys for the images at the start/end cells. Per-mode asymmetric
+      // (sanity check at Phase 1 surfaced that the assumption "both ends
+      // always have images" did not hold; bundle shape revised mid-phase
+      // to mode-asymmetric):
+      //   pathway → both populated (placeImageInCell at both ends)
+      //   classic-maze → both null (placeArrowOnly at both ends)
+      //   choose-path → start null (arrow), end populated (image at the
+      //                 correct endpoint = mazeSolutionPath[last])
+      // Descriptive — NOT answer-bearing. The Phase 2 sr-only template
+      // branches on null and uses positional-fallback phrasing when
+      // null ("the start arrow at row N column M") vs image-named
+      // phrasing when populated ("the {startImage} at row N column M").
+      var startCellImage = (meta.selectedStartImage && window.LCSCatalogExport && LCSCatalogExport.vocabKeyFromImage)
+          ? (LCSCatalogExport.vocabKeyFromImage(meta.selectedStartImage) || null)
+          : null;
+      var endCellImage = (meta.selectedEndImage && window.LCSCatalogExport && LCSCatalogExport.vocabKeyFromImage)
+          ? (LCSCatalogExport.vocabKeyFromImage(meta.selectedEndImage) || null)
+          : null;
+
       return {
-          bundleVersion: '29.3.0',
+          bundleVersion: '29.4.0',
           schemaFormat: 'image-references-v3',
           loadingMode: loadingMode,
           appType: 'picture-path',
@@ -7173,6 +7248,8 @@ document.addEventListener("DOMContentLoaded", function() {
           solutionPath: meta.solutionPath,
           startCell: meta.startCell,
           endCell: meta.endCell,
+          startCellImage: startCellImage,
+          endCellImage: endCellImage,
           mazeWalls: meta.mazeWalls || null,
           legend: legendBundle,
           imageRefs: {},

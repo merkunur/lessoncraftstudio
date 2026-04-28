@@ -1198,3 +1198,47 @@ model DesignElement {
   @@index([tags])
   @@map("design_elements")
 }
+
+// =====================================================================
+// CATALOG DOMAIN (Brief B Phase 1 — Deck table only; v1)
+//
+// Other catalog-domain tables per CLAUDE.md §8.1 (DeckEnrichment, Topic,
+// LessonPlan, ParentNote, PlayLink, Collection, CollectionDeck,
+// DeckFavorite, EmbedConfig) defer to their respective consumer briefs
+// per §3.1 additive principle. They are NOT in Brief B.
+//
+// content_family_id is reserved per §17.8.7 (always null in v1; v2's
+// translate-this-deck workflow populates it for cross-language sibling
+// tracking and hreflang re-injection).
+// =====================================================================
+
+model Deck {
+  id              String    @id @default(cuid())
+  slug            String                                          // NOT @unique at column level; compound below
+  title           Json                                            // {en: "...", de: "...", ...}
+  description     Json
+  exerciseType    String    @map("exercise_type")
+  exerciseMode    String?   @map("exercise_mode")
+  language        String                                          // ISO 639-1
+  subjectTags     String[]  @default([]) @map("subject_tags")
+  topicSlugs      String[]  @default([]) @map("topic_slugs")
+  ageRange        String    @map("age_range")                     // "3-5" | "5-7" | "6-8" | "7-9" | "8-10"
+  htmlUrl         String    @map("html_url")
+  pdfUrl          String    @map("pdf_url")
+  answerKeyUrl    String?   @map("answer_key_url")
+  thumbnailUrl    String    @map("thumbnail_url")
+  manifestUrl     String    @map("manifest_url")
+  publishedAt     DateTime? @map("published_at")
+  status          String    @default("draft")                     // "draft" | "published" | "archived"
+  createdBy       String    @map("created_by")
+  version         Int       @default(1)
+  contentFamilyId String?   @map("content_family_id")             // §17.8.7 reserved nullable
+  createdAt       DateTime  @default(now()) @map("created_at")
+  updatedAt       DateTime  @updatedAt @map("updated_at")
+
+  @@unique([language, slug])                                      // §17.8.5 compound unique (Drift D2)
+  @@index([status, publishedAt])
+  @@index([exerciseType, language])
+  @@map("decks")
+}
+

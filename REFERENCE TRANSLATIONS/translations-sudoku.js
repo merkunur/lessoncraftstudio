@@ -476,7 +476,11 @@ const SUDOKU_TRANSLATIONS = {
     // WATERMARK TEXT (2 keys)
     // ==========================================
     "watermarkText": "KOSTENLOSE VERSION - LessonCraftStudio.com",
-    "watermarkSmallText": "KOSTENLOSE VERSION"
+    "watermarkSmallText": "KOSTENLOSE VERSION",
+
+    // ============= SR-ONLY (Group B Phase 3) =============
+    "srWorksheetQuestions": "Arbeitsblatt-Fragen",
+    "srPuzzleSudoku": "Bilder-Sudoku auf einem {rows} mal {cols} Gitter mit den Bildern: {imageList}. Ziehe die Bildkarten in die {blankCount} leeren Felder, sodass jede Zeile, jede Spalte und jedes {boxRows} mal {boxCols} Feld jedes Bild enthält."
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",

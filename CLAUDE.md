@@ -980,15 +980,15 @@ When the Mac Studio is offline, decks accumulate in `pending`. New decks are vis
 
 ## 16. Topic destination pages
 
-Topic destination pages are the primary teacher-facing surface and the deliberate divergence from education.com's flat search results. Each page is a curated bundle of resources for a specific (subject × topic × age range × language) combination.
+Topic destination pages are the primary teacher-facing surface and the deliberate divergence from education.com's flat search results. Each page is a curated bundle of resources for a specific (axis × axis-value × locale) combination per the α-granular schema in §16.5 — one of three axes: exercise-type, theme, or educational-level. URL pattern: `/<locale>/topic/<native-language-slug>/` per §17.4 (locale-prefixed; native-language slug; trailing slash; `topic` is an English path constant).
 
 ### 16.1 Topic resolution
 
 When a teacher submits a search query, the catalog backend tries to resolve it to a known topic before falling back to faceted search:
 
-1. Exact slug match (e.g., `/catalog/topic/addition-kindergarten-spanish/`)
+1. Exact slug match (e.g., `/en/topic/addition/`, `/de/topic/tiere/`, `/de/topic/kindergarten/`)
 2. Embedding similarity match against existing `Topic` rows (top hit above a threshold)
-3. Fallback to faceted browse (`/catalog/browse/?q=...`)
+3. Fallback to faceted browse (`/<locale>/catalog/browse/?q=...`)
 
 The resolution is server-side; teachers always see one of: a topic destination page, or the faceted browse with their query as a search term.
 
@@ -1013,9 +1013,64 @@ Truly novel queries that don't resolve to any topic fall through to the faceted 
 
 ### 16.4 The topic taxonomy
 
-A `topics-taxonomy.json` file in the repo defines the canonical list of (app + mode → subject + topic + age range) mappings. The `publish-cli` tool reads this when auto-filling `metadata.json`; the AI service reads this when generating lesson plans. The taxonomy is the single source of truth for how decks get organized.
+A `topics-taxonomy.json` file at `frontend/config/topics-taxonomy.json` defines the canonical taxonomy schema across two layers:
+
+1. **Per-app defaults** (`apps.<app-name>.{default_subject, default_age_range, exercise_type_axis_key}`) — used by `publish-cli` to auto-fill the `metadata.json` layer at publish time (§15.2 step 2). Operator confirms / overrides per deck.
+2. **Per-axis localized slugs** (`axes.<axis>.<axis-key>.slug.<locale>`) — used by `publish-cli` to substitute end-of-deck topic-link placeholders per §17.8.2 / §17.8.5 + §16.5's α-granular axis commitment.
+
+Three axes per §16.5: `exercise-type`, `theme`, `educational-level`. Schema documented in detail in §16.5.
+
+The `publish-cli` tool reads this when auto-filling `metadata.json` and substituting end-of-deck links; the AI service reads this when generating lesson plans. The taxonomy is the single source of truth for how decks get organized.
 
 This file is operator-authored (with AI assistance during the seeding phase) and is treated like a database migration: changes are explicit, reviewed, and committed to git.
+
+### 16.5 URL pattern and α-granular topic-page axes (locked decision)
+
+Topic destination page URLs follow the canonical pattern **`/<locale>/topic/<native-language-slug>/`** per §17.4. Native-language slugs throughout (e.g., `/de/topic/tiere/`, NOT `/de/topic/animals/`). Locale-prefixed. Trailing slash. `topic` is an English path constant alongside the native-language slug.
+
+**α-granular axes (locked).** Each deck links to one topic page per axis it occupies. Three axes:
+
+| Axis | Slug source | Example (DE) | Cardinality per deck |
+|---|---|---|---|
+| `exercise-type` | App + mode → `exercise_type_axis_key` → slug-per-locale | `/de/topic/addition/` | always one |
+| `theme` | Operator-set theme → axis-key → slug-per-locale | `/de/topic/tiere/` | conditional (only when theme is set on the deck) |
+| `educational-level` | `age_range` → §17.8.6 mapping → axis-key → slug-per-locale | `/de/topic/kindergarten/` | always one |
+
+A deck's end-of-deck links (§17.8.2) point to its three (or two, when theme absent) granular topic pages plus a locale-rooted catalog-home link `/<locale>/`.
+
+**Compound search-intent topic pages** (e.g., `/de/topic/mathe-kindergarten-addition/`) are NOT in v1 scope. The URL space remains available for future addition without breaking the granular pattern; they would live alongside α-granular pages, not replace them. Deferred per the §17.8.5 publish-cli substitution simplicity vs combinatorial-explosion tradeoff.
+
+**Topic-page composition** stays as documented in §16.2 — the page filters the catalog by the topic's axis value and renders the resulting deck list.
+
+**`topics-taxonomy.json` schema** (§16.4 references this; authoritative shape):
+
+```json
+{
+  "$schema_version": "1.0",
+  "apps": {
+    "<app-name>": {
+      "default_subject": "math|letters|logic|spatial-reasoning|...",
+      "default_age_range": "3-5|5-7|6-8|7-9|8-10",
+      "exercise_type_axis_key": "<key into axes.exercise-type>"
+    }
+  },
+  "axes": {
+    "exercise-type": {
+      "<axis-key>": { "slug": { "<locale>": "<native-language-slug>" } }
+    },
+    "theme": {
+      "<axis-key>": { "slug": { "<locale>": "<native-language-slug>" } }
+    },
+    "educational-level": {
+      "<axis-key>": { "slug": { "<locale>": "<native-language-slug>" } }
+    }
+  }
+}
+```
+
+Locale coverage per launch tier (§19): Tier 1 (en, de) authored from day one; Tier 2 (es, nl) folds in at Tier 2 launch; Tier 3 (sv, fi, no) at Tier 3; Tier 4 (fr, it, da, pt) at Tier 4. Missing locale entries cause `publish-cli` to skip end-of-deck link substitution for that locale until coverage lands.
+
+**publish-cli substitution at upload time** reads `topics-taxonomy.json` and substitutes the placeholder pairs in deck.html's end-of-deck links section per §17.8.2 / §17.8.5. Placeholder names: `__LINK_EXERCISE_TYPE__`, `__LINK_THEME__`, `__LINK_LEVEL__`, `__LINK_HOME__` for URLs; `__LINK_TEXT_EXERCISE_TYPE__`, `__LINK_TEXT_THEME__`, `__LINK_TEXT_LEVEL__`, `__LINK_TEXT_HOME__` for the localized link text.
 
 ---
 
@@ -1185,13 +1240,13 @@ Two existing constraints govern the design:
    - Is generated from the manifest's `exercises` array — the data is already there, just not rendered as text
    - Uses the standard `sr-only` CSS pattern for visually-hidden-but-readable content
 
-5. **End-of-deck internal links** — 3–5 real `<a href>` links to topic destination pages, rendered when the student finishes the deck (the existing "well done" or end-screen state). Targets:
-   - `/topics/<exercise_type>/<language>` — "More addition worksheets in English"
-   - `/topics/<theme>/<language>` — "More animal-themed worksheets" (only if a theme is set)
-   - `/topics/<educational_level>/<language>` — "More worksheets for kindergarten"
-   - `/` — a final "Browse all worksheets" link to the catalog home
+5. **End-of-deck internal links** — 3–4 real `<a href>` links to topic destination pages, rendered when the student finishes the deck (the existing "well done" or end-screen state). Per §16.5's α-granular axes the targets are:
+   - `/<locale>/topic/<exercise-type-slug>/` — e.g. `/de/topic/addition/` ("More addition worksheets")
+   - `/<locale>/topic/<theme-slug>/` — e.g. `/de/topic/tiere/` ("More animal-themed worksheets") — only when theme is set
+   - `/<locale>/topic/<educational-level-slug>/` — e.g. `/de/topic/kindergarten/` ("More worksheets for kindergarten")
+   - `/<locale>/` — final "Browse all worksheets" link to the locale-rooted catalog home
 
-   Real anchor elements with real `href` values — not JavaScript-driven buttons. Link text is in the deck's language. `publish-cli` substitutes the final URLs at upload time using the same placeholder mechanism as the canonical URL. The exact URL pattern for `/topics/...` is §16's responsibility; `publish-cli` substitutes whatever §16 lands.
+   Real anchor elements with real `href` values — not JavaScript-driven buttons. Link text is in the deck's language. `publish-cli` substitutes the final URLs at upload time using the placeholder pairs `__LINK_EXERCISE_TYPE__` / `__LINK_THEME__` / `__LINK_LEVEL__` / `__LINK_HOME__` for URLs and `__LINK_TEXT_*__` for the localized link text. URL substitution per §16.5's α-granular schema; `publish-cli` reads `topics-taxonomy.json` (§16.4) at upload time.
 
 #### 17.8.3 What is explicitly out of scope (anti-SEO)
 
@@ -1244,7 +1299,7 @@ The apps deliberately do **not** populate `educational_level` or the canonical U
 
 4. **Substitutes `<!-- HREFLANG_INSERTION_POINT -->`** with the hreflang block for v2 decks (siblings exist in this `content_family_id`), or with an empty string for v1 decks (`content_family_id = null` or no siblings yet).
 
-5. **Substitutes the topic-destination URL placeholders** in the end-of-deck links with the actual `/topics/...` URLs, using whatever pattern §16 lands.
+5. **Substitutes the topic-destination URL placeholders** in the end-of-deck links with the actual `/<locale>/topic/<slug>/` URLs per §16.5's α-granular schema, reading `topics-taxonomy.json` (§16.4) for axis-key → slug-per-locale mapping. Substitutes the four `__LINK_*__` URL placeholders + four `__LINK_TEXT_*__` localized-text placeholders per §17.8.2.
 
 Additionally, when a v2 sibling is published, `publish-cli` re-injects the updated hreflang block into all already-published siblings of the same content family. This is the only operation that touches an already-published deck.html — the hreflang block is the only mutable region. `publish-cli` therefore needs:
 
@@ -1295,7 +1350,7 @@ The exact translate-this-deck workflow shape (button in the existing app, separa
 - Pricing stays as in §7.
 - Which apps export decks stays as in §14.9 (31 of 33).
 - The catalog-export ZIP bundle structure stays as in §15.2 (manifest + four assets); the manifest gains one new field on `generation.json` and two on `metadata.json` per §15.1.
-- The URL pattern for `/topics/...` destination pages remains §16's responsibility; `publish-cli` substitutes whatever the canonical pattern is once topic pages are built.
+- The URL pattern for `/<locale>/topic/<slug>/` destination pages is committed in §16.5; `publish-cli` substitutes per the α-granular schema in `topics-taxonomy.json` (§16.4).
 
 #### 17.8.9 Answer-bearing-field hygiene
 

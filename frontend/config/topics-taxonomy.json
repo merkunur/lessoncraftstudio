@@ -1,0 +1,52 @@
+{
+  "$schema_version": "1.0",
+  "$comment_minimal": "Minimal taxonomy for the 4 Brief B Gate-2 reference apps × en+de (Tier 1) only. Tier 2 (es, nl) authored at Tier 2 launch per CLAUDE.md §19; Tier 3 (sv, fi, no) and Tier 4 (fr, it, da, pt) fold in at their respective tier launches. publish-cli skips end-of-deck link substitution for any locale missing from a referenced axis-key per §16.5.",
+  "$comment_schema": "Per CLAUDE.md §16.5 α-granular three-axis schema. apps.* carries per-app defaults for publish-cli's metadata.json auto-fill; axes.* carries per-axis-key localized slugs for end-of-deck link substitution.",
+
+  "apps": {
+    "addition": {
+      "default_subject": "math",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "addition"
+    },
+    "picture-sudoku": {
+      "default_subject": "logic",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "picture-sudoku"
+    },
+    "cryptogram": {
+      "default_subject": "letters",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "cryptogram"
+    },
+    "picture-path": {
+      "default_subject": "spatial-reasoning",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "picture-path"
+    }
+  },
+
+  "axes": {
+    "exercise-type": {
+      "addition":       { "slug": { "en": "addition",       "de": "addition" } },
+      "picture-sudoku": { "slug": { "en": "picture-sudoku", "de": "bilder-sudoku" } },
+      "cryptogram":     { "slug": { "en": "cryptogram",     "de": "kryptogramm" } },
+      "picture-path":   { "slug": { "en": "picture-path",   "de": "bildpfad" } }
+    },
+
+    "theme": {
+      "animals":  { "slug": { "en": "animals",  "de": "tiere" } },
+      "vehicles": { "slug": { "en": "vehicles", "de": "fahrzeuge" } },
+      "food":     { "slug": { "en": "food",     "de": "essen" } },
+      "fruit":    { "slug": { "en": "fruit",    "de": "obst" } }
+    },
+
+    "educational-level": {
+      "preschool":    { "slug": { "en": "preschool",    "de": "vorschule" } },
+      "kindergarten": { "slug": { "en": "kindergarten", "de": "kindergarten" } },
+      "grade-1":      { "slug": { "en": "grade-1",      "de": "1-klasse" } },
+      "grade-2":      { "slug": { "en": "grade-2",      "de": "2-klasse" } },
+      "grade-3":      { "slug": { "en": "grade-3",      "de": "3-klasse" } }
+    }
+  }
+}

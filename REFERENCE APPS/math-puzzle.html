@@ -4146,24 +4146,27 @@ async function downloadPDF(canvasToExport, filename, opts) {
     //
     // The border Rect is constructed with width=cellWidth*1.2 and
     // height=img.getScaledHeight() (line 3496 area), exactly matching the
-    // image's scaled local dimensions. Use border.width/height × group's scale
-    // for world dimensions; place the rect at the IMAGE's world center
-    // (projected through group's transform) — not the group's centroid which
-    // is shifted upward by the numberText.
+    // image's scaled local dimensions. Border was at left=0, top=0 before
+    // group construction, so its center coincides with the image's center.
+    // Use border.getCenterPoint() which is origin-aware (handles whatever
+    // originX/Y Fabric assigned during group normalization), then project
+    // through the group's transform matrix to get world coordinates.
     function _pieceImageWorldRect(pieceGroup) {
         var children = pieceGroup._objects || [];
-        var border = null, img = null;
+        var border = null;
         for (var i = 0; i < children.length; i++) {
-            var c = children[i];
-            if (!border && c.type === 'rect') border = c;
-            if (!img && c.type === 'image') img = c;
+            if (children[i].type === 'rect') { border = children[i]; break; }
         }
-        if (!border || !img) return _worldRectBounds(pieceGroup);
+        if (!border) return _worldRectBounds(pieceGroup);
+        // Border's center in group-local coords (origin-aware via Fabric).
+        var borderLocalCenter = border.getCenterPoint();
+        // Project local → world through group's transform.
         var groupMatrix = pieceGroup.calcTransformMatrix();
-        var imgWorldCenter = fabric.util.transformPoint({ x: img.left, y: img.top }, groupMatrix);
-        var worldW = border.width * (pieceGroup.scaleX || 1);
-        var worldH = border.height * (pieceGroup.scaleY || 1);
-        return { x: imgWorldCenter.x, y: imgWorldCenter.y, w: worldW, h: worldH };
+        var worldCenter = fabric.util.transformPoint(borderLocalCenter, groupMatrix);
+        // World dimensions: border's natural × child scale × group scale.
+        var worldW = (border.width || 0) * (border.scaleX || 1) * (pieceGroup.scaleX || 1);
+        var worldH = (border.height || 0) * (border.scaleY || 1) * (pieceGroup.scaleY || 1);
+        return { x: worldCenter.x, y: worldCenter.y, w: worldW, h: worldH };
     }
 
     function _findGrid(canvas) {
@@ -4256,7 +4259,7 @@ async function downloadPDF(canvasToExport, filename, opts) {
             ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
         return {
-            bundleVersion: '8.2.0',
+            bundleVersion: '8.2.1',
             schemaFormat: 'image-references-v3',
             loadingMode: loadingMode,
             snapshotMode: 'inline',

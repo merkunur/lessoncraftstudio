@@ -1070,7 +1070,7 @@ A deck's end-of-deck links (§17.8.2) point to its three (or two, when theme abs
 
 Locale coverage per launch tier (§19): Tier 1 (en, de) authored from day one; Tier 2 (es, nl) folds in at Tier 2 launch; Tier 3 (sv, fi, no) at Tier 3; Tier 4 (fr, it, da, pt) at Tier 4. Missing locale entries cause `publish-cli` to skip end-of-deck link substitution for that locale until coverage lands.
 
-**publish-cli substitution at upload time** reads `topics-taxonomy.json` and substitutes the placeholder pairs in deck.html's end-of-deck links section per §17.8.2 / §17.8.5. Placeholder names: `__LINK_EXERCISE_TYPE__`, `__LINK_THEME__`, `__LINK_LEVEL__`, `__LINK_HOME__` for URLs; `__LINK_TEXT_EXERCISE_TYPE__`, `__LINK_TEXT_THEME__`, `__LINK_TEXT_LEVEL__`, `__LINK_TEXT_HOME__` for the localized link text.
+**publish-cli substitution at upload time** reads `topics-taxonomy.json` and substitutes the placeholder pairs in deck.html's end-of-deck links section per §17.8.2 / §17.8.5. Canonical names per the emitter at `REFERENCE TRANSLATIONS/catalog-export.js:34-46` (deployed at `?v=9`): one heading placeholder `__END_DECK_HEADING__`; four URL placeholders `__LINK_MORE_TYPE__`, `__LINK_MORE_THEME__`, `__LINK_MORE_LEVEL__`, `__LINK_BROWSE_ALL__`; four matching localized-text placeholders `__LINK_TEXT_MORE_TYPE__`, `__LINK_TEXT_MORE_THEME__`, `__LINK_TEXT_MORE_LEVEL__`, `__LINK_TEXT_BROWSE_ALL__`. Nine end-of-deck-link placeholders total. The localized-text placeholders accept `{type}` / `{theme}` / `{level}` ICU-style interpolation against per-axis-key localized names (read from `topics-taxonomy.json`'s per-axis-key `name.<locale>` field — see §16.4).
 
 ---
 
@@ -1246,7 +1246,7 @@ Two existing constraints govern the design:
    - `/<locale>/topic/<educational-level-slug>/` — e.g. `/de/topic/kindergarten/` ("More worksheets for kindergarten")
    - `/<locale>/` — final "Browse all worksheets" link to the locale-rooted catalog home
 
-   Real anchor elements with real `href` values — not JavaScript-driven buttons. Link text is in the deck's language. `publish-cli` substitutes the final URLs at upload time using the placeholder pairs `__LINK_EXERCISE_TYPE__` / `__LINK_THEME__` / `__LINK_LEVEL__` / `__LINK_HOME__` for URLs and `__LINK_TEXT_*__` for the localized link text. URL substitution per §16.5's α-granular schema; `publish-cli` reads `topics-taxonomy.json` (§16.4) at upload time.
+   Real anchor elements with real `href` values — not JavaScript-driven buttons. Link text is in the deck's language. `publish-cli` substitutes the final URLs at upload time using the placeholder pairs `__LINK_MORE_TYPE__` / `__LINK_MORE_THEME__` / `__LINK_MORE_LEVEL__` / `__LINK_BROWSE_ALL__` for URLs and `__LINK_TEXT_MORE_TYPE__` / `__LINK_TEXT_MORE_THEME__` / `__LINK_TEXT_MORE_LEVEL__` / `__LINK_TEXT_BROWSE_ALL__` for the localized link text, plus `__END_DECK_HEADING__` for the section heading. Canonical names per the emitter at `REFERENCE TRANSLATIONS/catalog-export.js:34-46`. URL substitution per §16.5's α-granular schema; `publish-cli` reads `topics-taxonomy.json` (§16.4) at upload time.
 
 #### 17.8.3 What is explicitly out of scope (anti-SEO)
 

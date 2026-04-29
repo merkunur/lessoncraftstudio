@@ -2,6 +2,7 @@
   "$schema_version": "1.1",
   "$comment_minimal": "Minimal taxonomy for the 4 Brief B Gate-2 reference apps × en+de (Tier 1) only. Tier 2 (es, nl) authored at Tier 2 launch per CLAUDE.md §19; Tier 3 (sv, fi, no) and Tier 4 (fr, it, da, pt) fold in at their respective tier launches. publish-cli skips end-of-deck link substitution for any locale missing from a referenced axis-key per §16.5.",
   "$comment_schema": "Per CLAUDE.md §16.5 α-granular three-axis schema. apps.* carries per-app defaults for publish-cli's metadata.json auto-fill; axes.* carries per-axis-key localized slugs (URL form) AND localized names (human-readable form for ICU {type}/{theme}/{level} interpolation in endDeck.* i18n keys). The `name` field is a Brief B Phase 2 schema extension per the i18n authoring scope expansion.",
+  "$comment_app_naming": "App-name lookup keys (apps.<name>) MUST match catalog-export.js's emitted generator.app field, which itself matches the §14.10 canonical 29-app list verbatim. Drift D4 (caught Brief B Phase 2 real-ZIP spot-check 2026-04-29) was an instance of authoring the taxonomy against a mental-model app name (`picture-sudoku`) instead of the real emitter's value (`sudoku`). Forward-look audit completed at the same commit verified all 29 in-scope apps emit generator.app matching their §14.10 canonical name 1:1 (addition, alphabet-train, big-small, bingo, chart-count, code-addition, crossword, cryptogram, find-and-count, find-objects, grid-match, matching, math-puzzle, math-worksheet, missing-pieces, more-less, odd-one-out, pattern-train, pattern-worksheet, picture-path, picture-sort, prepositions, shadow-match, subtraction, sudoku, treasure-hunt, word-guess, word-scramble, wordsearch). When extending this taxonomy in future phases, mirror the §14.10 list verbatim for app keys.",
 
   "apps": {
     "addition": {
@@ -9,10 +10,10 @@
       "default_age_range": "5-7",
       "exercise_type_axis_key": "addition"
     },
-    "picture-sudoku": {
+    "sudoku": {
       "default_subject": "logic",
       "default_age_range": "5-7",
-      "exercise_type_axis_key": "picture-sudoku"
+      "exercise_type_axis_key": "sudoku"
     },
     "cryptogram": {
       "default_subject": "letters",
@@ -29,7 +30,7 @@
   "axes": {
     "exercise-type": {
       "addition":       { "slug": { "en": "addition",       "de": "addition" },       "name": { "en": "addition",       "de": "Addition" } },
-      "picture-sudoku": { "slug": { "en": "picture-sudoku", "de": "bilder-sudoku" }, "name": { "en": "picture sudoku", "de": "Bilder-Sudoku" } },
+      "sudoku":         { "slug": { "en": "picture-sudoku", "de": "bilder-sudoku" }, "name": { "en": "picture sudoku", "de": "Bilder-Sudoku" } },
       "cryptogram":     { "slug": { "en": "cryptogram",     "de": "kryptogramm" },    "name": { "en": "cryptogram",     "de": "Kryptogramm" } },
       "picture-path":   { "slug": { "en": "picture-path",   "de": "bildpfad" },       "name": { "en": "picture path",   "de": "Bildpfad" } }
     },

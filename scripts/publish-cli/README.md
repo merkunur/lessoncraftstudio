@@ -33,9 +33,7 @@ plink ... "node /opt/lessoncraftstudio/scripts/publish-cli/index.js publish /opt
 plink ... "node /opt/lessoncraftstudio/scripts/publish-cli/index.js publish <new-zip> --update-slug <existing-slug> --confirm"
 ```
 
-`--update-slug <slug>` looks up the existing row by `(language, slug)`; surfaces resolved row to operator for confirmation; preserves slug; increments version. `--confirm` skips the interactive prompt for non-interactive invocation.
-
-**Phase 3 v4 brief gap on `--update-deck-id`:** the Phase 1 `Deck` schema does NOT have a `deck_id` column. `--update-deck-id` flag is parsed but errors at lookup time. Use `--update-slug` for edit-in-place. Future schema amendment may add `deck_id` column if `--update-deck-id` becomes load-bearing.
+`--update-slug <slug>` looks up the existing row by `(language, slug)`; surfaces resolved row to operator for confirmation; preserves slug; increments version. `--confirm` skips the interactive prompt for non-interactive invocation. **`--update-slug` is the sole edit-in-place mechanism for v1** (the v3-review nit also proposed `--update-deck-id`, but Phase 1 Deck schema has no `deck_id` column; flag dropped at pre-Phase-4 hygiene).
 
 ## Files
 

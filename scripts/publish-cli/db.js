@@ -2,8 +2,7 @@
  * Prisma client wrapper for publish-cli DB operations per Brief B Phase 3 v4 Surface 4.
  *
  * Operations:
- *   - findExistingBySlug(language, slug)        — for --update-slug lookup
- *   - findExistingByDeckId(language, deck_id)   — for --update-deck-id lookup
+ *   - findExistingBySlug(language, slug)        — for --update-slug lookup (sole edit-in-place mechanism for v1)
  *   - resolveSlugCollision(language, candidate) — slug-suffix algorithm
  *   - insertDeck(...)                            — new deck INSERT
  *   - updateDeck(id, ...)                        — edit-in-place UPDATE
@@ -11,6 +10,12 @@
  * Uses the Prisma client at frontend/lib/prisma. publish-cli runs from Hetzner
  * where DATABASE_URL is local (frontend/.env). Per Phase 3 v4 architecture,
  * publish-cli requires the same Prisma client the Next.js app uses.
+ *
+ * Note: Phase 1 Deck schema does NOT have a deck_id column. The v3-review nit
+ * proposed --update-deck-id alongside --update-slug; the dropped flag would
+ * have keyed lookup against a non-existent column. Pre-Phase-4 hygiene
+ * (this commit) drops the flag entirely. Future schema amendment would
+ * require its own brief touching §17.8.7 forward-compatibility.
  */
 
 'use strict';
@@ -51,29 +56,6 @@ async function findExistingBySlug(language, slug) {
   return await client().deck.findFirst({
     where: { language: language, slug: slug }
   });
-}
-
-/**
- * Lookup existing deck by (language, deck_id). Returns row or null.
- *
- * Note: Phase 1 schema doesn't have deck_id column on Deck table —
- * deck_id is the manifest-level identifier. Phase 3 v4 surfaces this
- * gap if --update-deck-id is used. We can either:
- *   (a) find by some other key derivable from deck_id (e.g., createdBy + generated_at)
- *   (b) error if --update-deck-id used and surface to operator
- *
- * Phase 3 ships option (b) — error if --update-deck-id, surface that the
- * Deck table doesn't track deck_id and operator should use --update-slug.
- * Future amendment: add deck_id column to Deck table if needed.
- */
-async function findExistingByDeckId(language, deckId) {
-  // Per Phase 1 schema: Deck has slug, language, exerciseType, etc. but
-  // NO deck_id column. The manifest's deck_id is generation-time identifier;
-  // not currently stored on the Deck row.
-  throw new Error(
-    'db.findExistingByDeckId: Deck table does not currently store deck_id. ' +
-    'Use --update-slug <slug> instead. (Phase 1 schema; future amendment may add deck_id column if --update-deck-id becomes load-bearing.)'
-  );
 }
 
 /**
@@ -174,7 +156,6 @@ module.exports = {
   client: client,
   disconnect: disconnect,
   findExistingBySlug: findExistingBySlug,
-  findExistingByDeckId: findExistingByDeckId,
   resolveSlugCollision: resolveSlugCollision,
   insertDeck: insertDeck,
   updateDeck: updateDeck

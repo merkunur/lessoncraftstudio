@@ -37,14 +37,12 @@ var DEFAULT_STAGING_DIR = path.join(__dirname, '..', '..', '.publish-cli-staging
 function usage() {
   console.error('Usage:');
   console.error('  node scripts/publish-cli/index.js dry-run <zip-path> [--staging-dir <path>]');
-  console.error('  node scripts/publish-cli/index.js publish <zip-path> [--update-slug <slug>] [--update-deck-id <id>] [--confirm]');
+  console.error('  node scripts/publish-cli/index.js publish <zip-path> [--update-slug <slug>] [--confirm]');
   console.error('');
   console.error('Phase 3 ships publish (incl. edit-in-place via --update-slug) + dry-run.');
+  console.error('--update-slug is the sole edit-in-place mechanism for v1 (Phase 1 Deck schema');
+  console.error('does not have a deck_id column; --update-deck-id flag dropped at pre-Phase-4 hygiene).');
   console.error('Phase 4: folder bulk modes. Phase 5: unpublish + republish-after-unpublish.');
-  console.error('');
-  console.error('Phase 3 v4 brief gap: --update-deck-id is non-functional because Phase 1 Deck schema');
-  console.error('does not have a deck_id column. Use --update-slug for edit-in-place. Future schema');
-  console.error('amendment may add deck_id column if --update-deck-id becomes load-bearing.');
   process.exit(2);
 }
 
@@ -55,7 +53,6 @@ function parseArgs(argv) {
   var input = args[1];
   var stagingDir = DEFAULT_STAGING_DIR;
   var updateSlug = null;
-  var updateDeckId = null;
   var confirm = false;
   for (var i = 2; i < args.length; i++) {
     if (args[i] === '--staging-dir' && i + 1 < args.length) {
@@ -64,16 +61,13 @@ function parseArgs(argv) {
     } else if (args[i] === '--update-slug' && i + 1 < args.length) {
       updateSlug = args[i + 1];
       i++;
-    } else if (args[i] === '--update-deck-id' && i + 1 < args.length) {
-      updateDeckId = args[i + 1];
-      i++;
     } else if (args[i] === '--confirm' || args[i] === '--yes') {
       confirm = true;
     }
   }
   return {
     cmd: cmd, input: input, stagingDir: stagingDir,
-    updateSlug: updateSlug, updateDeckId: updateDeckId, confirm: confirm
+    updateSlug: updateSlug, confirm: confirm
   };
 }
 
@@ -235,7 +229,6 @@ async function publishCmd(parsed) {
     var result = await publish({
       zipPath: parsed.input,
       updateSlug: parsed.updateSlug,
-      updateDeckId: parsed.updateDeckId,
       confirm: parsed.confirm,
       createdBy: createdBy
     });

@@ -74,6 +74,29 @@ function mkdirP(dir) {
 }
 
 /**
+ * Ensure the per-locale subdir at /var/www/lcs-media/decks/<locale>/ exists with
+ * lcs-media:lcs-media ownership matching existing /var/www/lcs-media/* siblings.
+ *
+ * Idempotent: skips chown when the dir already exists (preserves operator-set
+ * ownership; avoids overriding on every re-publish). The pre-Phase-4 hygiene
+ * commit one-time-chowns existing en/ + de/ via plink; this helper handles
+ * future tier-launch locale creation (es, nl when Tier 2; sv, fi, no when
+ * Tier 3; etc.) at first-publish time.
+ *
+ * Shells out to `chown` (matches existing chownVersionDir pattern at line 113).
+ * No programmatic uid/gid resolution needed.
+ */
+function ensureLocaleDir(locale) {
+  var dir = localeRoot(locale);
+  var existed = fs.existsSync(dir);
+  if (!existed) {
+    fs.mkdirSync(dir, { recursive: true });
+    child.execFileSync('chown', ['lcs-media:lcs-media', dir], { stdio: 'pipe' });
+  }
+  return dir;
+}
+
+/**
  * Place the 5 assets into the staging directory <slug>-v<N>.staging/.
  * assets is a map of filename → Buffer or string.
  */
@@ -196,8 +219,8 @@ function utcStamp() {
  * Returns: { versionDir, version, prunedVersions, symlinkSwapped: true }
  */
 function place(locale, slug, assets) {
-  // Pre-flight: ensure locale dir exists.
-  mkdirP(localeRoot(locale));
+  // Pre-flight: ensure locale dir exists with lcs-media:lcs-media ownership.
+  ensureLocaleDir(locale);
 
   var n = nextVersion(locale, slug);
 
@@ -231,6 +254,7 @@ module.exports = {
   symlinkPath: symlinkPath,
   isSymlink: isSymlink,
   utcStamp: utcStamp,
+  ensureLocaleDir: ensureLocaleDir,
   KEEP_VERSIONS: KEEP_VERSIONS,
   DECKS_ROOT: DECKS_ROOT,
   ARCHIVE_ROOT: ARCHIVE_ROOT,

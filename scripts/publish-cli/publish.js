@@ -49,8 +49,7 @@ function structuredFailure(opts) {
  *
  * opts:
  *   zipPath              — absolute path to the catalog-export ZIP
- *   updateSlug           — string slug for edit-in-place via --update-slug
- *   updateDeckId         — string deck_id for edit-in-place via --update-deck-id
+ *   updateSlug           — string slug for edit-in-place via --update-slug (sole edit-in-place mechanism for v1)
  *   confirm              — non-interactive confirmation (skip prompt)
  *   createdBy            — operator identifier (env PUBLISH_CLI_OPERATOR or default)
  *
@@ -59,12 +58,7 @@ function structuredFailure(opts) {
 async function publish(opts) {
   var zipPath = opts.zipPath;
   var updateSlug = opts.updateSlug || null;
-  var updateDeckId = opts.updateDeckId || null;
   var createdBy = opts.createdBy || 'operator';
-
-  if (updateSlug && updateDeckId) {
-    throw new Error('publish: --update-slug and --update-deck-id are mutually exclusive');
-  }
 
   // Step 1: bundle parse.
   var b = bundleMod.read(zipPath);
@@ -96,10 +90,6 @@ async function publish(opts) {
       // Stub interactive prompt: in the absence of a TTY, require --confirm flag.
       throw new Error('publish: edit-in-place requires --confirm flag for non-interactive invocation');
     }
-  } else if (updateDeckId) {
-    // db.findExistingByDeckId throws — deck_id column doesn't exist on Deck table.
-    // Surface via the throw for the operator. Phase 3 v4 brief gap; documented.
-    await db.findExistingByDeckId(locale, updateDeckId);
   } else {
     // New publish path: compute slug from <h1>; resolve collision.
     // Use deck_id-derived seed for now (per Phase 2 dry-run path) since <h1>

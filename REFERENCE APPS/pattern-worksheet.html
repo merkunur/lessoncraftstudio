@@ -4445,17 +4445,41 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf', opts) {
                 });
             }
 
-            // Embed only NON-canonical paths via _pathToDataURL (canonical
-            // paths are covered by imageRefs). In reference mode skip this
-            // entirely — non-canonical paths keep their URL string and the
-            // browser fetches at render time.
+            // After variant resolution: collect (theme,key) pairs whose
+            // variants resolved to empty {} (typical for user-uploaded image
+            // collections — theme is a database CUID, not a preset, so the
+            // static /image-library-webp/themes/ tree has no entries). The
+            // runtime's srcUrlFor() falls back to s.path for these, which is
+            // a server-relative URL that fails on file:// (offline-opened
+            // deck.html). Treat these the same as non-canonical paths — embed
+            // their image bytes as data URLs in inline mode.
+            var unresolvedThemeKeys = {};
+            if (window.LCSImageRef) {
+                Object.keys(imageRefs).forEach(function (k) {
+                    var v = imageRefs[k] && imageRefs[k].variants;
+                    if (!v || Object.keys(v).length === 0) unresolvedThemeKeys[k] = true;
+                });
+            }
+            function _isNonCanonical(theme, key) {
+                if (!theme) return true;  // never had a theme — original non-canonical case
+                var k = theme + (key ? '/' + key : '');
+                return !!unresolvedThemeKeys[k];
+            }
+
+            // Embed paths that are EITHER non-canonical (no theme) OR
+            // canonical-but-unresolved (theme set but variants empty). In
+            // reference mode skip this entirely — paths keep their URL strings.
             var nonCanonicalPaths = {};
             if (loadingMode === 'inline') {
-                sourceSlots.forEach(function (s) { if (s.path && !s.theme) nonCanonicalPaths[s.path] = true; });
+                sourceSlots.forEach(function (s) {
+                    if (s.path && _isNonCanonical(s.theme, s.key)) nonCanonicalPaths[s.path] = true;
+                });
                 puzzles.forEach(function (p) {
-                    if (p.answerPath && !p.answerTheme) nonCanonicalPaths[p.answerPath] = true;
+                    if (p.answerPath && _isNonCanonical(p.answerTheme, p.answerKey)) nonCanonicalPaths[p.answerPath] = true;
                     if (Array.isArray(p.uniqueImages)) {
-                        p.uniqueImages.forEach(function (im) { if (im && im.path && !im.theme) nonCanonicalPaths[im.path] = true; });
+                        p.uniqueImages.forEach(function (im) {
+                            if (im && im.path && _isNonCanonical(im.theme, im.key)) nonCanonicalPaths[im.path] = true;
+                        });
                     }
                 });
             }
@@ -4465,20 +4489,24 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf', opts) {
             nonCanonicalUnique.forEach(function (p, i) { nonCanonicalMap[p] = nonCanonicalResolved[i]; });
             var embedNonCanonical = function (p) { return (p && nonCanonicalMap[p]) ? nonCanonicalMap[p] : p; };
 
-            // Rewrite paths: canonical paths stay as URL strings (runtime uses
-            // imageRefs); non-canonical paths get base64 in inline mode.
-            sourceSlots.forEach(function (s) { if (!s.theme) s.path = embedNonCanonical(s.path); });
+            // Rewrite paths: paths with successful variants stay as URL
+            // strings (runtime uses imageRefs); non-canonical OR
+            // canonical-but-unresolved paths get base64 in inline mode.
+            sourceSlots.forEach(function (s) {
+                if (_isNonCanonical(s.theme, s.key)) s.path = embedNonCanonical(s.path);
+            });
             var rewrittenPuzzles = puzzles.map(function (p) {
                 return {
                     index: p.index,
                     questionType: p.questionType,
                     randomBlank: p.randomBlank,
-                    answerPath: p.answerTheme ? p.answerPath : embedNonCanonical(p.answerPath),
+                    answerPath: _isNonCanonical(p.answerTheme, p.answerKey) ? embedNonCanonical(p.answerPath) : p.answerPath,
                     answerTheme: p.answerTheme,
                     answerKey: p.answerKey,
                     correctOptionIdx: p.correctOptionIdx,
                     uniqueImages: (Array.isArray(p.uniqueImages) ? p.uniqueImages : []).map(function (im) {
-                        var rebuilt = { path: im && im.theme ? im.path : embedNonCanonical(im && im.path) };
+                        var unresolved = _isNonCanonical(im && im.theme, im && im.key);
+                        var rebuilt = { path: unresolved ? embedNonCanonical(im && im.path) : (im && im.path) };
                         if (im && im.theme) { rebuilt.theme = im.theme; rebuilt.key = im.key; }
                         return rebuilt;
                     })
@@ -4490,7 +4518,7 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf', opts) {
                 ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
             return {
-                bundleVersion: '18.1.0',
+                bundleVersion: '18.1.1',
                 schemaFormat: 'image-references-v2',
                 loadingMode: loadingMode,
                 appType: 'pattern-worksheet',

@@ -2903,13 +2903,20 @@
 
             // Tag visible pattern images as drag SOURCES (blank-mode puzzles only).
             // Student taps a source → ghost duplicate → drags onto the blank.
-            if (mode === 'worksheet' && puzzleData.questionType === 'blank' && sequenceGroup && sequenceGroup._objects && Array.isArray(puzzleData.displayRow)) {
-                puzzleData.displayRow.forEach((item, k) => {
-                    if (item && !item.isBlank && item.path && sequenceGroup._objects[k]) {
-                        var srcObj = sequenceGroup._objects[k];
+            //
+            // Walk sequenceGroup._objects directly (rather than indexing into
+            // displayRow) — each loaded row image was tagged with __rowImagePath
+            // inside createPatternRowGroup at load time, so this loop tags any
+            // row image regardless of how Fabric ordered or filtered them.
+            // Blank-position children (fabric.Group of [rect, ?]) don't have
+            // __rowImagePath, so they're skipped here (and tagged separately
+            // above at line ~2893 for randomBlank mode).
+            if (mode === 'worksheet' && puzzleData.questionType === 'blank' && sequenceGroup && sequenceGroup._objects) {
+                sequenceGroup._objects.forEach(function (srcObj) {
+                    if (srcObj && srcObj.__rowImagePath) {
                         srcObj.isPatternSource = true;
                         srcObj.problemIndex = index;
-                        srcObj.sourcePath = item.path;
+                        srcObj.sourcePath = srcObj.__rowImagePath;
                     }
                 });
             }
@@ -2984,7 +2991,16 @@
                 } else if (itemData && itemData.path) {
                     itemPromises.push(new Promise(resolve => {
                         LCSImageRef.loadCanvasImage(itemData.path, (img) => {
-                            if (img) resolve(img);
+                            if (img) {
+                                // Tag the loaded image with its original path so the
+                                // canvas-side blank-mode source-tagging step (~line 2906)
+                                // can identify row images by walking sequenceGroup._objects
+                                // directly instead of relying on displayRow[k] index
+                                // alignment (which breaks when any image fails to load
+                                // and gets filtered out at line 2999).
+                                img.__rowImagePath = itemData.path;
+                                resolve(img);
+                            }
                             else {
                                 console.warn("Could not load image:", itemData.path);
                                 resolve(null);

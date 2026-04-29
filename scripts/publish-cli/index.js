@@ -1,25 +1,30 @@
 #!/usr/bin/env node
 /**
- * publish-cli — Brief B catalog-publish pipeline (operator's PC tool).
+ * publish-cli — Brief B catalog-publish pipeline.
  *
- * Phase 2 ships ONE invocation:
- *   node scripts/publish-cli/index.js dry-run <zip-path> [--staging-dir <path>]
+ * Subcommands:
+ *   dry-run      <zip-path>            single-ZIP dry-run (Phase 2)
+ *   publish      <zip-path>            single-ZIP publish (Phase 3)
+ *   publish-bulk <folder>              bulk publish + bulk dry-run (Phase 4)
+ *   unpublish    <deck-id>             removal escape hatch (Phase 5)
  *
- * Phase 3+ extends with:
- *   publish    <zip-path|folder>   uploads + DB writes + atomic edit-in-place
- *   update     <zip-path|folder>   edit-in-place; slug stable
- *   unpublish  <deck-id>           removal escape hatch
- *   dry-run    <folder>            bulk dry-run (Phase 4)
+ * Phase 4 adds:
+ *   - publish-bulk subcommand with --dry-run / --confirm / --updates-manifest / --batch-id
+ *   - Strict-arg parser (per safety-gap item 20): unknown flags are rejected
+ *     with closest-known suggestion BEFORE any side-effect. Replaces the prior
+ *     permissive parser that silently ignored unknown flags.
  *
- * Locked decisions per Brief B v3:
+ * Locked decisions per Brief B v3 + Phase 4 Q1–Q4:
  *   - Node.js runtime (Q1)
  *   - scripts/publish-cli/ multi-file module (Q2)
  *   - .publish-cli-staging/ default staging root, --staging-dir override (Q4)
+ *   - --confirm always required for real publish-bulk (Phase 4 Q2)
+ *   - --updates-manifest = JSON {filename: existing-slug} (Phase 4 Q3)
  *
  * Exit codes:
  *   0  success
- *   1  per-deck errors (substitution failures; deck not publishable at Phase 3)
- *   2  usage error / unknown command
+ *   1  per-deck errors (substitution failures; deck not publishable)
+ *   2  usage error / unknown command / unknown flag
  *   3  bundle parse / validation error
  */
 
@@ -31,63 +36,62 @@ var bundle = require('./bundle');
 var slugMod = require('./slug');
 var substitute = require('./substitute');
 var dryRun = require('./dry-run');
+var strictArgs = require('./strict-args');
 
 var DEFAULT_STAGING_DIR = path.join(__dirname, '..', '..', '.publish-cli-staging');
+
+var SCHEMAS = {
+  'dry-run': {
+    positional: ['zip-path'],
+    flags: {
+      '--staging-dir': 'value'
+    }
+  },
+  'publish': {
+    positional: ['zip-path'],
+    flags: {
+      '--update-slug': 'value',
+      '--confirm': 'bool',
+      '--yes': 'bool'
+    }
+  },
+  'publish-bulk': {
+    positional: ['folder'],
+    flags: {
+      '--dry-run': 'bool',
+      '--confirm': 'bool',
+      '--updates-manifest': 'value',
+      '--batch-id': 'value',
+      '--staging-dir': 'value'
+    }
+  },
+  'unpublish': {
+    positional: ['deck-id'],
+    flags: {}
+  }
+};
 
 function usage() {
   console.error('Usage:');
   console.error('  node scripts/publish-cli/index.js dry-run <zip-path> [--staging-dir <path>]');
   console.error('  node scripts/publish-cli/index.js publish <zip-path> [--update-slug <slug>] [--confirm]');
+  console.error('  node scripts/publish-cli/index.js publish-bulk <folder> [--dry-run] [--confirm]');
+  console.error('                                                          [--updates-manifest <path>]');
+  console.error('                                                          [--batch-id <name>] [--staging-dir <path>]');
   console.error('');
-  console.error('Phase 3 ships publish (incl. edit-in-place via --update-slug) + dry-run.');
-  console.error('--update-slug is the sole edit-in-place mechanism for v1 (Phase 1 Deck schema');
-  console.error('does not have a deck_id column; --update-deck-id flag dropped at pre-Phase-4 hygiene).');
-  console.error('Phase 4: folder bulk modes. Phase 5: unpublish + republish-after-unpublish.');
-  process.exit(2);
-}
-
-function parseArgs(argv) {
-  var args = argv.slice(2);
-  if (args.length < 2) return null;
-  var cmd = args[0];
-  var input = args[1];
-  var stagingDir = DEFAULT_STAGING_DIR;
-  var updateSlug = null;
-  var confirm = false;
-  for (var i = 2; i < args.length; i++) {
-    if (args[i] === '--staging-dir' && i + 1 < args.length) {
-      stagingDir = path.resolve(args[i + 1]);
-      i++;
-    } else if (args[i] === '--update-slug' && i + 1 < args.length) {
-      updateSlug = args[i + 1];
-      i++;
-    } else if (args[i] === '--confirm' || args[i] === '--yes') {
-      confirm = true;
-    }
-  }
-  return {
-    cmd: cmd, input: input, stagingDir: stagingDir,
-    updateSlug: updateSlug, confirm: confirm
-  };
+  console.error('Phase 4 ships publish-bulk (real + --dry-run) with strict-arg parsing.');
+  console.error('Bulk real-publish requires --confirm; --updates-manifest opts ZIPs into UPDATE path.');
+  console.error('Phase 5: unpublish + republish-after-unpublish + coverage gate.');
 }
 
 function deriveTitleForSlug(manifest) {
-  // Phase 2 caveat: apps currently hardcode English bundle.title literal
+  // Phase 2 caveat (preserved): apps currently hardcode English bundle.title literal
   // (see project_deferred_items_queue.md social-share-v1 family). The
   // manifest from catalog-export.js doesn't carry a `title` field at all
-  // (see REFERENCE TRANSLATIONS/catalog-export.js:155-187 — generation.json
-  // layer omits title; metadata.json layer carries multilingual title per
-  // CLAUDE.md §15.1, but Phase 2 dry-run doesn't have metadata.json input).
-  //
-  // Phase 2 dry-run derives a slug seed from deck_id (which embeds
-  // exercise_type + exercise_mode + language + UTC stamp per buildDeckId
-  // at REFERENCE TRANSLATIONS/catalog-export.js:102-109). This is enough
-  // to produce a deterministic predicted slug for dry-run inspection.
-  // Phase 3 publish-cli wires the metadata.json title properly.
+  // (see REFERENCE TRANSLATIONS/catalog-export.js:155-187). Phase 2 dry-run
+  // derives a slug seed from exercise_type + exercise_mode.
   var deckId = manifest.deck_id || '';
-  // Strip the trailing UTC stamp pattern (-YYYYMMDDHHMMSS at end).
   var seed = deckId.replace(/-\d{14}$/, '');
-  // Use exercise_type + exercise_mode if available; fall back to seed.
   if (manifest.exercise_type) {
     var parts = [manifest.exercise_type];
     if (manifest.exercise_mode) parts.push(manifest.exercise_mode);
@@ -131,7 +135,6 @@ function dryRunSingle(zipPath, stagingDir) {
     process.exit(3);
   }
 
-  // Compute slug candidate. Phase 2 doesn't query DB.
   var slugSeed = deriveTitleForSlug(manifest);
   var slugCandidate = slugMod.slugify(slugSeed);
   if (!slugCandidate) {
@@ -139,7 +142,6 @@ function dryRunSingle(zipPath, stagingDir) {
     process.exit(3);
   }
 
-  // Apply substitutions.
   var result = substitute.apply({
     manifest: manifest,
     metadata: {},
@@ -147,7 +149,6 @@ function dryRunSingle(zipPath, stagingDir) {
     slugCandidate: slugCandidate
   });
 
-  // Write dry-run output.
   dryRun.ensureDir(stagingDir);
   var deckDir = dryRun.writeDeck(stagingDir, manifest.deck_id, {
     manifest: manifest,
@@ -159,7 +160,6 @@ function dryRunSingle(zipPath, stagingDir) {
     resolved: result.resolved
   });
 
-  // Write summary (single-deck format).
   dryRun.writeSummary(stagingDir, [{
     deckId: manifest.deck_id,
     language: manifest.language,
@@ -180,12 +180,11 @@ function dryRunSingle(zipPath, stagingDir) {
   console.log('');
 
   if (result.errors.length) {
-    console.error('Errors (deck NOT publishable at Phase 3):');
+    console.error('Errors (deck NOT publishable):');
     result.errors.forEach(function (e) { console.error('  - ' + e); });
     process.exit(1);
   }
 
-  // Verify no __PLACEHOLDER__ literals remain.
   var leftover = result.html.match(/__[A-Z_]+__/g);
   if (leftover) {
     console.error('ERROR: __PLACEHOLDER__ literals remain in output: ' + leftover.join(', '));
@@ -196,40 +195,15 @@ function dryRunSingle(zipPath, stagingDir) {
   process.exit(0);
 }
 
-function main() {
-  var parsed = parseArgs(process.argv);
-  if (!parsed) usage();
-
-  if (parsed.cmd === 'dry-run') {
-    var stat = fs.statSync(parsed.input);
-    if (stat.isDirectory()) {
-      console.error('ERROR: folder bulk-mode dry-run lands at Brief B Phase 4. Phase 2 ships single-ZIP dry-run only.');
-      process.exit(2);
-    }
-    return dryRunSingle(parsed.input, parsed.stagingDir);
-  }
-
-  if (parsed.cmd === 'publish') {
-    return publishCmd(parsed);
-  }
-
-  if (parsed.cmd === 'unpublish') {
-    console.error('ERROR: unpublish lands at Brief B Phase 5 per ship-only-what\'s-verified discipline. Phase 3 ships publish + dry-run only.');
-    process.exit(2);
-  }
-
-  usage();
-}
-
 async function publishCmd(parsed) {
   var publish = require('./publish').publish;
   var db = require('./db');
   var createdBy = process.env.PUBLISH_CLI_OPERATOR || 'operator';
   try {
     var result = await publish({
-      zipPath: parsed.input,
-      updateSlug: parsed.updateSlug,
-      confirm: parsed.confirm,
+      zipPath: parsed.positional['zip-path'],
+      updateSlug: parsed.flags['--update-slug'] || null,
+      confirm: !!(parsed.flags['--confirm'] || parsed.flags['--yes']),
       createdBy: createdBy
     });
     console.log('');
@@ -257,12 +231,159 @@ async function publishCmd(parsed) {
   }
 }
 
+async function publishBulkCmd(parsed) {
+  var bulk = require('./bulk');
+  var publishMod = require('./publish');
+  var db = require('./db');
+  var createdBy = process.env.PUBLISH_CLI_OPERATOR || 'operator';
+
+  var folder = path.resolve(parsed.positional['folder']);
+  var stagingRoot = parsed.flags['--staging-dir']
+    ? path.resolve(parsed.flags['--staging-dir'])
+    : DEFAULT_STAGING_DIR;
+  var batchId = parsed.flags['--batch-id'] || null;
+  var updatesManifestPath = parsed.flags['--updates-manifest']
+    ? path.resolve(parsed.flags['--updates-manifest'])
+    : null;
+  var dryRunMode = !!parsed.flags['--dry-run'];
+  var confirm = !!parsed.flags['--confirm'];
+
+  if (!dryRunMode && !confirm) {
+    console.error('[publish-bulk] ABORT — real bulk-publish requires --confirm.');
+    console.error('               Use --dry-run for non-side-effecting pre-flight.');
+    await db.disconnect();
+    process.exit(2);
+  }
+  if (dryRunMode && confirm) {
+    console.error('[publish-bulk] ABORT — --dry-run and --confirm are mutually exclusive.');
+    await db.disconnect();
+    process.exit(2);
+  }
+
+  // Helper: resolve language from a ZIP via bundle.parseManifest.
+  async function resolveLanguageFromZip(zipPath) {
+    var b = bundle.read(zipPath);
+    var m = bundle.parseManifest(b);
+    return m.language;
+  }
+
+  try {
+    if (dryRunMode) {
+      var dry = await bulk.dryRunBatch({
+        inputFolder: folder,
+        stagingRoot: stagingRoot,
+        batchId: batchId,
+        updatesManifestPath: updatesManifestPath,
+        findExistingBySlug: db.findExistingBySlug,
+        resolveLanguage: resolveLanguageFromZip
+      });
+      var collisions = dry.results.filter(function (r) { return r.collision; }).length;
+      var errored = dry.results.filter(function (r) { return r.errors && r.errors.length; }).length;
+      var ok = dry.results.filter(function (r) { return r.ok; }).length;
+      console.log('');
+      console.log('[bulk dry-run] Batch: ' + dry.batchId);
+      console.log('[bulk dry-run] Staging: ' + dry.stagingDir);
+      console.log('[bulk dry-run] ZIPs: ' + dry.results.length +
+        '  ok=' + ok + '  collisions=' + collisions + '  errored=' + errored);
+      console.log('[bulk dry-run] Inspect:');
+      console.log('  ' + path.join(dry.stagingDir, '_summary.txt'));
+      console.log('  ' + path.join(dry.stagingDir, '_collisions.txt'));
+      console.log('  ' + path.join(dry.stagingDir, '_errors.txt'));
+      await db.disconnect();
+      process.exit((errored > 0 || collisions > 0) ? 1 : 0);
+    }
+
+    var real = await bulk.publishBatch({
+      inputFolder: folder,
+      stagingRoot: stagingRoot,
+      batchId: batchId,
+      updatesManifestPath: updatesManifestPath,
+      createdBy: createdBy,
+      publish: publishMod.publish,
+      findExistingBySlug: db.findExistingBySlug,
+      resolveLanguage: resolveLanguageFromZip,
+      confirm: true
+    });
+
+    if (real.abortReason) {
+      console.error('[bulk publish] aborted: ' + real.abortReason);
+      await db.disconnect();
+      process.exit(2);
+    }
+
+    var succeeded = real.outcomes.filter(function (o) { return o.ok; }).length;
+    var failed = real.outcomes.filter(function (o) { return !o.ok; }).length;
+    console.log('');
+    console.log('[bulk publish] Batch: ' + real.batchId);
+    console.log('[bulk publish] Staging: ' + real.stagingDir);
+    console.log('[bulk publish] Total: ' + real.outcomes.length +
+      '  succeeded=' + succeeded + '  failed=' + failed);
+    console.log('[bulk publish] Inspect:');
+    console.log('  ' + path.join(real.stagingDir, '_results.txt'));
+    console.log('  ' + path.join(real.stagingDir, '_summary.txt'));
+    if (failed > 0) {
+      console.log('  ' + path.join(real.stagingDir, '_failures/'));
+    }
+    await db.disconnect();
+    process.exit(failed > 0 ? 1 : 0);
+  } catch (e) {
+    console.error('[publish-bulk] FAIL: ' + e.message);
+    await db.disconnect();
+    process.exit(1);
+  }
+}
+
+function main() {
+  var parsed;
+  try {
+    parsed = strictArgs.parseStrict(process.argv, SCHEMAS);
+  } catch (e) {
+    if (e.isUsageError) {
+      console.error('USAGE ERROR: ' + e.message);
+      console.error('');
+      usage();
+      process.exit(2);
+    }
+    throw e;
+  }
+
+  if (parsed.cmd === 'dry-run') {
+    var zipPath = parsed.positional['zip-path'];
+    var stagingDir = parsed.flags['--staging-dir']
+      ? path.resolve(parsed.flags['--staging-dir'])
+      : DEFAULT_STAGING_DIR;
+    var stat = fs.statSync(zipPath);
+    if (stat.isDirectory()) {
+      console.error('ERROR: dry-run on a folder lands at publish-bulk --dry-run (Phase 4).');
+      process.exit(2);
+    }
+    return dryRunSingle(zipPath, stagingDir);
+  }
+
+  if (parsed.cmd === 'publish') {
+    return publishCmd(parsed);
+  }
+
+  if (parsed.cmd === 'publish-bulk') {
+    return publishBulkCmd(parsed);
+  }
+
+  if (parsed.cmd === 'unpublish') {
+    console.error('ERROR: unpublish lands at Brief B Phase 5 per ship-only-what\'s-verified discipline.');
+    process.exit(2);
+  }
+
+  // Unreachable: parseStrict already validated the cmd.
+  usage();
+  process.exit(2);
+}
+
 if (require.main === module) {
   main();
 }
 
 module.exports = {
-  parseArgs: parseArgs,
+  SCHEMAS: SCHEMAS,
   deriveTitleForSlug: deriveTitleForSlug,
   dryRunSingle: dryRunSingle,
   DEFAULT_STAGING_DIR: DEFAULT_STAGING_DIR

@@ -6,8 +6,9 @@ Brief B catalog-publish pipeline. Operator-side CLI that reads catalog-export ZI
 
 - **Phase 1 (sealed `4b91adc0`)**: Prisma `decks` table + nginx `/<locale>/decks/<slug>/` location-block live in prod.
 - **Phase 2 (sealed `59a0cde9`)**: substitution layer + slug generator + i18n authoring + dry-run output.
-- **Phase 3 (this commit)**: asset placement (Hetzner-side local FS write) + OG image (Sharp 1200×630 composite) + symlink-swap atomicity + DB write + edit-in-place via `--update-slug` + version pruning to archive folder.
-- **Phase 4**: bulk-publish + bulk dry-run.
+- **Phase 3 (sealed `7d59d3bd` + `9bed3bd4`)**: asset placement (Hetzner-side local FS write) + OG image (Sharp 1200×630 composite) + symlink-swap atomicity + DB write + edit-in-place via `--update-slug` + version pruning to archive folder.
+- **Pre-Phase-4 hygiene (sealed `9a30f049`)**: dropped `--update-deck-id` flag; `ensureLocaleDir` patch; Hetzner Node 18 EOL queued; methodology entry extended.
+- **Phase 4 (this commit)**: bulk-publish + bulk dry-run + strict-arg parser (folded per item 20 safety gap).
 - **Phase 5**: unpublish + republish-after-unpublish + coverage gate + failure-mode coverage.
 - **Phase 6**: CLAUDE.md amendments via the close-out batch.
 
@@ -39,13 +40,21 @@ plink ... "node /opt/lessoncraftstudio/scripts/publish-cli/index.js publish <new
 
 | File | Role |
 |---|---|
-| `index.js` | Entry point + arg parsing + main dispatch |
+| `index.js` | Entry point + strict-arg dispatch (subcommand schemas in `SCHEMAS`) |
+| `strict-args.js` | Schema-driven parser; rejects unknown flags with closest-known suggestion (item 20 safety gap) |
 | `bundle.js` | Read + parse + validate input ZIP (uses `adm-zip`) |
 | `slug.js` | §17.8.5 ASCII-fold slug generator + collision-suffix algorithm |
 | `substitute.js` | Apply substitutions per the 13-placeholder inventory |
 | `i18n.js` | Read `frontend/messages/<locale>.json` + lookup with en fallback + `--verify` |
 | `taxonomy.js` | Read `frontend/config/topics-taxonomy.json` + axis-key dispatch + §17.8.6 mapping |
-| `dry-run.js` | Surface 4 staging writer + summary file |
+| `dry-run.js` | Single-deck staging writer (per-deck files + single-batch summary) |
+| `bulk.js` | Phase 4 orchestration: per-ZIP iteration, dry-run pre-flight, real-publish per-deck error isolation |
+| `updates-manifest.js` | Phase 4 `--updates-manifest` JSON parser + validator (key=ZIP-exists, value=DB-row-exists) |
+| `extract-html-meta.js` | Title + description extraction from substituted deck.html (uses `node-html-parser`) |
+| `og-image.js` | Sharp 1200×630 composite from existing 480×620 thumbnail |
+| `place-assets.js` | Atomic asset placement + chown + version pruning to archive |
+| `db.js` | Prisma client wrapper: `findExistingBySlug`, `resolveSlugCollision`, `insertDeck`, `updateDeck` |
+| `publish.js` | Single-deck publish orchestration (called by `index.js publish` and by `bulk.js` per-ZIP) |
 | `scaffold-i18n-keys.js` | Operator helper to insert EN-seed placeholders for missing keys |
 | `slug.test.js` | Node native `assert` unit tests for slug generator |
 
@@ -86,6 +95,49 @@ node scripts/publish-cli/scaffold-i18n-keys.js --apply   # writes EN-seed placeh
 ```
 
 Inserts English seed values under each missing key path. Operator translates inline post-scaffold.
+
+### Phase 4 — bulk publish + bulk dry-run
+
+```
+# Bulk dry-run (no side-effects; produces _summary.txt + _collisions.txt + _errors.txt)
+ssh root@hetzner "node /opt/lessoncraftstudio/scripts/publish-cli/index.js publish-bulk <folder> --dry-run"
+
+# Resolve any collisions/errors surfaced by dry-run, then real-publish
+ssh root@hetzner "node /opt/lessoncraftstudio/scripts/publish-cli/index.js publish-bulk <folder> --confirm \\
+    --updates-manifest <updates.json>"
+```
+
+Bulk-publish flags:
+
+- `--dry-run` — pre-flight only; no FS or DB side-effects. Mutually exclusive with `--confirm`.
+- `--confirm` — required for real bulk-publish (no interactive prompt at scale per Q2 lock). Mutually exclusive with `--dry-run`.
+- `--updates-manifest <path>` — JSON `{filename: existing-slug}` mapping. ZIPs in the manifest route UPDATE (preserve slug, increment version); ZIPs not in the manifest route INSERT. Manifest validation runs at parse-time: every key must exist in the input folder; every value must exist in the DB.
+- `--batch-id <name>` — override default UTC-timestamped batch name.
+- `--staging-dir <path>` — override default `<repo>/.publish-cli-staging/`.
+
+Per-batch artifacts in `<staging-root>/<batch-id>/`:
+
+| File | Purpose |
+|---|---|
+| `<deck-id>/...` | Per-ZIP staging (manifest, deck.html, diff, substitution-report.json, substitution-report.txt, warnings.txt) |
+| `_summary.txt` | One line per ZIP — deck-id, language, slug, routing (INSERT/UPDATE), warnings/errors counts |
+| `_collisions.txt` | INSERT-routed ZIPs whose predicted slug collides with an existing deck — must resolve via `--updates-manifest` or rename before real-publish |
+| `_errors.txt` | Pre-flight errors (validation, missing fields, slug failure, taxonomy gap) that block real-publish |
+| `_results.txt` | Post-real-publish per-ZIP outcome (PUBLISHED with id+url, or FAILED with stderr) |
+| `_failures/<zip>.stderr` | Per-failure structured stderr (one file per failed ZIP) |
+
+Real bulk-publish ABORTS before any side-effect when `_collisions.txt` or `_errors.txt` would be non-empty. Per-deck error isolation: a failed ZIP does not abort the batch; valid ZIPs in the same batch continue to publish.
+
+### Strict-arg parser (item 20 safety gap)
+
+Phase 4 replaces the prior permissive parser with `strict-args.parseStrict(argv, SCHEMAS)`. Unknown flags now error before any side-effect:
+
+```
+$ node scripts/publish-cli/index.js publish foo.zip --update-deck-id bar
+USAGE ERROR: Unknown flag "--update-deck-id" for subcommand "publish" (did you mean "--update-slug"?).
+```
+
+Suggestions are computed via Levenshtein distance against the schema's allowed flags (≤ 3 distance threshold).
 
 ### Slug unit tests
 

@@ -1,0 +1,245 @@
+/**
+ * Phase 3 v4 publish orchestration.
+ *
+ * Pipeline:
+ *   1. Bundle parse + validate (bundle.js)
+ *   2. Substitution layer (substitute.js)
+ *   3. OG image derivation (og-image.js)
+ *   4. Asset placement + atomic symlink swap + chown + prune (place-assets.js)
+ *   5. Title + description extraction from substituted deck.html (extract-html-meta.js)
+ *   6. Slug resolution (slug.js + db.js for collision query)
+ *   7. DB write (db.js — INSERT for new, UPDATE for edit-in-place)
+ *
+ * Locked policy on failure post-asset-placement: assets stay, error logged
+ * with structured stderr including reconciliation commands; operator manually
+ * reconciles. Per Brief B Phase 3 v4 failure-mode UX section.
+ */
+
+'use strict';
+
+var fs = require('fs');
+var path = require('path');
+var bundleMod = require('./bundle');
+var substitute = require('./substitute');
+var slugMod = require('./slug');
+var ogImage = require('./og-image');
+var placeAssets = require('./place-assets');
+var extractMeta = require('./extract-html-meta');
+var db = require('./db');
+
+var CANONICAL_URL_BASE = 'https://lessoncraftstudio.com';
+
+function structuredFailure(opts) {
+  // Per failure-mode UX section. Multi-line stderr.
+  var lines = [];
+  lines.push('ERROR: ' + opts.what);
+  lines.push('STATE:');
+  Object.keys(opts.state || {}).forEach(function (k) {
+    lines.push('  ' + k + ': ' + opts.state[k]);
+  });
+  if (opts.reconciliation && opts.reconciliation.length) {
+    lines.push('RECONCILIATION OPTIONS:');
+    opts.reconciliation.forEach(function (r) { lines.push('  ' + r); });
+  }
+  return lines.join('\n');
+}
+
+/**
+ * Main publish operation.
+ *
+ * opts:
+ *   zipPath              — absolute path to the catalog-export ZIP
+ *   updateSlug           — string slug for edit-in-place via --update-slug
+ *   updateDeckId         — string deck_id for edit-in-place via --update-deck-id
+ *   confirm              — non-interactive confirmation (skip prompt)
+ *   createdBy            — operator identifier (env PUBLISH_CLI_OPERATOR or default)
+ *
+ * Returns Promise<{ id, slug, language, version, canonicalURL, ... }>.
+ */
+async function publish(opts) {
+  var zipPath = opts.zipPath;
+  var updateSlug = opts.updateSlug || null;
+  var updateDeckId = opts.updateDeckId || null;
+  var createdBy = opts.createdBy || 'operator';
+
+  if (updateSlug && updateDeckId) {
+    throw new Error('publish: --update-slug and --update-deck-id are mutually exclusive');
+  }
+
+  // Step 1: bundle parse.
+  var b = bundleMod.read(zipPath);
+  var manifest = bundleMod.parseManifest(b);
+  var validationErrors = bundleMod.validateManifest(manifest);
+  if (validationErrors.length) {
+    throw new Error('publish: manifest validation failed:\n  ' + validationErrors.join('\n  '));
+  }
+  var deckHtmlOriginal = bundleMod.readDeckHtml(b);
+  var locale = manifest.language;
+
+  // Step 1b: edit-in-place lookup (if flag present).
+  var existingRow = null;
+  var slug = null;
+  if (updateSlug) {
+    existingRow = await db.findExistingBySlug(locale, updateSlug);
+    if (!existingRow) {
+      throw new Error('publish: --update-slug "' + updateSlug + '" but no row found in (language=' + locale + ', slug=' + updateSlug + ')');
+    }
+    slug = existingRow.slug;  // preserve existing
+    console.error('[publish] Resolved existing deck for edit-in-place:');
+    console.error('  id:         ' + existingRow.id);
+    console.error('  slug:       ' + existingRow.slug);
+    console.error('  language:   ' + existingRow.language);
+    console.error('  version:    ' + existingRow.version + ' (will increment to ' + (existingRow.version + 1) + ')');
+    console.error('  status:     ' + existingRow.status);
+    console.error('  updated_at: ' + existingRow.updatedAt);
+    if (!opts.confirm) {
+      // Stub interactive prompt: in the absence of a TTY, require --confirm flag.
+      throw new Error('publish: edit-in-place requires --confirm flag for non-interactive invocation');
+    }
+  } else if (updateDeckId) {
+    // db.findExistingByDeckId throws — deck_id column doesn't exist on Deck table.
+    // Surface via the throw for the operator. Phase 3 v4 brief gap; documented.
+    await db.findExistingByDeckId(locale, updateDeckId);
+  } else {
+    // New publish path: compute slug from <h1>; resolve collision.
+    // Use deck_id-derived seed for now (per Phase 2 dry-run path) since <h1>
+    // requires substitution to run first. Resolution: substitute first with a
+    // PLACEHOLDER slug, extract <h1> for real slug seed, then re-substitute
+    // with real slug. Two-pass.
+    // Simpler v1: derive slug from manifest.exercise_type + manifest.exercise_mode
+    // (matches Phase 2 dry-run behavior at deriveTitleForSlug). Phase 3 surfaces
+    // the title for DB but the slug stays manifest-derived.
+    var seedParts = [manifest.exercise_type];
+    if (manifest.exercise_mode) seedParts.push(manifest.exercise_mode);
+    var seed = seedParts.join(' ');
+    var candidate = slugMod.slugify(seed);
+    if (!candidate) {
+      throw new Error('publish: slugify produced empty string from seed "' + seed + '"');
+    }
+    slug = await db.resolveSlugCollision(locale, candidate, null);
+    console.error('[publish] Slug: ' + slug + (slug !== candidate ? ' (collision; suffixed from "' + candidate + '")' : ''));
+  }
+
+  // Step 2: substitution.
+  var subResult = substitute.apply({
+    manifest: manifest,
+    metadata: {},
+    deckHtml: deckHtmlOriginal,
+    slugCandidate: slug
+  });
+  if (subResult.errors.length) {
+    throw new Error('publish: substitution errors:\n  ' + subResult.errors.join('\n  '));
+  }
+
+  // Step 3: OG image derivation.
+  var thumbnailEntry = b.byName['thumbnail.png'];
+  if (!thumbnailEntry) {
+    throw new Error('publish: ZIP missing thumbnail.png');
+  }
+  var thumbnailBuffer = thumbnailEntry.getData();
+  var ogBuffer = await ogImage.derive(thumbnailBuffer);
+
+  // Step 4: extract title + description from substituted deck.html.
+  var meta = extractMeta.extract(subResult.html, manifest);
+  if (meta.warnings.length) {
+    meta.warnings.forEach(function (w) { console.error('[publish] WARN ' + w); });
+  }
+
+  // Step 5: asset placement (writes to disk; atomic symlink swap; chown; prune).
+  var assets = {
+    'manifest.json': JSON.stringify(manifest, null, 2),
+    'deck.html': subResult.html,
+    'printable.pdf': b.byName['printable.pdf'].getData(),
+    'answer-key.pdf': b.byName['answer-key.pdf'] ? b.byName['answer-key.pdf'].getData() : null,
+    'thumbnail.png': thumbnailBuffer,
+    'og-image.png': ogBuffer
+  };
+  // Drop null answer-key.
+  if (!assets['answer-key.pdf']) delete assets['answer-key.pdf'];
+
+  var placeResult;
+  try {
+    placeResult = placeAssets.place(locale, slug, assets);
+  } catch (e) {
+    throw new Error('publish: asset placement failed: ' + e.message);
+  }
+
+  // Step 6: DB write.
+  var canonicalURL = subResult.resolved.canonicalURL;
+  var versionDirRel = slug + '-v' + placeResult.version;
+  var dbRow;
+  try {
+    if (existingRow) {
+      // UPDATE path.
+      dbRow = await db.updateDeck(existingRow.id, {
+        title: { [locale]: meta.title },
+        description: { [locale]: meta.description },
+        exerciseType: manifest.exercise_type,
+        exerciseMode: manifest.exercise_mode,
+        ageRange: '5-7',  // TODO: derive from taxonomy.appConfig per app
+        htmlUrl: canonicalURL + 'deck.html',
+        pdfUrl: canonicalURL + 'printable.pdf',
+        answerKeyUrl: assets['answer-key.pdf'] ? canonicalURL + 'answer-key.pdf' : null,
+        thumbnailUrl: canonicalURL + 'thumbnail.png',
+        manifestUrl: canonicalURL + 'manifest.json'
+      });
+    } else {
+      // INSERT path.
+      var taxonomy = require('./taxonomy');
+      var ageRange;
+      try {
+        ageRange = taxonomy.appConfig(manifest.generator.app).default_age_range;
+      } catch (e) {
+        ageRange = '5-7';  // fallback default
+      }
+      dbRow = await db.insertDeck({
+        slug: slug,
+        title: { [locale]: meta.title },
+        description: { [locale]: meta.description },
+        exerciseType: manifest.exercise_type,
+        exerciseMode: manifest.exercise_mode,
+        language: locale,
+        subjectTags: [],  // future amendment to derive from taxonomy
+        topicSlugs: [],   // future amendment to derive from taxonomy
+        ageRange: ageRange,
+        htmlUrl: canonicalURL + 'deck.html',
+        pdfUrl: canonicalURL + 'printable.pdf',
+        answerKeyUrl: assets['answer-key.pdf'] ? canonicalURL + 'answer-key.pdf' : null,
+        thumbnailUrl: canonicalURL + 'thumbnail.png',
+        manifestUrl: canonicalURL + 'manifest.json',
+        createdBy: createdBy
+      });
+    }
+  } catch (e) {
+    var msg = structuredFailure({
+      what: 'DB ' + (existingRow ? 'UPDATE' : 'INSERT') + ' failed after asset placement.',
+      state: {
+        'Assets placed at': placeResult.versionDir + ' (new version present, owned lcs-media:lcs-media)',
+        'Symlink': placeAssets.symlinkPath(locale, slug) + ' -> ' + versionDirRel + ' (NEW; nginx serving new version)',
+        'DB': 'INSERT/UPDATE failed: ' + e.message
+      },
+      reconciliation: [
+        'Option A — accept new version, fix DB manually:',
+        '  Connect to Postgres and INSERT/UPDATE the decks row with appropriate fields.',
+        'Option B — roll back to prior version:',
+        '  node -e "fs=require(\'fs\'); fs.symlinkSync(\'<prior-version-dir>\', \'' + placeAssets.symlinkPath(locale, slug) + '.new\'); fs.renameSync(\'' + placeAssets.symlinkPath(locale, slug) + '.new\', \'' + placeAssets.symlinkPath(locale, slug) + '\');"',
+        '  mv ' + placeResult.versionDir + ' /var/www/lcs-media/decks/.archived/' + locale + '/' + slug + '-pruned-' + placeAssets.utcStamp() + '/'
+      ]
+    });
+    process.stderr.write(msg + '\n');
+    throw e;
+  }
+
+  return {
+    id: dbRow.id,
+    slug: slug,
+    language: locale,
+    version: dbRow.version,
+    canonicalURL: canonicalURL,
+    versionDir: placeResult.versionDir,
+    prunedVersions: placeResult.prunedVersions,
+    fallbackWarnings: meta.warnings
+  };
+}
+
+module.exports = { publish: publish, structuredFailure: structuredFailure };

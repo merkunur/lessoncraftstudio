@@ -37,9 +37,14 @@ var DEFAULT_STAGING_DIR = path.join(__dirname, '..', '..', '.publish-cli-staging
 function usage() {
   console.error('Usage:');
   console.error('  node scripts/publish-cli/index.js dry-run <zip-path> [--staging-dir <path>]');
+  console.error('  node scripts/publish-cli/index.js publish <zip-path> [--update-slug <slug>] [--update-deck-id <id>] [--confirm]');
   console.error('');
-  console.error('Phase 2 only ships dry-run. publish/update/unpublish + folder bulk modes');
-  console.error('land at Brief B Phase 3 (asset upload + DB write) and Phase 4 (bulk).');
+  console.error('Phase 3 ships publish (incl. edit-in-place via --update-slug) + dry-run.');
+  console.error('Phase 4: folder bulk modes. Phase 5: unpublish + republish-after-unpublish.');
+  console.error('');
+  console.error('Phase 3 v4 brief gap: --update-deck-id is non-functional because Phase 1 Deck schema');
+  console.error('does not have a deck_id column. Use --update-slug for edit-in-place. Future schema');
+  console.error('amendment may add deck_id column if --update-deck-id becomes load-bearing.');
   process.exit(2);
 }
 
@@ -49,13 +54,27 @@ function parseArgs(argv) {
   var cmd = args[0];
   var input = args[1];
   var stagingDir = DEFAULT_STAGING_DIR;
+  var updateSlug = null;
+  var updateDeckId = null;
+  var confirm = false;
   for (var i = 2; i < args.length; i++) {
     if (args[i] === '--staging-dir' && i + 1 < args.length) {
       stagingDir = path.resolve(args[i + 1]);
       i++;
+    } else if (args[i] === '--update-slug' && i + 1 < args.length) {
+      updateSlug = args[i + 1];
+      i++;
+    } else if (args[i] === '--update-deck-id' && i + 1 < args.length) {
+      updateDeckId = args[i + 1];
+      i++;
+    } else if (args[i] === '--confirm' || args[i] === '--yes') {
+      confirm = true;
     }
   }
-  return { cmd: cmd, input: input, stagingDir: stagingDir };
+  return {
+    cmd: cmd, input: input, stagingDir: stagingDir,
+    updateSlug: updateSlug, updateDeckId: updateDeckId, confirm: confirm
+  };
 }
 
 function deriveTitleForSlug(manifest) {
@@ -196,12 +215,53 @@ function main() {
     return dryRunSingle(parsed.input, parsed.stagingDir);
   }
 
-  if (parsed.cmd === 'publish' || parsed.cmd === 'update' || parsed.cmd === 'unpublish') {
-    console.error('ERROR: "' + parsed.cmd + '" lands at Brief B Phase 3. Phase 2 ships dry-run only.');
+  if (parsed.cmd === 'publish') {
+    return publishCmd(parsed);
+  }
+
+  if (parsed.cmd === 'unpublish') {
+    console.error('ERROR: unpublish lands at Brief B Phase 5 per ship-only-what\'s-verified discipline. Phase 3 ships publish + dry-run only.');
     process.exit(2);
   }
 
   usage();
+}
+
+async function publishCmd(parsed) {
+  var publish = require('./publish').publish;
+  var db = require('./db');
+  var createdBy = process.env.PUBLISH_CLI_OPERATOR || 'operator';
+  try {
+    var result = await publish({
+      zipPath: parsed.input,
+      updateSlug: parsed.updateSlug,
+      updateDeckId: parsed.updateDeckId,
+      confirm: parsed.confirm,
+      createdBy: createdBy
+    });
+    console.log('');
+    console.log('[publish] PASS');
+    console.log('  id:           ' + result.id);
+    console.log('  language:     ' + result.language);
+    console.log('  slug:         ' + result.slug);
+    console.log('  version:      ' + result.version);
+    console.log('  canonical URL: ' + result.canonicalURL);
+    console.log('  version dir:   ' + result.versionDir);
+    if (result.prunedVersions && result.prunedVersions.length) {
+      console.log('  pruned ' + result.prunedVersions.length + ' aged version(s):');
+      result.prunedVersions.forEach(function (p) { console.log('    ' + p.from + ' -> ' + p.to); });
+    }
+    if (result.fallbackWarnings && result.fallbackWarnings.length) {
+      console.log('  warnings:');
+      result.fallbackWarnings.forEach(function (w) { console.log('    ' + w); });
+    }
+    await db.disconnect();
+    process.exit(0);
+  } catch (e) {
+    console.error('[publish] FAIL: ' + e.message);
+    await db.disconnect();
+    process.exit(1);
+  }
 }
 
 if (require.main === module) {

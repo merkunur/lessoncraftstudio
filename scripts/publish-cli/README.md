@@ -5,8 +5,37 @@ Brief B catalog-publish pipeline. Operator-side CLI that reads catalog-export ZI
 ## Phase status
 
 - **Phase 1 (sealed `4b91adc0`)**: Prisma `decks` table + nginx `/<locale>/decks/<slug>/` location-block live in prod.
-- **Phase 2 (this commit)**: substitution layer + slug generator + i18n authoring + dry-run output.
-- **Phase 3+**: asset upload, DB write, atomic edit-in-place, OG image derivation, bulk-publish, coverage gate, CLAUDE.md amendments.
+- **Phase 2 (sealed `59a0cde9`)**: substitution layer + slug generator + i18n authoring + dry-run output.
+- **Phase 3 (this commit)**: asset placement (Hetzner-side local FS write) + OG image (Sharp 1200×630 composite) + symlink-swap atomicity + DB write + edit-in-place via `--update-slug` + version pruning to archive folder.
+- **Phase 4**: bulk-publish + bulk dry-run.
+- **Phase 5**: unpublish + republish-after-unpublish + coverage gate + failure-mode coverage.
+- **Phase 6**: CLAUDE.md amendments via the close-out batch.
+
+## Phase 3 architecture (Hetzner-side execution)
+
+Per Brief B Phase 3 v4 + recon Item 6: publish-cli runs from Hetzner, NOT operator's PC. Postgres is bound 127.0.0.1 on Hetzner; pscp-asset-upload-during-publish dropped (assets land via local FS write); Sharp installs on Hetzner Linux x64 cleanly.
+
+### Operator workflow
+
+```bash
+# 1. Generate ZIP on PC (apps run in browser there)
+# 2. pscp ZIP to Hetzner staging dir
+pscp <zip> root@65.108.5.250:/opt/lessoncraftstudio/publish-inbound/
+
+# 3. ssh into Hetzner; run publish-cli
+plink ... "node /opt/lessoncraftstudio/scripts/publish-cli/index.js publish /opt/lessoncraftstudio/publish-inbound/<zip>"
+```
+
+### Edit-in-place
+
+```bash
+# Edit existing deck (slug stable; version increments)
+plink ... "node /opt/lessoncraftstudio/scripts/publish-cli/index.js publish <new-zip> --update-slug <existing-slug> --confirm"
+```
+
+`--update-slug <slug>` looks up the existing row by `(language, slug)`; surfaces resolved row to operator for confirmation; preserves slug; increments version. `--confirm` skips the interactive prompt for non-interactive invocation.
+
+**Phase 3 v4 brief gap on `--update-deck-id`:** the Phase 1 `Deck` schema does NOT have a `deck_id` column. `--update-deck-id` flag is parsed but errors at lookup time. Use `--update-slug` for edit-in-place. Future schema amendment may add `deck_id` column if `--update-deck-id` becomes load-bearing.
 
 ## Files
 

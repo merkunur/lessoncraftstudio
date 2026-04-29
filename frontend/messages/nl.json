@@ -1099,5 +1099,21 @@
         "description": "Geen abonnementen, geen maandelijkse kosten, geen verborgen kosten. Betaal eenmaal en gebruik uw generatoren voor altijd. Alle producten bevatten een 30 dagen geld-terug-garantie."
       }
     }
+  },
+  "seo": {
+    "educational_level": {
+      "preschool": "Peuterspeelzaal",
+      "kindergarten": "Kleuterschool",
+      "grade_1": "Groep 3",
+      "grade_2": "Groep 4",
+      "grade_3": "Groep 5"
+    }
+  },
+  "endDeck": {
+    "heading": "Meer hiervan?",
+    "moreType": "Meer {type}-werkbladen",
+    "moreTheme": "Meer werkbladen met thema {theme}",
+    "moreLevel": "Meer werkbladen voor {level}",
+    "browseAll": "Bekijk alle werkbladen"
   }
 }

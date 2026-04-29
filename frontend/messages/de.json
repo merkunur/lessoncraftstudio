@@ -1183,5 +1183,21 @@
         "description": "Keine Abonnements, keine monatlichen Gebuehren, keine versteckten Kosten. Zahlen Sie einmal und nutzen Sie Ihre Generatoren fuer immer. Alle Produkte beinhalten eine 30-Tage-Geld-zurueck-Garantie."
       }
     }
+  },
+  "seo": {
+    "educational_level": {
+      "preschool": "Vorschule",
+      "kindergarten": "Kindergarten",
+      "grade_1": "1. Klasse",
+      "grade_2": "2. Klasse",
+      "grade_3": "3. Klasse"
+    }
+  },
+  "endDeck": {
+    "heading": "Mehr davon?",
+    "moreType": "Mehr {type}-Arbeitsblätter",
+    "moreTheme": "Mehr {theme}-Arbeitsblätter",
+    "moreLevel": "Mehr Arbeitsblätter für {level}",
+    "browseAll": "Alle Arbeitsblätter durchsuchen"
   }
 }

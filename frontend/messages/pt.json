@@ -1112,5 +1112,21 @@
         "description": "Sem assinaturas, sem taxas mensais, sem custos ocultos. Pague uma vez e use seus geradores para sempre. Todos os produtos incluem garantia de reembolso de 30 dias."
       }
     }
+  },
+  "seo": {
+    "educational_level": {
+      "preschool": "Pré-escolar",
+      "kindergarten": "Jardim de infância",
+      "grade_1": "1.º ano",
+      "grade_2": "2.º ano",
+      "grade_3": "3.º ano"
+    }
+  },
+  "endDeck": {
+    "heading": "Quer mais?",
+    "moreType": "Mais fichas de {type}",
+    "moreTheme": "Mais fichas com tema {theme}",
+    "moreLevel": "Mais fichas para {level}",
+    "browseAll": "Ver todas as fichas"
   }
 }

@@ -1112,5 +1112,21 @@
         "description": "Sin suscripciones, sin cuotas mensuales, sin costos ocultos. Paga una vez y usa tus generadores para siempre. Todos los productos incluyen una garantia de devolucion de 30 dias."
       }
     }
+  },
+  "seo": {
+    "educational_level": {
+      "preschool": "Preescolar",
+      "kindergarten": "Jardín de infancia",
+      "grade_1": "1.º de primaria",
+      "grade_2": "2.º de primaria",
+      "grade_3": "3.º de primaria"
+    }
+  },
+  "endDeck": {
+    "heading": "¿Quieres más?",
+    "moreType": "Más fichas de {type}",
+    "moreTheme": "Más fichas con tema de {theme}",
+    "moreLevel": "Más fichas para {level}",
+    "browseAll": "Explorar todas las fichas"
   }
 }

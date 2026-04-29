@@ -1122,5 +1122,21 @@
         "description": "Pas d'abonnement, pas de frais mensuels, pas de couts caches. Payez une fois et utilisez vos generateurs pour toujours. Tous les produits incluent une garantie de remboursement de 30 jours."
       }
     }
+  },
+  "seo": {
+    "educational_level": {
+      "preschool": "Maternelle",
+      "kindergarten": "Grande section",
+      "grade_1": "CP",
+      "grade_2": "CE1",
+      "grade_3": "CE2"
+    }
+  },
+  "endDeck": {
+    "heading": "Vous en voulez plus ?",
+    "moreType": "Plus de fiches {type}",
+    "moreTheme": "Plus de fiches sur le thème {theme}",
+    "moreLevel": "Plus de fiches pour {level}",
+    "browseAll": "Parcourir toutes les fiches"
   }
 }

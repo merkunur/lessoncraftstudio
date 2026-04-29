@@ -1089,5 +1089,21 @@
         "description": "Inga prenumerationer, inga maanadsavgifter, inga dolda kostnader. Betala en gang och anvaend dina generatorer foer alltid. Alla produkter inkluderar en 30 dagars pengarna-tillbaka-garanti."
       }
     }
+  },
+  "seo": {
+    "educational_level": {
+      "preschool": "Förskola",
+      "kindergarten": "Förskoleklass",
+      "grade_1": "Årskurs 1",
+      "grade_2": "Årskurs 2",
+      "grade_3": "Årskurs 3"
+    }
+  },
+  "endDeck": {
+    "heading": "Vill du ha mer?",
+    "moreType": "Fler {type}-arbetsblad",
+    "moreTheme": "Fler arbetsblad med tema {theme}",
+    "moreLevel": "Fler arbetsblad för {level}",
+    "browseAll": "Bläddra bland alla arbetsblad"
   }
 }

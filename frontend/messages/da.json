@@ -1086,5 +1086,21 @@
         "description": "Ingen abonnementer, ingen manedlige gebyrer, ingen skjulte omkostninger. Betal en gang og brug dine generatorer for evigt. Alle produkter inkluderer en 30 dages pengene-tilbage-garanti."
       }
     }
+  },
+  "seo": {
+    "educational_level": {
+      "preschool": "Børnehave",
+      "kindergarten": "Børnehaveklasse",
+      "grade_1": "1. klasse",
+      "grade_2": "2. klasse",
+      "grade_3": "3. klasse"
+    }
+  },
+  "endDeck": {
+    "heading": "Vil du have mere?",
+    "moreType": "Flere {type}-arbejdsark",
+    "moreTheme": "Flere arbejdsark med tema {theme}",
+    "moreLevel": "Flere arbejdsark til {level}",
+    "browseAll": "Gennemse alle arbejdsark"
   }
 }

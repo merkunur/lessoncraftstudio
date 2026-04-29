@@ -133,6 +133,7 @@ backups/
 C:temp*
 C:Users*
 image library/
+image-library-webp/
 
 # Stripe product creation (contains internal IDs, one-time use)
 scripts/stripe-products-map.json
@@ -150,3 +151,7 @@ tpt-thumbnails/
 # Server storage: /var/www/lcs-media/design-elements/
 design-elements-library/
 design-elements-sampler.html
+
+# publish-cli (Brief B) dry-run staging output. Per Phase 2 brief Q4:
+# default staging dir at repo root, configurable via --staging-dir.
+.publish-cli-staging/

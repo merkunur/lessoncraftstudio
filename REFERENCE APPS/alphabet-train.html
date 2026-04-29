@@ -4424,6 +4424,7 @@ async function downloadPDF(canvasToExport, fileName, opts) {
         // v10.1 — sharp WebP overlay for each baked clue-wagon image. Sits
         // beneath the interactive pieces in z-order so dragging is unaffected.
         '.lcs-img-overlay{position:absolute;pointer-events:none;user-select:none;-webkit-user-drag:none;z-index:1}',
+        '.lcs-img-overlay:not([src]),.lcs-img-overlay[src=""]{display:none}',
         '@media (prefers-reduced-motion:reduce){',
         '  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.15s !important}',
         '  .lcs-confetti{display:none}',

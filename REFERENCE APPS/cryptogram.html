@@ -4500,6 +4500,7 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             '.lcs-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}',
             '.lcs-attrib-link{position:absolute;transform:translate(-50%,-50%);pointer-events:auto;cursor:pointer;background:transparent;text-decoration:none;border-radius:4px;outline:none}',
             '.lcs-img-overlay{position:absolute;pointer-events:none;user-select:none;-webkit-user-drag:none;z-index:1}',
+            '.lcs-img-overlay:not([src]),.lcs-img-overlay[src=""]{display:none}',
             '.lcs-attrib-link:focus-visible{outline:2px solid #4E5FE8;outline-offset:2px}',
             '.lcs-attrib-link:hover{background:rgba(78,95,232,.08)}',
             '@media (prefers-reduced-motion:reduce){',

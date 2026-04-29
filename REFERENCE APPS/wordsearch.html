@@ -4284,6 +4284,7 @@ async function downloadPDF(canvasToExport, fileName, opts) {
         // Pointer-events:none so the grid overlay stays interactive.
         '.lcs-img-overlay-layer{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:1}',
         '.lcs-img-overlay{position:absolute;pointer-events:none;user-select:none;-webkit-user-drag:none}',
+        '.lcs-img-overlay:not([src]),.lcs-img-overlay[src=""]{display:none}',
         '.lcs-attrib-link:focus-visible{outline:2px solid #4E5FE8;outline-offset:2px}',
         '.lcs-attrib-link:hover{background:rgba(78,95,232,.08)}',
         '.lcs-footer{position:sticky;bottom:0;z-index:10;margin-top:24px;background:rgba(254,250,243,.95);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-top:1px solid #DCE1E6;padding:16px 12px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap}',

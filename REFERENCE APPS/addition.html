@@ -4583,6 +4583,7 @@
         // by device pixel ratio. pointer-events:none keeps clicks flowing to
         // the answer-input slots that share the overlay layer.
         '.lcs-img-overlay{position:absolute;pointer-events:none;user-select:none;-webkit-user-drag:none}',
+        '.lcs-img-overlay:not([src]),.lcs-img-overlay[src=""]{display:none}',
         '@media (prefers-reduced-motion:reduce){',
         '  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.15s !important}',
         '  .lcs-spark,.lcs-confetti{display:none}',

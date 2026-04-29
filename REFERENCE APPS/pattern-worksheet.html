@@ -4326,6 +4326,42 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf', opts) {
             return { x: (minX + maxX) / 2, y: (minY + maxY) / 2, w: maxX - minX, h: maxY - minY };
         }
 
+        // Resize + recompress a data URL to a target max edge dimension and
+        // WebP quality. Bundle-size optimization: pattern-worksheet renders
+        // sources/blanks at ~31-80 CSS px, so even at 3x DPR (~240 native px)
+        // a 320-px-edge embedded WebP is more than enough. User-uploaded
+        // source files are often 500-1000px native at high quality — embedding
+        // them as-is bloats the deck.html. Skip resize/recompress on failure
+        // (return the original data URL untouched).
+        function _resizeAndCompressDataURL(dataURL, maxEdge, quality) {
+            var maxD = (typeof maxEdge === 'number') ? maxEdge : 320;
+            var q = (typeof quality === 'number') ? quality : 0.85;
+            return new Promise(function (resolve) {
+                if (!dataURL || typeof dataURL !== 'string' || dataURL.indexOf('data:') !== 0) {
+                    resolve(dataURL);
+                    return;
+                }
+                try {
+                    var img = new Image();
+                    img.onload = function () {
+                        try {
+                            var srcW = img.naturalWidth || img.width || 1;
+                            var srcH = img.naturalHeight || img.height || 1;
+                            var scale = Math.min(1, maxD / Math.max(srcW, srcH));
+                            var dstW = Math.max(1, Math.round(srcW * scale));
+                            var dstH = Math.max(1, Math.round(srcH * scale));
+                            var c = document.createElement('canvas');
+                            c.width = dstW; c.height = dstH;
+                            c.getContext('2d').drawImage(img, 0, 0, dstW, dstH);
+                            resolve(c.toDataURL('image/webp', q));
+                        } catch (e) { resolve(dataURL); }
+                    };
+                    img.onerror = function () { resolve(dataURL); };
+                    img.src = dataURL;
+                } catch (e) { resolve(dataURL); }
+            });
+        }
+
         // Fetch an image by path and return a base64 data URL so the interactive
         // HTML is self-contained (per CLAUDE.md §14.1 "works fully offline once
         // downloaded"). On failure, falls back to the original path so the site
@@ -4490,14 +4526,22 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf', opts) {
             });
             // Fetch + embed unresolved (theme, key) pairs into imageRefs.
             // Inline mode only — reference mode keeps URLs as-is and the
-            // browser fetches at render time.
+            // browser fetches at render time. Each fetched data URL is
+            // resized to a 320-px max edge and re-encoded as WebP q=0.85
+            // BEFORE embedding (user-uploaded source images are often 500-
+            // 1000px at high quality, and the deck only renders at ~80 CSS
+            // px even at 3x DPR — embedding source-resolution bytes bloats
+            // the file 2-4× without any visual benefit).
             if (loadingMode === 'inline') {
                 var unresolvedKeysList = Object.keys(unresolvedPathByKey);
-                var unresolvedResolved = await Promise.all(unresolvedKeysList.map(function (k) {
+                var unresolvedRaw = await Promise.all(unresolvedKeysList.map(function (k) {
                     return _pathToDataURL(unresolvedPathByKey[k]);
                 }));
+                var unresolvedCompressed = await Promise.all(unresolvedRaw.map(function (dataURL) {
+                    return _resizeAndCompressDataURL(dataURL, 320, 0.85);
+                }));
                 unresolvedKeysList.forEach(function (k, i) {
-                    var dataURL = unresolvedResolved[i];
+                    var dataURL = unresolvedCompressed[i];
                     // _pathToDataURL returns original path on fetch failure —
                     // skip those (no point storing a URL string as if it were
                     // a variant; runtime's srcUrlFor() handles fallback).
@@ -4555,7 +4599,7 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf', opts) {
                 ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
             return {
-                bundleVersion: '18.1.2',
+                bundleVersion: '18.1.3',
                 schemaFormat: 'image-references-v2',
                 loadingMode: loadingMode,
                 appType: 'pattern-worksheet',

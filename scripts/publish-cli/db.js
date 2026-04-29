@@ -152,11 +152,27 @@ async function updateDeck(id, opts) {
   return await client().deck.update({ where: { id: id }, data: data });
 }
 
+/**
+ * UNPUBLISH a deck — sets status='archived' (existing schema enum value per
+ * §8.1 / Phase 5 Q2 lock). Row stays in DB; (language, slug) unique constraint
+ * persists; slug stays "taken" so future publish-bulk INSERT/UPDATE attempts
+ * to the same slug surface a collision.
+ *
+ * `updatedAt` auto-tracks via Prisma's @updatedAt (no manual timestamp).
+ */
+async function unpublishDeck(id) {
+  return await client().deck.update({
+    where: { id: id },
+    data: { status: 'archived' }
+  });
+}
+
 module.exports = {
   client: client,
   disconnect: disconnect,
   findExistingBySlug: findExistingBySlug,
   resolveSlugCollision: resolveSlugCollision,
   insertDeck: insertDeck,
-  updateDeck: updateDeck
+  updateDeck: updateDeck,
+  unpublishDeck: unpublishDeck
 };

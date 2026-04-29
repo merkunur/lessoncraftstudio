@@ -8,8 +8,8 @@ Brief B catalog-publish pipeline. Operator-side CLI that reads catalog-export ZI
 - **Phase 2 (sealed `59a0cde9`)**: substitution layer + slug generator + i18n authoring + dry-run output.
 - **Phase 3 (sealed `7d59d3bd` + `9bed3bd4`)**: asset placement (Hetzner-side local FS write) + OG image (Sharp 1200×630 composite) + symlink-swap atomicity + DB write + edit-in-place via `--update-slug` + version pruning to archive folder.
 - **Pre-Phase-4 hygiene (sealed `9a30f049`)**: dropped `--update-deck-id` flag; `ensureLocaleDir` patch; Hetzner Node 18 EOL queued; methodology entry extended.
-- **Phase 4 (this commit)**: bulk-publish + bulk dry-run + strict-arg parser (folded per item 20 safety gap).
-- **Phase 5**: unpublish + republish-after-unpublish + coverage gate + failure-mode coverage.
+- **Phase 4 (sealed `772a3375`)**: bulk-publish + bulk dry-run + strict-arg parser (folded per item 20 safety gap).
+- **Phase 5 (this commit, sub-phases 5.4 + 5.5)**: single-deck `unpublish` handler + block-on-archived UPDATE/INSERT enforcement (publish.js + bulk.js). Sub-phases 5.1–5.3 sealed end-to-end on production. Sub-phase 5.5 verification (republish-after-unpublish blocks cleanly) deferred until operator authorizes.
 - **Phase 6**: CLAUDE.md amendments via the close-out batch.
 
 ## Phase 3 architecture (Hetzner-side execution)
@@ -127,6 +127,36 @@ Per-batch artifacts in `<staging-root>/<batch-id>/`:
 | `_failures/<zip>.stderr` | Per-failure structured stderr (one file per failed ZIP) |
 
 Real bulk-publish ABORTS before any side-effect when `_collisions.txt` or `_errors.txt` would be non-empty. Per-deck error isolation: a failed ZIP does not abort the batch; valid ZIPs in the same batch continue to publish.
+
+### Phase 5 — unpublish (single-deck) + block-on-archived contract
+
+```
+ssh root@hetzner "node /opt/lessoncraftstudio/scripts/publish-cli/index.js unpublish <slug> --language <locale> --confirm"
+```
+
+Single-deck unpublish flow:
+
+1. `db.findExistingBySlug(language, slug)` — must return a `status='published'` row.
+2. `place-assets.unpublishAssets(locale, slug)` — atomic: removes the canonical symlink first (immediate 404), then moves all `<slug>-vN/` versioned dirs to `.archived/<locale>/<slug>-unpublished-<utc>/`.
+3. `db.unpublishDeck(id)` — flips `status='archived'`. Row stays in DB; `(language, slug)` unique constraint persists; slug stays "taken".
+
+`--confirm` is mandatory (matches publish-bulk pattern; explicit consent for destructive operation; no interactive prompt).
+
+**Block-on-archived contract (Phase 5 Q2 lock):**
+
+After a deck is unpublished:
+
+- **INSERT-route attempt** (publish-bulk WITHOUT `--updates-manifest` for the archived slug): pre-flight collision detection in `bulk.js` flags the row as `existing status: archived` and emits a differentiated `_collisions.txt` recommendation: `"pick a different slug — slug already used by an archived (unpublished) deck"`. Real-mode ABORTS before any side-effect. Reactivation is out-of-scope per Phase 5 Q2 lock.
+- **UPDATE-route attempt** (publish-bulk WITH manifest mapping the new ZIP to the archived slug, OR `single-publish --update-slug <archived-slug> --confirm`): `publish.js`'s edit-in-place lookup rejects with structured stderr: `"cannot update deck '<slug>' (status='archived'). Only published decks can be updated via --update-slug. Pick a different slug or implement reactivation in a future brief"`. Exit non-zero. No side-effects.
+
+Both attempts cleanly fail; the operator's resolution path is "pick a different slug." Old shared links to the unpublished deck stay 404.
+
+**Failure-mode UX** (if DB update fails post-FS-archive): `unpublish.js` surfaces structured stderr with reconciliation commands per Phase 3 v4 policy:
+
+- Option A — flip DB status manually via psql (`UPDATE decks SET status='archived', updated_at=NOW() WHERE id='<id>'`).
+- Option B — restore FS to undo the unpublish (mv archived dirs back, recreate symlink).
+
+The deck is FS-unavailable (404) regardless of DB state, so the user-facing state is correct even mid-failure.
 
 ### Strict-arg parser (item 20 safety gap)
 

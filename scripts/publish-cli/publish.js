@@ -78,6 +78,19 @@ async function publish(opts) {
     if (!existingRow) {
       throw new Error('publish: --update-slug "' + updateSlug + '" but no row found in (language=' + locale + ', slug=' + updateSlug + ')');
     }
+    // Phase 5 Q2 lock: block UPDATE on non-published rows. Status enum per
+    // §8.1: 'draft' | 'published' | 'archived'. UPDATE-via---update-slug is
+    // edit-in-place semantics — only valid on currently-published rows.
+    // Archived rows (status='archived') were unpublished and the slug stays
+    // "taken" without reactivation in Phase 5; pick a different slug or
+    // implement reactivation in a future brief.
+    if (existingRow.status !== 'published') {
+      throw new Error(
+        'publish: cannot update deck "' + updateSlug + '" (status=\'' + existingRow.status + '\'). ' +
+        'Only published decks can be updated via --update-slug. Pick a different slug ' +
+        'or implement reactivation in a future brief (Phase 5 Q2 lock = block).'
+      );
+    }
     slug = existingRow.slug;  // preserve existing
     console.error('[publish] Resolved existing deck for edit-in-place:');
     console.error('  id:         ' + existingRow.id);

@@ -66,8 +66,11 @@ var SCHEMAS = {
     }
   },
   'unpublish': {
-    positional: ['deck-id'],
-    flags: {}
+    positional: ['slug'],
+    flags: {
+      '--language': 'value',
+      '--confirm': 'bool'
+    }
   }
 };
 
@@ -78,10 +81,11 @@ function usage() {
   console.error('  node scripts/publish-cli/index.js publish-bulk <folder> [--dry-run] [--confirm]');
   console.error('                                                          [--updates-manifest <path>]');
   console.error('                                                          [--batch-id <name>] [--staging-dir <path>]');
+  console.error('  node scripts/publish-cli/index.js unpublish <slug> --language <locale> --confirm');
   console.error('');
   console.error('Phase 4 ships publish-bulk (real + --dry-run) with strict-arg parsing.');
+  console.error('Phase 5 ships single-deck unpublish + block-on-archived UPDATE/INSERT.');
   console.error('Bulk real-publish requires --confirm; --updates-manifest opts ZIPs into UPDATE path.');
-  console.error('Phase 5: unpublish + republish-after-unpublish + coverage gate.');
 }
 
 function deriveTitleForSlug(manifest) {
@@ -333,6 +337,49 @@ async function publishBulkCmd(parsed) {
   }
 }
 
+async function unpublishCmd(parsed) {
+  var unpublishMod = require('./unpublish');
+  var db = require('./db');
+
+  var slug = parsed.positional['slug'];
+  var language = parsed.flags['--language'];
+  var confirm = !!parsed.flags['--confirm'];
+
+  if (!language) {
+    console.error('USAGE ERROR: unpublish requires --language flag');
+    console.error('');
+    usage();
+    await db.disconnect();
+    process.exit(2);
+  }
+  if (!confirm) {
+    console.error('[unpublish] ABORT — unpublish requires --confirm flag (no interactive prompt for this destructive operation).');
+    await db.disconnect();
+    process.exit(2);
+  }
+
+  try {
+    var result = await unpublishMod.unpublish({ language: language, slug: slug });
+    console.log('');
+    console.log('[unpublish] PASS');
+    console.log('  id:           ' + result.id);
+    console.log('  language:     ' + result.language);
+    console.log('  slug:         ' + result.slug);
+    console.log('  status:       ' + result.status);
+    console.log('  archived dir: ' + result.archiveDir);
+    if (result.movedVersions && result.movedVersions.length) {
+      console.log('  moved ' + result.movedVersions.length + ' versioned dir(s):');
+      result.movedVersions.forEach(function (m) { console.log('    ' + m.from + ' -> ' + m.to); });
+    }
+    await db.disconnect();
+    process.exit(0);
+  } catch (e) {
+    console.error('[unpublish] FAIL: ' + e.message);
+    await db.disconnect();
+    process.exit(1);
+  }
+}
+
 function main() {
   var parsed;
   try {
@@ -369,8 +416,7 @@ function main() {
   }
 
   if (parsed.cmd === 'unpublish') {
-    console.error('ERROR: unpublish lands at Brief B Phase 5 per ship-only-what\'s-verified discipline.');
-    process.exit(2);
+    return unpublishCmd(parsed);
   }
 
   // Unreachable: parseStrict already validated the cmd.

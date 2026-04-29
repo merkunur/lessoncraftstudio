@@ -215,6 +215,78 @@ function utcStamp() {
 }
 
 /**
+ * Unpublish all FS assets for (locale, slug) per Brief B Phase 5 Sub-phase 5.4.
+ *
+ * Atomically:
+ *   1. Read symlink existence (defensive — at least ONE of versioned dir or symlink must exist).
+ *   2. mkdir -p .archived/<locale>/<slug>-unpublished-<utc>/.
+ *   3. Remove the canonical symlink — immediate 404 for the canonical URL.
+ *   4. mv every <slug>-v<N>/ versioned dir (excluding any .staging) into the
+ *      archive subdir. Same prefix-based scan as pruneAgedVersions, just
+ *      unconditional (every version moves, not just aged).
+ *
+ * Symlink-removal-first ordering: ensures no broken-symlink window
+ * (symlink pointing at moved/missing target). Once symlink is gone, dirs
+ * can be moved freely without serving-state implications.
+ *
+ * Pattern matches existing place() architecture (sibling helper in same
+ * module; uses utcStamp + mkdirP + isSymlink helpers). No new dependency.
+ *
+ * Returns: { archiveDir, symlinkRemoved, movedVersions: [{from, to}] }.
+ */
+function unpublishAssets(locale, slug) {
+  var dir = localeRoot(locale);
+  var link = symlinkPath(locale, slug);
+  var prefix = slug + '-v';
+
+  if (!fs.existsSync(dir)) {
+    throw new Error('place-assets.unpublishAssets: locale dir does not exist: ' + dir);
+  }
+
+  // Collect versioned dirs matching slug (exclude .staging).
+  var entries = fs.readdirSync(dir);
+  var versionedDirs = [];
+  entries.forEach(function (e) {
+    if (e.indexOf(prefix) !== 0 || e.endsWith('.staging')) return;
+    var rest = e.slice(prefix.length);
+    var n = parseInt(rest, 10);
+    if (isNaN(n)) return;
+    versionedDirs.push({ name: e, version: n, path: path.join(dir, e) });
+  });
+
+  var symlinkPresent = isSymlink(link);
+  if (versionedDirs.length === 0 && !symlinkPresent) {
+    throw new Error(
+      'place-assets.unpublishAssets: nothing to unpublish for ' + locale + '/' + slug +
+      ' (no versioned dirs at ' + dir + ', no symlink at ' + link + ')'
+    );
+  }
+
+  var ts = utcStamp();
+  var archiveDir = path.join(archiveLocaleRoot(locale), slug + '-unpublished-' + ts);
+  mkdirP(archiveDir);
+
+  // Step 3: remove canonical symlink first (immediate 404 — no broken-symlink window).
+  if (symlinkPresent) {
+    fs.unlinkSync(link);
+  }
+
+  // Step 4: move every versioned dir to archive.
+  var movedVersions = [];
+  versionedDirs.forEach(function (vd) {
+    var to = path.join(archiveDir, vd.name);
+    fs.renameSync(vd.path, to);
+    movedVersions.push({ from: vd.path, to: to });
+  });
+
+  return {
+    archiveDir: archiveDir,
+    symlinkRemoved: symlinkPresent,
+    movedVersions: movedVersions
+  };
+}
+
+/**
  * Full pipeline for a single deck publish.
  * Returns: { versionDir, version, prunedVersions, symlinkSwapped: true }
  */
@@ -247,6 +319,7 @@ function place(locale, slug, assets) {
 
 module.exports = {
   place: place,
+  unpublishAssets: unpublishAssets,
   maxVersion: maxVersion,
   nextVersion: nextVersion,
   versionDir: versionDir,

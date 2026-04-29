@@ -129,6 +129,7 @@ async function dryRunOneZip(zipPath, stagingRoot, ctx) {
           result.collision = {
             existingId: existingRow.id,
             existingSlug: existingRow.slug,
+            existingStatus: existingRow.status,
             predictedSlug: slugCandidate
           };
         }
@@ -225,8 +226,19 @@ function writeBatchArtifacts(stagingRoot, results, ctx) {
       collisionLines.push('  predicted slug:        ' + r.collision.predictedSlug);
       collisionLines.push('  existing deck id:      ' + r.collision.existingId);
       collisionLines.push('  existing slug:         ' + r.collision.existingSlug);
-      collisionLines.push('  recommended action:    add to --updates-manifest mapping ' + r.zipBasename + ' -> ' + r.collision.existingSlug);
-      collisionLines.push('                         OR rename source ZIP to produce a different slug');
+      collisionLines.push('  existing status:       ' + (r.collision.existingStatus || 'unknown'));
+      // Phase 5 Q2 lock: differentiate by status. 'archived' rows were
+      // unpublished; reactivation is out-of-scope, so the recommendation
+      // is "pick a different slug" (NOT --updates-manifest, which would
+      // attempt UPDATE on the archived row and trigger publish.js's
+      // block-on-archived rejection).
+      if (r.collision.existingStatus === 'archived') {
+        collisionLines.push('  recommended action:    pick a different slug — slug already used by an archived (unpublished) deck.');
+        collisionLines.push('                         UPDATE-via-manifest is NOT valid for archived rows; reactivation is out-of-scope per Phase 5 Q2 lock.');
+      } else {
+        collisionLines.push('  recommended action:    add to --updates-manifest mapping ' + r.zipBasename + ' -> ' + r.collision.existingSlug);
+        collisionLines.push('                         OR rename source ZIP to produce a different slug');
+      }
       collisionLines.push('');
     });
   }

@@ -3832,44 +3832,6 @@
 
 
 
-    // Override the original downloadPDF function
-    const originalDownloadPDF = typeof downloadPDF !== 'undefined' ? downloadPDF : null;
-    if (originalDownloadPDF) {
-        window.downloadPDF = async function(canvasToExport, fileName) {
-            if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                return showMessage(t('pattern.train.msg.generate.first'), 'error');
-            }
-            showMessage(t('pattern.train.msg.preparing.pdf'), 'info', 0);
-            
-            // Add watermark if free tier
-            await waitForAccessCheck();
-            
-            try {
-                const { jsPDF } = window.jspdf;
-                const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
-                const pdf = new jsPDF({ 
-                    orientation, 
-                    unit: 'pt', 
-                    format: [currentCanvasConfig.width, currentCanvasConfig.height] 
-                });
-
-                const exportOptions = {
-                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 4,
-                    applyPixelLevelGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked
-                };
-                
-                const dataURL = await getFabricCanvasDataURLWithOptions(canvasToExport, exportOptions);
-                pdf.addImage(dataURL, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
-                
-                pdf.save(fileName);
-                showMessage(t('pattern.train.msg.pdf.downloaded'), 'success');
-            } catch(e) {
-                showMessage(t('pattern.train.msg.pdf.error'), 'error'); 
-                console.error(e); 
-            }
-        };
-    }
-
     // Override the original downloadJPEG function if it exists
     const originalDownloadJPEG = typeof downloadJPEG !== 'undefined' ? downloadJPEG : null;
     if (originalDownloadJPEG) {

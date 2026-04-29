@@ -4135,6 +4135,37 @@ async function downloadPDF(canvasToExport, filename, opts) {
         return { x: (minX + maxX) / 2, y: (minY + maxY) / 2, w: maxX - minX, h: maxY - minY };
     }
 
+    // World rect of just the IMAGE area inside a piece group. The piece group
+    // contains [img, border, numberText] where the numberText is positioned
+    // ABOVE the image (top:-5 with originY:'bottom' → text top ≈ y-23). Using
+    // _worldRectBounds(group) returns a bbox that includes the numberText
+    // vertical extension above the image, making the rect ~1.24× taller than
+    // the image area. The runtime then sets that taller box as the .lcs-piece
+    // dimensions and background-size:cover stretches/crops the square
+    // imgDataUrl to fill, distorting the cutout vs. canvas.
+    //
+    // The border Rect is constructed with width=cellWidth*1.2 and
+    // height=img.getScaledHeight() (line 3496 area), exactly matching the
+    // image's scaled local dimensions. Use border.width/height × group's scale
+    // for world dimensions; place the rect at the IMAGE's world center
+    // (projected through group's transform) — not the group's centroid which
+    // is shifted upward by the numberText.
+    function _pieceImageWorldRect(pieceGroup) {
+        var children = pieceGroup._objects || [];
+        var border = null, img = null;
+        for (var i = 0; i < children.length; i++) {
+            var c = children[i];
+            if (!border && c.type === 'rect') border = c;
+            if (!img && c.type === 'image') img = c;
+        }
+        if (!border || !img) return _worldRectBounds(pieceGroup);
+        var groupMatrix = pieceGroup.calcTransformMatrix();
+        var imgWorldCenter = fabric.util.transformPoint({ x: img.left, y: img.top }, groupMatrix);
+        var worldW = border.width * (pieceGroup.scaleX || 1);
+        var worldH = border.height * (pieceGroup.scaleY || 1);
+        return { x: imgWorldCenter.x, y: imgWorldCenter.y, w: worldW, h: worldH };
+    }
+
     function _findGrid(canvas) {
         var objs = canvas.getObjects();
         for (var i = 0; i < objs.length; i++) {
@@ -4205,7 +4236,7 @@ async function downloadPDF(canvasToExport, filename, opts) {
                 pieceIndex: ref.idx,
                 number: (typeof src.number === 'number') ? src.number : null,
                 imgDataUrl: src.imgDataUrl || '',
-                initialRect: _worldRectBounds(ref.obj)
+                initialRect: _pieceImageWorldRect(ref.obj)
             };
         }).filter(function (p) { return p.imgDataUrl && p.number !== null; });
         var pieces;
@@ -4225,7 +4256,7 @@ async function downloadPDF(canvasToExport, filename, opts) {
             ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
         return {
-            bundleVersion: '8.1.0',
+            bundleVersion: '8.2.0',
             schemaFormat: 'image-references-v3',
             loadingMode: loadingMode,
             snapshotMode: 'inline',

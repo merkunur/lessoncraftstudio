@@ -4407,36 +4407,13 @@
         // it to the placement records. parseImagePath understands the
         // /images/<theme>/<file>.png shape produced by /api/images.
         var worksheetTheme = (typeof themeSelect !== 'undefined' && themeSelect && themeSelect.value) || null;
-        var bundleLanguage = (window.currentLocale || (languageSelect && languageSelect.value) || 'en');
-        // Image alt resolver — looks up the vocabulary entry for an image key
-        // in the deck's language. Self-contained at generation time so the
-        // emitted deck.html stays small (no 480 KB image-vocabulary.js load).
-        function _resolveAlt(key) {
-            if (!key) return '';
-            if (window.ImageVocab && typeof ImageVocab.singular === 'function') {
-                var term = ImageVocab.singular(key, bundleLanguage);
-                if (term) return term;
-                console.warn('[addition] No vocabulary entry for image key:', key, '(language:', bundleLanguage + ')');
-            }
-            return key; // safe fallback per Brief A §5.3 — never empty alt for content images
-        }
         var problems = problemsData.map(function (p, i) {
             var placements = imageRefsByIndex[i] || [];
             var parsed = (window.LCSImageRef && p && p.image && p.image.path)
                 ? LCSImageRef.parseImagePath(p.image.path)
                 : null;
-            // Vocab-canonical key for alt text via shared helper which
-            // handles all 3 image source forms (theme path, server-stored
-            // upload with timestamp+hash suffix, client-side data URL
-            // upload that falls back to img.word/name). Bundle imageRefs.key
-            // keeps parseImagePath form for internal set+get consistency in
-            // the runtime's imageRefs[theme+'/'+key] lookup.
-            var vocabKey = (p && p.image && window.LCSCatalogExport && LCSCatalogExport.vocabKeyFromImage)
-                ? (LCSCatalogExport.vocabKeyFromImage(p.image) || (parsed && parsed.key) || '')
-                : (parsed && parsed.key) || '';
-            var altText = vocabKey ? _resolveAlt(vocabKey) : '';
             var imageRefs = (parsed && placements.length)
-                ? placements.map(function (pl) { return { key: parsed.key, theme: parsed.theme, rect: pl.rect, alt: altText }; })
+                ? placements.map(function (pl) { return { key: parsed.key, theme: parsed.theme, rect: pl.rect }; })
                 : [];
             return {
                 index: i,
@@ -4710,8 +4687,7 @@
         '        var ref=refs[ri];',
         '        if(!ref||!ref.rect)continue;',
         '        var img=document.createElement("img");',
-        '        img.className="lcs-img-overlay";',
-        '        img.alt=ref.alt||"";',
+        '        img.className="lcs-img-overlay";img.alt="";',
         '        img.setAttribute("data-image-ref",ref.theme+"/"+ref.key);',
         '        var iLeft=((ref.rect.x-ref.rect.w/2)/pw)*100;',
         '        var iTop=((ref.rect.y-ref.rect.h/2)/ph)*100;',

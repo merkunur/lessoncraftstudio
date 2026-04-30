@@ -106,6 +106,7 @@
       "alreadySubscribedCta": "View your subscription"
     },
     "notify": {
+      "label": "Email address",
       "placeholder": "your@email.com",
       "submit": "Notify me when subscription opens",
       "submitting": "Sending…",

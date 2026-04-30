@@ -92,8 +92,14 @@ export default function NotifyMe() {
       <input type="hidden" name="locale" value={locale} />
 
       <div className="flex-1 min-w-0">
+        {/* Semantic label — describes the field for screen readers. Deliberately
+            NOT echoing the placeholder example: (a) labels and placeholders should
+            convey different things, and (b) Cloudflare's auto Email Address
+            Obfuscation rewrites email-shaped strings in text content, which would
+            replace the placeholder echo with an obfuscated link an a11y user hears
+            as "[email protected]". */}
         <label htmlFor="notify-email" className="sr-only">
-          {t('placeholder')}
+          {t('label')}
         </label>
         <input
           id="notify-email"

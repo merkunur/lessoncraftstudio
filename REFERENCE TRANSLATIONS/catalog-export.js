@@ -680,28 +680,35 @@
   }
 
   /**
-   * buildResponsiveFitSnippet — returns an embedded <script> snippet that, on
-   * touch devices in landscape orientation viewing a landscape worksheet,
-   * scales #lcs-app via CSS `zoom` so the whole worksheet fits the viewport
-   * without scrolling. Other orientation combos (portrait phone, portrait
-   * worksheet, desktop browser) preserve the natural width-fit + vertical-
-   * scroll behavior — no scaling applied.
+   * buildResponsiveFitSnippet — returns embedded <style> + <script> that
+   * activate a compact landscape-mobile layout: on a phone in landscape
+   * orientation viewing a landscape worksheet, hide the title bar and
+   * topic-link footer, float the Check Answers button as a compact FAB,
+   * and size the worksheet via CSS aspect-ratio to fill the viewport.
    *
-   * Per HOMEPAGE-IMPLEMENTATION-PROMPT (operator request, 2026-04-30):
-   * "when phone is in landscape AND worksheet is landscape, scale #lcs-app to
-   * fit BOTH the viewport's width AND height so the whole worksheet is visible
-   * without scrolling."
+   * Strict scope per operator request (2026-04-30, refined):
+   * "As long as the changes you will make don't change anything on different
+   * devices and it doesn't change anything for portrait worksheets even on
+   * mobile phone you can do it. The changes should effect only horizontal
+   * worksheets only on mobile phone."
    *
-   * Detection at deck-load time, not generation time — all 29 apps can produce
-   * either orientation depending on the operator's canvas-type selection, so
-   * the runtime reads img.naturalWidth/naturalHeight to decide whether the
-   * baked worksheet is landscape.
+   * Three required conditions, ALL must hold for the compact layout to apply:
+   *   1. Touch device — CSS `(hover: none) and (pointer: coarse)`
+   *   2. Phone in landscape — CSS `(orientation: landscape) and (max-width: 1024px)`
+   *      (max-width caps out tablets/iPads in landscape)
+   *   3. Worksheet baked landscape — JS adds `body.lcs-worksheet-landscape`
+   *      class when img.naturalWidth > img.naturalHeight
    *
-   * Touch-device gate via `(hover: none) and (pointer: coarse)` — phones and
-   * tablets only, not desktop browsers resized narrow.
+   * If ANY condition is false, no rule matches — existing layout is unchanged.
    *
-   * Recomputes on resize and orientationchange, RAF-debounced. The first
-   * scale apply may produce a one-shot CLS reflow; acceptable per spec.
+   * The JS also sets a CSS variable `--lcs-worksheet-aspect` from the image's
+   * natural aspect ratio so `.lcs-worksheet`'s aspect-ratio matches exactly,
+   * eliminating letterbox.
+   *
+   * Browser support: CSS `aspect-ratio` requires Safari 15.4+, Chrome 88+,
+   * Firefox 89+. Older browsers fall through to existing scroll behavior
+   * (the body class is set but the aspect-ratio + max-width/max-height combo
+   * silently no-ops). No scaling, no broken layout.
    *
    * Place inside renderStandaloneHTML() output, just before </body>:
    *   parts.push(LCSCatalogExport.buildResponsiveFitSnippet());
@@ -711,38 +718,78 @@
    */
   function buildResponsiveFitSnippet() {
     return [
+      '<style>',
+      '@media (max-width:1024px) and (orientation:landscape) and (hover:none) and (pointer:coarse) {',
+      '  body.lcs-worksheet-landscape { overflow: hidden; }',
+      '  body.lcs-worksheet-landscape #lcs-app {',
+      '    max-width: none;',
+      '    padding: 0;',
+      '    padding-bottom: 0;',
+      '    min-height: 100vh;',
+      '    display: flex;',
+      '    align-items: center;',
+      '    justify-content: center;',
+      '  }',
+      '  body.lcs-worksheet-landscape .lcs-bar { display: none; }',
+      '  body.lcs-worksheet-landscape .lcs-end-deck { display: none; }',
+      '  body.lcs-worksheet-landscape .lcs-sr { display: none; }',
+      '  body.lcs-worksheet-landscape .lcs-worksheet-wrap { padding: 0; }',
+      '  body.lcs-worksheet-landscape .lcs-worksheet {',
+      '    aspect-ratio: var(--lcs-worksheet-aspect, 1.27);',
+      '    max-width: 100vw;',
+      '    max-height: 100vh;',
+      '    width: auto;',
+      '    height: auto;',
+      '    margin: 0;',
+      '    box-shadow: none;',
+      '    border-radius: 0;',
+      '  }',
+      '  body.lcs-worksheet-landscape .lcs-worksheet__img {',
+      '    width: 100%;',
+      '    height: 100%;',
+      '    object-fit: contain;',
+      '    border-radius: 0;',
+      '  }',
+      '  body.lcs-worksheet-landscape .lcs-footer {',
+      '    position: fixed;',
+      '    bottom: 8px;',
+      '    right: 8px;',
+      '    background: transparent;',
+      '    border-top: 0;',
+      '    backdrop-filter: none;',
+      '    -webkit-backdrop-filter: none;',
+      '    padding: 0;',
+      '    margin: 0;',
+      '    width: auto;',
+      '    z-index: 100;',
+      '    justify-content: flex-end;',
+      '  }',
+      '  body.lcs-worksheet-landscape .lcs-footer .lcs-btn {',
+      '    min-height: 40px;',
+      '    min-width: 0;',
+      '    padding: 10px 16px;',
+      '    font-size: 14px;',
+      '    box-shadow: 0 4px 12px rgba(0,0,0,.3);',
+      '  }',
+      '}',
+      '<\/style>',
       '<script>',
       '(function(){',
       '  "use strict";',
-      '  var rafToken=null;',
-      '  function fit(){',
-      '    var app=document.getElementById("lcs-app");',
-      '    if(!app)return;',
+      '  function update(){',
       '    var img=document.querySelector(".lcs-worksheet__img");',
       '    if(!img||!img.naturalWidth||!img.naturalHeight)return;',
-      '    app.style.zoom="1";',
-      '    var vw=document.documentElement.clientWidth;',
-      '    var vh=document.documentElement.clientHeight;',
-      '    if(!vw||!vh)return;',
-      '    if(!window.matchMedia("(hover: none) and (pointer: coarse)").matches)return;',
-      '    var phoneLandscape=vw>vh;',
-      '    var worksheetLandscape=img.naturalWidth>img.naturalHeight;',
-      '    if(!phoneLandscape||!worksheetLandscape)return;',
-      '    var w=app.scrollWidth,h=app.scrollHeight;',
-      '    if(!w||!h)return;',
-      '    var scale=Math.min(vw/w,vh/h,1);',
-      '    if(scale<0.999)app.style.zoom=scale;',
+      '    document.documentElement.style.setProperty("--lcs-worksheet-aspect",String(img.naturalWidth/img.naturalHeight));',
+      '    if(img.naturalWidth>img.naturalHeight){',
+      '      document.body.classList.add("lcs-worksheet-landscape");',
+      '    } else {',
+      '      document.body.classList.remove("lcs-worksheet-landscape");',
+      '    }',
       '  }',
-      '  function schedule(){',
-      '    if(rafToken)return;',
-      '    rafToken=requestAnimationFrame(function(){rafToken=null;fit();});',
-      '  }',
-      '  document.addEventListener("DOMContentLoaded",schedule);',
-      '  window.addEventListener("load",schedule);',
-      '  window.addEventListener("resize",schedule);',
-      '  window.addEventListener("orientationchange",schedule);',
+      '  document.addEventListener("DOMContentLoaded",update);',
+      '  window.addEventListener("load",update);',
       '  var img=document.querySelector(".lcs-worksheet__img");',
-      '  if(img)img.addEventListener("load",schedule);',
+      '  if(img)img.addEventListener("load",update);',
       '})();',
       '<\/script>'
     ].join('\n');

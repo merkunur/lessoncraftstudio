@@ -680,6 +680,75 @@
   }
 
   /**
+   * buildResponsiveFitSnippet — returns an embedded <script> snippet that, on
+   * touch devices in landscape orientation viewing a landscape worksheet,
+   * scales #lcs-app via CSS `zoom` so the whole worksheet fits the viewport
+   * without scrolling. Other orientation combos (portrait phone, portrait
+   * worksheet, desktop browser) preserve the natural width-fit + vertical-
+   * scroll behavior — no scaling applied.
+   *
+   * Per HOMEPAGE-IMPLEMENTATION-PROMPT (operator request, 2026-04-30):
+   * "when phone is in landscape AND worksheet is landscape, scale #lcs-app to
+   * fit BOTH the viewport's width AND height so the whole worksheet is visible
+   * without scrolling."
+   *
+   * Detection at deck-load time, not generation time — all 29 apps can produce
+   * either orientation depending on the operator's canvas-type selection, so
+   * the runtime reads img.naturalWidth/naturalHeight to decide whether the
+   * baked worksheet is landscape.
+   *
+   * Touch-device gate via `(hover: none) and (pointer: coarse)` — phones and
+   * tablets only, not desktop browsers resized narrow.
+   *
+   * Recomputes on resize and orientationchange, RAF-debounced. The first
+   * scale apply may produce a one-shot CLS reflow; acceptable per spec.
+   *
+   * Place inside renderStandaloneHTML() output, just before </body>:
+   *   parts.push(LCSCatalogExport.buildResponsiveFitSnippet());
+   * Defensive form for forwards-compat with older catalog-export.js:
+   *   parts.push((window.LCSCatalogExport && LCSCatalogExport.buildResponsiveFitSnippet)
+   *     ? LCSCatalogExport.buildResponsiveFitSnippet() : '');
+   */
+  function buildResponsiveFitSnippet() {
+    return [
+      '<script>',
+      '(function(){',
+      '  "use strict";',
+      '  var rafToken=null;',
+      '  function fit(){',
+      '    var app=document.getElementById("lcs-app");',
+      '    if(!app)return;',
+      '    var img=document.querySelector(".lcs-worksheet__img");',
+      '    if(!img||!img.naturalWidth||!img.naturalHeight)return;',
+      '    app.style.zoom="1";',
+      '    var vw=document.documentElement.clientWidth;',
+      '    var vh=document.documentElement.clientHeight;',
+      '    if(!vw||!vh)return;',
+      '    if(!window.matchMedia("(hover: none) and (pointer: coarse)").matches)return;',
+      '    var phoneLandscape=vw>vh;',
+      '    var worksheetLandscape=img.naturalWidth>img.naturalHeight;',
+      '    if(!phoneLandscape||!worksheetLandscape)return;',
+      '    var w=app.scrollWidth,h=app.scrollHeight;',
+      '    if(!w||!h)return;',
+      '    var scale=Math.min(vw/w,vh/h,1);',
+      '    if(scale<0.999)app.style.zoom=scale;',
+      '  }',
+      '  function schedule(){',
+      '    if(rafToken)return;',
+      '    rafToken=requestAnimationFrame(function(){rafToken=null;fit();});',
+      '  }',
+      '  document.addEventListener("DOMContentLoaded",schedule);',
+      '  window.addEventListener("load",schedule);',
+      '  window.addEventListener("resize",schedule);',
+      '  window.addEventListener("orientationchange",schedule);',
+      '  var img=document.querySelector(".lcs-worksheet__img");',
+      '  if(img)img.addEventListener("load",schedule);',
+      '})();',
+      '<\/script>'
+    ].join('\n');
+  }
+
+  /**
    * Main entry point.
    *
    * opts = {
@@ -765,6 +834,7 @@
     buildSrRows: buildSrRows,
     buildSrPuzzleSummary: buildSrPuzzleSummary,
     buildShareAffordance: buildShareAffordance,
+    buildResponsiveFitSnippet: buildResponsiveFitSnippet,
     vocabKeyFromImage: vocabKeyFromImage,
     HREFLANG_MARKER: HREFLANG_MARKER,
     export: exportCatalog

@@ -51,23 +51,23 @@ export default function FeaturedDeckTile({
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="group relative block w-full text-left rounded-xl overflow-hidden bg-white border border-gray-200 hover:border-gray-400 hover:shadow-lg transition-all"
+        className="group relative block w-full text-left rounded-md overflow-hidden bg-cream-50 border border-cream-300 hover:border-ink-700 hover:shadow-md transition-all"
         aria-label={t('playInline') + ': ' + title}
       >
-        <div className="relative aspect-[480/620] bg-gray-50">
+        <div className="relative aspect-[480/620] bg-cream-50">
           <img
             src={thumbnailUrl}
             alt={title}
             loading="lazy"
             className="w-full h-full object-cover"
           />
-          <span className="absolute top-3 left-3 inline-flex items-center px-2 py-1 rounded-full bg-gray-900 text-white text-xs font-medium">
+          <span className="absolute top-3 left-3 inline-flex items-center px-2 py-1 rounded-full bg-ink-900 text-cream-50 text-xs font-medium">
             {t('featuredBadge')}
           </span>
         </div>
         <div className="px-4 py-3 flex items-center justify-between gap-2">
-          <span className="text-sm font-medium text-gray-900 truncate">{title}</span>
-          <span className="text-xs font-medium text-gray-500 flex-shrink-0" aria-label={`Language: ${languageLabel}`}>
+          <span className="text-sm font-medium text-ink-900 truncate">{title}</span>
+          <span className="text-xs font-medium text-ink-500 flex-shrink-0" aria-label={`Language: ${languageLabel}`}>
             {languageLabel}
           </span>
         </div>
@@ -75,22 +75,22 @@ export default function FeaturedDeckTile({
 
       {open && (
         <div
-          className="fixed inset-0 z-[100] flex items-center justify-center bg-gray-900/80 p-4 sm:p-8"
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-ink-900/85 p-4 sm:p-8"
           role="dialog"
           aria-modal="true"
           aria-label={title}
           onClick={() => setOpen(false)}
         >
           <div
-            className="relative w-full max-w-5xl h-full max-h-[90vh] bg-white rounded-xl shadow-2xl overflow-hidden flex flex-col"
+            className="relative w-full max-w-5xl h-full max-h-[90vh] bg-cream-50 rounded-md shadow-2xl overflow-hidden flex flex-col"
             onClick={e => e.stopPropagation()}
           >
-            <div className="flex items-center justify-between px-4 py-3 border-b border-gray-200 flex-shrink-0">
-              <span className="text-sm font-medium text-gray-900 truncate">{title}</span>
+            <div className="flex items-center justify-between px-4 py-3 border-b border-cream-300 flex-shrink-0">
+              <span className="text-sm font-medium text-ink-900 truncate">{title}</span>
               <button
                 type="button"
                 onClick={() => setOpen(false)}
-                className="p-2 -mr-2 text-gray-500 hover:text-gray-900 rounded-md hover:bg-gray-100 transition-colors"
+                className="p-2 -mr-2 text-ink-500 hover:text-ink-900 rounded-md hover:bg-cream-200 transition-colors"
                 aria-label={t('closeFeatured')}
               >
                 <svg className="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -101,7 +101,7 @@ export default function FeaturedDeckTile({
             <iframe
               src={deckUrl}
               title={title}
-              className="flex-1 w-full border-0 bg-white"
+              className="flex-1 w-full border-0 bg-cream-50"
               loading="lazy"
             />
           </div>

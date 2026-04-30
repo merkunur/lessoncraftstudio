@@ -20,10 +20,17 @@ export default function SubscribeCTA() {
   const t = useTranslations('homepage.subscription');
   const { user } = useAuth();
 
+  // Editorial-scholarly aesthetic — override the global Button's seller-era blue
+  // at this single homepage instance. Other pages keep blue until they're rebuilt.
+  const homepageButtonOverride =
+    '!bg-terracotta-400 !text-cream-50 hover:!bg-terracotta-500 focus:!ring-terracotta-400';
+  const homepageGhostOverride =
+    '!text-ink-700 hover:!bg-cream-200 focus:!ring-ink-700';
+
   if (user && isLcsSubscriptionActive(user)) {
     // Branch 3 — already subscribed. Per §5.5: do NOT let them re-checkout.
     return (
-      <Button variant="ghost" size="lg" href="/member">
+      <Button variant="ghost" size="lg" href="/member" className={homepageGhostOverride}>
         {t('alreadySubscribedCta')}
       </Button>
     );
@@ -35,7 +42,12 @@ export default function SubscribeCTA() {
   // sends a "set your password" email. Per the established pattern in
   // /api/webhooks/lemonsqueezy/route.ts.
   return (
-    <Button variant="primary" size="lg" href={SUBSCRIPTION_PRODUCT.buyNowUrl}>
+    <Button
+      variant="primary"
+      size="lg"
+      href={SUBSCRIPTION_PRODUCT.buyNowUrl}
+      className={homepageButtonOverride}
+    >
       {t('subscribeCta')}
     </Button>
   );

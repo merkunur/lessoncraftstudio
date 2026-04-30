@@ -6,14 +6,37 @@
   :root {
     --font-inter: 'Inter', system-ui, sans-serif;
     --font-poppins: 'Poppins', 'Inter', sans-serif;
+    --font-fraunces: 'Fraunces', 'Georgia', serif;
   }
-  
+
   html {
     scroll-behavior: smooth;
   }
-  
+
   body {
     @apply antialiased;
+    color: theme(colors.ink.600);
+    position: relative;
+  }
+
+  /* Paper-grain atmosphere for the editorial-scholarly aesthetic.
+   * Inline SVG noise data URL — single CSS layer, zero extra HTTP requests.
+   * 2% opacity (alpha 0.05 on the noise pattern) keeps it as texture, not decoration. */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.5;
+    background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.10 0 0 0 0 0.09 0 0 0 0 0.07 0 0 0 0.04 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 200px 200px;
+  }
+
+  /* Keep page content above the grain layer. */
+  body > * {
+    position: relative;
+    z-index: 1;
   }
 }
 

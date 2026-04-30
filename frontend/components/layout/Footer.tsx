@@ -31,46 +31,46 @@ export function Footer() {
   const t = useTranslations('footer');
 
   return (
-    <footer className="bg-white border-t border-gray-200 py-16 mt-24">
+    <footer className="bg-cream-50 border-t border-cream-300 py-16 mt-24">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* By language */}
           <div>
-            <h4 className="text-sm font-semibold text-gray-900 mb-4">{t('byLanguage')}</h4>
+            <h4 className="font-display text-sm font-semibold text-ink-900 mb-4">{t('byLanguage')}</h4>
             <ul className="space-y-2 text-sm">
               {FOOTER_LANGUAGES.map(lang => (
                 <li key={lang.code}>
-                  <Link href={`/${lang.code}`} className="text-gray-600 hover:text-gray-900">
+                  <Link href={`/${lang.code}`} className="text-ink-600 hover:text-ink-900">
                     {lang.label}
                   </Link>
                 </li>
               ))}
             </ul>
-            <p className="text-xs text-gray-500 mt-4">{t('moreLanguagesSoon')}</p>
+            <p className="text-xs text-ink-500 mt-4">{t('moreLanguagesSoon')}</p>
           </div>
 
           {/* By topic */}
           <div>
-            <h4 className="text-sm font-semibold text-gray-900 mb-4">{t('byTopic')}</h4>
+            <h4 className="font-display text-sm font-semibold text-ink-900 mb-4">{t('byTopic')}</h4>
             <ul className="space-y-2 text-sm">
               {FOOTER_TOPICS.map(topic => (
                 <li key={topic.slug}>
-                  <Link href={`/${locale}/topic/${topic.slug}/`} className="text-gray-600 hover:text-gray-900">
+                  <Link href={`/${locale}/topic/${topic.slug}/`} className="text-ink-600 hover:text-ink-900">
                     {topic.label}
                   </Link>
                 </li>
               ))}
             </ul>
-            <p className="text-xs text-gray-500 mt-4">{t('moreTopicsSoon')}</p>
+            <p className="text-xs text-ink-500 mt-4">{t('moreTopicsSoon')}</p>
           </div>
 
           {/* By exercise type */}
           <div>
-            <h4 className="text-sm font-semibold text-gray-900 mb-4">{t('byExerciseType')}</h4>
+            <h4 className="font-display text-sm font-semibold text-ink-900 mb-4">{t('byExerciseType')}</h4>
             <ul className="space-y-2 text-sm">
               {FOOTER_EXERCISE_TYPES.map(ex => (
                 <li key={ex.slug}>
-                  <Link href={`/${locale}/topic/${ex.slug}/`} className="text-gray-600 hover:text-gray-900">
+                  <Link href={`/${locale}/topic/${ex.slug}/`} className="text-ink-600 hover:text-ink-900">
                     {ex.label}
                   </Link>
                 </li>
@@ -80,23 +80,23 @@ export function Footer() {
         </div>
 
         {/* Brand strip */}
-        <div className="mt-16 pt-8 border-t border-gray-200 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-          <p className="text-sm text-gray-600">{t('copyright')}</p>
-          <ul className="flex items-center gap-4 text-sm text-gray-600">
+        <div className="mt-16 pt-8 border-t border-cream-300 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+          <p className="text-sm text-ink-600">{t('copyright')}</p>
+          <ul className="flex items-center gap-4 text-sm text-ink-600">
             <li>
-              <Link href={`/${locale}/contact`} className="hover:text-gray-900">
+              <Link href={`/${locale}/contact`} className="hover:text-ink-900">
                 {t('contact')}
               </Link>
             </li>
             <li aria-hidden="true">·</li>
             <li>
-              <Link href={`/${locale}/terms`} className="hover:text-gray-900">
+              <Link href={`/${locale}/terms`} className="hover:text-ink-900">
                 {t('terms')}
               </Link>
             </li>
             <li aria-hidden="true">·</li>
             <li>
-              <Link href={`/${locale}/privacy`} className="hover:text-gray-900">
+              <Link href={`/${locale}/privacy`} className="hover:text-ink-900">
                 {t('privacy')}
               </Link>
             </li>

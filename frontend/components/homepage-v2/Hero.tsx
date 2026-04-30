@@ -9,13 +9,13 @@ export default async function Hero({ locale }: { locale: string }) {
 
   return (
     <section className="container mx-auto px-4 max-w-4xl pt-20 pb-24 md:pt-28 md:pb-32">
-      <h1 className="font-display font-semibold text-4xl md:text-5xl lg:text-6xl text-gray-900 leading-tight tracking-tight">
+      <h1 className="font-display font-semibold text-4xl md:text-5xl lg:text-6xl text-ink-900 leading-tight tracking-tight">
         {t('title')}
       </h1>
-      <p className="mt-8 text-lg md:text-xl text-gray-600 leading-relaxed max-w-3xl">
+      <p className="mt-8 text-lg md:text-xl text-ink-600 leading-relaxed max-w-3xl">
         {t('subtitle')}
       </p>
-      <p className="mt-4 text-base md:text-lg font-light text-gray-500 leading-relaxed max-w-3xl">
+      <p className="mt-4 text-base md:text-lg font-light text-ink-500 leading-relaxed max-w-3xl">
         {t('interaction')}
       </p>
     </section>

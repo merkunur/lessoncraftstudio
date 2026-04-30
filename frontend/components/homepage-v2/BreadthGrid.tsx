@@ -40,10 +40,10 @@ export default async function BreadthGrid({ locale }: { locale: string }) {
   return (
     <section id="breadth" className="container mx-auto px-4 max-w-6xl py-20 md:py-28">
       <div className="max-w-3xl mb-12">
-        <h2 className="font-display font-semibold text-3xl md:text-4xl text-gray-900 tracking-tight">
+        <h2 className="font-display font-semibold text-3xl md:text-4xl text-ink-900 tracking-tight">
           {t('sectionTitle')}
         </h2>
-        <p className="mt-6 text-lg text-gray-600 leading-relaxed">
+        <p className="mt-6 text-lg text-ink-600 leading-relaxed">
           {t('intro')}
         </p>
       </div>
@@ -67,10 +67,10 @@ export default async function BreadthGrid({ locale }: { locale: string }) {
             <a
               key={`${deck.locale}-${deck.slug}`}
               href={deck.deckUrl}
-              className="group block rounded-xl overflow-hidden bg-white border border-gray-200 hover:border-gray-400 hover:shadow-lg transition-all"
+              className="group block rounded-md overflow-hidden bg-cream-50 border border-cream-300 hover:border-ink-700 hover:shadow-md transition-all"
               aria-label={`${t('openDeck')}: ${deck.title}`}
             >
-              <div className="relative aspect-[480/620] bg-gray-50">
+              <div className="relative aspect-[480/620] bg-cream-50">
                 <img
                   src={deck.thumbnailUrl}
                   alt={deck.title}
@@ -79,8 +79,8 @@ export default async function BreadthGrid({ locale }: { locale: string }) {
                 />
               </div>
               <div className="px-4 py-3 flex items-center justify-between gap-2">
-                <span className="text-sm font-medium text-gray-900 truncate">{deck.title}</span>
-                <span className="text-xs font-medium text-gray-500 flex-shrink-0" aria-label={`Language: ${deck.languageLabel}`}>
+                <span className="text-sm font-medium text-ink-900 truncate">{deck.title}</span>
+                <span className="text-xs font-medium text-ink-500 flex-shrink-0" aria-label={`Language: ${deck.languageLabel}`}>
                   {deck.languageLabel}
                 </span>
               </div>

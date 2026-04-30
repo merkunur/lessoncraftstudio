@@ -18,10 +18,10 @@ export default async function FreeExperience({ locale }: { locale: string }) {
   return (
     <section id="free" className="container mx-auto px-4 max-w-6xl py-20 md:py-28">
       <div className="max-w-3xl mb-12">
-        <h2 className="font-display font-semibold text-3xl md:text-4xl text-gray-900 tracking-tight">
+        <h2 className="font-display font-semibold text-3xl md:text-4xl text-ink-900 tracking-tight">
           {t('sectionTitle')}
         </h2>
-        <p className="mt-6 text-lg text-gray-600 leading-relaxed">
+        <p className="mt-6 text-lg text-ink-600 leading-relaxed">
           {t('intro')}
         </p>
       </div>
@@ -29,10 +29,10 @@ export default async function FreeExperience({ locale }: { locale: string }) {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12">
         {blocks.map(block => (
           <div key={block.key}>
-            <h3 className="font-display font-semibold text-xl text-gray-900 mb-3">
+            <h3 className="font-display font-semibold text-xl text-ink-900 mb-3">
               {block.title}
             </h3>
-            <p className="text-base text-gray-600 leading-relaxed">
+            <p className="text-base text-ink-600 leading-relaxed">
               {block.body}
             </p>
           </div>

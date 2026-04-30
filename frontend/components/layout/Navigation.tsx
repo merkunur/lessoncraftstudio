@@ -37,7 +37,7 @@ export function Navigation() {
   };
 
   return (
-    <nav className="bg-white border-b border-gray-100 relative z-50">
+    <nav className="bg-cream-50 border-b border-cream-300 relative z-50">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="flex items-center justify-between h-16 lg:h-[72px]">
           {/* Logo */}
@@ -57,7 +57,7 @@ export function Navigation() {
               </picture>
             </div>
 
-            <span className="font-display font-semibold text-base lg:text-lg text-gray-900 tracking-tight">
+            <span className="font-display font-semibold text-base lg:text-lg text-ink-900 tracking-tight">
               LessonCraftStudio
             </span>
           </Link>
@@ -65,11 +65,11 @@ export function Navigation() {
           {/* Desktop actions */}
           <div className="hidden lg:flex items-center space-x-3">
             <LanguageSelector />
-            <div className="h-5 w-px bg-gray-200" />
+            <div className="h-5 w-px bg-cream-300" />
             <div className="flex items-center space-x-2">
               {user ? (
                 <>
-                  <Link href="/member" className="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-colors">
+                  <Link href="/member" className="px-3 py-2 text-sm font-medium text-ink-600 hover:text-ink-900 hover:bg-cream-200 rounded-md transition-colors">
                     {t('memberArea')}
                   </Link>
                   <Button
@@ -100,7 +100,7 @@ export function Navigation() {
           {/* Mobile menu button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="lg:hidden p-2 text-gray-600 hover:text-gray-900"
+            className="lg:hidden p-2 text-ink-600 hover:text-ink-900"
             aria-label="Toggle menu"
           >
             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -111,20 +111,20 @@ export function Navigation() {
       {/* Mobile menu */}
       <div
         className={`lg:hidden ${mobileMenuOpen ? 'overflow-visible' : 'overflow-hidden'} transition-[max-height,border-color] duration-300 ease-in-out ${
-          mobileMenuOpen ? 'max-h-[500px] border-t border-gray-200' : 'max-h-0 border-t border-transparent'
-        } bg-white`}
+          mobileMenuOpen ? 'max-h-[500px] border-t border-cream-300' : 'max-h-0 border-t border-transparent'
+        } bg-cream-50`}
       >
         <div className="container mx-auto px-4 py-4 space-y-4">
           <div className="flex items-center justify-between">
-            <span className="text-sm text-gray-600">{localizedLanguageLabel[locale] || 'Language:'}</span>
+            <span className="text-sm text-ink-600">{localizedLanguageLabel[locale] || 'Language:'}</span>
             <LanguageSelector />
           </div>
 
           {user ? (
-            <div className="space-y-2 pt-4 border-t border-gray-200">
+            <div className="space-y-2 pt-4 border-t border-cream-300">
               <Link
                 href="/member"
-                className="block py-2 text-gray-600 hover:text-primary transition-colors font-medium"
+                className="block py-2 text-ink-600 hover:text-primary transition-colors font-medium"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {t('memberArea')}
@@ -143,7 +143,7 @@ export function Navigation() {
               </Button>
             </div>
           ) : (
-            <div className="pt-4 border-t border-gray-200 space-y-2">
+            <div className="pt-4 border-t border-cream-300 space-y-2">
               <Button variant="ghost" size="sm" href={`/${locale}/auth/signin`} className="w-full">
                 {t('signIn')}
               </Button>

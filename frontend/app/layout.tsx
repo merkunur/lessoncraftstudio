@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next';
-import { Inter, Poppins } from 'next/font/google';
+import { Inter, Poppins, Fraunces } from 'next/font/google';
 import { headers } from 'next/headers';
 import { getLocale } from 'next-intl/server';
 import './globals.css';
@@ -20,6 +20,16 @@ const poppins = Poppins({
   weight: ['400', '500', '600', '700'],
   subsets: ['latin'],
   variable: '--font-poppins',
+  display: 'swap',
+  preload: true,
+});
+
+// Fraunces — editorial-scholarly serif display face for the homepage rebuild.
+// Latin-ext subset covers all 11 site languages (German ä, Finnish ö, Swedish å, etc.).
+const fraunces = Fraunces({
+  weight: ['400', '500', '600', '700'],
+  subsets: ['latin', 'latin-ext'],
+  variable: '--font-fraunces',
   display: 'swap',
   preload: true,
 });
@@ -113,7 +123,7 @@ export default async function RootLayout({
         {/* YouTube preconnects moved to VideoLightbox component — only needed when video is present */}
         {/* M5: Removed vestigial Google Fonts preconnects (next/font self-hosts) and self dns-prefetch */}
       </head>
-      <body className={`${inter.variable} ${poppins.variable} min-h-screen bg-gray-50 font-sans`}>
+      <body className={`${inter.variable} ${poppins.variable} ${fraunces.variable} min-h-screen bg-cream-100 font-sans`}>
         <NavigationProgress />
         <Providers>
           {children}

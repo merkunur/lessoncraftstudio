@@ -73,3 +73,6 @@ export class RateLimiter {
 // Shared instances for common use cases
 export const licenseLookupLimiter = new RateLimiter(10, 60_000); // 10/min
 export const licenseCheckEmailLimiter = new RateLimiter(10, 60_000); // 10/min
+// Notify-me email capture per HOMEPAGE-IMPLEMENTATION-PROMPT.md §9 launch readiness item 1.
+// 5/min/IP per spec — public form, no auth, modest abuse ceiling.
+export const subscriptionInterestLimiter = new RateLimiter(5, 60_000); // 5/min

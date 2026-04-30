@@ -4,6 +4,21 @@ import SubscribeCTA from './SubscribeCTA';
 // Section 5 — Subscription per HOMEPAGE-COPY.md + HOMEPAGE-IMPLEMENTATION-PROMPT.md §5.5
 // + SUBSCRIPTION-SCOPE.md three-pillar structure (lesson plans, themed bundles,
 // workspace tooling). Server-rendered shell with the SubscribeCTA as a client child.
+//
+// HOMEPAGE_SUBSCRIBE_MODE env var (read here at static-generation time, passed into
+// SubscribeCTA as a prop because SubscribeCTA is a client component and can't read
+// non-NEXT_PUBLIC env vars directly):
+//   "subscribe"  → existing 3-state auth-aware Subscribe flow
+//   "notify_me"  → email-capture Notify-me form (default; per T5 launch readiness)
+// Per HOMEPAGE-IMPLEMENTATION-PROMPT.md §9 launch readiness item 1 + T5 default,
+// notify_me is the production default until subscription content lands.
+
+type SubscribeMode = 'subscribe' | 'notify_me';
+
+function resolveSubscribeMode(): SubscribeMode {
+  const raw = process.env.HOMEPAGE_SUBSCRIBE_MODE;
+  return raw === 'subscribe' ? 'subscribe' : 'notify_me';
+}
 
 export default async function SubscriptionSection({ locale }: { locale: string }) {
   const t = await getTranslations({ locale, namespace: 'homepage.subscription' });
@@ -42,7 +57,7 @@ export default async function SubscriptionSection({ locale }: { locale: string }
         <p className="font-display font-semibold text-2xl text-ink-900">
           {t('price')}
         </p>
-        <SubscribeCTA />
+        <SubscribeCTA mode={resolveSubscribeMode()} />
       </div>
     </section>
   );

@@ -104,6 +104,16 @@
       "price": "$69 per year. Cancel renewal anytime.",
       "subscribeCta": "Subscribe",
       "alreadySubscribedCta": "View your subscription"
+    },
+    "notify": {
+      "placeholder": "your@email.com",
+      "submit": "Notify me when subscription opens",
+      "submitting": "Sending…",
+      "confirmation": "Thanks — we'll email you when the subscription opens.",
+      "errors": {
+        "invalid_email": "Please enter a valid email address.",
+        "server": "Something went wrong. Please try again."
+      }
     }
   },
   "apps": {

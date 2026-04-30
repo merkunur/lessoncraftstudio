@@ -143,6 +143,20 @@ As the catalog keeps growing, the subscription is where you organize your own wo
 
 [Links to subscription signup flow.]
 
+#### Pre-launch Notify-me variant (feature-flagged)
+
+Section 5's CTA is gated by the `HOMEPAGE_SUBSCRIBE_MODE` env var per HOMEPAGE-IMPLEMENTATION-PROMPT.md §9 launch readiness item 1 + T5 default. Production default: `notify_me`. The flag flips to `subscribe` when subscription content lands (lesson plans, themed bundles per SUBSCRIPTION-SCOPE.md "Open items").
+
+When `HOMEPAGE_SUBSCRIBE_MODE=notify_me`, the Subscribe button is replaced by a single email-capture form. Section title and three pillar bodies stay unchanged. Logged-in users with an active LS subscription see the existing "Already subscribed" link in either mode (covers the edge case where the flag flips back to `notify_me` after some users have already subscribed).
+
+Form copy (English authored only this round; localization downstream):
+
+- Email field placeholder: **your@email.com**
+- Submit button: **Notify me when subscription opens**
+- Confirmation state (replaces the form after submit): **Thanks — we'll email you when the subscription opens.**
+
+No timeline language, no false specificity, no "already submitted" message on duplicate emails (idempotent at the API per `/api/subscription-interest`). Captured emails sit in the `subscription_interest` table until the operator runs the launch blast manually — email-sending infrastructure is out of scope for this round.
+
 ---
 
 ## Section 6: Footer

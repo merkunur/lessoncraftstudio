@@ -1252,3 +1252,16 @@ model Deck {
   @@map("decks")
 }
 
+// Notify-me email captures for the pre-launch home page.
+// Per HOMEPAGE-IMPLEMENTATION-PROMPT.md §9 launch readiness item 1 + T5 default.
+// HOMEPAGE_SUBSCRIBE_MODE=notify_me writes here; emails sit until the operator
+// runs the launch blast manually. Standalone table — no FK to User.
+model SubscriptionInterest {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  locale    String
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@index([createdAt])
+  @@map("subscription_interest")
+}

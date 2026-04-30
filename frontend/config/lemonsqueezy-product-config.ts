@@ -37,6 +37,11 @@ export const SUBSCRIPTION_PRODUCT = {
   // and the "is the user subscribed" predicate. Do not derive from productId
   // (numeric IDs are operationally fragile across Lemon Squeezy environments).
   slug: "lcs-subscription",
+
+  // Lemon Squeezy checkout URL — same pattern as the existing per-app/per-bundle
+  // buyNowUrl entries in lemonsqueezy-products.ts. Variant-id form: LS resolves
+  // 1595188 to the active checkout for this product.
+  buyNowUrl: "https://lessoncraftstudio-com.lemonsqueezy.com/buy/1595188",
 } as const;
 
 /**

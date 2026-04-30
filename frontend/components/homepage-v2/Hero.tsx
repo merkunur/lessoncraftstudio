@@ -15,6 +15,9 @@ export default async function Hero({ locale }: { locale: string }) {
       <p className="mt-8 text-lg md:text-xl text-gray-600 leading-relaxed max-w-3xl">
         {t('subtitle')}
       </p>
+      <p className="mt-4 text-base md:text-lg font-light text-gray-500 leading-relaxed max-w-3xl">
+        {t('interaction')}
+      </p>
     </section>
   );
 }

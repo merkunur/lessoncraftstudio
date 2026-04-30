@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import featuredDecksConfig from '@/config/homepage-featured-decks.json';
 import FeaturedDeckTile from './FeaturedDeckTile';
@@ -10,6 +9,13 @@ import FeaturedDeckTile from './FeaturedDeckTile';
 //
 // At launch: minimum 4 decks across en + de (per Brief B Phase 6 catalog state),
 // 4 different topics. Grid grows toward 8 as the catalog expands per §5.2 sizing logic.
+//
+// Non-featured tiles use plain <a>, NOT next/link. Deck pages at
+// /<locale>/decks/<slug>/ are served by an nginx location-block that intercepts
+// before reaching Next.js (per CLAUDE.md §15.7). Next.js Link does client-side
+// navigation that bypasses nginx and falls into the [locale]/[...slug] catch-all
+// which returns a 404 for unknown slugs. Plain <a> triggers a full HTTP GET
+// which nginx serves correctly.
 
 interface DeckEntry {
   slug: string;
@@ -58,7 +64,7 @@ export default async function BreadthGrid({ locale }: { locale: string }) {
             );
           }
           return (
-            <Link
+            <a
               key={`${deck.locale}-${deck.slug}`}
               href={deck.deckUrl}
               className="group block rounded-xl overflow-hidden bg-white border border-gray-200 hover:border-gray-400 hover:shadow-lg transition-all"
@@ -78,7 +84,7 @@ export default async function BreadthGrid({ locale }: { locale: string }) {
                   {deck.languageLabel}
                 </span>
               </div>
-            </Link>
+            </a>
           );
         })}
       </div>

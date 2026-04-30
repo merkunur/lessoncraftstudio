@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import Hero from '@/components/homepage-v2/Hero';
+import BreadthGrid from '@/components/homepage-v2/BreadthGrid';
 import FreeExperience from '@/components/homepage-v2/FreeExperience';
 
 // Cache headers per HOMEPAGE-IMPLEMENTATION-PROMPT.md §6 / CLAUDE.md §17.4 LCP target.
@@ -122,7 +123,8 @@ export default async function HomePage({ params }: { params: { locale: string } 
       {/* Section 1 — Hero */}
       <Hero locale={locale} />
 
-      {/* Section 2 — Breadth grid (added in pass 2) */}
+      {/* Section 2 — Breadth grid */}
+      <BreadthGrid locale={locale} />
 
       {/* Section 3 — Language proof (added in pass 3) */}
 

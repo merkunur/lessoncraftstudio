@@ -726,8 +726,9 @@
       '    padding: 0;',
       '    padding-bottom: 0;',
       '    min-height: 100vh;',
+      '    min-height: 100dvh;',
       '    display: flex;',
-      '    align-items: center;',
+      '    align-items: flex-start;',
       '    justify-content: center;',
       '  }',
       '  body.lcs-worksheet-landscape .lcs-bar { display: none; }',
@@ -738,6 +739,7 @@
       '    aspect-ratio: var(--lcs-worksheet-aspect, 1.27);',
       '    max-width: 100vw;',
       '    max-height: 100vh;',
+      '    max-height: 100dvh;',
       '    width: auto;',
       '    height: auto;',
       '    margin: 0;',
@@ -749,6 +751,14 @@
       '    height: 100%;',
       '    object-fit: contain;',
       '    border-radius: 0;',
+      '  }',
+      /* Box-sizing: border-box on overlay descendants prevents slot inputs
+       * (which have border + padding) from overflowing their % bounds and
+       * overlapping neighbor slots. Content-box default would add border +
+       * padding outside the declared 100% width/height. */
+      '  body.lcs-worksheet-landscape .lcs-overlay,',
+      '  body.lcs-worksheet-landscape .lcs-overlay * {',
+      '    box-sizing: border-box;',
       '  }',
       '  body.lcs-worksheet-landscape .lcs-footer {',
       '    position: fixed;',

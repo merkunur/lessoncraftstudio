@@ -5,18 +5,15 @@ import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/Button';
 import { usePathname } from 'next/navigation';
 import { LanguageSelector } from '@/components/LanguageSelector';
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 import { useAuth } from '@/contexts/auth-context';
-import { Menu, X, ChevronDown } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
-const resourceLinks = [
-  { key: 'tools', href: '/tools', icon: '\u{1F527}' },
-  { key: 'guides', href: '/guides', icon: '\u{1F4D6}' },
-  { key: 'bundles', href: '/bundles', icon: '\u{1F4E6}' },
-  { key: 'ideas', href: '/ideas', icon: '\u{1F4A1}' },
-  { key: 'start', href: '/start', icon: '\u{1F680}' },
-  { key: 'blog', href: '/blog', icon: '\u{1F4DD}' },
-] as const;
+// Minimal educator-aligned navigation per HOMEPAGE-IMPLEMENTATION-PROMPT.md §6.10 + T4 option C.
+// Drops the seller-era Free Tools / Resources dropdowns and the Apps / Pricing links —
+// those routes still exist (orphaned but reachable) and are removed in the broader
+// teardown per CLAUDE.md §11 / §17. The home page's Section 5 carries the Subscribe CTA;
+// the nav itself stays pared down.
 
 export function Navigation() {
   const t = useTranslations('navigation');
@@ -24,34 +21,24 @@ export function Navigation() {
   const locale = pathname.split('/')[1] || 'en';
   const { user } = useAuth();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [mobileResourcesOpen, setMobileResourcesOpen] = useState(false);
-  const closeTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const [desktopDropdownOpen, setDesktopDropdownOpen] = useState(false);
-  const freeToolsTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const [freeToolsDropdownOpen, setFreeToolsDropdownOpen] = useState(false);
-  const [mobileFreeToolsOpen, setMobileFreeToolsOpen] = useState(false);
 
-  const handleMouseEnter = () => {
-    if (closeTimeoutRef.current) clearTimeout(closeTimeoutRef.current);
-    setDesktopDropdownOpen(true);
-  };
-
-  const handleMouseLeave = () => {
-    closeTimeoutRef.current = setTimeout(() => setDesktopDropdownOpen(false), 150);
-  };
-
-  const handleFreeToolsMouseEnter = () => {
-    if (freeToolsTimeoutRef.current) clearTimeout(freeToolsTimeoutRef.current);
-    setFreeToolsDropdownOpen(true);
-  };
-
-  const handleFreeToolsMouseLeave = () => {
-    freeToolsTimeoutRef.current = setTimeout(() => setFreeToolsDropdownOpen(false), 150);
+  const localizedLanguageLabel: Record<string, string> = {
+    en: 'Language:',
+    de: 'Sprache:',
+    fr: 'Langue:',
+    es: 'Idioma:',
+    pt: 'Idioma:',
+    it: 'Lingua:',
+    nl: 'Taal:',
+    sv: 'Språk:',
+    da: 'Sprog:',
+    no: 'Språk:',
+    fi: 'Kieli:',
   };
 
   return (
-    <nav className="bg-white border-b border-gray-100 shadow-sm relative z-50">
-      <div className="container mx-auto px-4">
+    <nav className="bg-white border-b border-gray-100 relative z-50">
+      <div className="container mx-auto px-4 max-w-6xl">
         <div className="flex items-center justify-between h-16 lg:h-[72px]">
           {/* Logo */}
           <Link href={`/${locale}`} className="flex items-center space-x-2 lg:space-x-3 h-full relative z-10">
@@ -70,232 +57,47 @@ export function Navigation() {
               </picture>
             </div>
 
-            <div className="flex flex-col justify-center">
-              <span className="font-display font-semibold text-base lg:text-lg text-gray-900 tracking-tight leading-none">
-                LessonCraftStudio
-              </span>
-              <span className="hidden lg:block text-[10px] text-gray-400 tracking-wide leading-none">
-                {locale === 'de' ? 'Professioneller Druckvorlagen-Generator' :
-                 locale === 'fr' ? "Générateur d'Imprimables Professionnels" :
-                 locale === 'es' ? 'Generador de Imprimibles Profesionales' :
-                 locale === 'it' ? 'Generatore di Stampabili Professionali' :
-                 locale === 'pt' ? 'Gerador de Imprimíveis Profissionais' :
-                 locale === 'nl' ? 'Professionele Printbare Generator' :
-                 locale === 'sv' ? 'Professionell Utskriftsgenerator' :
-                 locale === 'da' ? 'Professionel Printbar Generator' :
-                 locale === 'no' ? 'Profesjonell Utskriftsgenerator' :
-                 locale === 'fi' ? 'Ammattimainen Tulostusgeneraattori' :
-                 'Professional Printable Generator'}
-              </span>
-            </div>
+            <span className="font-display font-semibold text-base lg:text-lg text-gray-900 tracking-tight">
+              LessonCraftStudio
+            </span>
           </Link>
 
-          {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-1">
-            <Link href={`/${locale}/apps`} className="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-colors whitespace-nowrap">
-              {t('apps')}
-            </Link>
-
-            <Link href={`/${locale}/pricing`} className="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-colors whitespace-nowrap">
-              {t('pricing')}
-            </Link>
-
-            {/* Free Tools Dropdown */}
-            <div
-              className="relative"
-              onMouseEnter={handleFreeToolsMouseEnter}
-              onMouseLeave={handleFreeToolsMouseLeave}
-            >
-              <button className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-colors whitespace-nowrap">
-                {t('tools')}
-                <ChevronDown size={16} className={`transition-transform ${freeToolsDropdownOpen ? 'rotate-180' : ''}`} />
-              </button>
-
-              <div className={`absolute top-full left-1/2 -translate-x-1/2 pt-2 z-50 transition-all duration-150 ${freeToolsDropdownOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-1 pointer-events-none'}`} aria-hidden={!freeToolsDropdownOpen}>
-                  <div className="bg-white rounded-xl shadow-md border border-gray-200 py-2 w-72">
-                    <Link
-                      href="/en/tools/niche-finder"
-                      className="flex items-start gap-3 mx-2 mb-1 px-3 py-2.5 rounded-lg hover:bg-gray-50 transition-colors"
-                    >
-                      <span className="text-lg mt-0.5" aria-hidden="true">{'\u{1F50D}'}</span>
-                      <div className="flex-1 min-w-0">
-                        <div className="text-sm font-semibold text-gray-900">Printable Niche Finder</div>
-                        <div className="text-xs text-gray-500 mt-0.5">50+ profitable niches for Etsy, KDP &amp; TPT sellers</div>
-                      </div>
-                    </Link>
-                    <Link
-                      href="/en/tools/kdp-royalty-calculator"
-                      className="flex items-start gap-3 mx-2 mb-1 px-3 py-2.5 rounded-lg hover:bg-gray-50 transition-colors"
-                    >
-                      <span className="text-lg mt-0.5" aria-hidden="true">{'\u{1F9EE}'}</span>
-                      <div className="flex-1 min-w-0">
-                        <div className="text-sm font-semibold text-gray-900">KDP Royalty Calculator</div>
-                        <div className="text-xs text-gray-500 mt-0.5">Free Amazon KDP printing cost &amp; profit tool</div>
-                      </div>
-                    </Link>
-                    <Link
-                      href="/en/tools/kdp-size-calculator"
-                      className="flex items-start gap-3 mx-2 mb-1 px-3 py-2.5 rounded-lg hover:bg-gray-50 transition-colors"
-                    >
-                      <span className="text-lg mt-0.5" aria-hidden="true">{'\u{1F4D0}'}</span>
-                      <div className="flex-1 min-w-0">
-                        <div className="text-sm font-semibold text-gray-900">KDP Cover Size Calculator</div>
-                        <div className="text-xs text-gray-500 mt-0.5">Spine width, cover dimensions, bleed &amp; margins</div>
-                      </div>
-                    </Link>
-                    <Link
-                      href="/en/tools/activity-book-planner"
-                      className="flex items-start gap-3 mx-2 mb-1 px-3 py-2.5 rounded-lg hover:bg-gray-50 transition-colors"
-                    >
-                      <span className="text-lg mt-0.5" aria-hidden="true">{'\u{1F4DA}'}</span>
-                      <div className="flex-1 min-w-0">
-                        <div className="text-sm font-semibold text-gray-900">KDP Activity Book Planner</div>
-                        <div className="text-xs text-gray-500 mt-0.5">Plan your interior: sections, pages, costs &amp; royalty</div>
-                      </div>
-                    </Link>
-                    <Link
-                      href="/en/tools/profit-hub"
-                      className="flex items-start gap-3 mx-2 px-3 py-2.5 rounded-lg hover:bg-gray-50 transition-colors"
-                    >
-                      <span className="text-lg mt-0.5" aria-hidden="true">{'\u{1F4B0}'}</span>
-                      <div className="flex-1 min-w-0">
-                        <div className="text-sm font-semibold text-gray-900">Printable Profit Hub</div>
-                        <div className="text-xs text-gray-500 mt-0.5">Compare profit on Etsy, Gumroad, TPT, KDP &amp; 3 more</div>
-                      </div>
-                    </Link>
-                  </div>
-                </div>
-            </div>
-
-            {/* Resources Dropdown */}
-            <div
-              className="relative"
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
-            >
-              <button className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-colors whitespace-nowrap">
-                {t('resources')}
-                <ChevronDown size={16} className={`transition-transform ${desktopDropdownOpen ? 'rotate-180' : ''}`} />
-              </button>
-
-              <div className={`absolute top-full left-1/2 -translate-x-1/2 pt-2 z-50 transition-all duration-150 ${desktopDropdownOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-1 pointer-events-none'}`} aria-hidden={!desktopDropdownOpen}>
-                  <div className="bg-white rounded-xl shadow-md border border-gray-200 py-2 w-72">
-                    {/* Featured tool callout (English-only — tools are en only) */}
-                    <Link
-                      href="/en/tools/niche-finder"
-                      className="flex items-start gap-3 mx-2 mb-2 px-3 py-2.5 rounded-lg bg-gradient-to-r from-primary-50 to-white ring-1 ring-primary/20 hover:ring-primary transition-colors"
-                    >
-                      <span className="text-lg mt-0.5" aria-hidden="true">{'\u{1F50D}'}</span>
-                      <div className="flex-1 min-w-0">
-                        <div className="flex items-center gap-2">
-                          <div className="text-sm font-semibold text-gray-900">Printable Niche Finder</div>
-                          <span className="text-[9px] font-bold uppercase tracking-wider bg-primary text-white rounded px-1.5 py-0.5">New</span>
-                        </div>
-                        <div className="text-xs text-gray-500 mt-0.5">50+ profitable niches for Etsy, KDP &amp; TPT sellers</div>
-                      </div>
-                    </Link>
-                    <Link
-                      href="/en/tools/kdp-royalty-calculator"
-                      className="flex items-start gap-3 mx-2 mb-2 px-3 py-2.5 rounded-lg bg-gradient-to-r from-primary-50 to-white ring-1 ring-primary/20 hover:ring-primary transition-colors"
-                    >
-                      <span className="text-lg mt-0.5" aria-hidden="true">{'\u{1F9EE}'}</span>
-                      <div className="flex-1 min-w-0">
-                        <div className="flex items-center gap-2">
-                          <div className="text-sm font-semibold text-gray-900">KDP Royalty Calculator</div>
-                          <span className="text-[9px] font-bold uppercase tracking-wider bg-primary text-white rounded px-1.5 py-0.5">New</span>
-                        </div>
-                        <div className="text-xs text-gray-500 mt-0.5">Free Amazon KDP printing cost &amp; profit tool</div>
-                      </div>
-                    </Link>
-                    <Link
-                      href="/en/tools/kdp-size-calculator"
-                      className="flex items-start gap-3 mx-2 mb-2 px-3 py-2.5 rounded-lg bg-gradient-to-r from-primary-50 to-white ring-1 ring-primary/20 hover:ring-primary transition-colors"
-                    >
-                      <span className="text-lg mt-0.5" aria-hidden="true">{'\u{1F4D0}'}</span>
-                      <div className="flex-1 min-w-0">
-                        <div className="flex items-center gap-2">
-                          <div className="text-sm font-semibold text-gray-900">KDP Cover Size Calculator</div>
-                          <span className="text-[9px] font-bold uppercase tracking-wider bg-primary text-white rounded px-1.5 py-0.5">New</span>
-                        </div>
-                        <div className="text-xs text-gray-500 mt-0.5">Spine width, cover dimensions, bleed &amp; margins</div>
-                      </div>
-                    </Link>
-                    <Link
-                      href="/en/tools/activity-book-planner"
-                      className="flex items-start gap-3 mx-2 mb-2 px-3 py-2.5 rounded-lg bg-gradient-to-r from-primary-50 to-white ring-1 ring-primary/20 hover:ring-primary transition-colors"
-                    >
-                      <span className="text-lg mt-0.5" aria-hidden="true">{'\u{1F4DA}'}</span>
-                      <div className="flex-1 min-w-0">
-                        <div className="flex items-center gap-2">
-                          <div className="text-sm font-semibold text-gray-900">KDP Activity Book Planner</div>
-                          <span className="text-[9px] font-bold uppercase tracking-wider bg-primary text-white rounded px-1.5 py-0.5">New</span>
-                        </div>
-                        <div className="text-xs text-gray-500 mt-0.5">Plan your interior: sections, pages, costs &amp; royalty</div>
-                      </div>
-                    </Link>
-                    <Link
-                      href="/en/tools/profit-hub"
-                      className="flex items-start gap-3 mx-2 mb-2 px-3 py-2.5 rounded-lg bg-gradient-to-r from-primary-50 to-white ring-1 ring-primary/20 hover:ring-primary transition-colors"
-                    >
-                      <span className="text-lg mt-0.5" aria-hidden="true">{'\u{1F4B0}'}</span>
-                      <div className="flex-1 min-w-0">
-                        <div className="flex items-center gap-2">
-                          <div className="text-sm font-semibold text-gray-900">Printable Profit Hub</div>
-                          <span className="text-[9px] font-bold uppercase tracking-wider bg-primary text-white rounded px-1.5 py-0.5">New</span>
-                        </div>
-                        <div className="text-xs text-gray-500 mt-0.5">Compare profit on Etsy, Gumroad, TPT, KDP &amp; 3 more</div>
-                      </div>
-                    </Link>
-                    <div className="border-t border-gray-100 mb-1" aria-hidden="true" />
-                    {resourceLinks.map(item => (
-                      <Link
-                        key={item.key}
-                        href={`/${locale}${item.href}`}
-                        className="flex items-start gap-3 px-4 py-2.5 hover:bg-gray-50 transition-colors"
-                      >
-                        <span className="text-lg mt-0.5">{item.icon}</span>
-                        <div>
-                          <div className="text-sm font-medium text-gray-900">{t(item.key)}</div>
-                          <div className="text-xs text-gray-500">{t(`resourcesDesc.${item.key}`)}</div>
-                        </div>
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-            </div>
-
-            <Link href="/member" className="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-colors whitespace-nowrap">
-              {t('memberArea')}
-            </Link>
-          </div>
-
-          {/* Desktop Actions */}
+          {/* Desktop actions */}
           <div className="hidden lg:flex items-center space-x-3">
             <LanguageSelector />
             <div className="h-5 w-px bg-gray-200" />
             <div className="flex items-center space-x-2">
               {user ? (
-                <Button variant="ghost" size="sm" onClick={() => {
-                  localStorage.removeItem('accessToken');
-                  localStorage.removeItem('refreshToken');
-                  window.location.href = `/${locale}`;
-                }}>
-                  {t('signOut')}
-                </Button>
+                <>
+                  <Link href="/member" className="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-colors">
+                    {t('memberArea')}
+                  </Link>
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    onClick={() => {
+                      localStorage.removeItem('accessToken');
+                      localStorage.removeItem('refreshToken');
+                      window.location.href = `/${locale}`;
+                    }}
+                  >
+                    {t('signOut')}
+                  </Button>
+                </>
               ) : (
                 <>
                   <Button variant="ghost" size="sm" href={`/${locale}/auth/signin`}>
                     {t('signIn')}
                   </Button>
                   <Button variant="primary" size="sm" href={`/${locale}/auth/signup`}>
-                    {t('startFree')}
+                    {t('signUp')}
                   </Button>
                 </>
               )}
             </div>
           </div>
 
-          {/* Mobile Menu Button */}
+          {/* Mobile menu button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="lg:hidden p-2 text-gray-600 hover:text-gray-900"
@@ -306,207 +108,51 @@ export function Navigation() {
         </div>
       </div>
 
-      {/* Mobile Menu - CSS transition instead of conditional render to avoid CLS */}
+      {/* Mobile menu */}
       <div
         className={`lg:hidden ${mobileMenuOpen ? 'overflow-visible' : 'overflow-hidden'} transition-[max-height,border-color] duration-300 ease-in-out ${
-          mobileMenuOpen ? 'max-h-[700px] border-t border-gray-200' : 'max-h-0 border-t border-transparent'
+          mobileMenuOpen ? 'max-h-[500px] border-t border-gray-200' : 'max-h-0 border-t border-transparent'
         } bg-white`}
       >
         <div className="container mx-auto px-4 py-4 space-y-4">
-            {/* Mobile Navigation Links */}
-            <Link
-              href={`/${locale}/apps`}
-              className="block py-2 text-gray-600 hover:text-primary transition-colors"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              {t('apps')}
-            </Link>
-
-            <Link
-              href={`/${locale}/pricing`}
-              className="block py-2 text-gray-600 hover:text-primary transition-colors"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              {t('pricing')}
-            </Link>
-
-            {/* Mobile Free Tools Section */}
-            <div>
-              <button
-                onClick={() => setMobileFreeToolsOpen(!mobileFreeToolsOpen)}
-                className="flex items-center justify-between w-full py-2 text-gray-600 hover:text-primary transition-colors"
-              >
-                <span>{t('tools')}</span>
-                <ChevronDown size={16} className={`transition-transform ${mobileFreeToolsOpen ? 'rotate-180' : ''}`} />
-              </button>
-              {mobileFreeToolsOpen && (
-                <div className="pl-4 space-y-1">
-                  <Link
-                    href="/en/tools/niche-finder"
-                    className="flex items-center gap-2 py-2 text-sm text-gray-600 hover:text-primary transition-colors"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    <span aria-hidden="true">{'\u{1F50D}'}</span>
-                    <span>Printable Niche Finder</span>
-                  </Link>
-                  <Link
-                    href="/en/tools/kdp-royalty-calculator"
-                    className="flex items-center gap-2 py-2 text-sm text-gray-600 hover:text-primary transition-colors"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    <span aria-hidden="true">{'\u{1F9EE}'}</span>
-                    <span>KDP Royalty Calculator</span>
-                  </Link>
-                  <Link
-                    href="/en/tools/kdp-size-calculator"
-                    className="flex items-center gap-2 py-2 text-sm text-gray-600 hover:text-primary transition-colors"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    <span aria-hidden="true">{'\u{1F4D0}'}</span>
-                    <span>KDP Cover Size Calculator</span>
-                  </Link>
-                  <Link
-                    href="/en/tools/activity-book-planner"
-                    className="flex items-center gap-2 py-2 text-sm text-gray-600 hover:text-primary transition-colors"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    <span aria-hidden="true">{'\u{1F4DA}'}</span>
-                    <span>KDP Activity Book Planner</span>
-                  </Link>
-                  <Link
-                    href="/en/tools/profit-hub"
-                    className="flex items-center gap-2 py-2 text-sm text-gray-600 hover:text-primary transition-colors"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    <span aria-hidden="true">{'\u{1F4B0}'}</span>
-                    <span>Printable Profit Hub</span>
-                  </Link>
-                </div>
-              )}
-            </div>
-
-            {/* Mobile Resources Section */}
-            <div>
-              <button
-                onClick={() => setMobileResourcesOpen(!mobileResourcesOpen)}
-                className="flex items-center justify-between w-full py-2 text-gray-600 hover:text-primary transition-colors"
-              >
-                <span>{t('resources')}</span>
-                <ChevronDown size={16} className={`transition-transform ${mobileResourcesOpen ? 'rotate-180' : ''}`} />
-              </button>
-              {mobileResourcesOpen && (
-                <div className="pl-4 space-y-1">
-                  {/* Featured tools (English only) */}
-                  <Link
-                    href="/en/tools/niche-finder"
-                    className="flex items-center gap-2 py-2 text-sm font-semibold text-primary hover:text-primary-700 transition-colors"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    <span aria-hidden="true">{'\u{1F50D}'}</span>
-                    <span>Printable Niche Finder</span>
-                    <span className="text-[9px] font-bold uppercase tracking-wider bg-primary text-white rounded px-1.5 py-0.5">New</span>
-                  </Link>
-                  <Link
-                    href="/en/tools/kdp-royalty-calculator"
-                    className="flex items-center gap-2 py-2 text-sm font-semibold text-primary hover:text-primary-700 transition-colors"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    <span aria-hidden="true">{'\u{1F9EE}'}</span>
-                    <span>KDP Royalty Calculator</span>
-                    <span className="text-[9px] font-bold uppercase tracking-wider bg-primary text-white rounded px-1.5 py-0.5">New</span>
-                  </Link>
-                  <Link
-                    href="/en/tools/kdp-size-calculator"
-                    className="flex items-center gap-2 py-2 text-sm font-semibold text-primary hover:text-primary-700 transition-colors"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    <span aria-hidden="true">{'\u{1F4D0}'}</span>
-                    <span>KDP Cover Size Calculator</span>
-                    <span className="text-[9px] font-bold uppercase tracking-wider bg-primary text-white rounded px-1.5 py-0.5">New</span>
-                  </Link>
-                  <Link
-                    href="/en/tools/activity-book-planner"
-                    className="flex items-center gap-2 py-2 text-sm font-semibold text-primary hover:text-primary-700 transition-colors"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    <span aria-hidden="true">{'\u{1F4DA}'}</span>
-                    <span>KDP Activity Book Planner</span>
-                    <span className="text-[9px] font-bold uppercase tracking-wider bg-primary text-white rounded px-1.5 py-0.5">New</span>
-                  </Link>
-                  <Link
-                    href="/en/tools/profit-hub"
-                    className="flex items-center gap-2 py-2 text-sm font-semibold text-primary hover:text-primary-700 transition-colors"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    <span aria-hidden="true">{'\u{1F4B0}'}</span>
-                    <span>Printable Profit Hub</span>
-                    <span className="text-[9px] font-bold uppercase tracking-wider bg-primary text-white rounded px-1.5 py-0.5">New</span>
-                  </Link>
-                  {resourceLinks.map(item => (
-                    <Link
-                      key={item.key}
-                      href={`/${locale}${item.href}`}
-                      className="flex items-center gap-2 py-2 text-sm text-gray-600 hover:text-primary transition-colors"
-                      onClick={() => setMobileMenuOpen(false)}
-                    >
-                      <span>{item.icon}</span>
-                      <span>{t(item.key)}</span>
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
-
-            <Link
-              href="/member"
-              className="block py-2 text-gray-600 hover:text-primary transition-colors font-medium"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              {t('memberArea')}
-            </Link>
-
-            {/* Mobile Actions */}
-            <div className="pt-4 border-t border-gray-200 space-y-3">
-              <div className="flex items-center justify-between">
-                <span className="text-sm text-gray-600">{{ en:'Language:', de:'Sprache:', fr:'Langue:', es:'Idioma:', pt:'Idioma:', it:'Lingua:', nl:'Taal:', sv:'Språk:', da:'Sprog:', no:'Språk:', fi:'Kieli:' }[locale] || 'Language:'}</span>
-                <LanguageSelector />
-              </div>
-
-              {user ? (
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  className="w-full"
-                  onClick={() => {
-                    localStorage.removeItem('accessToken');
-                    localStorage.removeItem('refreshToken');
-                    window.location.href = `/${locale}`;
-                  }}
-                >
-                  {t('signOut')}
-                </Button>
-              ) : (
-                <div className="space-y-2">
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    href={`/${locale}/auth/signin`}
-                    className="w-full"
-                  >
-                    {t('signIn')}
-                  </Button>
-                  <Button
-                    variant="primary"
-                    size="sm"
-                    href={`/${locale}/auth/signup`}
-                    className="w-full"
-                  >
-                    {t('startFree')}
-                  </Button>
-                </div>
-              )}
-            </div>
+          <div className="flex items-center justify-between">
+            <span className="text-sm text-gray-600">{localizedLanguageLabel[locale] || 'Language:'}</span>
+            <LanguageSelector />
           </div>
+
+          {user ? (
+            <div className="space-y-2 pt-4 border-t border-gray-200">
+              <Link
+                href="/member"
+                className="block py-2 text-gray-600 hover:text-primary transition-colors font-medium"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                {t('memberArea')}
+              </Link>
+              <Button
+                variant="ghost"
+                size="sm"
+                className="w-full"
+                onClick={() => {
+                  localStorage.removeItem('accessToken');
+                  localStorage.removeItem('refreshToken');
+                  window.location.href = `/${locale}`;
+                }}
+              >
+                {t('signOut')}
+              </Button>
+            </div>
+          ) : (
+            <div className="pt-4 border-t border-gray-200 space-y-2">
+              <Button variant="ghost" size="sm" href={`/${locale}/auth/signin`} className="w-full">
+                {t('signIn')}
+              </Button>
+              <Button variant="primary" size="sm" href={`/${locale}/auth/signup`} className="w-full">
+                {t('signUp')}
+              </Button>
+            </div>
+          )}
+        </div>
       </div>
     </nav>
   );

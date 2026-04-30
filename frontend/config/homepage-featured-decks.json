@@ -1,0 +1,51 @@
+{
+  "_comment": "Curated breadth grid for the home page. The featured deck is identified by featured: true (positional order is not load-bearing — the implementer should select by flag, not by index). Featured deck plays inline on click; remaining decks link through to detail pages. See HOMEPAGE-IMPLEMENTATION-PROMPT.md §5.2 and §6.3. Operator-managed via git; no DB query at home-page render. File belongs at frontend/config/homepage-featured-decks.json. Thumbnail and deck URLs follow the canonical nginx serving pattern from CLAUDE.md §15.7 (line 957): https://lessoncraftstudio.com/<locale>/decks/<slug>/. The topic field supports the no-two-thumbnails-on-same-topic invariant from HOMEPAGE-SAVE-STATE.md Section 2.",
+
+  "decks": [
+    {
+      "slug": "picture-path",
+      "locale": "de",
+      "title": "Picture Path",
+      "topic": "picture-path",
+      "languageLabel": "DE",
+      "thumbnailUrl": "/de/decks/picture-path/thumbnail.png",
+      "deckUrl": "/de/decks/picture-path/",
+      "featured": true,
+      "_note": "Featured tile — plays inline on click. Picked because picture-path most directly demonstrates the hero claim (K-3 illustration library + vocabulary system), and German signals non-English-first at the page's most prominent interaction point. en/picture-path is currently archived per Sub-phase 5.5 verification, which constrained but did not contradict this choice."
+    },
+    {
+      "slug": "addition-image-image",
+      "locale": "en",
+      "title": "Addition with Pictures",
+      "topic": "addition-image-image",
+      "languageLabel": "EN",
+      "thumbnailUrl": "/en/decks/addition-image-image/thumbnail.png",
+      "deckUrl": "/en/decks/addition-image-image/",
+      "featured": false
+    },
+    {
+      "slug": "sudoku",
+      "locale": "de",
+      "title": "Sudoku",
+      "topic": "sudoku",
+      "languageLabel": "DE",
+      "thumbnailUrl": "/de/decks/sudoku/thumbnail.png",
+      "deckUrl": "/de/decks/sudoku/",
+      "featured": false
+    },
+    {
+      "slug": "cryptogram",
+      "locale": "en",
+      "title": "Cryptogram",
+      "topic": "cryptogram",
+      "languageLabel": "EN",
+      "thumbnailUrl": "/en/decks/cryptogram/thumbnail.png",
+      "deckUrl": "/en/decks/cryptogram/",
+      "featured": false
+    }
+  ],
+
+  "_known_state_notes": "Deck titles are currently English-only across the catalog per the deferred-queue entry on apps hardcoding English title literals in bundle.title. The DE-labeled decks above carry English titles for that reason; this is accurate to current platform state and self-resolves when title localization ships. Implementer: do not 'fix' this by translating titles inline.",
+
+  "_growth_plan": "As Tier 2 (es, nl), Tier 3 (sv, fi, no), and Tier 4 (fr, it, da, pt) launch content per CLAUDE.md §19, add decks here until reaching the target of 8 across 4+ languages and 8 different topics. Until then, keep the grid at 4 — empty slots are forbidden per HOMEPAGE-IMPLEMENTATION-PROMPT.md §5.2 ('Do not pad the grid with placeholder mockups')."
+}

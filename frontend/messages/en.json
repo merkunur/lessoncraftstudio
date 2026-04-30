@@ -25,94 +25,84 @@
     "pricing": "Pricing"
   },
   "homepage": {
+    "meta": {
+      "title": "LessonCraftStudio: K-3 worksheets in 11 languages, done right",
+      "description": "K-3 worksheets in 11 languages with correct gender, plurals, and diacritics in every one. Built for dual-language programs, bilingual classrooms, and international schools.",
+      "ogTitle": "Worksheets that actually work in your second language.",
+      "ogDescription": "A curated K-3 illustration library paired with a vocabulary system across 11 languages — correct gender, plurals, and diacritics. For teachers in dual-language and multilingual classrooms.",
+      "ogAlt": "LessonCraftStudio — K-3 worksheets in 11 languages"
+    },
     "hero": {
-      "title": "Create Professional Worksheets in Minutes",
-      "subtitle": "33 professional printable generators for Etsy sellers, KDP publishers, and printable entrepreneurs. Commercial license included.",
-      "cta": {
-        "tryFree": "Try Word Search Free",
-        "viewApps": "View All Apps"
-      }
+      "title": "Worksheets that actually work in your second language.",
+      "subtitle": "A curated library of K-3 illustrations paired with a vocabulary system across 11 languages — correct gender, plurals, and diacritics in every one. Built for teachers in dual-language programs, bilingual classrooms, and international schools."
     },
-    "features": {
-      "title": "Everything You Need for Publishing Success",
-      "items": {
-        "apps": {
-          "title": "33 Worksheet Apps",
-          "description": "From math and reading to puzzles and games"
-        },
-        "images": {
-          "title": "100+ Image Themes",
-          "description": "Child-friendly illustrations with commercial license"
-        },
-        "languages": {
-          "title": "11 Languages",
-          "description": "Create worksheets in multiple languages"
-        },
-        "pod": {
-          "title": "POD License Included",
-          "description": "Sell your worksheets on any platform"
-        }
-      }
+    "breadthGrid": {
+      "sectionTitle": "Across topics, across languages",
+      "intro": "A few decks from across the catalog. Open the first one to play it here, or click any other to see its full page.",
+      "featuredBadge": "Featured",
+      "playInline": "Play this deck",
+      "openDeck": "Open deck",
+      "closeFeatured": "Close",
+      "loadingDeck": "Loading deck…"
     },
-    "samples": {
-      "title": "Discover Our Creative Worksheets",
-      "subtitle": "Explore our collection of beautifully designed educational worksheets",
-      "viewAll": "Explore All 33 Worksheet Generators",
-      "featured": "Featured",
-      "viewSample": "View Sample",
-      "tryGenerator": "Try This Worksheet Generator",
-      "close": "Close",
-      "categories": {
-        "all": "All Worksheets",
-        "math": "Mathematics",
-        "literacy": "Literacy",
-        "puzzle": "Puzzles",
-        "logic": "Logic"
-      }
-    },
-    "pricing": {
-      "title": "Simple, Transparent Pricing",
-      "monthly": "Monthly",
-      "yearly": "Yearly (Save 20%)",
-      "free": {
-        "name": "Free",
-        "price": "$0",
-        "features": [
-          "Word Search Studio Pro",
-          "Limited image library",
-          "Watermarked output",
-          "Basic support"
-        ],
-        "cta": "Start Free"
+    "languageProof": {
+      "sectionTitle": "Where most worksheets break down",
+      "intro": "Generic worksheets translated by software get the words mostly right and the language wrong. A masculine noun marked feminine. A missing umlaut. A plural that doesn't exist. Small errors a child can't catch but a teacher can't unsee.",
+      "subIntro": "Two examples, side by side.",
+      "german": {
+        "heading": "German",
+        "annotation1": "Every German noun is capitalized. Schule, never schule.",
+        "annotation2": "Schule is feminine: die Schule. Not der, not das.",
+        "annotation3": "The plural is Schulen — -n ending, not English -s. Schules isn't a German word.",
+        "ariaLabel": "Side-by-side comparison: an auto-translated German worksheet with three errors — wrong feminine article ('der' instead of 'die'), uncapitalized noun ('schule' instead of 'Schule'), and English-pluralized form ('schules' instead of 'Schulen') — next to the LessonCraftStudio version with 'die Schule' and 'die Schulen' rendered correctly."
       },
-      "core": {
-        "name": "Core Bundle",
-        "price": "$15",
-        "priceYearly": "$144",
-        "features": [
-          "10 most popular apps",
-          "Full image library access",
-          "No watermarks",
-          "POD commercial license",
-          "Priority support"
-        ],
-        "cta": "Start Core"
+      "french": {
+        "heading": "French",
+        "annotation1": "École starts with a vowel, so la elides to l'. L'école, not la école.",
+        "annotation2": "À + le contracts to au, but before a vowel it's à l'. À l'école, not à le école.",
+        "annotation3": "Accents are part of the spelling. École takes an acute on the É; ecole is wrong.",
+        "ariaLabel": "Side-by-side comparison: an auto-translated French worksheet with three errors — un-elided article ('la école' instead of 'l'école'), un-contracted preposition ('à le école' instead of 'à l'école'), and missing acute accent ('ecole' instead of 'école') — next to the LessonCraftStudio version with 'l'école', 'à l'école', and 'école' rendered correctly."
       },
-      "full": {
-        "name": "Full Access",
-        "price": "$25",
-        "priceYearly": "$240",
-        "features": [
-          "All 33 apps",
-          "Full image library access",
-          "No watermarks",
-          "POD commercial license",
-          "Priority support",
-          "Early access to new apps"
-        ],
-        "cta": "Start Full Access",
-        "popular": "Most Popular"
+      "closingLine": "Errors like these compound across a vocabulary set. We built the vocabulary system first. The illustrations came after."
+    },
+    "freeExperience": {
+      "sectionTitle": "The catalog is free",
+      "intro": "No account, no paywall, no signup wall. Browse, print, embed, and share — every deck, in every language.",
+      "browse": {
+        "title": "Browse the full catalog",
+        "body": "Every deck across every language is open to everyone. Browse by language or topic from the links at the bottom of this page. Open any deck and play it directly in the browser."
+      },
+      "pdf": {
+        "title": "Generate a printable PDF",
+        "body": "One click from any deck. The PDF mirrors the on-screen worksheet — same illustrations, same language, same vocabulary. Take it home, photocopy it for the class, leave it for a substitute teacher."
+      },
+      "embed": {
+        "title": "Embed any deck on your site",
+        "body": "Paste an embed code into your class blog, school site, or learning-platform page. Students play the deck where they already are. The embed is fully free and stays free."
+      },
+      "share": {
+        "title": "Share a deck via link",
+        "body": "One link, anywhere — email, parent newsletter, classroom chat, your LMS. Students open the link and play in the browser. No login, no account, no friction."
       }
+    },
+    "subscription": {
+      "sectionTitle": "For teachers who use the catalog every week",
+      "intro": "Free works for browsing and using individual decks. The subscription is for teachers who've integrated LessonCraftStudio into their weekly teaching and want their practice organized.",
+      "lessonPlans": {
+        "title": "Lesson plans",
+        "body": "Pre-written lesson plans paired with the decks they go with. Print one out, walk into your classroom, teach the lesson. Written for K-3 in dual-language and multilingual programs, with a consistent format you learn once."
+      },
+      "themedBundles": {
+        "title": "Themed bundles",
+        "body": "Halloween in 11 languages, on the same week your school runs it. The first week of school in dual-language. A unit on numbers your Spanish section and your English section can teach in parallel from one plan. Curated bundles for the moments that come around every year, each one paired with its own lesson plan — the bundle is a teaching unit, not a pile of materials."
+      },
+      "workspace": {
+        "title": "Your workspace",
+        "body": "As the catalog keeps growing, the subscription is where you organize your own work. Save decks into collections. Tag them with the names of your own teaching units. Filter by criteria the catalog can't see — what you've already used, what's tagged to your Week 3 vocabulary, what's new in the topics you actually teach. Bulk tools for working at scale. A personal workspace that picks up where you left off."
+      },
+      "price": "$69 per year. Cancel renewal anytime.",
+      "subscribeCta": "Subscribe",
+      "alreadySubscribedCta": "View your subscription"
     }
   },
   "apps": {
@@ -951,23 +941,15 @@
     "emailLabel": "Email:"
   },
   "footer": {
-    "companyName": "LessonCraftStudio",
-    "companyTagline": "Create and sell professional printables for Etsy, KDP & more.",
-    "support": {
-      "title": "Support",
-      "helpCenter": "Help Center",
-      "contact": "Contact",
-      "faq": "FAQ",
-      "about": "About Us",
-      "memberArea": "Member Area"
-    },
-    "legal": {
-      "title": "Legal",
-      "terms": "Terms of Service",
-      "privacy": "Privacy Policy",
-      "license": "License Terms"
-    },
-    "copyright": "© 2024 LessonCraftStudio. All rights reserved."
+    "byLanguage": "Worksheets by language",
+    "byTopic": "Worksheets by topic",
+    "byExerciseType": "Worksheets by exercise type",
+    "moreLanguagesSoon": "More languages added regularly",
+    "moreTopicsSoon": "More topics added regularly",
+    "contact": "Contact",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "copyright": "© 2026 LessonCraftStudio."
   },
   "about": {
     "metaTitle": "About LessonCraftStudio | Professional Printable Creation Tools",

@@ -233,7 +233,7 @@ Key new tables (minimum; more added as needed):
 ```prisma
 model Deck {
   id              String   @id @default(cuid())
-  slug            String   @unique
+  slug            String   // §17.8.5 — uniqueness enforced via @@unique([language, slug]) below
   title           Json     // {en: "...", de: "...", ...} for 11 languages
   description     Json     // operator-authored short description, per language
   exerciseType    String   // "word-search" | "matching" | "sudoku" | ... (one of 29 app types — see §14.10)
@@ -251,6 +251,7 @@ model Deck {
   status          String   @default("draft") // "draft" | "published" | "archived"
   createdBy       String   // operator user id
   version         Int      @default(1)
+  contentFamilyId String?  // §17.8.7 — null in v1; populated by v2 translate-this-deck workflow
   createdAt       DateTime @default(now())
   updatedAt       DateTime @updatedAt
 
@@ -259,6 +260,7 @@ model Deck {
   favorites       DeckFavorite[]
   collectionMemberships CollectionDeck[]
 
+  @@unique([language, slug])  // §17.8.5 — slugs unique per locale, not globally
   @@index([status, publishedAt])
   @@index([exerciseType, language])
 }
@@ -579,6 +581,8 @@ What v1 launch is **not** trying to achieve: substantial organic search traffic 
 - Test your work in the existing dev environment before saying it's done
 - Document new components and new modules with brief JSDoc or TS comments explaining purpose and usage
 
+**Note on commit hygiene.** The in-session-commit hygiene rule applies to git-tracked files only (CLAUDE.md amendments + code commits). The `MEMORY.md` index + `memory/` directory at `C:\Users\rkgen\.claude\projects\C--Users-rkgen-lessoncraftstudio\memory\`, `CONVERSATION-HANDOFF.md`, and `CLAUDE-MD-UPDATES.md` are out-of-tree handoff artifacts that persist at filesystem level without commits. Don't `git add` them.
+
 ### 10.5 What to flag to the operator
 
 - Anything that seems to conflict with production behavior
@@ -611,6 +615,15 @@ These ideas have come up in conversation and have been explicitly deferred. Do n
 What is now **in scope** (additions and changes from previous versions): the headless Mac Studio running a local AI service for asynchronous enrichment (lesson plans, embeddings for semantic search, parent-communication templates, AI-suggested tags); the parallel-bilingual deck view as a subscriber feature; sample decks embedded on every public-facing page; SEO-from-the-start as a structural design principle (see §17); the language launch sequence treating depth in priority languages over breadth across all 11 (see §19); the from-scratch rebuild of the public-facing site with the multilingual K-3 audience as the only audience.
 
 What was **removed from scope** in this version (previously included, now deliberately cut): student session analytics dashboard for subscribers (cut because K-3 teachers don't benefit from the data — they observe students directly all day); assignment-style multi-deck sequences (cut as not justifying the engineering weight for the K-3 audience); the broad "teacher catalog" framing (replaced with the multilingual K-3 educator framing in §1).
+
+**Queued post-Brief-B (Phase 6 close-out 2026-04-30):**
+
+- **Catalog page Phase 1/2/Gate 1 share-work revival** — unblocked at Brief B Phase 1 (`4b91adc0` shipped the nginx catalog deck route per §15.7); reactivates as follow-on brief whenever operator decides. Inherits OG metadata on `/[locale]/decks/[slug]`, share row component, OG image at 1200×630.
+- **Topic destination pages** — full-shape brief beyond §16's minimal taxonomy. Separate brief.
+- **Eleven-deck dry-run** — locale × app coverage exercise. Now gated on the taxonomy expansion brief below.
+- **Taxonomy expansion brief (NEW priority since Brief B Phase 4 retry).** Only 4 of 29 apps registered in `topics-taxonomy.json` (addition, sudoku, cryptogram, picture-path). 25 apps need taxonomy + axis-key i18n authoring before they can publish via `publish-bulk`. Foundational for any non-Phase-2-4-app publishing; queues between Brief B Phase 6 and Group C.
+- **Group C brief drafting** — 3 apps TBD; structurally identical to Group B per the run-batch precedent.
+- **§19 longer-arc items:** NSR operationalization, school-license design, home page copy, first acquisition activities, native cartoon library deployment in marketing, premium classroom personalization (v2), v2 translate-this-deck workflow per §17.8.7, grayscale PDF as user-facing download.
 
 ## 12. When this document is wrong
 
@@ -848,6 +861,8 @@ All 29 ship:
 **Out of scope, NOT part of the canonical 29:** `coloring`, `writing`, `draw-and-color`, `drawing-lines`. PDF-only activities; printable outputs only; not part of the catalog system.
 
 **Maintenance rule:** when this list changes (apps added or removed from the catalog system), update §14.10 first. All other CLAUDE.md references and any active brief defer to this list as the source of truth. Resist the temptation to update count references elsewhere without first updating §14.10 — drift between sections is a load-bearing risk for a document this reference-heavy.
+
+**Canonical-name-vs-emission contract.** Each app's `generator.app` field in its `manifest.json` MUST match the §14.10 canonical app name verbatim (e.g., `sudoku`, NOT `picture-sudoku`). Any future taxonomy entry, config key, or downstream integration that keys by app name MUST use the §14.10 canonical name. Verified across all 29 apps at Brief B Phase 2 commit `59a0cde9`. Drift surfaced at Phase 2 real-ZIP spot-check when `topics-taxonomy.json` keyed `picture-sudoku` instead of `sudoku`.
 
 ---
 
@@ -1265,6 +1280,8 @@ A working document `seo-strategy.md` accumulates findings across content commiss
 For languages where Claude's quality assessment is less reliable (Swedish, Danish, Norwegian, Finnish), a native-speaker review pass is recommended before publishing content. The operator handles this through informal connections; if no native speaker review is available for a piece of content, that content is held until review is possible. The cost of unnaturally translated content in tight-knit professional communities is high and hard to recover from.
 
 Claude's keyword research is strategic, not tactical. Claude can assess "this query has thin competition in Swedish and your platform can rank quickly" but cannot produce precise monthly search volumes or keyword difficulty scores (those require paid tools like Ahrefs or SEMrush, which the operator has chosen not to use at this stage). For your stage and scale, strategic keyword work matters more than tactical precision.
+
+**Phase 6 NSR-flag list status:** 57 keys flagged for native-speaker review across two populations: 17 organic-phrasing flags (4 EN + 13 DE; accumulated one-at-a-time during Brief A 5A) + 40 bulk-i18n-tier flags (`seo.educational_level.*` + `endDeck.*` × 4 NSR-flagged tiers from Brief B Phase 2: sv, fi, no, da). Romance Tier 4 (fr, it, pt) authored without NSR per the stronger Claude quality assessment in those languages. The population distinction matters for review-workflow operationalization (per-flag NSR sessions for Population 1 vs tier-batch NSR by native speaker for Population 2). See `project_k3_phrasing_native_speaker_review.md`.
 
 ### 17.6 Content marketing surface (the blog/guide section)
 

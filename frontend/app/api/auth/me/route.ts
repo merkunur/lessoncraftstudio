@@ -158,6 +158,11 @@ export async function GET(request: NextRequest) {
         currentPeriodEnd: user.subscription.currentPeriodEnd,
         trialEnd: user.subscription.trialEnd,
         cancelAtPeriodEnd: user.subscription.cancelAtPeriodEnd,
+        // LS subscription identifier — populated by the LS webhook handler. Used by the
+        // isLcsSubscriptionActive predicate (lib/subscription-helpers.ts) to gate the
+        // home page Subscribe CTA branch 3 ("already subscribed"). Cast at the seam: the
+        // local Prisma client predates the migration; production builds regenerate it.
+        lsSubscriptionId: (user.subscription as any).lsSubscriptionId ?? null,
         limits: userLimits,
       } : null,
       usage: {

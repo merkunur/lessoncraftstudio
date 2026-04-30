@@ -188,6 +188,16 @@ model Subscription {
   stripeSubscriptionId String? @unique @map("stripe_subscription_id")
   stripePriceId        String? @map("stripe_price_id")
 
+  // Lemon Squeezy fields — additive sibling to the Stripe-era fields above.
+  // Populated by the LCS subscription webhook handler at
+  // /api/webhooks/lemonsqueezy/route.ts on subscription_* events. Per CLAUDE.md
+  // §A.6, Stripe is no longer the active processor; LS is the live integration.
+  // Per HOMEPAGE-IMPLEMENTATION-PROMPT.md §5.5 + SUBSCRIPTION-SCOPE.md, the
+  // active-LCS-subscription predicate matches against lsSubscriptionId !== null
+  // AND status === 'active'.
+  lsSubscriptionId String? @unique @map("ls_subscription_id")
+  lsVariantId      String? @map("ls_variant_id")
+
   // Plan details
   planName        String  @map("plan_name") // "free", "core_monthly", "core_yearly", "full_monthly", "full_yearly"
   status          String // "active", "past_due", "canceled", "incomplete", "unpaid"

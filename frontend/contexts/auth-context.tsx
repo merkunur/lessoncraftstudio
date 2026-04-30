@@ -25,6 +25,10 @@ interface User {
     currentPeriodEnd: string;
     currentPeriodStart: string;
     cancelAtPeriodEnd: boolean;
+    /** Lemon Squeezy subscription ID. Populated by the LS subscription webhook
+     *  (subscription_created) when a user subscribes to the $69/year LCS subscription.
+     *  Used by isLcsSubscriptionActive() to gate Subscribe-CTA branch 3. */
+    lsSubscriptionId?: string | null;
   };
 }
 

@@ -67,7 +67,7 @@ The infrastructure spans three machines connected via Tailscale, plus Cloudflare
 - **PC workstation** (operator's main machine, Windows). Runs the 29 apps, runs Claude Code, produces decks. Source of all `generation.json` and `metadata.json`.
 - **Mac Studio M3 Ultra (headless, on Tailscale).** Dedicated to the local AI service. Runs Ollama with a chosen model. Reads from the catalog database, generates `enrichment.json` outputs (embeddings, descriptions, topic-level lesson plans), writes them back. Operator never logs in interactively except for maintenance.
 - **Hetzner dedicated server** (existing). Hosts the Next.js app, Postgres database, Lemon Squeezy integration, the catalog API, the operator's publish pipeline. The hub.
-- **Cloudflare CDN** (free tier). Caches and serves static deck HTML files, PDFs, thumbnails from the Hetzner origin. Sits in front of `lessoncraftstudio.com` and absorbs viral student traffic. The deck files themselves live on Hetzner; Cloudflare populates each edge cache on first request from that region.
+- **Cloudflare CDN** (free tier; activated 2026-04-30). Caches and serves static deck HTML files, PDFs, thumbnails from the Hetzner origin. Sits in front of `lessoncraftstudio.com` (orange-cloud proxy on apex + www) and absorbs viral student traffic. SSL/TLS encryption mode = Full (strict). AI crawler bot policy set to "Do not block (allow crawlers)" preserving §17.4 acquisition-strategy alignment. DNSSEC off. Nameservers `selah.ns.cloudflare.com` + `sevki.ns.cloudflare.com` at Namecheap. The deck files themselves live on Hetzner; Cloudflare populates each edge cache on first request from that region. **Pre-2026-04-30 state:** Cloudflare was not in path; this caching expectation was aspirational and §15.8's `Cache-Control: public, max-age=300` contract was empirically inert (per Brief B Sub-phase 5.8 finding). Post-2026-04-30 state: edge cache active; cache headers load-bearing; viral student traffic absorbed by edge; geographic latency improved for international audience.
 
 Tailscale connects the PC, Mac Studio, and Hetzner server as a private network. The Hetzner server reaches the Mac Studio at a tailnet hostname for AI tasks. The Mac Studio is **never** exposed to the public internet; it is **never** in the synchronous path of a teacher request. AI work is asynchronous batch (see §15).
 
@@ -967,6 +967,8 @@ Within a minute or two, the local AI service on the Mac Studio polls `/api/ai-in
 
 **Note on `bundle.canonicalURL`.** v1 does NOT promote `canonicalURL` to a proper bundle field. The in-deck share affordance (§17.8.15) constructs its canonical URL at deck.html generation time using the predicted-slug fallback — `https://lessoncraftstudio.com/<locale>/decks/<slugify(bundle.title)>/` — Option A authorized at social-share-v1 Sub-phase A. The proper bundle field arrives when (a) `publish-cli` ships and starts substituting the real `__CANONICAL_URL__` placeholder per §17.8.5, AND (b) the catalog deck route `/[locale]/decks/[slug]` exists. See §17.8.15 for the predicted-slug construction detail and the two filed deferred-queue trade-offs (collision-suffix mismatch; English-title-derived slug regardless of content locale).
 
+**Concrete CLI surfaces** (single-publish, bulk-publish, unpublish), the strict-arg parser, the edit-in-place contract, the slugify divergence, the catalog deck route, the Cloudflare cache-invalidation policy, the `_collisions.txt` differentiation, the block-on-archived UPDATE contract, the unpublish handler, the archive folder structure, the dry-run-vs-real parity guarantee, and the asset placement / OG image / pruning policy are documented in §15.4 through §15.14 below.
+
 ### 15.3 The local AI service contract
 
 The AI service is a pull-based worker, not a push target. It polls Hetzner for work and pushes results back. Hetzner never calls the Mac Studio. This keeps the Mac Studio off any synchronous request path and means home-internet hiccups can't break teacher-facing pages.
@@ -977,6 +979,121 @@ Endpoints on Hetzner that the AI service uses:
 - `POST /api/ai-ingest/complete` — accepts `enrichment.json` payloads keyed by `deck_id` or topic-and-language
 
 When the Mac Studio is offline, decks accumulate in `pending`. New decks are visible in the catalog without enrichment but rank lower in semantic search until the AI catches up. Topic destination pages fall back to faceted listing when their lesson plan hasn't been generated yet.
+
+### 15.4 The strict-arg-parsing contract
+
+publish-cli's command-line surface is governed by a schema-driven parser at `scripts/publish-cli/strict-args.js`. Every subcommand (`publish`, `publish-bulk`, `unpublish`) declares its allowed flags in a SCHEMAS table. The parser:
+
+- Errors on unknown flags before any side-effect (no DB query, no FS write, no network call).
+- Suggests the closest known flag via Levenshtein distance when a typo is detected.
+- Exits non-zero with structured stderr.
+- Always requires `--confirm` for real bulk-publish (Phase 4 Q2 lock); without it, bulk-publish operates as dry-run regardless of `--dry-run` presence.
+
+**Why strict.** Earlier permissive parsing produced an unintended `addition-image-image-2/v1` deck during Brief B Phase 3 v4 verification when `publish foo.zip --update-deck-id bar` silently fell through to new-publish path (the parser dropped the unknown flag instead of erroring, then the publish path treated the unprefixed `foo.zip` as a fresh INSERT). The strict parser closes this safety gap.
+
+Origin: Brief B Phase 4 commit `772a3375`.
+
+### 15.5 The edit-in-place contract
+
+publish-cli supports editing an already-published deck via the `--update-slug <slug>` flag. The contract:
+
+- **Atomicity** — temp-staging-then-symlink-swap on assets per Brief B Phase 3 v4 amendment A1: write the new versioned dir `<slug>-v<N+1>/`, then `fs.symlinkSync(target, link + '.new')` + `fs.renameSync(link + '.new', link)` to atomically point the `<slug>` symlink at the new version. `rename(2)` on a symlink is atomic at the kernel level. Do NOT use `ln -sfn` (two-syscall non-atomic).
+- **DB-asset-inconsistency failure-mode** — locked decision: if the asset placement succeeds but the DB write fails, assets stay in place, error is logged with reconciliation commands in stderr, operator manually reconciles. Per Brief B Phase 3 v4 failure-mode UX policy.
+- **Slug-stable-on-update** — the slug doesn't change across versions of the same deck. Versioning happens internally (`<slug>-v<N>/` directory naming); the public URL stays at `/<locale>/decks/<slug>/`.
+- **`--update-slug <slug>` is the SOLE update flag.** `--update-deck-id` was removed at pre-Phase-4 hygiene commit `9a30f049` because the Deck schema lacks a `deck_id` column.
+
+### 15.6 Slugify divergence between catalog-export.js and publish-cli
+
+Two slug generators exist in the codebase, and their behavior on non-ASCII input intentionally differs:
+
+- **`catalog-export.js`'s `slugify`** at `:90` does `.replace(/[^a-z0-9-]+/g, '-')` — any non-ASCII character becomes a hyphen. Used at deck.html generation time by the in-deck share affordance's predicted-slug fallback.
+- **publish-cli's slug generator** at `scripts/publish-cli/slug.js` implements the §17.8.5 ASCII-fold spec (`String.prototype.normalize('NFD')` + non-decomposable map). Used at upload time to mint the canonical slug stored in the `Deck` row.
+
+The divergence is intentional for v1: it's not load-bearing because `bundle.title` is currently English-only across all 29 apps (deferred-queue entry "apps hardcode English title literal in bundle.title"). The divergence becomes load-bearing when (a) apps localize titles AND (b) the in-deck affordance's predicted-slug fallback is consumed in non-en contexts. At that point the helper's `slugify` upgrades to match publish-cli's ASCII-fold or the helper accepts a real `canonicalURL` from publish-cli post-publish.
+
+### 15.7 The catalog deck route
+
+Deck pages at `/<locale>/decks/<slug>/` are served by an nginx location-block, NOT a Next.js handler. The nginx config lives server-side at `/etc/nginx/sites-enabled/lessoncraftstudio` and is NOT in git (matching the §A.1 isolated-storage pattern for production nginx config). Deployed at Brief B Phase 1 commit `4b91adc0`.
+
+Resolution: `<slug>` is a symlink at `/var/www/lcs-media/decks/<locale>/<slug>` pointing to `<slug>-v<N>/`. Atomic swap on edit-in-place uses `fs.symlinkSync(target, link + '.new')` + `fs.renameSync(link + '.new', link)` — `rename(2)` on a symlink is atomic at the kernel level. Do NOT use `ln -sfn` (two-syscall non-atomic).
+
+**Canonical URLs are `https://www.lessoncraftstudio.com/<locale>/decks/<slug>/`; apex-to-www enforced via nginx 301 — see §A.10.**
+
+### 15.8 Cloudflare cache-invalidation policy
+
+5-min short-TTL on deck.html via nginx-side `add_header Cache-Control "public, max-age=300"`. Cloudflare honors origin Cache-Control by default. No Cloudflare API integration in publish-cli; no purge-API calls; no cache-tag headers. Fresh edits propagate within 5 minutes.
+
+**Now load-bearing post-2026-04-30** (Cloudflare onboarding date — see §3.5 amendment). Pre-2026-04-30 the contract was empirically inert because no edge cache was in path (Sub-phase 5.8 finding).
+
+Re-evaluate post-launch only if update frequency proves problematic (filed deferred).
+
+### 15.9 `_collisions.txt` archived-vs-published differentiation
+
+INSERT-route collisions surface different recommendations depending on the colliding row's status:
+
+- **Published-row collision:** `add to --updates-manifest mapping (<slug> ← <zipfile>) OR rename source ZIP`
+- **Archived-row collision:** `pick a different slug — slug already used by an archived (unpublished) deck. UPDATE-via-manifest is NOT valid for archived rows; reactivation is out-of-scope per Phase 5 Q2 lock.`
+
+The archived-row recommendation closes the loop with §15.10 (block-on-archived UPDATE); a future reactivation brief would change this surface.
+
+Origin: Brief B Phase 5 commit `0ad626cb` (`bulk.js` extension; `result.collision` carries `existingStatus`).
+
+### 15.10 The block-on-archived UPDATE contract
+
+`publish.js` rejects `--update-slug` when `existingRow.status !== 'published'`. Single-publish + bulk-publish both flow through `publish()` so the block enforces at both call sites. Structured rejection:
+
+> `Error: publish: cannot update deck "<slug>" (status='archived'). Only published decks can be updated via --update-slug. Pick a different slug or implement reactivation in a future brief (Phase 5 Q2 lock = block).`
+
+The `(language, slug)` compound unique constraint (§17.8.5) surviving on archived rows is the mechanism that makes Q2 block-on-reuse work without schema changes.
+
+Origin: Brief B Phase 5 commit `0ad626cb` (`publish.js` extension).
+
+### 15.11 The unpublish handler
+
+Single-deck-only CLI surface (Brief B Phase 5 Q1 lock; bulk-unpublish deferred to a future brief if volume ever justifies it):
+
+```
+node scripts/publish-cli/index.js unpublish <slug> --language <locale> --confirm
+```
+
+Pipeline ordering FS-first DB-last, matching §15.5 publish ordering:
+
+1. `db.findExistingBySlug(language, slug)` — must return `status='published'` row.
+2. `place-assets.unpublishAssets(locale, slug)` — symlink-removed-first ordering: removes `<slug>` symlink (immediate 404), then `fs.renameSync` every `<slug>-vN/` to `.archived/<locale>/<slug>-unpublished-<utc>/`.
+3. `db.unpublishDeck(id)` — flips `status='archived'`. `updatedAt` auto-tracks via Prisma `@updatedAt`.
+
+DB-failure-post-FS-archive surfaces structured stderr with reconciliation commands (manual psql UPDATE or FS restore) per §15.5 failure-mode UX policy.
+
+Origin: Brief B Phase 5 commit `0ad626cb`.
+
+### 15.12 Archive folder structure
+
+Two namespaces sit alongside in `/var/www/lcs-media/decks/.archived/<locale>/`:
+
+- `<slug>-pruned-<utc>/` — versioned dirs retired by KEEP_VERSIONS=3 pruning at edit-in-place time (Phase 3 behavior).
+- `<slug>-unpublished-<utc>/` — versioned dirs archived by the unpublish handler (Phase 5 behavior).
+
+Cleanup-cron deferred to trigger condition (>1 GB OR 100+ decks; filed under archive-cleanup deferred-queue entry).
+
+Origin: Brief B Phase 5 commit `0ad626cb` (`place-assets.js` extension; `unpublishAssets` helper sibling to `place()`).
+
+### 15.13 Dry-run-vs-real-publish parity guarantee
+
+Per-deck staging artifact set (`manifest.json` + post-substitution `deck.html` + `deck.html.diff` + `substitution-report.{json,txt}` + `warnings.txt`) is **byte-identical** between dry-run and real-mode batches (`diff -r` clean across both modes). `_summary.txt` diverges by design (dry-run header lists routing+slug+collision+warnings; real-mode header lists outcome+routing+slug+version). `_results.txt` and `_failures/` are real-mode-only by architectural construction.
+
+**Why this works:** `bulk.js` invokes `dryRunBatch()` as its own pre-flight before any side-effect, then proceeds to publish, then overwrites `_summary.txt` with post-publish outcomes. The shared code path guarantees parity by construction.
+
+Origin: Brief B Sub-phase 5.7 verification (no impl change; document existing contract).
+
+### 15.14 Asset placement, ownership, OG image derivation, pruning
+
+**Asset layout:** `/var/www/lcs-media/decks/<locale>/<slug>-v<N>/{deck.html, printable.pdf, answer-key.pdf, thumbnail.png, og-image.png}` plus the `<slug>` symlink pointing to the latest version dir.
+
+**Ownership:** `lcs-media:lcs-media` 755/644 matching `/var/www/lcs-media/*` siblings. Locale-dir auto-chown via `ensureLocaleDir` helper at first-publish time (Brief B pre-Phase-4 hygiene commit `9a30f049`).
+
+**OG image:** 1200×630 derivation step in publish-cli's pipeline between substitution and asset placement. Sharp-based composite (480×620 thumbnail centered on white 1200×630 background; `channels: 3` flattens any alpha). Atomicity treatment same as other assets (versioned directory + symlink swap).
+
+**Pruning:** versioned dirs aged out by KEEP_VERSIONS=3 are moved (NOT removed) to `.archived/<locale>/<slug>-pruned-<utc>/` per §A.3 spirit. Cross-reference §15.12 for the unpublish-namespace alongside pruned-namespace coexistence.
 
 ## 16. Topic destination pages
 
@@ -1306,6 +1423,8 @@ Additionally, when a v2 sibling is published, `publish-cli` re-injects the updat
 - The static asset path of every published deck (already known via the database)
 - The capability to PUT updated bytes to the static-asset endpoint (capability scope item — flag if not yet built when implementing)
 
+**ASCII-fold spec implementation confirmation.** Implementation lives at `scripts/publish-cli/slug.js`; uses `String.prototype.normalize('NFD').replace(/[̀-ͯ]/g, '')` for combining-mark strip; explicit map for non-decomposable equivalents (`ä→a`, `ß→ss`, `æ→ae`, `ø→o`, `å→a`, `ł→l`). Romance-apostrophe slug treatment v1 hyphenates (`l'addition → l-addition`); v2 strip-instead-of-hyphen refinement filed deferred under slug-related family.
+
 #### 17.8.6 The age-range to educational-level mapping
 
 `educational_level` is **deterministically derived** from `metadata.json`'s `age_range` by `publish-cli`. The apps never compute it. This rule keeps a single source of truth and prevents any drift between apps.
@@ -1319,6 +1438,8 @@ Additionally, when a v2 sibling is published, `publish-cli` re-injects the updat
 | `8-10` | `Grade 3` | `seo.educational_level.grade_3` |
 
 The English value populates Schema.org's `educationalLevel`. The localized value (looked up via `seo.educational_level.<key>` in the existing next-intl translation system per §6) populates the localized `<title>` and `<meta name="description">`. Both are stored on the `metadata.json` layer of the manifest so that `publish-cli` doesn't recompute them per upload.
+
+**Per-tier i18n coverage status at Phase 6:** Tier 1-2 (en, de, es, nl) operator-authored; Tier 3 (sv, fi, no) authored with operator-best-effort + NSR flag; Tier 4 (da) NSR-flagged per Nordic posture; Tier 4 (fr, it, pt) operator-best-effort without NSR per §17.5 stronger Claude quality assessment. See `project_k3_phrasing_native_speaker_review.md` for the 57-key two-population NSR flag list.
 
 #### 17.8.7 v1 vs v2 scope: cross-language sibling tracking
 
@@ -1341,6 +1462,8 @@ The hreflang surface only matters when real cross-language siblings exist. Real 
 **Why the schema field is reserved now:** if `content_family_id` were added later, every v1 deck would need a database migration to add the column. By reserving the column from day one (nullable, default null), v1 decks ship clean and v2 backfills only the decks that actually become siblings. No migration of pre-v2 decks is required.
 
 The exact translate-this-deck workflow shape (button in the existing app, separate operator tool, AI-assisted, etc.) is out of scope for this amendment and will be specified when v2 is scoped.
+
+**v2-forward-compatibility:** the v1 substitution function accepts an optional sibling-list parameter that defaults to empty in v1, populated by the v2 caller. The v2 caller is just an additional invocation path not built in v1. Phase 1 schema includes `contentFamilyId String?` (v1 always null) reserving the v2 hook. No v1 → v2 rework anticipated.
 
 #### 17.8.8 What this section does NOT change
 
@@ -1688,7 +1811,15 @@ Fix scripts at `/opt/lessoncraftstudio/server-scripts/`:
 - The AI service must survive being killed and restarted at any time without producing duplicate enrichments. Every write to `/api/ai-ingest/complete` is idempotent on `(deck_id, enrichment_version)`.
 - Never deploy a Mac-Studio-side change that would make Hetzner block while waiting on the Mac Studio. The contract is pull-based for a reason.
 
-### A.10 More detail
+### A.10 Origin nginx www-canonicalization
+
+`https://lessoncraftstudio.com/<path>` returns HTTP 301 redirecting to `https://www.lessoncraftstudio.com/<path>`. Pre-existing rule at the Hetzner-side nginx server-block; predates Brief B. The redirect is at origin, not at Cloudflare edge.
+
+**Implication:** all canonical URLs in CLAUDE.md, deck.html `__CANONICAL_URL__` substitutions, share-intent URLs, and external crawl/share targets MUST use the `www.` form. Substitutions that omit the prefix work via 301 but lose one round-trip.
+
+Cross-reference: §15.7 catalog deck route operates on `www.lessoncraftstudio.com`; §15.8 Cloudflare cache-invalidation policy applies to both apex and `www` (orange-cloud proxy on both records since 2026-04-30 per §3.5).
+
+### A.11 More detail
 
 - **`DEPLOYMENT.md`** — full deployment scenarios + recovery workflows.
 - **`docs/reference/server-verification.md`** — health checks, file-count verification, backup inspection, image/payment recovery commands.

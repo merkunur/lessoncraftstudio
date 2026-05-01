@@ -1212,10 +1212,29 @@ The previous public-facing site (positioned for KDP/Etsy printable sellers) is b
 
 ### 17.1 What was deleted
 
-**Status: complete** as of `pivot/printable-business-toolkit` HEAD
-`49b501b0`. Public-facing seller surfaces removed across five
-sequenced passes (commits `e8c1c28f`, `b6c8166e`, `c605c911`, `42f4fd5f`,
-plus this Pass 5 commit).
+**Status: complete** as of tag `v1-teardown-complete` on
+`pivot/printable-business-toolkit`. Removed across nine sequenced passes:
+
+- **Pass 1** (`e8c1c28f`): public seller surfaces — 10 route prefixes,
+  17 orphan components, 12 cascade files, 9 child sitemaps,
+  `apps` message namespace.
+- **Pass 2** (`b6c8166e`): static-pages anomaly, `deploy.sh` smoke tests.
+- **Pass 3** (`c605c911`): zero-consumer config infrastructure —
+  6 directory trees (~80 MB), 10 showcase-images files.
+- **Pass 4** (`42f4fd5f`): `compare/`, `gallery/`, `compare-content/`,
+  `compare-page-slugs.ts`.
+- **Pass 5** (`49b501b0`): middleware rewrite (37 KB → 9.3 KB) with
+  410-Gone short-circuit; 7 `*-page-slugs.ts` deleted;
+  `blog-legacy-redirect-map.ts` deleted.
+- **Pass 6** (`c7d316dc`): member-dashboard legacy buy-button removal;
+  Pass 5 SHA backfill.
+- **Pass 7** (`38181bd5`): webhook handler legacy-purchase scrub.
+- **Pass 8** (`7c24630e`): admin/user-control surgical scrub;
+  member/dashboard + verify-app-access converted to admin-only;
+  `lemonsqueezy-products.ts` (plural) deleted.
+- **Pass 9** (this commit): `DROP TABLE purchases`, `DROP TABLE
+  wplus_transactions`; `Purchase` model + `User.purchases` relation
+  removed from Prisma schema.
 
 Removed:
 
@@ -1265,9 +1284,10 @@ deindexing. Reshelled directories (`pricing/`, `about/`, `faq/`) return
 
 ### 17.2 What is being preserved (technical foundation)
 
-**Status: still in force** as of `49b501b0`, with annotations
-below for items removed in the teardown sequence after closer recon
-showed they were seller-era despite original categorization.
+**Status: still in force** as of tag `v1-teardown-complete`, with
+annotations below for items removed in the teardown sequence after
+closer recon showed they were seller-era despite original
+categorization, and items scope-narrowed to admin-only.
 
 Preserved unchanged:
 
@@ -1322,24 +1342,18 @@ work**:
   Pass 8. Non-admins receive `hasAccess: false`. Aligns with §17.2's
   "33 apps now accessed only through admin authentication."
 
-### 17.3 Seller-customer transition (contingency)
+### 17.3 Seller-customer transition (closed)
 
-**Status: as of 2026-05-01** the operator confirms no real paying
-seller-tier customers exist. Production database state at the start of
-the teardown: `purchases` 0 rows, `wplus_transactions` 0 rows,
-`ls_webhook_events` 0 rows. The 41 rows in `subscriptions` and 20 rows in
-`license_keys` are operator/test seeding, not paying outside customers.
+**Status: closed** as of tag `v1-teardown-complete`. Production seller-era
+tables `purchases` and `wplus_transactions` were dropped Pass 9 with
+zero rows in either. The contingency that protected the case of
+late-arriving seller-tier customers is now moot — there is no table to
+write to, no data path to migrate. The originally-specified
+`/legacy-apps/[app-name]?key=[purchase-token]` URL pattern was never
+built and will not be.
 
-The originally-specified `/legacy-apps/[app-name]?key=[purchase-token]`
-URL pattern is therefore **NOT built at v1**. The seller-customer transition
-email is not sent because there are no recipients.
-
-**Contingency:** if paying seller-tier customers appear before the empty
-seller-era tables are dropped (planned for a future pass), the legacy
-path will be built then, and the transition email will be sent. After
-the DROP statements ship, this contingency is closed.
-
-The six-month / twelve-month review of legacy access path usage is moot.
+Historical context: see git tag `v1-teardown-complete` for the
+post-teardown HEAD, and the Pass 1–9 commit chain for the path it took.
 
 ### 17.4 SEO as a structural design principle
 

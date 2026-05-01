@@ -69,6 +69,31 @@
       "default_subject": "spatial-reasoning",
       "default_age_range": "6-8",
       "exercise_type_axis_key": "pattern-worksheet"
+    },
+    "bingo": {
+      "default_subject": "letters",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "bingo"
+    },
+    "grid-match": {
+      "default_subject": "logic",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "grid-match"
+    },
+    "matching": {
+      "default_subject": "logic",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "matching"
+    },
+    "picture-sort": {
+      "default_subject": "logic",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "picture-sort"
+    },
+    "shadow-match": {
+      "default_subject": "spatial-reasoning",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "shadow-match"
     }
   },
 
@@ -86,7 +111,12 @@
       "big-small":        { "slug": { "en": "big-small",        "de": "gross-klein" },          "name": { "en": "big or small",     "de": "groß oder klein" } },
       "chart-count":      { "slug": { "en": "chart-count",      "de": "tabelle-zaehlen" },      "name": { "en": "chart count",      "de": "Tabelle zählen" } },
       "pattern-train":    { "slug": { "en": "pattern-train",    "de": "muster-zug" },           "name": { "en": "pattern train",    "de": "Musterzug" } },
-      "pattern-worksheet":{ "slug": { "en": "pattern-worksheet","de": "muster-arbeitsblatt" },  "name": { "en": "pattern worksheet","de": "Musterarbeitsblatt" } }
+      "pattern-worksheet":{ "slug": { "en": "pattern-worksheet","de": "muster-arbeitsblatt" },  "name": { "en": "pattern worksheet","de": "Musterarbeitsblatt" } },
+      "bingo":            { "slug": { "en": "bingo",            "de": "bingo" },                "name": { "en": "bingo",            "de": "Bingo" } },
+      "grid-match":       { "slug": { "en": "grid-match",       "de": "gitter-zuordnung" },     "name": { "en": "grid match",       "de": "Gitter-Zuordnung" } },
+      "matching":         { "slug": { "en": "matching",         "de": "zuordnung" },            "name": { "en": "matching",         "de": "Zuordnung" } },
+      "picture-sort":     { "slug": { "en": "picture-sort",     "de": "bildersortierung" },     "name": { "en": "picture sort",     "de": "Bildersortierung" } },
+      "shadow-match":     { "slug": { "en": "shadow-match",     "de": "schatten-zuordnen" },    "name": { "en": "shadow match",     "de": "Schatten zuordnen" } }
     },
 
     "theme": {

@@ -32,9 +32,13 @@ type FooterLink = { slug: string; label: string };
 
 const FOOTER_TOPICS_BY_LOCALE: Record<string, FooterLink[]> = {
   en: [
+    { slug: 'animals', label: 'animals' },
+    { slug: 'grade-1', label: 'grade 1' },
     { slug: 'kindergarten', label: 'kindergarten' },
   ],
   de: [
+    { slug: '1-klasse', label: '1. Klasse' },
+    { slug: '2-klasse', label: '2. Klasse' },
     { slug: 'kindergarten', label: 'Kindergarten' },
   ],
 };
@@ -42,15 +46,19 @@ const FOOTER_TOPICS_BY_LOCALE: Record<string, FooterLink[]> = {
 const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
   en: [
     { slug: 'addition', label: 'addition' },
+    { slug: 'bingo', label: 'bingo' },
     { slug: 'crossword', label: 'crossword' },
     { slug: 'cryptogram', label: 'cryptogram' },
     { slug: 'pattern-train', label: 'pattern train' },
     { slug: 'picture-sudoku', label: 'picture sudoku' },
+    { slug: 'word-scramble', label: 'word scramble' },
   ],
   de: [
     { slug: 'addition', label: 'Addition' },
     { slug: 'bingo', label: 'Bingo' },
+    { slug: 'kreuzwortraetsel', label: 'Kreuzworträtsel' },
     { slug: 'kryptogramm', label: 'Kryptogramm' },
+    { slug: 'muster-zug', label: 'Musterzug' },
     { slug: 'bildpfad', label: 'Bildpfad' },
     { slug: 'bilder-sudoku', label: 'Bilder-Sudoku' },
     { slug: 'buchstabensalat', label: 'Buchstabensalat' },

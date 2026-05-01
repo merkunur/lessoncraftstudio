@@ -684,31 +684,51 @@
    * activate a compact landscape-mobile layout: on a phone in landscape
    * orientation viewing a landscape worksheet, hide the title bar and
    * topic-link footer, float the Check Answers button as a compact FAB,
-   * and size the worksheet via CSS aspect-ratio to fill the viewport.
+   * and size the worksheet via JS-set explicit pixel width/height so the
+   * worksheet fits the visible viewport without scroll.
    *
-   * Strict scope per operator request (2026-04-30, refined):
+   * Strict scope per operator request (2026-04-30):
    * "As long as the changes you will make don't change anything on different
    * devices and it doesn't change anything for portrait worksheets even on
    * mobile phone you can do it. The changes should effect only horizontal
    * worksheets only on mobile phone."
    *
-   * Three required conditions, ALL must hold for the compact layout to apply:
-   *   1. Touch device — CSS `(hover: none) and (pointer: coarse)`
-   *   2. Phone in landscape — CSS `(orientation: landscape) and (max-width: 1024px)`
-   *      (max-width caps out tablets/iPads in landscape)
-   *   3. Worksheet baked landscape — JS adds `body.lcs-worksheet-landscape`
-   *      class when img.naturalWidth > img.naturalHeight
+   * Two CSS gates + one body-class gate, ALL must hold for the compact layout
+   * to apply:
+   *   1. Phone-sized viewport in landscape — CSS
+   *      `(max-width: 1024px) and (orientation: landscape)`
+   *      (max-width caps out tablets/iPads; orientation caps out portrait)
+   *   2. Worksheet baked landscape — JS adds `body.lcs-worksheet-landscape`
+   *      class when img.naturalWidth > img.naturalHeight; all rules are
+   *      scoped under this class so portrait-image decks are unaffected.
    *
-   * If ANY condition is false, no rule matches — existing layout is unchanged.
+   * Intentionally NOT gated on `(hover: none) and (pointer: coarse)`. Samsung
+   * Galaxy phones with S Pen (Note, Ultra, Tab) report `hover: hover` because
+   * the S Pen supports air-hover, and that single condition was making the
+   * whole @media block fail on those devices. Verified 2026-05-01 by patching
+   * a generated deck.html in place and confirming the operator's Samsung
+   * landscape test passed.
    *
-   * The JS also sets a CSS variable `--lcs-worksheet-aspect` from the image's
-   * natural aspect ratio so `.lcs-worksheet`'s aspect-ratio matches exactly,
-   * eliminating letterbox.
+   * Sizing approach: JS computes `w = visualViewport.height × imgAspect`,
+   * `h = visualViewport.height` (clamped to visualViewport.width if it would
+   * exceed), then sets those as inline pixel styles on `.lcs-worksheet`. No
+   * reliance on CSS aspect-ratio + max-width/max-height — that combo behaves
+   * inconsistently across Chromium versions (Samsung Internet was letterboxing
+   * the image inside an oversized container, which broke overlay-percentage
+   * math and made answer boxes appear to overlap adjacent worksheet content).
    *
-   * Browser support: CSS `aspect-ratio` requires Safari 15.4+, Chrome 88+,
-   * Firefox 89+. Older browsers fall through to existing scroll behavior
-   * (the body class is set but the aspect-ratio + max-width/max-height combo
-   * silently no-ops). No scaling, no broken layout.
+   * Plus three smaller hardening passes:
+   *   - All compact-mode CSS rules use !important so per-app inline CSS can\'t
+   *     sneak past via cascade.
+   *   - .lcs-overlay descendants get min-width:0; min-height:0 to defeat any
+   *     cached pre-`5de1e373` CSS that imposed pixel floors on slots.
+   *   - sanitizeSlots() rewrites cached `slot.style.width = "max(N%, Mpx)"`
+   *     back to `"N%"` at runtime if it shows up.
+   *
+   * Browser support: visualViewport API requires Safari 13+, Chrome 61+,
+   * Firefox 91+, Samsung Internet 8+. Falls back to window.innerWidth /
+   * innerHeight on older browsers (still correct, just doesn\'t track URL-bar
+   * transitions as smoothly).
    *
    * Place inside renderStandaloneHTML() output, just before </body>:
    *   parts.push(LCSCatalogExport.buildResponsiveFitSnippet());
@@ -719,120 +739,144 @@
   function buildResponsiveFitSnippet() {
     return [
       '<style>',
-      '@media (max-width:1024px) and (orientation:landscape) and (hover:none) and (pointer:coarse) {',
-      '  body.lcs-worksheet-landscape { overflow: hidden; }',
+      /* Compact landscape-mobile mode. Trigger by viewport size + orientation only;
+       * intentionally NOT gated on (hover:none)/(pointer:coarse) because Samsung
+       * phones with S Pen (Note, Ultra, Tab) report hover:hover and break that
+       * gate. The body class lcs-worksheet-landscape (set by JS only when the
+       * worksheet image itself is landscape) keeps the rules properly scoped. */
+      '@media (max-width:1024px) and (orientation:landscape) {',
+      '  body.lcs-worksheet-landscape { overflow: hidden; margin: 0; padding: 0; }',
       '  body.lcs-worksheet-landscape #lcs-app {',
-      '    max-width: none;',
-      '    padding: 0;',
-      '    padding-bottom: 0;',
-      '    min-height: 100vh;',
-      '    min-height: var(--lcs-vh, 100vh);',
-      '    display: flex;',
-      '    align-items: flex-start;',
-      '    justify-content: center;',
+      '    max-width: none !important;',
+      '    padding: 0 !important;',
+      '    margin: 0 !important;',
+      '    min-height: 0 !important;',
+      '    display: block !important;',
       '  }',
-      '  body.lcs-worksheet-landscape .lcs-bar { display: none; }',
-      '  body.lcs-worksheet-landscape .lcs-end-deck { display: none; }',
-      '  body.lcs-worksheet-landscape .lcs-sr { display: none; }',
-      '  body.lcs-worksheet-landscape .lcs-worksheet-wrap { padding: 0; }',
+      '  body.lcs-worksheet-landscape .lcs-bar,',
+      '  body.lcs-worksheet-landscape .lcs-end-deck,',
+      '  body.lcs-worksheet-landscape .lcs-sr {',
+      '    display: none !important;',
+      '  }',
+      '  body.lcs-worksheet-landscape .lcs-worksheet-wrap {',
+      '    padding: 0 !important;',
+      '    margin: 0 !important;',
+      '    display: block !important;',
+      '  }',
+      /* .lcs-worksheet width and height are set inline by JS (see fit() below).
+       * No aspect-ratio + max-width/max-height combo here — that combo behaves
+       * inconsistently across Chromium versions and was producing letterboxed
+       * worksheets on Samsung Internet, which broke overlay-percentage math. */
       '  body.lcs-worksheet-landscape .lcs-worksheet {',
-      '    aspect-ratio: var(--lcs-worksheet-aspect, 1.27);',
-      '    max-width: 100vw;',
-      '    max-height: 100vh;',
-      '    max-height: var(--lcs-vh, 100vh);',
-      '    width: auto;',
-      '    height: auto;',
-      '    margin: 0;',
-      '    box-shadow: none;',
-      '    border-radius: 0;',
+      '    margin: 0 auto !important;',
+      '    box-shadow: none !important;',
+      '    border-radius: 0 !important;',
       '  }',
       '  body.lcs-worksheet-landscape .lcs-worksheet__img {',
-      '    width: 100%;',
-      '    height: 100%;',
-      '    object-fit: contain;',
-      '    border-radius: 0;',
+      '    width: 100% !important;',
+      '    height: 100% !important;',
+      '    object-fit: contain !important;',
+      '    border-radius: 0 !important;',
       '  }',
-      /* Box-sizing: border-box on overlay descendants prevents slot inputs
-       * (which have border + padding) from overflowing their % bounds and
-       * overlapping neighbor slots. Content-box default would add border +
-       * padding outside the declared 100% width/height. */
       '  body.lcs-worksheet-landscape .lcs-overlay,',
       '  body.lcs-worksheet-landscape .lcs-overlay * {',
-      '    box-sizing: border-box;',
+      '    box-sizing: border-box !important;',
+      '    min-width: 0 !important;',
+      '    min-height: 0 !important;',
       '  }',
-      /* Inputs and choice-buttons across apps declare font-size:clamp(...,Nvw,...).
-       * Vw is the viewport width — on wide Samsung landscape phones (~800-900vw)
-       * the font resolves to ~21-23px. The compact-mode worksheet is height-
-       * constrained, making slots ~20px tall, so vw-anchored text overflows
-       * vertically and visually overlaps adjacent worksheet content. Override
-       * with a vh-anchored clamp (in compact mode vh ≈ worksheet height) plus
-       * tighter padding/border so glyphs fit inside the slot box. */
       '  body.lcs-worksheet-landscape .lcs-overlay input,',
       '  body.lcs-worksheet-landscape .lcs-overlay button {',
-      '    font-size: clamp(11px, 3vh, 18px);',
-      '    padding: 0 2px;',
-      '    border-width: 2px;',
-      '    line-height: 1;',
+      '    font-size: clamp(10px, 2.6vh, 16px) !important;',
+      '    padding: 0 2px !important;',
+      '    border-width: 2px !important;',
+      '    line-height: 1 !important;',
       '  }',
       '  body.lcs-worksheet-landscape .lcs-footer {',
-      '    position: fixed;',
-      '    bottom: 8px;',
-      '    right: 8px;',
-      '    background: transparent;',
-      '    border-top: 0;',
-      '    backdrop-filter: none;',
-      '    -webkit-backdrop-filter: none;',
-      '    padding: 0;',
-      '    margin: 0;',
-      '    width: auto;',
-      '    z-index: 100;',
-      '    justify-content: flex-end;',
+      '    position: fixed !important;',
+      '    bottom: 8px !important;',
+      '    right: 8px !important;',
+      '    background: transparent !important;',
+      '    border-top: 0 !important;',
+      '    backdrop-filter: none !important;',
+      '    -webkit-backdrop-filter: none !important;',
+      '    padding: 0 !important;',
+      '    margin: 0 !important;',
+      '    width: auto !important;',
+      '    z-index: 100 !important;',
+      '    justify-content: flex-end !important;',
       '  }',
       '  body.lcs-worksheet-landscape .lcs-footer .lcs-btn {',
-      '    min-height: 40px;',
-      '    min-width: 0;',
-      '    padding: 10px 16px;',
-      '    font-size: 14px;',
-      '    box-shadow: 0 4px 12px rgba(0,0,0,.3);',
+      '    min-height: 36px !important;',
+      '    min-width: 0 !important;',
+      '    padding: 8px 14px !important;',
+      '    font-size: 13px !important;',
+      '    box-shadow: 0 4px 12px rgba(0,0,0,.3) !important;',
       '  }',
       '}',
       '<\/style>',
       '<script>',
       '(function(){',
       '  "use strict";',
-      /* Samsung Internet (and some Android Chrome flavors during URL-bar
-       * transitions) report 100dvh inconsistently in landscape. window.
-       * visualViewport.height (with window.innerHeight fallback) is the
-       * actual currently-visible viewport on every modern browser. Set
-       * a CSS custom property --lcs-vh that the compact-mode CSS uses
-       * instead of 100dvh. */
-      '  function setVH(){',
-      '    var h=(window.visualViewport&&window.visualViewport.height)||window.innerHeight;',
-      '    if(h&&h>0){',
-      '      document.documentElement.style.setProperty("--lcs-vh",h+"px");',
+      '  var MQ = "(max-width:1024px) and (orientation:landscape)";',
+      '  function getViewport(){',
+      '    var w = (window.visualViewport && window.visualViewport.width) || window.innerWidth;',
+      '    var h = (window.visualViewport && window.visualViewport.height) || window.innerHeight;',
+      '    return { w: w, h: h };',
+      '  }',
+      /* Defensive: rewrite any cached pre-fix inline slot widths like
+       * "max(8%, 64px)" → "8%". No-op when slots already use bare percentages.
+       * Handles decks generated against pre-`5de1e373` app code that hadn\'t
+       * yet dropped the px floors on slot dimensions. */
+      '  function sanitizeSlots(){',
+      '    var slots = document.querySelectorAll(".lcs-slot");',
+      '    for (var i = 0; i < slots.length; i++) {',
+      '      var s = slots[i];',
+      '      ["width","height"].forEach(function(prop){',
+      '        var v = s.style[prop];',
+      '        if (v && v.indexOf("max(") !== -1) {',
+      '          var m = v.match(/([0-9]*\\.?[0-9]+)\\s*%/);',
+      '          if (m) s.style[prop] = m[1] + "%";',
+      '        }',
+      '      });',
       '    }',
       '  }',
-      '  function update(){',
-      '    setVH();',
-      '    var img=document.querySelector(".lcs-worksheet__img");',
-      '    if(!img||!img.naturalWidth||!img.naturalHeight)return;',
-      '    document.documentElement.style.setProperty("--lcs-worksheet-aspect",String(img.naturalWidth/img.naturalHeight));',
-      '    if(img.naturalWidth>img.naturalHeight){',
-      '      document.body.classList.add("lcs-worksheet-landscape");',
-      '    } else {',
-      '      document.body.classList.remove("lcs-worksheet-landscape");',
+      '  function fit(){',
+      '    var img = document.querySelector(".lcs-worksheet__img");',
+      '    var ws = document.querySelector(".lcs-worksheet");',
+      '    if (!img || !ws) return;',
+      '    if (!img.naturalWidth || !img.naturalHeight) return;',
+      '    var isLandscapeWs = img.naturalWidth > img.naturalHeight;',
+      '    if (isLandscapeWs) document.body.classList.add("lcs-worksheet-landscape");',
+      '    else document.body.classList.remove("lcs-worksheet-landscape");',
+      '    var compact = window.matchMedia(MQ).matches && isLandscapeWs;',
+      '    if (!compact) {',
+      '      ws.style.width = "";',
+      '      ws.style.height = "";',
+      '      ws.style.maxWidth = "";',
+      '      ws.style.maxHeight = "";',
+      '      return;',
       '    }',
+      '    sanitizeSlots();',
+      '    var v = getViewport();',
+      '    var aspect = img.naturalWidth / img.naturalHeight;',
+      /* Fit by visible-viewport height first (landscape phones are wider than tall). */
+      '    var w = v.h * aspect;',
+      '    var h = v.h;',
+      '    if (w > v.w) { w = v.w; h = v.w / aspect; }',
+      '    ws.style.width = w + "px";',
+      '    ws.style.height = h + "px";',
+      '    ws.style.maxWidth = "none";',
+      '    ws.style.maxHeight = "none";',
       '  }',
-      '  setVH();',
-      '  document.addEventListener("DOMContentLoaded",update);',
-      '  window.addEventListener("load",update);',
-      '  window.addEventListener("resize",setVH);',
-      '  window.addEventListener("orientationchange",setVH);',
-      '  if(window.visualViewport){',
-      '    window.visualViewport.addEventListener("resize",setVH);',
+      '  document.addEventListener("DOMContentLoaded", fit);',
+      '  window.addEventListener("load", fit);',
+      '  window.addEventListener("resize", fit);',
+      '  window.addEventListener("orientationchange", fit);',
+      '  if (window.visualViewport) {',
+      '    window.visualViewport.addEventListener("resize", fit);',
       '  }',
-      '  var img=document.querySelector(".lcs-worksheet__img");',
-      '  if(img)img.addEventListener("load",update);',
+      '  var img = document.querySelector(".lcs-worksheet__img");',
+      '  if (img) img.addEventListener("load", fit);',
       '})();',
       '<\/script>'
     ].join('\n');

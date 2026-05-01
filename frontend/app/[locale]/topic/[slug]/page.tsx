@@ -1,7 +1,6 @@
 import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import Link from 'next/link';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import {
   Axis,
@@ -243,7 +242,16 @@ export default async function TopicPage({ params }: { params: TopicParams }) {
                 key={deck.id}
                 className="border border-cream-300 rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow"
               >
-                <Link href={href} className="block">
+                {/*
+                  Deck pages at /<locale>/decks/<slug>/ are nginx-served per
+                  CLAUDE.md §15.7 (NOT Next.js routes). Use plain <a> instead
+                  of next/link: Next.js's trailingSlash:false config strips
+                  the trailing slash from <Link href> values when rendering,
+                  but nginx's deck location-block requires the trailing slash
+                  (no-slash form 404s). Plain <a> preserves the literal href.
+                  Same convention as components/homepage-v2/BreadthGrid.tsx.
+                */}
+                <a href={href} className="block">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={deck.thumbnailUrl}
@@ -253,20 +261,20 @@ export default async function TopicPage({ params }: { params: TopicParams }) {
                     loading="lazy"
                     className="w-full h-auto bg-cream-50"
                   />
-                </Link>
+                </a>
                 <div className="p-4">
                   <h2 className="font-display text-base font-semibold text-ink-900 mb-2 line-clamp-2">
-                    <Link href={href} className="hover:text-leaf-700">
+                    <a href={href} className="hover:text-leaf-700">
                       {title}
-                    </Link>
+                    </a>
                   </h2>
                   <div className="flex items-center gap-3 text-sm">
-                    <Link
+                    <a
                       href={href}
                       className="text-leaf-700 font-semibold hover:underline"
                     >
                       {t('deckCard.playLink')}
-                    </Link>
+                    </a>
                     <span className="text-ink-300" aria-hidden="true">·</span>
                     <a
                       href={deck.pdfUrl}

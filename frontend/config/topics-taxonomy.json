@@ -119,6 +119,26 @@
       "default_subject": "letters",
       "default_age_range": "6-8",
       "exercise_type_axis_key": "wordsearch"
+    },
+    "crossword": {
+      "default_subject": "letters",
+      "default_age_range": "7-9",
+      "exercise_type_axis_key": "crossword"
+    },
+    "find-and-count": {
+      "default_subject": "math",
+      "default_age_range": "3-5",
+      "exercise_type_axis_key": "find-and-count"
+    },
+    "find-objects": {
+      "default_subject": "logic",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "find-objects"
+    },
+    "treasure-hunt": {
+      "default_subject": "spatial-reasoning",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "treasure-hunt"
     }
   },
 
@@ -146,7 +166,11 @@
       "prepositions":     { "slug": { "en": "prepositions",     "de": "praepositionen" },       "name": { "en": "prepositions",     "de": "Präpositionen" } },
       "word-guess":       { "slug": { "en": "word-guess",       "de": "wort-raten" },           "name": { "en": "word guess",       "de": "Wort raten" } },
       "word-scramble":    { "slug": { "en": "word-scramble",    "de": "buchstabensalat" },      "name": { "en": "word scramble",    "de": "Buchstabensalat" } },
-      "wordsearch":       { "slug": { "en": "wordsearch",       "de": "wortsuche" },            "name": { "en": "word search",      "de": "Wortsuche" } }
+      "wordsearch":       { "slug": { "en": "wordsearch",       "de": "wortsuche" },            "name": { "en": "word search",      "de": "Wortsuche" } },
+      "crossword":        { "slug": { "en": "crossword",        "de": "kreuzwortraetsel" },     "name": { "en": "crossword",        "de": "Kreuzworträtsel" } },
+      "find-and-count":   { "slug": { "en": "find-and-count",   "de": "suchen-und-zaehlen" },   "name": { "en": "find and count",   "de": "Suchen und zählen" } },
+      "find-objects":     { "slug": { "en": "find-objects",     "de": "objekte-finden" },       "name": { "en": "find objects",     "de": "Objekte finden" } },
+      "treasure-hunt":    { "slug": { "en": "treasure-hunt",    "de": "schatzsuche" },          "name": { "en": "treasure hunt",    "de": "Schatzsuche" } }
     },
 
     "theme": {

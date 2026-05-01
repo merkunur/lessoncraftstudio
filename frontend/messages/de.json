@@ -1083,5 +1083,27 @@
     "moreTheme": "Mehr {theme}-Arbeitsblätter",
     "moreLevel": "Mehr Arbeitsblätter für {level}",
     "browseAll": "Alle Arbeitsblätter durchsuchen"
+  },
+  "topicPage": {
+    "meta": {
+      "title": "{topic}-Arbeitsblätter | LessonCraftStudio",
+      "description": "Kostenlose {topic}-Arbeitsblätter und druckbare PDFs. Interaktive Aktivitäten für die frühe Kindheit."
+    },
+    "heading": {
+      "exerciseType": "{topic}-Arbeitsblätter",
+      "theme": "Arbeitsblätter mit {topic}",
+      "educationalLevel": "Arbeitsblätter für {topic}"
+    },
+    "intro": {
+      "exerciseType": "Interaktive Arbeitsblätter und druckbare PDFs zum Üben von {topic}.",
+      "theme": "Arbeitsblätter mit {topic}.",
+      "educationalLevel": "Aktivitäten für {topic}."
+    },
+    "decksCount": "{count, plural, =0 {Noch keine Arbeitsblätter} =1 {1 Arbeitsblatt} other {# Arbeitsblätter}}",
+    "deckCard": {
+      "playLink": "Online spielen",
+      "pdfLink": "PDF drucken"
+    },
+    "emptyState": "Noch keine Arbeitsblätter in diesem Thema — schau bald wieder vorbei."
   }
 }

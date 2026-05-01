@@ -15,20 +15,51 @@ const FOOTER_LANGUAGES: Array<{ code: string; label: string; tier: 1 | 2 | 3 | 4
   // Tier 4 (French, Italian, Danish, Portuguese) — added when Tier 4 launches
 ];
 
-// By-topic and by-exercise-type columns per §5.6:
+// "By topic" + "By exercise type" columns per HOMEPAGE-IMPLEMENTATION-PROMPT.md §5.6:
 // "List only the topics that have real pages backing them. Don't fabricate links to
 // pages that don't exist yet — they'd 404 and erode trust."
-// Topic-taxonomy pages and per-app landing pages do NOT yet exist as Next.js routes
-// (only /[locale]/decks/[slug]/ ships via nginx per Brief B Phase 1). Both columns
-// render with the "More topics added regularly" cue + an empty list at launch.
-// Populate as routes ship.
-const FOOTER_TOPICS: Array<{ slug: string; label: string }> = [];
-const FOOTER_EXERCISE_TYPES: Array<{ slug: string; label: string }> = [];
+//
+// Populated in Pass 7b of the taxonomy expansion arc with the non-empty axis-key
+// subset per locale, mirroring the operator-curated FOOTER_LANGUAGES pattern.
+// "By topic" surfaces theme + educational-level axes (subject-matter discovery);
+// "By exercise type" surfaces the exercise-type axis (mechanic discovery) — the
+// split mirrors CLAUDE.md §16.5's three-axis schema.
+//
+// `slug` and `label` are sourced from `frontend/config/topics-taxonomy.json`
+// (per-axis-key slug.<locale> + name.<locale>). Update entries when new axis-keys
+// gain decks, when new locales' Tier launches, or when taxonomy slugs change.
+type FooterLink = { slug: string; label: string };
+
+const FOOTER_TOPICS_BY_LOCALE: Record<string, FooterLink[]> = {
+  en: [
+    { slug: 'kindergarten', label: 'kindergarten' },
+  ],
+  de: [
+    { slug: 'kindergarten', label: 'Kindergarten' },
+  ],
+};
+
+const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
+  en: [
+    { slug: 'addition', label: 'addition' },
+    { slug: 'cryptogram', label: 'cryptogram' },
+    { slug: 'picture-sudoku', label: 'picture sudoku' },
+  ],
+  de: [
+    { slug: 'addition', label: 'Addition' },
+    { slug: 'kryptogramm', label: 'Kryptogramm' },
+    { slug: 'bildpfad', label: 'Bildpfad' },
+    { slug: 'bilder-sudoku', label: 'Bilder-Sudoku' },
+  ],
+};
 
 export function Footer() {
   const pathname = usePathname();
   const locale = pathname.split('/')[1] || 'en';
   const t = useTranslations('footer');
+
+  const topics = FOOTER_TOPICS_BY_LOCALE[locale] ?? [];
+  const exerciseTypes = FOOTER_EXERCISE_TYPES_BY_LOCALE[locale] ?? [];
 
   return (
     <footer className="bg-cream-50 border-t border-cream-300 py-16 mt-24">
@@ -53,7 +84,7 @@ export function Footer() {
           <div>
             <h4 className="font-display text-sm font-semibold text-ink-900 mb-4">{t('byTopic')}</h4>
             <ul className="space-y-2 text-sm">
-              {FOOTER_TOPICS.map(topic => (
+              {topics.map(topic => (
                 <li key={topic.slug}>
                   <Link href={`/${locale}/topic/${topic.slug}/`} className="text-ink-600 hover:text-ink-900">
                     {topic.label}
@@ -68,7 +99,7 @@ export function Footer() {
           <div>
             <h4 className="font-display text-sm font-semibold text-ink-900 mb-4">{t('byExerciseType')}</h4>
             <ul className="space-y-2 text-sm">
-              {FOOTER_EXERCISE_TYPES.map(ex => (
+              {exerciseTypes.map(ex => (
                 <li key={ex.slug}>
                   <Link href={`/${locale}/topic/${ex.slug}/`} className="text-ink-600 hover:text-ink-900">
                     {ex.label}

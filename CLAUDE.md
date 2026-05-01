@@ -1114,6 +1114,8 @@ Origin: Brief B Sub-phase 5.7 verification (no impl change; document existing co
 
 Topic destination pages are the primary teacher-facing surface and the deliberate divergence from education.com's flat search results. Each page is a curated bundle of resources for a specific (axis × axis-value × locale) combination per the α-granular schema in §16.5 — one of three axes: exercise-type, theme, or educational-level. URL pattern: `/<locale>/topic/<native-language-slug>/` per §17.4 (locale-prefixed; native-language slug; trailing slash; `topic` is an English path constant).
 
+**Implementation status (Pass 7b, 2026-05-01).** Single-axis topic pages — one page per non-empty (axis × axis-key × Tier 1 locale) combination from `topics-taxonomy.json` — implemented at `/[locale]/topic/[slug]/` (`frontend/app/[locale]/topic/[slug]/page.tsx`). Each page filters the catalog by the topic's axis-key and renders a deck grid with no lesson plan card (the §16.2 fallback shape). hreflang alternates list only locales where the same axis-key has decks (honest siblings per §17.4). Cross-product topic pages per §16.1's resolution machinery (subject × topic × age × language with `Topic` row + `LessonPlan` row + embedding-similarity match) require the catalog-side Prisma models from §8.1 plus lesson plan content authoring per SUBSCRIPTION-SCOPE.md feature area 1 — both downstream of taxonomy completion. Single-axis pages are the substrate; cross-product pages layer on top when the Topic table and LessonPlan content exist.
+
 ### 16.1 Topic resolution
 
 When a teacher submits a search query, the catalog backend tries to resolve it to a known topic before falling back to faceted search:

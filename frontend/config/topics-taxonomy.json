@@ -94,6 +94,31 @@
       "default_subject": "spatial-reasoning",
       "default_age_range": "5-7",
       "exercise_type_axis_key": "shadow-match"
+    },
+    "alphabet-train": {
+      "default_subject": "letters",
+      "default_age_range": "3-5",
+      "exercise_type_axis_key": "alphabet-train"
+    },
+    "prepositions": {
+      "default_subject": "letters",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "prepositions"
+    },
+    "word-guess": {
+      "default_subject": "letters",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "word-guess"
+    },
+    "word-scramble": {
+      "default_subject": "letters",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "word-scramble"
+    },
+    "wordsearch": {
+      "default_subject": "letters",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "wordsearch"
     }
   },
 
@@ -116,7 +141,12 @@
       "grid-match":       { "slug": { "en": "grid-match",       "de": "gitter-zuordnung" },     "name": { "en": "grid match",       "de": "Gitter-Zuordnung" } },
       "matching":         { "slug": { "en": "matching",         "de": "zuordnung" },            "name": { "en": "matching",         "de": "Zuordnung" } },
       "picture-sort":     { "slug": { "en": "picture-sort",     "de": "bildersortierung" },     "name": { "en": "picture sort",     "de": "Bildersortierung" } },
-      "shadow-match":     { "slug": { "en": "shadow-match",     "de": "schatten-zuordnen" },    "name": { "en": "shadow match",     "de": "Schatten zuordnen" } }
+      "shadow-match":     { "slug": { "en": "shadow-match",     "de": "schatten-zuordnen" },    "name": { "en": "shadow match",     "de": "Schatten zuordnen" } },
+      "alphabet-train":   { "slug": { "en": "alphabet-train",   "de": "buchstabenzug" },        "name": { "en": "alphabet train",   "de": "Buchstabenzug" } },
+      "prepositions":     { "slug": { "en": "prepositions",     "de": "praepositionen" },       "name": { "en": "prepositions",     "de": "Präpositionen" } },
+      "word-guess":       { "slug": { "en": "word-guess",       "de": "wort-raten" },           "name": { "en": "word guess",       "de": "Wort raten" } },
+      "word-scramble":    { "slug": { "en": "word-scramble",    "de": "buchstabensalat" },      "name": { "en": "word scramble",    "de": "Buchstabensalat" } },
+      "wordsearch":       { "slug": { "en": "wordsearch",       "de": "wortsuche" },            "name": { "en": "word search",      "de": "Wortsuche" } }
     },
 
     "theme": {

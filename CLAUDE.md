@@ -621,7 +621,7 @@ What was **removed from scope** in this version (previously included, now delibe
 - **Catalog page Phase 1/2/Gate 1 share-work revival** — unblocked at Brief B Phase 1 (`4b91adc0` shipped the nginx catalog deck route per §15.7); reactivates as follow-on brief whenever operator decides. Inherits OG metadata on `/[locale]/decks/[slug]`, share row component, OG image at 1200×630.
 - **Topic destination pages** — full-shape brief beyond §16's minimal taxonomy. Separate brief.
 - **Eleven-deck dry-run** — locale × app coverage exercise. Now gated on the taxonomy expansion brief below.
-- **Taxonomy expansion brief (NEW priority since Brief B Phase 4 retry).** Only 4 of 29 apps registered in `topics-taxonomy.json` (addition, sudoku, cryptogram, picture-path). 25 apps need taxonomy + axis-key i18n authoring before they can publish via `publish-bulk`. Foundational for any non-Phase-2-4-app publishing; queues between Brief B Phase 6 and Group C.
+- **Taxonomy expansion arc — CLOSED 2026-05-01.** All 29 §14.10 canonical apps registered in `topics-taxonomy.json` across 6 batched passes (Pass 1 math / Pass 2 visual / Pass 3 matching / Pass 4 literacy / Pass 5 search / Pass 6 puzzle) plus Pass 7a closeout (schema cleanup + doctrine amendments). Subject vocabulary closed at 4 values: math (8), logic (8), letters (8), spatial-reasoning (5) — distribution 8+8+8+5 across 29 apps. exercise-type axis-keys 1:1 with §14.10. Locale coverage en+de Tier 1; Tier 2-4 fold in at their respective tier launches per §19. Override rate across the arc: 1/29 = 3.4% (one subject override: bingo math→letters via MEMORY's "purely a literacy prompt" framing; zero German-naturalness overrides). Topic destination route per §16 implemented separately in Pass 7b.
 - **Group C brief drafting** — 3 apps TBD; structurally identical to Group B per the run-batch precedent.
 - **§19 longer-arc items:** NSR operationalization, school-license design, home page copy, first acquisition activities, native cartoon library deployment in marketing, premium classroom personalization (v2), v2 translate-this-deck workflow per §17.8.7, grayscale PDF as user-facing download.
 
@@ -1156,6 +1156,30 @@ The `publish-cli` tool reads this when auto-filling `metadata.json` and substitu
 
 This file is operator-authored (with AI assistance during the seeding phase) and is treated like a database migration: changes are explicit, reviewed, and committed to git.
 
+`apps.*.default_subject` is a free-string field, NOT a 4th formal axis. The decision to keep it as free-string was made at recon (Brief B Phase 2) to let the corpus shape the value set rather than design a vocabulary up-front. The Pass 1-6 taxonomy expansion arc closed the value set at 4 values: **math, logic, letters, spatial-reasoning**. Distribution across the 29 §14.10 apps: math 8, logic 8, letters 8, spatial-reasoning 5. New apps must fit one of these four values; introducing a 5th value triggers a doctrine review (operator decision).
+
+#### 16.4.1 `products.ts.category` and `apps.*.default_subject` are orthogonal
+
+Two related-but-distinct taxonomies live in the codebase:
+
+- **`products.ts.category`** (per-app, in `frontend/config/products.ts`): mechanic-shape taxonomy. Names how the kid interacts with the worksheet — letter fill-in, visual scan, matching, search, drag-and-trace, etc. Drives generation-side concerns: runtime family, render pipeline, bundle version.
+- **`apps.*.default_subject`** (per-app, in `frontend/config/topics-taxonomy.json`): pedagogical-content taxonomy. Names what the kid is learning — math, logic, letters, spatial-reasoning. Drives discovery-side concerns: topic destination pages, search filtering, lesson-plan grouping.
+
+These are orthogonal. The Pass 1-6 taxonomy expansion arc registered all 29 apps batched by `products.ts.category` and authored `default_subject` per app independently. The cumulative pattern:
+
+| Pass | Cluster (products.ts.category) | Apps | Subject distribution | Shape |
+|---|---|---:|---|---|
+| 1 | math | 5 | math×5 | full collapse |
+| 2 | visual | 4 | math + logic + spatial-reasoning×2 | spread |
+| 3 | matching | 5 | letters + logic×3 + spatial-reasoning | spread |
+| 4 | literacy | 5 | letters×5 | full collapse |
+| 5 | search | 4 | letters + math + logic + spatial-reasoning | full spread |
+| 6 | puzzle | 2 | logic×2 | full collapse |
+
+3 collapses + 3 spreads. The collapse-vs-spread divide tracks "what is the cluster about?" — content-named clusters (math, literacy, puzzle) collapse to a single subject; mechanic-named clusters (visual, matching, search) spread across multiple subjects. Override rate across the arc: 1/29 (3.4%) — bingo's math→letters via MEMORY's "literacy prompt" framing.
+
+**Implication for downstream work.** Subject-aware features (topic destination pages, lesson-plan grouping, curriculum mapping by subject, faceted browse subject filter) MUST read `apps.*.default_subject` from `topics-taxonomy.json`, never infer from `products.ts.category`. The category field describes the runtime; the subject field describes the pedagogy.
+
 ### 16.5 URL pattern and α-granular topic-page axes (locked decision)
 
 Topic destination page URLs follow the canonical pattern **`/<locale>/topic/<native-language-slug>/`** per §17.4. Native-language slugs throughout (e.g., `/de/topic/tiere/`, NOT `/de/topic/animals/`). Locale-prefixed. Trailing slash. `topic` is an English path constant alongside the native-language slug.
@@ -1563,6 +1587,8 @@ Additionally, when a v2 sibling is published, `publish-cli` re-injects the updat
 The English value populates Schema.org's `educationalLevel`. The localized value (looked up via `seo.educational_level.<key>` in the existing next-intl translation system per §6) populates the localized `<title>` and `<meta name="description">`. Both are stored on the `metadata.json` layer of the manifest so that `publish-cli` doesn't recompute them per upload.
 
 **Per-tier i18n coverage status at Phase 6:** Tier 1-2 (en, de, es, nl) operator-authored; Tier 3 (sv, fi, no) authored with operator-best-effort + NSR flag; Tier 4 (da) NSR-flagged per Nordic posture; Tier 4 (fr, it, pt) operator-best-effort without NSR per §17.5 stronger Claude quality assessment. See `project_k3_phrasing_native_speaker_review.md` for the 57-key two-population NSR flag list.
+
+**Corpus ceiling note (Pass 7a, 2026-05-01).** 5 axis-keys are defined (preschool, kindergarten, grade-1, grade-2, grade-3); the Pass 1-6 taxonomy expansion arc exercised 4-of-5 across the 29 §14.10 apps: preschool 4, kindergarten 19, grade-1 5, grade-2 1, grade-3 0. grade-3 (8-10) is defined-but-unused at the K-3 audience natural ceiling. The axis stays at 5 keys for forward compatibility — content authored at grade-3 level in a future arc maps cleanly without taxonomy changes.
 
 #### 17.8.7 v1 vs v2 scope: cross-language sibling tracking
 

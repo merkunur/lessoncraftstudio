@@ -1036,9 +1036,6 @@ model LicenseKey {
   userId String? @map("user_id")
   user   User?   @relation(fields: [userId], references: [id], onDelete: SetNull)
 
-  // Relations
-  transactions WPlusTransaction[]
-
   @@index([licenseKey])
   @@index([email])
   @@index([transactionId])
@@ -1046,67 +1043,6 @@ model LicenseKey {
   @@index([productTier])
   @@index([userId])
   @@map("license_keys")
-}
-
-model WPlusTransaction {
-  id            String  @id @default(cuid())
-  transactionId String  @unique @map("transaction_id") // WarriorPlus transaction ID
-  licenseKeyId  String? @map("license_key_id")
-
-  // Buyer info
-  buyerEmail String  @map("buyer_email")
-  buyerName  String? @map("buyer_name")
-  buyerIp    String? @map("buyer_ip")
-
-  // Transaction details
-  productId     String  @map("product_id") // Our internal product ID
-  productName   String? @map("product_name")
-  amount        Float
-  currency      String  @default("USD")
-  paymentMethod String? @map("payment_method")
-
-  // Affiliate tracking
-  affiliateId     String? @map("affiliate_id")
-  affiliateAmount Float?  @map("affiliate_amount")
-
-  // Status
-  status       String    @default("completed") // "completed", "refunded", "chargeback", "pending"
-  refundedAt   DateTime? @map("refunded_at")
-  refundAmount Float?    @map("refund_amount")
-  refundReason String?   @map("refund_reason")
-
-  // Raw data
-  rawPayload Json? @map("raw_payload")
-
-  createdAt DateTime @default(now()) @map("created_at")
-  updatedAt DateTime @updatedAt @map("updated_at")
-
-  // Relations
-  licenseKey LicenseKey? @relation(fields: [licenseKeyId], references: [id], onDelete: SetNull)
-
-  @@index([transactionId])
-  @@index([buyerEmail])
-  @@index([licenseKeyId])
-  @@index([status])
-  @@index([affiliateId])
-  @@map("wplus_transactions")
-}
-
-model WPlusWebhookEvent {
-  id            String   @id @default(cuid())
-  eventId       String   @unique @map("event_id") // Unique event identifier for idempotency
-  eventType     String   @map("event_type") // "sale", "refund", "chargeback"
-  transactionId String   @map("transaction_id")
-  processedAt   DateTime @default(now()) @map("processed_at")
-  status        String   @default("processing") // "processing", "processed", "failed"
-  errorMessage  String?  @map("error_message") @db.Text
-  payload       Json?
-
-  @@index([eventId])
-  @@index([eventType])
-  @@index([transactionId])
-  @@index([status])
-  @@map("wplus_webhook_events")
 }
 
 model LicenseDevice {

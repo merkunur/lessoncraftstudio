@@ -1250,6 +1250,13 @@ Removed:
 - Static-pages catch-all entries: `en/pages/apps.html`,
   `en/pages/homepage.html`, `de/pages/homepage.html` — removed Pass 2
 - Seller-era message namespace `apps` across 11 locales — removed Pass 1
+- `frontend/config/lemonsqueezy-products.ts` (plural, 7 dead exports
+  after Pass 7's webhook scrub) — removed Pass 8 after §A.3 amendment
+- `frontend/app/admin/user-control/grant-access/`,
+  `revoke-purchase/`, `search/` API routes — removed Pass 8
+  (seller-era purchase admin tooling). Surrounding user-management
+  endpoints (`cancel`, `refund`, `reactivate`, `suspend`, `upgrade`,
+  `grant-lifetime`, `[userId]`, `export`) preserved.
 
 Public-facing routes matching the deleted prefixes return **HTTP 410 Gone**
 (set in `middleware.ts` as of Pass 5) for cleaner search-engine
@@ -1271,9 +1278,9 @@ Preserved unchanged:
 - NextAuth authentication system
 - Lemon Squeezy integration and the webhook handler at
   `/api/webhooks/lemonsqueezy/route.ts`
-- `lemonsqueezy-products.ts` (plural) — preserved per §A.3 even though
-  storefront is off; webhook handler still consumes it for legacy
-  purchase-event lookup
+- `lemonsqueezy-product-config.ts` (singular) — defines the $69
+  subscription product. Consumed by the webhook handler and the
+  homepage SubscribeCTA
 - The existing `/api/images` endpoint serving the apps
 - The 33 worksheet generator HTML files in `REFERENCE APPS/` (now
   accessed only through admin authentication)
@@ -1295,6 +1302,25 @@ after recon showed seller-era content with no K-3 retention case:
   `compare/[slug]`)
 - 7 `*-page-slugs.ts` files in `frontend/config/` — Pass 5 (orphaned by
   middleware rewrite)
+- `frontend/config/lemonsqueezy-products.ts` (plural) — Pass 8 after the
+  webhook scrub left it 100% dead (zero external consumers). §A.3
+  amended to remove from never-delete list
+
+Originally listed as preserved but **scope-narrowed in subsequent teardown
+work**:
+
+- `frontend/app/api/member/dashboard/route.ts` — admin-only as of Pass 8.
+  Non-admin requests return 403. Source-of-truth shifted from
+  `purchases.appsAccess` to admin override only; the seller-era
+  reads were dropped because no production purchase rows exist and
+  the new platform's subscriber surface (when it lands) will be a
+  new component, not an evolution of this dashboard.
+- `frontend/app/member/dashboard/page.tsx` — admin-only landing as of
+  Pass 8. Non-admins redirect to `/`. Admin path preserves the
+  launcher for the 33 worksheet apps.
+- `frontend/app/api/verify-app-access/route.ts` — admin-only as of
+  Pass 8. Non-admins receive `hasAccess: false`. Aligns with §17.2's
+  "33 apps now accessed only through admin authentication."
 
 ### 17.3 Seller-customer transition (contingency)
 
@@ -1840,7 +1866,6 @@ After modifying, run `scripts\master-sync.bat` to update local copies.
 - `frontend/public/worksheet-generators` (symlink)
 - `frontend/public/admin` (symlink)
 - `frontend/app/api/webhooks/lemonsqueezy/route.ts`
-- `frontend/config/lemonsqueezy-products.ts`
 - Immutable content managers in `frontend/public/` (`homepage-content-manager.html`, `user-control.html`)
 
 **Never run without EXPLICIT operator approval:**
@@ -1866,7 +1891,7 @@ These handle unlock → copy → re-lock. Direct `cp` on an immutable file fails
 
 ### A.6 Lemon Squeezy (current payment integration — extended, not replaced, by the new subscription model)
 
-- **Source of truth:** `frontend/config/lemonsqueezy-products.ts`
+- **Source of truth:** `frontend/config/lemonsqueezy-product-config.ts` (singular — defines `SUBSCRIPTION_PRODUCT` for the $69/year tier). The plural `lemonsqueezy-products.ts` was deleted Pass 8 after the seller-era teardown left it 100% dead.
 - **Webhook handler:** `frontend/app/api/webhooks/lemonsqueezy/route.ts` (HMAC-SHA256, idempotent via `ls_webhook_events.event_id`)
 - **Required env vars:** `LEMONSQUEEZY_WEBHOOK_SECRET`, `LEMONSQUEEZY_API_KEY`, `LEMONSQUEEZY_STORE_ID`, `LEMONSQUEEZY_STORE_SLUG`, plus `SMTP_*` / `EMAIL_PROVIDER`.
 - Stripe is **not** the active processor. The backup at `/opt/lessoncraftstudio/stripe-backup/` is immutable historical reference — do not use, do not delete.

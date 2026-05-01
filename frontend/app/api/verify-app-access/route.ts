@@ -7,20 +7,23 @@ export const dynamic = 'force-dynamic';
 /**
  * POST /api/verify-app-access
  *
- * Verifies that the authenticated user has purchased a specific app.
- * Called by worksheet generator HTML apps before removing watermark.
+ * Verifies that the authenticated user has admin access to the 33 worksheet-generator
+ * apps. Called by REFERENCE TRANSLATIONS/access-guard.js before removing the watermark.
+ *
+ * Admin-only as of Pass 8 (CLAUDE.md §17.2 — "33 apps now accessed only through admin
+ * authentication"). Seller-era purchase-based access checks (purchases.appsAccess) were
+ * dropped — production purchases table is empty (Pass 1 §8) and the apps are admin
+ * tooling in the new platform.
  *
  * Session limiting applies to ALL users including admin.
- * Admin bypasses purchase checks only (full app access).
  *
- * Body: { appId: string }
- * Headers: Authorization: Bearer <accessToken>, X-Device-Id: <deviceId>
+ * Body: { appId: string }   (kept for backwards compatibility with access-guard.js)
+ * Headers: Authorization: Bearer <accessToken>
  *
  * Returns: { hasAccess: boolean }
  */
 export async function POST(request: NextRequest) {
   try {
-    // 1. Extract and verify JWT token
     const token = extractBearerToken(request.headers.get('authorization'));
     if (!token) {
       return NextResponse.json({ hasAccess: false }, { status: 200 });
@@ -31,16 +34,8 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ hasAccess: false }, { status: 200 });
     }
 
-    // 2. Extract appId from body
-    const body = await request.json();
-    const appId = body.appId;
-    if (!appId || typeof appId !== 'string') {
-      return NextResponse.json({ hasAccess: false }, { status: 200 });
-    }
-
     const userId = decoded.userId;
 
-    // 3. Verify session exists in database (ALL users including admin)
     const session = await prisma.session.findFirst({
       where: {
         token: token,
@@ -52,13 +47,11 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ hasAccess: false, error: 'session_expired' }, { status: 200 });
     }
 
-    // 4. Update lastActivityAt (ALL users including admin)
     await prisma.session.update({
       where: { id: session.id },
       data: { lastActivityAt: new Date() },
     });
 
-    // 6. Admin override: bypasses purchase checks only (not session/device checks)
     const user = await prisma.user.findUnique({
       where: { id: userId },
       select: { email: true, isAdmin: true },
@@ -66,32 +59,6 @@ export async function POST(request: NextRequest) {
 
     if (user && (user.isAdmin || user.email.toLowerCase() === 'admin@lessoncraftstudio.com')) {
       return NextResponse.json({ hasAccess: true }, { status: 200 });
-    }
-
-    // 7. Check purchases by userId (non-admin only)
-    const purchases = await prisma.purchase.findMany({
-      where: { userId, status: 'active' },
-      select: { appsAccess: true },
-    });
-
-    for (const purchase of purchases) {
-      if (purchase.appsAccess.includes(appId)) {
-        return NextResponse.json({ hasAccess: true }, { status: 200 });
-      }
-    }
-
-    // 8. Check by email - catches unlinked purchases (non-admin only)
-    if (user) {
-      const emailPurchases = await prisma.purchase.findMany({
-        where: { buyerEmail: user.email.toLowerCase().trim(), status: 'active', userId: null },
-        select: { appsAccess: true },
-      });
-
-      for (const purchase of emailPurchases) {
-        if (purchase.appsAccess.includes(appId)) {
-          return NextResponse.json({ hasAccess: true }, { status: 200 });
-        }
-      }
     }
 
     return NextResponse.json({ hasAccess: false }, { status: 200 });

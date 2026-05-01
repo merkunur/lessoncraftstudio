@@ -119,10 +119,16 @@ export default function MemberDashboard() {
       headers: { Authorization: `Bearer ${token}` },
     })
       .then(res => {
+        // Pass 8: dashboard is admin-only. 403 means logged in but not an admin —
+        // redirect home rather than to /member which would loop back here.
+        if (res.status === 403) {
+          router.replace('/');
+          return null;
+        }
         if (!res.ok) throw new Error('Unauthorized');
         return res.json();
       })
-      .then(data => setAccess(data))
+      .then(data => { if (data) setAccess(data); })
       .catch(() => router.push('/member'));
   }, [authLoading, isAuthenticated, router]);
 

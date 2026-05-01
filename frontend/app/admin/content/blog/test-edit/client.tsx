@@ -132,14 +132,7 @@ function EditBlogPostContent() {
               </Link>
             </div>
             <div style={{ display: 'flex', gap: '16px' }}>
-              <a
-                href={`/en/blog/${slug}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ padding: '8px 16px', border: '1px solid #d1d5db', borderRadius: '8px', backgroundColor: 'white', textDecoration: 'none', color: '#374151' }}
-              >
-                Preview
-              </a>
+              {/* Public-blog preview removed — /blog/<slug> deleted in seller-era teardown (CLAUDE.md §17.1) */}
               <button
                 onClick={handleSave}
                 disabled={saving}

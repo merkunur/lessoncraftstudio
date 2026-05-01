@@ -113,8 +113,8 @@ export default function MemberPage() {
           </p>
           <p style={styles.helpText}>
             Don&apos;t have an app yet?{' '}
-            <a href="/en/pricing" style={styles.helpLink}>
-              View pricing
+            <a href="/" style={styles.helpLink}>
+              Return home
             </a>
           </p>
         </div>

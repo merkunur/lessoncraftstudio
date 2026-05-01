@@ -132,21 +132,13 @@ export default function SyncPage() {
               <h3 className="font-semibold text-blue-600">Manage Images</h3>
               <p className="text-sm text-gray-600">Upload images to themes</p>
             </a>
-            <a 
-              href="/en/apps/word-search" 
+            <a
+              href="/"
               target="_blank"
               className="p-4 border rounded-lg hover:bg-gray-50 transition-colors"
             >
-              <h3 className="font-semibold text-green-600">Test Word Search</h3>
-              <p className="text-sm text-gray-600">See your themes in action</p>
-            </a>
-            <a 
-              href="/en/apps" 
-              target="_blank"
-              className="p-4 border rounded-lg hover:bg-gray-50 transition-colors"
-            >
-              <h3 className="font-semibold text-green-600">All Apps</h3>
-              <p className="text-sm text-gray-600">Browse all worksheet apps</p>
+              <h3 className="font-semibold text-green-600">Home</h3>
+              <p className="text-sm text-gray-600">Return to site</p>
             </a>
           </div>
         </div>

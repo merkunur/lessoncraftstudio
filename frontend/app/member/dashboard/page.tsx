@@ -205,8 +205,7 @@ export default function MemberDashboard() {
 
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center space-x-8">
-              <a href="/en/apps" className="text-gray-600 hover:text-primary transition-colors">Apps</a>
-              <a href="/en/pricing" className="text-gray-600 hover:text-primary transition-colors">Pricing</a>
+              <a href="/" className="text-gray-600 hover:text-primary transition-colors">Home</a>
               <span className="text-primary font-medium border-b-2 border-primary pb-0.5">My Apps</span>
             </div>
 
@@ -237,8 +236,7 @@ export default function MemberDashboard() {
         {mobileMenuOpen && (
           <div className="md:hidden border-t border-gray-200 bg-white">
             <div className="container mx-auto px-4 py-4 space-y-4">
-              <a href="/en/apps" className="block py-2 text-gray-600 hover:text-primary transition-colors">Apps</a>
-              <a href="/en/pricing" className="block py-2 text-gray-600 hover:text-primary transition-colors">Pricing</a>
+              <a href="/" className="block py-2 text-gray-600 hover:text-primary transition-colors">Home</a>
               <span className="block py-2 text-primary font-medium">My Apps</span>
               <div className="pt-4 border-t border-gray-200 space-y-2">
                 <p className="text-sm text-gray-500">{access.email}</p>

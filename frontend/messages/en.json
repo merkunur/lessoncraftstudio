@@ -117,37 +117,6 @@
       }
     }
   },
-  "apps": {
-    "title": "Worksheet Generator Apps",
-    "subtitle": "Choose from 33 professional worksheet generators",
-    "search": "Search apps...",
-    "categories": {
-      "all": "All Apps",
-      "math": "Math",
-      "language": "Language Arts",
-      "puzzles": "Puzzles",
-      "games": "Games",
-      "visual": "Visual Perception",
-      "motor": "Fine Motor Skills",
-      "wordGames": "Word Games"
-    },
-    "tier": {
-      "free": "Free",
-      "core": "Core Bundle",
-      "full": "Full Access"
-    },
-    "wordSearch": {
-      "name": "Word Search",
-      "description": "Create engaging word search puzzles with themed vocabulary and images",
-      "features": {
-        "gridSizes": "Multiple grid sizes",
-        "directions": "Directional options",
-        "themedImages": "Theme-based images",
-        "answerKey": "Answer key generation"
-      },
-      "languageLabel": "Language"
-    }
-  },
   "auth": {
     "signIn": {
       "title": "Welcome Back",

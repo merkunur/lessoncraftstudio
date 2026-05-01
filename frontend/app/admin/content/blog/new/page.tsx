@@ -293,7 +293,7 @@ export default function NewBlogPost() {
       ${sharedPDFs.map((w: any) => `
         <div class="worksheet-download">
           <h3>${w.fileName}</h3>
-          <a href="/blog/samples/${content.slug}/${w.fileName}" download class="download-btn" data-worksheet="${w.fileName}">
+          <a href="/" download class="download-btn" data-worksheet="${w.fileName}">
             <span>Download PDF</span>
             <span class="file-size">(${w.fileSize})</span>
           </a>

@@ -10,7 +10,6 @@ export type {
   PageVisuals,
 } from './types';
 export { getCategoryAudience } from './category-audience';
-export { getBundleTierComparison } from './tier-comparison';
 
 export async function getAppContent(appId: string, locale: string) {
   try {

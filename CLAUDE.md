@@ -16,7 +16,7 @@ The catalog's central UX is the **topic destination page**: when a teacher arriv
 
 **Every public-facing page embeds a working sample deck** that the visitor can play immediately, in their chosen language. The home page, blog posts, topic pages, the about page, the pricing page — every surface lets the visitor experience the actual product rather than read descriptions of it. This is the conversion mechanism: the product proves itself before the visitor encounters any signup or subscription friction.
 
-The 33 worksheet generator apps now exist exclusively as the operator's internal production tooling. Teachers never touch the apps. The apps live behind authentication accessible only to the operator and produce decks that flow through the publish pipeline into the catalog.
+The 33 worksheet generator apps now exist exclusively as the operator's internal production tooling. Teachers never touch the apps. The apps live behind authentication accessible only to the operator. 29 of the 33 ship interactive output and produce decks that flow through the publish pipeline into the catalog (canonical list per §14.10); the remaining 4 (`coloring.html`, `writing.html`, `draw-and-color.html`, `drawing-lines.html`) are PDF-only printable activities that don't fit the interactive-deck pattern (§4.1).
 
 Revenue comes from a single tier of annual subscription at $69/year for individual teachers, with a school-license tier for international schools that prefer institutional purchase (pricing TBD; see §7). The platform is fundamentally free — every deck is freely accessible, freely shareable with students, freely printable. Subscription unlocks workflow features that emerge as needs once a teacher has integrated the platform into their work: full lesson plans on topic pages, embed codes for the teacher's own websites, parallel bilingual deck views, parent-communication templates, multi-deck assignment sharing, collections and organization, and watermark-free PDFs. The strategic principle is that conversion is value-driven (you got significant value from free, the subscription deepens it) rather than scarcity-driven (you hit a wall and had to pay). See §7 for the full feature split.
 
@@ -56,7 +56,7 @@ When designing the teacher-facing UI: no "create worksheet" buttons, no "customi
 
 ### 3.4 Launch with depth in priority languages, breadth across features
 
-The minimum viable launch includes: the entire public-facing site rebuilt from scratch for the multilingual K-3 audience (see §17), all 31 eligible apps producing catalog-ready output, a catalog of 400-600 seeded decks distributed across languages per the launch sequence (see §19), the teacher-facing catalog with search, filter, and topic destination pages, the student play experience working across all 31 exercise types, the local AI service running and producing enrichments, sample decks embedded on every public page, and the subscriber-only features (lesson plans, embed codes, parallel bilingual views, collections, watermark-free PDFs).
+The minimum viable launch includes: the entire public-facing site rebuilt from scratch for the multilingual K-3 audience (see §17), all 29 eligible apps producing catalog-ready output, a catalog of 400-600 seeded decks distributed across languages per the launch sequence (see §19), the teacher-facing catalog with search, filter, and topic destination pages, the student play experience working across all 29 exercise types, the local AI service running and producing enrichments, sample decks embedded on every public page, and the subscriber-only features (lesson plans, embed codes, parallel bilingual views, collections, watermark-free PDFs).
 
 Things **deliberately excluded from launch**: student accounts, class management, progress tracking, teacher dashboards with analytics on student session data (this was previously in scope and has been cut — see §7), parent portals, SSO, school-district SSO/SAML features, complex DRM, custom worksheet creation tools for teachers, AI-assisted *deck generation* (the AI enriches decks; it does not produce them), assignment sequences (cut as not justifying their weight for K-3 audiences). Each of these is a rabbit hole. Do not add any of them without explicit operator direction.
 
@@ -486,11 +486,11 @@ The sitemap auto-generates from published decks and topic pages, and is submitte
 
 **Engineering completeness:**
 - The previous public-facing site (seller home page, KDP tools, seller guides, public app pages) deleted; the apps moved behind operator authentication (see §17 for migration details)
-- All 31 eligible apps producing catalog-ready output via the publish pipeline
+- All 29 eligible apps producing catalog-ready output via the publish pipeline
 - "Export to catalog" workflow producing a ZIP per deck (§15) implemented for all 29 apps
 - Catalog browse, search, filter, individual deck pages all work
 - Topic destination pages render correctly with deck grid + PDF list; lesson plan section displays full content for subscribers and blurred preview with subscribe CTA for free users
-- Student play access page works across all 31 exercise types on mobile and desktop, identical experience regardless of teacher's tier
+- Student play access page works across all 29 exercise types on mobile and desktop, identical experience regardless of teacher's tier
 - Free shareable link generation (no expiration, no student count limits) works for all teachers
 - QR code generation for any deck works for all teachers
 - Email signup with deck favoriting works for all teachers
@@ -1034,6 +1034,12 @@ Resolution: `<slug>` is a symlink at `/var/www/lcs-media/decks/<locale>/<slug>` 
 
 **Canonical URLs are `https://www.lessoncraftstudio.com/<locale>/decks/<slug>/`; apex-to-www enforced via nginx 301 — see §A.10.**
 
+**Routing-contract implication for Next.js components.** Two URL classes coexist in production: Next.js routes (handled by `frontend/app/[locale]/...`) and nginx-served URLs (deck pages per this section, PDF downloads, hero video, static assets under `/var/www/lcs-media/`). Next.js routes are trailing-slash-tolerant — Next.js's normalization (configured at `frontend/next.config.js: trailingSlash: false`) strips trailing slashes on rendered output, and the Next.js router handles either form via 308 redirect. nginx-served URLs are trailing-slash-strict — the location-block matches only the with-slash canonical form per §17.4 doctrine; the no-slash form 404s (falls through to Next.js's `[locale]/[...slug]` catch-all, which doesn't recognize the slug, so returns 404).
+
+A Next.js `<Link>` component pointing at an nginx-served URL therefore produces a broken link: Link strips the trailing slash on render, the resulting `<a href>` falls through to nginx, nginx 404s. **Convention:** use Next.js `<Link>` for Next.js-routed paths (`/topic/...`, `/`, locale switches, internal app navigation); use plain `<a href="...">` for nginx-served URLs (deck pages, PDF downloads, anything else nginx routes). The PDF download in any deck-card component is the canonical example: it MUST be a plain `<a>`. The deck-page link from any catalog-render component (topic page, breadth grid, search results, future related-decks rows) MUST also be a plain `<a>`. The trailing-slash routing-contract incident at Pass 7b's deck-card 404 (locale-mirror closure pass diagnostic recon) is the cautionary case in point.
+
+**Defense-in-depth (deferred).** A nginx 301 redirect from no-slash to canonical with-slash form on the deck location-block would catch external referrers, copy-pasted no-slash links, and any future code violating the convention. Filed in deferred queue under "Trailing-slash routing-contract divergence — partially mitigated"; out-of-tree nginx-config work, operator-coordinated.
+
 ### 15.8 Cloudflare cache-invalidation policy
 
 5-min short-TTL on deck.html via nginx-side `add_header Cache-Control "public, max-age=300"`. Cloudflare honors origin Cache-Control by default. No Cloudflare API integration in publish-cli; no purge-API calls; no cache-tag headers. Fresh edits propagate within 5 minutes.
@@ -1122,7 +1128,7 @@ When a teacher submits a search query, the catalog backend tries to resolve it t
 
 1. Exact slug match (e.g., `/en/topic/addition/`, `/de/topic/tiere/`, `/de/topic/kindergarten/`)
 2. Embedding similarity match against existing `Topic` rows (top hit above a threshold)
-3. Fallback to faceted browse (`/<locale>/catalog/browse/?q=...`)
+3. Fallback to faceted browse (`/<locale>/browse/?q=...`)
 
 The resolution is server-side; teachers always see one of: a topic destination page, or the faceted browse with their query as a search term.
 
@@ -1622,7 +1628,7 @@ The exact translate-this-deck workflow shape (button in the existing app, separa
 - Tier model stays as in §7 (free / $69 individual / TBD school license).
 - Cache strategy stays as in §4.4 (Cloudflare CDN, immutable per version, full-document caching).
 - Pricing stays as in §7.
-- Which apps export decks stays as in §14.9 (31 of 33).
+- Which apps export decks stays as in §14.9 (29 of 33).
 - The catalog-export ZIP bundle structure stays as in §15.2 (manifest + four assets); the manifest gains one new field on `generation.json` and two on `metadata.json` per §15.1.
 - The URL pattern for `/<locale>/topic/<slug>/` destination pages is committed in §16.5; `publish-cli` substitutes per the α-granular schema in `topics-taxonomy.json` (§16.4).
 
@@ -1829,7 +1835,7 @@ The remaining four languages launched with minimal depth (catalog presence, a fe
 A depth-launched language has:
 - A complete home page with localized copy and an embedded sample deck in that language
 - A pricing page in that language
-- A populated catalog with the target deck count, including across all 31 exercise types
+- A populated catalog with the target deck count, including across all 29 exercise types
 - Topic destination pages for the target topic count, with full lesson plans and parent communication templates
 - A guide/blog section with the target article count
 - Native-language URL slugs throughout
@@ -1913,7 +1919,7 @@ After modifying, run `scripts\master-sync.bat` to update local copies.
 **Never run without EXPLICIT operator approval:**
 - `chattr -i` / `chattr -R -i` on any protected path.
 - Modify any `LEMONSQUEEZY_*` env var.
-- `DELETE` / `TRUNCATE` / `DROP` on: `users`, `purchases`, `ls_webhook_events`, `design_elements`, `image_library_items`.
+- `DELETE` / `TRUNCATE` / `DROP` on: `users`, `ls_webhook_events`, `design_elements`, `image_library_items`.
 - Re-run `scripts/import-*-images.js` — these strip diacritics; must re-run fix scripts afterward.
 - Regenerate `image-vocabulary.js` without verifying diacritics in the raw JSON source.
 

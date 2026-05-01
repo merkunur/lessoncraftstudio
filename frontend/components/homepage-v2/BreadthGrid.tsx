@@ -10,12 +10,8 @@ import FeaturedDeckTile from './FeaturedDeckTile';
 // At launch: minimum 4 decks across en + de (per Brief B Phase 6 catalog state),
 // 4 different topics. Grid grows toward 8 as the catalog expands per §5.2 sizing logic.
 //
-// Non-featured tiles use plain <a>, NOT next/link. Deck pages at
-// /<locale>/decks/<slug>/ are served by an nginx location-block that intercepts
-// before reaching Next.js (per CLAUDE.md §15.7). Next.js Link does client-side
-// navigation that bypasses nginx and falls into the [locale]/[...slug] catch-all
-// which returns a 404 for unknown slugs. Plain <a> triggers a full HTTP GET
-// which nginx serves correctly.
+// Non-featured tiles use plain <a>, not Next.js Link, per CLAUDE.md §15.7
+// routing-contract convention (deck URL is nginx-served, not a Next.js route).
 
 interface DeckEntry {
   slug: string;

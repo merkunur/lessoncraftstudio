@@ -24,15 +24,45 @@
       "default_subject": "spatial-reasoning",
       "default_age_range": "5-7",
       "exercise_type_axis_key": "picture-path"
+    },
+    "subtraction": {
+      "default_subject": "math",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "subtraction"
+    },
+    "code-addition": {
+      "default_subject": "math",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "code-addition"
+    },
+    "more-less": {
+      "default_subject": "math",
+      "default_age_range": "3-5",
+      "exercise_type_axis_key": "more-less"
+    },
+    "math-puzzle": {
+      "default_subject": "math",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "math-puzzle"
+    },
+    "math-worksheet": {
+      "default_subject": "math",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "math-worksheet"
     }
   },
 
   "axes": {
     "exercise-type": {
-      "addition":       { "slug": { "en": "addition",       "de": "addition" },       "name": { "en": "addition",       "de": "Addition" } },
-      "sudoku":         { "slug": { "en": "picture-sudoku", "de": "bilder-sudoku" }, "name": { "en": "picture sudoku", "de": "Bilder-Sudoku" } },
-      "cryptogram":     { "slug": { "en": "cryptogram",     "de": "kryptogramm" },    "name": { "en": "cryptogram",     "de": "Kryptogramm" } },
-      "picture-path":   { "slug": { "en": "picture-path",   "de": "bildpfad" },       "name": { "en": "picture path",   "de": "Bildpfad" } }
+      "addition":         { "slug": { "en": "addition",         "de": "addition" },           "name": { "en": "addition",         "de": "Addition" } },
+      "sudoku":           { "slug": { "en": "picture-sudoku",   "de": "bilder-sudoku" },     "name": { "en": "picture sudoku",   "de": "Bilder-Sudoku" } },
+      "cryptogram":       { "slug": { "en": "cryptogram",       "de": "kryptogramm" },        "name": { "en": "cryptogram",       "de": "Kryptogramm" } },
+      "picture-path":     { "slug": { "en": "picture-path",     "de": "bildpfad" },           "name": { "en": "picture path",     "de": "Bildpfad" } },
+      "subtraction":      { "slug": { "en": "subtraction",      "de": "subtraktion" },        "name": { "en": "subtraction",      "de": "Subtraktion" } },
+      "code-addition":    { "slug": { "en": "code-addition",    "de": "code-addition" },      "name": { "en": "code addition",    "de": "Code-Addition" } },
+      "more-less":        { "slug": { "en": "more-less",        "de": "mehr-weniger" },       "name": { "en": "more or less",     "de": "mehr oder weniger" } },
+      "math-puzzle":      { "slug": { "en": "math-puzzle",      "de": "mathe-raetsel" },      "name": { "en": "math puzzle",      "de": "Mathe-Rätsel" } },
+      "math-worksheet":   { "slug": { "en": "math-worksheet",   "de": "mathe-arbeitsblatt" }, "name": { "en": "math worksheet",   "de": "Mathe-Arbeitsblatt" } }
     },
 
     "theme": {

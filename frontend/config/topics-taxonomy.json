@@ -139,6 +139,16 @@
       "default_subject": "spatial-reasoning",
       "default_age_range": "6-8",
       "exercise_type_axis_key": "treasure-hunt"
+    },
+    "missing-pieces": {
+      "default_subject": "logic",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "missing-pieces"
+    },
+    "odd-one-out": {
+      "default_subject": "logic",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "odd-one-out"
     }
   },
 
@@ -170,7 +180,9 @@
       "crossword":        { "slug": { "en": "crossword",        "de": "kreuzwortraetsel" },     "name": { "en": "crossword",        "de": "Kreuzworträtsel" } },
       "find-and-count":   { "slug": { "en": "find-and-count",   "de": "suchen-und-zaehlen" },   "name": { "en": "find and count",   "de": "Suchen und zählen" } },
       "find-objects":     { "slug": { "en": "find-objects",     "de": "objekte-finden" },       "name": { "en": "find objects",     "de": "Objekte finden" } },
-      "treasure-hunt":    { "slug": { "en": "treasure-hunt",    "de": "schatzsuche" },          "name": { "en": "treasure hunt",    "de": "Schatzsuche" } }
+      "treasure-hunt":    { "slug": { "en": "treasure-hunt",    "de": "schatzsuche" },          "name": { "en": "treasure hunt",    "de": "Schatzsuche" } },
+      "missing-pieces":   { "slug": { "en": "missing-pieces",   "de": "was-fehlt" },            "name": { "en": "missing pieces",   "de": "Was fehlt" } },
+      "odd-one-out":      { "slug": { "en": "odd-one-out",      "de": "was-passt-nicht" },      "name": { "en": "odd one out",      "de": "Was passt nicht" } }
     },
 
     "theme": {

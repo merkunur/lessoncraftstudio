@@ -94,14 +94,15 @@ fi
 
 echo ""
 
-# Test 8: Seller-era /en/apps catalog confirmed deleted (CLAUDE.md §17.1, Pass 1+2)
+# Test 8: Seller-era /en/apps catalog confirmed deleted (CLAUDE.md §17.1, Pass 1-5)
+# Pass 5 added middleware 410-Gone for permanently-removed seller routes.
 echo "Testing seller-era surface deletions..."
 APPS_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$BASE_URL/en/apps" 2>/dev/null)
-if [ "$APPS_STATUS" != "404" ]; then
-    echo "  FAIL: /en/apps returned $APPS_STATUS (expected 404 — seller catalog should be deleted)"
+if [ "$APPS_STATUS" != "410" ]; then
+    echo "  FAIL: /en/apps returned $APPS_STATUS (expected 410 — seller catalog should be permanently removed)"
     FAILURES=$((FAILURES + 1))
 else
-    echo "  PASS: /en/apps returns 404 (seller catalog deletion holds)"
+    echo "  PASS: /en/apps returns 410 Gone (seller catalog permanently removed)"
 fi
 
 echo ""
@@ -133,22 +134,22 @@ fi
 
 echo ""
 
-# Test 11: Seller-era /en/blog confirmed deleted (CLAUDE.md §17.1, Pass 1)
+# Test 11: Seller-era /en/blog confirmed deleted (CLAUDE.md §17.1, Pass 1-5)
 BLOG_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$BASE_URL/en/blog" 2>/dev/null)
-if [ "$BLOG_STATUS" != "404" ]; then
-    echo "  FAIL: /en/blog returned $BLOG_STATUS (expected 404 — seller blog should be deleted)"
+if [ "$BLOG_STATUS" != "410" ]; then
+    echo "  FAIL: /en/blog returned $BLOG_STATUS (expected 410 — seller blog should be permanently removed)"
     FAILURES=$((FAILURES + 1))
 else
-    echo "  PASS: /en/blog returns 404 (seller blog deletion holds)"
+    echo "  PASS: /en/blog returns 410 Gone (seller blog permanently removed)"
 fi
 
-# Test 12: Seller-era /en/tools/kdp-royalty-calculator confirmed deleted (CLAUDE.md §17.1, Pass 1)
+# Test 12: Seller-era /en/tools/kdp-royalty-calculator confirmed deleted (CLAUDE.md §17.1, Pass 1-5)
 KDP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$BASE_URL/en/tools/kdp-royalty-calculator" 2>/dev/null)
-if [ "$KDP_STATUS" != "404" ]; then
-    echo "  FAIL: /en/tools/kdp-royalty-calculator returned $KDP_STATUS (expected 404 — KDP tool should be deleted)"
+if [ "$KDP_STATUS" != "410" ]; then
+    echo "  FAIL: /en/tools/kdp-royalty-calculator returned $KDP_STATUS (expected 410 — KDP tool should be permanently removed)"
     FAILURES=$((FAILURES + 1))
 else
-    echo "  PASS: /en/tools/kdp-royalty-calculator returns 404 (seller tool deletion holds)"
+    echo "  PASS: /en/tools/kdp-royalty-calculator returns 410 Gone (seller tool permanently removed)"
 fi
 
 # Test 12b: Catalog deck route serves via nginx (positive smoke for the K-3 pivot surface).

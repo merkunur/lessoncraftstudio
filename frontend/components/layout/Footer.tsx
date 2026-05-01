@@ -42,14 +42,18 @@ const FOOTER_TOPICS_BY_LOCALE: Record<string, FooterLink[]> = {
 const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
   en: [
     { slug: 'addition', label: 'addition' },
+    { slug: 'crossword', label: 'crossword' },
     { slug: 'cryptogram', label: 'cryptogram' },
+    { slug: 'pattern-train', label: 'pattern train' },
     { slug: 'picture-sudoku', label: 'picture sudoku' },
   ],
   de: [
     { slug: 'addition', label: 'Addition' },
+    { slug: 'bingo', label: 'Bingo' },
     { slug: 'kryptogramm', label: 'Kryptogramm' },
     { slug: 'bildpfad', label: 'Bildpfad' },
     { slug: 'bilder-sudoku', label: 'Bilder-Sudoku' },
+    { slug: 'buchstabensalat', label: 'Buchstabensalat' },
   ],
 };
 

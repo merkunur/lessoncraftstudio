@@ -3,9 +3,7 @@
  *
  * POST /api/webhooks/lemonsqueezy
  *
- * Handles:
- * - order_created → create Purchase + auto-create user account + send email
- * - order_refunded → revoke Purchase
+ * Handles (Pass 7+ — subscription only):
  * - subscription_created → create Subscription + auto-create user account
  * - subscription_updated → update Subscription period / status
  * - subscription_cancelled → mark Subscription canceled
@@ -14,16 +12,19 @@
  *
  * Subscription handling per HOMEPAGE-IMPLEMENTATION-PROMPT.md §5.5 + SUBSCRIPTION-SCOPE.md.
  * Reuses verifyWebhookSignature (LEMONSQUEEZY_WEBHOOK_SECRET) and the user-resolve-or-create
- * pattern from handleOrderCreated. The Subscription row is keyed by lsSubscriptionId; the
- * is-LCS-subscription-active predicate at lib/subscription-helpers.ts matches on
- * lsSubscriptionId IS NOT NULL AND status = 'active'.
+ * pattern. The Subscription row is keyed by lsSubscriptionId; the is-LCS-subscription-active
+ * predicate at lib/subscription-helpers.ts matches on lsSubscriptionId IS NOT NULL AND
+ * status = 'active'.
+ *
+ * Removed Pass 7: order_created / order_refunded handlers (seller-era one-time-purchase
+ * events). Storefront is off; no real seller customers ever existed (Pass 1 §8 confirmed
+ * purchases table = 0 rows). Inbound legacy events log-and-ignore via the default case.
  */
 
 import { NextRequest, NextResponse } from 'next/server';
 import crypto from 'crypto';
 import bcrypt from 'bcryptjs';
 import { prisma } from '@/lib/prisma';
-import { getAppsForLSProduct } from '@/config/lemonsqueezy-products';
 import { SUBSCRIPTION_PRODUCT } from '@/config/lemonsqueezy-product-config';
 import { generatePasswordResetToken, hashToken } from '@/lib/auth-utils';
 import { sendPasswordResetEmail } from '@/lib/email';
@@ -99,12 +100,6 @@ export async function POST(request: NextRequest) {
 
     // Route event
     switch (eventName) {
-      case 'order_created':
-        await handleOrderCreated(payload, eventId);
-        break;
-      case 'order_refunded':
-        await handleOrderRefunded(payload, eventId);
-        break;
       case 'subscription_created':
         await handleSubscriptionCreated(payload, eventId);
         break;
@@ -120,7 +115,23 @@ export async function POST(request: NextRequest) {
       case 'subscription_payment_failed':
         await handleSubscriptionPaymentFailed(payload, eventId);
         break;
+      case 'order_created':
+      case 'order_refunded':
+        // Seller-era one-time-purchase events. Handlers removed Pass 7; storefront off,
+        // no real seller customers ever existed. Log-and-ignore so LS doesn't retry.
+        console.info(
+          `[webhooks/lemonsqueezy] Ignoring legacy event ${eventName}; ` +
+          `seller-era purchase handling removed Pass 7.`
+        );
+        await prisma.lSWebhookEvent.update({
+          where: { eventId },
+          data: { status: 'processed' },
+        });
+        break;
       default:
+        console.info(
+          `[webhooks/lemonsqueezy] Unhandled event ${eventName}; marking processed.`
+        );
         await prisma.lSWebhookEvent.update({
           where: { eventId },
           data: { status: 'processed' },
@@ -131,148 +142,6 @@ export async function POST(request: NextRequest) {
   } catch (error: any) {
     console.error('LS webhook error:', error);
     return NextResponse.json({ error: 'Internal error' }, { status: 500 });
-  }
-}
-
-// ==========================================
-// ORDER CREATED
-// ==========================================
-
-async function handleOrderCreated(payload: any, eventId: string) {
-  try {
-    const attrs = payload.data?.attributes || {};
-    const orderId = String(payload.data?.id);
-    const buyerEmail = (attrs.user_email || '').toLowerCase().trim();
-    const buyerName = attrs.user_name || null;
-    const amount = attrs.total || 0;
-    const currency = attrs.currency || 'USD';
-
-    // Get the first order item's product ID
-    const firstItem = attrs.first_order_item;
-    const lsProductId = String(firstItem?.product_id || '');
-
-    // Resolve which apps this product unlocks
-    const appsAccess = getAppsForLSProduct(lsProductId);
-
-    if (!buyerEmail || !lsProductId) {
-      throw new Error(`Missing data: email=${buyerEmail}, productId=${lsProductId}`);
-    }
-
-    // Find or create user account
-    let user = await prisma.user.findUnique({
-      where: { email: buyerEmail },
-    });
-
-    let isNewAccount = false;
-
-    if (!user) {
-      // Auto-create account for new buyer
-      const nameParts = (buyerName || '').trim().split(/\s+/);
-      const tempPassword = crypto.randomBytes(24).toString('hex');
-      const passwordHash = await bcrypt.hash(tempPassword, 12);
-
-      user = await prisma.user.create({
-        data: {
-          email: buyerEmail,
-          passwordHash,
-          firstName: nameParts[0] || null,
-          lastName: nameParts.slice(1).join(' ') || null,
-          emailVerified: true,
-          emailVerifiedAt: new Date(),
-        },
-      });
-
-      isNewAccount = true;
-      console.log(`LS webhook: created account for ${buyerEmail}`);
-    }
-
-    // Create purchase record linked to user
-    await prisma.purchase.create({
-      data: {
-        lsOrderId: orderId,
-        lsProductId,
-        buyerEmail,
-        buyerName,
-        userId: user.id,
-        appsAccess,
-        amount,
-        currency,
-        status: 'active',
-      },
-    });
-
-    console.log(`LS purchase: ${buyerEmail} bought product ${lsProductId} (${appsAccess.length} apps, user: ${user.id})`);
-
-    // Send "set your password" email for new accounts
-    if (isNewAccount) {
-      try {
-        const resetToken = generatePasswordResetToken();
-        const hashedToken = hashToken(resetToken);
-
-        await prisma.passwordReset.create({
-          data: {
-            userId: user.id,
-            token: hashedToken,
-            expiresAt: new Date(Date.now() + 24 * 60 * 60 * 1000), // 24 hours (longer than normal reset)
-          },
-        });
-
-        await sendPasswordResetEmail({
-          email: buyerEmail,
-          firstName: user.firstName || 'there',
-          token: resetToken,
-          language: 'en',
-        });
-
-        console.log(`LS webhook: sent password setup email to ${buyerEmail}`);
-      } catch (emailErr) {
-        console.error(`LS webhook: failed to send email to ${buyerEmail}:`, emailErr);
-        // Don't fail the webhook — purchase is recorded, user can use "forgot password" later
-      }
-    }
-
-    // Mark webhook as processed
-    await prisma.lSWebhookEvent.update({
-      where: { eventId },
-      data: { status: 'processed' },
-    });
-  } catch (error: any) {
-    console.error('LS order_created error:', error);
-    await prisma.lSWebhookEvent.update({
-      where: { eventId },
-      data: { status: 'failed', errorMessage: error.message },
-    });
-  }
-}
-
-// ==========================================
-// ORDER REFUNDED
-// ==========================================
-
-async function handleOrderRefunded(payload: any, eventId: string) {
-  try {
-    const orderId = String(payload.data?.id);
-
-    await prisma.purchase.updateMany({
-      where: { lsOrderId: orderId },
-      data: {
-        status: 'refunded',
-        refundedAt: new Date(),
-      },
-    });
-
-    console.log(`LS refund: order ${orderId} revoked`);
-
-    await prisma.lSWebhookEvent.update({
-      where: { eventId },
-      data: { status: 'processed' },
-    });
-  } catch (error: any) {
-    console.error('LS order_refunded error:', error);
-    await prisma.lSWebhookEvent.update({
-      where: { eventId },
-      data: { status: 'failed', errorMessage: error.message },
-    });
   }
 }
 

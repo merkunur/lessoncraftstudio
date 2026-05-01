@@ -1213,7 +1213,7 @@ The previous public-facing site (positioned for KDP/Etsy printable sellers) is b
 ### 17.1 What was deleted
 
 **Status: complete** as of `pivot/printable-business-toolkit` HEAD
-`<Pass 5 commit SHA>`. Public-facing seller surfaces removed across five
+`49b501b0`. Public-facing seller surfaces removed across five
 sequenced passes (commits `e8c1c28f`, `b6c8166e`, `c605c911`, `42f4fd5f`,
 plus this Pass 5 commit).
 
@@ -1258,7 +1258,7 @@ deindexing. Reshelled directories (`pricing/`, `about/`, `faq/`) return
 
 ### 17.2 What is being preserved (technical foundation)
 
-**Status: still in force** as of `<Pass 5 commit SHA>`, with annotations
+**Status: still in force** as of `49b501b0`, with annotations
 below for items removed in the teardown sequence after closer recon
 showed they were seller-era despite original categorization.
 

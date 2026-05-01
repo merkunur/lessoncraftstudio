@@ -3,15 +3,14 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import {
-  LogOut, ExternalLink, Mail, Play,
-  User, ShoppingCart,
+  LogOut, ExternalLink, Mail,
+  User,
   Menu, X, CheckCircle, Calculator,
   BookOpen, Palette, Puzzle, Lightbulb, Search,
-  Package, ChevronDown, ChevronUp, LayoutGrid,
+  ChevronDown, ChevronUp, LayoutGrid,
 } from 'lucide-react';
 import { ALL_APPS, APP_CATEGORIES } from '@/config/products';
 import type { AppId, CategoryId } from '@/config/products';
-import { getCheckoutUrl, getBundleCheckoutUrl } from '@/config/lemonsqueezy-products';
 import { useAuth } from '@/contexts/auth-context';
 
 interface MemberAccess {
@@ -153,11 +152,6 @@ export default function MemberDashboard() {
     params.set('langs', 'all');
     params.set('modes', 'all');
     window.open(`/worksheet-generators/${encodeURIComponent(htmlFile)}?${params.toString()}`, '_blank');
-  }
-
-  function handleFreeTrial(appId: AppId) {
-    const htmlFile = ALL_APPS[appId].htmlFile;
-    window.open(`/worksheet-generators/${encodeURIComponent(htmlFile)}?tier=free`, '_blank');
   }
 
   function toggleCategory(categoryId: string) {
@@ -326,18 +320,6 @@ export default function MemberDashboard() {
                     </div>
 
                     <div className="flex items-center gap-3 shrink-0">
-                      {!allOwned && (
-                        <a
-                          href={getBundleCheckoutUrl(categoryId)}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          onClick={(e) => e.stopPropagation()}
-                          className={`inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-white ${styles.button} rounded-xl shadow-sm hover:shadow-md transition-all duration-200`}
-                        >
-                          <Package className="h-4 w-4" />
-                          Buy Bundle - $149
-                        </a>
-                      )}
                       {isCollapsed
                         ? <ChevronDown className="h-5 w-5 text-gray-400" />
                         : <ChevronUp className="h-5 w-5 text-gray-400" />}
@@ -353,76 +335,39 @@ export default function MemberDashboard() {
                         const app = ALL_APPS[appId];
                         const owned = purchasedApps.has(appId);
 
-                        if (owned) {
-                          return (
-                            <div
-                              key={appId}
-                              className={`relative rounded-xl border-2 ${styles.border} bg-white p-5 hover:-translate-y-0.5 hover:shadow-lg transition-all duration-200`}
-                            >
-                              <div className="flex items-start justify-between mb-3">
-                                <div>
-                                  <span className={`text-[11px] font-semibold uppercase tracking-wider ${styles.text}`}>
-                                    {category.name}
-                                  </span>
-                                  <h4 className="text-base font-display font-semibold text-gray-900 mt-0.5">
-                                    {app.name}
-                                  </h4>
-                                </div>
-                                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-green-100 text-green-700 uppercase tracking-wider">
-                                  <CheckCircle className="h-3 w-3" />
-                                  Owned
-                                </span>
-                              </div>
-                              <p className="text-sm text-gray-500 mb-4">
-                                Create {app.name.toLowerCase()} worksheets
-                              </p>
-                              <button
-                                onClick={() => handleLaunchApp(appId)}
-                                className={`w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-semibold text-white ${styles.button} rounded-xl transition-colors`}
-                              >
-                                <ExternalLink className="h-4 w-4" />
-                                Access Now
-                              </button>
-                            </div>
-                          );
-                        }
+                        // Only render owned apps. Not-owned card branch (buy + free-trial)
+                        // removed in Pass 6 with the seller-era buy buttons.
+                        if (!owned) return null;
 
                         return (
                           <div
                             key={appId}
-                            className="relative rounded-xl border border-gray-200 bg-white p-5 hover:-translate-y-0.5 hover:shadow-md transition-all duration-200"
+                            className={`relative rounded-xl border-2 ${styles.border} bg-white p-5 hover:-translate-y-0.5 hover:shadow-lg transition-all duration-200`}
                           >
                             <div className="flex items-start justify-between mb-3">
                               <div>
-                                <span className="text-[11px] font-semibold uppercase tracking-wider text-gray-400">
+                                <span className={`text-[11px] font-semibold uppercase tracking-wider ${styles.text}`}>
                                   {category.name}
                                 </span>
                                 <h4 className="text-base font-display font-semibold text-gray-900 mt-0.5">
                                   {app.name}
                                 </h4>
                               </div>
+                              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-green-100 text-green-700 uppercase tracking-wider">
+                                <CheckCircle className="h-3 w-3" />
+                                Owned
+                              </span>
                             </div>
                             <p className="text-sm text-gray-500 mb-4">
                               Create {app.name.toLowerCase()} worksheets
                             </p>
-                            <div className="flex gap-2">
-                              <a
-                                href={getCheckoutUrl(appId)}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="flex-1 inline-flex items-center justify-center gap-1.5 px-4 py-2.5 text-sm font-semibold text-white bg-gray-900 hover:bg-gray-800 rounded-xl transition-colors"
-                              >
-                                <ShoppingCart className="h-3.5 w-3.5" />
-                                Buy $49
-                              </a>
-                              <button
-                                onClick={() => handleFreeTrial(appId)}
-                                className="flex-1 inline-flex items-center justify-center gap-1.5 px-4 py-2.5 text-sm font-semibold text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-xl transition-colors"
-                              >
-                                <Play className="h-3.5 w-3.5" />
-                                Free Trial
-                              </button>
-                            </div>
+                            <button
+                              onClick={() => handleLaunchApp(appId)}
+                              className={`w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-semibold text-white ${styles.button} rounded-xl transition-colors`}
+                            >
+                              <ExternalLink className="h-4 w-4" />
+                              Access Now
+                            </button>
                           </div>
                         );
                       })}

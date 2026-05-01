@@ -49,6 +49,26 @@
       "default_subject": "math",
       "default_age_range": "5-7",
       "exercise_type_axis_key": "math-worksheet"
+    },
+    "big-small": {
+      "default_subject": "logic",
+      "default_age_range": "3-5",
+      "exercise_type_axis_key": "big-small"
+    },
+    "chart-count": {
+      "default_subject": "math",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "chart-count"
+    },
+    "pattern-train": {
+      "default_subject": "spatial-reasoning",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "pattern-train"
+    },
+    "pattern-worksheet": {
+      "default_subject": "spatial-reasoning",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "pattern-worksheet"
     }
   },
 
@@ -62,7 +82,11 @@
       "code-addition":    { "slug": { "en": "code-addition",    "de": "code-addition" },      "name": { "en": "code addition",    "de": "Code-Addition" } },
       "more-less":        { "slug": { "en": "more-less",        "de": "mehr-weniger" },       "name": { "en": "more or less",     "de": "mehr oder weniger" } },
       "math-puzzle":      { "slug": { "en": "math-puzzle",      "de": "mathe-raetsel" },      "name": { "en": "math puzzle",      "de": "Mathe-Rätsel" } },
-      "math-worksheet":   { "slug": { "en": "math-worksheet",   "de": "mathe-arbeitsblatt" }, "name": { "en": "math worksheet",   "de": "Mathe-Arbeitsblatt" } }
+      "math-worksheet":   { "slug": { "en": "math-worksheet",   "de": "mathe-arbeitsblatt" }, "name": { "en": "math worksheet",   "de": "Mathe-Arbeitsblatt" } },
+      "big-small":        { "slug": { "en": "big-small",        "de": "gross-klein" },          "name": { "en": "big or small",     "de": "groß oder klein" } },
+      "chart-count":      { "slug": { "en": "chart-count",      "de": "tabelle-zaehlen" },      "name": { "en": "chart count",      "de": "Tabelle zählen" } },
+      "pattern-train":    { "slug": { "en": "pattern-train",    "de": "muster-zug" },           "name": { "en": "pattern train",    "de": "Musterzug" } },
+      "pattern-worksheet":{ "slug": { "en": "pattern-worksheet","de": "muster-arbeitsblatt" },  "name": { "en": "pattern worksheet","de": "Musterarbeitsblatt" } }
     },
 
     "theme": {

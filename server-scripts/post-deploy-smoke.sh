@@ -94,14 +94,14 @@ fi
 
 echo ""
 
-# Test 8: Sample product page loads
-echo "Testing sample product pages..."
-PRODUCT_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$BASE_URL/en/apps/addition-worksheets" 2>/dev/null)
-if [ "$PRODUCT_STATUS" != "200" ]; then
-    echo "  FAIL: /en/apps/addition-worksheets returned $PRODUCT_STATUS"
+# Test 8: Seller-era /en/apps catalog confirmed deleted (CLAUDE.md §17.1, Pass 1+2)
+echo "Testing seller-era surface deletions..."
+APPS_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$BASE_URL/en/apps" 2>/dev/null)
+if [ "$APPS_STATUS" != "404" ]; then
+    echo "  FAIL: /en/apps returned $APPS_STATUS (expected 404 — seller catalog should be deleted)"
     FAILURES=$((FAILURES + 1))
 else
-    echo "  PASS: Product page /en/apps/addition-worksheets"
+    echo "  PASS: /en/apps returns 404 (seller catalog deletion holds)"
 fi
 
 echo ""
@@ -133,23 +133,33 @@ fi
 
 echo ""
 
-# Test 11: Check pricing page loads (important for conversions)
-echo "Testing critical pages..."
-PRICING=$(curl -s -o /dev/null -w "%{http_code}" "$BASE_URL/en/pricing" 2>/dev/null)
-if [ "$PRICING" != "200" ]; then
-    echo "  FAIL: /en/pricing returned $PRICING"
+# Test 11: Seller-era /en/blog confirmed deleted (CLAUDE.md §17.1, Pass 1)
+BLOG_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$BASE_URL/en/blog" 2>/dev/null)
+if [ "$BLOG_STATUS" != "404" ]; then
+    echo "  FAIL: /en/blog returned $BLOG_STATUS (expected 404 — seller blog should be deleted)"
     FAILURES=$((FAILURES + 1))
 else
-    echo "  PASS: Pricing page"
+    echo "  PASS: /en/blog returns 404 (seller blog deletion holds)"
 fi
 
-# Test 12: Check FAQ page loads
-SUPPORT_PAGE=$(curl -s -o /dev/null -w "%{http_code}" "$BASE_URL/en/faq" 2>/dev/null)
-if [ "$SUPPORT_PAGE" != "200" ]; then
-    echo "  FAIL: /en/faq returned $SUPPORT_PAGE"
+# Test 12: Seller-era /en/tools/kdp-royalty-calculator confirmed deleted (CLAUDE.md §17.1, Pass 1)
+KDP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$BASE_URL/en/tools/kdp-royalty-calculator" 2>/dev/null)
+if [ "$KDP_STATUS" != "404" ]; then
+    echo "  FAIL: /en/tools/kdp-royalty-calculator returned $KDP_STATUS (expected 404 — KDP tool should be deleted)"
     FAILURES=$((FAILURES + 1))
 else
-    echo "  PASS: FAQ page"
+    echo "  PASS: /en/tools/kdp-royalty-calculator returns 404 (seller tool deletion holds)"
+fi
+
+# Test 12b: Catalog deck route serves via nginx (positive smoke for the K-3 pivot surface).
+# Hit nginx (port 443) directly because deck assets live at /var/www/lcs-media/decks/ — see CLAUDE.md §15.7.
+# Use --resolve to bypass the cert SAN, then -k to ignore the local cert mismatch.
+DECK_STATUS=$(curl -s -o /dev/null -w "%{http_code}" -k "https://localhost/en/decks/addition-image-image/" -H "Host: www.lessoncraftstudio.com" 2>/dev/null)
+if [ "$DECK_STATUS" != "200" ]; then
+    echo "  FAIL: /en/decks/addition-image-image/ returned $DECK_STATUS (expected 200 — catalog deck route)"
+    FAILURES=$((FAILURES + 1))
+else
+    echo "  PASS: /en/decks/addition-image-image/ serves (catalog deck route works)"
 fi
 
 # Test 13: Image translation diacritics (Swedish bear = Björn, not Bjorn)

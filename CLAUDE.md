@@ -1210,44 +1210,110 @@ Locale coverage per launch tier (§19): Tier 1 (en, de) authored from day one; T
 
 The previous public-facing site (positioned for KDP/Etsy printable sellers) is being deleted in its entirety and rebuilt from scratch for the multilingual K-3 educator audience. This section describes what's being deleted, what's being preserved, and the SEO-first design principles that govern everything new.
 
-### 17.1 What is being deleted
+### 17.1 What was deleted
 
-All public-facing pages currently visible at lessoncraftstudio.com are removed. Concretely:
+**Status: complete** as of `pivot/printable-business-toolkit` HEAD
+`<Pass 5 commit SHA>`. Public-facing seller surfaces removed across five
+sequenced passes (commits `e8c1c28f`, `b6c8166e`, `c605c911`, `42f4fd5f`,
+plus this Pass 5 commit).
 
-- The seller home page (`/en/` and locale variants) replaced with the new multilingual K-3 educator home
-- The `/en/apps/` page and individual app marketing pages (`/en/apps/addition-worksheets`, etc.) deleted — apps are no longer publicly browsable
-- The `/en/pricing` page replaced with the new two-tier free/$69 pricing page
-- The `/en/tools/` section (KDP Royalty Calculator, Niche Finder, Profit Hub, KDP Cover Size Calculator, Activity Book Planner) deleted entirely
-- The `/en/guides/` section (seller-focused how-to articles) deleted entirely
-- The `/en/bundles/`, `/en/ideas/`, `/en/start/` seller-funnel pages deleted entirely
-- The `/en/blog/` content deleted (will be replaced with new content per §17.4)
-- The seller-focused `/en/about/`, `/en/faq/`, and footer content rewritten
+Removed:
+
+- The seller home page replaced with the new multilingual K-3 educator
+  home (preceded the teardown sequence, commit `63deeb93`)
+- `/[locale]/apps/` and individual app marketing pages — apps are no
+  longer publicly browsable (Pass 1)
+- `/[locale]/pricing/` — removed Pass 1; directory shell preserved for
+  the future two-tier free/$69 pricing page
+- `/[locale]/tools/` (KDP Royalty Calculator, Niche Finder, Profit Hub,
+  KDP Cover Size Calculator, Activity Book Planner) — removed Pass 1
+- `/[locale]/guides/` — removed Pass 1
+- `/[locale]/bundles/`, `/[locale]/ideas/`, `/[locale]/start/` —
+  removed Pass 1
+- `/[locale]/blog/` — removed Pass 1; replacement content per §17.6 lands
+  in a separate workstream
+- `/[locale]/about/`, `/[locale]/faq/` — removed Pass 1; directory shells
+  preserved for new content
+- `/[locale]/compare/` and `/[locale]/gallery/` — removed Pass 4 after
+  recon confirmed 100% seller-era content (KDP-keyword comparisons,
+  33-app worksheet-generator gallery linking exclusively at deleted
+  `/apps/`)
+- `image-sitemap-index.xml`, `video-sitemap-index.xml` and child sitemap
+  routes — removed Pass 1 cascade
+- 6 zero-consumer config directory trees
+  (`{app,tool,bundle,guide,idea,start}-content/`, ~2,251 files, ~80MB)
+  — removed Pass 3
+- 10 zero-consumer `*-showcase-images.ts` language files — removed Pass 3
+- 7 `*-page-slugs.ts` files (blog/bundle/guide/idea/product/start/tool)
+  and `resolve-internal-link.ts` — removed Passes 4–5 after middleware
+  rewrite dropped the last consumer
+- Static-pages catch-all entries: `en/pages/apps.html`,
+  `en/pages/homepage.html`, `de/pages/homepage.html` — removed Pass 2
+- Seller-era message namespace `apps` across 11 locales — removed Pass 1
+
+Public-facing routes matching the deleted prefixes return **HTTP 410 Gone**
+(set in `middleware.ts` as of Pass 5) for cleaner search-engine
+deindexing. Reshelled directories (`pricing/`, `about/`, `faq/`) return
+**404** until new content lands.
 
 ### 17.2 What is being preserved (technical foundation)
 
-None of the underlying systems are touched. Specifically:
+**Status: still in force** as of `<Pass 5 commit SHA>`, with annotations
+below for items removed in the teardown sequence after closer recon
+showed they were seller-era despite original categorization.
+
+Preserved unchanged:
 
 - The Next.js application, routing infrastructure, build system
-- Postgres database (existing tables remain; new tables added per migrations)
+- Postgres database (existing tables remain; new tables added per
+  migrations; operator-authorized DROP statements for empty seller-era
+  tables remain pending in a future pass)
 - NextAuth authentication system
-- Lemon Squeezy integration and the webhook handler at `/api/webhooks/lemonsqueezy/route.ts`
-- `lemonsqueezy-products.ts` (existing product configurations preserved; new subscription product added alongside)
+- Lemon Squeezy integration and the webhook handler at
+  `/api/webhooks/lemonsqueezy/route.ts`
+- `lemonsqueezy-products.ts` (plural) — preserved per §A.3 even though
+  storefront is off; webhook handler still consumes it for legacy
+  purchase-event lookup
 - The existing `/api/images` endpoint serving the apps
-- The 33 worksheet generator HTML files in `REFERENCE APPS/` (now accessed only through admin authentication)
-- The image library at `/var/www/lcs-media/image-library/` (untouched)
-- `REFERENCE TRANSLATIONS/image-vocabulary.js` (canonical, never modified directly)
+- The 33 worksheet generator HTML files in `REFERENCE APPS/` (now
+  accessed only through admin authentication)
+- The image library at `/var/www/lcs-media/image-library/`
+- `REFERENCE TRANSLATIONS/image-vocabulary.js` (canonical, never modified
+  directly)
 - The deployment pipeline, server configuration, all of Appendix A
-- Existing seller-customer accounts and their access to apps they previously purchased (preserved at a non-promoted URL pattern, see §17.3)
+- Cross-cutting utilities `frontend/lib/schema-generator.ts` and
+  `frontend/lib/encode-image-path.ts` — consumer set is healthy
+  preserved infra (locale roots, deck pages, etc.)
 
-### 17.3 The seller-customer transition
+Originally listed as preserved but **deleted in subsequent teardown work**
+after recon showed seller-era content with no K-3 retention case:
 
-A small number of existing customers have purchased individual app licenses or category bundles under the previous pricing. Their access must continue working but is no longer promoted publicly:
+- `frontend/app/[locale]/compare/` route and
+  `frontend/config/compare-page-slugs.ts` (3 KDP-keyword entries) — Pass 4
+- `frontend/app/[locale]/gallery/` route — Pass 4
+- `frontend/lib/resolve-internal-link.ts` — Pass 4 (only consumer was
+  `compare/[slug]`)
+- 7 `*-page-slugs.ts` files in `frontend/config/` — Pass 5 (orphaned by
+  middleware rewrite)
 
-- Existing app-purchase access is preserved through a non-public URL pattern (e.g., `/legacy-apps/[app-name]?key=[purchase-token]`) accessible only to authenticated users with the relevant `purchase` rows in the database
-- The new public site does not reference these legacy URLs anywhere
-- Existing customers receive a one-time email explaining the transition: their purchases remain valid indefinitely, the apps still work for them, the public site is being repositioned for a new audience
-- New seller-tier purchases are no longer offered after the public site rebuild
-- The legacy access path is reviewed at six months and twelve months post-rebuild; if usage has decayed to near-zero, it can be quietly retired
+### 17.3 Seller-customer transition (contingency)
+
+**Status: as of 2026-05-01** the operator confirms no real paying
+seller-tier customers exist. Production database state at the start of
+the teardown: `purchases` 0 rows, `wplus_transactions` 0 rows,
+`ls_webhook_events` 0 rows. The 41 rows in `subscriptions` and 20 rows in
+`license_keys` are operator/test seeding, not paying outside customers.
+
+The originally-specified `/legacy-apps/[app-name]?key=[purchase-token]`
+URL pattern is therefore **NOT built at v1**. The seller-customer transition
+email is not sent because there are no recipients.
+
+**Contingency:** if paying seller-tier customers appear before the empty
+seller-era tables are dropped (planned for a future pass), the legacy
+path will be built then, and the transition email will be sent. After
+the DROP statements ship, this contingency is closed.
+
+The six-month / twelve-month review of legacy access path usage is moot.
 
 ### 17.4 SEO as a structural design principle
 

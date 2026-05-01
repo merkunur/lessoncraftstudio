@@ -726,7 +726,7 @@
       '    padding: 0;',
       '    padding-bottom: 0;',
       '    min-height: 100vh;',
-      '    min-height: 100dvh;',
+      '    min-height: var(--lcs-vh, 100vh);',
       '    display: flex;',
       '    align-items: flex-start;',
       '    justify-content: center;',
@@ -739,7 +739,7 @@
       '    aspect-ratio: var(--lcs-worksheet-aspect, 1.27);',
       '    max-width: 100vw;',
       '    max-height: 100vh;',
-      '    max-height: 100dvh;',
+      '    max-height: var(--lcs-vh, 100vh);',
       '    width: auto;',
       '    height: auto;',
       '    margin: 0;',
@@ -759,6 +759,20 @@
       '  body.lcs-worksheet-landscape .lcs-overlay,',
       '  body.lcs-worksheet-landscape .lcs-overlay * {',
       '    box-sizing: border-box;',
+      '  }',
+      /* Inputs and choice-buttons across apps declare font-size:clamp(...,Nvw,...).
+       * Vw is the viewport width — on wide Samsung landscape phones (~800-900vw)
+       * the font resolves to ~21-23px. The compact-mode worksheet is height-
+       * constrained, making slots ~20px tall, so vw-anchored text overflows
+       * vertically and visually overlaps adjacent worksheet content. Override
+       * with a vh-anchored clamp (in compact mode vh ≈ worksheet height) plus
+       * tighter padding/border so glyphs fit inside the slot box. */
+      '  body.lcs-worksheet-landscape .lcs-overlay input,',
+      '  body.lcs-worksheet-landscape .lcs-overlay button {',
+      '    font-size: clamp(11px, 3vh, 18px);',
+      '    padding: 0 2px;',
+      '    border-width: 2px;',
+      '    line-height: 1;',
       '  }',
       '  body.lcs-worksheet-landscape .lcs-footer {',
       '    position: fixed;',
@@ -786,7 +800,20 @@
       '<script>',
       '(function(){',
       '  "use strict";',
+      /* Samsung Internet (and some Android Chrome flavors during URL-bar
+       * transitions) report 100dvh inconsistently in landscape. window.
+       * visualViewport.height (with window.innerHeight fallback) is the
+       * actual currently-visible viewport on every modern browser. Set
+       * a CSS custom property --lcs-vh that the compact-mode CSS uses
+       * instead of 100dvh. */
+      '  function setVH(){',
+      '    var h=(window.visualViewport&&window.visualViewport.height)||window.innerHeight;',
+      '    if(h&&h>0){',
+      '      document.documentElement.style.setProperty("--lcs-vh",h+"px");',
+      '    }',
+      '  }',
       '  function update(){',
+      '    setVH();',
       '    var img=document.querySelector(".lcs-worksheet__img");',
       '    if(!img||!img.naturalWidth||!img.naturalHeight)return;',
       '    document.documentElement.style.setProperty("--lcs-worksheet-aspect",String(img.naturalWidth/img.naturalHeight));',
@@ -796,8 +823,14 @@
       '      document.body.classList.remove("lcs-worksheet-landscape");',
       '    }',
       '  }',
+      '  setVH();',
       '  document.addEventListener("DOMContentLoaded",update);',
       '  window.addEventListener("load",update);',
+      '  window.addEventListener("resize",setVH);',
+      '  window.addEventListener("orientationchange",setVH);',
+      '  if(window.visualViewport){',
+      '    window.visualViewport.addEventListener("resize",setVH);',
+      '  }',
       '  var img=document.querySelector(".lcs-worksheet__img");',
       '  if(img)img.addEventListener("load",update);',
       '})();',

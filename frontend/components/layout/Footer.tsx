@@ -123,6 +123,7 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'wortsuche', label: 'Wortsuche' },
   ],
   es: [
+    { slug: 'tren-del-abecedario', label: 'tren del abecedario' },
     { slug: 'suma-codificada', label: 'suma codificada' },
     { slug: 'empareja-en-cuadricula', label: 'emparejar en cuadrícula' },
     { slug: 'emparejar', label: 'emparejar' },
@@ -131,6 +132,9 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'clasificar-imagenes', label: 'clasificar imágenes' },
     { slug: 'empareja-sombras', label: 'emparejar sombras' },
     { slug: 'resta', label: 'resta' },
+    { slug: 'preposiciones', label: 'preposiciones' },
+    { slug: 'adivina-la-palabra', label: 'adivina la palabra' },
+    { slug: 'sopa-de-letras', label: 'sopa de letras' },
   ],
 };
 

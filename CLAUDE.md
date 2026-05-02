@@ -18,7 +18,7 @@ The catalog's central UX is the **topic destination page**: when a teacher arriv
 
 The 33 worksheet generator apps now exist exclusively as the operator's internal production tooling. Teachers never touch the apps. The apps live behind authentication accessible only to the operator. 29 of the 33 ship interactive output and produce decks that flow through the publish pipeline into the catalog (canonical list per §14.10); the remaining 4 (`coloring.html`, `writing.html`, `draw-and-color.html`, `drawing-lines.html`) are PDF-only printable activities that don't fit the interactive-deck pattern (§4.1).
 
-Revenue comes from a single tier of annual subscription at $69/year for individual teachers, with a school-license tier for international schools that prefer institutional purchase (pricing TBD; see §7). The platform is fundamentally free — every deck is freely accessible, freely shareable with students, freely printable. Subscription unlocks workflow features that emerge as needs once a teacher has integrated the platform into their work: full lesson plans on topic pages, embed codes for the teacher's own websites, parallel bilingual deck views, parent-communication templates, multi-deck assignment sharing, collections and organization, and watermark-free PDFs. The strategic principle is that conversion is value-driven (you got significant value from free, the subscription deepens it) rather than scarcity-driven (you hit a wall and had to pay). See §7 for the full feature split.
+Revenue comes from a single tier of annual subscription at $69/year for individual teachers, with a school-license tier for international schools that prefer institutional purchase (pricing TBD; see §7). The platform is fundamentally free — every deck is freely accessible, freely shareable with students, freely printable. Subscription unlocks three feature pillars per `docs/SUBSCRIPTION-SCOPE.md`: lesson plans (deck-linked, K-3 multilingual classroom-shaped), premium themed bundles (curated, paired with lesson plans), and workspace/catalog-management tooling (collections, workspace home, advanced filtering, curriculum mapping, bulk operations). The strategic principle is that conversion is value-driven (you got significant value from free, the subscription deepens it) rather than scarcity-driven (you hit a wall and had to pay). See §7 for the full feature split.
 
 **The previous seller-facing positioning has been fully discontinued.** All public-facing pages currently visible at lessoncraftstudio.com (the home page selling KDP/Etsy worksheet generators, the seller tools like the KDP Royalty Calculator, the seller-focused guides, the per-app pricing) are being deleted. The site is being rebuilt from scratch with the multilingual K-3 educator audience in mind. The technical foundation (Next.js, Postgres, Lemon Squeezy, the apps, the image library, the vocabulary system) all stays; only the public-facing surface is being rewritten. See §11 and §17 for the deletion and rebuild scope.
 
@@ -56,7 +56,7 @@ When designing the teacher-facing UI: no "create worksheet" buttons, no "customi
 
 ### 3.4 Launch with depth in priority languages, breadth across features
 
-The minimum viable launch includes: the entire public-facing site rebuilt from scratch for the multilingual K-3 audience (see §17), all 29 eligible apps producing catalog-ready output, a catalog of 400-600 seeded decks distributed across languages per the launch sequence (see §19), the teacher-facing catalog with search, filter, and topic destination pages, the student play experience working across all 29 exercise types, the local AI service running and producing enrichments, sample decks embedded on every public page, and the subscriber-only features (lesson plans, embed codes, parallel bilingual views, collections, watermark-free PDFs).
+The minimum viable launch includes: the entire public-facing site rebuilt from scratch for the multilingual K-3 audience (see §17), all 29 eligible apps producing catalog-ready output, a catalog of 400-600 seeded decks distributed across languages per the launch sequence (see §19), the teacher-facing catalog with search, filter, and topic destination pages, the student play experience working across all 29 exercise types, the local AI service running and producing enrichments, sample decks embedded on every public page, and the subscriber-only features (lesson plans, themed bundles, collections and workspace tooling per `docs/SUBSCRIPTION-SCOPE.md`).
 
 Things **deliberately excluded from launch**: student accounts, class management, progress tracking, teacher dashboards with analytics on student session data (this was previously in scope and has been cut — see §7), parent portals, SSO, school-district SSO/SAML features, complex DRM, custom worksheet creation tools for teachers, AI-assisted *deck generation* (the AI enriches decks; it does not produce them), assignment sequences (cut as not justifying their weight for K-3 audiences). Each of these is a rabbit hole. Do not add any of them without explicit operator direction.
 
@@ -104,9 +104,9 @@ Decks are immutable after publish — editing a published deck creates a new ver
 New Next.js routes under `/[locale]/catalog/` provide:
 
 - Catalog landing page with category tiles (subject, age, exercise type, language pair) and links to popular topic destination pages
-- **Topic destination pages** at `/[locale]/topic/[slug]/` — the primary teacher-facing surface. Each page shows the topic title and description, a curated grid of recommended interactive decks, a list of companion printable PDFs, and a "show all N decks" link to the faceted browse view. The lesson plan card displays full content for subscribers and a blurred preview with a subscribe CTA for free users. Subscribers also see the parent-communication template card and the parallel-bilingual view option. See §16.
+- **Topic destination pages** at `/[locale]/topic/[slug]/` — the primary teacher-facing surface. Each page shows the topic title and description, a curated grid of recommended interactive decks, a list of companion printable PDFs, and a "show all N decks" link to the faceted browse view. The lesson plan card displays full content for subscribers and a blurred preview with a subscribe CTA for free users. Subscribers also see any themed-bundle suggestions relevant to the topic. See §16.
 - Browse/search/filter page with pagination — the fallback when no topic matches or the teacher wants to see everything; supports filtering by language pair (e.g. "decks available in both Spanish and English")
-- Individual deck page with embedded sample (the deck itself plays right on the page), metadata, share-with-class, QR code generation, PDF download (free for everyone), embed code (subscribers only), parallel-bilingual view (subscribers only), and add-to-collection (subscribers only)
+- Individual deck page with embedded sample (the deck itself plays right on the page), metadata, share-with-class, QR code generation, PDF download (free for everyone), embed code (free for everyone per §3 acquisition flywheel), and add-to-collection (subscribers only per `docs/SUBSCRIPTION-SCOPE.md` Pillar 3)
 - My Decks page showing the teacher's favorited decks (free users) plus collections, embed configs, and saved parent notes (subscribers)
 - Subscription management page
 
@@ -114,7 +114,7 @@ URL structure note: slugs are in the page's language, not English transliteratio
 
 All catalog pages are server-rendered for SEO. Schema.org `LearningResource` markup on deck pages and lesson-plan-collection markup on topic pages. hreflang for the language variants in which the content actually exists (not all 11 by default — see §19 for the language launch sequence).
 
-Authentication and feature gating: browsing, deck access, search, and PDF download are fully public — no account required to use the platform. Email signup is offered after first use for favoriting and the new-deck digest. Account creation is free. Subscription gates only the specific subscriber-tier features listed in §7 (lesson plan content, parallel bilingual view, parent communication templates, embeds, collections, watermark-free PDFs).
+Authentication and feature gating: browsing, deck access, search, PDF download, and embed codes are fully public — no account required to use the platform. Email signup is offered after first use for favoriting and the new-deck digest. Account creation is free. Subscription gates only the three feature pillars specified in `docs/SUBSCRIPTION-SCOPE.md` (lesson plans, premium themed bundles, workspace and catalog-management tooling).
 
 ### 4.4 Layer 4 — The student play experience (new)
 
@@ -139,7 +139,6 @@ Tasks the service performs:
 - Generate embeddings for each deck's metadata (used for semantic search ranking and for "related decks" suggestions)
 - Generate longer pedagogical descriptions and formal learning objectives in all 11 languages
 - Generate or refresh the lesson plan for each topic destination page
-- Generate parent communication notes per topic per language (the subscriber-tier ParentNote feature)
 - Suggest additional discoverability tags
 - Suggest curriculum-framework alignment tags (PYP, IPC, Cambridge Primary)
 
@@ -191,19 +190,24 @@ The premium feature set is shaped specifically for multilingual K-3 educators (s
 - Email signup to save favorite decks and receive new-deck digests
 - Topic destination pages with deck recommendations and printable PDF lists (lesson plan content shown blurred with a subscribe-to-read overlay; the lesson plan structure is visible to motivate conversion)
 
-**Annual subscription: $69/year (individual teacher) — adds workflow features for engaged teachers:**
-- Full lesson plans on topic destination pages (warmup, main activity, closure structure with timing, recommended decks, assessment guidance, all in the topic's language)
-- **Parallel bilingual deck view** — see and use any deck in two languages side-by-side (e.g. Spanish/English, German/French). Direct response to a real and underserved K-3 multilingual classroom need. Built on top of the existing per-language deck output; the engineering work is the side-by-side rendering layer.
-- **Parent communication templates** — auto-generated parent notes in the child's home language explaining what the child is working on this week, what skills are being developed, and how parents can support at home. Generated by the local AI per topic per language. This is a uniquely valuable feature for multilingual classrooms where teachers regularly communicate with parents who don't share the school's language.
-- Embed codes for any deck (iframe and similar formats for inserting decks into the teacher's own classroom blog, school website, Google Site, Padlet, Notion page, Substack newsletter, etc.)
-- Collections and organization — save, group, and rename decks into named collections for repeated use across classes and units
-- Watermark-free printable PDFs (the attribution footer is removed)
-- Auto-renew with 30/14/3 day notification emails
+**Annual subscription: $69/year (individual teacher).** The subscription's canonical scope is specified in `docs/SUBSCRIPTION-SCOPE.md`. Three feature pillars:
+
+1. **Lesson plans** — content-only library of pre-written, deck-linked lesson plans for K-3 multilingual classrooms.
+2. **Premium themed bundles** — curated bundles paired with lesson plans on the same themes.
+3. **Workspace and catalog-management tooling** — collections, personal workspace, advanced filtering, curriculum mapping, bulk operations. Load-bearing as the catalog grows past thousands of decks.
+
+The free tier remains as enumerated above; the subscription layers on top of it. Auto-renew with 30/14/3 day notification emails.
+
+**Features previously listed in this section that are NOT in the current canonical scope:**
+- **Embed codes** — moved to free tier per the §3 acquisition flywheel (Path B distribution requires that anyone can embed; gating embedding would weaken the flywheel).
+- **Parallel bilingual deck view** — deferred. The 29 apps' generation logic produces independent per-locale decks (no cross-language pairing infrastructure); reviving this feature would require app-side work that conflicts with §3.2's "do not rewrite app generation logic" doctrine. Reconsider as a v2 candidate when subscription has traction signal.
+- **Parent communication templates** — deferred. The local AI service has the technical capability per §4.5; scoped out at SUBSCRIPTION-SCOPE.md authoring as not load-bearing for the three-pillar value proposition.
+- **Watermark-free PDFs** — deferred. Aesthetic tier-distinction; not a load-bearing pillar.
 
 **School license tier (TBD in v1.5):**
 International schools and dual-language programs typically prefer institutional purchase rather than letting individual teachers expense subscriptions. A school-license tier is a likely v1.5 addition (probably $399-799/year covering up to 10 teachers, with higher tiers for larger institutions). Not in v1 launch scope but worth designing the data model to accommodate it cleanly. Lemon Squeezy supports tiered pricing; the catch will be account-grouping logic that lets a school admin invite up to N teachers and have them all access the institutional license.
 
-**Grace period on subscription lapse:** 60 days. Subscription-tier features continue to work for 60 days after subscription ends. Links generated while subscribed continue to function indefinitely (because they share the same infrastructure as free links), but the teacher can no longer access embeds, lesson plans, parallel bilingual views, parent communication templates, or collections during the lapse period. After 60 days, share links continue to work for students but display a small "this teacher's subscription has lapsed — renew here" message to drive renewal.
+**Grace period on subscription lapse:** 60 days. Subscription-tier features continue to work for 60 days after subscription ends. Links generated while subscribed continue to function indefinitely (because they share the same infrastructure as free links), but the teacher can no longer access lesson plans, themed bundles, or workspace tooling during the lapse period. After 60 days, share links continue to work for students but display a small "this teacher's subscription has lapsed — renew here" message to drive renewal.
 
 **Notes on what is deliberately NOT gated:**
 - Sharing with students is never gated. Free users get unlimited links and QR codes. Gating sharing would defeat the platform's purpose.
@@ -217,8 +221,8 @@ International schools and dual-language programs typically prefer institutional 
 **Conversion mechanics in the product:**
 - After a teacher saves their fifth favorite deck, an inline message appears: "Want to organize your saved decks into collections by class or unit? That's part of subscription."
 - On topic destination pages, the lesson plan section is partially visible — structure visible, content blurred — with "See the full plan" CTA.
-- On every deck page, an "Embed on your website" button appears with a tooltip that explains it's a subscription feature, plus a "View bilingual version" button that surfaces the parallel-language view as a subscriber feature.
-- After a teacher has shared at least one deck, they receive a single email a few days later with a parent-communication template they can adapt for their class — a free taste of the parent-communication feature with a note that subscribers get auto-generated templates for every topic.
+- On bundle pages (subscription-only themed bundles), free users see the bundle preview with a "Subscribe to unlock this bundle" CTA.
+- After a teacher has shared at least one deck, they receive a single follow-up email a few days later with a parent-communication template they can adapt for their class — a free outreach touch.
 
 These contextual prompts are not aggressive popups. They are small, non-blocking surface treatments that show up at the moment the relevant feature would matter. The conversion message is "you've found something useful here, and the subscription makes it more useful in these specific ways" — never "subscribe to access content."
 
@@ -495,9 +499,9 @@ The sitemap auto-generates from published decks and topic pages, and is submitte
 - QR code generation for any deck works for all teachers
 - Email signup with deck favoriting works for all teachers
 - Subscription checkout works (free tier and $69/year individual tier; school-license tier deferred to v1.5)
-- Subscriber-only features all enforce correctly: embed code generation, parallel bilingual deck view, parent communication templates display, collections management, watermark-free PDF downloads
+- Subscriber-only features all enforce correctly per `docs/SUBSCRIPTION-SCOPE.md`: lesson plan content display, premium themed bundles access, workspace and catalog-management tooling (collections, workspace home, advanced filtering, curriculum mapping, bulk operations)
 - Grace period on lapsed subscriptions works correctly (subscriber features disabled but old shared links continue to work for students)
-- Contextual conversion prompts trigger correctly (collections prompt at fifth saved deck, lesson plan blur with CTA on topic pages, embed CTA on deck pages, parallel-bilingual CTA on deck pages)
+- Contextual conversion prompts trigger correctly (collections prompt at fifth saved deck, lesson plan blur with CTA on topic pages, themed-bundle subscribe CTA on bundle pages)
 - **Sample decks embedded on every public-facing page** (home, about, pricing, blog posts, topic pages) — visitors experience the actual product before encountering signup
 - Cloudflare CDN in front of the site
 - Tailscale connecting PC, Mac Studio, Hetzner
@@ -612,7 +616,7 @@ These ideas have come up in conversation and have been explicitly deferred. Do n
 - Offline play
 - KDP/Etsy seller-facing product features (the seller line is discontinued)
 
-What is now **in scope** (additions and changes from previous versions): the headless Mac Studio running a local AI service for asynchronous enrichment (lesson plans, embeddings for semantic search, parent-communication templates, AI-suggested tags); the parallel-bilingual deck view as a subscriber feature; sample decks embedded on every public-facing page; SEO-from-the-start as a structural design principle (see §17); the language launch sequence treating depth in priority languages over breadth across all 11 (see §19); the from-scratch rebuild of the public-facing site with the multilingual K-3 audience as the only audience.
+What is now **in scope** (additions and changes from previous versions): the headless Mac Studio running a local AI service for asynchronous enrichment (lesson plans, embeddings for semantic search, AI-suggested tags); sample decks embedded on every public-facing page; SEO-from-the-start as a structural design principle (see §17); the language launch sequence treating depth in priority languages over breadth across all 11 (see §19); the from-scratch rebuild of the public-facing site with the multilingual K-3 audience as the only audience.
 
 What was **removed from scope** in this version (previously included, now deliberately cut): student session analytics dashboard for subscribers (cut because K-3 teachers don't benefit from the data — they observe students directly all day); assignment-style multi-deck sequences (cut as not justifying the engineering weight for the K-3 audience); the broad "teacher catalog" framing (replaced with the multilingual K-3 educator framing in §1).
 
@@ -638,7 +642,7 @@ This document is the stable reference. When reality diverges from it, the operat
 
 ## 13. The one sentence summary for every future session
 
-> Build a multilingual K-3 educator platform on the existing LessonCraftStudio technical foundation: rebuild the public site from scratch around teachers in international, bilingual, and immersion early-childhood programs; produce a catalog of interactive worksheets and printable PDFs in 11 languages with consistent quality; make every public page embed a working sample deck; gate lesson plans, parallel-bilingual views, parent-communication templates, embeds, and collections behind a $69/year subscription; bake SEO into every structural decision; launch with content depth in 4-5 priority languages and grow from there; ship within 12 months without destabilizing the existing Hetzner server, Lemon Squeezy integration, image library, or apps.
+> Build a multilingual K-3 educator platform on the existing LessonCraftStudio technical foundation: rebuild the public site from scratch around teachers in international, bilingual, and immersion early-childhood programs; produce a catalog of interactive worksheets and printable PDFs in 11 languages with consistent quality; make every public page embed a working sample deck; gate lesson plans, themed bundles, and workspace tooling behind a $69/year subscription per `docs/SUBSCRIPTION-SCOPE.md`; bake SEO into every structural decision; launch with content depth in 4-5 priority languages and grow from there; ship within 12 months without destabilizing the existing Hetzner server, Lemon Squeezy integration, image library, or apps.
 
 If your task appears to be outside this scope, stop and ask the operator before proceeding.
 
@@ -1120,7 +1124,7 @@ Origin: Brief B Sub-phase 5.7 verification (no impl change; document existing co
 
 Topic destination pages are the primary teacher-facing surface and the deliberate divergence from education.com's flat search results. Each page is a curated bundle of resources for a specific (axis × axis-value × locale) combination per the α-granular schema in §16.5 — one of three axes: exercise-type, theme, or educational-level. URL pattern: `/<locale>/topic/<native-language-slug>/` per §17.4 (locale-prefixed; native-language slug; trailing slash; `topic` is an English path constant).
 
-**Implementation status (Pass 7b, 2026-05-01).** Single-axis topic pages — one page per non-empty (axis × axis-key × Tier 1 locale) combination from `topics-taxonomy.json` — implemented at `/[locale]/topic/[slug]/` (`frontend/app/[locale]/topic/[slug]/page.tsx`). Each page filters the catalog by the topic's axis-key and renders a deck grid with no lesson plan card (the §16.2 fallback shape). hreflang alternates list only locales where the same axis-key has decks (honest siblings per §17.4). Cross-product topic pages per §16.1's resolution machinery (subject × topic × age × language with `Topic` row + `LessonPlan` row + embedding-similarity match) require the catalog-side Prisma models from §8.1 plus lesson plan content authoring per SUBSCRIPTION-SCOPE.md feature area 1 — both downstream of taxonomy completion. Single-axis pages are the substrate; cross-product pages layer on top when the Topic table and LessonPlan content exist.
+**Implementation status (Pass 7b, 2026-05-01).** Single-axis topic pages — one page per non-empty (axis × axis-key × Tier 1 locale) combination from `topics-taxonomy.json` — implemented at `/[locale]/topic/[slug]/` (`frontend/app/[locale]/topic/[slug]/page.tsx`). Each page filters the catalog by the topic's axis-key and renders a deck grid with no lesson plan card (the §16.2 fallback shape). hreflang alternates list only locales where the same axis-key has decks (honest siblings per §17.4). Cross-product topic pages per §16.1's resolution machinery (subject × topic × age × language with `Topic` row + `LessonPlan` row + embedding-similarity match) require the catalog-side Prisma models from §8.1 plus lesson plan content authoring per `docs/SUBSCRIPTION-SCOPE.md` feature area 1 — both downstream of taxonomy completion. Single-axis pages are the substrate; cross-product pages layer on top when the Topic table and LessonPlan content exist.
 
 ### 16.1 Topic resolution
 
@@ -1816,7 +1820,7 @@ The platform supports 11 languages technically (see §6). The launch and content
 
 **Tier 1 — depth at launch (months 1-3):** English, German.
 
-These are the languages where Claude's keyword research and content quality assessment are strongest, where the audience volume is largest, and where the moderate competition still allows ranking with sustained content investment. Target at launch: 50+ topic destination pages each, 30+ guide articles each, 200+ decks each, all subscriber features fully populated (lesson plans, parent notes, parallel-bilingual where applicable).
+These are the languages where Claude's keyword research and content quality assessment are strongest, where the audience volume is largest, and where the moderate competition still allows ranking with sustained content investment. Target at launch: 50+ topic destination pages each, 30+ guide articles each, 200+ decks each, all subscriber features fully populated per `docs/SUBSCRIPTION-SCOPE.md` (lesson plans, themed bundles, workspace tooling).
 
 **Tier 2 — depth in months 3-6:** Spanish, Dutch.
 
@@ -1836,7 +1840,7 @@ A depth-launched language has:
 - A complete home page with localized copy and an embedded sample deck in that language
 - A pricing page in that language
 - A populated catalog with the target deck count, including across all 29 exercise types
-- Topic destination pages for the target topic count, with full lesson plans and parent communication templates
+- Topic destination pages for the target topic count, with full lesson plans
 - A guide/blog section with the target article count
 - Native-language URL slugs throughout
 - hreflang siblings linking to other depth-launched languages

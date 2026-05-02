@@ -5,12 +5,17 @@ import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 
 // Tier-weighted language ordering per HOMEPAGE-IMPLEMENTATION-PROMPT.md §5.6 + CLAUDE.md §19.
-// At launch only Tier 1 (en, de) has catalog content per Brief B Phase 6 state.
-// As Tier 2/3/4 launches populate content, append entries here.
+// Pass 7b F4 honesty discipline: array membership IS the gate — only locales with
+// real catalog content link out. Per Section 2 Option D stagger pattern locked at
+// Tier 2 i18n recon: per-locale entries are added at the commission that publishes
+// that locale's first deck (operator-curated, not runtime content-checked). Tier 2
+// Track A registers es + nl in TOPIC_LOCALES + topics-taxonomy.json + middleware
+// but does NOT add Footer entries here — those land at Track C Batch 1's first es
+// (and later first nl) deck publish.
 const FOOTER_LANGUAGES: Array<{ code: string; label: string; tier: 1 | 2 | 3 | 4 }> = [
   { code: 'en', label: 'English', tier: 1 },
   { code: 'de', label: 'German', tier: 1 },
-  // Tier 2 (Spanish, Dutch) — added when Tier 2 launches
+  // Tier 2 (Spanish, Dutch) — added at Track C per-locale stagger when first es / first nl deck publishes
   // Tier 3 (Swedish, Finnish, Norwegian) — added when Tier 3 launches
   // Tier 4 (French, Italian, Danish, Portuguese) — added when Tier 4 launches
 ];

@@ -10,10 +10,13 @@ export const revalidate = 1800;
 // Dynamic date from build environment, falls back to static date
 const STATIC_CONTENT_DATE = new Date(process.env.BUILD_DATE || '2026-04-04');
 
-// Topic-page locales — Tier 1 only per CLAUDE.md §19. Mirrors the topic route's
+// Topic-page locales — Tier 1 + Tier 2 per CLAUDE.md §19. Mirrors the topic route's
 // generateStaticParams locale set so the sitemap doesn't advertise URLs that
-// won't 200.
-const TOPIC_LOCALES = ['en', 'de'] as const;
+// won't 200. Per F4 honesty discipline (Pass 7b), per-locale topic URLs only emit
+// when the (axis, axis-key, locale) tuple has ≥1 published deck — extending
+// TOPIC_LOCALES does NOT inflate the sitemap with empty es/nl entries; emission
+// is content-gated downstream (see fetchDecksForAxis at the topic route).
+const TOPIC_LOCALES = ['en', 'de', 'es', 'nl'] as const;
 type TopicLocale = (typeof TOPIC_LOCALES)[number];
 const TOPIC_AXES: Axis[] = ['exercise-type', 'theme', 'educational-level'];
 

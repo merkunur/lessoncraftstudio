@@ -74,6 +74,7 @@ export async function POST(request: NextRequest) {
         subject: validatedData.locale === 'de' ? 'Bestätigen Sie Ihre E-Mail-Adresse' :
                  validatedData.locale === 'fr' ? 'Vérifiez votre adresse email' :
                  validatedData.locale === 'es' ? 'Verifica tu dirección de correo' :
+                 validatedData.locale === 'nl' ? 'Bevestig je e-mailadres' :
                  'Verify your email address',
         html: emailHtml,
         metadata: {

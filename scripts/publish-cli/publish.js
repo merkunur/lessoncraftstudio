@@ -174,11 +174,22 @@ async function publish(opts) {
   try {
     if (existingRow) {
       // UPDATE path.
+      // Phase-3.0 W-1 forward-fix: derive subjectTags from manifest.theme so
+      // edit-in-place republishes refresh the field. theme is a free-string
+      // axis-key per topics-taxonomy.json axes.theme (animals/vehicles/food/
+      // fruit at v1). Populated → single-element array; null/empty → []. Origin:
+      // halt-and-surface report 2026-05-03 surfaced 12 legacy rows null at
+      // origin (unrecoverable backfill); this amendment closes the upstream
+      // gap so future themed publishes propagate without manual SQL stop-gap.
+      var subjectTagsForUpdate = (typeof manifest.theme === 'string' && manifest.theme.length > 0)
+        ? [manifest.theme]
+        : [];
       dbRow = await db.updateDeck(existingRow.id, {
         title: { [locale]: meta.title },
         description: { [locale]: meta.description },
         exerciseType: manifest.exercise_type,
         exerciseMode: manifest.exercise_mode,
+        subjectTags: subjectTagsForUpdate,
         ageRange: '5-7',  // TODO: derive from taxonomy.appConfig per app
         htmlUrl: canonicalURL + 'deck.html',
         pdfUrl: canonicalURL + 'printable.pdf',
@@ -195,6 +206,11 @@ async function publish(opts) {
       } catch (e) {
         ageRange = '5-7';  // fallback default
       }
+      // Phase-3.0 W-1 forward-fix: derive subjectTags from manifest.theme. See
+      // matching UPDATE-path comment above for origin + backfill rationale.
+      var subjectTagsForInsert = (typeof manifest.theme === 'string' && manifest.theme.length > 0)
+        ? [manifest.theme]
+        : [];
       dbRow = await db.insertDeck({
         slug: slug,
         title: { [locale]: meta.title },
@@ -202,7 +218,7 @@ async function publish(opts) {
         exerciseType: manifest.exercise_type,
         exerciseMode: manifest.exercise_mode,
         language: locale,
-        subjectTags: [],  // future amendment to derive from taxonomy
+        subjectTags: subjectTagsForInsert,
         topicSlugs: [],   // future amendment to derive from taxonomy
         ageRange: ageRange,
         htmlUrl: canonicalURL + 'deck.html',

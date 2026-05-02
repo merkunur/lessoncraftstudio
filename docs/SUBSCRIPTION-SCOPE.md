@@ -62,9 +62,9 @@ A library of pre-written lesson plans, each one tied to specific decks in the ca
 
 Pre-written lesson plans must be **opinionated to be useful**. Vague plans ("introduce vocabulary, do worksheet, review") are worse than no plans because teachers can produce that themselves in seconds. Useful plans require:
 
-- **A specific pedagogical approach** — the platform's stance on K-3 multilingual instruction. This needs to be defined before lesson-plan content authoring begins. Candidates (operator to decide separately): CLIL (Content and Language Integrated Learning), communicative language teaching, phonics-first, or a deliberately eclectic stance with the approach noted on each plan. **Open decision: pedagogical stance for lesson plans not yet locked.**
-- **A defined structural format** — e.g., warmup → introduction → practice → review, with timing per section. Consistent across all plans in the library so teachers learn the format once.
-- **A clear point of view** — what does good K-3 multilingual instruction look like? Plans should reflect a coherent philosophy, not a generic template filled in.
+- **A specific pedagogical approach** — **RESOLVED 2026-05-02 (strategic-decisions session): CLIL (Content and Language Integrated Learning).** Aligns the pedagogical layer with the locked positioning frame (dual-language K-3 teacher) + with the secondary audience (international schools running IB PYP / Cambridge Primary / IPC). Every lesson plan reflects the CLIL stance; the stance is named on each plan for transparency.
+- **A defined structural format** — warmup → content-language integrated activity → language-scaffold + practice → closure, with timing per section. Consistent across all plans in the library so teachers learn the format once. Encoded in `LessonPlan.structure` JSON (Prisma schema commit `9ba9fa2d`).
+- **A clear point of view** — what does good K-3 multilingual instruction look like under CLIL? Plans should reflect a coherent CLIL philosophy, not a generic template filled in.
 
 ### Content pipeline commitment
 
@@ -90,6 +90,47 @@ Each bundle is a set of decks unified by a theme (seasonal, topical, occasion-ba
 - "Halloween bundle" — themed decks across the relevant apps + a Halloween lesson plan.
 - "First week of school bundle" — icebreaker / introductory decks + a first-week lesson plan.
 - "Numbers 1-20 in German bundle" — a coherent unit of German number-learning decks + a unit lesson plan.
+
+### Pricing (locked)
+
+**RESOLVED 2026-05-02 (strategic-decisions session): all-in-subscription.** Every bundle is included in the $69/year subscription. No per-bundle SKUs, no individual purchase paths, no Purchase model resurrection. Subscription lapse semantics: subscription lapses → bundle access ends. Re-subscribe → bundle access restored. The lapsed teacher's collections + workspace state per Pillar 3 persist across the lapse window per the standard 60-day grace per CLAUDE.md §7.
+
+### Bundle model shape (locked)
+
+The Bundle is a **content-record-only** entity in the catalog database — no commerce fields, no variant IDs, no per-bundle pricing. Eventual schema (commission deferred per `project_deferred_items_queue.md`):
+
+```
+Bundle {
+  slug          String  @id      // human-readable, locale-prefixed
+  title         Json             // {en: "...", de: "...", ...}
+  theme         String           // e.g. "halloween", "back-to-school"
+  locale        String           // ISO 639-1; bundles are per-locale rows
+  deckIds       String[]         // ordered list — drives the bundle's deck grid
+  lessonPlanRef String?          // FK to LessonPlan.id paired with this bundle
+  thumbnailUrl  String           // visible bundle thumbnail
+  createdAt     DateTime
+  updatedAt     DateTime
+  @@index([theme, locale])
+}
+```
+
+No `priceUsd`, no `variantId`, no `isPremium` flag — entitlement is purely "user has active LCS subscription" per the existing Subscription table. Pillar 4 (embedding) stays free per its own section.
+
+### Launch bundle list (locked)
+
+**Threshold-anchored launch trigger** (RESOLVED 2026-05-02 — see "Resolved decisions" below): **7 bundles per locale × 2 locales (en+de Tier 1) = 14 bundles** at subscription-purchasable launch.
+
+Per locale:
+
+1. **Back-to-school** — first-week-of-school decks + first-week lesson plan.
+2. **Halloween** — seasonal decks + Halloween lesson plan.
+3. **Winter holidays** — seasonal decks + winter-holiday lesson plan.
+4. **Valentine's Day** — themed decks + Valentine's lesson plan.
+5. **End-of-year** — review/celebration decks + end-of-year lesson plan.
+6. **End-of-unit-review (early-year)** — review-format decks + early-year-review lesson plan.
+7. **End-of-unit-review (mid-year)** — review-format decks + mid-year-review lesson plan.
+
+Five seasonal/occasion-based bundles + two structural review bundles. Mix is intentional: seasonals carry teacher familiarity ("I know I'll need a Halloween activity"); review bundles answer "what do I do at the end of a unit" — a recurring teacher need that doesn't sit on the calendar.
 
 ### Bundle/lesson-plan pairing
 
@@ -117,6 +158,14 @@ Each bundle is a set of decks unified by a theme (seasonal, topical, occasion-ba
 ### Frame
 
 **Tools for managing the teacher's own teaching practice across a growing catalog**, not tools that improve the catalog itself. This framing matters: if the catalog "gets better" with the subscription, that invites the question "why isn't the catalog organized for everyone?" If the *teacher* gets better-equipped, that's a coherent paid-tier value proposition that doesn't undermine the free experience.
+
+### Implementation order (locked)
+
+**RESOLVED 2026-05-02 (strategic-decisions session): 1 → 2 → 5 → 3 → 4.**
+
+- **Launch-day surface (Tools 1, 2, 5):** Collections, Workspace home, Bulk operations. All three ship against the existing Pillar 3 schema substrate landed at commit `9ba9fa2d` (Collection + CollectionDeck + DeckFavorite + EmbedConfig + PlayLink — no further schema work blocks Tools 1+2+5).
+- **Post-launch (Tool 3, then Tool 4):** Advanced filtering, then Curriculum mapping. Each carries its own schema commission pass per `project_deferred_items_queue.md` ("Pillar 3 Tools 3+4 commission" entry). Plausible model shapes: SavedFilter (Tool 3), CurriculumTag + CurriculumTagDeck (Tool 4).
+- **Tool 6 (personalized feed):** stays deferred to post-launch per the original "Deferred" sub-section below; not in the implementation-order sequence.
 
 ### Essential tools (load-bearing for paid-tier value)
 
@@ -167,21 +216,33 @@ This means embedding is **not** a subscription feature, **not** mentioned in sub
 
 ---
 
-## Open decisions not resolved in scope conversation
+## Resolved decisions
 
-These remain to be locked separately, in subsequent strategic work or at implementation time:
+The 6 open decisions originally enumerated in this section were all resolved at the **strategic-decisions session 2026-05-02**. Resolutions are folded into the Pillar sections above; this section preserves the audit trail.
 
-1. **Pedagogical stance for lesson plans.** CLIL, communicative language teaching, phonics-first, or eclectic. Required before lesson-plan content authoring begins. Owner: operator + pedagogical advisor if applicable.
+1. **Pedagogical stance for lesson plans.** RESOLVED 2026-05-02: **CLIL (Content and Language Integrated Learning).** Aligns the pedagogical layer with the locked positioning frame (dual-language K-3 teacher) + with the secondary audience (international schools running IB PYP / Cambridge Primary / IPC). Folded in: Pillar 1 "Pedagogical and format requirements."
 
-2. **Initial lesson-plan library size at subscription launch.** How many plans must exist on day one for the subscription to feel substantive? Thin launch undermines the paid-tier value at the most visible moment. Recommend at least one plan per major topic in the registered taxonomy at launch, scaled to languages.
+2. **Initial lesson-plan library size at subscription launch.** RESOLVED 2026-05-02 (combined with #3 as threshold-anchored launch trigger): **1 lesson plan per published deck per locale.** Scales automatically with catalog growth — no re-decision needed when catalog grows pre-launch. Folded in: "Launch readiness" section below.
 
-3. **Initial bundle library size at subscription launch.** Same concern as lesson plans. Recommend a clearly visible set (e.g., 8-12 bundles at launch, covering seasonal + topical + curricular ranges) so the subscription's bundle promise is immediately legible.
+3. **Initial bundle library size at subscription launch.** RESOLVED 2026-05-02 (combined with #2 as threshold-anchored launch trigger): **7 bundles per locale × 2 locales (en+de Tier 1) = 14 bundles total.** The 7 per locale: back-to-school, Halloween, winter holidays, Valentine's Day, end-of-year, plus two end-of-unit-review bundles (early-year + mid-year). Folded in: Pillar 2 "Launch bundle list" + "Launch readiness" section below.
 
-4. **Bundle pricing structure.** Are bundles included entirely in the $69 subscription, or are some bundles individually purchasable as one-off content? Operator preference unstated. Default assumption pending decision: all bundles included in subscription.
+4. **Bundle pricing structure.** RESOLVED 2026-05-02: **all-in-subscription.** Every bundle included in $69/year subscription. No per-bundle SKUs, no individual purchase paths, no Purchase model resurrection. Bundle model = content-record-only. Folded in: Pillar 2 "Pricing" + "Bundle model shape."
 
-5. **Lesson-plan localization strategy.** Are plans authored in English and translated, or authored natively per language, or both depending on the plan? Affects content pipeline cost and quality. Operator preference unstated.
+5. **Lesson-plan localization strategy.** RESOLVED 2026-05-01 (Prisma schema commit `9ba9fa2d`): **per-locale rows.** Lesson plans authored per-locale, not auto-translated; en+de Tier 1 at launch. Schema-encoded via `LessonPlan @@unique([topicSlug, language])`. Re-asserted at this pass as the canonical localization commitment.
 
-6. **Workspace tooling implementation order.** Tools 1, 2, 5 are essential; Tool 3, 4 are differentiators. Recommend ship order: Tool 1 (collections) → Tool 2 (workspace home) → Tool 5 (bulk operations) → Tool 4 (curriculum mapping) → Tool 3 (advanced filtering). Operator may prefer a different order.
+6. **Workspace tooling implementation order.** RESOLVED 2026-05-02: **1 → 2 → 5 → 3 → 4.** Tools 1+2+5 (Collections, Workspace home, Bulk operations) ship first against existing schema substrate (commit `9ba9fa2d`). Tools 3+4 (Advanced filtering, Curriculum mapping) follow, each carrying its own schema commission pass. Tool 6 (Personalized feed) stays deferred per its original "Deferred" sub-section. Folded in: Pillar 3 "Implementation order."
+
+## Launch readiness
+
+The $69/year subscription becomes purchasable when **all three thresholds** are met:
+
+1. **Lesson-plan threshold:** every published deck has at least one lesson plan attached per locale (resolution #2 above). Scales with catalog growth.
+2. **Bundle threshold:** the 7-bundle launch list authored per locale (resolution #3 above) — 14 bundles total at en+de Tier 1.
+3. **Workspace tooling threshold:** Pillar 3 Tools 1+2+5 functional (Collections, Workspace home, Bulk operations) per resolution #6 above.
+
+Until all three thresholds are met, the home page Section 5 surface continues to capture interest via the Notify-me path (`HOMEPAGE_SUBSCRIBE_MODE=notify_me` per `frontend/components/homepage-v2/SubscriptionSection.tsx`). Flipping the env var to `subscribe` is the operational launch action — it activates the SubscribeCTA → LS checkout flow per the existing dual-path scaffolding.
+
+Tools 3+4 (Advanced filtering, Curriculum mapping) and Tool 6 (Personalized feed) ship post-launch, not as part of the launch trigger.
 
 ---
 
@@ -215,3 +276,4 @@ The home page subscription section now has a concrete frame to draft against:
 - This document is now in-tree at `docs/SUBSCRIPTION-SCOPE.md` (moved from out-of-tree handoff-artifact status during the doctrine-hygiene pass at commit `116de5d0`).
 - When this document changes, regenerate it as a single canonical version rather than maintaining a changelog. Future sessions should always read the current version, not historical states.
 - The subscription scope is sufficiently specified to draft home page Section 5 copy.
+- Strategic-decisions session 2026-05-02 resolved all 6 originally-open decisions. Resolutions folded into Pillar sections + audit-trailed in the "Resolved decisions" section. Schema impacts: per-locale-rows lesson-plan localization (resolution #5) was schema-resolved at commit `9ba9fa2d`; Bundle model spec (resolution #4) is content-record-only and awaits its own commission pass per `project_deferred_items_queue.md`.

@@ -25,77 +25,95 @@
     "pricing": "Preise"
   },
   "homepage": {
+    "meta": {
+      "title": "LessonCraftStudio: K-3-Arbeitsblätter in 11 Sprachen, korrekt umgesetzt",
+      "description": "K-3-Arbeitsblätter in 11 Sprachen mit korrektem Genus, korrekter Pluralbildung und korrekten Sonderzeichen in jeder Sprache. Entwickelt für zweisprachige Programme, bilinguale Klassen und internationale Schulen.",
+      "ogTitle": "Arbeitsblätter, die in Ihrer zweiten Sprache wirklich funktionieren.",
+      "ogDescription": "Eine kuratierte K-3-Illustrationsbibliothek, gepaart mit einem Vokabelsystem in 11 Sprachen — mit korrektem Genus, korrekter Pluralbildung und korrekten Sonderzeichen. Für Lehrkräfte in zweisprachigen und mehrsprachigen Klassen.",
+      "ogAlt": "LessonCraftStudio — K-3-Arbeitsblätter in 11 Sprachen"
+    },
     "hero": {
-      "title": "Erstellen Sie beeindruckende Arbeitsblätter in wenigen Minuten",
-      "subtitle": "Professionelle Arbeitsblatt-Generatoren für Lehrkräfte und Eltern. Zugriff auf 33 interaktive Apps mit wunderschönen Illustrationen.",
-      "cta": {
-        "tryFree": "Wortsuche kostenlos testen",
-        "viewApps": "Alle Generatoren ansehen"
+      "title": "Arbeitsblätter, die in Ihrer zweiten Sprache wirklich funktionieren.",
+      "subtitle": "Eine kuratierte Bibliothek mit K-3-Illustrationen, gepaart mit einem Vokabelsystem in 11 Sprachen — mit korrektem Genus, korrekter Pluralbildung und korrekten Sonderzeichen in jeder Sprache. Entwickelt für Lehrkräfte in zweisprachigen Programmen, bilingualen Klassen und internationalen Schulen.",
+      "interaction": "Die Kinder lösen sie im Browser. Drucken Sie sie, wenn Sie das vorziehen."
+    },
+    "breadthGrid": {
+      "sectionTitle": "Quer durch Themen, quer durch Sprachen",
+      "intro": "Ein paar Beispieldecks aus dem Katalog. Öffnen Sie das erste, um es hier direkt zu spielen, oder klicken Sie auf eines der anderen, um die vollständige Seite zu sehen.",
+      "featuredBadge": "Empfohlen",
+      "playInline": "Dieses Deck spielen",
+      "openDeck": "Deck öffnen",
+      "closeFeatured": "Schließen",
+      "loadingDeck": "Deck wird geladen…"
+    },
+    "languageProof": {
+      "sectionTitle": "Wo die meisten Arbeitsblätter scheitern",
+      "intro": "Generische Arbeitsblätter, die per Software übersetzt wurden, treffen die Wörter meistens richtig — und die Sprache falsch. Ein maskulines Substantiv als feminin markiert. Ein fehlender Umlaut. Ein Plural, den es nicht gibt. Kleine Fehler, die ein Kind nicht erkennen kann, einer Lehrkraft aber nicht entgehen.",
+      "subIntro": "Zwei Beispiele, nebeneinander.",
+      "german": {
+        "heading": "Deutsch",
+        "annotation1": "Jedes deutsche Substantiv wird großgeschrieben. Schule, niemals schule.",
+        "annotation2": "Schule ist feminin: die Schule. Nicht der, nicht das.",
+        "annotation3": "Der Plural ist Schulen — Endung -n, nicht das englische -s. Schules ist kein deutsches Wort.",
+        "ariaLabel": "Vergleich nebeneinander: ein automatisch übersetztes deutsches Arbeitsblatt mit drei Fehlern — falscher femininer Artikel ('der' statt 'die'), kleingeschriebenes Substantiv ('schule' statt 'Schule') und englisch-pluralisierte Form ('schules' statt 'Schulen') — neben der LessonCraftStudio-Version mit korrekt gerendertem 'die Schule' und 'die Schulen'."
+      },
+      "french": {
+        "heading": "Französisch",
+        "annotation1": "École beginnt mit einem Vokal, daher elidiert la zu l'. L'école, nicht la école.",
+        "annotation2": "À + le wird zu au, vor einem Vokal aber zu à l'. À l'école, nicht à le école.",
+        "annotation3": "Akzente gehören zur Schreibung. École trägt einen Akut auf dem É; ecole ist falsch.",
+        "ariaLabel": "Vergleich nebeneinander: ein automatisch übersetztes französisches Arbeitsblatt mit drei Fehlern — nicht-elidierter Artikel ('la école' statt 'l'école'), nicht-kontrahierte Präposition ('à le école' statt 'à l'école') und fehlender Akut ('ecole' statt 'école') — neben der LessonCraftStudio-Version mit korrekt gerendertem 'l'école', 'à l'école' und 'école'."
+      },
+      "closingLine": "Solche Fehler summieren sich über den gesamten Wortschatz. Wir haben das Vokabelsystem zuerst gebaut. Die Illustrationen kamen danach."
+    },
+    "freeExperience": {
+      "sectionTitle": "Der Katalog ist kostenlos",
+      "intro": "Kein Konto, keine Bezahlschranke, keine Anmeldepflicht. Stöbern, drucken, einbetten und teilen — jedes Deck, in jeder Sprache.",
+      "browse": {
+        "title": "Den gesamten Katalog durchsuchen",
+        "body": "Jedes Deck in jeder Sprache ist für alle frei zugänglich. Stöbern Sie nach Sprache oder Thema über die Links am unteren Seitenrand. Öffnen Sie ein beliebiges Deck und spielen Sie es direkt im Browser."
+      },
+      "pdf": {
+        "title": "Druckbares PDF erzeugen",
+        "body": "Ein Klick aus jedem Deck. Das PDF spiegelt das Arbeitsblatt am Bildschirm — gleiche Illustrationen, gleiche Sprache, gleicher Wortschatz. Mit nach Hause nehmen, für die Klasse kopieren, für die Vertretung bereitlegen."
+      },
+      "embed": {
+        "title": "Jedes Deck auf Ihrer Seite einbetten",
+        "body": "Fügen Sie einen Einbettungscode in Ihren Klassenblog, Ihre Schul-Website oder Ihre Lernplattform-Seite ein. Die Kinder spielen das Deck dort, wo sie ohnehin sind. Das Einbetten ist vollständig kostenlos und bleibt es."
+      },
+      "share": {
+        "title": "Ein Deck per Link teilen",
+        "body": "Ein Link, überall — E-Mail, Eltern-Newsletter, Klassen-Chat, Ihr LMS. Die Kinder öffnen den Link und spielen im Browser. Keine Anmeldung, kein Konto, keine Hürde."
       }
     },
-    "features": {
-      "title": "Alles was Sie für erfolgreiche Printable-Produkte brauchen",
-      "items": {
-        "apps": {
-          "title": "33 Arbeitsblatt-Generatoren",
-          "description": "Von Mathematik und Lesen bis zu Rätseln und Spielen"
-        },
-        "images": {
-          "title": "Über 100 Bildthemen",
-          "description": "Kindgerechte Illustrationen mit kommerzieller Lizenz"
-        },
-        "languages": {
-          "title": "11 Sprachen",
-          "description": "Erstellen Sie Arbeitsblätter in mehreren Sprachen"
-        },
-        "pod": {
-          "title": "POD-Lizenz inklusive",
-          "description": "Verkaufen Sie Ihre Arbeitsblätter auf jeder Plattform"
-        }
-      }
+    "subscription": {
+      "sectionTitle": "Für Lehrkräfte, die den Katalog jede Woche nutzen",
+      "intro": "Kostenlos reicht für das Stöbern und das Nutzen einzelner Decks. Das Abonnement richtet sich an Lehrkräfte, die LessonCraftStudio in ihren wöchentlichen Unterricht eingebunden haben und ihre Praxis organisieren möchten.",
+      "lessonPlans": {
+        "title": "Unterrichtspläne",
+        "body": "Vorgefertigte Unterrichtspläne, gepaart mit den Decks, zu denen sie gehören. Plan ausdrucken, in den Klassenraum gehen, Stunde halten. Geschrieben für die K-3 in zweisprachigen und mehrsprachigen Programmen, mit einem einheitlichen Format, das man einmal lernt."
+      },
+      "themedBundles": {
+        "title": "Themenpakete",
+        "body": "Halloween in 11 Sprachen, in derselben Woche, in der Ihre Schule es feiert. Die erste Schulwoche, zweisprachig. Eine Einheit zu Zahlen, die Ihre spanische und Ihre englische Klasse parallel aus einem Plan unterrichten können. Kuratierte Pakete für die Anlässe, die jedes Jahr wiederkehren — jedes Paket gepaart mit einem eigenen Unterrichtsplan. Ein Paket ist eine Lerneinheit, kein Materialhaufen."
+      },
+      "workspace": {
+        "title": "Ihr Arbeitsbereich",
+        "body": "Während der Katalog weiter wächst, ist das Abonnement der Ort, an dem Sie Ihre eigene Arbeit organisieren. Decks in Sammlungen ablegen. Mit den Namen Ihrer eigenen Unterrichtseinheiten verschlagworten. Nach Kriterien filtern, die der Katalog nicht sieht — was Sie schon verwendet haben, was zu Ihrer Wortschatz-Einheit von Woche 3 gehört, was in den Themen, die Sie tatsächlich unterrichten, neu ist. Massentools für die Arbeit im großen Maßstab. Ein persönlicher Arbeitsbereich, der dort weitermacht, wo Sie aufgehört haben."
+      },
+      "price": "$69 pro Jahr. Verlängerung jederzeit kündbar.",
+      "subscribeCta": "Abonnieren",
+      "alreadySubscribedCta": "Mein Abonnement ansehen"
     },
-    "pricing": {
-      "title": "Einfache, transparente Preise",
-      "monthly": "Monatlich",
-      "yearly": "Jährlich (20% sparen)",
-      "free": {
-        "name": "Kostenlos",
-        "price": "$0",
-        "features": [
-          "Wortsuche-Generator",
-          "Begrenzte Bildauswahl",
-          "Mit Wasserzeichen",
-          "Basis-Support"
-        ],
-        "cta": "Kostenlos starten"
-      },
-      "core": {
-        "name": "Basis-Paket",
-        "price": "$15",
-        "priceYearly": "$144",
-        "features": [
-          "10 beliebteste Generatoren",
-          "Voller Zugriff auf Bildbibliothek",
-          "Ohne Wasserzeichen",
-          "POD-Kommerzlizenz",
-          "Prioritäts-Support"
-        ],
-        "cta": "Basis-Paket wählen"
-      },
-      "full": {
-        "name": "Vollzugriff",
-        "price": "$25",
-        "priceYearly": "$240",
-        "features": [
-          "Alle 33 Generatoren",
-          "Voller Zugriff auf Bildbibliothek",
-          "Ohne Wasserzeichen",
-          "POD-Kommerzlizenz",
-          "Prioritäts-Support",
-          "Früher Zugang zu neuen Apps"
-        ],
-        "cta": "Vollzugriff sichern",
-        "popular": "Beliebteste Wahl"
+    "notify": {
+      "label": "E-Mail-Adresse",
+      "placeholder": "ihre@email.de",
+      "submit": "Benachrichtigen, wenn das Abonnement startet",
+      "submitting": "Wird gesendet…",
+      "confirmation": "Danke — wir benachrichtigen Sie, wenn das Abonnement startet.",
+      "errors": {
+        "invalid_email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+        "server": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
       }
     }
   },
@@ -169,23 +187,15 @@
     }
   },
   "footer": {
-    "companyName": "LessonCraftStudio",
-    "companyTagline": "Erstellen und verkaufen Sie professionelle Druckvorlagen für Etsy, KDP & mehr.",
-    "support": {
-      "title": "Unterstützung",
-      "helpCenter": "Hilfe-Center",
-      "contact": "Kontakt",
-      "faq": "Häufige Fragen",
-      "about": "Über uns",
-      "memberArea": "Mitgliederbereich"
-    },
-    "legal": {
-      "title": "Rechtliches",
-      "terms": "Nutzungsbedingungen",
-      "privacy": "Datenschutz",
-      "license": "Lizenzbedingungen"
-    },
-    "copyright": "© 2024 LessonCraftStudio. Alle Rechte vorbehalten."
+    "byLanguage": "Arbeitsblätter nach Sprache",
+    "byTopic": "Arbeitsblätter nach Thema",
+    "byExerciseType": "Arbeitsblätter nach Übungstyp",
+    "moreLanguagesSoon": "Weitere Sprachen in Kürze",
+    "moreTopicsSoon": "Weitere Themen in Kürze",
+    "contact": "Kontakt",
+    "terms": "Nutzungsbedingungen",
+    "privacy": "Datenschutz",
+    "copyright": "© 2026 LessonCraftStudio."
   },
   "worksheetSamples": {
     "title": "Arbeitsblätter-Beispielgalerie",

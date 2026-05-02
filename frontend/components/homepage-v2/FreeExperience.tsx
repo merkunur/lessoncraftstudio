@@ -1,9 +1,10 @@
 import { getTranslations } from 'next-intl/server';
 
-// Section 4 — The free experience per HOMEPAGE-COPY.md + HOMEPAGE-IMPLEMENTATION-PROMPT.md §5.4.
-// Four capability blocks with consistent card treatment. NO CTA in this section per the
-// HOMEPAGE-COPY.md amendment ("catalog navigation surface is the structural footer; Section 5's
-// Subscribe is the page's only conversion CTA").
+// Section 4 — The free experience per HOMEPAGE-COPY-DRAFT-v1.md.
+// Four capability blocks with consistent card treatment + a single soft CTA below the
+// blocks pointing to the structural footer (where catalog navigation lives). Per draft
+// note 4: "Links to a structural footer-driven path. No account-creation CTA in this
+// section — the free experience does not require an account."
 
 export default async function FreeExperience({ locale }: { locale: string }) {
   const t = await getTranslations({ locale, namespace: 'homepage.freeExperience' });
@@ -26,7 +27,7 @@ export default async function FreeExperience({ locale }: { locale: string }) {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12 mb-12">
         {blocks.map(block => (
           <div key={block.key}>
             <h3 className="font-display font-semibold text-xl text-ink-900 mb-3">
@@ -38,6 +39,13 @@ export default async function FreeExperience({ locale }: { locale: string }) {
           </div>
         ))}
       </div>
+
+      <a
+        href="#footer"
+        className="inline-flex items-center text-base font-medium text-leaf-700 hover:text-leaf-800 hover:underline"
+      >
+        {t('cta')}
+      </a>
     </section>
   );
 }

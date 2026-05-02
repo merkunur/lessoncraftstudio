@@ -27,10 +27,10 @@
   },
   "homepage": {
     "meta": {
-      "title": "LessonCraftStudio: K-3-Arbeitsblätter in 11 Sprachen, korrekt umgesetzt",
-      "description": "K-3-Arbeitsblätter in 11 Sprachen mit korrektem Genus, korrekter Pluralbildung und korrekten Sonderzeichen in jeder Sprache. Entwickelt für zweisprachige Programme, bilinguale Klassen und internationale Schulen.",
+      "title": "LessonCraftStudio — Arbeitsblätter, die in Ihrer Zweitsprache wirklich funktionieren",
+      "description": "Eine kuratierte K-3-Illustrationsbibliothek und ein Vokabelsystem in 11 Sprachen — mit korrekten Artikeln, Pluralformen und Diakritika. Für zweisprachige Klassen.",
       "ogTitle": "Arbeitsblätter, die in Ihrer zweiten Sprache wirklich funktionieren.",
-      "ogDescription": "Eine kuratierte K-3-Illustrationsbibliothek, gepaart mit einem Vokabelsystem in 11 Sprachen — mit korrektem Genus, korrekter Pluralbildung und korrekten Sonderzeichen. Für Lehrkräfte in zweisprachigen und mehrsprachigen Klassen.",
+      "ogDescription": "Entwickelt für Lehrkräfte in zweisprachigen Programmen, bilingualen Klassen und internationalen Schulen.",
       "ogAlt": "LessonCraftStudio — K-3-Arbeitsblätter in 11 Sprachen"
     },
     "hero": {
@@ -39,7 +39,7 @@
       "interaction": "Die Kinder lösen sie im Browser. Drucken Sie sie, wenn Sie das vorziehen."
     },
     "breadthGrid": {
-      "sectionTitle": "Quer durch Themen, quer durch Sprachen",
+      "sectionTitle": "Decks, die Lehrkräfte gerade jetzt einsetzen.",
       "intro": "Ein paar Beispieldecks aus dem Katalog. Öffnen Sie das erste, um es hier direkt zu spielen, oder klicken Sie auf eines der anderen, um die vollständige Seite zu sehen.",
       "featuredBadge": "Empfohlen",
       "playInline": "Dieses Deck spielen",
@@ -48,70 +48,80 @@
       "loadingDeck": "Deck wird geladen…"
     },
     "languageProof": {
-      "sectionTitle": "Wo die meisten Arbeitsblätter scheitern",
-      "intro": "Generische Arbeitsblätter, die per Software übersetzt wurden, treffen die Wörter meistens richtig — und die Sprache falsch. Ein maskulines Substantiv als feminin markiert. Ein fehlender Umlaut. Ein Plural, den es nicht gibt. Kleine Fehler, die ein Kind nicht erkennen kann, einer Lehrkraft aber nicht entgehen.",
+      "sectionTitle": "Was Auto-Übersetzung falsch macht — und was wir richtig machen.",
+      "intro": "Die meisten Arbeitsblatt-Sites übersetzen englische Inhalte mit einer generischen Maschine und liefern das Ergebnis aus. Artikel sind falsch. Pluralformen kippen. Akzente fehlen. Kinder lernen die Fehler mit. Wir behandeln jede unserer 11 Sprachen als eigenständigen Katalog — keine Übersetzung des Englischen — mit Wortschatz, der von Menschen kuratiert wird, die tatsächlich in dieser Sprache unterrichten.",
       "subIntro": "Zwei Beispiele, nebeneinander.",
       "german": {
-        "heading": "Deutsch",
-        "annotation1": "Jedes deutsche Substantiv wird großgeschrieben. Schule, niemals schule.",
-        "annotation2": "Schule ist feminin: die Schule. Nicht der, nicht das.",
-        "annotation3": "Der Plural ist Schulen — Endung -n, nicht das englische -s. Schules ist kein deutsches Wort.",
+        "heading": "Deutsch — Genus, Großschreibung, unregelmäßiger Plural",
+        "leftAnnotation1": "Auto-Übersetzung rät den Artikel aus dem englischen Kontext. Schule ist feminin — der englische Kontext sagt das nicht.",
+        "leftAnnotation2": "Deutsche Substantive werden immer großgeschrieben. Kleingeschriebene Substantive vermitteln die falsche Regel.",
+        "leftAnnotation3": "Der Plural ist unregelmäßig: Schulen, nicht Schules. Auto-Übersetzung regularisiert; die korrekte Form fehlt.",
+        "annotation1": "die Schule — korrekter Artikel, jedes Mal. Unser deutscher Wortschatz ist nach Genus verschlagwortet, nicht geraten.",
+        "annotation2": "Schule — großgeschrieben, wie ein deutsches Substantiv es sein soll.",
+        "annotation3": "Schulen — der tatsächliche Plural, keine englisch-stilisierte Vermutung.",
         "ariaLabel": "Vergleich nebeneinander: ein automatisch übersetztes deutsches Arbeitsblatt mit drei Fehlern — falscher femininer Artikel ('der' statt 'die'), kleingeschriebenes Substantiv ('schule' statt 'Schule') und englisch-pluralisierte Form ('schules' statt 'Schulen') — neben der LessonCraftStudio-Version mit korrekt gerendertem 'die Schule' und 'die Schulen'."
       },
       "french": {
-        "heading": "Französisch",
-        "annotation1": "École beginnt mit einem Vokal, daher elidiert la zu l'. L'école, nicht la école.",
-        "annotation2": "À + le wird zu au, vor einem Vokal aber zu à l'. À l'école, nicht à le école.",
-        "annotation3": "Akzente gehören zur Schreibung. École trägt einen Akut auf dem É; ecole ist falsch.",
+        "heading": "Französisch — Genus, Kontraktionen, Akzente",
+        "leftAnnotation1": "École ist feminin, und der Artikel elidiert vor dem Vokal. Auto-Übersetzung tut weder das eine noch das andere.",
+        "leftAnnotation2": "Das é ist keine Verzierung — es gehört zum Wort.",
+        "leftAnnotation3": "Präposition + Artikel kontrahieren vor dem Vokal: à l'école. Auto-Übersetzung lässt sie getrennt.",
+        "annotation1": "l'école — korrekte Elision und korrekter Akzent.",
+        "annotation2": "à l'école — korrekte Kontraktion mit der Präposition.",
+        "annotation3": "Jeder Akzent in unserem französischen Katalog wird als Teil des Wortes behandelt.",
         "ariaLabel": "Vergleich nebeneinander: ein automatisch übersetztes französisches Arbeitsblatt mit drei Fehlern — nicht-elidierter Artikel ('la école' statt 'l'école'), nicht-kontrahierte Präposition ('à le école' statt 'à l'école') und fehlender Akut ('ecole' statt 'école') — neben der LessonCraftStudio-Version mit korrekt gerendertem 'l'école', 'à l'école' und 'école'."
       },
-      "closingLine": "Solche Fehler summieren sich über den gesamten Wortschatz. Wir haben das Vokabelsystem zuerst gebaut. Die Illustrationen kamen danach."
+      "closingLine": "Kinder verdienen Materialien, die zur Sprache passen, die sie lernen. Daran richten wir unsere Arbeit aus."
     },
     "freeExperience": {
-      "sectionTitle": "Der Katalog ist kostenlos",
+      "sectionTitle": "Kostenlos für jede Lehrkraft.",
       "intro": "Kein Konto, keine Bezahlschranke, keine Anmeldepflicht. Stöbern, drucken, einbetten und teilen — jedes Deck, in jeder Sprache.",
+      "cta": "Zum Katalog →",
       "browse": {
-        "title": "Den gesamten Katalog durchsuchen",
-        "body": "Jedes Deck in jeder Sprache ist für alle frei zugänglich. Stöbern Sie nach Sprache oder Thema über die Links am unteren Seitenrand. Öffnen Sie ein beliebiges Deck und spielen Sie es direkt im Browser."
+        "title": "Alle Decks durchstöbern.",
+        "body": "Der gesamte Katalog ist offen. Filtern Sie nach Sprache, Klassenstufe, Thema oder Aufgabentyp. Kein Konto erforderlich, um zu stöbern, vorzuschauen oder ein Deck zu spielen."
       },
       "pdf": {
-        "title": "Druckbares PDF erzeugen",
-        "body": "Ein Klick aus jedem Deck. Das PDF spiegelt das Arbeitsblatt am Bildschirm — gleiche Illustrationen, gleiche Sprache, gleicher Wortschatz. Mit nach Hause nehmen, für die Klasse kopieren, für die Vertretung bereitlegen."
+        "title": "Druckbares PDF erstellen.",
+        "body": "Jedes Deck lässt sich als sauberes PDF herunterladen — inklusive Lösungsbogen. Kein Wasserzeichen, keine Mengenbegrenzung, nichts, was für die Bezahlversion zurückgehalten wird."
       },
       "embed": {
-        "title": "Jedes Deck auf Ihrer Seite einbetten",
-        "body": "Fügen Sie einen Einbettungscode in Ihren Klassenblog, Ihre Schul-Website oder Ihre Lernplattform-Seite ein. Die Kinder spielen das Deck dort, wo sie ohnehin sind. Das Einbetten ist vollständig kostenlos und bleibt es."
+        "title": "Jedes Deck auf Ihrer Klassenseite oder Ihrem Blog einbetten.",
+        "body": "Kopieren Sie ein Einbettungs-Snippet und fügen Sie es in Ihre Klassen-Website, Ihren Blog oder das Lernmanagement-System Ihrer Schule ein. Kinder spielen das interaktive Deck genau dort, wo sie es finden. Das Einbetten bleibt kostenlos."
       },
       "share": {
-        "title": "Ein Deck per Link teilen",
-        "body": "Ein Link, überall — E-Mail, Eltern-Newsletter, Klassen-Chat, Ihr LMS. Die Kinder öffnen den Link und spielen im Browser. Keine Anmeldung, kein Konto, keine Hürde."
+        "title": "Ein Deck per Link teilen.",
+        "body": "Verschicken Sie jedes Deck als Link. Kinder spielen direkt im Browser — keine Anmeldung, keine App, kein Konto. Funktioniert auf einem Smartphone, einem Tablet, einem Chromebook oder einem Smartboard."
       }
     },
     "subscription": {
-      "sectionTitle": "Für Lehrkräfte, die den Katalog jede Woche nutzen",
-      "intro": "Kostenlos reicht für das Stöbern und das Nutzen einzelner Decks. Das Abonnement richtet sich an Lehrkräfte, die LessonCraftStudio in ihren wöchentlichen Unterricht eingebunden haben und ihre Praxis organisieren möchten.",
+      "sectionTitle": "Für Lehrkräfte, die LessonCraftStudio jede Woche nutzen.",
+      "intro": "Der Katalog ist kostenlos und bleibt es. Das Abonnement richtet sich an Lehrkräfte, die regelmäßig mit LessonCraftStudio arbeiten und ihren Unterricht organisiert wissen möchten — mit fertigen Unterrichtsentwürfen, Themenpaketen für die wiederkehrenden Anlässe im Schuljahr und einem Arbeitsbereich, der für die Verwaltung tausender Decks gebaut ist.",
       "lessonPlans": {
-        "title": "Unterrichtspläne",
-        "body": "Vorgefertigte Unterrichtspläne, gepaart mit den Decks, zu denen sie gehören. Plan ausdrucken, in den Klassenraum gehen, Stunde halten. Geschrieben für die K-3 in zweisprachigen und mehrsprachigen Programmen, mit einem einheitlichen Format, das man einmal lernt."
+        "title": "Fertige Unterrichtsentwürfe",
+        "body": "Eine wachsende Bibliothek vorgefertigter Unterrichtsentwürfe, jeder mit konkreten Decks verbunden. Jeder Entwurf folgt einer einheitlichen vierschrittigen Struktur nach CLIL-Prinzipien — Aufwärmen, Inhalt-und-Sprache-Aktivität, Sprachgerüst und Übung sowie Abschluss — sodass Sie die Form einmal lernen und dann einfach unterrichten. Die Entwürfe werden pro Sprache nativ verfasst, nicht automatisch übersetzt, und spiegeln die Konventionen jedes Klassenraums, für den sie geschrieben werden."
       },
       "themedBundles": {
-        "title": "Themenpakete",
-        "body": "Halloween in 11 Sprachen, in derselben Woche, in der Ihre Schule es feiert. Die erste Schulwoche, zweisprachig. Eine Einheit zu Zahlen, die Ihre spanische und Ihre englische Klasse parallel aus einem Plan unterrichten können. Kuratierte Pakete für die Anlässe, die jedes Jahr wiederkehren — jedes Paket gepaart mit einem eigenen Unterrichtsplan. Ein Paket ist eine Lerneinheit, kein Materialhaufen."
+        "title": "Themenpakete für die wiederkehrenden Anlässe",
+        "body": "Handverlesene Pakete für Schulanfang, Halloween, Winterferien, Valentinstag, Schuljahresende und Wiederholung am Einheitsende. Jedes Paket verbindet eine zusammenhängende Auswahl von Decks mit einem Unterrichtsentwurf, der für das Thema dieses Pakets geschrieben wurde. Heft drucken, Plan folgen, die Woche unterrichten. Im Laufe des Jahres kommen neue Pakete hinzu, alle im Abonnement enthalten."
       },
       "workspace": {
-        "title": "Ihr Arbeitsbereich",
-        "body": "Während der Katalog weiter wächst, ist das Abonnement der Ort, an dem Sie Ihre eigene Arbeit organisieren. Decks in Sammlungen ablegen. Mit den Namen Ihrer eigenen Unterrichtseinheiten verschlagworten. Nach Kriterien filtern, die der Katalog nicht sieht — was Sie schon verwendet haben, was zu Ihrer Wortschatz-Einheit von Woche 3 gehört, was in den Themen, die Sie tatsächlich unterrichten, neu ist. Massentools für die Arbeit im großen Maßstab. Ein persönlicher Arbeitsbereich, der dort weitermacht, wo Sie aufgehört haben."
+        "title": "Ein Arbeitsbereich für die Lehrkraft, die Sie tatsächlich sind",
+        "body": "Der Katalog wird tausende Decks umfassen. Das Abonnement gibt Ihnen Sammlungen, um sie zu organisieren, einen Arbeitsbereich-Startpunkt, in dem Sie landen, fortgeschrittene Filter, abgestimmt darauf, wie Lehrkräfte tatsächlich suchen, Lehrplanverknüpfung für Ihre eigenen Einheiten und Massentools, die Fünf-Minuten-Aufgaben in Dreißig-Sekunden-Aufgaben verwandeln. Ihre Struktur trägt von Jahr zu Jahr — genau darum geht es."
       },
-      "price": "$69 pro Jahr. Verlängerung jederzeit kündbar.",
-      "subscribeCta": "Abonnieren",
+      "price": "$69 pro Jahr. Jederzeit kündbar.",
+      "subscribeCta": "Abonnieren →",
+      "subscribeSubCopy": "Sie werden zu unserem Zahlungspartner weitergeleitet. Nach dem Bezahlen ist Ihr Konto sofort einsatzbereit.",
       "alreadySubscribedCta": "Mein Abonnement ansehen"
     },
     "notify": {
+      "aboveField": "Wir vervollständigen gerade die Unterrichtsentwurfs-Bibliothek und starten das Abonnement bald. Lassen Sie uns Ihre E-Mail-Adresse da, und wir benachrichtigen Sie an dem Tag, an dem es losgeht.",
       "label": "E-Mail-Adresse",
-      "placeholder": "ihre@email.de",
-      "submit": "Benachrichtigen, wenn das Abonnement startet",
+      "placeholder": "ihre-email@schule.de",
+      "submit": "Benachrichtigen →",
       "submitting": "Wird gesendet…",
       "confirmation": "Danke — wir benachrichtigen Sie, wenn das Abonnement startet.",
+      "subCopy": "Eine E-Mail, nur wenn das Abonnement startet. Keine Werbeliste, keine Folgenachrichten.",
       "errors": {
         "invalid_email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
         "server": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."

@@ -16,7 +16,7 @@ export default async function FrenchComparison({ locale }: { locale: string }) {
       className="mt-12"
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start">
-        {/* LEFT — auto-translated worksheet excerpt (wrong) */}
+        {/* LEFT — auto-translated worksheet excerpt (wrong) with left-side annotations */}
         <div className="rounded-md bg-cream-50 border border-cream-300 p-8">
           <div className="text-xs uppercase tracking-wide text-ink-500 font-medium mb-6">
             Auto-translated
@@ -28,18 +28,27 @@ export default async function FrenchComparison({ locale }: { locale: string }) {
                 <span className="line-through decoration-terracotta-400 decoration-2">la</span>{' '}
                 <span className="line-through decoration-terracotta-400 decoration-2">école</span>
               </div>
+              <p className="mt-3 text-sm text-ink-600 leading-relaxed border-l-2 border-terracotta-300 pl-3">
+                {t('leftAnnotation1')}
+              </p>
             </div>
             <div>
               <div className="text-xs text-ink-500 mb-1">Going to school</div>
               <div className="font-display text-2xl text-terracotta-500">
                 <span className="line-through decoration-terracotta-400 decoration-2">à le école</span>
               </div>
+              <p className="mt-3 text-sm text-ink-600 leading-relaxed border-l-2 border-terracotta-300 pl-3">
+                {t('leftAnnotation3')}
+              </p>
             </div>
             <div>
               <div className="text-xs text-ink-500 mb-1">Spelling</div>
               <div className="font-display text-2xl text-terracotta-500">
                 <span className="line-through decoration-terracotta-400 decoration-2">ecole</span>
               </div>
+              <p className="mt-3 text-sm text-ink-600 leading-relaxed border-l-2 border-terracotta-300 pl-3">
+                {t('leftAnnotation2')}
+              </p>
             </div>
           </div>
         </div>

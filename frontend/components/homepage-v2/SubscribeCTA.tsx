@@ -65,13 +65,18 @@ export default function SubscribeCTA({ mode }: SubscribeCTAProps) {
   // sends a "set your password" email. Per the established pattern in
   // /api/webhooks/lemonsqueezy/route.ts.
   return (
-    <Button
-      variant="primary"
-      size="lg"
-      href={SUBSCRIPTION_PRODUCT.buyNowUrl}
-      className={homepageButtonOverride}
-    >
-      {t('subscribeCta')}
-    </Button>
+    <div className="flex flex-col gap-3">
+      <Button
+        variant="primary"
+        size="lg"
+        href={SUBSCRIPTION_PRODUCT.buyNowUrl}
+        className={homepageButtonOverride}
+      >
+        {t('subscribeCta')}
+      </Button>
+      <p className="text-sm text-ink-500 leading-relaxed max-w-md">
+        {t('subscribeSubCopy')}
+      </p>
+    </div>
   );
 }

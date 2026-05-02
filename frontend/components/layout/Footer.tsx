@@ -121,7 +121,7 @@ export function Footer() {
   const exerciseTypes = FOOTER_EXERCISE_TYPES_BY_LOCALE[locale] ?? [];
 
   return (
-    <footer className="bg-cream-50 border-t border-cream-300 py-16 mt-24">
+    <footer id="footer" className="bg-cream-50 border-t border-cream-300 py-16 mt-24">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* By language */}

@@ -27,10 +27,10 @@
   },
   "homepage": {
     "meta": {
-      "title": "LessonCraftStudio: K-3 worksheets in 11 languages, done right",
-      "description": "K-3 worksheets in 11 languages with correct gender, plurals, and diacritics in every one. Built for dual-language programs, bilingual classrooms, and international schools.",
+      "title": "LessonCraftStudio — Worksheets that work in your second language",
+      "description": "A curated K-3 illustration library and an 11-language vocabulary system with correct gender, plurals, and diacritics. Built for dual-language and bilingual classrooms.",
       "ogTitle": "Worksheets that actually work in your second language.",
-      "ogDescription": "A curated K-3 illustration library paired with a vocabulary system across 11 languages — correct gender, plurals, and diacritics. For teachers in dual-language and multilingual classrooms.",
+      "ogDescription": "Built for teachers in dual-language programs, bilingual classrooms, and international schools.",
       "ogAlt": "LessonCraftStudio — K-3 worksheets in 11 languages"
     },
     "hero": {
@@ -39,7 +39,7 @@
       "interaction": "Students play them in the browser. Print them if you prefer."
     },
     "breadthGrid": {
-      "sectionTitle": "Across topics, across languages",
+      "sectionTitle": "Decks teachers are using right now.",
       "intro": "A few decks from across the catalog. Open the first one to play it here, or click any other to see its full page.",
       "featuredBadge": "Featured",
       "playInline": "Play this deck",
@@ -48,70 +48,80 @@
       "loadingDeck": "Loading deck…"
     },
     "languageProof": {
-      "sectionTitle": "Where most worksheets break down",
-      "intro": "Generic worksheets translated by software get the words mostly right and the language wrong. A masculine noun marked feminine. A missing umlaut. A plural that doesn't exist. Small errors a child can't catch but a teacher can't unsee.",
+      "sectionTitle": "What auto-translation gets wrong, and what we get right.",
+      "intro": "Most worksheet sites translate English content with a generic engine and ship the result. Articles end up wrong. Plurals collapse. Accents go missing. Children learn the mistakes. We treat each of our 11 languages as its own catalog — not a translation of English — with vocabulary curated by people who actually teach in that language.",
       "subIntro": "Two examples, side by side.",
       "german": {
-        "heading": "German",
-        "annotation1": "Every German noun is capitalized. Schule, never schule.",
-        "annotation2": "Schule is feminine: die Schule. Not der, not das.",
-        "annotation3": "The plural is Schulen — -n ending, not English -s. Schules isn't a German word.",
+        "heading": "German — gender, capitalization, plural irregularity",
+        "leftAnnotation1": "Auto-translation guesses the article from English context. Schule is feminine — no English context tells you that.",
+        "leftAnnotation2": "German nouns are always capitalized. Lowercased nouns teach the wrong rule.",
+        "leftAnnotation3": "The plural is irregular: Schulen, not Schules. Auto-translation regularizes; the correct form is missing.",
+        "annotation1": "die Schule — correct article, every time. Our German vocabulary is keyed to gender, not guessed.",
+        "annotation2": "Schule — capitalized as a German noun should be.",
+        "annotation3": "Schulen — the actual plural, not a Latin-style guess.",
         "ariaLabel": "Side-by-side comparison: an auto-translated German worksheet with three errors — wrong feminine article ('der' instead of 'die'), uncapitalized noun ('schule' instead of 'Schule'), and English-pluralized form ('schules' instead of 'Schulen') — next to the LessonCraftStudio version with 'die Schule' and 'die Schulen' rendered correctly."
       },
       "french": {
-        "heading": "French",
-        "annotation1": "École starts with a vowel, so la elides to l'. L'école, not la école.",
-        "annotation2": "À + le contracts to au, but before a vowel it's à l'. À l'école, not à le école.",
-        "annotation3": "Accents are part of the spelling. École takes an acute on the É; ecole is wrong.",
+        "heading": "French — gender, contractions, accented characters",
+        "leftAnnotation1": "École is feminine, and the article elides before the vowel. Auto-translation does neither.",
+        "leftAnnotation2": "The é isn't decoration — it's part of the word.",
+        "leftAnnotation3": "Preposition + article contract before the vowel: à l'école. Auto-translation leaves them apart.",
+        "annotation1": "l'école — correct elision and accent.",
+        "annotation2": "à l'école — correct contraction with the preposition.",
+        "annotation3": "Every accent in our French catalog is treated as part of the word.",
         "ariaLabel": "Side-by-side comparison: an auto-translated French worksheet with three errors — un-elided article ('la école' instead of 'l'école'), un-contracted preposition ('à le école' instead of 'à l'école'), and missing acute accent ('ecole' instead of 'école') — next to the LessonCraftStudio version with 'l'école', 'à l'école', and 'école' rendered correctly."
       },
-      "closingLine": "Errors like these compound across a vocabulary set. We built the vocabulary system first. The illustrations came after."
+      "closingLine": "Children deserve materials that match the language they're learning. We build to that bar."
     },
     "freeExperience": {
-      "sectionTitle": "The catalog is free",
+      "sectionTitle": "Free for any teacher to use.",
       "intro": "No account, no paywall, no signup wall. Browse, print, embed, and share — every deck, in every language.",
+      "cta": "Browse the catalog →",
       "browse": {
-        "title": "Browse the full catalog",
-        "body": "Every deck across every language is open to everyone. Browse by language or topic from the links at the bottom of this page. Open any deck and play it directly in the browser."
+        "title": "Browse all decks.",
+        "body": "The full catalog is open. Filter by language, grade level, topic, or exercise type. No account required to browse, preview, or play any deck."
       },
       "pdf": {
-        "title": "Generate a printable PDF",
-        "body": "One click from any deck. The PDF mirrors the on-screen worksheet — same illustrations, same language, same vocabulary. Take it home, photocopy it for the class, leave it for a substitute teacher."
+        "title": "Generate a printable PDF.",
+        "body": "Every deck downloads as a clean printable PDF — including an answer key. No watermark, no per-deck limit, nothing held back for the paid tier."
       },
       "embed": {
-        "title": "Embed any deck on your site",
-        "body": "Paste an embed code into your class blog, school site, or learning-platform page. Students play the deck where they already are. The embed is fully free and stays free."
+        "title": "Embed any deck on your class site or blog.",
+        "body": "Copy an embed snippet, paste it into your class website, your blog, or your school's learning management system. Students play the interactive deck right where they find it. Embedding stays free."
       },
       "share": {
-        "title": "Share a deck via link",
-        "body": "One link, anywhere — email, parent newsletter, classroom chat, your LMS. Students open the link and play in the browser. No login, no account, no friction."
+        "title": "Share a deck via link.",
+        "body": "Send any deck as a link. Students play directly in the browser — no signup, no app, no account. Works on a phone, a tablet, a Chromebook, or a smartboard."
       }
     },
     "subscription": {
-      "sectionTitle": "For teachers who use the catalog every week",
-      "intro": "Free works for browsing and using individual decks. The subscription is for teachers who've integrated LessonCraftStudio into their weekly teaching and want their practice organized.",
+      "sectionTitle": "For teachers who use LessonCraftStudio every week.",
+      "intro": "The catalog is free, and it stays free. The subscription is for teachers who've made LessonCraftStudio part of their regular practice and want their teaching organized — with ready-to-use lesson plans, themed bundles for the moments that come around every year, and a workspace built for managing thousands of decks.",
       "lessonPlans": {
-        "title": "Lesson plans",
-        "body": "Pre-written lesson plans paired with the decks they go with. Print one out, walk into your classroom, teach the lesson. Written for K-3 in dual-language and multilingual programs, with a consistent format you learn once."
+        "title": "Ready-to-use lesson plans",
+        "body": "A growing library of pre-written lesson plans, each one tied to specific decks. Every plan follows a consistent four-step structure built on CLIL principles — warmup, content-and-language activity, language scaffold and practice, and closure — so you learn the shape once and then just teach. Plans are written natively per language, not auto-translated, and reflect the conventions of each classroom they're written for."
       },
       "themedBundles": {
-        "title": "Themed bundles",
-        "body": "Halloween in 11 languages, on the same week your school runs it. The first week of school in dual-language. A unit on numbers your Spanish section and your English section can teach in parallel from one plan. Curated bundles for the moments that come around every year, each one paired with its own lesson plan — the bundle is a teaching unit, not a pile of materials."
+        "title": "Themed bundles for the moments that come around every year",
+        "body": "Hand-curated bundles for back-to-school, Halloween, winter holidays, Valentine's Day, end-of-year, and end-of-unit review. Each bundle pairs a coherent set of decks with a lesson plan written for that bundle's theme. Print the packet, follow the plan, teach the week. New bundles added through the year, all included in the subscription."
       },
       "workspace": {
-        "title": "Your workspace",
-        "body": "As the catalog keeps growing, the subscription is where you organize your own work. Save decks into collections. Tag them with the names of your own teaching units. Filter by criteria the catalog can't see — what you've already used, what's tagged to your Week 3 vocabulary, what's new in the topics you actually teach. Bulk tools for working at scale. A personal workspace that picks up where you left off."
+        "title": "A workspace for the teacher you actually are",
+        "body": "The catalog will pass thousands of decks. The subscription gives you collections to organize them, a workspace home to land in, advanced filtering tuned to how teachers actually search, curriculum mapping for your own units, and bulk tools that turn five-minute tasks into thirty-second ones. Your structure carries forward year after year — that's the whole point."
       },
-      "price": "$69 per year. Cancel renewal anytime.",
-      "subscribeCta": "Subscribe",
+      "price": "$69 per year. Cancel anytime.",
+      "subscribeCta": "Subscribe →",
+      "subscribeSubCopy": "You'll be taken to our payment partner. After checkout, your account is ready immediately.",
       "alreadySubscribedCta": "View your subscription"
     },
     "notify": {
+      "aboveField": "We're finishing the lesson-plan library and launching the subscription soon. Leave your email and we'll let you know the day it opens.",
       "label": "Email address",
-      "placeholder": "your@email.com",
-      "submit": "Notify me when subscription opens",
+      "placeholder": "your-email@school.org",
+      "submit": "Notify me →",
       "submitting": "Sending…",
       "confirmation": "Thanks — we'll email you when the subscription opens.",
+      "subCopy": "One email, only when the subscription opens. No marketing list, no follow-up sequence.",
       "errors": {
         "invalid_email": "Please enter a valid email address.",
         "server": "Something went wrong. Please try again."

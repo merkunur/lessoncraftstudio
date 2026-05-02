@@ -81,11 +81,15 @@ export default function NotifyMe() {
   const isSubmitting = status === 'submitting';
 
   return (
-    <form
-      onSubmit={handleSubmit}
-      className="flex flex-col sm:flex-row sm:items-start gap-3 w-full max-w-xl"
-      noValidate
-    >
+    <div className="flex flex-col gap-3 w-full max-w-xl">
+      <p className="text-base text-ink-700 leading-relaxed">
+        {t('aboveField')}
+      </p>
+      <form
+        onSubmit={handleSubmit}
+        className="flex flex-col sm:flex-row sm:items-start gap-3"
+        noValidate
+      >
       {/* Hidden locale field — useLocale() drives the body of the request directly,
           but echo it as a hidden input so non-JS submissions (or future progressive
           enhancement) carry the locale too. */}
@@ -141,6 +145,10 @@ export default function NotifyMe() {
           {errorMessage}
         </p>
       )}
-    </form>
+      </form>
+      <p className="text-sm text-ink-500 leading-relaxed">
+        {t('subCopy')}
+      </p>
+    </div>
   );
 }

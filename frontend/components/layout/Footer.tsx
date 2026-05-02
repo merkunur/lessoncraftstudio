@@ -50,6 +50,7 @@ const FOOTER_TOPICS_BY_LOCALE: Record<string, FooterLink[]> = {
 const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
   en: [
     { slug: 'addition', label: 'addition' },
+    { slug: 'alphabet-train', label: 'alphabet train' },
     { slug: 'bingo', label: 'bingo' },
     { slug: 'code-addition', label: 'code addition' },
     { slug: 'crossword', label: 'crossword' },
@@ -61,12 +62,16 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'pattern-train', label: 'pattern train' },
     { slug: 'picture-sort', label: 'picture sort' },
     { slug: 'picture-sudoku', label: 'picture sudoku' },
+    { slug: 'prepositions', label: 'prepositions' },
     { slug: 'shadow-match', label: 'shadow match' },
     { slug: 'subtraction', label: 'subtraction' },
+    { slug: 'word-guess', label: 'word guess' },
     { slug: 'word-scramble', label: 'word scramble' },
+    { slug: 'wordsearch', label: 'word search' },
   ],
   de: [
     { slug: 'addition', label: 'Addition' },
+    { slug: 'buchstabenzug', label: 'Buchstabenzug' },
     { slug: 'bingo', label: 'Bingo' },
     { slug: 'code-addition', label: 'Code-Addition' },
     { slug: 'kreuzwortraetsel', label: 'Kreuzworträtsel' },
@@ -79,9 +84,12 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'bildpfad', label: 'Bildpfad' },
     { slug: 'bildersortierung', label: 'Bildersortierung' },
     { slug: 'bilder-sudoku', label: 'Bilder-Sudoku' },
+    { slug: 'praepositionen', label: 'Präpositionen' },
     { slug: 'schatten-zuordnen', label: 'Schatten zuordnen' },
     { slug: 'subtraktion', label: 'Subtraktion' },
+    { slug: 'wort-raten', label: 'Wort raten' },
     { slug: 'buchstabensalat', label: 'Buchstabensalat' },
+    { slug: 'wortsuche', label: 'Wortsuche' },
   ],
 };
 

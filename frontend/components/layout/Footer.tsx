@@ -70,6 +70,7 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'pattern-worksheet', label: 'pattern worksheet' },
     { slug: 'picture-sort', label: 'picture sort' },
     { slug: 'picture-sudoku', label: 'picture sudoku' },
+    { slug: 'picture-trail', label: 'picture trail' },
     { slug: 'prepositions', label: 'prepositions' },
     { slug: 'shadow-match', label: 'shadow match' },
     { slug: 'subtraction', label: 'subtraction' },

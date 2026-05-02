@@ -1231,5 +1231,44 @@
         "weeksAgo": "{count, plural, =1 {vor 1 Woche} other {vor # Wochen}}"
       }
     }
+  },
+  "bulk": {
+    "toggleSelect": "Auswählen",
+    "toggleDone": "Fertig",
+    "toolbarAria": "Aktionen für die Mehrfachauswahl",
+    "selectionCount": "{count, plural, =1 {1 Deck ausgewählt} other {# Decks ausgewählt}}",
+    "checkboxAria": "{title} auswählen",
+    "action": {
+      "addToCollection": "Zur Sammlung hinzufügen",
+      "removeFromCollection": "Entfernen",
+      "shareLinks": "Links teilen",
+      "cancel": "Abbrechen"
+    },
+    "addedConfirmation": "{count, plural, =1 {1 Deck zu {collectionName} hinzugefügt} other {# Decks zu {collectionName} hinzugefügt}}",
+    "removedConfirmation": "{count, plural, =1 {1 Deck entfernt} other {# Decks entfernt}}",
+    "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    "addToCollectionPicker": {
+      "pickerTitle": "{count, plural, =1 {1 Deck zu einer Sammlung hinzufügen} other {# Decks zu einer Sammlung hinzufügen}}",
+      "pickerLoading": "Sammlungen werden geladen…",
+      "pickerEmpty": "Sie haben noch keine Sammlungen. Bitte zuerst eine anlegen.",
+      "pickerCreate": "+ Neue Sammlung",
+      "pickerCancel": "Abbrechen",
+      "errorGeneric": "Sammlungen konnten nicht geladen werden. Bitte versuchen Sie es erneut."
+    }
+  },
+  "share": {
+    "label": "Link teilen",
+    "singleDeckTitle": "Dieses Deck teilen",
+    "singleDeckBody": "Jeder mit diesem Link kann das Deck spielen. Der Link läuft nicht ab.",
+    "generating": "Link wird erstellt…",
+    "copy": "Kopieren",
+    "copied": "Kopiert!",
+    "copyAll": "Alle kopieren",
+    "copiedAll": "Alle kopiert!",
+    "close": "Schließen",
+    "errorGeneric": "Der Link konnte nicht erstellt werden. Bitte versuchen Sie es erneut.",
+    "errorClipboard": "Zugriff auf die Zwischenablage nicht möglich. Bitte den Link markieren und manuell kopieren.",
+    "bulkResultsTitle": "{count, plural, =1 {1 Teilen-Link} other {# Teilen-Links}}",
+    "bulkResultsSkipped": "{count, plural, =1 {1 Deck wurde übersprungen (nicht veröffentlicht)} other {# Decks wurden übersprungen (nicht veröffentlicht)}}"
   }
 }

@@ -6,6 +6,11 @@ import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { useAuth } from '@/contexts/auth-context';
 import { isLcsSubscriptionActive } from '@/lib/subscription-helpers';
+import BulkSelectModeToggle from '@/components/catalog/BulkSelectModeToggle';
+import DeckCardCheckbox from '@/components/catalog/DeckCardCheckbox';
+import BulkSelectToolbar, { BulkAction } from '@/components/catalog/BulkSelectToolbar';
+import ShareDeckButton from '@/components/catalog/ShareDeckButton';
+import ShareLinkResultModal, { ShareLinkResult } from '@/components/catalog/ShareLinkResultModal';
 
 interface CollectionDeckEntry {
   deckId: string;
@@ -62,6 +67,43 @@ export default function CollectionDetailClient({
 
   const [deleteConfirmOpen, setDeleteConfirmOpen] = useState(false);
   const [deleteSubmitting, setDeleteSubmitting] = useState(false);
+
+  // Tool 5A — bulk-mode state (Q-q Option I: mode toggle). In-page only per Q-r.
+  const tBulk = useTranslations('bulk');
+  const [bulkMode, setBulkMode] = useState(false);
+  const [selectedDeckIds, setSelectedDeckIds] = useState<Set<string>>(new Set());
+  const [bulkBusy, setBulkBusy] = useState(false);
+  const [shareResults, setShareResults] = useState<{
+    results: ShareLinkResult[];
+    skippedCount: number;
+  } | null>(null);
+  const [bulkConfirmation, setBulkConfirmation] = useState<string | null>(null);
+
+  function flashBulkConfirmation(msg: string) {
+    setBulkConfirmation(msg);
+    setTimeout(() => setBulkConfirmation(null), 2500);
+  }
+
+  function toggleBulkMode() {
+    if (bulkMode) {
+      setSelectedDeckIds(new Set());
+    }
+    setBulkMode(b => !b);
+  }
+
+  function toggleDeckSelection(deckId: string) {
+    setSelectedDeckIds(prev => {
+      const next = new Set(prev);
+      if (next.has(deckId)) next.delete(deckId);
+      else next.add(deckId);
+      return next;
+    });
+  }
+
+  function clearBulkSelection() {
+    setSelectedDeckIds(new Set());
+    setBulkMode(false);
+  }
 
   const fetchCollection = useCallback(async () => {
     setLoading(true);
@@ -208,6 +250,73 @@ export default function CollectionDetailClient({
     }
   }
 
+  async function handleBulkAction(action: BulkAction) {
+    const ids = Array.from(selectedDeckIds);
+    if (ids.length === 0) return;
+    setBulkBusy(true);
+    try {
+      const token = localStorage.getItem('accessToken');
+      if (action === 'removeFromCollection') {
+        const res = await fetch(
+          `/api/collections/${collectionId}/decks/bulk`,
+          {
+            method: 'DELETE',
+            headers: {
+              'Content-Type': 'application/json',
+              Authorization: `Bearer ${token ?? ''}`,
+            },
+            body: JSON.stringify({ deckIds: ids }),
+          }
+        );
+        if (!res.ok) throw new Error(String(res.status));
+        const data = await res.json();
+        await fetchCollection();
+        flashBulkConfirmation(
+          tBulk('removedConfirmation', { count: data.removed })
+        );
+        clearBulkSelection();
+        return;
+      }
+      if (action === 'shareLinks') {
+        const res = await fetch('/api/play-links/bulk', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${token ?? ''}`,
+          },
+          body: JSON.stringify({ deckIds: ids }),
+        });
+        if (!res.ok) throw new Error(String(res.status));
+        const data = await res.json();
+        const titleByDeckId = new Map(
+          (collection?.decks ?? []).map(d => [d.deckId, deckTitleFor(d, locale)])
+        );
+        const results: ShareLinkResult[] = data.playLinks.map(
+          (p: {
+            deckId: string;
+            linkId: string;
+            url: string;
+            existing: boolean;
+          }) => ({
+            deckId: p.deckId,
+            deckTitle: titleByDeckId.get(p.deckId) ?? p.deckId,
+            url: p.url,
+            existing: p.existing,
+          })
+        );
+        setShareResults({
+          results,
+          skippedCount: Array.isArray(data.skipped) ? data.skipped.length : 0,
+        });
+        return;
+      }
+    } catch {
+      flashBulkConfirmation(tBulk('errorGeneric'));
+    } finally {
+      setBulkBusy(false);
+    }
+  }
+
   if (!collection) {
     return (
       <main className="container mx-auto px-4 max-w-5xl py-12">
@@ -230,7 +339,10 @@ export default function CollectionDetailClient({
           <h1 className="font-display text-3xl md:text-4xl font-semibold text-ink-900">
             {collection.name}
           </h1>
-          <div className="flex gap-2">
+          <div className="flex gap-2 flex-wrap">
+            {collection.decks.length > 0 && (
+              <BulkSelectModeToggle active={bulkMode} onToggle={toggleBulkMode} />
+            )}
             <button
               type="button"
               onClick={() => {
@@ -265,66 +377,142 @@ export default function CollectionDetailClient({
           <p className="text-ink-700">{t('detail.emptyBody')}</p>
         </div>
       ) : (
+        <>
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {collection.decks.map(deck => {
             const title = deckTitleFor(deck, locale);
             const href = deckLinkFor(deck);
+            const selected = selectedDeckIds.has(deck.deckId);
             return (
               <li
                 key={deck.deckId}
-                className="border border-cream-300 rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-md transition"
+                className={`relative border rounded-lg overflow-hidden bg-white shadow-sm transition ${
+                  bulkMode && selected
+                    ? 'border-leaf-600 ring-2 ring-leaf-600'
+                    : 'border-cream-300 hover:shadow-md'
+                }`}
               >
-                <a href={href} className="block">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={deck.thumbnailUrl}
-                    alt={title}
-                    width={480}
-                    height={620}
-                    loading="lazy"
-                    className="w-full h-auto bg-cream-50"
+                {bulkMode && (
+                  <DeckCardCheckbox
+                    selected={selected}
+                    onToggle={() => toggleDeckSelection(deck.deckId)}
+                    ariaLabel={tBulk('checkboxAria', { title })}
                   />
-                </a>
+                )}
+
+                {bulkMode ? (
+                  <button
+                    type="button"
+                    onClick={() => toggleDeckSelection(deck.deckId)}
+                    className="block w-full text-left"
+                  >
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={deck.thumbnailUrl}
+                      alt={title}
+                      width={480}
+                      height={620}
+                      loading="lazy"
+                      className="w-full h-auto bg-cream-50"
+                    />
+                  </button>
+                ) : (
+                  <a href={href} className="block">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={deck.thumbnailUrl}
+                      alt={title}
+                      width={480}
+                      height={620}
+                      loading="lazy"
+                      className="w-full h-auto bg-cream-50"
+                    />
+                  </a>
+                )}
+
                 <div className="p-4">
                   <div className="flex items-start justify-between gap-2 mb-2">
                     <h2 className="font-display text-base font-semibold text-ink-900 line-clamp-2 flex-1">
-                      <a href={href} className="hover:text-leaf-700">
-                        {title}
-                      </a>
+                      {bulkMode ? (
+                        <button
+                          type="button"
+                          onClick={() => toggleDeckSelection(deck.deckId)}
+                          className="text-left hover:text-leaf-700"
+                        >
+                          {title}
+                        </button>
+                      ) : (
+                        <a href={href} className="hover:text-leaf-700">
+                          {title}
+                        </a>
+                      )}
                     </h2>
                     <span className="text-xs font-medium text-ink-500 uppercase flex-shrink-0">
                       {deck.language}
                     </span>
                   </div>
-                  <div className="flex items-center gap-3 text-sm">
-                    <a
-                      href={href}
-                      className="text-leaf-700 font-semibold hover:underline"
-                    >
-                      {t('detail.playOnline')}
-                    </a>
-                    <span className="text-ink-300" aria-hidden="true">·</span>
-                    <a
-                      href={deck.pdfUrl}
-                      className="text-ink-600 hover:text-ink-900"
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      {t('detail.pdf')}
-                    </a>
-                    <button
-                      type="button"
-                      onClick={() => handleRemoveDeck(deck.deckId)}
-                      className="ml-auto text-xs text-terracotta-500 hover:text-terracotta-600"
-                    >
-                      {t('detail.removeDeck')}
-                    </button>
-                  </div>
+                  {!bulkMode && (
+                    <div className="flex items-center gap-3 text-sm flex-wrap">
+                      <a
+                        href={href}
+                        className="text-leaf-700 font-semibold hover:underline"
+                      >
+                        {t('detail.playOnline')}
+                      </a>
+                      <span className="text-ink-300" aria-hidden="true">·</span>
+                      <a
+                        href={deck.pdfUrl}
+                        className="text-ink-600 hover:text-ink-900"
+                        target="_blank"
+                        rel="noopener"
+                      >
+                        {t('detail.pdf')}
+                      </a>
+                      <ShareDeckButton deckId={deck.deckId} />
+                      <button
+                        type="button"
+                        onClick={() => handleRemoveDeck(deck.deckId)}
+                        className="ml-auto text-xs text-terracotta-500 hover:text-terracotta-600"
+                      >
+                        {t('detail.removeDeck')}
+                      </button>
+                    </div>
+                  )}
                 </div>
               </li>
             );
           })}
         </ul>
+
+        <BulkSelectToolbar
+          count={selectedDeckIds.size}
+          actions={['removeFromCollection', 'shareLinks']}
+          busy={bulkBusy}
+          onAction={handleBulkAction}
+          onCancel={clearBulkSelection}
+        />
+
+        {shareResults && (
+          <ShareLinkResultModal
+            results={shareResults.results}
+            skippedCount={shareResults.skippedCount}
+            onClose={() => {
+              setShareResults(null);
+              clearBulkSelection();
+            }}
+          />
+        )}
+
+        {bulkConfirmation && (
+          <div
+            role="status"
+            aria-live="polite"
+            className="fixed bottom-24 left-1/2 -translate-x-1/2 z-[60] px-4 py-2 rounded-md bg-ink-900 text-cream-50 text-sm shadow-lg"
+          >
+            {bulkConfirmation}
+          </div>
+        )}
+        </>
       )}
 
       {renameOpen && (

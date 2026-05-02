@@ -10,7 +10,7 @@ import {
   resolveTopicSlug,
 } from '@/lib/taxonomy';
 import { fetchDecksForAxis, listNonEmptyAxisKeys, TopicDeckSummary } from '@/lib/topic-decks';
-import AddToCollectionButton from '@/components/catalog/AddToCollectionButton';
+import DeckGridClient, { TopicDeckCardData } from './DeckGridClient';
 
 // Tier 1 launch locales per CLAUDE.md §19. Tier 2-4 fold in later; topic
 // pages only generate for locales with catalog content (per Footer.tsx
@@ -234,66 +234,25 @@ export default async function TopicPage({ params }: { params: TopicParams }) {
           </p>
         </header>
 
-        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {decks.map(deck => {
-            const title = deckTitleFor(deck, locale);
-            const href = deckLinkFor(deck);
-            return (
-              <li
-                key={deck.id}
-                className="border border-cream-300 rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow"
-              >
-                {/*
-                  Deck pages at /<locale>/decks/<slug>/ are nginx-served per
-                  CLAUDE.md §15.7 (NOT Next.js routes). Use plain <a> instead
-                  of next/link: Next.js's trailingSlash:false config strips
-                  the trailing slash from <Link href> values when rendering,
-                  but nginx's deck location-block requires the trailing slash
-                  (no-slash form 404s). Plain <a> preserves the literal href.
-                  Same convention as components/homepage-v2/BreadthGrid.tsx.
-                */}
-                <a href={href} className="block">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={deck.thumbnailUrl}
-                    alt={title}
-                    width={480}
-                    height={620}
-                    loading="lazy"
-                    className="w-full h-auto bg-cream-50"
-                  />
-                </a>
-                <div className="p-4">
-                  <h2 className="font-display text-base font-semibold text-ink-900 mb-2 line-clamp-2">
-                    <a href={href} className="hover:text-leaf-700">
-                      {title}
-                    </a>
-                  </h2>
-                  <div className="flex items-center gap-3 text-sm flex-wrap">
-                    <a
-                      href={href}
-                      className="text-leaf-700 font-semibold hover:underline"
-                    >
-                      {t('deckCard.playLink')}
-                    </a>
-                    <span className="text-ink-300" aria-hidden="true">·</span>
-                    <a
-                      href={deck.pdfUrl}
-                      className="text-ink-600 hover:text-ink-900"
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      {t('deckCard.pdfLink')}
-                    </a>
-                    {/* Subscriber-only "Add to collection" affordance per Q-a Option I.
-                        Renders nothing for non-subscribers (no upsell on cards). */}
-                    <AddToCollectionButton deckId={deck.id} />
-                  </div>
-                </div>
-              </li>
-            );
-          })}
-        </ul>
+        {/* Tool 5A — bulk-mode + per-card affordances live in client child.
+            Page chrome above (header, JSON-LD, hreflang via generateMetadata)
+            stays SSR per §17.4. Deck links inside the client child preserve
+            the §15.7 nginx-routed plain-<a> convention. */}
+        <DeckGridClient
+          decks={decks.map<TopicDeckCardData>(deck => ({
+            id: deck.id,
+            slug: deck.slug,
+            language: deck.language,
+            title: deckTitleFor(deck, locale),
+            href: deckLinkFor(deck),
+            thumbnailUrl: deck.thumbnailUrl,
+            pdfUrl: deck.pdfUrl,
+          }))}
+          labels={{
+            playLink: t('deckCard.playLink'),
+            pdfLink: t('deckCard.pdfLink'),
+          }}
+        />
       </main>
     </>
   );

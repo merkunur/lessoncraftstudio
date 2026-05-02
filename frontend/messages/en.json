@@ -1160,5 +1160,44 @@
         "weeksAgo": "{count, plural, =1 {1 week ago} other {# weeks ago}}"
       }
     }
+  },
+  "bulk": {
+    "toggleSelect": "Select",
+    "toggleDone": "Done",
+    "toolbarAria": "Bulk selection actions",
+    "selectionCount": "{count, plural, =1 {1 deck selected} other {# decks selected}}",
+    "checkboxAria": "Select {title}",
+    "action": {
+      "addToCollection": "Add to collection",
+      "removeFromCollection": "Remove",
+      "shareLinks": "Share links",
+      "cancel": "Cancel"
+    },
+    "addedConfirmation": "{count, plural, =1 {Added 1 deck to {collectionName}} other {Added # decks to {collectionName}}}",
+    "removedConfirmation": "{count, plural, =1 {Removed 1 deck} other {Removed # decks}}",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "addToCollectionPicker": {
+      "pickerTitle": "{count, plural, =1 {Add 1 deck to a collection} other {Add # decks to a collection}}",
+      "pickerLoading": "Loading collections…",
+      "pickerEmpty": "You don't have any collections yet. Create one first.",
+      "pickerCreate": "+ New collection",
+      "pickerCancel": "Cancel",
+      "errorGeneric": "Could not load collections. Please try again."
+    }
+  },
+  "share": {
+    "label": "Share link",
+    "singleDeckTitle": "Share this deck",
+    "singleDeckBody": "Anyone with this link can play the deck. The link doesn't expire.",
+    "generating": "Generating link…",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "copyAll": "Copy all",
+    "copiedAll": "Copied all!",
+    "close": "Close",
+    "errorGeneric": "Could not generate the link. Please try again.",
+    "errorClipboard": "Could not access clipboard. Select the link and copy manually.",
+    "bulkResultsTitle": "{count, plural, =1 {1 share link} other {# share links}}",
+    "bulkResultsSkipped": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
   }
 }

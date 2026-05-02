@@ -15,7 +15,8 @@ import { useTranslations } from 'next-intl';
 const FOOTER_LANGUAGES: Array<{ code: string; label: string; tier: 1 | 2 | 3 | 4 }> = [
   { code: 'en', label: 'English', tier: 1 },
   { code: 'de', label: 'German', tier: 1 },
-  // Tier 2 (Spanish, Dutch) — added at Track C per-locale stagger when first es / first nl deck publishes
+  { code: 'es', label: 'Español', tier: 2 },  // Track C Batch 1 (matching cluster × es); first es deck publish — Tier 2 first-row event
+  // Tier 2 (Dutch) — added at Track C per-locale stagger when first nl deck publishes
   // Tier 3 (Swedish, Finnish, Norwegian) — added when Tier 3 launches
   // Tier 4 (French, Italian, Danish, Portuguese) — added when Tier 4 launches
 ];
@@ -49,6 +50,10 @@ const FOOTER_TOPICS_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'kindergarten', label: 'Kindergarten' },
     { slug: '1-klasse', label: '1. Klasse' },
     { slug: '2-klasse', label: '2. Klasse' },
+  ],
+  es: [
+    { slug: 'animales', label: 'animal' },
+    { slug: 'jardin-infantil', label: 'jardín infantil' },
   ],
 };
 
@@ -114,6 +119,12 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'wort-raten', label: 'Wort raten' },
     { slug: 'buchstabensalat', label: 'Buchstabensalat' },
     { slug: 'wortsuche', label: 'Wortsuche' },
+  ],
+  es: [
+    { slug: 'empareja-en-cuadricula', label: 'emparejar en cuadrícula' },
+    { slug: 'emparejar', label: 'emparejar' },
+    { slug: 'empareja-sombras', label: 'emparejar sombras' },
+    { slug: 'clasificar-imagenes', label: 'clasificar imágenes' },
   ],
 };
 

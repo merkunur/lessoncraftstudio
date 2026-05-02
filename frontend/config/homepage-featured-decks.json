@@ -34,16 +34,6 @@
       "featured": false
     },
     {
-      "slug": "math-puzzle",
-      "locale": "en",
-      "title": "Math Puzzle Practice",
-      "topic": "math-puzzle",
-      "languageLabel": "EN",
-      "thumbnailUrl": "/en/decks/math-puzzle/thumbnail.png",
-      "deckUrl": "/en/decks/math-puzzle/",
-      "featured": false
-    },
-    {
       "slug": "addition-image-image",
       "locale": "de",
       "title": "Additionsspaß",
@@ -51,16 +41,6 @@
       "languageLabel": "DE",
       "thumbnailUrl": "/de/decks/addition-image-image/thumbnail.png",
       "deckUrl": "/de/decks/addition-image-image/",
-      "featured": false
-    },
-    {
-      "slug": "matching-letter",
-      "locale": "de",
-      "title": "Match Up",
-      "topic": "matching-letter",
-      "languageLabel": "DE",
-      "thumbnailUrl": "/de/decks/matching-letter/thumbnail.png",
-      "deckUrl": "/de/decks/matching-letter/",
       "featured": false
     },
     {
@@ -82,10 +62,32 @@
       "thumbnailUrl": "/de/decks/more-less/thumbnail.png",
       "deckUrl": "/de/decks/more-less/",
       "featured": false
+    },
+    {
+      "slug": "grid-match",
+      "locale": "es",
+      "title": "Grid Match",
+      "topic": "grid-match",
+      "languageLabel": "ES",
+      "thumbnailUrl": "/es/decks/grid-match/thumbnail.png",
+      "deckUrl": "/es/decks/grid-match/",
+      "featured": false,
+      "_note": "Track C Batch 1 (Tier 2 first-row event). Themed (animals) per Tier 1 storage convention; rendering localizes via topics-taxonomy.json."
+    },
+    {
+      "slug": "picture-sort",
+      "locale": "es",
+      "title": "Picture Sort",
+      "topic": "picture-sort",
+      "languageLabel": "ES",
+      "thumbnailUrl": "/es/decks/picture-sort/thumbnail.png",
+      "deckUrl": "/es/decks/picture-sort/",
+      "featured": false,
+      "_note": "Track C Batch 1 (Tier 2 first-row event). Themeless."
     }
   ],
 
-  "_known_state_notes": "Deck titles are operator-authored at app-side and stored verbatim per row in the DB. Post-Phase-3a, locale heterogeneity is observable: some DE rows carry DE-native titles (e.g. 'Additionsspaß', 'Wörter suchen') while others carry English-language titles (e.g. 'Match Up', 'More or Less Practice'). The titles above mirror DB state verbatim; do NOT auto-translate or normalize. Per CLAUDE.md §17.5 Tier 1 EN+DE discipline, operator may revise specific titles in a future content-authoring pass.",
+  "_known_state_notes": "Deck titles are operator-authored at app-side and stored verbatim per row in the DB. Locale heterogeneity is observable across Tier 1 (DE rows mix DE-native titles like 'Additionsspaß' / 'Wörter suchen' with English-language titles like 'More or Less Practice') and now extends to Tier 2 (es rows currently carry English-language titles like 'Grid Match' / 'Picture Sort' per operator authoring at first-publish time). Titles above mirror DB state verbatim; do NOT auto-translate or normalize. Per CLAUDE.md §17.5 Tier 1 EN+DE discipline + Tier 2 follow-on, operator may revise specific titles in a future content-authoring pass.",
 
-  "_growth_plan": "Section-2 curation v1 (this commit) ships 8 picks across en + de = 4 + 4. Spec amendment locked: 4-language grid (en+de+fr+es) deferred to Tier 2-3 launches per CLAUDE.md §19. When es lands at Tier 2, swap 1 en + 1 de for 2 es picks. When nl lands, same shape. fr lands at Tier 4. Catalog post-Phase-3a is 58 published rows across 29 §14.10-canonical apps × en + de. Selection criteria per SECTION-2-CURATION-v1.md: 4 subjects covered (math 3, letters 2, logic 2, spatial-reasoning 1); 8 distinct mechanics (no app appears twice); 4 themed + 4 themeless; 3 educational levels (preschool 1, kindergarten 5, grade-1 2)."
+  "_growth_plan": "Section-2 curation v1 + Track C Batch 1 stagger: 8 picks across en + de + es = 3 + 3 + 2 (Tier 2 first-row event applied Option D stagger per recon: dropped math-puzzle-en + matching-letter-de; added grid-match-es + picture-sort-es). Themed/themeless equilibrium preserved at 4/4. featured: true unchanged on sudoku-en. When nl lands at Tier 2 Track C Batch N, swap further per Option D semantics. Tier 3+ (sv, fi, no, fr, it, da, pt) shifts when those launch."
 }

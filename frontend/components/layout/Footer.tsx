@@ -53,7 +53,9 @@ const FOOTER_TOPICS_BY_LOCALE: Record<string, FooterLink[]> = {
   ],
   es: [
     { slug: 'animales', label: 'animal' },
+    { slug: 'preescolar', label: 'preescolar' },
     { slug: 'jardin-infantil', label: 'jardín infantil' },
+    { slug: 'grado-1', label: 'grado 1' },
   ],
 };
 
@@ -121,10 +123,14 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'wortsuche', label: 'Wortsuche' },
   ],
   es: [
+    { slug: 'suma-codificada', label: 'suma codificada' },
     { slug: 'empareja-en-cuadricula', label: 'emparejar en cuadrícula' },
     { slug: 'emparejar', label: 'emparejar' },
-    { slug: 'empareja-sombras', label: 'emparejar sombras' },
+    { slug: 'rompecabezas-matematico', label: 'rompecabezas matemático' },
+    { slug: 'mas-o-menos', label: 'más o menos' },
     { slug: 'clasificar-imagenes', label: 'clasificar imágenes' },
+    { slug: 'empareja-sombras', label: 'emparejar sombras' },
+    { slug: 'resta', label: 'resta' },
   ],
 };
 

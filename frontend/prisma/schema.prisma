@@ -69,6 +69,11 @@ model User {
   supportTickets     SupportTicket[]
   userRoles          UserRole[]
   licenseKeys        LicenseKey[]
+  // Catalog-side back-relations (commission pass — §8.1 models). Prisma virtual; emit no SQL.
+  playLinks          PlayLink[]
+  collections        Collection[]
+  favorites          DeckFavorite[]
+  embedConfigs       EmbedConfig[]
 
   @@index([email])
   @@index([stripeCustomerId])
@@ -1060,14 +1065,14 @@ model LicenseDevice {
 }
 
 model LSWebhookEvent {
-  id          String   @id @default(cuid())
-  eventId     String   @unique @map("event_id")
-  eventType   String   @map("event_type")
-  orderId     String?  @map("order_id")
-  processedAt DateTime @default(now()) @map("processed_at")
-  status      String   @default("processed")
-  errorMessage String? @map("error_message") @db.Text
-  payload     Json?
+  id           String   @id @default(cuid())
+  eventId      String   @unique @map("event_id")
+  eventType    String   @map("event_type")
+  orderId      String?  @map("order_id")
+  processedAt  DateTime @default(now()) @map("processed_at")
+  status       String   @default("processed")
+  errorMessage String?  @map("error_message") @db.Text
+  payload      Json?
 
   @@index([eventId])
   @@index([eventType])
@@ -1088,16 +1093,16 @@ model LSWebhookEvent {
 model DesignElement {
   id               String   @id @default(cuid())
   slug             String   @unique
-  category         String   // patterns|textures|frames|corners|banners|dividers|badges|title-banners|accents|scatter-packs|footers
-  filename         String                                            // e.g. "scalloped.svg"
-  filePath         String   @map("file_path")                         // relative, e.g. "frames/scalloped.svg"
+  category         String // patterns|textures|frames|corners|banners|dividers|badges|title-banners|accents|scatter-packs|footers
+  filename         String // e.g. "scalloped.svg"
+  filePath         String   @map("file_path") // relative, e.g. "frames/scalloped.svg"
   fileSize         Int?     @map("file_size")
   mimeType         String   @default("image/svg+xml") @map("mime_type")
-  translations     Json     @default("{}")                            // {en: "Scalloped", de: "Gewellt", ...}
-  tags             String[] @default([])                              // searchable tags
-  defaultPlacement String?  @map("default_placement")                 // center|top|bottom|full-frame|divider
-  defaultScale     Float?   @map("default_scale")                     // 0.50, 0.85, etc.
-  tintable         Boolean  @default(true)                            // apply palette color via BlendColor filter
+  translations     Json     @default("{}") // {en: "Scalloped", de: "Gewellt", ...}
+  tags             String[] @default([]) // searchable tags
+  defaultPlacement String?  @map("default_placement") // center|top|bottom|full-frame|divider
+  defaultScale     Float?   @map("default_scale") // 0.50, 0.85, etc.
+  tintable         Boolean  @default(true) // apply palette color via BlendColor filter
   sortOrder        Int      @default(0) @map("sort_order")
   isActive         Boolean  @default(true) @map("is_active")
   createdAt        DateTime @default(now()) @map("created_at")
@@ -1123,32 +1128,246 @@ model DesignElement {
 
 model Deck {
   id              String    @id @default(cuid())
-  slug            String                                          // NOT @unique at column level; compound below
-  title           Json                                            // {en: "...", de: "...", ...}
+  slug            String // NOT @unique at column level; compound below
+  title           Json // {en: "...", de: "...", ...}
   description     Json
   exerciseType    String    @map("exercise_type")
   exerciseMode    String?   @map("exercise_mode")
-  language        String                                          // ISO 639-1
+  language        String // ISO 639-1
   subjectTags     String[]  @default([]) @map("subject_tags")
   topicSlugs      String[]  @default([]) @map("topic_slugs")
-  ageRange        String    @map("age_range")                     // "3-5" | "5-7" | "6-8" | "7-9" | "8-10"
+  ageRange        String    @map("age_range") // "3-5" | "5-7" | "6-8" | "7-9" | "8-10"
   htmlUrl         String    @map("html_url")
   pdfUrl          String    @map("pdf_url")
   answerKeyUrl    String?   @map("answer_key_url")
   thumbnailUrl    String    @map("thumbnail_url")
   manifestUrl     String    @map("manifest_url")
   publishedAt     DateTime? @map("published_at")
-  status          String    @default("draft")                     // "draft" | "published" | "archived"
+  status          String    @default("draft") // "draft" | "published" | "archived"
   createdBy       String    @map("created_by")
   version         Int       @default(1)
-  contentFamilyId String?   @map("content_family_id")             // §17.8.7 reserved nullable
+  contentFamilyId String?   @map("content_family_id") // §17.8.7 reserved nullable
   createdAt       DateTime  @default(now()) @map("created_at")
   updatedAt       DateTime  @updatedAt @map("updated_at")
 
-  @@unique([language, slug])                                      // §17.8.5 compound unique (Drift D2)
+  // Catalog-side back-relations (commission pass — §8.1 models). Prisma virtual; emit no SQL.
+  enrichment            DeckEnrichment?
+  playLinks             PlayLink[]
+  favorites             DeckFavorite[]
+  collectionMemberships CollectionDeck[]
+  embedConfigs          EmbedConfig[]
+
+  @@unique([language, slug]) // §17.8.5 compound unique (Drift D2)
   @@index([status, publishedAt])
   @@index([exerciseType, language])
   @@map("decks")
+}
+
+// =====================================================================
+// Catalog-side §8.1 models (commission pass)
+//
+// Per CLAUDE.md §8.1 stated-intent shapes. CREATE-only; zero blast radius
+// on extant tables. Three families:
+//   A. catalog-enrichment: DeckEnrichment, Topic, LessonPlan, ParentNote
+//   B. player-embeds:      EmbedConfig, PlayLink
+//   C. workspace:          Collection, CollectionDeck, DeckFavorite
+//
+// Migration files split by family per recon's A/B/C topological order.
+// Topic.ageRange = String matches shipped Deck convention; AgeRange enum
+// retrofit deferred per project_deferred_items_queue.md (covers Deck +
+// Topic together).
+// =====================================================================
+
+// Family A — catalog enrichment
+
+// AI-generated enrichment payload for each Deck. 1:1 with Deck (deckId is
+// both PK and FK). embedding is the serialized vector for §16.1
+// embedding-similarity (deck-level); Mac Studio AI service per §4.5
+// generates and writes. enrichmentVersion bumps when prompts/model change.
+model DeckEnrichment {
+  deckId             String   @id @map("deck_id")
+  embedding          Bytes
+  longDescription    Json     @map("long_description")
+  learningObjectives Json     @map("learning_objectives")
+  aiTags             String[] @default([]) @map("ai_tags")
+  enrichedAt         DateTime @default(now()) @map("enriched_at")
+  enrichmentVersion  Int      @default(1) @map("enrichment_version")
+
+  deck Deck @relation(fields: [deckId], references: [id], onDelete: Cascade)
+
+  @@map("deck_enrichments")
+}
+
+// Cross-product topic record per CLAUDE.md §16.1 (subject × topic × age ×
+// language). slug is the cross-product cluster key, distinct from the
+// per-axis-key single-axis topic-page slugs in topics-taxonomy.json.
+//
+// embedding column per H1 authorization — used by §16.1 embedding-similarity
+// topic resolution (the "top hit above a threshold" step). Mac Studio AI
+// service per §4.5 generates per-topic embeddings asynchronously; nullable
+// because rows can exist before AI catches up.
+//
+// ageRange = String matches shipped Deck convention; §8.1 line 414 closing
+// guidance about AgeRange enum is deferred per project_deferred_items_queue.md.
+model Topic {
+  slug           String   @id
+  title          Json
+  description    Json
+  subject        String
+  ageRange       String   @map("age_range")
+  language       String
+  curriculumTags String[] @default([]) @map("curriculum_tags")
+  parentSlug     String?  @map("parent_slug")
+  isHighPriority Boolean  @default(false) @map("is_high_priority")
+  embedding      Bytes?
+  createdAt      DateTime @default(now()) @map("created_at")
+  updatedAt      DateTime @updatedAt @map("updated_at")
+
+  lessonPlans LessonPlan[]
+  parentNotes ParentNote[]
+
+  @@index([subject, language])
+  @@map("topics")
+}
+
+// Per-locale lesson plan rows (one per (topic, language) combination per the
+// @@unique below). content-only library per docs/SUBSCRIPTION-SCOPE.md
+// Pillar 1 — no plan-builder. AI-generated; structure JSON carries the
+// pedagogical-stance-shaped content (pedagogical stance is open decision #1
+// in SUBSCRIPTION-SCOPE.md, schema-shape-independent).
+model LessonPlan {
+  id                    String   @id @default(cuid())
+  topicSlug             String   @map("topic_slug")
+  language              String
+  durationMinutes       Int      @map("duration_minutes")
+  structure             Json
+  recommendedDeckIds    String[] @default([]) @map("recommended_deck_ids")
+  recommendedPdfDeckIds String[] @default([]) @map("recommended_pdf_deck_ids")
+  generatedBy           String   @map("generated_by")
+  generatedAt           DateTime @default(now()) @map("generated_at")
+  generationVersion     Int      @default(1) @map("generation_version")
+
+  topic Topic @relation(fields: [topicSlug], references: [slug], onDelete: Cascade)
+
+  @@unique([topicSlug, language])
+  @@map("lesson_plans")
+}
+
+// v1 deferred per docs/SUBSCRIPTION-SCOPE.md (parent-communication templates
+// moved to deferred features at §7); reserved for forward-compatibility per
+// CLAUDE.md §17.8.7 reservation pattern. Schema is created at this pass to
+// avoid a future migration when feature reactivates. AI service generation
+// (§4.5) currently does NOT include parent-note generation; resumes on
+// feature reactivation.
+model ParentNote {
+  id                String   @id @default(cuid())
+  topicSlug         String   @map("topic_slug")
+  language          String
+  body              String   @db.Text
+  tone              String
+  generatedBy       String   @map("generated_by")
+  generatedAt       DateTime @default(now()) @map("generated_at")
+  generationVersion Int      @default(1) @map("generation_version")
+
+  topic Topic @relation(fields: [topicSlug], references: [slug], onDelete: Cascade)
+
+  @@unique([topicSlug, language, tone])
+  @@map("parent_notes")
+}
+
+// Family B — player + embeds
+
+// Platform-infrastructure model (free for all users per CLAUDE.md §3
+// acquisition flywheel + docs/SUBSCRIPTION-SCOPE.md). Not subscription-gated.
+// Each EmbedConfig is a per-teacher per-deck iframe configuration — width,
+// height, optional allowedOrigins restriction. Embedding itself is free.
+model EmbedConfig {
+  id             String   @id @default(cuid())
+  teacherId      String   @map("teacher_id")
+  deckId         String   @map("deck_id")
+  width          String?
+  height         String?
+  allowedOrigins String[] @default([]) @map("allowed_origins")
+  createdAt      DateTime @default(now()) @map("created_at")
+
+  teacher   User       @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+  deck      Deck       @relation(fields: [deckId], references: [id], onDelete: Cascade)
+  playLinks PlayLink[]
+
+  @@index([teacherId])
+  @@map("embed_configs")
+}
+
+// Student-facing share-link route per CLAUDE.md §4.4. linkId is a 10-char
+// random alphanumeric public ID (≈3.6 quadrillion combinations,
+// unguessable). Optionally bound to an EmbedConfig when the link backs an
+// iframe embed; allowedOrigins enforcement happens at link resolution time.
+model PlayLink {
+  id            String   @id @default(cuid())
+  linkId        String   @unique @map("link_id") @db.VarChar(10)
+  deckId        String   @map("deck_id")
+  teacherId     String   @map("teacher_id")
+  embedConfigId String?  @map("embed_config_id")
+  createdAt     DateTime @default(now()) @map("created_at")
+
+  deck        Deck         @relation(fields: [deckId], references: [id], onDelete: Cascade)
+  teacher     User         @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+  embedConfig EmbedConfig? @relation(fields: [embedConfigId], references: [id], onDelete: SetNull)
+
+  @@index([teacherId])
+  @@map("play_links")
+}
+
+// Family C — workspace
+
+// Subscriber-only feature per docs/SUBSCRIPTION-SCOPE.md Pillar 3 Tool 1.
+// Teachers organize favorited decks into named collections. Foundation for
+// Tool 2 (workspace home), Tool 5 (bulk operations).
+model Collection {
+  id          String   @id @default(cuid())
+  teacherId   String   @map("teacher_id")
+  name        String
+  description String?
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  teacher User             @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+  decks   CollectionDeck[]
+
+  @@index([teacherId])
+  @@map("collections")
+}
+
+// Collection ↔ Deck join with ordering position. Composite PK on
+// (collectionId, deckId).
+model CollectionDeck {
+  collectionId String   @map("collection_id")
+  deckId       String   @map("deck_id")
+  position     Int
+  addedAt      DateTime @default(now()) @map("added_at")
+
+  collection Collection @relation(fields: [collectionId], references: [id], onDelete: Cascade)
+  deck       Deck       @relation(fields: [deckId], references: [id], onDelete: Cascade)
+
+  @@id([collectionId, deckId])
+  @@index([collectionId, position])
+  @@map("collection_decks")
+}
+
+// Free-tier feature: teachers favorite decks (saved for later) without
+// organization. Trigger for the collections-feature CTA after fifth favorite
+// (per CLAUDE.md §7 conversion mechanics). Composite PK on (teacherId, deckId).
+model DeckFavorite {
+  teacherId   String   @map("teacher_id")
+  deckId      String   @map("deck_id")
+  favoritedAt DateTime @default(now()) @map("favorited_at")
+
+  teacher User @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+  deck    Deck @relation(fields: [deckId], references: [id], onDelete: Cascade)
+
+  @@id([teacherId, deckId])
+  @@index([teacherId, favoritedAt])
+  @@map("deck_favorites")
 }
 
 // Notify-me email captures for the pre-launch home page.

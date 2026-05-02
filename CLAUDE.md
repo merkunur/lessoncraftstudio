@@ -137,6 +137,7 @@ A long-running service on the headless Mac Studio that does asynchronous batch w
 Tasks the service performs:
 
 - Generate embeddings for each deck's metadata (used for semantic search ranking and for "related decks" suggestions)
+- Generate embeddings for each Topic row (used for §16.1 embedding-similarity topic resolution)
 - Generate longer pedagogical descriptions and formal learning objectives in all 11 languages
 - Generate or refresh the lesson plan for each topic destination page
 - Suggest additional discoverability tags
@@ -290,6 +291,7 @@ model Topic {
   curriculumTags  String[] // e.g. ["pyp-mathematics-numbers", "ipc-early-years-counting", "cambridge-primary-stage1"]
   parentSlug      String?  // optional taxonomy nesting
   isHighPriority  Boolean  @default(false)  // gates whether the topic gets a curated lesson plan
+  embedding       Bytes?   // serialized vector for §16.1 embedding-similarity topic resolution. Generated asynchronously by the Mac Studio AI service per §4.5; nullable because rows can exist before generation catches up. Mirrors DeckEnrichment.embedding shape.
   createdAt       DateTime @default(now())
   updatedAt       DateTime @updatedAt
 
@@ -385,9 +387,9 @@ model DeckFavorite {
   @@index([teacherId, favoritedAt])
 }
 
-// Subscriber-only feature: configurations for embedding decks on the teacher's
-// own websites. Each config produces a stable iframe URL with the teacher's
-// chosen sizing and any allowed-origins restrictions.
+// Platform-infrastructure model (free for all users per §3 acquisition flywheel
+// + `docs/SUBSCRIPTION-SCOPE.md`). Not subscription-gated. Each EmbedConfig is a
+// per-teacher per-deck iframe configuration; embedding itself is free.
 model EmbedConfig {
   id           String   @id @default(cuid())
   teacherId    String

@@ -8159,10 +8159,23 @@ document.addEventListener("DOMContentLoaded", function() {
               }
               return cachedBundle;
           };
+          // §15.10 block-on-reuse worked-example (Phase-3a Batch 5b-1):
+          // The (en, picture-path) deck row is permanently archived per Phase 5.5
+          // verification. To ship a new en-locale picture-path-app deck, we
+          // substitute the slug with `picture-trail` for en only. de + future
+          // locales continue to emit `picture-path` (preserving picture-path-de's
+          // shipped row + future locale rows under the canonical slug).
+          //
+          // generator.app stays `picture-path` per §14.10 canonical-name-vs-emission
+          // contract — only the slug-bearing exerciseType field is locale-forked.
+          // deck_id is composed downstream from exerciseType inside catalog-export.js
+          // (buildDeckId at :102), so this single-site fork covers both layers.
+          var contentLocale = window.currentLocale || 'en';
+          var localeAwareExerciseType = (contentLocale === 'en') ? 'picture-trail' : 'picture-path';
           var result = await window.LCSCatalogExport.export({
-              app: { name: 'picture-path', version: '29.2.0', bundleVersion: 29 },
-              language: window.currentLocale || 'en',
-              exerciseType: 'picture-path',
+              app: { name: 'picture-path', version: '29.3.0', bundleVersion: 29 },
+              language: contentLocale,
+              exerciseType: localeAwareExerciseType,
               exerciseMode: (document.getElementById('gameMode') && document.getElementById('gameMode').value) || null,
               producers: {
                   pdf: function () { return downloadPDF(worksheetCanvas, 'printable.pdf', { returnBlob: true }); },

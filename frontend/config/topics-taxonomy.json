@@ -159,6 +159,7 @@
       "sudoku":           { "slug": { "en": "picture-sudoku",   "de": "bilder-sudoku" },     "name": { "en": "picture sudoku",   "de": "Bilder-Sudoku" } },
       "cryptogram":       { "slug": { "en": "cryptogram",       "de": "kryptogramm" },        "name": { "en": "cryptogram",       "de": "Kryptogramm" } },
       "picture-path":     { "slug": { "en": "picture-path",     "de": "bildpfad" },           "name": { "en": "picture path",     "de": "Bildpfad" } },
+      "picture-trail":    { "slug": { "en": "picture-trail" },                                "name": { "en": "Picture Trail" } },
       "subtraction":      { "slug": { "en": "subtraction",      "de": "subtraktion" },        "name": { "en": "subtraction",      "de": "Subtraktion" } },
       "code-addition":    { "slug": { "en": "code-addition",    "de": "code-addition" },      "name": { "en": "code addition",    "de": "Code-Addition" } },
       "more-less":        { "slug": { "en": "more-less",        "de": "mehr-weniger" },       "name": { "en": "more or less",     "de": "mehr oder weniger" } },

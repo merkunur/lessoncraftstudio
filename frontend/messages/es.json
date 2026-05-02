@@ -25,77 +25,105 @@
     "pricing": "Precios"
   },
   "homepage": {
+    "meta": {
+      "title": "LessonCraftStudio — Hojas de trabajo que realmente funcionan en su segunda lengua",
+      "description": "Una biblioteca curada de ilustraciones K-3 y un sistema de vocabulario en 11 lenguas — con género, plurales y diacríticos correctos. Hecho para aulas bilingües y duales.",
+      "ogTitle": "Hojas de trabajo que realmente funcionan en su segunda lengua.",
+      "ogDescription": "Hecho para docentes en programas bilingües, aulas duales y escuelas internacionales.",
+      "ogAlt": "LessonCraftStudio — hojas de trabajo K-3 multilingües."
+    },
     "hero": {
-      "title": "Crea hojas de trabajo impresionantes en minutos",
-      "subtitle": "33 generadores profesionales de imprimibles para vendedores de Etsy, editores KDP y emprendedores. Licencia comercial incluida.",
-      "cta": {
-        "tryFree": "Prueba la sopa de letras gratis",
-        "viewApps": "Ver todos los generadores"
+      "title": "Hojas de trabajo que realmente funcionan en su segunda lengua.",
+      "subtitle": "Una biblioteca curada de ilustraciones K-3 acompañada de un sistema de vocabulario en 11 lenguas — con género, plurales y diacríticos correctos en cada una. Hecho para docentes en programas bilingües, aulas duales y escuelas internacionales.",
+      "interaction": "Los niños los juegan en el navegador. Imprímalos si lo prefiere."
+    },
+    "breadthGrid": {
+      "sectionTitle": "Decks que los docentes están usando ahora mismo.",
+      "intro": "Algunos decks tomados del catálogo. Abra el primero para jugarlo aquí, o haga clic en cualquier otro para ver su página completa.",
+      "featuredBadge": "Destacado",
+      "playInline": "Jugar este deck",
+      "openDeck": "Abrir deck",
+      "closeFeatured": "Cerrar",
+      "loadingDeck": "Cargando deck…"
+    },
+    "languageProof": {
+      "sectionTitle": "Lo que la traducción automática se equivoca — y lo que nosotros acertamos.",
+      "intro": "La mayoría de los sitios de hojas de trabajo traducen contenido en inglés con un motor genérico y publican el resultado. Los artículos quedan mal. Los plurales colapsan. Las tildes desaparecen. Los niños aprenden los errores. Nosotros tratamos cada una de nuestras 11 lenguas como su propio catálogo — no como una traducción del inglés — con vocabulario curado por personas que enseñan en esa lengua.",
+      "subIntro": "Dos ejemplos, uno al lado del otro.",
+      "german": {
+        "heading": "Alemán — género, mayúsculas, plural irregular",
+        "leftAnnotation1": "La traducción automática adivina el artículo según el contexto inglés. Schule es femenino — el contexto inglés no lo indica.",
+        "leftAnnotation2": "Los sustantivos alemanes se escriben siempre con mayúscula. Los sustantivos en minúscula enseñan la regla equivocada.",
+        "leftAnnotation3": "El plural es irregular: Schulen, no Schules. La traducción automática regulariza; la forma correcta queda fuera.",
+        "annotation1": "die Schule — artículo correcto, cada vez. Nuestro vocabulario alemán está etiquetado por género, no adivinado.",
+        "annotation2": "Schule — con mayúscula, como debe escribirse un sustantivo alemán.",
+        "annotation3": "Schulen — el plural real, no una conjetura calcada del inglés.",
+        "ariaLabel": "Comparación lado a lado: una hoja de trabajo en alemán traducida automáticamente con tres errores — artículo femenino incorrecto ('der' en lugar de 'die'), sustantivo en minúscula ('schule' en lugar de 'Schule'), y plural anglicado ('schules' en lugar de 'Schulen') — junto a la versión de LessonCraftStudio con 'die Schule' y 'die Schulen' renderizadas correctamente."
+      },
+      "french": {
+        "heading": "Francés — género, contracciones, tildes",
+        "leftAnnotation1": "École es femenino, y el artículo se elide ante vocal. La traducción automática no hace ni una cosa ni la otra.",
+        "leftAnnotation2": "La é no es un adorno — forma parte de la palabra.",
+        "leftAnnotation3": "Preposición + artículo se contraen ante vocal: à l'école. La traducción automática los deja separados.",
+        "annotation1": "l'école — elisión y tilde correctas.",
+        "annotation2": "à l'école — contracción correcta con la preposición.",
+        "annotation3": "Cada tilde de nuestro catálogo francés se trata como parte de la palabra.",
+        "ariaLabel": "Comparación lado a lado: una hoja de trabajo en francés traducida automáticamente con tres errores — artículo no elidido ('la école' en lugar de 'l'école'), preposición no contraída ('à le école' en lugar de 'à l'école'), y tilde aguda omitida ('ecole' en lugar de 'école') — junto a la versión de LessonCraftStudio con 'l'école', 'à l'école' y 'école' renderizadas correctamente."
+      },
+      "closingLine": "Los niños merecen materiales que coincidan con la lengua que están aprendiendo. A ese estándar dirigimos nuestro trabajo."
+    },
+    "freeExperience": {
+      "sectionTitle": "Gratis para cualquier docente.",
+      "intro": "Sin cuenta, sin paywall, sin barrera de registro. Explore, imprima, inserte y comparta — cada deck, en cada lengua.",
+      "cta": "Ver el catálogo →",
+      "browse": {
+        "title": "Explorar todos los decks.",
+        "body": "El catálogo completo está abierto. Filtre por lengua, nivel, tema o tipo de actividad. No hace falta cuenta para explorar, previsualizar ni jugar cualquier deck."
+      },
+      "pdf": {
+        "title": "Generar un PDF imprimible.",
+        "body": "Cada deck se descarga como un PDF imprimible limpio — incluye hoja de respuestas. Sin marca de agua, sin límite por deck, sin nada reservado para la versión de pago."
+      },
+      "embed": {
+        "title": "Insertar cualquier deck en su web de clase o blog.",
+        "body": "Copie un fragmento de incrustación y péguelo en la web de su clase, su blog o el sistema de gestión del aprendizaje de su escuela. Los niños juegan el deck interactivo justo donde lo encuentran. Insertar es gratuito."
+      },
+      "share": {
+        "title": "Compartir un deck por enlace.",
+        "body": "Envíe cualquier deck como enlace. Los niños juegan directamente en el navegador — sin registro, sin app, sin cuenta. Funciona en un teléfono, una tableta, una Chromebook o una pizarra digital."
       }
     },
-    "features": {
-      "title": "Todo lo que necesitas para crear material educativo de calidad",
-      "items": {
-        "apps": {
-          "title": "33 generadores de hojas",
-          "description": "Desde matemáticas y lectura hasta rompecabezas y juegos"
-        },
-        "images": {
-          "title": "Más de 100 temas de imágenes",
-          "description": "Ilustraciones aptas para niños con licencia comercial"
-        },
-        "languages": {
-          "title": "11 idiomas",
-          "description": "Crea hojas de trabajo en múltiples idiomas"
-        },
-        "pod": {
-          "title": "Licencia POD incluida",
-          "description": "Vende tus hojas de trabajo en cualquier plataforma"
-        }
-      }
+    "subscription": {
+      "sectionTitle": "Para docentes que usan LessonCraftStudio cada semana.",
+      "intro": "El catálogo es gratuito y seguirá siéndolo. La suscripción es para docentes que trabajan con LessonCraftStudio de forma habitual y quieren su enseñanza organizada — con planes de clase listos para usar, paquetes temáticos para los momentos que vuelven cada año, y un espacio de trabajo construido para gestionar miles de decks.",
+      "lessonPlans": {
+        "title": "Planes de clase listos para usar",
+        "body": "Una biblioteca creciente de planes de clase ya escritos, cada uno enlazado con decks concretos. Cada plan sigue una estructura coherente de cuatro pasos basada en principios CLIL — calentamiento, actividad de contenido y lengua, andamiaje lingüístico y práctica, y cierre — para que aprenda la forma una vez y luego solo enseñe. Los planes se escriben de forma nativa por lengua, no traducidos automáticamente, y reflejan las convenciones de cada aula para la que se escriben."
+      },
+      "themedBundles": {
+        "title": "Paquetes temáticos para los momentos que vuelven",
+        "body": "Paquetes hechos a mano para regreso a clases, Halloween, vacaciones de invierno, San Valentín, fin de curso y repaso de fin de unidad. Cada paquete combina un conjunto coherente de decks con un plan de clase escrito para el tema de ese paquete. Imprima el cuadernillo, siga el plan, enseñe la semana. Se añaden paquetes nuevos a lo largo del año, todos incluidos en la suscripción."
+      },
+      "workspace": {
+        "title": "Un espacio de trabajo para la docente que realmente es",
+        "body": "El catálogo superará miles de decks. La suscripción le da colecciones para organizarlos, una página de inicio del espacio de trabajo donde aterrizar, filtros avanzados afinados a cómo los docentes realmente buscan, mapeo curricular para sus propias unidades, y herramientas de uso en lote que convierten tareas de cinco minutos en tareas de treinta segundos. Su estructura se mantiene año tras año — de eso se trata."
+      },
+      "price": "$69 al año. Cancele cuando quiera.",
+      "subscribeCta": "Suscribirse →",
+      "subscribeSubCopy": "Será dirigido a nuestro socio de pagos. Después del pago, su cuenta queda lista de inmediato.",
+      "alreadySubscribedCta": "Ver su suscripción"
     },
-    "pricing": {
-      "title": "Precios simples y transparentes",
-      "monthly": "Mensual",
-      "yearly": "Anual (Ahorra 20%)",
-      "free": {
-        "name": "Gratis",
-        "price": "$0",
-        "features": [
-          "Generador de sopa de letras",
-          "Biblioteca de imágenes limitada",
-          "Con marca de agua",
-          "Soporte básico"
-        ],
-        "cta": "Comenzar gratis"
-      },
-      "core": {
-        "name": "Paquete Esencial",
-        "price": "$15",
-        "priceYearly": "$144",
-        "features": [
-          "Los 10 generadores más populares",
-          "Acceso completo a la biblioteca de imágenes",
-          "Sin marca de agua",
-          "Licencia comercial POD",
-          "Soporte prioritario"
-        ],
-        "cta": "Elegir Paquete Esencial"
-      },
-      "full": {
-        "name": "Acceso Completo",
-        "price": "$25",
-        "priceYearly": "$240",
-        "features": [
-          "Los 33 generadores",
-          "Acceso completo a la biblioteca de imágenes",
-          "Sin marca de agua",
-          "Licencia comercial POD",
-          "Soporte prioritario",
-          "Acceso anticipado a nuevas aplicaciones"
-        ],
-        "cta": "Obtener Acceso Completo",
-        "popular": "Más popular"
+    "notify": {
+      "aboveField": "Estamos terminando la biblioteca de planes de clase y lanzaremos la suscripción pronto. Déjenos su correo y le avisaremos el día que abra.",
+      "label": "Correo electrónico",
+      "placeholder": "su-email@escuela.org",
+      "submit": "Avísenme →",
+      "submitting": "Enviando…",
+      "confirmation": "Gracias — le avisaremos por correo cuando se abra la suscripción.",
+      "subCopy": "Un solo correo, solo cuando se abra la suscripción. Sin lista de marketing, sin secuencia de seguimiento.",
+      "errors": {
+        "invalid_email": "Por favor, introduzca un correo electrónico válido.",
+        "server": "Algo salió mal. Por favor, inténtelo de nuevo."
       }
     }
   },
@@ -216,23 +244,15 @@
     }
   },
   "footer": {
-    "companyName": "LessonCraftStudio",
-    "companyTagline": "Crea y vende imprimibles profesionales para Etsy, KDP y más.",
-    "support": {
-      "title": "Soporte",
-      "helpCenter": "Centro de ayuda",
-      "contact": "Contacto",
-      "faq": "Preguntas frecuentes",
-      "about": "Sobre nosotros",
-      "memberArea": "Área de Miembros"
-    },
-    "legal": {
-      "title": "Legal",
-      "terms": "Términos de servicio",
-      "privacy": "Privacidad",
-      "license": "Términos de licencia"
-    },
-    "copyright": "© 2024 LessonCraftStudio. Todos los derechos reservados."
+    "byLanguage": "Hojas de trabajo por lengua",
+    "byTopic": "Hojas de trabajo por tema",
+    "byExerciseType": "Hojas de trabajo por tipo de actividad",
+    "moreLanguagesSoon": "Más lenguas próximamente",
+    "moreTopicsSoon": "Más temas próximamente",
+    "contact": "Contacto",
+    "terms": "Términos",
+    "privacy": "Privacidad",
+    "copyright": "© 2026 LessonCraftStudio."
   },
   "common": {
     "loading": "Cargando...",
@@ -1032,5 +1052,27 @@
     "moreTheme": "Más fichas con tema de {theme}",
     "moreLevel": "Más fichas para {level}",
     "browseAll": "Explorar todas las fichas"
+  },
+  "topicPage": {
+    "meta": {
+      "title": "Hojas de trabajo de {topic} | LessonCraftStudio",
+      "description": "Hojas de trabajo de {topic} gratuitas y PDFs imprimibles. Actividades interactivas para aulas de la primera infancia."
+    },
+    "heading": {
+      "exerciseType": "Hojas de trabajo de {topic}",
+      "theme": "Hojas de trabajo con {topic}",
+      "educationalLevel": "Hojas de trabajo para {topic}"
+    },
+    "intro": {
+      "exerciseType": "Hojas de trabajo interactivas y PDFs imprimibles para practicar {topic}.",
+      "theme": "Hojas de trabajo con {topic}.",
+      "educationalLevel": "Actividades para {topic}."
+    },
+    "decksCount": "{count, plural, =0 {Aún no hay hojas de trabajo} =1 {1 hoja de trabajo} other {# hojas de trabajo}}",
+    "deckCard": {
+      "playLink": "Jugar en línea",
+      "pdfLink": "Imprimir PDF"
+    },
+    "emptyState": "Aún no hay hojas de trabajo en este tema — vuelva a consultarnos pronto."
   }
 }

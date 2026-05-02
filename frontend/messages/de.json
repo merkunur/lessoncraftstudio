@@ -7,7 +7,7 @@
     "startFree": "Kostenlos starten",
     "signOut": "Abmelden",
     "memberArea": "Mitgliederbereich",
-    "collections": "Sammlungen",
+    "workspace": "Arbeitsbereich",
     "resources": "Ressourcen",
     "tools": "Kostenlose Tools",
     "guides": "Anleitungen",
@@ -1183,5 +1183,53 @@
       "pdfLink": "PDF drucken"
     },
     "emptyState": "Noch keine Arbeitsblätter in diesem Thema — schau bald wieder vorbei."
+  },
+  "workspace": {
+    "metadata": {
+      "title": "Ihr Arbeitsbereich | LessonCraftStudio",
+      "description": "Ihr Abonnenten-Arbeitsbereich — Sammlungen, letzte Aktivitäten und die Werkzeuge, mit denen Ihr Unterricht organisiert bleibt."
+    },
+    "header": {
+      "title": "Arbeitsbereich",
+      "welcomeLine": "Ihre Sammlungen und letzten Aktivitäten — alles an einem Ort."
+    },
+    "gate": {
+      "subscribePromptTitle": "Der Arbeitsbereich ist Teil des Abonnements",
+      "subscribePromptBody": "Ihr Arbeitsbereich — Sammlungen, letzte Aktivitäten und gespeicherte Decks — ist eines der Werkzeuge, die das Abonnement für 69 USD/Jahr freischaltet.",
+      "subscribeCta": "Zum Abonnement",
+      "signInPromptTitle": "Melden Sie sich an, um Ihren Arbeitsbereich zu öffnen",
+      "signInPromptBody": "Ihr Arbeitsbereich gehört zu Ihrem Konto. Bitte melden Sie sich an, um ihn zu sehen.",
+      "signInCta": "Anmelden"
+    },
+    "loading": "Wird geladen…",
+    "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    "collections": {
+      "heading": "Ihre Sammlungen",
+      "viewAll": "Alle anzeigen ({count})",
+      "cardDeckCount": "{count, plural, =0 {Keine Decks} =1 {1 Deck} other {# Decks}}",
+      "empty": {
+        "title": "Noch keine Sammlungen",
+        "body": "Decks in Sammlungen ablegen und organisieren — nach Klasse, nach Einheit, nach Woche."
+      }
+    },
+    "recentActivity": {
+      "heading": "Letzte Aktivitäten",
+      "empty": {
+        "title": "Hier ist noch nichts",
+        "body": "Aktivitäten erscheinen hier, sobald Sie Decks sammeln, organisieren und teilen."
+      },
+      "activityType": {
+        "collected": "{deckTitle} zu {collectionName} hinzugefügt",
+        "modified": "{collectionName} aktualisiert",
+        "shared": "{deckTitle} geteilt"
+      },
+      "relativeTime": {
+        "justNow": "gerade eben",
+        "minutesAgo": "{count, plural, =1 {vor 1 Minute} other {vor # Minuten}}",
+        "hoursAgo": "{count, plural, =1 {vor 1 Stunde} other {vor # Stunden}}",
+        "daysAgo": "{count, plural, =1 {vor 1 Tag} other {vor # Tagen}}",
+        "weeksAgo": "{count, plural, =1 {vor 1 Woche} other {vor # Wochen}}"
+      }
+    }
   }
 }

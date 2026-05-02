@@ -7,6 +7,7 @@ import { useTranslations } from 'next-intl';
 import { toast } from 'react-hot-toast';
 import DeviceConflictModal from '@/components/auth/DeviceConflictModal';
 import { useAuth } from '@/contexts/auth-context';
+import { isLcsSubscriptionActive } from '@/lib/subscription-helpers';
 
 // Simple device fingerprinting
 function getDeviceFingerprint() {
@@ -195,8 +196,12 @@ export default function SignInClient() {
         console.log('No plan parameter detected (plan =', plan, '), redirecting to', redirect || 'dashboard');
       }
 
-      // Redirect to specified URL or default to dashboard (using current locale)
-      router.push(redirect || `/${locale}/dashboard`);
+      // Redirect to specified URL or default per Q-l Option III: subscriber → /workspace,
+      // non-subscriber → /dashboard. Explicit `redirect` param overrides.
+      const subscriberDefault = isLcsSubscriptionActive({ subscription: data.subscription })
+        ? `/${locale}/workspace`
+        : `/${locale}/dashboard`;
+      router.push(redirect || subscriberDefault);
     } catch (err: any) {
       setError(err.message || 'An error occurred during sign in');
       setIsLoading(false);
@@ -292,8 +297,11 @@ export default function SignInClient() {
         console.log('[Force Signin] No plan parameter detected (plan =', plan, '), redirecting to', redirect || 'dashboard');
       }
 
-      // Redirect to specified URL or default to dashboard (using current locale)
-      router.push(redirect || `/${locale}/dashboard`);
+      // Redirect per Q-l Option III: subscriber → /workspace, non-subscriber → /dashboard.
+      const subscriberDefault = isLcsSubscriptionActive({ subscription: data.subscription })
+        ? `/${locale}/workspace`
+        : `/${locale}/dashboard`;
+      router.push(redirect || subscriberDefault);
     } catch (err: any) {
       setError(err.message || 'An error occurred during force sign in');
       setShowConflictModal(false);

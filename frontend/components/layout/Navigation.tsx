@@ -70,10 +70,12 @@ export function Navigation() {
             <div className="flex items-center space-x-2">
               {user ? (
                 <>
-                  {/* Tool 1A — subscriber-only Collections nav entry per Q-d Option II. */}
+                  {/* Tool 2A — subscriber-only Workspace nav entry per Q-i Option β.
+                      Replaces Tool 1A's standalone "Collections" entry; /collections
+                      stays reachable via Workspace home's "View all" link. */}
                   {isLcsSubscriptionActive(user) && (
-                    <Link href={`/${locale}/collections`} className="px-3 py-2 text-sm font-medium text-ink-600 hover:text-ink-900 hover:bg-cream-200 rounded-md transition-colors">
-                      {t('collections')}
+                    <Link href={`/${locale}/workspace`} className="px-3 py-2 text-sm font-medium text-ink-600 hover:text-ink-900 hover:bg-cream-200 rounded-md transition-colors">
+                      {t('workspace')}
                     </Link>
                   )}
                   <Link href="/member" className="px-3 py-2 text-sm font-medium text-ink-600 hover:text-ink-900 hover:bg-cream-200 rounded-md transition-colors">
@@ -129,14 +131,14 @@ export function Navigation() {
 
           {user ? (
             <div className="space-y-2 pt-4 border-t border-cream-300">
-              {/* Tool 1A — subscriber-only Collections entry, mobile mirror. */}
+              {/* Tool 2A — subscriber-only Workspace entry, mobile mirror per Q-i β. */}
               {isLcsSubscriptionActive(user) && (
                 <Link
-                  href={`/${locale}/collections`}
+                  href={`/${locale}/workspace`}
                   className="block py-2 text-ink-600 hover:text-primary transition-colors font-medium"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  {t('collections')}
+                  {t('workspace')}
                 </Link>
               )}
               <Link

@@ -3,6 +3,7 @@
 import React, { createContext, useContext, useState, useEffect, useCallback, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import { toast } from 'react-hot-toast';
+import { isLcsSubscriptionActive } from '@/lib/subscription-helpers';
 
 interface User {
   id: string;
@@ -291,7 +292,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
           if (data.user.isAdmin) {
             router.push(`/${locale}/admin`);
           } else {
-            router.push(`/${locale}/dashboard`);
+            // Q-l Option III: subscriber-conditional redirect.
+            router.push(
+              isLcsSubscriptionActive(userWithSubscription)
+                ? `/${locale}/workspace`
+                : `/${locale}/dashboard`
+            );
           }
         }
       } else {
@@ -347,11 +353,16 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       localStorage.setItem('user', JSON.stringify(userWithSubscription));
       toast.success('Account created successfully! Please check your email to verify your account.');
 
-      // Redirect: use explicit redirectTo, or fall back to dashboard
+      // Redirect: use explicit redirectTo, or fall back per Q-l Option III.
       if (redirectTo) {
         router.push(redirectTo);
       } else {
-        router.push(`/${getCurrentLocale()}/dashboard`);
+        const locale = getCurrentLocale();
+        router.push(
+          isLcsSubscriptionActive(userWithSubscription)
+            ? `/${locale}/workspace`
+            : `/${locale}/dashboard`
+        );
       }
     } catch (err) {
       const message = err instanceof Error ? err.message : 'Signup failed';
@@ -571,7 +582,13 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       setUser(userWithSubscription);
       localStorage.setItem('user', JSON.stringify(userWithSubscription));
       toast.success('Email verified successfully! Welcome to LessonCraftStudio.');
-      router.push(`/${getCurrentLocale()}/dashboard`);
+      // Q-l Option III: subscriber-conditional redirect.
+      const locale = getCurrentLocale();
+      router.push(
+        isLcsSubscriptionActive(userWithSubscription)
+          ? `/${locale}/workspace`
+          : `/${locale}/dashboard`
+      );
     } catch (err) {
       const message = err instanceof Error ? err.message : 'Email verification failed';
       setError(message);

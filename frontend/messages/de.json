@@ -7,6 +7,7 @@
     "startFree": "Kostenlos starten",
     "signOut": "Abmelden",
     "memberArea": "Mitgliederbereich",
+    "collections": "Sammlungen",
     "resources": "Ressourcen",
     "tools": "Kostenlose Tools",
     "guides": "Anleitungen",
@@ -1093,6 +1094,73 @@
     "moreTheme": "Mehr {theme}-Arbeitsblätter",
     "moreLevel": "Mehr Arbeitsblätter für {level}",
     "browseAll": "Alle Arbeitsblätter durchsuchen"
+  },
+  "collections": {
+    "meta": {
+      "title": "Ihre Sammlungen | LessonCraftStudio",
+      "description": "Decks in Sammlungen ablegen und organisieren — nach Klasse, nach Einheit, nach Woche."
+    },
+    "list": {
+      "title": "Ihre Sammlungen",
+      "loading": "Wird geladen…",
+      "newCollection": "+ Neue Sammlung",
+      "emptyStateTitle": "Noch keine Sammlungen",
+      "emptyStateBody": "Decks in Sammlungen ablegen und organisieren — nach Klasse, nach Einheit, nach Woche. Klicken Sie auf + Neue Sammlung, um zu beginnen.",
+      "deckCount": "{count, plural, =0 {Keine Decks} =1 {1 Deck} other {# Decks}}",
+      "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+    },
+    "create": {
+      "title": "Neue Sammlung",
+      "nameLabel": "Name",
+      "namePlaceholder": "z. B. Frühlingswortschatz",
+      "descriptionLabel": "Beschreibung (optional)",
+      "submit": "Erstellen",
+      "cancel": "Abbrechen",
+      "submitting": "Wird erstellt…",
+      "errorRequired": "Bitte geben Sie einen Namen ein.",
+      "errorGeneric": "Sammlung konnte nicht erstellt werden. Bitte versuchen Sie es erneut."
+    },
+    "detail": {
+      "metaTitle": "{name} | LessonCraftStudio",
+      "back": "← Alle Sammlungen",
+      "renameCta": "Umbenennen",
+      "renameTitle": "Sammlung umbenennen",
+      "renameSubmit": "Speichern",
+      "renameCancel": "Abbrechen",
+      "renameSubmitting": "Wird gespeichert…",
+      "deleteCta": "Sammlung löschen",
+      "deleteConfirmTitle": "Diese Sammlung löschen?",
+      "deleteConfirmBody": "Decks bleiben im Katalog erhalten.",
+      "deleteConfirmCta": "Löschen",
+      "deleteCancel": "Abbrechen",
+      "deleteSubmitting": "Wird gelöscht…",
+      "removeDeck": "Entfernen",
+      "removeDeckConfirm": "Dieses Deck aus der Sammlung entfernen?",
+      "playOnline": "Online spielen",
+      "pdf": "PDF drucken",
+      "emptyTitle": "Noch keine Decks in dieser Sammlung",
+      "emptyBody": "Stöbern Sie im Katalog und klicken Sie auf einer beliebigen Deck-Karte auf \"Zur Sammlung hinzufügen\".",
+      "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+    },
+    "gate": {
+      "subscribePromptTitle": "Sammlungen sind Teil des Abonnements",
+      "subscribePromptBody": "Decks in Sammlungen ablegen und organisieren ist eines der Arbeitsbereich-Werkzeuge, die das Abonnement für $69 pro Jahr freischaltet. Kostenlose Nutzer können jedes Deck stöbern, drucken, einbetten und teilen — ohne Konto.",
+      "subscribeCta": "Zum Abonnement",
+      "signInPromptTitle": "Melden Sie sich an, um auf Ihre Sammlungen zuzugreifen",
+      "signInPromptBody": "Ihre Sammlungen sind mit Ihrem Konto verknüpft. Melden Sie sich an, um sie anzuzeigen.",
+      "signInCta": "Anmelden"
+    },
+    "addAffordance": {
+      "label": "Zur Sammlung hinzufügen",
+      "pickerTitle": "Zu einer Sammlung hinzufügen",
+      "pickerLoading": "Sammlungen werden geladen…",
+      "pickerEmpty": "Sie haben noch keine Sammlungen. Erstellen Sie zuerst eine.",
+      "pickerCreate": "+ Neue Sammlung",
+      "pickerCancel": "Abbrechen",
+      "added": "Zu {collectionName} hinzugefügt",
+      "alreadyIn": "Bereits in dieser Sammlung",
+      "errorGeneric": "Hinzufügen fehlgeschlagen. Bitte versuchen Sie es erneut."
+    }
   },
   "topicPage": {
     "meta": {

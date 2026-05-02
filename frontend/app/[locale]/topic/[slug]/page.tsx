@@ -10,6 +10,7 @@ import {
   resolveTopicSlug,
 } from '@/lib/taxonomy';
 import { fetchDecksForAxis, listNonEmptyAxisKeys, TopicDeckSummary } from '@/lib/topic-decks';
+import AddToCollectionButton from '@/components/catalog/AddToCollectionButton';
 
 // Tier 1 launch locales per CLAUDE.md §19. Tier 2-4 fold in later; topic
 // pages only generate for locales with catalog content (per Footer.tsx
@@ -268,7 +269,7 @@ export default async function TopicPage({ params }: { params: TopicParams }) {
                       {title}
                     </a>
                   </h2>
-                  <div className="flex items-center gap-3 text-sm">
+                  <div className="flex items-center gap-3 text-sm flex-wrap">
                     <a
                       href={href}
                       className="text-leaf-700 font-semibold hover:underline"
@@ -284,6 +285,9 @@ export default async function TopicPage({ params }: { params: TopicParams }) {
                     >
                       {t('deckCard.pdfLink')}
                     </a>
+                    {/* Subscriber-only "Add to collection" affordance per Q-a Option I.
+                        Renders nothing for non-subscribers (no upsell on cards). */}
+                    <AddToCollectionButton deckId={deck.id} />
                   </div>
                 </div>
               </li>

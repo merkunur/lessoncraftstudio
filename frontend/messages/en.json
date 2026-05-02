@@ -7,6 +7,7 @@
     "startFree": "Start Free",
     "signOut": "Sign Out",
     "memberArea": "Member Area",
+    "collections": "Collections",
     "resources": "Resources",
     "tools": "Free Tools",
     "guides": "How-To Guides",
@@ -1022,6 +1023,73 @@
     "moreTheme": "More {theme}-themed worksheets",
     "moreLevel": "More worksheets for {level}",
     "browseAll": "Browse all worksheets"
+  },
+  "collections": {
+    "meta": {
+      "title": "Your collections | LessonCraftStudio",
+      "description": "Save and organize decks into collections — by class, by unit, by week."
+    },
+    "list": {
+      "title": "Your collections",
+      "loading": "Loading…",
+      "newCollection": "+ New collection",
+      "emptyStateTitle": "No collections yet",
+      "emptyStateBody": "Save and organize decks into collections — by class, by unit, by week. Click + New collection to start.",
+      "deckCount": "{count, plural, =0 {No decks} =1 {1 deck} other {# decks}}",
+      "errorGeneric": "Something went wrong. Please try again."
+    },
+    "create": {
+      "title": "New collection",
+      "nameLabel": "Name",
+      "namePlaceholder": "e.g. Spring vocabulary",
+      "descriptionLabel": "Description (optional)",
+      "submit": "Create",
+      "cancel": "Cancel",
+      "submitting": "Creating…",
+      "errorRequired": "Please enter a name.",
+      "errorGeneric": "Could not create the collection. Please try again."
+    },
+    "detail": {
+      "metaTitle": "{name} | LessonCraftStudio",
+      "back": "← All collections",
+      "renameCta": "Rename",
+      "renameTitle": "Rename collection",
+      "renameSubmit": "Save",
+      "renameCancel": "Cancel",
+      "renameSubmitting": "Saving…",
+      "deleteCta": "Delete collection",
+      "deleteConfirmTitle": "Delete this collection?",
+      "deleteConfirmBody": "Decks won't be removed from the catalog.",
+      "deleteConfirmCta": "Delete",
+      "deleteCancel": "Cancel",
+      "deleteSubmitting": "Deleting…",
+      "removeDeck": "Remove",
+      "removeDeckConfirm": "Remove this deck from the collection?",
+      "playOnline": "Play online",
+      "pdf": "Print PDF",
+      "emptyTitle": "No decks in this collection yet",
+      "emptyBody": "Browse the catalog and click \"Add to collection\" on any deck card.",
+      "errorGeneric": "Something went wrong. Please try again."
+    },
+    "gate": {
+      "subscribePromptTitle": "Collections is part of the subscription",
+      "subscribePromptBody": "Save and organize decks into collections is one of the workspace tools the $69/year subscription unlocks. Free users can browse, print, embed, and share every deck — without an account.",
+      "subscribeCta": "Go to subscribe",
+      "signInPromptTitle": "Sign in to access your collections",
+      "signInPromptBody": "Your collections live with your account. Sign in to view them.",
+      "signInCta": "Sign in"
+    },
+    "addAffordance": {
+      "label": "Add to collection",
+      "pickerTitle": "Add to a collection",
+      "pickerLoading": "Loading collections…",
+      "pickerEmpty": "You don't have any collections yet. Create one first.",
+      "pickerCreate": "+ New collection",
+      "pickerCancel": "Cancel",
+      "added": "Added to {collectionName}",
+      "alreadyIn": "Already in this collection",
+      "errorGeneric": "Could not add. Please try again."
+    }
   },
   "topicPage": {
     "meta": {

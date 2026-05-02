@@ -7,6 +7,7 @@ import { usePathname } from 'next/navigation';
 import { LanguageSelector } from '@/components/LanguageSelector';
 import { useState } from 'react';
 import { useAuth } from '@/contexts/auth-context';
+import { isLcsSubscriptionActive } from '@/lib/subscription-helpers';
 import { Menu, X } from 'lucide-react';
 
 // Minimal educator-aligned navigation per HOMEPAGE-IMPLEMENTATION-PROMPT.md §6.10 + T4 option C.
@@ -69,6 +70,12 @@ export function Navigation() {
             <div className="flex items-center space-x-2">
               {user ? (
                 <>
+                  {/* Tool 1A — subscriber-only Collections nav entry per Q-d Option II. */}
+                  {isLcsSubscriptionActive(user) && (
+                    <Link href={`/${locale}/collections`} className="px-3 py-2 text-sm font-medium text-ink-600 hover:text-ink-900 hover:bg-cream-200 rounded-md transition-colors">
+                      {t('collections')}
+                    </Link>
+                  )}
                   <Link href="/member" className="px-3 py-2 text-sm font-medium text-ink-600 hover:text-ink-900 hover:bg-cream-200 rounded-md transition-colors">
                     {t('memberArea')}
                   </Link>
@@ -122,6 +129,16 @@ export function Navigation() {
 
           {user ? (
             <div className="space-y-2 pt-4 border-t border-cream-300">
+              {/* Tool 1A — subscriber-only Collections entry, mobile mirror. */}
+              {isLcsSubscriptionActive(user) && (
+                <Link
+                  href={`/${locale}/collections`}
+                  className="block py-2 text-ink-600 hover:text-primary transition-colors font-medium"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  {t('collections')}
+                </Link>
+              )}
               <Link
                 href="/member"
                 className="block py-2 text-ink-600 hover:text-primary transition-colors font-medium"

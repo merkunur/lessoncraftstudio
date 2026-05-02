@@ -1612,6 +1612,7 @@ document.addEventListener('DOMContentLoaded', function() {
             languageSelect.value = currentLocale;
             languageSelect.addEventListener('change', function() {
                 currentLocale = this.value;
+                window.currentLocale = currentLocale;  // Closure-mismatch fix: t() + applyTranslations() + bundle.contentLanguage + catalog-export language all read window.currentLocale; without this update they stay stuck at init value. Mirrors picture-sort.html locale-change handlers.
                 if (typeof applyTranslations !== 'undefined') {
                     applyTranslations();
                 }

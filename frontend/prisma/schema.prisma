@@ -1160,6 +1160,14 @@ model Deck {
   @@unique([language, slug]) // §17.8.5 compound unique (Drift D2)
   @@index([status, publishedAt])
   @@index([exerciseType, language])
+  // Catalog-scale read-path indexes per project_mass_publish_recon.md §B4.
+  // GIN supports `subjectTags: { has: axisKey }` (compiles to @>) used by
+  // fetchDecksForAxis theme-axis filter at frontend/lib/topic-decks.ts:62.
+  // Compound indexes serve educational-level + exercise-type axis filters
+  // with the status='published' branch in one index lookup.
+  @@index([subjectTags], type: Gin)
+  @@index([language, status, ageRange])
+  @@index([language, status, exerciseType])
   @@map("decks")
 }
 

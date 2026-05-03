@@ -244,15 +244,26 @@ Until all three thresholds are met, the home page Section 5 surface continues to
 
 Tools 3+4 (Advanced filtering, Curriculum mapping) and Tool 6 (Personalized feed) ship post-launch, not as part of the launch trigger.
 
-### Tier 2 closeout post-`d3b4f962` arithmetic (2026-05-03)
+### Tier 2 closeout post-`d3b4f962` arithmetic (2026-05-03; Path A clarification 2026-05-04)
 
-Tier 2 catalog work fully sealed at `d3b4f962` — all 4 production locales (en+de+es+nl) at 100% C-1 catalog coverage simultaneously, 116 published decks total. This realizes the catalog scope assumed by clause (a); arithmetic + bundle-scope decisions follow:
+Tier 2 catalog work fully sealed at `d3b4f962` — all 4 production locales (en+de+es+nl) at 100% C-1 catalog coverage simultaneously, 116 published decks total.
 
-- **Clause (a) lesson-plan-per-deck-per-locale: 116 plans realized authoring scope** (29 §14.10 apps × 4 locales). Mechanically follows catalog scope; 1 lesson plan per deck per locale per `LessonPlan` schema's `@@unique([topicSlug, language])` constraint.
+**Clause (a) — schema-true reading (Path A locked).** Every (`Topic.slug`, `language`) tuple where decks have been published has a corresponding `LessonPlan` row. **Plan count is bounded by axis-keys × locales** (NOT by deck count) per `LessonPlan @@unique([topicSlug, language])` schema constraint. At 39 `Topic.slug` values:
+
+- **156 plans** for current Tier 1+2 (4 locales: en+de+es+nl)
+- **234 plans** if scaled to 6 main locales (en+de+es+fr+it+pt)
+- **429 plans** if scaled to all 11 platform locales
+
+The realized authoring scope is bounded by axis-keys × locales, **not** by deck count, and the cooperation-pattern production discipline (CC + copilot review loop per §3.4) clears multi-month timelines for any of these targets. `project_mass_publish_recon.md` Section D establishes the schema-true reading; this section folds the resolution.
+
+**Path A is the canonical clause (a) interpretation.** Path B (1 plan per deck per locale, scaling with deck count) is misread doctrine — the schema enforces the Path A cap and rejects any reading that would require more plans than (axis-keys × locales). The 4 reference plans authored at `e912b805` (en/de × addition+sudoku) are consistent with Path A; illustrative-example framing applied during the Phase 1c revision pass makes them portable across all decks at the same axis-key + locale (per CLAUDE.md §17.9 "Illustrative-example framing for deck-portable plans").
+
+The prior wording — "lesson-plan-per-deck-per-locale: 116 plans realized authoring scope (29 §14.10 apps × 4 locales). Mechanically follows catalog scope; 1 lesson plan per deck per locale" — described the same outcome at the Tier-2-closeout snapshot (where 29 axis-keys × 4 locales coincidentally equals the 116 deck count) but framed it as deck-driven rather than axis-key-driven. The schema reads axis-key-driven; this rewrite locks that in.
+
 - **Clause (b) bundle scope: hold at 7 × 2 = 14 (en+de canonical) per Option A.** Bundle scope held at 7 × 2 (en+de canonical) post-Tier-2-closeout per `2026-05-03 doctrine pass`. Rationale: bundles ship with paired lesson plans (Pillar 2 spec); bundle localization downstream of lesson-plan localization per `@@unique([topicSlug, language])` schema; per-locale bundle authoring is independent labor not arithmetic-derived from Tier 1 work. **es+nl bundle authoring filed as follow-on extension** once en+de bundle library closes and operator commissions Tier 2 bundle expansion.
-- **Total launch-trigger content scope: 130 units** (14 paired-bundle/lesson-plan units + 116 standalone lesson plans).
+- **Total launch-trigger content scope at Tier 1+2 (4 locales): 170 units** (14 paired-bundle/lesson-plan units + 156 standalone lesson plans). Prior figure of 130 units assumed Path B (116 plans); Path A correction adds 40 plans (156-116) for the educational-level + theme axis-keys not 1:1 with apps.
 
-The launch-trigger threshold therefore now has fully-known authoring scope: 130 content units against the post-Tier-2-closeout catalog. No further arithmetic ambiguity. Operator can choose to begin Pillar 1 (lesson-plan) authoring or Pillar 2 (bundle) authoring as the next-arc selection per business-priority weighting.
+The launch-trigger threshold has fully-known authoring scope at Path A: 170 content units for Tier 1+2 against the post-Tier-2-closeout catalog. No further arithmetic ambiguity. Operator can choose to begin Pillar 1 (lesson-plan) authoring or Pillar 2 (bundle) authoring as the next-arc selection per business-priority weighting.
 
 ---
 

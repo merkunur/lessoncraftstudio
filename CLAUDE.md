@@ -60,6 +60,8 @@ The minimum viable launch includes: the entire public-facing site rebuilt from s
 
 Things **deliberately excluded from launch**: student accounts, class management, progress tracking, teacher dashboards with analytics on student session data (this was previously in scope and has been cut — see §7), parent portals, SSO, school-district SSO/SAML features, complex DRM, custom worksheet creation tools for teachers, AI-assisted *deck generation* (the AI enriches decks; it does not produce them), assignment sequences (cut as not justifying their weight for K-3 audiences). Each of these is a rabbit hole. Do not add any of them without explicit operator direction.
 
+**Pillar 1 production pattern locked.** Lesson plans (the Pillar 1 launch-trigger content per `docs/SUBSCRIPTION-SCOPE.md` clause (a)) are produced by CC + copilot cooperation pattern: CC drafts, copilot reviews substantively, CC revises, iterate to exemplar grade. The Mac Studio AI-assist arc is removed from the Pillar 1 dependency chain. Mac Studio strategic-fit candidates are deterministic-AI tasks (Topic.embedding generation per §16.1; deck enrichment per §4.5; OG image generation; alt-text + structured-data + meta enrichment), not pedagogical-voice content. Lesson-plan production stays cooperation-pattern through clause (a) closure and beyond. Phase 1c apply at `e912b805` established the loop; the operator override of recon Q2 (manual-authoring) is the locked resolution.
+
 ### 3.5 Three-machine infrastructure, otherwise standard stack
 
 The infrastructure spans three machines connected via Tailscale, plus Cloudflare:
@@ -618,7 +620,7 @@ These ideas have come up in conversation and have been explicitly deferred. Do n
 - Offline play
 - KDP/Etsy seller-facing product features (the seller line is discontinued)
 
-What is now **in scope** (additions and changes from previous versions): the headless Mac Studio running a local AI service for asynchronous enrichment (lesson plans, embeddings for semantic search, AI-suggested tags); sample decks embedded on every public-facing page; SEO-from-the-start as a structural design principle (see §17); the language launch sequence treating depth in priority languages over breadth across all 11 (see §19); the from-scratch rebuild of the public-facing site with the multilingual K-3 audience as the only audience.
+What is now **in scope** (additions and changes from previous versions): the headless Mac Studio running a local AI service for asynchronous **deterministic-AI enrichment** (Topic embeddings per §16.1; deck-level enrichment + AI-suggested tags + descriptions per §4.5; OG image generation; alt-text + structured-data + meta enrichment) — **NOT lesson-plan production**, which is on the cooperation-pattern path per §3.4 (Q2 final resolution post-`e912b805` Phase 1c apply); sample decks embedded on every public-facing page; SEO-from-the-start as a structural design principle (see §17); the language launch sequence treating depth in priority languages over breadth across all 11 (see §19); the from-scratch rebuild of the public-facing site with the multilingual K-3 audience as the only audience.
 
 What was **removed from scope** in this version (previously included, now deliberately cut): student session analytics dashboard for subscribers (cut because K-3 teachers don't benefit from the data — they observe students directly all day); assignment-style multi-deck sequences (cut as not justifying the engineering weight for the K-3 audience); the broad "teacher catalog" framing (replaced with the multilingual K-3 educator framing in §1).
 
@@ -1280,6 +1282,20 @@ Locale coverage per launch tier (§19): Tier 1 (en, de) authored from day one; T
 
 **publish-cli substitution at upload time** reads `topics-taxonomy.json` and substitutes the placeholder pairs in deck.html's end-of-deck links section per §17.8.2 / §17.8.5. Canonical names per the emitter at `REFERENCE TRANSLATIONS/catalog-export.js:34-46` (deployed at `?v=9`): one heading placeholder `__END_DECK_HEADING__`; four URL placeholders `__LINK_MORE_TYPE__`, `__LINK_MORE_THEME__`, `__LINK_MORE_LEVEL__`, `__LINK_BROWSE_ALL__`; four matching localized-text placeholders `__LINK_TEXT_MORE_TYPE__`, `__LINK_TEXT_MORE_THEME__`, `__LINK_TEXT_MORE_LEVEL__`, `__LINK_TEXT_BROWSE_ALL__`. Nine end-of-deck-link placeholders total. The localized-text placeholders accept `{type}` / `{theme}` / `{level}` ICU-style interpolation against per-axis-key localized names (read from `topics-taxonomy.json`'s per-axis-key `name.<locale>` field — see §16.4).
 
+#### 16.5.1 Theme axis-key registration: Path X 1:1 with image-library
+
+`topics-taxonomy.json axes.theme` is registered 1:1 with the `image_themes` Postgres table's `type='images'` rows. **50 color themes + 50 BW themes = 100 axis-keys** (post-`947ad260`). Auto-derivation rule: for each (theme, locale) pair, `slug = slugify(image_themes.displayNames.<locale>)` per §17.8.5; `name = passthrough of image_themes.displayNames.<locale>`. Generator pattern: schema-to-schema script that reads the DB, slugifies per locale, writes the merged `axes.theme` map.
+
+**Decoration assets** in `image_themes` (`type='backgrounds'`, 12 rows; `type='borders'`, 5 rows) are **NOT** registered as axis-keys. They are generation-time visual inputs, not catalog-browsing classifications. The structural distinction: `axes.theme` registers content classifications (what a deck IS); decoration assets are styling choices that don't affect catalog classification. The `image_themes.type` column is the canonical source for the distinction. Registering decoration assets produced 27 of 28 surfaced collisions during the `947ad260` recon (color↔`*_bg` displayName overlap), with zero combinatorial gain — they would have produced dead axis-keys with empty deck inventories.
+
+**Drops + renames at `134614dc`:**
+- `food` axis-key DROPPED — no DB theme matched, 0 decks ever used it. Food-adjacent DB themes (`bakery`, `breakfast`, `desserts_and_sweets`, `kitchen_tools`, `at_the_supermarket`) are registered separately as their own axis-keys at `134614dc`.
+- `fruit` (singular) RENAMED to `fruits` (plural) to match DB convention. Old `fruit` axis-key dropped; new `fruits` populated from `image_themes.displayNames` via standard auto-derivation.
+
+**`name` field semantic shift at `134614dc`:** `axes.theme.<key>.name.<locale>` shifted from operator-curated singular forms ("animal") to DB-derived plural-capitalized ("Animals"). Existing 116 published decks keep their pre-`134614dc` singular form on end-of-deck links (manifest-baked at publish time); new publishes use the plural form via `__LINK_TEXT_MORE_THEME__` interpolation. Coexistence is correct; no migration required.
+
+**Slug-collision Option A fallback** (recorded at `947ad260`): when `image_themes` data has a Spanish-displayName collision (e.g., `home_bw` + `household_bw` both `"Hogar BN"` pre-fix), the demoted axis-key uses `slugify(image_themes.name)` for the colliding locale only, with the `name` field passthrough preserved. The fallback is bounded — it engages on the colliding locale only; other locales use the standard displayName-derived path. Audit-trail: §A.7.1 documents the underlying `image_themes` Spanish data-quality fix needed (operator-strategic rename to remove the collision; once renamed, the Option A fallback can be removed and slug re-derived via standard path).
+
 ### 16.6 Footer rendering doctrine
 
 The Footer surfaces topic-page links across three columns per `frontend/components/layout/Footer.tsx`:
@@ -1475,6 +1491,17 @@ SEO is not a launch checklist item. It is built into every public-facing page fr
 
 **Server-side rendering for indexable content.** Every page intended to rank in search is server-rendered, not client-rendered. JavaScript-only pages don't reliably rank. The catalog landing, topic pages, deck pages, guide articles, and the home page are all SSR.
 
+#### 17.4.1 Dual-slug convention: topic-page URL vs LessonPlan.topicSlug
+
+Two distinct slug conventions coexist in the system:
+
+1. **Topic-page URL slug** at `/[locale]/topic/<slug>/` uses the **native-language slug** from `topics-taxonomy.json` (e.g., `/de/topic/tiere/`, `/en/topic/picture-sudoku/`). Honors §17.4 native-language-slug doctrine.
+2. **Standalone lesson-plan URL** at `/[locale]/lesson-plans/<slug>/` uses **`LessonPlan.topicSlug` directly** (e.g., `/de/lesson-plans/sudoku/`), which is the **English-canonical axis-key** per Phase 1a Schema-intent-B at `1114dedb`.
+
+These are different conventions. Initial verification of `/en/topic/sudoku/` at Phase 1c apply (`e912b805`) hit 404s correctly because the en native-language slug for axis-key `sudoku` is `picture-sudoku`; re-verification with native-language slugs passed. Future surfaces that link between topic-page and lesson-plan-reader must translate between the two conventions explicitly — typically by reading `topics-taxonomy.json` axis-key from the topic-page slug, then constructing the lesson-plan URL from the axis-key directly.
+
+The two conventions reflect a deliberate separation: topic-page URLs are public-SEO surfaces (native-language slugs maximize per-locale ranking); lesson-plan URLs are subscriber-facing surfaces (English-canonical axis-keys make the LessonPlan FK target legible across the operator's content-authoring tooling). Maintenance rule: don't unify the conventions; translate between them at link-construction time.
+
 ### 17.5 Keyword research workflow
 
 Claude (Anthropic's Claude in chat, the operator's strategic-thinking partner) performs keyword research on demand for the operator. The workflow:
@@ -1647,6 +1674,19 @@ Additionally, when a v2 sibling is published, `publish-cli` re-injects the updat
 - The capability to PUT updated bytes to the static-asset endpoint (capability scope item — flag if not yet built when implementing)
 
 **ASCII-fold spec implementation confirmation.** Implementation lives at `scripts/publish-cli/slug.js`; uses `String.prototype.normalize('NFD').replace(/[̀-ͯ]/g, '')` for combining-mark strip; explicit map for non-decomposable equivalents (`ä→a`, `ß→ss`, `æ→ae`, `ø→o`, `å→a`, `ł→l`). Romance-apostrophe slug treatment v1 hyphenates (`l'addition → l-addition`); v2 strip-instead-of-hyphen refinement filed deferred under slug-related family.
+
+**Empirical examples** (from theme registration at `134614dc` + `947ad260`):
+
+| Input displayName | Output slug | Notes |
+|---|---|---|
+| `4. Juli` (de) | `4-juli` | period → hyphen; collapse runs |
+| `Süßigkeiten` (de) | `sussigkeiten` | ü→u, ß→ss via non-decomposable map |
+| `Bäume` (de) | `baume` | ä→a |
+| `Vögel 2` (de) | `vogel-2` | ö→o; numeric variant suffix preserved |
+| `Christmas B&W` (en) | `christmas-b-w` | `&` → hyphen; runs collapsed |
+| `Postres y dulces` (es) | `postres-y-dulces` | spaces → hyphens; lowercased |
+| `Réveil` (fr-style) | `reveil` | é → e via combining-mark strip |
+| `Hogar BN` (es; Class 2 fallback) | `hogar-bn` (standard) OR `household-bw` (Option A fallback for `household_bw` only — see §16.5.1) | standard path applies for `home_bw`; fallback for `household_bw` due to es-displayName collision |
 
 #### 17.8.6 The age-range to educational-level mapping
 
@@ -1842,6 +1882,24 @@ Both items are bounded for v1 and await the catalog deck route + publish-cli bef
 
 **Tier-neutral and SEO-neutral, like attribution (§14.3).** The same affordance bytes ship to free and subscriber teachers and are immutable per Cloudflare's per-version cache key (§4.4). Modifications must preserve cacheability; no per-request templating, no tier-dependent content.
 
+### 17.9 Pillar 1 lesson-plan production discipline (post-Phase-1c)
+
+Established at `e912b805` (Phase 1c apply) and the revision-pass discipline that preceded it. These principles govern future Pillar 1 lesson-plan authoring + tooling work.
+
+**Schema-authority over commission-spec field-enumeration.** When a commission references a sealed schema (e.g., `LessonPlan` model from `9ba9fa2d`), the schema is the canonical field list. Commission specs that re-enumerate fields drift into under-specification. At Phase 1c pre-flight `01f64c18`, `durationMinutes` + `recommendedDeckIds` + `recommendedPdfDeckIds` were schema fields not in the Phase 1b commission's enumerated list; the under-specification surfaced when the seed-script's parser-shape inferred from schema differed from the brief's stated frontmatter set. **Doctrine:** future commissions referencing a sealed schema defer to the schema as authority rather than re-enumerate.
+
+**Pedagogical voice register: constructive over corrective.** When plan content models teacher behavior, prefer constructive ("modellieren Sie X" — "model X") over corrective ("korrigieren Sie nicht Y" — "do not correct Y"). The constructive register lands developmental points more memorably and respects teacher expertise; the corrective register reads instructional and condescending. Established empirically in the de/sudoku V-final acquisition note during Phase 1c revision pass.
+
+**Closure forward-pointer pattern.** Plan closures use locale-natural variants of *"When [we/the class] [return-clause], the [pattern] will be [there/here] for us"* — topic-neutral phrasing that's plan-portable across one-off and unit-sequence usage. Established at `e912b805` in en+de exemplars; future es+nl + Tier 3+4 plans should construct parallel forms in their target locales.
+
+**Reference plans as exemplars: fix the tool, not the content.** When tooling halts during exemplar production (e.g., parser bug; substitute gate; etc.), the default action is fixing tooling. Stripping semantically load-bearing fields from exemplars to dodge tool bugs corrupts the exemplar set for downstream consumers (manual-authoring guidance, AI-assist prompt templates, training-data integrity if Mac Studio is later applied to other content pipelines per §3.4 / §11). Recorded at Phase 1c apply when the parseScalar bug for non-empty array literals was fixed in seed-lesson-plans.js rather than empty-arraying the drafts' `recommendedDeckIds`.
+
+**Dry-run gate must validate against schema-typed columns.** Phase 1c surfaced a parser bug where `seed-lesson-plans.js` dry-run printed `Plans to insert: 4` cleanly because the dry-run output template didn't include the offending field; real-mode then failed at Prisma's `String[]` constraint. **Doctrine:** future seed scripts' dry-run output must surface every parsed value with its inferred type alongside the schema-expected type, fail loudly on mismatch. Applies retroactively to `seed-topics.js` (low-risk; simpler columns) and forward to bundles + ParentNotes seed scripts.
+
+**Cross-locale teacher-address-register discipline.** Lesson-plan content addresses the teacher in formal register per locale: Sie-form (de), usted (es), u-form (nl), and equivalents per locale (it: Lei; pt: você for pt-BR / vocês formal-collective; fr: vous; Nordic: standard formal forms). Established at de/addition revision pass (Phase 1c); cross-locale lock for future plan-authoring across all 11 platform locales.
+
+**Illustrative-example framing for deck-portable plans.** Lesson plans teach the topic, not specific deck contents. When a plan uses concrete vocabulary as illustration (e.g., "cats and dogs" in en/addition), it must be framed explicitly as illustrative ("the example below uses cats and dogs; substitute whatever animals your deck includes") so the plan is portable across any deck at the same axis-key + locale. The schema's `LessonPlan @@unique([topicSlug, language])` constraint at one-plan-per-axis-key-per-locale shape requires this portability discipline — a plan covers ALL decks in its (topic, locale) bucket. Established at the Phase 1c revision pass that immediately preceded `e912b805`.
+
 ---
 
 ## 18. Sample decks embedded on every public page
@@ -2025,6 +2083,31 @@ These handle unlock → copy → re-lock. Direct `cp` on an immutable file fails
 - Code deploy: `plink ... "bash /opt/lessoncraftstudio/deploy.sh"`
 - Per-scenario commands for worksheet / translation / content-manager updates live in **`DEPLOYMENT.md`**.
 
+#### A.5.1 Schema migrations require a two-step deploy
+
+`deploy.sh` runs `git pull` + build + smoke; it does **NOT** run `prisma migrate deploy`. Pending Prisma migrations are NOT applied by `deploy.sh` alone. Surfaced empirically at `b9e75fbe` post-deploy `\d decks` showed only the pre-migration index set even after smoke PASS.
+
+**For `[FEATURE][SCHEMA]` commits introducing pending migrations**, after `deploy.sh` completes:
+
+```
+plink ... "cd /opt/lessoncraftstudio/frontend && set -a && source .env.production && set +a && npx prisma migrate deploy"
+```
+
+Verify post-apply via Hetzner-side `\d <table>` to confirm the migration's expected schema changes are present. The 17 successful `_prisma_migrations` rows on Hetzner predating 2026-05-03 establish this two-step pattern empirically; established sessions ran the manual step without doctrine recording it. `b9e75fbe` was the first session to surface and record the requirement.
+
+**For migrations generated when local Postgres is unavailable:** `prisma migrate diff` is the canonical generation path. Phase 1a + 1c established that `prisma migrate dev` requires running local DB; the `b9e75fbe` commission established `migrate diff` as the alternative. Invocation:
+
+```
+git show HEAD:frontend/prisma/schema.prisma > _baseline-schema-tmp.prisma
+npx prisma migrate diff \
+  --from-schema-datamodel _baseline-schema-tmp.prisma \
+  --to-schema-datamodel prisma/schema.prisma \
+  --script > prisma/migrations/<TIMESTAMP>_<name>/migration.sql
+rm _baseline-schema-tmp.prisma
+```
+
+Match existing migration-directory timestamp format exactly (`YYYYMMDDHHMMSS_<name>` prefix; verify against existing `prisma/migrations/` dirs before authoring). The `--from-migrations` form requires `--shadow-database-url` (a temporary DB to replay history); the schema-to-schema form does not and is the documented alternative when shadow DB isn't available.
+
 ### A.6 Lemon Squeezy (current payment integration — extended, not replaced, by the new subscription model)
 
 - **Source of truth:** `frontend/config/lemonsqueezy-product-config.ts` (singular — defines `SUBSCRIPTION_PRODUCT` for the $69/year tier). The plural `lemonsqueezy-products.ts` was deleted Pass 8 after the seller-era teardown left it 100% dead.
@@ -2042,11 +2125,28 @@ Fix scripts at `/opt/lessoncraftstudio/server-scripts/`:
 - `fix-db-diacritics-numbered.js` — numbered variants
 - `image-vocabulary-raw.json` — source of truth
 
+#### A.7.1 image_themes Spanish-displayName data-quality issue
+
+Surfaced at `947ad260` (BW theme registration). `home_bw` and `household_bw` both currently have Spanish displayName `"Hogar BN"` in `image_themes.displayNames.es`. The Class 2 collision was resolved by Option A fallback (`household_bw.slug.es = "household-bw"` English-derived; `name.es` passthrough preserved at `"Hogar BN"`). See §16.5.1 for the fallback rule.
+
+**Underlying fix needed:** operator-curated rename of `household_bw.displayNames.es` to a distinct Spanish translation (e.g., `"Vajilla BN"` or `"Doméstico BN"` — operator-strategic call). Once renamed, the Option A fallback in `topics-taxonomy.json` `axes.theme.household_bw.slug.es` can be removed and the slug re-derived via the standard slugify path; commission shape: small `topics-taxonomy.json` edit + `image_themes` UPDATE.
+
 ### A.8 Sample-commit protection
 
 - Local `samples/` is in `.gitignore`.
 - `.git/hooks/pre-commit` blocks any sample-file commit.
 - Uploads flow: **Content Manager UI → API → `/var/www/lcs-media/samples/`** — never via git.
+
+#### A.8.1 Pre-commit hook exception for [SCHEMA] commits
+
+The pre-commit hook also blocks commits matching schema-change patterns and instructs use of `git commit --no-verify` as the documented bypass. The blanket "never skip hooks" framing in §A.1 (sandbox-protocol Git Safety subsection) has a project-documented exception specifically for `[SCHEMA]` commits — the `--no-verify` bypass IS the hook's own escape path, not a violation. Established empirically across 6+ prior `[SCHEMA]` commits including `9ba9fa2d`, `4b91adc0`, `79268e49`, `1ea0bb9b`, `140fdacb`, `b9e75fbe`.
+
+For all non-`[SCHEMA]` commits, the hook stays mandatory; `--no-verify` is **not** a general escape. The exception applies specifically when:
+- The commit's bracket tag includes `[SCHEMA]` (or the project-equivalent indicator), AND
+- The hook explicitly outputs the `--no-verify` instruction in its rejection message, AND
+- The commit's actual diff is consistent with the hook's documented schema-change pattern (Prisma schema changes; migration directory additions)
+
+If any of those three conditions fails, the bypass does not apply and the underlying issue is to be investigated per the §A.1 / global "never skip hooks" rule.
 
 ### A.9 Mac Studio operational rules (new)
 

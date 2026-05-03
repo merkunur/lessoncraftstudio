@@ -160,7 +160,8 @@
           "es": "suma",
           "nl": "optellen",
           "it": "addizione",
-          "fr": "addition"
+          "fr": "addition",
+          "pt": "adicao"
         },
         "name": {
           "en": "addition",
@@ -168,7 +169,8 @@
           "es": "suma",
           "nl": "optellen",
           "it": "addizione",
-          "fr": "addition"
+          "fr": "addition",
+          "pt": "adição"
         }
       },
       "sudoku": {
@@ -178,7 +180,8 @@
           "es": "sudoku-de-imagenes",
           "nl": "foto-sudoku",
           "it": "sudoku-illustrato",
-          "fr": "sudoku-illustre"
+          "fr": "sudoku-illustre",
+          "pt": "sudoku-ilustrado"
         },
         "name": {
           "en": "picture sudoku",
@@ -186,7 +189,8 @@
           "es": "sudoku de imágenes",
           "nl": "foto-sudoku",
           "it": "sudoku illustrato",
-          "fr": "sudoku illustré"
+          "fr": "sudoku illustré",
+          "pt": "sudoku ilustrado"
         }
       },
       "cryptogram": {
@@ -196,7 +200,8 @@
           "es": "criptograma",
           "nl": "cryptogram",
           "it": "crittogramma",
-          "fr": "cryptogramme"
+          "fr": "cryptogramme",
+          "pt": "criptograma"
         },
         "name": {
           "en": "cryptogram",
@@ -204,7 +209,8 @@
           "es": "criptograma",
           "nl": "cryptogram",
           "it": "crittogramma",
-          "fr": "cryptogramme"
+          "fr": "cryptogramme",
+          "pt": "criptograma"
         }
       },
       "picture-path": {
@@ -214,7 +220,8 @@
           "es": "sendero-de-imagenes",
           "nl": "beeldpad",
           "it": "percorso-illustrato",
-          "fr": "parcours-illustre"
+          "fr": "parcours-illustre",
+          "pt": "caminho-ilustrado"
         },
         "name": {
           "en": "picture path",
@@ -222,7 +229,8 @@
           "es": "sendero de imágenes",
           "nl": "beeldpad",
           "it": "percorso illustrato",
-          "fr": "parcours illustré"
+          "fr": "parcours illustré",
+          "pt": "caminho ilustrado"
         }
       },
       "picture-trail": {
@@ -240,7 +248,8 @@
           "es": "resta",
           "nl": "aftrekken",
           "it": "sottrazione",
-          "fr": "soustraction"
+          "fr": "soustraction",
+          "pt": "subtracao"
         },
         "name": {
           "en": "subtraction",
@@ -248,7 +257,8 @@
           "es": "resta",
           "nl": "aftrekken",
           "it": "sottrazione",
-          "fr": "soustraction"
+          "fr": "soustraction",
+          "pt": "subtração"
         }
       },
       "code-addition": {
@@ -258,7 +268,8 @@
           "es": "suma-codificada",
           "nl": "code-optellen",
           "it": "addizione-codificata",
-          "fr": "addition-codee"
+          "fr": "addition-codee",
+          "pt": "adicao-com-codigo"
         },
         "name": {
           "en": "code addition",
@@ -266,7 +277,8 @@
           "es": "suma codificada",
           "nl": "code-optellen",
           "it": "addizione codificata",
-          "fr": "addition codée"
+          "fr": "addition codée",
+          "pt": "adição com código"
         }
       },
       "more-less": {
@@ -276,7 +288,8 @@
           "es": "mas-o-menos",
           "nl": "meer-minder",
           "it": "piu-o-meno",
-          "fr": "plus-ou-moins"
+          "fr": "plus-ou-moins",
+          "pt": "mais-ou-menos"
         },
         "name": {
           "en": "more or less",
@@ -284,7 +297,8 @@
           "es": "más o menos",
           "nl": "meer of minder",
           "it": "più o meno",
-          "fr": "plus ou moins"
+          "fr": "plus ou moins",
+          "pt": "mais ou menos"
         }
       },
       "math-puzzle": {
@@ -294,7 +308,8 @@
           "es": "rompecabezas-matematico",
           "nl": "rekenpuzzel",
           "it": "puzzle-matematico",
-          "fr": "puzzle-mathematique"
+          "fr": "puzzle-mathematique",
+          "pt": "quebra-cabeca-matematico"
         },
         "name": {
           "en": "math puzzle",
@@ -302,7 +317,8 @@
           "es": "rompecabezas matemático",
           "nl": "rekenpuzzel",
           "it": "puzzle matematico",
-          "fr": "puzzle mathématique"
+          "fr": "puzzle mathématique",
+          "pt": "quebra-cabeça matemático"
         }
       },
       "math-worksheet": {
@@ -312,7 +328,8 @@
           "es": "ficha-matematica",
           "nl": "rekenwerkblad",
           "it": "scheda-di-matematica",
-          "fr": "fiche-de-mathematiques"
+          "fr": "fiche-de-mathematiques",
+          "pt": "atividade-de-matematica"
         },
         "name": {
           "en": "math worksheet",
@@ -320,7 +337,8 @@
           "es": "ficha matemática",
           "nl": "rekenwerkblad",
           "it": "scheda di matematica",
-          "fr": "fiche de mathématiques"
+          "fr": "fiche de mathématiques",
+          "pt": "atividade de matemática"
         }
       },
       "big-small": {
@@ -330,7 +348,8 @@
           "es": "grande-pequeno",
           "nl": "groot-klein",
           "it": "grande-piccolo",
-          "fr": "grand-petit"
+          "fr": "grand-petit",
+          "pt": "grande-pequeno"
         },
         "name": {
           "en": "big or small",
@@ -338,7 +357,8 @@
           "es": "grande o pequeño",
           "nl": "groot of klein",
           "it": "grande o piccolo",
-          "fr": "grand ou petit"
+          "fr": "grand ou petit",
+          "pt": "grande ou pequeno"
         }
       },
       "chart-count": {
@@ -348,7 +368,8 @@
           "es": "contar-en-grafico",
           "nl": "grafiek-tellen",
           "it": "conteggio-grafico",
-          "fr": "comptage-graphique"
+          "fr": "comptage-graphique",
+          "pt": "contagem-em-grafico"
         },
         "name": {
           "en": "chart count",
@@ -356,7 +377,8 @@
           "es": "contar en gráfico",
           "nl": "grafiek tellen",
           "it": "conteggio grafico",
-          "fr": "comptage graphique"
+          "fr": "comptage graphique",
+          "pt": "contagem em gráfico"
         }
       },
       "pattern-train": {
@@ -366,7 +388,8 @@
           "es": "tren-de-patrones",
           "nl": "patroontrein",
           "it": "treno-dei-modelli",
-          "fr": "train-de-modeles"
+          "fr": "train-de-modeles",
+          "pt": "trem-de-padroes"
         },
         "name": {
           "en": "pattern train",
@@ -374,7 +397,8 @@
           "es": "tren de patrones",
           "nl": "patroontrein",
           "it": "treno dei modelli",
-          "fr": "train de modèles"
+          "fr": "train de modèles",
+          "pt": "trem de padrões"
         }
       },
       "pattern-worksheet": {
@@ -384,7 +408,8 @@
           "es": "ficha-de-patrones",
           "nl": "patroon-werkblad",
           "it": "scheda-di-modelli",
-          "fr": "fiche-de-modeles"
+          "fr": "fiche-de-modeles",
+          "pt": "atividade-de-padroes"
         },
         "name": {
           "en": "pattern worksheet",
@@ -392,7 +417,8 @@
           "es": "ficha de patrones",
           "nl": "patroonwerkblad",
           "it": "scheda di modelli",
-          "fr": "fiche de modèles"
+          "fr": "fiche de modèles",
+          "pt": "atividade de padrões"
         }
       },
       "bingo": {
@@ -402,7 +428,8 @@
           "es": "bingo",
           "nl": "bingo",
           "it": "bingo",
-          "fr": "loto"
+          "fr": "loto",
+          "pt": "bingo"
         },
         "name": {
           "en": "bingo",
@@ -410,7 +437,8 @@
           "es": "bingo",
           "nl": "bingo",
           "it": "bingo",
-          "fr": "loto"
+          "fr": "loto",
+          "pt": "bingo"
         }
       },
       "grid-match": {
@@ -420,7 +448,8 @@
           "es": "empareja-en-cuadricula",
           "nl": "rooster-koppelen",
           "it": "abbinamento-griglia",
-          "fr": "appariement-en-grille"
+          "fr": "appariement-en-grille",
+          "pt": "pareamento-em-grade"
         },
         "name": {
           "en": "grid match",
@@ -428,7 +457,8 @@
           "es": "emparejar en cuadrícula",
           "nl": "rooster koppelen",
           "it": "abbinamento a griglia",
-          "fr": "appariement en grille"
+          "fr": "appariement en grille",
+          "pt": "pareamento em grade"
         }
       },
       "matching": {
@@ -438,7 +468,8 @@
           "es": "emparejar",
           "nl": "koppelen",
           "it": "abbinamento",
-          "fr": "appariement"
+          "fr": "appariement",
+          "pt": "pareamento"
         },
         "name": {
           "en": "matching",
@@ -446,7 +477,8 @@
           "es": "emparejar",
           "nl": "koppelen",
           "it": "abbinamento",
-          "fr": "appariement"
+          "fr": "appariement",
+          "pt": "pareamento"
         }
       },
       "picture-sort": {
@@ -456,7 +488,8 @@
           "es": "clasificar-imagenes",
           "nl": "beelden-sorteren",
           "it": "ordina-immagini",
-          "fr": "trier-les-images"
+          "fr": "trier-les-images",
+          "pt": "ordenar-imagens"
         },
         "name": {
           "en": "picture sort",
@@ -464,7 +497,8 @@
           "es": "clasificar imágenes",
           "nl": "beelden sorteren",
           "it": "ordina le immagini",
-          "fr": "trier les images"
+          "fr": "trier les images",
+          "pt": "ordenar imagens"
         }
       },
       "shadow-match": {
@@ -474,7 +508,8 @@
           "es": "empareja-sombras",
           "nl": "schaduw-koppelen",
           "it": "abbina-le-ombre",
-          "fr": "apparier-les-ombres"
+          "fr": "apparier-les-ombres",
+          "pt": "pareamento-de-sombras"
         },
         "name": {
           "en": "shadow match",
@@ -482,7 +517,8 @@
           "es": "emparejar sombras",
           "nl": "schaduw koppelen",
           "it": "abbina le ombre",
-          "fr": "apparier les ombres"
+          "fr": "apparier les ombres",
+          "pt": "pareamento de sombras"
         }
       },
       "alphabet-train": {
@@ -492,7 +528,8 @@
           "es": "tren-del-abecedario",
           "nl": "alfabettrein",
           "it": "treno-dell-alfabeto",
-          "fr": "train-de-l-alphabet"
+          "fr": "train-de-l-alphabet",
+          "pt": "trem-do-alfabeto"
         },
         "name": {
           "en": "alphabet train",
@@ -500,7 +537,8 @@
           "es": "tren del abecedario",
           "nl": "alfabettrein",
           "it": "treno dell'alfabeto",
-          "fr": "train de l'alphabet"
+          "fr": "train de l'alphabet",
+          "pt": "trem do alfabeto"
         }
       },
       "prepositions": {
@@ -510,7 +548,8 @@
           "es": "preposiciones",
           "nl": "voorzetsels",
           "it": "preposizioni",
-          "fr": "prepositions"
+          "fr": "prepositions",
+          "pt": "preposicoes"
         },
         "name": {
           "en": "prepositions",
@@ -518,7 +557,8 @@
           "es": "preposiciones",
           "nl": "voorzetsels",
           "it": "preposizioni",
-          "fr": "prépositions"
+          "fr": "prépositions",
+          "pt": "preposições"
         }
       },
       "word-guess": {
@@ -528,7 +568,8 @@
           "es": "adivina-la-palabra",
           "nl": "woord-raden",
           "it": "indovina-la-parola",
-          "fr": "devine-le-mot"
+          "fr": "devine-le-mot",
+          "pt": "adivinhe-a-palavra"
         },
         "name": {
           "en": "word guess",
@@ -536,7 +577,8 @@
           "es": "adivina la palabra",
           "nl": "woord raden",
           "it": "indovina la parola",
-          "fr": "devine le mot"
+          "fr": "devine le mot",
+          "pt": "adivinhe a palavra"
         }
       },
       "word-scramble": {
@@ -546,7 +588,8 @@
           "es": "letras-revueltas",
           "nl": "woordpuzzel",
           "it": "anagrammi",
-          "fr": "lettres-melangees"
+          "fr": "lettres-melangees",
+          "pt": "letras-embaralhadas"
         },
         "name": {
           "en": "word scramble",
@@ -554,7 +597,8 @@
           "es": "letras revueltas",
           "nl": "woordpuzzel",
           "it": "anagrammi",
-          "fr": "lettres mélangées"
+          "fr": "lettres mélangées",
+          "pt": "letras embaralhadas"
         }
       },
       "wordsearch": {
@@ -564,7 +608,8 @@
           "es": "sopa-de-letras",
           "nl": "woordzoeker",
           "it": "cerca-parole",
-          "fr": "mots-meles"
+          "fr": "mots-meles",
+          "pt": "caca-palavras"
         },
         "name": {
           "en": "word search",
@@ -572,7 +617,8 @@
           "es": "sopa de letras",
           "nl": "woordzoeker",
           "it": "cerca parole",
-          "fr": "mots mêlés"
+          "fr": "mots mêlés",
+          "pt": "caça-palavras"
         }
       },
       "crossword": {
@@ -582,7 +628,8 @@
           "es": "crucigrama",
           "nl": "kruiswoordraadsel",
           "it": "cruciverba",
-          "fr": "mots-croises"
+          "fr": "mots-croises",
+          "pt": "palavras-cruzadas"
         },
         "name": {
           "en": "crossword",
@@ -590,7 +637,8 @@
           "es": "crucigrama",
           "nl": "kruiswoordraadsel",
           "it": "cruciverba",
-          "fr": "mots croisés"
+          "fr": "mots croisés",
+          "pt": "palavras cruzadas"
         }
       },
       "find-and-count": {
@@ -600,7 +648,8 @@
           "es": "busca-y-cuenta",
           "nl": "zoek-en-tel",
           "it": "trova-e-conta",
-          "fr": "trouve-et-compte"
+          "fr": "trouve-et-compte",
+          "pt": "encontre-e-conte"
         },
         "name": {
           "en": "find and count",
@@ -608,7 +657,8 @@
           "es": "busca y cuenta",
           "nl": "zoek en tel",
           "it": "trova e conta",
-          "fr": "trouve et compte"
+          "fr": "trouve et compte",
+          "pt": "encontre e conte"
         }
       },
       "find-objects": {
@@ -618,7 +668,8 @@
           "es": "encuentra-los-objetos",
           "nl": "objecten-zoeken",
           "it": "trova-gli-oggetti",
-          "fr": "trouve-les-objets"
+          "fr": "trouve-les-objets",
+          "pt": "encontre-os-objetos"
         },
         "name": {
           "en": "find objects",
@@ -626,7 +677,8 @@
           "es": "encuentra los objetos",
           "nl": "objecten zoeken",
           "it": "trova gli oggetti",
-          "fr": "trouve les objets"
+          "fr": "trouve les objets",
+          "pt": "encontre os objetos"
         }
       },
       "treasure-hunt": {
@@ -636,7 +688,8 @@
           "es": "busqueda-del-tesoro",
           "nl": "schatzoektocht",
           "it": "caccia-al-tesoro",
-          "fr": "chasse-au-tresor"
+          "fr": "chasse-au-tresor",
+          "pt": "caca-ao-tesouro"
         },
         "name": {
           "en": "treasure hunt",
@@ -644,7 +697,8 @@
           "es": "búsqueda del tesoro",
           "nl": "schatzoektocht",
           "it": "caccia al tesoro",
-          "fr": "chasse au trésor"
+          "fr": "chasse au trésor",
+          "pt": "caça ao tesouro"
         }
       },
       "missing-pieces": {
@@ -654,7 +708,8 @@
           "es": "piezas-faltantes",
           "nl": "ontbrekende-stukken",
           "it": "pezzi-mancanti",
-          "fr": "pieces-manquantes"
+          "fr": "pieces-manquantes",
+          "pt": "pecas-faltantes"
         },
         "name": {
           "en": "missing pieces",
@@ -662,7 +717,8 @@
           "es": "piezas faltantes",
           "nl": "ontbrekende stukken",
           "it": "pezzi mancanti",
-          "fr": "pièces manquantes"
+          "fr": "pièces manquantes",
+          "pt": "peças faltantes"
         }
       },
       "odd-one-out": {
@@ -672,7 +728,8 @@
           "es": "el-intruso",
           "nl": "welke-hoort-niet-thuis",
           "it": "l-intruso",
-          "fr": "l-intrus"
+          "fr": "l-intrus",
+          "pt": "qual-e-diferente"
         },
         "name": {
           "en": "odd one out",
@@ -680,7 +737,8 @@
           "es": "el intruso",
           "nl": "welke hoort er niet thuis",
           "it": "l'intruso",
-          "fr": "l'intrus"
+          "fr": "l'intrus",
+          "pt": "qual é diferente"
         }
       }
     },
@@ -692,7 +750,8 @@
           "es": "4-de-julio",
           "nl": "4-juli",
           "it": "4-luglio",
-          "fr": "4-juillet"
+          "fr": "4-juillet",
+          "pt": "4-de-julho"
         },
         "name": {
           "en": "4th of July",
@@ -700,7 +759,8 @@
           "es": "4 de Julio",
           "nl": "4 juli",
           "it": "4 luglio",
-          "fr": "4 juillet"
+          "fr": "4 juillet",
+          "pt": "4 de Julho"
         }
       },
       "accessories": {
@@ -710,7 +770,8 @@
           "es": "accesorios",
           "nl": "accessoires",
           "it": "accessori",
-          "fr": "accessoires"
+          "fr": "accessoires",
+          "pt": "acessorios"
         },
         "name": {
           "en": "Accessories",
@@ -718,7 +779,8 @@
           "es": "Accesorios",
           "nl": "Accessoires",
           "it": "Accessori",
-          "fr": "Accessoires"
+          "fr": "Accessoires",
+          "pt": "Acessorios"
         }
       },
       "activities": {
@@ -728,7 +790,8 @@
           "es": "actividades",
           "nl": "activiteiten",
           "it": "attivita",
-          "fr": "activites"
+          "fr": "activites",
+          "pt": "atividades"
         },
         "name": {
           "en": "Activities",
@@ -736,7 +799,8 @@
           "es": "Actividades",
           "nl": "Activiteiten",
           "it": "Attivita",
-          "fr": "Activites"
+          "fr": "Activites",
+          "pt": "Atividades"
         }
       },
       "animals": {
@@ -746,7 +810,8 @@
           "es": "animales",
           "nl": "dieren",
           "it": "animali",
-          "fr": "animaux"
+          "fr": "animaux",
+          "pt": "animais"
         },
         "name": {
           "en": "Animals",
@@ -754,7 +819,8 @@
           "es": "Animales",
           "nl": "Dieren",
           "it": "Animali",
-          "fr": "Animaux"
+          "fr": "Animaux",
+          "pt": "Animais"
         }
       },
       "around_the_house": {
@@ -764,7 +830,8 @@
           "es": "alrededor-de-la-casa",
           "nl": "rond-het-huis",
           "it": "in-giro-per-casa",
-          "fr": "autour-de-la-maison"
+          "fr": "autour-de-la-maison",
+          "pt": "pela-casa"
         },
         "name": {
           "en": "Around the House",
@@ -772,7 +839,8 @@
           "es": "Alrededor de la casa",
           "nl": "Rond het huis",
           "it": "In giro per casa",
-          "fr": "Autour de la maison"
+          "fr": "Autour de la maison",
+          "pt": "Pela casa"
         }
       },
       "at_the_supermarket": {
@@ -782,7 +850,8 @@
           "es": "en-el-supermercado",
           "nl": "in-de-supermarkt",
           "it": "al-supermercato",
-          "fr": "au-supermarche"
+          "fr": "au-supermarche",
+          "pt": "no-supermercado"
         },
         "name": {
           "en": "At the Supermarket",
@@ -790,7 +859,8 @@
           "es": "En el supermercado",
           "nl": "In de supermarkt",
           "it": "Al supermercato",
-          "fr": "Au supermarché"
+          "fr": "Au supermarché",
+          "pt": "No supermercado"
         }
       },
       "bakery": {
@@ -800,7 +870,8 @@
           "es": "panaderia",
           "nl": "bakkerij",
           "it": "panetteria",
-          "fr": "boulangerie"
+          "fr": "boulangerie",
+          "pt": "padaria"
         },
         "name": {
           "en": "Bakery",
@@ -808,7 +879,8 @@
           "es": "Panadería",
           "nl": "Bakkerij",
           "it": "Panetteria",
-          "fr": "Boulangerie"
+          "fr": "Boulangerie",
+          "pt": "Padaria"
         }
       },
       "beach": {
@@ -818,7 +890,8 @@
           "es": "playa",
           "nl": "strand",
           "it": "spiaggia",
-          "fr": "plage"
+          "fr": "plage",
+          "pt": "praia"
         },
         "name": {
           "en": "Beach",
@@ -826,7 +899,8 @@
           "es": "Playa",
           "nl": "Strand",
           "it": "Spiaggia",
-          "fr": "Plage"
+          "fr": "Plage",
+          "pt": "Praia"
         }
       },
       "birds": {
@@ -836,7 +910,8 @@
           "es": "aves",
           "nl": "vogels",
           "it": "uccelli",
-          "fr": "oiseaux"
+          "fr": "oiseaux",
+          "pt": "passaros"
         },
         "name": {
           "en": "Birds",
@@ -844,7 +919,8 @@
           "es": "Aves",
           "nl": "Vogels",
           "it": "Uccelli",
-          "fr": "Oiseaux"
+          "fr": "Oiseaux",
+          "pt": "Pássaros"
         }
       },
       "birds_2": {
@@ -854,7 +930,8 @@
           "es": "aves-2",
           "nl": "vogels-2",
           "it": "uccelli-2",
-          "fr": "oiseaux-2"
+          "fr": "oiseaux-2",
+          "pt": "passaros-2"
         },
         "name": {
           "en": "Birds 2",
@@ -862,7 +939,8 @@
           "es": "Aves 2",
           "nl": "Vogels 2",
           "it": "Uccelli 2",
-          "fr": "Oiseaux 2"
+          "fr": "Oiseaux 2",
+          "pt": "Pássaros 2"
         }
       },
       "body_parts": {
@@ -872,7 +950,8 @@
           "es": "partes-del-cuerpo",
           "nl": "lichaamsdelen",
           "it": "parti-del-corpo",
-          "fr": "parties-du-corps"
+          "fr": "parties-du-corps",
+          "pt": "partes-do-corpo"
         },
         "name": {
           "en": "Body Parts",
@@ -880,7 +959,8 @@
           "es": "Partes del cuerpo",
           "nl": "Lichaamsdelen",
           "it": "Parti del corpo",
-          "fr": "Parties du corps"
+          "fr": "Parties du corps",
+          "pt": "Partes do corpo"
         }
       },
       "breakfast": {
@@ -890,7 +970,8 @@
           "es": "desayuno",
           "nl": "ontbijt",
           "it": "colazione",
-          "fr": "petit-dejeuner"
+          "fr": "petit-dejeuner",
+          "pt": "cafe-da-manha"
         },
         "name": {
           "en": "Breakfast",
@@ -898,7 +979,8 @@
           "es": "Desayuno",
           "nl": "Ontbijt",
           "it": "Colazione",
-          "fr": "Petit-déjeuner"
+          "fr": "Petit-déjeuner",
+          "pt": "Café da manhã"
         }
       },
       "camping": {
@@ -908,7 +990,8 @@
           "es": "campamento",
           "nl": "kamperen",
           "it": "campeggio",
-          "fr": "camping"
+          "fr": "camping",
+          "pt": "acampamento"
         },
         "name": {
           "en": "Camping",
@@ -916,7 +999,8 @@
           "es": "Campamento",
           "nl": "Kamperen",
           "it": "Campeggio",
-          "fr": "Camping"
+          "fr": "Camping",
+          "pt": "Acampamento"
         }
       },
       "christmas": {
@@ -926,7 +1010,8 @@
           "es": "navidad",
           "nl": "kerstmis",
           "it": "natale",
-          "fr": "noel"
+          "fr": "noel",
+          "pt": "natal"
         },
         "name": {
           "en": "Christmas",
@@ -934,7 +1019,8 @@
           "es": "Navidad",
           "nl": "Kerstmis",
           "it": "Natale",
-          "fr": "Noël"
+          "fr": "Noël",
+          "pt": "Natal"
         }
       },
       "classroom": {
@@ -944,7 +1030,8 @@
           "es": "salon-de-clases",
           "nl": "klaslokaal",
           "it": "aula",
-          "fr": "salle-de-classe"
+          "fr": "salle-de-classe",
+          "pt": "sala-de-aula"
         },
         "name": {
           "en": "Classroom",
@@ -952,7 +1039,8 @@
           "es": "Salón de clases",
           "nl": "Klaslokaal",
           "it": "Aula",
-          "fr": "Salle de classe"
+          "fr": "Salle de classe",
+          "pt": "Sala de aula"
         }
       },
       "clothing": {
@@ -962,7 +1050,8 @@
           "es": "ropa",
           "nl": "kleding",
           "it": "abbigliamento",
-          "fr": "vetements"
+          "fr": "vetements",
+          "pt": "roupas"
         },
         "name": {
           "en": "Clothing",
@@ -970,7 +1059,8 @@
           "es": "Ropa",
           "nl": "Kleding",
           "it": "Abbigliamento",
-          "fr": "Vêtements"
+          "fr": "Vêtements",
+          "pt": "Roupas"
         }
       },
       "colors": {
@@ -980,7 +1070,8 @@
           "es": "colores",
           "nl": "kleuren",
           "it": "colori",
-          "fr": "couleurs"
+          "fr": "couleurs",
+          "pt": "cores"
         },
         "name": {
           "en": "Colors",
@@ -988,7 +1079,8 @@
           "es": "Colores",
           "nl": "Kleuren",
           "it": "Colori",
-          "fr": "Couleurs"
+          "fr": "Couleurs",
+          "pt": "Cores"
         }
       },
       "desserts_and_sweets": {
@@ -998,7 +1090,8 @@
           "es": "postres-y-dulces",
           "nl": "desserts-en-snoep",
           "it": "dolci-e-dolciumi",
-          "fr": "desserts-et-sucreries"
+          "fr": "desserts-et-sucreries",
+          "pt": "sobremesas-e-doces"
         },
         "name": {
           "en": "Desserts and Sweets",
@@ -1006,7 +1099,8 @@
           "es": "Postres y dulces",
           "nl": "Desserts en snoep",
           "it": "Dolci e dolciumi",
-          "fr": "Desserts et sucreries"
+          "fr": "Desserts et sucreries",
+          "pt": "Sobremesas e doces"
         }
       },
       "dinosaurs": {
@@ -1016,7 +1110,8 @@
           "es": "dinosaurios",
           "nl": "dinosaurussen",
           "it": "dinosauri",
-          "fr": "dinosaures"
+          "fr": "dinosaures",
+          "pt": "dinossauros"
         },
         "name": {
           "en": "Dinosaurs",
@@ -1024,7 +1119,8 @@
           "es": "Dinosaurios",
           "nl": "Dinosaurussen",
           "it": "Dinosauri",
-          "fr": "Dinosaures"
+          "fr": "Dinosaures",
+          "pt": "Dinossauros"
         }
       },
       "easter": {
@@ -1034,7 +1130,8 @@
           "es": "pascua",
           "nl": "pasen",
           "it": "pasqua",
-          "fr": "paques"
+          "fr": "paques",
+          "pt": "pascoa"
         },
         "name": {
           "en": "Easter",
@@ -1042,7 +1139,8 @@
           "es": "Pascua",
           "nl": "Pasen",
           "it": "Pasqua",
-          "fr": "Pâques"
+          "fr": "Pâques",
+          "pt": "Páscoa"
         }
       },
       "emotions": {
@@ -1052,7 +1150,8 @@
           "es": "emociones",
           "nl": "emoties",
           "it": "emozioni",
-          "fr": "emotions"
+          "fr": "emotions",
+          "pt": "emocoes"
         },
         "name": {
           "en": "Emotions",
@@ -1060,7 +1159,8 @@
           "es": "Emociones",
           "nl": "Emoties",
           "it": "Emozioni",
-          "fr": "Émotions"
+          "fr": "Émotions",
+          "pt": "Emoções"
         }
       },
       "farm_animals": {
@@ -1070,7 +1170,8 @@
           "es": "animales-de-granja",
           "nl": "boerderijdieren",
           "it": "animali-della-fattoria",
-          "fr": "animaux-de-la-ferme"
+          "fr": "animaux-de-la-ferme",
+          "pt": "animais-da-fazenda"
         },
         "name": {
           "en": "Farm Animals",
@@ -1078,7 +1179,8 @@
           "es": "Animales de granja",
           "nl": "Boerderijdieren",
           "it": "Animali della fattoria",
-          "fr": "Animaux de la ferme"
+          "fr": "Animaux de la ferme",
+          "pt": "Animais da fazenda"
         }
       },
       "flowers": {
@@ -1088,7 +1190,8 @@
           "es": "flores",
           "nl": "bloemen",
           "it": "fiori",
-          "fr": "fleurs"
+          "fr": "fleurs",
+          "pt": "flores"
         },
         "name": {
           "en": "Flowers",
@@ -1096,7 +1199,8 @@
           "es": "Flores",
           "nl": "Bloemen",
           "it": "Fiori",
-          "fr": "Fleurs"
+          "fr": "Fleurs",
+          "pt": "Flores"
         }
       },
       "forest_creatures": {
@@ -1106,7 +1210,8 @@
           "es": "criaturas-del-bosque",
           "nl": "boswezens",
           "it": "creature-della-foresta",
-          "fr": "creatures-de-la-foret"
+          "fr": "creatures-de-la-foret",
+          "pt": "criaturas-da-floresta"
         },
         "name": {
           "en": "Forest Creatures",
@@ -1114,7 +1219,8 @@
           "es": "Criaturas del bosque",
           "nl": "Boswezens",
           "it": "Creature della foresta",
-          "fr": "Créatures de la forêt"
+          "fr": "Créatures de la forêt",
+          "pt": "Criaturas da floresta"
         }
       },
       "fruits": {
@@ -1124,7 +1230,8 @@
           "es": "frutas",
           "nl": "fruit",
           "it": "frutta",
-          "fr": "fruits"
+          "fr": "fruits",
+          "pt": "frutas"
         },
         "name": {
           "en": "Fruits",
@@ -1132,7 +1239,8 @@
           "es": "Frutas",
           "nl": "Fruit",
           "it": "Frutta",
-          "fr": "Fruits"
+          "fr": "Fruits",
+          "pt": "Frutas"
         }
       },
       "furniture": {
@@ -1142,7 +1250,8 @@
           "es": "muebles",
           "nl": "meubels",
           "it": "mobili",
-          "fr": "meubles"
+          "fr": "meubles",
+          "pt": "moveis"
         },
         "name": {
           "en": "Furniture",
@@ -1150,7 +1259,8 @@
           "es": "Muebles",
           "nl": "Meubels",
           "it": "Mobili",
-          "fr": "Meubles"
+          "fr": "Meubles",
+          "pt": "Móveis"
         }
       },
       "hospital": {
@@ -1160,7 +1270,8 @@
           "es": "hospital",
           "nl": "ziekenhuis",
           "it": "ospedale",
-          "fr": "hopital"
+          "fr": "hopital",
+          "pt": "hospital"
         },
         "name": {
           "en": "Hospital",
@@ -1168,7 +1279,8 @@
           "es": "Hospital",
           "nl": "Ziekenhuis",
           "it": "Ospedale",
-          "fr": "Hôpital"
+          "fr": "Hôpital",
+          "pt": "Hospital"
         }
       },
       "insects_and_bugs": {
@@ -1178,7 +1290,8 @@
           "es": "insectos-y-bichos",
           "nl": "insecten-en-beestjes",
           "it": "insetti-e-scarafaggi",
-          "fr": "insectes-et-bestioles"
+          "fr": "insectes-et-bestioles",
+          "pt": "insetos-e-bichos"
         },
         "name": {
           "en": "Insects and Bugs",
@@ -1186,7 +1299,8 @@
           "es": "Insectos y bichos",
           "nl": "Insecten en beestjes",
           "it": "Insetti e scarafaggi",
-          "fr": "Insectes et bestioles"
+          "fr": "Insectes et bestioles",
+          "pt": "Insetos e bichos"
         }
       },
       "kitchen_tools": {
@@ -1196,7 +1310,8 @@
           "es": "utensilios-de-cocina",
           "nl": "keukengerei",
           "it": "utensili-da-cucina",
-          "fr": "ustensiles-de-cuisine"
+          "fr": "ustensiles-de-cuisine",
+          "pt": "utensilios-de-cozinha"
         },
         "name": {
           "en": "Kitchen Tools",
@@ -1204,7 +1319,8 @@
           "es": "Utensilios de cocina",
           "nl": "Keukengerei",
           "it": "Utensili da cucina",
-          "fr": "Ustensiles de cuisine"
+          "fr": "Ustensiles de cuisine",
+          "pt": "Utensílios de cozinha"
         }
       },
       "miscellaneous": {
@@ -1214,7 +1330,8 @@
           "es": "miscelaneo",
           "nl": "diversen",
           "it": "varie",
-          "fr": "divers"
+          "fr": "divers",
+          "pt": "diversos"
         },
         "name": {
           "en": "Miscellaneous",
@@ -1222,7 +1339,8 @@
           "es": "Misceláneo",
           "nl": "Diversen",
           "it": "Varie",
-          "fr": "Divers"
+          "fr": "Divers",
+          "pt": "Diversos"
         }
       },
       "music": {
@@ -1232,7 +1350,8 @@
           "es": "musica",
           "nl": "muziek",
           "it": "musica",
-          "fr": "musique"
+          "fr": "musique",
+          "pt": "musica"
         },
         "name": {
           "en": "Music",
@@ -1240,7 +1359,8 @@
           "es": "Música",
           "nl": "Muziek",
           "it": "Musica",
-          "fr": "Musique"
+          "fr": "Musique",
+          "pt": "Música"
         }
       },
       "occupations": {
@@ -1250,7 +1370,8 @@
           "es": "ocupaciones",
           "nl": "beroepen",
           "it": "professioni",
-          "fr": "metiers"
+          "fr": "metiers",
+          "pt": "profissoes"
         },
         "name": {
           "en": "Occupations",
@@ -1258,7 +1379,8 @@
           "es": "Ocupaciones",
           "nl": "Beroepen",
           "it": "Professioni",
-          "fr": "Métiers"
+          "fr": "Métiers",
+          "pt": "Profissões"
         }
       },
       "ocean_life": {
@@ -1268,7 +1390,8 @@
           "es": "vida-marina",
           "nl": "oceaanleven",
           "it": "vita-oceanica",
-          "fr": "vie-oceanique"
+          "fr": "vie-oceanique",
+          "pt": "vida-marinha"
         },
         "name": {
           "en": "Ocean Life",
@@ -1276,7 +1399,8 @@
           "es": "Vida marina",
           "nl": "Oceaanleven",
           "it": "Vita oceanica",
-          "fr": "Vie océanique"
+          "fr": "Vie océanique",
+          "pt": "Vida marinha"
         }
       },
       "pets": {
@@ -1286,7 +1410,8 @@
           "es": "mascotas",
           "nl": "huisdieren",
           "it": "animali-domestici",
-          "fr": "animaux-de-compagnie"
+          "fr": "animaux-de-compagnie",
+          "pt": "animais-de-estimacao"
         },
         "name": {
           "en": "Pets",
@@ -1294,7 +1419,8 @@
           "es": "Mascotas",
           "nl": "Huisdieren",
           "it": "Animali domestici",
-          "fr": "Animaux de compagnie"
+          "fr": "Animaux de compagnie",
+          "pt": "Animais de estimação"
         }
       },
       "post_office": {
@@ -1304,7 +1430,8 @@
           "es": "oficina-de-correos",
           "nl": "postkantoor",
           "it": "ufficio-postale",
-          "fr": "bureau-de-poste"
+          "fr": "bureau-de-poste",
+          "pt": "correios"
         },
         "name": {
           "en": "Post Office",
@@ -1312,7 +1439,8 @@
           "es": "Oficina de correos",
           "nl": "Postkantoor",
           "it": "Ufficio postale",
-          "fr": "Bureau de poste"
+          "fr": "Bureau de poste",
+          "pt": "Correios"
         }
       },
       "reptiles_and_amphibians": {
@@ -1322,7 +1450,8 @@
           "es": "reptiles-y-anfibios",
           "nl": "reptielen-en-amfibieen",
           "it": "rettili-e-anfibi",
-          "fr": "reptiles-et-amphibiens"
+          "fr": "reptiles-et-amphibiens",
+          "pt": "repteis-e-anfibios"
         },
         "name": {
           "en": "Reptiles and Amphibians",
@@ -1330,7 +1459,8 @@
           "es": "Reptiles y anfibios",
           "nl": "Reptielen en amfibieën",
           "it": "Rettili e anfibi",
-          "fr": "Reptiles et amphibiens"
+          "fr": "Reptiles et amphibiens",
+          "pt": "Répteis e anfíbios"
         }
       },
       "shapes": {
@@ -1340,7 +1470,8 @@
           "es": "formas",
           "nl": "vormen",
           "it": "forme",
-          "fr": "formes"
+          "fr": "formes",
+          "pt": "formas"
         },
         "name": {
           "en": "Shapes",
@@ -1348,7 +1479,8 @@
           "es": "Formas",
           "nl": "Vormen",
           "it": "Forme",
-          "fr": "Formes"
+          "fr": "Formes",
+          "pt": "Formas"
         }
       },
       "space": {
@@ -1358,7 +1490,8 @@
           "es": "espacio",
           "nl": "ruimte",
           "it": "spazio",
-          "fr": "espace"
+          "fr": "espace",
+          "pt": "espaco"
         },
         "name": {
           "en": "Space",
@@ -1366,7 +1499,8 @@
           "es": "Espacio",
           "nl": "Ruimte",
           "it": "Spazio",
-          "fr": "Espace"
+          "fr": "Espace",
+          "pt": "Espaço"
         }
       },
       "spring": {
@@ -1376,7 +1510,8 @@
           "es": "primavera",
           "nl": "lente",
           "it": "primavera",
-          "fr": "printemps"
+          "fr": "printemps",
+          "pt": "primavera"
         },
         "name": {
           "en": "Spring",
@@ -1384,7 +1519,8 @@
           "es": "Primavera",
           "nl": "Lente",
           "it": "Primavera",
-          "fr": "Printemps"
+          "fr": "Printemps",
+          "pt": "Primavera"
         }
       },
       "summer": {
@@ -1394,7 +1530,8 @@
           "es": "verano",
           "nl": "zomer",
           "it": "estate",
-          "fr": "ete"
+          "fr": "ete",
+          "pt": "verao"
         },
         "name": {
           "en": "Summer",
@@ -1402,7 +1539,8 @@
           "es": "Verano",
           "nl": "Zomer",
           "it": "Estate",
-          "fr": "Été"
+          "fr": "Été",
+          "pt": "Verão"
         }
       },
       "thanksgivinng": {
@@ -1412,7 +1550,8 @@
           "es": "dia-de-accion-de-gracias",
           "nl": "thanksgiving",
           "it": "giorno-del-ringraziamento",
-          "fr": "action-de-grace"
+          "fr": "action-de-grace",
+          "pt": "dia-de-acao-de-gracas"
         },
         "name": {
           "en": "Thanksgiving",
@@ -1420,7 +1559,8 @@
           "es": "Día de Acción de Gracias",
           "nl": "Thanksgiving",
           "it": "Giorno del Ringraziamento",
-          "fr": "Action de grâce"
+          "fr": "Action de grâce",
+          "pt": "Dia de Ação de Graças"
         }
       },
       "things_that_fly": {
@@ -1430,7 +1570,8 @@
           "es": "cosas-que-vuelan",
           "nl": "dingen-die-vliegen",
           "it": "cose-che-volano",
-          "fr": "choses-qui-volent"
+          "fr": "choses-qui-volent",
+          "pt": "coisas-que-voam"
         },
         "name": {
           "en": "Things That Fly",
@@ -1438,7 +1579,8 @@
           "es": "Cosas que vuelan",
           "nl": "Dingen die vliegen",
           "it": "Cose che volano",
-          "fr": "Choses qui volent"
+          "fr": "Choses qui volent",
+          "pt": "Coisas que voam"
         }
       },
       "tools": {
@@ -1448,7 +1590,8 @@
           "es": "herramientas",
           "nl": "gereedschap",
           "it": "attrezzi",
-          "fr": "outils"
+          "fr": "outils",
+          "pt": "ferramentas"
         },
         "name": {
           "en": "Tools",
@@ -1456,7 +1599,8 @@
           "es": "Herramientas",
           "nl": "Gereedschap",
           "it": "Attrezzi",
-          "fr": "Outils"
+          "fr": "Outils",
+          "pt": "Ferramentas"
         }
       },
       "toys": {
@@ -1466,7 +1610,8 @@
           "es": "juguetes",
           "nl": "speelgoed",
           "it": "giocattoli",
-          "fr": "jouets"
+          "fr": "jouets",
+          "pt": "brinquedos"
         },
         "name": {
           "en": "Toys",
@@ -1474,7 +1619,8 @@
           "es": "Juguetes",
           "nl": "Speelgoed",
           "it": "Giocattoli",
-          "fr": "Jouets"
+          "fr": "Jouets",
+          "pt": "Brinquedos"
         }
       },
       "tree": {
@@ -1484,7 +1630,8 @@
           "es": "arboles",
           "nl": "bomen",
           "it": "alberi",
-          "fr": "arbres"
+          "fr": "arbres",
+          "pt": "arvores"
         },
         "name": {
           "en": "Trees",
@@ -1492,7 +1639,8 @@
           "es": "Árboles",
           "nl": "Bomen",
           "it": "Alberi",
-          "fr": "Arbres"
+          "fr": "Arbres",
+          "pt": "Árvores"
         }
       },
       "vegetables": {
@@ -1502,7 +1650,8 @@
           "es": "verduras",
           "nl": "groenten",
           "it": "verdure",
-          "fr": "legumes"
+          "fr": "legumes",
+          "pt": "vegetais"
         },
         "name": {
           "en": "Vegetables",
@@ -1510,7 +1659,8 @@
           "es": "Verduras",
           "nl": "Groenten",
           "it": "Verdure",
-          "fr": "Légumes"
+          "fr": "Légumes",
+          "pt": "Vegetais"
         }
       },
       "vehicles": {
@@ -1520,7 +1670,8 @@
           "es": "vehiculos",
           "nl": "voertuigen",
           "it": "veicoli",
-          "fr": "vehicules"
+          "fr": "vehicules",
+          "pt": "veiculos"
         },
         "name": {
           "en": "Vehicles",
@@ -1528,7 +1679,8 @@
           "es": "Vehículos",
           "nl": "Voertuigen",
           "it": "Veicoli",
-          "fr": "Véhicules"
+          "fr": "Véhicules",
+          "pt": "Veículos"
         }
       },
       "weather": {
@@ -1538,7 +1690,8 @@
           "es": "clima",
           "nl": "weer",
           "it": "meteo",
-          "fr": "meteo"
+          "fr": "meteo",
+          "pt": "clima"
         },
         "name": {
           "en": "Weather",
@@ -1546,7 +1699,8 @@
           "es": "Clima",
           "nl": "Weer",
           "it": "Meteo",
-          "fr": "Météo"
+          "fr": "Météo",
+          "pt": "Clima"
         }
       },
       "winter": {
@@ -1556,7 +1710,8 @@
           "es": "invierno",
           "nl": "winter",
           "it": "inverno",
-          "fr": "hiver"
+          "fr": "hiver",
+          "pt": "inverno"
         },
         "name": {
           "en": "Winter",
@@ -1564,7 +1719,8 @@
           "es": "Invierno",
           "nl": "Winter",
           "it": "Inverno",
-          "fr": "Hiver"
+          "fr": "Hiver",
+          "pt": "Inverno"
         }
       },
       "zoo_animals": {
@@ -1574,7 +1730,8 @@
           "es": "animales-del-zoologico",
           "nl": "dierentuindieren",
           "it": "animali-dello-zoo",
-          "fr": "animaux-du-zoo"
+          "fr": "animaux-du-zoo",
+          "pt": "animais-do-zoologico"
         },
         "name": {
           "en": "Zoo Animals",
@@ -1582,7 +1739,8 @@
           "es": "Animales del zoológico",
           "nl": "Dierentuindieren",
           "it": "Animali dello zoo",
-          "fr": "Animaux du zoo"
+          "fr": "Animaux du zoo",
+          "pt": "Animais do zoológico"
         }
       },
       "animals_bw": {
@@ -1592,7 +1750,8 @@
           "es": "animales-bn",
           "nl": "dieren-zw",
           "it": "animali-bn",
-          "fr": "animaux-nb"
+          "fr": "animaux-nb",
+          "pt": "animais-pb"
         },
         "name": {
           "en": "Animals BW",
@@ -1600,7 +1759,8 @@
           "es": "Animales BN",
           "nl": "Dieren ZW",
           "it": "Animali BN",
-          "fr": "Animaux NB"
+          "fr": "Animaux NB",
+          "pt": "Animais PB"
         }
       },
       "animals_bw_2": {
@@ -1610,7 +1770,8 @@
           "es": "animales-bn-2",
           "nl": "dieren-zw-2",
           "it": "animali-bn-2",
-          "fr": "animaux-nb-2"
+          "fr": "animaux-nb-2",
+          "pt": "animais-pb-2"
         },
         "name": {
           "en": "Animals BW 2",
@@ -1618,7 +1779,8 @@
           "es": "Animales BN 2",
           "nl": "Dieren ZW 2",
           "it": "Animali BN 2",
-          "fr": "Animaux NB 2"
+          "fr": "Animaux NB 2",
+          "pt": "Animais PB 2"
         }
       },
       "animals_bw_3": {
@@ -1628,7 +1790,8 @@
           "es": "animales-bn-3",
           "nl": "dieren-zw-3",
           "it": "animali-bn-3",
-          "fr": "animaux-nb-3"
+          "fr": "animaux-nb-3",
+          "pt": "animais-pb-3"
         },
         "name": {
           "en": "Animals BW 3",
@@ -1636,7 +1799,8 @@
           "es": "Animales BN 3",
           "nl": "Dieren ZW 3",
           "it": "Animali BN 3",
-          "fr": "Animaux NB 3"
+          "fr": "Animaux NB 3",
+          "pt": "Animais PB 3"
         }
       },
       "animals_bw_4": {
@@ -1646,7 +1810,8 @@
           "es": "animales-bn-4",
           "nl": "dieren-zw-4",
           "it": "animali-bn-4",
-          "fr": "animaux-nb-4"
+          "fr": "animaux-nb-4",
+          "pt": "animais-pb-4"
         },
         "name": {
           "en": "Animals BW 4",
@@ -1654,7 +1819,8 @@
           "es": "Animales BN 4",
           "nl": "Dieren ZW 4",
           "it": "Animali BN 4",
-          "fr": "Animaux NB 4"
+          "fr": "Animaux NB 4",
+          "pt": "Animais PB 4"
         }
       },
       "animals_bw_5": {
@@ -1664,7 +1830,8 @@
           "es": "animales-bn-5",
           "nl": "dieren-zw-5",
           "it": "animali-bn-5",
-          "fr": "animaux-nb-5"
+          "fr": "animaux-nb-5",
+          "pt": "animais-pb-5"
         },
         "name": {
           "en": "Animals BW 5",
@@ -1672,7 +1839,8 @@
           "es": "Animales BN 5",
           "nl": "Dieren ZW 5",
           "it": "Animali BN 5",
-          "fr": "Animaux NB 5"
+          "fr": "Animaux NB 5",
+          "pt": "Animais PB 5"
         }
       },
       "apparel_bw": {
@@ -1682,7 +1850,8 @@
           "es": "ropa-bn",
           "nl": "kleding-zw",
           "it": "abbigliamento-bn",
-          "fr": "vetements-nb"
+          "fr": "vetements-nb",
+          "pt": "vestuario-pb"
         },
         "name": {
           "en": "Apparel BW",
@@ -1690,7 +1859,8 @@
           "es": "Ropa BN",
           "nl": "Kleding ZW",
           "it": "Abbigliamento BN",
-          "fr": "Vetements NB"
+          "fr": "Vetements NB",
+          "pt": "Vestuario PB"
         }
       },
       "beach_bw": {
@@ -1700,7 +1870,8 @@
           "es": "playa-bn",
           "nl": "strand-zw",
           "it": "spiaggia-bn",
-          "fr": "plage-nb"
+          "fr": "plage-nb",
+          "pt": "praia-pb"
         },
         "name": {
           "en": "Beach BW",
@@ -1708,7 +1879,8 @@
           "es": "Playa BN",
           "nl": "Strand ZW",
           "it": "Spiaggia BN",
-          "fr": "Plage NB"
+          "fr": "Plage NB",
+          "pt": "Praia PB"
         }
       },
       "beach_bw_2": {
@@ -1718,7 +1890,8 @@
           "es": "playa-bn-2",
           "nl": "strand-zw-2",
           "it": "spiaggia-bn-2",
-          "fr": "plage-nb-2"
+          "fr": "plage-nb-2",
+          "pt": "praia-pb-2"
         },
         "name": {
           "en": "Beach BW 2",
@@ -1726,7 +1899,8 @@
           "es": "Playa BN 2",
           "nl": "Strand ZW 2",
           "it": "Spiaggia BN 2",
-          "fr": "Plage NB 2"
+          "fr": "Plage NB 2",
+          "pt": "Praia PB 2"
         }
       },
       "birds_bw": {
@@ -1736,7 +1910,8 @@
           "es": "aves-byn",
           "nl": "vogels-z-w",
           "it": "uccelli-b-n",
-          "fr": "oiseaux-n-b"
+          "fr": "oiseaux-n-b",
+          "pt": "passaros-p-b"
         },
         "name": {
           "en": "Birds BW",
@@ -1744,7 +1919,8 @@
           "es": "Aves ByN",
           "nl": "Vogels Z&W",
           "it": "Uccelli B&N",
-          "fr": "Oiseaux N&B"
+          "fr": "Oiseaux N&B",
+          "pt": "Pássaros P&B"
         }
       },
       "birds_bw_2": {
@@ -1754,7 +1930,8 @@
           "es": "aves-byn-2",
           "nl": "vogels-z-w-2",
           "it": "uccelli-b-n-2",
-          "fr": "oiseaux-n-b-2"
+          "fr": "oiseaux-n-b-2",
+          "pt": "passaros-p-b-2"
         },
         "name": {
           "en": "Birds BW 2",
@@ -1762,7 +1939,8 @@
           "es": "Aves ByN 2",
           "nl": "Vogels Z&W 2",
           "it": "Uccelli B&N 2",
-          "fr": "Oiseaux N&B 2"
+          "fr": "Oiseaux N&B 2",
+          "pt": "Pássaros P&B 2"
         }
       },
       "christmas_bw": {
@@ -1772,7 +1950,8 @@
           "es": "navidad-b-n",
           "nl": "kerstmis-z-w",
           "it": "natale-b-n",
-          "fr": "noel-n-b"
+          "fr": "noel-n-b",
+          "pt": "natal-p-b"
         },
         "name": {
           "en": "Christmas B&W",
@@ -1780,7 +1959,8 @@
           "es": "Navidad B&N",
           "nl": "Kerstmis Z/W",
           "it": "Natale B&N",
-          "fr": "Noël N&B"
+          "fr": "Noël N&B",
+          "pt": "Natal P&B"
         }
       },
       "christmas_bw_2": {
@@ -1790,7 +1970,8 @@
           "es": "navidad-b-n-2",
           "nl": "kerstmis-z-w-2",
           "it": "natale-b-n-2",
-          "fr": "noel-n-b-2"
+          "fr": "noel-n-b-2",
+          "pt": "natal-p-b-2"
         },
         "name": {
           "en": "Christmas B&W 2",
@@ -1798,7 +1979,8 @@
           "es": "Navidad B&N 2",
           "nl": "Kerstmis Z/W 2",
           "it": "Natale B&N 2",
-          "fr": "Noël N&B 2"
+          "fr": "Noël N&B 2",
+          "pt": "Natal P&B 2"
         }
       },
       "classroom_bw": {
@@ -1808,7 +1990,8 @@
           "es": "salon-de-clases-b-n",
           "nl": "klaslokaal-z-w",
           "it": "aula-b-n",
-          "fr": "salle-de-classe-n-b"
+          "fr": "salle-de-classe-n-b",
+          "pt": "sala-de-aula-p-b"
         },
         "name": {
           "en": "Classroom (B&W)",
@@ -1816,7 +1999,8 @@
           "es": "Salón de clases (B/N)",
           "nl": "Klaslokaal (Z/W)",
           "it": "Aula (B/N)",
-          "fr": "Salle de classe (N&B)"
+          "fr": "Salle de classe (N&B)",
+          "pt": "Sala de aula (P&B)"
         }
       },
       "classroom_bw_2": {
@@ -1826,7 +2010,8 @@
           "es": "salon-de-clases-2-b-n",
           "nl": "klaslokaal-2-z-w",
           "it": "aula-2-b-n",
-          "fr": "salle-de-classe-2-n-b"
+          "fr": "salle-de-classe-2-n-b",
+          "pt": "sala-de-aula-2-p-b"
         },
         "name": {
           "en": "Classroom 2 (B&W)",
@@ -1834,7 +2019,8 @@
           "es": "Salón de clases 2 (B/N)",
           "nl": "Klaslokaal 2 (Z/W)",
           "it": "Aula 2 (B/N)",
-          "fr": "Salle de classe 2 (N&B)"
+          "fr": "Salle de classe 2 (N&B)",
+          "pt": "Sala de aula 2 (P&B)"
         }
       },
       "dessert_bw": {
@@ -1844,7 +2030,8 @@
           "es": "postre-b-n",
           "nl": "nagerecht-z-w",
           "it": "dolce-b-n",
-          "fr": "dessert-n-b"
+          "fr": "dessert-n-b",
+          "pt": "sobremesa-p-b"
         },
         "name": {
           "en": "Dessert (B&W)",
@@ -1852,7 +2039,8 @@
           "es": "Postre (B/N)",
           "nl": "Nagerecht (Z/W)",
           "it": "Dolce (B/N)",
-          "fr": "Dessert (N&B)"
+          "fr": "Dessert (N&B)",
+          "pt": "Sobremesa (P&B)"
         }
       },
       "easter_bw": {
@@ -1862,7 +2050,8 @@
           "es": "pascua-bn",
           "nl": "pasen-zw",
           "it": "pasqua-bn",
-          "fr": "paques-nb"
+          "fr": "paques-nb",
+          "pt": "pascoa-pb"
         },
         "name": {
           "en": "Easter BW",
@@ -1870,7 +2059,8 @@
           "es": "Pascua BN",
           "nl": "Pasen ZW",
           "it": "Pasqua BN",
-          "fr": "Pâques NB"
+          "fr": "Pâques NB",
+          "pt": "Páscoa PB"
         }
       },
       "easter_bw_2": {
@@ -1880,7 +2070,8 @@
           "es": "pascua-bn-2",
           "nl": "pasen-zw-2",
           "it": "pasqua-bn-2",
-          "fr": "paques-nb-2"
+          "fr": "paques-nb-2",
+          "pt": "pascoa-pb-2"
         },
         "name": {
           "en": "Easter BW 2",
@@ -1888,7 +2079,8 @@
           "es": "Pascua BN 2",
           "nl": "Pasen ZW 2",
           "it": "Pasqua BN 2",
-          "fr": "Pâques NB 2"
+          "fr": "Pâques NB 2",
+          "pt": "Páscoa PB 2"
         }
       },
       "education_bw": {
@@ -1898,7 +2090,8 @@
           "es": "educacion-bn",
           "nl": "onderwijs-zw",
           "it": "istruzione-bn",
-          "fr": "education-nb"
+          "fr": "education-nb",
+          "pt": "educacao-pb"
         },
         "name": {
           "en": "Education BW",
@@ -1906,7 +2099,8 @@
           "es": "Educación BN",
           "nl": "Onderwijs ZW",
           "it": "Istruzione BN",
-          "fr": "Éducation NB"
+          "fr": "Éducation NB",
+          "pt": "Educação PB"
         }
       },
       "faces_bw": {
@@ -1916,7 +2110,8 @@
           "es": "caras-bn",
           "nl": "gezichten-zw",
           "it": "volti-bn",
-          "fr": "visages-nb"
+          "fr": "visages-nb",
+          "pt": "rostos-pb"
         },
         "name": {
           "en": "Faces BW",
@@ -1924,7 +2119,8 @@
           "es": "Caras BN",
           "nl": "Gezichten ZW",
           "it": "Volti BN",
-          "fr": "Visages NB"
+          "fr": "Visages NB",
+          "pt": "Rostos PB"
         }
       },
       "farm_animals_bw": {
@@ -1934,7 +2130,8 @@
           "es": "animales-de-granja-bn",
           "nl": "boerderijdieren-zw",
           "it": "animali-della-fattoria-bn",
-          "fr": "animaux-de-la-ferme-nb"
+          "fr": "animaux-de-la-ferme-nb",
+          "pt": "animais-da-fazenda-pb"
         },
         "name": {
           "en": "Farm Animals BW",
@@ -1942,7 +2139,8 @@
           "es": "Animales de granja BN",
           "nl": "Boerderijdieren ZW",
           "it": "Animali della fattoria BN",
-          "fr": "Animaux de la ferme NB"
+          "fr": "Animaux de la ferme NB",
+          "pt": "Animais da fazenda PB"
         }
       },
       "farm_bw": {
@@ -1952,7 +2150,8 @@
           "es": "granja-bn",
           "nl": "boerderij-zw",
           "it": "fattoria-bn",
-          "fr": "ferme-nb"
+          "fr": "ferme-nb",
+          "pt": "fazenda-pb"
         },
         "name": {
           "en": "Farm BW",
@@ -1960,7 +2159,8 @@
           "es": "Granja BN",
           "nl": "Boerderij ZW",
           "it": "Fattoria BN",
-          "fr": "Ferme NB"
+          "fr": "Ferme NB",
+          "pt": "Fazenda PB"
         }
       },
       "food_bw": {
@@ -1970,7 +2170,8 @@
           "es": "comida-bn",
           "nl": "voedsel-zw",
           "it": "cibo-bn",
-          "fr": "nourriture-nb"
+          "fr": "nourriture-nb",
+          "pt": "comida-pb"
         },
         "name": {
           "en": "Food BW",
@@ -1978,7 +2179,8 @@
           "es": "Comida BN",
           "nl": "Voedsel ZW",
           "it": "Cibo BN",
-          "fr": "Nourriture NB"
+          "fr": "Nourriture NB",
+          "pt": "Comida PB"
         }
       },
       "food_bw_2": {
@@ -1988,7 +2190,8 @@
           "es": "comida-bn-2",
           "nl": "voedsel-zw-2",
           "it": "cibo-bn-2",
-          "fr": "nourriture-nb-2"
+          "fr": "nourriture-nb-2",
+          "pt": "comida-pb-2"
         },
         "name": {
           "en": "Food BW 2",
@@ -1996,7 +2199,8 @@
           "es": "Comida BN 2",
           "nl": "Voedsel ZW 2",
           "it": "Cibo BN 2",
-          "fr": "Nourriture NB 2"
+          "fr": "Nourriture NB 2",
+          "pt": "Comida PB 2"
         }
       },
       "food_bw_3": {
@@ -2006,7 +2210,8 @@
           "es": "comida-bn-3",
           "nl": "voedsel-zw-3",
           "it": "cibo-bn-3",
-          "fr": "nourriture-nb-3"
+          "fr": "nourriture-nb-3",
+          "pt": "comida-pb-3"
         },
         "name": {
           "en": "Food BW 3",
@@ -2014,7 +2219,8 @@
           "es": "Comida BN 3",
           "nl": "Voedsel ZW 3",
           "it": "Cibo BN 3",
-          "fr": "Nourriture NB 3"
+          "fr": "Nourriture NB 3",
+          "pt": "Comida PB 3"
         }
       },
       "fruits_bw": {
@@ -2024,7 +2230,8 @@
           "es": "frutas-bn",
           "nl": "fruit-zw",
           "it": "frutta-bn",
-          "fr": "fruits-nb"
+          "fr": "fruits-nb",
+          "pt": "frutas-pb"
         },
         "name": {
           "en": "Fruits BW",
@@ -2032,7 +2239,8 @@
           "es": "Frutas BN",
           "nl": "Fruit ZW",
           "it": "Frutta BN",
-          "fr": "Fruits NB"
+          "fr": "Fruits NB",
+          "pt": "Frutas PB"
         }
       },
       "furniture_bw": {
@@ -2042,7 +2250,8 @@
           "es": "muebles-bn",
           "nl": "meubels-zw",
           "it": "mobili-bn",
-          "fr": "meubles-nb"
+          "fr": "meubles-nb",
+          "pt": "moveis-pb"
         },
         "name": {
           "en": "Furniture BW",
@@ -2050,7 +2259,8 @@
           "es": "Muebles BN",
           "nl": "Meubels ZW",
           "it": "Mobili BN",
-          "fr": "Meubles NB"
+          "fr": "Meubles NB",
+          "pt": "Móveis PB"
         }
       },
       "home_and_nature_bw": {
@@ -2060,7 +2270,8 @@
           "es": "hogar-y-naturaleza-bn",
           "nl": "huis-en-natuur-zw",
           "it": "casa-e-natura-bn",
-          "fr": "maison-et-nature-nb"
+          "fr": "maison-et-nature-nb",
+          "pt": "casa-e-natureza-pb"
         },
         "name": {
           "en": "Home and Nature BW",
@@ -2068,7 +2279,8 @@
           "es": "Hogar y Naturaleza BN",
           "nl": "Huis en Natuur ZW",
           "it": "Casa e Natura BN",
-          "fr": "Maison et Nature NB"
+          "fr": "Maison et Nature NB",
+          "pt": "Casa e Natureza PB"
         }
       },
       "home_bw": {
@@ -2078,7 +2290,8 @@
           "es": "hogar-bn",
           "nl": "huis-zw",
           "it": "casa-bn",
-          "fr": "maison-nb"
+          "fr": "maison-nb",
+          "pt": "casa-pb"
         },
         "name": {
           "en": "Home BW",
@@ -2086,7 +2299,8 @@
           "es": "Hogar BN",
           "nl": "Huis ZW",
           "it": "Casa BN",
-          "fr": "Maison NB"
+          "fr": "Maison NB",
+          "pt": "Casa PB"
         }
       },
       "home_bw_2": {
@@ -2096,7 +2310,8 @@
           "es": "hogar-bn-2",
           "nl": "huis-zw-2",
           "it": "casa-bn-2",
-          "fr": "maison-nb-2"
+          "fr": "maison-nb-2",
+          "pt": "casa-pb-2"
         },
         "name": {
           "en": "Home BW 2",
@@ -2104,7 +2319,8 @@
           "es": "Hogar BN 2",
           "nl": "Huis ZW 2",
           "it": "Casa BN 2",
-          "fr": "Maison NB 2"
+          "fr": "Maison NB 2",
+          "pt": "Casa PB 2"
         }
       },
       "household_bw": {
@@ -2114,7 +2330,8 @@
           "es": "household-bw",
           "nl": "huishouden-zw",
           "it": "household-bw",
-          "fr": "menage-nb"
+          "fr": "menage-nb",
+          "pt": "domestico-pb"
         },
         "name": {
           "en": "Household BW",
@@ -2122,7 +2339,8 @@
           "es": "Hogar BN",
           "nl": "Huishouden ZW",
           "it": "Casa BN",
-          "fr": "Ménage NB"
+          "fr": "Ménage NB",
+          "pt": "Doméstico PB"
         }
       },
       "kitchen_bw": {
@@ -2132,7 +2350,8 @@
           "es": "cocina-bn",
           "nl": "keuken-zw",
           "it": "cucina-bn",
-          "fr": "cuisine-nb"
+          "fr": "cuisine-nb",
+          "pt": "cozinha-pb"
         },
         "name": {
           "en": "Kitchen BW",
@@ -2140,7 +2359,8 @@
           "es": "Cocina BN",
           "nl": "Keuken ZW",
           "it": "Cucina BN",
-          "fr": "Cuisine NB"
+          "fr": "Cuisine NB",
+          "pt": "Cozinha PB"
         }
       },
       "nature_bw": {
@@ -2150,7 +2370,8 @@
           "es": "naturaleza-bn",
           "nl": "natuur-zw",
           "it": "natura-bn",
-          "fr": "nature-nb"
+          "fr": "nature-nb",
+          "pt": "natureza-pb"
         },
         "name": {
           "en": "Nature BW",
@@ -2158,7 +2379,8 @@
           "es": "Naturaleza BN",
           "nl": "Natuur ZW",
           "it": "Natura BN",
-          "fr": "Nature NB"
+          "fr": "Nature NB",
+          "pt": "Natureza PB"
         }
       },
       "objects_bw": {
@@ -2168,7 +2390,8 @@
           "es": "objetos-bn",
           "nl": "objecten-zw",
           "it": "oggetti-bn",
-          "fr": "objets-nb"
+          "fr": "objets-nb",
+          "pt": "objetos-pb"
         },
         "name": {
           "en": "Objects BW",
@@ -2176,7 +2399,8 @@
           "es": "Objetos BN",
           "nl": "Objecten ZW",
           "it": "Oggetti BN",
-          "fr": "Objets NB"
+          "fr": "Objets NB",
+          "pt": "Objetos PB"
         }
       },
       "sea_life_bw": {
@@ -2186,7 +2410,8 @@
           "es": "vida-marina-bn",
           "nl": "zeeleven-zw",
           "it": "vita-marina-bn",
-          "fr": "vie-marine-nb"
+          "fr": "vie-marine-nb",
+          "pt": "vida-marinha-pb"
         },
         "name": {
           "en": "Sea Life BW",
@@ -2194,7 +2419,8 @@
           "es": "Vida marina BN",
           "nl": "Zeeleven ZW",
           "it": "Vita marina BN",
-          "fr": "Vie marine NB"
+          "fr": "Vie marine NB",
+          "pt": "Vida marinha PB"
         }
       },
       "sea_life_bw_2": {
@@ -2204,7 +2430,8 @@
           "es": "vida-marina-bn-2",
           "nl": "zeeleven-zw-2",
           "it": "vita-marina-bn-2",
-          "fr": "vie-marine-nb-2"
+          "fr": "vie-marine-nb-2",
+          "pt": "vida-marinha-pb-2"
         },
         "name": {
           "en": "Sea Life BW 2",
@@ -2212,7 +2439,8 @@
           "es": "Vida marina BN 2",
           "nl": "Zeeleven ZW 2",
           "it": "Vita marina BN 2",
-          "fr": "Vie marine NB 2"
+          "fr": "Vie marine NB 2",
+          "pt": "Vida marinha PB 2"
         }
       },
       "space_bw": {
@@ -2222,7 +2450,8 @@
           "es": "espacio-bn",
           "nl": "ruimte-zw",
           "it": "spazio-bn",
-          "fr": "espace-nb"
+          "fr": "espace-nb",
+          "pt": "espaco-pb"
         },
         "name": {
           "en": "Space BW",
@@ -2230,7 +2459,8 @@
           "es": "Espacio BN",
           "nl": "Ruimte ZW",
           "it": "Spazio BN",
-          "fr": "Espace NB"
+          "fr": "Espace NB",
+          "pt": "Espaço PB"
         }
       },
       "sports_bw": {
@@ -2240,7 +2470,8 @@
           "es": "deportes-bn",
           "nl": "sport-zw",
           "it": "sport-bn",
-          "fr": "sports-nb"
+          "fr": "sports-nb",
+          "pt": "esportes-pb"
         },
         "name": {
           "en": "Sports BW",
@@ -2248,7 +2479,8 @@
           "es": "Deportes BN",
           "nl": "Sport ZW",
           "it": "Sport BN",
-          "fr": "Sports NB"
+          "fr": "Sports NB",
+          "pt": "Esportes PB"
         }
       },
       "sports_bw_2": {
@@ -2258,7 +2490,8 @@
           "es": "deportes-bn-2",
           "nl": "sport-zw-2",
           "it": "sport-bn-2",
-          "fr": "sports-nb-2"
+          "fr": "sports-nb-2",
+          "pt": "esportes-pb-2"
         },
         "name": {
           "en": "Sports BW 2",
@@ -2266,7 +2499,8 @@
           "es": "Deportes BN 2",
           "nl": "Sport ZW 2",
           "it": "Sport BN 2",
-          "fr": "Sports NB 2"
+          "fr": "Sports NB 2",
+          "pt": "Esportes PB 2"
         }
       },
       "tools_bw": {
@@ -2276,7 +2510,8 @@
           "es": "herramientas-bn",
           "nl": "gereedschap-zw",
           "it": "attrezzi-bn",
-          "fr": "outils-nb"
+          "fr": "outils-nb",
+          "pt": "ferramentas-pb"
         },
         "name": {
           "en": "Tools BW",
@@ -2284,7 +2519,8 @@
           "es": "Herramientas BN",
           "nl": "Gereedschap ZW",
           "it": "Attrezzi BN",
-          "fr": "Outils NB"
+          "fr": "Outils NB",
+          "pt": "Ferramentas PB"
         }
       },
       "toys_bw": {
@@ -2294,7 +2530,8 @@
           "es": "juguetes-bn",
           "nl": "speelgoed-zw",
           "it": "giocattoli-bn",
-          "fr": "jouets-nb"
+          "fr": "jouets-nb",
+          "pt": "brinquedos-pb"
         },
         "name": {
           "en": "Toys BW",
@@ -2302,7 +2539,8 @@
           "es": "Juguetes BN",
           "nl": "Speelgoed ZW",
           "it": "Giocattoli BN",
-          "fr": "Jouets NB"
+          "fr": "Jouets NB",
+          "pt": "Brinquedos PB"
         }
       },
       "toys_bw_2": {
@@ -2312,7 +2550,8 @@
           "es": "juguetes-bn-2",
           "nl": "speelgoed-zw-2",
           "it": "giocattoli-bn-2",
-          "fr": "jouets-nb-2"
+          "fr": "jouets-nb-2",
+          "pt": "brinquedos-pb-2"
         },
         "name": {
           "en": "Toys BW 2",
@@ -2320,7 +2559,8 @@
           "es": "Juguetes BN 2",
           "nl": "Speelgoed ZW 2",
           "it": "Giocattoli BN 2",
-          "fr": "Jouets NB 2"
+          "fr": "Jouets NB 2",
+          "pt": "Brinquedos PB 2"
         }
       },
       "travel_and_holiday_bw": {
@@ -2330,7 +2570,8 @@
           "es": "viajes-y-vacaciones-bn",
           "nl": "reizen-en-vakantie-zw",
           "it": "viaggi-e-vacanze-bn",
-          "fr": "voyages-et-vacances-nb"
+          "fr": "voyages-et-vacances-nb",
+          "pt": "viagens-e-ferias-pb"
         },
         "name": {
           "en": "Travel and Holiday BW",
@@ -2338,7 +2579,8 @@
           "es": "Viajes y Vacaciones BN",
           "nl": "Reizen en Vakantie ZW",
           "it": "Viaggi e Vacanze BN",
-          "fr": "Voyages et Vacances NB"
+          "fr": "Voyages et Vacances NB",
+          "pt": "Viagens e Férias PB"
         }
       },
       "valentine_bw": {
@@ -2348,7 +2590,8 @@
           "es": "san-valentin-bn",
           "nl": "valentijnsdag-zw",
           "it": "san-valentino-bn",
-          "fr": "saint-valentin-nb"
+          "fr": "saint-valentin-nb",
+          "pt": "dia-dos-namorados-pb"
         },
         "name": {
           "en": "Valentine BW",
@@ -2356,7 +2599,8 @@
           "es": "San Valentín BN",
           "nl": "Valentijnsdag ZW",
           "it": "San Valentino BN",
-          "fr": "Saint-Valentin NB"
+          "fr": "Saint-Valentin NB",
+          "pt": "Dia dos Namorados PB"
         }
       },
       "valentine_bw_2": {
@@ -2366,7 +2610,8 @@
           "es": "san-valentin-bn-2",
           "nl": "valentijnsdag-zw-2",
           "it": "san-valentino-bn-2",
-          "fr": "saint-valentin-nb-2"
+          "fr": "saint-valentin-nb-2",
+          "pt": "dia-dos-namorados-pb-2"
         },
         "name": {
           "en": "Valentine BW 2",
@@ -2374,7 +2619,8 @@
           "es": "San Valentín BN 2",
           "nl": "Valentijnsdag ZW 2",
           "it": "San Valentino BN 2",
-          "fr": "Saint-Valentin NB 2"
+          "fr": "Saint-Valentin NB 2",
+          "pt": "Dia dos Namorados PB 2"
         }
       },
       "vegetables_bw": {
@@ -2384,7 +2630,8 @@
           "es": "verduras-bn",
           "nl": "groenten-zw",
           "it": "verdure-bn",
-          "fr": "legumes-nb"
+          "fr": "legumes-nb",
+          "pt": "vegetais-pb"
         },
         "name": {
           "en": "Vegetables BW",
@@ -2392,7 +2639,8 @@
           "es": "Verduras BN",
           "nl": "Groenten ZW",
           "it": "Verdure BN",
-          "fr": "Légumes NB"
+          "fr": "Légumes NB",
+          "pt": "Vegetais PB"
         }
       },
       "vegetables_bw_2": {
@@ -2402,7 +2650,8 @@
           "es": "verduras-bn-2",
           "nl": "groenten-zw-2",
           "it": "verdure-bn-2",
-          "fr": "legumes-nb-2"
+          "fr": "legumes-nb-2",
+          "pt": "vegetais-pb-2"
         },
         "name": {
           "en": "Vegetables BW 2",
@@ -2410,7 +2659,8 @@
           "es": "Verduras BN 2",
           "nl": "Groenten ZW 2",
           "it": "Verdure BN 2",
-          "fr": "Légumes NB 2"
+          "fr": "Légumes NB 2",
+          "pt": "Vegetais PB 2"
         }
       },
       "vehicles_bw": {
@@ -2420,7 +2670,8 @@
           "es": "vehiculos-bn",
           "nl": "voertuigen-zw",
           "it": "veicoli-bn",
-          "fr": "vehicules-nb"
+          "fr": "vehicules-nb",
+          "pt": "veiculos-pb"
         },
         "name": {
           "en": "Vehicles BW",
@@ -2428,7 +2679,8 @@
           "es": "Vehículos BN",
           "nl": "Voertuigen ZW",
           "it": "Veicoli BN",
-          "fr": "Véhicules NB"
+          "fr": "Véhicules NB",
+          "pt": "Veículos PB"
         }
       },
       "vehicles_bw_2": {
@@ -2438,7 +2690,8 @@
           "es": "vehiculos-bn-2",
           "nl": "voertuigen-zw-2",
           "it": "veicoli-bn-2",
-          "fr": "vehicules-nb-2"
+          "fr": "vehicules-nb-2",
+          "pt": "veiculos-pb-2"
         },
         "name": {
           "en": "Vehicles BW 2",
@@ -2446,7 +2699,8 @@
           "es": "Vehículos BN 2",
           "nl": "Voertuigen ZW 2",
           "it": "Veicoli BN 2",
-          "fr": "Véhicules NB 2"
+          "fr": "Véhicules NB 2",
+          "pt": "Veículos PB 2"
         }
       },
       "vehicles_bw_3": {
@@ -2456,7 +2710,8 @@
           "es": "vehiculos-bn-3",
           "nl": "voertuigen-zw-3",
           "it": "veicoli-bn-3",
-          "fr": "vehicules-nb-3"
+          "fr": "vehicules-nb-3",
+          "pt": "veiculos-pb-3"
         },
         "name": {
           "en": "Vehicles BW 3",
@@ -2464,7 +2719,8 @@
           "es": "Vehículos BN 3",
           "nl": "Voertuigen ZW 3",
           "it": "Veicoli BN 3",
-          "fr": "Véhicules NB 3"
+          "fr": "Véhicules NB 3",
+          "pt": "Veículos PB 3"
         }
       },
       "zoo_animals_bw": {
@@ -2474,7 +2730,8 @@
           "es": "animales-del-zoologico-bn",
           "nl": "dierentuindieren-zw",
           "it": "animali-dello-zoo-bn",
-          "fr": "animaux-du-zoo-nb"
+          "fr": "animaux-du-zoo-nb",
+          "pt": "animais-do-zoologico-pb"
         },
         "name": {
           "en": "Zoo Animals BW",
@@ -2482,7 +2739,8 @@
           "es": "Animales del zoológico BN",
           "nl": "Dierentuindieren ZW",
           "it": "Animali dello zoo BN",
-          "fr": "Animaux du zoo NB"
+          "fr": "Animaux du zoo NB",
+          "pt": "Animais do zoológico PB"
         }
       }
     },
@@ -2494,7 +2752,8 @@
           "es": "preescolar",
           "nl": "peuterklas",
           "it": "scuola-dell-infanzia-3-5-anni",
-          "fr": "ecole-maternelle-petite-moyenne-section-3-5-ans"
+          "fr": "ecole-maternelle-petite-moyenne-section-3-5-ans",
+          "pt": "educacao-infantil-creche-3-5-anos"
         },
         "name": {
           "en": "preschool",
@@ -2502,7 +2761,8 @@
           "es": "preescolar",
           "nl": "peuterklas",
           "it": "Scuola dell'infanzia (3-5 anni)",
-          "fr": "École maternelle (petite/moyenne section, 3-5 ans)"
+          "fr": "École maternelle (petite/moyenne section, 3-5 ans)",
+          "pt": "Educação infantil (creche, 3-5 anos)"
         }
       },
       "kindergarten": {
@@ -2512,7 +2772,8 @@
           "es": "jardin-infantil",
           "nl": "kleuterklas",
           "it": "scuola-dell-infanzia-5-7-anni",
-          "fr": "ecole-maternelle-grande-section-5-7-ans"
+          "fr": "ecole-maternelle-grande-section-5-7-ans",
+          "pt": "educacao-infantil-pre-escola-5-7-anos"
         },
         "name": {
           "en": "kindergarten",
@@ -2520,7 +2781,8 @@
           "es": "jardín infantil",
           "nl": "kleuterklas",
           "it": "Scuola dell'infanzia (5-7 anni)",
-          "fr": "École maternelle (grande section, 5-7 ans)"
+          "fr": "École maternelle (grande section, 5-7 ans)",
+          "pt": "Educação infantil (pré-escola, 5-7 anos)"
         }
       },
       "grade-1": {
@@ -2530,7 +2792,8 @@
           "es": "grado-1",
           "nl": "groep-3",
           "it": "scuola-primaria-classe-prima",
-          "fr": "cp-cours-preparatoire"
+          "fr": "cp-cours-preparatoire",
+          "pt": "1-ano-fundamental"
         },
         "name": {
           "en": "grade 1",
@@ -2538,7 +2801,8 @@
           "es": "grado 1",
           "nl": "groep 3",
           "it": "Scuola primaria classe prima",
-          "fr": "CP (cours préparatoire)"
+          "fr": "CP (cours préparatoire)",
+          "pt": "1º ano do ensino fundamental"
         }
       },
       "grade-2": {
@@ -2548,7 +2812,8 @@
           "es": "grado-2",
           "nl": "groep-4",
           "it": "scuola-primaria-classe-seconda",
-          "fr": "ce1-cours-elementaire-1"
+          "fr": "ce1-cours-elementaire-1",
+          "pt": "2-ano-fundamental"
         },
         "name": {
           "en": "grade 2",
@@ -2556,7 +2821,8 @@
           "es": "grado 2",
           "nl": "groep 4",
           "it": "Scuola primaria classe seconda",
-          "fr": "CE1 (cours élémentaire 1)"
+          "fr": "CE1 (cours élémentaire 1)",
+          "pt": "2º ano do ensino fundamental"
         }
       },
       "grade-3": {
@@ -2566,7 +2832,8 @@
           "es": "grado-3",
           "nl": "groep-5",
           "it": "scuola-primaria-classe-terza",
-          "fr": "ce2-cours-elementaire-2"
+          "fr": "ce2-cours-elementaire-2",
+          "pt": "3-ano-fundamental"
         },
         "name": {
           "en": "grade 3",
@@ -2574,7 +2841,8 @@
           "es": "grado 3",
           "nl": "groep 5",
           "it": "Scuola primaria classe terza",
-          "fr": "CE2 (cours élémentaire 2)"
+          "fr": "CE2 (cours élémentaire 2)",
+          "pt": "3º ano do ensino fundamental"
         }
       }
     }

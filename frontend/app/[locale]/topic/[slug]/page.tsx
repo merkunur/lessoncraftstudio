@@ -16,7 +16,7 @@ import DeckGridClient, { TopicDeckCardData } from './DeckGridClient';
 // Tier 1 launch locales per CLAUDE.md §19. Tier 2-4 fold in later; topic
 // pages only generate for locales with catalog content (per Footer.tsx
 // convention §5.6: don't fabricate links to pages that don't exist yet).
-const TOPIC_LOCALES = ['en', 'de', 'es', 'nl', 'it', 'fr'] as const;
+const TOPIC_LOCALES = ['en', 'de', 'es', 'nl', 'it', 'fr', 'pt'] as const;
 type TopicLocale = (typeof TOPIC_LOCALES)[number];
 
 const BASE_URL = 'https://www.lessoncraftstudio.com';

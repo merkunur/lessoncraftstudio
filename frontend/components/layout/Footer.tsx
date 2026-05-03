@@ -59,7 +59,9 @@ const FOOTER_TOPICS_BY_LOCALE: Record<string, FooterLink[]> = {
   ],
   nl: [
     { slug: 'dieren', label: 'dier' },
+    { slug: 'peuterklas', label: 'peuterklas' },
     { slug: 'kleuterklas', label: 'kleuterklas' },
+    { slug: 'groep-3', label: 'groep 3' },
   ],
 };
 
@@ -162,6 +164,10 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'rooster-koppelen', label: 'rooster koppelen' },
     { slug: 'schaduw-koppelen', label: 'schaduw koppelen' },
     { slug: 'beelden-sorteren', label: 'beelden sorteren' },
+    { slug: 'aftrekken', label: 'aftrekken' },
+    { slug: 'code-optellen', label: 'code-optellen' },
+    { slug: 'meer-minder', label: 'meer of minder' },
+    { slug: 'rekenpuzzel', label: 'rekenpuzzel' },
   ],
 };
 

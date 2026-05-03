@@ -127,58 +127,6 @@
       }
     }
   },
-  "worksheetSamples": {
-    "title": "Galería de ejemplos de hojas de trabajo",
-    "subtitle": "Haz clic en una hoja para ver una vista previa más grande. Estos son solo algunos ejemplos de nuestra colección de 33 generadores profesionales de hojas de trabajo.",
-    "ctaText": "Explorar los 33 generadores de hojas →",
-    "alphabetTrain": {
-      "title": "Tren del alfabeto",
-      "description": "Aprendizaje divertido del alfabeto con vagones coloridos"
-    },
-    "codeAddition": {
-      "title": "Code-Addition",
-      "description": "Descifra el código con acertijos de suma"
-    },
-    "diagramAndCount": {
-      "title": "Gráficos y conteo",
-      "description": "Aprende gráficos y visualización de datos"
-    },
-    "hiddenObjects": {
-      "title": "Objetos ocultos",
-      "description": "Encuentra objetos ocultos en escenas detalladas"
-    },
-    "iSpy": {
-      "title": "Veo Veo",
-      "description": "¡El clásico juego de búsqueda visual!"
-    },
-    "patternTrain": {
-      "title": "Tren de patrones",
-      "description": "Completa las secuencias de patrones"
-    },
-    "modalLabels": {
-      "ageRange": "Rango de edad",
-      "difficulty": "Dificultad",
-      "category": "Categoría"
-    },
-    "difficulties": {
-      "Easy": "Fácil",
-      "Medium": "Medio",
-      "Hard": "Difícil"
-    },
-    "categories": {
-      "Language": "Lenguaje",
-      "Math": "Matemáticas",
-      "Visual": "Visual",
-      "Pattern": "Patrones"
-    },
-    "ageRanges": {
-      "age3to5": "3-5 años",
-      "age4to7": "4-7 años",
-      "age5to8": "5-8 años",
-      "age6to8": "6-8 años",
-      "age7to10": "7-10 años"
-    }
-  },
   "auth": {
     "signIn": {
       "title": "¡Qué alegría verte!",
@@ -242,44 +190,6 @@
         "daysAgo_other": "Hace {count} días"
       }
     }
-  },
-  "footer": {
-    "byLanguage": "Hojas de trabajo por lengua",
-    "byTopic": "Hojas de trabajo por tema",
-    "byExerciseType": "Hojas de trabajo por tipo de actividad",
-    "moreLanguagesSoon": "Más lenguas próximamente",
-    "moreTopicsSoon": "Más temas próximamente",
-    "contact": "Contacto",
-    "terms": "Términos",
-    "privacy": "Privacidad",
-    "copyright": "© 2026 LessonCraftStudio."
-  },
-  "common": {
-    "loading": "Cargando...",
-    "error": "Ocurrió un error",
-    "retry": "Reintentar",
-    "save": "Guardar",
-    "cancel": "Cancelar",
-    "delete": "Eliminar",
-    "edit": "Editar",
-    "create": "Crear",
-    "search": "Buscar",
-    "filter": "Filtrar",
-    "sort": "Ordenar",
-    "next": "Siguiente",
-    "previous": "Anterior",
-    "close": "Cerrar",
-    "open": "Abrir",
-    "yes": "Sí",
-    "no": "No",
-    "confirm": "Confirmar",
-    "download": "Descargar",
-    "upload": "Subir",
-    "select": "Seleccionar",
-    "selectAll": "Seleccionar todo",
-    "deselectAll": "Deseleccionar todo",
-    "required": "Requerido",
-    "optional": "Opcional"
   },
   "contact": {
     "title": "Contáctanos",
@@ -382,6 +292,60 @@
       "content": "Preguntas: legal@lessoncraftstudio.com"
     }
   },
+  "license": {
+    "title": "Términos de licencia",
+    "lastUpdated": "Última actualización",
+    "effectiveDate": "Enero 2025",
+    "grantOfLicense": {
+      "title": "1. CONCESIÓN DE LICENCIA",
+      "intro": "LessonCraftStudio le otorga una licencia para usar el contenido generado según su suscripción:",
+      "freeTier": "Gratuito: Solo uso educativo personal no comercial",
+      "coreBundle": "Core: Uso educativo comercial en su institución",
+      "fullAccess": "Acceso Completo: Uso comercial ilimitado incluyendo impresión bajo demanda y reventa"
+    },
+    "intellectualProperty": {
+      "title": "2. PROPIEDAD INTELECTUAL",
+      "intro": "Conserva sus contenidos originales. Retenemos derechos sobre elementos de la plataforma. El contenido generado se licencia según la Sección 1."
+    },
+    "restrictions": {
+      "title": "3. RESTRICCIONES",
+      "intro": "No puede:",
+      "reverseEngineer": "Aplicar ingeniería inversa a la plataforma",
+      "competing": "Crear servicios competidores",
+      "sublicense": "Sublicenciar acceso a la plataforma",
+      "removeNotices": "Eliminar marcas de agua del contenido gratuito",
+      "illegal": "Usar para fines ilegales"
+    },
+    "commercialDistribution": {
+      "title": "4. DISTRIBUCIÓN COMERCIAL",
+      "pod": "Impresión bajo demanda: Los suscriptores de Acceso Completo pueden vender ilimitadamente a través de plataformas de impresión bajo demanda.",
+      "digital": "Distribución digital: Todos los niveles pueden distribuir versiones digitales según su licencia."
+    },
+    "termination": {
+      "title": "5. TERMINACIÓN",
+      "content": "Podemos terminar por incumplimiento con 30 días de aviso. El contenido creado durante una suscripción válida permanece licenciado."
+    },
+    "warrantyDisclaimer": {
+      "title": "6. EXENCIÓN DE GARANTÍA",
+      "content": "Servicio proporcionado TAL CUAL sin garantías. No garantizamos idoneidad para propósitos específicos."
+    },
+    "limitationOfLiability": {
+      "title": "7. LIMITACIÓN DE RESPONSABILIDAD",
+      "content": "Responsabilidad máxima limitada a tarifas pagadas en los 12 meses anteriores."
+    },
+    "governingLaw": {
+      "title": "8. LEY APLICABLE",
+      "content": "Ley sueca. Jurisdicción de Estocolmo."
+    },
+    "modifications": {
+      "title": "9. MODIFICACIONES",
+      "content": "Podemos modificar los términos con 30 días de aviso. El uso continuado constituye aceptación."
+    },
+    "contact": {
+      "title": "10. CONTACTO",
+      "content": "Para consultas de licencia: license@lessoncraftstudio.com"
+    }
+  },
   "privacy": {
     "title": "Política de privacidad",
     "lastUpdated": "Última actualización",
@@ -473,60 +437,6 @@
       "dpo": "DPD: dpo@lessoncraftstudio.com"
     }
   },
-  "license": {
-    "title": "Términos de licencia",
-    "lastUpdated": "Última actualización",
-    "effectiveDate": "Enero 2025",
-    "grantOfLicense": {
-      "title": "1. CONCESIÓN DE LICENCIA",
-      "intro": "LessonCraftStudio le otorga una licencia para usar el contenido generado según su suscripción:",
-      "freeTier": "Gratuito: Solo uso educativo personal no comercial",
-      "coreBundle": "Core: Uso educativo comercial en su institución",
-      "fullAccess": "Acceso Completo: Uso comercial ilimitado incluyendo impresión bajo demanda y reventa"
-    },
-    "intellectualProperty": {
-      "title": "2. PROPIEDAD INTELECTUAL",
-      "intro": "Conserva sus contenidos originales. Retenemos derechos sobre elementos de la plataforma. El contenido generado se licencia según la Sección 1."
-    },
-    "restrictions": {
-      "title": "3. RESTRICCIONES",
-      "intro": "No puede:",
-      "reverseEngineer": "Aplicar ingeniería inversa a la plataforma",
-      "competing": "Crear servicios competidores",
-      "sublicense": "Sublicenciar acceso a la plataforma",
-      "removeNotices": "Eliminar marcas de agua del contenido gratuito",
-      "illegal": "Usar para fines ilegales"
-    },
-    "commercialDistribution": {
-      "title": "4. DISTRIBUCIÓN COMERCIAL",
-      "pod": "Impresión bajo demanda: Los suscriptores de Acceso Completo pueden vender ilimitadamente a través de plataformas de impresión bajo demanda.",
-      "digital": "Distribución digital: Todos los niveles pueden distribuir versiones digitales según su licencia."
-    },
-    "termination": {
-      "title": "5. TERMINACIÓN",
-      "content": "Podemos terminar por incumplimiento con 30 días de aviso. El contenido creado durante una suscripción válida permanece licenciado."
-    },
-    "warrantyDisclaimer": {
-      "title": "6. EXENCIÓN DE GARANTÍA",
-      "content": "Servicio proporcionado TAL CUAL sin garantías. No garantizamos idoneidad para propósitos específicos."
-    },
-    "limitationOfLiability": {
-      "title": "7. LIMITACIÓN DE RESPONSABILIDAD",
-      "content": "Responsabilidad máxima limitada a tarifas pagadas en los 12 meses anteriores."
-    },
-    "governingLaw": {
-      "title": "8. LEY APLICABLE",
-      "content": "Ley sueca. Jurisdicción de Estocolmo."
-    },
-    "modifications": {
-      "title": "9. MODIFICACIONES",
-      "content": "Podemos modificar los términos con 30 días de aviso. El uso continuado constituye aceptación."
-    },
-    "contact": {
-      "title": "10. CONTACTO",
-      "content": "Para consultas de licencia: license@lessoncraftstudio.com"
-    }
-  },
   "faq": {
     "metaTitle": "Preguntas Frecuentes - LessonCraftStudio",
     "metaDescription": "Respuestas a las preguntas más comunes sobre nuestros 33 generadores de fichas, planes de precios, licencias comerciales y soporte técnico",
@@ -547,6 +457,532 @@
       "subtitle": "Nuestro equipo de soporte está aquí para ayudarle. Contáctenos y le responderemos en 24-48 horas.",
       "button": "Contactar Soporte"
     }
+  },
+  "billing": {
+    "pageTitle": "Facturación y suscripción",
+    "currentPlanTitle": "Tu plan actual: {plan}",
+    "planCard": {
+      "title": "Plan",
+      "perMonth": "/mes"
+    },
+    "billingPeriodCard": {
+      "title": "Período de facturación",
+      "noActiveSubscription": "Sin suscripción activa",
+      "cancelsOn": "Finaliza el",
+      "renewsOn": "Se renueva el"
+    },
+    "statusCard": {
+      "title": "Estado",
+      "active": "Activo",
+      "inactive": "Inactivo",
+      "ends": "Finaliza",
+      "renews": "Se renueva",
+      "noSubscription": "Sin suscripción activa"
+    },
+    "actions": {
+      "upgradePlan": "Mejorar plan",
+      "reactivateSubscription": "Reactivar suscripción",
+      "changePlan": "Cambiar de plan",
+      "cancelSubscription": "Cancelar suscripción",
+      "stripePortal": "Portal de facturación"
+    },
+    "messages": {
+      "cancelWarning": "Tu suscripción finalizará el {date}. Mantendrás acceso a todas las funciones hasta entonces.",
+      "paymentSuccess": "¡Pago exitoso! Tu suscripción está ahora activa.",
+      "paymentCancelled": "Pago cancelado. Puedes intentarlo de nuevo cuando quieras.",
+      "cancelConfirm": "¿Estás seguro de que quieres cancelar tu suscripción? Mantendrás el acceso hasta el final de tu período de facturación actual.",
+      "reactivateSuccess": "¡Suscripción reactivada exitosamente!",
+      "portalAccessFailed": "No se pudo acceder al portal de facturación",
+      "cancelFailed": "Error al cancelar la suscripción",
+      "reactivateFailed": "Error al reactivar la suscripción"
+    },
+    "features": {
+      "title": "Funciones de tu plan",
+      "upgradePrompt": "Mejora tu plan para desbloquear más funciones:"
+    },
+    "upgradeModal": {
+      "title": "Cambiar plan",
+      "currentPlan": "Plan actual",
+      "selectTier": "Seleccionar nivel",
+      "billingInterval": "Intervalo de facturación",
+      "monthly": "Mensual",
+      "yearly": "Anual",
+      "payMonthly": "Pagar mensualmente",
+      "savePercent": "Ahorrar 17%",
+      "perMonth": "/mes",
+      "calculating": "Calculando...",
+      "upgradePreview": "Vista previa de actualización",
+      "changePreview": "Vista previa del cambio",
+      "subtotal": "Subtotal:",
+      "tax": "IVA:",
+      "dueToday": "A pagar hoy:",
+      "creditApplied": "Crédito aplicado:",
+      "cancel": "Cancelar",
+      "processing": "Procesando...",
+      "confirmChange": "Confirmar cambio",
+      "selectDifferentPlan": "Seleccionar otro plan"
+    },
+    "tiers": {
+      "FREE": {
+        "name": "Gratis",
+        "description": "Perfecto para probar la plataforma",
+        "features": [
+          "Solo generador de sopa de letras",
+          "Fichas ilimitadas",
+          "Con marca de agua",
+          "Soporte de la comunidad"
+        ]
+      },
+      "CORE": {
+        "name": "Paquete Esencial",
+        "description": "Ideal para construir tu negocio de imprimibles",
+        "features": [
+          "Acceso a 10 generadores populares",
+          "Fichas ilimitadas",
+          "Sin marca de agua",
+          "Descargas PDF de alta calidad",
+          "Plantillas premium",
+          "Soporte por correo electrónico"
+        ]
+      },
+      "FULL": {
+        "name": "Acceso Completo",
+        "description": "La solución completa para profesionales",
+        "features": [
+          "Acceso a todos los 33+ generadores",
+          "Fichas ilimitadas",
+          "Sin marca de agua",
+          "Descargas PDF de alta calidad",
+          "Todas las plantillas premium",
+          "Soporte prioritario por correo",
+          "Licencia comercial incluida"
+        ]
+      }
+    }
+  },
+  "support": {
+    "pageTitle": "Centro de Asistencia",
+    "pageSubtitle": "Consulta tus solicitudes de soporte o crea una nueva",
+    "myTickets": "Mis Solicitudes",
+    "newTicket": "Nueva Solicitud",
+    "status": {
+      "open": "ABIERTA",
+      "in_progress": "EN PROCESO",
+      "waiting": "ESPERANDO RESPUESTA",
+      "resolved": "RESUELTA",
+      "closed": "CERRADA"
+    },
+    "priority": {
+      "low": "BAJA",
+      "medium": "MEDIA",
+      "high": "ALTA",
+      "urgent": "URGENTE"
+    },
+    "categories": {
+      "bug": "Reportar error",
+      "feature_request": "Sugerencia de función",
+      "billing": "Facturación y pagos",
+      "technical": "Consulta técnica",
+      "other": "Otro"
+    },
+    "noTicketsTitle": "No hay solicitudes de soporte",
+    "noTicketsMessage": "No tienes ninguna solicitud de soporte en este momento. Si necesitas ayuda, crea una nueva solicitud.",
+    "loadingTickets": "Cargando tus solicitudes...",
+    "ticketId": "N.º de solicitud",
+    "created": "Creada el",
+    "lastUpdated": "Actualizada",
+    "yourMessage": "Tu mensaje",
+    "adminResponse": "Respuesta de nuestro equipo",
+    "noResponseYet": "Aún no hemos respondido. Tu solicitud está siendo procesada.",
+    "deleteTicket": "Eliminar solicitud",
+    "deleteConfirm": "¿Estás seguro de que deseas eliminar esta solicitud? Esta acción no se puede deshacer.",
+    "formTitle": "Crear nueva solicitud de soporte",
+    "formDescription": "Describe tu problema con el mayor detalle posible para que podamos ayudarte de la mejor manera.",
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Tu nombre",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "tu@email.com",
+    "subjectLabel": "Asunto",
+    "subjectPlaceholder": "Resumen de tu consulta",
+    "categoryLabel": "Categoría",
+    "categoryPlaceholder": "Selecciona una categoría",
+    "priorityLabel": "Prioridad",
+    "priorityPlaceholder": "Selecciona la prioridad",
+    "messageLabel": "Mensaje",
+    "messagePlaceholder": "Describe tu problema en detalle...",
+    "submitButton": "Enviar solicitud",
+    "submitting": "Enviando...",
+    "cancel": "Cancelar",
+    "helpTitle": "¿Necesitas ayuda rápida?",
+    "helpDescription": "Antes de crear una solicitud, consulta nuestras preguntas frecuentes o revisa la documentación para encontrar respuestas rápidas.",
+    "viewFaq": "Ver preguntas frecuentes",
+    "viewDocs": "Documentación",
+    "responseTime": "Tiempo de respuesta",
+    "responseTimeInfo": "Generalmente respondemos en un plazo de 24 a 48 horas a las solicitudes de soporte.",
+    "requiredField": "Este campo es obligatorio",
+    "invalidEmail": "Por favor, ingresa un correo electrónico válido",
+    "successMessage": "Tu solicitud de soporte se ha enviado correctamente. Te responderemos lo antes posible.",
+    "errorMessage": "Ocurrió un error al enviar tu solicitud. Por favor, inténtalo de nuevo.",
+    "deleteSuccess": "La solicitud se eliminó correctamente.",
+    "deleteError": "Ocurrió un error al eliminar la solicitud.",
+    "loadError": "No se pudieron cargar tus solicitudes. Por favor, actualiza la página."
+  },
+  "footer": {
+    "byLanguage": "Hojas de trabajo por lengua",
+    "byTopic": "Hojas de trabajo por tema",
+    "byExerciseType": "Hojas de trabajo por tipo de actividad",
+    "moreLanguagesSoon": "Más lenguas próximamente",
+    "moreTopicsSoon": "Más temas próximamente",
+    "contact": "Contacto",
+    "terms": "Términos",
+    "privacy": "Privacidad",
+    "copyright": "© 2026 LessonCraftStudio."
+  },
+  "about": {
+    "metaTitle": "Sobre LessonCraftStudio | Generadores de Fichas Educativas",
+    "metaDescription": "Conozca LessonCraftStudio — 33 generadores de fichas profesionales en 11 idiomas con más de 3.000 imágenes temáticas para maestros, padres y terapeutas.",
+    "hero": {
+      "title": "Sobre LessonCraftStudio",
+      "subtitle": "Apoyando a educadores en todo el mundo con generadores de fichas profesionales"
+    },
+    "stats": {
+      "generators": "33",
+      "generatorsLabel": "Generadores de fichas",
+      "languages": "11",
+      "languagesLabel": "Idiomas",
+      "images": "3.000+",
+      "imagesLabel": "Imágenes temáticas",
+      "themes": "100+",
+      "themesLabel": "Temas"
+    },
+    "mission": {
+      "title": "Nuestra misión",
+      "description": "LessonCraftStudio fue creado para ayudar a vendedores de Etsy, editores KDP y emprendedores de imprimibles a generar fichas profesionales al instante — sin habilidades de diseño, software costoso ni horas de preparación.",
+      "description2": "Nuestros 33 generadores crean PDFs listos para imprimir en 300 DPI con claves de respuesta, 3.000+ imágenes temáticas y 11 idiomas — todo con licencia comercial para vender en cualquier plataforma."
+    },
+    "methodology": {
+      "title": "Nuestro enfoque",
+      "instant": {
+        "title": "Generación instantánea",
+        "description": "Seleccione un tema, personalice los ajustes y genere una ficha lista para imprimir en segundos. No se requieren habilidades de diseño."
+      },
+      "research": {
+        "title": "Calidad profesional",
+        "description": "Cada generador crea PDFs listos para vender en 300 DPI con claves de respuesta — perfectos para tiendas Etsy, libros KDP y descargas digitales."
+      },
+      "inclusive": {
+        "title": "Multilingüe e inclusivo",
+        "description": "Los 33 generadores funcionan perfectamente en 11 idiomas, con contenido culturalmente apropiado y una biblioteca de más de 3.000 imágenes seleccionadas."
+      }
+    },
+    "audience": {
+      "title": "¿A quién servimos?",
+      "teachers": {
+        "title": "Vendedores Etsy y KDP",
+        "description": "Cree rápidamente un catálogo de productos imprimibles. Genere fichas temáticas únicas que destaquen en el mercado."
+      },
+      "parents": {
+        "title": "Uso personal",
+        "description": "Cree fichas para educación en casa o proyectos personales en segundos. Prueba gratuita con marca de agua — sin registro."
+      },
+      "therapists": {
+        "title": "Creadores de contenido y editores",
+        "description": "Produzca contenido imprimible profesional a gran escala. 33 generadores, 104 temas, 11 idiomas — cree cientos de productos únicos en una sola plataforma."
+      }
+    },
+    "cta": {
+      "title": "¿Listo para crear?",
+      "subtitle": "Comience a crear fichas profesionales en segundos — prueba gratuita.",
+      "button": "Explorar generadores"
+    },
+    "metaKeywords": "sobre LessonCraftStudio, generadores de fichas, herramientas de creacion de imprimibles, imprimibles Etsy, fichas Amazon KDP, creador de libros de puzzles, generador de fichas comercial, fichas multilingues",
+    "expertise": {
+      "title": "Creado para vendedores",
+      "subtitle": "Cada funcion esta disenada para ayudarte a crear y vender mas productos, mas rapido",
+      "curriculum": {
+        "title": "Produccion lista para vender",
+        "description": "Exportacion PDF 300 DPI, claves de respuesta automaticas, formato optimizado para KDP y modo escala de grises. Tu produccion esta lista para publicar en Etsy, Amazon KDP o Teachers Pay Teachers inmediatamente."
+      },
+      "educators": {
+        "title": "Derechos comerciales completos",
+        "description": "Cada producto de pago incluye derechos comerciales sin restricciones. Vende en cualquier plataforma, en cualquier cantidad. Sin atribucion requerida, sin regalias, sin restricciones."
+      },
+      "evidence": {
+        "title": "Compra unica",
+        "description": "Sin suscripciones, sin cuotas mensuales, sin costos ocultos. Paga una vez y usa tus generadores para siempre. Todos los productos incluyen una garantia de devolucion de 30 dias."
+      }
+    }
+  },
+  "seo": {
+    "educational_level": {
+      "preschool": "Preescolar",
+      "kindergarten": "Jardín de infancia",
+      "grade_1": "1.º de primaria",
+      "grade_2": "2.º de primaria",
+      "grade_3": "3.º de primaria"
+    }
+  },
+  "endDeck": {
+    "heading": "¿Quieres más?",
+    "moreType": "Más fichas de {type}",
+    "moreTheme": "Más fichas con tema de {theme}",
+    "moreLevel": "Más fichas para {level}",
+    "browseAll": "Explorar todas las fichas"
+  },
+  "collections": {
+    "meta": {
+      "title": "Sus colecciones | LessonCraftStudio",
+      "description": "Guarde y organice los decks en colecciones — por clase, por unidad, por semana."
+    },
+    "list": {
+      "title": "Sus colecciones",
+      "loading": "Cargando…",
+      "newCollection": "+ Nueva colección",
+      "emptyStateTitle": "Aún no hay colecciones",
+      "emptyStateBody": "Guarde y organice los decks en colecciones — por clase, por unidad, por semana. Pulse + Nueva colección para empezar.",
+      "deckCount": "{count, plural, =0 {Sin decks} =1 {1 deck} other {# decks}}",
+      "errorGeneric": "Algo salió mal. Por favor, inténtelo de nuevo."
+    },
+    "create": {
+      "title": "Nueva colección",
+      "nameLabel": "Nombre",
+      "namePlaceholder": "por ejemplo, Vocabulario de primavera",
+      "descriptionLabel": "Descripción (opcional)",
+      "submit": "Crear",
+      "cancel": "Cancelar",
+      "submitting": "Creando…",
+      "errorRequired": "Por favor, introduzca un nombre.",
+      "errorGeneric": "No se pudo crear la colección. Por favor, inténtelo de nuevo."
+    },
+    "detail": {
+      "metaTitle": "{name} | LessonCraftStudio",
+      "back": "← Todas las colecciones",
+      "renameCta": "Renombrar",
+      "renameTitle": "Renombrar colección",
+      "renameSubmit": "Guardar",
+      "renameCancel": "Cancelar",
+      "renameSubmitting": "Guardando…",
+      "deleteCta": "Eliminar colección",
+      "deleteConfirmTitle": "¿Eliminar esta colección?",
+      "deleteConfirmBody": "Los decks no se eliminarán del catálogo.",
+      "deleteConfirmCta": "Eliminar",
+      "deleteCancel": "Cancelar",
+      "deleteSubmitting": "Eliminando…",
+      "removeDeck": "Quitar",
+      "removeDeckConfirm": "¿Quitar este deck de la colección?",
+      "playOnline": "Jugar en línea",
+      "pdf": "Imprimir PDF",
+      "emptyTitle": "Aún no hay decks en esta colección",
+      "emptyBody": "Explore el catálogo y pulse \"Añadir a la colección\" en cualquier tarjeta de deck.",
+      "errorGeneric": "Algo salió mal. Por favor, inténtelo de nuevo."
+    },
+    "gate": {
+      "subscribePromptTitle": "Las colecciones forman parte de la suscripción",
+      "subscribePromptBody": "Guardar y organizar los decks en colecciones es una de las herramientas del espacio de trabajo que la suscripción de $69 al año desbloquea. Los usuarios gratuitos pueden explorar, imprimir, insertar y compartir cada deck — sin cuenta.",
+      "subscribeCta": "Ir a la suscripción",
+      "signInPromptTitle": "Inicie sesión para acceder a sus colecciones",
+      "signInPromptBody": "Sus colecciones están vinculadas a su cuenta. Inicie sesión para verlas.",
+      "signInCta": "Iniciar sesión"
+    },
+    "addAffordance": {
+      "label": "Añadir a la colección",
+      "pickerTitle": "Añadir a una colección",
+      "pickerLoading": "Cargando colecciones…",
+      "pickerEmpty": "Aún no tiene colecciones. Cree una primero.",
+      "pickerCreate": "+ Nueva colección",
+      "pickerCancel": "Cancelar",
+      "added": "Añadido a {collectionName}",
+      "alreadyIn": "Ya está en esta colección",
+      "errorGeneric": "No se pudo añadir. Por favor, inténtelo de nuevo."
+    }
+  },
+  "topicPage": {
+    "meta": {
+      "title": "Hojas de trabajo de {topic} | LessonCraftStudio",
+      "description": "Hojas de trabajo de {topic} gratuitas y PDFs imprimibles. Actividades interactivas para aulas de la primera infancia."
+    },
+    "heading": {
+      "exerciseType": "Hojas de trabajo de {topic}",
+      "theme": "Hojas de trabajo con {topic}",
+      "educationalLevel": "Hojas de trabajo para {topic}"
+    },
+    "intro": {
+      "exerciseType": "Hojas de trabajo interactivas y PDFs imprimibles para practicar {topic}.",
+      "theme": "Hojas de trabajo con {topic}.",
+      "educationalLevel": "Actividades para {topic}."
+    },
+    "decksCount": "{count, plural, =0 {Aún no hay hojas de trabajo} =1 {1 hoja de trabajo} other {# hojas de trabajo}}",
+    "deckCard": {
+      "playLink": "Jugar en línea",
+      "pdfLink": "Imprimir PDF"
+    },
+    "emptyState": "Aún no hay hojas de trabajo en este tema — vuelva a consultarnos pronto."
+  },
+  "workspace": {
+    "metadata": {
+      "title": "Su espacio de trabajo | LessonCraftStudio",
+      "description": "Su espacio de trabajo de suscriptor — colecciones, actividad reciente y las herramientas para mantener su enseñanza organizada."
+    },
+    "header": {
+      "title": "Espacio de trabajo",
+      "welcomeLine": "Sus colecciones y su actividad reciente, todo en un solo lugar."
+    },
+    "gate": {
+      "subscribePromptTitle": "El espacio de trabajo forma parte de la suscripción",
+      "subscribePromptBody": "Su espacio de trabajo — colecciones, actividad reciente y decks guardados — es una de las herramientas que la suscripción de $69 al año desbloquea.",
+      "subscribeCta": "Ir a la suscripción",
+      "signInPromptTitle": "Inicie sesión para acceder a su espacio de trabajo",
+      "signInPromptBody": "Su espacio de trabajo está vinculado a su cuenta. Inicie sesión para verlo.",
+      "signInCta": "Iniciar sesión"
+    },
+    "loading": "Cargando…",
+    "errorGeneric": "Algo salió mal. Por favor, inténtelo de nuevo.",
+    "collections": {
+      "heading": "Sus colecciones",
+      "viewAll": "Ver todas ({count})",
+      "cardDeckCount": "{count, plural, =0 {Sin decks} =1 {1 deck} other {# decks}}",
+      "empty": {
+        "title": "Aún no hay colecciones",
+        "body": "Guarde y organice los decks en colecciones — por clase, por unidad, por semana."
+      }
+    },
+    "recentActivity": {
+      "heading": "Actividad reciente",
+      "empty": {
+        "title": "Todavía no hay nada aquí",
+        "body": "La actividad aparecerá aquí a medida que recopile, organice y comparta decks."
+      },
+      "activityType": {
+        "collected": "{deckTitle} añadido a {collectionName}",
+        "modified": "{collectionName} actualizada",
+        "shared": "{deckTitle} compartido"
+      },
+      "relativeTime": {
+        "justNow": "ahora mismo",
+        "minutesAgo": "{count, plural, =1 {hace 1 minuto} other {hace # minutos}}",
+        "hoursAgo": "{count, plural, =1 {hace 1 hora} other {hace # horas}}",
+        "daysAgo": "{count, plural, =1 {hace 1 día} other {hace # días}}",
+        "weeksAgo": "{count, plural, =1 {hace 1 semana} other {hace # semanas}}"
+      }
+    }
+  },
+  "bulk": {
+    "toggleSelect": "Seleccionar",
+    "toggleDone": "Listo",
+    "toolbarAria": "Acciones de selección múltiple",
+    "selectionCount": "{count, plural, =1 {1 deck seleccionado} other {# decks seleccionados}}",
+    "checkboxAria": "Seleccionar {title}",
+    "action": {
+      "addToCollection": "Añadir a la colección",
+      "removeFromCollection": "Quitar",
+      "shareLinks": "Compartir enlaces",
+      "cancel": "Cancelar"
+    },
+    "addedConfirmation": "{count, plural, =1 {1 deck añadido a {collectionName}} other {# decks añadidos a {collectionName}}}",
+    "removedConfirmation": "{count, plural, =1 {1 deck quitado} other {# decks quitados}}",
+    "errorGeneric": "Algo salió mal. Por favor, inténtelo de nuevo.",
+    "addToCollectionPicker": {
+      "pickerTitle": "{count, plural, =1 {Añadir 1 deck a una colección} other {Añadir # decks a una colección}}",
+      "pickerLoading": "Cargando colecciones…",
+      "pickerEmpty": "Aún no tiene colecciones. Cree una primero.",
+      "pickerCreate": "+ Nueva colección",
+      "pickerCancel": "Cancelar",
+      "errorGeneric": "No se pudieron cargar las colecciones. Por favor, inténtelo de nuevo."
+    }
+  },
+  "share": {
+    "label": "Compartir enlace",
+    "singleDeckTitle": "Compartir este deck",
+    "singleDeckBody": "Cualquier persona con este enlace puede jugar el deck. El enlace no caduca.",
+    "generating": "Generando enlace…",
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "copyAll": "Copiar todo",
+    "copiedAll": "¡Todo copiado!",
+    "close": "Cerrar",
+    "errorGeneric": "No se pudo generar el enlace. Por favor, inténtelo de nuevo.",
+    "errorClipboard": "No se pudo acceder al portapapeles. Seleccione el enlace y cópielo manualmente.",
+    "bulkResultsTitle": "{count, plural, =1 {1 enlace para compartir} other {# enlaces para compartir}}",
+    "bulkResultsSkipped": "{count, plural, =1 {1 deck fue omitido (no publicado)} other {# decks fueron omitidos (no publicados)}}"
+  },
+  "worksheetSamples": {
+    "title": "Galería de ejemplos de hojas de trabajo",
+    "subtitle": "Haz clic en una hoja para ver una vista previa más grande. Estos son solo algunos ejemplos de nuestra colección de 33 generadores profesionales de hojas de trabajo.",
+    "ctaText": "Explorar los 33 generadores de hojas →",
+    "alphabetTrain": {
+      "title": "Tren del alfabeto",
+      "description": "Aprendizaje divertido del alfabeto con vagones coloridos"
+    },
+    "codeAddition": {
+      "title": "Code-Addition",
+      "description": "Descifra el código con acertijos de suma"
+    },
+    "diagramAndCount": {
+      "title": "Gráficos y conteo",
+      "description": "Aprende gráficos y visualización de datos"
+    },
+    "hiddenObjects": {
+      "title": "Objetos ocultos",
+      "description": "Encuentra objetos ocultos en escenas detalladas"
+    },
+    "iSpy": {
+      "title": "Veo Veo",
+      "description": "¡El clásico juego de búsqueda visual!"
+    },
+    "patternTrain": {
+      "title": "Tren de patrones",
+      "description": "Completa las secuencias de patrones"
+    },
+    "modalLabels": {
+      "ageRange": "Rango de edad",
+      "difficulty": "Dificultad",
+      "category": "Categoría"
+    },
+    "difficulties": {
+      "Easy": "Fácil",
+      "Medium": "Medio",
+      "Hard": "Difícil"
+    },
+    "categories": {
+      "Language": "Lenguaje",
+      "Math": "Matemáticas",
+      "Visual": "Visual",
+      "Pattern": "Patrones"
+    },
+    "ageRanges": {
+      "age3to5": "3-5 años",
+      "age4to7": "4-7 años",
+      "age5to8": "5-8 años",
+      "age6to8": "6-8 años",
+      "age7to10": "7-10 años"
+    }
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ocurrió un error",
+    "retry": "Reintentar",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "create": "Crear",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "close": "Cerrar",
+    "open": "Abrir",
+    "yes": "Sí",
+    "no": "No",
+    "confirm": "Confirmar",
+    "download": "Descargar",
+    "upload": "Subir",
+    "select": "Seleccionar",
+    "selectAll": "Seleccionar todo",
+    "deselectAll": "Deseleccionar todo",
+    "required": "Requerido",
+    "optional": "Opcional"
   },
   "dashboard": {
     "header": {
@@ -792,287 +1228,5 @@
         "description": "Encuentra las piezas que faltan"
       }
     }
-  },
-  "billing": {
-    "pageTitle": "Facturación y suscripción",
-    "currentPlanTitle": "Tu plan actual: {plan}",
-    "planCard": {
-      "title": "Plan",
-      "perMonth": "/mes"
-    },
-    "billingPeriodCard": {
-      "title": "Período de facturación",
-      "noActiveSubscription": "Sin suscripción activa",
-      "cancelsOn": "Finaliza el",
-      "renewsOn": "Se renueva el"
-    },
-    "statusCard": {
-      "title": "Estado",
-      "active": "Activo",
-      "inactive": "Inactivo",
-      "ends": "Finaliza",
-      "renews": "Se renueva",
-      "noSubscription": "Sin suscripción activa"
-    },
-    "actions": {
-      "upgradePlan": "Mejorar plan",
-      "reactivateSubscription": "Reactivar suscripción",
-      "changePlan": "Cambiar de plan",
-      "cancelSubscription": "Cancelar suscripción",
-      "stripePortal": "Portal de facturación"
-    },
-    "messages": {
-      "cancelWarning": "Tu suscripción finalizará el {date}. Mantendrás acceso a todas las funciones hasta entonces.",
-      "paymentSuccess": "¡Pago exitoso! Tu suscripción está ahora activa.",
-      "paymentCancelled": "Pago cancelado. Puedes intentarlo de nuevo cuando quieras.",
-      "cancelConfirm": "¿Estás seguro de que quieres cancelar tu suscripción? Mantendrás el acceso hasta el final de tu período de facturación actual.",
-      "reactivateSuccess": "¡Suscripción reactivada exitosamente!",
-      "portalAccessFailed": "No se pudo acceder al portal de facturación",
-      "cancelFailed": "Error al cancelar la suscripción",
-      "reactivateFailed": "Error al reactivar la suscripción"
-    },
-    "features": {
-      "title": "Funciones de tu plan",
-      "upgradePrompt": "Mejora tu plan para desbloquear más funciones:"
-    },
-    "upgradeModal": {
-      "title": "Cambiar plan",
-      "currentPlan": "Plan actual",
-      "selectTier": "Seleccionar nivel",
-      "billingInterval": "Intervalo de facturación",
-      "monthly": "Mensual",
-      "yearly": "Anual",
-      "payMonthly": "Pagar mensualmente",
-      "savePercent": "Ahorrar 17%",
-      "perMonth": "/mes",
-      "calculating": "Calculando...",
-      "upgradePreview": "Vista previa de actualización",
-      "changePreview": "Vista previa del cambio",
-      "subtotal": "Subtotal:",
-      "tax": "IVA:",
-      "dueToday": "A pagar hoy:",
-      "creditApplied": "Crédito aplicado:",
-      "cancel": "Cancelar",
-      "processing": "Procesando...",
-      "confirmChange": "Confirmar cambio",
-      "selectDifferentPlan": "Seleccionar otro plan"
-    },
-    "tiers": {
-      "FREE": {
-        "name": "Gratis",
-        "description": "Perfecto para probar la plataforma",
-        "features": [
-          "Solo generador de sopa de letras",
-          "Fichas ilimitadas",
-          "Con marca de agua",
-          "Soporte de la comunidad"
-        ]
-      },
-      "CORE": {
-        "name": "Paquete Esencial",
-        "description": "Ideal para construir tu negocio de imprimibles",
-        "features": [
-          "Acceso a 10 generadores populares",
-          "Fichas ilimitadas",
-          "Sin marca de agua",
-          "Descargas PDF de alta calidad",
-          "Plantillas premium",
-          "Soporte por correo electrónico"
-        ]
-      },
-      "FULL": {
-        "name": "Acceso Completo",
-        "description": "La solución completa para profesionales",
-        "features": [
-          "Acceso a todos los 33+ generadores",
-          "Fichas ilimitadas",
-          "Sin marca de agua",
-          "Descargas PDF de alta calidad",
-          "Todas las plantillas premium",
-          "Soporte prioritario por correo",
-          "Licencia comercial incluida"
-        ]
-      }
-    }
-  },
-  "support": {
-    "pageTitle": "Centro de Asistencia",
-    "pageSubtitle": "Consulta tus solicitudes de soporte o crea una nueva",
-    "myTickets": "Mis Solicitudes",
-    "newTicket": "Nueva Solicitud",
-    "status": {
-      "open": "ABIERTA",
-      "in_progress": "EN PROCESO",
-      "waiting": "ESPERANDO RESPUESTA",
-      "resolved": "RESUELTA",
-      "closed": "CERRADA"
-    },
-    "priority": {
-      "low": "BAJA",
-      "medium": "MEDIA",
-      "high": "ALTA",
-      "urgent": "URGENTE"
-    },
-    "categories": {
-      "bug": "Reportar error",
-      "feature_request": "Sugerencia de función",
-      "billing": "Facturación y pagos",
-      "technical": "Consulta técnica",
-      "other": "Otro"
-    },
-    "noTicketsTitle": "No hay solicitudes de soporte",
-    "noTicketsMessage": "No tienes ninguna solicitud de soporte en este momento. Si necesitas ayuda, crea una nueva solicitud.",
-    "loadingTickets": "Cargando tus solicitudes...",
-    "ticketId": "N.º de solicitud",
-    "created": "Creada el",
-    "lastUpdated": "Actualizada",
-    "yourMessage": "Tu mensaje",
-    "adminResponse": "Respuesta de nuestro equipo",
-    "noResponseYet": "Aún no hemos respondido. Tu solicitud está siendo procesada.",
-    "deleteTicket": "Eliminar solicitud",
-    "deleteConfirm": "¿Estás seguro de que deseas eliminar esta solicitud? Esta acción no se puede deshacer.",
-    "formTitle": "Crear nueva solicitud de soporte",
-    "formDescription": "Describe tu problema con el mayor detalle posible para que podamos ayudarte de la mejor manera.",
-    "nameLabel": "Nombre",
-    "namePlaceholder": "Tu nombre",
-    "emailLabel": "Correo electrónico",
-    "emailPlaceholder": "tu@email.com",
-    "subjectLabel": "Asunto",
-    "subjectPlaceholder": "Resumen de tu consulta",
-    "categoryLabel": "Categoría",
-    "categoryPlaceholder": "Selecciona una categoría",
-    "priorityLabel": "Prioridad",
-    "priorityPlaceholder": "Selecciona la prioridad",
-    "messageLabel": "Mensaje",
-    "messagePlaceholder": "Describe tu problema en detalle...",
-    "submitButton": "Enviar solicitud",
-    "submitting": "Enviando...",
-    "cancel": "Cancelar",
-    "helpTitle": "¿Necesitas ayuda rápida?",
-    "helpDescription": "Antes de crear una solicitud, consulta nuestras preguntas frecuentes o revisa la documentación para encontrar respuestas rápidas.",
-    "viewFaq": "Ver preguntas frecuentes",
-    "viewDocs": "Documentación",
-    "responseTime": "Tiempo de respuesta",
-    "responseTimeInfo": "Generalmente respondemos en un plazo de 24 a 48 horas a las solicitudes de soporte.",
-    "requiredField": "Este campo es obligatorio",
-    "invalidEmail": "Por favor, ingresa un correo electrónico válido",
-    "successMessage": "Tu solicitud de soporte se ha enviado correctamente. Te responderemos lo antes posible.",
-    "errorMessage": "Ocurrió un error al enviar tu solicitud. Por favor, inténtalo de nuevo.",
-    "deleteSuccess": "La solicitud se eliminó correctamente.",
-    "deleteError": "Ocurrió un error al eliminar la solicitud.",
-    "loadError": "No se pudieron cargar tus solicitudes. Por favor, actualiza la página."
-  },
-  "about": {
-    "metaTitle": "Sobre LessonCraftStudio | Generadores de Fichas Educativas",
-    "metaDescription": "Conozca LessonCraftStudio — 33 generadores de fichas profesionales en 11 idiomas con más de 3.000 imágenes temáticas para maestros, padres y terapeutas.",
-    "hero": {
-      "title": "Sobre LessonCraftStudio",
-      "subtitle": "Apoyando a educadores en todo el mundo con generadores de fichas profesionales"
-    },
-    "stats": {
-      "generators": "33",
-      "generatorsLabel": "Generadores de fichas",
-      "languages": "11",
-      "languagesLabel": "Idiomas",
-      "images": "3.000+",
-      "imagesLabel": "Imágenes temáticas",
-      "themes": "100+",
-      "themesLabel": "Temas"
-    },
-    "mission": {
-      "title": "Nuestra misión",
-      "description": "LessonCraftStudio fue creado para ayudar a vendedores de Etsy, editores KDP y emprendedores de imprimibles a generar fichas profesionales al instante — sin habilidades de diseño, software costoso ni horas de preparación.",
-      "description2": "Nuestros 33 generadores crean PDFs listos para imprimir en 300 DPI con claves de respuesta, 3.000+ imágenes temáticas y 11 idiomas — todo con licencia comercial para vender en cualquier plataforma."
-    },
-    "methodology": {
-      "title": "Nuestro enfoque",
-      "instant": {
-        "title": "Generación instantánea",
-        "description": "Seleccione un tema, personalice los ajustes y genere una ficha lista para imprimir en segundos. No se requieren habilidades de diseño."
-      },
-      "research": {
-        "title": "Calidad profesional",
-        "description": "Cada generador crea PDFs listos para vender en 300 DPI con claves de respuesta — perfectos para tiendas Etsy, libros KDP y descargas digitales."
-      },
-      "inclusive": {
-        "title": "Multilingüe e inclusivo",
-        "description": "Los 33 generadores funcionan perfectamente en 11 idiomas, con contenido culturalmente apropiado y una biblioteca de más de 3.000 imágenes seleccionadas."
-      }
-    },
-    "audience": {
-      "title": "¿A quién servimos?",
-      "teachers": {
-        "title": "Vendedores Etsy y KDP",
-        "description": "Cree rápidamente un catálogo de productos imprimibles. Genere fichas temáticas únicas que destaquen en el mercado."
-      },
-      "parents": {
-        "title": "Uso personal",
-        "description": "Cree fichas para educación en casa o proyectos personales en segundos. Prueba gratuita con marca de agua — sin registro."
-      },
-      "therapists": {
-        "title": "Creadores de contenido y editores",
-        "description": "Produzca contenido imprimible profesional a gran escala. 33 generadores, 104 temas, 11 idiomas — cree cientos de productos únicos en una sola plataforma."
-      }
-    },
-    "cta": {
-      "title": "¿Listo para crear?",
-      "subtitle": "Comience a crear fichas profesionales en segundos — prueba gratuita.",
-      "button": "Explorar generadores"
-    },
-    "metaKeywords": "sobre LessonCraftStudio, generadores de fichas, herramientas de creacion de imprimibles, imprimibles Etsy, fichas Amazon KDP, creador de libros de puzzles, generador de fichas comercial, fichas multilingues",
-    "expertise": {
-      "title": "Creado para vendedores",
-      "subtitle": "Cada funcion esta disenada para ayudarte a crear y vender mas productos, mas rapido",
-      "curriculum": {
-        "title": "Produccion lista para vender",
-        "description": "Exportacion PDF 300 DPI, claves de respuesta automaticas, formato optimizado para KDP y modo escala de grises. Tu produccion esta lista para publicar en Etsy, Amazon KDP o Teachers Pay Teachers inmediatamente."
-      },
-      "educators": {
-        "title": "Derechos comerciales completos",
-        "description": "Cada producto de pago incluye derechos comerciales sin restricciones. Vende en cualquier plataforma, en cualquier cantidad. Sin atribucion requerida, sin regalias, sin restricciones."
-      },
-      "evidence": {
-        "title": "Compra unica",
-        "description": "Sin suscripciones, sin cuotas mensuales, sin costos ocultos. Paga una vez y usa tus generadores para siempre. Todos los productos incluyen una garantia de devolucion de 30 dias."
-      }
-    }
-  },
-  "seo": {
-    "educational_level": {
-      "preschool": "Preescolar",
-      "kindergarten": "Jardín de infancia",
-      "grade_1": "1.º de primaria",
-      "grade_2": "2.º de primaria",
-      "grade_3": "3.º de primaria"
-    }
-  },
-  "endDeck": {
-    "heading": "¿Quieres más?",
-    "moreType": "Más fichas de {type}",
-    "moreTheme": "Más fichas con tema de {theme}",
-    "moreLevel": "Más fichas para {level}",
-    "browseAll": "Explorar todas las fichas"
-  },
-  "topicPage": {
-    "meta": {
-      "title": "Hojas de trabajo de {topic} | LessonCraftStudio",
-      "description": "Hojas de trabajo de {topic} gratuitas y PDFs imprimibles. Actividades interactivas para aulas de la primera infancia."
-    },
-    "heading": {
-      "exerciseType": "Hojas de trabajo de {topic}",
-      "theme": "Hojas de trabajo con {topic}",
-      "educationalLevel": "Hojas de trabajo para {topic}"
-    },
-    "intro": {
-      "exerciseType": "Hojas de trabajo interactivas y PDFs imprimibles para practicar {topic}.",
-      "theme": "Hojas de trabajo con {topic}.",
-      "educationalLevel": "Actividades para {topic}."
-    },
-    "decksCount": "{count, plural, =0 {Aún no hay hojas de trabajo} =1 {1 hoja de trabajo} other {# hojas de trabajo}}",
-    "deckCard": {
-      "playLink": "Jugar en línea",
-      "pdfLink": "Imprimir PDF"
-    },
-    "emptyState": "Aún no hay hojas de trabajo en este tema — vuelva a consultarnos pronto."
   }
 }

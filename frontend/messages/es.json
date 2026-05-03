@@ -1228,5 +1228,36 @@
         "description": "Encuentra las piezas que faltan"
       }
     }
+  },
+  "lessonPlanReader": {
+    "metadata": {
+      "title": "Plan de clase | LessonCraftStudio",
+      "description": "Un plan de clase listo para usar, escrito para aulas K-3 bilingües."
+    },
+    "loading": "Cargando…",
+    "errorGeneric": "Algo salió mal. Por favor, inténtelo de nuevo.",
+    "notFoundTitle": "Plan de clase no encontrado",
+    "notFoundBody": "Aún no hay un plan de clase para este tema en este idioma.",
+    "totalDuration": "{minutes} minutos en total",
+    "sectionDuration": "{minutes} min",
+    "section": {
+      "warmup": "Calentamiento",
+      "contentActivity": "Actividad de contenido y lengua",
+      "scaffold": "Andamiaje lingüístico y práctica",
+      "closure": "Cierre"
+    },
+    "gate": {
+      "subscribePromptTitle": "Los planes de clase forman parte de la suscripción",
+      "subscribePromptBody": "Planes de clase ya escritos enlazados con nuestros decks, escritos para aulas K-3 bilingües — una de las herramientas que la suscripción de $69 al año desbloquea.",
+      "subscribeCta": "Ir a la suscripción",
+      "signInPromptTitle": "Inicie sesión para leer este plan de clase",
+      "signInPromptBody": "Los planes de clase forman parte de la biblioteca de suscriptores. Inicie sesión con su cuenta de suscriptor para leer.",
+      "signInCta": "Iniciar sesión"
+    },
+    "topicReference": {
+      "heading": "Plan de clase disponible",
+      "duration": "{minutes} minutos en total",
+      "readFullCta": "Leer el plan completo"
+    }
   }
 }

@@ -10,6 +10,7 @@ import {
   resolveTopicSlug,
 } from '@/lib/taxonomy';
 import { fetchDecksForAxis, listNonEmptyAxisKeys, TopicDeckSummary } from '@/lib/topic-decks';
+import { fetchLessonPlanSummaryForTopic } from '@/lib/lesson-plans';
 import DeckGridClient, { TopicDeckCardData } from './DeckGridClient';
 
 // Tier 1 launch locales per CLAUDE.md §19. Tier 2-4 fold in later; topic
@@ -214,6 +215,14 @@ export default async function TopicPage({ params }: { params: TopicParams }) {
   const canonical = `${BASE_URL}/${locale}/topic/${params.slug}/`;
   const schema = buildCollectionSchema(locale, topicName, canonical, decks);
 
+  // Pillar 1 Phase 1b — axis-driven lesson-plan reference. Silent fall-through
+  // when no plan exists for this (axisKey, locale). Renders as preview card
+  // above the deck grid when present. Subscriber-gating UI lives in the
+  // LessonPlanReader at the standalone reader route; topic-page link is
+  // public-facing and the read surface enforces gate.
+  const lessonPlanSummary = await fetchLessonPlanSummaryForTopic(axisKey, locale);
+  const tLessonPlan = await getTranslations({ locale, namespace: 'lessonPlanReader.topicReference' });
+
   return (
     <>
       <script
@@ -233,6 +242,32 @@ export default async function TopicPage({ params }: { params: TopicParams }) {
             {t('decksCount', { count: decks.length })}
           </p>
         </header>
+
+        {lessonPlanSummary && (
+          <section className="mb-10 p-6 rounded-lg bg-cream-100 border border-cream-300">
+            <h2 className="font-display text-xl font-semibold text-ink-900 mb-2">
+              {tLessonPlan('heading')}
+            </h2>
+            <p className="text-base text-ink-800 mb-3">
+              <span className="font-medium">{lessonPlanSummary.title}</span>
+              {' '}
+              <span className="text-sm text-ink-500">
+                · {tLessonPlan('duration', { minutes: lessonPlanSummary.durationMinutes })}
+              </span>
+            </p>
+            {lessonPlanSummary.warmupExcerpt && (
+              <p className="text-sm text-ink-700 mb-4">
+                {lessonPlanSummary.warmupExcerpt}
+              </p>
+            )}
+            <a
+              href={`/${locale}/lesson-plans/${params.slug}/`}
+              className="inline-flex items-center text-sm font-medium text-terracotta-500 hover:text-terracotta-600"
+            >
+              {tLessonPlan('readFullCta')} →
+            </a>
+          </section>
+        )}
 
         {/* Tool 5A — bulk-mode + per-card affordances live in client child.
             Page chrome above (header, JSON-LD, hreflang via generateMetadata)

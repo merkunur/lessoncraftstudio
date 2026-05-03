@@ -1215,5 +1215,36 @@
         "description": "Vind de ontbrekende stukken"
       }
     }
+  },
+  "lessonPlanReader": {
+    "metadata": {
+      "title": "Lesplan | LessonCraftStudio",
+      "description": "Een kant-en-klaar lesplan, geschreven voor tweetalige K-3-klassen."
+    },
+    "loading": "Laden…",
+    "errorGeneric": "Er is iets misgegaan. Probeer het opnieuw.",
+    "notFoundTitle": "Lesplan niet gevonden",
+    "notFoundBody": "Er is nog geen lesplan voor dit onderwerp in deze taal.",
+    "totalDuration": "In totaal {minutes} minuten",
+    "sectionDuration": "{minutes} min.",
+    "section": {
+      "warmup": "Opwarming",
+      "contentActivity": "Inhoud-taal-activiteit",
+      "scaffold": "Taalsteun en oefening",
+      "closure": "Afsluiting"
+    },
+    "gate": {
+      "subscribePromptTitle": "Lesplannen maken deel uit van het abonnement",
+      "subscribePromptBody": "Vooraf geschreven lesplannen gekoppeld aan onze decks, geschreven voor tweetalige K-3-klassen — een van de tools die het abonnement van $69 per jaar ontgrendelt.",
+      "subscribeCta": "Naar abonnement",
+      "signInPromptTitle": "Log in om dit lesplan te lezen",
+      "signInPromptBody": "Lesplannen maken deel uit van de abonnee-bibliotheek. Log in met uw abonnee-account om te lezen.",
+      "signInCta": "Inloggen"
+    },
+    "topicReference": {
+      "heading": "Lesplan beschikbaar",
+      "duration": "In totaal {minutes} minuten",
+      "readFullCta": "Lees het volledige plan"
+    }
   }
 }

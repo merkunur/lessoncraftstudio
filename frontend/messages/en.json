@@ -944,5 +944,36 @@
     "errorClipboard": "Could not access clipboard. Select the link and copy manually.",
     "bulkResultsTitle": "{count, plural, =1 {1 share link} other {# share links}}",
     "bulkResultsSkipped": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
+  },
+  "lessonPlanReader": {
+    "metadata": {
+      "title": "Lesson plan | LessonCraftStudio",
+      "description": "A ready-to-use lesson plan written for K-3 multilingual classrooms."
+    },
+    "loading": "Loading…",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "notFoundTitle": "Lesson plan not found",
+    "notFoundBody": "No lesson plan exists for this topic in this language yet.",
+    "totalDuration": "{minutes} minutes total",
+    "sectionDuration": "{minutes} min",
+    "section": {
+      "warmup": "Warmup",
+      "contentActivity": "Content-language activity",
+      "scaffold": "Language scaffold and practice",
+      "closure": "Closure"
+    },
+    "gate": {
+      "subscribePromptTitle": "Lesson plans are part of the subscription",
+      "subscribePromptBody": "Pre-written lesson plans paired with our decks, written for K-3 multilingual classrooms — one of the tools the $69/year subscription unlocks.",
+      "subscribeCta": "Go to subscribe",
+      "signInPromptTitle": "Sign in to read this lesson plan",
+      "signInPromptBody": "Lesson plans are part of the subscriber library. Sign in with your subscriber account to read.",
+      "signInCta": "Sign in"
+    },
+    "topicReference": {
+      "heading": "Lesson plan available",
+      "duration": "{minutes} minutes total",
+      "readFullCta": "Read the full plan"
+    }
   }
 }

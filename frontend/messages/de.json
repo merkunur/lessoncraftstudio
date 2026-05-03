@@ -1035,5 +1035,36 @@
     "errorClipboard": "Zugriff auf die Zwischenablage nicht möglich. Bitte den Link markieren und manuell kopieren.",
     "bulkResultsTitle": "{count, plural, =1 {1 Teilen-Link} other {# Teilen-Links}}",
     "bulkResultsSkipped": "{count, plural, =1 {1 Deck wurde übersprungen (nicht veröffentlicht)} other {# Decks wurden übersprungen (nicht veröffentlicht)}}"
+  },
+  "lessonPlanReader": {
+    "metadata": {
+      "title": "Unterrichtsentwurf | LessonCraftStudio",
+      "description": "Ein fertiger Unterrichtsentwurf für zweisprachige K-3-Klassen."
+    },
+    "loading": "Wird geladen…",
+    "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    "notFoundTitle": "Unterrichtsentwurf nicht gefunden",
+    "notFoundBody": "Für dieses Thema in dieser Sprache liegt noch kein Unterrichtsentwurf vor.",
+    "totalDuration": "Insgesamt {minutes} Minuten",
+    "sectionDuration": "{minutes} Min.",
+    "section": {
+      "warmup": "Aufwärmung",
+      "contentActivity": "Inhalt-Sprache-Aktivität",
+      "scaffold": "Sprachgerüst und Übung",
+      "closure": "Abschluss"
+    },
+    "gate": {
+      "subscribePromptTitle": "Unterrichtsentwürfe sind Teil des Abonnements",
+      "subscribePromptBody": "Vorgefertigte Unterrichtsentwürfe, mit unseren Decks verbunden, für zweisprachige K-3-Klassen geschrieben — eines der Werkzeuge, die das Abonnement für 69 USD/Jahr freischaltet.",
+      "subscribeCta": "Zum Abonnement",
+      "signInPromptTitle": "Melden Sie sich an, um diesen Unterrichtsentwurf zu lesen",
+      "signInPromptBody": "Unterrichtsentwürfe sind Teil der Abonnenten-Bibliothek. Melden Sie sich mit Ihrem Abonnenten-Konto an, um zu lesen.",
+      "signInCta": "Anmelden"
+    },
+    "topicReference": {
+      "heading": "Unterrichtsentwurf verfügbar",
+      "duration": "Insgesamt {minutes} Minuten",
+      "readFullCta": "Den vollständigen Entwurf lesen"
+    }
   }
 }

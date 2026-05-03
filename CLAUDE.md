@@ -644,7 +644,7 @@ This document is the stable reference. When reality diverges from it, the operat
 
 ## 13. The one sentence summary for every future session
 
-> Build a multilingual K-3 educator platform on the existing LessonCraftStudio technical foundation: rebuild the public site from scratch around teachers in international, bilingual, and immersion early-childhood programs; produce a catalog of interactive worksheets and printable PDFs in 11 languages with consistent quality; make every public page embed a working sample deck; gate lesson plans, themed bundles, and workspace tooling behind a $69/year subscription per `docs/SUBSCRIPTION-SCOPE.md`; bake SEO into every structural decision; launch with content depth in 4-5 priority languages and grow from there; ship within 12 months without destabilizing the existing Hetzner server, Lemon Squeezy integration, image library, or apps.
+> Build a multilingual K-3 educator platform on the existing LessonCraftStudio technical foundation: rebuild the public site from scratch around teachers in international, bilingual, and immersion early-childhood programs; produce a catalog of interactive worksheets and printable PDFs in 11 languages with consistent quality; **post Tier-2 closeout at `d3b4f962` (2026-05-03), 116 decks published across en+de+es+nl with all 4 locales at 100% C-1 catalog coverage; Wave 1 + Wave 2 i18n chrome shipped per locale; 4-locale Section 2 breadth grid balanced per §18.4 three-equilibria doctrine**; make every public page embed a working sample deck; gate lesson plans, themed bundles, and workspace tooling behind a $69/year subscription per `docs/SUBSCRIPTION-SCOPE.md`; bake SEO into every structural decision; **next-arc options post-Tier-2-closeout: Wave 3 chrome (support/billing/auth/legal long-tail), Tier 3 launch (sv/fi/no), or Pillar 1 lesson-plan authoring (launch-trigger-gating per `docs/SUBSCRIPTION-SCOPE.md` clause-a)**; ship within 12 months without destabilizing the existing Hetzner server, Lemon Squeezy integration, image library, or apps.
 
 If your task appears to be outside this scope, stop and ask the operator before proceeding.
 
@@ -1075,6 +1075,26 @@ The `(language, slug)` compound unique constraint (§17.8.5) surviving on archiv
 
 Origin: Brief B Phase 5 commit `0ad626cb` (`publish.js` extension).
 
+**Cross-locale-OK worked example (added 2026-05-03):** §15.10 same-locale block applies only to `(language, slug)` UPDATE attempts within the same locale. Cross-locale INSERTs of an archived slug are clean because the `Deck` table compound unique constraint is `(language, slug)`, not `slug`-alone. The (en, picture-path) row archived at `0ad626cb` does NOT block subsequent (de, picture-path) + (es, picture-path) + (nl, picture-path) INSERTs in different locales.
+
+**Worked instances:**
+- (de, picture-path) — pre-Phase-3a, published before en archive
+- (es, picture-path) — `1be13b8a` ES Batch 6 closeout
+- (nl, picture-path) — `645ca7ff` NL Batch 6 closeout
+
+**Locale-conditional emission at apps-side** (Phase-3a 5b-1 source-edit `67d5d99d`) handles the SAME-LOCALE case where an archived slug must be replaced. The pattern: `en` context emits `picture-trail` slug; `de` + `es` + `nl` contexts emit canonical `picture-path` slug. This is checked at app-side, not at publish-cli.
+
+**Routing matrix at NL Batch 6 closeout** (`645ca7ff`):
+
+| URL | Status | Source |
+|---|---|---|
+| /en/decks/picture-trail/ | 200 | `9b2c608e` (en-only canonical) |
+| /en/decks/picture-path/ | 404 | `0ad626cb` (archive contract holds) |
+| /de/decks/picture-path/ | 200 | pre-Phase-3a |
+| /es/decks/picture-path/ | 200 | `1be13b8a` |
+| /nl/decks/picture-path/ | 200 | `645ca7ff` |
+| /nl/decks/picture-trail/ | 404 | no nl deck at this slug |
+
 ### 15.11 The unpublish handler
 
 Single-deck-only CLI surface (Brief B Phase 5 Q1 lock; bulk-unpublish deferred to a future brief if volume ever justifies it):
@@ -1121,6 +1141,24 @@ Origin: Brief B Sub-phase 5.7 verification (no impl change; document existing co
 **OG image:** 1200×630 derivation step in publish-cli's pipeline between substitution and asset placement. Sharp-based composite (480×620 thumbnail centered on white 1200×630 background; `channels: 3` flattens any alpha). Atomicity treatment same as other assets (versioned directory + symlink swap).
 
 **Pruning:** versioned dirs aged out by KEEP_VERSIONS=3 are moved (NOT removed) to `.archived/<locale>/<slug>-pruned-<utc>/` per §A.3 spirit. Cross-reference §15.12 for the unpublish-namespace alongside pruned-namespace coexistence.
+
+### 15.15 publish-bulk per-locale isolation contract
+
+`publish-bulk` does not have a `--language` flag. The strict-args schema at `scripts/publish-cli/strict-args.js` declares only `--dry-run`, `--confirm`, `--updates-manifest`, `--batch-id`, `--staging-dir` for the `publish-bulk` subcommand. Per-locale isolation is enforced **at the folder-content layer**, not via CLI argument:
+
+- `bulk.js` scans the input folder via `fs.readdirSync(folder)` and filters to `.zip` extension only (top-level non-recursive)
+- Dot-prefixed subdirectories (e.g., `.tier2-trackc-batch-N-{cluster}-{locale}/`) are naturally skipped because `readdirSync` non-recursive + `.zip` filter excludes directories regardless of name
+
+**Operational pattern (locked across 14 ES + NL Track C batches; carried through `b18b8654`–`d3b4f962`):**
+
+1. Before SCP'ing a new batch's ZIPs to `/opt/lessoncraftstudio/publish-inbound/`, archive the prior batch's residue: `mkdir -p .tier2-trackc-batch-N-{cluster}-{locale}/ && mv *.zip .tier2-trackc-batch-N-{cluster}-{locale}/`
+2. SCP the new batch's ZIPs to the top level of `publish-inbound/`
+3. Run `publish-bulk publish-inbound/ --dry-run` then `--confirm`
+4. The dot-prefixed archive subdirs accumulate as a chronological history of all prior batches at this folder level
+
+**Why this matters:** premise drift surfaced at Batch 4 ES (`b18b8654`) when an early brief assumed a `--language=<locale>` filter existed. It does not. Folder-content control IS the per-locale safeguard. New briefs should reference this section rather than imagine a CLI flag.
+
+**Audit at session-state authoring time:** any brief that says "filter ZIPs by locale via X" must reference folder-content control, not a phantom CLI flag.
 
 ## 16. Topic destination pages
 
@@ -1241,6 +1279,30 @@ A deck's end-of-deck links (§17.8.2) point to its three (or two, when theme abs
 Locale coverage per launch tier (§19): Tier 1 (en, de) authored from day one; Tier 2 (es, nl) folds in at Tier 2 launch; Tier 3 (sv, fi, no) at Tier 3; Tier 4 (fr, it, da, pt) at Tier 4. Missing locale entries cause `publish-cli` to skip end-of-deck link substitution for that locale until coverage lands.
 
 **publish-cli substitution at upload time** reads `topics-taxonomy.json` and substitutes the placeholder pairs in deck.html's end-of-deck links section per §17.8.2 / §17.8.5. Canonical names per the emitter at `REFERENCE TRANSLATIONS/catalog-export.js:34-46` (deployed at `?v=9`): one heading placeholder `__END_DECK_HEADING__`; four URL placeholders `__LINK_MORE_TYPE__`, `__LINK_MORE_THEME__`, `__LINK_MORE_LEVEL__`, `__LINK_BROWSE_ALL__`; four matching localized-text placeholders `__LINK_TEXT_MORE_TYPE__`, `__LINK_TEXT_MORE_THEME__`, `__LINK_TEXT_MORE_LEVEL__`, `__LINK_TEXT_BROWSE_ALL__`. Nine end-of-deck-link placeholders total. The localized-text placeholders accept `{type}` / `{theme}` / `{level}` ICU-style interpolation against per-axis-key localized names (read from `topics-taxonomy.json`'s per-axis-key `name.<locale>` field — see §16.4).
+
+### 16.6 Footer rendering doctrine
+
+The Footer surfaces topic-page links across three columns per `frontend/components/layout/Footer.tsx`:
+
+- **Column 1 — `byLanguage`:** locales with published catalog content (`FOOTER_LANGUAGES` array; per Pass 7b F4 honesty, only locales where catalog decks exist link out)
+- **Column 2 — `byTopic`:** theme + educational-level axis-keys merged into a single `FOOTER_TOPICS_BY_LOCALE` map (no separate `FOOTER_EDUCATIONAL_LEVELS_BY_LOCALE` map exists; the Footer's "by topic" column merges both subject-matter axes per §16.5 schema)
+- **Column 3 — `byExerciseType`:** exercise-type axis-keys per `FOOTER_EXERCISE_TYPES_BY_LOCALE` map
+
+**Pass 7b F4 honesty discipline:** array membership IS the gate — only axis-keys with at least 1 published deck row link out. Fabricating links to empty topic pages erodes trust and produces 404s on click.
+
+**Closeout-batch surfacing discipline (added 2026-05-03 post NL Batch 7 `d3b4f962`):**
+
+Closeout batches that introduce a new educational-level age range (typically 7-9 from `crossword`, less commonly 8-10 from no current §14.10 app) require Footer Col 2 update alongside the more obvious Col 3 (+N exercise-type) update. This is easy-to-miss because the closeout focus is mechanically on Col 3 (1:1 per §14.10 app shipped). The retroactive `grado-2` (es) fix at `d3b4f962` was the precedent that surfaced this discipline — `crossword-es` shipped at `eefced25` (ES Batch 7 closeout) but `grado-2` was not added to `FOOTER_TOPICS_BY_LOCALE.es` until `d3b4f962` caught the gap during NL Batch 7 audit.
+
+**Audit rule:** at every closeout batch, before commit, query the DB for distinct `age_range` values per locale + reconcile against current `FOOTER_TOPICS_BY_LOCALE.<locale>` array. Any new `age_range` mapping per §17.8.6 to an axis-key absent from the array requires an entry. Per `topics-taxonomy.json` Track A `cbabd7e5` mapping:
+
+| age_range | educational-level axis-key per locale |
+|---|---|
+| 3-5 | preschool / vorschule / preescolar / peuterklas |
+| 5-7 | kindergarten / kindergarten / jardin-infantil / kleuterklas |
+| 6-8 | grade-1 / 1-klasse / grado-1 / groep-3 |
+| 7-9 | grade-2 / 2-klasse / grado-2 / groep-4 |
+| 8-10 | grade-3 / 3-klasse / grado-3 / groep-5 (currently zero §14.10 apps fall here; defined-but-unused per §17.8.6) |
 
 ---
 
@@ -1812,6 +1874,26 @@ The sample has a small "Made with LessonCraftStudio" attribution per the existin
 
 The sample does not have signup walls, subscription prompts, or login requirements. It just plays. The signup and subscription prompts live elsewhere on the page, around the sample, not inside it.
 
+### 18.4 Section 2 breadth-grid curation: three load-bearing equilibria
+
+The home page Section 2 grid (8 deck thumbnails + 1 featured inline-play tile) is curated against three independently-load-bearing equilibria, all three of which must hold post any stagger event:
+
+1. **Locale balance.** Distribution of picks across the active production locales. Established at 2-en/2-de/2-es/2-nl 4-locale grid at NL Track C Batch 1 (`d361a03e`). Future locale launches (Tier 3+) will extend per SECTION-2-CURATION-v1.md spec.
+2. **Theme/themeless balance.** 4 themed (in canonical-English `subject_tags` set: `{animals|vehicles|food|fruit}`) / 4 themeless. Locked since Track C Batch 1 ES (`035852c3`).
+3. **Mechanic-diversity.** 8 distinct mechanics across 8 picks (no app duplication beyond cross-locale demonstration of same-mechanic). The featured slot (currently `sudoku-en`) counts as one mechanic.
+
+All three are load-bearing. Locale + theme alone underspecify the grid: a 2/2/2/2 grid with 4-themed/4-themeless can still cluster picks on a single mechanic and feel visually monotonic (NL Batch 1 at `d361a03e` shipped `matching-letter-nl` + `shadow-match-nl` which both rendered as matching-mechanic, thinning visual diversity even though locale + theme equilibria were preserved).
+
+**Mid-arc theme-refresh swap pattern** is the right move when a prior batch's pair clustered on a single mechanic. Worked example: NL Batch 4 at `0bb02030` dropped `matching-letter-nl` + `shadow-match-nl` (both matching-mechanic) and added `missing-pieces-nl` + `chart-count-nl` (visual-completion + Family-D bar-chart, restoring 8 distinct mechanics). Locale balance held at 2/2/2/2; theme balance held at 4/4. The swap is mid-arc-correct because:
+
+- It does not shift locale weighting (which would reset SECTION-2-CURATION-v1.md spec assumptions)
+- It introduces fresher catalog content from the recent batch
+- It restores mechanic-diversity without operator-strategic locale rebalancing
+
+**When NOT to apply theme-refresh swap:** at first-publish events (which establish locale baseline) or at closeout milestones (which can hold the post-arc composition or refresh per operator strategic call). At Tier-2 closeout (NL Batch 7 `d3b4f962`), operator chose hold-2/2/2/2 because the Batch 4 mechanic-diversity restoration still held and there was no clustered-mechanic to address.
+
+**Cross-reference to SECTION-2-CURATION-v1.md:** that document is the canonical curation spec and houses per-pick rationale + thumbnail-quality criteria. This subsection extends the spec with the three-equilibrium framing surfaced through the ES + NL Track C arcs.
+
 ---
 
 ## 19. The language launch sequence
@@ -1987,5 +2069,13 @@ Cross-reference: §15.7 catalog deck route operates on `www.lessoncraftstudio.co
 - **`docs/reference/server-verification.md`** — health checks, file-count verification, backup inspection, image/payment recovery commands.
 - **`docs/reference/design-elements-integration.md`** — 22 load-bearing rules for the Design Elements accordion (read before porting it to a new app).
 - **`docs/reference/12-content-creation-guide.md`** — content creation guide.
+
+### A.12 Fast-forward push default policy
+
+Plain `git push` is the default for fast-forward cases (local just ahead of remote with no diverging history). `git push --force-with-lease` is reserved for genuine history rewrites (rebase + push of an already-pushed branch).
+
+**Why this is policy-locked (added 2026-05-03 post Batch 4 ES drift correction at `b18b8654`):** the Claude Code agent safety policy blocks `--force-with-lease` even on non-destructive cases (e.g., when local is just ahead of remote and no history rewrite is needed). When a brief specifies `--force-with-lease` for a fast-forward case, the safety block fires and force-with-lease is unnecessary anyway. Plain `git push` succeeds without any flag.
+
+**Briefs that mention `--force-with-lease`:** check whether the case is a genuine history rewrite (commit amends, rebases, etc.) or a fast-forward. Default to plain `git push` for fast-forwards. If the safety policy blocks the force-with-lease attempt, don't escalate — just use plain push.
 
 *End of CLAUDE.md.*

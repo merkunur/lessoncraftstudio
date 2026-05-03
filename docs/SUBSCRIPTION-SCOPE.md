@@ -244,6 +244,16 @@ Until all three thresholds are met, the home page Section 5 surface continues to
 
 Tools 3+4 (Advanced filtering, Curriculum mapping) and Tool 6 (Personalized feed) ship post-launch, not as part of the launch trigger.
 
+### Tier 2 closeout post-`d3b4f962` arithmetic (2026-05-03)
+
+Tier 2 catalog work fully sealed at `d3b4f962` — all 4 production locales (en+de+es+nl) at 100% C-1 catalog coverage simultaneously, 116 published decks total. This realizes the catalog scope assumed by clause (a); arithmetic + bundle-scope decisions follow:
+
+- **Clause (a) lesson-plan-per-deck-per-locale: 116 plans realized authoring scope** (29 §14.10 apps × 4 locales). Mechanically follows catalog scope; 1 lesson plan per deck per locale per `LessonPlan` schema's `@@unique([topicSlug, language])` constraint.
+- **Clause (b) bundle scope: hold at 7 × 2 = 14 (en+de canonical) per Option A.** Bundle scope held at 7 × 2 (en+de canonical) post-Tier-2-closeout per `2026-05-03 doctrine pass`. Rationale: bundles ship with paired lesson plans (Pillar 2 spec); bundle localization downstream of lesson-plan localization per `@@unique([topicSlug, language])` schema; per-locale bundle authoring is independent labor not arithmetic-derived from Tier 1 work. **es+nl bundle authoring filed as follow-on extension** once en+de bundle library closes and operator commissions Tier 2 bundle expansion.
+- **Total launch-trigger content scope: 130 units** (14 paired-bundle/lesson-plan units + 116 standalone lesson plans).
+
+The launch-trigger threshold therefore now has fully-known authoring scope: 130 content units against the post-Tier-2-closeout catalog. No further arithmetic ambiguity. Operator can choose to begin Pillar 1 (lesson-plan) authoring or Pillar 2 (bundle) authoring as the next-arc selection per business-priority weighting.
+
 ---
 
 ## Implications for home page Section 5 (subscription block)
@@ -277,3 +287,4 @@ The home page subscription section now has a concrete frame to draft against:
 - When this document changes, regenerate it as a single canonical version rather than maintaining a changelog. Future sessions should always read the current version, not historical states.
 - The subscription scope is sufficiently specified to draft home page Section 5 copy.
 - Strategic-decisions session 2026-05-02 resolved all 6 originally-open decisions. Resolutions folded into Pillar sections + audit-trailed in the "Resolved decisions" section. Schema impacts: per-locale-rows lesson-plan localization (resolution #5) was schema-resolved at commit `9ba9fa2d`; Bundle model spec (resolution #4) is content-record-only and awaits its own commission pass per `project_deferred_items_queue.md`.
+- Tier 2 closeout doctrine pass 2026-05-03 (post `d3b4f962`) added the "Tier 2 closeout post-`d3b4f962` arithmetic" subsection to Launch readiness with bundle-scope adjudication = Option A (hold 7 × 2 = 14). Decision rationale: bundles ship with paired lesson plans; bundle localization downstream of lesson-plan localization; es+nl bundle authoring filed as follow-on extension. Launch-trigger arithmetic now closed-form at 130 content units.

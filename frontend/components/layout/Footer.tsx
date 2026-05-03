@@ -56,12 +56,14 @@ const FOOTER_TOPICS_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'preescolar', label: 'preescolar' },
     { slug: 'jardin-infantil', label: 'jardín infantil' },
     { slug: 'grado-1', label: 'grado 1' },
+    { slug: 'grado-2', label: 'grado 2' },
   ],
   nl: [
     { slug: 'dieren', label: 'dier' },
     { slug: 'peuterklas', label: 'peuterklas' },
     { slug: 'kleuterklas', label: 'kleuterklas' },
     { slug: 'groep-3', label: 'groep 3' },
+    { slug: 'groep-4', label: 'groep 4' },
   ],
 };
 
@@ -182,6 +184,13 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'schatzoektocht', label: 'schatzoektocht' },
     { slug: 'rekenwerkblad', label: 'rekenwerkblad' },
     { slug: 'beeldpad', label: 'beeldpad' },
+    { slug: 'optellen', label: 'optellen' },
+    { slug: 'bingo', label: 'bingo' },
+    { slug: 'kruiswoordraadsel', label: 'kruiswoordraadsel' },
+    { slug: 'cryptogram', label: 'cryptogram' },
+    { slug: 'patroontrein', label: 'patroontrein' },
+    { slug: 'foto-sudoku', label: 'foto-sudoku' },
+    { slug: 'woordpuzzel', label: 'woordpuzzel' },
   ],
 };
 

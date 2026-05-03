@@ -172,6 +172,10 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'voorzetsels', label: 'voorzetsels' },
     { slug: 'woord-raden', label: 'woord raden' },
     { slug: 'woordzoeker', label: 'woordzoeker' },
+    { slug: 'groot-klein', label: 'groot of klein' },
+    { slug: 'grafiek-tellen', label: 'grafiek tellen' },
+    { slug: 'ontbrekende-stukken', label: 'ontbrekende stukken' },
+    { slug: 'patroon-werkblad', label: 'patroonwerkblad' },
   ],
 };
 

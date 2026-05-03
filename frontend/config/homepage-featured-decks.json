@@ -66,30 +66,30 @@
       "_note": "Track C Batch 1 (Tier 2 first-row event). Themeless."
     },
     {
-      "slug": "shadow-match",
+      "slug": "missing-pieces",
       "locale": "nl",
-      "title": "Shadow Match",
-      "topic": "shadow-match",
+      "title": "Missing Pieces",
+      "topic": "missing-pieces",
       "languageLabel": "NL",
-      "thumbnailUrl": "/nl/decks/shadow-match/thumbnail.png",
-      "deckUrl": "/nl/decks/shadow-match/",
+      "thumbnailUrl": "/nl/decks/missing-pieces/thumbnail.png",
+      "deckUrl": "/nl/decks/missing-pieces/",
       "featured": false,
-      "_note": "Track C Batch 1 NL (first-nl-publish event; 4-locale balance establishment). Themed (animals) per Tier 1 storage convention; rendering localizes via topics-taxonomy.json. Same mechanic as shadow-match-en demonstrates cross-locale consistency."
+      "_note": "Track C Batch 4 NL (theme-refresh swap; mechanic-diversity restoration). Themed (animals) per Tier 1 storage convention; rendering localizes via topics-taxonomy.json. Visual-completion mechanic — Batch 4 mechanic-fresh."
     },
     {
-      "slug": "matching-letter",
+      "slug": "chart-count",
       "locale": "nl",
-      "title": "Matching Letter",
-      "topic": "matching-letter",
+      "title": "Chart Count",
+      "topic": "chart-count",
       "languageLabel": "NL",
-      "thumbnailUrl": "/nl/decks/matching-letter/thumbnail.png",
-      "deckUrl": "/nl/decks/matching-letter/",
+      "thumbnailUrl": "/nl/decks/chart-count/thumbnail.png",
+      "deckUrl": "/nl/decks/chart-count/",
       "featured": false,
-      "_note": "Track C Batch 1 NL (first-nl-publish event). Themeless. Mechanic-fresh: matching mechanic not previously in grid."
+      "_note": "Track C Batch 4 NL (theme-refresh swap). Themeless. Family D bar-chart mechanic — mirror ES Batch 4 chart-count-es addition; mechanic absent from prior grid."
     }
   ],
 
-  "_known_state_notes": "Deck titles are operator-authored at app-side and stored verbatim per row in the DB. Locale heterogeneity is observable across Tier 1 (DE rows mix DE-native titles like 'Additionsspaß' / 'Wörter suchen' with English-language titles) and now extends to Tier 2 (es + nl rows currently carry English-language titles like 'Grid Match' / 'Picture Sort' / 'Shadow Match' / 'Matching Letter' per operator authoring at first-publish time). Titles above mirror DB state verbatim; do NOT auto-translate or normalize. Per CLAUDE.md §17.5 Tier 1 EN+DE discipline + Tier 2 follow-on, operator may revise specific titles in a future content-authoring pass.",
+  "_known_state_notes": "Deck titles are operator-authored at app-side and stored verbatim per row in the DB. Locale heterogeneity is observable across Tier 1 (DE rows mix DE-native titles like 'Additionsspaß' / 'Wörter suchen' with English-language titles) and now extends to Tier 2 (es + nl rows currently carry English-language titles like 'Grid Match' / 'Picture Sort' / 'Missing Pieces' / 'Chart Count' per operator authoring at first-publish time). Titles above mirror DB state verbatim; do NOT auto-translate or normalize. Per CLAUDE.md §17.5 Tier 1 EN+DE discipline + Tier 2 follow-on, operator may revise specific titles in a future content-authoring pass.",
 
-  "_growth_plan": "Section-2 curation v1 → Track C Batch 1 ES stagger (3-en/3-de/2-es; dropped math-puzzle-en + matching-letter-de; added grid-match-es + picture-sort-es; commit `035852c3`) → Track C Batch 4 ES stagger crossing ~50% es threshold (2-en/2-de/4-es; dropped crossword-en + more-less-de; added missing-pieces-es + chart-count-es; commit `b18b8654`) → Track C Batch 1 NL first-nl-publish stagger (this commit; 2-en/2-de/2-es/2-nl 4-locale balance per SECTION-2-CURATION-v1.md spec amendment substituting nl for fr at Tier 2 close; dropped missing-pieces-es + chart-count-es; added shadow-match-nl + matching-letter-nl). Composition now: themed (4) = shadow-match-en, addition-image-image-de, grid-match-es, shadow-match-nl; themeless (4) = sudoku-en, wordsearch-de, picture-sort-es, matching-letter-nl. featured: true unchanged on sudoku-en. 4-locale balance established; 4-themed/4-themeless equilibrium preserved across the swap. matching-letter-nl is mechanic-fresh (matching mechanic introduced); shadow-match-nl mirrors shadow-match-en demonstrating cross-locale consistency for the same app. Tier 3+ (sv, fi, no, fr, it, da, pt) shifts when those launch."
+  "_growth_plan": "Section-2 curation v1 → Track C Batch 1 ES stagger (3-en/3-de/2-es; commit `035852c3`) → Track C Batch 4 ES stagger crossing ~50% es threshold (2-en/2-de/4-es; commit `b18b8654`) → Track C Batch 1 NL first-nl-publish stagger (2-en/2-de/2-es/2-nl 4-locale balance establishment; dropped missing-pieces-es + chart-count-es; added shadow-match-nl + matching-letter-nl; commit `d361a03e`) → Track C Batch 4 NL theme-refresh swap (this commit; 2-en/2-de/2-es/2-nl held; dropped shadow-match-nl + matching-letter-nl which clustered on matching-mechanic; added missing-pieces-nl + chart-count-nl mirroring ES Batch 4 mechanic-diversity restoration pattern). Composition now: themed (4) = shadow-match-en, addition-image-image-de, grid-match-es, missing-pieces-nl; themeless (4) = sudoku-en, wordsearch-de, picture-sort-es, chart-count-nl. featured: true unchanged on sudoku-en. 4-locale balance preserved; 4-themed/4-themeless equilibrium preserved; 8 distinct mechanics restored (sudoku, shadow-match, addition, wordsearch, grid-match, picture-sort, missing-pieces, chart-count — Batch 1 NL nl-pair clustering on matching-mechanic refreshed). Tier 3+ (sv, fi, no, fr, it, da, pt) shifts when those launch."
 }

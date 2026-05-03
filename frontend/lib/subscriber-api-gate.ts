@@ -3,7 +3,9 @@ import { extractBearerToken, verifyAccessToken } from './auth-utils';
 import { prisma } from './prisma';
 import { isLcsSubscriptionActive } from './subscription-helpers';
 
-// Subscriber-API gate: Bearer auth + active LCS subscription check.
+// Subscriber-API gate: Bearer auth + active LCS subscription check (with
+// admin short-circuit per isLcsSubscriptionActive's two-path semantic —
+// see lib/subscription-helpers.ts).
 //
 // Tool 1A (Collections, commit landing this pass) establishes this pattern.
 // Tools 2/5/3/4 + Pillar 1 (lesson plan content) + Pillar 2 (bundles) inherit
@@ -12,7 +14,9 @@ import { isLcsSubscriptionActive } from './subscription-helpers';
 //
 // Composes the existing Bearer-token + session lookup pattern (mirroring
 // lib/auth-middleware.ts withAuth and app/api/auth/me/route.ts) with the
-// isLcsSubscriptionActive predicate from lib/subscription-helpers.ts.
+// isLcsSubscriptionActive predicate from lib/subscription-helpers.ts. The
+// user select includes `isAdmin` so the predicate's admin short-circuit
+// path engages when the requester is admin-flagged.
 //
 // Return discipline: returns EITHER a NextResponse error (401 unauthenticated /
 // 403 not subscribed) OR a context object with { userId, user }. Caller pattern:
@@ -32,6 +36,7 @@ interface SubscriberContext {
   user: {
     id: string;
     email: string;
+    isAdmin: boolean;
     subscription: {
       status: string | null;
       lsSubscriptionId: string | null;
@@ -77,6 +82,7 @@ export async function requireSubscriber(
     select: {
       id: true,
       email: true,
+      isAdmin: true,
       subscription: {
         select: {
           status: true,

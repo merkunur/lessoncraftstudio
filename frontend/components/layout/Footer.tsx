@@ -65,6 +65,9 @@ const FOOTER_TOPICS_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'groep-3', label: 'groep 3' },
     { slug: 'groep-4', label: 'groep 4' },
   ],
+  // Italian Track A registered; entries land at first it deck publish per
+  // §16.6 honesty discipline + ES+NL precedent.
+  it: [],
 };
 
 const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
@@ -192,6 +195,9 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'foto-sudoku', label: 'foto-sudoku' },
     { slug: 'woordpuzzel', label: 'woordpuzzel' },
   ],
+  // Italian Track A registered; entries land at first it deck publish per
+  // §16.6 honesty discipline + ES+NL precedent.
+  it: [],
 };
 
 export function Footer() {

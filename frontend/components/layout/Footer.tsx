@@ -68,6 +68,9 @@ const FOOTER_TOPICS_BY_LOCALE: Record<string, FooterLink[]> = {
   // Italian Track A registered; entries land at first it deck publish per
   // §16.6 honesty discipline + ES+NL precedent.
   it: [],
+  // French Track A registered; entries land at first fr deck publish per
+  // §16.6 honesty discipline + ES+NL+IT precedent.
+  fr: [],
 };
 
 const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
@@ -198,6 +201,9 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
   // Italian Track A registered; entries land at first it deck publish per
   // §16.6 honesty discipline + ES+NL precedent.
   it: [],
+  // French Track A registered; entries land at first fr deck publish per
+  // §16.6 honesty discipline + ES+NL+IT precedent.
+  fr: [],
 };
 
 export function Footer() {

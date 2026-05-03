@@ -168,6 +168,10 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'code-optellen', label: 'code-optellen' },
     { slug: 'meer-minder', label: 'meer of minder' },
     { slug: 'rekenpuzzel', label: 'rekenpuzzel' },
+    { slug: 'alfabettrein', label: 'alfabettrein' },
+    { slug: 'voorzetsels', label: 'voorzetsels' },
+    { slug: 'woord-raden', label: 'woord raden' },
+    { slug: 'woordzoeker', label: 'woordzoeker' },
   ],
 };
 

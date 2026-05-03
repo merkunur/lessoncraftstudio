@@ -127,58 +127,6 @@
       }
     }
   },
-  "worksheetSamples": {
-    "title": "Galerij met werkbladvoorbeelden",
-    "subtitle": "Klik op een werkblad voor een grotere preview. Dit zijn slechts enkele voorbeelden uit onze collectie van 33 professionele werkbladgenerators.",
-    "ctaText": "Ontdek alle 33 werkbladgenerators →",
-    "alphabetTrain": {
-      "title": "Alfabettrein",
-      "description": "Leuk alfabetleren met kleurrijke treinwagons"
-    },
-    "codeAddition": {
-      "title": "Code-Addition",
-      "description": "Kraak de code met optelraadsels"
-    },
-    "diagramAndCount": {
-      "title": "Grafieken en tellen",
-      "description": "Leer grafieken en datavisualisatie"
-    },
-    "hiddenObjects": {
-      "title": "Verborgen voorwerpen",
-      "description": "Vind verborgen voorwerpen in gedetailleerde scènes"
-    },
-    "iSpy": {
-      "title": "Ik zie ik zie",
-      "description": "Het klassieke zoekspel!"
-    },
-    "patternTrain": {
-      "title": "Patronentrein",
-      "description": "Maak de patroonreeksen af"
-    },
-    "modalLabels": {
-      "ageRange": "Leeftijdsgroep",
-      "difficulty": "Moeilijkheidsgraad",
-      "category": "Categorie"
-    },
-    "difficulties": {
-      "Easy": "Makkelijk",
-      "Medium": "Gemiddeld",
-      "Hard": "Moeilijk"
-    },
-    "categories": {
-      "Language": "Taal",
-      "Math": "Wiskunde",
-      "Visual": "Visueel",
-      "Pattern": "Patronen"
-    },
-    "ageRanges": {
-      "age3to5": "3-5 jaar",
-      "age4to7": "4-7 jaar",
-      "age5to8": "5-8 jaar",
-      "age6to8": "6-8 jaar",
-      "age7to10": "7-10 jaar"
-    }
-  },
   "auth": {
     "signIn": {
       "title": "Fijn je weer te zien!",
@@ -242,44 +190,6 @@
         "daysAgo_other": "{count} dagen geleden"
       }
     }
-  },
-  "footer": {
-    "byLanguage": "Werkbladen per taal",
-    "byTopic": "Werkbladen per onderwerp",
-    "byExerciseType": "Werkbladen per oefentype",
-    "moreLanguagesSoon": "Binnenkort meer talen",
-    "moreTopicsSoon": "Binnenkort meer onderwerpen",
-    "contact": "Contact",
-    "terms": "Voorwaarden",
-    "privacy": "Privacy",
-    "copyright": "© 2026 LessonCraftStudio."
-  },
-  "common": {
-    "loading": "Laden...",
-    "error": "Er is een fout opgetreden",
-    "retry": "Opnieuw proberen",
-    "save": "Opslaan",
-    "cancel": "Annuleren",
-    "delete": "Verwijderen",
-    "edit": "Bewerken",
-    "create": "Aanmaken",
-    "search": "Zoeken",
-    "filter": "Filteren",
-    "sort": "Sorteren",
-    "next": "Volgende",
-    "previous": "Vorige",
-    "close": "Sluiten",
-    "open": "Openen",
-    "yes": "Ja",
-    "no": "Nee",
-    "confirm": "Bevestigen",
-    "download": "Downloaden",
-    "upload": "Uploaden",
-    "select": "Selecteren",
-    "selectAll": "Alles selecteren",
-    "deselectAll": "Alles deselecteren",
-    "required": "Verplicht",
-    "optional": "Optioneel"
   },
   "contact": {
     "title": "Neem contact op",
@@ -382,6 +292,60 @@
       "content": "Vragen: legal@lessoncraftstudio.com"
     }
   },
+  "license": {
+    "title": "Licentievoorwaarden",
+    "lastUpdated": "Laatst bijgewerkt",
+    "effectiveDate": "Januari 2025",
+    "grantOfLicense": {
+      "title": "1. LICENTIEVERLENING",
+      "intro": "LessonCraftStudio verleent u een licentie om gegenereerde inhoud te gebruiken volgens uw abonnement:",
+      "freeTier": "Gratis: Alleen persoonlijk niet-commercieel educatief gebruik",
+      "coreBundle": "Core: Commercieel educatief gebruik binnen uw instelling",
+      "fullAccess": "Volledige Toegang: Onbeperkt commercieel gebruik inclusief print-on-demand en doorverkoop"
+    },
+    "intellectualProperty": {
+      "title": "2. INTELLECTUEEL EIGENDOM",
+      "intro": "U behoudt uw originele inhoud. Wij behouden rechten op platformelementen. Gegenereerde inhoud wordt gelicentieerd volgens Sectie 1."
+    },
+    "restrictions": {
+      "title": "3. BEPERKINGEN",
+      "intro": "U mag niet:",
+      "reverseEngineer": "Platform reverse engineeren",
+      "competing": "Concurrerende diensten creëren",
+      "sublicense": "Platformtoegang sublicentiëren",
+      "removeNotices": "Watermerken van gratis inhoud verwijderen",
+      "illegal": "Voor illegale doeleinden gebruiken"
+    },
+    "commercialDistribution": {
+      "title": "4. COMMERCIËLE DISTRIBUTIE",
+      "pod": "Print-on-demand: Volledige Toegang-abonnees kunnen onbeperkt verkopen via print-on-demand platformen.",
+      "digital": "Digitale distributie: Alle niveaus kunnen digitale versies distribueren volgens hun licentie."
+    },
+    "termination": {
+      "title": "5. BEËINDIGING",
+      "content": "Wij kunnen beëindigen bij schending met 30 dagen kennisgeving. Tijdens geldig abonnement gemaakte inhoud blijft gelicentieerd."
+    },
+    "warrantyDisclaimer": {
+      "title": "6. GARANTIE-UITSLUITING",
+      "content": "Dienst geleverd ZOALS HIJ IS zonder garanties. Wij garanderen geen geschiktheid voor specifieke doeleinden."
+    },
+    "limitationOfLiability": {
+      "title": "7. AANSPRAKELIJKHEIDSBEPERKING",
+      "content": "Maximale aansprakelijkheid beperkt tot betaalde bedragen voorgaande 12 maanden."
+    },
+    "governingLaw": {
+      "title": "8. TOEPASSELIJK RECHT",
+      "content": "Zweeds recht. Jurisdictie Stockholm."
+    },
+    "modifications": {
+      "title": "9. WIJZIGINGEN",
+      "content": "Wij kunnen voorwaarden wijzigen met 30 dagen kennisgeving. Voortgezet gebruik betekent aanvaarding."
+    },
+    "contact": {
+      "title": "10. CONTACT",
+      "content": "Voor licentievragen: license@lessoncraftstudio.com"
+    }
+  },
   "privacy": {
     "title": "Privacybeleid",
     "lastUpdated": "Laatst bijgewerkt",
@@ -473,60 +437,6 @@
       "dpo": "FG: dpo@lessoncraftstudio.com"
     }
   },
-  "license": {
-    "title": "Licentievoorwaarden",
-    "lastUpdated": "Laatst bijgewerkt",
-    "effectiveDate": "Januari 2025",
-    "grantOfLicense": {
-      "title": "1. LICENTIEVERLENING",
-      "intro": "LessonCraftStudio verleent u een licentie om gegenereerde inhoud te gebruiken volgens uw abonnement:",
-      "freeTier": "Gratis: Alleen persoonlijk niet-commercieel educatief gebruik",
-      "coreBundle": "Core: Commercieel educatief gebruik binnen uw instelling",
-      "fullAccess": "Volledige Toegang: Onbeperkt commercieel gebruik inclusief print-on-demand en doorverkoop"
-    },
-    "intellectualProperty": {
-      "title": "2. INTELLECTUEEL EIGENDOM",
-      "intro": "U behoudt uw originele inhoud. Wij behouden rechten op platformelementen. Gegenereerde inhoud wordt gelicentieerd volgens Sectie 1."
-    },
-    "restrictions": {
-      "title": "3. BEPERKINGEN",
-      "intro": "U mag niet:",
-      "reverseEngineer": "Platform reverse engineeren",
-      "competing": "Concurrerende diensten creëren",
-      "sublicense": "Platformtoegang sublicentiëren",
-      "removeNotices": "Watermerken van gratis inhoud verwijderen",
-      "illegal": "Voor illegale doeleinden gebruiken"
-    },
-    "commercialDistribution": {
-      "title": "4. COMMERCIËLE DISTRIBUTIE",
-      "pod": "Print-on-demand: Volledige Toegang-abonnees kunnen onbeperkt verkopen via print-on-demand platformen.",
-      "digital": "Digitale distributie: Alle niveaus kunnen digitale versies distribueren volgens hun licentie."
-    },
-    "termination": {
-      "title": "5. BEËINDIGING",
-      "content": "Wij kunnen beëindigen bij schending met 30 dagen kennisgeving. Tijdens geldig abonnement gemaakte inhoud blijft gelicentieerd."
-    },
-    "warrantyDisclaimer": {
-      "title": "6. GARANTIE-UITSLUITING",
-      "content": "Dienst geleverd ZOALS HIJ IS zonder garanties. Wij garanderen geen geschiktheid voor specifieke doeleinden."
-    },
-    "limitationOfLiability": {
-      "title": "7. AANSPRAKELIJKHEIDSBEPERKING",
-      "content": "Maximale aansprakelijkheid beperkt tot betaalde bedragen voorgaande 12 maanden."
-    },
-    "governingLaw": {
-      "title": "8. TOEPASSELIJK RECHT",
-      "content": "Zweeds recht. Jurisdictie Stockholm."
-    },
-    "modifications": {
-      "title": "9. WIJZIGINGEN",
-      "content": "Wij kunnen voorwaarden wijzigen met 30 dagen kennisgeving. Voortgezet gebruik betekent aanvaarding."
-    },
-    "contact": {
-      "title": "10. CONTACT",
-      "content": "Voor licentievragen: license@lessoncraftstudio.com"
-    }
-  },
   "faq": {
     "metaTitle": "Veelgestelde Vragen - LessonCraftStudio",
     "metaDescription": "Antwoorden op veelgestelde vragen over onze 33 werkbladgeneratoren, prijsplannen, commerciële licenties en technische ondersteuning",
@@ -547,6 +457,519 @@
       "subtitle": "Ons supportteam staat klaar om je te helpen. Neem contact op en we reageren binnen 24-48 uur.",
       "button": "Contact Opnemen"
     }
+  },
+  "billing": {
+    "pageTitle": "Facturering en Abonnement",
+    "currentPlanTitle": "Jouw huidige pakket: {plan}",
+    "planCard": {
+      "title": "Pakket",
+      "perMonth": "/maand"
+    },
+    "billingPeriodCard": {
+      "title": "Factureringsperiode",
+      "noActiveSubscription": "Geen actief abonnement",
+      "cancelsOn": "Loopt af op",
+      "renewsOn": "Verlengt op"
+    },
+    "statusCard": {
+      "title": "Status",
+      "active": "Actief",
+      "inactive": "Inactief",
+      "ends": "Eindigt",
+      "renews": "Verlengt",
+      "noSubscription": "Geen actief abonnement"
+    },
+    "actions": {
+      "upgradePlan": "Pakket upgraden",
+      "reactivateSubscription": "Abonnement reactiveren",
+      "changePlan": "Pakket wijzigen",
+      "cancelSubscription": "Abonnement opzeggen",
+      "stripePortal": "Betaalportaal"
+    },
+    "messages": {
+      "cancelWarning": "Je abonnement eindigt op {date}. Je behoudt tot dan volledige toegang tot alle functionaliteiten.",
+      "paymentSuccess": "Betaling geslaagd! Je abonnement is nu actief.",
+      "paymentCancelled": "Betaling geannuleerd. Je kunt het op elk moment opnieuw proberen.",
+      "cancelConfirm": "Weet je zeker dat je je abonnement wilt opzeggen? Je behoudt toegang tot het einde van de huidige periode.",
+      "reactivateSuccess": "Abonnement succesvol gereactiveerd!",
+      "portalAccessFailed": "Kan betaalportaal niet openen",
+      "cancelFailed": "Kan abonnement niet opzeggen",
+      "reactivateFailed": "Kan abonnement niet reactiveren"
+    },
+    "features": {
+      "title": "Functionaliteiten van jouw pakket",
+      "upgradePrompt": "Upgrade je pakket voor meer mogelijkheden:"
+    },
+    "upgradeModal": {
+      "title": "Pakket wijzigen",
+      "currentPlan": "Huidig pakket",
+      "selectTier": "Selecteer niveau",
+      "billingInterval": "Factureringsinterval",
+      "monthly": "Maandelijks",
+      "yearly": "Jaarlijks",
+      "payMonthly": "Maandelijks betalen",
+      "savePercent": "Bespaar 17%",
+      "perMonth": "/maand",
+      "calculating": "Berekenen...",
+      "upgradePreview": "Upgrade voorvertoning",
+      "changePreview": "Wijziging voorvertoning",
+      "subtotal": "Subtotaal:",
+      "tax": "BTW:",
+      "dueToday": "Vandaag te betalen:",
+      "creditApplied": "Tegoed toegepast:",
+      "cancel": "Annuleren",
+      "processing": "Verwerken...",
+      "confirmChange": "Wijziging bevestigen",
+      "selectDifferentPlan": "Selecteer een ander pakket"
+    },
+    "tiers": {
+      "FREE": {
+        "name": "Gratis",
+        "description": "Perfect om het platform te leren kennen",
+        "features": [
+          "Alleen woordzoeker generator",
+          "Onbeperkt werkbladen maken",
+          "Met watermerk",
+          "Community ondersteuning"
+        ]
+      },
+      "CORE": {
+        "name": "Basispakket",
+        "description": "Ideaal voor het opbouwen van uw printable-bedrijf",
+        "features": [
+          "Toegang tot 10 populaire werkbladgeneratoren",
+          "Onbeperkt werkbladen maken",
+          "Zonder watermerk",
+          "Hoogwaardige PDF-downloads",
+          "Premium sjablonen",
+          "E-mail ondersteuning"
+        ]
+      },
+      "FULL": {
+        "name": "Volledige Toegang",
+        "description": "De complete oplossing voor professionals",
+        "features": [
+          "Toegang tot alle 33+ werkbladgeneratoren",
+          "Onbeperkt werkbladen maken",
+          "Zonder watermerk",
+          "Hoogwaardige PDF-downloads",
+          "Alle premium sjablonen",
+          "Prioritaire e-mail ondersteuning",
+          "Commerciële licentie inbegrepen"
+        ]
+      }
+    }
+  },
+  "support": {
+    "pageTitle": "Klantenservice",
+    "pageSubtitle": "Bekijk je supportaanvragen of maak een nieuwe aan",
+    "myTickets": "Mijn Aanvragen",
+    "newTicket": "Nieuwe Aanvraag",
+    "loadError": "Kan aanvragen niet laden. Probeer de pagina te vernieuwen.",
+    "deleteConfirm": "Weet je zeker dat je deze supportaanvraag wilt verwijderen?",
+    "deleteSuccess": "Supportaanvraag succesvol verwijderd",
+    "deleteError": "Kan supportaanvraag niet verwijderen. Probeer het opnieuw.",
+    "errorMessage": "Er ging iets mis. Probeer het later opnieuw.",
+    "successMessage": "Gelukt! Je aanvraag is ontvangen. We nemen zo snel mogelijk contact met je op.",
+    "loadingTickets": "Bezig met laden...",
+    "noTicketsTitle": "Nog geen supportaanvragen",
+    "noTicketsMessage": "Hulp nodig? Aarzel niet om contact op te nemen - we helpen je graag!",
+    "adminResponse": "Reactie van Support",
+    "yourMessage": "Jouw Bericht",
+    "noResponseYet": "We bekijken je aanvraag en komen zo snel mogelijk bij je terug.",
+    "deleteTicket": "Aanvraag Verwijderen",
+    "ticketId": "Aanvraag-ID",
+    "subjectLabel": "Onderwerp",
+    "created": "Aangemaakt op",
+    "responseTimeInfo": "We reageren meestal binnen 24-48 uur op supportaanvragen.",
+    "subjectPlaceholder": "Waar kunnen we je mee helpen?",
+    "categoryLabel": "Categorie",
+    "priorityLabel": "Prioriteit",
+    "messageLabel": "Bericht",
+    "messagePlaceholder": "Beschrijf je vraag of probleem zo gedetailleerd mogelijk. Hoe meer informatie je geeft, hoe beter we je kunnen helpen!",
+    "emailLabel": "E-mailadres",
+    "submitting": "Even geduld...",
+    "submitButton": "Aanvraag Versturen",
+    "responseTime": "Reactietijd",
+    "helpTitle": "Veelgestelde Vragen",
+    "helpDescription": "Misschien staat je vraag al tussen onze veelgestelde vragen. Neem gerust een kijkje voor snelle antwoorden!",
+    "status": {
+      "open": "OPEN",
+      "in_progress": "IN BEHANDELING",
+      "waiting": "WACHTEN",
+      "resolved": "OPGELOST",
+      "closed": "GESLOTEN"
+    },
+    "priority": {
+      "low": "LAAG",
+      "medium": "NORMAAL",
+      "high": "HOOG",
+      "urgent": "URGENT"
+    },
+    "categories": {
+      "bug": "Probleem melden",
+      "feature_request": "Nieuwe functie voorstellen",
+      "billing": "Facturering & Betaling",
+      "technical": "Technische vraag",
+      "other": "Iets anders"
+    }
+  },
+  "footer": {
+    "byLanguage": "Werkbladen per taal",
+    "byTopic": "Werkbladen per onderwerp",
+    "byExerciseType": "Werkbladen per oefentype",
+    "moreLanguagesSoon": "Binnenkort meer talen",
+    "moreTopicsSoon": "Binnenkort meer onderwerpen",
+    "contact": "Contact",
+    "terms": "Voorwaarden",
+    "privacy": "Privacy",
+    "copyright": "© 2026 LessonCraftStudio."
+  },
+  "about": {
+    "metaTitle": "Over LessonCraftStudio | Professionele Printable-Generatoren",
+    "metaDescription": "Leer meer over LessonCraftStudio — 33 professionele printable-generatoren voor Etsy-verkopers, Amazon KDP-uitgevers en printable-ondernemers. 11 talen, 3.000+ afbeeldingen, commerciële licentie inbegrepen.",
+    "hero": {
+      "title": "Over LessonCraftStudio",
+      "subtitle": "Professionele printable-generatoren voor Etsy-verkopers en KDP-uitgevers wereldwijd"
+    },
+    "stats": {
+      "generators": "33",
+      "generatorsLabel": "Werkblad-generatoren",
+      "languages": "11",
+      "languagesLabel": "Talen",
+      "images": "3.000+",
+      "imagesLabel": "Thematische afbeeldingen",
+      "themes": "100+",
+      "themesLabel": "Thema’s"
+    },
+    "mission": {
+      "title": "Onze missie",
+      "description": "LessonCraftStudio is gebouwd om Etsy-verkopers, KDP-uitgevers en printable-ondernemers te helpen direct professionele werkbladen te maken — zonder designvaardigheden, dure software of uren voorbereiding.",
+      "description2": "Onze 33 generatoren maken drukklare PDF's in 300 DPI met antwoordsleutels, 3.000+ thematische afbeeldingen en 11 talen — alles met commerciële licentie om op elk platform te verkopen."
+    },
+    "methodology": {
+      "title": "Onze aanpak",
+      "instant": {
+        "title": "Direct genereren",
+        "description": "Kies een thema, pas de instellingen aan en genereer in enkele seconden een drukklaar werkblad. Geen designvaardigheden nodig."
+      },
+      "research": {
+        "title": "Professionele kwaliteit",
+        "description": "Elke generator maakt verkoopklare PDF's in 300 DPI met antwoordsleutels — perfect voor Etsy-winkels, KDP-boeken en digitale downloads."
+      },
+      "inclusive": {
+        "title": "Meertalig & inclusief",
+        "description": "Alle 33 generatoren werken naadloos in 11 talen, met cultureel passende inhoud en een bibliotheek van meer dan 3.000 handgeselecteerde afbeeldingen."
+      }
+    },
+    "audience": {
+      "title": "Voor wie",
+      "teachers": {
+        "title": "Etsy- en KDP-verkopers",
+        "description": "Bouw snel een catalogus van printable producten op. Genereer unieke thematische werkbladen die opvallen op de markt."
+      },
+      "parents": {
+        "title": "Persoonlijk gebruik",
+        "description": "Maak werkbladen voor thuisonderwijs of persoonlijke projecten in seconden. Gratis uitproberen met watermerk — zonder registratie."
+      },
+      "therapists": {
+        "title": "Contentmakers en uitgevers",
+        "description": "Produceer professionele printbare content op schaal. 33 generatoren, 104 thema's, 11 talen — maak honderden unieke producten op een enkel platform."
+      }
+    },
+    "cta": {
+      "title": "Klaar om te beginnen?",
+      "subtitle": "Begin direct met het maken van professionele werkbladen — gratis uitproberen.",
+      "button": "Generatoren bekijken"
+    },
+    "metaKeywords": "over LessonCraftStudio, werkbladgeneratoren, tools voor printbare creatie, Etsy printables, Amazon KDP werkbladen, puzzelboekmaker, commerciele werkbladgenerator, meertalige werkbladen",
+    "expertise": {
+      "title": "Gebouwd voor verkopers",
+      "subtitle": "Elke functie is ontworpen om u te helpen meer producten sneller te maken en te verkopen",
+      "curriculum": {
+        "title": "Verkoopklare output",
+        "description": "300 DPI PDF-export, automatische antwoordsleutels, KDP-geoptimaliseerde opmaak en grijstintenmodus. Uw output is direct klaar voor Etsy, Amazon KDP of Teachers Pay Teachers."
+      },
+      "educators": {
+        "title": "Volledige commerciele rechten",
+        "description": "Elk betaald product bevat onbeperkte commerciele rechten. Verkoop op elk platform, in elke hoeveelheid. Geen naamsvermelding vereist, geen royalties, geen beperkingen."
+      },
+      "evidence": {
+        "title": "Eenmalige aankoop",
+        "description": "Geen abonnementen, geen maandelijkse kosten, geen verborgen kosten. Betaal eenmaal en gebruik uw generatoren voor altijd. Alle producten bevatten een 30 dagen geld-terug-garantie."
+      }
+    }
+  },
+  "seo": {
+    "educational_level": {
+      "preschool": "Peuterspeelzaal",
+      "kindergarten": "Kleuterschool",
+      "grade_1": "Groep 3",
+      "grade_2": "Groep 4",
+      "grade_3": "Groep 5"
+    }
+  },
+  "endDeck": {
+    "heading": "Meer hiervan?",
+    "moreType": "Meer {type}-werkbladen",
+    "moreTheme": "Meer werkbladen met thema {theme}",
+    "moreLevel": "Meer werkbladen voor {level}",
+    "browseAll": "Bekijk alle werkbladen"
+  },
+  "collections": {
+    "meta": {
+      "title": "Uw verzamelingen | LessonCraftStudio",
+      "description": "Bewaar en organiseer decks in verzamelingen — per klas, per eenheid, per week."
+    },
+    "list": {
+      "title": "Uw verzamelingen",
+      "loading": "Laden…",
+      "newCollection": "+ Nieuwe verzameling",
+      "emptyStateTitle": "Nog geen verzamelingen",
+      "emptyStateBody": "Bewaar en organiseer decks in verzamelingen — per klas, per eenheid, per week. Klik op + Nieuwe verzameling om te beginnen.",
+      "deckCount": "{count, plural, =0 {Geen decks} =1 {1 deck} other {# decks}}",
+      "errorGeneric": "Er is iets misgegaan. Probeer het opnieuw."
+    },
+    "create": {
+      "title": "Nieuwe verzameling",
+      "nameLabel": "Naam",
+      "namePlaceholder": "bijvoorbeeld, Lentewoordenschat",
+      "descriptionLabel": "Beschrijving (optioneel)",
+      "submit": "Aanmaken",
+      "cancel": "Annuleren",
+      "submitting": "Bezig met aanmaken…",
+      "errorRequired": "Voer een naam in.",
+      "errorGeneric": "De verzameling kon niet worden aangemaakt. Probeer het opnieuw."
+    },
+    "detail": {
+      "metaTitle": "{name} | LessonCraftStudio",
+      "back": "← Alle verzamelingen",
+      "renameCta": "Hernoemen",
+      "renameTitle": "Verzameling hernoemen",
+      "renameSubmit": "Opslaan",
+      "renameCancel": "Annuleren",
+      "renameSubmitting": "Opslaan…",
+      "deleteCta": "Verzameling verwijderen",
+      "deleteConfirmTitle": "Deze verzameling verwijderen?",
+      "deleteConfirmBody": "De decks blijven in de catalogus staan.",
+      "deleteConfirmCta": "Verwijderen",
+      "deleteCancel": "Annuleren",
+      "deleteSubmitting": "Verwijderen…",
+      "removeDeck": "Verwijderen",
+      "removeDeckConfirm": "Dit deck uit de verzameling verwijderen?",
+      "playOnline": "Online spelen",
+      "pdf": "PDF afdrukken",
+      "emptyTitle": "Nog geen decks in deze verzameling",
+      "emptyBody": "Doorblader de catalogus en klik op \"Toevoegen aan verzameling\" op een deck-kaart.",
+      "errorGeneric": "Er is iets misgegaan. Probeer het opnieuw."
+    },
+    "gate": {
+      "subscribePromptTitle": "Verzamelingen maken deel uit van het abonnement",
+      "subscribePromptBody": "Decks bewaren en organiseren in verzamelingen is een van de werkruimte-tools die het abonnement van $69 per jaar ontgrendelt. Gratis gebruikers kunnen elk deck bekijken, afdrukken, insluiten en delen — zonder account.",
+      "subscribeCta": "Naar abonnement",
+      "signInPromptTitle": "Log in om uw verzamelingen te bekijken",
+      "signInPromptBody": "Uw verzamelingen zijn aan uw account gekoppeld. Log in om ze te bekijken.",
+      "signInCta": "Inloggen"
+    },
+    "addAffordance": {
+      "label": "Toevoegen aan verzameling",
+      "pickerTitle": "Toevoegen aan een verzameling",
+      "pickerLoading": "Verzamelingen laden…",
+      "pickerEmpty": "U heeft nog geen verzamelingen. Maak er eerst een aan.",
+      "pickerCreate": "+ Nieuwe verzameling",
+      "pickerCancel": "Annuleren",
+      "added": "Toegevoegd aan {collectionName}",
+      "alreadyIn": "Zit al in deze verzameling",
+      "errorGeneric": "Toevoegen mislukt. Probeer het opnieuw."
+    }
+  },
+  "topicPage": {
+    "meta": {
+      "title": "Werkbladen voor {topic} | LessonCraftStudio",
+      "description": "Gratis {topic}-werkbladen en afdrukbare PDFs. Interactieve activiteiten voor klassen in de eerste schooljaren."
+    },
+    "heading": {
+      "exerciseType": "Werkbladen voor {topic}",
+      "theme": "Werkbladen met {topic}",
+      "educationalLevel": "Werkbladen voor {topic}"
+    },
+    "intro": {
+      "exerciseType": "Interactieve werkbladen en afdrukbare PDFs om {topic} te oefenen.",
+      "theme": "Werkbladen met {topic}.",
+      "educationalLevel": "Activiteiten voor {topic}."
+    },
+    "decksCount": "{count, plural, =0 {Nog geen werkbladen} =1 {1 werkblad} other {# werkbladen}}",
+    "deckCard": {
+      "playLink": "Online spelen",
+      "pdfLink": "PDF afdrukken"
+    },
+    "emptyState": "Nog geen werkbladen in dit onderwerp — kom binnenkort terug."
+  },
+  "workspace": {
+    "metadata": {
+      "title": "Uw werkruimte | LessonCraftStudio",
+      "description": "Uw abonnee-werkruimte — verzamelingen, recente activiteit en de tools om uw lesgeven georganiseerd te houden."
+    },
+    "header": {
+      "title": "Werkruimte",
+      "welcomeLine": "Uw verzamelingen en recente activiteit, alles op één plek."
+    },
+    "gate": {
+      "subscribePromptTitle": "De werkruimte maakt deel uit van het abonnement",
+      "subscribePromptBody": "Uw werkruimte — verzamelingen, recente activiteit en opgeslagen decks — is een van de tools die het abonnement van $69 per jaar ontgrendelt.",
+      "subscribeCta": "Naar abonnement",
+      "signInPromptTitle": "Log in om uw werkruimte te openen",
+      "signInPromptBody": "Uw werkruimte hoort bij uw account. Log in om hem te bekijken.",
+      "signInCta": "Inloggen"
+    },
+    "loading": "Laden…",
+    "errorGeneric": "Er is iets misgegaan. Probeer het opnieuw.",
+    "collections": {
+      "heading": "Uw verzamelingen",
+      "viewAll": "Alle bekijken ({count})",
+      "cardDeckCount": "{count, plural, =0 {Geen decks} =1 {1 deck} other {# decks}}",
+      "empty": {
+        "title": "Nog geen verzamelingen",
+        "body": "Bewaar en organiseer decks in verzamelingen — per klas, per eenheid, per week."
+      }
+    },
+    "recentActivity": {
+      "heading": "Recente activiteit",
+      "empty": {
+        "title": "Hier staat nog niets",
+        "body": "Activiteit verschijnt hier zodra u decks verzamelt, organiseert en deelt."
+      },
+      "activityType": {
+        "collected": "{deckTitle} toegevoegd aan {collectionName}",
+        "modified": "{collectionName} bijgewerkt",
+        "shared": "{deckTitle} gedeeld"
+      },
+      "relativeTime": {
+        "justNow": "zojuist",
+        "minutesAgo": "{count, plural, =1 {1 minuut geleden} other {# minuten geleden}}",
+        "hoursAgo": "{count, plural, =1 {1 uur geleden} other {# uur geleden}}",
+        "daysAgo": "{count, plural, =1 {1 dag geleden} other {# dagen geleden}}",
+        "weeksAgo": "{count, plural, =1 {1 week geleden} other {# weken geleden}}"
+      }
+    }
+  },
+  "bulk": {
+    "toggleSelect": "Selecteren",
+    "toggleDone": "Klaar",
+    "toolbarAria": "Acties voor meervoudige selectie",
+    "selectionCount": "{count, plural, =1 {1 deck geselecteerd} other {# decks geselecteerd}}",
+    "checkboxAria": "{title} selecteren",
+    "action": {
+      "addToCollection": "Toevoegen aan verzameling",
+      "removeFromCollection": "Verwijderen",
+      "shareLinks": "Links delen",
+      "cancel": "Annuleren"
+    },
+    "addedConfirmation": "{count, plural, =1 {1 deck toegevoegd aan {collectionName}} other {# decks toegevoegd aan {collectionName}}}",
+    "removedConfirmation": "{count, plural, =1 {1 deck verwijderd} other {# decks verwijderd}}",
+    "errorGeneric": "Er is iets misgegaan. Probeer het opnieuw.",
+    "addToCollectionPicker": {
+      "pickerTitle": "{count, plural, =1 {1 deck aan een verzameling toevoegen} other {# decks aan een verzameling toevoegen}}",
+      "pickerLoading": "Verzamelingen laden…",
+      "pickerEmpty": "U heeft nog geen verzamelingen. Maak er eerst een aan.",
+      "pickerCreate": "+ Nieuwe verzameling",
+      "pickerCancel": "Annuleren",
+      "errorGeneric": "Verzamelingen konden niet worden geladen. Probeer het opnieuw."
+    }
+  },
+  "share": {
+    "label": "Link delen",
+    "singleDeckTitle": "Dit deck delen",
+    "singleDeckBody": "Iedereen met deze link kan het deck spelen. De link verloopt niet.",
+    "generating": "Link wordt aangemaakt…",
+    "copy": "Kopiëren",
+    "copied": "Gekopieerd!",
+    "copyAll": "Alles kopiëren",
+    "copiedAll": "Alles gekopieerd!",
+    "close": "Sluiten",
+    "errorGeneric": "De link kon niet worden aangemaakt. Probeer het opnieuw.",
+    "errorClipboard": "Geen toegang tot het klembord. Selecteer de link en kopieer hem handmatig.",
+    "bulkResultsTitle": "{count, plural, =1 {1 deel-link} other {# deel-links}}",
+    "bulkResultsSkipped": "{count, plural, =1 {1 deck is overgeslagen (niet gepubliceerd)} other {# decks zijn overgeslagen (niet gepubliceerd)}}"
+  },
+  "worksheetSamples": {
+    "title": "Galerij met werkbladvoorbeelden",
+    "subtitle": "Klik op een werkblad voor een grotere preview. Dit zijn slechts enkele voorbeelden uit onze collectie van 33 professionele werkbladgenerators.",
+    "ctaText": "Ontdek alle 33 werkbladgenerators →",
+    "alphabetTrain": {
+      "title": "Alfabettrein",
+      "description": "Leuk alfabetleren met kleurrijke treinwagons"
+    },
+    "codeAddition": {
+      "title": "Code-Addition",
+      "description": "Kraak de code met optelraadsels"
+    },
+    "diagramAndCount": {
+      "title": "Grafieken en tellen",
+      "description": "Leer grafieken en datavisualisatie"
+    },
+    "hiddenObjects": {
+      "title": "Verborgen voorwerpen",
+      "description": "Vind verborgen voorwerpen in gedetailleerde scènes"
+    },
+    "iSpy": {
+      "title": "Ik zie ik zie",
+      "description": "Het klassieke zoekspel!"
+    },
+    "patternTrain": {
+      "title": "Patronentrein",
+      "description": "Maak de patroonreeksen af"
+    },
+    "modalLabels": {
+      "ageRange": "Leeftijdsgroep",
+      "difficulty": "Moeilijkheidsgraad",
+      "category": "Categorie"
+    },
+    "difficulties": {
+      "Easy": "Makkelijk",
+      "Medium": "Gemiddeld",
+      "Hard": "Moeilijk"
+    },
+    "categories": {
+      "Language": "Taal",
+      "Math": "Wiskunde",
+      "Visual": "Visueel",
+      "Pattern": "Patronen"
+    },
+    "ageRanges": {
+      "age3to5": "3-5 jaar",
+      "age4to7": "4-7 jaar",
+      "age5to8": "5-8 jaar",
+      "age6to8": "6-8 jaar",
+      "age7to10": "7-10 jaar"
+    }
+  },
+  "common": {
+    "loading": "Laden...",
+    "error": "Er is een fout opgetreden",
+    "retry": "Opnieuw proberen",
+    "save": "Opslaan",
+    "cancel": "Annuleren",
+    "delete": "Verwijderen",
+    "edit": "Bewerken",
+    "create": "Aanmaken",
+    "search": "Zoeken",
+    "filter": "Filteren",
+    "sort": "Sorteren",
+    "next": "Volgende",
+    "previous": "Vorige",
+    "close": "Sluiten",
+    "open": "Openen",
+    "yes": "Ja",
+    "no": "Nee",
+    "confirm": "Bevestigen",
+    "download": "Downloaden",
+    "upload": "Uploaden",
+    "select": "Selecteren",
+    "selectAll": "Alles selecteren",
+    "deselectAll": "Alles deselecteren",
+    "required": "Verplicht",
+    "optional": "Optioneel"
   },
   "dashboard": {
     "header": {
@@ -792,274 +1215,5 @@
         "description": "Vind de ontbrekende stukken"
       }
     }
-  },
-  "billing": {
-    "pageTitle": "Facturering en Abonnement",
-    "currentPlanTitle": "Jouw huidige pakket: {plan}",
-    "planCard": {
-      "title": "Pakket",
-      "perMonth": "/maand"
-    },
-    "billingPeriodCard": {
-      "title": "Factureringsperiode",
-      "noActiveSubscription": "Geen actief abonnement",
-      "cancelsOn": "Loopt af op",
-      "renewsOn": "Verlengt op"
-    },
-    "statusCard": {
-      "title": "Status",
-      "active": "Actief",
-      "inactive": "Inactief",
-      "ends": "Eindigt",
-      "renews": "Verlengt",
-      "noSubscription": "Geen actief abonnement"
-    },
-    "actions": {
-      "upgradePlan": "Pakket upgraden",
-      "reactivateSubscription": "Abonnement reactiveren",
-      "changePlan": "Pakket wijzigen",
-      "cancelSubscription": "Abonnement opzeggen",
-      "stripePortal": "Betaalportaal"
-    },
-    "messages": {
-      "cancelWarning": "Je abonnement eindigt op {date}. Je behoudt tot dan volledige toegang tot alle functionaliteiten.",
-      "paymentSuccess": "Betaling geslaagd! Je abonnement is nu actief.",
-      "paymentCancelled": "Betaling geannuleerd. Je kunt het op elk moment opnieuw proberen.",
-      "cancelConfirm": "Weet je zeker dat je je abonnement wilt opzeggen? Je behoudt toegang tot het einde van de huidige periode.",
-      "reactivateSuccess": "Abonnement succesvol gereactiveerd!",
-      "portalAccessFailed": "Kan betaalportaal niet openen",
-      "cancelFailed": "Kan abonnement niet opzeggen",
-      "reactivateFailed": "Kan abonnement niet reactiveren"
-    },
-    "features": {
-      "title": "Functionaliteiten van jouw pakket",
-      "upgradePrompt": "Upgrade je pakket voor meer mogelijkheden:"
-    },
-    "upgradeModal": {
-      "title": "Pakket wijzigen",
-      "currentPlan": "Huidig pakket",
-      "selectTier": "Selecteer niveau",
-      "billingInterval": "Factureringsinterval",
-      "monthly": "Maandelijks",
-      "yearly": "Jaarlijks",
-      "payMonthly": "Maandelijks betalen",
-      "savePercent": "Bespaar 17%",
-      "perMonth": "/maand",
-      "calculating": "Berekenen...",
-      "upgradePreview": "Upgrade voorvertoning",
-      "changePreview": "Wijziging voorvertoning",
-      "subtotal": "Subtotaal:",
-      "tax": "BTW:",
-      "dueToday": "Vandaag te betalen:",
-      "creditApplied": "Tegoed toegepast:",
-      "cancel": "Annuleren",
-      "processing": "Verwerken...",
-      "confirmChange": "Wijziging bevestigen",
-      "selectDifferentPlan": "Selecteer een ander pakket"
-    },
-    "tiers": {
-      "FREE": {
-        "name": "Gratis",
-        "description": "Perfect om het platform te leren kennen",
-        "features": [
-          "Alleen woordzoeker generator",
-          "Onbeperkt werkbladen maken",
-          "Met watermerk",
-          "Community ondersteuning"
-        ]
-      },
-      "CORE": {
-        "name": "Basispakket",
-        "description": "Ideaal voor het opbouwen van uw printable-bedrijf",
-        "features": [
-          "Toegang tot 10 populaire werkbladgeneratoren",
-          "Onbeperkt werkbladen maken",
-          "Zonder watermerk",
-          "Hoogwaardige PDF-downloads",
-          "Premium sjablonen",
-          "E-mail ondersteuning"
-        ]
-      },
-      "FULL": {
-        "name": "Volledige Toegang",
-        "description": "De complete oplossing voor professionals",
-        "features": [
-          "Toegang tot alle 33+ werkbladgeneratoren",
-          "Onbeperkt werkbladen maken",
-          "Zonder watermerk",
-          "Hoogwaardige PDF-downloads",
-          "Alle premium sjablonen",
-          "Prioritaire e-mail ondersteuning",
-          "Commerciële licentie inbegrepen"
-        ]
-      }
-    }
-  },
-  "support": {
-    "pageTitle": "Klantenservice",
-    "pageSubtitle": "Bekijk je supportaanvragen of maak een nieuwe aan",
-    "myTickets": "Mijn Aanvragen",
-    "newTicket": "Nieuwe Aanvraag",
-    "loadError": "Kan aanvragen niet laden. Probeer de pagina te vernieuwen.",
-    "deleteConfirm": "Weet je zeker dat je deze supportaanvraag wilt verwijderen?",
-    "deleteSuccess": "Supportaanvraag succesvol verwijderd",
-    "deleteError": "Kan supportaanvraag niet verwijderen. Probeer het opnieuw.",
-    "errorMessage": "Er ging iets mis. Probeer het later opnieuw.",
-    "successMessage": "Gelukt! Je aanvraag is ontvangen. We nemen zo snel mogelijk contact met je op.",
-    "loadingTickets": "Bezig met laden...",
-    "noTicketsTitle": "Nog geen supportaanvragen",
-    "noTicketsMessage": "Hulp nodig? Aarzel niet om contact op te nemen - we helpen je graag!",
-    "adminResponse": "Reactie van Support",
-    "yourMessage": "Jouw Bericht",
-    "noResponseYet": "We bekijken je aanvraag en komen zo snel mogelijk bij je terug.",
-    "deleteTicket": "Aanvraag Verwijderen",
-    "ticketId": "Aanvraag-ID",
-    "subjectLabel": "Onderwerp",
-    "created": "Aangemaakt op",
-    "responseTimeInfo": "We reageren meestal binnen 24-48 uur op supportaanvragen.",
-    "subjectPlaceholder": "Waar kunnen we je mee helpen?",
-    "categoryLabel": "Categorie",
-    "priorityLabel": "Prioriteit",
-    "messageLabel": "Bericht",
-    "messagePlaceholder": "Beschrijf je vraag of probleem zo gedetailleerd mogelijk. Hoe meer informatie je geeft, hoe beter we je kunnen helpen!",
-    "emailLabel": "E-mailadres",
-    "submitting": "Even geduld...",
-    "submitButton": "Aanvraag Versturen",
-    "responseTime": "Reactietijd",
-    "helpTitle": "Veelgestelde Vragen",
-    "helpDescription": "Misschien staat je vraag al tussen onze veelgestelde vragen. Neem gerust een kijkje voor snelle antwoorden!",
-    "status": {
-      "open": "OPEN",
-      "in_progress": "IN BEHANDELING",
-      "waiting": "WACHTEN",
-      "resolved": "OPGELOST",
-      "closed": "GESLOTEN"
-    },
-    "priority": {
-      "low": "LAAG",
-      "medium": "NORMAAL",
-      "high": "HOOG",
-      "urgent": "URGENT"
-    },
-    "categories": {
-      "bug": "Probleem melden",
-      "feature_request": "Nieuwe functie voorstellen",
-      "billing": "Facturering & Betaling",
-      "technical": "Technische vraag",
-      "other": "Iets anders"
-    }
-  },
-  "about": {
-    "metaTitle": "Over LessonCraftStudio | Professionele Printable-Generatoren",
-    "metaDescription": "Leer meer over LessonCraftStudio — 33 professionele printable-generatoren voor Etsy-verkopers, Amazon KDP-uitgevers en printable-ondernemers. 11 talen, 3.000+ afbeeldingen, commerciële licentie inbegrepen.",
-    "hero": {
-      "title": "Over LessonCraftStudio",
-      "subtitle": "Professionele printable-generatoren voor Etsy-verkopers en KDP-uitgevers wereldwijd"
-    },
-    "stats": {
-      "generators": "33",
-      "generatorsLabel": "Werkblad-generatoren",
-      "languages": "11",
-      "languagesLabel": "Talen",
-      "images": "3.000+",
-      "imagesLabel": "Thematische afbeeldingen",
-      "themes": "100+",
-      "themesLabel": "Thema’s"
-    },
-    "mission": {
-      "title": "Onze missie",
-      "description": "LessonCraftStudio is gebouwd om Etsy-verkopers, KDP-uitgevers en printable-ondernemers te helpen direct professionele werkbladen te maken — zonder designvaardigheden, dure software of uren voorbereiding.",
-      "description2": "Onze 33 generatoren maken drukklare PDF's in 300 DPI met antwoordsleutels, 3.000+ thematische afbeeldingen en 11 talen — alles met commerciële licentie om op elk platform te verkopen."
-    },
-    "methodology": {
-      "title": "Onze aanpak",
-      "instant": {
-        "title": "Direct genereren",
-        "description": "Kies een thema, pas de instellingen aan en genereer in enkele seconden een drukklaar werkblad. Geen designvaardigheden nodig."
-      },
-      "research": {
-        "title": "Professionele kwaliteit",
-        "description": "Elke generator maakt verkoopklare PDF's in 300 DPI met antwoordsleutels — perfect voor Etsy-winkels, KDP-boeken en digitale downloads."
-      },
-      "inclusive": {
-        "title": "Meertalig & inclusief",
-        "description": "Alle 33 generatoren werken naadloos in 11 talen, met cultureel passende inhoud en een bibliotheek van meer dan 3.000 handgeselecteerde afbeeldingen."
-      }
-    },
-    "audience": {
-      "title": "Voor wie",
-      "teachers": {
-        "title": "Etsy- en KDP-verkopers",
-        "description": "Bouw snel een catalogus van printable producten op. Genereer unieke thematische werkbladen die opvallen op de markt."
-      },
-      "parents": {
-        "title": "Persoonlijk gebruik",
-        "description": "Maak werkbladen voor thuisonderwijs of persoonlijke projecten in seconden. Gratis uitproberen met watermerk — zonder registratie."
-      },
-      "therapists": {
-        "title": "Contentmakers en uitgevers",
-        "description": "Produceer professionele printbare content op schaal. 33 generatoren, 104 thema's, 11 talen — maak honderden unieke producten op een enkel platform."
-      }
-    },
-    "cta": {
-      "title": "Klaar om te beginnen?",
-      "subtitle": "Begin direct met het maken van professionele werkbladen — gratis uitproberen.",
-      "button": "Generatoren bekijken"
-    },
-    "metaKeywords": "over LessonCraftStudio, werkbladgeneratoren, tools voor printbare creatie, Etsy printables, Amazon KDP werkbladen, puzzelboekmaker, commerciele werkbladgenerator, meertalige werkbladen",
-    "expertise": {
-      "title": "Gebouwd voor verkopers",
-      "subtitle": "Elke functie is ontworpen om u te helpen meer producten sneller te maken en te verkopen",
-      "curriculum": {
-        "title": "Verkoopklare output",
-        "description": "300 DPI PDF-export, automatische antwoordsleutels, KDP-geoptimaliseerde opmaak en grijstintenmodus. Uw output is direct klaar voor Etsy, Amazon KDP of Teachers Pay Teachers."
-      },
-      "educators": {
-        "title": "Volledige commerciele rechten",
-        "description": "Elk betaald product bevat onbeperkte commerciele rechten. Verkoop op elk platform, in elke hoeveelheid. Geen naamsvermelding vereist, geen royalties, geen beperkingen."
-      },
-      "evidence": {
-        "title": "Eenmalige aankoop",
-        "description": "Geen abonnementen, geen maandelijkse kosten, geen verborgen kosten. Betaal eenmaal en gebruik uw generatoren voor altijd. Alle producten bevatten een 30 dagen geld-terug-garantie."
-      }
-    }
-  },
-  "seo": {
-    "educational_level": {
-      "preschool": "Peuterspeelzaal",
-      "kindergarten": "Kleuterschool",
-      "grade_1": "Groep 3",
-      "grade_2": "Groep 4",
-      "grade_3": "Groep 5"
-    }
-  },
-  "endDeck": {
-    "heading": "Meer hiervan?",
-    "moreType": "Meer {type}-werkbladen",
-    "moreTheme": "Meer werkbladen met thema {theme}",
-    "moreLevel": "Meer werkbladen voor {level}",
-    "browseAll": "Bekijk alle werkbladen"
-  },
-  "topicPage": {
-    "meta": {
-      "title": "Werkbladen voor {topic} | LessonCraftStudio",
-      "description": "Gratis {topic}-werkbladen en afdrukbare PDFs. Interactieve activiteiten voor klassen in de eerste schooljaren."
-    },
-    "heading": {
-      "exerciseType": "Werkbladen voor {topic}",
-      "theme": "Werkbladen met {topic}",
-      "educationalLevel": "Werkbladen voor {topic}"
-    },
-    "intro": {
-      "exerciseType": "Interactieve werkbladen en afdrukbare PDFs om {topic} te oefenen.",
-      "theme": "Werkbladen met {topic}.",
-      "educationalLevel": "Activiteiten voor {topic}."
-    },
-    "decksCount": "{count, plural, =0 {Nog geen werkbladen} =1 {1 werkblad} other {# werkbladen}}",
-    "deckCard": {
-      "playLink": "Online spelen",
-      "pdfLink": "PDF afdrukken"
-    },
-    "emptyState": "Nog geen werkbladen in dit onderwerp — kom binnenkort terug."
   }
 }

@@ -4,7 +4,6 @@
   "$comment_schema": "Per CLAUDE.md §16.5 α-granular three-axis schema. apps.* carries per-app defaults for publish-cli's metadata.json auto-fill; axes.* carries per-axis-key localized slugs (URL form) AND localized names (human-readable form for ICU {type}/{theme}/{level} interpolation in endDeck.* i18n keys). The `name` field is a Brief B Phase 2 schema extension per the i18n authoring scope expansion.",
   "$comment_app_naming": "App-name lookup keys (apps.<name>) MUST match catalog-export.js's emitted generator.app field, which itself matches the §14.10 canonical 29-app list verbatim. Drift D4 (caught Brief B Phase 2 real-ZIP spot-check 2026-04-29) was an instance of authoring the taxonomy against a mental-model app name (`picture-sudoku`) instead of the real emitter's value (`sudoku`). Forward-look audit completed at the same commit verified all 29 in-scope apps emit generator.app matching their §14.10 canonical name 1:1 (addition, alphabet-train, big-small, bingo, chart-count, code-addition, crossword, cryptogram, find-and-count, find-objects, grid-match, matching, math-puzzle, math-worksheet, missing-pieces, more-less, odd-one-out, pattern-train, pattern-worksheet, picture-path, picture-sort, prepositions, shadow-match, subtraction, sudoku, treasure-hunt, word-guess, word-scramble, wordsearch). When extending this taxonomy in future phases, mirror the §14.10 list verbatim for app keys.",
   "$comment_subject_vocabulary": "Subject vocabulary (apps.*.default_subject) is a free-string field, NOT a 4th formal axis (the formal axes are exercise-type, theme, and educational-level per CLAUDE.md §16.5). Held intentionally as free-string at recon (Brief B Phase 2) to let the corpus shape the value set rather than design a vocabulary up-front. The Pass 1-6 taxonomy expansion arc (closed 2026-05-01) closed the value set at 4 values: math, logic, letters, spatial-reasoning. Distribution across the 29 §14.10 apps: math 8, logic 8, letters 8, spatial-reasoning 5. New apps must fit one of these four values; introducing a 5th value triggers a doctrine review (the operator decides whether the candidate value reflects a genuine pedagogical lens not covered by the 4, or a mis-categorization that should map to one of the 4). See CLAUDE.md §16.4 doctrine on products.ts.category vs apps.*.default_subject orthogonality.",
-
   "apps": {
     "addition": {
       "default_subject": "math",
@@ -152,54 +151,1196 @@
       "exercise_type_axis_key": "odd-one-out"
     }
   },
-
   "axes": {
     "exercise-type": {
-      "addition":         { "slug": { "en": "addition",         "de": "addition",            "es": "suma",                       "nl": "optellen" },              "name": { "en": "addition",         "de": "Addition",         "es": "suma",                  "nl": "optellen" } },
-      "sudoku":           { "slug": { "en": "picture-sudoku",   "de": "bilder-sudoku",       "es": "sudoku-de-imagenes",         "nl": "foto-sudoku" },           "name": { "en": "picture sudoku",   "de": "Bilder-Sudoku",    "es": "sudoku de imágenes",    "nl": "foto-sudoku" } },
-      "cryptogram":       { "slug": { "en": "cryptogram",       "de": "kryptogramm",         "es": "criptograma",                "nl": "cryptogram" },            "name": { "en": "cryptogram",       "de": "Kryptogramm",      "es": "criptograma",           "nl": "cryptogram" } },
-      "picture-path":     { "slug": { "en": "picture-path",     "de": "bildpfad",            "es": "sendero-de-imagenes",        "nl": "beeldpad" },              "name": { "en": "picture path",     "de": "Bildpfad",         "es": "sendero de imágenes",   "nl": "beeldpad" } },
-      "picture-trail":    { "slug": { "en": "picture-trail" },                                                                                                     "name": { "en": "Picture Trail" } },
-      "subtraction":      { "slug": { "en": "subtraction",      "de": "subtraktion",         "es": "resta",                      "nl": "aftrekken" },             "name": { "en": "subtraction",      "de": "Subtraktion",      "es": "resta",                 "nl": "aftrekken" } },
-      "code-addition":    { "slug": { "en": "code-addition",    "de": "code-addition",       "es": "suma-codificada",            "nl": "code-optellen" },         "name": { "en": "code addition",    "de": "Code-Addition",    "es": "suma codificada",       "nl": "code-optellen" } },
-      "more-less":        { "slug": { "en": "more-less",        "de": "mehr-weniger",        "es": "mas-o-menos",                "nl": "meer-minder" },           "name": { "en": "more or less",     "de": "mehr oder weniger","es": "más o menos",           "nl": "meer of minder" } },
-      "math-puzzle":      { "slug": { "en": "math-puzzle",      "de": "mathe-raetsel",       "es": "rompecabezas-matematico",    "nl": "rekenpuzzel" },           "name": { "en": "math puzzle",      "de": "Mathe-Rätsel",     "es": "rompecabezas matemático","nl": "rekenpuzzel" } },
-      "math-worksheet":   { "slug": { "en": "math-worksheet",   "de": "mathe-arbeitsblatt",  "es": "ficha-matematica",           "nl": "rekenwerkblad" },         "name": { "en": "math worksheet",   "de": "Mathe-Arbeitsblatt","es": "ficha matemática",     "nl": "rekenwerkblad" } },
-      "big-small":        { "slug": { "en": "big-small",        "de": "gross-klein",         "es": "grande-pequeno",             "nl": "groot-klein" },           "name": { "en": "big or small",     "de": "groß oder klein",  "es": "grande o pequeño",      "nl": "groot of klein" } },
-      "chart-count":      { "slug": { "en": "chart-count",      "de": "tabelle-zaehlen",     "es": "contar-en-grafico",          "nl": "grafiek-tellen" },        "name": { "en": "chart count",      "de": "Tabelle zählen",   "es": "contar en gráfico",     "nl": "grafiek tellen" } },
-      "pattern-train":    { "slug": { "en": "pattern-train",    "de": "muster-zug",          "es": "tren-de-patrones",           "nl": "patroontrein" },          "name": { "en": "pattern train",    "de": "Musterzug",        "es": "tren de patrones",      "nl": "patroontrein" } },
-      "pattern-worksheet":{ "slug": { "en": "pattern-worksheet","de": "muster-arbeitsblatt", "es": "ficha-de-patrones",          "nl": "patroon-werkblad" },      "name": { "en": "pattern worksheet","de": "Musterarbeitsblatt","es": "ficha de patrones",   "nl": "patroonwerkblad" } },
-      "bingo":            { "slug": { "en": "bingo",            "de": "bingo",               "es": "bingo",                      "nl": "bingo" },                 "name": { "en": "bingo",            "de": "Bingo",            "es": "bingo",                 "nl": "bingo" } },
-      "grid-match":       { "slug": { "en": "grid-match",       "de": "gitter-zuordnung",    "es": "empareja-en-cuadricula",     "nl": "rooster-koppelen" },      "name": { "en": "grid match",       "de": "Gitter-Zuordnung", "es": "emparejar en cuadrícula","nl": "rooster koppelen" } },
-      "matching":         { "slug": { "en": "matching",         "de": "zuordnung",           "es": "emparejar",                  "nl": "koppelen" },              "name": { "en": "matching",         "de": "Zuordnung",        "es": "emparejar",             "nl": "koppelen" } },
-      "picture-sort":     { "slug": { "en": "picture-sort",     "de": "bildersortierung",    "es": "clasificar-imagenes",        "nl": "beelden-sorteren" },      "name": { "en": "picture sort",     "de": "Bildersortierung", "es": "clasificar imágenes",   "nl": "beelden sorteren" } },
-      "shadow-match":     { "slug": { "en": "shadow-match",     "de": "schatten-zuordnen",   "es": "empareja-sombras",           "nl": "schaduw-koppelen" },      "name": { "en": "shadow match",     "de": "Schatten zuordnen","es": "emparejar sombras",     "nl": "schaduw koppelen" } },
-      "alphabet-train":   { "slug": { "en": "alphabet-train",   "de": "buchstabenzug",       "es": "tren-del-abecedario",        "nl": "alfabettrein" },          "name": { "en": "alphabet train",   "de": "Buchstabenzug",    "es": "tren del abecedario",   "nl": "alfabettrein" } },
-      "prepositions":     { "slug": { "en": "prepositions",     "de": "praepositionen",      "es": "preposiciones",              "nl": "voorzetsels" },           "name": { "en": "prepositions",     "de": "Präpositionen",    "es": "preposiciones",         "nl": "voorzetsels" } },
-      "word-guess":       { "slug": { "en": "word-guess",       "de": "wort-raten",          "es": "adivina-la-palabra",         "nl": "woord-raden" },           "name": { "en": "word guess",       "de": "Wort raten",       "es": "adivina la palabra",    "nl": "woord raden" } },
-      "word-scramble":    { "slug": { "en": "word-scramble",    "de": "buchstabensalat",     "es": "letras-revueltas",           "nl": "woordpuzzel" },           "name": { "en": "word scramble",    "de": "Buchstabensalat",  "es": "letras revueltas",      "nl": "woordpuzzel" } },
-      "wordsearch":       { "slug": { "en": "wordsearch",       "de": "wortsuche",           "es": "sopa-de-letras",             "nl": "woordzoeker" },           "name": { "en": "word search",      "de": "Wortsuche",        "es": "sopa de letras",        "nl": "woordzoeker" } },
-      "crossword":        { "slug": { "en": "crossword",        "de": "kreuzwortraetsel",    "es": "crucigrama",                 "nl": "kruiswoordraadsel" },     "name": { "en": "crossword",        "de": "Kreuzworträtsel",  "es": "crucigrama",            "nl": "kruiswoordraadsel" } },
-      "find-and-count":   { "slug": { "en": "find-and-count",   "de": "suchen-und-zaehlen",  "es": "busca-y-cuenta",             "nl": "zoek-en-tel" },           "name": { "en": "find and count",   "de": "Suchen und zählen","es": "busca y cuenta",        "nl": "zoek en tel" } },
-      "find-objects":     { "slug": { "en": "find-objects",     "de": "objekte-finden",      "es": "encuentra-los-objetos",      "nl": "objecten-zoeken" },       "name": { "en": "find objects",     "de": "Objekte finden",   "es": "encuentra los objetos", "nl": "objecten zoeken" } },
-      "treasure-hunt":    { "slug": { "en": "treasure-hunt",    "de": "schatzsuche",         "es": "busqueda-del-tesoro",        "nl": "schatzoektocht" },        "name": { "en": "treasure hunt",    "de": "Schatzsuche",      "es": "búsqueda del tesoro",   "nl": "schatzoektocht" } },
-      "missing-pieces":   { "slug": { "en": "missing-pieces",   "de": "was-fehlt",           "es": "piezas-faltantes",           "nl": "ontbrekende-stukken" },   "name": { "en": "missing pieces",   "de": "Was fehlt",        "es": "piezas faltantes",      "nl": "ontbrekende stukken" } },
-      "odd-one-out":      { "slug": { "en": "odd-one-out",      "de": "was-passt-nicht",     "es": "el-intruso",                 "nl": "welke-hoort-niet-thuis" },"name": { "en": "odd one out",      "de": "Was passt nicht",  "es": "el intruso",            "nl": "welke hoort er niet thuis" } }
+      "addition": {
+        "slug": {
+          "en": "addition",
+          "de": "addition",
+          "es": "suma",
+          "nl": "optellen"
+        },
+        "name": {
+          "en": "addition",
+          "de": "Addition",
+          "es": "suma",
+          "nl": "optellen"
+        }
+      },
+      "sudoku": {
+        "slug": {
+          "en": "picture-sudoku",
+          "de": "bilder-sudoku",
+          "es": "sudoku-de-imagenes",
+          "nl": "foto-sudoku"
+        },
+        "name": {
+          "en": "picture sudoku",
+          "de": "Bilder-Sudoku",
+          "es": "sudoku de imágenes",
+          "nl": "foto-sudoku"
+        }
+      },
+      "cryptogram": {
+        "slug": {
+          "en": "cryptogram",
+          "de": "kryptogramm",
+          "es": "criptograma",
+          "nl": "cryptogram"
+        },
+        "name": {
+          "en": "cryptogram",
+          "de": "Kryptogramm",
+          "es": "criptograma",
+          "nl": "cryptogram"
+        }
+      },
+      "picture-path": {
+        "slug": {
+          "en": "picture-path",
+          "de": "bildpfad",
+          "es": "sendero-de-imagenes",
+          "nl": "beeldpad"
+        },
+        "name": {
+          "en": "picture path",
+          "de": "Bildpfad",
+          "es": "sendero de imágenes",
+          "nl": "beeldpad"
+        }
+      },
+      "picture-trail": {
+        "slug": {
+          "en": "picture-trail"
+        },
+        "name": {
+          "en": "Picture Trail"
+        }
+      },
+      "subtraction": {
+        "slug": {
+          "en": "subtraction",
+          "de": "subtraktion",
+          "es": "resta",
+          "nl": "aftrekken"
+        },
+        "name": {
+          "en": "subtraction",
+          "de": "Subtraktion",
+          "es": "resta",
+          "nl": "aftrekken"
+        }
+      },
+      "code-addition": {
+        "slug": {
+          "en": "code-addition",
+          "de": "code-addition",
+          "es": "suma-codificada",
+          "nl": "code-optellen"
+        },
+        "name": {
+          "en": "code addition",
+          "de": "Code-Addition",
+          "es": "suma codificada",
+          "nl": "code-optellen"
+        }
+      },
+      "more-less": {
+        "slug": {
+          "en": "more-less",
+          "de": "mehr-weniger",
+          "es": "mas-o-menos",
+          "nl": "meer-minder"
+        },
+        "name": {
+          "en": "more or less",
+          "de": "mehr oder weniger",
+          "es": "más o menos",
+          "nl": "meer of minder"
+        }
+      },
+      "math-puzzle": {
+        "slug": {
+          "en": "math-puzzle",
+          "de": "mathe-raetsel",
+          "es": "rompecabezas-matematico",
+          "nl": "rekenpuzzel"
+        },
+        "name": {
+          "en": "math puzzle",
+          "de": "Mathe-Rätsel",
+          "es": "rompecabezas matemático",
+          "nl": "rekenpuzzel"
+        }
+      },
+      "math-worksheet": {
+        "slug": {
+          "en": "math-worksheet",
+          "de": "mathe-arbeitsblatt",
+          "es": "ficha-matematica",
+          "nl": "rekenwerkblad"
+        },
+        "name": {
+          "en": "math worksheet",
+          "de": "Mathe-Arbeitsblatt",
+          "es": "ficha matemática",
+          "nl": "rekenwerkblad"
+        }
+      },
+      "big-small": {
+        "slug": {
+          "en": "big-small",
+          "de": "gross-klein",
+          "es": "grande-pequeno",
+          "nl": "groot-klein"
+        },
+        "name": {
+          "en": "big or small",
+          "de": "groß oder klein",
+          "es": "grande o pequeño",
+          "nl": "groot of klein"
+        }
+      },
+      "chart-count": {
+        "slug": {
+          "en": "chart-count",
+          "de": "tabelle-zaehlen",
+          "es": "contar-en-grafico",
+          "nl": "grafiek-tellen"
+        },
+        "name": {
+          "en": "chart count",
+          "de": "Tabelle zählen",
+          "es": "contar en gráfico",
+          "nl": "grafiek tellen"
+        }
+      },
+      "pattern-train": {
+        "slug": {
+          "en": "pattern-train",
+          "de": "muster-zug",
+          "es": "tren-de-patrones",
+          "nl": "patroontrein"
+        },
+        "name": {
+          "en": "pattern train",
+          "de": "Musterzug",
+          "es": "tren de patrones",
+          "nl": "patroontrein"
+        }
+      },
+      "pattern-worksheet": {
+        "slug": {
+          "en": "pattern-worksheet",
+          "de": "muster-arbeitsblatt",
+          "es": "ficha-de-patrones",
+          "nl": "patroon-werkblad"
+        },
+        "name": {
+          "en": "pattern worksheet",
+          "de": "Musterarbeitsblatt",
+          "es": "ficha de patrones",
+          "nl": "patroonwerkblad"
+        }
+      },
+      "bingo": {
+        "slug": {
+          "en": "bingo",
+          "de": "bingo",
+          "es": "bingo",
+          "nl": "bingo"
+        },
+        "name": {
+          "en": "bingo",
+          "de": "Bingo",
+          "es": "bingo",
+          "nl": "bingo"
+        }
+      },
+      "grid-match": {
+        "slug": {
+          "en": "grid-match",
+          "de": "gitter-zuordnung",
+          "es": "empareja-en-cuadricula",
+          "nl": "rooster-koppelen"
+        },
+        "name": {
+          "en": "grid match",
+          "de": "Gitter-Zuordnung",
+          "es": "emparejar en cuadrícula",
+          "nl": "rooster koppelen"
+        }
+      },
+      "matching": {
+        "slug": {
+          "en": "matching",
+          "de": "zuordnung",
+          "es": "emparejar",
+          "nl": "koppelen"
+        },
+        "name": {
+          "en": "matching",
+          "de": "Zuordnung",
+          "es": "emparejar",
+          "nl": "koppelen"
+        }
+      },
+      "picture-sort": {
+        "slug": {
+          "en": "picture-sort",
+          "de": "bildersortierung",
+          "es": "clasificar-imagenes",
+          "nl": "beelden-sorteren"
+        },
+        "name": {
+          "en": "picture sort",
+          "de": "Bildersortierung",
+          "es": "clasificar imágenes",
+          "nl": "beelden sorteren"
+        }
+      },
+      "shadow-match": {
+        "slug": {
+          "en": "shadow-match",
+          "de": "schatten-zuordnen",
+          "es": "empareja-sombras",
+          "nl": "schaduw-koppelen"
+        },
+        "name": {
+          "en": "shadow match",
+          "de": "Schatten zuordnen",
+          "es": "emparejar sombras",
+          "nl": "schaduw koppelen"
+        }
+      },
+      "alphabet-train": {
+        "slug": {
+          "en": "alphabet-train",
+          "de": "buchstabenzug",
+          "es": "tren-del-abecedario",
+          "nl": "alfabettrein"
+        },
+        "name": {
+          "en": "alphabet train",
+          "de": "Buchstabenzug",
+          "es": "tren del abecedario",
+          "nl": "alfabettrein"
+        }
+      },
+      "prepositions": {
+        "slug": {
+          "en": "prepositions",
+          "de": "praepositionen",
+          "es": "preposiciones",
+          "nl": "voorzetsels"
+        },
+        "name": {
+          "en": "prepositions",
+          "de": "Präpositionen",
+          "es": "preposiciones",
+          "nl": "voorzetsels"
+        }
+      },
+      "word-guess": {
+        "slug": {
+          "en": "word-guess",
+          "de": "wort-raten",
+          "es": "adivina-la-palabra",
+          "nl": "woord-raden"
+        },
+        "name": {
+          "en": "word guess",
+          "de": "Wort raten",
+          "es": "adivina la palabra",
+          "nl": "woord raden"
+        }
+      },
+      "word-scramble": {
+        "slug": {
+          "en": "word-scramble",
+          "de": "buchstabensalat",
+          "es": "letras-revueltas",
+          "nl": "woordpuzzel"
+        },
+        "name": {
+          "en": "word scramble",
+          "de": "Buchstabensalat",
+          "es": "letras revueltas",
+          "nl": "woordpuzzel"
+        }
+      },
+      "wordsearch": {
+        "slug": {
+          "en": "wordsearch",
+          "de": "wortsuche",
+          "es": "sopa-de-letras",
+          "nl": "woordzoeker"
+        },
+        "name": {
+          "en": "word search",
+          "de": "Wortsuche",
+          "es": "sopa de letras",
+          "nl": "woordzoeker"
+        }
+      },
+      "crossword": {
+        "slug": {
+          "en": "crossword",
+          "de": "kreuzwortraetsel",
+          "es": "crucigrama",
+          "nl": "kruiswoordraadsel"
+        },
+        "name": {
+          "en": "crossword",
+          "de": "Kreuzworträtsel",
+          "es": "crucigrama",
+          "nl": "kruiswoordraadsel"
+        }
+      },
+      "find-and-count": {
+        "slug": {
+          "en": "find-and-count",
+          "de": "suchen-und-zaehlen",
+          "es": "busca-y-cuenta",
+          "nl": "zoek-en-tel"
+        },
+        "name": {
+          "en": "find and count",
+          "de": "Suchen und zählen",
+          "es": "busca y cuenta",
+          "nl": "zoek en tel"
+        }
+      },
+      "find-objects": {
+        "slug": {
+          "en": "find-objects",
+          "de": "objekte-finden",
+          "es": "encuentra-los-objetos",
+          "nl": "objecten-zoeken"
+        },
+        "name": {
+          "en": "find objects",
+          "de": "Objekte finden",
+          "es": "encuentra los objetos",
+          "nl": "objecten zoeken"
+        }
+      },
+      "treasure-hunt": {
+        "slug": {
+          "en": "treasure-hunt",
+          "de": "schatzsuche",
+          "es": "busqueda-del-tesoro",
+          "nl": "schatzoektocht"
+        },
+        "name": {
+          "en": "treasure hunt",
+          "de": "Schatzsuche",
+          "es": "búsqueda del tesoro",
+          "nl": "schatzoektocht"
+        }
+      },
+      "missing-pieces": {
+        "slug": {
+          "en": "missing-pieces",
+          "de": "was-fehlt",
+          "es": "piezas-faltantes",
+          "nl": "ontbrekende-stukken"
+        },
+        "name": {
+          "en": "missing pieces",
+          "de": "Was fehlt",
+          "es": "piezas faltantes",
+          "nl": "ontbrekende stukken"
+        }
+      },
+      "odd-one-out": {
+        "slug": {
+          "en": "odd-one-out",
+          "de": "was-passt-nicht",
+          "es": "el-intruso",
+          "nl": "welke-hoort-niet-thuis"
+        },
+        "name": {
+          "en": "odd one out",
+          "de": "Was passt nicht",
+          "es": "el intruso",
+          "nl": "welke hoort er niet thuis"
+        }
+      }
     },
-
     "theme": {
-      "animals":  { "slug": { "en": "animals",  "de": "tiere",     "es": "animales",   "nl": "dieren" },     "name": { "en": "animal",  "de": "Tier",     "es": "animal",   "nl": "dier" } },
-      "vehicles": { "slug": { "en": "vehicles", "de": "fahrzeuge", "es": "vehiculos",  "nl": "voertuigen" }, "name": { "en": "vehicle", "de": "Fahrzeug", "es": "vehículo", "nl": "voertuig" } },
-      "food":     { "slug": { "en": "food",     "de": "essen",     "es": "comida",     "nl": "eten" },       "name": { "en": "food",    "de": "Essen",    "es": "comida",   "nl": "eten" } },
-      "fruit":    { "slug": { "en": "fruit",    "de": "obst",      "es": "frutas",     "nl": "fruit" },      "name": { "en": "fruit",   "de": "Obst",     "es": "fruta",    "nl": "fruit" } }
+      "4th_of_july": {
+        "slug": {
+          "en": "4th-of-july",
+          "de": "4-juli",
+          "es": "4-de-julio",
+          "nl": "4-juli"
+        },
+        "name": {
+          "en": "4th of July",
+          "de": "4. Juli",
+          "es": "4 de Julio",
+          "nl": "4 juli"
+        }
+      },
+      "accessories": {
+        "slug": {
+          "en": "accessories",
+          "de": "accessoires",
+          "es": "accesorios",
+          "nl": "accessoires"
+        },
+        "name": {
+          "en": "Accessories",
+          "de": "Accessoires",
+          "es": "Accesorios",
+          "nl": "Accessoires"
+        }
+      },
+      "activities": {
+        "slug": {
+          "en": "activities",
+          "de": "aktivitaten",
+          "es": "actividades",
+          "nl": "activiteiten"
+        },
+        "name": {
+          "en": "Activities",
+          "de": "Aktivitaten",
+          "es": "Actividades",
+          "nl": "Activiteiten"
+        }
+      },
+      "animals": {
+        "slug": {
+          "en": "animals",
+          "de": "tiere",
+          "es": "animales",
+          "nl": "dieren"
+        },
+        "name": {
+          "en": "Animals",
+          "de": "Tiere",
+          "es": "Animales",
+          "nl": "Dieren"
+        }
+      },
+      "around_the_house": {
+        "slug": {
+          "en": "around-the-house",
+          "de": "rund-ums-haus",
+          "es": "alrededor-de-la-casa",
+          "nl": "rond-het-huis"
+        },
+        "name": {
+          "en": "Around the House",
+          "de": "Rund ums Haus",
+          "es": "Alrededor de la casa",
+          "nl": "Rond het huis"
+        }
+      },
+      "at_the_supermarket": {
+        "slug": {
+          "en": "at-the-supermarket",
+          "de": "im-supermarkt",
+          "es": "en-el-supermercado",
+          "nl": "in-de-supermarkt"
+        },
+        "name": {
+          "en": "At the Supermarket",
+          "de": "Im Supermarkt",
+          "es": "En el supermercado",
+          "nl": "In de supermarkt"
+        }
+      },
+      "bakery": {
+        "slug": {
+          "en": "bakery",
+          "de": "backerei",
+          "es": "panaderia",
+          "nl": "bakkerij"
+        },
+        "name": {
+          "en": "Bakery",
+          "de": "Bäckerei",
+          "es": "Panadería",
+          "nl": "Bakkerij"
+        }
+      },
+      "beach": {
+        "slug": {
+          "en": "beach",
+          "de": "strand",
+          "es": "playa",
+          "nl": "strand"
+        },
+        "name": {
+          "en": "Beach",
+          "de": "Strand",
+          "es": "Playa",
+          "nl": "Strand"
+        }
+      },
+      "birds": {
+        "slug": {
+          "en": "birds",
+          "de": "vogel",
+          "es": "aves",
+          "nl": "vogels"
+        },
+        "name": {
+          "en": "Birds",
+          "de": "Vögel",
+          "es": "Aves",
+          "nl": "Vogels"
+        }
+      },
+      "birds_2": {
+        "slug": {
+          "en": "birds-2",
+          "de": "vogel-2",
+          "es": "aves-2",
+          "nl": "vogels-2"
+        },
+        "name": {
+          "en": "Birds 2",
+          "de": "Vögel 2",
+          "es": "Aves 2",
+          "nl": "Vogels 2"
+        }
+      },
+      "body_parts": {
+        "slug": {
+          "en": "body-parts",
+          "de": "korperteile",
+          "es": "partes-del-cuerpo",
+          "nl": "lichaamsdelen"
+        },
+        "name": {
+          "en": "Body Parts",
+          "de": "Körperteile",
+          "es": "Partes del cuerpo",
+          "nl": "Lichaamsdelen"
+        }
+      },
+      "breakfast": {
+        "slug": {
+          "en": "breakfast",
+          "de": "fruhstuck",
+          "es": "desayuno",
+          "nl": "ontbijt"
+        },
+        "name": {
+          "en": "Breakfast",
+          "de": "Frühstück",
+          "es": "Desayuno",
+          "nl": "Ontbijt"
+        }
+      },
+      "camping": {
+        "slug": {
+          "en": "camping",
+          "de": "camping",
+          "es": "campamento",
+          "nl": "kamperen"
+        },
+        "name": {
+          "en": "Camping",
+          "de": "Camping",
+          "es": "Campamento",
+          "nl": "Kamperen"
+        }
+      },
+      "christmas": {
+        "slug": {
+          "en": "christmas",
+          "de": "weihnachten",
+          "es": "navidad",
+          "nl": "kerstmis"
+        },
+        "name": {
+          "en": "Christmas",
+          "de": "Weihnachten",
+          "es": "Navidad",
+          "nl": "Kerstmis"
+        }
+      },
+      "classroom": {
+        "slug": {
+          "en": "classroom",
+          "de": "klassenzimmer",
+          "es": "salon-de-clases",
+          "nl": "klaslokaal"
+        },
+        "name": {
+          "en": "Classroom",
+          "de": "Klassenzimmer",
+          "es": "Salón de clases",
+          "nl": "Klaslokaal"
+        }
+      },
+      "clothing": {
+        "slug": {
+          "en": "clothing",
+          "de": "kleidung",
+          "es": "ropa",
+          "nl": "kleding"
+        },
+        "name": {
+          "en": "Clothing",
+          "de": "Kleidung",
+          "es": "Ropa",
+          "nl": "Kleding"
+        }
+      },
+      "colors": {
+        "slug": {
+          "en": "colors",
+          "de": "farben",
+          "es": "colores",
+          "nl": "kleuren"
+        },
+        "name": {
+          "en": "Colors",
+          "de": "Farben",
+          "es": "Colores",
+          "nl": "Kleuren"
+        }
+      },
+      "desserts_and_sweets": {
+        "slug": {
+          "en": "desserts-and-sweets",
+          "de": "desserts-und-sussigkeiten",
+          "es": "postres-y-dulces",
+          "nl": "desserts-en-snoep"
+        },
+        "name": {
+          "en": "Desserts and Sweets",
+          "de": "Desserts und Süßigkeiten",
+          "es": "Postres y dulces",
+          "nl": "Desserts en snoep"
+        }
+      },
+      "dinosaurs": {
+        "slug": {
+          "en": "dinosaurs",
+          "de": "dinosaurier",
+          "es": "dinosaurios",
+          "nl": "dinosaurussen"
+        },
+        "name": {
+          "en": "Dinosaurs",
+          "de": "Dinosaurier",
+          "es": "Dinosaurios",
+          "nl": "Dinosaurussen"
+        }
+      },
+      "easter": {
+        "slug": {
+          "en": "easter",
+          "de": "ostern",
+          "es": "pascua",
+          "nl": "pasen"
+        },
+        "name": {
+          "en": "Easter",
+          "de": "Ostern",
+          "es": "Pascua",
+          "nl": "Pasen"
+        }
+      },
+      "emotions": {
+        "slug": {
+          "en": "emotions",
+          "de": "emotionen",
+          "es": "emociones",
+          "nl": "emoties"
+        },
+        "name": {
+          "en": "Emotions",
+          "de": "Emotionen",
+          "es": "Emociones",
+          "nl": "Emoties"
+        }
+      },
+      "farm_animals": {
+        "slug": {
+          "en": "farm-animals",
+          "de": "bauernhoftiere",
+          "es": "animales-de-granja",
+          "nl": "boerderijdieren"
+        },
+        "name": {
+          "en": "Farm Animals",
+          "de": "Bauernhoftiere",
+          "es": "Animales de granja",
+          "nl": "Boerderijdieren"
+        }
+      },
+      "flowers": {
+        "slug": {
+          "en": "flowers",
+          "de": "blumen",
+          "es": "flores",
+          "nl": "bloemen"
+        },
+        "name": {
+          "en": "Flowers",
+          "de": "Blumen",
+          "es": "Flores",
+          "nl": "Bloemen"
+        }
+      },
+      "forest_creatures": {
+        "slug": {
+          "en": "forest-creatures",
+          "de": "waldtiere",
+          "es": "criaturas-del-bosque",
+          "nl": "boswezens"
+        },
+        "name": {
+          "en": "Forest Creatures",
+          "de": "Waldtiere",
+          "es": "Criaturas del bosque",
+          "nl": "Boswezens"
+        }
+      },
+      "fruits": {
+        "slug": {
+          "en": "fruits",
+          "de": "fruchte",
+          "es": "frutas",
+          "nl": "fruit"
+        },
+        "name": {
+          "en": "Fruits",
+          "de": "Früchte",
+          "es": "Frutas",
+          "nl": "Fruit"
+        }
+      },
+      "furniture": {
+        "slug": {
+          "en": "furniture",
+          "de": "mobel",
+          "es": "muebles",
+          "nl": "meubels"
+        },
+        "name": {
+          "en": "Furniture",
+          "de": "Möbel",
+          "es": "Muebles",
+          "nl": "Meubels"
+        }
+      },
+      "hospital": {
+        "slug": {
+          "en": "hospital",
+          "de": "krankenhaus",
+          "es": "hospital",
+          "nl": "ziekenhuis"
+        },
+        "name": {
+          "en": "Hospital",
+          "de": "Krankenhaus",
+          "es": "Hospital",
+          "nl": "Ziekenhuis"
+        }
+      },
+      "insects_and_bugs": {
+        "slug": {
+          "en": "insects-and-bugs",
+          "de": "insekten-und-kafer",
+          "es": "insectos-y-bichos",
+          "nl": "insecten-en-beestjes"
+        },
+        "name": {
+          "en": "Insects and Bugs",
+          "de": "Insekten und Käfer",
+          "es": "Insectos y bichos",
+          "nl": "Insecten en beestjes"
+        }
+      },
+      "kitchen_tools": {
+        "slug": {
+          "en": "kitchen-tools",
+          "de": "kuchenwerkzeuge",
+          "es": "utensilios-de-cocina",
+          "nl": "keukengerei"
+        },
+        "name": {
+          "en": "Kitchen Tools",
+          "de": "Küchenwerkzeuge",
+          "es": "Utensilios de cocina",
+          "nl": "Keukengerei"
+        }
+      },
+      "miscellaneous": {
+        "slug": {
+          "en": "miscellaneous",
+          "de": "verschiedenes",
+          "es": "miscelaneo",
+          "nl": "diversen"
+        },
+        "name": {
+          "en": "Miscellaneous",
+          "de": "Verschiedenes",
+          "es": "Misceláneo",
+          "nl": "Diversen"
+        }
+      },
+      "music": {
+        "slug": {
+          "en": "music",
+          "de": "musik",
+          "es": "musica",
+          "nl": "muziek"
+        },
+        "name": {
+          "en": "Music",
+          "de": "Musik",
+          "es": "Música",
+          "nl": "Muziek"
+        }
+      },
+      "occupations": {
+        "slug": {
+          "en": "occupations",
+          "de": "berufe",
+          "es": "ocupaciones",
+          "nl": "beroepen"
+        },
+        "name": {
+          "en": "Occupations",
+          "de": "Berufe",
+          "es": "Ocupaciones",
+          "nl": "Beroepen"
+        }
+      },
+      "ocean_life": {
+        "slug": {
+          "en": "ocean-life",
+          "de": "meeresleben",
+          "es": "vida-marina",
+          "nl": "oceaanleven"
+        },
+        "name": {
+          "en": "Ocean Life",
+          "de": "Meeresleben",
+          "es": "Vida marina",
+          "nl": "Oceaanleven"
+        }
+      },
+      "pets": {
+        "slug": {
+          "en": "pets",
+          "de": "haustiere",
+          "es": "mascotas",
+          "nl": "huisdieren"
+        },
+        "name": {
+          "en": "Pets",
+          "de": "Haustiere",
+          "es": "Mascotas",
+          "nl": "Huisdieren"
+        }
+      },
+      "post_office": {
+        "slug": {
+          "en": "post-office",
+          "de": "postamt",
+          "es": "oficina-de-correos",
+          "nl": "postkantoor"
+        },
+        "name": {
+          "en": "Post Office",
+          "de": "Postamt",
+          "es": "Oficina de correos",
+          "nl": "Postkantoor"
+        }
+      },
+      "reptiles_and_amphibians": {
+        "slug": {
+          "en": "reptiles-and-amphibians",
+          "de": "reptilien-und-amphibien",
+          "es": "reptiles-y-anfibios",
+          "nl": "reptielen-en-amfibieen"
+        },
+        "name": {
+          "en": "Reptiles and Amphibians",
+          "de": "Reptilien und Amphibien",
+          "es": "Reptiles y anfibios",
+          "nl": "Reptielen en amfibieën"
+        }
+      },
+      "shapes": {
+        "slug": {
+          "en": "shapes",
+          "de": "formen",
+          "es": "formas",
+          "nl": "vormen"
+        },
+        "name": {
+          "en": "Shapes",
+          "de": "Formen",
+          "es": "Formas",
+          "nl": "Vormen"
+        }
+      },
+      "space": {
+        "slug": {
+          "en": "space",
+          "de": "weltraum",
+          "es": "espacio",
+          "nl": "ruimte"
+        },
+        "name": {
+          "en": "Space",
+          "de": "Weltraum",
+          "es": "Espacio",
+          "nl": "Ruimte"
+        }
+      },
+      "spring": {
+        "slug": {
+          "en": "spring",
+          "de": "fruhling",
+          "es": "primavera",
+          "nl": "lente"
+        },
+        "name": {
+          "en": "Spring",
+          "de": "Frühling",
+          "es": "Primavera",
+          "nl": "Lente"
+        }
+      },
+      "summer": {
+        "slug": {
+          "en": "summer",
+          "de": "sommer",
+          "es": "verano",
+          "nl": "zomer"
+        },
+        "name": {
+          "en": "Summer",
+          "de": "Sommer",
+          "es": "Verano",
+          "nl": "Zomer"
+        }
+      },
+      "thanksgivinng": {
+        "slug": {
+          "en": "thanksgiving",
+          "de": "erntedankfest",
+          "es": "dia-de-accion-de-gracias",
+          "nl": "thanksgiving"
+        },
+        "name": {
+          "en": "Thanksgiving",
+          "de": "Erntedankfest",
+          "es": "Día de Acción de Gracias",
+          "nl": "Thanksgiving"
+        }
+      },
+      "things_that_fly": {
+        "slug": {
+          "en": "things-that-fly",
+          "de": "dinge-die-fliegen",
+          "es": "cosas-que-vuelan",
+          "nl": "dingen-die-vliegen"
+        },
+        "name": {
+          "en": "Things That Fly",
+          "de": "Dinge die fliegen",
+          "es": "Cosas que vuelan",
+          "nl": "Dingen die vliegen"
+        }
+      },
+      "tools": {
+        "slug": {
+          "en": "tools",
+          "de": "werkzeuge",
+          "es": "herramientas",
+          "nl": "gereedschap"
+        },
+        "name": {
+          "en": "Tools",
+          "de": "Werkzeuge",
+          "es": "Herramientas",
+          "nl": "Gereedschap"
+        }
+      },
+      "toys": {
+        "slug": {
+          "en": "toys",
+          "de": "spielzeug",
+          "es": "juguetes",
+          "nl": "speelgoed"
+        },
+        "name": {
+          "en": "Toys",
+          "de": "Spielzeug",
+          "es": "Juguetes",
+          "nl": "Speelgoed"
+        }
+      },
+      "tree": {
+        "slug": {
+          "en": "trees",
+          "de": "baume",
+          "es": "arboles",
+          "nl": "bomen"
+        },
+        "name": {
+          "en": "Trees",
+          "de": "Bäume",
+          "es": "Árboles",
+          "nl": "Bomen"
+        }
+      },
+      "vegetables": {
+        "slug": {
+          "en": "vegetables",
+          "de": "gemuse",
+          "es": "verduras",
+          "nl": "groenten"
+        },
+        "name": {
+          "en": "Vegetables",
+          "de": "Gemüse",
+          "es": "Verduras",
+          "nl": "Groenten"
+        }
+      },
+      "vehicles": {
+        "slug": {
+          "en": "vehicles",
+          "de": "fahrzeuge",
+          "es": "vehiculos",
+          "nl": "voertuigen"
+        },
+        "name": {
+          "en": "Vehicles",
+          "de": "Fahrzeuge",
+          "es": "Vehículos",
+          "nl": "Voertuigen"
+        }
+      },
+      "weather": {
+        "slug": {
+          "en": "weather",
+          "de": "wetter",
+          "es": "clima",
+          "nl": "weer"
+        },
+        "name": {
+          "en": "Weather",
+          "de": "Wetter",
+          "es": "Clima",
+          "nl": "Weer"
+        }
+      },
+      "winter": {
+        "slug": {
+          "en": "winter",
+          "de": "winter",
+          "es": "invierno",
+          "nl": "winter"
+        },
+        "name": {
+          "en": "Winter",
+          "de": "Winter",
+          "es": "Invierno",
+          "nl": "Winter"
+        }
+      },
+      "zoo_animals": {
+        "slug": {
+          "en": "zoo-animals",
+          "de": "zootiere",
+          "es": "animales-del-zoologico",
+          "nl": "dierentuindieren"
+        },
+        "name": {
+          "en": "Zoo Animals",
+          "de": "Zootiere",
+          "es": "Animales del zoológico",
+          "nl": "Dierentuindieren"
+        }
+      }
     },
-
     "educational-level": {
-      "preschool":    { "slug": { "en": "preschool",    "de": "vorschule",    "es": "preescolar",       "nl": "peuterklas" },  "name": { "en": "preschool",    "de": "Vorschule",   "es": "preescolar",       "nl": "peuterklas" } },
-      "kindergarten": { "slug": { "en": "kindergarten", "de": "kindergarten", "es": "jardin-infantil",  "nl": "kleuterklas" }, "name": { "en": "kindergarten", "de": "Kindergarten","es": "jardín infantil",  "nl": "kleuterklas" } },
-      "grade-1":      { "slug": { "en": "grade-1",      "de": "1-klasse",     "es": "grado-1",          "nl": "groep-3" },     "name": { "en": "grade 1",      "de": "1. Klasse",   "es": "grado 1",          "nl": "groep 3" } },
-      "grade-2":      { "slug": { "en": "grade-2",      "de": "2-klasse",     "es": "grado-2",          "nl": "groep-4" },     "name": { "en": "grade 2",      "de": "2. Klasse",   "es": "grado 2",          "nl": "groep 4" } },
-      "grade-3":      { "slug": { "en": "grade-3",      "de": "3-klasse",     "es": "grado-3",          "nl": "groep-5" },     "name": { "en": "grade 3",      "de": "3. Klasse",   "es": "grado 3",          "nl": "groep 5" } }
+      "preschool": {
+        "slug": {
+          "en": "preschool",
+          "de": "vorschule",
+          "es": "preescolar",
+          "nl": "peuterklas"
+        },
+        "name": {
+          "en": "preschool",
+          "de": "Vorschule",
+          "es": "preescolar",
+          "nl": "peuterklas"
+        }
+      },
+      "kindergarten": {
+        "slug": {
+          "en": "kindergarten",
+          "de": "kindergarten",
+          "es": "jardin-infantil",
+          "nl": "kleuterklas"
+        },
+        "name": {
+          "en": "kindergarten",
+          "de": "Kindergarten",
+          "es": "jardín infantil",
+          "nl": "kleuterklas"
+        }
+      },
+      "grade-1": {
+        "slug": {
+          "en": "grade-1",
+          "de": "1-klasse",
+          "es": "grado-1",
+          "nl": "groep-3"
+        },
+        "name": {
+          "en": "grade 1",
+          "de": "1. Klasse",
+          "es": "grado 1",
+          "nl": "groep 3"
+        }
+      },
+      "grade-2": {
+        "slug": {
+          "en": "grade-2",
+          "de": "2-klasse",
+          "es": "grado-2",
+          "nl": "groep-4"
+        },
+        "name": {
+          "en": "grade 2",
+          "de": "2. Klasse",
+          "es": "grado 2",
+          "nl": "groep 4"
+        }
+      },
+      "grade-3": {
+        "slug": {
+          "en": "grade-3",
+          "de": "3-klasse",
+          "es": "grado-3",
+          "nl": "groep-5"
+        },
+        "name": {
+          "en": "grade 3",
+          "de": "3. Klasse",
+          "es": "grado 3",
+          "nl": "groep 5"
+        }
+      }
     }
   }
 }

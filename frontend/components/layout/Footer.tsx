@@ -180,6 +180,8 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'zoek-en-tel', label: 'zoek en tel' },
     { slug: 'objecten-zoeken', label: 'objecten zoeken' },
     { slug: 'schatzoektocht', label: 'schatzoektocht' },
+    { slug: 'rekenwerkblad', label: 'rekenwerkblad' },
+    { slug: 'beeldpad', label: 'beeldpad' },
   ],
 };
 

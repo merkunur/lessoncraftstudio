@@ -157,6 +157,7 @@ design-elements-sampler.html
 .publish-cli-staging/
 
 # Pillar 1 lesson-plan drafts (operator-authored content; out-of-tree per
-# CLAUDE.md §10.4 spirit). Only the template is tracked.
-lesson-plan-drafts/*.md
+# CLAUDE.md §10.4 spirit). Recursive glob covers nested locale-dirs
+# (lesson-plan-drafts/{en,de,es,nl}/{slug}.md). Only the template is tracked.
+lesson-plan-drafts/**/*.md
 !lesson-plan-drafts/_TEMPLATE.md

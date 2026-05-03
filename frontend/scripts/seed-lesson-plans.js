@@ -113,7 +113,11 @@ function parseScalar(raw) {
   if (v === 'false') return false;
   if (v === 'null' || v === '') return null;
   if (/^-?\d+$/.test(v)) return parseInt(v, 10);
-  if (v === '[]') return [];
+  if (v.startsWith('[') && v.endsWith(']')) {
+    const inner = v.slice(1, -1).trim();
+    if (inner === '') return [];
+    return inner.split(',').map(s => parseScalar(s.trim()));
+  }
   // Strip surrounding quotes
   if ((v.startsWith('"') && v.endsWith('"')) || (v.startsWith("'") && v.endsWith("'"))) {
     return v.slice(1, -1);
@@ -242,7 +246,35 @@ function parseArgs(argv) {
   return args;
 }
 
+function runSelfTest() {
+  // Locks parseScalar behavior so the array-literal regression that surfaced
+  // at Phase 1c apply (real-mode INSERT failed; dry-run silently passed because
+  // dry-run output didn't include the offending field) cannot re-emerge silently.
+  let pass = 0;
+  function check(actual, expected, label) {
+    const a = JSON.stringify(actual);
+    const e = JSON.stringify(expected);
+    if (a !== e) {
+      console.error(`FAIL: ${label} — expected ${e}, got ${a}`);
+      process.exit(1);
+    }
+    pass++;
+  }
+  check(parseScalar('[]'), [], 'empty array');
+  check(parseScalar('["a"]'), ['a'], 'single element');
+  check(parseScalar('["a", "b"]'), ['a', 'b'], 'multi-element');
+  check(parseScalar('["cmojv4qew0000gxwofgmuudas"]'), ['cmojv4qew0000gxwofgmuudas'], 'cuid array');
+  check(parseScalar('"hello"'), 'hello', 'quoted string regression');
+  check(parseScalar('42'), 42, 'integer regression');
+  check(parseScalar('true'), true, 'boolean regression');
+  console.log(`parseScalar self-test: PASS (${pass}/${pass})`);
+}
+
 async function main() {
+  if (process.argv.includes('--self-test')) {
+    runSelfTest();
+    return;
+  }
   const args = parseArgs(process.argv);
   const target = args.file || args.dir;
 

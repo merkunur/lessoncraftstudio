@@ -155,3 +155,8 @@ design-elements-sampler.html
 # publish-cli (Brief B) dry-run staging output. Per Phase 2 brief Q4:
 # default staging dir at repo root, configurable via --staging-dir.
 .publish-cli-staging/
+
+# Pillar 1 lesson-plan drafts (operator-authored content; out-of-tree per
+# CLAUDE.md §10.4 spirit). Only the template is tracked.
+lesson-plan-drafts/*.md
+!lesson-plan-drafts/_TEMPLATE.md

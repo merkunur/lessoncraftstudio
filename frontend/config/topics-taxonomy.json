@@ -1268,6 +1268,706 @@
           "es": "Animales del zoológico",
           "nl": "Dierentuindieren"
         }
+      },
+      "animals_bw": {
+        "slug": {
+          "en": "animals-bw",
+          "de": "tiere-sw",
+          "es": "animales-bn",
+          "nl": "dieren-zw"
+        },
+        "name": {
+          "en": "Animals BW",
+          "de": "Tiere SW",
+          "es": "Animales BN",
+          "nl": "Dieren ZW"
+        }
+      },
+      "animals_bw_2": {
+        "slug": {
+          "en": "animals-bw-2",
+          "de": "tiere-sw-2",
+          "es": "animales-bn-2",
+          "nl": "dieren-zw-2"
+        },
+        "name": {
+          "en": "Animals BW 2",
+          "de": "Tiere SW 2",
+          "es": "Animales BN 2",
+          "nl": "Dieren ZW 2"
+        }
+      },
+      "animals_bw_3": {
+        "slug": {
+          "en": "animals-bw-3",
+          "de": "tiere-sw-3",
+          "es": "animales-bn-3",
+          "nl": "dieren-zw-3"
+        },
+        "name": {
+          "en": "Animals BW 3",
+          "de": "Tiere SW 3",
+          "es": "Animales BN 3",
+          "nl": "Dieren ZW 3"
+        }
+      },
+      "animals_bw_4": {
+        "slug": {
+          "en": "animals-bw-4",
+          "de": "tiere-sw-4",
+          "es": "animales-bn-4",
+          "nl": "dieren-zw-4"
+        },
+        "name": {
+          "en": "Animals BW 4",
+          "de": "Tiere SW 4",
+          "es": "Animales BN 4",
+          "nl": "Dieren ZW 4"
+        }
+      },
+      "animals_bw_5": {
+        "slug": {
+          "en": "animals-bw-5",
+          "de": "tiere-sw-5",
+          "es": "animales-bn-5",
+          "nl": "dieren-zw-5"
+        },
+        "name": {
+          "en": "Animals BW 5",
+          "de": "Tiere SW 5",
+          "es": "Animales BN 5",
+          "nl": "Dieren ZW 5"
+        }
+      },
+      "apparel_bw": {
+        "slug": {
+          "en": "apparel-bw",
+          "de": "kleidung-sw",
+          "es": "ropa-bn",
+          "nl": "kleding-zw"
+        },
+        "name": {
+          "en": "Apparel BW",
+          "de": "Kleidung SW",
+          "es": "Ropa BN",
+          "nl": "Kleding ZW"
+        }
+      },
+      "beach_bw": {
+        "slug": {
+          "en": "beach-bw",
+          "de": "strand-sw",
+          "es": "playa-bn",
+          "nl": "strand-zw"
+        },
+        "name": {
+          "en": "Beach BW",
+          "de": "Strand SW",
+          "es": "Playa BN",
+          "nl": "Strand ZW"
+        }
+      },
+      "beach_bw_2": {
+        "slug": {
+          "en": "beach-bw-2",
+          "de": "strand-sw-2",
+          "es": "playa-bn-2",
+          "nl": "strand-zw-2"
+        },
+        "name": {
+          "en": "Beach BW 2",
+          "de": "Strand SW 2",
+          "es": "Playa BN 2",
+          "nl": "Strand ZW 2"
+        }
+      },
+      "birds_bw": {
+        "slug": {
+          "en": "birds-bw",
+          "de": "vogel-sw",
+          "es": "aves-byn",
+          "nl": "vogels-z-w"
+        },
+        "name": {
+          "en": "Birds BW",
+          "de": "Vögel SW",
+          "es": "Aves ByN",
+          "nl": "Vogels Z&W"
+        }
+      },
+      "birds_bw_2": {
+        "slug": {
+          "en": "birds-bw-2",
+          "de": "vogel-sw-2",
+          "es": "aves-byn-2",
+          "nl": "vogels-z-w-2"
+        },
+        "name": {
+          "en": "Birds BW 2",
+          "de": "Vögel SW 2",
+          "es": "Aves ByN 2",
+          "nl": "Vogels Z&W 2"
+        }
+      },
+      "christmas_bw": {
+        "slug": {
+          "en": "christmas-b-w",
+          "de": "weihnachten-s-w",
+          "es": "navidad-b-n",
+          "nl": "kerstmis-z-w"
+        },
+        "name": {
+          "en": "Christmas B&W",
+          "de": "Weihnachten S/W",
+          "es": "Navidad B&N",
+          "nl": "Kerstmis Z/W"
+        }
+      },
+      "christmas_bw_2": {
+        "slug": {
+          "en": "christmas-b-w-2",
+          "de": "weihnachten-s-w-2",
+          "es": "navidad-b-n-2",
+          "nl": "kerstmis-z-w-2"
+        },
+        "name": {
+          "en": "Christmas B&W 2",
+          "de": "Weihnachten S/W 2",
+          "es": "Navidad B&N 2",
+          "nl": "Kerstmis Z/W 2"
+        }
+      },
+      "classroom_bw": {
+        "slug": {
+          "en": "classroom-b-w",
+          "de": "klassenzimmer-s-w",
+          "es": "salon-de-clases-b-n",
+          "nl": "klaslokaal-z-w"
+        },
+        "name": {
+          "en": "Classroom (B&W)",
+          "de": "Klassenzimmer (S/W)",
+          "es": "Salón de clases (B/N)",
+          "nl": "Klaslokaal (Z/W)"
+        }
+      },
+      "classroom_bw_2": {
+        "slug": {
+          "en": "classroom-2-b-w",
+          "de": "klassenzimmer-2-s-w",
+          "es": "salon-de-clases-2-b-n",
+          "nl": "klaslokaal-2-z-w"
+        },
+        "name": {
+          "en": "Classroom 2 (B&W)",
+          "de": "Klassenzimmer 2 (S/W)",
+          "es": "Salón de clases 2 (B/N)",
+          "nl": "Klaslokaal 2 (Z/W)"
+        }
+      },
+      "dessert_bw": {
+        "slug": {
+          "en": "dessert-b-w",
+          "de": "nachtisch-s-w",
+          "es": "postre-b-n",
+          "nl": "nagerecht-z-w"
+        },
+        "name": {
+          "en": "Dessert (B&W)",
+          "de": "Nachtisch (S/W)",
+          "es": "Postre (B/N)",
+          "nl": "Nagerecht (Z/W)"
+        }
+      },
+      "easter_bw": {
+        "slug": {
+          "en": "easter-bw",
+          "de": "ostern-sw",
+          "es": "pascua-bn",
+          "nl": "pasen-zw"
+        },
+        "name": {
+          "en": "Easter BW",
+          "de": "Ostern SW",
+          "es": "Pascua BN",
+          "nl": "Pasen ZW"
+        }
+      },
+      "easter_bw_2": {
+        "slug": {
+          "en": "easter-bw-2",
+          "de": "ostern-sw-2",
+          "es": "pascua-bn-2",
+          "nl": "pasen-zw-2"
+        },
+        "name": {
+          "en": "Easter BW 2",
+          "de": "Ostern SW 2",
+          "es": "Pascua BN 2",
+          "nl": "Pasen ZW 2"
+        }
+      },
+      "education_bw": {
+        "slug": {
+          "en": "education-bw",
+          "de": "bildung-sw",
+          "es": "educacion-bn",
+          "nl": "onderwijs-zw"
+        },
+        "name": {
+          "en": "Education BW",
+          "de": "Bildung SW",
+          "es": "Educación BN",
+          "nl": "Onderwijs ZW"
+        }
+      },
+      "faces_bw": {
+        "slug": {
+          "en": "faces-bw",
+          "de": "gesichter-sw",
+          "es": "caras-bn",
+          "nl": "gezichten-zw"
+        },
+        "name": {
+          "en": "Faces BW",
+          "de": "Gesichter SW",
+          "es": "Caras BN",
+          "nl": "Gezichten ZW"
+        }
+      },
+      "farm_animals_bw": {
+        "slug": {
+          "en": "farm-animals-bw",
+          "de": "bauernhoftiere-sw",
+          "es": "animales-de-granja-bn",
+          "nl": "boerderijdieren-zw"
+        },
+        "name": {
+          "en": "Farm Animals BW",
+          "de": "Bauernhoftiere SW",
+          "es": "Animales de granja BN",
+          "nl": "Boerderijdieren ZW"
+        }
+      },
+      "farm_bw": {
+        "slug": {
+          "en": "farm-bw",
+          "de": "bauernhof-sw",
+          "es": "granja-bn",
+          "nl": "boerderij-zw"
+        },
+        "name": {
+          "en": "Farm BW",
+          "de": "Bauernhof SW",
+          "es": "Granja BN",
+          "nl": "Boerderij ZW"
+        }
+      },
+      "food_bw": {
+        "slug": {
+          "en": "food-bw",
+          "de": "essen-sw",
+          "es": "comida-bn",
+          "nl": "voedsel-zw"
+        },
+        "name": {
+          "en": "Food BW",
+          "de": "Essen SW",
+          "es": "Comida BN",
+          "nl": "Voedsel ZW"
+        }
+      },
+      "food_bw_2": {
+        "slug": {
+          "en": "food-bw-2",
+          "de": "essen-sw-2",
+          "es": "comida-bn-2",
+          "nl": "voedsel-zw-2"
+        },
+        "name": {
+          "en": "Food BW 2",
+          "de": "Essen SW 2",
+          "es": "Comida BN 2",
+          "nl": "Voedsel ZW 2"
+        }
+      },
+      "food_bw_3": {
+        "slug": {
+          "en": "food-bw-3",
+          "de": "essen-sw-3",
+          "es": "comida-bn-3",
+          "nl": "voedsel-zw-3"
+        },
+        "name": {
+          "en": "Food BW 3",
+          "de": "Essen SW 3",
+          "es": "Comida BN 3",
+          "nl": "Voedsel ZW 3"
+        }
+      },
+      "fruits_bw": {
+        "slug": {
+          "en": "fruits-bw",
+          "de": "fruchte-sw",
+          "es": "frutas-bn",
+          "nl": "fruit-zw"
+        },
+        "name": {
+          "en": "Fruits BW",
+          "de": "Früchte SW",
+          "es": "Frutas BN",
+          "nl": "Fruit ZW"
+        }
+      },
+      "furniture_bw": {
+        "slug": {
+          "en": "furniture-bw",
+          "de": "mobel-sw",
+          "es": "muebles-bn",
+          "nl": "meubels-zw"
+        },
+        "name": {
+          "en": "Furniture BW",
+          "de": "Möbel SW",
+          "es": "Muebles BN",
+          "nl": "Meubels ZW"
+        }
+      },
+      "home_and_nature_bw": {
+        "slug": {
+          "en": "home-and-nature-bw",
+          "de": "haus-und-natur-sw",
+          "es": "hogar-y-naturaleza-bn",
+          "nl": "huis-en-natuur-zw"
+        },
+        "name": {
+          "en": "Home and Nature BW",
+          "de": "Haus und Natur SW",
+          "es": "Hogar y Naturaleza BN",
+          "nl": "Huis en Natuur ZW"
+        }
+      },
+      "home_bw": {
+        "slug": {
+          "en": "home-bw",
+          "de": "zuhause-sw",
+          "es": "hogar-bn",
+          "nl": "huis-zw"
+        },
+        "name": {
+          "en": "Home BW",
+          "de": "Zuhause SW",
+          "es": "Hogar BN",
+          "nl": "Huis ZW"
+        }
+      },
+      "home_bw_2": {
+        "slug": {
+          "en": "home-bw-2",
+          "de": "zuhause-sw-2",
+          "es": "hogar-bn-2",
+          "nl": "huis-zw-2"
+        },
+        "name": {
+          "en": "Home BW 2",
+          "de": "Zuhause SW 2",
+          "es": "Hogar BN 2",
+          "nl": "Huis ZW 2"
+        }
+      },
+      "household_bw": {
+        "slug": {
+          "en": "household-bw",
+          "de": "haushalt-sw",
+          "es": "household-bw",
+          "nl": "huishouden-zw"
+        },
+        "name": {
+          "en": "Household BW",
+          "de": "Haushalt SW",
+          "es": "Hogar BN",
+          "nl": "Huishouden ZW"
+        }
+      },
+      "kitchen_bw": {
+        "slug": {
+          "en": "kitchen-bw",
+          "de": "kuche-sw",
+          "es": "cocina-bn",
+          "nl": "keuken-zw"
+        },
+        "name": {
+          "en": "Kitchen BW",
+          "de": "Küche SW",
+          "es": "Cocina BN",
+          "nl": "Keuken ZW"
+        }
+      },
+      "nature_bw": {
+        "slug": {
+          "en": "nature-bw",
+          "de": "natur-sw",
+          "es": "naturaleza-bn",
+          "nl": "natuur-zw"
+        },
+        "name": {
+          "en": "Nature BW",
+          "de": "Natur SW",
+          "es": "Naturaleza BN",
+          "nl": "Natuur ZW"
+        }
+      },
+      "objects_bw": {
+        "slug": {
+          "en": "objects-bw",
+          "de": "objekte-sw",
+          "es": "objetos-bn",
+          "nl": "objecten-zw"
+        },
+        "name": {
+          "en": "Objects BW",
+          "de": "Objekte SW",
+          "es": "Objetos BN",
+          "nl": "Objecten ZW"
+        }
+      },
+      "sea_life_bw": {
+        "slug": {
+          "en": "sea-life-bw",
+          "de": "meeresleben-sw",
+          "es": "vida-marina-bn",
+          "nl": "zeeleven-zw"
+        },
+        "name": {
+          "en": "Sea Life BW",
+          "de": "Meeresleben SW",
+          "es": "Vida marina BN",
+          "nl": "Zeeleven ZW"
+        }
+      },
+      "sea_life_bw_2": {
+        "slug": {
+          "en": "sea-life-bw-2",
+          "de": "meeresleben-sw-2",
+          "es": "vida-marina-bn-2",
+          "nl": "zeeleven-zw-2"
+        },
+        "name": {
+          "en": "Sea Life BW 2",
+          "de": "Meeresleben SW 2",
+          "es": "Vida marina BN 2",
+          "nl": "Zeeleven ZW 2"
+        }
+      },
+      "space_bw": {
+        "slug": {
+          "en": "space-bw",
+          "de": "weltraum-sw",
+          "es": "espacio-bn",
+          "nl": "ruimte-zw"
+        },
+        "name": {
+          "en": "Space BW",
+          "de": "Weltraum SW",
+          "es": "Espacio BN",
+          "nl": "Ruimte ZW"
+        }
+      },
+      "sports_bw": {
+        "slug": {
+          "en": "sports-bw",
+          "de": "sport-sw",
+          "es": "deportes-bn",
+          "nl": "sport-zw"
+        },
+        "name": {
+          "en": "Sports BW",
+          "de": "Sport SW",
+          "es": "Deportes BN",
+          "nl": "Sport ZW"
+        }
+      },
+      "sports_bw_2": {
+        "slug": {
+          "en": "sports-bw-2",
+          "de": "sport-sw-2",
+          "es": "deportes-bn-2",
+          "nl": "sport-zw-2"
+        },
+        "name": {
+          "en": "Sports BW 2",
+          "de": "Sport SW 2",
+          "es": "Deportes BN 2",
+          "nl": "Sport ZW 2"
+        }
+      },
+      "tools_bw": {
+        "slug": {
+          "en": "tools-bw",
+          "de": "werkzeuge-sw",
+          "es": "herramientas-bn",
+          "nl": "gereedschap-zw"
+        },
+        "name": {
+          "en": "Tools BW",
+          "de": "Werkzeuge SW",
+          "es": "Herramientas BN",
+          "nl": "Gereedschap ZW"
+        }
+      },
+      "toys_bw": {
+        "slug": {
+          "en": "toys-bw",
+          "de": "spielzeug-sw",
+          "es": "juguetes-bn",
+          "nl": "speelgoed-zw"
+        },
+        "name": {
+          "en": "Toys BW",
+          "de": "Spielzeug SW",
+          "es": "Juguetes BN",
+          "nl": "Speelgoed ZW"
+        }
+      },
+      "toys_bw_2": {
+        "slug": {
+          "en": "toys-bw-2",
+          "de": "spielzeug-sw-2",
+          "es": "juguetes-bn-2",
+          "nl": "speelgoed-zw-2"
+        },
+        "name": {
+          "en": "Toys BW 2",
+          "de": "Spielzeug SW 2",
+          "es": "Juguetes BN 2",
+          "nl": "Speelgoed ZW 2"
+        }
+      },
+      "travel_and_holiday_bw": {
+        "slug": {
+          "en": "travel-and-holiday-bw",
+          "de": "reisen-und-urlaub-sw",
+          "es": "viajes-y-vacaciones-bn",
+          "nl": "reizen-en-vakantie-zw"
+        },
+        "name": {
+          "en": "Travel and Holiday BW",
+          "de": "Reisen und Urlaub SW",
+          "es": "Viajes y Vacaciones BN",
+          "nl": "Reizen en Vakantie ZW"
+        }
+      },
+      "valentine_bw": {
+        "slug": {
+          "en": "valentine-bw",
+          "de": "valentinstag-sw",
+          "es": "san-valentin-bn",
+          "nl": "valentijnsdag-zw"
+        },
+        "name": {
+          "en": "Valentine BW",
+          "de": "Valentinstag SW",
+          "es": "San Valentín BN",
+          "nl": "Valentijnsdag ZW"
+        }
+      },
+      "valentine_bw_2": {
+        "slug": {
+          "en": "valentine-bw-2",
+          "de": "valentinstag-sw-2",
+          "es": "san-valentin-bn-2",
+          "nl": "valentijnsdag-zw-2"
+        },
+        "name": {
+          "en": "Valentine BW 2",
+          "de": "Valentinstag SW 2",
+          "es": "San Valentín BN 2",
+          "nl": "Valentijnsdag ZW 2"
+        }
+      },
+      "vegetables_bw": {
+        "slug": {
+          "en": "vegetables-bw",
+          "de": "gemuse-sw",
+          "es": "verduras-bn",
+          "nl": "groenten-zw"
+        },
+        "name": {
+          "en": "Vegetables BW",
+          "de": "Gemüse SW",
+          "es": "Verduras BN",
+          "nl": "Groenten ZW"
+        }
+      },
+      "vegetables_bw_2": {
+        "slug": {
+          "en": "vegetables-bw-2",
+          "de": "gemuse-sw-2",
+          "es": "verduras-bn-2",
+          "nl": "groenten-zw-2"
+        },
+        "name": {
+          "en": "Vegetables BW 2",
+          "de": "Gemüse SW 2",
+          "es": "Verduras BN 2",
+          "nl": "Groenten ZW 2"
+        }
+      },
+      "vehicles_bw": {
+        "slug": {
+          "en": "vehicles-bw",
+          "de": "fahrzeuge-sw",
+          "es": "vehiculos-bn",
+          "nl": "voertuigen-zw"
+        },
+        "name": {
+          "en": "Vehicles BW",
+          "de": "Fahrzeuge SW",
+          "es": "Vehículos BN",
+          "nl": "Voertuigen ZW"
+        }
+      },
+      "vehicles_bw_2": {
+        "slug": {
+          "en": "vehicles-bw-2",
+          "de": "fahrzeuge-sw-2",
+          "es": "vehiculos-bn-2",
+          "nl": "voertuigen-zw-2"
+        },
+        "name": {
+          "en": "Vehicles BW 2",
+          "de": "Fahrzeuge SW 2",
+          "es": "Vehículos BN 2",
+          "nl": "Voertuigen ZW 2"
+        }
+      },
+      "vehicles_bw_3": {
+        "slug": {
+          "en": "vehicles-bw-3",
+          "de": "fahrzeuge-sw-3",
+          "es": "vehiculos-bn-3",
+          "nl": "voertuigen-zw-3"
+        },
+        "name": {
+          "en": "Vehicles BW 3",
+          "de": "Fahrzeuge SW 3",
+          "es": "Vehículos BN 3",
+          "nl": "Voertuigen ZW 3"
+        }
+      },
+      "zoo_animals_bw": {
+        "slug": {
+          "en": "zoo-animals-bw",
+          "de": "zootiere-sw",
+          "es": "animales-del-zoologico-bn",
+          "nl": "dierentuindieren-zw"
+        },
+        "name": {
+          "en": "Zoo Animals BW",
+          "de": "Zootiere SW",
+          "es": "Animales del zoológico BN",
+          "nl": "Dierentuindieren ZW"
+        }
       }
     },
     "educational-level": {

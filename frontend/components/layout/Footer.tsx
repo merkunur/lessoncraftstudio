@@ -145,6 +145,13 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'busqueda-del-tesoro', label: 'búsqueda del tesoro' },
     { slug: 'ficha-matematica', label: 'ficha matemática' },
     { slug: 'sendero-de-imagenes', label: 'sendero de imágenes' },
+    { slug: 'suma', label: 'suma' },
+    { slug: 'bingo', label: 'bingo' },
+    { slug: 'crucigrama', label: 'crucigrama' },
+    { slug: 'criptograma', label: 'criptograma' },
+    { slug: 'tren-de-patrones', label: 'tren de patrones' },
+    { slug: 'sudoku-de-imagenes', label: 'sudoku de imágenes' },
+    { slug: 'letras-revueltas', label: 'letras revueltas' },
   ],
 };
 

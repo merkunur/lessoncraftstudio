@@ -16,7 +16,7 @@ const FOOTER_LANGUAGES: Array<{ code: string; label: string; tier: 1 | 2 | 3 | 4
   { code: 'en', label: 'English', tier: 1 },
   { code: 'de', label: 'German', tier: 1 },
   { code: 'es', label: 'Español', tier: 2 },  // Track C Batch 1 (matching cluster × es); first es deck publish — Tier 2 first-row event
-  // Tier 2 (Dutch) — added at Track C per-locale stagger when first nl deck publishes
+  { code: 'nl', label: 'Nederlands', tier: 2 },  // Track C Batch 1 (matching cluster × nl); first nl deck publish — Tier 2 second-row event
   // Tier 3 (Swedish, Finnish, Norwegian) — added when Tier 3 launches
   // Tier 4 (French, Italian, Danish, Portuguese) — added when Tier 4 launches
 ];
@@ -56,6 +56,10 @@ const FOOTER_TOPICS_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'preescolar', label: 'preescolar' },
     { slug: 'jardin-infantil', label: 'jardín infantil' },
     { slug: 'grado-1', label: 'grado 1' },
+  ],
+  nl: [
+    { slug: 'dieren', label: 'dier' },
+    { slug: 'kleuterklas', label: 'kleuterklas' },
   ],
 };
 
@@ -152,6 +156,12 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'tren-de-patrones', label: 'tren de patrones' },
     { slug: 'sudoku-de-imagenes', label: 'sudoku de imágenes' },
     { slug: 'letras-revueltas', label: 'letras revueltas' },
+  ],
+  nl: [
+    { slug: 'koppelen', label: 'koppelen' },
+    { slug: 'rooster-koppelen', label: 'rooster koppelen' },
+    { slug: 'schaduw-koppelen', label: 'schaduw koppelen' },
+    { slug: 'beelden-sorteren', label: 'beelden sorteren' },
   ],
 };
 

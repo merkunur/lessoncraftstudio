@@ -74,6 +74,13 @@ const FOOTER_TOPICS_BY_LOCALE: Record<string, FooterLink[]> = {
   // Portuguese Track A registered (BR canonical); entries land at first pt
   // deck publish per §16.6 honesty discipline + ES+NL+IT+FR precedent.
   pt: [],
+  // Nordic group Track A registered; entries land at first deck publish per
+  // locale per §16.6 honesty discipline + established precedent. NSR-flagged
+  // per §17.5 for chrome-translation native-speaker review.
+  sv: [],
+  da: [],
+  no: [],
+  fi: [],
 };
 
 const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
@@ -210,6 +217,12 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
   // Portuguese Track A registered (BR canonical); entries land at first pt
   // deck publish per §16.6 honesty discipline + ES+NL+IT+FR precedent.
   pt: [],
+  // Nordic group Track A registered; entries land at first deck publish per
+  // locale per §16.6 honesty discipline + established precedent.
+  sv: [],
+  da: [],
+  no: [],
+  fi: [],
 };
 
 export function Footer() {

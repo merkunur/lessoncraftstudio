@@ -1022,5 +1022,27 @@
     "moreTheme": "Fler arbetsblad med tema {theme}",
     "moreLevel": "Fler arbetsblad för {level}",
     "browseAll": "Bläddra bland alla arbetsblad"
+  },
+  "topicPage": {
+    "meta": {
+      "title": "{topic}-arbetsblad | LessonCraftStudio",
+      "description": "Gratis {topic}-arbetsblad och utskrivbara PDF-filer. Interaktiva aktiviteter för förskolan."
+    },
+    "heading": {
+      "exerciseType": "{topic}-arbetsblad",
+      "theme": "Arbetsblad med tema {topic}",
+      "educationalLevel": "Arbetsblad för {topic}"
+    },
+    "intro": {
+      "exerciseType": "Interaktiva arbetsblad och utskrivbara PDF-filer för att öva {topic}.",
+      "theme": "Arbetsblad med tema {topic}.",
+      "educationalLevel": "Aktiviteter för {topic}."
+    },
+    "decksCount": "{count, plural, =0 {Inga arbetsblad ännu} =1 {1 arbetsblad} other {# arbetsblad}}",
+    "deckCard": {
+      "playLink": "Spela online",
+      "pdfLink": "Skriv ut PDF"
+    },
+    "emptyState": "Inga arbetsblad för detta ämne ännu — kom tillbaka snart."
   }
 }

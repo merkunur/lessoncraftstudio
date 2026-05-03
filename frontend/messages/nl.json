@@ -25,77 +25,105 @@
     "pricing": "Prijzen"
   },
   "homepage": {
+    "meta": {
+      "title": "LessonCraftStudio — Werkbladen die in uw tweede taal werkelijk werken",
+      "description": "Een gecureerde K-3-illustratiebibliotheek en een vocabulairesysteem in 11 talen — met correcte geslachten, meervoudsvormen en diakrieten. Gebouwd voor tweetalige klassen.",
+      "ogTitle": "Werkbladen die in uw tweede taal werkelijk werken.",
+      "ogDescription": "Gebouwd voor leerkrachten in tweetalige programma's, bilinguale klassen en internationale scholen.",
+      "ogAlt": "LessonCraftStudio — K-3-werkbladen in 11 talen"
+    },
     "hero": {
-      "title": "Maak indrukwekkende werkbladen in enkele minuten",
-      "subtitle": "33 professionele printable-generatoren voor Etsy-verkopers, KDP-uitgevers en ondernemers. Commerciële licentie inbegrepen.",
-      "cta": {
-        "tryFree": "Probeer woordzoeker gratis",
-        "viewApps": "Bekijk alle generators"
+      "title": "Werkbladen die in uw tweede taal werkelijk werken.",
+      "subtitle": "Een gecureerde bibliotheek met K-3-illustraties, gekoppeld aan een vocabulairesysteem in 11 talen — met correcte geslachten, meervoudsvormen en diakrieten in elke taal. Gebouwd voor leerkrachten in tweetalige programma's, bilinguale klassen en internationale scholen.",
+      "interaction": "De kinderen spelen ze in de browser. Druk ze af als u dat liever heeft."
+    },
+    "breadthGrid": {
+      "sectionTitle": "Decks die leerkrachten op dit moment gebruiken.",
+      "intro": "Een paar decks uit de catalogus. Open het eerste om het hier te spelen, of klik op een ander om de volledige pagina te zien.",
+      "featuredBadge": "Uitgelicht",
+      "playInline": "Dit deck spelen",
+      "openDeck": "Deck openen",
+      "closeFeatured": "Sluiten",
+      "loadingDeck": "Deck wordt geladen…"
+    },
+    "languageProof": {
+      "sectionTitle": "Wat automatische vertaling fout doet — en wat wij goed doen.",
+      "intro": "De meeste werkblad-sites vertalen Engelse inhoud met een generieke machine en publiceren het resultaat. Lidwoorden kloppen niet. Meervoudsvormen vallen om. Accenten verdwijnen. Kinderen leren de fouten mee. Wij behandelen elk van onze 11 talen als een eigen catalogus — geen vertaling van het Engels — met een woordenschat die wordt samengesteld door mensen die werkelijk in die taal lesgeven.",
+      "subIntro": "Twee voorbeelden, naast elkaar.",
+      "german": {
+        "heading": "Duits — geslacht, hoofdletters, onregelmatig meervoud",
+        "leftAnnotation1": "Automatische vertaling raadt het lidwoord op basis van de Engelse context. Schule is vrouwelijk — de Engelse context vertelt u dat niet.",
+        "leftAnnotation2": "Duitse zelfstandige naamwoorden worden altijd met een hoofdletter geschreven. Met kleine letters wordt de verkeerde regel aangeleerd.",
+        "leftAnnotation3": "Het meervoud is onregelmatig: Schulen, niet Schules. Automatische vertaling regulariseert; de juiste vorm ontbreekt.",
+        "annotation1": "die Schule — telkens het juiste lidwoord. Onze Duitse woordenschat is op geslacht gerubriceerd, niet geraden.",
+        "annotation2": "Schule — met hoofdletter, zoals een Duits zelfstandig naamwoord hoort te zijn.",
+        "annotation3": "Schulen — het werkelijke meervoud, geen Engelse stijlgok.",
+        "ariaLabel": "Vergelijking naast elkaar: een automatisch vertaald Duits werkblad met drie fouten — verkeerd vrouwelijk lidwoord ('der' in plaats van 'die'), kleingeschreven zelfstandig naamwoord ('schule' in plaats van 'Schule') en een Engels-pluralisering ('schules' in plaats van 'Schulen') — naast de LessonCraftStudio-versie waarin 'die Schule' en 'die Schulen' correct zijn weergegeven."
+      },
+      "french": {
+        "heading": "Frans — geslacht, samentrekkingen, accenten",
+        "leftAnnotation1": "École is vrouwelijk, en het lidwoord wordt voor een klinker geëlideerd. Automatische vertaling doet geen van beide.",
+        "leftAnnotation2": "De é is geen versiering — die hoort bij het woord.",
+        "leftAnnotation3": "Voorzetsel + lidwoord trekken samen voor de klinker: à l'école. Automatische vertaling laat ze los.",
+        "annotation1": "l'école — correcte elisie en correcte accent.",
+        "annotation2": "à l'école — correcte samentrekking met het voorzetsel.",
+        "annotation3": "Elk accent in onze Franse catalogus wordt als deel van het woord behandeld.",
+        "ariaLabel": "Vergelijking naast elkaar: een automatisch vertaald Frans werkblad met drie fouten — niet-geëlideerd lidwoord ('la école' in plaats van 'l'école'), niet-samengetrokken voorzetsel ('à le école' in plaats van 'à l'école') en ontbrekend acuut accent ('ecole' in plaats van 'école') — naast de LessonCraftStudio-versie waarin 'l'école', 'à l'école' en 'école' correct zijn weergegeven."
+      },
+      "closingLine": "Kinderen verdienen materialen die passen bij de taal die zij leren. Daar richten wij ons werk op."
+    },
+    "freeExperience": {
+      "sectionTitle": "Gratis voor elke leerkracht.",
+      "intro": "Geen account, geen betaalmuur, geen aanmeldverplichting. Bladeren, afdrukken, insluiten en delen — elk deck, in elke taal.",
+      "cta": "Naar de catalogus →",
+      "browse": {
+        "title": "Alle decks doorbladeren.",
+        "body": "De volledige catalogus is open. Filter op taal, niveau, onderwerp of oefentype. Geen account nodig om te bladeren, te bekijken of een deck te spelen."
+      },
+      "pdf": {
+        "title": "Een afdrukbare PDF genereren.",
+        "body": "Elk deck wordt gedownload als een schone afdrukbare PDF — inclusief antwoordblad. Geen watermerk, geen limiet per deck, niets wat voor de betaalde versie wordt achtergehouden."
+      },
+      "embed": {
+        "title": "Elk deck insluiten op uw klassen-website of blog.",
+        "body": "Kopieer een insluit-fragment en plak het in uw klassen-website, uw blog of het leeromgevingssysteem van uw school. De kinderen spelen het interactieve deck precies daar waar zij het vinden. Insluiten blijft gratis."
+      },
+      "share": {
+        "title": "Een deck via een link delen.",
+        "body": "Stuur elk deck als een link. De kinderen spelen direct in de browser — geen aanmelding, geen app, geen account. Werkt op een telefoon, een tablet, een Chromebook of een digibord."
       }
     },
-    "features": {
-      "title": "Alles wat je nodig hebt voor professionele printables",
-      "items": {
-        "apps": {
-          "title": "33 werkbladgenerators",
-          "description": "Van wiskunde en lezen tot puzzels en spelletjes"
-        },
-        "images": {
-          "title": "Meer dan 100 afbeeldingsthema's",
-          "description": "Kindvriendelijke illustraties met commerciële licentie"
-        },
-        "languages": {
-          "title": "11 talen",
-          "description": "Maak werkbladen in meerdere talen"
-        },
-        "pod": {
-          "title": "POD-licentie inbegrepen",
-          "description": "Verkoop je werkbladen op elk platform"
-        }
-      }
+    "subscription": {
+      "sectionTitle": "Voor leerkrachten die LessonCraftStudio elke week gebruiken.",
+      "intro": "De catalogus is gratis en blijft gratis. Het abonnement is voor leerkrachten die LessonCraftStudio een vast onderdeel van hun praktijk hebben gemaakt en hun lesgeven georganiseerd willen hebben — met kant-en-klare lesplannen, themapakketten voor de momenten die elk jaar terugkomen, en een werkruimte gebouwd voor het beheren van duizenden decks.",
+      "lessonPlans": {
+        "title": "Kant-en-klare lesplannen",
+        "body": "Een groeiende bibliotheek van vooraf geschreven lesplannen, elk gekoppeld aan concrete decks. Elk plan volgt een consistente vierstapsstructuur op basis van CLIL-principes — opwarming, inhoud-en-taal-activiteit, taalsteun en oefening, en afsluiting — zodat u de vorm één keer leert en daarna gewoon lesgeeft. De plannen worden per taal natief geschreven, niet automatisch vertaald, en weerspiegelen de conventies van elke klas waarvoor ze geschreven zijn."
+      },
+      "themedBundles": {
+        "title": "Themapakketten voor de momenten die elk jaar terugkomen",
+        "body": "Met de hand samengestelde pakketten voor begin van het schooljaar, Halloween, kerstvakantie, Valentijnsdag, einde van het schooljaar en herhaling aan het einde van een thema. Elk pakket combineert een samenhangende reeks decks met een lesplan dat voor het thema van dat pakket is geschreven. Druk het boekje af, volg het plan, geef de week les. Door het jaar heen worden nieuwe pakketten toegevoegd, allemaal inbegrepen in het abonnement."
+      },
+      "workspace": {
+        "title": "Een werkruimte voor de leerkracht die u werkelijk bent",
+        "body": "De catalogus zal duizenden decks tellen. Het abonnement geeft u collecties om ze te ordenen, een werkruimte-startpagina om in te landen, geavanceerde filters afgestemd op hoe leerkrachten werkelijk zoeken, leerplankoppeling voor uw eigen thema's, en bulkgereedschap dat taken van vijf minuten in taken van dertig seconden verandert. Uw structuur draagt jaar na jaar door — daar gaat het om."
+      },
+      "price": "$69 per jaar. Op elk moment opzegbaar.",
+      "subscribeCta": "Abonneren →",
+      "subscribeSubCopy": "U wordt doorgestuurd naar onze betaalpartner. Na de betaling is uw account direct klaar voor gebruik.",
+      "alreadySubscribedCta": "Mijn abonnement bekijken"
     },
-    "pricing": {
-      "title": "Eenvoudige, transparante prijzen",
-      "monthly": "Maandelijks",
-      "yearly": "Jaarlijks (Bespaar 20%)",
-      "free": {
-        "name": "Gratis",
-        "price": "$0",
-        "features": [
-          "Woordzoeker generator",
-          "Beperkte afbeeldingsbibliotheek",
-          "Met watermerk",
-          "Basis ondersteuning"
-        ],
-        "cta": "Gratis beginnen"
-      },
-      "core": {
-        "name": "Basispakket",
-        "price": "$15",
-        "priceYearly": "$144",
-        "features": [
-          "10 populairste generators",
-          "Volledige toegang tot afbeeldingsbibliotheek",
-          "Zonder watermerk",
-          "POD commerciële licentie",
-          "Prioriteit ondersteuning"
-        ],
-        "cta": "Kies Basispakket"
-      },
-      "full": {
-        "name": "Volledige Toegang",
-        "price": "$25",
-        "priceYearly": "$240",
-        "features": [
-          "Alle 33 generators",
-          "Volledige toegang tot afbeeldingsbibliotheek",
-          "Zonder watermerk",
-          "POD commerciële licentie",
-          "Prioriteit ondersteuning",
-          "Vroege toegang tot nieuwe apps"
-        ],
-        "cta": "Krijg Volledige Toegang",
-        "popular": "Meest populair"
+    "notify": {
+      "aboveField": "Wij zijn de lesplan-bibliotheek aan het afronden en lanceren het abonnement binnenkort. Laat ons uw e-mailadres achter en wij geven u op de openingsdag bericht.",
+      "label": "E-mailadres",
+      "placeholder": "uw-email@school.nl",
+      "submit": "Geef mij bericht →",
+      "submitting": "Wordt verzonden…",
+      "confirmation": "Dank u — wij sturen u een e-mail wanneer het abonnement opent.",
+      "subCopy": "Eén e-mail, alleen wanneer het abonnement opent. Geen marketinglijst, geen vervolgreeks.",
+      "errors": {
+        "invalid_email": "Voer een geldig e-mailadres in.",
+        "server": "Er is iets misgegaan. Probeer het opnieuw."
       }
     }
   },
@@ -216,23 +244,15 @@
     }
   },
   "footer": {
-    "companyName": "LessonCraftStudio",
-    "companyTagline": "Maak en verkoop professionele printbare producten voor Etsy, KDP en meer.",
-    "support": {
-      "title": "Ondersteuning",
-      "helpCenter": "Helpcentrum",
-      "contact": "Contact",
-      "faq": "Veelgestelde vragen",
-      "about": "Over ons",
-      "memberArea": "Ledengedeelte"
-    },
-    "legal": {
-      "title": "Juridisch",
-      "terms": "Servicevoorwaarden",
-      "privacy": "Privacy",
-      "license": "Licentievoorwaarden"
-    },
-    "copyright": "© 2024 LessonCraftStudio. Alle rechten voorbehouden."
+    "byLanguage": "Werkbladen per taal",
+    "byTopic": "Werkbladen per onderwerp",
+    "byExerciseType": "Werkbladen per oefentype",
+    "moreLanguagesSoon": "Binnenkort meer talen",
+    "moreTopicsSoon": "Binnenkort meer onderwerpen",
+    "contact": "Contact",
+    "terms": "Voorwaarden",
+    "privacy": "Privacy",
+    "copyright": "© 2026 LessonCraftStudio."
   },
   "common": {
     "loading": "Laden...",
@@ -1019,5 +1039,27 @@
     "moreTheme": "Meer werkbladen met thema {theme}",
     "moreLevel": "Meer werkbladen voor {level}",
     "browseAll": "Bekijk alle werkbladen"
+  },
+  "topicPage": {
+    "meta": {
+      "title": "Werkbladen voor {topic} | LessonCraftStudio",
+      "description": "Gratis {topic}-werkbladen en afdrukbare PDFs. Interactieve activiteiten voor klassen in de eerste schooljaren."
+    },
+    "heading": {
+      "exerciseType": "Werkbladen voor {topic}",
+      "theme": "Werkbladen met {topic}",
+      "educationalLevel": "Werkbladen voor {topic}"
+    },
+    "intro": {
+      "exerciseType": "Interactieve werkbladen en afdrukbare PDFs om {topic} te oefenen.",
+      "theme": "Werkbladen met {topic}.",
+      "educationalLevel": "Activiteiten voor {topic}."
+    },
+    "decksCount": "{count, plural, =0 {Nog geen werkbladen} =1 {1 werkblad} other {# werkbladen}}",
+    "deckCard": {
+      "playLink": "Online spelen",
+      "pdfLink": "PDF afdrukken"
+    },
+    "emptyState": "Nog geen werkbladen in dit onderwerp — kom binnenkort terug."
   }
 }

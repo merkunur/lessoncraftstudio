@@ -176,6 +176,10 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'grafiek-tellen', label: 'grafiek tellen' },
     { slug: 'ontbrekende-stukken', label: 'ontbrekende stukken' },
     { slug: 'patroon-werkblad', label: 'patroonwerkblad' },
+    { slug: 'welke-hoort-niet-thuis', label: 'welke hoort er niet thuis' },
+    { slug: 'zoek-en-tel', label: 'zoek en tel' },
+    { slug: 'objecten-zoeken', label: 'objecten zoeken' },
+    { slug: 'schatzoektocht', label: 'schatzoektocht' },
   ],
 };
 

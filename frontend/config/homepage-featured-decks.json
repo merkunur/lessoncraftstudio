@@ -14,16 +14,6 @@
       "_note": "Featured tile — plays inline on click. Picked per Section-2 curation v1 doc: visually rich and broadly familiar; image-sudoku rendering is immediately legible as 'this is a real K-3 worksheet'; demonstrates inline-play affordance well."
     },
     {
-      "slug": "crossword",
-      "locale": "en",
-      "title": "Crossword",
-      "topic": "crossword",
-      "languageLabel": "EN",
-      "thumbnailUrl": "/en/decks/crossword/thumbnail.png",
-      "deckUrl": "/en/decks/crossword/",
-      "featured": false
-    },
-    {
       "slug": "shadow-match",
       "locale": "en",
       "title": "Shadow Match",
@@ -54,16 +44,6 @@
       "featured": false
     },
     {
-      "slug": "more-less",
-      "locale": "de",
-      "title": "More or Less Practice",
-      "topic": "more-less",
-      "languageLabel": "DE",
-      "thumbnailUrl": "/de/decks/more-less/thumbnail.png",
-      "deckUrl": "/de/decks/more-less/",
-      "featured": false
-    },
-    {
       "slug": "grid-match",
       "locale": "es",
       "title": "Grid Match",
@@ -84,10 +64,32 @@
       "deckUrl": "/es/decks/picture-sort/",
       "featured": false,
       "_note": "Track C Batch 1 (Tier 2 first-row event). Themeless."
+    },
+    {
+      "slug": "missing-pieces",
+      "locale": "es",
+      "title": "Missing Pieces",
+      "topic": "missing-pieces",
+      "languageLabel": "ES",
+      "thumbnailUrl": "/es/decks/missing-pieces/thumbnail.png",
+      "deckUrl": "/es/decks/missing-pieces/",
+      "featured": false,
+      "_note": "Track C Batch 4 (Tier 2 ~50% threshold stagger). Themed (animals) per Tier 1 storage convention; rendering localizes via topics-taxonomy.json."
+    },
+    {
+      "slug": "chart-count",
+      "locale": "es",
+      "title": "Chart Count",
+      "topic": "chart-count",
+      "languageLabel": "ES",
+      "thumbnailUrl": "/es/decks/chart-count/thumbnail.png",
+      "deckUrl": "/es/decks/chart-count/",
+      "featured": false,
+      "_note": "Track C Batch 4 (Tier 2 ~50% threshold stagger). Themeless. Family D bar-chart mechanic — only one in 16-row es pool; introduces visual category absent from prior grid."
     }
   ],
 
-  "_known_state_notes": "Deck titles are operator-authored at app-side and stored verbatim per row in the DB. Locale heterogeneity is observable across Tier 1 (DE rows mix DE-native titles like 'Additionsspaß' / 'Wörter suchen' with English-language titles like 'More or Less Practice') and now extends to Tier 2 (es rows currently carry English-language titles like 'Grid Match' / 'Picture Sort' per operator authoring at first-publish time). Titles above mirror DB state verbatim; do NOT auto-translate or normalize. Per CLAUDE.md §17.5 Tier 1 EN+DE discipline + Tier 2 follow-on, operator may revise specific titles in a future content-authoring pass.",
+  "_known_state_notes": "Deck titles are operator-authored at app-side and stored verbatim per row in the DB. Locale heterogeneity is observable across Tier 1 (DE rows mix DE-native titles like 'Additionsspaß' / 'Wörter suchen' with English-language titles) and now extends to Tier 2 (es rows currently carry English-language titles like 'Grid Match' / 'Picture Sort' / 'Missing Pieces' / 'Chart Count' per operator authoring at first-publish time). Titles above mirror DB state verbatim; do NOT auto-translate or normalize. Per CLAUDE.md §17.5 Tier 1 EN+DE discipline + Tier 2 follow-on, operator may revise specific titles in a future content-authoring pass.",
 
-  "_growth_plan": "Section-2 curation v1 + Track C Batch 1 stagger: 8 picks across en + de + es = 3 + 3 + 2 (Tier 2 first-row event applied Option D stagger per recon: dropped math-puzzle-en + matching-letter-de; added grid-match-es + picture-sort-es). Themed/themeless equilibrium preserved at 4/4. featured: true unchanged on sudoku-en. When nl lands at Tier 2 Track C Batch N, swap further per Option D semantics. Tier 3+ (sv, fi, no, fr, it, da, pt) shifts when those launch."
+  "_growth_plan": "Section-2 curation v1 → Track C Batch 1 stagger (3-en/3-de/2-es; dropped math-puzzle-en + matching-letter-de; added grid-match-es + picture-sort-es; commit `035852c3`) → Track C Batch 4 stagger crossing ~50% es threshold (this commit; 2-en/2-de/4-es; dropped crossword-en + more-less-de; added missing-pieces-es + chart-count-es). Composition now: themed (4) = shadow-match-en, addition-image-image-de, grid-match-es, missing-pieces-es; themeless (4) = sudoku-en, wordsearch-de, picture-sort-es, chart-count-es. featured: true unchanged on sudoku-en. 8 distinct mechanics; 2 of 4 Batch 4 mechanics introduced (missing-pieces, chart-count). When nl lands at Tier 2 Track C Batch N, swap further per Option D semantics. Tier 3+ (sv, fi, no, fr, it, da, pt) shifts when those launch."
 }

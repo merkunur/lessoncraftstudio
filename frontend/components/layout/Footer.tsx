@@ -135,6 +135,10 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'preposiciones', label: 'preposiciones' },
     { slug: 'adivina-la-palabra', label: 'adivina la palabra' },
     { slug: 'sopa-de-letras', label: 'sopa de letras' },
+    { slug: 'grande-pequeno', label: 'grande o pequeño' },
+    { slug: 'contar-en-grafico', label: 'contar en gráfico' },
+    { slug: 'piezas-faltantes', label: 'piezas faltantes' },
+    { slug: 'ficha-de-patrones', label: 'ficha de patrones' },
   ],
 };
 

@@ -57,17 +57,22 @@ const { PrismaClient } = require('@prisma/client');
 
 const REPO_ROOT = path.join(__dirname, '..', '..');
 const DEFAULT_DIR = path.join(REPO_ROOT, 'lesson-plan-drafts');
-const VALID_LOCALES = new Set(['en', 'de', 'es', 'nl']);
+const VALID_LOCALES = new Set(['en', 'de', 'es', 'nl', 'fr', 'it', 'pt', 'sv', 'da', 'no', 'fi']);
 const REQUIRED_SECTIONS = ['warmup', 'contentActivity', 'scaffold', 'closure'];
 
 // CLIL section heading patterns (case-insensitive). Maps H2 heading text to
 // the structure key. Per-locale heading match keeps the markdown human-readable
-// in any of the four target locales while normalizing to a canonical structure.
+// in any of the eleven target locales while normalizing to a canonical structure.
+// Compound CLIL-jargon forms (e.g. "Content-Language Activity" / "Activité
+// contenu-langue") match alongside simpler natural-language equivalents
+// (e.g. "Activity" / "Activité") via optional non-capturing groups; this
+// preserves parser tolerance across operator-NSR-refined draft variants
+// without requiring re-parse on phrase choice.
 const SECTION_HEADING_PATTERNS = {
-  warmup: /^(warmup|aufw[äa]rmung|calentamiento|opwarming)\b/i,
-  contentActivity: /^(content[\s-]?language activity|inhalt[\s-]?sprache|actividad de contenido|inhoud[\s-]?taal)\b/i,
-  scaffold: /^(language scaffold|sprachger[üu]st|andamiaje|taalsteun)\b/i,
-  closure: /^(closure|abschluss|cierre|afsluiting)\b/i,
+  warmup: /^(warmup|aufw[äa]rmung|calentamiento|opwarming|mise en train|riscaldamento|aquecimento|uppv[äa]rmning|opvarmning|alkul[äa]mmittely|oppvarming)\b/i,
+  contentActivity: /^(content[\s-]?language activity|inhalt[\s-]?sprache|actividad de contenido|inhoud[\s-]?taal|activit[ée](?:[\s-]?contenu[\s-]?langue)?|attivit[àa](?:[\s-]?contenuto[\s-]?lingua)?|atividade(?:[\s-]?conte[úu]do[\s-]?l[ií]ngua)?|inneh[åa]ll(?:[\s-]?spr[åa]k)?|indhold(?:[\s-]?sprog)?|sis[äa]lt[öo](?:[\s-]?kieli)?|innhold(?:[\s-]?spr[åa]k)?)\b/i,
+  scaffold: /^(language scaffold|sprachger[üu]st|andamiaje|taalsteun|[ée]tayage(?:[\s-]?langue)?|impalcatura(?:[\s-]?linguistica)?|andaime(?:[\s-]?lingu[ií]stico)?|spr[åa]kst[öo]d|sprogstilladsering|kieli[\s-]?tuki|spr[åa]kstillas)\b/i,
+  closure: /^(closure|abschluss|cierre|afsluiting|cl[ôo]ture|chiusura|encerramento|avslutning|afslutning|p[äa][äa]t[öo]s)\b/i,
 };
 
 function parseFrontmatter(raw) {

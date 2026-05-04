@@ -203,12 +203,36 @@ export async function selectBreadthGridDecks(
     }
   }
 
+  // Featured tile: prefer visiting-locale, then en/de fallback. Enforces
+  // mechanic-diversity (distinct exerciseType from the 8 thumbnails) so the
+  // 9-cell grid surfaces 9 distinct mechanics. Last-resort fallback relaxes
+  // this only when the catalog genuinely has no 9th distinct mechanic.
   let featured: BreadthGridDeck | null = null;
   const visitingPool = byLocale.get(visitorLocale) ?? [];
   for (const d of visitingPool) {
-    if (!pickedIds.has(d.id)) {
+    if (!pickedIds.has(d.id) && !usedExerciseTypes.has(d.exerciseType)) {
       featured = d;
       break;
+    }
+  }
+  if (!featured) {
+    for (const fallbackLocale of ['en', 'de']) {
+      const decks = byLocale.get(fallbackLocale) ?? [];
+      const found = decks.find(
+        d => !pickedIds.has(d.id) && !usedExerciseTypes.has(d.exerciseType)
+      );
+      if (found) {
+        featured = found;
+        break;
+      }
+    }
+  }
+  if (!featured) {
+    for (const d of visitingPool) {
+      if (!pickedIds.has(d.id)) {
+        featured = d;
+        break;
+      }
     }
   }
   if (!featured) {

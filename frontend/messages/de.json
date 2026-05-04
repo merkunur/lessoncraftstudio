@@ -947,7 +947,11 @@
       "playLink": "Online spielen",
       "pdfLink": "PDF drucken"
     },
-    "emptyState": "Noch keine Arbeitsblätter in diesem Thema — schau bald wieder vorbei.",
+    "emptyState": {
+      "heading": "Keine Arbeitsblätter passen zu diesen Filtern.",
+      "body": "Versuchen Sie, einen der Filter unten zu entfernen.",
+      "cta": "Alle Filter löschen"
+    },
     "intersection": {
       "heading": "{primary} · {secondary}",
       "intro": "Arbeitsblätter an der Schnittstelle von {primary} und {secondary}."
@@ -971,6 +975,37 @@
     "crossAxis": {
       "heading": "Weiter entdecken",
       "pivot": "{primary} · {secondary}"
+    },
+    "sort": {
+      "heading": "Sortieren nach",
+      "newest": "Neueste",
+      "alphaAsc": "A bis Z",
+      "alphaDesc": "Z bis A"
+    },
+    "pagination": {
+      "previous": "Zurück",
+      "next": "Weiter",
+      "pageOf": "Seite {current} von {total}",
+      "firstPage": "Erste",
+      "lastPage": "Letzte"
+    },
+    "facets": {
+      "heading": "Filter",
+      "theme": {
+        "heading": "Thema",
+        "showMore": "Alle Themen anzeigen",
+        "showLess": "Weniger anzeigen"
+      },
+      "exerciseType": "Übungstyp",
+      "educationalLevel": "Klassenstufe"
+    },
+    "activeFilters": {
+      "clearAll": "Alle Filter löschen",
+      "removeChipAria": "Filter {filter} entfernen"
+    },
+    "mobileDrawer": {
+      "openTrigger": "Filter",
+      "close": "Schließen"
     }
   },
   "workspace": {

@@ -511,3 +511,209 @@ export async function listRelatedNonEmptyIntersections(
 
   return filtered.slice(0, limit);
 }
+
+/**
+ * Arc 6b — page-size for filter+sort+paginated topic-page surfaces.
+ * Locked at 24 per operator Q-page-size adjudication. Compile-time
+ * constant; consumers use this rather than hard-coding.
+ */
+export const TOPIC_PAGE_SIZE = 24;
+
+/**
+ * Arc 6b — sort key vocabulary for filter+sort+paginated surfaces.
+ * - 'newest': publishedAt DESC + id ASC tiebreak (matches existing default)
+ * - 'alpha-asc': slug ASC + id ASC (slug derives from title per §17.8.5;
+ *   slug-alphabetic ≈ title-alphabetic for production decks)
+ * - 'alpha-desc': slug DESC + id ASC
+ *
+ * Bare path = no `?sort` param = newest (default). `?sort=newest` issues
+ * 301 to bare path (canonical-tag discipline per 6c).
+ */
+export type TopicSortKey = 'newest' | 'alpha-asc' | 'alpha-desc';
+
+function orderByForSort(sort: TopicSortKey) {
+  if (sort === 'alpha-asc') return [{ slug: 'asc' as const }, { id: 'asc' as const }];
+  if (sort === 'alpha-desc') return [{ slug: 'desc' as const }, { id: 'asc' as const }];
+  // 'newest' default
+  return [{ publishedAt: 'desc' as const }, { id: 'asc' as const }];
+}
+
+/**
+ * Arc 6b — paginated + sorted + filtered deck fetch. Powers the
+ * filter-sidebar + sort-dropdown + pagination UI on both single-axis
+ * and intersection topic pages.
+ *
+ * primaryAxes carries the path-bound axes (1 anchor for single-axis;
+ * 2 anchors for intersection per 6c canonical ordering). secondaryAxes
+ * carries the searchParams-driven additional filters (per Q query-string
+ * adjudication: universal English-canonical axis-keys).
+ *
+ * Combines via AND across all axes (operator-locked semantics: stricter
+ * filtering as more facets are selected). Per per-locale-bounded fetch
+ * convention from 317cb1a7 / 9e83ddff: anchors on language + status
+ * (hits compound indexes); axis filters apply on top.
+ *
+ * Returns: paginated decks + totalCount (for ResultCount) + pageCount
+ * (for Pagination). Out-of-range page handling is at the route handler
+ * (per Q pagination adjudication: 404 not silent-redirect).
+ */
+export async function fetchDecksForTopicWithFilters(
+  primaryAxes: Array<{ axis: Axis; axisKey: string }>,
+  options: {
+    secondaryAxes?: Array<{ axis: Axis; axisKey: string }>;
+    sort?: TopicSortKey;
+    page?: number;
+    pageSize?: number;
+  },
+  locale: string
+): Promise<{ decks: TopicDeckSummary[]; totalCount: number; pageCount: number }> {
+  const sort = options.sort ?? 'newest';
+  const page = Math.max(1, options.page ?? 1);
+  const pageSize = options.pageSize ?? TOPIC_PAGE_SIZE;
+
+  const allAxes = [...primaryAxes, ...(options.secondaryAxes ?? [])];
+
+  // Build conjunctive WHERE from all axes. Empty filter on any axis aborts
+  // (returns 0 results) — defense-in-depth against malformed param input.
+  const whereFragments: Array<Record<string, unknown>> = [];
+  for (const a of allAxes) {
+    const w = buildAxisWhere(a.axis, a.axisKey);
+    if (!w) {
+      return { decks: [], totalCount: 0, pageCount: 0 };
+    }
+    whereFragments.push(w);
+  }
+
+  const baseWhere = {
+    language: locale,
+    status: 'published',
+    ...whereFragments.reduce((acc, w) => ({ ...acc, ...w }), {}),
+  };
+
+  const [totalCount, decks] = await Promise.all([
+    prisma.deck.count({ where: baseWhere }),
+    prisma.deck.findMany({
+      where: baseWhere,
+      select: DECK_SELECT,
+      orderBy: orderByForSort(sort),
+      skip: (page - 1) * pageSize,
+      take: pageSize,
+    }) as unknown as Promise<TopicDeckSummary[]>,
+  ]);
+
+  const pageCount = Math.max(1, Math.ceil(totalCount / pageSize));
+  return { decks, totalCount, pageCount };
+}
+
+/**
+ * Arc 6b — facet-count aggregation for the filter-sidebar UI.
+ *
+ * Returns counts per axis-key for the 3 facet axes (theme +
+ * exercise-type + educational-level), respecting active filters.
+ * Active filters apply via AND-style scoping; counts within an axis
+ * reflect "how many decks would match if I add this filter on top of
+ * the current selection."
+ *
+ * primaryAxes: path-bound axes (always applied). activeFilters:
+ * additional secondary-axes already selected via searchParams. Counts
+ * for the THIRD axis (the one NOT path-bound and NOT active) reflect
+ * the cardinality the user would see if they added that axis as a
+ * filter.
+ *
+ * Single round-trip via prisma.deck.findMany + JS aggregation. Could be
+ * 3 separate groupBy calls (one per axis) but the JS path is simpler
+ * given the theme axis requires unnest-fanout anyway. Per scaling-
+ * checkpoint validation at 55K: ~4ms p95 for full-locale fetch + JS
+ * aggregation; well under threshold.
+ */
+export async function getFacetCounts(
+  primaryAxes: Array<{ axis: Axis; axisKey: string }>,
+  activeFilters: Array<{ axis: Axis; axisKey: string }>,
+  locale: string
+): Promise<Record<Axis, Array<{ axisKey: string; count: number }>>> {
+  const allAxes = [...primaryAxes, ...activeFilters];
+  const whereFragments: Array<Record<string, unknown>> = [];
+  for (const a of allAxes) {
+    const w = buildAxisWhere(a.axis, a.axisKey);
+    if (!w) {
+      return { theme: [], 'exercise-type': [], 'educational-level': [] };
+    }
+    whereFragments.push(w);
+  }
+
+  const baseWhere = {
+    language: locale,
+    status: 'published',
+    ...whereFragments.reduce((acc, w) => ({ ...acc, ...w }), {}),
+  };
+
+  const decks = await prisma.deck.findMany({
+    where: baseWhere,
+    select: { exerciseType: true, ageRange: true, subjectTags: true },
+  });
+
+  const themeRegistry = new Set(listAxisKeys('theme'));
+  const exerciseTypeRegistry = new Set(listAxisKeys('exercise-type'));
+  const levelKeys = listAxisKeys('educational-level');
+  const rangeToLevel = new Map<string, string>();
+  for (const lk of levelKeys) {
+    for (const r of levelKeyToAgeRanges(lk)) rangeToLevel.set(r, lk);
+  }
+
+  const themeCounts = new Map<string, number>();
+  const exerciseTypeCounts = new Map<string, number>();
+  const levelCounts = new Map<string, number>();
+
+  for (const d of decks) {
+    if (exerciseTypeRegistry.has(d.exerciseType)) {
+      exerciseTypeCounts.set(d.exerciseType, (exerciseTypeCounts.get(d.exerciseType) ?? 0) + 1);
+    }
+    for (const tag of d.subjectTags) {
+      if (themeRegistry.has(tag)) {
+        themeCounts.set(tag, (themeCounts.get(tag) ?? 0) + 1);
+      }
+    }
+    const lk = rangeToLevel.get(d.ageRange);
+    if (lk) {
+      levelCounts.set(lk, (levelCounts.get(lk) ?? 0) + 1);
+    }
+  }
+
+  const toSortedArray = (m: Map<string, number>) =>
+    Array.from(m.entries())
+      .map(([axisKey, count]) => ({ axisKey, count }))
+      .sort((a, b) => b.count - a.count);
+
+  return {
+    theme: toSortedArray(themeCounts),
+    'exercise-type': toSortedArray(exerciseTypeCounts),
+    'educational-level': toSortedArray(levelCounts),
+  };
+}
+
+/**
+ * Arc 6b — full theme axis-key enumeration with deck-counts. Used by
+ * FilterSidebar's theme-facet show-more expand (per Q theme-facet
+ * adjudication: top-N visible + show-more reveals full alphabetic
+ * Tier 2). Returned in deck-count desc order; component slices top-12
+ * for Tier 1 + remainder for Tier 2 client-side.
+ */
+export async function listAllNonEmptyThemesWithCounts(
+  locale: string
+): Promise<Array<{ axisKey: string; count: number }>> {
+  const decks = await prisma.deck.findMany({
+    where: { language: locale, status: 'published' },
+    select: { subjectTags: true },
+  });
+  const registry = new Set(listAxisKeys('theme'));
+  const counts = new Map<string, number>();
+  for (const d of decks) {
+    for (const tag of d.subjectTags) {
+      if (!registry.has(tag)) continue;
+      counts.set(tag, (counts.get(tag) ?? 0) + 1);
+    }
+  }
+  return Array.from(counts.entries())
+    .map(([axisKey, count]) => ({ axisKey, count }))
+    .sort((a, b) => b.count - a.count);
+}

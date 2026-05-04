@@ -803,7 +803,11 @@
       "playLink": "Online spelen",
       "pdfLink": "PDF afdrukken"
     },
-    "emptyState": "Nog geen werkbladen in dit onderwerp — kom binnenkort terug.",
+    "emptyState": {
+      "heading": "Geen werkbladen passen bij deze filters.",
+      "body": "Probeer een van de filters hieronder te verwijderen.",
+      "cta": "Alle filters wissen"
+    },
     "intersection": {
       "heading": "{primary} · {secondary}",
       "intro": "Werkbladen op het snijvlak van {primary} en {secondary}."
@@ -827,6 +831,37 @@
     "crossAxis": {
       "heading": "Meer ontdekken",
       "pivot": "{primary} · {secondary}"
+    },
+    "sort": {
+      "heading": "Sorteren op",
+      "newest": "Nieuwste",
+      "alphaAsc": "A tot Z",
+      "alphaDesc": "Z tot A"
+    },
+    "pagination": {
+      "previous": "Vorige",
+      "next": "Volgende",
+      "pageOf": "Pagina {current} van {total}",
+      "firstPage": "Eerste",
+      "lastPage": "Laatste"
+    },
+    "facets": {
+      "heading": "Filters",
+      "theme": {
+        "heading": "Thema",
+        "showMore": "Alle thema’s tonen",
+        "showLess": "Minder tonen"
+      },
+      "exerciseType": "Oefentype",
+      "educationalLevel": "Klas"
+    },
+    "activeFilters": {
+      "clearAll": "Alle filters wissen",
+      "removeChipAria": "Filter {filter} verwijderen"
+    },
+    "mobileDrawer": {
+      "openTrigger": "Filters",
+      "close": "Sluiten"
     }
   },
   "workspace": {

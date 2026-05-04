@@ -1081,7 +1081,11 @@
       "playLink": "Jogar online",
       "pdfLink": "Imprimir PDF"
     },
-    "emptyState": "Nenhuma atividade neste tópico — volte em breve.",
+    "emptyState": {
+      "heading": "Nenhuma ficha corresponde a esses filtros.",
+      "body": "Tente remover um dos filtros abaixo.",
+      "cta": "Limpar todos os filtros"
+    },
     "variety": {
       "sameAxisKeyOtherLocales": "{topic} em outros idiomas",
       "relatedTopics": {
@@ -1101,6 +1105,37 @@
     "crossAxis": {
       "heading": "Explorar mais",
       "pivot": "{primary} · {secondary}"
+    },
+    "sort": {
+      "heading": "Ordenar por",
+      "newest": "Mais recentes",
+      "alphaAsc": "A a Z",
+      "alphaDesc": "Z a A"
+    },
+    "pagination": {
+      "previous": "Anterior",
+      "next": "Próximo",
+      "pageOf": "Página {current} de {total}",
+      "firstPage": "Primeira",
+      "lastPage": "Última"
+    },
+    "facets": {
+      "heading": "Filtros",
+      "theme": {
+        "heading": "Tema",
+        "showMore": "Ver todos os temas",
+        "showLess": "Ver menos"
+      },
+      "exerciseType": "Tipo de atividade",
+      "educationalLevel": "Nível de ensino"
+    },
+    "activeFilters": {
+      "clearAll": "Limpar todos os filtros",
+      "removeChipAria": "Remover filtro {filter}"
+    },
+    "mobileDrawer": {
+      "openTrigger": "Filtros",
+      "close": "Fechar"
     }
   }
 }

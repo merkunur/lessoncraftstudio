@@ -1081,7 +1081,11 @@
       "playLink": "Gioca online",
       "pdfLink": "Stampa PDF"
     },
-    "emptyState": "Ancora nessuna scheda per questo argomento — torna presto.",
+    "emptyState": {
+      "heading": "Nessuna scheda corrisponde a questi filtri.",
+      "body": "Prova a rimuovere uno dei filtri sotto.",
+      "cta": "Cancella tutti i filtri"
+    },
     "variety": {
       "sameAxisKeyOtherLocales": "{topic} in altre lingue",
       "relatedTopics": {
@@ -1101,6 +1105,37 @@
     "crossAxis": {
       "heading": "Esplora di più",
       "pivot": "{primary} · {secondary}"
+    },
+    "sort": {
+      "heading": "Ordina per",
+      "newest": "Più recenti",
+      "alphaAsc": "A-Z",
+      "alphaDesc": "Z-A"
+    },
+    "pagination": {
+      "previous": "Precedente",
+      "next": "Successivo",
+      "pageOf": "Pagina {current} di {total}",
+      "firstPage": "Prima",
+      "lastPage": "Ultima"
+    },
+    "facets": {
+      "heading": "Filtri",
+      "theme": {
+        "heading": "Tema",
+        "showMore": "Mostra tutti i temi",
+        "showLess": "Mostra meno"
+      },
+      "exerciseType": "Tipo di esercizio",
+      "educationalLevel": "Livello scolastico"
+    },
+    "activeFilters": {
+      "clearAll": "Cancella tutti i filtri",
+      "removeChipAria": "Rimuovi filtro {filter}"
+    },
+    "mobileDrawer": {
+      "openTrigger": "Filtri",
+      "close": "Chiudi"
     }
   }
 }

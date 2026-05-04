@@ -816,7 +816,11 @@
       "playLink": "Jugar en línea",
       "pdfLink": "Imprimir PDF"
     },
-    "emptyState": "Aún no hay hojas de trabajo en este tema — vuelva a consultarnos pronto.",
+    "emptyState": {
+      "heading": "Ninguna hoja de trabajo coincide con estos filtros.",
+      "body": "Pruebe a quitar uno de los filtros de abajo.",
+      "cta": "Borrar todos los filtros"
+    },
     "intersection": {
       "heading": "{primary} · {secondary}",
       "intro": "Hojas de trabajo en la intersección de {primary} y {secondary}."
@@ -840,6 +844,37 @@
     "crossAxis": {
       "heading": "Explorar más",
       "pivot": "{primary} · {secondary}"
+    },
+    "sort": {
+      "heading": "Ordenar por",
+      "newest": "Más recientes",
+      "alphaAsc": "A a Z",
+      "alphaDesc": "Z a A"
+    },
+    "pagination": {
+      "previous": "Anterior",
+      "next": "Siguiente",
+      "pageOf": "Página {current} de {total}",
+      "firstPage": "Primera",
+      "lastPage": "Última"
+    },
+    "facets": {
+      "heading": "Filtros",
+      "theme": {
+        "heading": "Tema",
+        "showMore": "Ver todos los temas",
+        "showLess": "Ver menos"
+      },
+      "exerciseType": "Tipo de actividad",
+      "educationalLevel": "Nivel educativo"
+    },
+    "activeFilters": {
+      "clearAll": "Borrar todos los filtros",
+      "removeChipAria": "Quitar filtro {filter}"
+    },
+    "mobileDrawer": {
+      "openTrigger": "Filtros",
+      "close": "Cerrar"
     }
   },
   "workspace": {

@@ -1071,7 +1071,11 @@
       "playLink": "Spela online",
       "pdfLink": "Skriv ut PDF"
     },
-    "emptyState": "Inga arbetsblad för detta ämne ännu — kom tillbaka snart.",
+    "emptyState": {
+      "heading": "Inga arbetsblad matchar dessa filter.",
+      "body": "Försök att ta bort ett av filtren nedan.",
+      "cta": "Rensa alla filter"
+    },
     "variety": {
       "sameAxisKeyOtherLocales": "{topic} på andra språk",
       "relatedTopics": {
@@ -1091,6 +1095,37 @@
     "crossAxis": {
       "heading": "Utforska mer",
       "pivot": "{primary} · {secondary}"
+    },
+    "sort": {
+      "heading": "Sortera efter",
+      "newest": "Senaste",
+      "alphaAsc": "A till Ö",
+      "alphaDesc": "Ö till A"
+    },
+    "pagination": {
+      "previous": "Föregående",
+      "next": "Nästa",
+      "pageOf": "Sida {current} av {total}",
+      "firstPage": "Första",
+      "lastPage": "Sista"
+    },
+    "facets": {
+      "heading": "Filter",
+      "theme": {
+        "heading": "Tema",
+        "showMore": "Visa alla teman",
+        "showLess": "Visa färre"
+      },
+      "exerciseType": "Övningstyp",
+      "educationalLevel": "Årskurs"
+    },
+    "activeFilters": {
+      "clearAll": "Rensa alla filter",
+      "removeChipAria": "Ta bort filter {filter}"
+    },
+    "mobileDrawer": {
+      "openTrigger": "Filter",
+      "close": "Stäng"
     }
   }
 }

@@ -1068,7 +1068,11 @@
       "playLink": "Spil online",
       "pdfLink": "Udskriv PDF"
     },
-    "emptyState": "Ingen arbejdsark til dette emne endnu — kom snart tilbage.",
+    "emptyState": {
+      "heading": "Ingen arbejdsark matcher disse filtre.",
+      "body": "Prøv at fjerne et af filtrene nedenfor.",
+      "cta": "Ryd alle filtre"
+    },
     "variety": {
       "sameAxisKeyOtherLocales": "{topic} på andre sprog",
       "relatedTopics": {
@@ -1088,6 +1092,37 @@
     "crossAxis": {
       "heading": "Udforsk mere",
       "pivot": "{primary} · {secondary}"
+    },
+    "sort": {
+      "heading": "Sortér efter",
+      "newest": "Nyeste",
+      "alphaAsc": "A til Å",
+      "alphaDesc": "Å til A"
+    },
+    "pagination": {
+      "previous": "Forrige",
+      "next": "Næste",
+      "pageOf": "Side {current} af {total}",
+      "firstPage": "Første",
+      "lastPage": "Sidste"
+    },
+    "facets": {
+      "heading": "Filtre",
+      "theme": {
+        "heading": "Tema",
+        "showMore": "Vis alle temaer",
+        "showLess": "Vis færre"
+      },
+      "exerciseType": "Øvelsestype",
+      "educationalLevel": "Klassetrin"
+    },
+    "activeFilters": {
+      "clearAll": "Ryd alle filtre",
+      "removeChipAria": "Fjern filter {filter}"
+    },
+    "mobileDrawer": {
+      "openTrigger": "Filtre",
+      "close": "Luk"
     }
   }
 }

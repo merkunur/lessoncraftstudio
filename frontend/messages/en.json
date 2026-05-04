@@ -856,7 +856,11 @@
       "playLink": "Play online",
       "pdfLink": "Print PDF"
     },
-    "emptyState": "No worksheets in this topic yet — check back soon.",
+    "emptyState": {
+      "heading": "No worksheets match these filters.",
+      "body": "Try removing one of the filters below.",
+      "cta": "Clear all filters"
+    },
     "intersection": {
       "heading": "{primary} · {secondary}",
       "intro": "Worksheets at the intersection of {primary} and {secondary}."
@@ -880,6 +884,37 @@
     "crossAxis": {
       "heading": "Explore further",
       "pivot": "{primary} · {secondary}"
+    },
+    "sort": {
+      "heading": "Sort by",
+      "newest": "Newest",
+      "alphaAsc": "A to Z",
+      "alphaDesc": "Z to A"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "pageOf": "Page {current} of {total}",
+      "firstPage": "First",
+      "lastPage": "Last"
+    },
+    "facets": {
+      "heading": "Filters",
+      "theme": {
+        "heading": "Theme",
+        "showMore": "Show all themes",
+        "showLess": "Show fewer"
+      },
+      "exerciseType": "Exercise type",
+      "educationalLevel": "Educational level"
+    },
+    "activeFilters": {
+      "clearAll": "Clear all filters",
+      "removeChipAria": "Remove {filter} filter"
+    },
+    "mobileDrawer": {
+      "openTrigger": "Filters",
+      "close": "Close"
     }
   },
   "workspace": {

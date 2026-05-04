@@ -1060,7 +1060,11 @@
       "playLink": "Pelaa verkossa",
       "pdfLink": "Tulosta PDF"
     },
-    "emptyState": "Ei vielä tehtäviä tähän aiheeseen — palaa pian.",
+    "emptyState": {
+      "heading": "Mikään tehtäväarkki ei vastaa näitä suodattimia.",
+      "body": "Yritä poistaa yksi alla olevista suodattimista.",
+      "cta": "Poista kaikki suodattimet"
+    },
     "variety": {
       "sameAxisKeyOtherLocales": "{topic} muilla kielillä",
       "relatedTopics": {
@@ -1080,6 +1084,37 @@
     "crossAxis": {
       "heading": "Tutki lisää",
       "pivot": "{primary} · {secondary}"
+    },
+    "sort": {
+      "heading": "Lajittele",
+      "newest": "Uusimmat",
+      "alphaAsc": "A-Ö",
+      "alphaDesc": "Ö-A"
+    },
+    "pagination": {
+      "previous": "Edellinen",
+      "next": "Seuraava",
+      "pageOf": "Sivu {current} / {total}",
+      "firstPage": "Ensimmäinen",
+      "lastPage": "Viimeinen"
+    },
+    "facets": {
+      "heading": "Suodattimet",
+      "theme": {
+        "heading": "Teema",
+        "showMore": "Näytä kaikki teemat",
+        "showLess": "Näytä vähemmän"
+      },
+      "exerciseType": "Tehtävätyyppi",
+      "educationalLevel": "Luokka-aste"
+    },
+    "activeFilters": {
+      "clearAll": "Poista kaikki suodattimet",
+      "removeChipAria": "Poista suodatin {filter}"
+    },
+    "mobileDrawer": {
+      "openTrigger": "Suodattimet",
+      "close": "Sulje"
     }
   }
 }

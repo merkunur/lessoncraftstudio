@@ -6,18 +6,102 @@ import {
   Axis,
   getAxisName,
   getAxisSlug,
+  listAxisKeys,
   resolveTopicSlug,
 } from '@/lib/taxonomy';
 import {
   fetchDecksForIntersection,
   countDecksForIntersection,
+  fetchDecksForTopicWithFilters,
+  getFacetCounts,
+  listAllNonEmptyThemesWithCounts,
   TopicDeckSummary,
+  TOPIC_PAGE_SIZE,
+  TopicSortKey,
 } from '@/lib/topic-decks';
 import Breadcrumbs from '@/components/catalog/Breadcrumbs';
 import CrossAxisPivots from '@/components/catalog/CrossAxisPivots';
 import TopicProseContainer from '@/components/catalog/TopicProseContainer';
 import ResultCount from '@/components/catalog/ResultCount';
+import FilterSidebar, { FacetGroup } from '@/components/catalog/FilterSidebar';
+import MobileFilterDrawer from '@/components/catalog/MobileFilterDrawer';
+import SortDropdown from '@/components/catalog/SortDropdown';
+import ActiveFilterChips from '@/components/catalog/ActiveFilterChips';
+import EmptyDecksState from '@/components/catalog/EmptyDecksState';
+import Pagination from '@/components/catalog/Pagination';
+import { buildFilterUrl } from '@/components/catalog/filterUrl';
 import DeckGridClient, { TopicDeckCardData } from '../DeckGridClient';
+
+// Arc 6b — searchParams validation. Reused per the [slug]/page.tsx pattern;
+// duplicated here rather than imported because the route files are siblings
+// under separate App Router segments.
+
+const VALID_SORTS: TopicSortKey[] = ['newest', 'alpha-asc', 'alpha-desc'];
+const VALID_LEVEL_KEYS = new Set(listAxisKeys('educational-level'));
+const VALID_THEME_KEYS = new Set(listAxisKeys('theme'));
+const VALID_TYPE_KEYS = new Set(listAxisKeys('exercise-type'));
+
+interface ParsedFilters {
+  sort: TopicSortKey;
+  page: number;
+  level?: string;
+  theme?: string;
+  type?: string;
+}
+
+function parseSearchParams(
+  searchParams: { [key: string]: string | string[] | undefined },
+  basePath: string,
+): { parsed: ParsedFilters; canonicalRedirect: string | null; notFound: boolean } {
+  const get = (key: string): string | undefined => {
+    const v = searchParams[key];
+    if (Array.isArray(v)) return v[0];
+    return v;
+  };
+
+  const sortRaw = get('sort');
+  const pageRaw = get('page');
+  const level = get('level');
+  const theme = get('theme');
+  const type = get('type');
+
+  const sort: TopicSortKey =
+    sortRaw && (VALID_SORTS as string[]).includes(sortRaw)
+      ? (sortRaw as TopicSortKey)
+      : 'newest';
+  const pageNum = pageRaw ? parseInt(pageRaw, 10) : 1;
+
+  if (level && !VALID_LEVEL_KEYS.has(level)) return { parsed: {} as ParsedFilters, canonicalRedirect: null, notFound: true };
+  if (theme && !VALID_THEME_KEYS.has(theme)) return { parsed: {} as ParsedFilters, canonicalRedirect: null, notFound: true };
+  if (type && !VALID_TYPE_KEYS.has(type)) return { parsed: {} as ParsedFilters, canonicalRedirect: null, notFound: true };
+  if (pageRaw && (!Number.isInteger(pageNum) || pageNum < 1)) {
+    return { parsed: {} as ParsedFilters, canonicalRedirect: null, notFound: true };
+  }
+
+  const sp = new URLSearchParams();
+  if (sort !== 'newest') sp.set('sort', sort);
+  if (pageNum !== 1) sp.set('page', String(pageNum));
+  if (level) sp.set('level', level);
+  if (theme) sp.set('theme', theme);
+  if (type) sp.set('type', type);
+  const canonicalUrl = buildFilterUrl(basePath, sp);
+
+  const currentSp = new URLSearchParams();
+  if (sortRaw !== undefined) currentSp.set('sort', sortRaw);
+  if (pageRaw !== undefined) currentSp.set('page', pageRaw);
+  if (level !== undefined) currentSp.set('level', level);
+  if (theme !== undefined) currentSp.set('theme', theme);
+  if (type !== undefined) currentSp.set('type', type);
+  const currentUrl = buildFilterUrl(basePath, currentSp);
+
+  const canonicalRedirect = currentUrl !== canonicalUrl ? canonicalUrl : null;
+
+  return {
+    parsed: { sort, page: pageNum, level, theme, type },
+    canonicalRedirect,
+    notFound: false,
+  };
+}
 
 // Arc 6c — path-based 2-axis intersection topic pages.
 //
@@ -235,8 +319,10 @@ function buildCollectionSchema(
 
 export default async function IntersectionPage({
   params,
+  searchParams,
 }: {
   params: IntersectionParams;
+  searchParams: { [key: string]: string | string[] | undefined };
 }) {
   const resolution = await resolveOrThrow(params);
   const { axis1, axisKey1, axis2, axisKey2, locale } = resolution;
@@ -245,18 +331,115 @@ export default async function IntersectionPage({
   const name1 = getAxisName(axis1, axisKey1, locale) ?? params.slug;
   const name2 = getAxisName(axis2, axisKey2, locale) ?? params.secondary;
   const compositeName = `${name1} · ${name2}`;
+  const basePath = `/${locale}/topic/${params.slug}/${params.secondary}/`;
 
-  const decks = await fetchDecksForIntersection(
-    axis1,
-    axisKey1,
-    axis2,
-    axisKey2,
+  // Arc 6b — searchParams parse + canonical-redirect + 404 for invalid input
+  const sp = parseSearchParams(searchParams, basePath);
+  if (sp.notFound) notFound();
+  if (sp.canonicalRedirect) redirect(sp.canonicalRedirect);
+  const filters = sp.parsed;
+
+  // Resolve secondary axes from searchParams. Path-bound axes (axis1, axis2)
+  // are excluded — only the THIRD unanchored axis can be a filter.
+  const secondaryAxes: Array<{ axis: Axis; axisKey: string }> = [];
+  const pathAxes = new Set<Axis>([axis1, axis2]);
+  if (filters.level && !pathAxes.has('educational-level')) {
+    secondaryAxes.push({ axis: 'educational-level', axisKey: filters.level });
+  }
+  if (filters.theme && !pathAxes.has('theme')) {
+    secondaryAxes.push({ axis: 'theme', axisKey: filters.theme });
+  }
+  if (filters.type && !pathAxes.has('exercise-type')) {
+    secondaryAxes.push({ axis: 'exercise-type', axisKey: filters.type });
+  }
+
+  const primaryAxes = [
+    { axis: axis1, axisKey: axisKey1 },
+    { axis: axis2, axisKey: axisKey2 },
+  ];
+
+  const { decks, totalCount, pageCount } = await fetchDecksForTopicWithFilters(
+    primaryAxes,
+    {
+      secondaryAxes: secondaryAxes.length > 0 ? secondaryAxes : undefined,
+      sort: filters.sort,
+      page: filters.page,
+      pageSize: TOPIC_PAGE_SIZE,
+    },
     locale,
-    { take: 24 } // page-1 cap; 6b will introduce cursor-pagination on this same shape
   );
-  const totalCount = await countDecksForIntersection(axis1, axisKey1, axis2, axisKey2, locale);
 
-  const canonical = `${BASE_URL}/${locale}/topic/${params.slug}/${params.secondary}/`;
+  if (filters.page > pageCount && pageCount > 0) notFound();
+
+  const facetCounts = await getFacetCounts(primaryAxes, secondaryAxes, locale);
+
+  // Build active-filter chip descriptors (only the third unanchored axis can
+  // be active on intersection pages).
+  type ChipKey = 'level' | 'theme' | 'type';
+  type Chip = { paramKey: ChipKey; axisKey: string; label: string };
+  const activeChips: Chip[] = [];
+  if (filters.level && !pathAxes.has('educational-level')) {
+    const name = getAxisName('educational-level', filters.level, locale);
+    if (name) activeChips.push({ paramKey: 'level', axisKey: filters.level, label: name });
+  }
+  if (filters.theme && !pathAxes.has('theme')) {
+    const name = getAxisName('theme', filters.theme, locale);
+    if (name) activeChips.push({ paramKey: 'theme', axisKey: filters.theme, label: name });
+  }
+  if (filters.type && !pathAxes.has('exercise-type')) {
+    const name = getAxisName('exercise-type', filters.type, locale);
+    if (name) activeChips.push({ paramKey: 'type', axisKey: filters.type, label: name });
+  }
+
+  // Build facet group(s) — only the unanchored axis renders as a facet
+  const tFacets = await getTranslations({ locale, namespace: 'topicPage.facets' });
+  const facetGroups: FacetGroup[] = [];
+  if (!pathAxes.has('educational-level')) {
+    const opts = facetCounts['educational-level'].map(c => ({
+      axisKey: c.axisKey,
+      label: getAxisName('educational-level', c.axisKey, locale) ?? c.axisKey,
+      count: c.count,
+    }));
+    facetGroups.push({ paramKey: 'level', heading: tFacets('educationalLevel'), options: opts });
+  }
+  if (!pathAxes.has('theme')) {
+    const allThemes = await listAllNonEmptyThemesWithCounts(locale);
+    const counts = new Map(facetCounts['theme'].map(c => [c.axisKey, c.count]));
+    const opts = allThemes
+      .map(t2 => ({
+        axisKey: t2.axisKey,
+        label: getAxisName('theme', t2.axisKey, locale) ?? t2.axisKey,
+        count: counts.get(t2.axisKey) ?? 0,
+      }))
+      .filter(o => o.count > 0);
+    facetGroups.push({
+      paramKey: 'theme',
+      heading: tFacets('theme.heading'),
+      options: opts,
+      isThemeWithExpand: true,
+      themeTier1Count: 12,
+    });
+  }
+  if (!pathAxes.has('exercise-type')) {
+    const opts = facetCounts['exercise-type'].map(c => ({
+      axisKey: c.axisKey,
+      label: getAxisName('exercise-type', c.axisKey, locale) ?? c.axisKey,
+      count: c.count,
+    }));
+    facetGroups.push({ paramKey: 'type', heading: tFacets('exerciseType'), options: opts });
+  }
+
+  const childSpString = (() => {
+    const out = new URLSearchParams();
+    if (filters.sort !== 'newest') out.set('sort', filters.sort);
+    if (filters.page !== 1) out.set('page', String(filters.page));
+    if (filters.level) out.set('level', filters.level);
+    if (filters.theme) out.set('theme', filters.theme);
+    if (filters.type) out.set('type', filters.type);
+    return out.toString();
+  })();
+
+  const canonical = `${BASE_URL}${basePath}`;
   const schema = buildCollectionSchema(locale, compositeName, canonical, decks);
 
   return (
@@ -293,21 +476,51 @@ export default async function IntersectionPage({
           topicName2={name2}
         />
 
-        <DeckGridClient
-          decks={decks.map<TopicDeckCardData>(deck => ({
-            id: deck.id,
-            slug: deck.slug,
-            language: deck.language,
-            title: deckTitleFor(deck, locale),
-            href: deckLinkFor(deck),
-            thumbnailUrl: deck.thumbnailUrl,
-            pdfUrl: deck.pdfUrl,
-          }))}
-          labels={{
-            playLink: t('deckCard.playLink'),
-            pdfLink: t('deckCard.pdfLink'),
-          }}
-        />
+        {/* Arc 6b — Filter sidebar (only the third unanchored axis renders
+            as a facet on intersection pages) + main content. */}
+        <div className="lg:grid lg:grid-cols-12 lg:gap-8">
+          <FilterSidebar
+            basePath={basePath}
+            facetGroups={facetGroups}
+          />
+          <div className="lg:col-span-9">
+            <div className="flex flex-wrap items-center justify-between gap-3 mb-6">
+              <MobileFilterDrawer basePath={basePath} facetGroups={facetGroups} />
+              <SortDropdown basePath={basePath} />
+            </div>
+            <ActiveFilterChips basePath={basePath} chips={activeChips} />
+            {decks.length === 0 ? (
+              <EmptyDecksState
+                locale={locale}
+                basePath={basePath}
+                searchParamsString={childSpString}
+              />
+            ) : (
+              <DeckGridClient
+                decks={decks.map<TopicDeckCardData>(deck => ({
+                  id: deck.id,
+                  slug: deck.slug,
+                  language: deck.language,
+                  title: deckTitleFor(deck, locale),
+                  href: deckLinkFor(deck),
+                  thumbnailUrl: deck.thumbnailUrl,
+                  pdfUrl: deck.pdfUrl,
+                }))}
+                labels={{
+                  playLink: t('deckCard.playLink'),
+                  pdfLink: t('deckCard.pdfLink'),
+                }}
+              />
+            )}
+            <Pagination
+              locale={locale}
+              currentPage={filters.page}
+              pageCount={pageCount}
+              basePath={basePath}
+              searchParamsString={childSpString}
+            />
+          </div>
+        </div>
 
         <CrossAxisPivots
           locale={locale}

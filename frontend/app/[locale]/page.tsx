@@ -14,9 +14,8 @@ export const revalidate = 3600;
 
 const BASE_URL = 'https://www.lessoncraftstudio.com';
 
-// OG image: reuse the featured deck's existing 1200×630 OG asset per HOMEPAGE-COPY.md
-// page-level meta. Featured deck is de/picture-path per frontend/config/homepage-featured-decks.json.
-// Brief B Phase 3 og-image.png is co-located with the deck assets in the nginx-served versioned dir.
+// OG image: fixed page-level 1200×630 asset per HOMEPAGE-COPY.md. Co-located
+// with deck assets in the nginx-served versioned dir; locale-independent.
 const OG_IMAGE_PATH = '/de/decks/picture-path/og-image.png';
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {

@@ -68,11 +68,16 @@ const REQUIRED_SECTIONS = ['warmup', 'contentActivity', 'scaffold', 'closure'];
 // (e.g. "Activity" / "Activité") via optional non-capturing groups; this
 // preserves parser tolerance across operator-NSR-refined draft variants
 // without requiring re-parse on phrase choice.
+// Note: end-of-pattern uses (?=\s|$) lookahead instead of \b because JS's \b
+// is ASCII-only — it does not treat é, à, å, ö, ü, etc. as word characters
+// regardless of regex flags, so /activit[ée]\b/.test("Activité") is false in
+// pure JavaScript. The whitespace-or-end-of-string lookahead is locale-agnostic
+// and matches the natural heading-as-isolated-text shape.
 const SECTION_HEADING_PATTERNS = {
-  warmup: /^(warmup|aufw[äa]rmung|calentamiento|opwarming|mise en train|riscaldamento|aquecimento|uppv[äa]rmning|opvarmning|alkul[äa]mmittely|oppvarming)\b/i,
-  contentActivity: /^(content[\s-]?language activity|inhalt[\s-]?sprache|actividad de contenido|inhoud[\s-]?taal|activit[ée](?:[\s-]?contenu[\s-]?langue)?|attivit[àa](?:[\s-]?contenuto[\s-]?lingua)?|atividade(?:[\s-]?conte[úu]do[\s-]?l[ií]ngua)?|inneh[åa]ll(?:[\s-]?spr[åa]k)?|indhold(?:[\s-]?sprog)?|sis[äa]lt[öo](?:[\s-]?kieli)?|innhold(?:[\s-]?spr[åa]k)?)\b/i,
-  scaffold: /^(language scaffold|sprachger[üu]st|andamiaje|taalsteun|[ée]tayage(?:[\s-]?langue)?|impalcatura(?:[\s-]?linguistica)?|andaime(?:[\s-]?lingu[ií]stico)?|spr[åa]kst[öo]d|sprogstilladsering|kieli[\s-]?tuki|spr[åa]kstillas)\b/i,
-  closure: /^(closure|abschluss|cierre|afsluiting|cl[ôo]ture|chiusura|encerramento|avslutning|afslutning|p[äa][äa]t[öo]s)\b/i,
+  warmup: /^(warmup|aufw[äa]rmung|calentamiento|opwarming|mise en train|riscaldamento|aquecimento|uppv[äa]rmning|opvarmning|alkul[äa]mmittely|oppvarming)(?=\s|$)/i,
+  contentActivity: /^(content[\s-]?language activity|inhalt[\s-]?sprache|actividad de contenido|inhoud[\s-]?taal|activit[ée](?:[\s-]?contenu[\s-]?langue)?|attivit[àa](?:[\s-]?contenuto[\s-]?lingua)?|atividade(?:[\s-]?conte[úu]do[\s-]?l[ií]ngua)?|inneh[åa]ll(?:[\s-]?spr[åa]k)?|indhold(?:[\s-]?sprog)?|sis[äa]lt[öo](?:[\s-]?kieli)?|innhold(?:[\s-]?spr[åa]k)?)(?=\s|$)/i,
+  scaffold: /^(language scaffold|sprachger[üu]st|andamiaje|taalsteun|[ée]tayage(?:[\s-]?langue)?|impalcatura(?:[\s-]?linguistica)?|andaime(?:[\s-]?lingu[ií]stico)?|spr[åa]kst[öo]d|sprogstilladsering|kieli[\s-]?tuki|spr[åa]kstillas)(?=\s|$)/i,
+  closure: /^(closure|abschluss|cierre|afsluiting|cl[ôo]ture|chiusura|encerramento|avslutning|afslutning|p[äa][äa]t[öo]s)(?=\s|$)/i,
 };
 
 function parseFrontmatter(raw) {

@@ -25,77 +25,105 @@
     "pricing": "Tarifs"
   },
   "homepage": {
+    "meta": {
+      "title": "LessonCraftStudio — Des fiches qui fonctionnent vraiment dans votre seconde langue",
+      "description": "Une bibliothèque d'illustrations K-3 sélectionnées et un système de vocabulaire en 11 langues, avec genre, pluriels et accents corrects. Conçu pour les classes bilingues et les programmes en immersion.",
+      "ogTitle": "Des fiches qui fonctionnent vraiment dans votre seconde langue.",
+      "ogDescription": "Conçu pour les enseignants en programmes bilingues, classes bilingues et écoles internationales.",
+      "ogAlt": "LessonCraftStudio — fiches K-3 en 11 langues"
+    },
     "hero": {
-      "title": "Créez des fiches d'exercices captivantes en quelques minutes",
-      "subtitle": "33 générateurs de fiches professionnelles pour vendeurs Etsy, éditeurs KDP et entrepreneurs du printable. Licence commerciale incluse.",
-      "cta": {
-        "tryFree": "Essayer la recherche de mots",
-        "viewApps": "Voir tous les générateurs"
+      "title": "Des fiches qui fonctionnent vraiment dans votre seconde langue.",
+      "subtitle": "Une bibliothèque d'illustrations K-3 sélectionnées, associée à un système de vocabulaire couvrant 11 langues — avec genre, pluriels et signes diacritiques corrects dans chacune. Conçue pour les enseignants en programmes bilingues, classes bilingues et écoles internationales.",
+      "interaction": "Les enfants les utilisent dans le navigateur. Imprimez-les si vous préférez."
+    },
+    "breadthGrid": {
+      "sectionTitle": "Decks que les enseignants utilisent en ce moment.",
+      "intro": "Quelques decks tirés du catalogue. Ouvrez le premier pour le tester ici, ou cliquez sur n'importe quel autre pour voir sa page complète.",
+      "featuredBadge": "À la une",
+      "playInline": "Jouer ce deck",
+      "openDeck": "Ouvrir le deck",
+      "closeFeatured": "Fermer",
+      "loadingDeck": "Chargement du deck…"
+    },
+    "languageProof": {
+      "sectionTitle": "Ce que la traduction automatique se trompe — et ce que nous faisons bien.",
+      "intro": "La plupart des sites de fiches d'exercices traduisent du contenu anglais avec un moteur générique et publient le résultat. Les articles sont faux. Les pluriels s'effondrent. Les accents disparaissent. Les enfants apprennent les erreurs. Nous traitons chacune de nos 11 langues comme son propre catalogue — pas comme une traduction de l'anglais — avec un vocabulaire sélectionné par des personnes qui enseignent réellement dans cette langue.",
+      "subIntro": "Deux exemples, côte à côte.",
+      "german": {
+        "heading": "Allemand — genre, majuscules, pluriel irrégulier",
+        "leftAnnotation1": "La traduction automatique devine l'article à partir du contexte anglais. Schule est féminin — aucun contexte anglais ne vous le dit.",
+        "leftAnnotation2": "Les noms allemands prennent toujours la majuscule. Mettre une minuscule enseigne la mauvaise règle.",
+        "leftAnnotation3": "Le pluriel est irrégulier : Schulen, pas Schules. La traduction automatique régularise ; la forme correcte est absente.",
+        "annotation1": "die Schule — l'article correct, à chaque fois. Notre vocabulaire allemand est indexé sur le genre, pas deviné.",
+        "annotation2": "Schule — avec la majuscule, comme un nom allemand doit l'avoir.",
+        "annotation3": "Schulen — le vrai pluriel, pas une supposition latine.",
+        "ariaLabel": "Comparaison côte à côte : une fiche allemande traduite automatiquement avec trois erreurs — mauvais article féminin (« der » au lieu de « die »), nom non capitalisé (« schule » au lieu de « Schule »), et pluriel à l'anglaise (« schules » au lieu de « Schulen ») — à côté de la version LessonCraftStudio avec « die Schule » et « die Schulen » correctement rendus."
+      },
+      "french": {
+        "heading": "Français — genre, contractions, accents",
+        "leftAnnotation1": "École est féminin, et l'article s'élide devant la voyelle. La traduction automatique ne fait ni l'un ni l'autre.",
+        "leftAnnotation2": "Le é n'est pas une décoration — il fait partie du mot.",
+        "leftAnnotation3": "La préposition se contracte avec l'article devant la voyelle : à l'école. La traduction automatique les laisse séparés.",
+        "annotation1": "l'école — élision et accent corrects.",
+        "annotation2": "à l'école — contraction correcte avec la préposition.",
+        "annotation3": "Chaque accent dans notre catalogue français est traité comme partie intégrante du mot.",
+        "ariaLabel": "Comparaison côte à côte : une fiche française traduite automatiquement avec trois erreurs — article non élidé (« la école » au lieu de « l'école »), préposition non contractée (« à le école » au lieu de « à l'école »), et accent aigu manquant (« ecole » au lieu de « école ») — à côté de la version LessonCraftStudio avec « l'école », « à l'école », et « école » correctement rendus."
+      },
+      "closingLine": "Les enfants méritent du matériel à la hauteur de la langue qu'ils apprennent. Nous construisons à ce niveau."
+    },
+    "freeExperience": {
+      "sectionTitle": "Gratuit pour tous les enseignants.",
+      "intro": "Pas de compte, pas de paywall, pas de barrière d'inscription. Parcourez, imprimez, intégrez et partagez — chaque deck, dans chaque langue.",
+      "cta": "Parcourir le catalogue →",
+      "browse": {
+        "title": "Parcourez tous les decks.",
+        "body": "Le catalogue complet est ouvert. Filtrez par langue, niveau scolaire, sujet ou type d'exercice. Aucun compte requis pour parcourir, prévisualiser ou jouer un deck."
+      },
+      "pdf": {
+        "title": "Générez un PDF imprimable.",
+        "body": "Chaque deck se télécharge en PDF imprimable propre — corrigé inclus. Pas de filigrane, pas de limite par deck, rien retenu pour la version payante."
+      },
+      "embed": {
+        "title": "Intégrez un deck sur le site de votre classe ou votre blog.",
+        "body": "Copiez un extrait d'intégration, collez-le dans le site web de votre classe, votre blog ou l'environnement numérique de votre école. Les enfants jouent au deck interactif là où ils le trouvent. L'intégration reste gratuite."
+      },
+      "share": {
+        "title": "Partagez un deck par lien.",
+        "body": "Envoyez n'importe quel deck sous forme de lien. Les enfants jouent directement dans le navigateur — pas d'inscription, pas d'application, pas de compte. Fonctionne sur téléphone, tablette, Chromebook ou tableau interactif."
       }
     },
-    "features": {
-      "title": "Tout ce dont vous avez besoin pour créer du matériel pédagogique de qualité",
-      "items": {
-        "apps": {
-          "title": "33 générateurs de fiches",
-          "description": "Des mathématiques à la lecture, en passant par les puzzles et les jeux"
-        },
-        "images": {
-          "title": "Plus de 100 thèmes d'images",
-          "description": "Illustrations adaptées aux enfants avec licence commerciale"
-        },
-        "languages": {
-          "title": "11 langues",
-          "description": "Créez des fiches d'exercices en plusieurs langues"
-        },
-        "pod": {
-          "title": "Licence POD incluse",
-          "description": "Vendez vos fiches sur toutes les plateformes"
-        }
-      }
+    "subscription": {
+      "sectionTitle": "Pour les enseignants qui utilisent LessonCraftStudio toutes les semaines.",
+      "intro": "Le catalogue est gratuit, et il le reste. L'abonnement est destiné aux enseignants qui ont intégré LessonCraftStudio dans leur pratique régulière et veulent organiser leur enseignement — avec des fiches de séance prêtes à l'emploi, des packs thématiques pour les moments qui reviennent chaque année, et un espace de travail pensé pour gérer des milliers de decks.",
+      "lessonPlans": {
+        "title": "Fiches de séance prêtes à l'emploi",
+        "body": "Une bibliothèque grandissante de fiches de séance pré-rédigées, chacune liée à des decks spécifiques. Chaque fiche suit une structure cohérente en quatre temps inspirée des principes CLIL — mise en train, activité contenu-langue, étayage langue et pratique, et clôture — pour que vous appreniez la forme une fois et puissiez ensuite simplement enseigner. Les fiches sont rédigées nativement par langue, pas traduites automatiquement, et reflètent les conventions de chaque classe pour laquelle elles sont écrites."
+      },
+      "themedBundles": {
+        "title": "Packs thématiques pour les moments qui reviennent chaque année",
+        "body": "Des packs sélectionnés à la main pour la rentrée, Halloween, les fêtes d'hiver, la Saint-Valentin, la fin d'année et les bilans de fin d'unité. Chaque pack associe un ensemble cohérent de decks à une fiche de séance écrite pour le thème du pack. Imprimez le dossier, suivez la fiche, enseignez la semaine. De nouveaux packs ajoutés au cours de l'année, tous inclus dans l'abonnement."
+      },
+      "workspace": {
+        "title": "Un espace de travail à votre mesure",
+        "body": "Le catalogue passera la barre des milliers de decks. L'abonnement vous donne des collections pour les organiser, un espace de travail où vous arrivez en vous connectant, un filtrage avancé adapté à la façon dont les enseignants cherchent réellement, une cartographie curriculaire pour vos propres unités, et des outils par lots qui transforment des tâches de cinq minutes en tâches de trente secondes. Votre structure se reporte d'année en année — c'est tout l'intérêt."
+      },
+      "price": "$69 par an. Annulable à tout moment.",
+      "subscribeCta": "S'abonner →",
+      "subscribeSubCopy": "Vous serez redirigé·e vers notre partenaire de paiement. Après le paiement, votre compte est prêt immédiatement.",
+      "alreadySubscribedCta": "Voir mon abonnement"
     },
-    "pricing": {
-      "title": "Tarification simple et transparente",
-      "monthly": "Mensuel",
-      "yearly": "Annuel (Économisez 20%)",
-      "free": {
-        "name": "Gratuit",
-        "price": "$0",
-        "features": [
-          "Générateur de mots cachés",
-          "Bibliothèque d'images limitée",
-          "Avec filigrane",
-          "Support de base"
-        ],
-        "cta": "Commencer gratuitement"
-      },
-      "core": {
-        "name": "Pack Essentiel",
-        "price": "$15",
-        "priceYearly": "$144",
-        "features": [
-          "10 générateurs les plus populaires",
-          "Accès complet à la bibliothèque d'images",
-          "Sans filigrane",
-          "Licence commerciale POD",
-          "Support prioritaire"
-        ],
-        "cta": "Choisir le Pack Essentiel"
-      },
-      "full": {
-        "name": "Accès Complet",
-        "price": "$25",
-        "priceYearly": "$240",
-        "features": [
-          "Les 33 générateurs",
-          "Accès complet à la bibliothèque d'images",
-          "Sans filigrane",
-          "Licence commerciale POD",
-          "Support prioritaire",
-          "Accès anticipé aux nouvelles applications"
-        ],
-        "cta": "Obtenir l'Accès Complet",
-        "popular": "Le plus populaire"
+    "notify": {
+      "aboveField": "Nous finalisons la bibliothèque de fiches de séance et lançons l'abonnement bientôt. Laissez-nous votre e-mail et nous vous préviendrons le jour de l'ouverture.",
+      "label": "Adresse e-mail",
+      "placeholder": "votre-email@ecole.fr",
+      "submit": "Me prévenir →",
+      "submitting": "Envoi en cours…",
+      "confirmation": "Merci — nous vous écrirons quand l'abonnement sera ouvert.",
+      "subCopy": "Un seul e-mail, uniquement à l'ouverture de l'abonnement. Pas de liste marketing, pas de séquence de relance.",
+      "errors": {
+        "invalid_email": "Veuillez saisir une adresse e-mail valide.",
+        "server": "Une erreur est survenue. Veuillez réessayer."
       }
     }
   },

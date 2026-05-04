@@ -817,6 +817,10 @@
       "pdfLink": "Imprimir PDF"
     },
     "emptyState": "Aún no hay hojas de trabajo en este tema — vuelva a consultarnos pronto.",
+    "intersection": {
+      "heading": "{primary} · {secondary}",
+      "intro": "Hojas de trabajo en la intersección de {primary} y {secondary}."
+    },
     "variety": {
       "sameAxisKeyOtherLocales": "{topic} en otros idiomas",
       "relatedTopics": {

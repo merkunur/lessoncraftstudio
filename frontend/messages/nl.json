@@ -804,6 +804,10 @@
       "pdfLink": "PDF afdrukken"
     },
     "emptyState": "Nog geen werkbladen in dit onderwerp — kom binnenkort terug.",
+    "intersection": {
+      "heading": "{primary} · {secondary}",
+      "intro": "Werkbladen op het snijvlak van {primary} en {secondary}."
+    },
     "variety": {
       "sameAxisKeyOtherLocales": "{topic} in andere talen",
       "relatedTopics": {

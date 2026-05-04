@@ -948,6 +948,10 @@
       "pdfLink": "PDF drucken"
     },
     "emptyState": "Noch keine Arbeitsblätter in diesem Thema — schau bald wieder vorbei.",
+    "intersection": {
+      "heading": "{primary} · {secondary}",
+      "intro": "Arbeitsblätter an der Schnittstelle von {primary} und {secondary}."
+    },
     "variety": {
       "sameAxisKeyOtherLocales": "{topic} in anderen Sprachen",
       "relatedTopics": {

@@ -857,6 +857,10 @@
       "pdfLink": "Print PDF"
     },
     "emptyState": "No worksheets in this topic yet — check back soon.",
+    "intersection": {
+      "heading": "{primary} · {secondary}",
+      "intro": "Worksheets at the intersection of {primary} and {secondary}."
+    },
     "variety": {
       "sameAxisKeyOtherLocales": "{topic} in other languages",
       "relatedTopics": {

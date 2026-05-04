@@ -75,15 +75,15 @@ function FacetGroupSection({
       <ul className="space-y-1">
         {visibleOptions.map(opt => (
           <li key={opt.axisKey}>
-            <label className="flex items-center gap-2 px-2 py-1 rounded text-sm text-ink-800 hover:bg-cream-100 cursor-pointer">
+            <label className="flex items-start gap-2 px-2 py-1 rounded text-sm text-ink-800 hover:bg-cream-100 cursor-pointer">
               <input
                 type="checkbox"
                 checked={currentValue === opt.axisKey}
                 onChange={e => onToggle(opt.axisKey, e.target.checked)}
-                className="rounded text-terracotta-500 focus:ring-2 focus:ring-terracotta-400"
+                className="mt-1 rounded text-terracotta-500 focus:ring-2 focus:ring-terracotta-400 flex-shrink-0"
               />
-              <span className="flex-1 truncate">{opt.label}</span>
-              <span className="text-xs text-ink-500">{opt.count}</span>
+              <span className="flex-1 break-words">{opt.label}</span>
+              <span className="text-xs text-ink-500 flex-shrink-0 mt-0.5">{opt.count}</span>
             </label>
           </li>
         ))}
@@ -109,7 +109,7 @@ export default function FilterSidebar({
   const t = useTranslations('topicPage.facets');
 
   return (
-    <aside aria-label={t('heading')} className="hidden lg:block">
+    <aside aria-label={t('heading')} className="hidden lg:block lg:col-span-3">
       <h2 className="font-display text-lg font-semibold text-ink-900 mb-4">
         {t('heading')}
       </h2>

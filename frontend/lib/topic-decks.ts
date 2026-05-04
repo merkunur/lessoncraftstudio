@@ -306,3 +306,208 @@ export async function intersectionLastModified(
   });
   return row?.updatedAt ?? null;
 }
+
+/**
+ * Sibling-axis listing within the same axis-kind. For SiblingAxisStrip on
+ * single-axis topic pages: given (axis=theme, currentAxisKey=animals,
+ * locale=en), returns all OTHER theme axis-keys with ≥1 published en deck,
+ * sorted by deck-count desc. Caller (UI) caps display per Arc 6a Q2 lock
+ * (top 8) with alphabetic-by-localized-name tiebreak.
+ *
+ * §16.6 substrate-honesty: only siblings with ≥1 published deck for the
+ * current locale appear. Single round-trip via prisma.deck.groupBy.
+ */
+export async function listSiblingAxisKeysWithCounts(
+  axis: Axis,
+  currentAxisKey: string,
+  locale: string
+): Promise<Array<{ axisKey: string; count: number }>> {
+  if (axis === 'exercise-type') {
+    const grouped = await prisma.deck.groupBy({
+      by: ['exerciseType'],
+      where: { language: locale, status: 'published' },
+      _count: { _all: true },
+    });
+    const registry = new Set(listAxisKeys(axis));
+    return grouped
+      .filter(g => g.exerciseType !== currentAxisKey && registry.has(g.exerciseType))
+      .map(g => ({ axisKey: g.exerciseType, count: g._count._all }))
+      .sort((a, b) => b.count - a.count);
+  }
+  if (axis === 'theme') {
+    // subjectTags is a String[] column; can't groupBy directly. Pull all rows
+    // and tally per tag. Per-locale-bounded by language filter; index hit on
+    // (language, status, *) compound prefixes.
+    const decks = await prisma.deck.findMany({
+      where: { language: locale, status: 'published' },
+      select: { subjectTags: true },
+    });
+    const registry = new Set(listAxisKeys(axis));
+    const counts = new Map<string, number>();
+    for (const d of decks) {
+      for (const tag of d.subjectTags) {
+        if (tag === currentAxisKey || !registry.has(tag)) continue;
+        counts.set(tag, (counts.get(tag) ?? 0) + 1);
+      }
+    }
+    return Array.from(counts.entries())
+      .map(([axisKey, count]) => ({ axisKey, count }))
+      .sort((a, b) => b.count - a.count);
+  }
+  if (axis === 'educational-level') {
+    const grouped = await prisma.deck.groupBy({
+      by: ['ageRange'],
+      where: { language: locale, status: 'published' },
+      _count: { _all: true },
+    });
+    // Aggregate ageRange tallies into educational-level keys (one ageRange
+    // typically maps to one level per §17.8.6, but the reverse map allows
+    // multi-range levels).
+    const levelKeys = listAxisKeys('educational-level');
+    const levelCounts = new Map<string, number>();
+    for (const lk of levelKeys) {
+      if (lk === currentAxisKey) continue;
+      const ranges = new Set(levelKeyToAgeRanges(lk));
+      let total = 0;
+      for (const g of grouped) {
+        if (ranges.has(g.ageRange)) total += g._count._all;
+      }
+      if (total > 0) levelCounts.set(lk, total);
+    }
+    return Array.from(levelCounts.entries())
+      .map(([axisKey, count]) => ({ axisKey, count }))
+      .sort((a, b) => b.count - a.count);
+  }
+  return [];
+}
+
+/**
+ * Cross-axis pivot listing for CrossAxisPivots. Given 1 or 2 anchor axes,
+ * returns 2-axis intersections related to those anchors with ≥1 published
+ * deck for the locale. Sorted by deck-count desc; caller applies the
+ * limit cap (default 6 per Arc 6a Q1 lock).
+ *
+ * Single-anchor (single-axis topic page): enumerates intersections that
+ * include the anchor axis. e.g. anchor={theme,animals} → returns
+ * (theme=animals × any-level) + (theme=animals × any-exercise-type)
+ * intersections that have ≥1 deck.
+ *
+ * Two-anchor (intersection page): enumerates OTHER intersections sharing
+ * exactly one axis with the current page. e.g. anchors=[{theme,animals},
+ * {educational-level,kindergarten}] → returns (animals × any-other-level)
+ * + (animals × any-exercise-type) + (kindergarten × any-other-theme) +
+ * (kindergarten × any-exercise-type), excluding the current intersection.
+ *
+ * Internally delegates to listNonEmptyIntersections for each axis pair the
+ * anchor(s) participate in, then projects + filters + sorts.
+ */
+export async function listRelatedNonEmptyIntersections(
+  currentAxes: Array<{ axis: Axis; axisKey: string }>,
+  locale: string,
+  limit: number = 6
+): Promise<Array<{ axis1: Axis; key1: string; axis2: Axis; key2: string; count: number }>> {
+  if (currentAxes.length < 1 || currentAxes.length > 2) return [];
+
+  // Canonical axis-pair ordering: theme → educational-level → exercise-type
+  // (mirrors Arc 6c URL-routing convention). Pairs always normalize to this
+  // order for output.
+  const RANK: Record<Axis, number> = { theme: 1, 'educational-level': 2, 'exercise-type': 3 };
+  const ALL_AXES: Axis[] = ['theme', 'educational-level', 'exercise-type'];
+
+  // Determine which axis pairs to enumerate. For 1 anchor: pair the anchor's
+  // axis with each of the OTHER 2 axes. For 2 anchors: same set but exclude
+  // the pair the anchors already form.
+  const pairsToEnum: Array<[Axis, Axis]> = [];
+  for (let i = 0; i < ALL_AXES.length; i++) {
+    for (let j = i + 1; j < ALL_AXES.length; j++) {
+      const pair: [Axis, Axis] = [ALL_AXES[i], ALL_AXES[j]];
+      const involvesAnchor = currentAxes.some(a => a.axis === pair[0] || a.axis === pair[1]);
+      if (involvesAnchor) pairsToEnum.push(pair);
+    }
+  }
+
+  // Enumerate intersection counts per pair. Reuse listNonEmptyIntersections
+  // for the per-pair tuple list, then re-count via groupBy-equivalent in JS
+  // (listNonEmptyIntersections returns distinct tuples; we need their
+  // deck-counts). Aggregate via a single-pass count fetch per pair.
+  const allIntersections: Array<{ axis1: Axis; key1: string; axis2: Axis; key2: string; count: number }> = [];
+
+  for (const [a1, a2] of pairsToEnum) {
+    // Pull all decks for the locale once per pair for counting. Per-locale-
+    // bounded fetch; index hit on (language, status, *) compound.
+    const decks = await prisma.deck.findMany({
+      where: { language: locale, status: 'published' },
+      select: { exerciseType: true, ageRange: true, subjectTags: true },
+    });
+
+    const themeRegistry = new Set(listAxisKeys('theme'));
+    const exerciseTypeRegistry = new Set(listAxisKeys('exercise-type'));
+    const levelKeys = listAxisKeys('educational-level');
+    const rangeToLevel = new Map<string, string>();
+    for (const lk of levelKeys) {
+      for (const r of levelKeyToAgeRanges(lk)) rangeToLevel.set(r, lk);
+    }
+
+    function keysFor(axis: Axis, deck: { exerciseType: string; ageRange: string; subjectTags: string[] }): string[] {
+      if (axis === 'exercise-type') {
+        return exerciseTypeRegistry.has(deck.exerciseType) ? [deck.exerciseType] : [];
+      }
+      if (axis === 'theme') {
+        return deck.subjectTags.filter(t => themeRegistry.has(t));
+      }
+      if (axis === 'educational-level') {
+        const lk = rangeToLevel.get(deck.ageRange);
+        return lk ? [lk] : [];
+      }
+      return [];
+    }
+
+    const counts = new Map<string, number>();
+    for (const d of decks) {
+      const ks1 = keysFor(a1, d);
+      const ks2 = keysFor(a2, d);
+      for (const k1 of ks1) {
+        for (const k2 of ks2) {
+          const key = `${k1}|${k2}`;
+          counts.set(key, (counts.get(key) ?? 0) + 1);
+        }
+      }
+    }
+
+    for (const [key, count] of counts) {
+      const [k1, k2] = key.split('|');
+      allIntersections.push({ axis1: a1, key1: k1, axis2: a2, key2: k2, count });
+    }
+  }
+
+  // Anchor-filter: each intersection MUST include at least one anchor's
+  // (axis, axisKey). For 2-anchor case, ALSO exclude the current intersection
+  // (where both anchors match in canonical order).
+  const anchorMatchesIntersection = (
+    inter: { axis1: Axis; key1: string; axis2: Axis; key2: string },
+    anchor: { axis: Axis; axisKey: string }
+  ): boolean => {
+    return (
+      (inter.axis1 === anchor.axis && inter.key1 === anchor.axisKey) ||
+      (inter.axis2 === anchor.axis && inter.key2 === anchor.axisKey)
+    );
+  };
+
+  let filtered = allIntersections.filter(inter => {
+    return currentAxes.some(a => anchorMatchesIntersection(inter, a));
+  });
+
+  if (currentAxes.length === 2) {
+    const [a, b] = currentAxes;
+    filtered = filtered.filter(inter => {
+      const isCurrent =
+        (anchorMatchesIntersection(inter, a) && anchorMatchesIntersection(inter, b));
+      return !isCurrent;
+    });
+  }
+
+  // Sort: deck-count desc; caller applies tiebreak via localized-name lookup.
+  filtered.sort((x, y) => y.count - x.count);
+
+  return filtered.slice(0, limit);
+}

@@ -833,6 +833,13 @@
       "aria": {
         "languageBadge": "Idioma: {label}"
       }
+    },
+    "breadcrumb": {
+      "home": "Inicio"
+    },
+    "crossAxis": {
+      "heading": "Explorar más",
+      "pivot": "{primary} · {secondary}"
     }
   },
   "workspace": {

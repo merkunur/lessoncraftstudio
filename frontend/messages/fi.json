@@ -1073,6 +1073,13 @@
       "aria": {
         "languageBadge": "Kieli: {label}"
       }
+    },
+    "breadcrumb": {
+      "home": "Etusivu"
+    },
+    "crossAxis": {
+      "heading": "Tutki lisää",
+      "pivot": "{primary} · {secondary}"
     }
   }
 }

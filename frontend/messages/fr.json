@@ -1104,6 +1104,13 @@
       "aria": {
         "languageBadge": "Langue : {label}"
       }
+    },
+    "breadcrumb": {
+      "home": "Accueil"
+    },
+    "crossAxis": {
+      "heading": "Explorer plus loin",
+      "pivot": "{primary} · {secondary}"
     }
   }
 }

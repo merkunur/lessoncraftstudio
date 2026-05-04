@@ -873,6 +873,13 @@
       "aria": {
         "languageBadge": "Language: {label}"
       }
+    },
+    "breadcrumb": {
+      "home": "Home"
+    },
+    "crossAxis": {
+      "heading": "Explore further",
+      "pivot": "{primary} · {secondary}"
     }
   },
   "workspace": {

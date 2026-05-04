@@ -12,6 +12,11 @@ import {
 import { fetchDecksForAxis, listNonEmptyAxisKeys, TopicDeckSummary } from '@/lib/topic-decks';
 import { fetchLessonPlanSummaryForTopic } from '@/lib/lesson-plans';
 import VarietyStrip from '@/components/catalog/VarietyStrip';
+import Breadcrumbs from '@/components/catalog/Breadcrumbs';
+import SiblingAxisStrip from '@/components/catalog/SiblingAxisStrip';
+import CrossAxisPivots from '@/components/catalog/CrossAxisPivots';
+import TopicProseContainer, { intentForAxis } from '@/components/catalog/TopicProseContainer';
+import ResultCount from '@/components/catalog/ResultCount';
 import DeckGridClient, { TopicDeckCardData } from './DeckGridClient';
 
 // Tier 1 launch locales per CLAUDE.md §19. Tier 2-4 fold in later; topic
@@ -232,17 +237,32 @@ export default async function TopicPage({ params }: { params: TopicParams }) {
       />
 
       <main className="container mx-auto px-4 max-w-6xl py-12">
-        <header className="mb-10">
+        {/* Arc 6a — depth-UI overlay: breadcrumbs + sibling-axis strip
+            above h1; result-count + prose container below h1. */}
+        <Breadcrumbs
+          locale={locale}
+          axisName1={topicName}
+          slug1={params.slug}
+        />
+        <SiblingAxisStrip
+          locale={locale}
+          currentAxis={axis}
+          currentAxisKey={axisKey}
+        />
+
+        <header className="mb-6">
           <h1 className="font-display text-3xl md:text-4xl font-semibold text-ink-900 mb-3">
             {t(`heading.${intent}`, { topic: topicName })}
           </h1>
-          <p className="text-base text-ink-700 max-w-2xl">
-            {t(`intro.${intent}`, { topic: topicName })}
-          </p>
-          <p className="text-sm text-ink-500 mt-3">
-            {t('decksCount', { count: decks.length })}
-          </p>
+          <ResultCount locale={locale} count={decks.length} />
         </header>
+
+        <TopicProseContainer
+          locale={locale}
+          axisKey1={axisKey}
+          intent1={intentForAxis(axis)}
+          topicName1={topicName}
+        />
 
         {lessonPlanSummary && (
           <section className="mb-10 p-6 rounded-lg bg-cream-100 border border-cream-300">
@@ -288,6 +308,14 @@ export default async function TopicPage({ params }: { params: TopicParams }) {
             playLink: t('deckCard.playLink'),
             pdfLink: t('deckCard.pdfLink'),
           }}
+        />
+
+        {/* Arc 6a — cross-axis pivot rail. Surfaces 2-axis intersection
+            pages related to the current axis. Capped at 6 per Q1; renders
+            fewer when substrate sparse (no fallback copy). */}
+        <CrossAxisPivots
+          locale={locale}
+          currentAxes={[{ axis, axisKey }]}
         />
 
         {/* Catalog variety Arc 1 — below-the-fold variety strips per

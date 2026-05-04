@@ -13,6 +13,10 @@ import {
   countDecksForIntersection,
   TopicDeckSummary,
 } from '@/lib/topic-decks';
+import Breadcrumbs from '@/components/catalog/Breadcrumbs';
+import CrossAxisPivots from '@/components/catalog/CrossAxisPivots';
+import TopicProseContainer from '@/components/catalog/TopicProseContainer';
+import ResultCount from '@/components/catalog/ResultCount';
 import DeckGridClient, { TopicDeckCardData } from '../DeckGridClient';
 
 // Arc 6c — path-based 2-axis intersection topic pages.
@@ -263,17 +267,31 @@ export default async function IntersectionPage({
       />
 
       <main className="container mx-auto px-4 max-w-6xl py-12">
-        <header className="mb-10">
+        {/* Arc 6a — depth-UI overlay: 3-level breadcrumbs above h1;
+            result-count + prose container below h1; cross-axis pivots
+            below deck grid. */}
+        <Breadcrumbs
+          locale={locale}
+          axisName1={name1}
+          slug1={params.slug}
+          axisName2={name2}
+          slug2={params.secondary}
+        />
+
+        <header className="mb-6">
           <h1 className="font-display text-3xl md:text-4xl font-semibold text-ink-900 mb-3">
             {t('intersection.heading', { primary: name1, secondary: name2 })}
           </h1>
-          <p className="text-base text-ink-700 max-w-2xl">
-            {t('intersection.intro', { primary: name1, secondary: name2 })}
-          </p>
-          <p className="text-sm text-ink-500 mt-3">
-            {t('decksCount', { count: totalCount })}
-          </p>
+          <ResultCount locale={locale} count={totalCount} />
         </header>
+
+        <TopicProseContainer
+          locale={locale}
+          axisKey1={axisKey1}
+          axisKey2={axisKey2}
+          topicName1={name1}
+          topicName2={name2}
+        />
 
         <DeckGridClient
           decks={decks.map<TopicDeckCardData>(deck => ({
@@ -289,6 +307,14 @@ export default async function IntersectionPage({
             playLink: t('deckCard.playLink'),
             pdfLink: t('deckCard.pdfLink'),
           }}
+        />
+
+        <CrossAxisPivots
+          locale={locale}
+          currentAxes={[
+            { axis: axis1, axisKey: axisKey1 },
+            { axis: axis2, axisKey: axisKey2 },
+          ]}
         />
       </main>
     </>

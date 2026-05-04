@@ -1084,6 +1084,13 @@
       "aria": {
         "languageBadge": "Språk: {label}"
       }
+    },
+    "breadcrumb": {
+      "home": "Hem"
+    },
+    "crossAxis": {
+      "heading": "Utforska mer",
+      "pivot": "{primary} · {secondary}"
     }
   }
 }

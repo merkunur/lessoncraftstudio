@@ -1088,6 +1088,13 @@
       "aria": {
         "languageBadge": "Språk: {label}"
       }
+    },
+    "breadcrumb": {
+      "home": "Hjem"
+    },
+    "crossAxis": {
+      "heading": "Utforsk mer",
+      "pivot": "{primary} · {secondary}"
     }
   }
 }

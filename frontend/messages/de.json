@@ -964,6 +964,13 @@
       "aria": {
         "languageBadge": "Sprache: {label}"
       }
+    },
+    "breadcrumb": {
+      "home": "Startseite"
+    },
+    "crossAxis": {
+      "heading": "Weiter entdecken",
+      "pivot": "{primary} · {secondary}"
     }
   },
   "workspace": {

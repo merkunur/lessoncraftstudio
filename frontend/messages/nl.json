@@ -820,6 +820,13 @@
       "aria": {
         "languageBadge": "Taal: {label}"
       }
+    },
+    "breadcrumb": {
+      "home": "Home"
+    },
+    "crossAxis": {
+      "heading": "Meer ontdekken",
+      "pivot": "{primary} · {secondary}"
     }
   },
   "workspace": {

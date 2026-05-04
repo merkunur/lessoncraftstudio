@@ -232,6 +232,8 @@ The 6 open decisions originally enumerated in this section were all resolved at 
 
 6. **Workspace tooling implementation order.** RESOLVED 2026-05-02: **1 → 2 → 5 → 3 → 4.** Tools 1+2+5 (Collections, Workspace home, Bulk operations) ship first against existing schema substrate (commit `9ba9fa2d`). Tools 3+4 (Advanced filtering, Curriculum mapping) follow, each carrying its own schema commission pass. Tool 6 (Personalized feed) stays deferred per its original "Deferred" sub-section. Folded in: Pillar 3 "Implementation order."
 
+7. **Pillar 1 production pattern.** RESOLVED 2026-05-04 (Phase 1c apply at `e912b805`): **cooperation-pattern through clause (a) closure and beyond.** Lesson plans authored via CC drafts → copilot reviews substantively → CC revises → seed via Hetzner-side `plink`. Mac Studio AI-assist arc removed from Pillar 1 dependency chain; Mac Studio strategic-fit reframed as candidate for OTHER content pipelines (Topic embeddings per CLAUDE.md §16.1; deck enrichment per §4.5; OG image generation; alt-text + structured-data + meta enrichment), not pedagogical-voice content. Folded in: CLAUDE.md §3.4 (canonical lock); Pillar 1 "Content pipeline commitment" applies the production discipline through clause (a) closure and beyond.
+
 ## Launch readiness
 
 The $69/year subscription becomes purchasable when **all three thresholds** are met:
@@ -257,6 +259,8 @@ Tier 2 catalog work fully sealed at `d3b4f962` — all 4 production locales (en+
 The realized authoring scope is bounded by axis-keys × locales, **not** by deck count, and the cooperation-pattern production discipline (CC + copilot review loop per §3.4) clears multi-month timelines for any of these targets. `project_mass_publish_recon.md` Section D establishes the schema-true reading; this section folds the resolution.
 
 **Path A is the canonical clause (a) interpretation.** Path B (1 plan per deck per locale, scaling with deck count) is misread doctrine — the schema enforces the Path A cap and rejects any reading that would require more plans than (axis-keys × locales). The 4 reference plans authored at `e912b805` (en/de × addition+sudoku) are consistent with Path A; illustrative-example framing applied during the Phase 1c revision pass makes them portable across all decks at the same axis-key + locale (per CLAUDE.md §17.9 "Illustrative-example framing for deck-portable plans").
+
+**Clause (a) progress: 4/156 plans live** (en+de × addition+sudoku) per Phase 1c apply at `e912b805`. The cooperation-pattern production pattern (resolved-decisions entry #7) authors the remaining 152 plans through clause (a) closure; cadence is operator-attention-driven per "batches when you're ready; batch size when you have attention for it." discipline.
 
 The prior wording — "lesson-plan-per-deck-per-locale: 116 plans realized authoring scope (29 §14.10 apps × 4 locales). Mechanically follows catalog scope; 1 lesson plan per deck per locale" — described the same outcome at the Tier-2-closeout snapshot (where 29 axis-keys × 4 locales coincidentally equals the 116 deck count) but framed it as deck-driven rather than axis-key-driven. The schema reads axis-key-driven; this rewrite locks that in.
 

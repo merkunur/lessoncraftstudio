@@ -25,9 +25,6 @@
     "pricing": "Tarifs"
   },
   "homepage": {
-    "scaleCopy": {
-      "breadthGridIntro": "Plus de {deckCount} fiches dans {exerciseTypeCount} types d'exercice et {languageCount} langues — et en croissance."
-    },
     "hero": {
       "title": "Créez des fiches d'exercices captivantes en quelques minutes",
       "subtitle": "33 générateurs de fiches professionnelles pour vendeurs Etsy, éditeurs KDP et entrepreneurs du printable. Licence commerciale incluse.",

@@ -47,9 +47,6 @@
       "closeFeatured": "Close",
       "loadingDeck": "Loading deck…"
     },
-    "scaleCopy": {
-      "breadthGridIntro": "{deckCount}+ decks across {exerciseTypeCount} exercise types in {languageCount} languages — and growing."
-    },
     "languageProof": {
       "sectionTitle": "What auto-translation gets wrong, and what we get right.",
       "intro": "Most worksheet sites translate English content with a generic engine and ship the result. Articles end up wrong. Plurals collapse. Accents go missing. Children learn the mistakes. We treat each of our 11 languages as its own catalog — not a translation of English — with vocabulary curated by people who actually teach in that language.",

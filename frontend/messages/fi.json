@@ -25,9 +25,6 @@
     "pricing": "Hinnat"
   },
   "homepage": {
-    "scaleCopy": {
-      "breadthGridIntro": "Yli {deckCount} tehtävää, {exerciseTypeCount} tehtävätyyppiä, {languageCount} kieltä — ja kasvaa."
-    },
     "hero": {
       "title": "Luo upeita työarkkeja muutamassa minuutissa",
       "subtitle": "33 ammattimaista printable-generaattoria Etsy-myyjille, KDP-julkaisijoille ja yrittäjille. Kaupallinen lisenssi sisältyy.",

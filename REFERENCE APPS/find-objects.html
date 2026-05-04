@@ -2876,7 +2876,7 @@ function updateTranslations() {
                 // JPEG/interactive exports all carry the footer.
                 worksheetCanvas.getObjects().filter(o => o.isAttribution).forEach(o => worksheetCanvas.remove(o));
                 if (window.LCSAttribution && LCSAttribution.addToCanvas) {
-                    LCSAttribution.addToCanvas(worksheetCanvas, { currentCanvasConfig: { width: worksheetCanvas.getWidth(), height: worksheetCanvas.getHeight() } });
+                    LCSAttribution.addToCanvas(worksheetCanvas, { currentCanvasConfig: currentCanvasConfig });
                 }
                 worksheetCanvas.renderAll();
 
@@ -3046,7 +3046,7 @@ function updateTranslations() {
             // v30.0 — bake LCSAttribution onto the answer-key canvas as well.
             answerKeyCanvas.getObjects().filter(o => o.isAttribution).forEach(o => answerKeyCanvas.remove(o));
             if (window.LCSAttribution && LCSAttribution.addToCanvas) {
-                LCSAttribution.addToCanvas(answerKeyCanvas, { currentCanvasConfig: { width: answerKeyCanvas.getWidth(), height: answerKeyCanvas.getHeight() } });
+                LCSAttribution.addToCanvas(answerKeyCanvas, { currentCanvasConfig: currentCanvasConfig });
             }
 
             answerKeyCanvas.renderAll();

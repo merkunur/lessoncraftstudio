@@ -5359,7 +5359,7 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf', opts) {
             capture('grayscaleToggle', 'grayscale');
             return {
                 settings: settings,
-                theme: null,
+                theme: (ui.themeSelect && ui.themeSelect.value && ui.themeSelect.value !== 'all') ? ui.themeSelect.value : null,
                 images_used: imagesUsed,
                 vocabulary: [],
                 exercises: Array.isArray(pd.puzzles) ? pd.puzzles : [pd]

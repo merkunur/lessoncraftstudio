@@ -1000,7 +1000,7 @@
           "sv": "4 juli",
           "da": "4. juli",
           "no": "4. juli",
-          "fi": "Heinakuun 4."
+          "fi": "Heinäkuun 4."
         }
       },
       "accessories": {
@@ -1024,10 +1024,10 @@
           "nl": "Accessoires",
           "it": "Accessori",
           "fr": "Accessoires",
-          "pt": "Acessorios",
-          "sv": "Tillbehor",
-          "da": "Tilbehor",
-          "no": "Tilbehor",
+          "pt": "Acessórios",
+          "sv": "Tillbehör",
+          "da": "Tilbehør",
+          "no": "Tilbehør",
           "fi": "Asusteet"
         }
       },
@@ -1047,11 +1047,11 @@
         },
         "name": {
           "en": "Activities",
-          "de": "Aktivitaten",
+          "de": "Aktivitäten",
           "es": "Actividades",
           "nl": "Activiteiten",
-          "it": "Attivita",
-          "fr": "Activites",
+          "it": "Attività",
+          "fr": "Activités",
           "pt": "Atividades",
           "sv": "Aktiviteter",
           "da": "Aktiviteter",
@@ -2400,7 +2400,7 @@
           "sv": "Djur SV",
           "da": "Dyr SH",
           "no": "Dyr SH",
-          "fi": "Elaimet MV"
+          "fi": "Eläimet MV"
         }
       },
       "animals_bw_2": {
@@ -2428,7 +2428,7 @@
           "sv": "Djur SV 2",
           "da": "Dyr SH 2",
           "no": "Dyr SH 2",
-          "fi": "Elaimet MV 2"
+          "fi": "Eläimet MV 2"
         }
       },
       "animals_bw_3": {
@@ -2456,7 +2456,7 @@
           "sv": "Djur SV 3",
           "da": "Dyr SH 3",
           "no": "Dyr SH 3",
-          "fi": "Elaimet MV 3"
+          "fi": "Eläimet MV 3"
         }
       },
       "animals_bw_4": {
@@ -2484,7 +2484,7 @@
           "sv": "Djur SV 4",
           "da": "Dyr SH 4",
           "no": "Dyr SH 4",
-          "fi": "Elaimet MV 4"
+          "fi": "Eläimet MV 4"
         }
       },
       "animals_bw_5": {
@@ -2512,7 +2512,7 @@
           "sv": "Djur SV 5",
           "da": "Dyr SH 5",
           "no": "Dyr SH 5",
-          "fi": "Elaimet MV 5"
+          "fi": "Eläimet MV 5"
         }
       },
       "apparel_bw": {
@@ -2535,11 +2535,11 @@
           "es": "Ropa BN",
           "nl": "Kleding ZW",
           "it": "Abbigliamento BN",
-          "fr": "Vetements NB",
-          "pt": "Vestuario PB",
-          "sv": "Klader SV",
-          "da": "Toj SH",
-          "no": "Klaer SH",
+          "fr": "Vêtements NB",
+          "pt": "Vestuário PB",
+          "sv": "Kläder SV",
+          "da": "Tøj SH",
+          "no": "Klær SH",
           "fi": "Vaatteet MV"
         }
       },

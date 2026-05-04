@@ -46,6 +46,9 @@
       "closeFeatured": "Cerrar",
       "loadingDeck": "Cargando deck…"
     },
+    "scaleCopy": {
+      "breadthGridIntro": "Más de {deckCount} hojas de trabajo en {exerciseTypeCount} tipos de ejercicio y {languageCount} idiomas — y creciendo."
+    },
     "languageProof": {
       "sectionTitle": "Lo que la traducción automática se equivoca — y lo que nosotros acertamos.",
       "intro": "La mayoría de los sitios de hojas de trabajo traducen contenido en inglés con un motor genérico y publican el resultado. Los artículos quedan mal. Los plurales colapsan. Las tildes desaparecen. Los niños aprenden los errores. Nosotros tratamos cada una de nuestras 11 lenguas como su propio catálogo — no como una traducción del inglés — con vocabulario curado por personas que enseñan en esa lengua.",
@@ -816,7 +819,20 @@
       "playLink": "Jugar en línea",
       "pdfLink": "Imprimir PDF"
     },
-    "emptyState": "Aún no hay hojas de trabajo en este tema — vuelva a consultarnos pronto."
+    "emptyState": "Aún no hay hojas de trabajo en este tema — vuelva a consultarnos pronto.",
+    "variety": {
+      "sameAxisKeyOtherLocales": "{topic} en otros idiomas",
+      "relatedTopics": {
+        "exerciseType": "Otros tipos de ejercicio",
+        "theme": "Otros temas",
+        "educationalLevel": "Otras edades"
+      },
+      "otherAges": "{topic} para otras edades",
+      "catalogHighlights": "Más del catálogo",
+      "aria": {
+        "languageBadge": "Idioma: {label}"
+      }
+    }
   },
   "workspace": {
     "metadata": {

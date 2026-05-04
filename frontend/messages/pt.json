@@ -25,6 +25,9 @@
     "pricing": "Precos"
   },
   "homepage": {
+    "scaleCopy": {
+      "breadthGridIntro": "Mais de {deckCount} atividades em {exerciseTypeCount} tipos de exercício e {languageCount} idiomas — e crescendo."
+    },
     "hero": {
       "title": "Crie fichas de trabalho incríveis em minutos",
       "subtitle": "33 geradores profissionais de imprimíveis para vendedores Etsy, editores KDP e empreendedores. Licença comercial incluída.",
@@ -1053,6 +1056,19 @@
       "playLink": "Jogar online",
       "pdfLink": "Imprimir PDF"
     },
-    "emptyState": "Nenhuma atividade neste tópico — volte em breve."
+    "emptyState": "Nenhuma atividade neste tópico — volte em breve.",
+    "variety": {
+      "sameAxisKeyOtherLocales": "{topic} em outros idiomas",
+      "relatedTopics": {
+        "exerciseType": "Outros tipos de exercício",
+        "theme": "Outros temas",
+        "educationalLevel": "Outras idades"
+      },
+      "otherAges": "{topic} para outras idades",
+      "catalogHighlights": "Mais do catálogo",
+      "aria": {
+        "languageBadge": "Idioma: {label}"
+      }
+    }
   }
 }

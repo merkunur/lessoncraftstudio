@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import featuredDecksConfig from '@/config/homepage-featured-decks.json';
+import { fetchCatalogScaleNumbers } from '@/lib/topic-variety';
 import FeaturedDeckTile from './FeaturedDeckTile';
 
 // Section 2 — Breadth grid per HOMEPAGE-IMPLEMENTATION-PROMPT.md §5.2 + §6.3.
@@ -12,6 +13,11 @@ import FeaturedDeckTile from './FeaturedDeckTile';
 //
 // Non-featured tiles use plain <a>, not Next.js Link, per CLAUDE.md §15.7
 // routing-contract convention (deck URL is nginx-served, not a Next.js route).
+//
+// Catalog variety Arc 1 — scale-copy block above the grid. Server-fetched
+// honest numbers from current Deck inventory per CLAUDE.md §16.6 honesty
+// (no hardcoded aspirational figures). Self-skips when fetchCatalogScaleNumbers
+// returns zeros (build-time DB unreachability fallback).
 
 interface DeckEntry {
   slug: string;
@@ -27,11 +33,15 @@ interface DeckEntry {
 
 export default async function BreadthGrid({ locale }: { locale: string }) {
   const t = await getTranslations({ locale, namespace: 'homepage.breadthGrid' });
+  const tScale = await getTranslations({ locale, namespace: 'homepage.scaleCopy' });
 
   // Filter out the JSON's underscore-prefixed metadata fields.
   const decks: DeckEntry[] = (featuredDecksConfig.decks || []).filter(
     (d): d is DeckEntry => typeof d === 'object' && d !== null && 'slug' in d
   );
+
+  const scale = await fetchCatalogScaleNumbers();
+  const showScaleCopy = scale.deckCount > 0 && scale.exerciseTypeCount > 0 && scale.languageCount > 0;
 
   return (
     <section id="breadth" className="container mx-auto px-4 max-w-6xl py-20 md:py-28">
@@ -42,6 +52,15 @@ export default async function BreadthGrid({ locale }: { locale: string }) {
         <p className="mt-6 text-lg text-ink-600 leading-relaxed">
           {t('intro')}
         </p>
+        {showScaleCopy && (
+          <p className="mt-4 text-base text-ink-500 leading-relaxed">
+            {tScale('breadthGridIntro', {
+              deckCount: scale.deckCount,
+              exerciseTypeCount: scale.exerciseTypeCount,
+              languageCount: scale.languageCount,
+            })}
+          </p>
+        )}
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

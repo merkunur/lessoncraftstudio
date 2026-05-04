@@ -11,6 +11,7 @@ import {
 } from '@/lib/taxonomy';
 import { fetchDecksForAxis, listNonEmptyAxisKeys, TopicDeckSummary } from '@/lib/topic-decks';
 import { fetchLessonPlanSummaryForTopic } from '@/lib/lesson-plans';
+import VarietyStrip from '@/components/catalog/VarietyStrip';
 import DeckGridClient, { TopicDeckCardData } from './DeckGridClient';
 
 // Tier 1 launch locales per CLAUDE.md §19. Tier 2-4 fold in later; topic
@@ -287,6 +288,42 @@ export default async function TopicPage({ params }: { params: TopicParams }) {
             playLink: t('deckCard.playLink'),
             pdfLink: t('deckCard.pdfLink'),
           }}
+        />
+
+        {/* Catalog variety Arc 1 — below-the-fold variety strips per
+            CLAUDE.md §1 path-2 commitment + §16.2 + §16.6. Each strip
+            self-skips at cardinality < 2 (component-internal); empty
+            strips render nothing. Strip 3 (other-ages) only renders on
+            theme + exercise-type pages — caller-side guard. */}
+        <VarietyStrip
+          kind="same-axis-key-other-locales"
+          axis={axis}
+          axisKey={axisKey}
+          currentLocale={locale}
+          topicName={topicName}
+        />
+        <VarietyStrip
+          kind="related-topics"
+          axis={axis}
+          axisKey={axisKey}
+          currentLocale={locale}
+          topicName={topicName}
+        />
+        {axis !== 'educational-level' && (
+          <VarietyStrip
+            kind="other-ages"
+            axis={axis}
+            axisKey={axisKey}
+            currentLocale={locale}
+            topicName={topicName}
+          />
+        )}
+        <VarietyStrip
+          kind="catalog-highlights"
+          axis={axis}
+          axisKey={axisKey}
+          currentLocale={locale}
+          topicName={topicName}
         />
       </main>
     </>

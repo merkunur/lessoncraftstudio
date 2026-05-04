@@ -25,6 +25,9 @@
     "pricing": "Priser"
   },
   "homepage": {
+    "scaleCopy": {
+      "breadthGridIntro": "Över {deckCount} arbetsblad i {exerciseTypeCount} övningstyper och {languageCount} språk — och växer."
+    },
     "hero": {
       "title": "Skapa fantastiska arbetsblad på några minuter",
       "subtitle": "33 professionella printable-generatorer för Etsy-säljare, KDP-utgivare och företagare. Kommersiell licens ingår.",
@@ -1043,6 +1046,19 @@
       "playLink": "Spela online",
       "pdfLink": "Skriv ut PDF"
     },
-    "emptyState": "Inga arbetsblad för detta ämne ännu — kom tillbaka snart."
+    "emptyState": "Inga arbetsblad för detta ämne ännu — kom tillbaka snart.",
+    "variety": {
+      "sameAxisKeyOtherLocales": "{topic} på andra språk",
+      "relatedTopics": {
+        "exerciseType": "Andra övningstyper",
+        "theme": "Andra teman",
+        "educationalLevel": "Andra åldrar"
+      },
+      "otherAges": "{topic} för andra åldrar",
+      "catalogHighlights": "Mer från katalogen",
+      "aria": {
+        "languageBadge": "Språk: {label}"
+      }
+    }
   }
 }

@@ -46,6 +46,9 @@
       "closeFeatured": "Sluiten",
       "loadingDeck": "Deck wordt geladen…"
     },
+    "scaleCopy": {
+      "breadthGridIntro": "Meer dan {deckCount} werkbladen in {exerciseTypeCount} oefentypen en {languageCount} talen — en groeiend."
+    },
     "languageProof": {
       "sectionTitle": "Wat automatische vertaling fout doet — en wat wij goed doen.",
       "intro": "De meeste werkblad-sites vertalen Engelse inhoud met een generieke machine en publiceren het resultaat. Lidwoorden kloppen niet. Meervoudsvormen vallen om. Accenten verdwijnen. Kinderen leren de fouten mee. Wij behandelen elk van onze 11 talen als een eigen catalogus — geen vertaling van het Engels — met een woordenschat die wordt samengesteld door mensen die werkelijk in die taal lesgeven.",
@@ -803,7 +806,20 @@
       "playLink": "Online spelen",
       "pdfLink": "PDF afdrukken"
     },
-    "emptyState": "Nog geen werkbladen in dit onderwerp — kom binnenkort terug."
+    "emptyState": "Nog geen werkbladen in dit onderwerp — kom binnenkort terug.",
+    "variety": {
+      "sameAxisKeyOtherLocales": "{topic} in andere talen",
+      "relatedTopics": {
+        "exerciseType": "Andere oefentypen",
+        "theme": "Andere thema's",
+        "educationalLevel": "Andere leeftijden"
+      },
+      "otherAges": "{topic} voor andere leeftijden",
+      "catalogHighlights": "Meer uit de catalogus",
+      "aria": {
+        "languageBadge": "Taal: {label}"
+      }
+    }
   },
   "workspace": {
     "metadata": {

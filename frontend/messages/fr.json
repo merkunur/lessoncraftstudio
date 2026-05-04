@@ -25,6 +25,9 @@
     "pricing": "Tarifs"
   },
   "homepage": {
+    "scaleCopy": {
+      "breadthGridIntro": "Plus de {deckCount} fiches dans {exerciseTypeCount} types d'exercice et {languageCount} langues — et en croissance."
+    },
     "hero": {
       "title": "Créez des fiches d'exercices captivantes en quelques minutes",
       "subtitle": "33 générateurs de fiches professionnelles pour vendeurs Etsy, éditeurs KDP et entrepreneurs du printable. Licence commerciale incluse.",
@@ -1063,6 +1066,19 @@
       "playLink": "Jouer en ligne",
       "pdfLink": "Imprimer le PDF"
     },
-    "emptyState": "Aucune fiche pour ce sujet — revenez bientôt."
+    "emptyState": "Aucune fiche pour ce sujet — revenez bientôt.",
+    "variety": {
+      "sameAxisKeyOtherLocales": "{topic} dans d'autres langues",
+      "relatedTopics": {
+        "exerciseType": "Autres types d'exercice",
+        "theme": "Autres thèmes",
+        "educationalLevel": "Autres âges"
+      },
+      "otherAges": "{topic} pour d'autres âges",
+      "catalogHighlights": "Plus du catalogue",
+      "aria": {
+        "languageBadge": "Langue : {label}"
+      }
+    }
   }
 }

@@ -25,6 +25,9 @@
     "pricing": "Priser"
   },
   "homepage": {
+    "scaleCopy": {
+      "breadthGridIntro": "Over {deckCount} arbeidsark i {exerciseTypeCount} øvelsestyper og {languageCount} språk — og vokser."
+    },
     "hero": {
       "title": "Lag fantastiske arbeidsark på få minutter",
       "subtitle": "33 profesjonelle printable-generatorer for Etsy-selgere, KDP-utgivere og gründere. Kommersiell lisens inkludert.",
@@ -1047,6 +1050,19 @@
       "playLink": "Spill online",
       "pdfLink": "Skriv ut PDF"
     },
-    "emptyState": "Ingen arbeidsark for dette emnet ennå — kom snart tilbake."
+    "emptyState": "Ingen arbeidsark for dette emnet ennå — kom snart tilbake.",
+    "variety": {
+      "sameAxisKeyOtherLocales": "{topic} på andre språk",
+      "relatedTopics": {
+        "exerciseType": "Andre øvelsestyper",
+        "theme": "Andre temaer",
+        "educationalLevel": "Andre aldre"
+      },
+      "otherAges": "{topic} for andre aldre",
+      "catalogHighlights": "Mer fra katalogen",
+      "aria": {
+        "languageBadge": "Språk: {label}"
+      }
+    }
   }
 }

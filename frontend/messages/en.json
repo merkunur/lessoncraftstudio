@@ -47,6 +47,9 @@
       "closeFeatured": "Close",
       "loadingDeck": "Loading deck…"
     },
+    "scaleCopy": {
+      "breadthGridIntro": "{deckCount}+ decks across {exerciseTypeCount} exercise types in {languageCount} languages — and growing."
+    },
     "languageProof": {
       "sectionTitle": "What auto-translation gets wrong, and what we get right.",
       "intro": "Most worksheet sites translate English content with a generic engine and ship the result. Articles end up wrong. Plurals collapse. Accents go missing. Children learn the mistakes. We treat each of our 11 languages as its own catalog — not a translation of English — with vocabulary curated by people who actually teach in that language.",
@@ -856,7 +859,20 @@
       "playLink": "Play online",
       "pdfLink": "Print PDF"
     },
-    "emptyState": "No worksheets in this topic yet — check back soon."
+    "emptyState": "No worksheets in this topic yet — check back soon.",
+    "variety": {
+      "sameAxisKeyOtherLocales": "{topic} in other languages",
+      "relatedTopics": {
+        "exerciseType": "Other exercise types",
+        "theme": "Other themes",
+        "educationalLevel": "Other ages"
+      },
+      "otherAges": "{topic} for other ages",
+      "catalogHighlights": "More from the catalog",
+      "aria": {
+        "languageBadge": "Language: {label}"
+      }
+    }
   },
   "workspace": {
     "metadata": {

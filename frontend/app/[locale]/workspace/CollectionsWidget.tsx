@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
+import ModalPortal from '@/components/ui/ModalPortal';
 
 export interface CollectionSummary {
   id: string;
@@ -132,14 +133,15 @@ export default function CollectionsWidget({
       )}
 
       {createOpen && (
+        <ModalPortal>
         <div
-          className="fixed inset-0 z-[100] flex items-center justify-center bg-ink-900/60 p-4"
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-ink-900/60 p-4 overflow-y-auto"
           onClick={() => !createSubmitting && setCreateOpen(false)}
         >
           <form
             onSubmit={handleCreate}
             onClick={e => e.stopPropagation()}
-            className="bg-cream-50 rounded-lg p-6 w-full max-w-md shadow-xl"
+            className="bg-cream-50 rounded-lg p-6 w-full max-w-md shadow-xl max-h-[90vh] overflow-y-auto"
           >
             <h2 className="font-display text-xl font-semibold text-ink-900 mb-4">
               {tCreate('title')}
@@ -190,6 +192,7 @@ export default function CollectionsWidget({
             </div>
           </form>
         </div>
+        </ModalPortal>
       )}
     </section>
   );

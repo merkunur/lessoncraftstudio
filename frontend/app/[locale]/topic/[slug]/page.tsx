@@ -286,16 +286,20 @@ function parseSearchParams(
   if (type) sp.set('type', type);
   const canonicalUrl = buildFilterUrl(basePath, sp);
 
-  // Compare canonical URL against current URL — if different, redirect
-  const currentSp = new URLSearchParams();
-  if (sortRaw !== undefined) currentSp.set('sort', sortRaw);
-  if (pageRaw !== undefined) currentSp.set('page', pageRaw);
-  if (level !== undefined) currentSp.set('level', level);
-  if (theme !== undefined) currentSp.set('theme', theme);
-  if (type !== undefined) currentSp.set('type', type);
-  const currentUrl = buildFilterUrl(basePath, currentSp);
+  // Detect non-canonical input: default values present in URL, empty
+  // values, or non-alphabetic param order. Compare the raw incoming
+  // searchParams string against the canonical form directly (don't run
+  // currentSp through buildFilterUrl — that would strip defaults from
+  // both sides making them appear equal even when they differ).
+  const rawCurrentSp = new URLSearchParams();
+  for (const [key, value] of Object.entries(searchParams)) {
+    if (typeof value === 'string') rawCurrentSp.set(key, value);
+  }
+  const rawCurrentUrl = rawCurrentSp.toString()
+    ? `${basePath}?${rawCurrentSp.toString()}`
+    : basePath;
 
-  const canonicalRedirect = currentUrl !== canonicalUrl ? canonicalUrl : null;
+  const canonicalRedirect = rawCurrentUrl !== canonicalUrl ? canonicalUrl : null;
 
   return {
     parsed: { sort, page: pageNum, level, theme, type },

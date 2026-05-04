@@ -86,15 +86,16 @@ function parseSearchParams(
   if (type) sp.set('type', type);
   const canonicalUrl = buildFilterUrl(basePath, sp);
 
-  const currentSp = new URLSearchParams();
-  if (sortRaw !== undefined) currentSp.set('sort', sortRaw);
-  if (pageRaw !== undefined) currentSp.set('page', pageRaw);
-  if (level !== undefined) currentSp.set('level', level);
-  if (theme !== undefined) currentSp.set('theme', theme);
-  if (type !== undefined) currentSp.set('type', type);
-  const currentUrl = buildFilterUrl(basePath, currentSp);
+  // Detect non-canonical input — see [slug]/page.tsx for rationale.
+  const rawCurrentSp = new URLSearchParams();
+  for (const [key, value] of Object.entries(searchParams)) {
+    if (typeof value === 'string') rawCurrentSp.set(key, value);
+  }
+  const rawCurrentUrl = rawCurrentSp.toString()
+    ? `${basePath}?${rawCurrentSp.toString()}`
+    : basePath;
 
-  const canonicalRedirect = currentUrl !== canonicalUrl ? canonicalUrl : null;
+  const canonicalRedirect = rawCurrentUrl !== canonicalUrl ? canonicalUrl : null;
 
   return {
     parsed: { sort, page: pageNum, level, theme, type },

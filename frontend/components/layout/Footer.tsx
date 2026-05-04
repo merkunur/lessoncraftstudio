@@ -23,7 +23,9 @@ const FOOTER_LANGUAGES: Array<{ code: string; label: string; tier: 1 | 2 | 3 | 4
   { code: 'fr', label: 'Français', tier: 4 },
   { code: 'it', label: 'Italiano', tier: 4 },
   { code: 'pt', label: 'Português', tier: 4 },
-  // Tier 3 (no, fi) and Tier 4 (none remaining) — added at their respective first-deck-publish events
+  // Tier 3 (no, fi) added at the no-fi Track C wave: fi at full-app-set first publish; no at first pattern-worksheet publish (no's only deck so far).
+  { code: 'fi', label: 'Suomi', tier: 3 },
+  { code: 'no', label: 'Norsk', tier: 3 },
 ];
 
 // "By topic" + "By exercise type" columns per HOMEPAGE-IMPLEMENTATION-PROMPT.md §5.6:
@@ -109,9 +111,23 @@ const FOOTER_TOPICS_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: '1-klasse', label: '1. klasse' },
     { slug: '2-klasse', label: '2. klasse' },
   ],
-  // Norwegian + Finnish Track A registered; entries land at their first-deck-publish events
-  no: [],
-  fi: [],
+  // Finnish first-deck-publish at no-fi Track C wave: full app set landed (29 decks; 13 animals
+  // + 16 themeless across 4 educational-levels). Footer entries match the en+de+es+nl pattern.
+  fi: [
+    { slug: 'elaimet', label: 'Eläimet' },
+    { slug: 'varhaiskasvatus', label: 'Varhaiskasvatus' },
+    { slug: 'esiopetus', label: 'Esiopetus' },
+    { slug: '1-luokka', label: '1. luokka' },
+    { slug: '2-luokka', label: '2. luokka' },
+  ],
+  // Norwegian first-deck-publish at no-fi Track C wave: ONE deck only (pattern-worksheet,
+  // themeless, age-range 6-8 → grade-1 axis). Operator-side gap surfaced: no animals were
+  // generated for `no` despite commission framing including no in Wave A. Footer entries
+  // reflect what's actually browseable — `1-trinn` only; no animals theme entry until
+  // `no` animals are published in a follow-up wave.
+  no: [
+    { slug: '1-trinn', label: '1. trinn' },
+  ],
 };
 
 const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
@@ -262,6 +278,7 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'plus-ou-moins', label: 'plus ou moins' },
     { slug: 'l-intrus', label: 'l\'intrus' },
     { slug: 'train-de-modeles', label: 'train de modèles' },
+    { slug: 'fiche-de-modeles', label: 'fiche de modèles' },
     { slug: 'parcours-illustre', label: 'parcours illustré' },
     { slug: 'trier-les-images', label: 'trier les images' },
     { slug: 'prepositions', label: 'prépositions' },
@@ -292,6 +309,7 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'piu-o-meno', label: 'più o meno' },
     { slug: 'l-intruso', label: 'l\'intruso' },
     { slug: 'treno-dei-modelli', label: 'treno dei modelli' },
+    { slug: 'scheda-di-modelli', label: 'scheda di modelli' },
     { slug: 'percorso-illustrato', label: 'percorso illustrato' },
     { slug: 'ordina-immagini', label: 'ordina le immagini' },
     { slug: 'preposizioni', label: 'preposizioni' },
@@ -322,6 +340,7 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'mais-ou-menos', label: 'mais ou menos' },
     { slug: 'qual-e-diferente', label: 'qual é diferente' },
     { slug: 'trem-de-padroes', label: 'trem de padrões' },
+    { slug: 'atividade-de-padroes', label: 'atividade de padrões' },
     { slug: 'caminho-ilustrado', label: 'caminho ilustrado' },
     { slug: 'ordenar-imagens', label: 'ordenar imagens' },
     { slug: 'preposicoes', label: 'preposições' },
@@ -352,6 +371,7 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'mer-mindre', label: 'mer eller mindre' },
     { slug: 'vilken-passar-inte', label: 'vilken passar inte' },
     { slug: 'monstertaget', label: 'mönstertåget' },
+    { slug: 'monsterblad', label: 'mönsterblad' },
     { slug: 'bildvag', label: 'bildväg' },
     { slug: 'sortera-bilder', label: 'sortera bilder' },
     { slug: 'prepositioner', label: 'prepositioner' },
@@ -382,6 +402,7 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'mere-mindre', label: 'mere eller mindre' },
     { slug: 'hvilken-passer-ikke', label: 'hvilken passer ikke' },
     { slug: 'monstertoget', label: 'mønstertoget' },
+    { slug: 'monsterark', label: 'mønsterark' },
     { slug: 'billedvej', label: 'billedvej' },
     { slug: 'sorter-billeder', label: 'sortér billeder' },
     { slug: 'praepositioner', label: 'præpositioner' },
@@ -393,8 +414,47 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'bogstavpuslespil', label: 'bogstavpuslespil' },
     { slug: 'ordsoegning', label: 'ordsøgning' },
   ],
-  no: [],
-  fi: [],
+  // Finnish full app coverage at no-fi Track C wave (29 decks across all 29 §14.10 apps
+  // including pattern-worksheet, which is published themeless per the post-6d49115b
+  // generator's "all themes" → null-theme behavior). Slugs and labels sourced verbatim
+  // from frontend/config/topics-taxonomy.json axes.exercise-type.<axis-key>.slug.fi /
+  // .name.fi to keep Footer entries in lockstep with topic-page routing.
+  fi: [
+    { slug: 'yhteenlasku', label: 'yhteenlasku' },
+    { slug: 'aakkosjuna', label: 'aakkosjuna' },
+    { slug: 'iso-pieni', label: 'iso vai pieni' },
+    { slug: 'bingo', label: 'bingo' },
+    { slug: 'laske-kaaviossa', label: 'laske kaaviossa' },
+    { slug: 'koodattu-yhteenlasku', label: 'koodattu yhteenlasku' },
+    { slug: 'ristikko', label: 'ristikko' },
+    { slug: 'kryptogrammi', label: 'kryptogrammi' },
+    { slug: 'etsi-ja-laske', label: 'etsi ja laske' },
+    { slug: 'etsi-esineet', label: 'etsi esineet' },
+    { slug: 'ruudukkoyhdistys', label: 'ruudukkoyhdistys' },
+    { slug: 'yhdistaminen', label: 'yhdistäminen' },
+    { slug: 'matematiikkapulma', label: 'matematiikkapulma' },
+    { slug: 'matematiikkatehtava', label: 'matematiikkatehtävä' },
+    { slug: 'puuttuvat-palat', label: 'puuttuvat palat' },
+    { slug: 'enemman-vahemman', label: 'enemmän vai vähemmän' },
+    { slug: 'mika-ei-kuulu', label: 'mikä ei kuulu joukkoon' },
+    { slug: 'kuviojuna', label: 'kuviojuna' },
+    { slug: 'kuviotehtava', label: 'kuviotehtävä' },
+    { slug: 'kuvapolku', label: 'kuvapolku' },
+    { slug: 'lajittele-kuvat', label: 'lajittele kuvat' },
+    { slug: 'prepositiot', label: 'prepositiot' },
+    { slug: 'yhdista-varjot', label: 'yhdistä varjot' },
+    { slug: 'vahennyslasku', label: 'vähennyslasku' },
+    { slug: 'kuvasudoku', label: 'kuvasudoku' },
+    { slug: 'aarteenetsinta', label: 'aarteenetsintä' },
+    { slug: 'arvaa-sana', label: 'arvaa sana' },
+    { slug: 'kirjainsekoitus', label: 'kirjainsekoitus' },
+    { slug: 'sanahaku', label: 'sanahaku' },
+  ],
+  // Norwegian first-deck-publish at no-fi Track C wave: ONE deck only (pattern-worksheet);
+  // no animals or other apps generated. Footer reflects what's actually browseable.
+  no: [
+    { slug: 'monsterark', label: 'mønsterark' },
+  ],
 };
 
 export function Footer() {

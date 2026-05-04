@@ -17,8 +17,13 @@ const FOOTER_LANGUAGES: Array<{ code: string; label: string; tier: 1 | 2 | 3 | 4
   { code: 'de', label: 'German', tier: 1 },
   { code: 'es', label: 'Español', tier: 2 },  // Track C Batch 1 (matching cluster × es); first es deck publish — Tier 2 first-row event
   { code: 'nl', label: 'Nederlands', tier: 2 },  // Track C Batch 1 (matching cluster × nl); first nl deck publish — Tier 2 second-row event
-  // Tier 3 (Swedish, Finnish, Norwegian) — added when Tier 3 launches
-  // Tier 4 (French, Italian, Danish, Portuguese) — added when Tier 4 launches
+  // Tier 3 + Tier 4 added at the Track C animals-theme publish wave (this commission); 5 locales × 28 decks each landed.
+  { code: 'sv', label: 'Svenska', tier: 3 },
+  { code: 'da', label: 'Dansk', tier: 4 },
+  { code: 'fr', label: 'Français', tier: 4 },
+  { code: 'it', label: 'Italiano', tier: 4 },
+  { code: 'pt', label: 'Português', tier: 4 },
+  // Tier 3 (no, fi) and Tier 4 (none remaining) — added at their respective first-deck-publish events
 ];
 
 // "By topic" + "By exercise type" columns per HOMEPAGE-IMPLEMENTATION-PROMPT.md §5.6:
@@ -65,20 +70,46 @@ const FOOTER_TOPICS_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'groep-3', label: 'groep 3' },
     { slug: 'groep-4', label: 'groep 4' },
   ],
-  // Italian Track A registered; entries land at first it deck publish per
-  // §16.6 honesty discipline + ES+NL precedent.
-  it: [],
-  // French Track A registered; entries land at first fr deck publish per
-  // §16.6 honesty discipline + ES+NL+IT precedent.
-  fr: [],
-  // Portuguese Track A registered (BR canonical); entries land at first pt
-  // deck publish per §16.6 honesty discipline + ES+NL+IT+FR precedent.
-  pt: [],
-  // Nordic group Track A registered; entries land at first deck publish per
-  // locale per §16.6 honesty discipline + established precedent. NSR-flagged
-  // per §17.5 for chrome-translation native-speaker review.
-  sv: [],
-  da: [],
+  // Track C animals-theme publish wave — fr/it/pt/sv/da × 28 decks each landed.
+  // Topic axis-keys: animals (theme) + 4 educational-levels (preschool / kindergarten /
+  // grade-1 / grade-2; age-ranges 3-5 / 5-7 / 6-8 / 7-9 per §17.8.6 mapping). Slugs
+  // and labels sourced from frontend/config/topics-taxonomy.json axes.theme + axes.educational-level.
+  fr: [
+    { slug: 'animaux', label: 'Animaux' },
+    { slug: 'ecole-maternelle-petite-moyenne-section-3-5-ans', label: 'École maternelle (petite/moyenne section, 3-5 ans)' },
+    { slug: 'ecole-maternelle-grande-section-5-7-ans', label: 'École maternelle (grande section, 5-7 ans)' },
+    { slug: 'cp-cours-preparatoire', label: 'CP (cours préparatoire)' },
+    { slug: 'ce1-cours-elementaire-1', label: 'CE1 (cours élémentaire 1)' },
+  ],
+  it: [
+    { slug: 'animali', label: 'Animali' },
+    { slug: 'scuola-dell-infanzia-3-5-anni', label: 'Scuola dell\'infanzia (3-5 anni)' },
+    { slug: 'scuola-dell-infanzia-5-7-anni', label: 'Scuola dell\'infanzia (5-7 anni)' },
+    { slug: 'scuola-primaria-classe-prima', label: 'Scuola primaria classe prima' },
+    { slug: 'scuola-primaria-classe-seconda', label: 'Scuola primaria classe seconda' },
+  ],
+  pt: [
+    { slug: 'animais', label: 'Animais' },
+    { slug: 'educacao-infantil-creche-3-5-anos', label: 'Educação infantil (creche, 3-5 anos)' },
+    { slug: 'educacao-infantil-pre-escola-5-7-anos', label: 'Educação infantil (pré-escola, 5-7 anos)' },
+    { slug: '1-ano-fundamental', label: '1º ano do ensino fundamental' },
+    { slug: '2-ano-fundamental', label: '2º ano do ensino fundamental' },
+  ],
+  sv: [
+    { slug: 'djur', label: 'Djur' },
+    { slug: 'forskola', label: 'Förskola' },
+    { slug: 'forskoleklass', label: 'Förskoleklass' },
+    { slug: 'arskurs-1', label: 'Årskurs 1' },
+    { slug: 'arskurs-2', label: 'Årskurs 2' },
+  ],
+  da: [
+    { slug: 'dyr', label: 'Dyr' },
+    { slug: 'bornehave', label: 'Børnehave' },
+    { slug: 'bornehaveklasse', label: 'Børnehaveklasse' },
+    { slug: '1-klasse', label: '1. klasse' },
+    { slug: '2-klasse', label: '2. klasse' },
+  ],
+  // Norwegian + Finnish Track A registered; entries land at their first-deck-publish events
   no: [],
   fi: [],
 };
@@ -208,19 +239,160 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'foto-sudoku', label: 'foto-sudoku' },
     { slug: 'woordpuzzel', label: 'woordpuzzel' },
   ],
-  // Italian Track A registered; entries land at first it deck publish per
-  // §16.6 honesty discipline + ES+NL precedent.
-  it: [],
-  // French Track A registered; entries land at first fr deck publish per
-  // §16.6 honesty discipline + ES+NL+IT precedent.
-  fr: [],
-  // Portuguese Track A registered (BR canonical); entries land at first pt
-  // deck publish per §16.6 honesty discipline + ES+NL+IT+FR precedent.
-  pt: [],
-  // Nordic group Track A registered; entries land at first deck publish per
-  // locale per §16.6 honesty discipline + established precedent.
-  sv: [],
-  da: [],
+  // Track C animals-theme publish wave — fr/it/pt/sv/da × 28 decks each landed.
+  // 28 exercise-types per locale (§14.10 canonical 29 minus pattern-worksheet, which
+  // carries a generator-side defect at this wave: theme-field leaks operator User.id;
+  // pattern-worksheet excluded uniformly across all 5 locales pending generator fix).
+  fr: [
+    { slug: 'addition', label: 'addition' },
+    { slug: 'train-de-l-alphabet', label: 'train de l\'alphabet' },
+    { slug: 'grand-petit', label: 'grand ou petit' },
+    { slug: 'loto', label: 'loto' },
+    { slug: 'comptage-graphique', label: 'comptage graphique' },
+    { slug: 'addition-codee', label: 'addition codée' },
+    { slug: 'mots-croises', label: 'mots croisés' },
+    { slug: 'cryptogramme', label: 'cryptogramme' },
+    { slug: 'trouve-et-compte', label: 'trouve et compte' },
+    { slug: 'trouve-les-objets', label: 'trouve les objets' },
+    { slug: 'appariement-en-grille', label: 'appariement en grille' },
+    { slug: 'appariement', label: 'appariement' },
+    { slug: 'puzzle-mathematique', label: 'puzzle mathématique' },
+    { slug: 'fiche-de-mathematiques', label: 'fiche de mathématiques' },
+    { slug: 'pieces-manquantes', label: 'pièces manquantes' },
+    { slug: 'plus-ou-moins', label: 'plus ou moins' },
+    { slug: 'l-intrus', label: 'l\'intrus' },
+    { slug: 'train-de-modeles', label: 'train de modèles' },
+    { slug: 'parcours-illustre', label: 'parcours illustré' },
+    { slug: 'trier-les-images', label: 'trier les images' },
+    { slug: 'prepositions', label: 'prépositions' },
+    { slug: 'apparier-les-ombres', label: 'apparier les ombres' },
+    { slug: 'soustraction', label: 'soustraction' },
+    { slug: 'sudoku-illustre', label: 'sudoku illustré' },
+    { slug: 'chasse-au-tresor', label: 'chasse au trésor' },
+    { slug: 'devine-le-mot', label: 'devine le mot' },
+    { slug: 'lettres-melangees', label: 'lettres mélangées' },
+    { slug: 'mots-meles', label: 'mots mêlés' },
+  ],
+  it: [
+    { slug: 'addizione', label: 'addizione' },
+    { slug: 'treno-dell-alfabeto', label: 'treno dell\'alfabeto' },
+    { slug: 'grande-piccolo', label: 'grande o piccolo' },
+    { slug: 'bingo', label: 'bingo' },
+    { slug: 'conteggio-grafico', label: 'conteggio grafico' },
+    { slug: 'addizione-codificata', label: 'addizione codificata' },
+    { slug: 'cruciverba', label: 'cruciverba' },
+    { slug: 'crittogramma', label: 'crittogramma' },
+    { slug: 'trova-e-conta', label: 'trova e conta' },
+    { slug: 'trova-gli-oggetti', label: 'trova gli oggetti' },
+    { slug: 'abbinamento-griglia', label: 'abbinamento in griglia' },
+    { slug: 'abbinamento', label: 'abbinamento' },
+    { slug: 'puzzle-matematico', label: 'puzzle matematico' },
+    { slug: 'scheda-di-matematica', label: 'scheda di matematica' },
+    { slug: 'pezzi-mancanti', label: 'pezzi mancanti' },
+    { slug: 'piu-o-meno', label: 'più o meno' },
+    { slug: 'l-intruso', label: 'l\'intruso' },
+    { slug: 'treno-dei-modelli', label: 'treno dei modelli' },
+    { slug: 'percorso-illustrato', label: 'percorso illustrato' },
+    { slug: 'ordina-immagini', label: 'ordina le immagini' },
+    { slug: 'preposizioni', label: 'preposizioni' },
+    { slug: 'abbina-le-ombre', label: 'abbina le ombre' },
+    { slug: 'sottrazione', label: 'sottrazione' },
+    { slug: 'sudoku-illustrato', label: 'sudoku illustrato' },
+    { slug: 'caccia-al-tesoro', label: 'caccia al tesoro' },
+    { slug: 'indovina-la-parola', label: 'indovina la parola' },
+    { slug: 'anagrammi', label: 'anagrammi' },
+    { slug: 'cerca-parole', label: 'cerca parole' },
+  ],
+  pt: [
+    { slug: 'adicao', label: 'adição' },
+    { slug: 'trem-do-alfabeto', label: 'trem do alfabeto' },
+    { slug: 'grande-pequeno', label: 'grande ou pequeno' },
+    { slug: 'bingo', label: 'bingo' },
+    { slug: 'contagem-em-grafico', label: 'contagem em gráfico' },
+    { slug: 'adicao-com-codigo', label: 'adição com código' },
+    { slug: 'palavras-cruzadas', label: 'palavras cruzadas' },
+    { slug: 'criptograma', label: 'criptograma' },
+    { slug: 'encontre-e-conte', label: 'encontre e conte' },
+    { slug: 'encontre-os-objetos', label: 'encontre os objetos' },
+    { slug: 'pareamento-em-grade', label: 'pareamento em grade' },
+    { slug: 'pareamento', label: 'pareamento' },
+    { slug: 'quebra-cabeca-matematico', label: 'quebra-cabeça matemático' },
+    { slug: 'atividade-de-matematica', label: 'atividade de matemática' },
+    { slug: 'pecas-faltantes', label: 'peças faltantes' },
+    { slug: 'mais-ou-menos', label: 'mais ou menos' },
+    { slug: 'qual-e-diferente', label: 'qual é diferente' },
+    { slug: 'trem-de-padroes', label: 'trem de padrões' },
+    { slug: 'caminho-ilustrado', label: 'caminho ilustrado' },
+    { slug: 'ordenar-imagens', label: 'ordenar imagens' },
+    { slug: 'preposicoes', label: 'preposições' },
+    { slug: 'pareamento-de-sombras', label: 'pareamento de sombras' },
+    { slug: 'subtracao', label: 'subtração' },
+    { slug: 'sudoku-ilustrado', label: 'sudoku ilustrado' },
+    { slug: 'caca-ao-tesouro', label: 'caça ao tesouro' },
+    { slug: 'adivinhe-a-palavra', label: 'adivinhe a palavra' },
+    { slug: 'letras-embaralhadas', label: 'letras embaralhadas' },
+    { slug: 'caca-palavras', label: 'caça-palavras' },
+  ],
+  sv: [
+    { slug: 'addition', label: 'addition' },
+    { slug: 'alfabetstaget', label: 'alfabetståget' },
+    { slug: 'stor-liten', label: 'stor eller liten' },
+    { slug: 'bingo', label: 'bingo' },
+    { slug: 'rakna-i-diagram', label: 'räkna i diagram' },
+    { slug: 'kodaddition', label: 'kodaddition' },
+    { slug: 'korsord', label: 'korsord' },
+    { slug: 'kryptogram', label: 'kryptogram' },
+    { slug: 'hitta-och-rakna', label: 'hitta och räkna' },
+    { slug: 'hitta-foremalen', label: 'hitta föremålen' },
+    { slug: 'rutmatchning', label: 'rutmatchning' },
+    { slug: 'matchning', label: 'matchning' },
+    { slug: 'mattepussel', label: 'mattepussel' },
+    { slug: 'matteblad', label: 'matteblad' },
+    { slug: 'saknade-bitar', label: 'saknade bitar' },
+    { slug: 'mer-mindre', label: 'mer eller mindre' },
+    { slug: 'vilken-passar-inte', label: 'vilken passar inte' },
+    { slug: 'monstertaget', label: 'mönstertåget' },
+    { slug: 'bildvag', label: 'bildväg' },
+    { slug: 'sortera-bilder', label: 'sortera bilder' },
+    { slug: 'prepositioner', label: 'prepositioner' },
+    { slug: 'matcha-skuggor', label: 'matcha skuggor' },
+    { slug: 'subtraktion', label: 'subtraktion' },
+    { slug: 'bildsudoku', label: 'bildsudoku' },
+    { slug: 'skattjakt', label: 'skattjakt' },
+    { slug: 'gissa-ordet', label: 'gissa ordet' },
+    { slug: 'bokstavspussel', label: 'bokstavspussel' },
+    { slug: 'ordleta', label: 'ordleta' },
+  ],
+  da: [
+    { slug: 'addition', label: 'addition' },
+    { slug: 'alfabettoget', label: 'alfabettoget' },
+    { slug: 'stor-lille', label: 'stor eller lille' },
+    { slug: 'bingo', label: 'bingo' },
+    { slug: 'tael-i-diagram', label: 'tæl i diagram' },
+    { slug: 'kodeaddition', label: 'kodeaddition' },
+    { slug: 'krydsord', label: 'krydsord' },
+    { slug: 'kryptogram', label: 'kryptogram' },
+    { slug: 'find-og-tael', label: 'find og tæl' },
+    { slug: 'find-genstandene', label: 'find genstandene' },
+    { slug: 'gittermatch', label: 'gittermatch' },
+    { slug: 'matchning', label: 'matchning' },
+    { slug: 'matematikpuslespil', label: 'matematikpuslespil' },
+    { slug: 'matematikark', label: 'matematikark' },
+    { slug: 'manglende-brikker', label: 'manglende brikker' },
+    { slug: 'mere-mindre', label: 'mere eller mindre' },
+    { slug: 'hvilken-passer-ikke', label: 'hvilken passer ikke' },
+    { slug: 'monstertoget', label: 'mønstertoget' },
+    { slug: 'billedvej', label: 'billedvej' },
+    { slug: 'sorter-billeder', label: 'sortér billeder' },
+    { slug: 'praepositioner', label: 'præpositioner' },
+    { slug: 'match-skygger', label: 'match skygger' },
+    { slug: 'subtraktion', label: 'subtraktion' },
+    { slug: 'billedsudoku', label: 'billedsudoku' },
+    { slug: 'skattejagt', label: 'skattejagt' },
+    { slug: 'gaet-ordet', label: 'gæt ordet' },
+    { slug: 'bogstavpuslespil', label: 'bogstavpuslespil' },
+    { slug: 'ordsoegning', label: 'ordsøgning' },
+  ],
   no: [],
   fi: [],
 };

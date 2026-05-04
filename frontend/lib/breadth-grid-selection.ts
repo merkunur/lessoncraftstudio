@@ -32,23 +32,83 @@ const ALL_LOCALES: string[] = [
   'en', 'de', 'es', 'nl', 'fr', 'it', 'pt', 'sv', 'da', 'no', 'fi',
 ];
 
+// 4-family hybrid locale-family map per Q-family-map adjudication:
+// - Germanic: en, de, nl
+// - Nordic: sv, da, no
+// - Romance: es, fr, it, pt
+// - Finnic: fi (singleton; gets Nordic-as-sibling-proxy)
+//
+// Visitor-recognition optimization: Nordic locales (sv/da/no) keep
+// within-script-family sibling picks; fi is split out (Finnish is
+// typologically Finnic, not Germanic) and uses Nordic as sibling-proxy
+// since Finnic siblings (Estonian/Hungarian) aren't on the platform.
 const SIBLING_POOLS: Record<string, string[]> = {
+  // Germanic
   en: ['de', 'nl'],
   de: ['en', 'nl'],
   nl: ['de', 'en'],
-  es: ['it', 'pt', 'fr'],
-  it: ['fr', 'es', 'pt'],
-  fr: ['it', 'es', 'pt'],
-  pt: ['es', 'it', 'fr'],
-  sv: ['da', 'no', 'fi'],
-  da: ['sv', 'no', 'fi'],
-  no: ['sv', 'da', 'fi'],
+  // Nordic
+  sv: ['da', 'no'],
+  da: ['no', 'sv'],
+  no: ['sv', 'da'],
+  // Romance
+  es: ['fr', 'it', 'pt'],
+  fr: ['es', 'it', 'pt'],
+  it: ['es', 'fr', 'pt'],
+  pt: ['es', 'fr', 'it'],
+  // Finnic singleton — Nordic as sibling-proxy (script + geographic familiarity)
   fi: ['sv', 'da', 'no'],
 };
 
 function structurallyDifferentPool(visitorLocale: string): string[] {
   const siblings = new Set(SIBLING_POOLS[visitorLocale] ?? []);
   return ALL_LOCALES.filter(l => l !== visitorLocale && !siblings.has(l));
+}
+
+/**
+ * Day-of-week rotation key per Q-rotation adjudication. UTC-anchored to
+ * avoid timezone variance across server replicas / CDN edges. Returns
+ * 0-6; same-day visitors get same composition; cross-day visitors see
+ * a different cross-locale pick (preserves within-day ISR cache stability
+ * while varying repeat-visitor exposure across the week).
+ */
+function dayOfWeekRotation(): number {
+  return Math.floor(Date.now() / (1000 * 60 * 60 * 24)) % 7;
+}
+
+/**
+ * Pick a deck from a pool with day-of-week rotation. Pool is sorted by
+ * deck-count desc + alphabetic tiebreak (caller). Rotation index applied
+ * after sort: rotationKey % poolLength selects a starting locale; if
+ * that locale's candidates are exhausted (mechanic-diversity collisions),
+ * falls through to next locale in pool. Deterministic per (rotationKey,
+ * pool, byLocale state).
+ */
+function pickFromPoolRotated(
+  pool: readonly string[],
+  byLocale: Map<string, BreadthGridDeck[]>,
+  countByLocale: Map<string, number>,
+  usedExerciseTypes: Set<string>,
+  alreadyPickedIds: Set<string>,
+  rotationKey: number
+): BreadthGridDeck | null {
+  const ordered = [...pool].sort((a, b) =>
+    (countByLocale.get(b) ?? 0) - (countByLocale.get(a) ?? 0)
+  );
+  if (ordered.length === 0) return null;
+  // Rotate the ordered array so rotationKey indexes into a deterministic-
+  // per-day starting position; iterate from there with wrap-around.
+  const startIndex = rotationKey % ordered.length;
+  for (let i = 0; i < ordered.length; i++) {
+    const loc = ordered[(startIndex + i) % ordered.length];
+    const decks = byLocale.get(loc) ?? [];
+    for (const d of decks) {
+      if (!usedExerciseTypes.has(d.exerciseType) && !alreadyPickedIds.has(d.id)) {
+        return d;
+      }
+    }
+  }
+  return null;
 }
 
 function pickVisitingLocale(
@@ -184,9 +244,12 @@ export async function selectBreadthGridDecks(
   const pickedIds = new Set(visiting.map(d => d.id));
 
   const crossLocale: BreadthGridDeck[] = [];
+  const rotationKey = dayOfWeekRotation();
 
   const siblingPool = SIBLING_POOLS[visitorLocale] ?? [];
-  const siblingPick = pickFromPool(siblingPool, byLocale, countByLocale, usedExerciseTypes, pickedIds);
+  const siblingPick = pickFromPoolRotated(
+    siblingPool, byLocale, countByLocale, usedExerciseTypes, pickedIds, rotationKey
+  );
   if (siblingPick) {
     crossLocale.push(siblingPick);
     usedExerciseTypes.add(siblingPick.exerciseType);
@@ -194,7 +257,9 @@ export async function selectBreadthGridDecks(
   }
 
   const sdPool = structurallyDifferentPool(visitorLocale);
-  const sdPick = pickFromPool(sdPool, byLocale, countByLocale, usedExerciseTypes, pickedIds);
+  const sdPick = pickFromPoolRotated(
+    sdPool, byLocale, countByLocale, usedExerciseTypes, pickedIds, rotationKey
+  );
   if (sdPick) {
     crossLocale.push(sdPick);
     usedExerciseTypes.add(sdPick.exerciseType);

@@ -25,77 +25,105 @@
     "pricing": "Hinnat"
   },
   "homepage": {
+    "meta": {
+      "title": "LessonCraftStudio — Tehtäväarkit jotka toimivat oikeasti toisella kielelläsi",
+      "description": "Kuratoitu K-3-kuvituskirjasto ja sanasto­järjestelmä 11 kielellä, jossa artikkelit, monikkomuodot ja diakriittiset merkit ovat oikein. Rakennettu kaksikielisiin ja monikielisiin luokkiin.",
+      "ogTitle": "Tehtäväarkit jotka toimivat oikeasti toisella kielelläsi.",
+      "ogDescription": "Rakennettu opettajille kaksikielisissä ohjelmissa, kaksikielisissä luokissa ja kansainvälisissä kouluissa.",
+      "ogAlt": "LessonCraftStudio — K-3-tehtäväarkit 11 kielellä"
+    },
     "hero": {
-      "title": "Luo upeita työarkkeja muutamassa minuutissa",
-      "subtitle": "33 ammattimaista printable-generaattoria Etsy-myyjille, KDP-julkaisijoille ja yrittäjille. Kaupallinen lisenssi sisältyy.",
-      "cta": {
-        "tryFree": "Kokeile sananhakua ilmaiseksi",
-        "viewApps": "Näytä kaikki generaattorit"
+      "title": "Tehtäväarkit jotka toimivat oikeasti toisella kielelläsi.",
+      "subtitle": "Kuratoitu K-3-kuvituskirjasto yhdistettynä sanastojärjestelmään, joka kattaa 11 kieltä — oikeilla suvuilla, oikeilla monikkomuodoilla ja oikeilla diakriittisillä merkeillä jokaisessa kielessä. Rakennettu opettajille kaksikielisissä ohjelmissa, kaksikielisissä luokissa ja kansainvälisissä kouluissa.",
+      "interaction": "Lapset tekevät ne selaimessa. Tulosta ne, jos haluat."
+    },
+    "breadthGrid": {
+      "sectionTitle": "Korttipakat, joita opettajat käyttävät juuri nyt.",
+      "intro": "Muutama korttipakka katalogista. Avaa ensimmäinen pelataksesi sitä täällä, tai napsauta mitä tahansa muuta nähdäksesi koko sivun.",
+      "featuredBadge": "Esitelty",
+      "playInline": "Pelaa tämä korttipakka",
+      "openDeck": "Avaa korttipakka",
+      "closeFeatured": "Sulje",
+      "loadingDeck": "Ladataan korttipakkaa…"
+    },
+    "languageProof": {
+      "sectionTitle": "Mitä konekäännös tekee väärin — ja mitä me teemme oikein.",
+      "intro": "Useimmat tehtäväsivustot kääntävät englanninkielisen sisällön yleiskäyttöisellä koneella ja julkaisevat tuloksen. Artikkelit menevät väärin. Monikkomuodot lyttääntyvät. Aksenttimerkit katoavat. Lapset oppivat virheet. Käsittelemme jokaista 11 kielestämme omana katalogina — emme englanninkielisen käännöksenä — sanastolla, jonka ovat kuratoineet ihmiset, jotka todella opettavat sillä kielellä.",
+      "subIntro": "Kaksi esimerkkiä, vierekkäin.",
+      "german": {
+        "heading": "Saksa — suku, isot alkukirjaimet, epäsäännöllinen monikko",
+        "leftAnnotation1": "Konekäännös arvaa artikkelin englanninkielisestä asiayhteydestä. Schule on feminiini — mikään englanninkielinen konteksti ei kerro sitä.",
+        "leftAnnotation2": "Saksan substantiivit kirjoitetaan aina isolla alkukirjaimella. Pieni alkukirjain opettaa väärän säännön.",
+        "leftAnnotation3": "Monikko on epäsäännöllinen: Schulen, ei Schules. Konekäännös säännönmukaistaa; oikea muoto puuttuu.",
+        "annotation1": "die Schule — oikea artikkeli, joka kerta. Saksankielinen sanastomme on indeksoitu suvun mukaan, ei arvattu.",
+        "annotation2": "Schule — isolla alkukirjaimella, kuten saksan substantiivin kuuluu olla.",
+        "annotation3": "Schulen — todellinen monikko, ei latinalaistyyppinen arvaus.",
+        "ariaLabel": "Vertailu vierekkäin: konekäännetty saksankielinen tehtäväarkki, jossa on kolme virhettä — väärä feminiininen artikkeli ('der' eikä 'die'), substantiivi ilman isoa alkukirjainta ('schule' eikä 'Schule') ja englanniksi monikoitu muoto ('schules' eikä 'Schulen') — LessonCraftStudio-version vieressä, jossa 'die Schule' ja 'die Schulen' näkyvät oikein."
+      },
+      "french": {
+        "heading": "Ranska — suku, supistumat, aksentit",
+        "leftAnnotation1": "École on feminiini, ja artikkeli elidoituu vokaalin edessä. Konekäännös ei tee kumpaakaan.",
+        "leftAnnotation2": "Tuo é ei ole koriste — se kuuluu sanaan.",
+        "leftAnnotation3": "Prepositio + artikkeli supistuvat vokaalin edessä: à l'école. Konekäännös jättää ne erilleen.",
+        "annotation1": "l'école — oikea elisio ja oikea aksentti.",
+        "annotation2": "à l'école — oikea supistuma preposition kanssa.",
+        "annotation3": "Jokainen aksentti ranskankielisessä katalogissamme käsitellään osana sanaa.",
+        "ariaLabel": "Vertailu vierekkäin: konekäännetty ranskankielinen tehtäväarkki, jossa on kolme virhettä — eli­doitumaton artikkeli ('la école' eikä 'l'école'), supistumaton prepositio ('à le école' eikä 'à l'école') ja puuttuva akuutti aksentti ('ecole' eikä 'école') — LessonCraftStudio-version vieressä, jossa 'l'école', 'à l'école' ja 'école' näkyvät oikein."
+      },
+      "closingLine": "Lapset ansaitsevat materiaalia, joka vastaa kieltä, jota he opettelevat. Rakennamme sille tasolle."
+    },
+    "freeExperience": {
+      "sectionTitle": "Ilmainen kaikille opettajille.",
+      "intro": "Ei tiliä, ei maksumuuria, ei rekisteröintiestettä. Selaa, tulosta, upota ja jaa — jokainen korttipakka, jokaisella kielellä.",
+      "cta": "Selaa katalogia →",
+      "browse": {
+        "title": "Selaa kaikkia korttipakkoja.",
+        "body": "Koko katalogi on auki. Suodata kielen, luokka-asteen, aiheen tai tehtävätyypin mukaan. Tiliä ei tarvita selaamiseen, esikatseluun tai korttipakan pelaamiseen."
+      },
+      "pdf": {
+        "title": "Luo tulostettava PDF.",
+        "body": "Jokainen korttipakka latautuu siistinä tulostettavana PDF:nä — vastausavain mukana. Ei vesileimaa, ei pakkakohtaista rajaa, ei mitään pidätelty maksulliseen versioon."
+      },
+      "embed": {
+        "title": "Upota mikä tahansa korttipakka luokkasivullesi tai blogiisi.",
+        "body": "Kopioi upotuskoodi, liitä se luokkasivullesi, blogiisi tai koulun oppimisalustaan. Lapset pelaavat interaktiivista korttipakkaa juuri siellä, missä sen löytävät. Upottaminen pysyy ilmaisena."
+      },
+      "share": {
+        "title": "Jaa korttipakka linkillä.",
+        "body": "Lähetä mikä tahansa korttipakka linkkinä. Lapset pelaavat suoraan selaimessa — ei rekisteröitymistä, ei sovellusta, ei tiliä. Toimii puhelimella, tabletilla, Chromebookilla tai älytaululla."
       }
     },
-    "features": {
-      "title": "Kaikki mitä tarvitset laatumateriaalien luomiseen",
-      "items": {
-        "apps": {
-          "title": "33 työarkkigeneraattoria",
-          "description": "Matematiikasta ja lukemisesta pulmapeleihin ja peleihin"
-        },
-        "images": {
-          "title": "Yli 100 kuvateemaa",
-          "description": "Lapsiystävällisiä kuvituksia kaupallisella lisenssillä"
-        },
-        "languages": {
-          "title": "11 kieltä",
-          "description": "Luo työarkkeja useilla kielillä"
-        },
-        "pod": {
-          "title": "POD-lisenssi sisältyy",
-          "description": "Myy työarkkejasi millä tahansa alustalla"
-        }
-      }
+    "subscription": {
+      "sectionTitle": "Opettajille, jotka käyttävät LessonCraftStudiota joka viikko.",
+      "intro": "Katalogi on ilmainen ja pysyy ilmaisena. Tilaus on opettajille, jotka ovat tehneet LessonCraftStudiosta osan säännöllistä työtään ja haluavat opetuksensa järjestelmällisesti — valmiilla tuntisuunnitelmilla, teemapaketeilla niihin hetkiin, jotka palaavat joka vuosi, ja työtilalla, joka on rakennettu tuhansien korttipakkojen hallintaan.",
+      "lessonPlans": {
+        "title": "Valmiit tuntisuunnitelmat",
+        "body": "Kasvava kirjasto valmiiksi kirjoitettuja tuntisuunnitelmia, joista jokainen on yhdistetty tiettyihin korttipakkoihin. Jokainen suunnitelma noudattaa johdonmukaista nelivaiheista rakennetta CLIL-periaatteiden mukaan — lämmittely, sisältö-ja-kieli-aktiviteetti, kielen tukirakenne ja harjoittelu sekä lopetus — niin että opit muodon kerran ja sen jälkeen vain opetat. Suunnitelmat kirjoitetaan natiivisti kullekin kielelle, ei konekääntäen, ja ne heijastavat sen luokkahuoneen käytäntöjä, jolle ne on kirjoitettu."
+      },
+      "themedBundles": {
+        "title": "Teemapaketit hetkiin, jotka palaavat joka vuosi",
+        "body": "Käsin valitut paketit koulun aloitukseen, Halloweeniin, talvilomiin, ystävänpäivään, lukuvuoden lopetukseen ja jakson lopun kertaukseen. Jokainen paketti yhdistää johdonmukaisen korttipakkasarjan paketin teemaan kirjoitettuun tuntisuunnitelmaan. Tulosta paketti, seuraa suunnitelmaa, opeta viikko. Uusia paketteja lisätään vuoden mittaan, kaikki sisältyvät tilaukseen."
+      },
+      "workspace": {
+        "title": "Työtila opettajalle, joka todella olet",
+        "body": "Katalogi tulee ylittämään tuhannet korttipakat. Tilaus antaa sinulle kokoelmat niiden järjestämiseen, työtilan, johon kirjautuessasi laskeudut, kehittyneen suodatuksen, joka on viritetty siihen, miten opettajat oikeasti hakevat, opetussuunnitelma­linkityksen omiin jaksoihisi ja joukkotyökalut, jotka muuttavat viiden minuutin tehtävät kolmenkymmenen sekunnin tehtäviksi. Rakenteesi siirtyy vuodesta toiseen — siinä koko juju."
+      },
+      "price": "$69 vuodessa. Peruuta milloin tahansa.",
+      "subscribeCta": "Tilaa →",
+      "subscribeSubCopy": "Sinut ohjataan maksukumppanillemme. Maksun jälkeen tilisi on heti valmis.",
+      "alreadySubscribedCta": "Näytä tilaukseni"
     },
-    "pricing": {
-      "title": "Selkeä, läpinäkyvä hinnoittelu",
-      "monthly": "Kuukausittain",
-      "yearly": "Vuosittain (Säästä 20%)",
-      "free": {
-        "name": "Ilmainen",
-        "price": "$0",
-        "features": [
-          "Sananhakugeneraattori",
-          "Rajoitettu kuvakirjasto",
-          "Vesileimalla",
-          "Perustuki"
-        ],
-        "cta": "Aloita ilmaiseksi"
-      },
-      "core": {
-        "name": "Ydinpaketti",
-        "price": "$15",
-        "priceYearly": "$144",
-        "features": [
-          "10 suosituinta generaattoria",
-          "Täysi pääsy kuvakirjastoon",
-          "Ei vesileimaa",
-          "POD kaupallinen lisenssi",
-          "Prioriteettituki"
-        ],
-        "cta": "Valitse Ydinpaketti"
-      },
-      "full": {
-        "name": "Täysi Pääsy",
-        "price": "$25",
-        "priceYearly": "$240",
-        "features": [
-          "Kaikki 33 generaattoria",
-          "Täysi pääsy kuvakirjastoon",
-          "Ei vesileimaa",
-          "POD kaupallinen lisenssi",
-          "Prioriteettituki",
-          "Varhainen pääsy uusiin sovelluksiin"
-        ],
-        "cta": "Hanki Täysi Pääsy",
-        "popular": "Suosituin"
+    "notify": {
+      "aboveField": "Saamme tuntisuunnitelma­kirjaston valmiiksi ja lanseeraamme tilauksen pian. Jätä sähköpostisi, niin kerromme päivänä, jona se aukeaa.",
+      "label": "Sähköpostiosoite",
+      "placeholder": "sahkoposti@koulu.fi",
+      "submit": "Ilmoita minulle →",
+      "submitting": "Lähetetään…",
+      "confirmation": "Kiitos — lähetämme sähköpostia, kun tilaus aukeaa.",
+      "subCopy": "Yksi sähköposti, vain kun tilaus aukeaa. Ei markkinointilistaa, ei jatkoviestisarjaa.",
+      "errors": {
+        "invalid_email": "Anna kelvollinen sähköpostiosoite.",
+        "server": "Jokin meni pieleen. Yritä uudelleen."
       }
     }
   },

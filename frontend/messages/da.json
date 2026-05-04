@@ -25,77 +25,105 @@
     "pricing": "Priser"
   },
   "homepage": {
+    "meta": {
+      "title": "LessonCraftStudio — Arbejdsark der virker rigtigt på dit andetsprog",
+      "description": "Et kurateret K-3-illustrationsbibliotek og et ordforrådssystem på 11 sprog, med korrekte artikler, flertalsformer og diakritiske tegn. Bygget til tosprogede og flersprogede klasseværelser.",
+      "ogTitle": "Arbejdsark der virker rigtigt på dit andetsprog.",
+      "ogDescription": "Bygget til lærere i tosprogede programmer, tosprogede klasseværelser og internationale skoler.",
+      "ogAlt": "LessonCraftStudio — K-3-arbejdsark på 11 sprog"
+    },
     "hero": {
-      "title": "Lav fantastiske arbejdsark på få minutter",
-      "subtitle": "33 professionelle printable-generatorer til Etsy-sælgere, KDP-udgivere og iværksættere. Kommerciel licens inkluderet.",
-      "cta": {
-        "tryFree": "Prøv ordsøgning gratis",
-        "viewApps": "Se alle generatorer"
+      "title": "Arbejdsark der virker rigtigt på dit andetsprog.",
+      "subtitle": "Et kurateret bibliotek med K-3-illustrationer kombineret med et ordforrådssystem der dækker 11 sprog — med korrekt køn, korrekte flertalsformer og korrekte diakritiske tegn i hvert enkelt sprog. Bygget til lærere i tosprogede programmer, tosprogede klasseværelser og internationale skoler.",
+      "interaction": "Børnene løser dem i browseren. Print dem ud, hvis du foretrækker det."
+    },
+    "breadthGrid": {
+      "sectionTitle": "Decks som lærere bruger lige nu.",
+      "intro": "Et par decks fra kataloget. Åbn det første for at spille det her, eller klik på et af de andre for at se hele siden.",
+      "featuredBadge": "Fremhævet",
+      "playInline": "Spil dette deck",
+      "openDeck": "Åbn deck",
+      "closeFeatured": "Luk",
+      "loadingDeck": "Indlæser deck…"
+    },
+    "languageProof": {
+      "sectionTitle": "Hvad maskinoversættelse får forkert — og hvad vi får rigtigt.",
+      "intro": "De fleste arbejdsark-sider oversætter engelsk indhold med en generisk motor og udgiver resultatet. Artiklerne bliver forkerte. Flertalsformerne kollapser. Accenterne forsvinder. Børn lærer fejlene. Vi behandler hvert af vores 11 sprog som sit eget katalog — ikke som en oversættelse fra engelsk — med ordforråd kurateret af mennesker der faktisk underviser på det sprog.",
+      "subIntro": "To eksempler, side om side.",
+      "german": {
+        "heading": "Tysk — køn, store begyndelsesbogstaver, uregelmæssig flertal",
+        "leftAnnotation1": "Maskinoversættelse gætter artiklen ud fra den engelske kontekst. Schule er feminin — ingen engelsk kontekst fortæller dig det.",
+        "leftAnnotation2": "Tyske substantiver skrives altid med stort begyndelsesbogstav. Lille begyndelsesbogstav lærer den forkerte regel.",
+        "leftAnnotation3": "Flertalsformen er uregelmæssig: Schulen, ikke Schules. Maskinoversættelse regulariserer; den korrekte form mangler.",
+        "annotation1": "die Schule — korrekt artikel, hver gang. Vores tyske ordforråd er indekseret efter køn, ikke gættet.",
+        "annotation2": "Schule — med stort begyndelsesbogstav, som et tysk substantiv skal være.",
+        "annotation3": "Schulen — den faktiske flertalsform, ikke et latinsk-stiliseret gæt.",
+        "ariaLabel": "Sammenligning side om side: et maskinoversat tysk arbejdsark med tre fejl — forkert feminin artikel ('der' i stedet for 'die'), substantiv uden stort begyndelsesbogstav ('schule' i stedet for 'Schule') og engelsk-pluraliseret form ('schules' i stedet for 'Schulen') — ved siden af LessonCraftStudio-versionen hvor 'die Schule' og 'die Schulen' gengives korrekt."
+      },
+      "french": {
+        "heading": "Fransk — køn, sammentrækninger, accenter",
+        "leftAnnotation1": "École er feminin, og artiklen elideres foran vokalen. Maskinoversættelse gør hverken det ene eller det andet.",
+        "leftAnnotation2": "Det é er ikke pynt — det hører til ordet.",
+        "leftAnnotation3": "Præposition + artikel trækkes sammen foran vokalen: à l'école. Maskinoversættelse lader dem stå adskilt.",
+        "annotation1": "l'école — korrekt elision og korrekt accent.",
+        "annotation2": "à l'école — korrekt sammentrækning med præpositionen.",
+        "annotation3": "Hver accent i vores franske katalog behandles som en del af ordet.",
+        "ariaLabel": "Sammenligning side om side: et maskinoversat fransk arbejdsark med tre fejl — ikke-elideret artikel ('la école' i stedet for 'l'école'), ikke-sammentrukket præposition ('à le école' i stedet for 'à l'école') og manglende akut accent ('ecole' i stedet for 'école') — ved siden af LessonCraftStudio-versionen hvor 'l'école', 'à l'école' og 'école' gengives korrekt."
+      },
+      "closingLine": "Børn fortjener materiale der matcher det sprog de er ved at lære. Vi bygger til den standard."
+    },
+    "freeExperience": {
+      "sectionTitle": "Gratis for alle lærere.",
+      "intro": "Ingen konto, ingen betalingsmur, ingen tilmeldingsspærre. Gennemse, print, indlejr og del — hvert deck, på hvert sprog.",
+      "cta": "Gennemse kataloget →",
+      "browse": {
+        "title": "Gennemse alle decks.",
+        "body": "Hele kataloget er åbent. Filtrér efter sprog, klassetrin, emne eller opgavetype. Ingen konto påkrævet for at gennemse, forhåndsvise eller spille et deck."
+      },
+      "pdf": {
+        "title": "Generer en printbar PDF.",
+        "body": "Hvert deck downloades som en ren printbar PDF — facitliste inkluderet. Intet vandmærke, ingen begrænsning per deck, intet holdes tilbage til betalingsversionen."
+      },
+      "embed": {
+        "title": "Indlejr ethvert deck på din klasseside eller blog.",
+        "body": "Kopier en indlejringskode, indsæt den på din klasseside, din blog eller skolens læringsplatform. Børnene spiller det interaktive deck præcis dér hvor de finder det. Indlejring forbliver gratis."
+      },
+      "share": {
+        "title": "Del et deck via link.",
+        "body": "Send ethvert deck som et link. Børnene spiller direkte i browseren — ingen tilmelding, ingen app, ingen konto. Virker på en telefon, en tablet, en Chromebook eller en smartboard."
       }
     },
-    "features": {
-      "title": "Alt du behøver for at skabe kvalitetsmaterialer",
-      "items": {
-        "apps": {
-          "title": "33 arbejdsarkgeneratorer",
-          "description": "Fra matematik og læsning til puslespil og spil"
-        },
-        "images": {
-          "title": "Over 100 billedtemaer",
-          "description": "Børnevenlige illustrationer med kommerciel licens"
-        },
-        "languages": {
-          "title": "11 sprog",
-          "description": "Lav arbejdsark på flere sprog"
-        },
-        "pod": {
-          "title": "POD-licens inkluderet",
-          "description": "Sælg dine arbejdsark på enhver platform"
-        }
-      }
+    "subscription": {
+      "sectionTitle": "Til lærere der bruger LessonCraftStudio hver uge.",
+      "intro": "Kataloget er gratis og bliver ved med at være gratis. Abonnementet er til lærere der har gjort LessonCraftStudio til en del af deres regelmæssige praksis og vil have deres undervisning organiseret — med færdige lektionsplaner, temapakker til de øjeblikke der vender tilbage hvert år, og en arbejdsplads bygget til at håndtere tusindvis af decks.",
+      "lessonPlans": {
+        "title": "Færdige lektionsplaner",
+        "body": "Et voksende bibliotek af forskrevne lektionsplaner, hver enkelt knyttet til specifikke decks. Hver plan følger en konsekvent firtrins-struktur bygget på CLIL-principper — opvarmning, indhold-og-sprog-aktivitet, sprogstillads og øvelse samt afslutning — så du lærer formen én gang og derefter bare underviser. Planerne skrives nativt per sprog, ikke maskinoversat, og afspejler konventionerne i hvert klasseværelse de er skrevet til."
+      },
+      "themedBundles": {
+        "title": "Temapakker til de øjeblikke der vender tilbage hvert år",
+        "body": "Håndplukkede pakker til skolestart, Halloween, vinterferier, Valentinsdag, skoleårsafslutning og repetition ved emneafslutning. Hver pakke kombinerer et sammenhængende sæt decks med en lektionsplan skrevet til pakkens tema. Print hæftet, følg planen, underviser ugen. Nye pakker tilføjes i løbet af året, alle inkluderet i abonnementet."
+      },
+      "workspace": {
+        "title": "En arbejdsplads til den lærer du faktisk er",
+        "body": "Kataloget vil passere tusindvis af decks. Abonnementet giver dig samlinger til at organisere dem, en arbejdsplads-startside at lande på, avanceret filtrering tilpasset hvordan lærere faktisk søger, læseplankobling til dine egne enheder og masseværktøjer der forvandler femminutters opgaver til tredive sekunders opgaver. Din struktur følger med fra år til år — det er hele pointen."
+      },
+      "price": "$69 om året. Annullér når som helst.",
+      "subscribeCta": "Abonnér →",
+      "subscribeSubCopy": "Du sendes videre til vores betalingspartner. Efter betalingen er din konto klar med det samme.",
+      "alreadySubscribedCta": "Vis mit abonnement"
     },
-    "pricing": {
-      "title": "Enkel, gennemsigtig prissætning",
-      "monthly": "Månedlig",
-      "yearly": "Årlig (Spar 20%)",
-      "free": {
-        "name": "Gratis",
-        "price": "$0",
-        "features": [
-          "Ordsøgningsgenerator",
-          "Begrænset billedbibliotek",
-          "Med vandmærke",
-          "Grundlæggende support"
-        ],
-        "cta": "Start gratis"
-      },
-      "core": {
-        "name": "Kernepakke",
-        "price": "$15",
-        "priceYearly": "$144",
-        "features": [
-          "10 mest populære generatorer",
-          "Fuld adgang til billedbibliotek",
-          "Uden vandmærke",
-          "POD kommerciel licens",
-          "Prioriteret support"
-        ],
-        "cta": "Vælg Kernepakke"
-      },
-      "full": {
-        "name": "Fuld Adgang",
-        "price": "$25",
-        "priceYearly": "$240",
-        "features": [
-          "Alle 33 generatorer",
-          "Fuld adgang til billedbibliotek",
-          "Uden vandmærke",
-          "POD kommerciel licens",
-          "Prioriteret support",
-          "Tidlig adgang til nye apps"
-        ],
-        "cta": "Få Fuld Adgang",
-        "popular": "Mest populær"
+    "notify": {
+      "aboveField": "Vi gør lektionsplansbiblioteket færdigt og lancerer abonnementet snart. Læg din e-mail, så giver vi dig besked den dag det åbner.",
+      "label": "E-mailadresse",
+      "placeholder": "din-email@skole.dk",
+      "submit": "Giv mig besked →",
+      "submitting": "Sender…",
+      "confirmation": "Tak — vi mailer dig når abonnementet åbner.",
+      "subCopy": "Én e-mail, kun når abonnementet åbner. Ingen marketingliste, ingen opfølgningssekvens.",
+      "errors": {
+        "invalid_email": "Indtast venligst en gyldig e-mailadresse.",
+        "server": "Noget gik galt. Prøv igen."
       }
     }
   },

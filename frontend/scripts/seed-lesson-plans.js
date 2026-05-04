@@ -213,8 +213,10 @@ function buildLessonPlanRow(filePath, raw, validTopicSlugs) {
     language: meta.language,
     durationMinutes: totalDuration,
     structure,
-    recommendedDeckIds: meta.recommendedDeckIds || [],
-    recommendedPdfDeckIds: meta.recommendedPdfDeckIds || [],
+    // Prisma 6.x requires { set: [...] } wrap for String[] columns on create()
+    // (was a plain array under Prisma 5.x; semantic changed at the major-version bump).
+    recommendedDeckIds: { set: meta.recommendedDeckIds || [] },
+    recommendedPdfDeckIds: { set: meta.recommendedPdfDeckIds || [] },
     generatedBy: 'manual',
     generationVersion: 1,
     _filePath: filePath,

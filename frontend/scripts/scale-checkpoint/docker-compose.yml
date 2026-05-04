@@ -1,0 +1,20 @@
+services:
+  postgres-loadtest:
+    image: postgres:15-alpine
+    container_name: lcs-loadtest-postgres
+    environment:
+      POSTGRES_USER: loadtest
+      POSTGRES_PASSWORD: loadtest_pw
+      POSTGRES_DB: lcs_loadtest
+    ports:
+      - "5433:5432"
+    volumes:
+      - lcs_loadtest_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U loadtest -d lcs_loadtest"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  lcs_loadtest_pgdata:

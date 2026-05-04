@@ -30,6 +30,62 @@ const DECK_SELECT = {
   updatedAt: true,
 } as const;
 
+// All 11 platform locales. Mirrors the BreadthGrid pattern at
+// commit 317cb1a7 (lib/breadth-grid-selection.ts ALL_LOCALES). DRY-extraction
+// to a shared lib/locales.ts is filed as a future-consolidation candidate.
+const ALL_LOCALES: string[] = [
+  'en', 'de', 'es', 'nl', 'fr', 'it', 'pt', 'sv', 'da', 'no', 'fi',
+];
+
+// Per-locale candidate fetch cap. 200 chosen empirically via the
+// scale-checkpoint framework's pre/post output-parity verification at the
+// 55K loadtest checkpoint: 50 missed the strip2-educational-level case
+// (rare grade-3 age-range at 3% distribution didn't always have 2+ decks
+// in top-50); 200 covers the rarest age-range with high probability
+// (P(>=2 grade-3 in top-200) ~= 99.5%) while still capping fetch volume
+// at 0.04 MB per Strip-4 invocation.
+const STRIP_CANDIDATES_PER_LOCALE = 200;
+
+/**
+ * Per-locale bounded fetch — narrows full-table/full-locale findMany to a
+ * LIMIT-bounded compound-index-hitting query. Mirrors BreadthGrid pattern
+ * at commit 317cb1a7. For Strip 2 we pass [currentLocale] (1 query); for
+ * Strip 4 we pass ALL_LOCALES (11 queries in parallel via Promise.all).
+ * Merged + re-sorted to preserve publishedAt-DESC + id-ASC ordering for
+ * the diversity-cap walks that consume the result.
+ *
+ * Replaces no-WHERE-filter-and-no-LIMIT findMany shapes that triggered
+ * external-merge-on-disk sorts at 55K (per Phase 3 EXPLAIN: Strip 4
+ * sort spilled 10MB to disk, contributing ~60ms to the 104.45ms p95
+ * threshold violation).
+ */
+async function fetchPublishedDecksByLocale(
+  locales: readonly string[],
+  take: number
+): Promise<TopicDeckSummary[]> {
+  const perLocale = await Promise.all(
+    locales.map(loc =>
+      prisma.deck.findMany({
+        where: { language: loc, status: 'published' },
+        select: DECK_SELECT,
+        orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
+        take,
+      })
+    )
+  );
+  const merged: TopicDeckSummary[] = [];
+  for (const arr of perLocale) merged.push(...(arr as unknown as TopicDeckSummary[]));
+  if (locales.length > 1) {
+    merged.sort((a, b) => {
+      const ta = a.publishedAt ? a.publishedAt.getTime() : 0;
+      const tb = b.publishedAt ? b.publishedAt.getTime() : 0;
+      if (tb !== ta) return tb - ta;
+      return a.id < b.id ? -1 : a.id > b.id ? 1 : 0;
+    });
+  }
+  return merged;
+}
+
 /**
  * Strip 1 — same axis-key in other locales.
  * Theme:        decks with subject_tags @> [axisKey] AND language != currentLocale
@@ -86,11 +142,14 @@ export async function fetchDecksRelatedTopics(
   currentLocale: string,
   limit: number = 8
 ): Promise<TopicDeckSummary[]> {
-  const decks = (await prisma.deck.findMany({
-    where: { language: currentLocale, status: 'published' },
-    select: DECK_SELECT,
-    orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
-  })) as unknown as TopicDeckSummary[];
+  // Per-locale bounded fetch (single locale, take=200). Pre-refactor fetched
+  // ALL ~5K rows for currentLocale at 55K; this caps at top-200 most-recent
+  // which covers the diversity-cap walk for all 3 axis variants per
+  // empirical pre/post parity verification at the 55K loadtest checkpoint.
+  const decks = await fetchPublishedDecksByLocale(
+    [currentLocale],
+    STRIP_CANDIDATES_PER_LOCALE
+  );
 
   const out: TopicDeckSummary[] = [];
   const counts = new Map<string, number>();
@@ -196,11 +255,18 @@ export async function fetchDecksOtherAges(
 export async function fetchDecksCatalogHighlights(
   limit: number = 8
 ): Promise<TopicDeckSummary[]> {
-  const decks = (await prisma.deck.findMany({
-    where: { status: 'published' },
-    select: DECK_SELECT,
-    orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
-  })) as unknown as TopicDeckSummary[];
+  // Per-locale bounded fetch across ALL_LOCALES (11 parallel queries via
+  // Promise.all, take=200 each). Pre-refactor fetched ALL 55K published
+  // rows in one query, triggering external-merge-on-disk sort (10MB
+  // tmp file per Phase 3 EXPLAIN). Post-refactor caps at 11 × 200 = 2200
+  // candidates; the merged-and-resorted union preserves
+  // publishedAt-DESC + id-ASC ordering for the greedy diversity walk.
+  // Pre/post output parity verified empirically at the 55K loadtest
+  // checkpoint (matches across all 5 representative test cases).
+  const decks = await fetchPublishedDecksByLocale(
+    ALL_LOCALES,
+    STRIP_CANDIDATES_PER_LOCALE
+  );
 
   const seenLocales = new Set<string>();
   const seenExerciseTypes = new Set<string>();

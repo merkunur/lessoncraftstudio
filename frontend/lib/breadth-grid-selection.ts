@@ -98,11 +98,12 @@ function pickVisitingLocale(
 function pickFromPool(
   pool: readonly string[],
   byLocale: Map<string, BreadthGridDeck[]>,
+  countByLocale: Map<string, number>,
   usedExerciseTypes: Set<string>,
   alreadyPickedIds: Set<string>
 ): BreadthGridDeck | null {
   const ordered = [...pool].sort((a, b) =>
-    (byLocale.get(b)?.length ?? 0) - (byLocale.get(a)?.length ?? 0)
+    (countByLocale.get(b) ?? 0) - (countByLocale.get(a) ?? 0)
   );
   for (const loc of ordered) {
     const decks = byLocale.get(loc) ?? [];
@@ -113,6 +114,24 @@ function pickFromPool(
     }
   }
   return null;
+}
+
+// Per-locale candidate fetch — LIMIT-bounded, deterministic, hits the
+// (language, status, *) compound prefix indexes. Replaces the prior
+// no-filter findMany that returned the full published catalog into memory.
+// At any catalog scale this returns at most CANDIDATES_PER_LOCALE rows per
+// locale; selection-algorithm consumes at most ~7 from any single locale.
+const CANDIDATES_PER_LOCALE = 20;
+
+async function fetchLocaleCandidates(
+  locale: string
+): Promise<BreadthGridDeck[]> {
+  return prisma.deck.findMany({
+    where: { language: locale, status: 'published' },
+    select: DECK_SELECT,
+    orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
+    take: CANDIDATES_PER_LOCALE,
+  }) as unknown as Promise<BreadthGridDeck[]>;
 }
 
 /**
@@ -133,20 +152,31 @@ function pickFromPool(
  * Determinism: candidates ordered by publishedAt DESC then id ASC. Stable
  * within a given DB state. ISR revalidate (3600s on the home-page route)
  * picks up newly-published decks at the next revalidation window.
+ *
+ * Scale shape: per-locale bounded fetch (max CANDIDATES_PER_LOCALE per
+ * locale × 11 locales = 220 rows max) + 1 groupBy aggregate for true
+ * deck-counts driving the cross-locale pool-sort. Total wall time ~30ms
+ * regardless of catalog size; replaces the prior full-catalog findMany
+ * that scaled linearly with published-deck count.
  */
 export async function selectBreadthGridDecks(
   visitorLocale: string
 ): Promise<BreadthGridSelection> {
-  const allCandidates = (await prisma.deck.findMany({
-    where: { status: 'published' },
-    select: DECK_SELECT,
-    orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
-  })) as unknown as BreadthGridDeck[];
+  const [perLocaleResults, countsRaw] = await Promise.all([
+    Promise.all(ALL_LOCALES.map(loc => fetchLocaleCandidates(loc))),
+    prisma.deck.groupBy({
+      by: ['language'],
+      where: { status: 'published' },
+      _count: { _all: true },
+    }),
+  ]);
 
   const byLocale = new Map<string, BreadthGridDeck[]>();
-  for (const d of allCandidates) {
-    if (!byLocale.has(d.language)) byLocale.set(d.language, []);
-    byLocale.get(d.language)!.push(d);
+  ALL_LOCALES.forEach((loc, i) => byLocale.set(loc, perLocaleResults[i]));
+
+  const countByLocale = new Map<string, number>();
+  for (const c of countsRaw) {
+    countByLocale.set(c.language, c._count._all);
   }
 
   const visiting = pickVisitingLocale(byLocale.get(visitorLocale) ?? [], 6);
@@ -156,7 +186,7 @@ export async function selectBreadthGridDecks(
   const crossLocale: BreadthGridDeck[] = [];
 
   const siblingPool = SIBLING_POOLS[visitorLocale] ?? [];
-  const siblingPick = pickFromPool(siblingPool, byLocale, usedExerciseTypes, pickedIds);
+  const siblingPick = pickFromPool(siblingPool, byLocale, countByLocale, usedExerciseTypes, pickedIds);
   if (siblingPick) {
     crossLocale.push(siblingPick);
     usedExerciseTypes.add(siblingPick.exerciseType);
@@ -164,7 +194,7 @@ export async function selectBreadthGridDecks(
   }
 
   const sdPool = structurallyDifferentPool(visitorLocale);
-  const sdPick = pickFromPool(sdPool, byLocale, usedExerciseTypes, pickedIds);
+  const sdPick = pickFromPool(sdPool, byLocale, countByLocale, usedExerciseTypes, pickedIds);
   if (sdPick) {
     crossLocale.push(sdPick);
     usedExerciseTypes.add(sdPick.exerciseType);
@@ -181,7 +211,7 @@ export async function selectBreadthGridDecks(
     ]);
     const padPool = ALL_LOCALES.filter(l => !usedLocales.has(l));
     while (visiting.length + crossLocale.length < targetThumbnails && padPool.length > 0) {
-      const pick = pickFromPool(padPool, byLocale, usedExerciseTypes, pickedIds);
+      const pick = pickFromPool(padPool, byLocale, countByLocale, usedExerciseTypes, pickedIds);
       if (!pick) break;
       crossLocale.push(pick);
       usedExerciseTypes.add(pick.exerciseType);
@@ -194,7 +224,7 @@ export async function selectBreadthGridDecks(
     if (visiting.length + crossLocale.length < targetThumbnails) {
       const fallbackPool = ALL_LOCALES.filter(l => l !== visitorLocale);
       while (visiting.length + crossLocale.length < targetThumbnails) {
-        const pick = pickFromPool(fallbackPool, byLocale, usedExerciseTypes, pickedIds);
+        const pick = pickFromPool(fallbackPool, byLocale, countByLocale, usedExerciseTypes, pickedIds);
         if (!pick) break;
         crossLocale.push(pick);
         usedExerciseTypes.add(pick.exerciseType);

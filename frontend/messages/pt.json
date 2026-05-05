@@ -125,6 +125,24 @@
         "invalid_email": "Digite um endereço de e-mail válido.",
         "server": "Algo deu errado. Tente novamente."
       }
+    },
+    "exerciseTypeGrid": {
+      "heading": "Cada tipo de exercício K-3, no seu idioma.",
+      "intro": "29 tipos distintos de exercícios em matemática, letras, lógica e raciocínio espacial. Clique em qualquer um para explorar o catálogo desse tipo de exercício no seu idioma."
+    },
+    "themeStrip": {
+      "heading": "Cada tema da sala de aula.",
+      "intro": "100 temas abrangendo animais, veículos, alimentos, feriados, partes do corpo, estações e muito mais. Clique em qualquer um para explorar o catálogo desse tema no seu idioma.",
+      "listLabel": "Explorar atividades por tema"
+    },
+    "localeStrip": {
+      "heading": "Disponível em:",
+      "listLabel": "Mudar idioma"
+    },
+    "magnitudeFraming": {
+      "headline": "{exerciseTypes} tipos de exercícios × {themes} temas × {locales} idiomas = {variants} atividades possíveis.",
+      "footnote": "Atualmente {publishedDecks} publicadas de {combinatorialTotal} combinações totais. O catálogo cresce diariamente.",
+      "footnoteLabel": "Nota sobre o crescimento do catálogo"
     }
   },
   "worksheetSamples": {

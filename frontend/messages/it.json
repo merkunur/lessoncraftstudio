@@ -125,6 +125,24 @@
         "invalid_email": "Inserite un indirizzo e-mail valido.",
         "server": "Si è verificato un errore. Riprovate."
       }
+    },
+    "exerciseTypeGrid": {
+      "heading": "Ogni tipo di esercizio K-3, nella tua lingua.",
+      "intro": "29 tipi distinti di esercizi tra matematica, lettere, logica e ragionamento spaziale. Clicca su uno qualsiasi per sfogliare il catalogo di quel tipo di esercizio nella tua lingua."
+    },
+    "themeStrip": {
+      "heading": "Ogni tema della classe.",
+      "intro": "100 temi che coprono animali, veicoli, cibo, festività, parti del corpo, stagioni e altro. Clicca su uno qualsiasi per sfogliare il catalogo di quel tema nella tua lingua.",
+      "listLabel": "Sfoglia le schede per tema"
+    },
+    "localeStrip": {
+      "heading": "Disponibile in:",
+      "listLabel": "Cambia lingua"
+    },
+    "magnitudeFraming": {
+      "headline": "{exerciseTypes} tipi di esercizi × {themes} temi × {locales} lingue = {variants} schede possibili.",
+      "footnote": "Attualmente {publishedDecks} pubblicate su {combinatorialTotal} combinazioni totali. Il catalogo cresce ogni giorno.",
+      "footnoteLabel": "Nota sulla crescita del catalogo"
     }
   },
   "worksheetSamples": {

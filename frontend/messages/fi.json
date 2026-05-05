@@ -125,6 +125,24 @@
         "invalid_email": "Anna kelvollinen sähköpostiosoite.",
         "server": "Jokin meni pieleen. Yritä uudelleen."
       }
+    },
+    "exerciseTypeGrid": {
+      "heading": "Jokainen K-3-tehtävätyyppi, omalla kielelläsi.",
+      "intro": "29 erilaista tehtävätyyppiä matematiikan, kirjainten, logiikan ja avaruudellisen päättelyn alueilla. Klikkaa mitä tahansa selataksesi katalogia kyseisestä tehtävätyypistä omalla kielelläsi."
+    },
+    "themeStrip": {
+      "heading": "Jokainen luokkahuoneen aihe.",
+      "intro": "100 aihetta, jotka kattavat eläimet, ajoneuvot, ruoan, juhlapyhät, kehonosat, vuodenajat ja muuta. Klikkaa mitä tahansa selataksesi katalogia kyseisestä aiheesta omalla kielelläsi.",
+      "listLabel": "Selaa työarkkeja aiheen mukaan"
+    },
+    "localeStrip": {
+      "heading": "Saatavilla:",
+      "listLabel": "Vaihda kieltä"
+    },
+    "magnitudeFraming": {
+      "headline": "{exerciseTypes} tehtävätyyppiä × {themes} aihetta × {locales} kieltä = {variants} mahdollista työarkkia.",
+      "footnote": "Tällä hetkellä {publishedDecks} julkaistu {combinatorialTotal} kokonaisyhdistelmästä. Katalogi kasvaa päivittäin.",
+      "footnoteLabel": "Huomautus katalogin kasvusta"
     }
   },
   "worksheetSamples": {

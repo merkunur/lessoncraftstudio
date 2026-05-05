@@ -126,6 +126,24 @@
         "invalid_email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
         "server": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
       }
+    },
+    "exerciseTypeGrid": {
+      "heading": "Jede K-3-Aufgabenart, in Ihrer Sprache.",
+      "intro": "29 verschiedene Aufgabenarten in Mathematik, Buchstaben, Logik und räumlichem Denken. Klicken Sie auf eine, um den Katalog zu dieser Aufgabenart in Ihrer Sprache zu durchsuchen."
+    },
+    "themeStrip": {
+      "heading": "Jedes Klassenzimmer-Thema.",
+      "intro": "100 Themen, die Tiere, Fahrzeuge, Lebensmittel, Feiertage, Körperteile, Jahreszeiten und mehr abdecken. Klicken Sie auf eines, um den Katalog zu diesem Thema in Ihrer Sprache zu durchsuchen.",
+      "listLabel": "Arbeitsblätter nach Thema durchsuchen"
+    },
+    "localeStrip": {
+      "heading": "Verfügbar in:",
+      "listLabel": "Sprache wechseln"
+    },
+    "magnitudeFraming": {
+      "headline": "{exerciseTypes} Aufgabenarten × {themes} Themen × {locales} Sprachen = {variants} mögliche Arbeitsblätter.",
+      "footnote": "Aktuell {publishedDecks} veröffentlicht von {combinatorialTotal} Gesamtkombinationen. Katalog wächst täglich.",
+      "footnoteLabel": "Hinweis zum Katalogwachstum"
     }
   },
   "auth": {

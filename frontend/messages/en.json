@@ -126,6 +126,24 @@
         "invalid_email": "Please enter a valid email address.",
         "server": "Something went wrong. Please try again."
       }
+    },
+    "exerciseTypeGrid": {
+      "heading": "Every K-3 exercise type, in your language.",
+      "intro": "29 distinct exercise types across math, letters, logic, and spatial reasoning. Click any to browse the catalog at that exercise type in your language."
+    },
+    "themeStrip": {
+      "heading": "Every classroom theme.",
+      "intro": "100 themes spanning animals, vehicles, food, holidays, body parts, seasonal moments, and more. Click any to browse the catalog at that theme in your language.",
+      "listLabel": "Browse worksheets by theme"
+    },
+    "localeStrip": {
+      "heading": "Available in:",
+      "listLabel": "Switch language"
+    },
+    "magnitudeFraming": {
+      "headline": "{exerciseTypes} exercise types × {themes} themes × {locales} languages = {variants} possible worksheets.",
+      "footnote": "Currently {publishedDecks} published of {combinatorialTotal} total combinations. Catalog grows daily.",
+      "footnoteLabel": "Catalog growth note"
     }
   },
   "auth": {

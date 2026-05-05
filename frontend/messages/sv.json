@@ -125,6 +125,24 @@
         "invalid_email": "Ange en giltig e-postadress.",
         "server": "Något gick fel. Försök igen."
       }
+    },
+    "exerciseTypeGrid": {
+      "heading": "Varje K-3 övningstyp, på ditt språk.",
+      "intro": "29 distinkta övningstyper inom matematik, bokstäver, logik och rumsligt tänkande. Klicka på vilken som helst för att bläddra i katalogen för den övningstypen på ditt språk."
+    },
+    "themeStrip": {
+      "heading": "Varje klassrumstema.",
+      "intro": "100 teman som omfattar djur, fordon, mat, helgdagar, kroppsdelar, årstider och mer. Klicka på vilket som helst för att bläddra i katalogen för det temat på ditt språk.",
+      "listLabel": "Bläddra arbetsblad per tema"
+    },
+    "localeStrip": {
+      "heading": "Tillgänglig på:",
+      "listLabel": "Byt språk"
+    },
+    "magnitudeFraming": {
+      "headline": "{exerciseTypes} övningstyper × {themes} teman × {locales} språk = {variants} möjliga arbetsblad.",
+      "footnote": "Just nu {publishedDecks} publicerade av {combinatorialTotal} totala kombinationer. Katalogen växer dagligen.",
+      "footnoteLabel": "Anteckning om katalogtillväxt"
     }
   },
   "worksheetSamples": {

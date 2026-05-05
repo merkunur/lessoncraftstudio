@@ -125,6 +125,24 @@
         "invalid_email": "Voer een geldig e-mailadres in.",
         "server": "Er is iets misgegaan. Probeer het opnieuw."
       }
+    },
+    "exerciseTypeGrid": {
+      "heading": "Elk K-3 oefeningstype, in jouw taal.",
+      "intro": "29 verschillende oefeningstypes in rekenen, letters, logica en ruimtelijk denken. Klik op een type om de catalogus voor dat oefeningstype in jouw taal te bekijken."
+    },
+    "themeStrip": {
+      "heading": "Elk klaslokaalthema.",
+      "intro": "100 thema's waaronder dieren, voertuigen, eten, feestdagen, lichaamsdelen, seizoenen en meer. Klik op een thema om de catalogus voor dat thema in jouw taal te bekijken.",
+      "listLabel": "Werkbladen per thema bladeren"
+    },
+    "localeStrip": {
+      "heading": "Beschikbaar in:",
+      "listLabel": "Taal wisselen"
+    },
+    "magnitudeFraming": {
+      "headline": "{exerciseTypes} oefeningstypes × {themes} thema's × {locales} talen = {variants} mogelijke werkbladen.",
+      "footnote": "Momenteel {publishedDecks} gepubliceerd van {combinatorialTotal} totale combinaties. Catalogus groeit dagelijks.",
+      "footnoteLabel": "Notitie over cataloguswasdom"
     }
   },
   "auth": {

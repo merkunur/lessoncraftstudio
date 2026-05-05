@@ -869,16 +869,17 @@
       'var sepText=' + JSON.stringify(attribSeparatorHtml) + ';',
       'var keywordText=' + JSON.stringify(attribKeywordHtml) + ';',
       // Read deck canvas dimensions from DECK_BUNDLE.page at runtime so the
-      // computed iframe height fits the deck content exactly (no inner scroll
-      // and no empty gap below sticky-bottom Check Answers footer). Chrome
-      // overhead = lcs-bar 60px + lcs-footer 80px + lcs-app padding-bottom
-      // 120px = 260px (matches operator empirical observation 2026-05-06:
-      // breakfast deck 612x792 needs ~1300px iframe height at 800 wide).
-      // userTouchedHeight flag preserves manual height edits across width
-      // changes; auto-compute kicks in only when user hasn\'t typed.
+      // computed iframe height fits the deck content. Chrome overhead = 130
+      // (empirically tuned 2026-05-06 from breakfast deck 612x792: iframe
+      // height target ~1165 at 800 wide; image-area at iframe-width = 1035;
+      // chrome = 130 covers lcs-bar + part of lcs-app padding while leaving
+      // iframe slightly SHORTER than total flow height so sticky-bottom
+      // lcs-footer doesn\'t activate — footer renders right after worksheet
+      // with no empty gap). Erring slightly short over too-tall: minor scroll
+      // overflow (~30px) is less ugly than 100px+ empty gap above sticky footer.
       'var userTouchedHeight=false;',
       'function deckPage(){var p=(typeof DECK_BUNDLE!=="undefined"&&DECK_BUNDLE&&DECK_BUNDLE.page)||null;if(p&&p.width&&p.height)return p;return null;}',
-      'function computeHeight(w){var p=deckPage();if(p)return Math.round((w/p.width)*p.height)+260;return ' + defaultHeight + ';}',
+      'function computeHeight(w){var p=deckPage();if(p)return Math.round((w/p.width)*p.height)+130;return ' + defaultHeight + ';}',
       // Canonical snippet shape per 2026-05-05 design spec: wrapper div with
       // max-width matching iframe + iframe with visible border + <p> caption
       // with TWO <a href> backlinks (deck-URL with brand-anchor; homepage with

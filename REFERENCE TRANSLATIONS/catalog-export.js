@@ -900,25 +900,28 @@
       // No classes. Survives strict HTML sanitizers (WordPress, Squarespace,
       // Wix, Medium). Iframes alone are NOT backlinks per Google\'s link-equity
       // model; the outside <a href> elements ARE the SEO surface.
-      // Snippet emits responsive-width iframe with aspect-ratio CSS for
-      // proportional scaling at any viewport. Eliminates horizontal page-
-      // scroll (no fixed-pixel width attr) AND avoids dead empty space at
-      // narrow viewports (vs fixed-pixel height). aspect-ratio is sized
-      // for the deck\'s known content dimensions at the chosen iframe width
-      // (target 800 by default for Letter-portrait optimal fit; the same
-      // ratio applies proportionally at other widths). aspect-ratio CSS
-      // browser support: Chrome 88+, Firefox 89+, Safari 15+ (all 2021+);
-      // strict CMS HTML sanitizers pass through inline-style aspect-ratio.
+      // Snippet emits responsive-width iframe + tiny <script> for postMessage
+      // auto-resize. Layered approach:
+      //   1. CSS aspect-ratio = static fallback fit (works without script)
+      //   2. <script> listener = exact-fit when the deck posts its actual
+      //      content height via postMessage (works when sanitizer allows
+      //      <script>)
+      // Most CMSes that allow embed-via-iframe also allow embed-via-iframe-
+      // plus-resizer-script (WordPress.com Premium, Squarespace, Wix, Webflow,
+      // Ghost, Substack). Strict-sanitizer fallback: aspect-ratio CSS gives
+      // a close-but-not-perfect fit.
       'function buildSnippet(){',
       'var w=parseInt(widthInput.value,10)||' + defaultWidth + ';',
       'var h=parseInt(heightInput.value,10)||computeHeight(w);',
+      'var iframeId=\'lcs-embed-\'+Math.random().toString(36).slice(2,10);',
       'var lines=[];',
       'lines.push(\'<div style="max-width: \'+w+\'px; margin: 0 auto;">\');',
-      'lines.push(\'  <iframe src="\'+url+\'" frameborder="0" style="display: block; width: 100%; max-width: \'+w+\'px; aspect-ratio: \'+w+\' / \'+h+\'; border: 1px solid #e0d8c5; border-radius: 8px;"></iframe>\');',
+      'lines.push(\'  <iframe id="\'+iframeId+\'" src="\'+url+\'" frameborder="0" style="display: block; width: 100%; max-width: \'+w+\'px; aspect-ratio: \'+w+\' / \'+h+\'; border: 1px solid #e0d8c5; border-radius: 8px;"></iframe>\');',
       'lines.push(\'  <p style="font-size: 13px; color: #6b6357; text-align: center; margin: 8px 0 0; font-family: system-ui, sans-serif;">\');',
       'lines.push(\'    \'+prefixText+\' <a href="\'+url+\'" style="color: #6b6357; text-decoration: underline;">\'+brandText+\'</a>\'+sepText+\'<a href="\'+homeURL+\'" style="color: #6b6357; text-decoration: underline;">\'+keywordText+\'</a>\');',
       'lines.push(\'  </p>\');',
       'lines.push(\'</div>\');',
+      'lines.push(\'<script>(function(){var f=document.getElementById("\'+iframeId+\'");if(!f)return;window.addEventListener("message",function(e){if(!e.data||e.data.type!=="lcs-embed-resize")return;if(e.data.url&&f.src&&e.data.url.split("?")[0]!==f.src.split("?")[0])return;f.style.aspectRatio="auto";f.style.height=e.data.height+"px";});})();<\\/script>\');',
       'return lines.join("\\n");',
       '}',
       'function refreshSnippet(){snippet.value=buildSnippet();}',
@@ -945,6 +948,20 @@
       '});',
       '}',
       'refreshSnippet();',
+      // postMessage iframe-resize emitter — runs in deck.html context.
+      // When deck is loaded inside an embed iframe, posts the body scrollHeight
+      // up to the parent window. The snippet\'s inline <script> listens and
+      // auto-resizes the iframe to exact content height. Falls back gracefully
+      // to CSS aspect-ratio if the snippet\'s script is stripped by host-side
+      // HTML sanitizer. Only fires when window.parent !== window (i.e., inside
+      // an iframe) so standalone deck.html viewing is unaffected.
+      'if(window.parent!==window){',
+      'function lcsEmitHeight(){try{window.parent.postMessage({type:"lcs-embed-resize",height:document.body.scrollHeight,url:location.href},"*");}catch(e){}}',
+      'if(document.readyState==="complete")lcsEmitHeight();',
+      'else window.addEventListener("load",lcsEmitHeight);',
+      'window.addEventListener("resize",lcsEmitHeight);',
+      'if(typeof ResizeObserver!=="undefined"){try{new ResizeObserver(lcsEmitHeight).observe(document.body);}catch(e){}}',
+      '}',
       '})();<\/script>'
     ].join('\n');
   }

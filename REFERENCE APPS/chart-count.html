@@ -3281,11 +3281,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
                 return cachedBundle;
             };
+            // Commission ε emit-site fix: single-mode contract per locked taxonomy.
+            var manifestMeta = buildCatalogManifestSettings();
+            var derivedExerciseMode = null;
             var result = await window.LCSCatalogExport.export({
                 app: { name: 'chart-count', version: '20.0.0', bundleVersion: 20 },
                 language: window.currentLocale || 'en',
                 exerciseType: 'chart-count',
-                exerciseMode: null,
+                exerciseMode: derivedExerciseMode,
                 producers: {
                     pdf: function () { return downloadCanvasAsPDF(worksheetCanvas, 'printable.pdf', { returnBlob: true }); },
                     answerKey: function () { return downloadCanvasAsPDF(solutionCanvas, 'answer-key.pdf', { returnBlob: true }); },
@@ -3298,7 +3301,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         return bundle.worksheetImage;
                     }
                 },
-                metadata: buildCatalogManifestSettings()
+                metadata: manifestMeta
             });
             showMessage('success', 'Exported to catalog: ' + result.zipFileName);
         } catch (e) {

@@ -4520,11 +4520,15 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
                 return cachedBundle;
             };
+            // Commission ε emit-site fix: difficultySelect drives mode (4=easy null default vs 6=medium / 8=hard).
+            var manifestMeta = buildCatalogManifestSettings();
+            var difficulty = (document.getElementById('difficultySelect') || {}).value;
+            var derivedExerciseMode = difficulty === '6' ? 'medium' : (difficulty === '8' ? 'hard' : null);
             var result = await window.LCSCatalogExport.export({
                 app: { name: 'sudoku', version: '28.2.0', bundleVersion: 28 },
                 language: window.currentLocale || 'en',
                 exerciseType: 'sudoku',
-                exerciseMode: null,
+                exerciseMode: derivedExerciseMode,
                 producers: {
                     pdf: function () { return downloadPDF(worksheetCanvas, 'printable.pdf', { returnBlob: true }); },
                     answerKey: function () { return downloadPDF(answerKeyCanvas, 'answer-key.pdf', { returnBlob: true }); },
@@ -4537,7 +4541,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         return bundle.worksheetImage;
                     }
                 },
-                metadata: buildCatalogManifestSettings()
+                metadata: manifestMeta
             });
             showMessage('Exported to catalog: ' + result.zipFileName, 'success');
         } catch (e) {

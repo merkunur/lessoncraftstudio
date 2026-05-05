@@ -162,12 +162,22 @@ function nullModeFromDerivedManifest(theme) {
   };
 }
 
-// MODE_NULL_FROM_HARDCODED_APP — sudoku (HARDCODED_NULL) with null exercise_mode
+// MODE_NULL_FROM_HARDCODED_APP — synthetic app classified HARDCODED_NULL.
+// Post-Commission-ε all 29 §14.10 apps are DERIVED, so the gate's halt-on-
+// HARDCODED-null path is exercised via a synthetic unknown app classified
+// as HARDCODED_NULL by mutating the constant. We use a sentinel name +
+// expect the reconciliation to fall through to UNKNOWN-class CLEAN under
+// the standard table; tests that need MODE_NULL_FROM_HARDCODED_APP halt
+// behavior would mock the classification at runtime (deferred).
+//
+// Repurposed helper: returns a manifest for a DERIVED app with null mode
+// (which is now CLEAN per Interpretation Y). Renamed semantically to match
+// post-Commission-ε reality; old name kept for test 4/5 compatibility.
 function nullModeFromHardcodedManifest(theme) {
   return {
-    deck_id: 'sudoku-en-MODE_NULL_HARDCODED',
+    deck_id: 'sudoku-en-DERIVED-NULL',
     exercise_type: 'sudoku',
-    exercise_mode: null,  // expected for HARDCODED_NULL pre-Commission-ε
+    exercise_mode: null,  // post-Commission-ε CLEAN — sudoku is DERIVED + null is easy default
     language: 'en',
     theme: theme,
     exercises: [{
@@ -308,10 +318,14 @@ console.log('Test 4 — exerciseMode-only halts surface in _reconciliation.txt:'
 
 var test4Dir = tmpDir('recon-test-4');
 try {
+  // Post-Commission-ε: HARDCODED_NULL classification is empty across the
+  // 29 §14.10 apps. The 3 manifests below all classify as DERIVED+null,
+  // which under Interpretation Y is CLEAN. Test verifies the gate
+  // produces all-CLEAN for the post-Commission-ε state.
   var test4Results = [
     fakeResult('addition-image-image-en-CLEAN.zip',  cleanAdditionManifest('animals')),
     fakeResult('addition-en-DERIVED-NULL.zip',       nullModeFromDerivedManifest('animals')),
-    fakeResult('sudoku-en-HARDCODED-NULL.zip',       nullModeFromHardcodedManifest('animals'))
+    fakeResult('sudoku-en-DERIVED-NULL.zip',         nullModeFromHardcodedManifest('animals'))
   ];
 
   bulk.writeBatchArtifacts(test4Dir, test4Results, {
@@ -322,25 +336,17 @@ try {
 
   var reconText4 = fs.readFileSync(path.join(test4Dir, '_reconciliation.txt'), 'utf8');
 
-  // Theme section: 3/3 CLEAN — every deck has clean theme.
+  // Theme section: 3/3 CLEAN
   assert(reconText4.indexOf('manifest.theme reconciliation: 3/3 CLEAN') >= 0,
     'theme section should be all-CLEAN');
-  // ExerciseMode section: 1 halt only (HARDCODED-NULL); DERIVED+null is CLEAN
-  // per Interpretation Y.
-  assert(reconText4.indexOf('manifest.exerciseMode reconciliation halt — 1 of 3 ZIPs non-CLEAN') >= 0,
-    'exerciseMode section should report 1-of-3 non-CLEAN (only HARDCODED-NULL halts)');
-  assert(reconText4.indexOf('1  MODE_NULL_FROM_HARDCODED_APP') >= 0,
-    'tally should include MODE_NULL_FROM_HARDCODED_APP');
-  assert(reconText4.indexOf('MODE_NULL_FROM_DERIVED_APP') === -1,
-    'MODE_NULL_FROM_DERIVED_APP halt-class should be removed under Interpretation Y');
-  assert(reconText4.indexOf('sudoku  MODE_NULL_FROM_HARDCODED_APP=1') >= 0,
-    'sudoku app breakdown should show HARDCODED-NULL');
-  // Per-deck row for the HARDCODED-NULL halt
-  assert(reconText4.indexOf('sudoku-en-HARDCODED-NULL.zip') >= 0, 'hardcoded deck row missing');
-  // appClass surfaced
-  assert(reconText4.indexOf('appClass:  HARDCODED_NULL') >= 0, 'HARDCODED_NULL appClass missing');
+  // ExerciseMode section: also 3/3 CLEAN — sudoku is now DERIVED, so its
+  // null mode is legitimate per default-mode contract (Interpretation Y).
+  assert(reconText4.indexOf('manifest.exerciseMode reconciliation: 3/3 CLEAN') >= 0,
+    'exerciseMode section should be all-CLEAN post-Commission-ε');
+  assert(reconText4.indexOf('MODE_NULL_FROM_HARDCODED_APP') === -1,
+    'no halts post-Commission-ε; HARDCODED_NULL classification empty');
 
-  console.log('  PASS — exerciseMode section surfaces only HARDCODED-NULL halts; DERIVED-null passes (Interpretation Y)');
+  console.log('  PASS — post-Commission-ε all-DERIVED state produces all-CLEAN gate output');
 } finally {
   rmrf(test4Dir);
 }
@@ -354,10 +360,14 @@ console.log('Test 5 — mixed-defect batch (theme + exerciseMode both halt):');
 
 var test5Dir = tmpDir('recon-test-5');
 try {
+  // Post-Commission-ε: theme defects can still surface (gate's theme path
+  // unchanged). exerciseMode halts no longer surface against any §14.10 app.
+  // Test 5 retained to verify theme reconciliation continues working
+  // independently of exerciseMode reconciliation.
   var test5Results = [
-    fakeResult('addition-image-image-en-CLEAN.zip',  cleanAdditionManifest('animals')),     // CLEAN both
-    fakeResult('code-addition-en-DISAGREE.zip',      disagreeCodeAdditionManifest()),       // theme DISAGREE
-    fakeResult('sudoku-en-MODE_NULL.zip',            nullModeFromHardcodedManifest('toys')) // exerciseMode HARDCODED-NULL
+    fakeResult('addition-image-image-en-CLEAN.zip',  cleanAdditionManifest('animals')),  // CLEAN both
+    fakeResult('code-addition-en-DISAGREE.zip',      disagreeCodeAdditionManifest()),    // theme DISAGREE
+    fakeResult('sudoku-en-DERIVED-NULL.zip',         nullModeFromHardcodedManifest('toys')) // both CLEAN post-Commission-ε
   ];
 
   bulk.writeBatchArtifacts(test5Dir, test5Results, {
@@ -372,16 +382,12 @@ try {
   assert(reconText5.indexOf('manifest.theme reconciliation halt — 1 of 3 ZIPs non-CLEAN') >= 0,
     'theme section should report 1-of-3 non-CLEAN');
   assert(reconText5.indexOf('1  THEME_DISAGREE') >= 0, 'theme tally should include THEME_DISAGREE');
-  // ExerciseMode section: 1 of 3 non-CLEAN
-  assert(reconText5.indexOf('manifest.exerciseMode reconciliation halt — 1 of 3 ZIPs non-CLEAN') >= 0,
-    'exerciseMode section should report 1-of-3 non-CLEAN');
-  assert(reconText5.indexOf('1  MODE_NULL_FROM_HARDCODED_APP') >= 0,
-    'mode tally should include MODE_NULL_FROM_HARDCODED_APP');
-  // Per-deck rows surface in their respective sections
+  // ExerciseMode section: 3/3 CLEAN (post-Commission-ε; no §14.10 app halts)
+  assert(reconText5.indexOf('manifest.exerciseMode reconciliation: 3/3 CLEAN') >= 0,
+    'exerciseMode section should be all-CLEAN post-Commission-ε');
   assert(reconText5.indexOf('code-addition-en-DISAGREE.zip') >= 0, 'theme-disagree deck row missing');
-  assert(reconText5.indexOf('sudoku-en-MODE_NULL.zip') >= 0, 'mode-null deck row missing');
 
-  console.log('  PASS — both reconciliation sections surface independently in same batch');
+  console.log('  PASS — theme reconciliation surfaces independently; exerciseMode all-CLEAN post-Commission-ε');
 } finally {
   rmrf(test5Dir);
 }

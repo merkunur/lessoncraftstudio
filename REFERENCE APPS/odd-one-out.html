@@ -4426,11 +4426,15 @@
                   }
                   return cachedBundle;
               };
+              // Commission ε emit-site fix: modeSelect drives mode (identical=null default vs cross-theme).
+              var manifestMeta = buildCatalogManifestSettings();
+              var globalMode = (document.getElementById('modeSelect') || {}).value;
+              var derivedExerciseMode = globalMode === 'similar' ? 'cross-theme' : null;
               var result = await window.LCSCatalogExport.export({
                   app: { name: 'odd-one-out', version: '27.1.0', bundleVersion: 27 },
                   language: window.currentLocale || 'en',
                   exerciseType: 'odd-one-out',
-                  exerciseMode: null,
+                  exerciseMode: derivedExerciseMode,
                   producers: {
                       pdf: function () { return downloadPDF(worksheetCanvas, 'printable.pdf', { returnBlob: true }); },
                       answerKey: function () { return downloadPDF(answerKeyCanvas, 'answer-key.pdf', { returnBlob: true }); },
@@ -4443,7 +4447,7 @@
                           return bundle.worksheetImage;
                       }
                   },
-                  metadata: buildCatalogManifestSettings()
+                  metadata: manifestMeta
               });
               showMessage(((typeof t === 'function' && t('catalogExportSuccess')) || 'Exported to catalog: ') + result.zipFileName, 'success');
           } catch (e) {

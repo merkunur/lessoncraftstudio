@@ -53,36 +53,41 @@
  */
 var EXERCISE_MODE_APP_CLASSIFICATION = {
   // DERIVED — emit-site reads from UI; non-null at publish is expected
+  // unless the app's locked taxonomy contract specifies null for the
+  // default mode (e.g., code-addition standard mode at 5078f491).
+  // Post-Commission ε all 29 §14.10 catalog apps are DERIVED.
   'addition':         'DERIVED',
+  'alphabet-train':   'DERIVED',  // single-mode contract per Commission ε locked taxonomy
   'big-small':        'DERIVED',
+  'bingo':            'DERIVED',  // card_fill drives mode (image=null / word) per Commission ε
+  'chart-count':      'DERIVED',  // single-mode contract per Commission ε
   'code-addition':    'DERIVED',  // post-fix at 5078f491
+  'crossword':        'DERIVED',  // single-mode contract per Commission ε
+  'cryptogram':       'DERIVED',  // single-mode contract per Commission ε
   'find-and-count':   'DERIVED',
   'find-objects':     'DERIVED',
+  'grid-match':       'DERIVED',  // single-mode contract per Commission ε
   'math-puzzle':      'DERIVED',
   'math-worksheet':   'DERIVED',
   'matching':         'DERIVED',
+  'missing-pieces':   'DERIVED',  // piece_shape drives mode per Commission ε
   'more-less':        'DERIVED',
+  'odd-one-out':      'DERIVED',  // modeSelect drives mode (identical=null / cross-theme) per Commission ε
+  'pattern-train':    'DERIVED',  // patternSelect drives mode per Commission ε
+  'pattern-worksheet':'DERIVED',  // globalQuestionTypeSelect drives mode per Commission ε
   'picture-path':     'DERIVED',
+  'picture-sort':     'DERIVED',  // single-mode contract per Commission ε
   'prepositions':     'DERIVED',
   'shadow-match':     'DERIVED',
   'subtraction':      'DERIVED',
-  // HARDCODED_NULL — emit-site hardcodes null; awaiting Commission ε per-app fix
-  'alphabet-train':   'HARDCODED_NULL',
-  'bingo':            'HARDCODED_NULL',
-  'chart-count':      'HARDCODED_NULL',
-  'crossword':        'HARDCODED_NULL',
-  'cryptogram':       'HARDCODED_NULL',
-  'grid-match':       'HARDCODED_NULL',
-  'missing-pieces':   'HARDCODED_NULL',
-  'odd-one-out':      'HARDCODED_NULL',
-  'pattern-train':    'HARDCODED_NULL',
-  'pattern-worksheet':'HARDCODED_NULL',
-  'picture-sort':     'HARDCODED_NULL',
-  'sudoku':           'HARDCODED_NULL',
-  'treasure-hunt':    'HARDCODED_NULL',
-  'word-guess':       'HARDCODED_NULL',
-  'word-scramble':    'HARDCODED_NULL',
-  'wordsearch':       'HARDCODED_NULL'
+  'sudoku':           'DERIVED',  // difficultySelect drives mode (4=easy null / 6=medium / 8=hard) per Commission ε
+  'treasure-hunt':    'DERIVED',  // directionTypeSelect drives mode (basic=null / cardinal=compass) per Commission ε
+  'word-guess':       'DERIVED',  // difficulty radio drives mode (0=null / 2=easy / 4=normal / 6=tough) per Commission ε
+  'word-scramble':    'DERIVED',  // difficulty radio drives mode (same as word-guess) per Commission ε
+  'wordsearch':       'DERIVED'   // showOnlyImages/showOnlyWords drives mode (mixed=null / image-only / word-only) per Commission ε
+  // HARDCODED_NULL list now empty — Commission ε closed all 16 hardcoded-null
+  // emit-defects. Future apps default to UNKNOWN (degraded-trust CLEAN) until
+  // explicitly classified.
 };
 
 var NON_DECOMPOSABLE_MAP = {

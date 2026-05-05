@@ -4209,11 +4209,14 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
                 return cachedBundle;
             };
+            // Commission ε emit-site fix: single-mode contract per locked taxonomy.
+            var manifestMeta = buildCatalogManifestSettings();
+            var derivedExerciseMode = null;
             var result = await window.LCSCatalogExport.export({
                 app: { name: 'crossword', version: '31.0.3', bundleVersion: 31 },
                 language: window.currentLocale || 'en',
                 exerciseType: 'crossword',
-                exerciseMode: null,
+                exerciseMode: derivedExerciseMode,
                 producers: {
                     pdf: function () { return downloadPDF(worksheetCanvas, 'printable.pdf', { returnBlob: true }); },
                     answerKey: function () { return downloadPDF(answerKeyCanvas, 'answer-key.pdf', { returnBlob: true }); },
@@ -4226,7 +4229,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         return bundle.worksheetImage;
                     }
                 },
-                metadata: buildCatalogManifestSettings()
+                metadata: manifestMeta
             });
             showMessage('Exported to catalog: ' + result.zipFileName, 'success');
         } catch (e) {

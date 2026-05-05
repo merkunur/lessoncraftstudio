@@ -405,10 +405,10 @@ var modeReconCases = [
     expectedAppClass: 'DERIVED'
   },
   {
-    label: 'CLEAN — HARDCODED_NULL app (sudoku) with declared mode (post-Commission-ε fix)',
+    label: 'CLEAN — sudoku (DERIVED post-Commission-ε) with declared "easy" mode',
     manifest: { deck_id: 'sudoku-test', exercise_type: 'sudoku', exercise_mode: 'easy' },
     expectedCategory: 'CLEAN',
-    expectedAppClass: 'HARDCODED_NULL'  // app is still classified HARDCODED_NULL until Commission ε ships
+    expectedAppClass: 'DERIVED'  // post-Commission-ε flip from HARDCODED_NULL
   },
   {
     label: 'CLEAN — code-addition with derived secret-word mode (post 5078f491)',
@@ -439,24 +439,28 @@ var modeReconCases = [
     expectedAppClass: 'DERIVED'
   },
 
-  // MODE_NULL_FROM_HARDCODED_APP — known defect per Commission ε
+  // CLEAN — post-Commission-ε flip: these apps are now DERIVED. null is
+  // legitimate per their locked-taxonomy default-mode contracts (e.g.,
+  // sudoku=easy emits null; wordsearch=mixed emits null; alphabet-train
+  // is single-mode so always null). HARDCODED_NULL classification is
+  // empty post-Commission-ε.
   {
-    label: 'MODE_NULL_FROM_HARDCODED_APP — sudoku with null',
+    label: 'CLEAN — sudoku (DERIVED) with null (easy default-mode contract)',
     manifest: { deck_id: 'sudoku-null', exercise_type: 'sudoku', exercise_mode: null },
-    expectedCategory: 'MODE_NULL_FROM_HARDCODED_APP',
-    expectedAppClass: 'HARDCODED_NULL'
+    expectedCategory: 'CLEAN',
+    expectedAppClass: 'DERIVED'
   },
   {
-    label: 'MODE_NULL_FROM_HARDCODED_APP — wordsearch with null',
+    label: 'CLEAN — wordsearch (DERIVED) with null (mixed default-mode contract)',
     manifest: { deck_id: 'wordsearch-null', exercise_type: 'wordsearch', exercise_mode: null },
-    expectedCategory: 'MODE_NULL_FROM_HARDCODED_APP',
-    expectedAppClass: 'HARDCODED_NULL'
+    expectedCategory: 'CLEAN',
+    expectedAppClass: 'DERIVED'
   },
   {
-    label: 'MODE_NULL_FROM_HARDCODED_APP — alphabet-train with absent exercise_mode field',
+    label: 'CLEAN — alphabet-train (DERIVED, single-mode) with absent exercise_mode field',
     manifest: { deck_id: 'alphabet-train-missing', exercise_type: 'alphabet-train' /* exercise_mode absent */ },
-    expectedCategory: 'MODE_NULL_FROM_HARDCODED_APP',
-    expectedAppClass: 'HARDCODED_NULL'
+    expectedCategory: 'CLEAN',
+    expectedAppClass: 'DERIVED'
   },
 
   // CLEAN — unknown app (degraded-trust)
@@ -530,9 +534,10 @@ canonical29.forEach(function (app) {
   if (classCounts[cls] !== undefined) classCounts[cls]++;
 });
 console.log('  DERIVED: ' + classCounts.DERIVED + '  HARDCODED_NULL: ' + classCounts.HARDCODED_NULL);
-var classDistributionFailed = (classCounts.DERIVED !== 13 || classCounts.HARDCODED_NULL !== 16) ? 1 : 0;
+// Post-Commission-ε: all 29 apps DERIVED; HARDCODED_NULL list empty.
+var classDistributionFailed = (classCounts.DERIVED !== 29 || classCounts.HARDCODED_NULL !== 0) ? 1 : 0;
 if (classDistributionFailed) {
-  console.log('  FAIL — expected DERIVED=13 + HARDCODED_NULL=16; got DERIVED=' + classCounts.DERIVED + ' + HARDCODED_NULL=' + classCounts.HARDCODED_NULL);
+  console.log('  FAIL — expected DERIVED=29 + HARDCODED_NULL=0 (post-Commission-ε); got DERIVED=' + classCounts.DERIVED + ' + HARDCODED_NULL=' + classCounts.HARDCODED_NULL);
 }
 
 var totalFailed = failed + seedFailed + pathFailed + reconFailed + modeReconFailed + classCoverageFailed + classDistributionFailed;

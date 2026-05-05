@@ -4877,11 +4877,16 @@ async function downloadPDF(canvasToExport, baseFilename, opts) {
                 }
                 return cachedBundle;
             };
+            // Commission ε emit-site fix: patternSelect drives mode (AB=null default + 4 named alternatives).
+            var manifestMeta = buildCatalogManifestSettings();
+            var pattern = (document.getElementById('patternSelect') || {}).value;
+            var patternMap = { AAB: 'aab', ABB: 'abb', ABC: 'abc', AABB: 'aabb' };
+            var derivedExerciseMode = pattern ? (patternMap[pattern] || null) : null;
             var result = await window.LCSCatalogExport.export({
                 app: { name: 'pattern-train', version: '11.0.0', bundleVersion: 11 },
                 language: window.currentLocale || 'en',
                 exerciseType: 'pattern-train',
-                exerciseMode: null,
+                exerciseMode: derivedExerciseMode,
                 producers: {
                     pdf: function () { return downloadPDF(worksheetCanvas, 'printable', { returnBlob: true }); },
                     answerKey: function () { return downloadPDF(answerKeyCanvas, 'answer-key', { returnBlob: true }); },
@@ -4894,7 +4899,7 @@ async function downloadPDF(canvasToExport, baseFilename, opts) {
                         return bundle.worksheetImage;
                     }
                 },
-                metadata: buildCatalogManifestSettings()
+                metadata: manifestMeta
             });
             showMessage(((typeof t === 'function' && t('catalogExportSuccess')) || 'Exported to catalog: ') + result.zipFileName, 'success');
         } catch (e) {

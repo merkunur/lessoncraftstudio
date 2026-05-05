@@ -4499,11 +4499,17 @@ async function downloadPDF(canvasToExport, fileName = 'download', opts) {
                     }
                     return cachedBundle;
                 };
+                // Commission ε emit-site fix: difficulty radio drives mode (0=no-clues null default vs 2=easy / 4=normal / 6=tough).
+                var manifestMeta = buildCatalogManifestSettings();
+                var diffEl = document.querySelector('input[name="difficulty"]:checked');
+                var difficulty = diffEl ? parseInt(diffEl.value, 10) : 0;
+                var difficultyMap = { 2: 'easy', 4: 'normal', 6: 'tough' };
+                var derivedExerciseMode = difficultyMap[difficulty] || null;
                 var result = await window.LCSCatalogExport.export({
                     app: { name: 'word-guess', version: '13.0.0', bundleVersion: 13 },
                     language: window.currentLocale || 'en',
                     exerciseType: 'word-guess',
-                    exerciseMode: null,
+                    exerciseMode: derivedExerciseMode,
                     producers: {
                         pdf: function () { return downloadPDF(worksheetCanvas, 'printable', { returnBlob: true }); },
                         answerKey: function () { return downloadPDF(answerKeyCanvas, 'answer-key', { returnBlob: true }); },
@@ -4516,7 +4522,7 @@ async function downloadPDF(canvasToExport, fileName = 'download', opts) {
                             return bundle.worksheetImage;
                         }
                     },
-                    metadata: buildCatalogManifestSettings()
+                    metadata: manifestMeta
                 });
                 showMessage(((typeof t === 'function' && t('catalogExportSuccess')) || 'Exported to catalog: ') + result.zipFileName, 'success');
             } catch (e) {

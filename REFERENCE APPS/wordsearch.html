@@ -4938,11 +4938,16 @@ async function downloadPDF(canvasToExport, fileName, opts) {
                 }
                 return cachedBundle;
             };
+            // Commission ε emit-site fix: showOnlyImages/showOnlyWords drives mode (both unchecked=mixed null default vs image-only / word-only).
+            var manifestMeta = buildCatalogManifestSettings();
+            var showImages = (document.getElementById('showOnlyImages') || {}).checked;
+            var showWords = (document.getElementById('showOnlyWords') || {}).checked;
+            var derivedExerciseMode = showImages ? 'image-only' : (showWords ? 'word-only' : null);
             var result = await window.LCSCatalogExport.export({
                 app: { name: 'wordsearch', version: '15.0.0', bundleVersion: 15 },
                 language: window.currentLocale || 'en',
                 exerciseType: 'wordsearch',
-                exerciseMode: null,
+                exerciseMode: derivedExerciseMode,
                 producers: {
                     pdf: function () { return downloadPDF(worksheetCanvas, 'printable.pdf', { returnBlob: true }); },
                     answerKey: function () { return downloadPDF(answerKeyCanvas, 'answer-key.pdf', { returnBlob: true }); },
@@ -4955,7 +4960,7 @@ async function downloadPDF(canvasToExport, fileName, opts) {
                         return bundle.worksheetImage;
                     }
                 },
-                metadata: buildCatalogManifestSettings()
+                metadata: manifestMeta
             });
             showMessage((t('catalogExportSuccess') || 'Exported to catalog: ') + result.zipFileName, 'success');
         } catch (e) {

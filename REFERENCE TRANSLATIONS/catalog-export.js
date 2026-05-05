@@ -557,7 +557,7 @@
     } else if (locale && title) {
       var slug = slugify(title);
       if (slug) {
-        url = 'https://lessoncraftstudio.com/' + locale + '/decks/' + slug + '/';
+        url = 'https://www.lessoncraftstudio.com/' + locale + '/decks/' + slug + '/';
       }
     }
 
@@ -740,7 +740,7 @@
     } else if (locale && title) {
       var slug = slugify(title);
       if (slug) {
-        url = 'https://lessoncraftstudio.com/' + locale + '/decks/' + slug + '/';
+        url = 'https://www.lessoncraftstudio.com/' + locale + '/decks/' + slug + '/';
       }
     }
 

@@ -5024,6 +5024,7 @@
         parts.push('    <nav class="lcs-progress" id="lcs-progress" aria-label="Problem progress"></nav>');
         parts.push('    <button type="button" id="lcs-mute" class="lcs-mute" aria-label="Mute sounds"></button>');
         parts.push('    ' + LCSCatalogExport.buildShareAffordance({ locale: lang, title: displayTitle }));
+        parts.push('    ' + LCSCatalogExport.buildEmbedAffordance({ locale: lang, title: displayTitle }));
         parts.push('  </div>');
         if (seo.instruction) {
             parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');

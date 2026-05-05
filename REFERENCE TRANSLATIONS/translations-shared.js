@@ -52,7 +52,24 @@ const SHARED_TRANSLATIONS = {
     "srShareAriaWhatsApp": "Share on WhatsApp",
     "srShareAriaPinterest": "Share on Pinterest",
     "srShareAriaEmail": "Share via email",
-    "srShareAriaCopyLink": "Copy link"
+    "srShareAriaCopyLink": "Copy link",
+
+    // Embed v1 — labels for the in-deck embed affordance
+    // (LCSCatalogExport.buildEmbedAffordance). Authored 2026-05-05 per
+    // operator-locked snippet design spec; canonical snippet emits two
+    // backlinks per the §1 SEO+embed-virality acquisition flywheel.
+    "embedHeader": "Embed this worksheet on your site",
+    "embedHelper": "Paste this into your website's HTML",
+    "embedWidthLabel": "Width",
+    "embedHeightLabel": "Height",
+    "embedCopyButton": "Copy code",
+    "embedCopiedFeedback": "Copied!",
+    "embedClose": "Close",
+    "embedButtonTooltip": "Embed this worksheet",
+    "embedAttributionPrefix": "Worksheet from",
+    "embedAttributionBrand": "LessonCraftStudio",
+    "embedAttributionSeparator": " — ",
+    "embedAttributionKeyword": "free printable worksheets"
   },
   "de": {
     "srShapeSquare": "Quadrat",
@@ -79,7 +96,159 @@ const SHARED_TRANSLATIONS = {
     "srShareAriaWhatsApp": "Auf WhatsApp teilen",
     "srShareAriaPinterest": "Auf Pinterest teilen",
     "srShareAriaEmail": "Per E-Mail teilen",
-    "srShareAriaCopyLink": "Link kopieren"
+    "srShareAriaCopyLink": "Link kopieren",
+
+    // Embed v1 — labels for the in-deck embed affordance.
+    "embedHeader": "Dieses Arbeitsblatt auf Ihrer Website einbetten",
+    "embedHelper": "Fügen Sie dies in den HTML-Code Ihrer Website ein",
+    "embedWidthLabel": "Breite",
+    "embedHeightLabel": "Höhe",
+    "embedCopyButton": "Code kopieren",
+    "embedCopiedFeedback": "Kopiert!",
+    "embedClose": "Schließen",
+    "embedButtonTooltip": "Dieses Arbeitsblatt einbetten",
+    "embedAttributionPrefix": "Arbeitsblatt von",
+    "embedAttributionBrand": "LessonCraftStudio",
+    "embedAttributionSeparator": " — ",
+    "embedAttributionKeyword": "kostenlose druckbare Arbeitsblätter"
+  },
+
+  // Tier-1+2 + Tier-4 Romance locales — operator-best-effort embed authoring
+  // (Claude has stronger quality assessment in these languages per §17.5).
+  // Embed keys only; existing srShare/srShape keys for these locales fall
+  // through to en via §17.8.14 srLang-keyed lookup convention.
+  "es": {
+    "embedHeader": "Incrustar esta hoja de trabajo en tu sitio",
+    "embedHelper": "Pega esto en el HTML de tu sitio web",
+    "embedWidthLabel": "Ancho",
+    "embedHeightLabel": "Alto",
+    "embedCopyButton": "Copiar código",
+    "embedCopiedFeedback": "¡Copiado!",
+    "embedClose": "Cerrar",
+    "embedButtonTooltip": "Incrustar esta hoja de trabajo",
+    "embedAttributionPrefix": "Hoja de trabajo de",
+    "embedAttributionBrand": "LessonCraftStudio",
+    "embedAttributionSeparator": " — ",
+    "embedAttributionKeyword": "hojas de trabajo imprimibles gratis"
+  },
+  "nl": {
+    "embedHeader": "Dit werkblad op je site insluiten",
+    "embedHelper": "Plak dit in de HTML van je website",
+    "embedWidthLabel": "Breedte",
+    "embedHeightLabel": "Hoogte",
+    "embedCopyButton": "Code kopiëren",
+    "embedCopiedFeedback": "Gekopieerd!",
+    "embedClose": "Sluiten",
+    "embedButtonTooltip": "Dit werkblad insluiten",
+    "embedAttributionPrefix": "Werkblad van",
+    "embedAttributionBrand": "LessonCraftStudio",
+    "embedAttributionSeparator": " — ",
+    "embedAttributionKeyword": "gratis printbare werkbladen"
+  },
+  "fr": {
+    "embedHeader": "Intégrer cette fiche sur votre site",
+    "embedHelper": "Collez ceci dans le HTML de votre site web",
+    "embedWidthLabel": "Largeur",
+    "embedHeightLabel": "Hauteur",
+    "embedCopyButton": "Copier le code",
+    "embedCopiedFeedback": "Copié !",
+    "embedClose": "Fermer",
+    "embedButtonTooltip": "Intégrer cette fiche",
+    "embedAttributionPrefix": "Fiche de",
+    "embedAttributionBrand": "LessonCraftStudio",
+    "embedAttributionSeparator": " — ",
+    "embedAttributionKeyword": "fiches imprimables gratuites"
+  },
+  "it": {
+    "embedHeader": "Incorpora questa scheda sul tuo sito",
+    "embedHelper": "Incolla questo nell'HTML del tuo sito web",
+    "embedWidthLabel": "Larghezza",
+    "embedHeightLabel": "Altezza",
+    "embedCopyButton": "Copia codice",
+    "embedCopiedFeedback": "Copiato!",
+    "embedClose": "Chiudi",
+    "embedButtonTooltip": "Incorpora questa scheda",
+    "embedAttributionPrefix": "Scheda di",
+    "embedAttributionBrand": "LessonCraftStudio",
+    "embedAttributionSeparator": " — ",
+    "embedAttributionKeyword": "schede stampabili gratuite"
+  },
+  "pt": {
+    // Brazilian Portuguese canonical per §6 (single 'pt' locale code; BR register).
+    "embedHeader": "Incorporar esta atividade no seu site",
+    "embedHelper": "Cole isto no HTML do seu site",
+    "embedWidthLabel": "Largura",
+    "embedHeightLabel": "Altura",
+    "embedCopyButton": "Copiar código",
+    "embedCopiedFeedback": "Copiado!",
+    "embedClose": "Fechar",
+    "embedButtonTooltip": "Incorporar esta atividade",
+    "embedAttributionPrefix": "Atividade de",
+    "embedAttributionBrand": "LessonCraftStudio",
+    "embedAttributionSeparator": " — ",
+    "embedAttributionKeyword": "atividades gratuitas para imprimir"
+  },
+
+  // Nordic locales — operator-best-effort embed authoring + NSR-flagged
+  // per §17.5.1 (Claude's quality assessment in sv/da/no/fi is weaker).
+  // Future native-speaker review pass refines these without re-shipping the
+  // full Embed Layer-2 commission.
+  "sv": {
+    "embedHeader": "Bädda in detta arbetsblad på din webbplats",
+    "embedHelper": "Klistra in detta i din webbplats HTML",
+    "embedWidthLabel": "Bredd",
+    "embedHeightLabel": "Höjd",
+    "embedCopyButton": "Kopiera kod",
+    "embedCopiedFeedback": "Kopierat!",
+    "embedClose": "Stäng",
+    "embedButtonTooltip": "Bädda in detta arbetsblad",
+    "embedAttributionPrefix": "Arbetsblad från",
+    "embedAttributionBrand": "LessonCraftStudio",
+    "embedAttributionSeparator": " — ",
+    "embedAttributionKeyword": "gratis utskrivbara arbetsblad"
+  },
+  "da": {
+    "embedHeader": "Indlejr dette arbejdsark på dit websted",
+    "embedHelper": "Indsæt dette i HTML'en på dit websted",
+    "embedWidthLabel": "Bredde",
+    "embedHeightLabel": "Højde",
+    "embedCopyButton": "Kopiér kode",
+    "embedCopiedFeedback": "Kopieret!",
+    "embedClose": "Luk",
+    "embedButtonTooltip": "Indlejr dette arbejdsark",
+    "embedAttributionPrefix": "Arbejdsark fra",
+    "embedAttributionBrand": "LessonCraftStudio",
+    "embedAttributionSeparator": " — ",
+    "embedAttributionKeyword": "gratis printbare arbejdsark"
+  },
+  "no": {
+    // Bokmål canonical per §6 (single 'no' locale code).
+    "embedHeader": "Bygg inn dette arbeidsarket på nettstedet ditt",
+    "embedHelper": "Lim dette inn i HTML-koden på nettstedet ditt",
+    "embedWidthLabel": "Bredde",
+    "embedHeightLabel": "Høyde",
+    "embedCopyButton": "Kopier kode",
+    "embedCopiedFeedback": "Kopiert!",
+    "embedClose": "Lukk",
+    "embedButtonTooltip": "Bygg inn dette arbeidsarket",
+    "embedAttributionPrefix": "Arbeidsark fra",
+    "embedAttributionBrand": "LessonCraftStudio",
+    "embedAttributionSeparator": " — ",
+    "embedAttributionKeyword": "gratis utskrivbare arbeidsark"
+  },
+  "fi": {
+    "embedHeader": "Upota tämä työarkki sivustollesi",
+    "embedHelper": "Liitä tämä sivustosi HTML-koodiin",
+    "embedWidthLabel": "Leveys",
+    "embedHeightLabel": "Korkeus",
+    "embedCopyButton": "Kopioi koodi",
+    "embedCopiedFeedback": "Kopioitu!",
+    "embedClose": "Sulje",
+    "embedButtonTooltip": "Upota tämä työarkki",
+    "embedAttributionPrefix": "Työarkki:",
+    "embedAttributionBrand": "LessonCraftStudio",
+    "embedAttributionSeparator": " — ",
+    "embedAttributionKeyword": "ilmaiset tulostettavat työarkit"
   }
 };
 

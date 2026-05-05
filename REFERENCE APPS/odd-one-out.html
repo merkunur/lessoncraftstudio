@@ -4285,6 +4285,7 @@
           parts.push('    <span class="lcs-progress" id="lcs-progress" aria-live="polite">0 / 0</span>');
           parts.push('    <button type="button" id="lcs-mute" class="lcs-mute" aria-label="Mute sounds"></button>');
           parts.push('    ' + LCSCatalogExport.buildShareAffordance({ locale: lang, title: title }));
+          parts.push('    ' + LCSCatalogExport.buildEmbedAffordance({ locale: lang, title: title }));
           parts.push('  </div>');
           if (seo.instruction) {
               parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');

@@ -17,6 +17,7 @@
  *   window.LCSCatalogExport.buildSrRows(opts)            → string of per-row sr-only HTML (Group A)
  *   window.LCSCatalogExport.buildSrPuzzleSummary(opts)   → string of deck-level sr-only HTML (Group B/C)
  *   window.LCSCatalogExport.buildShareAffordance(opts)   → string of in-deck share affordance HTML+CSS+JS
+ *   window.LCSCatalogExport.buildEmbedAffordance(opts)   → string of in-deck embed affordance HTML+CSS+JS
  *   window.LCSCatalogExport.HREFLANG_MARKER              → string, hreflang insertion-point comment
  *
  * The export either succeeds completely or throws — never produces a partial ZIP.
@@ -680,6 +681,240 @@
   }
 
   /**
+   * buildEmbedAffordance — returns a self-contained string of HTML+CSS+inline-JS
+   * for embedding inside lcs-bar (top-right, immediately after the share button)
+   * as a 40×40 icon button with .lcs-embed class. Click → opens an overlay with:
+   *   - Header text ("Embed this worksheet on your site")
+   *   - Width + Height number inputs (default 800 × 600)
+   *   - Live-updated <textarea> showing the iframe snippet
+   *   - Copy button with progressive Clipboard API → execCommand fallback
+   *   - Helper text + Close button
+   *
+   * Width/height inputs update the textarea on input/change events. Copy button
+   * uses a 2-second feedback state matching the share affordance's copy-link
+   * pattern at §17.8.15.
+   *
+   * Resolution order for canonicalURL — same as buildShareAffordance:
+   *   1. opts.canonicalURL provided AND not __PLACEHOLDER__-shape → use as-is
+   *   2. canonicalURL absent/placeholder, locale + title both present →
+   *      construct https://lessoncraftstudio.com/<locale>/decks/<slugify(title)>/
+   *   3. Insufficient inputs → return empty string (defensive skip per §17.8.11)
+   *
+   * Per §17.8.15 in-iframe attribution-only convention: the embed snippet itself
+   * is bare iframe markup; in-iframe lcs-attrib-link (§14.3) carries the
+   * attribution. No duplicate attribution in the snippet.
+   *
+   * Per operator-locked adjudications (Layer-2 commission, 2026-05-05):
+   *   - Default 800×600 (4:3 desktop classroom-blog standard)
+   *   - In-iframe attribution only; embed snippet is bare iframe
+   *   - No embed-tracking instrumentation in v1
+   *   - Free for any visitor (no signup gate)
+   *
+   * Translation keys consumed (from translations-shared.js, baked at generation
+   * time per the §17.8.14 srLang-keyed lookup convention):
+   *   embedHeader, embedHelper, embedWidthLabel, embedHeightLabel,
+   *   embedCopyButton, embedCopiedFeedback, embedClose, embedButtonTooltip
+   *
+   * Per-app integration in renderStandaloneHTML(): immediately after the
+   * buildShareAffordance call in lcs-bar markup:
+   *   parts.push('    ' + LCSCatalogExport.buildEmbedAffordance({
+   *       locale: lang,
+   *       title: title
+   *   }));
+   */
+  function buildEmbedAffordance(opts) {
+    opts = opts || {};
+    var canonicalURL = opts.canonicalURL;
+    var locale = opts.locale || 'en';
+    var title = opts.title || '';
+    var defaultWidth = opts.defaultWidth || 800;
+    var defaultHeight = opts.defaultHeight || 600;
+
+    function isPlaceholder(s) {
+      return typeof s === 'string' && /^__[A-Z_]+__$/.test(s);
+    }
+
+    var url = null;
+    if (canonicalURL && typeof canonicalURL === 'string' && !isPlaceholder(canonicalURL)) {
+      url = canonicalURL;
+    } else if (locale && title) {
+      var slug = slugify(title);
+      if (slug) {
+        url = 'https://lessoncraftstudio.com/' + locale + '/decks/' + slug + '/';
+      }
+    }
+
+    // Defensive skip per §17.8.11: no real URL means no meaningful embed target.
+    if (!url) return '';
+
+    // Bare-translations lookup per §17.8.14 srLang-keyed convention.
+    var t = (typeof translations !== 'undefined' && translations[locale]) || {};
+    var ten = (typeof translations !== 'undefined' && translations.en) || {};
+    function str(key, fallback) { return t[key] || ten[key] || fallback; }
+
+    var labelHeader = str('embedHeader', 'Embed this worksheet on your site');
+    var labelHelper = str('embedHelper', "Paste this into your website's HTML");
+    var labelWidth = str('embedWidthLabel', 'Width');
+    var labelHeight = str('embedHeightLabel', 'Height');
+    var labelCopy = str('embedCopyButton', 'Copy code');
+    var labelCopied = str('embedCopiedFeedback', 'Copied!');
+    var labelClose = str('embedClose', 'Close');
+    var labelTooltip = str('embedButtonTooltip', 'Embed this worksheet');
+
+    // Attribution caption strings per the canonical snippet shape locked at the
+    // 2026-05-05 design-spec follow-up. The snippet emits two <a href> backlinks
+    // OUTSIDE the iframe (Google's link-equity model treats iframes as non-
+    // backlinks; only outside <a href> elements count). First link points to
+    // the deck URL with brand-anchor text; second points to homepage with
+    // keyword-anchor text — anchor-diversity to avoid over-optimization
+    // signals + concentrate ranking signal on the long-tail deck page.
+    var attribPrefix = str('embedAttributionPrefix', 'Worksheet from');
+    var attribBrand = str('embedAttributionBrand', 'LessonCraftStudio');
+    var attribSeparator = str('embedAttributionSeparator', ' — ');
+    var attribKeyword = str('embedAttributionKeyword', 'free printable worksheets');
+    var homepageURL = 'https://www.lessoncraftstudio.com';
+
+    function escAttr(s) {
+      return String(s == null ? '' : s)
+        .replace(/&/g, '&amp;')
+        .replace(/"/g, '&quot;')
+        .replace(/</g, '&lt;');
+    }
+    function escHtml(s) {
+      return String(s == null ? '' : s)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+    }
+
+    // HTML-escape the localized attribution strings at generation time so the
+    // snippet output is HTML-safe when pasted into a host page. The textarea
+    // shows the escaped form; copy-paste preserves it; browser renders normally.
+    var attribPrefixHtml = escHtml(attribPrefix);
+    var attribBrandHtml = escHtml(attribBrand);
+    var attribSeparatorHtml = escHtml(attribSeparator);
+    var attribKeywordHtml = escHtml(attribKeyword);
+
+    return [
+      '<div class="lcs-embed-wrap">',
+      '  <button type="button" class="lcs-embed" id="lcs-embed"',
+      '          aria-label="' + escAttr(labelTooltip) + '" aria-haspopup="dialog" aria-expanded="false">',
+      '    <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">',
+      '      <polyline points="16 18 22 12 16 6"/>',
+      '      <polyline points="8 6 2 12 8 18"/>',
+      '    </svg>',
+      '  </button>',
+      '  <div class="lcs-embed-overlay" id="lcs-embed-overlay" hidden role="dialog" aria-label="' + escAttr(labelHeader) + '">',
+      '    <div class="lcs-embed-sheet">',
+      '      <div class="lcs-embed-header">' + escAttr(labelHeader) + '</div>',
+      '      <div class="lcs-embed-dims">',
+      '        <label class="lcs-embed-dim">',
+      '          <span class="lcs-embed-dim-label">' + escAttr(labelWidth) + '</span>',
+      '          <input type="number" id="lcs-embed-width" value="' + defaultWidth + '" min="200" max="2000" step="10">',
+      '        </label>',
+      '        <label class="lcs-embed-dim">',
+      '          <span class="lcs-embed-dim-label">' + escAttr(labelHeight) + '</span>',
+      '          <input type="number" id="lcs-embed-height" value="' + defaultHeight + '" min="200" max="2000" step="10">',
+      '        </label>',
+      '      </div>',
+      '      <textarea id="lcs-embed-snippet" readonly aria-label="' + escAttr(labelHeader) + '"></textarea>',
+      '      <div class="lcs-embed-helper">' + escAttr(labelHelper) + '</div>',
+      '      <div class="lcs-embed-actions">',
+      '        <button type="button" class="lcs-embed-copy" id="lcs-embed-copy" data-label-default="' + escAttr(labelCopy) + '" data-label-copied="' + escAttr(labelCopied) + '">' + escAttr(labelCopy) + '</button>',
+      '        <button type="button" class="lcs-embed-close" id="lcs-embed-close">' + escAttr(labelClose) + '</button>',
+      '      </div>',
+      '    </div>',
+      '  </div>',
+      '</div>',
+      '<style>',
+      '.lcs-embed-wrap{position:relative;display:inline-flex;flex-shrink:0}',
+      '.lcs-embed{width:40px;height:40px;border-radius:10px;border:2px solid #DCE1E6;background:#FFF;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;color:#545458;flex-shrink:0}',
+      '.lcs-embed:hover{background:#FEFAF3}',
+      '.lcs-embed:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+      '.lcs-embed svg{width:20px;height:20px;pointer-events:none}',
+      '.lcs-embed-overlay{position:absolute;top:calc(100% + 8px);right:0;z-index:100;min-width:340px;max-width:calc(100vw - 32px)}',
+      '.lcs-embed-overlay[hidden]{display:none}',
+      '.lcs-embed-sheet{background:#FFF;border:2px solid #DCE1E6;border-radius:12px;box-shadow:0 4px 18px rgba(28,28,30,.18);padding:16px;display:grid;gap:12px}',
+      '.lcs-embed-header{font-family:inherit;font-size:15px;font-weight:600;color:#1C1C1E;line-height:1.3}',
+      '.lcs-embed-dims{display:grid;grid-template-columns:1fr 1fr;gap:10px}',
+      '.lcs-embed-dim{display:flex;flex-direction:column;gap:4px}',
+      '.lcs-embed-dim-label{font-family:inherit;font-size:13px;font-weight:500;color:#545458}',
+      '.lcs-embed-dim input{font-family:inherit;font-size:14px;padding:8px 10px;border-radius:8px;border:2px solid #DCE1E6;background:#FFF;color:#1C1C1E;width:100%;-webkit-appearance:none;appearance:none}',
+      '.lcs-embed-dim input:focus-visible{outline:none;border-color:#4E5FE8;box-shadow:0 0 0 3px rgba(78,95,232,.18)}',
+      '#lcs-embed-snippet{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:12px;line-height:1.4;padding:10px;border-radius:8px;border:2px solid #DCE1E6;background:#F4F6FB;color:#1C1C1E;width:100%;min-height:80px;resize:vertical;-webkit-appearance:none;appearance:none}',
+      '#lcs-embed-snippet:focus-visible{outline:none;border-color:#4E5FE8;box-shadow:0 0 0 3px rgba(78,95,232,.18)}',
+      '.lcs-embed-helper{font-family:inherit;font-size:12px;color:#545458;line-height:1.4}',
+      '.lcs-embed-actions{display:flex;gap:8px;justify-content:flex-end}',
+      '.lcs-embed-copy,.lcs-embed-close{font-family:inherit;font-size:14px;font-weight:600;padding:9px 16px;border-radius:8px;cursor:pointer;border:none;transition:background-color .15s}',
+      '.lcs-embed-copy{background:#4E5FE8;color:#FFF}',
+      '.lcs-embed-copy:hover{background:#3F4FD0}',
+      '.lcs-embed-copy:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+      '.lcs-embed-close{background:transparent;color:#1C1C1E;border:2px solid #DCE1E6}',
+      '.lcs-embed-close:hover{background:#FEFAF3}',
+      '.lcs-embed-close:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+      '</style>',
+      '<script>(function(){',
+      'var btn=document.getElementById("lcs-embed");',
+      'var overlay=document.getElementById("lcs-embed-overlay");',
+      'var widthInput=document.getElementById("lcs-embed-width");',
+      'var heightInput=document.getElementById("lcs-embed-height");',
+      'var snippet=document.getElementById("lcs-embed-snippet");',
+      'var copyBtn=document.getElementById("lcs-embed-copy");',
+      'var closeBtn=document.getElementById("lcs-embed-close");',
+      'if(!btn||!overlay||!widthInput||!heightInput||!snippet)return;',
+      'var url=' + JSON.stringify(url) + ';',
+      'var homeURL=' + JSON.stringify(homepageURL) + ';',
+      'var prefixText=' + JSON.stringify(attribPrefixHtml) + ';',
+      'var brandText=' + JSON.stringify(attribBrandHtml) + ';',
+      'var sepText=' + JSON.stringify(attribSeparatorHtml) + ';',
+      'var keywordText=' + JSON.stringify(attribKeywordHtml) + ';',
+      // Canonical snippet shape per 2026-05-05 design spec: wrapper div with
+      // max-width matching iframe + iframe with visible border + <p> caption
+      // with TWO <a href> backlinks (deck-URL with brand-anchor; homepage with
+      // keyword-anchor). All inline-styled. No <style> tags. No <script> tags.
+      // No classes. Survives strict HTML sanitizers (WordPress, Squarespace,
+      // Wix, Medium). Iframes alone are NOT backlinks per Google's link-equity
+      // model; the outside <a href> elements ARE the SEO surface.
+      'function buildSnippet(){',
+      'var w=parseInt(widthInput.value,10)||' + defaultWidth + ';',
+      'var h=parseInt(heightInput.value,10)||' + defaultHeight + ';',
+      'var lines=[];',
+      'lines.push(\'<div style="max-width: \'+w+\'px; margin: 0 auto;">\');',
+      'lines.push(\'  <iframe src="\'+url+\'" width="\'+w+\'" height="\'+h+\'" frameborder="0" style="display: block; border: 1px solid #e0d8c5; border-radius: 8px;"></iframe>\');',
+      'lines.push(\'  <p style="font-size: 13px; color: #6b6357; text-align: center; margin: 8px 0 0; font-family: system-ui, sans-serif;">\');',
+      'lines.push(\'    \'+prefixText+\' <a href="\'+url+\'" style="color: #6b6357; text-decoration: underline;">\'+brandText+\'</a>\'+sepText+\'<a href="\'+homeURL+\'" style="color: #6b6357; text-decoration: underline;">\'+keywordText+\'</a>\');',
+      'lines.push(\'  </p>\');',
+      'lines.push(\'</div>\');',
+      'return lines.join("\\n");',
+      '}',
+      'function refreshSnippet(){snippet.value=buildSnippet();}',
+      'function showOverlay(){refreshSnippet();overlay.hidden=false;btn.setAttribute("aria-expanded","true");setTimeout(function(){document.addEventListener("click",outside,true);},0);}',
+      'function hideOverlay(){overlay.hidden=true;btn.setAttribute("aria-expanded","false");document.removeEventListener("click",outside,true);}',
+      'function outside(e){if(!overlay.contains(e.target)&&e.target!==btn&&!btn.contains(e.target))hideOverlay();}',
+      'btn.addEventListener("click",function(e){e.stopPropagation();if(overlay.hidden)showOverlay();else hideOverlay();});',
+      'widthInput.addEventListener("input",refreshSnippet);',
+      'heightInput.addEventListener("input",refreshSnippet);',
+      'if(closeBtn){closeBtn.addEventListener("click",function(e){e.preventDefault();e.stopPropagation();hideOverlay();});}',
+      'if(copyBtn){',
+      'copyBtn.addEventListener("click",function(e){',
+      'e.preventDefault();e.stopPropagation();',
+      'var labelDefault=copyBtn.getAttribute("data-label-default");',
+      'var labelCopied=copyBtn.getAttribute("data-label-copied");',
+      'var done=function(){copyBtn.textContent=labelCopied;setTimeout(function(){copyBtn.textContent=labelDefault;},2000);};',
+      'var text=snippet.value;',
+      'if(navigator.clipboard&&navigator.clipboard.writeText){',
+      'navigator.clipboard.writeText(text).then(done).catch(function(){});',
+      '}else{',
+      'snippet.select();try{document.execCommand("copy");done();}catch(e){}',
+      '}',
+      '});',
+      '}',
+      'refreshSnippet();',
+      '})();<\/script>'
+    ].join('\n');
+  }
+
+  /**
    * buildResponsiveFitSnippet — returns embedded <style> + <script> that
    * activate a compact landscape-mobile layout: on a phone in landscape
    * orientation viewing a landscape worksheet, hide the title bar and
@@ -968,6 +1203,7 @@
     buildSrRows: buildSrRows,
     buildSrPuzzleSummary: buildSrPuzzleSummary,
     buildShareAffordance: buildShareAffordance,
+    buildEmbedAffordance: buildEmbedAffordance,
     buildResponsiveFitSnippet: buildResponsiveFitSnippet,
     vocabKeyFromImage: vocabKeyFromImage,
     HREFLANG_MARKER: HREFLANG_MARKER,

@@ -3037,6 +3037,7 @@
           parts.push('    <h1 class="lcs-title" id="lcs-title">' + title + '</h1>');
           parts.push('    <button type="button" id="lcs-mute" class="lcs-mute" aria-label="Mute sounds"></button>');
           parts.push('    ' + LCSCatalogExport.buildShareAffordance({ locale: lang, title: title }));
+          parts.push('    ' + LCSCatalogExport.buildEmbedAffordance({ locale: lang, title: title }));
           parts.push('  </div>');
           if (seo.instruction) {
               parts.push('  <p class="lcs-sr">' + escapeHtml(seo.instruction) + '</p>');

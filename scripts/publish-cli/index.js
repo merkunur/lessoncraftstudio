@@ -131,6 +131,25 @@ function dryRunSingle(zipPath, stagingDir) {
     process.exit(3);
   }
 
+  // manifest.theme reconciliation gate per §A.13. Halts before slug
+  // derivation runs when authoring-tool emit-defects produce metadata-
+  // content disagreement (the code-addition v6.0.0 emit-defect class).
+  var recon = slugMod.reconcileManifestTheme(manifest);
+  if (recon.category !== 'CLEAN') {
+    console.error('manifest.theme reconciliation [' + recon.category + ']');
+    console.error('  deck_id:   ' + (recon.deckId || '?'));
+    console.error('  app:       ' + (recon.app || '?'));
+    console.error('  declared:  ' + JSON.stringify(recon.declared));
+    console.error('  primary:   ' + JSON.stringify(recon.primary) + '   (image.theme)');
+    console.error('  secondary: ' + JSON.stringify(recon.secondary) + '   (path-derived; null when CUID-shaped)');
+    console.error('');
+    console.error('  Emit-defect at the authoring-tool side. Fix the authoring tool to');
+    console.error('  emit manifest.theme matching actual content, OR regenerate this deck.');
+    console.error('  Reconciliation is a hard gate; no override path is provided.');
+    console.error('  See CLAUDE.md §A.13 + 9850df93 audit.');
+    process.exit(1);
+  }
+
   var deckHtml;
   try {
     deckHtml = bundle.readDeckHtml(b);
@@ -283,16 +302,30 @@ async function publishBulkCmd(parsed) {
       });
       var collisions = dry.results.filter(function (r) { return r.collision; }).length;
       var errored = dry.results.filter(function (r) { return r.errors && r.errors.length; }).length;
+      var reconHalted = dry.results.filter(function (r) {
+        return r.themeReconciliation && r.themeReconciliation.category !== 'CLEAN';
+      }).length;
       var ok = dry.results.filter(function (r) { return r.ok; }).length;
       console.log('');
       console.log('[bulk dry-run] Batch: ' + dry.batchId);
       console.log('[bulk dry-run] Staging: ' + dry.stagingDir);
       console.log('[bulk dry-run] ZIPs: ' + dry.results.length +
-        '  ok=' + ok + '  collisions=' + collisions + '  errored=' + errored);
+        '  ok=' + ok + '  collisions=' + collisions + '  errored=' + errored +
+        '  reconciliation_halts=' + reconHalted);
       console.log('[bulk dry-run] Inspect:');
       console.log('  ' + path.join(dry.stagingDir, '_summary.txt'));
       console.log('  ' + path.join(dry.stagingDir, '_collisions.txt'));
       console.log('  ' + path.join(dry.stagingDir, '_errors.txt'));
+      console.log('  ' + path.join(dry.stagingDir, '_reconciliation.txt'));
+      // Reconciliation halts subsume per-zip errors; the same ZIPs surface
+      // in both _errors.txt (with category-prefixed message) and the more
+      // structured _reconciliation.txt.
+      if (reconHalted > 0) {
+        console.error('');
+        console.error('[bulk dry-run] manifest.theme reconciliation halt: ' +
+          reconHalted + ' of ' + dry.results.length + ' ZIPs surface metadata-content disagreement.');
+        console.error('[bulk dry-run] See _reconciliation.txt for per-deck table + per-app breakdown.');
+      }
       await db.disconnect();
       process.exit((errored > 0 || collisions > 0) ? 1 : 0);
     }

@@ -71,6 +71,7 @@ async function dryRunOneZip(zipPath, stagingRoot, ctx) {
     slug: null,
     canonicalURL: null,
     collision: null,
+    themeReconciliation: null,
     errors: [],
     warnings: [],
     routedAs: null
@@ -92,6 +93,23 @@ async function dryRunOneZip(zipPath, stagingRoot, ctx) {
   }
   result.deckId = manifest.deck_id;
   result.language = manifest.language;
+
+  // Step 1b: manifest.theme reconciliation gate per §A.13. Halts batch
+  // before slug derivation runs when authoring-tool emit-defects produce
+  // metadata-content disagreement (the code-addition v6.0.0 emit-defect
+  // class). CLEAN cases continue to slug derivation; non-CLEAN attach
+  // structured reconciliation context and push category-prefixed error.
+  var recon = slugMod.reconcileManifestTheme(manifest);
+  result.themeReconciliation = recon;
+  if (recon.category !== 'CLEAN') {
+    result.errors.push(
+      'manifest.theme reconciliation [' + recon.category + ']: ' +
+      'declared=' + JSON.stringify(recon.declared) + ' ' +
+      'primary=' + JSON.stringify(recon.primary) + ' ' +
+      'secondary=' + JSON.stringify(recon.secondary)
+    );
+    return result;
+  }
 
   // Step 2: read deck.html.
   var deckHtml;
@@ -258,6 +276,64 @@ function writeBatchArtifacts(stagingRoot, results, ctx) {
     });
   }
   fs.writeFileSync(path.join(stagingRoot, '_errors.txt'), errorLines.join('\n') + '\n', 'utf8');
+
+  // _reconciliation.txt — manifest.theme reconciliation per §A.13.
+  // Surfaces non-CLEAN reconciliation results separately from generic
+  // _errors.txt so the operator can route emit-defects to the originating
+  // app rather than the generic "manifest validation" bucket.
+  var nonClean = results.filter(function (r) {
+    return r.themeReconciliation && r.themeReconciliation.category !== 'CLEAN';
+  });
+  var reconLines = [];
+  if (nonClean.length === 0) {
+    reconLines.push('manifest.theme reconciliation: ' + results.length + '/' + results.length + ' CLEAN.');
+  } else {
+    // Per-category tally
+    var byCategory = {};
+    var byApp = {};
+    nonClean.forEach(function (r) {
+      var c = r.themeReconciliation.category;
+      var a = r.themeReconciliation.app || '(unknown)';
+      byCategory[c] = (byCategory[c] || 0) + 1;
+      if (!byApp[a]) byApp[a] = {};
+      byApp[a][c] = (byApp[a][c] || 0) + 1;
+    });
+    reconLines.push('manifest.theme reconciliation halt — ' + nonClean.length + ' of ' + results.length + ' ZIPs non-CLEAN.');
+    reconLines.push('');
+    reconLines.push('Per-category tally:');
+    Object.keys(byCategory).sort().forEach(function (c) {
+      reconLines.push('  ' + byCategory[c] + '  ' + c);
+    });
+    reconLines.push('');
+    reconLines.push('Per-app breakdown:');
+    Object.keys(byApp).sort().forEach(function (a) {
+      var parts = Object.keys(byApp[a]).sort().map(function (c) {
+        return c + '=' + byApp[a][c];
+      });
+      reconLines.push('  ' + a + '  ' + parts.join(', '));
+    });
+    reconLines.push('');
+    reconLines.push(''.padStart(72, '-'));
+    reconLines.push('Per-deck reconciliation table (deck_id | category | declared | primary | secondary):');
+    reconLines.push('');
+    nonClean.forEach(function (r) {
+      var rc = r.themeReconciliation;
+      reconLines.push(r.zipBasename);
+      reconLines.push('  deck_id:   ' + (rc.deckId || '?'));
+      reconLines.push('  app:       ' + (rc.app || '?'));
+      reconLines.push('  category:  ' + rc.category);
+      reconLines.push('  declared:  ' + JSON.stringify(rc.declared));
+      reconLines.push('  primary:   ' + JSON.stringify(rc.primary) + '   (image.theme)');
+      reconLines.push('  secondary: ' + JSON.stringify(rc.secondary) + '   (path-derived; null when CUID-shaped)');
+      reconLines.push('');
+    });
+    reconLines.push(''.padStart(72, '-'));
+    reconLines.push('Action: emit-defect at the authoring-tool side. Either fix the');
+    reconLines.push('  authoring tool to emit manifest.theme matching actual content, OR');
+    reconLines.push('  regenerate the affected ZIPs. Reconciliation is a hard gate; no');
+    reconLines.push('  override path is provided. See CLAUDE.md §A.13 + 9850df93 audit.');
+  }
+  fs.writeFileSync(path.join(stagingRoot, '_reconciliation.txt'), reconLines.join('\n') + '\n', 'utf8');
 }
 
 /**
@@ -424,12 +500,17 @@ async function publishBatch(opts) {
 
   var collisions = dry.results.filter(function (r) { return r.collision; });
   var errored = dry.results.filter(function (r) { return r.errors && r.errors.length; });
+  var reconHalted = dry.results.filter(function (r) {
+    return r.themeReconciliation && r.themeReconciliation.category !== 'CLEAN';
+  });
   if (collisions.length || errored.length) {
     var msg =
       '[bulk publish] ABORT — pre-flight surfaced ' +
-      collisions.length + ' collision(s) + ' + errored.length + ' error(s).\n' +
+      collisions.length + ' collision(s) + ' + errored.length + ' error(s)' +
+      (reconHalted.length ? ' (' + reconHalted.length + ' reconciliation halt(s) included in error count)' : '') + '.\n' +
       'Inspect: ' + path.join(dry.stagingDir, '_collisions.txt') + '\n' +
       '         ' + path.join(dry.stagingDir, '_errors.txt') + '\n' +
+      (reconHalted.length ? '         ' + path.join(dry.stagingDir, '_reconciliation.txt') + '\n' : '') +
       'Resolve via --updates-manifest or by renaming/dropping offending ZIPs, then re-run with --confirm.';
     console.error(msg);
     return { batchId: dry.batchId, stagingDir: dry.stagingDir, outcomes: [], abortReason: 'pre-flight-failed' };

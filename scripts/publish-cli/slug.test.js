@@ -175,5 +175,222 @@ seedCases.forEach(function (c, i) {
 console.log('---');
 console.log('deriveSeedFromManifest tests: ' + seedPassed + ' passed, ' + seedFailed + ' failed (of ' + seedCases.length + ')');
 
-var totalFailed = failed + seedFailed;
+// parseThemeFromImagePath tests (§A.13 reconciliation gate dependency).
+console.log('');
+console.log('parseThemeFromImagePath tests:');
+var pathCases = [
+  { label: 'standard theme dir',
+    path: '/images/animals/cat-1769386104449-fcf95632.webp',
+    expected: 'animals' },
+  { label: 'underscore theme dir',
+    path: '/images/farm_animals/cow-1769386104.webp',
+    expected: 'farm_animals' },
+  { label: '4th_of_july numeric-leading dir',
+    path: '/images/4th_of_july/balloon.webp',
+    expected: '4th_of_july' },
+  { label: 'BW theme variant',
+    path: '/images/valentine_bw/heart.webp',
+    expected: 'valentine_bw' },
+  { label: 'thanksgivinng (3-n typo theme)',
+    path: '/images/thanksgivinng/turkey.webp',
+    expected: 'thanksgivinng' },
+  { label: 'CUID-shaped dir → null',
+    path: '/images/cmkuesvi30000gxa3t9b8i597/wolf-1769386111029.webp',
+    expected: null },
+  { label: 'CUID uppercase variant → null',
+    path: '/images/CMKUESVI30000GXA3T9B8I597/wolf.webp',
+    expected: null },
+  { label: 'malformed (no /images/ prefix) → null',
+    path: '/foo/bar/baz.webp',
+    expected: null },
+  { label: 'path missing trailing slash → null',
+    path: '/images/animals',
+    expected: null },
+  { label: 'null path → null',
+    path: null,
+    expected: null },
+  { label: 'undefined path → null',
+    path: undefined,
+    expected: null },
+  { label: 'empty string → null',
+    path: '',
+    expected: null },
+  { label: 'short cm prefix (not CUID) → not null',
+    path: '/images/cmyk/test.webp',
+    expected: 'cmyk' }
+];
+
+var pathFailed = 0;
+var pathPassed = 0;
+pathCases.forEach(function (c, i) {
+  var actual = slug.parseThemeFromImagePath(c.path);
+  try {
+    assert.strictEqual(actual, c.expected);
+    pathPassed++;
+    console.log('  PASS [' + (i + 1).toString().padStart(2, '0') + '] ' + c.label +
+      ' → ' + JSON.stringify(actual));
+  } catch (e) {
+    pathFailed++;
+    console.log('  FAIL [' + (i + 1).toString().padStart(2, '0') + '] ' + c.label);
+    console.log('         path:     ' + JSON.stringify(c.path));
+    console.log('         expected: ' + JSON.stringify(c.expected));
+    console.log('         actual:   ' + JSON.stringify(actual));
+  }
+});
+console.log('---');
+console.log('parseThemeFromImagePath tests: ' + pathPassed + ' passed, ' + pathFailed + ' failed (of ' + pathCases.length + ')');
+
+// reconcileManifestTheme tests (each category in the decision tree).
+console.log('');
+console.log('reconcileManifestTheme tests:');
+var reconCases = [
+  // CLEAN — addition/subtraction shape, all three signals agree
+  {
+    label: 'CLEAN — addition single-image-object shape',
+    manifest: {
+      deck_id: 'addition-image-image-en-20260504105655',
+      exercise_type: 'addition',
+      theme: 'breakfast',
+      exercises: [{ operandA: 5, operandB: 3, image: { path: '/images/breakfast/apple.webp', theme: 'breakfast' } }]
+    },
+    expectedCategory: 'CLEAN'
+  },
+  // CLEAN — code-addition shape (array-of-images), declared agrees with image.theme
+  {
+    label: 'CLEAN — code-addition array-of-images shape',
+    manifest: {
+      deck_id: 'code-addition-en-CLEAN',
+      exercise_type: 'code-addition',
+      theme: 'pets',
+      exercises: [[
+        { path: '/images/pets/cat.webp', theme: 'pets' },
+        { path: '/images/pets/dog.webp', theme: 'pets' }
+      ]]
+    },
+    expectedCategory: 'CLEAN'
+  },
+  // CLEAN — hyphen/underscore-normalized comparison
+  {
+    label: 'CLEAN — hyphen/underscore normalization',
+    manifest: {
+      deck_id: 'addition-mixed-en-norm',
+      exercise_type: 'addition',
+      theme: 'valentine-bw',
+      exercises: [{ image: { path: '/images/valentine_bw/heart.webp', theme: 'valentine_bw' } }]
+    },
+    expectedCategory: 'CLEAN'
+  },
+  // CLEAN — themeless (no theme + no images)
+  {
+    label: 'CLEAN — themeless (declared null + no exercises)',
+    manifest: {
+      deck_id: 'pattern-worksheet-themeless',
+      exercise_type: 'pattern-worksheet',
+      theme: null,
+      exercises: []
+    },
+    expectedCategory: 'CLEAN'
+  },
+  // CLEAN — pre-440 Track A pattern (declared missing, image.theme present, path is CUID)
+  {
+    label: 'CLEAN — Track A baseline pattern (CUID image dir)',
+    manifest: {
+      deck_id: 'code-addition-en-track-a-baseline',
+      exercise_type: 'code-addition',
+      // theme field absent
+      exercises: [[{ path: '/images/cmkuesvi30000gxa3t9b8i597/wolf.webp', theme: 'animals' }]]
+    },
+    expectedCategory: 'CLEAN'
+  },
+  // CLEAN — declared defined + primary missing + secondary agrees
+  {
+    label: 'CLEAN — image.theme missing but path agrees with declared',
+    manifest: {
+      deck_id: 'addition-en-no-image-theme',
+      exercise_type: 'addition',
+      theme: 'fruits',
+      exercises: [{ image: { path: '/images/fruits/apple.webp' /* no theme on image */ } }]
+    },
+    expectedCategory: 'CLEAN'
+  },
+  // CLEAN — declared defined + image.theme missing + path is CUID (no actionable disagreement)
+  {
+    label: 'CLEAN — declared defined, no image.theme, CUID path',
+    manifest: {
+      deck_id: 'addition-en-cuid-path',
+      exercise_type: 'addition',
+      theme: 'animals',
+      exercises: [{ image: { path: '/images/cmxyz1234567890abcdefghi/cat.webp' } }]
+    },
+    expectedCategory: 'CLEAN'
+  },
+
+  // THEME_DISAGREE — the code-addition v6.0.0 emit-defect signature
+  {
+    label: 'THEME_DISAGREE — declared "accessories" but image.theme "tools"',
+    manifest: {
+      deck_id: 'code-addition-en-DISAGREE',
+      exercise_type: 'code-addition',
+      theme: 'accessories',
+      exercises: [[{ path: '/images/tools/hammer.webp', theme: 'tools' }]]
+    },
+    expectedCategory: 'THEME_DISAGREE'
+  },
+  // THEME_DISAGREE — addition single-image shape with disagreement
+  {
+    label: 'THEME_DISAGREE — addition shape with disagreement',
+    manifest: {
+      deck_id: 'addition-en-DISAGREE',
+      exercise_type: 'addition',
+      theme: 'animals',
+      exercises: [{ image: { path: '/images/vehicles/car.webp', theme: 'vehicles' } }]
+    },
+    expectedCategory: 'THEME_DISAGREE'
+  },
+
+  // MISSING_THEME — declared undefined but image carries real-theme path
+  {
+    label: 'MISSING_THEME — declared missing but real-theme image',
+    manifest: {
+      deck_id: 'addition-en-MISSING_THEME',
+      exercise_type: 'addition',
+      // theme field absent
+      exercises: [{ image: { path: '/images/animals/cat.webp', theme: 'animals' } }]
+    },
+    expectedCategory: 'MISSING_THEME'
+  },
+
+  // MISSING_PRIMARY — declared defined, image.theme missing, path-derived disagrees
+  {
+    label: 'MISSING_PRIMARY — declared disagrees with path, no image.theme',
+    manifest: {
+      deck_id: 'addition-en-MISSING_PRIMARY',
+      exercise_type: 'addition',
+      theme: 'animals',
+      exercises: [{ image: { path: '/images/vehicles/car.webp' /* no theme */ } }]
+    },
+    expectedCategory: 'MISSING_PRIMARY'
+  }
+];
+
+var reconFailed = 0;
+var reconPassed = 0;
+reconCases.forEach(function (c, i) {
+  var actual = slug.reconcileManifestTheme(c.manifest);
+  try {
+    assert.strictEqual(actual.category, c.expectedCategory, 'category mismatch');
+    reconPassed++;
+    console.log('  PASS [' + (i + 1).toString().padStart(2, '0') + '] ' + c.label +
+      ' → ' + actual.category);
+  } catch (e) {
+    reconFailed++;
+    console.log('  FAIL [' + (i + 1).toString().padStart(2, '0') + '] ' + c.label);
+    console.log('         expected category: ' + c.expectedCategory);
+    console.log('         actual: ' + JSON.stringify(actual));
+  }
+});
+console.log('---');
+console.log('reconcileManifestTheme tests: ' + reconPassed + ' passed, ' + reconFailed + ' failed (of ' + reconCases.length + ')');
+
+var totalFailed = failed + seedFailed + pathFailed + reconFailed;
 process.exit(totalFailed === 0 ? 0 : 1);

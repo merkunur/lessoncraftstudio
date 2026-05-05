@@ -70,6 +70,26 @@ async function publish(opts) {
   var deckHtmlOriginal = bundleMod.readDeckHtml(b);
   var locale = manifest.language;
 
+  // Step 1a: manifest.theme reconciliation gate per §A.13. Halts before
+  // any side-effect when authoring-tool emit-defects produce metadata-
+  // content disagreement (the code-addition v6.0.0 emit-defect class).
+  var recon = slugMod.reconcileManifestTheme(manifest);
+  if (recon.category !== 'CLEAN') {
+    throw new Error(
+      'publish: manifest.theme reconciliation [' + recon.category + ']\n' +
+      '  deck_id:   ' + (recon.deckId || '?') + '\n' +
+      '  app:       ' + (recon.app || '?') + '\n' +
+      '  declared:  ' + JSON.stringify(recon.declared) + '\n' +
+      '  primary:   ' + JSON.stringify(recon.primary) + '   (image.theme)\n' +
+      '  secondary: ' + JSON.stringify(recon.secondary) + '   (path-derived; null when CUID-shaped)\n' +
+      '\n' +
+      '  Emit-defect at the authoring-tool side. Fix the authoring tool to emit\n' +
+      '  manifest.theme matching actual content, OR regenerate this deck.\n' +
+      '  Reconciliation is a hard gate; no override path is provided.\n' +
+      '  See CLAUDE.md §A.13 + 9850df93 audit.'
+    );
+  }
+
   // Step 1b: edit-in-place lookup (if flag present).
   var existingRow = null;
   var slug = null;

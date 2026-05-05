@@ -110,9 +110,146 @@ function deriveSeedFromManifest(manifest) {
   return parts.join(' ');
 }
 
+/**
+ * Parse the theme directory component from an image path of shape
+ * "/images/<dir>/<filename>". Returns the dir string, OR null when the
+ * path is missing/malformed OR when the dir is CUID-shaped (the §14.3a
+ * vocabKeyFromImage uploaded-image branch — user-uploaded images live
+ * under /images/<cuid>/ and have no theme association).
+ *
+ * CUID detection: case-insensitive ^cm[a-z0-9]{20,}$. Real themes are
+ * either lowercase ASCII words/underscores ("animals", "valentine_bw",
+ * "4th_of_july") or hyphenated, never matching the CUID prefix shape.
+ */
+function parseThemeFromImagePath(p) {
+  if (!p || typeof p !== 'string') return null;
+  var m = p.match(/\/images\/([^\/]+)\//);
+  if (!m) return null;
+  var dir = m[1];
+  if (/^cm[a-z0-9]{20,}$/i.test(dir)) return null;
+  return dir;
+}
+
+/**
+ * Reconcile manifest.theme (declared) against the actual content theme
+ * inferred from manifest.exercises[0]. Per §A.13 verification-hygiene
+ * extension, this gate fires at the publish-cli dry-run + real-publish
+ * pre-flight boundary BEFORE slug derivation runs, halting any batch
+ * whose authoring-tool emit-defect produced a metadata-content
+ * disagreement. Closes the structural exposure surfaced by the
+ * code-addition v6.0.0 emit-defect audit.
+ *
+ * Two manifest shapes supported:
+ *   - addition/subtraction/most apps: exercises[i] = {operandA/B or
+ *     similar, image: {path, theme, ...}}
+ *   - code-addition: exercises[i] = [{path, theme}, {path, theme}, ...]
+ *
+ * Signals:
+ *   declared  = manifest.theme
+ *   primary   = first image-bearing exercise's image.theme (per-image
+ *               semantic theme — strongest signal)
+ *   secondary = parseThemeFromImagePath(image.path) (path-directory;
+ *               null for uploaded-image CUID dirs per legitimate
+ *               themeless case)
+ *
+ * Decision tree (per the gate spec):
+ *   declared undefined + no themeless-app marker        → MISSING_THEME
+ *   declared undefined + themeless (no primary OR
+ *     secondary is CUID-shaped)                         → CLEAN
+ *   declared defined + primary matches + (secondary
+ *     matches OR secondary CUID-shaped)                 → CLEAN
+ *   declared defined + primary undefined + secondary
+ *     defined and matches declared                      → CLEAN
+ *     (declared agrees with path-derived; image schema
+ *      gap but data agrees)
+ *   declared defined + primary undefined + secondary
+ *     defined and disagrees                             → MISSING_PRIMARY
+ *   declared !== primary                                → THEME_DISAGREE
+ *
+ * Returns: { category, declared, primary, secondary, deckId, app }.
+ * Comparison is case-insensitive + hyphen/underscore-normalized so
+ * "valentine-bw" and "valentine_bw" reconcile as equal.
+ */
+function reconcileManifestTheme(manifest) {
+  var declared = (manifest && manifest.theme != null && manifest.theme !== '') ? String(manifest.theme) : null;
+  var declaredDefined = declared !== null;
+
+  var firstImg = null;
+  if (manifest && manifest.exercises && manifest.exercises.length > 0) {
+    var e0 = manifest.exercises[0];
+    if (Array.isArray(e0)) {
+      firstImg = e0[0] || null;
+    } else if (e0 && typeof e0 === 'object') {
+      if (e0.image) firstImg = e0.image;
+      else if (e0.path || e0.theme) firstImg = e0;
+    }
+  }
+
+  var primary = (firstImg && firstImg.theme != null && firstImg.theme !== '') ? String(firstImg.theme) : null;
+  var primaryDefined = primary !== null;
+  var secondary = (firstImg && firstImg.path) ? parseThemeFromImagePath(firstImg.path) : null;
+
+  function norm(v) {
+    return v == null ? null : String(v).replace(/-/g, '_').toLowerCase();
+  }
+  var decN = norm(declared);
+  var priN = norm(primary);
+  var secN = norm(secondary);
+
+  var category;
+  if (!declaredDefined) {
+    if (!primaryDefined) {
+      // No image-side theme signal either → legitimate themeless
+      // (pattern-worksheet contract OR exercises array empty).
+      category = 'CLEAN';
+    } else if (secN === null) {
+      // Image carries theme but path is CUID-shaped (uploaded images;
+      // pre-440 Track A baseline pattern). Legitimate themeless.
+      category = 'CLEAN';
+    } else {
+      // Image carries theme AND path points to real-theme dir → manifest
+      // schema gap (operator forgot to declare theme).
+      category = 'MISSING_THEME';
+    }
+  } else if (!primaryDefined) {
+    // declared exists, image.theme missing.
+    if (secN === null) {
+      // Path uninformative (CUID or missing) → only declared signal;
+      // not actively disagreeing.
+      category = 'CLEAN';
+    } else if (decN === secN) {
+      // declared agrees with path-derived theme; image.theme schema
+      // gap but data agrees.
+      category = 'CLEAN';
+    } else {
+      // declared disagrees with path-derived theme AND image.theme is
+      // missing — operator-action surface.
+      category = 'MISSING_PRIMARY';
+    }
+  } else {
+    // Both declared and primary defined.
+    if (decN === priN) {
+      category = 'CLEAN';
+    } else {
+      category = 'THEME_DISAGREE';
+    }
+  }
+
+  return {
+    category: category,
+    declared: declared,
+    primary: primary,
+    secondary: secondary,
+    deckId: manifest && manifest.deck_id ? manifest.deck_id : null,
+    app: manifest && manifest.exercise_type ? manifest.exercise_type : null
+  };
+}
+
 module.exports = {
   slugify: slugify,
   resolveCollision: resolveCollision,
   deriveSeedFromManifest: deriveSeedFromManifest,
+  parseThemeFromImagePath: parseThemeFromImagePath,
+  reconcileManifestTheme: reconcileManifestTheme,
   _NON_DECOMPOSABLE_MAP: NON_DECOMPOSABLE_MAP
 };

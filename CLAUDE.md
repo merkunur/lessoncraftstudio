@@ -24,6 +24,8 @@ Revenue comes from a single tier of annual subscription at $69/year for individu
 
 **The previous seller-facing positioning has been fully discontinued.** All public-facing pages currently visible at lessoncraftstudio.com (the home page selling KDP/Etsy worksheet generators, the seller tools like the KDP Royalty Calculator, the seller-focused guides, the per-app pricing) are being deleted. The site is being rebuilt from scratch with the multilingual K-3 educator audience in mind. The technical foundation (Next.js, Postgres, Lemon Squeezy, the apps, the image library, the vocabulary system) all stays; only the public-facing surface is being rewritten. See §11 and §17 for the deletion and rebuild scope.
 
+**SEO-first framing for app emit-site contracts.** Every manifest field that participates in a deck's URL slug or `<head>` metadata — `theme`, `exercise_mode`, `language`, `age_range` (via `educational_level`) — is an SEO surface, not a data field. The 29 §14.10 catalog apps emit these fields at static `LCSCatalogExport.export()` call sites; the values land in the deck's canonical URL via §17.8.5 slug derivation and in Schema.org `LearningResource` metadata via §17.8.1. Operator-strategic adjudication on emit-site contracts (which mode strings to use, which fields default to null, how default-mode emits) prioritizes search-keyword alignment + teacher-search-query patterns over technical UI labels. Per §A.13.4 the publish-cli reconciliation gate at dry-run boundary is the structural backstop catching emit-defects before they collapse SEO across a catalog wave.
+
 ## 2. Why this matters — the operator's situation
 
 The operator has spent two years building the 33 apps, the 3,000-image library, and the 11-language vocabulary system with grammatically correct singular/plural/gender data. This technical foundation is genuinely rare. No comparable platform offers consistent K-3 quality across all 11 of these languages — competitors are either English-first with multilingual translations bolted on, or single-language regional players, or focused on language-learning specifically rather than subject content in multiple languages.
@@ -63,6 +65,8 @@ The minimum viable launch includes: the entire public-facing site rebuilt from s
 Things **deliberately excluded from launch**: student accounts, class management, progress tracking, teacher dashboards with analytics on student session data (this was previously in scope and has been cut — see §7), parent portals, SSO, school-district SSO/SAML features, complex DRM, custom worksheet creation tools for teachers, AI-assisted *deck generation* (the AI enriches decks; it does not produce them), assignment sequences (cut as not justifying their weight for K-3 audiences). Each of these is a rabbit hole. Do not add any of them without explicit operator direction.
 
 **Pillar 1 production pattern locked.** Lesson plans (the Pillar 1 launch-trigger content per `docs/SUBSCRIPTION-SCOPE.md` clause (a)) are produced by CC + copilot cooperation pattern: CC drafts, copilot reviews substantively, CC revises, iterate to exemplar grade. The Mac Studio AI-assist arc is removed from the Pillar 1 dependency chain. Mac Studio strategic-fit candidates are deterministic-AI tasks (Topic.embedding generation per §16.1; deck enrichment per §4.5; OG image generation; alt-text + structured-data + meta enrichment), not pedagogical-voice content. Lesson-plan production stays cooperation-pattern through clause (a) closure and beyond. Phase 1c apply at `e912b805` established the loop; the operator override of recon Q2 (manual-authoring) is the locked resolution.
+
+**Adjudicator-forward decision-locking discipline.** When the operator delegates strategic input — "you choose," "make the call," "I'm not technical, decide" — the adjudicator (whichever party holds the delegation: CC, copilot, or strategic-thinking partner Claude) locks per CLAUDE.md priority foundations and commits. Consultative-by-default is the wrong posture when delegation is explicit: surfacing the decision back to operator as a multi-option menu wastes operator-attention and treats the delegation as advisory. The discipline applies at emit-site taxonomy adjudication (e.g., §17.8.5 default-mode-emits-null; commit `109a91d4`'s SEO-first taxonomy lock for the 10 multi-mode apps), at fold-pass target adjudication (§A.13 vs new section, etc.), and at any other strategic input the operator delegates rather than retains. Operator override at any later moment is normal — adjudicator-forward locking does not foreclose operator course-correction; it just prevents the consultative-pause from re-routing through operator-attention when the operator already declined that route.
 
 ### 3.5 Three-machine infrastructure, otherwise standard stack
 
@@ -649,6 +653,12 @@ What was **removed from scope** in this version (previously included, now delibe
 
 - **Arc-splitting threshold heuristic** — when does an arc split into sub-arcs (Arc 6 split into 6c + 6a + 6b + 6d) vs ship as one (Wave 2 single-arc, Track C single-wave)? Recent arcs surfaced both shapes; threshold heuristic isn't yet generalizable. Trigger: 3rd-4th case provides enough material to extract a generalizable threshold (e.g., commit-count expectations, surface-count thresholds, code-volume estimates). Surface as future-arc-candidate; fold when material accumulates.
 
+- **treasure-hunt manifest-emit-vs-worksheetTheme decoupling** — separate defect class from the Shape A (§A.13.5) scope that closed the 10-sibling-app theme-filter wave at `05d0940e`. treasure-hunt's path-A emit-site (`worksheetThemeValue`-driven manifest-emit decoupling, distinct from path-B's `selectedImages.length === 6` branch) was kept out of scope per operator adjudication; gate-protected at publish-time per §A.13. Trigger: when treasure-hunt enters a Track C wave AND the §15.16 reconciliation gate fires on the non-Shape-A path. Scope: small `[FEATURE][AUTHORING]` extending Shape A coverage; manifest-emit-vs-worksheetTheme decoupling is the structural fix.
+
+- **`shared.msg.offtheme.dropped` translation-key promotion** — 11 consumers × 11 locales = 121 translation entries with the same semantic message ("N image(s) outside the active theme were dropped"). Per §14.3a 4th-consumer threshold met (10 sibling apps shipped at `05d0940e` + code-addition at `44cbdda1` = 11 consumers), this is a clean candidate for promotion to a `shared.msg.offtheme.dropped` key in `translations-shared.js` + per-app call-site dedup. Trigger: 12th-consumer addition (any new app adopting Shape A) OR pre-emptive per §14.3a.3 when an open commission opens an adjacent surface. Scope: small refactor commission (Commission β candidate).
+
+- **backup-samples.sh path-divergence vs §A.1** — backup-samples.sh writes its tarball to `/opt/lessoncraftstudio/backups/` rather than `/var/www/lcs-media/backups/` per the §A.1 isolated-storage convention. The new backup-decks.sh shipped at `15be6ef5` mirrors backup-samples.sh's path (consistency) but propagates the divergence. Trigger: at any future backup-script consolidation or off-host backup migration (per §A.14.6 backup-coverage doctrine + Scaling Arc 3 Q3 trigger ~10 GB asset-bytes). Scope: small `[CHORE][OPS]` aligning both backup scripts to §A.1 isolated-storage path; not blocking.
+
 ## 12. When this document is wrong
 
 This CLAUDE.md will be wrong about some things. The operator's thinking will evolve. The product will reveal new constraints after launch. When you (Claude Code) find something in this document that seems to contradict current reality:
@@ -1191,6 +1201,57 @@ Origin: Track C 443→440-deck en addition+subtraction wave at 2026-05-05. 3 col
 **Why this matters:** premise drift surfaced at Batch 4 ES (`b18b8654`) when an early brief assumed a `--language=<locale>` filter existed. It does not. Folder-content control IS the per-locale safeguard. New briefs should reference this section rather than imagine a CLI flag.
 
 **Audit at session-state authoring time:** any brief that says "filter ZIPs by locale via X" must reference folder-content control, not a phantom CLI flag.
+
+### 15.16 Manifest-content reconciliation gate
+
+publish-cli's dry-run pre-flight runs a two-dimension reconciliation gate on every manifest before slug derivation, halting the batch if any halt-class fires. The gate is the structural backstop for emit-defects at the 29 §14.10 catalog apps (per §A.13.4 DERIVED-vs-HARDCODED-NULL classification).
+
+**Dimension 1 — `theme` reconciliation** (`reconcileManifestTheme` in `scripts/publish-cli/slug.js`). Compares `manifest.theme` against `parseThemeFromImagePath(manifest.exercises[0].image.path)` (with `images_used[0]` as fallback). Categories:
+- **CLEAN** — theme declared + matches first-image path-derived theme (or both null for themeless apps with CUID-shaped image dirs per Track A baseline).
+- **MISSING_THEME** — theme null but first-image path declares a theme.
+- **MISSING_PRIMARY** — theme declared but no parseable image-path signal.
+- **THEME_DISAGREE** — theme declared + first-image path declares different theme.
+
+Hyphen/underscore + case normalization on comparison. Themeless-app legitimate-null path preserved (declared null/undefined + either no `image.theme` OR CUID-shaped image dir).
+
+**Dimension 2 — `exerciseMode` reconciliation** (`reconcileExerciseMode` in `slug.js`). Validates `manifest.exercise_mode` against the app's emit-site classification per the `EXERCISE_MODE_APP_CLASSIFICATION` constant. Categories:
+- **CLEAN** — declared value present (DERIVED app emit), OR null from a DERIVED app (legitimate default-mode contract per §17.8.5).
+- **MODE_NULL_FROM_HARDCODED_APP** — null from a HARDCODED-NULL app (the defect class; halts batch). Post-Commission ε at `109a91d4` this list is empty across all 29 catalog apps; the gate stays as a backstop ready to fire on any future regression.
+
+**Operational behavior:**
+- Both dimensions run in `dryRunBatch()` before any side-effect (no DB query, no FS write).
+- Halts are surfaced in `_reconciliation.txt` with per-category + per-app aggregation.
+- Themeless apps' legitimate-null path preserved (no false halts on Track A baseline shape).
+- Single-deck publish path (`publish.js`) wires dimension 1 + dimension 2 the same way.
+
+**Why this works structurally:** the gate runs at the publish-cli boundary, not at the authoring-app boundary — the gate doesn't replace per-app Shape A discipline (per §A.13.5) but catches whatever the apps' emit-sites fail to enforce. Future regression (an app's emit-site reverting to hardcoded-null OR a new app with HARDCODED-NULL classification) halts at the gate before any URL-collision or SEO-degradation propagates.
+
+**Tests:** 56 unit tests in `scripts/publish-cli/slug.test.js` (21 slugify + 8 deriveSeed + 13 parseThemeFromImagePath + 11 reconcileManifestTheme + 11 reconcileExerciseMode); 5 integration tests in `reconciliation.integration.test.js`.
+
+Origin: `580b0ca2` (theme reconciliation) + `2b555b57` (exerciseMode reconciliation).
+
+### 15.17 Salvage scripts pattern (`rewrite-manifest-<field>.js`)
+
+When generation-side emit-defects produce structurally-broken manifests across an already-staged ZIP wave, one-shot salvage scripts derive the correct field value from in-bundle content signal and repack the ZIPs in-place with backup. The pattern preserves operator-side generation hours (no regeneration required) and lets the authoring-side root-cause fix ship separately.
+
+**Canonical references:**
+- `scripts/publish-cli/rewrite-manifest-theme.js` (`9051b43d`) — salvages `manifest.theme` from `exercises[0].image.theme` (with `images_used[0]` path-derived fallback). Reuses `parseThemeFromImagePath` from `slug.js` so classifications produce values that pass the §15.16 gate downstream.
+- `scripts/publish-cli/rewrite-manifest-exercise-mode.js` (`0f0c648d`) — salvages `manifest.exercise_mode` from `settings.<mode-distinguishing-field>` (e.g., `settings.word_reveal_mode` for code-addition). 2-mode contract per operator adjudication.
+
+**Pattern requirements:**
+1. **Pre-pass classification before any FS write.** Phase 1 reads every ZIP in the working directory, classifies each into rewrite / skip-clean / halt-class buckets, prints summary. No backups created, no ZIPs repacked. If any halt-class fires → exit before Phase 2.
+2. **Halt-classes:** `unparseable` (in-bundle signal missing — `exercises[0]` has no image-bearing object) and `ambiguous` (multiple signals disagree OR signal is CUID-shaped — no derivable value). Defensive — not expected per recon.
+3. **Backup-then-rewrite ordering.** Phase 2 writes backups before any in-place modification. Backup convention varies per script:
+   - **theme rewriter:** `<workingDir>.original/` sibling directory.
+   - **exercise-mode rewriter:** `.<utc-prefix>/` dot-subdir within workingDir, per §15.15 archive convention.
+4. **Verification post-apply:** re-run §15.16 reconciliation gate against the rewritten wave; expected output is N/N CLEAN.
+5. **Authoring-side root-cause fix is queued separately.** The salvage script closes the present wave; the authoring-side fix (per §A.13.5 Shape A discipline) closes the structural defect for future waves.
+
+**Empirical validation (153 en code-addition wave, 2026-05-05):** theme rewriter at Phase 2 dry-run found 150 rewrite + 3 skip-clean + 0 halts; Phase 3 apply rewrote 150 in-place; Phase 4 reconciliation gate produced 153/153 CLEAN. Exercise-mode rewriter at Phase 2 dry-run found 49 rewrite + 104 skip-clean + 0 halts; Phase 3 apply rewrote 49 in-place; reconciliation gate 153/153 CLEAN. Phase 5 publish: 153/153 INSERT in 11.1s; live curl HTTP 200 across all 3 slug-shape variants.
+
+**Trigger condition:** an emit-defect surfaces post-generation across a staged wave. Always preferred over regeneration when the in-bundle signal is recoverable; regeneration is the fallback when signal is unparseable + ambiguous across the wave.
+
+Origin: `9051b43d` (theme rewriter) + `0f0c648d` (exercise-mode rewriter).
 
 ## 16. Topic destination pages
 
@@ -1980,6 +2041,14 @@ Themeless decks (manifest.theme=null per pattern-worksheet remediation precedent
 
 Origin: `785d63f6` `[FEATURE][PUBLISH-CLI]` (theme-aware slug derivation + single-SoT refactor across bulk.js + publish.js + index.js).
 
+**Default-mode-emits-null contract pattern.** For app emit-sites with multi-mode contracts (§A.13.4 DERIVED classification), the most-common mode emits null (shorter URL); non-default modes get an explicit slug component. Reusable across catalog apps with default-mode contracts.
+
+The pattern shortens canonical URLs for the high-traffic case while preserving per-mode SEO discrimination: a kindergarten-default sudoku deck slugs as `sudoku-animals` (cleaner, keyword-aligned with teacher-search) rather than `sudoku-easy-animals`; non-default `medium` + `hard` modes become `sudoku-medium-animals` + `sudoku-hard-animals`. The locked taxonomy for the 10 multi-mode apps from Commission ε lives in commit `109a91d4`'s body as audit-trail reference (no embedded table here — taxonomy may extend if apps add modes; commit-body-only avoids CLAUDE.md drift).
+
+Operator-strategic adjudication anchors the choice of which mode is "default" per the §1 SEO-first emit-site framing: default = most-common authoring intent + shortest URL. The pattern applies at any future app extension that adds a mode dimension.
+
+Origin: `109a91d4` (Commission ε emit-site fix across 16 hardcoded-null apps post-`5078f491` code-addition reference).
+
 #### 17.8.6 The age-range to educational-level mapping
 
 `educational_level` is **deterministically derived** from `metadata.json`'s `age_range` by `publish-cli`. The apps never compute it. This rule keeps a single source of truth and prevents any drift between apps.
@@ -2733,5 +2802,143 @@ When a [FIX] commission opens a code surface for editing, audit the surface for 
 **Anti-pattern:** opportunistic refactor-creep that expands the [FIX] commission's scope beyond the bug. The trigger is "same anti-pattern at adjacent call sites with imminent 4th consumer," not "this code could be cleaner."
 
 Origin: `785d63f6` `[FEATURE][PUBLISH-CLI]` (slug-derivation refactor folded into theme-aware-slug fix; bulk.js + publish.js + index.js → `slug.js: deriveSeedFromManifest`).
+
+#### A.13.4 DERIVED vs HARDCODED-NULL emit-site classification
+
+App emit-sites for SEO-bearing manifest fields (theme, exerciseMode, etc.) classify as one of two structural shapes per the `EXERCISE_MODE_APP_CLASSIFICATION` constant in `scripts/publish-cli/slug.js`:
+
+- **DERIVED** — the emit-site reads from operator UI signal at emit time. The value passed to `LCSCatalogExport.export({exerciseMode: <expr>, ...})` is computed from a UI control (e.g., `document.getElementById('difficultySelect').value`, `settings.word_reveal_mode`, etc.). Null from a DERIVED app is legitimate (default-mode contract per §17.8.5); the operator-side intent is "default mode" not "no mode."
+- **HARDCODED-NULL** — the emit-site is a literal `exerciseMode: null` at the static call site, with no operator-side intent behind the null. This is the defect class; future multi-mode waves at this app would collapse into a shared slug-namespace at publish-time.
+
+The §15.16 reconciliation gate uses the classification to differentiate: HARDCODED-NULL+null halts the batch (`MODE_NULL_FROM_HARDCODED_APP` category); DERIVED+null is CLEAN. Post-Commission ε at `109a91d4`, all 29 §14.10 catalog apps are DERIVED; the HARDCODED-NULL list is empty. The gate stays as a backstop ready to fire on any future regression.
+
+**Implication for new app additions.** Any future app added to §14.10 must classify into `EXERCISE_MODE_APP_CLASSIFICATION` at first-publish — DERIVED if the emit-site reads from UI signal, HARDCODED-NULL if not. HARDCODED-NULL is acceptable as a transitional state IFF a follow-on Shape-A-equivalent commission is filed concurrently; otherwise the §A.13.5 structural complement is broken at the new app's boundary.
+
+Origin: `2b555b57` (gate extension introducing classification constant) + `109a91d4` (Commission ε flipping all 16 prior HARDCODED-NULL apps to DERIVED).
+
+#### A.13.5 Shape A canonical authoring pattern + reconciliation gate as structural complement
+
+The §15.16 reconciliation gate is the publish-time backstop; **Shape A** is the canonical authoring-app pattern at the upstream boundary. Together they form the structural complement that closes emit-defects at both layers.
+
+**Shape A definition:** at the authoring-app's `prepareExerciseImages()` boundary (or equivalent image-pool-construction site), filter `selectedImages` against the active theme before passing to downstream pool-construction. Operator-clicked off-theme images are dropped with a non-blocking UI warning naming the dropped count + active theme. The existing emit-site `theme: themeSelect.value` becomes correct once the image-pool is theme-constrained (no separate emit-site fix needed).
+
+**Per-app scoping varies per operator adjudication:**
+- **Verbatim fix** at top of `prepareExerciseImages()` with `selectedImages → baseSelection` rename in immediate local block (addition, subtraction reference shape).
+- **Branch-scoped fix** when only one code path has the defect (e.g., bingo's `customCalloutsCheckbox.checked` branch only; word-scramble + word-guess fallback else branch only).
+- **Decoupling-deferred** when the defect class is structurally distinct from Shape A's image-pool boundary (e.g., treasure-hunt's path-A `worksheetThemeValue`-driven manifest-emit decoupling; gate-protected; future commission per §11).
+
+**Translation-key convention:** each app ships an `<app>.msg.offtheme.dropped` key with `{count, theme}` interpolation across 11 locales. Per §14.3a 4th-consumer threshold the keys promote to `shared.msg.offtheme.dropped` once consumer count crosses threshold — currently filed as future-arc candidate per §11.
+
+**Why structural complement (not redundancy):** Shape A prevents the defect at the authoring boundary; the gate catches whatever slips through (e.g., a future app added before Shape A is applied; a regression that re-introduces the defect; a per-app branch-scoping miss). Belt-and-suspenders structural defense.
+
+Origin: `44cbdda1` (code-addition Shape A reference) + `05d0940e` (Shape A across 10 sibling apps).
+
+#### A.13.6 Spec-vs-shipped-contract validation discipline
+
+When a commission spec includes classification rules over a code surface that has independently-shipped contracts, the implementation step must validate the spec's rules against the shipped contract BEFORE commit, not after.
+
+**How to apply (Phase 3 of any commission introducing classification rules):**
+- Identify every shipped contract on the surface the spec touches (existing emit-site behaviors, existing API responses, existing user-facing state).
+- Run the spec's rules against the shipped state empirically (regression test, not desk-check).
+- If the spec's rules conflict with a shipped contract, halt before commit + surface to operator for adjudication.
+
+**Empirical precedent.** Commission δ Phase 3 regression caught the spec's strict-DERIVED rule (every DERIVED app must emit non-null exerciseMode) conflicting with code-addition's null-for-standard contract shipped at `5078f491` (default mode emits null per §17.8.5). 104 of 153 en code-addition standard-mode decks would have halted at the gate. Operator adjudicated to Interpretation Y (lenient gate: only HARDCODED-NULL+null halts; DERIVED+null is CLEAN) before commit. The discipline saved a multi-deck rebuild; without it, the gate would have shipped silently-wrong and surfaced only at a later Track C wave.
+
+**Anti-pattern:** trusting the commission spec as the final classification authority. The shipped contract IS the contract; specs propose rules against it but don't override it. Specs and shipped contracts can both be wrong; only empirical regression discriminates.
+
+Origin: `2b555b57` (Commission δ adjudication baking the lenient gate posture).
+
+#### A.13.7 Per-app first-publish verification cadence
+
+When a structural exposure-class is closed by a publish-cli gate covering N apps, per-app first-publish verification folds into Track C cadence rather than a separate audit commission. The gate is the verification mechanism; first-publish in each app is the empirical-trigger moment.
+
+**How to apply.** At any commission shipping a publish-cli gate that covers ≥10 §14.10 apps (per §A.13.4 classification scope), do NOT commission a separate per-app verification audit. Instead:
+1. Document the gate's coverage in the closing commit body (which apps the gate now protects).
+2. Track per-app first-publish events as Track C deck-publish occurs.
+3. The gate fires (or doesn't) at first-publish per app — empirical verification by construction.
+4. If the gate fires at any app's first-publish, surface as a follow-on `[FIX][AUTHORING]` commission for that app.
+
+**Why this scales.** A separate audit commission for 16+ apps would cost weeks of operator-attention to manually verify each app's emit-site by hand; the gate accomplishes the same coverage at zero per-app cost during the natural Track C cadence. The audit-commission-shape is reserved for surfaces the gate cannot reach (e.g., asset-tree organization audits per §A.14.5; backup-coverage audits per §A.14.6; cross-cutting taxonomy audits).
+
+**Empirical anchor:** at `580b0ca2` the §15.16 theme reconciliation gate shipped covering 27 unverified apps; per-app first-publish verification folded into Track C cadence rather than spawn a 27-app audit commission. The gate caught code-addition's emit-defect at first-publish (153 ZIPs with broken theme); the salvage scripts pattern (§15.17) handled the recovery without operator-attention proportional to N apps.
+
+Origin: `580b0ca2` (theme reconciliation gate covering 27 unverified apps).
+
+### A.14 Scaling Arc audit doctrine
+
+`[CHORE][AUDIT]` commissions measure publish-cli's path against scale targets without making any production change. The doctrine here governs both the audit commission shape and the engineering decisions that follow.
+
+#### A.14.1 Scale-ceiling order
+
+publish-cli's scale ceilings arrive in this order under realistic catalog growth:
+1. **Time-death tolerance** at ~10K decks (10 min wall-clock at current 59.3ms/deck).
+2. **Within-batch slug collision rate** at ~5K-10K decks (probabilistic; depends on theme distribution).
+3. **Sharp + chown overhead** at ~30K-55K decks (CPU-bound; subprocess-spawn dominates).
+4. **Stale-staging-dir lockout** (any scale, low probability per batch).
+
+**Engineer accordingly:** chunked batches > pre-collision-check > subprocess-free chown via `fchown` > auto-cleanup. Each ceiling has a corresponding defer-trigger (§A.14.2). No memory ceiling within 55K plausible (216 MB peak RSS at 440-deck baseline). No disk ceiling within 250K (379 GB free + 28.8M inodes at audit time).
+
+Origin: `f765b991` (Scaling Arc 5 audit at 440-wave baseline; empirical timing recovered from `_results.txt` + per-deck `Deck.createdAt`).
+
+#### A.14.2 Defer-trigger heuristic for performance commissions
+
+Each performance commission has an explicit empirical trigger; default-defer with rationale rather than engineer-now. Specifically:
+- **Checkpoint/resume** — trigger at 5K+ decks per batch OR first real mid-batch death event. Until then, sequential await loop is sufficient.
+- **Within-batch slug collision pre-check** — trigger at 5K+ decks per batch. Until then, the §15.13 within-batch collision-pair inspection-before-confirm pattern catches the cases empirically.
+- **Subprocess-free chown via fchown** — trigger at 30K+ decks per batch. Until then, subprocess-spawn overhead is bounded.
+- **Stale-staging-dir auto-cleanup** — trigger after first lockout event. Until then, manual cleanup is acceptable.
+
+**Anti-pattern:** engineering performance commissions ahead of empirical trigger. The §A.14.3 sequential-publish-as-feature framing protects against this: the current architecture is intentional, not a bottleneck-by-default.
+
+Origin: `f765b991`.
+
+#### A.14.3 Sequential publish is a feature
+
+publish-cli's sequential await loop (no `Promise.all`, no concurrency primitives) is intentional, not a deficiency. Concurrency would introduce within-batch race conditions on slug-collision detection + `create.deck` — two parallel publishes of the same `(language, slug)` would either deadlock on the unique constraint OR produce a numeric-suffixed slug racing the canonical (whichever loses the race gets `-2`). Sequential ordering by construction prevents both classes.
+
+**Operational implication:** to handle larger batches, **chunk** via `--staging-dir` (split a 10K-batch into 3 × 3.3K-batches) rather than parallelize within a single batch. Chunk boundaries are race-safe (the unique constraint enforces correctness across the boundary).
+
+Origin: `f765b991`.
+
+#### A.14.4 publish-cli non-idempotent retry posture
+
+Re-running a partial-completion bulk-publish requires staging-dir hygiene; not safe to retry blind. Specifically:
+- A bulk-publish that completes M of N decks before process-death produces M `Deck` rows + M asset trees + a partially-consumed staging dir.
+- Re-running the same `publish-bulk <staging-dir>` command would attempt to re-INSERT the M already-published decks, hitting unique-constraint violations on `(language, slug)`.
+- Recovery: identify the M completed decks, move their ZIPs out of the staging dir, re-run `publish-bulk` against only the unpublished N-M ZIPs.
+
+**Defer-trigger for checkpoint/resume:** first real mid-batch death event (per §A.14.2). Until then, the manual-recovery posture is acceptable because mid-batch death is empirically rare at current 440-wave scale.
+
+**Anti-pattern:** assuming `publish-bulk` is idempotent. It is not. Future briefs that imply blind-retry semantics must surface the manual-recovery requirement.
+
+Origin: `f765b991` (audit framing) + the §15.5 publish ordering (FS-first DB-last, per Phase 3 v4 amendment) which establishes the per-deck atomicity but does NOT establish per-batch idempotency.
+
+#### A.14.5 Asset-tree audit-only `[CHORE][AUDIT]` commission shape
+
+Read-only audit commissions produce an audit-report deliverable + Phase 3 operator-strategic questions; no production change, no DB writes, no FS modification, no `deploy.sh`. The audit-report lives at `docs/<arc-name>-audit-<utc-date>.md` for archival.
+
+**Phase shape:**
+1. **Inventory** — what's measured, against what target.
+2. **Empirical recon** — read-only commands (DB queries, FS counts, profiling) on production state OR isolated-snapshot.
+3. **Findings** — headline + supporting data + Phase 3 operator-strategic questions (urgent vs deferred classification).
+4. **Doctrine carry-forward** — items folded at next [DOCS] cycle.
+
+**Trigger conditions:** explicit operator commission (e.g., "audit our scaling story") OR a precipitating event (e.g., a near-miss incident, a downstream commission that would benefit from audit baseline). Audit commissions are not autonomous; they ship at operator-attention pace.
+
+Origin: `9850df93` (Scaling Arc 3 audit at 731-deck-catalog state) + `f765b991` (Scaling Arc 5 audit at 440-wave staging snapshot).
+
+#### A.14.6 Backup-coverage audit class
+
+Backup-coverage of asset-trees is a distinct audit class from scale-ceiling audits. Backup gaps surface at zero-coverage discovery as **URGENT** severity — not because the gap is operationally on fire (production is stable), but because catastrophic FS loss would be unrecoverable without backup, and the gap is structurally cheap to close (~40 LOC bash script + cron entry).
+
+**Trigger conditions:**
+- Any audit commission discovers a production asset-tree without backup coverage.
+- Any new asset-tree gets created at `/var/www/lcs-media/<dir>/`; verify backup script exists OR file [FIX][OPS] alongside the create commission.
+
+**Off-host backup deferred trigger:** ~10 GB asset bytes OR ~6-7K decks (per `9850df93` Scaling Arc 3 Q3). At that scale, same-host weekly tarball becomes fallback to off-host strategy.
+
+**Audit posture:** backup-coverage audits are zero-cost (single `ls` + cross-reference against `/opt/lessoncraftstudio/backup-*.sh` script set). Run at every `[CHORE][AUDIT]` commission's Phase 1; surface findings as separate `[FIX][OPS]` commissions per the urgent-class shape.
+
+Origin: `9850df93` (Scaling Arc 3 audit URGENT finding: `/var/www/lcs-media/decks/` had zero backup coverage at 731-deck-catalog state) + `15be6ef5` (closure: `backup-decks.sh` mirroring `backup-samples.sh` shape).
 
 *End of CLAUDE.md.*

@@ -869,22 +869,30 @@
       'var sepText=' + JSON.stringify(attribSeparatorHtml) + ';',
       'var keywordText=' + JSON.stringify(attribKeywordHtml) + ';',
       // Read deck canvas dimensions from DECK_BUNDLE.page at runtime to
-      // compute exact-fit iframe height for the locked-decision Letter
-      // portrait case (99% of decks per operator 2026-05-06).
-      // Math (at 800 iframe wide, lcs-app interior = 800-24 = 776 due to
-      // padding 0 12px on lcs-app):
-      //   image height = (iframeWidth - 24) / page.width * page.height
-      //   chrome = 60 lcs-bar + 8 worksheet-wrap padding-top
-      //          + 120 lcs-app padding-bottom + 24 lcs-footer margin-top
-      //          + 108 lcs-footer (16+16 padding + 52 button + 24 spacing)
-      //          = 320 fixed
-      //   iframeHeight = round((iframeWidth-24) / pW * pH) + 320
-      // For Letter portrait 612x792 at 800 wide: 1004 + 320 = 1324 (exact).
-      // userTouchedHeight flag preserves manual height edits across width
-      // changes; auto-compute kicks in only when user hasn\'t typed.
+      // compute exact-fit iframe height. Empirical chrome=200 lets the
+      // sticky-bottom Check Answers footer pull UP over the lcs-app
+      // padding-bottom region (the 120px dead-space between worksheet and
+      // footer). With chrome=200, iframe is shorter than total flow height
+      // (1300) → sticky-bottom activates → footer covers the padding gap →
+      // visually: worksheet meets Check Answers with ~24px breathing room.
+      //
+      // Chrome breakdown (200):
+      //   60  lcs-bar (sticky-top)
+      //   8   worksheet-wrap padding-top
+      //   24  lcs-footer margin-top
+      //   108 lcs-footer height (16+16 padding + button + spacing)
+      //   = 200 (excludes lcs-app padding-bottom 120, which is what gets
+      //         covered by sticky-bottom positioning)
+      //
+      // Image area: lcs-app padding 0 12 (24 horizontal); image renders at
+      // (iframeWidth - 24) wide, scaled by source aspect.
+      //   iframeHeight = round((iframeWidth - 24) / pW * pH) + 200
+      // For Letter portrait 612×792 at 800 wide: 1004 + 200 = 1204.
+      // (Operator empirical 2026-05-06: ~10% shorter than chrome=320 case;
+      // matches "frame should be at least 10 procent shorter" feedback.)
       'var userTouchedHeight=false;',
       'function deckPage(){var p=(typeof DECK_BUNDLE!=="undefined"&&DECK_BUNDLE&&DECK_BUNDLE.page)||null;if(p&&p.width&&p.height)return p;return null;}',
-      'function computeHeight(w){var p=deckPage();if(p)return Math.round(Math.max(0,w-24)/p.width*p.height)+320;return ' + defaultHeight + ';}',
+      'function computeHeight(w){var p=deckPage();if(p)return Math.round(Math.max(0,w-24)/p.width*p.height)+200;return ' + defaultHeight + ';}',
       // Canonical snippet shape per 2026-05-05 design spec: wrapper div with
       // max-width matching iframe + iframe with visible border + <p> caption
       // with TWO <a href> backlinks (deck-URL with brand-anchor; homepage with

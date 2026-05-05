@@ -77,8 +77,42 @@ function resolveCollision(candidate, isTakenFn) {
   throw new Error('resolveCollision: exhausted suffix range 2..999 for candidate "' + candidate + '"');
 }
 
+/**
+ * Canonical slug-seed derivation from a deck manifest.
+ *
+ * Single source-of-truth used by all publish-cli paths (bulk.js,
+ * publish.js, index.js single-deck dry-run). Extracts the seed string
+ * that is passed to slugify() downstream. The slugify pass is
+ * unchanged.
+ *
+ * Composition (per §17.8.5 + theme-aware extension):
+ *   <exercise-type> <exercise-mode> <theme-axis-key>?
+ *
+ * Theme is appended only when manifest.theme is non-null. Themeless
+ * decks (per pattern-worksheet remediation precedent) preserve the
+ * pre-extension shape: <exercise-type> <exercise-mode>.
+ *
+ * Slug shape rationale: operation-mechanic-content ordering reads as
+ * a deck-identity claim ("an addition find-addend deck themed on
+ * animals"), aligns with Google search-snippet leading-segment
+ * prominence, and clusters related decks across alphabetic-sort
+ * positions. Distinct from intersection-URL axis-ordering
+ * (theme→level→type, navigation context); deck-page URLs are
+ * leaf-level destinations with identity-claim grammar.
+ *
+ * Returns: space-joined seed string. Caller passes through slugify().
+ */
+function deriveSeedFromManifest(manifest) {
+  var parts = [];
+  if (manifest.exercise_type) parts.push(manifest.exercise_type);
+  if (manifest.exercise_mode) parts.push(manifest.exercise_mode);
+  if (manifest.theme) parts.push(manifest.theme);
+  return parts.join(' ');
+}
+
 module.exports = {
   slugify: slugify,
   resolveCollision: resolveCollision,
+  deriveSeedFromManifest: deriveSeedFromManifest,
   _NON_DECOMPOSABLE_MAP: NON_DECOMPOSABLE_MAP
 };

@@ -109,12 +109,10 @@ async function publish(opts) {
     // requires substitution to run first. Resolution: substitute first with a
     // PLACEHOLDER slug, extract <h1> for real slug seed, then re-substitute
     // with real slug. Two-pass.
-    // Simpler v1: derive slug from manifest.exercise_type + manifest.exercise_mode
-    // (matches Phase 2 dry-run behavior at deriveTitleForSlug). Phase 3 surfaces
-    // the title for DB but the slug stays manifest-derived.
-    var seedParts = [manifest.exercise_type];
-    if (manifest.exercise_mode) seedParts.push(manifest.exercise_mode);
-    var seed = seedParts.join(' ');
+    // Simpler v1: derive slug from manifest via slug.js: deriveSeedFromManifest
+    // (single SoT across publish-cli paths). Phase 3 surfaces the title for
+    // DB but the slug stays manifest-derived.
+    var seed = slugMod.deriveSeedFromManifest(manifest);
     var candidate = slugMod.slugify(seed);
     if (!candidate) {
       throw new Error('publish: slugify produced empty string from seed "' + seed + '"');

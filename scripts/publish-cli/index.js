@@ -92,16 +92,16 @@ function deriveTitleForSlug(manifest) {
   // Phase 2 caveat (preserved): apps currently hardcode English bundle.title literal
   // (see project_deferred_items_queue.md social-share-v1 family). The
   // manifest from catalog-export.js doesn't carry a `title` field at all
-  // (see REFERENCE TRANSLATIONS/catalog-export.js:155-187). Phase 2 dry-run
-  // derives a slug seed from exercise_type + exercise_mode.
-  var deckId = manifest.deck_id || '';
-  var seed = deckId.replace(/-\d{14}$/, '');
+  // (see REFERENCE TRANSLATIONS/catalog-export.js:155-187). Slug seed is
+  // derived from manifest fields via slug.js: deriveSeedFromManifest (single
+  // SoT across publish-cli paths; theme-aware per §17.8.5 extension).
   if (manifest.exercise_type) {
-    var parts = [manifest.exercise_type];
-    if (manifest.exercise_mode) parts.push(manifest.exercise_mode);
-    return parts.join(' ');
+    return slugMod.deriveSeedFromManifest(manifest);
   }
-  return seed;
+  // Fallback for malformed manifests missing exercise_type: derive from
+  // deck_id with timestamp suffix stripped. Single-deck dry-run only.
+  var deckId = manifest.deck_id || '';
+  return deckId.replace(/-\d{14}$/, '');
 }
 
 function dryRunSingle(zipPath, stagingDir) {

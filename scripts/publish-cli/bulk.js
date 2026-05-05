@@ -105,10 +105,9 @@ async function dryRunOneZip(zipPath, stagingRoot, ctx) {
   // Step 3: determine routing — UPDATE (manifest hit) or INSERT (manifest miss).
   var existingSlug = updatesManifestMod.lookupExistingSlug(ctx.updatesManifest, result.zipBasename);
 
-  // Step 4: compute predicted slug.
-  var seedParts = [manifest.exercise_type];
-  if (manifest.exercise_mode) seedParts.push(manifest.exercise_mode);
-  var seed = seedParts.join(' ');
+  // Step 4: compute predicted slug. Per slug.js: deriveSeedFromManifest
+  // is single SoT for slug-seed composition across publish-cli paths.
+  var seed = slugMod.deriveSeedFromManifest(manifest);
   var slugCandidate = slugMod.slugify(seed);
   if (!slugCandidate) {
     result.errors.push('slug: empty string from seed "' + seed + '"');

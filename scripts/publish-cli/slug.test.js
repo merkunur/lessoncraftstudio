@@ -97,4 +97,83 @@ assert.strictEqual(r2, 'picture-sudoku', 'no collision returns candidate as-is')
 console.log('');
 console.log('All collision tests PASS.');
 
-process.exit(failed === 0 ? 0 : 1);
+// deriveSeedFromManifest tests (theme-aware extension per §17.8.5).
+console.log('');
+console.log('deriveSeedFromManifest tests:');
+var seedCases = [
+  {
+    label: 'theme-bearing addition',
+    manifest: { exercise_type: 'addition', exercise_mode: 'find-addend', theme: 'animals' },
+    expected: 'addition find-addend animals',
+    expectedSlug: 'addition-find-addend-animals'
+  },
+  {
+    label: 'theme-bearing subtraction with hyphenated theme',
+    manifest: { exercise_type: 'subtraction', exercise_mode: 'cross-out', theme: 'farm_animals' },
+    expected: 'subtraction cross-out farm_animals',
+    expectedSlug: 'subtraction-cross-out-farm-animals'
+  },
+  {
+    label: 'themeless deck (theme=null per pattern-worksheet precedent)',
+    manifest: { exercise_type: 'pattern-worksheet', exercise_mode: 'sequence', theme: null },
+    expected: 'pattern-worksheet sequence',
+    expectedSlug: 'pattern-worksheet-sequence'
+  },
+  {
+    label: 'themeless deck (theme field absent)',
+    manifest: { exercise_type: 'pattern-worksheet', exercise_mode: 'sequence' },
+    expected: 'pattern-worksheet sequence',
+    expectedSlug: 'pattern-worksheet-sequence'
+  },
+  {
+    label: 'themeless deck without exercise_mode',
+    manifest: { exercise_type: 'wordsearch' },
+    expected: 'wordsearch',
+    expectedSlug: 'wordsearch'
+  },
+  {
+    label: '4th-of-July numeric-leading theme',
+    manifest: { exercise_type: 'addition', exercise_mode: 'image-image', theme: '4th_of_july' },
+    expected: 'addition image-image 4th_of_july',
+    expectedSlug: 'addition-image-image-4th-of-july'
+  },
+  {
+    label: 'BW theme variant produces distinct slug',
+    manifest: { exercise_type: 'addition', exercise_mode: 'mixed', theme: 'valentine_bw' },
+    expected: 'addition mixed valentine_bw',
+    expectedSlug: 'addition-mixed-valentine-bw'
+  },
+  {
+    label: 'pre-extension parity (no theme, addition-image-image)',
+    manifest: { exercise_type: 'addition', exercise_mode: 'image-image' },
+    expected: 'addition image-image',
+    expectedSlug: 'addition-image-image'
+  }
+];
+
+var seedFailed = 0;
+var seedPassed = 0;
+seedCases.forEach(function (c, i) {
+  var actualSeed = slug.deriveSeedFromManifest(c.manifest);
+  var actualSlug = slug.slugify(actualSeed);
+  try {
+    assert.strictEqual(actualSeed, c.expected, 'seed mismatch');
+    assert.strictEqual(actualSlug, c.expectedSlug, 'slug mismatch');
+    seedPassed++;
+    console.log('  PASS [' + (i + 1).toString().padStart(2, '0') + '] ' + c.label +
+      ' → seed: "' + actualSeed + '" → slug: "' + actualSlug + '"');
+  } catch (e) {
+    seedFailed++;
+    console.log('  FAIL [' + (i + 1).toString().padStart(2, '0') + '] ' + c.label);
+    console.log('         expected seed: "' + c.expected + '"');
+    console.log('         actual seed:   "' + actualSeed + '"');
+    console.log('         expected slug: "' + c.expectedSlug + '"');
+    console.log('         actual slug:   "' + actualSlug + '"');
+  }
+});
+
+console.log('---');
+console.log('deriveSeedFromManifest tests: ' + seedPassed + ' passed, ' + seedFailed + ' failed (of ' + seedCases.length + ')');
+
+var totalFailed = failed + seedFailed;
+process.exit(totalFailed === 0 ? 0 : 1);

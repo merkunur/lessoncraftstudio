@@ -641,6 +641,14 @@ What was **removed from scope** in this version (previously included, now delibe
 - **Group C brief drafting** — 3 apps TBD; structurally identical to Group B per the run-batch precedent.
 - **§19 longer-arc items:** NSR operationalization, school-license design, home page copy, first acquisition activities, native cartoon library deployment in marketing, premium classroom personalization (v2), v2 translate-this-deck workflow per §17.8.7, grayscale PDF as user-facing download.
 
+**Future-arc candidates filed at fold pass (post-Track-C-443-wave; doctrine-class but not yet doctrine-promoted):**
+
+- **Manifest-disambiguator-field for fresh-roll-variation slug shape** — when operator authors fresh-roll variations of decks at the same `(exercise-type, exercise-mode, theme)` combination, the §17.8.5 slug-derivation collapses them to identical slugs and `resolveCollision` auto-suffixes (`-2`, `-3`, ...). For low-cardinality cases the §15.13 within-batch collision-pair inspection-before-confirm pattern handles via earlier-roll-wins tiebreak. For higher-cardinality cases (operator-strategic deck-variation workflow), introduce manifest-level `variation_id` or `set_label` field flowing into slug as a 4th component (e.g., `addition-find-addend-animals-set-a` + `addition-find-addend-animals-set-b`). Trigger: 2nd+ recurrence of fresh-roll collision pattern at scale (currently 1 instance: 443-wave 3 pairs, all earlier-roll-wins-resolved). Scope: small `[FEATURE][PUBLISH-CLI]` extending §17.8.5; not active doctrine yet.
+
+- **ALL_LOCALES DRY-extraction at 4th-consumer threshold** — the `['en','de','es','nl','fr','it','pt','sv','da','no','fi']` literal currently has ≥3 consumers across `frontend/components/layout/Footer.tsx FOOTER_LANGUAGES`, `frontend/lib/breadth-grid-selection.ts SIBLING_POOLS`, and various per-locale per-component literals. Per §14.3a 4th-consumer threshold: extract to `frontend/lib/locales.ts ALL_LOCALES` shared constant when 4th consumer surfaces. Trigger: 4th consumer in the open commissions queue; pre-emptive refactor at 3rd-consumer threshold per §14.3.a if 4th is imminent.
+
+- **Arc-splitting threshold heuristic** — when does an arc split into sub-arcs (Arc 6 split into 6c + 6a + 6b + 6d) vs ship as one (Wave 2 single-arc, Track C single-wave)? Recent arcs surfaced both shapes; threshold heuristic isn't yet generalizable. Trigger: 3rd-4th case provides enough material to extract a generalizable threshold (e.g., commit-count expectations, surface-count thresholds, code-volume estimates). Surface as future-arc-candidate; fold when material accumulates.
+
 ## 12. When this document is wrong
 
 This CLAUDE.md will be wrong about some things. The operator's thinking will evolve. The product will reveal new constraints after launch. When you (Claude Code) find something in this document that seems to contradict current reality:
@@ -766,6 +774,14 @@ var lookup = lookups[srLang] || lookups.en;
 Out-of-range values fall back to digit form with a `console.warn` (defensive for future UI changes that might offer larger ranges). Tables live in per-app code (not in shared modules) when single-consumer; promote to a shared module if a second consumer adopts the same shape.
 
 Originating commits: picture-path Phase 2 `75d4a27c` (EN) + Phase 3 `263c67f2` (DE).
+
+#### 14.3a.3 4th-consumer threshold pre-emptive refactor
+
+The §14.3a "single-consumer keys per-app, ≥2-consumer keys shared" convention names the boundary at which DRY-extraction is justified. The pre-emptive variant: when the 3rd consumer surfaces AND the 4th consumer is imminent in the open commissions queue, refactor at the 3rd-consumer threshold rather than waiting for the 4th. The 4th commission would have to either (a) re-introduce copy-paste OR (b) trigger the refactor itself; lower marginal cost to refactor while the surface is already opened for editing.
+
+**How to apply:** at any commission that opens a code surface with ≥3 consumers of a copy-paste pattern, audit the open-commissions queue for an imminent 4th consumer. If imminent, fold the refactor into the current commission per the §A.13 refactor-during-already-opened-surface principle.
+
+Originating commit: `785d63f6` `[FEATURE][PUBLISH-CLI]` (slug-derivation refactor; bulk.js + publish.js + index.js → `slug.js: deriveSeedFromManifest`; 4th consumer Pillar 2 bundle-publish path imminent in open commissions queue).
 
 ### 14.4 How to port a new app (recipe)
 
@@ -1142,6 +1158,12 @@ Per-deck staging artifact set (`manifest.json` + post-substitution `deck.html` +
 
 Origin: Brief B Sub-phase 5.7 verification (no impl change; document existing contract).
 
+**Within-batch collision-pair inspection-before-confirm pattern (added 2026-05-05).** When `publish-bulk` dry-run surfaces within-batch slug collisions on operator-authored deck waves, default to surfacing inspection report before `--confirm` rather than auto-suffix-and-proceed. Author-intent reconstruction from manifest + asset metadata costs one CC turn; reversal of accidentally-shipped duplicates via §15.5 edit-in-place is more expensive. Inspection report covers per-ZIP filename + manifest summary (exercise_type / exercise_mode / theme / settings / images_used / exercise sample) + asset filename list + file size + mtime per pair, grouped by collision-pair.
+
+**Tiebreak rule (deterministic when operator can't distinguish content quality):** drop the LATER-generated ZIP per pair (earlier-roll-wins). The earlier roll typically represents the operator's first complete authoring; later rolls represent regeneration variation. Operator can override by surfacing roll-preference at inspection time.
+
+Origin: Track C 443→440-deck en addition+subtraction wave at 2026-05-05. 3 collision pairs surfaced; all 3 dropped via earlier-roll-wins tiebreak; final shipped state 440 decks with no `-2` numeric-suffix slugs.
+
 ### 15.14 Asset placement, ownership, OG image derivation, pruning
 
 **Asset layout:** `/var/www/lcs-media/decks/<locale>/<slug>-v<N>/{deck.html, printable.pdf, answer-key.pdf, thumbnail.png, og-image.png}` plus the `<slug>` symlink pointing to the latest version dir.
@@ -1211,6 +1233,10 @@ Each topic destination page is composed of:
 **Caching:** ISR per-page revalidation (`revalidate=3600` per shipped state). No module-scoped global memoization at this scale; module-scoped global memoization is filed for future commission when scale-of-traffic warrants the optimization.
 
 **Audit trail (Catalog Variety Arc 1).** Topic-page variety strips shipped at `55ac5687`. The companion homepage BreadthGrid scale-copy line was reverted at `383b7d34` per operator taste-call; references to a "homepage numeric-scale-copy intro" in earlier doctrine drafts are historical and do not describe the shipped state. The Path-2-commitment doctrine (§1, §16.2, §18.4.1) records only what shipped: topic-page strips. Future homepage-side variety surfaces (Catalog Variety Arc 2 expansion to 12 cells + second variety strip; Arc 3 deck-page end-of-deck-link extension) ship per their own future commissions.
+
+**Sibling-axis strip density doctrine.** Beyond the 4 variety strips, topic pages also carry a sibling-axis strip surfacing decks at neighboring axis-keys within the SAME axis (e.g., on `/en/topic/addition/`, surface decks from `/en/topic/subtraction/` and other math exercise-types). The strip caps at max-N-per-related-axis (default N=2) and self-skips when cardinality < 2 (single-tile sibling-strip reads broken; minimum 2 tiles signals genuine sibling variety). Same self-skip threshold as the §16.2 variety strips per consistent visual-density principle.
+
+Originating commit: `15444fe8` Arc 6a (depth-UI overlay; sibling-axis strip + cross-axis pivots + breadcrumbs + result-count + topic-prose container shipped together).
 
 ### 16.3 Pre-built vs on-demand
 
@@ -1327,6 +1353,36 @@ This reservation prevents drift between (a) the architectural concept (a curated
 
 Established at Catalog Variety Arc 1 Q2 adjudication (BreadthGrid intro string used `{exerciseTypeCount}` rather than `{topicCount}`). The reservation persists even though that specific surface was reverted at `383b7d34` — the principle applies to any future user-facing surface that names a browse axis.
 
+#### 16.5.3 Path-based 2-axis intersection routes
+
+Beyond the α-granular single-axis topic pages (one axis per page), 2-axis intersection pages live at **`/<locale>/topic/<axis-1>/<axis-2>/`** — locale-prefixed; both axis-keys in their native-language slug form per §17.4 doctrine. Examples:
+
+- `/en/topic/addition/animals/` — addition exercises themed on animals
+- `/de/topic/addition/kindergarten/` — addition for kindergarten
+- `/de/topic/tiere/kindergarten/` — animal theme × kindergarten
+
+**Canonical axis-ordering.** Axes are ordered as **theme → educational-level → exercise-type** in the URL path. Wrong-order URLs 308-redirect to the canonical form (e.g., `/en/topic/animals/addition/` is wrong-order; canonical is `/en/topic/addition/animals/`? — actually canonical reads as "exercise-type at theme" depending on which axis-pairing rule applies; verify per the live router). The 308 redirect ensures one canonical URL per intersection regardless of how the visitor arrives at the page.
+
+**Why path-based not query-string for 2-axis intersections:** path-based URLs surface as distinct indexable pages with their own SEO surface (title / meta / structured data / sitemap entry); query-string variants would dilute ranking signal across canonical-URL variations. The cost of path-based is route complexity (Next.js `[secondary]` catch-all + canonical-redirect logic); the benefit is dedicated SEO surface per intersection.
+
+Origin: `85f090a3` Arc 6c (intersection routes + sitemap-shard infrastructure shipped together).
+
+#### 16.5.4 Query-string-param convention for filter-sort-pagination
+
+The `topicPage` filter/sort/pagination surface uses **universal English-canonical axis-keys** as query-string params, distinct from the path-based native-language slugs:
+
+- `?level=<English-canonical-axis-key>` — e.g., `?level=kindergarten`
+- `?theme=<English-canonical-axis-key>` — e.g., `?theme=animals`
+- `?type=<English-canonical-axis-key>` — e.g., `?type=addition`
+- `?sort=<sort-key>` — `newest` (default) | `alphaAsc` | `alphaDesc`
+- `?page=<n>` — page number (1-indexed; default 1)
+
+**Rationale for English-canonical query-strings vs native-language slugs in path:** different surfaces, different reading grammars. Path-based URLs (single-axis topic pages + 2-axis intersection routes) are SEO-load-bearing identity surfaces — native-language slugs maximize per-locale ranking signal. Query-strings are facet/sort filters layered on top — universal English keys keep filter logic locale-portable and let the same axis-key map across all 11 locales without translation drift.
+
+**Default-value canonicalization:** when a query-string param matches its default value (e.g., `?sort=newest` or `?page=1`), the URL canonical-redirects to the bare path (or to the URL with default-valued params stripped). See §16.8 for the canonical-tag-on-pagination implementation detail.
+
+Origin: `73640794` Arc 6b (filter + sort + pagination shipped together).
+
 ### 16.6 Footer rendering doctrine
 
 The Footer surfaces topic-page links across three columns per `frontend/components/layout/Footer.tsx`:
@@ -1360,6 +1416,87 @@ Two parallel honesty disciplines apply to newly-substrated locales (locales with
 **FOOTER_LANGUAGES extension is deferred to first-deck-publish, not bundled with Track A.** The Footer's Column 1 (`byLanguage`) array gates which locales render as footer language-switcher links per §16.6's Pass 7b F4 honesty discipline. Adding a newly-substrated locale to `FOOTER_LANGUAGES` BEFORE that locale has its first published deck would link out to a locale-root page with no catalog content — the same trust-erosion failure mode the gate prevents. Discipline: `FOOTER_LANGUAGES` extension waits for first Track C deck publish in the locale; it does NOT bundle with the Track A locale-substrate commission. Track A commissions ship `FOOTER_TOPICS_BY_LOCALE.<locale> = []` and `FOOTER_EXERCISE_TYPES_BY_LOCALE.<locale> = []` empty-array placeholders (per §16.6 honesty discipline already documented); `FOOTER_LANGUAGES` extension is the parallel deferred-to-first-publish operation.
 
 Both disciplines compose: a newly-substrated locale (e.g. `fi` post-`a47ea021`) returns 404 on `/fi/topic/<any-slug>/`, has no entry in `FOOTER_LANGUAGES`, and has empty arrays in `FOOTER_TOPICS_BY_LOCALE.fi` + `FOOTER_EXERCISE_TYPES_BY_LOCALE.fi`. All three resolve when Track C deck-publish lands the first deck in that locale.
+
+## 16.7 Prose substrate
+
+Topic destination pages render rich descriptive prose above the deck grid — locale-natural multi-sentence paragraphs that describe the topic's pedagogical purpose, the cognitive skills exercised, and the appropriate developmental window. The prose is i18n-keyed per (axis-key, locale) and substituted into a server-rendered container.
+
+### 16.7.1 Q3 fallback chain pattern
+
+Prose lookup follows a 3-level fallback chain:
+
+1. **`topicProse.<axisKey>`** (single-axis pages) or **`topicProse.<a1>__<a2>`** (2-axis intersection pages) — rich prose authored for top-N axis-keys per locale; locale-natural multi-sentence content
+2. **`topicPage.intro.<intent>`** (single-axis fallback) where intent ∈ {`exerciseType`, `theme`, `educationalLevel`} — short ICU template ("Worksheets featuring {topic}.")
+3. **`topicPage.intersection.intro`** (intersection fallback) — short ICU template ("Worksheets at the intersection of {primary} and {secondary}.")
+
+The container component (`TopicProseContainer.tsx`) checks levels in order, rendering the first non-empty match. Long-tail axis-keys without `topicProse` content substrate-honestly fall through to the template intro; this is intended behavior, not a defect — Path B for content-authoring arcs (§16.7.3).
+
+The chain pattern is broader than topic-page prose; reusable across surfaces where progressive coverage scales with content authoring (specific key → template → fallback intro).
+
+Origin: `15444fe8` Arc 6a (Q3 fallback chain shipped with deferral comment foreshadowing topicProse population) + `c03fdb8e` Arc 6d (component edit + 660 prose blocks across 11 locales).
+
+### 16.7.2 topicProse key shape canonical
+
+i18n key shape per axis count:
+
+- **Single-axis page:** `topicProse.<axis-key>` — e.g., `topicProse.addition`, `topicProse.kindergarten`, `topicProse.animals`
+- **2-axis intersection:** `topicProse.<a1>__<a2>` with axis-keys in **alphabetic order** — e.g., `topicProse.addition__animals`, `topicProse.kindergarten__sudoku`
+
+The lookup function (`lookupTopicProse` in `TopicProseContainer.tsx`) sorts the two axis-keys before constructing the lookup key, so callers don't need to remember ordering. Authoring discipline: the i18n message file MUST use alphabetic-ordered keys to match the lookup; out-of-order keys silently fall through to the template fallback.
+
+Origin: `c03fdb8e` Arc 6d.
+
+### 16.7.3 Path B by default for content-authoring arcs
+
+Content-authoring arcs follow **Path B by default**: rich content authored for top-N axis-keys per locale; long-tail axis-keys substrate-honestly fall through to template intros.
+
+**Why Path B not Path A (full coverage):** Path A scales linearly with combinatorial space (axis-keys × locales × intersection-pairs), which can exceed reasonable authoring effort even at modest catalog scale. Path B caps authoring at the high-traffic surfaces while preserving structural coverage via the §16.7.1 fallback chain.
+
+Per-locale Path B target depends on catalog state — at 291-deck catalog (Tier-2-closeout shape), per-locale ≈ 60 prose blocks (1 theme + 20 ex-types + 4 levels + 12 theme×ex-type + 3 theme×level + 20 ex-type×level intersections); cross-11-locale total ≈ 660. Long-tail axis-keys (the other 9 of 29 ex-types, the 99 unauthored themes, etc.) fall through.
+
+**Operator-strategic decision per arc:** which axis-keys are "top-N" — driven by deck-volume, query-volume, or audience priority. Default at scale: top-N by published-deck-count.
+
+Origin: `c03fdb8e` Arc 6d (Path B + intersection.intro gap-fold; 660 prose blocks shipped + 7 intersection.intro gap-fills).
+
+## 16.8 Filter-sort-pagination
+
+Topic destination pages support faceted filter + sort + paginated browsing as a structural fallback for the curated grid + variety strips. The filter sidebar surfaces facet counts; the sort dropdown switches result ordering; pagination caps result density at a fixed per-page limit.
+
+### 16.8.1 TOPIC_PAGE_SIZE = 24
+
+Per-page result count is locked at **24 decks per page** for topic + intersection pages. The constant lives at `frontend/lib/topic-decks.ts: TOPIC_PAGE_SIZE`; all paginated surfaces import from there to keep the count consistent.
+
+**Why 24:** balances grid density (4 columns × 6 rows on desktop) with page-load weight (24 deck cards + thumbnails fits in a single ISR-cached render without exceeding LCP budget). Smaller (e.g., 12) increases pagination friction at scale; larger (e.g., 48) bloats render and risks LCP regression.
+
+Locked at Arc 6b Q-pagination adjudication.
+
+### 16.8.2 Filter-sidebar architecture pattern
+
+The filter sidebar (`FilterSidebar.tsx`) renders 3 facet groups in a fixed order: **theme → educational-level → exercise-type** (matches §16.5.3 axis-ordering convention). Per-axis behavior:
+
+- **Theme facet:** top-N expand pattern — first 12 themes visible by default; "Show all themes" expand button reveals the full set. THEME_TIER1_COUNT = 12 (default in `FacetGroup.themeTier1Count`).
+- **Educational-level facet:** all 5 axis-keys visible (no expand pattern; the set is small enough).
+- **Exercise-type facet:** all 29 axis-keys visible (operator-curated browsing surface).
+
+**URL-state truth source:** filter checkbox state is read from the URL query-string (`?level/theme/type` per §16.5.4), NOT from React component state. Toggling a facet `router.push`es the new URL with the param added/removed. Component state is presentation-only (theme expand/collapse local state).
+
+**Path-bound axis exclusion:** when the page itself is anchored on an axis (e.g., visiting `/en/topic/addition/` already filters to `type=addition`), that facet group is excluded from the sidebar — the page-level path-bound axis is locked, not toggleable. Only the unbound axes render as facets.
+
+Origin: `73640794` Arc 6b. UX truncation defect surfaced at `91ae41a7` (label-readability fix per §A.13).
+
+### 16.8.3 Canonical-tag-on-pagination
+
+Pagination + sort URLs canonical-redirect to bare path when params equal default values:
+
+- `?sort=newest` → bare path (newest is the default)
+- `?page=1` → bare path (page 1 is the default)
+- `?sort=alphaAsc&page=1` → `?sort=alphaAsc` (page-1 stripped; non-default sort preserved)
+
+Implementation: server component compares incoming `searchParams` against canonical-form (`buildFilterUrl` strips DEFAULT_VALUES); if mismatch, 308-redirect to canonical. Prevents duplicate-content SEO penalties from ?page=1 vs bare-path appearing as distinct URLs.
+
+**Subtle bug class precedent (`1d105da5` fix):** an earlier implementation compared `sp` (already canonicalized) against `currentSp` (also canonicalized), making them always equal and the redirect never firing. The fix is to compare the RAW incoming `searchParams.toString()` against the canonical form, not two canonicalized variants.
+
+Origin: `73640794` Arc 6b ship + `1d105da5` canonical-redirect fix.
 
 ---
 
@@ -1823,6 +1960,26 @@ Additionally, when a v2 sibling is published, `publish-cli` re-injects the updat
 | `Réveil` (fr-style) | `reveil` | é → e via combining-mark strip |
 | `Hogar BN` (es; Class 2 fallback) | `hogar-bn` (standard) OR `household-bw` (Option A fallback for `household_bw` only — see §16.5.1) | standard path applies for `home_bw`; fallback for `household_bw` due to es-displayName collision |
 
+**Slug-shape canonical for theme-bearing decks (locked at `785d63f6`).** When `manifest.theme` is non-null, the slug shape is **`<exercise-type>-<exercise-mode>-<theme-axis-key>`** — operation+mechanic+content ordering. Examples:
+
+- `addition-find-addend-animals` (en)
+- `addition-image-image-4th-of-july` (en)
+- `subtraction-cross-out-valentine-bw` (en)
+
+Themeless decks (manifest.theme=null per pattern-worksheet remediation precedent) preserve `<exercise-type>-<exercise-mode>` shape — no theme component — per the `if (manifest.theme)` guard in `slug.js: deriveSeedFromManifest`.
+
+**Why operation+mechanic+content ordering, not theme-prefix or mid-position theme:**
+- URL-prefix-match aligns with Google search-snippet leading-segment prominence + teacher operation-first search grammar
+- Mechanic-clustering reads naturally for teachers scanning a list of search results (operation+mechanic combinations stay adjacent across alphabetic-sort positions; theme variation in trailing segment differentiates within group)
+- Reads as a deck-identity claim ("an addition find-addend deck themed on animals"), not a navigation breadcrumb
+- Distinct from intersection-URL axis-ordering (theme→level→type per §16.5.3 navigation grammar); deck-page URLs are leaf-level destinations with identity-claim grammar; different surfaces, different reading grammars
+
+**Slug-derivation gap class.** Slug-derivation rules that drop manifest fields propagate SEO degradation across catalog growth waves. Phase 1 inventory of any catalog-growth wave should include slug-pattern preview check via `publish-bulk --dry-run` BEFORE proceeding to `--confirm`; surface if surfaced patterns don't include all axis-key signals visitor-facing surfaces depend on. The 443-deck Track C en addition+subtraction wave (2026-05-05) surfaced this when dry-run revealed slugs collapsed to 8 unique patterns across 443 ZIPs because pre-fix `slug-derivation` read only `exercise_type + exercise_mode` — at real-mode `resolveCollision` would have produced `addition-find-addend-2`, ..., `-50+` numeric-suffixed URLs that bury theme distinction.
+
+**Anti-pattern:** auto-suffix-and-proceed when within-batch slug collisions surface at dry-run. The auto-suffix machinery works mechanically but degrades SEO and reads as broken to teachers copy-pasting deck links. Default to surfacing inspection report per §15.13 within-batch collision-pair pattern.
+
+Origin: `785d63f6` `[FEATURE][PUBLISH-CLI]` (theme-aware slug derivation + single-SoT refactor across bulk.js + publish.js + index.js).
+
 #### 17.8.6 The age-range to educational-level mapping
 
 `educational_level` is **deterministically derived** from `metadata.json`'s `age_range` by `publish-cli`. The apps never compute it. This rule keeps a single source of truth and prevents any drift between apps.
@@ -2035,6 +2192,99 @@ Established at `e912b805` (Phase 1c apply) and the revision-pass discipline that
 
 **Illustrative-example framing for deck-portable plans.** Lesson plans teach the topic, not specific deck contents. When a plan uses concrete vocabulary as illustration (e.g., "cats and dogs" in en/addition), it must be framed explicitly as illustrative ("the example below uses cats and dogs; substitute whatever animals your deck includes") so the plan is portable across any deck at the same axis-key + locale. The schema's `LessonPlan @@unique([topicSlug, language])` constraint at one-plan-per-axis-key-per-locale shape requires this portability discipline — a plan covers ALL decks in its (topic, locale) bucket. Established at the Phase 1c revision pass that immediately preceded `e912b805`.
 
+### 17.10 I18n hygiene + sitemap-shard infrastructure
+
+This section consolidates i18n + sitemap-substrate doctrine that touches multiple surfaces (per-locale URL inventory, namespace-migration discipline, content-substitution patterns, sitemap shard distribution). All items are doctrine-class principles surfaced empirically through Arc 6 split + Wave 2 footer migration + the 443-wave fold pass.
+
+#### 17.10.1 4-shard sitemap-index hash-partitioning
+
+The sitemap surface is a 4-shard index with hash-partitioned URL distribution per `e5bb3cb4` BreadthGrid hash-partition convention extended at `85f090a3` Arc 6c sitemap-shard infrastructure:
+
+- **Shard 0 (`/sitemap/0.xml`, "decks-a"):** published deck URLs whose `Deck.id` last character has even ASCII parity
+- **Shard 1 (`/sitemap/1.xml`, "decks-b"):** published deck URLs whose `Deck.id` last character has odd ASCII parity
+- **Shard 2 (`/sitemap/2.xml`, "intersections"):** 2-axis intersection page URLs per §16.5.3 path-based routes
+- **Shard 3 (`/sitemap/3.xml`, "other"):** single-axis topic pages + locale-root pages + other meta surfaces
+
+**Hash-partitioning rationale:** 4-shard split keeps any one shard under Google's 50K-URL recommended sitemap limit at catalog scale. Last-char ASCII parity provides deterministic 50/50 distribution across decks-a + decks-b without requiring server-side maintenance of partition keys. Cross-locale content all flows through the same 4 shards (no per-locale sitemap split) to keep crawl-budget concentrated.
+
+**Master sitemap index** at `/sitemap.xml` lists all 4 child shards. Auto-generated via Next.js `generateSitemaps` returning `[{id:0}, {id:1}, {id:2}, {id:3}]`; per-shard `generateSitemap(id)` queries DB filtered by partition key.
+
+Origin: `85f090a3` Arc 6c (sitemap-shard infrastructure).
+
+#### 17.10.2 Reuse-existing-i18n-key-when-strings-identical convention
+
+When two i18n surfaces produce identical string values for a given (key, locale), reuse a single shared key rather than duplicating per-surface keys. The convention surfaces during component design when authoring would otherwise produce two keys (e.g., `breadcrumb.home` + `nav.home` both rendering "Home"). Single key `home` (or `nav.home` etc.) used across both surfaces.
+
+**Why:** keeps i18n message files leaner; reduces translation drift when a single key gets retranslated and the duplicate doesn't. Anti-pattern: surface-specific naming (e.g., `topicPage.breadcrumb.home` vs `homePage.nav.home`) that produces duplicate strings — indicates a missed reuse opportunity.
+
+**How to apply:** at component-design time, before authoring a new i18n key, grep existing message files for an identical string value at any locale; if found, reuse the existing key. Distinguishing-by-context naming is fine when contexts genuinely diverge across locales (German might pluralize differently per surface); identical-strings-across-locales is the trigger for reuse.
+
+Origin: `15444fe8` Arc 6a (depth-UI overlay component design — multiple surfaces sharing identical strings via single keys like `topicPage.breadcrumb.home`).
+
+#### 17.10.3 Substrate-honesty namespace-boundary discipline
+
+When a commission introduces or extends an i18n namespace, Phase 1 inventory MUST grep ALL platform locale message files for the namespace's key set; Phase 4 verification MUST confirm presence in 11/11 locales before declaring complete. Mismatch — present in some locales but not others — produces raw-key-leak in production for the missing locales.
+
+**How to apply:**
+- Phase 1: enumerate the canonical key set from the canonical baseline (typically `messages/en.json`); cross-locale grep to identify gaps
+- Phase 4: post-deploy, curl per-locale rendered HTML; grep response body for raw-key-leak pattern (`<namespace>\.<key>`); 0 user-visible occurrences per locale
+
+The Arc 6d gap-fold of `topicPage.intersection.intro` (7 locales missing baseline) and the Wave 2 footer namespace migration (7 locales carrying legacy 13-key shape) both followed this discipline. Wave-N namespace-migration discipline (§17.10.4) is a specific application of the substrate-honesty principle.
+
+Origin: `c03fdb8e` Arc 6d.
+
+#### 17.10.4 Wave-N namespace-migration discipline
+
+When a Wave 1 commission ships canonical baseline coverage for a subset of locales (typically Tier 1+2: en/de/es/nl), a Wave 2+ commission folds in the remaining locales. The pattern surfaces 1-2 arcs after the baseline ships, when build-warnings or downstream-arc Phase 1 inventory reveals the gap.
+
+**Wave-N commission shape (small-arc gap-fold, NOT full namespace migration):**
+- Phase 1 inventory: cross-locale namespace-key audit; structural-divergence vs gap-fill classification
+- Phase 2: per-locale gap-fill OR namespace migration (delete legacy + insert canonical) — operator-strategic decision per scope
+- Phase 3: single commit covering N locale message files (where N = locales requiring change)
+- Phase 4: per-locale curl spot-check + raw-key-leak grep
+
+**Distinct from:** full namespace authoring commission (Romance/Nordic homepage batches) which authors NEW content at scale rather than gap-filling/migrating existing namespaces.
+
+Origin: `672e771b` + `a1c78529` Wave 2 footer migration (7 newer locales: fr/it/pt/sv/da/no/fi).
+
+#### 17.10.5 Runtime-consumer-audit is load-bearing
+
+When a Wave-N commission audits namespace coverage, the runtime consumer (which keys does the component actually call?) is the load-bearing inventory. Static-text references in admin tooling (content-manager HTMLs, isolated per §A.1) are isolated from runtime; they don't gate the migration.
+
+**How to apply:**
+- Grep `useTranslations\(['"]<namespace>` and `getTranslations.*<namespace>` for runtime callers
+- Grep `<namespace>\.<key>` across all source files; classify each match as runtime-bound (next-intl call) vs static-text reference
+- Migration scope = runtime-bound consumers only; static-text references can be cleaned up in separate scope
+
+**Anti-pattern:** treating all source-file references as runtime consumers. The Wave 2 footer migration discovered legacy 13-key shape was referenced only in 2 admin HTMLs (static-text placeholders, not next-intl bindings); deletion was safe because runtime consumer was just `Footer.tsx`.
+
+Origin: `672e771b` Wave 2 footer migration runtime-consumer audit.
+
+#### 17.10.6 Legacy-namespace-residue audit-on-arc-Phase-1
+
+Locales that received Wave 1 partial coverage but didn't receive subsequent namespace renames carry legacy seller-era shapes that linger as runtime-orphaned residue. The Wave 2 footer migration discovered this in 7 newer locales (fr/it/pt/sv/da/no/fi) carrying a 13-key seller-era shape (companyName / companyTagline / support.* / legal.*) that didn't match the canonical 9-key Footer.tsx consumer.
+
+**How to apply:** at any Wave-N commission's Phase 1, audit BOTH:
+- Forward gap (Wave 1 keys missing in later-tier locales)
+- Backward residue (legacy keys lingering in later-tier locales from pre-Wave-1 era)
+
+Both classes of drift fold into the same Wave-N commit; structural-divergence handling at Phase 2 covers both.
+
+Origin: `672e771b` + `a1c78529` Wave 2 footer migration.
+
+#### 17.10.7 Cross-locale convention parity verification
+
+Phase 1 inventory of any namespace migration should sample Tier 1+2 actual canonical TEXT shape — not just key presence — to prevent register divergence. The Wave 2 footer migration initially used bare-prefix forms ("Par langue" / "Per lingua" etc.) until Phase 4 verification revealed Tier 1+2 canonical pattern is noun-prefixed ("Worksheets by language" / "Arbeitsblätter nach Sprache" / "Hojas de trabajo por lengua" / "Werkbladen per taal"). A fix-up commit (`a1c78529`) realigned the 7 newer locales to canonical noun-prefix pattern.
+
+**How to apply:**
+- Phase 1: read the actual TEXT values of Tier 1+2 (en/de/es/nl) for the namespace's keys; identify pattern (noun-prefix, bare-prefix, ICU template, etc.)
+- Phase 2 authoring: mirror the Tier 1+2 register pattern, not just the key shape
+- Phase 4 verification: Tier 1+2 regression spot-check uses the same expected-pattern strings (NOT operator-locked wording from the commission spec — the actual rendered TEXT)
+
+**Anti-pattern:** authoring per the commission spec's literal example strings without verifying canonical register at Tier 1+2. Commission specs evolve; canonical-text drift over time. Source-of-truth is the live Tier 1+2 message files at commission time.
+
+Origin: `a1c78529` Wave 2 footer migration follow-up (cross-locale convention parity fix).
+
 ---
 
 ## 18. Sample decks embedded on every public page
@@ -2086,6 +2336,43 @@ All three are load-bearing. Locale + theme alone underspecify the grid: a 2/2/2/
 **When NOT to apply theme-refresh swap:** at first-publish events (which establish locale baseline) or at closeout milestones (which can hold the post-arc composition or refresh per operator strategic call). At Tier-2 closeout (NL Batch 7 `d3b4f962`), operator chose hold-2/2/2/2 because the Batch 4 mechanic-diversity restoration still held and there was no clustered-mechanic to address.
 
 **Cross-reference to SECTION-2-CURATION-v1.md:** that document is the canonical curation spec and houses per-pick rationale + thumbnail-quality criteria. This subsection extends the spec with the three-equilibrium framing surfaced through the ES + NL Track C arcs.
+
+#### 18.4.2 BreadthGrid 4-family hybrid + 9-cell composition + day-of-week rotation
+
+The BreadthGrid Section 2 shipped at `e5bb3cb4` as a 4-family-hybrid locale-grouping with 9-cell composition and day-of-week deck-rotation rhythm.
+
+**4-family canonical locale-family map:**
+
+- **Germanic:** en, de, nl
+- **Nordic:** sv, da, no
+- **Romance:** es, fr, it, pt
+- **Finnic singleton:** fi (with Nordic-as-sibling-proxy)
+
+Sibling pools per visiting locale: `en→[de,nl]`, `de→[en,nl]`, `nl→[de,en]`, `sv→[da,no]`, `da→[no,sv]`, `no→[sv,da]`, `es→[fr,it,pt]`, `fr→[es,it,pt]`, `it→[es,fr,pt]`, `pt→[es,fr,it]`, `fi→[sv,da,no]` (Finnic-with-Nordic-as-proxy).
+
+**Visitor-recognition vs linguistic-typology adjudication principle.** The 4-family map prefers **visitor-recognition** (locales that visitors expect to be grouped together based on geographic / cultural proximity) over **scholarly-typology** (Indo-European / Uralic family trees). Finnic fi is grouped with Nordic in the sibling pool because Finnish teachers searching for Nordic-language K-3 content recognize sv/da/no as adjacent-market peers — even though Finnish is Uralic, not Germanic. Same principle: nl grouped with Germanic en/de (visitor-natural), not Romance (geographically Belgian-adjacent). When visitor-recognition + scholarly-typology disagree, visitor-recognition wins.
+
+**9-cell composition canonical (6+2+1):**
+
+- **6 visiting-locale tiles** — decks from the visitor's own locale; surfaces the per-locale catalog
+- **2 cross-locale tiles** — one tile per sibling-locale (rotated through the sibling pool); surfaces the multilingual differentiator
+- **1 featured tile** — operator-curated featured deck (currently `sudoku-en` per SECTION-2-CURATION-v1.md); inline-playable; cross-arc-stable
+
+The 9-cell shape balances per-locale catalog representation against the multilingual claim. Smaller (e.g., 6+1+1=8) under-represents cross-locale; larger (e.g., 8+3+1=12) over-densifies (Catalog Variety Arc 2 candidate).
+
+**Day-of-week rotation rhythm:**
+
+```js
+function dayOfWeekRotation(): number {
+  return Math.floor(Date.now() / (1000 * 60 * 60 * 24)) % 7;
+}
+```
+
+UTC-anchored; within-day stable across all visitors; varies across days. Within-day stability preserves ISR-cache discipline (1-hour revalidate per topic-page convention; cache hits return identical composition for the same day). Day-of-week rotation cycles deck picks through the available pool, giving repeat visitors variety without breaking cache discipline.
+
+**Anti-pattern:** per-request randomization (would fragment ISR cache; every request rebuilds the page). The day-of-week rotation strikes the right balance: cycling rhythm at the day granularity, cache stability at the hour granularity.
+
+Origin: `e5bb3cb4` `[REFACTOR][HOMEPAGE]` (4-family hybrid + 9-cell + day-of-week rotation refactor).
 
 ### 18.4.1 Variety-strip composition rules at scale
 
@@ -2339,6 +2626,36 @@ For all non-`[SCHEMA]` commits, the hook stays mandatory; `--no-verify` is **not
 
 If any of those three conditions fails, the bypass does not apply and the underlying issue is to be investigated per the §A.1 / global "never skip hooks" rule.
 
+#### A.8.2 Multi-copy doctrine-file drift discipline
+
+When a doctrine file exists at multiple paths (e.g., `docs/SUBSCRIPTION-SCOPE.md` AND `important/SUBSCRIPTION-SCOPE.md`; or any future case where canonical-copy + working-snapshot coexist), fold operations target the path **cross-referenced from CLAUDE.md** as canonical. The CLAUDE.md cross-reference is the authoritative path locator; alternate copies are working-memory snapshots and may drift.
+
+**How to apply:**
+- Phase 1 inventory verifies which path is cross-referenced from CLAUDE.md (e.g., §7 cites `docs/SUBSCRIPTION-SCOPE.md` literally — that's canonical)
+- Fold operations edit the canonical path only; alternate copies stay as-is
+- Surface drift in [DOCS] commit closeout: "alternate copy at `<path>` is now ~one fold-pass-cycle behind canonical; recommend separate `[CHORE][DOCS]` reconciliation commission as follow-on"
+
+**Why:** reconciling multi-copy divergence is a separate commission shape (state-reconciliation arc), not a fold pass. Bundling reconciliation into a fold pass would conflate "consume queue items" with "resolve file-state divergence" — different concerns, different scopes.
+
+**Anti-pattern:** updating both copies in a fold pass to "keep them in sync." Either copy a is canonical and copy b is residual (commission a separate cleanup) OR both are load-bearing for distinct purposes (commission a separate scope-clarification). Fold passes don't resolve the question.
+
+Origin: this commission's Phase 1 finding; SUBSCRIPTION-SCOPE.md exists at `docs/` (canonical per CLAUDE.md §7 cross-reference) and `important/` (working snapshot).
+
+#### A.8.3 Working-memory file post-fold-pass cleanup discipline
+
+When a [DOCS] fold pass consumes carry-forward items from working-memory files (typically `important/SESSION-STATE.md` doctrine-queue section + `important/CONVERSATION-HANDOFF.md` doctrine-queue section), the [DOCS] commit's Phase 4 verification step explicitly clears the consumed entries from the working-memory file (or marks them resolved-by-commit-hash). Avoids the failure mode where stale working-memory queues mislead future fold passes about active-doctrine state.
+
+**How to apply (Phase 4 of any [DOCS] fold pass):**
+1. Identify the working-memory file's doctrine-queue section
+2. For each item that the [DOCS] commit folded into canonical CLAUDE.md, mark the item as "resolved by `<commit-hash>`" OR delete the item (operator preference; default: mark resolved to preserve audit trail)
+3. Update the section header / preamble to reflect 0 items pending post-fold
+
+**Working-memory edits are NOT in the [DOCS] commit.** Per §10.4, working-memory files (`MEMORY.md`, `CONVERSATION-HANDOFF.md`, `SESSION-STATE.md` in `important/`) are out-of-tree handoff artifacts that persist at filesystem level without commits. The [DOCS] commit covers canonical CLAUDE.md only; the working-memory cleanup happens in the same operator-attention session but on a separate disposition path.
+
+**Why this matters:** the failure mode this prevents was surfaced empirically by THIS commission's Phase 1 finding — `important/SESSION-STATE.md` §8 listed 18 items as "pending next [DOCS] cycle" but all 18 were already folded by `2511e181` (~7 hours earlier). Without this discipline, future fold passes would have re-folded the same items or wasted Phase 1 inventory time discovering the staleness.
+
+Origin: this commission's Phase 1 inventory finding (`2511e181` pre-resolved 18 items; SESSION-STATE.md §8 stale).
+
 ### A.9 Mac Studio operational rules (new)
 
 - The Mac Studio is reachable only over Tailscale. Never expose its services to the public internet.
@@ -2368,5 +2685,53 @@ Plain `git push` is the default for fast-forward cases (local just ahead of remo
 **Why this is policy-locked (added 2026-05-03 post Batch 4 ES drift correction at `b18b8654`):** the Claude Code agent safety policy blocks `--force-with-lease` even on non-destructive cases (e.g., when local is just ahead of remote and no history rewrite is needed). When a brief specifies `--force-with-lease` for a fast-forward case, the safety block fires and force-with-lease is unnecessary anyway. Plain `git push` succeeds without any flag.
 
 **Briefs that mention `--force-with-lease`:** check whether the case is a genuine history rewrite (commit amends, rebases, etc.) or a fast-forward. Default to plain `git push` for fast-forwards. If the safety policy blocks the force-with-lease attempt, don't escalate — just use plain push.
+
+### A.13 Verification hygiene
+
+This section consolidates verification-pass discipline surfaced empirically through Arc 6 split + the Track C 443→440-deck wave. Items here are operational — they apply at Phase 4 verification of any commission, not at architecture/design time.
+
+#### A.13.1 Phase 4 zoom-in label-readability discipline
+
+Phase 4 verification spot-checks must include zoom-in inspection of UI labels in narrow-column contexts. UX-truncation defects on wrong CSS class assignment surface only on close inspection — at standard browser width the page renders, deck cards load, faceted filters work, but text labels are truncated to 2-3 characters with ellipsis ("a..", "b..", "c..").
+
+**How to apply (Phase 4 of any UI commission):**
+- Mobile narrow-viewport check (375px): verify labels render fully, not ellipsis-truncated
+- Faceted-sidebar / filter-strip / similar narrow-column UI surfaces: zoom in on actual rendered text
+- Sample 3-5 representative labels per surface; confirm full-text readability
+
+**Why:** the standard "page returns 200, deck-grid renders, headings present" smoke test passes even with severe label truncation. Text-readability-at-narrow-column is a distinct verification dimension.
+
+**Anti-pattern:** trusting status-200 + structural-presence smoke tests as sufficient Phase 4 verification for UI components. Status-200 verifies routing; structural-presence verifies components render; label-readability verifies layout-CSS-class-correctness. All three are independent.
+
+Origin: `91ae41a7` `[FIX][UX]` Filter sidebar — label truncation + column-width allocation (operator screenshot at `/en/topic/animals/kindergarten/` revealed truncated labels on a render that appeared structurally correct).
+
+#### A.13.2 Gap-fold-in-same-commit doctrine
+
+When an arc surfaces a latent bug fixable with **≤10 short strings** OR **≤1 component-level edit at zero strategic cost**, fold the fix into the arc's commit rather than commissioning a separate [FIX] arc. The Arc 6c→6d intersection.intro precedent established this: 7 missing intersection.intro strings (gap-fill) + 1 component edit (TopicProseContainer.tsx topicProse lookup) folded into the Arc 6d topicProse authoring commit because (a) the latent bug surfaced during Arc 6d Phase 1 inventory and (b) folding cost zero strategic surface — single small additive change at the same fold target.
+
+**How to apply (Phase 2 of any arc):**
+- If Phase 1 surfaces a latent bug AND the fix is ≤10 short strings OR ≤1 component edit AND the fix lives at the same fold-target file(s) as the arc's primary work: FOLD into the arc's commit
+- If the fix exceeds these thresholds OR touches a different surface OR has strategic implications operator should adjudicate: SURFACE as separate [FIX] commission
+
+**Why:** small-fix-bundling reduces commit-history fragmentation while preserving operator-strategic decisions for non-trivial fixes. The 6c→6d intersection.intro fix at zero-cost-fold was the right call; an out-of-scope publish-cli refactor would have been the wrong fold (different surface, different scope, requires operator strategic-adjudication).
+
+**Anti-pattern:** folding ANY fix into the arc's commit because "we're already editing nearby files." The threshold is structural (≤10 strings / ≤1 component / same-surface), not opportunistic.
+
+Origin: Arc 6c→6d intersection.intro precedent (`c03fdb8e`).
+
+#### A.13.3 Refactor-during-already-opened-surface principle
+
+When a [FIX] commission opens a code surface for editing, audit the surface for adjacent refactor opportunities of the same shape. Lower marginal cost during already-opened surface than commissioning a separate refactor arc later. The principle is structurally identical to §A.13.2 gap-fold but applies to refactor opportunities (not bug-fix opportunities).
+
+**How to apply (during any [FIX] commission's Phase 1 inventory):**
+- After identifying the bug's root-cause surface, scan adjacent code for the same anti-pattern
+- If the surface has ≥3 instances of the same anti-pattern AND a 4th consumer is imminent (per §14.3a 4th-consumer threshold), fold the refactor into the [FIX] commission
+- If the refactor scope exceeds the [FIX] surface OR introduces new architectural decisions: surface as separate refactor commission
+
+**Why:** opened-surface refactors are economically efficient (no need to re-establish context); deferred refactors compound technical debt. The 443-wave publish-cli refactor (`785d63f6`) folded a 3-call-site refactor into the theme-aware-slug fix because the surface was already opened for editing AND a 4th consumer (Pillar 2 bundle-publish path) was imminent.
+
+**Anti-pattern:** opportunistic refactor-creep that expands the [FIX] commission's scope beyond the bug. The trigger is "same anti-pattern at adjacent call sites with imminent 4th consumer," not "this code could be cleaner."
+
+Origin: `785d63f6` `[FEATURE][PUBLISH-CLI]` (slug-derivation refactor folded into theme-aware-slug fix; bulk.js + publish.js + index.js → `slug.js: deriveSeedFromManifest`).
 
 *End of CLAUDE.md.*

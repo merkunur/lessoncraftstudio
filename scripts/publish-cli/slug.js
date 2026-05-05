@@ -25,6 +25,66 @@
 
 'use strict';
 
+/**
+ * App-classification for the §A.13 exerciseMode reconciliation gate.
+ *
+ * Two classes per Commission ε recon at 5078f491:
+ *   - DERIVED:  app's emit-site reads exerciseMode from a UI element
+ *               (selectElement.value OR equivalent). Non-null exerciseMode
+ *               at publish-time is the expected state. If the gate sees
+ *               a null declared mode from one of these apps, that's an
+ *               emit-site regression.
+ *   - HARDCODED_NULL: app's emit-site hardcodes exerciseMode=null at the
+ *               LCSCatalogExport.export() call. Future multi-mode waves
+ *               on these apps would collapse into shared slug-namespace.
+ *               The gate halts on null mode from these apps to surface
+ *               the missing emit-fix (Commission ε is parked on per-app
+ *               taxonomy adjudication).
+ *
+ * Apps not present in either list (e.g., orphan deck_id, future apps,
+ * Track A baseline themeless rows) trigger CLEAN-with-degraded-trust:
+ * the gate doesn't know enough about that app to classify, so it lets
+ * the deck through rather than halt on uncertainty.
+ *
+ * Total = 29 apps per §14.10 canonical list. When taxonomy adjudication
+ * lands per-app, an app moves from HARDCODED_NULL to DERIVED here AND
+ * its emit-site is fixed — the constant is the single source of truth
+ * the gate consults.
+ */
+var EXERCISE_MODE_APP_CLASSIFICATION = {
+  // DERIVED — emit-site reads from UI; non-null at publish is expected
+  'addition':         'DERIVED',
+  'big-small':        'DERIVED',
+  'code-addition':    'DERIVED',  // post-fix at 5078f491
+  'find-and-count':   'DERIVED',
+  'find-objects':     'DERIVED',
+  'math-puzzle':      'DERIVED',
+  'math-worksheet':   'DERIVED',
+  'matching':         'DERIVED',
+  'more-less':        'DERIVED',
+  'picture-path':     'DERIVED',
+  'prepositions':     'DERIVED',
+  'shadow-match':     'DERIVED',
+  'subtraction':      'DERIVED',
+  // HARDCODED_NULL — emit-site hardcodes null; awaiting Commission ε per-app fix
+  'alphabet-train':   'HARDCODED_NULL',
+  'bingo':            'HARDCODED_NULL',
+  'chart-count':      'HARDCODED_NULL',
+  'crossword':        'HARDCODED_NULL',
+  'cryptogram':       'HARDCODED_NULL',
+  'grid-match':       'HARDCODED_NULL',
+  'missing-pieces':   'HARDCODED_NULL',
+  'odd-one-out':      'HARDCODED_NULL',
+  'pattern-train':    'HARDCODED_NULL',
+  'pattern-worksheet':'HARDCODED_NULL',
+  'picture-sort':     'HARDCODED_NULL',
+  'sudoku':           'HARDCODED_NULL',
+  'treasure-hunt':    'HARDCODED_NULL',
+  'word-guess':       'HARDCODED_NULL',
+  'word-scramble':    'HARDCODED_NULL',
+  'wordsearch':       'HARDCODED_NULL'
+};
+
 var NON_DECOMPOSABLE_MAP = {
   'ä': 'a', 'ö': 'o', 'ü': 'u', 'ß': 'ss',
   'å': 'a', 'æ': 'ae', 'ø': 'o',
@@ -245,11 +305,78 @@ function reconcileManifestTheme(manifest) {
   };
 }
 
+/**
+ * Reconcile manifest.exerciseMode against the app's emit-site
+ * classification per Commission δ (Interpretation Y, lenient-gate).
+ * Pairs with reconcileManifestTheme at 580b0ca26; runs at the same
+ * publish-cli pre-flight boundary, before slug derivation. Closes
+ * structural exposure for the 16 HARDCODED_NULL apps surfaced by
+ * Commission ε's recon.
+ *
+ * Decision tree (lenient-gate semantics):
+ *   declared non-null + non-empty string → CLEAN
+ *     (app emits a mode; theme reconciliation already validates the
+ *     emitted value isn't garbage relative to content — exerciseMode
+ *     reconciliation just trusts the non-null state.)
+ *
+ *   declared null + HARDCODED_NULL app → MODE_NULL_FROM_HARDCODED_APP
+ *     (known emit-defect per Commission ε; halts pre-publish; surfaces
+ *     operator commission-of-Commission ε for that app's per-app fix.)
+ *
+ *   all other cases (DERIVED+null, UNKNOWN+null, themeless-Track-A+null) → CLEAN
+ *     (DERIVED apps may legitimately emit null for default-mode contracts —
+ *     e.g., code-addition standard mode at 5078f491 emits null per operator
+ *     2-mode adjudication. The DERIVED classification means "emit-site reads
+ *     from UI" not "emit-site always non-null." UNKNOWN covers future-app
+ *     shapes + Track A baseline rows.)
+ *
+ * The gate's purpose: catch HARDCODED_NULL emits (no operator-side intent
+ * behind the null; structurally broken emit-site). DERIVED-null pass
+ * because operator selected null intentionally.
+ *
+ * Returns: { category, declared, appClass, deckId, app }.
+ */
+function reconcileExerciseMode(manifest) {
+  var declared = (manifest && manifest.exercise_mode != null && manifest.exercise_mode !== '')
+    ? String(manifest.exercise_mode) : null;
+  var declaredDefined = declared !== null;
+  var app = manifest && manifest.exercise_type ? String(manifest.exercise_type) : null;
+  var appClass = (app && Object.prototype.hasOwnProperty.call(EXERCISE_MODE_APP_CLASSIFICATION, app))
+    ? EXERCISE_MODE_APP_CLASSIFICATION[app]
+    : 'UNKNOWN';
+
+  var category;
+  if (declaredDefined) {
+    // App emits a mode. Trust it. Theme reconciliation validates content
+    // alignment; exerciseMode reconciliation only concerns null-vs-non-null.
+    category = 'CLEAN';
+  } else if (appClass === 'HARDCODED_NULL') {
+    // Known emit-defect per Commission ε. Halts to surface the operator-
+    // strategic per-app taxonomy decision needed before publish.
+    category = 'MODE_NULL_FROM_HARDCODED_APP';
+  } else {
+    // DERIVED + null: legitimate per operator-shipped contracts (e.g.,
+    // code-addition standard mode at 5078f491). UNKNOWN + null: degraded-
+    // trust CLEAN for future apps + Track A baseline rows + orphan deck_ids.
+    category = 'CLEAN';
+  }
+
+  return {
+    category: category,
+    declared: declared,
+    appClass: appClass,
+    deckId: manifest && manifest.deck_id ? manifest.deck_id : null,
+    app: app
+  };
+}
+
 module.exports = {
   slugify: slugify,
   resolveCollision: resolveCollision,
   deriveSeedFromManifest: deriveSeedFromManifest,
   parseThemeFromImagePath: parseThemeFromImagePath,
   reconcileManifestTheme: reconcileManifestTheme,
+  reconcileExerciseMode: reconcileExerciseMode,
+  EXERCISE_MODE_APP_CLASSIFICATION: EXERCISE_MODE_APP_CLASSIFICATION,
   _NON_DECOMPOSABLE_MAP: NON_DECOMPOSABLE_MAP
 };

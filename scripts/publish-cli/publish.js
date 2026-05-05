@@ -90,6 +90,26 @@ async function publish(opts) {
     );
   }
 
+  // Step 1a-bis: manifest.exerciseMode reconciliation gate per Commission δ
+  // (Interpretation Y, lenient). Halts only on HARDCODED_NULL+null per the
+  // Commission ε defect class; DERIVED+null is legitimate per operator-
+  // shipped default-mode contracts (e.g., code-addition standard at 5078f491).
+  var modeRecon = slugMod.reconcileExerciseMode(manifest);
+  if (modeRecon.category !== 'CLEAN') {
+    throw new Error(
+      'publish: manifest.exerciseMode reconciliation [' + modeRecon.category + ']\n' +
+      '  deck_id:   ' + (modeRecon.deckId || '?') + '\n' +
+      '  app:       ' + (modeRecon.app || '?') + '\n' +
+      '  declared:  ' + JSON.stringify(modeRecon.declared) + '\n' +
+      '  appClass:  ' + modeRecon.appClass + '\n' +
+      '\n' +
+      '  Known emit-defect per Commission ε recon. App is in HARDCODED_NULL\n' +
+      '  classification; per-app fix awaiting operator-strategic taxonomy adjudication.\n' +
+      '  Multi-mode waves are blocked until Commission ε per-app fix ships.\n' +
+      '  Reconciliation is a hard gate; no override path is provided.'
+    );
+  }
+
   // Step 1b: edit-in-place lookup (if flag present).
   var existingRow = null;
   var slug = null;

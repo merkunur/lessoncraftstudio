@@ -150,6 +150,25 @@ function dryRunSingle(zipPath, stagingDir) {
     process.exit(1);
   }
 
+  // manifest.exerciseMode reconciliation gate per Commission δ. Pairs
+  // with theme reconciliation; same halt-pre-slug-derivation behavior.
+  // Only halts on HARDCODED_NULL+null per Interpretation Y; DERIVED+null
+  // is legitimate per operator-shipped default-mode contracts.
+  var modeRecon = slugMod.reconcileExerciseMode(manifest);
+  if (modeRecon.category !== 'CLEAN') {
+    console.error('manifest.exerciseMode reconciliation [' + modeRecon.category + ']');
+    console.error('  deck_id:   ' + (modeRecon.deckId || '?'));
+    console.error('  app:       ' + (modeRecon.app || '?'));
+    console.error('  declared:  ' + JSON.stringify(modeRecon.declared));
+    console.error('  appClass:  ' + modeRecon.appClass);
+    console.error('');
+    console.error('  Known emit-defect per Commission ε recon. App ' + modeRecon.app);
+    console.error('  is in the HARDCODED_NULL classification; per-app fix awaiting');
+    console.error('  operator-strategic taxonomy adjudication. Multi-mode waves are');
+    console.error('  blocked at the gate until Commission ε per-app fix ships.');
+    process.exit(1);
+  }
+
   var deckHtml;
   try {
     deckHtml = bundle.readDeckHtml(b);
@@ -302,8 +321,11 @@ async function publishBulkCmd(parsed) {
       });
       var collisions = dry.results.filter(function (r) { return r.collision; }).length;
       var errored = dry.results.filter(function (r) { return r.errors && r.errors.length; }).length;
-      var reconHalted = dry.results.filter(function (r) {
+      var themeHalts = dry.results.filter(function (r) {
         return r.themeReconciliation && r.themeReconciliation.category !== 'CLEAN';
+      }).length;
+      var modeHalts = dry.results.filter(function (r) {
+        return r.exerciseModeReconciliation && r.exerciseModeReconciliation.category !== 'CLEAN';
       }).length;
       var ok = dry.results.filter(function (r) { return r.ok; }).length;
       console.log('');
@@ -311,7 +333,7 @@ async function publishBulkCmd(parsed) {
       console.log('[bulk dry-run] Staging: ' + dry.stagingDir);
       console.log('[bulk dry-run] ZIPs: ' + dry.results.length +
         '  ok=' + ok + '  collisions=' + collisions + '  errored=' + errored +
-        '  reconciliation_halts=' + reconHalted);
+        '  theme_halts=' + themeHalts + '  exercise_mode_halts=' + modeHalts);
       console.log('[bulk dry-run] Inspect:');
       console.log('  ' + path.join(dry.stagingDir, '_summary.txt'));
       console.log('  ' + path.join(dry.stagingDir, '_collisions.txt'));
@@ -320,11 +342,18 @@ async function publishBulkCmd(parsed) {
       // Reconciliation halts subsume per-zip errors; the same ZIPs surface
       // in both _errors.txt (with category-prefixed message) and the more
       // structured _reconciliation.txt.
-      if (reconHalted > 0) {
+      if (themeHalts > 0) {
         console.error('');
         console.error('[bulk dry-run] manifest.theme reconciliation halt: ' +
-          reconHalted + ' of ' + dry.results.length + ' ZIPs surface metadata-content disagreement.');
-        console.error('[bulk dry-run] See _reconciliation.txt for per-deck table + per-app breakdown.');
+          themeHalts + ' of ' + dry.results.length + ' ZIPs surface metadata-content disagreement.');
+      }
+      if (modeHalts > 0) {
+        console.error('');
+        console.error('[bulk dry-run] manifest.exerciseMode reconciliation halt: ' +
+          modeHalts + ' of ' + dry.results.length + ' ZIPs surface emit-defect (Commission δ gate).');
+      }
+      if (themeHalts > 0 || modeHalts > 0) {
+        console.error('[bulk dry-run] See _reconciliation.txt for per-category tally + per-app breakdown + per-deck tables.');
       }
       await db.disconnect();
       process.exit((errored > 0 || collisions > 0) ? 1 : 0);

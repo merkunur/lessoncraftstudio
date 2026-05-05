@@ -111,6 +111,25 @@ async function dryRunOneZip(zipPath, stagingRoot, ctx) {
     return result;
   }
 
+  // Step 1c: manifest.exerciseMode reconciliation gate per Commission δ.
+  // Pairs with theme reconciliation; same halt-pre-slug-derivation behavior.
+  // Closes structural exposure for the 16 HARDCODED_NULL apps surfaced by
+  // Commission ε's recon. App-classification table in slug.js drives the
+  // decision: DERIVED apps must emit non-null mode; HARDCODED_NULL apps
+  // halt on null pending Commission ε per-app fix; unknown apps degraded-
+  // trust CLEAN.
+  var modeRecon = slugMod.reconcileExerciseMode(manifest);
+  result.exerciseModeReconciliation = modeRecon;
+  if (modeRecon.category !== 'CLEAN') {
+    result.errors.push(
+      'manifest.exerciseMode reconciliation [' + modeRecon.category + ']: ' +
+      'declared=' + JSON.stringify(modeRecon.declared) + ' ' +
+      'app=' + JSON.stringify(modeRecon.app) + ' ' +
+      'appClass=' + modeRecon.appClass
+    );
+    return result;
+  }
+
   // Step 2: read deck.html.
   var deckHtml;
   try {
@@ -333,6 +352,65 @@ function writeBatchArtifacts(stagingRoot, results, ctx) {
     reconLines.push('  regenerate the affected ZIPs. Reconciliation is a hard gate; no');
     reconLines.push('  override path is provided. See CLAUDE.md §A.13 + 9850df93 audit.');
   }
+
+  // Section 2: manifest.exerciseMode reconciliation per Commission δ.
+  // Pairs with theme reconciliation; same structure (per-category tally +
+  // per-app breakdown + per-deck table). App-classification table in
+  // slug.js drives the decision tree.
+  var modeNonClean = results.filter(function (r) {
+    return r.exerciseModeReconciliation && r.exerciseModeReconciliation.category !== 'CLEAN';
+  });
+  reconLines.push('');
+  reconLines.push(''.padStart(72, '='));
+  reconLines.push('');
+  if (modeNonClean.length === 0) {
+    reconLines.push('manifest.exerciseMode reconciliation: ' + results.length + '/' + results.length + ' CLEAN.');
+  } else {
+    var modeByCategory = {};
+    var modeByApp = {};
+    modeNonClean.forEach(function (r) {
+      var c = r.exerciseModeReconciliation.category;
+      var a = r.exerciseModeReconciliation.app || '(unknown)';
+      modeByCategory[c] = (modeByCategory[c] || 0) + 1;
+      if (!modeByApp[a]) modeByApp[a] = {};
+      modeByApp[a][c] = (modeByApp[a][c] || 0) + 1;
+    });
+    reconLines.push('manifest.exerciseMode reconciliation halt — ' + modeNonClean.length + ' of ' + results.length + ' ZIPs non-CLEAN.');
+    reconLines.push('');
+    reconLines.push('Per-category tally:');
+    Object.keys(modeByCategory).sort().forEach(function (c) {
+      reconLines.push('  ' + modeByCategory[c] + '  ' + c);
+    });
+    reconLines.push('');
+    reconLines.push('Per-app breakdown:');
+    Object.keys(modeByApp).sort().forEach(function (a) {
+      var parts = Object.keys(modeByApp[a]).sort().map(function (c) {
+        return c + '=' + modeByApp[a][c];
+      });
+      reconLines.push('  ' + a + '  ' + parts.join(', '));
+    });
+    reconLines.push('');
+    reconLines.push(''.padStart(72, '-'));
+    reconLines.push('Per-deck table (deck_id | category | declared | app | appClass):');
+    reconLines.push('');
+    modeNonClean.forEach(function (r) {
+      var mc = r.exerciseModeReconciliation;
+      reconLines.push(r.zipBasename);
+      reconLines.push('  deck_id:   ' + (mc.deckId || '?'));
+      reconLines.push('  app:       ' + (mc.app || '?'));
+      reconLines.push('  category:  ' + mc.category);
+      reconLines.push('  declared:  ' + JSON.stringify(mc.declared));
+      reconLines.push('  appClass:  ' + mc.appClass);
+      reconLines.push('');
+    });
+    reconLines.push(''.padStart(72, '-'));
+    reconLines.push('Action: known emit-defect per Commission ε recon. App is in the');
+    reconLines.push('  HARDCODED_NULL classification (16 apps with hardcoded null at the');
+    reconLines.push('  LCSCatalogExport.export() call site). Per-app fix awaits operator-');
+    reconLines.push('  strategic taxonomy adjudication (Commission ε is parked). Multi-mode');
+    reconLines.push('  waves on these apps remain blocked at the gate until Commission ε ships.');
+    reconLines.push('  See CLAUDE.md §A.13 + 5078f491 + Commission ε recon report.');
+  }
   fs.writeFileSync(path.join(stagingRoot, '_reconciliation.txt'), reconLines.join('\n') + '\n', 'utf8');
 }
 
@@ -500,17 +578,21 @@ async function publishBatch(opts) {
 
   var collisions = dry.results.filter(function (r) { return r.collision; });
   var errored = dry.results.filter(function (r) { return r.errors && r.errors.length; });
-  var reconHalted = dry.results.filter(function (r) {
+  var themeReconHalted = dry.results.filter(function (r) {
     return r.themeReconciliation && r.themeReconciliation.category !== 'CLEAN';
   });
+  var modeReconHalted = dry.results.filter(function (r) {
+    return r.exerciseModeReconciliation && r.exerciseModeReconciliation.category !== 'CLEAN';
+  });
+  var reconHalted = themeReconHalted.length + modeReconHalted.length;
   if (collisions.length || errored.length) {
     var msg =
       '[bulk publish] ABORT — pre-flight surfaced ' +
       collisions.length + ' collision(s) + ' + errored.length + ' error(s)' +
-      (reconHalted.length ? ' (' + reconHalted.length + ' reconciliation halt(s) included in error count)' : '') + '.\n' +
+      (reconHalted ? ' (' + themeReconHalted.length + ' theme + ' + modeReconHalted.length + ' exerciseMode reconciliation halt(s) included in error count)' : '') + '.\n' +
       'Inspect: ' + path.join(dry.stagingDir, '_collisions.txt') + '\n' +
       '         ' + path.join(dry.stagingDir, '_errors.txt') + '\n' +
-      (reconHalted.length ? '         ' + path.join(dry.stagingDir, '_reconciliation.txt') + '\n' : '') +
+      (reconHalted ? '         ' + path.join(dry.stagingDir, '_reconciliation.txt') + '\n' : '') +
       'Resolve via --updates-manifest or by renaming/dropping offending ZIPs, then re-run with --confirm.';
     console.error(msg);
     return { batchId: dry.batchId, stagingDir: dry.stagingDir, outcomes: [], abortReason: 'pre-flight-failed' };

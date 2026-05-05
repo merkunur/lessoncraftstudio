@@ -392,5 +392,148 @@ reconCases.forEach(function (c, i) {
 console.log('---');
 console.log('reconcileManifestTheme tests: ' + reconPassed + ' passed, ' + reconFailed + ' failed (of ' + reconCases.length + ')');
 
-var totalFailed = failed + seedFailed + pathFailed + reconFailed;
+// reconcileExerciseMode tests (each category in the decision tree per
+// Commission δ).
+console.log('');
+console.log('reconcileExerciseMode tests:');
+var modeReconCases = [
+  // CLEAN — declared non-null
+  {
+    label: 'CLEAN — DERIVED app (addition) with declared mode',
+    manifest: { deck_id: 'addition-test', exercise_type: 'addition', exercise_mode: 'find-addend' },
+    expectedCategory: 'CLEAN',
+    expectedAppClass: 'DERIVED'
+  },
+  {
+    label: 'CLEAN — HARDCODED_NULL app (sudoku) with declared mode (post-Commission-ε fix)',
+    manifest: { deck_id: 'sudoku-test', exercise_type: 'sudoku', exercise_mode: 'easy' },
+    expectedCategory: 'CLEAN',
+    expectedAppClass: 'HARDCODED_NULL'  // app is still classified HARDCODED_NULL until Commission ε ships
+  },
+  {
+    label: 'CLEAN — code-addition with derived secret-word mode (post 5078f491)',
+    manifest: { deck_id: 'code-addition-test', exercise_type: 'code-addition', exercise_mode: 'secret-word' },
+    expectedCategory: 'CLEAN',
+    expectedAppClass: 'DERIVED'
+  },
+
+  // CLEAN — DERIVED app with null is legitimate per Interpretation Y
+  // (operator-shipped contracts may emit null for default modes; e.g.,
+  // code-addition standard mode at 5078f491). Gate trusts DERIVED null.
+  {
+    label: 'CLEAN — addition (DERIVED) with null (default-mode contract)',
+    manifest: { deck_id: 'addition-null', exercise_type: 'addition', exercise_mode: null },
+    expectedCategory: 'CLEAN',
+    expectedAppClass: 'DERIVED'
+  },
+  {
+    label: 'CLEAN — code-addition (DERIVED) with null (operator 2-mode contract)',
+    manifest: { deck_id: 'code-addition-null', exercise_type: 'code-addition', exercise_mode: null },
+    expectedCategory: 'CLEAN',
+    expectedAppClass: 'DERIVED'
+  },
+  {
+    label: 'CLEAN — DERIVED app with empty string (treated as null per legitimate-default contract)',
+    manifest: { deck_id: 'subtraction-empty', exercise_type: 'subtraction', exercise_mode: '' },
+    expectedCategory: 'CLEAN',
+    expectedAppClass: 'DERIVED'
+  },
+
+  // MODE_NULL_FROM_HARDCODED_APP — known defect per Commission ε
+  {
+    label: 'MODE_NULL_FROM_HARDCODED_APP — sudoku with null',
+    manifest: { deck_id: 'sudoku-null', exercise_type: 'sudoku', exercise_mode: null },
+    expectedCategory: 'MODE_NULL_FROM_HARDCODED_APP',
+    expectedAppClass: 'HARDCODED_NULL'
+  },
+  {
+    label: 'MODE_NULL_FROM_HARDCODED_APP — wordsearch with null',
+    manifest: { deck_id: 'wordsearch-null', exercise_type: 'wordsearch', exercise_mode: null },
+    expectedCategory: 'MODE_NULL_FROM_HARDCODED_APP',
+    expectedAppClass: 'HARDCODED_NULL'
+  },
+  {
+    label: 'MODE_NULL_FROM_HARDCODED_APP — alphabet-train with absent exercise_mode field',
+    manifest: { deck_id: 'alphabet-train-missing', exercise_type: 'alphabet-train' /* exercise_mode absent */ },
+    expectedCategory: 'MODE_NULL_FROM_HARDCODED_APP',
+    expectedAppClass: 'HARDCODED_NULL'
+  },
+
+  // CLEAN — unknown app (degraded-trust)
+  {
+    label: 'CLEAN (degraded-trust) — unknown app with null',
+    manifest: { deck_id: 'future-app-null', exercise_type: 'future-app', exercise_mode: null },
+    expectedCategory: 'CLEAN',
+    expectedAppClass: 'UNKNOWN'
+  },
+  {
+    label: 'CLEAN (degraded-trust) — exercise_type absent',
+    manifest: { deck_id: 'no-type-test', exercise_mode: null },
+    expectedCategory: 'CLEAN',
+    expectedAppClass: 'UNKNOWN'
+  }
+];
+
+var modeReconFailed = 0;
+var modeReconPassed = 0;
+modeReconCases.forEach(function (c, i) {
+  var actual = slug.reconcileExerciseMode(c.manifest);
+  try {
+    assert.strictEqual(actual.category, c.expectedCategory, 'category mismatch');
+    assert.strictEqual(actual.appClass, c.expectedAppClass, 'appClass mismatch');
+    modeReconPassed++;
+    console.log('  PASS [' + (i + 1).toString().padStart(2, '0') + '] ' + c.label +
+      ' → ' + actual.category + ' / ' + actual.appClass);
+  } catch (e) {
+    modeReconFailed++;
+    console.log('  FAIL [' + (i + 1).toString().padStart(2, '0') + '] ' + c.label);
+    console.log('         expected: category=' + c.expectedCategory + ' appClass=' + c.expectedAppClass);
+    console.log('         actual:   ' + JSON.stringify(actual));
+  }
+});
+console.log('---');
+console.log('reconcileExerciseMode tests: ' + modeReconPassed + ' passed, ' + modeReconFailed + ' failed (of ' + modeReconCases.length + ')');
+
+// EXERCISE_MODE_APP_CLASSIFICATION coverage check — confirm all 29 §14.10
+// canonical apps are present.
+console.log('');
+console.log('EXERCISE_MODE_APP_CLASSIFICATION coverage:');
+var canonical29 = [
+  'addition', 'alphabet-train', 'big-small', 'bingo', 'chart-count',
+  'code-addition', 'crossword', 'cryptogram', 'find-and-count', 'find-objects',
+  'grid-match', 'matching', 'math-puzzle', 'math-worksheet', 'missing-pieces',
+  'more-less', 'odd-one-out', 'pattern-train', 'pattern-worksheet',
+  'picture-path', 'picture-sort', 'prepositions', 'shadow-match',
+  'subtraction', 'sudoku', 'treasure-hunt', 'word-guess', 'word-scramble',
+  'wordsearch'
+];
+var classCoveragePassed = 0;
+var classCoverageFailed = 0;
+canonical29.forEach(function (app) {
+  var cls = slug.EXERCISE_MODE_APP_CLASSIFICATION[app];
+  if (cls === 'DERIVED' || cls === 'HARDCODED_NULL') {
+    classCoveragePassed++;
+  } else {
+    classCoverageFailed++;
+    console.log('  FAIL  ' + app + ' classification missing or unexpected: ' + cls);
+  }
+});
+console.log('  ' + classCoveragePassed + '/29 §14.10 apps classified (DERIVED or HARDCODED_NULL)');
+if (classCoverageFailed > 0) {
+  console.log('  classCoverageFailed: ' + classCoverageFailed);
+}
+
+// Class-distribution check
+var classCounts = { DERIVED: 0, HARDCODED_NULL: 0 };
+canonical29.forEach(function (app) {
+  var cls = slug.EXERCISE_MODE_APP_CLASSIFICATION[app];
+  if (classCounts[cls] !== undefined) classCounts[cls]++;
+});
+console.log('  DERIVED: ' + classCounts.DERIVED + '  HARDCODED_NULL: ' + classCounts.HARDCODED_NULL);
+var classDistributionFailed = (classCounts.DERIVED !== 13 || classCounts.HARDCODED_NULL !== 16) ? 1 : 0;
+if (classDistributionFailed) {
+  console.log('  FAIL — expected DERIVED=13 + HARDCODED_NULL=16; got DERIVED=' + classCounts.DERIVED + ' + HARDCODED_NULL=' + classCounts.HARDCODED_NULL);
+}
+
+var totalFailed = failed + seedFailed + pathFailed + reconFailed + modeReconFailed + classCoverageFailed + classDistributionFailed;
 process.exit(totalFailed === 0 ? 0 : 1);

@@ -43,8 +43,10 @@ function rmrf(p) {
 
 // Helper: build a synthetic dry-run result for a given manifest.
 // Mirrors the result-shape produced by bulk.dryRunOneZip.
+// Now (post-Commission δ) covers BOTH theme + exerciseMode reconciliation.
 function fakeResult(zipBasename, manifest) {
   var recon = slug.reconcileManifestTheme(manifest);
+  var modeRecon = slug.reconcileExerciseMode(manifest);
   var result = {
     zipPath: '/fake/' + zipBasename,
     zipBasename: zipBasename,
@@ -55,6 +57,7 @@ function fakeResult(zipBasename, manifest) {
     canonicalURL: null,
     collision: null,
     themeReconciliation: recon,
+    exerciseModeReconciliation: modeRecon,
     errors: [],
     warnings: [],
     routedAs: 'INSERT'
@@ -66,7 +69,16 @@ function fakeResult(zipBasename, manifest) {
       'primary=' + JSON.stringify(recon.primary) + ' ' +
       'secondary=' + JSON.stringify(recon.secondary)
     );
-  } else {
+  }
+  if (modeRecon.category !== 'CLEAN') {
+    result.errors.push(
+      'manifest.exerciseMode reconciliation [' + modeRecon.category + ']: ' +
+      'declared=' + JSON.stringify(modeRecon.declared) + ' ' +
+      'app=' + JSON.stringify(modeRecon.app) + ' ' +
+      'appClass=' + modeRecon.appClass
+    );
+  }
+  if (recon.category === 'CLEAN' && modeRecon.category === 'CLEAN') {
     result.ok = true;
     result.slug = (manifest.exercise_type || 'unknown') +
       (manifest.theme ? '-' + manifest.theme : '');
@@ -74,11 +86,13 @@ function fakeResult(zipBasename, manifest) {
   return result;
 }
 
-// CLEAN sample (addition single-image-object shape)
+// CLEAN sample (addition single-image-object shape).
+// Post-Commission δ: addition is DERIVED, so exercise_mode must be non-null.
 function cleanAdditionManifest(theme) {
   return {
     deck_id: 'addition-image-image-en-CLEAN-' + theme,
     exercise_type: 'addition',
+    exercise_mode: 'find-addend',
     language: 'en',
     theme: theme,
     exercises: [{
@@ -92,6 +106,7 @@ function cleanAdditionManifest(theme) {
 function disagreeCodeAdditionManifest() {
   return {
     deck_id: 'code-addition-en-DISAGREE',
+    exercise_mode: 'secret-word',  // post-5078f491; DERIVED app emits non-null
     exercise_type: 'code-addition',
     language: 'en',
     theme: 'accessories',
@@ -107,6 +122,7 @@ function missingThemeManifest() {
   return {
     deck_id: 'addition-en-MISSING_THEME',
     exercise_type: 'addition',
+    exercise_mode: 'find-addend',  // CLEAN at exerciseMode gate; defect is on theme dimension only
     language: 'en',
     // theme field absent
     exercises: [{
@@ -120,10 +136,42 @@ function missingPrimaryManifest() {
   return {
     deck_id: 'addition-en-MISSING_PRIMARY',
     exercise_type: 'addition',
+    exercise_mode: 'find-addend',  // CLEAN at exerciseMode gate; defect is on theme dimension only
     language: 'en',
     theme: 'animals',
     exercises: [{
       image: { path: '/images/vehicles/car.webp' /* no theme */ }
+    }]
+  };
+}
+
+// Post-Commission δ — exerciseMode-specific defect samples
+
+// MODE_NULL_FROM_DERIVED_APP — addition (DERIVED) with null exercise_mode
+function nullModeFromDerivedManifest(theme) {
+  return {
+    deck_id: 'addition-en-MODE_NULL_DERIVED',
+    exercise_type: 'addition',
+    exercise_mode: null,  // emit-site regression for a DERIVED app
+    language: 'en',
+    theme: theme,
+    exercises: [{
+      operandA: 2, operandB: 3,
+      image: { path: '/images/' + theme + '/sample.webp', theme: theme }
+    }]
+  };
+}
+
+// MODE_NULL_FROM_HARDCODED_APP — sudoku (HARDCODED_NULL) with null exercise_mode
+function nullModeFromHardcodedManifest(theme) {
+  return {
+    deck_id: 'sudoku-en-MODE_NULL_HARDCODED',
+    exercise_type: 'sudoku',
+    exercise_mode: null,  // expected for HARDCODED_NULL pre-Commission-ε
+    language: 'en',
+    theme: theme,
+    exercises: [{
+      image: { path: '/images/' + theme + '/sample.webp', theme: theme }
     }]
   };
 }
@@ -251,7 +299,94 @@ try {
   rmrf(test3Dir);
 }
 
+// =========================================================================
+// Test 4 — exerciseMode-only halts (Commission δ section in _reconciliation.txt)
+// =========================================================================
+
+console.log('');
+console.log('Test 4 — exerciseMode-only halts surface in _reconciliation.txt:');
+
+var test4Dir = tmpDir('recon-test-4');
+try {
+  var test4Results = [
+    fakeResult('addition-image-image-en-CLEAN.zip',  cleanAdditionManifest('animals')),
+    fakeResult('addition-en-DERIVED-NULL.zip',       nullModeFromDerivedManifest('animals')),
+    fakeResult('sudoku-en-HARDCODED-NULL.zip',       nullModeFromHardcodedManifest('animals'))
+  ];
+
+  bulk.writeBatchArtifacts(test4Dir, test4Results, {
+    batchId: 'test-batch-4',
+    inputFolder: '/fake/folder',
+    updatesManifestPath: null
+  });
+
+  var reconText4 = fs.readFileSync(path.join(test4Dir, '_reconciliation.txt'), 'utf8');
+
+  // Theme section: 3/3 CLEAN — every deck has clean theme.
+  assert(reconText4.indexOf('manifest.theme reconciliation: 3/3 CLEAN') >= 0,
+    'theme section should be all-CLEAN');
+  // ExerciseMode section: 1 halt only (HARDCODED-NULL); DERIVED+null is CLEAN
+  // per Interpretation Y.
+  assert(reconText4.indexOf('manifest.exerciseMode reconciliation halt — 1 of 3 ZIPs non-CLEAN') >= 0,
+    'exerciseMode section should report 1-of-3 non-CLEAN (only HARDCODED-NULL halts)');
+  assert(reconText4.indexOf('1  MODE_NULL_FROM_HARDCODED_APP') >= 0,
+    'tally should include MODE_NULL_FROM_HARDCODED_APP');
+  assert(reconText4.indexOf('MODE_NULL_FROM_DERIVED_APP') === -1,
+    'MODE_NULL_FROM_DERIVED_APP halt-class should be removed under Interpretation Y');
+  assert(reconText4.indexOf('sudoku  MODE_NULL_FROM_HARDCODED_APP=1') >= 0,
+    'sudoku app breakdown should show HARDCODED-NULL');
+  // Per-deck row for the HARDCODED-NULL halt
+  assert(reconText4.indexOf('sudoku-en-HARDCODED-NULL.zip') >= 0, 'hardcoded deck row missing');
+  // appClass surfaced
+  assert(reconText4.indexOf('appClass:  HARDCODED_NULL') >= 0, 'HARDCODED_NULL appClass missing');
+
+  console.log('  PASS — exerciseMode section surfaces only HARDCODED-NULL halts; DERIVED-null passes (Interpretation Y)');
+} finally {
+  rmrf(test4Dir);
+}
+
+// =========================================================================
+// Test 5 — mixed defect: theme + exerciseMode both halt on same batch
+// =========================================================================
+
+console.log('');
+console.log('Test 5 — mixed-defect batch (theme + exerciseMode both halt):');
+
+var test5Dir = tmpDir('recon-test-5');
+try {
+  var test5Results = [
+    fakeResult('addition-image-image-en-CLEAN.zip',  cleanAdditionManifest('animals')),     // CLEAN both
+    fakeResult('code-addition-en-DISAGREE.zip',      disagreeCodeAdditionManifest()),       // theme DISAGREE
+    fakeResult('sudoku-en-MODE_NULL.zip',            nullModeFromHardcodedManifest('toys')) // exerciseMode HARDCODED-NULL
+  ];
+
+  bulk.writeBatchArtifacts(test5Dir, test5Results, {
+    batchId: 'test-batch-5',
+    inputFolder: '/fake/folder',
+    updatesManifestPath: null
+  });
+
+  var reconText5 = fs.readFileSync(path.join(test5Dir, '_reconciliation.txt'), 'utf8');
+
+  // Theme section: 1 of 3 non-CLEAN
+  assert(reconText5.indexOf('manifest.theme reconciliation halt — 1 of 3 ZIPs non-CLEAN') >= 0,
+    'theme section should report 1-of-3 non-CLEAN');
+  assert(reconText5.indexOf('1  THEME_DISAGREE') >= 0, 'theme tally should include THEME_DISAGREE');
+  // ExerciseMode section: 1 of 3 non-CLEAN
+  assert(reconText5.indexOf('manifest.exerciseMode reconciliation halt — 1 of 3 ZIPs non-CLEAN') >= 0,
+    'exerciseMode section should report 1-of-3 non-CLEAN');
+  assert(reconText5.indexOf('1  MODE_NULL_FROM_HARDCODED_APP') >= 0,
+    'mode tally should include MODE_NULL_FROM_HARDCODED_APP');
+  // Per-deck rows surface in their respective sections
+  assert(reconText5.indexOf('code-addition-en-DISAGREE.zip') >= 0, 'theme-disagree deck row missing');
+  assert(reconText5.indexOf('sudoku-en-MODE_NULL.zip') >= 0, 'mode-null deck row missing');
+
+  console.log('  PASS — both reconciliation sections surface independently in same batch');
+} finally {
+  rmrf(test5Dir);
+}
+
 console.log('');
 console.log('---');
-console.log('reconciliation.integration.test.js: 3/3 PASS');
+console.log('reconciliation.integration.test.js: 5/5 PASS');
 process.exit(0);

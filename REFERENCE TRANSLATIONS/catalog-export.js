@@ -728,7 +728,7 @@
     var locale = opts.locale || 'en';
     var title = opts.title || '';
     var defaultWidth = opts.defaultWidth || 800;
-    var defaultHeight = opts.defaultHeight || 1100;
+    var defaultHeight = opts.defaultHeight || 1400;
 
     function isPlaceholder(s) {
       return typeof s === 'string' && /^__[A-Z_]+__$/.test(s);

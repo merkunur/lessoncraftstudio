@@ -21,6 +21,11 @@ dist/
 .tmp/
 data/
 
+# Operator-authored deck source ZIPs (publish-bulk pipeline input).
+# Canonical post-publish state lives in production DB +
+# /var/www/lcs-media/decks/<locale>/<slug>-vN/. Source ZIPs stay local.
+decks/
+
 # Logs
 logs
 *.log

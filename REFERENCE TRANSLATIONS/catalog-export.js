@@ -868,16 +868,27 @@
       'var brandText=' + JSON.stringify(attribBrandHtml) + ';',
       'var sepText=' + JSON.stringify(attribSeparatorHtml) + ';',
       'var keywordText=' + JSON.stringify(attribKeywordHtml) + ';',
+      // Read deck canvas dimensions from DECK_BUNDLE.page at runtime so the
+      // computed iframe height fits the deck content exactly (no inner scroll
+      // and no empty gap below sticky-bottom Check Answers footer). Chrome
+      // overhead = lcs-bar 60px + lcs-footer 80px + lcs-app padding-bottom
+      // 120px = 260px (matches operator empirical observation 2026-05-06:
+      // breakfast deck 612x792 needs ~1300px iframe height at 800 wide).
+      // userTouchedHeight flag preserves manual height edits across width
+      // changes; auto-compute kicks in only when user hasn\'t typed.
+      'var userTouchedHeight=false;',
+      'function deckPage(){var p=(typeof DECK_BUNDLE!=="undefined"&&DECK_BUNDLE&&DECK_BUNDLE.page)||null;if(p&&p.width&&p.height)return p;return null;}',
+      'function computeHeight(w){var p=deckPage();if(p)return Math.round((w/p.width)*p.height)+260;return ' + defaultHeight + ';}',
       // Canonical snippet shape per 2026-05-05 design spec: wrapper div with
       // max-width matching iframe + iframe with visible border + <p> caption
       // with TWO <a href> backlinks (deck-URL with brand-anchor; homepage with
       // keyword-anchor). All inline-styled. No <style> tags. No <script> tags.
       // No classes. Survives strict HTML sanitizers (WordPress, Squarespace,
-      // Wix, Medium). Iframes alone are NOT backlinks per Google's link-equity
+      // Wix, Medium). Iframes alone are NOT backlinks per Google\'s link-equity
       // model; the outside <a href> elements ARE the SEO surface.
       'function buildSnippet(){',
       'var w=parseInt(widthInput.value,10)||' + defaultWidth + ';',
-      'var h=parseInt(heightInput.value,10)||' + defaultHeight + ';',
+      'var h=parseInt(heightInput.value,10)||computeHeight(w);',
       'var lines=[];',
       'lines.push(\'<div style="max-width: \'+w+\'px; margin: 0 auto;">\');',
       'lines.push(\'  <iframe src="\'+url+\'" width="\'+w+\'" height="\'+h+\'" frameborder="0" style="display: block; border: 1px solid #e0d8c5; border-radius: 8px;"></iframe>\');',
@@ -888,12 +899,13 @@
       'return lines.join("\\n");',
       '}',
       'function refreshSnippet(){snippet.value=buildSnippet();}',
-      'function showOverlay(){refreshSnippet();overlay.hidden=false;btn.setAttribute("aria-expanded","true");setTimeout(function(){document.addEventListener("click",outside,true);},0);}',
+      'function syncHeightInput(){if(!userTouchedHeight){var w=parseInt(widthInput.value,10)||' + defaultWidth + ';heightInput.value=computeHeight(w);}}',
+      'function showOverlay(){syncHeightInput();refreshSnippet();overlay.hidden=false;btn.setAttribute("aria-expanded","true");setTimeout(function(){document.addEventListener("click",outside,true);},0);}',
       'function hideOverlay(){overlay.hidden=true;btn.setAttribute("aria-expanded","false");document.removeEventListener("click",outside,true);}',
       'function outside(e){if(!overlay.contains(e.target)&&e.target!==btn&&!btn.contains(e.target))hideOverlay();}',
       'btn.addEventListener("click",function(e){e.stopPropagation();if(overlay.hidden)showOverlay();else hideOverlay();});',
-      'widthInput.addEventListener("input",refreshSnippet);',
-      'heightInput.addEventListener("input",refreshSnippet);',
+      'widthInput.addEventListener("input",function(){syncHeightInput();refreshSnippet();});',
+      'heightInput.addEventListener("input",function(){userTouchedHeight=true;refreshSnippet();});',
       'if(closeBtn){closeBtn.addEventListener("click",function(e){e.preventDefault();e.stopPropagation();hideOverlay();});}',
       'if(copyBtn){',
       'copyBtn.addEventListener("click",function(e){',

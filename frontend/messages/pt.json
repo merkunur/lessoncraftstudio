@@ -244,15 +244,15 @@
     }
   },
   "footer": {
-    "byLanguage": "Por idioma",
-    "byTopic": "Por tópico",
-    "byExerciseType": "Por tipo de exercício",
-    "moreLanguagesSoon": "Mais idiomas em breve.",
-    "moreTopicsSoon": "Mais tópicos em breve.",
+    "byLanguage": "Atividades por idioma",
+    "byTopic": "Atividades por tópico",
+    "byExerciseType": "Atividades por tipo de exercício",
+    "moreLanguagesSoon": "Mais idiomas em breve",
+    "moreTopicsSoon": "Mais tópicos em breve",
     "contact": "Contato",
     "terms": "Termos",
     "privacy": "Privacidade",
-    "copyright": "© 2026 LessonCraftStudio. Todos os direitos reservados."
+    "copyright": "© 2026 LessonCraftStudio."
   },
   "common": {
     "loading": "Carregando...",

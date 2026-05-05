@@ -244,15 +244,15 @@
     }
   },
   "footer": {
-    "byLanguage": "Per språk",
-    "byTopic": "Per ämne",
-    "byExerciseType": "Per övningstyp",
-    "moreLanguagesSoon": "Fler språk snart.",
-    "moreTopicsSoon": "Fler ämnen snart.",
+    "byLanguage": "Arbetsblad per språk",
+    "byTopic": "Arbetsblad per ämne",
+    "byExerciseType": "Arbetsblad per övningstyp",
+    "moreLanguagesSoon": "Fler språk snart",
+    "moreTopicsSoon": "Fler ämnen snart",
     "contact": "Kontakt",
     "terms": "Villkor",
     "privacy": "Integritet",
-    "copyright": "© 2026 LessonCraftStudio. Alla rättigheter förbehållna."
+    "copyright": "© 2026 LessonCraftStudio."
   },
   "common": {
     "loading": "Laddar...",

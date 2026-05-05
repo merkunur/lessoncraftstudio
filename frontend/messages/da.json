@@ -244,15 +244,15 @@
     }
   },
   "footer": {
-    "byLanguage": "Efter sprog",
-    "byTopic": "Efter emne",
-    "byExerciseType": "Efter øvelsestype",
-    "moreLanguagesSoon": "Flere sprog snart.",
-    "moreTopicsSoon": "Flere emner snart.",
+    "byLanguage": "Arbejdsark efter sprog",
+    "byTopic": "Arbejdsark efter emne",
+    "byExerciseType": "Arbejdsark efter øvelsestype",
+    "moreLanguagesSoon": "Flere sprog snart",
+    "moreTopicsSoon": "Flere emner snart",
     "contact": "Kontakt",
     "terms": "Vilkår",
     "privacy": "Privatliv",
-    "copyright": "© 2026 LessonCraftStudio. Alle rettigheder forbeholdes."
+    "copyright": "© 2026 LessonCraftStudio."
   },
   "common": {
     "loading": "Indlæser...",

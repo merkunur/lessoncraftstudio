@@ -244,15 +244,15 @@
     }
   },
   "footer": {
-    "byLanguage": "Kielen mukaan",
-    "byTopic": "Aiheen mukaan",
-    "byExerciseType": "Tehtävätyypin mukaan",
-    "moreLanguagesSoon": "Lisää kieliä pian.",
-    "moreTopicsSoon": "Lisää aiheita pian.",
+    "byLanguage": "Tehtäväarkit kielen mukaan",
+    "byTopic": "Tehtäväarkit aiheen mukaan",
+    "byExerciseType": "Tehtäväarkit tehtävätyypin mukaan",
+    "moreLanguagesSoon": "Lisää kieliä pian",
+    "moreTopicsSoon": "Lisää aiheita pian",
     "contact": "Yhteystiedot",
     "terms": "Käyttöehdot",
     "privacy": "Tietosuoja",
-    "copyright": "© 2026 LessonCraftStudio. Kaikki oikeudet pidätetään."
+    "copyright": "© 2026 LessonCraftStudio."
   },
   "common": {
     "loading": "Ladataan...",

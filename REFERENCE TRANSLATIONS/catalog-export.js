@@ -868,18 +868,23 @@
       'var brandText=' + JSON.stringify(attribBrandHtml) + ';',
       'var sepText=' + JSON.stringify(attribSeparatorHtml) + ';',
       'var keywordText=' + JSON.stringify(attribKeywordHtml) + ';',
-      // Read deck canvas dimensions from DECK_BUNDLE.page at runtime so the
-      // computed iframe height fits the deck content. Chrome overhead = 130
-      // (empirically tuned 2026-05-06 from breakfast deck 612x792: iframe
-      // height target ~1165 at 800 wide; image-area at iframe-width = 1035;
-      // chrome = 130 covers lcs-bar + part of lcs-app padding while leaving
-      // iframe slightly SHORTER than total flow height so sticky-bottom
-      // lcs-footer doesn\'t activate — footer renders right after worksheet
-      // with no empty gap). Erring slightly short over too-tall: minor scroll
-      // overflow (~30px) is less ugly than 100px+ empty gap above sticky footer.
+      // Read deck canvas dimensions from DECK_BUNDLE.page at runtime to
+      // compute exact-fit iframe height for the locked-decision Letter
+      // portrait case (99% of decks per operator 2026-05-06).
+      // Math (at 800 iframe wide, lcs-app interior = 800-24 = 776 due to
+      // padding 0 12px on lcs-app):
+      //   image height = (iframeWidth - 24) / page.width * page.height
+      //   chrome = 60 lcs-bar + 8 worksheet-wrap padding-top
+      //          + 120 lcs-app padding-bottom + 24 lcs-footer margin-top
+      //          + 108 lcs-footer (16+16 padding + 52 button + 24 spacing)
+      //          = 320 fixed
+      //   iframeHeight = round((iframeWidth-24) / pW * pH) + 320
+      // For Letter portrait 612x792 at 800 wide: 1004 + 320 = 1324 (exact).
+      // userTouchedHeight flag preserves manual height edits across width
+      // changes; auto-compute kicks in only when user hasn\'t typed.
       'var userTouchedHeight=false;',
       'function deckPage(){var p=(typeof DECK_BUNDLE!=="undefined"&&DECK_BUNDLE&&DECK_BUNDLE.page)||null;if(p&&p.width&&p.height)return p;return null;}',
-      'function computeHeight(w){var p=deckPage();if(p)return Math.round((w/p.width)*p.height)+130;return ' + defaultHeight + ';}',
+      'function computeHeight(w){var p=deckPage();if(p)return Math.round(Math.max(0,w-24)/p.width*p.height)+320;return ' + defaultHeight + ';}',
       // Canonical snippet shape per 2026-05-05 design spec: wrapper div with
       // max-width matching iframe + iframe with visible border + <p> caption
       // with TWO <a href> backlinks (deck-URL with brand-anchor; homepage with
@@ -887,12 +892,19 @@
       // No classes. Survives strict HTML sanitizers (WordPress, Squarespace,
       // Wix, Medium). Iframes alone are NOT backlinks per Google\'s link-equity
       // model; the outside <a href> elements ARE the SEO surface.
+      // Snippet emits responsive-width iframe (no width="N" HTML attr) so
+      // it scales to wrapper max-width without overflowing narrow viewports
+      // (eliminates horizontal page-scroll at <max-width viewports per
+      // operator empirical 2026-05-06). Height stays as fixed-pixel CSS
+      // height because chrome (60+320) doesn\'t scale with width; auto-fit
+      // height assumes 800-wide rendering. Operator can override either
+      // dimension via the inputs.
       'function buildSnippet(){',
       'var w=parseInt(widthInput.value,10)||' + defaultWidth + ';',
       'var h=parseInt(heightInput.value,10)||computeHeight(w);',
       'var lines=[];',
       'lines.push(\'<div style="max-width: \'+w+\'px; margin: 0 auto;">\');',
-      'lines.push(\'  <iframe src="\'+url+\'" width="\'+w+\'" height="\'+h+\'" frameborder="0" style="display: block; border: 1px solid #e0d8c5; border-radius: 8px;"></iframe>\');',
+      'lines.push(\'  <iframe src="\'+url+\'" frameborder="0" style="display: block; width: 100%; max-width: \'+w+\'px; height: \'+h+\'px; border: 1px solid #e0d8c5; border-radius: 8px;"></iframe>\');',
       'lines.push(\'  <p style="font-size: 13px; color: #6b6357; text-align: center; margin: 8px 0 0; font-family: system-ui, sans-serif;">\');',
       'lines.push(\'    \'+prefixText+\' <a href="\'+url+\'" style="color: #6b6357; text-decoration: underline;">\'+brandText+\'</a>\'+sepText+\'<a href="\'+homeURL+\'" style="color: #6b6357; text-decoration: underline;">\'+keywordText+\'</a>\');',
       'lines.push(\'  </p>\');',

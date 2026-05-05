@@ -966,7 +966,18 @@
       'if(window.parent!==window){',
       'document.body.classList.add("lcs-embedded");',
       'var lcsEmbeddedStyle=document.createElement("style");',
-      'lcsEmbeddedStyle.textContent="body.lcs-embedded #lcs-app{padding-bottom:0}body.lcs-embedded .lcs-footer{margin-top:8px}";',
+      // Critical: body min-height:0 prevents the auto-resize feedback loop
+      // where body{min-height:100vh} fills iframe viewport, scrollHeight
+      // reports iframe height (not content height), and iframe never
+      // shrinks below its starting aspect-ratio. With min-height:0, body
+      // collapses to actual content height; scrollHeight reports correctly.
+      // Other rules tighten chrome paddings for compact embed appearance.
+      'lcsEmbeddedStyle.textContent="body.lcs-embedded{min-height:0}"+',
+      '"body.lcs-embedded #lcs-app{padding-bottom:0}"+',
+      '"body.lcs-embedded .lcs-bar{padding:4px 4px}"+',
+      '"body.lcs-embedded .lcs-worksheet-wrap{padding-top:0}"+',
+      '"body.lcs-embedded .lcs-footer{margin-top:0;padding:8px 12px;border-top:none}"+',
+      '"body.lcs-embedded .lcs-btn{min-height:40px;padding:10px 22px;font-size:15px}";',
       'document.head.appendChild(lcsEmbeddedStyle);',
       'function lcsEmitHeight(){try{window.parent.postMessage({type:"lcs-embed-resize",height:document.body.scrollHeight,url:location.href},"*");}catch(e){}}',
       'if(document.readyState==="complete")lcsEmitHeight();',

@@ -948,14 +948,26 @@
       '});',
       '}',
       'refreshSnippet();',
-      // postMessage iframe-resize emitter — runs in deck.html context.
-      // When deck is loaded inside an embed iframe, posts the body scrollHeight
-      // up to the parent window. The snippet\'s inline <script> listens and
-      // auto-resizes the iframe to exact content height. Falls back gracefully
-      // to CSS aspect-ratio if the snippet\'s script is stripped by host-side
-      // HTML sanitizer. Only fires when window.parent !== window (i.e., inside
-      // an iframe) so standalone deck.html viewing is unaffected.
+      // postMessage iframe-resize emitter + iframe-context body class.
+      // When deck is loaded inside an embed iframe:
+      //   1. Add body.lcs-embedded class so embedded-only CSS rules apply
+      //      (removes the lcs-app padding-bottom 120px dead-space between
+      //      worksheet and sticky-footer Check Answers button — that padding
+      //      exists to clear the sticky button when scrolled normally; in
+      //      iframe with auto-resize, content matches viewport so the button
+      //      always shows + the padding becomes pure dead space)
+      //   2. Inject a <style> block that targets body.lcs-embedded
+      //   3. Post body.scrollHeight to parent window
+      // The snippet\'s inline <script> listens and auto-resizes the iframe to
+      // exact content height. Falls back gracefully to CSS aspect-ratio if
+      // the snippet\'s script is stripped by host-side HTML sanitizer.
+      // Only fires when window.parent !== window (inside an iframe) so
+      // standalone deck.html viewing is unaffected.
       'if(window.parent!==window){',
+      'document.body.classList.add("lcs-embedded");',
+      'var lcsEmbeddedStyle=document.createElement("style");',
+      'lcsEmbeddedStyle.textContent="body.lcs-embedded #lcs-app{padding-bottom:0}body.lcs-embedded .lcs-footer{margin-top:8px}";',
+      'document.head.appendChild(lcsEmbeddedStyle);',
       'function lcsEmitHeight(){try{window.parent.postMessage({type:"lcs-embed-resize",height:document.body.scrollHeight,url:location.href},"*");}catch(e){}}',
       'if(document.readyState==="complete")lcsEmitHeight();',
       'else window.addEventListener("load",lcsEmitHeight);',

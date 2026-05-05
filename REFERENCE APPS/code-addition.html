@@ -5336,7 +5336,29 @@ async function downloadPDF(canvasInstance, baseFileName, opts) {
 
         async function prepareExerciseImages() {
             const symbolCount = getSymbolCount();
-            let sourcePool = [...selectedImages];
+
+            // Shape A: themeSelect is load-bearing for deck content. When a
+            // specific theme is active, filter selectedImages so off-theme
+            // entries don't bleed into the deck. Surface a non-blocking
+            // warning naming the dropped count + active theme so the operator
+            // sees clearly when their selection diverges from the active
+            // filter. Closes the v6.0.0 emit-defect class where manifest.theme
+            // recorded themeSelect.value while content reflected wherever the
+            // operator clicked across the dictionary view.
+            const activeTheme = themeSelect.value;
+            let baseSelection = [...selectedImages];
+            if (activeTheme && activeTheme !== 'all') {
+                const onTheme = baseSelection.filter(img => img && img.theme === activeTheme);
+                const droppedCount = baseSelection.length - onTheme.length;
+                if (droppedCount > 0) {
+                    showMessage(formatTranslation(
+                        t('codeaddition.msg.offtheme.dropped'),
+                        { count: droppedCount, theme: activeTheme }
+                    ), 'info');
+                }
+                baseSelection = onTheme;
+            }
+            let sourcePool = baseSelection;
 
             // Ensure unique images only
             const uniquePool = [];

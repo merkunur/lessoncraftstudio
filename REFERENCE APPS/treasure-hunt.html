@@ -2453,7 +2453,29 @@
                 imagesForPuzzle = getRandomElements(themeImages, 6);
             } catch (e) { showMessage(t('message.themeLoadError'), 'error'); return null; }
         } else if (selectedImages.length === 6) {
-            imagesForPuzzle = [...selectedImages];
+            // Shape A enforcement (per Commission α / 44cbdda1 reference fix):
+            // filter against themeSelect.value (the manifest-emit-time control).
+            // Path A above (worksheetThemeValue-driven manifest-emit decoupling)
+            // is OUT OF SCOPE per operator; filed as separate future commission.
+            const activeTheme = themeSelect.value;
+            let baseSelection = [...selectedImages];
+            if (activeTheme && activeTheme !== 'all') {
+              const onTheme = baseSelection.filter(img => img && img.theme === activeTheme);
+              const droppedCount = baseSelection.length - onTheme.length;
+              if (droppedCount > 0) {
+                const tpl = t('offthemeImagesDropped');
+                const msg = (typeof tpl === 'string' && tpl ? tpl : "Note: {count} selected images are not from theme '{theme}' and were excluded. Switch theme to 'all' to include them.")
+                  .replace('{count}', droppedCount)
+                  .replace('{theme}', activeTheme);
+                showMessage(msg, 'info');
+              }
+              baseSelection = onTheme;
+            }
+            if (baseSelection.length !== 6) {
+                showMessage(t('message.selectSixImages'), 'error');
+                return null;
+            }
+            imagesForPuzzle = [...baseSelection];
         } else {
              showMessage(t('message.selectSixImages'), 'error');
              return null;

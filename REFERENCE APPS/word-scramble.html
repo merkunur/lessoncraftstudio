@@ -2938,7 +2938,27 @@
                     name: img.editedName || img.name || img.word
                 }));
             } else {
-                puzzleImagePool = [...selectedImages];
+                // Shape A enforcement (per Commission α / 44cbdda1 reference fix):
+                // filter selectedImages so off-theme entries don't bleed into the
+                // deck. Scoped to the fallback else branch only (the customWords
+                // and manualEditMode branches have their own semantics and are
+                // out of Shape A scope per operator's adjudication). Note:
+                // word-scramble accesses themeSelect via ui.themeSelect (see line 1283).
+                const activeTheme = ui.themeSelect.value;
+                let baseSelection = [...selectedImages];
+                if (activeTheme && activeTheme !== 'all') {
+                  const onTheme = baseSelection.filter(img => img && img.theme === activeTheme);
+                  const droppedCount = baseSelection.length - onTheme.length;
+                  if (droppedCount > 0) {
+                    const tpl = t('offthemeImagesDropped');
+                    const msg = (typeof tpl === 'string' && tpl ? tpl : "Note: {count} selected images are not from theme '{theme}' and were excluded. Switch theme to 'all' to include them.")
+                      .replace('{count}', droppedCount)
+                      .replace('{theme}', activeTheme);
+                    showMessage(msg, 'info');
+                  }
+                  baseSelection = onTheme;
+                }
+                puzzleImagePool = [...baseSelection];
             }
             if (puzzleImagePool.length < puzzleCount) {
                 let sourcePool = [...uploadedImages];

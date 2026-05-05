@@ -11,6 +11,7 @@ const translations = {
     "exportingToCatalog": "Exporting…",
     "catalogExportSuccess": "Exported to catalog: ",
     "catalogExportError": "Catalog export failed: ",
+    "pattern.train.msg.offtheme.dropped": "Note: {count} selected images are not from theme '{theme}' and were excluded. Switch theme to 'all' to include them.",
     // Design Elements (added 2026-04-19)
     "deBgTitle": "Page Background",
     "dePatterns": "Patterns",
@@ -226,6 +227,7 @@ const translations = {
     "exportingToCatalog": "Wird exportiert…",
     "catalogExportSuccess": "In Katalog exportiert: ",
     "catalogExportError": "Katalog-Export fehlgeschlagen: ",
+    "pattern.train.msg.offtheme.dropped": "Hinweis: {count} ausgewählte Bilder gehören nicht zum Thema '{theme}' und wurden ausgeschlossen. Thema auf 'alle' setzen, um sie einzubeziehen.",
     // Design Elements (added 2026-04-19)
     "deBgTitle": "Seitenhintergrund",
     "dePatterns": "Muster",
@@ -441,6 +443,7 @@ const translations = {
     "exportingToCatalog": "Exportation en cours…",
     "catalogExportSuccess": "Exporté vers le catalogue : ",
     "catalogExportError": "Échec de l'export vers le catalogue : ",
+    "pattern.train.msg.offtheme.dropped": "Remarque : {count} images sélectionnées ne proviennent pas du thème '{theme}' et ont été exclues. Sélectionnez le thème 'tous' pour les inclure.",
     // Design Elements (added 2026-04-19)
     "deBgTitle": "Arrière-plan",
     "dePatterns": "Motifs",
@@ -647,6 +650,7 @@ const translations = {
     "exportingToCatalog": "Exportando…",
     "catalogExportSuccess": "Exportado al catálogo: ",
     "catalogExportError": "Error al exportar al catálogo: ",
+    "pattern.train.msg.offtheme.dropped": "Nota: {count} imágenes seleccionadas no son del tema '{theme}' y fueron excluidas. Cambia el tema a 'todos' para incluirlas.",
     // Design Elements (added 2026-04-19)
     "deBgTitle": "Fondo de página",
     "dePatterns": "Patrones",
@@ -850,6 +854,7 @@ const translations = {
     "exportingToCatalog": "Esportazione in corso…",
     "catalogExportSuccess": "Esportato nel catalogo: ",
     "catalogExportError": "Esportazione nel catalogo non riuscita: ",
+    "pattern.train.msg.offtheme.dropped": "Nota: {count} immagini selezionate non provengono dal tema '{theme}' e sono state escluse. Imposta il tema su 'tutti' per includerle.",
     // Design Elements (added 2026-04-19)
     "deBgTitle": "Sfondo pagina",
     "dePatterns": "Motivi",
@@ -1056,6 +1061,7 @@ const translations = {
     "exportingToCatalog": "Exportando…",
     "catalogExportSuccess": "Exportado para o catálogo: ",
     "catalogExportError": "Falha ao exportar para o catálogo: ",
+    "pattern.train.msg.offtheme.dropped": "Nota: {count} imagens selecionadas não são do tema '{theme}' e foram excluídas. Mude o tema para 'todos' para incluí-las.",
     // Design Elements (added 2026-04-19)
     "deBgTitle": "Fundo da página",
     "dePatterns": "Padrões",
@@ -1262,6 +1268,7 @@ const translations = {
     "exportingToCatalog": "Bezig met exporteren…",
     "catalogExportSuccess": "Geëxporteerd naar catalogus: ",
     "catalogExportError": "Export naar catalogus mislukt: ",
+    "pattern.train.msg.offtheme.dropped": "Let op: {count} geselecteerde afbeeldingen horen niet bij thema '{theme}' en zijn uitgesloten. Stel thema in op 'alle' om ze op te nemen.",
     // Design Elements (added 2026-04-19)
     "deBgTitle": "Pagina-achtergrond",
     "dePatterns": "Patronen",
@@ -1466,6 +1473,7 @@ const translations = {
     "exportingToCatalog": "Exporterar…",
     "catalogExportSuccess": "Exporterad till katalog: ",
     "catalogExportError": "Katalogexport misslyckades: ",
+    "pattern.train.msg.offtheme.dropped": "Obs: {count} valda bilder hör inte till temat '{theme}' och uteslöts. Byt till temat 'alla' för att inkludera dem.",
     // Design Elements (added 2026-04-19)
     "deBgTitle": "Sidbakgrund",
     "dePatterns": "Mönster",
@@ -1669,6 +1677,7 @@ const translations = {
     "exportingToCatalog": "Eksporterer…",
     "catalogExportSuccess": "Eksporteret til kataloget: ",
     "catalogExportError": "Katalog-eksport mislykkedes: ",
+    "pattern.train.msg.offtheme.dropped": "Bemærk: {count} valgte billeder er ikke fra temaet '{theme}' og blev udeladt. Skift tema til 'alle' for at inkludere dem.",
     // Design Elements (added 2026-04-19)
     "deBgTitle": "Sidebaggrund",
     "dePatterns": "Mønstre",
@@ -1875,6 +1884,7 @@ const translations = {
     "exportingToCatalog": "Eksporterer…",
     "catalogExportSuccess": "Eksportert til katalog: ",
     "catalogExportError": "Katalogeksport mislyktes: ",
+    "pattern.train.msg.offtheme.dropped": "Merk: {count} valgte bilder hører ikke til temaet '{theme}' og ble utelatt. Bytt tema til 'alle' for å inkludere dem.",
     // Design Elements (added 2026-04-19)
     "deBgTitle": "Sidebakgrunn",
     "dePatterns": "Mønstre",
@@ -2081,6 +2091,7 @@ const translations = {
     "exportingToCatalog": "Viedään…",
     "catalogExportSuccess": "Viety katalogiin: ",
     "catalogExportError": "Katalogin vienti epäonnistui: ",
+    "pattern.train.msg.offtheme.dropped": "Huomio: {count} valittua kuvaa ei kuulu teemaan '{theme}' ja jätettiin pois. Vaihda teemaksi 'kaikki' sisällyttääksesi ne.",
     // Design Elements (added 2026-04-19)
     "deBgTitle": "Sivun tausta",
     "dePatterns": "Kuviot",

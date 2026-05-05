@@ -3215,11 +3215,33 @@
           return;
         }
       } else {
-        if (selectedImages.length !== patternElements.length) {
+        // Shape A enforcement (per Commission α / 44cbdda1 reference fix):
+        // filter selectedImages so off-theme entries don't bleed into the deck.
+        // Inline filter; line-count check below fires against the filtered count
+        // so off-theme drops surface as a count-mismatch error if operator's
+        // post-filter selection is short of patternElements.length. Mode A above
+        // (worksheetTheme-driven auto-select) is theme-pure by construction; the
+        // defect class is Mode B's selectedImages-based path only.
+        const activeTheme = themeSelect.value;
+        let baseSelection = [...selectedImages];
+        if (activeTheme && activeTheme !== 'all') {
+          const onTheme = baseSelection.filter(img => img && img.theme === activeTheme);
+          const droppedCount = baseSelection.length - onTheme.length;
+          if (droppedCount > 0) {
+            const tpl = t('pattern.train.msg.offtheme.dropped');
+            const msg = (typeof tpl === 'string' && tpl ? tpl : "Note: {count} selected images are not from theme '{theme}' and were excluded. Switch theme to 'all' to include them.")
+              .replace('{count}', droppedCount)
+              .replace('{theme}', activeTheme);
+            showMessage(msg, 'info');
+          }
+          baseSelection = onTheme;
+        }
+        if (baseSelection.length !== patternElements.length) {
           showMessage(t("pattern.train.msg.select.all"), 'error');
           updateDownloadButtonsState(false);
           return;
         }
+        selectedImages = baseSelection;
       }
 
       elementToImage = {};

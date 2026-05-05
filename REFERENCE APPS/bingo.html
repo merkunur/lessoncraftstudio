@@ -2381,7 +2381,25 @@
       async function prepareCalloutImagePool(requiredCount) {
         let imagePool = [];
         if (customCalloutsCheckbox.checked) {
-            imagePool = [...selectedImages];
+            // Shape A enforcement (per Commission α / 44cbdda1 reference fix):
+            // filter selectedImages so off-theme entries don't bleed into the
+            // custom-callouts deck. Scoped to this branch only — the else branch
+            // sources from theme-pure allImages and has no defect.
+            const activeTheme = themeSelect.value;
+            let baseSelection = [...selectedImages];
+            if (activeTheme && activeTheme !== 'all') {
+              const onTheme = baseSelection.filter(img => img && img.theme === activeTheme);
+              const droppedCount = baseSelection.length - onTheme.length;
+              if (droppedCount > 0) {
+                const tpl = t('offthemeImagesDropped');
+                const msg = (typeof tpl === 'string' && tpl ? tpl : "Note: {count} selected images are not from theme '{theme}' and were excluded. Switch theme to 'all' to include them.")
+                  .replace('{count}', droppedCount)
+                  .replace('{theme}', activeTheme);
+                showMessage(msg, 'info');
+              }
+              baseSelection = onTheme;
+            }
+            imagePool = baseSelection;
             if (imagePool.length < requiredCount) {
                 showMessage('needMoreImagesForCallout', 'error', 3000, {required: requiredCount, selected: imagePool.length});
                 return null;

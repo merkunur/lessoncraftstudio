@@ -3013,8 +3013,26 @@ document.addEventListener("DOMContentLoaded", function() {
                 showMessage(t('assignTaskFor').replace('{items}', items), 'error'); isGenerating = false; return;
             }
 
+            // Shape A enforcement (per Commission α / 44cbdda1 reference fix):
+            // filter selectedImages so off-theme entries don't bleed into the deck.
+            // Inline filter (no wrapper function in this app); local-block scope.
+            const activeTheme = themeSelect.value;
+            let baseSelection = [...selectedImages];
+            if (activeTheme && activeTheme !== 'all') {
+              const onTheme = baseSelection.filter(img => img && img.theme === activeTheme);
+              const droppedCount = baseSelection.length - onTheme.length;
+              if (droppedCount > 0) {
+                const tpl = t('offthemeImagesDropped');
+                const msg = (typeof tpl === 'string' && tpl ? tpl : "Note: {count} selected images are not from theme '{theme}' and were excluded. Switch theme to 'all' to include them.")
+                  .replace('{count}', droppedCount)
+                  .replace('{theme}', activeTheme);
+                showMessage(msg, 'info');
+              }
+              baseSelection = onTheme;
+            }
+
             // --- Pool images for grid ---
-            let gridImagesPool = [...selectedImages];
+            let gridImagesPool = [...baseSelection];
             uploadedImages.forEach(upImg => {
                 if (!gridImagesPool.some(poolImg => poolImg.path === upImg.path)) gridImagesPool.push(upImg);
             });
@@ -3028,7 +3046,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 showMessage(t('notEnoughImages'), 'error'); isGenerating = false; return;
             }
 
-            const gridData = buildGrid(rows, cols, gridImagesPool, selectedImages);
+            const gridData = buildGrid(rows, cols, gridImagesPool, baseSelection);
             // v19.1.1 — snapshot questions at generate time. A live reference
             // to selectedImages let post-generation mutations bleed into
             // answer-key rendering and the interactive bundle's targets, causing
@@ -3036,7 +3054,7 @@ document.addEventListener("DOMContentLoaded", function() {
             // array nor any item can change after this point.
             lastGeneratedData = {
                 gridData,
-                questions: selectedImages.map(img => ({ ...img })),
+                questions: baseSelection.map(img => ({ ...img })),
                 rows: rows,
                 cols: cols
             };

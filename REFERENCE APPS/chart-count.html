@@ -1997,8 +1997,26 @@ document.addEventListener('DOMContentLoaded', function() {
 
         try {
             if (selectedImages.length > 0) {
-                 if (selectedImages.length !== 6) throw new Error(`When selecting manually, you must choose exactly 6 images. You have ${selectedImages.length}.`);
-                imagesForChartGeneration = [...selectedImages];
+                // Shape A enforcement (per Commission α / 44cbdda1 reference fix):
+                // filter against themeSelect.value (the manifest-emit-time control,
+                // not worksheetThemeSelect — chart-count has dual theme controls;
+                // themeSelect drives manifest.theme so it is the load-bearing axis).
+                const activeTheme = themeSelect.value;
+                let baseSelection = [...selectedImages];
+                if (activeTheme && activeTheme !== 'all') {
+                  const onTheme = baseSelection.filter(img => img && img.theme === activeTheme);
+                  const droppedCount = baseSelection.length - onTheme.length;
+                  if (droppedCount > 0) {
+                    const tpl = t('chartcount.msg.offtheme.dropped');
+                    const msg = (typeof tpl === 'string' && tpl ? tpl : "Note: {count} selected images are not from theme '{theme}' and were excluded. Switch theme to 'all' to include them.")
+                      .replace('{count}', droppedCount)
+                      .replace('{theme}', activeTheme);
+                    showMessage(msg, 'info');
+                  }
+                  baseSelection = onTheme;
+                }
+                if (baseSelection.length !== 6) throw new Error(`When selecting manually, you must choose exactly 6 images. You have ${baseSelection.length}.`);
+                imagesForChartGeneration = [...baseSelection];
             } else if (chosenWorksheetTheme) {
                 const data = await fetch(`/api/images?theme=${encodeURIComponent(chosenWorksheetTheme)}&locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
                 const themeImages = data.images || data;

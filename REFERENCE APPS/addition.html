@@ -2908,8 +2908,27 @@
       
       async function prepareExerciseImages(currentProblemCount) {
         let exerciseImages = [];
-        
-        if (selectedImages.length === 0) {
+
+        // Shape A enforcement (per Commission α / 44cbdda1 reference fix):
+        // when a specific theme is active, filter selectedImages so off-theme
+        // entries don't bleed into the deck. Surfaces a non-blocking warning
+        // naming the dropped count + active theme.
+        const activeTheme = themeSelect.value;
+        let baseSelection = [...selectedImages];
+        if (activeTheme && activeTheme !== 'all') {
+          const onTheme = baseSelection.filter(img => img && img.theme === activeTheme);
+          const droppedCount = baseSelection.length - onTheme.length;
+          if (droppedCount > 0) {
+            const tpl = t('offthemeImagesDropped');
+            const msg = (typeof tpl === 'string' && tpl ? tpl : "Note: {count} selected images are not from theme '{theme}' and were excluded. Switch theme to 'all' to include them.")
+              .replace('{count}', droppedCount)
+              .replace('{theme}', activeTheme);
+            showMessage(msg, 'info');
+          }
+          baseSelection = onTheme;
+        }
+
+        if (baseSelection.length === 0) {
             let sourcePool = [...uploadedImages];
             try {
                 if (themeSelect.value === 'all') {
@@ -2928,10 +2947,10 @@
                 showMessage(err.message, 'error');
                 return [];
             }
-            
+
             if (sourcePool.length === 0) {
-                showMessage(t('noImagesAvailable'), 'error'); 
-                return []; 
+                showMessage(t('noImagesAvailable'), 'error');
+                return [];
             }
 
             const uniqueImageCountNeeded = Math.min(currentProblemCount, sourcePool.length);
@@ -2940,8 +2959,8 @@
             while (exerciseImages.length < currentProblemCount && exerciseImages.length > 0) exerciseImages.push(exerciseImages[getRandomInt(0, exerciseImages.length - 1)]);
 
         } else {
-          exerciseImages = [...selectedImages];
-          while (exerciseImages.length < currentProblemCount && selectedImages.length > 0) exerciseImages.push(selectedImages[getRandomInt(0, selectedImages.length - 1)]);
+          exerciseImages = [...baseSelection];
+          while (exerciseImages.length < currentProblemCount && baseSelection.length > 0) exerciseImages.push(baseSelection[getRandomInt(0, baseSelection.length - 1)]);
         }
         return exerciseImages.slice(0, currentProblemCount);
       }

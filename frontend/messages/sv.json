@@ -244,23 +244,15 @@
     }
   },
   "footer": {
-    "companyName": "LessonCraftStudio",
-    "companyTagline": "Skapa och sälj professionella utskrifter för Etsy, KDP och mer.",
-    "support": {
-      "title": "Support",
-      "helpCenter": "Hjälpcenter",
-      "contact": "Kontakt",
-      "faq": "Vanliga frågor",
-      "about": "Om oss",
-      "memberArea": "Medlemsområde"
-    },
-    "legal": {
-      "title": "Juridiskt",
-      "terms": "Användarvillkor",
-      "privacy": "Integritet",
-      "license": "Licensvillkor"
-    },
-    "copyright": "© 2024 LessonCraftStudio. Alla rättigheter förbehållna."
+    "byLanguage": "Per språk",
+    "byTopic": "Per ämne",
+    "byExerciseType": "Per övningstyp",
+    "moreLanguagesSoon": "Fler språk snart.",
+    "moreTopicsSoon": "Fler ämnen snart.",
+    "contact": "Kontakt",
+    "terms": "Villkor",
+    "privacy": "Integritet",
+    "copyright": "© 2026 LessonCraftStudio. Alla rättigheter förbehållna."
   },
   "common": {
     "loading": "Laddar...",

@@ -244,23 +244,15 @@
     }
   },
   "footer": {
-    "companyName": "LessonCraftStudio",
-    "companyTagline": "Opret og sælg professionelle printbare produkter til Etsy, KDP og mere.",
-    "support": {
-      "title": "Support",
-      "helpCenter": "Hjælpecenter",
-      "contact": "Kontakt",
-      "faq": "Ofte stillede spørgsmål",
-      "about": "Om os",
-      "memberArea": "Medlemsområde"
-    },
-    "legal": {
-      "title": "Juridisk",
-      "terms": "Servicebetingelser",
-      "privacy": "Privatliv",
-      "license": "Licensbetingelser"
-    },
-    "copyright": "© 2024 LessonCraftStudio. Alle rettigheder forbeholdes."
+    "byLanguage": "Efter sprog",
+    "byTopic": "Efter emne",
+    "byExerciseType": "Efter øvelsestype",
+    "moreLanguagesSoon": "Flere sprog snart.",
+    "moreTopicsSoon": "Flere emner snart.",
+    "contact": "Kontakt",
+    "terms": "Vilkår",
+    "privacy": "Privatliv",
+    "copyright": "© 2026 LessonCraftStudio. Alle rettigheder forbeholdes."
   },
   "common": {
     "loading": "Indlæser...",

@@ -244,23 +244,15 @@
     }
   },
   "footer": {
-    "companyName": "LessonCraftStudio",
-    "companyTagline": "Créez et vendez des imprimables professionnels pour Etsy, KDP et plus.",
-    "support": {
-      "title": "Assistance",
-      "helpCenter": "Centre d'aide",
-      "contact": "Contact",
-      "faq": "Questions fréquentes",
-      "about": "À propos",
-      "memberArea": "Espace Membre"
-    },
-    "legal": {
-      "title": "Mentions légales",
-      "terms": "Conditions d'utilisation",
-      "privacy": "Confidentialité",
-      "license": "Conditions de licence"
-    },
-    "copyright": "© 2024 LessonCraftStudio. Tous droits réservés."
+    "byLanguage": "Par langue",
+    "byTopic": "Par sujet",
+    "byExerciseType": "Par type d'exercice",
+    "moreLanguagesSoon": "Plus de langues bientôt.",
+    "moreTopicsSoon": "Plus de sujets bientôt.",
+    "contact": "Contact",
+    "terms": "Mentions légales",
+    "privacy": "Confidentialité",
+    "copyright": "© 2026 LessonCraftStudio. Tous droits réservés."
   },
   "contact": {
     "title": "Nous contacter",

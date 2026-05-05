@@ -244,23 +244,15 @@
     }
   },
   "footer": {
-    "companyName": "LessonCraftStudio",
-    "companyTagline": "Crie e venda imprimíveis profissionais para Etsy, KDP e mais.",
-    "support": {
-      "title": "Suporte",
-      "helpCenter": "Central de ajuda",
-      "contact": "Contato",
-      "faq": "Perguntas frequentes",
-      "about": "Sobre nós",
-      "memberArea": "Área de Membros"
-    },
-    "legal": {
-      "title": "Legal",
-      "terms": "Termos de serviço",
-      "privacy": "Privacidade",
-      "license": "Termos de licença"
-    },
-    "copyright": "© 2024 LessonCraftStudio. Todos os direitos reservados."
+    "byLanguage": "Por idioma",
+    "byTopic": "Por tópico",
+    "byExerciseType": "Por tipo de exercício",
+    "moreLanguagesSoon": "Mais idiomas em breve.",
+    "moreTopicsSoon": "Mais tópicos em breve.",
+    "contact": "Contato",
+    "terms": "Termos",
+    "privacy": "Privacidade",
+    "copyright": "© 2026 LessonCraftStudio. Todos os direitos reservados."
   },
   "common": {
     "loading": "Carregando...",

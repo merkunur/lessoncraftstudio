@@ -892,19 +892,21 @@
       // No classes. Survives strict HTML sanitizers (WordPress, Squarespace,
       // Wix, Medium). Iframes alone are NOT backlinks per Google\'s link-equity
       // model; the outside <a href> elements ARE the SEO surface.
-      // Snippet emits responsive-width iframe (no width="N" HTML attr) so
-      // it scales to wrapper max-width without overflowing narrow viewports
-      // (eliminates horizontal page-scroll at <max-width viewports per
-      // operator empirical 2026-05-06). Height stays as fixed-pixel CSS
-      // height because chrome (60+320) doesn\'t scale with width; auto-fit
-      // height assumes 800-wide rendering. Operator can override either
-      // dimension via the inputs.
+      // Snippet emits responsive-width iframe with aspect-ratio CSS for
+      // proportional scaling at any viewport. Eliminates horizontal page-
+      // scroll (no fixed-pixel width attr) AND avoids dead empty space at
+      // narrow viewports (vs fixed-pixel height). aspect-ratio is sized
+      // for the deck\'s known content dimensions at the chosen iframe width
+      // (target 800 by default for Letter-portrait optimal fit; the same
+      // ratio applies proportionally at other widths). aspect-ratio CSS
+      // browser support: Chrome 88+, Firefox 89+, Safari 15+ (all 2021+);
+      // strict CMS HTML sanitizers pass through inline-style aspect-ratio.
       'function buildSnippet(){',
       'var w=parseInt(widthInput.value,10)||' + defaultWidth + ';',
       'var h=parseInt(heightInput.value,10)||computeHeight(w);',
       'var lines=[];',
       'lines.push(\'<div style="max-width: \'+w+\'px; margin: 0 auto;">\');',
-      'lines.push(\'  <iframe src="\'+url+\'" frameborder="0" style="display: block; width: 100%; max-width: \'+w+\'px; height: \'+h+\'px; border: 1px solid #e0d8c5; border-radius: 8px;"></iframe>\');',
+      'lines.push(\'  <iframe src="\'+url+\'" frameborder="0" style="display: block; width: 100%; max-width: \'+w+\'px; aspect-ratio: \'+w+\' / \'+h+\'; border: 1px solid #e0d8c5; border-radius: 8px;"></iframe>\');',
       'lines.push(\'  <p style="font-size: 13px; color: #6b6357; text-align: center; margin: 8px 0 0; font-family: system-ui, sans-serif;">\');',
       'lines.push(\'    \'+prefixText+\' <a href="\'+url+\'" style="color: #6b6357; text-decoration: underline;">\'+brandText+\'</a>\'+sepText+\'<a href="\'+homeURL+\'" style="color: #6b6357; text-decoration: underline;">\'+keywordText+\'</a>\');',
       'lines.push(\'  </p>\');',

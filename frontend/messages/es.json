@@ -142,9 +142,7 @@
       "listLabel": "Cambiar idioma"
     },
     "magnitudeFraming": {
-      "headline": "{exerciseTypes} tipos de ejercicios × {themes} temas × {locales} idiomas = {variants} hojas de trabajo posibles.",
-      "footnote": "Actualmente {publishedDecks} publicadas de {combinatorialTotal} combinaciones totales. El catálogo crece a diario.",
-      "footnoteLabel": "Nota sobre el crecimiento del catálogo"
+      "headline": "100+ tipos de ejercicios × 100+ temas × 11 idiomas = 55.000+ hojas de trabajo"
     },
     "embedViralityCTA": {
       "heading": "Pon cualquier hoja de trabajo en tu sitio web.",

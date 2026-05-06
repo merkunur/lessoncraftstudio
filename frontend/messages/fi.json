@@ -142,9 +142,7 @@
       "listLabel": "Vaihda kieltä"
     },
     "magnitudeFraming": {
-      "headline": "{exerciseTypes} tehtävätyyppiä × {themes} aihetta × {locales} kieltä = {variants} mahdollista työarkkia.",
-      "footnote": "Tällä hetkellä {publishedDecks} julkaistu {combinatorialTotal} kokonaisyhdistelmästä. Katalogi kasvaa päivittäin.",
-      "footnoteLabel": "Huomautus katalogin kasvusta"
+      "headline": "100+ tehtävätyyppiä × 100+ aihetta × 11 kieltä = 55 000+ työarkkia"
     },
     "embedViralityCTA": {
       "heading": "Lisää mikä tahansa tehtäväsivu omille verkkosivuillesi.",

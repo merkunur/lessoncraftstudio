@@ -142,9 +142,7 @@
       "listLabel": "Cambia lingua"
     },
     "magnitudeFraming": {
-      "headline": "{exerciseTypes} tipi di esercizi × {themes} temi × {locales} lingue = {variants} schede possibili.",
-      "footnote": "Attualmente {publishedDecks} pubblicate su {combinatorialTotal} combinazioni totali. Il catalogo cresce ogni giorno.",
-      "footnoteLabel": "Nota sulla crescita del catalogo"
+      "headline": "100+ tipi di esercizi × 100+ temi × 11 lingue = 55.000+ schede"
     },
     "embedViralityCTA": {
       "heading": "Metti qualsiasi scheda sul tuo sito web.",

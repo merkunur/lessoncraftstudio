@@ -143,9 +143,7 @@
       "listLabel": "Switch language"
     },
     "magnitudeFraming": {
-      "headline": "{exerciseTypes} exercise types × {themes} themes × {locales} languages = {variants} possible worksheets.",
-      "footnote": "Currently {publishedDecks} published of {combinatorialTotal} total combinations. Catalog grows daily.",
-      "footnoteLabel": "Catalog growth note"
+      "headline": "100+ exercise types × 100+ themes × 11 languages = 55,000+ worksheets"
     },
     "embedViralityCTA": {
       "heading": "Put any worksheet on your website.",

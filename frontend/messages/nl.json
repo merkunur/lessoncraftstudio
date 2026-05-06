@@ -142,9 +142,7 @@
       "listLabel": "Taal wisselen"
     },
     "magnitudeFraming": {
-      "headline": "{exerciseTypes} oefeningstypes × {themes} thema's × {locales} talen = {variants} mogelijke werkbladen.",
-      "footnote": "Momenteel {publishedDecks} gepubliceerd van {combinatorialTotal} totale combinaties. Catalogus groeit dagelijks.",
-      "footnoteLabel": "Notitie over cataloguswasdom"
+      "headline": "100+ oefeningstypes × 100+ thema's × 11 talen = 55.000+ werkbladen"
     },
     "embedViralityCTA": {
       "heading": "Plaats elk werkblad op je website.",

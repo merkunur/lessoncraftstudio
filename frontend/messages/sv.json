@@ -142,9 +142,7 @@
       "listLabel": "Byt språk"
     },
     "magnitudeFraming": {
-      "headline": "{exerciseTypes} övningstyper × {themes} teman × {locales} språk = {variants} möjliga arbetsblad.",
-      "footnote": "Just nu {publishedDecks} publicerade av {combinatorialTotal} totala kombinationer. Katalogen växer dagligen.",
-      "footnoteLabel": "Anteckning om katalogtillväxt"
+      "headline": "100+ övningstyper × 100+ teman × 11 språk = 55 000+ arbetsblad"
     },
     "embedViralityCTA": {
       "heading": "Lägg till vilket arbetsblad som helst på din webbplats.",

@@ -143,9 +143,7 @@
       "listLabel": "Sprache wechseln"
     },
     "magnitudeFraming": {
-      "headline": "{exerciseTypes} Aufgabenarten × {themes} Themen × {locales} Sprachen = {variants} mögliche Arbeitsblätter.",
-      "footnote": "Aktuell {publishedDecks} veröffentlicht von {combinatorialTotal} Gesamtkombinationen. Katalog wächst täglich.",
-      "footnoteLabel": "Hinweis zum Katalogwachstum"
+      "headline": "100+ Aufgabenarten × 100+ Themen × 11 Sprachen = 55.000+ Arbeitsblätter"
     },
     "embedViralityCTA": {
       "heading": "Setzen Sie jedes Arbeitsblatt auf Ihre Website.",

@@ -142,9 +142,7 @@
       "listLabel": "Skift sprog"
     },
     "magnitudeFraming": {
-      "headline": "{exerciseTypes} øvelsestyper × {themes} temaer × {locales} sprog = {variants} mulige arbejdsark.",
-      "footnote": "I øjeblikket {publishedDecks} udgivet af {combinatorialTotal} samlede kombinationer. Kataloget vokser dagligt.",
-      "footnoteLabel": "Notat om katalogvækst"
+      "headline": "100+ øvelsestyper × 100+ temaer × 11 sprog = 55.000+ arbejdsark"
     },
     "embedViralityCTA": {
       "heading": "Sæt et hvilket som helst arbejdsark på dit websted.",

@@ -1,0 +1,215 @@
+# Teaching package — identify and name 10 clothing items
+# Arc 2 Phase 3a (en authoring; mirrors Arc 1 farm-animals template).
+# Pedagogical learning target: identify-and-name-clothing
+#   (early-literacy → vocabulary-acquisition strand)
+# Generalizations applied per Arc 1 agent review:
+#   - Single concept boundary (everyday wearable items; mixes seasonal so excludes
+#     swim-only or formal-only items)
+#   - 2 mechanic families (matching, find-and-count + picture-sort assessment)
+#   - Sentence-strips × 2 frames (i-see-a + there-are-count-plural)
+#   - Flashcards × 2 (4-up jumbo + 9-up take-home)
+#   - compositionalRationale field
+#   - Manipulative single-repeat
+#   - Verified vocab keys against IMAGE_VOCABULARY (10/10 with full 11-locale entries)
+
+targetSlug: identify-and-name-clothing
+language: en
+
+title:
+  en: "Clothing — identify and name 10"
+description:
+  en: "K-Grade 1 vocabulary-acquisition package for 10 universal clothing items: shirt, pants, dress, shoes, hat, coat, jacket, scarf, sweater, boots. 5 worksheet exercises + 8 printable materials over a 1-2 week unit. Theme-agnostic; operator selects target instruction language at material-render time."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class introduction. Teacher holds up flashcards one at a time, names
+      each clothing item in target language, class repeats chorally. Optional
+      action: kids touch the matching clothing item on their own body if wearing
+      it. Pin cards to "Clothing" word wall cluster.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pocket-chart routine with sentence strips ("I see a {item}"). Choral reading
+      first, then individual reads. Pair work: kids hold a picture-card, partner
+      names the clothing item. Recast errors in the target frame.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: image-letter matching (matching app, letter mode).
+      Station 2: picture-card sorting on the carpet (winter clothing vs summer
+      clothing — categorization + seasonal vocabulary). Station 3: flashcard
+      memory game with 6 pairs.
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class share-out. Final challenge: teacher names a clothing item, kids
+      point to it on their body or on the word wall. Forward-pointer: "Today we
+      learned 10 clothing words. When we come back to clothing next, this same
+      set will be here for us."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 6, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: find-and-count
+    exerciseMode: unified
+    customizationParameters: { gridRows: 5, gridCols: 5, themeSelect: clothing, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: clothing, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: clothing, rightCategoryThemeSelect: food, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: [shirt, pants, dress, shoes, hat, coat, jacket, scarf, sweater, boots]
+      cardCount: 10
+      cardsPerPage: 4
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      showArticle: true
+      paperSize: a4
+      language: en
+      borderStyle: thick
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: [shirt, pants, dress, shoes, hat, coat, jacket, scarf, sweater, boots]
+      cardCount: 10
+      cardsPerPage: 9
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      showArticle: true
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: [shirt, pants, dress, shoes, hat, coat, jacket, scarf, sweater, boots]
+      cardCount: 10
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 3
+    pedagogicalRole: production-prompt
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: i-see-a
+      imageSource: vocabKeyList
+      vocabKeys: [shirt, pants, dress, shoes, hat, coat, jacket, scarf, sweater, boots]
+      stripCount: 10
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: false
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: i-have-a
+      imageSource: vocabKeyList
+      vocabKeys: [shirt, pants, dress, shoes, hat, coat, jacket, scarf, sweater, boots]
+      stripCount: 10
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 5
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: clothing
+      mode: variety
+      itemCount: 20
+      itemSize: medium-1.5in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 6
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: vocabKeyList
+      vocabKeys: [shirt, pants, shoes, hat, coat, jacket]
+      pictureCueCount: 6
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 7
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 8
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: vocabulary acquisition (target identify-and-name-clothing).
+    Secondary strand: phonics / letter recognition (matching letter mode).
+    Tertiary strand: categorization (odd-one-out + picture-sort + carpet sorting
+    by season at scaffold station 2). Mirrors Arc 1 farm-animals 3-strand integration.
+
+curriculumStandards:
+  - EYFS.ELG.UW
+  - IB-PYP.WhereWeAre
+
+assessmentCriteria:
+  en: |
+    Receptive 10/10 (point to named clothing on body or picture); productive 8/10
+    (name from picture); frame use 6/10 ("I see a {item}").
+
+    Differentiation:
+    - Pre-K: receptive only; touch matching clothing on own body.
+    - K / Grade 1: full productive + sentence-frame use.
+    - Grade 2+: extend to weather-clothing pairing ("It is cold. I wear a coat.").
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

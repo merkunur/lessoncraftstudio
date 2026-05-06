@@ -1,0 +1,27 @@
+# Test fixture — broken (references nonexistent material).
+# Validator must reject with a descriptive error message naming the bad materialSlug.
+
+targetSlug: count-objects-1-to-5
+language: en
+title:
+  en: "Broken fixture — bad material slug"
+description:
+  en: "Should fail validation."
+durationMinutes: 20
+structure:
+  warmup: { durationMinutes: 5, body: "..." }
+  contentActivity: { durationMinutes: 8, body: "..." }
+  scaffold: { durationMinutes: 4, body: "..." }
+  closure: { durationMinutes: 3, body: "..." }
+composedExercises: []
+materials:
+  - materialSlug: not-a-real-material
+    customizationParameters: {}
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+curriculumStandards: []
+assessmentCriteria:
+  en: "..."
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+generatedBy: manual

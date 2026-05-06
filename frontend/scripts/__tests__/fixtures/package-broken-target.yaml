@@ -1,0 +1,31 @@
+# Test fixture — broken (references nonexistent learning target).
+# Validator must reject with a descriptive error message naming `targetSlug`.
+
+targetSlug: this-target-does-not-exist
+language: en
+title:
+  en: "Broken fixture — bad target slug"
+description:
+  en: "Should fail validation."
+durationMinutes: 20
+structure:
+  warmup:
+    durationMinutes: 5
+    body: "..."
+  contentActivity:
+    durationMinutes: 8
+    body: "..."
+  scaffold:
+    durationMinutes: 4
+    body: "..."
+  closure:
+    durationMinutes: 3
+    body: "..."
+composedExercises: []
+materials: []
+curriculumStandards: []
+assessmentCriteria:
+  en: "..."
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+generatedBy: manual

@@ -1,0 +1,70 @@
+# Test fixture — minimal valid package definition.
+# Consumed by frontend/scripts/__tests__/author-teaching-package.test.js.
+# Authoring shape — see docs/lesson-plans/packages/README.md for the full
+# storage convention.
+
+targetSlug: count-objects-1-to-5
+language: en
+
+title:
+  en: "Count objects 1 to 5 — minimal valid test fixture"
+description:
+  en: "Phase 2 test fixture for the author-teaching-package validator. Not production content."
+
+durationMinutes: 20
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: "Whole-class counting warmup."
+  contentActivity:
+    durationMinutes: 8
+    body: "Pairs work with picture cards counting 1-5."
+  scaffold:
+    durationMinutes: 4
+    body: "Independent worksheet."
+  closure:
+    durationMinutes: 3
+    body: "Whole-class share-out."
+
+composedExercises:
+  - appName: find-and-count
+    exerciseMode: unified
+    customizationParameters:
+      gridRows: 5
+      gridCols: 5
+      themeSelect: animals
+    ordering: 1
+    pedagogicalRole: practice
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 5
+      cardsPerPage: 6
+      labelDisplay: singular
+      language: en
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 20
+      itemSize: medium-1.5in
+    ordering: 2
+    pedagogicalRole: concrete-manipulative
+
+curriculumStandards:
+  - CCSS.K.CC.A.1
+
+assessmentCriteria:
+  en: "Kid counts 1-5 objects with one-to-one correspondence in at least 4 of 5 trials."
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+
+generatedBy: manual

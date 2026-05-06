@@ -1258,7 +1258,9 @@ Hyphen/underscore + case normalization on comparison. Themeless-app legitimate-n
 
 **Tests:** 56 unit tests in `scripts/publish-cli/slug.test.js` (21 slugify + 8 deriveSeed + 13 parseThemeFromImagePath + 11 reconcileManifestTheme + 11 reconcileExerciseMode); 5 integration tests in `reconciliation.integration.test.js`.
 
-Origin: `580b0ca2` (theme reconciliation) + `2b555b57` (exerciseMode reconciliation).
+**Halt-surface predicate calibration vs ground-truth.** When the gate fires unexpectedly (e.g., halts a wave the operator believed clean), the first diagnostic is NOT "the gate is malfunctioning" — it's "verify the predicate against ground-truth." Run `parseThemeFromImagePath` + `reconcileManifestTheme` (or the exerciseMode equivalents) against a sample manifest by hand and compare the gate's classification to manual inspection of the manifest's actual content. Statistical-consistency check at the predicate level catches: (a) genuine emit-defects the operator didn't notice; (b) edge-cases in the predicate (e.g., CUID-shaped image paths, themeless apps); (c) genuine gate bugs (rarer than the first two). Empirical precedent: code-addition wave halt at `9051b43d` was correctly diagnosed as a real emit-defect, not a gate bug, via this calibration step before the salvage script was authored.
+
+Origin: `580b0ca2` (theme reconciliation) + `2b555b57` (exerciseMode reconciliation) + halt-surface predicate calibration discipline codified at this fold pass.
 
 ### 15.17 Salvage scripts pattern (`rewrite-manifest-<field>.js`)
 
@@ -2846,6 +2848,8 @@ The §15.16 reconciliation gate uses the classification to differentiate: HARDCO
 
 Origin: `2b555b57` (gate extension introducing classification constant) + `109a91d4` (Commission ε flipping all 16 prior HARDCODED-NULL apps to DERIVED).
 
+**Recon-and-park outputs feed gate logic structurally.** The `EXERCISE_MODE_APP_CLASSIFICATION` constant in `scripts/publish-cli/slug.js` is not just documentation of Commission ε's locked taxonomy — it IS the live taxonomy that the §15.16 gate consumes at runtime. Recon outputs that lock app-classification, mode-counts, theme-axis-keys, etc. should be encoded as code-level constants the gate reads directly, not as prose-in-CLAUDE.md the gate references conceptually. The pattern: recon → operator-strategic adjudication → locked taxonomy → code-constant → gate predicate input. Each step structurally chained; no human-mediated lookup at gate-runtime. Future gate extensions (e.g., a future `LOCALE_NSR_FLAG_CLASSIFICATION` for translation-quality gating) follow the same recon-output-as-code-constant pattern.
+
 #### A.13.5 Shape A canonical authoring pattern + reconciliation gate as structural complement
 
 The §15.16 reconciliation gate is the publish-time backstop; **Shape A** is the canonical authoring-app pattern at the upstream boundary. Together they form the structural complement that closes emit-defects at both layers.
@@ -2893,6 +2897,46 @@ When a structural exposure-class is closed by a publish-cli gate covering N apps
 **Empirical anchor:** at `580b0ca2` the §15.16 theme reconciliation gate shipped covering 27 unverified apps; per-app first-publish verification folded into Track C cadence rather than spawn a 27-app audit commission. The gate caught code-addition's emit-defect at first-publish (153 ZIPs with broken theme); the salvage scripts pattern (§15.17) handled the recovery without operator-attention proportional to N apps.
 
 Origin: `580b0ca2` (theme reconciliation gate covering 27 unverified apps).
+
+#### A.13.8 Adjudication-reversal discipline
+
+When recon (typically Phase 1 inventory of any commission) surfaces a cost dimension the original adjudication didn't account for, recalibrate before executing — don't power through doctrine purity at operator-side cost.
+
+**Empirical anchor.** Initial adjudication on the manifest.theme defect arc proposed operator-side regeneration of 153 ZIPs to align manifest fields with content. Operator pushed back; correct fix was downstream rewrite using content signals already present in the manifests (`9051b43d` salvage script). The original adjudication cost-modeled as "rebuild-the-defective-state from scratch" but the empirical cost was "operator's generation hours" vs "CC's code change" — a calibration gap that doctrine purity would have masked.
+
+**How to apply.** When a Phase 1 inventory surfaces a fix path that was not in the original adjudication's option set AND the new path is materially cheaper on the dimension the operator actually pays (typically generation hours, attention budget, or session cycles), surface the recalibration as a Phase 2 batched review rather than executing the original adjudication. The §15.17 salvage scripts pattern is the canonical example of authoring-side root-cause + publish-side patching co-existing as a layered fix shape.
+
+**Anti-pattern.** Treating an adjudication-lock as immutable when recon surfaces material cost asymmetry. Adjudicator-forward decision-locking (§3.4) does not mean adjudications are final-vs-reality — they're final until reality contradicts the cost-model the adjudication assumed. When that happens, surface and re-lock.
+
+Origin: code-addition manifest.theme defect arc (`44cbdda1` Shape A + `9051b43d` salvage script), recalibration surfaced post-recon.
+
+#### A.13.9 Two-defect pattern recon
+
+When one emit-defect surfaces in an authoring app at a wave boundary, recon for additional emit-defects in the same app at the same wave before declaring the wave fixable.
+
+**How to apply (during any `[FIX][AUTHORING]` Phase 1).**
+- Identify the surfaced defect's emit-site class (theme, exerciseMode, age_range, locale, etc. per §17.8.5 SEO-bearing manifest fields).
+- For every OTHER emit-site class in the same app, run the §15.16 reconciliation gate (or its conceptual equivalent) on a sample of the wave's manifests.
+- If a second defect surfaces, fold both into a single Shape-A-style fix per §A.13.5 — don't ship two sequential fixes when both can land in one commit.
+
+**Why this matters.** Code-addition's first surfaced defect was manifest.theme (`9051b43d`); cross-theme matrix testing then surfaced exerciseMode emit-defect (`5078f491`) in the same wave. Without two-defect recon, the second defect would have surfaced post-publish in a downstream wave, requiring a second salvage script + second authoring fix + cumulative operator-attention. Two-defect recon catches both at the same recon turn.
+
+**Empirical anchor.** code-addition (`5078f491` exerciseMode + `9051b43d` theme) — both surfaced at the same wave once cross-theme matrix testing exposed the first one. Commission ε at `109a91d4` then closed exerciseMode across all 16 hardcoded-null apps in one stroke after the pattern was recognized.
+
+#### A.13.10 Manifest-as-schema-contract discipline
+
+The manifest is the contract between authoring app and publish-cli. Defects fix at the emit-side (authoring app boundary) — do not introduce downstream content-vs-metadata reconciliation when avoidable. The §15.16 reconciliation gate is a backstop, not a primary fix mechanism.
+
+**How to apply.**
+- When an emit-defect surfaces, the first question is: where in the authoring app does the defective field get computed? Fix there (Shape A discipline per §A.13.5).
+- The second question is: does the §15.16 gate already catch this class? If yes, the gate is sufficient backstop for any future regression; the authoring fix closes the present wave.
+- The third question is NEVER: can publish-cli reconstruct the correct value from content signals? — that's salvage-script territory (§15.17) for already-staged waves only, not a primary fix path.
+
+**Why this matters.** Salvage scripts (§15.17) exist to recover already-generated waves where regeneration cost > script cost. They are NOT a maintenance pattern for ongoing emit-defect tolerance. Letting publish-cli reconcile content vs metadata as a primary fix encodes the wrong contract — manifests stop being the source of truth for SEO surfaces and become advisory metadata that publish-cli routinely overrides. That breaks the §17.8.5 SEO-first emit-site framing because operator-strategic adjudication on emit values (which mode strings, which themes) loses authority to publish-cli's content-derivation heuristics.
+
+**Anti-pattern.** Adding new content-vs-metadata reconciliation logic to publish-cli when an authoring-side fix is available. The reconciliation gate's role is binary (CLEAN / HALT), not corrective.
+
+Origin: §15.17 salvage scripts as recovery pattern only (not primary fix); §A.13.5 Shape A as authoring-side root-cause framework; this subsection codifies the priority ordering.
 
 ### A.14 Scaling Arc audit doctrine
 

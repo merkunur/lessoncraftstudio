@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Flashcards Generator | LessonCraftStudio</title>
+<meta name="robots" content="noindex">
+<meta name="description" content="Generate printable flashcards from the LessonCraftStudio image library. Single image + localized label per card. Material-generator companion to teaching-package authoring.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Lexend+Deca:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- Libraries -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<!-- Reference shared modules (synced into /worksheet-generators/js/ by master-sync.bat) -->
+<script src="/worksheet-generators/js/image-vocabulary.js?v=3"></script>
+<script src="/worksheet-generators/js/catalog-export.js?v=9"></script>
+<script src="/worksheet-generators/js/material-generator-shared.js?v=1"></script>
+
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: 'Lexend Deca', system-ui, sans-serif; background: #f4f6fa; color: #222; }
+  .layout { display: flex; min-height: 100vh; }
+  .sidebar { width: 320px; padding: 20px; background: #fff; border-right: 1px solid #e1e4eb; overflow-y: auto; }
+  .canvas-pane { flex: 1; padding: 24px; display: flex; align-items: flex-start; justify-content: center; overflow: auto; }
+  h1 { font-family: 'Fredoka', sans-serif; font-size: 22px; margin: 0 0 4px; }
+  .subtitle { color: #5c6878; font-size: 13px; margin-bottom: 20px; }
+  fieldset { border: 1px solid #e1e4eb; border-radius: 8px; padding: 12px; margin-bottom: 14px; }
+  legend { font-weight: 600; padding: 0 6px; font-size: 13px; color: #4a5468; }
+  label { display: block; margin-bottom: 8px; font-size: 13px; }
+  label > span { display: block; color: #5c6878; margin-bottom: 3px; font-size: 12px; }
+  input[type="text"], input[type="number"], select { width: 100%; padding: 6px 8px; border: 1px solid #cbd2dc; border-radius: 4px; font-size: 13px; font-family: inherit; }
+  input[type="checkbox"] { margin-right: 6px; }
+  button { width: 100%; padding: 10px; background: #2563eb; color: #fff; border: 0; border-radius: 6px; font-weight: 600; font-size: 14px; cursor: pointer; font-family: inherit; }
+  button:hover:not(:disabled) { background: #1d4ed8; }
+  button:disabled { background: #9ca3af; cursor: not-allowed; }
+  .status { margin-top: 12px; font-size: 12px; color: #5c6878; min-height: 16px; }
+  .status.error { color: #c0392b; }
+  .canvas-host { background: #fff; border: 1px solid #e1e4eb; box-shadow: 0 4px 16px rgba(0,0,0,.06); }
+</style>
+</head>
+<body>
+
+<div class="layout">
+  <aside class="sidebar">
+    <h1>Flashcards Generator</h1>
+    <div class="subtitle">Material-generator for teaching packages.</div>
+
+    <fieldset>
+      <legend>Image source</legend>
+      <label><span>Theme name</span><input id="themeInput" type="text" placeholder="e.g. animals" value="animals"></label>
+      <label><span>Card count (1–30)</span><input id="cardCountInput" type="number" min="1" max="30" value="10"></label>
+      <label><span>Vocab keys (comma-separated, optional override)</span><input id="vocabKeysInput" type="text" placeholder="cat,dog,cow,sheep,..."></label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Layout</legend>
+      <label><span>Cards per page</span>
+        <select id="cardsPerPage">
+          <option value="4">4 (jumbo)</option>
+          <option value="6" selected>6 (standard)</option>
+          <option value="9">9 (take-home)</option>
+        </select>
+      </label>
+      <label><span>Paper size</span>
+        <select id="paperSize">
+          <option value="a4" selected>A4</option>
+          <option value="letter">Letter</option>
+        </select>
+      </label>
+      <label><span>Color mode</span>
+        <select id="colorMode">
+          <option value="color" selected>Color</option>
+          <option value="bw">Black &amp; White (auto-routes to *_bw theme)</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Label</legend>
+      <label><span>Language</span>
+        <select id="language">
+          <option value="en">English</option>
+          <option value="de">Deutsch</option>
+          <option value="fr">Français</option>
+          <option value="es">Español</option>
+          <option value="pt">Português</option>
+          <option value="it">Italiano</option>
+          <option value="nl">Nederlands</option>
+          <option value="sv">Svenska</option>
+          <option value="da">Dansk</option>
+          <option value="no">Norsk</option>
+          <option value="fi">Suomi</option>
+        </select>
+      </label>
+      <label><span>Display form</span>
+        <select id="labelDisplay">
+          <option value="singular" selected>Singular</option>
+          <option value="plural">Plural</option>
+          <option value="none">None (image only)</option>
+        </select>
+      </label>
+      <label><span>Case</span>
+        <select id="labelCase">
+          <option value="lowercase" selected>lowercase</option>
+          <option value="Title Case">Title Case</option>
+          <option value="UPPERCASE">UPPERCASE</option>
+        </select>
+      </label>
+      <label><input id="showArticle" type="checkbox"> Show article (auto-resolved from gender)</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Card style</legend>
+      <label><span>Border</span>
+        <select id="borderStyle">
+          <option value="thin" selected>Thin</option>
+          <option value="thick">Thick</option>
+          <option value="rounded">Rounded</option>
+          <option value="none">None</option>
+        </select>
+      </label>
+      <label><input id="roundedCorners" type="checkbox" checked> Rounded corners</label>
+      <label><input id="showCutGuides" type="checkbox" checked> Show cut guides</label>
+    </fieldset>
+
+    <button id="generateBtn">Generate &amp; download PDF</button>
+    <div id="status" class="status"></div>
+  </aside>
+
+  <main class="canvas-pane">
+    <canvas id="previewCanvas" class="canvas-host"></canvas>
+  </main>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  var $ = function (id) { return document.getElementById(id); };
+  var SHARED = window.LCSMaterialGenerators;
+
+  function setStatus(msg, isError) {
+    var el = $('status');
+    el.textContent = msg || '';
+    el.classList.toggle('error', !!isError);
+  }
+
+  function readConfig() {
+    return {
+      themeName: $('themeInput').value.trim(),
+      cardCount: parseInt($('cardCountInput').value, 10) || 10,
+      vocabKeys: ($('vocabKeysInput').value || '').split(',').map(function (s) { return s.trim(); }).filter(Boolean),
+      cardsPerPage: parseInt($('cardsPerPage').value, 10),
+      paperSize: $('paperSize').value,
+      colorMode: $('colorMode').value,
+      language: $('language').value,
+      labelDisplay: $('labelDisplay').value,
+      labelCase: $('labelCase').value,
+      showArticle: $('showArticle').checked,
+      borderStyle: $('borderStyle').value,
+      roundedCorners: $('roundedCorners').checked,
+      showCutGuides: $('showCutGuides').checked,
+    };
+  }
+
+  function resolveThemeForColorMode(themeName, colorMode) {
+    if (colorMode !== 'bw') return themeName;
+    return /_bw$/.test(themeName) ? themeName : themeName + '_bw';
+  }
+
+  function pickAssets(allImages, vocabKeys, count) {
+    if (vocabKeys.length > 0) {
+      var byKey = {};
+      allImages.forEach(function (img) {
+        var key = SHARED.imageToVocabKey(img);
+        if (key && !byKey[key]) byKey[key] = img;
+      });
+      return vocabKeys.map(function (k) { return byKey[k]; }).filter(Boolean);
+    }
+    return allImages.slice(0, count);
+  }
+
+  function buildLabel(image, locale, opts) {
+    if (opts.labelDisplay === 'none') return '';
+    var key = SHARED.imageToVocabKey(image);
+    if (!key) return image.name || image.word || '';
+    return SHARED.localizedLabel(key, locale, {
+      form: opts.labelDisplay === 'plural' ? 'plural' : 'singular',
+      case: opts.labelCase,
+      article: opts.showArticle ? 'indefinite' : undefined,
+    });
+  }
+
+  function renderFlashcard(canvas, image, x, y, w, h, idx, cfg) {
+    SHARED.renderCardBorder(canvas, x, y, w, h, {
+      style: cfg.borderStyle,
+      roundedCorners: cfg.roundedCorners,
+    });
+    var labelHeight = cfg.labelDisplay === 'none' ? 0 : Math.min(48, h * 0.22);
+    var imagePad = 12;
+    var imageBoxX = x + imagePad;
+    var imageBoxY = y + imagePad;
+    var imageBoxW = w - 2 * imagePad;
+    var imageBoxH = h - 2 * imagePad - labelHeight;
+    SHARED.loadFabricImage(image.url || image.path, { crossOrigin: 'anonymous' }).then(function (img) {
+      var scale = Math.min(imageBoxW / img.width, imageBoxH / img.height);
+      img.set({
+        left: imageBoxX + (imageBoxW - img.width * scale) / 2,
+        top: imageBoxY + (imageBoxH - img.height * scale) / 2,
+        scaleX: scale,
+        scaleY: scale,
+        selectable: false,
+        evented: false,
+      });
+      canvas.add(img);
+      if (labelHeight > 0) {
+        var label = buildLabel(image, cfg.language, cfg);
+        var fontSize = Math.min(28, labelHeight * 0.55);
+        var text = new fabric.Text(label, {
+          left: x + w / 2,
+          top: y + h - labelHeight / 2 - 6,
+          originX: 'center',
+          originY: 'center',
+          fontSize: fontSize,
+          fontFamily: 'Fredoka, sans-serif',
+          fill: '#222',
+          selectable: false,
+          evented: false,
+        });
+        canvas.add(text);
+      }
+      canvas.renderAll();
+    }).catch(function (err) {
+      console.warn('flashcard image load failed:', image.url, err);
+    });
+  }
+
+  function determineGrid(cardsPerPage) {
+    if (cardsPerPage === 4) return { cols: 2, rows: 2 };
+    if (cardsPerPage === 6) return { cols: 2, rows: 3 };
+    if (cardsPerPage === 9) return { cols: 3, rows: 3 };
+    return { cols: 2, rows: 3 };
+  }
+
+  function generate() {
+    var cfg = readConfig();
+    if (!cfg.themeName) { setStatus('theme is required', true); return; }
+    setStatus('Fetching images…');
+    var btn = $('generateBtn');
+    btn.disabled = true;
+    var resolvedTheme = resolveThemeForColorMode(cfg.themeName, cfg.colorMode);
+
+    SHARED.getThemeAssets(resolvedTheme, cfg.language).then(function (allImages) {
+      var picked = pickAssets(allImages, cfg.vocabKeys, cfg.cardCount);
+      if (picked.length === 0) {
+        throw new Error('no images matched theme "' + resolvedTheme + '"' +
+          (cfg.vocabKeys.length ? ' for vocab keys ' + cfg.vocabKeys.join(',') : ''));
+      }
+      var grid = determineGrid(cfg.cardsPerPage);
+      var canvas = SHARED.initCanvas($('previewCanvas'), cfg.paperSize, { orientation: 'portrait' });
+      SHARED.renderGrid(canvas, picked.slice(0, cfg.cardsPerPage), {
+        cols: grid.cols,
+        rows: grid.rows,
+        renderItem: function (c, item, x, y, w, h, idx) {
+          renderFlashcard(c, item, x, y, w, h, idx, cfg);
+        },
+      });
+      if (cfg.showCutGuides) {
+        var margin = 36;
+        var paperW = canvas.lcsDims.w;
+        var paperH = canvas.lcsDims.h;
+        SHARED.addCutGuides(canvas, grid.cols, grid.rows, margin, margin, paperW - 2 * margin, paperH - 2 * margin);
+      }
+      setTimeout(function () {
+        try {
+          var filename = 'flashcards-' + cfg.themeName + '-' + cfg.language + '.pdf';
+          SHARED.emitPdf(canvas, filename);
+          setStatus('Saved ' + filename + ' (' + picked.length + ' card' + (picked.length > 1 ? 's' : '') + ')');
+        } catch (err) {
+          setStatus('PDF emit failed: ' + err.message, true);
+        } finally {
+          btn.disabled = false;
+        }
+      }, 1500);
+    }).catch(function (err) {
+      console.error(err);
+      setStatus(err.message || 'failed', true);
+      btn.disabled = false;
+    });
+  }
+
+  $('generateBtn').addEventListener('click', generate);
+})();
+</script>
+
+</body>
+</html>

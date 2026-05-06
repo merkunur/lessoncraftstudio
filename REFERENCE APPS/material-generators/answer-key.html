@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Answer Key Generator | LessonCraftStudio</title>
+<meta name="robots" content="noindex">
+<meta name="description" content="Generate a per-package answer-key PDF from a teaching-package YAML definition.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Lexend+Deca:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+
+<script src="/worksheet-generators/js/image-vocabulary.js?v=3"></script>
+<script src="/worksheet-generators/js/catalog-export.js?v=9"></script>
+<script src="/worksheet-generators/js/material-generator-shared.js?v=1"></script>
+
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: 'Lexend Deca', system-ui, sans-serif; background: #f4f6fa; color: #222; }
+  .layout { display: flex; min-height: 100vh; }
+  .sidebar { width: 360px; padding: 20px; background: #fff; border-right: 1px solid #e1e4eb; overflow-y: auto; }
+  .canvas-pane { flex: 1; padding: 24px; display: flex; align-items: flex-start; justify-content: center; overflow: auto; }
+  h1 { font-family: 'Fredoka', sans-serif; font-size: 22px; margin: 0 0 4px; }
+  .subtitle { color: #5c6878; font-size: 13px; margin-bottom: 20px; }
+  fieldset { border: 1px solid #e1e4eb; border-radius: 8px; padding: 12px; margin-bottom: 14px; }
+  legend { font-weight: 600; padding: 0 6px; font-size: 13px; color: #4a5468; }
+  label { display: block; margin-bottom: 8px; font-size: 13px; }
+  label > span { display: block; color: #5c6878; margin-bottom: 3px; font-size: 12px; }
+  input[type="file"], select { width: 100%; font-size: 13px; }
+  textarea { width: 100%; font-family: ui-monospace, monospace; font-size: 11px; min-height: 240px; padding: 6px; border: 1px solid #cbd2dc; border-radius: 4px; }
+  button { width: 100%; padding: 10px; background: #2563eb; color: #fff; border: 0; border-radius: 6px; font-weight: 600; font-size: 14px; cursor: pointer; font-family: inherit; }
+  button:disabled { background: #9ca3af; cursor: not-allowed; }
+  .status { margin-top: 12px; font-size: 12px; color: #5c6878; min-height: 16px; }
+  .status.error { color: #c0392b; }
+  .canvas-host { background: #fff; border: 1px solid #e1e4eb; box-shadow: 0 4px 16px rgba(0,0,0,.06); }
+</style>
+</head>
+<body>
+
+<div class="layout">
+  <aside class="sidebar">
+    <h1>Answer Key</h1>
+    <div class="subtitle">Per-package teacher-reference PDF.</div>
+
+    <fieldset>
+      <legend>Package definition</legend>
+      <label><span>Upload package.yaml</span><input id="yamlFile" type="file" accept=".yaml,.yml"></label>
+      <label><span>Or paste YAML directly:</span></label>
+      <textarea id="yamlText" placeholder="targetSlug: ..."></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>Output options</legend>
+      <label><input id="includeMaterialReference" type="checkbox" checked> Include material reference (flashcard label list, etc.)</label>
+      <label><input id="includePedagogicalNotes" type="checkbox" checked> Include pedagogical notes</label>
+      <label><span>Paper size</span>
+        <select id="paperSize">
+          <option value="a4" selected>A4</option>
+          <option value="letter">Letter</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <button id="generateBtn">Generate &amp; download PDF</button>
+    <div id="status" class="status"></div>
+  </aside>
+
+  <main class="canvas-pane">
+    <canvas id="previewCanvas" class="canvas-host"></canvas>
+  </main>
+</div>
+
+<script>
+(function () {
+  'use strict';
+  var $ = function (id) { return document.getElementById(id); };
+  var SHARED = window.LCSMaterialGenerators;
+
+  function setStatus(m, e) { var el = $('status'); el.textContent = m || ''; el.classList.toggle('error', !!e); }
+
+  $('yamlFile').addEventListener('change', function (ev) {
+    var f = ev.target.files[0];
+    if (!f) return;
+    var reader = new FileReader();
+    reader.onload = function () { $('yamlText').value = reader.result; };
+    reader.readAsText(f);
+  });
+
+  function vocabLabelsForKeys(keys, locale) {
+    return keys.map(function (k) {
+      var v = SHARED.lookupVocabulary(k, locale);
+      if (!v) return k + ' [unknown]';
+      var line = k + ' → ' + v.singular;
+      if (v.plural && v.plural !== v.singular) line += ' / ' + v.plural;
+      if (v.gender) line += ' (' + v.gender + ')';
+      return line;
+    });
+  }
+
+  function buildLines(pkg, opts) {
+    var lines = [];
+    var locale = pkg.language || 'en';
+    var titleStr = (pkg.title && (pkg.title[locale] || pkg.title.en)) || pkg.targetSlug;
+    lines.push({ size: 22, weight: 700, text: 'Answer Key — ' + titleStr });
+    lines.push({ size: 11, color: '#5c6878', text: 'targetSlug: ' + pkg.targetSlug + ' • language: ' + locale + ' • duration: ' + (pkg.durationMinutes || '?') + ' min' });
+    lines.push({ size: 4, text: '' });
+
+    if (opts.includePedagogicalNotes && pkg.assessmentCriteria) {
+      lines.push({ size: 14, weight: 700, text: 'Assessment criteria' });
+      var ac = pkg.assessmentCriteria[locale] || pkg.assessmentCriteria.en || '';
+      ac.split(/\n+/).forEach(function (l) { if (l.trim()) lines.push({ size: 11, text: l.trim() }); });
+      lines.push({ size: 4, text: '' });
+    }
+
+    if (Array.isArray(pkg.composedExercises) && pkg.composedExercises.length > 0) {
+      lines.push({ size: 14, weight: 700, text: 'Composed exercises' });
+      pkg.composedExercises.forEach(function (ex, i) {
+        var head = (i + 1) + '. ' + ex.appName + (ex.exerciseMode ? ' (' + ex.exerciseMode + ')' : '');
+        if (ex.pedagogicalRole) head += ' — role: ' + ex.pedagogicalRole;
+        lines.push({ size: 12, weight: 600, text: head });
+        if (ex.customizationParameters) {
+          Object.keys(ex.customizationParameters).forEach(function (k) {
+            var v = ex.customizationParameters[k];
+            lines.push({ size: 10, color: '#4a5468', text: '   • ' + k + ': ' + JSON.stringify(v) });
+          });
+        }
+      });
+      lines.push({ size: 4, text: '' });
+    }
+
+    if (Array.isArray(pkg.materials) && pkg.materials.length > 0) {
+      lines.push({ size: 14, weight: 700, text: 'Materials' });
+      pkg.materials.forEach(function (mat, i) {
+        var head = (i + 1) + '. ' + mat.materialSlug;
+        if (mat.pedagogicalRole) head += ' — role: ' + mat.pedagogicalRole;
+        lines.push({ size: 12, weight: 600, text: head });
+        if (mat.customizationParameters) {
+          Object.keys(mat.customizationParameters).forEach(function (k) {
+            var v = mat.customizationParameters[k];
+            lines.push({ size: 10, color: '#4a5468', text: '   • ' + k + ': ' + JSON.stringify(v) });
+          });
+        }
+        if (opts.includeMaterialReference && mat.customizationParameters && Array.isArray(mat.customizationParameters.vocabKeys)) {
+          lines.push({ size: 10, color: '#222', text: '   Vocabulary reference (' + locale + '):' });
+          vocabLabelsForKeys(mat.customizationParameters.vocabKeys, locale).forEach(function (label) {
+            lines.push({ size: 10, color: '#444', text: '      ' + label });
+          });
+        }
+      });
+    }
+
+    return lines;
+  }
+
+  function renderLines(canvas, lines) {
+    var marginX = 48;
+    var marginY = 48;
+    var maxW = canvas.lcsDims.w - 2 * marginX;
+    var y = marginY;
+    lines.forEach(function (line) {
+      var size = line.size || 11;
+      var color = line.color || '#222';
+      var weight = line.weight || 400;
+      if (!line.text) { y += size; return; }
+      var text = new fabric.Textbox(line.text, {
+        left: marginX,
+        top: y,
+        width: maxW,
+        fontSize: size,
+        fill: color,
+        fontWeight: weight,
+        fontFamily: weight >= 600 ? 'Fredoka, sans-serif' : 'Lexend Deca, sans-serif',
+        selectable: false,
+        evented: false,
+        editable: false,
+      });
+      canvas.add(text);
+      y += text.height + 2;
+    });
+  }
+
+  function generate() {
+    var raw = $('yamlText').value.trim();
+    if (!raw) { setStatus('paste or upload a package.yaml', true); return; }
+    var pkg;
+    try { pkg = jsyaml.load(raw); }
+    catch (err) { setStatus('YAML parse error: ' + err.message, true); return; }
+    if (!pkg || !pkg.targetSlug) { setStatus('package missing targetSlug', true); return; }
+
+    var opts = {
+      includeMaterialReference: $('includeMaterialReference').checked,
+      includePedagogicalNotes: $('includePedagogicalNotes').checked,
+    };
+    var paperSize = $('paperSize').value;
+    var canvas = SHARED.initCanvas($('previewCanvas'), paperSize, { orientation: 'portrait' });
+    var lines = buildLines(pkg, opts);
+    renderLines(canvas, lines);
+    setTimeout(function () {
+      try {
+        var fn = 'answer-key-' + (pkg.targetSlug || 'package') + '-' + (pkg.language || 'en') + '.pdf';
+        SHARED.emitPdf(canvas, fn);
+        setStatus('Saved ' + fn);
+      } catch (err) { setStatus('PDF emit failed: ' + err.message, true); }
+    }, 200);
+  }
+
+  $('generateBtn').addEventListener('click', generate);
+})();
+</script>
+
+</body>
+</html>

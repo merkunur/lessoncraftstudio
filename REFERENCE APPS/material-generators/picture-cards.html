@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Picture Cards Generator | LessonCraftStudio</title>
+<meta name="robots" content="noindex">
+<meta name="description" content="Generate printable picture cards (image-only, no label) from the LessonCraftStudio image library.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Lexend+Deca:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<script src="/worksheet-generators/js/image-vocabulary.js?v=3"></script>
+<script src="/worksheet-generators/js/catalog-export.js?v=9"></script>
+<script src="/worksheet-generators/js/material-generator-shared.js?v=1"></script>
+
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: 'Lexend Deca', system-ui, sans-serif; background: #f4f6fa; color: #222; }
+  .layout { display: flex; min-height: 100vh; }
+  .sidebar { width: 320px; padding: 20px; background: #fff; border-right: 1px solid #e1e4eb; overflow-y: auto; }
+  .canvas-pane { flex: 1; padding: 24px; display: flex; align-items: flex-start; justify-content: center; overflow: auto; }
+  h1 { font-family: 'Fredoka', sans-serif; font-size: 22px; margin: 0 0 4px; }
+  .subtitle { color: #5c6878; font-size: 13px; margin-bottom: 20px; }
+  fieldset { border: 1px solid #e1e4eb; border-radius: 8px; padding: 12px; margin-bottom: 14px; }
+  legend { font-weight: 600; padding: 0 6px; font-size: 13px; color: #4a5468; }
+  label { display: block; margin-bottom: 8px; font-size: 13px; }
+  label > span { display: block; color: #5c6878; margin-bottom: 3px; font-size: 12px; }
+  input[type="text"], input[type="number"], select { width: 100%; padding: 6px 8px; border: 1px solid #cbd2dc; border-radius: 4px; font-size: 13px; font-family: inherit; }
+  button { width: 100%; padding: 10px; background: #2563eb; color: #fff; border: 0; border-radius: 6px; font-weight: 600; font-size: 14px; cursor: pointer; font-family: inherit; }
+  button:disabled { background: #9ca3af; cursor: not-allowed; }
+  .status { margin-top: 12px; font-size: 12px; color: #5c6878; min-height: 16px; }
+  .status.error { color: #c0392b; }
+  .canvas-host { background: #fff; border: 1px solid #e1e4eb; box-shadow: 0 4px 16px rgba(0,0,0,.06); }
+</style>
+</head>
+<body>
+
+<div class="layout">
+  <aside class="sidebar">
+    <h1>Picture Cards</h1>
+    <div class="subtitle">Image-only cards (no label) for productive vocabulary work.</div>
+
+    <fieldset>
+      <legend>Image source</legend>
+      <label><span>Theme name</span><input id="themeInput" type="text" value="animals"></label>
+      <label><span>Card count (1–30)</span><input id="cardCountInput" type="number" min="1" max="30" value="10"></label>
+      <label><span>Vocab keys (optional)</span><input id="vocabKeysInput" type="text" placeholder="cat,dog,..."></label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Layout</legend>
+      <label><span>Cards per page</span>
+        <select id="cardsPerPage">
+          <option value="4">4</option>
+          <option value="6">6</option>
+          <option value="9" selected>9</option>
+          <option value="12">12</option>
+        </select>
+      </label>
+      <label><span>Paper size</span>
+        <select id="paperSize">
+          <option value="a4" selected>A4</option>
+          <option value="letter">Letter</option>
+        </select>
+      </label>
+      <label><span>Color mode</span>
+        <select id="colorMode">
+          <option value="color" selected>Color</option>
+          <option value="bw">Black &amp; White</option>
+        </select>
+      </label>
+      <label><span>Language</span>
+        <select id="language">
+          <option value="en">en</option><option value="de">de</option><option value="fr">fr</option>
+          <option value="es">es</option><option value="pt">pt</option><option value="it">it</option>
+          <option value="nl">nl</option><option value="sv">sv</option><option value="da">da</option>
+          <option value="no">no</option><option value="fi">fi</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Card style</legend>
+      <label><span>Border</span>
+        <select id="borderStyle">
+          <option value="thin" selected>Thin</option>
+          <option value="thick">Thick</option>
+          <option value="rounded">Rounded</option>
+          <option value="none">None</option>
+        </select>
+      </label>
+      <label><input id="roundedCorners" type="checkbox" checked> Rounded corners</label>
+      <label><input id="showCutGuides" type="checkbox" checked> Show cut guides</label>
+    </fieldset>
+
+    <button id="generateBtn">Generate &amp; download PDF</button>
+    <div id="status" class="status"></div>
+  </aside>
+
+  <main class="canvas-pane">
+    <canvas id="previewCanvas" class="canvas-host"></canvas>
+  </main>
+</div>
+
+<script>
+(function () {
+  'use strict';
+  var $ = function (id) { return document.getElementById(id); };
+  var SHARED = window.LCSMaterialGenerators;
+
+  function setStatus(m, e) {
+    var el = $('status');
+    el.textContent = m || '';
+    el.classList.toggle('error', !!e);
+  }
+
+  function readConfig() {
+    return {
+      themeName: $('themeInput').value.trim(),
+      cardCount: parseInt($('cardCountInput').value, 10) || 10,
+      vocabKeys: ($('vocabKeysInput').value || '').split(',').map(function (s) { return s.trim(); }).filter(Boolean),
+      cardsPerPage: parseInt($('cardsPerPage').value, 10),
+      paperSize: $('paperSize').value,
+      colorMode: $('colorMode').value,
+      language: $('language').value,
+      borderStyle: $('borderStyle').value,
+      roundedCorners: $('roundedCorners').checked,
+      showCutGuides: $('showCutGuides').checked,
+    };
+  }
+
+  function resolveTheme(t, mode) {
+    if (mode !== 'bw') return t;
+    return /_bw$/.test(t) ? t : t + '_bw';
+  }
+
+  function pickAssets(all, keys, count) {
+    if (keys.length > 0) {
+      var byKey = {};
+      all.forEach(function (img) {
+        var k = SHARED.imageToVocabKey(img);
+        if (k && !byKey[k]) byKey[k] = img;
+      });
+      return keys.map(function (k) { return byKey[k]; }).filter(Boolean);
+    }
+    return all.slice(0, count);
+  }
+
+  function determineGrid(cpp) {
+    if (cpp === 4) return { cols: 2, rows: 2 };
+    if (cpp === 6) return { cols: 2, rows: 3 };
+    if (cpp === 9) return { cols: 3, rows: 3 };
+    if (cpp === 12) return { cols: 3, rows: 4 };
+    return { cols: 3, rows: 3 };
+  }
+
+  function renderPictureCard(canvas, image, x, y, w, h, idx, cfg) {
+    SHARED.renderCardBorder(canvas, x, y, w, h, {
+      style: cfg.borderStyle,
+      roundedCorners: cfg.roundedCorners,
+    });
+    var pad = 12;
+    SHARED.loadFabricImage(image.url || image.path, { crossOrigin: 'anonymous' }).then(function (img) {
+      var iw = w - 2 * pad;
+      var ih = h - 2 * pad;
+      var scale = Math.min(iw / img.width, ih / img.height);
+      img.set({
+        left: x + (w - img.width * scale) / 2,
+        top: y + (h - img.height * scale) / 2,
+        scaleX: scale,
+        scaleY: scale,
+        selectable: false,
+        evented: false,
+      });
+      canvas.add(img);
+      canvas.renderAll();
+    }).catch(function (err) {
+      console.warn('picture-card load failed:', image.url, err);
+    });
+  }
+
+  function generate() {
+    var cfg = readConfig();
+    if (!cfg.themeName) { setStatus('theme is required', true); return; }
+    setStatus('Fetching images…');
+    var btn = $('generateBtn'); btn.disabled = true;
+    var theme = resolveTheme(cfg.themeName, cfg.colorMode);
+
+    SHARED.getThemeAssets(theme, cfg.language).then(function (all) {
+      var picked = pickAssets(all, cfg.vocabKeys, cfg.cardCount);
+      if (picked.length === 0) throw new Error('no images for theme "' + theme + '"');
+      var grid = determineGrid(cfg.cardsPerPage);
+      var canvas = SHARED.initCanvas($('previewCanvas'), cfg.paperSize, { orientation: 'portrait' });
+      SHARED.renderGrid(canvas, picked.slice(0, cfg.cardsPerPage), {
+        cols: grid.cols, rows: grid.rows,
+        renderItem: function (c, it, x, y, w, h, i) { renderPictureCard(c, it, x, y, w, h, i, cfg); },
+      });
+      if (cfg.showCutGuides) {
+        var m = 36;
+        SHARED.addCutGuides(canvas, grid.cols, grid.rows, m, m, canvas.lcsDims.w - 2 * m, canvas.lcsDims.h - 2 * m);
+      }
+      setTimeout(function () {
+        try {
+          var fn = 'picture-cards-' + cfg.themeName + '-' + cfg.language + '.pdf';
+          SHARED.emitPdf(canvas, fn);
+          setStatus('Saved ' + fn + ' (' + picked.length + ' card' + (picked.length > 1 ? 's' : '') + ')');
+        } catch (err) {
+          setStatus('PDF emit failed: ' + err.message, true);
+        } finally {
+          btn.disabled = false;
+        }
+      }, 1500);
+    }).catch(function (err) {
+      console.error(err);
+      setStatus(err.message, true);
+      btn.disabled = false;
+    });
+  }
+
+  $('generateBtn').addEventListener('click', generate);
+})();
+</script>
+
+</body>
+</html>

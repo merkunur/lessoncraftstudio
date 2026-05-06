@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Manipulative Cut-outs Generator | LessonCraftStudio</title>
+<meta name="robots" content="noindex">
+<meta name="description" content="Generate printable themed manipulative cut-outs (counters/sortables) from the LessonCraftStudio image library.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Lexend+Deca:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<script src="/worksheet-generators/js/image-vocabulary.js?v=3"></script>
+<script src="/worksheet-generators/js/catalog-export.js?v=9"></script>
+<script src="/worksheet-generators/js/material-generator-shared.js?v=1"></script>
+
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: 'Lexend Deca', system-ui, sans-serif; background: #f4f6fa; color: #222; }
+  .layout { display: flex; min-height: 100vh; }
+  .sidebar { width: 320px; padding: 20px; background: #fff; border-right: 1px solid #e1e4eb; overflow-y: auto; }
+  .canvas-pane { flex: 1; padding: 24px; display: flex; align-items: flex-start; justify-content: center; overflow: auto; }
+  h1 { font-family: 'Fredoka', sans-serif; font-size: 22px; margin: 0 0 4px; }
+  .subtitle { color: #5c6878; font-size: 13px; margin-bottom: 20px; }
+  fieldset { border: 1px solid #e1e4eb; border-radius: 8px; padding: 12px; margin-bottom: 14px; }
+  legend { font-weight: 600; padding: 0 6px; font-size: 13px; color: #4a5468; }
+  label { display: block; margin-bottom: 8px; font-size: 13px; }
+  label > span { display: block; color: #5c6878; margin-bottom: 3px; font-size: 12px; }
+  input[type="text"], input[type="number"], select { width: 100%; padding: 6px 8px; border: 1px solid #cbd2dc; border-radius: 4px; font-size: 13px; font-family: inherit; }
+  button { width: 100%; padding: 10px; background: #2563eb; color: #fff; border: 0; border-radius: 6px; font-weight: 600; font-size: 14px; cursor: pointer; font-family: inherit; }
+  button:disabled { background: #9ca3af; cursor: not-allowed; }
+  .status { margin-top: 12px; font-size: 12px; color: #5c6878; min-height: 16px; }
+  .status.error { color: #c0392b; }
+  .canvas-host { background: #fff; border: 1px solid #e1e4eb; box-shadow: 0 4px 16px rgba(0,0,0,.06); }
+</style>
+</head>
+<body>
+
+<div class="layout">
+  <aside class="sidebar">
+    <h1>Manipulative Cut-outs</h1>
+    <div class="subtitle">2D themed counters for K-3 hands-on math + sorting work.</div>
+
+    <fieldset>
+      <legend>Image source</legend>
+      <label><span>Theme name</span><input id="themeInput" type="text" value="animals"></label>
+      <label><span>Mode</span>
+        <select id="mode">
+          <option value="single-repeat" selected>Single repeat (one image × N copies; counting)</option>
+          <option value="variety">Variety (multiple keys × M copies each; sorting)</option>
+        </select>
+      </label>
+      <label><span>Vocab keys (comma-separated; required for variety mode)</span><input id="vocabKeysInput" type="text" placeholder="cat,dog,cow,..."></label>
+      <label><span>Item count (10–30)</span><input id="itemCountInput" type="number" min="10" max="30" value="20"></label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Layout</legend>
+      <label><span>Item size</span>
+        <select id="itemSize">
+          <option value="small-1in">Small (1in)</option>
+          <option value="medium-1.5in" selected>Medium (1.5in) — K-3 finger-friendly</option>
+          <option value="large-2in">Large (2in)</option>
+        </select>
+      </label>
+      <label><span>Paper size</span>
+        <select id="paperSize">
+          <option value="a4" selected>A4</option>
+          <option value="letter">Letter</option>
+        </select>
+      </label>
+      <label><span>Color mode</span>
+        <select id="colorMode">
+          <option value="color" selected>Color</option>
+          <option value="bw">Black &amp; White</option>
+        </select>
+      </label>
+      <label><span>Language</span>
+        <select id="language">
+          <option value="en">en</option><option value="de">de</option><option value="fr">fr</option>
+          <option value="es">es</option><option value="pt">pt</option><option value="it">it</option>
+          <option value="nl">nl</option><option value="sv">sv</option><option value="da">da</option>
+          <option value="no">no</option><option value="fi">fi</option>
+        </select>
+      </label>
+      <label><input id="showCutGuides" type="checkbox" checked> Show cut guides between items</label>
+    </fieldset>
+
+    <button id="generateBtn">Generate &amp; download PDF</button>
+    <div id="status" class="status"></div>
+  </aside>
+
+  <main class="canvas-pane">
+    <canvas id="previewCanvas" class="canvas-host"></canvas>
+  </main>
+</div>
+
+<script>
+(function () {
+  'use strict';
+  var $ = function (id) { return document.getElementById(id); };
+  var SHARED = window.LCSMaterialGenerators;
+
+  // Item size in points (1.5in = 108pt; 1in = 72pt; 2in = 144pt).
+  var ITEM_SIZES = { 'small-1in': 72, 'medium-1.5in': 108, 'large-2in': 144 };
+
+  function setStatus(m, e) { var el = $('status'); el.textContent = m || ''; el.classList.toggle('error', !!e); }
+
+  function readConfig() {
+    return {
+      themeName: $('themeInput').value.trim(),
+      mode: $('mode').value,
+      vocabKeys: ($('vocabKeysInput').value || '').split(',').map(function (s) { return s.trim(); }).filter(Boolean),
+      itemCount: parseInt($('itemCountInput').value, 10) || 20,
+      itemSize: $('itemSize').value,
+      paperSize: $('paperSize').value,
+      colorMode: $('colorMode').value,
+      language: $('language').value,
+      showCutGuides: $('showCutGuides').checked,
+    };
+  }
+
+  function resolveTheme(t, mode) { return mode !== 'bw' ? t : (/_bw$/.test(t) ? t : t + '_bw'); }
+
+  function buildItems(allImages, cfg) {
+    if (cfg.mode === 'single-repeat') {
+      // one image picked from allImages, repeated cfg.itemCount times
+      var picked = allImages[0];
+      if (!picked) return [];
+      var arr = [];
+      for (var i = 0; i < cfg.itemCount; i++) arr.push(picked);
+      return arr;
+    }
+    // variety mode — repeat each vocabKey count = floor(itemCount / keys.length) times
+    if (cfg.vocabKeys.length === 0) return [];
+    var byKey = {};
+    allImages.forEach(function (img) {
+      var k = SHARED.imageToVocabKey(img);
+      if (k && !byKey[k]) byKey[k] = img;
+    });
+    var per = Math.max(1, Math.floor(cfg.itemCount / cfg.vocabKeys.length));
+    var items = [];
+    cfg.vocabKeys.forEach(function (k) {
+      var img = byKey[k];
+      if (!img) return;
+      for (var i = 0; i < per; i++) items.push(img);
+    });
+    return items.slice(0, cfg.itemCount);
+  }
+
+  function fitGrid(items, paperW, paperH, itemSizePt, marginPt, gapPt) {
+    var availW = paperW - 2 * marginPt;
+    var availH = paperH - 2 * marginPt;
+    var cols = Math.max(1, Math.floor((availW + gapPt) / (itemSizePt + gapPt)));
+    var rows = Math.ceil(items.length / cols);
+    if (rows * (itemSizePt + gapPt) - gapPt > availH) {
+      rows = Math.max(1, Math.floor((availH + gapPt) / (itemSizePt + gapPt)));
+    }
+    return { cols: cols, rows: rows };
+  }
+
+  function renderItem(canvas, image, x, y, w, h) {
+    SHARED.loadFabricImage(image.url || image.path, { crossOrigin: 'anonymous' }).then(function (img) {
+      var pad = 4;
+      var iw = w - 2 * pad;
+      var ih = h - 2 * pad;
+      var scale = Math.min(iw / img.width, ih / img.height);
+      img.set({
+        left: x + (w - img.width * scale) / 2,
+        top: y + (h - img.height * scale) / 2,
+        scaleX: scale,
+        scaleY: scale,
+        selectable: false,
+        evented: false,
+      });
+      canvas.add(img);
+      canvas.renderAll();
+    }).catch(function (err) { console.warn('item load failed:', err); });
+  }
+
+  function generate() {
+    var cfg = readConfig();
+    if (!cfg.themeName) { setStatus('theme required', true); return; }
+    if (cfg.mode === 'variety' && cfg.vocabKeys.length === 0) {
+      setStatus('variety mode needs vocab keys', true); return;
+    }
+    setStatus('Fetching images…');
+    var btn = $('generateBtn'); btn.disabled = true;
+    var theme = resolveTheme(cfg.themeName, cfg.colorMode);
+
+    SHARED.getThemeAssets(theme, cfg.language, cfg.mode === 'single-repeat' ? 1 : null).then(function (all) {
+      var items = buildItems(all, cfg);
+      if (items.length === 0) throw new Error('no items resolved');
+      var canvas = SHARED.initCanvas($('previewCanvas'), cfg.paperSize, { orientation: 'portrait' });
+      var size = ITEM_SIZES[cfg.itemSize];
+      var margin = 36;
+      var gap = 12;
+      var grid = fitGrid(items, canvas.lcsDims.w, canvas.lcsDims.h, size, margin, gap);
+      items.slice(0, grid.cols * grid.rows).forEach(function (img, idx) {
+        var col = idx % grid.cols;
+        var row = Math.floor(idx / grid.cols);
+        var x = margin + col * (size + gap);
+        var y = margin + row * (size + gap);
+        renderItem(canvas, img, x, y, size, size);
+      });
+      if (cfg.showCutGuides) {
+        SHARED.addCutGuides(canvas, grid.cols, grid.rows, margin, margin,
+          grid.cols * size + (grid.cols - 1) * gap,
+          grid.rows * size + (grid.rows - 1) * gap);
+      }
+      setTimeout(function () {
+        try {
+          var fn = 'manipulative-cut-outs-' + cfg.themeName + '-' + cfg.language + '.pdf';
+          SHARED.emitPdf(canvas, fn);
+          setStatus('Saved ' + fn + ' (' + items.length + ' items)');
+        } catch (err) {
+          setStatus('PDF emit failed: ' + err.message, true);
+        } finally { btn.disabled = false; }
+      }, 1500);
+    }).catch(function (err) {
+      console.error(err); setStatus(err.message, true); btn.disabled = false;
+    });
+  }
+
+  $('generateBtn').addEventListener('click', generate);
+})();
+</script>
+
+</body>
+</html>

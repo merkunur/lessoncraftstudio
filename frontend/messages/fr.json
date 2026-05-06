@@ -142,7 +142,10 @@
       "listLabel": "Changer de langue"
     },
     "magnitudeFraming": {
-      "headline": "100+ types d'exercices × 100+ thèmes × 11 langues = 55 000+ fiches"
+      "exerciseTypesLabel": "types d'exercices",
+      "themesLabel": "thèmes",
+      "languagesLabel": "langues",
+      "worksheetsLabel": "fiches"
     },
     "embedViralityCTA": {
       "heading": "Mettez n'importe quelle fiche sur votre site Web.",

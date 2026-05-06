@@ -143,7 +143,10 @@
       "listLabel": "Sprache wechseln"
     },
     "magnitudeFraming": {
-      "headline": "100+ Aufgabenarten × 100+ Themen × 11 Sprachen = 55.000+ Arbeitsblätter"
+      "exerciseTypesLabel": "Aufgabenarten",
+      "themesLabel": "Themen",
+      "languagesLabel": "Sprachen",
+      "worksheetsLabel": "Arbeitsblätter"
     },
     "embedViralityCTA": {
       "heading": "Setzen Sie jedes Arbeitsblatt auf Ihre Website.",

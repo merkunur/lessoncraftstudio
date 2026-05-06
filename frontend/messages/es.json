@@ -142,7 +142,10 @@
       "listLabel": "Cambiar idioma"
     },
     "magnitudeFraming": {
-      "headline": "100+ tipos de ejercicios × 100+ temas × 11 idiomas = 55.000+ hojas de trabajo"
+      "exerciseTypesLabel": "tipos de ejercicios",
+      "themesLabel": "temas",
+      "languagesLabel": "idiomas",
+      "worksheetsLabel": "hojas de trabajo"
     },
     "embedViralityCTA": {
       "heading": "Pon cualquier hoja de trabajo en tu sitio web.",

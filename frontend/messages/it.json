@@ -142,7 +142,10 @@
       "listLabel": "Cambia lingua"
     },
     "magnitudeFraming": {
-      "headline": "100+ tipi di esercizi × 100+ temi × 11 lingue = 55.000+ schede"
+      "exerciseTypesLabel": "tipi di esercizi",
+      "themesLabel": "temi",
+      "languagesLabel": "lingue",
+      "worksheetsLabel": "schede"
     },
     "embedViralityCTA": {
       "heading": "Metti qualsiasi scheda sul tuo sito web.",

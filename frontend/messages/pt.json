@@ -142,7 +142,10 @@
       "listLabel": "Mudar idioma"
     },
     "magnitudeFraming": {
-      "headline": "100+ tipos de exercícios × 100+ temas × 11 idiomas = 55.000+ atividades"
+      "exerciseTypesLabel": "tipos de exercícios",
+      "themesLabel": "temas",
+      "languagesLabel": "idiomas",
+      "worksheetsLabel": "atividades"
     },
     "embedViralityCTA": {
       "heading": "Coloque qualquer atividade no seu site.",

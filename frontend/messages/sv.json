@@ -142,7 +142,10 @@
       "listLabel": "Byt språk"
     },
     "magnitudeFraming": {
-      "headline": "100+ övningstyper × 100+ teman × 11 språk = 55 000+ arbetsblad"
+      "exerciseTypesLabel": "övningstyper",
+      "themesLabel": "teman",
+      "languagesLabel": "språk",
+      "worksheetsLabel": "arbetsblad"
     },
     "embedViralityCTA": {
       "heading": "Lägg till vilket arbetsblad som helst på din webbplats.",

@@ -142,7 +142,10 @@
       "listLabel": "Skift sprog"
     },
     "magnitudeFraming": {
-      "headline": "100+ øvelsestyper × 100+ temaer × 11 sprog = 55.000+ arbejdsark"
+      "exerciseTypesLabel": "øvelsestyper",
+      "themesLabel": "temaer",
+      "languagesLabel": "sprog",
+      "worksheetsLabel": "arbejdsark"
     },
     "embedViralityCTA": {
       "heading": "Sæt et hvilket som helst arbejdsark på dit websted.",

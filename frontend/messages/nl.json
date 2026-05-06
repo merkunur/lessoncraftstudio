@@ -142,7 +142,10 @@
       "listLabel": "Taal wisselen"
     },
     "magnitudeFraming": {
-      "headline": "100+ oefeningstypes × 100+ thema's × 11 talen = 55.000+ werkbladen"
+      "exerciseTypesLabel": "oefeningstypes",
+      "themesLabel": "thema's",
+      "languagesLabel": "talen",
+      "worksheetsLabel": "werkbladen"
     },
     "embedViralityCTA": {
       "heading": "Plaats elk werkblad op je website.",

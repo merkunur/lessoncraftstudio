@@ -142,7 +142,10 @@
       "listLabel": "Vaihda kieltä"
     },
     "magnitudeFraming": {
-      "headline": "100+ tehtävätyyppiä × 100+ aihetta × 11 kieltä = 55 000+ työarkkia"
+      "exerciseTypesLabel": "tehtävätyyppiä",
+      "themesLabel": "aihetta",
+      "languagesLabel": "kieltä",
+      "worksheetsLabel": "työarkkia"
     },
     "embedViralityCTA": {
       "heading": "Lisää mikä tahansa tehtäväsivu omille verkkosivuillesi.",

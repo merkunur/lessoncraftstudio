@@ -2,11 +2,11 @@
 
 **Audit scope:** the printable material types a teaching package can include. Materials extend the existing 29 worksheet apps' worksheet-PDF output with classroom-grade materials a K-3 multilingual teacher actually uses (flashcards, bingo boards, picture cards, etc.). Machine-readable companion: `frontend/config/materials-catalog.json` (canonical; Phase 2 tooling consumes this directly).
 
-**Operator-ratification status:** Pending Phase 1 surface gate. CC + classroom-teacher-validation agent have produced this v1 draft; operator's go-ahead at the gate locks it (or applies revisions surfaced below) before Phase 3 generator implementation begins.
+**Operator-ratification status:** **LOCKED at Phase 1 surface gate (operator response in this session).** Operator delegated bucket-3 selection to CC adjudicator-forward per §3.4 (empty answer); CC locked CC's own recommendation: apply Option K (Manipulative cut-outs) only, defer H+I+J to Arc 2 per the classroom-teacher agent's "add to roadmap, not v1" recommendation. Final material count: **8 materials** (7 original + manipulative-cut-outs). All bucket-1 (required-before-lock) and bucket-2 (strongly recommended) revisions also applied.
 
 ## 1. Materials shipped in v1 catalog
 
-Seven material types, organized by category:
+Eight material types (post-gate ratification), organized by category:
 
 | Slug | Name | Category | One-liner |
 |---|---|---|---|
@@ -17,6 +17,7 @@ Seven material types, organized by category:
 | `sentence-strips` | Sentence strips (sentence frames with images) | language-frame | Pocket-chart strips with target-language sentence frames + embedded image |
 | `answer-key` | Answer key (per-package) | teacher-reference | Auto-generated reference for the teacher; especially valuable for non-native target-language speakers |
 | `parent-take-home-letter` | Parent take-home letter (with picture cues) | home-school-bridge | Letter to parents in their HOME language with picture cues showing target-language vocab |
+| `manipulative-cut-outs` | Manipulative cut-outs | math-and-categorization-support | 2D printable themed counters; kids cut out for counting, sorting, sequencing, pattern building |
 
 ## 2. Doctrine locks (post-classroom-teacher-validation revision)
 
@@ -60,17 +61,17 @@ The K-3 classroom-teacher review (general-purpose agent prompted as a multilingu
 **Matching mat differentiation note:**
 - ✅ Added doctrine note that Phase 3 implementation must verify visual/layout differentiation from the existing matching app PDF; if redundant, surface the existing app PDF as the package's matching artifact and cut this material.
 
-### 3.2 Pending operator ratification at Phase 1 surface gate (bucket 3 — next-arc additions)
+### 3.2 Bucket-3 ratification — applied vs deferred (post-gate)
 
-The classroom-teacher agent recommended four additional materials worth adding but defensible to defer to a future arc. Operator chooses at the surface gate: apply now (catalog goes from 7 to 11 materials), defer to Arc 2, or selective apply.
+Operator delegated this surface to CC adjudicator-forward (per §3.4). CC's lock per the classroom-teacher agent's "add to roadmap, not v1" recommendation:
 
-**Option H — Word wall cards** (vocabulary-anchor; distinct from flashcards): word-only or word+small-image-cue cards designed for wall-pinning, large readable text from across a classroom. Used 2x weekly in real K-3 classrooms.
+**Option K — Manipulative cut-outs — APPLIED.** 2D printable "counters" themed to the package (e.g., 20 small farm animals on a sheet, kids cut out for counting/sorting). Phase 4 farm-animals package will compose this material in variety mode. Now part of the v1 catalog.
 
-**Option I — Vocabulary tracing strips** (vocabulary-anchor + handwriting): image + dotted-line word for tracing, then blank line for independent writing. K + Grade 1 use 2-3x weekly. Verify against existing `writing.html` PDF-only app first (it's currently letter-tracing, not word-tracing).
+**Option H — Word wall cards — DEFERRED to Arc 2.** Word-only or word+small-image-cue cards for wall-pinning, large readable text from across a classroom. Distinct from flashcards. Used 2x weekly in real K-3 classrooms. Adding in Arc 2 unblocks Grade 1+ packages where word-wall scaffolding is standard.
 
-**Option J — Mini-book / fold-book** (home-school-bridge + reading practice): 8-page foldable booklet from one printed sheet. Each page = one image + sentence frame. Take-home format with high engagement. Well-known origami fold pattern; realistic build.
+**Option I — Vocabulary tracing strips — DEFERRED to Arc 2.** Image + dotted-line word for tracing + blank line for independent writing. K + Grade 1 use. Verify against existing `writing.html` (PDF-only app) before Arc 2 build to avoid redundancy.
 
-**Option K — Manipulative cut-outs** (math + categorization support): 2D printable "counters" themed to the package (e.g., 20 small farm animals on a sheet, kids cut out for counting/sorting). Phase 4 farm-animals package would benefit; broader use across math packages.
+**Option J — Mini-book / fold-book — DEFERRED to Arc 2.** 8-page foldable booklet from one printed sheet. High-engagement take-home format. Realistic build (well-known origami fold pattern); add when Arc 2 vocabulary packages need stronger home-school bridge.
 
 ### 3.3 Classroom-teacher agent's final-lock recommendation
 

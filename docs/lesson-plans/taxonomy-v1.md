@@ -2,7 +2,7 @@
 
 **Audit scope:** the 3-level taxonomy (domain → strand → target) keying space for K-3 multilingual classroom teaching packages. Distinct from `topics-taxonomy.json` axis-keys (which key on mechanics/themes/levels). Machine-readable companion: `frontend/config/learning-targets.json` (canonical; Phase 2 tooling consumes this directly).
 
-**Operator-ratification status:** Pending Phase 1 surface gate. CC + curriculum-validation agent have produced this v1 draft; operator's go-ahead at the gate locks it (or applies revisions surfaced below) before Phase 2 schema work begins.
+**Operator-ratification status:** **LOCKED at Phase 1 surface gate (operator response in this session).** Operator chose to apply ALL seven structural expansions (A through G; ~50 new targets across 5 new strands + extensions to 4 existing strands). All curriculum-agent surgical fixes also applied. Final leaf count: **203 targets** (within the operator's 200 ± 10 constraint; no pruning required).
 
 ## 1. Audience scope (load-bearing)
 
@@ -33,9 +33,20 @@ Five domains:
 4. **Cognitive & Executive Function** — pattern recognition, sorting, logical reasoning, memory & attention
 5. **Fine Motor & Visual-Spatial** — handwriting, drawing, spatial reasoning, visual discrimination
 
-## 4. Current target count
+## 4. Final target count (post-gate ratification)
 
-**~158 leaf targets** (post-spot-fix revisions) distributed across 5 domains × 4-7 strands per domain. The operator's spec called for ~200 — see §6 for the curriculum-agent-recommended additions that would land final count at ~200 if operator ratifies them.
+**203 leaf targets** distributed across 5 domains × 5-9 strands per domain (post-Phase-1 expansion).
+
+| Domain | Targets |
+|---|---|
+| Early Literacy | 88 (PA 9 + LR 6 + Phonics 11 + Vocab 24 + Spelling 5 + Reading 10 + Speaking-and-Listening 10 + Writing-Composition 8 + Multilingual 5) |
+| Early Numeracy | 54 (Counting 10 + Number-sense 6 + Add/Sub 14 + Place value 3 + Measurement 9 + Geometry 8 + Data 4) |
+| World Knowledge | 27 (Living things 6 + Environment 4 + Community 3 + Time 4 + Materials 2 + PSED 8) |
+| Cognitive & EF | 18 (Pattern 5 + Sorting 5 + Logic 5 + Memory 3) |
+| Fine Motor & Visual-Spatial | 16 (Handwriting 3 + Drawing 4 + Spatial 5 + Visual-disc 4) |
+| **Total** | **203** |
+
+Within the operator's 200 ± 10 constraint. No pruning applied.
 
 ## 5. MVP slice — vocabulary-acquisition strand
 
@@ -68,11 +79,11 @@ The K-3 early-childhood-curriculum review (general-purpose agent prompted with C
 - ✅ Added doctrine note on receptive-vs-productive distinction
 - ✅ Added doctrine note on phonics-system English-CVC scope flag
 
-### 6.2 Pending operator ratification at Phase 1 surface gate
+### 6.2 Applied at Phase 1 surface gate (operator chose to apply all seven)
 
-The curriculum agent recommended **~50 additional targets organized into new strands and parallels.** These are pedagogically defensible but represent substantial structural additions to v1. Operator chooses at the surface gate: apply now (lock at ~200 targets), defer to Arc 2, or selective apply.
+The curriculum agent recommended **~50 additional targets organized into new strands and parallels.** Operator chose to apply ALL SEVEN options at lock. The applied state:
 
-**Option A — Speaking & Listening strand (10 targets, new strand under early-literacy):**
+**Option A — Speaking & Listening strand (10 targets, new strand under early-literacy) — APPLIED:**
 - follow-1-step-oral-instruction, follow-2-step-oral-instruction, follow-3-step-oral-instruction
 - respond-to-greeting-in-target-language
 - ask-and-answer-yes-no-questions
@@ -82,35 +93,35 @@ The curriculum agent recommended **~50 additional targets organized into new str
 - recite-a-rhyme-or-short-poem
 - describe-a-picture-in-2-3-sentences
 
-**Option B — Writing-Composition strand (8 targets, new strand under early-literacy):**
+**Option B — Writing-Composition strand (8 targets, new strand under early-literacy) — APPLIED:**
 - write-own-name, label-a-picture-with-1-word, label-picture-with-noun-phrase
 - write-a-simple-sentence-with-picture-prompt, write-2-sentences-on-a-topic, write-a-3-sentence-story
 - use-capital-letter-at-sentence-start, use-period-at-sentence-end
 
-**Option C — Personal/Social/Emotional Development strand (8 targets, new strand under World Knowledge OR new domain):**
+**Option C — Personal/Social/Emotional Development strand (8 targets, new strand under World Knowledge) — APPLIED:**
 - identify-own-emotions-in-context, identify-emotions-of-others-from-faces
 - name-things-i-can-do-myself, share-and-take-turns, wait-my-turn
 - identify-classroom-rules, identify-safe-vs-unsafe-situations
 - make-and-name-a-friend
 
-**Option D — Multilingual-specific strand (5 targets, new strand under early-literacy):**
+**Option D — Multilingual-specific strand (5 targets, new strand under early-literacy; canonical slug `multilingual-language-awareness`) — APPLIED:**
 - name-this-object-in-two-languages
 - notice-cognate-word-pairs
 - compare-greeting-routines-across-cultures
 - identify-language-of-spoken-utterance
 - respond-in-target-language-when-prompted
 
-**Option E — Reading-comprehension expansion (6 targets, extending existing strand):**
+**Option E — Reading-comprehension expansion (6 targets, extending existing strand) — APPLIED:**
 - identify-main-character, identify-setting, identify-problem-and-solution
 - distinguish-fiction-from-nonfiction, read-and-follow-2-sentence-instruction, infer-character-feeling-from-picture-cue
 
-**Option F — Numeracy gaps (5 targets, extending existing strands):**
+**Option F — Numeracy gaps (5 targets, extending existing strands) — APPLIED:**
 - tell-time-to-quarter-hour
 - add-2-digit-without-regrouping, subtract-2-digit-without-regrouping
 - identify-fractions-half-third-quarter
 - recognize-money-amounts-up-to-1-unit
 
-**Option G — Phonics-system parallels (4 targets, extending phonics-decoding with language-family flags):**
+**Option G — Phonics-system parallels (4 targets, extending phonics-decoding with language-family flags) — APPLIED:**
 - read-Spanish-CV-syllable-words
 - read-Finnish-words-with-vowel-length
 - read-German-compound-word-boundaries

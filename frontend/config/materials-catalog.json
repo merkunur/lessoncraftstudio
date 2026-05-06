@@ -210,6 +210,38 @@
         "Multilingual classroom support: parents who don't speak the instruction language can still understand via picture cues",
         "Family literacy bridge: parents practice the target vocabulary at home with the kid"
       ]
+    },
+    {
+      "slug": "manipulative-cut-outs",
+      "name": "Manipulative cut-outs",
+      "category": "math-and-categorization-support",
+      "description": "2D printable themed counters that kids cut out and use for counting, sorting, sequencing, and pattern building. Bridges the abstract (worksheet) and concrete (manipulative) for K-3 kids whose math reasoning is still hands-on. Added at Phase 1 surface gate per classroom-teacher-agent recommendation.",
+      "generation_mechanism": "image library; one image repeated N times on a single sheet, scaled to ~1.5in tall for finger-friendly cutting; cut guides between each item",
+      "format": ["pdf"],
+      "customization_parameters": [
+        { "key": "imageSource", "type": "select", "values_or_range": ["theme", "manualSelection", "vocabKeyList"], "default": "theme" },
+        { "key": "themeName", "type": "string", "values_or_range": "<image_themes.name>", "default": null },
+        { "key": "vocabKeys", "type": "string-array", "values_or_range": "<vocabulary keys>", "default": null, "description": "When non-null, generates one cut-out per listed vocab key (variety mode). When null, repeats single image N times (count mode)." },
+        { "key": "mode", "type": "select", "values_or_range": ["single-repeat", "variety"], "default": "single-repeat", "description": "single-repeat: one image x itemCount copies (counting/quantity work). variety: one image per vocabKey x N copies each (sorting/categorization work)." },
+        { "key": "itemCount", "type": "number", "values_or_range": "10-30", "default": 20, "description": "Total cut-outs on the sheet (single-repeat) OR copies per vocab key (variety)." },
+        { "key": "itemSize", "type": "select", "values_or_range": ["small-1in", "medium-1.5in", "large-2in"], "default": "medium-1.5in", "description": "Cut-out tall dimension. medium = K-3 finger-friendly cutting." },
+        { "key": "colorMode", "type": "select", "values_or_range": ["color", "bw"], "default": "color", "description": "BW auto-routes to *_bw theme variants." },
+        { "key": "showCutGuides", "type": "checkbox", "values_or_range": [true, false], "default": true, "description": "Dashed cut lines around each item." },
+        { "key": "paperSize", "type": "select", "values_or_range": ["a4", "letter"], "default": "a4" },
+        { "key": "language", "type": "select", "values_or_range": ["en", "de", "fr", "es", "pt", "it", "nl", "sv", "da", "no", "fi"], "default": "en", "description": "Locale for any optional labels (most cut-outs are unlabeled)." }
+      ],
+      "k3_classroom_use_scenarios": [
+        "Counting work: 'count out 7 farm animals' — concrete-manipulative bridge to numeral",
+        "Sorting / categorization on the carpet: kids physically group cut-outs by attribute",
+        "Pattern building: arrange cut-outs into AB / AAB / ABC sequences",
+        "Take-home math practice: send 20 farm animals home; parent sets up counting tasks",
+        "Story-creation prop: kids arrange cut-outs into scenes and narrate"
+      ],
+      "doctrine_notes": [
+        "Single-repeat mode is the most common K-3 use (10-20 of one image for counting). Variety mode supports sorting/categorization tasks where multiple item types matter.",
+        "Cut size load-bearing: too small (<1in) = K kids can't cut; too large (>2.5in) = wastes paper. Default 1.5in covers most use cases.",
+        "Phase 4 farm-animals package would compose this material in variety mode with vocabKeys=[cow, sheep, pig, ...] x 2 copies each = 20 cut-outs."
+      ]
     }
   ]
 }

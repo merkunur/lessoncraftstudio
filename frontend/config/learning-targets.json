@@ -65,7 +65,11 @@
             { "slug": "read-consonant-digraphs", "name": "Read words with consonant digraphs", "description": "Decode digraphs sh, ch, th, wh, ph.", "prerequisites": ["read-cvc-words"], "curriculum_alignment": ["CCSS.RF.1.3a"] },
             { "slug": "read-vowel-teams", "name": "Read words with common vowel teams", "description": "Decode ai/ay/ee/ea/oa/ow patterns.", "prerequisites": ["read-cvce-words"], "curriculum_alignment": ["CCSS.RF.2.3b"] },
             { "slug": "read-r-controlled-vowels", "name": "Read r-controlled vowel words", "description": "Decode ar/er/ir/or/ur patterns.", "prerequisites": ["read-cvce-words"], "curriculum_alignment": ["CCSS.RF.2.3c"] },
-            { "slug": "read-common-prefixes-suffixes", "name": "Read common prefixes and suffixes", "description": "Decode un-, re-, -ed, -ing, -er.", "prerequisites": ["read-vowel-teams"], "curriculum_alignment": ["CCSS.RF.2.3d"] }
+            { "slug": "read-common-prefixes-suffixes", "name": "Read common prefixes and suffixes", "description": "Decode un-, re-, -ed, -ing, -er.", "prerequisites": ["read-vowel-teams"], "curriculum_alignment": ["CCSS.RF.2.3d"] },
+            { "slug": "read-spanish-cv-syllable-words", "name": "Read Spanish CV-syllable words (language-family-specific)", "description": "Decode Spanish words by syllabic chunking: CV (ma-ma), CVC (sol). Spanish phonics is syllabic, NOT CVC-based like English.", "prerequisites": ["identify-letter-sounds-consonants", "identify-letter-sounds-vowels"], "curriculum_alignment": ["es-locale-specific"], "language_family_scope": "Romance (Spanish, Italian, Portuguese)" },
+            { "slug": "read-finnish-words-with-vowel-length", "name": "Read Finnish words distinguishing vowel length (language-family-specific)", "description": "Decode Finnish 1:1 grapheme-phoneme orthography including double-vowel length distinction (tuli vs tuuli). Finnish has nearly transparent orthography.", "prerequisites": ["identify-letter-sounds-vowels"], "curriculum_alignment": ["fi-locale-specific"], "language_family_scope": "Finnic (Finnish)" },
+            { "slug": "read-german-compound-word-boundaries", "name": "Read German compound words by recognizing word boundaries (language-family-specific)", "description": "Decode multi-morpheme compound words (Apfelbaum = Apfel + Baum). German routinely concatenates nouns; reading requires segmentation skill English doesn't need.", "prerequisites": ["read-cvc-words"], "curriculum_alignment": ["de-locale-specific"], "language_family_scope": "Germanic (German, Dutch, Scandinavian)" },
+            { "slug": "read-french-silent-final-consonant-pattern", "name": "Read French recognizing silent final consonants (language-family-specific)", "description": "Decode French words with silent final consonants (chat, pas, beaucoup) and liaison contexts. French orthography-pronunciation gap is wide; pattern recognition is the path.", "prerequisites": ["identify-letter-sounds-consonants"], "curriculum_alignment": ["fr-locale-specific"], "language_family_scope": "Romance (French)" }
           ]
         },
         {
@@ -119,7 +123,57 @@
             { "slug": "match-sentence-to-picture", "name": "Match a simple sentence to its matching picture", "description": "Read a one-sentence description and select the matching image from 2-4 options.", "prerequisites": ["read-cvc-words"], "curriculum_alignment": ["CCSS.RL.K.7"] },
             { "slug": "answer-who-what-where-questions", "name": "Answer who/what/where questions about a picture", "description": "Identify subject, action, and location in a simple scene.", "prerequisites": ["match-sentence-to-picture"], "curriculum_alignment": ["CCSS.RL.K.1"] },
             { "slug": "predict-from-picture-cue", "name": "Predict a missing word from picture cue and sentence context", "description": "Given a sentence with a blank and a picture, supply the missing word.", "prerequisites": ["match-sentence-to-picture"], "curriculum_alignment": ["CCSS.RL.K.10"] },
-            { "slug": "sequence-3-event-story", "name": "Sequence a 3-event story from pictures", "description": "Order 3 picture cards into a logical story sequence.", "prerequisites": [], "curriculum_alignment": ["CCSS.RL.K.2"] }
+            { "slug": "sequence-3-event-story", "name": "Sequence a 3-event story from pictures", "description": "Order 3 picture cards into a logical story sequence.", "prerequisites": [], "curriculum_alignment": ["CCSS.RL.K.2"] },
+            { "slug": "identify-main-character", "name": "Identify the main character of a story", "description": "Name who the story is about.", "prerequisites": ["match-sentence-to-picture"], "curriculum_alignment": ["CCSS.RL.K.3"] },
+            { "slug": "identify-setting", "name": "Identify the setting of a story", "description": "Name where and when the story happens.", "prerequisites": ["match-sentence-to-picture"], "curriculum_alignment": ["CCSS.RL.K.3"] },
+            { "slug": "identify-problem-and-solution", "name": "Identify the problem and solution in a simple story", "description": "Recognize the central tension and how it resolves.", "prerequisites": ["sequence-3-event-story"], "curriculum_alignment": ["CCSS.RL.1.3"] },
+            { "slug": "distinguish-fiction-from-nonfiction", "name": "Distinguish fiction from nonfiction", "description": "Tell whether a book or text is a story (fiction) or factual (nonfiction).", "prerequisites": [], "curriculum_alignment": ["CCSS.RL.K.5", "CCSS.RI.K.5"] },
+            { "slug": "read-and-follow-2-sentence-instruction", "name": "Read and follow a 2-sentence written instruction", "description": "Decode and act on a short written instruction (e.g., 'Cut the picture. Glue it on the page.').", "prerequisites": ["read-cvc-words"], "curriculum_alignment": ["CCSS.RI.1.6"] },
+            { "slug": "infer-character-feeling-from-picture-cue", "name": "Infer how a character feels from picture and text cues", "description": "Use facial expressions + sentence context to infer emotion.", "prerequisites": ["identify-and-name-emotions"], "curriculum_alignment": ["CCSS.RL.1.3"] }
+          ]
+        },
+        {
+          "slug": "speaking-and-listening",
+          "name": "Speaking & listening",
+          "description": "Oral-language skills — load-bearing for multilingual K-3 classrooms where receptive comprehension and oral production precede literacy. Added at Phase 1 surface gate per curriculum-agent recommendation.",
+          "targets": [
+            { "slug": "follow-1-step-oral-instruction", "name": "Follow a 1-step oral instruction in target language", "description": "When teacher says one action, the kid does it (e.g., 'Stand up').", "prerequisites": [], "curriculum_alignment": ["CCSS.SL.K.2", "EYFS.ELG.LL"] },
+            { "slug": "follow-2-step-oral-instruction", "name": "Follow a 2-step oral instruction", "description": "Sequence two actions in order from one spoken command.", "prerequisites": ["follow-1-step-oral-instruction"], "curriculum_alignment": ["CCSS.SL.K.2"] },
+            { "slug": "follow-3-step-oral-instruction", "name": "Follow a 3-step oral instruction", "description": "Sequence three actions; working-memory load increases significantly.", "prerequisites": ["follow-2-step-oral-instruction"], "curriculum_alignment": ["CCSS.SL.1.2"] },
+            { "slug": "respond-to-greeting-in-target-language", "name": "Respond to a greeting in the target language", "description": "Reply appropriately to 'hello/goodbye/how are you' in the target language.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.LL"] },
+            { "slug": "ask-and-answer-yes-no-questions", "name": "Ask and answer yes/no questions", "description": "Form and respond to closed-ended questions in target language.", "prerequisites": ["respond-to-greeting-in-target-language"], "curriculum_alignment": ["CCSS.SL.K.3"] },
+            { "slug": "ask-and-answer-wh-questions", "name": "Ask and answer wh-questions (who/what/where/when)", "description": "Form and respond to open-ended questions; harder than yes/no.", "prerequisites": ["ask-and-answer-yes-no-questions"], "curriculum_alignment": ["CCSS.SL.K.3"] },
+            { "slug": "retell-a-3-event-story-orally", "name": "Retell a 3-event story orally in target language", "description": "Listen to a story, then recount the 3 main events.", "prerequisites": ["sequence-3-event-story"], "curriculum_alignment": ["CCSS.SL.K.4"] },
+            { "slug": "participate-in-simple-conversation", "name": "Participate in a simple conversation with a peer", "description": "Sustain a multi-turn exchange on a familiar topic.", "prerequisites": ["ask-and-answer-yes-no-questions"], "curriculum_alignment": ["CCSS.SL.K.1", "EYFS.ELG.LL"] },
+            { "slug": "recite-a-rhyme-or-short-poem", "name": "Recite a rhyme or short poem from memory", "description": "Memorize and perform a short rhyme — strong for prosody and language internalization.", "prerequisites": ["count-syllables-1-to-3"], "curriculum_alignment": ["EYFS.ELG.LL"] },
+            { "slug": "describe-a-picture-in-2-3-sentences", "name": "Describe a picture orally in 2-3 sentences", "description": "Generate productive language describing what's in an image.", "prerequisites": ["identify-and-name-10-farm-animals"], "curriculum_alignment": ["CCSS.SL.K.4"] }
+          ]
+        },
+        {
+          "slug": "writing-composition",
+          "name": "Writing composition",
+          "description": "Composing written language: from labeling pictures to writing short stories. Closes the Grade 1-3 writing gap. Added at Phase 1 surface gate per curriculum-agent recommendation.",
+          "targets": [
+            { "slug": "write-own-name", "name": "Write own name", "description": "Form the letters of one's own first name.", "prerequisites": ["form-uppercase-letters"], "curriculum_alignment": ["EYFS.ELG.W"] },
+            { "slug": "label-a-picture-with-1-word", "name": "Label a picture with a single word", "description": "Write the noun that names what's in the image.", "prerequisites": ["spell-cvc-words"], "curriculum_alignment": ["CCSS.W.K.2"] },
+            { "slug": "label-picture-with-noun-phrase", "name": "Label a picture with a noun phrase (article + noun, optional adjective)", "description": "Write 'a cat' or 'a big cat'; introduces phrase-level construction.", "prerequisites": ["label-a-picture-with-1-word"], "curriculum_alignment": ["CCSS.W.K.2"] },
+            { "slug": "write-a-simple-sentence-with-picture-prompt", "name": "Write a simple sentence with picture prompt", "description": "Use the sentence frame 'I see a {item}' or similar; produce one sentence.", "prerequisites": ["label-picture-with-noun-phrase"], "curriculum_alignment": ["CCSS.W.K.3"] },
+            { "slug": "write-2-sentences-on-a-topic", "name": "Write 2 sentences on a topic", "description": "Sustain across two sentence boundaries.", "prerequisites": ["write-a-simple-sentence-with-picture-prompt"], "curriculum_alignment": ["CCSS.W.1.3"] },
+            { "slug": "write-a-3-sentence-story", "name": "Write a 3-sentence story (beginning / middle / end)", "description": "Apply story-structure shape to own writing.", "prerequisites": ["write-2-sentences-on-a-topic", "sequence-3-event-story"], "curriculum_alignment": ["CCSS.W.2.3"] },
+            { "slug": "use-capital-letter-at-sentence-start", "name": "Use a capital letter at the start of a sentence", "description": "Apply sentence-boundary capitalization convention.", "prerequisites": ["write-a-simple-sentence-with-picture-prompt"], "curriculum_alignment": ["CCSS.L.K.2a"] },
+            { "slug": "use-period-at-sentence-end", "name": "Use a period at the end of a sentence", "description": "Apply sentence-boundary punctuation convention.", "prerequisites": ["write-a-simple-sentence-with-picture-prompt"], "curriculum_alignment": ["CCSS.L.K.2b"] }
+          ]
+        },
+        {
+          "slug": "multilingual-language-awareness",
+          "name": "Multilingual language awareness",
+          "description": "Pedagogy specific to the platform's K-3 multilingual differentiator: cross-language recognition, translanguaging, and language-of-utterance awareness. Added at Phase 1 surface gate per curriculum-agent recommendation.",
+          "targets": [
+            { "slug": "name-this-object-in-two-languages", "name": "Name an object in two languages", "description": "Given a familiar object, supply its name in the target language AND the home language. Foundation of bilingual lexical awareness.", "prerequisites": ["identify-and-name-10-farm-animals"], "curriculum_alignment": ["IB-PYP.WhoWeAre"] },
+            { "slug": "notice-cognate-word-pairs", "name": "Notice cognate word pairs across languages", "description": "Recognize that 'animal/animal/animale' or 'family/Familie/famiglia' are cognate. Builds vocabulary transfer skill.", "prerequisites": ["identify-and-name-10-farm-animals"], "curriculum_alignment": ["IB-PYP.HowExpressOurselves"] },
+            { "slug": "compare-greeting-routines-across-cultures", "name": "Compare greeting routines across cultures", "description": "Notice handshake/bow/kiss/wave conventions; relate to language-of-greeting.", "prerequisites": ["respond-to-greeting-in-target-language"], "curriculum_alignment": ["IB-PYP.WhoWeAre"] },
+            { "slug": "identify-language-of-spoken-utterance", "name": "Identify the language of a spoken utterance", "description": "Hear a sentence and identify whether it's English/German/Spanish/etc. Receptive language-awareness skill.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.LL"] },
+            { "slug": "respond-in-target-language-when-prompted", "name": "Respond in the target language when prompted", "description": "When a question is asked in the target language, the kid responds in the target language (not the home language). Productive code-control skill.", "prerequisites": ["ask-and-answer-yes-no-questions"], "curriculum_alignment": ["EYFS.ELG.LL"] }
           ]
         }
       ]
@@ -167,6 +221,8 @@
             { "slug": "add-within-5", "name": "Add within 5 using objects or images", "description": "Solve addition problems with sums up to 5.", "prerequisites": ["count-objects-1-to-5", "match-numeral-to-quantity-1-to-10"], "curriculum_alignment": ["CCSS.K.OA.A.1"] },
             { "slug": "add-within-10", "name": "Add within 10 using objects or images", "description": "Solve addition problems with sums up to 10.", "prerequisites": ["add-within-5"], "curriculum_alignment": ["CCSS.K.OA.A.5"] },
             { "slug": "add-within-20", "name": "Add within 20", "description": "Solve addition problems with sums up to 20.", "prerequisites": ["add-within-10"], "curriculum_alignment": ["CCSS.1.OA.C.6"] },
+            { "slug": "add-2-digit-without-regrouping", "name": "Add 2-digit numbers without regrouping", "description": "Solve 23 + 14 = ? — no carrying required.", "prerequisites": ["add-within-20", "identify-tens-and-ones-2-digit"], "curriculum_alignment": ["CCSS.1.NBT.C.4"] },
+            { "slug": "subtract-2-digit-without-regrouping", "name": "Subtract 2-digit numbers without regrouping", "description": "Solve 47 - 23 = ? — no borrowing required.", "prerequisites": ["subtract-within-20", "identify-tens-and-ones-2-digit"], "curriculum_alignment": ["CCSS.1.NBT.C.6"] },
             { "slug": "subtract-within-5", "name": "Subtract within 5 using objects or images", "description": "Solve subtraction problems within 5.", "prerequisites": ["count-objects-1-to-5"], "curriculum_alignment": ["CCSS.K.OA.A.1"] },
             { "slug": "subtract-within-10", "name": "Subtract within 10 using objects or images", "description": "Solve subtraction problems within 10.", "prerequisites": ["subtract-within-5"], "curriculum_alignment": ["CCSS.K.OA.A.5"] },
             { "slug": "subtract-within-20", "name": "Subtract within 20", "description": "Solve subtraction problems within 20.", "prerequisites": ["subtract-within-10"], "curriculum_alignment": ["CCSS.1.OA.C.6"] },
@@ -199,7 +255,9 @@
             { "slug": "order-3-objects-by-length", "name": "Order 3 objects by length", "description": "Arrange shortest-to-longest.", "prerequisites": ["compare-by-length"], "curriculum_alignment": ["CCSS.1.MD.A.1"] },
             { "slug": "tell-time-to-the-hour", "name": "Tell time to the hour on an analog clock", "description": "Read 1:00, 2:00, ... 12:00.", "prerequisites": [], "curriculum_alignment": ["CCSS.1.MD.B.3"] },
             { "slug": "tell-time-to-half-hour", "name": "Tell time to the half-hour", "description": "Read times like 3:30, 4:30.", "prerequisites": ["tell-time-to-the-hour"], "curriculum_alignment": ["CCSS.1.MD.B.3"] },
-            { "slug": "identify-coin-values", "name": "Identify coin values (locale-appropriate)", "description": "Recognize the coins of the relevant currency and their values.", "prerequisites": [], "curriculum_alignment": ["CCSS.2.MD.C.8"] }
+            { "slug": "tell-time-to-quarter-hour", "name": "Tell time to the quarter-hour", "description": "Read times like 3:15, 3:45.", "prerequisites": ["tell-time-to-half-hour"], "curriculum_alignment": ["CCSS.2.MD.C.7"] },
+            { "slug": "identify-coin-values", "name": "Identify coin values (locale-appropriate)", "description": "Recognize the coins of the relevant currency and their values.", "prerequisites": [], "curriculum_alignment": ["CCSS.2.MD.C.8"] },
+            { "slug": "recognize-money-amounts-up-to-1-unit", "name": "Recognize money amounts up to 1 currency unit", "description": "Combine coins to total amounts up to 1 dollar/euro/etc.", "prerequisites": ["identify-coin-values"], "curriculum_alignment": ["CCSS.2.MD.C.8"] }
           ]
         },
         {
@@ -213,7 +271,8 @@
             { "slug": "describe-shape-attributes", "name": "Describe shape attributes (sides, corners)", "description": "Count and describe sides + corners of 2D shapes.", "prerequisites": ["identify-2d-shapes-basic"], "curriculum_alignment": ["CCSS.1.G.A.1"] },
             { "slug": "compose-shapes-from-parts", "name": "Compose shapes from smaller shapes", "description": "Build a rectangle from two triangles, etc.", "prerequisites": ["identify-2d-shapes-basic"], "curriculum_alignment": ["CCSS.1.G.A.2"] },
             { "slug": "identify-symmetry-line", "name": "Identify a line of symmetry in simple shapes (informal)", "description": "Recognize bilateral symmetry informally — Grade 2 level (formal symmetry standard is CCSS.4.G.A.3, outside K-3 scope).", "prerequisites": ["identify-2d-shapes-basic"], "curriculum_alignment": ["EYFS.ELG.UW"] },
-            { "slug": "partition-shape-halves-quarters", "name": "Partition a shape into halves and quarters", "description": "Divide a circle or rectangle into 2 or 4 equal parts.", "prerequisites": ["identify-2d-shapes-basic"], "curriculum_alignment": ["CCSS.1.G.A.3"] }
+            { "slug": "partition-shape-halves-quarters", "name": "Partition a shape into halves and quarters", "description": "Divide a circle or rectangle into 2 or 4 equal parts.", "prerequisites": ["identify-2d-shapes-basic"], "curriculum_alignment": ["CCSS.1.G.A.3"] },
+            { "slug": "identify-fractions-half-third-quarter", "name": "Identify fractions: half, third, quarter", "description": "Recognize and name 1/2, 1/3, 1/4 of a shape or set.", "prerequisites": ["partition-shape-halves-quarters"], "curriculum_alignment": ["CCSS.2.G.A.3", "CCSS.3.NF.A.1"] }
           ]
         },
         {
@@ -286,6 +345,21 @@
           "targets": [
             { "slug": "identify-common-materials", "name": "Identify common materials", "description": "Wood, metal, plastic, glass, fabric, paper.", "prerequisites": [], "curriculum_alignment": ["IB-PYP.HowWorldWorks"] },
             { "slug": "describe-material-properties", "name": "Describe material properties", "description": "Hard/soft, smooth/rough, shiny/dull, transparent/opaque.", "prerequisites": ["identify-common-materials"], "curriculum_alignment": ["IB-PYP.HowWorldWorks"] }
+          ]
+        },
+        {
+          "slug": "personal-social-emotional-development",
+          "name": "Personal, social & emotional development (PSED)",
+          "description": "Self-awareness, social skills, and emotional regulation. EYFS prime area; load-bearing for international-school early-years programs. Added at Phase 1 surface gate per curriculum-agent recommendation.",
+          "targets": [
+            { "slug": "identify-own-emotions-in-context", "name": "Identify own emotions in context", "description": "Name what one is feeling and link to a cause (e.g., 'I am sad because...').", "prerequisites": ["identify-and-name-emotions"], "curriculum_alignment": ["EYFS.ELG.PSED"] },
+            { "slug": "identify-emotions-of-others-from-faces", "name": "Identify emotions of others from facial expressions", "description": "Read another person's emotional state from face cues.", "prerequisites": ["identify-and-name-emotions"], "curriculum_alignment": ["EYFS.ELG.PSED"] },
+            { "slug": "name-things-i-can-do-myself", "name": "Name things I can do myself", "description": "Build self-efficacy by enumerating self-care, learning, and friendship skills.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.PSED"] },
+            { "slug": "share-and-take-turns", "name": "Share and take turns with peers", "description": "Demonstrate cooperative play behavior.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.PSED", "IB-PYP.WhoWeAre"] },
+            { "slug": "wait-my-turn", "name": "Wait my turn (impulse control)", "description": "Hold back from acting until appropriate; foundational executive-function skill.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.PSED"] },
+            { "slug": "identify-classroom-rules", "name": "Identify and explain classroom rules", "description": "State the rules of one's classroom and why they matter.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.PSED"] },
+            { "slug": "identify-safe-vs-unsafe-situations", "name": "Identify safe vs unsafe situations", "description": "Recognize hazards (hot stove, road, stranger) and seek help appropriately.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.PSED", "IB-PYP.SharingPlanet"] },
+            { "slug": "make-and-name-a-friend", "name": "Make and name a friend", "description": "Initiate a peer relationship; name one's friends in target language.", "prerequisites": ["respond-to-greeting-in-target-language"], "curriculum_alignment": ["EYFS.ELG.PSED"] }
           ]
         }
       ]

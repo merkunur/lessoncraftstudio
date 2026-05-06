@@ -948,6 +948,22 @@
       '});',
       '}',
       'refreshSnippet();',
+      // ?embed=open auto-open handler — closes the EmbedViralityCTA landing flow
+      // gap per a793d7c9 (Arc 3 above-fold integration). The homepage CTA appends
+      // ?embed=open to deck-page links; this handler picks up the param at deck
+      // load and triggers showOverlay() so the embed UX is visible without a
+      // separate button click. Reuses showOverlay() — no duplication of open
+      // logic. Gated on window.parent === window so embedded iframe contexts
+      // (which carry the param down through the src URL) don't auto-open their
+      // own nested overlay; the param is meaningful only at top-level deck-page
+      // landing. try/catch defensive: a malformed URL or missing URLSearchParams
+      // never throws into the surrounding setup.
+      'try{',
+      'if(window.parent===window){',
+      'var lcsEmbedParams=new URLSearchParams(window.location.search);',
+      'if(lcsEmbedParams.get("embed")==="open")showOverlay();',
+      '}',
+      '}catch(e){}',
       // postMessage iframe-resize emitter + iframe-context body class.
       // When deck is loaded inside an embed iframe:
       //   1. Add body.lcs-embedded class so embedded-only CSS rules apply

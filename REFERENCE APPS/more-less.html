@@ -5976,8 +5976,39 @@ async function downloadPDF(canvasToExport, filename, opts) {
         capture('backgroundThemeSelect', 'background_theme_select');
         capture('numProblems', 'num_problems');
         capture('grayscaleToggle', 'grayscale');
-        var theme = (typeof themeSelect !== 'undefined' && themeSelect && themeSelect.value && themeSelect.value !== 'all')
-            ? themeSelect.value : null;
+        // Mode-aware manifest.theme derivation per Shape A (§A.13.5) +
+        // SEO-first emit-site framing (§1, §17.8.5). more-less has separate
+        // worksheet-theme selects per comparison mode (standard vs check-cross),
+        // each gated by the corresponding image-selection-mode flag. The prior
+        // `typeof themeSelect !== 'undefined'` lookup was a copy-paste from
+        // addition.html that referenced a non-existent global, leaving
+        // manifest.theme permanently null and collapsing all themed decks to
+        // the bare `more-less` slug at publish-time. Same-scope const
+        // references at lines 1798/1802/1809/1868/1872.
+        var theme = null;
+        try {
+            var compMode = (typeof comparisonModeSelect !== 'undefined' && comparisonModeSelect)
+                ? comparisonModeSelect.value : null;
+            if (compMode === 'check-cross') {
+                var ccMode = (typeof ccImageSelectionMode !== 'undefined' && ccImageSelectionMode)
+                    ? ccImageSelectionMode.value : null;
+                if (ccMode === 'theme'
+                    && typeof ccThemeWorksheetSelect !== 'undefined'
+                    && ccThemeWorksheetSelect
+                    && ccThemeWorksheetSelect.value) {
+                    theme = ccThemeWorksheetSelect.value;
+                }
+            } else {
+                var stdMode = (typeof imageSelectionModeSelect !== 'undefined' && imageSelectionModeSelect)
+                    ? imageSelectionModeSelect.value : null;
+                if (stdMode === 'theme'
+                    && typeof themeWorksheetSelect !== 'undefined'
+                    && themeWorksheetSelect
+                    && themeWorksheetSelect.value) {
+                    theme = themeWorksheetSelect.value;
+                }
+            }
+        } catch (e) { theme = null; }
         return {
             settings: settings,
             theme: theme,

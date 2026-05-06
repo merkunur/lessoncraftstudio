@@ -1,0 +1,215 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-06",
+  "audience_scope": "K-3 multilingual classrooms — international schools, dual-language programs, bilingual European schools",
+  "doctrine_notes": [
+    "Materials are theme-agnostic at the catalog layer; theme is selected at material-render time. A teaching package picks a theme once; that theme cascades to each composed material.",
+    "Generation pipeline default: client-side Fabric.js → jsPDF, paralleling the existing 29-app pipeline (per docs/lesson-plans/image-library-access-patterns.md §9). New material generators are HTML files separate from the canonical 29 §14.10 worksheet generators; they live at REFERENCE APPS/material-generators/ or a sibling directory adjudicated in Phase 3.",
+    "Each material consumes the existing /api/images endpoint + IMAGE_VOCABULARY without modification (per CLAUDE.md §10.3).",
+    "Materials are NOT graded for difficulty internally — difficulty differentiation lives in customization parameters at composition time (e.g., flashcard count: 6 cards = preschool, 10 cards = kindergarten, 16 cards = grade-1+).",
+    "Print-ready: each material must produce both A4 + Letter PDFs at sufficient resolution for classroom printing (300 DPI equivalent for image content). Phase 3 must verify source-image DPI before claiming the standard.",
+    "Color-vs-BW: every image-bearing material exposes a `colorMode` parameter (color | bw). Most school photocopiers are B&W; defaulting to color but allowing one-toggle BW route is load-bearing for real classroom use. BW mode auto-routes to the corresponding `*_bw` theme variants per §16.5.1 (do not require teachers to manually pick `animals_bw` over `animals`).",
+    "Article/gender auto-resolution: any sentence-frame or label rendering that includes grammatical articles (the/a/an in English; der/die/das in German; le/la in French; el/la in Spanish; il/la/lo in Italian; de/het in Dutch; o/a in Portuguese) MUST resolve articles automatically from IMAGE_VOCABULARY gender data — never require the operator/teacher to type articles. A platform marketed on multilingual K-3 quality cannot ship grammatically-wrong sentence strips.",
+    "Parent letter doctrine: body text constrained to ~Lexile 400 / CEFR A2-equivalent reading level. Recent-immigrant parents in international-school contexts may have low literacy in their home language; picture cues + simple sentence structure is required, not nice-to-have."
+  ],
+  "materials": [
+    {
+      "slug": "flashcards",
+      "name": "Flashcards",
+      "category": "vocabulary-anchor",
+      "description": "Single image + localized label per card. Used for whole-class introduction (teacher holds up a card and names it), small-group review, station rotation, and parent take-home practice. The bedrock vocabulary-acquisition material.",
+      "generation_mechanism": "image library + label text; one card per image; cards arranged in grid for printing",
+      "format": ["pdf"],
+      "customization_parameters": [
+        { "key": "imageSource", "type": "select", "values_or_range": ["theme", "manualSelection", "vocabKeyList"], "default": "theme", "description": "How the asset set is sourced." },
+        { "key": "themeName", "type": "string", "values_or_range": "<image_themes.name>", "default": null, "description": "Theme to draw from (when imageSource=theme)." },
+        { "key": "vocabKeys", "type": "string-array", "values_or_range": "<vocabulary keys>", "default": null, "description": "Explicit vocab keys (when imageSource=vocabKeyList; e.g., ['cat','dog','cow',...] for the farm-animals package)." },
+        { "key": "manualImagePaths", "type": "string-array", "values_or_range": "<image paths>", "default": null, "description": "Operator-specified image paths (when imageSource=manualSelection)." },
+        { "key": "cardCount", "type": "number", "values_or_range": "1-30", "default": 10, "description": "Number of cards." },
+        { "key": "cardsPerPage", "type": "select", "values_or_range": [4, 6, 9], "default": 6, "description": "Layout density. 4-up=jumbo (whole-class hold-up), 6-up=standard, 9-up=take-home/station-rotation. 16-up dropped: cards too small for any classroom use." },
+        { "key": "colorMode", "type": "select", "values_or_range": ["color", "bw"], "default": "color", "description": "BW auto-routes to the corresponding `*_bw` theme variant per §16.5.1; default color but most school photocopiers are B&W." },
+        { "key": "labelDisplay", "type": "select", "values_or_range": ["singular", "plural", "both", "none"], "default": "singular", "description": "Localized vocabulary form to display under image." },
+        { "key": "showArticle", "type": "checkbox", "values_or_range": [true, false], "default": false, "description": "Prefix label with grammatical article (the cat / a cat / der/die/das form per locale gender). Article auto-resolved from IMAGE_VOCABULARY gender data — never typed by the operator." },
+        { "key": "labelCase", "type": "select", "values_or_range": ["lowercase", "Title Case", "UPPERCASE"], "default": "lowercase", "description": "Letter case for the label." },
+        { "key": "backOfCard", "type": "select", "values_or_range": ["blank", "word-only", "translation-to-locale"], "default": "blank", "description": "Back-of-card content. `translation-to-locale` puts the home-language word on the back (parent-takehome-friendly: parent sees Mandarin on back, target English on front). Requires duplex printing if non-blank; PDF emits print instructions." },
+        { "key": "homeLanguageForBack", "type": "select", "values_or_range": ["en", "de", "fr", "es", "pt", "it", "nl", "sv", "da", "no", "fi"], "default": null, "description": "Locale for back-of-card translation (when backOfCard=translation-to-locale). Distinct from the front-side `language`." },
+        { "key": "paperSize", "type": "select", "values_or_range": ["a4", "letter"], "default": "a4", "description": "Paper size." },
+        { "key": "language", "type": "select", "values_or_range": ["en", "de", "fr", "es", "pt", "it", "nl", "sv", "da", "no", "fi"], "default": "en", "description": "Front-side vocabulary locale (target instruction language)." },
+        { "key": "borderStyle", "type": "select", "values_or_range": ["thin", "thick", "rounded", "none"], "default": "thin", "description": "Card border style for cutting guidance." },
+        { "key": "roundedCorners", "type": "checkbox", "values_or_range": [true, false], "default": true, "description": "Round corners on each card. Default true: laminated sharp-corner cards cut kids during use; teachers always round." },
+        { "key": "showCutGuides", "type": "checkbox", "values_or_range": [true, false], "default": true, "description": "Show dashed cut lines between cards." }
+      ],
+      "k3_classroom_use_scenarios": [
+        "Whole-class introduction: teacher holds up cards, names each image, class repeats chorally",
+        "Small-group review: pairs flip through deck, partner names each card",
+        "Station rotation: students sort cards by attribute, match to written words, etc.",
+        "Parent take-home: send the deck home for practice with grown-ups",
+        "Wall display: cards laminated and pinned to a 'word wall' for the unit"
+      ]
+    },
+    {
+      "slug": "bingo-board",
+      "name": "Bingo board (with caller chips)",
+      "category": "vocabulary-game",
+      "description": "5×5 grid of images + corresponding caller chip strip. Used for whole-class listening + scanning game. Existing bingo app (§14.10) produces an interactive variant; this material is the printable companion designed for a teacher-called play session in the physical classroom.",
+      "generation_mechanism": "image library; 5×5 grid (24 unique + 1 free space); separate page for caller chips",
+      "format": ["pdf"],
+      "customization_parameters": [
+        { "key": "imageSource", "type": "select", "values_or_range": ["theme", "vocabKeyList"], "default": "theme", "description": "How the 24-image set is sourced." },
+        { "key": "themeName", "type": "string", "values_or_range": "<image_themes.name>", "default": null, "description": "Theme (if theme mode)." },
+        { "key": "vocabKeys", "type": "string-array", "values_or_range": "<vocabulary keys, length=24>", "default": null, "description": "24 vocab keys (if vocabKeyList mode)." },
+        { "key": "boardCount", "type": "number", "values_or_range": "1-32", "default": 24, "description": "Number of unique boards. Real classrooms have 18-30 kids; default 24 covers most. Each board randomly arranges the same image set so all kids play together." },
+        { "key": "colorMode", "type": "select", "values_or_range": ["color", "bw"], "default": "color", "description": "BW auto-routes to `*_bw` theme variants." },
+        { "key": "cellLabelMode", "type": "select", "values_or_range": ["image-only", "image+label", "label-only"], "default": "image-only", "description": "Cell content shape." },
+        { "key": "callerChipFormat", "type": "select", "values_or_range": ["image+label", "label-only"], "default": "image+label", "description": "Caller chip content shape." },
+        { "key": "paperSize", "type": "select", "values_or_range": ["a4", "letter"], "default": "a4", "description": "Paper size." },
+        { "key": "language", "type": "select", "values_or_range": ["en", "de", "fr", "es", "pt", "it", "nl", "sv", "da", "no", "fi"], "default": "en", "description": "Vocabulary locale." }
+      ],
+      "doctrine_notes": [
+        "FREE space at center of 5×5 grid is convention-locked, not configurable.",
+        "Caller chips: kids mark cells with beans, dot stickers, or counters — no marker-style param needed.",
+        "Vocabulary requirement: needs 24 unique items minimum. If a package's vocab list has fewer than 24 items (e.g., farm-animals at 10 items), bingo is not the right material — use flashcards + matching mat instead, OR expand the vocabulary set first."
+      ],
+      "k3_classroom_use_scenarios": [
+        "Whole-class listening game: teacher draws caller chip, names target, kids place a marker on matching cell",
+        "Vocabulary review: each call surfaces a vocab item; class repeats it after teacher names",
+        "Receptive-language assessment: teacher observes which kids identify the named target without peeking"
+      ]
+    },
+    {
+      "slug": "picture-cards",
+      "name": "Picture cards (image-only, no label)",
+      "category": "vocabulary-anchor",
+      "description": "Image-only cards with no text — for activities where the kid produces the label (vs flashcards where the label is given). Used for receptive-then-productive vocabulary work, sorting-by-attribute games, story-creation scaffolds.",
+      "generation_mechanism": "image library; one image per card; no label text",
+      "format": ["pdf"],
+      "customization_parameters": [
+        { "key": "imageSource", "type": "select", "values_or_range": ["theme", "manualSelection", "vocabKeyList"], "default": "theme", "description": "How the asset set is sourced." },
+        { "key": "themeName", "type": "string", "values_or_range": "<image_themes.name>", "default": null, "description": "Theme name." },
+        { "key": "vocabKeys", "type": "string-array", "values_or_range": "<vocabulary keys>", "default": null, "description": "Explicit vocab keys." },
+        { "key": "cardCount", "type": "number", "values_or_range": "1-30", "default": 10, "description": "Number of cards." },
+        { "key": "cardsPerPage", "type": "select", "values_or_range": [4, 6, 9, 12], "default": 9, "description": "Layout density. 16-up dropped (cards too small for classroom use)." },
+        { "key": "colorMode", "type": "select", "values_or_range": ["color", "bw"], "default": "color", "description": "BW auto-routes to `*_bw` theme variants." },
+        { "key": "paperSize", "type": "select", "values_or_range": ["a4", "letter"], "default": "a4", "description": "Paper size." },
+        { "key": "borderStyle", "type": "select", "values_or_range": ["thin", "thick", "rounded", "none"], "default": "thin", "description": "Card border style." },
+        { "key": "roundedCorners", "type": "checkbox", "values_or_range": [true, false], "default": true, "description": "Round corners." },
+        { "key": "showCutGuides", "type": "checkbox", "values_or_range": [true, false], "default": true, "description": "Dashed cut lines." }
+      ],
+      "k3_classroom_use_scenarios": [
+        "Vocabulary production: kid picks a card and names what it is in target language",
+        "Sorting / categorization games on the carpet: sort by color, by category, by size",
+        "Memory game (matching pairs)",
+        "Story-creation: kid arranges cards into a sequence and tells the story",
+        "Show-and-name station rotation"
+      ]
+    },
+    {
+      "slug": "matching-mat",
+      "name": "Matching mat (image ↔ word pairs)",
+      "category": "vocabulary-game",
+      "description": "Single-page mat with N images on the left, N corresponding written words on the right (in target language); kid draws lines or places counters to match. Teacher prints + provides; kid completes with pencil or with manipulatives.",
+      "generation_mechanism": "image library + IMAGE_VOCABULARY labels; left column images, right column shuffled words",
+      "format": ["pdf"],
+      "customization_parameters": [
+        { "key": "imageSource", "type": "select", "values_or_range": ["theme", "vocabKeyList"], "default": "theme" },
+        { "key": "themeName", "type": "string", "values_or_range": "<image_themes.name>", "default": null },
+        { "key": "vocabKeys", "type": "string-array", "values_or_range": "<vocabulary keys>", "default": null },
+        { "key": "pairCount", "type": "number", "values_or_range": "4-12", "default": 6, "description": "Number of pairs. K-3 default 6 — kids can lose place tracking 8+ pairs without scaffolding." },
+        { "key": "rightColumnContent", "type": "select", "values_or_range": ["word", "letter-only", "image"], "default": "word", "description": "Right column: full word, beginning letter only, or another image (for image-image matching)." },
+        { "key": "colorMode", "type": "select", "values_or_range": ["color", "bw"], "default": "color", "description": "BW auto-routes to `*_bw` theme variants." },
+        { "key": "labelCase", "type": "select", "values_or_range": ["lowercase", "Title Case", "UPPERCASE"], "default": "lowercase" },
+        { "key": "paperSize", "type": "select", "values_or_range": ["a4", "letter"], "default": "a4" },
+        { "key": "language", "type": "select", "values_or_range": ["en", "de", "fr", "es", "pt", "it", "nl", "sv", "da", "no", "fi"], "default": "en" }
+      ],
+      "doctrine_notes": [
+        "Differentiation from existing matching app PDF: this material targets carpet/table-mat use (full-page mat, larger cells, paired-stations mode). The existing matching app PDF is for individual-table worksheet use. Phase 3 must verify the visual/layout differentiation; if redundant after build, surface the existing app PDF as the package's matching artifact instead and cut this material."
+      ],
+      "k3_classroom_use_scenarios": [
+        "Independent or paired worksheet at table",
+        "Receptive-to-print bridging (kid hears word, finds matching image, then matches to printed word)",
+        "Differentiated instruction (some kids match image-letter, others image-word, others image-image)"
+      ]
+    },
+    {
+      "slug": "sentence-strips",
+      "name": "Sentence strips (sentence frames with images)",
+      "category": "language-frame",
+      "description": "Long horizontal cards with a single sentence frame and an embedded image slot. The sentence frame is the target language pattern; the image fills in the noun. For oral-language modeling and as a printed reference during student practice. Example for vocabulary-acquisition: 'I see a [image of cat]' / 'Ich sehe eine [Bild von Katze]'.",
+      "generation_mechanism": "text + image library; horizontal strip layout; one sentence per strip",
+      "format": ["pdf"],
+      "customization_parameters": [
+        { "key": "framePreset", "type": "select", "values_or_range": ["i-see-a", "i-have-a", "this-is-a", "i-like-plural", "there-are-count-plural", "the-item-is-color", "the-item-says", "custom"], "default": "i-see-a", "description": "Preset frames: i-see-a → 'I see a {item}'; i-have-a → 'I have a {item}'; this-is-a → 'This is a {item}'; i-like-plural → 'I like {item:plural}'; there-are-count-plural → 'There are {count} {item:plural}'; the-item-is-color → 'The {item} is {color}'; the-item-says → 'The {item} says ___' (animal sounds). Custom → use frameTemplate field." },
+        { "key": "frameTemplate", "type": "string", "values_or_range": "ICU template", "default": null, "description": "Custom template (active when framePreset=custom). Use {item}, {item:plural}, {count}, {color} placeholders. Articles auto-resolved from IMAGE_VOCABULARY gender data — never typed by the operator." },
+        { "key": "imageSource", "type": "select", "values_or_range": ["theme", "vocabKeyList"], "default": "theme" },
+        { "key": "themeName", "type": "string", "values_or_range": "<image_themes.name>", "default": null },
+        { "key": "vocabKeys", "type": "string-array", "values_or_range": "<vocabulary keys>", "default": null },
+        { "key": "stripCount", "type": "number", "values_or_range": "4-20", "default": 10, "description": "Number of strips." },
+        { "key": "stripsPerPage", "type": "select", "values_or_range": [3, 4, 5, 6], "default": 4 },
+        { "key": "colorMode", "type": "select", "values_or_range": ["color", "bw"], "default": "color", "description": "BW auto-routes to `*_bw` theme variants." },
+        { "key": "includeWritingLine", "type": "checkbox", "values_or_range": [true, false], "default": false, "description": "Add a blank line below each strip for the kid to copy or trace the sentence." },
+        { "key": "paperSize", "type": "select", "values_or_range": ["a4", "a4-landscape", "letter", "letter-landscape"], "default": "a4-landscape", "description": "Landscape recommended for sentence strips." },
+        { "key": "language", "type": "select", "values_or_range": ["en", "de", "fr", "es", "pt", "it", "nl", "sv", "da", "no", "fi"], "default": "en" }
+      ],
+      "doctrine_notes": [
+        "CRITICAL: article/gender auto-resolution from IMAGE_VOCABULARY is required. A platform marketed on multilingual K-3 quality cannot ship 'Ich sehe ein Katze' instead of 'Ich sehe eine Katze'. This is the single highest QC risk in the catalog and Phase 3 MUST get this right at first ship.",
+        "Plural morphology: Finnish, Swedish, German plurals are not '+s'. The IMAGE_VOCABULARY plural data ([1] of the locale tuple) handles this; verify generators read the plural form, not noun+'s'.",
+        "Frame complexity vs age range: Pre-K/K → 'I see a {item}'; K/Grade 1 → 'I have {count} {item:plural}'; Grade 1+ → 'The {item} is {color}'. Phase 4 package authoring should match frame complexity to package age-range."
+      ],
+      "k3_classroom_use_scenarios": [
+        "Pocket-chart display: teacher pins strips during oral-language modeling",
+        "Choral repetition warmup: class repeats each strip aloud",
+        "Sentence-frame scaffold during pair work: kid uses strip as a reference while practicing aloud",
+        "Take-home practice card"
+      ]
+    },
+    {
+      "slug": "answer-key",
+      "name": "Answer key (per-package)",
+      "category": "teacher-reference",
+      "description": "Single PDF summarizing the package's expected outcomes for every composed exercise + every material. NOT for students. Used by the teacher to confirm correctness during whole-class debrief or one-on-one checking.",
+      "generation_mechanism": "auto-generated from package definition; renders one section per composed exercise + one section per material requiring teacher reference",
+      "format": ["pdf"],
+      "customization_parameters": [
+        { "key": "includeExerciseAnswers", "type": "checkbox", "values_or_range": [true, false], "default": true, "description": "Include each composed exercise's answer key." },
+        { "key": "includeMaterialReference", "type": "checkbox", "values_or_range": [true, false], "default": true, "description": "Include reference for each material (e.g., bingo image set with names; flashcard label list). This is the load-bearing value for non-native-speaker teachers — confirms vocabulary forms in the target language." },
+        { "key": "includePedagogicalNotes", "type": "checkbox", "values_or_range": [true, false], "default": true, "description": "Append the package's pedagogical-target description and assessment criteria. Default true — teachers using this platform are likely subbing into multilingual contexts they're new to." },
+        { "key": "paperSize", "type": "select", "values_or_range": ["a4", "letter"], "default": "a4" },
+        { "key": "language", "type": "select", "values_or_range": ["en", "de", "fr", "es", "pt", "it", "nl", "sv", "da", "no", "fi"], "default": "en" }
+      ],
+      "k3_classroom_use_scenarios": [
+        "Pre-lesson teacher review: teacher reads through to internalize expected outcomes",
+        "During-lesson reference: teacher consults during pair work or station rotation",
+        "Post-lesson debrief: teacher uses to model correct answers in whole-class share-out"
+      ]
+    },
+    {
+      "slug": "parent-take-home-letter",
+      "name": "Parent take-home letter (with picture cues)",
+      "category": "home-school-bridge",
+      "description": "One-page letter to parents in the home language of the family, explaining what the kid is working on and how parents can support at home. Picture cues embedded so K-3 kids can show parents what the picture means even if the parent's literacy in the target language is low. Distinct from the deferred ParentNote AI-feature in CLAUDE.md §7 (which is per-topic-and-language, generated by Mac Studio AI); this material is per-package and operator-authored.",
+      "generation_mechanism": "text + image library + sentence-frame template; one paragraph + N picture cues per package",
+      "format": ["pdf"],
+      "customization_parameters": [
+        { "key": "tone", "type": "select", "values_or_range": ["formal", "warm", "playful"], "default": "warm" },
+        { "key": "imageSource", "type": "select", "values_or_range": ["theme", "vocabKeyList"], "default": "theme" },
+        { "key": "themeName", "type": "string", "values_or_range": "<image_themes.name>", "default": null },
+        { "key": "vocabKeys", "type": "string-array", "values_or_range": "<vocabulary keys>", "default": null },
+        { "key": "pictureCueCount", "type": "number", "values_or_range": "4-10", "default": 6 },
+        { "key": "homeLanguage", "type": "select", "values_or_range": ["en", "de", "fr", "es", "pt", "it", "nl", "sv", "da", "no", "fi"], "default": null, "description": "Home language for the letter BODY text. The parent reads this. Distinct from `language` (target instruction language)." },
+        { "key": "language", "type": "select", "values_or_range": ["en", "de", "fr", "es", "pt", "it", "nl", "sv", "da", "no", "fi"], "default": "en", "description": "Target instruction language — used to label the picture cues so parents see the words their kid is learning." },
+        { "key": "colorMode", "type": "select", "values_or_range": ["color", "bw"], "default": "color", "description": "BW auto-routes to `*_bw` theme variants for picture cues." },
+        { "key": "signatureLine", "type": "checkbox", "values_or_range": [true, false], "default": true, "description": "Leave a blank line at the bottom for teacher signature." },
+        { "key": "paperSize", "type": "select", "values_or_range": ["a4", "letter"], "default": "a4" }
+      ],
+      "doctrine_notes": [
+        "Body text constrained to ~Lexile 400 / CEFR A2-equivalent reading level. Recent-immigrant parents may have low literacy; short sentences + common words + no idioms.",
+        "Picture cues are labeled with the target word, body text is in the home language. This is the bridge: parent sees the kid's vocabulary even if their target-language literacy is zero."
+      ],
+      "k3_classroom_use_scenarios": [
+        "Sent home in the kid's bag at the end of the unit",
+        "Multilingual classroom support: parents who don't speak the instruction language can still understand via picture cues",
+        "Family literacy bridge: parents practice the target vocabulary at home with the kid"
+      ]
+    }
+  ]
+}

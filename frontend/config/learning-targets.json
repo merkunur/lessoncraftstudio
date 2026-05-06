@@ -1,0 +1,398 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-06",
+  "audience_scope": "K-3 multilingual classrooms — international schools, dual-language programs, bilingual European schools, and similar contexts where children ages 3-7 learn in or alongside languages other than the dominant local language",
+  "framework_alignment_references": [
+    "CCSS — Common Core State Standards (US), K-3 ELA + Math",
+    "EYFS — Early Years Foundation Stage (UK), Early Learning Goals",
+    "IB PYP — International Baccalaureate Primary Years Programme (3-7 ages)",
+    "Cambridge Primary — early stages",
+    "EU Early Childhood Frameworks — generalized via European Reference Framework"
+  ],
+  "doctrine_notes": [
+    "Targets are theme-agnostic at the taxonomy layer; theme is selected at material-render time. Preserves the §1 SEO flywheel — theme axis stays crawlable independent of the curriculum axis.",
+    "K-3 unified age range; differentiation lives in per-exercise customization parameters at composition time.",
+    "Targets describe pedagogical learning OUTCOMES, not worksheet mechanics. The keying space is distinct from topics-taxonomy.json axis-keys (which key on mechanics/themes/levels). See docs/lesson-plans/existing-plan-substrate.md §7.",
+    "Multilingual K-3 register: targets that are inherently language-bound (vocabulary acquisition, phonics patterns) name the language-bound surface explicitly (e.g., 'identify-and-name-10-farm-animals' specifies the count and category but not the specific language; the package-author chooses the locale at authoring time).",
+    "Receptive-vs-productive distinction (post-Phase-1 curriculum-agent revision): kids in multilingual classrooms understand vocabulary months before they can produce it. Receptive targets (`point-to-named-X`) are paired with productive targets (`identify-and-name-X`) so package authors can choose which level the lesson aims at. A 4-year-old learning Spanish in an English-medium classroom is appropriately assessed receptively before productively.",
+    "Phonics-system scope flag (post-Phase-1 curriculum-agent revision): the phonics-decoding strand below is shaped around English-CVC patterns (CCSS-aligned). Romance phonics (Spanish syllabic, Italian transparent), Nordic (Finnish 1:1 grapheme-phoneme), and Germanic (German V-vs-VV length) work differently. Targets like `read-cvce-words` and `read-r-controlled-vowels` are English-specific. Phase 2+ should add language-family-specific phonics strands when packages target those locales; for now flag at composition time.",
+    "Curriculum-standard alignment is illustrative not prescriptive. A target may align loosely with multiple frameworks; package authoring tooling does NOT validate alignment — it's a discovery aid for teachers who want to map packages to their school's standards.",
+    "Pending Phase 1 surface-gate ratification (agent-recommended additions; operator chooses to apply or defer to Arc 2): (a) Speaking & Listening strand — 10 targets; (b) Writing-Composition strand — 8 targets; (c) Personal/Social/Emotional Development strand — 8 targets; (d) Multilingual-specific strand — 5 targets; (e) Reading-comprehension expansion — 6 targets; (f) Numeracy gaps — 5 targets; (g) Romance/Nordic/Germanic phonics parallels — 4 targets. See docs/lesson-plans/taxonomy-v1.md §Curriculum agent critique for full list with pedagogical rationale."
+  ],
+  "domains": [
+    {
+      "slug": "early-literacy",
+      "name": "Early Literacy",
+      "description": "Phonological awareness, letter recognition, phonics, vocabulary, spelling, reading, and writing for K-3 multilingual classrooms.",
+      "strands": [
+        {
+          "slug": "phonological-awareness",
+          "name": "Phonological awareness",
+          "description": "Hearing, identifying, and manipulating sounds in spoken words — independent of letter identity.",
+          "targets": [
+            { "slug": "identify-rhyming-pairs", "name": "Identify rhyming word pairs", "description": "Given two spoken words, decide whether they rhyme.", "prerequisites": [], "curriculum_alignment": ["CCSS.RF.K.2a", "EYFS.ELG.LL"] },
+            { "slug": "produce-rhyming-words", "name": "Produce rhyming words", "description": "Given one word, supply a rhyming partner.", "prerequisites": ["identify-rhyming-pairs"], "curriculum_alignment": ["CCSS.RF.K.2a"] },
+            { "slug": "count-syllables-1-to-3", "name": "Count syllables in 1-3 syllable words", "description": "Clap or tap once per syllable for short words.", "prerequisites": [], "curriculum_alignment": ["CCSS.RF.K.2b"] },
+            { "slug": "blend-onset-rime", "name": "Blend onset and rime into words", "description": "Combine /c/ + /at/ to say 'cat'.", "prerequisites": ["count-syllables-1-to-3"], "curriculum_alignment": ["CCSS.RF.K.2c"] },
+            { "slug": "isolate-initial-phoneme", "name": "Isolate initial phoneme in CVC words", "description": "Identify the first sound in spoken CVC words.", "prerequisites": [], "curriculum_alignment": ["CCSS.RF.K.2d"] },
+            { "slug": "isolate-final-phoneme", "name": "Isolate final phoneme in CVC words", "description": "Identify the last sound in spoken CVC words.", "prerequisites": ["isolate-initial-phoneme"], "curriculum_alignment": ["CCSS.RF.K.2d"] },
+            { "slug": "isolate-medial-phoneme", "name": "Isolate medial vowel sound in CVC words", "description": "Identify the middle vowel sound in spoken CVC words.", "prerequisites": ["isolate-initial-phoneme", "isolate-final-phoneme"], "curriculum_alignment": ["CCSS.RF.1.2c"] },
+            { "slug": "blend-phonemes-cvc", "name": "Blend individual phonemes into CVC words", "description": "Combine /c/ /a/ /t/ into 'cat'.", "prerequisites": ["isolate-initial-phoneme", "isolate-final-phoneme"], "curriculum_alignment": ["CCSS.RF.K.2e"] },
+            { "slug": "segment-cvc-into-phonemes", "name": "Segment CVC words into phonemes", "description": "Break 'cat' into /c/ /a/ /t/.", "prerequisites": ["blend-phonemes-cvc"], "curriculum_alignment": ["CCSS.RF.K.2e"] }
+          ]
+        },
+        {
+          "slug": "letter-recognition",
+          "name": "Letter recognition",
+          "description": "Identifying letters of the alphabet and their basic sound correspondences.",
+          "targets": [
+            { "slug": "identify-uppercase-letters", "name": "Identify all uppercase letters of the alphabet", "description": "Name the 26 uppercase letters (or locale equivalent).", "prerequisites": [], "curriculum_alignment": ["CCSS.RF.K.1d"] },
+            { "slug": "identify-lowercase-letters", "name": "Identify all lowercase letters of the alphabet", "description": "Name the 26 lowercase letters.", "prerequisites": ["identify-uppercase-letters"], "curriculum_alignment": ["CCSS.RF.K.1d"] },
+            { "slug": "match-uppercase-lowercase", "name": "Match uppercase to lowercase letters", "description": "Pair A↔a, B↔b across the alphabet.", "prerequisites": ["identify-uppercase-letters", "identify-lowercase-letters"], "curriculum_alignment": ["CCSS.RF.K.1d"] },
+            { "slug": "identify-letter-sounds-consonants", "name": "Identify primary consonant letter-sounds", "description": "Match consonant letters to their most common sound.", "prerequisites": ["identify-uppercase-letters"], "curriculum_alignment": ["CCSS.RF.K.3a"] },
+            { "slug": "identify-letter-sounds-vowels", "name": "Identify short vowel letter-sounds", "description": "Match A/E/I/O/U to short vowel sounds.", "prerequisites": ["identify-uppercase-letters"], "curriculum_alignment": ["CCSS.RF.K.3b"] },
+            { "slug": "identify-letter-by-image-clue", "name": "Identify a letter by an image clue starting with that letter", "description": "Given an image (e.g., apple), identify the letter (A) it starts with.", "prerequisites": ["identify-letter-sounds-consonants", "identify-letter-sounds-vowels"], "curriculum_alignment": ["CCSS.RF.K.3a"] }
+          ]
+        },
+        {
+          "slug": "phonics-decoding",
+          "name": "Phonics & decoding",
+          "description": "Applying letter-sound knowledge to read printed words.",
+          "targets": [
+            { "slug": "read-cvc-words", "name": "Read CVC words", "description": "Decode 3-letter consonant-vowel-consonant words.", "prerequisites": ["blend-phonemes-cvc", "identify-letter-sounds-consonants", "identify-letter-sounds-vowels"], "curriculum_alignment": ["CCSS.RF.K.3b"] },
+            { "slug": "read-cvce-words", "name": "Read CVCe (silent-e) words", "description": "Decode words with long-vowel silent-e pattern.", "prerequisites": ["read-cvc-words"], "curriculum_alignment": ["CCSS.RF.1.3c"] },
+            { "slug": "read-consonant-blends", "name": "Read words with consonant blends", "description": "Decode blends like st-, bl-, fr-.", "prerequisites": ["read-cvc-words"], "curriculum_alignment": ["CCSS.RF.1.3a"] },
+            { "slug": "read-consonant-digraphs", "name": "Read words with consonant digraphs", "description": "Decode digraphs sh, ch, th, wh, ph.", "prerequisites": ["read-cvc-words"], "curriculum_alignment": ["CCSS.RF.1.3a"] },
+            { "slug": "read-vowel-teams", "name": "Read words with common vowel teams", "description": "Decode ai/ay/ee/ea/oa/ow patterns.", "prerequisites": ["read-cvce-words"], "curriculum_alignment": ["CCSS.RF.2.3b"] },
+            { "slug": "read-r-controlled-vowels", "name": "Read r-controlled vowel words", "description": "Decode ar/er/ir/or/ur patterns.", "prerequisites": ["read-cvce-words"], "curriculum_alignment": ["CCSS.RF.2.3c"] },
+            { "slug": "read-common-prefixes-suffixes", "name": "Read common prefixes and suffixes", "description": "Decode un-, re-, -ed, -ing, -er.", "prerequisites": ["read-vowel-teams"], "curriculum_alignment": ["CCSS.RF.2.3d"] }
+          ]
+        },
+        {
+          "slug": "vocabulary-acquisition",
+          "name": "Vocabulary acquisition",
+          "description": "Learning the names, meanings, and uses of words in the target language. The MVP slice for Arc 1 lives here.",
+          "targets": [
+            { "slug": "identify-and-name-10-farm-animals", "name": "Identify and name 10 farm animals", "description": "Recognize images of and name in the target language: cow, sheep, pig, chicken, horse, duck, goat, dog, cat, rabbit (or locale-equivalent set).", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW", "IB-PYP.WhereWeAre"] },
+            { "slug": "identify-and-name-10-zoo-animals", "name": "Identify and name 10 zoo animals", "description": "Recognize and name: lion, elephant, giraffe, monkey, zebra, tiger, bear, snake, crocodile, kangaroo (or set).", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "identify-and-name-10-pet-animals", "name": "Identify and name 10 common pets", "description": "Recognize and name household pets across cultures.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "identify-and-name-fruits", "name": "Identify and name 10 common fruits", "description": "Recognize and name fruits familiar to the locale.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "identify-and-name-vegetables", "name": "Identify and name 10 common vegetables", "description": "Recognize and name vegetables familiar to the locale.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "identify-and-name-foods", "name": "Identify and name 10 common foods (meals/snacks)", "description": "Recognize and name common meals and snacks.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "identify-and-name-body-parts", "name": "Identify and name 10 body parts", "description": "Head, arm, leg, hand, foot, eye, ear, nose, mouth, hair (or set).", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "identify-and-name-clothing", "name": "Identify and name 10 articles of clothing", "description": "Recognize and name clothing items appropriate to the locale's climate.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "identify-and-name-vehicles", "name": "Identify and name 10 common vehicles", "description": "Car, bus, train, plane, boat, bike, truck, taxi, motorcycle, ambulance (or set).", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "identify-and-name-house-rooms", "name": "Identify and name 10 rooms and parts of a house", "description": "Bedroom, kitchen, bathroom, living-room, door, window, etc.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "identify-and-name-school-objects", "name": "Identify and name 10 classroom objects", "description": "Pencil, book, notebook, table, chair, board, eraser, ruler, scissors, glue (or set).", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "identify-and-name-weather-words", "name": "Identify and name 8 weather words", "description": "Sunny, rainy, cloudy, snowy, windy, hot, cold, warm.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "identify-and-name-action-verbs", "name": "Identify and name 10 common action verbs", "description": "Run, walk, jump, sit, stand, eat, drink, sleep, read, write (gerund or imperative form per locale convention).", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "identify-and-name-emotions", "name": "Identify and name 8 basic emotions", "description": "Happy, sad, angry, scared, surprised, tired, excited, calm.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.PSED", "EYFS.ELG.UW"] },
+            { "slug": "identify-and-name-family-members", "name": "Identify and name family member terms", "description": "Mother, father, sister, brother, grandmother, grandfather, baby, etc. — sensitive to family structure variation.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "use-color-words", "name": "Identify and use 10 color words", "description": "Red, blue, yellow, green, orange, purple, pink, black, white, brown.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "use-size-comparison-words", "name": "Use size-comparison vocabulary", "description": "Big/small/bigger/smaller/biggest/smallest in target language.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.M"] },
+            { "slug": "use-spatial-position-words", "name": "Use spatial position vocabulary", "description": "In, on, under, next-to, between, behind, in-front-of, above.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.M"] },
+            { "slug": "point-to-named-farm-animal", "name": "Point to a named farm animal (receptive)", "description": "When the teacher names a farm animal in the target language, the kid points to the matching image. Receptive precursor to identify-and-name-10-farm-animals.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "point-to-named-zoo-animal", "name": "Point to a named zoo animal (receptive)", "description": "Receptive precursor to identify-and-name-10-zoo-animals.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "point-to-named-body-part", "name": "Point to a named body part (receptive)", "description": "Receptive precursor; can be on the kid's own body or on a picture.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "point-to-named-clothing-item", "name": "Point to a named clothing item (receptive)", "description": "Receptive precursor.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "point-to-named-vehicle", "name": "Point to a named vehicle (receptive)", "description": "Receptive precursor.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "point-to-named-color", "name": "Point to a named color (receptive)", "description": "Receptive precursor to use-color-words.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] }
+          ]
+        },
+        {
+          "slug": "spelling-and-encoding",
+          "name": "Spelling & encoding",
+          "description": "Encoding spoken words into print using letter-sound correspondences.",
+          "targets": [
+            { "slug": "spell-cvc-words", "name": "Spell CVC words", "description": "Encode spoken 3-letter words by writing the matching letters.", "prerequisites": ["read-cvc-words", "segment-cvc-into-phonemes"], "curriculum_alignment": ["CCSS.L.K.2c"] },
+            { "slug": "spell-high-frequency-sight-words-tier-1", "name": "Spell tier-1 high-frequency sight words (~25-50)", "description": "Encode the K/Grade-1 high-frequency sight word list (e.g., the/and/a/I/to/in/is/it/of/you for English; equivalent in target locale).", "prerequisites": ["spell-cvc-words"], "curriculum_alignment": ["CCSS.RF.K.3c"] },
+            { "slug": "spell-high-frequency-sight-words-tier-2", "name": "Spell tier-2 high-frequency sight words (~75-100)", "description": "Encode the Grade 1-2 extended high-frequency word list.", "prerequisites": ["spell-high-frequency-sight-words-tier-1"], "curriculum_alignment": ["CCSS.RF.1.3g"] },
+            { "slug": "spell-words-with-blends", "name": "Spell words with consonant blends", "description": "Encode bl-, br-, st-, sp- patterns.", "prerequisites": ["spell-cvc-words"], "curriculum_alignment": ["CCSS.L.1.2d"] },
+            { "slug": "spell-words-with-digraphs", "name": "Spell words with consonant digraphs", "description": "Encode sh-, ch-, th-, wh-.", "prerequisites": ["spell-cvc-words"], "curriculum_alignment": ["CCSS.L.1.2d"] }
+          ]
+        },
+        {
+          "slug": "reading-comprehension",
+          "name": "Reading comprehension (sentence-level, picture-supported)",
+          "description": "Understanding meaning at the sentence level, especially with picture support.",
+          "targets": [
+            { "slug": "match-sentence-to-picture", "name": "Match a simple sentence to its matching picture", "description": "Read a one-sentence description and select the matching image from 2-4 options.", "prerequisites": ["read-cvc-words"], "curriculum_alignment": ["CCSS.RL.K.7"] },
+            { "slug": "answer-who-what-where-questions", "name": "Answer who/what/where questions about a picture", "description": "Identify subject, action, and location in a simple scene.", "prerequisites": ["match-sentence-to-picture"], "curriculum_alignment": ["CCSS.RL.K.1"] },
+            { "slug": "predict-from-picture-cue", "name": "Predict a missing word from picture cue and sentence context", "description": "Given a sentence with a blank and a picture, supply the missing word.", "prerequisites": ["match-sentence-to-picture"], "curriculum_alignment": ["CCSS.RL.K.10"] },
+            { "slug": "sequence-3-event-story", "name": "Sequence a 3-event story from pictures", "description": "Order 3 picture cards into a logical story sequence.", "prerequisites": [], "curriculum_alignment": ["CCSS.RL.K.2"] }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "early-numeracy",
+      "name": "Early Numeracy",
+      "description": "Counting, number sense, arithmetic, measurement, geometry, and data for K-3.",
+      "strands": [
+        {
+          "slug": "counting-and-cardinality",
+          "name": "Counting & cardinality",
+          "description": "One-to-one correspondence, count sequences, and the cardinal principle.",
+          "targets": [
+            { "slug": "count-objects-1-to-5", "name": "Count objects from 1 to 5", "description": "One-to-one correspondence with up to 5 objects.", "prerequisites": [], "curriculum_alignment": ["CCSS.K.CC.A.1"] },
+            { "slug": "count-objects-1-to-10", "name": "Count objects from 1 to 10", "description": "One-to-one correspondence with up to 10 objects.", "prerequisites": ["count-objects-1-to-5"], "curriculum_alignment": ["CCSS.K.CC.A.1"] },
+            { "slug": "count-objects-1-to-20", "name": "Count objects from 1 to 20", "description": "One-to-one correspondence with up to 20 objects.", "prerequisites": ["count-objects-1-to-10"], "curriculum_alignment": ["CCSS.K.CC.A.2"] },
+            { "slug": "count-by-rote-1-to-100", "name": "Count by rote from 1 to 100", "description": "Recite the count sequence to 100.", "prerequisites": ["count-objects-1-to-20"], "curriculum_alignment": ["CCSS.K.CC.A.1"] },
+            { "slug": "skip-count-by-2", "name": "Skip-count by 2 to 20", "description": "Recite 2, 4, 6, 8, ... 20.", "prerequisites": ["count-objects-1-to-20"], "curriculum_alignment": ["CCSS.2.NBT.A.2"] },
+            { "slug": "skip-count-by-5", "name": "Skip-count by 5 to 50", "description": "Recite 5, 10, 15, ... 50.", "prerequisites": ["count-objects-1-to-20"], "curriculum_alignment": ["CCSS.2.NBT.A.2"] },
+            { "slug": "skip-count-by-10", "name": "Skip-count by 10 to 100", "description": "Recite 10, 20, 30, ... 100.", "prerequisites": ["count-objects-1-to-20"], "curriculum_alignment": ["CCSS.K.CC.A.1"] },
+            { "slug": "count-on-from-given-number", "name": "Count on from a given number", "description": "Continue counting from any number within range without restarting from 1.", "prerequisites": ["count-objects-1-to-20"], "curriculum_alignment": ["CCSS.K.CC.A.2"] },
+            { "slug": "match-numeral-to-quantity-1-to-10", "name": "Match numeral to quantity (1-10)", "description": "Pair the written numeral with the matching count of objects.", "prerequisites": ["count-objects-1-to-10"], "curriculum_alignment": ["CCSS.K.CC.B.4"] },
+            { "slug": "subitize-quantities-1-to-5", "name": "Subitize quantities 1-5", "description": "Recognize small quantities at a glance without counting.", "prerequisites": [], "curriculum_alignment": ["CCSS.K.CC.B.4"] }
+          ]
+        },
+        {
+          "slug": "number-sense-comparison",
+          "name": "Number sense & comparison",
+          "description": "Understanding magnitude, comparison, and ordering of numbers.",
+          "targets": [
+            { "slug": "compare-quantities-more-fewer", "name": "Compare two quantities — more, fewer, equal", "description": "Identify which group has more, fewer, or equal items.", "prerequisites": ["count-objects-1-to-10"], "curriculum_alignment": ["CCSS.K.CC.C.6"] },
+            { "slug": "compare-numerals-1-to-10", "name": "Compare numerals 1-10 by magnitude", "description": "Decide which numeral represents a larger value.", "prerequisites": ["match-numeral-to-quantity-1-to-10"], "curriculum_alignment": ["CCSS.K.CC.C.7"] },
+            { "slug": "use-greater-less-equal-symbols", "name": "Use >, <, = symbols with single-digit numbers", "description": "Apply comparison symbols to numerical pairs.", "prerequisites": ["compare-numerals-1-to-10"], "curriculum_alignment": ["CCSS.1.NBT.B.3"] },
+            { "slug": "order-numerals-1-to-10", "name": "Order numerals from smallest to largest (1-10)", "description": "Arrange a set of numerals in ascending or descending order.", "prerequisites": ["compare-numerals-1-to-10"], "curriculum_alignment": ["CCSS.K.CC.C.6"] },
+            { "slug": "find-number-before-after", "name": "Find the number before/after a given number", "description": "Identify predecessor and successor for any number 1-100.", "prerequisites": ["count-on-from-given-number"], "curriculum_alignment": ["CCSS.K.CC.A.2"] },
+            { "slug": "decompose-numbers-to-10", "name": "Decompose numbers 1-10 in multiple ways", "description": "Show 7 = 4+3 = 5+2 = 6+1, etc.", "prerequisites": ["count-objects-1-to-10"], "curriculum_alignment": ["CCSS.K.OA.A.3"] }
+          ]
+        },
+        {
+          "slug": "addition-subtraction",
+          "name": "Addition & subtraction",
+          "description": "Combining and separating quantities; mental math fluency.",
+          "targets": [
+            { "slug": "add-within-5", "name": "Add within 5 using objects or images", "description": "Solve addition problems with sums up to 5.", "prerequisites": ["count-objects-1-to-5", "match-numeral-to-quantity-1-to-10"], "curriculum_alignment": ["CCSS.K.OA.A.1"] },
+            { "slug": "add-within-10", "name": "Add within 10 using objects or images", "description": "Solve addition problems with sums up to 10.", "prerequisites": ["add-within-5"], "curriculum_alignment": ["CCSS.K.OA.A.5"] },
+            { "slug": "add-within-20", "name": "Add within 20", "description": "Solve addition problems with sums up to 20.", "prerequisites": ["add-within-10"], "curriculum_alignment": ["CCSS.1.OA.C.6"] },
+            { "slug": "subtract-within-5", "name": "Subtract within 5 using objects or images", "description": "Solve subtraction problems within 5.", "prerequisites": ["count-objects-1-to-5"], "curriculum_alignment": ["CCSS.K.OA.A.1"] },
+            { "slug": "subtract-within-10", "name": "Subtract within 10 using objects or images", "description": "Solve subtraction problems within 10.", "prerequisites": ["subtract-within-5"], "curriculum_alignment": ["CCSS.K.OA.A.5"] },
+            { "slug": "subtract-within-20", "name": "Subtract within 20", "description": "Solve subtraction problems within 20.", "prerequisites": ["subtract-within-10"], "curriculum_alignment": ["CCSS.1.OA.C.6"] },
+            { "slug": "find-missing-addend-within-10", "name": "Find missing addend within 10", "description": "Solve 3 + ? = 7-style problems.", "prerequisites": ["add-within-10"], "curriculum_alignment": ["CCSS.1.OA.D.8"] },
+            { "slug": "fact-families-within-10", "name": "Identify fact families within 10", "description": "Connect 3+4=7, 4+3=7, 7-3=4, 7-4=3.", "prerequisites": ["add-within-10", "subtract-within-10"], "curriculum_alignment": ["CCSS.1.OA.B.4"] },
+            { "slug": "make-10-strategy", "name": "Use 'make-10' strategy for addition", "description": "Decompose to make 10, then add the rest (e.g., 8+5 = 8+2+3).", "prerequisites": ["decompose-numbers-to-10"], "curriculum_alignment": ["CCSS.1.OA.C.6"] },
+            { "slug": "add-3-numbers-within-20", "name": "Add three numbers with sum within 20", "description": "Solve a+b+c = ? problems.", "prerequisites": ["add-within-20"], "curriculum_alignment": ["CCSS.1.OA.A.2"] },
+            { "slug": "add-2-digit-numbers", "name": "Add 2-digit numbers", "description": "Solve 2-digit + 2-digit problems with regrouping.", "prerequisites": ["add-within-20"], "curriculum_alignment": ["CCSS.2.NBT.B.5"] },
+            { "slug": "subtract-2-digit-numbers", "name": "Subtract 2-digit numbers", "description": "Solve 2-digit - 2-digit problems with regrouping.", "prerequisites": ["subtract-within-20"], "curriculum_alignment": ["CCSS.2.NBT.B.5"] }
+          ]
+        },
+        {
+          "slug": "place-value",
+          "name": "Place value",
+          "description": "Understanding the structure of multi-digit numbers.",
+          "targets": [
+            { "slug": "decompose-tens-and-ones-within-19", "name": "Decompose teen numbers as 10 + n", "description": "Show 14 = 10 + 4, etc.", "prerequisites": ["count-objects-1-to-20"], "curriculum_alignment": ["CCSS.K.NBT.A.1"] },
+            { "slug": "identify-tens-and-ones-2-digit", "name": "Identify tens and ones in 2-digit numbers", "description": "For 47, identify 4 tens and 7 ones.", "prerequisites": ["decompose-tens-and-ones-within-19"], "curriculum_alignment": ["CCSS.1.NBT.B.2"] },
+            { "slug": "compare-2-digit-numbers", "name": "Compare 2-digit numbers using place value", "description": "Determine which 2-digit number is larger.", "prerequisites": ["identify-tens-and-ones-2-digit"], "curriculum_alignment": ["CCSS.1.NBT.B.3"] }
+          ]
+        },
+        {
+          "slug": "measurement",
+          "name": "Measurement",
+          "description": "Comparing length, weight, capacity, and time.",
+          "targets": [
+            { "slug": "compare-by-length", "name": "Compare two objects by length", "description": "Decide which of two objects is longer or shorter.", "prerequisites": [], "curriculum_alignment": ["CCSS.K.MD.A.2"] },
+            { "slug": "compare-by-weight", "name": "Compare two objects by weight", "description": "Decide which is heavier or lighter.", "prerequisites": [], "curriculum_alignment": ["CCSS.K.MD.A.2"] },
+            { "slug": "compare-by-capacity", "name": "Compare two containers by capacity", "description": "Decide which holds more or less.", "prerequisites": [], "curriculum_alignment": ["CCSS.K.MD.A.2"] },
+            { "slug": "order-3-objects-by-length", "name": "Order 3 objects by length", "description": "Arrange shortest-to-longest.", "prerequisites": ["compare-by-length"], "curriculum_alignment": ["CCSS.1.MD.A.1"] },
+            { "slug": "tell-time-to-the-hour", "name": "Tell time to the hour on an analog clock", "description": "Read 1:00, 2:00, ... 12:00.", "prerequisites": [], "curriculum_alignment": ["CCSS.1.MD.B.3"] },
+            { "slug": "tell-time-to-half-hour", "name": "Tell time to the half-hour", "description": "Read times like 3:30, 4:30.", "prerequisites": ["tell-time-to-the-hour"], "curriculum_alignment": ["CCSS.1.MD.B.3"] },
+            { "slug": "identify-coin-values", "name": "Identify coin values (locale-appropriate)", "description": "Recognize the coins of the relevant currency and their values.", "prerequisites": [], "curriculum_alignment": ["CCSS.2.MD.C.8"] }
+          ]
+        },
+        {
+          "slug": "geometry",
+          "name": "Geometry & shapes",
+          "description": "Identifying and reasoning about 2D and 3D shapes.",
+          "targets": [
+            { "slug": "identify-2d-shapes-basic", "name": "Identify basic 2D shapes", "description": "Circle, square, triangle, rectangle.", "prerequisites": [], "curriculum_alignment": ["CCSS.K.G.A.2"] },
+            { "slug": "identify-2d-shapes-extended", "name": "Identify extended 2D shapes", "description": "Pentagon, hexagon, oval, star, heart.", "prerequisites": ["identify-2d-shapes-basic"], "curriculum_alignment": ["CCSS.1.G.A.1"] },
+            { "slug": "identify-3d-shapes", "name": "Identify 3D shapes", "description": "Cube, sphere, cone, cylinder.", "prerequisites": ["identify-2d-shapes-basic"], "curriculum_alignment": ["CCSS.K.G.A.3"] },
+            { "slug": "describe-shape-attributes", "name": "Describe shape attributes (sides, corners)", "description": "Count and describe sides + corners of 2D shapes.", "prerequisites": ["identify-2d-shapes-basic"], "curriculum_alignment": ["CCSS.1.G.A.1"] },
+            { "slug": "compose-shapes-from-parts", "name": "Compose shapes from smaller shapes", "description": "Build a rectangle from two triangles, etc.", "prerequisites": ["identify-2d-shapes-basic"], "curriculum_alignment": ["CCSS.1.G.A.2"] },
+            { "slug": "identify-symmetry-line", "name": "Identify a line of symmetry in simple shapes (informal)", "description": "Recognize bilateral symmetry informally — Grade 2 level (formal symmetry standard is CCSS.4.G.A.3, outside K-3 scope).", "prerequisites": ["identify-2d-shapes-basic"], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "partition-shape-halves-quarters", "name": "Partition a shape into halves and quarters", "description": "Divide a circle or rectangle into 2 or 4 equal parts.", "prerequisites": ["identify-2d-shapes-basic"], "curriculum_alignment": ["CCSS.1.G.A.3"] }
+          ]
+        },
+        {
+          "slug": "data-and-graphs",
+          "name": "Data & graphs",
+          "description": "Sorting, classifying, counting, and graphing data.",
+          "targets": [
+            { "slug": "sort-objects-by-attribute", "name": "Sort objects by a single attribute", "description": "Sort by color, shape, or size.", "prerequisites": [], "curriculum_alignment": ["CCSS.K.MD.B.3"] },
+            { "slug": "count-and-graph-categories", "name": "Count objects in categories and represent on a bar graph", "description": "Count items in 2-4 categories and fill a bar graph.", "prerequisites": ["sort-objects-by-attribute", "count-objects-1-to-10"], "curriculum_alignment": ["CCSS.K.MD.B.3", "CCSS.2.MD.D.10"] },
+            { "slug": "interpret-simple-bar-graph", "name": "Interpret a simple bar graph", "description": "Read counts from a bar graph and answer comparison questions.", "prerequisites": ["count-and-graph-categories"], "curriculum_alignment": ["CCSS.2.MD.D.10"] },
+            { "slug": "interpret-simple-pictograph", "name": "Interpret a simple pictograph", "description": "Read counts from a pictograph.", "prerequisites": ["sort-objects-by-attribute"], "curriculum_alignment": ["CCSS.2.MD.D.10"] }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "world-knowledge",
+      "name": "World Knowledge",
+      "description": "Conceptual knowledge of living things, the environment, communities, time, and materials — the K-3 'understanding the world' frame.",
+      "strands": [
+        {
+          "slug": "living-things",
+          "name": "Living things",
+          "description": "Knowledge of animals, plants, and the human body.",
+          "targets": [
+            { "slug": "classify-animals-by-habitat", "name": "Classify animals by habitat", "description": "Sort animals into farm / zoo / pet / sea / forest categories.", "prerequisites": ["identify-and-name-10-farm-animals"], "curriculum_alignment": ["EYFS.ELG.UW", "IB-PYP.SharingPlanet"] },
+            { "slug": "classify-animals-by-diet", "name": "Classify animals as herbivore / carnivore / omnivore", "description": "Sort by diet pattern.", "prerequisites": [], "curriculum_alignment": ["IB-PYP.SharingPlanet"] },
+            { "slug": "identify-plant-parts", "name": "Identify the main parts of a plant", "description": "Roots, stem, leaves, flower, seed.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "describe-plant-life-cycle", "name": "Describe the basic plant life cycle", "description": "Seed → sprout → plant → flower → fruit → seed.", "prerequisites": ["identify-plant-parts"], "curriculum_alignment": ["IB-PYP.HowWorldWorks"] },
+            { "slug": "describe-butterfly-life-cycle", "name": "Describe the butterfly life cycle", "description": "Egg → caterpillar → chrysalis → butterfly.", "prerequisites": [], "curriculum_alignment": ["IB-PYP.HowWorldWorks"] },
+            { "slug": "identify-living-vs-nonliving", "name": "Identify living vs non-living things", "description": "Sort by characteristics: grows, eats, breathes, etc.", "prerequisites": [], "curriculum_alignment": ["IB-PYP.SharingPlanet"] }
+          ]
+        },
+        {
+          "slug": "environment-and-weather",
+          "name": "Environment & weather",
+          "description": "Weather, seasons, day/night, water cycle, geography basics.",
+          "targets": [
+            { "slug": "identify-four-seasons", "name": "Identify the four seasons and their characteristics", "description": "Spring, summer, autumn, winter — including locale-appropriate signals.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "identify-weather-types", "name": "Identify common weather types and dress for them", "description": "Sunny / rainy / snowy / windy / cloudy and matching clothing.", "prerequisites": ["identify-and-name-weather-words", "identify-and-name-clothing"], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "describe-day-night-cycle", "name": "Describe the day/night cycle", "description": "Sun rises, sun sets; activities by time of day.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "describe-water-cycle-basic", "name": "Describe the basic water cycle", "description": "Evaporation → cloud → rain.", "prerequisites": [], "curriculum_alignment": ["IB-PYP.HowWorldWorks"] }
+          ]
+        },
+        {
+          "slug": "community-and-roles",
+          "name": "Community & roles",
+          "description": "Family, jobs, transportation, places in the community.",
+          "targets": [
+            { "slug": "identify-community-helpers", "name": "Identify common community-helper jobs", "description": "Doctor, teacher, firefighter, police officer, baker, etc.", "prerequisites": [], "curriculum_alignment": ["IB-PYP.WhoWeAre"] },
+            { "slug": "identify-community-places", "name": "Identify community places", "description": "School, hospital, library, park, store, post office.", "prerequisites": [], "curriculum_alignment": ["IB-PYP.WhoWeAre"] },
+            { "slug": "identify-transportation-types", "name": "Classify transportation as land / sea / air", "description": "Sort vehicles by where they travel.", "prerequisites": ["identify-and-name-vehicles"], "curriculum_alignment": ["IB-PYP.HowOrganizeOurselves"] }
+          ]
+        },
+        {
+          "slug": "time-and-routine",
+          "name": "Time & routine",
+          "description": "Calendar, daily routines, sequencing events.",
+          "targets": [
+            { "slug": "identify-days-of-week", "name": "Identify the days of the week in order", "description": "Recite days; identify today, yesterday, tomorrow.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "identify-months-of-year", "name": "Identify the months of the year in order", "description": "Recite months; locate current month.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "sequence-daily-routine", "name": "Sequence a daily routine", "description": "Wake up → breakfast → school → lunch → home → dinner → sleep (or locale-appropriate).", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "use-before-after-vocabulary", "name": "Use before/after vocabulary in time contexts", "description": "Apply before/after to event sequences.", "prerequisites": ["sequence-daily-routine"], "curriculum_alignment": ["EYFS.ELG.UW"] }
+          ]
+        },
+        {
+          "slug": "materials-and-properties",
+          "name": "Materials & properties",
+          "description": "Identifying materials and describing their properties.",
+          "targets": [
+            { "slug": "identify-common-materials", "name": "Identify common materials", "description": "Wood, metal, plastic, glass, fabric, paper.", "prerequisites": [], "curriculum_alignment": ["IB-PYP.HowWorldWorks"] },
+            { "slug": "describe-material-properties", "name": "Describe material properties", "description": "Hard/soft, smooth/rough, shiny/dull, transparent/opaque.", "prerequisites": ["identify-common-materials"], "curriculum_alignment": ["IB-PYP.HowWorldWorks"] }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cognitive-and-executive-function",
+      "name": "Cognitive & Executive Function",
+      "description": "Pattern recognition, sorting, logical reasoning, memory, and attention — the executive-function substrate that supports all other learning.",
+      "strands": [
+        {
+          "slug": "pattern-recognition",
+          "name": "Pattern recognition",
+          "description": "Identifying, completing, and creating repeating patterns.",
+          "targets": [
+            { "slug": "identify-AB-pattern", "name": "Identify and continue AB patterns", "description": "Recognize alternating two-element patterns.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.M"] },
+            { "slug": "identify-AAB-ABB-patterns", "name": "Identify and continue AAB / ABB patterns", "description": "Recognize three-element variations.", "prerequisites": ["identify-AB-pattern"], "curriculum_alignment": ["EYFS.ELG.M"] },
+            { "slug": "identify-ABC-pattern", "name": "Identify and continue ABC patterns", "description": "Recognize three-distinct-element patterns.", "prerequisites": ["identify-AB-pattern"], "curriculum_alignment": ["EYFS.ELG.M"] },
+            { "slug": "identify-AABB-pattern", "name": "Identify and continue AABB patterns", "description": "Recognize doubled-pair patterns.", "prerequisites": ["identify-AAB-ABB-patterns"], "curriculum_alignment": ["EYFS.ELG.M"] },
+            { "slug": "create-original-pattern", "name": "Create an original repeating pattern", "description": "Invent and continue a pattern of the kid's own design.", "prerequisites": ["identify-ABC-pattern"], "curriculum_alignment": ["EYFS.ELG.M"] }
+          ]
+        },
+        {
+          "slug": "sorting-and-classification",
+          "name": "Sorting & classification",
+          "description": "Grouping by attribute, identifying group membership.",
+          "targets": [
+            { "slug": "sort-by-color", "name": "Sort objects by color", "description": "Group images by color.", "prerequisites": ["use-color-words"], "curriculum_alignment": ["CCSS.K.MD.B.3"] },
+            { "slug": "sort-by-shape", "name": "Sort objects by shape", "description": "Group by 2D shape.", "prerequisites": ["identify-2d-shapes-basic"], "curriculum_alignment": ["CCSS.K.MD.B.3"] },
+            { "slug": "sort-by-size", "name": "Sort objects by size", "description": "Group small / medium / large.", "prerequisites": ["use-size-comparison-words"], "curriculum_alignment": ["CCSS.K.MD.B.3"] },
+            { "slug": "sort-by-category", "name": "Sort objects by semantic category", "description": "Group animals vs. vehicles, foods vs. clothing, etc.", "prerequisites": ["identify-and-name-10-farm-animals", "identify-and-name-vehicles"], "curriculum_alignment": ["CCSS.K.MD.B.3"] },
+            { "slug": "sort-by-multiple-attributes", "name": "Sort by two attributes simultaneously", "description": "E.g., red AND square; large AND animal.", "prerequisites": ["sort-by-color", "sort-by-shape"], "curriculum_alignment": ["CCSS.1.MD.C.4"] }
+          ]
+        },
+        {
+          "slug": "logical-reasoning",
+          "name": "Logical reasoning",
+          "description": "Odd-one-out, what-comes-next, deductive puzzles.",
+          "targets": [
+            { "slug": "identify-odd-one-out-by-category", "name": "Identify the odd one out in a category set", "description": "From 4 images, pick the one that doesn't share a category with the others.", "prerequisites": ["sort-by-category"], "curriculum_alignment": ["IB-PYP.HowWorldWorks"] },
+            { "slug": "identify-odd-one-out-by-attribute", "name": "Identify the odd one out by attribute", "description": "From 4 images, pick the one that differs by color/shape/size.", "prerequisites": ["sort-by-multiple-attributes"], "curriculum_alignment": ["IB-PYP.HowWorldWorks"] },
+            { "slug": "complete-analogy-image-pair", "name": "Complete a simple analogy", "description": "Cat is to kitten as dog is to ___.", "prerequisites": ["identify-and-name-10-farm-animals"], "curriculum_alignment": [] },
+            { "slug": "solve-4x4-picture-sudoku", "name": "Solve a 4×4 picture sudoku", "description": "Place 4 images so each row and column contains each image once.", "prerequisites": ["sort-by-shape"], "curriculum_alignment": ["IB-PYP.HowWorldWorks"] },
+            { "slug": "solve-6x6-picture-sudoku", "name": "Solve a 6×6 picture sudoku", "description": "Place 6 images so each row and column contains each image once.", "prerequisites": ["solve-4x4-picture-sudoku"], "curriculum_alignment": ["IB-PYP.HowWorldWorks"] }
+          ]
+        },
+        {
+          "slug": "memory-and-attention",
+          "name": "Memory & attention",
+          "description": "Visual scanning, target-finding, recall.",
+          "targets": [
+            { "slug": "find-hidden-target-in-busy-scene", "name": "Find a hidden target in a busy scene", "description": "Scan and locate a named object in a complex picture.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "count-instances-of-target-in-grid", "name": "Count instances of a target in a grid", "description": "Find and count how many times a target image appears.", "prerequisites": ["count-objects-1-to-20"], "curriculum_alignment": ["CCSS.K.CC.B.5"] },
+            { "slug": "remember-image-pair-positions", "name": "Remember image-pair positions (matching memory game)", "description": "Find pairs by remembering where each image was last seen.", "prerequisites": [], "curriculum_alignment": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fine-motor-and-visual-spatial",
+      "name": "Fine Motor & Visual-Spatial",
+      "description": "Drawing, handwriting, dexterity, and spatial reasoning skills that underpin K-3 academic work.",
+      "strands": [
+        {
+          "slug": "handwriting",
+          "name": "Handwriting",
+          "description": "Forming letters and numerals correctly.",
+          "targets": [
+            { "slug": "form-uppercase-letters", "name": "Form all uppercase letters correctly", "description": "Write A-Z with appropriate stroke order.", "prerequisites": ["identify-uppercase-letters"], "curriculum_alignment": ["CCSS.L.K.1a"] },
+            { "slug": "form-lowercase-letters", "name": "Form all lowercase letters correctly", "description": "Write a-z with appropriate stroke order.", "prerequisites": ["identify-lowercase-letters", "form-uppercase-letters"], "curriculum_alignment": ["CCSS.L.K.1a"] },
+            { "slug": "form-numerals-0-to-10", "name": "Form numerals 0-10 correctly", "description": "Write 0-10 with appropriate stroke order.", "prerequisites": ["match-numeral-to-quantity-1-to-10"], "curriculum_alignment": ["CCSS.K.CC.A.3"] }
+          ]
+        },
+        {
+          "slug": "drawing-and-tracing",
+          "name": "Drawing & tracing",
+          "description": "Pencil control through tracing, line-drawing, and shape-drawing.",
+          "targets": [
+            { "slug": "trace-straight-lines", "name": "Trace straight lines (horizontal, vertical, diagonal)", "description": "Pencil control along simple lines.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.PD"] },
+            { "slug": "trace-curved-lines", "name": "Trace curved lines and arcs", "description": "Pencil control along curves.", "prerequisites": ["trace-straight-lines"], "curriculum_alignment": ["EYFS.ELG.PD"] },
+            { "slug": "trace-2d-shapes", "name": "Trace basic 2D shapes", "description": "Trace circle, square, triangle, rectangle.", "prerequisites": ["identify-2d-shapes-basic"], "curriculum_alignment": ["EYFS.ELG.PD"] },
+            { "slug": "draw-2d-shapes-freehand", "name": "Draw basic 2D shapes freehand", "description": "Reproduce shapes without tracing guides.", "prerequisites": ["trace-2d-shapes"], "curriculum_alignment": ["EYFS.ELG.PD"] }
+          ]
+        },
+        {
+          "slug": "spatial-reasoning",
+          "name": "Spatial reasoning",
+          "description": "Position, direction, and orientation.",
+          "targets": [
+            { "slug": "use-position-vocabulary", "name": "Use position vocabulary (in / on / under / next-to)", "description": "Describe object position with appropriate prepositions.", "prerequisites": ["use-spatial-position-words"], "curriculum_alignment": ["CCSS.K.G.A.1"] },
+            { "slug": "use-direction-vocabulary", "name": "Use direction vocabulary (left / right / up / down)", "description": "Apply directional words to navigate or describe.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.M"] },
+            { "slug": "follow-directions-on-grid", "name": "Follow simple directions on a grid", "description": "Move N steps right, M steps up, etc.", "prerequisites": ["use-direction-vocabulary"], "curriculum_alignment": ["EYFS.ELG.M"] },
+            { "slug": "navigate-simple-maze", "name": "Navigate a simple maze from start to finish", "description": "Find a continuous path through a small maze.", "prerequisites": ["trace-curved-lines"], "curriculum_alignment": ["EYFS.ELG.PD"] },
+            { "slug": "navigate-complex-maze", "name": "Navigate a complex maze with multiple paths", "description": "Find the correct path among distractor paths.", "prerequisites": ["navigate-simple-maze"], "curriculum_alignment": ["EYFS.ELG.PD"] }
+          ]
+        },
+        {
+          "slug": "visual-discrimination",
+          "name": "Visual discrimination",
+          "description": "Noticing similarities and differences in visual stimuli.",
+          "targets": [
+            { "slug": "match-image-to-shadow", "name": "Match an image to its shadow/silhouette", "description": "Pair full-color images with their black silhouettes.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "match-image-piece-to-whole", "name": "Match a fragmented image piece to the whole image", "description": "Identify which fragmented piece comes from which complete image.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "find-missing-piece", "name": "Find the correct missing piece for a picture", "description": "Select from distractor pieces the one that fits the gap.", "prerequisites": ["match-image-piece-to-whole"], "curriculum_alignment": ["EYFS.ELG.UW"] },
+            { "slug": "spot-the-difference-2-pictures", "name": "Spot the differences between two similar pictures", "description": "Identify N small differences in paired images.", "prerequisites": [], "curriculum_alignment": ["EYFS.ELG.UW"] }
+          ]
+        }
+      ]
+    }
+  ]
+}

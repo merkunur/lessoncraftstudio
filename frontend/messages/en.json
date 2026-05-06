@@ -144,6 +144,11 @@
       "headline": "{exerciseTypes} exercise types × {themes} themes × {locales} languages = {variants} possible worksheets.",
       "footnote": "Currently {publishedDecks} published of {combinatorialTotal} total combinations. Catalog grows daily.",
       "footnoteLabel": "Catalog growth note"
+    },
+    "embedViralityCTA": {
+      "heading": "Put any worksheet on your website.",
+      "intro": "Embed an interactive deck on your classroom blog, school site, or shared page. Your students get the same play experience, no signup required.",
+      "buttonLabel": "Get the embed code"
     }
   },
   "auth": {

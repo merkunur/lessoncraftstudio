@@ -143,6 +143,11 @@
       "headline": "{exerciseTypes} øvelsestyper × {themes} temaer × {locales} språk = {variants} mulige arbeidsark.",
       "footnote": "For øyeblikket {publishedDecks} publisert av {combinatorialTotal} totale kombinasjoner. Katalogen vokser daglig.",
       "footnoteLabel": "Notat om katalogvekst"
+    },
+    "embedViralityCTA": {
+      "heading": "Legg til hvilket som helst arbeidsark på nettstedet ditt.",
+      "intro": "Bygg inn et interaktivt ark på klassebloggen, skolenettstedet eller en delt side. Elevene får den samme spillopplevelsen uten påmelding.",
+      "buttonLabel": "Hent innebyggingskoden"
     }
   },
   "worksheetSamples": {

@@ -22,15 +22,26 @@ export default async function MagnitudeFraming({ locale }: { locale: string }) {
   const t = await getTranslations({ locale, namespace: 'homepage.magnitudeFraming' });
   const axes = await getCatalogAxes();
 
+  // Arc 2 polish: typographic hierarchy on the magnitude-framing line.
+  // Per Arc 2 commission scope: "typographic hierarchy on the numerals
+  // (29 / 100 / 11) so they read as magnitudes at-a-glance; population
+  // footnote rendered small + muted." Rather than re-author the existing
+  // 11-locale ICU templates with rich-text markup (would need updates to
+  // all 11 messages files for tag wrapping), we lift the whole headline
+  // into display-grade typography — the numerals are intrinsically
+  // typographically distinctive (digits cluster, prose flows around) so
+  // they jump out at display sizes without per-numeral wrappers.
+  // Footnote stays subordinate via small + muted color.
+
   return (
     <section
       id="magnitude-framing"
-      className="container mx-auto px-4 max-w-6xl py-6 md:py-8"
+      className="container mx-auto px-4 max-w-6xl py-8 md:py-10"
       aria-labelledby="magnitude-framing-heading"
     >
       <p
         id="magnitude-framing-heading"
-        className="text-lg md:text-xl text-ink-700 font-medium leading-relaxed text-center"
+        className="font-display font-semibold text-2xl md:text-3xl lg:text-4xl text-ink-900 leading-snug tracking-tight text-center max-w-4xl mx-auto"
       >
         {t('headline', {
           exerciseTypes: axes.exerciseTypes.count,
@@ -39,7 +50,10 @@ export default async function MagnitudeFraming({ locale }: { locale: string }) {
           variants: axes.combinatorialSpace.total.toLocaleString(),
         })}
       </p>
-      <p className="mt-2 text-sm text-ink-500 text-center" aria-label={t('footnoteLabel')}>
+      <p
+        className="mt-3 text-xs md:text-sm text-ink-500 text-center leading-relaxed max-w-2xl mx-auto"
+        aria-label={t('footnoteLabel')}
+      >
         {t('footnote', {
           publishedDecks: axes.currentPopulation.publishedDeckCount.toLocaleString(),
           combinatorialTotal: axes.combinatorialSpace.total.toLocaleString(),

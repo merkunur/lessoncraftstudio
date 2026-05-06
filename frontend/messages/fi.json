@@ -143,6 +143,11 @@
       "headline": "{exerciseTypes} tehtävätyyppiä × {themes} aihetta × {locales} kieltä = {variants} mahdollista työarkkia.",
       "footnote": "Tällä hetkellä {publishedDecks} julkaistu {combinatorialTotal} kokonaisyhdistelmästä. Katalogi kasvaa päivittäin.",
       "footnoteLabel": "Huomautus katalogin kasvusta"
+    },
+    "embedViralityCTA": {
+      "heading": "Lisää mikä tahansa tehtäväsivu omille verkkosivuillesi.",
+      "intro": "Upota interaktiivinen tehtäväsivu luokkasi blogiin, koulun sivustolle tai jaetulle sivulle. Oppilaasi saavat saman pelikokemuksen ilman rekisteröitymistä.",
+      "buttonLabel": "Hae upotuskoodi"
     }
   },
   "worksheetSamples": {

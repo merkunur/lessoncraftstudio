@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import topicsTaxonomy from '@/config/topics-taxonomy.json';
+import themeThumbnails from '@/lib/theme-thumbnails.json';
 
 /**
  * ThemeStrip — Alt A above-the-fold structural-axis surface per
@@ -13,9 +14,16 @@ import topicsTaxonomy from '@/config/topics-taxonomy.json';
  * embed-readiness substrate framing: every tile is a server-rendered <a>
  * hreflinking a topic page → SEO crawl-bait surface.
  *
- * Arc 1 substrate: scaffold-only. Real thumbnail assets + visual-design
- * polish land in Arc 2. This component renders structural placeholder
- * tiles so the surface exists for layout testing.
+ * Arc 2 (this revision): real theme thumbnails from
+ * `frontend/lib/theme-thumbnails.json` (mapping generated mechanically by
+ * picking the first alphabetical PNG per theme dir from the image library;
+ * paths follow the production `/images/{theme_id}/{filename}` convention
+ * per IMAGE LIBRARY.md). Per Arc 2 A3 operator-locked Option C: hand-
+ * curated JSON; `next/image`-style runtime serving via plain <img>.
+ *
+ * Per Arc 2 A3 fallback rule: if a theme lacks a thumbnail entry, render
+ * the cream-tile placeholder treatment (no broken-image icon). 100/100
+ * resolved at Arc 2 ship; placeholder branch retained for future safety.
  */
 export default async function ThemeStrip({ locale }: { locale: string }) {
   const t = await getTranslations({ locale, namespace: 'homepage.themeStrip' });
@@ -27,6 +35,7 @@ export default async function ThemeStrip({ locale }: { locale: string }) {
   const themeAxis = (topicsTaxonomy as {
     axes: { theme: Record<string, { name: Record<string, string>; slug: Record<string, string> }> };
   }).axes.theme;
+  const thumbnails = themeThumbnails as Record<string, string>;
   const themeKeys = Object.keys(themeAxis);
   function nameFor(themeKey: string): string {
     const entry = themeAxis[themeKey];
@@ -59,6 +68,7 @@ export default async function ThemeStrip({ locale }: { locale: string }) {
         {themeKeys.map((themeKey) => {
           const slug = themeAxis[themeKey].slug[locale] || themeKey;
           const name = nameFor(themeKey);
+          const thumbnail = thumbnails[themeKey];
           return (
             <a
               key={themeKey}
@@ -67,10 +77,24 @@ export default async function ThemeStrip({ locale }: { locale: string }) {
               className="group flex flex-col items-center flex-shrink-0 snap-start w-24 md:w-28"
               aria-label={name}
             >
-              {/* Arc 1 substrate: placeholder tile. Arc 2 replaces with
-                  real theme-thumbnail asset from image_themes table. */}
-              <div className="w-24 h-24 md:w-28 md:h-28 rounded-lg border border-cream-300 bg-cream-100 group-hover:border-ink-700 group-hover:shadow-md transition-all flex items-center justify-center text-3xl text-ink-500" aria-hidden="true">
-                {themeKey.charAt(0).toUpperCase()}
+              <div className="w-24 h-24 md:w-28 md:h-28 rounded-lg border border-cream-300 bg-cream-50 overflow-hidden group-hover:border-ink-700 group-hover:shadow-md transition-all flex items-center justify-center">
+                {thumbnail ? (
+                  <img
+                    src={thumbnail}
+                    alt=""
+                    aria-hidden="true"
+                    loading="lazy"
+                    decoding="async"
+                    className="w-full h-full object-contain p-2"
+                  />
+                ) : (
+                  /* Placeholder for any theme without an available thumbnail;
+                     never reached at Arc 2 ship (100/100 resolved) but retained
+                     so future taxonomy additions don't break the strip. */
+                  <span aria-hidden="true" className="text-2xl font-medium text-ink-400">
+                    {name.charAt(0).toUpperCase()}
+                  </span>
+                )}
               </div>
               <span className="mt-2 text-xs font-medium text-ink-900 text-center line-clamp-1 w-full">
                 {name}

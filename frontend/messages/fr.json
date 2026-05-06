@@ -143,6 +143,11 @@
       "headline": "{exerciseTypes} types d'exercices × {themes} thèmes × {locales} langues = {variants} fiches possibles.",
       "footnote": "Actuellement {publishedDecks} publiées sur {combinatorialTotal} combinaisons totales. Catalogue en croissance quotidienne.",
       "footnoteLabel": "Note sur la croissance du catalogue"
+    },
+    "embedViralityCTA": {
+      "heading": "Mettez n'importe quelle fiche sur votre site Web.",
+      "intro": "Intégrez un exercice interactif sur le blog de votre classe, le site de votre école ou une page partagée. Vos élèves bénéficient de la même expérience de jeu, sans inscription requise.",
+      "buttonLabel": "Obtenir le code d'intégration"
     }
   },
   "worksheetSamples": {

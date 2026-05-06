@@ -143,6 +143,11 @@
       "headline": "{exerciseTypes} tipi di esercizi × {themes} temi × {locales} lingue = {variants} schede possibili.",
       "footnote": "Attualmente {publishedDecks} pubblicate su {combinatorialTotal} combinazioni totali. Il catalogo cresce ogni giorno.",
       "footnoteLabel": "Nota sulla crescita del catalogo"
+    },
+    "embedViralityCTA": {
+      "heading": "Metti qualsiasi scheda sul tuo sito web.",
+      "intro": "Incorpora una scheda interattiva sul blog della tua classe, sul sito della scuola o su una pagina condivisa. I tuoi alunni hanno la stessa esperienza di gioco, senza registrazione.",
+      "buttonLabel": "Ottieni il codice di incorporamento"
     }
   },
   "worksheetSamples": {

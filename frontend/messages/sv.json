@@ -143,6 +143,11 @@
       "headline": "{exerciseTypes} övningstyper × {themes} teman × {locales} språk = {variants} möjliga arbetsblad.",
       "footnote": "Just nu {publishedDecks} publicerade av {combinatorialTotal} totala kombinationer. Katalogen växer dagligen.",
       "footnoteLabel": "Anteckning om katalogtillväxt"
+    },
+    "embedViralityCTA": {
+      "heading": "Lägg till vilket arbetsblad som helst på din webbplats.",
+      "intro": "Bädda in ett interaktivt blad på din klassblogg, skolwebbplats eller delad sida. Dina elever får samma spelupplevelse, utan registrering.",
+      "buttonLabel": "Hämta inbäddningskoden"
     }
   },
   "worksheetSamples": {

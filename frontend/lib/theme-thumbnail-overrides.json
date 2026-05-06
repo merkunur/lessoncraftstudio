@@ -1,0 +1,22 @@
+{
+  "_comment": "Hand-curated archetypal thumbnails for high-traffic themes; overrides first-alphabetical default in scripts/generate-theme-thumbnails.js. Each value is a filename relative to the matching `image library/<display-dir>/`. Keys not listed here use first-alphabetical pick. Operator-locked at Arc 2 Phase 4 spot-check (2026-05-06): 17 archetypal picks + tree fallback resolved to oak.png. Re-run scripts/generate-theme-thumbnails.js after any edit here.",
+  "_underscore_keys_are_metadata": "Keys prefixed with `_` are stripped by the generator and treated as documentation only.",
+
+  "4th_of_july": "flag.png",
+  "animals": "cat.png",
+  "zoo_animals": "elephant.png",
+  "farm_animals": "cow.png",
+  "farm_animals_bw": "cow.png",
+  "spring": "flower.png",
+  "tree": "oak.png",
+  "thanksgivinng": "pumpkin.png",
+  "food_bw_2": "bread.png",
+  "toys_bw": "car.png",
+  "toys_bw_2": "teddy bear.png",
+  "vehicles_bw_2": "car.png",
+  "miscellaneous": "house.png",
+  "dinosaurs": "brachiosaurus.png",
+  "emotions": "happy.png",
+  "occupations": "chef.png",
+  "tools": "hammer.png"
+}

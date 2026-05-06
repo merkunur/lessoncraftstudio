@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { CANONICAL_29_EXERCISE_TYPES } from '@/lib/catalog-axes';
 import topicsTaxonomy from '@/config/topics-taxonomy.json';
+import { ExerciseTypeIcon } from './icons/ExerciseTypeIcon';
 
 /**
  * ExerciseTypeGrid — Alt A above-the-fold structural-axis surface per
@@ -16,9 +17,11 @@ import topicsTaxonomy from '@/config/topics-taxonomy.json';
  * topic-slug-resolution sense; the topic page itself is Next.js but the slug
  * resolution path is direct anchor link).
  *
- * Arc 1 substrate: scaffold-only. Final SVG icons + visual-design polish
- * land in Arc 2. This component renders functional placeholder tiles so the
- * structural surface exists for layout testing.
+ * Arc 2 (this revision): real glyphs from `./icons/ExerciseTypeIcon` per
+ * Arc 2 A2 operator-locked adjudication (2026-05-06; commit pending). Each
+ * tile carries a hand-authored single-color stroke-led SVG glyph sized to
+ * read at 32×32; tile retains label below for accessibility + recognition
+ * disambiguation when the visitor hasn't yet learned the glyph vocabulary.
  *
  * SSR-rendered to maximize crawler-readability per §17.4 SEO doctrine —
  * ~140 internal links per locale × 11 locales targeted by Alt A's SEO
@@ -73,16 +76,14 @@ export default async function ExerciseTypeGrid({ locale }: { locale: string }) {
               key={exerciseType}
               href={`/${locale}/topic/${slug}/`}
               role="listitem"
-              className="group flex flex-col items-center justify-center rounded-lg border border-cream-300 bg-cream-50 hover:border-ink-700 hover:shadow-md transition-all p-4 aspect-square text-center"
+              className="group flex flex-col items-center justify-center rounded-lg border border-cream-300 bg-cream-50 hover:border-ink-700 hover:shadow-md transition-all p-4 aspect-square text-center text-ink-700 hover:text-ink-900"
               aria-label={label}
             >
-              {/* Arc 1 substrate: placeholder icon. Arc 2 replaces with SVG icon
-                  per the design-asset commission. */}
-              <div className="text-3xl mb-2" aria-hidden="true">
-                {/* Single-char placeholder; Arc 2 replaces with SVG */}
-                {exerciseType.charAt(0).toUpperCase()}
-              </div>
-              <span className="text-xs font-medium text-ink-900 line-clamp-2">
+              <ExerciseTypeIcon
+                name={exerciseType}
+                className="w-9 h-9 md:w-10 md:h-10 mb-2"
+              />
+              <span className="text-xs font-medium text-ink-900 line-clamp-2 leading-tight">
                 {label}
               </span>
             </a>

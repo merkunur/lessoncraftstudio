@@ -143,6 +143,11 @@
       "headline": "{exerciseTypes} tipos de ejercicios × {themes} temas × {locales} idiomas = {variants} hojas de trabajo posibles.",
       "footnote": "Actualmente {publishedDecks} publicadas de {combinatorialTotal} combinaciones totales. El catálogo crece a diario.",
       "footnoteLabel": "Nota sobre el crecimiento del catálogo"
+    },
+    "embedViralityCTA": {
+      "heading": "Pon cualquier hoja de trabajo en tu sitio web.",
+      "intro": "Inserta una ficha interactiva en el blog de tu clase, el sitio de tu escuela o una página compartida. Tus alumnos tienen la misma experiencia de juego, sin registro.",
+      "buttonLabel": "Obtener el código de inserción"
     }
   },
   "auth": {

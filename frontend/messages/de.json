@@ -144,6 +144,11 @@
       "headline": "{exerciseTypes} Aufgabenarten × {themes} Themen × {locales} Sprachen = {variants} mögliche Arbeitsblätter.",
       "footnote": "Aktuell {publishedDecks} veröffentlicht von {combinatorialTotal} Gesamtkombinationen. Katalog wächst täglich.",
       "footnoteLabel": "Hinweis zum Katalogwachstum"
+    },
+    "embedViralityCTA": {
+      "heading": "Setzen Sie jedes Arbeitsblatt auf Ihre Website.",
+      "intro": "Betten Sie ein interaktives Deck in Ihren Klassenblog, Ihre Schulseite oder eine geteilte Seite ein. Ihre Schüler erhalten dasselbe Spielerlebnis, ohne Anmeldung.",
+      "buttonLabel": "Embed-Code holen"
     }
   },
   "auth": {

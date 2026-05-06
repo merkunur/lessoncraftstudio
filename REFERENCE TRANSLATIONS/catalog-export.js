@@ -551,20 +551,26 @@
       return typeof s === 'string' && /^__[A-Z_]+__$/.test(s);
     }
 
+    // Emit `__CANONICAL_URL__` placeholder when no real URL was provided.
+    // publish-cli substitutes the placeholder at upload time per §17.8.5,
+    // producing the correct https://www.lessoncraftstudio.com/<locale>/decks
+    // /<slug>/ URL for catalog-published decks. The prior predicted-slug
+    // fallback (`slugify(bundle.title)`) produced URLs that diverged from
+    // publish-cli's actual slug derivation (`<exercise-type>-<exercise-mode
+    // >-<theme>`), breaking every catalog-published embed snippet — surfaced
+    // empirically when more-less + math-puzzle 303-deck batches all baked
+    // `more-or-less-practice` / `math-puzzle-practice` URLs that don't exist.
+    // Direct-download decks (not catalog-published, no publish-cli in path)
+    // ship the literal `__CANONICAL_URL__` placeholder; they aren't meant
+    // for embedding so the literal-token state is acceptable until a future
+    // direct-download URL-resolution mechanism ships per §17.8.15 deferred
+    // queue.
     var url = null;
     if (canonicalURL && typeof canonicalURL === 'string' && !isPlaceholder(canonicalURL)) {
       url = canonicalURL;
-    } else if (locale && title) {
-      var slug = slugify(title);
-      if (slug) {
-        url = 'https://www.lessoncraftstudio.com/' + locale + '/decks/' + slug + '/';
-      }
+    } else {
+      url = '__CANONICAL_URL__';
     }
-
-    // ANSWER-BEARING-style hygiene (§17.8.11 defensive skip): no real URL
-    // means the share button has no meaningful target. Empty string skips
-    // emission entirely. Do NOT render a degraded variant.
-    if (!url) return '';
 
     // Read localized strings at generation time. window.translations is
     // populated by per-app translations-<app>.js + translations-shared.js
@@ -734,18 +740,19 @@
       return typeof s === 'string' && /^__[A-Z_]+__$/.test(s);
     }
 
+    // Same canonical-URL contract as buildShareAffordance: emit the
+    // `__CANONICAL_URL__` placeholder when no real URL was provided so
+    // publish-cli's §17.8.5 substitution lands the correct URL at upload
+    // time. The predicted-slug fallback was dropped here per the same
+    // commit that fixed buildShareAffordance — the predicted slug
+    // diverged from publish-cli's actual slug derivation, breaking every
+    // catalog-published embed snippet.
     var url = null;
     if (canonicalURL && typeof canonicalURL === 'string' && !isPlaceholder(canonicalURL)) {
       url = canonicalURL;
-    } else if (locale && title) {
-      var slug = slugify(title);
-      if (slug) {
-        url = 'https://www.lessoncraftstudio.com/' + locale + '/decks/' + slug + '/';
-      }
+    } else {
+      url = '__CANONICAL_URL__';
     }
-
-    // Defensive skip per §17.8.11: no real URL means no meaningful embed target.
-    if (!url) return '';
 
     // Bare-translations lookup per §17.8.14 srLang-keyed convention.
     var t = (typeof translations !== 'undefined' && translations[locale]) || {};

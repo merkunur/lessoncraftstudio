@@ -2,7 +2,7 @@
 
 Phase 3 deliverable for the teaching-package architecture. Each generator is a standalone HTML file that the operator opens in a browser, configures via the sidebar UI, and downloads a print-ready PDF from. Mirrors the existing 29-app pattern (Fabric.js + jsPDF client-side rendering) per CLAUDE.md §3.5 — no microservices, no server-side template rendering.
 
-## Phase 3a generators (this commit)
+## Phase 3a generators (commit `c9ae2225`)
 
 | File | Material slug | Purpose |
 |---|---|---|
@@ -11,13 +11,13 @@ Phase 3 deliverable for the teaching-package architecture. Each generator is a s
 | `manipulative-cut-outs.html` | `manipulative-cut-outs` | Themed counters for K-3 hands-on math + sorting |
 | `answer-key.html` | `answer-key` | Per-package teacher reference; consumes a package.yaml |
 
-## Phase 3b generators (follow-on commit)
+## Phase 3b generators (this commit)
 
-| File | Material slug | Status |
+| File | Material slug | Purpose |
 |---|---|---|
-| `sentence-strips.html` | `sentence-strips` | Pending — needs IMAGE_VOCABULARY article auto-resolution at scale |
-| `parent-take-home-letter.html` | `parent-take-home-letter` | Pending — needs locale-aware body + tone modes |
-| `vocabulary-tracing-strips.html` | (not in v1 catalog) | Pending — operator pulled forward from Arc 2 deferred queue. New generator (do NOT extend writing.html per §3.2) |
+| `sentence-strips.html` | `sentence-strips` | Pocket-chart strips with target-language frame + embedded image; 7 preset frames + custom; per-locale frame templates for en/de/es/fr/nl with article + plural auto-resolution from IMAGE_VOCABULARY gender |
+| `parent-take-home-letter.html` | `parent-take-home-letter` | Letter to parents in HOME language (greet/body/close per tone) + picture cues labeled in TARGET language; full 11-locale × 3-tone template matrix baked in |
+| `vocabulary-tracing-strips.html` | `vocabulary-tracing-strips` | Image + traceable word + optional blank line. NEW generator per CLAUDE.md §3.2 (does NOT extend writing.html). Pulled forward from Arc 2 deferred queue per operator authorization. Catalog entry added in this commit. |
 
 ## Out-of-scope (Arc 2)
 

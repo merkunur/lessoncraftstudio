@@ -242,6 +242,38 @@
         "Cut size load-bearing: too small (<1in) = K kids can't cut; too large (>2.5in) = wastes paper. Default 1.5in covers most use cases.",
         "Phase 4 farm-animals package would compose this material in variety mode with vocabKeys=[cow, sheep, pig, ...] x 2 copies each = 20 cut-outs."
       ]
+    },
+    {
+      "slug": "vocabulary-tracing-strips",
+      "name": "Vocabulary tracing strips",
+      "category": "handwriting-practice",
+      "description": "Image + dotted-line word for tracing + blank line for independent writing. K-Grade-1 word-tracing practice paired with vocabulary acquisition. Generator is a NEW material per operator decision (do NOT extend existing writing.html per CLAUDE.md §3.2). Pulled forward from Arc 2 deferred queue at operator authorization in Arc 1 Phase 3 commission.",
+      "generation_mechanism": "image library + IMAGE_VOCABULARY label + traceable-word rendering (light gray fill or thin outline at large font); blank ruled line for independent writing",
+      "format": ["pdf"],
+      "customization_parameters": [
+        { "key": "imageSource", "type": "select", "values_or_range": ["theme", "manualSelection", "vocabKeyList"], "default": "theme" },
+        { "key": "themeName", "type": "string", "values_or_range": "<image_themes.name>", "default": null },
+        { "key": "vocabKeys", "type": "string-array", "values_or_range": "<vocabulary keys>", "default": null },
+        { "key": "stripCount", "type": "number", "values_or_range": "4-12", "default": 6 },
+        { "key": "stripsPerPage", "type": "select", "values_or_range": [4, 5, 6, 8], "default": 6 },
+        { "key": "labelCase", "type": "select", "values_or_range": ["lowercase", "Title Case", "UPPERCASE"], "default": "lowercase" },
+        { "key": "traceStyle", "type": "select", "values_or_range": ["dotted", "outline"], "default": "dotted", "description": "dotted = light-gray fill (kid traces over); outline = thin-stroke hollow letters." },
+        { "key": "includeIndependentLine", "type": "checkbox", "values_or_range": [true, false], "default": true, "description": "Add a blank ruled line for independent writing after the traceable word." },
+        { "key": "colorMode", "type": "select", "values_or_range": ["color", "bw"], "default": "color" },
+        { "key": "paperSize", "type": "select", "values_or_range": ["a4", "letter"], "default": "a4" },
+        { "key": "language", "type": "select", "values_or_range": ["en", "de", "fr", "es", "pt", "it", "nl", "sv", "da", "no", "fi"], "default": "en" }
+      ],
+      "k3_classroom_use_scenarios": [
+        "Independent table-work: kid traces the word over the dotted/outline form, then writes it independently on the blank line",
+        "Pair-tracing station: kids take turns tracing each other's strips",
+        "Take-home practice: send a sheet home for parent-supervised writing practice",
+        "K-Grade-1 fine-motor + vocabulary integration: tracing reinforces letter formation while pairing with image-meaning"
+      ],
+      "doctrine_notes": [
+        "True dotted-stroke handwriting font NOT loaded; v1 approximates via light-gray fill (Fredoka @ ~48pt #d0d4dc) or thin outline. Arc 2+ may add a custom handwriting font for true tracing-style strokes.",
+        "Verify against existing writing.html behavior at Phase 3b deploy: writing.html is letter-tracing (operator-authored letter selection); this material is word-tracing keyed on vocabulary. The two are pedagogically distinct and both ship.",
+        "Phase 4 farm-animals package would NOT compose this material (farm-animals is K-2 vocabulary, kids may not be writing-ready). Reserve for Grade-1+ packages."
+      ]
     }
   ]
 }

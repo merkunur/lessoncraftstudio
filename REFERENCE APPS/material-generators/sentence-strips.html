@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sentence Strips Generator | LessonCraftStudio</title>
+<meta name="robots" content="noindex">
+<meta name="description" content="Generate printable sentence strips with embedded image and target-language frame. Article + plural auto-resolved from IMAGE_VOCABULARY.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Lexend+Deca:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<script src="/worksheet-generators/js/image-vocabulary.js?v=3"></script>
+<script src="/worksheet-generators/js/catalog-export.js?v=9"></script>
+<script src="/worksheet-generators/js/material-generator-shared.js?v=1"></script>
+
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: 'Lexend Deca', system-ui, sans-serif; background: #f4f6fa; color: #222; }
+  .layout { display: flex; min-height: 100vh; }
+  .sidebar { width: 360px; padding: 20px; background: #fff; border-right: 1px solid #e1e4eb; overflow-y: auto; }
+  .canvas-pane { flex: 1; padding: 24px; display: flex; align-items: flex-start; justify-content: center; overflow: auto; }
+  h1 { font-family: 'Fredoka', sans-serif; font-size: 22px; margin: 0 0 4px; }
+  .subtitle { color: #5c6878; font-size: 13px; margin-bottom: 20px; }
+  fieldset { border: 1px solid #e1e4eb; border-radius: 8px; padding: 12px; margin-bottom: 14px; }
+  legend { font-weight: 600; padding: 0 6px; font-size: 13px; color: #4a5468; }
+  label { display: block; margin-bottom: 8px; font-size: 13px; }
+  label > span { display: block; color: #5c6878; margin-bottom: 3px; font-size: 12px; }
+  input[type="text"], input[type="number"], select { width: 100%; padding: 6px 8px; border: 1px solid #cbd2dc; border-radius: 4px; font-size: 13px; font-family: inherit; }
+  button { width: 100%; padding: 10px; background: #2563eb; color: #fff; border: 0; border-radius: 6px; font-weight: 600; font-size: 14px; cursor: pointer; font-family: inherit; }
+  button:disabled { background: #9ca3af; cursor: not-allowed; }
+  .status { margin-top: 12px; font-size: 12px; color: #5c6878; min-height: 16px; }
+  .status.error { color: #c0392b; }
+  .canvas-host { background: #fff; border: 1px solid #e1e4eb; box-shadow: 0 4px 16px rgba(0,0,0,.06); }
+  details { font-size: 12px; color: #5c6878; }
+</style>
+</head>
+<body>
+
+<div class="layout">
+  <aside class="sidebar">
+    <h1>Sentence Strips</h1>
+    <div class="subtitle">Pocket-chart strips with target-language frame + embedded image. Articles auto-resolved.</div>
+
+    <fieldset>
+      <legend>Frame</legend>
+      <label><span>Preset</span>
+        <select id="framePreset">
+          <option value="i-see-a" selected>I see a {item}</option>
+          <option value="i-have-a">I have a {item}</option>
+          <option value="this-is-a">This is a {item}</option>
+          <option value="i-like-plural">I like {item:plural}</option>
+          <option value="there-are-count-plural">There are {count} {item:plural}</option>
+          <option value="the-item-is-color">The {item} is {color}</option>
+          <option value="the-item-says">The {item} says ___</option>
+          <option value="custom">Custom (use template field below)</option>
+        </select>
+      </label>
+      <label><span>Custom template (when preset = custom)</span>
+        <input id="customTemplate" type="text" placeholder="e.g. The {item} runs fast">
+      </label>
+      <details>
+        <summary>Placeholder reference</summary>
+        <div style="padding: 8px; line-height: 1.5;">
+          <code>{item}</code> = singular form (with auto-resolved indefinite article)<br>
+          <code>{item:plural}</code> = plural form<br>
+          <code>{count}</code> = numeric count (uses item count as the value)<br>
+          <code>{color}</code> = color word (English-only at v1; locale-table extension Arc 2)
+        </div>
+      </details>
+    </fieldset>
+
+    <fieldset>
+      <legend>Image source</legend>
+      <label><span>Theme name</span><input id="themeInput" type="text" value="animals"></label>
+      <label><span>Strip count (4–20)</span><input id="stripCount" type="number" min="4" max="20" value="10"></label>
+      <label><span>Vocab keys (optional override)</span><input id="vocabKeysInput" type="text" placeholder="cat,dog,..."></label>
+      <label><span>Color mode</span>
+        <select id="colorMode">
+          <option value="color" selected>Color</option>
+          <option value="bw">Black &amp; White</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Layout</legend>
+      <label><span>Strips per page</span>
+        <select id="stripsPerPage">
+          <option value="3">3</option>
+          <option value="4" selected>4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+        </select>
+      </label>
+      <label><span>Paper size + orientation</span>
+        <select id="paperOrient">
+          <option value="a4-landscape" selected>A4 landscape (recommended for strips)</option>
+          <option value="a4-portrait">A4 portrait</option>
+          <option value="letter-landscape">Letter landscape</option>
+          <option value="letter-portrait">Letter portrait</option>
+        </select>
+      </label>
+      <label><span>Language</span>
+        <select id="language">
+          <option value="en">en</option><option value="de">de</option><option value="fr">fr</option>
+          <option value="es">es</option><option value="pt">pt</option><option value="it">it</option>
+          <option value="nl">nl</option><option value="sv">sv</option><option value="da">da</option>
+          <option value="no">no</option><option value="fi">fi</option>
+        </select>
+      </label>
+      <label><input id="includeWritingLine" type="checkbox"> Add a blank line under each strip (for kid to copy/trace)</label>
+    </fieldset>
+
+    <button id="generateBtn">Generate &amp; download PDF</button>
+    <div id="status" class="status"></div>
+  </aside>
+
+  <main class="canvas-pane">
+    <canvas id="previewCanvas" class="canvas-host"></canvas>
+  </main>
+</div>
+
+<script>
+(function () {
+  'use strict';
+  var $ = function (id) { return document.getElementById(id); };
+  var SHARED = window.LCSMaterialGenerators;
+
+  var FRAME_TEMPLATES = {
+    'i-see-a': 'I see {item}.',
+    'i-have-a': 'I have {item}.',
+    'this-is-a': 'This is {item}.',
+    'i-like-plural': 'I like {item:plural}.',
+    'there-are-count-plural': 'There are {count} {item:plural}.',
+    'the-item-is-color': 'The {item:bare} is {color}.',
+    'the-item-says': 'The {item:bare} says ___.',
+  };
+
+  // Locale-specific frame variants. Falls back to English template if locale missing.
+  // Articles resolved at render time per locale rules.
+  var FRAME_BY_LOCALE = {
+    en: {
+      'i-see-a': 'I see {item}.',
+      'i-have-a': 'I have {item}.',
+      'this-is-a': 'This is {item}.',
+      'i-like-plural': 'I like {item:plural}.',
+      'there-are-count-plural': 'There are {count} {item:plural}.',
+      'the-item-is-color': 'The {item:bare} is {color}.',
+      'the-item-says': 'The {item:bare} says ___.',
+    },
+    de: {
+      'i-see-a': 'Ich sehe {item:acc}.',
+      'i-have-a': 'Ich habe {item:acc}.',
+      'this-is-a': 'Das ist {item}.',
+      'i-like-plural': 'Ich mag {item:plural}.',
+      'there-are-count-plural': 'Es sind {count} {item:plural} da.',
+      'the-item-is-color': 'Das {item:bare} ist {color}.',
+      'the-item-says': 'Das {item:bare} sagt ___.',
+    },
+    es: {
+      'i-see-a': 'Veo {item}.',
+      'i-have-a': 'Tengo {item}.',
+      'this-is-a': 'Esto es {item}.',
+      'i-like-plural': 'Me gustan {item:plural-def}.',
+      'there-are-count-plural': 'Hay {count} {item:plural}.',
+      'the-item-is-color': 'El/La {item:bare} es {color}.',
+      'the-item-says': 'El/La {item:bare} dice ___.',
+    },
+    fr: {
+      'i-see-a': 'Je vois {item}.',
+      'i-have-a': "J'ai {item}.",
+      'this-is-a': "C'est {item}.",
+      'i-like-plural': "J'aime {item:plural-def}.",
+      'there-are-count-plural': 'Il y a {count} {item:plural}.',
+      'the-item-is-color': 'Le/La {item:bare} est {color}.',
+      'the-item-says': 'Le/La {item:bare} dit ___.',
+    },
+    nl: {
+      'i-see-a': 'Ik zie {item}.',
+      'i-have-a': 'Ik heb {item}.',
+      'this-is-a': 'Dit is {item}.',
+      'i-like-plural': 'Ik hou van {item:plural-def}.',
+      'there-are-count-plural': 'Er zijn {count} {item:plural}.',
+      'the-item-is-color': '{item:def-bare} is {color}.',
+      'the-item-says': '{item:def-bare} zegt ___.',
+    },
+  };
+
+  // Color words per locale (subset; Arc 2 will localize fully)
+  var COLOR_FALLBACK = { en: 'red', de: 'rot', fr: 'rouge', es: 'rojo', pt: 'vermelho', it: 'rosso', nl: 'rood', sv: 'röd', da: 'rød', no: 'rød', fi: 'punainen' };
+
+  function setStatus(m, e) { var el = $('status'); el.textContent = m || ''; el.classList.toggle('error', !!e); }
+
+  function readConfig() {
+    var po = $('paperOrient').value.split('-');
+    return {
+      framePreset: $('framePreset').value,
+      customTemplate: $('customTemplate').value.trim(),
+      themeName: $('themeInput').value.trim(),
+      stripCount: parseInt($('stripCount').value, 10) || 10,
+      vocabKeys: ($('vocabKeysInput').value || '').split(',').map(function (s) { return s.trim(); }).filter(Boolean),
+      colorMode: $('colorMode').value,
+      stripsPerPage: parseInt($('stripsPerPage').value, 10),
+      paperSize: po[0],
+      orientation: po[1],
+      language: $('language').value,
+      includeWritingLine: $('includeWritingLine').checked,
+    };
+  }
+
+  function resolveTheme(t, mode) { return mode !== 'bw' ? t : (/_bw$/.test(t) ? t : t + '_bw'); }
+
+  function pickAssets(all, keys, count) {
+    if (keys.length > 0) {
+      var byKey = {};
+      all.forEach(function (img) {
+        var k = SHARED.imageToVocabKey(img);
+        if (k && !byKey[k]) byKey[k] = img;
+      });
+      return keys.map(function (k) { return byKey[k]; }).filter(Boolean);
+    }
+    return all.slice(0, count);
+  }
+
+  /**
+   * Render a frame template substituting placeholders with vocabulary forms +
+   * articles auto-resolved from IMAGE_VOCABULARY gender data per locale.
+   * Placeholder spec:
+   *   {item}            → indefinite-article + singular (e.g. "a cat" / "eine Katze")
+   *   {item:bare}       → singular only, no article
+   *   {item:plural}     → plural, no article
+   *   {item:plural-def} → definite-article + plural (e.g. "the cats" / "los gatos")
+   *   {item:def-bare}   → definite-article + singular ("the cat" / "die Katze")
+   *   {item:acc}        → de accusative (auto: m → einen, others same as nominative)
+   *   {count}           → 1 (default; could parameterize per-strip later)
+   *   {color}           → color word fallback per locale
+   */
+  function fillTemplate(template, vocabKey, locale) {
+    var vocab = SHARED.lookupVocabulary(vocabKey, locale);
+    if (!vocab) return template.replace(/\{[^}]+\}/g, vocabKey);
+    var indef = SHARED.localizedArticle(vocabKey, locale, { type: 'indefinite' });
+    var def = SHARED.localizedArticle(vocabKey, locale, { type: 'definite' });
+    var color = COLOR_FALLBACK[locale] || 'red';
+    var withIndef = (indef ? indef + ' ' : '') + vocab.singular;
+    var withDef = (def ? def + ' ' : '') + vocab.singular;
+    var pluralWithDef = (def ? def + ' ' : '') + vocab.plural;
+    // de-accusative: masculine -> einen, eine/ein stay the same
+    var deAcc = vocab.singular;
+    if (locale === 'de') {
+      if (vocab.gender === 'm') deAcc = 'einen ' + vocab.singular;
+      else if (vocab.gender === 'f') deAcc = 'eine ' + vocab.singular;
+      else deAcc = 'ein ' + vocab.singular;
+    } else {
+      deAcc = withIndef;
+    }
+    return template
+      .replace(/\{item:plural-def\}/g, pluralWithDef)
+      .replace(/\{item:plural\}/g, vocab.plural)
+      .replace(/\{item:def-bare\}/g, withDef)
+      .replace(/\{item:bare\}/g, vocab.singular)
+      .replace(/\{item:acc\}/g, deAcc)
+      .replace(/\{item\}/g, withIndef)
+      .replace(/\{count\}/g, '3')
+      .replace(/\{color\}/g, color);
+  }
+
+  function chooseTemplate(cfg) {
+    if (cfg.framePreset === 'custom') {
+      return cfg.customTemplate || '{item}';
+    }
+    var localeFrames = FRAME_BY_LOCALE[cfg.language] || {};
+    return localeFrames[cfg.framePreset] || FRAME_TEMPLATES[cfg.framePreset] || '{item}';
+  }
+
+  function renderStrip(canvas, image, vocabKey, x, y, w, h, cfg) {
+    SHARED.renderCardBorder(canvas, x, y, w, h, { style: 'thin', roundedCorners: true });
+    var imgArea = h * 0.65;
+    var imgPad = 8;
+    SHARED.loadFabricImage(image.url || image.path, { crossOrigin: 'anonymous' }).then(function (img) {
+      var iw = imgArea - 2 * imgPad;
+      var ih = imgArea - 2 * imgPad;
+      var scale = Math.min(iw / img.width, ih / img.height);
+      img.set({
+        left: x + imgPad,
+        top: y + (imgArea - img.height * scale) / 2,
+        scaleX: scale,
+        scaleY: scale,
+        selectable: false,
+        evented: false,
+      });
+      canvas.add(img);
+      canvas.renderAll();
+    }).catch(function () {});
+    var template = chooseTemplate(cfg);
+    var sentence = fillTemplate(template, vocabKey, cfg.language);
+    var textBox = new fabric.Textbox(sentence, {
+      left: x + imgArea + 8,
+      top: y + (h - 32) / 2,
+      width: w - imgArea - 16,
+      fontSize: 26,
+      fontFamily: 'Fredoka, sans-serif',
+      fill: '#222',
+      selectable: false,
+      evented: false,
+      editable: false,
+    });
+    canvas.add(textBox);
+    if (cfg.includeWritingLine) {
+      var lineY = y + h - 18;
+      canvas.add(new fabric.Line([x + 12, lineY, x + w - 12, lineY], {
+        stroke: '#888', strokeWidth: 1, strokeDashArray: [3, 3],
+        selectable: false, evented: false,
+      }));
+    }
+  }
+
+  function generate() {
+    var cfg = readConfig();
+    if (!cfg.themeName) { setStatus('theme required', true); return; }
+    setStatus('Fetching images…');
+    var btn = $('generateBtn'); btn.disabled = true;
+    var theme = resolveTheme(cfg.themeName, cfg.colorMode);
+
+    SHARED.getThemeAssets(theme, cfg.language).then(function (all) {
+      var picked = pickAssets(all, cfg.vocabKeys, cfg.stripCount);
+      if (picked.length === 0) throw new Error('no images for theme "' + theme + '"');
+      var canvas = SHARED.initCanvas($('previewCanvas'), cfg.paperSize, { orientation: cfg.orientation });
+      var margin = 36;
+      var gap = 12;
+      var paperW = canvas.lcsDims.w;
+      var paperH = canvas.lcsDims.h;
+      var stripsThisPage = Math.min(picked.length, cfg.stripsPerPage);
+      var stripH = (paperH - 2 * margin - (stripsThisPage - 1) * gap) / stripsThisPage;
+      var stripW = paperW - 2 * margin;
+      picked.slice(0, cfg.stripsPerPage).forEach(function (img, idx) {
+        var key = SHARED.imageToVocabKey(img) || 'item';
+        var y = margin + idx * (stripH + gap);
+        renderStrip(canvas, img, key, margin, y, stripW, stripH, cfg);
+      });
+      setTimeout(function () {
+        try {
+          var fn = 'sentence-strips-' + cfg.themeName + '-' + cfg.language + '.pdf';
+          SHARED.emitPdf(canvas, fn);
+          setStatus('Saved ' + fn + ' (' + picked.length + ' strips on first page)');
+        } catch (err) {
+          setStatus('PDF emit failed: ' + err.message, true);
+        } finally { btn.disabled = false; }
+      }, 1500);
+    }).catch(function (err) {
+      console.error(err);
+      setStatus(err.message, true);
+      btn.disabled = false;
+    });
+  }
+
+  $('generateBtn').addEventListener('click', generate);
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Vocabulary Tracing Strips Generator | LessonCraftStudio</title>
+<meta name="robots" content="noindex">
+<meta name="description" content="Generate printable vocabulary tracing strips: image + dotted-line word for tracing + blank line for independent writing. New generator (does not extend writing.html per CLAUDE.md §3.2).">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Lexend+Deca:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<script src="/worksheet-generators/js/image-vocabulary.js?v=3"></script>
+<script src="/worksheet-generators/js/catalog-export.js?v=9"></script>
+<script src="/worksheet-generators/js/material-generator-shared.js?v=1"></script>
+
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: 'Lexend Deca', system-ui, sans-serif; background: #f4f6fa; color: #222; }
+  .layout { display: flex; min-height: 100vh; }
+  .sidebar { width: 320px; padding: 20px; background: #fff; border-right: 1px solid #e1e4eb; overflow-y: auto; }
+  .canvas-pane { flex: 1; padding: 24px; display: flex; align-items: flex-start; justify-content: center; overflow: auto; }
+  h1 { font-family: 'Fredoka', sans-serif; font-size: 22px; margin: 0 0 4px; }
+  .subtitle { color: #5c6878; font-size: 13px; margin-bottom: 20px; }
+  fieldset { border: 1px solid #e1e4eb; border-radius: 8px; padding: 12px; margin-bottom: 14px; }
+  legend { font-weight: 600; padding: 0 6px; font-size: 13px; color: #4a5468; }
+  label { display: block; margin-bottom: 8px; font-size: 13px; }
+  label > span { display: block; color: #5c6878; margin-bottom: 3px; font-size: 12px; }
+  input[type="text"], input[type="number"], select { width: 100%; padding: 6px 8px; border: 1px solid #cbd2dc; border-radius: 4px; font-size: 13px; font-family: inherit; }
+  button { width: 100%; padding: 10px; background: #2563eb; color: #fff; border: 0; border-radius: 6px; font-weight: 600; font-size: 14px; cursor: pointer; font-family: inherit; }
+  button:disabled { background: #9ca3af; cursor: not-allowed; }
+  .status { margin-top: 12px; font-size: 12px; color: #5c6878; min-height: 16px; }
+  .status.error { color: #c0392b; }
+  .canvas-host { background: #fff; border: 1px solid #e1e4eb; box-shadow: 0 4px 16px rgba(0,0,0,.06); }
+</style>
+</head>
+<body>
+
+<div class="layout">
+  <aside class="sidebar">
+    <h1>Vocabulary Tracing</h1>
+    <div class="subtitle">Image + dotted-line word + blank line for K-Grade-1 word-tracing practice.</div>
+
+    <fieldset>
+      <legend>Image source</legend>
+      <label><span>Theme name</span><input id="themeInput" type="text" value="animals"></label>
+      <label><span>Strip count (4–12)</span><input id="stripCount" type="number" min="4" max="12" value="6"></label>
+      <label><span>Vocab keys (optional override)</span><input id="vocabKeysInput" type="text" placeholder="cat,dog,..."></label>
+      <label><span>Color mode</span>
+        <select id="colorMode">
+          <option value="color" selected>Color</option>
+          <option value="bw">Black &amp; White</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Word</legend>
+      <label><span>Language</span>
+        <select id="language">
+          <option value="en" selected>en</option><option value="de">de</option><option value="fr">fr</option>
+          <option value="es">es</option><option value="pt">pt</option><option value="it">it</option>
+          <option value="nl">nl</option><option value="sv">sv</option><option value="da">da</option>
+          <option value="no">no</option><option value="fi">fi</option>
+        </select>
+      </label>
+      <label><span>Letter case</span>
+        <select id="labelCase">
+          <option value="lowercase" selected>lowercase</option>
+          <option value="UPPERCASE">UPPERCASE</option>
+          <option value="Title Case">Title Case</option>
+        </select>
+      </label>
+      <label><span>Tracing style</span>
+        <select id="traceStyle">
+          <option value="dotted" selected>Dotted (light gray, traceable)</option>
+          <option value="outline">Outline (hollow letters)</option>
+        </select>
+      </label>
+      <label><input id="includeIndependentLine" type="checkbox" checked> Include blank line for independent writing</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Layout</legend>
+      <label><span>Strips per page</span>
+        <select id="stripsPerPage">
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6" selected>6</option>
+          <option value="8">8</option>
+        </select>
+      </label>
+      <label><span>Paper size</span>
+        <select id="paperSize">
+          <option value="a4" selected>A4</option>
+          <option value="letter">Letter</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <button id="generateBtn">Generate &amp; download PDF</button>
+    <div id="status" class="status"></div>
+  </aside>
+
+  <main class="canvas-pane">
+    <canvas id="previewCanvas" class="canvas-host"></canvas>
+  </main>
+</div>
+
+<script>
+(function () {
+  'use strict';
+  var $ = function (id) { return document.getElementById(id); };
+  var SHARED = window.LCSMaterialGenerators;
+
+  function setStatus(m, e) { var el = $('status'); el.textContent = m || ''; el.classList.toggle('error', !!e); }
+
+  function readConfig() {
+    return {
+      themeName: $('themeInput').value.trim(),
+      stripCount: parseInt($('stripCount').value, 10) || 6,
+      vocabKeys: ($('vocabKeysInput').value || '').split(',').map(function (s) { return s.trim(); }).filter(Boolean),
+      colorMode: $('colorMode').value,
+      language: $('language').value,
+      labelCase: $('labelCase').value,
+      traceStyle: $('traceStyle').value,
+      includeIndependentLine: $('includeIndependentLine').checked,
+      stripsPerPage: parseInt($('stripsPerPage').value, 10),
+      paperSize: $('paperSize').value,
+    };
+  }
+
+  function resolveTheme(t, mode) { return mode !== 'bw' ? t : (/_bw$/.test(t) ? t : t + '_bw'); }
+
+  function pickAssets(all, keys, count) {
+    if (keys.length > 0) {
+      var byKey = {};
+      all.forEach(function (img) {
+        var k = SHARED.imageToVocabKey(img);
+        if (k && !byKey[k]) byKey[k] = img;
+      });
+      return keys.map(function (k) { return byKey[k]; }).filter(Boolean);
+    }
+    return all.slice(0, count);
+  }
+
+  function applyCase(s, c) {
+    if (c === 'UPPERCASE') return s.toUpperCase();
+    if (c === 'Title Case') return s.charAt(0).toUpperCase() + s.slice(1).toLowerCase();
+    return s.toLowerCase();
+  }
+
+  function renderTraceableWord(canvas, word, x, y, width, height, traceStyle) {
+    // For "dotted" style: render the word at light gray to create traceable text.
+    // For "outline" style: render with thin outline + transparent fill.
+    // True dotted-stroke handwriting fonts aren't loaded; we approximate via fill + opacity.
+    var fontSize = Math.min(48, height * 0.85);
+    var fillColor = traceStyle === 'dotted' ? '#d0d4dc' : 'transparent';
+    var strokeColor = traceStyle === 'outline' ? '#888' : null;
+    var text = new fabric.Text(word, {
+      left: x + width / 2,
+      top: y + height / 2,
+      originX: 'center',
+      originY: 'center',
+      fontSize: fontSize,
+      fontFamily: 'Fredoka, sans-serif',
+      fontWeight: traceStyle === 'outline' ? 600 : 400,
+      fill: fillColor,
+      stroke: strokeColor,
+      strokeWidth: traceStyle === 'outline' ? 1 : 0,
+      selectable: false, evented: false,
+    });
+    canvas.add(text);
+  }
+
+  function renderStrip(canvas, image, vocab, x, y, w, h, cfg) {
+    SHARED.renderCardBorder(canvas, x, y, w, h, { style: 'thin', roundedCorners: true });
+    // Three regions: image (left ~30%) | traceable word (middle ~45%) | blank line (right ~25%)
+    var imgArea = w * 0.30;
+    var traceArea = cfg.includeIndependentLine ? w * 0.40 : w * 0.65;
+    var lineArea = cfg.includeIndependentLine ? w * 0.30 : 0;
+    var pad = 8;
+    SHARED.loadFabricImage(image.url || image.path, { crossOrigin: 'anonymous' }).then(function (img) {
+      var iw = imgArea - 2 * pad;
+      var ih = h - 2 * pad;
+      var scale = Math.min(iw / img.width, ih / img.height);
+      img.set({
+        left: x + pad + (iw - img.width * scale) / 2,
+        top: y + pad + (ih - img.height * scale) / 2,
+        scaleX: scale, scaleY: scale,
+        selectable: false, evented: false,
+      });
+      canvas.add(img);
+      canvas.renderAll();
+    }).catch(function () {});
+    var word = applyCase(vocab.singular, cfg.labelCase);
+    renderTraceableWord(canvas, word, x + imgArea, y, traceArea, h, cfg.traceStyle);
+    if (cfg.includeIndependentLine) {
+      var lineX = x + imgArea + traceArea + 8;
+      var lineY = y + h * 0.7;
+      canvas.add(new fabric.Line([lineX, lineY, x + w - 12, lineY], {
+        stroke: '#666', strokeWidth: 1.5,
+        selectable: false, evented: false,
+      }));
+    }
+  }
+
+  function generate() {
+    var cfg = readConfig();
+    if (!cfg.themeName) { setStatus('theme required', true); return; }
+    setStatus('Fetching images…');
+    var btn = $('generateBtn'); btn.disabled = true;
+    var theme = resolveTheme(cfg.themeName, cfg.colorMode);
+
+    SHARED.getThemeAssets(theme, cfg.language).then(function (all) {
+      var picked = pickAssets(all, cfg.vocabKeys, cfg.stripCount);
+      if (picked.length === 0) throw new Error('no images for theme "' + theme + '"');
+      var canvas = SHARED.initCanvas($('previewCanvas'), cfg.paperSize, { orientation: 'portrait' });
+      var margin = 36;
+      var gap = 12;
+      var paperW = canvas.lcsDims.w;
+      var paperH = canvas.lcsDims.h;
+      var stripsThisPage = Math.min(picked.length, cfg.stripsPerPage);
+      var stripH = (paperH - 2 * margin - (stripsThisPage - 1) * gap) / stripsThisPage;
+      var stripW = paperW - 2 * margin;
+      picked.slice(0, cfg.stripsPerPage).forEach(function (img, idx) {
+        var key = SHARED.imageToVocabKey(img);
+        var vocab = key ? SHARED.lookupVocabulary(key, cfg.language) : null;
+        if (!vocab) {
+          console.warn('no vocab for', key);
+          return;
+        }
+        var y = margin + idx * (stripH + gap);
+        renderStrip(canvas, img, vocab, margin, y, stripW, stripH, cfg);
+      });
+      setTimeout(function () {
+        try {
+          var fn = 'vocabulary-tracing-' + cfg.themeName + '-' + cfg.language + '.pdf';
+          SHARED.emitPdf(canvas, fn);
+          setStatus('Saved ' + fn + ' (' + picked.length + ' strips on first page)');
+        } catch (err) {
+          setStatus('PDF emit failed: ' + err.message, true);
+        } finally { btn.disabled = false; }
+      }, 1500);
+    }).catch(function (err) {
+      console.error(err);
+      setStatus(err.message, true);
+      btn.disabled = false;
+    });
+  }
+
+  $('generateBtn').addEventListener('click', generate);
+})();
+</script>
+
+</body>
+</html>

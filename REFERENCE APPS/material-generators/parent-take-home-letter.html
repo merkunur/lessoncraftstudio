@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Parent Take-Home Letter Generator | LessonCraftStudio</title>
+<meta name="robots" content="noindex">
+<meta name="description" content="Generate a parent take-home letter in the home language with picture cues labeled in the target instruction language.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Lexend+Deca:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<script src="/worksheet-generators/js/image-vocabulary.js?v=3"></script>
+<script src="/worksheet-generators/js/catalog-export.js?v=9"></script>
+<script src="/worksheet-generators/js/material-generator-shared.js?v=1"></script>
+
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: 'Lexend Deca', system-ui, sans-serif; background: #f4f6fa; color: #222; }
+  .layout { display: flex; min-height: 100vh; }
+  .sidebar { width: 360px; padding: 20px; background: #fff; border-right: 1px solid #e1e4eb; overflow-y: auto; }
+  .canvas-pane { flex: 1; padding: 24px; display: flex; align-items: flex-start; justify-content: center; overflow: auto; }
+  h1 { font-family: 'Fredoka', sans-serif; font-size: 22px; margin: 0 0 4px; }
+  .subtitle { color: #5c6878; font-size: 13px; margin-bottom: 20px; }
+  fieldset { border: 1px solid #e1e4eb; border-radius: 8px; padding: 12px; margin-bottom: 14px; }
+  legend { font-weight: 600; padding: 0 6px; font-size: 13px; color: #4a5468; }
+  label { display: block; margin-bottom: 8px; font-size: 13px; }
+  label > span { display: block; color: #5c6878; margin-bottom: 3px; font-size: 12px; }
+  input[type="text"], input[type="number"], select, textarea { width: 100%; padding: 6px 8px; border: 1px solid #cbd2dc; border-radius: 4px; font-size: 13px; font-family: inherit; }
+  textarea { min-height: 80px; }
+  button { width: 100%; padding: 10px; background: #2563eb; color: #fff; border: 0; border-radius: 6px; font-weight: 600; font-size: 14px; cursor: pointer; font-family: inherit; }
+  button:disabled { background: #9ca3af; cursor: not-allowed; }
+  .status { margin-top: 12px; font-size: 12px; color: #5c6878; min-height: 16px; }
+  .status.error { color: #c0392b; }
+  .canvas-host { background: #fff; border: 1px solid #e1e4eb; box-shadow: 0 4px 16px rgba(0,0,0,.06); }
+</style>
+</head>
+<body>
+
+<div class="layout">
+  <aside class="sidebar">
+    <h1>Parent Take-Home Letter</h1>
+    <div class="subtitle">Letter in HOME language + picture cues in TARGET language. Lexile ~400 / CEFR A2.</div>
+
+    <fieldset>
+      <legend>Languages</legend>
+      <label><span>Home language (parent reads this; for letter body)</span>
+        <select id="homeLanguage">
+          <option value="en" selected>English</option>
+          <option value="de">Deutsch</option>
+          <option value="fr">Français</option>
+          <option value="es">Español</option>
+          <option value="pt">Português</option>
+          <option value="it">Italiano</option>
+          <option value="nl">Nederlands</option>
+          <option value="sv">Svenska</option>
+          <option value="da">Dansk</option>
+          <option value="no">Norsk</option>
+          <option value="fi">Suomi</option>
+        </select>
+      </label>
+      <label><span>Target language (kid is learning; for picture cue labels)</span>
+        <select id="targetLanguage">
+          <option value="en">en</option><option value="de">de</option><option value="fr">fr</option>
+          <option value="es" selected>es</option><option value="pt">pt</option><option value="it">it</option>
+          <option value="nl">nl</option><option value="sv">sv</option><option value="da">da</option>
+          <option value="no">no</option><option value="fi">fi</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Letter</legend>
+      <label><span>Tone</span>
+        <select id="tone">
+          <option value="warm" selected>Warm</option>
+          <option value="formal">Formal</option>
+          <option value="playful">Playful</option>
+        </select>
+      </label>
+      <label><span>Topic name (in home language) — e.g. "farm animals"</span>
+        <input id="topicName" type="text" value="farm animals">
+      </label>
+      <label><span>Teacher name</span><input id="teacherName" type="text" placeholder="(optional)"></label>
+      <label><input id="signatureLine" type="checkbox" checked> Leave a signature line at the bottom</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Picture cues</legend>
+      <label><span>Theme name</span><input id="themeInput" type="text" value="animals"></label>
+      <label><span>Vocab keys (comma-separated)</span><input id="vocabKeysInput" type="text" placeholder="cat,dog,cow,..."></label>
+      <label><span>Number of cues (4–10)</span><input id="cueCount" type="number" min="4" max="10" value="6"></label>
+      <label><span>Color mode</span>
+        <select id="colorMode">
+          <option value="color" selected>Color</option>
+          <option value="bw">Black &amp; White</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Output</legend>
+      <label><span>Paper size</span>
+        <select id="paperSize">
+          <option value="a4" selected>A4</option>
+          <option value="letter">Letter</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <button id="generateBtn">Generate &amp; download PDF</button>
+    <div id="status" class="status"></div>
+  </aside>
+
+  <main class="canvas-pane">
+    <canvas id="previewCanvas" class="canvas-host"></canvas>
+  </main>
+</div>
+
+<script>
+(function () {
+  'use strict';
+  var $ = function (id) { return document.getElementById(id); };
+  var SHARED = window.LCSMaterialGenerators;
+
+  // Locale-specific letter templates per tone. Lexile ~400 / CEFR A2.
+  // {topic} = topic name; {teacherClose} = closing greeting; {signature} = "Sincerely," / "Warmly," etc.
+  var LETTER_TEMPLATES = {
+    en: {
+      formal: { greet: 'Dear families,', body: 'This week your child is learning words about {topic}. Below are some pictures with the words your child is practicing. Please ask your child to name each picture. Thank you for supporting your child at home.', close: 'Sincerely,' },
+      warm: { greet: 'Hello families,', body: 'This week your child is learning words about {topic}. Here are pictures with the words we practiced. Please look at them with your child. Ask your child to name each picture. Thank you so much for your support.', close: 'Warmly,' },
+      playful: { greet: 'Hi families!', body: 'This week was all about {topic}! Your child has been learning new words. Here are some pictures with the words. Can your child name them? Have fun together!', close: 'Cheers,' },
+    },
+    de: {
+      formal: { greet: 'Sehr geehrte Eltern,', body: 'In dieser Woche lernt Ihr Kind Wörter zum Thema {topic}. Unten sehen Sie Bilder mit den Wörtern. Bitten Sie Ihr Kind, jedes Bild zu benennen. Vielen Dank für Ihre Unterstützung.', close: 'Mit freundlichen Grüßen,' },
+      warm: { greet: 'Liebe Eltern,', body: 'Diese Woche lernt Ihr Kind Wörter zum Thema {topic}. Hier sind die Bilder mit den Wörtern. Schauen Sie sie zusammen mit Ihrem Kind an. Bitten Sie es, jedes Bild zu benennen. Vielen Dank für Ihre Hilfe.', close: 'Herzliche Grüße,' },
+      playful: { greet: 'Hallo Familien!', body: 'Diese Woche dreht sich alles um {topic}! Ihr Kind hat neue Wörter gelernt. Hier sind ein paar Bilder mit den Wörtern. Kann Ihr Kind sie benennen? Viel Spaß!', close: 'Liebe Grüße,' },
+    },
+    es: {
+      formal: { greet: 'Estimadas familias,', body: 'Esta semana su hijo/a está aprendiendo palabras sobre {topic}. Abajo hay imágenes con las palabras. Por favor, pídale a su hijo/a que nombre cada imagen. Gracias por su apoyo.', close: 'Atentamente,' },
+      warm: { greet: 'Hola familias,', body: 'Esta semana su hijo/a está aprendiendo palabras sobre {topic}. Aquí hay imágenes con las palabras que practicamos. Mírelas con su hijo/a. Pídale que nombre cada imagen. Muchas gracias por su apoyo.', close: 'Un cordial saludo,' },
+      playful: { greet: '¡Hola familias!', body: '¡Esta semana fue sobre {topic}! Su hijo/a está aprendiendo palabras nuevas. Aquí hay algunas imágenes con las palabras. ¿Puede nombrarlas? ¡Diviértanse juntos!', close: 'Saludos,' },
+    },
+    fr: {
+      formal: { greet: 'Chères familles,', body: 'Cette semaine, votre enfant apprend des mots sur {topic}. Ci-dessous, vous trouverez des images avec les mots. Demandez à votre enfant de nommer chaque image. Merci pour votre soutien.', close: 'Cordialement,' },
+      warm: { greet: 'Bonjour les familles,', body: 'Cette semaine, votre enfant apprend des mots sur {topic}. Voici les images avec les mots. Regardez-les ensemble. Demandez à votre enfant de nommer chaque image. Merci beaucoup pour votre aide.', close: 'Bien cordialement,' },
+      playful: { greet: 'Salut les familles !', body: 'Cette semaine, on a parlé de {topic} ! Votre enfant apprend de nouveaux mots. Voici des images avec les mots. Peut-il les nommer ? Amusez-vous bien !', close: 'À bientôt,' },
+    },
+    nl: {
+      formal: { greet: 'Geachte ouders,', body: 'Deze week leert uw kind woorden over {topic}. Hieronder ziet u afbeeldingen met de woorden. Vraag uw kind om elke afbeelding te benoemen. Dank u voor uw steun.', close: 'Met vriendelijke groet,' },
+      warm: { greet: 'Beste ouders,', body: 'Deze week leert uw kind woorden over {topic}. Hier zijn afbeeldingen met de woorden. Kijk ernaar met uw kind. Vraag uw kind om elke afbeelding te benoemen. Hartelijk dank voor uw hulp.', close: 'Hartelijke groet,' },
+      playful: { greet: 'Hoi ouders!', body: 'Deze week ging het over {topic}! Uw kind leert nieuwe woorden. Hier zijn wat afbeeldingen met de woorden. Kan uw kind ze benoemen? Veel plezier samen!', close: 'Groetjes,' },
+    },
+    pt: {
+      formal: { greet: 'Prezadas famílias,', body: 'Nesta semana, seu/sua filho/a está aprendendo palavras sobre {topic}. Abaixo há imagens com as palavras. Por favor, peça ao seu/sua filho/a que nomeie cada imagem. Obrigado pelo apoio.', close: 'Atenciosamente,' },
+      warm: { greet: 'Olá famílias,', body: 'Nesta semana, seu/sua filho/a está aprendendo palavras sobre {topic}. Aqui estão imagens com as palavras. Olhe junto com ele/ela. Peça-lhe que nomeie cada imagem. Muito obrigado pelo apoio.', close: 'Cordialmente,' },
+      playful: { greet: 'Oi famílias!', body: 'Esta semana foi sobre {topic}! Seu/sua filho/a aprendeu palavras novas. Aqui estão algumas imagens com as palavras. Ele/Ela consegue nomeá-las? Divirtam-se!', close: 'Abraços,' },
+    },
+    it: {
+      formal: { greet: 'Care famiglie,', body: "Questa settimana vostro figlio/a sta imparando parole su {topic}. Qui sotto trovate immagini con le parole. Chiedete a vostro figlio/a di nominare ogni immagine. Grazie per il sostegno.", close: 'Cordiali saluti,' },
+      warm: { greet: 'Salve famiglie,', body: 'Questa settimana vostro figlio/a sta imparando parole su {topic}. Ecco le immagini con le parole. Guardatele insieme. Chiedete a vostro figlio/a di nominarle. Grazie mille per il vostro aiuto.', close: 'Un caro saluto,' },
+      playful: { greet: 'Ciao famiglie!', body: "Questa settimana abbiamo parlato di {topic}! Vostro figlio/a sta imparando parole nuove. Ecco delle immagini con le parole. Riesce a nominarle? Divertitevi insieme!", close: 'Saluti,' },
+    },
+    sv: {
+      formal: { greet: 'Bästa familjer,', body: 'Den här veckan lär sig ert barn ord om {topic}. Nedan finns bilder med orden. Be ert barn att benämna varje bild. Tack för ert stöd.', close: 'Med vänliga hälsningar,' },
+      warm: { greet: 'Hej familjer,', body: 'Den här veckan lär sig ert barn ord om {topic}. Här är bilder med orden. Titta på dem tillsammans. Be ert barn benämna varje bild. Tack så mycket för er hjälp.', close: 'Hjärtliga hälsningar,' },
+      playful: { greet: 'Hej familjer!', body: 'Den här veckan handlade om {topic}! Ert barn lär sig nya ord. Här är några bilder med orden. Kan barnet benämna dem? Ha kul tillsammans!', close: 'Hälsningar,' },
+    },
+    da: {
+      formal: { greet: 'Kære familier,', body: 'I denne uge lærer dit barn ord om {topic}. Nedenfor er billeder med ordene. Bed dit barn om at navngive hvert billede. Tak for din støtte.', close: 'Med venlig hilsen,' },
+      warm: { greet: 'Hej familier,', body: 'I denne uge lærer dit barn ord om {topic}. Her er billeder med ordene. Kig på dem sammen. Bed dit barn navngive hvert billede. Mange tak for din hjælp.', close: 'Venlig hilsen,' },
+      playful: { greet: 'Hej familier!', body: 'Denne uge handlede om {topic}! Dit barn lærer nye ord. Her er nogle billeder med ordene. Kan barnet navngive dem? Ha det sjovt sammen!', close: 'Hilsner,' },
+    },
+    no: {
+      formal: { greet: 'Kjære familier,', body: 'Denne uken lærer barnet ditt ord om {topic}. Nedenfor er bilder med ordene. Be barnet ditt navngi hvert bilde. Takk for støtten.', close: 'Med vennlig hilsen,' },
+      warm: { greet: 'Hei familier,', body: 'Denne uken lærer barnet ditt ord om {topic}. Her er bilder med ordene. Se på dem sammen. Be barnet ditt navngi hvert bilde. Tusen takk for hjelpen.', close: 'Vennlig hilsen,' },
+      playful: { greet: 'Hei familier!', body: 'Denne uken handlet om {topic}! Barnet ditt lærer nye ord. Her er noen bilder med ordene. Kan barnet navngi dem? Ha det gøy sammen!', close: 'Hilsen,' },
+    },
+    fi: {
+      formal: { greet: 'Arvoisat perheet,', body: 'Tällä viikolla lapsenne opettelee aiheeseen {topic} liittyviä sanoja. Alla on kuvia sanoineen. Pyytäkää lasta nimeämään kukin kuva. Kiitos tuestanne.', close: 'Ystävällisin terveisin,' },
+      warm: { greet: 'Hei perheet,', body: 'Tällä viikolla lapsenne opettelee aiheeseen {topic} liittyviä sanoja. Tässä on kuvia sanoineen. Katsokaa niitä yhdessä. Pyytäkää lasta nimeämään kukin kuva. Kiitos paljon avustanne.', close: 'Lämpimin terveisin,' },
+      playful: { greet: 'Hei perheet!', body: 'Tällä viikolla puhuimme aiheesta {topic}! Lapsenne oppii uusia sanoja. Tässä on muutamia kuvia sanoineen. Osaako lapsi nimetä ne? Pitäkää hauskaa yhdessä!', close: 'Terveisin,' },
+    },
+  };
+
+  function setStatus(m, e) { var el = $('status'); el.textContent = m || ''; el.classList.toggle('error', !!e); }
+
+  function readConfig() {
+    return {
+      homeLanguage: $('homeLanguage').value,
+      targetLanguage: $('targetLanguage').value,
+      tone: $('tone').value,
+      topicName: $('topicName').value.trim() || 'this week’s topic',
+      teacherName: $('teacherName').value.trim(),
+      signatureLine: $('signatureLine').checked,
+      themeName: $('themeInput').value.trim(),
+      vocabKeys: ($('vocabKeysInput').value || '').split(',').map(function (s) { return s.trim(); }).filter(Boolean),
+      cueCount: parseInt($('cueCount').value, 10) || 6,
+      colorMode: $('colorMode').value,
+      paperSize: $('paperSize').value,
+    };
+  }
+
+  function resolveTheme(t, mode) { return mode !== 'bw' ? t : (/_bw$/.test(t) ? t : t + '_bw'); }
+
+  function pickAssets(all, keys, count) {
+    if (keys.length > 0) {
+      var byKey = {};
+      all.forEach(function (img) {
+        var k = SHARED.imageToVocabKey(img);
+        if (k && !byKey[k]) byKey[k] = img;
+      });
+      return keys.map(function (k) { return byKey[k]; }).filter(Boolean);
+    }
+    return all.slice(0, count);
+  }
+
+  function getTemplate(homeLang, tone) {
+    var t = LETTER_TEMPLATES[homeLang] || LETTER_TEMPLATES.en;
+    return t[tone] || t.warm;
+  }
+
+  function renderLetter(canvas, cfg, picked) {
+    var tmpl = getTemplate(cfg.homeLanguage, cfg.tone);
+    var marginX = 56;
+    var paperW = canvas.lcsDims.w;
+    var maxW = paperW - 2 * marginX;
+    var y = 64;
+
+    canvas.add(new fabric.Textbox(tmpl.greet, {
+      left: marginX, top: y, width: maxW,
+      fontSize: 18, fontFamily: 'Fredoka, sans-serif', fontWeight: 600, fill: '#222',
+      selectable: false, evented: false, editable: false,
+    }));
+    y += 32;
+
+    var bodyText = tmpl.body.replace(/\{topic\}/g, cfg.topicName);
+    var bodyBox = new fabric.Textbox(bodyText, {
+      left: marginX, top: y, width: maxW,
+      fontSize: 13, fontFamily: 'Lexend Deca, sans-serif', fill: '#333',
+      lineHeight: 1.4,
+      selectable: false, evented: false, editable: false,
+    });
+    canvas.add(bodyBox);
+    y += bodyBox.height + 24;
+
+    // Picture cues — grid of N cues with image + target-language label
+    var cueCols = Math.min(picked.length, 3);
+    var cueRows = Math.ceil(picked.length / cueCols);
+    var cueAreaW = maxW;
+    var cueGap = 12;
+    var cueW = (cueAreaW - (cueCols - 1) * cueGap) / cueCols;
+    var cueH = 110;
+    picked.forEach(function (image, idx) {
+      var col = idx % cueCols;
+      var row = Math.floor(idx / cueCols);
+      var cx = marginX + col * (cueW + cueGap);
+      var cy = y + row * (cueH + cueGap);
+      SHARED.renderCardBorder(canvas, cx, cy, cueW, cueH, { style: 'thin', roundedCorners: true });
+      var imgArea = cueH * 0.7;
+      var pad = 6;
+      SHARED.loadFabricImage(image.url || image.path, { crossOrigin: 'anonymous' }).then(function (img) {
+        var iw = cueW - 2 * pad;
+        var ih = imgArea - pad;
+        var scale = Math.min(iw / img.width, ih / img.height);
+        img.set({
+          left: cx + (cueW - img.width * scale) / 2,
+          top: cy + (imgArea - img.height * scale) / 2 + pad / 2,
+          scaleX: scale, scaleY: scale,
+          selectable: false, evented: false,
+        });
+        canvas.add(img);
+        canvas.renderAll();
+      }).catch(function () {});
+      var key = SHARED.imageToVocabKey(image);
+      var label = key ? SHARED.localizedLabel(key, cfg.targetLanguage, { form: 'singular', case: 'lowercase' }) : '';
+      canvas.add(new fabric.Text(label, {
+        left: cx + cueW / 2, top: cy + cueH - 14, originX: 'center', originY: 'center',
+        fontSize: 13, fontFamily: 'Fredoka, sans-serif', fill: '#222',
+        selectable: false, evented: false,
+      }));
+    });
+    y += cueRows * (cueH + cueGap) + 16;
+
+    canvas.add(new fabric.Textbox(tmpl.close, {
+      left: marginX, top: y, width: maxW,
+      fontSize: 13, fontFamily: 'Lexend Deca, sans-serif', fill: '#333',
+      selectable: false, evented: false, editable: false,
+    }));
+    y += 22;
+    if (cfg.teacherName) {
+      canvas.add(new fabric.Textbox(cfg.teacherName, {
+        left: marginX, top: y, width: maxW,
+        fontSize: 14, fontFamily: 'Fredoka, sans-serif', fontWeight: 600, fill: '#222',
+        selectable: false, evented: false, editable: false,
+      }));
+      y += 22;
+    }
+    if (cfg.signatureLine) {
+      canvas.add(new fabric.Line([marginX, y + 18, marginX + 220, y + 18], {
+        stroke: '#888', strokeWidth: 1, strokeDashArray: [4, 4],
+        selectable: false, evented: false,
+      }));
+    }
+  }
+
+  function generate() {
+    var cfg = readConfig();
+    if (!cfg.themeName) { setStatus('theme required', true); return; }
+    if (cfg.vocabKeys.length === 0) { setStatus('please specify vocab keys for picture cues', true); return; }
+    setStatus('Fetching images…');
+    var btn = $('generateBtn'); btn.disabled = true;
+    var theme = resolveTheme(cfg.themeName, cfg.colorMode);
+
+    SHARED.getThemeAssets(theme, cfg.targetLanguage).then(function (all) {
+      var picked = pickAssets(all, cfg.vocabKeys, cfg.cueCount);
+      if (picked.length === 0) throw new Error('no images for theme "' + theme + '"');
+      var canvas = SHARED.initCanvas($('previewCanvas'), cfg.paperSize, { orientation: 'portrait' });
+      renderLetter(canvas, cfg, picked.slice(0, cfg.cueCount));
+      setTimeout(function () {
+        try {
+          var fn = 'parent-letter-' + cfg.themeName + '-' + cfg.homeLanguage + '.pdf';
+          SHARED.emitPdf(canvas, fn);
+          setStatus('Saved ' + fn);
+        } catch (err) {
+          setStatus('PDF emit failed: ' + err.message, true);
+        } finally { btn.disabled = false; }
+      }, 1500);
+    }).catch(function (err) {
+      console.error(err);
+      setStatus(err.message, true);
+      btn.disabled = false;
+    });
+  }
+
+  $('generateBtn').addEventListener('click', generate);
+})();
+</script>
+
+</body>
+</html>

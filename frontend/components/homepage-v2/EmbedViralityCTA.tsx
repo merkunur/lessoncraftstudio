@@ -39,9 +39,12 @@ import type { SupportedLocale } from '@/config/locales';
  * adjudicate exact above-fold placement; this component is component-level
  * only.
  */
-export default async function EmbedViralityCTA({ locale }: { locale: SupportedLocale }) {
+export default async function EmbedViralityCTA({ locale }: { locale: string }) {
   const t = await getTranslations({ locale, namespace: 'homepage.embedViralityCTA' });
-  const featured = await getFeaturedDeckForLocale(locale);
+  // Page.tsx passes locale as `string` (matches Hero/BreadthGrid/all sibling
+  // components' prop convention); the [locale] route segment is filtered to
+  // valid locales by middleware, so the cast is safe at the helper boundary.
+  const featured = await getFeaturedDeckForLocale(locale as SupportedLocale);
 
   const href = featured
     ? `/${featured.language}/decks/${featured.slug}/?embed=open`

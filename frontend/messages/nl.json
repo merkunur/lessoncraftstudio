@@ -91,7 +91,9 @@
       "share": {
         "title": "Een deck via een link delen.",
         "body": "Stuur elk deck als een link. De kinderen spelen direct in de browser — geen aanmelding, geen app, geen account. Werkt op een telefoon, een tablet, een Chromebook of een digibord."
-      }
+      },
+      "breadthHeading": "Zie er een in actie",
+      "breadthIntro": "Tik op een van deze om een volledig werkblad te spelen — net als je leerlingen."
     },
     "subscription": {
       "sectionTitle": "Voor leerkrachten die LessonCraftStudio elke week gebruiken.",

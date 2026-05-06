@@ -61,7 +61,7 @@ export default async function ThemeStrip({ locale }: { locale: string }) {
       </div>
 
       <div
-        className="flex gap-3 overflow-x-auto pb-4 -mx-4 px-4 snap-x snap-mandatory"
+        className="flex gap-3 overflow-x-auto pb-4 -mx-4 px-4 snap-x snap-mandatory [mask-image:linear-gradient(to_right,black_calc(100%-32px),transparent)]"
         role="list"
         aria-label={t('listLabel')}
       >

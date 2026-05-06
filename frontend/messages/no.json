@@ -91,7 +91,9 @@
       "share": {
         "title": "Del et deck via lenke.",
         "body": "Send hvilket som helst deck som en lenke. Barna spiller direkte i nettleseren — ingen registrering, ingen app, ingen konto. Fungerer på telefon, nettbrett, Chromebook eller smartboard."
-      }
+      },
+      "breadthHeading": "Se ett i aksjon",
+      "breadthIntro": "Trykk på hvilket som helst for å spille et helt arbeidsark — akkurat som elevene dine."
     },
     "subscription": {
       "sectionTitle": "For lærere som bruker LessonCraftStudio hver uke.",

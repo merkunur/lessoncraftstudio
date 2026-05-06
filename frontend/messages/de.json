@@ -92,7 +92,9 @@
       "share": {
         "title": "Ein Deck per Link teilen.",
         "body": "Verschicken Sie jedes Deck als Link. Kinder spielen direkt im Browser — keine Anmeldung, keine App, kein Konto. Funktioniert auf einem Smartphone, einem Tablet, einem Chromebook oder einem Smartboard."
-      }
+      },
+      "breadthHeading": "Eines in Aktion sehen",
+      "breadthIntro": "Tippen Sie auf eine, um ein vollständiges Deck zu spielen — genau wie Ihre Schüler."
     },
     "subscription": {
       "sectionTitle": "Für Lehrkräfte, die LessonCraftStudio jede Woche nutzen.",

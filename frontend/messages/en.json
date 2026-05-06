@@ -92,7 +92,9 @@
       "share": {
         "title": "Share a deck via link.",
         "body": "Send any deck as a link. Students play directly in the browser — no signup, no app, no account. Works on a phone, a tablet, a Chromebook, or a smartboard."
-      }
+      },
+      "breadthHeading": "See one in action",
+      "breadthIntro": "Tap any of these to play a complete deck — same as your students will."
     },
     "subscription": {
       "sectionTitle": "For teachers who use LessonCraftStudio every week.",

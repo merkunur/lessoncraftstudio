@@ -91,7 +91,9 @@
       "share": {
         "title": "Jaa korttipakka linkillä.",
         "body": "Lähetä mikä tahansa korttipakka linkkinä. Lapset pelaavat suoraan selaimessa — ei rekisteröitymistä, ei sovellusta, ei tiliä. Toimii puhelimella, tabletilla, Chromebookilla tai älytaululla."
-      }
+      },
+      "breadthHeading": "Katso yhtä toiminnassa",
+      "breadthIntro": "Napauta mitä tahansa pelataksesi koko tehtäväsivun — aivan kuten oppilaasi."
     },
     "subscription": {
       "sectionTitle": "Opettajille, jotka käyttävät LessonCraftStudiota joka viikko.",

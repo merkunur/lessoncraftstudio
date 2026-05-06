@@ -91,7 +91,9 @@
       "share": {
         "title": "Compartilhe um deck por link.",
         "body": "Envie qualquer deck como link. As crianças jogam direto no navegador — sem cadastro, sem aplicativo, sem conta. Funciona em celular, tablet, Chromebook ou lousa interativa."
-      }
+      },
+      "breadthHeading": "Veja uma em ação",
+      "breadthIntro": "Toque em qualquer uma para jogar uma atividade completa — como seus alunos vão fazer."
     },
     "subscription": {
       "sectionTitle": "Para professores que usam LessonCraftStudio toda semana.",

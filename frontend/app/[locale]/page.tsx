@@ -3,7 +3,11 @@ import { getTranslations } from 'next-intl/server';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import Hero from '@/components/homepage-v2/Hero';
-import BreadthGrid from '@/components/homepage-v2/BreadthGrid';
+import ExerciseTypeGrid from '@/components/homepage-v2/ExerciseTypeGrid';
+import MagnitudeFraming from '@/components/homepage-v2/MagnitudeFraming';
+import ThemeStrip from '@/components/homepage-v2/ThemeStrip';
+import LocaleStrip from '@/components/homepage-v2/LocaleStrip';
+import EmbedViralityCTA from '@/components/homepage-v2/EmbedViralityCTA';
 import LanguageProof from '@/components/homepage-v2/LanguageProof';
 import FreeExperience from '@/components/homepage-v2/FreeExperience';
 import SubscriptionSection from '@/components/homepage-v2/SubscriptionSection';
@@ -121,16 +125,25 @@ export default async function HomePage({ params }: { params: { locale: string } 
         />
       ))}
 
-      {/* Section 1 — Hero */}
+      {/* Section 1 — Hero (LOCKED per HOMEPAGE-SAVE-STATE.md) */}
       <Hero locale={locale} />
 
-      {/* Section 2 — Breadth grid */}
-      <BreadthGrid locale={locale} />
+      {/* Section 2 — Above-fold structural-axes density per Alt A architecture
+          lock (Arc 3, 2026-05-06). Order matters: visible-evidence first
+          (29 icons), then numerical context (axis-product), then second-axis
+          variety (themes), then locale signal, then conversion CTA. The
+          BreadthGrid that previously occupied this position is demoted to
+          Section 4 (FreeExperience) as a "see one in action" sub-section. */}
+      <ExerciseTypeGrid locale={locale} />
+      <MagnitudeFraming locale={locale} />
+      <ThemeStrip locale={locale} />
+      <LocaleStrip />
+      <EmbedViralityCTA locale={locale} />
 
       {/* Section 3 — Language proof */}
       <LanguageProof locale={locale} />
 
-      {/* Section 4 — The free experience */}
+      {/* Section 4 — The free experience (now contains demoted BreadthGrid) */}
       <FreeExperience locale={locale} />
 
       {/* Section 5 — Subscription */}

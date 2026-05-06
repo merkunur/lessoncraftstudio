@@ -91,7 +91,9 @@
       "share": {
         "title": "Partagez un deck par lien.",
         "body": "Envoyez n'importe quel deck sous forme de lien. Les enfants jouent directement dans le navigateur — pas d'inscription, pas d'application, pas de compte. Fonctionne sur téléphone, tablette, Chromebook ou tableau interactif."
-      }
+      },
+      "breadthHeading": "Voyez-en une en action",
+      "breadthIntro": "Touchez-en une pour jouer une fiche complète — comme vos élèves le feront."
     },
     "subscription": {
       "sectionTitle": "Pour les enseignants qui utilisent LessonCraftStudio toutes les semaines.",

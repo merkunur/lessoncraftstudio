@@ -1,0 +1,207 @@
+# Teaching package — identify and name 10 fruits
+# Arc 2 Phase 3b. Vocab keys verified: apple, banana, orange, pear, lemon,
+# watermelon, cherry, peach, strawberry, grapes (10/10 with full 11-locale
+# IMAGE_VOCABULARY entries).
+
+targetSlug: identify-and-name-fruits
+language: en
+
+title:
+  en: "Fruits — identify and name 10"
+description:
+  en: "K-Grade 1 vocabulary-acquisition package for 10 common fruits: apple, banana, orange, pear, lemon, watermelon, cherry, peach, strawberry, grapes. 5 worksheet exercises + 8 printable materials. Theme-agnostic; operator selects target instruction language at material-render time."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class introduction. Teacher holds up flashcards, names each fruit in
+      target language, class repeats chorally. Optional: bring real fruit (or
+      plastic models) for sensory engagement — kids touch, smell, identify.
+      Pin cards to "Fruits" word wall cluster.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pocket-chart routine with sentence strips ("I see a {item}"). Choral reading
+      first, then individual reads. Pair work: kids hold a picture-card, partner
+      names the fruit. Recast errors in the target frame.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: image-letter matching (matching app, letter
+      mode). Station 2: picture-card sorting on the carpet (red fruits vs yellow
+      vs green vs other — color-attribute sorting). Station 3: manipulative
+      cut-outs counting ("count out 5 apples").
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class share-out. Final challenge: teacher names a fruit, kids point
+      to flashcard. Forward-pointer: "Today we learned 10 fruit words. When we
+      come back to fruits next, this same set will be here for us."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 6, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: find-and-count
+    exerciseMode: unified
+    customizationParameters: { gridRows: 5, gridCols: 5, themeSelect: fruits, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: fruits, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: fruits, rightCategoryThemeSelect: vehicles, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: [apple, banana, orange, pear, lemon, watermelon, cherry, peach, strawberry, grapes]
+      cardCount: 10
+      cardsPerPage: 4
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      showArticle: true
+      paperSize: a4
+      language: en
+      borderStyle: thick
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: [apple, banana, orange, pear, lemon, watermelon, cherry, peach, strawberry, grapes]
+      cardCount: 10
+      cardsPerPage: 9
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      showArticle: true
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: [apple, banana, orange, pear, lemon, watermelon, cherry, peach, strawberry, grapes]
+      cardCount: 10
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 3
+    pedagogicalRole: production-prompt
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: i-see-a
+      imageSource: vocabKeyList
+      vocabKeys: [apple, banana, orange, pear, lemon, watermelon, cherry, peach, strawberry, grapes]
+      stripCount: 10
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: false
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: i-like-plural
+      imageSource: vocabKeyList
+      vocabKeys: [apple, banana, orange, pear, lemon, watermelon, cherry, peach, strawberry, grapes]
+      stripCount: 10
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 5
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: fruits
+      mode: single-repeat
+      itemCount: 30
+      itemSize: medium-1.5in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 6
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: vocabKeyList
+      vocabKeys: [apple, banana, orange, pear, lemon, strawberry]
+      pictureCueCount: 6
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 7
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 8
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: vocabulary acquisition. Secondary strand: phonics. Tertiary
+    strand: counting + color-categorization (color-sort station + i-like-plural
+    sentence frame integrates preference-talk register + plural morphology).
+    Mirrors Arc 1 3-strand integration. Sentence-strips frame variant for week 2:
+    i-like-plural ("I like apples") integrates better with fruits than with
+    farm-animals (kids talk about food preferences naturally).
+
+curriculumStandards:
+  - EYFS.ELG.UW
+  - IB-PYP.HowWeOrganize
+
+assessmentCriteria:
+  en: |
+    Receptive 10/10; productive 8/10; frame use 6/10.
+
+    Differentiation:
+    - Pre-K: receptive only.
+    - K / Grade 1: full productive + sentence-frame use.
+    - Grade 2+: extend to color descriptions ("the apple is red") + preference
+      conversation ("I like apples. Do you like apples?").
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

@@ -1,0 +1,210 @@
+# Teaching package — identify and name 10 school objects
+# Arc 2 Phase 3b. Vocab keys verified: pencil, book, notebook, eraser, ruler,
+# scissors, glue, crayon, backpack, chair (10/10 with full 11-locale entries).
+
+targetSlug: identify-and-name-school-objects
+language: en
+
+title:
+  en: "School Objects — identify and name 10"
+description:
+  en: "K-Grade 1 vocabulary-acquisition package for 10 universal classroom objects: pencil, book, notebook, eraser, ruler, scissors, glue, crayon, backpack, chair. 5 worksheet exercises + 8 printable materials. High-relevance vocabulary — kids encounter these in their classroom every day. Theme-agnostic; operator selects target instruction language at material-render time."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class introduction. Teacher holds up flashcards, names each school
+      object in target language, class repeats chorally. Optional: hold up the
+      ACTUAL classroom item (real pencil, real book) for tangible identification.
+      Pin cards to "Classroom" word wall cluster.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pocket-chart routine with sentence strips ("I have a {item}"). Choral
+      reading first, then individual reads. Pair work: kids hold a picture-card
+      OR an actual classroom item, partner names it. Recast errors in the target
+      frame.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: image-letter matching. Station 2: classroom
+      scavenger hunt (kids find each object in the classroom — high-engagement
+      kinesthetic activity; teacher checks off as found). Station 3: manipulative
+      cut-outs counting work.
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class share-out. Final challenge: teacher names a school object, kids
+      hold up the actual item if they have one in their backpack. Forward-pointer:
+      "Today we learned 10 classroom words. When we come back to classroom words
+      next, this same set will be here for us."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 6, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: find-and-count
+    exerciseMode: unified
+    customizationParameters: { gridRows: 5, gridCols: 5, themeSelect: school, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: school, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: school, rightCategoryThemeSelect: animals, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: [pencil, book, notebook, eraser, ruler, scissors, glue, crayon, backpack, chair]
+      cardCount: 10
+      cardsPerPage: 4
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      showArticle: true
+      paperSize: a4
+      language: en
+      borderStyle: thick
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: [pencil, book, notebook, eraser, ruler, scissors, glue, crayon, backpack, chair]
+      cardCount: 10
+      cardsPerPage: 9
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      showArticle: true
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: [pencil, book, notebook, eraser, ruler, scissors, glue, crayon, backpack, chair]
+      cardCount: 10
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 3
+    pedagogicalRole: production-prompt
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: i-have-a
+      imageSource: vocabKeyList
+      vocabKeys: [pencil, book, notebook, eraser, ruler, scissors, glue, crayon, backpack, chair]
+      stripCount: 10
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: false
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: vocabKeyList
+      vocabKeys: [pencil, book, notebook, eraser, ruler, scissors, glue, crayon, backpack, chair]
+      stripCount: 10
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 5
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: school
+      mode: single-repeat
+      itemCount: 30
+      itemSize: medium-1.5in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 6
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: vocabKeyList
+      vocabKeys: [pencil, book, notebook, scissors, backpack, chair]
+      pictureCueCount: 6
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 7
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 8
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: vocabulary acquisition. Secondary strand: phonics. Tertiary
+    strand: counting + classroom orientation (scavenger hunt at scaffold station 2
+    integrates spatial-classroom-knowledge with vocabulary; not represented in
+    farm-animals/clothing/vehicles packages because those vocab sets aren't
+    physically present in the classroom). Sentence-strips week 1: i-have-a
+    (possession frame matches "I have a pencil" — kid checks own backpack);
+    week 2: this-is-a (pointing frame for show-and-tell context).
+
+curriculumStandards:
+  - EYFS.ELG.UW
+  - IB-PYP.WhereWeAre
+
+assessmentCriteria:
+  en: |
+    Receptive 10/10; productive 8/10; frame use 6/10.
+
+    Differentiation:
+    - Pre-K: receptive via "show me your ___" — kid holds up the actual classroom
+      item if owned.
+    - K / Grade 1: full productive + sentence-frame use.
+    - Grade 2+: extend to verb-with-object compounds ("I write with a pencil. I
+      cut with scissors.").
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

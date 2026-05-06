@@ -5111,24 +5111,69 @@ async function downloadPDF(canvasToExport, filename, opts) {
             if (!card) return;
 
             if (row.comparisonMode === 'check-cross') {
-                // Two numeric inputs — one per dashed count box.
+                // Two numeric inputs — one per dashed count box. Plus two
+                // mark slots (✓ / ✗) below each count box. Strict scoring:
+                // kid marks the more-group with check and less-group with
+                // cross. Counts are guaranteed unequal by buildCheckCrossRows
+                // tie-break (line 3633) so each side has exactly one correct
+                // mark.
                 var boxes = _findCountBoxes(card);
-                if (boxes.A) {
+                var rectA = boxes.A ? _worldRectBounds(boxes.A) : null;
+                var rectB = boxes.B ? _worldRectBounds(boxes.B) : null;
+                if (rectA) {
                     slots.push({
                         problemIndex: i,
                         slotType: 'countA',
                         kind: 'number',
                         expected: String(row.countA),
-                        rect: _worldRectBounds(boxes.A)
+                        rect: rectA
                     });
                 }
-                if (boxes.B) {
+                if (rectB) {
                     slots.push({
                         problemIndex: i,
                         slotType: 'countB',
                         kind: 'number',
                         expected: String(row.countB),
-                        rect: _worldRectBounds(boxes.B)
+                        rect: rectB
+                    });
+                }
+                var markH = 24;
+                var markGap = 4;
+                var markOpts = [
+                    { value: 'check', label: '✓' },
+                    { value: 'cross', label: '✗' }
+                ];
+                if (rectA) {
+                    slots.push({
+                        problemIndex: i,
+                        slotType: 'markA',
+                        kind: 'choice',
+                        expected: (row.countA > row.countB) ? 'check' : 'cross',
+                        options: markOpts,
+                        layout: 'row',
+                        rect: {
+                            x: rectA.x,
+                            y: rectA.y + rectA.h / 2 + markGap + markH / 2,
+                            w: Math.max(rectA.w, 70),
+                            h: markH
+                        }
+                    });
+                }
+                if (rectB) {
+                    slots.push({
+                        problemIndex: i,
+                        slotType: 'markB',
+                        kind: 'choice',
+                        expected: (row.countB > row.countA) ? 'check' : 'cross',
+                        options: markOpts,
+                        layout: 'row',
+                        rect: {
+                            x: rectB.x,
+                            y: rectB.y + rectB.h / 2 + markGap + markH / 2,
+                            w: Math.max(rectB.w, 70),
+                            h: markH
+                        }
                     });
                 }
             } else {
@@ -5171,7 +5216,7 @@ async function downloadPDF(canvasToExport, filename, opts) {
             ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
         return {
-            bundleVersion: '7.1.0',
+            bundleVersion: '7.2.0',
             schemaFormat: 'image-references-v2',
             loadingMode: loadingMode,
             appType: 'more-less',
@@ -5283,6 +5328,7 @@ async function downloadPDF(canvasToExport, filename, opts) {
         '.lcs-slot--correct .lcs-input{border:3px solid #4CAF50;background:#E8F5E9;color:#2E7D32;animation:none}',
         '.lcs-slot--wrong .lcs-input{border:3px solid #E53935;background:#FFEBEE;color:#C62828;animation:none;text-decoration:line-through;text-decoration-thickness:2px}',
         '.lcs-choice{position:absolute;inset:0;display:flex;flex-direction:column;align-items:stretch;justify-content:center;gap:4px;pointer-events:none}',
+        '.lcs-choice--row{flex-direction:row;gap:6px}',
         '.lcs-choice__btn{pointer-events:auto;cursor:pointer;flex:1 1 0;min-height:0;width:100%;display:flex;align-items:center;justify-content:center;font-family:inherit;font-weight:700;font-size:clamp(13px,2.2vw,22px);color:#1C1C1E;background:rgba(255,248,230,.92);border:2px dashed #4E5FE8;border-radius:8px;padding:0;transition:background-color .15s,border-color .15s,border-style .15s,color .15s,box-shadow .15s,transform .1s}',
         '.lcs-choice__btn:hover:not([disabled]){background:#FFF8E6;border-color:#3F4FD0}',
         '.lcs-choice__btn:active:not([disabled]){transform:scale(.96)}',
@@ -5347,7 +5393,7 @@ async function downloadPDF(canvasToExport, filename, opts) {
         '  };',
         '  function T(key){var loc=(DECK_BUNDLE.contentLanguage||"en").slice(0,2);var t=STRINGS[loc]||STRINGS.en;return t[key]||STRINGS.en[key]||key}',
         '',
-        '  var state=DECK_BUNDLE.slots.map(function(sl,i){return{index:i,problemIndex:sl.problemIndex,slotType:sl.slotType,kind:sl.kind,expected:sl.expected,options:sl.options||null,rect:sl.rect,value:"",status:"empty"}});',
+        '  var state=DECK_BUNDLE.slots.map(function(sl,i){return{index:i,problemIndex:sl.problemIndex,slotType:sl.slotType,kind:sl.kind,expected:sl.expected,options:sl.options||null,layout:sl.layout||null,rect:sl.rect,value:"",status:"empty"}});',
         '  var muted=false;try{muted=localStorage.getItem("lcsMuted")==="1"}catch(e){}',
         '  var reducedMotion=false;try{reducedMotion=window.matchMedia("(prefers-reduced-motion: reduce)").matches}catch(e){}',
         '  var audioCtx=null;',
@@ -5508,7 +5554,7 @@ async function downloadPDF(canvasToExport, filename, opts) {
         '  function buildChoice(idx){',
         '    var s=state[idx];',
         '    var wrap=document.createElement("div");',
-        '    wrap.className="lcs-choice";',
+        '    wrap.className="lcs-choice"+(s.layout==="row"?" lcs-choice--row":"");',
         '    wrap.setAttribute("data-idx",String(idx));',
         '    var opts=s.options||[];',
         '    opts.forEach(function(opt){',
@@ -5779,7 +5825,7 @@ async function downloadPDF(canvasToExport, filename, opts) {
         // at generation time so the deck.html sr-only carries the localized
         // plural form (English-naive trailing 's' won't work in DE/SV/FI).
         var srCheckCrossTpl = (typeof t === 'function' && t('srExerciseMoreLessCheckCross'))
-            || 'Question {n}: Count the {pluralA} on the left and the {pluralB} on the right. Write each count.';
+            || 'Question {n}: Count the {pluralA} and the {pluralB}. Write each count, then mark the group that is more with a check and the group that is less with a cross.';
         var srComparisonTpl = (typeof t === 'function' && t('srExerciseMoreLessComparison'))
             || 'Question {n}: Compare the groups of {pluralA} and {pluralB}. Pick the correct sign: greater than, less than, or equal to.';
         var srExerciseLabel = (typeof t === 'function' && t('srWorksheetQuestions'))

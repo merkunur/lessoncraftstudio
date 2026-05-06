@@ -1,0 +1,352 @@
+# Teaching package — identify and name 10 farm animals
+#
+# Phase 4 first authored package (Arc 1 MVP).
+# Pedagogical learning target: identify-and-name-10-farm-animals
+#   (frontend/config/learning-targets.json → early-literacy → vocabulary-acquisition)
+# Authored: 2026-05-06
+# Validated: PASS via frontend/scripts/author-teaching-package.ts
+#
+# Stress-tests the architecture against vocabulary-acquisition packages:
+#   - High image-library coverage (cat/dog/cow/sheep/pig/chicken/horse/duck/goat/rabbit
+#     all have full 11-locale IMAGE_VOCABULARY entries with gender data)
+#   - Lowest cultural-variation risk (farm animals universal across 11 platform locales)
+#   - Strong cross-mechanic composability (matches with Family A choice-tap, Family C
+#     grid-tap, Family E line-drawing, Family F drag-and-drop apps)
+
+targetSlug: identify-and-name-10-farm-animals
+language: en
+
+title:
+  en: "Farm Animals — identify and name 10"
+description:
+  en: "K-Grade 1 vocabulary-acquisition package for 10 universal farm animals: cow, sheep, pig, chicken, rooster, horse, duck, goat, rabbit, donkey. Composes 5 worksheet exercises and 8 printable materials over a 1-2 week unit. Designed for K-3 multilingual classrooms — operator selects the target instruction language at material-render time; vocabulary auto-resolves through IMAGE_VOCABULARY's 11-locale data."
+
+durationMinutes: 30
+
+# Single-day CLIL block (4-section template). The 1-2 week unit is composed of
+# multiple plays of this 30-min block + station rotations using the materials below.
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class introduction on the carpet. Teacher holds up flashcards one at a
+      time, names each animal in target language, class repeats chorally. Pin the
+      cards to the word wall in a "Farm Animals" cluster after introduction.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pocket-chart routine with sentence strips ("I see a {item}"). Choral reading
+      first, then individual reads. Pair work: kids hold a picture-card, partner
+      names the animal in target language. Recast errors in the target frame.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: image-letter matching worksheet (matching app,
+      letter mode) — kids match each animal to its initial letter. Station 2:
+      picture-card sorting on the carpet (farm-vs-other animals). Station 3:
+      manipulative cut-outs counting (count out N farm animals).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class share-out. One final challenge: the teacher names an animal,
+      kids point to the matching flashcard. Name the pattern: "Today we learned
+      to say the names of 10 farm animals. When we come back to farm animals next,
+      this same set will be here for us."
+
+composedExercises:
+  # Exercise 1: image-name matching (introductory pairing practice)
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters:
+      mode: imgname
+      count: 6
+      languageSelect: en
+    ordering: 1
+    pedagogicalRole: introduction
+
+  # Exercise 2: image-letter matching (initial-letter recognition extension)
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters:
+      mode: letter
+      count: 6
+      languageSelect: en
+    ordering: 2
+    pedagogicalRole: practice
+
+  # Exercise 3: find-and-count (counting + visual scan)
+  - appName: find-and-count
+    exerciseMode: unified
+    customizationParameters:
+      gridRows: 5
+      gridCols: 5
+      themeSelect: animals
+      languageSelect: en
+    ordering: 3
+    pedagogicalRole: practice
+
+  # Exercise 4: odd-one-out (categorization — farm animals vs distractor)
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters:
+      themeSelect: animals
+      languageSelect: en
+    ordering: 4
+    pedagogicalRole: consolidation
+
+  # Exercise 5: picture-sort assessment (binary categorization — farm animals
+  # vs vehicles; pure animal-naming assessment via category-membership decision)
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters:
+      leftCategoryThemeSelect: animals
+      rightCategoryThemeSelect: vehicles
+      languageSelect: en
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  # Material 1: flashcards (jumbo 4-up) — whole-class hold-up at the carpet.
+  # Per agent feedback: 6-up cards are too small for whole-class visibility from
+  # the back of the carpet; jumbo 4-up is the warmup-correct size.
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys:
+        - cow
+        - sheep
+        - pig
+        - chicken
+        - rooster
+        - horse
+        - duck
+        - goat
+        - rabbit
+        - donkey
+      cardCount: 10
+      cardsPerPage: 4
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      showArticle: true
+      paperSize: a4
+      language: en
+      borderStyle: thick
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+
+  # Material 2: flashcards (take-home 9-up) — same vocab, smaller layout for
+  # station rotation + send-home practice.
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys:
+        - cow
+        - sheep
+        - pig
+        - chicken
+        - rooster
+        - horse
+        - duck
+        - goat
+        - rabbit
+        - donkey
+      cardCount: 10
+      cardsPerPage: 9
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      showArticle: true
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: vocabulary-anchor
+
+  # Material 3: picture-cards — image-only for productive vocabulary work
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys:
+        - cow
+        - sheep
+        - pig
+        - chicken
+        - rooster
+        - horse
+        - duck
+        - goat
+        - rabbit
+        - donkey
+      cardCount: 10
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 3
+    pedagogicalRole: production-prompt
+
+  # Material 4: sentence-strips (week-1 introductory frame)
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: i-see-a
+      imageSource: vocabKeyList
+      vocabKeys:
+        - cow
+        - sheep
+        - pig
+        - chicken
+        - rooster
+        - horse
+        - duck
+        - goat
+        - rabbit
+        - donkey
+      stripCount: 10
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: false
+    ordering: 4
+    pedagogicalRole: language-frame
+
+  # Material 5: sentence-strips (week-2 extension frame — count + plural)
+  # Per agent feedback: a 1-2 week unit needs sentence-frame progression beyond
+  # i-see-a. there-are-count-plural integrates the counting work from
+  # find-and-count + manipulative-cut-outs.
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: there-are-count-plural
+      imageSource: vocabKeyList
+      vocabKeys:
+        - cow
+        - sheep
+        - pig
+        - chicken
+        - rooster
+        - horse
+        - duck
+        - goat
+        - rabbit
+        - donkey
+      stripCount: 10
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 5
+    pedagogicalRole: language-frame
+
+  # Material 6: manipulative cut-outs — concrete counting prop.
+  # Per agent feedback: single-repeat mode (one image × N copies) is correct for
+  # counting work ("count out 5 cows"). Variety mode (multiple keys × M copies
+  # each) is for sorting work and would be a separate composition. itemCount=30
+  # so kids have enough copies for K-3 counting tasks.
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 30
+      itemSize: medium-1.5in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 6
+    pedagogicalRole: concrete-manipulative
+
+  # Material 7: parent-letter — home-school bridge (warm tone). 6 cues chosen as
+  # the highest-recognition farm animals across all 11 platform locales (deliberate
+  # pick per agent feedback, not first-N alphabetic).
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: vocabKeyList
+      vocabKeys:
+        - cow
+        - sheep
+        - pig
+        - chicken
+        - horse
+        - duck
+      pictureCueCount: 6
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 7
+    pedagogicalRole: home-school-bridge
+
+  # Material 8: answer-key — teacher reference (auto-generated from this YAML)
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 8
+    pedagogicalRole: teacher-reference
+
+# Acknowledges cross-strand drift per Phase 4 agent review. Of the 5 composed
+# exercises, 3 land squarely on vocabulary (matching imgname × 1, find-and-count,
+# odd-one-out, picture-sort) and 2 are cross-strand (matching letter, find-and-count
+# also exercises counting). The package treats farm-animal vocabulary as the
+# integrative content for K-Grade 1 cross-strand work — not a defect, but named
+# explicitly so reviewers don't flag the drift as accidental.
+compositionalRationale:
+  en: |
+    Primary strand: vocabulary acquisition (target identify-and-name-10-farm-animals).
+    Secondary strand: phonics / letter recognition (matching letter mode at slot 2).
+    Tertiary strand: counting + categorization (find-and-count slot 3, odd-one-out
+    slot 4, picture-sort slot 5; manipulative-cut-outs material; sentence-strips
+    week-2 there-are-count-plural frame).
+
+    The cross-strand integration is intentional. K-Grade 1 vocabulary work
+    benefits from spiral review across phonics + counting + categorization
+    contexts; isolating to a single strand would underutilize the materials
+    catalog. Future packages in non-vocabulary strands should design their own
+    integration shape; do not mirror this 3-strand spread blindly.
+
+curriculumStandards:
+  - EYFS.ELG.UW
+  - IB-PYP.WhereWeAre
+  - CCSS.RL.K.4
+
+assessmentCriteria:
+  en: |
+    By the end of the 1-2 week unit, kids should be able to:
+      - Receptively identify all 10 farm animals when teacher names them in target
+        language (point-to-named-farm-animal target).
+      - Productively name at least 8 of 10 farm animals when shown a picture card
+        (identify-and-name-10-farm-animals target).
+      - Use the "I see a {item}" frame independently in target language with at
+        least 6 of the 10 animals.
+
+    Differentiation:
+      - Pre-K / early K: assess receptively only (point-to-named); skip productive
+        naming pressure.
+      - K / Grade 1: full productive naming + sentence-frame use.
+      - Grade 2+: extend to plural forms ("I have 3 pigs"), color descriptions
+        ("the cat is black"), or compound-sentence narratives.
+
+# Empty for v1 — Phase 5 / Arc 2 may populate as paired decks land.
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+
+# v1: no legacy LessonPlan wrapping (the existing 29-or-14 plans key on
+# axis-keys, not pedagogical-target slugs — this package is a net-new
+# teaching package, not a wrapper around an existing plan).
+lessonPlanId: null
+
+generatedBy: manual

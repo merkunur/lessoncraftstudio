@@ -176,9 +176,15 @@ function extractFirstPath(manifest) {
   if (!Array.isArray(ex) || ex.length === 0) return null;
   var e0 = ex[0];
   if (!e0 || typeof e0 !== 'object') return null;
-  // Prefer L (paired-comparison schema; more-less + any future sibling)
+  // Paired-comparison schemas (more-less + check-cross variant):
+  //   - L / R              (standard image-to-image / image-to-number modes)
+  //   - imageA / imageB    (check-cross variant — same paired-image semantic,
+  //                        different field names per the more-less app's
+  //                        comparisonMode === 'check-cross' branch)
   if (typeof e0.L === 'string' && e0.L.startsWith('/images/')) return e0.L;
   if (typeof e0.R === 'string' && e0.R.startsWith('/images/')) return e0.R;
+  if (typeof e0.imageA === 'string' && e0.imageA.startsWith('/images/')) return e0.imageA;
+  if (typeof e0.imageB === 'string' && e0.imageB.startsWith('/images/')) return e0.imageB;
   // Fallback: standard image-bearing exercise (parity with the parent script's predicate)
   if (typeof e0.image === 'string' && e0.image.startsWith('/images/')) return e0.image;
   if (e0.image && typeof e0.image === 'object' && typeof e0.image.path === 'string' && e0.image.path.startsWith('/images/')) {

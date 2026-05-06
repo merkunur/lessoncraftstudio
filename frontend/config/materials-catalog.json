@@ -274,6 +274,35 @@
         "Verify against existing writing.html behavior at Phase 3b deploy: writing.html is letter-tracing (operator-authored letter selection); this material is word-tracing keyed on vocabulary. The two are pedagogically distinct and both ship.",
         "Phase 4 farm-animals package would NOT compose this material (farm-animals is K-2 vocabulary, kids may not be writing-ready). Reserve for Grade-1+ packages."
       ]
+    },
+    {
+      "slug": "numeral-cards",
+      "name": "Numeral cards (numerals + number-words)",
+      "category": "numeracy-anchor",
+      "description": "Single numeral (1-10 or 1-20) + corresponding number-word per card. The numeracy-package counterpart to vocabulary-package flashcards. Spec added at Arc 2 Phase 3c per cross-strand fold architectural finding (count-objects-1-to-10 package needs numeral-cards but Arc 1+2 catalog had only vocabulary-anchor flashcards keyed on IMAGE_VOCABULARY which contains no numeral entries). Generator implementation DEFERRED TO ARC 3 — this spec is the Arc 2 boundary fix per operator's pre-authorized scaling-checkpoint discipline (CLAUDE.md §A.14). Authoring-side: package authors can reference materialSlug 'numeral-cards' in package.yaml and the validator will accept it; render-side will fail until generator ships in Arc 3.",
+      "generation_mechanism": "DEFERRED TO ARC 3. Spec only at Arc 2. Likely shape: text-only card grid (no image dependency), one numeral per card + optional localized number-word ('1' / 'one' / 'uno' / 'eins' / etc.). Format same as flashcards: 4-up jumbo + 9-up take-home variants. Number-word resolution would use a NEW config (NUMBER_WORDS per locale, separate from IMAGE_VOCABULARY) — Arc 3 will design.",
+      "format": ["pdf"],
+      "customization_parameters": [
+        { "key": "numeralRange", "type": "select", "values_or_range": ["1-5", "1-10", "1-20", "1-100"], "default": "1-10", "description": "Range of numerals to render. K appropriate: 1-10. Grade 1+ extends to 1-20. Grade 2+ may use 1-100." },
+        { "key": "showNumberWord", "type": "checkbox", "values_or_range": [true, false], "default": true, "description": "Show the localized number-word ('one', 'eins', 'uno') alongside the numeral." },
+        { "key": "language", "type": "select", "values_or_range": ["en", "de", "fr", "es", "pt", "it", "nl", "sv", "da", "no", "fi"], "default": "en", "description": "Locale for number-word." },
+        { "key": "cardsPerPage", "type": "select", "values_or_range": [4, 6, 9], "default": 6, "description": "Layout density. 4-up jumbo for whole-class hold-up; 9-up for take-home." },
+        { "key": "paperSize", "type": "select", "values_or_range": ["a4", "letter"], "default": "a4" },
+        { "key": "borderStyle", "type": "select", "values_or_range": ["thin", "thick", "rounded", "none"], "default": "thin" },
+        { "key": "roundedCorners", "type": "checkbox", "values_or_range": [true, false], "default": true },
+        { "key": "showCutGuides", "type": "checkbox", "values_or_range": [true, false], "default": true }
+      ],
+      "k3_classroom_use_scenarios": [
+        "Whole-class numeral introduction: teacher holds up '1', '2', ... '10' and class chorus-counts in target language",
+        "Numeral-quantity matching: kid pairs a numeral card with a manipulative-cut-out group ('show me 5 cows' alongside the '5' card)",
+        "Take-home number practice: send 1-10 cards home for parent-supervised counting work",
+        "Wall display: post 1-10 cards as a number line in the classroom"
+      ],
+      "doctrine_notes": [
+        "GENERATOR NOT YET IMPLEMENTED. Spec added at Arc 2 Phase 3c per cross-strand fold finding. Arc 3 commission will implement the generator + the NUMBER_WORDS i18n resource per locale.",
+        "Authoring path: count-objects-1-to-10 package may reference materialSlug 'numeral-cards' once Arc 3 generator ships. Until then, theme-mode flashcards is the workaround (count-objects-1-to-10 package uses this workaround at v1).",
+        "Arc 3+ numeracy packages (count-objects-1-to-5, count-objects-1-to-20, match-numeral-to-quantity-1-to-10, compare-numerals-1-to-10) will all benefit from numeral-cards. The Arc 2 boundary fix surfaces this need without committing implementation cost."
+      ]
     }
   ]
 }

@@ -1,0 +1,210 @@
+# Teaching package — identify and name 10 basic emotions
+# Arc 2 Phase 3c. Vocab keys verified: happy, sad, angry, scared, surprised,
+# tired, excited, bored, shy, confused (10/10).
+# Note: "calm" not in IMAGE_VOCABULARY; substituted "confused".
+
+targetSlug: identify-and-name-emotions
+language: en
+
+title:
+  en: "Emotions — identify and name 10"
+description:
+  en: "K-Grade 1 vocabulary-acquisition package for 10 basic emotions: happy, sad, angry, scared, surprised, tired, excited, bored, shy, confused. 5 worksheet exercises + 7 printable materials. Cross-strand integration: vocabulary acquisition + EYFS PSED (Personal, Social & Emotional Development) per learning-targets.json strand boundary."
+
+durationMinutes: 25
+
+structure:
+  warmup:
+    durationMinutes: 4
+    body: |
+      Whole-class introduction. Teacher holds up emotion flashcards, names each
+      emotion in target language, class repeats chorally + makes the matching
+      face. The face-mimicry IS the engagement axis — kids feel the emotion
+      while naming it. Pin cards to "Emotions" word wall cluster.
+  contentActivity:
+    durationMinutes: 10
+    body: |
+      Pocket-chart routine with sentence strips ("I feel {item}"). Choral reading
+      first, then individual reads. Pair work: kids hold a picture-card, partner
+      makes the matching face + names the emotion. Recast errors gently — emotions
+      vocabulary is sensitive; don't correct the kid's INTERNAL state, only the
+      labeling.
+  scaffold:
+    durationMinutes: 7
+    body: |
+      Station rotation. Station 1: image-letter matching. Station 2: emotion-
+      narrative — kids draw a picture of when they felt {emotion} and label it.
+      Station 3: emotion-sort by valence (positive emotions / negative / neutral).
+  closure:
+    durationMinutes: 4
+    body: |
+      Whole-class share-out. Final challenge: teacher mimes an emotion, kids name
+      it. Forward-pointer: "Today we learned 10 emotion words. When we come back
+      to emotions next, this same set will be here. Remember — feeling these
+      emotions is okay. Naming them helps us share."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 6, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: find-and-count
+    exerciseMode: unified
+    customizationParameters: { gridRows: 5, gridCols: 5, themeSelect: emotions, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: emotions, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: emotions, rightCategoryThemeSelect: animals, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: [happy, sad, angry, scared, surprised, tired, excited, bored, shy, confused]
+      cardCount: 10
+      cardsPerPage: 4
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      showArticle: false
+      paperSize: a4
+      language: en
+      borderStyle: thick
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: [happy, sad, angry, scared, surprised, tired, excited, bored, shy, confused]
+      cardCount: 10
+      cardsPerPage: 9
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      showArticle: false
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: [happy, sad, angry, scared, surprised, tired, excited, bored, shy, confused]
+      cardCount: 10
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 3
+    pedagogicalRole: production-prompt
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: vocabKeyList
+      vocabKeys: [happy, sad, angry, scared, surprised, tired, excited, bored, shy, confused]
+      stripCount: 10
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: false
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: i-have-a
+      imageSource: vocabKeyList
+      vocabKeys: [happy, sad, angry, scared, surprised, tired, excited, bored, shy, confused]
+      stripCount: 10
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 5
+    pedagogicalRole: language-frame
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: vocabKeyList
+      vocabKeys: [happy, sad, angry, scared, tired, excited]
+      pictureCueCount: 6
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: vocabulary acquisition (target identify-and-name-emotions).
+    Secondary strand: PSED (Personal, Social & Emotional Development per
+    learning-targets.json) — emotion-naming is foundational PSED skill.
+    Tertiary strand: phonics (matching letter mode).
+
+    Sentence-frame variant: this-is-a + i-have-a (better than i-see-a for emotions
+    — kids don't usually "see" abstract emotions; they "have/feel" them or
+    identify them on faces. The this-is-a frame supports face-recognition register.)
+
+    Departure from farm-animals 8-material baseline: 7 materials. Manipulative-
+    cut-outs OMITTED — emotions don't compose with concrete-counting prop
+    (counting "5 happys" is unnatural). Substitution: emotion-narrative drawing
+    at scaffold station 2 (described in CLIL body) — kids draw their own
+    emotion-context, not a printable material.
+
+    PSED-sensitivity guidance in CLIL contentActivity: "don't correct the kid's
+    INTERNAL state, only the labeling" — emotions vocabulary requires gentler
+    recasting register than concrete-noun vocabulary.
+
+curriculumStandards:
+  - EYFS.ELG.PSED
+  - EYFS.ELG.UW
+
+assessmentCriteria:
+  en: |
+    Receptive 10/10 (identify named emotion on face card); productive 8/10 (name
+    emotion from face card); frame use 6/10 ("This is happy" / "I feel happy").
+
+    Differentiation:
+    - Pre-K: receptive only via face-mimicry. Emotions vocab varies by family
+      culture; Pre-K kids may not have all 10 in their home-language vocabulary.
+    - K / Grade 1: full productive + sentence-frame use.
+    - Grade 2+: extend to compound emotions ("I felt happy AND tired") + emotion-
+      narrative writing ("Today I felt {emotion} because...").
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

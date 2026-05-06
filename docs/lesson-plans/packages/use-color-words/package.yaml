@@ -1,0 +1,204 @@
+# Teaching package — use 10 color words
+# Arc 2 Phase 3c. Vocab keys verified: red, blue, yellow, green, purple, pink,
+# black, white, brown, gray (10/10). Note: "orange" (color) not in IMAGE_VOCABULARY
+# (only "orange" the fruit exists); substituted gray. K-3 color set is universal
+# across 11 platform locales.
+
+targetSlug: use-color-words
+language: en
+
+title:
+  en: "Color Words — identify and use 10"
+description:
+  en: "Pre-K / K vocabulary-acquisition package for 10 color words: red, blue, yellow, green, purple, pink, black, white, brown, gray. 5 worksheet exercises + 7 printable materials. Lower duration appropriate for early-acquisition vocabulary; high kinesthetic engagement (kids point to colors in classroom)."
+
+durationMinutes: 25
+
+structure:
+  warmup:
+    durationMinutes: 4
+    body: |
+      Whole-class introduction. Teacher holds up color flashcards (or color cards
+      printed from any color palette), names each color in target language, class
+      repeats chorally. Optional: "Touch something {color}" routine — kids touch
+      a classroom object matching the named color. Pin cards to "Colors" word
+      wall cluster.
+  contentActivity:
+    durationMinutes: 10
+    body: |
+      Pocket-chart routine with sentence strips ("The {item} is {color}"). Choral
+      reading with substituted theme images. Pair work: kids hold a color card,
+      partner names color in target language. Recast errors in target frame.
+      Color-attribute task: teacher names color, kids find matching item in
+      classroom + name it ("the table is brown").
+  scaffold:
+    durationMinutes: 7
+    body: |
+      Station rotation. Station 1: image-letter matching (matching app, letter
+      mode). Station 2: color-by-instruction worksheet — kids color images
+      following target-language color directions. Station 3: picture-card
+      sorting on the carpet (sort objects by color attribute).
+  closure:
+    durationMinutes: 4
+    body: |
+      Whole-class share-out. Final challenge: teacher names a color, kids touch
+      something matching color. Forward-pointer: "Today we learned 10 color
+      words. When we come back to colors next, this same set will be here."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 6, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: find-and-count
+    exerciseMode: unified
+    customizationParameters: { gridRows: 5, gridCols: 5, themeSelect: colors, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: colors, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: colors, rightCategoryThemeSelect: animals, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: [red, blue, yellow, green, purple, pink, black, white, brown, gray]
+      cardCount: 10
+      cardsPerPage: 4
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      showArticle: false
+      paperSize: a4
+      language: en
+      borderStyle: thick
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: [red, blue, yellow, green, purple, pink, black, white, brown, gray]
+      cardCount: 10
+      cardsPerPage: 9
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      showArticle: false
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: [red, blue, yellow, green, purple, pink, black, white, brown, gray]
+      cardCount: 10
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 3
+    pedagogicalRole: production-prompt
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: vocabKeyList
+      vocabKeys: [red, blue, yellow, green, purple, pink, black, white, brown, gray]
+      stripCount: 10
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: false
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: [red, blue, yellow, green, purple, pink, black, white, brown, gray]
+      stripCount: 6
+      stripsPerPage: 6
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 5
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: vocabKeyList
+      vocabKeys: [red, blue, yellow, green, black, white]
+      pictureCueCount: 6
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: vocabulary acquisition (target use-color-words). Secondary
+    strand: phonics + handwriting (matching letter mode + vocabulary-tracing-strips
+    for color-name handwriting practice). Tertiary strand: attribute-categorization
+    (color-attribute sorting at scaffold station 3 + picture-sort assessment).
+
+    Departure from farm-animals 8-material baseline: 7 materials. Manipulative-cut-outs
+    OMITTED — color words don't naturally compose with discrete-counting prop;
+    counting "5 reds" is unusual K-3 talk vs counting "5 cats" which is natural.
+    Vocabulary-tracing-strips substituted as the K-Grade-1 handwriting integration
+    (color words are short, tracing-friendly).
+
+curriculumStandards:
+  - EYFS.ELG.UW
+  - IB-PYP.HowWeOrganize
+
+assessmentCriteria:
+  en: |
+    Receptive 10/10 (point to named color); productive 8/10 (name color from card);
+    frame use 6/10 ("The {item} is {color}").
+
+    Differentiation:
+    - Pre-K: receptive only via touch-something-{color} routine.
+    - K / Grade 1: full productive + sentence-frame use.
+    - Grade 2+: extend to multi-color descriptions ("The bird is red and blue.")
+      + color comparisons ("The apple is redder than the strawberry.").
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

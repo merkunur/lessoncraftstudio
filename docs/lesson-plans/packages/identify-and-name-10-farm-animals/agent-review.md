@@ -56,7 +56,7 @@ The agent surfaced 8 generalizable lessons. Folded into Phase 5 Arc 2 commission
 7. CLIL section bodies need teacher-actionable scripts. Deferred for this package; Arc 2 templates should ship with scripted bodies from authoring time.
 8. Verify each vocab key against all 11 locales' IMAGE_VOCABULARY at authoring time. Verified for this package's 10 farm animals — all clean. Body-parts and clothing packages will hit cultural-variation issues this package didn't.
 
-## Final state at this commit
+## Final state at Arc 1 Phase 4 commit
 
 - Package validates: PASS via `frontend/scripts/author-teaching-package.ts`.
 - Final composition: 5 composedExercises + 8 materials (was 5 + 6 pre-revision).
@@ -64,3 +64,23 @@ The agent surfaced 8 generalizable lessons. Folded into Phase 5 Arc 2 commission
 - compositionalRationale field added; cross-strand drift acknowledged.
 - Render-pending: operator opens each material generator in browser + downloads PDF; Phase 4 ships the YAML + agent review, NOT rendered PDFs.
 - Phase 5 Arc 2 commission spec carries forward the 8 generalizable lessons + 4 polish-deferred items.
+
+## Arc 2 Phase 2 — es localization (2026-05-07)
+
+Spanish locale variant authored at `package.es.yaml` per Arc 2 ratification (es default per §19; formal usted register per §17.9 lock).
+
+K-3 Spanish-medium classroom-teacher agent reviewed the es variant. Two revisions applied:
+
+| Revision | What changed |
+|---|---|
+| ✅ "Recaste/recaste" → "Reformule/reformule" (3 instances in contentActivity body) | "Recastear" is a clear anglicism; native Spanish ELL/CLIL teachers say "reformular." Single substantive register fix. |
+| ✅ Inline comment on Material 4 (sentence-strips week 1) corrected | Pre-revision comment listed "vaca" twice in feminine count + said "5 of 10 feminine"; actual split is 4 feminine (vaca, oveja, gallina, cabra) + 6 masculine. Comment cleanup; doesn't affect rendered output. |
+
+Polish items the agent flagged as optional (NOT applied; deferred):
+- "la maestra o el maestro" → "el/la docente" (tighter native register; not blocking).
+- "Primer grado" — agent flagged peninsular-Spain context might prefer "1.º de Primaria"; left as "Primer grado" for LatAm + US-dual-language fit.
+- US dual-language proficiency variance: agent suggested adding a one-line note "ajuste por nivel de español, no solo por grado" — defer to Phase 4.1 / Arc 3 for differentiation-tier refinement; not blocking.
+
+Final-ship verdict (agent): "Ship with listed revisions." Two revisions applied; ships clean.
+
+es package validates: PASS via Phase 2 CLI.

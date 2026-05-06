@@ -98,6 +98,8 @@ Things **deliberately excluded from launch**: student accounts, class management
 
 **Adjudicator-forward decision-locking discipline.** When the operator delegates strategic input — "you choose," "make the call," "I'm not technical, decide" — the adjudicator (whichever party holds the delegation: CC, copilot, or strategic-thinking partner Claude) locks per CLAUDE.md priority foundations and commits. Consultative-by-default is the wrong posture when delegation is explicit: surfacing the decision back to operator as a multi-option menu wastes operator-attention and treats the delegation as advisory. The discipline applies at emit-site taxonomy adjudication (e.g., §17.8.5 default-mode-emits-null; commit `109a91d4`'s SEO-first taxonomy lock for the 10 multi-mode apps), at fold-pass target adjudication (§A.13 vs new section, etc.), and at any other strategic input the operator delegates rather than retains. Operator override at any later moment is normal — adjudicator-forward locking does not foreclose operator course-correction; it just prevents the consultative-pause from re-routing through operator-attention when the operator already declined that route.
 
+**Lock-with-dependency-pause discipline.** When operator strategic input locks a downstream architectural choice but an upstream dependency hasn't yet shipped, lock the choice AND pause downstream implementation until the dependency lands. Do not power through the locked choice against an unsubstantiated upstream claim. Operationalized at the Alt A homepage redesign sequence: Arc 1 substrate landed (`d039d8e2`), Arc 2 component build was authorized but downstream of Embed Layer 2 deploy verification, Arc 3 above-fold integration was authorized but downstream of Arc 2's deploy verification. Each arc's implementation paused on the prior arc's empirical-functional verification. The discipline composes with adjudicator-forward (above): adjudicator locks the choice immediately when delegation is explicit; pause discipline gates implementation on upstream-readiness independently of the lock. Inverting the order — implementing Arc 3 against an Arc 2 that hadn't shipped — would have produced a credibility gap (homepage CTAs pointing at an embed flow that didn't exist). The pattern is the §1 SEO + embed-virality flywheel's three-layer architecture (mechanism → per-deck UX → homepage signaling) applied at commission-cadence resolution.
+
 ### 3.5 Three-machine infrastructure, otherwise standard stack
 
 The infrastructure spans three machines connected via Tailscale, plus Cloudflare:
@@ -632,6 +634,8 @@ What v1 launch is **not** trying to achieve: substantial organic search traffic 
 - Document new components and new modules with brief JSDoc or TS comments explaining purpose and usage
 
 **Note on commit hygiene.** The in-session-commit hygiene rule applies to git-tracked files only (CLAUDE.md amendments + code commits). The `MEMORY.md` index + `memory/` directory at `C:\Users\rkgen\.claude\projects\C--Users-rkgen-lessoncraftstudio\memory\`, `CONVERSATION-HANDOFF.md`, and `CLAUDE-MD-UPDATES.md` are out-of-tree handoff artifacts that persist at filesystem level without commits. Don't `git add` them.
+
+**Read-from-SoT precedence over re-authoring at component-substrate work.** When a component needs localized labels, axis-keys, or other taxonomy data that already lives at a single source-of-truth (e.g., `topics-taxonomy.json axes.<axis>.<key>.{name,slug}.<locale>` per §16.5; `EXERCISE_MODE_APP_CLASSIFICATION` per §A.13.4; `image_themes.displayNames` per §A.7), the component reads directly from the SoT rather than re-authoring the data in `messages/<locale>.json` or another mirror location. Mirroring is a duplicate-state failure mode — the mirror and the SoT drift over time as one is updated and the other isn't. Direct SoT consumption eliminates the drift surface entirely; localization happens at the SoT, not at every consumer. The Arc 1 substrate (`d039d8e2`) shipped 4 components consuming axis-key labels directly from `topics-taxonomy.json` per this discipline (operator commission spec estimated ~1,000-1,200 i18n entries; adjudicator-forward call kept ~870 axis-key labels at the SoT instead of re-authoring in `messages/*.json` — the canonical empirical anchor). Future component work follows the same precedence: if the SoT exists, consume it; only author new entries in `messages/<locale>.json` for genuinely component-specific copy that does not live anywhere else.
 
 ### 10.5 What to flag to the operator
 
@@ -2938,6 +2942,23 @@ The manifest is the contract between authoring app and publish-cli. Defects fix 
 
 Origin: §15.17 salvage scripts as recovery pattern only (not primary fix); §A.13.5 Shape A as authoring-side root-cause framework; this subsection codifies the priority ordering.
 
+#### A.13.11 Operator-strategic adjudication batching at recon-completion
+
+When Phase 1 recon surfaces multiple operator-strategic adjudications, batch them into a single consolidated review at recon-completion — do NOT surface adjudications mid-stream as they emerge during inventory.
+
+**How to apply.** During Phase 1 inventory of any commission:
+1. Note each item that requires operator-strategic input as it surfaces; do not interrupt inventory to surface.
+2. At Phase 1 completion, surface ALL accumulated adjudications in a single consolidated review with concrete options + recommendations per item.
+3. Wait for batched response; receive locked decisions per item; then proceed to Phase 2-3-4.
+
+**Why batching beats per-item streaming.** Operator-attention is the load-bearing variable across most commissions. Each context-switch into adjudication mode has a fixed setup cost — re-establishing the commission's state, re-reading the relevant CLAUDE.md sections, re-considering what was already locked. Three adjudications surfaced as one batch cost ~one context-switch; surfaced as three separate questions cost ~three context-switches. Batching is the dominant strategy unless an early adjudication blocks ALL subsequent inventory work (rare).
+
+**Empirical anchor.** Arc 2 Phase 1 completion (`a93ebb7c` predecessor) surfaced four adjudications in one batch: A1 flag iconography source, A2 exercise-type icons source, A3 theme thumbnails source, A4 EmbedViralityCTA target URL. Operator response locked all four in one round-trip. Arc 3 Phase 1 completion surfaced zero adjudications because the rubric (FOLD/CONSOLIDATE/RE-QUEUE/DROP per the [DOCS] fold pass) absorbed all judgment calls at the rubric layer, demonstrating the batching pattern's higher form: when a commission's rubric is well-specified, recon-completion batching reduces to recon-completion close-out.
+
+**Anti-pattern.** Per-question consultative-by-default — "I found item X, what should I do?" → operator response → "I found item Y, what should I do?" → ... — wastes operator-attention proportional to N items even when the items are independent. Adjudicator-forward (§3.4) handles items where the call is clear per CLAUDE.md priority foundations; adjudication batching handles the residual items requiring operator-strategic input.
+
+Origin: Arc 2 Phase 1 four-adjudication batched review (`a93ebb7c` predecessor turn); pattern codified at this fold pass.
+
 ### A.14 Scaling Arc audit doctrine
 
 `[CHORE][AUDIT]` commissions measure publish-cli's path against scale targets without making any production change. The doctrine here governs both the audit commission shape and the engineering decisions that follow.
@@ -3014,5 +3035,19 @@ Backup-coverage of asset-trees is a distinct audit class from scale-ceiling audi
 **Audit posture:** backup-coverage audits are zero-cost (single `ls` + cross-reference against `/opt/lessoncraftstudio/backup-*.sh` script set). Run at every `[CHORE][AUDIT]` commission's Phase 1; surface findings as separate `[FIX][OPS]` commissions per the urgent-class shape.
 
 Origin: `9850df93` (Scaling Arc 3 audit URGENT finding: `/var/www/lcs-media/decks/` had zero backup coverage at 731-deck-catalog state) + `15be6ef5` (closure: `backup-decks.sh` mirroring `backup-samples.sh` shape).
+
+#### A.14.7 Scale-projection methodology extension
+
+Scale-projection at audit time decomposes into two layers; both must be measured to produce a defensible projection to the operator's design target (currently 55,000 decks).
+
+**Layer 1 — filesystem-level projection.** Disk bytes + inode count per published deck × design-target population. Per-deck-asset breakdown is the load-bearing measurement: deck.html (~200-400 KB), printable.pdf (~50-150 KB), answer-key.pdf (~30-100 KB), thumbnail.png (~20-50 KB), og-image.png (~80-150 KB). At Scaling Arc 3 audit (`9850df93`) the per-deck inventory measured ~6 inodes × 731 decks = ~4,400 inodes at audit time, projecting to ~330,000 inodes at 55K decks = 1.1% of ext4 default inode budget at the production filesystem's geometry. Disk-bytes projection: ~1.5 MB/deck × 55K = ~82.5 GB total (4.6× margin against the production volume's free-space at audit time). Layer 1 is the structural projection — what does the asset tree look like at design-target population?
+
+**Layer 2 — publish-cli timing projection.** Per-deck wall-clock × batch size + concurrency profile. At Scaling Arc 5 audit (`f765b991`) the empirical 59.3 ms/deck timing projected to 10 minutes wall-clock at 10K decks per batch — the time-death tolerance ceiling per §A.14.1. Layer 2 is the operational projection — how does publish-cli behave at design-target wave size?
+
+**How to apply (during any `[CHORE][AUDIT]` Phase 2 empirical recon).** Measure both layers at audit time. Use real production state (or isolated-snapshot per §A.14.5 audit-only commission shape). Project to design-target by linear extrapolation; flag any non-linear scaling factor (e.g., disk-fragmentation effects, DB index bloat, ext4 dir_index thresholds) as additional ceilings to characterize.
+
+**Why both layers matter.** Filesystem-level projection without timing projection misses the operational ceilings (time-death, race conditions, retry posture). Timing projection without filesystem projection misses the storage ceilings (inode exhaustion, free-space margin, backup-tarball weight). The two together produce a defensible projection across both axes.
+
+Origin: `9850df93` (Scaling Arc 3 — filesystem-level layer) + `f765b991` (Scaling Arc 5 — publish-cli timing layer); methodology codified at this fold pass.
 
 *End of CLAUDE.md.*

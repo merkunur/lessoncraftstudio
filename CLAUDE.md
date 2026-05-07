@@ -2774,7 +2774,11 @@ Origin: this commission's Phase 1 inventory finding (`2511e181` pre-resolved 18 
 
 **Implication:** all canonical URLs in CLAUDE.md, deck.html `__CANONICAL_URL__` substitutions, share-intent URLs, and external crawl/share targets MUST use the `www.` form. Substitutions that omit the prefix work via 301 but lose one round-trip.
 
-Cross-reference: §15.7 catalog deck route operates on `www.lessoncraftstudio.com`; §15.8 Cloudflare cache-invalidation policy applies to both apex and `www` (orange-cloud proxy on both records since 2026-04-30 per §3.5).
+**Load-bearing implementation:** `scripts/publish-cli/substitute.js: CANONICAL_URL_BASE = 'https://www.lessoncraftstudio.com'` — this constant drives all `__CANONICAL_URL__` placeholder substitutions across the publish pipeline. **Apex form is NOT acceptable** here: the apex→www 301 redirect breaks the embed iframe's auto-resize listener (per §14.3a `buildEmbedAffordance` snippet shape). The listener compares `e.data.url` (postMessage URL = `location.href` = www post-redirect) against `f.src` (iframe element src = whatever the embed snippet was generated with). When the snippet was generated with apex-form `var url = '__CANONICAL_URL__'` substituted to apex, post-redirect they don't match and the resize message is rejected. Iframe stays at the default `aspect-ratio: 800/1400` showing visible whitespace below the worksheet for sparse-content apps (alphabet-train, prepositions); dense-content apps (math-worksheet with full puzzle layouts, addition/subtraction with 6-equation grids) coincidentally fill ~1400px height and mask the issue.
+
+**Recovery:** `scripts/publish-cli/rewrite-canonical-host.js` is the canonical retrofit script for existing deck.html files — walks `/var/www/lcs-media/decks/<locale>/<slug>-v1/deck.html`, replaces apex form with www form (both plain `https://lessoncraftstudio.com/` and URL-encoded `https%3A%2F%2Flessoncraftstudio.com%2F` for share-intent links). Idempotent. Originating commit: `6fb6ee3d`.
+
+Cross-reference: §15.7 catalog deck route operates on `www.lessoncraftstudio.com`; §15.8 Cloudflare cache-invalidation policy applies to both apex and `www` (orange-cloud proxy on both records since 2026-04-30 per §3.5); §A.14.8 pre-publish-wave audit doctrine includes the canonical-host check as a load-bearing gate.
 
 ### A.11 More detail
 
@@ -3049,5 +3053,38 @@ Scale-projection at audit time decomposes into two layers; both must be measured
 **Why both layers matter.** Filesystem-level projection without timing projection misses the operational ceilings (time-death, race conditions, retry posture). Timing projection without filesystem projection misses the storage ceilings (inode exhaustion, free-space margin, backup-tarball weight). The two together produce a defensible projection across both axes.
 
 Origin: `9850df93` (Scaling Arc 3 — filesystem-level layer) + `f765b991` (Scaling Arc 5 — publish-cli timing layer); methodology codified at this fold pass.
+
+#### A.14.8 Pre-publish-wave audit doctrine
+
+Two defect classes have recurred across multiple operator deck-publish hand-offs and were re-diagnosed from scratch each time. Both are now captured here as a pre-publish-wave checklist that future sessions MUST run BEFORE invoking `publish-bulk --confirm` on a new operator-staged deck wave. Skipping this audit means re-spending operator-attention on already-solved problems.
+
+**The two recurring defect classes:**
+
+1. **Theme-emit defects** — apps' `LCSCatalogExport.export()` call site or `buildCatalogManifestSettings()` hardcodes `theme: null`, dropping the operator's theme selection. Plus 27 of 29 apps historically didn't populate `bundle.seoMeta.themeName` in `extractDeckBundle()` so deck.html `<title>` and `<meta description>` lacked the theme keyword. Past fixes: `5110d6e0` (math-worksheet + prepositions defect-A); `0e5f1560` (28-app sweep adding `seoMeta.themeName` via shared `LCSCatalogExport.deriveThemeName()` helper).
+
+2. **Embed iframe gap (apex/www mismatch)** — `substitute.js: CANONICAL_URL_BASE` was apex form; nginx 301-redirect to www breaks the embed iframe's auto-resize listener via postMessage URL-match check; iframe stays at default `aspect-ratio: 800/1400` showing whitespace below sparse-content worksheets. Past fix: `6fb6ee3d` (CANONICAL_URL_BASE → www form + `rewrite-canonical-host.js` retrofit).
+
+**Pre-publish-wave checklist** — run BEFORE `publish-bulk --confirm` on a new wave:
+
+1. **theme-emit audit.** Sample 1 ZIP per distinct app in the wave: `unzip -p <zip> manifest.json | jq .theme` should be non-null when the operator selected a theme. Defect-A class. If any null:
+   - Apply Shape A authoring fix per §A.13.5 to the offending app's `buildCatalogManifestSettings()`, OR
+   - Run salvage script `scripts/publish-cli/rewrite-manifest-theme.js` per §15.17 against the staged wave directory
+
+2. **seoMeta audit (deck.html title surface).** Each app's `extractDeckBundle()` should populate `bundle.seoMeta.themeName` via the shared `LCSCatalogExport.deriveThemeName(opts)` helper added to `REFERENCE TRANSLATIONS/catalog-export.js`. If absent, deck.html `<title>` will miss the theme keyword (e.g., `Math Worksheet — Kindergarten` instead of `Math Worksheet — Animals — Kindergarten`). Add the helper call at extractDeckBundle return per the post-`0e5f1560` canonical pattern. The 28-app sweep covers all currently-known affected apps; future apps should follow the pattern at first-publish per the §A.13.7 first-publish-verification cadence.
+
+3. **canonical-host check.** Confirm `scripts/publish-cli/substitute.js: CANONICAL_URL_BASE = 'https://www.lessoncraftstudio.com'` (www form) per §A.10. Apex form breaks embed iframe auto-resize. If defective:
+   - Fix the constant (one-line edit)
+   - Run `scripts/publish-cli/rewrite-canonical-host.js` against `/var/www/lcs-media/decks/` to retrofit existing decks
+   - Cloudflare 5-min TTL refreshes edge cache automatically
+
+4. **post-publish spot-check.** Pick 1 sample published deck per affected app:
+   - `curl -s <deck-url> | grep -E '<title>|var url='` — title should include theme word; var url= should be www form
+   - Embed the deck on a test page; verify auto-resize works (no whitespace gap below content)
+
+**Why this matters at the doctrine level.** Operator-attention is the load-bearing variable across the project's runway. Re-diagnosing these defect classes per wave costs ~1-2 hours of CC + operator round-trips. Pre-checking takes ~5 minutes. The asymmetry justifies the doctrine even at one occurrence per quarter; both have recurred multiple times in close succession.
+
+**How to apply.** At the START of any commission that involves `publish-bulk` on operator-staged ZIPs, run the 4-step checklist before any other work. Surface findings in the commission's Phase 1 inventory; fix BEFORE running publish-bulk's `--confirm`. Each step has a documented canonical solution + recovery script; no inventive solutioning required.
+
+Origin: surfaced empirically across the 345-en-wave + alphabet-train/prepositions embed-gap commission cycles in this session. Operator's frustration at the recurrence directly motivated the doctrine capture. Cross-references: §A.10 (canonical-host); §A.13.5 (Shape A); §A.13.7 (first-publish-verification cadence); §15.17 (salvage scripts pattern); §17.8.5 (slug derivation).
 
 *End of CLAUDE.md.*

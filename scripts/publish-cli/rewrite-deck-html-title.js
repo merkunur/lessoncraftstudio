@@ -193,8 +193,16 @@ function processFile(filepath, dryRun) {
     return { file: filepath, action: 'halt-bundle-parse-failed' };
   }
   var bundle = bundleInfo.bundle;
+  // Theme signal: prefer bundle.theme (top-level) if non-null+non-CUID;
+  // fallback to bundle.imagePlacements[0].theme. App bundle shapes vary:
+  //   - subtraction, more-less, math-puzzle, etc.: top-level bundle.theme
+  //     (CUID-prefixed imageRefs, no imagePlacements array)
+  //   - word-guess, word-scramble, addition: imagePlacements[0].theme
+  //     (image-references-v2 with imagePlacements containing per-image themes)
+  var topLevelTheme = bundle && bundle.theme;
   var imagePlacements = bundle && bundle.imagePlacements;
-  var theme = imagePlacements && imagePlacements[0] && imagePlacements[0].theme;
+  var firstPlacementTheme = imagePlacements && imagePlacements[0] && imagePlacements[0].theme;
+  var theme = topLevelTheme || firstPlacementTheme;
   if (!theme) {
     return { file: filepath, action: 'skip-themeless' };
   }

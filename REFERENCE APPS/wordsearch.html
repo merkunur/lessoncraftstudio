@@ -2975,6 +2975,16 @@ document.addEventListener("DOMContentLoaded", function() {
         // coords). Bottom-of-last-item is naturally < listHeight by the
         // (1.5N-0.5)/(1.5N) item-spacing math, so the actual gap ends up
         // 15-25px depending on row count — operator-acceptable approximation.
+        // marginX/marginY moved up here from their original location ~70 lines below.
+        // The listHeight clamp introduced at this commit needs marginY to compute the
+        // available word-list room; declaring marginY later would trigger a temporal-
+        // dead-zone ReferenceError aborting renderPuzzleObjects before the puzzle
+        // grid is added to the canvas. Both later uses (puzzleGridGroup positioning
+        // + word-list element positioning) continue to work — same function scope,
+        // just earlier declaration.
+        const marginX = pageWidth * marginRatio;
+        const marginY = pageHeight * marginRatio + headerHeight;
+
         const PAGE_BORDER_INSET_PX = 38;  // border at margin=34 + strokeWidth=8 → inner edge
         const WORD_BORDER_GAP_PX = 10;
         const maxWordListBottomY = pageHeight - PAGE_BORDER_INSET_PX - WORD_BORDER_GAP_PX;
@@ -3073,10 +3083,9 @@ document.addEventListener("DOMContentLoaded", function() {
         // --- Apply Professional Layout with Margins ---
         const allElements = [puzzleGridGroup, ...wordListClues];
 
-        // Position grid first
-        const marginX = pageWidth * marginRatio;
-        const marginY = pageHeight * marginRatio + headerHeight;
-        
+        // Position grid first — marginX/marginY moved up to before the listHeight
+        // clamp section to fix a temporal-dead-zone bug; declarations stay in
+        // function scope so this site continues to see them correctly.
         if (isLandscape) {
             // Landscape: grid on left
             puzzleGridGroup.set({

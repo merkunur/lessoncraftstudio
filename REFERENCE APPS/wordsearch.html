@@ -2702,16 +2702,34 @@ document.addEventListener("DOMContentLoaded", function() {
         };
 
         // 11×11 language-name matrix: GRID_LANG_NAMES_IN[clueLocale][gridLocale] = "<gridLang as named in clueLang>".
-        // Used to substitute {gridLang} in mixDescription. Finnish uses adessive
+        // Used to substitute {gridLang} in mixDescription. Finnish uses translative
         // case ("ranskaksi") to flow naturally with "Etsi nämä sanat {gridLang}"
         // (= "Find these words in-French"); other locales use nominative noun
         // forms compatible with their preceding preposition (en in, de auf,
         // fr en, es en, it in, pt em, nl in het, sv på, da på, no på).
+        //
+        // Verification: per CLAUDE.md §17.5 best-effort web-search audit
+        // (2026-05-08). Verified per-locale with online dictionaries +
+        // Wikipedia. Specific verifications:
+        //   - Finnish translative forms: englanniksi/saksaksi/ranskaksi/
+        //     espanjaksi/portugaliksi/italiaksi/hollanniksi/ruotsiksi/
+        //     tanskaksi/norjaksi/suomeksi (all -ksi suffix)
+        //   - Danish "hollandsk" (colloquial; standard in Danish per Wikipedia)
+        //     vs Norwegian "nederlandsk" (preferred per Bokmålsordboka;
+        //     "hollandsk" proscribed)
+        //   - German "Niederländisch" formal; "Holländisch" colloquial only
+        //   - Spanish "holandés" (K-3 register; matches it/pt Romance pattern)
+        //   - All Romance demonyms verified via standard dictionaries
+        //
+        // NSR-flagged for native-speaker review per §17.5.1 (residual
+        // uncertainty in Nordic + Finnish K-3-naturalness): sv, da, no, fi
+        // rows + the sv/da/no/fi columns of all other locales' rows.
+        // Logged in feedback_publish_wave_pre_check_audit.md for future NSR pass.
         const GRID_LANG_NAMES_IN = {
             en: { en:'English',    de:'German',       fr:'French',       es:'Spanish',     pt:'Portuguese',  it:'Italian',    nl:'Dutch',      sv:'Swedish',    da:'Danish',     no:'Norwegian',  fi:'Finnish' },
             de: { en:'Englisch',   de:'Deutsch',      fr:'Französisch',  es:'Spanisch',    pt:'Portugiesisch', it:'Italienisch', nl:'Niederländisch', sv:'Schwedisch', da:'Dänisch',    no:'Norwegisch', fi:'Finnisch' },
             fr: { en:'anglais',    de:'allemand',     fr:'français',     es:'espagnol',    pt:'portugais',   it:'italien',    nl:'néerlandais', sv:'suédois',   da:'danois',     no:'norvégien',  fi:'finnois' },
-            es: { en:'inglés',     de:'alemán',       fr:'francés',      es:'español',     pt:'portugués',   it:'italiano',   nl:'neerlandés', sv:'sueco',     da:'danés',      no:'noruego',    fi:'finés' },
+            es: { en:'inglés',     de:'alemán',       fr:'francés',      es:'español',     pt:'portugués',   it:'italiano',   nl:'holandés',   sv:'sueco',     da:'danés',      no:'noruego',    fi:'finlandés' },
             it: { en:'inglese',    de:'tedesco',      fr:'francese',     es:'spagnolo',    pt:'portoghese',  it:'italiano',   nl:'olandese',   sv:'svedese',   da:'danese',     no:'norvegese',  fi:'finlandese' },
             pt: { en:'inglês',     de:'alemão',       fr:'francês',      es:'espanhol',    pt:'português',   it:'italiano',   nl:'holandês',   sv:'sueco',     da:'dinamarquês',no:'norueguês',  fi:'finlandês' },
             nl: { en:'Engels',     de:'Duits',        fr:'Frans',        es:'Spaans',      pt:'Portugees',   it:'Italiaans',  nl:'Nederlands', sv:'Zweeds',    da:'Deens',      no:'Noors',      fi:'Fins' },
@@ -2723,7 +2741,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Mix-mode picks clue locale for header text + substitutes grid lang name.
         // Reads via window globals to avoid TDZ surprises from same-scope lets.
-        const mixOn = !!window.mixModeEnabled;
+        // When grid locale === clue locale, fall back to the standard single-
+        // language description (avoids redundant "Find these words in English!"
+        // when both = English).
+        const mixOn = !!window.mixModeEnabled
+            && window.currentClueLocale && window.currentGridLocale
+            && window.currentClueLocale !== window.currentGridLocale;
         const headerLocale = mixOn ? (window.currentClueLocale || 'en') : (currentLocale || 'en');
         const defaults = defaultHeaders[headerLocale] || defaultHeaders.en;
         const title = defaults.title;

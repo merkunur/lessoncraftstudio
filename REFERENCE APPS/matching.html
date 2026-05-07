@@ -862,20 +862,59 @@
                 <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
             </div>
             <div class="language-selector" style="padding: 10px 25px; border-bottom: 1px solid var(--app-border-dark);">
-                <label data-translate="imageLibraryLanguage" style="color: var(--app-text-secondary-dark-theme); font-size: 13px;">Image Library Language:</label>
-                <select id="languageSelect" style="width: 100%; padding: 8px 10px; font-size: 13px; border-radius: 5px; border: 1px solid var(--app-border-dark); background-color: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); margin-top: 6px;">
-                    <option value="en">English</option>
-                    <option value="de">Deutsch (German)</option>
-                    <option value="fr">Français (French)</option>
-                    <option value="es">Español (Spanish)</option>
-                    <option value="pt">Português (Portuguese)</option>
-                    <option value="it">Italiano (Italian)</option>
-                    <option value="nl">Nederlands (Dutch)</option>
-                    <option value="sv">Svenska (Swedish)</option>
-                    <option value="da">Dansk (Danish)</option>
-                    <option value="no">Norsk (Norwegian)</option>
-                    <option value="fi">Suomi (Finnish)</option>
-                </select>
+                <div id="singleLanguageWrap">
+                    <label data-translate="imageLibraryLanguage" style="color: var(--app-text-secondary-dark-theme); font-size: 13px;">Image Library Language:</label>
+                    <select id="languageSelect" style="width: 100%; padding: 8px 10px; font-size: 13px; border-radius: 5px; border: 1px solid var(--app-border-dark); background-color: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); margin-top: 6px;">
+                        <option value="en">English</option>
+                        <option value="de">Deutsch (German)</option>
+                        <option value="fr">Français (French)</option>
+                        <option value="es">Español (Spanish)</option>
+                        <option value="pt">Português (Portuguese)</option>
+                        <option value="it">Italiano (Italian)</option>
+                        <option value="nl">Nederlands (Dutch)</option>
+                        <option value="sv">Svenska (Swedish)</option>
+                        <option value="da">Dansk (Danish)</option>
+                        <option value="no">Norsk (Norwegian)</option>
+                        <option value="fi">Suomi (Finnish)</option>
+                    </select>
+                </div>
+                <label class="checkbox-label" style="margin-top: 10px; display: flex; align-items: center; gap: 6px; color: var(--app-text-secondary-dark-theme); font-size: 13px;">
+                    <input type="checkbox" id="languageMixModeCheckbox" />
+                    <span data-translate="matching.languageMixMode">Language Mix Mode</span>
+                </label>
+                <div id="mixModeLanguagesWrap" style="display: none; margin-top: 8px;">
+                    <label data-translate="matching.leftLanguage" style="color: var(--app-text-secondary-dark-theme); font-size: 13px;">Left Column Language (image + word; title + instruction):</label>
+                    <select id="leftLanguageSelect" style="width: 100%; padding: 8px 10px; font-size: 13px; border-radius: 5px; border: 1px solid var(--app-border-dark); background-color: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); margin-top: 6px;">
+                        <option value="en">English</option>
+                        <option value="de">Deutsch (German)</option>
+                        <option value="fr">Français (French)</option>
+                        <option value="es">Español (Spanish)</option>
+                        <option value="pt">Português (Portuguese)</option>
+                        <option value="it">Italiano (Italian)</option>
+                        <option value="nl">Nederlands (Dutch)</option>
+                        <option value="sv">Svenska (Swedish)</option>
+                        <option value="da">Dansk (Danish)</option>
+                        <option value="no">Norsk (Norwegian)</option>
+                        <option value="fi">Suomi (Finnish)</option>
+                    </select>
+                    <label data-translate="matching.rightLanguage" style="color: var(--app-text-secondary-dark-theme); font-size: 13px; margin-top: 8px; display: block;">Right Column Language (word only):</label>
+                    <select id="rightLanguageSelect" style="width: 100%; padding: 8px 10px; font-size: 13px; border-radius: 5px; border: 1px solid var(--app-border-dark); background-color: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); margin-top: 6px;">
+                        <option value="en">English</option>
+                        <option value="de">Deutsch (German)</option>
+                        <option value="fr">Français (French)</option>
+                        <option value="es">Español (Spanish)</option>
+                        <option value="pt">Português (Portuguese)</option>
+                        <option value="it">Italiano (Italian)</option>
+                        <option value="nl">Nederlands (Dutch)</option>
+                        <option value="sv">Svenska (Swedish)</option>
+                        <option value="da">Dansk (Danish)</option>
+                        <option value="no">Norsk (Norwegian)</option>
+                        <option value="fi">Suomi (Finnish)</option>
+                    </select>
+                    <p style="font-size: 11px; color: var(--app-text-secondary-dark-theme); margin-top: 8px;" data-translate="matching.mixModeNote">
+                        Left column: image + word in left language. Right column: word only in right language. The Matching Mode dropdown is overridden while mix-mode is on.
+                    </p>
+                </div>
             </div>
             <div class="panel-content">
                 <div class="accordion-item">
@@ -1028,14 +1067,16 @@
                         <hr style="border: none; border-top: 1px solid var(--app-border-dark); margin: 15px 0;">
                         <label for="count" data-translate="maxNumberOfPairs">Max Number of Pairs:</label>
                         <select id="count"><option>4</option><option>5</option><option selected>6</option></select>
-                        <label for="mode" data-translate="matchingMode">Matching Mode:</label>
-                        <select id="mode">
-                            <option value="letter" data-translate="imageBeginningLetter">Image ↔ Beginning Letter</option>
-                            <option value="name" data-translate="imageWord">Image ↔ Word</option>
-                            <option value="imgname" data-translate="imageWordImageWord">Image+Word ↔ Image+Word</option>
-                            <option value="imgorfname" data-translate="imageOrWordImageOrWord">Image/Word ↔ Image/Word</option>
-                            <option value="custom" data-translate="imageCustomWord">Image ↔ Custom Word</option>
-                        </select>
+                        <div id="modeSelectOnlyWrap">
+                            <label for="mode" data-translate="matchingMode">Matching Mode:</label>
+                            <select id="mode">
+                                <option value="letter" data-translate="imageBeginningLetter">Image ↔ Beginning Letter</option>
+                                <option value="name" data-translate="imageWord">Image ↔ Word</option>
+                                <option value="imgname" data-translate="imageWordImageWord">Image+Word ↔ Image+Word</option>
+                                <option value="imgorfname" data-translate="imageOrWordImageOrWord">Image/Word ↔ Image/Word</option>
+                                <option value="custom" data-translate="imageCustomWord">Image ↔ Custom Word</option>
+                            </select>
+                        </div>
                         <div id="letterOptions" style="margin-top: 10px; padding-left: 10px;">
                           <label class="checkbox-label"><input name="letterType" type="radio" value="randomAll" checked> <span data-translate="randomThemeAndImages">Random Theme & Images</span></label>
                           <label class="checkbox-label"><input name="letterType" type="radio" value="randomTheme"> <span data-translate="randomFromChosenTheme">Random from Chosen Theme</span></label>
@@ -2493,7 +2534,11 @@
             const isLetterFamily = (mode === 'letter' || mode === 'name');
             letterOptions.style.display = isLetterFamily ? 'block' : 'none';
             letterThemeBlock.style.display = (isLetterFamily && letterType === 'randomTheme') ? 'block' : 'none';
-            imageSelectionAccordion.style.display = (isLetterFamily && letterType === 'custom') ? 'block' : 'none';
+            // Image Library accordion: visible in single-language custom mode
+            // OR ALWAYS in language-mix mode (operator commission 2026-05-08
+            // bug-fix: in mix-mode they need access to the dictionary/dictTheme
+            // to browse and select different themes for subsequent worksheets).
+            imageSelectionAccordion.style.display = ((isLetterFamily && letterType === 'custom') || window.mixModeEnabled) ? 'block' : 'none';
             itemConfigAccordion.style.display = isLetterFamily ? 'none' : 'block';
             buildConfig();
         };
@@ -2622,7 +2667,17 @@
             const itemsToRemove = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem || o.isHeaderElement || o.isHeaderDesc || o.isPageBorder);
             itemsToRemove.forEach(o => worksheetCanvas.remove(o));
 
-            const m = modeEl.value;
+            // When language-mix mode is ON, force m='name' to route through the
+            // theme-pool branch (lines below). The actual pair construction inside
+            // that branch detects window.mixModeEnabled and overrides the column
+            // structure to image+word(left-lang) ↔ word(right-lang). Operator's
+            // selected matching mode is suppressed while mix-mode is on (the
+            // Matching Mode dropdown is hidden via applyMixModeUI).
+            const m = (window.mixModeEnabled
+                && window.currentLeftLocale && window.currentRightLocale
+                && window.currentLeftLocale !== window.currentRightLocale)
+                ? 'name'
+                : modeEl.value;
             try {
                 let pairs, answerKey;
                 if (m === 'letter' || m === 'name') {
@@ -2656,7 +2711,33 @@
                     lastChosenThemeName = chosenThemeName;
                     if (pool.length < n) throw new Error(t('notEnoughImagesInTheme').replace('{found}', pool.length).replace('{needed}', n));
                     pool = shuffle(pool).slice(0, n);
+                    // Mix-mode (operator commission 2026-05-08): override the
+                    // selected matching mode with a forced column structure —
+                    //   left = image + word in left-column language (type:'imgname')
+                    //   right = word ONLY in right-column language (type:'text')
+                    // Both word forms derived via ImageVocab.singular(key, locale)
+                    // per CLAUDE.md §6 canonical 11-language vocabulary (the
+                    // /api/images response is not reliably localized in dev).
+                    const mixOn = !!window.mixModeEnabled
+                        && window.currentLeftLocale && window.currentRightLocale
+                        && window.currentLeftLocale !== window.currentRightLocale
+                        && window.ImageVocab && typeof window.ImageVocab.keyFromPath === 'function';
                     answerKey = pool.map(img => {
+                        if (mixOn) {
+                            var vocabKey = window.ImageVocab.keyFromPath(img.path || '');
+                            var leftWord = vocabKey ? window.ImageVocab.singular(vocabKey, window.currentLeftLocale) : null;
+                            var rightWord = vocabKey ? window.ImageVocab.singular(vocabKey, window.currentRightLocale) : null;
+                            var fallback = img.editedName || img.name || img.word;
+                            var leftImg = Object.assign({}, img, { word: leftWord || fallback, name: leftWord || fallback });
+                            return {
+                                // layout:'inline' triggers side-by-side image+word in
+                                // createFabricObject (operator commission 2026-05-08).
+                                // Existing 'imgname' mode (no layout flag) keeps the
+                                // stacked layout so prior decks render unchanged.
+                                left:  { type: 'imgname', val: leftImg, layout: 'inline' },
+                                right: { type: 'text',    val: rightWord || fallback }
+                            };
+                        }
                         const displayName = img.name || img.word;
                         // 'letter' mode: single uppercase first letter. 'name' mode: full vocab word as-is from the image library.
                         const rightVal = (m === 'name') ? displayName : displayName.charAt(0).toUpperCase();
@@ -2890,48 +2971,128 @@
                 obj = await new Promise(resolve => {
                     LCSImageRef.loadCanvasImage(item.val.path, (img) => {
                         img.scaleToWidth(64);
-                        if(item.type === 'imgname') {
+                        if (item.type === 'imgname') {
                             const displayName = item.val.name || item.val.word;
-                            const text = new fabric.Textbox(displayName, { 
-                                fontSize: 20, 
-                                top: img.getScaledHeight() + 5,
-                                originX: 'center'
-                            });
-                            resolve(new fabric.Group([img, text]));
+                            // Inline layout (operator commission 2026-05-08): image
+                            // + word side-by-side, professionally typeset. Used by
+                            // language-mix-mode left column. Stacked layout (legacy)
+                            // preserved when item.layout is not 'inline'.
+                            if (item.layout === 'inline') {
+                                const imgH = img.getScaledHeight();
+                                const imgW = img.getScaledWidth();
+                                const GAP = 12;
+                                img.set({ left: 0, top: 0, originX: 'left', originY: 'top' });
+                                // fabric.Text (NOT Textbox) so the rendered width
+                                // matches the visible word width — the bullet
+                                // appended after this group lands just after the
+                                // word, not 200px past inside an empty Textbox
+                                // container (operator commission 2026-05-08
+                                // bullet-misplaced fix).
+                                const text = new fabric.Text(displayName, {
+                                    fontSize: 26,
+                                    fontFamily: 'Fredoka, sans-serif',
+                                    fontWeight: '600',
+                                    fill: '#1E3A5F',
+                                    left: imgW + GAP,
+                                    top: imgH / 2,
+                                    originX: 'left',
+                                    originY: 'center'
+                                });
+                                resolve(new fabric.Group([img, text]));
+                            } else {
+                                const text = new fabric.Textbox(displayName, {
+                                    fontSize: 20,
+                                    top: img.getScaledHeight() + 5,
+                                    originX: 'center'
+                                });
+                                resolve(new fabric.Group([img, text]));
+                            }
                         } else {
                             resolve(img);
                         }
                     }, { crossOrigin: 'anonymous' });
                 });
             } else {
-                obj = new fabric.Textbox(item.val, { 
-                    fontSize: 40, 
-                    textAlign: 'left' 
-                });
+                // Right-column text. Letter-mode keeps fontSize 40 (single
+                // letters look bold); word modes (mix-mode + image-word) use
+                // 32 — operator commission 2026-05-08 ("a little bit smaller").
+                // Width cap at 150px applies in mix-mode + image-word so long
+                // words wrap rather than overflowing the inner border.
+                const rightCurrentMode = (typeof modeEl !== 'undefined' && modeEl) ? modeEl.value : null;
+                const isLetterRightItem = (rightCurrentMode === 'letter') && !window.mixModeEnabled;
+                const rightTextOpts = {
+                    fontSize: isLetterRightItem ? 40 : 32,
+                    textAlign: 'left'
+                };
+                if (!isLetterRightItem) {
+                    rightTextOpts.width = 150;
+                    rightTextOpts.splitByGrapheme = false;
+                }
+                obj = new fabric.Textbox(item.val, rightTextOpts);
             }
             return obj;
         };
 
         // --- Header & Border Functions ---
         function createHeaderGroup(canvas) {
+            // mixDescription: instruction template used when language-mix mode is ON.
+            // {rightLang} is substituted via GRID_LANG_NAMES_IN[leftLocale][rightLocale].
+            // Title stays unchanged (operator commission 2026-05-08; mirrors
+            // wordsearch d0cf97a3 + crossword 507afe0f). Matching's instruction
+            // emphasizes drawing lines + the cross-language pairing.
             const defaultHeaders = {
-                en: { title: 'Match Up!', description: 'Draw lines to connect the matching pairs!' },
-                de: { title: 'Paare Finden!', description: 'Verbinde die zusammenpassenden Paare mit Linien!' },
-                fr: { title: 'Trouve les Paires!', description: 'Relie les paires qui vont ensemble!' },
-                es: { title: '¡Encuentra Parejas!', description: '¡Conecta las parejas que coinciden!' },
-                it: { title: 'Trova le Coppie!', description: 'Collega le coppie che si abbinano!' },
-                pt: { title: 'Encontre os Pares!', description: 'Ligue os pares que combinam!' },
-                nl: { title: 'Zoek de Paren!', description: 'Verbind de passende paren met lijnen!' },
-                sv: { title: 'Matcha Paren!', description: 'Dra linjer för att koppla ihop paren!' },
-                da: { title: 'Find Parrene!', description: 'Forbind de matchende par med linjer!' },
-                no: { title: 'Finn Parene!', description: 'Koble sammen de riktige parene!' },
-                fi: { title: 'Yhdistä Parit!', description: 'Piirrä viivat yhdistääksesi parit!' }
+                en: { title: 'Match Up!',           description: 'Draw lines to connect the matching pairs!',                   mixDescription: 'Draw lines from each picture to the matching {rightLang} word!' },
+                de: { title: 'Paare Finden!',       description: 'Verbinde die zusammenpassenden Paare mit Linien!',             mixDescription: 'Verbinde jedes Bild mit dem passenden Wort auf {rightLang}!' },
+                fr: { title: 'Trouve les Paires!',  description: 'Relie les paires qui vont ensemble!',                          mixDescription: 'Relie chaque image au mot correspondant en {rightLang} !' },
+                es: { title: '¡Encuentra Parejas!', description: '¡Conecta las parejas que coinciden!',                          mixDescription: '¡Conecta cada imagen con la palabra correspondiente en {rightLang}!' },
+                it: { title: 'Trova le Coppie!',    description: 'Collega le coppie che si abbinano!',                            mixDescription: 'Collega ogni immagine alla parola corrispondente in {rightLang}!' },
+                pt: { title: 'Encontre os Pares!',  description: 'Ligue os pares que combinam!',                                  mixDescription: 'Liga cada imagem à palavra correspondente em {rightLang}!' },
+                nl: { title: 'Zoek de Paren!',      description: 'Verbind de passende paren met lijnen!',                         mixDescription: 'Verbind elk plaatje met het bijbehorende woord in het {rightLang}!' },
+                sv: { title: 'Matcha Paren!',       description: 'Dra linjer för att koppla ihop paren!',                         mixDescription: 'Dra linjer från varje bild till det matchande ordet på {rightLang}!' },
+                da: { title: 'Find Parrene!',       description: 'Forbind de matchende par med linjer!',                          mixDescription: 'Forbind hvert billede med det matchende ord på {rightLang}!' },
+                no: { title: 'Finn Parene!',        description: 'Koble sammen de riktige parene!',                               mixDescription: 'Koble hvert bilde til det matchende ordet på {rightLang}!' },
+                fi: { title: 'Yhdistä Parit!',      description: 'Piirrä viivat yhdistääksesi parit!',                            mixDescription: 'Yhdistä jokainen kuva vastaavaan sanaan {rightLang}!' }
             };
 
-            const locale = currentLocale || 'en';
+            // 11×11 language-name matrix: GRID_LANG_NAMES_IN[clueLocale][gridLocale].
+            // Web-search verified per CLAUDE.md §17.5 (audit at wordsearch
+            // 6ea48c3c). Finnish uses translative case (-ksi); other locales use
+            // nominative forms compatible with their preceding preposition.
+            // Spanish nl uses 'holandés' (K-3 register; matches Romance pattern).
+            // NSR-flagged for native-speaker review per §17.5.1: sv/da/no/fi rows
+            // + Nordic columns of all rows. See feedback_publish_wave_pre_check_audit.md.
+            const GRID_LANG_NAMES_IN = {
+                en: { en:'English',     de:'German',       fr:'French',       es:'Spanish',     pt:'Portuguese',  it:'Italian',    nl:'Dutch',       sv:'Swedish',    da:'Danish',     no:'Norwegian',  fi:'Finnish' },
+                de: { en:'Englisch',    de:'Deutsch',      fr:'Französisch',  es:'Spanisch',    pt:'Portugiesisch', it:'Italienisch', nl:'Niederländisch', sv:'Schwedisch', da:'Dänisch',    no:'Norwegisch', fi:'Finnisch' },
+                fr: { en:'anglais',     de:'allemand',     fr:'français',     es:'espagnol',    pt:'portugais',   it:'italien',    nl:'néerlandais',  sv:'suédois',    da:'danois',     no:'norvégien',  fi:'finnois' },
+                es: { en:'inglés',      de:'alemán',       fr:'francés',      es:'español',     pt:'portugués',   it:'italiano',   nl:'holandés',     sv:'sueco',      da:'danés',      no:'noruego',    fi:'finlandés' },
+                it: { en:'inglese',     de:'tedesco',      fr:'francese',     es:'spagnolo',    pt:'portoghese',  it:'italiano',   nl:'olandese',     sv:'svedese',    da:'danese',     no:'norvegese',  fi:'finlandese' },
+                pt: { en:'inglês',      de:'alemão',       fr:'francês',      es:'espanhol',    pt:'português',   it:'italiano',   nl:'holandês',     sv:'sueco',      da:'dinamarquês',no:'norueguês',  fi:'finlandês' },
+                nl: { en:'Engels',      de:'Duits',        fr:'Frans',        es:'Spaans',      pt:'Portugees',   it:'Italiaans',  nl:'Nederlands',   sv:'Zweeds',     da:'Deens',      no:'Noors',      fi:'Fins' },
+                sv: { en:'engelska',    de:'tyska',        fr:'franska',      es:'spanska',     pt:'portugisiska',it:'italienska', nl:'nederländska', sv:'svenska',    da:'danska',     no:'norska',     fi:'finska' },
+                da: { en:'engelsk',     de:'tysk',         fr:'fransk',       es:'spansk',      pt:'portugisisk', it:'italiensk',  nl:'hollandsk',    sv:'svensk',     da:'dansk',      no:'norsk',      fi:'finsk' },
+                no: { en:'engelsk',     de:'tysk',         fr:'fransk',       es:'spansk',      pt:'portugisisk', it:'italiensk',  nl:'nederlandsk',  sv:'svensk',     da:'dansk',      no:'norsk',      fi:'finsk' },
+                fi: { en:'englanniksi', de:'saksaksi',     fr:'ranskaksi',    es:'espanjaksi',  pt:'portugaliksi',it:'italiaksi',  nl:'hollanniksi',  sv:'ruotsiksi',  da:'tanskaksi',  no:'norjaksi',   fi:'suomeksi' }
+            };
+
+            // Mix-mode picks LEFT locale for header text + substitutes RIGHT lang name.
+            // Equality fallback: when left==right (or mix-mode off), use the standard
+            // single-language description.
+            const mixOn = !!window.mixModeEnabled
+                && window.currentLeftLocale && window.currentRightLocale
+                && window.currentLeftLocale !== window.currentRightLocale;
+            const locale = mixOn ? (window.currentLeftLocale || 'en') : (currentLocale || 'en');
             const defaults = defaultHeaders[locale] || defaultHeaders.en;
             const title = defaults.title;
-            const description = defaults.description;
+            let description;
+            if (mixOn) {
+                const rightLocaleForName = window.currentRightLocale || 'en';
+                const namesByRight = GRID_LANG_NAMES_IN[locale] || GRID_LANG_NAMES_IN.en;
+                const rightLangName = namesByRight[rightLocaleForName] || rightLocaleForName;
+                description = (defaults.mixDescription || defaults.description).replace('{rightLang}', rightLangName);
+            } else {
+                description = defaults.description;
+            }
 
             // Get current canvas dimensions for responsive design
             const pageWidth = currentCanvasConfig.width;
@@ -3065,6 +3226,12 @@
 
             } else {
                 // PORTRAIT MODE: Full-width professional header
+                // Pixel-precise tightening per operator 2026-05-08:
+                //   - Title pill (bgRect) sits 4px below the page border's
+                //     inner edge (border top=34 + strokeWidth/2=4 = 38; pill
+                //     top = 38 + 4 = 42).
+                //   - Instruction (descText) sits 5px below the title pill's
+                //     bottom (pill bottom = 42 + 100 = 142; descTop = 147).
                 const headerMargin = 70;
                 const headerWidth = pageWidth - (headerMargin * 2);
                 const centerX = pageWidth / 2;
@@ -3072,7 +3239,7 @@
                 // Sunny yellow header background
                 const bgRect = new fabric.Rect({
                     left: headerMargin,
-                    top: 70,
+                    top: 42,
                     width: headerWidth,
                     height: 100,
                     fill: '#FFD700',
@@ -3086,7 +3253,7 @@
                 // White pill for title
                 const whitePill = new fabric.Rect({
                     left: headerMargin + 20,
-                    top: 85,
+                    top: 57,
                     width: headerWidth - 40,
                     height: 70,
                     fill: '#FFFFFF',
@@ -3106,7 +3273,7 @@
 
                 const titleText = new fabric.IText(title, {
                     left: centerX,
-                    top: 120,
+                    top: 92,
                     fontSize: titleFontSize,
                     fontFamily: 'Fredoka, sans-serif',
                     fontWeight: '700',
@@ -3121,12 +3288,15 @@
                 objects.push(titleText);
 
                 // Theme header (renders above description when 'letter' or 'name' mode is in play and a single theme was chosen)
+                // descTopP = 147: 5px below the title pill's bottom (pill top
+                // 42 + height 100 = 142; +5 = 147). Theme-header variant
+                // adds themeFontSize+8 above descText.
                 const currentModeP = (typeof modeEl !== 'undefined' && modeEl) ? modeEl.value : null;
                 const showThemeHeaderP = (currentModeP === 'letter' || currentModeP === 'name') && lastChosenThemeName;
-                let descTopP = 190;
+                let descTopP = 147;
                 if (showThemeHeaderP) {
                     const themeFontSize = 28;
-                    descTopP = 190 + themeFontSize + 8;
+                    descTopP = 147 + themeFontSize + 8;
                     const themeHeader = new fabric.Text(lastChosenThemeName, {
                         left: centerX,
                         top: descTopP - themeFontSize - 8,
@@ -3180,7 +3350,11 @@
             }
             // Calculate responsive header height based on orientation
             const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
-            const headerHeight = headerObjects ? (isLandscape ? 150 : 220) : 0;
+            // Tightened per operator 2026-05-08: portrait 220→180 saves 40px
+            // of allocated header band, bringing exercises closer to the
+            // instruction. Pairs with the title-pill 70→50 + descTopP 190→170
+            // shifts in createHeaderGroup.
+            const headerHeight = headerObjects ? (isLandscape ? 150 : 180) : 0;
 
             if (pairs.length === 0) {
                 canvas.renderAll(); return;
@@ -3223,15 +3397,24 @@
                 topOffset = topMargin + nameDateHeight;
             }
 
-            // Calculate puzzle area for professional distribution
-            const puzzleAreaTop = topOffset;
-            const puzzleAreaHeight = pageHeight - puzzleAreaTop - bottomMargin;
-            
-            // Calculate spacing for even distribution across full height
+            // Calculate puzzle area for professional distribution.
+            // ALL modes (operator commission 2026-05-08): pin the puzzle
+            // area's BOTTOM to (pageHeight - 38 - 7) — i.e., the inner border
+            // bottom edge minus the operator's 7px gap. Apply ROW_TOP_PAD
+            // above the first row so it doesn't overlap the instruction text
+            // (theme + 2-line desc can extend past the headerHeight buffer).
+            const PAGE_BORDER_INNER = 38;
+            const ROW_BOTTOM_GAP = 7;
+            const ROW_TOP_PAD = 35;
+            const puzzleAreaTop = topOffset + ROW_TOP_PAD;
+            const rowsBottomBoundary = pageHeight - PAGE_BORDER_INNER - ROW_BOTTOM_GAP;
+            const puzzleAreaHeight = Math.max(0, rowsBottomBoundary - puzzleAreaTop);
+
+            // Calculate spacing for even distribution across full height.
+            // edgeSpacing=0 so rows fully consume the area; last row's bottom
+            // lands at the operator's 7px-from-border target.
             const totalSpacing = puzzleAreaHeight;
-            
-            // Distribute spacing: 10% at top/bottom edges, rest evenly between items
-            const edgeSpacing = totalSpacing * 0.05;
+            const edgeSpacing = 0;
             const availableForItems = totalSpacing - (2 * edgeSpacing);
             
             // Calculate item height with spacing
@@ -3249,10 +3432,23 @@
                 betweenSpacing = (availableForItems - totalItemHeight) / (pairs.length - 1);
             }
             
-            // Column positions - wider spread for better visual balance
+            // Column positions. Mix-mode AND word-bearing single-language
+            // modes (name / imgname / etc.) use a fixed bulletX so all right
+            // items align consistently (originX:'left' from bulletX) — the
+            // right-text-width cap is honored, words wrap if needed, last
+            // exercise pinned 7px from inner border (operator commission
+            // 2026-05-08). Letter mode keeps the original centered layout
+            // since single letters need less horizontal room.
+            const layoutMode = (typeof modeEl !== 'undefined' && modeEl) ? modeEl.value : null;
+            const useWideRightLayout = window.mixModeEnabled || (layoutMode !== 'letter');
             const contentWidth = pageWidth - leftMargin - rightMargin;
             const leftColX = leftMargin + contentWidth * 0.1;
-            const rightColX = pageWidth - rightMargin - contentWidth * 0.3;
+            const RIGHT_TEXT_MAX_WIDTH = 150;
+            const RIGHT_BULLET_GAP = 10;
+            const RIGHT_BULLET_APPROX_WIDTH = 30; // fontSize 40 '•' visual width
+            const rightColX = useWideRightLayout
+                ? pageWidth - rightMargin - RIGHT_TEXT_MAX_WIDTH - RIGHT_BULLET_GAP - RIGHT_BULLET_APPROX_WIDTH
+                : pageWidth - rightMargin - contentWidth * 0.3;
             
             const createAndPositionItem = async (itemData, colX, isLeftCol, index, mode) => {
                 const mainObject = await createFabricObject(itemData);
@@ -3267,9 +3463,16 @@
                         itemSpacing = -15;
                     }
 
+                    // Left-column bullet — serves as the line-drawing anchor
+                    // point. Same styling for all layouts (operator commission
+                    // 2026-05-08: anchor + dot must match image-letter mode).
+                    // For mix-mode inline layout the bullet sits just after the
+                    // word; the right column is pushed closer to the inner
+                    // border (rightColX adjustment) so the bullet has room to
+                    // breathe between the columns.
                     if (bulletsEl.checked) {
-                        const bulletObj = new fabric.Text('•', { 
-                            fontSize: 40, fontFamily: 'Fredoka', originX: 'left', originY: 'center' 
+                        const bulletObj = new fabric.Text('•', {
+                            fontSize: 40, fontFamily: 'Fredoka', originX: 'left', originY: 'center'
                         });
                         bulletObj.set({ left: finalObject.getScaledWidth() + itemSpacing });
                         finalObject = new fabric.Group([finalObject, bulletObj]);
@@ -3295,13 +3498,18 @@
 
                 const tag = isAnswerKey ? 'isAnswerKeyItem' : 'isGeneratedItem';
                 const position = isLeftCol ? 'left' : 'right';
-                
+
+                // Wide-right-layout (mix-mode + word-bearing single-language
+                // modes): originX:'left' from bulletX so bullet x is consistent
+                // across rows + wrapped long words grow into the constrained
+                // text width. Letter mode keeps originX:'center'.
+                const rightOriginX = useWideRightLayout ? 'left' : 'center';
                 finalObject.set({
-                    left: colX, 
+                    left: colX,
                     top: 0, // Will be set properly in the loop
-                    originX: isLeftCol ? 'left' : 'center',
+                    originX: isLeftCol ? 'left' : rightOriginX,
                     originY: 'center',
-                    [tag]: true, 
+                    [tag]: true,
                     originalIndex: index, 
                     position: position,
                 });
@@ -3335,10 +3543,18 @@
                 canvas.add(leftItem, rightItem);
 
                 if (isAnswerKey) {
+                    // Line endpoint origin-aware (operator commission 2026-05-08
+                    // mix-mode answer-key fix): right items in wide-right-layout
+                    // use originX:'left' so rightItem.left IS the left edge —
+                    // anchor 5px inside (= at the bullet). Letter mode uses
+                    // originX:'center' so rightItem.left is the center.
                     const lineStartX = leftItem.left + leftItem.getScaledWidth();
-                    const lineEndX = rightItem.left - (rightItem.getScaledWidth() / 2);
+                    const rightOX = rightItem.originX || 'center';
+                    const lineEndX = (rightOX === 'left')
+                        ? (rightItem.left + 5)
+                        : (rightItem.left - rightItem.getScaledWidth() / 2 - 5);
                     const line = new fabric.Line(
-                        [lineStartX + 5, itemY, lineEndX - 5, itemY],
+                        [lineStartX + 5, itemY, lineEndX, itemY],
                         { 
                             stroke: '#555', strokeWidth: 2, selectable: true, evented: true,
                             isAnswerKeyItem: true, originalIndex: i, position: 'line',
@@ -3518,14 +3734,22 @@
                         anchorY: o.top
                     });
                 } else if (o.position === 'right') {
-                    // originX:'center', originY:'center'
+                    // Anchor calc respects originX. Single-language mode uses
+                    // originX:'center' (existing): item left edge = o.left - w/2,
+                    // anchor 5px to the left of that. Mix-mode uses originX:
+                    // 'left': item left edge = o.left, anchor 5px inside the
+                    // item (= at the bullet position) so the line endpoint
+                    // lands on the bullet, not floating off-screen.
+                    var rightOX = o.originX || 'center';
+                    var rightLeftEdge = (rightOX === 'left') ? o.left : (o.left - w / 2);
+                    var rightAnchorX = (rightOX === 'left') ? (o.left + 5) : (o.left - w / 2 - 5);
                     rightItems.push({
                         index: o.originalIndex,
-                        x: o.left - w / 2,
+                        x: rightLeftEdge,
                         y: o.top - h / 2,
                         w: w,
                         h: h,
-                        anchorX: o.left - w / 2 - 5,
+                        anchorX: rightAnchorX,
                         anchorY: o.top
                     });
                 }
@@ -4246,6 +4470,15 @@
                 window.currentLocale = this.value; // Update global locale
                 console.log('Image library language changed to:', currentLocale);
 
+                // Sync mix-mode dropdowns + state to follow the single picker
+                // (mirrors wordsearch d0cf97a3 + crossword 507afe0f).
+                window.currentLeftLocale = this.value;
+                window.currentRightLocale = this.value;
+                var _l = document.getElementById('leftLanguageSelect');
+                var _r = document.getElementById('rightLanguageSelect');
+                if (_l) _l.value = this.value;
+                if (_r) _r.value = this.value;
+
                 // DO NOT call applyTranslations() or applyPlaceholderTranslations()
                 // UI language is controlled by header selector
 
@@ -4277,7 +4510,114 @@
                 await renderDictionary();
             });
         }
-        
+
+        // === Language Mix Mode wiring (operator commission 2026-05-08) ===
+        //
+        // Mirrors wordsearch d0cf97a3 + crossword 507afe0f. Per operator:
+        //   - Left column: image + word in left-column language; also drives
+        //     title + instruction language
+        //   - Right column: word ONLY in right-column language
+        //   - Existing Matching Mode dropdown HIDDEN while mix-mode ON
+        //     (column structure is forced to imgname ↔ text for cross-language
+        //     vocabulary matching)
+        //
+        // Window globals to dodge any TDZ surprises across the multi-thousand-
+        // line scope; sync currentLocale = currentLeftLocale on toggle so all
+        // downstream single-locale logic operates as left-locale.
+        const languageMixModeCheckbox = document.getElementById('languageMixModeCheckbox');
+        const leftLanguageSelect = document.getElementById('leftLanguageSelect');
+        const rightLanguageSelect = document.getElementById('rightLanguageSelect');
+        const singleLanguageWrap = document.getElementById('singleLanguageWrap');
+        const mixModeLanguagesWrap = document.getElementById('mixModeLanguagesWrap');
+        const modeSelectOnlyWrap = document.getElementById('modeSelectOnlyWrap');
+
+        let mixModeEnabled = false;
+        let currentLeftLocale = currentLocale;
+        let currentRightLocale = currentLocale;
+        // Store operator's pre-mix-mode mode + letterType to restore on disable.
+        let preMixMode = null;
+        let preMixLetterType = null;
+        window.mixModeEnabled = mixModeEnabled;
+        window.currentLeftLocale = currentLeftLocale;
+        window.currentRightLocale = currentRightLocale;
+
+        function applyMixModeUI() {
+            if (singleLanguageWrap) singleLanguageWrap.style.display = mixModeEnabled ? 'none' : 'block';
+            if (mixModeLanguagesWrap) mixModeLanguagesWrap.style.display = mixModeEnabled ? 'block' : 'none';
+            // Hide ONLY the mode-select dropdown in mix-mode (operator's chosen
+            // matching mode is overridden internally to 'name' so the column
+            // structure forces image+word ↔ word). letterOptions + letterThemeBlock
+            // remain visible because mix-mode forces letter-family state below
+            // → updateUI() shows them so operator can pick a theme via letterTheme.
+            if (modeSelectOnlyWrap) modeSelectOnlyWrap.style.display = mixModeEnabled ? 'none' : 'block';
+
+            if (mixModeEnabled) {
+                currentLocale = currentLeftLocale;
+                window.currentLocale = currentLocale;
+                // Force letter-family state so updateUI() shows letterOptions +
+                // letterThemeBlock. Store previous operator selections so they
+                // can be restored when mix-mode is toggled off.
+                if (typeof modeEl !== 'undefined' && modeEl) {
+                    if (preMixMode === null) preMixMode = modeEl.value;
+                    if (modeEl.value !== 'name') modeEl.value = 'name';
+                }
+                if (typeof letterType !== 'undefined') {
+                    if (preMixLetterType === null) preMixLetterType = letterType;
+                    if (letterType !== 'randomTheme') {
+                        letterType = 'randomTheme';
+                        var randomThemeRadio = document.querySelector('input[name="letterType"][value="randomTheme"]');
+                        if (randomThemeRadio) randomThemeRadio.checked = true;
+                    }
+                }
+                if (typeof updateUI === 'function') updateUI();
+            } else {
+                if (languageSelect) {
+                    currentLocale = languageSelect.value;
+                    window.currentLocale = currentLocale;
+                }
+                // Restore operator's pre-mix-mode mode + letterType
+                if (preMixMode !== null && typeof modeEl !== 'undefined' && modeEl) {
+                    modeEl.value = preMixMode;
+                    preMixMode = null;
+                }
+                if (preMixLetterType !== null && typeof letterType !== 'undefined') {
+                    letterType = preMixLetterType;
+                    var radio = document.querySelector('input[name="letterType"][value="' + preMixLetterType + '"]');
+                    if (radio) radio.checked = true;
+                    preMixLetterType = null;
+                }
+                if (typeof updateUI === 'function') updateUI();
+            }
+        }
+
+        if (languageMixModeCheckbox) {
+            languageMixModeCheckbox.addEventListener('change', async function() {
+                mixModeEnabled = this.checked;
+                window.mixModeEnabled = mixModeEnabled;
+                applyMixModeUI();
+                if (typeof loadThemes === 'function') await loadThemes();
+            });
+        }
+        if (leftLanguageSelect) {
+            leftLanguageSelect.value = currentLocale;
+            leftLanguageSelect.addEventListener('change', function() {
+                currentLeftLocale = this.value;
+                window.currentLeftLocale = currentLeftLocale;
+                if (mixModeEnabled) {
+                    currentLocale = currentLeftLocale;
+                    window.currentLocale = currentLocale;
+                    if (typeof loadThemes === 'function') loadThemes();
+                }
+            });
+        }
+        if (rightLanguageSelect) {
+            rightLanguageSelect.value = currentLocale;
+            rightLanguageSelect.addEventListener('change', function() {
+                currentRightLocale = this.value;
+                window.currentRightLocale = currentRightLocale;
+            });
+        }
+
         // Apply translations on load
         if (typeof applyTranslations === 'function') {
             applyTranslations();

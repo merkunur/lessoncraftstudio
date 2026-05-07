@@ -3818,20 +3818,21 @@
                   eqSign.set({ left: currentXInSolution, top: (symbolSize * 0.8) / 2, originY: 'center' });
                   solutionObjects.push(eqSign); currentXInSolution += eqSign.width + solutionRowGap;
 
+                  // Single per-symbol footprint = 2.5 × the eventual answer-key value text width.
+                  // Worksheet (blank rect), worksheet (showAnswers value text), and answer-key
+                  // (value text) all advance currentXInSolution by this same width so the three
+                  // surfaces produce identical raw card geometry — preserving N=1 card+image size
+                  // parity through layoutAndRenderPuzzles' scale-to-fit step.
+                  const wsMeasure = new fabric.Text(String(puzzle.values[sym]), { fontSize: textFontSize * 0.8, fill: '#333', fontWeight: '500' });
+                  const wsSlotWidth = wsMeasure.width * 2.5;
                   if (showAnswers) {
                       const valueText = new fabric.Text(String(puzzle.values[sym]), { fontSize: textFontSize * 0.8, fill: '#333', fontWeight: '500' });
-                      valueText.set({ left: currentXInSolution, top: (symbolSize * 0.8) / 2, originY: 'center' });
-                      solutionObjects.push(valueText); currentXInSolution += valueText.width;
+                      valueText.set({ left: currentXInSolution + (wsSlotWidth - valueText.width) / 2, top: (symbolSize * 0.8) / 2, originY: 'center' });
+                      solutionObjects.push(valueText); currentXInSolution += wsSlotWidth;
                   } else {
-                      // Size the blank rect to match the eventual answer-key value-text width so
-                      // worksheet and answer-key cards have identical raw geometry. Without this,
-                      // the hardcoded 40px-wide blank made the worksheet's solutionRow wider than
-                      // the answer-key's, which on N=1 caused layoutAndRenderPuzzles to scale the
-                      // worksheet card down more (smaller card + smaller images) than the answer key.
-                      const measureText = new fabric.Text(String(puzzle.values[sym]), { fontSize: textFontSize * 0.8, fill: '#333', fontWeight: '500' });
-                      const rect = new fabric.Rect({ width: measureText.width, height: textFontSize * 0.8 * 1.2, fill: '#ffffff', stroke: '#dce1e6', strokeWidth: 1.5, rx: 4, ry: 4, isAnswerBox: true, answerSymbol: sym });
+                      const rect = new fabric.Rect({ width: wsSlotWidth, height: textFontSize * 0.8 * 1.2, fill: '#ffffff', stroke: '#dce1e6', strokeWidth: 1.5, rx: 4, ry: 4, isAnswerBox: true, answerSymbol: sym });
                       rect.set({ left: currentXInSolution, top: (symbolSize * 0.8) / 2, originY: 'center' });
-                      solutionObjects.push(rect); currentXInSolution += rect.width;
+                      solutionObjects.push(rect); currentXInSolution += wsSlotWidth;
                   }
                   if (i < puzzle.symbolsUsed.length - 1) { currentXInSolution += solutionRowGap * 2; }
               }
@@ -4021,10 +4022,12 @@
                   eqSign.set({ left: currentXInSolution, top: (symbolSize * 0.8) / 2, originY: 'center' });
                   solutionObjects.push(eqSign); currentXInSolution += eqSign.width + solutionRowGap;
 
+                  // Match the worksheet's 2.5x per-symbol footprint so card raw geometry stays aligned.
                   const valueText = new fabric.Text(String(puzzle.values[sym]), { fontSize: textFontSize * 0.8, fill: '#333', fontWeight: '500' });
-                  valueText.set({ left: currentXInSolution, top: (symbolSize * 0.8) / 2, originY: 'center' });
-                  solutionObjects.push(valueText); currentXInSolution += valueText.width;
-                  
+                  const akSlotWidth = valueText.width * 2.5;
+                  valueText.set({ left: currentXInSolution + (akSlotWidth - valueText.width) / 2, top: (symbolSize * 0.8) / 2, originY: 'center' });
+                  solutionObjects.push(valueText); currentXInSolution += akSlotWidth;
+
                   if (i < puzzle.symbolsUsed.length - 1) { currentXInSolution += solutionRowGap * 2; }
               }
               rowElements.push(new fabric.Group(solutionObjects, { isAnswerKeyItem: true, objectCaching: false }));

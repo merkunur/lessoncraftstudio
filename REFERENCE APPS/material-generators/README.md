@@ -11,13 +11,19 @@ Phase 3 deliverable for the teaching-package architecture. Each generator is a s
 | `manipulative-cut-outs.html` | `manipulative-cut-outs` | Themed counters for K-3 hands-on math + sorting |
 | `answer-key.html` | `answer-key` | Per-package teacher reference; consumes a package.yaml |
 
-## Phase 3b generators (this commit)
+## Phase 3b generators (Arc 1 commit `a45db4d6`)
 
 | File | Material slug | Purpose |
 |---|---|---|
-| `sentence-strips.html` | `sentence-strips` | Pocket-chart strips with target-language frame + embedded image; 7 preset frames + custom; per-locale frame templates for en/de/es/fr/nl with article + plural auto-resolution from IMAGE_VOCABULARY gender |
+| `sentence-strips.html` | `sentence-strips` | Pocket-chart strips with target-language frame + embedded image; 7 preset frames + custom; per-locale frame templates for en/de/es/fr/nl/pt/it (Romance + Germanic full grammar) + sv/da/no/fi (Nordic NSR-flagged at Arc 2 Phase 1) with article + plural auto-resolution from IMAGE_VOCABULARY gender |
 | `parent-take-home-letter.html` | `parent-take-home-letter` | Letter to parents in HOME language (greet/body/close per tone) + picture cues labeled in TARGET language; full 11-locale × 3-tone template matrix baked in |
-| `vocabulary-tracing-strips.html` | `vocabulary-tracing-strips` | Image + traceable word + optional blank line. NEW generator per CLAUDE.md §3.2 (does NOT extend writing.html). Pulled forward from Arc 2 deferred queue per operator authorization. Catalog entry added in this commit. |
+| `vocabulary-tracing-strips.html` | `vocabulary-tracing-strips` | Image + traceable word + optional blank line. NEW generator per CLAUDE.md §3.2 (does NOT extend writing.html). Pulled forward from Arc 2 deferred queue per operator authorization. |
+
+## Arc 3 Phase 1 generator (`numeral-cards`)
+
+| File | Material slug | Purpose |
+|---|---|---|
+| `numeral-cards.html` | `numeral-cards` | Numerals 1-20 + optional localized number-word per card. Numeracy-package counterpart to vocabulary-package flashcards. Closes the Arc 2 cross-strand prototype gap (count-objects-1-to-10 package now uses numeral-cards as primary numeracy anchor instead of theme-mode flashcards workaround). NUMBER_WORDS i18n resource lives in `material-generator-shared.js`; Romance gender-variants default to masculine; Nordic gender-variants default to common-gender 'en'; Finnish defaults to nominative single-form (NSR-flag for accusative/partitive case morphology in counting frames). |
 
 ## Out-of-scope (Arc 2)
 

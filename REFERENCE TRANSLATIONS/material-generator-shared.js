@@ -102,6 +102,52 @@
     return /^[aeiouAEIOU]/.test(word.charAt(0)) ? 'an' : 'a';
   }
 
+  // NUMBER_WORDS — number-word forms 1-20 per locale.
+  // Per CC adjudication (Arc 3 Phase 1): Romance gender variants ('uno'/'una';
+  // 'um'/'uma'; 'un'/'une') default to MASCULINE. Nordic gender variants
+  // ('en'/'ett'; 'en'/'et') default to COMMON-GENDER 'en'. Future Arc 4+ may
+  // add gender-toggle parameter. Finnish defaults to NOMINATIVE single-form
+  // ('yksi'/'kaksi'/...); accusative/partitive case morphology for counting
+  // frames is NSR-flagged (extends per project_k3_phrasing_native_speaker_review).
+  var NUMBER_WORDS = Object.freeze({
+    en: ['', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten',
+         'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty'],
+    de: ['', 'eins', 'zwei', 'drei', 'vier', 'fünf', 'sechs', 'sieben', 'acht', 'neun', 'zehn',
+         'elf', 'zwölf', 'dreizehn', 'vierzehn', 'fünfzehn', 'sechzehn', 'siebzehn', 'achtzehn', 'neunzehn', 'zwanzig'],
+    es: ['', 'uno', 'dos', 'tres', 'cuatro', 'cinco', 'seis', 'siete', 'ocho', 'nueve', 'diez',
+         'once', 'doce', 'trece', 'catorce', 'quince', 'dieciséis', 'diecisiete', 'dieciocho', 'diecinueve', 'veinte'],
+    fr: ['', 'un', 'deux', 'trois', 'quatre', 'cinq', 'six', 'sept', 'huit', 'neuf', 'dix',
+         'onze', 'douze', 'treize', 'quatorze', 'quinze', 'seize', 'dix-sept', 'dix-huit', 'dix-neuf', 'vingt'],
+    pt: ['', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez',
+         'onze', 'doze', 'treze', 'quatorze', 'quinze', 'dezesseis', 'dezessete', 'dezoito', 'dezenove', 'vinte'],
+    it: ['', 'uno', 'due', 'tre', 'quattro', 'cinque', 'sei', 'sette', 'otto', 'nove', 'dieci',
+         'undici', 'dodici', 'tredici', 'quattordici', 'quindici', 'sedici', 'diciassette', 'diciotto', 'diciannove', 'venti'],
+    nl: ['', 'een', 'twee', 'drie', 'vier', 'vijf', 'zes', 'zeven', 'acht', 'negen', 'tien',
+         'elf', 'twaalf', 'dertien', 'veertien', 'vijftien', 'zestien', 'zeventien', 'achttien', 'negentien', 'twintig'],
+    sv: ['', 'en', 'två', 'tre', 'fyra', 'fem', 'sex', 'sju', 'åtta', 'nio', 'tio',
+         'elva', 'tolv', 'tretton', 'fjorton', 'femton', 'sexton', 'sjutton', 'arton', 'nitton', 'tjugo'],
+    da: ['', 'en', 'to', 'tre', 'fire', 'fem', 'seks', 'syv', 'otte', 'ni', 'ti',
+         'elleve', 'tolv', 'tretten', 'fjorten', 'femten', 'seksten', 'sytten', 'atten', 'nitten', 'tyve'],
+    no: ['', 'en', 'to', 'tre', 'fire', 'fem', 'seks', 'sju', 'åtte', 'ni', 'ti',
+         'elleve', 'tolv', 'tretten', 'fjorten', 'femten', 'seksten', 'sytten', 'atten', 'nitten', 'tjue'],
+    fi: ['', 'yksi', 'kaksi', 'kolme', 'neljä', 'viisi', 'kuusi', 'seitsemän', 'kahdeksan', 'yhdeksän', 'kymmenen',
+         'yksitoista', 'kaksitoista', 'kolmetoista', 'neljätoista', 'viisitoista', 'kuusitoista', 'seitsemäntoista', 'kahdeksantoista', 'yhdeksäntoista', 'kaksikymmentä'],
+  });
+
+  /**
+   * Get the localized number-word for a numeral 1-20.
+   * @param {number} n - integer 1-20
+   * @param {string} locale - one of LCS_LOCALES
+   * @returns {string} - number-word in target locale; falls back to digit string if out of range
+   */
+  function localizedNumberWord(n, locale) {
+    var words = NUMBER_WORDS[locale] || NUMBER_WORDS.en;
+    if (typeof n !== 'number' || n < 1 || n > 20 || !Number.isFinite(n)) {
+      return String(n);
+    }
+    return words[n] || String(n);
+  }
+
   /**
    * Fetch theme assets in current locale via existing /api/images.
    * @param {string} themeName - theme name from image_themes.name (e.g., "animals", "food_bw").
@@ -412,12 +458,14 @@
   window.LCSMaterialGenerators = {
     LCS_LOCALES: LCS_LOCALES,
     PAPER_SIZES: PAPER_SIZES,
+    NUMBER_WORDS: NUMBER_WORDS,
     getThemeAssets: getThemeAssets,
     lookupVocabulary: lookupVocabulary,
     imageToVocabKey: imageToVocabKey,
     getThemeDisplayName: getThemeDisplayName,
     localizedLabel: localizedLabel,
     localizedArticle: localizedArticle,
+    localizedNumberWord: localizedNumberWord,
     initCanvas: initCanvas,
     renderGrid: renderGrid,
     renderCardBorder: renderCardBorder,

@@ -8,11 +8,26 @@
  *   - frontend/config/materials-catalog.json (materials must validate)
  *   - 11-locale set (language must be one of en/de/fr/es/pt/it/nl/sv/da/no/fi)
  *
+ * SPARSE-OVERRIDE SUPPORT (Arc 3 Phase 1):
+ *
+ * Two file shapes accepted:
+ *   1. Canonical: <pkg-dir>/package.yaml — full self-contained definition
+ *      keyed on the canonical (en) locale.
+ *   2. Sparse override: <pkg-dir>/package.<locale>.yaml — partial file
+ *      containing ONLY locale-bound fields (title, description, structure
+ *      bodies, assessmentCriteria, compositionalRationale, language) +
+ *      optional per-locale exercise/material customizationParameters
+ *      overrides where the operator wants different settings per locale.
+ *      The validator detects sparse-override files by filename pattern,
+ *      finds the sibling package.yaml, and deep-merges (override-wins)
+ *      before validating the merged result against schema.
+ *
  * Per docs/lesson-plans/existing-plan-substrate.md §7-8 Option B (TeachingPackage
  * sibling table). Phase 5 / Arc 2 will ship the DB-seed companion.
  *
  * Usage:
  *   npx tsx scripts/author-teaching-package.ts <path-to-package.yaml>
+ *   npx tsx scripts/author-teaching-package.ts <path-to-package.<locale>.yaml>
  *
  * Exit 0 on pass; 1 on validation failure; 2 on usage / IO error.
  */
@@ -59,6 +74,95 @@ interface ValidationError {
 
 function loadJson(filePath: string): any {
   return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+}
+
+/**
+ * Detect if a file path is a sparse-override locale variant.
+ * Pattern: package.<locale>.yaml where <locale> is in PLATFORM_LOCALES.
+ * Returns the locale code if matched, null otherwise.
+ */
+function detectSparseOverrideLocale(filePath: string): string | null {
+  const basename = path.basename(filePath);
+  const match = basename.match(/^package\.([a-z]{2})\.ya?ml$/i);
+  if (!match) return null;
+  const locale = match[1].toLowerCase();
+  return PLATFORM_LOCALES.includes(locale) ? locale : null;
+}
+
+/**
+ * Resolve canonical package.yaml path given a sparse-override path.
+ * Returns null if no canonical found.
+ */
+function findCanonicalSibling(sparseOverridePath: string): string | null {
+  const dir = path.dirname(sparseOverridePath);
+  const canonical = path.join(dir, 'package.yaml');
+  if (fs.existsSync(canonical)) return canonical;
+  const canonicalYml = path.join(dir, 'package.yml');
+  if (fs.existsSync(canonicalYml)) return canonicalYml;
+  return null;
+}
+
+/**
+ * Deep-merge override on top of base. Override values WIN per field.
+ * - Plain objects: recursive merge.
+ * - Arrays: override REPLACES base entirely (no concat; safest semantics for
+ *   composedExercises + materials where partial override would be ambiguous).
+ * - Primitives + null: override wins.
+ * - undefined in override: keeps base value (allows partial overrides).
+ *
+ * To override a single material's customizationParameters in a sparse file,
+ * the operator must include the WHOLE materials array (with the modifications)
+ * — array-level replacement, not array-element merge. This is intentional:
+ * partial-array merge ambiguity (which element matches which?) is a foot-gun
+ * the validator avoids.
+ */
+function deepMerge(base: any, override: any): any {
+  if (override === undefined) return base;
+  if (override === null) return null;
+  if (Array.isArray(override)) return override; // array-replace semantics
+  if (typeof override !== 'object') return override;
+  if (typeof base !== 'object' || base === null || Array.isArray(base)) {
+    return override;
+  }
+  const result: any = { ...base };
+  for (const key of Object.keys(override)) {
+    result[key] = deepMerge(base[key], override[key]);
+  }
+  return result;
+}
+
+/**
+ * Load + parse a package YAML file. If it's a sparse-override file, merge
+ * with canonical sibling. Returns the resolved (merged) package object plus
+ * a metadata object describing the resolution.
+ */
+function loadPackageWithMaybeMerge(
+  filePath: string
+): { pkg: any; resolvedFrom: 'canonical' | 'sparse-override-merged'; canonicalPath?: string; overrideLocale?: string } {
+  const yamlText = fs.readFileSync(filePath, 'utf-8');
+  const parsed = YAML.parse(yamlText);
+  const overrideLocale = detectSparseOverrideLocale(filePath);
+  if (!overrideLocale) {
+    return { pkg: parsed, resolvedFrom: 'canonical' };
+  }
+  const canonicalPath = findCanonicalSibling(filePath);
+  if (!canonicalPath) {
+    throw new Error(
+      `sparse-override file "${path.basename(filePath)}" has no sibling package.yaml in ${path.dirname(filePath)}`
+    );
+  }
+  const canonicalText = fs.readFileSync(canonicalPath, 'utf-8');
+  const canonical = YAML.parse(canonicalText);
+  const merged = deepMerge(canonical, parsed);
+  // Always force language to the override-locale (sparse files may omit it,
+  // but the merged result must reflect the locale being authored).
+  merged.language = overrideLocale;
+  return {
+    pkg: merged,
+    resolvedFrom: 'sparse-override-merged',
+    canonicalPath,
+    overrideLocale,
+  };
 }
 
 function collectTargetSlugs(taxonomy: any): Set<string> {
@@ -256,11 +360,17 @@ function main(): void {
   }
 
   let pkg: any;
+  let resolution: { resolvedFrom: string; canonicalPath?: string; overrideLocale?: string };
   try {
-    const yamlText = fs.readFileSync(yamlPath, 'utf-8');
-    pkg = YAML.parse(yamlText);
+    const result = loadPackageWithMaybeMerge(yamlPath);
+    pkg = result.pkg;
+    resolution = {
+      resolvedFrom: result.resolvedFrom,
+      canonicalPath: result.canonicalPath,
+      overrideLocale: result.overrideLocale,
+    };
   } catch (e: any) {
-    console.error(`YAML parse error: ${e.message}`);
+    console.error(`YAML parse / sparse-override resolution error: ${e.message}`);
     process.exit(1);
   }
 
@@ -268,6 +378,10 @@ function main(): void {
 
   if (errors.length === 0) {
     console.log(`PASS: ${path.basename(yamlPath)}`);
+    if (resolution.resolvedFrom === 'sparse-override-merged') {
+      console.log(`  resolution:        sparse-override merged with ${path.basename(resolution.canonicalPath || '')}`);
+      console.log(`  override locale:   ${resolution.overrideLocale}`);
+    }
     console.log(`  targetSlug:        ${pkg.targetSlug}`);
     console.log(`  language:          ${pkg.language}`);
     console.log(`  durationMinutes:   ${pkg.durationMinutes}`);
@@ -277,6 +391,9 @@ function main(): void {
   }
 
   console.error(`FAIL: ${path.basename(yamlPath)} (${errors.length} error${errors.length > 1 ? 's' : ''})`);
+  if (resolution.resolvedFrom === 'sparse-override-merged') {
+    console.error(`  (validated AFTER merging with ${path.basename(resolution.canonicalPath || '')})`);
+  }
   for (const e of errors) {
     console.error(`  • ${e.field}: ${e.message}`);
   }
@@ -293,4 +410,4 @@ if (
   main();
 }
 
-export { validate };
+export { validate, deepMerge, detectSparseOverrideLocale, loadPackageWithMaybeMerge };

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Numeral Cards Generator | LessonCraftStudio</title>
+<meta name="robots" content="noindex">
+<meta name="description" content="Generate printable numeral cards (1-20) with optional localized number-word for K-3 numeracy work.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Lexend+Deca:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<script src="/worksheet-generators/js/material-generator-shared.js?v=2"></script>
+
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: 'Lexend Deca', system-ui, sans-serif; background: #f4f6fa; color: #222; }
+  .layout { display: flex; min-height: 100vh; }
+  .sidebar { width: 320px; padding: 20px; background: #fff; border-right: 1px solid #e1e4eb; overflow-y: auto; }
+  .canvas-pane { flex: 1; padding: 24px; display: flex; align-items: flex-start; justify-content: center; overflow: auto; }
+  h1 { font-family: 'Fredoka', sans-serif; font-size: 22px; margin: 0 0 4px; }
+  .subtitle { color: #5c6878; font-size: 13px; margin-bottom: 20px; }
+  fieldset { border: 1px solid #e1e4eb; border-radius: 8px; padding: 12px; margin-bottom: 14px; }
+  legend { font-weight: 600; padding: 0 6px; font-size: 13px; color: #4a5468; }
+  label { display: block; margin-bottom: 8px; font-size: 13px; }
+  label > span { display: block; color: #5c6878; margin-bottom: 3px; font-size: 12px; }
+  input[type="text"], input[type="number"], select { width: 100%; padding: 6px 8px; border: 1px solid #cbd2dc; border-radius: 4px; font-size: 13px; font-family: inherit; }
+  input[type="checkbox"] { margin-right: 6px; }
+  button { width: 100%; padding: 10px; background: #2563eb; color: #fff; border: 0; border-radius: 6px; font-weight: 600; font-size: 14px; cursor: pointer; font-family: inherit; }
+  button:disabled { background: #9ca3af; cursor: not-allowed; }
+  .status { margin-top: 12px; font-size: 12px; color: #5c6878; min-height: 16px; }
+  .status.error { color: #c0392b; }
+  .canvas-host { background: #fff; border: 1px solid #e1e4eb; box-shadow: 0 4px 16px rgba(0,0,0,.06); }
+</style>
+</head>
+<body>
+
+<div class="layout">
+  <aside class="sidebar">
+    <h1>Numeral Cards</h1>
+    <div class="subtitle">Numerals 1-20 + optional localized number-word. Numeracy-package counterpart to vocabulary flashcards.</div>
+
+    <fieldset>
+      <legend>Numerals</legend>
+      <label><span>Range</span>
+        <select id="numeralRange">
+          <option value="1-5">1 to 5 (5 cards)</option>
+          <option value="1-10" selected>1 to 10 (10 cards)</option>
+          <option value="1-20">1 to 20 (20 cards)</option>
+        </select>
+      </label>
+      <label><input id="showNumberWord" type="checkbox" checked> Show localized number-word ("one", "eins", "uno", ...)</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Localization</legend>
+      <label><span>Language</span>
+        <select id="language">
+          <option value="en" selected>English</option>
+          <option value="de">Deutsch</option>
+          <option value="fr">Français</option>
+          <option value="es">Español</option>
+          <option value="pt">Português</option>
+          <option value="it">Italiano</option>
+          <option value="nl">Nederlands</option>
+          <option value="sv">Svenska</option>
+          <option value="da">Dansk</option>
+          <option value="no">Norsk</option>
+          <option value="fi">Suomi</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Layout</legend>
+      <label><span>Cards per page</span>
+        <select id="cardsPerPage">
+          <option value="4">4 (jumbo)</option>
+          <option value="6" selected>6 (standard)</option>
+          <option value="9">9 (take-home)</option>
+        </select>
+      </label>
+      <label><span>Paper size</span>
+        <select id="paperSize">
+          <option value="a4" selected>A4</option>
+          <option value="letter">Letter</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Card style</legend>
+      <label><span>Border</span>
+        <select id="borderStyle">
+          <option value="thin">Thin</option>
+          <option value="thick" selected>Thick</option>
+          <option value="rounded">Rounded</option>
+          <option value="none">None</option>
+        </select>
+      </label>
+      <label><input id="roundedCorners" type="checkbox" checked> Rounded corners</label>
+      <label><input id="showCutGuides" type="checkbox" checked> Show cut guides</label>
+    </fieldset>
+
+    <button id="generateBtn">Generate &amp; download PDF</button>
+    <div id="status" class="status"></div>
+  </aside>
+
+  <main class="canvas-pane">
+    <canvas id="previewCanvas" class="canvas-host"></canvas>
+  </main>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  var $ = function (id) { return document.getElementById(id); };
+  var SHARED = window.LCSMaterialGenerators;
+
+  function setStatus(msg, isError) {
+    var el = $('status');
+    el.textContent = msg || '';
+    el.classList.toggle('error', !!isError);
+  }
+
+  function readConfig() {
+    var range = $('numeralRange').value.split('-');
+    return {
+      minNumeral: parseInt(range[0], 10),
+      maxNumeral: parseInt(range[1], 10),
+      showNumberWord: $('showNumberWord').checked,
+      language: $('language').value,
+      cardsPerPage: parseInt($('cardsPerPage').value, 10),
+      paperSize: $('paperSize').value,
+      borderStyle: $('borderStyle').value,
+      roundedCorners: $('roundedCorners').checked,
+      showCutGuides: $('showCutGuides').checked,
+    };
+  }
+
+  function determineGrid(cardsPerPage) {
+    if (cardsPerPage === 4) return { cols: 2, rows: 2 };
+    if (cardsPerPage === 6) return { cols: 2, rows: 3 };
+    if (cardsPerPage === 9) return { cols: 3, rows: 3 };
+    return { cols: 2, rows: 3 };
+  }
+
+  function buildNumerals(cfg) {
+    var arr = [];
+    for (var n = cfg.minNumeral; n <= cfg.maxNumeral; n++) arr.push(n);
+    return arr;
+  }
+
+  function renderNumeralCard(canvas, n, x, y, w, h, cfg) {
+    SHARED.renderCardBorder(canvas, x, y, w, h, {
+      style: cfg.borderStyle,
+      roundedCorners: cfg.roundedCorners,
+    });
+    var numeralFontSize;
+    if (cfg.showNumberWord) {
+      numeralFontSize = Math.min(h * 0.55, w * 0.6);
+    } else {
+      numeralFontSize = Math.min(h * 0.75, w * 0.75);
+    }
+    var numeralY = cfg.showNumberWord ? y + h * 0.40 : y + h / 2;
+    var numeral = new fabric.Text(String(n), {
+      left: x + w / 2,
+      top: numeralY,
+      originX: 'center',
+      originY: 'center',
+      fontSize: numeralFontSize,
+      fontFamily: 'Fredoka, sans-serif',
+      fontWeight: 700,
+      fill: '#222',
+      selectable: false,
+      evented: false,
+    });
+    canvas.add(numeral);
+    if (cfg.showNumberWord) {
+      var word = SHARED.localizedNumberWord(n, cfg.language);
+      var wordFontSize = Math.min(h * 0.16, w * 0.30);
+      var wordText = new fabric.Text(word, {
+        left: x + w / 2,
+        top: y + h * 0.85,
+        originX: 'center',
+        originY: 'center',
+        fontSize: wordFontSize,
+        fontFamily: 'Lexend Deca, sans-serif',
+        fontWeight: 500,
+        fill: '#4a5468',
+        selectable: false,
+        evented: false,
+      });
+      canvas.add(wordText);
+    }
+  }
+
+  function generate() {
+    var cfg = readConfig();
+    if (cfg.minNumeral < 1 || cfg.maxNumeral > 20 || cfg.minNumeral > cfg.maxNumeral) {
+      setStatus('numeral range invalid', true);
+      return;
+    }
+    setStatus('Rendering…');
+    var btn = $('generateBtn');
+    btn.disabled = true;
+    try {
+      var numerals = buildNumerals(cfg);
+      var grid = determineGrid(cfg.cardsPerPage);
+      var canvas = SHARED.initCanvas($('previewCanvas'), cfg.paperSize, { orientation: 'portrait' });
+      var perPage = grid.cols * grid.rows;
+      var firstPage = numerals.slice(0, perPage);
+      SHARED.renderGrid(canvas, firstPage, {
+        cols: grid.cols,
+        rows: grid.rows,
+        renderItem: function (c, n, x, y, w, h) { renderNumeralCard(c, n, x, y, w, h, cfg); },
+      });
+      if (cfg.showCutGuides) {
+        var margin = 36;
+        SHARED.addCutGuides(
+          canvas, grid.cols, grid.rows, margin, margin,
+          canvas.lcsDims.w - 2 * margin, canvas.lcsDims.h - 2 * margin
+        );
+      }
+      // Render additional pages if needed
+      var pages = [];
+      var idx = perPage;
+      while (idx < numerals.length) {
+        var pageCanvas = SHARED.initCanvas(document.createElement('canvas'), cfg.paperSize, { orientation: 'portrait' });
+        var pageItems = numerals.slice(idx, idx + perPage);
+        SHARED.renderGrid(pageCanvas, pageItems, {
+          cols: grid.cols, rows: grid.rows,
+          renderItem: function (c, n, x, y, w, h) { renderNumeralCard(c, n, x, y, w, h, cfg); },
+        });
+        if (cfg.showCutGuides) {
+          var m2 = 36;
+          SHARED.addCutGuides(
+            pageCanvas, grid.cols, grid.rows, m2, m2,
+            pageCanvas.lcsDims.w - 2 * m2, pageCanvas.lcsDims.h - 2 * m2
+          );
+        }
+        pages.push(pageCanvas);
+        idx += perPage;
+      }
+      setTimeout(function () {
+        try {
+          var fn = 'numeral-cards-' + cfg.minNumeral + '-' + cfg.maxNumeral + '-' + cfg.language + '.pdf';
+          SHARED.emitPdf(canvas, fn, { additionalPages: pages });
+          setStatus('Saved ' + fn + ' (' + numerals.length + ' card' + (numerals.length > 1 ? 's' : '') + ')');
+        } catch (err) {
+          setStatus('PDF emit failed: ' + err.message, true);
+        } finally {
+          btn.disabled = false;
+        }
+      }, 200);
+    } catch (err) {
+      console.error(err);
+      setStatus(err.message || 'failed', true);
+      btn.disabled = false;
+    }
+  }
+
+  $('generateBtn').addEventListener('click', generate);
+})();
+</script>
+
+</body>
+</html>

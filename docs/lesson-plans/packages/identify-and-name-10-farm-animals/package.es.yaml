@@ -1,38 +1,41 @@
 # Teaching package — identify and name 10 farm animals (Spanish locale variant)
 #
-# Arc 2 Phase 2 localization of the Arc 1 first-authored package.
-# Authored: 2026-05-07
-# Validated: PASS via frontend/scripts/author-teaching-package.ts
-#
-# Authoring shape: full standalone file (NOT sparse override). Sparse-override
-# tooling deferred to Arc 3+; current Phase 2 validator (per
-# frontend/scripts/author-teaching-package.ts) consumes full files. Acceptable
-# duplication cost at Arc 2 scope (1 package × 1 locale variant); refactor to
-# sparse override per docs/lesson-plans/packages/README.md when scope warrants.
+# SPARSE-OVERRIDE FORMAT (Arc 3 Phase 1 migration).
+# Migrated from full standalone (Arc 2 Phase 2) to sparse-override pattern.
+# Validator at frontend/scripts/author-teaching-package.ts detects this file by
+# filename pattern (package.<locale>.yaml), finds canonical sibling (package.yaml),
+# deep-merges (override-wins per field; arrays REPLACE entirely), and validates
+# the merged result.
 #
 # Spanish CLIL register: formal USTED per CLAUDE.md §17.9 cross-locale teacher-
 # address-register lock. K-3-natural; constructive (not corrective).
-
-targetSlug: identify-and-name-10-farm-animals
-language: es
+#
+# CC ADJUDICATION (Arc 3 Phase 1): sparse override carries only locale-bound
+# TEXT fields (title.es, description.es, structure bodies, assessmentCriteria.es,
+# compositionalRationale.es). composedExercises + materials INHERIT from canonical
+# (with English language: en / languageSelect: en customizationParameters).
+# Render-time substitution (future Arc 4+) can replace canonical's language
+# field with package.language automatically; current Phase 1 validator passes
+# either way because customizationParameters language is structurally valid.
+#
+# Authoring note: language is force-set by validator merge logic to the
+# locale-from-filename ('es' here); no need to declare here.
 
 title:
   es: "Animales de granja — identifica y nombra 10"
 description:
   es: "Paquete de adquisición de vocabulario para K-Primer Grado sobre 10 animales de granja universales: vaca, oveja, cerdo, gallina, gallo, caballo, pato, cabra, conejo, burro. Compone 5 ejercicios de hoja de trabajo y 8 materiales imprimibles a lo largo de una unidad de 1-2 semanas. Diseñado para aulas K-3 multilingües — el operador selecciona el idioma de instrucción al renderizar los materiales; el vocabulario se resuelve automáticamente a través de los datos IMAGE_VOCABULARY de 11 locales."
 
-durationMinutes: 30
-
+# Override structure section bodies with Spanish CLIL text. durationMinutes per
+# section inherited from canonical (5/12/8/5 = 30 min total).
 structure:
   warmup:
-    durationMinutes: 5
     body: |
       Reúna a los niños en la alfombra. Levante las tarjetas didácticas una por una,
       diga el nombre de cada animal en español, la clase repite a coro. Después
       de la introducción, fije las tarjetas en el muro de palabras agrupadas en
       "Animales de granja".
   contentActivity:
-    durationMinutes: 12
     body: |
       Rutina del bolsillo de pared con tiras de oraciones ("Veo una vaca", "Veo un
       cerdo", etc.). Primero lectura coral, luego lecturas individuales. Trabajo
@@ -40,7 +43,6 @@ structure:
       animal en español. Reformule los errores en la estructura modelo (si el niño
       dice "es vaca", reformule a "veo una vaca").
   scaffold:
-    durationMinutes: 8
     body: |
       Rotación de estaciones. Estación 1: hoja de emparejamiento imagen-letra
       (aplicación matching, modo letra) — los niños emparejan cada animal con
@@ -48,269 +50,12 @@ structure:
       alfombra (animales de granja vs otros animales). Estación 3: recortes
       manipulables para contar (cuente N animales de granja).
   closure:
-    durationMinutes: 5
     body: |
       Puesta en común con toda la clase. Un último desafío: la maestra o el maestro
       nombra un animal, los niños señalan la tarjeta correspondiente. Nombre el
       patrón: "Hoy aprendimos los nombres de 10 animales de granja. Cuando
       volvamos a los animales de granja la próxima vez, este mismo conjunto
       estará aquí para nosotros."
-
-composedExercises:
-  - appName: matching
-    exerciseMode: imgname
-    customizationParameters:
-      mode: imgname
-      count: 6
-      languageSelect: es
-    ordering: 1
-    pedagogicalRole: introduction
-
-  - appName: matching
-    exerciseMode: letter
-    customizationParameters:
-      mode: letter
-      count: 6
-      languageSelect: es
-    ordering: 2
-    pedagogicalRole: practice
-
-  - appName: find-and-count
-    exerciseMode: unified
-    customizationParameters:
-      gridRows: 5
-      gridCols: 5
-      themeSelect: animals
-      languageSelect: es
-    ordering: 3
-    pedagogicalRole: practice
-
-  - appName: odd-one-out
-    exerciseMode: unified
-    customizationParameters:
-      themeSelect: animals
-      languageSelect: es
-    ordering: 4
-    pedagogicalRole: consolidation
-
-  - appName: picture-sort
-    exerciseMode: theme
-    customizationParameters:
-      leftCategoryThemeSelect: animals
-      rightCategoryThemeSelect: vehicles
-      languageSelect: es
-    ordering: 5
-    pedagogicalRole: assessment
-
-materials:
-  # Material 1: flashcards jumbo 4-up — whole-class hold-up
-  - materialSlug: flashcards
-    customizationParameters:
-      imageSource: vocabKeyList
-      vocabKeys:
-        - cow
-        - sheep
-        - pig
-        - chicken
-        - rooster
-        - horse
-        - duck
-        - goat
-        - rabbit
-        - donkey
-      cardCount: 10
-      cardsPerPage: 4
-      colorMode: color
-      labelDisplay: singular
-      labelCase: lowercase
-      showArticle: true
-      paperSize: a4
-      language: es
-      borderStyle: thick
-      roundedCorners: true
-      showCutGuides: true
-    ordering: 1
-    pedagogicalRole: vocabulary-anchor
-
-  # Material 2: flashcards 9-up take-home / station
-  - materialSlug: flashcards
-    customizationParameters:
-      imageSource: vocabKeyList
-      vocabKeys:
-        - cow
-        - sheep
-        - pig
-        - chicken
-        - rooster
-        - horse
-        - duck
-        - goat
-        - rabbit
-        - donkey
-      cardCount: 10
-      cardsPerPage: 9
-      colorMode: color
-      labelDisplay: singular
-      labelCase: lowercase
-      showArticle: true
-      paperSize: a4
-      language: es
-      borderStyle: thin
-      roundedCorners: true
-      showCutGuides: true
-    ordering: 2
-    pedagogicalRole: vocabulary-anchor
-
-  # Material 3: picture-cards
-  - materialSlug: picture-cards
-    customizationParameters:
-      imageSource: vocabKeyList
-      vocabKeys:
-        - cow
-        - sheep
-        - pig
-        - chicken
-        - rooster
-        - horse
-        - duck
-        - goat
-        - rabbit
-        - donkey
-      cardCount: 10
-      cardsPerPage: 9
-      colorMode: color
-      paperSize: a4
-      borderStyle: thin
-      roundedCorners: true
-      showCutGuides: true
-    ordering: 3
-    pedagogicalRole: production-prompt
-
-  # Material 4: sentence-strips week 1 — i-see-a frame
-  # Renders Spanish via FRAME_BY_LOCALE.es: "Veo un/una vaca." (article auto-
-  # resolved from gender data). Gender split for the 10: 4 feminine (vaca, oveja,
-  # gallina, cabra) and 6 masculine (cerdo, gallo, caballo, pato, conejo, burro).
-  # Verify rendered output during browser visual inspection.
-  - materialSlug: sentence-strips
-    customizationParameters:
-      framePreset: i-see-a
-      imageSource: vocabKeyList
-      vocabKeys:
-        - cow
-        - sheep
-        - pig
-        - chicken
-        - rooster
-        - horse
-        - duck
-        - goat
-        - rabbit
-        - donkey
-      stripCount: 10
-      stripsPerPage: 4
-      colorMode: color
-      paperSize: a4
-      language: es
-      includeWritingLine: false
-    ordering: 4
-    pedagogicalRole: language-frame
-
-  # Material 5: sentence-strips week 2 — there-are-count-plural extension
-  - materialSlug: sentence-strips
-    customizationParameters:
-      framePreset: there-are-count-plural
-      imageSource: vocabKeyList
-      vocabKeys:
-        - cow
-        - sheep
-        - pig
-        - chicken
-        - rooster
-        - horse
-        - duck
-        - goat
-        - rabbit
-        - donkey
-      stripCount: 10
-      stripsPerPage: 4
-      colorMode: color
-      paperSize: a4
-      language: es
-      includeWritingLine: true
-    ordering: 5
-    pedagogicalRole: language-frame
-
-  # Material 6: manipulative cut-outs single-repeat
-  - materialSlug: manipulative-cut-outs
-    customizationParameters:
-      imageSource: theme
-      themeName: animals
-      mode: single-repeat
-      itemCount: 30
-      itemSize: medium-1.5in
-      colorMode: color
-      paperSize: a4
-      language: es
-      showCutGuides: true
-    ordering: 6
-    pedagogicalRole: concrete-manipulative
-
-  # Material 7: parent-letter — homeLanguage es (parent reads body in Spanish);
-  # picture cue labels also in es (for Spanish-medium classroom — reinforces target
-  # vocab in home context). Different from English-medium-classroom case where
-  # homeLanguage = parent's first language and language (target) = English.
-  - materialSlug: parent-take-home-letter
-    customizationParameters:
-      tone: warm
-      imageSource: vocabKeyList
-      vocabKeys:
-        - cow
-        - sheep
-        - pig
-        - chicken
-        - horse
-        - duck
-      pictureCueCount: 6
-      homeLanguage: es
-      language: es
-      colorMode: color
-      signatureLine: true
-      paperSize: a4
-    ordering: 7
-    pedagogicalRole: home-school-bridge
-
-  # Material 8: answer-key
-  - materialSlug: answer-key
-    customizationParameters:
-      includeExerciseAnswers: true
-      includeMaterialReference: true
-      includePedagogicalNotes: true
-      paperSize: a4
-      language: es
-    ordering: 8
-    pedagogicalRole: teacher-reference
-
-compositionalRationale:
-  es: |
-    Hilo principal: adquisición de vocabulario (objetivo
-    identify-and-name-10-farm-animals).
-    Hilo secundario: fonética / reconocimiento de letras (matching modo letra en
-    la posición 2).
-    Hilo terciario: contar + categorización (find-and-count posición 3,
-    odd-one-out posición 4, picture-sort posición 5; recortes manipulables;
-    tira de oraciones de la semana 2 con la estructura there-are-count-plural).
-
-    La integración entre hilos es intencional. El trabajo de vocabulario K-Primer
-    grado se beneficia de la revisión en espiral a través de contextos de
-    fonética + contar + categorización; aislar a un solo hilo desaprovecharía
-    el catálogo de materiales. Los paquetes futuros en hilos no de vocabulario
-    deberían diseñar su propia forma de integración; no copien esta extensión
-    de 3 hilos a ciegas.
-
-curriculumStandards:
-  - EYFS.ELG.UW
-  - IB-PYP.WhereWeAre
-  - CCSS.RL.K.4
 
 assessmentCriteria:
   es: |
@@ -330,9 +75,19 @@ assessmentCriteria:
         descripciones de color ("el gato es negro"), o narrativas en oraciones
         compuestas.
 
-recommendedDeckIds: []
-recommendedPdfDeckIds: []
+compositionalRationale:
+  es: |
+    Hilo principal: adquisición de vocabulario (objetivo
+    identify-and-name-10-farm-animals).
+    Hilo secundario: fonética / reconocimiento de letras (matching modo letra en
+    la posición 2).
+    Hilo terciario: contar + categorización (find-and-count posición 3,
+    odd-one-out posición 4, picture-sort posición 5; recortes manipulables;
+    tira de oraciones de la semana 2 con la estructura there-are-count-plural).
 
-lessonPlanId: null
-
-generatedBy: manual
+    La integración entre hilos es intencional. El trabajo de vocabulario K-Primer
+    grado se beneficia de la revisión en espiral a través de contextos de
+    fonética + contar + categorización; aislar a un solo hilo desaprovecharía
+    el catálogo de materiales. Los paquetes futuros en hilos no de vocabulario
+    deberían diseñar su propia forma de integración; no copien esta extensión
+    de 3 hilos a ciegas.

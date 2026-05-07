@@ -61,7 +61,7 @@ language: en
 title:
   en: "Count Objects 1 to 10 — counting and cardinality"
 description:
-  en: "K-Grade 1 numeracy package for one-to-one correspondence + cardinal counting from 1 to 10. Cross-strand prototype validating the teaching-package architecture for non-vocabulary-acquisition targets. Uses farm-animals theme as the visual content; the learning target is the NUMERALS 1-10 + counting skill, not the animals (operator can substitute any theme without changing the pedagogical target). 5 worksheet exercises + 6 printable materials over a 1-2 week unit."
+  en: "K-Grade 1 numeracy package for one-to-one correspondence + cardinal counting from 1 to 10. Cross-strand prototype validating the teaching-package architecture for non-vocabulary-acquisition targets. Uses farm-animals theme as the visual content + numeral-cards as the primary numeracy anchor (Arc 3 Phase 1 closes the cross-strand prototype loop with numeral-cards material now rendering numerals 1-10 + localized number-words). The learning target is the NUMERALS 1-10 + counting skill, not the animals (operator can substitute any theme without changing the pedagogical target). 5 worksheet exercises + 7 printable materials over a 1-2 week unit."
 
 durationMinutes: 25
 
@@ -161,13 +161,26 @@ composedExercises:
     pedagogicalRole: assessment
 
 materials:
-  # Material 1: flashcards (theme-mode, not vocabKeyList)
-  # Used for whole-class counting routine. 10 cards, each shows 1-10 animals
-  # (the operator at render time customizes to show count groups, OR the
-  # generator renders one animal per card if not extended).
-  # ARCHITECTURAL NOTE: this is the workaround for "numeral cards" — using
-  # theme-mode flashcards. A future numeral-flashcards material would render
-  # numerals 1-10 directly; not gating Arc 2.
+  # Material 1: numeral-cards (Arc 3 Phase 1 — closes Arc 2 cross-strand
+  # prototype loop). Renders numerals 1-10 + localized number-words. THE primary
+  # numeracy-anchor material for this package. Replaces the Arc 2 theme-mode
+  # flashcards workaround now that the numeral-cards generator + NUMBER_WORDS
+  # i18n resource ship in Arc 3 Phase 1.
+  - materialSlug: numeral-cards
+    customizationParameters:
+      numeralRange: "1-10"
+      showNumberWord: true
+      language: en
+      cardsPerPage: 4
+      paperSize: a4
+      borderStyle: thick
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+
+  # Material 2: flashcards (theme-mode) — counting-task prompts (10 animal cards
+  # for "show me 5 cats" tasks). Now SECONDARY to numeral-cards, not primary.
   - materialSlug: flashcards
     customizationParameters:
       imageSource: theme
@@ -183,10 +196,10 @@ materials:
       borderStyle: thick
       roundedCorners: true
       showCutGuides: true
-    ordering: 1
+    ordering: 2
     pedagogicalRole: vocabulary-anchor
 
-  # Material 2: picture-cards (theme-mode; image-only for counting tasks)
+  # Material 3: picture-cards (theme-mode; image-only for counting tasks)
   - materialSlug: picture-cards
     customizationParameters:
       imageSource: theme
@@ -198,10 +211,10 @@ materials:
       borderStyle: thin
       roundedCorners: true
       showCutGuides: true
-    ordering: 2
+    ordering: 3
     pedagogicalRole: production-prompt
 
-  # Material 3: sentence-strips there-are-count-plural — THE numeracy-relevant
+  # Material 4: sentence-strips there-are-count-plural — THE numeracy-relevant
   # frame. Renders "There are 3 cats" / "There are 5 dogs" — connects counting
   # to language. (i-see-a, this-is-a, i-have-a frames don't reinforce counting.)
   - materialSlug: sentence-strips
@@ -215,10 +228,10 @@ materials:
       paperSize: a4
       language: en
       includeWritingLine: true
-    ordering: 3
+    ordering: 4
     pedagogicalRole: language-frame
 
-  # Material 4: manipulative-cut-outs PRIMARY — counting prop. single-repeat
+  # Material 5: manipulative-cut-outs PRIMARY — counting prop. single-repeat
   # mode with itemCount=40 (more than vocab packages' 30 because counting-to-10
   # tasks need enough copies for "show me 10" + "show me 9" + ... in sequence).
   - materialSlug: manipulative-cut-outs
@@ -232,10 +245,10 @@ materials:
       paperSize: a4
       language: en
       showCutGuides: true
-    ordering: 4
+    ordering: 5
     pedagogicalRole: concrete-manipulative
 
-  # Material 5: parent-letter — numeracy framing in body
+  # Material 6: parent-letter — numeracy framing in body
   - materialSlug: parent-take-home-letter
     customizationParameters:
       tone: warm
@@ -247,10 +260,10 @@ materials:
       colorMode: color
       signatureLine: true
       paperSize: a4
-    ordering: 5
+    ordering: 6
     pedagogicalRole: home-school-bridge
 
-  # Material 6: answer-key — teacher reference
+  # Material 7: answer-key — teacher reference
   - materialSlug: answer-key
     customizationParameters:
       includeExerciseAnswers: true
@@ -258,7 +271,7 @@ materials:
       includePedagogicalNotes: true
       paperSize: a4
       language: en
-    ordering: 6
+    ordering: 7
     pedagogicalRole: teacher-reference
 
 compositionalRationale:
@@ -291,15 +304,14 @@ assessmentCriteria:
       - Count one-to-one to 10 accurately (one number per object) in 4 of 5
         trials (objective: count-objects-1-to-10 receptive — measured via
         manipulative-cut-outs counting tasks).
+      - Match numeral 1-10 to matching quantity 8 of 10 trials (objective:
+        match-numeral-to-quantity-1-to-10 — adjacent target in
+        learning-targets.json; ASSESSABLE post-Arc-3-Phase-1 with the
+        numeral-cards material now in the package's material set).
       - Count to 10 chorally without error in 1 of 1 trial (rote count —
         measured via warmup chant).
       - Use "There are N {item:plural}" frame productively for at least 5 counts
         (measured via sentence-strip pair-work).
-      - (Adjacent target match-numeral-to-quantity-1-to-10 is NOT directly
-        assessed in this package due to the numeral-cards material gap surfaced
-        at Phase 3c agent review. The package teaches counting + cardinality;
-        numeral-quantity matching becomes assessable when the numeral-cards
-        material lands per Arc 3 commission.)
 
     Differentiation:
     - Pre-K: count to 5 with one-to-one correspondence; chorus to 10.

@@ -11,7 +11,12 @@ import assert from 'node:assert/strict';
 import * as fs from 'fs';
 import * as path from 'path';
 import * as YAML from 'yaml';
-import { validate } from '../author-teaching-package';
+import {
+  validate,
+  deepMerge,
+  detectSparseOverrideLocale,
+  loadPackageWithMaybeMerge,
+} from '../author-teaching-package';
 
 const FIXTURES_DIR = path.join(__dirname, 'fixtures');
 
@@ -146,6 +151,141 @@ test('universal customization parameters (e.g. languageSelect) accepted on any a
   pkg.composedExercises[0].customizationParameters.pageSizeSelect = 'a4';
   const errors = validate(pkg);
   assert.equal(errors.length, 0, `expected 0 errors after adding universal params; got ${JSON.stringify(errors)}`);
+});
+
+// ============================================================================
+// Sparse-override tests (Arc 3 Phase 1)
+// ============================================================================
+
+test('detectSparseOverrideLocale: package.yaml is canonical (returns null)', () => {
+  assert.equal(detectSparseOverrideLocale('/some/path/package.yaml'), null);
+  assert.equal(detectSparseOverrideLocale('package.yml'), null);
+});
+
+test('detectSparseOverrideLocale: package.<locale>.yaml returns locale', () => {
+  assert.equal(detectSparseOverrideLocale('/some/path/package.es.yaml'), 'es');
+  assert.equal(detectSparseOverrideLocale('package.de.yml'), 'de');
+  assert.equal(detectSparseOverrideLocale('package.fi.yaml'), 'fi');
+  assert.equal(detectSparseOverrideLocale('package.NL.yaml'), 'nl'); // case-insensitive
+});
+
+test('detectSparseOverrideLocale: invalid locale returns null', () => {
+  assert.equal(detectSparseOverrideLocale('package.xx.yaml'), null);
+  assert.equal(detectSparseOverrideLocale('package.zh.yaml'), null);
+  assert.equal(detectSparseOverrideLocale('package.ENG.yaml'), null); // not 2-letter
+});
+
+test('deepMerge: primitives — override wins', () => {
+  assert.equal(deepMerge('a', 'b'), 'b');
+  assert.equal(deepMerge(1, 2), 2);
+  assert.equal(deepMerge(true, false), false);
+});
+
+test('deepMerge: undefined override keeps base', () => {
+  assert.equal(deepMerge('a', undefined), 'a');
+  assert.deepEqual(deepMerge({ x: 1 }, undefined), { x: 1 });
+});
+
+test('deepMerge: null override sets null (intentional)', () => {
+  assert.equal(deepMerge('a', null), null);
+});
+
+test('deepMerge: arrays REPLACE entirely (override-wins)', () => {
+  assert.deepEqual(deepMerge([1, 2, 3], [4, 5]), [4, 5]);
+  assert.deepEqual(deepMerge([{ a: 1 }, { b: 2 }], [{ c: 3 }]), [{ c: 3 }]);
+});
+
+test('deepMerge: nested objects merge recursively (override-wins per leaf field)', () => {
+  const base = { a: 1, b: { c: 2, d: 3 }, e: 'hello' };
+  const override = { b: { c: 99 }, f: 'new' };
+  assert.deepEqual(deepMerge(base, override), {
+    a: 1,
+    b: { c: 99, d: 3 },
+    e: 'hello',
+    f: 'new',
+  });
+});
+
+test('deepMerge: deeply nested objects', () => {
+  const base = { a: { b: { c: { d: 1 } } } };
+  const override = { a: { b: { c: { e: 2 } } } };
+  assert.deepEqual(deepMerge(base, override), {
+    a: { b: { c: { d: 1, e: 2 } } },
+  });
+});
+
+test('deepMerge: preserves base structure when override only touches leaves', () => {
+  const base = {
+    title: { en: 'Hello', de: 'Hallo' },
+    count: 5,
+    items: ['a', 'b'],
+  };
+  const override = { title: { es: 'Hola' } };
+  assert.deepEqual(deepMerge(base, override), {
+    title: { en: 'Hello', de: 'Hallo', es: 'Hola' },
+    count: 5,
+    items: ['a', 'b'],
+  });
+});
+
+test('loadPackageWithMaybeMerge: canonical file resolves directly (no merge)', () => {
+  const result = loadPackageWithMaybeMerge(
+    path.join(FIXTURES_DIR, 'package-valid.yaml')
+  );
+  assert.equal(result.resolvedFrom, 'canonical');
+  assert.equal(result.pkg.targetSlug, 'count-objects-1-to-5');
+  assert.equal(result.pkg.language, 'en');
+});
+
+test('loadPackageWithMaybeMerge: sparse-override merges + force-sets language', () => {
+  // Create a transient sparse-override fixture in same dir as package-valid.yaml
+  // (which is the canonical for testing). Override only the title.
+  const sparsePath = path.join(FIXTURES_DIR, 'package.de.yaml');
+  // Need a sibling package.yaml for this test; we'll temporarily symlink or copy.
+  // Simpler: copy package-valid.yaml to a temp dir + make a sparse-override there.
+  const tmpDir = path.join(FIXTURES_DIR, '__merge-test-tmp');
+  fs.mkdirSync(tmpDir, { recursive: true });
+  try {
+    const canonicalSrc = fs.readFileSync(path.join(FIXTURES_DIR, 'package-valid.yaml'), 'utf-8');
+    fs.writeFileSync(path.join(tmpDir, 'package.yaml'), canonicalSrc);
+    fs.writeFileSync(
+      path.join(tmpDir, 'package.de.yaml'),
+      `title:
+  de: "Zähle Objekte 1 bis 5 — minimaler Test"
+description:
+  de: "DE override fixture."
+assessmentCriteria:
+  de: "DE assessment text."
+`
+    );
+    const result = loadPackageWithMaybeMerge(path.join(tmpDir, 'package.de.yaml'));
+    assert.equal(result.resolvedFrom, 'sparse-override-merged');
+    assert.equal(result.overrideLocale, 'de');
+    assert.equal(result.pkg.language, 'de'); // force-set per merge logic
+    assert.equal(
+      result.pkg.title.de,
+      'Zähle Objekte 1 bis 5 — minimaler Test'
+    );
+    assert.equal(result.pkg.title.en, 'Count objects 1 to 5 — minimal valid test fixture'); // inherited from canonical
+    assert.equal(result.pkg.targetSlug, 'count-objects-1-to-5'); // inherited
+    assert.equal(result.pkg.composedExercises.length, 1); // inherited
+  } finally {
+    fs.rmSync(tmpDir, { recursive: true, force: true });
+  }
+});
+
+test('loadPackageWithMaybeMerge: sparse-override with no canonical sibling errors', () => {
+  const tmpDir = path.join(FIXTURES_DIR, '__merge-test-tmp-no-canonical');
+  fs.mkdirSync(tmpDir, { recursive: true });
+  try {
+    fs.writeFileSync(path.join(tmpDir, 'package.de.yaml'), 'title:\n  de: "orphan"\n');
+    assert.throws(
+      () => loadPackageWithMaybeMerge(path.join(tmpDir, 'package.de.yaml')),
+      /no sibling package\.yaml/
+    );
+  } finally {
+    fs.rmSync(tmpDir, { recursive: true, force: true });
+  }
 });
 
 console.log('\n---');

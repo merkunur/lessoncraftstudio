@@ -2315,12 +2315,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // Save category-label transforms (parallel to frame_left/frame_right) so operator
-        // edits to the answer-key labels survive regenerates.
+        // drag/resize of the answer-key labels survives regenerates.
+        // Save POSITION/SCALE/ANGLE only — NOT text or fontSize. Persisting `text` would
+        // freeze the label on the old locale's display name, defeating language refresh
+        // (the data-driven label rebuild on each render is the source of truth for text).
         if (preserveTransforms) {
             solutionCanvas.getObjects().forEach(obj => {
                 if (obj.isCategoryLabel && obj.categorySide) {
                     oldTransforms[`label_${obj.categorySide}`] = {
-                        left: obj.left, top: obj.top, scaleX: obj.scaleX, scaleY: obj.scaleY, angle: obj.angle, fontSize: obj.fontSize, text: obj.text
+                        left: obj.left, top: obj.top, scaleX: obj.scaleX, scaleY: obj.scaleY, angle: obj.angle
                     };
                 }
             });

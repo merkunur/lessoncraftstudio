@@ -1,0 +1,86 @@
+# Teaching package — identify and name 10 pet animals (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 4 Phase 2 authoring per Arc 3 Phase 2 sparse-override
+# pattern). Validator deep-merges with package.yaml canonical at validation time.
+#
+# Brazilian Portuguese register per CLAUDE.md §6 (pt = BR canonical; cachorro for
+# dog, NOT EU "cão" form). Formal "você" address per §17.9 cross-locale
+# teacher-address-register lock.
+
+title:
+  pt: "Animais de estimação — identifica e nomeia 10 bichos comuns"
+description:
+  pt: "Pacote de aquisição de vocabulário para K-Primeiro Ano sobre 10 animais de estimação comuns: gato, cachorro, coelho, hamster, porquinho-da-índia, peixe, tartaruga, papagaio, canário, gerbo. Compõe 5 exercícios de folha de exercícios e 8 materiais imprimíveis. Tema-agnóstico; o operador seleciona o idioma de instrução ao renderizar os materiais."
+
+structure:
+  warmup:
+    body: |
+      Apresentação para toda a turma. A professora ou o professor levanta os
+      cartões didáticos, nomeia cada bicho em português, a turma repete em
+      coro. Opcional: as crianças compartilham experiências pessoais com bichos
+      de estimação ("Eu tenho um {item} / Meu amigo tem um {item}") — conecta
+      o vocabulário à experiência vivida. Fixe os cartões no mural de palavras
+      agrupados em "Animais de estimação".
+  contentActivity:
+    body: |
+      Rotina de mural de bolso com tiras de frases ("Vejo um gato", "Vejo uma
+      tartaruga", etc.). Primeiro leitura coral, depois leituras individuais.
+      Trabalho em duplas: as crianças seguram um cartão de imagem, o colega
+      nomeia o bicho. Refraseie os erros na estrutura modelo. Extensão opcional:
+      pergunta "onde mora este bicho?" conectando a objetos de casa (gaiola,
+      aquário, cesta, jardim).
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: emparelhamento imagem-letra (aplicativo
+      matching, modo letra). Estação 2: classificação de cartões de imagem no
+      tapete (mamíferos vs aves vs animais de sangue frio — classificação por
+      atributo de classe biológica; ou bichos de gaiola vs bichos livres em
+      casa). Estação 3: recortes manipulativos para contar ("conte 3 peixes").
+  closure:
+    body: |
+      Compartilhamento com toda a turma. Desafio final: a professora ou o
+      professor nomeia um bicho, as crianças apontam para o cartão. Indicador
+      adiante: "Hoje aprendemos 10 nomes de animais de estimação. Quando
+      voltarmos aos bichos na próxima vez, este mesmo conjunto estará aqui
+      para nós."
+
+assessmentCriteria:
+  pt: |
+    Receptivo 10/10; produtivo 8/10; uso de estrutura 6/10.
+
+    Diferenciação:
+      - Pré-K: apenas receptivo (apontar-para-bicho-nomeado).
+      - K / Primeiro ano: produção completa + uso da estrutura de frases.
+      - Segundo ano em diante: estender para vocabulário de cuidado com
+        animais ("o cachorro precisa de água / o peixe precisa de um aquário")
+        + comparação simples ("qual bicho é menor, o hamster ou o
+        porquinho-da-índia?") + escrita de narrativa pessoal ("Eu tenho um
+        {bicho}. Meu bicho é {cor/característica}.").
+
+compositionalRationale:
+  pt: |
+    Fio principal: aquisição de vocabulário. Fio secundário: fonética
+    (matching modo letra). Fio terciário: classificação + categorização
+    (classificação por classe biológica + classificação por contexto de
+    moradia).
+
+    Reconhecimento da variação cultural (disciplina do Arc 4 Phase 1): a
+    criação de animais de estimação varia substancialmente entre culturas. O
+    próprio conceito de "bicho de estimação" — manter animais como
+    companheiros no espaço doméstico em vez de como gado ou animais de
+    trabalho — é uma convenção ocidental que muitas culturas compartilham,
+    mas com ênfase diferente nas espécies. gato/cachorro são referências
+    quase universais de bichos de estimação entre os 11 locales da plataforma.
+    O grupo de bichos de gaiola (coelho/hamster/porquinho-da-índia/gerbo) é
+    comum em domicílios europeus ocidentais e americanos; alguns locales
+    podem enfatizar coelhos como gado ou outras categorias de animais de
+    trabalho. papagaio/canário são comuns em casas mediterrâneas (espanholas,
+    italianas, portuguesas) e latinas. peixe/tartaruga são bichos de aquário
+    universais entre culturas. As professoras podem trocar convenções
+    específicas por região editando os arrays vocabKeys.
+
+    Variante de tira de frases para a semana 2: i-have-a ("Eu tenho um gato")
+    cresce de i-see-a (semana 1) em direção à declaração de experiência
+    pessoal que conecta o vocabulário à vida familiar vivida. Forte ponte
+    casa-escola para K-3 — as crianças compartilham com entusiasmo as
+    histórias dos seus bichos.

@@ -1,0 +1,77 @@
+# Teaching package — identify and name 10 foods (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 4 Phase 2 authoring per Arc 3 Phase 2 sparse-override
+# pattern). Validator deep-merges with package.yaml canonical at validation time.
+#
+# Brazilian Portuguese register per CLAUDE.md §6 (pt = BR canonical; suco / cachorro /
+# educação infantil; NOT EU forms). Formal "você" address per §17.9 cross-locale
+# teacher-address-register lock (BR teacher-address default; analogous to formal usted).
+
+title:
+  pt: "Alimentos — identifica e nomeia 10 refeições e lanches comuns"
+description:
+  pt: "Pacote de aquisição de vocabulário para K-Primeiro Ano sobre 10 alimentos comuns: pizza, pão, leite, ovo, maçã, banana, queijo, sanduíche, água, suco. Compõe 5 exercícios de folha de exercícios e 8 materiais imprimíveis. Tema-agnóstico; o operador seleciona o idioma de instrução ao renderizar os materiais. Reconhecimento universal priorizado para relevância intercultural."
+
+structure:
+  warmup:
+    body: |
+      Apresentação para toda a turma. A professora ou o professor levanta os
+      cartões didáticos, nomeia cada alimento em português, a turma repete em
+      coro. Opcional: trazer alimentos reais (ou embalagens vazias — saco de pão,
+      caixa de suco) para engajamento sensorial — as crianças tocam, cheiram,
+      identificam. Fixe os cartões no mural de palavras agrupados em "Alimentos".
+  contentActivity:
+    body: |
+      Rotina de mural de bolso com tiras de frases ("Vejo uma pizza", "Vejo um
+      pão", etc.). Primeiro leitura coral, depois leituras individuais. Trabalho
+      em duplas: as crianças seguram um cartão de imagem, o colega nomeia o
+      alimento. Refraseie os erros na estrutura modelo. Extensão opcional: as
+      crianças compartilham um alimento que comeram esta manhã ("Eu comi {item}").
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: emparelhamento imagem-letra (aplicativo
+      matching, modo letra). Estação 2: classificação de cartões de imagem no
+      tapete (alimentos para comer vs bebidas — sólidos vs líquidos, classificação
+      por atributo). Estação 3: recortes manipulativos para contar ("conte 3
+      maçãs").
+  closure:
+    body: |
+      Compartilhamento com toda a turma. Desafio final: a professora ou o
+      professor nomeia um alimento, as crianças apontam para o cartão. Indicador
+      adiante: "Hoje aprendemos 10 nomes de alimentos. Quando voltarmos aos
+      alimentos na próxima vez, este mesmo conjunto estará aqui para nós."
+
+assessmentCriteria:
+  pt: |
+    Receptivo 10/10; produtivo 8/10; uso de estrutura 6/10.
+
+    Diferenciação:
+      - Pré-K: apenas receptivo (apontar-para-alimento-nomeado).
+      - K / Primeiro ano: produção completa + uso da estrutura de frases.
+      - Segundo ano em diante: estender para conversação sobre preferências
+        ("Eu gosto de pizza. Você gosta de pizza?") + categorização nutricional
+        (alimentos que crescem em árvores / alimentos que bebemos / alimentos
+        que comemos com as mãos).
+
+compositionalRationale:
+  pt: |
+    Fio principal: aquisição de vocabulário. Fio secundário: fonética
+    (matching modo letra). Fio terciário: classificação + categorização
+    (classificação por atributo sólidos-vs-líquidos).
+
+    Reconhecimento da variação cultural (disciplina do Arc 4 Phase 1): a lista
+    de refeições varia substancialmente entre culturas. As 10 chaves escolhidas
+    priorizam reconhecimento universal entre os 11 locales da plataforma —
+    pizza/pão/maçã/banana/queijo são quase universais na imagem mental de K-3;
+    leite/ovo/queijo/sanduíche/água/suco são itens quase universais de
+    bebidas + refeições leves. As professoras podem trocar itens específicos
+    por região editando os arrays vocabKeys (por exemplo, adicionar arroz
+    para contextos asiáticos, tortilla para contextos latino-americanos onde
+    essas entradas IMAGE_VOCABULARY existam ou sejam adicionadas em arcs
+    futuros). Sanduíche é sinalizado como conceito com viés ocidental —
+    caminhos válidos de substituição existem para a professora.
+
+    Variante de tira de frases para a semana 2: i-like-plural ("Eu gosto de
+    maçãs") integra-se bem com alimentos (as crianças falam naturalmente
+    sobre preferências alimentares — estende-se para conversação "Eu gosto
+    de X mas não de Y" no Primeiro ano em diante).

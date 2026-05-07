@@ -1,0 +1,192 @@
+# Teaching package — subitize quantities 1-5
+# Arc 4 Phase 3 numeracy package. Foundational K skill: recognize small
+# quantities (1-5) at a glance without counting. Builds toward count-on +
+# add-within strategies. CCSS.K.CC.B.4 alignment.
+
+targetSlug: subitize-quantities-1-to-5
+language: en
+
+title:
+  en: "Subitize Quantities 1-5 — see-and-know small numbers"
+description:
+  en: "Kindergarten numeracy package teaching subitization (instant recognition of 1-5 items without counting). Foundational pre-numeracy skill: kids who subitize fluently transition smoothly to count-on and add-within strategies. find-and-count + chart-count app heavy; manipulative-cut-outs for repeated short-burst exposure. 5 exercises + 6 materials over a 1-2 week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class flash routine. Teacher holds up a dot card (or finger pattern)
+      for ~1 second, then hides it. "How many?" Kids call out the count without
+      counting. Start with 1-2 dots, build to 5. Recast counting attempts:
+      "I want you to SEE the number, not count it." Subitization = pattern
+      recognition, not enumeration.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair-flash routine with picture-cards. Kid A flashes a card showing N
+      objects (1-5) for 1 second; kid B says the number. Switch roles. Then
+      group game: teacher flashes a card to whole class, kids show the
+      number on their fingers as fast as possible. Variant: dot patterns vs
+      pictured objects (5 fish vs 5 dots) — both should be subitizable at
+      this range.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: find-and-count worksheet (small grids,
+      counts 1-5 per item). Station 2: chart-count worksheet (kids count
+      and write totals). Station 3: manipulative cut-outs flash drill —
+      kids partner up, one shows N items, the other names the count
+      without counting.
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class quick-recall. Teacher flashes 5 cards in succession; kids
+      track the running tally on fingers. Forward-pointer: "Today we learned
+      to SEE numbers without counting them. When we come back to numbers
+      next, this fast-seeing will help us count bigger groups and add
+      numbers together."
+
+composedExercises:
+  - appName: chart-count
+    exerciseMode: unified
+    customizationParameters: { languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: find-and-count
+    exerciseMode: unified
+    customizationParameters: { gridRows: 4, gridCols: 4, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 5, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: find-and-count
+    exerciseMode: unified
+    customizationParameters: { gridRows: 4, gridCols: 4, themeSelect: fruits, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: chart-count
+    exerciseMode: unified
+    customizationParameters: { languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: numeral-cards
+    customizationParameters:
+      numeralRange: "1-5"
+      showNumberWord: true
+      language: en
+      cardsPerPage: 4
+      paperSize: a4
+      borderStyle: thick
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 10
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 30
+      itemSize: medium-1.5in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 3
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: there-are-count-plural
+      imageSource: theme
+      themeName: animals
+      stripCount: 10
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 5
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 5
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 6
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: subitization (foundational pre-numeracy; learning-targets.json
+    places this in early-numeracy / counting-and-cardinality strand).
+    Secondary strand: pattern recognition (kids notice that 5 fish and 5
+    dots and 5 fingers are all the same "fiveness").
+    Tertiary strand: language-frame production (there-are-count-plural
+    sentence strips integrate count + plural-noun morphology).
+
+    Distinctive material weighting: numeral-cards 1-5 only (matches subitization
+    range — extending past 5 risks shifting kids back to counting). picture-cards
+    + manipulative-cut-outs both used for partner-flash drills (key pedagogical
+    practice for subitization is repeated short-burst exposure, not extended
+    contemplation). chart-count app appears twice (positions 1 + 5) as the
+    cleanest assessment surface — kid sees N objects, writes N without
+    counting.
+
+curriculumStandards:
+  - CCSS.K.CC.B.4
+  - CCSS.K.CC.B.5
+  - EYFS.ELG.M
+
+assessmentCriteria:
+  en: |
+    By end of 1-2 week unit:
+      - Subitize quantities 1-3 instantly in 9 of 10 trials.
+      - Subitize quantities 4-5 in 7 of 10 trials.
+      - Recognize that 5 dots / 5 fish / 5 fingers represent the same quantity
+        (cross-representation transfer).
+
+    Differentiation:
+    - Pre-K: subitize 1-3 only.
+    - K: full range 1-5.
+    - Grade 1+: extend to subitize 6-10 via doubles + plus-one patterns
+      (5+1, 5+2, etc.) — bridges to add-within-10.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

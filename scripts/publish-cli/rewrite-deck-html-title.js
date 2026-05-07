@@ -157,17 +157,27 @@ function rebuildTitle(oldTitle, themeName) {
  * Returns the new description string or null if not parseable.
  */
 function rebuildDescription(oldDesc, themeName, locale) {
-  var forWord = FOR_WORD_BY_LOCALE[locale] || FOR_WORD_BY_LOCALE.en;
-  // Pattern 1: ' (...) <forWord> ' (already has theme parens) — replace contents
-  var withThemeRe = new RegExp(' \\(([^)]+)\\) ' + forWord + ' ');
-  if (withThemeRe.test(oldDesc)) {
-    return oldDesc.replace(withThemeRe, ' (' + themeName + ') ' + forWord + ' ');
+  // Try locale's forWord first, fall back to English ' for ' — some apps
+  // (e.g. cryptogram across 11 locales) ship English-only descriptions even
+  // when content is localized. Fallback keeps recovery working without
+  // requiring per-app i18n cleanup as a precondition.
+  var localeForWord = FOR_WORD_BY_LOCALE[locale] || FOR_WORD_BY_LOCALE.en;
+  var candidates = (localeForWord === 'for') ? ['for'] : [localeForWord, 'for'];
+  for (var i = 0; i < candidates.length; i++) {
+    var forWord = candidates[i];
+    // Pattern 1: ' (...) <forWord> ' (already has theme parens) — replace contents
+    var withThemeRe = new RegExp(' \\(([^)]+)\\) ' + forWord + ' ');
+    if (withThemeRe.test(oldDesc)) {
+      return oldDesc.replace(withThemeRe, ' (' + themeName + ') ' + forWord + ' ');
+    }
+    // Pattern 2: ' <forWord> ' (no theme) — insert ' (Theme)' before ' <forWord> '
+    var anchor = ' ' + forWord + ' ';
+    var idx = oldDesc.indexOf(anchor);
+    if (idx !== -1) {
+      return oldDesc.slice(0, idx) + ' (' + themeName + ')' + oldDesc.slice(idx);
+    }
   }
-  // Pattern 2: ' <forWord> ' (no theme) — insert ' (Theme)' before ' <forWord> '
-  var anchor = ' ' + forWord + ' ';
-  var idx = oldDesc.indexOf(anchor);
-  if (idx === -1) return null;
-  return oldDesc.slice(0, idx) + ' (' + themeName + ')' + oldDesc.slice(idx);
+  return null;
 }
 
 function processFile(filepath, dryRun) {

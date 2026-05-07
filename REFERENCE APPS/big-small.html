@@ -3657,10 +3657,15 @@
                     const sequence = qType === 'orderAsc' ? cell.order : [...cell.order].reverse();
                     sequence.forEach((originalIndex, orderIndex) => {
                         const correctImage = loadedImageObjects[originalIndex];
+                        // Position the order-number just above the image's
+                        // top-right corner with NO padding (operator commission
+                        // 2026-05-08): number's bottom edge touches image's
+                        // top edge; number's right edge aligns with image's
+                        // right edge.
                         const answerNum = new fabric.Text(String(orderIndex + 1), {
-                            left: correctImage.left + correctImage.getScaledWidth() / 2,
-                            top: boxRect.height - 11,
-                            originX: 'center', originY: 'center',
+                            left: correctImage.left + correctImage.getScaledWidth(),
+                            top: correctImage.top,
+                            originX: 'right', originY: 'bottom',
                             fontSize: 18, fill: 'red', fontWeight: 'bold'
                         });
                         answerIndicators.push(answerNum);

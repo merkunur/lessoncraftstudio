@@ -3093,15 +3093,49 @@
               throw new Error(t('bigsmall.msg.pool.empty'));
           }
 
+          // No-repeat-across-exercises guarantee per operator commission 2026-05-08:
+          // each image identity used by ANY exercise on the worksheet appears in
+          // EXACTLY ONE exercise. Implementation = unique-pool consumption (random
+          // pick + remove from pool) instead of the prior `rnd(imagePool)` per-pick
+          // which allowed both across-exercise duplicates AND within-exercise
+          // duplicates in 'different' mode.
+          //
+          // Required identities per worksheet:
+          //   identical mode → 1 per exercise (one image, multiple sizes within)
+          //   different mode → nImg per exercise (one image per slot)
+          // If pool is too small, halt with a clear error naming the shortfall —
+          // operator picks a richer theme or reduces exercise count.
+          const requiredIdentities = (mode === 'identical' ? 1 : nImg) * problemCount;
+          if (imagePool.length < requiredIdentities) {
+              throw new Error(
+                  'This theme has only ' + imagePool.length + ' images, but ' +
+                  requiredIdentities + ' unique images are needed for ' +
+                  problemCount + ' exercise' + (problemCount === 1 ? '' : 's') +
+                  (mode === 'identical' ? '' : ' (' + nImg + ' per exercise)') +
+                  ' with no repeats. Reduce the exercise count or pick a theme with more images.'
+              );
+          }
+
+          // Random pop from the pool: take a random index + splice it out so no
+          // future iteration can pick it again. Equivalent to "shuffle once then
+          // pop in order" but inlined to avoid pulling in a Fisher-Yates helper.
+          const remainingPool = [...imagePool];
+          const takeRandom = () => {
+              const idx = Math.floor(Math.random() * remainingPool.length);
+              return remainingPool.splice(idx, 1)[0];
+          };
+
           for (let i = 0; i < problemCount; i++) {
               const scales = scaleSet(nImg);
               const imgsArr = [];
               if (mode === 'identical') {
-                  const base = rnd(imagePool);
+                  // One image identity per exercise; reused at multiple sizes within.
+                  const base = takeRandom();
                   scales.forEach(s => imgsArr.push({ ...base, size: s }));
               } else {
+                  // N distinct image identities per exercise; each consumed from pool.
                   for (let j = 0; j < nImg; j++) {
-                      imgsArr.push({ ...rnd(imagePool), size: scales[j] });
+                      imgsArr.push({ ...takeRandom(), size: scales[j] });
                   }
               }
               const order = imgsArr.map((_, k) => k).sort((a, b) => imgsArr[a].size - imgsArr[b].size);

@@ -992,23 +992,62 @@
                     <button class="accordion-button active" data-translate="languageSettings">Language Settings</button>
                     <div class="accordion-content" style="display: block;">
                         <h4 data-translate="languageSettings">Language Settings</h4>
-                        <label for="languageSelect" data-translate="imageLibraryLanguage">Image Library Language:</label>
-                        <select id="languageSelect">
-                            <option value="en" data-translate="lang_en">English</option>
-                            <option value="de" data-translate="lang_de">Deutsch (German)</option>
-                            <option value="fr" data-translate="lang_fr">Français (French)</option>
-                            <option value="es" data-translate="lang_es">Español (Spanish)</option>
-                            <option value="pt" data-translate="lang_pt">Português (Portuguese)</option>
-                            <option value="it" data-translate="lang_it">Italiano (Italian)</option>
-                            <option value="nl" data-translate="lang_nl">Nederlands (Dutch)</option>
-                            <option value="sv" data-translate="lang_sv">Svenska (Swedish)</option>
-                            <option value="da" data-translate="lang_da">Dansk (Danish)</option>
-                            <option value="no" data-translate="lang_no">Norsk (Norwegian)</option>
-                            <option value="fi" data-translate="lang_fi">Suomi (Finnish)</option>
-                        </select>
-                        <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate="contentLanguageNote">
-                            Image names and themes will be displayed in this language on the generated worksheet.
-                        </p>
+                        <div id="singleLanguageWrap">
+                            <label for="languageSelect" data-translate="imageLibraryLanguage">Image Library Language:</label>
+                            <select id="languageSelect">
+                                <option value="en" data-translate="lang_en">English</option>
+                                <option value="de" data-translate="lang_de">Deutsch (German)</option>
+                                <option value="fr" data-translate="lang_fr">Français (French)</option>
+                                <option value="es" data-translate="lang_es">Español (Spanish)</option>
+                                <option value="pt" data-translate="lang_pt">Português (Portuguese)</option>
+                                <option value="it" data-translate="lang_it">Italiano (Italian)</option>
+                                <option value="nl" data-translate="lang_nl">Nederlands (Dutch)</option>
+                                <option value="sv" data-translate="lang_sv">Svenska (Swedish)</option>
+                                <option value="da" data-translate="lang_da">Dansk (Danish)</option>
+                                <option value="no" data-translate="lang_no">Norsk (Norwegian)</option>
+                                <option value="fi" data-translate="lang_fi">Suomi (Finnish)</option>
+                            </select>
+                            <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate="contentLanguageNote">
+                                Image names and themes will be displayed in this language on the generated worksheet.
+                            </p>
+                        </div>
+                        <label for="languageMixModeCheckbox" class="checkbox-label" style="margin-top:10px;">
+                            <input type="checkbox" id="languageMixModeCheckbox" />
+                            <span data-translate="wordsearch.languageMixMode">Language Mix Mode</span>
+                        </label>
+                        <div id="mixModeLanguagesWrap" style="display:none; margin-top:8px;">
+                            <label for="gridLanguageSelect" data-translate="wordsearch.gridLanguage">Grid Language (where words are placed):</label>
+                            <select id="gridLanguageSelect">
+                                <option value="en" data-translate="lang_en">English</option>
+                                <option value="de" data-translate="lang_de">Deutsch (German)</option>
+                                <option value="fr" data-translate="lang_fr">Français (French)</option>
+                                <option value="es" data-translate="lang_es">Español (Spanish)</option>
+                                <option value="pt" data-translate="lang_pt">Português (Portuguese)</option>
+                                <option value="it" data-translate="lang_it">Italiano (Italian)</option>
+                                <option value="nl" data-translate="lang_nl">Nederlands (Dutch)</option>
+                                <option value="sv" data-translate="lang_sv">Svenska (Swedish)</option>
+                                <option value="da" data-translate="lang_da">Dansk (Danish)</option>
+                                <option value="no" data-translate="lang_no">Norsk (Norwegian)</option>
+                                <option value="fi" data-translate="lang_fi">Suomi (Finnish)</option>
+                            </select>
+                            <label for="clueLanguageSelect" data-translate="wordsearch.clueLanguage" style="margin-top:8px;">Clue Language (word labels and instructions):</label>
+                            <select id="clueLanguageSelect">
+                                <option value="en" data-translate="lang_en">English</option>
+                                <option value="de" data-translate="lang_de">Deutsch (German)</option>
+                                <option value="fr" data-translate="lang_fr">Français (French)</option>
+                                <option value="es" data-translate="lang_es">Español (Spanish)</option>
+                                <option value="pt" data-translate="lang_pt">Português (Portuguese)</option>
+                                <option value="it" data-translate="lang_it">Italiano (Italian)</option>
+                                <option value="nl" data-translate="lang_nl">Nederlands (Dutch)</option>
+                                <option value="sv" data-translate="lang_sv">Svenska (Swedish)</option>
+                                <option value="da" data-translate="lang_da">Dansk (Danish)</option>
+                                <option value="no" data-translate="lang_no">Norsk (Norwegian)</option>
+                                <option value="fi" data-translate="lang_fi">Suomi (Finnish)</option>
+                            </select>
+                            <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate="wordsearch.mixModeNote">
+                                Grid words will be placed in the grid language. Word labels, title, and instruction will be in the clue language. The instruction will name the grid language.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -1600,6 +1639,16 @@ document.addEventListener("DOMContentLoaded", function() {
                 currentLocale = newLocale;
                 window.currentLocale = newLocale;
 
+                // Sync mix-mode dropdowns + state to follow the single-language
+                // picker. Uses window globals to dodge any TDZ surprises from
+                // referencing same-scope let-bindings before-they-init.
+                window.currentGridLocale = newLocale;
+                window.currentClueLocale = newLocale;
+                var _g = document.getElementById('gridLanguageSelect');
+                var _c = document.getElementById('clueLanguageSelect');
+                if (_g) _g.value = newLocale;
+                if (_c) _c.value = newLocale;
+
                 // DO NOT call applyTranslations() - UI language is controlled by header selector
 
                 // Use UnifiedLanguageManager if available
@@ -1626,7 +1675,103 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             });
         }
-        
+
+        // === Language Mix Mode wiring (operator commission 2026-05-08) ===
+        //
+        // When mixModeEnabled, grid words are placed in `currentGridLocale` while
+        // word-list labels, title, and instruction render in `currentClueLocale`.
+        // Per Approach (I): when mix-mode is ON, `currentLocale` is synced to the
+        // clue locale so existing single-locale code paths (theme display, vocab
+        // resolution at API layer, t() reads when applicable) operate as clue
+        // locale. The grid-language branch is the ONLY place that reads
+        // `currentGridLocale`, via getGridLocale().
+        const languageMixModeCheckbox = getEl('languageMixModeCheckbox');
+        const gridLanguageSelect = getEl('gridLanguageSelect');
+        const clueLanguageSelect = getEl('clueLanguageSelect');
+        const singleLanguageWrap = getEl('singleLanguageWrap');
+        const mixModeLanguagesWrap = getEl('mixModeLanguagesWrap');
+
+        let mixModeEnabled = false;
+        let currentGridLocale = currentLocale;
+        let currentClueLocale = currentLocale;
+
+        // Expose mix-mode state on window so cross-function reads in
+        // generatePuzzleData / createHeaderGroup never hit TDZ + are robust to
+        // hoisting/scope edge cases (the inline-app pattern is large enough
+        // that lexical reasoning across multi-thousand-line scopes is fragile).
+        window.mixModeEnabled = mixModeEnabled;
+        window.currentGridLocale = currentGridLocale;
+        window.currentClueLocale = currentClueLocale;
+
+        function getGridLocale() {
+            return window.mixModeEnabled ? window.currentGridLocale : currentLocale;
+        }
+        function getClueLocale() {
+            return window.mixModeEnabled ? window.currentClueLocale : currentLocale;
+        }
+        window.getGridLocale = getGridLocale;
+        window.getClueLocale = getClueLocale;
+
+        function applyMixModeUI() {
+            if (!singleLanguageWrap || !mixModeLanguagesWrap) return;
+            if (mixModeEnabled) {
+                singleLanguageWrap.style.display = 'none';
+                mixModeLanguagesWrap.style.display = 'block';
+                // Sync currentLocale to clue locale (Approach I)
+                currentLocale = currentClueLocale;
+                window.currentLocale = currentLocale;
+            } else {
+                singleLanguageWrap.style.display = 'block';
+                mixModeLanguagesWrap.style.display = 'none';
+                // Restore currentLocale to the single picker's value
+                if (languageSelect) {
+                    currentLocale = languageSelect.value;
+                    window.currentLocale = currentLocale;
+                }
+            }
+        }
+
+        if (languageMixModeCheckbox) {
+            languageMixModeCheckbox.addEventListener('change', async function() {
+                mixModeEnabled = this.checked;
+                window.mixModeEnabled = mixModeEnabled;
+                applyMixModeUI();
+                allImagesCache = {};
+                if (typeof loadThemes === 'function') loadThemes();
+                if (typeof preloadDefaultTheme === 'function') preloadDefaultTheme();
+                if (themeSelect && themeSelect.value && themeSelect.value !== 'all' && typeof renderDictionary === 'function') {
+                    renderDictionary();
+                }
+            });
+        }
+        if (gridLanguageSelect) {
+            gridLanguageSelect.value = currentLocale;
+            gridLanguageSelect.addEventListener('change', function() {
+                currentGridLocale = this.value;
+                window.currentGridLocale = currentGridLocale;
+                // Grid-locale change doesn't invalidate the image cache (cache is
+                // keyed by clue locale = currentLocale); only affects vocab-lookup
+                // at generate time via getGridLocale() + ImageVocab.singular.
+            });
+        }
+        if (clueLanguageSelect) {
+            clueLanguageSelect.value = currentLocale;
+            clueLanguageSelect.addEventListener('change', async function() {
+                currentClueLocale = this.value;
+                window.currentClueLocale = currentClueLocale;
+                if (mixModeEnabled) {
+                    currentLocale = currentClueLocale;
+                    window.currentLocale = currentLocale;
+                    allImagesCache = {};
+                    if (typeof loadThemes === 'function') loadThemes();
+                    if (typeof preloadDefaultTheme === 'function') preloadDefaultTheme();
+                    if (themeSelect && themeSelect.value && themeSelect.value !== 'all' && typeof renderDictionary === 'function') {
+                        renderDictionary();
+                    }
+                }
+            });
+        }
+
         // Apply translations on load
         if (typeof translatePage === 'function') {
             translatePage();
@@ -2432,7 +2577,27 @@ document.addEventListener("DOMContentLoaded", function() {
         // which keep the existing best-effort placement.
         const isSelectedSpecificTheme = selectedWorksheetTheme && selectedWorksheetTheme !== 'random_auto' && selectedWorksheetTheme !== 'all';
         const settings = {
-            wordsConfig: sourceImages.map(img => ({word: img.word, path: img.path, name: img.name || img.word})),
+            // Mix-mode word splitting (per operator commission 2026-05-08):
+            //   word  = grid-language form (used for grid placement + validation)
+            //   name  = clue-language form (used for word-list display below grid)
+            // BOTH forms are derived via ImageVocab.singular(key, locale) — the
+            // /api/images response is NOT reliably localized (dev returns English
+            // for all locales), so we cannot trust img.name as the clue label.
+            // ImageVocab is the canonical per-locale vocabulary source per §6.
+            wordsConfig: sourceImages.map(img => {
+                if (window.mixModeEnabled && window.ImageVocab && typeof window.ImageVocab.keyFromPath === 'function') {
+                    var vocabKey = window.ImageVocab.keyFromPath(img.path || '');
+                    var gridForm = vocabKey ? window.ImageVocab.singular(vocabKey, window.currentGridLocale) : null;
+                    var clueForm = vocabKey ? window.ImageVocab.singular(vocabKey, window.currentClueLocale) : null;
+                    var fallback = img.editedName || img.name || img.word;
+                    return {
+                        word: gridForm || fallback,
+                        path: img.path,
+                        name: clueForm || fallback
+                    };
+                }
+                return { word: img.word, path: img.path, name: img.name || img.word };
+            }),
             rows: parseInt(rowsInput.value),
             cols: parseInt(colsInput.value),
             allowDiagonal: allowDiagonalInput.checked,
@@ -2505,7 +2670,10 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         }
         
-        const alphabet = getAlphabetForLocale(currentLocale);
+        // Grid-fill letters (the "noise" letters around placed words) come from
+        // the GRID locale's alphabet so non-placed cells share the script of
+        // the placed words. In single-language mode this resolves to currentLocale.
+        const alphabet = getAlphabetForLocale(window.mixModeEnabled ? (window.currentGridLocale || currentLocale) : currentLocale);
         for (let r = 0; r < rows; r++) {
             for (let c = 0; c < cols; c++) {
                 if (grid[r][c] === '') grid[r][c] = alphabet[Math.floor(Math.random() * alphabet.length)];
@@ -2515,24 +2683,59 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function createHeaderGroup(canvas) {
+        // mixDescription: instruction template used when language-mix mode is ON.
+        // {gridLang} placeholder is substituted via GRID_LANG_NAMES_IN[clueLocale][gridLocale].
+        // Title is unchanged in mix-mode (operator commission 2026-05-08:
+        // Title is just "Word Search"; instruction conveys the language pairing).
         const defaultHeaders = {
-            en: { title: 'Word Search', description: 'Find and circle the hidden words!' },
-            de: { title: 'Wörter suchen', description: 'Finde und kreise die versteckten Wörter ein!' },
-            fr: { title: 'Mots Cachés', description: 'Trouve et entoure les mots cachés!' },
-            es: { title: 'Sopa de Letras', description: '¡Encuentra y rodea las palabras escondidas!' },
-            it: { title: 'Cerca Parole', description: 'Trova e cerchia le parole nascoste!' },
-            pt: { title: 'Caça-Palavras', description: 'Encontra e rodeia as palavras escondidas!' },
-            nl: { title: 'Woordzoeker', description: 'Vind en cirkel de verborgen woorden!' },
-            sv: { title: 'Ordletning', description: 'Hitta och ringa in de dolda orden!' },
-            da: { title: 'Ordsøgning', description: 'Find og sæt ring om de skjulte ord!' },
-            no: { title: 'Ordleting', description: 'Finn og ring inn de skjulte ordene!' },
-            fi: { title: 'Sanahaku', description: 'Etsi ja ympyröi piilotetut sanat!' }
+            en: { title: 'Word Search', description: 'Find and circle the hidden words!', mixDescription: 'Find these words in {gridLang}!' },
+            de: { title: 'Wörter suchen', description: 'Finde und kreise die versteckten Wörter ein!', mixDescription: 'Finde diese Wörter auf {gridLang}!' },
+            fr: { title: 'Mots Cachés', description: 'Trouve et entoure les mots cachés!', mixDescription: 'Trouve ces mots en {gridLang} !' },
+            es: { title: 'Sopa de Letras', description: '¡Encuentra y rodea las palabras escondidas!', mixDescription: '¡Encuentra estas palabras en {gridLang}!' },
+            it: { title: 'Cerca Parole', description: 'Trova e cerchia le parole nascoste!', mixDescription: 'Trova queste parole in {gridLang}!' },
+            pt: { title: 'Caça-Palavras', description: 'Encontra e rodeia as palavras escondidas!', mixDescription: 'Encontra estas palavras em {gridLang}!' },
+            nl: { title: 'Woordzoeker', description: 'Vind en cirkel de verborgen woorden!', mixDescription: 'Vind deze woorden in het {gridLang}!' },
+            sv: { title: 'Ordletning', description: 'Hitta och ringa in de dolda orden!', mixDescription: 'Hitta dessa ord på {gridLang}!' },
+            da: { title: 'Ordsøgning', description: 'Find og sæt ring om de skjulte ord!', mixDescription: 'Find disse ord på {gridLang}!' },
+            no: { title: 'Ordleting', description: 'Finn og ring inn de skjulte ordene!', mixDescription: 'Finn disse ordene på {gridLang}!' },
+            fi: { title: 'Sanahaku', description: 'Etsi ja ympyröi piilotetut sanat!', mixDescription: 'Etsi nämä sanat {gridLang}!' }
         };
 
-        const locale = currentLocale || 'en';
-        const defaults = defaultHeaders[locale] || defaultHeaders.en;
+        // 11×11 language-name matrix: GRID_LANG_NAMES_IN[clueLocale][gridLocale] = "<gridLang as named in clueLang>".
+        // Used to substitute {gridLang} in mixDescription. Finnish uses adessive
+        // case ("ranskaksi") to flow naturally with "Etsi nämä sanat {gridLang}"
+        // (= "Find these words in-French"); other locales use nominative noun
+        // forms compatible with their preceding preposition (en in, de auf,
+        // fr en, es en, it in, pt em, nl in het, sv på, da på, no på).
+        const GRID_LANG_NAMES_IN = {
+            en: { en:'English',    de:'German',       fr:'French',       es:'Spanish',     pt:'Portuguese',  it:'Italian',    nl:'Dutch',      sv:'Swedish',    da:'Danish',     no:'Norwegian',  fi:'Finnish' },
+            de: { en:'Englisch',   de:'Deutsch',      fr:'Französisch',  es:'Spanisch',    pt:'Portugiesisch', it:'Italienisch', nl:'Niederländisch', sv:'Schwedisch', da:'Dänisch',    no:'Norwegisch', fi:'Finnisch' },
+            fr: { en:'anglais',    de:'allemand',     fr:'français',     es:'espagnol',    pt:'portugais',   it:'italien',    nl:'néerlandais', sv:'suédois',   da:'danois',     no:'norvégien',  fi:'finnois' },
+            es: { en:'inglés',     de:'alemán',       fr:'francés',      es:'español',     pt:'portugués',   it:'italiano',   nl:'neerlandés', sv:'sueco',     da:'danés',      no:'noruego',    fi:'finés' },
+            it: { en:'inglese',    de:'tedesco',      fr:'francese',     es:'spagnolo',    pt:'portoghese',  it:'italiano',   nl:'olandese',   sv:'svedese',   da:'danese',     no:'norvegese',  fi:'finlandese' },
+            pt: { en:'inglês',     de:'alemão',       fr:'francês',      es:'espanhol',    pt:'português',   it:'italiano',   nl:'holandês',   sv:'sueco',     da:'dinamarquês',no:'norueguês',  fi:'finlandês' },
+            nl: { en:'Engels',     de:'Duits',        fr:'Frans',        es:'Spaans',      pt:'Portugees',   it:'Italiaans',  nl:'Nederlands', sv:'Zweeds',    da:'Deens',      no:'Noors',      fi:'Fins' },
+            sv: { en:'engelska',   de:'tyska',        fr:'franska',      es:'spanska',     pt:'portugisiska',it:'italienska', nl:'nederländska',sv:'svenska',  da:'danska',     no:'norska',     fi:'finska' },
+            da: { en:'engelsk',    de:'tysk',         fr:'fransk',       es:'spansk',      pt:'portugisisk', it:'italiensk',  nl:'hollandsk',  sv:'svensk',    da:'dansk',      no:'norsk',      fi:'finsk' },
+            no: { en:'engelsk',    de:'tysk',         fr:'fransk',       es:'spansk',      pt:'portugisisk', it:'italiensk',  nl:'nederlandsk',sv:'svensk',    da:'dansk',      no:'norsk',      fi:'finsk' },
+            fi: { en:'englanniksi', de:'saksaksi',    fr:'ranskaksi',    es:'espanjaksi',  pt:'portugaliksi',it:'italiaksi',  nl:'hollanniksi',sv:'ruotsiksi', da:'tanskaksi',  no:'norjaksi',   fi:'suomeksi' }
+        };
+
+        // Mix-mode picks clue locale for header text + substitutes grid lang name.
+        // Reads via window globals to avoid TDZ surprises from same-scope lets.
+        const mixOn = !!window.mixModeEnabled;
+        const headerLocale = mixOn ? (window.currentClueLocale || 'en') : (currentLocale || 'en');
+        const defaults = defaultHeaders[headerLocale] || defaultHeaders.en;
         const title = defaults.title;
-        const description = defaults.description;
+        let description;
+        if (mixOn) {
+            const gridLocaleForName = window.currentGridLocale || 'en';
+            const namesByGrid = GRID_LANG_NAMES_IN[headerLocale] || GRID_LANG_NAMES_IN.en;
+            const gridLangName = namesByGrid[gridLocaleForName] || gridLocaleForName;
+            description = (defaults.mixDescription || defaults.description).replace('{gridLang}', gridLangName);
+        } else {
+            description = defaults.description;
+        }
 
         // Cache localized title + instruction on the canvas so extractDeckBundle
         // can include them in the SEO surface (Brief A §4 / §5).

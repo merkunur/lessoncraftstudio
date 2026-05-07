@@ -2975,48 +2975,54 @@ document.addEventListener("DOMContentLoaded", function() {
         // coords). Bottom-of-last-item is naturally < listHeight by the
         // (1.5N-0.5)/(1.5N) item-spacing math, so the actual gap ends up
         // 15-25px depending on row count — operator-acceptable approximation.
-        // marginX/marginY moved up here from their original location ~70 lines below.
-        // The listHeight clamp introduced at this commit needs marginY to compute the
-        // available word-list room; declaring marginY later would trigger a temporal-
-        // dead-zone ReferenceError aborting renderPuzzleObjects before the puzzle
-        // grid is added to the canvas. Both later uses (puzzleGridGroup positioning
-        // + word-list element positioning) continue to work — same function scope,
-        // just earlier declaration.
+        // marginX still used by puzzleGridGroup horizontal positioning (left).
+        // marginY no longer used for vertical positioning — gridTopY/wordListTopY
+        // own the vertical layout per operator's tight-layout commission.
         const marginX = pageWidth * marginRatio;
         const marginY = pageHeight * marginRatio + headerHeight;
 
+        // gridTopY = instructionBottom + 3px per operator request "3 pixels padding
+        // between the instruction text and the grid". Hardcoded per orientation
+        // since createHeaderGroup's instruction text is fixed-position (not
+        // pageSize-dependent): portrait descText at top:190 fontSize:20 → bottom ~213;
+        // landscape descText at top: headerTop+headerHeight+5 = 135 fontSize:14 → bottom ~151.
+        const PORTRAIT_GRID_TOP_Y = 216;
+        const LANDSCAPE_GRID_TOP_Y = 154;
+        const gridTopY = isLandscape ? LANDSCAPE_GRID_TOP_Y : PORTRAIT_GRID_TOP_Y;
+        const GRID_LIST_GAP_PX = 8;  // small gap between grid bottom and word list top (portrait)
+        const wordListTopY = isLandscape ? gridTopY : (gridTopY + puzzleGridGroup.height + GRID_LIST_GAP_PX);
+
         const PAGE_BORDER_INSET_PX = 38;  // border at margin=34 + strokeWidth=8 → inner edge
-        const WORD_BORDER_GAP_PX = 10;
+        const WORD_BORDER_GAP_PX = 3;     // operator request: "3 pixels above the default border"
         const maxWordListBottomY = pageHeight - PAGE_BORDER_INSET_PX - WORD_BORDER_GAP_PX;
 
         if (isLandscape) {
-            // Landscape: word list on the right side
-            listLeft = puzzleGridGroup.width + usableWidth * 0.05; // 5% gap
+            // Landscape: word list on the right side, starts at gridTopY
+            listLeft = puzzleGridGroup.width + usableWidth * 0.05;
             listTop = 0;
             listWidth = usableWidth - puzzleGridGroup.width - usableWidth * 0.05;
-            // Items position absolute-Y = marginY + row * itemHeight*1.5 + textTopOffset
-            // → max-bottom-Y constraint: listHeight ≤ maxWordListBottomY - marginY
-            listHeight = Math.max(0, maxWordListBottomY - marginY);
+            listHeight = Math.max(0, maxWordListBottomY - wordListTopY);
 
             // Calculate optimal grid for word items
             itemsPerCol = Math.ceil(Math.sqrt(wordsToDisplay.length * (listHeight / listWidth)));
             itemsPerRow = Math.ceil(wordsToDisplay.length / itemsPerCol);
         } else {
-            // Portrait: word list below the grid
+            // Portrait: word list below the grid, starts at wordListTopY
             listLeft = 0;
-            listTop = puzzleGridGroup.height + usableHeight * 0.05; // 5% gap
+            listTop = puzzleGridGroup.height + usableHeight * 0.05;  // unused now (positioning uses wordListTopY directly)
             listWidth = usableWidth;
-            // Items position absolute-Y = marginY + totalGridHeight + usableHeight*0.05 + row*itemHeight*1.5 + textTopOffset
-            // → max-bottom-Y constraint: listHeight ≤ maxWordListBottomY - (marginY + totalGridHeight + usableHeight*0.05)
-            listHeight = Math.max(0, maxWordListBottomY - (marginY + puzzleGridGroup.height + usableHeight * 0.05));
+            listHeight = Math.max(0, maxWordListBottomY - wordListTopY);
 
             // Calculate optimal grid for word items
             itemsPerRow = Math.min(4, Math.ceil(Math.sqrt(wordsToDisplay.length)));
             itemsPerCol = Math.ceil(wordsToDisplay.length / itemsPerRow);
         }
 
+        // Row spacing 2.5 (was 1.5) accommodates the doubled image+text per
+        // operator request "double the size of the images and words".
+        const ROW_SPACING_FACTOR = 2.5;
         const itemWidth = listWidth / itemsPerRow;
-        const itemHeight = Math.min(itemWidth, listHeight / itemsPerCol / 1.5);
+        const itemHeight = Math.min(itemWidth, listHeight / itemsPerCol / ROW_SPACING_FACTOR);
 
         // Create text elements immediately without waiting for images
         const wordListClues = [];
@@ -3026,7 +3032,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const row = Math.floor(i / itemsPerRow);
             const col = i % itemsPerRow;
             const itemLeft = listLeft + col * itemWidth;
-            const itemTop = listTop + row * itemHeight * 1.5;
+            const itemTop = listTop + row * itemHeight * ROW_SPACING_FACTOR;
 
             // Determine what to show based on settings
             // Default to showing images if nothing is checked
@@ -3036,8 +3042,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
             // Create text if needed
             if (showText) {
-                // Scale font size based on item size
-                const fontSize = Math.min(20, Math.max(12, itemHeight * 0.12));
+                // Scale font size based on item size — doubled per operator request
+                // "double the size of the images and words". Cap raised 20→40, ratio 0.12→0.24.
+                const fontSize = Math.min(40, Math.max(24, itemHeight * 0.24));
 
                 // Use translated name if available, otherwise fall back to word
                 const displayName = wordInfo.name || wordInfo.word;
@@ -3073,7 +3080,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     path: wordInfo.path,
                     baseLeft: itemLeft + itemWidth/2,
                     baseTop: imageTopPosition,
-                    height: itemHeight * 0.864, // 20% increase: 0.72 * 1.20 = 0.864
+                    height: itemHeight * 1.728, // doubled per operator request (was 0.864)
                     index: i,
                     showText: showText // Store if text is shown to adjust positioning
                 });
@@ -3087,16 +3094,16 @@ document.addEventListener("DOMContentLoaded", function() {
         // clamp section to fix a temporal-dead-zone bug; declarations stay in
         // function scope so this site continues to see them correctly.
         if (isLandscape) {
-            // Landscape: grid on left
+            // Landscape: grid on left, top at gridTopY (3px below instruction)
             puzzleGridGroup.set({
                 left: marginX,
-                top: marginY + (usableHeight - puzzleGridGroup.height) / 2
+                top: gridTopY
             });
         } else {
-            // Portrait: grid centered at top
+            // Portrait: grid centered horizontally, top at gridTopY (3px below instruction)
             puzzleGridGroup.set({
                 left: marginX + (usableWidth - puzzleGridGroup.width) / 2,
-                top: marginY
+                top: gridTopY
             });
         }
         
@@ -3114,12 +3121,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 if (isLandscape) {
                     elem.set({
                         left: marginX + totalGridWidth + usableWidth * 0.05 + col * itemWidth + itemWidth/2,
-                        top: marginY + row * itemHeight * 1.5 + textTopOffset
+                        top: wordListTopY + row * itemHeight * ROW_SPACING_FACTOR + textTopOffset
                     });
                 } else {
                     elem.set({
                         left: marginX + col * itemWidth + itemWidth/2,
-                        top: marginY + totalGridHeight + usableHeight * 0.05 + row * itemHeight * 1.5 + textTopOffset
+                        top: wordListTopY + row * itemHeight * ROW_SPACING_FACTOR + textTopOffset
                     });
                 }
             }
@@ -3145,10 +3152,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     if (isLandscape) {
                         finalLeft = marginX + totalGridWidth + usableWidth * 0.05 + col * itemWidth + itemWidth/2;
-                        finalTop = marginY + row * itemHeight * 1.5 + imageTopOffset;
+                        finalTop = wordListTopY + row * itemHeight * ROW_SPACING_FACTOR + imageTopOffset;
                     } else {
                         finalLeft = marginX + col * itemWidth + itemWidth/2;
-                        finalTop = marginY + totalGridHeight + usableHeight * 0.05 + row * itemHeight * 1.5 + imageTopOffset;
+                        finalTop = wordListTopY + row * itemHeight * ROW_SPACING_FACTOR + imageTopOffset;
                     }
 
                     fabricImg.set({
@@ -3177,10 +3184,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     if (isLandscape) {
                         finalLeft = marginX + totalGridWidth + usableWidth * 0.05 + col * itemWidth + itemWidth/2;
-                        finalTop = marginY + row * itemHeight * 1.5 + imageTopOffset;
+                        finalTop = wordListTopY + row * itemHeight * ROW_SPACING_FACTOR + imageTopOffset;
                     } else {
                         finalLeft = marginX + col * itemWidth + itemWidth/2;
-                        finalTop = marginY + totalGridHeight + usableHeight * 0.05 + row * itemHeight * 1.5 + imageTopOffset;
+                        finalTop = wordListTopY + row * itemHeight * ROW_SPACING_FACTOR + imageTopOffset;
                     }
 
                     // Add transparent placeholder on error

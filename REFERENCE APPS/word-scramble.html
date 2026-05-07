@@ -4663,9 +4663,18 @@
             capture('borderThemeSelect', 'border_theme_select');
             capture('letterCaseSelect', 'letter_case');
             capture('grayscaleToggle', 'grayscale');
+            // Shape A per CLAUDE.md §A.13.5 + §17.8.5 — propagate operator-selected
+            // theme to the top-level `theme` field so it participates in slug
+            // derivation + SEO surfaces. Same pattern as math-worksheet (5110d6e0)
+            // and code-addition. Empty value → null (legitimately themeless per
+            // §15.16 themeless contract).
+            var themeEl = document.getElementById('themeSelect');
+            var topLevelTheme = (themeEl && themeEl.value && themeEl.value.trim() !== '' && themeEl.value !== 'all')
+                ? String(themeEl.value).trim()
+                : null;
             return {
                 settings: settings,
-                theme: null,
+                theme: topLevelTheme,
                 images_used: [],
                 vocabulary: vocabulary,
                 exercises: puzzles

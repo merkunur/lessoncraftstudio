@@ -1,0 +1,75 @@
+# Teaching package — identify and name 10 farm animals (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 3 Phase 2 authoring per Phase 1 sparse-override
+# pattern). Validator deep-merges with package.yaml canonical at validation time.
+#
+# Brazilian Portuguese register per CLAUDE.md §6.2 (pt = BR canonical; vaca / cavalo /
+# educação infantil; NOT EU forms). Formal "você" address per §17.9 cross-locale
+# teacher-address-register lock (BR teacher-address default; analogous to formal usted).
+
+title:
+  pt: "Animais de fazenda — identifica e nomeia 10"
+description:
+  pt: "Pacote de aquisição de vocabulário para K-Primeiro Ano sobre 10 animais de fazenda universais: vaca, ovelha, porco, galinha, galo, cavalo, pato, cabra, coelho, burro. Compõe 5 exercícios de folha de exercícios e 8 materiais imprimíveis ao longo de uma unidade de 1-2 semanas. Projetado para salas de aula K-3 multilíngues — o operador seleciona o idioma de instrução ao renderizar os materiais; o vocabulário é resolvido automaticamente pelos dados IMAGE_VOCABULARY de 11 locales."
+
+structure:
+  warmup:
+    body: |
+      Reúna as crianças no tapete. Levante os cartões didáticos um por um, diga
+      o nome de cada animal em português, a turma repete em coro. Após a
+      introdução, fixe os cartões no mural de palavras agrupados em "Animais
+      de fazenda".
+  contentActivity:
+    body: |
+      Rotina de mural de bolso com tiras de frases ("Vejo uma vaca", "Vejo um
+      porco", etc.). Primeiro leitura coral, depois leituras individuais.
+      Trabalho em duplas: as crianças seguram um cartão de imagem, o colega
+      nomeia o animal em português. Refraseie os erros na estrutura modelo
+      (se a criança disser "é vaca", refraseie para "vejo uma vaca").
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de emparelhamento imagem-letra
+      (aplicativo matching, modo letra) — as crianças emparelham cada animal
+      com sua letra inicial. Estação 2: classificação de cartões de imagem no
+      tapete (animais de fazenda vs outros animais). Estação 3: recortes
+      manipulativos para contar (conte N animais de fazenda).
+  closure:
+    body: |
+      Compartilhamento com toda a turma. Um último desafio: a professora ou o
+      professor nomeia um animal, as crianças apontam para o cartão correspondente.
+      Nomeie o padrão: "Hoje aprendemos os nomes de 10 animais de fazenda. Quando
+      voltarmos aos animais de fazenda na próxima vez, este mesmo conjunto estará
+      aqui para nós."
+
+assessmentCriteria:
+  pt: |
+    Ao final da unidade de 1-2 semanas, as crianças devem poder:
+      - Identificar receptivamente os 10 animais de fazenda quando a professora
+        ou o professor os nomear em português (objetivo point-to-named-farm-animal).
+      - Produzir o nome de pelo menos 8 de 10 animais de fazenda ao ver um cartão
+        de imagem (objetivo identify-and-name-10-farm-animals).
+      - Usar a estrutura "Vejo um/uma {item}" de forma autônoma em português com
+        pelo menos 6 dos 10 animais.
+
+    Diferenciação:
+      - Pré-K / K inicial: avalie apenas receptivamente (point-to-named); evite
+        a pressão de produção.
+      - K / Primeiro ano: produção completa de nomes + uso da estrutura.
+      - Segundo ano em diante: estenda para formas plurais ("Tenho 3 porcos"),
+        descrições de cor ("o gato é preto"), ou narrativas em frases compostas.
+
+compositionalRationale:
+  pt: |
+    Fio principal: aquisição de vocabulário (objetivo
+    identify-and-name-10-farm-animals).
+    Fio secundário: fonética / reconhecimento de letras (matching modo letra na
+    posição 2).
+    Fio terciário: contagem + categorização (find-and-count posição 3,
+    odd-one-out posição 4, picture-sort posição 5; recortes manipulativos;
+    tira de frases da semana 2 com a estrutura there-are-count-plural).
+
+    A integração entre fios é intencional. O trabalho de vocabulário K-Primeiro
+    ano se beneficia da revisão em espiral através de contextos de fonética +
+    contagem + categorização; isolar a um único fio desperdiçaria o catálogo
+    de materiais. Pacotes futuros em fios não-vocabulário devem projetar sua
+    própria forma de integração; não copie esta extensão de 3 fios cegamente.

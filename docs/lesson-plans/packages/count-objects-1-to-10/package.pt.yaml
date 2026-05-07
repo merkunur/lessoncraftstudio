@@ -1,0 +1,84 @@
+# Teaching package — count objects 1 to 10 (Portuguese locale variant)
+# SPARSE-OVERRIDE FORMAT (Arc 3 Phase 2). Brazilian Portuguese register; formal "você".
+# Numeracy package; uses numeral-cards material from Arc 3 Phase 1 — number-words
+# auto-resolved to PT via NUMBER_WORDS resource (um, dois, três, quatro, cinco, ...).
+
+title:
+  pt: "Conte objetos de 1 a 10 — contagem e cardinalidade"
+description:
+  pt: "Pacote de numeracia para K-Primeiro Ano sobre correspondência um-a-um + contagem cardinal de 1 a 10. Protótipo intercurricular validando a arquitetura de pacotes de ensino para objetivos não-aquisição-de-vocabulário. Usa o tema animais de fazenda como conteúdo visual + cartões numéricos como âncora primária de numeracia (numeral-cards renderiza numerais 1-10 + palavras-número localizadas em PT: um, dois, três...). 5 exercícios + 7 materiais imprimíveis ao longo de uma unidade de 1-2 semanas."
+
+structure:
+  warmup:
+    body: |
+      Introdução com toda a turma. Levante cartões didáticos mostrando grupos de
+      animais (1 vaca, 2 vacas, ... 5 vacas). Para cada cartão, conte em coro
+      com a turma em português — toque em cada animal ao dizer o número. "Um.
+      Dois. Três. Quatro. Cinco." Reforça correspondência um-a-um (um número
+      por objeto). Limite a 1-5 no aquecimento; estenda a 6-10 no scaffold.
+  contentActivity:
+    body: |
+      Rotina de mural de bolso com tiras de frases ("Há {count} {item:plural}").
+      Primeiro leitura coral, depois leituras individuais. Trabalho em duplas: as
+      crianças seguram um cartão de imagem mostrando N animais, o colega conta
+      e diz "Há N gatos" (ou qualquer animal). Refraseie os erros na estrutura
+      modelo — se a criança disser "cinco gato", refraseie para "há cinco gatos"
+      (marcação de plural).
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de adição imagem-imagem (operandos
+      1-5; a criança conta os dois grupos, soma). Estação 2: contagem com
+      recortes manipulativos ("conte 7 vacas"; "agora me mostre 9"). Estação 3:
+      folha chart-count (conte animais por categoria; preencha o gráfico de
+      barras). Cada estação ~2.5 min; a professora alterna entre estações.
+  closure:
+    body: |
+      Compartilhamento com toda a turma. Desafio final: a professora nomeia um
+      número 1-10 em português, as crianças levantam essa quantidade de dedos E
+      essa quantidade de animais recortados. Aponte adiante (em português):
+      "Hoje contamos até 10. Quando voltarmos a contar, iremos mais longe — 11,
+      12, 13." Aponte as crianças para o objetivo adjacente
+      count-objects-1-to-20.
+
+assessmentCriteria:
+  pt: |
+    Ao final da unidade de 1-2 semanas, as crianças devem:
+      - Contar um-a-um até 10 com precisão (um número por objeto) em 4 de 5
+        tentativas (objetivo: count-objects-1-to-10 receptivo — medido via
+        tarefas de contagem com recortes manipulativos).
+      - Emparelhar numeral 1-10 com a quantidade correspondente em 8 de 10
+        tentativas (objetivo: match-numeral-to-quantity-1-to-10 — objetivo
+        adjacente em learning-targets.json; AVALIÁVEL pós-Arc-3-Fase-1 com o
+        material numeral-cards agora no conjunto de materiais do pacote).
+      - Contar até 10 em coro sem erro em 1 de 1 tentativa (contagem rotineira
+        — medida via cantilena do aquecimento).
+      - Usar a estrutura "Há N {item:plural}" produtivamente para pelo menos
+        5 contagens (medido via trabalho em duplas com tiras de frases).
+
+    Diferenciação:
+    - Pré-K: contar até 5 com correspondência um-a-um; coro até 10.
+    - K: contar até 10 com correspondência um-a-um; introduzir emparelhamento
+      numeral-quantidade.
+    - Primeiro ano em diante: estender para contagem-em-frente (saltar de 2 em 2
+      até 20) e adição dentro de 10.
+
+compositionalRationale:
+  pt: |
+    Fio principal: contagem e cardinalidade (objetivo count-objects-1-to-10).
+    Fio secundário: aquisição de vocabulário (nomes de animais — o tema escolhido
+    surfaces o vocabulário como efeito colateral do trabalho de contagem, não
+    como objetivo principal). Fio terciário: introdução à aritmética (slot 3
+    de adição + slot 4 de mais-menos são exercícios fundamentais de aritmética,
+    ancorados na contagem até 10).
+
+    A inversão de fios (contagem principal, vocabulário secundário) é o marcador
+    arquitetônico intercurricular: pacotes de vocabulário têm vocabulário como
+    principal; pacotes de numeracia têm numeracia como principal com vocabulário
+    instrumental.
+
+    A escolha do tema (animais) é substituível pelo operador SEM mudar o
+    objetivo. Uma professora pode trocar para o tema "frutas" ou "veículos" e
+    o pacote ainda ensinaria count-objects-1-to-10 — apenas o conteúdo visual
+    muda. Esta substituibilidade-de-tema é uma propriedade dos pacotes de
+    numeracia que os pacotes de vocabulário não compartilham (as chaves de
+    vocabulário SÃO o objetivo nos pacotes de vocabulário).

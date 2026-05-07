@@ -110,6 +110,44 @@
   }
 
   /**
+   * Derive the localized theme display name from a theme `<select>` element.
+   * Centralizes the logic that used to live inline per-app (and was missing
+   * entirely in 27 of 29 apps, leaving `bundle.seoMeta.themeName` undefined
+   * and the deck.html `<title>` without theme keyword — the defect surfaced
+   * during the 345-en-wave session post-mortem).
+   *
+   * Args:
+   *   selectEl    — the DOM <select> element holding the operator's theme choice.
+   *                 Most apps use document.getElementById('themeSelect') or
+   *                 ('worksheetThemeSelect') for dual-select apps (wordsearch,
+   *                 crossword) where worksheet generation reads the worksheet*
+   *                 select.
+   *   skipValues  — array of values that should yield null (no theme). Defaults
+   *                 to ['', 'all', 'random_auto']. Apps with their own meta-
+   *                 values (e.g., prepositions 'all') get the same default.
+   *   customMode  — optional boolean. When true (e.g., word-guess /
+   *                 word-scramble customWordListMode active), returns null
+   *                 since custom-word-list mode bypasses themed image selection.
+   *
+   * Returns: trimmed option.text (localized display name from the dropdown
+   * option's visible text — populated via the per-locale dropdown
+   * initialization), OR null when no theme is in play.
+   */
+  function deriveThemeName(opts) {
+    opts = opts || {};
+    if (opts.customMode === true) return null;
+    var sel = opts.selectEl;
+    if (!sel || !sel.value) return null;
+    var skips = opts.skipValues || ['', 'all', 'random_auto'];
+    if (skips.indexOf(String(sel.value)) !== -1) return null;
+    if (typeof sel.value === 'string' && sel.value.indexOf(',') !== -1) return null;
+    var opt = sel.options && sel.options[sel.selectedIndex];
+    if (!opt) return null;
+    var name = (opt.text || '').trim();
+    return name || null;
+  }
+
+  /**
    * Render the worksheet snapshot (a dataURL at production resolution) into a
    * 480×620 PNG Blob via an offscreen canvas. White background ensures the
    * thumbnail isn't transparent if the source has an alpha channel.
@@ -1008,6 +1046,65 @@
       'window.addEventListener("resize",lcsEmitHeight);',
       'if(typeof ResizeObserver!=="undefined"){try{new ResizeObserver(lcsEmitHeight).observe(document.body);}catch(e){}}',
       '}',
+      // CLAMP RUNTIME — runs in BOTH standalone + embed contexts. Eliminates the
+      // whitespace gap when worksheet content uses only the top portion of the
+      // captured JPEG (US Letter portrait = 612x792). Apps with sparse content
+      // (alphabet-train: ~70% used; prepositions: ~90% used) leave empty canvas
+      // space at the bottom; this runtime clips the visible worksheet area to
+      // actual content + small padding while preserving piece coordinates.
+      //
+      // Mechanism: keep .lcs-overlay at the natural rendered image height (so
+      // percentage-positioned children at top:X% resolve correctly against the
+      // original page-space). Clamp .lcs-worksheet height to maxBottom + pad
+      // with overflow:hidden — the IMG is clipped at the bottom (cropped via
+      // parent overflow). Pieces beyond the clamp are also clipped (they
+      // shouldn't exist, but defensive).
+      //
+      // Replaces the now-invisible LCSAttribution baked at canvas-bottom by
+      // injecting an HTML <p class="lcs-attrib-html"> element below the
+      // worksheet area (tier-neutral; same text + link as the baked version
+      // per CLAUDE.md §14.3 attribution-position-locked-but-renderable).
+      'function lcsInjectAttribHtml(){',
+      '  if(document.querySelector(".lcs-attrib-html"))return;',
+      '  var wrap=document.querySelector(".lcs-worksheet-wrap");',
+      '  if(!wrap||!wrap.parentNode)return;',
+      '  var p=document.createElement("p");',
+      '  p.className="lcs-attrib-html";',
+      '  var a=document.createElement("a");',
+      '  a.href="https://lessoncraftstudio.com";',
+      '  a.target="_blank";',
+      '  a.rel="noopener noreferrer";',
+      '  a.textContent="Made with LessonCraftStudio.com";',
+      '  p.appendChild(a);',
+      '  wrap.parentNode.insertBefore(p,wrap.nextSibling);',
+      '}',
+      'function lcsClampWorksheet(){',
+      '  var ws=document.querySelector(".lcs-worksheet");',
+      '  if(!ws)return;',
+      '  var img=ws.querySelector(".lcs-worksheet__img");',
+      '  if(img&&!img.naturalHeight){if(!img.lcsClampWired){img.lcsClampWired=true;img.addEventListener("load",lcsClampWorksheet);}return;}',
+      '  var imgH=img?img.offsetHeight:0;',
+      '  var overlay=ws.querySelector(".lcs-overlay");',
+      '  if(overlay&&imgH>0){overlay.style.height=imgH+"px";}',
+      '  var els=ws.querySelectorAll(".lcs-cell,.lcs-piece,.lcs-slot,.lcs-img-overlay,[data-rect]");',
+      '  if(!els.length&&overlay&&overlay.children.length){els=overlay.children;}',
+      '  var wsRect=ws.getBoundingClientRect();',
+      '  var maxBottom=0;',
+      '  for(var i=0;i<els.length;i++){var r=els[i].getBoundingClientRect();var b=r.bottom-wsRect.top;if(b>maxBottom)maxBottom=b;}',
+      '  if(maxBottom<=0)return;',
+      '  var pad=24;',
+      '  var clamped=maxBottom+pad;',
+      '  if(imgH>0&&clamped>=imgH-pad)return;',
+      '  ws.style.height=clamped+"px";',
+      '  ws.style.overflow="hidden";',
+      '}',
+      'var lcsAttribStyle=document.createElement("style");',
+      'lcsAttribStyle.textContent=".lcs-attrib-html{text-align:center;margin:8px 0 16px;font-size:11px;color:#999;line-height:1.3}.lcs-attrib-html a{color:#999;text-decoration:none}.lcs-attrib-html a:hover{text-decoration:underline}";',
+      'document.head.appendChild(lcsAttribStyle);',
+      'function lcsInitClampAndAttrib(){lcsInjectAttribHtml();lcsClampWorksheet();}',
+      'if(document.readyState==="complete")lcsInitClampAndAttrib();',
+      'else window.addEventListener("load",lcsInitClampAndAttrib);',
+      'window.addEventListener("resize",lcsClampWorksheet);',
       '})();<\/script>'
     ].join('\n');
   }
@@ -1304,6 +1401,7 @@
     buildEmbedAffordance: buildEmbedAffordance,
     buildResponsiveFitSnippet: buildResponsiveFitSnippet,
     vocabKeyFromImage: vocabKeyFromImage,
+    deriveThemeName: deriveThemeName,
     HREFLANG_MARKER: HREFLANG_MARKER,
     export: exportCatalog
   };

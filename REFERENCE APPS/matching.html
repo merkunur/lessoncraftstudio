@@ -2801,16 +2801,30 @@
                 try {
                     const wsPairs = pairs;
                     const akPairs = answerKey;
-                    const correctMap = wsPairs.map((wp, leftIdx) => {
+                    // For each left item, find:
+                    //   - correctRightIndex: a single canonical right index (first match) for
+                    //     legacy paths + answer-key line drawing
+                    //   - acceptableRightIndices: ALL right indices whose VALUE matches the
+                    //     expected right value, so the runtime accepts any equivalent right
+                    //     cell as correct (operator commission 2026-05-08 letter-duplicate
+                    //     fix: when multiple images share a beginning letter, any of the
+                    //     matching letter cells should count as a correct match instead of
+                    //     the specific index-bound one).
+                    const correctMap = wsPairs.map((wp) => {
                         const ak = akPairs.find(a => a.left === wp.left)
                             || akPairs.find(a => a.left && wp.left && a.left.val === wp.left.val && a.left.type === wp.left.type);
-                        if (!ak) return -1;
+                        if (!ak) return { canonical: -1, acceptable: [] };
                         const correctRight = ak.right;
-                        const rightIdx = wsPairs.findIndex(p =>
-                            p.right === correctRight ||
-                            (p.right && correctRight && p.right.val === correctRight.val && p.right.type === correctRight.type)
-                        );
-                        return rightIdx;
+                        if (!correctRight) return { canonical: -1, acceptable: [] };
+                        const acceptable = [];
+                        wsPairs.forEach((p, idx) => {
+                            if (!p.right) return;
+                            if (p.right === correctRight || (p.right.val === correctRight.val && p.right.type === correctRight.type)) {
+                                acceptable.push(idx);
+                            }
+                        });
+                        const canonical = acceptable.length > 0 ? acceptable[0] : -1;
+                        return { canonical: canonical, acceptable: acceptable };
                     });
 
                     worksheetCanvas.problemsData = {
@@ -2818,7 +2832,8 @@
                         pairs: wsPairs.map((p, i) => ({
                             leftIndex: i,
                             rightIndex: i, // index into worksheet's right column at render time
-                            correctRightIndex: correctMap[i],
+                            correctRightIndex: correctMap[i].canonical,
+                            acceptableRightIndices: correctMap[i].acceptable,
                             leftValue: (p.left && (p.left.val && (p.left.val.word || p.left.val.name || p.left.val)) || ''),
                             rightValue: (p.right && (p.right.val && (p.right.val.word || p.right.val.name || p.right.val)) || '')
                         }))
@@ -4032,7 +4047,18 @@
             '      var li=parseInt(ln.getAttribute("data-line-for"),10);',
             '      var ri=connections[li];',
             '      var pair=pairs.find(function(p){return p.leftIndex===li});',
-            '      var ok=(pair&&pair.correctRightIndex===ri);',
+            '      // Operator commission 2026-05-08 letter-duplicate fix: accept ANY',
+            '      // right index whose value matches the expected value (not just the',
+            '      // canonical correctRightIndex). Falls back to single-index check for',
+            '      // legacy bundles without acceptableRightIndices.',
+            '      var ok=false;',
+            '      if(pair){',
+            '        if(pair.acceptableRightIndices&&pair.acceptableRightIndices.length>0){',
+            '          ok=pair.acceptableRightIndices.indexOf(ri)>=0;',
+            '        } else {',
+            '          ok=(pair.correctRightIndex===ri);',
+            '        }',
+            '      }',
             '      ln.setAttribute("stroke",ok?"#4CAF50":"#E53935");',
             '      ln.setAttribute("stroke-width","5");',
             '      ln.style.pointerEvents="none";',

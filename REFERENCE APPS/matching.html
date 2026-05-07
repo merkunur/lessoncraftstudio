@@ -1031,6 +1031,7 @@
                         <label for="mode" data-translate="matchingMode">Matching Mode:</label>
                         <select id="mode">
                             <option value="letter" data-translate="imageBeginningLetter">Image ↔ Beginning Letter</option>
+                            <option value="name" data-translate="imageWord">Image ↔ Word</option>
                             <option value="imgname" data-translate="imageWordImageWord">Image+Word ↔ Image+Word</option>
                             <option value="imgorfname" data-translate="imageOrWordImageOrWord">Image/Word ↔ Image/Word</option>
                             <option value="custom" data-translate="imageCustomWord">Image ↔ Custom Word</option>
@@ -1272,6 +1273,10 @@
         let currentThemeImages = [], selectedImages = [], uploadedImages = [], configSlots = [];
         let themes = [];
         let borderThemes = [];
+        // Set by the generate flow when 'letter' or 'name' mode produces a single-theme pool;
+        // read by createHeaderGroup to render the theme name above the instruction.
+        // Null when no specific theme is in play (mixed-theme custom selection / non-letter-family mode).
+        let lastChosenThemeName = null;
         let letterType = 'randomAll';
         let currentGeneratedData = { worksheet: [], answerKey: [], mode: null };
         let worksheetCanvas, answerKeyCanvas;
@@ -2484,10 +2489,12 @@
         // --- Main App Logic (UI, Config, Generation) ---
         const updateUI = () => {
             const mode = modeEl.value;
-            letterOptions.style.display = mode === 'letter' ? 'block' : 'none';
-            letterThemeBlock.style.display = (mode === 'letter' && letterType === 'randomTheme') ? 'block' : 'none';
-            imageSelectionAccordion.style.display = (mode === 'letter' && letterType === 'custom') ? 'block' : 'none';
-            itemConfigAccordion.style.display = mode !== 'letter' ? 'block' : 'none';
+            // 'letter' and 'name' both consume the same theme/letter-type options accordion
+            const isLetterFamily = (mode === 'letter' || mode === 'name');
+            letterOptions.style.display = isLetterFamily ? 'block' : 'none';
+            letterThemeBlock.style.display = (isLetterFamily && letterType === 'randomTheme') ? 'block' : 'none';
+            imageSelectionAccordion.style.display = (isLetterFamily && letterType === 'custom') ? 'block' : 'none';
+            itemConfigAccordion.style.display = isLetterFamily ? 'none' : 'block';
             buildConfig();
         };
 
@@ -2618,30 +2625,47 @@
             const m = modeEl.value;
             try {
                 let pairs, answerKey;
-                if (m === 'letter') {
+                if (m === 'letter' || m === 'name') {
                     let pool = [];
+                    let chosenThemeName = null;
                     const n = +countEl.value;
                     if (letterType === 'randomAll') {
                         if (themes.length === 0) throw new Error(t('themesNotLoadedYet'));
-                        const randomTheme = themes[Math.floor(Math.random() * themes.length)];
-                        pool = await fetchFromApi(`/api/images?theme=${encodeURIComponent(randomTheme)}&locale=${currentLocale}`, `Failed to load random theme "${randomTheme}"`);
+                        const randomThemeEntry = themes[Math.floor(Math.random() * themes.length)];
+                        // themes[] elements may be either {value, displayName} objects or bare strings (legacy fallback per loadThemes).
+                        const randomThemeKey = (randomThemeEntry && typeof randomThemeEntry === 'object') ? randomThemeEntry.value : randomThemeEntry;
+                        chosenThemeName = (randomThemeEntry && typeof randomThemeEntry === 'object' && randomThemeEntry.displayName) ? randomThemeEntry.displayName : String(randomThemeKey);
+                        pool = await fetchFromApi(`/api/images?theme=${encodeURIComponent(randomThemeKey)}&locale=${currentLocale}`, `Failed to load random theme "${randomThemeKey}"`);
                     } else if (letterType === 'randomTheme') {
                         if (!letterThemeEl.value) throw new Error(t('pleaseChooseTheme'));
+                        const opt = letterThemeEl.options && letterThemeEl.options[letterThemeEl.selectedIndex];
+                        chosenThemeName = opt ? (opt.text || '').trim() : null;
                         pool = await fetchFromApi(`/api/images?theme=${encodeURIComponent(letterThemeEl.value)}&locale=${currentLocale}`, 'Failed to load theme images.');
                     } else {
                         const allSelected = [...selectedImages, ...uploadedImages];
                         if (allSelected.length < n) throw new Error(t('pleaseSelectAtLeastImages').replace('{count}', n));
                         pool = [...allSelected];
+                        // Custom-selected images: surface a theme name only when all images share a single theme.
+                        const themeSet = new Set(allSelected.map(img => img && img.theme).filter(Boolean));
+                        if (themeSet.size === 1) {
+                            const themeKey = themeSet.values().next().value;
+                            const entry = themes.find(en => (en && typeof en === 'object' ? en.value : en) === themeKey);
+                            chosenThemeName = entry ? ((typeof entry === 'object' ? entry.displayName : entry) || themeKey) : themeKey;
+                        }
                     }
+                    lastChosenThemeName = chosenThemeName;
                     if (pool.length < n) throw new Error(t('notEnoughImagesInTheme').replace('{found}', pool.length).replace('{needed}', n));
                     pool = shuffle(pool).slice(0, n);
                     answerKey = pool.map(img => {
                         const displayName = img.name || img.word;
-                        return { left: { type: 'img', val: img }, right: { type: 'text', val: displayName.charAt(0).toUpperCase() } };
+                        // 'letter' mode: single uppercase first letter. 'name' mode: full vocab word as-is from the image library.
+                        const rightVal = (m === 'name') ? displayName : displayName.charAt(0).toUpperCase();
+                        return { left: { type: 'img', val: img }, right: { type: 'text', val: rightVal } };
                     });
                     const rightItems = shuffle(answerKey.map(p => p.right));
                     pairs = answerKey.map((p, i) => ({ left: p.left, right: rightItems[i] }));
                 } else {
+                    lastChosenThemeName = null;
                     const filledSlots = configSlots.filter(s => {
                          if (m === 'custom') return s.left && s.left.val && s.right && s.right.val && s.right.val.trim() !== '';
                          return s.left && s.left.val && s.right && s.right.val;
@@ -2995,10 +3019,35 @@
                 });
                 objects.push(titleText);
 
+                // Theme header (renders above description when 'letter' or 'name' mode is in play and a single theme was chosen)
+                const currentMode = (typeof modeEl !== 'undefined' && modeEl) ? modeEl.value : null;
+                const showThemeHeader = (currentMode === 'letter' || currentMode === 'name') && lastChosenThemeName;
+                let descTop = headerTop + headerHeight + 5;
+                if (showThemeHeader) {
+                    const themeFontSize = 20;
+                    descTop = (headerTop + headerHeight + 5) + themeFontSize + 8;
+                    const themeHeader = new fabric.Text(lastChosenThemeName, {
+                        left: centerX,
+                        top: descTop - themeFontSize - 8,
+                        fontSize: themeFontSize,
+                        fontFamily: 'Quicksand, sans-serif',
+                        fontWeight: '700',
+                        fill: '#555555',
+                        textAlign: 'center',
+                        originX: 'center',
+                        originY: 'top',
+                        selectable: true,
+                        editable: true,
+                        isHeaderDesc: true,
+                        isThemeHeader: true
+                    });
+                    objects.push(themeHeader);
+                }
+
                 // Description - compact below header
                 const descText = new fabric.Textbox(description, {
                     left: centerX,
-                    top: headerTop + headerHeight + 5,
+                    top: descTop,
                     width: maxHeaderWidth - 20,
                     fontSize: 14,
                     fontFamily: 'Quicksand, sans-serif',
@@ -3071,10 +3120,35 @@
                 });
                 objects.push(titleText);
 
+                // Theme header (renders above description when 'letter' or 'name' mode is in play and a single theme was chosen)
+                const currentModeP = (typeof modeEl !== 'undefined' && modeEl) ? modeEl.value : null;
+                const showThemeHeaderP = (currentModeP === 'letter' || currentModeP === 'name') && lastChosenThemeName;
+                let descTopP = 190;
+                if (showThemeHeaderP) {
+                    const themeFontSize = 28;
+                    descTopP = 190 + themeFontSize + 8;
+                    const themeHeader = new fabric.Text(lastChosenThemeName, {
+                        left: centerX,
+                        top: descTopP - themeFontSize - 8,
+                        fontSize: themeFontSize,
+                        fontFamily: 'Quicksand, sans-serif',
+                        fontWeight: '700',
+                        fill: '#555555',
+                        textAlign: 'center',
+                        originX: 'center',
+                        originY: 'top',
+                        selectable: true,
+                        editable: true,
+                        isHeaderDesc: true,
+                        isThemeHeader: true
+                    });
+                    objects.push(themeHeader);
+                }
+
                 // Description text
                 const descText = new fabric.Textbox(description, {
                     left: centerX,
-                    top: 190,
+                    top: descTopP,
                     width: Math.min(450, pageWidth - 150),
                     fontSize: 20,
                     fontFamily: 'Quicksand, sans-serif',

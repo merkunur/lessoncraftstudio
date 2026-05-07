@@ -5091,11 +5091,20 @@
           };
           capture('puzzleCount', 'puzzle_count');
           capture('operationSelect', 'operation');
+          capture('worksheetImageTheme', 'worksheet_image_theme');
           capture('borderThemeSelect', 'border_theme_select');
           capture('grayscaleToggle', 'grayscale');
+          // Propagate the operator-selected theme to the top-level `theme` field
+          // so it participates in the §17.8.5 slug derivation + §17.8.1 SEO surfaces.
+          // Empty value means the operator hasn't selected a theme; emit null
+          // (legitimately themeless deck per §15.16 themeless-app contract).
+          var themeEl = document.getElementById('worksheetImageTheme');
+          var topLevelTheme = (themeEl && themeEl.value && themeEl.value.trim() !== '')
+              ? String(themeEl.value).trim()
+              : null;
           return {
               settings: settings,
-              theme: null,
+              theme: topLevelTheme,
               images_used: [],
               vocabulary: [],
               exercises: Array.isArray(pd) ? pd : [pd]

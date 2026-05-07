@@ -91,42 +91,66 @@ function classifyZip(zipPath) {
 
   result.oldTheme = manifest.theme == null ? null : String(manifest.theme);
 
-  // Pluck the first image-bearing object; mirrors slug.reconcileManifestTheme
-  // dispatch so this script and the gate agree on the "primary" signal.
-  var firstImg = null;
+  // Walk ALL exercises (not just first) to collect every theme present in the
+  // deck's images. Theme set size determines outcome:
+  //   0  → halt-ambiguous (no recoverable signal)
+  //   1  → rewrite manifest.theme to the single theme
+  //   ≥2 → skip-multi-theme (deck is genuinely multi-theme per "all themes"
+  //        operator-mode, e.g. prepositions settings.theme_select === "all";
+  //        rewriting would mislabel — leave manifest.theme=null)
+  //
+  // Recognized image-shape patterns (extended at this commit for math-worksheet
+  // imageMap + alphabet-train letterToImage + prepositions item shapes):
+  //   exercise = [{path, theme}, ...]                     — code-addition
+  //   exercise = { image: {path, theme} }                 — addition, subtraction, etc.
+  //   exercise = { path, theme }                          — direct image-bearing object
+  //   exercise = { imageMap: {symbol: {path, theme}} }    — math-worksheet
+  //   exercise = { letterToImage: {letter: {path, theme}} } — alphabet-train
+  //   exercise = { item: {path, theme} }                  — prepositions
+  var imageBearingObjects = [];
   if (manifest.exercises && manifest.exercises.length > 0) {
-    var e0 = manifest.exercises[0];
-    if (Array.isArray(e0)) {
-      firstImg = e0[0] || null;
-    } else if (e0 && typeof e0 === 'object') {
-      if (e0.image) firstImg = e0.image;
-      else if (e0.path || e0.theme) firstImg = e0;
-    }
+    manifest.exercises.forEach(function (e) {
+      collectImagesFromExercise(e, imageBearingObjects);
+    });
   }
 
-  if (!firstImg || (!firstImg.theme && !firstImg.path)) {
+  if (imageBearingObjects.length === 0) {
     result.action = 'halt-unparseable';
-    result.note = 'exercises[0] has no image-bearing object (theme + path both missing)';
+    result.note = 'no image-bearing objects found across exercises[] (no recognized image-shape pattern matched)';
     return result;
   }
 
-  // Primary signal: image.theme (per-image semantic theme). Secondary:
-  // path-derived directory. Mirrors the §A.13 gate's reconcileManifestTheme.
-  var primary = (firstImg.theme && String(firstImg.theme).length > 0)
-    ? String(firstImg.theme) : null;
-  var secondary = firstImg.path ? slug.parseThemeFromImagePath(firstImg.path) : null;
-  var corrected = primary || secondary;
+  // Build the theme set per image. Per-image: primary = image.theme;
+  // secondary = parseThemeFromImagePath(image.path). Use primary when present,
+  // fall back to secondary, skip if both null.
+  var themeSet = new Set();
+  imageBearingObjects.forEach(function (img) {
+    var primary = (img.theme && String(img.theme).length > 0) ? String(img.theme) : null;
+    var secondary = img.path ? slug.parseThemeFromImagePath(img.path) : null;
+    var t = primary || secondary;
+    if (t) themeSet.add(t);
+  });
 
-  if (corrected == null) {
-    // Both signals failed — image.theme missing AND path is CUID-shaped or
-    // malformed. The deck is legitimately themeless (Track A baseline
-    // pattern) per §17.8.5; rewriting would force a theme that isn't
-    // reflected in content. Halt; let operator decide.
+  if (themeSet.size === 0) {
+    // All images had CUID-shaped paths AND no .theme field — legitimately
+    // themeless (Track A baseline pattern) per §17.8.5. Rewriting would
+    // force a theme that isn't in content.
     result.action = 'halt-ambiguous';
-    result.note = 'no recoverable theme: image.theme missing AND path is CUID-shaped or malformed (path=' + JSON.stringify(firstImg.path) + ')';
+    result.note = 'no recoverable theme across ' + imageBearingObjects.length + ' images: all .theme fields missing AND all paths CUID-shaped or malformed';
     return result;
   }
 
+  if (themeSet.size > 1) {
+    // Multi-theme deck — operator picked "all themes" mode (e.g. prepositions
+    // settings.theme_select="all" with a random-pull across multiple themes).
+    // Rewriting to a single theme would mislabel; leave theme=null. variant_id
+    // alone disambiguates these decks within their (app, mode) tuple.
+    result.action = 'skip-multi-theme';
+    result.note = 'multi-theme deck (' + themeSet.size + ' distinct themes across ' + imageBearingObjects.length + ' images): ' + Array.from(themeSet).slice(0, 5).join(', ') + (themeSet.size > 5 ? ', ...' : '');
+    return result;
+  }
+
+  var corrected = Array.from(themeSet)[0];
   result.newTheme = corrected;
 
   if (result.oldTheme === corrected) {
@@ -136,6 +160,55 @@ function classifyZip(zipPath) {
 
   result.action = 'rewrite';
   return result;
+}
+
+/**
+ * Helper: collect all image-bearing objects from one exercise into accumulator.
+ * Recognizes the 5 shape patterns enumerated in classifyZip's comment block.
+ * Each pushed object has at least one of {path, theme} populated.
+ */
+function collectImagesFromExercise(exercise, accumulator) {
+  if (!exercise) return;
+  if (Array.isArray(exercise)) {
+    // code-addition shape: array of image objects
+    exercise.forEach(function (img) {
+      if (img && typeof img === 'object' && (img.path || img.theme)) {
+        accumulator.push(img);
+      }
+    });
+    return;
+  }
+  if (typeof exercise !== 'object') return;
+
+  // Single image: { image: {} } or direct {path, theme}
+  if (exercise.image && typeof exercise.image === 'object' && (exercise.image.path || exercise.image.theme)) {
+    accumulator.push(exercise.image);
+  } else if (exercise.path || exercise.theme) {
+    accumulator.push(exercise);
+  }
+
+  // Map-of-images: imageMap (math-worksheet) or letterToImage (alphabet-train)
+  if (exercise.imageMap && typeof exercise.imageMap === 'object') {
+    Object.keys(exercise.imageMap).forEach(function (k) {
+      var img = exercise.imageMap[k];
+      if (img && typeof img === 'object' && (img.path || img.theme)) {
+        accumulator.push(img);
+      }
+    });
+  }
+  if (exercise.letterToImage && typeof exercise.letterToImage === 'object') {
+    Object.keys(exercise.letterToImage).forEach(function (k) {
+      var img = exercise.letterToImage[k];
+      if (img && typeof img === 'object' && (img.path || img.theme)) {
+        accumulator.push(img);
+      }
+    });
+  }
+
+  // Single-image-named-field: item (prepositions)
+  if (exercise.item && typeof exercise.item === 'object' && (exercise.item.path || exercise.item.theme)) {
+    accumulator.push(exercise.item);
+  }
 }
 
 // -------------------------------------------------------------------------
@@ -231,13 +304,15 @@ function printDiffTable(classifications, opts) {
 }
 
 function printSummary(classifications, mode) {
-  var counts = { rewrite: 0, 'skip-clean': 0, 'halt-unparseable': 0, 'halt-ambiguous': 0 };
-  classifications.forEach(function (c) { counts[c.action]++; });
+  var counts = { rewrite: 0, 'skip-clean': 0, 'skip-multi-theme': 0, 'halt-unparseable': 0, 'halt-ambiguous': 0 };
+  classifications.forEach(function (c) { counts[c.action] = (counts[c.action] || 0) + 1; });
   var themeDist = {};
   classifications.forEach(function (c) {
     if (c.action === 'rewrite' || c.action === 'skip-clean') {
       var t = c.newTheme || c.oldTheme || '(unknown)';
       themeDist[t] = (themeDist[t] || 0) + 1;
+    } else if (c.action === 'skip-multi-theme') {
+      themeDist['(multi-theme)'] = (themeDist['(multi-theme)'] || 0) + 1;
     }
   });
 
@@ -246,6 +321,7 @@ function printSummary(classifications, mode) {
   console.log('  Total ZIPs:        ' + classifications.length);
   console.log('  rewrite:           ' + counts.rewrite);
   console.log('  skip-clean:        ' + counts['skip-clean']);
+  console.log('  skip-multi-theme:  ' + counts['skip-multi-theme']);
   console.log('  halt-unparseable:  ' + counts['halt-unparseable']);
   console.log('  halt-ambiguous:    ' + counts['halt-ambiguous']);
   console.log('');
@@ -376,5 +452,6 @@ module.exports = {
   classifyZip: classifyZip,
   rewriteZip: rewriteZip,
   backupDirFor: backupDirFor,
-  ensureBackup: ensureBackup
+  ensureBackup: ensureBackup,
+  collectImagesFromExercise: collectImagesFromExercise
 };

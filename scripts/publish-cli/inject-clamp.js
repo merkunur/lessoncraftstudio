@@ -39,7 +39,8 @@
 var fs = require('fs');
 var path = require('path');
 
-var MARKER = '<!-- lcs-clamp-injected-v1 -->';
+var MARKER = '<!-- lcs-clamp-injected-v2 -->';
+var V1_MARKER = '<!-- lcs-clamp-injected-v1 -->';
 
 // Stand-alone clamp+attribution snippet. Mirrors the catalog-export.js
 // emission inside buildEmbedAffordance. Self-contained so it can be safely
@@ -86,10 +87,34 @@ var CLAMP_SCRIPT = '\n' + MARKER + '\n' +
 'lcsAttribStyle.textContent=".lcs-attrib-html{text-align:center;margin:8px 0 16px;font-size:11px;color:#999;line-height:1.3}.lcs-attrib-html a{color:#999;text-decoration:none}.lcs-attrib-html a:hover{text-decoration:underline}";\n' +
 'document.head.appendChild(lcsAttribStyle);\n' +
 'function lcsInitClampAndAttrib(){lcsInjectAttribHtml();lcsClampWorksheet();}\n' +
+// Gate the clamp + HTML attribution wiring to EMBED CONTEXT ONLY (iframe).
+// Standalone deck pages on the catalog show the full worksheet image at
+// natural aspect ratio; clamping there incorrectly clipped legitimate
+// content (e.g., math-worksheet's multi-puzzle layout where the selectors
+// missed lower puzzles). Only embed needs the whitespace-gap fix per the
+// 345-en-wave alphabet-train + prepositions sparse-content case.
+'if(window.parent!==window){\n' +
 'if(document.readyState==="complete")lcsInitClampAndAttrib();\n' +
 'else window.addEventListener("load",lcsInitClampAndAttrib);\n' +
 'window.addEventListener("resize",lcsClampWorksheet);\n' +
+'}\n' +
 '})();</script>\n';
+
+function stripV1Block(html) {
+  // The v1 block starts with the V1_MARKER comment and ends at the FIRST
+  // closing </script> after that point. Remove the entire range.
+  var v1Start = html.indexOf(V1_MARKER);
+  if (v1Start === -1) return null;
+  // Walk back past any preceding newline to clean up trailing blank lines.
+  while (v1Start > 0 && (html.charAt(v1Start - 1) === '\n' || html.charAt(v1Start - 1) === '\r')) {
+    v1Start--;
+  }
+  var scriptCloseTag = '</script>';
+  var v1End = html.indexOf(scriptCloseTag, v1Start);
+  if (v1End === -1) return null;
+  v1End += scriptCloseTag.length;
+  return html.slice(0, v1Start) + html.slice(v1End);
+}
 
 function processFile(filepath, dryRun) {
   var html;
@@ -101,6 +126,16 @@ function processFile(filepath, dryRun) {
   if (html.indexOf(MARKER) !== -1) {
     return { file: filepath, action: 'skip-already-injected' };
   }
+  // If a v1 block is present, strip it first — it had the embed-gate-missing
+  // bug that clipped standalone deck-page worksheets.
+  var hadV1 = html.indexOf(V1_MARKER) !== -1;
+  if (hadV1) {
+    var stripped = stripV1Block(html);
+    if (stripped == null) {
+      return { file: filepath, action: 'skip-v1-strip-failed', note: 'could not locate end of v1 block' };
+    }
+    html = stripped;
+  }
   // Insert immediately before </body>. Tolerant to whitespace.
   var bodyClose = html.lastIndexOf('</body>');
   if (bodyClose === -1) {
@@ -108,7 +143,7 @@ function processFile(filepath, dryRun) {
   }
   var newHtml = html.slice(0, bodyClose) + CLAMP_SCRIPT + html.slice(bodyClose);
   if (dryRun) {
-    return { file: filepath, action: 'would-inject' };
+    return { file: filepath, action: hadV1 ? 'would-replace-v1-with-v2' : 'would-inject' };
   }
   var tmp = filepath + '.tmp';
   try {
@@ -118,7 +153,7 @@ function processFile(filepath, dryRun) {
     try { fs.unlinkSync(tmp); } catch (_) {}
     return { file: filepath, action: 'write-error', note: e.message };
   }
-  return { file: filepath, action: 'injected' };
+  return { file: filepath, action: hadV1 ? 'replaced-v1-with-v2' : 'injected' };
 }
 
 function walkDecksDir(rootDir, accumulator) {
@@ -179,12 +214,12 @@ function main() {
   console.log('Found ' + deckHtmlPaths.length + ' deck.html files');
   console.log('');
 
-  var counts = { 'injected': 0, 'would-inject': 0, 'skip-already-injected': 0, 'skip-no-body-close': 0, 'skip-read-error': 0, 'write-error': 0 };
+  var counts = {};
   var notes = [];
   deckHtmlPaths.forEach(function (p, idx) {
     var r = processFile(p, dryRun);
     counts[r.action] = (counts[r.action] || 0) + 1;
-    if (r.action === 'write-error' || r.action === 'skip-read-error' || r.action === 'skip-no-body-close') {
+    if (r.action === 'write-error' || r.action === 'skip-read-error' || r.action === 'skip-no-body-close' || r.action === 'skip-v1-strip-failed') {
       notes.push('  ' + r.action + '  ' + p + (r.note ? '  // ' + r.note : ''));
     }
     if ((idx + 1) % 100 === 0) console.log('  processed ' + (idx + 1) + '/' + deckHtmlPaths.length);

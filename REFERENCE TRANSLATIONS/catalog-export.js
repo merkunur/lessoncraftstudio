@@ -1102,9 +1102,19 @@
       'lcsAttribStyle.textContent=".lcs-attrib-html{text-align:center;margin:8px 0 16px;font-size:11px;color:#999;line-height:1.3}.lcs-attrib-html a{color:#999;text-decoration:none}.lcs-attrib-html a:hover{text-decoration:underline}";',
       'document.head.appendChild(lcsAttribStyle);',
       'function lcsInitClampAndAttrib(){lcsInjectAttribHtml();lcsClampWorksheet();}',
+      // Gate the clamp + HTML attribution wiring to EMBED CONTEXT ONLY (iframe).
+      // Standalone deck pages on lessoncraftstudio.com show the full worksheet
+      // image at natural aspect ratio (any unused canvas area is acceptable
+      // there — visiting the deck page directly is a "see the whole worksheet"
+      // experience, not a "fit-tightly-in-iframe" one). The clamp would
+      // incorrectly cut off content for some apps where my element selectors
+      // missed interactive children. Embed context (host blogs etc.) needs
+      // the clamp to avoid the worksheet-image whitespace gap.
+      'if(window.parent!==window){',
       'if(document.readyState==="complete")lcsInitClampAndAttrib();',
       'else window.addEventListener("load",lcsInitClampAndAttrib);',
       'window.addEventListener("resize",lcsClampWorksheet);',
+      '}',
       '})();<\/script>'
     ].join('\n');
   }

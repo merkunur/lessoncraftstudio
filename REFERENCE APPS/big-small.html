@@ -1281,9 +1281,6 @@
                   <option value="orderAsc" data-translate="bigsmall.type.asc">Number 1-2-3 (small to big)</option>
                   <option value="orderDesc" data-translate="bigsmall.type.desc">Number 1-2-3 (big to small)</option>
                 </select>
-                <label for="addIndicatorsCheckbox" class="checkbox-label">
-                    <input type="checkbox" id="addIndicatorsCheckbox" /> <span data-translate="bigsmall.add.indicators">Add answer indicators (circles/boxes)</span>
-                </label>
                 <label for="addExerciseNumbersCheckbox" class="checkbox-label">
                     <input type="checkbox" id="addExerciseNumbersCheckbox" checked /> <span data-translate="bigsmall.add.numbers">Add exercise numbers</span>
                 </label>
@@ -1465,7 +1462,6 @@
       const DEFAULT_IMG_COUNT = '2';
       const DEFAULT_MODE = 'different';
       const DEFAULT_QTYPE = 'findBig';
-      const DEFAULT_INDICATORS = true;
       const DEFAULT_EXERCISE_NUMBERS = true;
       const downloadMultiplier = 4;
 
@@ -1474,7 +1470,6 @@
       const imgCountSelect = document.getElementById("imgCount");
       const modeSelect = document.getElementById("mode");
       const qTypeSelect = document.getElementById("qType");
-      const addIndicatorsCheckbox = document.getElementById("addIndicatorsCheckbox");
       const addExerciseNumbersCheckbox = document.getElementById("addExerciseNumbersCheckbox");
       const includeNameDateCheckbox = document.getElementById('includeNameDate');
       const showHeaderCheckbox = document.getElementById('showHeader');
@@ -3252,12 +3247,15 @@
                 const imgGap = (BOX_WIDTH - finalTotalWidth) / (loadedImageObjects.length + 1);
                 let currentX = imgGap;
 
-                // Find the tallest image and calculate its center position
-                const tallestHeight = Math.max(...loadedImageObjects.map(img => img.getScaledHeight()));
-                const tallestCenterY = 10 + tallestHeight / 2;
-
+                // Bottom-align all images with 5px gap from the card's bottom
+                // edge per operator 2026-05-08. Each image individually
+                // bottom-aligned so tall + short images share a baseline ("stand
+                // on the floor"). Avoids overlap with the exercise-number badge
+                // in the top-left corner (which rendered over images when they
+                // were vertically centered).
+                const IMG_BOTTOM_PAD = 5;
                 loadedImageObjects.forEach(img => {
-                    img.set({ left: currentX, top: tallestCenterY - img.getScaledHeight() / 2 });
+                    img.set({ left: currentX, top: BOX_HEIGHT - IMG_BOTTOM_PAD - img.getScaledHeight() });
                     currentX += img.getScaledWidth() + imgGap;
                 });
 
@@ -3270,19 +3268,7 @@
                     img.choiceIndex = j;
                 });
 
-                const placeholders = [];
-                if (addIndicatorsCheckbox.checked) {
-                    loadedImageObjects.forEach((img, j) => {
-                        const indicatorProps = { left: img.left + img.getScaledWidth() / 2, top: boxRect.height - 11, originX: 'center', originY: 'center', isPlaceholder: true, isBigSmallIndicator: true, problemIndex: i, choiceIndex: j };
-                        if (qType.startsWith('order')) {
-                            placeholders.push(new fabric.Rect({ ...indicatorProps, width: 20, height: 20, fill: 'rgba(0,0,0,0.05)', stroke: '#BBB', rx: 4, ry: 4 }));
-                        } else {
-                            placeholders.push(new fabric.Circle({ ...indicatorProps, radius: 10, fill: 'rgba(0,0,0,0.05)', stroke: '#BBB' }));
-                        }
-                    });
-                }
-                  
-                const groupItems = [boxRect, ...loadedImageObjects, ...placeholders];
+                const groupItems = [boxRect, ...loadedImageObjects];
 
                 if (addExerciseNumbersCheckbox.checked) {
                     // Proportionally scaled circle badge for exercise number
@@ -3445,7 +3431,6 @@
               imgCountSelect.value = '2';
               modeSelect.value = 'different';
               qTypeSelect.value = 'findBig';
-              addIndicatorsCheckbox.checked = true;
               addExerciseNumbersCheckbox.checked = true;
 
               // Apply page size
@@ -3614,12 +3599,11 @@
                 const imgGap = (BOX_WIDTH - finalTotalWidth) / (loadedImageObjects.length + 1);
                 let currentX = imgGap;
 
-                // Find the tallest image and calculate its center position
-                const tallestHeight = Math.max(...loadedImageObjects.map(img => img.getScaledHeight()));
-                const tallestCenterY = 10 + tallestHeight / 2;
-
+                // Bottom-align images with 5px bottom-pad per operator
+                // 2026-05-08 (mirrors the worksheet path).
+                const IMG_BOTTOM_PAD = 5;
                 loadedImageObjects.forEach(img => {
-                    img.set({ left: currentX, top: tallestCenterY - img.getScaledHeight() / 2 });
+                    img.set({ left: currentX, top: BOX_HEIGHT - IMG_BOTTOM_PAD - img.getScaledHeight() });
                     currentX += img.getScaledWidth() + imgGap;
                 });
 
@@ -3996,7 +3980,6 @@ async function downloadPDF(canvasInstance, fileName, opts) {
         imgCountSelect.value = DEFAULT_IMG_COUNT;
         modeSelect.value = DEFAULT_MODE;
         qTypeSelect.value = DEFAULT_QTYPE;
-        addIndicatorsCheckbox.checked = DEFAULT_INDICATORS;
         addExerciseNumbersCheckbox.checked = DEFAULT_EXERCISE_NUMBERS;
         includeNameDateCheckbox.checked = false;
         selectedImages = []; uploadedImages = [];
@@ -4177,7 +4160,6 @@ async function downloadPDF(canvasInstance, fileName, opts) {
         imgCountSelect.value = DEFAULT_IMG_COUNT;
         modeSelect.value = DEFAULT_MODE;
         qTypeSelect.value = DEFAULT_QTYPE;
-        addIndicatorsCheckbox.checked = DEFAULT_INDICATORS;
         addExerciseNumbersCheckbox.checked = DEFAULT_EXERCISE_NUMBERS;
         
         loadThemes();

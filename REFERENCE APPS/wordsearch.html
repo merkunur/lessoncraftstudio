@@ -2383,11 +2383,19 @@ document.addEventListener("DOMContentLoaded", function() {
                 showMessage(t('themeNeedsMinImages', {value: `${themeName}' needs at least ${MIN_THEME_IMAGES}`}), 'error');
                 return null;
             }
-            // Specific-theme mode: operator-locked at 6 words (vs the random
-            // count used for 'all' / 'random_auto' modes). Per-operator request
-            // — predictable layout for themed wordsearches.
+            // Specific-theme mode: operator-locked at 6 words placed (vs the random
+            // count used for 'all' / 'random_auto' modes). Per-operator request:
+            // "should be always 6 when the worksheet is generated from a selected
+            // theme". To survive placement failures (long words like 'Firework'
+            // that don't fit the grid), pass MORE source candidates than 6 and let
+            // placement stop after 6 succeed. settings.targetWordCount caps the
+            // placement loop in generateGridData.
             const isSpecificTheme = selectedWorksheetTheme !== 'all';
-            const sliceCount = isSpecificTheme ? 6 : numWords;
+            const SELECTED_THEME_TARGET = 6;
+            const SELECTED_THEME_OVERHEAD = 6;  // 12 candidates → 6 placed even if some fail
+            const sliceCount = isSpecificTheme
+                ? Math.min(themeImages.length, SELECTED_THEME_TARGET + SELECTED_THEME_OVERHEAD)
+                : numWords;
             sourceImages = shuffleArray(themeImages).slice(0, sliceCount);
         } else if (userSelectedImages.length > 0) {
             sourceImages = [...userSelectedImages];
@@ -2418,6 +2426,11 @@ document.addEventListener("DOMContentLoaded", function() {
             return null;
         }
 
+        // targetWordCount: caps the placement loop in generateGridData. Set to 6
+        // for SPECIFIC selected themes (operator request: "always 6 when generated
+        // from a selected theme"); null for 'all' / 'random_auto' / custom modes
+        // which keep the existing best-effort placement.
+        const isSelectedSpecificTheme = selectedWorksheetTheme && selectedWorksheetTheme !== 'random_auto' && selectedWorksheetTheme !== 'all';
         const settings = {
             wordsConfig: sourceImages.map(img => ({word: img.word, path: img.path, name: img.name || img.word})),
             rows: parseInt(rowsInput.value),
@@ -2426,7 +2439,8 @@ document.addEventListener("DOMContentLoaded", function() {
             allowReverseWords: allowReverseWordsInput.checked,
             showWordList: showWordListInput.checked,
             showOnlyImages: showOnlyImagesInput.checked,
-            showOnlyWords: showOnlyWordsInput.checked
+            showOnlyWords: showOnlyWordsInput.checked,
+            targetWordCount: isSelectedSpecificTheme ? 6 : null
         };
         
         const gridData = generateGridData(settings);
@@ -2457,6 +2471,10 @@ document.addEventListener("DOMContentLoaded", function() {
         let colorIndex = 0;
 
         for (const word of wordsToPlace) {
+            // targetWordCount stop-condition (operator-locked at 6 for selected themes):
+            // even though placement might succeed for more, stop after the target
+            // count to avoid showing extra words above the operator's intent.
+            if (settings.targetWordCount && placedWordsInfo.length >= settings.targetWordCount) break;
             if (!word) continue;
             let placed = false;
             for (let attempt = 0; attempt < 200; attempt++) {
@@ -2986,8 +3004,12 @@ document.addEventListener("DOMContentLoaded", function() {
         // since createHeaderGroup's instruction text is fixed-position (not
         // pageSize-dependent): portrait descText at top:190 fontSize:20 → bottom ~213;
         // landscape descText at top: headerTop+headerHeight+5 = 135 fontSize:14 → bottom ~151.
-        const PORTRAIT_GRID_TOP_Y = 216;
-        const LANDSCAPE_GRID_TOP_Y = 154;
+        // Bumped to give visible 3px gap below descText. Font descenders push the
+        // visible bottom past the calculated baseline+lineHeight bottom (~213
+        // portrait, ~151 landscape), so visible gap = GRID_TOP_Y - (baseline_bottom + descender)
+        // ≈ 3px after this bump.
+        const PORTRAIT_GRID_TOP_Y = 219;
+        const LANDSCAPE_GRID_TOP_Y = 157;
         const gridTopY = isLandscape ? LANDSCAPE_GRID_TOP_Y : PORTRAIT_GRID_TOP_Y;
         const GRID_LIST_GAP_PX = 8;  // small gap between grid bottom and word list top (portrait)
         const wordListTopY = isLandscape ? gridTopY : (gridTopY + puzzleGridGroup.height + GRID_LIST_GAP_PX);
@@ -3018,11 +3040,31 @@ document.addEventListener("DOMContentLoaded", function() {
             itemsPerCol = Math.ceil(wordsToDisplay.length / itemsPerRow);
         }
 
-        // Row spacing 2.5 (was 1.5) accommodates the doubled image+text per
-        // operator request "double the size of the images and words".
-        const ROW_SPACING_FACTOR = 2.5;
+        // Content-based item sizing per operator request "double the size of the
+        // images and words" + "the bottom row of the words have a big gap from
+        // the bottom line of the inner border" + "images and their corresponding
+        // words are overlapping" (text was positioned INSIDE doubled image's bbox).
+        //
+        // Formula: derive itemHeight so that N rows of (image + IMAGE_TEXT_GAP +
+        // text + ROW_GAP) consume listHeight from top to bottom, leaving the
+        // operator-requested 3px clamp above the inner border. Text positioned
+        // BELOW image (was overlapping at itemTop + 0.9*itemHeight, INSIDE image
+        // area which extends to itemTop + 1.144*itemHeight via originY=center
+        // at offset 0.28*itemHeight + height 1.728*itemHeight).
+        const FONT_SIZE = 24;            // doubled per operator (was 12)
+        const IMAGE_MULTIPLIER = 1.728;  // doubled per operator (was 0.864)
+        const IMAGE_TEXT_GAP = 8;        // px between image bottom and text top
+        const ROW_GAP = 8;               // px between two rows of items
         const itemWidth = listWidth / itemsPerRow;
-        const itemHeight = Math.min(itemWidth, listHeight / itemsPerCol / ROW_SPACING_FACTOR);
+        // Derive itemHeight from listHeight + content stack:
+        //   itemsPerCol * (IMAGE_MULTIPLIER * itemHeight + IMAGE_TEXT_GAP + FONT_SIZE)
+        //     + (itemsPerCol - 1) * ROW_GAP = listHeight
+        const _totalFixed = itemsPerCol * (IMAGE_TEXT_GAP + FONT_SIZE) + (itemsPerCol - 1) * ROW_GAP;
+        const _itemHeightHeightBound = Math.max(0, (listHeight - _totalFixed) / (itemsPerCol * IMAGE_MULTIPLIER));
+        const _itemHeightWidthBound = itemWidth / IMAGE_MULTIPLIER;
+        const itemHeight = Math.max(10, Math.min(_itemHeightHeightBound, _itemHeightWidthBound));
+        const imageHeight = itemHeight * IMAGE_MULTIPLIER;
+        const ROW_SPACING_PX = imageHeight + IMAGE_TEXT_GAP + FONT_SIZE + ROW_GAP;
 
         // Create text elements immediately without waiting for images
         const wordListClues = [];
@@ -3032,7 +3074,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const row = Math.floor(i / itemsPerRow);
             const col = i % itemsPerRow;
             const itemLeft = listLeft + col * itemWidth;
-            const itemTop = listTop + row * itemHeight * ROW_SPACING_FACTOR;
+            const itemTop = listTop + row * ROW_SPACING_PX;
 
             // Determine what to show based on settings
             // Default to showing images if nothing is checked
@@ -3042,15 +3084,19 @@ document.addEventListener("DOMContentLoaded", function() {
 
             // Create text if needed
             if (showText) {
-                // Scale font size based on item size — doubled per operator request
-                // "double the size of the images and words". Cap raised 20→40, ratio 0.12→0.24.
-                const fontSize = Math.min(40, Math.max(24, itemHeight * 0.24));
+                // Use the doubled FONT_SIZE constant (24, was 12). Per operator
+                // request "double the size of the images and words".
+                const fontSize = FONT_SIZE;
 
                 // Use translated name if available, otherwise fall back to word
                 const displayName = wordInfo.name || wordInfo.word;
 
-                // Position text below image if both are shown, otherwise center it
-                const textTopPosition = showImages ? itemTop + itemHeight * 0.9 : itemTop + itemHeight * 0.5;
+                // Position text BELOW image (textCenterY = itemTop + imageHeight
+                // + IMAGE_TEXT_GAP + fontSize/2) when both shown; centered in
+                // imageHeight area when text-only (no image displaces it).
+                const textTopPosition = showImages
+                    ? itemTop + imageHeight + IMAGE_TEXT_GAP + fontSize / 2
+                    : itemTop + imageHeight / 2;
 
                 const text = new fabric.Textbox(displayName, {
                     fontSize: fontSize,
@@ -3073,14 +3119,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
             // Store image info to load later if needed
             if (showImages) {
-                // Position image above text if both are shown, otherwise center it
-                const imageTopPosition = showText ? itemTop + itemHeight * 0.28 : itemTop + itemHeight * 0.5;
+                // Image center sits at itemTop + imageHeight/2 (top of image at
+                // itemTop). originY='center' on Fabric image (set later in onload).
+                const imageTopPosition = itemTop + imageHeight / 2;
 
                 imageLoadConfigs.push({
                     path: wordInfo.path,
                     baseLeft: itemLeft + itemWidth/2,
                     baseTop: imageTopPosition,
-                    height: itemHeight * 1.728, // doubled per operator request (was 0.864)
+                    height: imageHeight, // content-based: itemHeight * IMAGE_MULTIPLIER (1.728)
                     index: i,
                     showText: showText // Store if text is shown to adjust positioning
                 });
@@ -3107,26 +3154,32 @@ document.addEventListener("DOMContentLoaded", function() {
             });
         }
         
-        // Update word list positions to be relative to the margin using ORIGINAL word index
+        // Update word list positions to be relative to the margin using ORIGINAL word index.
+        // Text now positioned BELOW image (was overlapping), per content-based
+        // ROW_SPACING_PX layout.
         wordListClues.forEach((elem) => {
             if (elem && elem.wordIndex !== undefined) {
                 const i = elem.wordIndex; // Use original word index
                 const row = Math.floor(i / itemsPerRow);
                 const col = i % itemsPerRow;
 
-                // Check if images are also shown for this element (to match vertical positioning)
+                // Text vertical offset within the row's slot:
+                //   with image: imageHeight + IMAGE_TEXT_GAP + FONT_SIZE/2 (center below image)
+                //   text-only:  imageHeight / 2 (center within image area, since image is absent)
                 const hasImages = imageLoadConfigs.some(cfg => cfg.index === i);
-                const textTopOffset = hasImages ? itemHeight * 0.9 : itemHeight * 0.5;
+                const textTopOffset = hasImages
+                    ? imageHeight + IMAGE_TEXT_GAP + FONT_SIZE / 2
+                    : imageHeight / 2;
 
                 if (isLandscape) {
                     elem.set({
                         left: marginX + totalGridWidth + usableWidth * 0.05 + col * itemWidth + itemWidth/2,
-                        top: wordListTopY + row * itemHeight * ROW_SPACING_FACTOR + textTopOffset
+                        top: wordListTopY + row * ROW_SPACING_PX + textTopOffset
                     });
                 } else {
                     elem.set({
                         left: marginX + col * itemWidth + itemWidth/2,
-                        top: wordListTopY + row * itemHeight * ROW_SPACING_FACTOR + textTopOffset
+                        top: wordListTopY + row * ROW_SPACING_PX + textTopOffset
                     });
                 }
             }
@@ -3146,16 +3199,18 @@ document.addEventListener("DOMContentLoaded", function() {
                     const row = Math.floor(i / itemsPerRow);
                     const col = i % itemsPerRow;
 
-                    // Calculate proper image position
-                    const imageTopOffset = config.showText ? itemHeight * 0.28 : itemHeight * 0.5;
+                    // Image vertical offset: image center sits at imageHeight/2 from
+                    // itemTop regardless of whether text is present (text is now BELOW
+                    // image, doesn't displace it). Was previously a 0.28 vs 0.5 split.
+                    const imageTopOffset = imageHeight / 2;
                     let finalLeft, finalTop;
 
                     if (isLandscape) {
                         finalLeft = marginX + totalGridWidth + usableWidth * 0.05 + col * itemWidth + itemWidth/2;
-                        finalTop = wordListTopY + row * itemHeight * ROW_SPACING_FACTOR + imageTopOffset;
+                        finalTop = wordListTopY + row * ROW_SPACING_PX + imageTopOffset;
                     } else {
                         finalLeft = marginX + col * itemWidth + itemWidth/2;
-                        finalTop = wordListTopY + row * itemHeight * ROW_SPACING_FACTOR + imageTopOffset;
+                        finalTop = wordListTopY + row * ROW_SPACING_PX + imageTopOffset;
                     }
 
                     fabricImg.set({
@@ -3178,16 +3233,17 @@ document.addEventListener("DOMContentLoaded", function() {
                     const row = Math.floor(i / itemsPerRow);
                     const col = i % itemsPerRow;
 
-                    // Calculate proper placeholder position
-                    const imageTopOffset = config.showText ? itemHeight * 0.28 : itemHeight * 0.5;
+                    // Placeholder position: same content-based formula as the
+                    // onload branch (text now BELOW image, doesn't displace it).
+                    const imageTopOffset = imageHeight / 2;
                     let finalLeft, finalTop;
 
                     if (isLandscape) {
                         finalLeft = marginX + totalGridWidth + usableWidth * 0.05 + col * itemWidth + itemWidth/2;
-                        finalTop = wordListTopY + row * itemHeight * ROW_SPACING_FACTOR + imageTopOffset;
+                        finalTop = wordListTopY + row * ROW_SPACING_PX + imageTopOffset;
                     } else {
                         finalLeft = marginX + col * itemWidth + itemWidth/2;
-                        finalTop = wordListTopY + row * itemHeight * ROW_SPACING_FACTOR + imageTopOffset;
+                        finalTop = wordListTopY + row * ROW_SPACING_PX + imageTopOffset;
                     }
 
                     // Add transparent placeholder on error

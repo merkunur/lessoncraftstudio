@@ -1,24 +1,24 @@
 # Arc 4 commission spec — continue Track-C-driven localization + deferred vocab packages + numeracy expansion
 
-**Type:** `[BUILD][LESSON-PLANS]` — content authoring (mostly) + small infra hygiene (NUMBER_WORDS gender-toggle if operator prioritizes)
+**Type:** `[BUILD][LESSON-PLANS]` — content authoring (vocab + numeracy + locale variants); no infrastructure work in this arc
 **Branch:** `pivot/printable-business-toolkit`
 **Estimated phases:** 4 sub-commits
-**Estimated LoC:** ~3000-5000 (mostly YAML; small TS for NUMBER_WORDS gender-toggle if scoped in)
+**Estimated LoC:** ~3000-5000 (mostly YAML)
 **Estimated sessions:** 3-5
 
-This is a draft spec. Operator ratifies / revises before commissioning Arc 4.
+**Status: ratified by operator** — see §9 Authorization for locked ratifications.
+**HOLD: Arc 4 commissioning paused until operator confirms parallel-vs-serial decision against operator-side hygiene work** (publishing pass on 3 unpublished English apps: alphabet-train + math-worksheet + prepositions; working-tree cleanup). One operator-message away.
 
 ## 1. Context
 
 Arc 3 closed with 6 numeracy packages + sparse-override pattern proven + numeral-cards generator shipped + 4 locale variants (1 es + 3 pt). Arc 4 continues the localization rhythm + addresses Arc 1's deferred-vocab queue + extends numeracy further.
 
 Arc 4 ships:
-1. **Continue locale-variant authoring** per operator's Track C progression. Single operator-question gates Phase 2 entry (same pattern as Arc 3 Phase 2).
-2. **3 deferred vocabulary packages** (family-members + foods + action-verbs from Arc 1 agent's "save for later" flag). Cultural-variation + verb-form complexity that warranted deferral.
+1. **3 deferred vocabulary packages** (family-members + foods + action-verbs from Arc 1 agent's "save for later" flag). Cultural-variation + verb-form complexity that warranted deferral. Authored with cultural-sensitivity / multilingual-pedagogy expert agent invocation per operator-locked discipline (mirrors Arc 1's pedagogical-curriculum + classroom-teacher agent pattern).
+2. **Continue locale-variant authoring** per operator's Track C progression. Single operator-question gates Phase 2 entry (same pattern as Arc 3 Phase 2). **Operator-locked: deferred-vocab packages FOLD INTO Phase 2 locale-variant authoring** — Phase 2 locale-variant set expands from 3 cross-strand defaults (farm-animals + clothing + count-objects-1-to-10) to include 1-2 of the Phase 1 deferred-vocab packages where locale-relevant.
 3. **3 additional numeracy packages** (subitize-quantities-1-to-5 + count-on-from-given-number + add-within-5). Builds on Arc 3 numeracy template; closes early-numeracy / counting-and-cardinality strand foundational layer.
-4. **Optional: NUMBER_WORDS gender-toggle** (if operator prioritizes; closes Romance + Nordic gender-mismatch architectural gap from Arc 3 Phase 2 review). Defer if Arc 4 scope tight.
 
-Out of scope for Arc 4: Tier 3+ locale variants when operator's Track C reaches Tier 3 (Arc 5+); subscriber UI for browsing packages (Arc 5+); Mac Studio AI enrichment.
+Out of scope for Arc 4: Tier 3+ locale variants when operator's Track C reaches Tier 3 (Arc 5+); subscriber UI for browsing packages (Arc 5+); Mac Studio AI enrichment; **NUMBER_WORDS gender-toggle infrastructure work** (operator-locked: deferred to Arc 5 OR a separate [INFRA][LESSON-PLANS] commission between Arc 4 and Arc 5; default Arc 5; escalate to between-arcs commission only if Arc 4 surfaces additional gender-related quality issues that compound).
 
 ## 2. Pre-locked architecture (do NOT relitigate)
 
@@ -43,20 +43,24 @@ Author the 3 vocab packages deferred at Arc 1 agent review for cultural-variatio
 2. identify-and-name-foods (cultural-variation: meal/snack list varies by culture; pizza is universal but rice/tortilla/bread are region-specific). 10 keys with universal-recognition prioritized.
 3. identify-and-name-action-verbs (verb-form complexity: gerund vs imperative vs base form per locale convention; CC adjudicates). 10 keys: run, walk, jump, sit, stand, eat, drink, sleep, read, write — most have IMAGE_VOCABULARY entries.
 
-Per agent's deferral notes: each package needs explicit cultural-variation acknowledgment in compositionalRationale field + extra agent review attention for cultural-fit (operator may want operator-specified scenario context: "international school in Berlin with Turkish + Arabic-speaking families" vs "US ELL bilingual classroom with Mexican-immigrant families").
+**Cultural-sensitivity / multilingual-pedagogy expert agent invocation** (operator-locked discipline; mirrors Arc 1's pedagogical-curriculum + classroom-teacher agent pattern). CC + agent adjudicate scenario contexts per package; surface to operator ONLY if specific scenarios warrant operator-strategic ratification (scenarios touching religion, politics, family-structure assumptions where platform policy matters). If surface needed, batch as a single policy-shaped review at Phase 1 entry — not per-scenario.
 
-**Per-package agent review APPLIED for these 3 packages** (operator's "extra attention" framing for cross-strand prototype extends to culturally-sensitive packages).
+Each package needs explicit cultural-variation acknowledgment in compositionalRationale field. Per-package agent review APPLIED.
 
 ### Phase 2 — Continue locale-variant authoring (gated on operator Track C state; 1 sub-commit)
 
-**Single-question gate before Phase 2 starts:** CC asks operator "What is your worksheet-deck Track C state currently?" Locks the next-locale per SUBSCRIPTION-SCOPE.md sequence.
+**Single-question gate before Phase 2 starts:** CC asks operator "What is your worksheet-deck Track C state currently?" Locks the next-locale per SUBSCRIPTION-SCOPE.md sequence. Track C state may advance between Arc 4 commission time and Phase 2 entry depending on operator's English-side authoring rhythm; question is asked at Phase 2 entry, not pre-locked.
 
 Examples (assuming Arc 3 Phase 2 closed at pt):
 - If operator Track C now at en + es + pt → next is **it**.
 - If at en + es + pt + it → next is **de**.
 - If at en + es + pt + it + de → next is **fr**.
 
-CC adjudicates 3-package selection per locale. Default mirrors Arc 3 Phase 2: farm-animals + clothing + count-objects-1-to-10 (cross-strand validation). Operator may override at Track C question time + may also include 1-2 deferred-vocab packages from Phase 1 if locale-relevant.
+**Operator-locked: deferred-vocab fold IN.** Phase 2 locale-variant set EXPANDS from Arc 3 Phase 2's 3-cross-strand default (farm-animals + clothing + count-objects-1-to-10) to include 1-2 of the Phase 1 deferred-vocab packages (family-members / foods / action-verbs) where locale-relevant. CC adjudicates which deferred-vocab packages to include per operator's locale answer + cultural-fit considerations from Phase 1 agent review. Default lean: include family-members + foods (universal-relevance for K-3 home/school bridge); defer action-verbs to Arc 5 if locale-specific verb-form complexity surfaces at Phase 1 authoring.
+
+Total Phase 2 locale-variant count: 4-5 sparse-override files (vs Arc 3 Phase 2's 3).
+
+**Surface trigger:** if folding deferred-vocab grows Phase 2 substantially beyond expected (e.g., Phase 1 cultural-variation surface caused authoring delays that compound at Phase 2), surface size impact and re-adjudicate. Default-fold otherwise.
 
 Phase 2 uses sparse-override pattern from Arc 3 Phase 1.
 
@@ -140,13 +144,41 @@ Arc 5 likely scope:
 - `REFERENCE TRANSLATIONS/material-generator-shared.js` (Arc 3 Phase 1 NUMBER_WORDS resource + sparse-override merge from Arc 3 Phase 1).
 - `project_k3_phrasing_native_speaker_review.md` (NSR queue; Arc 4 may resolve some flagged items via NUMBER_WORDS gender-toggle).
 
-## 9. Authorization
+## 9. Authorization — operator-ratified locks
 
-This is a draft commission spec. Operator reviews + ratifies (or revises) before commissioning Arc 4 to a future session.
+Operator ratified all 4 surfaced subjects at Arc 4 commission:
 
-Subjects to surface for ratification before Arc 4 starts:
+1. **Phase 1 culturally-sensitive scenario contexts: CC adjudicates with cultural-sensitivity / multilingual-pedagogy expert agent.** Same discipline as Arc 1's pedagogical-curriculum + classroom-teacher agent invocations. Operator-side cultural-specificity validation isn't possible without the expert layer. **Surface trigger:** if specific scenario contexts in CC's spec warrant operator-strategic ratification (scenarios touching religion, politics, family-structure assumptions where platform policy matters), surface those as a single batched policy-shaped review at Phase 1 entry — not per-scenario. Otherwise CC + agent adjudicate and proceed.
 
-- **Phase 1 culturally-sensitive package authoring scenarios** — operator selects target classroom contexts for the 3 deferred-vocab packages: family-members (international-school multilingual vs US bilingual etc.), foods (universal vs region-specific), action-verbs (verb-form convention).
-- **Phase 2 locale-variant order** — gated on operator Track C state question; CC asks at Phase 2 entry per Arc 3 precedent.
-- **NUMBER_WORDS gender-toggle in Arc 4 vs defer to Arc 5** — operator pre-authorized Arc 4-or-defer decision; ratify at commission time.
-- **Optional: 1-2 deferred-vocab packages folded into Phase 2 locale-variant authoring** if locale-relevant (CC default: Phase 2 locales the same 3 cross-strand packages as Arc 3; operator may add deferred-vocab if desired).
+2. **Phase 2 Track C gate question: CC asks at Phase 2 entry per Arc 3 precedent.** No pre-lock. Same protocol that worked for Arc 3 — Track C state may advance between Arc 4 commission and Phase 2 entry depending on operator's English-side authoring rhythm.
+
+3. **NUMBER_WORDS gender-toggle: defer to Arc 5.** Reasoning: gender-default architectural finding from Arc 3 NSR memory isn't load-bearing yet — surfaces as Romance/Nordic/Finnish localization quality issue but doesn't block authoring. Arc 4 is primarily content authoring; adding infrastructure work mid-content-arc is same anti-pattern as Arc 1 material-deferrals. Right home: Arc 5 if Arc 5 is shaped as infrastructure-sweep, OR a separate `[INFRA][LESSON-PLANS]` commission between Arc 4 and Arc 5. **Default Arc 5; escalate to between-arcs commission only if Arc 4 surfaces additional gender-related quality issues that compound.**
+
+4. **Deferred-vocab fold into Phase 2: FOLD IN.** Reverses the Arc 3-era default of deferring to Arc 4 entry. Reasoning:
+   - Vocabulary strand most-validated (no architectural risk)
+   - Sparse-override delivering 75% LoC reduction on locale variants → vocab packages are the cheapest packages to author
+   - Arc 4 has lighter infrastructure load than Arc 3 (no numeral-cards + sparse-override on the plate), so deferred-vocab fits cleanly
+
+**Surface trigger:** if folding deferred-vocab grows Arc 4 beyond the draft spec (4 phases, 3-5 sessions, ~3000-5000 LoC), surface size impact and re-adjudicate. Default-fold otherwise.
+
+**Surface posture (operator-locked):** Surface only at Arc 4's natural cadence (Phase 4 equivalent) unless one of:
+- Phase 1 cultural-sensitivity expert agent surfaces scenarios warranting operator-strategic policy ratification → batched single review at Phase 1 entry.
+- Phase 2 Track C gate question (single question at Phase 2 entry; lock per answer; proceed).
+- Deferred-vocab fold grows Arc 4 substantially beyond spec → surface size impact, re-adjudicate.
+- Architectural issue surfaces during package authoring that warrants pause-and-discuss.
+
+Otherwise autonomous through Phase 4.
+
+## 10. HOLD before Arc 4 commences
+
+**Operator-side hygiene work pending before Arc 4 commissioning is authorized:**
+
+- Publishing pass on 3 unpublished English apps: alphabet-train, math-worksheet, prepositions.
+- Working-tree cleanup.
+
+**Two paths operator may authorize:**
+
+A. **Serial:** Arc 4 starts AFTER operator-side hygiene completes. CC waits for operator's "go" message.
+B. **Parallel:** Arc 4 starts in parallel with operator-side hygiene IF operator confirms the work is non-conflicting. Arc 4 touches `docs/lesson-plans/` + `frontend/scripts/author-teaching-package.ts` (Phase 4 only if NUMBER_WORDS gender-toggle scoped in — currently deferred per ratification 3 → Arc 4 touches NO infrastructure that would conflict with publish-cli or worksheet-deck publishing).
+
+CC holds Arc 4 commencement until operator confirms parallel-vs-serial decision in a follow-up message.

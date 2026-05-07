@@ -148,6 +148,43 @@ var seedCases = [
     manifest: { exercise_type: 'addition', exercise_mode: 'image-image' },
     expected: 'addition image-image',
     expectedSlug: 'addition-image-image'
+  },
+  // variant_id disambiguator branch per §11 future-arc-candidate promotion.
+  {
+    label: 'variant_id disambiguates themeless single-mode app (math-worksheet wave)',
+    manifest: { exercise_type: 'math-worksheet', variant_id: '001' },
+    expected: 'math-worksheet 001',
+    expectedSlug: 'math-worksheet-001'
+  },
+  {
+    label: 'variant_id disambiguates within mode group (prepositions multiplechoice)',
+    manifest: { exercise_type: 'prepositions', exercise_mode: 'multiplechoice', variant_id: '047' },
+    expected: 'prepositions multiplechoice 047',
+    expectedSlug: 'prepositions-multiplechoice-047'
+  },
+  {
+    label: 'variant_id appends after theme (full theme+mode+variant shape)',
+    manifest: { exercise_type: 'addition', exercise_mode: 'find-addend', theme: 'animals', variant_id: '012' },
+    expected: 'addition find-addend animals 012',
+    expectedSlug: 'addition-find-addend-animals-012'
+  },
+  {
+    label: 'variant_id null is no-op (backwards-compatible)',
+    manifest: { exercise_type: 'addition', exercise_mode: 'image-image', theme: 'animals', variant_id: null },
+    expected: 'addition image-image animals',
+    expectedSlug: 'addition-image-image-animals'
+  },
+  {
+    label: 'variant_id empty string is no-op (defensive)',
+    manifest: { exercise_type: 'wordsearch', variant_id: '' },
+    expected: 'wordsearch',
+    expectedSlug: 'wordsearch'
+  },
+  {
+    label: 'variant_id whitespace-only is no-op (defensive)',
+    manifest: { exercise_type: 'wordsearch', variant_id: '   ' },
+    expected: 'wordsearch',
+    expectedSlug: 'wordsearch'
   }
 ];
 

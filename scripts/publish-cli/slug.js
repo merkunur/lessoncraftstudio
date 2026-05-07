@@ -172,6 +172,17 @@ function deriveSeedFromManifest(manifest) {
   if (manifest.exercise_type) parts.push(manifest.exercise_type);
   if (manifest.exercise_mode) parts.push(manifest.exercise_mode);
   if (manifest.theme) parts.push(manifest.theme);
+  // Optional disambiguator per §11 future-arc-candidate "Manifest-disambiguator-field
+  // for fresh-roll-variation slug shape" — promoted to active doctrine on the 345-en-wave
+  // (2nd recurrence at scale of the fresh-roll collision pattern). When present, appends
+  // a per-deck identifier so otherwise-identical (type, mode, theme) tuples produce
+  // unique slugs without numeric -2/-3 auto-suffixes (anti-pattern per §17.8.5).
+  // Backwards-compatible: manifests without variant_id slug exactly as before.
+  // The salvage script scripts/publish-cli/add-variant-ids.js (§15.17 pattern) is the
+  // canonical recovery path that injects this field for collision waves.
+  if (manifest.variant_id != null && String(manifest.variant_id).trim() !== '') {
+    parts.push(String(manifest.variant_id).trim());
+  }
   return parts.join(' ');
 }
 

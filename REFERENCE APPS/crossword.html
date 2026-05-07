@@ -3622,6 +3622,11 @@ document.addEventListener("DOMContentLoaded", function() {
             words: words,
             clues: clues,
             imageRefs: {},
+            seoMeta: {
+                themeName: (window.LCSCatalogExport && window.LCSCatalogExport.deriveThemeName)
+                    ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('worksheetThemeSelect') })
+                    : null
+            },
             attribution: attributionRect ? {
                 text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
                 url: (window.LCSAttribution && LCSAttribution.URL) || 'https://lessoncraftstudio.com',

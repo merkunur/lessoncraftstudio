@@ -4281,7 +4281,9 @@ async function downloadPDF(canvasToExport, fileName, opts) {
         var seoMeta = {
             exerciseTypeSlug: 'wordsearch',
             exerciseTypeName: canvas.lcsLocalizedTitle || 'Word Search',
-            themeName: null, // wordsearch doesn't expose a theme select
+            themeName: (window.LCSCatalogExport && window.LCSCatalogExport.deriveThemeName)
+                ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('worksheetThemeSelect'), customMode: (typeof customWordListMode !== 'undefined' && customWordListMode === true) })
+                : null,
             instruction: canvas.lcsLocalizedInstruction || '',
             worksheetWord: _t('worksheet') || 'Worksheet',
             freeInteractive: _t('seoFreeInteractive') || 'Free interactive',
@@ -4983,8 +4985,8 @@ async function downloadPDF(canvasToExport, fileName, opts) {
         captureValue('allowDiagonalToggle', 'allow_diagonal');
         captureValue('allowReverseToggle', 'allow_reverse');
         captureValue('grayscaleToggle', 'grayscale');
-        var theme = (typeof themeSelect !== 'undefined' && themeSelect && themeSelect.value !== 'all')
-            ? themeSelect.value
+        var theme = (typeof worksheetThemeSelect !== 'undefined' && worksheetThemeSelect && worksheetThemeSelect.value && worksheetThemeSelect.value !== 'all' && worksheetThemeSelect.value !== 'random_auto')
+            ? worksheetThemeSelect.value
             : null;
         return {
             settings: settings,

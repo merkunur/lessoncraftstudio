@@ -3625,6 +3625,11 @@ document.addEventListener('DOMContentLoaded', () => {
             items: itemsWithImages,
             bins: bins,
             imageRefs: {},
+            seoMeta: {
+                themeName: (window.LCSCatalogExport && window.LCSCatalogExport.deriveThemeName)
+                    ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('leftCategoryThemeSelect'), skipValues: ['', 'all', 'random_auto', 'manual', 'custom'] })
+                    : null
+            },
             attribution: attributionRect ? {
                 text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
                 url: (window.LCSAttribution && LCSAttribution.URL) || 'https://lessoncraftstudio.com',
@@ -4336,7 +4341,14 @@ document.addEventListener('DOMContentLoaded', () => {
         capture('grayscaleToggle', 'grayscale');
         return {
             settings: settings,
-            theme: null,
+            theme: (function(){
+                var lv = leftCategoryThemeSelect && leftCategoryThemeSelect.value;
+                var rv = rightCategoryThemeSelect && rightCategoryThemeSelect.value;
+                if (!lv || !rv) return null;
+                if (lv === MANUAL_MODE_VALUE || lv === CUSTOM_MODE_VALUE) return null;
+                if (rv === MANUAL_MODE_VALUE || rv === CUSTOM_MODE_VALUE) return null;
+                return lv + '-vs-' + rv;
+            })(),
             images_used: imagesUsed,
             vocabulary: [],
             exercises: Array.isArray(pd.items) ? pd.items : []

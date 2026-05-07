@@ -4470,6 +4470,11 @@
                       imageKeyMap: imageKeyMap
                   };
               }),
+              seoMeta: {
+                  themeName: (window.LCSCatalogExport && window.LCSCatalogExport.deriveThemeName)
+                      ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('worksheetImageTheme') })
+                      : null
+              },
               attribution: attributionRect ? {
                   text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
                   url: (window.LCSAttribution && LCSAttribution.URL) || 'https://lessoncraftstudio.com',

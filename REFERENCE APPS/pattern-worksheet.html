@@ -4616,6 +4616,11 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf', opts) {
                 sourceSlots: sourceSlots,
                 problems: rewrittenPuzzles,
                 imageRefs: imageRefs,
+                seoMeta: {
+                    themeName: (window.LCSCatalogExport && window.LCSCatalogExport.deriveThemeName)
+                        ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('themeSelect') })
+                        : null
+                },
                 attribution: attributionRect ? {
                     text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
                     url: (window.LCSAttribution && LCSAttribution.URL) || 'https://lessoncraftstudio.com',

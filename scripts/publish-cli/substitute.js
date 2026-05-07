@@ -31,7 +31,14 @@ var i18n = require('./i18n');
 var taxonomy = require('./taxonomy');
 var slugMod = require('./slug');
 
-var CANONICAL_URL_BASE = 'https://lessoncraftstudio.com';
+// www. form per CLAUDE.md §A.10. The apex variant 301-redirects to www at
+// nginx layer, but that redirect breaks the embed iframe's auto-resize:
+// the postMessage URL check rejects the resize message because location.href
+// (www after redirect) ≠ f.src (apex from embed snippet) — iframe stays at
+// default aspect-ratio:800/1400 producing visible bottom whitespace for
+// sparse-content apps (alphabet-train, prepositions). Using www. form here
+// directly = no redirect = postMessage URLs match = iframe auto-resizes.
+var CANONICAL_URL_BASE = 'https://www.lessoncraftstudio.com';
 
 /**
  * Returns:

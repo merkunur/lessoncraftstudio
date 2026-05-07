@@ -2624,10 +2624,34 @@ document.addEventListener("DOMContentLoaded", function() {
             });
             objects.push(titleText);
 
+            // Theme header (renders above description when a specific theme is selected)
+            const themeInfo = getThemeHeaderInfo();
+            let descTop = headerTop + headerHeight + 5;
+            if (themeInfo) {
+                const themeFontSize = 20;
+                descTop = (headerTop + headerHeight + 5) + themeFontSize + 8;
+                const themeHeader = new fabric.Text(themeInfo.name, {
+                    left: centerX,
+                    top: descTop - themeFontSize - 8,
+                    fontSize: themeFontSize,
+                    fontFamily: 'Quicksand, sans-serif',
+                    fontWeight: '700',
+                    fill: '#495057',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'top',
+                    selectable: true,
+                    editable: true,
+                    isHeaderDesc: true,
+                    isThemeHeader: true
+                });
+                objects.push(themeHeader);
+            }
+
             // Description - compact
             const descText = new fabric.Textbox(description, {
                 left: centerX,
-                top: headerTop + headerHeight + 5,
+                top: descTop,
                 width: maxHeaderWidth - 20,
                 fontSize: 14,
                 fontFamily: 'Quicksand, sans-serif',
@@ -2700,10 +2724,34 @@ document.addEventListener("DOMContentLoaded", function() {
             });
             objects.push(titleText);
 
+            // Theme header (renders above description when a specific theme is selected)
+            const themeInfoP = getThemeHeaderInfo();
+            let descTopP = 190;
+            if (themeInfoP) {
+                const themeFontSize = 28;
+                descTopP = 190 + themeFontSize + 8;
+                const themeHeader = new fabric.Text(themeInfoP.name, {
+                    left: centerX,
+                    top: descTopP - themeFontSize - 8,
+                    fontSize: themeFontSize,
+                    fontFamily: 'Quicksand, sans-serif',
+                    fontWeight: '700',
+                    fill: '#495057',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'top',
+                    selectable: true,
+                    editable: true,
+                    isHeaderDesc: true,
+                    isThemeHeader: true
+                });
+                objects.push(themeHeader);
+            }
+
             // Description text
             const descText = new fabric.Textbox(description, {
                 left: centerX,
-                top: 190,
+                top: descTopP,
                 width: Math.min(450, pageWidth - 150),
                 fontSize: 20,
                 fontFamily: 'Quicksand, sans-serif',
@@ -2721,6 +2769,27 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         return objects;
+    }
+
+    // Helper: returns {name, value} of currently-selected worksheet theme, or null when
+    // theme header should be skipped (custom-word-list mode, empty/all/random/multi-theme).
+    // crossword has TWO theme selects: worksheetThemeSelect (worksheet generator) and themeSelect (image-dictionary browser).
+    // Use worksheetThemeSelect — the bare themeSelect drives the dictionary panel, not the worksheet.
+    // Inlined per app per CLAUDE.md §14.3a 4th-consumer threshold.
+    function getThemeHeaderInfo() {
+        try {
+            if (typeof customWordListMode !== 'undefined' && customWordListMode === true) return null;
+            const sel = (typeof worksheetThemeSelect !== 'undefined') ? worksheetThemeSelect : null;
+            if (!sel || !sel.value || sel.value === '' || sel.value === 'all' || sel.value === 'random_auto') return null;
+            if (typeof sel.value === 'string' && sel.value.indexOf(',') !== -1) return null;
+            const opt = sel.options && sel.options[sel.selectedIndex];
+            if (!opt) return null;
+            const name = (opt.text || '').trim();
+            if (!name) return null;
+            return { name: name, value: sel.value };
+        } catch (e) {
+            return null;
+        }
     }
 
     function createPageBorder(canvas) {

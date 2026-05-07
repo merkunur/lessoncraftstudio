@@ -1155,7 +1155,7 @@
                         <div class="grid-inputs">
                             <div>
                                 <label for="rows" data-translate="rows">Rows:</label>
-                                <input type="number" id="rows" min="5" max="30" value="12" />
+                                <input type="number" id="rows" min="5" max="30" value="10" />
                             </div>
                             <div>
                                 <label for="cols" data-translate="columns">Columns:</label>
@@ -2206,7 +2206,7 @@ document.addEventListener("DOMContentLoaded", function() {
             // Set default settings for initial worksheet
             const defaultInitTheme = (dbThemeWhitelist && dbThemeWhitelist.length > 0) ? dbThemeWhitelist[0] : 'animals';
             worksheetThemeSelect.value = defaultInitTheme;
-            rowsInput.value = 12;
+            rowsInput.value = 10;
             colsInput.value = 12;
             allowDiagonalInput.checked = true;
             allowReverseWordsInput.checked = false;
@@ -2383,7 +2383,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 showMessage(t('themeNeedsMinImages', {value: `${themeName}' needs at least ${MIN_THEME_IMAGES}`}), 'error');
                 return null;
             }
-            sourceImages = shuffleArray(themeImages).slice(0, numWords);
+            // Specific-theme mode: operator-locked at 6 words (vs the random
+            // count used for 'all' / 'random_auto' modes). Per-operator request
+            // — predictable layout for themed wordsearches.
+            const isSpecificTheme = selectedWorksheetTheme !== 'all';
+            const sliceCount = isSpecificTheme ? 6 : numWords;
+            sourceImages = shuffleArray(themeImages).slice(0, sliceCount);
         } else if (userSelectedImages.length > 0) {
             sourceImages = [...userSelectedImages];
         } else { // Random theme
@@ -2802,16 +2807,20 @@ document.addEventListener("DOMContentLoaded", function() {
         // Determine if landscape or portrait
         const isLandscape = pageWidth > pageHeight;
         
-        // Calculate optimal grid size based on page orientation and word count (30% bigger)
+        // Calculate optimal grid size based on page orientation and word count
+        // Multiplier 1.95 = original (1.0) × 30% bigger (1.3) × 50% bigger (1.5) per
+        // operator iteration. The 50%-bigger pass was applied on top of the prior
+        // 30%-bigger baseline (operator: "increase the size of the grid by 50 percent"
+        // referring to current size, not original).
         const wordsCount = placedWordsInfo.length;
         let gridTargetSize;
 
         if (isLandscape) {
             // Landscape: grid on left, word list on right
-            gridTargetSize = Math.min(usableHeight * 0.8, usableWidth * 0.5) * 1.3;
+            gridTargetSize = Math.min(usableHeight * 0.8, usableWidth * 0.5) * 1.95;
         } else {
             // Portrait: grid on top, word list below
-            gridTargetSize = Math.min(usableWidth * 0.9, usableHeight * 0.5) * 1.3;
+            gridTargetSize = Math.min(usableWidth * 0.9, usableHeight * 0.5) * 1.95;
         }
         
         // Ensure grid fits with proper aspect ratio
@@ -2956,14 +2965,29 @@ document.addEventListener("DOMContentLoaded", function() {
         // Calculate word list layout based on orientation
         let listLeft, listTop, listWidth, listHeight;
         let itemsPerRow, itemsPerCol;
-        
+
+        // Clamp the word-list bottom so the last word's bottom edge sits exactly
+        // 10px above the page border's INNER edge per operator request. The page
+        // border (createHeaderGroup() at the outerBorder fabric.Rect above) is
+        // at margin=34 with strokeWidth=8 → inner edge at pageHeight - 38. With
+        // 10px gap, max bottom-Y for word list = pageHeight - 48. Compute
+        // listHeight as the room from listTop down to that maxBottom (in canvas
+        // coords). Bottom-of-last-item is naturally < listHeight by the
+        // (1.5N-0.5)/(1.5N) item-spacing math, so the actual gap ends up
+        // 15-25px depending on row count — operator-acceptable approximation.
+        const PAGE_BORDER_INSET_PX = 38;  // border at margin=34 + strokeWidth=8 → inner edge
+        const WORD_BORDER_GAP_PX = 10;
+        const maxWordListBottomY = pageHeight - PAGE_BORDER_INSET_PX - WORD_BORDER_GAP_PX;
+
         if (isLandscape) {
             // Landscape: word list on the right side
             listLeft = puzzleGridGroup.width + usableWidth * 0.05; // 5% gap
             listTop = 0;
             listWidth = usableWidth - puzzleGridGroup.width - usableWidth * 0.05;
-            listHeight = usableHeight;
-            
+            // Items position absolute-Y = marginY + row * itemHeight*1.5 + textTopOffset
+            // → max-bottom-Y constraint: listHeight ≤ maxWordListBottomY - marginY
+            listHeight = Math.max(0, maxWordListBottomY - marginY);
+
             // Calculate optimal grid for word items
             itemsPerCol = Math.ceil(Math.sqrt(wordsToDisplay.length * (listHeight / listWidth)));
             itemsPerRow = Math.ceil(wordsToDisplay.length / itemsPerCol);
@@ -2972,8 +2996,10 @@ document.addEventListener("DOMContentLoaded", function() {
             listLeft = 0;
             listTop = puzzleGridGroup.height + usableHeight * 0.05; // 5% gap
             listWidth = usableWidth;
-            listHeight = usableHeight - puzzleGridGroup.height - usableHeight * 0.05;
-            
+            // Items position absolute-Y = marginY + totalGridHeight + usableHeight*0.05 + row*itemHeight*1.5 + textTopOffset
+            // → max-bottom-Y constraint: listHeight ≤ maxWordListBottomY - (marginY + totalGridHeight + usableHeight*0.05)
+            listHeight = Math.max(0, maxWordListBottomY - (marginY + puzzleGridGroup.height + usableHeight * 0.05));
+
             // Calculate optimal grid for word items
             itemsPerRow = Math.min(4, Math.ceil(Math.sqrt(wordsToDisplay.length)));
             itemsPerCol = Math.ceil(wordsToDisplay.length / itemsPerRow);

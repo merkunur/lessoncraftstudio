@@ -2760,13 +2760,15 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Helper: returns {name, value} of currently-selected theme, or null when
-    // theme header should be skipped (custom-word-list mode, empty/all/multi-theme).
+    // theme header should be skipped (custom-word-list mode, empty/all/random/multi-theme).
+    // wordsearch has TWO theme selects: worksheetThemeSelect (worksheet generator) and themeSelect (image-dictionary browser).
+    // Use worksheetThemeSelect — the bare themeSelect drives the dictionary panel, not the worksheet.
     // Inlined per app per CLAUDE.md §14.3a 4th-consumer threshold.
     function getThemeHeaderInfo() {
         try {
             if (typeof customWordListMode !== 'undefined' && customWordListMode === true) return null;
-            const sel = (typeof ui !== 'undefined' && ui && ui.themeSelect) ? ui.themeSelect : (typeof themeSelect !== 'undefined' ? themeSelect : null);
-            if (!sel || !sel.value || sel.value === '' || sel.value === 'all') return null;
+            const sel = (typeof worksheetThemeSelect !== 'undefined') ? worksheetThemeSelect : null;
+            if (!sel || !sel.value || sel.value === '' || sel.value === 'all' || sel.value === 'random_auto') return null;
             if (typeof sel.value === 'string' && sel.value.indexOf(',') !== -1) return null;
             const opt = sel.options && sel.options[sel.selectedIndex];
             if (!opt) return null;

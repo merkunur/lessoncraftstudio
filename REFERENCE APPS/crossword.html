@@ -975,23 +975,62 @@
                     <button class="accordion-button active" data-translate="crossword">Image Crossword</button>
                     <div class="accordion-wrapper" style="display: block;">
                         <h4 data-translate="selectLanguage">Select Language</h4>
-                        <label for="languageSelect" data-translate="imageLibraryLanguage">Image Library Language:</label>
-                        <select id="languageSelect">
-                            <option value="en" data-translate="language.english">English</option>
-                            <option value="de" data-translate="language.german">Deutsch</option>
-                            <option value="fr" data-translate="language.french">Français</option>
-                            <option value="es" data-translate="language.spanish">Español</option>
-                            <option value="pt" data-translate="language.portuguese">Português</option>
-                            <option value="it" data-translate="language.italian">Italiano</option>
-                            <option value="nl" data-translate="language.dutch">Nederlands</option>
-                            <option value="sv" data-translate="language.swedish">Svenska</option>
-                            <option value="da" data-translate="language.danish">Dansk</option>
-                            <option value="no" data-translate="language.norwegian">Norsk</option>
-                            <option value="fi" data-translate="language.finnish">Suomi</option>
-                        </select>
-                        <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate="language.note">
-                            Image names and themes will be displayed in the selected language.
-                        </p>
+                        <div id="singleLanguageWrap">
+                            <label for="languageSelect" data-translate="imageLibraryLanguage">Image Library Language:</label>
+                            <select id="languageSelect">
+                                <option value="en" data-translate="language.english">English</option>
+                                <option value="de" data-translate="language.german">Deutsch</option>
+                                <option value="fr" data-translate="language.french">Français</option>
+                                <option value="es" data-translate="language.spanish">Español</option>
+                                <option value="pt" data-translate="language.portuguese">Português</option>
+                                <option value="it" data-translate="language.italian">Italiano</option>
+                                <option value="nl" data-translate="language.dutch">Nederlands</option>
+                                <option value="sv" data-translate="language.swedish">Svenska</option>
+                                <option value="da" data-translate="language.danish">Dansk</option>
+                                <option value="no" data-translate="language.norwegian">Norsk</option>
+                                <option value="fi" data-translate="language.finnish">Suomi</option>
+                            </select>
+                            <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate="language.note">
+                                Image names and themes will be displayed in the selected language.
+                            </p>
+                        </div>
+                        <label for="languageMixModeCheckbox" class="checkbox-label" style="margin-top:10px;">
+                            <input type="checkbox" id="languageMixModeCheckbox" />
+                            <span data-translate="crossword.languageMixMode">Language Mix Mode</span>
+                        </label>
+                        <div id="mixModeLanguagesWrap" style="display:none; margin-top:8px;">
+                            <label for="gridLanguageSelect" data-translate="crossword.gridLanguage">Grid Language (where letters are placed):</label>
+                            <select id="gridLanguageSelect">
+                                <option value="en" data-translate="language.english">English</option>
+                                <option value="de" data-translate="language.german">Deutsch</option>
+                                <option value="fr" data-translate="language.french">Français</option>
+                                <option value="es" data-translate="language.spanish">Español</option>
+                                <option value="pt" data-translate="language.portuguese">Português</option>
+                                <option value="it" data-translate="language.italian">Italiano</option>
+                                <option value="nl" data-translate="language.dutch">Nederlands</option>
+                                <option value="sv" data-translate="language.swedish">Svenska</option>
+                                <option value="da" data-translate="language.danish">Dansk</option>
+                                <option value="no" data-translate="language.norwegian">Norsk</option>
+                                <option value="fi" data-translate="language.finnish">Suomi</option>
+                            </select>
+                            <label for="clueLanguageSelect" data-translate="crossword.clueLanguage" style="margin-top:8px;">Clue Language (word labels and instructions):</label>
+                            <select id="clueLanguageSelect">
+                                <option value="en" data-translate="language.english">English</option>
+                                <option value="de" data-translate="language.german">Deutsch</option>
+                                <option value="fr" data-translate="language.french">Français</option>
+                                <option value="es" data-translate="language.spanish">Español</option>
+                                <option value="pt" data-translate="language.portuguese">Português</option>
+                                <option value="it" data-translate="language.italian">Italiano</option>
+                                <option value="nl" data-translate="language.dutch">Nederlands</option>
+                                <option value="sv" data-translate="language.swedish">Svenska</option>
+                                <option value="da" data-translate="language.danish">Dansk</option>
+                                <option value="no" data-translate="language.norwegian">Norsk</option>
+                                <option value="fi" data-translate="language.finnish">Suomi</option>
+                            </select>
+                            <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate="crossword.mixModeNote">
+                                Letters in the grid will spell words in the grid language. Word labels under picture clues, title, and instruction will be in the clue language.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 
@@ -1510,6 +1549,16 @@ document.addEventListener("DOMContentLoaded", function() {
                 window.currentLocale = newLocale;
                 console.log('Image library language changed to:', currentLocale);
 
+                // Sync mix-mode dropdowns + state to follow the single picker.
+                // Uses window globals to dodge any TDZ surprises (mirrors
+                // wordsearch's Language Mix Mode pattern at d0cf97a3).
+                window.currentGridLocale = newLocale;
+                window.currentClueLocale = newLocale;
+                var _g = document.getElementById('gridLanguageSelect');
+                var _c = document.getElementById('clueLanguageSelect');
+                if (_g) _g.value = newLocale;
+                if (_c) _c.value = newLocale;
+
                 // DO NOT reload page - UI language is controlled by header selector
                 // Clear image cache and reload with new locale
                 allImagesCache = {};
@@ -1523,6 +1572,72 @@ document.addEventListener("DOMContentLoaded", function() {
                 const url = new URL(window.location);
                 url.searchParams.set('content', newLocale);
                 window.history.replaceState({}, '', url);
+            });
+        }
+
+        // === Language Mix Mode wiring (operator commission 2026-05-08) ===
+        //
+        // Mirrors wordsearch's Language Mix Mode (commit d0cf97a3 + 6ea48c3c
+        // audit). Grid letters in currentGridLocale; clue word labels + title
+        // + instruction in currentClueLocale. Window-global state to avoid
+        // TDZ-class surprises across the multi-thousand-line scope.
+        const languageMixModeCheckbox = getEl('languageMixModeCheckbox');
+        const gridLanguageSelect = getEl('gridLanguageSelect');
+        const clueLanguageSelect = getEl('clueLanguageSelect');
+        const singleLanguageWrap = getEl('singleLanguageWrap');
+        const mixModeLanguagesWrap = getEl('mixModeLanguagesWrap');
+
+        let mixModeEnabled = false;
+        let currentGridLocale = currentLocale;
+        let currentClueLocale = currentLocale;
+        window.mixModeEnabled = mixModeEnabled;
+        window.currentGridLocale = currentGridLocale;
+        window.currentClueLocale = currentClueLocale;
+
+        function applyMixModeUI() {
+            if (!singleLanguageWrap || !mixModeLanguagesWrap) return;
+            if (mixModeEnabled) {
+                singleLanguageWrap.style.display = 'none';
+                mixModeLanguagesWrap.style.display = 'block';
+                currentLocale = currentClueLocale;
+                window.currentLocale = currentLocale;
+            } else {
+                singleLanguageWrap.style.display = 'block';
+                mixModeLanguagesWrap.style.display = 'none';
+                if (languageSelect) {
+                    currentLocale = languageSelect.value;
+                    window.currentLocale = currentLocale;
+                }
+            }
+        }
+
+        if (languageMixModeCheckbox) {
+            languageMixModeCheckbox.addEventListener('change', function() {
+                mixModeEnabled = this.checked;
+                window.mixModeEnabled = mixModeEnabled;
+                applyMixModeUI();
+                allImagesCache = {};
+                if (typeof loadThemes === 'function') loadThemes();
+            });
+        }
+        if (gridLanguageSelect) {
+            gridLanguageSelect.value = currentLocale;
+            gridLanguageSelect.addEventListener('change', function() {
+                currentGridLocale = this.value;
+                window.currentGridLocale = currentGridLocale;
+            });
+        }
+        if (clueLanguageSelect) {
+            clueLanguageSelect.value = currentLocale;
+            clueLanguageSelect.addEventListener('change', function() {
+                currentClueLocale = this.value;
+                window.currentClueLocale = currentClueLocale;
+                if (mixModeEnabled) {
+                    currentLocale = currentClueLocale;
+                    window.currentLocale = currentLocale;
+                    allImagesCache = {};
+                    if (typeof loadThemes === 'function') loadThemes();
+                }
             });
         }
 
@@ -2422,7 +2537,29 @@ document.addEventListener("DOMContentLoaded", function() {
             }
             sourceImages = shuffleArray(userSelectedImages).slice(0, PUZZLE_IMAGE_COUNT);
         }
-        
+
+        // Mix-mode word splitting (per operator commission 2026-05-08, mirrors
+        // wordsearch d0cf97a3): rewrite each sourceImage with .word = grid-
+        // language singular form (used for grid placement) and attach .clueWord
+        // = clue-language singular form (used for picture-clue label).
+        // BOTH forms derived via ImageVocab.singular(key, locale) per
+        // CLAUDE.md §6 canonical 11-language vocabulary (the /api/images
+        // response is not reliably localized in dev). Single-language mode
+        // path unchanged: .word stays as fetched, no .clueWord attached.
+        if (window.mixModeEnabled && window.ImageVocab && typeof window.ImageVocab.keyFromPath === 'function') {
+            sourceImages = sourceImages.map(function (img) {
+                var vocabKey = window.ImageVocab.keyFromPath(img.path || '');
+                var gridForm = vocabKey ? window.ImageVocab.singular(vocabKey, window.currentGridLocale) : null;
+                var clueForm = vocabKey ? window.ImageVocab.singular(vocabKey, window.currentClueLocale) : null;
+                var fallback = img.editedName || img.name || img.word;
+                return Object.assign({}, img, {
+                    word: gridForm || fallback,        // grid-lang for placement
+                    name: gridForm || fallback,        // grid-lang for downstream filters
+                    clueWord: clueForm || fallback     // clue-lang for picture-clue label
+                });
+            });
+        }
+
         let words = sourceImages.map(i => i.word.replace(/\s+/g, '').toUpperCase());
         // Shuffle words first to ensure different layouts each time, then sort by length for better placement
         words = shuffleArray(words);
@@ -2519,24 +2656,64 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function createHeaderGroup(canvas) {
+        // mixDescription: instruction template used when language-mix mode is ON.
+        // {gridLang} placeholder is substituted via GRID_LANG_NAMES_IN[clueLocale][gridLocale].
+        // Title is unchanged in mix-mode (operator commission 2026-05-08; mirrors
+        // wordsearch d0cf97a3 + 6ea48c3c audit). Crossword's instruction emphasizes
+        // "write the words" since the kid fills letters into the grid.
         const defaultHeaders = {
-            en: { title: 'Picture Crossword', description: 'Look at the pictures and fill in the words!' },
-            de: { title: 'Bilderkreuzworträtsel', description: 'Schau die Bilder an und fülle die Wörter aus!' },
-            fr: { title: 'Mots Croisés en Images', description: 'Regarde les images et trouve les mots!' },
-            es: { title: 'Crucigrama con Dibujos', description: '¡Mira los dibujos y escribe las palabras!' },
-            it: { title: 'Cruciverba con Immagini', description: 'Guarda le immagini e scrivi le parole!' },
-            pt: { title: 'Palavras Cruzadas', description: 'Vê as imagens e escreve as palavras!' },
-            nl: { title: 'Plaatjes Kruiswoord', description: 'Kijk naar de plaatjes en vul de woorden in!' },
-            sv: { title: 'Bildkorsord', description: 'Titta på bilderna och skriv orden!' },
-            da: { title: 'Billedkrydsord', description: 'Se på billederne og skriv ordene!' },
-            no: { title: 'Bildekryssord', description: 'Se på bildene og skriv ordene!' },
-            fi: { title: 'Kuvaristikko', description: 'Katso kuvia ja kirjoita sanat!' }
+            en: { title: 'Picture Crossword',         description: 'Look at the pictures and fill in the words!',          mixDescription: 'Look at the pictures and write the words in {gridLang}!' },
+            de: { title: 'Bilderkreuzworträtsel',     description: 'Schau die Bilder an und fülle die Wörter aus!',         mixDescription: 'Schau die Bilder an und schreibe die Wörter auf {gridLang}!' },
+            fr: { title: 'Mots Croisés en Images',    description: 'Regarde les images et trouve les mots!',                mixDescription: 'Regarde les images et écris les mots en {gridLang} !' },
+            es: { title: 'Crucigrama con Dibujos',    description: '¡Mira los dibujos y escribe las palabras!',             mixDescription: '¡Mira los dibujos y escribe las palabras en {gridLang}!' },
+            it: { title: 'Cruciverba con Immagini',   description: 'Guarda le immagini e scrivi le parole!',                mixDescription: 'Guarda le immagini e scrivi le parole in {gridLang}!' },
+            pt: { title: 'Palavras Cruzadas',         description: 'Vê as imagens e escreve as palavras!',                  mixDescription: 'Vê as imagens e escreve as palavras em {gridLang}!' },
+            nl: { title: 'Plaatjes Kruiswoord',       description: 'Kijk naar de plaatjes en vul de woorden in!',           mixDescription: 'Kijk naar de plaatjes en schrijf de woorden in het {gridLang}!' },
+            sv: { title: 'Bildkorsord',               description: 'Titta på bilderna och skriv orden!',                    mixDescription: 'Titta på bilderna och skriv orden på {gridLang}!' },
+            da: { title: 'Billedkrydsord',            description: 'Se på billederne og skriv ordene!',                     mixDescription: 'Se på billederne og skriv ordene på {gridLang}!' },
+            no: { title: 'Bildekryssord',             description: 'Se på bildene og skriv ordene!',                        mixDescription: 'Se på bildene og skriv ordene på {gridLang}!' },
+            fi: { title: 'Kuvaristikko',              description: 'Katso kuvia ja kirjoita sanat!',                        mixDescription: 'Katso kuvia ja kirjoita sanat {gridLang}!' }
         };
 
-        const locale = currentLocale || 'en';
+        // 11×11 language-name matrix: GRID_LANG_NAMES_IN[clueLocale][gridLocale].
+        // Web-search verified 2026-05-08 (wordsearch commission 6ea48c3c audit).
+        // Finnish uses translative case (-ksi); other locales use nominative
+        // forms compatible with their preceding preposition. Spanish nl uses
+        // 'holandés' (K-3 register; matches Romance pattern).
+        // NSR-flagged for native-speaker review per CLAUDE.md §17.5.1: sv/da/no/fi
+        // rows + Nordic columns of all rows. See feedback_publish_wave_pre_check_audit.md.
+        const GRID_LANG_NAMES_IN = {
+            en: { en:'English',     de:'German',       fr:'French',       es:'Spanish',     pt:'Portuguese',  it:'Italian',    nl:'Dutch',       sv:'Swedish',    da:'Danish',     no:'Norwegian',  fi:'Finnish' },
+            de: { en:'Englisch',    de:'Deutsch',      fr:'Französisch',  es:'Spanisch',    pt:'Portugiesisch', it:'Italienisch', nl:'Niederländisch', sv:'Schwedisch', da:'Dänisch',    no:'Norwegisch', fi:'Finnisch' },
+            fr: { en:'anglais',     de:'allemand',     fr:'français',     es:'espagnol',    pt:'portugais',   it:'italien',    nl:'néerlandais',  sv:'suédois',    da:'danois',     no:'norvégien',  fi:'finnois' },
+            es: { en:'inglés',      de:'alemán',       fr:'francés',      es:'español',     pt:'portugués',   it:'italiano',   nl:'holandés',     sv:'sueco',      da:'danés',      no:'noruego',    fi:'finlandés' },
+            it: { en:'inglese',     de:'tedesco',      fr:'francese',     es:'spagnolo',    pt:'portoghese',  it:'italiano',   nl:'olandese',     sv:'svedese',    da:'danese',     no:'norvegese',  fi:'finlandese' },
+            pt: { en:'inglês',      de:'alemão',       fr:'francês',      es:'espanhol',    pt:'português',   it:'italiano',   nl:'holandês',     sv:'sueco',      da:'dinamarquês',no:'norueguês',  fi:'finlandês' },
+            nl: { en:'Engels',      de:'Duits',        fr:'Frans',        es:'Spaans',      pt:'Portugees',   it:'Italiaans',  nl:'Nederlands',   sv:'Zweeds',     da:'Deens',      no:'Noors',      fi:'Fins' },
+            sv: { en:'engelska',    de:'tyska',        fr:'franska',      es:'spanska',     pt:'portugisiska',it:'italienska', nl:'nederländska', sv:'svenska',    da:'danska',     no:'norska',     fi:'finska' },
+            da: { en:'engelsk',     de:'tysk',         fr:'fransk',       es:'spansk',      pt:'portugisisk', it:'italiensk',  nl:'hollandsk',    sv:'svensk',     da:'dansk',      no:'norsk',      fi:'finsk' },
+            no: { en:'engelsk',     de:'tysk',         fr:'fransk',       es:'spansk',      pt:'portugisisk', it:'italiensk',  nl:'nederlandsk',  sv:'svensk',     da:'dansk',      no:'norsk',      fi:'finsk' },
+            fi: { en:'englanniksi', de:'saksaksi',     fr:'ranskaksi',    es:'espanjaksi',  pt:'portugaliksi',it:'italiaksi',  nl:'hollanniksi',  sv:'ruotsiksi',  da:'tanskaksi',  no:'norjaksi',   fi:'suomeksi' }
+        };
+
+        // Mix-mode picks clue locale for header text + substitutes grid lang name.
+        // Equality fallback: when grid==clue (or mix-mode off), use the standard
+        // single-language description.
+        const mixOn = !!window.mixModeEnabled
+            && window.currentClueLocale && window.currentGridLocale
+            && window.currentClueLocale !== window.currentGridLocale;
+        const locale = mixOn ? (window.currentClueLocale || 'en') : (currentLocale || 'en');
         const defaults = defaultHeaders[locale] || defaultHeaders.en;
         const title = defaults.title;
-        const description = defaults.description;
+        let description;
+        if (mixOn) {
+            const gridLocaleForName = window.currentGridLocale || 'en';
+            const namesByGrid = GRID_LANG_NAMES_IN[locale] || GRID_LANG_NAMES_IN.en;
+            const gridLangName = namesByGrid[gridLocaleForName] || gridLocaleForName;
+            description = (defaults.mixDescription || defaults.description).replace('{gridLang}', gridLangName);
+        } else {
+            description = defaults.description;
+        }
 
         // Get current canvas dimensions for responsive design
         const pageWidth = currentCanvasConfig.width;
@@ -3336,10 +3513,14 @@ document.addEventListener("DOMContentLoaded", function() {
                         clueNum: p.num
                     });
                 } else {
-                    // Create image clue (traditional)
+                    // Create image clue (traditional). When language-mix mode
+                    // is ON AND the source image has a clueWord (clue-language
+                    // singular), append a word label below the picture so the
+                    // kid sees both the picture AND the word in clue language
+                    // (operator commission 2026-05-08).
                     img.scaleToWidth(clueWidth);
                     const numText = new fabric.Text(p.num.toString(), {
-                        fontSize: Math.floor(clueWidth * 0.25),  // Scale font with image size
+                        fontSize: Math.floor(clueWidth * 0.25),
                         fontFamily: 'Fredoka',
                         originX: 'center',
                         fill: '#333',
@@ -3349,12 +3530,39 @@ document.addEventListener("DOMContentLoaded", function() {
                     const gap = -5;
                     const numHeight = numText.getScaledHeight();
                     const imgHeight = img.getScaledHeight();
-                    totalHeight = numHeight + gap + imgHeight;
+
+                    const clueLabel = (window.mixModeEnabled && imageInfo && imageInfo.clueWord)
+                        ? String(imageInfo.clueWord)
+                        : null;
+
+                    let labelText = null;
+                    let labelHeight = 0;
+                    let labelGap = 0;
+                    if (clueLabel) {
+                        labelText = new fabric.Textbox(clueLabel, {
+                            fontSize: Math.max(10, Math.floor(clueWidth * 0.18)),
+                            fontFamily: 'Fredoka',
+                            fill: '#333',
+                            width: clueWidth,
+                            textAlign: 'center',
+                            originX: 'left',
+                            fontWeight: '500'
+                        });
+                        labelGap = 3;
+                        labelHeight = labelText.getScaledHeight();
+                    }
+
+                    totalHeight = numHeight + gap + imgHeight + labelGap + labelHeight;
 
                     numText.set({ left: clueWidth / 2, top: -totalHeight / 2 });
                     img.set({ top: numText.top + numHeight + gap, left: 0 });
+                    const groupItems = [numText, img];
+                    if (labelText) {
+                        labelText.set({ top: img.top + imgHeight + labelGap, left: 0 });
+                        groupItems.push(labelText);
+                    }
 
-                    clueGroup = new fabric.Group([numText, img], {
+                    clueGroup = new fabric.Group(groupItems, {
                         borderColor: 'var(--app-accent-primary)',
                         cornerColor: 'var(--app-accent-primary)',
                         isCrosswordClue: true,

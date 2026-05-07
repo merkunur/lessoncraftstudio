@@ -2753,24 +2753,93 @@
       function createHeaderGroup(canvas) {
           if (!showHeaderCheckbox.checked) return null;
 
+          // Per-locale instructions keyed by question type. 5 question types: findSmall / findBig / findMed / orderAsc / orderDesc.
+          // Operator-typed headerDescriptionInput.value overrides the per-qType default per the existing override path.
           const defaultHeaders = {
-              en: { title: 'Big or Small?', description: 'Circle the biggest or the smallest item in each box!' },
-              de: { title: 'Groß oder Klein?', description: 'Kreise das größte oder das kleinste Ding in jeder Box ein!' },
-              fr: { title: 'Grand ou Petit?', description: 'Entoure le plus grand ou le plus petit objet dans chaque boîte!' },
-              es: { title: '¿Grande o Pequeño?', description: '¡Encierra en un círculo el objeto más grande o el más pequeño en cada caja!' },
-              it: { title: 'Grande o Piccolo?', description: 'Cerchia l\'oggetto più grande o il più piccolo in ogni riquadro!' },
-              pt: { title: 'Grande ou Pequeno?', description: 'Circule o objeto maior ou o menor em cada caixa!' },
-              nl: { title: 'Groot of Klein?', description: 'Cirkel het grootste of het kleinste voorwerp in elk vakje!' },
-              sv: { title: 'Stort eller Litet?', description: 'Ringa in den största eller den minsta saken i varje ruta!' },
-              da: { title: 'Stort eller Lille?', description: 'Sæt ring om den største eller den mindste ting i hver boks!' },
-              no: { title: 'Stort eller Lite?', description: 'Sett ring rundt den største eller den minste tingen i hver boks!' },
-              fi: { title: 'Iso vai Pieni?', description: 'Ympyröi suurin tai pienin esine jokaisessa ruudussa!' }
+              en: { title: 'Big or Small?', descriptions: {
+                  findSmall: 'Circle the small one in each box!',
+                  findBig:   'Circle the big one in each box!',
+                  findMed:   'Circle the medium one in each box!',
+                  orderAsc:  'Number 1-2-3 from small to big in each box!',
+                  orderDesc: 'Number 1-2-3 from big to small in each box!'
+              } },
+              de: { title: 'Groß oder Klein?', descriptions: {
+                  findSmall: 'Kreise das Kleine in jeder Box ein!',
+                  findBig:   'Kreise das Große in jeder Box ein!',
+                  findMed:   'Kreise das Mittlere in jeder Box ein!',
+                  orderAsc:  'Nummeriere 1-2-3 von klein nach groß in jeder Box!',
+                  orderDesc: 'Nummeriere 1-2-3 von groß nach klein in jeder Box!'
+              } },
+              fr: { title: 'Grand ou Petit?', descriptions: {
+                  findSmall: 'Entoure le petit dans chaque boîte!',
+                  findBig:   'Entoure le grand dans chaque boîte!',
+                  findMed:   'Entoure le moyen dans chaque boîte!',
+                  orderAsc:  'Numérote 1-2-3 du plus petit au plus grand dans chaque boîte!',
+                  orderDesc: 'Numérote 1-2-3 du plus grand au plus petit dans chaque boîte!'
+              } },
+              es: { title: '¿Grande o Pequeño?', descriptions: {
+                  findSmall: '¡Encierra en un círculo el pequeño en cada caja!',
+                  findBig:   '¡Encierra en un círculo el grande en cada caja!',
+                  findMed:   '¡Encierra en un círculo el mediano en cada caja!',
+                  orderAsc:  '¡Numera 1-2-3 de pequeño a grande en cada caja!',
+                  orderDesc: '¡Numera 1-2-3 de grande a pequeño en cada caja!'
+              } },
+              it: { title: 'Grande o Piccolo?', descriptions: {
+                  findSmall: 'Cerchia il piccolo in ogni riquadro!',
+                  findBig:   'Cerchia il grande in ogni riquadro!',
+                  findMed:   'Cerchia il medio in ogni riquadro!',
+                  orderAsc:  'Numera 1-2-3 dal piccolo al grande in ogni riquadro!',
+                  orderDesc: 'Numera 1-2-3 dal grande al piccolo in ogni riquadro!'
+              } },
+              pt: { title: 'Grande ou Pequeno?', descriptions: {
+                  findSmall: 'Circule o pequeno em cada caixa!',
+                  findBig:   'Circule o grande em cada caixa!',
+                  findMed:   'Circule o médio em cada caixa!',
+                  orderAsc:  'Numere 1-2-3 do pequeno ao grande em cada caixa!',
+                  orderDesc: 'Numere 1-2-3 do grande ao pequeno em cada caixa!'
+              } },
+              nl: { title: 'Groot of Klein?', descriptions: {
+                  findSmall: 'Cirkel het kleine voorwerp in elk vakje!',
+                  findBig:   'Cirkel het grote voorwerp in elk vakje!',
+                  findMed:   'Cirkel het middelgrote voorwerp in elk vakje!',
+                  orderAsc:  'Nummer 1-2-3 van klein naar groot in elk vakje!',
+                  orderDesc: 'Nummer 1-2-3 van groot naar klein in elk vakje!'
+              } },
+              sv: { title: 'Stort eller Litet?', descriptions: {
+                  findSmall: 'Ringa in det lilla i varje ruta!',
+                  findBig:   'Ringa in det stora i varje ruta!',
+                  findMed:   'Ringa in det mellanstora i varje ruta!',
+                  orderAsc:  'Numrera 1-2-3 från liten till stor i varje ruta!',
+                  orderDesc: 'Numrera 1-2-3 från stor till liten i varje ruta!'
+              } },
+              da: { title: 'Stort eller Lille?', descriptions: {
+                  findSmall: 'Sæt ring om den lille ting i hver boks!',
+                  findBig:   'Sæt ring om den store ting i hver boks!',
+                  findMed:   'Sæt ring om den mellemstore ting i hver boks!',
+                  orderAsc:  'Nummerér 1-2-3 fra lille til stor i hver boks!',
+                  orderDesc: 'Nummerér 1-2-3 fra stor til lille i hver boks!'
+              } },
+              no: { title: 'Stort eller Lite?', descriptions: {
+                  findSmall: 'Sett ring rundt den lille tingen i hver boks!',
+                  findBig:   'Sett ring rundt den store tingen i hver boks!',
+                  findMed:   'Sett ring rundt den mellomstore tingen i hver boks!',
+                  orderAsc:  'Nummerer 1-2-3 fra liten til stor i hver boks!',
+                  orderDesc: 'Nummerer 1-2-3 fra stor til liten i hver boks!'
+              } },
+              fi: { title: 'Iso vai Pieni?', descriptions: {
+                  findSmall: 'Ympyröi pieni esine jokaisessa ruudussa!',
+                  findBig:   'Ympyröi suuri esine jokaisessa ruudussa!',
+                  findMed:   'Ympyröi keskikokoinen esine jokaisessa ruudussa!',
+                  orderAsc:  'Numeroi 1-2-3 pienimmästä suurimpaan jokaisessa ruudussa!',
+                  orderDesc: 'Numeroi 1-2-3 suurimmasta pienimpään jokaisessa ruudussa!'
+              } }
           };
 
           const locale = currentLocale || 'en';
           const defaults = defaultHeaders[locale] || defaultHeaders.en;
+          const currentQType = (typeof qTypeSelect !== 'undefined' && qTypeSelect && qTypeSelect.value) ? qTypeSelect.value : 'findBig';
           const title = headerTitleInput.value || defaults.title;
-          const description = headerDescriptionInput.value || defaults.description;
+          const description = headerDescriptionInput.value || (defaults.descriptions && defaults.descriptions[currentQType]) || defaults.descriptions.findBig;
 
           // Get current canvas dimensions for responsive design
           const pageWidth = currentCanvasConfig.width;

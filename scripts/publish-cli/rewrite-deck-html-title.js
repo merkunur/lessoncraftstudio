@@ -188,21 +188,33 @@ function processFile(filepath, dryRun) {
     return { file: filepath, action: 'skip-read-error', note: e.message };
   }
 
-  var bundleInfo = extractBundle(html);
-  if (!bundleInfo) {
-    return { file: filepath, action: 'halt-bundle-parse-failed' };
+  // Theme + locale signal: read sibling manifest.json. After §15.17
+  // rewrite-manifest-theme.js salvage, manifest.theme is the canonical theme
+  // signal across all 29 apps regardless of per-app bundle shape variation
+  // (imagePlacements vs top-level vs schema-v3 etc). Fall back to bundle
+  // inspection only if manifest is missing/unparseable.
+  var manifestPath = path.join(path.dirname(filepath), 'manifest.json');
+  var theme = null;
+  var locale = 'en';
+  try {
+    var manifestRaw = fs.readFileSync(manifestPath, 'utf8');
+    var manifest = JSON.parse(manifestRaw);
+    theme = manifest.theme;
+    locale = (manifest.language || 'en').slice(0, 2);
+  } catch (e) {
+    // Manifest missing/unparseable — fall back to bundle inspection (rare;
+    // expected only for hand-edited deck.html files without sibling manifest)
+    var bundleInfo = extractBundle(html);
+    if (!bundleInfo) {
+      return { file: filepath, action: 'halt-bundle-parse-failed' };
+    }
+    var bundle = bundleInfo.bundle;
+    var topLevelTheme = bundle && bundle.theme;
+    var imagePlacements = bundle && bundle.imagePlacements;
+    var firstPlacementTheme = imagePlacements && imagePlacements[0] && imagePlacements[0].theme;
+    theme = topLevelTheme || firstPlacementTheme;
+    locale = (bundle.contentLanguage || 'en').slice(0, 2);
   }
-  var bundle = bundleInfo.bundle;
-  // Theme signal: prefer bundle.theme (top-level) if non-null+non-CUID;
-  // fallback to bundle.imagePlacements[0].theme. App bundle shapes vary:
-  //   - subtraction, more-less, math-puzzle, etc.: top-level bundle.theme
-  //     (CUID-prefixed imageRefs, no imagePlacements array)
-  //   - word-guess, word-scramble, addition: imagePlacements[0].theme
-  //     (image-references-v2 with imagePlacements containing per-image themes)
-  var topLevelTheme = bundle && bundle.theme;
-  var imagePlacements = bundle && bundle.imagePlacements;
-  var firstPlacementTheme = imagePlacements && imagePlacements[0] && imagePlacements[0].theme;
-  var theme = topLevelTheme || firstPlacementTheme;
   if (!theme) {
     return { file: filepath, action: 'skip-themeless' };
   }
@@ -211,7 +223,6 @@ function processFile(filepath, dryRun) {
   if (isCuidLike(theme)) {
     return { file: filepath, action: 'skip-cuid-themeless' };
   }
-  var locale = (bundle.contentLanguage || 'en').slice(0, 2);
   var themeName = deriveThemeName(theme, locale);
   if (!themeName) {
     return { file: filepath, action: 'halt-no-display-name', note: 'theme=' + theme };

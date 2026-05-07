@@ -61,6 +61,39 @@ function titleCaseSnake(s) {
   }).join(' ');
 }
 
+/**
+ * CUID v2 detector: starts with 'c' + 23 lowercase alphanumeric chars (total 24).
+ * Operator-uploaded image-set directories use CUIDs as their dir name. Per
+ * §15.16 themeless-app legitimate-null path: CUID-shaped imagePlacements[0].theme
+ * is NOT a real theme — it's a custom-upload identifier that should be treated
+ * as themeless (no title rewrite, no display name lookup).
+ */
+function isCuidLike(s) {
+  // CUID v1/v2: 'c' prefix + 20-30 lowercase alphanumeric chars. Conservative
+  // bounds catch both common CUID variants without matching real theme slugs
+  // (which max at ~25 chars but are snake_case, not lowercase-alphanumeric).
+  return typeof s === 'string' && /^c[a-z0-9]{20,30}$/.test(s);
+}
+
+/**
+ * Locale-specific "for" word used in deck.html meta description per buildSeoHead.
+ * These match the per-app translations-shared.js seoForWord key. Used as anchor
+ * for description-rewrite when ' for ' (hardcoded English) doesn't match.
+ */
+var FOR_WORD_BY_LOCALE = {
+  en: 'for',
+  de: 'für',
+  es: 'para',
+  nl: 'voor',
+  it: 'per',
+  fr: 'pour',
+  pt: 'para',
+  sv: 'för',
+  da: 'til',
+  no: 'for',
+  fi: 'ikäluokalle'
+};
+
 /** Look up display name; fallback to title-case if missing in taxonomy. */
 function deriveThemeName(themeKey, locale) {
   if (!themeKey) return null;
@@ -117,20 +150,22 @@ function rebuildTitle(oldTitle, themeName) {
 }
 
 /**
- * Rewrite meta description content with theme injected. Anchored on
- * "Worksheet for" (no theme) or "Worksheet (Old) for" (already-themed).
+ * Rewrite meta description content with theme injected. Anchored on the
+ * locale-appropriate "for" word from FOR_WORD_BY_LOCALE per buildSeoHead's
+ * `{forWord}` interpolation point.
  *
  * Returns the new description string or null if not parseable.
  */
-function rebuildDescription(oldDesc, themeName) {
-  // Pattern 1: ' (...) for ' (already has theme parens) — replace contents
-  var withTheme = / \(([^)]+)\) for /;
-  if (withTheme.test(oldDesc)) {
-    return oldDesc.replace(withTheme, ' (' + themeName + ') for ');
+function rebuildDescription(oldDesc, themeName, locale) {
+  var forWord = FOR_WORD_BY_LOCALE[locale] || FOR_WORD_BY_LOCALE.en;
+  // Pattern 1: ' (...) <forWord> ' (already has theme parens) — replace contents
+  var withThemeRe = new RegExp(' \\(([^)]+)\\) ' + forWord + ' ');
+  if (withThemeRe.test(oldDesc)) {
+    return oldDesc.replace(withThemeRe, ' (' + themeName + ') ' + forWord + ' ');
   }
-  // Pattern 2: 'Worksheet for ' (no theme) — insert ' (Theme)' before ' for '
-  // Use first occurrence of ' for ' as the anchor
-  var idx = oldDesc.indexOf(' for ');
+  // Pattern 2: ' <forWord> ' (no theme) — insert ' (Theme)' before ' <forWord> '
+  var anchor = ' ' + forWord + ' ';
+  var idx = oldDesc.indexOf(anchor);
   if (idx === -1) return null;
   return oldDesc.slice(0, idx) + ' (' + themeName + ')' + oldDesc.slice(idx);
 }
@@ -153,6 +188,11 @@ function processFile(filepath, dryRun) {
   if (!theme) {
     return { file: filepath, action: 'skip-themeless' };
   }
+  // CUID-shaped theme = operator-uploaded image set (themeless-app legitimate-null
+  // path per §15.16). Skip — not a real theme.
+  if (isCuidLike(theme)) {
+    return { file: filepath, action: 'skip-cuid-themeless' };
+  }
   var locale = (bundle.contentLanguage || 'en').slice(0, 2);
   var themeName = deriveThemeName(theme, locale);
   if (!themeName) {
@@ -173,11 +213,11 @@ function processFile(filepath, dryRun) {
     return { file: filepath, action: 'skip-already-themed' };
   }
 
-  // Meta description rewrite
+  // Meta description rewrite (locale-aware)
   var descMatch = html.match(META_DESC_RE);
   var newDesc = null;
   if (descMatch) {
-    newDesc = rebuildDescription(descMatch[1], themeName);
+    newDesc = rebuildDescription(descMatch[1], themeName, locale);
     if (!newDesc) return { file: filepath, action: 'halt-desc-unparseable', note: descMatch[1] };
   }
 

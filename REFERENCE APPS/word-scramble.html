@@ -1496,10 +1496,33 @@
                 });
                 objects.push(titleText);
 
+                // Theme header (renders above description when a specific theme is selected)
+                const themeInfo = getThemeHeaderInfo();
+                let descTop = headerTop + headerHeight + 5;
+                if (themeInfo) {
+                    const themeFontSize = 20;
+                    descTop = (headerTop + headerHeight + 5) + themeFontSize + 8;
+                    const themeHeader = new fabric.Text(themeInfo.name, {
+                        left: pageWidth / 2,
+                        top: descTop - themeFontSize - 8,
+                        fontSize: themeFontSize,
+                        fontFamily: 'Quicksand, sans-serif',
+                        fontWeight: '700',
+                        fill: '#555555',
+                        textAlign: 'center',
+                        originX: 'center',
+                        originY: 'top',
+                        selectable: true,
+                        editable: true,
+                        isThemeHeader: true
+                    });
+                    objects.push(themeHeader);
+                }
+
                 // Description - Compact for landscape
                 const descText = new fabric.Textbox(description, {
                     left: pageWidth / 2,
-                    top: headerTop + headerHeight + 5,
+                    top: descTop,
                     width: maxHeaderWidth - 20,
                     fontSize: 14,
                     fontFamily: 'Quicksand, sans-serif',
@@ -1573,10 +1596,33 @@
                 });
                 objects.push(titleText);
 
+                // Theme header (renders above description when a specific theme is selected)
+                const themeInfoP = getThemeHeaderInfo();
+                let descTopP = headerTop + 120;
+                if (themeInfoP) {
+                    const themeFontSize = 28;
+                    descTopP = (headerTop + 120) + themeFontSize + 8;
+                    const themeHeader = new fabric.Text(themeInfoP.name, {
+                        left: pageWidth / 2,
+                        top: descTopP - themeFontSize - 8,
+                        fontSize: themeFontSize,
+                        fontFamily: 'Quicksand, sans-serif',
+                        fontWeight: '700',
+                        fill: '#555555',
+                        textAlign: 'center',
+                        originX: 'center',
+                        originY: 'top',
+                        selectable: true,
+                        editable: true,
+                        isThemeHeader: true
+                    });
+                    objects.push(themeHeader);
+                }
+
                 // Description text
                 const descText = new fabric.Textbox(description, {
                     left: pageWidth / 2,
-                    top: headerTop + 120,
+                    top: descTopP,
                     width: Math.min(450, pageWidth - 150),
                     fontSize: 20,
                     fontFamily: 'Quicksand, sans-serif',
@@ -1594,6 +1640,25 @@
             }
 
             return objects;
+        }
+
+        // Helper: returns {name, value} of currently-selected theme, or null when
+        // theme header should be skipped (custom-word-list mode, empty/all/multi-theme).
+        // Inlined per app per CLAUDE.md §14.3a 4th-consumer threshold.
+        function getThemeHeaderInfo() {
+            try {
+                if (typeof customWordListMode !== 'undefined' && customWordListMode === true) return null;
+                const sel = (typeof ui !== 'undefined' && ui && ui.themeSelect) ? ui.themeSelect : (typeof themeSelect !== 'undefined' ? themeSelect : null);
+                if (!sel || !sel.value || sel.value === '' || sel.value === 'all') return null;
+                if (typeof sel.value === 'string' && sel.value.indexOf(',') !== -1) return null;
+                const opt = sel.options && sel.options[sel.selectedIndex];
+                if (!opt) return null;
+                const name = (opt.text || '').trim();
+                if (!name) return null;
+                return { name: name, value: sel.value };
+            } catch (e) {
+                return null;
+            }
         }
 
         function createPageBorder(canvas) {

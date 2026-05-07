@@ -3145,10 +3145,33 @@
                 });
                 objects.push(titleText);
 
+                // Theme header (renders above description when a specific theme is selected)
+                const themeInfo = getThemeHeaderInfo();
+                let descTop = 150;
+                if (themeInfo) {
+                    const themeFontSize = 20;
+                    descTop = 150 + themeFontSize + 8;
+                    const themeHeader = new fabric.Text(themeInfo.name, {
+                        left: centerX,
+                        top: descTop - themeFontSize - 8,
+                        fontSize: themeFontSize,
+                        fontFamily: 'Quicksand, sans-serif',
+                        fontWeight: '700',
+                        fill: '#6C757D',
+                        textAlign: 'center',
+                        originX: 'center',
+                        originY: 'top',
+                        selectable: true,
+                        editable: true,
+                        isThemeHeader: true
+                    });
+                    objects.push(themeHeader);
+                }
+
                 // Description - Compact for landscape
                 const descText = new fabric.Textbox(description, {
                     left: centerX,
-                    top: 150,
+                    top: descTop,
                     width: headerWidth - 20,
                     fontSize: 14,
                     fontFamily: 'Quicksand, sans-serif',
@@ -3219,10 +3242,33 @@
                 });
                 objects.push(titleText);
 
+                // Theme header (renders above description when a specific theme is selected)
+                const themeInfoP = getThemeHeaderInfo();
+                let descTopP = 190;
+                if (themeInfoP) {
+                    const themeFontSize = 28;
+                    descTopP = 190 + themeFontSize + 8;
+                    const themeHeader = new fabric.Text(themeInfoP.name, {
+                        left: centerX,
+                        top: descTopP - themeFontSize - 8,
+                        fontSize: themeFontSize,
+                        fontFamily: 'Quicksand, sans-serif',
+                        fontWeight: '700',
+                        fill: '#6C757D',
+                        textAlign: 'center',
+                        originX: 'center',
+                        originY: 'top',
+                        selectable: true,
+                        editable: true,
+                        isThemeHeader: true
+                    });
+                    objects.push(themeHeader);
+                }
+
                 // Description text - soft slate for clarity
                 const descText = new fabric.Textbox(description, {
                     left: centerX,
-                    top: 190,
+                    top: descTopP,
                     width: pageWidth - 140,
                     fontSize: 20,
                     fontFamily: 'Quicksand, sans-serif',
@@ -3240,6 +3286,26 @@
             }
 
             return objects;
+        }
+
+        // Helper: returns {name, value} of currently-selected theme, or null when
+        // theme header should be skipped (custom-word-list mode, empty/all/multi-theme).
+        // Inlined per app per CLAUDE.md §14.3a 4th-consumer threshold; promote to
+        // shared if a 4th consumer adopts the pattern.
+        function getThemeHeaderInfo() {
+            try {
+                if (typeof customWordListMode !== 'undefined' && customWordListMode === true) return null;
+                const sel = (typeof ui !== 'undefined' && ui && ui.themeSelect) ? ui.themeSelect : (typeof themeSelect !== 'undefined' ? themeSelect : null);
+                if (!sel || !sel.value || sel.value === '' || sel.value === 'all') return null;
+                if (typeof sel.value === 'string' && sel.value.indexOf(',') !== -1) return null;
+                const opt = sel.options && sel.options[sel.selectedIndex];
+                if (!opt) return null;
+                const name = (opt.text || '').trim();
+                if (!name) return null;
+                return { name: name, value: sel.value };
+            } catch (e) {
+                return null;
+            }
         }
 
         function createPageBorder(canvas) {

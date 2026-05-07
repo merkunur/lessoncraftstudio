@@ -1,0 +1,175 @@
+# Teaching package — compare quantities (more / fewer / equal)
+# Arc 3 Phase 3 numeracy package. more-less app heavy; introduces comparison
+# vocabulary (more / fewer / equal) integrated with quantity comparison.
+
+targetSlug: compare-quantities-more-fewer
+language: en
+
+title:
+  en: "Compare Quantities — more / fewer / equal"
+description:
+  en: "K-Grade 1 numeracy package teaching quantity comparison (which group has more, which has fewer, which are equal). more-less app heavy. Introduces comparison vocabulary (more / fewer / equal) integrated with the quantity-comparison task. 5 exercises + 6 materials over a 1-2 week unit."
+
+durationMinutes: 25
+
+structure:
+  warmup:
+    durationMinutes: 4
+    body: |
+      Whole-class introduction. Teacher holds up two picture-cards with different
+      quantities (e.g., 3 cats vs 5 dogs). "Which has more?" Kids point. Then:
+      "Which has fewer?" Kids point. Cycle through 4-5 pairs. Introduce 'equal'
+      with two cards of same quantity ("These are equal — both have 4 cats").
+  contentActivity:
+    durationMinutes: 10
+    body: |
+      Pocket-chart routine: place two picture-cards side-by-side with sentence
+      strip "There are more {item}" or "There are fewer {item}" or "They are
+      equal." Kids count both groups + complete the sentence. Pair work: kids
+      generate pairs from manipulative-cut-outs and ask each other.
+  scaffold:
+    durationMinutes: 7
+    body: |
+      Station rotation. Station 1: more-less worksheet (image-to-image mode).
+      Station 2: numeral-quantity matching using numeral-cards (extend
+      match-numeral-to-quantity work). Station 3: manipulative-cut-out
+      comparison ("show me a group with more cats than I have").
+  closure:
+    durationMinutes: 4
+    body: |
+      Whole-class share-out. Teacher shows two cards, kids name "more" /
+      "fewer" / "equal." Forward-pointer: "Today we compared quantities. When
+      we come back to comparison next, we'll use the symbols < and > to write
+      it down." Points to adjacent target use-greater-less-equal-symbols.
+
+composedExercises:
+  - appName: more-less
+    exerciseMode: image-image
+    customizationParameters: { comparisonMode: image-to-image, problemCount: 5, themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: more-less
+    exerciseMode: image-number
+    customizationParameters: { comparisonMode: image-to-number, problemCount: 5, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: find-and-count
+    exerciseMode: unified
+    customizationParameters: { gridRows: 5, gridCols: 5, themeSelect: animals, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: chart-count
+    exerciseMode: unified
+    customizationParameters: { languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: more-less
+    exerciseMode: image-image
+    customizationParameters: { comparisonMode: image-to-image, problemCount: 5, themeSelect: fruits, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: numeral-cards
+    customizationParameters:
+      numeralRange: "1-10"
+      showNumberWord: true
+      language: en
+      cardsPerPage: 4
+      paperSize: a4
+      borderStyle: thick
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 10
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: there-are-count-plural
+      imageSource: theme
+      themeName: animals
+      stripCount: 10
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 3
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 40
+      itemSize: medium-1.5in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 4
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 6
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 5
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 6
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: number sense / comparison (target compare-quantities-more-fewer).
+    Secondary strand: counting (counting both groups is required to compare).
+    Tertiary strand: comparative-language vocabulary (more / fewer / equal —
+    integrates with the comparison task; introduces lexical comparators).
+
+curriculumStandards:
+  - CCSS.K.CC.C.6
+  - CCSS.1.NBT.B.3
+  - EYFS.ELG.M
+
+assessmentCriteria:
+  en: |
+    By end of 1-2 week unit:
+      - Identify which of two groups has more / fewer / equal in 8 of 10 trials.
+      - Use comparison vocabulary (more / fewer / equal) productively.
+      - Compare via image-to-number mode (count one group vs. given numeral) in
+        5 of 5 trials.
+
+    Differentiation:
+    - K: image-to-image only; range 1-5.
+    - Grade 1: full range 1-10; image-to-number; introduce 'equal'.
+    - Grade 1+: extend to use-greater-less-equal-symbols (next adjacent target).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

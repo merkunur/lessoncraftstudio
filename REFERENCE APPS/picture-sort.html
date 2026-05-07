@@ -2129,10 +2129,17 @@ document.addEventListener('DOMContentLoaded', () => {
             ...leftItems.map(i => ({ ...i, category: 'left' })),
             ...rightItems.map(i => ({ ...i, category: 'right' }))
         ];
+        // Sourced from each side's dropdown option text — for theme mode this is the localized
+        // theme display name; for manual/custom modes it's the dropdown's option label which the
+        // operator can edit on the canvas (the rendered labels are fabric.IText, isGeneratedItem).
+        const leftOpt  = leftCategoryThemeSelect.options[leftCategoryThemeSelect.selectedIndex];
+        const rightOpt = rightCategoryThemeSelect.options[rightCategoryThemeSelect.selectedIndex];
         return {
             leftImages: finalSelections.filter(i => i.category === 'left'),
             rightImages: finalSelections.filter(i => i.category === 'right'),
             allShuffled: shuffleArray(finalSelections),
+            leftCategoryLabel:  leftOpt  ? (leftOpt.text  || '').trim() : '',
+            rightCategoryLabel: rightOpt ? (rightOpt.text || '').trim() : ''
         };
     }
 
@@ -2189,16 +2196,45 @@ document.addEventListener('DOMContentLoaded', () => {
         const contentWidth = canvasWidth - (MARGIN * 2);
         const contentHeight = canvasHeight - TOP_MARGIN - BOTTOM_MARGIN;
         
-        // Category frames take up top 40% of content area
-        const catFrameWidth = contentWidth / 2;
-        const catFrameHeight = contentHeight * 0.4;
-        const catFrameTop = TOP_MARGIN;
+        // Category frames take up top 40% of content area; reserve a label strip above each frame.
+        const CAT_LABEL_HEIGHT = 30;        // label fontSize 22 + small padding
+        const CAT_LABEL_GAP    = 4;         // gap between label and frame top
+        const catFrameWidth    = contentWidth / 2;
+        const catFrameHeightFull = contentHeight * 0.4;
+        const catFrameTopFull  = TOP_MARGIN;
+        // Push frames down by label-row height so labels sit cleanly above each container.
+        const catFrameHeight   = catFrameHeightFull - CAT_LABEL_HEIGHT - CAT_LABEL_GAP;
+        const catFrameTop      = catFrameTopFull + CAT_LABEL_HEIGHT + CAT_LABEL_GAP;
 
         const leftFrame = createCategoryFrame({left: MARGIN, top: catFrameTop, width: catFrameWidth, height: catFrameHeight});
         const rightFrame = createCategoryFrame({left: MARGIN + catFrameWidth, top: catFrameTop, width: catFrameWidth, height: catFrameHeight});
         leftFrame.set({isGeneratedItem: true, originalIndex: 'frame_left',  isCategoryFrame: true, frameSide: 'left'});
         rightFrame.set({isGeneratedItem: true, originalIndex: 'frame_right', isCategoryFrame: true, frameSide: 'right'});
         worksheetCanvas.add(leftFrame, rightFrame);
+
+        // Category labels — editable IText centered above each frame. isGeneratedItem so they
+        // get cleared on regenerate; originalIndex 'label_left'/'label_right' so transforms are
+        // preserved across regenerates by the existing oldTransforms machinery.
+        const labelTop = catFrameTopFull + CAT_LABEL_HEIGHT / 2;
+        const leftLabel = new fabric.IText(data.leftCategoryLabel || '', {
+            left: MARGIN + catFrameWidth / 2,
+            top: labelTop,
+            fontSize: 22, fontFamily: 'Fredoka, sans-serif', fontWeight: '700', fill: '#444',
+            textAlign: 'center', originX: 'center', originY: 'center',
+            selectable: true, editable: true, hasControls: true,
+            isGeneratedItem: true, originalIndex: 'label_left', isCategoryLabel: true, categorySide: 'left'
+        });
+        const rightLabel = new fabric.IText(data.rightCategoryLabel || '', {
+            left: MARGIN + catFrameWidth + catFrameWidth / 2,
+            top: labelTop,
+            fontSize: 22, fontFamily: 'Fredoka, sans-serif', fontWeight: '700', fill: '#444',
+            textAlign: 'center', originX: 'center', originY: 'center',
+            selectable: true, editable: true, hasControls: true,
+            isGeneratedItem: true, originalIndex: 'label_right', isCategoryLabel: true, categorySide: 'right'
+        });
+        if (oldTransforms['label_left'])  leftLabel.set(oldTransforms['label_left']);
+        if (oldTransforms['label_right']) rightLabel.set(oldTransforms['label_right']);
+        worksheetCanvas.add(leftLabel, rightLabel);
 
         // Cutouts area takes up remaining 55% of content (leaving 5% gap)
         const cutoutsTop = catFrameTop + catFrameHeight + (contentHeight * 0.05);
@@ -2278,8 +2314,20 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
-        const userAddedObjects = solutionCanvas.getObjects().filter(o => !o.isAnswerKeyImage && !o.isAnswerKeyFrame && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement);
-        const objectsToRemove = solutionCanvas.getObjects().filter(o => o.isAnswerKeyImage || o.isAnswerKeyFrame || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderElement);
+        // Save category-label transforms (parallel to frame_left/frame_right) so operator
+        // edits to the answer-key labels survive regenerates.
+        if (preserveTransforms) {
+            solutionCanvas.getObjects().forEach(obj => {
+                if (obj.isCategoryLabel && obj.categorySide) {
+                    oldTransforms[`label_${obj.categorySide}`] = {
+                        left: obj.left, top: obj.top, scaleX: obj.scaleX, scaleY: obj.scaleY, angle: obj.angle, fontSize: obj.fontSize, text: obj.text
+                    };
+                }
+            });
+        }
+
+        const userAddedObjects = solutionCanvas.getObjects().filter(o => !o.isAnswerKeyImage && !o.isAnswerKeyFrame && !o.isCategoryLabel && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement);
+        const objectsToRemove = solutionCanvas.getObjects().filter(o => o.isAnswerKeyImage || o.isAnswerKeyFrame || o.isCategoryLabel || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderElement);
         objectsToRemove.forEach(o => solutionCanvas.remove(o));
 
         const background = worksheetCanvas.getObjects().find(o => o.isBackground);
@@ -2327,23 +2375,28 @@ document.addEventListener('DOMContentLoaded', () => {
         const contentWidth = canvasWidth - (MARGIN * 2);
         const contentHeight = canvasHeight - TOP_MARGIN - BOTTOM_MARGIN;
         
-        const catFrameWidth = contentWidth / 2;
-        const catFrameHeight = contentHeight * 0.7; // Answer key uses more vertical space
-        const catFrameTop = TOP_MARGIN;
-        
+        // Reserve a label strip above each frame (parallel to renderWorksheet so worksheet + answer key align)
+        const SOL_LABEL_HEIGHT = 30;
+        const SOL_LABEL_GAP    = 4;
+        const catFrameWidth    = contentWidth / 2;
+        const catFrameHeightFull = contentHeight * 0.7; // Answer key uses more vertical space
+        const catFrameTopFull  = TOP_MARGIN;
+        const catFrameHeight   = catFrameHeightFull - SOL_LABEL_HEIGHT - SOL_LABEL_GAP;
+        const catFrameTop      = catFrameTopFull + SOL_LABEL_HEIGHT + SOL_LABEL_GAP;
+
         const leftCategory = await createSolutionCategory(data.leftImages, {
-            left: MARGIN, 
-            top: catFrameTop, 
-            width: catFrameWidth, 
+            left: MARGIN,
+            top: catFrameTop,
+            width: catFrameWidth,
             height: catFrameHeight
         }, 'left');
         const rightCategory = await createSolutionCategory(data.rightImages, {
-            left: MARGIN + catFrameWidth, 
-            top: catFrameTop, 
-            width: catFrameWidth, 
+            left: MARGIN + catFrameWidth,
+            top: catFrameTop,
+            width: catFrameWidth,
             height: catFrameHeight
         }, 'right');
-        
+
         // Add frames first (background layer) with saved transforms
         if (oldTransforms['frame_left']) {
             leftCategory.frame.set(oldTransforms['frame_left']);
@@ -2353,6 +2406,28 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         solutionCanvas.add(leftCategory.frame);
         solutionCanvas.add(rightCategory.frame);
+
+        // Category labels — editable IText centered above each frame.
+        const solLabelTop = catFrameTopFull + SOL_LABEL_HEIGHT / 2;
+        const solLeftLabel = new fabric.IText(data.leftCategoryLabel || '', {
+            left: MARGIN + catFrameWidth / 2,
+            top: solLabelTop,
+            fontSize: 22, fontFamily: 'Fredoka, sans-serif', fontWeight: '700', fill: '#444',
+            textAlign: 'center', originX: 'center', originY: 'center',
+            selectable: true, editable: true, hasControls: true,
+            isCategoryLabel: true, categorySide: 'left'
+        });
+        const solRightLabel = new fabric.IText(data.rightCategoryLabel || '', {
+            left: MARGIN + catFrameWidth + catFrameWidth / 2,
+            top: solLabelTop,
+            fontSize: 22, fontFamily: 'Fredoka, sans-serif', fontWeight: '700', fill: '#444',
+            textAlign: 'center', originX: 'center', originY: 'center',
+            selectable: true, editable: true, hasControls: true,
+            isCategoryLabel: true, categorySide: 'right'
+        });
+        if (oldTransforms['label_left'])  solLeftLabel.set(oldTransforms['label_left']);
+        if (oldTransforms['label_right']) solRightLabel.set(oldTransforms['label_right']);
+        solutionCanvas.add(solLeftLabel, solRightLabel);
         
         // Add individual editable images
         leftCategory.images.forEach((img, index) => {

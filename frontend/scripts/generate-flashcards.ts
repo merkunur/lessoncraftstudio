@@ -283,7 +283,7 @@ function writeValidationReadme(args: CliArgs, results: RenderResult[]): void {
 
 ## Locales sampled (${localesIncluded.length})
 
-${localesIncluded.map(l => `- **${l}** — ${l === 'fi' ? 'longest-word + agglutinative + simplified frame' : l === 'de' ? 'long-word stress + gendered articles' : l === 'es' ? 'Romance gendered (un/una)' : l === 'it' ? 'Romance gendered + vowel elision' : l === 'nl' ? 'Germanic uniform article (een)' : l === 'en' ? 'canonical reference' : ''}`).join('\n')}
+${localesIncluded.map(l => `- **${l}** — ${l === 'fi' ? 'longest-word + agglutinative compound stress' : l === 'de' ? 'long-word + Germanic compound stress (e.g., Krankenwagen + Schauspieler)' : l === 'es' ? 'Romance text-length baseline' : l === 'it' ? 'Romance text-length baseline' : l === 'nl' ? 'Germanic short-word baseline' : l === 'en' ? 'canonical reference' : ''}`).join('\n')}
 
 ## Images sampled (${imagesIncluded.length})
 
@@ -307,10 +307,10 @@ Open in browser. Defaults to deck-overview (horizontal-scroll strip). Click any 
 - Keyboard: arrow keys + space (next) + ESC (close)
 - Mobile: swipe left/right; tap close
 
-**Validation focus areas:**
-- Card composition — image + word + sentence layout balance
+**Validation focus areas (post-iteration-2 two-element layout):**
+- Card composition — image + word balance (sentence-frame DROPPED at Phase 4 iteration 2)
 - Theme-color top accent rule visible at top of card
-- Sentence frame: non-italic + curly-quoted + 6% indent + left-rule (NOT italic per Plan-agent review)
+- Word-band legibility — expanded to 30% (was 18%); short words render larger; long-word locales soft-wrap via U+00AD soft-hyphen substrate
 - Cross-locale typography — German/Finnish/Swedish words fit without distortion
 - Touch responsiveness on mobile (test at 375px viewport)
 
@@ -321,17 +321,17 @@ Open in browser. Defaults to deck-overview (horizontal-scroll strip). Click any 
 \`print-9up.pdf\` — secondary take-home pack layout. Smaller cards; verify K-3 readability at intended use distance.
 
 **Validation focus areas:**
-- Card legibility at print scale
+- Card legibility at print scale (word-band 30% gives large word rendering at 6-up)
 - Cut-line guides visible but unobtrusive
 - Color reproduction (theme accent rule + image)
-- Typography crispness (Fredoka + Lexend Deca render correctly)
+- Typography crispness (Fredoka renders correctly; sentence-band Lexend Deca usage no longer in scope)
 - Cross-locale text-length: long words fit within reserved word-band
 
-## Plan-agent independent review (post-Phase-3)
+## Plan-agent independent review (Phase 3 + Phase 4)
 
-Submit batch to Plan-agent (or design-specialist agent if available) for independent review per Pillar 4 spec §Phase 4.
+Plan-agent reviewed at Phase 3 (implementation against Sky+v2 spec). Findings absorbed at iteration 1 (soft-hyphen substrate extension + Sharp palette mode change).
 
-CC adjudicates pass/iterate based on combined operator + agent findings.
+Phase 4 iteration 2 absorbs operator composition revision (sentence-frame drop). No additional Plan-agent review required for the simpler two-element layout — the dropped element was the source of multiple Plan-agent findings (italic concern, scaffolding rule).
 
 ## Iteration cycles
 

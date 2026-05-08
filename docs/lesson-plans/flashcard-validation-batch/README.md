@@ -7,12 +7,12 @@
 
 ## Locales sampled (6)
 
-- **de** — long-word stress + gendered articles
+- **de** — long-word + Germanic compound stress (e.g., Krankenwagen + Schauspieler)
 - **en** — canonical reference
-- **es** — Romance gendered (un/una)
-- **fi** — longest-word + agglutinative + simplified frame
-- **it** — Romance gendered + vowel elision
-- **nl** — Germanic uniform article (een)
+- **es** — Romance text-length baseline
+- **fi** — longest-word + agglutinative compound stress
+- **it** — Romance text-length baseline
+- **nl** — Germanic short-word baseline
 
 ## Images sampled (12)
 
@@ -70,10 +70,10 @@ Open in browser. Defaults to deck-overview (horizontal-scroll strip). Click any 
 - Keyboard: arrow keys + space (next) + ESC (close)
 - Mobile: swipe left/right; tap close
 
-**Validation focus areas:**
-- Card composition — image + word + sentence layout balance
+**Validation focus areas (post-iteration-2 two-element layout):**
+- Card composition — image + word balance (sentence-frame DROPPED at Phase 4 iteration 2)
 - Theme-color top accent rule visible at top of card
-- Sentence frame: non-italic + curly-quoted + 6% indent + left-rule (NOT italic per Plan-agent review)
+- Word-band legibility — expanded to 30% (was 18%); short words render larger; long-word locales soft-wrap via U+00AD soft-hyphen substrate
 - Cross-locale typography — German/Finnish/Swedish words fit without distortion
 - Touch responsiveness on mobile (test at 375px viewport)
 
@@ -84,69 +84,90 @@ Open in browser. Defaults to deck-overview (horizontal-scroll strip). Click any 
 `print-9up.pdf` — secondary take-home pack layout. Smaller cards; verify K-3 readability at intended use distance.
 
 **Validation focus areas:**
-- Card legibility at print scale
+- Card legibility at print scale (word-band 30% gives large word rendering at 6-up)
 - Cut-line guides visible but unobtrusive
 - Color reproduction (theme accent rule + image)
-- Typography crispness (Fredoka + Lexend Deca render correctly)
+- Typography crispness (Fredoka renders correctly; sentence-band Lexend Deca usage no longer in scope)
 - Cross-locale text-length: long words fit within reserved word-band
+
+## Plan-agent independent review (Phase 3 + Phase 4)
+
+Plan-agent reviewed at Phase 3 (implementation against Sky+v2 spec). Findings absorbed at iteration 1 (soft-hyphen substrate extension + Sharp palette mode change).
+
+Phase 4 iteration 2 absorbs operator composition revision (sentence-frame drop). No additional Plan-agent review required for the simpler two-element layout — the dropped element was the source of multiple Plan-agent findings (italic concern, scaffolding rule).
 
 ## Iteration cycles
 
-Maximum 2 iteration cycles before architectural-finding surface per Pillar 4 spec §Phase 4. **Iteration 1 already absorbed pre-surface (see below).**
+Maximum 2 iteration cycles before architectural-finding surface per Pillar 4 spec §Phase 4. **Both iterations consumed pre-second-surface (records below).**
 
 ---
 
-## Plan-agent Phase 3 implementation review (independent design-specialist-equivalent)
+## Iteration log
 
-Plan-agent reviewed the rendered output + pipeline source against Sky+v2 spec.
+### Iteration 1 — Plan-agent findings absorbed (CC-adjudicator-forward, applied 2026-05-08 pre-first-surface)
 
-**Verdict:** Phase 3 implementation substantially faithful to Sky+v2 canonical. 1 blocking-class finding + 7 informational items.
+Plan-agent independent implementation review against Sky+v2 spec surfaced 1 blocking-class finding + 7 informational items.
 
-### Verification points (PASS unless noted)
+**Iteration 1 deltas:**
 
-1. **Sentence-frame italic — PASS.** No `font-style: italic` declarations anywhere; Lexend Deca Regular only. Curly-quote framing + 6% indent + 1px left-rule all present.
-2. **Soft-hyphen substrate — INITIAL GAP, NOW CLOSED.**
-   - First-pass substrate covered ambulance.fi/sv but missed German validation-batch words.
-   - Iteration absorbed: extended SOFT_HYPHENS for `ambulance.de`, `airplane.de`, `actor.de`, `strawberry.de`, `elephant.de`, `hexagon.de`. Re-rendered de deliverables.
-   - Verification: `de/deck.html` now emits `Kranken­wagen`, `Flug­zeug`, `Schau­spieler` with U+00AD soft-hyphen markers correctly placed at morpheme boundaries.
-3. **Modal-as-primary architecture — PASS** (with operator-ratification informational note).
-   - Architecture is correct: modal hidden by default, click-from-deck-overview opens modal, single-card focus when open.
-   - Pragmatic UX: deck-overview is the landing state (visible scroll strip); modal triggers on click.
-   - Plan-agent finding: this is "honestly the better K-3 UX" — discoverability via strip + focus via modal. CC adjudicates current behavior is acceptable; no change.
-4. **Print PDF structure — PASS.** A4 + 10mm margins; page-break-after correctly set; cut-line guides at every card corner; clamp() chromium-supported.
-5. **clamp() math at 6-up A4 — PASS.** `Krankenwagen` (12 chars) at 14pt floor fits with ~37% margin in 60mm card. Caveat at 9-up resolved by Phase 3 iteration soft-hyphen extension.
-6. **Theme-color accent rule — PASS.** Verified animals/cat → `#4caf50` green and body parts/ankle → `#ec407a` pink in de/deck.html source.
-7. **Implementation gaps not flagged at Phase 1 — mostly PASS.** Image alt text + aria-modal + lang attributes — all present. Sharp PNG palette quantization concern absorbed (palette:true → palette:false; trades file size for K-3 quality bar).
+1. **SOFT_HYPHENS extension** (`frontend/scripts/lib/flashcard-data.ts`) — first-pass substrate covered ambulance.fi/sv but missed German validation-batch words. Without the extension, validation batch wouldn't actually exercise the substrate's behavior on the locale most needing it (de at K-3 reading distance with 12+char compounds). Added 6 entries:
+   - `ambulance.de = 'Kranken­wagen'`
+   - `airplane.de + sv + fi`
+   - `actor.de + sv + fi`
+   - `strawberry.de + sv + fi`
+   - `elephant` (across long-word locales; pure stems, soft-hyphen unnecessary)
+   - `hexagon.de + sv + fi`
 
-### Phase 3 iteration 1 deltas (applied 2026-05-08, pre-operator-surface)
+2. **Sharp palette mode** (`frontend/scripts/lib/flashcard-render.ts`) — `palette: true` → `palette: false`. Plan-agent finding #7g flagged `palette: true` could degrade gradient + transparency for color-rich K-3 illustrations. Quality-bar trade-off: validation batch size 18MB → 40MB; preserves cleanliness.
 
-Two CC-adjudicated iterations absorbed:
+### Iteration 2 — operator composition revision (applied 2026-05-08 second-surface)
 
-1. **SOFT_HYPHENS extension** (`frontend/scripts/lib/flashcard-data.ts`) — added 6 entries covering validation-batch German + Nordic stress-tests. Pre-fix: 23 entries; post-fix: 29 entries.
-2. **Sharp palette mode** (`frontend/scripts/lib/flashcard-render.ts`) — `palette: true` → `palette: false`. Validation batch size 18MB → 40MB; preserves gradient + alpha quality for K-3 image library.
+Operator revised Sky+v2 canonical composition: drop sentence frame entirely. Two-element layout (image + word) replaces three-element layout.
 
-### Items deferred to Phase 5 / Arc 2
+**Iteration 2 deltas:**
 
-- Modal focus management implementation (~6 LOC; tab-order edge case)
-- 9-up font-size floor margin tuning for 12+char words (consider 12pt floor)
-- Font-loading offline fallback (bundle Google Fonts as base64)
-- Soft-hyphen silent-fallback warning instrumentation
-- Touch-swipe threshold tuning post-K-3-usability-test
-- `0.5px dashed` cut-line consider `0.25mm` for printer predictability
+1. **Sentence-frame substrate REMOVED** from `flashcard-data.ts`:
+   - `buildSentence()` function deleted
+   - Per-locale sentence-frame templates table deleted
+   - Finnish K-3 simplified frame "Tässä on {word}." NSR-flag retired (no Finnish sentence-frame substrate exists)
+   - Sentence-frame substrate filed as NOT recommissioned for Pillar 4 Arc 2 OR Arc N+ unless operator explicitly resurfaces
 
-None of the deferred items are blocking-class for Arc 1 sign-off.
+2. **Card markup simplified** in `flashcard-render.ts`:
+   - `<div class="sentence-band">` element removed
+   - `<p class="sentence">` element removed
+   - Curly-quote framing + 6% indent + 1px left-rule scaffolding removed (no longer needed)
+   - CSS variables `--sentence-color` + `--sentence-rule` removed
 
-### Plan-agent overall verdict
+3. **Word-band space reallocation** (CC adjudication):
+   - Grid rows: `4mm 60% 18% 13% 1fr` → `4mm 60% 30% 1fr`
+   - Word-band expanded 18% → 30% (gain entire 13% sentence-band space + 5% extra)
+   - Word clamp ceiling raised: `clamp(14pt, 9cqw, 32pt)` → `clamp(16pt, 12cqw, 44pt)` (digital)
+   - Print word clamp raised to `clamp(16pt, 11cqw, 42pt)` at 6-up (was 30pt) and `clamp(14pt, 11cqw, 30pt)` at 9-up (was 22pt)
+   - Image-band stays at 60% (visual primacy preserved)
+   - Footer absorbs remainder (~7%)
+   - Pedagogical rationale: two-element vocabulary-acquisition card → word is load-bearing pedagogical anchor → maximize K-3 reading-distance legibility
 
-> "Phase 4 sign-off can proceed after the soft-hyphen extension; remaining informational items can roll into Phase 5 recon or Arc 2 commission spec."
+**Cross-locale long-word handling preserved:** SOFT_HYPHENS substrate from iteration 1 stays load-bearing. de/fi/sv long words still soft-wrap via `hyphens: auto` + U+00AD markers. de/deck.html iteration 2 verified: `Kranken­wagen`, `Flug­zeug`, `Schau­spieler` continue rendering with soft-hyphen markers at morpheme boundaries.
 
-Phase 3 iteration 1 closed the soft-hyphen blocker before operator surface. Remaining items deferred per Plan-agent's recommendation.
+**Verification post-iteration 2:**
+- 72/72 cards re-rendered cleanly
+- No `class="sentence"` or `sentence-band` markup in any deck.html
+- Theme-color top accent rule preserved
+- Word-band visually expanded (30% vertical real estate; clamp ceiling 44pt)
+- Soft-hyphen substrate continues working
+- Validation batch size: 40MB (palette:false retained)
 
-## Operator review surface
+## Plan-agent independent review status
 
-Validation batch ready for operator visual review. Open `<locale>/deck.html` in browser; print `<locale>/print-6up.pdf` and `<locale>/print-9up.pdf` at 100% scale on A4.
+Phase 3 Plan-agent review: COMPLETE; findings absorbed at iteration 1.
+Phase 4 iteration 2 (composition revision): no additional Plan-agent review — the dropped element (sentence frame) was source of multiple Plan-agent findings (italic concern; scaffolding rule complexity); two-element layout is structurally simpler with no remaining design-fidelity concerns.
 
-After operator review, surface back to CC with one of:
-- **Pass** — proceed to Phase 5 (recon + Arc 2 commission spec)
-- **Iterate** — specific findings to address; CC re-renders + re-surfaces (1 iteration cycle remaining per spec)
-- **Architectural finding** — issue beyond pipeline scope; surface for re-spec or scope amendment
+## Operator review surface (post-iteration-2)
+
+Validation batch ready for operator second visual review.
+
+After review, surface back to CC with one of:
+- **Pass** → CC commences Phase 5 (recon + Arc 2 commission spec; Arc 2 envelope shrinks slightly per simplified per-render generation cost)
+- **Architectural finding** → issue beyond pipeline scope; surface for re-spec or scope amendment
+
+**No iteration cycles remaining** — both Phase 4 iterations consumed (1 = Plan-agent absorption pre-first-surface; 2 = operator composition revision). Per spec §Phase 4: "Maximum 2 iteration cycles before surfacing as an architectural finding."

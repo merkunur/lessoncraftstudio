@@ -1,9 +1,11 @@
-# Flashcard design exploration — Pillar 4 Arc 1 Phase 1
+# Flashcard design exploration — Pillar 4 Arc 1 Phase 1 (revised at Phase 4 iteration 2)
 
 **Authored:** 2026-05-08
 **Audience:** operator + design-specialist agent (independent review section below)
-**Locked composition:** image + word label + sentence frame using the word
+**Locked composition (revised at Phase 4 iteration 2):** ~~image + word label + sentence frame using the word~~ → **image + word label only (two-element layout)**. Sentence frame dropped per operator composition revision; rationale recorded in `flashcard-validation-batch/README.md` iteration 2 log.
 **Quality bar:** "very professional" — design-specialist validation required before Phase 2
+
+> **Phase 4 iteration 2 note:** This document captures the original three-element design exploration at Phase 1. The canonical implementation at Phase 4 iteration 2 simplifies to two-element layout. Sentence-frame discussion below (Option α templates, Finnish NSR-flag, italic-vs-non-italic absorption, scaffolding-rule treatment, dynamic font step-down) is **historical context** for the design adjudication path. The actual shipping pipeline implements: image (60%) + word (30%) + accent rule + footer.
 
 ## Design constraints (from Pillar 4 spec + carry-forward locks)
 

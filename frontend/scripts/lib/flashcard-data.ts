@@ -132,64 +132,12 @@ export function resolveVocabKey(filename: string, themeDir: string): string {
   return normalized;
 }
 
-// ----- Sentence-frame templates (Option α — static template per locale) -----
-
-/**
- * Returns the localized sentence frame for a given vocab key + locale.
- * Resolves grammatical-gender article via VocabEntry index 2 where applicable.
- *
- * Frame patterns:
- *   en  "I see a/an {word}."
- *   de  "Ich sehe einen/eine/ein {word}."
- *   es  "Veo un/una {word}."
- *   nl  "Ik zie een {word}."
- *   fr  "Je vois un/une {word}."
- *   it  "Vedo un/una {word}."
- *   pt  "Eu vejo um/uma {word}."
- *   sv  "Jag ser en/ett {word}."
- *   da  "Jeg ser en/et {word}."
- *   no  "Jeg ser en/et {word}."
- *   fi  "Tässä on {word}."  ← K-3 simplified per CLAUDE.md §17.5.1 NSR-flag
- */
-export function buildSentence(vocab: VocabEntry, locale: Locale): string {
-  const entry = vocab[locale] as readonly string[];
-  if (!entry) return '';
-  const word = entry[0];
-  const lower = word.toLowerCase();
-  const gender = entry[2] as string | undefined;
-  const isVowel = /^[aeiouäöü]/i.test(lower);
-
-  switch (locale) {
-    case 'en':
-      return `I see a${isVowel ? 'n' : ''} ${lower}.`;
-    case 'de':
-      // m → einen (accusative), f → eine, n → ein
-      return gender === 'm' ? `Ich sehe einen ${word}.`
-        : gender === 'f' ? `Ich sehe eine ${word}.`
-        : `Ich sehe ein ${word}.`;
-    case 'es':
-      return gender === 'f' ? `Veo una ${lower}.` : `Veo un ${lower}.`;
-    case 'pt':
-      return gender === 'f' ? `Eu vejo uma ${lower}.` : `Eu vejo um ${lower}.`;
-    case 'it':
-      // Italian elision: vowel-initial f-words → un'<word>
-      if (gender === 'f' && isVowel) return `Vedo un'${lower}.`;
-      return gender === 'f' ? `Vedo una ${lower}.` : `Vedo un ${lower}.`;
-    case 'fr':
-      return gender === 'f' ? `Je vois une ${lower}.` : `Je vois un ${lower}.`;
-    case 'nl':
-      return `Ik zie een ${lower}.`;
-    case 'sv':
-      return gender === 't' ? `Jag ser ett ${lower}.` : `Jag ser en ${lower}.`;
-    case 'da':
-      return gender === 't' ? `Jeg ser et ${lower}.` : `Jeg ser en ${lower}.`;
-    case 'no':
-      return gender === 'n' ? `Jeg ser et ${lower}.` : `Jeg ser en ${lower}.`;
-    case 'fi':
-      return `Tässä on ${lower}.`;
-  }
-  return word;
-}
+// Sentence-frame substrate REMOVED at Phase 4 iteration 2 per operator
+// composition revision. Sky+v2 canonical simplified to two-element layout
+// (image + word). buildSentence() and PER-LOCALE TEMPLATE TABLE gone.
+// Finnish K-3 simplified frame NSR-flag no longer applies.
+// Filing per spec §Phase 5: sentence-frame substrate NOT recommissioned
+// for Arc 2 OR Pillar 4 Arc N+ unless operator explicitly resurfaces.
 
 // ----- Theme color palette (3-4mm top accent rule) -----
 // Per Sky+v2 spec: 3-4mm theme-color top accent rule for deck-navigation

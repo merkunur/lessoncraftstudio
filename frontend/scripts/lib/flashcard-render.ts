@@ -1,12 +1,12 @@
 /**
  * flashcard-render.ts — Pillar 4 Arc 1 Phase 2 HTML/CSS template builder + PDF render.
  *
- * Sky+v2 design implementation:
- *   - 2:3 portrait card; 60% image; 18% word-band auto-fit; 13% sentence-band; footer
+ * Sky+v2 (revised at Phase 4 iteration 2) design implementation — two-element
+ * layout (image + word; sentence-frame dropped per operator composition revision):
+ *   - 2:3 portrait card; 60% image; 30% word-band auto-fit (was 18%); footer
  *   - Theme-color top accent rule (3-4mm)
  *   - Reserved word-band auto-fit horizontal scaling (CSS clamp)
  *   - Soft-hyphen substrate via hyphens: auto + U+00AD soft-hyphen markers
- *   - Sentence: Lexend Deca Regular (NOT italic) + curly quotes + 6% indent + left rule
  *   - Word color #1f2937 (warm slate-800)
  *
  * Emits two HTML kinds:
@@ -20,7 +20,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import sharp from 'sharp';
 import { chromium, type Browser } from 'playwright';
-import { Locale, VocabEntry, buildSentence, displayWord, themeColor } from './flashcard-data';
+import { Locale, VocabEntry, displayWord, themeColor } from './flashcard-data';
 
 export interface FlashcardCard {
   vocabKey: string;
@@ -91,7 +91,6 @@ async function prepareCards(cards: FlashcardCard[]): Promise<PreparedCard[]> {
 
 function renderCard(card: PreparedCard): string {
   const word = displayWord(card.vocabKey, card.vocab, card.locale);
-  const sentence = buildSentence(card.vocab, card.locale);
   const accent = themeColor(card.themeDir);
 
   return `
@@ -99,7 +98,6 @@ function renderCard(card: PreparedCard): string {
       <div class="accent" style="background:${accent}"></div>
       <div class="image-band"><img src="${card.dataUrl}" alt="${escapeHtml(word)}"></div>
       <div class="word-band"><h2 class="word" lang="${card.locale}">${escapeHtml(word)}</h2></div>
-      <div class="sentence-band"><p class="sentence" lang="${card.locale}">&ldquo;${escapeHtml(sentence)}&rdquo;</p></div>
       <div class="footer">LessonCraftStudio</div>
     </article>`;
 }
@@ -112,8 +110,6 @@ const CARD_CSS = `
     --card-bg: #ffffff;
     --card-corner: 8px;
     --word-color: #1f2937;
-    --sentence-color: #4a5568;
-    --sentence-rule: #cbd2dc;
     --footer-color: #94a3b8;
   }
   * { box-sizing: border-box; }
@@ -126,7 +122,11 @@ const CARD_CSS = `
     border-radius: var(--card-corner);
     overflow: hidden;
     display: grid;
-    grid-template-rows: 4mm 60% 18% 13% 1fr;
+    /* Two-element layout: accent | image | word | footer.
+       Word-band expanded to 30% (was 18%) — sentence-band's freed
+       space (~13%) reallocated to maximize K-3 reading-distance
+       legibility per CC adjudication at Phase 4 iteration 2. */
+    grid-template-rows: 4mm 60% 30% 1fr;
     container-type: inline-size;
   }
   .card .accent { width: 100%; }
@@ -147,28 +147,18 @@ const CARD_CSS = `
     font-family: 'Fredoka', sans-serif;
     font-weight: 600;
     color: var(--word-color);
-    font-size: clamp(14pt, 9cqw, 32pt);
-    line-height: 1.05;
+    /* Word-band 30% with expanded clamp ceiling (was 32pt; now 44pt) —
+       short words like "Cat" / "Red" rendered at much larger size at
+       K-3 reading distance. Long-word locales still soft-wrap via
+       hyphens: auto + soft-hyphen substrate. */
+    font-size: clamp(16pt, 12cqw, 44pt);
+    line-height: 1.1;
     margin: 0;
     text-align: center;
     word-break: break-word;
     overflow-wrap: break-word;
     hyphens: auto;
     -webkit-hyphens: auto;
-  }
-  .card .sentence-band {
-    display: flex; align-items: center;
-    margin: 0 6%;
-    padding-left: 4%;
-    border-left: 1px solid var(--sentence-rule);
-  }
-  .card .sentence {
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 400;
-    color: var(--sentence-color);
-    font-size: clamp(9pt, 4.2cqw, 14pt);
-    line-height: 1.3;
-    margin: 0;
   }
   .card .footer {
     text-align: center;
@@ -411,9 +401,9 @@ export async function renderPrintHtml(cards: FlashcardCard[], opts: { perPage: 6
       border-right: 0.5px dashed #cbd2dc;
     }
 
-    /* Print-specific tweaks */
-    .card .word { font-size: clamp(14pt, 8cqw, ${perPage === 6 ? 30 : 22}pt); }
-    .card .sentence { font-size: clamp(8pt, 3.6cqw, ${perPage === 6 ? 13 : 10}pt); }
+    /* Print-specific tweaks — word-band ceiling raised post-sentence-drop
+       per Phase 4 iteration 2 composition revision. */
+    .card .word { font-size: clamp(${perPage === 6 ? '16pt' : '14pt'}, 11cqw, ${perPage === 6 ? 42 : 30}pt); }
     .card .footer { font-size: ${perPage === 6 ? 8 : 6}pt; }
   `;
 

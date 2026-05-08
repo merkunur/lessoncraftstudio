@@ -1,0 +1,240 @@
+# Teaching package — compare 2 objects by length
+# Arc 9 Phase 1 (Path B; early-numeracy / measurement strand FIRST package).
+# Class B FLEXIBLE; vocab-anchored. Foundational measurement skill: kids
+# directly compare two objects by length and use comparative vocabulary
+# (longer / shorter / same length).
+
+targetSlug: compare-by-length
+language: en
+title:
+  en: "Compare by Length — longer, shorter, or the same?"
+description:
+  en: "Preschool / Kindergarten early-numeracy package teaching length comparison. FIRST measurement strand package in the catalog. Foundational measurement skill: kids directly compare two objects + name the comparison ('the snake is longer than the worm'). Pre-formal-measurement work — kids develop length-comparison intuition before encountering rulers + numerical units. Vocab-anchored — comparative vocabulary (longer / shorter / same length) reinforced. Composes against big-small + matching apps. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class direct-comparison routine. Teacher holds up 2 objects
+      (e.g., a pencil + a ruler). "Which is longer?" Class identifies.
+      "Which is shorter?" Class identifies. Repeat with 4-5 pairs of
+      objects of varying length difference. Reinforces the visual-
+      comparison skill that underlies all measurement work.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + side-by-side comparison routine. Each pair receives
+      a set of 6-8 paper-cut objects of varying length (snake, worm,
+      pencil, crayon, ruler, ribbon). Pair compares each item against a
+      reference object using the comparative frame: "The snake is
+      longer than the worm." / "The worm is shorter than the snake."
+      Recast errors with explanation ("you said 'the snake is short'
+      — let's compare it to something. The snake is shorter than what?
+      The snake is longer than the worm. Use 'longer' or 'shorter' WITH
+      'than X' so we know what we're comparing"). Optional extension:
+      kids order 3 objects shortest-to-longest using direct comparison.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: big-small worksheet (kids identify
+      bigger/smaller — sibling concept that introduces comparative
+      reasoning). Station 2: matching worksheet (image-name pairs;
+      reinforces vocabulary that supports length descriptions).
+      Station 3: manipulative cut-outs hands-on length-comparison
+      (kids order objects by length using direct comparison). Station
+      4: sentence-strips (kids fill in comparative sentences using
+      'longer' / 'shorter' / 'same length' frames).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class quick-recall. Teacher displays 4 objects of varying
+      length; class collectively orders them shortest to longest using
+      direct comparison. Forward-pointer: "Today we compared 2 things by
+      length. When we come back to measuring next, we'll compare WEIGHT
+      — which thing is heavier and which is lighter — and CAPACITY —
+      which container holds more."
+
+composedExercises:
+  - appName: big-small
+    exerciseMode: find-one
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: big-small
+    exerciseMode: find-one
+    customizationParameters: { themeSelect: vehicles, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: vehicles, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: production-prompt
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: vehicles
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: early-numeracy / measurement (length comparison).
+    Secondary strand: vocabulary acquisition (vocab-anchored —
+    comparative vocabulary longer / shorter / same length is a high-
+    frequency K-3 target). Tertiary strand: visual-discrimination +
+    spatial-reasoning (kids visually compare object lengths — same
+    cognitive substrate as big-small / size-comparison work).
+
+    Architectural significance: FIRST measurement strand package in
+    the catalog. Pre-formal-measurement work establishes the
+    comparison-reasoning foundation that formal measurement (rulers +
+    numerical units) builds on. Length-comparison is the canonical
+    K-3 starting point — kids master length comparison before weight
+    and capacity (which require less-direct comparison strategies).
+
+    Distinctive composition: 2 big-small exercises (positions 1 + 3) +
+    2 matching exercises (positions 2 + 4) + 1 odd-one-out at position
+    5. big-small app is the closest existing surface for length-
+    comparison work — its core mechanic (identify bigger/smaller) maps
+    naturally to longer/shorter framing. Substitution from "size" to
+    "length" is operator-strategic at composition time — same app
+    surface, different vocabulary frame.
+
+    Class B FLEXIBLE substrate: composes against image-library breadth.
+    Length comparisons work with ANY 2 objects of distinct length;
+    substrate-readiness universal across themes that have meaningful
+    length-variation (animals: snake vs worm; vehicles: bus vs car;
+    fruits: banana vs grape).
+
+    K-3 multilingual classroom relevance: comparative grammar
+    structures ('longer than' / 'shorter than' / 'as long as') are
+    mid-frequency K-3 grammatical targets across all 11 platform
+    locales. Kids in target-language-immersion contexts often acquire
+    base vocabulary before comparative grammar; this package surfaces
+    comparative grammar as an explicit pedagogical target. Productive-
+    language frames ("the X is longer than the Y") give structured
+    grammatical practice.
+
+curriculumStandards:
+  - CCSS.K.MD.A.1
+  - CCSS.K.MD.A.2
+  - EYFS.ELG.M
+  - IB-PYP.HowTheWorldWorks
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Identify which of 2 objects is longer / shorter in 8 of 10
+        trials.
+      - Use the comparative frame ('the X is longer than the Y') in 7
+        of 10 productive-language attempts.
+      - Order 3 objects shortest-to-longest using direct comparison in
+        6 of 10 attempts.
+
+    Differentiation:
+    - Pre-K: 2-object direct comparison only; productive vocab limited
+      to single-word ('longer' / 'shorter').
+    - K: 2-3-object comparison + comparative-grammar frame.
+    - Grade 1+: extend to length-with-units (informal units like 'how
+      many paperclips long?'); bridge to ruler-based measurement
+      (Arc 10+ candidate).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

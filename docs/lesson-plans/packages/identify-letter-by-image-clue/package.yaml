@@ -1,0 +1,245 @@
+# Teaching package — identify letters from image clues
+# Arc 9 Phase 1 (Path B; early-literacy / letter-recognition strand FIRST
+# package). Class B FLEXIBLE; vocab-anchored. Foundational pre-reading
+# skill: kids see an image (e.g., apple) and identify the initial letter
+# (A). Builds on Arc 1+5+6+8 vocabulary-acquisition work — kids transition
+# from object-naming to letter-recognition mediated by familiar vocabulary.
+
+targetSlug: identify-letter-by-image-clue
+language: en
+title:
+  en: "Letters from Pictures — find the letter that starts the word"
+description:
+  en: "Kindergarten early-literacy package teaching letter-recognition via image clues. FIRST letter-recognition strand package in the catalog. Foundational pre-reading skill: kids see a familiar object (apple) + identify the initial letter (A). Builds on Arc 1+5+6+8 vocabulary work — kids transition from object-naming to letter-name + letter-sound association mediated by familiar vocabulary. Vocab-anchored throughout: kids name objects + identify initial letters simultaneously. Composes against alphabet-train + matching apps. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class initial-letter routine. Teacher displays a picture of
+      an apple. "What does this picture show?" Class names: "Apple."
+      "What letter does APPLE start with?" Class identifies: "A."
+      Teacher writes A on the board. Repeat with 5-6 picture-letter
+      pairs across familiar themes (banana → B; cat → C; dog → D).
+      Reinforces image-as-clue framing — kids use vocabulary they
+      already know to access letter knowledge.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + image-and-letter routine. Each pair receives 8-10
+      picture cards + an alphabet strip. Pair takes turns: kid A holds
+      up a picture; kid B names the picture AND identifies the initial
+      letter on the alphabet strip. Recast errors with explanation
+      ("you said BIRD starts with D — let's say it slowly: B-bird —
+      what's the first sound? B! So bird starts with B"). Optional
+      extension: kids sort their pictures by initial letter into A,
+      B, C, D, E groups.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: alphabet-train worksheet (kids
+      identify initial letters of pictures; reinforces image-letter
+      mapping). Station 2: matching worksheet (image-name pairs;
+      reinforces vocabulary that letter-recognition depends on).
+      Station 3: word-guess (kids fill in initial letters from picture
+      clues). Station 4: vocabulary-tracing-strips (kids trace letters
+      of words they've named).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class share. Teacher displays 5-6 pictures; class
+      collectively names each + identifies initial letters chorally.
+      Forward-pointer: "Today we found letters at the START of words.
+      When we come back to letters next, we'll find letters at the
+      END of words — and in the MIDDLE — building toward reading
+      whole words letter by letter."
+
+composedExercises:
+  - appName: alphabet-train
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: alphabet-train
+    exerciseMode: unified
+    customizationParameters: { themeSelect: fruits, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      stripCount: 10
+      stripsPerPage: 5
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: early-literacy / letter-recognition. Secondary
+    strand: vocabulary acquisition (vocab-anchored — letter-recognition
+    DEPENDS ON vocabulary because kids identify initial letters of
+    words they already know). Tertiary strand: phonological awareness
+    (kids hear initial sounds + map them to letter symbols).
+
+    Architectural significance: FIRST letter-recognition strand package
+    in the catalog. Pre-reading bridge: kids who already know
+    object-vocabulary (Arc 1+5+6+8) can use that vocabulary as a
+    BRIDGE to letter knowledge. Letter-recognition mediated by
+    familiar vocabulary is more effective than abstract letter drill —
+    kids have a meaningful anchor for each letter.
+
+    Distinctive composition: 2 alphabet-train exercises (positions 1, 3)
+    using imgname mode + 1 matching imgname (position 2) + 1 word-guess
+    (position 4) + 1 matching letter mode (position 5). The matching
+    letter mode at position 5 is a new app/mode combination — image to
+    LETTER directly (rather than image to NAME). FIRST package to use
+    matching's letter mode for letter-recognition.
+
+    Cross-strand integration: leverages Arc 1+5+6+8 vocabulary work
+    as input. Kids who know "apple" can identify A; kids who know
+    "banana" can identify B. The package is a SYNTHESIS surface for
+    vocabulary acquired across many prior packages — a natural
+    progression from naming to letter-recognition.
+
+    Class B FLEXIBLE substrate: composes against image-library breadth.
+    Letter-recognition works with any vocabulary-rich theme; substrate-
+    readiness universal across vocabulary-rich themes (animals, fruits,
+    foods, school-objects, body-parts, clothing).
+
+    K-3 multilingual classroom relevance: letter-recognition is target-
+    LANGUAGE-specific (the letter A in en doesn't mean what it means
+    in es 'á' for example; phonological values differ across locales).
+    The package's en-only authoring + locale-variant sparse-overrides
+    pattern handles this — each locale gets its own letter-recognition
+    package adapted to its alphabet + phonology. Pt-BR variant could
+    address pt-specific letter sounds (cedilha ç, til ã/õ) in Phase 3
+    sparse-override.
+
+curriculumStandards:
+  - CCSS.K.RF.1.D
+  - CCSS.K.RF.3.A
+  - EYFS.ELG.LIT
+  - IB-PYP.HowWeExpressOurselves
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Identify initial letter of 8 of 10 familiar object names.
+      - Match a picture to its initial letter on an alphabet strip in 8
+        of 10 trials.
+      - Articulate the initial-letter mapping productively ("APPLE
+        starts with A") in 7 of 10 trials.
+
+    Differentiation:
+    - Pre-K: 5 letter-image pairs with strong acoustic salience
+      (A-apple, B-ball, C-cat, D-dog, E-egg).
+    - K: 10-15 letter-image pairs across themes; lowercase letters.
+    - Grade 1+: extend to FINAL letters + MIDDLE letters (Arc 10+
+      candidate); bridge to whole-word reading.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

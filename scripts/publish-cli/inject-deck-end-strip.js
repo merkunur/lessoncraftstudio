@@ -200,8 +200,13 @@ function injectStripIntoDeckHtml(deckHtmlContent, locale, suggestions) {
   if (!suggestions || suggestions.length === 0) {
     if (hadExistingStrip && REWRITE) {
       // We removed the existing (broken) strip and there's nothing to put
-      // back. Write the cleaned content out.
+      // back. Write the cleaned content out (also contains celebration patch).
       return { changed: true, alreadyApplied: false, content: deckHtmlContent, rewroteAsRemoved: true };
+    }
+    if (celebrationPatched) {
+      // No strip needed (or no existing strip to remove), but celebration
+      // modal width was 520px and got patched to 800px. Write that change.
+      return { changed: true, alreadyApplied: false, content: deckHtmlContent, celebrationOnly: true };
     }
     return { changed: false, alreadyApplied: false, skippedEmpty: true };
   }

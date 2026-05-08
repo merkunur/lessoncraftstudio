@@ -1,0 +1,237 @@
+# Teaching package — identify community helpers
+# Arc 11 Phase 1 (Path B; world-knowledge / community-and-roles strand
+# deepening 1/3 → 2/3). Foundational social-studies vocabulary: kids
+# identify community helpers (firefighter, police officer, doctor,
+# teacher, mail carrier) + name what each one does.
+
+targetSlug: identify-community-helpers
+language: en
+title:
+  en: "Community Helpers — people who help us in our community"
+description:
+  en: "Kindergarten / Grade 1 world-knowledge package teaching community helper vocabulary. Builds on existing community-and-roles strand (1 prior package). Kids identify familiar community helpers (firefighter, police officer, doctor, nurse, teacher, mail carrier, librarian, dentist) + name what each helper does. Foundational social-studies vocabulary connecting children to civic + service-occupation awareness. Vocab-anchored — community-helper job titles + their tools/uniforms. Composes against matching + word-guess apps. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class community-helper introduction. Teacher displays
+      pictures of 6-8 community helpers (firefighter, police officer,
+      doctor, teacher, mail carrier, librarian, dentist, nurse).
+      "These are people in our community who HELP us. Who do you
+      know in real life?" Class shares (e.g., "My doctor is Dr.
+      Smith"). Teacher writes job titles + asks: "What does each
+      person DO?" Class describes briefly ("doctors help sick people";
+      "firefighters put out fires"). Reinforces job-as-service-role
+      framing.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + helper-tool match. Each pair receives 8 community-
+      helper picture cards + 8 tool/uniform cards. Pair matches each
+      helper to their tool (firefighter → fire hose; doctor →
+      stethoscope; mail carrier → mailbag; teacher → book + chalkboard;
+      police officer → badge; nurse → bandage). Recast errors with
+      explanation ("you matched the doctor with a fire hose — let's
+      think: doctors help sick people; what tools do they use?
+      Stethoscopes for listening, thermometers for temperature.
+      Try matching the doctor with the stethoscope"). Optional
+      extension: kids dramatize a community helper at work + class
+      guesses the job.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching worksheet (helper image
+      to job-title pair). Station 2: matching worksheet (helper to
+      tool/uniform pair). Station 3: manipulative cut-outs hands-on
+      community-helper construction (kids assemble helper-with-tool
+      cards). Station 4: word-guess (kids fill in helper-job-title
+      letters from picture clues).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class community-helper-share. Teacher names a community
+      helper; class names what the helper does + a tool the helper
+      uses. Forward-pointer: "Today we learned about community helpers
+      who work in our neighborhood. When we come back to community
+      next, we'll learn about COMMUNITY PLACES — where these helpers
+      work (the fire station, the hospital, the post office, the
+      school)."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: school-objects, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: school-objects, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: school-objects, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: school-objects, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: school-objects
+      cardCount: 10
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: school-objects
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: school-objects
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: school-objects
+      stripCount: 8
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: school-objects
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: school-objects
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: world-knowledge / community-and-roles (community
+    helper recognition). Secondary strand: vocabulary acquisition
+    (vocab-anchored — job titles + tools). Tertiary strand: speaking-
+    and-listening (productive description of helper-roles).
+
+    Architectural significance: deepens community-and-roles strand
+    from 1/3 → 2/3 packages. Opens 2nd-package depth in this strand.
+    Community-helper vocabulary is K-3 social-studies foundational —
+    kids encounter community helpers in their daily lives + need
+    vocabulary to talk about them.
+
+    Distinctive composition: 3 matching exercises + 1 word-guess +
+    1 odd-one-out. School-objects theme used as best-available proxy
+    for community-helper imagery (no dedicated community-helpers
+    theme in image library; school-objects contains some helper-
+    relevant items like books, chalkboards, pencils).
+
+    Class B FLEXIBLE substrate: composes against school-objects theme.
+    Substrate has limitation — image library doesn't contain dedicated
+    community-helper imagery. Future image-library extension would
+    expand this package's substrate; until then, kids work with
+    available helper-adjacent vocabulary (school-objects primarily).
+
+    K-3 multilingual classroom relevance: community-helper roles vary
+    culturally across platform locales (e.g., police uniforms differ;
+    healthcare-system structures vary; community-helper inventories
+    differ in different cultures). Locale-variant sparse-overrides can
+    adapt for cultural specificity. Universal: every K-3 classroom
+    teaches community-helper vocabulary regardless of locale.
+
+curriculumStandards:
+  - EYFS.ELG.UW
+  - IB-PYP.HowWeOrganizeOurselves
+  - IB-PYP.WhoWeAre
+  - CCSS.K.SL.4
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Name 6 of 8 community helpers in 8 of 10 trials.
+      - Match a helper to their tool/uniform in 7 of 10 trials.
+      - Articulate what 4 of 8 helpers do ('the firefighter puts out
+        fires') in 7 of 10 productive-language trials.
+
+    Differentiation:
+    - Pre-K: 4 most-familiar helpers (firefighter, police officer,
+      doctor, teacher); receptive identification only.
+    - K: 6-8 helpers; matching + verbal description.
+    - Grade 1+: extend to identify-community-places (Arc 12+
+      candidate); bridge to community-as-system thinking.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

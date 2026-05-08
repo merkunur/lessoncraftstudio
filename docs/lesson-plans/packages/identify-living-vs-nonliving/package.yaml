@@ -1,0 +1,234 @@
+# Teaching package — identify living things vs non-living things
+# Arc 11 Phase 1 (Path B; world-knowledge / living-things strand
+# deepening 3/6 → 4/6). Foundational science distinction: kids classify
+# things as living (plants, animals, humans) or non-living (rocks,
+# vehicles, furniture, water).
+
+targetSlug: identify-living-vs-nonliving
+language: en
+title:
+  en: "Living or Not? — sort things into living and non-living"
+description:
+  en: "Kindergarten / Grade 1 world-knowledge package teaching the living-vs-nonliving distinction. Builds on Arc 5 classify-animals-by-diet + classify-animals-by-habitat + Arc 10 describe-plant-life-cycle. Foundational science classification: kids identify which things are LIVING (plants, animals, humans — they grow, eat/breathe, reproduce) vs NON-LIVING (rocks, vehicles, furniture, water — they don't grow, don't eat). Develops scientific-classification reasoning + biology vocabulary. Vocab-anchored — living + non-living examples. Composes against picture-sort + odd-one-out apps. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class living-vs-nonliving routine. Teacher displays pairs
+      of objects: a tree + a chair. "Which one is LIVING?" Class
+      identifies the tree. "Why?" Discussion: trees grow, drink water
+      from soil, make leaves. "What about the chair?" Class: "Not
+      living — it doesn't grow, doesn't drink water." Repeat with
+      4-5 pairs (cat vs car; flower vs rock; person vs lamp).
+      Reinforces the LIVING criteria: grow + eat/breathe + reproduce.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + sort routine. Each pair receives 12-16 picture cards
+      (mix of living + non-living items). Pair sorts cards into 2
+      piles: LIVING + NON-LIVING. Recast errors with explanation
+      ("you put the doll in living — let's check: does the doll
+      grow? No. Does the doll eat? No. The doll LOOKS like a person
+      but isn't living. People are living; their representations
+      (dolls, statues, paintings) are not"). Optional extension: kids
+      describe their LIVING category by listing 3 things all living
+      things do.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: picture-sort worksheet (kids sort
+      pictures into living vs non-living categories). Station 2:
+      odd-one-out worksheet (one non-living item among 4 living, or
+      vice versa). Station 3: manipulative cut-outs hands-on
+      classification (kids assemble living-thing displays + non-
+      living-thing displays). Station 4: matching worksheet (image-
+      name pairs reinforce vocabulary).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class sort-recall. Teacher displays 6-8 mixed items; class
+      collectively classifies each as living or non-living + names
+      a reason. Forward-pointer: "Today we learned what LIVING means.
+      When we come back to living things next, we'll learn the parts
+      of a PLANT — root, stem, leaf, flower — and how each part helps
+      the plant LIVE."
+
+composedExercises:
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: animals, rightCategoryThemeSelect: vehicles, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: fruits, rightCategoryThemeSelect: vehicles, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: fruits, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 10
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: vehicles
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: world-knowledge / living-things (living-vs-nonliving
+    classification). Secondary strand: vocabulary acquisition (vocab-
+    anchored — living + non-living examples). Tertiary strand:
+    classification + scientific-reasoning (kids reason about
+    distinguishing properties of life: growth, nutrition, reproduction).
+
+    Architectural significance: deepens living-things strand from
+    3/6 → 4/6. Sub-strand cohort: classify-animals-by-diet (Arc 5) +
+    classify-animals-by-habitat (Arc 5) + describe-plant-life-cycle
+    (Arc 10) + identify-living-vs-nonliving (this package). 4 of 6
+    targets authored — strand approaching saturation (2 unauthored
+    remaining: identify-plant-parts, describe-butterfly-life-cycle).
+
+    Distinctive composition: 2 picture-sort exercises + 2 matching
+    exercises + 1 odd-one-out. Sort-rhythm reinforces the categorical
+    nature of living-vs-nonliving classification. Multi-app composition
+    spans recognition (matching) + classification (picture-sort) +
+    exclusion (odd-one-out).
+
+    Class B FLEXIBLE substrate: composes against image-library breadth.
+    Living + non-living examples readily available across themes
+    (animals + plants/fruits = living; vehicles + furniture = non-
+    living). Substrate-readiness universal.
+
+    K-3 multilingual classroom relevance: living-vs-nonliving is
+    foundational science vocabulary across all 11 platform locales.
+    Productive-language frames ('the cat is living because it eats
+    and grows') exercise scientific-explanation grammar.
+
+curriculumStandards:
+  - EYFS.ELG.UW
+  - IB-PYP.HowTheWorldWorks
+  - NGSS.K-LS1-1
+  - CCSS.K.SL.4
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Sort 12 mixed items into living vs non-living categories
+        correctly in 8 of 10 attempts.
+      - Articulate the living criteria ('living things grow + eat +
+        reproduce') in 6 of 10 trials.
+      - Identify edge cases (doll, robot, statue) as non-living with
+        reasoning in 5 of 10 trials.
+
+    Differentiation:
+    - Pre-K: clear-contrast pairs only (real animal vs vehicle); 2
+      categories.
+    - K: 12-item mixed sort + 1 reasoning criterion.
+    - Grade 1+: edge cases + 3 reasoning criteria; bridge to
+      describe-plant-life-cycle living-process work.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

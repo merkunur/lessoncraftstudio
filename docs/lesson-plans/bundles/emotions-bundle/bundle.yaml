@@ -1,0 +1,79 @@
+# Pillar 2 Phase 1 first bundle — Emotions + Family
+# Theme-anchored bundle composing 5 emotion + family + SEL packages.
+# Showcases NEW family-members substrate-unblocked package alongside
+# established emotion vocabulary work.
+
+bundleSlug: emotions
+themeAxisKey: emotions
+language: en
+
+title:
+  en: "Emotions + Family — SEL Bundle"
+
+description:
+  en: "Comprehensive K-3 social-emotional-learning (SEL) + family-vocabulary bundle. 5 packages span vocabulary-acquisition (identify-and-name-emotions + identify-and-name-family-members — the latter SUBSTRATE-UNBLOCKED at Stream A Phase 1 ship) + personal-social-emotional-development (identify-own-emotions-in-context + identify-emotions-of-others-from-faces) + multilingual-language-awareness (compare-greeting-routines-across-cultures connects family/friend greetings to cultural awareness). Suitable for a 4-5 week classroom SEL unit; cross-culturally affirming for diverse K-3 multilingual classrooms in international + dual-language + bilingual contexts. CASEL framework + BNCC competências socioemocionais aligned."
+
+thumbnailUrl: "/bundles/emotions-thumbnail.png"
+
+status: draft
+
+teachingPackageSlugs:
+  - identify-and-name-emotions
+  - identify-and-name-family-members
+  - identify-own-emotions-in-context
+  - identify-emotions-of-others-from-faces
+  - compare-greeting-routines-across-cultures
+
+deckIds: []
+lessonPlanIds: []
+
+thematicCoherence:
+  en: |
+    All 5 packages cohere around emotional + relational vocabulary work
+    + form a SEL progression from naming (vocab acquisition) through
+    self-awareness (own emotions in context) to perspective-taking
+    (others' emotions from faces) and cultural relational awareness
+    (greeting routines across cultures).
+
+    **Pedagogical sequencing:**
+    1. **identify-and-name-emotions** — Foundational emotion vocabulary
+       (happy, sad, angry, surprised, scared, proud).
+    2. **identify-and-name-family-members** — Family-vocabulary; the
+       relational-context for emotion work. **SUBSTRATE-UNBLOCKED at
+       Stream A Phase 1 ship; first bundle inclusion.**
+    3. **identify-own-emotions-in-context** — Self-awareness: kids
+       recognize their own emotions in specific situations (foundational
+       SEL self-awareness).
+    4. **identify-emotions-of-others-from-faces** — Perspective-taking:
+       kids read facial cues + identify others' emotions (foundational
+       SEL social awareness).
+    5. **compare-greeting-routines-across-cultures** — Cross-cultural
+       relational awareness; how families + communities express greeting
+       across diverse cultures.
+
+    **Strand spread:** 2 vocabulary-acquisition + 2 personal-social-
+    emotional-development + 1 multilingual-language-awareness. Multi-
+    strand bundle composition reflects SEL's inherently cross-strand
+    nature (emotion vocab + cognitive perspective-taking + cultural
+    awareness all activate together).
+
+    **Suggested unit duration:** 4-5 weeks. SEL units typically benefit
+    from longer cycles allowing kids to practice + reflect across
+    multiple weeks.
+
+    **Multilingual classroom relevance:** HIGHEST. SEL is increasingly
+    emphasized globally (CASEL framework; BNCC competências
+    socioemocionais in Brazil; PSED in EYFS). Multilingual K-3 audience
+    benefits from explicit cross-cultural awareness work — international/
+    dual-language/bilingual classrooms ARE the contexts where greeting
+    routines + emotional expression vary culturally most. Bundle
+    affirms diverse family + cultural backgrounds + builds shared
+    vocabulary for emotional + relational topics.
+
+    **Cross-cultural affirmation discipline.** Family-members vocabulary
+    framed as ROLES kids might have (not prescriptive nuclear-family-
+    only). Greeting routines validated across cultural variants (handshake
+    + bow + cheek-kiss + hug + wave). Emotion expression cultural-norm-
+    aware (caloroso pt-BR vs more reserved Nordic styles). Bundle
+    pedagogically anchored in research-validated cultural-affirmation
+    discipline (Cummins; Garcia + Wei translanguaging).

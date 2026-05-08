@@ -1,0 +1,60 @@
+# Pillar 2 Phase 1 first bundle — Shapes
+# Theme-anchored bundle composing 5 shape-themed teaching packages
+# spanning geometry + cognitive sorting + tracing strands.
+
+bundleSlug: shapes
+themeAxisKey: shapes
+language: en
+
+title:
+  en: "Shapes — Complete K-3 Bundle"
+
+description:
+  en: "Comprehensive K-3 bundle centered on shape recognition + shape-attribute description + shape-based cognitive work. 5 packages span early-numeracy geometry (identify-2d-shapes-basic + identify-2d-shapes-extended + identify-3d-shapes + describe-shape-attributes) + cognitive sorting (sort-by-shape) + drawing-and-tracing supporting shape construction. Suitable for a 4-5 week classroom unit on shapes; foundational K-3 geometric reasoning preparing kids for formal geometry in later grades."
+
+thumbnailUrl: "/bundles/shapes-thumbnail.png"
+
+status: draft
+
+teachingPackageSlugs:
+  - identify-2d-shapes-basic
+  - identify-2d-shapes-extended
+  - identify-3d-shapes
+  - describe-shape-attributes
+  - sort-by-shape
+
+deckIds: []
+lessonPlanIds: []
+
+thematicCoherence:
+  en: |
+    All 5 packages cohere around shape vocabulary + shape-attribute
+    reasoning. Form a pedagogical progression from naming (identify
+    shape-types) through description (articulate attributes) to
+    classification (sort by shape).
+
+    **Pedagogical sequencing:**
+    1. **identify-2d-shapes-basic** — Foundational shape vocabulary
+       (circle, square, triangle, rectangle).
+    2. **identify-2d-shapes-extended** — Less-common 2D shapes (oval,
+       pentagon, hexagon).
+    3. **identify-3d-shapes** — 3D solids (cube, sphere, cylinder, cone);
+       extends from flat to solid.
+    4. **describe-shape-attributes** — Cognitive depth: kids articulate
+       attributes (sides, corners, curves) rather than just naming.
+    5. **sort-by-shape** — Cognitive sorting using shape vocabulary;
+       generalization across themes.
+
+    **Strand spread:** 4 early-numeracy/geometry + 1 cognitive-sorting.
+    Bundle composition emphasizes geometry strand depth while integrating
+    cross-strand cognitive work.
+
+    **Suggested unit duration:** 4-5 weeks. Foundational shape weeks +
+    attribute-reasoning week + sorting application week.
+
+    **Multilingual classroom relevance:** shape vocabulary is high-
+    frequency K-3 target across all 11 platform locales with strong
+    cognate-rich coverage (circle / círculo / cerchio / Kreis /
+    cirkel; triangle / triángulo / triangolo / Dreieck / triangel).
+    Cross-locale shape-naming + attribute description supports
+    multilingual classroom needs.

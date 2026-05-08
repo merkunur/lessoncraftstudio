@@ -8,17 +8,19 @@
 
 | Metric | Count |
 |---|---:|
-| Total PNG files in library (recursive) | **3,125** |
+| Total PNG files in library (recursive) | 3,125 |
 | Decorative — BACKGROUNDS dir (recursive) | 121 |
 | Decorative — BORDERS dir (recursive) | 166 |
-| Decorative subtotal (excluded) | **287** |
-| **Vocabulary-applicable image assets** | **2,838** |
-| Color-mode subset | 1,512 |
-| BW-mode subset (line-art for color/print activities) | 1,326 |
-| Top-level theme directories (vocabulary) | 100 |
+| Decorative subtotal (excluded) | 287 |
+| Vocabulary-applicable image assets (color + BW combined) | 2,838 |
+| BW-mode subset (deferred per scope-correction below) | 1,326 |
+| **Pillar 4 Arc 1 + Arc 2 SCOPE — color-mode images only** | **1,512** |
+| Top-level theme directories (vocabulary, color + BW) | 100 |
 | Decorative directories (excluded) | 2 |
 
-**Pillar 4 Arc 2 generation scope:** 2,838 image assets × 11 locales = **31,218 flashcard renders**. Operator's spec estimate of ~27,500 falls within ~12% of empirical count — close but not identical; refine in Arc 2 commission spec.
+**Scope correction at Phase 1 ratification (operator-locked 2026-05-08):** Pillar 4 commits to **color images only** (1,512 assets). BW themes are not in operator-side deck-generation use; flashcards do not generate against them. If operator-side deck-generation later expands to include BW themes, BW flashcards commission as separate Pillar 4 Arc N+ work at that point — do NOT pre-emptively scope.
+
+**Pillar 4 Arc 2 generation envelope:** 1,512 color images × 11 locales = **16,632 flashcard renders**. ~47% reduction from pre-correction projection (31,218). Materially smaller scope than the audit's initial projection.
 
 ## Per-theme distribution
 

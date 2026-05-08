@@ -1,0 +1,219 @@
+# Teaching package — identify and continue AAB / ABB patterns
+# Arc 7 Phase 1 (Path B; pattern-recognition strand). Companion to identify-AB-
+# pattern (same Phase 1). 3-element repeating patterns with double-then-single
+# (AAB) or single-then-double (ABB) structure. Class B FLEXIBLE; vocab-anchored.
+
+targetSlug: identify-AAB-ABB-patterns
+language: en
+title:
+  en: "AAB and ABB Patterns — 3-element repeating patterns with doubling"
+description:
+  en: "Kindergarten cognitive-and-executive-function package teaching AAB and ABB pattern recognition. Builds on identify-AB-pattern (Arc 7 Phase 1 companion). 3-element patterns require holding more rule complexity in working memory: AAB = double-then-single (cat-cat-dog-cat-cat-dog); ABB = single-then-double (cat-dog-dog-cat-dog-dog). Vocab-anchored. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class action routine. Teacher reviews AB pattern (from
+      identify-AB-pattern), then introduces AAB. "Now watch — I'll do
+      a NEW pattern: cat, cat, dog, cat, cat, dog, cat, cat, ?" Class
+      predicts "dog." Repeat with ABB: "cat, dog, dog, cat, dog, dog,
+      cat, dog, ?" Class predicts "dog" (the double pattern continues).
+      Reinforces the double-element pattern types. Pin to "Patterns"
+      word-wall area.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pocket-chart routine. Teacher displays AAB and ABB patterns mixed
+      together; class identifies which type each is + continues each.
+      Pair work: kid A creates an AAB OR ABB pattern with paper-cuts;
+      kid B identifies the type and continues. Recast errors. Optional
+      extension: kids translate body-action patterns into AAB/ABB form
+      (clap-clap-stomp; clap-stomp-stomp) — embodied pattern-recognition
+      with auditory rhythm.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: pattern-train worksheet AAB mode (kids
+      complete AAB patterns). Station 2: pattern-train worksheet ABB mode
+      (kids complete ABB patterns). Station 3: pattern-worksheet mixed
+      (kids identify and complete both AAB and ABB patterns; cognitive
+      load of switching between pattern types). Station 4: manipulative
+      cut-outs hands-on AAB/ABB construction.
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class quick-recall. Teacher displays mixed AAB and ABB
+      patterns; class collectively identifies each type + completes.
+      Forward-pointer: "Today we learned AAB and ABB patterns. When we
+      come back to patterns next, we'll learn ABC patterns — three
+      different items in repeating sequence."
+
+composedExercises:
+  - appName: pattern-train
+    exerciseMode: AAB
+    customizationParameters: { patternSelect: AAB, themeSelect: animals }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: pattern-train
+    exerciseMode: ABB
+    customizationParameters: { patternSelect: ABB, themeSelect: animals }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: pattern-worksheet
+    exerciseMode: mixed
+    customizationParameters: { exerciseCount: 6, themeSelect: shapes }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: pattern-train
+    exerciseMode: AAB
+    customizationParameters: { patternSelect: AAB, themeSelect: vehicles }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: production-prompt
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: vehicles
+      cardCount: 12
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 6
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: false
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 30
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: cognitive-and-executive-function / pattern-recognition.
+    Secondary strand: vocabulary acquisition (vocab-anchored). Tertiary
+    strand: working-memory (3-element pattern requires holding more
+    pattern-rule complexity than 2-element AB).
+
+    Pairing pattern with foundational package: identify-AB-pattern
+    (Arc 7 Phase 1 companion) provides the 2-element AB foundation;
+    this package extends to 3-element AAB + ABB patterns. Sequential
+    prereq-chain: kids who learned AB are immediately ready for AAB/ABB.
+
+    Distinctive composition: 3 pattern-train exercises across 2 different
+    pattern modes (AAB at positions 1, 5; ABB at position 2) — validates
+    that pattern-train architecture handles dual-mode pattern types
+    cleanly. matching at position 3 + pattern-worksheet at position 4
+    introduce variety in cognitive-task surface.
+
+    Cognitive-load ladder vs AB: AAB and ABB require kids to track
+    "which item is doubled" within the 3-element rule. Higher working-
+    memory load than AB. Reflected in higher Pre-K differentiation
+    threshold (AB works at Pre-K; AAB/ABB starts at K).
+
+    K-3 multilingual classroom relevance: pattern-recognition continues
+    to be language-portable; vocabulary-anchor preserved. Same high-
+    leverage time use as AB-pattern package.
+
+curriculumStandards:
+  - CCSS.K.OA.A.4
+  - EYFS.ELG.M
+  - IB-PYP.HowTheWorldWorks
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Identify whether a pattern is AAB or ABB in 7 of 10 trials.
+      - Complete AAB patterns with 2-3 missing items in 7 of 10 trials.
+      - Complete ABB patterns with 2-3 missing items in 7 of 10 trials.
+      - Name the doubled and single objects in 8 of 10 patterns
+        (vocabulary-anchor verification).
+
+    Differentiation:
+    - Pre-K: NOT appropriate (use identify-AB-pattern instead).
+    - K: AAB OR ABB only; introduce one type at a time.
+    - Grade 1+: full AAB + ABB recognition + extend to identify-ABC-
+      pattern (Arc 7 Phase 2 companion) + identify-AABB-pattern.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

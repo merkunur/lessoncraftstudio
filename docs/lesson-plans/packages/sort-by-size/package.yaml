@@ -1,0 +1,232 @@
+# Teaching package — sort objects by size
+# Arc 7 Phase 1 (Path B; cognitive-and-executive-function / sorting-and-
+# classification strand). Closes the basic-attribute-sorting trilogy with
+# Arc 5 Phase 3 sort-by-color + sort-by-shape. Class B FLEXIBLE; substrate-
+# clean against image-library breadth + use-size-comparison-words (Arc 6
+# Phase 1) provides the size-vocabulary substrate.
+
+targetSlug: sort-by-size
+language: en
+title:
+  en: "Sort by Size — group objects by size attribute"
+description:
+  en: "Pre-K to Grade 1 cognitive-and-executive-function package teaching size-based attribute sorting. Closes the basic-attribute-sorting trilogy: sort-by-color (Arc 5 Phase 3) + sort-by-shape (Arc 5 Phase 3) + sort-by-size (this package). Cognitive transfer surface: kids who learned color/shape sorting now hold 'size' as the rule. Vocab-anchored against use-size-comparison-words (Arc 6 Phase 1). 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class introduction. Teacher places 3 objects of contrasting
+      sizes on the carpet (e.g., a large stuffed bear, a medium-sized
+      stuffed bear, a small stuffed bear). Names each: "This is BIG,
+      this is MEDIUM, this is SMALL." Class repeats. Then mixes more
+      objects of varied sizes; class collaboratively places each on
+      labeled "BIG / MEDIUM / SMALL" mats. Reinforces size-vocabulary
+      (from use-size-comparison-words; Arc 6 Phase 1) + the meta-skill
+      of "looking through" a group for one attribute (size).
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Whole-class sorting routine. Teacher places 3 size-mat cards (BIG /
+      MEDIUM / SMALL) on the carpet. Holds up mixed objects of varied
+      sizes; class collaboratively places each on the matching mat.
+      Pair work: kid A picks an object; kid B identifies its size and
+      places it. Recast errors. Optional extension: kids notice that
+      size is RELATIVE (a small dog is small compared to a horse but big
+      compared to a mouse) — discuss attribute-context dependency.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: picture-sort worksheet (sort objects
+      between 2 size contrasts — big vs small). Station 2: big-small
+      worksheet (kids identify which of 2 objects is bigger/smaller).
+      Station 3: manipulative cut-outs hands-on size sorting (kids
+      physically place 20+ cut-outs on 3 size-mats; emphasizes multiple-
+      object sustained sorting attention).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class quick-recall. Teacher names a size; kids show with
+      classroom objects ("everyone find something SMALL!"). Forward-
+      pointer: "Today we sorted by size. Now we know how to sort by
+      COLOR, SHAPE, and SIZE — three different ways to look at the
+      same objects."
+
+composedExercises:
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: animals, rightCategoryThemeSelect: vehicles, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: big-small
+    exerciseMode: find-one
+    customizationParameters: { themeSelect: animals }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: big-small
+    exerciseMode: order-n
+    customizationParameters: { themeSelect: vehicles }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: shapes, rightCategoryThemeSelect: animals, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: production-prompt
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: vehicles
+      cardCount: 12
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 6
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: false
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 30
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: cognitive-and-executive-function / sorting-and-
+    classification. Secondary strand: vocabulary acquisition (size-
+    comparison vocab-anchored; depends on use-size-comparison-words
+    package from Arc 6 Phase 1). Tertiary strand: comparative reasoning
+    (sorting-by-size requires same comparative skill as compare-by-
+    length / compare-by-weight from numeracy/measurement strand).
+
+    Architectural significance: closes the basic-attribute-sorting
+    trilogy. Arc 5 Phase 3 shipped sort-by-color + sort-by-shape; this
+    Arc 7 Phase 1 package adds sort-by-size. The trilogy validates
+    that sorting-by-attribute architecture generalizes across the 3
+    most basic visual attributes (color → shape → size).
+
+    Distinctive composition vs sort-by-color/sort-by-shape: 2 picture-
+    sort exercises (positions 1, 5) + 2 big-small exercises (positions
+    2, 4) + 1 matching at position 3. The big-small app integration
+    distinguishes this package — sort-by-color used picture-sort
+    primarily; sort-by-size leverages the existing big-small app for
+    size-specific cognitive surface. Validates that sorting packages
+    can integrate domain-specific apps when relevant.
+
+    Cross-package prereq integration: this package depends pedagogically
+    on use-size-comparison-words (Arc 6 Phase 1) — kids must know
+    big/small/medium vocabulary before sorting by size. Validates
+    arc-to-arc prereq chain (Arc 6 vocab → Arc 7 sorting using vocab).
+
+    K-3 multilingual classroom relevance: size-recognition is universal;
+    size-vocabulary is locale-specific (suppletive forms in pt: maior/
+    menor; -er suffix in en: bigger/smaller; analytic mehr/weniger in
+    de). The package leverages existing big-small app's 11-locale
+    rendering; operator-side instruction language sets rendered output.
+
+curriculumStandards:
+  - CCSS.K.MD.B.3
+  - CCSS.K.MD.A.2
+  - EYFS.ELG.M
+  - IB-PYP.HowWeOrganize
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Sort 8-10 mixed objects by size into 2 size categories (big vs
+        small) with 90%+ accuracy.
+      - Sort 12-15 mixed objects into 3 size categories (big / medium /
+        small) with 75%+ accuracy.
+      - Use size-vocabulary spontaneously when sorting (vocabulary-anchor
+        verification).
+
+    Differentiation:
+    - Pre-K: 2-size sorting only (big vs small).
+    - K: 3-size sorting; mixed-object substrate.
+    - Grade 1+: extend to sort-by-multiple-attributes (sort by color AND
+      size; or shape AND size simultaneously) — combines basic-attribute
+      trilogy work into multi-attribute reasoning.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

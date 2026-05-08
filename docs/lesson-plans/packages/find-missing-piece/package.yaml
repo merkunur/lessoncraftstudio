@@ -1,0 +1,229 @@
+# Teaching package — find the correct missing piece for a picture
+# Arc 6 Phase 2 (Option A vocab-depth) — fine-motor-and-visual-spatial /
+# visual-discrimination strand. Companion to match-image-to-shadow + match-
+# image-piece-to-whole. Vocab-anchored. Class B FLEXIBLE; substrate-ready
+# via missing-pieces app + image-library breadth.
+
+targetSlug: find-missing-piece
+language: en
+title:
+  en: "Find the Missing Piece — completing partial pictures"
+description:
+  en: "Pre-K to Kindergarten visual-discrimination package teaching kids to find the correct missing piece that completes a partial picture. Foundational visual-spatial reasoning: kids hold the whole-picture's shape + content in mind while evaluating candidate pieces. Vocab-anchored — naming the whole picture reinforces vocabulary. Composes against missing-pieces app + image-library breadth. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class introduction. Teacher displays a complete picture (e.g.,
+      a cat). Then displays the same picture with a circular hole cut
+      out of the middle. "Something is missing! What's missing?" Class
+      describes the missing portion. Then teacher offers 3 candidate
+      pieces; class picks the one that fits. Repeat 2-3 times. Reinforces
+      the missing-piece reasoning pattern. Pin to "Visual Skills"
+      word-wall area.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pocket-chart routine: teacher shows a picture-with-missing-piece;
+      class names what the picture is + describes what's missing.
+      Multiple-choice setup: teacher offers 3 candidate pieces; class
+      picks the right one. Pair work: kid A presents a missing-piece
+      puzzle; kid B picks from candidate pieces. Recast errors with
+      explanation ("the missing piece needs to be ROUND because the
+      hole is round" — bridges shape recognition + spatial reasoning).
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: missing-pieces worksheet (kids draw
+      lines connecting pictures-with-holes to correct piece-options).
+      Station 2: matching worksheet (image-name reinforces image
+      vocabulary). Station 3: manipulative cut-outs missing-piece
+      construction (kids cut a shape out of a printed picture, mix
+      with distractor shapes, give to partner who reassembles —
+      kinesthetic puzzle-solving practice).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class quick-recall. Teacher displays a complex missing-piece
+      puzzle; class collectively finds the right piece. Forward-pointer:
+      "Today we found missing pieces. When we come back to puzzles
+      next, we'll do bigger jigsaw puzzles where MULTIPLE pieces are
+      missing."
+
+composedExercises:
+  - appName: missing-pieces
+    exerciseMode: circle
+    customizationParameters: { pieceShapeSelect: circle, themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: missing-pieces
+    exerciseMode: rect-portrait
+    customizationParameters: { pieceShapeSelect: rect-portrait, themeSelect: vehicles, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: missing-pieces
+    exerciseMode: ellipse-landscape
+    customizationParameters: { pieceShapeSelect: ellipse-landscape, themeSelect: fruits, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: missing-pieces
+    exerciseMode: circle
+    customizationParameters: { pieceShapeSelect: circle, themeSelect: shapes, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 2
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: false
+    ordering: 3
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 18
+      itemSize: medium-1.5in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 4
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: vehicles
+      mode: single-repeat
+      itemCount: 18
+      itemSize: medium-1.5in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: fine-motor-and-visual-spatial / visual-discrimination.
+    Secondary strand: vocabulary acquisition (vocab-anchored). Tertiary
+    strand: shape recognition (kids identify the SHAPE of the missing
+    piece — circle, rectangle, ellipse — before evaluating candidate
+    pieces).
+
+    Vocab-anchor framing: same Phase 2 interpretation. Visual-spatial
+    domain target with vocabulary-anchor pedagogical thread.
+
+    Distinctive composition vs Phase 2 visual-discrimination siblings:
+    uses missing-pieces app (5 modes available); 4 of 5 composedExercises
+    use missing-pieces across 4 different shape-types (circle / rect-
+    portrait / ellipse-landscape / circle again at assessment) +
+    multiple theme contexts. Validates that missing-pieces architecture
+    handles diverse shape types within teaching-package framework.
+
+    Trio integration: match-image-to-shadow + match-image-piece-to-whole +
+    find-missing-piece form a visual-discrimination trio in Arc 6 Phase 2.
+    Each tackles a distinct visual-spatial reasoning surface:
+    - shadow-match: full-image vs silhouette
+    - piece-to-whole: fragmented partial vs full
+    - find-missing-piece: image-with-hole vs candidate-piece-with-shape
+    Together they validate the visual-discrimination strand at depth;
+    fine-motor-and-visual-spatial domain receives 4 packages by Arc 6
+    Phase 2 close (Arc 5 use-position-vocabulary + 3 Phase 2 trio).
+
+    K-3 multilingual classroom relevance: missing-piece reasoning is a
+    canonical visual-spatial K-3 skill (kids' jigsaw puzzles). Vocab-
+    anchor pattern continues; high-leverage K-3 multilingual classroom
+    time use.
+
+curriculumStandards:
+  - EYFS.ELG.M
+  - EYFS.ELG.UW
+  - IB-PYP.HowTheWorldWorks
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Find the correct missing piece in 8 of 10 trials when 3 candidates
+        are offered.
+      - Name the whole image before/after finding the piece in 8 of 10
+        trials (vocabulary-anchor verification).
+      - Articulate the strategy ("the piece must match the SHAPE of the
+        hole AND the COLOR of the surrounding image") when prompted.
+
+    Differentiation:
+    - Pre-K: 2 candidate pieces; large hole shapes.
+    - K: 3 candidate pieces; varied hole shapes.
+    - Grade 1+: 4-5 candidate pieces; subtle distinctions between
+      candidate pieces (similar colors; close shapes); extend to
+      multi-piece jigsaw puzzles (visual-spatial-strand depth).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

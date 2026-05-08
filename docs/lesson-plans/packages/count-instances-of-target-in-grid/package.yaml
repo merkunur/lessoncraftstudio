@@ -1,0 +1,231 @@
+# Teaching package — count instances of a target in a grid
+# Arc 6 Phase 2 (Option A vocab-depth) — cognitive-and-executive-function /
+# memory-and-attention strand. Companion to find-hidden-target-in-busy-scene
+# (Phase 2 sibling). Vocab-anchored: kids name the target before counting
+# instances. Class B FLEXIBLE; substrate-ready via find-and-count app +
+# image-library breadth.
+
+targetSlug: count-instances-of-target-in-grid
+language: en
+title:
+  en: "Count Instances in a Grid — count how many of one target appear"
+description:
+  en: "Kindergarten-Grade 1 cognitive-and-executive-function package teaching combined visual scanning + counting. Kids count how many instances of a named target appear in a mixed grid. Bridges find-hidden-target work (Phase 2 sibling) with numeracy counting (Arc 3+). Vocab-anchored — naming the target reinforces vocabulary. Composes against find-and-count app + image-library breadth. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class introduction. Teacher displays a 4×4 grid with mixed
+      images (some cats, some dogs, some birds). Names a target: "Count
+      how many cats." Class counts chorally as teacher points to each
+      cat. Repeat with 2-3 different targets in the same grid. Reinforces
+      counting + visual-scanning + the meta-skill of "tracking what I'm
+      counting through a busy field." Pin to "Counting + Searching" area.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Whole-class find-and-count routine. Teacher presents a new grid with
+      multiple targets. Names the target; class collaboratively counts.
+      Pair work: kid A picks a target from a grid; kid B counts instances
+      with kid A verifying. Recast errors. Optional extension: kids
+      construct their own grids with cut-outs and count each other's
+      grids — peer-teaching reinforces the routine.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: find-and-count worksheet (kids count
+      instances of named targets in 4×4 or 5×5 grids). Station 2:
+      matching worksheet (image-name reinforces target vocabulary).
+      Station 3: manipulative cut-outs grid construction (kids place
+      cut-outs in a printed-grid template, then ask a partner to count
+      a specific target — combines spatial reasoning with vocabulary +
+      counting).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class quick-recall. Teacher displays a grid; kids count a
+      named target collectively. Forward-pointer: "Today we counted
+      hidden things in busy grids. When we come back to counting next,
+      we'll count even bigger groups and use number words instead of
+      tally marks."
+
+composedExercises:
+  - appName: find-and-count
+    exerciseMode: unified
+    customizationParameters: { gridRows: 4, gridCols: 4, themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: find-and-count
+    exerciseMode: unified
+    customizationParameters: { gridRows: 4, gridCols: 4, themeSelect: vegetables, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: find-and-count
+    exerciseMode: unified
+    customizationParameters: { gridRows: 5, gridCols: 5, themeSelect: vehicles, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: find-and-count
+    exerciseMode: unified
+    customizationParameters: { gridRows: 5, gridCols: 5, themeSelect: shapes, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 2
+    pedagogicalRole: vocabulary-game
+  - materialSlug: numeral-cards
+    customizationParameters:
+      numeralRange: "1-10"
+      showNumberWord: true
+      language: en
+      cardsPerPage: 4
+      paperSize: a4
+      borderStyle: thick
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 3
+    pedagogicalRole: math-and-categorization-support
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: there-are-count-plural
+      imageSource: theme
+      themeName: animals
+      stripCount: 10
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 30
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: cognitive-and-executive-function / memory-and-attention.
+    Secondary strand: vocabulary acquisition (vocab-anchored). Tertiary
+    strand: counting + numeracy (count-instances IS counting; bridges
+    cognitive-domain work with numeracy-strand work from Arc 3 +
+    Arc 5).
+
+    Vocab-anchor framing: same Phase 2 vocab-anchored interpretation as
+    find-hidden-target-in-busy-scene (sibling). Cognitive-domain target
+    is the architectural shape; vocabulary-anchor is the pedagogical
+    thread. Distinct from sibling: this package adds a counting-axis
+    (kids count instances; sibling kids find single instances).
+
+    Distinctive composition: 4 find-and-count exercises (positions 1, 3,
+    4, 5) across 4 theme contexts (animals, vegetables, vehicles, shapes)
+    + 1 matching at position 2. Higher app-density than sibling reflects
+    the count-axis specificity — kids practice counting in multiple
+    theme contexts to generalize the count-while-scanning skill.
+
+    Materials addition: numeral-cards at material 3. This package uses
+    numeral-cards as a counting-anchor — kids count instances and place
+    the matching numeral card next to each grid as they finish. Bridges
+    cognitive-domain work with Arc 3's numeral-cards material introduction.
+
+    Cross-package thematic complement: count-instances-of-target-in-grid
+    pairs naturally with Arc 3's count-objects-1-to-N packages. Kids who
+    completed Arc 3 counting work transfer the counting skill into
+    cognitive-scanning context here.
+
+    K-3 multilingual classroom relevance: combined search-and-count
+    integrates language (target name) + cognition (visual scanning) +
+    numeracy (counting) in one task. Highly leveraged for K-3 multi-
+    skill development. Per the §1 SEO flywheel theme-agnosticism: count-
+    instances composes against any theme axis; substrate-flexible.
+
+curriculumStandards:
+  - CCSS.K.CC.B.5
+  - EYFS.ELG.M
+  - EYFS.ELG.UW
+  - IB-PYP.HowWeOrganize
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Count instances of a single target in a 4×4 grid with 80%+
+        accuracy.
+      - Count instances of a single target in a 5×5 grid with 70%+
+        accuracy.
+      - Name the target before counting in 8 of 10 trials (vocabulary-
+        anchor verification).
+
+    Differentiation:
+    - Pre-K: 3×3 grids; tally with manipulatives; adult-supported counting.
+    - K: 4×4 grids; independent counting up to 6.
+    - Grade 1+: 5×5 grids; counting up to 12; extend to multi-target
+      counting (count instances of 2 different targets simultaneously
+      — increases working-memory load).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

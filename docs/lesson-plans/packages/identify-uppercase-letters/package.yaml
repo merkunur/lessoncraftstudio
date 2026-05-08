@@ -1,0 +1,235 @@
+# Teaching package — identify uppercase letters of the alphabet
+# Arc 10 Phase 1 (Path B; early-literacy / letter-recognition strand
+# deepening). Class B FLEXIBLE; vocab-anchored. Builds on Arc 9 Phase 1
+# identify-letter-by-image-clue. Letter-recognition strand grows 1/6 → 2/6.
+
+targetSlug: identify-uppercase-letters
+language: en
+title:
+  en: "Uppercase Letters — recognize all 26 capital letters"
+description:
+  en: "Kindergarten early-literacy package teaching uppercase letter recognition. Builds on Arc 9 identify-letter-by-image-clue (initial-letter-by-image work) — kids now systematically recognize all 26 uppercase letters in isolation, paired with familiar vocabulary anchors. Pre-reading bridge: kids transition from image-mediated letter awareness to direct letter recognition. Vocab-anchored throughout: each letter has a familiar vocab anchor (A-Apple, B-Banana, C-Cat...). Composes against alphabet-train + matching apps. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class alphabet chant + display routine. Teacher displays
+      a large alphabet poster with uppercase letters A-Z. Class chants
+      the alphabet song while pointing at each letter. Teacher then
+      asks: "Find the letter A" — kids point. "Find the letter B" —
+      kids point. Repeat with several letters. Reinforces letter-
+      shape recognition + sequential alphabet awareness.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + letter-name routine. Each pair receives a deck of 26
+      uppercase letter cards + 26 picture cards (one per letter's
+      vocab anchor). Pair takes turns: kid A draws a letter card +
+      names the letter; kid B finds the matching picture card whose
+      vocab starts with that letter. Recast errors with explanation
+      ("you said this is letter L but it's actually I — look at the
+      shape: I is a straight vertical line; L has a horizontal line
+      at the bottom"). Optional extension: kids construct a personal
+      alphabet book by matching letters to pictures from the deck.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: alphabet-train worksheet (kids
+      identify uppercase letters in train-themed visual). Station 2:
+      matching worksheet (uppercase letter to picture vocab anchor).
+      Station 3: vocabulary-tracing-strips (kids trace uppercase
+      letters of vocabulary words; reinforces letter-shape recognition
+      via writing). Station 4: word-guess (kids fill in uppercase
+      letters from picture clues).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class letter-quiz routine. Teacher displays 5-6 uppercase
+      letters in random order; class collectively names each in
+      sequence. Forward-pointer: "Today we recognized uppercase
+      letters. When we come back to letters next, we'll learn LOWERCASE
+      letters — and how each uppercase letter has a lowercase partner
+      that looks similar but smaller (Aa, Bb, Cc...)."
+
+composedExercises:
+  - appName: alphabet-train
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: alphabet-train
+    exerciseMode: unified
+    customizationParameters: { themeSelect: fruits, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: upper, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: UPPERCASE
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: UPPERCASE
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      stripCount: 10
+      stripsPerPage: 5
+      labelCase: UPPERCASE
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: early-literacy / letter-recognition (uppercase letter
+    naming). Secondary strand: vocabulary acquisition (vocab-anchored —
+    each letter paired with familiar vocab item). Tertiary strand: visual
+    discrimination (uppercase letter shapes; B vs D vs P vs R contrast).
+
+    Architectural significance: deepens letter-recognition strand from
+    1/6 → 2/6 packages. Builds on Arc 9 Phase 1 identify-letter-by-image-
+    clue (initial-letter-by-image-clue mediation) — kids transition
+    from image-mediated letter awareness to direct letter recognition.
+    The 26-letter systematic coverage establishes uppercase as a
+    foundational alphabet-knowledge target.
+
+    Distinctive composition: uppercase-emphasis throughout — `letterCase:
+    UPPERCASE` set on flashcards + matching-mat + vocabulary-tracing-
+    strips materials + word-guess exercise. The case parameter gives
+    consistent uppercase reinforcement. matching at position 5 uses
+    letter mode (image to LETTER directly) for assessment.
+
+    Cross-strand integration: uppercase-recognition + vocabulary
+    acquisition (vocab-anchored) + visual-discrimination (uppercase
+    shape contrasts). The package leverages Arc 1+5+6+8 vocabulary
+    work + Arc 9 letter-recognition work as foundation.
+
+    Class B FLEXIBLE substrate: composes against image-library breadth
+    + alphabet poster materials. Universal substrate-readiness across
+    vocab-rich themes that have at least one anchor per letter.
+
+    K-3 multilingual classroom relevance: uppercase letter recognition
+    is target-language-specific (the en alphabet has 26 letters; some
+    locales have 27-32). Locale-variant sparse-overrides handle locale-
+    specific letter inventories per Phase 3 protocol.
+
+curriculumStandards:
+  - CCSS.K.RF.1.D
+  - EYFS.ELG.LIT
+  - IB-PYP.HowWeExpressOurselves
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Name 22 of 26 uppercase letters in random order in 8 of 10
+        trials.
+      - Match a vocabulary picture to its initial uppercase letter on
+        an alphabet strip in 8 of 10 trials.
+      - Recognize uppercase letters within familiar words (e.g., own
+        name) in 7 of 10 trials.
+
+    Differentiation:
+    - Pre-K: 13 most-frequent letters (vowels + frequent consonants:
+      A, E, I, O, U, B, C, D, M, N, S, T, R).
+    - K: all 26 uppercase letters.
+    - Grade 1+: bridge to lowercase recognition (Arc 11+ candidate);
+      uppercase + lowercase pairing.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

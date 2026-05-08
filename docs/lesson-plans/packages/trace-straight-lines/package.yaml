@@ -1,0 +1,241 @@
+# Teaching package — trace straight lines (horizontal, vertical, diagonal)
+# Arc 10 Phase 1 (Path B; fine-motor-and-visual-spatial / drawing-and-
+# tracing strand FIRST package). Class B FLEXIBLE; vocab-anchored.
+# Foundational fine-motor skill: kids trace straight lines as building
+# block for later letter formation + shape construction.
+
+targetSlug: trace-straight-lines
+language: en
+title:
+  en: "Tracing Straight Lines — horizontal, vertical, and diagonal"
+description:
+  en: "Preschool / Kindergarten fine-motor-and-visual-spatial package teaching straight-line tracing. FIRST drawing-and-tracing strand package in the catalog. Foundational fine-motor skill: kids practice horizontal, vertical, and diagonal straight-line tracing as building blocks for later letter formation (uppercase letters use straight lines: A, E, F, H, I, K, L, M, N, T, V, W, X, Y, Z) + shape construction. Develops pencil control + visual-motor coordination + line-following accuracy. Composes against alphabet-train + matching apps for vocab support; vocabulary-tracing-strips material is the load-bearing tracing surface. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class large-motor-to-fine-motor routine. Teacher leads
+      class in tracing straight lines IN THE AIR with arms — first
+      vertical (up-down), then horizontal (side-to-side), then
+      diagonal (corner-to-corner). Class follows. "Now we'll trace
+      the same lines on paper." Reinforces line-direction
+      kinesthetically before pencil work begins.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + tracing routine. Each kid receives a tracing strip
+      with horizontal, vertical, and diagonal dotted lines + a thick
+      crayon or pencil. Kid traces each line slowly, trying to stay
+      ON the dots. Partner verifies. Recast errors with explanation
+      ("you're going off the line — let's slow down. Trace from the
+      START dot to the END dot, staying on the dotted path"). Optional
+      extension: kids progress from dotted-line tracing to outline-
+      tracing (lighter guidance) to free-hand drawing of straight
+      lines (no guidance).
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: vocabulary-tracing-strips (kids
+      trace dotted-line letters of vocab words; reinforces straight-
+      line tracing within letter context). Station 2: alphabet-train
+      worksheet (kids identify letters; reinforces letter-shape
+      awareness that tracing supports). Station 3: manipulative cut-
+      outs hands-on line-construction (kids assemble paper-cut straight
+      lines into shapes — square = 4 lines; triangle = 3 lines).
+      Station 4: matching worksheet (image-name pairs reinforce vocab
+      base).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class progress-display. Kids share their tracing work +
+      describe which line direction was hardest (most kids report
+      diagonal). Teacher affirms: "Diagonal lines are hardest because
+      our hand has to move in two directions at once." Forward-pointer:
+      "Today we traced straight lines. When we come back to tracing
+      next, we'll trace CURVED lines — the building blocks for letters
+      like O, C, G, U, S, J."
+
+composedExercises:
+  - appName: alphabet-train
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: alphabet-train
+    exerciseMode: unified
+    customizationParameters: { themeSelect: shapes, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      stripCount: 12
+      stripsPerPage: 6
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: outline
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 2
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 3
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-game
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      mode: single-repeat
+      itemCount: 30
+      itemSize: medium-1.5in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: fine-motor-and-visual-spatial / drawing-and-tracing
+    (straight-line tracing). Secondary strand: visual-motor coordination
+    (hand-eye line-following). Tertiary strand: pre-handwriting (straight
+    lines are letter-formation precursors).
+
+    Architectural significance: FIRST drawing-and-tracing strand package
+    in the catalog. Pre-handwriting bridge: kids develop pencil control
+    + line-following accuracy BEFORE encountering letter-formation
+    work (handwriting strand: form-uppercase-letters, form-lowercase-
+    letters, form-numerals — Arc 11+ candidates). Foundational K-3
+    fine-motor scaffolding.
+
+    Distinctive composition: 2 vocabulary-tracing-strips materials at
+    different traceStyle parameters (dotted + outline) — gradual
+    fading of guidance from visible-trace-line to outline-only.
+    Demonstrates progression: dotted (heavy guidance) → outline
+    (light guidance) → free-hand (no guidance). Pedagogically aligned
+    with how K-3 fine-motor work scaffolds toward independence.
+
+    Cross-strand integration: drawing-and-tracing + letter-recognition
+    (Arc 9+10) + vocabulary acquisition. Future arcs can build on this
+    foundation: trace-curved-lines (line-trace forward-pointer; Arc
+    11+ candidate) + trace-2d-shapes + draw-2d-shapes-freehand.
+
+    Class B FLEXIBLE substrate: composes against vocabulary-tracing-
+    strips material capability. Tracing works with any vocabulary +
+    any letter-shape; substrate-readiness universal.
+
+    K-3 multilingual classroom relevance: tracing is language-portable
+    — straight lines are straight lines regardless of locale. Across
+    11 platform locales, kids develop pencil control on the same
+    universal motor skills. Vocabulary anchor varies per locale per
+    sparse-override pattern, but the tracing mechanics are constant.
+
+curriculumStandards:
+  - CCSS.K.RF.1.A
+  - EYFS.ELG.PD
+  - EYFS.ELG.LIT
+  - IB-PYP.HowWeExpressOurselves
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Trace 5 of 6 dotted straight lines (horizontal, vertical,
+        diagonal) staying on the line in 7 of 10 attempts.
+      - Trace 3 of 4 outline straight lines (lighter guidance) in 6
+        of 10 attempts.
+      - Draw a freehand straight line approximating a target direction
+        in 5 of 10 attempts.
+
+    Differentiation:
+    - Pre-K: dotted-line tracing only; horizontal + vertical only
+      (skip diagonal); thick crayon.
+    - K: dotted + outline tracing across 3 directions (horizontal,
+      vertical, diagonal); pencil.
+    - Grade 1+: free-hand straight lines + bridge to trace-curved-lines
+      (Arc 11+ candidate); foundation for letter formation.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

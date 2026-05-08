@@ -1,0 +1,209 @@
+# Teaching package — spell tier-1 high-frequency sight words
+# Arc 13 Phase 2 (Option G CONTINUATION; spelling-and-encoding 1/5 → 2/5).
+# Resolves Arc 12 spell-cvc-words forward-pointer.
+
+targetSlug: spell-high-frequency-sight-words-tier-1
+language: en
+title:
+  en: "Sight Words — spell the, is, and, I, a"
+description:
+  en: "Kindergarten / Grade 1 early-literacy package teaching tier-1 sight word spelling. Builds on Arc 12 spell-cvc-words. RESOLVES Arc 12 forward-pointer ('spell HIGH-FREQUENCY SIGHT WORDS — common short words like the, is, and, I that don't follow CVC patterns + need to be memorized'). Tier-1 sight words: the, is, and, I, a, to, of, you, for, in. These 10 words appear in ~25% of K-3 reading text; rapid sight-recognition is foundational reading fluency. 5 exercises + 7 materials over 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class sight-word display. Teacher writes 10 tier-1 sight
+      words on cards; says + spells each. 'These words appear A LOT
+      in reading. We don't sound them out — we MEMORIZE them so we
+      can read them quickly. THE: T-H-E. IS: I-S. AND: A-N-D.' Class
+      chants spellings.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + sight-word drill routine. Each pair receives 10
+      sight-word flashcards. Pair takes turns: kid A flashes a card;
+      kid B reads + spells. Aim for INSTANT recognition, no sounding-
+      out. Recast errors with explanation ('you spelled THE as T-H —
+      missing the e at the end. THE has 3 letters: T, H, E. Practice:
+      T-H-E, the').
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: vocabulary-tracing-strips with
+      sight words. Station 2: word-scramble (sight word letters).
+      Station 3: manipulative cut-outs sight-word construction.
+      Station 4: matching worksheet (image-context-with-sight-word).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class sight-word quiz. Teacher dictates 5 sight words;
+      class writes each. Forward-pointer: 'Today we learned tier-1
+      sight words. When we come back next, we will learn TIER-2
+      sight words — go, see, was, like, said — adding to our growing
+      sight-word bank.'
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: word-scramble
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: word-scramble
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      stripCount: 12
+      stripsPerPage: 6
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: early-literacy / spelling-and-encoding (sight word
+    spelling). Secondary strand: vocabulary acquisition. Tertiary
+    strand: reading fluency (sight words drive reading-speed +
+    automaticity).
+
+    Architectural significance: deepens spelling-and-encoding strand
+    1/5 → 2/5. Resolves Arc 12 spell-cvc-words forward-pointer.
+    Sight words are non-CVC — pattern-irregular high-frequency words
+    that resist phonics-decoding (the, of, you don't follow CVC rule).
+    Memorization-via-repetition is the canonical strategy.
+
+    K-3 multilingual classroom relevance: en sight words target-
+    language-specific. Locale sparse-overrides handle locale-specific
+    high-frequency words (es high-frequency: el, la, es, y, yo;
+    pt-BR: o, a, é, e, eu; etc.).
+
+curriculumStandards:
+  - CCSS.K.RF.3.C
+  - CCSS.1.RF.3.G
+  - EYFS.ELG.LIT
+  - IB-PYP.HowWeExpressOurselves
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Read 8 of 10 tier-1 sight words instantly (no sounding-out)
+        in 9 of 10 trials.
+      - Spell 8 of 10 tier-1 sight words from dictation in 8 of 10
+        trials.
+      - Recognize tier-1 sight words within sentences in 7 of 10 trials.
+
+    Differentiation:
+    - Pre-K: 5 sight words (the, is, a, I, to); receptive recognition.
+    - K: 10 sight words; receptive + productive spelling.
+    - Grade 1+: extend to spell-high-frequency-sight-words-tier-2
+      (Arc 14+ candidate); bridge to fluent reading.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

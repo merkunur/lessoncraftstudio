@@ -1,0 +1,206 @@
+# Teaching package — predict from picture cue
+# Arc 13 Phase 2 (Option G CONTINUATION; reading-comprehension 1/10 → 2/10).
+# Builds on Arc 12 match-sentence-to-picture.
+
+targetSlug: predict-from-picture-cue
+language: en
+title:
+  en: "Predict the Story — what will happen next?"
+description:
+  en: "Kindergarten / Grade 1 early-literacy package teaching prediction from picture cues. Builds on Arc 12 match-sentence-to-picture. Kids look at picture sequences (or single ambiguous pictures) + predict what happens next using context clues. Foundational comprehension strategy: prediction activates inference + builds engagement with text. Vocab-anchored — kids name what they see + what they predict. 5 exercises + 7 materials over 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class predict-the-next routine. Teacher displays a 3-
+      picture sequence: kid holding ice cream / kid tripping / [?].
+      'What happens next?' Class predicts (ice cream falls). 'How
+      do you know?' Discussion: kids reason from picture cues. Repeat
+      with 4-5 prediction sequences. Reinforces inference-from-cues
+      framing.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + predict-and-explain routine. Each pair receives 6
+      picture-prediction prompts. Pair takes turns: kid A shows a
+      prompt; kid B predicts what happens + explains reasoning. Recast
+      errors with explanation ('you predicted the dog will fly — let's
+      look: dogs don't fly. What CAN the dog do that makes sense?').
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching worksheet (cause-effect
+      picture pairs). Station 2: matching worksheet (image-name).
+      Station 3: manipulative cut-outs hands-on prediction-construction.
+      Station 4: word-guess + sentence-strips.
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class predict-aloud. Teacher displays a final picture; class
+      collectively predicts + explains. Forward-pointer: 'Today we
+      predicted from pictures. When we come back to comprehension next,
+      we will SEQUENCE 3-event stories — putting beginning + middle +
+      end in order.'
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: foods, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: i-see-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 10
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: early-literacy / reading-comprehension (prediction).
+    Secondary strand: speaking-and-listening (productive prediction
+    explanation). Tertiary strand: inference + reasoning.
+
+    Architectural significance: deepens reading-comprehension strand
+    1/10 → 2/10. Builds on Arc 12 match-sentence-to-picture.
+    Prediction is research-validated comprehension strategy
+    (activating inference + engagement with text).
+
+    K-3 multilingual classroom relevance: prediction is cognitively
+    universal; verbalization is language-specific. Productive-language
+    explanations ('I predict ___ because ___') reinforce reasoning
+    grammar.
+
+curriculumStandards:
+  - CCSS.K.RL.7
+  - CCSS.K.SL.4
+  - EYFS.ELG.CL
+  - IB-PYP.HowWeExpressOurselves
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Predict 6 of 8 picture-cue scenarios correctly in 7 of 10
+        trials.
+      - Articulate prediction reasoning in 6 of 10 trials.
+      - Apply prediction strategy to NEW unfamiliar picture in 5 of
+        10 trials.
+
+    Differentiation:
+    - Pre-K: 4 strong-cue scenarios; teacher-supported.
+    - K: 8 prediction scenarios; productive explanations.
+    - Grade 1+: extend to text-based prediction; bridge to sequence-
+      3-event-story (Arc 14+ candidate).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

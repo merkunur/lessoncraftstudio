@@ -1,0 +1,221 @@
+# Teaching package — label a picture with 1 word
+# Arc 13 Phase 2 (Option G CONTINUATION; writing-composition 1/8 → 2/8).
+# Deepens Arc 12 write-own-name. Reciprocity-pair with predict-from-picture-cue.
+
+targetSlug: label-a-picture-with-1-word
+language: en
+title:
+  en: "Label It — write one word for the picture"
+description:
+  en: "Kindergarten / Grade 1 early-literacy package teaching kids to label a picture with a single word. Builds on Arc 12 write-own-name (motor + ownership foundation) + Arc 9-12 letter-recognition + Arc 12 spell-cvc-words + Arc 13 Phase 2 spell-high-frequency-sight-words. Kids look at a picture (cat / dog / sun / hat) + write the word that names it on a labeled-line below. Bridge from name-writing-only to writing-for-meaning. Reciprocal partner to predict-from-picture-cue (comprehend-from-image / produce-from-image). 5 exercises + 7 materials over 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class label-and-write routine. Teacher displays a picture
+      of a cat + a labeled blank line beneath it: "What word names
+      this? Cat. Watch me write it: c-a-t. Now you write it." Class
+      writes c-a-t on personal whiteboards. Repeat with 4-5 short
+      familiar words (sun, dog, hat, bat). Reinforces picture-to-
+      word + write-the-word-you-see framing.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + label-and-check routine. Each pair receives 6
+      picture-with-blank-line cards. Pair takes turns: kid A writes
+      the labeling word; kid B verifies spelling against an answer
+      strip. Recast errors with explanation ('you wrote "kat" — let's
+      sound it out: /k/ /a/ /t/. K-A-T spells "kat" but the word for
+      this animal is spelled C-A-T. Both letters make the /k/ sound;
+      this word uses C'). Optional extension: kids label drawings
+      they create of familiar animals or objects.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: vocabulary-tracing-strips (kids
+      trace target words). Station 2: matching worksheet (image-name
+      pairs). Station 3: word-guess (kids fill word letters with
+      picture cues). Station 4: manipulative cut-outs hands-on label-
+      construction (kids assemble labels from letter tiles).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class label-display. Each kid shares a labeled drawing.
+      Forward-pointer: 'Today we wrote ONE word to label a picture.
+      When we come back to writing next, we will label with TWO or
+      THREE words — short noun phrases like "a big dog" or "the red
+      hat" — adding meaning beyond a single word.'
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: foods, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: word-scramble
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      stripCount: 12
+      stripsPerPage: 6
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 3
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-game
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: early-literacy / writing-composition (single-word
+    labeling). Secondary strand: spelling-and-encoding (kids encode the
+    target word's sounds into letters). Tertiary strand: vocabulary +
+    letter-recognition (anchor words drawn from familiar vocabulary).
+
+    Architectural significance: deepens writing-composition strand 1/8
+    → 2/8. Builds on Arc 12 write-own-name (kids' first written word →
+    kids' first written word that's NOT their own name). Reciprocity
+    pair with Arc 13 predict-from-picture-cue (comprehend-from-image /
+    produce-from-image): the same image-as-prompt mechanism powers
+    receptive comprehension AND productive writing.
+
+    Distinctive composition: tracing-heavy material set (vocabulary-
+    tracing-strips with dotted-trace + writing-line) supporting the
+    spell-then-write progression. word-scramble exercise reinforces
+    letter-order-matters at the writing-composition boundary.
+
+    K-3 multilingual classroom relevance: labeling-with-one-word is
+    universal across all 11 platform locales but spelling complexity
+    varies (en cat = 3 letters; de Katze = 5 letters; fi kissa = 5
+    letters with double-consonant). Locale-variant arcs may differentiate
+    target word-length per locale.
+
+curriculumStandards:
+  - CCSS.K.W.2
+  - CCSS.K.L.2.D
+  - CCSS.K.RF.3.A
+  - EYFS.ELG.LIT
+  - IB-PYP.HowWeExpressOurselves
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Label 6 of 8 familiar pictures with correct single word in 7 of
+        10 trials.
+      - Label NEW (unfamiliar) picture using sound-it-out spelling in 5
+        of 10 trials (phonetic spelling acceptable).
+      - Identify own labeling errors when shown answer in 6 of 10 trials.
+
+    Differentiation:
+    - Pre-K: trace pre-printed labels under pictures.
+    - K: write 3-4 letter labels independently for familiar words.
+    - Grade 1+: extend to label-picture-with-noun-phrase (Arc 14+
+      candidate) + bridge to write-a-simple-sentence-with-picture-prompt.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

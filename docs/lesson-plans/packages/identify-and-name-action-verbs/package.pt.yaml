@@ -1,0 +1,114 @@
+# Teaching package — identify and name action verbs (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 12 Phase 3 per Arc 3 Phase 1 sparse-override pattern).
+# pt sparse-override for early-literacy / vocabulary-acquisition strand.
+# Pt-BR action-verbs introduce -ar/-er/-ir conjugation awareness (without
+# formal conjugation work — that belongs in later arcs).
+
+title:
+  pt: "Verbos de Ação — nomeie o que as pessoas estão fazendo"
+description:
+  pt: "Pacote de letramento inicial para a Educação Infantil que ensina vocabulário de verbos de ação. **Pacote desbloqueado pelo Stream A Phase 1 (par com identify-and-name-family-members).** As crianças identificam e nomeiam 10 verbos de ação de alta frequência K-3 em pt-BR: correr, pular, andar, sentar, ficar em pé, dormir, comer, beber, brincar, ler. Vocabulário fundamental produtivo — verbos são o motor da construção-de-frases. Especificidade pt-BR: introduz consciência de conjugação -ar/-er/-ir (correr -er; pular -ar; ler -er) sem trabalho formal de conjugação (esse vem em arcos posteriores)."
+
+structure:
+  warmup:
+    body: |
+      Rotina de ação-e-nome com toda a turma. A professora ou o
+      professor demonstra uma ação: "Olhe — eu estou ANDANDO. Agora
+      você anda!" A turma anda pelo tapete. "O que acabamos de
+      fazer?" A turma: "Andar." Repita com 5-6 ações: pular, sentar,
+      ficar em pé, bater palmas (extensão), comer (faz-de-conta),
+      beber (faz-de-conta), dormir (faz-de-conta), brincar, ler
+      (leitura faz-de-conta). Reforça verbo-como-ação corporificado
+      cinestesicamente antes do trabalho de vocabulário simbólico.
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de mímica. Cada dupla recebe 10
+      cartões de imagem de verbos-de-ação. A dupla alterna: a criança
+      A pega um cartão + atua o verbo (sem dizer a palavra); a criança
+      B adivinha o verbo. Refraseie os erros com explicação ("você
+      disse andar — vamos olhar de novo. A criança está indo RÁPIDO
+      + na ponta dos pés — isso é CORRER, não andar"). Extensão
+      opcional: as crianças combinam 2 verbos em mini-sequências
+      ("primeiro eu corro, depois eu sento") + parceiros seguem.
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios de
+      emparelhamento (imagem-de-verbo-de-ação para par de nome-de-
+      verbo). Estação 2: folha de exercícios de emparelhamento
+      (verbo-de-ação para modelo de frase "Eu posso ___"). Estação
+      3: construção prática de ação com recortes manipulativos (as
+      crianças montam figuras de papel realizando diferentes ações;
+      parceiro nomeia cada ação). Estação 4: word-guess (as crianças
+      preenchem letras de verbos-de-ação a partir de pistas de
+      imagem).
+  closure:
+    body: |
+      Compartilhamento-de-ação com toda a turma. Cada criança
+      demonstra uma ação que pode fazer + nomeia ("Eu posso pular!"
+      "Eu sei ler!"). Indicador adiante: "Hoje aprendemos verbos de
+      ação — palavras que nomeiam o que as pessoas fazem. Quando
+      voltarmos ao vocabulário-de-ação na próxima vez, aprenderemos
+      a combinar verbos em FRASES CURTAS como 'O gato está dormindo'
+      ou 'Eu estou comendo uma maçã' — adicionando sujeitos +
+      ações juntos."
+
+assessmentCriteria:
+  pt: |
+    Nomear 8 de 10 itens de vocabulário de verbos-de-ação em 8 de 10
+    tentativas. Demonstrar 8 de 10 ações quando dada instrução verbal
+    em 9 de 10 tentativas. Usar o modelo "Eu posso ___" produtivamente
+    com 6 de 10 verbos em tentativas de linguagem produtiva.
+
+    Diferenciação:
+      - Pré-K: 6 verbos-de-ação mais frequentes (correr, pular, sentar,
+        ficar em pé, comer, dormir); identificação receptiva +
+        encenação cinestesica.
+      - K: 10 verbos de ação; modelo produtivo + ortografia.
+      - Primeiro ano em diante: estender para frases-com-objeto
+        ('comer uma maçã', 'ler um livro'); ponte para construção de
+        frases sujeito-verbo + introdução à conjugação -ar/-er/-ir.
+
+compositionalRationale:
+  pt: |
+    Fio principal: letramento inicial / aquisição de vocabulário
+    (nomeação de verbos-de-ação). Fio secundário: fala-e-escuta
+    (linguagem produtiva de descrição-de-ação). Fio terciário:
+    motor + integração cinestesica (mímica + verbo-ação corporificado).
+
+    Significância arquitetural: PACOTE DESBLOQUEADO PELO STREAM A.
+    Companheiro de identify-and-name-family-members (par Arc 12 Phase
+    1 Path A). Cadeia de adiamento de verbos-de-ação estendida Arco
+    4 → 11 com membros-da-família; Stream A Phase 1 substrate ship
+    no início do Arco 12 fechou ambos.
+
+    **Especificidade pt-BR — consciência de conjugação:** verbos pt-BR
+    pertencem a 3 conjugações:
+    - **-ar (1ª conjugação):** pular, andar, brincar, comer? — não,
+      'comer' é -er; vamos ver: pular, andar, brincar (todos -ar);
+      cantar, jogar, dançar (canônicos -ar)
+    - **-er (2ª conjugação):** correr, comer, beber, ler, ver
+    - **-ir (3ª conjugação):** dormir, sair, cair, abrir
+
+    Este pacote NÃO trabalha conjugação formalmente (esse vem em
+    arcos posteriores), mas as crianças brasileiras OUVEM o padrão
+    -ar/-er/-ir desde cedo + começam a internalizar a estrutura sem
+    trabalho explícito. O pacote em pt-BR usa formas infinitivas
+    (correr, pular, andar — não 'corre', 'pula', 'anda' que são
+    presente-3ª-pessoa) para apresentar o verbo na sua forma de
+    dicionário canônica.
+
+    **Ressalva cultural pt-BR:** brincar é uma palavra cultural-load-
+    bearing pt-BR — significa especificamente brincadeira-infantil-
+    livre (jogar com brinquedos, correr, fazer faz-de-conta). 'Jogar'
+    é mais próximo de en 'play games' (esportes ou jogos com regras).
+    Crianças brasileiras distinguem as duas — brincar é cotidiano
+    brincadeira-infantil; jogar é mais formal jogo-com-regras.
+
+    Substrato Class A CLEAN (pós-Stream-A-Phase-1-ship): vocabulário
+    de verbos-de-ação em IMAGE_VOCABULARY em todas as 11 locais.
+    Cognato-rico Romance (correr/correr/courir/correre; comer/comer/
+    comer/manger).
+
+    Substrato Class B FLEXIBLE: composta contra a amplitude da
+    biblioteca de imagens. Substrato-prontidão universal.

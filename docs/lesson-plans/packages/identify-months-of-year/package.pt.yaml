@@ -1,0 +1,124 @@
+# Teaching package — identify months of the year (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 12 Phase 3 per Arc 3 Phase 1 sparse-override pattern).
+# pt sparse-override for world-knowledge / time-and-routine strand. Pt-BR
+# month-name vocabulary + Brazilian cultural calendar (carnaval em
+# fevereiro; festa-junina em junho; primavera começa em setembro no Sul).
+
+title:
+  pt: "Meses do Ano — janeiro a dezembro"
+description:
+  pt: "Pacote de conhecimento de mundo para o jardim de infância / 1º ano que ensina os 12 meses em sequência. Constrói sobre identify-days-of-week do Arco 10 (fundação do fio time-and-routine). Especificidade pt-BR: cada mês carrega contexto cultural brasileiro distinto — janeiro = férias escolares no Brasil; fevereiro = Carnaval; junho = festa-junina; setembro = primavera no Hemisfério Sul; dezembro = Natal + verão. Vocabulário de meses + contexto cultural anclado simultaneamente."
+
+structure:
+  warmup:
+    body: |
+      Rotina de canto-de-meses com toda a turma. A professora ou o
+      professor e a turma cantam os 12 meses em sequência: janeiro,
+      fevereiro, março, abril, maio, junho, julho, agosto, setembro,
+      outubro, novembro, dezembro. Repita 3-4 vezes. A professora
+      ou o professor exibe um calendário-anual com 12 blocos de
+      mês; a turma identifica seu mês-de-aniversário + mês-da-
+      estação-favorita. Reforça sequência de nomes-de-mês + mês-
+      como-marcador-de-calendário-sazonal.
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de sequência-de-meses. Cada dupla
+      recebe 12 cartas de nome-de-mês em ordem embaralhada. A dupla
+      arruma cartas em sequência correta (janeiro → dezembro). A
+      professora ou o professor narra enquanto as crianças trabalham.
+      Refraseie os erros com explicação. Extensão opcional: as
+      crianças identificam quais meses pertencem a quais estações
+      brasileiras + culturalmente importantes:
+      - **janeiro:** férias escolares no Brasil; verão
+      - **fevereiro:** Carnaval (data móvel); fim do verão
+      - **março/abril/maio:** outono no Sul; época de festa-do-divino
+        em algumas regiões
+      - **junho:** festa-junina (cultural brasileiro central)
+      - **junho/julho/agosto:** inverno
+      - **setembro/outubro/novembro:** primavera; setembro = independência
+        do Brasil
+      - **dezembro:** Natal + verão chegando
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios de
+      emparelhamento (nome-de-mês para imagem-de-ícone-de-mês ou
+      contexto cultural — fevereiro/Carnaval; junho/festa-junina;
+      dezembro/Natal). Estação 2: word-scramble (as crianças
+      desembaralham nomes-de-mês; reforça ortografia). Estação 3:
+      construção prática de sequência-de-mês com recortes
+      manipulativos (as crianças constroem calendário-anual com
+      tiras-de-mês recortadas). Estação 4: word-guess (as crianças
+      preenchem letras de nome-de-mês a partir de pistas de imagem).
+  closure:
+    body: |
+      Rotina de quiz-de-mês com toda a turma. A professora ou o
+      professor nomeia um mês; a turma nomeia o mês ANTERIOR e
+      POSTERIOR (por exemplo, "março" → "fevereiro antes, abril
+      depois"). Indicador adiante: "Hoje aprendemos os MESES.
+      Quando voltarmos a palavras-de-tempo na próxima vez,
+      conectaremos meses a ESTAÇÕES — quais meses são mais quentes,
+      quais são mais frios — construindo o ciclo anual completo.
+      No Brasil, isso é especial porque temos estações INVERTIDAS
+      em relação ao Hemisfério Norte: nosso verão é dezembro-
+      fevereiro; nosso inverno é junho-agosto."
+
+assessmentCriteria:
+  pt: |
+    Recitar os 12 meses em sequência correta em 7 de 10 tentativas.
+    Nomear o mês ANTERIOR e POSTERIOR a um mês dado em 7 de 10
+    tentativas. Identificar próprio mês-de-aniversário + nomear a
+    estação brasileira que cai nele em 8 de 10 tentativas.
+
+    Diferenciação:
+      - Pré-K: identificação do mês-de-aniversário apenas; a
+        professora ou o professor lê sequência em voz alta.
+      - K: todos os 12 meses; perguntas de sequência + antes/depois.
+      - Primeiro ano em diante: estender para mapeamento mês-para-
+        estação brasileira (dezembro-fevereiro = verão BR; etc.) +
+        ponte para trabalho de leitura-de-data (candidato Arco 13+).
+
+compositionalRationale:
+  pt: |
+    Fio principal: conhecimento de mundo / time-and-routine
+    (reconhecimento + sequenciamento de meses-do-ano). Fio secundário:
+    aquisição de vocabulário (ancorado em vocabulário — nomes de
+    meses + contexto cultural brasileiro). Fio terciário: raciocínio
+    cíclico + sazonal (as crianças conectam meses a ciclo anual +
+    estações).
+
+    Significância arquitetural: aprofunda fio time-and-routine 1/4 →
+    2/4. RESOLVE indicador adiante de identify-days-of-week do Arco
+    10. **Fechou último fio single-package do fechamento do Arco 11**
+    (time-and-routine era o único fio em 1/N pós-Arco-11).
+
+    **Especificidade cultural pt-BR — Brasil tem CALENDÁRIO ANUAL
+    DISTINTO do Hemisfério Norte:**
+    - **Estações invertidas:** verão BR = dezembro/janeiro/fevereiro
+      (Hemisfério Norte: inverno); inverno BR = junho/julho/agosto
+      (Hemisfério Norte: verão); primavera BR = setembro-novembro;
+      outono BR = março-maio
+    - **Festa-junina (junho):** evento cultural-load-bearing pt-BR;
+      festas comunitárias com música caipira, dança, comidas típicas
+      (canjica, pamonha, paçoca); celebra Santo Antônio + São João
+      + São Pedro
+    - **Carnaval (fevereiro/março, data móvel):** mais conhecida festa
+      brasileira; escolas tipicamente em recesso na semana de Carnaval
+    - **Independência do Brasil (7 de setembro):** feriado nacional;
+      celebrações cívicas em escolas brasileiras
+    - **Natal (dezembro):** universal mas pt-BR-especial — Natal +
+      verão simultâneos; tradições de fim-de-ano + Réveillon
+
+    Crianças em escolas internacionais brasileiras precisam navegar
+    DOIS calendários — o brasileiro (estações invertidas) + o
+    internacional (frequentemente Hemisfério Norte). Este pacote
+    pt-BR enraíza o vocabulário de meses no calendário brasileiro
+    + introduz a noção de que outros países podem ter calendário
+    diferente.
+
+    Vocabulário pt-BR canônico de meses cognato-rico Romance: janeiro/
+    enero/janvier/gennaio; fevereiro/febrero/février/febbraio. Crianças
+    em programas bilíngues pt-BR/es têm vantagem de transferência.
+
+    Substrato Class B FLEXIBLE: composta contra biblioteca de imagens
+    + tema weather. Substrato-prontidão universal.

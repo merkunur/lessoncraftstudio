@@ -1,0 +1,132 @@
+# Teaching package — identify and name family members (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 12 Phase 3 per Arc 3 Phase 1 sparse-override pattern).
+# pt sparse-override for early-literacy / vocabulary-acquisition strand.
+# **FIRST pt sparse-override for substrate-unblocked package.** Pt-BR family-
+# vocabulary canonical including diminutive forms (mãezinha / paizinho /
+# vovó / vovô); cross-cultural sensitivity — Brazilian families are
+# diverse + multi-generational.
+
+title:
+  pt: "Membros da Família — nomeie as pessoas da sua família"
+description:
+  pt: "Pacote de letramento inicial para a Educação Infantil que ensina vocabulário de membros da família. **Pacote desbloqueado pelo Stream A Phase 1 (cadeia de adiamento de 7 arcos resolvida).** As crianças identificam e nomeiam 8 papéis familiares em pt-BR: pai, mãe, irmã, irmão, avô, avó, bebê, família. Especificidade pt-BR: vocabulário familiar pt-BR rico em formas diminutivas (mãezinha / paizinho / vovó / vovô) usadas com carinho cotidiano em famílias brasileiras. Sensibilidade cultural transversal — famílias brasileiras são frequentemente multi-geracionais (avós morando próximo ou junto); vocabulário enquadrado como PAPÉIS que crianças podem ter na sua família, não estruturas prescritivas-de-família-nuclear."
+
+structure:
+  warmup:
+    body: |
+      Rotina de compartilhamento-familiar com toda a turma. A professora
+      ou o professor segura uma imagem de uma família com 4-5 membros +
+      pergunta: "Quem está nesta família?" A turma identifica (pai, mãe,
+      irmã, irmão, bebê). A professora ou o professor então abre espaço
+      para cada criança: "Quem está na SUA família? Você não precisa
+      dizer todo mundo — apenas uma ou duas pessoas com quem você mora
+      ou que você visita com frequência." As crianças compartilham. A
+      professora ou o professor afirma diversidade brasileira: "Algumas
+      crianças moram com pai e mãe; algumas com a vovó e o vovô; algumas
+      com madrasta ou padrasto; algumas com tios; algumas com pais
+      adotivos — toda família é diferente e toda família é importante."
+      Reforça que vocabulário de família nomeia PAPÉIS (o papel de mãe;
+      o papel de irmão) em vez de exigir estruturas específicas.
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de vocabulário-familiar. Cada dupla
+      recebe 8 cartões de membros-da-família (pai, mãe, irmã, irmão,
+      avô, avó, bebê, família). A dupla alterna: a criança A segura um
+      cartão; a criança B nomeia o membro da família E usa o modelo
+      de linguagem ("Esta é uma ___" / "Eu tenho um ___"). Refraseie
+      os erros com explicação ("você disse 'mamãe' — sim, 'mamãe' é
+      uma forma carinhosa de dizer 'mãe'. Ambos estão corretos. Em
+      nossa aula vamos praticar 'mãe' para nosso trabalho com cartões").
+      Note formas carinhosas pt-BR: mamãe / papai / vovó / vovô / mana /
+      mano / bebezinho — usadas cotidianamente em famílias brasileiras.
+      Extensão opcional: as crianças desenham sua própria família +
+      etiquetam cada membro com palavras de vocabulário familiar.
+      Afirme desenhos diversos (famílias monoparentais, multi-
+      geracionais, famílias de dois pais ou duas mães, famílias
+      adotivas, famílias-de-coração).
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios de
+      emparelhamento (imagem-de-membro-de-família para par de nome).
+      Estação 2: folha de exercícios de emparelhamento com tiras-de-
+      frase (modelo "Esta é uma ___" usando vocabulário familiar).
+      Estação 3: construção prática de árvore-genealógica com recortes
+      manipulativos (as crianças montam árvores genealógicas simples
+      usando recortes de membros-da-família; a professora ou o professor
+      enfatiza que formas-de-árvores variam — algumas têm muitos
+      ramos, algumas têm poucos; todas são válidas). Estação 4: word-
+      guess (as crianças preenchem letras de palavras familiares a
+      partir de pistas de imagem).
+  closure:
+    body: |
+      Compartilhamento-familiar com toda a turma. Cada criança nomeia
+      um membro da família que ama + usa vocabulário em língua-alvo
+      ("Meu avô mora longe" / "Meu irmão bebezinho tem dois anos").
+      Indicador adiante: "Hoje aprendemos palavras de membros-da-
+      família em pt-BR. Quando voltarmos a trabalho-familiar na próxima
+      vez, aprenderemos linguagem-de-RELACIONAMENTO familiar — como
+      'esta é a MÃE da minha mãe, que é minha AVÓ' — conectando
+      membros-da-família uns aos outros."
+
+assessmentCriteria:
+  pt: |
+    Nomear 6 de 8 itens de vocabulário de membros-da-família em 8 de
+    10 tentativas. Usar o modelo "Esta é uma ___" para apresentar
+    membros-da-família em 7 de 10 tentativas de linguagem produtiva.
+    Articular que estruturas-de-família variam ('toda família é
+    diferente') em 6 de 10 tentativas.
+
+    Diferenciação:
+      - Pré-K: 4 papéis-familiares mais frequentes (pai, mãe, irmã,
+        irmão); identificação receptiva primeiramente.
+      - K: 8 papéis-familiares + modelo de apresentação.
+      - Primeiro ano em diante: estender para vocabulário de
+        relacionamento-familiar ('a mãe da minha mãe é minha avó');
+        ponte para vocabulário de família-estendida (tio/a, primo/a)
+        em pacote futuro.
+
+compositionalRationale:
+  pt: |
+    Fio principal: letramento inicial / aquisição de vocabulário
+    (nomeação de membros-da-família). Fio secundário: fala-e-escuta
+    (linguagem produtiva de apresentação familiar). Fio terciário:
+    afirmação cultural + validação de identidade (estruturas familiares
+    diversas das crianças = recurso da sala de aula).
+
+    **Significância arquitetural: PRIMEIRO PT SPARSE-OVERRIDE PARA
+    PACOTE DESBLOQUEADO PELO STREAM A.** Cadeia de adiamento de
+    família estendida Arco 4 → 11 (7 arcos). Stream A Phase 1 IMAGE_
+    VOCABULARY extension no início do Arco 12 fechou a cadeia. Este
+    sparse-override pt é o PRIMEIRO trabalho em variante-pt do
+    pacote longo-adiado.
+
+    Especificidade cultural pt-BR rica: famílias brasileiras
+    tipicamente:
+    - **Multi-geracionais:** avós frequentemente moram próximo ou junto
+      com filhos + netos
+    - **Caloroso-familiares:** uso cotidiano de formas diminutivas de
+      carinho (mamãe, papai, vovó, vovô, irmãozinho, bebezinho)
+    - **"Tia/Tio" ampliado:** crianças brasileiras chamam adultos
+      próximos da família (vizinhos íntimos, amigas dos pais, etc.)
+      de "tia" ou "tio" como forma de respeito + carinho — não
+      necessariamente parentesco biológico
+    - **Diversidade contemporânea:** famílias monoparentais, famílias
+      adotivas, famílias-de-dois-pais-ou-duas-mães, famílias
+      reconstituídas com madrasta/padrasto + meio-irmãos —
+      reconhecidas como configurações brasileiras válidas
+    - **"Saudade" da família:** vocabulário emocional pt-BR específico
+      (saudade) tem ressonância especial em crianças brasileiras
+      cujos avós ou outros familiares moram distantes (comum em
+      escolas internacionais brasileiras)
+
+    Vocabulário pt-BR canônico de família — formas formais (pai, mãe,
+    irmã, irmão, avô, avó, bebê, família) + formas carinhosas
+    cotidianas (mamãe, papai, vovó, vovô, mana, mano, bebezinho).
+    Pacote pt-BR introduz ambas as formas — formal para escrita
+    + leitura; carinhosa para conversa familiar cotidiana.
+
+    Substrato Class A CLEAN (pós-Stream-A-Phase-1-ship): vocabulário
+    de membros-da-família em IMAGE_VOCABULARY em todas as 11 locais
+    da plataforma com dados gramaticalmente-corretos de gênero.
+    Cognato-rico Romance (mãe/madre/madre/mère; pai/padre/padre/père).

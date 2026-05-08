@@ -1,0 +1,261 @@
+# Teaching package — use position vocabulary (in / on / under / next-to)
+# Arc 5 Phase 2 (fine-motor-and-visual-spatial / spatial-reasoning strand).
+# First fine-motor-and-visual-spatial domain validation per §A.14 scaling-
+# checkpoint discipline. Abstract concept (prepositions); image-vocabulary
+# supports rendering object-in-position scenes via existing prepositions
+# app integration. Substrate-clean: composes against existing image-library
+# breadth + the prepositions app's mechanical action (item-anchor scene
+# rendering).
+
+targetSlug: use-position-vocabulary
+language: en
+title:
+  en: "Position Vocabulary — using in, on, under, next to, behind, between"
+description:
+  en: "Kindergarten-Grade 1 spatial-reasoning package teaching the use of position prepositions: in, on, under, next-to, behind, between, above, in-front-of. Bridges from spatial perception to spatial language. Composed against the prepositions app's item-anchor scene rendering plus matching + sentence-strip materials. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class action routine. Teacher uses a real classroom object
+      (a small toy or an apple); positions it in different spots while
+      naming the position in target language: "The apple is IN the box.
+      The apple is ON the table. The apple is UNDER the chair. The apple
+      is NEXT TO the book." Class repeats each sentence chorally + does
+      the matching gesture (hand over an imaginary box for "in"; flat
+      hand for "on"; below the desk for "under"; arm sideways for
+      "next to"). Pin position-words to the spatial-reasoning area of the
+      math-language word wall.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pocket-chart routine with sentence strips ("The {item} is {position}
+      the {anchor}"). Class reads chorally + acts out each strip with their
+      own bodies (kids stand IN, ON, UNDER, NEXT-TO classroom items). Pair
+      work: kid A places a small object in a position; kid B describes the
+      position aloud using the target preposition. Recast errors. Optional
+      extension: simon-says-style game where teacher names a position and
+      kids put their hands or bodies in that position relative to a desk
+      or book.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: prepositions worksheet (kids fill in or
+      multiple-choice the correct preposition for each item-anchor scene
+      shown). Station 2: matching worksheet (preposition word matched to
+      its visual representation — "in" matched to a "ball-in-box" scene).
+      Station 3: manipulative cut-outs spatial play (kids physically place
+      cut-out animals in / on / under / next-to a cut-out house, then
+      describe their work to a partner).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class quick-recall. Teacher shows a position-scene picture;
+      kids respond chorally with the preposition. Forward-pointer: "Today
+      we learned 4-6 position words. When we come back to spatial words
+      next, we'll talk about directions — left, right, up, down — and
+      use them to navigate around the classroom."
+
+composedExercises:
+  - appName: prepositions
+    exerciseMode: multiplechoice
+    customizationParameters: { exerciseMode: multiplechoice, exerciseCount: 6, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: prepositions
+    exerciseMode: fillin
+    customizationParameters: { exerciseMode: fillin, exerciseCount: 6, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: prepositions
+    exerciseMode: multiplechoice
+    customizationParameters: { exerciseMode: multiplechoice, exerciseCount: 6, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: prepositions
+    exerciseMode: fillin
+    customizationParameters: { exerciseMode: fillin, exerciseCount: 8, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: []
+      cardCount: 0
+      cardsPerPage: 4
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      showArticle: false
+      paperSize: a4
+      language: en
+      borderStyle: thick
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 8
+      cardsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: there-is-a-position
+      imageSource: theme
+      themeName: animals
+      stripCount: 12
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: false
+    ordering: 3
+    pedagogicalRole: language-frame
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: there-is-a-position
+      imageSource: theme
+      themeName: animals
+      stripCount: 12
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 20
+      itemSize: medium-1.5in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: spatial-reasoning / fine-motor-and-visual-spatial.
+    Secondary strand: vocabulary acquisition (preposition vocabulary as a
+    closed-class function-word lexicon). Tertiary strand: language-frame
+    production (sentence frames using prepositions).
+
+    Architectural significance: this is the FIRST fine-motor-and-visual-
+    spatial domain package in the catalog. Validates the spatial-reasoning
+    architecture against existing prepositions app integration (the canonical
+    app for this target). Per §A.14 scaling-checkpoint discipline.
+
+    App-package layer relationship: the prepositions app (catalog deck-
+    producer) generates worksheet decks for individual spatial-position
+    exercises; this teaching package COMPOSES the app's exercises across
+    multiple modes (fillin + multiplechoice) plus complementary matching
+    work + sentence-strip materials + concrete manipulative play to deliver
+    a complete pedagogical sequence. Different layers, complementary not
+    redundant.
+
+    Distinctive composition vs vocabulary packages: 3 of 5 composedExercises
+    use the prepositions app (not 1) because the app's mechanical action
+    IS the target — kids practice using prepositions IS the productive
+    surface. Matching at position 3 reinforces preposition-to-visual-
+    representation mapping. Two prepositions exercises in different modes
+    (multiplechoice for introduction; fillin for production) reflect the
+    receptive-then-productive teaching arc.
+
+    Materials note: flashcards has empty vocabKeys (no IMAGE_VOCABULARY
+    keys for prepositions themselves — they're abstract function words).
+    The flashcards material is preserved at material-count 7 for
+    consistency with the geometry-strand packages; in production the
+    flashcards layer can render preposition-word cards (text-only) as a
+    no-image variant. picture-cards + sentence-strips + manipulative-cut-
+    outs use the animals theme for their image content (kids see animals
+    in different positions; the position-words are the language target).
+
+    Cross-strand integration: use-position-vocabulary feeds
+    use-spatial-position-words (extension/companion package; same author-
+    target with broader preposition set including "between," "behind," "in-
+    front-of," "above"). The two together form the spatial-language
+    foundation for fine-motor-and-visual-spatial domain.
+
+    K-3 multilingual classroom relevance: prepositions are language-
+    specific in their syntax (Spanish "encima de" vs English "on" vs
+    German "auf" — different morphological patterns). The package uses
+    the existing prepositions app which already handles 11-locale rendering;
+    operator-side instruction language sets the rendered output. Per
+    CLAUDE.md §17.5 NSR-flag posture, locale-specific preposition
+    register may need native-speaker review at launch.
+
+curriculumStandards:
+  - CCSS.K.G.A.1
+  - EYFS.ELG.M
+  - EYFS.ELG.LL
+  - IB-PYP.HowTheWorldWorks
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Use 4 of 4 core prepositions (in, on, under, next-to) correctly in
+        oral position-description in 6 of 8 trials.
+      - Match preposition word to position-scene picture in 6 of 6 trials
+        (receptive).
+      - Use prepositions in spontaneous classroom speech (e.g., "my book is
+        on my desk") within the 1-week unit window.
+
+    Differentiation:
+    - Pre-K: 2 prepositions only (in, on) with concrete manipulative
+      placement; receptive-only.
+    - K / Grade 1: full 4-preposition core (in, on, under, next-to) +
+      productive use.
+    - Grade 2+: extend to use-spatial-position-words (8-preposition broader
+      set including between / behind / in-front-of / above) + use-direction-
+      vocabulary (left / right / up / down).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

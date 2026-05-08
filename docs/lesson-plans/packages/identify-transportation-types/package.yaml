@@ -1,0 +1,236 @@
+# Teaching package — classify transportation as land / sea / air
+# Arc 5 Phase 2 (world-knowledge / community-and-roles strand). Second
+# world-knowledge domain validation; complements classify-animals-by-habitat
+# in same Phase 2 by exercising classification architecture across two
+# distinct subject areas. Multi-cluster transportation substrate (land + sea
+# + air) — all CLEAN against IMAGE_VOCABULARY. Prerequisite: identify-and-
+# name-vehicles (Arc 2).
+
+targetSlug: identify-transportation-types
+language: en
+title:
+  en: "Transportation Types — classify vehicles as land, sea, or air"
+description:
+  en: "Kindergarten-Grade 1 world-knowledge package teaching transportation classification (land / sea / air). Bridges from vehicle-naming (Arc 2 vocabulary work) to environment-aware classification thinking. Composed from existing transportation-land + transportation-sea + transportation-air clusters in IMAGE_VOCABULARY. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class introduction. Teacher places 3 large mats on the carpet
+      labeled "Land," "Sea," "Air." Holds up a vehicle flashcard (car);
+      asks "where does the car travel?" Class answers chorally; teacher
+      places the card on the Land mat. Repeat with 3-4 mixed-environment
+      vehicles (boat → Sea; airplane → Air; train → Land). Establishes the
+      3-environment schema visually. Reinforce vocabulary: "land," "sea,"
+      "air" — environmental context vocab kids will use across world-
+      knowledge work.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Whole-class sorting routine. Teacher names a vehicle in target
+      language; class points to the matching environment-mat. Pair work:
+      kid A names a vehicle; kid B says the environment. Recast errors
+      ("Yes, a boat travels on the SEA, not on the land — boats need
+      water"). Optional extension: kids share a vehicle they've ridden
+      (car, school bus, airplane, ferry) to anchor classification in
+      personal experience. Discussion question: "What do all sea vehicles
+      need?" (water) — bridges to environment-aware reasoning.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: picture-sort worksheet (sort vehicle
+      cards between two contrasting environments — land vs sea, or land
+      vs air). Station 2: matching worksheet (vehicle image-name matching
+      to consolidate Arc 2 vocab in classification context). Station 3:
+      manipulative cut-outs environment sorting (kids physically place
+      cut-out vehicles on the 3 environment mats from warmup).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class quick-recall. Teacher names a vehicle; kids show with
+      hand-signal which environment (point down = land; point sideways
+      = sea/water; point up = air). Forward-pointer: "Today we sorted
+      vehicles by where they travel. When we come back to community next,
+      we'll think about who DRIVES these vehicles — drivers, captains,
+      pilots — and where they take us."
+
+composedExercises:
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: vehicles, rightCategoryThemeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: vehicles, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: find-and-count
+    exerciseMode: unified
+    customizationParameters: { gridRows: 4, gridCols: 4, themeSelect: vehicles, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: vehicles, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: vehicles, rightCategoryThemeSelect: shapes, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: [car, bus, truck, bicycle, motorcycle, train, boat, airplane, helicopter, ambulance]
+      cardCount: 10
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: vehicles
+      pairCount: 6
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 2
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: vocabKeyList
+      vocabKeys: [car, bus, train, boat, airplane, helicopter, bicycle, motorcycle]
+      stripCount: 8
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: false
+    ordering: 3
+    pedagogicalRole: language-frame
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: i-see-a
+      imageSource: vocabKeyList
+      vocabKeys: [car, bus, train, boat, airplane, helicopter, bicycle, motorcycle]
+      stripCount: 8
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: vehicles
+      mode: single-repeat
+      itemCount: 30
+      itemSize: medium-1.5in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: vocabKeyList
+      vocabKeys: [car, train, boat, airplane]
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: world-knowledge / community-and-roles. Secondary strand:
+    vocabulary acquisition (consolidates Arc 2 vehicle vocabulary in
+    classification-context).
+
+    Architectural significance: second world-knowledge domain package in the
+    catalog (paired with classify-animals-by-habitat in Phase 2). Validates
+    the world-knowledge architecture across two distinct subject areas
+    (animals + transportation) within the same phase — stress-tests whether
+    classification packages share enough common shape to scale, or whether
+    each subject's classification work has substantially distinct
+    architectural needs. Per §A.14 scaling-checkpoint discipline.
+
+    Distinctive composition vs animals-by-habitat: 3 environments instead of
+    4 (transportation maps cleanly to land / sea / air; animal habitats split
+    into 4 with the home/pet category). The 3-environment schema is simpler
+    and more concrete (kids have intuitive mental models of "things that
+    travel on water" vs "things that fly") — good first-classification
+    target before moving to 4-category animal habitats in same Phase 2.
+
+    Multi-cluster substrate: vocabKeys spans 3 transportation clusters
+    (transportation-land 6 keys + transportation-sea 4 keys + transportation-
+    air 4 keys) with 10 representative vehicles. Validates multi-cluster
+    vocabKeyList handling parallel to classify-animals-by-habitat (12-key
+    multi-cluster).
+
+    Cultural-variation acknowledgment: vehicle-modal availability varies by
+    region (rural communities may have less air-transport exposure; coastal
+    communities have more boat exposure; urban centers have more train +
+    bus). Operator-side teachers can emphasize locally-relevant vehicles
+    in the warmup discussion.
+
+curriculumStandards:
+  - EYFS.ELG.UW
+  - IB-PYP.HowWeOrganize
+  - IB-PYP.WhereWeAreInPlaceAndTime
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Classify 10 mixed-environment vehicles into 3 environment categories
+        with 80%+ accuracy.
+      - Use environment-vocabulary ("land," "sea," "air") in oral sorting
+        work.
+      - Explain 1-2 reasons why a vehicle works in its environment (boats
+        float, airplanes fly, cars drive on roads) when prompted.
+
+    Differentiation:
+    - Pre-K: 2-environment sorting only (land vs air OR land vs sea).
+    - K / Grade 1: full 3-environment classification.
+    - Grade 2+: extend to identify-community-helpers (drivers, captains,
+      pilots) + map-reading (where do vehicles go from here?).
+
+    Prerequisite check: kids who haven't completed identify-and-name-vehicles
+    (Arc 2) should review vehicle names at warmup. Classification requires
+    names-as-prerequisite.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

@@ -1,0 +1,75 @@
+# Pillar 2 Arc 2 Phase 2 themed bundle — Classroom
+# Theme-anchored bundle composing classroom-context packages spanning
+# vocabulary + community-roles + classroom-routine.
+
+bundleSlug: classroom
+themeAxisKey: classroom
+language: en
+
+title:
+  en: "Classroom — Complete K-3 Bundle"
+
+description:
+  en: "K-3 bundle centered on classroom vocabulary + classroom-routine + community-roles within school. 5 packages span vocabulary-acquisition (identify-and-name-school-objects + identify-community-helpers) + classroom-routine speaking (follow-1-step-oral-instruction) + time-and-routine (identify-days-of-week) + multilingual-language-awareness (notice-cognate-word-pairs). Suitable for a back-to-school 4-5 week unit; supports K-3 multilingual classrooms in international + dual-language + bilingual contexts where classroom-context vocabulary is foundational for school-day participation."
+
+thumbnailUrl: "/bundles/classroom-thumbnail.png"
+
+status: draft
+
+teachingPackageSlugs:
+  - identify-and-name-school-objects
+  - identify-community-helpers
+  - follow-1-step-oral-instruction
+  - identify-days-of-week
+  - notice-cognate-word-pairs
+
+deckIds: []
+lessonPlanIds: []
+
+thematicCoherence:
+  en: |
+    All 5 packages cohere around the classroom-context theme + form a
+    pedagogical progression supporting school-day participation skills.
+
+    **Pedagogical sequencing:**
+    1. **identify-and-name-school-objects** — Foundational classroom
+       vocabulary (pencil, eraser, book, scissors, glue). Vocabulary
+       anchor for school-day participation.
+    2. **follow-1-step-oral-instruction** — Classroom-routine receptive-
+       language work ("get your pencil"; "open your book"). Bridges
+       vocabulary to classroom-instruction comprehension.
+    3. **identify-community-helpers** — Community-roles work extending
+       to school-context helpers (teacher + librarian + nurse +
+       custodian). Connects classroom-vocab to school-community
+       awareness.
+    4. **identify-days-of-week** — Time-and-routine work supporting
+       weekly classroom rhythm (Monday + library day; Tuesday + gym;
+       etc.). Classroom-routine integration.
+    5. **notice-cognate-word-pairs** — Multilingual-language-awareness
+       package using classroom-vocab cognates as cross-locale bridges.
+       Supports dual-language and immersion classroom contexts where
+       cognate-recognition accelerates vocabulary transfer.
+
+    **Strand spread:** 1 vocabulary-acquisition + 1 speaking-and-
+    listening + 1 community-and-roles + 1 time-and-routine + 1
+    multilingual-language-awareness. **5 distinct strands.** Broadest
+    cross-strand bundle in Pillar 2 Arc 2 Phase 2.
+
+    **Suggested unit duration:** 4-5 weeks. Best timed for back-to-
+    school season (early academic year).
+
+    **Multilingual classroom relevance:** classroom vocabulary high-
+    frequency K-3 target across all 11 platform locales. The notice-
+    cognate-word-pairs package specifically anchors multilingual-
+    awareness — kids notice "lápiz/pencil/Bleistift" or "libro/book/
+    Buch" share semantic + sometimes phonetic features across their
+    languages. Particularly load-bearing for international school +
+    dual-language program contexts (the §1 audience).
+
+    **Pillar 2 architectural pattern:** classroom-bundle illustrates
+    broadest-cross-strand composition — 5 distinct strands anchored
+    by a common context (the school day). Demonstrates that bundle
+    coherence can come from shared CONTEXT (the classroom) as much as
+    from shared TOPIC (e.g., colors as discrete subject-matter).
+    Context-anchored bundles work alongside topic-anchored bundles
+    in the Pillar 2 catalog.

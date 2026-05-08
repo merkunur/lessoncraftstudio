@@ -1,0 +1,142 @@
+# Teaching package — name this object in two languages (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 6 Phase 3 per Arc 3 Phase 1 sparse-override
+# pattern). Validator deep-merges with package.yaml canonical at validation
+# time.
+#
+# Brazilian Portuguese register per CLAUDE.md §6 (pt = BR canonical).
+# Formal "você" address per §17.9 cross-locale teacher-address-register lock.
+# This package is particularly culturally-relevant in pt-BR contexts where
+# Brazilian Portuguese-speaking children may have indigenous-language heritage,
+# regional dialects, or family languages from Italian/German/Japanese
+# immigrant backgrounds — the multilingual-language-awareness package
+# validates ALL these home-language identities.
+
+title:
+  pt: "Nomeie este objeto em duas línguas — prática de vocabulário bilíngue"
+description:
+  pt: "Pacote de consciência multilíngue para K-Primeiro Ano que ensina as crianças a nomear objetos comuns em DUAS línguas — tipicamente a língua de instrução escolar mais a língua de casa. Valida a identidade bilíngue das crianças celebrando ambas as línguas como vocabulário legítimo. Composto contra qualquer conteúdo da biblioteca de imagens (animais, frutas, veículos, partes do corpo, etc.) — as crianças nomeiam o que veem em ambas as línguas."
+
+structure:
+  warmup:
+    body: |
+      Apresentação para toda a turma. A professora ou o professor levanta
+      um cartão de imagem (e.g. um gato). Nomeia o objeto na língua
+      escolar: "Este é um gato." Depois pergunta às crianças: "Como se
+      chama isto na SUA língua?" Crianças diferentes oferecem nomes em
+      diferentes línguas de casa — espanhol "gato," italiano "gatto,"
+      alemão "Katze," japonês "neko," tupi-guarani "yawara'a" (quando
+      relevante regionalmente). A turma repete cada nome de língua de
+      casa em coro; a professora ou o professor escreve-os em um cartaz
+      da turma intitulado "Gato em nossas línguas." Valida a identidade
+      bilíngue das crianças; celebra a diversidade linguística na sala
+      de aula. Repita com 2-3 objetos mais.
+  contentActivity:
+    body: |
+      Rotina de mural de bolso: a professora ou o professor nomeia o
+      objeto em português; a turma repete; a professora ou o professor
+      convida a voz da sala de aula bilíngue — "Quem fala outra língua?
+      Como é isto na sua língua?" Trabalho em duplas com pares de
+      línguas: as crianças que falam a mesma língua de casa trabalham
+      juntas para nomear objetos em sua língua de casa; as crianças que
+      falam línguas de casa diferentes compartilham as suas palavras
+      entre pares. Extensão opcional: as crianças desenham uma "árvore
+      de línguas" — sua língua de casa, língua escolar e quaisquer
+      outras línguas que ouvem em casa (algumas crianças têm avós que
+      falam ainda outra língua).
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de emparelhamento (imagem
+      para nome da língua escolar). Estação 2: rotulagem bilíngue de
+      cartões de imagem (as crianças rotulam cartões com a palavra na
+      língua escolar + a palavra na língua de casa — escrita bilíngue
+      emergente). Estação 3: jogo de classificação bilíngue com recortes
+      manipulativos (as crianças colocam recortes em um tapete de 2
+      colunas: "na escola dizemos..." vs "em casa eu digo..." — concretiza
+      a realidade de dois nomes na sua vida bilíngue).
+  closure:
+    body: |
+      Compartilhamento com toda a turma. Cada criança oferece uma
+      palavra nova que aprendeu da língua de um colega hoje. A
+      professora ou o professor celebra o vocabulário multilíngue
+      adicionado à turma. Indicador adiante: "Hoje aprendemos que um
+      objeto tem muitos nomes — em português, em {língua A}, em
+      {língua B} e assim por diante. Quando voltarmos às línguas
+      próxima vez, pensaremos em palavras que são SEMELHANTES através
+      das línguas — como 'tomate' em português e 'tomato' em inglês."
+
+assessmentCriteria:
+  pt: |
+    Nomeação de 6 de 8 objetos comuns em português produtivamente em
+    8 de 10 tentativas. Nomeação de pelo menos 4 de 8 objetos comuns
+    em língua de casa produtivamente (onde a criança tem vocabulário
+    de língua de casa para o objeto). Reconhecimento de que um objeto
+    pode ter múltiplos nomes legítimos através das línguas (consciência
+    metalinguística; demonstrada por aceitar os nomes da língua de casa
+    dos colegas sem correção).
+
+    Diferenciação:
+      - Pré-K: reconhecimento receptivo em português; nomeação em
+        língua de casa onde natural.
+      - K: produtivo em português + produtivo em língua de casa (onde
+        o vocabulário da língua de casa existe para o objeto).
+      - Primeiro ano em diante: estender para notice-cognate-word-pairs
+        (próximo alvo de consciência multilíngue) — as crianças notam
+        que algumas palavras são semelhantes em diferentes línguas
+        (espanhol "elefante" / português "elefante" / inglês "elephant"
+        / alemão "Elefant" todos compartilham raiz latina).
+
+    Nota da sala de aula multilíngue: a avaliação é celebratória, não
+    avaliada. Crianças que não conseguem produzir nomes na língua de
+    casa (porque a língua de casa não foi transmitida ou porque estão
+    envergonhadas em um contexto de sala de aula multilíngue) não são
+    penalizadas; o pacote cria espaço para o trabalho de identidade
+    bilíngue sem compulsão.
+
+compositionalRationale:
+  pt: |
+    Fio principal: consciência multilíngue. Fio secundário: aquisição
+    de vocabulário (as crianças reforçam o vocabulário da língua escolar
+    enquanto praticam o vocabulário da língua de casa). Fio terciário:
+    afirmação de identidade (validar a identidade bilíngue das crianças
+    tratando ambas as línguas como legítimas).
+
+    Significância arquitetural: este é o PRIMEIRO pacote de domínio de
+    consciência multilíngue no catálogo. Valida que a arquitetura
+    lida com trabalho de pedagogia multilíngue como um fio distinto
+    da aquisição de vocabulário direta. Por enquadramento da audiência
+    multilíngue K-3 do CLAUDE.md §1: alvos de consciência multilíngue
+    são centrais para o posicionamento da plataforma, não auxiliares.
+
+    Relevância cultural pt-BR específica: o Brasil tem uma diversidade
+    linguística substancial — falantes de espanhol nas regiões
+    fronteiriças (Sul + Centro-Oeste), comunidades de línguas indígenas
+    (várias famílias linguísticas como Tupi-Guarani, Macro-Jê, Karib),
+    comunidades de imigrantes (italianos no Sul, alemães em Santa
+    Catarina, japoneses em São Paulo, libaneses em várias cidades).
+    Crianças K-3 brasileiras podem ter línguas de casa que vão muito
+    além do português. Este pacote valida explicitamente todas essas
+    identidades linguísticas de casa.
+
+    Substrato Class B FLEXIBLE: compõe-se contra qualquer conteúdo da
+    biblioteca de imagens onde as crianças têm a chance de saber nomes
+    na língua de casa. Os 4 contextos temáticos (animais + frutas +
+    veículos + partes do corpo) são categorias de vocabulário universais
+    onde a maioria das línguas de casa tem nomes; menos provável de
+    revelar lacunas onde uma língua de casa não tem palavra para o
+    objeto.
+
+    Reconhecimento da variação cultural: salas de aula multilíngues
+    K-3 variam enormemente em combinações de línguas. Escolas
+    internacionais podem ter 20+ línguas de casa representadas; escolas
+    bilíngues podem ter 1-2; escolas de imersão podem ter uma divisão
+    clara escola-vs-casa. A estrutura do pacote suporta todas essas —
+    as professoras facilitam o compartilhamento de quaisquer línguas
+    de casa que suas crianças trazem. Nenhuma suposição codificada
+    sobre qual par de línguas a criança é bilíngue.
+
+    Papel do material parent-take-home-letter: ponte casa-escola
+    bilíngue. A carta convida explicitamente os pais a compartilhar os
+    nomes dos objetos retratados na sua língua de casa com a criança —
+    estende a pedagogia da sala de aula para a conversa familiar. Esta
+    é uma superfície de engajamento parental de alta alavancagem.

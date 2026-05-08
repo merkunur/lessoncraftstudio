@@ -1,0 +1,95 @@
+# Teaching package — point to a named color (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 6 Phase 3 per Arc 3 Phase 1 sparse-override
+# pattern). Validator deep-merges with package.yaml canonical at validation
+# time.
+#
+# Brazilian Portuguese register per CLAUDE.md §6 (pt = BR canonical).
+# Formal "você" address per §17.9 cross-locale teacher-address-register lock.
+
+title:
+  pt: "Cores (Receptivo) — aponta para a cor nomeada"
+description:
+  pt: "Pacote de aquisição de vocabulário para Pré-K e K sobre o reconhecimento receptivo de 10 cores comuns: vermelho, azul, amarelo, verde, laranja, roxo, rosa, marrom, preto, branco. Variante receptiva de use-color-words (Arc 2 produtivo). O reconhecimento de cores é vocabulário universalmente cedo-adquirido e fornece reforço de alfabetização inicial com alta taxa de sucesso."
+
+structure:
+  warmup:
+    body: |
+      Rotina de ação para toda a turma. A professora ou o professor coloca
+      10 amostras de cores grandes (ou cartões de cores) no tapete ou no
+      quadro. Nomeia cada cor em português; a turma aponta para a amostra
+      correspondente em coro. Engajamento sensorial: as crianças tocam
+      objetos coloridos na sala de aula (livro vermelho, caneta azul,
+      caderno amarelo) enquanto a professora ou o professor nomeia cada
+      cor. Reforça o vocabulário de cores + a meta-habilidade de
+      "reconhecer esta cor no mundo real". Fixe no mural de palavras
+      "Cores".
+  contentActivity:
+    body: |
+      Rotina de mural de bolso com cartões de cores. A professora ou o
+      professor nomeia uma cor em português; a turma aponta para o cartão
+      correspondente. Trabalho em duplas: a criança A nomeia uma cor; a
+      criança B encontra-a em um objeto multicolorido (e.g. cartaz com
+      cores misturadas) ou no ambiente da sala de aula. Refraseie os
+      erros gentilmente. Extensão opcional: as crianças compartilham
+      a sua cor favorita ("Minha cor favorita é {cor}") — ponte produtiva
+      para os aprendizes confiantes; a compreensão receptiva ainda é
+      suficiente para o resto.
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: emparelhamento (cartão de cor para
+      palavra de cor). Estação 2: contar e encontrar (contar instâncias
+      de uma cor nomeada em uma grade colorida). Estação 3: classificação
+      de cores com recortes manipulativos (as crianças colocam objetos
+      recortados em tapetes de cores; superfície receptiva — a criança
+      ouve o nome da cor e encontra o tapete correspondente).
+  closure:
+    body: |
+      Recordação rápida com toda a turma. A professora ou o professor
+      nomeia cores rapidamente; as crianças apontam para objetos da sala
+      de aula que correspondam a cada cor. Indicador adiante: "Hoje
+      praticamos a compreensão de palavras de cores. Quando voltarmos às
+      cores na próxima vez, começaremos a dizer as palavras de cores nós
+      mesmos e usá-las para descrever objetos."
+
+assessmentCriteria:
+  pt: |
+    Receptivo 10/10; reconhecimento em ambiente da sala de aula 8/10;
+    emparelhamento amostra-palavra 9/10.
+
+    Diferenciação:
+      - Pré-K: 6 cores (vermelho/azul/amarelo/verde/laranja/roxo); apenas
+        reconhecimento de cartões.
+      - K: 10 cores; cartões + reconhecimento em objetos da sala de aula.
+      - Primeiro ano em diante: ponte para o produtivo use-color-words
+        (Arc 2) — as crianças passam de apontar para usar cores em
+        frases de descrição de objetos ("a maçã é vermelha").
+
+compositionalRationale:
+  pt: |
+    Fio principal: aquisição de vocabulário (RECEPTIVO — apontar para a
+    cor nomeada, não nomeá-la). Fio secundário: discriminação visual +
+    integração interdomínio (as crianças identificam cores em objetos
+    de vários clusters temáticos: animais podem ser marrons/pretos/
+    brancos; frutas podem ser vermelhas/amarelas/roxas; roupas podem
+    ser de todas as cores).
+
+    Padrão de pareamento com pacote produtivo: use-color-words (Arc 2)
+    fornece a superfície produtiva (as crianças USAM palavras de cores
+    para descrever objetos). Esta variante receptiva usa o mesmo cluster
+    de 10 chaves mas compõe-se contra exercícios de superfície receptiva
+    enfatizando reconhecimento em vez de produção. O arco pedagógico
+    receptivo-depois-produtivo aplica-se de forma limpa às cores.
+
+    Composição distintiva: 4º exercício picture-sort (posição 5) usa
+    contraste cores/formas — as crianças classificam por COR vs FORMA,
+    fazendo ponte com o trabalho cognitivo do Arco 5 Fase 3 (sort-by-
+    color e sort-by-shape). Esta é integração entre arcos: o pacote
+    receptivo combina com o trabalho cognitivo de classificação para
+    raciocínio de discriminação de atributos mais rico.
+
+    Relevância para sala de aula multilíngue K-3: nomeação de cores é
+    vocabulário universalmente cedo-adquirido em todos os 11 locales
+    da plataforma. O pacote receptivo valida que as crianças entendem
+    nomes de cores antes de exigir uso produtivo — particularmente
+    apropriado para aprendizes em contextos de imersão precoce.

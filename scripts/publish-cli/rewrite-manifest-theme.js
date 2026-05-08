@@ -49,6 +49,49 @@ var fs = require('fs');
 var path = require('path');
 var AdmZip = require(path.resolve(__dirname, '..', '..', 'node_modules', 'adm-zip'));
 var slug = require('./slug');
+var topicsTaxonomy = require(path.resolve(__dirname, '..', '..', 'frontend', 'config', 'topics-taxonomy.json'));
+
+// -------------------------------------------------------------------------
+// Topics-taxonomy lookup tables — built once at module load
+// -------------------------------------------------------------------------
+
+// Set of all registered theme axis-keys; used by settings-field signal-recovery
+// path to validate a settings value resolves to a real axis-key before adopting.
+var THEME_AXIS_KEYS = new Set(Object.keys(topicsTaxonomy.axes && topicsTaxonomy.axes.theme || {}));
+
+// Reverse-lookup from displayName (per locale) to axis-key. Keyed by
+// "<locale>:<lowercased-displayName>". Used by deck.html seoMeta.themeName
+// reverse-lookup path (Class F — big-small).
+var DISPLAY_NAME_TO_AXIS_KEY = (function () {
+  var map = new Map();
+  var themeAxes = (topicsTaxonomy.axes && topicsTaxonomy.axes.theme) || {};
+  Object.keys(themeAxes).forEach(function (axisKey) {
+    var nameMap = themeAxes[axisKey].name || {};
+    Object.keys(nameMap).forEach(function (locale) {
+      var displayName = nameMap[locale];
+      if (typeof displayName === 'string' && displayName.length > 0) {
+        map.set(locale + ':' + displayName.toLowerCase(), axisKey);
+      }
+    });
+  });
+  return map;
+})();
+
+function lookupAxisKeyByDisplayName(displayName, locale) {
+  if (!displayName || !locale) return null;
+  return DISPLAY_NAME_TO_AXIS_KEY.get(locale + ':' + String(displayName).toLowerCase()) || null;
+}
+
+// Per-app settings-field signal-recovery map. Each app entry is an
+// ordered list of theme-bearing settings field names; first matching
+// field whose value is a registered axis-key wins. Currently registered:
+//   matching — settings.letter_theme (Class E in the 2026-05-09 wave)
+// Future apps register here as the source-side emit-defect surfaces:
+// the salvage script preserves operator's existing generation hours
+// while authoring-side fixes ship asynchronously per §A.13.10.
+var SETTINGS_THEME_FIELDS = {
+  'matching': ['letter_theme']
+};
 
 // -------------------------------------------------------------------------
 // Per-ZIP classification — pure function; no FS writes
@@ -99,14 +142,18 @@ function classifyZip(zipPath) {
   //        operator-mode, e.g. prepositions settings.theme_select === "all";
   //        rewriting would mislabel — leave manifest.theme=null)
   //
-  // Recognized image-shape patterns (extended at this commit for math-worksheet
-  // imageMap + alphabet-train letterToImage + prepositions item shapes):
-  //   exercise = [{path, theme}, ...]                     — code-addition
-  //   exercise = { image: {path, theme} }                 — addition, subtraction, etc.
-  //   exercise = { path, theme }                          — direct image-bearing object
-  //   exercise = { imageMap: {symbol: {path, theme}} }    — math-worksheet
-  //   exercise = { letterToImage: {letter: {path, theme}} } — alphabet-train
-  //   exercise = { item: {path, theme} }                  — prepositions
+  // Recognized image-shape patterns (extended at this commit for the
+  // 2026-05-09 9-app en wave: pattern-worksheet uniqueImages + chart-count
+  // icons + pattern-train elementToImage shapes):
+  //   exercise = [{path, theme}, ...]                          — code-addition
+  //   exercise = { image: {path, theme} }                      — addition, subtraction, etc.
+  //   exercise = { path, theme }                               — direct image-bearing object (picture-sort)
+  //   exercise = { imageMap: {symbol: {path, theme}} }         — math-worksheet
+  //   exercise = { letterToImage: {letter: {path, theme}} }    — alphabet-train
+  //   exercise = { item: {path, theme} }                       — prepositions
+  //   exercise = { uniqueImages: [{path, theme}, ...] }        — pattern-worksheet  [NEW]
+  //   exercise = { icons: [{path, theme}, ...] }               — chart-count        [NEW]
+  //   exercise = { elementToImage: {key: {path, theme}} }      — pattern-train      [NEW]
   var imageBearingObjects = [];
   if (manifest.exercises && manifest.exercises.length > 0) {
     manifest.exercises.forEach(function (e) {
@@ -114,15 +161,11 @@ function classifyZip(zipPath) {
     });
   }
 
-  if (imageBearingObjects.length === 0) {
-    result.action = 'halt-unparseable';
-    result.note = 'no image-bearing objects found across exercises[] (no recognized image-shape pattern matched)';
-    return result;
-  }
-
   // Build the theme set per image. Per-image: primary = image.theme;
   // secondary = parseThemeFromImagePath(image.path). Use primary when present,
-  // fall back to secondary, skip if both null.
+  // fall back to secondary, skip if both null. (Empty imageBearingObjects
+  // produces empty themeSet, which falls through to the fallback chain
+  // below — Class E settings + Class F seoMeta paths.)
   var themeSet = new Set();
   imageBearingObjects.forEach(function (img) {
     var primary = (img.theme && String(img.theme).length > 0) ? String(img.theme) : null;
@@ -131,12 +174,73 @@ function classifyZip(zipPath) {
     if (t) themeSet.add(t);
   });
 
+  // Fallback chain when image-walk yields no themes (either no recognized
+  // image-shape OR all images had CUID-shaped paths with no .theme field).
+  // Two signal sources tried in order: per-app settings-field, then
+  // deck.html seoMeta.themeName reverse-lookup. First non-empty match wins.
+  var fallbackSource = null;
+  var fallbackNote = null;
   if (themeSet.size === 0) {
-    // All images had CUID-shaped paths AND no .theme field — legitimately
-    // themeless (Track A baseline pattern) per §17.8.5. Rewriting would
-    // force a theme that isn't in content.
-    result.action = 'halt-ambiguous';
-    result.note = 'no recoverable theme across ' + imageBearingObjects.length + ' images: all .theme fields missing AND all paths CUID-shaped or malformed';
+    // 1. Settings-field signal-recovery (Class E — matching).
+    var appName = manifest.generator && manifest.generator.app;
+    var settingsFields = SETTINGS_THEME_FIELDS[appName] || [];
+    var settings = manifest.settings || {};
+    for (var sfi = 0; sfi < settingsFields.length; sfi++) {
+      var fieldName = settingsFields[sfi];
+      var fieldValue = settings[fieldName];
+      if (typeof fieldValue === 'string' && fieldValue.length > 0 && fieldValue !== 'all' && THEME_AXIS_KEYS.has(fieldValue)) {
+        themeSet.add(fieldValue);
+        fallbackSource = 'settings.' + fieldName;
+        fallbackNote = 'recovered from settings.' + fieldName + '=' + JSON.stringify(fieldValue);
+        break;
+      }
+    }
+  }
+
+  if (themeSet.size === 0) {
+    // 2. deck.html seoMeta.themeName reverse-lookup (Class F — big-small).
+    var deckHtmlEntry = zip.getEntry('deck.html');
+    if (deckHtmlEntry) {
+      var deckHtml;
+      try {
+        deckHtml = deckHtmlEntry.getData().toString('utf8');
+      } catch (e) {
+        deckHtml = null;
+      }
+      if (deckHtml) {
+        var seoMatch = deckHtml.match(/"seoMeta"\s*:\s*\{[^}]*"themeName"\s*:\s*"([^"]+)"/);
+        if (seoMatch) {
+          var displayName = seoMatch[1];
+          var locale = manifest.language || 'en';
+          var axisKeyByName = lookupAxisKeyByDisplayName(displayName, locale);
+          if (axisKeyByName) {
+            themeSet.add(axisKeyByName);
+            fallbackSource = 'deck.html seoMeta';
+            fallbackNote = 'recovered from deck.html seoMeta.themeName="' + displayName + '" (locale=' + locale + ') -> ' + axisKeyByName;
+          } else {
+            // displayName present but no matching axis-key in registry —
+            // surface as distinct halt-class for operator attention.
+            result.action = 'halt-seometa-unmatched';
+            result.note = 'deck.html seoMeta.themeName="' + displayName + '" but no matching axis-key in topics-taxonomy.json axes.theme.*.name.' + locale;
+            return result;
+          }
+        }
+      }
+    }
+  }
+
+  if (themeSet.size === 0) {
+    // Neither image-walk nor settings nor seoMeta yielded a theme.
+    // Differentiate halt-class by which signal sources were tried:
+    //   imageBearingObjects.length === 0 → halt-unparseable (no recognized shape)
+    //   imageBearingObjects.length > 0   → halt-ambiguous (CUID-shaped paths)
+    if (imageBearingObjects.length === 0) {
+      result.action = 'halt-unparseable';
+      result.note = 'no image-bearing objects across exercises[] AND no settings-field/seoMeta fallback signal';
+    } else {
+      result.action = 'halt-ambiguous';
+      result.note = 'no recoverable theme across ' + imageBearingObjects.length + ' images (all CUID-shaped or .theme missing) AND no settings-field/seoMeta fallback signal';
+    }
     return result;
   }
 
@@ -155,10 +259,32 @@ function classifyZip(zipPath) {
 
   if (result.oldTheme === corrected) {
     result.action = 'skip-clean';
+    if (fallbackNote) result.note = fallbackNote;
+    return result;
+  }
+
+  // Preserve compound themes (picture-sort A-vs-B pattern). Image-walk only
+  // sees one component when the other side's items are theme-less; rewriting
+  // to a single theme corrupts operator's compound-theme intent.
+  if (result.oldTheme && result.oldTheme.indexOf('-vs-') !== -1) {
+    result.action = 'skip-compound';
+    result.note = 'compound oldTheme preserved (image-walk found "' + corrected + '" but compound "' + result.oldTheme + '" is operator intent)';
+    return result;
+  }
+
+  // Preserve non-null oldTheme that diverges from image-walk corrected.
+  // Operator's explicit manifest selection takes priority over inferred
+  // image-pool theme; surface for operator visibility but do not rewrite.
+  // Salvage script's primary use case is recovering manifest.theme=null
+  // (the recurring emit-defect class), not overriding populated values.
+  if (result.oldTheme) {
+    result.action = 'skip-divergent';
+    result.note = 'oldTheme "' + result.oldTheme + '" differs from image-walk corrected "' + corrected + '" — preserving operator manifest (no rewrite)';
     return result;
   }
 
   result.action = 'rewrite';
+  if (fallbackNote) result.note = fallbackNote;
   return result;
 }
 
@@ -208,6 +334,34 @@ function collectImagesFromExercise(exercise, accumulator) {
   // Single-image-named-field: item (prepositions)
   if (exercise.item && typeof exercise.item === 'object' && (exercise.item.path || exercise.item.theme)) {
     accumulator.push(exercise.item);
+  }
+
+  // Array shape: uniqueImages (pattern-worksheet)
+  if (Array.isArray(exercise.uniqueImages)) {
+    exercise.uniqueImages.forEach(function (img) {
+      if (img && typeof img === 'object' && (img.path || img.theme)) {
+        accumulator.push(img);
+      }
+    });
+  }
+
+  // Array shape: icons (chart-count)
+  if (Array.isArray(exercise.icons)) {
+    exercise.icons.forEach(function (img) {
+      if (img && typeof img === 'object' && (img.path || img.theme)) {
+        accumulator.push(img);
+      }
+    });
+  }
+
+  // Map shape: elementToImage (pattern-train; mirror of letterToImage)
+  if (exercise.elementToImage && typeof exercise.elementToImage === 'object') {
+    Object.keys(exercise.elementToImage).forEach(function (k) {
+      var img = exercise.elementToImage[k];
+      if (img && typeof img === 'object' && (img.path || img.theme)) {
+        accumulator.push(img);
+      }
+    });
   }
 }
 
@@ -304,11 +458,11 @@ function printDiffTable(classifications, opts) {
 }
 
 function printSummary(classifications, mode) {
-  var counts = { rewrite: 0, 'skip-clean': 0, 'skip-multi-theme': 0, 'halt-unparseable': 0, 'halt-ambiguous': 0 };
+  var counts = { rewrite: 0, 'skip-clean': 0, 'skip-multi-theme': 0, 'skip-compound': 0, 'skip-divergent': 0, 'halt-unparseable': 0, 'halt-ambiguous': 0, 'halt-seometa-unmatched': 0 };
   classifications.forEach(function (c) { counts[c.action] = (counts[c.action] || 0) + 1; });
   var themeDist = {};
   classifications.forEach(function (c) {
-    if (c.action === 'rewrite' || c.action === 'skip-clean') {
+    if (c.action === 'rewrite' || c.action === 'skip-clean' || c.action === 'skip-compound' || c.action === 'skip-divergent') {
       var t = c.newTheme || c.oldTheme || '(unknown)';
       themeDist[t] = (themeDist[t] || 0) + 1;
     } else if (c.action === 'skip-multi-theme') {
@@ -318,12 +472,15 @@ function printSummary(classifications, mode) {
 
   console.log('');
   console.log('=== ' + mode + ' summary ===');
-  console.log('  Total ZIPs:        ' + classifications.length);
-  console.log('  rewrite:           ' + counts.rewrite);
-  console.log('  skip-clean:        ' + counts['skip-clean']);
-  console.log('  skip-multi-theme:  ' + counts['skip-multi-theme']);
-  console.log('  halt-unparseable:  ' + counts['halt-unparseable']);
-  console.log('  halt-ambiguous:    ' + counts['halt-ambiguous']);
+  console.log('  Total ZIPs:              ' + classifications.length);
+  console.log('  rewrite:                 ' + counts.rewrite);
+  console.log('  skip-clean:              ' + counts['skip-clean']);
+  console.log('  skip-multi-theme:        ' + counts['skip-multi-theme']);
+  console.log('  skip-compound:           ' + counts['skip-compound']);
+  console.log('  skip-divergent:          ' + counts['skip-divergent']);
+  console.log('  halt-unparseable:        ' + counts['halt-unparseable']);
+  console.log('  halt-ambiguous:          ' + counts['halt-ambiguous']);
+  console.log('  halt-seometa-unmatched:  ' + counts['halt-seometa-unmatched']);
   console.log('');
   console.log('=== Corrected-theme distribution (' + Object.keys(themeDist).length + ' unique) ===');
   var entries = Object.entries(themeDist).sort(function (a, b) { return b[1] - a[1]; });
@@ -385,7 +542,7 @@ function main() {
 
   // Halt-class detection.
   var halts = classifications.filter(function (c) {
-    return c.action === 'halt-unparseable' || c.action === 'halt-ambiguous';
+    return c.action === 'halt-unparseable' || c.action === 'halt-ambiguous' || c.action === 'halt-seometa-unmatched';
   });
 
   // Print rewrite table (always); halt table (when halts present); summary.

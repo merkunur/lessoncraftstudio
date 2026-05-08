@@ -272,6 +272,18 @@ function reconcileManifestTheme(manifest) {
   var priN = norm(primary);
   var secN = norm(secondary);
 
+  // Compound-theme support: "A-vs-B" pattern indicates "vs" mode apps
+  // (currently picture-sort) where the declared theme combines two source
+  // themes. After norm the separator is "_vs_". A compound declared
+  // matches a single-component primary/secondary signal when the signal
+  // equals one of the components.
+  function isCompound(n) { return n != null && n.indexOf('_vs_') !== -1; }
+  function compoundComponents(n) { return n.split('_vs_'); }
+  function compoundContains(n, target) {
+    if (target == null) return false;
+    return compoundComponents(n).indexOf(target) !== -1;
+  }
+
   var category;
   if (!declaredDefined) {
     if (!primaryDefined) {
@@ -297,6 +309,10 @@ function reconcileManifestTheme(manifest) {
       // declared agrees with path-derived theme; image.theme schema
       // gap but data agrees.
       category = 'CLEAN';
+    } else if (isCompound(decN) && compoundContains(decN, secN)) {
+      // declared is compound (A-vs-B) and path-derived secondary is one
+      // of the components — operator's "vs" mode intent (picture-sort).
+      category = 'CLEAN';
     } else {
       // declared disagrees with path-derived theme AND image.theme is
       // missing — operator-action surface.
@@ -305,6 +321,10 @@ function reconcileManifestTheme(manifest) {
   } else {
     // Both declared and primary defined.
     if (decN === priN) {
+      category = 'CLEAN';
+    } else if (isCompound(decN) && compoundContains(decN, priN)) {
+      // Compound declared with primary matching one component → CLEAN
+      // (defensive for future compound-theme apps).
       category = 'CLEAN';
     } else {
       category = 'THEME_DISAGREE';

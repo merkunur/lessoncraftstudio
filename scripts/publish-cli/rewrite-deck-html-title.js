@@ -94,9 +94,8 @@ var FOR_WORD_BY_LOCALE = {
   fi: 'ikäluokalle'
 };
 
-/** Look up display name; fallback to title-case if missing in taxonomy. */
-function deriveThemeName(themeKey, locale) {
-  if (!themeKey) return null;
+/** Look up display name for a single (non-compound) theme key. */
+function deriveSingleThemeName(themeKey, locale) {
   var tax = loadTaxonomy();
   var node = tax && tax.axes && tax.axes.theme && tax.axes.theme[themeKey];
   var name = node && node.name && node.name[locale];
@@ -106,6 +105,21 @@ function deriveThemeName(themeKey, locale) {
   if (nameEn) return String(nameEn);
   // Final fallback: title-case the snake_case slug
   return titleCaseSnake(themeKey);
+}
+
+/**
+ * Look up display name; handle compound `A-vs-B` themes (picture-sort "vs" mode).
+ * For compound, look up each component and join with " vs ". Single themes
+ * delegate to deriveSingleThemeName.
+ */
+function deriveThemeName(themeKey, locale) {
+  if (!themeKey) return null;
+  if (typeof themeKey === 'string' && themeKey.indexOf('-vs-') !== -1) {
+    var parts = themeKey.split('-vs-');
+    var partNames = parts.map(function (p) { return deriveSingleThemeName(p, locale); });
+    return partNames.join(' vs ');
+  }
+  return deriveSingleThemeName(themeKey, locale);
 }
 
 function escapeHtml(s) {

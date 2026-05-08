@@ -150,9 +150,13 @@ function apply(opts) {
     rTypeText.fallbackFired ? 'fell back to ' + rTypeText.source : null);
 
   // 7. __LINK_MORE_THEME__ (conditional)
+  // Compound themes (A-vs-B pattern, e.g. picture-sort "vs" mode) don't
+  // have a single topic page in the catalog — the theme link is degenerate
+  // and gracefully skipped. Non-compound themes route through taxonomy.
   var theme = manifest.theme;
+  var themeIsCompound = (typeof theme === 'string' && theme.indexOf('-vs-') !== -1);
   var themeAxis = null;
-  if (theme) {
+  if (theme && !themeIsCompound) {
     try {
       themeAxis = taxonomy.themeFor(theme, locale);
     } catch (e) {
@@ -160,8 +164,11 @@ function apply(opts) {
     }
   }
   var linkMoreTheme = themeAxis ? '/' + locale + '/topic/' + themeAxis.slug + '/' : null;
-  note('__LINK_MORE_THEME__', themeAxis ? 'taxonomy' : (theme ? 'skip' : 'conditional skip (theme=null)'),
-    linkMoreTheme || '', !themeAxis, theme && !themeAxis ? 'theme present but no taxonomy slug for locale; end-of-deck link skipped' : null);
+  var themeNoteSource = themeAxis ? 'taxonomy'
+    : (themeIsCompound ? 'compound skip (no single-topic page for A-vs-B)'
+      : (theme ? 'skip' : 'conditional skip (theme=null)'));
+  note('__LINK_MORE_THEME__', themeNoteSource, linkMoreTheme || '', !themeAxis,
+    theme && !themeAxis && !themeIsCompound ? 'theme present but no taxonomy slug for locale; end-of-deck link skipped' : null);
 
   // 8. __LINK_TEXT_MORE_THEME__
   var themeName = (themeAxis && themeAxis.name) || (themeAxis && themeAxis.slug) || theme || '';

@@ -3056,13 +3056,15 @@ Origin: `9850df93` (Scaling Arc 3 — filesystem-level layer) + `f765b991` (Scal
 
 #### A.14.8 Pre-publish-wave audit doctrine
 
-Two defect classes have recurred across multiple operator deck-publish hand-offs and were re-diagnosed from scratch each time. Both are now captured here as a pre-publish-wave checklist that future sessions MUST run BEFORE invoking `publish-bulk --confirm` on a new operator-staged deck wave. Skipping this audit means re-spending operator-attention on already-solved problems.
+Three defect classes have recurred across multiple operator deck-publish hand-offs and were re-diagnosed from scratch each time. All are now captured here as a pre-publish-wave checklist that future sessions MUST run BEFORE invoking `publish-bulk --confirm` on a new operator-staged deck wave. Skipping this audit means re-spending operator-attention on already-solved problems.
 
-**The two recurring defect classes:**
+**The three recurring defect classes:**
 
 1. **Theme-emit defects** — apps' `LCSCatalogExport.export()` call site or `buildCatalogManifestSettings()` hardcodes `theme: null`, dropping the operator's theme selection. Plus 27 of 29 apps historically didn't populate `bundle.seoMeta.themeName` in `extractDeckBundle()` so deck.html `<title>` and `<meta description>` lacked the theme keyword. Past fixes: `5110d6e0` (math-worksheet + prepositions defect-A); `0e5f1560` (28-app sweep adding `seoMeta.themeName` via shared `LCSCatalogExport.deriveThemeName()` helper).
 
 2. **Embed iframe gap (apex/www mismatch)** — `substitute.js: CANONICAL_URL_BASE` was apex form; nginx 301-redirect to www breaks the embed iframe's auto-resize listener via postMessage URL-match check; iframe stays at default `aspect-ratio: 800/1400` showing whitespace below sparse-content worksheets. Past fix: `6fb6ee3d` (CANONICAL_URL_BASE → www form + `rewrite-canonical-host.js` retrofit).
+
+3. **Deckend-suggestions strip stale-emit** — operator's PC `frontend/public/worksheet-generators/` (gitignored serving copy populated by `scripts\master-sync.bat`) goes stale relative to `REFERENCE TRANSLATIONS/catalog-export.js`. When `LCSCatalogExport.buildDeckEndSuggestionsPlaceholder` is undefined at deck-generation time, the apps' `parts.push(deckEndSuggestions)` pushes empty string and deck.html ships without the strip — `<section class="lcs-deckend-suggestions">` element, CSS, AND/OR un-hide JS guard missing depending on how stale the operator's apps source is. Two failure modes per timestamp ordering: Mode B (oldest, missing all 3 elements) and Mode A (mid-sync, un-hide JS hardcoded but helper undefined → empty section). Result: end-of-deck "Try one of these next:" reel never renders even though publish-cli's `selectDeckEndSuggestions` ran correctly. Past fix: 9-app wave 2026-05-09 — recovery via `scripts/publish-cli/inject-deck-end-strip.js --locale=<X> --rewrite` (strips prior partial injection + re-injects with current code's logic + populates 6 `<li>` tiles via `selectDeckEndSuggestions`). Critical for both UX (post-completion engagement) and §1 SEO flywheel (deck.html outbound topic-page anchors feed Google's link graph).
 
 **Pre-publish-wave checklist** — run BEFORE `publish-bulk --confirm` on a new wave:
 
@@ -3079,14 +3081,19 @@ Two defect classes have recurred across multiple operator deck-publish hand-offs
    - Run `scripts/publish-cli/rewrite-canonical-host.js` against `/var/www/lcs-media/decks/` to retrofit existing decks
    - Cloudflare 5-min TTL refreshes edge cache automatically
 
-4. **post-publish spot-check.** Pick 1 sample published deck per affected app:
+4. **deckend-suggestions strip presence audit.** Sample 1 ZIP per app: `unzip -p <zip> deck.html | grep -c 'lcs-deckend-suggestions'`. Expected: ≥3 hits per ZIP — CSS block (`.lcs-deckend-suggestions{margin:...}`) + section element (`<section class="lcs-deckend-suggestions" hidden>`) + un-hide JS guard (`querySelector(".lcs-deckend-suggestions")`). If 0-2 hits, the operator's PC ran with stale `catalog-export.js` (Mode A: 1 hit = un-hide JS only; Mode B: 0 hits = nothing emitted). Recovery options:
+   - **Pre-publish** (preferred): operator runs `scripts\master-sync.bat` + hard-refresh (Ctrl+Shift+R) on the affected apps, regenerates the wave
+   - **Post-publish salvage**: run `scripts/publish-cli/inject-deck-end-strip.js --locale=<X> --rewrite` against `/var/www/lcs-media/decks/` per §15.17 — handles both Mode A + Mode B uniformly via removeExistingStripAndGuard + re-inject. Idempotent on already-correct decks (refreshes suggestions). Cloudflare 5-min TTL refreshes edge cache automatically per §15.8
+
+5. **post-publish spot-check.** Pick 1 sample published deck per affected app:
    - `curl -s <deck-url> | grep -E '<title>|var url='` — title should include theme word; var url= should be www form
+   - `curl -s <deck-url> | grep -c 'lcs-deckend-tile'` should return ≥1 (populated `<li>` tiles for the reel)
    - Embed the deck on a test page; verify auto-resize works (no whitespace gap below content)
 
-**Why this matters at the doctrine level.** Operator-attention is the load-bearing variable across the project's runway. Re-diagnosing these defect classes per wave costs ~1-2 hours of CC + operator round-trips. Pre-checking takes ~5 minutes. The asymmetry justifies the doctrine even at one occurrence per quarter; both have recurred multiple times in close succession.
+**Why this matters at the doctrine level.** Operator-attention is the load-bearing variable across the project's runway. Re-diagnosing these defect classes per wave costs ~1-2 hours of CC + operator round-trips. Pre-checking takes ~5 minutes. The asymmetry justifies the doctrine even at one occurrence per quarter; all three classes have recurred multiple times in close succession.
 
-**How to apply.** At the START of any commission that involves `publish-bulk` on operator-staged ZIPs, run the 4-step checklist before any other work. Surface findings in the commission's Phase 1 inventory; fix BEFORE running publish-bulk's `--confirm`. Each step has a documented canonical solution + recovery script; no inventive solutioning required.
+**How to apply.** At the START of any commission that involves `publish-bulk` on operator-staged ZIPs, run the 5-step checklist before any other work. Surface findings in the commission's Phase 1 inventory; fix BEFORE running publish-bulk's `--confirm`. Each step has a documented canonical solution + recovery script; no inventive solutioning required.
 
-Origin: surfaced empirically across the 345-en-wave + alphabet-train/prepositions embed-gap commission cycles in this session. Operator's frustration at the recurrence directly motivated the doctrine capture. Cross-references: §A.10 (canonical-host); §A.13.5 (Shape A); §A.13.7 (first-publish-verification cadence); §15.17 (salvage scripts pattern); §17.8.5 (slug derivation).
+Origin: surfaced empirically across the 345-en-wave + alphabet-train/prepositions embed-gap commission cycles. Step 4 added 2026-05-09 after the 9-app wave (picture-sort/shadow-match/bingo/matching/pattern-worksheet/chart-count/pattern-train/big-small) shipped without populated reels; root-cause was Mode A + Mode B stale-emit from operator's PC sync lag during incremental wave generation. Operator's frustration at the recurrence directly motivated the doctrine capture. Cross-references: §A.10 (canonical-host); §A.13.5 (Shape A); §A.13.7 (first-publish-verification cadence); §15.17 (salvage scripts pattern); §17.8.5 (slug derivation).
 
 *End of CLAUDE.md.*

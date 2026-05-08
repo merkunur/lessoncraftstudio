@@ -1,0 +1,124 @@
+# Teaching package — count syllables (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 11 Phase 3 per Arc 3 Phase 1 sparse-override pattern).
+# pt sparse-override for early-literacy / phonological-awareness strand.
+# Pt-BR syllable structure distinct from en — open syllables predominate;
+# nasal -ão/-õe/-ãe count as single syllables; diminutive -inho adds
+# syllable count. BR Portuguese register per CLAUDE.md §6 + formal "você"
+# address per §17.9.
+
+title:
+  pt: "Contando Sílabas — batidas nas palavras"
+description:
+  pt: "Pacote de letramento inicial para o jardim de infância / 1º ano que ensina contagem de sílabas. Constrói sobre identify-rhyming-pairs (Arco 10 — fio de consciência fonológica). RESOLVE o indicador adiante do Arco 10 ('contar SÍLABAS — batidas nas palavras na próxima vez'). Habilidade fundamental pré-leitura: as crianças contam sílabas (BATIDAS) em palavras batendo palmas (gato = 2: ga-to; banana = 3: ba-na-na; passarinho = 4: pa-ssa-ri-nho). Especificidade pt-BR: padrão silábico pt-BR predominantemente aberto (consoante-vogal); nasais -ão/-ãe/-õe são sílabas únicas; diminutivos -inho/-inha adicionam sílabas (gato=2 → gatinho=3; passarinho=4)."
+
+structure:
+  warmup:
+    body: |
+      Rotina de bater-palmas-nas-sílabas com toda a turma. A professora
+      ou o professor diz uma palavra + bate palmas em cada sílaba:
+      "Gato" = ga-to = 2 palmas. "Banana" = ba-na-na = 3 palmas.
+      "Lápis" = lá-pis = 2 palmas. A turma segue + bate as mesmas
+      sílabas. Repita com 6-8 palavras pt-BR canônicas: cão (1
+      sílaba — nasal -ão é sílaba única!), maçã (2: ma-çã), elefante
+      (4: e-le-fan-te), passarinho (4: pa-ssa-ri-nho), borboleta
+      (4: bor-bo-le-ta), café (2: ca-fé). Reforça sílaba-como-batida
+      através do bater-palmas cinestesicamente. Destaque pt-BR
+      específico: palavras com -ão (mão, leão, balão) têm a nasal
+      -ão como SÍLABA ÚNICA, não duas.
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de bater-palmas-e-contar. Cada
+      dupla recebe 12 cartas de imagem em categorias de 1, 2, 3 e
+      4 sílabas:
+      - 1 sílaba: cão, sol, mão, pé, sal
+      - 2 sílabas: gato, doce, lápis, casa, bola
+      - 3 sílabas: banana, abacaxi (4 na verdade — a-ba-ca-xi),
+        cabeça, escola, estrela
+      - 4 sílabas: passarinho, elefante, borboleta, computador
+      A dupla alterna: a criança A mostra uma carta; a criança B bate
+      palmas das sílabas + diz a contagem. Refraseie os erros com
+      explicação ('você disse que BANANA tem 2 — vamos bater palmas:
+      ba-na-na — isso é 3 palmas, 3 sílabas'). Especificidade pt-BR:
+      palavras com diminutivo -inho/-inha frequentemente adicionam
+      sílaba (gato=2 → gatinho=3; flor=1 → florzinha=3). Extensão
+      opcional: as crianças classificam cartas em pilhas de 1/2/3/4
+      sílabas.
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios de
+      emparelhamento (imagem para número-de-sílabas). Estação 2:
+      folha de exercícios picture-sort (as crianças classificam
+      imagens por contagem de sílabas: 1-sílaba vs 2-sílabas vs
+      3-sílabas). Estação 3: bater-palmas-de-sílabas prático com
+      recortes manipulativos (as crianças colocam objetos + batem
+      palmas das sílabas do nome de cada objeto). Estação 4: word-
+      guess (as crianças preenchem sílabas batendo palmas).
+  closure:
+    body: |
+      Rotina de quiz-de-sílabas com toda a turma. A professora ou o
+      professor diz uma palavra; a turma bate palmas + conta
+      coletivamente. Indicador adiante: "Hoje contamos SÍLABAS — as
+      batidas nas palavras. Quando voltarmos ao trabalho fonológico
+      na próxima vez, trabalharemos com MISTURAR — desmontar e
+      remontar os sons dentro de uma sílaba: c-a-t mistura para
+      fazer 'cat' em inglês; em português, 'gato' = g-a-t-o =
+      g + a + t + o."
+
+assessmentCriteria:
+  pt: |
+    Contar sílabas em 8 de 10 palavras com 1-3 sílabas batendo
+    palmas. Classificar 12 imagens por contagem de sílabas (1, 2 ou
+    3) em 7 de 10 tentativas. Articular o princípio de sílaba-como-
+    batida ('Eu bato palmas uma vez para 'cão' porque tem uma
+    sílaba') em 6 de 10 tentativas. Reconhecer especificidades pt-BR:
+    nasais -ão como sílabas únicas (mão = 1 sílaba); diminutivo -inho
+    adiciona sílaba.
+
+    Diferenciação:
+      - Pré-K: palavras de 1-2 sílabas apenas; bater palmas com
+        professor.
+      - K: palavras de 1-3 sílabas; bater palmas independente.
+      - Primeiro ano em diante: estender para palavras de 4+ sílabas
+        + ponte para segmentação de fonemas (blend-onset-rime
+        candidato Arco 12+).
+
+compositionalRationale:
+  pt: |
+    Fio principal: letramento inicial / consciência fonológica
+    (contagem de sílabas). Fio secundário: aquisição de vocabulário
+    (ancorado em vocabulário — as crianças praticam contagem de
+    sílabas em vocabulário pt-BR familiar). Fio terciário: ritmo +
+    discriminação auditiva (sílaba-como-batida é fundamentalmente
+    rítmica).
+
+    Significância arquitetural: aprofunda o fio de consciência
+    fonológica 1/9 → 2/9. RESOLVE o indicador adiante do Arco 10
+    identify-rhyming-pairs. A consciência fonológica é o preditor
+    mais forte do sucesso precoce em leitura.
+
+    Especificidade pt-BR: a estrutura silábica pt-BR difere do
+    inglês:
+    - **Sílabas abertas predominam:** consoante + vogal (CV); ga-to,
+      ca-sa, me-sa, pe-ga
+    - **Nasais -ão/-ãe/-õe são sílabas únicas:** mão, pão, irmão
+      (cada um = 1 sílaba; o som nasal não é duas sílabas)
+    - **Diminutivo -inho/-inha adiciona sílaba:** gato (2) → gatinho
+      (3); flor (1) → florzinha (3); ratinho (3)
+    - **Hiatos (vogais separadas) podem confundir:** caí = 2 sílabas
+      (ca-í, vogais em sílabas diferentes); país = 2 sílabas (pa-ís)
+
+    Crianças brasileiras estão habituadas a estas estruturas —
+    contagem de sílabas em pt-BR é tipicamente intuitiva. A diferença
+    com inglês surge quando crianças aprendem inglês: en tem mais
+    grupos de consoantes (CCVC: 'split', 'street') que pt-BR não
+    tem.
+
+    Folclore + canções infantis pt-BR são frequentemente ritmicamente
+    silábicas: "Atirei o pau no gato" (5 sílabas no verso), "Marcha
+    Soldado" (rítmico), brincadeiras de roda — todos estabelecem
+    consciência silábica antes da escolarização formal.
+
+    Substrato Class B FLEXIBLE: composta contra a amplitude da
+    biblioteca de imagens. Substrato-prontidão universal através de
+    temas com diversidade significativa de contagem-de-sílabas.

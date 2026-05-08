@@ -1,0 +1,129 @@
+# Teaching package — identify others' emotions from faces (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 11 Phase 3 per Arc 3 Phase 1 sparse-override pattern).
+# pt sparse-override for world-knowledge / personal-social-emotional-
+# development strand. Pt-BR cultural specificity: caloroso emotional
+# expression makes face-reading easier (more expressive faces) but cultural
+# emphasis on group-emotional-attunement is distinctive. BR Portuguese
+# register per CLAUDE.md §6 + formal "você" address per §17.9.
+
+title:
+  pt: "Lendo Rostos — o que seu amigo está sentindo?"
+description:
+  pt: "Pacote de conhecimento de mundo para o jardim de infância / 1º ano que ensina reconhecimento de emoções a partir de expressões faciais de outras pessoas. Constrói sobre identify-own-emotions-in-context do Arco 10. RESOLVE o indicador adiante do Arco 10 ('reconhecer as emoções DE OUTRAS PESSOAS na próxima vez — olhando para rostos'). Habilidade empática de tomada-de-perspectiva: as crianças aprendem a ler pistas faciais + identificar a emoção de um amigo/membro da família mesmo quando não é a sua própria. Habilidade SEL fundamental — empatia + tomada-de-perspectiva + consciência relacional. Especificidade cultural pt-BR: cultura brasileira é caloroso-expressiva — rostos brasileiros tendem a ser mais expressivos, facilitando a leitura facial; ênfase cultural na atenção-emocional-grupal é distintiva."
+
+structure:
+  warmup:
+    body: |
+      Rotina de leitura-de-rosto com toda a turma. A professora ou o
+      professor segura grandes imagens de rostos mostrando diferentes
+      emoções (um alegre, um triste, um bravo, um surpreso, um
+      assustado). 'Como esta pessoa está se sentindo?' A turma
+      identifica. 'Como você sabe?' Discussão: as crianças nomeiam
+      características faciais (sorriso = alegre; lágrimas ou boca
+      virada para baixo = triste; sobrancelha franzida + boca
+      apertada = bravo). Reforça o enquadramento de rosto-como-
+      janela-para-emoção. Especificidade pt-BR: brasileiros tendem a
+      expressar emoções mais abertamente nos rostos do que algumas
+      outras culturas — torna a leitura facial mais fácil + reflete
+      a cultura caloroso-expressiva pt-BR.
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de rosto-e-emoção. Cada dupla recebe
+      8 cartões de rosto representando várias emoções. A dupla alterna:
+      a criança A mostra um cartão de rosto; a criança B nomeia a
+      emoção + explica a pista facial ('eles estão alegres porque
+      estão sorrindo'). Refraseie os erros com explicação ('você disse
+      que parecem alegres — vamos olhar mais de perto. O que a boca
+      mostra? Virada para baixo. E os olhos? Marejados. Esse é um
+      rosto TRISTE'). Extensão opcional: as crianças praticam ler o
+      rosto real-time do parceiro + nomear emoções. Inclua vocabulário
+      pt-BR específico: 'animado' (excited), 'desanimado' (down),
+      'bravo' / 'irritado' / 'chateado' (angry/upset distinctions).
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios de
+      emparelhamento (imagem-de-rosto para pares de nome-de-emoção).
+      Estação 2: folha de exercícios de emparelhamento (imagem-de-
+      rosto para contexto — alegre + festa; triste + brinquedo-
+      perdido; etc.). Estação 3: reconhecimento-de-emoção prático
+      com recortes manipulativos (as crianças montam quadros de
+      pista-de-emoção emparelhando características faciais com
+      etiquetas de emoção). Estação 4: word-guess (as crianças
+      preenchem letras de nome-de-emoção a partir de pistas de
+      imagem-de-rosto).
+  closure:
+    body: |
+      Rotina de quiz-de-rosto com toda a turma. A professora ou o
+      professor mostra 4-5 imagens de rosto; a turma nomeia cada
+      emoção + uma possível causa ('eles parecem tristes — talvez o
+      brinquedo deles quebrou'). Indicador adiante: 'Hoje reconhecemos
+      as emoções DE OUTRAS pessoas a partir dos rostos. Quando
+      voltarmos ao trabalho de emoções na próxima vez, aprenderemos
+      a RESPONDER COM GENTILEZA quando vemos um amigo se sentindo
+      triste ou chateado — empatia em ação. Em português, dizemos
+      'dar carinho' — uma palavra brasileira muito especial sobre
+      cuidado emocional.'
+
+assessmentCriteria:
+  pt: |
+    Identificar 5 de 7 emoções básicas a partir de imagens de rosto
+    em 8 de 10 tentativas. Articular pista facial ('eles parecem
+    alegres porque estão sorrindo') em 6 de 10 tentativas. Reconhecer
+    a emoção em tempo real de um parceiro a partir da observação em
+    5 de 10 tentativas.
+
+    Diferenciação:
+      - Pré-K: 4 emoções básicas (alegre, triste, assustado, bravo);
+        apenas emparelhamento receptivo de rosto.
+      - K: 7 emoções; descrição produtiva de pistas faciais.
+      - Primeiro ano em diante: estender para emoções sutis (preocupado,
+        contente, envergonhado) + ponte para trabalho de empatia-em-
+        resposta (candidato Arco 12+).
+
+compositionalRationale:
+  pt: |
+    Fio principal: conhecimento de mundo / desenvolvimento pessoal-
+    social-emocional (reconhecimento-de-emoção-de-outros a partir de
+    pistas faciais). Fio secundário: aquisição de vocabulário
+    (ancorado em vocabulário — vocabulário de emoção dos Arcos 5+10).
+    Fio terciário: tomada-de-perspectiva empática (as crianças
+    desenvolvem consciência de que outras pessoas têm estados
+    internos).
+
+    Significância arquitetural: aprofunda o fio de desenvolvimento
+    pessoal-social-emocional 1/8 → 2/8. RESOLVE o indicador adiante
+    do Arco 10. Progressão SEL: emoções-próprias (Arco 10; auto-
+    consciência) → emoções-dos-outros (este pacote; tomada-de-
+    perspectiva) → resposta-empática (arcos futuros). Alinhado com
+    framework CASEL + BNCC competências socioemocionais.
+
+    Especificidade cultural pt-BR: cultura brasileira é caloroso-
+    expressiva — rostos brasileiros tendem a expressar emoções mais
+    abertamente do que em culturas mais reservadas (alguns contextos
+    norte-europeus, asiáticos, etc.). Isto facilita o trabalho de
+    leitura facial em pt-BR.
+
+    Vocabulário pt-BR de emoção rico:
+    - **animado/animada**: excited (positive); cotidiano K-3
+    - **desanimado/desanimada**: down/discouraged (negative; subtle)
+    - **bravo/brava**: angry (informal); 'irritado' (irritated;
+      slightly less intense); 'chateado/chateada' (annoyed/upset;
+      everyday K-3)
+    - **carinho**: affectionate care — palavra cultural-load-bearing
+      pt-BR; ensina-se a 'dar carinho' a alguém triste
+    - **saudade**: missing-someone-distant (complex Portuguese-
+      specific emotion); tem ressonância especial em crianças cujos
+      avós ou família moram distantes (comum em escolas
+      internacionais brasileiras)
+
+    Ênfase cultural pt-BR: atenção emocional ao GRUPO. Crianças
+    brasileiras crescem habituadas a notar humores de toda a sala
+    de aula, da família, do grupo de amigos. Reconhecimento de
+    emoções dos outros é prática cultural diária — este pacote
+    formaliza uma habilidade já presente.
+
+    Substrato Class B FLEXIBLE: composta contra o tema emoções.
+    Substrato-prontidão universal — emoções básicas são universais;
+    expressão facial varia culturalmente, mas categorias-de-emoção-
+    base são transculturais.

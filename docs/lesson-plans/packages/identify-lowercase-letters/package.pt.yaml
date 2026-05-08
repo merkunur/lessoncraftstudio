@@ -1,0 +1,110 @@
+# Teaching package — identify lowercase letters (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 11 Phase 3 per Arc 3 Phase 1 sparse-override pattern).
+# pt sparse-override for early-literacy / letter-recognition strand. Pt-BR
+# lowercase letters include diacritics (ç, ã, é, õ, á, í, ó, ú). BR
+# Portuguese register per CLAUDE.md §6 + formal "você" address per §17.9.
+
+title:
+  pt: "Letras Minúsculas — reconheça as 26 letras pequenas"
+description:
+  pt: "Pacote de letramento inicial para o jardim de infância que ensina o reconhecimento de letras minúsculas. Constrói sobre identify-uppercase-letters do Arco 10. As crianças reconhecem sistematicamente todas as 26 letras minúsculas, emparelhadas com âncoras de vocabulário familiar. Especificidade pt-BR: o alfabeto pt-BR também inclui letras com diacríticos em formas minúsculas (ç, ã, é, õ, á, í, ó, ú) — o pacote em pt-BR introduz estas letras especiais usando palavras-vocabulário-âncora canônicas. RESOLVE o indicador adiante do Arco 10 'voltar para letras MINÚSCULAS na próxima vez'."
+
+structure:
+  warmup:
+    body: |
+      Rotina de exibição de minúsculas com toda a turma. A professora ou
+      o professor exibe um grande cartaz do alfabeto com letras
+      minúsculas a-z ao lado de maiúsculas A-Z. A turma canta a
+      música do alfabeto enquanto aponta para cada letra minúscula.
+      "A maioria das palavras que você lê é feita de letras
+      MINÚSCULAS — as letras pequenas. As letras GRANDES, as
+      maiúsculas, são especiais — elas começam frases e nomes de
+      pessoas." Reforça as minúsculas-como-padrão + maiúsculas-como-
+      especial. Inclua letras pt-BR com diacríticos: ç (cedilha em
+      maçã, ação), ã (til em mão, coração), é (acento em café, pé),
+      õ (til em avião, coração).
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de nome-de-letra-minúscula. Cada
+      dupla recebe um baralho de 26 cartas de letra minúscula + 26
+      cartas de imagem (uma por âncora-de-vocabulário de cada letra
+      em pt-BR: a-abacaxi, b-banana, c-cachorro, d-doce, e-elefante,
+      f-flor, g-gato, etc.). A dupla alterna: a criança A pega uma
+      carta de letra + nomeia a letra; a criança B encontra a carta
+      de imagem correspondente. Refraseie os erros com explicação
+      ("você disse que isto é a letra b, mas é d — olhe a forma:
+      'b' tem a barriguinha à DIREITA; 'd' tem a barriguinha à
+      ESQUERDA. São imagens espelhadas. Em português, ambas existem
+      em palavras como 'bebê' e 'dado'"). Inclua prática com letras
+      pt-BR especiais (ç, ã, é, õ).
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios alphabet-
+      train (as crianças identificam letras minúsculas em visual com
+      tema de trem). Estação 2: folha de exercícios de emparelhamento
+      (letra minúscula para âncora-de-vocabulário-imagem em pt-BR).
+      Estação 3: tiras de traçado de vocabulário com letras
+      minúsculas (incluindo palavras pt-BR com diacríticos: maçã,
+      café, mão). Estação 4: word-guess (as crianças preenchem letras
+      minúsculas a partir de pistas de imagem).
+  closure:
+    body: |
+      Rotina de quiz-de-letra com toda a turma. A professora ou o
+      professor exibe 5-6 letras minúsculas em ordem aleatória; a
+      turma nomeia coletivamente cada uma. Indicador adiante: "Hoje
+      reconhecemos letras minúsculas. Quando voltarmos a letras na
+      próxima vez, aprenderemos a EMPARELHAR letras maiúsculas com
+      minúsculas — reconhecendo que A e a são a mesma letra, apenas
+      tamanhos diferentes. Em português, isto também vale para
+      letras especiais: Á e á; Ç e ç; Ã e ã."
+
+assessmentCriteria:
+  pt: |
+    Nomear 22 de 26 letras minúsculas em ordem aleatória em 8 de 10
+    tentativas. Distinguir b/d, p/q, m/n em 7 de 10 tentativas.
+    Emparelhar uma imagem de vocabulário com sua letra inicial
+    minúscula em 8 de 10 tentativas. Reconhecer letras pt-BR especiais
+    (ç, ã, é, õ) em palavras-âncora em 7 de 10 tentativas.
+
+    Diferenciação:
+      - Pré-K: 13 letras mais frequentes (vogais + consoantes
+        frequentes); letras especiais pt-BR opcionais.
+      - K: todas as 26 letras minúsculas + letras especiais pt-BR
+        (ç, ã, é, õ).
+      - Primeiro ano em diante: estender para emparelhamento maiúscula-
+        minúscula (match-uppercase-lowercase candidato Arco 12+);
+        ponte para reconhecimento de pares de letras.
+
+compositionalRationale:
+  pt: |
+    Fio principal: letramento inicial / reconhecimento de letras
+    (nomeação de letras minúsculas). Fio secundário: aquisição de
+    vocabulário (ancorado em vocabulário). Fio terciário: discriminação
+    visual (contraste b/d/p/q minúsculo — confusão K-3 comum).
+
+    Significância arquitetural: aprofunda o fio de reconhecimento de
+    letras 2/6 → 3/6 pacotes. RESOLVE o indicador adiante do Arco 10
+    identify-uppercase-letters. Letras minúsculas são o alfabeto
+    primário de leitura em pt-BR (e na maioria das locais da
+    plataforma); dominar o reconhecimento de minúsculas é o limiar
+    operacional para texto legível pelas crianças.
+
+    Especificidade pt-BR: o alfabeto pt-BR estendido em formas
+    minúsculas inclui:
+    - **ç (cedilha)**: usado antes de a/o/u para som "ss" — maçã,
+      ação, coração, força, moço
+    - **ã (til)**: nasal — mão, irmã, manhã, maçã
+    - **õ (til)**: nasal plural — mãos, coração-corações, balão-balões
+    - **é (acento agudo)**: acentuação tônica — café, pé, jacaré
+    - **á/í/ó/ú**: acentuação tônica em outros vocábulos
+
+    Estas letras minúsculas com diacríticos NÃO são opcionais em
+    pt-BR — são letras canônicas usadas em vocabulário cotidiano.
+    Crianças em escolas internacionais brasileiras precisam reconhecer
+    estas letras tanto em pt-BR quanto distinguir delas quando
+    aprendendo en (que não tem ç ou ã).
+
+    Substrato Class B FLEXIBLE: composta contra a amplitude da
+    biblioteca de imagens. Substrato-prontidão universal através de
+    temas ricos em vocabulário pt-BR.

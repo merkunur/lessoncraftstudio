@@ -1,0 +1,224 @@
+# Teaching package — spell CVC words
+# Arc 12 Phase 2 (Option G; early-literacy / spelling-and-encoding STRAND-FIRST
+# 0/5 → 1/5). Foundational encoding sibling to Arc 12 read-cvc-words.
+
+targetSlug: spell-cvc-words
+language: en
+title:
+  en: "Spelling CVC Words — write cat, dog, sun"
+description:
+  en: "Kindergarten / Grade 1 early-literacy package teaching CVC word spelling. **FIRST spelling-and-encoding strand package in the catalog.** Productive-encoding sibling to Arc 12 read-cvc-words (Phase 2). Kids hear a CVC word + spell it letter-by-letter (segment phonemes + map to letters). Foundational encoding bridge — kids who can READ CVC words now learn to WRITE them. Reading-and-writing reciprocity strengthens both skills. Vocab-anchored. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class segment-and-spell routine. Teacher says a CVC word
+      slowly: "Listen — CAT. What sounds do you hear? /c/.../a/.../t/.
+      Three sounds, three letters: c-a-t. Cat." Class chants. Repeat
+      with: dog (d-o-g); sun (s-u-n); hat (h-a-t); pig (p-i-g).
+      Reinforces phoneme-segmentation as spelling foundation.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + dictation routine. Each pair receives 8 picture
+      cards + paper for writing. Pair takes turns: kid A says the
+      word in the picture; kid B writes the word using letter-by-
+      letter segmenting. Recast errors with explanation ("you wrote
+      'kat' — let's hear the sounds: /k/.../a/.../t/. The first
+      sound /k/ can be spelled with C or K. For 'cat', it's spelled
+      with C: c-a-t"). Optional extension: kids dictate to each
+      other from picture-card decks.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: vocabulary-tracing-strips with
+      CVC words (kids trace dotted CVC words; reinforces letter-form
+      + spelling). Station 2: word-scramble (kids unscramble CVC-
+      word letters into correct spelling order). Station 3:
+      manipulative cut-outs hands-on letter-tile spelling (kids
+      build CVC words from letter-tile cut-outs). Station 4: matching
+      worksheet (image to written-word reinforcement).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class spelling-quiz. Teacher dictates 4 CVC words; class
+      writes each on whiteboards or paper + teacher reveals correct
+      spelling. Forward-pointer: "Today we spelled CVC words by
+      hearing the sounds. When we come back to spelling next, we'll
+      spell HIGH-FREQUENCY SIGHT WORDS — common short words like
+      'the', 'is', 'and', 'I' that don't follow CVC patterns +
+      need to be memorized."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: word-scramble
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: word-scramble
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      stripCount: 12
+      stripsPerPage: 6
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: early-literacy / spelling-and-encoding (CVC word
+    spelling). Secondary strand: phonological awareness (kids segment
+    phonemes for spelling). Tertiary strand: vocabulary acquisition.
+
+    **Architectural significance: STRAND-FIRST in spelling-and-encoding
+    (0/5 → 1/5).** Productive-encoding sibling to Arc 12 read-cvc-words
+    (Phase 2). Reading + spelling are reciprocal skills — kids who
+    READ CVC words benefit from also WRITING them; kids who spell
+    transfer skill to reading new words.
+
+    Distinctive composition: 2 word-scramble exercises (positions 2
+    + 4) + 1 word-guess + 2 matching. Spelling-emphasis throughout —
+    word-scramble is foundational spelling-from-pattern; word-guess
+    fills in letters from picture clues.
+
+    Cross-strand integration: spelling-and-encoding + phonics-decoding
+    (sibling Phase 2 read-cvc-words) + phonological-awareness (Arc 11
+    count-syllables; Arc 10 identify-rhyming-pairs) + vocabulary.
+
+    Class B FLEXIBLE substrate: composes against CVC-rich themes.
+
+    K-3 multilingual classroom relevance: spelling is target-language-
+    specific. CVC pattern is en-foundational; locale-variant sparse-
+    overrides per Phase 3 handle locale-specific spelling patterns.
+
+curriculumStandards:
+  - CCSS.K.RF.3.B
+  - CCSS.K.L.2.D
+  - EYFS.ELG.LIT
+  - IB-PYP.HowWeExpressOurselves
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Spell 6 of 8 dictated CVC words correctly in 8 of 10 trials.
+      - Segment phonemes in CVC words ('c-a-t') in 7 of 10 trials.
+      - Apply CVC-spelling pattern to NEW unfamiliar CVC words in 5 of
+        10 trials.
+
+    Differentiation:
+    - Pre-K: 4 strong-CVC words; teacher-supported letter-by-letter.
+    - K: 8-10 CVC words; independent dictation.
+    - Grade 1+: extend to spell-high-frequency-sight-words-tier-1 (Arc
+      13+ candidate) + bridge to consonant-blend spelling.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

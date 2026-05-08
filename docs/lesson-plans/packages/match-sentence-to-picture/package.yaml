@@ -1,0 +1,236 @@
+# Teaching package — match a written sentence to a picture
+# Arc 12 Phase 2 (Option G; early-literacy / reading-comprehension STRAND-FIRST
+# 0/10 → 1/10). Foundational comprehension skill.
+
+targetSlug: match-sentence-to-picture
+language: en
+title:
+  en: "Match Sentence to Picture — read and understand"
+description:
+  en: "Kindergarten / Grade 1 early-literacy package teaching sentence-comprehension via picture-matching. **FIRST reading-comprehension strand package in the catalog.** Builds on Arc 9 identify-letter-by-image-clue + Arc 11 add-within-10 + Arc 12 read-cvc-words (Phase 2 sibling). Kids read short simple sentences (3-5 words; CVC + sight-words) + match each sentence to the matching picture from a small set. Foundational comprehension bridge from word-reading to MEANING-from-text. Vocab-anchored — sentences use familiar K-3 vocabulary. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class read-and-understand routine. Teacher displays a
+      picture (e.g., a dog sleeping). Below the picture, teacher
+      writes 2 sentences: "The dog is sleeping." and "The cat is
+      jumping." "Which sentence describes this picture?" Class
+      identifies the dog-sleeping sentence. "How do you know?" Kids
+      explain they read the words + matched 'dog' + 'sleeping' to
+      the picture. Reinforces read-and-match-meaning framing.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + sentence-and-picture routine. Each pair receives 6
+      pictures + 6 sentence cards. Pair takes turns: kid A reads a
+      sentence aloud; kid B finds the matching picture. Recast
+      errors with explanation ("you matched 'The cat eats fish'
+      with the picture of a dog — let's check: the sentence has
+      'cat' but the picture is a dog. Find the cat picture"). Optional
+      extension: kids write their own simple sentences about pictures
+      they choose.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching worksheet (image-name
+      pairs reinforce vocabulary used in sentences). Station 2:
+      matching worksheet (image-to-sentence; comprehension practice).
+      Station 3: sentence-strips (kids fill in language-frame
+      sentences using picture cues; bridges from reading-only to
+      reading-and-writing). Station 4: word-guess (kids fill in
+      letters from sentence-context clues).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class comprehension-quiz. Teacher displays a picture +
+      3 sentences; class collectively picks the matching sentence
+      + explains why. Forward-pointer: "Today we matched sentences
+      to pictures. When we come back to comprehension next, we'll
+      ANSWER QUESTIONS about a picture — 'Who is in the picture?
+      What are they doing? Where are they?' — extracting MORE
+      meaning from each picture+text pair."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: prepositions
+    exerciseMode: fillin
+    customizationParameters: { exerciseMode: fillin, exerciseCount: 6, itemThemeSelect: animals, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: foods, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: i-see-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 10
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: early-literacy / reading-comprehension (sentence-
+    to-picture matching). Secondary strand: phonics-decoding (kids must
+    read sentence to match it). Tertiary strand: vocabulary acquisition
+    (vocab-anchored).
+
+    **Architectural significance: STRAND-FIRST in reading-comprehension
+    (0/10 → 1/10).** Foundational comprehension skill bridging word-
+    reading (Arc 12 read-cvc-words) into meaning-extraction. Reading-
+    comprehension strand opens with this package; future arcs author
+    sibling targets (answer-who-what-where-questions, predict-from-
+    picture-cue, sequence-3-event-story, identify-main-character + 5
+    more unauthored).
+
+    Distinctive composition: 3 matching exercises (sentence-picture
+    practice repeated across themes) + 1 prepositions (positional
+    sentences) + 1 word-guess. Multi-app composition spans recognition
+    + sentence-construction + recall.
+
+    Cross-strand integration: reading-comprehension + phonics-decoding
+    (sibling Phase 2 read-cvc-words) + vocabulary acquisition + speaking-
+    and-listening (productive sentence-explanation).
+
+    Class B FLEXIBLE substrate: composes against vocabulary-rich themes
+    + sentence-strips material capability. Universal substrate-readiness.
+
+    K-3 multilingual classroom relevance: comprehension is target-
+    language-specific but conceptually universal. Locale-variant sparse-
+    overrides per Phase 3 handle locale-specific sentence patterns
+    (Romance: SVO with gender-agreement; German: V2 word-order;
+    Finnish: SVO with case-marking).
+
+curriculumStandards:
+  - CCSS.K.RL.1
+  - CCSS.K.RL.2
+  - CCSS.K.RL.7
+  - EYFS.ELG.LIT
+  - IB-PYP.HowWeExpressOurselves
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Match 8 of 10 simple sentences to correct picture in 8 of 10
+        trials.
+      - Articulate matching reasoning ('the sentence says CAT and this
+        picture is a cat') in 6 of 10 trials.
+      - Read a NEW unfamiliar simple sentence + correctly match in 5 of
+        10 trials.
+
+    Differentiation:
+    - Pre-K: picture-only matching (sentences read aloud by teacher);
+      receptive comprehension only.
+    - K: independent sentence-reading + matching for simple 3-word
+      sentences.
+    - Grade 1+: extend to longer sentences (4-6 words) + bridge to
+      answer-who-what-where-questions (Arc 13+ candidate).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

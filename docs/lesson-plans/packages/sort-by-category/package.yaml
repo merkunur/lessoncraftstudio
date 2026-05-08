@@ -1,0 +1,232 @@
+# Teaching package — sort objects by semantic category
+# Arc 7 Phase 2 (Option A continuation; cognitive-and-executive-function /
+# sorting-and-classification strand). Different from basic-attribute sorting
+# (color/shape/size); this is SEMANTIC category sorting (animals vs vehicles;
+# fruits vs vegetables; living vs nonliving). Class B FLEXIBLE; vocab-
+# anchored.
+
+targetSlug: sort-by-category
+language: en
+title:
+  en: "Sort by Category — group objects by semantic category"
+description:
+  en: "Kindergarten cognitive-and-executive-function package teaching semantic category sorting. Distinct from basic-attribute sorting (color/shape/size from sort-by-color/shape/size trilogy) — this teaches kids to sort by MEANING (animals vs vehicles; fruits vs vegetables; tools vs toys). Bridges sorting-strand work with vocabulary-acquisition work. Vocab-anchored. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class introduction. Teacher places mixed objects (paper-cuts
+      from various theme clusters: animals + vehicles + fruits + tools)
+      on the carpet. "Let's group these. What goes together?" Class
+      collaboratively sorts into semantic groups. Reinforces vocabulary
+      across multiple clusters + the meta-skill of "what category does
+      this belong to." Pin sample category cards to the math-language
+      word wall.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Whole-class sorting routine. Teacher places 2 large category-mat
+      cards on the carpet (e.g., "Animals" and "Vehicles"). Holds up
+      mixed objects from a pile; class collaboratively sorts onto
+      matching mats. Pair work: kid A picks an object; kid B identifies
+      its category and places it. Recast errors with explanation
+      ("the cat is an animal, not a vehicle — animals are living things
+      that move on their own"). Optional extension: 3-category sorting
+      (animals vs vehicles vs fruits) increases cognitive load.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: picture-sort worksheet (sort objects
+      between 2 semantic categories — animals vs vehicles; fruits vs
+      vegetables). Station 2: matching worksheet (image-name reinforces
+      target vocabulary). Station 3: manipulative cut-outs hands-on
+      semantic sorting (kids physically place 20+ cut-outs on category
+      mats; emphasizes sustained semantic-categorization attention).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class quick-recall. Teacher names a category; kids show with
+      classroom objects ("everyone find something that's a tool!").
+      Forward-pointer: "Today we sorted by what things ARE — animals,
+      vehicles, fruits. When we come back to sorting next, we'll sort
+      by MULTIPLE things at once — like 'red AND round' or 'animal AND
+      small'."
+
+composedExercises:
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: animals, rightCategoryThemeSelect: vehicles, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: fruits, rightCategoryThemeSelect: vegetables, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: shapes, rightCategoryThemeSelect: vehicles, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: production-prompt
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: vehicles
+      cardCount: 12
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: false
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 30
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: cognitive-and-executive-function / sorting-and-
+    classification. Secondary strand: vocabulary acquisition (vocab-
+    anchored — kids name objects + their categories). Tertiary strand:
+    semantic-category formation (kids develop category labels for
+    object groups: animals / vehicles / fruits / vegetables / tools /
+    toys / etc.).
+
+    Architectural significance vs basic-attribute sorting trilogy:
+    sort-by-color (Arc 5 Phase 3) + sort-by-shape (Arc 5 Phase 3) +
+    sort-by-size (Arc 7 Phase 1) sort by VISUAL ATTRIBUTES (perceptual
+    sorting). sort-by-category sorts by SEMANTIC MEANING (conceptual
+    sorting) — fundamentally different cognitive operation. The two
+    sorting types together build comprehensive sorting-and-
+    classification strand coverage.
+
+    Distinctive composition: 3 picture-sort exercises across 3 different
+    theme-pair contrasts (animals/vehicles + fruits/vegetables +
+    shapes/vehicles) + 1 matching + 1 odd-one-out. Validates that
+    picture-sort architecture handles diverse semantic-category contrasts.
+
+    Cross-strand integration: sort-by-category bridges sorting-strand
+    work (cognitive domain) with vocabulary-acquisition work (early-
+    literacy domain). Kids use vocabulary they acquired across Arc 1-6
+    + Arc 7 Phase 1 vocab packages to identify category membership.
+    The cross-strand integration deepens both strands.
+
+    K-3 multilingual classroom relevance: semantic categorization is
+    universal across cultures + cognitively appropriate for K-3.
+    Category vocabulary (e.g., "animals," "vehicles," "fruits") varies
+    in morphology across the 11 platform locales but conceptually
+    universal.
+
+curriculumStandards:
+  - CCSS.K.MD.B.3
+  - EYFS.ELG.M
+  - EYFS.ELG.UW
+  - IB-PYP.HowWeOrganize
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Sort 8-10 mixed objects by semantic category into 2 categories
+        with 85%+ accuracy.
+      - Sort 12-15 mixed objects into 3 categories with 70%+ accuracy.
+      - Name the category each object belongs to in 8 of 10 trials
+        (vocabulary-anchor verification + semantic-category awareness).
+
+    Differentiation:
+    - Pre-K: 2-category sorting only (animals vs vehicles).
+    - K: 2-3-category sorting; mixed-object substrate.
+    - Grade 1+: extend to sort-by-multiple-attributes (combines basic-
+      attribute trilogy with semantic-category) — high cognitive-load
+      sorting work.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

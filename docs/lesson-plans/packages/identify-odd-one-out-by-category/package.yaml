@@ -1,0 +1,228 @@
+# Teaching package — identify the odd one out in a category set
+# Arc 7 Phase 2 (Option A continuation; cognitive-and-executive-function /
+# logical-reasoning strand). Class B FLEXIBLE; vocab-anchored. Companion
+# concept to sort-by-category (Phase 2 sibling) — instead of grouping by
+# category, kids identify the ONE item that doesn't belong to the dominant
+# category.
+
+targetSlug: identify-odd-one-out-by-category
+language: en
+title:
+  en: "Odd One Out (by category) — find the item that doesn't belong"
+description:
+  en: "Kindergarten cognitive-and-executive-function package teaching odd-one-out reasoning by semantic category. Kids identify which of 4-5 items doesn't belong to the dominant category (e.g., 4 animals + 1 vehicle → vehicle is odd). Companion concept to sort-by-category (Phase 2 sibling) — same semantic-category awareness applied to exclusion-reasoning. Vocab-anchored. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class introduction. Teacher places 4 paper-cuts on the carpet
+      (3 animals + 1 vehicle). "Look at these. Which one is different
+      from the others?" Class identifies the vehicle. "Why?" Discussion:
+      kids articulate the reasoning ("the others are animals; the car
+      is a vehicle"). Repeat with 2-3 different sets. Reinforces
+      odd-one-out reasoning + semantic-category awareness from sort-by-
+      category (Phase 2 sibling).
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pocket-chart routine. Teacher displays 4-5 item sets; class
+      identifies the odd one out + explains why. Pair work: kid A picks
+      a set with 3-4 items from one category + 1 from another; kid B
+      identifies the odd. Recast errors with explanation. Optional
+      extension: kids construct their own odd-one-out sets using
+      cut-outs; partners solve each other's puzzles.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: odd-one-out worksheet (kids identify
+      the odd item + circle it). Station 2: matching worksheet (image-
+      name reinforces vocabulary). Station 3: manipulative cut-outs
+      hands-on odd-one-out construction (kids build odd-one-out sets;
+      partner solves; reinforces both production and recognition of
+      the puzzle structure).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class quick-recall. Teacher displays a final set; class
+      collectively identifies the odd one + articulates the reason.
+      Forward-pointer: "Today we found the one that doesn't belong by
+      category. When we come back to puzzles next, we'll find the odd
+      one by ATTRIBUTE — not by what it IS, but by what color or shape
+      or size makes it different."
+
+composedExercises:
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: vehicles, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: fruits, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: shapes, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: production-prompt
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: vehicles
+      cardCount: 12
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: false
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: cognitive-and-executive-function / logical-reasoning.
+    Secondary strand: vocabulary acquisition (vocab-anchored). Tertiary
+    strand: exclusion-reasoning + verbalization (kids must articulate
+    WHY the odd one is odd — develops meta-cognitive reasoning vocabulary).
+
+    Companion to sort-by-category (Phase 2 sibling): both packages
+    work with semantic-category awareness, but inverse cognitive
+    operations — sort-by-category groups by category-membership;
+    odd-one-out-by-category identifies the non-member. The two
+    together build comprehensive semantic-category reasoning.
+
+    Distinctive composition: 4 odd-one-out exercises across 4 theme
+    contexts (animals, vehicles, fruits, shapes) + 1 matching at
+    position 2. Higher app-density reflects the target — kids practice
+    odd-one-out reasoning across diverse vocabulary contexts to
+    generalize the exclusion-reasoning skill.
+
+    Cross-strand integration: odd-one-out is a recurring exercise
+    across many Arc 1-7 packages (used as consolidation surface in
+    most packages). This is the FIRST package where odd-one-out IS
+    the target rather than a supporting exercise — validates that
+    exclusion-reasoning warrants strand-coverage.
+
+    K-3 multilingual classroom relevance: exclusion-reasoning is
+    cognitively universal; verbalization-of-reasoning ("WHY is it
+    odd?") is the language-bound layer. Kids in target-language-
+    immersion contexts may identify the odd one quickly but struggle
+    to articulate WHY in target language — the package's discussion
+    surfaces are the key language-development opportunity.
+
+curriculumStandards:
+  - EYFS.ELG.M
+  - EYFS.ELG.UW
+  - IB-PYP.HowTheWorldWorks
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Identify the odd one out in 4-item sets in 8 of 10 trials.
+      - Articulate the reasoning ("the others are X; this one is Y") in
+        6 of 10 trials.
+      - Name all items in the set in 8 of 10 trials (vocabulary-anchor
+        verification).
+
+    Differentiation:
+    - Pre-K: 3-item sets (2 same + 1 odd); strong category contrast.
+    - K: 4-item sets; clearer category contrast.
+    - Grade 1+: 4-5-item sets with subtler distinctions; bridge to
+      identify-odd-one-out-by-attribute (future-arc cognitive-strand
+      depth) where odd-one-out is by visual attribute rather than
+      semantic category.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

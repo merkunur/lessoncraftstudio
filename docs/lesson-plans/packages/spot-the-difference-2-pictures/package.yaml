@@ -1,0 +1,226 @@
+# Teaching package — spot the differences between 2 similar pictures
+# Arc 7 Phase 2 (Option A continuation; fine-motor-and-visual-spatial /
+# visual-discrimination strand). Class B FLEXIBLE; vocab-anchored. Builds
+# on Arc 6 Phase 2 visual-discrimination trio (match-image-to-shadow +
+# match-image-piece-to-whole + find-missing-piece).
+
+targetSlug: spot-the-difference-2-pictures
+language: en
+title:
+  en: "Spot the Difference — find what changed between two pictures"
+description:
+  en: "Kindergarten-Grade 1 fine-motor-and-visual-spatial package teaching detail-attention through spot-the-difference puzzles. Kids compare two similar pictures and identify 3-5 small differences. Builds on Arc 6 Phase 2 visual-discrimination trio. Vocab-anchored — kids name the differences they find. Composes against find-objects app + image-library breadth. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class introduction. Teacher displays 2 pictures of the same
+      scene with 3-5 subtle differences (color change; missing item;
+      different pose). "Look carefully — what's different?" Class
+      collaboratively spots differences chorally. Reinforces detail-
+      attention skill + vocabulary (kids name the differing items).
+      Pin to "Visual Skills" word-wall area.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pocket-chart routine. Teacher displays new picture-pair sets;
+      class identifies all differences. Pair work: kid A holds one
+      picture; kid B holds a similar but different picture; together
+      they describe what's different in each ("In MY picture there's
+      a red ball; in YOUR picture the ball is blue"). Develops
+      productive vocabulary while training visual-discrimination
+      attention.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: spot-the-difference worksheet (kids
+      circle differences between picture-pairs). Station 2: matching
+      worksheet (image-name reinforces vocabulary used in pictures).
+      Station 3: manipulative cut-outs same/different sorting (kids
+      sort objects as "exactly the same" vs "different in some way" —
+      reinforces visual-discrimination at the macro level).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class quick-recall. Teacher displays a final picture-pair;
+      class collectively spots all differences. Forward-pointer:
+      "Today we trained our eyes to spot small differences. When we
+      come back to visual puzzles next, we'll do MORE detail-attention
+      puzzles — finding hidden objects in busy scenes."
+
+composedExercises:
+  - appName: find-objects
+    exerciseMode: oddoneout
+    customizationParameters: { activityModeSelect: oddoneout, pairsThemeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: find-objects
+    exerciseMode: oddoneout
+    customizationParameters: { activityModeSelect: oddoneout, pairsThemeSelect: vehicles, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: shadow-match
+    exerciseMode: shadowMatch
+    customizationParameters: { exerciseMode: shadowMatch, themeSelect: shapes, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: find-objects
+    exerciseMode: oddoneout
+    customizationParameters: { activityModeSelect: oddoneout, pairsThemeSelect: fruits, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 2
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: false
+    ordering: 3
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 4
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: vehicles
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: fine-motor-and-visual-spatial / visual-discrimination.
+    Secondary strand: vocabulary acquisition (vocab-anchored — kids
+    name the differing items). Tertiary strand: detail-attention +
+    sustained-comparison reasoning.
+
+    Architectural significance: 4th package in visual-discrimination
+    strand. Arc 6 Phase 2 trio (match-image-to-shadow + match-image-
+    piece-to-whole + find-missing-piece) covered 3 visual-discrimination
+    surfaces; this Arc 7 Phase 2 package adds spot-the-difference as
+    the 4th surface. Visual-discrimination strand depth substantial:
+    4 packages.
+
+    Distinctive composition: 3 find-objects oddoneout exercises across
+    3 theme contexts (animals, vehicles, fruits) + 1 matching at
+    position 2 + 1 shadow-match at position 4. find-objects oddoneout
+    mode is the canonical spot-the-difference surface; shadow-match
+    at position 4 reintroduces the Arc 6 Phase 2 visual-discrimination
+    architecture for cross-package consistency.
+
+    Cross-strand integration: spot-the-difference combines vocabulary
+    acquisition (kids name what they see) + cognitive flexibility
+    (kids switch attention between two similar visual fields) + fine-
+    motor work (circling differences on worksheets).
+
+    K-3 multilingual classroom relevance: spot-the-difference is high-
+    engagement for K-3 (kids love finding differences); vocab-anchor
+    embeds language acquisition. The package's discussion surfaces
+    ("what's different about the cat?" → "the cat in MY picture is
+    BLACK; in YOUR picture it's ORANGE") are key productive-vocabulary
+    opportunities.
+
+curriculumStandards:
+  - EYFS.ELG.M
+  - EYFS.ELG.UW
+  - EYFS.ELG.LL
+  - IB-PYP.HowTheWorldWorks
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Spot 3 of 5 differences between picture-pairs in 8 of 10 trials.
+      - Spot 4-5 of 5 differences with extended time in 6 of 10 trials.
+      - Articulate the differences in target language ("the X is Y in
+        one picture; Z in the other") in 6 of 10 trials.
+
+    Differentiation:
+    - Pre-K: 2-3 large-difference picture-pairs.
+    - K: 3-5 differences; mixed difficulty.
+    - Grade 1+: 5-7 differences with subtle distinctions; bridge to
+      find-hidden-target-in-busy-scene + count-instances-of-target-in-
+      grid (Arc 6 Phase 2 cognitive cousins).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

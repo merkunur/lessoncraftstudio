@@ -69,7 +69,14 @@ const SHARED_TRANSLATIONS = {
     "embedAttributionPrefix": "Worksheet from",
     "embedAttributionBrand": "LessonCraftStudio",
     "embedAttributionSeparator": " — ",
-    "embedAttributionKeyword": "free printable worksheets"
+    "embedAttributionKeyword": "free printable worksheets",
+
+    // Deck-end-suggestion strip v1 (Commission B Phase 3) — header above the
+    // 6-slot suggestion strip rendered inside the celebration overlay.
+    // Substituted into deck.html via __DECK_END_SUGGESTIONS_HEADER__ at
+    // publish-cli upload time. Nordic locales (sv/da/no/fi) NSR-flagged
+    // per §17.5.1 Nordic-tier review posture.
+    "deckEndSuggestionsHeader": "Try one of these next:"
   },
   "de": {
     "srShapeSquare": "Quadrat",
@@ -110,7 +117,8 @@ const SHARED_TRANSLATIONS = {
     "embedAttributionPrefix": "Arbeitsblatt von",
     "embedAttributionBrand": "LessonCraftStudio",
     "embedAttributionSeparator": " — ",
-    "embedAttributionKeyword": "kostenlose druckbare Arbeitsblätter"
+    "embedAttributionKeyword": "kostenlose druckbare Arbeitsblätter",
+    "deckEndSuggestionsHeader": "Probiere als Nächstes eines davon:"
   },
 
   // Tier-1+2 + Tier-4 Romance locales — operator-best-effort embed authoring
@@ -129,7 +137,8 @@ const SHARED_TRANSLATIONS = {
     "embedAttributionPrefix": "Hoja de trabajo de",
     "embedAttributionBrand": "LessonCraftStudio",
     "embedAttributionSeparator": " — ",
-    "embedAttributionKeyword": "hojas de trabajo imprimibles gratis"
+    "embedAttributionKeyword": "hojas de trabajo imprimibles gratis",
+    "deckEndSuggestionsHeader": "Prueba uno de estos a continuación:"
   },
   "nl": {
     "embedHeader": "Dit werkblad op je site insluiten",
@@ -143,7 +152,8 @@ const SHARED_TRANSLATIONS = {
     "embedAttributionPrefix": "Werkblad van",
     "embedAttributionBrand": "LessonCraftStudio",
     "embedAttributionSeparator": " — ",
-    "embedAttributionKeyword": "gratis printbare werkbladen"
+    "embedAttributionKeyword": "gratis printbare werkbladen",
+    "deckEndSuggestionsHeader": "Probeer hierna een van deze:"
   },
   "fr": {
     "embedHeader": "Intégrer cette fiche sur votre site",
@@ -157,7 +167,8 @@ const SHARED_TRANSLATIONS = {
     "embedAttributionPrefix": "Fiche de",
     "embedAttributionBrand": "LessonCraftStudio",
     "embedAttributionSeparator": " — ",
-    "embedAttributionKeyword": "fiches imprimables gratuites"
+    "embedAttributionKeyword": "fiches imprimables gratuites",
+    "deckEndSuggestionsHeader": "Essaie l'un de ceux-ci ensuite :"
   },
   "it": {
     "embedHeader": "Incorpora questa scheda sul tuo sito",
@@ -171,7 +182,8 @@ const SHARED_TRANSLATIONS = {
     "embedAttributionPrefix": "Scheda di",
     "embedAttributionBrand": "LessonCraftStudio",
     "embedAttributionSeparator": " — ",
-    "embedAttributionKeyword": "schede stampabili gratuite"
+    "embedAttributionKeyword": "schede stampabili gratuite",
+    "deckEndSuggestionsHeader": "Prova uno di questi dopo:"
   },
   "pt": {
     // Brazilian Portuguese canonical per §6 (single 'pt' locale code; BR register).
@@ -186,7 +198,8 @@ const SHARED_TRANSLATIONS = {
     "embedAttributionPrefix": "Atividade de",
     "embedAttributionBrand": "LessonCraftStudio",
     "embedAttributionSeparator": " — ",
-    "embedAttributionKeyword": "atividades gratuitas para imprimir"
+    "embedAttributionKeyword": "atividades gratuitas para imprimir",
+    "deckEndSuggestionsHeader": "Experimente um destes a seguir:"
   },
 
   // Nordic locales — operator-best-effort embed authoring + NSR-flagged
@@ -205,7 +218,9 @@ const SHARED_TRANSLATIONS = {
     "embedAttributionPrefix": "Arbetsblad från",
     "embedAttributionBrand": "LessonCraftStudio",
     "embedAttributionSeparator": " — ",
-    "embedAttributionKeyword": "gratis utskrivbara arbetsblad"
+    "embedAttributionKeyword": "gratis utskrivbara arbetsblad",
+    // NSR-flagged per §17.5.1 Nordic-tier review posture
+    "deckEndSuggestionsHeader": "Prova en av dessa härnäst:"
   },
   "da": {
     "embedHeader": "Indlejr dette arbejdsark på dit websted",
@@ -219,7 +234,9 @@ const SHARED_TRANSLATIONS = {
     "embedAttributionPrefix": "Arbejdsark fra",
     "embedAttributionBrand": "LessonCraftStudio",
     "embedAttributionSeparator": " — ",
-    "embedAttributionKeyword": "gratis printbare arbejdsark"
+    "embedAttributionKeyword": "gratis printbare arbejdsark",
+    // NSR-flagged per §17.5.1 Nordic-tier review posture
+    "deckEndSuggestionsHeader": "Prøv en af disse næst:"
   },
   "no": {
     // Bokmål canonical per §6 (single 'no' locale code).
@@ -234,7 +251,9 @@ const SHARED_TRANSLATIONS = {
     "embedAttributionPrefix": "Arbeidsark fra",
     "embedAttributionBrand": "LessonCraftStudio",
     "embedAttributionSeparator": " — ",
-    "embedAttributionKeyword": "gratis utskrivbare arbeidsark"
+    "embedAttributionKeyword": "gratis utskrivbare arbeidsark",
+    // NSR-flagged per §17.5.1 Nordic-tier review posture
+    "deckEndSuggestionsHeader": "Prøv en av disse neste:"
   },
   "fi": {
     "embedHeader": "Upota tämä työarkki sivustollesi",
@@ -248,7 +267,9 @@ const SHARED_TRANSLATIONS = {
     "embedAttributionPrefix": "Työarkki:",
     "embedAttributionBrand": "LessonCraftStudio",
     "embedAttributionSeparator": " — ",
-    "embedAttributionKeyword": "ilmaiset tulostettavat työarkit"
+    "embedAttributionKeyword": "ilmaiset tulostettavat työarkit",
+    // NSR-flagged per §17.5.1 Nordic-tier review posture
+    "deckEndSuggestionsHeader": "Kokeile yhtä näistä seuraavaksi:"
   }
 };
 

@@ -1,0 +1,120 @@
+# Teaching package — compare greeting routines across cultures (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 9 Phase 3 per Arc 3 Phase 1 sparse-override pattern).
+# pt sparse-override for early-literacy / multilingual-language-awareness
+# strand. Strong pt-BR cultural relevance — Brazilian greeting routines
+# (handshake + cheek-kiss + abraço) are distinct from many target-language
+# cultures + central to Brazilian social fabric. BR Portuguese register per
+# CLAUDE.md §6 + formal "você" address per §17.9.
+
+title:
+  pt: "Olá pelo Mundo — compare cumprimentos entre culturas"
+description:
+  pt: "Pacote de letramento inicial para o jardim de infância / 1º ano que ensina a consciência de cumprimentos transculturais. Profundidade do fio de consciência de linguagem multilíngue: as crianças aprendem como as pessoas se cumprimentam em diferentes culturas (aperto de mão, reverência, beijo no rosto, abraço, aceno). Valida a língua materna + cultura materna como recursos da sala de aula. Especificidade pt-BR: cumprimentos brasileiros (aperto de mão formal + beijo no rosto entre amigas + abraço entre amigos próximos + 'oi' / 'olá' / 'tudo bem?' como saudações cotidianas) são distintos da maioria das culturas-alvo + centrais ao tecido social brasileiro."
+
+structure:
+  warmup:
+    body: |
+      Compartilhamento de cumprimentos com toda a turma. A professora ou
+      o professor pergunta: "Como você cumprimenta um amigo? Como você
+      cumprimenta um professor? Como você cumprimenta alguém da sua
+      família?" As crianças compartilham. A professora ou o professor
+      então introduz: "Vocês sabiam que em alguns lugares as pessoas
+      se CUMPRIMENTAM de jeitos diferentes?" Demonstra um aceno
+      (comum nos EUA / Reino Unido), um aperto de mão (formal), uma
+      leve reverência (referência cultural japonesa / coreana), um
+      beijo no rosto (referência cultural brasileira / francesa /
+      italiana / espanhola), um cumprimento mão-no-coração estilo
+      salaam (referência cultural do Oriente Médio / Sul da Ásia).
+      Reforça que os cumprimentos carregam significado cultural + que
+      a variação é NATURAL, não ERRADA.
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de comparação de cumprimentos. Cada
+      dupla recebe 6-8 cartões representando diferentes gestos de
+      cumprimento + palavras de cumprimento ("Olá," "Hello," "Bonjour,"
+      "Hola," "Konnichiwa," "Hej"). A dupla discute: "Qual cumprimento
+      você conhece? Qual é da sua família / cultura / língua?" As
+      crianças compartilham equivalentes da língua materna. Refraseie
+      enfatizando afirmação cultural ("Lindo — sua família diz 'Olá'
+      ao cumprimentar. É assim que crianças brasileiras cumprimentam
+      também. Outras crianças que falam português — em Portugal ou
+      Angola — podem dizer algo um pouco diferente em casa"). Extensão
+      opcional: as crianças praticam cumprimentar seus colegas usando
+      cada combinação de gesto + palavra de cumprimento.
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios de
+      emparelhamento (imagens de gestos de cumprimento para etiquetas
+      de palavra de cumprimento no idioma-alvo). Estação 2: folha de
+      exercícios de emparelhamento (palavras de cumprimento em
+      múltiplos idiomas). Estação 3: construção prática de rotinas de
+      cumprimento com recortes manipulativos (as crianças montam
+      cartões de cumprimento combinando gesto + palavra + bandeira).
+      Estação 4: tiras de frases (as crianças constroem frases
+      completas de cumprimento: "Eu digo 'Olá' para meu amigo.").
+  closure:
+    body: |
+      Compartilhamento de cumprimento cultural com toda a turma. Cada
+      criança cumprimenta a turma usando um gesto + palavra de
+      cumprimento escolhidos de sua família ou de uma cultura que
+      está aprendendo. A turma observa a diversidade. Indicador
+      adiante: "Hoje notamos como as pessoas se cumprimentam de jeitos
+      diferentes através das culturas. Quando voltarmos a língua-e-
+      cultura na próxima vez, aprenderemos como as pessoas SE
+      DESPEDEM — e outros rituais cotidianos — através das culturas."
+
+assessmentCriteria:
+  pt: |
+    Identificar 4 de 6 gestos de cumprimento de diferentes culturas em
+    8 de 10 tentativas. Usar 3 de 6 palavras de cumprimento de
+    diferentes idiomas ('olá' / 'hello' / 'bonjour' / 'hola' /
+    'konnichiwa' / 'hej') apropriadamente em interações de faz-de-
+    conta em 7 de 10 tentativas. Articular o princípio cultural de
+    cumprimento ("as pessoas se cumprimentam de jeitos diferentes em
+    diferentes lugares") em 6 de 10 tentativas.
+
+    Diferenciação:
+      - Pré-K: 3 gestos de cumprimento + 3 palavras de cumprimento;
+        apenas observação em duplas.
+      - K: 5-6 cumprimentos; trabalho de emparelhamento + cartões.
+      - Primeiro ano em diante: estender para rotinas de DESPEDIDA
+        (candidato Arco 10+) + comparação de rituais culturais
+        cotidianos; ponte para trabalho de consciência cultural em
+        estudos sociais.
+
+compositionalRationale:
+  pt: |
+    Fio principal: letramento inicial / consciência de linguagem
+    multilíngue (consciência de rotina de cumprimento transcultural).
+    Fio secundário: aquisição de vocabulário (ancorado em vocabulário —
+    palavras de cumprimento entre idiomas: olá / hello / bonjour /
+    hola / konnichiwa / hej). Fio terciário: afirmação cultural +
+    validação de identidade (cultura materna como recurso da sala de
+    aula).
+
+    Significância arquitetural: terceiro pacote do fio de consciência
+    de linguagem multilíngue (após Arco 6 name-this-object-in-two-
+    languages + Arco 8 notice-cognate-word-pairs). Profundidade do fio
+    cresce de 2 → 3 pacotes com esta adição. Ratificação operador-
+    estratégica Opção D (2026-05-08): redobrar a profundidade da
+    consciência de linguagem multilíngue quando o fio tem momentum —
+    alto valor arquitetural marginal para a amplitude de cobertura do
+    fio v3 Condição 4 + diferenciação do produto.
+
+    Relevância cultural pt-BR específica: cumprimentos brasileiros
+    são CULTURALMENTE LOAD-BEARING — caracterizam a calorosa
+    sociabilidade brasileira. Aperto de mão formal em contextos
+    profissionais; beijo no rosto (1 ou 2, varia por região) entre
+    amigas próximas + entre mulher-mulher; abraço entre amigos
+    próximos do mesmo gênero ou diferentes gêneros; "oi" / "olá" /
+    "e aí?" / "tudo bem?" como saudações verbais cotidianas. O
+    pacote em pt-BR pode adaptar exemplos para contexto brasileiro
+    quando relevante — crianças em escolas internacionais brasileiras
+    são especialistas culturais nas suas próprias rotinas brasileiras
+    + estão construindo competência cultural na cultura-alvo.
+
+    Substrato Class B FLEXIBLE: composta contra a amplitude da
+    biblioteca de imagens. Consciência de rotina de cumprimento é
+    agnóstica de tema no nível cognitivo; prontidão de substrato é
+    universal.

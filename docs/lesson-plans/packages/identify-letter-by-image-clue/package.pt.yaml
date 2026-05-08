@@ -1,0 +1,119 @@
+# Teaching package — identify letters from image clues (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 9 Phase 3 per Arc 3 Phase 1 sparse-override pattern).
+# pt sparse-override for early-literacy / letter-recognition strand (FIRST
+# letter-recognition pt sparse-override). pt-specific letters: cedilha (ç),
+# tilde (ã, õ, ñ-not-in-pt). BR Portuguese register per CLAUDE.md §6 +
+# formal "você" address per §17.9.
+
+title:
+  pt: "Letras a partir de Imagens — encontre a letra que começa a palavra"
+description:
+  pt: "Pacote de letramento inicial para o jardim de infância que ensina o reconhecimento de letras via pistas com imagens. PRIMEIRO sparse-override pt do fio de reconhecimento de letras. Habilidade fundamental pré-leitura: as crianças veem um objeto familiar (maçã) + identificam a letra inicial (M). Constrói sobre o trabalho de aquisição de vocabulário dos Arcos 1+5+6+8 — as crianças transitam da nomeação de objetos para a associação de nome-de-letra + som-de-letra mediada por vocabulário familiar. Especificidade pt-BR: o alfabeto pt-BR inclui letras com diacríticos (ç, ã, é, õ) — o pacote inclui essas letras tanto como letras iniciais quanto como letras dentro de palavras vocabulário-âncora."
+
+structure:
+  warmup:
+    body: |
+      Rotina de letra inicial com toda a turma. A professora ou o
+      professor exibe a imagem de uma maçã. "O que esta imagem
+      mostra?" A turma nomeia: "Maçã." "Com qual letra MAÇÃ começa?"
+      A turma identifica: "M." A professora ou o professor escreve
+      M no quadro. Repita com 5-6 pares de imagem-letra através de
+      temas familiares (banana → B; gato → G; cachorro → C; jacaré
+      → J — observe que muitos animais brasileiros começam com sons
+      tipicamente brasileiros; ônibus → O; passarinho → P). Reforça
+      o enquadramento de imagem-como-pista — as crianças usam
+      vocabulário que já conhecem para acessar conhecimento de letra.
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de imagem-e-letra. Cada dupla recebe
+      8-10 cartões de imagem + uma tira do alfabeto pt-BR (com letras
+      especiais ç, ã, é, õ presentes). A dupla alterna: a criança A
+      segura uma imagem; a criança B nomeia a imagem E identifica a
+      letra inicial na tira do alfabeto. Refraseie os erros com
+      explicação ("você disse que CACHORRO começa com K — vamos dizer
+      devagar: C-cachorro — qual é o primeiro som? C! Então cachorro
+      começa com C, não K. Nota especial: em português usamos C ou
+      K dependendo da palavra"). Extensão opcional: as crianças
+      classificam suas imagens por letra inicial em grupos A, B, C, D, E.
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios alphabet-train
+      (as crianças identificam letras iniciais de imagens; reforça
+      mapeamento imagem-letra). Estação 2: folha de exercícios de
+      emparelhamento (pares imagem-nome; reforça o vocabulário do qual
+      o reconhecimento de letras depende). Estação 3: word-guess (as
+      crianças preenchem letras iniciais a partir de pistas com
+      imagens). Estação 4: tiras de traçado de vocabulário (as crianças
+      traçam letras de palavras que nomearam — incluindo palavras com
+      letras especiais pt-BR: maçã, ação, coração).
+  closure:
+    body: |
+      Compartilhamento com toda a turma. A professora ou o professor
+      exibe 5-6 imagens; a turma coletivamente nomeia cada uma +
+      identifica letras iniciais em coro. Indicador adiante: "Hoje
+      encontramos letras no INÍCIO das palavras. Quando voltarmos a
+      letras na próxima vez, encontraremos letras no FIM das palavras
+      — e no MEIO — construindo em direção à leitura de palavras
+      inteiras letra por letra."
+
+assessmentCriteria:
+  pt: |
+    Identificar a letra inicial de 8 de 10 nomes de objetos familiares.
+    Emparelhar uma imagem com sua letra inicial em uma tira do alfabeto
+    em 8 de 10 tentativas. Articular o mapeamento de letra-inicial
+    produtivamente ("MAÇÃ começa com M") em 7 de 10 tentativas.
+
+    Diferenciação:
+      - Pré-K: 5 pares de letra-imagem com forte saliência acústica
+        (M-maçã, B-bola, C-cachorro, G-gato, P-passarinho).
+      - K: 10-15 pares de letra-imagem através de temas; letras
+        minúsculas; introdução de letras especiais pt-BR (ç, ã, é).
+      - Primeiro ano em diante: estender para letras FINAIS + letras
+        do MEIO (candidato Arco 10+); ponte para leitura de palavras
+        inteiras.
+
+compositionalRationale:
+  pt: |
+    Fio principal: letramento inicial / reconhecimento de letras. Fio
+    secundário: aquisição de vocabulário (ancorado em vocabulário —
+    o reconhecimento de letras DEPENDE do vocabulário porque as crianças
+    identificam letras iniciais de palavras que já conhecem). Fio
+    terciário: consciência fonológica (as crianças ouvem sons iniciais
+    + os mapeiam para símbolos de letras).
+
+    Especificidade pt-BR: o alfabeto pt-BR é o alfabeto romance estendido
+    com diacríticos (ç para som "ss" antes de a/o/u; ã/õ para sons
+    nasais; á/é/í/ó/ú para acentos tônicos). O pacote em pt-BR introduz
+    essas letras especiais usando palavras-vocabulário-âncora canônicas:
+    - ç: maçã, ação, coração, força
+    - ã: maçã, mão, irmã, manhã
+    - é: café, pé, jacaré, abacaxi
+    - õ: avião, coração, atenção
+    - á/í/ó/ú: pé, água, dá, lá, jacarandá
+
+    Esta especificidade não é apenas decoração — é load-bearing para
+    o reconhecimento de letras pt-BR. Crianças em escolas internacionais
+    pt-BR aprendendo en não devem desaprender pt-BR; aprendendo en, elas
+    devem reconhecer que en não tem ç enquanto pt-BR tem.
+
+    Significância arquitetural: PRIMEIRO sparse-override pt do fio de
+    reconhecimento de letras. Ponte pré-leitura: crianças que já
+    conhecem vocabulário-de-objetos (Arcos 1+5+6+8) podem usar esse
+    vocabulário como PONTE para conhecimento de letras. O reconhecimento
+    de letras mediado por vocabulário familiar é mais eficaz do que o
+    treino abstrato de letras — as crianças têm um âncora significativa
+    para cada letra.
+
+    Relevância cultural pt-BR específica: vocabulário pt-BR canônico
+    (maçã, banana, gato, cachorro, jacaré, passarinho, ônibus) é
+    cognato-rico ou regionalmente distintivo. Crianças em escolas
+    internacionais brasileiras encontram diariamente este vocabulário,
+    fazendo do reconhecimento de letras pt-BR uma habilidade
+    imediatamente aplicável.
+
+    Substrato Class B FLEXIBLE: composta contra a amplitude da
+    biblioteca de imagens. O reconhecimento de letras funciona com
+    qualquer tema rico em vocabulário; prontidão de substrato é
+    universal entre temas ricos em vocabulário (animais, frutas,
+    alimentos, objetos escolares, partes do corpo, roupas).

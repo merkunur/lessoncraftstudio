@@ -1,0 +1,116 @@
+# Teaching package — respond in target language when prompted (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 9 Phase 3 per Arc 3 Phase 1 sparse-override pattern).
+# pt sparse-override for early-literacy / multilingual-language-awareness
+# strand. Code-switching is daily reality in pt-BR international schools +
+# bilingual programs. BR Portuguese register per CLAUDE.md §6 + formal
+# "você" address per §17.9.
+
+title:
+  pt: "Responda na Língua Certa — combine sua resposta com a pergunta"
+description:
+  pt: "Pacote de letramento inicial para o jardim de infância / 1º ano que ensina a resposta apropriada à língua. Profundidade do fio de consciência de linguagem multilíngue: as crianças ouvem uma pergunta + respondem na língua-ALVO (não na língua materna) quando a língua-alvo é o meio esperado. Pacote irmão produtivo de identify-language-of-spoken-utterance (Fase 2 Arco 9) — OUVIR-e-DETECTAR progride para OUVIR-e-RESPONDER. Desenvolve consciência de code-switching: as crianças aprendem que o contexto conversacional (pergunta da professora em língua-alvo → resposta em língua-alvo) é importante. Especificidade pt-BR: code-switching pt-BR ↔ en é diário em escolas internacionais brasileiras."
+
+structure:
+  warmup:
+    body: |
+      Rotina de combinação de língua com toda a turma. A professora ou
+      o professor faz uma pergunta na língua-alvo: "What do you eat
+      for breakfast?" As crianças respondem. A professora ou o
+      professor refraseia as crianças que responderam em pt-BR: "Adoro
+      que você sabe dizer 'pão de queijo' em português — essa é sua
+      língua materna. Em nossa aula agora, estamos usando inglês.
+      Você pode dizer em inglês? 'I eat ___'." Reforça: code-switching
+      é normal + esperado; usamos a língua-alvo no contexto da
+      língua-alvo. Valida a língua materna enquanto também reforça
+      a prática da língua-alvo.
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de pergunta-e-resposta. Cada dupla
+      recebe 6-8 cartões de pergunta (perguntas em língua-alvo) +
+      cartões de resposta (respostas em língua-alvo). A dupla alterna:
+      a criança A lê uma pergunta; a criança B seleciona + lê a
+      resposta correspondente. Após ler, ambas as crianças verificam
+      se a resposta é apropriada. Refraseie os erros com explicação
+      ("você combinou 'How are you?' com 'I eat apple' — vamos
+      verificar: 'How are you?' pergunta sobre sentimentos. 'I eat
+      apple' é sobre comida. Tente novamente com a resposta
+      correspondente certa: 'I am happy' ou 'I am tired'"). Extensão
+      opcional: as crianças constroem seus próprios cartões de
+      resposta para novas perguntas.
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios de
+      emparelhamento (pares pergunta-resposta em língua-alvo). Estação
+      2: folha de exercícios de emparelhamento (imagem para resposta
+      em língua-alvo). Estação 3: construção prática de cartões de
+      pergunta-resposta com recortes manipulativos (as crianças montam
+      cartões iniciadores de conversa). Estação 4: tiras de frases
+      (as crianças constroem respostas completas em língua-alvo para
+      perguntas comuns).
+  closure:
+    body: |
+      Círculo de pergunta-e-resposta com toda a turma. A professora ou
+      o professor faz 4-5 perguntas; as crianças respondem em coro
+      em língua-alvo. Indicador adiante: "Hoje praticamos responder
+      em língua-alvo. Quando voltarmos à linguagem conversacional na
+      próxima vez, aprenderemos a FAZER PERGUNTAS em língua-alvo —
+      o pacote irmão produtivo do trabalho de resposta de hoje."
+
+assessmentCriteria:
+  pt: |
+    Responder em língua-alvo a 4 de 5 perguntas em língua-alvo em 8
+    de 10 tentativas. Combinar pergunta com resposta apropriada em 7
+    de 10 tarefas de emparelhamento de cartões pergunta-resposta.
+    Articular o princípio de code-switching ("quando a professora
+    fala em língua-alvo, eu respondo em língua-alvo") em 6 de 10
+    tentativas.
+
+    Diferenciação:
+      - Pré-K: 3 perguntas de alta frequência ("How are you?" / "What's
+        your name?" / "What's your favorite color?"); respostas de
+        uma palavra.
+      - K: 5-6 perguntas; respostas de frase completa usando modelos
+        de linguagem.
+      - Primeiro ano em diante: estender para conversa INICIADA-PELA-
+        PERGUNTA (criança faz uma pergunta em língua-alvo); ponte
+        para conversa de múltiplos turnos (candidato Arco 10+).
+
+compositionalRationale:
+  pt: |
+    Fio principal: letramento inicial / consciência de linguagem
+    multilíngue (resposta em língua-alvo). Fio secundário: fala-e-
+    escuta (linguagem produtiva; saída apropriada em língua-alvo).
+    Fio terciário: consciência de code-switching (as crianças
+    aprendem quando mudar da língua materna para a língua-alvo).
+
+    Significância arquitetural: QUINTO pacote do fio de consciência
+    de linguagem multilíngue — completa os alvos disponíveis do fio
+    em profundidade total. Profundidade do fio: 2 → 5 (mais que 2×
+    de crescimento). Estabelece consciência de linguagem multilíngue
+    como um fio de primeira-classe totalmente profundo
+    operacionalizando a identidade de 11-locais da plataforma no
+    nível curricular (ratificação operador-estratégica Opção D
+    no início do Arco 9: "redobrar onde o momentum do fio produz
+    valor composto").
+
+    Relevância cultural pt-BR específica: code-switching pt-BR ↔ en
+    é DIÁRIO em escolas internacionais brasileiras + programas
+    bilíngues. Crianças brasileiras em programas dual-language
+    pt-BR/en alternam entre línguas no recreio (pt-BR com colegas
+    brasileiros, en com colegas internacionais), na sala de aula
+    (pt-BR para conversa social, en para instrução acadêmica), em
+    casa (pt-BR com pais, possivelmente en com irmãos mais velhos).
+    Consciência explícita de code-switching empodera as crianças
+    a navegar este cenário multilíngue conscientemente em vez de
+    reativamente.
+
+    Pareamento receptivo-produtivo: identify-language-of-spoken-
+    utterance é RECEPTIVO (ouça-e-detecte); respond-in-target-
+    language-when-prompted é PRODUTIVO (ouça-e-responda). O
+    pareamento segue a progressão canônica de desenvolvimento de
+    linguagem receptivo-antes-de-produtivo.
+
+    Substrato Class B FLEXIBLE: composta contra a amplitude da
+    biblioteca de imagens. Resposta em língua-alvo funciona com
+    qualquer tema rico em vocabulário.

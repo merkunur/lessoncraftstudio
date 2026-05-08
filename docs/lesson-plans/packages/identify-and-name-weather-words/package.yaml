@@ -1,0 +1,243 @@
+# Teaching package — identify and name weather vocabulary
+# Arc 8 Phase 2 (Option A vocab-acquisition continuation; early-literacy /
+# vocabulary-acquisition strand). Class A CLEAN — weather substrate present
+# in IMAGE_VOCABULARY (sun, cloud, rain, snow, wind, storm, etc.). Vocab-
+# anchored productive-language: kids identify, name, and use weather
+# vocabulary in describe-the-day routines.
+
+targetSlug: identify-and-name-weather-words
+language: en
+title:
+  en: "Weather Words — name today's weather"
+description:
+  en: "Preschool / Kindergarten early-literacy package teaching weather vocabulary. Class A CLEAN — weather substrate (sun, cloud, rain, snow, wind, storm, rainbow) is present in IMAGE_VOCABULARY across all 11 platform locales. Daily-routine integration: kids learn to name today's weather as part of morning circle. Productive-language target: full-sentence descriptions ('Today is sunny' / 'Es regnet' / 'Hace sol'). 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class morning-circle routine. Teacher points out the window:
+      "What's the weather today?" Class names what they see (sunny,
+      cloudy, rainy, snowy, etc.). Teacher pins the matching weather
+      flashcard onto the daily-weather chart. Reinforces visual-cue-to-
+      word mapping + builds the morning-circle ritual into vocabulary
+      practice.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pocket-chart routine. Teacher displays 6-8 weather flashcards;
+      class names each. Pair work: kid A holds up a weather card; kid B
+      names it AND uses the language frame ("It is ___" / "I see ___").
+      Recast errors with explanation ("you said cloud — yes, but with
+      our frame: It is cloudy. Notice the -y at the end — sunny, cloudy,
+      rainy, snowy, windy"). Optional extension: kids draw their own
+      weather scene + describe it in 2 sentences.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching worksheet (image-name pairs;
+      reinforces weather-word recognition). Station 2: bingo with
+      weather caller chips (whole-table listening + scanning game).
+      Station 3: manipulative cut-outs hands-on weather-scene
+      construction (kids assemble weather scenes from cut-outs +
+      describe). Station 4: word-guess worksheet (kids fill in
+      weather-word letters from picture clues).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class daily-weather chart update. Class names today's
+      weather + adds a tally mark on the chart for that weather type.
+      Forward-pointer: "Today we named the weather. When we come back
+      to weather next, we'll describe weather across SEASONS — what
+      kinds of weather we see in winter, spring, summer, fall."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: weather, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: bingo
+    exerciseMode: image
+    customizationParameters: { cardFill: image, chipFill: image, themeSelect: weather, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: weather, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: weather, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: weather
+      cardCount: 8
+      cardsPerPage: 4
+      colorMode: color
+      labelDisplay: singular
+      showArticle: false
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thick
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: weather
+      cardCount: 12
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: weather
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: it-is
+      imageSource: theme
+      themeName: weather
+      stripCount: 8
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: false
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: weather
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 5
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: weather
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: early-literacy / vocabulary-acquisition. Secondary
+    strand: speaking-and-listening (full-sentence weather descriptions
+    using language frames). Tertiary strand: world-knowledge /
+    environment-and-weather (weather phenomena are real-world
+    observable — vocabulary anchors to direct observation outside the
+    window).
+
+    Class A CLEAN substrate: weather vocabulary present in
+    IMAGE_VOCABULARY across all 11 platform locales (sun, cloud, rain,
+    snow, wind, storm, rainbow + adjective forms sunny/cloudy/rainy/
+    snowy/windy). Pre-existing weather theme in image library
+    (animals_bw equivalent expected; verifiable at material-render
+    time).
+
+    Daily-routine integration distinctive: weather is uniquely
+    suited to morning-circle routine because kids observe today's
+    weather every day. Vocabulary practice happens daily in the
+    routine, not just during the 1-week unit. Long-tail exposure
+    pattern strongest for weather among Arc 1-7 vocabulary packages.
+
+    Distinctive composition: 5 weather-themed exercises (matching at
+    1+4 + bingo at 2 + word-guess at 3 + odd-one-out at 5). Bingo
+    is FIRST consolidation surface for weather — uses the bingo app's
+    listening + scanning to reinforce auditory-to-visual weather-word
+    mapping.
+
+    Cross-locale sensitivity: weather vocabulary varies meaningfully
+    across locales — Nordic locales have richer snow + rain
+    vocabulary; Romance + Mediterranean locales have richer sun +
+    heat vocabulary. Platform's 11-locale coverage means kids in
+    each locale see locally-relevant weather vocabulary. K-3
+    multilingual classroom relevance: HIGH.
+
+    K-3 multilingual classroom relevance: weather vocabulary is
+    morning-circle bedrock across virtually every K-3 classroom
+    globally; cross-locale weather vocabulary acquisition is a
+    universal early-childhood-language target. The package's daily-
+    routine integration makes it self-reinforcing — kids see the
+    weather chart updated every morning.
+
+curriculumStandards:
+  - EYFS.ELG.UW
+  - EYFS.ELG.CL
+  - IB-PYP.WhereWeAreInPlaceAndTime
+  - CCSS.K.SL.1.A
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Name 6 of 8 weather-word vocabulary items in 8 of 10 trials.
+      - Use the "It is ___" frame to describe today's weather in 7 of
+        10 morning-circle observations.
+      - Match weather words to weather scenes in 8 of 10 trials.
+
+    Differentiation:
+    - Pre-K: 4 core weather words (sun, cloud, rain, snow); receptive-
+      language only ("point to ___").
+    - K: 6-8 weather words; productive-language frame ("It is ___").
+    - Grade 1+: extend to seasonal weather + descriptive intensifiers
+      ("very rainy," "a little cloudy") + bridge to weather-related
+      science (water cycle; describe-day-night-cycle Arc 9+ candidate).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

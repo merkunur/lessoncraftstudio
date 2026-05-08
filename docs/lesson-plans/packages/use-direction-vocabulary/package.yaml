@@ -1,0 +1,249 @@
+# Teaching package — use direction vocabulary
+# Arc 8 Phase 2 (Option A vocab-acquisition continuation; fine-motor-and-
+# visual-spatial / spatial-reasoning strand). Class B FLEXIBLE; cross-strand
+# vocab-anchored. Builds on Arc 5 use-spatial-position-words + Arc 7 follow-
+# directions-on-grid + Arc 8 Phase 1 navigate-simple-maze. Direction
+# vocabulary (left, right, up, down, forward, backward, north, south, east,
+# west) connects spatial-reasoning to language-acquisition.
+
+targetSlug: use-direction-vocabulary
+language: en
+title:
+  en: "Direction Words — left, right, up, down, and beyond"
+description:
+  en: "Kindergarten / Grade 1 fine-motor-and-visual-spatial package teaching direction vocabulary. Builds on Arc 5 use-spatial-position-words (positional vocab: on, under, next to) — direction vocab is the MOTION counterpart to position vocab. Bridges Arc 7 follow-directions-on-grid + Arc 8 Phase 1 navigate-simple-maze where direction vocab is implicitly used; this package makes direction vocabulary explicit. Productive-language target: kids narrate movement using direction words. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class action routine. Teacher stands at the front of the
+      class. Calls out direction commands: "Take 2 steps LEFT. Now 3
+      steps FORWARD. Now turn RIGHT." Class follows directions
+      physically. Reinforces direction-word-to-movement mapping
+      kinesthetically — kids feel the direction in their bodies as
+      they hear the word. Repeat with 8-10 direction commands.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + Simon-Says variant. Each pair has a printed grid +
+      a small token. Kid A calls direction commands ("Move RIGHT 2
+      cells. Move DOWN 3 cells."); kid B moves the token. After 5
+      commands, kids compare token position with kid A's intended
+      destination. Recast errors with explanation ("you said RIGHT
+      but moved LEFT — RIGHT is this way (gestures), LEFT is this
+      way"). Optional extension: kids navigate from start to a target
+      using direction words — productive-language version of follow-
+      directions-on-grid.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: follow-directions-on-grid
+      worksheet (kids navigate following directions; reinforces
+      receptive direction-vocab). Station 2: matching worksheet
+      (image-name pairs for direction concepts). Station 3:
+      manipulative cut-outs hands-on direction practice (kids place
+      arrows + label them with direction words). Station 4:
+      sentence-strips (kids construct full direction sentences:
+      "Walk forward. Turn right. Walk forward.").
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class direction-narration. Teacher displays a path on a
+      grid; class collectively narrates the path using direction
+      words ("First go RIGHT, then DOWN, then RIGHT again"). Forward-
+      pointer: "Today we used direction words to describe motion. When
+      we come back to direction vocab next, we'll use COMPASS
+      directions — north, south, east, west — for maps."
+
+composedExercises:
+  - appName: prepositions
+    exerciseMode: fillin
+    customizationParameters: { exerciseMode: fillin, exerciseCount: 6, itemThemeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: picture-path
+    exerciseMode: pathway
+    customizationParameters: { gameModeSelect: pathway }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: prepositions
+    exerciseMode: multiplechoice
+    customizationParameters: { exerciseMode: multiplechoice, exerciseCount: 6, itemThemeSelect: animals, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: picture-path
+    exerciseMode: classic-maze
+    customizationParameters: { gameModeSelect: classic-maze, mazeGridSize: "16" }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 10
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: i-see-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: fine-motor-and-visual-spatial / spatial-reasoning
+    (direction-vocabulary as motion language). Secondary strand: early-
+    literacy / vocabulary-acquisition (vocab-anchored — direction words
+    learned in motion contexts). Tertiary strand: speaking-and-listening
+    (productive narration of direction sequences).
+
+    Architectural significance: completes the spatial-vocabulary +
+    direction-following progression spanning Arc 5+7+8. Arc 5 use-
+    spatial-position-words covered POSITION vocab (on, under, next
+    to); Arc 7 follow-directions-on-grid used direction vocab
+    receptively (kids follow given directions); Arc 8 Phase 1
+    navigate-simple-maze applied direction reasoning to maze-solving.
+    This package makes direction vocab EXPLICIT + productive (kids
+    NARRATE direction sequences themselves).
+
+    Cross-strand integration: leverages prepositions app (positional
+    + directional), picture-path app (motion through grid), matching
+    app (vocabulary anchor). The 5-exercise composition reflects
+    multi-app cross-strand pedagogy.
+
+    Distinctive composition: 2 prepositions exercises spanning fillin
+    + multiplechoice modes (positions 1 + 4) — the FIRST package to
+    use both prepositions modes in single composition. picture-path
+    pathway mode at position 3 + classic-maze at position 5 — same
+    app at 2 difficulty progressions.
+
+    Class B FLEXIBLE substrate: direction vocabulary is theme-agnostic
+    at the cognitive level; composes against any image-library theme
+    that provides anchor objects for direction prompts.
+
+    K-3 multilingual classroom relevance: direction vocabulary is
+    high-frequency K-3 target across all 11 platform locales. Kids
+    encounter direction words in classroom routines daily ("line up
+    behind Maya," "walk to the LEFT side of the room"). Productive-
+    use of direction vocab in narration ("First I went FORWARD, then
+    I turned RIGHT") is exactly the kind of sequenced-narration
+    practice K-3 multilingual classrooms need. Position-vs-direction
+    distinction is meaningful pedagogically — kids who know "next to"
+    don't automatically know "right" / "left" without explicit
+    direction-word work.
+
+curriculumStandards:
+  - EYFS.ELG.PD
+  - EYFS.ELG.UW
+  - IB-PYP.HowTheWorldWorks
+  - CCSS.K.G.A.1
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Use 6 direction words (left, right, up, down, forward, backward)
+        correctly when narrating movement in 7 of 10 trials.
+      - Follow direction commands physically (without grid-support)
+        in 8 of 10 trials.
+      - Construct 2-step direction sequences ("First go LEFT, then go
+        UP") in 6 of 10 trials.
+
+    Differentiation:
+    - Pre-K: 4 core direction words (up, down, left, right); kinesthetic
+      practice only.
+    - K: 6 direction words including motion words (forward, backward);
+      grid-supported practice.
+    - Grade 1+: extend to compass directions (north, south, east, west);
+      bridge to map-reading work (Arc 9+ candidate).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

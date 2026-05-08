@@ -1,0 +1,259 @@
+# Teaching package — notice cognate word pairs across languages
+# Arc 8 Phase 2 (Option A vocab-acquisition continuation; early-literacy /
+# multilingual-language-awareness strand). Class B FLEXIBLE; cross-strand
+# vocab-anchored. Differentiating multilingual K-3 surface — kids notice
+# that words in their home language and target language share roots
+# (e.g., en "tomato" / es "tomate" / it "pomodoro" pairs at root level).
+# Builds on Arc 5+6 multilingual-language-awareness work.
+
+targetSlug: notice-cognate-word-pairs
+language: en
+title:
+  en: "Cognate Word Pairs — words that look or sound the same across languages"
+description:
+  en: "Kindergarten / Grade 1 early-literacy package teaching cognate awareness across languages. Multilingual-language-awareness strand: kids notice that some words look or sound the same across their home language and the target language (e.g., en 'family' / es 'familia' / it 'famiglia'). Recognition of cognates accelerates vocabulary acquisition because kids can leverage what they already know in their home language. Differentiating package for the platform's multilingual K-3 audience. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class noticing routine. Teacher writes a target-language
+      word on the board (e.g., 'family'). Asks: "Does this word sound
+      like a word in YOUR home language?" Kids who recognize cognates
+      raise hands and offer their home-language equivalent ('familia',
+      'famiglia', 'familie', 'familj'). Teacher writes the home-language
+      equivalents next to the target-language word. Highlights the
+      shared letters or sounds. Reinforces: "When a word in our target
+      language sounds like a word in YOUR language, you have a head
+      start on remembering it."
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + cognate-noticing routine. Each pair receives 6-8
+      cognate-pair cards (target-language word + image of the concept).
+      Pair discusses: "Does this word sound like a word in YOUR
+      language?" Kids share home-language equivalents. Teacher
+      circulates, noting cognate-pairs that emerged. Optional
+      extension: kids draw the cognate-pair concept + write both
+      words side-by-side. Recast emphasizing celebration ("YES — that's
+      a cognate! 'Tomate' and 'tomato' come from the same source.").
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching worksheet (cognate-pair
+      images-to-target-language-words; reinforces target-language
+      recognition). Station 2: word-scramble (kids unscramble target-
+      language cognate words; reinforces spelling). Station 3:
+      manipulative cut-outs hands-on cognate-pair construction (kids
+      assemble cognate-pair displays; partner verifies). Station 4:
+      sentence-strips (kids construct full sentences using cognate
+      words; reinforces full-sentence productive language).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class share. Teacher displays 4-6 target-language words +
+      asks kids to identify cognates across the whole-class home-
+      language set. Forward-pointer: "Today we noticed cognates between
+      our target language and our home languages. When we come back
+      to language-noticing next, we'll explore FALSE FRIENDS — words
+      that LOOK like cognates but actually mean different things —
+      and we'll learn to be careful with them."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: word-scramble
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: foods, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: school-objects, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 10
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      backOfCard: translation-to-locale
+      homeLanguageForBack: es
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: foods
+      cardCount: 10
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      backOfCard: translation-to-locale
+      homeLanguageForBack: it
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: false
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: early-literacy / multilingual-language-awareness.
+    Secondary strand: vocabulary acquisition (vocab-anchored — cognate
+    awareness directly accelerates target-language vocab acquisition by
+    leveraging home-language knowledge). Tertiary strand: home-language
+    affirmation (kids' home-language knowledge becomes a CLASSROOM
+    ASSET rather than an obstacle).
+
+    Architectural significance: deepens multilingual-language-awareness
+    strand from Arc 5+6 (compare-greeting-routines + identify-language-
+    of-spoken-utterance + name-this-object-in-two-languages). Cognate-
+    awareness is a uniquely high-leverage multilingual-K-3 skill —
+    kids who learn to notice cognates can transfer this skill across
+    contexts and build vocabulary in target language ~3x faster than
+    kids who don't (ESL research: Cummins, 1980+).
+
+    Distinctive composition: 3 matching exercises across 3 cognate-rich
+    theme contexts (animals, foods, school-objects) — these themes
+    are vocabulary-rich AND have strong cognate-pair coverage across
+    the platform's 11 locales. word-scramble at position 2 + word-guess
+    at position 4 break up the matching rhythm + reinforce cognate
+    spelling. The flashcards material's `backOfCard:
+    translation-to-locale` parameter is the FIRST package use of this
+    architecture — kids practice cognate awareness directly with the
+    flashcard format.
+
+    Cross-locale relevance: the multilingual-K-3 audience — international
+    schools, dual-language programs, bilingual European schools — is
+    DEFINED by the home-language-vs-target-language tension. Cognate-
+    awareness work directly serves this tension. High platform-fit;
+    differentiates LessonCraftStudio from English-only K-3 platforms.
+
+    K-3 multilingual classroom relevance: HIGH. Cognate-awareness is
+    a research-validated language-acquisition accelerator. The package's
+    full-class noticing + pair-work + flashcard architectures all
+    surface cognates as vocabulary BRIDGES between home and target
+    language. Teachers report kids who develop cognate-awareness
+    transfer the noticing-skill across new vocabulary domains
+    spontaneously.
+
+curriculumStandards:
+  - EYFS.ELG.CL
+  - IB-PYP.HowWeExpressOurselves
+  - CCSS.K.L.5.D
+  - CEFR-A1
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Identify 6 of 8 target-language words as cognates (or non-
+        cognates) when home-language equivalents are present in
+        whole-class set.
+      - Articulate the cognate-pair relationship ("'tomate' and
+        'tomato' look alike — they mean the same thing") in 6 of 10
+        trials.
+      - Use cognate-noticing as a learning strategy when encountering
+        new target-language words in the unit's reading.
+
+    Differentiation:
+    - Pre-K: 4 strong-cognate words; pair-noticing routine only.
+    - K: 6-8 cognate words across 2 themes; matching + flashcard work.
+    - Grade 1+: extend to FALSE FRIENDS work (Arc 9+ candidate); bridge
+      to morphological-awareness (recognizing shared word roots like
+      'photo-' across English/Spanish/Italian/Portuguese photography
+      vocabulary).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

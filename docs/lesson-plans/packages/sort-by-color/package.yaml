@@ -1,0 +1,242 @@
+# Teaching package — sort objects by color
+# Arc 5 Phase 3 (cognitive-and-executive-function / sorting-and-classification
+# strand). FIRST cognitive-and-executive-function domain package — closes
+# Condition 4 (5-of-5 domain coverage) at Arc 5 ship per §A.14 scaling-
+# checkpoint discipline. Class B FLEXIBLE; composes against image-library
+# breadth + colors cluster (CLEAN against IMAGE_VOCABULARY).
+
+targetSlug: sort-by-color
+language: en
+title:
+  en: "Sort by Color — group objects by their color"
+description:
+  en: "Pre-K to Grade 1 cognitive-and-executive-function package teaching color-based attribute sorting. Foundational executive-function skill: hold a sorting rule (color) in mind while categorizing mixed objects. Composes against image-library breadth — kids sort fruits, vegetables, animals, vehicles by their dominant color. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class introduction. Teacher places mixed objects (paper-cut fruits
+      / vegetables / toys) on the carpet. Names a color: "Show me everything
+      RED." Class points to all red items. Repeat with 3-4 colors. Reinforces
+      color-vocabulary (CLEAN cluster: red/blue/yellow/green/orange/purple/
+      pink/brown/black/white) AND the meta-skill of "looking through" a
+      group for one attribute. Pin color cards to the math-language word
+      wall.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Whole-class sorting routine. Teacher places 4-5 large color-mat cards
+      labeled with each color (or color swatches). Names mixed objects from
+      a pile; class places each object onto the matching color mat
+      collaboratively. Pair work: kid A picks an object; kid B says the
+      color and places it on the right mat. Recast errors. Optional
+      extension: kids notice that some objects could go on multiple mats
+      (a green-and-orange carrot — discuss attribute-priority decisions).
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: picture-sort worksheet (sort 8-10 objects
+      between 2 color contrasts — red vs blue; yellow vs green). Station 2:
+      odd-one-out worksheet (find the object in the wrong color group).
+      Station 3: manipulative cut-outs hands-on color sorting (kids
+      physically place 20+ cut-out objects on color mats; emphasizes
+      multiple-object sustained sorting attention).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class quick-recall. Teacher names a color; kids show with
+      classroom objects ("everyone touch something blue!"). Forward-pointer:
+      "Today we sorted by color. When we come back to sorting next, we'll
+      sort by SHAPE — keeping a different rule in mind."
+
+composedExercises:
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: fruits, rightCategoryThemeSelect: vegetables, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: animals, rightCategoryThemeSelect: vehicles, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: colors, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: fruits, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: shapes, rightCategoryThemeSelect: animals, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: [red, blue, yellow, green, orange, purple, pink, brown, black, white]
+      cardCount: 10
+      cardsPerPage: 4
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      showArticle: false
+      paperSize: a4
+      language: en
+      borderStyle: thick
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: fruits
+      cardCount: 10
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: colors
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: i-see-a
+      imageSource: theme
+      themeName: fruits
+      stripCount: 8
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: false
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: fruits
+      mode: single-repeat
+      itemCount: 30
+      itemSize: medium-1.5in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: vocabKeyList
+      vocabKeys: [red, blue, yellow, green]
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: cognitive-and-executive-function / sorting-and-
+    classification. Secondary strand: vocabulary acquisition (color names
+    as a closed-class lexical set; supports productive use through
+    sorting work). Tertiary strand: cross-domain integration (sorting
+    fruits / vegetables / animals / vehicles by color exercises object-
+    vocabulary recall in cognitive context).
+
+    Architectural significance: this is the FIRST cognitive-and-executive-
+    function domain package in the catalog. Closes Condition 4 (5-of-5
+    domain coverage) at Arc 5 ship. Per §A.14 scaling-checkpoint discipline:
+    cross-strand validation must complete for all 5 domains before strand-
+    volume commits. Phase 2's 4-domain coverage (early-literacy +
+    early-numeracy + world-knowledge + fine-motor-and-visual-spatial)
+    plus this Phase 3 cognitive-and-executive-function package gives
+    full 5-domain coverage — the architectural milestone for Arc 5
+    ship.
+
+    Distinctive composition vs vocabulary or geometry packages: 3 picture-
+    sort exercises (positions 1, 2, 5) — sorting IS the target. Each
+    picture-sort uses different theme-pair contrasts (fruits/vegetables;
+    animals/vehicles; shapes/animals) to validate that the picture-sort
+    architecture handles diverse theme-pair combinations.
+
+    Sorting-by-attribute distinguished from classification-by-membership:
+    sort-by-color asks kids to apply a single attribute (color) across
+    diverse objects (fruits, vegetables, animals, vehicles) — different
+    cognitive shape from classify-animals-by-habitat which asks kids to
+    apply category-membership thinking (this animal IS a farm animal;
+    that one IS a zoo animal). Both shapes ship in Phase 3 (sort-by-color
+    + classify-animals-by-diet); validates that the architecture
+    handles both reasoning patterns.
+
+    Class B FLEXIBLE substrate: this package composes against image-
+    library breadth (any image with a recognizable color works) plus
+    the colors cluster (10 keys; CLEAN). Substrate-readiness measured by
+    color-cluster coverage + image-library color diversity, not specific
+    keys.
+
+    K-3 multilingual classroom relevance: color-naming is universally
+    early-acquired vocabulary; sorting-by-color is the canonical first
+    sorting target in Pre-K. Sorting-by-attribute develops executive
+    function — holding a rule in working memory while filtering perception.
+
+curriculumStandards:
+  - CCSS.K.MD.B.3
+  - EYFS.ELG.M
+  - IB-PYP.HowWeOrganize
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Sort 8-10 mixed objects into 2 color categories with 90%+ accuracy.
+      - Sort 12-15 mixed objects into 4 color categories with 75%+ accuracy.
+      - Name the dominant color of each object when prompted ("What color
+        is this?") in 9 of 10 trials.
+
+    Differentiation:
+    - Pre-K: 2-color sorting only (red vs blue; yellow vs green).
+    - K: 4-color sorting; mixed-object substrate.
+    - Grade 1+: extend to sort-by-shape + sort-by-size (Phase 3 + later)
+      and to sort-by-multiple-attributes (sort by color AND shape
+      simultaneously; Grade 1+ cognitive-load).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

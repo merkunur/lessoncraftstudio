@@ -1,0 +1,254 @@
+# Teaching package — create original AB / AAB / ABB patterns
+# Arc 8 Phase 1 (Path B; cognitive-and-executive-function / pattern-recognition
+# strand). Class B FLEXIBLE; vocab-anchored. Open-ended creation counterpart
+# to Arc 7's rule-following pattern packages (identify-AB-pattern, identify-
+# AAB-ABB-patterns, identify-ABC-pattern, identify-AABB-pattern). Validates
+# bidirectional pattern-cognition: kids can both IDENTIFY rules AND CREATE
+# new patterns following a chosen rule.
+
+targetSlug: create-original-pattern
+language: en
+title:
+  en: "Create Your Own Pattern — design AB, AAB, and ABB patterns"
+description:
+  en: "Kindergarten cognitive-and-executive-function package teaching original pattern construction. Open-ended creation counterpart to Arc 7's identify-pattern packages: kids choose 2-3 objects + a rule (AB, AAB, or ABB) + construct the pattern. Production-side cognitive flip: instead of recognizing a rule and predicting next item, kids select objects + apply rule themselves. Validates bidirectional pattern-cognition. Vocab-anchored — kids name objects as they construct. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class action routine. Teacher demonstrates open-ended pattern
+      creation. "Today instead of finding the pattern, we'll BUILD one.
+      Watch — I'll pick two objects: cat and dog. Now I pick a rule: AB.
+      So I make: cat, dog, cat, dog, cat, dog." Class watches. "Now you
+      pick. Choose two objects from the cards. Then pick a rule." Each
+      kid picks a card pair from the picture-cards deck + picks AB rule.
+      Whole-class chants the resulting pattern. Reinforces rule-as-recipe
+      framing — the rule is reusable across any 2 objects.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + show-and-tell. Each kid picks a rule (AB or AAB or ABB)
+      + picks 2-3 objects from the manipulative cut-outs + builds the
+      pattern on a strip-template. Partner names the objects in the
+      pattern + identifies the rule. Recast errors with explanation
+      ("you said AAB but I see A-B-A — let me show you AAB: cat-cat-dog,
+      cat-cat-dog"). Optional extension: kids build a pattern, take it
+      apart, and rebuild with different objects but the same rule —
+      shows that the rule is independent of the objects.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: pattern-train worksheet AB+AAB
+      (kids continue patterns; reinforces rule recognition that
+      production builds on). Station 2: pattern-worksheet (mixed mode;
+      kids identify and complete patterns). Station 3: manipulative
+      cut-outs hands-on pattern construction (kids build their own
+      patterns from chosen objects + chosen rule). Station 4:
+      flashcards-deck draw + rule-pick (kid draws an object card,
+      picks a rule from a written-on-board list AB/AAB/ABB/ABC,
+      constructs the resulting pattern with manipulatives). The
+      draw-and-pick station randomizes the construction prompt +
+      reinforces that patterns work with ANY objects + rule.
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class share. 4-5 kids show the pattern they built; class
+      identifies the rule. Forward-pointer: "Today we created our own
+      patterns. When we come back to patterns next, we'll explore
+      patterns with NUMBERS — counting patterns where the items are
+      not pictures but numbers like 2, 4, 6, 8."
+
+composedExercises:
+  - appName: pattern-train
+    exerciseMode: AB
+    customizationParameters: { patternSelect: AB, themeSelect: animals }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: pattern-train
+    exerciseMode: AAB
+    customizationParameters: { patternSelect: AAB, themeSelect: fruits }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: pattern-train
+    exerciseMode: ABB
+    customizationParameters: { patternSelect: ABB, themeSelect: vehicles }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: pattern-worksheet
+    exerciseMode: mixed
+    customizationParameters: { exerciseCount: 5, themeSelect: shapes }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: production-prompt
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: fruits
+      cardCount: 12
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 30
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 3
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: vehicles
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 6
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 5
+    pedagogicalRole: vocabulary-game
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: cognitive-and-executive-function / pattern-recognition
+    (open-ended production). Secondary strand: vocabulary acquisition
+    (vocab-anchored — kids name objects as they construct). Tertiary
+    strand: rule-application + working-memory (kids hold the chosen
+    rule in mind while selecting + arranging objects).
+
+    Open-ended counterpart to Arc 7's rule-following pattern packages:
+    identify-AB-pattern + identify-AAB-ABB-patterns + identify-ABC-pattern
+    + identify-AABB-pattern all work in the RECOGNITION direction (rule
+    given by worksheet; kid identifies/continues). create-original-
+    pattern works in the PRODUCTION direction (rule chosen by kid; kid
+    constructs). Together the pair validates bidirectional pattern-
+    cognition.
+
+    Architectural significance: production-side cognitive complement to
+    the recognition-side strand depth from Arc 7. Strong assessment
+    target — kids who can RECOGNIZE patterns may not yet PRODUCE them
+    (production lags recognition by 6-12 months in early-childhood
+    development). Surfacing the production gap is a load-bearing
+    classroom-assessment opportunity.
+
+    Distinctive composition: 3 pattern-train exercises spanning AB +
+    AAB + ABB rules (positions 1, 2, 3) + 1 pattern-worksheet at
+    position 4 + 1 matching at position 5 for vocabulary reinforcement.
+    Three picture-cards/flashcards materials (animals + fruits +
+    vehicles) provide three theme-distinct production-prompt decks —
+    kids select objects from across themes when constructing original
+    patterns, reinforcing that the rule (AB/AAB/ABB) is independent
+    of the object set.
+
+    Class B FLEXIBLE substrate: composes against image-library breadth.
+    Patterns work with ANY objects; substrate-readiness is universal
+    across themes. The pattern-rule-as-recipe framing makes this
+    package theme-agnostic at the cognitive level.
+
+    K-3 multilingual classroom relevance: pattern construction is
+    language-portable; vocabulary-anchor makes the package contribute
+    to vocabulary review while exercising pattern-rule cognition. The
+    show-and-tell warmup + closure surfaces give kids structured
+    full-sentence speaking opportunities ("My pattern is cat, cat,
+    dog, cat, cat, dog. The rule is AAB.") that K-3 multilingual
+    classrooms need.
+
+curriculumStandards:
+  - CCSS.K.OA.A.4
+  - EYFS.ELG.M
+  - IB-PYP.HowTheWorldWorks
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Construct an original 6-item AB pattern from chosen objects in 8
+        of 10 attempts.
+      - Construct AAB or ABB patterns from chosen objects in 6 of 10
+        attempts.
+      - Articulate the chosen rule when asked ("My rule is AB / AAB /
+        ABB") in 7 of 10 trials.
+
+    Differentiation:
+    - Pre-K: AB only; 4-item patterns; manipulative-supported with
+      teacher prompts ("what comes after cat?").
+    - K: AB + AAB + ABB; 6-item patterns; independent construction.
+    - Grade 1+: extend to ABC + AABB + original 4-element rules; bridge
+      to skip-counting patterns (count-by-2s-to-20 sibling Phase 1
+      package) where pattern construction extends into numerical
+      sequences.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

@@ -1,0 +1,251 @@
+# Teaching package — sort by multiple attributes (color AND shape)
+# Arc 8 Phase 1 (Path B; cognitive-and-executive-function / sorting strand).
+# Class B FLEXIBLE; vocab-anchored. Builds on Arc 5+7 basic-attribute trilogy
+# (sort-by-color + sort-by-shape + sort-by-size — single-attribute sorting).
+# Multi-attribute sorting: kids hold 2 attributes in mind simultaneously
+# (e.g., "red AND round" vs "red AND square"). Grade 1+ working-memory load.
+
+targetSlug: sort-by-multiple-attributes
+language: en
+title:
+  en: "Sort by Multiple Attributes — group by color AND shape together"
+description:
+  en: "Grade 1+ cognitive-and-executive-function package teaching multi-attribute sorting. Builds on the basic-attribute trilogy (sort-by-color + sort-by-shape + sort-by-size from Arc 5+7) — kids now sort by 2 attributes simultaneously. Working-memory progression: holding 2 sort criteria in mind while categorizing requires meaningful executive-function load. Vocab-anchored — color + shape vocabulary reinforced through dual-attribute reasoning. Resolves sort-by-color's forward-pointer to multi-attribute work. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class introduction. Teacher places 8 paper-cuts on the carpet
+      that vary along TWO attributes: color (red vs blue) + shape
+      (circle vs square). 4 buckets: red-circle / red-square / blue-
+      circle / blue-square. Teacher demonstrates: "I'll sort by COLOR
+      first — reds here, blues here. Now I'll sort each color pile by
+      SHAPE — circles in one bucket, squares in another." Class
+      observes the 2-step sorting process. Reinforces multi-attribute
+      framing — kids see that sorting by 2 attributes means TWO
+      decisions per item.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pocket-chart routine. Teacher displays 8-10 multi-attribute items;
+      class collaboratively sorts into 4 buckets defined by 2 attributes.
+      Pair work: kid A picks 2 attributes (e.g., color + size); sets up
+      4 buckets; kid B sorts items into the correct bucket. Recast
+      errors with explanation ("you put the small-red apple in the
+      large-red bucket — let's check both attributes: it's RED yes, but
+      is it LARGE? No — it's SMALL. So it goes in small-red"). Optional
+      extension: kids construct their own 2-attribute sorting puzzles.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: picture-sort worksheet (single-
+      attribute sort as warm-up bridge from Arc 5/7 trilogy). Station 2:
+      picture-sort worksheet with custom-words (kids construct
+      multi-attribute bucket labels via custom words). Station 3:
+      manipulative cut-outs hands-on multi-attribute sort (kids place
+      items into 4 buckets defined by 2 attributes; partner verifies).
+      Station 4: matching worksheet (image-name reinforces shape +
+      color vocabulary that the multi-attribute sort relies on).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class quick-recall. Teacher displays 4 buckets defined by
+      2 attributes; class collectively sorts a final set of items.
+      Forward-pointer: "Today we sorted by 2 attributes at once. When
+      we come back to sorting next, we'll sort by 3 attributes — color
+      AND shape AND size — even more decisions per item."
+
+composedExercises:
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: shapes, rightCategoryThemeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: picture-sort
+    exerciseMode: custom-words
+    customizationParameters: { leftCustomWordsInput: "red shapes\nblue shapes", rightCustomWordsInput: "circles\nsquares", languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: shapes, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: fruits, rightCategoryThemeSelect: vegetables, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: shapes, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      cardCount: 12
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: production-prompt
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: colors
+      cardCount: 12
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: shapes
+      stripCount: 8
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: false
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      mode: single-repeat
+      itemCount: 32
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: shapes
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: cognitive-and-executive-function / sorting (multi-
+    attribute). Secondary strand: working-memory + executive-function
+    (kids hold 2 sort criteria in mind simultaneously; meaningful
+    cognitive load). Tertiary strand: vocabulary acquisition (vocab-
+    anchored — color + shape + size words reinforced through multi-
+    attribute reasoning).
+
+    Architectural significance: completes the Arc 5+7+8 sorting strand
+    progression. Single-attribute trilogy (sort-by-color + sort-by-shape
+    + sort-by-size) shipped at Arc 5+7; multi-attribute as Grade 1+
+    extension. The 4-package set covers the fundamental sorting
+    cognitive surface from preschool simple-attribute discrimination
+    through Grade 1+ multi-attribute reasoning. Resolves sort-by-color's
+    explicit forward-pointer to multi-attribute work.
+
+    Distinctive composition: 3 picture-sort exercises spanning theme
+    mode + custom-words mode (positions 1, 2, 4) — the FIRST package
+    to use picture-sort's custom-words mode for multi-attribute bucket
+    labeling. Custom-words mode lets the operator construct compound
+    labels ("red shapes" / "blue shapes") that single-attribute theme
+    mode can't express. Validates picture-sort architecture for multi-
+    attribute work.
+
+    Working-memory progression: single-attribute sorting requires 1
+    decision per item (does this match attribute X?). Multi-attribute
+    sorting requires 2 decisions per item (matches attribute X? AND
+    matches attribute Y?). Cognitive-load doubles. Pre-K kids
+    typically can't hold 2 criteria simultaneously; K kids hit it
+    inconsistently; Grade 1+ kids can sustain multi-attribute
+    reasoning. Package targets Grade 1+ as primary audience.
+
+    Class B FLEXIBLE substrate: composes against image-library breadth.
+    Multi-attribute sorting works with ANY 2 cross-cutting attribute
+    dimensions; substrate-readiness is universal across themes that
+    have meaningful within-theme attribute variation (colors theme
+    × shapes theme + variants).
+
+    K-3 multilingual classroom relevance: multi-attribute reasoning
+    is cognitively universal; verbalization of multi-attribute
+    decisions ("This is a RED CIRCLE — it goes in the red-circle
+    bucket") is exactly the kind of compound-grammar full-sentence
+    practice K-3 multilingual classrooms need. The 2-attribute
+    decision becomes a 2-clause sentence. High language-acquisition
+    leverage.
+
+curriculumStandards:
+  - CCSS.K.MD.B.3
+  - CCSS.1.MD.C.4
+  - EYFS.ELG.M
+  - IB-PYP.HowTheWorldWorks
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Sort 8 items into 4 buckets defined by 2 attributes correctly in
+        7 of 10 trials.
+      - Articulate the 2 attributes when asked ("the buckets are by COLOR
+        and SHAPE") in 7 of 10 trials.
+      - Verbalize multi-attribute item membership ("this is RED and
+        ROUND so it goes in red-circle") in 6 of 10 trials.
+
+    Differentiation:
+    - Pre-K: single-attribute sort with strong contrast (deferred from
+      multi-attribute; bridge from Arc 5/7 trilogy).
+    - K: 2 attributes with 2 levels each (4 buckets); strong contrast
+      between attributes.
+    - Grade 1+: 2-3 attributes simultaneously; subtler contrasts;
+      bridge to 3-attribute classification (cognitive complexity ceiling
+      for K-3).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

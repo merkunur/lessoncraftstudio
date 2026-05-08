@@ -1,0 +1,245 @@
+# Teaching package — identify the odd one out by visual attribute
+# Arc 8 Phase 1 (Path B; cognitive-and-executive-function / logical-reasoning
+# strand). Class B FLEXIBLE; vocab-anchored. Sibling to identify-odd-one-out-
+# by-category (Arc 7 Phase 2). Resolves Arc 7's forward-pointer ("by ATTRIBUTE
+# — not by what it IS, but by what color or shape or size makes it different").
+
+targetSlug: identify-odd-one-out-by-attribute
+language: en
+title:
+  en: "Odd One Out (by attribute) — find the item that looks different"
+description:
+  en: "Kindergarten cognitive-and-executive-function package teaching odd-one-out reasoning by visual attribute (color, shape, size). Sibling to identify-odd-one-out-by-category (Arc 7 Phase 2): same exclusion-reasoning structure applied to ATTRIBUTE difference rather than CATEGORY membership. Kids identify which of 4-5 same-category items has a different color/shape/size than the rest. Resolves Arc 7's by-category → by-attribute forward-pointer. Vocab-anchored. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class introduction. Teacher places 4 paper-cuts on the carpet:
+      3 red apples + 1 green apple. "All four are apples — which one
+      looks different?" Class identifies the green one. "Why?" Discussion:
+      kids articulate the attribute reasoning ("the others are red; this
+      one is green"). Repeat with shape (3 circles + 1 square; all
+      same color) and size (3 small + 1 large; all same color and
+      shape). Reinforces attribute-awareness as the dimension of
+      difference, building on identify-odd-one-out-by-category (Arc 7).
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pocket-chart routine. Teacher displays 5-6 attribute-contrast sets
+      across the three attribute dimensions (color, shape, size). Class
+      identifies the odd item + names the attribute that makes it odd.
+      Pair work: kid A constructs an attribute-contrast set with
+      manipulative cut-outs (e.g., 3 large stars + 1 small star); kid B
+      identifies the odd + names the attribute. Recast errors with
+      explanation. Embedded vocabulary practice — kids reinforce color
+      / shape / size words while reasoning about attribute difference.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: odd-one-out worksheet (kids identify
+      the attribute-odd item + circle it). Station 2: matching worksheet
+      (image-name reinforces base vocabulary that the attribute-difference
+      is applied to). Station 3: manipulative cut-outs hands-on
+      attribute-odd-one-out construction (kids build attribute-contrast
+      sets; partner solves; verbalizes the attribute that makes the odd
+      one odd). Station 4: dice-spinners attribute-game (kids spin for
+      attribute, then construct an odd-one-out around that attribute).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class quick-recall. Teacher displays a final attribute-
+      contrast set; class collectively identifies the odd one + names
+      the attribute. Forward-pointer: "Today we found the odd one by
+      attribute — color, shape, or size. When we come back to puzzles
+      next, we'll find the odd one by MULTIPLE attributes — sets where
+      the difference is harder to spot because two attributes change
+      at once."
+
+composedExercises:
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: colors, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: colors, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: shapes, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: fruits, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: colors
+      cardCount: 12
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: production-prompt
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      cardCount: 12
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: colors
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: colors
+      stripCount: 8
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: false
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: colors
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: cognitive-and-executive-function / logical-reasoning.
+    Secondary strand: vocabulary acquisition (vocab-anchored — color +
+    shape + size words reinforced through attribute reasoning). Tertiary
+    strand: attribute-discrimination + verbalization (kids must articulate
+    WHICH attribute makes the odd one odd — color? shape? size? — develops
+    meta-cognitive vocabulary about visual properties).
+
+    Sibling pair with identify-odd-one-out-by-category (Arc 7 Phase 2):
+    same exclusion-reasoning architecture applied to ATTRIBUTE rather
+    than CATEGORY. Together the pair completes the odd-one-out cognitive
+    axis: by-category (semantic exclusion) + by-attribute (visual
+    exclusion). Resolves Arc 7's explicit forward-pointer "by ATTRIBUTE
+    — not by what it IS, but by what color or shape or size makes it
+    different."
+
+    Architectural significance: completes the Arc 7 → Arc 8 odd-one-out
+    progression. The 2-package set (by-category + by-attribute) covers
+    the fundamental odd-one-out reasoning surface kids will encounter
+    in standardized cognitive assessments + structured-reasoning
+    contexts throughout K-3.
+
+    Distinctive composition: 4 odd-one-out exercises spanning 4 attribute
+    contexts (colors, shapes, animals visually contrasted, fruits visually
+    contrasted) + 1 matching at position 2. Mirrors the by-category
+    package's pattern. The same odd-one-out app works for both reasoning
+    types — operator-strategic theme selection at composition time
+    determines whether the exclusion is by category or by attribute.
+
+    Class B FLEXIBLE substrate: composes against image-library breadth.
+    Color + shape vocab themes; same-category-different-attribute sets
+    constructable from any theme.
+
+    K-3 multilingual classroom relevance: attribute vocabulary (color,
+    shape, size words) is high-frequency early-language target;
+    embedding attribute reasoning into a logical-reasoning surface
+    doubles the language-acquisition opportunity. Verbalization of
+    attribute-difference reasoning ("the others are RED; this one is
+    GREEN") is exactly the kind of full-sentence grammatical practice
+    K-3 multilingual classrooms need.
+
+curriculumStandards:
+  - EYFS.ELG.M
+  - EYFS.ELG.UW
+  - IB-PYP.HowTheWorldWorks
+  - CCSS.K.MD.A.2
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Identify the odd one out in 4-item attribute-contrast sets in 8
+        of 10 trials.
+      - Articulate the attribute reasoning ("the others are X; this one
+        is Y") in 6 of 10 trials.
+      - Name the attribute dimension (color/shape/size) in 7 of 10
+        trials.
+
+    Differentiation:
+    - Pre-K: 3-item sets with strong single-attribute contrast (e.g., 2
+      red + 1 blue; all same shape and size).
+    - K: 4-item sets across the 3 attribute dimensions independently.
+    - Grade 1+: 4-5-item sets with subtler attribute differences; bridge
+      to sort-by-multiple-attributes (Arc 8 Phase 1 sibling) where 2
+      attributes change simultaneously.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

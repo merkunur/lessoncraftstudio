@@ -1,0 +1,237 @@
+# Teaching package — navigate simple mazes
+# Arc 8 Phase 1 (Path B; fine-motor-and-visual-spatial / spatial-reasoning
+# strand). Class B FLEXIBLE; vocab-anchored. FIRST maze package. Resolves
+# Arc 7's follow-directions-on-grid forward-pointer to mazes. Uses picture-
+# path classic-maze mode.
+
+targetSlug: navigate-simple-maze
+language: en
+title:
+  en: "Maze Navigation — find the path from start to finish"
+description:
+  en: "Kindergarten fine-motor-and-visual-spatial package teaching simple maze navigation. FIRST maze package in the catalog. Builds on Arc 7 follow-directions-on-grid (grid-traversal precursor) — kids now navigate paths with walls + dead-ends rather than open grids. Develops spatial-reasoning + executive-function (planning ahead, mentally simulating routes) + fine-motor (drawing the path with a finger or pencil). Uses picture-path app classic-maze mode. Vocab-anchored — kids name objects at start/end + describe the path direction. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class introduction. Teacher draws a simple 5×5 grid maze
+      on the board with a clearly marked Start and Finish. Class
+      collectively traces the path with finger-points (kids point in
+      the air toward the next cell). Teacher narrates: "From Start, we
+      go right one step. Then down. Then right. Then we hit a wall —
+      let's go down instead." Reinforces wall-as-obstacle framing +
+      builds on Arc 7 grid-direction vocabulary (right/left/up/down).
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + finger-trace routine. Each kid receives a printed
+      simple maze + uses their finger to trace the path. Partners
+      verify correctness. After tracing with finger, kids draw the
+      path with a pencil. Teacher circulates: recasts errors with
+      explanation ("you went into a wall — pick a different direction
+      from this cell"). Optional extension: kids construct their own
+      simple mazes on grid paper for partners to solve. The build-and-
+      solve cycle reinforces wall-and-path framing from the producer
+      side too.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: picture-path classic-maze worksheet
+      (small grid; clear path). Station 2: picture-path classic-maze
+      worksheet (larger grid; multiple dead-ends; harder). Station 3:
+      manipulative cut-outs hands-on maze construction (kids build
+      mazes with cut-out walls + path tiles; partner solves). Station
+      4: matching worksheet (image-name reinforces start/finish object
+      vocabulary that the maze prompts use).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class quick-recall. Teacher displays a final maze on the
+      board; class collectively traces the path while narrating
+      directions. Forward-pointer: "Today we navigated simple mazes.
+      When we come back to mazes next, we'll explore mazes with
+      MULTIPLE PATHS — kids choose between paths, picking the
+      shortest or the one that collects the most treasures."
+
+composedExercises:
+  - appName: picture-path
+    exerciseMode: classic-maze
+    customizationParameters: { gameModeSelect: classic-maze, mazeGridSize: "15" }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: picture-path
+    exerciseMode: classic-maze
+    customizationParameters: { gameModeSelect: classic-maze, mazeGridSize: "16" }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: picture-path
+    exerciseMode: classic-maze
+    customizationParameters: { gameModeSelect: classic-maze, mazeGridSize: "18" }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: picture-path
+    exerciseMode: classic-maze
+    customizationParameters: { gameModeSelect: classic-maze, mazeGridSize: "20" }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: production-prompt
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: vehicles
+      cardCount: 12
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 6
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: false
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: fine-motor-and-visual-spatial / spatial-reasoning.
+    Secondary strand: executive-function (path-planning + mental-
+    simulation; kids think 2-3 steps ahead before committing). Tertiary
+    strand: fine-motor (finger-trace transitions to pencil-trace as
+    motor control develops).
+
+    Architectural significance: FIRST maze package in the catalog.
+    Bridges Arc 7's follow-directions-on-grid (open-grid traversal
+    with externally-given directions) into self-directed maze
+    navigation (kid plans + executes the path). The Arc 7 → Arc 8
+    progression validates that grid-traversal vocabulary + spatial-
+    reasoning skill from Arc 7 transfers cleanly into maze-solving
+    contexts. Resolves Arc 7's follow-directions-on-grid forward-
+    pointer.
+
+    Distinctive composition: 4 picture-path classic-maze exercises
+    spanning grid sizes 15 → 16 → 18 → 20 (gradual difficulty
+    progression within the 1-week unit). The size progression is
+    pedagogically intentional — 15 grid = preschool-friendly (~3-4
+    decision points); 20 grid = K-end / Grade-1 (multiple dead-ends).
+    Matching at position 3 breaks the maze rhythm + reinforces start/
+    finish vocabulary.
+
+    Class B FLEXIBLE substrate: composes against image-library breadth.
+    Mazes work with ANY start/finish object vocabulary; substrate-
+    readiness is universal across themes that have at least 2 distinct
+    objects (one for start, one for finish).
+
+    K-3 multilingual classroom relevance: spatial-reasoning is
+    cognitively universal; verbalization of path directions
+    ("First go RIGHT, then DOWN, then RIGHT again") is exactly the
+    kind of sequence-narration full-sentence practice K-3 multilingual
+    classrooms need. Direction vocabulary (right/left/up/down) reinforced
+    from Arc 7 follow-directions-on-grid carries forward into maze work.
+
+curriculumStandards:
+  - EYFS.ELG.PD
+  - EYFS.ELG.UW
+  - IB-PYP.HowTheWorldWorks
+  - CCSS.K.G.A.1
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Trace the correct path through a 15-grid simple maze in 8 of 10
+        attempts.
+      - Trace the correct path through an 18-grid maze with multiple
+        dead-ends in 6 of 10 attempts.
+      - Articulate path directions when narrating ("right, down, right,
+        down") in 7 of 10 trials.
+
+    Differentiation:
+    - Pre-K: 15-grid mazes with very clear single-path routes; finger-
+      trace only.
+    - K: 16-18 grid mazes with 1-2 dead-ends; pencil-trace.
+    - Grade 1+: 20-grid mazes with multiple dead-ends + bridge to
+      choose-path multi-route mazes (Arc 9+ candidate).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

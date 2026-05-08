@@ -18,6 +18,7 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
+import sharp from 'sharp';
 import { chromium, type Browser } from 'playwright';
 import { Locale, VocabEntry, buildSentence, displayWord, themeColor } from './flashcard-data';
 
@@ -33,10 +34,30 @@ const FONT_LINK = `<link href="https://fonts.googleapis.com/css2?family=Fredoka:
 
 // Convert image to base64 data-URL so HTML deliverables are self-contained
 // (no relative-path breakage when sharing or printing via Playwright).
-function imageToDataUrl(imagePath: string): string {
-  const buf = fs.readFileSync(imagePath);
-  const mime = 'image/png';
-  return `data:${mime};base64,${buf.toString('base64')}`;
+//
+// Resize via Sharp to MAX_DIM (default 600px) before embed; preserves aspect
+// ratio + transparency. PNG output retained (lossless preserves clean
+// flashcard image quality at K-3 reading distance). At 600×600 max with
+// PNG-8 quantization, typical embed is ~30-100KB vs raw library PNGs
+// at 1-2MB each — keeps validation batch + Arc 2 production output
+// manageable for git commit + Cloudflare distribution.
+const MAX_DIM = 600;
+const _imageCache = new Map<string, string>();
+async function imageToDataUrl(imagePath: string): Promise<string> {
+  // Cache by content hash so the same source image embedded across multiple
+  // locales/decks reuses one Sharp-processed result.
+  const stat = fs.statSync(imagePath);
+  const cacheKey = `${imagePath}:${stat.mtimeMs}:${stat.size}`;
+  const cached = _imageCache.get(cacheKey);
+  if (cached) return cached;
+
+  const buf = await sharp(imagePath)
+    .resize({ width: MAX_DIM, height: MAX_DIM, fit: 'inside', withoutEnlargement: true })
+    .png({ compressionLevel: 9, palette: true })
+    .toBuffer();
+  const dataUrl = `data:image/png;base64,${buf.toString('base64')}`;
+  _imageCache.set(cacheKey, dataUrl);
+  return dataUrl;
 }
 
 function escapeHtml(s: string): string {
@@ -50,16 +71,28 @@ function escapeHtml(s: string): string {
 
 // ----- Common card markup (shared between digital + print) -----
 
-function renderCard(card: FlashcardCard, opts: { withSrc?: boolean } = {}): string {
+interface PreparedCard extends FlashcardCard {
+  dataUrl: string;
+}
+
+async function prepareCards(cards: FlashcardCard[]): Promise<PreparedCard[]> {
+  const out: PreparedCard[] = [];
+  for (const c of cards) {
+    const dataUrl = await imageToDataUrl(c.imagePath);
+    out.push({ ...c, dataUrl });
+  }
+  return out;
+}
+
+function renderCard(card: PreparedCard): string {
   const word = displayWord(card.vocabKey, card.vocab, card.locale);
   const sentence = buildSentence(card.vocab, card.locale);
   const accent = themeColor(card.themeDir);
-  const dataUrl = opts.withSrc !== false ? imageToDataUrl(card.imagePath) : '';
 
   return `
     <article class="card" data-key="${escapeHtml(card.vocabKey)}" data-locale="${card.locale}">
       <div class="accent" style="background:${accent}"></div>
-      <div class="image-band"><img src="${dataUrl}" alt="${escapeHtml(word)}"></div>
+      <div class="image-band"><img src="${card.dataUrl}" alt="${escapeHtml(word)}"></div>
       <div class="word-band"><h2 class="word" lang="${card.locale}">${escapeHtml(word)}</h2></div>
       <div class="sentence-band"><p class="sentence" lang="${card.locale}">&ldquo;${escapeHtml(sentence)}&rdquo;</p></div>
       <div class="footer">LessonCraftStudio</div>
@@ -149,13 +182,14 @@ export interface DeckMetadata {
   packageSlug?: string;
 }
 
-export function renderDigitalViewer(cards: FlashcardCard[], meta: DeckMetadata): string {
-  const cardsHtml = cards.map((c, i) => `
+export async function renderDigitalViewer(cards: FlashcardCard[], meta: DeckMetadata): Promise<string> {
+  const prepared = await prepareCards(cards);
+  const cardsHtml = prepared.map((c, i) => `
     <div class="card-wrap" data-idx="${i}">
       ${renderCard(c)}
     </div>`).join('');
 
-  const cardsData = cards.map((c, i) => ({
+  const cardsData = prepared.map((c, i) => ({
     idx: i,
     vocabKey: c.vocabKey,
     word: displayWord(c.vocabKey, c.vocab, c.locale),
@@ -329,8 +363,9 @@ export function renderDigitalViewer(cards: FlashcardCard[], meta: DeckMetadata):
 
 // ----- Print HTML (6-up + 9-up; piped to Playwright for PDF) -----
 
-export function renderPrintHtml(cards: FlashcardCard[], opts: { perPage: 6 | 9; locale: Locale }): string {
+export async function renderPrintHtml(cards: FlashcardCard[], opts: { perPage: 6 | 9; locale: Locale }): Promise<string> {
   const { perPage, locale } = opts;
+  const prepared = await prepareCards(cards);
   const cols = 3;
   const rows = perPage === 6 ? 2 : 3;
 
@@ -378,9 +413,9 @@ export function renderPrintHtml(cards: FlashcardCard[], opts: { perPage: 6 | 9; 
   `;
 
   // Group cards into pages
-  const pages: FlashcardCard[][] = [];
-  for (let i = 0; i < cards.length; i += perPage) {
-    pages.push(cards.slice(i, i + perPage));
+  const pages: PreparedCard[][] = [];
+  for (let i = 0; i < prepared.length; i += perPage) {
+    pages.push(prepared.slice(i, i + perPage));
   }
 
   const pagesHtml = pages.map(pageCards => {
@@ -435,13 +470,13 @@ export async function renderPdf(html: string, outPath: string): Promise<void> {
 }
 
 export async function writeDigitalViewer(cards: FlashcardCard[], meta: DeckMetadata, outPath: string): Promise<void> {
-  const html = renderDigitalViewer(cards, meta);
+  const html = await renderDigitalViewer(cards, meta);
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, html, 'utf-8');
 }
 
 export async function writePrintPdf(cards: FlashcardCard[], opts: { perPage: 6 | 9; locale: Locale }, outPath: string): Promise<void> {
-  const html = renderPrintHtml(cards, opts);
+  const html = await renderPrintHtml(cards, opts);
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   await renderPdf(html, outPath);
 }

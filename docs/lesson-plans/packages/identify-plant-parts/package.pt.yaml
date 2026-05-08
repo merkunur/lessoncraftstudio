@@ -1,0 +1,137 @@
+# Teaching package — identify plant parts (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 13 Phase 3 per Arc 3 Phase 1 sparse-override pattern).
+# pt sparse-override for world-knowledge / living-things strand.
+# BR tropical flora distinct from temperate examples — mandioca + bananeira
+# + ipê + samambaia + hibisco predominate over apple-tree/oak-tree.
+# BR-MEC educação infantil register per CLAUDE.md §6 + formal "você"
+# address per §17.9.
+
+title:
+  pt: "Partes da Planta — raiz + caule + folha + flor + fruto + semente"
+description:
+  pt: "Pacote de mundo-conhecimento para a educação infantil / 1º ano que ensina partes da planta. Constrói sobre o trabalho de seres-vivos dos Arcos 8-12 + describe-plant-life-cycle do Arco 10. As crianças identificam + nomeiam as 6 partes principais da planta (raiz, caule, folha, flor, fruto, semente). Habilidade fundamental de ciência-natural — base para entender como plantas crescem + se reproduzem. Especificidade pt-BR: exemplos vegetais brasileiros — mandioca (raiz comestível canônica brasileira); bananeira (caule + folhas + fruto + flor); samambaia (folhas características; planta-do-cerrado + Mata Atlântica); ipê + jacarandá (árvores-símbolo brasileiras com flores espetaculares); açaí + cupuaçu (frutos amazônicos). 5 exercícios + 7 materiais imprimíveis em uma unidade de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Rotina de explore-a-planta com toda a turma. A professora ou o
+      professor exibe uma planta inteira (real ou imagem grande
+      detalhada de uma bananeira ou mandioca). Aponta + nomeia cada
+      parte: "Esta é a RAIZ — fica embaixo da terra; segura a planta
+      + busca água. Este é o CAULE — segura a planta para cima.
+      Estas são as FOLHAS — fazem comida da luz do sol. Esta é a
+      FLOR — atrai abelhas + se transforma em fruto. Este é o FRUTO
+      — protege as sementes. Estas são as SEMENTES — fazem novas
+      plantas." A turma repete os nomes. Especificidade pt-BR: a
+      bananeira é exemplo canônico — kids brasileiros frequentemente
+      veem bananeiras em quintais ou parques; mostra todas 6 partes
+      em uma única planta familiar.
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de aponte-as-partes. Cada dupla
+      recebe 6 cartas de imagem de plantas brasileiras canônicas
+      (bananeira inteira; pé-de-mandioca + tubérculo; ipê florido;
+      samambaia; pé-de-tomate com fruto; flor-de-hibisco). A dupla
+      alterna: a criança A nomeia uma parte da planta (raiz); a
+      criança B aponta para essa parte em uma das cartas. Refraseie
+      os erros com explicação ("você apontou para a folha — vamos
+      olhar de novo: a raiz fica EMBAIXO DA TERRA. Você consegue
+      ver a raiz da bananeira nesta foto? Olha — aqui debaixo do
+      caule"). Especificidade pt-BR: enfatize partes brasileiras-
+      canônicas — mandioca (raiz comestível); folha de bananeira
+      (folha enorme característica); flor de ipê (flor-símbolo do
+      Brasil); semente de feijão (semente-canônica do feijão-com-
+      arroz brasileiro).
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios de
+      emparelhamento (parte-da-planta para imagem). Estação 2: folha
+      de exercícios de picture-sort (as crianças classificam
+      imagens em raízes vs caules vs folhas vs flores vs frutos vs
+      sementes). Estação 3: recortes manipulativos prático monte-
+      uma-planta (as crianças montam uma planta-completa a partir
+      de recortes-de-partes). Estação 4: word-guess (as crianças
+      preenchem letras de nomes-de-partes-de-planta).
+  closure:
+    body: |
+      Rotina de quiz-de-partes com toda a turma. A professora ou o
+      professor mostra uma imagem de planta brasileira; a turma
+      coletivamente nomeia partes visíveis. Indicador adiante: "Hoje
+      identificamos PARTES da planta. Quando voltarmos a seres-vivos
+      na próxima vez, aprenderemos a CLASSIFICAÇÃO DE PLANTAS —
+      árvores grandes (jacarandá, ipê, mangueira) vs arbustos
+      médios (hibisco, jasmim) vs ervas pequenas (manjericão, cebola
+      verde) vs trepadeiras (maracujá, glicínia)."
+
+assessmentCriteria:
+  pt: |
+    Identificar 5 de 6 partes da planta apontando em 8 de 10
+    tentativas. Nomear 5 de 6 partes da planta produtivamente em 7
+    de 10 tentativas. Articular a função de cada parte ('a raiz pega
+    água + segura a planta'; 'a folha faz comida da luz do sol') em
+    6 de 10 tentativas. Reconhecer exemplos brasileiros canônicos
+    (mandioca = raiz; folha de bananeira = folha; flor de ipê = flor;
+    açaí + cupuaçu = frutos) em 7 de 10 tentativas.
+
+    Diferenciação:
+      - Pré-K (3-5 anos): 4 partes principais (raiz, caule, folha,
+        flor); receptivo + produtivo limitado.
+      - Educação infantil (5-7 anos): 6 partes; receptivo + produtivo;
+        articulação de função de 4 de 6 partes.
+      - 1º ano em diante: estender para fotossíntese (folhas + luz
+        solar); polinização (flores + abelhas + beija-flores —
+        Brasil tem rica polinização por beija-flores). Ponte para
+        ciclo-de-vida-da-planta (Arco 10 describe-plant-life-cycle).
+
+compositionalRationale:
+  pt: |
+    Fio principal: mundo-conhecimento / seres-vivos (partes da
+    planta). Fio secundário: aquisição de vocabulário (vocabulário-
+    de-partes-de-planta + adjetivos descritivos pt-BR). Fio terciário:
+    classificação + categorização (sortear partes-de-planta em
+    categorias funcionais).
+
+    Significância arquitetural: aprofunda o fio seres-vivos 4/6 →
+    5/6. Seres-vivos em pt-BR aproveita a biodiversidade brasileira
+    rica: o Brasil contém ~20% das espécies-de-plantas do mundo;
+    crianças brasileiras crescem cercadas por flora tropical
+    significativa.
+
+    Especificidade pt-BR: a flora brasileira oferece exemplos
+    distintos para cada parte da planta:
+    - **Raiz canônica:** mandioca (Manihot esculenta) — raiz-tubérculo
+      central da culinária brasileira (farinha + tapioca + polvilho);
+      cenoura como secundária; raiz de feijão para experimento
+      visível.
+    - **Caule canônico:** bananeira (que é tecnicamente uma erva
+      gigante, não árvore — bom ponto-de-discussão); cana-de-açúcar
+      (caule comestível); abacaxizeiro (caule-roseta).
+    - **Folha canônica:** folha de bananeira (folha enorme + uso
+      culinário em pamonhas + barreado); samambaia (folha
+      característica do bioma Mata-Atlântica); manjericão (folha-
+      culinária frequente).
+    - **Flor canônica:** ipê-amarelo + ipê-roxo (árvores-símbolo
+      brasileiras); hibisco (flor-de-jardim brasileiro); flor-de-
+      maracujá (flor exótica + emblemática); rosa (universal mas
+      pt-canônica).
+    - **Fruto canônico:** açaí + cupuaçu + jabuticaba + pitanga
+      (frutos amazônicos + cerrado + mata-atlântica brasileiros);
+      manga + abacaxi + banana (frutos tropicais-canônicos);
+      maracujá.
+    - **Semente canônica:** feijão (semente-base do feijão-com-arroz
+      brasileiro; visível, plantável em algodão úmido para
+      experimento); milho (canônico em pamonhas + curau);
+      castanha-do-Pará (semente-amazônica icônica).
+
+    Crianças brasileiras frequentemente têm experiência prática com
+    plantar feijão ou milho em algodão úmido — atividade canônica
+    da educação infantil brasileira. Este pacote constrói sobre essa
+    experiência familiar.
+
+    Currículo BNCC EI03ET01 + 1º ano EF01CI01: explorar características
+    + necessidades de seres vivos; identificar diferenças + semelhanças
+    entre seres vivos.
+
+    Substrato Class B FLEXIBLE: composta contra temas de plantas +
+    flores + frutos + vegetais. Substrato-prontidão universal.

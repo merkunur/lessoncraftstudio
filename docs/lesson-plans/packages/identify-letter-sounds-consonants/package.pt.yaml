@@ -1,0 +1,120 @@
+# Teaching package — identify consonant letter sounds (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 13 Phase 3 per Arc 3 Phase 1 sparse-override pattern).
+# pt sparse-override for early-literacy / letter-recognition strand.
+# Pt-BR consonant inventory distinct from en — includes nh, lh, ç,
+# rr digraphs + cedilla; no letters K, W, Y in core alphabet (only
+# in foreign words). BR-MEC educação infantil register per CLAUDE.md
+# §6 + formal "você" address per §17.9.
+
+title:
+  pt: "Sons das Consoantes — que som faz a letra B?"
+description:
+  pt: "Pacote de letramento inicial para a educação infantil / 1º ano que ensina sons de letras consoantes. Constrói sobre o trabalho de reconhecimento-de-letras dos Arcos 9-12 + a base read-cvc-words do Arco 12. RESOLVE o indicador adiante do Arco 12 match-uppercase-lowercase ('aprender SONS DAS LETRAS — o que cada letra SOA na próxima vez'). As crianças associam cada letra consoante a seu fonema primário. Especificidade pt-BR: o inventário de consoantes pt-BR difere do inglês — inclui dígrafos NH (sonho), LH (filha), CH (chave), RR (carro), cedilha (Ç → ração); letras K, W, Y são raras (somente em palavras estrangeiras: kiwi, walkie-talkie, yôga). 5 exercícios + 7 materiais imprimíveis em uma unidade de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Rotina de letra-e-som com toda a turma. A professora ou o
+      professor exibe B + diz: "B faz o som /b/. /b/-/b/-/b/. Bola.
+      Banana. Bicicleta. Todos começam com /b/." A turma repete em
+      coro. Repita com D, F, M, S, T — consoantes mais frequentes em
+      pt-BR. Reforça o mapeamento letra-som + fornece palavras-âncora
+      para cada letra. Especificidade pt-BR: dê especial atenção a
+      consoantes pt-BR-específicas — Ç (ração, cabeça), NH (sonho,
+      banha), LH (filho, palha), RR (carro, ferro). Estes dígrafos
+      NÃO existem em inglês + são fundacionais para pt-BR letrado.
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de som-e-encontre. Cada dupla
+      recebe 8 cartas de imagem. A dupla alterna: a criança A diz um
+      som de letra (/m/); a criança B encontra uma imagem que começa
+      com aquele som (mãe). Refraseie os erros com explicação ("você
+      escolheu o gato — vamos ouvir: gato começa com /g/. Encontre
+      uma imagem que comece com /m/ — mãe, mão, macarrão"). Extensão
+      pt-BR: incluir cartas com consoantes pt-BR-específicas —
+      cachorro (CH /sh/), filho (LH /ʎ/), sonho (NH /ɲ/), açaí (Ç
+      /s/), carro (RR /h/ ou /r/-vibrante regional).
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios alphabet-
+      train. Estação 2: folha de exercícios de emparelhamento (letra
+      para imagem-âncora). Estação 3: word-guess (as crianças
+      preenchem letras consoantes a partir de pistas de som). Estação
+      4: vocabulary-tracing-strips com palavras pt-BR-canônicas
+      contendo dígrafos especiais (filho, sonho, cachorro, açaí,
+      carro). Especificidade pt-BR: incluir trilhas de traço para
+      Ç + NH + LH + CH + RR para automatizar os dígrafos especiais
+      junto com letras simples.
+  closure:
+    body: |
+      Quiz-de-som com toda a turma. A professora ou o professor nomeia
+      uma letra consoante; a turma faz seu som + nomeia uma palavra-
+      âncora. Indicador adiante: "Hoje aprendemos sons de consoantes.
+      Quando voltarmos na próxima vez, aprenderemos SONS DAS VOGAIS
+      — A, E, I, O, U — que funcionam de forma diferente porque cada
+      vogal pt-BR tem MAIS de um som (a-aberta / a-nasal / e-aberto /
+      e-fechado / e-nasal / o-aberto / o-fechado / o-nasal). O
+      português é mais rico em sons vocálicos do que o inglês."
+
+assessmentCriteria:
+  pt: |
+    Produzir sons para 18 de 21 letras consoantes em 8 de 10
+    tentativas. Combinar som consoante a imagem que começa com aquele
+    som em 7 de 10 tentativas. Identificar som inicial de consoante
+    de palavra NOVA (não-familiar) em 6 de 10 tentativas. Reconhecer
+    + produzir sons dos dígrafos pt-BR-específicos (NH, LH, CH, RR,
+    Ç) em 5 de 10 tentativas.
+
+    Diferenciação:
+      - Pré-K (3-5 anos): 8 consoantes mais frequentes (B, D, F, M,
+        P, S, T, K) + introdução receptiva a NH/LH.
+      - Educação infantil (5-7 anos): todas 18 consoantes do
+        alfabeto pt-BR + 5 dígrafos especiais (NH, LH, CH, RR, Ç).
+      - 1º ano em diante: estender para identify-letter-sounds-vowels
+        com vogais nasais pt-BR (mãe, pão, lã); ponte para
+        consonantal-blend phonics work (CR, BL, PR, TR, GR).
+
+compositionalRationale:
+  pt: |
+    Fio principal: letramento inicial / reconhecimento de letras
+    (associação letra-consoante-som). Fio secundário: phonics-decoding
+    (base para decodificação de palavras). Fio terciário: aquisição
+    de vocabulário (palavras-âncora por letra).
+
+    Significância arquitetural: aprofunda o fio de reconhecimento-
+    de-letras 4/6 → 5/6. RESOLVE o indicador adiante do Arco 12
+    match-uppercase-lowercase. O trabalho letra-som é a ponte
+    canônica do reconhecimento-de-letras (saber formas de letras)
+    para phonics-decoding (usar sons de letras para ler palavras).
+
+    Especificidade pt-BR: o sistema fonológico pt-BR contém
+    consoantes específicas que requerem aprendizado-explícito
+    distinto:
+    - **NH /ɲ/** — único do português + galego entre línguas
+      ocidentais comuns. Exemplos: sonho, banheiro, ninho. Som
+      similar ao GN italiano (gnocchi) ou Ñ espanhol (niño).
+    - **LH /ʎ/** — palatal lateral. Exemplos: filho, palha,
+      molhar. Som similar ao GL italiano (figlio) ou LL espanhol
+      (em alguns dialetos: llave).
+    - **CH /ʃ/** — fricativa pós-alveolar. Exemplos: chave,
+      chocolate, chuva. Som idêntico ao SH inglês (shoe).
+    - **RR /h/ ou /x/ ou vibrante /r/** — variação regional
+      significativa: /h/ em SP/RJ (carro como 'caho'); /r/-vibrante
+      em SC/RS + algumas regiões nordestinas; /x/ em alguns
+      registros formais.
+    - **Ç /s/** — cedilha; só antes de A, O, U. Exemplos: ração,
+      caçar, açaí, peço, açúcar.
+
+    Crianças brasileiras tipicamente aprendem estes dígrafos
+    naturalmente através de imersão na fala antes do letramento
+    formal — a tarefa do letramento é mapear sons já-conhecidos a
+    representações ortográficas específicas.
+
+    Currículo BNCC EI03EF09 + 1º ano EF01LP06: identificar relações
+    grafema-fonema; reconhecer + escrever palavras com diferentes
+    estruturas silábicas + dígrafos pt-BR-específicos.
+
+    Substrato Class B FLEXIBLE: composta contra a amplitude da
+    biblioteca de imagens. As crianças praticam letras-sons em
+    vocabulário pt-BR familiar.

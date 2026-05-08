@@ -1077,7 +1077,8 @@
     "moreType": "Mais fichas de {type}",
     "moreTheme": "Mais fichas com tema {theme}",
     "moreLevel": "Mais fichas para {level}",
-    "browseAll": "Ver todas as fichas"
+    "browseAll": "Ver todas as fichas",
+    "suggestionsHeader": "Experimente um destes a seguir:"
   },
   "topicPage": {
     "meta": {

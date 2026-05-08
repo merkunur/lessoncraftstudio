@@ -793,7 +793,8 @@
     "moreType": "More {type} worksheets",
     "moreTheme": "More {theme}-themed worksheets",
     "moreLevel": "More worksheets for {level}",
-    "browseAll": "Browse all worksheets"
+    "browseAll": "Browse all worksheets",
+    "suggestionsHeader": "Try one of these next:"
   },
   "collections": {
     "meta": {

@@ -1056,7 +1056,8 @@
     "moreType": "Lisää {type}-tehtäviä",
     "moreTheme": "Lisää {theme}-aiheisia tehtäviä",
     "moreLevel": "Lisää tehtäviä luokalle {level}",
-    "browseAll": "Selaa kaikkia tehtäviä"
+    "browseAll": "Selaa kaikkia tehtäviä",
+    "suggestionsHeader": "Kokeile yhtä näistä seuraavaksi:"
   },
   "topicPage": {
     "meta": {

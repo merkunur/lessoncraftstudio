@@ -208,7 +208,10 @@ function apply(opts) {
   note('<!-- HREFLANG_INSERTION_POINT -->', 'v1 empty', '', false);
 
   // 14. __DECK_END_SUGGESTIONS_HEADER__ (Commission B Phase 2)
-  var rDeckEndHeader = i18n.resolve(locale, 'deckEndSuggestionsHeader', 'Try one of these next:');
+  // Key path: endDeck.suggestionsHeader — alongside other endDeck.* keys
+  // in messages/<locale>.json. The translations-shared.js sibling carries
+  // the same string for browser-side runtime use; both kept in sync.
+  var rDeckEndHeader = i18n.resolve(locale, 'endDeck.suggestionsHeader', 'Try one of these next:');
   note('__DECK_END_SUGGESTIONS_HEADER__', rDeckEndHeader.source, rDeckEndHeader.value, rDeckEndHeader.fallbackFired,
     rDeckEndHeader.fallbackFired ? 'fell back to ' + rDeckEndHeader.source : null);
 

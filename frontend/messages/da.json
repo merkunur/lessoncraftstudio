@@ -1064,7 +1064,8 @@
     "moreType": "Flere {type}-arbejdsark",
     "moreTheme": "Flere arbejdsark med tema {theme}",
     "moreLevel": "Flere arbejdsark til {level}",
-    "browseAll": "Gennemse alle arbejdsark"
+    "browseAll": "Gennemse alle arbejdsark",
+    "suggestionsHeader": "Prøv en af disse næst:"
   },
   "topicPage": {
     "meta": {

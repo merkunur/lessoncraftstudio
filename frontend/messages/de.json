@@ -884,7 +884,8 @@
     "moreType": "Mehr {type}-Arbeitsblätter",
     "moreTheme": "Mehr {theme}-Arbeitsblätter",
     "moreLevel": "Mehr Arbeitsblätter für {level}",
-    "browseAll": "Alle Arbeitsblätter durchsuchen"
+    "browseAll": "Alle Arbeitsblätter durchsuchen",
+    "suggestionsHeader": "Probiere als Nächstes eines davon:"
   },
   "collections": {
     "meta": {

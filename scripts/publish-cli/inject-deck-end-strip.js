@@ -46,6 +46,11 @@ var ALL_LOCALES = ['en', 'de', 'es', 'nl', 'fr', 'it', 'pt', 'sv', 'da', 'no', '
 // Parse command-line flags.
 var argv = process.argv.slice(2);
 var DRY_RUN = argv.includes('--dry-run');
+// --rewrite: corrective mode. Strips existing strip + un-hide guard from each
+// deck.html (if present), then re-injects with current code's logic. Used to
+// repair already-retrofitted decks after a structural fix in the script
+// (e.g., i18n key correction; empty-suggestions handling).
+var REWRITE = argv.includes('--rewrite');
 var localeFlag = argv.find(function (a) { return a.indexOf('--locale=') === 0; });
 var TARGET_LOCALE = localeFlag ? localeFlag.split('=')[1] : null;
 var limitFlag = argv.find(function (a) { return a.indexOf('--limit=') === 0; });
@@ -54,9 +59,14 @@ var TARGET_LIMIT = limitFlag ? parseInt(limitFlag.split('=')[1], 10) : Infinity;
 // Build the strip HTML structure (mirror buildDeckEndSuggestionsPlaceholder
 // from REFERENCE TRANSLATIONS/catalog-export.js, but inline so this script
 // has no operator-PC dependency on catalog-export.js loading).
-function buildStripWithCss() {
+// `slotCount` controls how many <li> tiles get rendered. F1 dynamic-slot
+// behavior: caller skips injection entirely when `slotCount === 0`; renders
+// only available tiles when `slotCount` < 6 (avoids raw __SUGGESTION_
+// placeholder leakage into the SEO-indexable HTML for thin-substrate locales
+// like 'no' with 1 published deck — only-self → 0 suggestions → strip omitted).
+function buildStripWithCss(slotCount) {
   var slots = [];
-  for (var i = 1; i <= 6; i++) {
+  for (var i = 1; i <= slotCount; i++) {
     slots.push(
       '    <li><a href="__SUGGESTION_' + i + '_URL__" class="lcs-deckend-tile">' +
       '<img src="__SUGGESTION_' + i + '_THUMB__" alt="" class="lcs-deckend-thumb">' +
@@ -93,24 +103,23 @@ function buildStripWithCss() {
   return html;
 }
 
-// Substitute 19 placeholders in the strip HTML with localized header + 6 suggestions.
+// Substitute placeholders in the strip HTML with localized header + N suggestions.
+// `suggestions.length` defines slot count (matches buildStripWithCss(slotCount)).
 function substituteStripPlaceholders(stripHtml, locale, suggestions) {
-  // 1. Header
-  var headerResolution = i18n.resolve(locale, 'deckEndSuggestionsHeader', 'Try one of these next:');
+  // 1. Header — i18n key endDeck.suggestionsHeader (alongside other endDeck.* keys
+  //    in messages/<locale>.json per Phase 2 wiring fix).
+  var headerResolution = i18n.resolve(locale, 'endDeck.suggestionsHeader', 'Try one of these next:');
   var html = stripHtml.split('__DECK_END_SUGGESTIONS_HEADER__').join(headerResolution.value);
-  // 2. 6 × URL/TITLE/THUMB triplets
-  for (var i = 0; i < 6; i++) {
+  // 2. N × URL/TITLE/THUMB triplets (one per suggestion)
+  for (var i = 0; i < suggestions.length; i++) {
     var slot = suggestions[i];
     var urlPh = '__SUGGESTION_' + (i + 1) + '_URL__';
     var titlePh = '__SUGGESTION_' + (i + 1) + '_TITLE__';
     var thumbPh = '__SUGGESTION_' + (i + 1) + '_THUMB__';
-    if (slot) {
-      var titleLocalized = (slot.title && (slot.title[locale] || slot.title.en)) || slot.slug;
-      html = html.split(urlPh).join(slot.canonicalURL || ('/' + slot.language + '/decks/' + slot.slug + '/'));
-      html = html.split(titlePh).join(titleLocalized);
-      html = html.split(thumbPh).join(slot.thumbnailUrl || '');
-    }
-    // else: placeholders left raw (graceful degradation)
+    var titleLocalized = (slot.title && (slot.title[locale] || slot.title.en)) || slot.slug;
+    html = html.split(urlPh).join(slot.canonicalURL || ('/' + slot.language + '/decks/' + slot.slug + '/'));
+    html = html.split(titlePh).join(titleLocalized);
+    html = html.split(thumbPh).join(slot.thumbnailUrl || '');
   }
   return html;
 }
@@ -123,16 +132,55 @@ var UN_HIDE_GUARD_JS =
   'var mi=celebrationEl.querySelector(".lcs-celebration__inner");' +
   'if(mi){stripEl.hidden=false;mi.appendChild(stripEl);}}}';
 
+// Strip out a previously-injected strip HTML block + un-hide guard JS.
+// Returns the cleaned content. Used by --rewrite mode for corrective re-inject.
+function removeExistingStripAndGuard(content) {
+  // 1. Remove strip block: from <style> tag preceding lcs-deckend-suggestions
+  //    section through to next <div class="lcs-celebration" anchor.
+  var stripStart = content.indexOf('<style>.lcs-deckend-suggestions{');
+  if (stripStart !== -1) {
+    var celIdx = content.indexOf('<div class="lcs-celebration"', stripStart);
+    if (celIdx !== -1) {
+      content = content.substring(0, stripStart) + content.substring(celIdx);
+    }
+  }
+  // 2. Remove un-hide guard JS fragment.
+  content = content.split(UN_HIDE_GUARD_JS).join('');
+  return content;
+}
+
 // Per-deck retrofit logic.
 function injectStripIntoDeckHtml(deckHtmlContent, locale, suggestions) {
-  // Idempotency check: skip if strip already present
-  if (deckHtmlContent.indexOf('lcs-deckend-suggestions') !== -1) {
+  var hadExistingStrip = deckHtmlContent.indexOf('lcs-deckend-suggestions') !== -1;
+
+  if (hadExistingStrip && !REWRITE) {
+    // Idempotency check: skip if strip already present (default mode)
     return { changed: false, alreadyApplied: true };
   }
+  if (hadExistingStrip && REWRITE) {
+    // Corrective mode: strip the prior injection so we can re-inject with
+    // current code's logic (i18n key fix, dynamic-slot count, etc.).
+    deckHtmlContent = removeExistingStripAndGuard(deckHtmlContent);
+  }
 
-  // 1. Build strip HTML + substitute placeholders
-  var stripHtml = buildStripWithCss();
-  var substitutedStrip = substituteStripPlaceholders(stripHtml, locale, suggestions);
+  // Empty-suggestions short-circuit: thin-substrate locales (e.g., 'no' with
+  // 1 published deck) return [] from selectDeckEndSuggestions because all
+  // strategies require >=1 OTHER deck. Skip injection entirely rather than
+  // emit an empty/raw-placeholder strip.
+  if (!suggestions || suggestions.length === 0) {
+    if (hadExistingStrip && REWRITE) {
+      // We removed the existing (broken) strip and there's nothing to put
+      // back. Write the cleaned content out.
+      return { changed: true, alreadyApplied: false, content: deckHtmlContent, rewroteAsRemoved: true };
+    }
+    return { changed: false, alreadyApplied: false, skippedEmpty: true };
+  }
+
+  // 1. Build strip HTML (slot count = suggestions.length, capped at 6) +
+  //    substitute placeholders
+  var slotCount = Math.min(suggestions.length, 6);
+  var stripHtml = buildStripWithCss(slotCount);
+  var substitutedStrip = substituteStripPlaceholders(stripHtml, locale, suggestions.slice(0, slotCount));
 
   // 2. Inject strip HTML before `<div class="lcs-celebration"`
   var celebrationAnchor = '<div class="lcs-celebration"';
@@ -199,6 +247,9 @@ async function processDeck(locale, slug) {
   if (result.alreadyApplied) {
     return { ok: true, alreadyApplied: true, suggestionCount: suggestions.length };
   }
+  if (result.skippedEmpty) {
+    return { ok: true, skippedEmpty: true, suggestionCount: suggestions.length };
+  }
   if (result.changed) {
     if (!DRY_RUN) {
       atomicWrite(deckHtmlPath, result.content);
@@ -210,7 +261,7 @@ async function processDeck(locale, slug) {
 
 async function main() {
   console.log('=== F1 inject-deck-end-strip ===');
-  console.log('mode:    ' + (DRY_RUN ? 'DRY-RUN' : 'WRITE'));
+  console.log('mode:    ' + (DRY_RUN ? 'DRY-RUN' : 'WRITE') + (REWRITE ? ' (rewrite=ON)' : ''));
   console.log('locale:  ' + (TARGET_LOCALE || 'all 11'));
   console.log('limit:   ' + (TARGET_LIMIT === Infinity ? 'no limit' : TARGET_LIMIT));
   console.log('');
@@ -223,6 +274,7 @@ async function main() {
   var totalProcessed = 0;
   var totalApplied = 0;
   var totalAlreadyApplied = 0;
+  var totalSkippedEmpty = 0;
   var totalFailed = 0;
   var failures = [];
   var perLocaleStats = {};
@@ -241,7 +293,7 @@ async function main() {
       // We want the bare slug symlinks.
       return !/-v\d+$/.test(name);
     });
-    perLocaleStats[locale] = { total: slugs.length, applied: 0, alreadyApplied: 0, failed: 0 };
+    perLocaleStats[locale] = { total: slugs.length, applied: 0, alreadyApplied: 0, skippedEmpty: 0, failed: 0 };
     console.log('[' + locale + '] ' + slugs.length + ' deck symlinks');
     for (var si = 0; si < slugs.length; si++) {
       if (totalProcessed >= TARGET_LIMIT) break;
@@ -256,6 +308,9 @@ async function main() {
         } else if (r.alreadyApplied) {
           totalAlreadyApplied++;
           perLocaleStats[locale].alreadyApplied++;
+        } else if (r.skippedEmpty) {
+          totalSkippedEmpty++;
+          perLocaleStats[locale].skippedEmpty++;
         } else {
           totalApplied++;
           perLocaleStats[locale].applied++;
@@ -274,12 +329,13 @@ async function main() {
   console.log('  processed:           ' + totalProcessed);
   console.log('  applied:             ' + totalApplied);
   console.log('  already-applied:     ' + totalAlreadyApplied);
+  console.log('  skipped-empty:       ' + totalSkippedEmpty);
   console.log('  failed:              ' + totalFailed);
   console.log('');
   console.log('=== per-locale ===');
   Object.keys(perLocaleStats).forEach(function (loc) {
     var s = perLocaleStats[loc];
-    console.log('  ' + loc + ':  total=' + s.total + ' applied=' + s.applied + ' already=' + s.alreadyApplied + ' failed=' + s.failed);
+    console.log('  ' + loc + ':  total=' + s.total + ' applied=' + s.applied + ' already=' + s.alreadyApplied + ' skipped-empty=' + s.skippedEmpty + ' failed=' + s.failed);
   });
   if (failures.length > 0) {
     console.log('');

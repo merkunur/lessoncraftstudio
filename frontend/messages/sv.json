@@ -1067,7 +1067,8 @@
     "moreType": "Fler {type}-arbetsblad",
     "moreTheme": "Fler arbetsblad med tema {theme}",
     "moreLevel": "Fler arbetsblad för {level}",
-    "browseAll": "Bläddra bland alla arbetsblad"
+    "browseAll": "Bläddra bland alla arbetsblad",
+    "suggestionsHeader": "Prova en av dessa härnäst:"
   },
   "topicPage": {
     "meta": {

@@ -1071,7 +1071,8 @@
     "moreType": "Flere {type}-arbeidsark",
     "moreTheme": "Flere arbeidsark med tema {theme}",
     "moreLevel": "Flere arbeidsark for {level}",
-    "browseAll": "Bla gjennom alle arbeidsark"
+    "browseAll": "Bla gjennom alle arbeidsark",
+    "suggestionsHeader": "Prøv en av disse neste:"
   },
   "topicPage": {
     "meta": {

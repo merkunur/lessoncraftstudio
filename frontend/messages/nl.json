@@ -740,7 +740,8 @@
     "moreType": "Meer {type}-werkbladen",
     "moreTheme": "Meer werkbladen met thema {theme}",
     "moreLevel": "Meer werkbladen voor {level}",
-    "browseAll": "Bekijk alle werkbladen"
+    "browseAll": "Bekijk alle werkbladen",
+    "suggestionsHeader": "Probeer hierna een van deze:"
   },
   "collections": {
     "meta": {

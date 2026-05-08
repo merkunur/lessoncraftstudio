@@ -1087,7 +1087,8 @@
     "moreType": "Plus de fiches {type}",
     "moreTheme": "Plus de fiches sur le thème {theme}",
     "moreLevel": "Plus de fiches pour {level}",
-    "browseAll": "Parcourir toutes les fiches"
+    "browseAll": "Parcourir toutes les fiches",
+    "suggestionsHeader": "Essaie l'un de ceux-ci ensuite :"
   },
   "topicPage": {
     "meta": {

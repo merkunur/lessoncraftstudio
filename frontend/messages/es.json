@@ -753,7 +753,8 @@
     "moreType": "Más fichas de {type}",
     "moreTheme": "Más fichas con tema de {theme}",
     "moreLevel": "Más fichas para {level}",
-    "browseAll": "Explorar todas las fichas"
+    "browseAll": "Explorar todas las fichas",
+    "suggestionsHeader": "Prueba uno de estos a continuación:"
   },
   "collections": {
     "meta": {

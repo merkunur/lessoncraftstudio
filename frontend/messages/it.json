@@ -1077,7 +1077,8 @@
     "moreType": "Altre schede di {type}",
     "moreTheme": "Altre schede a tema {theme}",
     "moreLevel": "Altre schede per {level}",
-    "browseAll": "Sfoglia tutte le schede"
+    "browseAll": "Sfoglia tutte le schede",
+    "suggestionsHeader": "Prova uno di questi dopo:"
   },
   "topicPage": {
     "meta": {

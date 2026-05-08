@@ -74,20 +74,26 @@ function buildStripWithCss(slotCount) {
       '</a></li>'
     );
   }
+  // Showreel design: horizontal-scroll grid (all viewports), 140px tile,
+  // portrait-oriented thumbnail matching the source 480×620 PNG aspect.
+  // Replaces the prior 6-column desktop layout that overflowed the
+  // celebration modal at typical desktop widths (operator screenshot
+  // 2026-05-08; rightmost tile bleeding past modal right border).
   var css = [
     '<style>',
-    '.lcs-deckend-suggestions{margin:24px 16px 96px;padding:20px;background:#FFF;border:2px solid #DCE1E6;border-radius:14px}',
+    '.lcs-deckend-suggestions{margin:24px 16px 96px;padding:18px 12px;background:#FFF;border:2px solid #DCE1E6;border-radius:14px;overflow:hidden}',
     '.lcs-deckend-suggestions[hidden]{display:none}',
-    '.lcs-deckend-suggestions h2{font-size:1.15rem;margin:0 0 12px;color:#1C1C1E;text-align:center}',
-    '.lcs-deckend-suggestions ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(6,1fr);gap:10px}',
-    '@media (max-width:767px){.lcs-deckend-suggestions ul{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:140px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px;-webkit-overflow-scrolling:touch}',
+    '.lcs-deckend-suggestions h2{font-size:1.1rem;margin:0 0 14px;color:#1C1C1E;text-align:center}',
+    '.lcs-deckend-suggestions ul{list-style:none;padding:4px 4px 12px;margin:0;display:grid;grid-auto-flow:column;grid-auto-columns:140px;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scroll-padding-left:4px;scrollbar-color:#C9CFD6 transparent}',
     '.lcs-deckend-suggestions ul::-webkit-scrollbar{height:6px}',
-    '.lcs-deckend-suggestions ul::-webkit-scrollbar-thumb{background:#DCE1E6;border-radius:3px}}',
-    '.lcs-deckend-tile{display:flex;flex-direction:column;align-items:center;gap:6px;padding:8px;border-radius:10px;background:#F4F6FB;color:#4E5FE8;text-decoration:none;font-weight:500;transition:background-color .15s,transform .1s;min-height:44px;scroll-snap-align:start}',
-    '.lcs-deckend-tile:hover{background:#E8ECF7;transform:translateY(-2px)}',
+    '.lcs-deckend-suggestions ul::-webkit-scrollbar-track{background:transparent}',
+    '.lcs-deckend-suggestions ul::-webkit-scrollbar-thumb{background:#C9CFD6;border-radius:3px}',
+    '.lcs-deckend-suggestions ul::-webkit-scrollbar-thumb:hover{background:#9AA3AD}',
+    '.lcs-deckend-tile{display:flex;flex-direction:column;align-items:center;gap:8px;padding:10px 8px;border-radius:12px;background:#F4F6FB;color:#4E5FE8;text-decoration:none;font-weight:500;transition:transform .15s,box-shadow .15s,background-color .15s;scroll-snap-align:start;box-shadow:0 1px 3px rgba(0,0,0,0.05)}',
+    '.lcs-deckend-tile:hover{background:#E8ECF7;transform:translateY(-3px);box-shadow:0 6px 14px rgba(78,95,232,0.18)}',
     '.lcs-deckend-tile:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
-    '.lcs-deckend-thumb{display:block;width:100%;max-width:120px;height:80px;object-fit:cover;border-radius:8px;background:#FFF}',
-    '.lcs-deckend-title{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-align:center;font-size:.875rem;line-height:1.3}',
+    '.lcs-deckend-thumb{display:block;width:100%;height:155px;object-fit:cover;object-position:center top;border-radius:8px;background:#FFF;box-shadow:0 1px 4px rgba(0,0,0,0.08)}',
+    '.lcs-deckend-title{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-align:center;font-size:.825rem;line-height:1.3;width:100%}',
     '@media print{.lcs-deckend-suggestions{display:none !important}}',
     '</style>'
   ].join('');
@@ -132,6 +138,18 @@ var UN_HIDE_GUARD_JS =
   'var mi=celebrationEl.querySelector(".lcs-celebration__inner");' +
   'if(mi){stripEl.hidden=false;mi.appendChild(stripEl);}}}';
 
+// Celebration modal widening: 520px → 800px (matches worksheet width per
+// CLAUDE.md aspect-ratio:800/1400). Operator directive 2026-05-08. Idempotent.
+// Applied during --rewrite alongside the strip rewrite. Source REFERENCE APPS
+// also patched for new publishes via scripts/fan-out-celebration-modal-width.js.
+var CELEBRATION_OLD = '.lcs-celebration__inner{position:relative;background:#FFFFFF;border-radius:24px;padding:32px 28px 24px;max-width:520px;width:100%;box-shadow:0 20px 60px rgba(28,28,30,.35);text-align:center;z-index:2}';
+var CELEBRATION_NEW = '.lcs-celebration__inner{position:relative;background:#FFFFFF;border-radius:24px;padding:32px 28px 24px;max-width:800px;width:100%;box-shadow:0 20px 60px rgba(28,28,30,.35);text-align:center;z-index:2}';
+
+function patchCelebrationModalWidth(content) {
+  if (content.indexOf(CELEBRATION_OLD) === -1) return content; // already patched OR shape differs
+  return content.split(CELEBRATION_OLD).join(CELEBRATION_NEW);
+}
+
 // Strip out a previously-injected strip HTML block + un-hide guard JS.
 // Returns the cleaned content. Used by --rewrite mode for corrective re-inject.
 function removeExistingStripAndGuard(content) {
@@ -151,10 +169,22 @@ function removeExistingStripAndGuard(content) {
 
 // Per-deck retrofit logic.
 function injectStripIntoDeckHtml(deckHtmlContent, locale, suggestions) {
+  var originalContent = deckHtmlContent;
+
+  // Patch celebration modal width unconditionally (idempotent; matters when
+  // CSS shape was 520px). Applied across both default and --rewrite modes
+  // because it's an orthogonal correction independent of the strip itself.
+  deckHtmlContent = patchCelebrationModalWidth(deckHtmlContent);
+  var celebrationPatched = deckHtmlContent !== originalContent;
+
   var hadExistingStrip = deckHtmlContent.indexOf('lcs-deckend-suggestions') !== -1;
 
   if (hadExistingStrip && !REWRITE) {
-    // Idempotency check: skip if strip already present (default mode)
+    // Idempotency check: skip strip work if strip already present (default
+    // mode). But if celebration was patched, write that change.
+    if (celebrationPatched) {
+      return { changed: true, alreadyApplied: false, content: deckHtmlContent, celebrationOnly: true };
+    }
     return { changed: false, alreadyApplied: true };
   }
   if (hadExistingStrip && REWRITE) {

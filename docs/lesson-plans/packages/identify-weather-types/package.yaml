@@ -1,0 +1,237 @@
+# Teaching package — identify weather types beyond basic
+# Arc 11 Phase 2 (Option F single-package-strand deepening; world-knowledge
+# / environment-and-weather strand 1/4 → 2/4). Builds on Arc 8 identify-
+# and-name-weather-words (basic weather vocab) + Arc 10 identify-four-
+# seasons (seasonal context).
+
+targetSlug: identify-weather-types
+language: en
+title:
+  en: "Weather Types — sunny, rainy, stormy, foggy, snowy, windy"
+description:
+  en: "Kindergarten / Grade 1 world-knowledge package teaching extended weather-type vocabulary. Builds on Arc 8 identify-and-name-weather-words (basic weather vocab) + Arc 10 identify-four-seasons (seasonal context). Kids learn to distinguish weather types beyond basic: sunny vs partly-cloudy vs cloudy; light-rain vs heavy-rain vs storm; foggy; misty; windy vs gusty. More precise weather vocabulary supports detailed daily-weather-chart observation. Vocab-anchored — extended weather adjectives. Composes against matching + word-guess apps. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class extended-weather routine. Teacher displays 6-8
+      weather-type pictures with more nuance than basic (partly-
+      cloudy vs fully-cloudy; light-rain vs storm; foggy; misty).
+      'These are different KINDS of weather. We already know sunny,
+      rainy, snowy. Today we add more precise words.' Teacher
+      introduces each type. Reinforces that weather has more
+      varieties than the basic set kids know.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + extended-weather routine. Each pair receives 8-10
+      weather-type cards. Pair takes turns: kid A holds up a card;
+      kid B names the weather type AND uses the language frame
+      ('It is partly-cloudy / It is foggy / It is windy'). Recast
+      errors with explanation. Optional extension: kids describe
+      their own weather observations from this week using the new
+      extended vocabulary.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching worksheet (extended
+      weather-type to image). Station 2: bingo with weather caller
+      chips (extended vocabulary). Station 3: manipulative cut-outs
+      hands-on weather-scene construction (kids assemble multi-
+      weather-type scenes — 'a stormy day with lightning' or 'a
+      foggy morning + clearing afternoon'). Station 4: word-guess
+      (kids fill in weather-type letters from picture clues).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class daily-weather chart update — using extended
+      vocabulary. Class names today's weather using more precise
+      words ('It's partly-cloudy + windy today' rather than just
+      'It's cloudy'). Forward-pointer: 'Today we learned more
+      weather types. When we come back to weather work next, we'll
+      explore the DAY-NIGHT cycle — what happens at night that's
+      different from daytime.'
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: weather, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: bingo
+    exerciseMode: image
+    customizationParameters: { cardFill: image, chipFill: image, themeSelect: weather, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: weather, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: weather, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: weather
+      cardCount: 10
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: weather
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: weather
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: it-is
+      imageSource: theme
+      themeName: weather
+      stripCount: 10
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: false
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: weather
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 5
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: weather
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: world-knowledge / environment-and-weather (extended
+    weather-type vocabulary). Secondary strand: vocabulary acquisition
+    (vocab-anchored). Tertiary strand: observation skills (kids
+    develop precision in everyday weather observation).
+
+    Architectural significance: deepens environment-and-weather strand
+    1/4 → 2/4. Builds on Arc 8 weather-words foundation + Arc 10
+    seasons. Extends vocabulary precision — kids who already know
+    'rainy' add 'light-rain', 'storm', 'shower' for more nuanced
+    daily-weather descriptions.
+
+    Distinctive composition: matching + bingo + matching + word-guess
+    + odd-one-out — multi-app composition spans recognition,
+    listening-and-scanning (bingo), recall, exclusion. bingo is
+    second appearance of FIRST-introduction at Arc 8 weather-words —
+    pedagogical pattern carries forward.
+
+    Cross-strand integration: world-knowledge + extended vocabulary
+    + observation skills. Daily-weather-chart routine (from Arc 8)
+    benefits directly from extended vocabulary.
+
+    Class B FLEXIBLE substrate: composes against weather theme. Image-
+    library has weather diversity supporting extended weather-type
+    work.
+
+    K-3 multilingual classroom relevance: extended weather vocabulary
+    is mid-frequency K-3 target — varies by climate region (locales
+    with diverse climates have richer everyday weather vocabulary;
+    locales with stable climates have less). Cross-locale: every K-3
+    classroom can extend basic weather to more nuanced types.
+
+curriculumStandards:
+  - EYFS.ELG.UW
+  - EYFS.ELG.CL
+  - IB-PYP.WhereWeAreInPlaceAndTime
+  - NGSS.K-ESS2-1
+  - CCSS.K.SL.4
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Name 8 of 10 extended weather types in 8 of 10 trials.
+      - Use weather-type frame ('It is partly-cloudy / windy / foggy')
+        in 7 of 10 productive-language attempts.
+      - Distinguish similar weather types (light-rain vs storm; foggy
+        vs misty) in 6 of 10 trials.
+
+    Differentiation:
+    - Pre-K: basic 4 weather types only (sunny, rainy, cloudy, snowy);
+      receptive identification.
+    - K: 8 weather types including extended; productive frame.
+    - Grade 1+: extend to multi-attribute weather descriptions
+      ('partly-cloudy AND windy'); bridge to weather-cycle work
+      (describe-water-cycle-basic Arc 12+ candidate).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

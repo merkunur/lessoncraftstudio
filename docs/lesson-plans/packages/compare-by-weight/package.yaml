@@ -1,0 +1,231 @@
+# Teaching package — compare 2 objects by weight (heavier/lighter)
+# Arc 11 Phase 2 (Option F single-package-strand deepening; early-numeracy
+# / measurement strand 1/9 → 2/9). RESOLVES Arc 9 compare-by-length
+# forward-pointer.
+
+targetSlug: compare-by-weight
+language: en
+title:
+  en: "Compare by Weight — heavier, lighter, or the same?"
+description:
+  en: "Preschool / Kindergarten early-numeracy package teaching weight comparison. Builds on Arc 9 compare-by-length (length-comparison foundation). RESOLVES Arc 9 forward-pointer ('compare WEIGHT next'). Foundational measurement skill: kids compare two objects by weight + use comparative vocabulary (heavier / lighter / same weight). Pre-formal measurement work using direct comparison (lifting + balancing). Vocab-anchored — comparative vocabulary reinforced from compare-by-length pattern. Composes against big-small + matching apps. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class direct-weight-comparison routine. Teacher holds up 2
+      objects (e.g., a feather + a book). 'Which is heavier?' Class
+      identifies the book. 'Which is lighter?' Class identifies the
+      feather. Teacher says: 'Lifting tells us about weight — heavy
+      things make our arm tired; light things feel like nothing.'
+      Repeat with 4-5 pairs of varying weight difference. Reinforces
+      direct-comparison-by-lifting as foundation for weight reasoning.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + lift-and-compare routine. Each pair receives 6-8
+      objects of varying weight (paper-cut representations OR real
+      classroom objects — feather, pencil, book, rock-shaped
+      manipulative). Pair compares each item against a reference
+      using the comparative frame: 'The book is heavier than the
+      feather.' Recast errors with explanation ('you said the book
+      is light — let's compare it to something. The book is heavier
+      than what? The book is heavier than the feather. Use heavier
+      WITH than X so we know what we're comparing'). Optional
+      extension: kids order 3 objects lightest to heaviest using
+      direct comparison.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: big-small worksheet (kids identify
+      bigger/smaller — sibling concept; many physical big things are
+      ALSO heavy + small things light, but exceptions exist). Station
+      2: matching worksheet (image-name pairs reinforce vocabulary).
+      Station 3: manipulative cut-outs hands-on weight-ordering (kids
+      use object-cut-outs to order from lightest to heaviest).
+      Station 4: sentence-strips (kids fill in comparative sentences
+      using 'heavier' / 'lighter' / 'same weight').
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class quick-recall. Teacher displays 4 objects of varying
+      weight; class collectively orders them lightest to heaviest.
+      Forward-pointer: 'Today we compared 2 things by weight. When
+      we come back to measuring next, we'll compare CAPACITY — which
+      container holds MORE — using cups + bowls + buckets.'
+
+composedExercises:
+  - appName: big-small
+    exerciseMode: find-one
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: big-small
+    exerciseMode: find-one
+    customizationParameters: { themeSelect: vehicles, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: vehicles, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: production-prompt
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: vehicles
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: early-numeracy / measurement (weight comparison).
+    Secondary strand: vocabulary acquisition (vocab-anchored —
+    comparative vocab heavier/lighter/same-weight). Tertiary strand:
+    physical-reasoning (kids develop intuition that weight is
+    physically distinct from size).
+
+    Architectural significance: deepens measurement strand from
+    1/9 → 2/9. RESOLVES Arc 9 compare-by-length forward-pointer to
+    weight + capacity. Measurement progression: length (Arc 9) →
+    weight (this package) → capacity (Arc 12+ candidate).
+
+    Distinctive composition: 2 big-small exercises (find-one mode) +
+    2 matching exercises + 1 odd-one-out. Sibling structural template
+    to Arc 9 compare-by-length — same composition pattern, different
+    measurement dimension.
+
+    Cross-strand integration: measurement + comparative grammar
+    (linguistic) + physical reasoning (intuitive). The package
+    leverages Arc 9 compare-by-length comparative-grammar work as
+    grammatical foundation; new content is the WEIGHT dimension.
+
+    Class B FLEXIBLE substrate: composes against image-library breadth.
+    Weight comparisons work with ANY 2 objects of distinct weight.
+
+    K-3 multilingual classroom relevance: comparative grammar
+    structures ('heavier than' / 'lighter than') are mid-frequency
+    K-3 grammatical targets across all 11 platform locales. Cognate-
+    rich for Romance: heavier/más pesado/mais pesado/più pesante.
+
+curriculumStandards:
+  - CCSS.K.MD.A.1
+  - CCSS.K.MD.A.2
+  - EYFS.ELG.M
+  - IB-PYP.HowTheWorldWorks
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Identify which of 2 objects is heavier/lighter in 8 of 10
+        trials.
+      - Use comparative frame ('the X is heavier than the Y') in 7
+        of 10 productive-language attempts.
+      - Order 3 objects lightest-to-heaviest in 6 of 10 attempts.
+
+    Differentiation:
+    - Pre-K: 2-object direct comparison only; productive vocab limited
+      to 'heavier' / 'lighter'.
+    - K: 2-3 object comparison + comparative-grammar frame.
+    - Grade 1+: extend to weight-with-units (informal); bridge to
+      compare-by-capacity (Arc 12+ candidate) + scale-based weight.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

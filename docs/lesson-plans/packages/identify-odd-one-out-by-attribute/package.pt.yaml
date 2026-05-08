@@ -1,0 +1,100 @@
+# Teaching package — identify the odd one out by attribute (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 8 Phase 3 per Arc 3 Phase 1 sparse-override pattern).
+# pt sparse-override for cognitive-and-executive-function / logical-reasoning
+# strand. Sibling pair with identify-odd-one-out-by-category.pt (Arc 7 Phase 3).
+# BR Portuguese register per CLAUDE.md §6 (pt = BR canonical); formal "você"
+# address per §17.9.
+
+title:
+  pt: "Quem é o diferente (por atributo) — encontre o item que parece diferente"
+description:
+  pt: "Pacote de função cognitiva e executiva para o jardim de infância que ensina o raciocínio de exclusão por atributo visual (cor, forma, tamanho). Pacote irmão de identify-odd-one-out-by-category (Arco 7 Fase 2): mesma estrutura de raciocínio de exclusão aplicada à diferença de ATRIBUTO em vez de pertencimento de CATEGORIA. As crianças identificam qual item entre 4-5 da mesma categoria tem cor, forma ou tamanho diferente do resto. Resolve o indicador adiante do Arco 7 de categoria → atributo. Ancorado em vocabulário."
+
+structure:
+  warmup:
+    body: |
+      Introdução com toda a turma. A professora ou o professor coloca 4
+      recortes de papel no tapete: 3 maçãs vermelhas + 1 maçã verde. "As
+      quatro são maçãs — qual delas parece diferente?" A turma identifica
+      a verde. "Por quê?" Discussão: as crianças articulam o raciocínio
+      de atributo ("as outras são vermelhas; esta é verde"). Repita com
+      forma (3 círculos + 1 quadrado; mesma cor) e tamanho (3 pequenos
+      + 1 grande; mesma cor e forma). Reforça a consciência de atributo
+      como dimensão de diferença, construindo sobre identify-odd-one-
+      out-by-category (Arco 7).
+  contentActivity:
+    body: |
+      Rotina de mural de bolso. A professora ou o professor exibe 5-6
+      conjuntos de contraste de atributo nas três dimensões (cor, forma,
+      tamanho). A turma identifica o item diferente + nomeia o atributo
+      que o torna diferente. Trabalho em duplas: a criança A constrói
+      um conjunto de contraste de atributo com recortes manipulativos
+      (por exemplo, 3 estrelas grandes + 1 estrela pequena); a criança
+      B identifica o diferente + nomeia o atributo. Refraseie os erros
+      com explicação. Prática de vocabulário embutida — as crianças
+      reforçam palavras de cor / forma / tamanho enquanto raciocinam
+      sobre diferença de atributo.
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios odd-one-out
+      (as crianças identificam o item diferente por atributo + circulam).
+      Estação 2: folha de exercícios de emparelhamento (imagem-nome
+      reforça o vocabulário-base ao qual a diferença de atributo é
+      aplicada). Estação 3: construção prática de odd-one-out por
+      atributo com recortes manipulativos (as crianças constroem
+      conjuntos de contraste de atributo; o parceiro resolve;
+      verbaliza o atributo que torna o diferente diferente).
+  closure:
+    body: |
+      Recordação rápida com toda a turma. A professora ou o professor
+      exibe um conjunto final de contraste de atributo; a turma
+      identifica coletivamente o diferente + nomeia o atributo.
+      Indicador adiante: "Hoje encontramos o diferente por atributo —
+      cor, forma ou tamanho. Quando voltarmos aos quebra-cabeças na
+      próxima vez, encontraremos o diferente por MÚLTIPLOS atributos —
+      conjuntos onde a diferença é mais difícil de encontrar porque
+      dois atributos mudam ao mesmo tempo."
+
+assessmentCriteria:
+  pt: |
+    Identificar o item diferente em conjuntos de 4 itens com contraste
+    de atributo em 8 de 10 tentativas. Articular o raciocínio de atributo
+    ("as outras são X; esta é Y") em 6 de 10 tentativas. Nomear a
+    dimensão do atributo (cor/forma/tamanho) em 7 de 10 tentativas.
+
+    Diferenciação:
+      - Pré-K: conjuntos de 3 itens com forte contraste de atributo único
+        (por exemplo, 2 vermelhos + 1 azul; mesma forma e tamanho).
+      - K: conjuntos de 4 itens nas 3 dimensões de atributo
+        independentemente.
+      - Primeiro ano em diante: conjuntos de 4-5 itens com diferenças de
+        atributo mais sutis; ponte para sort-by-multiple-attributes
+        (Arco 8 Fase 1 irmão) onde 2 atributos mudam simultaneamente.
+
+compositionalRationale:
+  pt: |
+    Fio principal: função cognitiva e executiva / raciocínio lógico.
+    Fio secundário: aquisição de vocabulário (ancorado em vocabulário —
+    palavras de cor + forma + tamanho reforçadas através do raciocínio
+    por atributo). Fio terciário: discriminação de atributo +
+    verbalização (as crianças devem articular QUAL atributo torna o
+    diferente diferente — cor? forma? tamanho? — desenvolve vocabulário
+    metacognitivo sobre propriedades visuais).
+
+    Pacote irmão de identify-odd-one-out-by-category (Arco 7 Fase 2):
+    mesma arquitetura de raciocínio de exclusão aplicada a ATRIBUTO em
+    vez de CATEGORIA. Juntos o par completa o eixo cognitivo de
+    odd-one-out: por categoria (exclusão semântica) + por atributo
+    (exclusão visual). Resolve o indicador adiante explícito do Arco
+    7 "por ATRIBUTO — não pelo que É, mas pela cor, forma ou tamanho
+    que o torna diferente."
+
+    Relevância cultural pt-BR específica: vocabulário de cor, forma e
+    tamanho é alvo precoce de aquisição de linguagem em todas as 11
+    locais da plataforma; embutir o raciocínio de atributo em uma
+    superfície de raciocínio lógico duplica a oportunidade de
+    aquisição de linguagem. A verbalização do raciocínio de diferença
+    de atributo ("as outras são VERMELHAS; esta é VERDE") é exatamente
+    o tipo de prática gramatical de frase completa de que as salas
+    de aula multilíngues K-3 precisam.

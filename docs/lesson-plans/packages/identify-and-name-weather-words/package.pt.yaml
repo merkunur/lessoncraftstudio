@@ -1,0 +1,97 @@
+# Teaching package — identify and name weather vocabulary (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 8 Phase 3 per Arc 3 Phase 1 sparse-override pattern).
+# pt sparse-override for early-literacy / vocabulary-acquisition strand. BR
+# Portuguese register per CLAUDE.md §6 + formal "você" address per §17.9.
+
+title:
+  pt: "Palavras do Tempo — nomeie o tempo de hoje"
+description:
+  pt: "Pacote de letramento inicial para a Educação Infantil que ensina vocabulário do tempo. Class A CLEAN — substrato meteorológico (sol, nuvem, chuva, neve, vento, tempestade, arco-íris) está presente em IMAGE_VOCABULARY em todas as 11 locais da plataforma. Integração com a rotina diária: as crianças aprendem a nomear o tempo de hoje como parte do círculo da manhã. Alvo de linguagem produtiva: descrições de frase completa ('Hoje está ensolarado' / 'Está chovendo' / 'Faz vento')."
+
+structure:
+  warmup:
+    body: |
+      Rotina de círculo da manhã com toda a turma. A professora ou o
+      professor aponta para a janela: "Como está o tempo hoje?" A turma
+      nomeia o que vê (ensolarado, nublado, chuvoso, nevando, etc.).
+      A professora ou o professor fixa o cartão de tempo correspondente
+      no quadro de tempo diário. Reforça o mapeamento de pista
+      visual-para-palavra + constrói o ritual de círculo da manhã na
+      prática de vocabulário.
+  contentActivity:
+    body: |
+      Rotina de mural de bolso. A professora ou o professor exibe 6-8
+      cartões de tempo; a turma nomeia cada um. Trabalho em duplas: a
+      criança A segura um cartão de tempo; a criança B nomeia E usa o
+      modelo de linguagem ("Está ___" / "Eu vejo ___"). Refraseie os
+      erros com explicação ("você disse nuvem — sim, mas com nosso
+      modelo: Está nublado. Note o -ado no fim — ensolarado, nublado,
+      chuvoso, nevando, ventoso"). Extensão opcional: as crianças
+      desenham sua própria cena de tempo + descrevem em 2 frases.
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios de
+      emparelhamento (pares imagem-nome; reforça reconhecimento de
+      palavra de tempo). Estação 2: bingo com fichas de tempo (jogo
+      de escuta + busca para toda a mesa). Estação 3: construção
+      prática de cena de tempo com recortes manipulativos (as
+      crianças montam cenas de tempo a partir de recortes + descrevem).
+      Estação 4: folha de exercícios word-guess (as crianças preenchem
+      letras de palavras de tempo a partir de pistas com imagens).
+  closure:
+    body: |
+      Atualização do quadro de tempo diário com toda a turma. A turma
+      nomeia o tempo de hoje + adiciona uma marca de contagem no
+      quadro para esse tipo de tempo. Indicador adiante: "Hoje nomeamos
+      o tempo. Quando voltarmos ao tempo na próxima vez, descreveremos
+      o tempo nas ESTAÇÕES — quais tipos de tempo vemos no inverno,
+      primavera, verão, outono."
+
+assessmentCriteria:
+  pt: |
+    Nomear 6 de 8 itens de vocabulário de palavras de tempo em 8 de 10
+    tentativas. Usar o modelo "Está ___" para descrever o tempo de hoje
+    em 7 de 10 observações de círculo da manhã. Emparelhar palavras de
+    tempo com cenas de tempo em 8 de 10 tentativas.
+
+    Diferenciação:
+      - Pré-K: 4 palavras-base de tempo (sol, nuvem, chuva, neve);
+        apenas linguagem receptiva ("aponte para ___").
+      - K: 6-8 palavras de tempo; modelo de linguagem produtiva ("Está
+        ___").
+      - Primeiro ano em diante: estender para tempo sazonal +
+        intensificadores descritivos ("muito chuvoso," "um pouco
+        nublado") + ponte para ciência relacionada ao tempo (ciclo da
+        água; describe-day-night-cycle candidato Arco 9+).
+
+compositionalRationale:
+  pt: |
+    Fio principal: letramento inicial / aquisição de vocabulário. Fio
+    secundário: fala-e-escuta (descrições de tempo de frase completa
+    usando modelos de linguagem). Fio terciário: conhecimento de mundo
+    / meio-ambiente-e-tempo (fenômenos meteorológicos são observáveis
+    no mundo real — vocabulário ancora-se à observação direta fora
+    da janela).
+
+    Substrato Class A CLEAN: vocabulário meteorológico presente em
+    IMAGE_VOCABULARY em todas as 11 locais da plataforma (sol,
+    nuvem, chuva, neve, vento, tempestade, arco-íris + formas
+    adjetivas ensolarado/nublado/chuvoso/nevando/ventoso).
+
+    Integração com a rotina diária distintiva: o tempo é unicamente
+    adequado à rotina de círculo da manhã porque as crianças observam
+    o tempo de hoje todos os dias. A prática de vocabulário acontece
+    diariamente na rotina, não apenas durante a unidade de 1 semana.
+    Padrão de exposição de cauda longa mais forte para o tempo entre
+    os pacotes de vocabulário do Arco 1-7.
+
+    Relevância cultural pt-BR específica: vocabulário meteorológico
+    pt-BR tem riqueza única para tempo tropical — vocabulário de
+    chuva forte (chuva forte, tempestade, temporal) + sol intenso
+    (sol forte, calor) + estações específicas do clima brasileiro
+    (estação chuvosa, estação seca). A professora ou o professor
+    pode adaptar o vocabulário do pacote para o contexto regional
+    do clima da turma (Sul: estações distintas; Norte/Nordeste: chuvoso
+    vs seco). Alta relevância para crianças que vivenciam tempo regional
+    diariamente.

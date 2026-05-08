@@ -1,0 +1,112 @@
+# Teaching package — notice cognate word pairs (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 8 Phase 3 per Arc 3 Phase 1 sparse-override pattern).
+# pt sparse-override for early-literacy / multilingual-language-awareness
+# strand. Builds on Arc 6 Phase 3 multilingual-language-awareness pt sparse-
+# overrides. BR Portuguese register per CLAUDE.md §6 + formal "você" address
+# per §17.9.
+
+title:
+  pt: "Pares de Cognatos — palavras que se parecem em diferentes idiomas"
+description:
+  pt: "Pacote de letramento inicial para o jardim de infância / 1º ano que ensina a consciência de cognatos entre idiomas. Fio de consciência de linguagem multilíngue: as crianças notam que algumas palavras se parecem ou soam iguais entre seu idioma materno e o idioma-alvo (por exemplo, pt 'família' / es 'familia' / it 'famiglia' / en 'family'). O reconhecimento de cognatos acelera a aquisição de vocabulário porque as crianças podem aproveitar o que já sabem em seu idioma materno. Pacote diferenciador para o público multilíngue K-3 da plataforma."
+
+structure:
+  warmup:
+    body: |
+      Rotina de observação com toda a turma. A professora ou o
+      professor escreve uma palavra do idioma-alvo no quadro (por
+      exemplo, 'family'). Pergunta: "Esta palavra soa como uma
+      palavra no SEU idioma materno?" As crianças que reconhecem
+      cognatos levantam as mãos e oferecem o equivalente em seu
+      idioma materno ('família' em pt-BR). A professora ou o
+      professor escreve os equivalentes ao lado da palavra do
+      idioma-alvo. Destaca as letras ou sons compartilhados.
+      Reforça: "Quando uma palavra em nosso idioma-alvo soa como
+      uma palavra na SUA língua, você tem uma vantagem para
+      lembrá-la."
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de observação de cognatos. Cada
+      dupla recebe 6-8 cartões de pares de cognatos (palavra do
+      idioma-alvo + imagem do conceito). A dupla discute: "Esta
+      palavra soa como uma palavra na SUA língua?" As crianças
+      compartilham equivalentes do idioma materno. A professora ou o
+      professor circula, anotando os pares de cognatos que
+      surgiram. Extensão opcional: as crianças desenham o conceito
+      do par de cognatos + escrevem ambas as palavras lado a lado.
+      Refraseie enfatizando a celebração ("SIM — esse é um
+      cognato! 'Tomate' em português e 'tomato' em inglês vêm da
+      mesma fonte.").
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios de
+      emparelhamento (imagens de pares de cognatos para palavras do
+      idioma-alvo; reforça reconhecimento do idioma-alvo). Estação
+      2: word-scramble (as crianças desembaralham palavras de
+      cognatos do idioma-alvo; reforça ortografia). Estação 3:
+      construção prática de pares de cognatos com recortes
+      manipulativos (as crianças montam exibições de pares de
+      cognatos; parceiro verifica). Estação 4: tiras de frases (as
+      crianças constroem frases completas usando palavras de
+      cognatos; reforça linguagem produtiva de frase completa).
+  closure:
+    body: |
+      Compartilhamento com toda a turma. A professora ou o professor
+      exibe 4-6 palavras do idioma-alvo + pede às crianças que
+      identifiquem cognatos no conjunto de idiomas maternos de toda a
+      turma. Indicador adiante: "Hoje notamos cognatos entre nosso
+      idioma-alvo e nossos idiomas maternos. Quando voltarmos à
+      observação de linguagem na próxima vez, exploraremos FALSOS
+      AMIGOS — palavras que PARECEM cognatos mas na verdade significam
+      coisas diferentes — e aprenderemos a ter cuidado com elas."
+
+assessmentCriteria:
+  pt: |
+    Identificar 6 de 8 palavras do idioma-alvo como cognatos (ou não
+    cognatos) quando equivalentes do idioma materno estão presentes no
+    conjunto de toda a turma. Articular a relação de par de cognatos
+    ("'tomate' e 'tomato' parecem-se — significam a mesma coisa") em
+    6 de 10 tentativas. Usar a observação de cognatos como estratégia
+    de aprendizagem ao encontrar novas palavras do idioma-alvo na
+    leitura da unidade.
+
+    Diferenciação:
+      - Pré-K: 4 palavras de cognatos fortes; apenas rotina de
+        observação em duplas.
+      - K: 6-8 palavras de cognatos em 2 temas; trabalho de
+        emparelhamento + cartões.
+      - Primeiro ano em diante: estender para FALSOS AMIGOS (candidato
+        Arco 9+); ponte para consciência morfológica (reconhecer raízes
+        de palavras compartilhadas como 'foto-' em vocabulário de
+        fotografia em português/espanhol/italiano/inglês).
+
+compositionalRationale:
+  pt: |
+    Fio principal: letramento inicial / consciência de linguagem
+    multilíngue. Fio secundário: aquisição de vocabulário (ancorado em
+    vocabulário — a consciência de cognatos acelera diretamente a
+    aquisição de vocabulário do idioma-alvo aproveitando o conhecimento
+    do idioma materno). Fio terciário: afirmação do idioma materno
+    (o conhecimento do idioma materno das crianças torna-se um RECURSO
+    DA SALA DE AULA em vez de um obstáculo).
+
+    Significância arquitetural: aprofunda o fio de consciência de
+    linguagem multilíngue dos Arcos 5+6 (compare-greeting-routines +
+    identify-language-of-spoken-utterance + name-this-object-in-two-
+    languages). A consciência de cognatos é uma habilidade unicamente
+    de alta alavancagem para K-3 multilíngue — as crianças que aprendem
+    a notar cognatos podem transferir essa habilidade através de
+    contextos e construir vocabulário no idioma-alvo ~3x mais rápido
+    do que as crianças que não aprendem (pesquisa de ESL: Cummins, 1980+).
+
+    Relevância cultural pt-BR específica: o português brasileiro tem
+    rica cobertura de cognatos com inglês (palavras médicas, científicas,
+    tecnológicas: 'computador'/'computer', 'medicina'/'medicine',
+    'banco'/'bank') E com outras línguas românicas (espanhol, italiano).
+    Crianças em escolas internacionais brasileiras encontram diariamente
+    cognatos pt-BR ↔ en-US, fazendo deste pacote particularmente
+    relevante. Cognatos pt-BR ↔ es-ES também são fortes ('família' /
+    'familia') para crianças em programas bilíngues pt-BR/es. Forte
+    ajuste à plataforma; diferencia LessonCraftStudio de plataformas
+    K-3 apenas em inglês.

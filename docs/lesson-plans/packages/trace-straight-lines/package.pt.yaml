@@ -1,0 +1,110 @@
+# Teaching package — trace straight lines (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 10 Phase 3 per Arc 3 Phase 1 sparse-override pattern).
+# pt sparse-override for fine-motor-and-visual-spatial / drawing-and-
+# tracing strand (FIRST drawing-and-tracing pt sparse-override). Universal
+# motor skill — line-tracing is language-portable. BR Portuguese register
+# per CLAUDE.md §6 + formal "você" address per §17.9.
+
+title:
+  pt: "Traçando Linhas Retas — horizontal, vertical e diagonal"
+description:
+  pt: "Pacote de motricidade fina e visual-espacial para a Educação Infantil que ensina o traçado de linhas retas. PRIMEIRO sparse-override pt do fio de desenho-e-traçado. Habilidade fundamental de motricidade fina: as crianças praticam traçado de linhas retas horizontais, verticais e diagonais como blocos de construção para a formação posterior de letras (letras maiúsculas usam linhas retas: A, E, F, H, I, K, L, M, N, T, V, W, X, Y, Z) + construção de formas. Desenvolve o controle do lápis + coordenação visomotora + precisão de seguimento de linha. Universalmente aplicável — habilidades motoras são as mesmas em todas as 11 locais da plataforma."
+
+structure:
+  warmup:
+    body: |
+      Rotina de motricidade-grossa-para-fina com toda a turma. A
+      professora ou o professor lidera a turma traçando linhas retas
+      NO AR com os braços — primeiro vertical (cima-baixo), depois
+      horizontal (lado-a-lado), depois diagonal (canto-a-canto). A
+      turma segue. "Agora vamos traçar as mesmas linhas no papel."
+      Reforça a direção de linha cinestesicamente antes do trabalho
+      com lápis começar.
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de traçado. Cada criança recebe uma
+      tira de traçado com linhas tracejadas horizontais, verticais e
+      diagonais + um giz de cera grosso ou lápis. A criança traça
+      cada linha devagar, tentando ficar SOBRE os pontos. O parceiro
+      verifica. Refraseie os erros com explicação ("você está saindo
+      da linha — vamos diminuir a velocidade. Trace do ponto INICIAL
+      até o ponto FINAL, ficando sobre o caminho tracejado").
+      Extensão opcional: as crianças progridem do traçado tracejado
+      para o traçado-de-contorno (orientação mais leve) para o
+      desenho à mão livre de linhas retas (sem orientação).
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: tiras de traçado de vocabulário
+      (as crianças traçam letras tracejadas de palavras de
+      vocabulário; reforça o traçado de linhas retas no contexto de
+      letras). Estação 2: folha de exercícios alphabet-train (as
+      crianças identificam letras; reforça a consciência da forma de
+      letra que o traçado apoia). Estação 3: construção prática de
+      linhas com recortes manipulativos (as crianças montam linhas
+      retas recortadas em formas — quadrado = 4 linhas; triângulo =
+      3 linhas). Estação 4: folha de exercícios de emparelhamento
+      (pares imagem-nome reforçam a base de vocabulário).
+  closure:
+    body: |
+      Exibição de progresso com toda a turma. As crianças compartilham
+      seu trabalho de traçado + descrevem qual direção de linha foi
+      mais difícil (a maioria das crianças relata diagonal). A
+      professora ou o professor afirma: "Linhas diagonais são as
+      mais difíceis porque nossa mão tem que se mover em duas
+      direções ao mesmo tempo." Indicador adiante: "Hoje traçamos
+      linhas retas. Quando voltarmos ao traçado na próxima vez,
+      traçaremos linhas CURVAS — os blocos de construção para
+      letras como O, C, G, U, S, J."
+
+assessmentCriteria:
+  pt: |
+    Traçar 5 de 6 linhas retas tracejadas (horizontal, vertical,
+    diagonal) ficando na linha em 7 de 10 tentativas. Traçar 3 de 4
+    linhas retas de contorno (orientação mais leve) em 6 de 10
+    tentativas. Desenhar uma linha reta à mão livre aproximando-se
+    de uma direção-alvo em 5 de 10 tentativas.
+
+    Diferenciação:
+      - Pré-K: apenas traçado tracejado; apenas horizontal + vertical
+        (pular diagonal); giz de cera grosso.
+      - K: traçado tracejado + de contorno em 3 direções (horizontal,
+        vertical, diagonal); lápis.
+      - Primeiro ano em diante: linhas retas à mão livre + ponte para
+        trace-curved-lines (candidato Arco 11+); fundação para a
+        formação de letras.
+
+compositionalRationale:
+  pt: |
+    Fio principal: motricidade fina e visual-espacial / desenho-e-
+    traçado (traçado de linhas retas). Fio secundário: coordenação
+    visomotora (seguimento de linha mão-olho). Fio terciário: pré-
+    escrita (linhas retas são precursoras da formação de letras).
+
+    Significância arquitetural: PRIMEIRO sparse-override pt do fio
+    de desenho-e-traçado. Ponte pré-escrita: as crianças desenvolvem
+    controle do lápis + precisão de seguimento de linha ANTES de
+    encontrarem o trabalho de formação de letras (fio de escrita à
+    mão: form-uppercase-letters, form-lowercase-letters, form-
+    numerals — candidatos Arco 11+). Andaimes K-3 fundamentais de
+    motricidade fina.
+
+    Universalidade transcultural: o traçado é portátil para qualquer
+    língua — linhas retas são linhas retas independentemente da
+    locale. Em todas as 11 locais da plataforma, as crianças
+    desenvolvem controle do lápis nas mesmas habilidades motoras
+    universais. A âncora de vocabulário varia por locale por padrão
+    de sparse-override, mas as mecânicas de traçado são constantes.
+
+    Relevância cultural pt-BR específica: o alfabeto pt-BR inclui
+    letras especiais (ç, ã, é, õ) que requerem traçado de linhas
+    retas + curvas + diacríticos pequenos (cedilha, til, acento).
+    O trabalho de traçado de linhas retas estabelece a base motora
+    que crianças brasileiras precisam para escrever palavras com
+    estes diacríticos pt-BR — uma base motora ligeiramente mais
+    ampla do que crianças escrevendo apenas inglês.
+
+    Substrato Class B FLEXIBLE: composta contra a capacidade do
+    material vocabulary-tracing-strips. O traçado funciona com
+    qualquer vocabulário + qualquer forma de letra; prontidão de
+    substrato é universal.

@@ -1,0 +1,135 @@
+# Teaching package — identify own emotions in context (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 10 Phase 3 per Arc 3 Phase 1 sparse-override pattern).
+# pt sparse-override for world-knowledge / personal-social-emotional-
+# development strand (FIRST personal-social-emotional-development pt
+# sparse-override). Pt-BR cultural specificity: caloroso emotional
+# expression — Brazilian culture supports open emotional sharing in K-3
+# contexts more than some other cultures. BR Portuguese register per
+# CLAUDE.md §6 + formal "você" address per §17.9.
+
+title:
+  pt: "Como Você Se Sente? — nomeie emoções em diferentes situações"
+description:
+  pt: "Pacote de conhecimento de mundo para o jardim de infância / 1º ano que ensina autoconsciência emocional em contextos situacionais. PRIMEIRO sparse-override pt do fio de desenvolvimento-pessoal-social-emocional. Constrói sobre identify-and-name-emotions do Arco 5 — as crianças agora movem de nomear emoções para RECONHECER qual emoção elas sentem em situações específicas (alegre brincando com amigos, triste quando o avô vai embora, frustrada quando o quebra-cabeça é difícil, orgulhosa ao terminar uma tarefa). Habilidade fundamental de aprendizagem socioemocional (SEL). Especificidade cultural pt-BR: cultura brasileira é caloroso-expressiva — as crianças crescem em ambientes onde emoções são compartilhadas abertamente, abraços + beijos são comuns, expressar tristeza ou alegria em voz alta é normalizado."
+
+structure:
+  warmup:
+    body: |
+      Rotina de emoção-e-situação com toda a turma. A professora ou o
+      professor coloca situações: "Como você se sentiria se seu amigo
+      te desse um presente de aniversário?" A turma responde com
+      palavras de emoção ("Alegre!" "Animado!"). "Como você se
+      sentiria se não conseguisse encontrar seu brinquedo favorito?"
+      ("Triste," "Frustrada"). Reforça o enquadramento de emoção-
+      como-resposta-a-situação — as emoções não são aleatórias;
+      elas SURGEM de coisas que acontecem conosco. Adapte exemplos
+      para contexto cultural brasileiro: "Como você se sentiria se
+      sua avó viesse fazer uma visita longa? E se sua família
+      fizesse um churrasco com os primos? E se você ganhasse um
+      time-de-futebol favorito?"
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de situação-e-emoção. Cada dupla
+      recebe 8 cartões de situação (mostrando cenários relacionáveis
+      a K-3 brasileiros: aniversário de festa, primeiro dia de aula,
+      brinquedo perdido, terminar um quebra-cabeça, visita de avô,
+      filme assustador, dividir lanche, festa-junina, churrasco-de-
+      família, etc.) + cartões de rosto-de-emoção (alegre, triste,
+      assustado, surpreso, orgulhoso, frustrada, animado). A dupla
+      alterna: a criança A pega uma situação; a criança B pega o
+      rosto-de-emoção correspondente. Refraseie os erros com
+      explicação ("você disse que se sentiria alegre quando seu
+      brinquedo se perde — vamos pensar: perder um brinquedo
+      favorito faz a maioria das crianças se sentir triste ou
+      frustrada. Você já se sentiu alegre quando perdeu algo? Talvez
+      não — vamos tentar triste"). Extensão opcional: as crianças
+      compartilham uma situação real da vida delas + a emoção que
+      sentiram.
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios de
+      emparelhamento (rosto-de-emoção para pares de nome-de-emoção;
+      reforça base de vocabulário). Estação 2: folha de exercícios
+      picture-sort (as crianças classificam situações em 'situações
+      alegres' vs 'situações tristes'). Estação 3: construção
+      prática de emoção-situação com recortes manipulativos (as
+      crianças montam cartões de história combinando situação +
+      emoção + resposta apropriada). Estação 4: tiras de frases (as
+      crianças constroem frases completas: 'Eu me sinto ___ quando
+      ___').
+  closure:
+    body: |
+      Roda-de-compartilhamento com toda a turma. Cada criança
+      compartilha uma emoção que sentiu hoje + qual situação a
+      causou ("Eu me senti alegre no recreio porque brinquei de
+      pega-pega com minha amiga"). Indicador adiante: "Hoje notamos
+      como as situações causam emoções. Quando voltarmos a emoções
+      na próxima vez, aprenderemos a RECONHECER as emoções DE OUTRAS
+      PESSOAS — olhando para rostos e notando como um amigo ou
+      membro da família se sente — e como RESPONDER com gentileza."
+
+assessmentCriteria:
+  pt: |
+    Combinar um rosto-de-emoção com uma situação em 8 de 10 cartões
+    de emoção-situação. Articular a própria emoção em uma situação
+    dada ('Eu me sentiria ___ se ___') em 7 de 10 tentativas. Usar
+    pelo menos 5 de 7 itens de vocabulário de emoção (alegre, triste,
+    assustado, surpreso, orgulhoso, frustrada, animado) em
+    tentativas de linguagem produtiva.
+
+    Diferenciação:
+      - Pré-K: 4 emoções básicas (alegre, triste, assustado, bravo);
+        apenas emparelhamento de rosto receptivo.
+      - K: 7 emoções; emparelhamento situação-emoção + modelos de
+        linguagem produtiva.
+      - Primeiro ano em diante: estender para reconhecimento-de-
+        outros-pessoas-emoção (identify-emotions-of-others-from-faces
+        candidato Arco 11+); ponte para empatia-e-trabalho-de-
+        resposta.
+
+compositionalRationale:
+  pt: |
+    Fio principal: conhecimento de mundo / desenvolvimento pessoal-
+    social-emocional (reconhecimento situacional de emoção). Fio
+    secundário: aquisição de vocabulário (ancorado em vocabulário —
+    vocabulário de emoção reforçado através de aplicação situacional).
+    Fio terciário: fala-e-escuta (narração produtiva de emoção: 'Eu
+    me sinto ___ quando ___').
+
+    Significância arquitetural: PRIMEIRO sparse-override pt do fio
+    de desenvolvimento pessoal-social-emocional. Abre o fio para
+    pacotes adicionais: identify-emotions-of-others-from-faces, name-
+    things-i-can-do-myself, share-and-take-turns, wait-my-turn, etc.
+
+    Especificidade cultural pt-BR: cultura brasileira é caloroso-
+    expressiva. As crianças brasileiras crescem em ambientes onde:
+    - Emoções são compartilhadas abertamente, não escondidas
+    - Abraços + beijos no rosto são comuns entre família + amigas
+      próximas
+    - Expressar tristeza ou alegria em voz alta é normalizado
+    - "Saudade" — uma emoção complexa de pertencimento-distante —
+      é uma palavra cultural-específica pt-BR sem tradução exata
+      em inglês; tem ressonância especial em crianças brasileiras
+      cujos avós ou outros familiares vivem distantes (comum em
+      contextos de escola internacional brasileira)
+    - "Carinho" — afeto caloroso — é palavra cotidiana pt-BR;
+      crianças brasileiras estão habituadas a expressar + receber
+      carinho explicitamente
+
+    O pacote em pt-BR pode incluir vocabulário-de-emoção pt-BR-
+    específico (saudade, carinho, ciumeirinha, vergonha, animação)
+    além das emoções básicas universais. Crianças brasileiras
+    estão prontas para vocabulário emocional mais rico do que
+    crianças em culturas mais reservadas.
+
+    Relevância para SEL em contexto brasileiro: a aprendizagem
+    socioemocional (SEL) está em rápida adoção em escolas
+    brasileiras (SEL é incluído em BNCC — Base Nacional Comum
+    Curricular como "competências socioemocionais"). Pacotes pt-BR
+    de SEL têm forte alinhamento curricular institucional.
+
+    Substrato Class B FLEXIBLE: composta contra o tema emoções.
+    Substrato-prontidão universal — emoções são universais; contextos
+    emocionais variam culturalmente, mas categorias-de-emoção-base
+    são transculturais.

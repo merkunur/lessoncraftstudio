@@ -103,15 +103,21 @@ function seededShuffle(arr, seed) {
 /**
  * Load all published decks + build indices. Called once per publish-cli batch.
  *
- * Performance: 1 prisma.deck.findMany call returning ~55K rows max. Memory:
- * ~500 bytes/deck × 55K = ~27MB peak. Acceptable.
+ * Idempotent: returns existing indices if already warmed (skips DB re-fetch).
+ * Test code calls _resetIndices() to force re-warm. Production code (bulk
+ * publishes) gets warm-once-per-batch behavior naturally — first publish() call
+ * warms; subsequent publish() calls in same batch hit the cache.
  *
- * Replaces per-call DB queries with module-level in-memory state. Per-call
- * cost in selectDeckEndSuggestions becomes O(log N) (Map lookups) plus
- * O(K) iteration over the candidate list returned (K bounded by 4-strategy
- * slot allocation = up to ~20 candidates examined per strategy).
+ * Performance: 1 prisma.deck.findMany call. Memory bounded by catalog size
+ * (~500 bytes/deck × catalog-size). Replaces per-call DB queries with
+ * module-level in-memory state. Per-call cost in selectDeckEndSuggestions
+ * becomes O(log N) (Map lookups) plus O(K) iteration over candidate list
+ * (K bounded by 4-strategy slot allocation).
  */
 async function warmUpIndices() {
+  if (_indices !== null) {
+    return _indices;
+  }
   var prisma = db.client();
   var allDecks = await prisma.deck.findMany({
     where: { status: 'published' },
@@ -311,9 +317,14 @@ function pickAnyFromLocale(idx, completed, picked, count) {
  * @param {string} locale - 2-letter ISO 639-1 locale code.
  * @param {string} completedDeckSlug - slug of the deck the kid just completed.
  * @param {number} count - desired number of suggestions (default 6).
+ * @param {object} [options] - { selfMeta?: DeckMeta } - new-publish-context fallback;
+ *   used when the deck-being-published is NOT yet in the indices (indices warmed
+ *   pre-publish; new deck inserted post-publish). Caller constructs selfMeta from
+ *   the publish manifest + computed slug. If completed-deck is found in indices,
+ *   selfMeta is ignored.
  * @returns {Promise<Array<DeckMeta>>}
  */
-async function selectDeckEndSuggestions(locale, completedDeckSlug, count) {
+async function selectDeckEndSuggestions(locale, completedDeckSlug, count, options) {
   if (count === undefined) count = 6;
   if (typeof locale !== 'string' || !locale) {
     throw new Error('selectDeckEndSuggestions: locale must be a non-empty string.');
@@ -326,15 +337,29 @@ async function selectDeckEndSuggestions(locale, completedDeckSlug, count) {
   var completedKey = locale + '/' + completedDeckSlug;
   var completed = idx.bySlug.get(completedKey);
 
-  // If completed-deck is not in indices (e.g., publishing first deck of locale, or
-  // edge case where the deck was archived between batches), return empty array.
-  // Caller substitutes empty placeholders gracefully.
+  // Fall back to selfMeta for new-publish context per Commission B Phase 4.
+  // selfMeta provides app/theme/level/locale context for reweighting strategies
+  // 1-3 even though the deck isn't yet in the DB.
+  if (!completed && options && options.selfMeta) {
+    completed = options.selfMeta;
+  }
+
+  // If completed-deck is not in indices AND no selfMeta provided, return empty.
+  // Caller substitutes empty placeholders gracefully (app-side runtime guard
+  // keeps the strip hidden when placeholders unsubstituted).
   if (!completed) {
     return [];
   }
 
   var picked = new Set();
   var results = [];
+
+  // Self-exclusion guarantee: strategies use `d.id === completed.id` to skip the
+  // completed deck from each strategy's pool. For in-indices completed (real DB
+  // record), id-match works. For selfMeta-fallback completed (new-publish path,
+  // not yet in DB), the new slug isn't in any indexed pool because slug.js does
+  // collision-resolution + the deck hasn't been inserted yet — strategies
+  // naturally exclude it because no pool contains it.
 
   // Strategy 1: same-app theme-variety (2 slots).
   var s1 = pickSameAppThemeVariety(idx, completed, picked, 2);

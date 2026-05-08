@@ -4869,6 +4869,8 @@ async function downloadPDF(canvasToExport, fileName, opts) {
         '      "</div>"+',
         '      "<div class=\\"lcs-confetti\\" aria-hidden=\\"true\\"></div>";',
         '    celebrationEl.classList.add("lcs-celebration--shown");',
+        '    var stripEl=document.querySelector(".lcs-deckend-suggestions");',
+        '    if(stripEl){var fh=stripEl.querySelector("a[href]");if(fh&&fh.getAttribute("href").indexOf("__SUGGESTION_")===-1){var mi=celebrationEl.querySelector(".lcs-celebration__inner");if(mi){stripEl.hidden=false;mi.appendChild(stripEl);}}}',
         '    document.getElementById("lcs-do-another").addEventListener("click",function(){location.reload()});',
         '    document.getElementById("lcs-cel-print").addEventListener("click",function(){window.print()});',
         '    if(!reducedMotion)spawnConfetti();',
@@ -4926,6 +4928,9 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             || '<!-- HREFLANG_INSERTION_POINT -->';
         var endDeckLinks = (window.LCSCatalogExport && LCSCatalogExport.buildEndDeckLinks)
             ? LCSCatalogExport.buildEndDeckLinks()
+            : '';
+        var deckEndSuggestions = (window.LCSCatalogExport && LCSCatalogExport.buildDeckEndSuggestionsPlaceholder)
+            ? LCSCatalogExport.buildDeckEndSuggestionsPlaceholder({ locale: lang, title: bundle.title || '' })
             : '';
 
         // Per-row sr-only — alphabet-train. expectedLetter NOT included
@@ -4988,6 +4993,9 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             parts.push('<aside class="lcs-end-deck">');
             parts.push(endDeckLinks);
             parts.push('</aside>');
+        }
+        if (deckEndSuggestions) {
+            parts.push(deckEndSuggestions);
         }
         parts.push('<div class="lcs-celebration" id="lcs-celebration" role="dialog" aria-modal="true" aria-label="You did it!"></div>');
         parts.push('<div class="lcs-sr" id="lcs-live" role="status" aria-live="polite"></div>');

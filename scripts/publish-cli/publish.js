@@ -26,6 +26,7 @@ var ogImage = require('./og-image');
 var placeAssets = require('./place-assets');
 var extractMeta = require('./extract-html-meta');
 var db = require('./db');
+var deckEndSuggestions = require('./deck-end-suggestions');
 
 var CANONICAL_URL_BASE = 'https://lessoncraftstudio.com';
 
@@ -161,12 +162,28 @@ async function publish(opts) {
     console.error('[publish] Slug: ' + slug + (slug !== candidate ? ' (collision; suffixed from "' + candidate + '")' : ''));
   }
 
-  // Step 2: substitution.
+  // Step 2: substitution. Warm deck-end-suggestions indices once + fetch
+  // suggestions for THIS deck's slug + locale per Commission B Phase 4.
+  // For new publishes, the deck isn't in indices yet (warmed pre-publish); we
+  // pass selfMeta as new-publish-context fallback for context-driven
+  // reweighting (strategies 1-3 use the deck's app/theme/level metadata).
+  await deckEndSuggestions.warmUpIndices();
+  var selfMeta = {
+    slug: slug,
+    language: locale,
+    title: manifest.title || {},
+    exerciseType: (manifest.generator && manifest.generator.app) || manifest.exercise_type,
+    exerciseMode: manifest.exercise_mode || null,
+    subjectTags: manifest.theme ? [manifest.theme] : [],
+    ageRange: manifest.age_range,
+  };
+  var suggestions = await deckEndSuggestions.selectDeckEndSuggestions(locale, slug, 6, { selfMeta: selfMeta });
   var subResult = substitute.apply({
     manifest: manifest,
     metadata: {},
     deckHtml: deckHtmlOriginal,
-    slugCandidate: slug
+    slugCandidate: slug,
+    suggestions: suggestions
   });
   if (subResult.errors.length) {
     throw new Error('publish: substitution errors:\n  ' + subResult.errors.join('\n  '));

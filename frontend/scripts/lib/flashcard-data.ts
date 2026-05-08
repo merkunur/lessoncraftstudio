@@ -320,8 +320,34 @@ export const SOFT_HYPHENS: Record<string, Partial<Record<Locale, string>>> = {
     fi: 'Ankylo­saurus',
   },
   'ambulance': {
+    de: 'Kranken­wagen',
     sv: 'Ambu­lans',
     fi: 'Ambu­lanssi',
+  },
+  'airplane': {
+    de: 'Flug­zeug',
+    sv: 'Flyg­plan',
+    fi: 'Lento­kone',
+  },
+  'actor': {
+    de: 'Schau­spieler',
+    sv: 'Skåde­spelare',
+    fi: 'Näytte­lijä',
+  },
+  'strawberry': {
+    de: 'Erd­beere',
+    sv: 'Jord­gubbe',
+    fi: 'Mansik­ka',
+  },
+  'elephant': {
+    de: 'Elefant',
+    sv: 'Elefant',
+    fi: 'Norsu',
+  },
+  'hexagon': {
+    de: 'Sechs­eck',
+    sv: 'Sex­hörning',
+    fi: 'Kuusi­kulmio',
   },
   // Long compounds frequently appearing in K-3 vocabulary
   'kindergarten': {

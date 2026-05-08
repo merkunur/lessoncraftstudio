@@ -51,9 +51,14 @@ async function imageToDataUrl(imagePath: string): Promise<string> {
   const cached = _imageCache.get(cacheKey);
   if (cached) return cached;
 
+  // palette: false retains true-color PNG (preserves gradient + alpha quality
+  // for K-3 image library's color-rich illustrations). Trade-off: ~3-5× file
+  // size vs palette:true; Plan-agent Phase 3 review flagged palette:true as
+  // potential gradient-banding risk against the "very professional" quality
+  // bar. Trade-off taken: prefer larger files + clean rendering.
   const buf = await sharp(imagePath)
     .resize({ width: MAX_DIM, height: MAX_DIM, fit: 'inside', withoutEnlargement: true })
-    .png({ compressionLevel: 9, palette: true })
+    .png({ compressionLevel: 9, palette: false })
     .toBuffer();
   const dataUrl = `data:image/png;base64,${buf.toString('base64')}`;
   _imageCache.set(cacheKey, dataUrl);

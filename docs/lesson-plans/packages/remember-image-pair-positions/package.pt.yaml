@@ -1,0 +1,100 @@
+# Teaching package — remember image-pair positions / memory game (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 7 Phase 3 per Arc 3 Phase 1 sparse-override pattern).
+# BR Portuguese register per CLAUDE.md §6 (pt = BR canonical); formal "você" address
+# per §17.9. Classic concentration game high-engagement K-3 BR Portuguese context;
+# vocab-anchored.
+
+title:
+  pt: "Jogo da memória — lembra onde está cada par de imagens"
+description:
+  pt: "Pacote de função executiva para Pré-K a Primeiro Ano que ensina memória de trabalho através do clássico jogo de concentração / jogo da memória. As crianças viram pares de cartas viradas para baixo e lembram-se das posições das cartas que já viram, construindo em direção ao emparelhamento de pares. Ancorado em vocabulário — as crianças nomeiam cada imagem ao virar as cartas."
+
+structure:
+  warmup:
+    body: |
+      Apresentação para toda a turma. A professora ou o professor demonstra
+      o clássico jogo da memória: coloca 6 cartas pareadas viradas para
+      cima em uma grade 4×3. "Olhem com atenção — lembrem-se ONDE cada
+      imagem está." Depois vira todas as cartas para baixo. Seleciona 2
+      cartas pela posição; revela; a turma observa. Se combinarem, deixa
+      viradas para cima; se não, vira de novo. Repita 2-3 ciclos. A
+      meta-habilidade que está sendo construída: as crianças retêm a
+      memória de posição visual na memória de trabalho enquanto tentam
+      emparelhamentos.
+  contentActivity:
+    body: |
+      Trabalho em duplas com jogo da memória: as crianças jogam em pares
+      com uma grade de 12 cartas (6 pares) 4×3. Alternam-se virando 2
+      cartas por turno; se emparelhadas, ficam com o par; se não, viram
+      de volta. Continuam até todos os pares serem encontrados. Reforce
+      o vocabulário: as crianças nomeiam cada imagem que viram ("Este é
+      um gato... este é um cachorro... eles não combinam"). A exigência
+      de nomear incorpora a prática de vocabulário na tarefa cognitiva.
+      Extensão opcional: as crianças constroem suas próprias grades 4×3
+      usando recortes; os parceiros jogam a grade um do outro.
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios grid-match (as
+      crianças veem informações de grade parciais; deduzem pares
+      correspondentes de contexto visual). Estação 2: emparelhamento
+      (imagem-nome reforça vocabulário). Estação 3: grades de concentração
+      com recortes manipulativos (as crianças jogam com seus próprios
+      conjuntos de cartas recortadas em pares de 4-8 pares; constroem
+      resistência ao jogo de memória).
+  closure:
+    body: |
+      Recordação rápida com toda a turma. A professora ou o professor
+      executa um jogo de memória de grupo final com grade de 4 pares (8
+      cartas); a turma trabalha junta para encontrar todos os pares
+      coletivamente. Indicador adiante: "Hoje jogamos jogos de memória
+      para treinar nossos cérebros. Quando voltarmos à memória próxima
+      vez, tentaremos grades MAIORES — 6 pares, 8 pares, 10 pares."
+
+assessmentCriteria:
+  pt: |
+    Encontrar todos os pares em uma grade de jogo de memória de 6 pares
+    (4×3) em 8 de 10 tentativas. Encontrar todos os pares em uma grade
+    de 8 pares (4×4) em 6 de 10 tentativas. Nomear cada imagem ao virar
+    em 8 de 10 viradas de grade (verificação da âncora de vocabulário).
+
+    Diferenciação:
+      - Pré-K: grades de 4 pares (4×2); jogo apoiado por adulto.
+      - K: grades de 6 pares (4×3); jogo em duplas; 8 pares como desafio.
+      - Primeiro ano em diante: grades de 8 pares (4×4) padrão; 10 pares
+        (5×4) como desafio; ponte para spot-the-difference + complete-
+        analogy-image-pair (profundidade do domínio cognitivo).
+
+compositionalRationale:
+  pt: |
+    Fio principal: função cognitiva e executiva / memória e atenção.
+    Fio secundário: aquisição de vocabulário (ancorado em vocabulário —
+    nomear imagens ao virar cartas). Fio terciário: revezamento + jogo
+    social (a concentração é um jogo em pares; faz ponte da tarefa
+    cognitiva com o desenvolvimento socioemocional).
+
+    Enquadramento da âncora de vocabulário continua dos Arcos 6 Fase 2
+    + 7: a tarefa cognitiva (memória de trabalho + memória de posição)
+    é a forma arquitetural; a âncora de vocabulário é o fio pedagógico.
+    O jogo da memória é uma das atividades cognitivas com âncora de
+    vocabulário mais naturais nas salas de aula K-3 — as crianças têm
+    de dizer o que veem para se lembrarem dele.
+
+    Relevância cultural pt-BR específica: o jogo da memória ("Jogo da
+    Memória" em pt-BR) é uma atividade lúdica universalmente popular
+    em culturas ocidentais; particularmente comum em culturas brasileiras
+    K-3 onde os jogos de carta familiares são uma tradição forte. As
+    crianças brasileiras adoram o formato; a alta-relevância cultural
+    + a alta-engajamento + a integração de vocabulário = uso de tempo
+    de altíssima alavancagem em sala de aula multilíngue K-3.
+
+    Substrato Class B FLEXIBLE: compõe-se contra a amplitude da biblioteca
+    de imagens via aplicativo grid-match. Prontidão de substrato medida
+    pela diversidade de cobertura temática (4 temas usados aqui todos
+    LIMPOS por trabalho do Arco 1-5).
+
+    Complemento temático interpacotes: remember-image-pair-positions
+    pareia-se com pacotes do aplicativo de emparelhamento (que usam
+    emparelhamento estático de imagem-nome). O jogo da memória adiciona
+    a dimensão de MEMÓRIA DE TRABALHO — as crianças têm de ENCONTRAR a
+    correspondência, não apenas identificá-la.

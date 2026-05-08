@@ -478,6 +478,78 @@
   }
 
   /**
+   * Build the deck-end suggestion strip placeholder section per Commission B
+   * Phase 2. Returns a static HTML+CSS section with 19 placeholders that
+   * publish-cli substitutes at upload time using selectDeckEndSuggestions
+   * (scripts/publish-cli/deck-end-suggestions.js).
+   *
+   * The strip is rendered into deck.html source HTML at generation time
+   * (NOT runtime-generated like the lcs-celebration modal) so Google crawler
+   * sees the 6 outbound <a href> deck-suggestion anchors without JS execution.
+   *
+   * Visibility: section is `hidden` by default. App-side runtime un-hides it
+   * inside showCelebration() once the kid completes the deck. Detection guard
+   * in showCelebration() checks for unsubstituted `__SUGGESTION_` placeholder
+   * substring in any href; if present (direct-download flow without
+   * publish-cli substitution), strip stays hidden — graceful degradation.
+   *
+   * Placeholder inventory (19 total; substitute.js extension per Phase 2):
+   *   __DECK_END_SUGGESTIONS_HEADER__       i18n: deckEndSuggestionsHeader.<locale>
+   *   __SUGGESTION_1_URL__ ... __SUGGESTION_6_URL__
+   *   __SUGGESTION_1_TITLE__ ... __SUGGESTION_6_TITLE__
+   *   __SUGGESTION_1_THUMB__ ... __SUGGESTION_6_THUMB__
+   *
+   * Self-contained per §14.1: deck.html does NOT load catalog-export.js at
+   * runtime; the helper returns a snippet embedded at generation time.
+   */
+  function buildDeckEndSuggestionsPlaceholder(opts) {
+    // opts currently unused — accepted for forward compatibility (locale,
+    // title may inform future variants). Strip emits placeholders
+    // unconditionally; publish-cli substitutes at upload time.
+    void opts;
+
+    var slots = [];
+    for (var i = 1; i <= 6; i++) {
+      slots.push(
+        '    <li><a href="__SUGGESTION_' + i + '_URL__" class="lcs-deckend-tile">' +
+        '<img src="__SUGGESTION_' + i + '_THUMB__" alt="" class="lcs-deckend-thumb">' +
+        '<span class="lcs-deckend-title">__SUGGESTION_' + i + '_TITLE__</span>' +
+        '</a></li>'
+      );
+    }
+
+    var css = [
+      '<style>',
+      '.lcs-deckend-suggestions{margin:24px 16px 96px;padding:20px;background:#FFF;border:2px solid #DCE1E6;border-radius:14px}',
+      '.lcs-deckend-suggestions[hidden]{display:none}',
+      '.lcs-deckend-suggestions h2{font-size:1.15rem;margin:0 0 12px;color:#1C1C1E;text-align:center}',
+      '.lcs-deckend-suggestions ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(6,1fr);gap:10px}',
+      '@media (max-width:767px){.lcs-deckend-suggestions ul{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:140px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px;-webkit-overflow-scrolling:touch}',
+      '.lcs-deckend-suggestions ul::-webkit-scrollbar{height:6px}',
+      '.lcs-deckend-suggestions ul::-webkit-scrollbar-thumb{background:#DCE1E6;border-radius:3px}}',
+      '.lcs-deckend-tile{display:flex;flex-direction:column;align-items:center;gap:6px;padding:8px;border-radius:10px;background:#F4F6FB;color:#4E5FE8;text-decoration:none;font-weight:500;transition:background-color .15s,transform .1s;min-height:44px;scroll-snap-align:start}',
+      '.lcs-deckend-tile:hover{background:#E8ECF7;transform:translateY(-2px)}',
+      '.lcs-deckend-tile:focus-visible{outline:3px solid #4E5FE8;outline-offset:2px}',
+      '.lcs-deckend-thumb{display:block;width:100%;max-width:120px;height:80px;object-fit:cover;border-radius:8px;background:#FFF}',
+      '.lcs-deckend-title{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-align:center;font-size:.875rem;line-height:1.3}',
+      '@media print{.lcs-deckend-suggestions{display:none !important}}',
+      '</style>'
+    ].join('');
+
+    var html = [
+      css,
+      '<section class="lcs-deckend-suggestions" hidden aria-label="__DECK_END_SUGGESTIONS_HEADER__">',
+      '  <h2>__DECK_END_SUGGESTIONS_HEADER__</h2>',
+      '  <ul>',
+      slots.join('\n'),
+      '  </ul>',
+      '</section>'
+    ].join('\n');
+
+    return html;
+  }
+
+  /**
    * Resolve a vocabulary-canonical key from a worksheet image. Used by
    * per-app bundle code that needs to look up vocab via ImageVocab.
    *
@@ -1336,6 +1408,7 @@
     slugify: slugify,
     buildSeoHead: buildSeoHead,
     buildEndDeckLinks: buildEndDeckLinks,
+    buildDeckEndSuggestionsPlaceholder: buildDeckEndSuggestionsPlaceholder,
     buildSrRows: buildSrRows,
     buildSrPuzzleSummary: buildSrPuzzleSummary,
     buildShareAffordance: buildShareAffordance,

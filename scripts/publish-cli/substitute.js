@@ -1,6 +1,5 @@
 /**
- * Apply substitutions to deck.html per Brief B Phase 2 brief's
- * 13-placeholder inventory.
+ * Apply substitutions to deck.html per Brief B Phase 2 brief + Commission B Phase 2.
  *
  * Canonical placeholder inventory (per REFERENCE TRANSLATIONS/catalog-export.js:34-46):
  *   1. __CANONICAL_URL__                  computed
@@ -16,6 +15,14 @@
  *  11. __LINK_BROWSE_ALL__                computed: /<locale>/
  *  12. __LINK_TEXT_BROWSE_ALL__           i18n endDeck.browseAll
  *  13. <!-- HREFLANG_INSERTION_POINT -->  v1: empty string
+ *
+ * Commission B Phase 2 extension (placeholders 14-32; 19 added):
+ *  14. __DECK_END_SUGGESTIONS_HEADER__    i18n deckEndSuggestionsHeader
+ *  15-32. __SUGGESTION_<N>_URL__ / __SUGGESTION_<N>_TITLE__ / __SUGGESTION_<N>_THUMB__
+ *         for N=1..6 (6 × 3 = 18 placeholders). Substituted from opts.suggestions
+ *         array; if opts.suggestions absent or short, remaining placeholders left
+ *         raw. App-side runtime guard in showCelebration() keeps strip hidden when
+ *         placeholders unsubstituted (graceful degradation for direct-download decks).
  *
  * Idempotent: substitution iterates the explicit allowlist (NOT a generic
  * regex match). Running twice on the same input produces identical output.
@@ -200,6 +207,40 @@ function apply(opts) {
   }
   note('<!-- HREFLANG_INSERTION_POINT -->', 'v1 empty', '', false);
 
+  // 14. __DECK_END_SUGGESTIONS_HEADER__ (Commission B Phase 2)
+  var rDeckEndHeader = i18n.resolve(locale, 'deckEndSuggestionsHeader', 'Try one of these next:');
+  note('__DECK_END_SUGGESTIONS_HEADER__', rDeckEndHeader.source, rDeckEndHeader.value, rDeckEndHeader.fallbackFired,
+    rDeckEndHeader.fallbackFired ? 'fell back to ' + rDeckEndHeader.source : null);
+
+  // 15-32. __SUGGESTION_<N>_URL__ / __SUGGESTION_<N>_TITLE__ / __SUGGESTION_<N>_THUMB__
+  // Substitute from opts.suggestions if provided. If absent, placeholders remain raw
+  // and the app-side runtime guard keeps the strip hidden (graceful degradation for
+  // direct-download decks where publish-cli isn't in the path).
+  var suggestions = opts.suggestions || [];
+  var suggestionSubstitutions = []; // [{placeholder, value}, ...]
+  for (var sIdx = 1; sIdx <= 6; sIdx++) {
+    var slot = suggestions[sIdx - 1];
+    if (slot) {
+      var slotTitleLocalized = (slot.title && (slot.title[locale] || slot.title.en)) || slot.slug;
+      suggestionSubstitutions.push({
+        placeholder: '__SUGGESTION_' + sIdx + '_URL__',
+        value: slot.canonicalURL || (CANONICAL_URL_BASE + '/' + slot.language + '/decks/' + slot.slug + '/'),
+      });
+      suggestionSubstitutions.push({
+        placeholder: '__SUGGESTION_' + sIdx + '_TITLE__',
+        value: slotTitleLocalized,
+      });
+      suggestionSubstitutions.push({
+        placeholder: '__SUGGESTION_' + sIdx + '_THUMB__',
+        value: slot.thumbnailUrl || '',
+      });
+      note('__SUGGESTION_' + sIdx + '_*__', 'opts.suggestions[' + (sIdx - 1) + ']', slot.slug, false);
+    } else {
+      note('__SUGGESTION_' + sIdx + '_*__', 'no slot — placeholders left raw', '', true,
+        'no suggestion for slot ' + sIdx + ' (suggestions array short or absent); placeholders remain raw');
+    }
+  }
+
   // Apply substitutions. Order matters for placeholder 3 vs 10 (3 must
   // resolve first because 10's value uses the localized level). The note()
   // calls above already resolved 3 before 10 so the levelLocalized variable
@@ -217,7 +258,17 @@ function apply(opts) {
     .replace(/__LINK_TEXT_MORE_LEVEL__/g, linkTextMoreLevel)
     .replace(/__LINK_BROWSE_ALL__/g, linkBrowseAll)
     .replace(/__LINK_TEXT_BROWSE_ALL__/g, rBrowse.value)
-    .replace(/<!-- HREFLANG_INSERTION_POINT -->/g, hreflangBlock);
+    .replace(/<!-- HREFLANG_INSERTION_POINT -->/g, hreflangBlock)
+    .replace(/__DECK_END_SUGGESTIONS_HEADER__/g, rDeckEndHeader.value);
+
+  // Apply per-suggestion-slot substitutions (placeholders 15-32 per Commission B).
+  // Each substitution is a literal-string replace (placeholder is a unique token
+  // by design; no regex-special chars). String.prototype.replace with a string
+  // first-arg replaces only the first match, so we use split+join for global replace.
+  for (var subIdx = 0; subIdx < suggestionSubstitutions.length; subIdx++) {
+    var sub = suggestionSubstitutions[subIdx];
+    html = html.split(sub.placeholder).join(sub.value);
+  }
 
   return {
     html: html,

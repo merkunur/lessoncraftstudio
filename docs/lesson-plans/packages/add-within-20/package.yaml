@@ -1,0 +1,220 @@
+# Teaching package — add within 20
+# Arc 12 Phase 1 (early-numeracy / addition-subtraction 2/14 → 3/14).
+# RESOLVES Arc 11 add-within-10 forward-pointer.
+
+targetSlug: add-within-20
+language: en
+title:
+  en: "Adding Within 20 — sums up to 20"
+description:
+  en: "Grade 1 early-numeracy package teaching addition with sums up to 20. Builds on Arc 11 add-within-10 + Arc 1 add-within-5 (count-on strategy + part-whole reasoning). RESOLVES Arc 11 forward-pointer ('add within 20 — bigger sums using same count-on strategy'). Bigger sums require sustained working memory + strategy refinement (use 10 as anchor: 8+5 = 8+2+3 = 10+3 = 13). Vocab-anchored — addition vocabulary continued. Composes against math-puzzle + math-worksheet apps. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class addition-fact routine using 10-as-anchor strategy.
+      Teacher introduces: "We know 10+something is easy: 10+5=15;
+      10+3=13. Let's use 10 as a friend to help us with bigger sums."
+      Teacher shows: "8+5 — let's break 5 into 2+3. 8+2=10. 10+3=13.
+      So 8+5=13." Class follows along. Repeat with 9+4 (= 9+1+3 =
+      10+3 = 13); 7+6 (= 7+3+3 = 10+3 = 13). Reinforces make-10
+      strategy as efficient bridge to sums-within-20.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + manipulative routine using 20-frame template. Each
+      pair receives 20 cut-out objects + a 20-frame (2 rows of 10).
+      Pair plays addition games: kid A puts 8 objects in the frame;
+      kid B adds 5 more; together they count to find sum = 13. Use
+      the make-10 visual aid: fill first row to 10, then count
+      remainder in second row. Recast errors with make-10 prompt
+      ('how many more do you need to fill to 10? Then how many left?').
+      Optional extension: kids invent their own sums-within-20
+      problems for partners.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: math-worksheet (sums-within-20
+      problems). Station 2: math-puzzle addition mode. Station 3:
+      manipulative cut-outs hands-on addition with 20-frame
+      reinforcing make-10 strategy. Station 4: matching worksheet
+      (number-to-quantity matching).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class addition-quiz. Teacher displays sums-within-20
+      problems; class answers using make-10 strategy chorally.
+      Forward-pointer: "Today we added within 20. When we come back
+      to addition next, we'll learn SUBTRACTION — taking away —
+      starting with subtract-within-5 + subtract-within-10."
+
+composedExercises:
+  - appName: math-worksheet
+    exerciseMode: medium
+    customizationParameters: { difficulty: medium, numExercises: 6, operations: add, selectMode: theme }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: math-puzzle
+    exerciseMode: addition
+    customizationParameters: { languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: math-worksheet
+    exerciseMode: medium
+    customizationParameters: { difficulty: medium, numExercises: 6, operations: add, selectMode: theme }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: chart-count
+    exerciseMode: unified
+    customizationParameters: { languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: numeral-cards
+    customizationParameters:
+      numeralRange: "1-20"
+      showNumberWord: true
+      language: en
+      cardsPerPage: 9
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 20
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 10
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 40
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: early-numeracy / addition-subtraction (sums to 20).
+    Secondary strand: counting-and-cardinality (count-on + make-10
+    strategies). Tertiary strand: working-memory + strategy-selection
+    (kids choose between counting + make-10 + recall).
+
+    Architectural significance: deepens addition-subtraction strand
+    2/14 → 3/14. RESOLVES Arc 11 add-within-10 forward-pointer.
+    Make-10 strategy is the canonical Grade 1 numeracy bridge — kids
+    use 10 as anchor for sums up to 20.
+
+    Distinctive composition: 2 math-worksheet at medium difficulty +
+    1 math-puzzle addition + 1 chart-count + 1 matching. Multi-app
+    composition spans symbolic addition + concrete addition + count-
+    with-chart + vocab-anchor.
+
+    Class B FLEXIBLE substrate: composes against image-library breadth
+    + numerals 1-20.
+
+    K-3 multilingual classroom relevance: addition vocabulary +
+    make-10 strategy is universal K-3 numeracy target. Cross-locale
+    teen-number naming varies meaningfully (English 'eleven, twelve,
+    thirteen' vs French 'onze, douze, treize' — irregular forms in
+    most locales; teen-number fluency requires explicit work).
+
+curriculumStandards:
+  - CCSS.1.OA.C.6
+  - CCSS.1.OA.B.4
+  - EYFS.ELG.M
+  - IB-PYP.HowTheWorldWorks
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Solve sums-within-20 problems in 7 of 10 trials.
+      - Use make-10 strategy ('break the second number; add to make 10
+        first; add remainder') in 6 of 10 trials.
+      - Articulate make-10 reasoning ('I broke 5 into 2 plus 3; 8 plus
+        2 makes 10; 10 plus 3 is 13') in 5 of 10 productive-language
+        trials.
+
+    Differentiation:
+    - Grade K (advanced): sums to 15 with make-10 support.
+    - Grade 1: sums to 20 with make-10 strategy + 20-frame
+      manipulative.
+    - Grade 2+: extend to subtract-within-20 (Arc 13+ candidate);
+      bridge to mental addition fluency.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

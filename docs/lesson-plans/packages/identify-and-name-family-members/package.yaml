@@ -1,0 +1,264 @@
+# Teaching package — identify and name family members
+# Arc 12 Phase 1 Path A (substrate-unblocked at Stream A Phase 1 ship; early-
+# literacy / vocabulary-acquisition strand 21/24 → 22/24). FAMILY-MEMBERS
+# DEFERRAL CHAIN CLOSED. Full agent depth per Arc 5+6+7+8+9+10+11 carry-
+# forward.
+
+targetSlug: identify-and-name-family-members
+language: en
+title:
+  en: "Family Members — name the people in your family"
+description:
+  en: "Preschool / Kindergarten early-literacy package teaching family-member vocabulary. **Substrate-unblocked at Stream A Phase 1 ship (Arc 12 commencement); 7-arc deferral chain closed.** Kids identify and name 8 family-member roles: father, mother, sister, brother, grandfather, grandmother, baby, family. Foundational K-3 vocabulary connecting children to their lived experience — every kid has SOME family configuration; the package validates diverse family structures while building shared vocabulary. Vocab-anchored throughout. Composes against matching + flashcards + sentence-strips. 5 worksheet exercises + 7 printable materials over a 1-week unit. **Cross-cultural sensitivity load-bearing:** family structures vary widely across the platform's K-3 multilingual audience; the package frames family-member vocabulary as roles-kids-might-have-in-their-family rather than prescriptive nuclear-family-only structures."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class family-share routine. Teacher holds up a picture of
+      a family with 4-5 members + asks: "Who is in this family?"
+      Class identifies (father, mother, sister, brother, baby).
+      Teacher then opens space for each kid: "Who is in YOUR family?
+      You don't have to say everyone — just one or two people you
+      live with or visit often." Kids share. Teacher affirms diverse
+      configurations: "Some kids live with both parents; some with
+      one parent + grandparents; some with stepparents; some with
+      foster parents — every family is different and every family
+      is important." Reinforces that family vocabulary names ROLES
+      (the role of mother; the role of brother) rather than
+      mandating specific structures.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + family-vocabulary routine. Each pair receives 8
+      family-member picture cards (father, mother, sister, brother,
+      grandfather, grandmother, baby, family). Pair takes turns: kid
+      A holds up a card; kid B names the family member AND uses the
+      language frame ("This is a ___" / "I have a ___"). Recast
+      errors with explanation ("you said grandma — yes, 'grandma' is
+      a casual way to say 'grandmother.' Both are correct. In our
+      class we'll practice 'grandmother' for our flashcards work").
+      Optional extension: kids draw their own family + label each
+      member with a family-vocabulary word. Affirm diverse drawings
+      (single-parent families, multi-generational families, two-
+      parent families of various shapes, foster/adoptive families,
+      chosen-family configurations).
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching worksheet (family-member
+      image to family-member-name pair). Station 2: matching worksheet
+      with sentence-strips ("This is a ___" template using family-
+      member vocabulary). Station 3: manipulative cut-outs hands-on
+      family-tree construction (kids assemble simple family trees
+      using cut-out family members; teacher emphasizes that family-
+      tree shapes vary — some trees have many branches, some have
+      few; all are valid). Station 4: word-guess (kids fill in
+      family-member-word letters from picture clues).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class family-share-back. Each kid names one family member
+      they care about + uses target-language vocabulary ("My
+      grandfather lives far away" / "My baby brother is two years
+      old"). Forward-pointer: "Today we learned family-member words
+      in our target language. When we come back to family work next,
+      we'll learn FAMILY-RELATIONSHIP language — like 'this is my
+      mother's mother, who is my GRANDMOTHER' — connecting family
+      members to each other."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: word-scramble
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: [father, mother, sister, brother, grandfather, grandmother, baby, family]
+      cardCount: 8
+      cardsPerPage: 4
+      colorMode: color
+      labelDisplay: singular
+      showArticle: false
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thick
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: [father, mother, sister, brother, grandfather, grandmother, baby, family]
+      cardCount: 8
+      cardsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: [father, mother, sister, brother, grandfather, grandmother, baby, family]
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: vocabKeyList
+      vocabKeys: [father, mother, sister, brother, grandfather, grandmother, baby, family]
+      stripCount: 8
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: [father, mother, sister, brother, grandfather, grandmother, baby, family]
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 5
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: vocabKeyList
+      vocabKeys: [father, mother, sister, brother, grandfather, grandmother, baby, family]
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: early-literacy / vocabulary-acquisition (family-
+    member naming). Secondary strand: speaking-and-listening (productive
+    family-introduction language). Tertiary strand: cultural affirmation
+    + identity-validation (kids' diverse family structures = classroom
+    asset).
+
+    **Architectural significance: SUBSTRATE-UNBLOCKED PACKAGE.** Family-
+    members deferral chain extended Arc 4 → 5 → 6 → 7 → 8 → 9 → 10 → 11
+    (7 arcs). Stream A Phase 1 IMAGE_VOCABULARY extension at Arc 12
+    commencement closed the chain. This package is the FIRST of the
+    long-deferred family-vocabulary work + brings vocabulary-acquisition
+    strand from 21/24 → 22/24 (approaching saturation; only point-to-
+    named-clothing-item + identify-and-name-action-verbs remain).
+
+    Distinctive composition: 3 matching exercises across same theme
+    (family-members vocab via vocabKeyList) + 1 word-guess + 1 word-
+    scramble. The vocabKeyList material parameter is FIRST package use
+    — explicit vocab key list (rather than theme-name) lets materials
+    pull exactly the family-vocabulary set without theme-resolution
+    indirection. Pattern reusable for vocab-keyed packages with
+    specific word sets.
+
+    **Cross-cultural sensitivity load-bearing.** Multilingual K-3
+    classrooms contain diverse family structures: nuclear families,
+    single-parent, multi-generational, blended/stepfamily, foster/
+    adoptive, two-parent same-gender families, chosen families.
+    Package frames vocabulary as ROLES that kids might have in
+    their family (not all kids have all 8 roles in their daily
+    life; vocabulary remains useful regardless). Affirmation
+    framing is research-validated for academic + emotional well-
+    being (Cummins; Garcia + Wei translanguaging; CASEL framework).
+
+    Class A CLEAN substrate (post-Stream-A-Phase-1-ship): family-
+    member vocabulary in IMAGE_VOCABULARY across all 11 platform
+    locales with grammatically-correct gender data. Universal
+    substrate-readiness.
+
+    K-3 multilingual classroom relevance: family vocabulary is
+    high-frequency K-3 target across all 11 platform locales —
+    cross-cognate-rich (mother / madre / mãe / mère / mutter / mor;
+    father / padre / pai / père / vater / far). Cognate-noticing
+    work from Arc 8 notice-cognate-word-pairs composes naturally —
+    family vocab is one of the strongest cognate domains.
+
+curriculumStandards:
+  - EYFS.ELG.PSED
+  - EYFS.ELG.CL
+  - IB-PYP.WhoWeAre
+  - CCSS.K.SL.4
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Name 6 of 8 family-member vocabulary items in 8 of 10 trials.
+      - Use the "This is a ___" frame to introduce family members in
+        7 of 10 productive-language attempts.
+      - Articulate that family structures vary ('every family is
+        different') in 6 of 10 trials.
+
+    Differentiation:
+    - Pre-K: 4 most-frequent family roles (father, mother, sister,
+      brother); receptive identification primarily.
+    - K: 8 family-member roles + introduction frame.
+    - Grade 1+: extend to family-relationship vocabulary ('my mother's
+      mother is my grandmother'); bridge to extended-family vocabulary
+      (uncle, aunt, cousin) in future package.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

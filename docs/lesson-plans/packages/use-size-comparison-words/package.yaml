@@ -1,0 +1,244 @@
+# Teaching package — use size-comparison vocabulary
+# Arc 6 Phase 1 (Path B) — early-literacy / vocabulary-acquisition strand.
+# Abstract concept (size-comparison adjectives: big/small/bigger/smaller/
+# biggest/smallest/tall/short/long); image-vocabulary supports rendering
+# big/small comparisons via existing big-small app integration. Substrate-
+# clean: composes against image-library breadth + the big-small app's
+# mechanical action.
+
+targetSlug: use-size-comparison-words
+language: en
+title:
+  en: "Size Comparison Words — using big/small, bigger/smaller, tall/short"
+description:
+  en: "Kindergarten-Grade 1 vocabulary-acquisition package teaching the use of size-comparison vocabulary: big, small, bigger, smaller, biggest, smallest, tall, short, long. Bridges from spatial perception to comparative language. Composed against the big-small app's size-comparison rendering plus matching + sentence-strip materials. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class action routine. Teacher uses real classroom objects of
+      contrasting sizes (a small toy + a big toy; a short pencil + a long
+      ruler). Names each size-pair: "The car is BIG. The mouse is SMALL.
+      The truck is BIGGER than the car. The mouse is SMALLER than the
+      car." Class repeats chorally + mimics big/small with their hands
+      (arms wide for big; pinch-fingers for small). Pin size-words to
+      the math-language word wall.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pocket-chart routine with sentence strips ("The {item} is {size}").
+      Class reads chorally + acts out each strip (kids stretch tall for
+      "tall"; squat low for "short"). Pair work: kid A picks two objects
+      of different sizes; kid B compares them aloud using the target
+      size-word. Recast errors. Optional extension: comparative-
+      superlative game ("the biggest animal in the zoo is the {elephant};
+      the smallest pet is the {hamster}") — connects size-vocabulary
+      to other vocabulary clusters kids already know.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: big-small worksheet (kid identifies
+      which of 2 objects is the bigger/smaller one). Station 2: matching
+      worksheet (size-word matched to its visual representation —
+      "biggest" matched to a 3-bear lineup with the largest bear).
+      Station 3: manipulative cut-outs size-sorting (kids physically
+      sort cut-out objects from smallest to largest, then describe the
+      sequence aloud).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class quick-recall. Teacher names two classroom objects;
+      kids respond chorally with bigger/smaller. Forward-pointer: "Today
+      we learned size words. When we come back to math next, we'll use
+      these words to compare numbers — bigger numbers, smaller numbers,
+      and which is the biggest."
+
+composedExercises:
+  - appName: big-small
+    exerciseMode: find-one
+    customizationParameters: { themeSelect: animals }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: big-small
+    exerciseMode: order-n
+    customizationParameters: { themeSelect: vehicles }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: big-small
+    exerciseMode: order-n
+    customizationParameters: { themeSelect: fruits }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 2
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 12
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: false
+    ordering: 3
+    pedagogicalRole: language-frame
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: vehicles
+      stripCount: 8
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 24
+      itemSize: medium-1.5in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: vocabulary acquisition (size-comparison adjectives as
+    a closed-class function-word lexicon). Secondary strand: comparative
+    reasoning (kids form size relations between 2-3 objects). Tertiary
+    strand: cross-domain integration (size-comparison applies to
+    objects from any theme cluster — animals, vehicles, fruits, shapes).
+
+    App-package layer relationship: the big-small app (catalog deck-
+    producer) generates worksheet decks for individual size-comparison
+    exercises; this teaching package COMPOSES the app's exercises across
+    multiple theme contexts (animals, vehicles, fruits) plus complementary
+    matching + sentence-strip materials + concrete manipulative play.
+    Different layers, complementary not redundant.
+
+    Distinctive composition: 3 of 5 composedExercises use the big-small
+    app (positions 1, 3, 5) — the app's mechanical action IS the target.
+    Three theme contexts (animals, vehicles, fruits) ensure size-comparison
+    vocabulary generalizes across object categories. matching at position
+    2 reinforces vocabulary connection in non-comparative context. odd-
+    one-out at position 4 introduces "which one doesn't fit the size
+    pattern" reasoning.
+
+    Comparative-superlative cognitive load: K kids handle big/small +
+    bigger/smaller cleanly; biggest/smallest (superlative) is Grade 1+
+    cognitive territory. The package title + assessment criteria reflect
+    this graduated complexity.
+
+    Cross-strand integration: size-comparison vocabulary feeds compare-
+    quantities-more-fewer (Arc 3 numeracy) — kids who understand size
+    comparison transfer the comparative-reasoning skill to quantity
+    comparison. Reinforcement loop with measurement-strand targets
+    (compare-by-length, compare-by-weight, compare-by-capacity from
+    early-numeracy / measurement) for Grade 1+ extension.
+
+    K-3 multilingual classroom relevance: size-comparison adjectives are
+    early-acquired vocabulary across all 11 platform locales; comparative
+    morphology varies (English -er suffix; German + Nordic -er-ish; Romance
+    "más X" analytic; Finnish comparative-stem). Operator-side teachers
+    layer in locale-specific morphology at the language-render layer.
+
+curriculumStandards:
+  - CCSS.K.MD.A.1
+  - CCSS.K.MD.A.2
+  - EYFS.ELG.M
+  - EYFS.ELG.LL
+  - IB-PYP.HowWeOrganize
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Use big/small correctly to describe 2-object pairs in 8 of 10
+        trials.
+      - Use bigger/smaller correctly in comparative context in 6 of 10
+        trials.
+      - Recognize size-vocabulary in target language receptively in 9 of
+        10 trials.
+
+    Differentiation:
+    - Pre-K: big/small only (binary contrast); receptive comprehension
+      target.
+    - K: full big/small + bigger/smaller; productive use in object-
+      comparison sentences.
+    - Grade 1+: extend to biggest/smallest (superlative) + tall/short
+      + long/short distinction (length-specific vs general size) +
+      compare-by-length / compare-by-weight measurement transfers.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

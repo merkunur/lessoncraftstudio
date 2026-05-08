@@ -1,0 +1,235 @@
+# Teaching package — point to a named vehicle (receptive)
+# Arc 6 Phase 1 (Path B) — early-literacy / vocabulary-acquisition strand.
+# Receptive variant of Arc 2's identify-and-name-vehicles (productive).
+# 10-key cluster CLEAN against IMAGE_VOCABULARY (car/bus/truck/bicycle/
+# motorcycle/airplane/boat/train/helicopter/ambulance). Same receptive-
+# pairing pattern as Arc 5 Phase 3 + Arc 6 Phase 1 companions.
+
+targetSlug: point-to-named-vehicle
+language: en
+title:
+  en: "Vehicles (Receptive) — point to the named vehicle"
+description:
+  en: "Pre-K to K vocabulary-acquisition package teaching receptive recognition of 10 common vehicles: car, bus, truck, bicycle, motorcycle, airplane, boat, train, helicopter, ambulance. Receptive variant of identify-and-name-vehicles (Arc 2 productive). Vehicle vocabulary is high-interest content in K-3 classrooms; receptive comprehension precedes productive naming. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class action routine. Teacher places 10 large vehicle picture-
+      cards on the carpet or board. Names each vehicle in target language;
+      class points to the matching card chorally. Optional: vehicle-sound
+      game ("the vehicle that goes 'beep beep' is the {car}; the vehicle
+      that flies is the {airplane}") — bridges receptive recognition with
+      sensory + functional anchors. Pin to "Vehicles" word-wall area.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pocket-chart routine with picture cards. Teacher names a vehicle in
+      target language; class points to the matching picture-card. Pair
+      work: kid A names a vehicle; kid B points to it on a transportation-
+      scene poster (or picture-card set). Optional extension: kids share
+      whether they have ridden each vehicle ("I ride the bus to school";
+      "I rode an airplane on vacation") — anchors recognition in lived
+      experience.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching worksheet (image-name matching
+      reinforces vehicle-image to vehicle-word). Station 2: shadow-match
+      worksheet (vehicle silhouette to vehicle — pure visual recognition
+      + receptive vocabulary). Station 3: manipulative cut-outs counting
+      and sorting (kids count out specific named vehicles: "Show me 3
+      cars; show me 2 buses"; or sort vehicles by environment — land/sea/
+      air; bridges to identify-transportation-types per Phase 2).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class quick-recall. Teacher names vehicles rapidly; kids point
+      to the matching card on the carpet. Forward-pointer: "Today we
+      practiced understanding vehicle words. When we come back to vehicles
+      next, we'll start saying the words ourselves and use them to talk
+      about how we get around."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: vehicles, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: shadow-match
+    exerciseMode: shadowMatch
+    customizationParameters: { exerciseMode: shadowMatch, themeSelect: vehicles, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: vehicles, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: find-and-count
+    exerciseMode: unified
+    customizationParameters: { gridRows: 4, gridCols: 4, themeSelect: vehicles, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: vehicles, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: [car, bus, truck, bicycle, motorcycle, airplane, boat, train, helicopter, ambulance]
+      cardCount: 10
+      cardsPerPage: 4
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      showArticle: true
+      paperSize: a4
+      language: en
+      borderStyle: thick
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: [car, bus, truck, bicycle, motorcycle, airplane, boat, train, helicopter, ambulance]
+      cardCount: 10
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: vehicles
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: vehicles
+      mode: single-repeat
+      itemCount: 30
+      itemSize: medium-1.5in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 4
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys: [car, bus, train, boat]
+      stripCount: 4
+      stripsPerPage: 4
+      paperSize: a4
+      language: en
+    ordering: 5
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: vocabKeyList
+      vocabKeys: [car, bus, airplane, train]
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: vocabulary acquisition (RECEPTIVE — pointing to named
+    vehicle, not naming it). Secondary strand: visual discrimination
+    (vehicle silhouette recognition).
+
+    Pairing pattern with productive package: identify-and-name-vehicles
+    (Arc 2) provides the productive surface; this receptive variant
+    uses the same 10-key cluster but composes against receptive-surface
+    exercises (matching is image-to-word; shadow-match is image-to-
+    silhouette; find-and-count + odd-one-out reinforce vocabulary in
+    cognitive contexts — all surfaces require recognition, not
+    production).
+
+    Architectural validation: fourth receptive-variant package across
+    Arc 5 Phase 3 + Arc 6 Phase 1 (after body-part + farm-animal +
+    zoo-animal). Continues validation of the productive↔receptive pairing
+    pattern. The pattern continues to hold cleanly across diverse theme
+    axes; templates are stable.
+
+    Cross-package thematic complement: point-to-named-vehicle pairs
+    naturally with identify-transportation-types (Arc 5 Phase 2) — the
+    receptive variant teaches the vehicle names; the classification
+    package teaches what category each vehicle belongs to. Together
+    they form the vehicle-vocabulary core for K-3 multilingual classrooms.
+
+    Vocabulary-tracing-strips note: 4 keys (car, bus, train, boat) selected
+    for K-3 handwriting-readiness — short words; high-frequency in K-3
+    transportation-themed picture books.
+
+    K-3 multilingual classroom relevance: vehicle vocabulary varies
+    modestly across the 11 platform locales (some compound vehicle names
+    in German + Finnish; analytic patterns in Romance + Nordic). The
+    receptive package validates kids understand vehicle names regardless
+    of locale-specific morphology before pushing productive use.
+
+curriculumStandards:
+  - EYFS.ELG.UW
+  - EYFS.ELG.LL
+  - IB-PYP.HowWeOrganize
+  - IB-PYP.WhereWeAreInPlaceAndTime
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Point to the correct vehicle picture-card when teacher names it
+        in target language in 9 of 10 trials.
+      - Point to the correct vehicle in a transportation-scene context
+        (mixed vehicles visible; child finds the named one) in 8 of 10
+        trials.
+      - Match vehicle pictures to vehicle words in 8 of 10 trials.
+
+    Differentiation:
+    - Pre-K: 6-key receptive set (subset of the 10); flashcard recognition
+      only.
+    - K: 10-key receptive set; flashcard + transportation-scene context.
+    - Grade 1+: bridge to productive identify-and-name-vehicles (Arc 2)
+      + identify-transportation-types (Arc 5) — kids transition from
+      pointing to naming + classification.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

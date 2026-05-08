@@ -1294,6 +1294,20 @@
       '    var ws = document.querySelector(".lcs-worksheet");',
       '    if (!img || !ws) return;',
       '    if (!img.naturalWidth || !img.naturalHeight) return;',
+      /* Phone-landscape compact-fit is for top-level mobile viewing only.
+       * In embed iframes, the iframe viewport can match the media query
+       * (max-width:1024px + orientation:landscape) when auto-resize shrinks
+       * the frame to wide-and-short during initial load, which would trigger
+       * the destructive rules (width:100% + height:100% on the image creates
+       * a circular height dependency → image collapses to near-zero).
+       * Skip both class addition + compact-fit dimensions in embed context. */
+      '    var isEmbedded = (window.parent !== window);',
+      '    if (isEmbedded) {',
+      '      document.body.classList.remove("lcs-worksheet-landscape");',
+      '      ws.style.width = ""; ws.style.height = "";',
+      '      ws.style.maxWidth = ""; ws.style.maxHeight = "";',
+      '      return;',
+      '    }',
       '    var isLandscapeWs = img.naturalWidth > img.naturalHeight;',
       '    if (isLandscapeWs) document.body.classList.add("lcs-worksheet-landscape");',
       '    else document.body.classList.remove("lcs-worksheet-landscape");',

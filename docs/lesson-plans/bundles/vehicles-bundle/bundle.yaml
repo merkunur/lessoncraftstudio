@@ -1,0 +1,48 @@
+# Pillar 2 Phase 2 themed bundle — Vehicles
+# Theme-anchored bundle with vocab + classification packages.
+
+bundleSlug: vehicles
+themeAxisKey: vehicles
+language: en
+
+title:
+  en: "Vehicles — Complete K-3 Bundle"
+
+description:
+  en: "Comprehensive K-3 bundle centered on vehicle vocabulary + transportation classification + cross-strand work. 4 packages span vocabulary-acquisition (identify-and-name-vehicles + point-to-named-vehicle for receptive sibling) + world-knowledge classification (identify-transportation-types) + visual-discrimination (find-hidden-target-in-busy-scene composes against vehicles in busy-scene context). Suitable for a 3-4 week classroom unit on vehicles + transportation."
+
+thumbnailUrl: "/bundles/vehicles-thumbnail.png"
+
+status: draft
+
+teachingPackageSlugs:
+  - identify-and-name-vehicles
+  - point-to-named-vehicle
+  - identify-transportation-types
+  - find-hidden-target-in-busy-scene
+
+deckIds: []
+lessonPlanIds: []
+
+thematicCoherence:
+  en: |
+    All 4 packages cohere around vehicles + transportation theme.
+    Pedagogical progression: receptive vocab (point-to-named-vehicle)
+    → productive vocab (identify-and-name-vehicles) → classification
+    (identify-transportation-types: land/water/air vehicles) → visual
+    discrimination (find-hidden-target-in-busy-scene composes against
+    vehicles theme).
+
+    **Strand spread:** 2 vocabulary-acquisition + 1 world-knowledge
+    transportation + 1 visual-discrimination. Multi-strand bundle
+    with vehicle-theme anchor.
+
+    **Suggested unit duration:** 3-4 weeks. Vehicle theme is high-
+    interest for K-3; substrate intentionally narrower than Animals
+    bundle (4 packages vs 6) reflecting smaller available substrate
+    in vehicle-themed packages.
+
+    **Multilingual classroom relevance:** vehicle vocabulary high-
+    frequency K-3 target across all 11 platform locales; cognate-
+    rich Romance + Germanic locales for many vehicles (auto / Auto;
+    bicicleta / Fahrrad / cykel — varied roots).

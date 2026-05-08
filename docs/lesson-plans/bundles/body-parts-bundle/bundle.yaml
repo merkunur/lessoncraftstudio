@@ -1,0 +1,51 @@
+# Pillar 2 Phase 2 themed bundle — Body Parts
+# Theme-anchored bundle with vocab + cross-strand follow-instructions.
+
+bundleSlug: body-parts
+themeAxisKey: body_parts
+language: en
+
+title:
+  en: "Body Parts — Complete K-3 Bundle"
+
+description:
+  en: "Comprehensive K-3 bundle centered on body-parts vocabulary + receptive-language work + classroom-routine following ('touch your nose'). 3 packages span vocabulary-acquisition (identify-and-name-body-parts + point-to-named-body-part for receptive sibling) + speaking-and-listening (follow-1-step-oral-instruction from Arc 11 — body-parts vocabulary is canonical instruction-following content). Suitable for a 3-week classroom unit on body parts; supports daily-routine instruction-following + body-awareness work."
+
+thumbnailUrl: "/bundles/body-parts-thumbnail.png"
+
+status: draft
+
+teachingPackageSlugs:
+  - identify-and-name-body-parts
+  - point-to-named-body-part
+  - follow-1-step-oral-instruction
+
+deckIds: []
+lessonPlanIds: []
+
+thematicCoherence:
+  en: |
+    All 3 packages cohere around body-parts theme. Pedagogical
+    progression: receptive vocab (point-to-named-body-part) → productive
+    vocab (identify-and-name-body-parts) → vocabulary-applied receptive-
+    language (follow-1-step-oral-instruction uses body-parts as canonical
+    instruction-following content: 'touch your nose'; 'point to your
+    head').
+
+    **Strand spread:** 2 early-literacy/vocabulary-acquisition + 1
+    early-literacy/speaking-and-listening. Cross-strand within early-
+    literacy domain.
+
+    **Suggested unit duration:** 3 weeks (1 package per week).
+
+    **Daily-routine integration:** body-parts vocabulary is canonical
+    K-3 content for Simon-Says-style routines + Heads-Shoulders-Knees-
+    Toes-style action songs. Bundle supports kinesthetic + receptive
+    body-vocabulary work simultaneously.
+
+    **Multilingual classroom relevance:** body-parts vocabulary is
+    universal K-3 target across all 11 platform locales; cognate-
+    distinct (head/cabeza/tête/Kopf/huvud — varied roots; nose/nariz/
+    nez/Nase — varied; hand/mano/main/Hand — varied). Vocabulary-
+    breadth + receptive-instruction-following give high productive-
+    language leverage.

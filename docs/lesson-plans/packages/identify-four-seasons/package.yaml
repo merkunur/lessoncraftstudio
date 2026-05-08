@@ -1,0 +1,246 @@
+# Teaching package — identify the four seasons
+# Arc 10 Phase 2 (Option E world-knowledge depth; world-knowledge /
+# environment-and-weather strand FIRST package). Class B FLEXIBLE; vocab-
+# anchored. Foundational world-knowledge: kids identify spring, summer,
+# fall, and winter + name characteristics of each.
+
+targetSlug: identify-four-seasons
+language: en
+title:
+  en: "The Four Seasons — spring, summer, fall, winter"
+description:
+  en: "Kindergarten / Grade 1 world-knowledge package teaching the four seasons. FIRST environment-and-weather strand package in the catalog. Kids identify each season + name characteristic features (spring → flowers blooming + rain; summer → hot + sunny; fall → leaves changing + harvest; winter → cold + snow). Builds on Arc 8 identify-and-name-weather-words (weather vocabulary as input for season-characteristic descriptions). Vocab-anchored — season names + characteristic vocabulary. Composes against matching + word-guess apps. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class season-introduction routine. Teacher displays 4 large
+      pictures showing characteristic season scenes (spring meadow with
+      flowers; summer beach with sun; autumn forest with colorful
+      leaves; winter snowy landscape). "What do you see in each
+      picture? What season is each one?" Class identifies. Teacher
+      writes season names below each picture. Reinforces visual-cue-
+      to-season mapping.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + season-sort routine. Each pair receives 12-16 picture
+      cards showing seasonal items (umbrella, ice cream, leaf, mitten,
+      flower, beach ball, pumpkin, snowman, etc.). Pair sorts cards
+      into 4 season piles + names each pile. Recast errors with
+      explanation ("you put the umbrella in summer — let's think:
+      umbrellas keep us dry from rain. Which season has the most rain?
+      Spring! So umbrellas go with spring"). Optional extension: kids
+      describe their favorite season + 2-3 reasons why.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching worksheet (season names
+      to characteristic-image pairs). Station 2: picture-sort worksheet
+      (kids sort seasonal items into 2 seasons at a time, e.g., summer
+      vs winter). Station 3: manipulative cut-outs hands-on season-
+      construction (kids assemble season scenes from cut-out items).
+      Station 4: word-guess (kids fill in season-related vocabulary
+      from picture clues).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class season-share. Each kid names their favorite season +
+      one reason. Teacher creates a class-favorite chart. Forward-
+      pointer: "Today we learned about the four seasons. When we come
+      back to environment work next, we'll explore the DAY-NIGHT
+      cycle — what happens during day and night, and why we have
+      both."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: weather, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: weather, rightCategoryThemeSelect: clothing, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: clothing, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: weather, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: weather
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: weather
+      cardCount: 16
+      cardsPerPage: 9
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: weather
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: it-is
+      imageSource: theme
+      themeName: weather
+      stripCount: 8
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: false
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: weather
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: weather
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: world-knowledge / environment-and-weather (four
+    seasons recognition). Secondary strand: vocabulary acquisition
+    (vocab-anchored — season names + season-characteristic vocabulary).
+    Tertiary strand: classification + sorting (kids sort seasonal
+    items by season — cognitive sorting strand from Arc 5+7+8 applied
+    to seasonal context).
+
+    Architectural significance: FIRST environment-and-weather strand
+    package in the catalog. Opens the strand for additional packages:
+    identify-weather-types, describe-day-night-cycle, describe-water-
+    cycle-basic (3 unauthored targets remaining). Builds on Arc 8
+    identify-and-name-weather-words — weather vocabulary now applied
+    to season classification.
+
+    Distinctive composition: matching + picture-sort + word-guess +
+    odd-one-out alternating composition leverages multiple cognitive
+    operations on season knowledge (recognize, classify, recall,
+    exclude). The picture-sort exercise across weather + clothing
+    themes demonstrates how seasonal classification spans multiple
+    domains (weather phenomena + season-appropriate clothing).
+
+    Cross-strand integration: world-knowledge / environment-and-weather
+    + cognitive sorting (Arc 5+7+8) + vocabulary acquisition (Arc 1+5+6+
+    8). Seasonal classification is rich cross-strand surface — kids
+    use sorting skills to organize seasonal vocabulary while building
+    world-knowledge.
+
+    Class B FLEXIBLE substrate: composes against weather + clothing
+    + nature themes. Substrate-readiness universal across themes that
+    have meaningful season-characteristic items.
+
+    K-3 multilingual classroom relevance: season experiences vary
+    significantly across the platform's 11 locales — Nordic locales
+    have extreme winter; Mediterranean locales have mild winter;
+    pt-BR has tropical seasons (estação chuvosa vs estação seca rather
+    than 4 distinct seasons). The package's universal-4-seasons
+    framing handles temperate-zone locales (en, de, fr, sv, da, no,
+    fi, etc.); Phase 3 sparse-overrides can adapt for tropical locales
+    (pt-BR specifically would describe Brazilian regional climate
+    variation rather than 4 universal seasons).
+
+curriculumStandards:
+  - EYFS.ELG.UW
+  - IB-PYP.WhereWeAreInPlaceAndTime
+  - NGSS.K-ESS2-1
+  - CCSS.K.SL.1
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Name all 4 seasons in correct cyclic order (spring → summer →
+        fall → winter → spring) in 8 of 10 trials.
+      - Sort 12 seasonal items into 4 season piles correctly in 7 of
+        10 attempts.
+      - Articulate one characteristic of each season ('summer is hot';
+        'winter has snow') in 7 of 10 trials.
+
+    Differentiation:
+    - Pre-K: 2 contrasting seasons (summer vs winter); receptive
+      identification only.
+    - K: all 4 seasons; sort + name with picture support.
+    - Grade 1+: extend to month-to-season mapping (March-May = spring,
+      etc.) + bridge to weather-cycle work (describe-water-cycle-basic
+      Arc 11+ candidate).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

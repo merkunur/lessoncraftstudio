@@ -1,0 +1,246 @@
+# Teaching package — describe the plant life cycle (seed → sprout → plant → flower)
+# Arc 10 Phase 2 (Option E world-knowledge depth; world-knowledge / living-
+# things strand deepening). Class B FLEXIBLE; vocab-anchored. Builds on
+# existing classify-animals-by-diet + classify-animals-by-habitat (Arc 5);
+# living-things strand grows 2/6 → 3/6.
+
+targetSlug: describe-plant-life-cycle
+language: en
+title:
+  en: "Plant Life Cycle — from seed to flower"
+description:
+  en: "Kindergarten / Grade 1 world-knowledge package teaching the plant life cycle. Builds on existing classify-animals-by-diet + classify-animals-by-habitat (living-things strand from Arc 5). Kids learn the 4-stage plant cycle: seed → sprout → growing plant → flowering plant. Foundational world-knowledge: plants are alive, grow over time in stages, and produce seeds that start the cycle again. Vocab-anchored — plant-cycle vocabulary (seed, sprout, root, stem, leaf, flower, petal). Composes against picture-sort + matching apps for sequential life-cycle work. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class life-cycle introduction. Teacher displays 4 picture
+      cards in random order: seed, sprout (small green shoot),
+      growing plant with leaves, flowering plant with bloom. "These
+      are pictures of a plant's LIFE — from when it starts as a tiny
+      seed all the way to when it flowers. Can you put them in
+      ORDER?" Class arranges. Teacher confirms + chants the sequence:
+      "Seed → sprout → plant → flower." Reinforces the sequential
+      nature of life-cycle vocabulary.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + life-cycle-sequence routine. Each pair receives 4
+      pictures showing the life-cycle stages + a sequence-strip
+      template. Pair arranges pictures in correct order on the strip.
+      Teacher narrates: "First, a SEED is planted in soil. Soon,
+      the seed SPROUTS — a tiny green shoot pushes up. The plant
+      GROWS bigger, growing roots and leaves. Finally, the plant
+      FLOWERS — and the flower makes new SEEDS, which start the
+      cycle again." Recast errors with explanation. Optional
+      extension: kids draw their own plant-cycle sequence.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching worksheet (life-cycle
+      stage to image). Station 2: picture-sort worksheet (kids sort
+      pictures into 'plant' vs 'not-plant' categories — bridge from
+      Arc 5 sort-by-category). Station 3: manipulative cut-outs hands-
+      on cycle-construction (kids assemble the 4-stage cycle as
+      circular sequence; reinforces cyclic nature). Station 4: word-
+      guess (kids fill in plant-cycle vocabulary from picture clues).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class cycle-recall. Teacher displays the 4 stages out of
+      order; class collectively orders them. Forward-pointer: "Today
+      we learned about the plant life cycle. When we come back to
+      living things next, we'll learn about ANIMAL life cycles —
+      especially the BUTTERFLY, whose life cycle has even more
+      stages than the plant."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: animals, rightCategoryThemeSelect: vehicles, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: fruits, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: fruits
+      cardCount: 8
+      cardsPerPage: 4
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: fruits
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: fruits
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: fruits
+      stripCount: 8
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: fruits
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: fruits
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: world-knowledge / living-things (plant life cycle).
+    Secondary strand: vocabulary acquisition (vocab-anchored — plant-
+    parts vocabulary: seed, sprout, root, stem, leaf, flower, petal).
+    Tertiary strand: sequencing + cyclic reasoning (kids order stages
+    + recognize the cycle returns to beginning).
+
+    Architectural significance: deepens living-things strand from 2/6
+    → 3/6. Builds on Arc 5 classify-animals-by-diet + classify-animals-
+    by-habitat (existing living-things packages). Plant life cycle
+    extends "living-things" from animal-classification to plant-process
+    — covers both kingdoms in living-things strand.
+
+    Distinctive composition: matching + picture-sort + matching + word-
+    guess + odd-one-out — multi-app composition spans recognition,
+    classification, recall, and exclusion. The 5-exercise composition
+    targets life-cycle knowledge from multiple cognitive angles.
+
+    Cross-strand integration: world-knowledge living-things + sequencing
+    cognition (Arc 5 ordering work) + vocabulary acquisition. Life-
+    cycle work is rich cross-strand surface — sequential reasoning
+    + new vocabulary + scientific concept all activated simultaneously.
+
+    Class B FLEXIBLE substrate: composes against fruits theme (which
+    contains plant-products) + image-library breadth. Substrate-
+    readiness universal across themes that have plant-related items.
+
+    K-3 multilingual classroom relevance: plant-life-cycle vocabulary
+    is high-frequency K-3 science target across all 11 platform
+    locales. Cognate richness across Romance locales: seed (en) /
+    semilla (es) / semente (pt-BR) / semence (fr) / seme (it). Plant
+    growing observations are universal — kids in any locale can
+    observe plants growing; the package's universality makes it
+    cross-locale-portable. Sequential narrative ('first the seed,
+    then the sprout, then...') is exactly the kind of sequence-
+    narration grammatical practice K-3 multilingual classrooms need.
+
+curriculumStandards:
+  - EYFS.ELG.UW
+  - IB-PYP.HowTheWorldWorks
+  - NGSS.K-LS1-1
+  - NGSS.2-LS2-1
+  - CCSS.K.SL.4
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Order 4 plant-life-cycle pictures correctly (seed → sprout →
+        plant → flower) in 8 of 10 trials.
+      - Name 4 of 6 plant-parts vocabulary items (seed, sprout, root,
+        stem, leaf, flower) in 7 of 10 trials.
+      - Articulate the cyclic nature of the life cycle ('the flower
+        makes seeds that start the cycle again') in 5 of 10 productive-
+        language attempts.
+
+    Differentiation:
+    - Pre-K: 3-stage cycle only (seed → plant → flower); receptive
+      ordering only.
+    - K: 4-stage cycle (seed → sprout → plant → flower); productive
+      naming.
+    - Grade 1+: extend to 5-6 stage cycle (seed → root-growth → sprout
+      → plant → flower → seed-production); bridge to butterfly life
+      cycle (describe-butterfly-life-cycle Arc 11+ candidate).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

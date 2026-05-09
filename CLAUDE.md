@@ -1289,6 +1289,53 @@ When generation-side emit-defects produce structurally-broken manifests across a
 
 Origin: `9051b43d` (theme rewriter) + `0f0c648d` (exercise-mode rewriter).
 
+### 15.18 Inbound-link surface counter + gate doctrine
+
+`scripts/publish-cli/count-inbound-surfaces.js` (Phase 4b CJS port from `frontend/lib/seo/count-inbound-surfaces.ts`) implements the 8-surface inbound-link counter consumed by `reconcileInboundLinkSurface` predicate at `seo-reconciliation.js:708`. Counts presence across:
+
+1. exerciseTypeTopicPage (always-true for published)
+2. educationalLevelTopicPage (always-true via §17.8.6 mapping)
+3. themeTopicPages (true when subjectTags non-empty)
+4. siblingAxisStrip (true when locale has ≥2 distinct exerciseTypes)
+5. varietyStripRotation (always-true; rotational §16.2)
+6. crossAxisPivots (always-true; §16.2 + Arc 6a)
+7. deckEndSuggestionStrip (true when locale catalog ≥7 decks)
+8. breadthGridFeatured (Phase 3a conservative `false`)
+
+Predicate fires `INBOUND_LINK_COUNT_BELOW_TARGET` when `count < 3` per concern 4 minimum invariant. WARN-class pre-Phase-5; HALT-class post-Phase-5 close per concern 4 escalation schedule.
+
+#### 15.18.1 bulk.js wire-in gap discipline
+
+`scripts/publish-cli/publish.js` (single-publish path) wires `db.findExistingByTitleHash` + `db.findExistingByDescriptionHash` directly at the `reconcileDeckPageSEO` call (lines 205-206). `scripts/publish-cli/bulk.js` (batch path) threads through `ctx.X` from `opts.X` at ctx construction (lines 579-582); but `index.js` (the bulk.dryRunBatch / publishBatch caller at lines 335 + 383) does NOT populate these opts. Production runs receive `undefined` and the predicate's same-locale uniqueness checks silently no-op-pass.
+
+This is the **structurally identical wire-in gap** that Phase 4b closed for `countInboundFn` via default-fallback at ctx construction (`opts.countInboundFn || countInboundMod.countInboundSurfacesForDeck` per `bulk.js` post-`13b7f407`). publish.js (single-publish) wires correctly; bulk.js (batch) falls through unless caller populates opts.
+
+**§A.13.3 candidate at any future bulk.js touch.** When a future commission opens bulk.js for editing, audit `opts.findExistingBy*` callbacks for the same wire-in gap and apply default-fallback pattern matching Phase 4b's countInboundFn closure. OR commission a small `[FIX][PUBLISH-CLI]` scoped to close the gap structurally (estimated <30 LoC + tests).
+
+**Why surfaced as doctrine vs auto-fix:** Phase 4b scope was bounded to countInboundFn per operator commission. Expanding scope mid-execution to fix the parallel title_hash + description_hash wire-in would have crossed §A.13.6 spec-vs-shipped-contract conflict surface; surfaced for explicit operator adjudication rather than silent absorption.
+
+Origin: Phase 4b close-out Item 12; codified at Phase 6 fold.
+
+#### 15.18.2 Pre-publish-state vs post-publish-state semantics for inbound predicate
+
+The inbound-link predicate has a semantic mismatch at dry-run boundary: predicate calls `countInboundFn(deckId, language)` where `deckId` derives from `manifest.deck_id` (operator-space identifier, e.g., `big-small-findbig-en-20260507200010`); helper does `findUnique({where: {id: deckId}})` against `Deck.id` (Prisma CUID, e.g., `cml1k9...`). For pre-publish dry-run, `manifest.deck_id ≠ DB CUID` → `findUnique` returns `null` → helper returns `count: 0` → `0 < 3` → predicate fires.
+
+This is **technically correct** for the deck's actual current DB state (pre-publish, no row), but it surfaces every dry-run as predicate-firing rather than the conceptually-meaningful "post-publish projection."
+
+**Three resolution paths to consider at fold cycle:**
+
+- **Option A — pre-publish skip:** predicate skips for INSERT-path dry-run; runs only for UPDATE-path (existing DB row). Limits predicate's reach to UPDATE flow.
+- **Option B — post-publish projection:** helper accepts `(language, exerciseType, ageRange, subjectTags)` directly from manifest; computes projected count by counting WHAT the deck WILL belong to post-publish. Restructures helper signature.
+- **Option C — defer-empirical-resolution:** keep current semantics; rely on Phase 5 HALT-class flip + post-publish revalidation cycle to surface real-state count via empirical halt rate.
+
+**Phase 5 close authorized WARN→HALT flip despite this concern.** Operational consequence: any new publish whose deck reaches <3 inbound surfaces aborts publish-bulk batch. For typical en deck pre-publish dry-run state where deck doesn't yet exist in DB, predicate returns count=0 and fires HALT-class. Operator-strategic intervention may be required if production workflow surfaces unexpected halts at scale.
+
+**Trigger condition for resolution.** If empirical halt rate at Track C deck-publish exceeds operator-tolerable threshold (operator-defined; suggested ~5% baseline), commission resolution per A/B/C above. If empirical halt rate stays at ~0% (typical-publish path doesn't trip the pre-publish-state edge case), no resolution needed.
+
+**Cross-reference §A.13.7 first-publish-verification cadence:** the inbound predicate's empirical behavior surfaces at first-publish per app per locale. Track per-app first-publish events for halt-class fires; resolve only at empirical surface.
+
+Origin: Phase 4b close-out Item 13 + Phase 5 risk acceptance; codified at Phase 6 fold.
+
 ## 16. Topic destination pages
 
 Topic destination pages are the primary teacher-facing surface and the deliberate divergence from education.com's flat search results. Each page is a curated bundle of resources for a specific (axis × axis-value × locale) combination per the α-granular schema in §16.5 — one of three axes: exercise-type, theme, or educational-level. URL pattern: `/<locale>/topic/<native-language-slug>/` per §17.4 (locale-prefixed; native-language slug; trailing slash; `topic` is an English path constant).

@@ -740,11 +740,18 @@ async function reconcileInboundLinkSurface(opts) {
     };
   }
 
+  // §15.18.2 UPDATE-path lookup-correction: use thisDeckIdRaw (Prisma CUID)
+  // for countInboundFn lookup, NOT deckId (manifest.deck_id operator-space).
+  // count-inbound-surfaces.js: findUnique({where: {id: ...}}) expects Prisma CUID.
+  // Fall back to deckId only if thisDeckIdRaw is undefined (direct call without
+  // orchestrator) — backwards-compat with pre-Item-13 callers.
+  var lookupDeckId = (opts && opts.thisDeckIdRaw) ? opts.thisDeckIdRaw : deckId;
+
   // Checkpoint 1: helper not yet shipped. If caller provides opts.countInboundFn
   // (Checkpoint 2 wire-in), use it; otherwise return CLEAN with stub flag.
   if (opts && typeof opts.countInboundFn === 'function') {
     try {
-      var result = await opts.countInboundFn(deckId, opts.language);
+      var result = await opts.countInboundFn(lookupDeckId, opts.language);
       var target = (opts.target != null) ? opts.target : 3;
       if (result.count < target) {
         return {

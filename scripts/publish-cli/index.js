@@ -71,6 +71,22 @@ var SCHEMAS = {
       '--language': 'value',
       '--confirm': 'bool'
     }
+  },
+  // [ARC][SEO][DECK-PAGE] Phase 4a Checkpoint 1 — existing-deck retrofit pass
+  // via republish-seo mode. Walks /var/www/lcs-media/decks/<locale>/<slug>-v<N>/
+  // deck.html files, re-emits SEO surface via SEO_INSERTION_POINT marker pair,
+  // converts celebration <h1> → <h2> in body, backfills Deck.titleHash +
+  // Deck.descriptionHash DB columns. Per §15.17 salvage-script pattern.
+  'republish-seo': {
+    positional: [],
+    flags: {
+      '--language': 'value',     // 'en' | 'de' | ... | 'all'; required
+      '--slug': 'value',         // optional: target single slug
+      '--dry-run': 'bool',
+      '--confirm': 'bool',       // required for non-dry-run
+      '--backup-dir': 'value',   // optional belt-and-suspenders backup
+      '--base-dir': 'value'      // optional override of /var/www/lcs-media/decks
+    }
   }
 };
 
@@ -82,9 +98,14 @@ function usage() {
   console.error('                                                          [--updates-manifest <path>]');
   console.error('                                                          [--batch-id <name>] [--staging-dir <path>]');
   console.error('  node scripts/publish-cli/index.js unpublish <slug> --language <locale> --confirm');
+  console.error('  node scripts/publish-cli/index.js republish-seo --language <locale|all> [--slug <slug>]');
+  console.error('                                                  [--dry-run | --confirm]');
+  console.error('                                                  [--backup-dir <path>] [--base-dir <path>]');
   console.error('');
   console.error('Phase 4 ships publish-bulk (real + --dry-run) with strict-arg parsing.');
   console.error('Phase 5 ships single-deck unpublish + block-on-archived UPDATE/INSERT.');
+  console.error('[ARC][SEO][DECK-PAGE] Phase 4a Checkpoint 1 ships republish-seo retrofit mode');
+  console.error('  for existing-deck SEO surface re-emission via SEO_INSERTION_POINT marker pair.');
   console.error('Bulk real-publish requires --confirm; --updates-manifest opts ZIPs into UPDATE path.');
 }
 
@@ -399,6 +420,54 @@ async function publishBulkCmd(parsed) {
   }
 }
 
+async function republishSeoCmd(parsed) {
+  var republish = require('./republish-seo').republishSeo;
+  var db = require('./db');
+
+  var language = parsed.flags['--language'];
+  var slug = parsed.flags['--slug'] || null;
+  var dryRunMode = !!parsed.flags['--dry-run'];
+  var confirm = !!parsed.flags['--confirm'];
+  var backupDir = parsed.flags['--backup-dir'] || null;
+  var baseDir = parsed.flags['--base-dir'] || null;
+
+  if (!language) {
+    console.error('USAGE ERROR: republish-seo requires --language flag (or --language all)');
+    console.error('');
+    usage();
+    await db.disconnect();
+    process.exit(2);
+  }
+  if (!dryRunMode && !confirm) {
+    console.error('[republish-seo] ABORT — real-mode requires --confirm.');
+    console.error('               Use --dry-run for non-side-effecting pre-flight.');
+    await db.disconnect();
+    process.exit(2);
+  }
+  if (dryRunMode && confirm) {
+    console.error('[republish-seo] ABORT — --dry-run and --confirm are mutually exclusive.');
+    await db.disconnect();
+    process.exit(2);
+  }
+
+  try {
+    var result = await republish({
+      language: language,
+      slug: slug,
+      dryRun: dryRunMode,
+      backupDir: backupDir,
+      baseDir: baseDir
+    });
+    await db.disconnect();
+    process.exit(result.ok ? 0 : 1);
+  } catch (e) {
+    console.error('[republish-seo] FAIL: ' + e.message);
+    if (e.stack) console.error(e.stack);
+    await db.disconnect();
+    process.exit(1);
+  }
+}
+
 async function unpublishCmd(parsed) {
   var unpublishMod = require('./unpublish');
   var db = require('./db');
@@ -479,6 +548,10 @@ function main() {
 
   if (parsed.cmd === 'unpublish') {
     return unpublishCmd(parsed);
+  }
+
+  if (parsed.cmd === 'republish-seo') {
+    return republishSeoCmd(parsed);
   }
 
   // Unreachable: parseStrict already validated the cmd.

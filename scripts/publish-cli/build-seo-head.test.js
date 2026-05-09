@@ -11,6 +11,7 @@
 var assert = require('assert');
 var buildSeoHeadMod = require('./build-seo-head');
 var buildSeoHead = buildSeoHeadMod.buildSeoHead;
+var deriveExerciseModeName = buildSeoHeadMod.deriveExerciseModeName;
 
 var passCount = 0;
 var failCount = 0;
@@ -256,6 +257,89 @@ test('handles empty exerciseTypeName gracefully', function () {
   // Should still emit; title becomes " Worksheet — Animals — __EDUCATIONAL_LEVEL_LOCALIZED__ | LessonCraftStudio"
   assert.ok(out.indexOf('<title>') !== -1);
   assert.ok(out.indexOf('| LessonCraftStudio') !== -1);
+});
+
+console.log('');
+console.log('Phase 4a Checkpoint 2.5 (θ): exercise_mode discriminator:');
+
+test('default mode (exerciseModeName = null): title has NO mode segment', function () {
+  var out = buildSeoHead(optsFixture({ exerciseModeName: null }));
+  // Expected: "Addition Worksheet — Animals — __EDUCATIONAL_LEVEL_LOCALIZED__ | LessonCraftStudio"
+  assert.ok(out.indexOf('<title>Addition Worksheet — Animals — __EDUCATIONAL_LEVEL_LOCALIZED__ | LessonCraftStudio</title>') !== -1);
+});
+
+test('non-default mode (exerciseModeName = "Find Addend"): title HAS mode segment', function () {
+  var out = buildSeoHead(optsFixture({ exerciseModeName: 'Find Addend' }));
+  // Expected: "Addition Find Addend Worksheet — Animals — __EDUCATIONAL_LEVEL_LOCALIZED__ | LessonCraftStudio"
+  assert.ok(out.indexOf('<title>Addition Find Addend Worksheet — Animals — __EDUCATIONAL_LEVEL_LOCALIZED__ | LessonCraftStudio</title>') !== -1,
+    'title contains "Find Addend" segment');
+});
+
+test('non-default mode: description ALSO has mode segment', function () {
+  var out = buildSeoHead(optsFixture({ exerciseModeName: 'Find Addend' }));
+  assert.ok(out.indexOf('Free interactive Addition Find Addend Worksheet (Animals) for __EDUCATIONAL_LEVEL_LOCALIZED__') !== -1,
+    'description contains "Find Addend" segment');
+});
+
+test('default mode: description has NO mode segment', function () {
+  var out = buildSeoHead(optsFixture({ exerciseModeName: null }));
+  assert.ok(out.indexOf('Free interactive Addition Worksheet (Animals) for __EDUCATIONAL_LEVEL_LOCALIZED__') !== -1,
+    'description has no mode segment');
+});
+
+test('empty string exerciseModeName treated as null (default mode)', function () {
+  var out = buildSeoHead(optsFixture({ exerciseModeName: '' }));
+  assert.ok(out.indexOf('<title>Addition Worksheet — Animals — __EDUCATIONAL_LEVEL_LOCALIZED__ | LessonCraftStudio</title>') !== -1);
+});
+
+test('German title with mode preserves capitalization', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'de',
+    exerciseTypeName: 'Subtraktion',
+    worksheetWord: 'Arbeitsblatt',
+    themeName: 'Tiere',
+    exerciseModeName: 'Cross Out'
+  }));
+  assert.ok(out.indexOf('<title>Subtraktion Cross Out Arbeitsblatt — Tiere — __EDUCATIONAL_LEVEL_LOCALIZED__ | LessonCraftStudio</title>') !== -1);
+});
+
+console.log('');
+console.log('deriveExerciseModeName helper:');
+
+test('deriveExerciseModeName("find-addend") → "Find Addend"', function () {
+  assert.strictEqual(deriveExerciseModeName('find-addend'), 'Find Addend');
+});
+
+test('deriveExerciseModeName("secret-word") → "Secret Word"', function () {
+  assert.strictEqual(deriveExerciseModeName('secret-word'), 'Secret Word');
+});
+
+test('deriveExerciseModeName("cross-out") → "Cross Out"', function () {
+  assert.strictEqual(deriveExerciseModeName('cross-out'), 'Cross Out');
+});
+
+test('deriveExerciseModeName("image-image") → "Image Image"', function () {
+  assert.strictEqual(deriveExerciseModeName('image-image'), 'Image Image');
+});
+
+test('deriveExerciseModeName(null) → null', function () {
+  assert.strictEqual(deriveExerciseModeName(null), null);
+});
+
+test('deriveExerciseModeName("") → null', function () {
+  assert.strictEqual(deriveExerciseModeName(''), null);
+});
+
+test('deriveExerciseModeName(undefined) → null', function () {
+  assert.strictEqual(deriveExerciseModeName(undefined), null);
+});
+
+test('deriveExerciseModeName(non-string) → null (e.g., number)', function () {
+  assert.strictEqual(deriveExerciseModeName(42), null);
+});
+
+test('deriveExerciseModeName("simple") → "Simple" (single word, no hyphen)', function () {
+  assert.strictEqual(deriveExerciseModeName('simple'), 'Simple');
 });
 
 console.log('');

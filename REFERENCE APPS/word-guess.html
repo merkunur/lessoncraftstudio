@@ -3938,9 +3938,15 @@ async function downloadPDF(canvasToExport, fileName = 'download', opts) {
 
             // SEO inputs for the deck.html surface (Brief A §4)
             var _t = (typeof t === 'function') ? t : function(k){return null;};
+            // Phase 4a Checkpoint 2.5 (θ): exercise_mode discriminator
+            var rawExerciseMode = (options && options.exerciseMode) || null;
+            var exerciseModeName = (window.LCSCatalogExport && LCSCatalogExport.deriveExerciseModeName)
+                ? LCSCatalogExport.deriveExerciseModeName(rawExerciseMode)
+                : null;
             var seoMeta = {
                 exerciseTypeSlug: 'word-guess',
                 exerciseTypeName: canvas.lcsLocalizedTitle || 'Word Guess Practice',
+                exerciseModeName: exerciseModeName,
                 themeName: (window.LCSCatalogExport && window.LCSCatalogExport.deriveThemeName)
                     ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('themeSelect'), customMode: (typeof customWordListMode !== 'undefined' && customWordListMode === true) })
                     : null,
@@ -3958,6 +3964,7 @@ async function downloadPDF(canvasToExport, fileName = 'download', opts) {
                     locale: deckLocale,
                     translations: window.translations || {},
                     exerciseTypeName: seoMeta.exerciseTypeName,
+                    exerciseModeName: seoMeta.exerciseModeName,
                     themeName: seoMeta.themeName,
                     instruction: seoMeta.instruction,
                     keys: {
@@ -4418,6 +4425,7 @@ async function downloadPDF(canvasToExport, fileName = 'download', opts) {
                     language: lang,
                     exerciseTypeName: displayTitle,
                     exerciseTypeSlug: seo.exerciseTypeSlug || "word-guess",
+                    exerciseModeName: seo.exerciseModeName || null,
                     themeName: seo.themeName || null,
                     worksheetWord: seo.worksheetWord || 'Worksheet',
                     instruction: seo.instruction || '',
@@ -4613,20 +4621,22 @@ async function downloadPDF(canvasToExport, fileName = 'download', opts) {
             try {
                 // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2: pre-build bundle so
                 // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
-                var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline' });
-                var getBundle = async function () { return cachedBundle; };
-                // Commission ε emit-site fix: difficulty radio drives mode (0=no-clues null default vs 2=easy / 4=normal / 6=tough).
                 var manifestMeta = buildCatalogManifestSettings();
-                manifestMeta.seo_trace = cachedBundle && cachedBundle.seoTrace ? cachedBundle.seoTrace : null;
                 var diffEl = document.querySelector('input[name="difficulty"]:checked');
                 var difficulty = diffEl ? parseInt(diffEl.value, 10) : 0;
                 var difficultyMap = { 2: 'easy', 4: 'normal', 6: 'tough' };
                 var derivedExerciseMode = difficultyMap[difficulty] || null;
+                // Phase 4a Checkpoint 2.5 (θ): hoist exerciseMode for seoMeta discriminator
+                var exerciseModeForBundle = derivedExerciseMode;
+                var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline', exerciseMode: exerciseModeForBundle });
+                var getBundle = async function () { return cachedBundle; };
+                // Commission ε emit-site fix: difficulty radio drives mode (0=no-clues null default vs 2=easy / 4=normal / 6=tough).
+                manifestMeta.seo_trace = cachedBundle && cachedBundle.seoTrace ? cachedBundle.seoTrace : null;
                 var result = await window.LCSCatalogExport.export({
                     app: { name: 'word-guess', version: '13.0.0', bundleVersion: 13 },
                     language: window.currentLocale || 'en',
                     exerciseType: 'word-guess',
-                    exerciseMode: derivedExerciseMode,
+                    exerciseMode: exerciseModeForBundle,
                     producers: {
                         pdf: function () { return downloadPDF(worksheetCanvas, 'printable', { returnBlob: true }); },
                         answerKey: function () { return downloadPDF(answerKeyCanvas, 'answer-key', { returnBlob: true }); },

@@ -2536,9 +2536,15 @@
 
           // SEO inputs for the deck.html surface (Brief A §4)
           var _t = (typeof t === 'function') ? t : function(k){return null;};
+          // Phase 4a Checkpoint 2.5 (θ): exercise_mode discriminator
+          var rawExerciseMode = (options && options.exerciseMode) || null;
+          var exerciseModeName = (window.LCSCatalogExport && LCSCatalogExport.deriveExerciseModeName)
+              ? LCSCatalogExport.deriveExerciseModeName(rawExerciseMode)
+              : null;
           var seoMeta = {
               exerciseTypeSlug: 'shadow-match',
               exerciseTypeName: canvas.lcsLocalizedTitle || (pd.mode === 'makeItWhole' ? 'Make It Whole' : 'Shadow Match'),
+              exerciseModeName: exerciseModeName,
               themeName: (window.LCSCatalogExport && window.LCSCatalogExport.deriveThemeName)
                   ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('themeSelect') })
                   : null,
@@ -2556,6 +2562,7 @@
                   locale: deckLocale,
                   translations: window.translations || {},
                   exerciseTypeName: seoMeta.exerciseTypeName,
+                  exerciseModeName: seoMeta.exerciseModeName,
                   themeName: seoMeta.themeName,
                   instruction: seoMeta.instruction,
                   keys: {
@@ -3005,6 +3012,7 @@
                   language: lang,
                   exerciseTypeName: displayTitle,
                   exerciseTypeSlug: seo.exerciseTypeSlug || "shadow-match",
+                  exerciseModeName: seo.exerciseModeName || null,
                   themeName: seo.themeName || null,
                   worksheetWord: seo.worksheetWord || 'Worksheet',
                   instruction: seo.instruction || '',
@@ -3196,7 +3204,9 @@
           try {
               // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2: pre-build bundle so
               // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
-              var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline' });
+              // Phase 4a Checkpoint 2.5 (θ): hoist exerciseMode for seoMeta discriminator
+              var exerciseModeForBundle = (document.getElementById('exerciseModeSelect') && document.getElementById('exerciseModeSelect').value) || null;
+              var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline', exerciseMode: exerciseModeForBundle });
               var getBundle = async function () { return cachedBundle; };
               var manifestMeta = buildCatalogManifestSettings();
               manifestMeta.seo_trace = cachedBundle && cachedBundle.seoTrace ? cachedBundle.seoTrace : null;
@@ -3204,7 +3214,7 @@
                   app: { name: 'shadow-match', version: '23.1.0', bundleVersion: 23 },
                   language: window.currentLocale || 'en',
                   exerciseType: 'shadow-match',
-                  exerciseMode: (document.getElementById('exerciseModeSelect') && document.getElementById('exerciseModeSelect').value) || null,
+                  exerciseMode: exerciseModeForBundle,
                   producers: {
                       pdf: function () { return downloadPDF(worksheetCanvas, { returnBlob: true }); },
                       answerKey: function () { return downloadPDF(answerKeyCanvas, { returnBlob: true }); },

@@ -4412,9 +4412,15 @@ async function downloadPDF(canvasToExport, fileName, opts) {
 
             // SEO inputs for the deck.html surface (Brief A §4)
             var _t = (typeof t === 'function') ? t : function(k){return null;};
+            // Phase 4a Checkpoint 2.5 (θ): exercise_mode discriminator
+            var rawExerciseMode = (options && options.exerciseMode) || null;
+            var exerciseModeName = (window.LCSCatalogExport && LCSCatalogExport.deriveExerciseModeName)
+                ? LCSCatalogExport.deriveExerciseModeName(rawExerciseMode)
+                : null;
             var seoMeta = {
                 exerciseTypeSlug: 'cryptogram',
                 exerciseTypeName: canvas.lcsLocalizedTitle || 'Cryptogram Practice',
+                exerciseModeName: exerciseModeName,
                 themeName: (window.LCSCatalogExport && window.LCSCatalogExport.deriveThemeName)
                     ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('themeSelect') })
                     : null,
@@ -4432,6 +4438,7 @@ async function downloadPDF(canvasToExport, fileName, opts) {
                     locale: deckLocale,
                     translations: window.translations || {},
                     exerciseTypeName: seoMeta.exerciseTypeName,
+                    exerciseModeName: seoMeta.exerciseModeName,
                     themeName: seoMeta.themeName,
                     instruction: seoMeta.instruction,
                     keys: {
@@ -4945,6 +4952,7 @@ async function downloadPDF(canvasToExport, fileName, opts) {
                     language: lang,
                     exerciseTypeName: displayTitle,
                     exerciseTypeSlug: seo.exerciseTypeSlug || "cryptogram",
+                    exerciseModeName: seo.exerciseModeName || null,
                     themeName: seo.themeName || null,
                     worksheetWord: seo.worksheetWord || 'Worksheet',
                     instruction: seo.instruction || '',
@@ -5179,17 +5187,19 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             try {
                 // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2: pre-build bundle so
                 // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
-                var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline' });
+                var manifestMeta = buildCatalogManifestSettings();
+                var derivedExerciseMode = null;
+                // Phase 4a Checkpoint 2.5 (θ): hoist exerciseMode for seoMeta discriminator
+                var exerciseModeForBundle = derivedExerciseMode;
+                var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline', exerciseMode: exerciseModeForBundle });
                 var getBundle = async function () { return cachedBundle; };
                 // Commission ε emit-site fix: single-mode contract per locked taxonomy.
-                var manifestMeta = buildCatalogManifestSettings();
                 manifestMeta.seo_trace = cachedBundle && cachedBundle.seoTrace ? cachedBundle.seoTrace : null;
-                var derivedExerciseMode = null;
                 var result = await window.LCSCatalogExport.export({
                     app: { name: 'cryptogram', version: '16.0.0', bundleVersion: 16 },
                     language: window.currentLocale || 'en',
                     exerciseType: 'cryptogram',
-                    exerciseMode: derivedExerciseMode,
+                    exerciseMode: exerciseModeForBundle,
                     producers: {
                         pdf: function () { return downloadPDF(worksheetCanvas, 'printable.pdf', { returnBlob: true }); },
                         answerKey: function () { return downloadPDF(answerKeyCanvas, 'answer-key.pdf', { returnBlob: true }); },

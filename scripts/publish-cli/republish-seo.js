@@ -244,17 +244,45 @@ function resolveSeoOpts(c) {
   // forms a valid sentence via "Free interactive {type} worksheet ({theme}) for
   // {level}. Print or play online."
 
+  // Phase 4a Checkpoint 2.5 (θ): exercise_mode discriminator for title
+  // uniqueness invariant (Phase 2 §1). Class A.1: source from
+  // manifest.seo_trace.title.modeName.value (post-Phase-3b shape).
+  // Class A.2/B: derive from manifest.exercise_mode via title-case
+  // conversion (mirror of catalog-export.js deriveExerciseModeName).
+  var exerciseModeName = null;
+  if (trace && trace.title && trace.title.modeName && trace.title.modeName.value) {
+    exerciseModeName = trace.title.modeName.value || null;
+  } else if (manifest.exercise_mode) {
+    exerciseModeName = deriveExerciseModeNameLocal(manifest.exercise_mode);
+  }
+
   return {
     language: locale,
     exerciseTypeName: exerciseTypeName,
     exerciseTypeSlug: exerciseTypeSlug,
     themeName: themeName,
+    exerciseModeName: exerciseModeName,
     worksheetWord: worksheetWord,
     instruction: instruction,
     freeInteractive: freeInteractive,
     forWord: forWord,
     printOrPlay: printOrPlay
   };
+}
+
+/**
+ * Local helper: title-case `manifest.exercise_mode` slug for Class A.2/B
+ * fallback. Mirrors build-seo-head.js deriveExerciseModeName + catalog-
+ * export.js shared helper.
+ */
+function deriveExerciseModeNameLocal(rawMode) {
+  if (!rawMode || typeof rawMode !== 'string') return null;
+  var s = rawMode.trim();
+  if (!s) return null;
+  return s.split('-').map(function (w) {
+    if (!w) return '';
+    return w.charAt(0).toUpperCase() + w.slice(1);
+  }).join(' ');
 }
 
 /**

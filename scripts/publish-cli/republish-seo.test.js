@@ -547,6 +547,99 @@ test('computeSeoHashes: normalized (lowercase + trimmed)', function () {
 });
 
 // =====================================================================
+console.log('');
+console.log('Phase 4a Checkpoint 2.5 (θ): exercise_mode discriminator:');
+// =====================================================================
+
+test('Class A.1 with seo_trace.title.modeName → exerciseModeName from trace', function () {
+  // Synthetic Class A.1 fixture with modeName populated in seo_trace
+  var deckDir = path.join(TEST_DIR, 'en', 'mode-trace-v1');
+  fs.mkdirSync(deckDir, { recursive: true });
+  var manifest = manifestFixture({
+    deck_id: 'mode-trace-en-006',
+    language: 'en',
+    exercise_type: 'addition',
+    exercise_mode: 'find-addend',
+    seo_trace: {
+      title: {
+        typeName: { value: 'Addition', source: 't', isLocalized: true },
+        modeName: { value: 'Find Addend', source: 'derived from manifest.exercise_mode', isLocalized: true },
+        worksheetWord: { value: 'Worksheet', source: 't', isLocalized: true },
+        themeName: { value: 'Animals', source: 't', isLocalized: true },
+        levelLocalized: { value: 'Kindergarten', source: 'i18n', isLocalized: true }
+      },
+      description: {
+        freeInteractive: { value: 'Free interactive', source: 't', isLocalized: true },
+        typeName: { value: 'Addition', source: 't', isLocalized: true },
+        modeName: { value: 'Find Addend', source: 'derived from manifest.exercise_mode', isLocalized: true },
+        worksheetWord: { value: 'Worksheet', source: 't', isLocalized: true },
+        themeName: { value: 'Animals', source: 't', isLocalized: true },
+        forWord: { value: 'for', source: 't', isLocalized: true },
+        levelLocalized: { value: 'Kindergarten', source: 'i18n', isLocalized: true },
+        instruction: { value: '', source: 'canvas', isLocalized: true },
+        printOrPlay: { value: 'Print or play online', source: 't', isLocalized: true }
+      }
+    }
+  });
+  fs.writeFileSync(path.join(deckDir, 'manifest.json'), JSON.stringify(manifest, null, 2));
+  fs.writeFileSync(path.join(deckDir, 'deck.html'), deckHtmlClassA1Fixture());
+
+  var c = republishMod.classifyDeck({
+    deckHtml: path.join(deckDir, 'deck.html'),
+    locale: 'en',
+    slug: 'mode-trace'
+  });
+  var opts = republishMod.resolveSeoOpts(c);
+  assert.strictEqual(opts.exerciseModeName, 'Find Addend');
+});
+
+test('Class B with manifest.exercise_mode → exerciseModeName via deriveExerciseModeName', function () {
+  // Synthetic Class B fixture: no seo_trace; manifest.exercise_mode = 'cross-out'
+  var deckDir = path.join(TEST_DIR, 'en', 'mode-derive-v1');
+  fs.mkdirSync(deckDir, { recursive: true });
+  var manifest = manifestFixture({
+    deck_id: 'mode-derive-en-007',
+    language: 'en',
+    exercise_type: 'subtraction',
+    exercise_mode: 'cross-out',
+    seo_trace: null
+  });
+  fs.writeFileSync(path.join(deckDir, 'manifest.json'), JSON.stringify(manifest, null, 2));
+  fs.writeFileSync(path.join(deckDir, 'deck.html'), deckHtmlClassBFixture());
+
+  var c = republishMod.classifyDeck({
+    deckHtml: path.join(deckDir, 'deck.html'),
+    locale: 'en',
+    slug: 'mode-derive'
+  });
+  var opts = republishMod.resolveSeoOpts(c);
+  assert.strictEqual(opts.exerciseModeName, 'Cross Out');
+});
+
+test('Class B with default mode (exercise_mode = null) → exerciseModeName = null', function () {
+  // Existing Class B fixture has exercise_mode = null
+  var d = setupClassBDeck();
+  var c = republishMod.classifyDeck({ deckHtml: d.deckHtml, locale: 'en', slug: 'subtraction' });
+  var opts = republishMod.resolveSeoOpts(c);
+  assert.strictEqual(opts.exerciseModeName, null);
+});
+
+test('Class A.1 with non-default mode: computeNewHtml title has Mode segment', function () {
+  // Re-use mode-trace fixture from earlier test
+  var deckDir = path.join(TEST_DIR, 'en', 'mode-trace-v1');
+  var c = republishMod.classifyDeck({
+    deckHtml: path.join(deckDir, 'deck.html'),
+    locale: 'en',
+    slug: 'mode-trace'
+  });
+  var result = republishMod.computeNewHtml(c);
+  // Expected title shape: "Addition Find Addend Worksheet — Animals — Kindergarten | LessonCraftStudio"
+  assert.ok(result.newHtml.indexOf('Addition Find Addend Worksheet') !== -1,
+    'title contains "Addition Find Addend Worksheet"');
+  assert.ok(result.newHtml.indexOf('| LessonCraftStudio') !== -1);
+});
+
+// =====================================================================
 
 teardownTestFixtures();
 

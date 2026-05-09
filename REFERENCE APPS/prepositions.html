@@ -4065,9 +4065,15 @@
 
         // SEO inputs for the deck.html surface (Brief A §4)
         var _t = (typeof t === 'function') ? t : function(k){return null;};
+        // Phase 4a Checkpoint 2.5 (θ): exercise_mode discriminator
+        var rawExerciseMode = (options && options.exerciseMode) || null;
+        var exerciseModeName = (window.LCSCatalogExport && LCSCatalogExport.deriveExerciseModeName)
+            ? LCSCatalogExport.deriveExerciseModeName(rawExerciseMode)
+            : null;
         var seoMeta = {
             exerciseTypeSlug: 'prepositions',
             exerciseTypeName: canvas.lcsLocalizedTitle || 'Prepositions Practice',
+            exerciseModeName: exerciseModeName,
             themeName: (window.LCSCatalogExport && window.LCSCatalogExport.deriveThemeName)
                 ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('themeSelect') })
                 : null,
@@ -4085,6 +4091,7 @@
                 locale: deckLocale,
                 translations: window.translations || {},
                 exerciseTypeName: seoMeta.exerciseTypeName,
+                exerciseModeName: seoMeta.exerciseModeName,
                 themeName: seoMeta.themeName,
                 instruction: seoMeta.instruction,
                 keys: {
@@ -4703,6 +4710,7 @@
                 language: lang,
                 exerciseTypeName: displayTitle,
                 exerciseTypeSlug: seo.exerciseTypeSlug || "prepositions",
+                exerciseModeName: seo.exerciseModeName || null,
                 themeName: seo.themeName || null,
                 worksheetWord: seo.worksheetWord || 'Worksheet',
                 instruction: seo.instruction || '',
@@ -4905,7 +4913,9 @@
         try {
             // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2: pre-build bundle so
             // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
-            var cachedBundle = await extractDeckBundle_v12(worksheetCanvas, { loadingMode: 'inline' });
+            // Phase 4a Checkpoint 2.5 (θ): hoist exerciseMode for seoMeta discriminator
+            var exerciseModeForBundle = (dom.exerciseModeSelect && dom.exerciseModeSelect.value) || null;
+            var cachedBundle = await extractDeckBundle_v12(worksheetCanvas, { loadingMode: 'inline', exerciseMode: exerciseModeForBundle });
             var getBundle = async function () { return cachedBundle; };
             var manifestMeta = buildCatalogManifestSettings();
             manifestMeta.seo_trace = cachedBundle && cachedBundle.seoTrace ? cachedBundle.seoTrace : null;
@@ -4913,7 +4923,7 @@
                 app: { name: 'prepositions', version: '12.0.0', bundleVersion: 12 },
                 language: window.currentLocale || 'en',
                 exerciseType: 'prepositions',
-                exerciseMode: (dom.exerciseModeSelect && dom.exerciseModeSelect.value) || null,
+                exerciseMode: exerciseModeForBundle,
                 producers: {
                     pdf: function () { return window.downloadPDF(worksheetCanvas, 'printable.pdf', { returnBlob: true }); },
                     answerKey: function () { return window.downloadPDF(answerKeyCanvas, 'answer-key.pdf', { returnBlob: true }); },

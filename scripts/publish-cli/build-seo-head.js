@@ -58,24 +58,31 @@ function buildSeoHead(opts) {
   var typeName        = String(opts.exerciseTypeName || '');
   var typeSlug        = String(opts.exerciseTypeSlug || '');
   var themeName       = opts.themeName ? String(opts.themeName) : null;
+  // Phase 4a Checkpoint 2.5 (θ): exercise_mode discriminator. Non-null
+  // when manifest.exercise_mode is non-null (per §17.8.5 default-mode-
+  // emits-null contract). Mirrors catalog-export.js buildSeoHead change.
+  var modeName        = (opts.exerciseModeName !== undefined && opts.exerciseModeName !== null && opts.exerciseModeName !== '')
+                          ? String(opts.exerciseModeName) : null;
   var worksheetWord   = String(opts.worksheetWord || 'Worksheet');
   var instruction     = String(opts.instruction || '');
   var freeInteractive = String(opts.freeInteractive || 'Free interactive');
   var forWord         = String(opts.forWord || 'for');
   var printOrPlay     = String(opts.printOrPlay || 'Print or play online');
 
-  // Title: "{Type} {Worksheet} — {Theme} — __EDUCATIONAL_LEVEL_LOCALIZED__ | LessonCraftStudio"
+  // Title: "{Type} {Mode?} {Worksheet} — {Theme} — __EDUCATIONAL_LEVEL_LOCALIZED__ | LessonCraftStudio"
+  // Mode segment included when non-null (non-default mode); omitted for default mode.
   // Theme segment + its em-dashes are omitted when no theme is set.
-  var titleSegments = [typeName + ' ' + worksheetWord];
+  var titleHead = typeName + (modeName ? ' ' + modeName : '') + ' ' + worksheetWord;
+  var titleSegments = [titleHead];
   if (themeName) titleSegments.push(themeName);
   titleSegments.push('__EDUCATIONAL_LEVEL_LOCALIZED__');
   var titleCore = titleSegments.join(' — ');
   var titleFull = titleCore + ' | LessonCraftStudio';
 
-  // Description: "{freeInteractive} {type} {worksheet} ({theme}) {for} __EDUCATIONAL_LEVEL_LOCALIZED__. {instruction}. {printOrPlay}."
+  // Description: "{freeInteractive} {type} {mode?} {worksheet} ({theme}) {for} __EDUCATIONAL_LEVEL_LOCALIZED__. {instruction}. {printOrPlay}."
   // Preserve input casing — German requires capitalized nouns; lowercasing
   // breaks grammar in 5+ of the 11 supported languages.
-  var descLead = freeInteractive + ' ' + typeName + ' ' + worksheetWord;
+  var descLead = freeInteractive + ' ' + typeName + (modeName ? ' ' + modeName : '') + ' ' + worksheetWord;
   if (themeName) descLead += ' (' + themeName + ')';
   descLead += ' ' + forWord + ' __EDUCATIONAL_LEVEL_LOCALIZED__';
   var description = descLead + '.' + (instruction ? ' ' + instruction + (/[.!?]$/.test(instruction) ? '' : '.') : '') + ' ' + printOrPlay + '.';
@@ -129,8 +136,28 @@ function buildSeoHead(opts) {
   ].join('\n');
 }
 
+/**
+ * Phase 4a Checkpoint 2.5 (θ): convert raw exercise_mode slug (e.g.,
+ * 'find-addend') to title-case human-readable form (e.g., 'Find Addend').
+ * Mirror of catalog-export.js deriveExerciseModeName for Node-side
+ * republish-seo retrofit consumption.
+ *
+ * Returns null when input is null/empty/non-string. Empty string trips
+ * the fallback path (default-mode contract per §17.8.5).
+ */
+function deriveExerciseModeName(rawMode) {
+  if (!rawMode || typeof rawMode !== 'string') return null;
+  var s = rawMode.trim();
+  if (!s) return null;
+  return s.split('-').map(function (w) {
+    if (!w) return '';
+    return w.charAt(0).toUpperCase() + w.slice(1);
+  }).join(' ');
+}
+
 module.exports = {
   buildSeoHead: buildSeoHead,
+  deriveExerciseModeName: deriveExerciseModeName,
   escapeHtml: escapeHtml,
   escapeAttr: escapeAttr
 };

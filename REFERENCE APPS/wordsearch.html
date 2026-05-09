@@ -4602,9 +4602,15 @@ async function downloadPDF(canvasToExport, fileName, opts) {
         // app — sr-only is a deck-level summary, not per-row (Brief A §5.4
         // R4). The summary's word list is built at render time from bundle.words.
         var _t = (typeof t === 'function') ? t : function(k){return null;};
+        // Phase 4a Checkpoint 2.5 (θ): exercise_mode discriminator
+        var rawExerciseMode = (options && options.exerciseMode) || null;
+        var exerciseModeName = (window.LCSCatalogExport && LCSCatalogExport.deriveExerciseModeName)
+            ? LCSCatalogExport.deriveExerciseModeName(rawExerciseMode)
+            : null;
         var seoMeta = {
             exerciseTypeSlug: 'wordsearch',
             exerciseTypeName: canvas.lcsLocalizedTitle || 'Word Search',
+            exerciseModeName: exerciseModeName,
             themeName: (window.LCSCatalogExport && window.LCSCatalogExport.deriveThemeName)
                 ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('worksheetThemeSelect'), customMode: (typeof customWordListMode !== 'undefined' && customWordListMode === true) })
                 : null,
@@ -4622,6 +4628,7 @@ async function downloadPDF(canvasToExport, fileName, opts) {
                 locale: deckLocale,
                 translations: window.translations || {},
                 exerciseTypeName: seoMeta.exerciseTypeName,
+                exerciseModeName: seoMeta.exerciseModeName,
                 themeName: seoMeta.themeName,
                 instruction: seoMeta.instruction,
                 keys: {
@@ -5161,6 +5168,7 @@ async function downloadPDF(canvasToExport, fileName, opts) {
                 language: lang,
                 exerciseTypeName: displayTitle,
                 exerciseTypeSlug: seo.exerciseTypeSlug || 'wordsearch',
+                exerciseModeName: seo.exerciseModeName || null,
                 themeName: seo.themeName || null,
                 worksheetWord: seo.worksheetWord || 'Worksheet',
                 instruction: seo.instruction || '',
@@ -5356,19 +5364,21 @@ async function downloadPDF(canvasToExport, fileName, opts) {
         try {
             // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2: pre-build bundle so
             // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
-            var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline' });
-            var getBundle = async function () { return cachedBundle; };
-            // Commission ε emit-site fix: showOnlyImages/showOnlyWords drives mode (both unchecked=mixed null default vs image-only / word-only).
             var manifestMeta = buildCatalogManifestSettings();
-            manifestMeta.seo_trace = cachedBundle && cachedBundle.seoTrace ? cachedBundle.seoTrace : null;
             var showImages = (document.getElementById('showOnlyImages') || {}).checked;
             var showWords = (document.getElementById('showOnlyWords') || {}).checked;
             var derivedExerciseMode = showImages ? 'image-only' : (showWords ? 'word-only' : null);
+            // Phase 4a Checkpoint 2.5 (θ): hoist exerciseMode for seoMeta discriminator
+            var exerciseModeForBundle = derivedExerciseMode;
+            var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline', exerciseMode: exerciseModeForBundle });
+            var getBundle = async function () { return cachedBundle; };
+            // Commission ε emit-site fix: showOnlyImages/showOnlyWords drives mode (both unchecked=mixed null default vs image-only / word-only).
+            manifestMeta.seo_trace = cachedBundle && cachedBundle.seoTrace ? cachedBundle.seoTrace : null;
             var result = await window.LCSCatalogExport.export({
                 app: { name: 'wordsearch', version: '15.0.0', bundleVersion: 15 },
                 language: window.currentLocale || 'en',
                 exerciseType: 'wordsearch',
-                exerciseMode: derivedExerciseMode,
+                exerciseMode: exerciseModeForBundle,
                 producers: {
                     pdf: function () { return downloadPDF(worksheetCanvas, 'printable.pdf', { returnBlob: true }); },
                     answerKey: function () { return downloadPDF(answerKeyCanvas, 'answer-key.pdf', { returnBlob: true }); },

@@ -3093,9 +3093,15 @@
 
           // SEO inputs for the deck.html surface (Brief A §4)
           var _t = (typeof t === 'function') ? t : function(k){return null;};
+          // Phase 4a Checkpoint 2.5 (θ): exercise_mode discriminator
+          var rawExerciseMode = (options && options.exerciseMode) || null;
+          var exerciseModeName = (window.LCSCatalogExport && LCSCatalogExport.deriveExerciseModeName)
+              ? LCSCatalogExport.deriveExerciseModeName(rawExerciseMode)
+              : null;
           var seoMeta = {
               exerciseTypeSlug: 'bingo',
               exerciseTypeName: canvas.lcsLocalizedTitle || 'Picture Bingo',
+              exerciseModeName: exerciseModeName,
               themeName: (window.LCSCatalogExport && window.LCSCatalogExport.deriveThemeName)
                   ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('themeSelect') })
                   : null,
@@ -3113,6 +3119,7 @@
                   locale: deckLocale,
                   translations: window.translations || {},
                   exerciseTypeName: seoMeta.exerciseTypeName,
+                  exerciseModeName: seoMeta.exerciseModeName,
                   themeName: seoMeta.themeName,
                   instruction: seoMeta.instruction,
                   keys: {
@@ -3730,6 +3737,7 @@
                   language: lang,
                   exerciseTypeName: displayTitle,
                   exerciseTypeSlug: seo.exerciseTypeSlug || "bingo",
+                  exerciseModeName: seo.exerciseModeName || null,
                   themeName: seo.themeName || null,
                   worksheetWord: seo.worksheetWord || 'Worksheet',
                   instruction: seo.instruction || '',
@@ -3900,18 +3908,20 @@
           try {
               // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2: pre-build bundle so
               // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
-              var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline' });
+              var manifestMeta = buildCatalogManifestSettings();
+              var derivedExerciseMode = (manifestMeta.settings && manifestMeta.settings.card_fill === 'word')
+              // Phase 4a Checkpoint 2.5 (θ): hoist exerciseMode for seoMeta discriminator
+              var exerciseModeForBundle = derivedExerciseMode;
+              var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline', exerciseMode: exerciseModeForBundle });
               var getBundle = async function () { return cachedBundle; };
               // Commission ε emit-site fix: card_fill drives mode (image=null default vs word).
-              var manifestMeta = buildCatalogManifestSettings();
               manifestMeta.seo_trace = cachedBundle && cachedBundle.seoTrace ? cachedBundle.seoTrace : null;
-              var derivedExerciseMode = (manifestMeta.settings && manifestMeta.settings.card_fill === 'word')
                   ? 'word' : null;
               var result = await window.LCSCatalogExport.export({
                   app: { name: 'bingo', version: '24.3.0', bundleVersion: 24 },
                   language: window.currentLocale || 'en',
                   exerciseType: 'bingo',
-                  exerciseMode: derivedExerciseMode,
+                  exerciseMode: exerciseModeForBundle,
                   producers: {
                       // Bingo's "answer key" equivalent is the caller's chip strip rendered on calloutsCanvas.
                       pdf: function () { return downloadPdfFile(null, 'printable.pdf', true, { returnBlob: true }); },

@@ -3474,9 +3474,15 @@
           // SEO inputs for the deck.html surface (Brief A §4). Single-puzzle
           // app — sr-only is a deck-level summary, not per-row (Brief A §5.4 R4).
           var _t = (typeof t === 'function') ? t : function(k){return null;};
+          // Phase 4a Checkpoint 2.5 (θ): exercise_mode discriminator
+          var rawExerciseMode = (options && options.exerciseMode) || null;
+          var exerciseModeName = (window.LCSCatalogExport && LCSCatalogExport.deriveExerciseModeName)
+              ? LCSCatalogExport.deriveExerciseModeName(rawExerciseMode)
+              : null;
           var seoMeta = {
               exerciseTypeSlug: 'treasure-hunt',
               exerciseTypeName: canvas.lcsLocalizedTitle || 'Treasure Hunt',
+              exerciseModeName: exerciseModeName,
               themeName: null,
               instruction: canvas.lcsLocalizedInstruction || '',
               worksheetWord: _t('worksheet') || 'Worksheet',
@@ -3492,6 +3498,7 @@
                   locale: deckLocale,
                   translations: window.translations || {},
                   exerciseTypeName: seoMeta.exerciseTypeName,
+                  exerciseModeName: seoMeta.exerciseModeName,
                   themeName: seoMeta.themeName,
                   instruction: seoMeta.instruction,
                   keys: {
@@ -3938,6 +3945,7 @@
                   language: lang,
                   exerciseTypeName: displayTitle,
                   exerciseTypeSlug: seo.exerciseTypeSlug || 'treasure-hunt',
+                  exerciseModeName: seo.exerciseModeName || null,
                   themeName: seo.themeName || null,
                   worksheetWord: seo.worksheetWord || 'Worksheet',
                   instruction: seo.instruction || '',
@@ -4126,18 +4134,20 @@
           try {
               // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2: pre-build bundle so
               // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
-              var cachedBundle = await extractDeckBundle(worksheetCanvas);
-              var getBundle = async function () { return cachedBundle; };
-              // Commission ε emit-site fix: directionTypeSelect drives mode (basic=null default vs cardinal=compass).
               var manifestMeta = buildCatalogManifestSettings();
-              manifestMeta.seo_trace = cachedBundle && cachedBundle.seoTrace ? cachedBundle.seoTrace : null;
               var dirType = (document.getElementById('directionTypeSelect') || {}).value;
               var derivedExerciseMode = dirType === 'cardinal' ? 'compass' : null;
+              // Phase 4a Checkpoint 2.5 (θ): hoist exerciseMode for seoMeta discriminator
+              var exerciseModeForBundle = derivedExerciseMode;
+              var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline', exerciseMode: exerciseModeForBundle });
+              var getBundle = async function () { return cachedBundle; };
+              // Commission ε emit-site fix: directionTypeSelect drives mode (basic=null default vs cardinal=compass).
+              manifestMeta.seo_trace = cachedBundle && cachedBundle.seoTrace ? cachedBundle.seoTrace : null;
               var result = await window.LCSCatalogExport.export({
                   app: { name: 'treasure-hunt', version: '32.0.1', bundleVersion: 32 },
                   language: window.currentLocale || 'en',
                   exerciseType: 'treasure-hunt',
-                  exerciseMode: derivedExerciseMode,
+                  exerciseMode: exerciseModeForBundle,
                   producers: {
                       pdf: function () { return downloadCanvasAsPdf(worksheetCanvas, 'printable.pdf', { returnBlob: true }); },
                       answerKey: function () { return downloadCanvasAsPdf(answerKeyCanvas, 'answer-key.pdf', { returnBlob: true }); },

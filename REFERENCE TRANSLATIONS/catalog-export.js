@@ -329,8 +329,18 @@
       ? canvasTrace(opts.themeName, 'metadata.theme')
       : null;
 
+    // Phase 4a Checkpoint 2.5 (θ): exercise_mode discriminator in title shape.
+    // modeName trace is null when exercise_mode is null (default-mode contract
+    // per §17.8.5 default-mode-emits-null); otherwise records the derived
+    // title-cased mode name. publish-cli's reconcileLocaleResidueViaTrace
+    // skips null fields per Phase 3b path-(b) trace defensive-skip discipline.
+    var modeTrace = (opts.exerciseModeName !== undefined && opts.exerciseModeName !== null && opts.exerciseModeName !== '')
+      ? canvasTrace(opts.exerciseModeName, 'derived from manifest.exercise_mode')
+      : null;
+
     var titleTrace = {
       typeName: canvasTrace(opts.exerciseTypeName, 'canvas.lcsLocalizedTitle'),
+      modeName: modeTrace,
       worksheetWord: lookupTrace(keys.worksheet || 'worksheet', 'Worksheet'),
       themeName: themeTrace,
       // levelLocalized is substituted by publish-cli post-emission via
@@ -348,6 +358,7 @@
     var descriptionTrace = {
       freeInteractive: lookupTrace(keys.freeInteractive || 'seoFreeInteractive', 'Free interactive'),
       typeName: canvasTrace(opts.exerciseTypeName, 'canvas.lcsLocalizedTitle'),
+      modeName: modeTrace,
       worksheetWord: lookupTrace(keys.worksheet || 'worksheet', 'Worksheet'),
       themeName: themeTrace,
       forWord: lookupTrace(keys.forWord || 'seoFor', 'for'),
@@ -361,6 +372,31 @@
     };
 
     return { title: titleTrace, description: descriptionTrace };
+  }
+
+  /**
+   * Phase 4a Checkpoint 2.5 (θ): convert raw exercise_mode slug (e.g.,
+   * 'find-addend') to title-case human-readable form (e.g., 'Find Addend').
+   * Used by per-app extractDeckBundle to populate seoMeta.exerciseModeName +
+   * by publish-cli's republish-seo retrofit script when manifest.seo_trace
+   * is absent (Class A.2 / Class B fallback).
+   *
+   * Phase 5 NSR review (Adjudication 2 (γ)) layers localized mode-name
+   * translations on top via messages/<locale>.json seo.mode.* keys. This
+   * Phase 4a immediate fix ships English title-case mode IDs; Phase 5
+   * refines to localized forms.
+   *
+   * Returns null when input is null/empty/non-string. Empty string trips
+   * the fallback path (default-mode contract).
+   */
+  function deriveExerciseModeName(rawMode) {
+    if (!rawMode || typeof rawMode !== 'string') return null;
+    var s = rawMode.trim();
+    if (!s) return null;
+    return s.split('-').map(function (w) {
+      if (!w) return '';
+      return w.charAt(0).toUpperCase() + w.slice(1);
+    }).join(' ');
   }
 
   /**
@@ -390,24 +426,32 @@
     var typeName        = String(opts.exerciseTypeName || '');
     var typeSlug        = String(opts.exerciseTypeSlug || '');
     var themeName       = opts.themeName ? String(opts.themeName) : null;
+    // Phase 4a Checkpoint 2.5 (θ): exercise_mode discriminator. Non-null
+    // when manifest.exercise_mode is non-null (per §17.8.5 default-mode-
+    // emits-null contract). Title + description gain a mode segment for
+    // SEO uniqueness invariant enforcement (Phase 2 §1).
+    var modeName        = (opts.exerciseModeName !== undefined && opts.exerciseModeName !== null && opts.exerciseModeName !== '')
+                            ? String(opts.exerciseModeName) : null;
     var worksheetWord   = String(opts.worksheetWord || 'Worksheet');
     var instruction     = String(opts.instruction || '');
     var freeInteractive = String(opts.freeInteractive || 'Free interactive');
     var forWord         = String(opts.forWord || 'for');
     var printOrPlay     = String(opts.printOrPlay || 'Print or play online');
 
-    // Title: "{Type} {Worksheet} — {Theme} — __EDUCATIONAL_LEVEL_LOCALIZED__ | LessonCraftStudio"
+    // Title: "{Type} {Mode?} {Worksheet} — {Theme} — __EDUCATIONAL_LEVEL_LOCALIZED__ | LessonCraftStudio"
+    // Mode segment included when non-null (non-default mode); omitted for default mode.
     // Theme segment + its em-dashes are omitted when no theme is set.
-    var titleSegments = [typeName + ' ' + worksheetWord];
+    var titleHead = typeName + (modeName ? ' ' + modeName : '') + ' ' + worksheetWord;
+    var titleSegments = [titleHead];
     if (themeName) titleSegments.push(themeName);
     titleSegments.push('__EDUCATIONAL_LEVEL_LOCALIZED__');
     var titleCore = titleSegments.join(' — ');
     var titleFull = titleCore + ' | LessonCraftStudio';
 
-    // Description: "{freeInteractive} {type} {worksheet} ({theme}) {for} __EDUCATIONAL_LEVEL_LOCALIZED__. {instruction}. {printOrPlay}."
+    // Description: "{freeInteractive} {type} {mode?} {worksheet} ({theme}) {for} __EDUCATIONAL_LEVEL_LOCALIZED__. {instruction}. {printOrPlay}."
     // Preserve input casing — German requires capitalized nouns; lowercasing
     // breaks grammar in 5+ of the 11 supported languages.
-    var descLead = freeInteractive + ' ' + typeName + ' ' + worksheetWord;
+    var descLead = freeInteractive + ' ' + typeName + (modeName ? ' ' + modeName : '') + ' ' + worksheetWord;
     if (themeName) descLead += ' (' + themeName + ')';
     descLead += ' ' + forWord + ' __EDUCATIONAL_LEVEL_LOCALIZED__';
     var description = descLead + '.' + (instruction ? ' ' + instruction + (/[.!?]$/.test(instruction) ? '' : '.') : '') + ' ' + printOrPlay + '.';
@@ -1587,6 +1631,7 @@
     buildResponsiveFitSnippet: buildResponsiveFitSnippet,
     vocabKeyFromImage: vocabKeyFromImage,
     deriveThemeName: deriveThemeName,
+    deriveExerciseModeName: deriveExerciseModeName,
     HREFLANG_MARKER: HREFLANG_MARKER,
     export: exportCatalog
   };

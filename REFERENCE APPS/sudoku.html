@@ -3722,9 +3722,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // SEO inputs for the deck.html surface (Brief A §4)
         var _t = (typeof t === 'function') ? t : function(k){return null;};
+        // Phase 4a Checkpoint 2.5 (θ): exercise_mode discriminator
+        var rawExerciseMode = (options && options.exerciseMode) || null;
+        var exerciseModeName = (window.LCSCatalogExport && LCSCatalogExport.deriveExerciseModeName)
+            ? LCSCatalogExport.deriveExerciseModeName(rawExerciseMode)
+            : null;
         var seoMeta = {
             exerciseTypeSlug: 'sudoku',
             exerciseTypeName: canvas.lcsLocalizedTitle || 'Picture Sudoku',
+            exerciseModeName: exerciseModeName,
             themeName: (window.LCSCatalogExport && window.LCSCatalogExport.deriveThemeName)
                 ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('worksheetThemeSelect') })
                 : null,
@@ -3742,6 +3748,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 locale: deckLocale,
                 translations: window.translations || {},
                 exerciseTypeName: seoMeta.exerciseTypeName,
+                exerciseModeName: seoMeta.exerciseModeName,
                 themeName: seoMeta.themeName,
                 instruction: seoMeta.instruction,
                 keys: {
@@ -4328,6 +4335,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 language: lang,
                 exerciseTypeName: displayTitle,
                 exerciseTypeSlug: seo.exerciseTypeSlug || "sudoku",
+                exerciseModeName: seo.exerciseModeName || null,
                 themeName: seo.themeName || null,
                 worksheetWord: seo.worksheetWord || 'Worksheet',
                 instruction: seo.instruction || '',
@@ -4566,18 +4574,20 @@ document.addEventListener("DOMContentLoaded", function() {
         try {
             // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2: pre-build bundle so
             // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
-            var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline' });
-            var getBundle = async function () { return cachedBundle; };
-            // Commission ε emit-site fix: difficultySelect drives mode (4=easy null default vs 6=medium / 8=hard).
             var manifestMeta = buildCatalogManifestSettings();
-            manifestMeta.seo_trace = cachedBundle && cachedBundle.seoTrace ? cachedBundle.seoTrace : null;
             var difficulty = (document.getElementById('difficultySelect') || {}).value;
             var derivedExerciseMode = difficulty === '6' ? 'medium' : (difficulty === '8' ? 'hard' : null);
+            // Phase 4a Checkpoint 2.5 (θ): hoist exerciseMode for seoMeta discriminator
+            var exerciseModeForBundle = derivedExerciseMode;
+            var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline', exerciseMode: exerciseModeForBundle });
+            var getBundle = async function () { return cachedBundle; };
+            // Commission ε emit-site fix: difficultySelect drives mode (4=easy null default vs 6=medium / 8=hard).
+            manifestMeta.seo_trace = cachedBundle && cachedBundle.seoTrace ? cachedBundle.seoTrace : null;
             var result = await window.LCSCatalogExport.export({
                 app: { name: 'sudoku', version: '28.2.0', bundleVersion: 28 },
                 language: window.currentLocale || 'en',
                 exerciseType: 'sudoku',
-                exerciseMode: derivedExerciseMode,
+                exerciseMode: exerciseModeForBundle,
                 producers: {
                     pdf: function () { return downloadPDF(worksheetCanvas, 'printable.pdf', { returnBlob: true }); },
                     answerKey: function () { return downloadPDF(answerKeyCanvas, 'answer-key.pdf', { returnBlob: true }); },

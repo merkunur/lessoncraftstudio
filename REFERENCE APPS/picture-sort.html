@@ -3620,9 +3620,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // SEO inputs for the deck.html surface (Brief A §4)
         var _t = (typeof t === 'function') ? t : function(k){return null;};
+        // Phase 4a Checkpoint 2.5 (θ): exercise_mode discriminator
+        var rawExerciseMode = (options && options.exerciseMode) || null;
+        var exerciseModeName = (window.LCSCatalogExport && LCSCatalogExport.deriveExerciseModeName)
+            ? LCSCatalogExport.deriveExerciseModeName(rawExerciseMode)
+            : null;
         var seoMeta = {
             exerciseTypeSlug: 'picture-sort',
             exerciseTypeName: canvas.lcsLocalizedTitle || 'Picture Sort',
+            exerciseModeName: exerciseModeName,
             themeName: (window.LCSCatalogExport && window.LCSCatalogExport.deriveThemeName)
                 ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('leftCategoryThemeSelect'), skipValues: ['', 'all', 'random_auto', 'manual', 'custom'] })
                 : null,
@@ -3640,6 +3646,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 locale: deckLocale,
                 translations: window.translations || {},
                 exerciseTypeName: seoMeta.exerciseTypeName,
+                exerciseModeName: seoMeta.exerciseModeName,
                 themeName: seoMeta.themeName,
                 instruction: seoMeta.instruction,
                 keys: {
@@ -4239,6 +4246,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 language: lang,
                 exerciseTypeName: displayTitle,
                 exerciseTypeSlug: seo.exerciseTypeSlug || "picture-sort",
+                exerciseModeName: seo.exerciseModeName || null,
                 themeName: seo.themeName || null,
                 worksheetWord: seo.worksheetWord || 'Worksheet',
                 instruction: seo.instruction || '',
@@ -4408,17 +4416,19 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2: pre-build bundle so
             // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
-            var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline' });
+            var manifestMeta = buildCatalogManifestSettings();
+            var derivedExerciseMode = null;
+            // Phase 4a Checkpoint 2.5 (θ): hoist exerciseMode for seoMeta discriminator
+            var exerciseModeForBundle = derivedExerciseMode;
+            var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline', exerciseMode: exerciseModeForBundle });
             var getBundle = async function () { return cachedBundle; };
             // Commission ε emit-site fix: single-mode contract per locked taxonomy.
-            var manifestMeta = buildCatalogManifestSettings();
             manifestMeta.seo_trace = cachedBundle && cachedBundle.seoTrace ? cachedBundle.seoTrace : null;
-            var derivedExerciseMode = null;
             var result = await window.LCSCatalogExport.export({
                 app: { name: 'picture-sort', version: '25.1.0', bundleVersion: 25 },
                 language: window.currentLocale || 'en',
                 exerciseType: 'picture-sort',
-                exerciseMode: derivedExerciseMode,
+                exerciseMode: exerciseModeForBundle,
                 producers: {
                     pdf: function () { return downloadPDF('printable', worksheetCanvas, { returnBlob: true }); },
                     answerKey: function () { return downloadPDF('answer-key', solutionCanvas, { returnBlob: true }); },

@@ -4483,9 +4483,18 @@
         // these fields. Localized strings come from createHeaderGroup's
         // defaults (cached on the canvas at generation) and from t().
         var _t = (typeof t === 'function') ? t : function(k){return null;};
+        // Phase 4a Checkpoint 2.5 (θ): exercise_mode discriminator for SEO title
+        // uniqueness invariant (Phase 2 §1). Read from options.exerciseMode (passed
+        // by click handler); derive title-cased name via shared helper.
+        var rawExerciseMode = (options && options.exerciseMode) || null;
+        var exerciseModeName = (window.LCSCatalogExport && LCSCatalogExport.deriveExerciseModeName)
+            ? LCSCatalogExport.deriveExerciseModeName(rawExerciseMode)
+            : null;
+
         var seoMeta = {
             exerciseTypeSlug: 'addition',
             exerciseTypeName: canvas.lcsLocalizedTitle || 'Addition Fun',
+            exerciseModeName: exerciseModeName,
             themeName: worksheetTheme,
             instruction: canvas.lcsLocalizedInstruction || '',
             worksheetWord: _t('worksheet') || 'Worksheet',
@@ -4506,6 +4515,7 @@
                 locale: deckLocale,
                 translations: window.translations || {},
                 exerciseTypeName: seoMeta.exerciseTypeName,
+                exerciseModeName: seoMeta.exerciseModeName,
                 themeName: seoMeta.themeName,
                 instruction: seoMeta.instruction,
                 keys: {
@@ -4985,6 +4995,7 @@
                 language: lang,
                 exerciseTypeName: displayTitle,
                 exerciseTypeSlug: seo.exerciseTypeSlug || 'addition',
+                exerciseModeName: seo.exerciseModeName || null,
                 themeName: seo.themeName || null,
                 worksheetWord: seo.worksheetWord || 'Worksheet',
                 instruction: seo.instruction || '',
@@ -5580,7 +5591,11 @@
           // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 1: pre-build bundle so
           // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
           // Bundle is then re-used in producers (cached; no double-extraction).
-          let cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline' });
+          // Phase 4a Checkpoint 2.5 (θ): hoist exerciseMode derivation BEFORE
+          // extractDeckBundle so seoMeta.exerciseModeName populates with the
+          // mode discriminator at trace-build time (Phase 2 §1 uniqueness).
+          const exerciseModeForBundle = (typeof exerciseModeSelect !== 'undefined' && exerciseModeSelect) ? exerciseModeSelect.value : null;
+          let cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline', exerciseMode: exerciseModeForBundle });
           const getBundle = async () => cachedBundle;
           const baseMetadata = buildCatalogManifestSettings();
           baseMetadata.seo_trace = cachedBundle && cachedBundle.seoTrace ? cachedBundle.seoTrace : null;
@@ -5588,7 +5603,7 @@
             app: { name: 'addition', version: '5.1.0', bundleVersion: 5 },
             language: window.currentLocale || 'en',
             exerciseType: 'addition',
-            exerciseMode: (typeof exerciseModeSelect !== 'undefined' && exerciseModeSelect) ? exerciseModeSelect.value : null,
+            exerciseMode: exerciseModeForBundle,
             producers: {
               pdf: () => downloadPdfFile(worksheetCanvas, 'printable.pdf', { returnBlob: true }),
               answerKey: () => downloadPdfFile(answerKeyCanvas, 'answer-key.pdf', { returnBlob: true }),

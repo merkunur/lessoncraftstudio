@@ -2279,6 +2279,64 @@ Both items are bounded for v1 and await the catalog deck route + publish-cli bef
 
 **Tier-neutral and SEO-neutral, like attribution (§14.3).** The same affordance bytes ship to free and subscriber teachers and are immutable per Cloudflare's per-version cache key (§4.4). Modifications must preserve cacheability; no per-request templating, no tier-dependent content.
 
+#### 17.8.16 Mutable-regions contract via SEO_INSERTION_POINT marker pair
+
+deck.html `<head>` SEO surface uses paired HTML-comment markers `<!-- SEO_INSERTION_POINT_START -->` + `<!-- SEO_INSERTION_POINT_END -->` to define the **mutable region** for retrofit operations. Region between markers is replaceable by republish-seo retrofit (Class A path); content outside markers preserves operator-side authoring (per-app deck.html source).
+
+**Class A (post-Phase-3a.2 decks)** — markers present; retrofit replaces between-markers content + leaves outside intact. Class A.1 (post-Phase-3b decks): marker pair AND `manifest.seo_trace` present; retrofit sources values from trace. Class A.2 (post-Phase-3a.2 pre-Phase-3b): marker pair present; trace absent; retrofit derives values from i18n + taxonomy + English fallback.
+
+**Class B (pre-Phase-3a.2 decks)** — markers ABSENT; retrofit (a) strips pre-existing SEO elements (`<title>` / `<meta name="description">` / `<link rel="canonical">` / `<meta property="og:*">` / `<meta name="twitter:*">` / `<script type="application/ld+json">`); (b) injects marker pair + canonical SEO surface; (c) preserves outside-markers content per Class A semantics post-injection.
+
+**Defensive strip** at Class B injection: pre-existing SEO elements may exist outside any clear convention; defensive strip per Phase 4a Checkpoint 1 fix-2 (`b5c1f3c1`) prevents duplicate-element emission. Class A retrofit also strips OUTSIDE markers (defensive cleanup for contaminated state).
+
+**Atomicity:** retrofit writes via temp+rename per `republish-seo.js: rewriteDeckHtmlAtomic`. `rename(2)` is atomic at kernel level; partial-write states impossible.
+
+**Cross-references:**
+- §17.8.1 — `<head>` SEO surface canonical shape (between markers)
+- §17.8.4 — `catalogExport()` + `LCSCatalogExport.buildSeoHead` emission helpers (forward-flow source)
+- §17.8.5 — publish-cli substitute.apply contract for `__CANONICAL_URL__` placeholder + insertion-point markers
+- §15.17 — salvage scripts pattern (republish-seo as Class A/B retrofit; sibling pattern)
+
+Origin: Phase 4a Checkpoint 1 (`a0ab3cf0` → `b5c1f3c1`); codified at Phase 6 fold.
+
+#### 17.8.17 Phase 2 §1-§7 invariants codified as deck-page SEO doctrine
+
+The `[ARC][SEO][DECK-PAGE]` commission's Phase 2 doctrine document (`docs/SEO/deck-page-arc-phase-2-doctrine-draft.md`) enumerated 7 deck-page SEO invariants. Each invariant is enforced by a predicate at `scripts/publish-cli/seo-reconciliation.js` per the commission's auto-control mechanism.
+
+| # | Invariant | Predicate | Class |
+|---|---|---|---|
+| 1 | Title uniqueness per (language, titleHash) | `reconcileTitleUniqueness` | HALT |
+| 2 | Description uniqueness per (language, descriptionHash) | `reconcileDescriptionUniqueness` | HALT |
+| 3 | Canonical-URL pattern (www-form + locale + native-language slug + trailing slash) | `reconcileCanonicalURLPattern` | HALT |
+| 4 | OG tag completeness (14 tags: 7 og:* + 7 twitter:*) | `reconcileOGTags` | HALT |
+| 5 | Inbound-link minimum invariant N≥3 non-sitemap surfaces | `reconcileInboundLinkSurface` | HALT (post-Phase-5) |
+| 6 | Locale-residue absence (path-(b) trace per Phase 3b) | `reconcileLocaleResidue` | HALT |
+| 7 | Single-h1 per deck | `reconcileSingleH1` | HALT |
+
+**1 WARN-class predicate** retained alongside: `OG_IMAGE_FALLBACK_USED` (informational; per-deck thumbnail vs site-default fallback signal).
+
+**Invariant 1 + 2 (uniqueness):** enforced at DB level via `@@unique([language, titleHash])` + `@@unique([language, descriptionHash])` Prisma constraints; predicate-side check fires pre-INSERT/UPDATE via `findExistingByTitleHash` + `findExistingByDescriptionHash` callbacks. Forward-flow at 100% post-(θ); backward-flow at 63.3% en + 100% non-en backfill (Phase 4a (ι) close).
+
+**Invariant 3 (canonical URL):** uses www-form per §A.10 (origin nginx 301 redirects apex→www); locale prefix per §17.4; native-language slug per §17.4.1 dual-slug convention + §17.8.5 ASCII-fold spec; trailing slash per §15.7 catalog deck route convention.
+
+**Invariant 4 (OG tags):** 14 tags emitted by `LCSCatalogExport.buildSeoHead` (forward-flow) + `build-seo-head.js` Node-CJS port (republish-seo retrofit). Predicate enforces all 14 present in deck.html post-substitution.
+
+**Invariant 5 (inbound-link):** N≥3 non-sitemap surfaces via 8-surface counter at `scripts/publish-cli/count-inbound-surfaces.js` (Phase 4b CJS port). Predicate operational at HALT-class post-Phase-5 close per concern 4 escalation schedule.
+
+**Invariant 6 (locale-residue):** path-(b) origin-tracing via `manifest.seo_trace` (Phase 3b primary path); path-(a) lexicon-fallback at `seo-reconciliation-exceptions.json` (deprecated; defensive fallback only).
+
+**Invariant 7 (single-h1):** structural HTML invariant; predicate counts h1 elements in deck.html post-substitution. Phase 3b architectural sweep moved celebration h1 → h2 across 29 apps to satisfy.
+
+**Auto-control mechanism state at commission close:** all 7 invariants enforced HALT-class on every new publish via `reconcileDeckPageSEO` orchestrator at `seo-reconciliation.js:778`. Operator does not need to remind CC about deck-page SEO emission — the gate is the reminder.
+
+Cross-references:
+- §17.8.1-15 (per-invariant emission spec)
+- §15.16 (reconciliation gate at publish-cli)
+- §17.8.16 (mutable-regions contract for retrofit emission)
+- `docs/SEO/deck-page-arc-phase-2-doctrine-draft.md` (Phase 2 source)
+
+Origin: Phase 2 doctrine document (`ac9109c7`); codified into canonical CLAUDE.md doctrine at Phase 6 fold.
+
 ### 17.9 Pillar 1 lesson-plan production discipline (post-Phase-1c)
 
 Established at `e912b805` (Phase 1c apply) and the revision-pass discipline that preceded it. These principles govern future Pillar 1 lesson-plan authoring + tooling work.
@@ -2665,6 +2723,19 @@ rm _baseline-schema-tmp.prisma
 ```
 
 Match existing migration-directory timestamp format exactly (`YYYYMMDDHHMMSS_<name>` prefix; verify against existing `prisma/migrations/` dirs before authoring). The `--from-migrations` form requires `--shadow-database-url` (a temporary DB to replay history); the schema-to-schema form does not and is the documented alternative when shadow DB isn't available.
+
+**Prisma client regeneration is its own concern alongside migration apply.** Schema migrations require THREE-STEP discipline at first introduction (DB schema apply + Prisma client regenerate + code referencing new columns deploys). The `npx prisma migrate deploy` step applies SQL migrations to the DB but does NOT regenerate the Prisma client used by code. Without regeneration, code references to new columns hit "Unknown argument" runtime errors silently.
+
+**Empirical surface:** Phase 4a Checkpoint 1 (`a0ab3cf0`) added `titleHash` + `descriptionHash` columns to the Deck table via migration; deploy.sh ran clean + smoke PASS + DB schema applied; but retrofit's `db.update({titleHash, descriptionHash})` calls silently no-op'd because the Prisma client on Hetzner was generated against the pre-migration schema. Post-discovery, manual `npx prisma generate` resolved (35.1% → 63.3% en backfill rate at retrofit-rerun).
+
+**Phase 4a Checkpoint 2 doctrine fix (`655e786c`):** `deploy.sh` patched to run `npx prisma generate` automatically alongside `git pull` + build + smoke. With this fix, `prisma generate` is AUTOMATIC on every deploy; only `prisma migrate deploy` remains manual per existing prose.
+
+**THREE-STEP discipline post-`655e786c`:**
+1. **Migration apply** (manual): `npx prisma migrate deploy` per existing prose
+2. **Client regenerate** (automatic at deploy.sh): `npx prisma generate` runs each deploy
+3. **Code deploy** (existing): `git pull` + build + smoke per deploy.sh
+
+Audit-trail continuity: `b9e75fbe` first surfaced the migration-apply gap (THREE-STEP step 1); `a0ab3cf0` first surfaced the client-regenerate gap (THREE-STEP step 2); `655e786c` automated step 2 into deploy.sh.
 
 ### A.6 Lemon Squeezy (current payment integration — extended, not replaced, by the new subscription model)
 
@@ -3084,6 +3155,27 @@ When a commission applies title-case transformation across multiple locales (e.g
 **Empirical anchor:** Phase 5 Q1 plan-time AskUserQuestion locked uniform title-case across all 11 locales. "More Or Less" / "Tren Del Abecedario" land grammatically valid (some style guides permit) but diverge from AP-style. Phase 5 Item 14 fold-queue carries the small-word refinement as future-arc candidate.
 
 Origin: Phase 5 Sub-item 3 Q1 ratification; codified at Phase 6 fold.
+
+#### A.13.20 Retrofit-rerun decision: per-locale need-vs-no-need classification
+
+When a commission ships changes that affect retrofit output for SOME locales but not others, the retrofit-rerun decision splits per-locale: rerun for changed-locale set; skip for unchanged-locale set. NOT a uniform retrofit-all-or-nothing decision.
+
+**How to apply.** At any retrofit-rerun decision point (typically post-Phase commission deliverable that affects emission templates, i18n keys, or taxonomy data):
+1. **Classify per-locale.** For each of 11 locales, determine if the commission's deliverables would change retrofit output (string differences, structural differences, etc.). YES → rerun; NO → skip.
+2. **Document classification.** Close-out doc records the per-locale decision + reasoning. Skip-locales explicit ("en intentionally not retrofitted at <commission>; future retrofit triggered by separate concern").
+3. **Audit-trail.** Future retrofit-rerun decisions cross-reference earlier classifications to establish which locales are at which retrofit-state.
+
+**Why per-locale classification matters.** Bulk-retrofit-all is wasteful when most locales would receive identical bytes back; per-locale-skip preserves operator-attention budget + reduces cache invalidation surface. But silent skip without classification doc creates audit-trail gap — future commission can't tell which locales reflect the latest retrofit state vs which lag.
+
+**Empirical anchor:** Phase 5 Sub-step 7 retrofit-rerun:
+- de + es + nl: 95 decks rerun (seo.words.* localization changed retrofit output for these locales)
+- en: 2681 decks NOT rerun (English seo.words.* values are the defaults; no string change to existing retrofit output)
+
+Phase 5 close-out doc records the en-not-rerun decision explicitly per Item 15 fold-queue absorption.
+
+**Anti-pattern.** Reflexively retrofit-all on every commission close. Bulk-retrofit-all is the right move only when ALL locales are affected. For commissions affecting subset-of-locales (typical for i18n / taxonomy / per-locale-template work), per-locale classification is the correct discipline.
+
+Origin: Phase 5 Sub-item 2 + 3 + Sub-step 7; codified at Phase 6 fold.
 
 ### A.14 Scaling Arc audit doctrine
 

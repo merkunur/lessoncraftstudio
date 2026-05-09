@@ -322,11 +322,42 @@
     // inside <head>, while the SEO content typically belongs earlier (before
     // font preconnects and <style>). Callers push HREFLANG_MARKER separately
     // as the last element of <head>.
+    //
+    // [ARC][SEO][DECK-PAGE] Phase 3a.2: SEO_INSERTION_POINT_START/END marker
+    // pair wraps the entire SEO block. Phase 4a retrofit's republish-seo mode
+    // re-substitutes only the content between markers; remaining deck.html
+    // bytes preserved per §17.8 mutable-regions contract extension (Option A
+    // per concern 3 lock). HREFLANG_MARKER stays OUTSIDE the SEO_INSERTION_POINT
+    // pair (existing app-side append at end of <head>); preserves separation
+    // between SEO block retrofit and hreflang substitution per §17.8.7
+    // v1/v2 pathway.
+    //
+    // OG tag block (10 og:* + 4 twitter:*) per Phase 2 doctrine §4 locked
+    // tag set. 5 dynamic placeholders substituted by publish-cli's
+    // substitute.js Checkpoint 2 logic (__OG_TITLE__ / __OG_DESCRIPTION__ /
+    // __OG_IMAGE__ / __OG_LOCALE__ / __OG_IMAGE_ALT__); __CANONICAL_URL__
+    // reused for og:url; remaining tags emit as literals.
     return [
+      '<!-- SEO_INSERTION_POINT_START -->',
       '<title>' + escapeHtml(titleFull) + '</title>',
       '<meta name="description" content="' + escapeAttr(description) + '">',
       '<link rel="canonical" href="__CANONICAL_URL__">',
-      '<script type="application/ld+json">' + JSON.stringify(ld) + '<\/script>'
+      '<script type="application/ld+json">' + JSON.stringify(ld) + '<\/script>',
+      '<meta property="og:title" content="__OG_TITLE__">',
+      '<meta property="og:description" content="__OG_DESCRIPTION__">',
+      '<meta property="og:image" content="__OG_IMAGE__">',
+      '<meta property="og:image:width" content="1200">',
+      '<meta property="og:image:height" content="630">',
+      '<meta property="og:image:alt" content="__OG_IMAGE_ALT__">',
+      '<meta property="og:type" content="website">',
+      '<meta property="og:url" content="__CANONICAL_URL__">',
+      '<meta property="og:locale" content="__OG_LOCALE__">',
+      '<meta property="og:site_name" content="LessonCraftStudio">',
+      '<meta name="twitter:card" content="summary_large_image">',
+      '<meta name="twitter:title" content="__OG_TITLE__">',
+      '<meta name="twitter:description" content="__OG_DESCRIPTION__">',
+      '<meta name="twitter:image" content="__OG_IMAGE__">',
+      '<!-- SEO_INSERTION_POINT_END -->'
     ].join('\n');
   }
 

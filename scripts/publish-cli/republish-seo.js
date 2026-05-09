@@ -294,17 +294,21 @@ function computeNewHtml(c) {
   }
 
   // Step 3: convert celebration h1 → h2 (body fix per Phase 3a.2)
-  // The celebration block is structured as:
-  //   <h1 class="...lcs-celebration__title..."><something>...</something></h1>
-  // Phase 3a.2's sed pattern was line-context: replace <h1 with <h2 + </h1> with </h2>
-  // ON THE SAME LINE as 'lcs-celebration__title'. We mirror that here.
-  // Single-pass scan: find each <h1...lcs-celebration__title...> opening and
-  // replace it + the next </h1> on the same logical line.
-  html = html.replace(/<h1(\s[^>]*class="[^"]*lcs-celebration__title[^"]*"[^>]*)>([\s\S]*?)<\/h1>/g,
-    function (_match, attrs, inner) {
-      return '<h2' + attrs + '>' + inner + '</h2>';
-    }
-  );
+  // Line-context sed-style approach mirrors Phase 3a.2's exact sed pattern:
+  //   /lcs-celebration__title/{s|<h1 |<h2 |; s|</h1>|</h2>|}
+  // On lines containing 'lcs-celebration__title', convert <h1 → <h2 +
+  // </h1> → </h2>. Handles BOTH unescaped form (in plain HTML body)
+  //   <h1 class="lcs-celebration__title">...</h1>
+  // AND backslash-escaped form (inside JS string literals in deck.html
+  // runtime templates):
+  //   "<h1 class=\"lcs-celebration__title\">"+T("youDidIt")+"</h1>"+
+  // Both forms have `<h1 ` (h1 + space) which matches uniformly. Other h1
+  // elements on different lines (e.g., the worksheet title h1) are
+  // PRESERVED — only celebration-line h1 converts.
+  html = html.split('\n').map(function (line) {
+    if (line.indexOf('lcs-celebration__title') === -1) return line;
+    return line.replace(/<h1 /g, '<h2 ').replace(/<\/h1>/g, '</h2>');
+  }).join('\n');
 
   // Step 4: run substitute.apply to fill placeholders
   // The substitute.apply takes the manifest + deckHtml and substitutes all 37

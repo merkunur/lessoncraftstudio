@@ -366,6 +366,50 @@ test('Class B: non-celebration h1 PRESERVED (only celebration h1 converts)', fun
   assert.ok(result.newHtml.indexOf('<h1>Addition Practice</h1>') !== -1, 'non-celebration h1 preserved');
 });
 
+test('Class B: JS-string-escaped celebration h1 → h2 (production-shape fixture)', function () {
+  // Production deck.html embeds celebration as runtime JS string literal:
+  //   "<h1 class=\"lcs-celebration__title\">"+T("youDidIt")+"</h1>"
+  // Backslash-escaped quotes; sed line-context handles uniformly.
+  var deckDir = path.join(TEST_DIR, 'en', 'js-escaped-celebration-v1');
+  fs.mkdirSync(deckDir, { recursive: true });
+  var manifest = manifestFixture({
+    deck_id: 'js-escaped-en-003',
+    language: 'en',
+    exercise_type: 'addition',
+    seo_trace: null
+  });
+  fs.writeFileSync(path.join(deckDir, 'manifest.json'), JSON.stringify(manifest, null, 2));
+  var html = [
+    '<!DOCTYPE html>',
+    '<html lang="en">',
+    '<head>',
+    '<meta charset="utf-8">',
+    '<title>Addition Practice</title>',
+    '</head>',
+    '<body>',
+    '<h1>Addition Practice</h1>',
+    '<script>var template = "<h1 class=\\"lcs-celebration__title\\">"+T("youDidIt")+"</h1>";</script>',
+    '</body>',
+    '</html>'
+  ].join('\n');
+  fs.writeFileSync(path.join(deckDir, 'deck.html'), html);
+
+  var c = republishMod.classifyDeck({
+    deckHtml: path.join(deckDir, 'deck.html'),
+    locale: 'en',
+    slug: 'js-escaped-celebration'
+  });
+  var result = republishMod.computeNewHtml(c);
+  // The JS-string-escaped <h1 ...> should become <h2 ...>
+  assert.ok(result.newHtml.indexOf('<h2 class=\\"lcs-celebration__title\\"') !== -1,
+    'JS-escaped celebration h1 converted to h2');
+  assert.ok(result.newHtml.indexOf('<h1 class=\\"lcs-celebration__title\\"') === -1,
+    'no JS-escaped celebration h1 remaining');
+  // Non-celebration <h1>Addition Practice</h1> preserved
+  assert.ok(result.newHtml.indexOf('<h1>Addition Practice</h1>') !== -1,
+    'non-celebration h1 preserved');
+});
+
 // =====================================================================
 console.log('');
 console.log('computeSeoHashes:');

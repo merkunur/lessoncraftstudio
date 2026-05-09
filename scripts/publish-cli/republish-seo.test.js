@@ -366,6 +366,68 @@ test('Class B: non-celebration h1 PRESERVED (only celebration h1 converts)', fun
   assert.ok(result.newHtml.indexOf('<h1>Addition Practice</h1>') !== -1, 'non-celebration h1 preserved');
 });
 
+test('Class A: contaminated state with duplicate <title> outside markers — duplicates STRIPPED', function () {
+  // Failure-mode fixture: a prior incomplete retrofit left an old <title>
+  // OUTSIDE the SEO_INSERTION_POINT marker pair. Defensive cleanup at
+  // Class A flow strips duplicates OUTSIDE markers; canonical content
+  // INSIDE markers preserved.
+  var deckDir = path.join(TEST_DIR, 'en', 'class-a-contaminated-v1');
+  fs.mkdirSync(deckDir, { recursive: true });
+  var manifest = manifestFixture({
+    deck_id: 'class-a-contaminated-en-005',
+    language: 'en',
+    exercise_type: 'addition',
+    seo_trace: {
+      title: {
+        typeName: { value: 'Addition', source: 'translations.en.exerciseType.addition', isLocalized: true },
+        worksheetWord: { value: 'Worksheet', source: 'translations.en.worksheet', isLocalized: true },
+        themeName: null,
+        levelLocalized: { value: 'Kindergarten', source: 'i18n', isLocalized: true }
+      },
+      description: {
+        freeInteractive: { value: 'Free interactive', source: 'translations.en.seoFreeInteractive', isLocalized: true },
+        typeName: { value: 'Addition', source: 'translations.en.exerciseType.addition', isLocalized: true },
+        worksheetWord: { value: 'Worksheet', source: 'translations.en.worksheet', isLocalized: true },
+        themeName: null,
+        forWord: { value: 'for', source: 'translations.en.seoFor', isLocalized: true },
+        levelLocalized: { value: 'Kindergarten', source: 'i18n', isLocalized: true },
+        instruction: { value: '', source: 'canvas.lcsLocalizedInstruction', isLocalized: true },
+        printOrPlay: { value: 'Print or play online', source: 'translations.en.seoPrintOrPlayOnline', isLocalized: true }
+      }
+    }
+  });
+  fs.writeFileSync(path.join(deckDir, 'manifest.json'), JSON.stringify(manifest, null, 2));
+  var html = [
+    '<!DOCTYPE html>',
+    '<html lang="en">',
+    '<head>',
+    '<meta charset="utf-8">',
+    '<title>OLD CONTAMINATED TITLE</title>',
+    '<meta name="description" content="OLD CONTAMINATED DESCRIPTION">',
+    '<!-- SEO_INSERTION_POINT_START -->',
+    '<title>Canonical Title</title>',
+    '<meta name="description" content="Canonical description">',
+    '<!-- SEO_INSERTION_POINT_END -->',
+    '</head>',
+    '<body><h1>Worksheet</h1></body>',
+    '</html>'
+  ].join('\n');
+  fs.writeFileSync(path.join(deckDir, 'deck.html'), html);
+
+  var c = republishMod.classifyDeck({
+    deckHtml: path.join(deckDir, 'deck.html'),
+    locale: 'en',
+    slug: 'class-a-contaminated'
+  });
+  var result = republishMod.computeNewHtml(c);
+  // Old contaminated title stripped
+  assert.strictEqual(result.newHtml.indexOf('OLD CONTAMINATED TITLE'), -1, 'old title stripped');
+  assert.strictEqual(result.newHtml.indexOf('OLD CONTAMINATED DESCRIPTION'), -1, 'old description stripped');
+  // Exactly 1 <title> element (the new canonical one inside markers)
+  var titleCount = (result.newHtml.match(/<title>/g) || []).length;
+  assert.strictEqual(titleCount, 1, 'exactly 1 <title> after defensive cleanup');
+});
+
 test('Class B: pre-existing <title> + meta description STRIPPED before inject (no duplicates)', function () {
   // Pre-existing deck.html has its own <title> + <meta description>; Class B
   // retrofit must strip them before injecting the new SEO block to avoid

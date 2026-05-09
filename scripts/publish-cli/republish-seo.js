@@ -257,6 +257,32 @@ function resolveSeoOpts(c) {
   };
 }
 
+/**
+ * Strip pre-existing canonical SEO elements from an HTML segment.
+ * Used by computeNewHtml to remove duplicates before injection (Class B)
+ * or after marker-replace (Class A defensive cleanup).
+ *
+ * Removes:
+ *   - <title>...</title>
+ *   - <meta name="description" ...>
+ *   - <link rel="canonical" ...>
+ *   - <meta property="og:..." ...>
+ *   - <meta name="twitter:..." ...>
+ *   - <script type="application/ld+json">...</script>
+ *
+ * Collapses any blank lines left by the strip (≥3 consecutive newlines → 2).
+ */
+function stripPreExistingSeoElements(s) {
+  s = s.replace(/<title>[\s\S]*?<\/title>/gi, '');
+  s = s.replace(/<meta\s+name="description"[^>]*>/gi, '');
+  s = s.replace(/<link\s+rel="canonical"[^>]*>/gi, '');
+  s = s.replace(/<meta\s+property="og:[^"]+"[^>]*>/gi, '');
+  s = s.replace(/<meta\s+name="twitter:[^"]+"[^>]*>/gi, '');
+  s = s.replace(/<script\s+type="application\/ld\+json"[^>]*>[\s\S]*?<\/script>/gi, '');
+  s = s.replace(/\n{3,}/g, '\n\n');
+  return s;
+}
+
 function tryI18n(locale, key, fallback) {
   try {
     var r = i18n.resolve(locale, key, null);
@@ -283,26 +309,44 @@ function computeNewHtml(c) {
   // Step 1: emit SEO block with placeholders
   var seoBlockTemplate = buildSeoHeadMod.buildSeoHead(seoOpts);
 
-  // Step 2: replace marker-pair (Class A) or inject before </head> (Class B)
+  // Step 2: strip pre-existing SEO elements (defensive — handles both
+  // Class B retrofit AND any contaminated Class A from prior incomplete
+  // retrofit). Then inject/replace per class.
+  //
+  // Strip targets: <title>, <meta name="description">, <link rel="canonical">,
+  // <meta property="og:*">, <meta name="twitter:*">, JSON-LD <script>.
+  // Strip order matters for marker pair preservation: in Class A, the
+  // marker pair contents include canonical SEO elements which the strip
+  // would remove BEFORE the marker-replace runs. So Class A flow:
+  // (a) FIRST replace between markers (write canonical SEO inside);
+  // (b) THEN strip duplicates OUTSIDE markers.
+  // Class B flow: (a) strip everywhere; (b) inject markers + content.
+
   if (c.seoClass === 'A') {
+    // Class A: replace between markers FIRST
     html = html.replace(
       /<!-- SEO_INSERTION_POINT_START -->[\s\S]*?<!-- SEO_INSERTION_POINT_END -->/,
       function () { return seoBlockTemplate; }  // function form: no $-interpolation surprises
     );
+    // Then strip duplicates OUTSIDE markers (defensive cleanup)
+    var preMarker = '';
+    var postMarker = '';
+    var afterEnd = '';
+    var startIdx = html.indexOf(SEO_MARKER_START);
+    var endIdx = html.indexOf(SEO_MARKER_END);
+    if (startIdx !== -1 && endIdx !== -1) {
+      preMarker = html.substring(0, startIdx);
+      postMarker = html.substring(startIdx, endIdx + SEO_MARKER_END.length);
+      afterEnd = html.substring(endIdx + SEO_MARKER_END.length);
+      // Strip pre-existing canonical SEO elements from preMarker + afterEnd
+      // (the marker block preserves its own canonical content)
+      preMarker = stripPreExistingSeoElements(preMarker);
+      afterEnd = stripPreExistingSeoElements(afterEnd);
+      html = preMarker + postMarker + afterEnd;
+    }
   } else {
-    // Class B: strip pre-existing SEO elements first to avoid duplicates,
-    // then inject the new SEO block before </head>.
-    // Strip: <title>, <meta name="description">, <link rel="canonical">,
-    //        <meta property="og:*">, <meta name="twitter:*">,
-    //        <script type="application/ld+json">...</script>
-    html = html.replace(/<title>[\s\S]*?<\/title>/i, '');
-    html = html.replace(/<meta\s+name="description"[^>]*>/gi, '');
-    html = html.replace(/<link\s+rel="canonical"[^>]*>/gi, '');
-    html = html.replace(/<meta\s+property="og:[^"]+"[^>]*>/gi, '');
-    html = html.replace(/<meta\s+name="twitter:[^"]+"[^>]*>/gi, '');
-    html = html.replace(/<script\s+type="application\/ld\+json"[^>]*>[\s\S]*?<\/script>/gi, '');
-    // Collapse any blank lines left by the strip (≥3 consecutive newlines → 2)
-    html = html.replace(/\n{3,}/g, '\n\n');
+    // Class B: strip everywhere first, then inject markers + content
+    html = stripPreExistingSeoElements(html);
     // Inject new SEO block before </head>
     html = html.replace(/<\/head>/i, function () { return seoBlockTemplate + '\n</head>'; });
   }

@@ -12,6 +12,7 @@ var assert = require('assert');
 var buildSeoHeadMod = require('./build-seo-head');
 var buildSeoHead = buildSeoHeadMod.buildSeoHead;
 var deriveExerciseModeName = buildSeoHeadMod.deriveExerciseModeName;
+var deriveVariantId = buildSeoHeadMod.deriveVariantId;
 
 var passCount = 0;
 var failCount = 0;
@@ -340,6 +341,87 @@ test('deriveExerciseModeName(non-string) → null (e.g., number)', function () {
 
 test('deriveExerciseModeName("simple") → "Simple" (single word, no hyphen)', function () {
   assert.strictEqual(deriveExerciseModeName('simple'), 'Simple');
+});
+
+console.log('');
+console.log('§11 commission: deriveVariantId helper:');
+
+test('deriveVariantId returns null for null/undefined/non-object', function () {
+  assert.strictEqual(deriveVariantId(null), null);
+  assert.strictEqual(deriveVariantId(undefined), null);
+  assert.strictEqual(deriveVariantId('not-an-object'), null);
+});
+
+test('deriveVariantId returns null for empty bundle', function () {
+  assert.strictEqual(deriveVariantId({}), null);
+});
+
+test('deriveVariantId is deterministic (same bundle → same id)', function () {
+  var b1 = { targets: [{ key: 'eagle' }, { key: 'cat' }] };
+  var b2 = { targets: [{ key: 'eagle' }, { key: 'cat' }] };
+  assert.strictEqual(deriveVariantId(b1), deriveVariantId(b2));
+});
+
+test('deriveVariantId varies across different bundles', function () {
+  var b1 = { targets: [{ key: 'eagle' }] };
+  var b2 = { targets: [{ key: 'cat' }] };
+  assert.notStrictEqual(deriveVariantId(b1), deriveVariantId(b2));
+});
+
+test('deriveVariantId returns 4-char lowercase hex', function () {
+  var id = deriveVariantId({ targets: [{ key: 'eagle' }] });
+  assert.ok(/^[0-9a-f]{4}$/.test(id), 'expected 4-char lowercase hex, got: ' + id);
+});
+
+test('deriveVariantId ignores volatile fields (createdAt, attribution)', function () {
+  var b1 = { targets: [{ key: 'eagle' }], createdAt: '2026-01-01' };
+  var b2 = { targets: [{ key: 'eagle' }], createdAt: '2026-12-31' };
+  // Different createdAt but same content → same variant_id (volatile fields skipped via fallback)
+  // NOTE: in this case targets is non-empty so the fallback doesn't engage; createdAt is in primary contentObj.
+  // But content keys take priority → same id.
+  assert.strictEqual(deriveVariantId(b1), deriveVariantId(b2));
+});
+
+console.log('');
+console.log('§11 commission: buildSeoHead with variantId:');
+
+test('buildSeoHead title includes "Set {variantId}" segment when variantId set', function () {
+  var html = buildSeoHead({
+    language: 'en',
+    exerciseTypeName: 'Picture Sudoku',
+    exerciseTypeSlug: 'sudoku',
+    themeName: 'Animals',
+    worksheetWord: 'Worksheet',
+    variantId: 'a3f2'
+  });
+  assert.ok(html.indexOf('Picture Sudoku Worksheet — Animals — __EDUCATIONAL_LEVEL_LOCALIZED__ — Set a3f2 | LessonCraftStudio') !== -1,
+    'expected title with Set a3f2 segment, got: ' + html.match(/<title>[^<]+/));
+});
+
+test('buildSeoHead title omits Set segment when variantId null', function () {
+  var html = buildSeoHead({
+    language: 'en',
+    exerciseTypeName: 'Picture Sudoku',
+    exerciseTypeSlug: 'sudoku',
+    themeName: 'Animals',
+    worksheetWord: 'Worksheet'
+    // variantId omitted
+  });
+  assert.ok(html.indexOf('— Set ') === -1, 'expected no Set segment when variantId null');
+});
+
+test('buildSeoHead description includes "(Set {variantId})" when variantId set', function () {
+  var html = buildSeoHead({
+    language: 'en',
+    exerciseTypeName: 'Picture Sudoku',
+    exerciseTypeSlug: 'sudoku',
+    themeName: 'Animals',
+    worksheetWord: 'Worksheet',
+    printOrPlay: 'Print or play online',
+    variantId: 'b4e1'
+  });
+  assert.ok(html.indexOf('Print or play online (Set b4e1).') !== -1,
+    'expected description with (Set b4e1) suffix');
 });
 
 console.log('');

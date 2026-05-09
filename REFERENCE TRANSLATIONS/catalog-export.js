@@ -219,6 +219,11 @@
       // Reserved per CLAUDE.md §17.8.7 — always null in v1; the v2 translate-
       // this-deck workflow populates it for cross-language sibling tracking.
       content_family_id: null,
+      // §11 commission forward-fix: variant_id derived per-deck at generation
+      // time from bundle content. Eliminates fresh-roll-variation TITLE_NON_UNIQUE
+      // collisions; flows into slug.js: deriveSeedFromManifest as 4th component
+      // and into deck.html title shape via buildSeoHead.
+      variant_id: opts.variantId || null,
       // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 1 — path-(b) trace per Phase 2
       // §6 doctrine. Per-app extractDeckBundle calls LCSCatalogExport.buildSeoTrace()
       // to populate; LCSCatalogExport.export() threads through opts.metadata.seo_trace
@@ -400,6 +405,63 @@
   }
 
   /**
+   * §11 commission: forward-fix for fresh-roll-variation TITLE_NON_UNIQUE
+   * defect class. Each ZIP produced by an operator-side generation gets a
+   * deterministic 4-char hex variant_id derived from bundle content. Two
+   * decks with identical bundle content → same variant_id (idempotent);
+   * two decks with different content → different variant_id (~1/65k
+   * collision rate per (type, mode, theme, level) bucket).
+   *
+   * The variant_id flows into:
+   *   - manifest.variant_id (for §17.8.5 slug derivation per slug.js: deriveSeedFromManifest)
+   *   - title shape via buildSeoHead opts.variantId ("— Set {variantId}" segment)
+   *   - description shape via buildSeoHead opts.variantId
+   *
+   * Hash: FNV-1a 32-bit over a deterministic content-bearing subset of bundle.
+   * FNV-1a chosen for synchronous + browser-portable + adequate collision rate
+   * for 4-char output. SHA-256 was the reference algorithm but requires async
+   * crypto.subtle.digest in browsers; FNV-1a gives equivalent 16-bit truncated
+   * output without the async dependency.
+   *
+   * Returns: 4-char lowercase hex string, OR null if bundle is empty/missing.
+   */
+  function deriveVariantId(bundle) {
+    if (!bundle || typeof bundle !== 'object') return null;
+    // Hash deterministic content-bearing subset (per-app fields).
+    var contentKeys = ['targets', 'cells', 'cutoutsData', 'holes', 'uniqueImageKeys',
+                       'problems', 'exercises', 'placedWordsInfo', 'words',
+                       'imageRefs', 'imagePlacements'];
+    var contentObj = {};
+    contentKeys.forEach(function (k) {
+      if (bundle[k] !== undefined) contentObj[k] = bundle[k];
+    });
+    // Fallback: bundle minus volatile fields (createdAt etc.)
+    if (Object.keys(contentObj).length === 0) {
+      var skipFields = {
+        createdAt: 1, attribution: 1, worksheetImage: 1, bundleVersion: 1,
+        schemaFormat: 1, loadingMode: 1, seoMeta: 1, page: 1,
+        gridRect: 1, gridDims: 1, variantId: 1
+      };
+      Object.keys(bundle).forEach(function (k) {
+        if (!skipFields[k]) contentObj[k] = bundle[k];
+      });
+    }
+    if (Object.keys(contentObj).length === 0) return null;
+    var json;
+    try { json = JSON.stringify(contentObj); }
+    catch (e) { return null; }
+    // FNV-1a 32-bit
+    var hash = 2166136261;
+    for (var i = 0; i < json.length; i++) {
+      hash ^= json.charCodeAt(i);
+      hash = Math.imul(hash, 16777619);
+    }
+    var hex = (hash >>> 0).toString(16);
+    while (hex.length < 8) hex = '0' + hex;
+    return hex.slice(0, 4);
+  }
+
+  /**
    * Build the SEO content for a deck.html <head>. Returns a string that the
    * per-app renderStandaloneHTML() injects between the existing viewport/theme-
    * color metas and the font preconnects. The hreflang marker MUST end up as
@@ -432,29 +494,38 @@
     // SEO uniqueness invariant enforcement (Phase 2 §1).
     var modeName        = (opts.exerciseModeName !== undefined && opts.exerciseModeName !== null && opts.exerciseModeName !== '')
                             ? String(opts.exerciseModeName) : null;
+    // §11 commission: variant_id discriminator. 4-char hex hash of bundle
+    // content; appended as " — Set {variantId}" segment in title + " (Set {variantId})"
+    // in description. Eliminates fresh-roll-variation TITLE_NON_UNIQUE collisions
+    // structurally (each ZIP gets a unique-by-content variant_id).
+    var variantId       = (opts.variantId !== undefined && opts.variantId !== null && opts.variantId !== '')
+                            ? String(opts.variantId) : null;
     var worksheetWord   = String(opts.worksheetWord || 'Worksheet');
     var instruction     = String(opts.instruction || '');
     var freeInteractive = String(opts.freeInteractive || 'Free interactive');
     var forWord         = String(opts.forWord || 'for');
     var printOrPlay     = String(opts.printOrPlay || 'Print or play online');
 
-    // Title: "{Type} {Mode?} {Worksheet} — {Theme} — __EDUCATIONAL_LEVEL_LOCALIZED__ | LessonCraftStudio"
+    // Title: "{Type} {Mode?} {Worksheet} — {Theme} — __EDUCATIONAL_LEVEL_LOCALIZED__ — Set {variantId}? | LessonCraftStudio"
     // Mode segment included when non-null (non-default mode); omitted for default mode.
     // Theme segment + its em-dashes are omitted when no theme is set.
+    // Variant segment included when non-null (§11 commission); omitted for legacy decks.
     var titleHead = typeName + (modeName ? ' ' + modeName : '') + ' ' + worksheetWord;
     var titleSegments = [titleHead];
     if (themeName) titleSegments.push(themeName);
     titleSegments.push('__EDUCATIONAL_LEVEL_LOCALIZED__');
+    if (variantId) titleSegments.push('Set ' + variantId);
     var titleCore = titleSegments.join(' — ');
     var titleFull = titleCore + ' | LessonCraftStudio';
 
-    // Description: "{freeInteractive} {type} {mode?} {worksheet} ({theme}) {for} __EDUCATIONAL_LEVEL_LOCALIZED__. {instruction}. {printOrPlay}."
+    // Description: "{freeInteractive} {type} {mode?} {worksheet} ({theme}) {for} __EDUCATIONAL_LEVEL_LOCALIZED__. {instruction}. {printOrPlay} (Set {variantId})?."
     // Preserve input casing — German requires capitalized nouns; lowercasing
     // breaks grammar in 5+ of the 11 supported languages.
     var descLead = freeInteractive + ' ' + typeName + (modeName ? ' ' + modeName : '') + ' ' + worksheetWord;
     if (themeName) descLead += ' (' + themeName + ')';
     descLead += ' ' + forWord + ' __EDUCATIONAL_LEVEL_LOCALIZED__';
-    var description = descLead + '.' + (instruction ? ' ' + instruction + (/[.!?]$/.test(instruction) ? '' : '.') : '') + ' ' + printOrPlay + '.';
+    var descTail = ' ' + printOrPlay + (variantId ? ' (Set ' + variantId + ')' : '') + '.';
+    var description = descLead + '.' + (instruction ? ' ' + instruction + (/[.!?]$/.test(instruction) ? '' : '.') : '') + descTail;
 
     // Schema.org LearningResource. Placeholders sit INSIDE string-quoted JSON
     // values so JSON.parse stays valid both before and after publish-cli's
@@ -1559,6 +1630,74 @@
    * Returns: Promise<{ deckId, zipFileName }>
    * Throws if any step fails — no partial ZIP is produced.
    */
+  /**
+   * §11 commission auto-injection: post-process generated deck.html to include
+   * variant_id segment in title + description + JSON-LD; set manifest.variant_id.
+   * Zero per-app code changes required — the rewrite happens at the catalog-
+   * export boundary using the already-generated bundle. Returns mutated
+   * { deckHtml, variantId } or original deckHtml + variantId=null on parse failure.
+   *
+   * Per-app extractDeckBundle does NOT need to be touched; renderStandaloneHTML's
+   * buildSeoHead call doesn't need to know about variantId. The auto-injection
+   * post-processes the well-known shape: `<title>... | LessonCraftStudio</title>`,
+   * `<meta name="description" content="...">`, and JSON-LD `name`/`description`.
+   */
+  function autoInjectVariantId(deckHtml) {
+    var bundleMatch = /var\s+DECK_BUNDLE\s*=\s*(\{[\s\S]*?\});\s*<\/script>/.exec(deckHtml);
+    if (!bundleMatch) return { deckHtml: deckHtml, variantId: null };
+    var bundle;
+    try { bundle = JSON.parse(bundleMatch[1]); }
+    catch (e) { return { deckHtml: deckHtml, variantId: null }; }
+    var variantId = deriveVariantId(bundle);
+    if (!variantId) return { deckHtml: deckHtml, variantId: null };
+
+    // Rewrite <title>: insert " — Set {variantId}" before " | LessonCraftStudio"
+    deckHtml = deckHtml.replace(
+      /<title>([^<]+?)\s*\|\s*LessonCraftStudio<\/title>/,
+      function (m, core) {
+        // Skip if already contains "Set xxxx" pattern (idempotent)
+        if (/—\s*Set\s+[0-9a-f]{4}\s*$/i.test(core)) return m;
+        return '<title>' + core.trim() + ' — Set ' + variantId + ' | LessonCraftStudio</title>';
+      }
+    );
+
+    // Rewrite <meta name="description" content="...">: append " (Set {variantId})"
+    // to the end (just before final period if present).
+    deckHtml = deckHtml.replace(
+      /<meta\s+name="description"\s+content="([^"]+?)">/,
+      function (m, content) {
+        if (/\(Set\s+[0-9a-f]{4}\)/i.test(content)) return m;
+        var newContent = content.replace(/\.?$/, ' (Set ' + variantId + ').');
+        return '<meta name="description" content="' + newContent + '">';
+      }
+    );
+
+    // Rewrite JSON-LD `name` field: insert " — Set {variantId}" if title-shaped
+    deckHtml = deckHtml.replace(
+      /"name":"([^"]+?)"/,
+      function (m, name) {
+        if (/—\s*Set\s+[0-9a-f]{4}\s*$/i.test(name)) return m;
+        // Only rewrite if name matches the title-core shape (has em-dashes)
+        if (name.indexOf(' — ') === -1) return m;
+        return '"name":"' + name.trim() + ' — Set ' + variantId + '"';
+      }
+    );
+
+    // Rewrite JSON-LD `description` field similarly
+    deckHtml = deckHtml.replace(
+      /"description":"([^"]+?)"/,
+      function (m, desc) {
+        if (/\(Set\s+[0-9a-f]{4}\)/i.test(desc)) return m;
+        // Only rewrite if it looks like a generated description (contains "Free interactive" anchor or similar)
+        // Use simple heuristic: ends with period
+        var newDesc = desc.replace(/\.?$/, ' (Set ' + variantId + ').');
+        return '"description":"' + newDesc + '"';
+      }
+    );
+
+    return { deckHtml: deckHtml, variantId: variantId };
+  }
+
   function exportCatalog(opts) {
     return Promise.resolve().then(function () {
       if (typeof global.JSZip !== 'function') {
@@ -1593,6 +1732,14 @@
         }
         if (!thumbnailBlob || !(thumbnailBlob instanceof Blob)) {
           throw new Error('Thumbnail producer did not return a Blob.');
+        }
+
+        // §11 commission auto-injection: derive variant_id from deck.html bundle;
+        // rewrite title + description + JSON-LD; populate manifest.variant_id.
+        var injection = autoInjectVariantId(deckHtml);
+        deckHtml = injection.deckHtml;
+        if (injection.variantId) {
+          manifest.variant_id = injection.variantId;
         }
 
         var zip = new global.JSZip();
@@ -1632,6 +1779,7 @@
     vocabKeyFromImage: vocabKeyFromImage,
     deriveThemeName: deriveThemeName,
     deriveExerciseModeName: deriveExerciseModeName,
+    deriveVariantId: deriveVariantId,
     HREFLANG_MARKER: HREFLANG_MARKER,
     export: exportCatalog
   };

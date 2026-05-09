@@ -63,29 +63,37 @@ function buildSeoHead(opts) {
   // emits-null contract). Mirrors catalog-export.js buildSeoHead change.
   var modeName        = (opts.exerciseModeName !== undefined && opts.exerciseModeName !== null && opts.exerciseModeName !== '')
                           ? String(opts.exerciseModeName) : null;
+  // §11 commission: variant_id discriminator (4-char hex hash of bundle content).
+  // Mirrors catalog-export.js. Title/description gain "Set {variantId}" segment
+  // when present.
+  var variantId       = (opts.variantId !== undefined && opts.variantId !== null && opts.variantId !== '')
+                          ? String(opts.variantId) : null;
   var worksheetWord   = String(opts.worksheetWord || 'Worksheet');
   var instruction     = String(opts.instruction || '');
   var freeInteractive = String(opts.freeInteractive || 'Free interactive');
   var forWord         = String(opts.forWord || 'for');
   var printOrPlay     = String(opts.printOrPlay || 'Print or play online');
 
-  // Title: "{Type} {Mode?} {Worksheet} — {Theme} — __EDUCATIONAL_LEVEL_LOCALIZED__ | LessonCraftStudio"
+  // Title: "{Type} {Mode?} {Worksheet} — {Theme} — __EDUCATIONAL_LEVEL_LOCALIZED__ — Set {variantId}? | LessonCraftStudio"
   // Mode segment included when non-null (non-default mode); omitted for default mode.
   // Theme segment + its em-dashes are omitted when no theme is set.
+  // Variant segment included when non-null (§11 commission); omitted for legacy decks.
   var titleHead = typeName + (modeName ? ' ' + modeName : '') + ' ' + worksheetWord;
   var titleSegments = [titleHead];
   if (themeName) titleSegments.push(themeName);
   titleSegments.push('__EDUCATIONAL_LEVEL_LOCALIZED__');
+  if (variantId) titleSegments.push('Set ' + variantId);
   var titleCore = titleSegments.join(' — ');
   var titleFull = titleCore + ' | LessonCraftStudio';
 
-  // Description: "{freeInteractive} {type} {mode?} {worksheet} ({theme}) {for} __EDUCATIONAL_LEVEL_LOCALIZED__. {instruction}. {printOrPlay}."
+  // Description: "{freeInteractive} {type} {mode?} {worksheet} ({theme}) {for} __EDUCATIONAL_LEVEL_LOCALIZED__. {instruction}. {printOrPlay} (Set {variantId})?."
   // Preserve input casing — German requires capitalized nouns; lowercasing
   // breaks grammar in 5+ of the 11 supported languages.
   var descLead = freeInteractive + ' ' + typeName + (modeName ? ' ' + modeName : '') + ' ' + worksheetWord;
   if (themeName) descLead += ' (' + themeName + ')';
   descLead += ' ' + forWord + ' __EDUCATIONAL_LEVEL_LOCALIZED__';
-  var description = descLead + '.' + (instruction ? ' ' + instruction + (/[.!?]$/.test(instruction) ? '' : '.') : '') + ' ' + printOrPlay + '.';
+  var descTail = ' ' + printOrPlay + (variantId ? ' (Set ' + variantId + ')' : '') + '.';
+  var description = descLead + '.' + (instruction ? ' ' + instruction + (/[.!?]$/.test(instruction) ? '' : '.') : '') + descTail;
 
   // Schema.org LearningResource. Placeholders sit INSIDE string-quoted JSON
   // values so JSON.parse stays valid both before and after publish-cli's
@@ -155,9 +163,53 @@ function deriveExerciseModeName(rawMode) {
   }).join(' ');
 }
 
+/**
+ * §11 commission Node-CJS port: derive variant_id from bundle content.
+ * Mirrors catalog-export.js LCSCatalogExport.deriveVariantId. FNV-1a 32-bit
+ * over deterministic content-bearing subset; first 4 hex chars returned.
+ *
+ * Browser-portable + sync (no async crypto.subtle dependency).
+ *
+ * Returns: 4-char lowercase hex string, OR null if bundle is empty/missing.
+ */
+function deriveVariantId(bundle) {
+  if (!bundle || typeof bundle !== 'object') return null;
+  var contentKeys = ['targets', 'cells', 'cutoutsData', 'holes', 'uniqueImageKeys',
+                     'problems', 'exercises', 'placedWordsInfo', 'words',
+                     'imageRefs', 'imagePlacements'];
+  var contentObj = {};
+  contentKeys.forEach(function (k) {
+    if (bundle[k] !== undefined) contentObj[k] = bundle[k];
+  });
+  if (Object.keys(contentObj).length === 0) {
+    var skipFields = {
+      createdAt: 1, attribution: 1, worksheetImage: 1, bundleVersion: 1,
+      schemaFormat: 1, loadingMode: 1, seoMeta: 1, page: 1,
+      gridRect: 1, gridDims: 1, variantId: 1
+    };
+    Object.keys(bundle).forEach(function (k) {
+      if (!skipFields[k]) contentObj[k] = bundle[k];
+    });
+  }
+  if (Object.keys(contentObj).length === 0) return null;
+  var json;
+  try { json = JSON.stringify(contentObj); }
+  catch (e) { return null; }
+  // FNV-1a 32-bit
+  var hash = 2166136261;
+  for (var i = 0; i < json.length; i++) {
+    hash ^= json.charCodeAt(i);
+    hash = Math.imul(hash, 16777619);
+  }
+  var hex = (hash >>> 0).toString(16);
+  while (hex.length < 8) hex = '0' + hex;
+  return hex.slice(0, 4);
+}
+
 module.exports = {
   buildSeoHead: buildSeoHead,
   deriveExerciseModeName: deriveExerciseModeName,
+  deriveVariantId: deriveVariantId,
   escapeHtml: escapeHtml,
   escapeAttr: escapeAttr
 };

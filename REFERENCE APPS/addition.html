@@ -4494,6 +4494,29 @@
             printOrPlay: _t('seoPrintOrPlayOnline') || 'Print or play online'
         };
 
+        // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 1 — path-(b) origin trace
+        // per Phase 2 doctrine §6. Per-substring localization tracking; gate-side
+        // reconcileLocaleResidue consumes manifest.seo_trace to detect English
+        // residue (vs path-(a) lexicon-fallback approximation).
+        // Reference implementation; pattern fan-out across remaining 28 catalog
+        // apps at Phase 3b Checkpoint 2.
+        var deckLocale = (window.currentLocale || (languageSelect && languageSelect.value) || 'en');
+        var seoTrace = (window.LCSCatalogExport && LCSCatalogExport.buildSeoTrace)
+            ? LCSCatalogExport.buildSeoTrace({
+                locale: deckLocale,
+                translations: window.translations || {},
+                exerciseTypeName: seoMeta.exerciseTypeName,
+                themeName: seoMeta.themeName,
+                instruction: seoMeta.instruction,
+                keys: {
+                    worksheet: 'worksheet',
+                    freeInteractive: 'seoFreeInteractive',
+                    forWord: 'seoFor',
+                    printOrPlay: 'seoPrintOrPlayOnline'
+                }
+            })
+            : null;
+
         return {
             bundleVersion: '5.1.0',
             schemaFormat: 'image-references-v2',
@@ -4504,6 +4527,7 @@
             title: 'Addition Practice',
             theme: worksheetTheme,
             seoMeta: seoMeta,
+            seoTrace: seoTrace,
             page: {
                 width: currentCanvasConfig.width,
                 height: currentCanvasConfig.height
@@ -5553,13 +5577,13 @@
         const previousLabel = exportToCatalogBtn.textContent;
         exportToCatalogBtn.textContent = t('exportingToCatalog') || 'Exporting…';
         try {
-          let cachedBundle = null;
-          const getBundle = async () => {
-            if (!cachedBundle) {
-              cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline' });
-            }
-            return cachedBundle;
-          };
+          // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 1: pre-build bundle so
+          // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
+          // Bundle is then re-used in producers (cached; no double-extraction).
+          let cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline' });
+          const getBundle = async () => cachedBundle;
+          const baseMetadata = buildCatalogManifestSettings();
+          baseMetadata.seo_trace = cachedBundle && cachedBundle.seoTrace ? cachedBundle.seoTrace : null;
           const result = await window.LCSCatalogExport.export({
             app: { name: 'addition', version: '5.1.0', bundleVersion: 5 },
             language: window.currentLocale || 'en',
@@ -5577,7 +5601,7 @@
                 return bundle.worksheetImage;
               }
             },
-            metadata: buildCatalogManifestSettings()
+            metadata: baseMetadata
           });
           showMessage((t('catalogExportSuccess') || 'Exported to catalog: ') + result.zipFileName, 'success');
         } catch (e) {

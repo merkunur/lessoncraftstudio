@@ -482,19 +482,25 @@ function reconcileOGTags(substitutedHtml, opts) {
 // =====================================================================
 
 /**
- * Phase 2 §6 path-(a) lexicon-fallback. Detects English residue in
- * non-English deck title + description by tokenizing + checking against
- * ENGLISH_LEXICON (excluding per-locale loanword exception list).
+ * Phase 2 §6 locale-correctness invariant. Detects English residue in
+ * non-English deck title + description.
  *
- * Phase 3b path-(b) trace upgrade (translation-key-resolution-source-trace
- * via per-app extractDeckBundle extension) replaces this with origin-tracing
- * per-substring; lexicon exception list deprecated post-3b.
+ * [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 1 — dispatches between two paths:
+ *   path-(b) trace      — manifest.seo_trace present; consumes per-substring
+ *                          isLocalized booleans for precise residue detection
+ *   path-(a) lexicon    — manifest.seo_trace absent (Phase 3a-era ZIPs OR
+ *                          pre-Checkpoint-2 still-not-yet-fan-out apps); falls
+ *                          back to ENGLISH_LEXICON tokenize-and-match
  *
- * Halt class: LOCALE_RESIDUE_DETECTED — non-English deck has English
- * lexicon hits in title/description outside per-locale exceptions.
+ * Both paths share the same LOCALE_RESIDUE_DETECTED halt-class category.
+ * The `path` metadata field on the return distinguishes which evaluation
+ * produced the verdict (debug surface; doesn't change halt semantics).
  *
- * En decks always CLEAN (English content allowed in English titles —
- * trivial pass).
+ * Backwards-compat is load-bearing through Phase 3b multi-session execution:
+ *   - 28 of 29 apps still emit pre-Checkpoint-2 manifests until Checkpoint 2 fan-out
+ *   - Lexicon stays load-bearing until Checkpoint 3 close
+ *
+ * En decks always CLEAN (English content allowed in English titles — trivial pass).
  */
 function reconcileLocaleResidue(manifest, renderedTitle, renderedDescription, opts) {
   var deckId = manifest && manifest.deck_id ? manifest.deck_id : null;
@@ -502,8 +508,88 @@ function reconcileLocaleResidue(manifest, renderedTitle, renderedDescription, op
   var locale = manifest && manifest.language ? manifest.language : null;
 
   if (!locale || locale === 'en') {
-    return { category: 'CLEAN', deckId: deckId, app: app };
+    return { category: 'CLEAN', deckId: deckId, app: app, path: 'skip-en' };
   }
+
+  // Phase 3b Checkpoint 1: prefer path-(b) trace if present in manifest.
+  if (manifest && manifest.seo_trace) {
+    return reconcileLocaleResidueViaTrace(manifest);
+  }
+
+  // Phase 3a fallback: path-(a) lexicon. Active for pre-Checkpoint-2 apps + legacy ZIPs.
+  return reconcileLocaleResidueViaLexicon(manifest, renderedTitle, renderedDescription, opts);
+}
+
+/**
+ * Phase 3b path-(b) trace consumption. Iterates manifest.seo_trace.title +
+ * manifest.seo_trace.description; halts on any field with isLocalized=false.
+ *
+ * Trace shape per LCSCatalogExport.buildSeoTrace at REFERENCE TRANSLATIONS/
+ * catalog-export.js: {title: {<field>: {value, source, isLocalized}}, description: {...}}.
+ *
+ * Halt category: LOCALE_RESIDUE_DETECTED (same as path-(a) for predicate-table consistency).
+ * Path metadata: `path: 'trace'` for debug.
+ */
+function reconcileLocaleResidueViaTrace(manifest) {
+  var deckId = manifest && manifest.deck_id ? manifest.deck_id : null;
+  var app = manifest && manifest.exercise_type ? manifest.exercise_type : null;
+  var locale = manifest.language;
+  var trace = manifest.seo_trace;
+  var issues = [];
+
+  ['title', 'description'].forEach(function (section) {
+    var fields = (trace && trace[section]) || {};
+    Object.keys(fields).forEach(function (field) {
+      var info = fields[field];
+      // Skip null fields (e.g., themeName when no theme set; legitimate skip)
+      if (info == null) return;
+      if (info.isLocalized === false) {
+        issues.push({
+          section: section,
+          field: field,
+          source: info.source,
+          value: info.value
+        });
+      }
+    });
+  });
+
+  if (issues.length > 0) {
+    return {
+      category: 'LOCALE_RESIDUE_DETECTED',
+      issues: issues,
+      locale: locale,
+      deckId: deckId,
+      app: app,
+      path: 'trace'
+    };
+  }
+
+  return {
+    category: 'CLEAN',
+    locale: locale,
+    deckId: deckId,
+    app: app,
+    path: 'trace'
+  };
+}
+
+/**
+ * Phase 3a path-(a) lexicon-fallback. Detects English residue in
+ * non-English deck title + description by tokenizing + checking against
+ * ENGLISH_LEXICON (excluding per-locale loanword exception list).
+ *
+ * Phase 3b path-(b) trace upgrade replaces this in steady state; lexicon
+ * stays load-bearing as backwards-compat fallback through Phase 3b multi-
+ * session execution. Lexicon exception list deprecated at Checkpoint 3 close.
+ *
+ * Halt class: LOCALE_RESIDUE_DETECTED — non-English deck has English
+ * lexicon hits in title/description outside per-locale exceptions.
+ */
+function reconcileLocaleResidueViaLexicon(manifest, renderedTitle, renderedDescription, opts) {
+  var deckId = manifest && manifest.deck_id ? manifest.deck_id : null;
+  var app = manifest && manifest.exercise_type ? manifest.exercise_type : null;
+  var locale = manifest && manifest.language ? manifest.language : null;
 
   var exceptions = loadLexiconExceptions();
   var localeExceptions = new Set((exceptions[locale] || []).map(function (w) { return w.toLowerCase(); }));
@@ -533,11 +619,18 @@ function reconcileLocaleResidue(manifest, renderedTitle, renderedDescription, op
       englishWords: allResidue,
       locale: locale,
       deckId: deckId,
-      app: app
+      app: app,
+      path: 'lexicon'
     };
   }
 
-  return { category: 'CLEAN', locale: locale, deckId: deckId, app: app };
+  return {
+    category: 'CLEAN',
+    locale: locale,
+    deckId: deckId,
+    app: app,
+    path: 'lexicon'
+  };
 }
 
 // =====================================================================
@@ -776,6 +869,9 @@ module.exports = {
   reconcileCanonicalURLPattern: reconcileCanonicalURLPattern,
   reconcileOGTags: reconcileOGTags,
   reconcileLocaleResidue: reconcileLocaleResidue,
+  // Phase 3b Checkpoint 1: dispatch sub-functions exported for testability.
+  reconcileLocaleResidueViaTrace: reconcileLocaleResidueViaTrace,
+  reconcileLocaleResidueViaLexicon: reconcileLocaleResidueViaLexicon,
   reconcileSingleH1: reconcileSingleH1,
   reconcileInboundLinkSurface: reconcileInboundLinkSurface,
   // Orchestrator

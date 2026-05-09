@@ -218,7 +218,15 @@
       },
       // Reserved per CLAUDE.md §17.8.7 — always null in v1; the v2 translate-
       // this-deck workflow populates it for cross-language sibling tracking.
-      content_family_id: null
+      content_family_id: null,
+      // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 1 — path-(b) trace per Phase 2
+      // §6 doctrine. Per-app extractDeckBundle calls LCSCatalogExport.buildSeoTrace()
+      // to populate; LCSCatalogExport.export() threads through opts.metadata.seo_trace
+      // into manifest.json. publish-cli's reconcileLocaleResidue predicate consumes
+      // this when present; falls back to path-(a) lexicon when absent (Phase 3a-era
+      // ZIPs predating Phase 3b emit-site sweep). Backwards-compat preserved
+      // throughout Phase 3b multi-session execution.
+      seo_trace: meta.seo_trace || null
     };
     // Round-trip check per brief §5: schema must JSON-serialize cleanly.
     JSON.parse(JSON.stringify(manifest));
@@ -242,6 +250,117 @@
       .replace(/"/g, '&quot;')
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;');
+  }
+
+  /**
+   * [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 1 — path-(b) origin-tracing helper.
+   *
+   * Builds the bundle.seoTrace structure per Phase 2 doctrine §6. Per-app
+   * extractDeckBundle calls this once per deck; result is threaded into
+   * opts.metadata.seo_trace at LCSCatalogExport.export() call site, which
+   * buildManifest writes to manifest.json's top-level `seo_trace` field.
+   *
+   * publish-cli's reconcileLocaleResidue predicate consumes manifest.seo_trace
+   * to detect English residue per-substring (vs path-(a) lexicon's
+   * tokenize-and-match approximation).
+   *
+   * opts = {
+   *   locale: 'de'                          // ISO 639-1; deck's content language
+   *   translations: window.translations,    // global translations dict (e.g. {en:{...}, de:{...}})
+   *   exerciseTypeName: 'Additionsspaß',    // canvas-cached value (canvas.lcsLocalizedTitle)
+   *   themeName: 'Tiere' | null,            // resolved theme; null if no theme
+   *   instruction: 'Addiere die Zahlen…',   // canvas-cached value (canvas.lcsLocalizedInstruction)
+   *   keys: {                               // translation-key dispatch
+   *     worksheet: 'worksheet',             // → translations[locale]['worksheet']
+   *     freeInteractive: 'seoFreeInteractive',
+   *     forWord: 'seoFor',
+   *     printOrPlay: 'seoPrintOrPlayOnline'
+   *   }
+   * }
+   *
+   * Returns: { title: {...}, description: {...} } per Phase 2 §6 trace shape.
+   *
+   * isLocalized semantics:
+   *   - locale === 'en' → all fields isLocalized: true (en content trivially localized)
+   *   - canvas-cached values (exerciseTypeName, instruction, themeName): isLocalized
+   *     reflects whether the cached value differs from a known-en fallback OR
+   *     whether the canvas was generated under the deck's locale. Phase 3b
+   *     Checkpoint 1 simplification: trust canvas-cached as localized when
+   *     non-null + non-empty; refine at Phase 3b Checkpoint 2 if false-positives
+   *     emerge per cost-balloon-condition (a) per Phase 2 §8.
+   *   - t()-direct values (worksheet, freeInteractive, etc.): isLocalized is true
+   *     iff translations[locale][key] exists AND is non-empty; false otherwise
+   *     (which means t() fell back to en).
+   */
+  function buildSeoTrace(opts) {
+    if (!opts) throw new Error('buildSeoTrace: opts is required.');
+    var locale = String(opts.locale || 'en');
+    var translations = opts.translations || {};
+    var keys = opts.keys || {};
+
+    function lookupTrace(key, fallback) {
+      var localizedDict = translations[locale] || {};
+      var localizedValue = localizedDict[key];
+      var hasLocalized = (localizedValue !== undefined && localizedValue !== null && localizedValue !== '');
+      var value = hasLocalized ? localizedValue : fallback;
+      return {
+        value: String(value || ''),
+        source: hasLocalized
+          ? ('translations.' + locale + '.' + key)
+          : ('fallback.en.' + key),
+        isLocalized: (locale === 'en') ? true : hasLocalized
+      };
+    }
+
+    function canvasTrace(value, sourceLabel) {
+      var nonEmpty = (value !== undefined && value !== null && value !== '');
+      return {
+        value: String(value || ''),
+        source: sourceLabel,
+        // Phase 3b Checkpoint 1 simplification: canvas-cached values from a
+        // generated-under-locale canvas are treated as localized when present.
+        // Refine at Checkpoint 2 if cost-balloon-condition (a) surfaces empirical
+        // false-positives.
+        isLocalized: (locale === 'en') ? true : nonEmpty
+      };
+    }
+
+    var themeTrace = (opts.themeName !== undefined && opts.themeName !== null)
+      ? canvasTrace(opts.themeName, 'metadata.theme')
+      : null;
+
+    var titleTrace = {
+      typeName: canvasTrace(opts.exerciseTypeName, 'canvas.lcsLocalizedTitle'),
+      worksheetWord: lookupTrace(keys.worksheet || 'worksheet', 'Worksheet'),
+      themeName: themeTrace,
+      // levelLocalized is substituted by publish-cli post-emission via
+      // __EDUCATIONAL_LEVEL_LOCALIZED__ placeholder (per §17.8.6 mapping).
+      // Trace records the placeholder + marks as pending publish-cli resolution;
+      // publish-cli's reconcileLocaleResidue treats this as CLEAN by convention
+      // (substitution happens at gate-time so trust the §17.8.6-driven path).
+      levelLocalized: {
+        value: '__EDUCATIONAL_LEVEL_LOCALIZED__',
+        source: 'publish-cli.i18n.seo.educational_level',
+        isLocalized: true
+      }
+    };
+
+    var descriptionTrace = {
+      freeInteractive: lookupTrace(keys.freeInteractive || 'seoFreeInteractive', 'Free interactive'),
+      typeName: canvasTrace(opts.exerciseTypeName, 'canvas.lcsLocalizedTitle'),
+      worksheetWord: lookupTrace(keys.worksheet || 'worksheet', 'Worksheet'),
+      themeName: themeTrace,
+      forWord: lookupTrace(keys.forWord || 'seoFor', 'for'),
+      levelLocalized: {
+        value: '__EDUCATIONAL_LEVEL_LOCALIZED__',
+        source: 'publish-cli.i18n.seo.educational_level',
+        isLocalized: true
+      },
+      instruction: canvasTrace(opts.instruction, 'canvas.lcsLocalizedInstruction'),
+      printOrPlay: lookupTrace(keys.printOrPlay || 'seoPrintOrPlayOnline', 'Print or play online')
+    };
+
+    return { title: titleTrace, description: descriptionTrace };
   }
 
   /**
@@ -1458,6 +1577,7 @@
     isoUtc: isoUtc,
     slugify: slugify,
     buildSeoHead: buildSeoHead,
+    buildSeoTrace: buildSeoTrace,
     buildEndDeckLinks: buildEndDeckLinks,
     buildDeckEndSuggestionsPlaceholder: buildDeckEndSuggestionsPlaceholder,
     buildSrRows: buildSrRows,

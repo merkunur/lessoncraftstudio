@@ -308,6 +308,110 @@ test('Brand whitelist preserves "LessonCraftStudio" suffix in non-English titles
 });
 
 // =====================================================================
+// reconcileLocaleResidue — Phase 3b Checkpoint 1 path-(b) trace tests
+// =====================================================================
+
+console.log('\nreconcileLocaleResidue — path-(b) trace (Phase 3b Checkpoint 1):');
+
+function traceFixture(allLocalized) {
+  // Build a synthetic manifest.seo_trace with all-isLocalized:allLocalized
+  var fieldOk = function (val, src) { return { value: val, source: src, isLocalized: allLocalized }; };
+  return {
+    title: {
+      typeName: fieldOk('Additionsspaß', 'canvas.lcsLocalizedTitle'),
+      worksheetWord: fieldOk('Arbeitsblatt', 'translations.de.worksheet'),
+      themeName: fieldOk('Tiere', 'metadata.theme'),
+      levelLocalized: { value: '__EDUCATIONAL_LEVEL_LOCALIZED__', source: 'publish-cli.i18n.seo.educational_level', isLocalized: true }
+    },
+    description: {
+      freeInteractive: fieldOk('Kostenlos interaktiv', 'translations.de.seoFreeInteractive'),
+      typeName: fieldOk('Additionsspaß', 'canvas.lcsLocalizedTitle'),
+      worksheetWord: fieldOk('Arbeitsblatt', 'translations.de.worksheet'),
+      themeName: fieldOk('Tiere', 'metadata.theme'),
+      forWord: fieldOk('für', 'translations.de.seoFor'),
+      levelLocalized: { value: '__EDUCATIONAL_LEVEL_LOCALIZED__', source: 'publish-cli.i18n.seo.educational_level', isLocalized: true },
+      instruction: fieldOk('Addiere die Zahlen', 'canvas.lcsLocalizedInstruction'),
+      printOrPlay: fieldOk('Drucken oder online spielen', 'translations.de.seoPrintOrPlayOnline')
+    }
+  };
+}
+
+test('path-(b) trace: CLEAN when all isLocalized=true (de deck fully translated)', function () {
+  var manifest = manifestFixture({ language: 'de' });
+  manifest.seo_trace = traceFixture(true);
+  var result = seoRecon.reconcileLocaleResidue(manifest, '', '', {});
+  assert.strictEqual(result.category, 'CLEAN');
+  assert.strictEqual(result.path, 'trace');
+});
+
+test('path-(b) trace: LOCALE_RESIDUE_DETECTED when title.worksheetWord isLocalized=false', function () {
+  var manifest = manifestFixture({ language: 'de' });
+  manifest.seo_trace = traceFixture(true);
+  manifest.seo_trace.title.worksheetWord.isLocalized = false;
+  manifest.seo_trace.title.worksheetWord.source = 'fallback.en.worksheet';
+  manifest.seo_trace.title.worksheetWord.value = 'Worksheet';
+  var result = seoRecon.reconcileLocaleResidue(manifest, '', '', {});
+  assert.strictEqual(result.category, 'LOCALE_RESIDUE_DETECTED');
+  assert.strictEqual(result.path, 'trace');
+  assert.strictEqual(result.issues.length, 1);
+  assert.strictEqual(result.issues[0].field, 'worksheetWord');
+  assert.strictEqual(result.issues[0].section, 'title');
+});
+
+test('path-(b) trace: aggregates multiple isLocalized=false issues', function () {
+  var manifest = manifestFixture({ language: 'de' });
+  manifest.seo_trace = traceFixture(false); // ALL fields fail
+  var result = seoRecon.reconcileLocaleResidue(manifest, '', '', {});
+  assert.strictEqual(result.category, 'LOCALE_RESIDUE_DETECTED');
+  assert.ok(result.issues.length >= 2, 'should aggregate multiple residue findings; got ' + result.issues.length);
+});
+
+test('path-(b) trace: handles null themeName gracefully', function () {
+  var manifest = manifestFixture({ language: 'de' });
+  manifest.seo_trace = traceFixture(true);
+  manifest.seo_trace.title.themeName = null;
+  manifest.seo_trace.description.themeName = null;
+  var result = seoRecon.reconcileLocaleResidue(manifest, '', '', {});
+  assert.strictEqual(result.category, 'CLEAN');
+  assert.strictEqual(result.path, 'trace');
+});
+
+test('path-(a) lexicon fallback: backwards-compat when manifest.seo_trace absent (Phase 3a-era)', function () {
+  // No seo_trace on manifest → should fall back to lexicon
+  var manifest = manifestFixture({ language: 'de' });
+  // Don't set manifest.seo_trace at all — simulates Phase 3a-era ZIP
+  var result = seoRecon.reconcileLocaleResidue(
+    manifest,
+    'Bilder-Sudoku Arbeitsblatt — Kindergarten | LessonCraftStudio', // German content; no English chrome
+    'Kostenloses interaktives Bilder-Sudoku Arbeitsblatt für Kindergarten. Drucken oder online spielen.',
+    {}
+  );
+  assert.strictEqual(result.category, 'CLEAN');
+  assert.strictEqual(result.path, 'lexicon');
+});
+
+test('path-(a) lexicon fallback: still halts on residue when seo_trace absent', function () {
+  var manifest = manifestFixture({ language: 'de' });
+  // F3+H1 reproduction: seo_trace absent; English residue in title
+  var result = seoRecon.reconcileLocaleResidue(
+    manifest,
+    'Picture Sudoku Worksheet — Kindergarten | LessonCraftStudio',
+    'Free interactive Picture Sudoku Worksheet for Kindergarten. Print or play online.',
+    {}
+  );
+  assert.strictEqual(result.category, 'LOCALE_RESIDUE_DETECTED');
+  assert.strictEqual(result.path, 'lexicon');
+});
+
+test('en deck: CLEAN regardless of seo_trace presence (skip-en path)', function () {
+  var manifest = manifestFixture({ language: 'en' });
+  manifest.seo_trace = traceFixture(false); // even isLocalized=false should pass for en
+  var result = seoRecon.reconcileLocaleResidue(manifest, '', '', {});
+  assert.strictEqual(result.category, 'CLEAN');
+  assert.strictEqual(result.path, 'skip-en');
+});
+
+// =====================================================================
 // reconcileSingleH1
 // =====================================================================
 

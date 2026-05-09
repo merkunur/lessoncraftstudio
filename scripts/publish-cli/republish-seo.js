@@ -290,6 +290,20 @@ function computeNewHtml(c) {
       function () { return seoBlockTemplate; }  // function form: no $-interpolation surprises
     );
   } else {
+    // Class B: strip pre-existing SEO elements first to avoid duplicates,
+    // then inject the new SEO block before </head>.
+    // Strip: <title>, <meta name="description">, <link rel="canonical">,
+    //        <meta property="og:*">, <meta name="twitter:*">,
+    //        <script type="application/ld+json">...</script>
+    html = html.replace(/<title>[\s\S]*?<\/title>/i, '');
+    html = html.replace(/<meta\s+name="description"[^>]*>/gi, '');
+    html = html.replace(/<link\s+rel="canonical"[^>]*>/gi, '');
+    html = html.replace(/<meta\s+property="og:[^"]+"[^>]*>/gi, '');
+    html = html.replace(/<meta\s+name="twitter:[^"]+"[^>]*>/gi, '');
+    html = html.replace(/<script\s+type="application\/ld\+json"[^>]*>[\s\S]*?<\/script>/gi, '');
+    // Collapse any blank lines left by the strip (≥3 consecutive newlines → 2)
+    html = html.replace(/\n{3,}/g, '\n\n');
+    // Inject new SEO block before </head>
     html = html.replace(/<\/head>/i, function () { return seoBlockTemplate + '\n</head>'; });
   }
 

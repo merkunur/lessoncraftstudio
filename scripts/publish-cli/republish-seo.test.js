@@ -366,6 +366,55 @@ test('Class B: non-celebration h1 PRESERVED (only celebration h1 converts)', fun
   assert.ok(result.newHtml.indexOf('<h1>Addition Practice</h1>') !== -1, 'non-celebration h1 preserved');
 });
 
+test('Class B: pre-existing <title> + meta description STRIPPED before inject (no duplicates)', function () {
+  // Pre-existing deck.html has its own <title> + <meta description>; Class B
+  // retrofit must strip them before injecting the new SEO block to avoid
+  // duplicate <title> elements in the head.
+  var deckDir = path.join(TEST_DIR, 'en', 'class-b-strip-v1');
+  fs.mkdirSync(deckDir, { recursive: true });
+  var manifest = manifestFixture({
+    deck_id: 'class-b-strip-en-004',
+    language: 'en',
+    exercise_type: 'addition',
+    seo_trace: null
+  });
+  fs.writeFileSync(path.join(deckDir, 'manifest.json'), JSON.stringify(manifest, null, 2));
+  var html = [
+    '<!DOCTYPE html>',
+    '<html lang="en">',
+    '<head>',
+    '<meta charset="utf-8">',
+    '<title>OLD TITLE TO STRIP</title>',
+    '<meta name="description" content="OLD DESCRIPTION TO STRIP">',
+    '<link rel="canonical" href="https://lessoncraftstudio.com/old">',
+    '</head>',
+    '<body>',
+    '<h1>Worksheet</h1>',
+    '</body>',
+    '</html>'
+  ].join('\n');
+  fs.writeFileSync(path.join(deckDir, 'deck.html'), html);
+
+  var c = republishMod.classifyDeck({
+    deckHtml: path.join(deckDir, 'deck.html'),
+    locale: 'en',
+    slug: 'class-b-strip'
+  });
+  var result = republishMod.computeNewHtml(c);
+  // Old title stripped
+  assert.strictEqual(result.newHtml.indexOf('OLD TITLE TO STRIP'), -1, 'old title stripped');
+  assert.strictEqual(result.newHtml.indexOf('OLD DESCRIPTION TO STRIP'), -1, 'old description stripped');
+  // Exactly 1 <title> element (the new one)
+  var titleCount = (result.newHtml.match(/<title>/g) || []).length;
+  assert.strictEqual(titleCount, 1, 'exactly 1 <title> element');
+  // Exactly 1 <meta name="description"> element
+  var descCount = (result.newHtml.match(/<meta\s+name="description"/g) || []).length;
+  assert.strictEqual(descCount, 1, 'exactly 1 <meta name="description"> element');
+  // Exactly 1 <link rel="canonical"> element
+  var canonCount = (result.newHtml.match(/<link\s+rel="canonical"/g) || []).length;
+  assert.strictEqual(canonCount, 1, 'exactly 1 <link rel="canonical"> element');
+});
+
 test('Class B: JS-string-escaped celebration h1 → h2 (production-shape fixture)', function () {
   // Production deck.html embeds celebration as runtime JS string literal:
   //   "<h1 class=\"lcs-celebration__title\">"+T("youDidIt")+"</h1>"

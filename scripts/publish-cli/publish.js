@@ -28,6 +28,7 @@ var extractMeta = require('./extract-html-meta');
 var db = require('./db');
 var deckEndSuggestions = require('./deck-end-suggestions');
 var seoReconMod = require('./seo-reconciliation');
+var countInboundMod = require('./count-inbound-surfaces');
 
 var CANONICAL_URL_BASE = 'https://lessoncraftstudio.com';
 
@@ -203,7 +204,7 @@ async function publish(opts) {
     thisDeckId: existingRow ? existingRow.id : null,  // exclude self for UPDATE path
     findExistingByTitleHash: db.findExistingByTitleHash,
     findExistingByDescriptionHash: db.findExistingByDescriptionHash,
-    countInboundFn: undefined,  // Phase 3a.1 stub; Phase 3a.1 Checkpoint 2 helper wires later
+    countInboundFn: countInboundMod.countInboundSurfacesForDeck,  // Phase 4b: real helper (CJS port; (a-1) ratification)
     target: 3,
     haltClass: false,  // Phase 3a.1: warn-class pre-Phase-5 per concern 4 lock
     expectedOgImage: subResult.resolved.ogImage

@@ -26,6 +26,7 @@ var substitute = require('./substitute');
 var dryRunMod = require('./dry-run');
 var updatesManifestMod = require('./updates-manifest');
 var seoReconMod = require('./seo-reconciliation');
+var countInboundMod = require('./count-inbound-surfaces');
 
 function listZips(folder) {
   if (!fs.existsSync(folder) || !fs.statSync(folder).isDirectory()) {
@@ -578,7 +579,12 @@ async function dryRunBatch(opts) {
     // reconcileInboundLinkSurface stub to real (Phase 3a.1 Checkpoint 2 helper).
     findExistingByTitleHash: opts.findExistingByTitleHash,
     findExistingByDescriptionHash: opts.findExistingByDescriptionHash,
-    countInboundFn: opts.countInboundFn
+    // Phase 4b (a-1) ratification: real helper as default; tests / specialized
+    // callers may override via opts.countInboundFn. Per Phase 4b Sub-step 2.3
+    // wire-in pattern, mirrors publish.js single-publish path. Predicate stays
+    // WARN-class through Phase 4b; flips HALT-class post-Phase-5 per concern
+    // 4 escalation lock.
+    countInboundFn: opts.countInboundFn || countInboundMod.countInboundSurfacesForDeck
   };
 
   var results = [];

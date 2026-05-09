@@ -1,8 +1,16 @@
+'use strict';
+
 /**
- * [ARC][SEO][DECK-PAGE] Phase 3a.1 Checkpoint 2 — inbound-link surface counter.
+ * [ARC][SEO][DECK-PAGE] Phase 4b — inbound-link surface counter (CJS port).
  *
- * Implements the helper that flips reconcileInboundLinkSurface predicate at
- * scripts/publish-cli/seo-reconciliation.js from Checkpoint-1 stub → real.
+ * Ports frontend/lib/seo/count-inbound-surfaces.ts to publish-cli's Node-CJS
+ * runtime per Phase 4b (a-1) ratification. The TS source had zero frontend
+ * consumers (Phase 4b Sub-step 0 §A.13.6 recon); ports verbatim to CJS at
+ * scripts/publish-cli/count-inbound-surfaces.js + deletes the orphan TS file.
+ * Aligns with the publish-cli CJS-helper pattern (db.js + build-seo-head.js).
+ *
+ * Flips reconcileInboundLinkSurface predicate at scripts/publish-cli/seo-
+ * reconciliation.js from Phase 3a.1 Checkpoint 1 stub → real.
  *
  * Per Phase 2 §5 invariant: every published deck must reach ≥3 non-sitemap
  * inbound surfaces. Algorithm: dynamic-scaling — counts presence across 8
@@ -29,28 +37,24 @@
  * Wire-in: invoked from publish-cli's reconcileInboundLinkSurface via
  * opts.countInboundFn callback. Caller passes deckId + language; helper
  * returns {count, perSurface}.
+ *
+ * Predicate flip schedule: WARN-class through Phase 4b; flips to HALT-class
+ * post-Phase-5 per concern 4 escalation lock.
  */
 
-import { prisma } from '@/lib/prisma';
-
-export interface InboundSurfaceCount {
-  count: number;
-  perSurface: Record<string, boolean>;
-}
+var db = require('./db');
 
 /**
- * Count inbound non-sitemap surfaces for a published deck. Returns {count, perSurface}.
- * count is 0..8 based on which surfaces structurally include the deck.
+ * Count inbound non-sitemap surfaces for a published deck. Returns
+ * {count, perSurface}. count is 0..8 based on which surfaces structurally
+ * include the deck.
  *
  * Returns {count: 0, perSurface: {}} for non-existent or non-published decks
  * (gate-side caller treats as INBOUND_LINK_COUNT_BELOW_TARGET if predicate fires).
  */
-export async function countInboundSurfacesForDeck(
-  deckId: string,
-  language: string
-): Promise<InboundSurfaceCount> {
+async function countInboundSurfacesForDeck(deckId, language) {
   // Step 1: fetch the deck row (single indexed lookup)
-  const deck = await prisma.deck.findUnique({
+  var deck = await db.client().deck.findUnique({
     where: { id: deckId },
     select: {
       id: true,
@@ -59,15 +63,15 @@ export async function countInboundSurfacesForDeck(
       exerciseType: true,
       ageRange: true,
       subjectTags: true,
-      status: true,
-    },
+      status: true
+    }
   });
 
   if (!deck || deck.status !== 'published') {
     return { count: 0, perSurface: {} };
   }
 
-  const perSurface: Record<string, boolean> = {};
+  var perSurface = {};
 
   // Surface 1: exercise-type topic page — always present for published decks
   // per Phase 0 §6.5: TOPIC_PAGE_SIZE=24 paginated; deck appears on its
@@ -89,10 +93,10 @@ export async function countInboundSurfacesForDeck(
   // Helper proxy: siblingAxisStrip = true iff ≥2 distinct exercise-types
   // have published decks in this locale (cardinality ≥2 ensures the strip
   // renders; this deck participates as one of the cardinality-contributors).
-  const localeExerciseTypeCount = await prisma.deck.groupBy({
+  var localeExerciseTypeCount = await db.client().deck.groupBy({
     by: ['exerciseType'],
-    where: { language, status: 'published' },
-    _count: { _all: true },
+    where: { language: language, status: 'published' },
+    _count: { _all: true }
   });
   perSurface.siblingAxisStrip = localeExerciseTypeCount.length >= 2;
 
@@ -112,8 +116,8 @@ export async function countInboundSurfacesForDeck(
   // Per Commission B Phase 2: 6-slot strip per deck.html, fan-out across
   // locale catalog. Strip structurally requires ≥7 decks in locale (6 slots
   // + 1 self). At locale catalog count <7, strip falls below cardinality.
-  const localeDeckCount = await prisma.deck.count({
-    where: { language, status: 'published' },
+  var localeDeckCount = await db.client().deck.count({
+    where: { language: language, status: 'published' }
   });
   perSurface.deckEndSuggestionStrip = localeDeckCount >= 7;
 
@@ -126,9 +130,9 @@ export async function countInboundSurfacesForDeck(
   perSurface.breadthGridFeatured = false; // conservative; refine in Phase 3b
 
   // Aggregate count across the 8 surfaces
-  const count = Object.values(perSurface).filter((v) => v === true).length;
+  var count = Object.values(perSurface).filter(function (v) { return v === true; }).length;
 
-  return { count, perSurface };
+  return { count: count, perSurface: perSurface };
 }
 
 /**
@@ -136,10 +140,12 @@ export async function countInboundSurfacesForDeck(
  * that don't need per-surface breakdown). Equivalent to
  * `countInboundSurfacesForDeck(deckId, language).then(r => r.count)`.
  */
-export async function countInboundSurfaces(
-  deckId: string,
-  language: string
-): Promise<number> {
-  const result = await countInboundSurfacesForDeck(deckId, language);
+async function countInboundSurfaces(deckId, language) {
+  var result = await countInboundSurfacesForDeck(deckId, language);
   return result.count;
 }
+
+module.exports = {
+  countInboundSurfacesForDeck: countInboundSurfacesForDeck,
+  countInboundSurfaces: countInboundSurfaces
+};

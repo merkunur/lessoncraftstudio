@@ -2888,6 +2888,8 @@ When a commission spec includes classification rules over a code surface that ha
 
 **Anti-pattern:** trusting the commission spec as the final classification authority. The shipped contract IS the contract; specs propose rules against it but don't override it. Specs and shipped contracts can both be wrong; only empirical regression discriminates.
 
+**Paired discipline with §A.13.8 (adjudication-reversal).** §A.13.6 surfaces the spec-vs-shipped conflict; §A.13.8 governs the reversal once surfaced. The two are canonical-paired across multi-phase commissions: at any commission's recon step, surface conflicts (§A.13.6); at any conflict surface, reversal-vs-power-through is the operator-strategic call (§A.13.8). The `[ARC][SEO][DECK-PAGE]` commission (Phases 3a-5) fired the paired discipline 5 times: (1) Phase 3b multi-h1 single-shared-site (architectural sweep vs mechanical fan-out lock); (2) Phase 4a Checkpoint 2 5-step-diff Explore-agent recon (5-step-diff fan-out depth vs 3-step-diff initial); (3) Phase 4a Checkpoint 2 DB backfill silent-swallow (35.1% en backfill rate vs 100%-implied lock); (4) Phase 4a Checkpoint 2.5 (θ) residual class-distinction (close-at-63.3% vs power-through to 100%); (5) Phase 4b Sub-step 0 5th-firing TS→CJS path adjudication (a-1 CJS port vs (a) build-time compile). Each firing surfaced a cost-asymmetry the original adjudication didn't model; each was operator-ratified pre-execution rather than silently absorbed.
+
 Origin: `2b555b57` (Commission δ adjudication baking the lenient gate posture).
 
 #### A.13.7 Per-app first-publish verification cadence
@@ -2915,6 +2917,8 @@ When recon (typically Phase 1 inventory of any commission) surfaces a cost dimen
 **How to apply.** When a Phase 1 inventory surfaces a fix path that was not in the original adjudication's option set AND the new path is materially cheaper on the dimension the operator actually pays (typically generation hours, attention budget, or session cycles), surface the recalibration as a Phase 2 batched review rather than executing the original adjudication. The §15.17 salvage scripts pattern is the canonical example of authoring-side root-cause + publish-side patching co-existing as a layered fix shape.
 
 **Anti-pattern.** Treating an adjudication-lock as immutable when recon surfaces material cost asymmetry. Adjudicator-forward decision-locking (§3.4) does not mean adjudications are final-vs-reality — they're final until reality contradicts the cost-model the adjudication assumed. When that happens, surface and re-lock.
+
+**Paired discipline with §A.13.6 (spec-vs-shipped-contract validation).** §A.13.6 surfaces the conflict; §A.13.8 governs the recalibration once surfaced. Cross-reference §A.13.6's audit-trail of 5 firings across the `[ARC][SEO][DECK-PAGE]` commission for the canonical-paired pattern.
 
 Origin: code-addition manifest.theme defect arc (`44cbdda1` Shape A + `9051b43d` salvage script), recalibration surfaced post-recon.
 
@@ -2962,6 +2966,124 @@ When Phase 1 recon surfaces multiple operator-strategic adjudications, batch the
 **Anti-pattern.** Per-question consultative-by-default — "I found item X, what should I do?" → operator response → "I found item Y, what should I do?" → ... — wastes operator-attention proportional to N items even when the items are independent. Adjudicator-forward (§3.4) handles items where the call is clear per CLAUDE.md priority foundations; adjudication batching handles the residual items requiring operator-strategic input.
 
 Origin: Arc 2 Phase 1 four-adjudication batched review (`a93ebb7c` predecessor turn); pattern codified at this fold pass.
+
+#### A.13.12 Mechanical-fan-out vs architectural-sweep distinction at 29-app scope
+
+When a fix needs to land across the 29 §14.10 catalog apps, classify as **mechanical fan-out** (single-line edit per app, identical pattern, no per-app variance) vs **architectural sweep** (multi-file per app, shape-level changes, per-app structural variance) before pricing the cost envelope. The distinction governs verification-hygiene shape (§A.13.13) + cost-balloon escape hatch threshold (concern 3 in any commission spec) + structured-fan-out 3rd category (§A.13.15).
+
+**How to apply.** At any commission whose scope crosses 29-app boundary:
+- **Mechanical fan-out** — sed-replaceable single-line per app; all 29 apps' diffs identical at line-level. Examples: `<h1 class="lcs-celebration__title">` → `<h2 class="lcs-celebration__title">` (Phase 3a.2 Resolution A); `worksheet.title` → `bundle.title` rename. ~30-90 LoC total across 29 apps; no per-app reasoning needed.
+- **Architectural sweep** — touches 2+ files per app OR introduces shape-level variance (e.g., per-app conditional dispatch on app-specific bundle fields); requires per-app reasoning at design time. Examples: Phase 3b multi-h1 architectural sweep (per-app celebration template + per-app bundle metadata threading); ~300-500+ LoC total across 29 apps.
+
+**Empirical anchor:** Phase 3a.2 mechanical h1→h2 fan-out (29 apps × 1 LoC ≈ 29 LoC, ~30 minutes execution); Phase 3b multi-h1 architectural sweep (29 apps × 5-step diff ≈ 145 LoC, ~2 hours execution + 4 §A.13.6 firings during execution). The cost differential is ~3x in LoC + ~4x in execution time; classification at planning step prevents under-pricing.
+
+Origin: Phase 3a/3b commission cycles; pattern codified at Phase 6 fold.
+
+#### A.13.13 Fan-out verification-hygiene at mechanical-fan-out execution
+
+For mechanical fan-out across 29-app scope, verification-hygiene uses **6-dimension grep pattern** to confirm fan-out completeness post-edit. Single-dim grep is insufficient because mechanical patterns often have escape variants (e.g., `<h1 ...>` AND `\\u003ch1 ...\\u003e` AND JS-string-escaped `\"<h1\" + ... + \"</h1>\"`).
+
+**6 verification dimensions:**
+
+1. **Open-tag canonical form** — grep for `<h1 ` (or pattern equivalent) across all 29 app files; expected count = 0 post-fan-out
+2. **Close-tag canonical form** — grep for `</h1>`; expected = 0 post-fan-out (assuming celebration h1 was the only h1 per app)
+3. **JS-string-escaped open** — grep for `"<h1` or `\"<h1` in inline-JS-string contexts; expected = 0
+4. **JS-string-escaped close** — grep for `</h1>"` or `</h1>\"`; expected = 0
+5. **Line-context match** — grep for the canonical pattern at line-level (e.g., `lcs-celebration__title` to confirm the celebration-class wraps `<h2>` not `<h1>`)
+6. **Cross-locale spread** — for any per-locale variant, verify spread matches expected locale set (e.g., 11 locales × N variants = expected spread count)
+
+**Empirical anchor:** Phase 3a.2 + Phase 4a Checkpoint 1 surfaced celebration h1 escape variants in JS-string-literal contexts (`"<h1 class=\"...\">"+T(...)+"</h1>"` form). Single-dim grep on the canonical `<h1 ` pattern missed the escaped variants; 6-dim coverage caught them.
+
+Origin: Phase 3a.2 + Phase 4a Checkpoint 1 (`3d1027e5` line-context regex fix); pattern codified at Phase 6 fold.
+
+#### A.13.14 Phase 1 Explore-agent fidelity validation
+
+Explore agents are tools for breadth-survey questions where fidelity isn't load-bearing (e.g., "what files reference X?", "what's the rough shape of Y?"). For operationally-consequential decisions — those where a wrong recon answer causes downstream cost (rework, false halt-class fires, mis-priced cost envelopes) — direct grep + file-inspection is the canonical recon mechanism.
+
+**How to apply.** At any Phase 1 recon step:
+- If the recon question is breadth-survey ("what's the surface area of X?"), Explore is appropriate
+- If the recon question is fidelity-critical ("does X have shape Y at line N?"), use direct `Grep` + `Read` tools
+- If unsure, default to direct tools — Explore can compress accurate recon into compact output that LOOKS authoritative but loses precision at the line-level
+
+**Anti-pattern:** trusting Explore-agent output for line-precise claims about shipped code state. Explore agents read excerpts; they do not guarantee whole-file fidelity. The §A.13.6 spec-vs-shipped-contract conflict surface often hides at sub-line granularity that Explore agents cannot reliably surface.
+
+**Empirical anchor:** operator-surfaced doctrine at Phase 3b Checkpoint 2 when an Explore-agent recon claimed 3-step-diff per app; direct grep verification surfaced 5-step-diff per app. The §A.13.6 5th-firing at Phase 4b Sub-step 0 used direct grep + Read at recon to confirm zero frontend consumers of the orphan TS file; an Explore-agent recon would have surfaced the doc-only references but might have under-emphasized the absence of code consumers.
+
+Origin: Phase 3b operator-surfaced; pattern codified at Phase 6 fold.
+
+#### A.13.15 Structured-fan-out as 3rd category between mechanical and architectural
+
+Structured fan-out is a 3rd category between mechanical (§A.13.12) and architectural (sweep). It applies when **per-app structural diff > 1 file BUT not pure architectural touch**:
+- Multi-line additions per app, identical structural shape across all 29 apps
+- Same metadata-threading pattern; same opts contract; same call-site location
+- No per-app conditional logic; no per-app structural variance
+
+**Cost shape:** 5-step-diff per app per Phase 3b Item 7 doctrine. 5 dimensions × 28 apps ≈ 140-145 LoC; 1-2 hours execution; 0-2 §A.13.6 firings expected.
+
+**How to apply.** At any commission whose scope crosses 29-app boundary AND per-app diff exceeds 1 line:
+- Verify the diff shape is identical across all 29 apps (no app-specific variance) — if YES, structured fan-out
+- If per-app variance present (e.g., per-app conditional dispatch on app-specific bundle fields), architectural sweep
+- Cost-balloon escape hatch (c) bound: structured fan-out at ~145 LoC across 28-app scope is the empirical ceiling before architectural sweep classification triggers
+
+**Empirical anchor:** Phase 3b Checkpoint 2 5-step-diff fan-out (28 apps; ~145 LoC); Phase 4a Checkpoint 2.5 (θ) structured fan-out (28 apps; rawExerciseMode + exerciseModeName threading). Both within structured-fan-out cost shape; neither tipped into architectural-sweep cost.
+
+Origin: Phase 3b Item 7 doctrine; canonical reference established at Phase 4a Checkpoint 2.5 second instance; codified at Phase 6 fold.
+
+#### A.13.16 Verification-hygiene at structured-fan-out execution
+
+For structured fan-out, verification-hygiene adapts the 6-dim grep pattern (§A.13.13) to structured-shape match:
+
+1. **Per-app structural-shape match** — grep for the structural anchor (e.g., `seoTrace.title.modeName`) across all 29 apps; expected count = 1 per app
+2. **Per-app diff-line consistency** — sample 3-5 apps; verify diff shape identical (5-step diff per app per Phase 3b Item 7)
+3. **Cross-app naming-pattern verification** — verify per-app helper variable names follow consistent convention (e.g., `derivedExerciseMode` not `localExerciseMode` in some apps)
+4. **Post-deploy curl-spot-check sample** — sample 3 apps × 2 locales × 1 deck = 6 production decks; verify rendered output matches expected
+5. **Test-suite full-pass** — run all publish-cli test files; expected zero regressions
+6. **Per-app metadata threading audit** — confirm metadata flows from extractDeckBundle → renderStandaloneHTML → buildSeoHead → deck.html without drop-out at any per-app boundary
+
+**Empirical anchor:** Phase 4a Checkpoint 2.5 (θ) structured fan-out used 6-dim verification post-execution; caught 1 var-hoisting bug at fanout-theta-handler.js (script's `var exerciseModeForBundle = derivedExerciseMode;` hoisted before assignment) before commit.
+
+Origin: Phase 3b verification methodology; codified at Phase 6 fold.
+
+#### A.13.17 Slug-vs-title-shape redundancy as separate doctrine class
+
+Slug-level catalog data hygiene is structurally distinct from title-shape doctrine; collisions at the slug level cannot be resolved by title-shape adjustments alone.
+
+**How to apply.** At any future title-shape work, distinguish:
+- **(a) Shape-pathology collisions** — multiple decks at same (locale, shape) producing identical title-hash. Resolvable via title-shape adjustment (e.g., adding a discriminator field per Phase 4a Checkpoint 2.5 (θ): mode discriminator)
+- **(b) Catalog-data-hygiene collisions** — multiple decks at same (locale, slug) tuple due to operator-side workflow OR legacy slug renames. Requires operator-strategic catalog rationalization commission; NOT resolvable via title-shape alone
+
+**Pricing remediation:** if recon shows the residual is class (b), do NOT promise 100% backfill via title-shape adjustment. Phase 4a (θ) achieved 63.3% en + 100% non-en backfill; the residual 36.7% en was class (b) which (μ) slug-rationalization commission-stub addresses (filed at Phase 4a close).
+
+**Empirical anchor:** Phase 4a Checkpoint 2.5 (ι) close. Operator pushback on (ε) accept-partial recommendation surfaced (θ) structural fix; (θ) closed shape-pathology gap; (ι) close-at-63.3% surfaced catalog-data-hygiene as separate class requiring (μ) commission.
+
+Origin: Phase 4a Checkpoint 2.5; codified at Phase 6 fold.
+
+#### A.13.18 Backfill-rate as commission close-out metric
+
+When a commission's primary deliverable enforces a uniqueness invariant via DB-side hash (e.g., `@@unique([language, titleHash])`), close-out doc must report **backfill-rate breakdown** per locale, not just file-level retrofit count. Silent under-enforcement (file-level: "100% retrofitted") is worse than visible partial enforcement ("DB-level: 63.3% en + 100% non-en backfilled").
+
+**How to apply.** Close-out doc Section "Verification" reports two distinct metrics:
+- **File-level retrofit rate** — N of M decks' files rewritten at retrofit
+- **DB-level invariant-enforcement rate** — N of M DB rows have the hash column populated AND unique-constraint enforceable
+
+Phase 4a precedent: file-level 2776/2776 (100%); DB-level 1693/2673 (63.3% en) + 29/29 (100% non-en). Both reported.
+
+**Anti-pattern:** reporting only file-level retrofit rate. The uniqueness invariant operates at DB level; file-level is necessary but not sufficient.
+
+Origin: Phase 4a Checkpoint 2.5 (ι) close report-shape; codified at Phase 6 fold.
+
+#### A.13.19 Capitalization "small word" handling under uniform title-case discipline
+
+When a commission applies title-case transformation across multiple locales (e.g., (λ) topics-taxonomy.json `axes.exercise-type.name.<locale>` capitalization at Phase 5 Sub-item 3), small-word handling has two valid forms:
+
+- **Uniform title-case** — every space-separated word capitalized: "More Or Less", "Tren Del Abecedario", "Picture Sort". Deterministic transform; locale-independent algorithm.
+- **AP-style title-case** — small words (a/an/the/and/or/of/to/etc. in en; del/la/el/y in es; etc.) lowercase except at sentence-start. Locale-dependent small-words list.
+
+**How to apply.** Default to uniform title-case for SEO consistency + product-name framing. AP-style title-case is operator-strategic refinement; adopt small-words list per locale ONLY if SEO impact monitoring or operator manual review surfaces preference.
+
+**Empirical anchor:** Phase 5 Q1 plan-time AskUserQuestion locked uniform title-case across all 11 locales. "More Or Less" / "Tren Del Abecedario" land grammatically valid (some style guides permit) but diverge from AP-style. Phase 5 Item 14 fold-queue carries the small-word refinement as future-arc candidate.
+
+Origin: Phase 5 Sub-item 3 Q1 ratification; codified at Phase 6 fold.
 
 ### A.14 Scaling Arc audit doctrine
 

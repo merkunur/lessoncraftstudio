@@ -3909,14 +3909,15 @@
               // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2: pre-build bundle so
               // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
               var manifestMeta = buildCatalogManifestSettings();
+              // Commission ε emit-site fix: card_fill drives mode (image=null default vs word).
               var derivedExerciseMode = (manifestMeta.settings && manifestMeta.settings.card_fill === 'word')
+                  ? 'word'
+                  : null;
               // Phase 4a Checkpoint 2.5 (θ): hoist exerciseMode for seoMeta discriminator
               var exerciseModeForBundle = derivedExerciseMode;
               var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline', exerciseMode: exerciseModeForBundle });
               var getBundle = async function () { return cachedBundle; };
-              // Commission ε emit-site fix: card_fill drives mode (image=null default vs word).
               manifestMeta.seo_trace = cachedBundle && cachedBundle.seoTrace ? cachedBundle.seoTrace : null;
-                  ? 'word' : null;
               var result = await window.LCSCatalogExport.export({
                   app: { name: 'bingo', version: '24.3.0', bundleVersion: 24 },
                   language: window.currentLocale || 'en',

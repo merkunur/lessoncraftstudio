@@ -5360,11 +5360,6 @@ async function downloadPDF(canvasInstance, baseFileName, opts) {
                 // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2: pre-build bundle so
                 // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
                 var manifestMeta = buildCatalogManifestSettings();
-                var derivedExerciseMode = (manifestMeta.settings && manifestMeta.settings.word_reveal_mode === true)
-                // Phase 4a Checkpoint 2.5 (θ): hoist exerciseMode for seoMeta discriminator
-                var exerciseModeForBundle = derivedExerciseMode;
-                var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline', exerciseMode: exerciseModeForBundle });
-                var getBundle = async function () { return cachedBundle; };
                 // Derive exerciseMode from the manifest's word_reveal_mode signal
                 // per the 2-mode contract locked at 0f0c648d (rewrite-manifest-
                 // exercise-mode.js). Standard mode → null; secret-word-finding
@@ -5372,9 +5367,14 @@ async function downloadPDF(canvasInstance, baseFileName, opts) {
                 // within standard mode is gameplay-tuning, not mode-distinguishing
                 // (operator adjudication post-recon). Closes the v6.0.0 emit-defect
                 // where exerciseMode was hardcoded null regardless of authoring mode.
-                manifestMeta.seo_trace = cachedBundle && cachedBundle.seoTrace ? cachedBundle.seoTrace : null;
+                var derivedExerciseMode = (manifestMeta.settings && manifestMeta.settings.word_reveal_mode === true)
                     ? 'secret-word'
                     : null;
+                // Phase 4a Checkpoint 2.5 (θ): hoist exerciseMode for seoMeta discriminator
+                var exerciseModeForBundle = derivedExerciseMode;
+                var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline', exerciseMode: exerciseModeForBundle });
+                var getBundle = async function () { return cachedBundle; };
+                manifestMeta.seo_trace = cachedBundle && cachedBundle.seoTrace ? cachedBundle.seoTrace : null;
                 var result = await window.LCSCatalogExport.export({
                     app: { name: 'code-addition', version: '6.0.0', bundleVersion: 6 },
                     language: window.currentLocale || 'en',

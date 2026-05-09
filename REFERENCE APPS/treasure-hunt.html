@@ -3416,7 +3416,7 @@
           return path;
       }
 
-      async function extractDeckBundle(canvas) {
+      async function extractDeckBundle(canvas, options) {
           var pd = canvas.problemsData || null;
           if (!pd || pd.hasGrid !== true || !pd.startPos || !pd.finalPos || !Array.isArray(pd.moves)) {
               throw new Error('No treasure-hunt data on canvas. Generate a worksheet first.');

@@ -116,6 +116,19 @@ function tokenizeForLexicon(str) {
 }
 
 /**
+ * [DEPRECATED — Phase 3b Checkpoint 3]
+ * Path-(a) lexicon-fallback. SUPERSEDED by path-(b) origin-tracing
+ * (reconcileLocaleResidueViaTrace) at Phase 3b Checkpoint 1+; Checkpoint 2
+ * fan-out (`b2535d71`) landed all 29 §14.10 catalog apps emitting
+ * manifest.seo_trace; Checkpoint 3 (`<this commit>`) deployed all 29 apps'
+ * served copies + catalog-export.js to production via §14.6 TWO-STEP deploy.
+ *
+ * Path-(b) trace is now PRIMARY at runtime. This lexicon is RETAINED as
+ * defensive fallback for any pre-Phase-3b legacy ZIP that re-enters the
+ * publish queue (manifest.seo_trace absent). Mark for removal at Phase 3b →
+ * Phase 4a transition once legacy-ZIP volume confirmed at zero.
+ *
+ * Original docstring (preserved for context):
  * Default English-content lexicon for path-(a) locale-residue fallback.
  * Words that should NEVER appear in non-English deck title/description
  * unless they're in the per-locale loanword exception list. Curated for
@@ -133,8 +146,7 @@ function tokenizeForLexicon(str) {
  *
  * The path-(a) lexicon is INTENTIONALLY APPROXIMATE per Phase 2 §6 doctrine —
  * Phase 3b path-(b) trace upgrade resolves precisely via translation-key-
- * resolution-source-trace per per-app extractDeckBundle extension. This list
- * is conservative scaffolding pending that upgrade.
+ * resolution-source-trace per per-app extractDeckBundle extension.
  */
 var ENGLISH_LEXICON = new Set([
   // SEO template chrome (the F3+H1 root cause; Phase 0 finding 1)
@@ -575,13 +587,18 @@ function reconcileLocaleResidueViaTrace(manifest) {
 }
 
 /**
- * Phase 3a path-(a) lexicon-fallback. Detects English residue in
- * non-English deck title + description by tokenizing + checking against
- * ENGLISH_LEXICON (excluding per-locale loanword exception list).
+ * [DEPRECATED — Phase 3b Checkpoint 3]
+ * Phase 3a path-(a) lexicon-fallback. Detects English residue in non-English
+ * deck title + description by tokenizing + checking against ENGLISH_LEXICON
+ * (excluding per-locale loanword exception list).
  *
- * Phase 3b path-(b) trace upgrade replaces this in steady state; lexicon
- * stays load-bearing as backwards-compat fallback through Phase 3b multi-
- * session execution. Lexicon exception list deprecated at Checkpoint 3 close.
+ * SUPERSEDED by reconcileLocaleResidueViaTrace at Phase 3b Checkpoint 1+;
+ * Checkpoint 2 fan-out (`b2535d71`) landed all 29 §14.10 catalog apps emitting
+ * manifest.seo_trace; Checkpoint 3 (`<this commit>`) deployed all 29 apps'
+ * served copies via §14.6 TWO-STEP deploy. Path-(b) trace is now PRIMARY
+ * at runtime; this function RETAINED as defensive fallback for legacy ZIPs
+ * (manifest.seo_trace absent). Mark for removal at Phase 3b → Phase 4a
+ * transition once legacy-ZIP volume confirmed at zero.
  *
  * Halt class: LOCALE_RESIDUE_DETECTED — non-English deck has English
  * lexicon hits in title/description outside per-locale exceptions.

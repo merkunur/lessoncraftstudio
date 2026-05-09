@@ -27,6 +27,7 @@ var placeAssets = require('./place-assets');
 var extractMeta = require('./extract-html-meta');
 var db = require('./db');
 var deckEndSuggestions = require('./deck-end-suggestions');
+var seoReconMod = require('./seo-reconciliation');
 
 var CANONICAL_URL_BASE = 'https://lessoncraftstudio.com';
 
@@ -189,6 +190,51 @@ async function publish(opts) {
     throw new Error('publish: substitution errors:\n  ' + subResult.errors.join('\n  '));
   }
 
+  // Step 2b (logical Step 1d): SEO reconciliation per [ARC][SEO][DECK-PAGE]
+  // Phase 3a.1 Checkpoint 2. Mirrors bulk.js dryRunOneZip Step 5b wire-in
+  // per §15.16 single-vs-batch parity contract. Predicates fire on post-
+  // substitution rendered HTML; halt-class throws with structured message
+  // per Phase 3 ratification. See seo-reconciliation.js for the 7 predicate
+  // specs and Phase 2 doctrine §1-§7 for invariants.
+  var seoRecon = await seoReconMod.reconcileDeckPageSEO({
+    manifest: manifest,
+    substitutedHtml: subResult.html,
+    slug: slug,
+    thisDeckId: existingRow ? existingRow.id : null,  // exclude self for UPDATE path
+    findExistingByTitleHash: db.findExistingByTitleHash,
+    findExistingByDescriptionHash: db.findExistingByDescriptionHash,
+    countInboundFn: undefined,  // Phase 3a.1 stub; Phase 3a.1 Checkpoint 2 helper wires later
+    target: 3,
+    haltClass: false,  // Phase 3a.1: warn-class pre-Phase-5 per concern 4 lock
+    expectedOgImage: subResult.resolved.ogImage
+  });
+  if (seoRecon.overall === 'HALT') {
+    throw new Error(
+      'publish: deck-page SEO reconciliation halted [' + seoRecon.haltCategories.join(', ') + ']\n' +
+      '  deck_id:  ' + (manifest.deck_id || '?') + '\n' +
+      '  app:      ' + (manifest.exercise_type || '?') + '\n' +
+      '  language: ' + locale + '\n' +
+      '  slug:     ' + slug + '\n' +
+      '  halt:     ' + JSON.stringify(seoRecon.haltCategories) + '\n' +
+      '  warn:     ' + JSON.stringify(seoRecon.warnCategories) + '\n' +
+      '\n' +
+      '  Predicate halt-class triggered per Phase 3 ratification. Halt classes:\n' +
+      '    - TITLE_NON_UNIQUE / DESC_NON_UNIQUE → same-locale title collision\n' +
+      '    - CANONICAL_* → URL pattern divergence\n' +
+      '    - OG_TAG_MISSING → buildSeoHead emission incomplete (Phase 3a.2 scope)\n' +
+      '    - LOCALE_RESIDUE_DETECTED → English residue in non-English deck;\n' +
+      '      add per-locale exception in seo-reconciliation-exceptions.json\n' +
+      '      OR fix authoring-side per Phase 3b path-(b) trace\n' +
+      '    - MULTIPLE_H1_DETECTED → fix at celebration template (Phase 3a.2 Resolution A)\n' +
+      '  See CLAUDE.md §A.13 + Phase 2 doctrine §1-§7 + docs/SEO/ Phase 1+2 deliverables.'
+    );
+  }
+  if (seoRecon.warnCategories.length > 0) {
+    seoRecon.warnCategories.forEach(function (cat) {
+      console.error('[publish] SEO reconciliation WARN [' + cat + '] (informational; ship-with-flag per §17.5.1)');
+    });
+  }
+
   // Step 3: OG image derivation.
   var thumbnailEntry = b.byName['thumbnail.png'];
   if (!thumbnailEntry) {
@@ -250,7 +296,12 @@ async function publish(opts) {
         pdfUrl: canonicalURL + 'printable.pdf',
         answerKeyUrl: assets['answer-key.pdf'] ? canonicalURL + 'answer-key.pdf' : null,
         thumbnailUrl: canonicalURL + 'thumbnail.png',
-        manifestUrl: canonicalURL + 'manifest.json'
+        manifestUrl: canonicalURL + 'manifest.json',
+        // [ARC][SEO][DECK-PAGE] Phase 3a.1 Checkpoint 2: persist SEO hashes
+        // computed by reconcileDeckPageSEO. Phase 2 §1+§2 uniqueness
+        // invariants enforce structurally via @@unique([language, titleHash]).
+        titleHash: (seoRecon.predicates && seoRecon.predicates.title) ? seoRecon.predicates.title.hash : null,
+        descriptionHash: (seoRecon.predicates && seoRecon.predicates.description) ? seoRecon.predicates.description.hash : null
       });
     } else {
       // INSERT path.
@@ -281,7 +332,12 @@ async function publish(opts) {
         answerKeyUrl: assets['answer-key.pdf'] ? canonicalURL + 'answer-key.pdf' : null,
         thumbnailUrl: canonicalURL + 'thumbnail.png',
         manifestUrl: canonicalURL + 'manifest.json',
-        createdBy: createdBy
+        createdBy: createdBy,
+        // [ARC][SEO][DECK-PAGE] Phase 3a.1 Checkpoint 2: persist SEO hashes
+        // computed by reconcileDeckPageSEO. Phase 2 §1+§2 uniqueness
+        // invariants enforce structurally via @@unique([language, titleHash]).
+        titleHash: (seoRecon.predicates && seoRecon.predicates.title) ? seoRecon.predicates.title.hash : null,
+        descriptionHash: (seoRecon.predicates && seoRecon.predicates.description) ? seoRecon.predicates.description.hash : null
       });
     }
   } catch (e) {

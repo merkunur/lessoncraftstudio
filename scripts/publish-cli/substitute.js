@@ -24,6 +24,23 @@
  *         raw. App-side runtime guard in showCelebration() keeps strip hidden when
  *         placeholders unsubstituted (graceful degradation for direct-download decks).
  *
+ * [ARC][SEO][DECK-PAGE] Phase 3a.1 Checkpoint 2 extension (placeholders 33-37):
+ *  33. __OG_TITLE__              derived from <title> minus " | LessonCraftStudio" suffix
+ *  34. __OG_DESCRIPTION__        mirrors <meta name="description"> content
+ *  35. __OG_IMAGE__              computed canonical-relative og-image.png URL per §15.14
+ *  36. __OG_LOCALE__             BCP-47 mapping per concern 1 supplement (es_MX, pt_BR, etc.)
+ *  37. __OG_IMAGE_ALT__          mirrors __OG_TITLE__ at Phase 3a; Phase 3b refines
+ *
+ * Forward-compatible: placeholders 33-37 are no-ops until Phase 3a.2 ships
+ * the catalog-export.js extension that emits them. Once emitted, substitution
+ * activates; idempotent + correct.
+ *
+ * Constants emitted as literals at Phase 3a.2 in buildSeoHead template (NOT
+ * substituted): og:type='website' / og:site_name='LessonCraftStudio' /
+ * og:image:width='1200' / og:image:height='630' / twitter:card='summary_large_image'.
+ * Twitter:title / twitter:description / twitter:image mirror og counterparts
+ * (template-level identical-content; no separate placeholder needed).
+ *
  * Idempotent: substitution iterates the explicit allowlist (NOT a generic
  * regex match). Running twice on the same input produces identical output.
  *
@@ -280,6 +297,60 @@ function apply(opts) {
     html = html.split(sub.placeholder).join(sub.value);
   }
 
+  // ============================================================
+  // OG tag placeholders (33-37) per [ARC][SEO][DECK-PAGE] Phase 2 §4.
+  // Composition runs AFTER main chain + suggestion loop because OG_TITLE
+  // + OG_DESCRIPTION derive from the rendered post-substitution <title> +
+  // <meta name="description"> (which themselves had __EDUCATIONAL_LEVEL_LOCALIZED__
+  // substituted in the main chain). Forward-compatible: no-ops until Phase 3a.2
+  // ships catalog-export.js extension that emits these placeholders.
+  // ============================================================
+
+  // 33. __OG_TITLE__ — extract from <title> post-substitution; strip brand suffix
+  var ogTitle = '';
+  var titleMatch = /<title>([^<]+)<\/title>/i.exec(html);
+  if (titleMatch) {
+    ogTitle = titleMatch[1].replace(/\s*\|\s*LessonCraftStudio\s*$/i, '').trim();
+  }
+  note('__OG_TITLE__', 'derived from post-substitution title', ogTitle, !ogTitle);
+
+  // 34. __OG_DESCRIPTION__ — mirrors <meta name="description"> content post-substitution
+  var ogDescription = '';
+  var descMatch = /<meta\s+name="description"\s+content="([^"]+)"/i.exec(html);
+  if (descMatch) ogDescription = descMatch[1];
+  note('__OG_DESCRIPTION__', 'derived from post-substitution description', ogDescription, !ogDescription);
+
+  // 35. __OG_IMAGE__ — canonical-relative og-image.png URL per §15.14
+  // /var/www/lcs-media/decks/<locale>/<slug>-v<N>/og-image.png produced by publish-cli;
+  // served via nginx symlink at canonicalURL/og-image.png
+  var ogImage = canonicalURL + 'og-image.png';
+  note('__OG_IMAGE__', 'computed from canonical', ogImage, false);
+
+  // 36. __OG_LOCALE__ — BCP-47 mapping per concern 1 supplement
+  // OG_LOCALE_MAP duplicate of frontend/lib/schema-generator.ts:ogLocaleMap +
+  // scripts/publish-cli/seo-reconciliation.js:OG_LOCALE_MAP. See JSDoc
+  // there on duplicate-state convention (Node-CJS / TypeScript boundary).
+  var OG_LOCALE_MAP = {
+    en: 'en_US', de: 'de_DE', fr: 'fr_FR', es: 'es_MX', pt: 'pt_BR',
+    it: 'it_IT', nl: 'nl_NL', sv: 'sv_SE', da: 'da_DK', no: 'nb_NO', fi: 'fi_FI'
+  };
+  var ogLocale = OG_LOCALE_MAP[locale] || locale;
+  note('__OG_LOCALE__', 'BCP-47 mapping', ogLocale, false);
+
+  // 37. __OG_IMAGE_ALT__ — mirrors __OG_TITLE__ at Phase 3a.1; Phase 3b refines
+  // (Phase 3b path-(b) trace upgrade may compose a more specific alt text)
+  var ogImageAlt = ogTitle;
+  note('__OG_IMAGE_ALT__', 'mirrors __OG_TITLE__', ogImageAlt, false);
+
+  // Apply OG substitutions (idempotent allowlist iteration per §15.13 dry-run-vs-real
+  // parity guarantee). Forward-compatible: no-ops until catalog-export.js emits.
+  html = html
+    .replace(/__OG_TITLE__/g, ogTitle)
+    .replace(/__OG_DESCRIPTION__/g, ogDescription)
+    .replace(/__OG_IMAGE__/g, ogImage)
+    .replace(/__OG_LOCALE__/g, ogLocale)
+    .replace(/__OG_IMAGE_ALT__/g, ogImageAlt);
+
   return {
     html: html,
     report: report,
@@ -293,7 +364,12 @@ function apply(opts) {
       linkMoreType: linkMoreType,
       linkMoreTheme: linkMoreTheme,
       linkMoreLevel: linkMoreLevel,
-      linkBrowseAll: linkBrowseAll
+      linkBrowseAll: linkBrowseAll,
+      ogTitle: ogTitle,
+      ogDescription: ogDescription,
+      ogImage: ogImage,
+      ogLocale: ogLocale,
+      ogImageAlt: ogImageAlt
     }
   };
 }

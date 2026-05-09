@@ -392,7 +392,155 @@ try {
   rmrf(test5Dir);
 }
 
+// =========================================================================
+// Test 6 — [ARC][SEO][DECK-PAGE] Phase 3a.1 Checkpoint 2 — SEO recon Section 3
+// =========================================================================
+
+console.log('');
+console.log('Test 6 — SEO reconciliation Section 3 emits in _reconciliation.txt:');
+
+var test6Dir = tmpDir('recon-test-6');
+try {
+  // Construct synthetic fakeResult-shape with seoReconciliation populated.
+  // Mirrors the new field added by bulk.js Step 5b SEO recon wire-in.
+  function fakeSeoResult(zipBasename, manifest, seoReconOverride) {
+    var base = fakeResult(zipBasename, manifest);
+    if (seoReconOverride) {
+      base.seoReconciliation = seoReconOverride;
+    }
+    return base;
+  }
+
+  var test6Results = [
+    // CLEAN deck — no SEO reconciliation entry
+    fakeSeoResult('addition-image-image-en-001.zip', cleanAdditionManifest('animals'), {
+      overall: 'CLEAN',
+      predicates: {},
+      haltCategories: [],
+      warnCategories: [],
+      deckId: 'addition-image-image-en-CLEAN-animals',
+      app: 'addition'
+    }),
+    // HALT deck — multi-h1 detected (Phase 0 finding 2 reproduction)
+    fakeSeoResult('sudoku-en-MULTI-H1.zip', cleanAdditionManifest('toys'), {
+      overall: 'HALT',
+      predicates: { h1: { category: 'MULTIPLE_H1_DETECTED', count: 2 } },
+      haltCategories: ['MULTIPLE_H1_DETECTED'],
+      warnCategories: [],
+      deckId: 'sudoku-en-multi-h1',
+      app: 'sudoku'
+    }),
+    // HALT deck — de title is byte-identical English (F3+H1 reproduction)
+    fakeSeoResult('sudoku-de-LOCALE-RESIDUE.zip', cleanAdditionManifest('animals'), {
+      overall: 'HALT',
+      predicates: { locale: { category: 'LOCALE_RESIDUE_DETECTED' } },
+      haltCategories: ['LOCALE_RESIDUE_DETECTED'],
+      warnCategories: [],
+      deckId: 'sudoku-de-residue',
+      app: 'sudoku'
+    }),
+    // WARN deck — OG_IMAGE_FALLBACK_USED (informational ship-with-flag)
+    fakeSeoResult('addition-en-OG-FALLBACK.zip', cleanAdditionManifest('vehicles'), {
+      overall: 'WARN',
+      predicates: { og: { category: 'OG_IMAGE_FALLBACK_USED' } },
+      haltCategories: [],
+      warnCategories: ['OG_IMAGE_FALLBACK_USED'],
+      deckId: 'addition-en-og-fallback',
+      app: 'addition'
+    })
+  ];
+
+  bulk.writeBatchArtifacts(test6Dir, test6Results, {
+    batchId: 'test-batch-6',
+    inputFolder: '/fake/folder',
+    updatesManifestPath: null
+  });
+
+  var reconText6 = fs.readFileSync(path.join(test6Dir, '_reconciliation.txt'), 'utf8');
+
+  // Section 3 header
+  assert(reconText6.indexOf('Deck-page SEO reconciliation — 3 of 4 ZIPs non-CLEAN') >= 0,
+    'Section 3 header should report 3-of-4 non-CLEAN');
+  assert(reconText6.indexOf('2 HALT') >= 0, 'Section 3 should count 2 HALT');
+  assert(reconText6.indexOf('1 WARN') >= 0, 'Section 3 should count 1 WARN');
+
+  // Per-category tally
+  assert(reconText6.indexOf('1  MULTIPLE_H1_DETECTED') >= 0, 'tally missing MULTIPLE_H1_DETECTED');
+  assert(reconText6.indexOf('1  LOCALE_RESIDUE_DETECTED') >= 0, 'tally missing LOCALE_RESIDUE_DETECTED');
+  assert(reconText6.indexOf('1  OG_IMAGE_FALLBACK_USED') >= 0, 'tally missing OG_IMAGE_FALLBACK_USED');
+
+  // Per-app breakdown
+  assert(reconText6.indexOf('addition  OG_IMAGE_FALLBACK_USED=1') >= 0,
+    'addition app breakdown should aggregate WARN');
+  assert(reconText6.indexOf('sudoku  LOCALE_RESIDUE_DETECTED=1, MULTIPLE_H1_DETECTED=1') >= 0,
+    'sudoku app breakdown should aggregate two HALT categories');
+
+  // Per-deck table
+  assert(reconText6.indexOf('sudoku-en-MULTI-H1.zip') >= 0, 'per-deck table missing multi-h1 deck');
+  assert(reconText6.indexOf('sudoku-de-LOCALE-RESIDUE.zip') >= 0, 'per-deck table missing locale-residue deck');
+  assert(reconText6.indexOf('addition-en-OG-FALLBACK.zip') >= 0, 'per-deck table missing OG-fallback deck');
+  assert(reconText6.indexOf('overall:  HALT') >= 0, 'per-deck table missing HALT label');
+  assert(reconText6.indexOf('overall:  WARN') >= 0, 'per-deck table missing WARN label');
+
+  // CLEAN deck should NOT appear in per-deck table (only non-CLEAN)
+  assert(reconText6.indexOf('addition-image-image-en-001.zip\n  deck_id:') === -1,
+    'CLEAN deck should not appear in per-deck table');
+
+  console.log('  PASS — SEO Section 3 emits per-category + per-app + per-deck table per locked schema');
+} finally {
+  rmrf(test6Dir);
+}
+
+// =========================================================================
+// Test 7 — SEO recon: 0-halt batch produces all-CLEAN Section 3 summary
+// =========================================================================
+
+console.log('');
+console.log('Test 7 — SEO recon all-CLEAN batch produces concise Section 3 summary:');
+
+var test7Dir = tmpDir('recon-test-7');
+try {
+  function fakeAllClean(zipBasename, manifest) {
+    var base = fakeResult(zipBasename, manifest);
+    base.seoReconciliation = {
+      overall: 'CLEAN',
+      predicates: {},
+      haltCategories: [],
+      warnCategories: [],
+      deckId: manifest.deck_id,
+      app: manifest.exercise_type
+    };
+    return base;
+  }
+
+  var test7Results = [
+    fakeAllClean('addition-image-image-en-001.zip', cleanAdditionManifest('animals')),
+    fakeAllClean('addition-image-image-en-002.zip', cleanAdditionManifest('vehicles')),
+    fakeAllClean('addition-image-image-en-003.zip', cleanAdditionManifest('fruits'))
+  ];
+
+  bulk.writeBatchArtifacts(test7Dir, test7Results, {
+    batchId: 'test-batch-7',
+    inputFolder: '/fake/folder',
+    updatesManifestPath: null
+  });
+
+  var reconText7 = fs.readFileSync(path.join(test7Dir, '_reconciliation.txt'), 'utf8');
+
+  // Section 3 should report 3/3 CLEAN; no halt table
+  assert(reconText7.indexOf('Deck-page SEO reconciliation: 3/3 CLEAN') >= 0,
+    'all-CLEAN batch should produce concise Section 3 summary');
+  assert(reconText7.indexOf('Deck-page SEO reconciliation —') === -1,
+    'all-CLEAN batch should NOT emit halt language in Section 3');
+  assert(reconText7.indexOf('MULTIPLE_H1_DETECTED') === -1,
+    'all-CLEAN batch should NOT emit category names in Section 3');
+
+  console.log('  PASS — SEO Section 3 all-CLEAN batch produces concise summary, no halt table');
+} finally {
+  rmrf(test7Dir);
+}
+
 console.log('');
 console.log('---');
-console.log('reconciliation.integration.test.js: 5/5 PASS');
+console.log('reconciliation.integration.test.js: 7/7 PASS');
 process.exit(0);

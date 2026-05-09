@@ -59,6 +59,50 @@ async function findExistingBySlug(language, slug) {
 }
 
 /**
+ * Lookup existing deck by (language, titleHash) per [ARC][SEO][DECK-PAGE]
+ * Phase 2 §1 uniqueness invariant. Hits the @@unique([language, titleHash])
+ * compound unique index from the 20260509083000_add_seo_hash_columns
+ * migration. excludeId optional — pass current deck's id to exclude
+ * itself from the collision check (edit-in-place path; deck's own
+ * existing hash isn't a collision).
+ *
+ * Returns row {id, slug, language, titleHash} or null.
+ *
+ * Indexed query <5ms even at 55K-deck scale per §A.14.7.
+ */
+async function findExistingByTitleHash(language, titleHash, excludeId) {
+  if (!titleHash) return null;
+  var where = { language: language, titleHash: titleHash };
+  if (excludeId) {
+    where.NOT = { id: excludeId };
+  }
+  return await client().deck.findFirst({
+    where: where,
+    select: { id: true, slug: true, language: true, titleHash: true }
+  });
+}
+
+/**
+ * Lookup existing deck by (language, descriptionHash) per Phase 2 §2 invariant.
+ * Parallel structure to findExistingByTitleHash. NO compound unique constraint
+ * at column level (Phase 2 §2: collision risk lower than title); predicate-
+ * level WARN/HALT only via reconcileDescriptionUniqueness.
+ *
+ * Returns row {id, slug, language, descriptionHash} or null.
+ */
+async function findExistingByDescriptionHash(language, descriptionHash, excludeId) {
+  if (!descriptionHash) return null;
+  var where = { language: language, descriptionHash: descriptionHash };
+  if (excludeId) {
+    where.NOT = { id: excludeId };
+  }
+  return await client().deck.findFirst({
+    where: where,
+    select: { id: true, slug: true, language: true, descriptionHash: true }
+  });
+}
+
+/**
  * Slug collision resolution per §17.8.5.
  * Returns the resolved slug (candidate or candidate-N for some N).
  *
@@ -118,7 +162,13 @@ async function insertDeck(opts) {
     status: 'published',
     createdBy: opts.createdBy,
     version: 1,
-    contentFamilyId: null
+    contentFamilyId: null,
+    // [ARC][SEO][DECK-PAGE] Phase 3a.1: persist SEO hashes for uniqueness
+    // invariants. Optional — caller passes seoRecon.predicates.title.hash etc.
+    // Schema columns are nullable (Phase 3a.1 migration); pre-Checkpoint-2
+    // callers leave undefined which Prisma maps to null.
+    titleHash: opts.titleHash || null,
+    descriptionHash: opts.descriptionHash || null
   };
   return await client().deck.create({ data: data });
 }
@@ -147,7 +197,14 @@ async function updateDeck(id, opts) {
     thumbnailUrl: opts.thumbnailUrl,
     manifestUrl: opts.manifestUrl,
     status: 'published',
-    version: existing.version + 1
+    version: existing.version + 1,
+    // [ARC][SEO][DECK-PAGE] Phase 3a.1: refresh SEO hashes on edit-in-place
+    // republish. If caller doesn't pass new hashes, preserve existing values
+    // (pre-Checkpoint-2 callers won't pass; titleHash + descriptionHash stay
+    // unchanged). Phase 4a retrofit's republish-seo mode WILL pass updated
+    // hashes alongside re-emitted SEO block.
+    titleHash: (opts.titleHash !== undefined) ? opts.titleHash : existing.titleHash,
+    descriptionHash: (opts.descriptionHash !== undefined) ? opts.descriptionHash : existing.descriptionHash
   };
   return await client().deck.update({ where: { id: id }, data: data });
 }
@@ -171,6 +228,8 @@ module.exports = {
   client: client,
   disconnect: disconnect,
   findExistingBySlug: findExistingBySlug,
+  findExistingByTitleHash: findExistingByTitleHash,
+  findExistingByDescriptionHash: findExistingByDescriptionHash,
   resolveSlugCollision: resolveSlugCollision,
   insertDeck: insertDeck,
   updateDeck: updateDeck,

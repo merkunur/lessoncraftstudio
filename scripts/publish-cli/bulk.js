@@ -25,6 +25,7 @@ var slugMod = require('./slug');
 var substitute = require('./substitute');
 var dryRunMod = require('./dry-run');
 var updatesManifestMod = require('./updates-manifest');
+var seoReconMod = require('./seo-reconciliation');
 
 function listZips(folder) {
   if (!fs.existsSync(folder) || !fs.statSync(folder).isDirectory()) {
@@ -197,6 +198,50 @@ async function dryRunOneZip(zipPath, stagingRoot, ctx) {
   }
   result.canonicalURL = subResult.resolved.canonicalURL;
   result.warnings = subResult.warnings || [];
+
+  // Step 5b (logical Step 1d): SEO reconciliation per [ARC][SEO][DECK-PAGE]
+  // Phase 3a.1. Sibling to Step 1b theme + Step 1c exerciseMode reconciliation
+  // per §A.13.5 structural complement. Halts batch on any of 6 halt-class
+  // predicates (canonical / title / desc / OG-tag / locale-residue / multi-h1);
+  // warn-class accumulates without halt (OG_IMAGE_FALLBACK_USED + INBOUND_LINK
+  // warn-class pre-Phase-5).
+  //
+  // Runs AFTER Step 5 substitute.apply() because predicates need post-
+  // substitution rendered HTML (title / meta description / canonical / OG tags).
+  // Logical numbering keeps pace with theme + exerciseMode reconciliation
+  // (semantic Step 1d); execution sequence interleaves with substitution.
+  try {
+    var seoRecon = await seoReconMod.reconcileDeckPageSEO({
+      manifest: manifest,
+      substitutedHtml: subResult.html,
+      slug: predictedSlug,
+      thisDeckId: existingSlug ? null : null, // INSERT path; UPDATE-via-slug path uses ctx
+      findExistingByTitleHash: ctx.findExistingByTitleHash,
+      findExistingByDescriptionHash: ctx.findExistingByDescriptionHash,
+      countInboundFn: ctx.countInboundFn,
+      target: 3,
+      haltClass: false, // Phase 3a.1: warn-class pre-Phase-5 per concern 4 lock
+      expectedOgImage: subResult.resolved.ogImage // Phase 3a.1 substitute.js produces this
+    });
+    result.seoReconciliation = seoRecon;
+    if (seoRecon.overall === 'HALT') {
+      seoRecon.haltCategories.forEach(function (cat) {
+        result.errors.push('SEO reconciliation [' + cat + ']');
+      });
+      return result;
+    }
+    // Warn-class items accumulate in result.warnings; structured surface in
+    // _reconciliation.txt Section 3
+    seoRecon.warnCategories.forEach(function (cat) {
+      result.warnings.push('SEO reconciliation [' + cat + ']');
+    });
+  } catch (e) {
+    // Defensive: gate predicate failure should not block publish (degraded-trust
+    // CLEAN per §15.16 halt-surface predicate calibration discipline). Surface
+    // as warning; let downstream substantive failures (DB INSERT) catch real issues.
+    result.warnings.push('SEO reconciliation predicate threw: ' + e.message);
+    result.seoReconciliation = { overall: 'CLEAN', error: e.message };
+  }
 
   // Step 6: write per-deck dry-run output.
   try {
@@ -411,6 +456,74 @@ function writeBatchArtifacts(stagingRoot, results, ctx) {
     reconLines.push('  waves on these apps remain blocked at the gate until Commission ε ships.');
     reconLines.push('  See CLAUDE.md §A.13 + 5078f491 + Commission ε recon report.');
   }
+
+  // Section 3: deck-page SEO reconciliation per [ARC][SEO][DECK-PAGE] Phase 3a.1.
+  // Sibling to Section 1 theme + Section 2 exerciseMode reconciliation. Aggregates
+  // halt + warn class predicates from reconcileDeckPageSEO orchestrator.
+  // Halt-classes (per Phase 3 ratification): TITLE_NON_UNIQUE / DESC_NON_UNIQUE /
+  // CANONICAL_* (5 sub-classes) / OG_TAG_MISSING / LOCALE_RESIDUE_DETECTED /
+  // MULTIPLE_H1_DETECTED. Warn-classes: OG_IMAGE_FALLBACK_USED / INBOUND_LINK_COUNT_BELOW_TARGET.
+  var seoNonClean = results.filter(function (r) {
+    return r.seoReconciliation && r.seoReconciliation.overall !== 'CLEAN';
+  });
+  reconLines.push('');
+  reconLines.push(''.padStart(72, '='));
+  reconLines.push('');
+  if (seoNonClean.length === 0) {
+    reconLines.push('Deck-page SEO reconciliation: ' + results.length + '/' + results.length + ' CLEAN.');
+  } else {
+    var seoByCategory = {};
+    var seoByApp = {};
+    seoNonClean.forEach(function (r) {
+      var combined = (r.seoReconciliation.haltCategories || []).concat(r.seoReconciliation.warnCategories || []);
+      var a = (r.seoReconciliation.app || r.deckId) ? (r.seoReconciliation.app || '(unknown)') : '(unknown)';
+      combined.forEach(function (c) {
+        seoByCategory[c] = (seoByCategory[c] || 0) + 1;
+        if (!seoByApp[a]) seoByApp[a] = {};
+        seoByApp[a][c] = (seoByApp[a][c] || 0) + 1;
+      });
+    });
+    var haltCount = seoNonClean.filter(function (r) { return r.seoReconciliation.overall === 'HALT'; }).length;
+    var warnCount = seoNonClean.filter(function (r) { return r.seoReconciliation.overall === 'WARN'; }).length;
+    reconLines.push('Deck-page SEO reconciliation — ' + seoNonClean.length + ' of ' + results.length + ' ZIPs non-CLEAN ' +
+      '(' + haltCount + ' HALT, ' + warnCount + ' WARN).');
+    reconLines.push('');
+    reconLines.push('Per-category tally:');
+    Object.keys(seoByCategory).sort().forEach(function (c) {
+      reconLines.push('  ' + seoByCategory[c] + '  ' + c);
+    });
+    reconLines.push('');
+    reconLines.push('Per-app breakdown:');
+    Object.keys(seoByApp).sort().forEach(function (a) {
+      var parts = Object.keys(seoByApp[a]).sort().map(function (c) {
+        return c + '=' + seoByApp[a][c];
+      });
+      reconLines.push('  ' + a + '  ' + parts.join(', '));
+    });
+    reconLines.push('');
+    reconLines.push(''.padStart(72, '-'));
+    reconLines.push('Per-deck table (deck_id | overall | halt[] | warn[]):');
+    reconLines.push('');
+    seoNonClean.forEach(function (r) {
+      var sc = r.seoReconciliation;
+      reconLines.push(r.zipBasename);
+      reconLines.push('  deck_id:  ' + (sc.deckId || '?'));
+      reconLines.push('  app:      ' + (sc.app || '?'));
+      reconLines.push('  overall:  ' + sc.overall);
+      reconLines.push('  halt:     [' + (sc.haltCategories || []).join(', ') + ']');
+      reconLines.push('  warn:     [' + (sc.warnCategories || []).join(', ') + ']');
+      reconLines.push('');
+    });
+    reconLines.push(''.padStart(72, '-'));
+    reconLines.push('Action: review halt-class entries for emit-side root cause. Halt classes:');
+    reconLines.push('  - TITLE_NON_UNIQUE / DESC_NON_UNIQUE → operator review for duplicate same-locale titles');
+    reconLines.push('  - CANONICAL_* → URL pattern divergence; verify substitute.js CANONICAL_URL_BASE');
+    reconLines.push('  - OG_TAG_MISSING → catalog-export.js buildSeoHead emission incomplete (Phase 3a.2 scope)');
+    reconLines.push('  - LOCALE_RESIDUE_DETECTED → English-template residue in non-English deck;');
+    reconLines.push('    add per-locale exception OR fix authoring-side per Phase 3b path-(b) trace');
+    reconLines.push('  - MULTIPLE_H1_DETECTED → fix at catalog-export.js celebration template (Phase 3a.2 Resolution A)');
+    reconLines.push('  See CLAUDE.md §A.13 + Phase 2 doctrine §1-§7 + docs/SEO/ Phase 1+2 deliverables.');
+  }
   fs.writeFileSync(path.join(stagingRoot, '_reconciliation.txt'), reconLines.join('\n') + '\n', 'utf8');
 }
 
@@ -457,7 +570,15 @@ async function dryRunBatch(opts) {
     inputFolder: opts.inputFolder,
     updatesManifest: updatesManifest,
     updatesManifestPath: opts.updatesManifestPath || null,
-    findExistingBySlug: opts.findExistingBySlug
+    findExistingBySlug: opts.findExistingBySlug,
+    // [ARC][SEO][DECK-PAGE] Phase 3a.1 Checkpoint 2 wire-in: DB callbacks for
+    // SEO reconciliation gate. findExistingByTitleHash + findExistingByDescriptionHash
+    // hit the new (language, title_hash) compound unique index from the
+    // 20260509083000_add_seo_hash_columns migration. countInboundFn flips the
+    // reconcileInboundLinkSurface stub to real (Phase 3a.1 Checkpoint 2 helper).
+    findExistingByTitleHash: opts.findExistingByTitleHash,
+    findExistingByDescriptionHash: opts.findExistingByDescriptionHash,
+    countInboundFn: opts.countInboundFn
   };
 
   var results = [];

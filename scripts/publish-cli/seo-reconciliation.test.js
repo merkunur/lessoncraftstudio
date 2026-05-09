@@ -1,0 +1,474 @@
+/**
+ * Unit tests for [ARC][SEO][DECK-PAGE] Phase 3a.1 gate predicates.
+ * Mirrors slug.test.js style: simple assertion-based tests; no test framework
+ * dependency beyond Node's built-in `assert`. Run with `node seo-reconciliation.test.js`.
+ *
+ * Phase 3a.1 Checkpoint 1: ~25 tests covering CLEAN + halt-class + warn-class
+ * + edge cases per predicate. Comprehensive coverage extension (~70+ tests)
+ * in Checkpoint 2 alongside count-inbound-surfaces.ts integration.
+ */
+
+'use strict';
+
+var assert = require('assert');
+var seoRecon = require('./seo-reconciliation');
+
+var passCount = 0;
+var failCount = 0;
+var failures = [];
+
+function test(name, fn) {
+  try {
+    var result = fn();
+    if (result && typeof result.then === 'function') {
+      // Async test
+      return result.then(function () {
+        passCount++;
+        console.log('  ✓ ' + name);
+      }).catch(function (e) {
+        failCount++;
+        failures.push({ name: name, error: e });
+        console.log('  ✗ ' + name + ' — ' + e.message);
+      });
+    }
+    passCount++;
+    console.log('  ✓ ' + name);
+  } catch (e) {
+    failCount++;
+    failures.push({ name: name, error: e });
+    console.log('  ✗ ' + name + ' — ' + e.message);
+  }
+}
+
+// =====================================================================
+// Test fixtures
+// =====================================================================
+
+function manifestFixture(overrides) {
+  return Object.assign({
+    deck_id: 'test-deck-001',
+    language: 'en',
+    exercise_type: 'sudoku',
+    exercise_mode: null,
+    theme: null
+  }, overrides || {});
+}
+
+function deckHtmlFixture(overrides) {
+  var defaults = {
+    title: 'Picture Sudoku Worksheet — Kindergarten | LessonCraftStudio',
+    description: 'Free interactive Picture Sudoku Worksheet for Kindergarten. Print or play online.',
+    canonical: 'https://www.lessoncraftstudio.com/en/decks/sudoku/',
+    h1Count: 1,
+    ogTags: true,
+    twitterTags: true
+  };
+  var o = Object.assign({}, defaults, overrides || {});
+
+  var html = '<!DOCTYPE html><html lang="en"><head>';
+  html += '<title>' + o.title + '</title>';
+  html += '<meta name="description" content="' + o.description + '">';
+  html += '<link rel="canonical" href="' + o.canonical + '">';
+  if (o.ogTags) {
+    html += '<meta property="og:title" content="Picture Sudoku Worksheet — Kindergarten">';
+    html += '<meta property="og:description" content="' + o.description + '">';
+    html += '<meta property="og:image" content="https://www.lessoncraftstudio.com/en/decks/sudoku-v1/og-image.png">';
+    html += '<meta property="og:image:width" content="1200">';
+    html += '<meta property="og:image:height" content="630">';
+    html += '<meta property="og:image:alt" content="Picture Sudoku Worksheet">';
+    html += '<meta property="og:type" content="website">';
+    html += '<meta property="og:url" content="' + o.canonical + '">';
+    html += '<meta property="og:locale" content="en_US">';
+    html += '<meta property="og:site_name" content="LessonCraftStudio">';
+  }
+  if (o.twitterTags) {
+    html += '<meta name="twitter:card" content="summary_large_image">';
+    html += '<meta name="twitter:title" content="Picture Sudoku Worksheet — Kindergarten">';
+    html += '<meta name="twitter:description" content="' + o.description + '">';
+    html += '<meta name="twitter:image" content="https://www.lessoncraftstudio.com/en/decks/sudoku-v1/og-image.png">';
+  }
+  html += '</head><body>';
+  for (var i = 0; i < o.h1Count; i++) {
+    html += '<h1 class="lcs-title">Picture Sudoku</h1>';
+  }
+  html += '</body></html>';
+  return html;
+}
+
+// =====================================================================
+// reconcileTitleUniqueness
+// =====================================================================
+
+console.log('\nreconcileTitleUniqueness:');
+
+test('CLEAN when no collision (findExistingByTitleHash returns null)', async function () {
+  var result = await seoRecon.reconcileTitleUniqueness(
+    manifestFixture(),
+    'Unique Title — Kindergarten | LessonCraftStudio',
+    {
+      thisDeckId: 'test-deck-001',
+      findExistingByTitleHash: async function () { return null; }
+    }
+  );
+  assert.strictEqual(result.category, 'CLEAN');
+  assert.ok(result.hash, 'hash present');
+});
+
+test('TITLE_NON_UNIQUE when findExistingByTitleHash returns a row', async function () {
+  var result = await seoRecon.reconcileTitleUniqueness(
+    manifestFixture(),
+    'Collision Title — Kindergarten | LessonCraftStudio',
+    {
+      thisDeckId: 'test-deck-001',
+      findExistingByTitleHash: async function () {
+        return { id: 'other-deck-id', slug: 'other-slug' };
+      }
+    }
+  );
+  assert.strictEqual(result.category, 'TITLE_NON_UNIQUE');
+  assert.strictEqual(result.existing.id, 'other-deck-id');
+});
+
+test('TITLE_MISSING when renderedTitle is empty', async function () {
+  var result = await seoRecon.reconcileTitleUniqueness(manifestFixture(), '', {});
+  assert.strictEqual(result.category, 'TITLE_MISSING');
+});
+
+test('CLEAN with warning when DB query throws (degraded-trust)', async function () {
+  var result = await seoRecon.reconcileTitleUniqueness(
+    manifestFixture(),
+    'Title — Kindergarten | LessonCraftStudio',
+    {
+      thisDeckId: 'test-deck-001',
+      findExistingByTitleHash: async function () { throw new Error('DB unreachable'); }
+    }
+  );
+  assert.strictEqual(result.category, 'CLEAN');
+  assert.ok(result.warning && result.warning.includes('DB unreachable'));
+});
+
+// =====================================================================
+// reconcileCanonicalURLPattern
+// =====================================================================
+
+console.log('\nreconcileCanonicalURLPattern:');
+
+test('CLEAN on canonical www-form trailing-slash', function () {
+  var html = deckHtmlFixture({ canonical: 'https://www.lessoncraftstudio.com/en/decks/sudoku/' });
+  var result = seoRecon.reconcileCanonicalURLPattern(
+    manifestFixture(),
+    html,
+    { slug: 'sudoku' }
+  );
+  assert.strictEqual(result.category, 'CLEAN');
+});
+
+test('CANONICAL_APEX_FORM on apex form', function () {
+  var html = deckHtmlFixture({ canonical: 'https://lessoncraftstudio.com/en/decks/sudoku/' });
+  var result = seoRecon.reconcileCanonicalURLPattern(
+    manifestFixture(),
+    html,
+    { slug: 'sudoku' }
+  );
+  assert.strictEqual(result.category, 'CANONICAL_APEX_FORM');
+});
+
+test('CANONICAL_NO_TRAILING_SLASH on no-trailing-slash', function () {
+  var html = deckHtmlFixture({ canonical: 'https://www.lessoncraftstudio.com/en/decks/sudoku' });
+  var result = seoRecon.reconcileCanonicalURLPattern(
+    manifestFixture(),
+    html,
+    { slug: 'sudoku' }
+  );
+  assert.strictEqual(result.category, 'CANONICAL_NO_TRAILING_SLASH');
+});
+
+test('CANONICAL_WRONG_LOCALE when locale segment differs from manifest', function () {
+  var html = deckHtmlFixture({ canonical: 'https://www.lessoncraftstudio.com/de/decks/sudoku/' });
+  var result = seoRecon.reconcileCanonicalURLPattern(
+    manifestFixture({ language: 'en' }),
+    html,
+    { slug: 'sudoku' }
+  );
+  assert.strictEqual(result.category, 'CANONICAL_WRONG_LOCALE');
+});
+
+test('CANONICAL_WRONG_SLUG when slug segment differs', function () {
+  var html = deckHtmlFixture({ canonical: 'https://www.lessoncraftstudio.com/en/decks/sudoku/' });
+  var result = seoRecon.reconcileCanonicalURLPattern(
+    manifestFixture(),
+    html,
+    { slug: 'addition' }
+  );
+  assert.strictEqual(result.category, 'CANONICAL_WRONG_SLUG');
+});
+
+test('CANONICAL_WRONG_SCHEME on http://', function () {
+  var html = deckHtmlFixture({ canonical: 'http://www.lessoncraftstudio.com/en/decks/sudoku/' });
+  var result = seoRecon.reconcileCanonicalURLPattern(
+    manifestFixture(),
+    html,
+    { slug: 'sudoku' }
+  );
+  assert.strictEqual(result.category, 'CANONICAL_WRONG_SCHEME');
+});
+
+test('CANONICAL_MISSING when no <link rel="canonical">', function () {
+  var html = '<!DOCTYPE html><html><head><title>Test</title></head></html>';
+  var result = seoRecon.reconcileCanonicalURLPattern(
+    manifestFixture(),
+    html,
+    { slug: 'sudoku' }
+  );
+  assert.strictEqual(result.category, 'CANONICAL_MISSING');
+});
+
+// =====================================================================
+// reconcileOGTags
+// =====================================================================
+
+console.log('\nreconcileOGTags:');
+
+test('CLEAN when all 14 OG + Twitter tags present', function () {
+  var html = deckHtmlFixture();
+  var result = seoRecon.reconcileOGTags(html, {});
+  assert.strictEqual(result.category, 'CLEAN');
+});
+
+test('OG_TAG_MISSING when og tags absent', function () {
+  var html = deckHtmlFixture({ ogTags: false });
+  var result = seoRecon.reconcileOGTags(html, {});
+  assert.strictEqual(result.category, 'OG_TAG_MISSING');
+  assert.ok(result.missing.length > 0);
+});
+
+test('OG_TAG_MISSING when twitter card tags absent', function () {
+  var html = deckHtmlFixture({ twitterTags: false });
+  var result = seoRecon.reconcileOGTags(html, {});
+  assert.strictEqual(result.category, 'OG_TAG_MISSING');
+  assert.ok(result.missing.indexOf('twitter:card') !== -1);
+});
+
+test('OG_IMAGE_FALLBACK_USED warn-class when og:image differs from expected', function () {
+  var html = deckHtmlFixture();
+  var result = seoRecon.reconcileOGTags(html, {
+    expectedOgImage: 'https://www.lessoncraftstudio.com/en/decks/sudoku-v1/per-deck-og.png'
+  });
+  assert.strictEqual(result.category, 'OG_IMAGE_FALLBACK_USED');
+  assert.strictEqual(result.warnClass, true);
+});
+
+// =====================================================================
+// reconcileLocaleResidue
+// =====================================================================
+
+console.log('\nreconcileLocaleResidue:');
+
+test('CLEAN on en deck (English allowed in en titles)', function () {
+  var result = seoRecon.reconcileLocaleResidue(
+    manifestFixture({ language: 'en' }),
+    'Picture Sudoku Worksheet — Kindergarten',
+    'Free interactive Picture Sudoku Worksheet for Kindergarten. Print or play online.',
+    {}
+  );
+  assert.strictEqual(result.category, 'CLEAN');
+});
+
+test('LOCALE_RESIDUE_DETECTED on de deck with English title (F3+H1 root case)', function () {
+  // The Phase 0 empirical anchor: de/sudoku title = byte-identical English
+  var result = seoRecon.reconcileLocaleResidue(
+    manifestFixture({ language: 'de' }),
+    'Picture Sudoku Worksheet — Kindergarten | LessonCraftStudio',
+    'Free interactive Picture Sudoku Worksheet for Kindergarten. Print or play online.',
+    {}
+  );
+  assert.strictEqual(result.category, 'LOCALE_RESIDUE_DETECTED');
+  assert.ok(result.englishWords.length > 0);
+});
+
+test('CLEAN on de deck with proper German content (no English chrome)', function () {
+  var result = seoRecon.reconcileLocaleResidue(
+    manifestFixture({ language: 'de' }),
+    'Bilder-Sudoku Arbeitsblatt — Kindergarten | LessonCraftStudio',
+    'Kostenloses interaktives Bilder-Sudoku Arbeitsblatt für Kindergarten. Drucken oder online spielen.',
+    {}
+  );
+  // 'kindergarten' is in de exception list (per seo-reconciliation-exceptions.json)
+  assert.strictEqual(result.category, 'CLEAN');
+});
+
+test('Brand whitelist preserves "LessonCraftStudio" suffix in non-English titles', function () {
+  var result = seoRecon.reconcileLocaleResidue(
+    manifestFixture({ language: 'de' }),
+    'Bilder-Sudoku Arbeitsblatt | LessonCraftStudio',
+    'Kostenloses interaktives Arbeitsblatt für Kindergarten.',
+    {}
+  );
+  assert.strictEqual(result.category, 'CLEAN');
+});
+
+// =====================================================================
+// reconcileSingleH1
+// =====================================================================
+
+console.log('\nreconcileSingleH1:');
+
+test('CLEAN when exactly 1 <h1>', function () {
+  var html = deckHtmlFixture({ h1Count: 1 });
+  var result = seoRecon.reconcileSingleH1(html, {});
+  assert.strictEqual(result.category, 'CLEAN');
+  assert.strictEqual(result.count, 1);
+});
+
+test('MULTIPLE_H1_DETECTED when 2 <h1> elements (Phase 0 finding 2 reproduction)', function () {
+  var html = deckHtmlFixture({ h1Count: 2 });
+  var result = seoRecon.reconcileSingleH1(html, {});
+  assert.strictEqual(result.category, 'MULTIPLE_H1_DETECTED');
+  assert.strictEqual(result.count, 2);
+});
+
+test('MULTIPLE_H1_DETECTED when 0 <h1> elements (count != 1)', function () {
+  var html = '<!DOCTYPE html><html><head></head><body>No h1 here</body></html>';
+  var result = seoRecon.reconcileSingleH1(html, {});
+  assert.strictEqual(result.category, 'MULTIPLE_H1_DETECTED');
+  assert.strictEqual(result.count, 0);
+});
+
+// =====================================================================
+// reconcileInboundLinkSurface (Checkpoint 1 stub)
+// =====================================================================
+
+console.log('\nreconcileInboundLinkSurface (Checkpoint 1 stub):');
+
+test('CLEAN with noop:true when countInboundFn not provided (stub mode)', async function () {
+  var result = await seoRecon.reconcileInboundLinkSurface({
+    deckId: 'test-deck-001',
+    language: 'en'
+  });
+  assert.strictEqual(result.category, 'CLEAN');
+  assert.strictEqual(result.noop, true);
+});
+
+test('INBOUND_LINK_COUNT_BELOW_TARGET when count < 3 (with helper)', async function () {
+  var result = await seoRecon.reconcileInboundLinkSurface({
+    deckId: 'test-deck-001',
+    language: 'en',
+    countInboundFn: async function () { return { count: 1, perSurface: { topic: true } }; },
+    target: 3
+  });
+  assert.strictEqual(result.category, 'INBOUND_LINK_COUNT_BELOW_TARGET');
+  assert.strictEqual(result.count, 1);
+  assert.strictEqual(result.warnClass, true); // pre-Phase-5 default
+});
+
+// =====================================================================
+// reconcileDeckPageSEO orchestrator
+// =====================================================================
+
+console.log('\nreconcileDeckPageSEO orchestrator:');
+
+test('CLEAN overall when all predicates pass', async function () {
+  var html = deckHtmlFixture();
+  var result = await seoRecon.reconcileDeckPageSEO({
+    manifest: manifestFixture(),
+    substitutedHtml: html,
+    slug: 'sudoku',
+    findExistingByTitleHash: async function () { return null; },
+    findExistingByDescriptionHash: async function () { return null; }
+  });
+  assert.strictEqual(result.overall, 'CLEAN');
+  assert.strictEqual(result.haltCategories.length, 0);
+});
+
+test('HALT overall when canonical-pattern fails', async function () {
+  var html = deckHtmlFixture({ canonical: 'https://lessoncraftstudio.com/en/decks/sudoku/' });
+  var result = await seoRecon.reconcileDeckPageSEO({
+    manifest: manifestFixture(),
+    substitutedHtml: html,
+    slug: 'sudoku',
+    findExistingByTitleHash: async function () { return null; },
+    findExistingByDescriptionHash: async function () { return null; }
+  });
+  assert.strictEqual(result.overall, 'HALT');
+  assert.ok(result.haltCategories.indexOf('CANONICAL_APEX_FORM') !== -1);
+});
+
+test('HALT overall when multi-h1 detected (Phase 0 finding 2)', async function () {
+  var html = deckHtmlFixture({ h1Count: 2 });
+  var result = await seoRecon.reconcileDeckPageSEO({
+    manifest: manifestFixture(),
+    substitutedHtml: html,
+    slug: 'sudoku',
+    findExistingByTitleHash: async function () { return null; },
+    findExistingByDescriptionHash: async function () { return null; }
+  });
+  assert.strictEqual(result.overall, 'HALT');
+  assert.ok(result.haltCategories.indexOf('MULTIPLE_H1_DETECTED') !== -1);
+});
+
+test('HALT overall when de deck has English title residue (F3+H1 reproduction)', async function () {
+  // Reproduces Phase 0 empirical: de/sudoku byte-identical English title
+  var html = deckHtmlFixture({
+    title: 'Picture Sudoku Worksheet — Kindergarten | LessonCraftStudio',
+    canonical: 'https://www.lessoncraftstudio.com/de/decks/sudoku/'
+  });
+  var result = await seoRecon.reconcileDeckPageSEO({
+    manifest: manifestFixture({ language: 'de' }),
+    substitutedHtml: html,
+    slug: 'sudoku',
+    findExistingByTitleHash: async function () { return null; },
+    findExistingByDescriptionHash: async function () { return null; }
+  });
+  assert.strictEqual(result.overall, 'HALT');
+  assert.ok(result.haltCategories.indexOf('LOCALE_RESIDUE_DETECTED') !== -1);
+});
+
+// =====================================================================
+// Helpers
+// =====================================================================
+
+console.log('\nhelpers:');
+
+test('sha256 produces stable hex digest', function () {
+  var h1 = seoRecon.sha256('test');
+  var h2 = seoRecon.sha256('test');
+  var h3 = seoRecon.sha256('different');
+  assert.strictEqual(h1, h2);
+  assert.notStrictEqual(h1, h3);
+  assert.strictEqual(h1.length, 64); // sha256 hex = 64 chars
+});
+
+test('tokenizeForLexicon splits on whitespace + punctuation; lowercases', function () {
+  var toks = seoRecon.tokenizeForLexicon('Picture Sudoku Worksheet — Kindergarten | LessonCraftStudio');
+  assert.ok(toks.indexOf('picture') !== -1);
+  assert.ok(toks.indexOf('sudoku') !== -1);
+  assert.ok(toks.indexOf('worksheet') !== -1);
+  assert.ok(toks.indexOf('kindergarten') !== -1);
+  assert.ok(toks.indexOf('lessoncraftstudio') !== -1);
+});
+
+test('OG_LOCALE_MAP es: es_MX (revised per Phase 0 D7 register evidence)', function () {
+  assert.strictEqual(seoRecon.OG_LOCALE_MAP.es, 'es_MX');
+  assert.strictEqual(seoRecon.OG_LOCALE_MAP.pt, 'pt_BR');
+  assert.strictEqual(seoRecon.OG_LOCALE_MAP.no, 'nb_NO');
+});
+
+// =====================================================================
+// Summary
+// =====================================================================
+
+setTimeout(function () {
+  console.log('\n' + '='.repeat(60));
+  console.log('Tests: ' + passCount + ' passed, ' + failCount + ' failed');
+  if (failCount > 0) {
+    console.log('\nFailures:');
+    failures.forEach(function (f) {
+      console.log('  - ' + f.name);
+      console.log('    ' + f.error.message);
+    });
+    process.exit(1);
+  } else {
+    console.log('All tests passed.');
+    process.exit(0);
+  }
+}, 100);

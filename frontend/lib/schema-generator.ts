@@ -550,8 +550,16 @@ export const ogLocaleMap: Record<string, string> = {
   en: 'en_US',
   de: 'de_DE',
   fr: 'fr_FR',
-  es: 'es_ES',  // Standard Spanish — serves Spain, Mexico, Latin America, all markets
-  pt: 'pt_BR',
+  // es: revised es_ES → es_MX per [ARC][SEO][DECK-PAGE] Phase 0 D7 register
+  // evidence (image-vocabulary.js entries: chabacano, pay de manzana, carriola,
+  // aguacate, carro, computadora, papa — unambiguous Mexican-Spanish canonical).
+  // Concern 1 supplement adjudication ratified at Phase 1 5-item batch lock.
+  // Replaces the prior "Standard Spanish" framing which conflated register
+  // (the original draft also wrongly proposed pt_PT for the same reason —
+  // both cases failed because vocabulary register was the load-bearing signal,
+  // not country-code defaults).
+  es: 'es_MX',
+  pt: 'pt_BR',  // Brazilian Portuguese canonical per CLAUDE.md §6 (caminhão / ônibus / educação infantil)
   it: 'it_IT',
   nl: 'nl_NL',
   sv: 'sv_SE',

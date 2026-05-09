@@ -1147,6 +1147,13 @@ model Deck {
   createdBy       String    @map("created_by")
   version         Int       @default(1)
   contentFamilyId String?   @map("content_family_id") // §17.8.7 reserved nullable
+  // Phase 2 doctrine §1+§2 uniqueness invariants (deck-page SEO arc Phase 3a).
+  // sha256 hashes of rendered post-substitution title + meta description; nullable
+  // for pre-Phase-4a-retrofit decks (backfilled at retrofit pass per Phase 4a
+  // mutable-regions contract extension). Compound unique constraint below
+  // structurally enforces same-locale title uniqueness per Phase 2 §1 invariant.
+  titleHash       String?   @map("title_hash")
+  descriptionHash String?   @map("description_hash")
   createdAt       DateTime  @default(now()) @map("created_at")
   updatedAt       DateTime  @updatedAt @map("updated_at")
 
@@ -1159,6 +1166,7 @@ model Deck {
   bundleMemberships     BundleDeck[]
 
   @@unique([language, slug]) // §17.8.5 compound unique (Drift D2)
+  @@unique([language, titleHash], map: "decks_language_title_hash_key") // Phase 2 §1 uniqueness invariant
   @@index([status, publishedAt])
   @@index([exerciseType, language])
   // Catalog-scale read-path indexes per project_mass_publish_recon.md §B4.

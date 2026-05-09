@@ -1,0 +1,64 @@
+{
+  "_doc": "Per-locale loanword exception list for [ARC][SEO][DECK-PAGE] Phase 3a path-(a) lexicon-fallback. Words listed here are EXCLUDED from LOCALE_RESIDUE_DETECTED checks even if they appear in the English lexicon (catalog-export.js seo template chrome). Conservative initial ship; grow via Phase 3a empirical surfaces as false positives emerge. Phase 3b path-(b) trace upgrade deprecates this entire file. See scripts/publish-cli/seo-reconciliation.js + Phase 2 doctrine §6.",
+  "_origin": "Phase 3a.1 Checkpoint 1 — initial conservative ship",
+  "_format": "exceptions: { <locale>: [<word>, ...] } — words lowercased; matched against tokenized title + description after stripping diacritics not required (BRAND_WHITELIST + tokenizeForLexicon already lowercase).",
+  "exceptions": {
+    "de": [
+      "kindergarten",
+      "computer",
+      "baby",
+      "bagel",
+      "ananas"
+    ],
+    "fr": [
+      "weekend",
+      "computer",
+      "baby",
+      "bagel",
+      "ananas"
+    ],
+    "it": [
+      "computer",
+      "baby",
+      "bagel",
+      "ananas",
+      "pizza"
+    ],
+    "es": [
+      "bagel",
+      "ananas",
+      "pizza"
+    ],
+    "nl": [
+      "computer",
+      "baby",
+      "bagel",
+      "ananas"
+    ],
+    "pt": [
+      "bagel",
+      "ananas",
+      "pizza"
+    ],
+    "sv": [
+      "computer",
+      "baby",
+      "bagel"
+    ],
+    "da": [
+      "computer",
+      "baby",
+      "bagel"
+    ],
+    "no": [
+      "computer",
+      "baby",
+      "bagel"
+    ],
+    "fi": [
+      "computer",
+      "baby",
+      "bagel"
+    ]
+  }
+}

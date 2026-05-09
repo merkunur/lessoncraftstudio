@@ -746,6 +746,12 @@
       "grade_1": "1.º de primaria",
       "grade_2": "2.º de primaria",
       "grade_3": "3.º de primaria"
+    },
+    "words": {
+      "worksheet": "Hoja de ejercicios",
+      "free_interactive": "Hoja interactiva gratuita",
+      "for": "para",
+      "print_or_play_online": "Imprime o juega en línea"
     }
   },
   "endDeck": {

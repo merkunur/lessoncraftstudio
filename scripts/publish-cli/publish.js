@@ -206,7 +206,7 @@ async function publish(opts) {
     findExistingByDescriptionHash: db.findExistingByDescriptionHash,
     countInboundFn: countInboundMod.countInboundSurfacesForDeck,  // Phase 4b: real helper (CJS port; (a-1) ratification)
     target: 3,
-    haltClass: false,  // Phase 3a.1: warn-class pre-Phase-5 per concern 4 lock
+    haltClass: true,  // Phase 5 close: halt-class post-Phase-5 per concern 4 escalation schedule
     expectedOgImage: subResult.resolved.ogImage
   });
   if (seoRecon.overall === 'HALT') {

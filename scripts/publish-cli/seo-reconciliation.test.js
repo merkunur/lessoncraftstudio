@@ -462,7 +462,40 @@ test('INBOUND_LINK_COUNT_BELOW_TARGET when count < 3 (with helper)', async funct
   });
   assert.strictEqual(result.category, 'INBOUND_LINK_COUNT_BELOW_TARGET');
   assert.strictEqual(result.count, 1);
-  assert.strictEqual(result.warnClass, true); // pre-Phase-5 default
+  assert.strictEqual(result.warnClass, true); // pre-Phase-5 default (haltClass=undefined)
+});
+
+test('INBOUND_LINK_COUNT_BELOW_TARGET escalates to halt at orchestrator when haltClass=true (Phase 5 post-flip)', async function () {
+  var html = deckHtmlFixture();
+  var result = await seoRecon.reconcileDeckPageSEO({
+    manifest: manifestFixture(),
+    substitutedHtml: html,
+    slug: 'sudoku',
+    findExistingByTitleHash: async function () { return null; },
+    findExistingByDescriptionHash: async function () { return null; },
+    countInboundFn: async function () { return { count: 1, perSurface: { topic: true } }; },
+    target: 3,
+    haltClass: true  // Phase 5 close: WARN→HALT predicate flip
+  });
+  assert.strictEqual(result.overall, 'HALT');
+  assert.ok(result.haltCategories.indexOf('INBOUND_LINK_COUNT_BELOW_TARGET') !== -1, 'INBOUND should be in halt categories when haltClass=true');
+});
+
+test('INBOUND_LINK_COUNT_BELOW_TARGET stays warn when haltClass=false (pre-Phase-5)', async function () {
+  var html = deckHtmlFixture();
+  var result = await seoRecon.reconcileDeckPageSEO({
+    manifest: manifestFixture(),
+    substitutedHtml: html,
+    slug: 'sudoku',
+    findExistingByTitleHash: async function () { return null; },
+    findExistingByDescriptionHash: async function () { return null; },
+    countInboundFn: async function () { return { count: 1, perSurface: { topic: true } }; },
+    target: 3,
+    haltClass: false
+  });
+  assert.strictEqual(result.overall, 'WARN');
+  assert.ok(result.warnCategories.indexOf('INBOUND_LINK_COUNT_BELOW_TARGET') !== -1);
+  assert.strictEqual(result.haltCategories.indexOf('INBOUND_LINK_COUNT_BELOW_TARGET'), -1);
 });
 
 // =====================================================================

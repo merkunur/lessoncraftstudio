@@ -221,7 +221,7 @@ async function dryRunOneZip(zipPath, stagingRoot, ctx) {
       findExistingByDescriptionHash: ctx.findExistingByDescriptionHash,
       countInboundFn: ctx.countInboundFn,
       target: 3,
-      haltClass: false, // Phase 3a.1: warn-class pre-Phase-5 per concern 4 lock
+      haltClass: true, // Phase 5 close: halt-class post-Phase-5 per concern 4 escalation schedule
       expectedOgImage: subResult.resolved.ogImage // Phase 3a.1 substitute.js produces this
     });
     result.seoReconciliation = seoRecon;

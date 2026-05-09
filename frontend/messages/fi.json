@@ -1049,6 +1049,12 @@
       "grade_1": "1. luokka",
       "grade_2": "2. luokka",
       "grade_3": "3. luokka"
+    },
+    "words": {
+      "worksheet": "Tehtävämoniste",
+      "free_interactive": "Ilmainen interaktiivinen",
+      "for": "varten",
+      "print_or_play_online": "Tulosta tai pelaa verkossa"
     }
   },
   "endDeck": {

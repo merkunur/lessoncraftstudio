@@ -733,6 +733,12 @@
       "grade_1": "Groep 3",
       "grade_2": "Groep 4",
       "grade_3": "Groep 5"
+    },
+    "words": {
+      "worksheet": "Werkblad",
+      "free_interactive": "Gratis interactief",
+      "for": "voor",
+      "print_or_play_online": "Afdrukken of online spelen"
     }
   },
   "endDeck": {

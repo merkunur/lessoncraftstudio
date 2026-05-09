@@ -1080,6 +1080,12 @@
       "grade_1": "CP",
       "grade_2": "CE1",
       "grade_3": "CE2"
+    },
+    "words": {
+      "worksheet": "Fiche d'exercices",
+      "free_interactive": "Fiche interactive gratuite",
+      "for": "pour",
+      "print_or_play_online": "Imprimer ou jouer en ligne"
     }
   },
   "endDeck": {

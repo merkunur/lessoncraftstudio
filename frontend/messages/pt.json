@@ -1070,6 +1070,12 @@
       "grade_1": "1.º ano",
       "grade_2": "2.º ano",
       "grade_3": "3.º ano"
+    },
+    "words": {
+      "worksheet": "Folha de exercícios",
+      "free_interactive": "Folha interativa grátis",
+      "for": "para",
+      "print_or_play_online": "Imprima ou jogue online"
     }
   },
   "endDeck": {

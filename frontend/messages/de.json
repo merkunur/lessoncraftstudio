@@ -877,6 +877,12 @@
       "grade_1": "1. Klasse",
       "grade_2": "2. Klasse",
       "grade_3": "3. Klasse"
+    },
+    "words": {
+      "worksheet": "Arbeitsblatt",
+      "free_interactive": "Kostenloses interaktives",
+      "for": "für",
+      "print_or_play_online": "Drucken oder online spielen"
     }
   },
   "endDeck": {

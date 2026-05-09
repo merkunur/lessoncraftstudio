@@ -168,17 +168,17 @@
           "fi": "yhteenlasku"
         },
         "name": {
-          "en": "addition",
+          "en": "Addition",
           "de": "Addition",
-          "es": "suma",
-          "nl": "optellen",
-          "it": "addizione",
-          "fr": "addition",
-          "pt": "adição",
-          "sv": "addition",
-          "da": "addition",
-          "no": "addisjon",
-          "fi": "yhteenlasku"
+          "es": "Suma",
+          "nl": "Optellen",
+          "it": "Addizione",
+          "fr": "Addition",
+          "pt": "Adição",
+          "sv": "Addition",
+          "da": "Addition",
+          "no": "Addisjon",
+          "fi": "Yhteenlasku"
         }
       },
       "sudoku": {
@@ -196,17 +196,17 @@
           "fi": "kuvasudoku"
         },
         "name": {
-          "en": "picture sudoku",
+          "en": "Picture Sudoku",
           "de": "Bilder-Sudoku",
-          "es": "sudoku de imágenes",
-          "nl": "foto-sudoku",
-          "it": "sudoku illustrato",
-          "fr": "sudoku illustré",
-          "pt": "sudoku ilustrado",
-          "sv": "bildsudoku",
-          "da": "billedsudoku",
-          "no": "bildesudoku",
-          "fi": "kuvasudoku"
+          "es": "Sudoku De Imágenes",
+          "nl": "Foto-sudoku",
+          "it": "Sudoku Illustrato",
+          "fr": "Sudoku Illustré",
+          "pt": "Sudoku Ilustrado",
+          "sv": "Bildsudoku",
+          "da": "Billedsudoku",
+          "no": "Bildesudoku",
+          "fi": "Kuvasudoku"
         }
       },
       "cryptogram": {
@@ -224,17 +224,17 @@
           "fi": "kryptogrammi"
         },
         "name": {
-          "en": "cryptogram",
+          "en": "Cryptogram",
           "de": "Kryptogramm",
-          "es": "criptograma",
-          "nl": "cryptogram",
-          "it": "crittogramma",
-          "fr": "cryptogramme",
-          "pt": "criptograma",
-          "sv": "kryptogram",
-          "da": "kryptogram",
-          "no": "kryptogram",
-          "fi": "kryptogrammi"
+          "es": "Criptograma",
+          "nl": "Cryptogram",
+          "it": "Crittogramma",
+          "fr": "Cryptogramme",
+          "pt": "Criptograma",
+          "sv": "Kryptogram",
+          "da": "Kryptogram",
+          "no": "Kryptogram",
+          "fi": "Kryptogrammi"
         }
       },
       "picture-path": {
@@ -252,17 +252,17 @@
           "fi": "kuvapolku"
         },
         "name": {
-          "en": "picture path",
+          "en": "Picture Path",
           "de": "Bildpfad",
-          "es": "sendero de imágenes",
-          "nl": "beeldpad",
-          "it": "percorso illustrato",
-          "fr": "parcours illustré",
-          "pt": "caminho ilustrado",
-          "sv": "bildväg",
-          "da": "billedvej",
-          "no": "bildevei",
-          "fi": "kuvapolku"
+          "es": "Sendero De Imágenes",
+          "nl": "Beeldpad",
+          "it": "Percorso Illustrato",
+          "fr": "Parcours Illustré",
+          "pt": "Caminho Ilustrado",
+          "sv": "Bildväg",
+          "da": "Billedvej",
+          "no": "Bildevei",
+          "fi": "Kuvapolku"
         }
       },
       "picture-trail": {
@@ -288,17 +288,17 @@
           "fi": "vahennyslasku"
         },
         "name": {
-          "en": "subtraction",
+          "en": "Subtraction",
           "de": "Subtraktion",
-          "es": "resta",
-          "nl": "aftrekken",
-          "it": "sottrazione",
-          "fr": "soustraction",
-          "pt": "subtração",
-          "sv": "subtraktion",
-          "da": "subtraktion",
-          "no": "subtraksjon",
-          "fi": "vähennyslasku"
+          "es": "Resta",
+          "nl": "Aftrekken",
+          "it": "Sottrazione",
+          "fr": "Soustraction",
+          "pt": "Subtração",
+          "sv": "Subtraktion",
+          "da": "Subtraktion",
+          "no": "Subtraksjon",
+          "fi": "Vähennyslasku"
         }
       },
       "code-addition": {
@@ -316,17 +316,17 @@
           "fi": "koodattu-yhteenlasku"
         },
         "name": {
-          "en": "code addition",
+          "en": "Code Addition",
           "de": "Code-Addition",
-          "es": "suma codificada",
-          "nl": "code-optellen",
-          "it": "addizione codificata",
-          "fr": "addition codée",
-          "pt": "adição com código",
-          "sv": "kodaddition",
-          "da": "kodeaddition",
-          "no": "kodeaddisjon",
-          "fi": "koodattu yhteenlasku"
+          "es": "Suma Codificada",
+          "nl": "Code-optellen",
+          "it": "Addizione Codificata",
+          "fr": "Addition Codée",
+          "pt": "Adição Com Código",
+          "sv": "Kodaddition",
+          "da": "Kodeaddition",
+          "no": "Kodeaddisjon",
+          "fi": "Koodattu Yhteenlasku"
         }
       },
       "more-less": {
@@ -344,17 +344,17 @@
           "fi": "enemman-vahemman"
         },
         "name": {
-          "en": "more or less",
-          "de": "mehr oder weniger",
-          "es": "más o menos",
-          "nl": "meer of minder",
-          "it": "più o meno",
-          "fr": "plus ou moins",
-          "pt": "mais ou menos",
-          "sv": "mer eller mindre",
-          "da": "mere eller mindre",
-          "no": "mer eller mindre",
-          "fi": "enemmän vai vähemmän"
+          "en": "More Or Less",
+          "de": "Mehr Oder Weniger",
+          "es": "Más O Menos",
+          "nl": "Meer Of Minder",
+          "it": "Più O Meno",
+          "fr": "Plus Ou Moins",
+          "pt": "Mais Ou Menos",
+          "sv": "Mer Eller Mindre",
+          "da": "Mere Eller Mindre",
+          "no": "Mer Eller Mindre",
+          "fi": "Enemmän Vai Vähemmän"
         }
       },
       "math-puzzle": {
@@ -372,17 +372,17 @@
           "fi": "matematiikkapulma"
         },
         "name": {
-          "en": "math puzzle",
+          "en": "Math Puzzle",
           "de": "Mathe-Rätsel",
-          "es": "rompecabezas matemático",
-          "nl": "rekenpuzzel",
-          "it": "puzzle matematico",
-          "fr": "puzzle mathématique",
-          "pt": "quebra-cabeça matemático",
-          "sv": "mattepussel",
-          "da": "matematikpuslespil",
-          "no": "mattepuslespill",
-          "fi": "matematiikkapulma"
+          "es": "Rompecabezas Matemático",
+          "nl": "Rekenpuzzel",
+          "it": "Puzzle Matematico",
+          "fr": "Puzzle Mathématique",
+          "pt": "Quebra-cabeça Matemático",
+          "sv": "Mattepussel",
+          "da": "Matematikpuslespil",
+          "no": "Mattepuslespill",
+          "fi": "Matematiikkapulma"
         }
       },
       "math-worksheet": {
@@ -400,17 +400,17 @@
           "fi": "matematiikkatehtava"
         },
         "name": {
-          "en": "math worksheet",
+          "en": "Math Worksheet",
           "de": "Mathe-Arbeitsblatt",
-          "es": "ficha matemática",
-          "nl": "rekenwerkblad",
-          "it": "scheda di matematica",
-          "fr": "fiche de mathématiques",
-          "pt": "atividade de matemática",
-          "sv": "matteblad",
-          "da": "matematikark",
-          "no": "matteark",
-          "fi": "matematiikkatehtävä"
+          "es": "Ficha Matemática",
+          "nl": "Rekenwerkblad",
+          "it": "Scheda Di Matematica",
+          "fr": "Fiche De Mathématiques",
+          "pt": "Atividade De Matemática",
+          "sv": "Matteblad",
+          "da": "Matematikark",
+          "no": "Matteark",
+          "fi": "Matematiikkatehtävä"
         }
       },
       "big-small": {
@@ -428,17 +428,17 @@
           "fi": "iso-pieni"
         },
         "name": {
-          "en": "big or small",
-          "de": "groß oder klein",
-          "es": "grande o pequeño",
-          "nl": "groot of klein",
-          "it": "grande o piccolo",
-          "fr": "grand ou petit",
-          "pt": "grande ou pequeno",
-          "sv": "stor eller liten",
-          "da": "stor eller lille",
-          "no": "stor eller liten",
-          "fi": "iso vai pieni"
+          "en": "Big Or Small",
+          "de": "Groß Oder Klein",
+          "es": "Grande O Pequeño",
+          "nl": "Groot Of Klein",
+          "it": "Grande O Piccolo",
+          "fr": "Grand Ou Petit",
+          "pt": "Grande Ou Pequeno",
+          "sv": "Stor Eller Liten",
+          "da": "Stor Eller Lille",
+          "no": "Stor Eller Liten",
+          "fi": "Iso Vai Pieni"
         }
       },
       "chart-count": {
@@ -456,17 +456,17 @@
           "fi": "laske-kaaviossa"
         },
         "name": {
-          "en": "chart count",
-          "de": "Tabelle zählen",
-          "es": "contar en gráfico",
-          "nl": "grafiek tellen",
-          "it": "conteggio grafico",
-          "fr": "comptage graphique",
-          "pt": "contagem em gráfico",
-          "sv": "räkna i diagram",
-          "da": "tæl i diagram",
-          "no": "tell i diagram",
-          "fi": "laske kaaviossa"
+          "en": "Chart Count",
+          "de": "Tabelle Zählen",
+          "es": "Contar En Gráfico",
+          "nl": "Grafiek Tellen",
+          "it": "Conteggio Grafico",
+          "fr": "Comptage Graphique",
+          "pt": "Contagem Em Gráfico",
+          "sv": "Räkna I Diagram",
+          "da": "Tæl I Diagram",
+          "no": "Tell I Diagram",
+          "fi": "Laske Kaaviossa"
         }
       },
       "pattern-train": {
@@ -484,17 +484,17 @@
           "fi": "kuviojuna"
         },
         "name": {
-          "en": "pattern train",
+          "en": "Pattern Train",
           "de": "Musterzug",
-          "es": "tren de patrones",
-          "nl": "patroontrein",
-          "it": "treno dei modelli",
-          "fr": "train de modèles",
-          "pt": "trem de padrões",
-          "sv": "mönstertåget",
-          "da": "mønstertoget",
-          "no": "mønstertoget",
-          "fi": "kuviojuna"
+          "es": "Tren De Patrones",
+          "nl": "Patroontrein",
+          "it": "Treno Dei Modelli",
+          "fr": "Train De Modèles",
+          "pt": "Trem De Padrões",
+          "sv": "Mönstertåget",
+          "da": "Mønstertoget",
+          "no": "Mønstertoget",
+          "fi": "Kuviojuna"
         }
       },
       "pattern-worksheet": {
@@ -512,17 +512,17 @@
           "fi": "kuviotehtava"
         },
         "name": {
-          "en": "pattern worksheet",
+          "en": "Pattern Worksheet",
           "de": "Musterarbeitsblatt",
-          "es": "ficha de patrones",
-          "nl": "patroonwerkblad",
-          "it": "scheda di modelli",
-          "fr": "fiche de modèles",
-          "pt": "atividade de padrões",
-          "sv": "mönsterblad",
-          "da": "mønsterark",
-          "no": "mønsterark",
-          "fi": "kuviotehtävä"
+          "es": "Ficha De Patrones",
+          "nl": "Patroonwerkblad",
+          "it": "Scheda Di Modelli",
+          "fr": "Fiche De Modèles",
+          "pt": "Atividade De Padrões",
+          "sv": "Mönsterblad",
+          "da": "Mønsterark",
+          "no": "Mønsterark",
+          "fi": "Kuviotehtävä"
         }
       },
       "bingo": {
@@ -540,17 +540,17 @@
           "fi": "bingo"
         },
         "name": {
-          "en": "bingo",
+          "en": "Bingo",
           "de": "Bingo",
-          "es": "bingo",
-          "nl": "bingo",
-          "it": "bingo",
-          "fr": "loto",
-          "pt": "bingo",
-          "sv": "bingo",
-          "da": "bingo",
-          "no": "bingo",
-          "fi": "bingo"
+          "es": "Bingo",
+          "nl": "Bingo",
+          "it": "Bingo",
+          "fr": "Loto",
+          "pt": "Bingo",
+          "sv": "Bingo",
+          "da": "Bingo",
+          "no": "Bingo",
+          "fi": "Bingo"
         }
       },
       "grid-match": {
@@ -568,17 +568,17 @@
           "fi": "ruudukkoyhdistys"
         },
         "name": {
-          "en": "grid match",
+          "en": "Grid Match",
           "de": "Gitter-Zuordnung",
-          "es": "emparejar en cuadrícula",
-          "nl": "rooster koppelen",
-          "it": "abbinamento a griglia",
-          "fr": "appariement en grille",
-          "pt": "pareamento em grade",
-          "sv": "rutmatchning",
-          "da": "gittermatch",
-          "no": "rutenettmatch",
-          "fi": "ruudukkoyhdistys"
+          "es": "Emparejar En Cuadrícula",
+          "nl": "Rooster Koppelen",
+          "it": "Abbinamento A Griglia",
+          "fr": "Appariement En Grille",
+          "pt": "Pareamento Em Grade",
+          "sv": "Rutmatchning",
+          "da": "Gittermatch",
+          "no": "Rutenettmatch",
+          "fi": "Ruudukkoyhdistys"
         }
       },
       "matching": {
@@ -596,17 +596,17 @@
           "fi": "yhdistaminen"
         },
         "name": {
-          "en": "matching",
+          "en": "Matching",
           "de": "Zuordnung",
-          "es": "emparejar",
-          "nl": "koppelen",
-          "it": "abbinamento",
-          "fr": "appariement",
-          "pt": "pareamento",
-          "sv": "matchning",
-          "da": "matchning",
-          "no": "matching",
-          "fi": "yhdistäminen"
+          "es": "Emparejar",
+          "nl": "Koppelen",
+          "it": "Abbinamento",
+          "fr": "Appariement",
+          "pt": "Pareamento",
+          "sv": "Matchning",
+          "da": "Matchning",
+          "no": "Matching",
+          "fi": "Yhdistäminen"
         }
       },
       "picture-sort": {
@@ -624,17 +624,17 @@
           "fi": "lajittele-kuvat"
         },
         "name": {
-          "en": "picture sort",
+          "en": "Picture Sort",
           "de": "Bildersortierung",
-          "es": "clasificar imágenes",
-          "nl": "beelden sorteren",
-          "it": "ordina le immagini",
-          "fr": "trier les images",
-          "pt": "ordenar imagens",
-          "sv": "sortera bilder",
-          "da": "sortér billeder",
-          "no": "sorter bilder",
-          "fi": "lajittele kuvat"
+          "es": "Clasificar Imágenes",
+          "nl": "Beelden Sorteren",
+          "it": "Ordina Le Immagini",
+          "fr": "Trier Les Images",
+          "pt": "Ordenar Imagens",
+          "sv": "Sortera Bilder",
+          "da": "Sortér Billeder",
+          "no": "Sorter Bilder",
+          "fi": "Lajittele Kuvat"
         }
       },
       "shadow-match": {
@@ -652,17 +652,17 @@
           "fi": "yhdista-varjot"
         },
         "name": {
-          "en": "shadow match",
-          "de": "Schatten zuordnen",
-          "es": "emparejar sombras",
-          "nl": "schaduw koppelen",
-          "it": "abbina le ombre",
-          "fr": "apparier les ombres",
-          "pt": "pareamento de sombras",
-          "sv": "matcha skuggor",
-          "da": "match skygger",
-          "no": "match skygger",
-          "fi": "yhdistä varjot"
+          "en": "Shadow Match",
+          "de": "Schatten Zuordnen",
+          "es": "Emparejar Sombras",
+          "nl": "Schaduw Koppelen",
+          "it": "Abbina Le Ombre",
+          "fr": "Apparier Les Ombres",
+          "pt": "Pareamento De Sombras",
+          "sv": "Matcha Skuggor",
+          "da": "Match Skygger",
+          "no": "Match Skygger",
+          "fi": "Yhdistä Varjot"
         }
       },
       "alphabet-train": {
@@ -680,17 +680,17 @@
           "fi": "aakkosjuna"
         },
         "name": {
-          "en": "alphabet train",
+          "en": "Alphabet Train",
           "de": "Buchstabenzug",
-          "es": "tren del abecedario",
-          "nl": "alfabettrein",
-          "it": "treno dell'alfabeto",
-          "fr": "train de l'alphabet",
-          "pt": "trem do alfabeto",
-          "sv": "alfabetståget",
-          "da": "alfabettoget",
-          "no": "alfabettoget",
-          "fi": "aakkosjuna"
+          "es": "Tren Del Abecedario",
+          "nl": "Alfabettrein",
+          "it": "Treno Dell'alfabeto",
+          "fr": "Train De L'alphabet",
+          "pt": "Trem Do Alfabeto",
+          "sv": "Alfabetståget",
+          "da": "Alfabettoget",
+          "no": "Alfabettoget",
+          "fi": "Aakkosjuna"
         }
       },
       "prepositions": {
@@ -708,17 +708,17 @@
           "fi": "prepositiot"
         },
         "name": {
-          "en": "prepositions",
+          "en": "Prepositions",
           "de": "Präpositionen",
-          "es": "preposiciones",
-          "nl": "voorzetsels",
-          "it": "preposizioni",
-          "fr": "prépositions",
-          "pt": "preposições",
-          "sv": "prepositioner",
-          "da": "præpositioner",
-          "no": "preposisjoner",
-          "fi": "prepositiot"
+          "es": "Preposiciones",
+          "nl": "Voorzetsels",
+          "it": "Preposizioni",
+          "fr": "Prépositions",
+          "pt": "Preposições",
+          "sv": "Prepositioner",
+          "da": "Præpositioner",
+          "no": "Preposisjoner",
+          "fi": "Prepositiot"
         }
       },
       "word-guess": {
@@ -736,17 +736,17 @@
           "fi": "arvaa-sana"
         },
         "name": {
-          "en": "word guess",
-          "de": "Wort raten",
-          "es": "adivina la palabra",
-          "nl": "woord raden",
-          "it": "indovina la parola",
-          "fr": "devine le mot",
-          "pt": "adivinhe a palavra",
-          "sv": "gissa ordet",
-          "da": "gæt ordet",
-          "no": "gjett ordet",
-          "fi": "arvaa sana"
+          "en": "Word Guess",
+          "de": "Wort Raten",
+          "es": "Adivina La Palabra",
+          "nl": "Woord Raden",
+          "it": "Indovina La Parola",
+          "fr": "Devine Le Mot",
+          "pt": "Adivinhe A Palavra",
+          "sv": "Gissa Ordet",
+          "da": "Gæt Ordet",
+          "no": "Gjett Ordet",
+          "fi": "Arvaa Sana"
         }
       },
       "word-scramble": {
@@ -764,17 +764,17 @@
           "fi": "kirjainsekoitus"
         },
         "name": {
-          "en": "word scramble",
+          "en": "Word Scramble",
           "de": "Buchstabensalat",
-          "es": "letras revueltas",
-          "nl": "woordpuzzel",
-          "it": "anagrammi",
-          "fr": "lettres mélangées",
-          "pt": "letras embaralhadas",
-          "sv": "bokstavspussel",
-          "da": "bogstavpuslespil",
-          "no": "bokstavspill",
-          "fi": "kirjainsekoitus"
+          "es": "Letras Revueltas",
+          "nl": "Woordpuzzel",
+          "it": "Anagrammi",
+          "fr": "Lettres Mélangées",
+          "pt": "Letras Embaralhadas",
+          "sv": "Bokstavspussel",
+          "da": "Bogstavpuslespil",
+          "no": "Bokstavspill",
+          "fi": "Kirjainsekoitus"
         }
       },
       "wordsearch": {
@@ -792,17 +792,17 @@
           "fi": "sanahaku"
         },
         "name": {
-          "en": "word search",
+          "en": "Word Search",
           "de": "Wortsuche",
-          "es": "sopa de letras",
-          "nl": "woordzoeker",
-          "it": "cerca parole",
-          "fr": "mots mêlés",
-          "pt": "caça-palavras",
-          "sv": "ordleta",
-          "da": "ordsøgning",
-          "no": "ordleting",
-          "fi": "sanahaku"
+          "es": "Sopa De Letras",
+          "nl": "Woordzoeker",
+          "it": "Cerca Parole",
+          "fr": "Mots Mêlés",
+          "pt": "Caça-palavras",
+          "sv": "Ordleta",
+          "da": "Ordsøgning",
+          "no": "Ordleting",
+          "fi": "Sanahaku"
         }
       },
       "crossword": {
@@ -820,17 +820,17 @@
           "fi": "ristikko"
         },
         "name": {
-          "en": "crossword",
+          "en": "Crossword",
           "de": "Kreuzworträtsel",
-          "es": "crucigrama",
-          "nl": "kruiswoordraadsel",
-          "it": "cruciverba",
-          "fr": "mots croisés",
-          "pt": "palavras cruzadas",
-          "sv": "korsord",
-          "da": "krydsord",
-          "no": "kryssord",
-          "fi": "ristikko"
+          "es": "Crucigrama",
+          "nl": "Kruiswoordraadsel",
+          "it": "Cruciverba",
+          "fr": "Mots Croisés",
+          "pt": "Palavras Cruzadas",
+          "sv": "Korsord",
+          "da": "Krydsord",
+          "no": "Kryssord",
+          "fi": "Ristikko"
         }
       },
       "find-and-count": {
@@ -848,17 +848,17 @@
           "fi": "etsi-ja-laske"
         },
         "name": {
-          "en": "find and count",
-          "de": "Suchen und zählen",
-          "es": "busca y cuenta",
-          "nl": "zoek en tel",
-          "it": "trova e conta",
-          "fr": "trouve et compte",
-          "pt": "encontre e conte",
-          "sv": "hitta och räkna",
-          "da": "find og tæl",
-          "no": "finn og tell",
-          "fi": "etsi ja laske"
+          "en": "Find And Count",
+          "de": "Suchen Und Zählen",
+          "es": "Busca Y Cuenta",
+          "nl": "Zoek En Tel",
+          "it": "Trova E Conta",
+          "fr": "Trouve Et Compte",
+          "pt": "Encontre E Conte",
+          "sv": "Hitta Och Räkna",
+          "da": "Find Og Tæl",
+          "no": "Finn Og Tell",
+          "fi": "Etsi Ja Laske"
         }
       },
       "find-objects": {
@@ -876,17 +876,17 @@
           "fi": "etsi-esineet"
         },
         "name": {
-          "en": "find objects",
-          "de": "Objekte finden",
-          "es": "encuentra los objetos",
-          "nl": "objecten zoeken",
-          "it": "trova gli oggetti",
-          "fr": "trouve les objets",
-          "pt": "encontre os objetos",
-          "sv": "hitta föremålen",
-          "da": "find genstandene",
-          "no": "finn objektene",
-          "fi": "etsi esineet"
+          "en": "Find Objects",
+          "de": "Objekte Finden",
+          "es": "Encuentra Los Objetos",
+          "nl": "Objecten Zoeken",
+          "it": "Trova Gli Oggetti",
+          "fr": "Trouve Les Objets",
+          "pt": "Encontre Os Objetos",
+          "sv": "Hitta Föremålen",
+          "da": "Find Genstandene",
+          "no": "Finn Objektene",
+          "fi": "Etsi Esineet"
         }
       },
       "treasure-hunt": {
@@ -904,17 +904,17 @@
           "fi": "aarteenetsinta"
         },
         "name": {
-          "en": "treasure hunt",
+          "en": "Treasure Hunt",
           "de": "Schatzsuche",
-          "es": "búsqueda del tesoro",
-          "nl": "schatzoektocht",
-          "it": "caccia al tesoro",
-          "fr": "chasse au trésor",
-          "pt": "caça ao tesouro",
-          "sv": "skattjakt",
-          "da": "skattejagt",
-          "no": "skattejakt",
-          "fi": "aarteenetsintä"
+          "es": "Búsqueda Del Tesoro",
+          "nl": "Schatzoektocht",
+          "it": "Caccia Al Tesoro",
+          "fr": "Chasse Au Trésor",
+          "pt": "Caça Ao Tesouro",
+          "sv": "Skattjakt",
+          "da": "Skattejagt",
+          "no": "Skattejakt",
+          "fi": "Aarteenetsintä"
         }
       },
       "missing-pieces": {
@@ -932,17 +932,17 @@
           "fi": "puuttuvat-palat"
         },
         "name": {
-          "en": "missing pieces",
-          "de": "Was fehlt",
-          "es": "piezas faltantes",
-          "nl": "ontbrekende stukken",
-          "it": "pezzi mancanti",
-          "fr": "pièces manquantes",
-          "pt": "peças faltantes",
-          "sv": "saknade bitar",
-          "da": "manglende brikker",
-          "no": "manglende brikker",
-          "fi": "puuttuvat palat"
+          "en": "Missing Pieces",
+          "de": "Was Fehlt",
+          "es": "Piezas Faltantes",
+          "nl": "Ontbrekende Stukken",
+          "it": "Pezzi Mancanti",
+          "fr": "Pièces Manquantes",
+          "pt": "Peças Faltantes",
+          "sv": "Saknade Bitar",
+          "da": "Manglende Brikker",
+          "no": "Manglende Brikker",
+          "fi": "Puuttuvat Palat"
         }
       },
       "odd-one-out": {
@@ -960,17 +960,17 @@
           "fi": "mika-ei-kuulu"
         },
         "name": {
-          "en": "odd one out",
-          "de": "Was passt nicht",
-          "es": "el intruso",
-          "nl": "welke hoort er niet thuis",
-          "it": "l'intruso",
-          "fr": "l'intrus",
-          "pt": "qual é diferente",
-          "sv": "vilken passar inte",
-          "da": "hvilken passer ikke",
-          "no": "hvilken passer ikke",
-          "fi": "mikä ei kuulu joukkoon"
+          "en": "Odd One Out",
+          "de": "Was Passt Nicht",
+          "es": "El Intruso",
+          "nl": "Welke Hoort Er Niet Thuis",
+          "it": "L'intruso",
+          "fr": "L'intrus",
+          "pt": "Qual É Diferente",
+          "sv": "Vilken Passar Inte",
+          "da": "Hvilken Passer Ikke",
+          "no": "Hvilken Passer Ikke",
+          "fi": "Mikä Ei Kuulu Joukkoon"
         }
       }
     },

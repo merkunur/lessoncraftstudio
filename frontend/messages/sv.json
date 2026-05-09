@@ -1060,6 +1060,12 @@
       "grade_1": "Årskurs 1",
       "grade_2": "Årskurs 2",
       "grade_3": "Årskurs 3"
+    },
+    "words": {
+      "worksheet": "Övningsblad",
+      "free_interactive": "Gratis interaktivt",
+      "for": "för",
+      "print_or_play_online": "Skriv ut eller spela online"
     }
   },
   "endDeck": {

@@ -1057,6 +1057,12 @@
       "grade_1": "1. klasse",
       "grade_2": "2. klasse",
       "grade_3": "3. klasse"
+    },
+    "words": {
+      "worksheet": "Opgaveark",
+      "free_interactive": "Gratis interaktivt",
+      "for": "til",
+      "print_or_play_online": "Udskriv eller spil online"
     }
   },
   "endDeck": {

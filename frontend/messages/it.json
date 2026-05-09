@@ -1070,6 +1070,12 @@
       "grade_1": "Prima elementare",
       "grade_2": "Seconda elementare",
       "grade_3": "Terza elementare"
+    },
+    "words": {
+      "worksheet": "Scheda di esercizi",
+      "free_interactive": "Scheda interattiva gratuita",
+      "for": "per",
+      "print_or_play_online": "Stampa o gioca online"
     }
   },
   "endDeck": {

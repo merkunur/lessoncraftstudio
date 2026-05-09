@@ -1391,6 +1391,13 @@
             const title = defaults.title;
             const description = defaults.description;
 
+            // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2 — cache localized title +
+            // instruction on the canvas so extractDeckBundle can include them.
+            if (canvas) {
+                canvas.lcsLocalizedTitle = title;
+                canvas.lcsLocalizedInstruction = description;
+            }
+
             // Get current canvas dimensions for responsive design
             const pageWidth = currentCanvasConfig.width;
             const pageHeight = currentCanvasConfig.height;
@@ -4041,6 +4048,39 @@
             var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
                 ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
+            // SEO inputs for the deck.html surface (Brief A §4)
+            var _t = (typeof t === 'function') ? t : function(k){return null;};
+            var seoMeta = {
+                exerciseTypeSlug: 'word-scramble',
+                exerciseTypeName: canvas.lcsLocalizedTitle || 'Word Scramble Practice',
+                themeName: (window.LCSCatalogExport && window.LCSCatalogExport.deriveThemeName)
+                    ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('themeSelect'), customMode: (typeof customWordListMode !== 'undefined' && customWordListMode === true) })
+                    : null,
+                instruction: canvas.lcsLocalizedInstruction || '',
+                worksheetWord: _t('worksheet') || 'Worksheet',
+                freeInteractive: _t('seoFreeInteractive') || 'Free interactive',
+                forWord: _t('seoFor') || 'for',
+                printOrPlay: _t('seoPrintOrPlayOnline') || 'Print or play online'
+            };
+
+            // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2 — path-(b) origin trace
+            var deckLocale = (window.currentLocale || (typeof languageSelect !== 'undefined' && languageSelect && languageSelect.value) || 'en');
+            var seoTrace = (window.LCSCatalogExport && LCSCatalogExport.buildSeoTrace)
+                ? LCSCatalogExport.buildSeoTrace({
+                    locale: deckLocale,
+                    translations: window.translations || {},
+                    exerciseTypeName: seoMeta.exerciseTypeName,
+                    themeName: seoMeta.themeName,
+                    instruction: seoMeta.instruction,
+                    keys: {
+                        worksheet: 'worksheet',
+                        freeInteractive: 'seoFreeInteractive',
+                        forWord: 'seoFor',
+                        printOrPlay: 'seoPrintOrPlayOnline'
+                    }
+                })
+                : null;
+
             return {
                 bundleVersion: '14.1.1',
                 schemaFormat: 'image-references-v2',
@@ -4079,11 +4119,8 @@
                         scrambledWords: Array.isArray(puzzle.scrambledWords) ? puzzle.scrambledWords.slice() : []
                     };
                 }).filter(Boolean),
-                seoMeta: {
-                    themeName: (window.LCSCatalogExport && window.LCSCatalogExport.deriveThemeName)
-                        ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('themeSelect'), customMode: (typeof customWordListMode !== 'undefined' && customWordListMode === true) })
-                        : null
-                },
+                seoMeta: seoMeta,
+                seoTrace: seoTrace,
                 attribution: attributionRect ? {
                     text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
                     url: (window.LCSAttribution && LCSAttribution.URL) || 'https://lessoncraftstudio.com',
@@ -4695,15 +4732,13 @@
             var previousLabel = ui.exportToCatalogBtn.textContent;
             ui.exportToCatalogBtn.textContent = (typeof t === 'function' && t('exportingToCatalog')) || 'Exporting…';
             try {
-                var cachedBundle = null;
-                var getBundle = async function () {
-                    if (!cachedBundle) {
-                        cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline' });
-                    }
-                    return cachedBundle;
-                };
+                // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2: pre-build bundle so
+                // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
+                var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline' });
+                var getBundle = async function () { return cachedBundle; };
                 // Commission ε emit-site fix: difficulty radio drives mode (0=no-clues null default vs 2=easy / 4=normal / 6=tough).
                 var manifestMeta = buildCatalogManifestSettings();
+                manifestMeta.seo_trace = cachedBundle && cachedBundle.seoTrace ? cachedBundle.seoTrace : null;
                 var diffEl = document.querySelector('input[name="difficulty"]:checked');
                 var difficulty = diffEl ? parseInt(diffEl.value, 10) : 0;
                 var difficultyMap = { 2: 'easy', 4: 'normal', 6: 'tough' };

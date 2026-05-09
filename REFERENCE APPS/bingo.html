@@ -1823,6 +1823,13 @@
           const title = defaultTitles[currentLang] || defaultTitles.en;
           const description = defaultDescriptions[currentLang] || defaultDescriptions.en;
 
+          // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2 — cache localized title +
+          // instruction on the canvas so extractDeckBundle can include them.
+          if (canvas) {
+              canvas.lcsLocalizedTitle = title;
+              canvas.lcsLocalizedInstruction = description;
+          }
+
           const objects = [];
 
           // Picture Bingo specific colors - playful, energetic game theme
@@ -3084,6 +3091,39 @@
               console.warn('[bingo v24.4.0] chip image cropping failed:', e);
           }
 
+          // SEO inputs for the deck.html surface (Brief A §4)
+          var _t = (typeof t === 'function') ? t : function(k){return null;};
+          var seoMeta = {
+              exerciseTypeSlug: 'bingo',
+              exerciseTypeName: canvas.lcsLocalizedTitle || 'Picture Bingo',
+              themeName: (window.LCSCatalogExport && window.LCSCatalogExport.deriveThemeName)
+                  ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('themeSelect') })
+                  : null,
+              instruction: canvas.lcsLocalizedInstruction || '',
+              worksheetWord: _t('worksheet') || 'Worksheet',
+              freeInteractive: _t('seoFreeInteractive') || 'Free interactive',
+              forWord: _t('seoFor') || 'for',
+              printOrPlay: _t('seoPrintOrPlayOnline') || 'Print or play online'
+          };
+
+          // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2 — path-(b) origin trace
+          var deckLocale = (window.currentLocale || (typeof languageSelect !== 'undefined' && languageSelect && languageSelect.value) || 'en');
+          var seoTrace = (window.LCSCatalogExport && LCSCatalogExport.buildSeoTrace)
+              ? LCSCatalogExport.buildSeoTrace({
+                  locale: deckLocale,
+                  translations: window.translations || {},
+                  exerciseTypeName: seoMeta.exerciseTypeName,
+                  themeName: seoMeta.themeName,
+                  instruction: seoMeta.instruction,
+                  keys: {
+                      worksheet: 'worksheet',
+                      freeInteractive: 'seoFreeInteractive',
+                      forWord: 'seoFor',
+                      printOrPlay: 'seoPrintOrPlayOnline'
+                  }
+              })
+              : null;
+
           return {
               bundleVersion: '24.4.0',
               schemaFormat: 'image-references-v3',
@@ -3098,11 +3138,8 @@
               gridCells: gridCells,
               chips: chipsWithImages,
               imageRefs: {},
-              seoMeta: {
-                  themeName: (window.LCSCatalogExport && window.LCSCatalogExport.deriveThemeName)
-                      ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('themeSelect') })
-                      : null
-              },
+              seoMeta: seoMeta,
+              seoTrace: seoTrace,
               attribution: attributionRect ? {
                   text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
                   url: (window.LCSAttribution && LCSAttribution.URL) || 'https://lessoncraftstudio.com',
@@ -3861,15 +3898,13 @@
           var previousLabel = exportToCatalogBtn.textContent;
           exportToCatalogBtn.textContent = 'Exporting…';
           try {
-              var cachedBundle = null;
-              var getBundle = async function () {
-                  if (!cachedBundle) {
-                      cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline' });
-                  }
-                  return cachedBundle;
-              };
+              // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2: pre-build bundle so
+              // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
+              var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline' });
+              var getBundle = async function () { return cachedBundle; };
               // Commission ε emit-site fix: card_fill drives mode (image=null default vs word).
               var manifestMeta = buildCatalogManifestSettings();
+              manifestMeta.seo_trace = cachedBundle && cachedBundle.seoTrace ? cachedBundle.seoTrace : null;
               var derivedExerciseMode = (manifestMeta.settings && manifestMeta.settings.card_fill === 'word')
                   ? 'word' : null;
               var result = await window.LCSCatalogExport.export({

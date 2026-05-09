@@ -4615,6 +4615,24 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             printOrPlay: _t('seoPrintOrPlayOnline') || 'Print or play online'
         };
 
+        // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2 — path-(b) origin trace
+        var deckLocale = (window.currentLocale || (typeof languageSelect !== 'undefined' && languageSelect && languageSelect.value) || 'en');
+        var seoTrace = (window.LCSCatalogExport && LCSCatalogExport.buildSeoTrace)
+            ? LCSCatalogExport.buildSeoTrace({
+                locale: deckLocale,
+                translations: window.translations || {},
+                exerciseTypeName: seoMeta.exerciseTypeName,
+                themeName: seoMeta.themeName,
+                instruction: seoMeta.instruction,
+                keys: {
+                    worksheet: 'worksheet',
+                    freeInteractive: 'seoFreeInteractive',
+                    forWord: 'seoFor',
+                    printOrPlay: 'seoPrintOrPlayOnline'
+                }
+            })
+            : null;
+
         return {
             bundleVersion: '15.1.0',
             schemaFormat: 'image-references-v2',
@@ -4624,6 +4642,7 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             contentLanguage: (window.currentLocale || 'en'),
             title: 'Word Search',
             seoMeta: seoMeta,
+            seoTrace: seoTrace,
             page: {
                 width: currentCanvasConfig.width,
                 height: currentCanvasConfig.height
@@ -5335,15 +5354,13 @@ async function downloadPDF(canvasToExport, fileName, opts) {
         var previousLabel = exportToCatalogBtn.textContent;
         exportToCatalogBtn.textContent = (typeof t === 'function' && t('exportingToCatalog')) || 'Exporting…';
         try {
-            var cachedBundle = null;
-            var getBundle = async function () {
-                if (!cachedBundle) {
-                    cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline' });
-                }
-                return cachedBundle;
-            };
+            // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2: pre-build bundle so
+            // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
+            var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline' });
+            var getBundle = async function () { return cachedBundle; };
             // Commission ε emit-site fix: showOnlyImages/showOnlyWords drives mode (both unchecked=mixed null default vs image-only / word-only).
             var manifestMeta = buildCatalogManifestSettings();
+            manifestMeta.seo_trace = cachedBundle && cachedBundle.seoTrace ? cachedBundle.seoTrace : null;
             var showImages = (document.getElementById('showOnlyImages') || {}).checked;
             var showWords = (document.getElementById('showOnlyWords') || {}).checked;
             var derivedExerciseMode = showImages ? 'image-only' : (showWords ? 'word-only' : null);

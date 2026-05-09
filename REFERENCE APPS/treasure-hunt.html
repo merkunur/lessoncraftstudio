@@ -3485,6 +3485,24 @@
               printOrPlay: _t('seoPrintOrPlayOnline') || 'Print or play online'
           };
 
+          // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2 — path-(b) origin trace
+          var deckLocale = (window.currentLocale || (typeof languageSelect !== 'undefined' && languageSelect && languageSelect.value) || 'en');
+          var seoTrace = (window.LCSCatalogExport && LCSCatalogExport.buildSeoTrace)
+              ? LCSCatalogExport.buildSeoTrace({
+                  locale: deckLocale,
+                  translations: window.translations || {},
+                  exerciseTypeName: seoMeta.exerciseTypeName,
+                  themeName: seoMeta.themeName,
+                  instruction: seoMeta.instruction,
+                  keys: {
+                      worksheet: 'worksheet',
+                      freeInteractive: 'seoFreeInteractive',
+                      forWord: 'seoFor',
+                      printOrPlay: 'seoPrintOrPlayOnline'
+                  }
+              })
+              : null;
+
           return {
               bundleVersion: '32.0.1',
               schemaFormat: 'image-references-v3',
@@ -3493,6 +3511,7 @@
               contentLanguage: (window.currentLocale || 'en'),
               title: 'Treasure Hunt',
               seoMeta: seoMeta,
+              seoTrace: seoTrace,
               page: { width: currentCanvasConfig.width, height: currentCanvasConfig.height },
               worksheetImage: worksheetImage,
               scoring: 'strict-path',
@@ -4105,15 +4124,13 @@
           var previousLabel = exportToCatalogBtn.textContent;
           exportToCatalogBtn.textContent = (typeof t === 'function' && t('exportingToCatalog')) || 'Exporting…';
           try {
-              var cachedBundle = null;
-              var getBundle = async function () {
-                  if (!cachedBundle) {
-                      cachedBundle = await extractDeckBundle(worksheetCanvas);
-                  }
-                  return cachedBundle;
-              };
+              // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2: pre-build bundle so
+              // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
+              var cachedBundle = await extractDeckBundle(worksheetCanvas);
+              var getBundle = async function () { return cachedBundle; };
               // Commission ε emit-site fix: directionTypeSelect drives mode (basic=null default vs cardinal=compass).
               var manifestMeta = buildCatalogManifestSettings();
+              manifestMeta.seo_trace = cachedBundle && cachedBundle.seoTrace ? cachedBundle.seoTrace : null;
               var dirType = (document.getElementById('directionTypeSelect') || {}).value;
               var derivedExerciseMode = dirType === 'cardinal' ? 'compass' : null;
               var result = await window.LCSCatalogExport.export({

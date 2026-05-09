@@ -2042,6 +2042,13 @@
             const title = defaults.title;
             const description = defaults.description;
 
+            // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2 — cache localized title +
+            // instruction on the canvas so extractDeckBundle can include them.
+            if (canvas) {
+                canvas.lcsLocalizedTitle = title;
+                canvas.lcsLocalizedInstruction = description;
+            }
+
             // Get current canvas dimensions for responsive design
             const pageWidth = currentCanvasConfig.width;
             const pageHeight = currentCanvasConfig.height;
@@ -4656,6 +4663,39 @@ async function downloadPDF(canvasInstance, baseFileName, opts) {
             var attributionRect = (window.LCSAttribution && LCSAttribution.getRectFromCanvas)
                 ? LCSAttribution.getRectFromCanvas(canvas) : null;
 
+            // SEO inputs for the deck.html surface (Brief A §4)
+            var _t = (typeof t === 'function') ? t : function(k){return null;};
+            var seoMeta = {
+                exerciseTypeSlug: 'code-addition',
+                exerciseTypeName: canvas.lcsLocalizedTitle || 'Code Addition Practice',
+                themeName: (window.LCSCatalogExport && window.LCSCatalogExport.deriveThemeName)
+                    ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('themeSelect') })
+                    : null,
+                instruction: canvas.lcsLocalizedInstruction || '',
+                worksheetWord: _t('worksheet') || 'Worksheet',
+                freeInteractive: _t('seoFreeInteractive') || 'Free interactive',
+                forWord: _t('seoFor') || 'for',
+                printOrPlay: _t('seoPrintOrPlayOnline') || 'Print or play online'
+            };
+
+            // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2 — path-(b) origin trace
+            var deckLocale = (window.currentLocale || (typeof languageSelect !== 'undefined' && languageSelect && languageSelect.value) || 'en');
+            var seoTrace = (window.LCSCatalogExport && LCSCatalogExport.buildSeoTrace)
+                ? LCSCatalogExport.buildSeoTrace({
+                    locale: deckLocale,
+                    translations: window.translations || {},
+                    exerciseTypeName: seoMeta.exerciseTypeName,
+                    themeName: seoMeta.themeName,
+                    instruction: seoMeta.instruction,
+                    keys: {
+                        worksheet: 'worksheet',
+                        freeInteractive: 'seoFreeInteractive',
+                        forWord: 'seoFor',
+                        printOrPlay: 'seoPrintOrPlayOnline'
+                    }
+                })
+                : null;
+
             return {
                 bundleVersion: '6.1.0',
                 schemaFormat: 'image-references-v2',
@@ -4672,11 +4712,8 @@ async function downloadPDF(canvasInstance, baseFileName, opts) {
                 },
                 worksheetImage: worksheetImage,
                 slots: slots,
-                seoMeta: {
-                    themeName: (window.LCSCatalogExport && window.LCSCatalogExport.deriveThemeName)
-                        ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('themeSelect') })
-                        : null
-                },
+                seoMeta: seoMeta,
+                seoTrace: seoTrace,
                 attribution: attributionRect ? {
                     text: (window.LCSAttribution && LCSAttribution.TEXT) || 'Made with LessonCraftStudio.com',
                     url: (window.LCSAttribution && LCSAttribution.URL) || 'https://lessoncraftstudio.com',
@@ -5312,13 +5349,10 @@ async function downloadPDF(canvasInstance, baseFileName, opts) {
             var previousLabel = exportToCatalogBtn.textContent;
             exportToCatalogBtn.textContent = (typeof t === 'function' && t('exportingToCatalog')) || 'Exporting…';
             try {
-                var cachedBundle = null;
-                var getBundle = async function () {
-                    if (!cachedBundle) {
-                        cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline' });
-                    }
-                    return cachedBundle;
-                };
+                // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2: pre-build bundle so
+                // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
+                var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline' });
+                var getBundle = async function () { return cachedBundle; };
                 // Derive exerciseMode from the manifest's word_reveal_mode signal
                 // per the 2-mode contract locked at 0f0c648d (rewrite-manifest-
                 // exercise-mode.js). Standard mode → null; secret-word-finding
@@ -5327,6 +5361,7 @@ async function downloadPDF(canvasInstance, baseFileName, opts) {
                 // (operator adjudication post-recon). Closes the v6.0.0 emit-defect
                 // where exerciseMode was hardcoded null regardless of authoring mode.
                 var manifestMeta = buildCatalogManifestSettings();
+                manifestMeta.seo_trace = cachedBundle && cachedBundle.seoTrace ? cachedBundle.seoTrace : null;
                 var derivedExerciseMode = (manifestMeta.settings && manifestMeta.settings.word_reveal_mode === true)
                     ? 'secret-word'
                     : null;

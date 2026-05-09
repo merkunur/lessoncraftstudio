@@ -147,7 +147,31 @@ git pull
 # 2. Navigate to frontend
 cd frontend
 
-# 3. Build the application
+# 3. Refresh Prisma client against any schema changes pulled in
+#
+# [ARC][SEO][DECK-PAGE] Phase 4a Checkpoint 2 fix per Adjudication 1 (α):
+# `prisma generate` MUST run after `git pull` to refresh the Prisma client
+# against any schema changes pulled in. Without this step, Prisma client
+# consumers (publish-cli/db.js, frontend/lib/prisma.ts) silently fail with
+# "Unknown argument" errors when accessing schema-migration-introduced
+# columns (e.g., titleHash + descriptionHash from migration
+# 20260509083000_add_seo_hash_columns).
+#
+# Phase 4a Checkpoint 1 reference retrofit surfaced this empirically: the
+# DB row was found via findExistingBySlug, but deck.update({titleHash,
+# descriptionHash}) failed with stale-client errors until manual
+# `npx prisma generate` ran on Hetzner. See §A.5.1 doctrine for the
+# parallel `prisma migrate deploy` two-step requirement.
+#
+# Phase 6 fold-cycle: §A.5.1 doctrinal extension absorbs this as TWO-STEP
+# → THREE-STEP: deploy.sh now runs `prisma generate` automatically; only
+# `prisma migrate deploy` remains manual (per §A.5.1's existing prose).
+echo ""
+echo "🔧 Generating Prisma client..."
+npx prisma generate || { echo "ERROR: prisma generate failed"; exit 1; }
+echo "✅ Prisma client regenerated"
+
+# 4. Build the application
 # NOTE: Samples are in /var/www/lcs-media/samples/ - completely isolated
 # No symlinks needed - nginx serves samples directly
 # CRITICAL: Remove stale .next/standalone BEFORE building.

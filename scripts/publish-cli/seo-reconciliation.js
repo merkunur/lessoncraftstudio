@@ -709,6 +709,37 @@ async function reconcileInboundLinkSurface(opts) {
   var deckId = (opts && opts.deckId) || null;
   var app = (opts && opts.app) || null;
 
+  // §15.18.2 Item 13 resolution path A: skip-on-INSERT predicate bypass.
+  // Pre-publish dry-run + INSERT real-mode: deck doesn't exist in DB →
+  // countInboundFn's findUnique({where: {id: manifest.deck_id}}) returns null
+  // → count=0 → predicate halts. Predicate semantics meaningful only at
+  // post-publish (UPDATE path or live-catalog audit). INSERT-path skip is the
+  // structural fix — the deck is about to exist; counting its inbound surfaces
+  // pre-INSERT is incoherent. Closes Phase 6 fold-queue Item 13.
+  //
+  // Detection:
+  //   - opts.thisDeckIdRaw === null (orchestrator preserved-null path): INSERT
+  //   - opts.thisDeckId === null AND opts.thisDeckIdRaw === undefined (direct
+  //     predicate call without orchestrator): also INSERT
+  //
+  // NOTE: UPDATE-path lookup-correction follow-on — when opts.thisDeckId is a
+  // valid Prisma CUID, predicate should call countInboundFn(thisDeckId, ...)
+  // not countInboundFn(manifest.deck_id, ...). manifest.deck_id is operator-
+  // space; Deck.id is Prisma CUID. Defer to follow-on commission per §15.18.2.
+  var isInsertPath = opts && (
+    opts.thisDeckIdRaw === null ||
+    (opts.thisDeckId == null && typeof opts.thisDeckIdRaw === 'undefined')
+  );
+  if (isInsertPath) {
+    return {
+      category: 'CLEAN',
+      noop: 'insert-path-skip',
+      note: 'INSERT-path skip per §15.18.2 Item 13 resolution path A',
+      deckId: deckId,
+      app: app
+    };
+  }
+
   // Checkpoint 1: helper not yet shipped. If caller provides opts.countInboundFn
   // (Checkpoint 2 wire-in), use it; otherwise return CLEAN with stub flag.
   if (opts && typeof opts.countInboundFn === 'function') {
@@ -789,8 +820,16 @@ async function reconcileDeckPageSEO(opts) {
   var descMatch = /<meta\s+name="description"\s+content="([^"]+)"/i.exec(substitutedHtml);
   var renderedDescription = descMatch ? descMatch[1] : '';
 
+  // §15.18.2 Item 13 resolution: separate semantics —
+  //   - thisDeckIdForUniqueness: opts.thisDeckId || deckId (uniqueness predicates'
+  //     self-exclusion lookup; needs SOMETHING non-null to identify self)
+  //   - thisDeckIdRaw: opts.thisDeckId (preserves null on INSERT path for
+  //     skip-on-INSERT detection at reconcileInboundLinkSurface)
+  // The earlier collapsed `thisDeckId: opts.thisDeckId || deckId` field obscured
+  // INSERT vs UPDATE distinction at the inbound predicate.
   var predicateOpts = {
-    thisDeckId: opts.thisDeckId || deckId,
+    thisDeckId: opts.thisDeckId || deckId,                  // for uniqueness predicates
+    thisDeckIdRaw: opts.thisDeckId == null ? null : opts.thisDeckId,  // preserved-null for inbound predicate
     findExistingByTitleHash: opts.findExistingByTitleHash,
     findExistingByDescriptionHash: opts.findExistingByDescriptionHash,
     countInboundFn: opts.countInboundFn,

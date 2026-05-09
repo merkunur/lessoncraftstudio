@@ -447,16 +447,44 @@ console.log('\nreconcileInboundLinkSurface (Checkpoint 1 stub):');
 test('CLEAN with noop:true when countInboundFn not provided (stub mode)', async function () {
   var result = await seoRecon.reconcileInboundLinkSurface({
     deckId: 'test-deck-001',
-    language: 'en'
+    language: 'en',
+    thisDeckId: 'cml-existing-cuid' // UPDATE path so skip-on-INSERT doesn't fire
   });
   assert.strictEqual(result.category, 'CLEAN');
   assert.strictEqual(result.noop, true);
 });
 
-test('INBOUND_LINK_COUNT_BELOW_TARGET when count < 3 (with helper)', async function () {
+test('§15.18.2 Item 13 resolution: skip-on-INSERT when thisDeckId is null (Phase 6 fold-cycle close)', async function () {
+  var result = await seoRecon.reconcileInboundLinkSurface({
+    deckId: 'manifest-deck-id-operator-space',
+    language: 'en',
+    thisDeckId: null,  // INSERT path
+    countInboundFn: async function () { return { count: 0, perSurface: {} }; }, // would halt without skip
+    target: 3,
+    haltClass: true
+  });
+  assert.strictEqual(result.category, 'CLEAN');
+  assert.strictEqual(result.noop, 'insert-path-skip');
+});
+
+test('§15.18.2 Item 13 resolution: skip-on-INSERT also applies when thisDeckId undefined', async function () {
+  var result = await seoRecon.reconcileInboundLinkSurface({
+    deckId: 'manifest-deck-id-operator-space',
+    language: 'en',
+    // thisDeckId omitted (undefined)
+    countInboundFn: async function () { return { count: 0, perSurface: {} }; },
+    target: 3,
+    haltClass: true
+  });
+  assert.strictEqual(result.category, 'CLEAN');
+  assert.strictEqual(result.noop, 'insert-path-skip');
+});
+
+test('INBOUND_LINK_COUNT_BELOW_TARGET when count < 3 (with helper, UPDATE path)', async function () {
   var result = await seoRecon.reconcileInboundLinkSurface({
     deckId: 'test-deck-001',
     language: 'en',
+    thisDeckId: 'cml-existing-cuid',  // UPDATE path triggers real predicate
     countInboundFn: async function () { return { count: 1, perSurface: { topic: true } }; },
     target: 3
   });
@@ -465,12 +493,13 @@ test('INBOUND_LINK_COUNT_BELOW_TARGET when count < 3 (with helper)', async funct
   assert.strictEqual(result.warnClass, true); // pre-Phase-5 default (haltClass=undefined)
 });
 
-test('INBOUND_LINK_COUNT_BELOW_TARGET escalates to halt at orchestrator when haltClass=true (Phase 5 post-flip)', async function () {
+test('INBOUND_LINK_COUNT_BELOW_TARGET escalates to halt at orchestrator when haltClass=true (Phase 5 post-flip; UPDATE path)', async function () {
   var html = deckHtmlFixture();
   var result = await seoRecon.reconcileDeckPageSEO({
     manifest: manifestFixture(),
     substitutedHtml: html,
     slug: 'sudoku',
+    thisDeckId: 'cml-existing-cuid',  // UPDATE path triggers real predicate (post-Item-13 fix)
     findExistingByTitleHash: async function () { return null; },
     findExistingByDescriptionHash: async function () { return null; },
     countInboundFn: async function () { return { count: 1, perSurface: { topic: true } }; },
@@ -478,15 +507,16 @@ test('INBOUND_LINK_COUNT_BELOW_TARGET escalates to halt at orchestrator when hal
     haltClass: true  // Phase 5 close: WARN→HALT predicate flip
   });
   assert.strictEqual(result.overall, 'HALT');
-  assert.ok(result.haltCategories.indexOf('INBOUND_LINK_COUNT_BELOW_TARGET') !== -1, 'INBOUND should be in halt categories when haltClass=true');
+  assert.ok(result.haltCategories.indexOf('INBOUND_LINK_COUNT_BELOW_TARGET') !== -1, 'INBOUND should be in halt categories when haltClass=true on UPDATE path');
 });
 
-test('INBOUND_LINK_COUNT_BELOW_TARGET stays warn when haltClass=false (pre-Phase-5)', async function () {
+test('INBOUND_LINK_COUNT_BELOW_TARGET stays warn when haltClass=false (pre-Phase-5; UPDATE path)', async function () {
   var html = deckHtmlFixture();
   var result = await seoRecon.reconcileDeckPageSEO({
     manifest: manifestFixture(),
     substitutedHtml: html,
     slug: 'sudoku',
+    thisDeckId: 'cml-existing-cuid',
     findExistingByTitleHash: async function () { return null; },
     findExistingByDescriptionHash: async function () { return null; },
     countInboundFn: async function () { return { count: 1, perSurface: { topic: true } }; },
@@ -496,6 +526,25 @@ test('INBOUND_LINK_COUNT_BELOW_TARGET stays warn when haltClass=false (pre-Phase
   assert.strictEqual(result.overall, 'WARN');
   assert.ok(result.warnCategories.indexOf('INBOUND_LINK_COUNT_BELOW_TARGET') !== -1);
   assert.strictEqual(result.haltCategories.indexOf('INBOUND_LINK_COUNT_BELOW_TARGET'), -1);
+});
+
+test('§15.18.2 Item 13 close: orchestrator skips INBOUND on INSERT path (this is the publish-bulk path for new decks)', async function () {
+  var html = deckHtmlFixture();
+  var result = await seoRecon.reconcileDeckPageSEO({
+    manifest: manifestFixture(),
+    substitutedHtml: html,
+    slug: 'sudoku',
+    // thisDeckId NOT provided (INSERT path)
+    findExistingByTitleHash: async function () { return null; },
+    findExistingByDescriptionHash: async function () { return null; },
+    countInboundFn: async function () { return { count: 0, perSurface: {} }; }, // would halt without skip
+    target: 3,
+    haltClass: true
+  });
+  assert.strictEqual(result.overall, 'CLEAN');
+  assert.strictEqual(result.haltCategories.indexOf('INBOUND_LINK_COUNT_BELOW_TARGET'), -1);
+  assert.strictEqual(result.warnCategories.indexOf('INBOUND_LINK_COUNT_BELOW_TARGET'), -1);
+  // INBOUND is skipped, not present in halt or warn arrays
 });
 
 // =====================================================================

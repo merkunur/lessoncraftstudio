@@ -133,44 +133,106 @@ function processDeck(filePath, dryRun) {
   var appType = appMatch[1];
 
   if (!APP_TITLES[appType]) return { file: filePath, action: 'skip-unknown-app', appType: appType };
-
-  // Idempotency check: already has runtimeStrings?
-  if (html.indexOf('"runtimeStrings"') !== -1 || html.indexOf('runtimeStrings:') !== -1) {
-    // Hmm could be a substring elsewhere; check inside DECK_BUNDLE specifically
-    var bundleMatch = html.match(/var\s+DECK_BUNDLE\s*=\s*\{([\s\S]*?)\};\s*<\/script>/);
-    if (bundleMatch && bundleMatch[1].indexOf('"runtimeStrings"') !== -1) {
-      return { file: filePath, action: 'skip-already-retrofitted', locale: locale, app: appType };
-    }
-  }
+  // No global idempotency check — each transformation below is individually idempotent.
+  // Allows re-running to fix decks that got partial retrofit on prior pass.
 
   var rs = buildRuntimeStringsForDeck(locale, appType);
   var rsJson = JSON.stringify(rs);
 
-  // 1) Inject runtimeStrings into DECK_BUNDLE before closing brace
-  // Pattern: "contentLanguage":"<lang>", ... → add ,"runtimeStrings":{...} just before }; <-- end of DECK_BUNDLE
-  var beforeBundle = html;
-  // Find DECK_BUNDLE = { ... }; at script tag
+  // 1) Inject runtimeStrings into DECK_BUNDLE + update DECK_BUNDLE.title to localized.
+  //    Pattern: var DECK_BUNDLE = { ... };<\/script>
+  //    Operations: replace "title":"Addition Practice" (or whatever) -> "title":"<localized>";
+  //                append ,"runtimeStrings":{...} before the closing brace.
   var bundleRe = /(var\s+DECK_BUNDLE\s*=\s*\{)([\s\S]*?)(\}\s*;\s*<\/script>)/;
   if (!bundleRe.test(html)) return { file: filePath, action: 'skip-no-bundle' };
   html = html.replace(bundleRe, function (m, head, body, tail) {
-    // body ends with last key-value (no trailing comma typically). Append our key.
-    var trimmed = body.replace(/[,\s]*$/, '');
-    return head + trimmed + ',"runtimeStrings":' + rsJson + tail;
+    // Update DECK_BUNDLE.title to localized (idempotent — replaces any value)
+    body = body.replace(/("title"\s*:\s*")[^"]*(")/, '$1' + rs.title.replace(/"/g, '\\"') + '$2');
+    // Append runtimeStrings field if not already present
+    if (body.indexOf('"runtimeStrings"') === -1) {
+      var trimmed = body.replace(/[,\s]*$/, '');
+      body = trimmed + ',"runtimeStrings":' + rsJson;
+    }
+    return head + body + tail;
   });
 
   // 2) Replace hardcoded button text patterns in HTML
-  // Pattern: <button ... id="lcs-check" ...>Check Answers</button>
   var checkBtnRe = /(<button[^>]*id="lcs-check"[^>]*>)Check Answers(<\/button>)/g;
   html = html.replace(checkBtnRe, '$1' + escapeHtml(rs.checkAnswers) + '$2');
   var resetBtnRe = /(<button[^>]*id="lcs-reset"[^>]*>)Try Again(<\/button>)/g;
   html = html.replace(resetBtnRe, '$1' + escapeHtml(rs.tryAgain) + '$2');
 
-  // 3) Replace title strip if it contains the English title
-  // Pattern: id="lcs-title">English Title<
+  // 3) Replace title strip if it contains the English literal
   var enTitle = APP_TITLES[appType].en;
   if (enTitle) {
     var titleRe = new RegExp('(id="lcs-title"[^>]*>)' + enTitle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(<)', 'g');
     html = html.replace(titleRe, '$1' + escapeHtml(rs.title) + '$2');
+  }
+
+  // 4) Inject locale entry into STRINGS object inside the runtime so T() returns
+  //    localized strings for "You did it!" / "Do Another" / "Print my worksheet" / etc.
+  //    Pattern: var STRINGS={en:{...}};  -> add ,<locale>:{...}
+  //    The runtime's T() does STRINGS[loc] || STRINGS.en, so adding the locale
+  //    block makes T() pick localized first.
+  //    Idempotent: skip if `<locale>:{` already present in STRINGS scope.
+  var stringsScopeRe = new RegExp('var\\s+STRINGS\\s*=\\s*\\{[\\s\\S]{0,5000}?' + locale + '\\s*:\\s*\\{');
+  if (locale !== 'en' && !stringsScopeRe.test(html)) {
+    // Build per-locale entry mirroring the en object's KEYS but with our localized values.
+    // Match en{...} bracket-balanced from inside STRINGS={...}.
+    var stringsRe = /(var\s+STRINGS\s*=\s*\{)/;
+    var stringsMatch = stringsRe.exec(html);
+    if (stringsMatch) {
+      // Find en:{ position relative to STRINGS={
+      var afterStrings = html.indexOf('en:{', stringsMatch.index);
+      if (afterStrings !== -1 && afterStrings < stringsMatch.index + 100) {
+        // Walk en object to find its closing }
+        var enOpenBrace = html.indexOf('{', afterStrings);
+        var depth2 = 0, inStr2 = false, esc2 = false;
+        var enCloseIdx = -1;
+        for (var i2 = enOpenBrace; i2 < html.length && i2 < enOpenBrace + 5000; i2++) {
+          var c2 = html[i2];
+          if (esc2) { esc2 = false; continue; }
+          if (c2 === '\\') { esc2 = true; continue; }
+          if (c2 === '"') { inStr2 = !inStr2; continue; }
+          if (inStr2) continue;
+          if (c2 === '{') depth2++;
+          else if (c2 === '}') { depth2--; if (depth2 === 0) { enCloseIdx = i2; break; } }
+        }
+        if (enCloseIdx !== -1) {
+          // Build localized entry — match shape of en object's keys.
+          // Extract en object text to discover its keys + use rs values.
+          var enBody = html.slice(enOpenBrace + 1, enCloseIdx);
+          // Parse keys from en body (simple regex; values may contain {} but keys are plain identifiers)
+          var keyRe = /(\w+)\s*:/g;
+          var keyMatches;
+          var localeEntries = [];
+          while ((keyMatches = keyRe.exec(enBody)) !== null) {
+            var k = keyMatches[1];
+            // Check if this is a top-level key (depth 0 of enBody)
+            var prefix = enBody.slice(0, keyMatches.index);
+            var pdepth = 0, pstr = false, pesc = false;
+            for (var pi = 0; pi < prefix.length; pi++) {
+              var pc = prefix[pi];
+              if (pesc) { pesc = false; continue; }
+              if (pc === '\\') { pesc = true; continue; }
+              if (pc === '"') { pstr = !pstr; continue; }
+              if (pstr) continue;
+              if (pc === '{') pdepth++;
+              else if (pc === '}') pdepth--;
+            }
+            if (pdepth !== 0) continue;
+            // Map to rs value if present
+            if (Object.prototype.hasOwnProperty.call(rs, k)) {
+              localeEntries.push(k + ':' + JSON.stringify(rs[k]));
+            }
+          }
+          if (localeEntries.length > 0) {
+            var localeJsonEntry = ',' + locale + ':{' + localeEntries.join(',') + '}';
+            html = html.slice(0, enCloseIdx + 1) + localeJsonEntry + html.slice(enCloseIdx + 1);
+          }
+        }
+      }
+    }
   }
 
   if (dryRun) {

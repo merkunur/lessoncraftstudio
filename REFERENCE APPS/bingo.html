@@ -35,7 +35,7 @@
   <!-- Enhancement Scripts -->
   <script src="js/translations.js?v=1759320925"></script>
   <script src="js/translations-picture-bingo.js?v=runtime-title-1" onerror="console.error('Failed to load translations-picture-bingo.js')" onload="console.log('translations-picture-bingo.js loaded successfully')"></script>
-  <script src="js/translations-shared.js?v=6"></script>
+  <script src="js/translations-shared.js?v=7"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
 
   <!-- Define translation functions AFTER loading translations -->
@@ -3162,7 +3162,7 @@
               createdAt: new Date().toISOString(),
               contentLanguage: (window.currentLocale || 'en'),
                   runtimeStrings: runtimeStrings,
-              title: 'Picture Bingo',
+              title: runtimeStrings.title,
               page: { width: currentCanvasConfig.width, height: currentCanvasConfig.height },
               worksheetImage: worksheetImage,
               gridDims: pd.gridDims,

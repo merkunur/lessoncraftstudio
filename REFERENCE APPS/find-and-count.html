@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I Spy Worksheet Generator</title>
     <script src="js/translations-find-and-count-complete.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=6"></script>
+    <script src="js/translations-shared.js?v=7"></script>
     <script src="js/image-vocabulary.js?v=3"></script>
     <script src="js/bulletproof-loader.js"></script>
     <script src="js/unified-language-manager.js"></script>
@@ -4769,7 +4769,7 @@ async function downloadPDF(canvasToExport, filename, opts) {
             createdAt: new Date().toISOString(),
             contentLanguage: (window.currentLocale || 'en'),
                         runtimeStrings: runtimeStrings,
-            title: 'Find and Count',
+            title: runtimeStrings.title,
             page: { width: currentCanvasConfig.width, height: currentCanvasConfig.height },
             worksheetImage: worksheetImage,
             gridRect: gridRect,

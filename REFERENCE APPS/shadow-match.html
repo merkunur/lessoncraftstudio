@@ -10,7 +10,7 @@
   <meta name="robots" content="noindex, nofollow">
   <title data-translate="shadow.match.page.title">Shadow Match Worksheet Generator</title>
   <script src="js/translations-shadow-match.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=6"></script>
+    <script src="js/translations-shared.js?v=7"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
@@ -2605,7 +2605,7 @@
               createdAt: new Date().toISOString(),
               contentLanguage: (window.currentLocale || 'en'),
               runtimeStrings: runtimeStrings,
-              title: pd.mode === 'makeItWhole' ? 'Make It Whole' : 'Shadow Match',
+              title: runtimeStrings.title,
               page: { width: currentCanvasConfig.width, height: currentCanvasConfig.height },
               worksheetImage: worksheetImage,
               mode: pd.mode,

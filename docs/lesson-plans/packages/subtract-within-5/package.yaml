@@ -1,0 +1,235 @@
+# Teaching package — subtract within 5
+# Arc 14 Phase 4 (math / addition-subtraction +1 from Arc 12 baseline).
+# Resolves Arc 12 add-within-5 forward-pointer.
+
+targetSlug: subtract-within-5
+language: en
+title:
+  en: "Subtract Within 5 — taking away small numbers"
+description:
+  en: "Kindergarten / Grade 1 math package teaching kids to subtract numbers within 5 (5-3=2, 4-1=3, 3-2=1, etc.). Builds on Arc 12 add-within-5 + add-within-10 + add-within-20 addition foundation. RESOLVES Arc 12 add-within-5 forward-pointer ('next we extend numeracy work to subtraction within 5 + within 10'). Subtraction within 5 is the canonical K-1 entry point to subtraction: small enough numbers for finger-counting + concrete-manipulative work; takeaway concept introduced with explicit physical demonstrations. Pairs with subtract-within-10 (this Phase 4 sibling). Critical bridge from counting + addition to inverse-operation subtraction. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook + subtraction introduction. Teacher displays
+      5 cubes. "I have 5 cubes. If I TAKE AWAY 2 cubes, how many
+      are left?" Teacher removes 2 cubes physically; class counts
+      remaining: "3!" Teacher writes "5 - 2 = 3" on board.
+      Repeat with several small subtraction problems (4-1, 3-2,
+      5-3, 4-2). Subtraction = TAKING AWAY. Visual + tactile
+      anchor with physical manipulatives. "Subtraction is like
+      addition in reverse — instead of putting together, we take
+      away."
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + subtraction routine. Each pair receives a
+      worksheet with 6 subtraction problems (5-2, 4-1, 3-2, 5-3,
+      4-3, 5-1) plus countable manipulatives (small cubes or
+      counters). Pair takes turns: kid A reads problem; kid B
+      counts out the first number + removes the second number +
+      counts remaining. Recast errors with re-count ("you said
+      5-2=2. Let's recount: start with 5, take away 2 — 1, 2 —
+      that leaves 3. So 5-2=3.").
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: subtraction worksheet (cross-out
+      method: visual countable items with crossed-out cross-outs).
+      Station 2: matching worksheet (subtraction problem to
+      pictorial answer). Station 3: math-worksheet (vertical
+      subtraction format introduction; simple 5-3, 4-2 problems).
+      Station 4: vocabulary-tracing-strips for subtraction
+      vocabulary (minus, take away, subtract, equals, difference).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class subtraction review. Teacher presents 5 fast-paced
+      subtraction problems; class collectively answers using
+      fingers or mental math. "5-1? 4-2? 3-3? 5-4? 4-0?"
+      Forward-pointer: "Today we subtracted within 5. When we come
+      back next, we'll subtract within 10 — bigger numbers but
+      same TAKE AWAY idea — and later within 20 and beyond!"
+
+composedExercises:
+  - appName: subtraction
+    exerciseMode: cross-out
+    customizationParameters: { themeSelect: animals, languageSelect: en, maxNumber: 5 }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: math-worksheet
+    exerciseMode: vertical-subtraction
+    customizationParameters: { operationType: subtraction, maxNumber: 5, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: subtraction
+    exerciseMode: cross-out
+    customizationParameters: { themeSelect: foods, languageSelect: en, maxNumber: 5 }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: math-worksheet
+    exerciseMode: vertical-subtraction
+    customizationParameters: { operationType: subtraction, maxNumber: 5, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 10
+      cardsPerPage: 5
+      colorMode: color
+      labelDisplay: math-expression
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 10
+      cardsPerPage: 5
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: math-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      operation: subtraction
+      maxNumber: 5
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: subtraction-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: counters
+      itemCount: 30
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: math / addition-subtraction (subtraction within
+    5 — extends strand by introducing inverse operation). Secondary
+    strand: numeracy (counting backward / counting remainders).
+    Tertiary strand: vocabulary-acquisition (subtraction vocabulary:
+    minus, take away, subtract, equals, difference).
+
+    Architectural significance: forward-pointer resolution from Arc
+    12 add-within-5 ('next we extend numeracy work to subtraction
+    within 5 + within 10'). Builds on Arc 12 add-within-5 + add-
+    within-10 + add-within-20 addition foundation; introduces
+    inverse operation. Pairs with subtract-within-10 (this Phase 4
+    sibling); both packages extend addition-subtraction strand to
+    full subtraction coverage.
+
+    Distinctive composition: 2 subtraction (cross-out method) + 2
+    math-worksheet (vertical format) + 1 matching. Heavy
+    subtraction-method emphasis; math-worksheet introduces vertical
+    subtraction format for kids ready to move beyond crossed-out
+    countables.
+
+    Class B FLEXIBLE substrate: composes against animals + foods
+    themes (animals + foods countable for subtraction work).
+
+    K-3 multilingual classroom relevance: subtraction vocabulary
+    universally present across 11 platform locales — minus / menos
+    / moins / minus (cognate Romance + Germanic). Subtract /
+    take-away are more locale-variable. Visual subtraction with
+    crossed-out items translates universally; vocabulary anchor
+    varies. Locale-variant work at Phase 3+ adapts to each locale's
+    K-3 subtraction vocabulary register.
+
+curriculumStandards:
+  - CCSS.K.OA.A.1
+  - CCSS.K.OA.A.2
+  - CCSS.K.OA.A.5
+  - EYFS.ELG.MATH.NUM
+  - IB-PYP.HowTheWorldWorks
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Compute subtraction within 5 correctly in 8 of 10 trials.
+      - Use vocabulary MINUS / TAKE AWAY / EQUALS accurately in 7
+        of 10 trials.
+      - Demonstrate subtraction with concrete manipulatives in 6
+        of 10 trials.
+
+    Differentiation:
+    - Pre-K: subtraction within 3 only (3-1, 3-2, 2-1); concrete
+      manipulatives required.
+    - K: subtraction within 5; concrete + pictorial methods.
+    - Grade 1+: extend to subtract-within-10 + subtract-within-20
+      + bridge to two-digit subtraction work.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

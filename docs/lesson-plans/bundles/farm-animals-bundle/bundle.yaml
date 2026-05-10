@@ -1,0 +1,74 @@
+# Pillar 2 Arc 3 Phase 1 themed bundle — Farm Animals
+# Theme-anchored bundle (sub-theme of animals) composing 5 farm-animal-themed
+# teaching packages spanning vocabulary + classification + biological-reasoning.
+
+bundleSlug: farm-animals
+themeAxisKey: farm_animals
+language: en
+
+title:
+  en: "Farm Animals — K-3 Themed Bundle"
+
+description:
+  en: "Comprehensive K-3 bundle centered on farm-animal vocabulary + receptive identification + cross-strand classification work. 5 packages span vocabulary-acquisition (identify-and-name-10-farm-animals + point-to-named-farm-animal — productive + receptive farm-animal vocabulary) + cognitive classification (classify-animals-by-habitat + classify-animals-by-diet — applying farm-animal vocabulary to sorting tasks) + world-knowledge living-things (identify-living-vs-nonliving — extending biology framing). Sub-theme bundle (animals → farm-animals) demonstrating that theme-axis-keys can support both broader (animals) and narrower (farm-animals) bundle compositions where pedagogically coherent. Suitable for a 4-5 week classroom unit emphasizing rural-context vocabulary + early biological reasoning; supports K-3 multilingual classrooms in rural communities + farm-visit unit work."
+
+thumbnailUrl: "/bundles/farm-animals-thumbnail.png"
+
+status: draft
+
+teachingPackageSlugs:
+  - identify-and-name-10-farm-animals
+  - point-to-named-farm-animal
+  - classify-animals-by-habitat
+  - classify-animals-by-diet
+  - identify-living-vs-nonliving
+
+deckIds: []
+lessonPlanIds: []
+
+thematicCoherence:
+  en: |
+    All 5 packages cohere around the farm-animals sub-theme + form a
+    pedagogical progression from receptive identification through
+    productive vocabulary to biological classification.
+
+    **Pedagogical sequencing:**
+    1. **point-to-named-farm-animal** — Receptive farm-animal vocabulary.
+       Foundational starting point: kid hears "point to the cow" + identifies
+       cow among farm-animal images. Receptive-before-productive language-
+       development pattern; same anchor as colors-bundle's point-to-named-color.
+    2. **identify-and-name-10-farm-animals** — Productive farm-animal
+       vocabulary (cow, pig, chicken, sheep, horse, etc.). Bridges
+       receptive identification to productive naming with full 10-animal
+       set covering common farm species across most cultures.
+    3. **classify-animals-by-habitat** — Cognitive classification using
+       farm-animal vocabulary as one habitat category (farm vs zoo vs
+       pet vs wild). Cross-strand sorting work.
+    4. **classify-animals-by-diet** — Second classification dimension
+       (carnivore/herbivore/omnivore) using farm-animal contrasts (cow=
+       herbivore, pig=omnivore, dog=carnivore, etc.).
+    5. **identify-living-vs-nonliving** — Generalizes from farm-animal-as-
+       living-thing to broader living-things classification. Biological-
+       reasoning capstone for the bundle.
+
+    **Strand spread:** 2 vocabulary-acquisition + 2 cognitive-sorting +
+    1 world-knowledge living-things. Tight strand-coherence within
+    bundle (3 strands).
+
+    **Suggested unit duration:** 4-5 weeks. 1 package per week with
+    flexibility for classroom-visit or virtual-farm-visit extension.
+
+    **Multilingual classroom relevance:** farm-animal vocabulary high-
+    frequency K-3 target across all 11 platform locales with strong
+    cognate-rich coverage in Germanic (Kuh / cow / koe) + Romance
+    (vaca / vache / mucca). Bundle supports cross-locale lesson-plan
+    delivery; rural-community schools and farm-visit-unit teachers in
+    international + dual-language contexts particularly served.
+
+    **Pillar 2 architectural pattern:** farm-animals-bundle exemplifies
+    sub-theme bundle composition — narrower theme-axis-key than
+    animals-bundle (themeAxisKey: animals), composing distinct package
+    set (5 farm-focused vs 6 broader-animals). Both bundles can coexist
+    on the platform; subscriber teachers picking based on classroom
+    rural-vs-urban context. Demonstrates theme-axis-key + bundle
+    granularity flexibility per Pillar 2 architectural pluralism.

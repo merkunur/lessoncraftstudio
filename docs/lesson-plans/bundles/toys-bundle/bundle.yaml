@@ -1,0 +1,75 @@
+# Pillar 2 Arc 3 Phase 1 themed bundle — Toys
+# Theme-anchored bundle composing 5 toy-themed teaching packages
+# spanning multi-attribute sorting + action-verbs + reasoning.
+
+bundleSlug: toys
+themeAxisKey: toys
+language: en
+
+title:
+  en: "Toys — K-3 Themed Bundle"
+
+description:
+  en: "Comprehensive K-3 bundle centered on toy + play vocabulary anchoring multi-attribute sorting + reasoning + action-verb work. 5 packages span cognitive-sorting (sort-by-shape + sort-by-color + sort-by-size — toys naturally vary along all 3 attribute axes) + reasoning (identify-odd-one-out-by-attribute — toys provide rich attribute-discrimination contexts) + vocabulary-acquisition (identify-and-name-action-verbs — verbs of play: build, throw, push, roll). Theme provides high-engagement K-3 context; toys are universal across cultures + classroom-relevant + child-motivating. Suitable for a 4-5 week classroom unit on play-based learning + attribute-sorting practice; supports K-3 multilingual classrooms where play-vocabulary is high-frequency."
+
+thumbnailUrl: "/bundles/toys-thumbnail.png"
+
+status: draft
+
+teachingPackageSlugs:
+  - sort-by-shape
+  - sort-by-color
+  - sort-by-size
+  - identify-odd-one-out-by-attribute
+  - identify-and-name-action-verbs
+
+deckIds: []
+lessonPlanIds: []
+
+thematicCoherence:
+  en: |
+    All 5 packages cohere around the toys theme + form a cognitive
+    sorting + reasoning progression with action-verb vocabulary anchor.
+
+    **Pedagogical sequencing:**
+    1. **sort-by-color** — Single-attribute sorting using toys' rich
+       color diversity (red blocks vs blue blocks vs yellow blocks).
+       Foundational sorting work.
+    2. **sort-by-shape** — Single-attribute sorting using toys' shape
+       diversity (round balls vs square blocks vs triangular pieces).
+       Second sorting dimension.
+    3. **sort-by-size** — Single-attribute sorting using toys' size
+       contrasts (big stuffed animal vs small stuffed animal). Third
+       sorting dimension.
+    4. **identify-odd-one-out-by-attribute** — Reasoning task using
+       toy-set examples ("Three balls + one block — which is the odd
+       one out?"). Top-of-bundle cognitive challenge integrating prior
+       sorting work.
+    5. **identify-and-name-action-verbs** — Vocabulary anchor: action
+       verbs of play (build, throw, push, roll, stack). Connects toys
+       theme to active vocabulary; reinforces toy use through verbs.
+
+    **Strand spread:** 3 cognitive-sorting + 1 reasoning + 1 vocabulary-
+    acquisition. Tight strand-coherence within bundle (3 strands; 3
+    sorting packages dominate). Demonstrates that thematic anchor
+    (toys) can sustain repeated single-attribute sorting work without
+    feeling redundant — each sort axis reveals distinct properties of
+    the same toy set.
+
+    **Suggested unit duration:** 4-5 weeks. 3 sorting weeks (color,
+    shape, size in any order) + 1 reasoning week + 1 verbs week.
+
+    **Multilingual classroom relevance:** toy vocabulary varied
+    cognate-coverage across 11 platform locales — Germanic somewhat
+    cognate (Spielzeug / speelgoed / leksak) but Romance more distinct
+    (juguete / jouet / giocattolo). Action-verbs package extends
+    multilingual coverage through verb forms.
+
+    **Pillar 2 architectural pattern:** toys-bundle exemplifies
+    minimum-viable bundle composition pattern (per shapes-bundle
+    precedent) — 3 single-attribute sort packages + 1 reasoning
+    integration + 1 vocabulary anchor. Demonstrates that themed
+    bundles can be sort-attribute-rich without strand-stretching;
+    repetition of sorting strand across 3 attributes is feature, not
+    bug. Tight-strand pattern alongside fruits-bundle's 4-strand
+    spread + occupations-bundle's 5-strand spread.

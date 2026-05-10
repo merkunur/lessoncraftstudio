@@ -1,0 +1,78 @@
+# Pillar 2 Arc 3 Phase 1 themed bundle — Flowers
+# Theme-anchored bundle composing 4 flower-themed teaching packages
+# spanning plant-anatomy + biology + counting + color sorting.
+
+bundleSlug: flowers
+themeAxisKey: flowers
+language: en
+
+title:
+  en: "Flowers — K-3 Themed Bundle"
+
+description:
+  en: "Comprehensive K-3 bundle centered on flower vocabulary + plant-anatomy + biological reasoning + counting practice. 4 packages span world-knowledge living-things (identify-plant-parts — root, stem, leaf, flower, petal + describe-plant-life-cycle — seed → sprout → flower → fruit) + numeracy (count-objects-1-to-10 — flowers as canonical countable + visual-pleasing) + cognitive-sorting (sort-by-color — flower colors provide rich sorting axis: red roses vs yellow sunflowers vs purple violets). Cross-strand bundle anchored by flowers' biological + visual properties. Suitable for a 4-week classroom unit on plant biology + spring-context botany work; supports K-3 multilingual classrooms in temperate-climate contexts where flower observation is seasonally accessible."
+
+thumbnailUrl: "/bundles/flowers-thumbnail.png"
+
+status: draft
+
+teachingPackageSlugs:
+  - identify-plant-parts
+  - describe-plant-life-cycle
+  - count-objects-1-to-10
+  - sort-by-color
+
+deckIds: []
+lessonPlanIds: []
+
+thematicCoherence:
+  en: |
+    All 4 packages cohere around the flowers theme + form a cross-
+    strand progression from plant anatomy through biological life-
+    cycle to applied numeracy + sorting work.
+
+    **Pedagogical sequencing:**
+    1. **identify-plant-parts** — Plant anatomy vocabulary (root, stem,
+       leaf, flower, petal). Foundational structural understanding;
+       flowers provide canonical anatomy reference (clear petal +
+       stem + leaf differentiation).
+    2. **describe-plant-life-cycle** — Biological progression (seed →
+       sprout → flower → fruit). Builds on anatomy; flowers ARE the
+       reproductive stage of life-cycle. Same package shared with
+       fruits-bundle and vegetables-bundle for cross-bundle pedagogical
+       coherence — flowers add the third life-cycle perspective.
+    3. **count-objects-1-to-10** — Counting practice using flowers as
+       countable subjects (count 5 daisies; 8 tulips). Same shared
+       package with fruits-bundle; flowers provide visually-pleasing
+       counting context.
+    4. **sort-by-color** — Cognitive sorting using flowers' rich color
+       diversity (red roses vs yellow sunflowers vs purple violets vs
+       blue cornflowers). Same shared package with fruits-bundle and
+       vegetables-bundle; flowers offer narrowest single-color-per-
+       species pattern (clearer than mixed-color produce).
+
+    **Strand spread:** 1 vocabulary-acquisition (plant parts) + 1
+    world-knowledge living-things (life cycle) + 1 numeracy + 1
+    cognitive sorting. **4 distinct strands in single bundle** — same
+    cross-strand pattern as fruits-bundle.
+
+    **Suggested unit duration:** 4 weeks (1 package per week);
+    seasonal-spring extension natural fit.
+
+    **Multilingual classroom relevance:** flower vocabulary varied
+    across 11 platform locales — some cognate-rich (Romance: rosa /
+    rose / rosa; Germanic: Rose / roos / ros) and some distinct
+    (Finnish: ruusu; specific flower types vary widely). Bundle
+    supports cross-locale lesson-plan delivery; classroom-garden +
+    nature-walk extension activities particularly valuable.
+
+    **Pillar 2 architectural pattern:** flowers-bundle exemplifies
+    cross-strand bundle composition (4 strands) parallel to fruits-
+    bundle pattern. Both sub-themes share life-cycle + counting +
+    color-sorting packages but differ on the vocabulary anchor (plant-
+    parts vs fruit-vocabulary). Demonstrates that vocabulary anchor +
+    shared cross-strand packages can produce distinct meaningful
+    bundles. Plant-life-cycle + sort-by-color now appear in 3 bundles
+    each (fruits + vegetables + flowers); count-objects-1-to-10
+    appears in 2 bundles; identify-plant-parts is unique to flowers-
+    bundle (new cross-bundle anchor).

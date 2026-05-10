@@ -1,0 +1,144 @@
+# Teaching package — ciclo da água básico (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 14 Phase 3 per Arc 3 Phase 1 sparse-override pattern).
+# pt sparse-override for science / environment-and-weather strand. Conteúdo
+# científico universal — tradução direta sem reestruturação pedagógica.
+# BR-MEC educação infantil register per CLAUDE.md §6 + formal "você" address
+# per §17.9.
+
+title:
+  pt: "Ciclo da Água — evaporação, nuvens, chuva, rios"
+description:
+  pt: "Pacote de ciência para a educação infantil / 1º ano que ensina o ciclo da água básico (evaporação → condensação → precipitação → coleta). Constrói sobre Arc 12 describe-day-night-cycle + identify-weather-types + identify-and-name-weather-words como base. Pacote saturador do fio de ciência / ambiente-e-clima em 4/4 — completa o fio de ambiente-e-clima. Ciclo da água é o conceito canônico K-3 do motor-climático conectando observações diárias de clima a um processo natural contínuo. As crianças aprendem os 4 estágios com âncoras concretas: evaporação (poças desaparecem no sol) / condensação (nuvens se formam) / precipitação (chuva ou granizo cai) / coleta (rios, lagos, oceanos). 5 exercícios + 7 materiais imprimíveis em uma unidade de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Iniciador + introdução de sequência visual com toda a turma.
+      A professora ou o professor exibe 4 imagens grandes arranjadas
+      em círculo: sol-sobre-poça (evaporação) / nuvem-com-gotas-
+      de-água (condensação) / chuva-caindo (precipitação) / rio-
+      fluindo-até-o-oceano (coleta). "A água faz uma jornada todos
+      os dias! A água sobe de poças + rios (evaporação). Forma
+      nuvens (condensação). Cai como chuva (precipitação). Junta
+      em rios + oceanos (coleta). Depois o ciclo começa OUTRA VEZ!"
+      A turma repete os 4 estágios em coro. O círculo visual
+      reforça a natureza cíclica. Especificidade pt-BR: no contexto
+      brasileiro tropical/subtropical, a chuva é frequentemente
+      mais visível que neve — adapte as âncoras visuais para a
+      experiência regional dos alunos (chuva como precipitação
+      universal; neve raramente experienciada na maior parte do
+      Brasil mas conhecida culturalmente).
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de sequenciamento. Cada dupla
+      recebe 4 cartas de imagem (evaporação / condensação /
+      precipitação / coleta) embaralhadas. A dupla arruma as
+      cartas em ordem correta de ciclo em um círculo. A professora
+      ou o professor circula; pergunta "O que acontece com a água
+      em uma poça em um dia ensolarado? O que acontece com o vapor
+      de água quando esfria lá no alto no céu? O que cai quando
+      as nuvens ficam muito pesadas?" As duplas explicam as
+      transições com linguagem de causa-e-efeito. Refraseie os
+      erros com reordenamento + referência visual às imagens-
+      âncora. Especificidade pt-BR: enfatize "precipitação"
+      incluindo chuva, granizo, e neve — em regiões brasileiras
+      diferentes a precipitação predominante varia (Norte +
+      Nordeste = chuva tropical; Sul = chuva + raros eventos de
+      neve em altitude).
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios pattern-
+      train sequenciando 4 estágios. Estação 2: folha de exercícios
+      de emparelhamento (nome do estágio para imagem). Estação 3:
+      folha de exercícios missing-pieces (ciclo de 4 estágios com
+      um estágio faltando — a criança identifica qual estágio
+      falta). Estação 4: vocabulary-tracing-strips para nomes dos
+      estágios + vocabulário do clima. Vocabulário pt-BR canônico:
+      evaporação (não "evaporamento"), condensação (universal),
+      precipitação (universal), coleta (preferido a "acumulação"
+      para K-3).
+  closure:
+    body: |
+      Revisão do ciclo da água com toda a turma. A professora ou
+      o professor pede a cada criança que descreva um estágio em
+      1-2 frases. "Evaporação é quando a água sobe." "Condensação
+      é quando o vapor de água forma nuvens." "Precipitação é
+      quando a chuva cai." "Coleta é quando a água se junta em
+      rios." Indicador adiante: "Hoje aprendemos o ciclo da água.
+      Quando voltarmos na próxima vez, podemos explorar outros
+      ciclos naturais — o ciclo das estações (primavera, verão,
+      outono, inverno), o ciclo dia-noite, OU até como plantas e
+      animais se encaixam em toda esta água + clima!"
+
+assessmentCriteria:
+  pt: |
+    Ao final da unidade de 1 semana:
+      - Nomear todos os 4 estágios do ciclo da água em sequência
+        correta em 7 de 10 tentativas.
+      - Colocar 4 imagens-estágio em ordem correta em círculo em
+        8 de 10 tentativas.
+      - Descrever o que acontece em cada estágio em 1-2 frases
+        em 6 de 10 tentativas.
+      - Identificar qual estágio está acontecendo em um exemplo
+        do mundo real ("Poça desaparecendo em dia ensolarado =
+        evaporação") em 6 de 10 tentativas.
+
+    Diferenciação:
+      - Pré-K (3-5 anos): simplificação para 3 estágios (a água
+        sobe → as nuvens se formam → a chuva cai; omitir coleta
+        ou simplificar para "água em rios").
+      - Educação infantil (5-7 anos): ciclo completo de 4 estágios.
+      - 1º ano em diante: estender para variação sazonal do ciclo
+        da água (chuva vs neve precipitação; transições congelar/
+        derreter — relevante em regiões pt-BR onde neve é cultural
+        mas não diariamente experienciada) + ponte para trabalho
+        de ecossistema + bioma (Mata Atlântica, Cerrado, Amazônia
+        com suas próprias dinâmicas de ciclo da água).
+
+compositionalRationale:
+  pt: |
+    Fio principal: ciência / ambiente-e-clima (ciclo da água —
+    satura fio em 4/4). Fio secundário: aquisição-de-vocabulário
+    (4 nomes de estágios: evaporação, condensação, precipitação,
+    coleta + vocabulário do clima). Fio terciário: função-
+    cognitiva-e-executiva / sequenciamento (compreensão de
+    sequência cíclica).
+
+    Significância arquitetural: SATURA o fio de ambiente-e-clima
+    em 4/4. Constrói sobre o padrão de sequenciamento-de-ciclos
+    do Arc 12 describe-day-night-cycle; estende para um ciclo de
+    4 estágios (vs ciclo de 2 estágios dia-noite) com framing de
+    processo-contínuo. Ciclo da água é o conceito K-3 canônico
+    do motor-climático; saturar este fio completa a base K-3 de
+    ambiente-e-clima.
+
+    Especificidade pt-BR: ciclo da água é conceito universal +
+    traduzível 1:1 do en. Vocabulário pt-BR canônico:
+    - **evaporação** — termo técnico amplamente usado em pt-BR;
+      acessível para K-3 no contexto da experiência diária
+      (poças secam ao sol).
+    - **condensação** — termo técnico; pode ser apresentado para
+      K-3 como "as gotinhas se juntam".
+    - **precipitação** — termo técnico amplo; em pt-BR inclui
+      chuva (universal Brasil), granizo (raro mas conhecido),
+      e neve (raríssima fora de Sul + altitudes específicas).
+    - **coleta** — termo K-3-acessível; alternativa "acumulação"
+      é tecnicamente correta mas mais formal para K-3.
+
+    Contexto cultural pt-BR: o Brasil tem regimes hidrológicos
+    diversos — Norte/Nordeste com estação chuvosa + seca
+    pronunciadas; Sul/Sudeste com chuva mais distribuída ao
+    longo do ano; Pantanal com inundação anual cíclica. O
+    contexto regional do aluno enriquece a relevância do ciclo
+    da água. Trabalho de campo com observação de chuva +
+    rios + reservatórios é extensão natural.
+
+    Currículo BNCC EI03ET03 + 1º ano EF01CI05: observação +
+    descrição de fenômenos naturais; identificação de ciclos
+    + transformações em paisagens naturais brasileiras.
+
+    Substrato Class B FLEXIBLE: composta primariamente contra o
+    tema weather da biblioteca de imagens; nature_bw fallback
+    para imagens de sistema-natural-de-água (rios, lagos,
+    oceanos).

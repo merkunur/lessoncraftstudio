@@ -1,0 +1,127 @@
+# Teaching package — traçar formas 2D (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 14 Phase 3 per Arc 3 Phase 1 sparse-override pattern).
+# pt sparse-override for fine-motor-and-visual-spatial / drawing-and-tracing
+# strand. Conteúdo de habilidade-motora-fina universal — tradução direta sem
+# reestruturação pedagógica. BR-MEC educação infantil register per CLAUDE.md
+# §6 + formal "você" address per §17.9.
+
+title:
+  pt: "Traçar Formas 2D — círculos, quadrados, triângulos, retângulos"
+description:
+  pt: "Pacote de motora-fina + visuoespacial para a pré-K / educação infantil que ensina as crianças a traçar formas 2D fundamentais (círculo, quadrado, triângulo, retângulo, oval, losango). Constrói sobre a base de controle-de-lápis dos Arcos 9-12 trace-straight-lines + trace-curved-lines; estende o trabalho de traçado de formas-de-linha para formas-fechadas. Faz par com o pacote-irmão do Arco 14 Fase 2 draw-2d-shapes-freehand, que satura o fio drawing-and-tracing em 4/4. Traçar formas fechadas é a ponte canônica do traçado-de-linhas (Arco 12) para o desenho-de-formas-à-mão-livre — as crianças praticam a coordenação de curva-fechada em moldes pontilhados antes de desenhar à mão livre. 5 exercícios + 7 materiais imprimíveis em uma unidade de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Iniciador + introdução tátil de formas com toda a turma. A
+      professora ou o professor exibe 6 formas 2D grandes:
+      círculo, quadrado, triângulo, retângulo, oval, losango. "Estas
+      são formas. Hoje vamos TRAÇÁ-las — seguir as linhas
+      pontilhadas com nosso lápis do início ao fim sem levantar o
+      lápis." A turma nomeia cada forma; a professora ou o
+      professor demonstra traçar um círculo grande no ar com o
+      dedo ("começa em cima + dá a volta toda até o ponto inicial").
+      Âncora visual + tátil para o traçado de forma-fechada.
+      Especificidade pt-BR: vocabulário pt-BR para formas geométricas
+      é em grande parte cognato Romance — círculo, triângulo,
+      retângulo, oval, losango. "Quadrado" é pt-BR canônico (não
+      "quadrante" que tem outro sentido geométrico).
+  contentActivity:
+    body: |
+      Rotina independente de traçado. Cada criança recebe uma
+      folha de exercícios com 6 formas pontilhadas (uma linha por
+      forma, 3 linhas-de-traço por linha = 18 traços no total).
+      As crianças traçam cada forma cuidadosamente começando na
+      seta-de-início + seguindo o caminho pontilhado. A professora
+      ou o professor circula; refraseia erros com sinais verbais
+      ("comece no topo do círculo + dê a VOLTA" / "o quadrado tem
+      4 cantos — pare em cada canto antes de virar"). Feedback de
+      controle-de-lápis individualizado por criança. Modelagem
+      positiva: "Você traçou o círculo lindamente — começou em
+      cima e voltou no mesmo lugar! Agora vamos para o quadrado."
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: vocabulary-tracing-strips
+      com nomes de formas + contornos de formas pontilhadas.
+      Estação 2: folha de exercícios de emparelhamento (contorno
+      de forma para nome de forma). Estação 3: folha de exercícios
+      trace-curved-lines (revisão de trabalho de Arc anterior
+      para crianças que precisam reforço de controle-de-lápis).
+      Estação 4: folha de exercícios missing-pieces (qual forma
+      está faltando em uma sequência — reforço de reconhecimento-
+      de-forma). Especificidade pt-BR: use vocabulário canônico
+      pt-BR — "losango" não "diamante" (que é joia em pt-BR);
+      "oval" é universal cognato.
+  closure:
+    body: |
+      Revisão com toda a turma. A professora ou o professor nomeia
+      cada forma; a turma a traça no ar com o dedo. "Círculo —
+      redondo e redondo. Quadrado — canto, canto, canto, canto.
+      Triângulo — três cantos. Retângulo — dois lados longos +
+      dois lados curtos." Indicador adiante: "Hoje TRAÇAMOS formas
+      seguindo linhas pontilhadas. Quando voltarmos na próxima
+      vez, vamos DESENHAR formas por nós mesmos sem linhas
+      pontilhadas — desenhar à mão livre!"
+
+assessmentCriteria:
+  pt: |
+    Ao final da unidade de 1 semana:
+      - Traçar 6 formas com pegada de lápis controlada em 8 de 10
+        tentativas.
+      - Permanecer dentro de ±3mm da linha pontilhada em 7 de 10
+        traçados.
+      - Nomear 6 formas quando mostrado o contorno da forma em 8
+        de 10 tentativas.
+
+    Diferenciação:
+      - Pré-K (3-5 anos): escopo de 3 formas (círculo, quadrado,
+        triângulo); linhas pontilhadas mais grossas; tamanho de
+        forma maior.
+      - Educação infantil (5-7 anos): escopo de 6 formas
+        (adicionar retângulo, oval, losango); espessura padrão de
+        linha pontilhada.
+      - 1º ano em diante: estender para figuras de forma-combinada
+        (casa = quadrado + triângulo; sol = círculo com linhas
+        radiais) + ponte para draw-2d-shapes-freehand.
+
+compositionalRationale:
+  pt: |
+    Fio principal: motora-fina-e-visuoespacial / drawing-and-tracing
+    (traçado de forma-fechada — estende fio para 3/4). Fio
+    secundário: aquisição-de-vocabulário (nomes de formas:
+    círculo, quadrado, triângulo, retângulo, oval, losango). Fio
+    terciário: discriminação-visual (reconhecer formas em
+    exercícios).
+
+    Significância arquitetural: estende o fio drawing-and-tracing
+    de 2/4 para 3/4. Faz par com o pacote-irmão do Arco 14 Fase 2
+    draw-2d-shapes-freehand (satura fio em 4/4). Constrói sobre a
+    base trace-straight-lines + trace-curved-lines dos Arcos 9-12;
+    traçar formas-fechadas é a ponte canônica do traçado-de-linha
+    (caminhos abertos) para o desenho-de-forma-fechada.
+
+    Especificidade pt-BR: tracejado de formas é habilidade
+    motora-fina universal + traduzível 1:1 do en. Vocabulário
+    pt-BR canônico:
+    - **círculo** — cognato Romance; universal pt-BR.
+    - **quadrado** — pt-BR canônico (não "quadrante").
+    - **triângulo** — cognato Romance; universal.
+    - **retângulo** — cognato Romance; universal.
+    - **oval** — cognato Romance; universal.
+    - **losango** — pt-BR canônico (não "diamante" que é
+      especificamente joia em pt-BR).
+
+    Contexto cultural pt-BR: trabalho com formas 2D conecta-se
+    naturalmente à arte folclórica brasileira (bandeiras
+    regionais com formas geométricas; padrões da arte indígena +
+    afro-brasileira). Extensão pedagógica: identificar formas
+    em bandeiras + arquitetura local + objetos do cotidiano.
+
+    Currículo BNCC EI03TS01 + 1º ano EF01MA13: reconhecimento
+    de figuras geométricas planas + desenvolvimento de motora-
+    fina através de traçado.
+
+    Substrato Class B FLEXIBLE: composta contra o tema shapes
+    da biblioteca de imagens; material vocabulary-tracing-
+    strips suporta diretamente o trabalho motor-fino.

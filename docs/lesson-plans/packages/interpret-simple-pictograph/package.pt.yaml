@@ -1,0 +1,132 @@
+# Teaching package — interpretar pictograma simples (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 14 Phase 3 per Arc 3 Phase 1 sparse-override pattern).
+# pt sparse-override for math / data-and-graphs strand. Conteúdo matemático
+# universal — tradução direta sem reestruturação pedagógica. BR-MEC educação
+# infantil register per CLAUDE.md §6 + formal "você" address per §17.9.
+
+title:
+  pt: "Pictogramas — contando com imagens"
+description:
+  pt: "Pacote de matemática para a educação infantil / 1º ano que ensina interpretação de pictogramas (uma imagem = um item). Constrói sobre Arc 12 interpret-simple-bar-graph + count-and-graph-categories como base. Pacote saturador do fio de matemática / dados-e-gráficos em 4/4 — completa o fio de dados-e-gráficos estabelecido no Arco 12. Pictogramas são o ponto de entrada K-3 para leitura-de-gráficos, mais simples do que gráficos-de-barras porque cada imagem representa exatamente um item (nenhuma interpretação de eixo necessária). As crianças contam ícones-imagem dentro de uma categoria, depois comparam categorias ('Mais cães do que gatos — 4 cães vs 3 gatos'). Ponte do trabalho de contagem (Arcos 7-12) para a interpretação de dados. 5 exercícios + 7 materiais imprimíveis em uma unidade de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Iniciador com toda a turma: pictograma real da sala de aula.
+      A professora ou o professor exibe um pictograma de 4 linhas
+      (animais-favoritos): gatos / cães / peixes / pássaros. Cada
+      animal em uma linha representa um voto de aluno. A turma
+      conta as imagens-por-linha em voz alta. A professora ou o
+      professor pergunta: "Quantas crianças votaram em gatos?
+      Quantas votaram em cães? Qual animal teve MAIS votos?" A
+      âncora visual + verbal estabelece a convenção uma-imagem-
+      por-item. "Pictogramas nos ajudam a contar e comparar!"
+      Especificidade pt-BR: use vocabulário pt-BR canônico para
+      animais (gato, cão/cachorro, peixe, pássaro/passarinho);
+      "cão" é o padrão formal mas "cachorro" é mais frequente
+      na fala K-3 brasileira.
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de interpretação. Cada dupla
+      recebe um pictograma impresso mostrando 4 categorias de
+      frutas (maçãs, bananas, laranjas, uvas) com ícones-imagem
+      por categoria. A dupla alterna: a criança A lê a contagem
+      de uma categoria ("4 maçãs"); a criança B responde a uma
+      pergunta de comparação ("Qual tem MAIS? Qual tem MENOS?
+      Quantas bananas a MAIS do que laranjas?"). Refraseie os
+      erros com contagem-junto visual. Especificidade pt-BR:
+      use vocabulário pt-BR canônico para frutas — maçã (não
+      "macã"), banana (universal), laranja (não "laranjada"),
+      uva (preferido a "uvas" no singular). Adapte a frase
+      comparativa "a mais" como pt-BR canônico em vez de
+      "more than" tradução literal.
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios chart-
+      count (contar ícones-imagem por linha). Estação 2: folha de
+      exercícios de emparelhamento (combinar nome-da-categoria com
+      contagem). Estação 3: folha de exercícios more-less (comparar
+      contagens de duas categorias). Estação 4: vocabulary-tracing-
+      strips para vocabulário de leitura-de-gráficos (mais, menos,
+      a mais, a menos). Vocabulário pt-BR canônico para
+      comparação: "mais que" / "menos que" / "a mais" / "a menos"
+      / "o maior" / "o menor"; NÃO usar tradução literal de
+      "more than" + "fewer than" — pt-BR distingue "mais"
+      (quantidade superior) de "a mais" (diferença quantitativa).
+  closure:
+    body: |
+      Revisão do pictograma com toda a turma. A professora ou o
+      professor exibe novo pictograma (4 tipos-de-clima ao longo
+      de uma semana: ensolarado / nublado / chuvoso / nevado).
+      Os alunos contam cada linha + respondem 2-3 perguntas de
+      comparação. Indicador adiante: "Hoje lemos pictogramas
+      onde uma imagem = um item. Quando voltarmos na próxima
+      vez, podemos explorar quadros-de-marcas onde MARCAS
+      representam contagens, OU passar para gráficos-de-barras
+      onde alturas representam contagens!" Especificidade pt-BR:
+      adapte tipos-de-clima ao contexto regional brasileiro —
+      ensolarado universal; chuvoso muito frequente; nevado
+      raro fora de Sul/altitudes específicas.
+
+assessmentCriteria:
+  pt: |
+    Ao final da unidade de 1 semana:
+      - Contar ícones-imagem em 4 categorias com precisão em 8 de
+        10 tentativas.
+      - Identificar categoria com MAIS em 8 de 10 tentativas.
+      - Identificar categoria com MENOS em 7 de 10 tentativas.
+      - Calcular diferença entre duas categorias ("4 cães e 3
+        gatos — 1 cão a mais") em 6 de 10 tentativas.
+
+    Diferenciação:
+      - Pré-K (3-5 anos): 2-3 categorias com no máximo 5 ícones
+        cada.
+      - Educação infantil (5-7 anos): 3-4 categorias com no
+        máximo 8 ícones cada.
+      - 1º ano em diante: estender para pictogramas escalados
+        (uma imagem = 2 itens OU 5 itens) + ponte para quadros-
+        de-marcas + gráficos-de-barras.
+
+compositionalRationale:
+  pt: |
+    Fio principal: matemática / dados-e-gráficos (interpretação
+    de pictograma — satura fio em 4/4). Fio secundário: numeracia
+    (contagem de ícones-imagem por categoria). Fio terciário:
+    aquisição-de-vocabulário (vocabulário de leitura-de-gráficos:
+    mais, menos, a mais, a menos).
+
+    Significância arquitetural: SATURA o fio dados-e-gráficos em
+    4/4 — completa o fio estabelecido no Arco 12 com interpret-
+    simple-bar-graph + count-and-graph-categories. Gráficos-de-
+    barras + pictogramas são pontos-de-entrada complementares
+    para a leitura-de-gráficos K-3; ambos pertencem em uma base
+    completa de dados-e-gráficos. Pictogramas são conceitualmente
+    mais simples (uma-imagem-por-item).
+
+    Especificidade pt-BR: pictogramas são conceito universal +
+    traduzível 1:1 do en. Vocabulário pt-BR canônico para
+    leitura-de-gráficos:
+    - **mais** — universal; usado para quantidade superior
+      ("mais cães").
+    - **menos** — universal; usado para quantidade inferior
+      ("menos gatos").
+    - **a mais** / **a menos** — diferenças quantitativas
+      ("1 cão A MAIS"; "2 gatos A MENOS"). Estrutura pt-BR
+      específica não traduzível literalmente do en "more than".
+    - **o maior** / **o menor** — superlativos para "MAIS" e
+      "MENOS" em contexto de comparação.
+
+    Contexto cultural pt-BR: pictogramas podem usar contextos
+    culturalmente relevantes — frutas típicas brasileiras (açaí,
+    manga, mamão, abacaxi) ao invés de apenas maçã/banana/
+    laranja. Trabalho de contagem com itens da merenda escolar
+    é extensão natural pertinente.
+
+    Currículo BNCC EI03ET05 + 1º ano EF01MA21: representação
+    + interpretação de dados em gráficos pictóricos simples;
+    contagem + comparação de quantidades.
+
+    Substrato Class B FLEXIBLE: composta contra múltiplos temas
+    (animals, fruits, weather, vehicles) — pictogramas funcionam
+    naturalmente com dados categóricos, flexíveis em tema.

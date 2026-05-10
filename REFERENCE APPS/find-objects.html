@@ -13,7 +13,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="js/translations-find-objects.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=5"></script>
+    <script src="js/translations-shared.js?v=6"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
@@ -4722,26 +4722,6 @@ function showMessage(msg, type = 'info', duration = 3000) {
             var itemObjs = canvas.getObjects().filter(function (o) { return o && o.isFindObjectsItem === true; });
             var items = itemObjs.map(function (o, idx) {
                 var r = o.getBoundingRect(true, true);
-                // Runtime UI strings — built from window.translations[contentLanguage]
-                // for the embedded interactive runtime in deck.html. Per §14.3a the 12
-                // universal keys live in translations-shared.js (runtimeXxx); per-app
-                // keys (title, slot/cell/problem labels, custom celebrations) fall through
-                // to the en literal until the per-app translations file ships them.
-                var contentLang = (window.currentLocale || (typeof languageSelect !== "undefined" && languageSelect && languageSelect.value) || "en");
-                var trans = (window.translations && window.translations[contentLang]) || {};
-                var enTrans = (window.translations && window.translations.en) || {};
-                function _rt(key, fallback) { return trans[key] || enTrans[key] || fallback; }
-                var runtimeStrings = {
-                    title: _rt("runtimeTitle", "Find the Objects"),
-                    check: _rt("runtimeCheckAnswers", "Check Answers"),
-                    tryAgain: _rt("runtimeTryAgain", "Try Again"),
-                    mute: _rt("runtimeMute", "Mute sounds"),
-                    unmute: _rt("runtimeUnmute", "Turn sounds on"),
-                    printMyWorksheet: _rt("runtimePrintMyWorksheet", "Print my worksheet"),
-                    doAnother: _rt("runtimeDoAnother", "Do Another"),
-                    youDidIt: _rt("runtimeYouDidIt", "You did it!"),
-                    progressLabel: _rt("runtimeProgressLabel", "{n} / {total}")
-                };
 
                 return {
                     index: idx,
@@ -4860,6 +4840,26 @@ function showMessage(msg, type = 'info', duration = 3000) {
                 })
                 : null;
 
+            // Runtime UI strings — built from window.translations[contentLanguage]
+            // for the embedded interactive runtime in deck.html. Per §14.3a the 12
+            // universal keys live in translations-shared.js (runtimeXxx); per-app
+            // keys (title, slot/cell/problem labels, custom celebrations) fall through
+            // to the en literal until the per-app translations file ships them.
+            var contentLang = (window.currentLocale || (typeof languageSelect !== "undefined" && languageSelect && languageSelect.value) || "en");
+            var trans = (window.translations && window.translations[contentLang]) || {};
+            var enTrans = (window.translations && window.translations.en) || {};
+            function _rt(key, fallback) { return trans[key] || enTrans[key] || fallback; }
+            var runtimeStrings = {
+                title: _rt("runtimeTitle", "Find the Objects"),
+                check: _rt("runtimeCheckAnswers", "Check Answers"),
+                tryAgain: _rt("runtimeTryAgain", "Try Again"),
+                mute: _rt("runtimeMute", "Mute sounds"),
+                unmute: _rt("runtimeUnmute", "Turn sounds on"),
+                printMyWorksheet: _rt("runtimePrintMyWorksheet", "Print my worksheet"),
+                doAnother: _rt("runtimeDoAnother", "Do Another"),
+                youDidIt: _rt("runtimeYouDidIt", "You did it!"),
+                progressLabel: _rt("runtimeProgressLabel", "{n} / {total}")
+            };
             return {
                 bundleVersion: '30.2.0',
                 schemaFormat: 'image-references-v3',

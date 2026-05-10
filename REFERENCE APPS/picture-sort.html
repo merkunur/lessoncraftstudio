@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title data-translate="picture.sort.page.title">Picture-Sort Worksheet Generator</title>
   <script src="js/translations-picture-sort.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=5"></script>
+    <script src="js/translations-shared.js?v=6"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
@@ -3575,26 +3575,6 @@ document.addEventListener('DOMContentLoaded', () => {
         // bundle's items[] aligns with correctCategory by index).
         var rawItems = pd.items.map(function(rec){
             var obj = itemsByIdx[rec.index];
-            // Runtime UI strings — built from window.translations[contentLanguage]
-            // for the embedded interactive runtime in deck.html. Per §14.3a the 12
-            // universal keys live in translations-shared.js (runtimeXxx); per-app
-            // keys (title, slot/cell/problem labels, custom celebrations) fall through
-            // to the en literal until the per-app translations file ships them.
-            var contentLang = (window.currentLocale || (typeof languageSelect !== "undefined" && languageSelect && languageSelect.value) || "en");
-            var trans = (window.translations && window.translations[contentLang]) || {};
-            var enTrans = (window.translations && window.translations.en) || {};
-            function _rt(key, fallback) { return trans[key] || enTrans[key] || fallback; }
-            var runtimeStrings = {
-                title: _rt("runtimeTitle", "Picture Sort"),
-                check: _rt("runtimeCheckAnswers", "Check Answers"),
-                tryAgain: _rt("runtimeTryAgain", "Try Again"),
-                mute: _rt("runtimeMute", "Mute sounds"),
-                unmute: _rt("runtimeUnmute", "Turn sounds on"),
-                printMyWorksheet: _rt("runtimePrintMyWorksheet", "Print my worksheet"),
-                doAnother: _rt("runtimeDoAnother", "Do Another"),
-                youDidIt: _rt("runtimeYouDidIt", "You did it!"),
-                progressLabel: _rt("runtimeProgressLabel", "{n} / {total}")
-            };
 
             return {
                 index: rec.index,
@@ -3679,6 +3659,26 @@ document.addEventListener('DOMContentLoaded', () => {
             })
             : null;
 
+        // Runtime UI strings — built from window.translations[contentLanguage]
+        // for the embedded interactive runtime in deck.html. Per §14.3a the 12
+        // universal keys live in translations-shared.js (runtimeXxx); per-app
+        // keys (title, slot/cell/problem labels, custom celebrations) fall through
+        // to the en literal until the per-app translations file ships them.
+        var contentLang = (window.currentLocale || (typeof languageSelect !== "undefined" && languageSelect && languageSelect.value) || "en");
+        var trans = (window.translations && window.translations[contentLang]) || {};
+        var enTrans = (window.translations && window.translations.en) || {};
+        function _rt(key, fallback) { return trans[key] || enTrans[key] || fallback; }
+        var runtimeStrings = {
+            title: _rt("runtimeTitle", "Picture Sort"),
+            check: _rt("runtimeCheckAnswers", "Check Answers"),
+            tryAgain: _rt("runtimeTryAgain", "Try Again"),
+            mute: _rt("runtimeMute", "Mute sounds"),
+            unmute: _rt("runtimeUnmute", "Turn sounds on"),
+            printMyWorksheet: _rt("runtimePrintMyWorksheet", "Print my worksheet"),
+            doAnother: _rt("runtimeDoAnother", "Do Another"),
+            youDidIt: _rt("runtimeYouDidIt", "You did it!"),
+            progressLabel: _rt("runtimeProgressLabel", "{n} / {total}")
+        };
         return {
             bundleVersion: '25.2.0',
             schemaFormat: 'image-references-v3',

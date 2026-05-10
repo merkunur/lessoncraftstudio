@@ -13,7 +13,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="js/translations-wordsearch-complete.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=5"></script>
+    <script src="js/translations-shared.js?v=6"></script>
     <script src="js/image-vocabulary.js?v=3"></script>
     <script src="js/bulletproof-loader.js?v=2"></script>
     <script src="js/unified-language-manager.js"></script>
@@ -4528,27 +4528,6 @@ async function downloadPDF(canvasToExport, fileName, opts) {
                 return visibleSet[String(p.word || '').toUpperCase()] === true;
             })
             .map(function (p) {
-                // Runtime UI strings — built from window.translations[contentLanguage]
-                // for the embedded interactive runtime in deck.html. Per §14.3a the 12
-                // universal keys live in translations-shared.js (runtimeXxx); per-app
-                // keys (title, slot/cell/problem labels, custom celebrations) fall through
-                // to the en literal until the per-app translations file ships them.
-                var contentLang = (window.currentLocale || (typeof languageSelect !== "undefined" && languageSelect && languageSelect.value) || "en");
-                var trans = (window.translations && window.translations[contentLang]) || {};
-                var enTrans = (window.translations && window.translations.en) || {};
-                function _rt(key, fallback) { return trans[key] || enTrans[key] || fallback; }
-                var runtimeStrings = {
-                    title: _rt("runtimeTitle", "Word Search"),
-                    tryAgain: _rt("runtimeTryAgain", "Try Again"),
-                    youDidIt: _rt("runtimeYouDidIt", "You did it!"),
-                    doAnother: _rt("runtimeDoAnother", "Do Another"),
-                    printMyWorksheet: _rt("runtimePrintMyWorksheet", "Print my worksheet"),
-                    mute: _rt("runtimeMute", "Mute sounds"),
-                    unmute: _rt("runtimeUnmute", "Turn sounds on"),
-                    wordsFound: _rt("runtimeWordsFound", "Words: {n} / {total}"),
-                    allCorrect: _rt("runtimeAllCorrect", "All found!"),
-                    correct: _rt("runtimeCorrect", "correct")
-                };
 
                 return {
                     word: String(p.word || '').toUpperCase(),
@@ -4662,6 +4641,27 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             })
             : null;
 
+        // Runtime UI strings — built from window.translations[contentLanguage]
+        // for the embedded interactive runtime in deck.html. Per §14.3a the 12
+        // universal keys live in translations-shared.js (runtimeXxx); per-app
+        // keys (title, slot/cell/problem labels, custom celebrations) fall through
+        // to the en literal until the per-app translations file ships them.
+        var contentLang = (window.currentLocale || (typeof languageSelect !== "undefined" && languageSelect && languageSelect.value) || "en");
+        var trans = (window.translations && window.translations[contentLang]) || {};
+        var enTrans = (window.translations && window.translations.en) || {};
+        function _rt(key, fallback) { return trans[key] || enTrans[key] || fallback; }
+        var runtimeStrings = {
+            title: _rt("runtimeTitle", "Word Search"),
+            tryAgain: _rt("runtimeTryAgain", "Try Again"),
+            youDidIt: _rt("runtimeYouDidIt", "You did it!"),
+            doAnother: _rt("runtimeDoAnother", "Do Another"),
+            printMyWorksheet: _rt("runtimePrintMyWorksheet", "Print my worksheet"),
+            mute: _rt("runtimeMute", "Mute sounds"),
+            unmute: _rt("runtimeUnmute", "Turn sounds on"),
+            wordsFound: _rt("runtimeWordsFound", "Words: {n} / {total}"),
+            allCorrect: _rt("runtimeAllCorrect", "All found!"),
+            correct: _rt("runtimeCorrect", "correct")
+        };
         return {
             bundleVersion: '15.2.0',
             schemaFormat: 'image-references-v2',

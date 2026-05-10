@@ -12,7 +12,7 @@
   <title data-translate="page.title">Image Subtraction Worksheet Generator</title>
   <!-- Translation Infrastructure - MUST load before other scripts -->
   <script src="js/translations-subtraction.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=8"></script>
+    <script src="js/translations-shared.js?v=9"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
@@ -4524,7 +4524,9 @@ async function downloadPDF(canvasToExport, fileName, opts) {
         '    checkBtn=document.getElementById("lcs-check");',
         '    resetBtn=document.getElementById("lcs-reset");',
         '    summaryEl=document.getElementById("lcs-summary");',
-        '    if(titleEl) titleEl.textContent=DECK_BUNDLE.title||T("title");',
+        '    titleEl.textContent=T("title");',
+        '    if(typeof checkBtn!=="undefined"&&checkBtn){var _ck=STRINGS.checkAnswers||STRINGS.check;if(_ck)checkBtn.textContent=_ck;}',
+        '    if(typeof resetBtn!=="undefined"&&resetBtn)resetBtn.textContent=T("tryAgain");',
         '    renderProgress();',
         '    if(imgEl&&imgEl.complete&&imgEl.naturalHeight>0){renderSlots();}',
         '    else if(imgEl){imgEl.addEventListener("load",renderSlots);imgEl.addEventListener("error",function(){console.error("[LCS] Worksheet image failed to load")});}',

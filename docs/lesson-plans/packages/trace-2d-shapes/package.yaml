@@ -1,0 +1,231 @@
+# Teaching package — trace 2D shapes
+# Arc 14 Phase 2 (fine-motor-and-visual-spatial / drawing-and-tracing 2/4 → 3/4).
+# Pairs with draw-2d-shapes-freehand (Phase 2 sibling) which saturates strand.
+
+targetSlug: trace-2d-shapes
+language: en
+title:
+  en: "Trace 2D Shapes — circles, squares, triangles, rectangles"
+description:
+  en: "Pre-K / Kindergarten fine-motor + visual-spatial package teaching kids to trace fundamental 2D shapes (circle, square, triangle, rectangle, oval, diamond). Builds on Arc 9-12 trace-straight-lines + trace-curved-lines pencil-control foundation; extends tracing work from line shapes to closed-figure shapes. Pairs with Arc 14 Phase 2 sibling draw-2d-shapes-freehand which saturates the drawing-and-tracing strand at 4/4. Tracing closed shapes is the canonical bridge from line-tracing (Arc 12) to freehand-shape-drawing — kids practice the closed-curve coordination on guided dotted/dashed templates before drawing freehand. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook + tactile shape introduction. Teacher displays
+      6 large 2D shapes: circle, square, triangle, rectangle, oval,
+      diamond. "These are shapes. Today we will TRACE them — follow
+      the dotted lines with our pencil from start to finish without
+      lifting the pencil." Class names each shape; teacher
+      demonstrates tracing a large circle in the air with a finger
+      ("starts at the top + goes around back to start"). Visual +
+      tactile anchor for closed-shape tracing.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Independent tracing routine. Each kid receives a worksheet
+      with 6 dotted shapes (one row per shape, 3 trace-lines per row
+      = 18 traces total). Kids trace each shape carefully starting
+      at the start-arrow + following the dotted path. Teacher
+      circulates; recasts errors with verbal cues ("start at the
+      top of the circle + go AROUND" / "the square has 4 corners —
+      stop at each corner before turning"). Pencil-control feedback
+      individualized per kid.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: vocabulary-tracing-strips with
+      shape names + dotted shape outlines. Station 2: matching
+      worksheet (shape outline to shape name). Station 3: trace-
+      curved-lines worksheet (review prior arc work for kids
+      needing pencil-control reinforcement). Station 4: missing-
+      pieces worksheet (which shape is missing in a sequence —
+      shape recognition reinforcement).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class review. Teacher names each shape; class traces it
+      in the air with their finger. "Circle — round and round.
+      Square — corner, corner, corner, corner. Triangle — three
+      corners. Rectangle — two long sides + two short sides."
+      Forward-pointer: "Today we TRACED shapes following dotted
+      lines. When we come back next, we'll DRAW shapes by ourselves
+      with no dotted lines — drawing freehand!"
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: shapes, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: missing-pieces
+    exerciseMode: unified
+    customizationParameters: { themeSelect: shapes, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 6, themeSelect: shapes, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: missing-pieces
+    exerciseMode: unified
+    customizationParameters: { themeSelect: shapes, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: shapes, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      stripCount: 12
+      stripsPerPage: 6
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 1
+    pedagogicalRole: tracing-anchor
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 3
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      pairCount: 6
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-game
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      mode: shape-set
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: shapes
+      pictureCueCount: 6
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: fine-motor-and-visual-spatial / drawing-and-
+    tracing (closed-figure tracing — extends strand to 3/4).
+    Secondary strand: vocabulary-acquisition (shape names: circle,
+    square, triangle, rectangle, oval, diamond). Tertiary strand:
+    visual-discrimination (recognizing shapes across exercises).
+
+    Architectural significance: extends drawing-and-tracing strand
+    from 2/4 to 3/4. Pairs with Arc 14 Phase 2 sibling draw-2d-
+    shapes-freehand (saturates strand to 4/4). Builds on Arc 9-12
+    trace-straight-lines + trace-curved-lines foundation; tracing
+    closed-figures is the canonical bridge from line-tracing
+    (open paths) to closed-shape drawing.
+
+    Distinctive composition: 3 matching + 2 missing-pieces. Shape-
+    recognition emphasis throughout exercise composition; tracing
+    work happens primarily in the dedicated tracing-strips material.
+
+    Class B FLEXIBLE substrate: composes against shapes image-
+    library theme; tracing-strips material directly supports the
+    fine-motor work.
+
+    K-3 multilingual classroom relevance: shape vocabulary
+    cognate-rich Romance (circle / círculo / cercle / cerchio) +
+    Germanic (Kreis / cirkel / circle) accessibility for K-3
+    multilingual classrooms. Tracing pencil-control is universally
+    relevant; vocabulary anchor varies.
+
+curriculumStandards:
+  - CCSS.K.G.A.2
+  - CCSS.K.G.B.5
+  - EYFS.ELG.PD.FINE
+  - IB-PYP.HowWeOrganizeOurselves
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Trace 6 shapes with controlled pencil grip in 8 of 10 trials.
+      - Stay within ±3mm of dotted line in 7 of 10 traces.
+      - Name 6 shapes when shown shape outline in 8 of 10 trials.
+
+    Differentiation:
+    - Pre-K: 3-shape scope (circle, square, triangle); thicker
+      dotted lines; larger shape size.
+    - K: 6-shape scope (add rectangle, oval, diamond); standard
+      dotted-line thickness.
+    - Grade 1+: extend to combined-shape figures (house = square +
+      triangle; sun = circle with radial lines) + bridge to
+      draw-2d-shapes-freehand.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

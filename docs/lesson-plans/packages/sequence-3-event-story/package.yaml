@@ -1,0 +1,233 @@
+# Teaching package — sequence a 3-event story
+# Arc 14 Phase 2 (early-literacy / narrative-comprehension +1 from Arc 13).
+# Resolves Arc 13 predict-from-picture-cue forward-pointer.
+
+targetSlug: sequence-3-event-story
+language: en
+title:
+  en: "Story Sequencing — what happens first, next, last"
+description:
+  en: "Kindergarten / Grade 1 narrative-comprehension package teaching kids to sequence a 3-event story (first / next / last). Builds on Arc 13 predict-from-picture-cue + label-a-picture-with-1-word foundation. RESOLVES Arc 13 predict-from-picture forward-pointer ('next we extend single-picture work to story-sequencing across multiple events'). Story-sequencing is a foundational narrative-comprehension skill: kids look at 3 pictures depicting a story (e.g., kid plants seed → sprout grows → flower blooms), arrange them in chronological order, then describe the sequence using first/next/last vocabulary. Critical bridge from picture-comprehension (single image) to narrative-comprehension (multiple-image causal sequence). 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook + sequencing introduction. Teacher displays
+      3 pictures shuffled (e.g., empty cup → cup being filled with
+      water → full cup). "These 3 pictures tell a story. What
+      happens FIRST? What happens NEXT? What happens LAST? Let's
+      put them in order!" Class collectively sequences the cards.
+      Teacher narrates: "FIRST — the cup is empty. NEXT — water is
+      being poured in. LAST — the cup is full." Visual + verbal
+      anchor establishes first/next/last vocabulary.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + story-sequencing routine. Each pair receives 4
+      sets of 3-event story cards (e.g., set A: kid puts on shoes
+      → ties laces → walks; set B: ice cream falls → kid cries →
+      mom buys new one; set C: seed planted → sprout grows →
+      flower blooms; set D: kid sees cake → blows out candles →
+      eats cake). Pair takes turns: kid A shuffles a set + lays
+      out the 3 cards; kid B sequences first/next/last + narrates.
+      Recast errors with verbal cause-effect cues ("the cup can't
+      be FULL before water is poured — what comes BEFORE?").
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: pattern-train worksheet
+      sequencing 3-event sequences. Station 2: matching worksheet
+      (story sequence-position to picture). Station 3: missing-
+      pieces worksheet (3-event story with one event missing —
+      kid identifies which is missing). Station 4: vocabulary-
+      tracing-strips for first/next/last + sequence vocabulary.
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class story-sequencing review. Teacher displays a new
+      3-event story (e.g., bird builds nest → bird lays egg → egg
+      hatches into chick). Class chants the sequence: "First, the
+      bird builds a nest. Next, the bird lays an egg. Last, the
+      egg hatches!" Forward-pointer: "Today we sequenced 3-event
+      stories. When we come back next, we'll sequence longer
+      stories with 4 or 5 events — beginning, middle, end + more
+      detail."
+
+composedExercises:
+  - appName: pattern-train
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: miscellaneous, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: missing-pieces
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: pattern-train
+    exerciseMode: unified
+    customizationParameters: { themeSelect: foods, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 6, themeSelect: miscellaneous, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: sequencing-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: miscellaneous
+      sequenceLength: 3
+      colorMode: color
+      paperSize: a4
+      language: en
+      showStageLabels: true
+    ordering: 1
+    pedagogicalRole: sequencing-game
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: miscellaneous
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: miscellaneous
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 3
+    pedagogicalRole: production-prompt
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: miscellaneous
+      stripCount: 6
+      stripsPerPage: 6
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: miscellaneous
+      mode: story-set
+      itemCount: 12
+      itemSize: medium-2in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: miscellaneous
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: early-literacy / narrative-comprehension (3-event
+    story sequencing). Secondary strand: vocabulary-acquisition
+    (first / next / last + sequence vocabulary). Tertiary strand:
+    cognitive-and-executive-function / sequencing.
+
+    Architectural significance: forward-pointer resolution from Arc
+    13 predict-from-picture-cue ('next we extend single-picture
+    work to story-sequencing across multiple events'). Builds on
+    Arc 12-13 picture-comprehension foundation: label-1-word →
+    predict-from-picture → sequence-3-event-story (this package).
+    Critical narrative-comprehension foundation; bridges single-
+    image work to multi-event causal sequencing.
+
+    Distinctive composition: 2 pattern-train (sequence-learning) +
+    2 matching + 1 missing-pieces. Same sequencing-emphasis pattern
+    as Arc 14 Phase 1's describe-butterfly-life-cycle + describe-
+    water-cycle-basic; demonstrates that pattern-train is the
+    canonical sequence-comprehension exercise across both science-
+    cycle work AND narrative-sequence work.
+
+    Class B FLEXIBLE substrate: composes against miscellaneous +
+    animals + foods themes; story sequences span everyday contexts.
+
+    K-3 multilingual classroom relevance: first/next/last vocab
+    varied across 11 platform locales — Romance distinct (primero
+    / d'abord / prima) + Germanic distinct (zuerst / eerst /
+    först). Visual sequence comprehension translates universally;
+    vocabulary anchor varies. Story-sequencing skill universally
+    relevant for narrative-comprehension foundation.
+
+curriculumStandards:
+  - CCSS.K.RL.2
+  - CCSS.1.RL.2
+  - EYFS.ELG.LIT.COMP
+  - IB-PYP.HowWeExpressOurselves
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Sequence 3-event story correctly in 8 of 10 trials.
+      - Use first/next/last vocabulary correctly in narration in
+        7 of 10 trials.
+      - Identify missing event in 3-event story in 6 of 10 trials.
+
+    Differentiation:
+    - Pre-K: 2-event sequences (before/after) only.
+    - K: 3-event sequences with first/next/last.
+    - Grade 1+: extend to 4-5-event sequences (beginning / middle /
+      end with multi-event middle) + narrative-comprehension
+      questioning ("Why did the character do X next?").
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

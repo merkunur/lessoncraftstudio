@@ -1,0 +1,242 @@
+# Teaching package — draw 2D shapes freehand
+# Arc 14 Phase 2 (fine-motor-and-visual-spatial / drawing-and-tracing 3/4 → 4/4 SATURATE).
+# Pairs with trace-2d-shapes (Phase 2 sibling); saturates strand at 4/4.
+
+targetSlug: draw-2d-shapes-freehand
+language: en
+title:
+  en: "Draw 2D Shapes Freehand — circles, squares, triangles, rectangles"
+description:
+  en: "Kindergarten / Grade 1 fine-motor + visual-spatial package teaching kids to DRAW fundamental 2D shapes freehand without tracing-template guides. Builds directly on Arc 14 Phase 2 sibling trace-2d-shapes (which extended drawing-and-tracing 2/4 → 3/4); SATURATES drawing-and-tracing strand at 4/4 — 12th saturated strand on the platform. Freehand drawing is the canonical completion of the drawing-and-tracing pedagogical progression: kids start with line tracing (Arc 9-12 trace-straight-lines + trace-curved-lines) → closed-shape tracing (Phase 2 trace-2d-shapes) → freehand shape drawing (this package). Critical fine-motor + visual-memory bridge enabling subsequent drawing-as-communication work (label-with-noun-phrase, etc.). 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook + freehand demonstration. Teacher displays a
+      blank piece of paper + draws each of 6 shapes (circle,
+      square, triangle, rectangle, oval, diamond) freehand on the
+      board, narrating: "I start at the top + go all the way around
+      back to start — that's a circle. Now I make 4 corners + 4
+      sides — square. Now 3 corners + 3 sides — triangle." Class
+      watches + makes finger-shapes in the air following along.
+      Visual + tactile anchor for freehand drawing without dotted
+      guides.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Independent drawing routine. Each kid receives a worksheet
+      with 6 shape-name labels ("circle", "square", etc.) and an
+      empty box next to each label (no dotted guides). Kids draw
+      each shape freehand in its labeled box. 3 attempts per shape
+      = 18 total drawings. Teacher circulates; recasts errors with
+      verbal cues + offers tracing-template fallback for kids
+      struggling to hold the closed-shape coordination ("if you
+      need help, here's a dotted square — but try freehand first").
+      Pencil-control + visual-memory feedback individualized.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: shape-recognition matching
+      worksheet (review prior arc). Station 2: vocabulary-tracing-
+      strips (shape names + dotted shapes for kids needing
+      pencil-control reinforcement). Station 3: missing-pieces
+      worksheet (which shape is missing — visual-memory work
+      relevant to freehand drawing). Station 4: drawing-pad
+      independent practice (kids draw their own shape compositions:
+      house = square + triangle; sun = circle with lines).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class shape-drawing review. Teacher names each shape;
+      class draws it on individual mini-whiteboards or in sketchpads
+      freehand. Quick visual scan checks freehand quality. "Today
+      we DREW shapes by ourselves — no dotted lines! When we come
+      back next, we can use our shape-drawing skills to draw
+      simple pictures (house, sun, tree) and write our name with
+      shape-letters."
+
+composedExercises:
+  - appName: missing-pieces
+    exerciseMode: unified
+    customizationParameters: { themeSelect: shapes, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: shapes, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: pattern-train
+    exerciseMode: unified
+    customizationParameters: { themeSelect: shapes, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 6, themeSelect: shapes, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: missing-pieces
+    exerciseMode: unified
+    customizationParameters: { themeSelect: shapes, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: drawing-pad
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      pageCount: 4
+      gridStyle: light
+      colorMode: color
+      paperSize: a4
+      language: en
+      shapePromptCount: 6
+    ordering: 1
+    pedagogicalRole: drawing-substrate
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      stripCount: 12
+      stripsPerPage: 6
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 2
+    pedagogicalRole: tracing-fallback
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 3
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 4
+    pedagogicalRole: production-prompt
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      mode: shape-set
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: shapes
+      pictureCueCount: 6
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: fine-motor-and-visual-spatial / drawing-and-
+    tracing (freehand shape drawing — saturates strand 4/4).
+    Secondary strand: visual-spatial / shape-recognition (visual-
+    memory required for freehand reproduction). Tertiary strand:
+    vocabulary-acquisition (shape names paired with drawing).
+
+    Architectural significance: SATURATES drawing-and-tracing strand
+    at 4/4 — 12th saturated strand on the platform (joining the 11
+    saturated at Phase 1 close: cognitive-and-executive-function/{
+    memory-and-attention, pattern-recognition, sorting-and-
+    classification} + early-literacy/{multilingual-language-awareness,
+    vocabulary-acquisition, letter-recognition} + fine-motor-and-
+    visual-spatial/{spatial-reasoning, visual-discrimination} +
+    math/data-and-graphs + science/{environment-and-weather, living-
+    things}). Strand-saturation pattern continues at Phase 2 close.
+
+    Distinctive composition: 2 missing-pieces (visual-memory) + 2
+    matching (shape recognition) + 1 pattern-train (sequence work).
+    Worksheet exercises emphasize visual-memory + shape-recognition;
+    freehand drawing happens primarily in the dedicated drawing-pad
+    material.
+
+    Class B FLEXIBLE substrate: composes against shapes image-
+    library theme; drawing-pad material is the canonical freehand-
+    practice substrate.
+
+    K-3 multilingual classroom relevance: shape vocabulary +
+    drawing skills universally relevant. Freehand drawing skills
+    cross-cultural; pencil-control + closed-shape coordination
+    fundamental K-3 fine-motor milestone across all 11 platform
+    locales.
+
+curriculumStandards:
+  - CCSS.K.G.A.2
+  - CCSS.K.G.B.5
+  - CCSS.1.G.A.1
+  - EYFS.ELG.PD.FINE
+  - IB-PYP.HowWeExpressOurselves
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Draw 6 shapes freehand with recognizable form in 8 of 10
+        trials.
+      - Maintain reasonable proportions (square ≈ equal sides;
+        rectangle ≈ longer-than-wide) in 6 of 10 freehand drawings.
+      - Name + draw a requested shape on demand in 7 of 10 trials.
+
+    Differentiation:
+    - Pre-K: 3-shape scope (circle, square, triangle); accept
+      approximate forms; provide tracing-fallback as needed.
+    - K: 6-shape scope (add rectangle, oval, diamond); freehand
+      drawing required.
+    - Grade 1+: extend to combined-shape compositions (house = sq
+      + tri; sun = circle + radial lines) + bridge to label-with-
+      noun-phrase work where kids label their drawings.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

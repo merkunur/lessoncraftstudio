@@ -4242,6 +4242,30 @@ async function downloadPDF(canvasToExport, filename, opts) {
         var pieceRefs = _findPieces(canvas);
         var rawPieces = pieceRefs.map(function (ref) {
             var src = scrambledPieces[ref.idx] || {};
+            // Runtime UI strings — built from window.translations[contentLanguage]
+            // for the embedded interactive runtime in deck.html. Per §14.3a the 12
+            // universal keys live in translations-shared.js (runtimeXxx); per-app
+            // keys (title, slot/cell/problem labels, custom celebrations) fall through
+            // to the en literal until the per-app translations file ships them.
+            var contentLang = (window.currentLocale || (typeof languageSelect !== "undefined" && languageSelect && languageSelect.value) || "en");
+            var trans = (window.translations && window.translations[contentLang]) || {};
+            var enTrans = (window.translations && window.translations.en) || {};
+            function _rt(key, fallback) { return trans[key] || enTrans[key] || fallback; }
+            var runtimeStrings = {
+                title: _rt("runtimeTitle", "Math Puzzle Practice"),
+                checkAnswers: _rt("runtimeCheckAnswers", "Check Answers"),
+                tryAgain: _rt("runtimeTryAgain", "Try Again"),
+                youDidIt: _rt("runtimeYouDidIt", "You did it!"),
+                doAnother: _rt("runtimeDoAnother", "Do Another"),
+                printMyWorksheet: _rt("runtimePrintMyWorksheet", "Print my worksheet"),
+                mute: _rt("runtimeMute", "Mute sounds"),
+                unmute: _rt("runtimeUnmute", "Turn sounds on"),
+                cellNumber: _rt("runtimeCellNumber", "Cell"),
+                correct: _rt("runtimeCorrect", "correct"),
+                score: _rt("runtimeScore", "{n} of {total} correct"),
+                allCorrect: _rt("runtimeAllCorrect", "All correct!")
+            };
+
             return {
                 pieceIndex: ref.idx,
                 number: (typeof src.number === 'number') ? src.number : null,
@@ -4306,13 +4330,14 @@ async function downloadPDF(canvasToExport, filename, opts) {
             : null;
 
         return {
-            bundleVersion: '8.2.1',
+            bundleVersion: '8.3.0',
             schemaFormat: 'image-references-v3',
             loadingMode: loadingMode,
             snapshotMode: 'inline',
             appType: 'math-puzzle',
             createdAt: new Date().toISOString(),
             contentLanguage: (window.currentLocale || 'en'),
+                runtimeStrings: runtimeStrings,
             title: 'Math Puzzle Practice',
             page: {
                 width: currentCanvasConfig.width,
@@ -4419,10 +4444,8 @@ async function downloadPDF(canvasToExport, filename, opts) {
     var INTERACTIVE_RUNTIME_LINES = [
         '(function(){',
         '  "use strict";',
-        '  var STRINGS = {',
-        '    en:{title:"Math Puzzle Practice",checkAnswers:"Check Answers",tryAgain:"Try Again",youDidIt:"You did it!",doAnother:"Do Another",printMyWorksheet:"Print my worksheet",mute:"Mute sounds",unmute:"Turn sounds on",cellNumber:"Cell",correct:"correct",score:"{n} of {total} correct",allCorrect:"All correct!"}',
-        '  };',
-        '  function T(key){var loc=(DECK_BUNDLE.contentLanguage||"en").slice(0,2);var t=STRINGS[loc]||STRINGS.en;return t[key]||STRINGS.en[key]||key}',
+        '  var STRINGS = (DECK_BUNDLE && DECK_BUNDLE.runtimeStrings) || {title:"Math Puzzle Practice",checkAnswers:"Check Answers",tryAgain:"Try Again",youDidIt:"You did it!",doAnother:"Do Another",printMyWorksheet:"Print my worksheet",mute:"Mute sounds",unmute:"Turn sounds on",cellNumber:"Cell",correct:"correct",score:"{n} of {total} correct",allCorrect:"All correct!"};',
+        '  function T(k){return STRINGS[k]||k}',
         '',
         '  var pieces=DECK_BUNDLE.pieces.map(function(p){return{pieceIndex:p.pieceIndex,number:p.number,imgDataUrl:p.imgDataUrl,initialRect:p.initialRect,placedInCell:null,status:"empty"}});',
         '  var cells=DECK_BUNDLE.grid.cells.map(function(c){return{cellIndex:c.cellIndex,rect:c.rect,operationText:c.operationText,expectedNumber:c.expectedNumber,status:"empty"}});',
@@ -4908,8 +4931,8 @@ async function downloadPDF(canvasToExport, filename, opts) {
         parts.push('  </div>');
         parts.push('</main>');
         parts.push('<footer class="lcs-footer">');
-        parts.push('  <button type="button" id="lcs-check" class="lcs-btn lcs-btn--primary" disabled>Check Answers</button>');
-        parts.push('  <button type="button" id="lcs-reset" class="lcs-btn lcs-btn--ghost" hidden>Try Again</button>');
+        parts.push('  <button type="button" id="lcs-check" class="lcs-btn lcs-btn--primary" disabled>' + escapeHtml(bundle.runtimeStrings.checkAnswers) + '</button>');
+        parts.push('  <button type="button" id="lcs-reset" class="lcs-btn lcs-btn--ghost" hidden>' + escapeHtml(bundle.runtimeStrings.tryAgain) + '</button>');
         parts.push('  <span id="lcs-summary" class="lcs-summary" aria-live="polite"></span>');
         parts.push('</footer>');
         if (endDeckLinks) {

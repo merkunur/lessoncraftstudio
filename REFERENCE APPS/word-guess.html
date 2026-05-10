@@ -3923,6 +3923,31 @@ async function downloadPDF(canvasToExport, fileName = 'download', opts) {
                     : LCSImageRef.inlineVariants;
                 var loaded = await Promise.all(pairs.map(function (ref) {
                     return resolver(ref.key, ref.theme).then(function (variants) {
+                        // Runtime UI strings — built from window.translations[contentLanguage]
+                        // for the embedded interactive runtime in deck.html. Per §14.3a the 12
+                        // universal keys live in translations-shared.js (runtimeXxx); per-app
+                        // keys (title, slot/cell/problem labels, custom celebrations) fall through
+                        // to the en literal until the per-app translations file ships them.
+                        var contentLang = (window.currentLocale || (typeof languageSelect !== "undefined" && languageSelect && languageSelect.value) || "en");
+                        var trans = (window.translations && window.translations[contentLang]) || {};
+                        var enTrans = (window.translations && window.translations.en) || {};
+                        function _rt(key, fallback) { return trans[key] || enTrans[key] || fallback; }
+                        var runtimeStrings = {
+                            title: _rt("runtimeTitle", "Word Guess Practice"),
+                            checkAnswers: _rt("runtimeCheckAnswers", "Check Answers"),
+                            tryAgain: _rt("runtimeTryAgain", "Try Again"),
+                            youDidIt: _rt("runtimeYouDidIt", "You did it!"),
+                            doAnother: _rt("runtimeDoAnother", "Do Another"),
+                            printMyWorksheet: _rt("runtimePrintMyWorksheet", "Print my worksheet"),
+                            mute: _rt("runtimeMute", "Mute sounds"),
+                            unmute: _rt("runtimeUnmute", "Turn sounds on"),
+                            slotNumber: _rt("runtimeSlotNumber", "Letter"),
+                            correct: _rt("runtimeCorrect", "correct"),
+                            score: _rt("runtimeScore", "{n} of {total} correct"),
+                            firstTryStars: _rt("runtimeFirstTryStars", "first-try stars"),
+                            allCorrect: _rt("runtimeAllCorrect", "All correct!")
+                        };
+
                         return { key: ref.key, theme: ref.theme, variants: variants };
                     });
                 }));
@@ -3977,7 +4002,7 @@ async function downloadPDF(canvasToExport, fileName = 'download', opts) {
                 : null;
 
             return {
-                bundleVersion: '13.1.1',
+                bundleVersion: '13.2.0',
                 schemaFormat: 'image-references-v2',
                 loadingMode: loadingMode,
                 imagePlacements: imagePlacements,
@@ -3985,6 +4010,7 @@ async function downloadPDF(canvasToExport, fileName = 'download', opts) {
                 appType: 'word-guess',
                 createdAt: new Date().toISOString(),
                 contentLanguage: (window.currentLocale || 'en'),
+                            runtimeStrings: runtimeStrings,
                 title: 'Word Guess Practice',
                 caseValue: caseValue,
                 page: {
@@ -4090,10 +4116,8 @@ async function downloadPDF(canvasToExport, fileName = 'download', opts) {
         var INTERACTIVE_RUNTIME_LINES = [
             '(function(){',
             '  "use strict";',
-            '  var STRINGS = {',
-            '    en:{title:"Word Guess Practice",checkAnswers:"Check Answers",tryAgain:"Try Again",youDidIt:"You did it!",doAnother:"Do Another",printMyWorksheet:"Print my worksheet",mute:"Mute sounds",unmute:"Turn sounds on",slotNumber:"Letter",correct:"correct",score:"{n} of {total} correct",firstTryStars:"first-try stars",allCorrect:"All correct!"}',
-            '  };',
-            '  function T(key){var loc=(DECK_BUNDLE.contentLanguage||"en").slice(0,2);var t=STRINGS[loc]||STRINGS.en;return t[key]||STRINGS.en[key]||key}',
+            '  var STRINGS = (DECK_BUNDLE && DECK_BUNDLE.runtimeStrings) || {title:"Word Guess Practice",checkAnswers:"Check Answers",tryAgain:"Try Again",youDidIt:"You did it!",doAnother:"Do Another",printMyWorksheet:"Print my worksheet",mute:"Mute sounds",unmute:"Turn sounds on",slotNumber:"Letter",correct:"correct",score:"{n} of {total} correct",firstTryStars:"first-try stars",allCorrect:"All correct!"};',
+            '  function T(k){return STRINGS[k]||k}',
             '',
             '  var CASE=(DECK_BUNDLE.caseValue==="lower")?"lower":"upper";',
             '  var state=DECK_BUNDLE.slots.map(function(sl,i){return{index:i,problemIndex:sl.problemIndex,wordIndex:sl.wordIndex,letterIndex:sl.letterIndex,expected:sl.expected,rect:sl.rect,value:"",status:"empty"}});',
@@ -4501,8 +4525,8 @@ async function downloadPDF(canvasToExport, fileName = 'download', opts) {
             parts.push('  </div>');
             parts.push('</main>');
             parts.push('<footer class="lcs-footer">');
-            parts.push('  <button type="button" id="lcs-check" class="lcs-btn lcs-btn--primary" disabled>Check Answers</button>');
-            parts.push('  <button type="button" id="lcs-reset" class="lcs-btn lcs-btn--ghost" hidden>Try Again</button>');
+            parts.push('  <button type="button" id="lcs-check" class="lcs-btn lcs-btn--primary" disabled>' + escapeHtml(bundle.runtimeStrings.checkAnswers) + '</button>');
+            parts.push('  <button type="button" id="lcs-reset" class="lcs-btn lcs-btn--ghost" hidden>' + escapeHtml(bundle.runtimeStrings.tryAgain) + '</button>');
             parts.push('  <span id="lcs-summary" class="lcs-summary" aria-live="polite"></span>');
             parts.push('</footer>');
             if (endDeckLinks) {

@@ -3510,13 +3510,36 @@
               })
               : null;
 
+          // Runtime UI strings — built from window.translations[contentLanguage]
+          // for the embedded interactive runtime in deck.html. Per §14.3a the 12
+          // universal keys live in translations-shared.js (runtimeXxx); per-app
+          // keys (title, slot/cell/problem labels, custom celebrations) fall through
+          // to the en literal until the per-app translations file ships them.
+          var contentLang = (window.currentLocale || (typeof languageSelect !== "undefined" && languageSelect && languageSelect.value) || "en");
+          var trans = (window.translations && window.translations[contentLang]) || {};
+          var enTrans = (window.translations && window.translations.en) || {};
+          function _rt(key, fallback) { return trans[key] || enTrans[key] || fallback; }
+          var runtimeStrings = {
+              title: _rt("runtimeTitle", "Treasure Hunt"),
+              check: _rt("runtimeCheckAnswers", "Check Answers"),
+              tryAgain: _rt("runtimeTryAgain", "Try Again"),
+              mute: _rt("runtimeMute", "Mute sounds"),
+              unmute: _rt("runtimeUnmute", "Turn sounds on"),
+              printMyWorksheet: _rt("runtimePrintMyWorksheet", "Print my worksheet"),
+              doAnother: _rt("runtimeDoAnother", "Do Another"),
+              youDidIt: _rt("runtimeYouDidIt", "You did it!"),
+              progressLabel: _rt("runtimeProgressLabel", "{n} / {total}"),
+              startHere: _rt("runtimeStartHere", "Start at the green cell")
+          };
+
           return {
-              bundleVersion: '32.0.1',
+              bundleVersion: '32.1.0',
               schemaFormat: 'image-references-v3',
               appType: 'treasure-hunt',
               createdAt: new Date().toISOString(),
               contentLanguage: (window.currentLocale || 'en'),
-              title: 'Treasure Hunt',
+              runtimeStrings: runtimeStrings,
+              title: runtimeStrings.title,
               seoMeta: seoMeta,
               seoTrace: seoTrace,
               page: { width: currentCanvasConfig.width, height: currentCanvasConfig.height },
@@ -3620,10 +3643,8 @@
       var INTERACTIVE_RUNTIME_LINES = [
           '(function(){',
           '  "use strict";',
-          '  var STRINGS = {',
-          '    en:{title:"Treasure Hunt",check:"Check Answers",tryAgain:"Try Again",mute:"Mute sounds",unmute:"Turn sounds on",printMyWorksheet:"Print my worksheet",doAnother:"Do Another",youDidIt:"You did it!",progressLabel:"{n} / {total}",startHere:"Start at the green cell"}',
-          '  };',
-          '  function T(key){var loc=(DECK_BUNDLE.contentLanguage||"en").slice(0,2);var t=STRINGS[loc]||STRINGS.en;return t[key]||STRINGS.en[key]||key}',
+          '  var STRINGS = (DECK_BUNDLE && DECK_BUNDLE.runtimeStrings) || {title:"Treasure Hunt",check:"Check Answers",tryAgain:"Try Again",mute:"Mute sounds",unmute:"Turn sounds on",printMyWorksheet:"Print my worksheet",doAnother:"Do Another",youDidIt:"You did it!",progressLabel:"{n} / {total}",startHere:"Start at the green cell"};',
+          '  function T(k){return STRINGS[k]||k}',
           '  function fmt(s,vars){return s.replace(/\\{(\\w+)\\}/g,function(_,k){return vars[k]==null?"":String(vars[k])})}',
           '',
           '  var solutionPath=DECK_BUNDLE.solutionPath||[];',
@@ -4016,8 +4037,8 @@
           parts.push('  </div>');
           parts.push('</main>');
           parts.push('<footer class="lcs-footer">');
-          parts.push('  <button type="button" id="lcs-check" class="lcs-btn lcs-btn--primary" disabled>Check Answers</button>');
-          parts.push('  <button type="button" id="lcs-reset" class="lcs-btn lcs-btn--ghost" hidden>Try Again</button>');
+          parts.push('  <button type="button" id="lcs-check" class="lcs-btn lcs-btn--primary" disabled>' + escapeHtml(bundle.runtimeStrings.check) + '</button>');
+          parts.push('  <button type="button" id="lcs-reset" class="lcs-btn lcs-btn--ghost" hidden>' + escapeHtml(bundle.runtimeStrings.tryAgain) + '</button>');
           parts.push('</footer>');
           if (endDeckLinks) {
               parts.push('<aside class="lcs-end-deck">');

@@ -4420,6 +4420,30 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf', opts) {
             }
 
             var optionSlots = collected.choices.map(function (o) {
+                // Runtime UI strings — built from window.translations[contentLanguage]
+                // for the embedded interactive runtime in deck.html. Per §14.3a the 12
+                // universal keys live in translations-shared.js (runtimeXxx); per-app
+                // keys (title, slot/cell/problem labels, custom celebrations) fall through
+                // to the en literal until the per-app translations file ships them.
+                var contentLang = (window.currentLocale || (typeof languageSelect !== "undefined" && languageSelect && languageSelect.value) || "en");
+                var trans = (window.translations && window.translations[contentLang]) || {};
+                var enTrans = (window.translations && window.translations.en) || {};
+                function _rt(key, fallback) { return trans[key] || enTrans[key] || fallback; }
+                var runtimeStrings = {
+                    title: _rt("runtimeTitle", "Complete the Pattern"),
+                    checkAnswers: _rt("runtimeCheckAnswers", "Check Answers"),
+                    tryAgain: _rt("runtimeTryAgain", "Try Again"),
+                    youDidIt: _rt("runtimeYouDidIt", "Pattern solved!"),
+                    doAnother: _rt("runtimeDoAnother", "Do Another"),
+                    printMyWorksheet: _rt("runtimePrintMyWorksheet", "Print my worksheet"),
+                    mute: _rt("runtimeMute", "Mute sounds"),
+                    unmute: _rt("runtimeUnmute", "Turn sounds on"),
+                    problem: _rt("runtimeProblem", "Problem"),
+                    correct: _rt("runtimeCorrect", "correct"),
+                    score: _rt("runtimeScore", "{n} of {total} correct"),
+                    allCorrect: _rt("runtimeAllCorrect", "All correct!")
+                };
+
                 return {
                     problemIndex: o.problemIndex,
                     choiceIndex: o.choiceIndex,
@@ -4646,12 +4670,13 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf', opts) {
                 : null;
 
             return {
-                bundleVersion: '18.1.3',
+                bundleVersion: '18.2.0',
                 schemaFormat: 'image-references-v2',
                 loadingMode: loadingMode,
                 appType: 'pattern-worksheet',
                 createdAt: new Date().toISOString(),
                 contentLanguage: (window.currentLocale || 'en'),
+                    runtimeStrings: runtimeStrings,
                 title: 'Complete the Pattern',
                 page: {
                     width: currentCanvasConfig.width,
@@ -4777,10 +4802,8 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf', opts) {
         var INTERACTIVE_RUNTIME_LINES = [
             '(function(){',
             '  "use strict";',
-            '  var STRINGS = {',
-            '    en:{title:"Complete the Pattern",checkAnswers:"Check Answers",tryAgain:"Try Again",youDidIt:"Pattern solved!",doAnother:"Do Another",printMyWorksheet:"Print my worksheet",mute:"Mute sounds",unmute:"Turn sounds on",problem:"Problem",correct:"correct",score:"{n} of {total} correct",allCorrect:"All correct!"}',
-            '  };',
-            '  function T(key){var loc=(DECK_BUNDLE.contentLanguage||"en").slice(0,2);var t=STRINGS[loc]||STRINGS.en;return t[key]||STRINGS.en[key]||key}',
+            '  var STRINGS = (DECK_BUNDLE && DECK_BUNDLE.runtimeStrings) || {title:"Complete the Pattern",checkAnswers:"Check Answers",tryAgain:"Try Again",youDidIt:"Pattern solved!",doAnother:"Do Another",printMyWorksheet:"Print my worksheet",mute:"Mute sounds",unmute:"Turn sounds on",problem:"Problem",correct:"correct",score:"{n} of {total} correct",allCorrect:"All correct!"};',
+            '  function T(k){return STRINGS[k]||k}',
             '',
             '  // Build per-problem state. Options mode: tap one of N. Blank mode: drag one',
             '  // of the visible pattern images (sources) onto the blank.',
@@ -5321,8 +5344,8 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf', opts) {
             parts.push('  </div>');
             parts.push('</main>');
             parts.push('<footer class="lcs-footer">');
-            parts.push('  <button type="button" id="lcs-check" class="lcs-btn lcs-btn--primary" disabled>Check Answers</button>');
-            parts.push('  <button type="button" id="lcs-reset" class="lcs-btn lcs-btn--ghost" hidden>Try Again</button>');
+            parts.push('  <button type="button" id="lcs-check" class="lcs-btn lcs-btn--primary" disabled>' + escapeHtml(bundle.runtimeStrings.checkAnswers) + '</button>');
+            parts.push('  <button type="button" id="lcs-reset" class="lcs-btn lcs-btn--ghost" hidden>' + escapeHtml(bundle.runtimeStrings.tryAgain) + '</button>');
             parts.push('  <span id="lcs-summary" class="lcs-summary" aria-live="polite"></span>');
             parts.push('</footer>');
             if (endDeckLinks) {

@@ -76,7 +76,17 @@ const SHARED_TRANSLATIONS = {
     // Substituted into deck.html via __DECK_END_SUGGESTIONS_HEADER__ at
     // publish-cli upload time. Nordic locales (sv/da/no/fi) NSR-flagged
     // per §17.5.1 Nordic-tier review posture.
-    "deckEndSuggestionsHeader": "Try one of these next:"
+    "deckEndSuggestionsHeader": "Try one of these next:",
+
+    // SEO description fragments — consumed by all 29 apps' bundle.seoMeta
+    // builders (freeInteractive / forWord / printOrPlay). Previously only
+    // populated in translations-treasure-hunt.js (en+de); other 28 apps fell
+    // through to t()-returns-key-on-miss, baking raw 'seoFreeInteractive' /
+    // 'seoFor' / 'seoPrintOrPlayOnline' tokens into their <meta description>
+    // surfaces. Promoted to shared per §14.3a ≥2-consumer rule (29 consumers).
+    "seoFreeInteractive": "Free interactive",
+    "seoFor": "for",
+    "seoPrintOrPlayOnline": "Print or play online"
   },
   "de": {
     "srShapeSquare": "Quadrat",
@@ -118,7 +128,10 @@ const SHARED_TRANSLATIONS = {
     "embedAttributionBrand": "LessonCraftStudio",
     "embedAttributionSeparator": " — ",
     "embedAttributionKeyword": "kostenlose druckbare Arbeitsblätter",
-    "deckEndSuggestionsHeader": "Probiere als Nächstes eines davon:"
+    "deckEndSuggestionsHeader": "Probiere als Nächstes eines davon:",
+    "seoFreeInteractive": "Kostenloses interaktives",
+    "seoFor": "für",
+    "seoPrintOrPlayOnline": "Drucken oder online spielen"
   },
 
   // Tier-1+2 + Tier-4 Romance locales — operator-best-effort embed authoring
@@ -138,7 +151,10 @@ const SHARED_TRANSLATIONS = {
     "embedAttributionBrand": "LessonCraftStudio",
     "embedAttributionSeparator": " — ",
     "embedAttributionKeyword": "hojas de trabajo imprimibles gratis",
-    "deckEndSuggestionsHeader": "Prueba uno de estos a continuación:"
+    "deckEndSuggestionsHeader": "Prueba uno de estos a continuación:",
+    "seoFreeInteractive": "Hoja interactiva gratuita",
+    "seoFor": "para",
+    "seoPrintOrPlayOnline": "Imprimir o jugar en línea"
   },
   "nl": {
     "embedHeader": "Dit werkblad op je site insluiten",
@@ -153,7 +169,10 @@ const SHARED_TRANSLATIONS = {
     "embedAttributionBrand": "LessonCraftStudio",
     "embedAttributionSeparator": " — ",
     "embedAttributionKeyword": "gratis printbare werkbladen",
-    "deckEndSuggestionsHeader": "Probeer hierna een van deze:"
+    "deckEndSuggestionsHeader": "Probeer hierna een van deze:",
+    "seoFreeInteractive": "Gratis interactief",
+    "seoFor": "voor",
+    "seoPrintOrPlayOnline": "Print of speel online"
   },
   "fr": {
     "embedHeader": "Intégrer cette fiche sur votre site",
@@ -168,7 +187,10 @@ const SHARED_TRANSLATIONS = {
     "embedAttributionBrand": "LessonCraftStudio",
     "embedAttributionSeparator": " — ",
     "embedAttributionKeyword": "fiches imprimables gratuites",
-    "deckEndSuggestionsHeader": "Essaie l'un de ceux-ci ensuite :"
+    "deckEndSuggestionsHeader": "Essaie l'un de ceux-ci ensuite :",
+    "seoFreeInteractive": "Fiche interactive gratuite",
+    "seoFor": "pour",
+    "seoPrintOrPlayOnline": "Imprimer ou jouer en ligne"
   },
   "it": {
     "embedHeader": "Incorpora questa scheda sul tuo sito",
@@ -183,7 +205,10 @@ const SHARED_TRANSLATIONS = {
     "embedAttributionBrand": "LessonCraftStudio",
     "embedAttributionSeparator": " — ",
     "embedAttributionKeyword": "schede stampabili gratuite",
-    "deckEndSuggestionsHeader": "Prova uno di questi dopo:"
+    "deckEndSuggestionsHeader": "Prova uno di questi dopo:",
+    "seoFreeInteractive": "Scheda interattiva gratuita",
+    "seoFor": "per",
+    "seoPrintOrPlayOnline": "Stampa o gioca online"
   },
   "pt": {
     // Brazilian Portuguese canonical per §6 (single 'pt' locale code; BR register).
@@ -199,7 +224,10 @@ const SHARED_TRANSLATIONS = {
     "embedAttributionBrand": "LessonCraftStudio",
     "embedAttributionSeparator": " — ",
     "embedAttributionKeyword": "atividades gratuitas para imprimir",
-    "deckEndSuggestionsHeader": "Experimente um destes a seguir:"
+    "deckEndSuggestionsHeader": "Experimente um destes a seguir:",
+    "seoFreeInteractive": "Atividade interativa gratuita",
+    "seoFor": "para",
+    "seoPrintOrPlayOnline": "Imprimir ou jogar online"
   },
 
   // Nordic locales — operator-best-effort embed authoring + NSR-flagged
@@ -220,7 +248,11 @@ const SHARED_TRANSLATIONS = {
     "embedAttributionSeparator": " — ",
     "embedAttributionKeyword": "gratis utskrivbara arbetsblad",
     // NSR-flagged per §17.5.1 Nordic-tier review posture
-    "deckEndSuggestionsHeader": "Prova en av dessa härnäst:"
+    "deckEndSuggestionsHeader": "Prova en av dessa härnäst:",
+    // NSR-flagged per §17.5.1 Nordic-tier review posture
+    "seoFreeInteractive": "Gratis interaktivt",
+    "seoFor": "för",
+    "seoPrintOrPlayOnline": "Skriv ut eller spela online"
   },
   "da": {
     "embedHeader": "Indlejr dette arbejdsark på dit websted",
@@ -236,7 +268,11 @@ const SHARED_TRANSLATIONS = {
     "embedAttributionSeparator": " — ",
     "embedAttributionKeyword": "gratis printbare arbejdsark",
     // NSR-flagged per §17.5.1 Nordic-tier review posture
-    "deckEndSuggestionsHeader": "Prøv en af disse næst:"
+    "deckEndSuggestionsHeader": "Prøv en af disse næst:",
+    // NSR-flagged per §17.5.1 Nordic-tier review posture
+    "seoFreeInteractive": "Gratis interaktivt",
+    "seoFor": "for",
+    "seoPrintOrPlayOnline": "Print eller spil online"
   },
   "no": {
     // Bokmål canonical per §6 (single 'no' locale code).
@@ -253,7 +289,11 @@ const SHARED_TRANSLATIONS = {
     "embedAttributionSeparator": " — ",
     "embedAttributionKeyword": "gratis utskrivbare arbeidsark",
     // NSR-flagged per §17.5.1 Nordic-tier review posture
-    "deckEndSuggestionsHeader": "Prøv en av disse neste:"
+    "deckEndSuggestionsHeader": "Prøv en av disse neste:",
+    // NSR-flagged per §17.5.1 Nordic-tier review posture
+    "seoFreeInteractive": "Gratis interaktivt",
+    "seoFor": "for",
+    "seoPrintOrPlayOnline": "Skriv ut eller spill på nett"
   },
   "fi": {
     "embedHeader": "Upota tämä työarkki sivustollesi",
@@ -269,7 +309,11 @@ const SHARED_TRANSLATIONS = {
     "embedAttributionSeparator": " — ",
     "embedAttributionKeyword": "ilmaiset tulostettavat työarkit",
     // NSR-flagged per §17.5.1 Nordic-tier review posture
-    "deckEndSuggestionsHeader": "Kokeile yhtä näistä seuraavaksi:"
+    "deckEndSuggestionsHeader": "Kokeile yhtä näistä seuraavaksi:",
+    // NSR-flagged per §17.5.1 Nordic-tier review posture
+    "seoFreeInteractive": "Ilmainen interaktiivinen",
+    "seoFor": "tasolle",
+    "seoPrintOrPlayOnline": "Tulosta tai pelaa verkossa"
   }
 };
 

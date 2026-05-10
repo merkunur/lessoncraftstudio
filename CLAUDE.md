@@ -940,6 +940,66 @@ All 29 ship:
 
 **Canonical-name-vs-emission contract.** Each app's `generator.app` field in its `manifest.json` MUST match the §14.10 canonical app name verbatim (e.g., `sudoku`, NOT `picture-sudoku`). Any future taxonomy entry, config key, or downstream integration that keys by app name MUST use the §14.10 canonical name. Verified across all 29 apps at Brief B Phase 2 commit `59a0cde9`. Drift surfaced at Phase 2 real-ZIP spot-check when `topics-taxonomy.json` keyed `picture-sudoku` instead of `sudoku`.
 
+### 14.11 Runtime UI i18n architecture — bake-at-source + force-set-in-init
+
+The standalone deck.html displays runtime UI strings (worksheet title strip, Check Answers button, Try Again button, mute/share/embed buttons, result modal heading + score + buttons + status text) which must localize correctly across all 11 platform locales. The **bake-at-source-time + force-set-in-init** pattern is the canonical architecture (locked 2026-05-10 across 29 apps × 11 locales).
+
+#### 14.11.1 STRINGS_ALL bake-at-source
+
+Each app's `INTERACTIVE_RUNTIME_LINES` array contains a `var STRINGS_ALL = {en:{...},de:{...},...,fi:{...}};` literal carrying ALL 11 locales' runtime strings. The runtime selects the locale block from `DECK_BUNDLE.contentLanguage`:
+
+```js
+var STRINGS_ALL = {en:{title:"Code Addition Practice",...},fr:{title:"Exercices d'addition codée",...},...};
+var STRINGS = STRINGS_ALL[((DECK_BUNDLE && DECK_BUNDLE.contentLanguage) || "en").slice(0,2)] || STRINGS_ALL.en;
+function T(k){return STRINGS[k]||STRINGS_ALL.en[k]||k}
+```
+
+**Why bake-at-source, not build-at-extractDeckBundle.** Building `bundle.runtimeStrings` from `window.translations[contentLanguage]` at extractDeckBundle time was the prior architecture and proved fragile under multiple historical failure modes:
+- Browser cache stale on per-app HTML / per-app translations / translations-shared.js
+- translations-shared.js merge race with per-app translations-`<X>`.js (load-order dependent)
+- `js/translations.js` 404 (5 apps reference a non-existent file: code-addition / chart-count / pattern-worksheet / sudoku / draw-and-color)
+- The `_rt(key, fallback)` lookup chain falls through to the English fallback for ALL keys when translations didn't load — bundle.runtimeStrings ships English values silently
+
+Bake-at-source eliminates the dependency chain. STRINGS_ALL travels with the deck.html literal — locale selection is purely DECK_BUNDLE.contentLanguage. Each deck.html gains ~3-6KB; acceptable for the i18n robustness gain.
+
+**Per-app STRINGS source order:** the `inline-all-locales-strings.js` bake script (commit `30f21267`) reads `REFERENCE TRANSLATIONS/translations-shared.js` (12 runtimeXxx keys × 11 locales) for shared keys, per-app `translations-<X>.js` for `runtimeTitle`, and parses each app's existing English STRINGS dict to preserve key order + any per-app keys (slotNumber, cellNumber, problem, sumLabel, legendTitle, crossOut, wordsFound, etc.). Per-app keys without a translation source default to the English value across all 11 locales (acceptable fallback per K-3-naturalness lock).
+
+#### 14.11.2 Force-set every UI element in init()
+
+The runtime init() MUST force-set every UI element's textContent from STRINGS — never trust HTML template literals or `DECK_BUNDLE.title || T("title")` short-circuits. Canonical pattern (commit `691ac1c7`):
+
+```js
+titleEl.textContent=T("title");
+if(typeof checkBtn!=="undefined"&&checkBtn){var _ck=STRINGS.checkAnswers||STRINGS.check;if(_ck)checkBtn.textContent=_ck;}
+if(typeof resetBtn!=="undefined"&&resetBtn)resetBtn.textContent=T("tryAgain");
+```
+
+**Why force-set, not template-literal.** Earlier patterns baked button text from `escapeHtml(bundle.runtimeStrings.checkAnswers)` into the HTML template at gen time; if `bundle.runtimeStrings` was English (window.translations not loaded), the template shipped English literals that the runtime never overwrote. The title surface had `titleEl.textContent = DECK_BUNDLE.title || T("title")` — the `||` short-circuited on English bundle.title before STRINGS_ALL[fr] could resolve via T("title"). Both patterns failed silently when translations didn't load at gen time.
+
+Force-set in init() runs AFTER STRINGS_ALL is in scope, so it always picks up the correct locale regardless of what the HTML template or bundle fields contain. The typeof guards handle wordsearch (no `checkBtn` variable) and apps using either `checkAnswers` or `check` key.
+
+**Element IDs canonical across all 29 apps:** `#lcs-title`, `#lcs-check`, `#lcs-reset`.
+**Variable names canonical:** `titleEl`, `checkBtn`, `resetBtn` (wordsearch lacks `checkBtn`).
+
+#### 14.11.3 Adding new runtime UI surfaces
+
+When adding a new UI element to deck.html that displays text:
+1. Add the element with a stable `id` (use the `lcs-<name>` convention)
+2. Add a STRINGS key to translations-shared.js (≥2-consumer rule per §14.3a) OR per-app `translations-<X>.js`
+3. In init(), force-set the element's textContent from `T("<key>")`
+4. Re-run `scripts/inline-all-locales-strings.js` to refresh STRINGS_ALL bakes across all 29 apps
+5. Bump `translations-shared.js?v=N+1` cache-buster as a fresh-state signal
+6. TWO-STEP §14.6 deploy: `deploy.sh` then `update-worksheet.sh` for all 29 served HTMLs
+
+NEVER bake the English text as an HTML literal that the runtime won't overwrite. NEVER short-circuit `T("<key>")` with `DECK_BUNDLE.<field> || T(...)` — the bundle field may carry stale English from an extractDeckBundle that ran with translations not loaded.
+
+#### 14.11.4 Originating commits + verification
+
+- `30f21267` — `inline-all-locales-strings.js` + 29 apps bake STRINGS_ALL with all 11 locales
+- `691ac1c7` — `fix-runtime-element-textcontent.js` + 29 apps force-set titleEl/checkBtn/resetBtn at init()
+
+Verified working across all 29 apps × 11 locales by operator on 2026-05-10. Cache-buster `translations-shared.js?v=9` live.
+
 ---
 
 ## 15. The catalog data pipeline

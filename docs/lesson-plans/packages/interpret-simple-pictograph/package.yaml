@@ -1,0 +1,233 @@
+# Teaching package — interpret simple pictograph
+# Arc 14 Phase 1 (math / data-and-graphs 3/4 → 4/4 SATURATE).
+# Builds on Arc 12 interpret-simple-bar-graph + count-and-graph-categories.
+
+targetSlug: interpret-simple-pictograph
+language: en
+title:
+  en: "Pictographs — counting with pictures"
+description:
+  en: "Kindergarten / Grade 1 math package teaching pictograph interpretation (one picture = one item). Builds on Arc 12 interpret-simple-bar-graph + count-and-graph-categories foundation. Saturating package for math / data-and-graphs strand at 4/4 — completes the data-and-graphs strand established at Arc 12. Pictographs are the K-3 entry point to graph-reading, simpler than bar-graphs because each picture represents exactly one item (no axis interpretation required). Kids count picture-icons within a category, then compare categories ('More dogs than cats — 4 dogs vs 3 cats'). Bridges counting work (Arc 7-12) to data interpretation. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook: real classroom pictograph. Teacher displays
+      4-row pictograph (favorite-animals): cats / dogs / fish /
+      birds. Each animal in a row represents one student vote. Class
+      counts pictures-per-row aloud. Teacher asks: "How many kids
+      voted for cats? How many voted for dogs? Which animal got the
+      MOST votes?" Visual + verbal anchor establishes the one-picture-
+      per-item convention. "Pictographs help us count and compare!"
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + interpretation routine. Each pair receives a
+      printed pictograph showing 4 fruit categories (apples,
+      bananas, oranges, grapes) with picture-icons per category.
+      Pair takes turns: kid A reads off one category's count
+      ("4 apples"); kid B answers a comparison question ("Which
+      has the MOST? Which has the LEAST? How many MORE bananas
+      than oranges?"). Recast errors with visual count-along.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: chart-count worksheet (count
+      picture-icons per row). Station 2: matching worksheet (match
+      category-name to count). Station 3: more-less worksheet
+      (compare two categories' counts). Station 4: vocabulary-
+      tracing-strips for graph-reading vocabulary (most, least,
+      more, fewer).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class pictograph review. Teacher displays new pictograph
+      (4 weather-types over a week: sunny / cloudy / rainy /
+      snowy). Students count each row + answer 2-3 comparison
+      questions. Forward-pointer: "Today we read pictographs where
+      one picture = one item. When we come back next, we can
+      explore tally-charts where MARKS represent counts, OR move
+      to bar-graphs where heights represent counts!"
+
+composedExercises:
+  - appName: chart-count
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 4, themeSelect: fruits, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: more-less
+    exerciseMode: image-image
+    customizationParameters: { mode: image-image, count: 4, themeSelect: fruits, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: chart-count
+    exerciseMode: unified
+    customizationParameters: { themeSelect: weather, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: more-less
+    exerciseMode: image-image
+    customizationParameters: { mode: image-image, count: 5, themeSelect: vehicles, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: pictograph-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      categoryCount: 4
+      maxCountPerCategory: 8
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeAxisLabels: true
+    ordering: 3
+    pedagogicalRole: graph-reading-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: miscellaneous
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: category-set
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: math / data-and-graphs (pictograph interpretation
+    — saturates strand 4/4). Secondary strand: numeracy (counting
+    picture-icons per category). Tertiary strand: vocabulary-
+    acquisition (graph-reading vocabulary: most, least, more, fewer).
+
+    Architectural significance: SATURATES data-and-graphs strand at
+    4/4 — completes the strand established at Arc 12 with
+    interpret-simple-bar-graph + count-and-graph-categories. Bar-
+    graphs and pictographs are complementary K-3 graph-reading
+    entry points; both belong in a complete data-and-graphs
+    foundation. Pictographs are conceptually simpler (one-picture-
+    per-item) so could arguably PRECEDE bar-graphs in pedagogical
+    sequencing; we order them after bar-graphs in this strand
+    saturation because bar-graphs were Arc 12 and we extend the
+    strand pattern in Arc 14.
+
+    Distinctive composition: 2 chart-count + 2 more-less + 1
+    matching. Chart-count anchors counting-icons-per-category;
+    more-less anchors comparison vocabulary; matching anchors
+    category-name vocabulary. Three apps balance counting +
+    comparing + naming.
+
+    Class B FLEXIBLE substrate: composes against multiple themes
+    (animals, fruits, weather, vehicles) — pictographs work
+    naturally with categorical data, theme-flexible.
+
+    K-3 multilingual classroom relevance: graph-reading vocabulary
+    (more / fewer / most / least) varies across 11 platform locales
+    but visual graph reading is pre-verbal-friendly. Pictographs
+    accessible to early-language-learners; counting + comparing
+    can happen before category vocabulary fully established.
+
+curriculumStandards:
+  - CCSS.K.MD.B.3
+  - CCSS.1.MD.C.4
+  - EYFS.ELG.MATH
+  - IB-PYP.HowTheWorldWorks
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Count picture-icons in 4 categories accurately in 8 of 10
+        trials.
+      - Identify category with MOST in 8 of 10 trials.
+      - Identify category with LEAST in 7 of 10 trials.
+      - Compute difference between two categories ("4 dogs and 3
+        cats — 1 more dog") in 6 of 10 trials.
+
+    Differentiation:
+    - Pre-K: 2-3 categories with max 5 icons each.
+    - K: 3-4 categories with max 8 icons each.
+    - Grade 1+: extend to scaled pictographs (one picture = 2 items
+      OR 5 items) + bridge to tally-charts + bar-graphs.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

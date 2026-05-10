@@ -1,0 +1,76 @@
+# Pillar 2 Arc 3 Phase 2 themed bundle — Pets
+# Theme-anchored bundle (sub-theme of animals) composing 5 pet-themed
+# teaching packages spanning vocabulary + classification + action verbs.
+
+bundleSlug: pets
+themeAxisKey: pets
+language: en
+
+title:
+  en: "Pets — K-3 Themed Bundle"
+
+description:
+  en: "Comprehensive K-3 bundle centered on pet-animal vocabulary + receptive identification + cross-strand classification + action-verb work. 5 packages span vocabulary-acquisition (identify-and-name-10-pet-animals — productive pet vocabulary across cat, dog, fish, hamster, rabbit, etc.) + cognitive classification (classify-animals-by-diet — pets across carnivore/omnivore range; identify-living-vs-nonliving — pets as canonical living-things) + action-verbs (identify-and-name-action-verbs — pets do recognizable actions: sleep, eat, play, run) + multi-attribute description (point-to-named-color — pets vary in color richly). Sub-theme bundle (animals → pets) demonstrating pet-context relevance for K-3 students with home-pet exposure. Suitable for a 5-week classroom unit; supports K-3 multilingual classrooms in residential contexts where pet vocabulary is daily-life accessible."
+
+thumbnailUrl: "/bundles/pets-thumbnail.png"
+
+status: draft
+
+teachingPackageSlugs:
+  - identify-and-name-10-pet-animals
+  - classify-animals-by-diet
+  - identify-living-vs-nonliving
+  - identify-and-name-action-verbs
+  - point-to-named-color
+
+deckIds: []
+lessonPlanIds: []
+
+thematicCoherence:
+  en: |
+    All 5 packages cohere around the pets sub-theme + form a
+    pedagogical progression from receptive vocabulary through
+    productive vocabulary to classification + action-verb work.
+
+    **Pedagogical sequencing:**
+    1. **identify-and-name-10-pet-animals** — Productive pet
+       vocabulary (cat, dog, fish, hamster, rabbit, parakeet,
+       turtle, etc.). Anchor for the bundle; pets are familiar
+       to most K-3 students.
+    2. **point-to-named-color** — Receptive color vocabulary
+       paired with pet imagery (point to the orange cat; the
+       black dog; the green parakeet). Pet diversity supports
+       color-attribute exposure.
+    3. **classify-animals-by-diet** — Cognitive classification
+       using pet-diet contrasts (cat=carnivore; rabbit=herbivore;
+       dog=omnivore; hamster=omnivore). Familiar pets anchor
+       diet vocabulary work.
+    4. **identify-and-name-action-verbs** — Action verbs of pet
+       behavior (sleep, eat, play, run, jump). Connects pet
+       vocabulary to active observable behavior.
+    5. **identify-living-vs-nonliving** — Generalizes from pets-
+       as-living-things to broader living-things classification.
+       Same package shared with animals-bundle + farm-animals-
+       bundle for cross-bundle pedagogical coherence.
+
+    **Strand spread:** 1 vocabulary-acquisition (pet-vocab) + 1
+    vocabulary-acquisition (color-vocab) + 1 vocabulary-acquisition
+    (action-verbs) + 1 cognitive-sorting + 1 world-knowledge
+    living-things. **5 distinct strands in single bundle** —
+    broadest cross-strand pattern (parallel to occupations-
+    bundle).
+
+    **Suggested unit duration:** 5 weeks. 1 package per week.
+
+    **Multilingual classroom relevance:** pet vocabulary high-
+    frequency K-3 target across all 11 platform locales with
+    moderate cognate coverage (cat / chat / gato / Katze / kissa).
+    Particularly accessible for residential-context kids.
+
+    **Pillar 2 architectural pattern:** pets-bundle exemplifies
+    broadest-cross-strand bundle composition (5 strands in single
+    bundle). Sub-theme architecture (pets as sub-theme of animals)
+    parallel to farm-animals-bundle precedent established at Phase 1.
+    Demonstrates that animals theme can sustain MULTIPLE sub-theme
+    bundles (animals + farm-animals + pets) with distinct package
+    compositions per sub-context.

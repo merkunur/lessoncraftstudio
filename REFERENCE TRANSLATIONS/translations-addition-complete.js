@@ -210,7 +210,8 @@ const translations = {
     "endDeckMoreType": "More {type} worksheets",
     "endDeckMoreTheme": "More {theme} worksheets",
     "endDeckMoreLevel": "More worksheets for {level}",
-    "endDeckBrowseAll": "Browse all worksheets"
+    "endDeckBrowseAll": "Browse all worksheets",
+    "runtimeTitle": "Addition Practice"
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -410,7 +411,8 @@ const translations = {
     "endDeckMoreType": "Mehr {type}-Arbeitsblätter",
     "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
     "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
-    "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen"
+    "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
+    "runtimeTitle": "Additionsübung"
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",
@@ -599,7 +601,8 @@ const translations = {
     "selectBackgroundTheme": "Sélectionnez un thème pour les arrière-plans.",
     "selectBorderTheme": "Sélectionnez un thème pour afficher les bordures.",
     "uploadedImagesWillAppearHere": "Vos images téléversées apparaîtront ici.",
-    "showPlusSignBetweenGroups": "Afficher '+' entre les groupes d'images"
+    "showPlusSignBetweenGroups": "Afficher '+' entre les groupes d'images",
+    "runtimeTitle": "Exercices d'addition"
   },
   "es": {
     "exportToCatalog": "Exportar al catálogo",
@@ -788,7 +791,8 @@ const translations = {
     "selectBackgroundTheme": "Seleccione un tema para ver fondos.",
     "selectBorderTheme": "Seleccione un tema para ver bordes.",
     "uploadedImagesWillAppearHere": "Sus imágenes subidas aparecerán aquí.",
-    "showPlusSignBetweenGroups": "Mostrar '+' entre grupos de imágenes"
+    "showPlusSignBetweenGroups": "Mostrar '+' entre grupos de imágenes",
+    "runtimeTitle": "Práctica de Sumas"
   },
   "it": {
     "exportToCatalog": "Esporta nel catalogo",
@@ -977,7 +981,8 @@ const translations = {
     "selectBackgroundTheme": "Seleziona un tema per visualizzare gli sfondi.",
     "selectBorderTheme": "Seleziona un tema per visualizzare i bordi.",
     "uploadedImagesWillAppearHere": "Le tue immagini caricate appariranno qui.",
-    "showPlusSignBetweenGroups": "Mostra '+' tra i gruppi di immagini"
+    "showPlusSignBetweenGroups": "Mostra '+' tra i gruppi di immagini",
+    "runtimeTitle": "Esercizi di addizione"
   },
   "pt": {
     "exportToCatalog": "Exportar para o catálogo",
@@ -1166,7 +1171,8 @@ const translations = {
     "selectBackgroundTheme": "Selecione um tema para ver fundos.",
     "selectBorderTheme": "Selecione um tema para ver bordas.",
     "uploadedImagesWillAppearHere": "As suas imagens carregadas aparecerão aqui.",
-    "showPlusSignBetweenGroups": "Mostrar '+' entre grupos de imagens"
+    "showPlusSignBetweenGroups": "Mostrar '+' entre grupos de imagens",
+    "runtimeTitle": "Prática de Adição"
   },
   "nl": {
     "exportToCatalog": "Naar catalogus exporteren",
@@ -1355,7 +1361,8 @@ const translations = {
     "selectBackgroundTheme": "Selecteer een thema voor achtergronden.",
     "selectBorderTheme": "Selecteer een thema om randen te zien.",
     "uploadedImagesWillAppearHere": "Uw geüploade afbeeldingen verschijnen hier.",
-    "showPlusSignBetweenGroups": "'+' tussen afbeeldingsgroepen tonen"
+    "showPlusSignBetweenGroups": "'+' tussen afbeeldingsgroepen tonen",
+    "runtimeTitle": "Optellen oefenen"
   },
   "sv": {
     "exportToCatalog": "Exportera till katalog",
@@ -1544,7 +1551,8 @@ const translations = {
     "selectBackgroundTheme": "Välj ett tema för att se bakgrunder.",
     "selectBorderTheme": "Välj ett tema för att se ramar.",
     "uploadedImagesWillAppearHere": "Dina uppladdade bilder visas här.",
-    "showPlusSignBetweenGroups": "Visa '+' mellan bildgrupper"
+    "showPlusSignBetweenGroups": "Visa '+' mellan bildgrupper",
+    "runtimeTitle": "Additionsövning"
   },
   "da": {
     "exportToCatalog": "Eksporter til kataloget",
@@ -1733,7 +1741,8 @@ const translations = {
     "selectBackgroundTheme": "Vælg et tema for at se baggrunde.",
     "selectBorderTheme": "Vælg et tema for at se rammer.",
     "uploadedImagesWillAppearHere": "Dine uploadede billeder vises her.",
-    "showPlusSignBetweenGroups": "Vis '+' mellem billedgrupper"
+    "showPlusSignBetweenGroups": "Vis '+' mellem billedgrupper",
+    "runtimeTitle": "Additionsøvelse"
   },
   "no": {
     "exportToCatalog": "Eksporter til katalog",
@@ -1922,7 +1931,8 @@ const translations = {
     "selectBackgroundTheme": "Velg et tema for å se bakgrunner.",
     "selectBorderTheme": "Velg et tema for å se rammer.",
     "uploadedImagesWillAppearHere": "Dine opplastede bilder vises her.",
-    "showPlusSignBetweenGroups": "Vis '+' mellom bildegrupper"
+    "showPlusSignBetweenGroups": "Vis '+' mellom bildegrupper",
+    "runtimeTitle": "Addisjonsøving"
   },
   "fi": {
     "exportToCatalog": "Vie katalogiin",
@@ -2111,7 +2121,8 @@ const translations = {
     "selectBackgroundTheme": "Valitse teema nähdäksesi taustat.",
     "selectBorderTheme": "Valitse teema nähdäksesi reunukset.",
     "uploadedImagesWillAppearHere": "Lataamasi kuvat näkyvät täällä.",
-    "showPlusSignBetweenGroups": "Näytä '+' kuvaryhmien välissä"
+    "showPlusSignBetweenGroups": "Näytä '+' kuvaryhmien välissä",
+    "runtimeTitle": "Yhteenlaskuharjoitus"
   }
 };
 

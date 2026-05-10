@@ -5,7 +5,7 @@
 **Estimated phases:** 3 sub-commits per arc (mirroring Arc 3 shape)
 **Estimated LoC:** ~1500-2500
 **Estimated sessions:** 1-2
-**Status: DRAFT — operator ratification pending at Pillar 2 Arc 3 Phase 3 close.**
+**Status: RATIFIED 2026-05-11 — operator (i) ratification at Arc 14 Phase 4 close. β shape continuation with Arc 15. Shape choice (A/B/C) adjudicator-forward per CC at commencement.**
 
 ## 1. Context
 

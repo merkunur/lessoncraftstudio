@@ -86,7 +86,25 @@ const SHARED_TRANSLATIONS = {
     // surfaces. Promoted to shared per §14.3a ≥2-consumer rule (29 consumers).
     "seoFreeInteractive": "Free interactive",
     "seoFor": "for",
-    "seoPrintOrPlayOnline": "Print or play online"
+    "seoPrintOrPlayOnline": "Print or play online",
+
+    // Runtime UI v1 — labels for the embedded interactive runtime inside
+    // deck.html (buttons, progress, celebration overlay, score card).
+    // Previously baked into each app's per-app STRINGS object with only
+    // English entries — non-en decks displayed English UI overlay regardless
+    // of contentLanguage. Promoted to shared per §14.3a (all 29 apps consume).
+    "runtimeCheckAnswers": "Check Answers",
+    "runtimeTryAgain": "Try Again",
+    "runtimeAllCorrect": "All correct!",
+    "runtimeYouDidIt": "You did it!",
+    "runtimeDoAnother": "Do Another",
+    "runtimePrintMyWorksheet": "Print my worksheet",
+    "runtimeMute": "Mute sounds",
+    "runtimeUnmute": "Turn sounds on",
+    "runtimeCorrect": "correct",
+    "runtimeScore": "{n} of {total} correct",
+    "runtimeProgressLabel": "{n} / {total}",
+    "runtimeFirstTryStars": "first-try stars"
   },
   "de": {
     "srShapeSquare": "Quadrat",
@@ -131,7 +149,19 @@ const SHARED_TRANSLATIONS = {
     "deckEndSuggestionsHeader": "Probiere als Nächstes eines davon:",
     "seoFreeInteractive": "Kostenloses interaktives",
     "seoFor": "für",
-    "seoPrintOrPlayOnline": "Drucken oder online spielen"
+    "seoPrintOrPlayOnline": "Drucken oder online spielen",
+    "runtimeCheckAnswers": "Antworten prüfen",
+    "runtimeTryAgain": "Erneut versuchen",
+    "runtimeAllCorrect": "Alles richtig!",
+    "runtimeYouDidIt": "Geschafft!",
+    "runtimeDoAnother": "Noch eins",
+    "runtimePrintMyWorksheet": "Mein Arbeitsblatt drucken",
+    "runtimeMute": "Töne stummschalten",
+    "runtimeUnmute": "Töne einschalten",
+    "runtimeCorrect": "richtig",
+    "runtimeScore": "{n} von {total} richtig",
+    "runtimeProgressLabel": "{n} / {total}",
+    "runtimeFirstTryStars": "Sterne im ersten Versuch"
   },
 
   // Tier-1+2 + Tier-4 Romance locales — operator-best-effort embed authoring
@@ -154,7 +184,19 @@ const SHARED_TRANSLATIONS = {
     "deckEndSuggestionsHeader": "Prueba uno de estos a continuación:",
     "seoFreeInteractive": "Hoja interactiva gratuita",
     "seoFor": "para",
-    "seoPrintOrPlayOnline": "Imprimir o jugar en línea"
+    "seoPrintOrPlayOnline": "Imprimir o jugar en línea",
+    "runtimeCheckAnswers": "Comprobar respuestas",
+    "runtimeTryAgain": "Intentar de nuevo",
+    "runtimeAllCorrect": "¡Todo correcto!",
+    "runtimeYouDidIt": "¡Lo lograste!",
+    "runtimeDoAnother": "Hacer otra",
+    "runtimePrintMyWorksheet": "Imprimir mi hoja",
+    "runtimeMute": "Silenciar sonidos",
+    "runtimeUnmute": "Activar sonidos",
+    "runtimeCorrect": "correctas",
+    "runtimeScore": "{n} de {total} correctas",
+    "runtimeProgressLabel": "{n} / {total}",
+    "runtimeFirstTryStars": "estrellas al primer intento"
   },
   "nl": {
     "embedHeader": "Dit werkblad op je site insluiten",
@@ -172,7 +214,19 @@ const SHARED_TRANSLATIONS = {
     "deckEndSuggestionsHeader": "Probeer hierna een van deze:",
     "seoFreeInteractive": "Gratis interactief",
     "seoFor": "voor",
-    "seoPrintOrPlayOnline": "Print of speel online"
+    "seoPrintOrPlayOnline": "Print of speel online",
+    "runtimeCheckAnswers": "Antwoorden controleren",
+    "runtimeTryAgain": "Opnieuw proberen",
+    "runtimeAllCorrect": "Alles goed!",
+    "runtimeYouDidIt": "Gelukt!",
+    "runtimeDoAnother": "Nog een",
+    "runtimePrintMyWorksheet": "Mijn werkblad printen",
+    "runtimeMute": "Geluid uit",
+    "runtimeUnmute": "Geluid aan",
+    "runtimeCorrect": "goed",
+    "runtimeScore": "{n} van {total} goed",
+    "runtimeProgressLabel": "{n} / {total}",
+    "runtimeFirstTryStars": "sterren in eerste poging"
   },
   "fr": {
     "embedHeader": "Intégrer cette fiche sur votre site",
@@ -190,7 +244,19 @@ const SHARED_TRANSLATIONS = {
     "deckEndSuggestionsHeader": "Essaie l'un de ceux-ci ensuite :",
     "seoFreeInteractive": "Fiche interactive gratuite",
     "seoFor": "pour",
-    "seoPrintOrPlayOnline": "Imprimer ou jouer en ligne"
+    "seoPrintOrPlayOnline": "Imprimer ou jouer en ligne",
+    "runtimeCheckAnswers": "Vérifier les réponses",
+    "runtimeTryAgain": "Réessayer",
+    "runtimeAllCorrect": "Tout est correct !",
+    "runtimeYouDidIt": "Bravo !",
+    "runtimeDoAnother": "Faire une autre",
+    "runtimePrintMyWorksheet": "Imprimer ma fiche",
+    "runtimeMute": "Couper le son",
+    "runtimeUnmute": "Activer le son",
+    "runtimeCorrect": "correct",
+    "runtimeScore": "{n} sur {total} correct",
+    "runtimeProgressLabel": "{n} / {total}",
+    "runtimeFirstTryStars": "étoiles au premier essai"
   },
   "it": {
     "embedHeader": "Incorpora questa scheda sul tuo sito",
@@ -208,7 +274,19 @@ const SHARED_TRANSLATIONS = {
     "deckEndSuggestionsHeader": "Prova uno di questi dopo:",
     "seoFreeInteractive": "Scheda interattiva gratuita",
     "seoFor": "per",
-    "seoPrintOrPlayOnline": "Stampa o gioca online"
+    "seoPrintOrPlayOnline": "Stampa o gioca online",
+    "runtimeCheckAnswers": "Controlla risposte",
+    "runtimeTryAgain": "Riprova",
+    "runtimeAllCorrect": "Tutto corretto!",
+    "runtimeYouDidIt": "Bravo!",
+    "runtimeDoAnother": "Fai un'altra",
+    "runtimePrintMyWorksheet": "Stampa la mia scheda",
+    "runtimeMute": "Silenzia suoni",
+    "runtimeUnmute": "Attiva suoni",
+    "runtimeCorrect": "corretto",
+    "runtimeScore": "{n} su {total} corretto",
+    "runtimeProgressLabel": "{n} / {total}",
+    "runtimeFirstTryStars": "stelle al primo tentativo"
   },
   "pt": {
     // Brazilian Portuguese canonical per §6 (single 'pt' locale code; BR register).
@@ -227,7 +305,19 @@ const SHARED_TRANSLATIONS = {
     "deckEndSuggestionsHeader": "Experimente um destes a seguir:",
     "seoFreeInteractive": "Atividade interativa gratuita",
     "seoFor": "para",
-    "seoPrintOrPlayOnline": "Imprimir ou jogar online"
+    "seoPrintOrPlayOnline": "Imprimir ou jogar online",
+    "runtimeCheckAnswers": "Verificar respostas",
+    "runtimeTryAgain": "Tentar de novo",
+    "runtimeAllCorrect": "Tudo correto!",
+    "runtimeYouDidIt": "Você conseguiu!",
+    "runtimeDoAnother": "Fazer outra",
+    "runtimePrintMyWorksheet": "Imprimir minha atividade",
+    "runtimeMute": "Silenciar sons",
+    "runtimeUnmute": "Ativar sons",
+    "runtimeCorrect": "correto",
+    "runtimeScore": "{n} de {total} correto",
+    "runtimeProgressLabel": "{n} / {total}",
+    "runtimeFirstTryStars": "estrelas na primeira tentativa"
   },
 
   // Nordic locales — operator-best-effort embed authoring + NSR-flagged
@@ -252,7 +342,20 @@ const SHARED_TRANSLATIONS = {
     // NSR-flagged per §17.5.1 Nordic-tier review posture
     "seoFreeInteractive": "Gratis interaktivt",
     "seoFor": "för",
-    "seoPrintOrPlayOnline": "Skriv ut eller spela online"
+    "seoPrintOrPlayOnline": "Skriv ut eller spela online",
+    // NSR-flagged per §17.5.1 Nordic-tier review posture
+    "runtimeCheckAnswers": "Kontrollera svar",
+    "runtimeTryAgain": "Försök igen",
+    "runtimeAllCorrect": "Allt rätt!",
+    "runtimeYouDidIt": "Du klarade det!",
+    "runtimeDoAnother": "Gör en till",
+    "runtimePrintMyWorksheet": "Skriv ut mitt arbetsblad",
+    "runtimeMute": "Stäng av ljud",
+    "runtimeUnmute": "Slå på ljud",
+    "runtimeCorrect": "rätt",
+    "runtimeScore": "{n} av {total} rätt",
+    "runtimeProgressLabel": "{n} / {total}",
+    "runtimeFirstTryStars": "stjärnor på första försöket"
   },
   "da": {
     "embedHeader": "Indlejr dette arbejdsark på dit websted",
@@ -272,7 +375,20 @@ const SHARED_TRANSLATIONS = {
     // NSR-flagged per §17.5.1 Nordic-tier review posture
     "seoFreeInteractive": "Gratis interaktivt",
     "seoFor": "for",
-    "seoPrintOrPlayOnline": "Print eller spil online"
+    "seoPrintOrPlayOnline": "Print eller spil online",
+    // NSR-flagged per §17.5.1 Nordic-tier review posture
+    "runtimeCheckAnswers": "Kontroller svar",
+    "runtimeTryAgain": "Prøv igen",
+    "runtimeAllCorrect": "Alt rigtigt!",
+    "runtimeYouDidIt": "Du klarede det!",
+    "runtimeDoAnother": "Lav en til",
+    "runtimePrintMyWorksheet": "Udskriv mit arbejdsark",
+    "runtimeMute": "Slå lyd fra",
+    "runtimeUnmute": "Slå lyd til",
+    "runtimeCorrect": "rigtigt",
+    "runtimeScore": "{n} ud af {total} rigtigt",
+    "runtimeProgressLabel": "{n} / {total}",
+    "runtimeFirstTryStars": "stjerner i første forsøg"
   },
   "no": {
     // Bokmål canonical per §6 (single 'no' locale code).
@@ -293,7 +409,20 @@ const SHARED_TRANSLATIONS = {
     // NSR-flagged per §17.5.1 Nordic-tier review posture
     "seoFreeInteractive": "Gratis interaktivt",
     "seoFor": "for",
-    "seoPrintOrPlayOnline": "Skriv ut eller spill på nett"
+    "seoPrintOrPlayOnline": "Skriv ut eller spill på nett",
+    // NSR-flagged per §17.5.1 Nordic-tier review posture
+    "runtimeCheckAnswers": "Sjekk svar",
+    "runtimeTryAgain": "Prøv igjen",
+    "runtimeAllCorrect": "Alt riktig!",
+    "runtimeYouDidIt": "Du klarte det!",
+    "runtimeDoAnother": "Gjør en til",
+    "runtimePrintMyWorksheet": "Skriv ut arbeidsarket",
+    "runtimeMute": "Slå av lyd",
+    "runtimeUnmute": "Slå på lyd",
+    "runtimeCorrect": "riktig",
+    "runtimeScore": "{n} av {total} riktig",
+    "runtimeProgressLabel": "{n} / {total}",
+    "runtimeFirstTryStars": "stjerner på første forsøk"
   },
   "fi": {
     "embedHeader": "Upota tämä työarkki sivustollesi",
@@ -313,7 +442,20 @@ const SHARED_TRANSLATIONS = {
     // NSR-flagged per §17.5.1 Nordic-tier review posture
     "seoFreeInteractive": "Ilmainen interaktiivinen",
     "seoFor": "tasolle",
-    "seoPrintOrPlayOnline": "Tulosta tai pelaa verkossa"
+    "seoPrintOrPlayOnline": "Tulosta tai pelaa verkossa",
+    // NSR-flagged per §17.5.1 Nordic-tier review posture
+    "runtimeCheckAnswers": "Tarkista vastaukset",
+    "runtimeTryAgain": "Yritä uudelleen",
+    "runtimeAllCorrect": "Kaikki oikein!",
+    "runtimeYouDidIt": "Sinä teit sen!",
+    "runtimeDoAnother": "Tee toinen",
+    "runtimePrintMyWorksheet": "Tulosta työarkkini",
+    "runtimeMute": "Mykistä äänet",
+    "runtimeUnmute": "Avaa äänet",
+    "runtimeCorrect": "oikein",
+    "runtimeScore": "{n}/{total} oikein",
+    "runtimeProgressLabel": "{n} / {total}",
+    "runtimeFirstTryStars": "tähteä ensimmäisellä yrityksellä"
   }
 };
 

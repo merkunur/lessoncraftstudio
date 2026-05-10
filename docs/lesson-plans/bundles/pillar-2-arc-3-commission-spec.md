@@ -5,7 +5,7 @@
 **Estimated phases:** 3 sub-commits per arc
 **Estimated LoC:** ~1500-2500
 **Estimated sessions:** 1-2
-**Status: DRAFT — operator ratification pending at Pillar 2 Arc 2 Phase 3 close.**
+**Status: RATIFIED 2026-05-10 — operator Phase 2 batch (substrate-audit/priority-queue commission). β shape with Arc 14 concurrent. Shape A (3-4 new bundles) default adjudicator-forward per spec.**
 
 ## 1. Context
 

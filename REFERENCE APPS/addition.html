@@ -4527,14 +4527,42 @@
             })
             : null;
 
+        // Runtime UI strings — built from window.translations[contentLanguage]
+        // so the embedded interactive runtime in deck.html displays in the
+        // deck's content language rather than always-English. Per §14.3a
+        // ≥2-consumer rule the 12 universal keys live in translations-shared.js
+        // (runtimeCheckAnswers / runtimeTryAgain / runtimeYouDidIt / etc.);
+        // per-app title falls through to English literal until Phase 2b adds
+        // runtimeTitle to translations-addition.js.
+        var contentLang = (window.currentLocale || (languageSelect && languageSelect.value) || 'en');
+        var trans = (window.translations && window.translations[contentLang]) || {};
+        var enTrans = (window.translations && window.translations.en) || {};
+        function _rt(key, fallback) { return trans[key] || enTrans[key] || fallback; }
+        var runtimeStrings = {
+            title: _rt('runtimeTitle', 'Addition Practice'),
+            checkAnswers: _rt('runtimeCheckAnswers', 'Check Answers'),
+            tryAgain: _rt('runtimeTryAgain', 'Try Again'),
+            youDidIt: _rt('runtimeYouDidIt', 'You did it!'),
+            doAnother: _rt('runtimeDoAnother', 'Do Another'),
+            printMyWorksheet: _rt('runtimePrintMyWorksheet', 'Print my worksheet'),
+            mute: _rt('runtimeMute', 'Mute sounds'),
+            unmute: _rt('runtimeUnmute', 'Turn sounds on'),
+            problemNumber: _rt('runtimeProblemNumber', 'Problem'),
+            correct: _rt('runtimeCorrect', 'correct'),
+            score: _rt('runtimeScore', '{n} of {total} correct'),
+            firstTryStars: _rt('runtimeFirstTryStars', 'first-try stars'),
+            allCorrect: _rt('runtimeAllCorrect', 'All correct!')
+        };
+
         return {
-            bundleVersion: '5.1.0',
+            bundleVersion: '5.2.0',
             schemaFormat: 'image-references-v2',
             loadingMode: loadingMode,
             appType: 'addition',
             createdAt: new Date().toISOString(),
-            contentLanguage: (window.currentLocale || (languageSelect && languageSelect.value) || 'en'),
-            title: 'Addition Practice',
+            contentLanguage: contentLang,
+            title: runtimeStrings.title,
+            runtimeStrings: runtimeStrings,
             theme: worksheetTheme,
             seoMeta: seoMeta,
             seoTrace: seoTrace,
@@ -4653,10 +4681,12 @@
     var INTERACTIVE_RUNTIME_LINES = [
         '(function(){',
         '  "use strict";',
-        '  var STRINGS = {',
-        '    en:{title:"Addition Practice",checkAnswers:"Check Answers",tryAgain:"Try Again",youDidIt:"You did it!",doAnother:"Do Another",printMyWorksheet:"Print my worksheet",mute:"Mute sounds",unmute:"Turn sounds on",problemNumber:"Problem",correct:"correct",score:"{n} of {total} correct",firstTryStars:"first-try stars",allCorrect:"All correct!"}',
-        '  };',
-        '  function T(key){var loc=(DECK_BUNDLE.contentLanguage||"en").slice(0,2);var t=STRINGS[loc]||STRINGS.en;return t[key]||STRINGS.en[key]||key}',
+        '  // Runtime UI strings — sourced from DECK_BUNDLE.runtimeStrings which',
+        '  // extractDeckBundle populated from window.translations[contentLanguage]',
+        '  // at generation time. Fallback to English literals for legacy decks',
+        '  // generated before bundle v5.2.0.',
+        '  var STRINGS = (DECK_BUNDLE && DECK_BUNDLE.runtimeStrings) || {title:"Addition Practice",checkAnswers:"Check Answers",tryAgain:"Try Again",youDidIt:"You did it!",doAnother:"Do Another",printMyWorksheet:"Print my worksheet",mute:"Mute sounds",unmute:"Turn sounds on",problemNumber:"Problem",correct:"correct",score:"{n} of {total} correct",firstTryStars:"first-try stars",allCorrect:"All correct!"};',
+        '  function T(key){return STRINGS[key]||key}',
         '',
         '  var state=DECK_BUNDLE.problems.map(function(p){return{index:p.index,operandA:p.operandA,operandB:p.operandB,mode:p.resolvedMode||"image-image",inputRect:p.inputRect,value:"",status:"empty"}});',
         '  var muted=false;try{muted=localStorage.getItem("lcsMuted")==="1"}catch(e){}',
@@ -5080,8 +5110,8 @@
         parts.push('  </div>');
         parts.push('</main>');
         parts.push('<footer class="lcs-footer">');
-        parts.push('  <button type="button" id="lcs-check" class="lcs-btn lcs-btn--primary" disabled>Check Answers</button>');
-        parts.push('  <button type="button" id="lcs-reset" class="lcs-btn lcs-btn--ghost" hidden>Try Again</button>');
+        parts.push('  <button type="button" id="lcs-check" class="lcs-btn lcs-btn--primary" disabled>' + escapeHtml(bundle.runtimeStrings.checkAnswers) + '</button>');
+        parts.push('  <button type="button" id="lcs-reset" class="lcs-btn lcs-btn--ghost" hidden>' + escapeHtml(bundle.runtimeStrings.tryAgain) + '</button>');
         parts.push('  <span id="lcs-summary" class="lcs-summary" aria-live="polite"></span>');
         parts.push('</footer>');
         if (endDeckLinks) {

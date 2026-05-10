@@ -212,7 +212,8 @@ const translations = {
     "endDeckBrowseAll": "Browse all worksheets",
     "srExerciseShadowMatchShadow": "Question {n}: Match the {item} to its shadow.",
     "srExerciseShadowMatchMakeItWholeHorizontal": "Question {n}: Match the top half of the {item} to its bottom half.",
-    "srExerciseShadowMatchMakeItWholeVertical": "Question {n}: Match the left half of the {item} to its right half."
+    "srExerciseShadowMatchMakeItWholeVertical": "Question {n}: Match the left half of the {item} to its right half.",
+    "runtimeTitle": "Shadow Match"
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -421,7 +422,8 @@ const translations = {
     "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
     "srExerciseShadowMatchShadow": "Frage {n}: Verbinde das {item} mit seinem Schatten.",
     "srExerciseShadowMatchMakeItWholeHorizontal": "Frage {n}: Verbinde die obere Hälfte des {item} mit seiner unteren Hälfte.",
-    "srExerciseShadowMatchMakeItWholeVertical": "Frage {n}: Verbinde die linke Hälfte des {item} mit seiner rechten Hälfte."
+    "srExerciseShadowMatchMakeItWholeVertical": "Frage {n}: Verbinde die linke Hälfte des {item} mit seiner rechten Hälfte.",
+    "runtimeTitle": "Schatten-Zuordnung"
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",
@@ -617,7 +619,8 @@ const translations = {
     "toolbar.center.v": "Centrer Verticalement",
     "toolbar.delete": "Supprimer la Sélection",
     "toolbar.layers": "Calques",
-    "toolbar.send.backward": "Reculer"
+    "toolbar.send.backward": "Reculer",
+    "runtimeTitle": "Associations d'ombres"
   },
   "es": {
     "exportToCatalog": "Exportar al catálogo",
@@ -813,7 +816,8 @@ const translations = {
     "toolbar.center.v": "Centrar Verticalmente",
     "toolbar.delete": "Eliminar Selección",
     "toolbar.layers": "Capas",
-    "toolbar.send.backward": "Enviar Atrás"
+    "toolbar.send.backward": "Enviar Atrás",
+    "runtimeTitle": "Emparejar Sombras"
   },
   "it": {
     "exportToCatalog": "Esporta nel catalogo",
@@ -1011,7 +1015,8 @@ const translations = {
     "toolbar.center.v": "Centra Verticalmente",
     "toolbar.delete": "Elimina Selezione",
     "toolbar.layers": "Livelli",
-    "toolbar.send.backward": "Porta Indietro"
+    "toolbar.send.backward": "Porta Indietro",
+    "runtimeTitle": "Abbinamento di Ombre"
   },
   "pt": {
     "exportToCatalog": "Exportar para o catálogo",
@@ -1207,7 +1212,8 @@ const translations = {
     "toolbar.center.v": "Centralizar Verticalmente",
     "toolbar.delete": "Excluir Seleção",
     "toolbar.layers": "Camadas",
-    "toolbar.send.backward": "Enviar para Trás"
+    "toolbar.send.backward": "Enviar para Trás",
+    "runtimeTitle": "Combinar Sombras"
   },
   "nl": {
     "exportToCatalog": "Naar catalogus exporteren",
@@ -1403,7 +1409,8 @@ const translations = {
     "toolbar.center.v": "Verticaal Centreren",
     "toolbar.delete": "Selectie Verwijderen",
     "toolbar.layers": "Lagen",
-    "toolbar.send.backward": "Naar Achteren"
+    "toolbar.send.backward": "Naar Achteren",
+    "runtimeTitle": "Schaduwen matchen"
   },
   "sv": {
     "exportToCatalog": "Exportera till katalog",
@@ -1599,7 +1606,8 @@ const translations = {
     "toolbar.center.v": "Centrera vertikalt",
     "toolbar.delete": "Ta bort markering",
     "toolbar.layers": "Lager",
-    "toolbar.send.backward": "Flytta bakåt"
+    "toolbar.send.backward": "Flytta bakåt",
+    "runtimeTitle": "Skuggmatchning"
   },
   "da": {
     "exportToCatalog": "Eksporter til kataloget",
@@ -1795,7 +1803,8 @@ const translations = {
     "toolbar.center.v": "Centrer Lodret",
     "toolbar.delete": "Slet Markering",
     "toolbar.layers": "Lag",
-    "toolbar.send.backward": "Flyt Bagud"
+    "toolbar.send.backward": "Flyt Bagud",
+    "runtimeTitle": "Skyggematch"
   },
   "no": {
     "exportToCatalog": "Eksporter til katalog",
@@ -1991,7 +2000,8 @@ const translations = {
     "toolbar.center.v": "Sentrer Vertikalt",
     "toolbar.delete": "Slett Markering",
     "toolbar.layers": "Lag",
-    "toolbar.send.backward": "Flytt Bakover"
+    "toolbar.send.backward": "Flytt Bakover",
+    "runtimeTitle": "Skyggematch"
   },
   "fi": {
     "exportToCatalog": "Vie katalogiin",
@@ -2187,7 +2197,8 @@ const translations = {
     "toolbar.center.v": "Keskitä pystysuunnassa",
     "toolbar.delete": "Poista valinta",
     "toolbar.layers": "Tasot",
-    "toolbar.send.backward": "Vie taakse"
+    "toolbar.send.backward": "Vie taakse",
+    "runtimeTitle": "Varjojen yhdistäminen"
   }
 };
 

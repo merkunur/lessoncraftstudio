@@ -223,7 +223,8 @@ const translations = {
     "endDeckMoreTheme": "More {theme} worksheets",
     "endDeckMoreLevel": "More worksheets for {level}",
     "endDeckBrowseAll": "Browse all worksheets",
-    "srExerciseWordScramble": "Question {n}: Unscramble the letters {scrambledLetters} to spell the word for the picture shown."
+    "srExerciseWordScramble": "Question {n}: Unscramble the letters {scrambledLetters} to spell the word for the picture shown.",
+    "runtimeTitle": "Word Scramble Practice"
   },
 
     de: {
@@ -445,7 +446,8 @@ const translations = {
     "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
     "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
     "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
-    "srExerciseWordScramble": "Frage {n}: Entwirre die Buchstaben {scrambledLetters}, um das Wort zum gezeigten Bild zu schreiben."
+    "srExerciseWordScramble": "Frage {n}: Entwirre die Buchstaben {scrambledLetters}, um das Wort zum gezeigten Bild zu schreiben.",
+    "runtimeTitle": "Wörter-Mix-Übung"
   },
 
     fr: {
@@ -656,7 +658,8 @@ const translations = {
         "answerKeyJpeg": "Corrigé (JPEG)",
         "worksheetPdf": "Fiche d'exercices (PDF)",
         "answerKeyPdf": "Corrigé (PDF)",
-        "grayscale": "Niveaux de gris"
+        "grayscale": "Niveaux de gris",
+    "runtimeTitle": "Exercices mots mélangés"
     },
 
     es: {
@@ -868,7 +871,8 @@ const translations = {
         "answerKeyJpeg": "Hoja de Respuestas (JPEG)",
         "worksheetPdf": "Hoja de Ejercicios (PDF)",
         "answerKeyPdf": "Hoja de Respuestas (PDF)",
-        "grayscale": "Escala de Grises"
+        "grayscale": "Escala de Grises",
+    "runtimeTitle": "Práctica de Palabras Desordenadas"
     },
 
     it: {
@@ -1080,7 +1084,8 @@ const translations = {
         "answerKeyJpeg": "Soluzioni (JPEG)",
         "worksheetPdf": "Scheda didattica (PDF)",
         "answerKeyPdf": "Soluzioni (PDF)",
-        "grayscale": "Scala di grigi"
+        "grayscale": "Scala di grigi",
+    "runtimeTitle": "Esercizi parole mescolate"
     },
 
     pt: {
@@ -1291,7 +1296,8 @@ const translations = {
         "answerKeyJpeg": "Gabarito (JPEG)",
         "worksheetPdf": "Folha de Atividades (PDF)",
         "answerKeyPdf": "Gabarito (PDF)",
-        "grayscale": "Escala de Cinza"
+        "grayscale": "Escala de Cinza",
+    "runtimeTitle": "Prática de Palavras Embaralhadas"
     },
 
     nl: {
@@ -1502,7 +1508,8 @@ const translations = {
         "answerKeyJpeg": "Antwoordblad (JPEG)",
         "worksheetPdf": "Werkblad (PDF)",
         "answerKeyPdf": "Antwoordblad (PDF)",
-        "grayscale": "Grijstinten"
+        "grayscale": "Grijstinten",
+    "runtimeTitle": "Woorddoorelkaar oefenen"
     },
 
     sv: {
@@ -1714,7 +1721,8 @@ const translations = {
         "answerKeyJpeg": "Facit (JPEG)",
         "worksheetPdf": "Övningsblad (PDF)",
         "answerKeyPdf": "Facit (PDF)",
-        "grayscale": "Gråskala"
+        "grayscale": "Gråskala",
+    "runtimeTitle": "Bokstavskramla-övning"
     },
 
     da: {
@@ -1926,7 +1934,8 @@ const translations = {
         "answerKeyJpeg": "Facitliste (JPEG)",
         "worksheetPdf": "Opgaveark (PDF)",
         "answerKeyPdf": "Facitliste (PDF)",
-        "grayscale": "Gråtoner"
+        "grayscale": "Gråtoner",
+    "runtimeTitle": "Bogstavsalat-øvelse"
     },
 
     no: {
@@ -2138,7 +2147,8 @@ const translations = {
         "answerKeyJpeg": "Fasit (JPEG)",
         "worksheetPdf": "Oppgaveark (PDF)",
         "answerKeyPdf": "Fasit (PDF)",
-        "grayscale": "Gråtoner"
+        "grayscale": "Gråtoner",
+    "runtimeTitle": "Bokstavkrøll-øving"
     },
 
     fi: {
@@ -2350,6 +2360,7 @@ const translations = {
         "answerKeyJpeg": "Vastaukset (JPEG)",
         "worksheetPdf": "Tehtävämoniste (PDF)",
         "answerKeyPdf": "Vastaukset (PDF)",
-        "grayscale": "Harmaasävy"
+        "grayscale": "Harmaasävy",
+    "runtimeTitle": "Sanasekoitus-harjoitus"
     }
 };

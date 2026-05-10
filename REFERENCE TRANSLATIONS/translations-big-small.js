@@ -216,7 +216,8 @@ const BIG_SMALL_TRANSLATIONS = {
     "srExerciseBigSmallFindBig": "Question {n}: Circle the biggest one.",
     "srExerciseBigSmallFindMed": "Question {n}: Circle the medium-sized one.",
     "srExerciseBigSmallOrderAsc": "Question {n}: Number the {N} pictures from smallest (1) to biggest.",
-    "srExerciseBigSmallOrderDesc": "Question {n}: Number the {N} pictures from biggest (1) to smallest."
+    "srExerciseBigSmallOrderDesc": "Question {n}: Number the {N} pictures from biggest (1) to smallest.",
+    "runtimeTitle": "Big or Small?"
   },
 
   "de": {
@@ -415,7 +416,8 @@ const BIG_SMALL_TRANSLATIONS = {
     "srExerciseBigSmallFindBig": "Frage {n}: Kreise das größte ein.",
     "srExerciseBigSmallFindMed": "Frage {n}: Kreise das mittelgroße ein.",
     "srExerciseBigSmallOrderAsc": "Frage {n}: Nummeriere die {N} Bilder vom kleinsten (1) bis zum größten.",
-    "srExerciseBigSmallOrderDesc": "Frage {n}: Nummeriere die {N} Bilder vom größten (1) bis zum kleinsten."
+    "srExerciseBigSmallOrderDesc": "Frage {n}: Nummeriere die {N} Bilder vom größten (1) bis zum kleinsten.",
+    "runtimeTitle": "Groß oder klein?"
   },
 
   "fr": {
@@ -599,7 +601,8 @@ const BIG_SMALL_TRANSLATIONS = {
     "bigsmall.asset.none": "Aucun(e) {type} disponible.",
     "bigsmall.asset.error": "Erreur lors du chargement des {type}.",
     "bigsmall.watermark.text": "VERSION GRATUITE - LessonCraftStudio.com",
-    "bigsmall.watermark.short": "VERSION GRATUITE"
+    "bigsmall.watermark.short": "VERSION GRATUITE",
+    "runtimeTitle": "Grand ou petit ?"
   },
 
   "es": {
@@ -782,7 +785,8 @@ const BIG_SMALL_TRANSLATIONS = {
     "bigsmall.asset.none": "No hay {type} disponibles.",
     "bigsmall.asset.error": "Error al cargar {type}.",
     "bigsmall.watermark.text": "VERSIÓN GRATUITA - LessonCraftStudio.com",
-    "bigsmall.watermark.short": "VERSIÓN GRATUITA"
+    "bigsmall.watermark.short": "VERSIÓN GRATUITA",
+    "runtimeTitle": "¿Grande o pequeño?"
   },
 
   "it": {
@@ -968,7 +972,8 @@ const BIG_SMALL_TRANSLATIONS = {
     "bigsmall.asset.none": "Nessun {type} disponibile.",
     "bigsmall.asset.error": "Errore nel caricamento di {type}.",
     "bigsmall.watermark.text": "VERSIONE GRATUITA - LessonCraftStudio.com",
-    "bigsmall.watermark.short": "VERSIONE GRATUITA"
+    "bigsmall.watermark.short": "VERSIONE GRATUITA",
+    "runtimeTitle": "Grande o piccolo?"
   },
 
   "pt": {
@@ -1154,7 +1159,8 @@ const BIG_SMALL_TRANSLATIONS = {
     "bigsmall.asset.none": "Nenhum {type} disponível.",
     "bigsmall.asset.error": "Erro ao carregar {type}.",
     "bigsmall.watermark.text": "VERSÃO GRATUITA - LessonCraftStudio.com",
-    "bigsmall.watermark.short": "VERSÃO GRATUITA"
+    "bigsmall.watermark.short": "VERSÃO GRATUITA",
+    "runtimeTitle": "Grande ou pequeno?"
   },
 
   "nl": {
@@ -1338,7 +1344,8 @@ const BIG_SMALL_TRANSLATIONS = {
     "bigsmall.asset.none": "Geen {type} beschikbaar.",
     "bigsmall.asset.error": "Fout bij het laden van {type}.",
     "bigsmall.watermark.text": "GRATIS VERSIE - LessonCraftStudio.com",
-    "bigsmall.watermark.short": "GRATIS VERSIE"
+    "bigsmall.watermark.short": "GRATIS VERSIE",
+    "runtimeTitle": "Groot of klein?"
   },
 
   "sv": {
@@ -1524,7 +1531,8 @@ const BIG_SMALL_TRANSLATIONS = {
     "bigsmall.asset.none": "Inga {type} tillgängliga.",
     "bigsmall.asset.error": "Fel vid laddning av {type}.",
     "bigsmall.watermark.text": "GRATISVERSION - LessonCraftStudio.com",
-    "bigsmall.watermark.short": "GRATISVERSION"
+    "bigsmall.watermark.short": "GRATISVERSION",
+    "runtimeTitle": "Stor eller liten?"
   },
 
   "da": {
@@ -1710,7 +1718,8 @@ const BIG_SMALL_TRANSLATIONS = {
     "bigsmall.asset.none": "Ingen {type} tilgængelige.",
     "bigsmall.asset.error": "Fejl ved indlæsning af {type}.",
     "bigsmall.watermark.text": "GRATIS VERSION - LessonCraftStudio.com",
-    "bigsmall.watermark.short": "GRATIS VERSION"
+    "bigsmall.watermark.short": "GRATIS VERSION",
+    "runtimeTitle": "Stor eller lille?"
   },
 
   "no": {
@@ -1896,7 +1905,8 @@ const BIG_SMALL_TRANSLATIONS = {
     "bigsmall.asset.none": "Ingen {type} tilgjengelig.",
     "bigsmall.asset.error": "Feil ved lasting av {type}.",
     "bigsmall.watermark.text": "GRATIS VERSJON - LessonCraftStudio.com",
-    "bigsmall.watermark.short": "GRATIS VERSJON"
+    "bigsmall.watermark.short": "GRATIS VERSJON",
+    "runtimeTitle": "Stor eller liten?"
   },
 
   "fi": {
@@ -2082,7 +2092,8 @@ const BIG_SMALL_TRANSLATIONS = {
     "bigsmall.asset.none": "Ei {type} saatavilla.",
     "bigsmall.asset.error": "Virhe ladattaessa {type}.",
     "bigsmall.watermark.text": "ILMAISVERSIO - LessonCraftStudio.com",
-    "bigsmall.watermark.short": "ILMAISVERSIO"
+    "bigsmall.watermark.short": "ILMAISVERSIO",
+    "runtimeTitle": "Iso vai pieni?"
   }
 };
 

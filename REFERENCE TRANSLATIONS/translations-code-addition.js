@@ -213,7 +213,8 @@ const CODE_ADDITION_TRANSLATIONS = {
     "endDeckMoreLevel": "More worksheets for {level}",
     "endDeckBrowseAll": "Browse all worksheets",
     "srExerciseCodeAddition": "Question {n}: Add the picture values together and write the total.",
-    "srExerciseCodeAdditionWordReveal": "Question {n}: Add the picture values, then write the letter that matches the total."
+    "srExerciseCodeAdditionWordReveal": "Question {n}: Add the picture values, then write the letter that matches the total.",
+    "runtimeTitle": "Code Addition Practice"
   },
 
   /**
@@ -421,7 +422,8 @@ const CODE_ADDITION_TRANSLATIONS = {
     "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
     "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
     "srExerciseCodeAddition": "Frage {n}: Addiere die Bildwerte und schreibe die Summe.",
-    "srExerciseCodeAdditionWordReveal": "Frage {n}: Addiere die Bildwerte und schreibe dann den Buchstaben, der zur Summe passt."
+    "srExerciseCodeAdditionWordReveal": "Frage {n}: Addiere die Bildwerte und schreibe dann den Buchstaben, der zur Summe passt.",
+    "runtimeTitle": "Code-Additions-Übung"
   },
 
   /**
@@ -616,7 +618,8 @@ const CODE_ADDITION_TRANSLATIONS = {
     "codeaddition.word.reveal.settings.adjusted": "Paramètres ajustés: {addends} termes par problème pour ce mot.",
     "codeaddition.word.reveal.auto.adjusted": "Ajustement automatique: {symbols} symboles, {addends} termes",
     "codeaddition.word.reveal.cannot.generate": "Impossible de créer la feuille. Essaie un mot plus court.",
-    "codeaddition.original.settings.adjusted": "Paramètres ajustés: {symbols} symboles, {addends} termes pour des exercices uniques."
+    "codeaddition.original.settings.adjusted": "Paramètres ajustés: {symbols} symboles, {addends} termes pour des exercices uniques.",
+    "runtimeTitle": "Exercices d'addition codée"
   },
 
   /**
@@ -812,7 +815,8 @@ const CODE_ADDITION_TRANSLATIONS = {
     "codeaddition.word.reveal.settings.adjusted": "Ajustes cambiados: {addends} sumandos por problema para esta palabra.",
     "codeaddition.word.reveal.auto.adjusted": "Ajuste automático: {symbols} símbolos, {addends} sumandos",
     "codeaddition.word.reveal.cannot.generate": "No se puede crear la hoja. Intenta una palabra más corta.",
-    "codeaddition.original.settings.adjusted": "Ajustes cambiados: {symbols} símbolos, {addends} sumandos para ejercicios únicos."
+    "codeaddition.original.settings.adjusted": "Ajustes cambiados: {symbols} símbolos, {addends} sumandos para ejercicios únicos.",
+    "runtimeTitle": "Práctica de Sumas con Código"
   },
 
   /**
@@ -1008,7 +1012,8 @@ const CODE_ADDITION_TRANSLATIONS = {
     "codeaddition.word.reveal.settings.adjusted": "Impostazioni modificate: {addends} addendi per problema per questa parola.",
     "codeaddition.word.reveal.auto.adjusted": "Regolazione automatica: {symbols} simboli, {addends} addendi",
     "codeaddition.word.reveal.cannot.generate": "Impossibile creare il foglio. Prova una parola più corta.",
-    "codeaddition.original.settings.adjusted": "Impostazioni modificate: {symbols} simboli, {addends} addendi per esercizi unici."
+    "codeaddition.original.settings.adjusted": "Impostazioni modificate: {symbols} simboli, {addends} addendi per esercizi unici.",
+    "runtimeTitle": "Esercizi di addizione in codice"
   },
 
   /**
@@ -1204,7 +1209,8 @@ const CODE_ADDITION_TRANSLATIONS = {
     "codeaddition.word.reveal.settings.adjusted": "Configurações ajustadas: {addends} parcelas por problema para esta palavra.",
     "codeaddition.word.reveal.auto.adjusted": "Ajuste automático: {symbols} símbolos, {addends} parcelas",
     "codeaddition.word.reveal.cannot.generate": "Não é possível criar a folha. Tente uma palavra mais curta.",
-    "codeaddition.original.settings.adjusted": "Configurações ajustadas: {symbols} símbolos, {addends} parcelas para exercícios únicos."
+    "codeaddition.original.settings.adjusted": "Configurações ajustadas: {symbols} símbolos, {addends} parcelas para exercícios únicos.",
+    "runtimeTitle": "Prática de Adição com Código"
   },
 
   /**
@@ -1400,7 +1406,8 @@ const CODE_ADDITION_TRANSLATIONS = {
     "codeaddition.word.reveal.settings.adjusted": "Instellingen aangepast: {addends} getallen per som voor dit woord.",
     "codeaddition.word.reveal.auto.adjusted": "Automatisch aangepast: {symbols} symbolen, {addends} getallen",
     "codeaddition.word.reveal.cannot.generate": "Kan werkblad niet maken. Probeer een korter woord.",
-    "codeaddition.original.settings.adjusted": "Instellingen aangepast: {symbols} symbolen, {addends} getallen voor unieke oefeningen."
+    "codeaddition.original.settings.adjusted": "Instellingen aangepast: {symbols} symbolen, {addends} getallen voor unieke oefeningen.",
+    "runtimeTitle": "Codeoptellen oefenen"
   },
 
   /**
@@ -1596,7 +1603,8 @@ const CODE_ADDITION_TRANSLATIONS = {
     "codeaddition.word.reveal.settings.adjusted": "Inställningar justerade: {addends} termer per uppgift för detta ord.",
     "codeaddition.word.reveal.auto.adjusted": "Automatiskt justerat: {symbols} symboler, {addends} termer",
     "codeaddition.word.reveal.cannot.generate": "Kan inte skapa arbetsbladet. Prova ett kortare ord.",
-    "codeaddition.original.settings.adjusted": "Inställningar justerade: {symbols} symboler, {addends} termer för unika uppgifter."
+    "codeaddition.original.settings.adjusted": "Inställningar justerade: {symbols} symboler, {addends} termer för unika uppgifter.",
+    "runtimeTitle": "Kodadditionsövning"
   },
 
   /**
@@ -1792,7 +1800,8 @@ const CODE_ADDITION_TRANSLATIONS = {
     "codeaddition.word.reveal.settings.adjusted": "Indstillinger justeret: {addends} led pr. opgave for dette ord.",
     "codeaddition.word.reveal.auto.adjusted": "Automatisk justeret: {symbols} symboler, {addends} led",
     "codeaddition.word.reveal.cannot.generate": "Kan ikke oprette arbejdsark. Prøv et kortere ord.",
-    "codeaddition.original.settings.adjusted": "Indstillinger justeret: {symbols} symboler, {addends} led for unikke opgaver."
+    "codeaddition.original.settings.adjusted": "Indstillinger justeret: {symbols} symboler, {addends} led for unikke opgaver.",
+    "runtimeTitle": "Kodeadditionsøvelse"
   },
 
   /**
@@ -1988,7 +1997,8 @@ const CODE_ADDITION_TRANSLATIONS = {
     "codeaddition.word.reveal.settings.adjusted": "Innstillinger justert: {addends} ledd per oppgave for dette ordet.",
     "codeaddition.word.reveal.auto.adjusted": "Automatisk justert: {symbols} symboler, {addends} ledd",
     "codeaddition.word.reveal.cannot.generate": "Kan ikke lage arbeidsark. Prøv et kortere ord.",
-    "codeaddition.original.settings.adjusted": "Innstillinger justert: {symbols} symboler, {addends} ledd for unike oppgaver."
+    "codeaddition.original.settings.adjusted": "Innstillinger justert: {symbols} symboler, {addends} ledd for unike oppgaver.",
+    "runtimeTitle": "Kodeaddisjonsøving"
   },
 
   /**
@@ -2172,7 +2182,8 @@ const CODE_ADDITION_TRANSLATIONS = {
     "codeaddition.word.reveal.settings.adjusted": "Asetukset muutettu: {addends} yhteenlaskettavaa tehtävää kohti tälle sanalle.",
     "codeaddition.word.reveal.auto.adjusted": "Automaattinen säätö: {symbols} symbolia, {addends} yhteenlaskettavaa",
     "codeaddition.word.reveal.cannot.generate": "Työarkkia ei voi luoda. Kokeile lyhyempää sanaa.",
-    "codeaddition.original.settings.adjusted": "Asetukset muutettu: {symbols} symbolia, {addends} yhteenlaskettavaa ainutlaatuisille tehtäville."
+    "codeaddition.original.settings.adjusted": "Asetukset muutettu: {symbols} symbolia, {addends} yhteenlaskettavaa ainutlaatuisille tehtäville.",
+    "runtimeTitle": "Koodiyhteenlaskuharjoitus"
   }
 };
 

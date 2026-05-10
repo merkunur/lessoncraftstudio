@@ -189,7 +189,8 @@ const translations = {
     "endDeckMoreTheme": "More {theme} worksheets",
     "endDeckMoreLevel": "More worksheets for {level}",
     "endDeckBrowseAll": "Browse all worksheets",
-    "srPuzzleTreasureHunt": "Treasure hunt puzzle. Trace the path from {start} to {end} following the directional clues."
+    "srPuzzleTreasureHunt": "Treasure hunt puzzle. Trace the path from {start} to {end} following the directional clues.",
+    "runtimeTitle": "Treasure Hunt"
   },
 
   de: {
@@ -377,7 +378,8 @@ const translations = {
     "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
     "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
     "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
-    "srPuzzleTreasureHunt": "Schatzsuche-Rätsel. Verfolge den Weg von {start} nach {end} und folge den Richtungshinweisen."
+    "srPuzzleTreasureHunt": "Schatzsuche-Rätsel. Verfolge den Weg von {start} nach {end} und folge den Richtungshinweisen.",
+    "runtimeTitle": "Schatzsuche"
   },
 
   fr: {
@@ -556,7 +558,8 @@ const translations = {
     "toolbar.layers": "Calques",
     "toolbar.sendBackward": "Reculer",
     "watermark.free": "VERSION GRATUITE - LessonCraftStudio.com",
-    "watermark.freeShort": "VERSION GRATUITE"
+    "watermark.freeShort": "VERSION GRATUITE",
+    "runtimeTitle": "Chasse au Trésor"
   },
 
   es: {
@@ -733,7 +736,8 @@ const translations = {
     "toolbar.layers": "Capas",
     "toolbar.sendBackward": "Enviar Atrás",
     "watermark.free": "VERSIÓN GRATUITA - LessonCraftStudio.com",
-    "watermark.freeShort": "VERSIÓN GRATUITA"
+    "watermark.freeShort": "VERSIÓN GRATUITA",
+    "runtimeTitle": "Búsqueda del Tesoro"
   },
 
   it: {
@@ -912,7 +916,8 @@ const translations = {
     "toolbar.layers": "Livelli",
     "toolbar.sendBackward": "Porta Indietro",
     "watermark.free": "VERSIONE GRATUITA - LessonCraftStudio.com",
-    "watermark.freeShort": "VERSIONE GRATUITA"
+    "watermark.freeShort": "VERSIONE GRATUITA",
+    "runtimeTitle": "Caccia al Tesoro"
   },
 
   pt: {
@@ -1089,7 +1094,8 @@ const translations = {
     "toolbar.layers": "Camadas",
     "toolbar.sendBackward": "Enviar para Trás",
     "watermark.free": "VERSÃO GRATUITA - LessonCraftStudio.com",
-    "watermark.freeShort": "VERSÃO GRATUITA"
+    "watermark.freeShort": "VERSÃO GRATUITA",
+    "runtimeTitle": "Caça ao Tesouro"
   },
 
   nl: {
@@ -1266,7 +1272,8 @@ const translations = {
     "toolbar.layers": "Lagen",
     "toolbar.sendBackward": "Naar Achteren",
     "watermark.free": "GRATIS VERSIE - LessonCraftStudio.com",
-    "watermark.freeShort": "GRATIS VERSIE"
+    "watermark.freeShort": "GRATIS VERSIE",
+    "runtimeTitle": "Schattenjacht"
   },
 
   sv: {
@@ -1445,7 +1452,8 @@ const translations = {
     "toolbar.layers": "Lager",
     "toolbar.sendBackward": "Flytta bakåt",
     "watermark.free": "GRATISVERSION - LessonCraftStudio.com",
-    "watermark.freeShort": "GRATISVERSION"
+    "watermark.freeShort": "GRATISVERSION",
+    "runtimeTitle": "Skattjakt"
   },
 
   da: {
@@ -1624,7 +1632,8 @@ const translations = {
     "toolbar.layers": "Lag",
     "toolbar.sendBackward": "Flyt Bagud",
     "watermark.free": "GRATIS VERSION - LessonCraftStudio.com",
-    "watermark.freeShort": "GRATIS VERSION"
+    "watermark.freeShort": "GRATIS VERSION",
+    "runtimeTitle": "Skattejagt"
   },
 
   no: {
@@ -1800,7 +1809,8 @@ const translations = {
     "toolbar.layers": "Lag",
     "toolbar.sendBackward": "Flytt Bakover",
     "watermark.free": "GRATIS VERSJON - LessonCraftStudio.com",
-    "watermark.freeShort": "GRATIS VERSJON"
+    "watermark.freeShort": "GRATIS VERSJON",
+    "runtimeTitle": "Skattejakt"
   },
 
   fi: {
@@ -1977,7 +1987,8 @@ const translations = {
     "toolbar.layers": "Tasot",
     "toolbar.sendBackward": "Vie Taakse",
     "watermark.free": "ILMAINEN VERSIO - LessonCraftStudio.com",
-    "watermark.freeShort": "ILMAINEN VERSIO"
+    "watermark.freeShort": "ILMAINEN VERSIO",
+    "runtimeTitle": "Aarteenmetsästys"
   }
 };
 

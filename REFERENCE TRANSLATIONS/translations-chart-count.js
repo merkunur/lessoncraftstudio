@@ -231,7 +231,8 @@ const CHART_COUNT_TRANSLATIONS = {
     "endDeckMoreTheme": "More {theme} worksheets",
     "endDeckMoreLevel": "More worksheets for {level}",
     "endDeckBrowseAll": "Browse all worksheets",
-    "srExerciseChartCount": "Question {n}: Count the {word} in the picture and shade the column to show how many you counted."
+    "srExerciseChartCount": "Question {n}: Count the {word} in the picture and shade the column to show how many you counted.",
+    "runtimeTitle": "Picture Graph"
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -449,7 +450,8 @@ const CHART_COUNT_TRANSLATIONS = {
     "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
     "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
     "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
-    "srExerciseChartCount": "Frage {n}: Zähle die {word} im Bild und schattiere die Spalte, um zu zeigen, wie viele du gezählt hast."
+    "srExerciseChartCount": "Frage {n}: Zähle die {word} im Bild und schattiere die Spalte, um zu zeigen, wie viele du gezählt hast.",
+    "runtimeTitle": "Bilddiagramm"
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",
@@ -656,7 +658,8 @@ const CHART_COUNT_TRANSLATIONS = {
     "chartcount.show.title": "Afficher le titre",
     "chartcount.reset.chart": "Réinitialiser le graphique",
     "chartcount.export.chart": "Exporter le graphique",
-    "chartcount.upload.placeholder": "Vos images importées apparaîtront ici."
+    "chartcount.upload.placeholder": "Vos images importées apparaîtront ici.",
+    "runtimeTitle": "Graphique d'images"
   },
   "es": {
     "exportToCatalog": "Exportar al catálogo",
@@ -862,7 +865,8 @@ const CHART_COUNT_TRANSLATIONS = {
     "chartcount.show.title": "Mostrar título",
     "chartcount.reset.chart": "Restablecer gráfico",
     "chartcount.export.chart": "Exportar gráfico",
-    "chartcount.upload.placeholder": "Tus imágenes subidas aparecerán aquí."
+    "chartcount.upload.placeholder": "Tus imágenes subidas aparecerán aquí.",
+    "runtimeTitle": "Gráfico de Imágenes"
   },
   "pt": {
     "exportToCatalog": "Exportar para o catálogo",
@@ -1071,7 +1075,8 @@ const CHART_COUNT_TRANSLATIONS = {
     "chartcount.show.title": "Mostrar título",
     "chartcount.reset.chart": "Redefinir gráfico",
     "chartcount.export.chart": "Exportar gráfico",
-    "chartcount.upload.placeholder": "Suas imagens enviadas aparecerão aqui."
+    "chartcount.upload.placeholder": "Suas imagens enviadas aparecerão aqui.",
+    "runtimeTitle": "Gráfico de Imagens"
   },
   "it": {
     "exportToCatalog": "Esporta nel catalogo",
@@ -1277,7 +1282,8 @@ const CHART_COUNT_TRANSLATIONS = {
     "chartcount.show.title": "Mostra titolo",
     "chartcount.reset.chart": "Reimposta grafico",
     "chartcount.export.chart": "Esporta grafico",
-    "chartcount.upload.placeholder": "Le tue immagini caricate appariranno qui."
+    "chartcount.upload.placeholder": "Le tue immagini caricate appariranno qui.",
+    "runtimeTitle": "Grafico di Immagini"
   },
   "nl": {
     "exportToCatalog": "Naar catalogus exporteren",
@@ -1484,7 +1490,8 @@ const CHART_COUNT_TRANSLATIONS = {
     "chartcount.show.title": "Titel tonen",
     "chartcount.reset.chart": "Grafiek resetten",
     "chartcount.export.chart": "Grafiek exporteren",
-    "chartcount.upload.placeholder": "Je geüploade afbeeldingen verschijnen hier."
+    "chartcount.upload.placeholder": "Je geüploade afbeeldingen verschijnen hier.",
+    "runtimeTitle": "Beeldgrafiek"
   },
   "sv": {
     "exportToCatalog": "Exportera till katalog",
@@ -1691,7 +1698,8 @@ const CHART_COUNT_TRANSLATIONS = {
     "chartcount.show.title": "Visa titel",
     "chartcount.reset.chart": "Återställ diagram",
     "chartcount.export.chart": "Exportera diagram",
-    "chartcount.upload.placeholder": "Dina uppladdade bilder visas här."
+    "chartcount.upload.placeholder": "Dina uppladdade bilder visas här.",
+    "runtimeTitle": "Bilddiagram"
   },
   "da": {
     "exportToCatalog": "Eksporter til kataloget",
@@ -1898,7 +1906,8 @@ const CHART_COUNT_TRANSLATIONS = {
     "chartcount.show.title": "Vis titel",
     "chartcount.reset.chart": "Nulstil diagram",
     "chartcount.export.chart": "Eksporter diagram",
-    "chartcount.upload.placeholder": "Dine uploadede billeder vises her."
+    "chartcount.upload.placeholder": "Dine uploadede billeder vises her.",
+    "runtimeTitle": "Billeddiagram"
   },
   "no": {
     "exportToCatalog": "Eksporter til katalog",
@@ -2107,7 +2116,8 @@ const CHART_COUNT_TRANSLATIONS = {
     "chartcount.show.title": "Vis tittel",
     "chartcount.reset.chart": "Tilbakestill diagram",
     "chartcount.export.chart": "Eksporter diagram",
-    "chartcount.upload.placeholder": "Dine opplastede bilder vises her."
+    "chartcount.upload.placeholder": "Dine opplastede bilder vises her.",
+    "runtimeTitle": "Bildediagram"
   },
   "fi": {
     "exportToCatalog": "Vie katalogiin",
@@ -2316,7 +2326,8 @@ const CHART_COUNT_TRANSLATIONS = {
     "chartcount.show.title": "Näytä otsikko",
     "chartcount.reset.chart": "Nollaa kaavio",
     "chartcount.export.chart": "Vie kaavio",
-    "chartcount.upload.placeholder": "Ladatut kuvasi näkyvät täällä."
+    "chartcount.upload.placeholder": "Ladatut kuvasi näkyvät täällä.",
+    "runtimeTitle": "Kuvakaavio"
   }
 };
 

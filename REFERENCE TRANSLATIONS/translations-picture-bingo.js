@@ -225,7 +225,8 @@ const PICTURE_BINGO_TRANSLATIONS = {
     // ============= FILE INPUT =============
     "chooseFiles": "Choose files",
     "noFileChosen": "No file chosen",
-    "filesSelected": "{count} file(s) selected"
+    "filesSelected": "{count} file(s) selected",
+    "runtimeTitle": "Picture Bingo"
   },
 
   /**
@@ -427,7 +428,8 @@ const PICTURE_BINGO_TRANSLATIONS = {
     // ============= FILE INPUT =============
     "chooseFiles": "Dateien wählen",
     "noFileChosen": "Keine Datei gewählt",
-    "filesSelected": "{count} Datei(en) ausgewählt"
+    "filesSelected": "{count} Datei(en) ausgewählt",
+    "runtimeTitle": "Bilder-Bingo"
   },
 
   /**
@@ -629,7 +631,8 @@ const PICTURE_BINGO_TRANSLATIONS = {
     // ============= FILE INPUT =============
     "chooseFiles": "Choisir des fichiers",
     "noFileChosen": "Aucun fichier choisi",
-    "filesSelected": "{count} fichier(s) sélectionné(s)"
+    "filesSelected": "{count} fichier(s) sélectionné(s)",
+    "runtimeTitle": "Loto d'images"
   },
 
   /**
@@ -831,7 +834,8 @@ const PICTURE_BINGO_TRANSLATIONS = {
     // ============= FILE INPUT =============
     "chooseFiles": "Elegir archivos",
     "noFileChosen": "Ningún archivo elegido",
-    "filesSelected": "{count} archivo(s) seleccionado(s)"
+    "filesSelected": "{count} archivo(s) seleccionado(s)",
+    "runtimeTitle": "Bingo de Imágenes"
   },
 
   /**
@@ -1033,7 +1037,8 @@ const PICTURE_BINGO_TRANSLATIONS = {
     // ============= FILE INPUT =============
     "chooseFiles": "Scegli file",
     "noFileChosen": "Nessun file scelto",
-    "filesSelected": "{count} file selezionato/i"
+    "filesSelected": "{count} file selezionato/i",
+    "runtimeTitle": "Tombola di Immagini"
   },
 
   /**
@@ -1235,7 +1240,8 @@ const PICTURE_BINGO_TRANSLATIONS = {
     // ============= FILE INPUT =============
     "chooseFiles": "Escolher arquivos",
     "noFileChosen": "Nenhum arquivo escolhido",
-    "filesSelected": "{count} arquivo(s) selecionado(s)"
+    "filesSelected": "{count} arquivo(s) selecionado(s)",
+    "runtimeTitle": "Bingo de Imagens"
   },
 
   /**
@@ -1437,7 +1443,8 @@ const PICTURE_BINGO_TRANSLATIONS = {
     // ============= FILE INPUT =============
     "chooseFiles": "Bestanden kiezen",
     "noFileChosen": "Geen bestand gekozen",
-    "filesSelected": "{count} bestand(en) geselecteerd"
+    "filesSelected": "{count} bestand(en) geselecteerd",
+    "runtimeTitle": "Plaatjesbingo"
   },
 
   /**
@@ -1639,7 +1646,8 @@ const PICTURE_BINGO_TRANSLATIONS = {
     // ============= FILE INPUT =============
     "chooseFiles": "Välj filer",
     "noFileChosen": "Ingen fil vald",
-    "filesSelected": "{count} fil(er) valda"
+    "filesSelected": "{count} fil(er) valda",
+    "runtimeTitle": "Bildbingo"
   },
 
   /**
@@ -1841,7 +1849,8 @@ const PICTURE_BINGO_TRANSLATIONS = {
     // ============= FILE INPUT =============
     "chooseFiles": "Vælg filer",
     "noFileChosen": "Ingen fil valgt",
-    "filesSelected": "{count} fil(er) valgt"
+    "filesSelected": "{count} fil(er) valgt",
+    "runtimeTitle": "Billedbanko"
   },
 
   /**
@@ -2043,7 +2052,8 @@ const PICTURE_BINGO_TRANSLATIONS = {
     // ============= FILE INPUT =============
     "chooseFiles": "Velg filer",
     "noFileChosen": "Ingen fil valgt",
-    "filesSelected": "{count} fil(er) valgt"
+    "filesSelected": "{count} fil(er) valgt",
+    "runtimeTitle": "Bildebingo"
   },
 
   /**
@@ -2245,7 +2255,8 @@ const PICTURE_BINGO_TRANSLATIONS = {
     // ============= FILE INPUT =============
     "chooseFiles": "Valitse tiedostot",
     "noFileChosen": "Ei tiedostoa valittuna",
-    "filesSelected": "{count} tiedosto(a) valittu"
+    "filesSelected": "{count} tiedosto(a) valittu",
+    "runtimeTitle": "Kuvabingo"
   }
 };
 

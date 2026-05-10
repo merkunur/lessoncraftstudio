@@ -237,7 +237,8 @@ const translations = {
     "endDeckMoreLevel": "More worksheets for {level}",
     "endDeckBrowseAll": "Browse all worksheets",
     "srExerciseSubtraction": "Question {n}: {operandA} minus {operandB} equals blank.",
-    "srExerciseSubtractionFindSubtrahend": "Question {n}: {operandA} minus blank equals {result}."
+    "srExerciseSubtractionFindSubtrahend": "Question {n}: {operandA} minus blank equals {result}.",
+    "runtimeTitle": "Subtraction Practice"
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -468,7 +469,8 @@ const translations = {
     "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
     "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
     "srExerciseSubtraction": "Frage {n}: {operandA} minus {operandB} ist gleich Leerzeichen.",
-    "srExerciseSubtractionFindSubtrahend": "Frage {n}: {operandA} minus Leerzeichen ist gleich {result}."
+    "srExerciseSubtractionFindSubtrahend": "Frage {n}: {operandA} minus Leerzeichen ist gleich {result}.",
+    "runtimeTitle": "Subtraktionsübung"
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",
@@ -687,7 +689,8 @@ const translations = {
     "worksheetGeneratedSuccessfully": "Fiche créée avec succès !",
     "worksheetJpeg": "Fiche (JPEG)",
     "worksheetPdf": "Fiche (PDF)",
-    "yourUploadedImages": "Vos images ajoutées (cette session)"
+    "yourUploadedImages": "Vos images ajoutées (cette session)",
+    "runtimeTitle": "Exercices de soustraction"
   },
   "es": {
     "exportToCatalog": "Exportar al catálogo",
@@ -906,7 +909,8 @@ const translations = {
     "worksheetGeneratedSuccessfully": "¡Ficha generada con éxito!",
     "worksheetJpeg": "Ficha (JPEG)",
     "worksheetPdf": "Ficha (PDF)",
-    "yourUploadedImages": "Sus imágenes subidas (esta sesión)"
+    "yourUploadedImages": "Sus imágenes subidas (esta sesión)",
+    "runtimeTitle": "Práctica de Restas"
   },
   "it": {
     "exportToCatalog": "Esporta nel catalogo",
@@ -1125,7 +1129,8 @@ const translations = {
     "worksheetGeneratedSuccessfully": "Scheda generata con successo!",
     "worksheetJpeg": "Scheda (JPEG)",
     "worksheetPdf": "Scheda (PDF)",
-    "yourUploadedImages": "Le tue immagini caricate (questa sessione)"
+    "yourUploadedImages": "Le tue immagini caricate (questa sessione)",
+    "runtimeTitle": "Esercizi di sottrazione"
   },
   "pt": {
     "exportToCatalog": "Exportar para o catálogo",
@@ -1344,7 +1349,8 @@ const translations = {
     "worksheetGeneratedSuccessfully": "Atividade criada com sucesso!",
     "worksheetJpeg": "Atividade (JPEG)",
     "worksheetPdf": "Atividade (PDF)",
-    "yourUploadedImages": "As suas imagens carregadas (esta sessão)"
+    "yourUploadedImages": "As suas imagens carregadas (esta sessão)",
+    "runtimeTitle": "Prática de Subtração"
   },
   "nl": {
     "exportToCatalog": "Naar catalogus exporteren",
@@ -1563,7 +1569,8 @@ const translations = {
     "worksheetGeneratedSuccessfully": "Werkblad succesvol gemaakt!",
     "worksheetJpeg": "Werkblad (JPEG)",
     "worksheetPdf": "Werkblad (PDF)",
-    "yourUploadedImages": "Je Geüploade Afbeeldingen (Deze Sessie)"
+    "yourUploadedImages": "Je Geüploade Afbeeldingen (Deze Sessie)",
+    "runtimeTitle": "Aftrekken oefenen"
   },
   "sv": {
     "exportToCatalog": "Exportera till katalog",
@@ -1782,7 +1789,8 @@ const translations = {
     "worksheetGeneratedSuccessfully": "Övningsblad skapat!",
     "worksheetJpeg": "Övningsblad (JPEG)",
     "worksheetPdf": "Övningsblad (PDF)",
-    "yourUploadedImages": "Dina Uppladdade Bilder (Denna Session)"
+    "yourUploadedImages": "Dina Uppladdade Bilder (Denna Session)",
+    "runtimeTitle": "Subtraktionsövning"
   },
   "da": {
     "exportToCatalog": "Eksporter til kataloget",
@@ -2001,7 +2009,8 @@ const translations = {
     "worksheetGeneratedSuccessfully": "Opgaveark oprettet!",
     "worksheetJpeg": "Opgaveark (JPEG)",
     "worksheetPdf": "Opgaveark (PDF)",
-    "yourUploadedImages": "Dine Uploadede Billeder (Denne Session)"
+    "yourUploadedImages": "Dine Uploadede Billeder (Denne Session)",
+    "runtimeTitle": "Subtraktionsøvelse"
   },
   "no": {
     "exportToCatalog": "Eksporter til katalog",
@@ -2220,7 +2229,8 @@ const translations = {
     "worksheetGeneratedSuccessfully": "Oppgaveark laget!",
     "worksheetJpeg": "Oppgaveark (JPEG)",
     "worksheetPdf": "Oppgaveark (PDF)",
-    "yourUploadedImages": "Dine Opplastede Bilder (Denne Økten)"
+    "yourUploadedImages": "Dine Opplastede Bilder (Denne Økten)",
+    "runtimeTitle": "Subtraksjonsøving"
   },
   "fi": {
     "exportToCatalog": "Vie katalogiin",
@@ -2439,7 +2449,8 @@ const translations = {
     "worksheetGeneratedSuccessfully": "Tehtävämoniste luotu!",
     "worksheetJpeg": "Tehtävämoniste (JPEG)",
     "worksheetPdf": "Tehtävämoniste (PDF)",
-    "yourUploadedImages": "Lataamasi Kuvat (Tämä Istunto)"
+    "yourUploadedImages": "Lataamasi Kuvat (Tämä Istunto)",
+    "runtimeTitle": "Vähennyslaskuharjoitus"
   }
 };
 

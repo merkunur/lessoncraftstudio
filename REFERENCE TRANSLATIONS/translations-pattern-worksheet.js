@@ -214,7 +214,8 @@ const translations = {
     "endDeckMoreLevel": "More worksheets for {level}",
     "endDeckBrowseAll": "Browse all worksheets",
     "srExercisePatternWorksheetBlank": "Question {n}: Fill in the blank to complete the pattern.",
-    "srExercisePatternWorksheetOptions": "Question {n}: Choose the picture that completes the pattern."
+    "srExercisePatternWorksheetOptions": "Question {n}: Choose the picture that completes the pattern.",
+    "runtimeTitle": "Complete the Pattern"
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -424,7 +425,8 @@ const translations = {
     "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
     "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
     "srExercisePatternWorksheetBlank": "Frage {n}: Fülle die Lücke, um das Muster zu vervollständigen.",
-    "srExercisePatternWorksheetOptions": "Frage {n}: Wähle das Bild, das das Muster vervollständigt."
+    "srExercisePatternWorksheetOptions": "Frage {n}: Wähle das Bild, das das Muster vervollständigt.",
+    "runtimeTitle": "Vervollständige das Muster"
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",
@@ -622,7 +624,8 @@ const translations = {
     "redo": "Rétablir (Ctrl+Y)",
     "zoomIn": "Zoomer",
     "zoomOut": "Dézoomer",
-    "zoomReset": "Réinitialiser le zoom"
+    "zoomReset": "Réinitialiser le zoom",
+    "runtimeTitle": "Complète le motif"
   },
   "es": {
     "exportToCatalog": "Exportar al catálogo",
@@ -819,7 +822,8 @@ const translations = {
     "redo": "Rehacer (Ctrl+Y)",
     "zoomIn": "Acercar",
     "zoomOut": "Alejar",
-    "zoomReset": "Restablecer zoom"
+    "zoomReset": "Restablecer zoom",
+    "runtimeTitle": "Completa el Patrón"
   },
   "it": {
     "exportToCatalog": "Esporta nel catalogo",
@@ -1017,7 +1021,8 @@ const translations = {
     "redo": "Ripristina (Ctrl+Y)",
     "zoomIn": "Ingrandisci",
     "zoomOut": "Riduci",
-    "zoomReset": "Reimposta zoom"
+    "zoomReset": "Reimposta zoom",
+    "runtimeTitle": "Completa il modello"
   },
   "pt": {
     "exportToCatalog": "Exportar para o catálogo",
@@ -1215,7 +1220,8 @@ const translations = {
     "redo": "Refazer (Ctrl+Y)",
     "zoomIn": "Aumentar zoom",
     "zoomOut": "Diminuir zoom",
-    "zoomReset": "Restaurar zoom"
+    "zoomReset": "Restaurar zoom",
+    "runtimeTitle": "Complete o Padrão"
   },
   "nl": {
     "exportToCatalog": "Naar catalogus exporteren",
@@ -1413,7 +1419,8 @@ const translations = {
     "redo": "Opnieuw (Ctrl+Y)",
     "zoomIn": "Inzoomen",
     "zoomOut": "Uitzoomen",
-    "zoomReset": "Zoom resetten"
+    "zoomReset": "Zoom resetten",
+    "runtimeTitle": "Maak het patroon af"
   },
   "sv": {
     "exportToCatalog": "Exportera till katalog",
@@ -1611,7 +1618,8 @@ const translations = {
     "redo": "Gör om (Ctrl+Y)",
     "zoomIn": "Zooma in",
     "zoomOut": "Zooma ut",
-    "zoomReset": "Återställ zoom"
+    "zoomReset": "Återställ zoom",
+    "runtimeTitle": "Fyll i Mönstret"
   },
   "da": {
     "exportToCatalog": "Eksporter til kataloget",
@@ -1810,7 +1818,8 @@ const translations = {
     "redo": "Gentag (Ctrl+Y)",
     "zoomIn": "Zoom ind",
     "zoomOut": "Zoom ud",
-    "zoomReset": "Nulstil zoom"
+    "zoomReset": "Nulstil zoom",
+    "runtimeTitle": "Færdiggør Mønstret"
   },
   "no": {
     "exportToCatalog": "Eksporter til katalog",
@@ -2009,7 +2018,8 @@ const translations = {
     "redo": "Gjør om (Ctrl+Y)",
     "zoomIn": "Zoom inn",
     "zoomOut": "Zoom ut",
-    "zoomReset": "Tilbakestill zoom"
+    "zoomReset": "Tilbakestill zoom",
+    "runtimeTitle": "Fullfør Mønsteret"
   },
   "fi": {
     "exportToCatalog": "Vie katalogiin",
@@ -2208,7 +2218,8 @@ const translations = {
     "redo": "Tee uudelleen (Ctrl+Y)",
     "zoomIn": "Lähennä",
     "zoomOut": "Loitonna",
-    "zoomReset": "Palauta zoomaus"
+    "zoomReset": "Palauta zoomaus",
+    "runtimeTitle": "Täydennä Kuvio"
   }
 };
 

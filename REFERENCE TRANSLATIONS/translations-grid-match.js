@@ -228,7 +228,8 @@ const translations = {
     "endDeckMoreTheme": "More {theme} worksheets",
     "endDeckMoreLevel": "More worksheets for {level}",
     "endDeckBrowseAll": "Browse all worksheets",
-    "srExerciseGridMatch": "Question {n}: Drag the {label} tile into its matching grid cell."
+    "srExerciseGridMatch": "Question {n}: Drag the {label} tile into its matching grid cell.",
+    "runtimeTitle": "Grid Match"
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -447,7 +448,8 @@ const translations = {
     "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
     "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
     "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
-    "srExerciseGridMatch": "Frage {n}: Ziehe das Feld {label} in die passende Gitterzelle."
+    "srExerciseGridMatch": "Frage {n}: Ziehe das Feld {label} in die passende Gitterzelle.",
+    "runtimeTitle": "Raster-Zuordnung"
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",
@@ -656,7 +658,8 @@ const translations = {
     "gridmatch.help.grid.size": "Choisissez le nombre de lignes et de colonnes pour votre grille",
     "gridmatch.help.clue.cells": "Définissez combien de cases afficheront les images indices",
     "gridmatch.help.image.select": "Cliquez sur une image pour l'utiliser dans votre fiche",
-    "gridmatch.help.upload": "Importez vos propres images pour la fiche d'exercices"
+    "gridmatch.help.upload": "Importez vos propres images pour la fiche d'exercices",
+    "runtimeTitle": "Associations en grille"
   },
   "es": {
     "exportToCatalog": "Exportar al catálogo",
@@ -863,7 +866,8 @@ const translations = {
     "gridmatch.help.grid.size": "Elige el número de filas y columnas para tu cuadrícula",
     "gridmatch.help.clue.cells": "Define cuántas casillas mostrarán las imágenes pista",
     "gridmatch.help.image.select": "Haz clic en una imagen para usarla en tu ficha",
-    "gridmatch.help.upload": "Sube tus propias imágenes para la ficha"
+    "gridmatch.help.upload": "Sube tus propias imágenes para la ficha",
+    "runtimeTitle": "Emparejar en Cuadrícula"
   },
   "it": {
     "exportToCatalog": "Esporta nel catalogo",
@@ -1072,7 +1076,8 @@ const translations = {
     "gridmatch.help.grid.size": "Scegli il numero di righe e colonne per la tua griglia",
     "gridmatch.help.clue.cells": "Definisci quante caselle mostreranno le immagini indizio",
     "gridmatch.help.image.select": "Clicca su un'immagine per usarla nella tua scheda",
-    "gridmatch.help.upload": "Carica le tue immagini per usarle nella scheda didattica"
+    "gridmatch.help.upload": "Carica le tue immagini per usarle nella scheda didattica",
+    "runtimeTitle": "Abbinamento a Griglia"
   },
   "pt": {
     "exportToCatalog": "Exportar para o catálogo",
@@ -1281,7 +1286,8 @@ const translations = {
     "gridmatch.help.grid.size": "Escolha o número de linhas e colunas para sua grade",
     "gridmatch.help.clue.cells": "Defina quantas células mostrarão as imagens-dica",
     "gridmatch.help.image.select": "Clique em uma imagem para usá-la na sua atividade",
-    "gridmatch.help.upload": "Envie suas próprias imagens para usar na atividade"
+    "gridmatch.help.upload": "Envie suas próprias imagens para usar na atividade",
+    "runtimeTitle": "Combinar em Grade"
   },
   "nl": {
     "exportToCatalog": "Naar catalogus exporteren",
@@ -1490,7 +1496,8 @@ const translations = {
     "gridmatch.help.grid.size": "Kies het aantal rijen en kolommen voor je raster",
     "gridmatch.help.clue.cells": "Bepaal hoeveel vakjes de aanwijzingsafbeeldingen tonen",
     "gridmatch.help.image.select": "Klik op een afbeelding om deze in je werkblad te gebruiken",
-    "gridmatch.help.upload": "Upload je eigen afbeeldingen voor gebruik in het werkblad"
+    "gridmatch.help.upload": "Upload je eigen afbeeldingen voor gebruik in het werkblad",
+    "runtimeTitle": "Rastermatch"
   },
   "sv": {
     "exportToCatalog": "Exportera till katalog",
@@ -1698,7 +1705,8 @@ const translations = {
     "gridmatch.help.grid.size": "Välj antal rader och kolumner för ditt rutnät",
     "gridmatch.help.clue.cells": "Bestäm hur många rutor som ska visa ledtrådsbilder",
     "gridmatch.help.image.select": "Klicka på en bild för att använda den i ditt övningsblad",
-    "gridmatch.help.upload": "Ladda upp egna bilder att använda i övningsbladet"
+    "gridmatch.help.upload": "Ladda upp egna bilder att använda i övningsbladet",
+    "runtimeTitle": "Rutmatchning"
   },
   "da": {
     "exportToCatalog": "Eksporter til kataloget",
@@ -1906,7 +1914,8 @@ const translations = {
     "gridmatch.help.grid.size": "Vælg antal rækker og kolonner til dit gitter",
     "gridmatch.help.clue.cells": "Bestem hvor mange felter der skal vise ledetrådsbilleder",
     "gridmatch.help.image.select": "Klik på et billede for at bruge det i dit opgaveark",
-    "gridmatch.help.upload": "Upload dine egne billeder til brug i opgavearket"
+    "gridmatch.help.upload": "Upload dine egne billeder til brug i opgavearket",
+    "runtimeTitle": "Gittermatch"
   },
   "no": {
     "exportToCatalog": "Eksporter til katalog",
@@ -2115,7 +2124,8 @@ const translations = {
     "gridmatch.help.grid.size": "Velg antall rader og kolonner for rutenettet ditt",
     "gridmatch.help.clue.cells": "Velg hvor mange celler som skal vise hintbilder",
     "gridmatch.help.image.select": "Klikk på et bilde for å bruke det i oppgavearket",
-    "gridmatch.help.upload": "Last opp dine egne bilder til bruk i oppgavearket"
+    "gridmatch.help.upload": "Last opp dine egne bilder til bruk i oppgavearket",
+    "runtimeTitle": "Rutenettmatch"
   },
   "fi": {
     "exportToCatalog": "Vie katalogiin",
@@ -2324,7 +2334,8 @@ const translations = {
     "gridmatch.help.grid.size": "Valitse ruudukon rivien ja sarakkeiden määrä",
     "gridmatch.help.clue.cells": "Valitse kuinka monta ruutua näyttää vihjekuvia",
     "gridmatch.help.image.select": "Klikkaa kuvaa käyttääksesi sitä tehtävämonisteessa",
-    "gridmatch.help.upload": "Lataa omia kuviasi käytettäväksi tehtävämonisteessa"
+    "gridmatch.help.upload": "Lataa omia kuviasi käytettäväksi tehtävämonisteessa",
+    "runtimeTitle": "Ruudukon yhdistäminen"
   }
 };
 

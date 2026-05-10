@@ -253,7 +253,8 @@ const translations = {
     "srExerciseMathWorksheet": "Question {n}: Find what each picture equals using these equations: {equations}.",
     "srOperatorPlus": "plus",
     "srOperatorMinus": "minus",
-    "srOperatorEquals": "equals"
+    "srOperatorEquals": "equals",
+    "runtimeTitle": "Math Worksheet Practice"
   },
 
     de: {
@@ -500,7 +501,8 @@ const translations = {
     "srExerciseMathWorksheet": "Frage {n}: Finde heraus, was jedes Bild ergibt, mit Hilfe dieser Gleichungen: {equations}.",
     "srOperatorPlus": "plus",
     "srOperatorMinus": "minus",
-    "srOperatorEquals": "ist gleich"
+    "srOperatorEquals": "ist gleich",
+    "runtimeTitle": "Mathe-Arbeitsblatt-Übung"
   },
 
     fr: {
@@ -732,7 +734,8 @@ const translations = {
         "cannotDownloadEmptyCanvas": "Téléchargement impossible, la toile est vide.",
         "chooseFiles": "Choisir des fichiers",
         "noFileChosen": "Aucun fichier choisi",
-        "filesSelected": "{count} fichier(s) sélectionné(s)"
+        "filesSelected": "{count} fichier(s) sélectionné(s)",
+    "runtimeTitle": "Exercice de fiche de maths"
     },
 
     es: {
@@ -965,7 +968,8 @@ const translations = {
         "cannotDownloadEmptyCanvas": "No se puede descargar, el lienzo está vacío.",
         "chooseFiles": "Elegir archivos",
         "noFileChosen": "Ningún archivo elegido",
-        "filesSelected": "{count} archivo(s) seleccionado(s)"
+        "filesSelected": "{count} archivo(s) seleccionado(s)",
+    "runtimeTitle": "Práctica de Hoja de Matemáticas"
     },
 
     it: {
@@ -1198,7 +1202,8 @@ const translations = {
         "cannotDownloadEmptyCanvas": "Impossibile scaricare, la tela è vuota.",
         "chooseFiles": "Scegli file",
         "noFileChosen": "Nessun file scelto",
-        "filesSelected": "{count} file selezionato/i"
+        "filesSelected": "{count} file selezionato/i",
+    "runtimeTitle": "Esercizi di matematica"
     },
 
     pt: {
@@ -1431,7 +1436,8 @@ const translations = {
         "cannotDownloadEmptyCanvas": "Não é possível baixar, a tela está vazia.",
         "chooseFiles": "Escolher arquivos",
         "noFileChosen": "Nenhum arquivo escolhido",
-        "filesSelected": "{count} arquivo(s) selecionado(s)"
+        "filesSelected": "{count} arquivo(s) selecionado(s)",
+    "runtimeTitle": "Prática de Atividade de Matemática"
     },
 
     nl: {
@@ -1659,7 +1665,8 @@ const translations = {
         "cannotDownloadEmptyCanvas": "Kan niet downloaden, het canvas is leeg.",
         "chooseFiles": "Bestanden kiezen",
         "noFileChosen": "Geen bestand gekozen",
-        "filesSelected": "{count} bestand(en) geselecteerd"
+        "filesSelected": "{count} bestand(en) geselecteerd",
+    "runtimeTitle": "Wiskundewerkblad oefenen"
     },
 
     sv: {
@@ -1887,7 +1894,8 @@ const translations = {
         "cannotDownloadEmptyCanvas": "Kan inte ladda ner, duken är tom.",
         "chooseFiles": "Välj filer",
         "noFileChosen": "Ingen fil vald",
-        "filesSelected": "{count} fil(er) vald(a)"
+        "filesSelected": "{count} fil(er) vald(a)",
+    "runtimeTitle": "Mattearbetsblad-övning"
     },
 
     da: {
@@ -2115,7 +2123,8 @@ const translations = {
         "cannotDownloadEmptyCanvas": "Kan ikke downloade, lærredet er tomt.",
         "chooseFiles": "Vælg filer",
         "noFileChosen": "Ingen fil valgt",
-        "filesSelected": "{count} fil(er) valgt"
+        "filesSelected": "{count} fil(er) valgt",
+    "runtimeTitle": "Matematikøvelsesark"
     },
 
     no: {
@@ -2342,7 +2351,8 @@ const translations = {
         "cannotDownloadEmptyCanvas": "Kan ikke laste ned, lerretet er tomt.",
         "chooseFiles": "Velg filer",
         "noFileChosen": "Ingen fil valgt",
-        "filesSelected": "{count} fil(er) valgt"
+        "filesSelected": "{count} fil(er) valgt",
+    "runtimeTitle": "Matteoppgaveark-øving"
     },
 
     fi: {
@@ -2549,7 +2559,8 @@ const translations = {
         "cannotDownloadEmptyCanvas": "Ei voi ladata, kangas on tyhjä.",
         "chooseFiles": "Valitse tiedostoja",
         "noFileChosen": "Ei tiedostoa valittuna",
-        "filesSelected": "{count} tiedosto(a) valittu"
+        "filesSelected": "{count} tiedosto(a) valittu",
+    "runtimeTitle": "Matematiikkatehtävä-harjoitus"
     }
 };
 

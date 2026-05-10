@@ -266,7 +266,8 @@ const translations = {
 
     // ============= SR-ONLY (Group B Phase 2) =============
     "srWorksheetQuestions": "Worksheet questions",
-    "srPuzzleCryptogram": "Cryptogram puzzle. The cipher key shows pictures of {imageList}. Each picture stands for a letter. Sound out each picture's starting letter, then write that letter to fill in the secret message."
+    "srPuzzleCryptogram": "Cryptogram puzzle. The cipher key shows pictures of {imageList}. Each picture stands for a letter. Sound out each picture's starting letter, then write that letter to fill in the secret message.",
+    "runtimeTitle": "Cryptogram Practice"
   },
   "da": {
     "exportToCatalog": "Eksporter til kataloget",
@@ -526,7 +527,8 @@ const translations = {
     "bringToFront": "Placer forrest",
     "bringForward": "Flyt fremad",
     "sendBackward": "Flyt bagud",
-    "sendToBack": "Placer bagerst"
+    "sendToBack": "Placer bagerst",
+    "runtimeTitle": "Kryptogramøvelse"
   },
   "nl": {
     "exportToCatalog": "Naar catalogus exporteren",
@@ -785,7 +787,8 @@ const translations = {
     "bringToFront": "Op de voorgrond plaatsen",
     "bringForward": "Naar voren",
     "sendBackward": "Naar achteren",
-    "sendToBack": "Op de achtergrond plaatsen"
+    "sendToBack": "Op de achtergrond plaatsen",
+    "runtimeTitle": "Cryptogram oefenen"
   },
   "fi": {
     "exportToCatalog": "Vie katalogiin",
@@ -1046,7 +1049,8 @@ const translations = {
     "bringToFront": "Siirrä etualalle",
     "bringForward": "Siirrä eteenpäin",
     "sendBackward": "Siirrä taaksepäin",
-    "sendToBack": "Siirrä taustalle"
+    "sendToBack": "Siirrä taustalle",
+    "runtimeTitle": "Salakirjoitusharjoitus"
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",
@@ -1306,7 +1310,8 @@ const translations = {
     "bringToFront": "Placer au premier plan",
     "bringForward": "Avancer",
     "sendBackward": "Reculer",
-    "sendToBack": "Placer en arrière-plan"
+    "sendToBack": "Placer en arrière-plan",
+    "runtimeTitle": "Exercices de cryptogramme"
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -1568,7 +1573,8 @@ const translations = {
 
     // ============= SR-ONLY (Group B Phase 3) =============
     "srWorksheetQuestions": "Arbeitsblatt-Fragen",
-    "srPuzzleCryptogram": "Geheimschrift-Rätsel. Der Geheimcode zeigt diese Bilder: {imageList}. Jedes Bild steht für einen Buchstaben. Sprich den Anfangsbuchstaben jedes Bildes aus und trage ihn in die geheime Botschaft ein."
+    "srPuzzleCryptogram": "Geheimschrift-Rätsel. Der Geheimcode zeigt diese Bilder: {imageList}. Jedes Bild steht für einen Buchstaben. Sprich den Anfangsbuchstaben jedes Bildes aus und trage ihn in die geheime Botschaft ein.",
+    "runtimeTitle": "Kryptogramm-Übung"
   },
   "it": {
     "exportToCatalog": "Esporta nel catalogo",
@@ -1818,7 +1824,8 @@ const translations = {
     "bringToFront": "Porta in primo piano",
     "bringForward": "Porta avanti",
     "sendBackward": "Porta indietro",
-    "sendToBack": "Sposta sullo sfondo"
+    "sendToBack": "Sposta sullo sfondo",
+    "runtimeTitle": "Esercizi di crittogramma"
   },
   "no": {
     "exportToCatalog": "Eksporter til katalog",
@@ -2076,7 +2083,8 @@ const translations = {
     "bringToFront": "Plasser fremst",
     "bringForward": "Flytt fremover",
     "sendBackward": "Flytt bakover",
-    "sendToBack": "Plasser bakerst"
+    "sendToBack": "Plasser bakerst",
+    "runtimeTitle": "Kryptogramøving"
   },
   "pt": {
     "exportToCatalog": "Exportar para o catálogo",
@@ -2335,7 +2343,8 @@ const translations = {
     "bringToFront": "Trazer para a frente",
     "bringForward": "Trazer para frente",
     "sendBackward": "Enviar para trás",
-    "sendToBack": "Enviar para o fundo"
+    "sendToBack": "Enviar para o fundo",
+    "runtimeTitle": "Prática de Criptograma"
   },
   "es": {
     "exportToCatalog": "Exportar al catálogo",
@@ -2595,7 +2604,8 @@ const translations = {
     "bringToFront": "Traer al frente",
     "bringForward": "Traer al frente",
     "sendBackward": "Enviar atrás",
-    "sendToBack": "Enviar al fondo"
+    "sendToBack": "Enviar al fondo",
+    "runtimeTitle": "Práctica de Criptograma"
   },
   "sv": {
     "exportToCatalog": "Exportera till katalog",
@@ -2848,7 +2858,8 @@ const translations = {
     "bringToFront": "Flytta längst fram",
     "bringForward": "Flytta framåt",
     "sendBackward": "Flytta bakåt",
-    "sendToBack": "Flytta längst bak"
+    "sendToBack": "Flytta längst bak",
+    "runtimeTitle": "Kryptogramövning"
   }
 };
 

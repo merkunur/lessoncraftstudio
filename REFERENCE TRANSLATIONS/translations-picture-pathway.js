@@ -248,6 +248,7 @@ const translations = {
     "srPuzzlePicturePathChoosePathSingle": "Maze puzzle on a {rows} by {cols} grid. Trace a path from the start arrow at row {startRow} column {startCol} to the {endImage} at row {endRow} column {endCol}, going around the walls.",
     "srPuzzlePicturePathChoosePath": "Maze puzzle on a {rows} by {cols} grid. Start at the arrow at row {startRow} column {startCol}. Among the {endpointCount} picture endings, trace the path that reaches the {endImage} at row {endRow} column {endCol}.",
     "srPuzzlePicturePathCollectibles": "Look for {itemList} along the path. Count how many of each you see and write the number next to its picture in the legend.",
+    "runtimeTitle": "Picture Path"
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -491,6 +492,7 @@ const translations = {
     "srPuzzlePicturePathChoosePathSingle": "Labyrinth-Rätsel auf einem {rows} mal {cols} Gitter. Verfolge einen Weg vom Startpfeil in Zeile {startRow} Spalte {startCol} bis zum {endImage} in Zeile {endRow} Spalte {endCol}, vorbei an den Wänden.",
     "srPuzzlePicturePathChoosePath": "Labyrinth-Rätsel auf einem {rows} mal {cols} Gitter. Beginne beim Pfeil in Zeile {startRow} Spalte {startCol}. Unter den {endpointCount} Bildern am Ende, verfolge den Weg, der zum {endImage} in Zeile {endRow} Spalte {endCol} führt.",
     "srPuzzlePicturePathCollectibles": "Achte auf {itemList} entlang des Weges. Zähle, wie viele du von jedem siehst, und schreibe die Zahl neben das jeweilige Bild in der Legende.",
+    "runtimeTitle": "Bilderpfad"
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",
@@ -726,6 +728,7 @@ const translations = {
     "zoomIn": "Zoomer",
     "zoomOut": "Dézoomer",
     "zoomReset": "Réinitialiser le zoom",
+    "runtimeTitle": "Chemin d'images"
   },
   "es": {
     "exportToCatalog": "Exportar al catálogo",
@@ -961,6 +964,7 @@ const translations = {
     "zoomIn": "Acercar",
     "zoomOut": "Alejar",
     "zoomReset": "Restablecer zoom",
+    "runtimeTitle": "Camino de Imágenes"
   },
   "it": {
     "exportToCatalog": "Esporta nel catalogo",
@@ -1195,6 +1199,7 @@ const translations = {
     "zoomIn": "Ingrandisci",
     "zoomOut": "Rimpicciolisci",
     "zoomReset": "Ripristina zoom",
+    "runtimeTitle": "Percorso di Immagini"
   },
   "pt": {
     "exportToCatalog": "Exportar para o catálogo",
@@ -1432,6 +1437,7 @@ const translations = {
     "zoomIn": "Ampliar",
     "zoomOut": "Reduzir",
     "zoomReset": "Redefinir zoom",
+    "runtimeTitle": "Caminho de Imagens"
   },
   "nl": {
     "exportToCatalog": "Naar catalogus exporteren",
@@ -1669,6 +1675,7 @@ const translations = {
     "zoomIn": "Inzoomen",
     "zoomOut": "Uitzoomen",
     "zoomReset": "Zoom terugzetten",
+    "runtimeTitle": "Plaatjespad"
   },
   "sv": {
     "exportToCatalog": "Exportera till katalog",
@@ -1904,6 +1911,7 @@ const translations = {
     "zoomIn": "Zooma in",
     "zoomOut": "Zooma ut",
     "zoomReset": "Återställ zoom",
+    "runtimeTitle": "Bildstig"
   },
   "da": {
     "exportToCatalog": "Eksporter til kataloget",
@@ -2141,6 +2149,7 @@ const translations = {
     "zoomIn": "Zoom ind",
     "zoomOut": "Zoom ud",
     "zoomReset": "Nulstil zoom",
+    "runtimeTitle": "Billedsti"
   },
   "no": {
     "exportToCatalog": "Eksporter til katalog",
@@ -2378,6 +2387,7 @@ const translations = {
     "zoomIn": "Zoom inn",
     "zoomOut": "Zoom ut",
     "zoomReset": "Tilbakestill zoom",
+    "runtimeTitle": "Bildesti"
   },
   "fi": {
     "exportToCatalog": "Vie katalogiin",
@@ -2615,6 +2625,7 @@ const translations = {
     "zoomIn": "Lähennä",
     "zoomOut": "Loitonna",
     "zoomReset": "Nollaa zoomaus",
+    "runtimeTitle": "Kuvapolku"
   },
 };
 

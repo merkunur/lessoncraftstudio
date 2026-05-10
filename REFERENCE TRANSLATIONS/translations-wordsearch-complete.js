@@ -280,7 +280,8 @@ const translations = {
     "endDeckMoreTheme": "More {theme} worksheets",
     "endDeckMoreLevel": "More worksheets for {level}",
     "endDeckBrowseAll": "Browse all worksheets",
-    "srPuzzleWordsearch": "Word search puzzle. Find these words in the letter grid: {words}."
+    "srPuzzleWordsearch": "Word search puzzle. Find these words in the letter grid: {words}.",
+    "runtimeTitle": "Word Search"
   },
 
     // ==========================================
@@ -527,7 +528,8 @@ const translations = {
     "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
     "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
     "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
-    "srPuzzleWordsearch": "Wortsuche-Rätsel. Finde diese Wörter im Buchstabengitter: {words}."
+    "srPuzzleWordsearch": "Wortsuche-Rätsel. Finde diese Wörter im Buchstabengitter: {words}.",
+    "runtimeTitle": "Buchstabensalat"
   },
 
     // ==========================================
@@ -764,7 +766,8 @@ const translations = {
         "watermarkSmall": "VERSION GRATUITE",
         "defaultNewText": "Nouveau texte",
         "puzzle": "Puzzle",
-        "exercise": "Exercice"
+        "exercise": "Exercice",
+    "runtimeTitle": "Mots Mêlés"
     },
 
     // ==========================================
@@ -1001,7 +1004,8 @@ const translations = {
         "watermarkSmall": "VERSIÓN GRATUITA",
         "defaultNewText": "Nuevo texto",
         "puzzle": "Juego",
-        "exercise": "Ejercicio"
+        "exercise": "Ejercicio",
+    "runtimeTitle": "Sopa de Letras"
     },
 
     // ==========================================
@@ -1236,7 +1240,8 @@ const translations = {
         "watermarkSmall": "VERSIONE GRATUITA",
         "defaultNewText": "Nuovo testo",
         "puzzle": "Puzzle",
-        "exercise": "Esercizio"
+        "exercise": "Esercizio",
+    "runtimeTitle": "Trova le Parole"
     },
 
     // ==========================================
@@ -1473,7 +1478,8 @@ const translations = {
         "watermarkSmall": "VERSÃO GRATUITA",
         "defaultNewText": "Novo texto",
         "puzzle": "Quebra-cabeça",
-        "exercise": "Exercício"
+        "exercise": "Exercício",
+    "runtimeTitle": "Caça-Palavras"
     },
 
     // ==========================================
@@ -1708,7 +1714,8 @@ const translations = {
         "watermarkSmall": "GRATIS VERSIE",
         "defaultNewText": "Nieuwe tekst",
         "puzzle": "Puzzel",
-        "exercise": "Oefening"
+        "exercise": "Oefening",
+    "runtimeTitle": "Woordzoeker"
     },
 
     // ==========================================
@@ -1945,7 +1952,8 @@ const translations = {
         "watermarkSmall": "GRATIS VERSION",
         "defaultNewText": "Ny text",
         "puzzle": "Pussel",
-        "exercise": "Övning"
+        "exercise": "Övning",
+    "runtimeTitle": "Korsord (Sök ord)"
     },
 
     // ==========================================
@@ -2182,7 +2190,8 @@ const translations = {
         "watermarkSmall": "GRATIS VERSION",
         "defaultNewText": "Ny tekst",
         "puzzle": "Puslespil",
-        "exercise": "Øvelse"
+        "exercise": "Øvelse",
+    "runtimeTitle": "Find ord"
     },
 
     // ==========================================
@@ -2419,7 +2428,8 @@ const translations = {
         "watermarkSmall": "GRATIS VERSJON",
         "defaultNewText": "Ny tekst",
         "puzzle": "Oppgave",
-        "exercise": "Øvelse"
+        "exercise": "Øvelse",
+    "runtimeTitle": "Finn ord"
     },
 
     // ==========================================
@@ -2654,7 +2664,8 @@ const translations = {
         "watermarkSmall": "ILMAINEN VERSIO",
         "defaultNewText": "Uusi teksti",
         "puzzle": "Ristikko",
-        "exercise": "Harjoitus"
+        "exercise": "Harjoitus",
+    "runtimeTitle": "Sanahaku"
     }
 };
 

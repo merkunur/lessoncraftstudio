@@ -223,6 +223,7 @@ const translations = {
     "oddoneout.pairs.heading": "Pairs",
     "oddoneout.pairs.theme.label": "Or Select Theme for Pairs:",
     "oddoneout.theme.manual": "-- No Theme (Use Manual Selection) --",
+    "runtimeTitle": "Find the Objects"
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -470,6 +471,7 @@ const translations = {
     "oddoneout.pairs.heading": "Paare",
     "oddoneout.pairs.theme.label": "Oder Thema für Paare wählen:",
     "oddoneout.theme.manual": "-- Kein Thema (Manuelle Auswahl) --",
+    "runtimeTitle": "Finde die Gegenstände"
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",
@@ -718,6 +720,7 @@ const translations = {
     "oddoneout.pairs.heading": "Paires",
     "oddoneout.pairs.theme.label": "Ou choisir un thème pour les paires :",
     "oddoneout.theme.manual": "-- Aucun thème (Sélection manuelle) --",
+    "runtimeTitle": "Trouve les Objets"
   },
   "es": {
     "exportToCatalog": "Exportar al catálogo",
@@ -964,6 +967,7 @@ const translations = {
     "oddoneout.pairs.heading": "Pares",
     "oddoneout.pairs.theme.label": "O selecciona un tema para los pares:",
     "oddoneout.theme.manual": "-- Sin tema (Selección manual) --",
+    "runtimeTitle": "Encuentra los Objetos"
   },
   "it": {
     "exportToCatalog": "Esporta nel catalogo",
@@ -1212,6 +1216,7 @@ const translations = {
     "oddoneout.pairs.heading": "Coppie",
     "oddoneout.pairs.theme.label": "Oppure seleziona un tema per le coppie:",
     "oddoneout.theme.manual": "-- Nessun tema (selezione manuale) --",
+    "runtimeTitle": "Trova gli Oggetti"
   },
   "pt": {
     "exportToCatalog": "Exportar para o catálogo",
@@ -1460,6 +1465,7 @@ const translations = {
     "oddoneout.pairs.heading": "Pares",
     "oddoneout.pairs.theme.label": "Ou selecione um tema para os pares:",
     "oddoneout.theme.manual": "-- Sem tema (Seleção manual) --",
+    "runtimeTitle": "Encontre os Objetos"
   },
   "nl": {
     "exportToCatalog": "Naar catalogus exporteren",
@@ -1708,6 +1714,7 @@ const translations = {
     "oddoneout.pairs.heading": "Paren",
     "oddoneout.pairs.theme.label": "Of selecteer een thema voor paren:",
     "oddoneout.theme.manual": "-- Geen thema (Handmatige selectie) --",
+    "runtimeTitle": "Zoek de Voorwerpen"
   },
   "sv": {
     "exportToCatalog": "Exportera till katalog",
@@ -1955,6 +1962,7 @@ const translations = {
     "oddoneout.pairs.heading": "Par",
     "oddoneout.pairs.theme.label": "Eller välj ett tema för par:",
     "oddoneout.theme.manual": "-- Inget tema (manuellt val) --",
+    "runtimeTitle": "Hitta Föremålen"
   },
   "da": {
     "exportToCatalog": "Eksporter til kataloget",
@@ -2203,6 +2211,7 @@ const translations = {
     "oddoneout.pairs.heading": "Par",
     "oddoneout.pairs.theme.label": "Eller vælg et tema til par:",
     "oddoneout.theme.manual": "-- Intet tema (Manuel udvælgelse) --",
+    "runtimeTitle": "Find Genstandene"
   },
   "no": {
     "exportToCatalog": "Eksporter til katalog",
@@ -2451,6 +2460,7 @@ const translations = {
     "oddoneout.pairs.heading": "Par",
     "oddoneout.pairs.theme.label": "Eller velg et tema for par:",
     "oddoneout.theme.manual": "-- Ingen tema (Manuelt valg) --",
+    "runtimeTitle": "Finn Gjenstandene"
   },
   "fi": {
     "exportToCatalog": "Vie katalogiin",
@@ -2699,6 +2709,7 @@ const translations = {
     "oddoneout.pairs.heading": "Parit",
     "oddoneout.pairs.theme.label": "Tai valitse teema pareille:",
     "oddoneout.theme.manual": "-- Ei teemaa (Manuaalinen valinta) --",
+    "runtimeTitle": "Etsi Esineet"
   }
 };
 

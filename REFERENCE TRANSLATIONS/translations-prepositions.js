@@ -208,7 +208,8 @@ const translations = {
     "endDeckMoreLevel": "More worksheets for {level}",
     "endDeckBrowseAll": "Browse all worksheets",
     "srExercisePrepositionsChoice": "Question {n}: Choose the preposition that describes the position of the {item} relative to the {shape}.",
-    "srExercisePrepositionsFillIn": "Question {n}: Write the preposition that describes the position of the {item} relative to the {shape}."
+    "srExercisePrepositionsFillIn": "Question {n}: Write the preposition that describes the position of the {item} relative to the {shape}.",
+    "runtimeTitle": "Prepositions Practice"
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -409,7 +410,8 @@ const translations = {
     "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
     "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
     "srExercisePrepositionsChoice": "Frage {n}: Wähle die Präposition, die die Position der {item} im Verhältnis zur {shape} beschreibt.",
-    "srExercisePrepositionsFillIn": "Frage {n}: Schreibe die Präposition, die die Position der {item} im Verhältnis zur {shape} beschreibt."
+    "srExercisePrepositionsFillIn": "Frage {n}: Schreibe die Präposition, die die Position der {item} im Verhältnis zur {shape} beschreibt.",
+    "runtimeTitle": "Präpositionen-Übung"
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",
@@ -603,7 +605,8 @@ const translations = {
     "toolbar.layers": "Calques",
     "toolbar.send.backward": "Reculer",
     "upload_custom_images": "Ajouter vos images",
-    "width_px": "Largeur (px) :"
+    "width_px": "Largeur (px) :",
+    "runtimeTitle": "Exercices de prépositions"
   },
   "es": {
     "exportToCatalog": "Exportar al catálogo",
@@ -791,7 +794,8 @@ const translations = {
     "toolbar.layers": "Capas",
     "toolbar.send.backward": "Enviar atrás",
     "upload_custom_images": "Subir imágenes propias",
-    "width_px": "Ancho (px):"
+    "width_px": "Ancho (px):",
+    "runtimeTitle": "Práctica de Preposiciones"
   },
   "it": {
     "exportToCatalog": "Esporta nel catalogo",
@@ -985,7 +989,8 @@ const translations = {
     "toolbar.layers": "Livelli",
     "toolbar.send.backward": "Porta indietro",
     "upload_custom_images": "Carica le tue immagini",
-    "width_px": "Larghezza (px):"
+    "width_px": "Larghezza (px):",
+    "runtimeTitle": "Esercizi di preposizioni"
   },
   "pt": {
     "exportToCatalog": "Exportar para o catálogo",
@@ -1179,7 +1184,8 @@ const translations = {
     "toolbar.layers": "Camadas",
     "toolbar.send.backward": "Enviar para trás",
     "upload_custom_images": "Carregar imagens próprias",
-    "width_px": "Largura (px):"
+    "width_px": "Largura (px):",
+    "runtimeTitle": "Prática de Preposições"
   },
   "nl": {
     "exportToCatalog": "Naar catalogus exporteren",
@@ -1371,7 +1377,8 @@ const translations = {
     "toolbar.layers": "Lagen",
     "toolbar.send.backward": "Naar achteren",
     "upload_custom_images": "Eigen afbeeldingen uploaden",
-    "width_px": "Breedte (px):"
+    "width_px": "Breedte (px):",
+    "runtimeTitle": "Voorzetsels oefenen"
   },
   "sv": {
     "exportToCatalog": "Exportera till katalog",
@@ -1563,7 +1570,8 @@ const translations = {
     "toolbar.layers": "Lager",
     "toolbar.send.backward": "Flytta bakåt",
     "upload_custom_images": "Ladda upp egna bilder",
-    "width_px": "Bredd (px):"
+    "width_px": "Bredd (px):",
+    "runtimeTitle": "Prepositionsövning"
   },
   "da": {
     "exportToCatalog": "Eksporter til kataloget",
@@ -1755,7 +1763,8 @@ const translations = {
     "toolbar.layers": "Lag",
     "toolbar.send.backward": "Flyt bagud",
     "upload_custom_images": "Upload egne billeder",
-    "width_px": "Bredde (px):"
+    "width_px": "Bredde (px):",
+    "runtimeTitle": "Præpositionsøvelse"
   },
   "no": {
     "exportToCatalog": "Eksporter til katalog",
@@ -1945,7 +1954,8 @@ const translations = {
     "toolbar.layers": "Lag",
     "toolbar.send.backward": "Flytt bakover",
     "upload_custom_images": "Last opp egne bilder",
-    "width_px": "Bredde (px):"
+    "width_px": "Bredde (px):",
+    "runtimeTitle": "Preposisjonsøving"
   },
   "fi": {
     "exportToCatalog": "Vie katalogiin",
@@ -2139,7 +2149,8 @@ const translations = {
     "toolbar.layers": "Tasot",
     "toolbar.send.backward": "Siirrä taaksepäin",
     "upload_custom_images": "Lataa omia kuvia",
-    "width_px": "Leveys (px):"
+    "width_px": "Leveys (px):",
+    "runtimeTitle": "Prepositioharjoitus"
   },
 };
 

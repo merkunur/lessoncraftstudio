@@ -232,7 +232,8 @@ const SUDOKU_TRANSLATIONS = {
 
     // ============= SR-ONLY (Group B Phase 2) =============
     "srWorksheetQuestions": "Worksheet questions",
-    "srPuzzleSudoku": "Picture sudoku puzzle on a {rows} by {cols} grid using pictures of {imageList}. Drag the picture cards into the {blankCount} empty cells so that each row, each column, and each {boxRows} by {boxCols} box contains every picture."
+    "srPuzzleSudoku": "Picture sudoku puzzle on a {rows} by {cols} grid using pictures of {imageList}. Drag the picture cards into the {blankCount} empty cells so that each row, each column, and each {boxRows} by {boxCols} box contains every picture.",
+    "runtimeTitle": "Picture Sudoku"
   },
 
   "de": {
@@ -480,7 +481,8 @@ const SUDOKU_TRANSLATIONS = {
 
     // ============= SR-ONLY (Group B Phase 3) =============
     "srWorksheetQuestions": "Arbeitsblatt-Fragen",
-    "srPuzzleSudoku": "Bilder-Sudoku auf einem {rows} mal {cols} Gitter mit den Bildern: {imageList}. Ziehe die Bildkarten in die {blankCount} leeren Felder, sodass jede Zeile, jede Spalte und jedes {boxRows} mal {boxCols} Feld jedes Bild enthält."
+    "srPuzzleSudoku": "Bilder-Sudoku auf einem {rows} mal {cols} Gitter mit den Bildern: {imageList}. Ziehe die Bildkarten in die {blankCount} leeren Felder, sodass jede Zeile, jede Spalte und jedes {boxRows} mal {boxCols} Feld jedes Bild enthält.",
+    "runtimeTitle": "Bilder-Sudoku"
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",
@@ -725,7 +727,8 @@ const SUDOKU_TRANSLATIONS = {
     // WATERMARK TEXT (2 keys)
     // ==========================================
     "watermarkText": "VERSION GRATUITE - LessonCraftStudio.com",
-    "watermarkSmallText": "VERSION GRATUITE"
+    "watermarkSmallText": "VERSION GRATUITE",
+    "runtimeTitle": "Sudoku d'images"
   },
 
   "es": {
@@ -971,7 +974,8 @@ const SUDOKU_TRANSLATIONS = {
     // WATERMARK TEXT (2 keys)
     // ==========================================
     "watermarkText": "VERSIÓN GRATUITA - LessonCraftStudio.com",
-    "watermarkSmallText": "VERSIÓN GRATUITA"
+    "watermarkSmallText": "VERSIÓN GRATUITA",
+    "runtimeTitle": "Sudoku de Imágenes"
   },
 
   "it": {
@@ -1217,7 +1221,8 @@ const SUDOKU_TRANSLATIONS = {
     // WATERMARK TEXT (2 keys)
     // ==========================================
     "watermarkText": "VERSIONE GRATUITA - LessonCraftStudio.com",
-    "watermarkSmallText": "VERSIONE GRATUITA"
+    "watermarkSmallText": "VERSIONE GRATUITA",
+    "runtimeTitle": "Sudoku di Immagini"
   },
 
   "pt": {
@@ -1463,7 +1468,8 @@ const SUDOKU_TRANSLATIONS = {
     // WATERMARK TEXT (2 keys)
     // ==========================================
     "watermarkText": "VERSÃO GRATUITA - LessonCraftStudio.com",
-    "watermarkSmallText": "VERSÃO GRATUITA"
+    "watermarkSmallText": "VERSÃO GRATUITA",
+    "runtimeTitle": "Sudoku de Imagens"
   },
 
   "nl": {
@@ -1707,7 +1713,8 @@ const SUDOKU_TRANSLATIONS = {
     // WATERMARK TEXT (2 keys)
     // ==========================================
     "watermarkText": "GRATIS VERSIE - LessonCraftStudio.com",
-    "watermarkSmallText": "GRATIS VERSIE"
+    "watermarkSmallText": "GRATIS VERSIE",
+    "runtimeTitle": "Plaatjessudoku"
   },
 
   "sv": {
@@ -1951,7 +1958,8 @@ const SUDOKU_TRANSLATIONS = {
     // WATERMARK TEXT (2 keys)
     // ==========================================
     "watermarkText": "GRATISVERSION - LessonCraftStudio.com",
-    "watermarkSmallText": "GRATISVERSION"
+    "watermarkSmallText": "GRATISVERSION",
+    "runtimeTitle": "Bildsudoku"
   },
 
   "da": {
@@ -2197,7 +2205,8 @@ const SUDOKU_TRANSLATIONS = {
     // WATERMARK TEXT (2 keys)
     // ==========================================
     "watermarkText": "GRATIS VERSION - LessonCraftStudio.com",
-    "watermarkSmallText": "GRATIS VERSION"
+    "watermarkSmallText": "GRATIS VERSION",
+    "runtimeTitle": "Billedsudoku"
   },
 
   "no": {
@@ -2443,7 +2452,8 @@ const SUDOKU_TRANSLATIONS = {
     // WATERMARK TEXT (2 keys)
     // ==========================================
     "watermarkText": "GRATISVERSJON - LessonCraftStudio.com",
-    "watermarkSmallText": "GRATISVERSJON"
+    "watermarkSmallText": "GRATISVERSJON",
+    "runtimeTitle": "Bildesudoku"
   },
 
   "fi": {
@@ -2687,7 +2697,8 @@ const SUDOKU_TRANSLATIONS = {
     // WATERMARK TEXT (2 keys)
     // ==========================================
     "watermarkText": "ILMAISVERSIO - LessonCraftStudio.com",
-    "watermarkSmallText": "ILMAISVERSIO"
+    "watermarkSmallText": "ILMAISVERSIO",
+    "runtimeTitle": "Kuvasudoku"
   }
 };
 

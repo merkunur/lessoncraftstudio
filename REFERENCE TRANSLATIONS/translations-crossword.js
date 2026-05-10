@@ -434,7 +434,8 @@ const translations = {
     "tooltip.generate.worksheet": "Worksheet",
     "tooltip.select.all": "All",
     "uploadCustomImages": "Upload Custom Images",
-    "worksheetGenerated": "Worksheet Generated"
+    "worksheetGenerated": "Worksheet Generated",
+    "runtimeTitle": "Crossword"
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -859,7 +860,8 @@ const translations = {
     "tooltip.generate.answer": "Answer",
     "tooltip.generate.worksheet": "Worksheet",
     "tooltip.select.all": "All",
-    "worksheetGenerated": "Worksheet Generated"
+    "worksheetGenerated": "Worksheet Generated",
+    "runtimeTitle": "Kreuzworträtsel"
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",
@@ -1288,7 +1290,8 @@ const translations = {
     "errorLoadingImages": "Impossible de charger les images.",
     "language.note": "Opmerking",
     "page.size.square": "Carré (1200×1200)",
-    "tooltip.generate": "Créer les mots croisés"
+    "tooltip.generate": "Créer les mots croisés",
+    "runtimeTitle": "Mots croisés"
   },
   "es": {
     "exportToCatalog": "Exportar al catálogo",
@@ -1717,7 +1720,8 @@ const translations = {
     "errorLoadingImages": "No se pudieron cargar las imágenes.",
     "language.note": "Nota",
     "page.size.square": "Cuadrado (1200×1200)",
-    "tooltip.generate": "Crear crucigrama"
+    "tooltip.generate": "Crear crucigrama",
+    "runtimeTitle": "Crucigrama"
   },
   "it": {
     "exportToCatalog": "Esporta nel catalogo",
@@ -2144,7 +2148,8 @@ const translations = {
     "errorLoadingImages": "Impossibile caricare le immagini.",
     "language.note": "Nota",
     "page.size.square": "Quadrato (1200×1200)",
-    "tooltip.generate": "Genera cruciverba"
+    "tooltip.generate": "Genera cruciverba",
+    "runtimeTitle": "Cruciverba"
   },
   "pt": {
     "exportToCatalog": "Exportar para o catálogo",
@@ -2573,7 +2578,8 @@ const translations = {
     "errorLoadingImages": "Não foi possível carregar as imagens.",
     "language.note": "Observação",
     "page.size.square": "Quadrado (1200×1200)",
-    "tooltip.generate": "Criar palavras cruzadas"
+    "tooltip.generate": "Criar palavras cruzadas",
+    "runtimeTitle": "Palavras Cruzadas"
   },
   "nl": {
     "exportToCatalog": "Naar catalogus exporteren",
@@ -3002,7 +3008,8 @@ const translations = {
     "errorLoadingImages": "Kon afbeeldingen niet laden.",
     "language.note": "Opmerking",
     "page.size.square": "Vierkant (1200×1200)",
-    "tooltip.generate": "Kruiswoordpuzzel genereren"
+    "tooltip.generate": "Kruiswoordpuzzel genereren",
+    "runtimeTitle": "Kruiswoordpuzzel"
   },
   "sv": {
     "exportToCatalog": "Exportera till katalog",
@@ -3329,7 +3336,8 @@ const translations = {
     "crossword.msg.upload.error": "Fel vid uppladdning av filer.",
     "crossword.download.puzzle.jpeg": "Pussel (JPEG)",
     "crossword.download.puzzle.pdf": "Pussel (PDF)",
-    "crossword.generate.puzzle": "Skapa pussel"
+    "crossword.generate.puzzle": "Skapa pussel",
+    "runtimeTitle": "Korsord"
   },
   "da": {
     "exportToCatalog": "Eksporter til kataloget",
@@ -3756,7 +3764,8 @@ const translations = {
     "errorLoadingImages": "Kunne ikke indlæse billeder.",
     "language.note": "Bemærk",
     "page.size.square": "Kvadratisk (1200×1200)",
-    "tooltip.generate": "Opret krydsord"
+    "tooltip.generate": "Opret krydsord",
+    "runtimeTitle": "Krydsord"
   },
   "no": {
     "exportToCatalog": "Eksporter til katalog",
@@ -4183,7 +4192,8 @@ const translations = {
     "errorLoadingImages": "Kunne ikke laste inn bilder.",
     "language.note": "Merknad",
     "page.size.square": "Kvadrat (1200×1200)",
-    "tooltip.generate": "Lag kryssord"
+    "tooltip.generate": "Lag kryssord",
+    "runtimeTitle": "Kryssord"
   },
   "fi": {
     "exportToCatalog": "Vie katalogiin",
@@ -4612,7 +4622,8 @@ const translations = {
     "errorLoadingImages": "Kon afbeeldingen niet laden.",
     "language.note": "Opmerking",
     "page.size.square": "Vierkant (1200×1200)",
-    "tooltip.generate": "Kruiswoordpuzzel genereren"
+    "tooltip.generate": "Kruiswoordpuzzel genereren",
+    "runtimeTitle": "Ristisanat"
   }
 };
 

@@ -189,7 +189,8 @@ const translations = {
     "toolbar.layers": "Layers",
     "toolbar.send.backward": "Send Backward",
     "toolbar.bring.to.front": "Bring to Front",
-    "toolbar.send.to.back": "Send to Back"
+    "toolbar.send.to.back": "Send to Back",
+    "runtimeTitle": "Picture Sort"
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -374,7 +375,8 @@ const translations = {
     "toolbar.layers": "Ebenen",
     "toolbar.send.backward": "Nach Hinten Verschieben",
     "toolbar.bring.to.front": "In den Vordergrund",
-    "toolbar.send.to.back": "In den Hintergrund"
+    "toolbar.send.to.back": "In den Hintergrund",
+    "runtimeTitle": "Bilder sortieren"
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",
@@ -560,7 +562,8 @@ const translations = {
     "toolbar.layers": "Calques",
     "toolbar.send.backward": "Reculer",
     "toolbar.bring.to.front": "Mettre au premier plan",
-    "toolbar.send.to.back": "Mettre à l'arrière-plan"
+    "toolbar.send.to.back": "Mettre à l'arrière-plan",
+    "runtimeTitle": "Trier les images"
   },
   "es": {
     "exportToCatalog": "Exportar al catálogo",
@@ -746,7 +749,8 @@ const translations = {
     "toolbar.layers": "Capas",
     "toolbar.send.backward": "Enviar Atrás",
     "toolbar.bring.to.front": "Traer al frente",
-    "toolbar.send.to.back": "Enviar al fondo"
+    "toolbar.send.to.back": "Enviar al fondo",
+    "runtimeTitle": "Clasificar Imágenes"
   },
   "it": {
     "exportToCatalog": "Esporta nel catalogo",
@@ -931,7 +935,8 @@ const translations = {
     "toolbar.layers": "Livelli",
     "toolbar.send.backward": "Porta Indietro",
     "toolbar.bring.to.front": "Porta in primo piano",
-    "toolbar.send.to.back": "Porta sullo sfondo"
+    "toolbar.send.to.back": "Porta sullo sfondo",
+    "runtimeTitle": "Ordina le immagini"
   },
   "pt": {
     "exportToCatalog": "Exportar para o catálogo",
@@ -1117,7 +1122,8 @@ const translations = {
     "toolbar.layers": "Camadas",
     "toolbar.send.backward": "Enviar para Trás",
     "toolbar.bring.to.front": "Trazer para frente",
-    "toolbar.send.to.back": "Enviar para trás"
+    "toolbar.send.to.back": "Enviar para trás",
+    "runtimeTitle": "Classificar Imagens"
   },
   "nl": {
     "exportToCatalog": "Naar catalogus exporteren",
@@ -1302,7 +1308,8 @@ const translations = {
     "toolbar.layers": "Lagen",
     "toolbar.send.backward": "Naar achteren",
     "toolbar.bring.to.front": "Naar voren brengen",
-    "toolbar.send.to.back": "Naar achteren sturen"
+    "toolbar.send.to.back": "Naar achteren sturen",
+    "runtimeTitle": "Plaatjes sorteren"
   },
   "sv": {
     "exportToCatalog": "Exportera till katalog",
@@ -1487,7 +1494,8 @@ const translations = {
     "toolbar.layers": "Lager",
     "toolbar.send.backward": "Flytta bakåt",
     "toolbar.bring.to.front": "Flytta längst fram",
-    "toolbar.send.to.back": "Flytta längst bak"
+    "toolbar.send.to.back": "Flytta längst bak",
+    "runtimeTitle": "Sortera bilder"
   },
   "da": {
     "exportToCatalog": "Eksporter til kataloget",
@@ -1673,7 +1681,8 @@ const translations = {
     "toolbar.layers": "Lag",
     "toolbar.send.backward": "Flyt Bagud",
     "toolbar.bring.to.front": "Bring til forgrunden",
-    "toolbar.send.to.back": "Send til baggrunden"
+    "toolbar.send.to.back": "Send til baggrunden",
+    "runtimeTitle": "Sortér billeder"
   },
   "no": {
     "exportToCatalog": "Eksporter til katalog",
@@ -1859,7 +1868,8 @@ const translations = {
     "toolbar.layers": "Lag",
     "toolbar.send.backward": "Flytt Bakover",
     "toolbar.bring.to.front": "Flytt lengst frem",
-    "toolbar.send.to.back": "Flytt lengst bak"
+    "toolbar.send.to.back": "Flytt lengst bak",
+    "runtimeTitle": "Sorter bilder"
   },
   "fi": {
     "exportToCatalog": "Vie katalogiin",
@@ -2045,7 +2055,8 @@ const translations = {
     "toolbar.layers": "Tasot",
     "toolbar.send.backward": "Siirrä Taaksepäin",
     "toolbar.bring.to.front": "Tuo etualalle",
-    "toolbar.send.to.back": "Vie taustalle"
+    "toolbar.send.to.back": "Vie taustalle",
+    "runtimeTitle": "Lajittele kuvat"
   },
 };
 

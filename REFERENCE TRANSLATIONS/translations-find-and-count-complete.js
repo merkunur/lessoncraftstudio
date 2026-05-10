@@ -221,7 +221,8 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "srExerciseFindAndCountCircle": "Question {n}: Circle every {word} in the picture.",
     "srExerciseFindAndCountSquare": "Question {n}: Draw a square around every {word} in the picture.",
     "srExerciseFindAndCountCross": "Question {n}: Cross out every {word} in the picture.",
-    "srExerciseFindAndCountCount": "Question {n}: Count every {word} in the picture and write the total."
+    "srExerciseFindAndCountCount": "Question {n}: Count every {word} in the picture and write the total.",
+    "runtimeTitle": "Find and Count"
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -431,7 +432,8 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "srExerciseFindAndCountCircle": "Frage {n}: Kreise jedes {word} im Bild ein.",
     "srExerciseFindAndCountSquare": "Frage {n}: Zeichne ein Quadrat um jedes {word} im Bild.",
     "srExerciseFindAndCountCross": "Frage {n}: Streiche jedes {word} im Bild durch.",
-    "srExerciseFindAndCountCount": "Frage {n}: Zähle jedes {word} im Bild und schreibe die Anzahl auf."
+    "srExerciseFindAndCountCount": "Frage {n}: Zähle jedes {word} im Bild und schreibe die Anzahl auf.",
+    "runtimeTitle": "Suchen und Zählen"
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",
@@ -628,7 +630,8 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "pleaseSelectEnoughDistractors": "Sélectionne au moins 5 images distractrices (ne commençant pas par la lettre).",
     "pleaseSelectTargetImage": "Sélectionne au moins 1 image commençant par la lettre {letter}.",
     "letterSpottingInstruction": "Trouve toutes les images qui commencent par la lettre {letter}.",
-    "more": "plus"
+    "more": "plus",
+    "runtimeTitle": "Trouve et Compte"
   },
   "es": {
     "exportToCatalog": "Exportar al catálogo",
@@ -825,7 +828,8 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "pleaseSelectEnoughDistractors": "Selecciona al menos 5 imágenes distractoras (que no empiecen con la letra).",
     "pleaseSelectTargetImage": "Selecciona al menos 1 imagen que empiece con la letra {letter}.",
     "letterSpottingInstruction": "Encuentra todas las imágenes que empiezan con la letra {letter}.",
-    "more": "más"
+    "more": "más",
+    "runtimeTitle": "Encuentra y Cuenta"
   },
   "it": {
     "exportToCatalog": "Esporta nel catalogo",
@@ -1021,7 +1025,8 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "pleaseSelectEnoughDistractors": "Seleziona almeno 5 immagini distrattrici (che non iniziano con la lettera).",
     "pleaseSelectTargetImage": "Seleziona almeno 1 immagine che inizia con la lettera {letter}.",
     "letterSpottingInstruction": "Trova tutte le immagini che iniziano con la lettera {letter}.",
-    "more": "altro"
+    "more": "altro",
+    "runtimeTitle": "Trova e Conta"
   },
   "pt": {
     "exportToCatalog": "Exportar para o catálogo",
@@ -1218,7 +1223,8 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "pleaseSelectEnoughDistractors": "Seleciona pelo menos 5 imagens de distração (que não começam com a letra).",
     "pleaseSelectTargetImage": "Seleciona pelo menos 1 imagem que começa com a letra {letter}.",
     "letterSpottingInstruction": "Encontra todas as imagens que começam com a letra {letter}.",
-    "more": "mais"
+    "more": "mais",
+    "runtimeTitle": "Encontre e Conte"
   },
   "nl": {
     "exportToCatalog": "Naar catalogus exporteren",
@@ -1415,7 +1421,8 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "pleaseSelectEnoughDistractors": "Selecteer minstens 5 afleidingsafbeeldingen (die niet met de letter beginnen).",
     "pleaseSelectTargetImage": "Selecteer minstens 1 afbeelding die begint met de letter {letter}.",
     "letterSpottingInstruction": "Zoek alle plaatjes die beginnen met de letter {letter}.",
-    "more": "meer"
+    "more": "meer",
+    "runtimeTitle": "Zoeken en Tellen"
   },
   "sv": {
     "exportToCatalog": "Exportera till katalog",
@@ -1612,7 +1619,8 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "pleaseSelectEnoughDistractors": "Välj minst 5 distraktionsbilder (som inte börjar med bokstaven).",
     "pleaseSelectTargetImage": "Välj minst 1 bild som börjar med bokstaven {letter}.",
     "letterSpottingInstruction": "Hitta alla bilder som börjar med bokstaven {letter}.",
-    "more": "mer"
+    "more": "mer",
+    "runtimeTitle": "Hitta och Räkna"
   },
   "da": {
     "exportToCatalog": "Eksporter til kataloget",
@@ -1809,7 +1817,8 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "pleaseSelectEnoughDistractors": "Vælg mindst 5 distraktionsbilleder (der ikke begynder med bogstavet).",
     "pleaseSelectTargetImage": "Vælg mindst 1 billede, der begynder med bogstavet {letter}.",
     "letterSpottingInstruction": "Find alle billeder, der begynder med bogstavet {letter}.",
-    "more": "mere"
+    "more": "mere",
+    "runtimeTitle": "Find og Tæl"
   },
   "no": {
     "exportToCatalog": "Eksporter til katalog",
@@ -2006,7 +2015,8 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "pleaseSelectEnoughDistractors": "Velg minst 5 distraksjonsbilder (som ikke begynner med bokstaven).",
     "pleaseSelectTargetImage": "Velg minst 1 bilde som begynner med bokstaven {letter}.",
     "letterSpottingInstruction": "Finn alle bildene som begynner med bokstaven {letter}.",
-    "more": "mer"
+    "more": "mer",
+    "runtimeTitle": "Finn og Tell"
   },
   "fi": {
     "exportToCatalog": "Vie katalogiin",
@@ -2203,7 +2213,8 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "pleaseSelectEnoughDistractors": "Valitse vähintään 5 häiriökuvaa (jotka eivät ala kirjaimella).",
     "pleaseSelectTargetImage": "Valitse vähintään 1 kuva, joka alkaa kirjaimella {letter}.",
     "letterSpottingInstruction": "Etsi kaikki kuvat, jotka alkavat kirjaimella {letter}.",
-    "more": "lisää"
+    "more": "lisää",
+    "runtimeTitle": "Etsi ja Laske"
   }
 };
 

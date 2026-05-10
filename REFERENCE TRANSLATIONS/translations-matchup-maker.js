@@ -287,7 +287,8 @@ const translations = {
     "endDeckMoreTheme": "More {theme} worksheets",
     "endDeckMoreLevel": "More worksheets for {level}",
     "endDeckBrowseAll": "Browse all worksheets",
-    "srExerciseMatching": "Question {n}: Match {leftValue} on the left to its matching item on the right."
+    "srExerciseMatching": "Question {n}: Match {leftValue} on the left to its matching item on the right.",
+    "runtimeTitle": "Match Up"
   },
 
   // ============================================
@@ -531,7 +532,8 @@ const translations = {
     "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
     "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
     "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
-    "srExerciseMatching": "Frage {n}: Verbinde {leftValue} links mit dem passenden Bild rechts."
+    "srExerciseMatching": "Frage {n}: Verbinde {leftValue} links mit dem passenden Bild rechts.",
+    "runtimeTitle": "Verbinden"
   },
 
   // ============================================
@@ -765,7 +767,8 @@ const translations = {
     "pickAnImage": "Choisir une image",
     "image": "Image",
     "word": "Mot",
-    "customWord": "Mot personnalisé"
+    "customWord": "Mot personnalisé",
+    "runtimeTitle": "Associer"
   },
 
   // ============================================
@@ -998,7 +1001,8 @@ const translations = {
     "pickAnImage": "Elegir una imagen",
     "image": "Imagen",
     "word": "Palabra",
-    "customWord": "Palabra personalizada"
+    "customWord": "Palabra personalizada",
+    "runtimeTitle": "Emparejar"
   },
 
   // ============================================
@@ -1232,7 +1236,8 @@ const translations = {
     "pickAnImage": "Scegli un'immagine",
     "image": "Immagine",
     "word": "Parola",
-    "customWord": "Parola personalizzata"
+    "customWord": "Parola personalizzata",
+    "runtimeTitle": "Abbinare"
   },
 
   // ============================================
@@ -1465,7 +1470,8 @@ const translations = {
     "pickAnImage": "Escolher uma imagem",
     "image": "Imagem",
     "word": "Palavra",
-    "customWord": "Palavra personalizada"
+    "customWord": "Palavra personalizada",
+    "runtimeTitle": "Combinar"
   },
 
   // ============================================
@@ -1698,7 +1704,8 @@ const translations = {
     "pickAnImage": "Kies een afbeelding",
     "image": "Afbeelding",
     "word": "Woord",
-    "customWord": "Aangepast woord"
+    "customWord": "Aangepast woord",
+    "runtimeTitle": "Verbinden"
   },
 
   // ============================================
@@ -1932,7 +1939,8 @@ const translations = {
     "pickAnImage": "Välj en bild",
     "image": "Bild",
     "word": "Ord",
-    "customWord": "Anpassat ord"
+    "customWord": "Anpassat ord",
+    "runtimeTitle": "Para ihop"
   },
 
   // ============================================
@@ -2166,7 +2174,8 @@ const translations = {
     "pickAnImage": "Vælg et billede",
     "image": "Billede",
     "word": "Ord",
-    "customWord": "Brugerdefineret ord"
+    "customWord": "Brugerdefineret ord",
+    "runtimeTitle": "Sæt sammen"
   },
 
   // ============================================
@@ -2400,7 +2409,8 @@ const translations = {
     "pickAnImage": "Velg et bilde",
     "image": "Bilde",
     "word": "Ord",
-    "customWord": "Egendefinert ord"
+    "customWord": "Egendefinert ord",
+    "runtimeTitle": "Sett sammen"
   },
 
   // ============================================
@@ -2633,7 +2643,8 @@ const translations = {
     "pickAnImage": "Valitse kuva",
     "image": "Kuva",
     "word": "Sana",
-    "customWord": "Oma sana"
+    "customWord": "Oma sana",
+    "runtimeTitle": "Yhdistä"
   }
 };
 

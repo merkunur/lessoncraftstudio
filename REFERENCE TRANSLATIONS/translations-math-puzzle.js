@@ -184,7 +184,8 @@ const translations = {
     "endDeckMoreTheme": "More {theme} worksheets",
     "endDeckMoreLevel": "More worksheets for {level}",
     "endDeckBrowseAll": "Browse all worksheets",
-    "srExerciseMathPuzzle": "Question {n}: {operationText} blank."
+    "srExerciseMathPuzzle": "Question {n}: {operationText} blank.",
+    "runtimeTitle": "Math Puzzle Practice"
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -446,7 +447,8 @@ const translations = {
     "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
     "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
     "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
-    "srExerciseMathPuzzle": "Frage {n}: {operationText} Leerzeichen."
+    "srExerciseMathPuzzle": "Frage {n}: {operationText} Leerzeichen.",
+    "runtimeTitle": "Mathe-Puzzle-Übung"
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",
@@ -697,7 +699,8 @@ const translations = {
     "bringToFront": "Mettre au premier plan",
     "bringForward": "Avancer",
     "sendBackward": "Reculer",
-    "sendToBack": "Mettre à l'arrière-plan"
+    "sendToBack": "Mettre à l'arrière-plan",
+    "runtimeTitle": "Exercices de puzzle mathématique"
   },
   "es": {
     "exportToCatalog": "Exportar al catálogo",
@@ -947,7 +950,8 @@ const translations = {
     "bringToFront": "Traer al frente",
     "bringForward": "Traer adelante",
     "sendBackward": "Enviar atrás",
-    "sendToBack": "Enviar al fondo"
+    "sendToBack": "Enviar al fondo",
+    "runtimeTitle": "Práctica de Rompecabezas Matemático"
   },
   "it": {
     "exportToCatalog": "Esporta nel catalogo",
@@ -1196,7 +1200,8 @@ const translations = {
     "bringToFront": "Porta in primo piano",
     "bringForward": "Porta avanti",
     "sendBackward": "Porta indietro",
-    "sendToBack": "Porta in secondo piano"
+    "sendToBack": "Porta in secondo piano",
+    "runtimeTitle": "Esercizi col puzzle matematico"
   },
   "pt": {
     "exportToCatalog": "Exportar para o catálogo",
@@ -1449,7 +1454,8 @@ const translations = {
     "bringToFront": "Trazer para frente",
     "bringForward": "Avançar",
     "sendBackward": "Recuar",
-    "sendToBack": "Enviar para trás"
+    "sendToBack": "Enviar para trás",
+    "runtimeTitle": "Prática de Quebra-Cabeça de Matemática"
   },
   "nl": {
     "exportToCatalog": "Naar catalogus exporteren",
@@ -1702,7 +1708,8 @@ const translations = {
     "bringToFront": "Naar voren brengen",
     "bringForward": "Vooruit brengen",
     "sendBackward": "Naar achteren sturen",
-    "sendToBack": "Naar achtergrond sturen"
+    "sendToBack": "Naar achtergrond sturen",
+    "runtimeTitle": "Wiskundepuzzel oefenen"
   },
   "sv": {
     "exportToCatalog": "Exportera till katalog",
@@ -1953,7 +1960,8 @@ const translations = {
     "bringToFront": "Lägg längst fram",
     "bringForward": "Flytta framåt",
     "sendBackward": "Flytta bakåt",
-    "sendToBack": "Lägg längst bak"
+    "sendToBack": "Lägg längst bak",
+    "runtimeTitle": "Matematikpussel-övning"
   },
   "da": {
     "exportToCatalog": "Eksporter til kataloget",
@@ -2204,7 +2212,8 @@ const translations = {
     "bringToFront": "Flyt forrest",
     "bringForward": "Flyt fremad",
     "sendBackward": "Flyt tilbage",
-    "sendToBack": "Flyt bagerst"
+    "sendToBack": "Flyt bagerst",
+    "runtimeTitle": "Matematikpuslespil-øvelse"
   },
   "no": {
     "exportToCatalog": "Eksporter til katalog",
@@ -2455,7 +2464,8 @@ const translations = {
     "bringToFront": "Flytt til forgrunn",
     "bringForward": "Flytt fremover",
     "sendBackward": "Flytt bakover",
-    "sendToBack": "Flytt til bakgrunn"
+    "sendToBack": "Flytt til bakgrunn",
+    "runtimeTitle": "Mattepuslespill-øving"
   },
   "fi": {
     "exportToCatalog": "Vie katalogiin",
@@ -2704,6 +2714,7 @@ const translations = {
     "bringToFront": "Tuo etualalle",
     "bringForward": "Siirrä eteenpäin",
     "sendBackward": "Siirrä taaksepäin",
-    "sendToBack": "Vie taustalle"
+    "sendToBack": "Vie taustalle",
+    "runtimeTitle": "Matematiikkapalapeli-harjoitus"
   }
 };

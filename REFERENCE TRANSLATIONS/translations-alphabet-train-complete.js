@@ -281,7 +281,8 @@ const translations = {
     "endDeckMoreTheme": "More {theme} worksheets",
     "endDeckMoreLevel": "More worksheets for {level}",
     "endDeckBrowseAll": "Browse all worksheets",
-    "srExerciseAlphabetTrain": "Question {n}: Drag the correct letter into wagon {n}."
+    "srExerciseAlphabetTrain": "Question {n}: Drag the correct letter into wagon {n}.",
+    "runtimeTitle": "Alphabet Train Practice"
   },
 
     de: {
@@ -534,7 +535,8 @@ const translations = {
     "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
     "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
     "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
-    "srExerciseAlphabetTrain": "Frage {n}: Ziehe den richtigen Buchstaben in Waggon {n}."
+    "srExerciseAlphabetTrain": "Frage {n}: Ziehe den richtigen Buchstaben in Waggon {n}.",
+    "runtimeTitle": "Alphabet-Zug Übung"
   },
 
     fr: {
@@ -775,7 +777,8 @@ const translations = {
         "preparingJPEG": "Préparation du JPEG...",
         "preparingPDF": "Préparation du PDF...",
         "selectSpecificThemeForAutoCreate": "Veuillez sélectionner un thème spécifique pour la création automatique.",
-        "worksheetGeneratedCanGenerateAnswerKey": "Feuille d'exercices créée. Vous pouvez maintenant créer le corrigé."
+        "worksheetGeneratedCanGenerateAnswerKey": "Feuille d'exercices créée. Vous pouvez maintenant créer le corrigé.",
+    "runtimeTitle": "Exercice du Train Alphabet"
     },
 
     es: {
@@ -1016,7 +1019,8 @@ const translations = {
         "preparingJPEG": "Preparando JPEG...",
         "preparingPDF": "Preparando PDF...",
         "selectSpecificThemeForAutoCreate": "Por favor seleccione un tema específico para la creación automática.",
-        "worksheetGeneratedCanGenerateAnswerKey": "Hoja de trabajo creada. Ahora puede crear la hoja de respuestas."
+        "worksheetGeneratedCanGenerateAnswerKey": "Hoja de trabajo creada. Ahora puede crear la hoja de respuestas.",
+    "runtimeTitle": "Práctica del Tren del Abecedario"
     },
 
     it: {
@@ -1256,7 +1260,8 @@ const translations = {
         "preparingJPEG": "Preparazione JPEG...",
         "preparingPDF": "Preparazione PDF...",
         "selectSpecificThemeForAutoCreate": "Seleziona un tema specifico per la creazione automatica.",
-        "worksheetGeneratedCanGenerateAnswerKey": "Scheda didattica creata. Ora puoi creare le soluzioni."
+        "worksheetGeneratedCanGenerateAnswerKey": "Scheda didattica creata. Ora puoi creare le soluzioni.",
+    "runtimeTitle": "Esercizi col Treno Alfabetico"
     },
 
     pt: {
@@ -1496,7 +1501,8 @@ const translations = {
         "preparingJPEG": "Preparando JPEG...",
         "preparingPDF": "Preparando PDF...",
         "selectSpecificThemeForAutoCreate": "Selecione um tema específico para a criação automática.",
-        "worksheetGeneratedCanGenerateAnswerKey": "Folha de trabalho criada. Agora você pode criar a folha de respostas."
+        "worksheetGeneratedCanGenerateAnswerKey": "Folha de trabalho criada. Agora você pode criar a folha de respostas.",
+    "runtimeTitle": "Prática do Trem do Alfabeto"
     },
 
     nl: {
@@ -1734,7 +1740,8 @@ const translations = {
         "preparingJPEG": "JPEG voorbereiden...",
         "preparingPDF": "PDF voorbereiden...",
         "selectSpecificThemeForAutoCreate": "Selecteer een specifiek thema voor automatisch maken.",
-        "worksheetGeneratedCanGenerateAnswerKey": "Werkblad gemaakt. U kunt nu het antwoordblad maken."
+        "worksheetGeneratedCanGenerateAnswerKey": "Werkblad gemaakt. U kunt nu het antwoordblad maken.",
+    "runtimeTitle": "Alfabettrein oefenen"
     },
 
     sv: {
@@ -1974,7 +1981,8 @@ const translations = {
         "preparingJPEG": "Förbereder JPEG...",
         "preparingPDF": "Förbereder PDF...",
         "selectSpecificThemeForAutoCreate": "Välj ett specifikt tema för auto-skapa.",
-        "worksheetGeneratedCanGenerateAnswerKey": "Övningsblad skapat. Du kan nu skapa facit."
+        "worksheetGeneratedCanGenerateAnswerKey": "Övningsblad skapat. Du kan nu skapa facit.",
+    "runtimeTitle": "Alfabetståg-övning"
     },
 
     da: {
@@ -2214,7 +2222,8 @@ const translations = {
         "preparingJPEG": "Forbereder JPEG...",
         "preparingPDF": "Forbereder PDF...",
         "selectSpecificThemeForAutoCreate": "Vælg et specifikt tema for auto-opret.",
-        "worksheetGeneratedCanGenerateAnswerKey": "Arbejdsark oprettet. Du kan nu oprette svarark."
+        "worksheetGeneratedCanGenerateAnswerKey": "Arbejdsark oprettet. Du kan nu oprette svarark.",
+    "runtimeTitle": "Alfabettog-øvelse"
     },
 
     no: {
@@ -2454,7 +2463,8 @@ const translations = {
         "preparingJPEG": "Forbereder JPEG...",
         "preparingPDF": "Forbereder PDF...",
         "selectSpecificThemeForAutoCreate": "Velg et spesifikt tema for auto-opprett.",
-        "worksheetGeneratedCanGenerateAnswerKey": "Arbeidsark opprettet. Du kan nå opprette fasit."
+        "worksheetGeneratedCanGenerateAnswerKey": "Arbeidsark opprettet. Du kan nå opprette fasit.",
+    "runtimeTitle": "Alfabettog-øving"
     },
 
     fi: {
@@ -2694,7 +2704,8 @@ const translations = {
         "preparingJPEG": "Valmistellaan JPEG:iä...",
         "preparingPDF": "Valmistellaan PDF:ää...",
         "selectSpecificThemeForAutoCreate": "Valitse tietty teema automaattiseen luontiin.",
-        "worksheetGeneratedCanGenerateAnswerKey": "Tehtäväarkki luotu. Voit nyt luoda vastaukset."
+        "worksheetGeneratedCanGenerateAnswerKey": "Tehtäväarkki luotu. Voit nyt luoda vastaukset.",
+    "runtimeTitle": "Aakkosjuna-harjoitus"
     }
 };
 

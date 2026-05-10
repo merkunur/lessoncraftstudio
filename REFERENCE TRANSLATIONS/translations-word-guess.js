@@ -250,7 +250,8 @@ const translations = {
     "endDeckMoreTheme": "More {theme} worksheets",
     "endDeckMoreLevel": "More worksheets for {level}",
     "endDeckBrowseAll": "Browse all worksheets",
-    "srExerciseWordGuess": "Question {n}: Spell the word for the picture shown. Some letters are already filled in."
+    "srExerciseWordGuess": "Question {n}: Spell the word for the picture shown. Some letters are already filled in.",
+    "runtimeTitle": "Word Guess Practice"
   },
 
   de: {
@@ -499,7 +500,8 @@ const translations = {
     "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
     "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
     "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
-    "srExerciseWordGuess": "Frage {n}: Buchstabiere das Wort zum gezeigten Bild. Einige Buchstaben sind bereits ausgefüllt."
+    "srExerciseWordGuess": "Frage {n}: Buchstabiere das Wort zum gezeigten Bild. Einige Buchstaben sind bereits ausgefüllt.",
+    "runtimeTitle": "Wörter-Raten-Übung"
   },
 
   fr: {
@@ -737,7 +739,8 @@ const translations = {
 
     // ===== 15. WATERMARKS (2 items) =====
     "watermark.free": "VERSION GRATUITE - LessonCraftStudio.com",
-    "watermark.freeShort": "VERSION GRATUITE"
+    "watermark.freeShort": "VERSION GRATUITE",
+    "runtimeTitle": "Exercices devine le mot"
   },
 
   es: {
@@ -975,7 +978,8 @@ const translations = {
 
     // ===== 15. WATERMARKS (2 items) =====
     "watermark.free": "VERSIÓN GRATUITA - LessonCraftStudio.com",
-    "watermark.freeShort": "VERSIÓN GRATUITA"
+    "watermark.freeShort": "VERSIÓN GRATUITA",
+    "runtimeTitle": "Práctica de Adivinar Palabras"
   },
 
   it: {
@@ -1213,7 +1217,8 @@ const translations = {
 
     // ===== 15. WATERMARKS (2 items) =====
     "watermark.free": "VERSIONE GRATUITA - LessonCraftStudio.com",
-    "watermark.freeShort": "VERSIONE GRATUITA"
+    "watermark.freeShort": "VERSIONE GRATUITA",
+    "runtimeTitle": "Esercizi indovina la parola"
   },
 
   pt: {
@@ -1451,7 +1456,8 @@ const translations = {
 
     // ===== 15. WATERMARKS (2 items) =====
     "watermark.free": "VERSÃO GRATUITA - LessonCraftStudio.com",
-    "watermark.freeShort": "VERSÃO GRATUITA"
+    "watermark.freeShort": "VERSÃO GRATUITA",
+    "runtimeTitle": "Prática de Adivinhar Palavras"
   },
 
   nl: {
@@ -1689,7 +1695,8 @@ const translations = {
 
     // ===== 15. WATERMARKS (2 items) =====
     "watermark.free": "GRATIS VERSIE - LessonCraftStudio.com",
-    "watermark.freeShort": "GRATIS VERSIE"
+    "watermark.freeShort": "GRATIS VERSIE",
+    "runtimeTitle": "Woordraden oefenen"
   },
 
   sv: {
@@ -1927,7 +1934,8 @@ const translations = {
 
     // ===== 15. WATERMARKS (2 items) =====
     "watermark.free": "GRATISVERSION - LessonCraftStudio.com",
-    "watermark.freeShort": "GRATISVERSION"
+    "watermark.freeShort": "GRATISVERSION",
+    "runtimeTitle": "Gissa ordet-övning"
   },
 
   da: {
@@ -2165,7 +2173,8 @@ const translations = {
 
     // ===== 15. WATERMARKS (2 items) =====
     "watermark.free": "GRATIS VERSION - LessonCraftStudio.com",
-    "watermark.freeShort": "GRATIS VERSION"
+    "watermark.freeShort": "GRATIS VERSION",
+    "runtimeTitle": "Gæt ordet-øvelse"
   },
 
   no: {
@@ -2403,7 +2412,8 @@ const translations = {
 
     // ===== 15. WATERMARKS (2 items) =====
     "watermark.free": "GRATIS VERSJON - LessonCraftStudio.com",
-    "watermark.freeShort": "GRATIS VERSJON"
+    "watermark.freeShort": "GRATIS VERSJON",
+    "runtimeTitle": "Gjett ordet-øving"
   },
 
   fi: {
@@ -2641,7 +2651,8 @@ const translations = {
 
     // ===== 15. WATERMARKS (2 items) =====
     "watermark.free": "ILMAISVERSIO - LessonCraftStudio.com",
-    "watermark.freeShort": "ILMAISVERSIO"
+    "watermark.freeShort": "ILMAISVERSIO",
+    "runtimeTitle": "Arvaa sana -harjoitus"
   }
 };
 

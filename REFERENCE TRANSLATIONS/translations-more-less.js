@@ -328,7 +328,8 @@ const translations = {
     "endDeckMoreLevel": "More worksheets for {level}",
     "endDeckBrowseAll": "Browse all worksheets",
     "srExerciseMoreLessCheckCross": "Question {n}: Count the {pluralA} on the left and the {pluralB} on the right. Write each count.",
-    "srExerciseMoreLessComparison": "Question {n}: Compare the groups of {pluralA} and {pluralB}. Pick the correct sign: greater than, less than, or equal to."
+    "srExerciseMoreLessComparison": "Question {n}: Compare the groups of {pluralA} and {pluralB}. Pick the correct sign: greater than, less than, or equal to.",
+    "runtimeTitle": "More or Less Practice"
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -609,7 +610,8 @@ const translations = {
     "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
     "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
     "srExerciseMoreLessCheckCross": "Frage {n}: Zähle die {pluralA} links und die {pluralB} rechts. Schreibe jede Anzahl auf.",
-    "srExerciseMoreLessComparison": "Frage {n}: Vergleiche die Gruppen aus {pluralA} und {pluralB}. Wähle das richtige Zeichen: größer als, kleiner als oder gleich."
+    "srExerciseMoreLessComparison": "Frage {n}: Vergleiche die Gruppen aus {pluralA} und {pluralB}. Wähle das richtige Zeichen: größer als, kleiner als oder gleich.",
+    "runtimeTitle": "Mehr-oder-weniger-Übung"
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",
@@ -1008,7 +1010,8 @@ const translations = {
     "moreless.checkcross.pick2": "Choisissez exactement 2 images",
     "moreless.checkcross.error.needtwoimages": "Le mode cocher et barrer nécessite au moins 2 images différentes.",
     "moreless.checkcross.more": "Plus",
-    "moreless.checkcross.less": "Moins"
+    "moreless.checkcross.less": "Moins",
+    "runtimeTitle": "Exercice plus ou moins"
   },
   "es": {
     "exportToCatalog": "Exportar al catálogo",
@@ -1407,7 +1410,8 @@ const translations = {
     "moreless.checkcross.pick2": "Selecciona exactamente 2 imágenes",
     "moreless.checkcross.error.needtwoimages": "El modo marcar y tachar necesita al menos 2 imágenes diferentes.",
     "moreless.checkcross.more": "Más",
-    "moreless.checkcross.less": "Menos"
+    "moreless.checkcross.less": "Menos",
+    "runtimeTitle": "Práctica de Más o Menos"
   },
   "it": {
     "exportToCatalog": "Esporta nel catalogo",
@@ -1806,7 +1810,8 @@ const translations = {
     "moreless.checkcross.pick2": "Scegli esattamente 2 immagini",
     "moreless.checkcross.error.needtwoimages": "La modalità spunta e barra richiede almeno 2 immagini diverse.",
     "moreless.checkcross.more": "Di più",
-    "moreless.checkcross.less": "Di meno"
+    "moreless.checkcross.less": "Di meno",
+    "runtimeTitle": "Esercizi di più o meno"
   },
   "pt": {
     "exportToCatalog": "Exportar para o catálogo",
@@ -2205,7 +2210,8 @@ const translations = {
     "moreless.checkcross.pick2": "Escolha exatamente 2 imagens",
     "moreless.checkcross.error.needtwoimages": "O modo marcar e riscar precisa de pelo menos 2 imagens diferentes.",
     "moreless.checkcross.more": "Mais",
-    "moreless.checkcross.less": "Menos"
+    "moreless.checkcross.less": "Menos",
+    "runtimeTitle": "Prática de Mais ou Menos"
   },
   "nl": {
     "exportToCatalog": "Naar catalogus exporteren",
@@ -2604,7 +2610,8 @@ const translations = {
     "moreless.checkcross.pick2": "Kies precies 2 afbeeldingen",
     "moreless.checkcross.error.needtwoimages": "De modus aanvinken en doorstrepen vereist minstens 2 verschillende afbeeldingen.",
     "moreless.checkcross.more": "Meer",
-    "moreless.checkcross.less": "Minder"
+    "moreless.checkcross.less": "Minder",
+    "runtimeTitle": "Meer of minder oefenen"
   },
   "sv": {
     "exportToCatalog": "Exportera till katalog",
@@ -3001,7 +3008,8 @@ const translations = {
     "moreless.checkcross.pick2": "Välj exakt 2 bilder",
     "moreless.checkcross.error.needtwoimages": "Bocka och stryk-läget kräver minst 2 olika bilder.",
     "moreless.checkcross.more": "Fler",
-    "moreless.checkcross.less": "Färre"
+    "moreless.checkcross.less": "Färre",
+    "runtimeTitle": "Mer eller mindre-övning"
   },
   "da": {
     "exportToCatalog": "Eksporter til kataloget",
@@ -3400,7 +3408,8 @@ const translations = {
     "moreless.checkcross.pick2": "Vælg præcis 2 billeder",
     "moreless.checkcross.error.needtwoimages": "Afkryds og stryg-tilstand kræver mindst 2 forskellige billeder.",
     "moreless.checkcross.more": "Flere",
-    "moreless.checkcross.less": "Færre"
+    "moreless.checkcross.less": "Færre",
+    "runtimeTitle": "Mere eller mindre-øvelse"
   },
   "no": {
     "exportToCatalog": "Eksporter til katalog",
@@ -3799,7 +3808,8 @@ const translations = {
     "moreless.checkcross.pick2": "Velg nøyaktig 2 bilder",
     "moreless.checkcross.error.needtwoimages": "Kryss av og stryk-modus krever minst 2 forskjellige bilder.",
     "moreless.checkcross.more": "Flere",
-    "moreless.checkcross.less": "Færre"
+    "moreless.checkcross.less": "Færre",
+    "runtimeTitle": "Mer eller mindre-øving"
   },
   "fi": {
     "exportToCatalog": "Vie katalogiin",
@@ -4198,6 +4208,7 @@ const translations = {
     "moreless.checkcross.pick2": "Valitse tarkalleen 2 kuvaa",
     "moreless.checkcross.error.needtwoimages": "Rastitus- ja yliviivaustilaesta tarvitsee vähintään 2 erilaista kuvaa.",
     "moreless.checkcross.more": "Enemmän",
-    "moreless.checkcross.less": "Vähemmän"
+    "moreless.checkcross.less": "Vähemmän",
+    "runtimeTitle": "Enemmän tai vähemmän -harjoitus"
   }
 };

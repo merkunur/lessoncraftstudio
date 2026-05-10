@@ -241,7 +241,8 @@ const translations = {
     "endDeckMoreTheme": "More {theme} worksheets",
     "endDeckMoreLevel": "More worksheets for {level}",
     "endDeckBrowseAll": "Browse all worksheets",
-    "srExerciseMissingPieces": "Question {n}: Drag the missing {pieceShape} piece into the empty space at position {n}."
+    "srExerciseMissingPieces": "Question {n}: Drag the missing {pieceShape} piece into the empty space at position {n}.",
+    "runtimeTitle": "Missing Pieces"
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -496,7 +497,8 @@ const translations = {
     "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
     "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
     "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
-    "srExerciseMissingPieces": "Frage {n}: Ziehe das fehlende {pieceShape}-Stück in die leere Stelle an Position {n}."
+    "srExerciseMissingPieces": "Frage {n}: Ziehe das fehlende {pieceShape}-Stück in die leere Stelle an Position {n}.",
+    "runtimeTitle": "Fehlende Teile"
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",
@@ -741,7 +743,8 @@ const translations = {
     "bringToFront": "Mettre au premier plan",
     "bringForward": "Avancer",
     "sendBackward": "Reculer",
-    "sendToBack": "Mettre à l'arrière-plan"
+    "sendToBack": "Mettre à l'arrière-plan",
+    "runtimeTitle": "Pièces Manquantes"
   },
   "es": {
     "exportToCatalog": "Exportar al catálogo",
@@ -986,7 +989,8 @@ const translations = {
     "bringToFront": "Traer al frente",
     "bringForward": "Traer adelante",
     "sendBackward": "Enviar atrás",
-    "sendToBack": "Enviar al fondo"
+    "sendToBack": "Enviar al fondo",
+    "runtimeTitle": "Piezas que Faltan"
   },
   "it": {
     "exportToCatalog": "Esporta nel catalogo",
@@ -1231,7 +1235,8 @@ const translations = {
     "bringToFront": "Porta in primo piano",
     "bringForward": "Porta avanti",
     "sendBackward": "Porta indietro",
-    "sendToBack": "Porta in secondo piano"
+    "sendToBack": "Porta in secondo piano",
+    "runtimeTitle": "Pezzi Mancanti"
   },
   "pt": {
     "exportToCatalog": "Exportar para o catálogo",
@@ -1476,7 +1481,8 @@ const translations = {
     "bringToFront": "Trazer para frente",
     "bringForward": "Avançar",
     "sendBackward": "Recuar",
-    "sendToBack": "Enviar para trás"
+    "sendToBack": "Enviar para trás",
+    "runtimeTitle": "Peças Faltantes"
   },
   "nl": {
     "exportToCatalog": "Naar catalogus exporteren",
@@ -1721,7 +1727,8 @@ const translations = {
     "bringToFront": "Naar voren brengen",
     "bringForward": "Vooruit brengen",
     "sendBackward": "Naar achteren sturen",
-    "sendToBack": "Naar achtergrond sturen"
+    "sendToBack": "Naar achtergrond sturen",
+    "runtimeTitle": "Ontbrekende Stukken"
   },
   "sv": {
     "exportToCatalog": "Exportera till katalog",
@@ -1965,7 +1972,8 @@ const translations = {
     "bringToFront": "Lägg längst fram",
     "bringForward": "Flytta framåt",
     "sendBackward": "Flytta bakåt",
-    "sendToBack": "Lägg längst bak"
+    "sendToBack": "Lägg längst bak",
+    "runtimeTitle": "Saknade Bitar"
   },
   "da": {
     "exportToCatalog": "Eksporter til kataloget",
@@ -2210,7 +2218,8 @@ const translations = {
     "bringToFront": "Flyt forrest",
     "bringForward": "Flyt fremad",
     "sendBackward": "Flyt tilbage",
-    "sendToBack": "Flyt bagerst"
+    "sendToBack": "Flyt bagerst",
+    "runtimeTitle": "Manglende Brikker"
   },
   "no": {
     "exportToCatalog": "Eksporter til katalog",
@@ -2455,7 +2464,8 @@ const translations = {
     "bringToFront": "Flytt til forgrunn",
     "bringForward": "Flytt fremover",
     "sendBackward": "Flytt bakover",
-    "sendToBack": "Flytt til bakgrunn"
+    "sendToBack": "Flytt til bakgrunn",
+    "runtimeTitle": "Manglende Brikker"
   },
   "fi": {
     "exportToCatalog": "Vie katalogiin",
@@ -2700,6 +2710,7 @@ const translations = {
     "bringToFront": "Tuo etualalle",
     "bringForward": "Siirrä eteenpäin",
     "sendBackward": "Siirrä taaksepäin",
-    "sendToBack": "Vie taustalle"
+    "sendToBack": "Vie taustalle",
+    "runtimeTitle": "Puuttuvat Palat"
   }
 };

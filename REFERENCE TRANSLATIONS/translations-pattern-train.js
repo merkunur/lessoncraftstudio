@@ -220,7 +220,8 @@ const translations = {
     "endDeckMoreTheme": "More {theme} worksheets",
     "endDeckMoreLevel": "More worksheets for {level}",
     "endDeckBrowseAll": "Browse all worksheets",
-    "srExercisePatternTrain": "Question {n}: Drag the correct image into wagon {n} to complete the pattern."
+    "srExercisePatternTrain": "Question {n}: Drag the correct image into wagon {n} to complete the pattern.",
+    "runtimeTitle": "Pattern Train Practice"
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -436,7 +437,8 @@ const translations = {
     "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
     "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
     "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
-    "srExercisePatternTrain": "Frage {n}: Ziehe das richtige Bild in Waggon {n}, um das Muster zu vervollständigen."
+    "srExercisePatternTrain": "Frage {n}: Ziehe das richtige Bild in Waggon {n}, um das Muster zu vervollständigen.",
+    "runtimeTitle": "Muster-Zug-Übung"
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",
@@ -643,7 +645,8 @@ const translations = {
     "zoomOut": "Dézoomer",
     "zoomReset": "Réinitialiser le zoom",
     "undo": "Annuler (Ctrl+Z)",
-    "redo": "Rétablir (Ctrl+Y)"
+    "redo": "Rétablir (Ctrl+Y)",
+    "runtimeTitle": "Exercices du train à motifs"
   },
   "es": {
     "exportToCatalog": "Exportar al catálogo",
@@ -847,7 +850,8 @@ const translations = {
     "zoomOut": "Alejar",
     "zoomReset": "Restablecer zoom",
     "undo": "Deshacer (Ctrl+Z)",
-    "redo": "Rehacer (Ctrl+Y)"
+    "redo": "Rehacer (Ctrl+Y)",
+    "runtimeTitle": "Práctica del Tren de Patrones"
   },
   "it": {
     "exportToCatalog": "Esporta nel catalogo",
@@ -1054,7 +1058,8 @@ const translations = {
     "zoomOut": "Rimpicciolisci",
     "zoomReset": "Reimposta zoom",
     "undo": "Annulla (Ctrl+Z)",
-    "redo": "Ripeti (Ctrl+Y)"
+    "redo": "Ripeti (Ctrl+Y)",
+    "runtimeTitle": "Esercizi col treno dei modelli"
   },
   "pt": {
     "exportToCatalog": "Exportar para o catálogo",
@@ -1261,7 +1266,8 @@ const translations = {
     "zoomOut": "Diminuir Zoom",
     "zoomReset": "Redefinir Zoom",
     "undo": "Desfazer (Ctrl+Z)",
-    "redo": "Refazer (Ctrl+Y)"
+    "redo": "Refazer (Ctrl+Y)",
+    "runtimeTitle": "Prática do Trem de Padrões"
   },
   "nl": {
     "exportToCatalog": "Naar catalogus exporteren",
@@ -1466,7 +1472,8 @@ const translations = {
     "zoomOut": "Uitzoomen",
     "zoomReset": "Zoom Resetten",
     "undo": "Ongedaan Maken (Ctrl+Z)",
-    "redo": "Opnieuw Doen (Ctrl+Y)"
+    "redo": "Opnieuw Doen (Ctrl+Y)",
+    "runtimeTitle": "Patroontrein oefenen"
   },
   "sv": {
     "exportToCatalog": "Exportera till katalog",
@@ -1670,7 +1677,8 @@ const translations = {
     "zoomOut": "Zooma Ut",
     "zoomReset": "Återställ Zoom",
     "undo": "Ångra (Ctrl+Z)",
-    "redo": "Gör Om (Ctrl+Y)"
+    "redo": "Gör Om (Ctrl+Y)",
+    "runtimeTitle": "Mönstertåg-övning"
   },
   "da": {
     "exportToCatalog": "Eksporter til kataloget",
@@ -1877,7 +1885,8 @@ const translations = {
     "zoomOut": "Zoom Ud",
     "zoomReset": "Nulstil Zoom",
     "undo": "Fortryd (Ctrl+Z)",
-    "redo": "Gentag (Ctrl+Y)"
+    "redo": "Gentag (Ctrl+Y)",
+    "runtimeTitle": "Mønstertog-øvelse"
   },
   "no": {
     "exportToCatalog": "Eksporter til katalog",
@@ -2084,7 +2093,8 @@ const translations = {
     "zoomOut": "Zoom Ut",
     "zoomReset": "Tilbakestill Zoom",
     "undo": "Angre (Ctrl+Z)",
-    "redo": "Gjør Om (Ctrl+Y)"
+    "redo": "Gjør Om (Ctrl+Y)",
+    "runtimeTitle": "Mønstertog-øving"
   },
   "fi": {
     "exportToCatalog": "Vie katalogiin",
@@ -2291,7 +2301,8 @@ const translations = {
     "zoomOut": "Loitonna",
     "zoomReset": "Palauta Zoomaus",
     "undo": "Kumoa (Ctrl+Z)",
-    "redo": "Tee Uudelleen (Ctrl+Y)"
+    "redo": "Tee Uudelleen (Ctrl+Y)",
+    "runtimeTitle": "Kuvio-juna-harjoitus"
   }
 };
 

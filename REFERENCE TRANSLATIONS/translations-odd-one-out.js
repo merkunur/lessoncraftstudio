@@ -201,7 +201,8 @@ const translations = {
     "endDeckMoreTheme": "More {theme} worksheets",
     "endDeckMoreLevel": "More worksheets for {level}",
     "endDeckBrowseAll": "Browse all worksheets",
-    "srExerciseOddOneOut": "Question {n}: Find the picture that doesn't belong with the others."
+    "srExerciseOddOneOut": "Question {n}: Find the picture that doesn't belong with the others.",
+    "runtimeTitle": "Odd One Out"
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -398,7 +399,8 @@ const translations = {
     "endDeckMoreTheme": "Mehr {theme}-Arbeitsblätter",
     "endDeckMoreLevel": "Mehr Arbeitsblätter für {level}",
     "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
-    "srExerciseOddOneOut": "Frage {n}: Finde das Bild, das nicht zu den anderen passt."
+    "srExerciseOddOneOut": "Frage {n}: Finde das Bild, das nicht zu den anderen passt.",
+    "runtimeTitle": "Was passt nicht?"
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",
@@ -584,7 +586,8 @@ const translations = {
     "bringToFront": "Mettre au premier plan",
     "bringForward": "Avancer",
     "sendBackward": "Reculer",
-    "sendToBack": "Mettre à l'arrière-plan"
+    "sendToBack": "Mettre à l'arrière-plan",
+    "runtimeTitle": "L'intrus"
   },
   "es": {
     "exportToCatalog": "Exportar al catálogo",
@@ -770,7 +773,8 @@ const translations = {
     "bringToFront": "Traer al frente",
     "bringForward": "Traer adelante",
     "sendBackward": "Enviar atrás",
-    "sendToBack": "Enviar al fondo"
+    "sendToBack": "Enviar al fondo",
+    "runtimeTitle": "El que sobra"
   },
   "it": {
     "exportToCatalog": "Esporta nel catalogo",
@@ -959,7 +963,8 @@ const translations = {
     "bringToFront": "Porta in primo piano",
     "bringForward": "Porta avanti",
     "sendBackward": "Porta indietro",
-    "sendToBack": "Porta in secondo piano"
+    "sendToBack": "Porta in secondo piano",
+    "runtimeTitle": "L'intruso"
   },
   "pt": {
     "exportToCatalog": "Exportar para o catálogo",
@@ -1148,7 +1153,8 @@ const translations = {
     "bringToFront": "Trazer para frente",
     "bringForward": "Avançar",
     "sendBackward": "Recuar",
-    "sendToBack": "Enviar para trás"
+    "sendToBack": "Enviar para trás",
+    "runtimeTitle": "Qual é o diferente?"
   },
   "nl": {
     "exportToCatalog": "Naar catalogus exporteren",
@@ -1337,7 +1343,8 @@ const translations = {
     "bringToFront": "Naar voorgrond brengen",
     "bringForward": "Naar voren brengen",
     "sendBackward": "Naar achteren sturen",
-    "sendToBack": "Naar achtergrond sturen"
+    "sendToBack": "Naar achtergrond sturen",
+    "runtimeTitle": "Welke hoort er niet bij?"
   },
   "sv": {
     "exportToCatalog": "Exportera till katalog",
@@ -1523,7 +1530,8 @@ const translations = {
     "bringToFront": "Flytta längst fram",
     "bringForward": "Flytta framåt",
     "sendBackward": "Flytta bakåt",
-    "sendToBack": "Flytta längst bak"
+    "sendToBack": "Flytta längst bak",
+    "runtimeTitle": "Vilken passar inte in?"
   },
   "da": {
     "exportToCatalog": "Eksporter til kataloget",
@@ -1712,7 +1720,8 @@ const translations = {
     "bringToFront": "Flyt forrest",
     "bringForward": "Flyt fremad",
     "sendBackward": "Flyt bagud",
-    "sendToBack": "Flyt bagerst"
+    "sendToBack": "Flyt bagerst",
+    "runtimeTitle": "Hvilken passer ikke?"
   },
   "no": {
     "exportToCatalog": "Eksporter til katalog",
@@ -1898,7 +1907,8 @@ const translations = {
     "bringToFront": "Flytt fremst",
     "bringForward": "Flytt fremover",
     "sendBackward": "Flytt bakover",
-    "sendToBack": "Flytt bakerst"
+    "sendToBack": "Flytt bakerst",
+    "runtimeTitle": "Hvilken passer ikke?"
   },
   "fi": {
     "exportToCatalog": "Vie katalogiin",
@@ -2087,7 +2097,8 @@ const translations = {
     "bringToFront": "Tuo etualalle",
     "bringForward": "Siirrä eteenpäin",
     "sendBackward": "Siirrä taaksepäin",
-    "sendToBack": "Vie taustalle"
+    "sendToBack": "Vie taustalle",
+    "runtimeTitle": "Mikä ei kuulu joukkoon?"
   }
 };
 

@@ -6,6 +6,14 @@ const nextConfig = {
   // Enable standalone output for Docker deployment
   output: 'standalone',
 
+  // Increase static-page generation timeout. Default 60s is insufficient for
+  // sitemap/2.xml (2-axis intersection shard) at non-trivial catalog scale —
+  // intersection enumeration runs N²+N DB queries per axis-pair × N locales.
+  // Surfaced at 1018-ES-deck wave (native-language-slug commission 2026-05-11).
+  // Future scaling-arc commission may refactor sitemap/2.xml to batch queries
+  // OR convert to runtime-only route per §A.14.7.
+  staticPageGenerationTimeout: 300,
+
   // Run ESLint only on source directories — NOT on public/ which contains
   // symlinks to /var/www/lcs-media (worksheet-generators, admin) with large HTML files
   eslint: {

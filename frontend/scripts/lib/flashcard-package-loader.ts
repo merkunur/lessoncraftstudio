@@ -25,13 +25,11 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
-// js-yaml has no bundled TypeScript types in the dependency tree; declaring
-// the module here keeps Next.js TS-build clean without requiring an
-// @types/js-yaml package install. Used only for yaml.load() in this file.
-declare module 'js-yaml' {
-  export function load(str: string): unknown;
-}
-import * as yaml from 'js-yaml';
+// js-yaml has no bundled TypeScript types in the dependency tree; require()
+// pattern with explicit `any` cast keeps Next.js TS-build clean without
+// requiring an @types/js-yaml package install. Used only for yaml.load().
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const yaml: { load: (str: string) => unknown } = require('js-yaml');
 
 const REPO_ROOT = path.resolve(__dirname, '..', '..', '..');
 const PACKAGES_ROOT = path.join(REPO_ROOT, 'docs', 'lesson-plans', 'packages');

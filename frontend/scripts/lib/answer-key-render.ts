@@ -26,6 +26,7 @@ import type {
 } from './answer-key-package-loader';
 import { localizedField } from './answer-key-package-loader';
 import { loadVocab, displayWord, type VocabEntry, type Locale } from './flashcard-data';
+import { resolveExerciseAnswerKey } from './exercise-answer-templates';
 
 // ---- Vocab/numeral resolution substrate (Sub-Phase 2.1.1 fix) ----
 
@@ -221,6 +222,10 @@ interface SectionLabels {
   vocabularyReferenceHeading: string;
   numeralReferenceHeading: string;
   englishGlossLabel: string;
+  answerKeyHeading: string;
+  formatLabel: string;
+  exampleLabel: string;
+  markingLabel: string;
 }
 
 const SECTION_LABELS: Record<string, SectionLabels> = {
@@ -235,6 +240,10 @@ const SECTION_LABELS: Record<string, SectionLabels> = {
     vocabularyReferenceHeading: 'Vocabulary reference',
     numeralReferenceHeading: 'Numeral reference',
     englishGlossLabel: 'en',
+    answerKeyHeading: 'Answer key',
+    formatLabel: 'Format',
+    exampleLabel: 'Example',
+    markingLabel: 'Marking',
   },
   de: {
     eyebrow: 'Lehrkraft-Referenz',
@@ -247,6 +256,10 @@ const SECTION_LABELS: Record<string, SectionLabels> = {
     vocabularyReferenceHeading: 'Vokabel-Referenz',
     numeralReferenceHeading: 'Zahlen-Referenz',
     englishGlossLabel: 'en',
+    answerKeyHeading: 'Lösungsschlüssel',
+    formatLabel: 'Format',
+    exampleLabel: 'Beispiel',
+    markingLabel: 'Bewertung',
   },
   es: {
     eyebrow: 'Referencia del docente',
@@ -259,6 +272,10 @@ const SECTION_LABELS: Record<string, SectionLabels> = {
     vocabularyReferenceHeading: 'Referencia de vocabulario',
     numeralReferenceHeading: 'Referencia de numerales',
     englishGlossLabel: 'en',
+    answerKeyHeading: 'Clave de respuestas',
+    formatLabel: 'Formato',
+    exampleLabel: 'Ejemplo',
+    markingLabel: 'Calificación',
   },
   nl: {
     eyebrow: 'Leerkrachtreferentie',
@@ -271,6 +288,10 @@ const SECTION_LABELS: Record<string, SectionLabels> = {
     vocabularyReferenceHeading: 'Vocabulair-referentie',
     numeralReferenceHeading: 'Cijfer-referentie',
     englishGlossLabel: 'en',
+    answerKeyHeading: 'Antwoordsleutel',
+    formatLabel: 'Formaat',
+    exampleLabel: 'Voorbeeld',
+    markingLabel: 'Beoordeling',
   },
 };
 
@@ -278,8 +299,33 @@ function getSectionLabels(locale: string): SectionLabels {
   return SECTION_LABELS[locale] || SECTION_LABELS.en;
 }
 
-function renderExercise(ex: ComposedExercise): string {
+function renderAnswerKeyBlock(
+  guidance: ReturnType<typeof resolveExerciseAnswerKey>,
+  labels: SectionLabels
+): string {
+  if (!guidance) return '';
+  return `
+    <div class="answer-key-block">
+      <h4 class="answer-key-heading">${escapeHtml(labels.answerKeyHeading)}</h4>
+      <dl class="answer-key-dl">
+        <dt>${escapeHtml(labels.formatLabel)}</dt>
+        <dd>${escapeHtml(guidance.format)}</dd>
+        <dt>${escapeHtml(labels.exampleLabel)}</dt>
+        <dd>${escapeHtml(guidance.example)}</dd>
+        <dt>${escapeHtml(labels.markingLabel)}</dt>
+        <dd>${escapeHtml(guidance.marking)}</dd>
+      </dl>
+    </div>`;
+}
+
+function renderExercise(ex: ComposedExercise, locale: string, labels: SectionLabels): string {
   const params = formatParameters(ex.customizationParameters);
+  const guidance = resolveExerciseAnswerKey(
+    ex.appName,
+    ex.exerciseMode,
+    ex.customizationParameters,
+    locale
+  );
   return `
     <article class="entry">
       <header class="entry-header">
@@ -290,6 +336,7 @@ function renderExercise(ex: ComposedExercise): string {
         <span class="entry-role">${escapeHtml(ex.pedagogicalRole)}</span>
       </header>
       ${params ? `<p class="entry-params">${escapeHtml(params)}</p>` : ''}
+      ${renderAnswerKeyBlock(guidance, labels)}
     </article>`;
 }
 
@@ -454,6 +501,39 @@ const CSS = `
     color: #5A5345;
     font-style: italic;
   }
+  .answer-key-block {
+    margin-top: 2mm;
+    padding: 2mm 3mm;
+    background: #F5EFDF;
+    border-left: 2pt solid #A8472F;
+    border-radius: 0 1mm 1mm 0;
+  }
+  .answer-key-heading {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600;
+    font-size: 8.5pt;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #A8472F;
+    margin: 0 0 1mm 0;
+  }
+  .answer-key-dl {
+    margin: 0;
+    font-size: 8.5pt;
+    line-height: 1.4;
+  }
+  .answer-key-dl dt {
+    font-weight: 600;
+    color: #5F3A30;
+    margin-top: 0.8mm;
+    font-size: 8pt;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .answer-key-dl dd {
+    margin: 0 0 0 0;
+    color: #3A352B;
+  }
 `;
 
 export async function renderPrintHtml(
@@ -482,7 +562,7 @@ export async function renderPrintHtml(
     sections.push(`
       <section>
         <h2 class="section-heading">${escapeHtml(labels.exercisesHeading)}</h2>
-        ${sortedExercises.map(renderExercise).join('')}
+        ${sortedExercises.map((ex) => renderExercise(ex, locale, labels)).join('')}
       </section>`);
   }
 

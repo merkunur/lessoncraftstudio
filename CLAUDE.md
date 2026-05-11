@@ -3418,6 +3418,96 @@ At Pillar 2 bundle architecture maturity (~14+ clusters, ~48+ bundles), sub-patt
 
 Origin: Pillar 2 Arc 6 + Arc 7 commission cycles cultural-arts paired-cluster emergence (`bf2dfc3c` + `df1c4ee1` + `4205ff60` + `f8681da0`); codified at Phase 6 fold.
 
+#### A.13.26 Schema migration timestamp-stratification doctrine
+
+When a database column is added via schema migration to an existing table, pre-migration rows have NULL by definition (the column didn't exist when those rows were inserted). Post-migration rows populate the column correctly via emit-time logic. **Pre-migration NULL residue is structural, not regression.**
+
+Discipline: at any commission cycle that surfaces a DB-state anomaly involving a column added via prior migration, **timestamp-stratify the inventory** before classifying root cause:
+- **Pre-migration cohort** (rows with `createdAt < migration_timestamp`): NULL is expected; retrofit pattern per §15.17 salvage scripts if recovery warranted
+- **Post-migration cohort** (rows with `createdAt >= migration_timestamp`): NULL indicates emit-time regression OR uniqueness-constraint collision class; investigate emit-site per Shape A discipline
+
+**How to apply (at any commission cycle with DB-state anomaly):**
+
+1. **Identify column-introduction timestamp.** Find the relevant migration: `frontend/prisma/migrations/<timestamp>_<name>/migration.sql`. The migration's filename timestamp anchors pre-vs-post-migration cohort boundary.
+2. **Stratify the anomaly inventory by `createdAt` against migration timestamp.** Per-locale + per-cohort breakdown:
+   - Pre-migration cohort: structurally NULL (expected)
+   - Post-migration cohort: emit-correctness check needed
+3. **Classify root cause per cohort.** Pre-migration: structural residue (consider retrofit per §15.17 OR accept as bounded state). Post-migration: regression class requires Shape A authoring fix per §A.13.5.
+
+**Why this matters.** Without timestamp-stratification, pre-migration residue can be misclassified as regression-class, producing wasted Shape A fix work + operator-attention spent on emit-site investigation that's not the root cause. Timestamp-stratification is a 1-query inventory operation; saves operator-strategic time when DB-state anomaly surfaces.
+
+**Empirical anchor:** (μ) Phase 1 revised diagnostic (`0e51ba8d`). Original Phase 1 (`f6f8ea38`) misclassified 1,288 en NULL title_hash decks as "authoring-side regression at 10 §14.10 apps emitting identical titles." Phase 1 revised diagnostic ran timestamp-distribution analysis:
+- **Pre-2026-05-09 (migration date):** 1,288 en + 195 Tier 3+4 = 1,483 NULL (pre-migration residue per schema migration `20260509083000_add_seo_hash_columns`)
+- **Post-2026-05-09:** 1,202 new en publishes; 100% title_hash backfill correct by construction
+
+The 5.5pp en backfill drop (74.7% → 69.2%) was statistical artifact of denominator growth (new publishes added to total count while NULL residue stayed fixed). Recalibration via §A.13.8 surfaced (2a-revised) Retrofit-only path; saved ~3 sessions of misallocated effort on 10-app Shape A fix that wasn't needed (apps were already correct post-migration).
+
+**Cross-references:**
+- §A.5.1 Schema migrations require a two-step deploy (operational protocol)
+- §15.17 Salvage scripts pattern (`rewrite-manifest-<field>.js`) — retrofit pattern for pre-migration residue
+- §A.13.5 Shape A canonical authoring pattern — post-migration emit-correctness defense
+- §A.13.6 Spec-vs-shipped-contract validation — paired discipline for surfacing classification errors
+
+Origin: (μ) Phase 1 revised diagnostic (`0e51ba8d`); reframed at Phase 6 fold.
+
+#### A.13.27 Trajectory-vs-static-state pricing inspection
+
+When classifying a trajectory-state change (e.g., backfill-rate drop; per-locale coverage shift; saturation-rate change) as regression vs natural-progression, inspect denominator AND numerator separately before classifying. Trajectory readings are percentage-of-denominator readings that can drift due to denominator growth even with fixed numerator. **Same numerator + growing denominator produces declining percentage that LOOKS like regression but is statistical artifact.**
+
+**How to apply (at any commission cycle where trajectory-rate change surfaces):**
+
+1. **Decompose the trajectory reading into numerator + denominator separately.** What's the absolute count (numerator)? What's the total count (denominator)? Has denominator grown since last reading?
+2. **Compare denominator-growth vs numerator-growth between readings.** If numerator stayed fixed but denominator grew, the percentage decline is statistical-artifact-of-growth, NOT regression class.
+3. **Recalibrate classification per inspection.** Static-state regression vs trajectory-artifact have different root causes + different recovery paths. Don't classify regression until denominator + numerator are inspected separately.
+
+**Why this matters.** Trajectory readings without denominator-numerator inspection produce false-positive regression classifications. Cost: operator-attention spent on root-cause investigation that's looking for non-existent regression. Saved by 1-step pre-classification inspection.
+
+**Empirical anchor:** (μ) Phase 1 framing. The 5.5pp en backfill drop (74.7% → 69.2%) was assistant-side wrong-pricing of the drop as structural-regression-class. Operator pushback ("the Item D framing I drafted at prior turn priced the 5.5pp drop as structural-regression class. I argued for diagnostic-first explicitly *because* the drop signaled forward-flow correctness regression — that argument was wrong") surfaced the assistant-side discipline gap. Numerator (NULL count) stayed fixed at 1,483 entries; denominator (total en deck count) grew from 3,870 to 4,183 during the trajectory window. Same NULL count + growing total = lower percentage, NOT regression.
+
+**Operator-side framing (per (μ) revised diagnostic commit message):** "Trajectory-vs-static-state pricing requires denominator-vs-numerator inspection before classifying as regression."
+
+**Cross-references:**
+- §A.13.6 Spec-vs-shipped-contract validation — paired discipline at execution
+- §A.13.8 Adjudication-reversal discipline — recalibrate when cost-asymmetry surfaces
+- §A.13.26 Schema migration timestamp-stratification — common source of trajectory-artifact (denominator growth from new post-migration publishes)
+- §A.13.11 Operator-strategic adjudication batching — surface recalibration at batch boundary
+
+Origin: (μ) Phase 1 framing + operator pushback on wrong-pricing (`0e51ba8d`); codified at Phase 6 fold.
+
+#### A.13.28 Phase 4 production-canonical-path verification at deploy boundary
+
+At Phase 4 production-ship deploy boundary, verify the actual production-canonical-path (the URL pattern serving real traffic) via curl-spot-check **before** declaring Phase 4 complete. Catches deploy-completion-vs-actual-serving gaps that smoke tests miss.
+
+**How to apply (at any Phase 4 production-ship commission):**
+
+1. **Identify production-canonical-path** per §17.4 / §15.7 routing-contract docs. Concrete URL pattern: `https://www.lessoncraftstudio.com/<locale>/<route>/<slug>/`
+2. **Sample 3-5 representative URLs** from the deploy's affected scope (e.g., one per locale; one per app per surface).
+3. **`curl -I` each URL** post-deploy. Expected: HTTP 200 with correct content-type. Investigate any 404 / 301 / 500 / unexpected redirect.
+4. **Verify content via curl + grep** for representative content markers (e.g., `<title>` content matches expected pattern; OG tags present; schema.org JSON-LD present).
+5. **Document verification audit-trail** in commission close-out doc — curl-command + observed output per sampled URL.
+
+**Why this matters.** Deploy-completion (deploy.sh exits 0; smoke tests pass) does NOT guarantee actual-production-serving (real traffic hits production-canonical-path + receives correct response). Gaps surface at:
+- nginx config divergence (e.g., new location-block exists in git but not yet active on Hetzner)
+- Symlink-swap timing (atomic-swap completed but cache-stale at edge)
+- Cloudflare cache-invalidation latency (5-min TTL per §15.8; first request post-deploy hits stale cache)
+- DB-state-vs-FS-state divergence (per §15.10 archive contract — DB row published but FS asset missing)
+
+Curl-spot-check at deploy boundary catches all four classes with bounded effort (~2-5 min for 3-5 sample URLs).
+
+**Empirical anchors:**
+- Pillar 4 Arc 2 Phase 4 production ship (`e9e4d04a`): curl-spot-check verified UI routes + access-check API + CDN regression all 200 across en + de + fi sample
+- Brief B Phase 1 catalog deck route deploy (`4b91adc0`): curl-spot-check verified deck route serving via nginx location-block
+- (μ) 308 404 class verification (per §A.13.22 + Component (N3) of consolidation cycle): curl-spot-check surfaces production-canonical-path gaps at retrofit + audit boundaries
+
+**Cross-references:**
+- §A.5 Deployment (TWO-STEP deploy protocol)
+- §A.5.1 Schema migrations require a two-step deploy
+- §17.4 Production routing-contract (locale-prefixed; native-language slug; trailing slash)
+- §15.7 Catalog deck route nginx location-block + atomic symlink swap
+- §15.8 Cloudflare cache-invalidation policy (5-min TTL post-2026-04-30)
+
+Origin: Pillar 4 Arc 2 Phase 4 + Brief B Phase 1 + (μ) Phase 2 retrofit production-canonical-path verification audit-trail; codified at Phase 6 fold.
+
 ### A.14 Scaling Arc audit doctrine
 
 `[CHORE][AUDIT]` commissions measure publish-cli's path against scale targets without making any production change. The doctrine here governs both the audit commission shape and the engineering decisions that follow.

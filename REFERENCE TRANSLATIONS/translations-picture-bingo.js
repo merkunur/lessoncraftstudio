@@ -2468,3 +2468,9 @@ if (validationSummary.summary.incomplete > 0) {
  *      updateAllTranslations();
  *    }
  */
+// §A.13.5 Shape A structural fix — export translations to window so translations-shared.js merge can fill missing keys.
+// Pattern matches translations-addition-complete.js + translations-subtraction.js canonical export. Missing this line
+// caused 533 LOCALE_RESIDUE_DETECTED halts in the 2026-05-11 ES math-cluster wave.
+if (typeof window !== "undefined") {
+  window.translations = translations;
+}

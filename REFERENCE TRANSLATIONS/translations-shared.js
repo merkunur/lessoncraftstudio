@@ -87,6 +87,7 @@ const SHARED_TRANSLATIONS = {
     "seoFreeInteractive": "Free interactive",
     "seoFor": "for",
     "seoPrintOrPlayOnline": "Print or play online",
+    "worksheet": "Worksheet",
 
     // Runtime UI v1 — labels for the embedded interactive runtime inside
     // deck.html (buttons, progress, celebration overlay, score card).
@@ -150,6 +151,7 @@ const SHARED_TRANSLATIONS = {
     "seoFreeInteractive": "Kostenloses interaktives",
     "seoFor": "für",
     "seoPrintOrPlayOnline": "Drucken oder online spielen",
+    "worksheet": "Arbeitsblatt",
     "runtimeCheckAnswers": "Antworten prüfen",
     "runtimeTryAgain": "Erneut versuchen",
     "runtimeAllCorrect": "Alles richtig!",
@@ -185,6 +187,7 @@ const SHARED_TRANSLATIONS = {
     "seoFreeInteractive": "Hoja interactiva gratuita",
     "seoFor": "para",
     "seoPrintOrPlayOnline": "Imprimir o jugar en línea",
+    "worksheet": "Ficha",
     "runtimeCheckAnswers": "Comprobar respuestas",
     "runtimeTryAgain": "Intentar de nuevo",
     "runtimeAllCorrect": "¡Todo correcto!",
@@ -215,6 +218,7 @@ const SHARED_TRANSLATIONS = {
     "seoFreeInteractive": "Gratis interactief",
     "seoFor": "voor",
     "seoPrintOrPlayOnline": "Print of speel online",
+    "worksheet": "Werkblad",
     "runtimeCheckAnswers": "Antwoorden controleren",
     "runtimeTryAgain": "Opnieuw proberen",
     "runtimeAllCorrect": "Alles goed!",
@@ -245,6 +249,7 @@ const SHARED_TRANSLATIONS = {
     "seoFreeInteractive": "Fiche interactive gratuite",
     "seoFor": "pour",
     "seoPrintOrPlayOnline": "Imprimer ou jouer en ligne",
+    "worksheet": "Fiche",
     "runtimeCheckAnswers": "Vérifier les réponses",
     "runtimeTryAgain": "Réessayer",
     "runtimeAllCorrect": "Tout est correct !",
@@ -275,6 +280,7 @@ const SHARED_TRANSLATIONS = {
     "seoFreeInteractive": "Scheda interattiva gratuita",
     "seoFor": "per",
     "seoPrintOrPlayOnline": "Stampa o gioca online",
+    "worksheet": "Scheda",
     "runtimeCheckAnswers": "Controlla risposte",
     "runtimeTryAgain": "Riprova",
     "runtimeAllCorrect": "Tutto corretto!",
@@ -306,6 +312,7 @@ const SHARED_TRANSLATIONS = {
     "seoFreeInteractive": "Atividade interativa gratuita",
     "seoFor": "para",
     "seoPrintOrPlayOnline": "Imprimir ou jogar online",
+    "worksheet": "Atividade",
     "runtimeCheckAnswers": "Verificar respostas",
     "runtimeTryAgain": "Tentar de novo",
     "runtimeAllCorrect": "Tudo correto!",
@@ -343,6 +350,7 @@ const SHARED_TRANSLATIONS = {
     "seoFreeInteractive": "Gratis interaktivt",
     "seoFor": "för",
     "seoPrintOrPlayOnline": "Skriv ut eller spela online",
+    "worksheet": "Övningsblad",
     // NSR-flagged per §17.5.1 Nordic-tier review posture
     "runtimeCheckAnswers": "Kontrollera svar",
     "runtimeTryAgain": "Försök igen",
@@ -376,6 +384,7 @@ const SHARED_TRANSLATIONS = {
     "seoFreeInteractive": "Gratis interaktivt",
     "seoFor": "for",
     "seoPrintOrPlayOnline": "Print eller spil online",
+    "worksheet": "Opgaveark",
     // NSR-flagged per §17.5.1 Nordic-tier review posture
     "runtimeCheckAnswers": "Kontroller svar",
     "runtimeTryAgain": "Prøv igen",
@@ -410,6 +419,7 @@ const SHARED_TRANSLATIONS = {
     "seoFreeInteractive": "Gratis interaktivt",
     "seoFor": "for",
     "seoPrintOrPlayOnline": "Skriv ut eller spill på nett",
+    "worksheet": "Oppgaveark",
     // NSR-flagged per §17.5.1 Nordic-tier review posture
     "runtimeCheckAnswers": "Sjekk svar",
     "runtimeTryAgain": "Prøv igjen",
@@ -443,6 +453,7 @@ const SHARED_TRANSLATIONS = {
     "seoFreeInteractive": "Ilmainen interaktiivinen",
     "seoFor": "tasolle",
     "seoPrintOrPlayOnline": "Tulosta tai pelaa verkossa",
+    "worksheet": "Tehtävämoniste",
     // NSR-flagged per §17.5.1 Nordic-tier review posture
     "runtimeCheckAnswers": "Tarkista vastaukset",
     "runtimeTryAgain": "Yritä uudelleen",

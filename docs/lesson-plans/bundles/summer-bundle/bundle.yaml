@@ -1,0 +1,90 @@
+# Pillar 2 Arc 4 Phase 1 themed bundle — Summer
+# Theme-anchored bundle composing 5 summer-themed teaching packages
+# spanning seasonal vocabulary + weather + clothing + activity context.
+
+bundleSlug: summer
+themeAxisKey: summer
+language: en
+
+title:
+  en: "Summer — K-3 Themed Bundle"
+
+description:
+  en: "Comprehensive K-3 bundle centered on summer season concepts spanning weather + seasonal classification + clothing + outdoor-activity context. 5 packages span vocabulary-acquisition (identify-and-name-clothing — summer-specific clothing + identify-and-name-weather-words — summer weather vocabulary) + cognitive classification (identify-four-seasons — summer as one of 4 seasons; identify-weather-types — summer weather: sunny, hot, humid, stormy) + cycle science (describe-day-night-cycle — summer has long days and short nights). Cross-strand seasonal bundle paralleling winter-bundle precedent (Pillar 2 Arc 3 Phase 2). Suitable for a 5-week classroom unit during summer season (or summer-context unit anytime); supports K-3 multilingual classrooms in northern-hemisphere settings during June-August or southern-hemisphere settings during December-February."
+
+thumbnailUrl: "/bundles/summer-thumbnail.png"
+
+status: draft
+
+teachingPackageSlugs:
+  - identify-and-name-clothing
+  - identify-four-seasons
+  - identify-and-name-weather-words
+  - identify-weather-types
+  - describe-day-night-cycle
+
+deckIds: []
+lessonPlanIds: []
+
+thematicCoherence:
+  en: |
+    All 5 packages cohere around the summer season theme + form a
+    cross-strand bundle integrating clothing + weather + seasonal
+    + cycle work in a unified seasonal context. Direct parallel
+    to winter-bundle (Pillar 2 Arc 3 Phase 2) — same package set
+    + same architectural pattern, anchored at opposite-season
+    context for K-3 students.
+
+    **Pedagogical sequencing:**
+    1. **identify-four-seasons** — Seasonal classification anchor.
+       Summer as one of 4 seasons; visual-vocabulary establishment
+       (sunshine, leafy trees, light clothing). Same shared package
+       with clothing-bundle + weather-bundle + winter-bundle.
+    2. **identify-and-name-weather-words** — Weather vocabulary
+       (sun, hot, humid, breeze, storm). Connects season to
+       observable weather. Same shared package with weather-bundle
+       + winter-bundle.
+    3. **identify-weather-types** — Weather classification
+       extending vocabulary to broader weather-type recognition
+       (sunny vs cloudy vs rainy vs stormy). Summer offers
+       characteristic sunny/hot types + occasional stormy.
+       Same shared package with weather-bundle + winter-bundle.
+    4. **identify-and-name-clothing** — Summer clothing vocabulary
+       (T-shirt, shorts, sandals, hat, sunglasses, swimsuit).
+       Connects season + weather to wardrobe choice. Same shared
+       package with clothing-bundle + winter-bundle.
+    5. **describe-day-night-cycle** — Cycle science: summer has
+       long days and short nights (in temperate + polar contexts).
+       Connects seasonal experience to broader cycle understanding.
+       Same shared package with winter-bundle.
+
+    **Strand spread:** 2 vocabulary-acquisition (clothing + weather)
+    + 2 cognitive-sorting (seasons + weather-types) + 1 world-
+    knowledge living-things (day-night cycle). 5 distinct strands
+    in single bundle — broadest cross-strand pattern (parallel to
+    winter-bundle precedent).
+
+    **Suggested unit duration:** 5 weeks during summer-context
+    classroom unit. Northern-hemisphere: June-August. Southern-
+    hemisphere: December-February. Lower-latitude classrooms may
+    need adapted approach (year-round warmth without summer-
+    specific contrast vs winter).
+
+    **Multilingual classroom relevance:** summer vocabulary varied
+    across 11 platform locales — Romance distinct (verano / été /
+    estate) + Germanic cognate (Sommer / zomer / sommar). Climate
+    context varies by region; some 11-platform-locale audiences
+    experience extreme-summer (Mediterranean / continental US) vs
+    mild-summer (Nordic / oceanic). Bundle adaptable to regional
+    seasonal context.
+
+    **Pillar 2 architectural pattern:** summer-bundle completes
+    the seasonal-bundle pair (winter + summer) at Pillar 2 Arc 4
+    Phase 1. Both bundles share 5 packages (4 vocabulary + 1
+    cycle science) — bundle-pair pattern reuses package set
+    completely with theme-context-shift as differentiator.
+    Future spring-bundle + autumn-bundle would complete the
+    4-seasons set, leveraging same 5-package compositional
+    template per seasonal-narrative-shift. Pattern doctrine:
+    seasonal-bundle template = 5-package fixed composition
+    parameterized by seasonal-anchor + theme-axis-key context.

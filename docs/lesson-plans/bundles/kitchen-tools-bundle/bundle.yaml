@@ -1,0 +1,74 @@
+# Pillar 2 Arc 4 Phase 1 themed bundle — Kitchen Tools
+# Theme-anchored bundle composing 4 kitchen-tool-themed teaching packages
+# spanning vocabulary + counting + sorting + comparison work.
+
+bundleSlug: kitchen-tools
+themeAxisKey: kitchen_tools
+language: en
+
+title:
+  en: "Kitchen Tools — K-3 Themed Bundle"
+
+description:
+  en: "Comprehensive K-3 bundle centered on kitchen-tool vocabulary + counting + sorting + capacity-comparison work. 4 packages span vocabulary-acquisition (identify-and-name-foods — kitchen-tool context for food preparation) + numeracy (count-objects-1-to-10 — counting kitchen items) + cognitive-sorting (sort-by-category — kitchen tools vs other room objects) + measurement (compare-by-capacity — kitchen tools NEW from Arc 14 Phase 4; canonical capacity-comparison context with containers, cups, bowls). Cross-strand daily-life bundle paired with breakfast-bundle precedent; both bundles anchor at kitchen/meal-preparation context with complementary package compositions. Suitable for a 4-week classroom unit on kitchen routines + cooking + healthy-eating; supports K-3 multilingual classrooms with cooking-extension activities."
+
+thumbnailUrl: "/bundles/kitchen-tools-thumbnail.png"
+
+status: draft
+
+teachingPackageSlugs:
+  - identify-and-name-foods
+  - count-objects-1-to-10
+  - sort-by-category
+  - compare-by-capacity
+
+deckIds: []
+lessonPlanIds: []
+
+thematicCoherence:
+  en: |
+    All 4 packages cohere around the kitchen-tools theme + form a
+    cross-strand progression from vocabulary through counting +
+    sorting to capacity-comparison work.
+
+    **Pedagogical sequencing:**
+    1. **identify-and-name-foods** — Foundational food vocabulary
+       paired with kitchen-tool context (knife + cutting board +
+       bowl + spatula). Same shared package with breakfast-bundle.
+    2. **count-objects-1-to-10** — Counting practice using kitchen
+       items (count 5 spoons; 8 cups; 3 plates). Same shared
+       package across multiple bundles (fruits + flowers + insects
+       + ocean-life + breakfast); kitchen-tools adds 6th bundle use.
+    3. **sort-by-category** — Category-classification work
+       distinguishing kitchen tools from other-room objects
+       (spatula = kitchen vs hammer = workshop vs pillow = bedroom).
+       Same shared package with breakfast-bundle.
+    4. **compare-by-capacity** — Arc 14 Phase 4 NEW package;
+       canonical capacity-comparison context anchored in kitchen
+       tools (small cup vs large pitcher; teaspoon vs tablespoon;
+       compare-which-holds-more). First cross-arc cross-Phase
+       package reuse extending Arc 14's Phase 4 work into Pillar 2
+       Arc 4 Phase 1 bundle — second empirical validation of the
+       cross-arc reuse pattern surfaced at Pillar 2 Arc 3 close.
+
+    **Strand spread:** 1 vocabulary-acquisition (foods/kitchen-tools)
+    + 1 numeracy + 1 cognitive-sorting + 1 measurement. 4 distinct
+    strands; cross-strand pattern.
+
+    **Suggested unit duration:** 4 weeks (1 package per week).
+    Cooking + meal-prep observation extensions natural.
+
+    **Multilingual classroom relevance:** kitchen-tool vocabulary
+    moderate-cognate Romance (cuchillo / couteau / coltello) +
+    Germanic distinct (Messer / mes / kniv). Universal daily-life
+    relevance — kitchen routine shared across cultures with
+    locale-specific tool variations.
+
+    **Pillar 2 architectural pattern:** kitchen-tools-bundle
+    exemplifies cross-strand daily-life bundle composition
+    (parallel to breakfast-bundle precedent at Pillar 2 Arc 3
+    Phase 2). First Pillar 2 Arc 4 bundle leveraging Arc 14 Phase 4
+    package (compare-by-capacity); demonstrates that operator (i)
+    ratification's β-shape-continuation produces immediate cross-
+    arc package availability — second cross-arc-reuse instance
+    validates the pattern as reliable architectural primitive.

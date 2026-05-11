@@ -3336,6 +3336,88 @@ Audit documents become stale during commission cycles. At commencement of any wo
 
 Origin: Stream A Arc 2 Phase 1 audit-doc inaccuracy (`e87c464c` 15th firing); codified at Phase 6 fold.
 
+#### A.13.23 Empirical-saturation as commission-cycle close-point signal
+
+When commission work consumes a finite substrate space (themes, packages, slug variations, axis-keys), saturation of that substrate space signals a natural commission-cycle close-point. Distinct from chronological / milestone-based cycle close — saturation is structural-empirical, not time-driven.
+
+**How to apply (at any commission cycle's next-iteration planning step):**
+
+1. **Identify the commission's substrate space.** What finite resource does the next iteration consume? Themes from `topics-taxonomy.json axes.theme`? Packages from `docs/lesson-plans/packages/`? Slug variations within a (locale, exercise-type) tuple? Bundle axis-keys?
+2. **Query substrate consumption + availability.** Empirical count of consumed-vs-available candidates. Above-threshold availability → continue iteration; below-threshold → saturation signal.
+3. **Surface saturation as natural close-point** to operator rather than commencing next iteration against speculative/marginal substrate. Per §A.13.21 operator-pre-recommendation substrate verification, surface via AskUserQuestion when divergence appears at planning step.
+
+**Why this matters.** Iteration against saturated substrate produces:
+- Marginal-quality additions (the remaining substrate is what was previously skipped for good reason)
+- Forced-fit commissions (operator-attention spent justifying iteration against pedagogically weak candidates)
+- Artificial milestone-extension (commission cycle continues past natural close, deferring strategic-input surface)
+
+Recognizing saturation produces:
+- Clean cycle close at empirical state
+- Strategic-input surface at correct moment (next-cycle commission shape determination per (R2) readiness framing)
+- Future commission cycle re-opens at empirical trigger (substrate-extension commission OR new pillar emergence) per natural cadence
+
+**Empirical anchors:**
+- **Pillar 2 Arc 7 Phase 2 (16th §A.13.6 firing):** `topics-taxonomy.json axes.theme` contained 100 keys (69 non-`_bw` + 31 strict `_bw`); 50 canonical-color themeAxisKeys; 48 already bundled at 48 bundles. Operator pre-recommendation of "4-5 additional themed bundles bringing 48 → ~52-53" empirically incompatible with 48/50 saturation. Only `birds_2` (numeric variant) + `miscellaneous` (catch-all) remained — neither with clean Phase 2 bundle-authoring fit. Operator ratified (P2-close-pillar2); Pillar 2 commission cycle CLOSED at natural close-point per saturation signal.
+
+**Distinction from §A.13.18-19 backfill-rate close-out metric:**
+- §A.13.18-19 measures retrofit success rate as percentage (forward-flow correctness restoration)
+- §A.13.23 (this section) measures substrate consumption rate as count-against-finite-space (commission-cycle close-point signal)
+
+Different dimensions; both are commission-cycle close-out metrics. §A.13.18-19 governs "how complete is this retrofit"; §A.13.23 governs "is the iteration space saturated."
+
+Origin: Pillar 2 Arc 7 Phase 2 saturation finding (`957eb8ff` Pillar 2 commission cycle CLOSED; 16th §A.13.6 firing); codified at Phase 6 fold.
+
+#### A.13.24 Double-close-out paired commission CLOSED as multi-pillar trajectory milestone
+
+When two commission cycles close at the same paired moment (e.g., Pillar 4 + Pillar 2 commission cycles both reaching CLOSED state simultaneously), the paired-close moment is itself a structural milestone. Captures convergence in commission framework trajectory and surfaces a natural strategic-input window.
+
+**How to apply (at commission cycle scheduling + close-out):**
+
+1. **Recognize when multiple cycles approach natural close at same paired moment.** Schedule as paired close-out per (P3) β shape rather than sequential close-out. Captures multi-pillar significance in shared commit cadence.
+2. **Treat the double-close-out moment as strategic-input surface** for next-cycle commission shape determination. Don't commence next-cycle work mid-double-close-out; surface readiness review for operator strategic call.
+3. **Document multi-pillar milestone significance** in close-out recon docs (not just per-pillar close-out docs). The convergence is meta-pillar; deserves its own audit trail in working-memory artifacts (e.g., Subscribe-flip readiness review).
+
+**Why this matters.** Sequential close-out treats each pillar's close as isolated event. Double-close-out recognizes that convergence-points in commission framework are themselves significant — they mark trajectory milestones (e.g., "most-advanced launch-trigger Condition state in commission history" per consolidation cycle close). Capturing the milestone in working memory + canonical doctrine prevents loss of context across future sessions.
+
+**Empirical anchor:** consolidation cycle close (2026-05-11): Pillar 4 Arc 3 (ζ) close-out at `6e2b17fa` + Pillar 2 commission cycle close-out at `957eb8ff` shipped at same session. First multi-pillar trajectory milestone in commission history. Subscribe-flip readiness review at `ba9e55c8` codified the milestone significance + surfaced next-cycle strategic-input via 3-surface adjudication batch ((R) readiness state + (N) next-cycle commission shape + (M) marketing-narrative artifact).
+
+**Cross-references:**
+- §A.13.11 Operator-strategic adjudication batching at recon-completion — batch readiness review at double-close-out
+- §A.13.23 Empirical-saturation close-point signal — saturation often triggers paired close-out
+- (P3) β shape paired-commission cadence — double-close-out emerges naturally from sustained β shape
+
+Origin: consolidation cycle close-out (`6e2b17fa` + `957eb8ff` + readiness review at `ba9e55c8`); codified at Phase 6 fold.
+
+#### A.13.25 Bundle cluster taxonomy sub-pattern emergence at scale
+
+At Pillar 2 bundle architecture maturity (~14+ clusters, ~48+ bundles), sub-patterns emerge as natural cluster sub-divisions. The flat cluster taxonomy from early Pillar 2 Arc work doesn't capture relationships visible at scale; sub-patterns are the empirical pattern emergence.
+
+**Sub-pattern classes:**
+
+1. **Paired-cluster patterns** — two bundle clusters composing a broader pillar concept via sub-axis division. Example: **cultural-arts cluster** = music + activities (auditory-arts + recreation/physical-arts sub-axes). The two bundles share parent cluster framing but anchor distinct sub-axes; together they cover the cluster more fully than either alone.
+
+2. **Crossover-bundle patterns** — bundles whose composition bridges two clusters via cross-strand teaching-package selection. Example: a bundle that anchors at one theme but composes packages drawing from multiple clusters (cross-cluster pedagogical bridge). Surfaces when shared teaching packages (e.g., `count-objects-1-to-10` at 27-instance reuse) bridge cluster boundaries naturally.
+
+**How to apply (at any bundle cluster taxonomy scaling commission):**
+
+1. **Audit emergence at scale.** When bundle count approaches ~48+ with cluster count at ~14+, audit for sub-pattern emergence in existing cluster groupings. Don't force flat cluster taxonomy when sub-patterns emerge naturally.
+2. **Document sub-patterns in close-out recon.** Sub-patterns are bundle-architecture findings, not arbitrary categorizations. Capture them in commission-cycle close-out docs (e.g., `pillar-2-cycle-close-out.md` §4) so future commission cycles can reference established patterns.
+3. **Resist premature sub-pattern authoring.** Don't pre-design sub-patterns before scale-emergence; let them emerge from empirical cluster taxonomy at maturity. Premature design produces forced-fit categorization.
+
+**Why this matters.** Bundle architecture at scale (48+ bundles) admits hierarchical organization (clusters with sub-clusters) that flat enumeration doesn't capture. Sub-pattern recognition enables:
+- Cluster expansion via parallel sub-axes (e.g., cultural-arts cluster can extend with dance + visual-arts as additional sub-axes)
+- Crossover-bundle commissioning at strategic moments (cross-cluster pedagogical bridges)
+- Future Pillar 2 re-open path framing (§16.5.1 + `pillar-2-cycle-close-out.md` §5(a) taxonomy expansion)
+
+**Empirical anchor:** Pillar 2 Arc 6 + Arc 7 commission cycles produced cultural-arts cluster paired-cluster pattern (music + activities). Activities-bundle `bundle.yaml` thematicCoherence section explicitly references "2nd cultural-arts cluster bundle (after music-bundle)" + "Cross-strand cultural-arts cluster bundle parallel to music-bundle but distinguished by physical-recreation anchor" — first explicit paired-cluster sub-pattern documentation in commission audit-trail. 14+ clusters at Pillar 2 cycle close per `pillar-2-cycle-close-out.md` §4.
+
+**Cross-references:**
+- §16.5.1 Theme axis-key registration: Path X 1:1 with image-library
+- `pillar-2-cycle-close-out.md` §4 strategic reassessment + cluster taxonomy emergence
+- `pillar-2-cycle-close-out.md` §5(a) taxonomy expansion future re-open path
+
+Origin: Pillar 2 Arc 6 + Arc 7 commission cycles cultural-arts paired-cluster emergence (`bf2dfc3c` + `df1c4ee1` + `4205ff60` + `f8681da0`); codified at Phase 6 fold.
+
 ### A.14 Scaling Arc audit doctrine
 
 `[CHORE][AUDIT]` commissions measure publish-cli's path against scale targets without making any production change. The doctrine here governs both the audit commission shape and the engineering decisions that follow.

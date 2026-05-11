@@ -5320,7 +5320,7 @@ function showMessage(msg, type = 'info', duration = 3000) {
             parts.push('<body>');
             parts.push('<main id="lcs-app">');
             parts.push('  <div class="lcs-bar">');
-            parts.push('    <h1 class="lcs-title" id="lcs-title">' + title + '</h1>');
+            parts.push('    <h1 class="lcs-title" id="lcs-title">' + escapeHtml(displayTitle) + '</h1>');
             parts.push('    <span class="lcs-progress" id="lcs-progress" aria-live="polite">0 / 0</span>');
             parts.push('    <button type="button" id="lcs-mute" class="lcs-mute" aria-label="Mute sounds"></button>');
             parts.push('    ' + LCSCatalogExport.buildShareAffordance({ locale: lang, title: title }));

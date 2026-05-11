@@ -5203,7 +5203,7 @@ async function downloadPDF(canvasInstance, fileName, opts) {
           parts.push('<body>');
           parts.push('<main id="lcs-app">');
           parts.push('  <div class="lcs-bar">');
-          parts.push('    <h1 class="lcs-title" id="lcs-title">' + title + '</h1>');
+          parts.push('    <h1 class="lcs-title" id="lcs-title">' + escapeHtml(displayTitle) + '</h1>');
           parts.push('    <nav class="lcs-progress" id="lcs-progress" aria-label="Answer progress"></nav>');
           parts.push('    <button type="button" id="lcs-mute" class="lcs-mute" aria-label="Mute sounds"></button>');
           parts.push('    ' + LCSCatalogExport.buildShareAffordance({ locale: lang, title: title }));

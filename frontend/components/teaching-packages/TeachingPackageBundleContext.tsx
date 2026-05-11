@@ -24,7 +24,7 @@ export default async function TeachingPackageBundleContext({ packageSlug, locale
           return (
             <li key={bundle.bundleSlug}>
               <a
-                href={`/${locale}/bundles/${bundle.bundleSlug}`}
+                href={`/${locale}/themed-bundles/${bundle.bundleSlug}`}
                 className="inline-flex items-center px-3 py-1 rounded-full bg-white border border-sage-300 text-ink-700 text-sm hover:border-sage-500 hover:text-sage-700 transition"
               >
                 {title}

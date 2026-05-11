@@ -6,6 +6,13 @@
  * / standards). Sections gated by includeExerciseAnswers /
  * includeMaterialReference / includePedagogicalNotes flags.
  *
+ * Sub-Phase 2.1.1 fix: per-material concrete-content resolver surfaces
+ * actual vocabulary (themeName → vocab key list → localized singular forms)
+ * and numeral references (numeralRange → localized number-words). Catalog
+ * spec at materials-catalog.json:174 names includeMaterialReference as
+ * "load-bearing value for non-native-speaker teachers — confirms vocabulary
+ * forms in the target language." Pre-fix renderer surfaced metadata only.
+ *
  * Multi-page A4 layout. No images. Playwright PDF rendering reused.
  */
 
@@ -18,6 +25,156 @@ import type {
   PackageMaterial,
 } from './answer-key-package-loader';
 import { localizedField } from './answer-key-package-loader';
+import { loadVocab, displayWord, type VocabEntry, type Locale } from './flashcard-data';
+
+// ---- Vocab/numeral resolution substrate (Sub-Phase 2.1.1 fix) ----
+
+const REPO_ROOT = path.resolve(__dirname, '..', '..', '..');
+const IMAGE_LIBRARY_ROOT = path.join(REPO_ROOT, 'image library');
+const NUMBER_WORDS_PATH = path.join(REPO_ROOT, 'REFERENCE TRANSLATIONS', 'number-words.js');
+
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const NumberWords: {
+  get: (numeral: number | string, locale: string, gender?: string) => string | null;
+  hasGenderToggle: (numeral: number | string, locale: string) => boolean;
+} = require(NUMBER_WORDS_PATH);
+
+/**
+ * Duplicate of pickThemeImages from flashcard-package-loader.ts.
+ * Per CLAUDE.md §3.1 duplicate-before-premature-abstraction; 3rd consumer
+ * (flashcards + picture-cards already duplicate). 4th-consumer DRY refactor
+ * deferred to future-arc when ε parent-letter or δ sentence-strips ship per
+ * §14.3a.3.
+ */
+function themeNameCandidates(themeName: string): string[] {
+  const spaced = themeName.replace(/[_-]/g, ' ');
+  return [
+    themeName,
+    spaced,
+    spaced.replace(/\b\w/g, (c) => c.toUpperCase()),
+    themeName.toLowerCase(),
+  ];
+}
+
+function pickThemeImages(themeName: string, cardCount: number | null): string[] {
+  const candidates = themeNameCandidates(themeName);
+  let actualDir: string | null = null;
+  for (const candidate of candidates) {
+    const tryPath = path.join(IMAGE_LIBRARY_ROOT, candidate);
+    if (fs.existsSync(tryPath) && fs.statSync(tryPath).isDirectory()) {
+      actualDir = candidate;
+      break;
+    }
+  }
+  if (!actualDir) {
+    try {
+      const dirs = fs.readdirSync(IMAGE_LIBRARY_ROOT);
+      const lowerName = themeName.toLowerCase().replace(/[_-]/g, ' ');
+      actualDir = dirs.find((d) => d.toLowerCase() === lowerName) || null;
+    } catch {
+      // Image library not accessible (running outside repo tree); fall through.
+    }
+  }
+  if (!actualDir) {
+    console.warn(`WARN theme dir not found for themeName='${themeName}'; skipping content resolution`);
+    return [];
+  }
+  const themePath = path.join(IMAGE_LIBRARY_ROOT, actualDir);
+  const files = fs
+    .readdirSync(themePath)
+    .filter((f) => f.toLowerCase().endsWith('.png'))
+    .sort();
+  const slice = cardCount === null ? files : files.slice(0, cardCount);
+  return slice.map((f) => f.replace(/\.png$/i, ''));
+}
+
+function normalizeKey(filename: string): string {
+  const noExt = filename.replace(/\.\w+$/, '');
+  const slugified = noExt.replace(/\s+/g, '-').replace(/,/g, '').toLowerCase();
+  return slugified.replace(/-\d+$/, '').replace(/-+$/, '');
+}
+
+function parseNumeralRange(range: string): number[] {
+  const m = range.match(/^(\d+)-(\d+)$/);
+  if (!m) return [];
+  const start = parseInt(m[1], 10);
+  const end = parseInt(m[2], 10);
+  if (Number.isNaN(start) || Number.isNaN(end) || end < start) return [];
+  const out: number[] = [];
+  for (let i = start; i <= end; i++) out.push(i);
+  return out;
+}
+
+interface ResolvedContent {
+  /** Heading label key (vocabulary / numerals). */
+  kind: 'vocab' | 'numerals';
+  /** Display rows. For vocab: [vocabKey, target-locale singular, en singular]. For numerals: [numeral, target-locale word]. */
+  rows: Array<[string, string, string?]>;
+}
+
+const VOCAB_BEARING_SLUGS = new Set([
+  'flashcards',
+  'picture-cards',
+  'sentence-strips',
+  'bingo',
+  'manipulative-cut-outs',
+  'parent-take-home-letter',
+]);
+
+function resolveMaterialContent(
+  m: PackageMaterial,
+  vocab: Record<string, VocabEntry>,
+  locale: string
+): ResolvedContent | null {
+  const params = m.customizationParameters || {};
+
+  if (m.materialSlug === 'numeral-cards') {
+    const range = typeof params.numeralRange === 'string' ? (params.numeralRange as string) : '1-10';
+    const numerals = parseNumeralRange(range);
+    if (numerals.length === 0) return null;
+    const rows: Array<[string, string, string?]> = [];
+    for (const n of numerals) {
+      const word = NumberWords.get(n, locale) || NumberWords.get(n, 'en') || String(n);
+      rows.push([String(n), word]);
+    }
+    return { kind: 'numerals', rows };
+  }
+
+  if (!VOCAB_BEARING_SLUGS.has(m.materialSlug)) return null;
+
+  let vocabKeys: string[] = [];
+  const imageSource = typeof params.imageSource === 'string' ? (params.imageSource as string) : null;
+  const themeName = typeof params.themeName === 'string' ? (params.themeName as string) : null;
+  const explicitKeys = Array.isArray(params.vocabKeys) ? (params.vocabKeys as string[]) : null;
+
+  if (imageSource === 'vocabKeyList' && explicitKeys && explicitKeys.length > 0) {
+    vocabKeys = explicitKeys;
+  } else if (themeName) {
+    const cardCount = typeof params.cardCount === 'number' ? (params.cardCount as number) : null;
+    const filenames = pickThemeImages(themeName, cardCount);
+    vocabKeys = filenames.map(normalizeKey);
+  }
+
+  if (vocabKeys.length === 0) return null;
+
+  // Dedupe preserving order.
+  const seen = new Set<string>();
+  vocabKeys = vocabKeys.filter((k) => (seen.has(k) ? false : (seen.add(k), true)));
+
+  const rows: Array<[string, string, string?]> = [];
+  for (const key of vocabKeys) {
+    const entry = vocab[key];
+    if (entry) {
+      const localized = displayWord(key, entry, locale as Locale);
+      const english = displayWord(key, entry, 'en');
+      rows.push([key, localized, english]);
+    } else {
+      // No vocab entry — surface the key only.
+      rows.push([key, key.replace(/-/g, ' ')]);
+    }
+  }
+  return { kind: 'vocab', rows };
+}
 
 const FONT_LINK = `<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Lexend+Deca:wght@400;500;600&display=swap" rel="stylesheet">`;
 
@@ -61,6 +218,9 @@ interface SectionLabels {
   materialsHeading: string;
   assessmentHeading: string;
   standardsHeading: string;
+  vocabularyReferenceHeading: string;
+  numeralReferenceHeading: string;
+  englishGlossLabel: string;
 }
 
 const SECTION_LABELS: Record<string, SectionLabels> = {
@@ -72,6 +232,9 @@ const SECTION_LABELS: Record<string, SectionLabels> = {
     materialsHeading: 'Printable materials',
     assessmentHeading: 'Assessment criteria',
     standardsHeading: 'Curriculum standards',
+    vocabularyReferenceHeading: 'Vocabulary reference',
+    numeralReferenceHeading: 'Numeral reference',
+    englishGlossLabel: 'en',
   },
   de: {
     eyebrow: 'Lehrkraft-Referenz',
@@ -81,6 +244,9 @@ const SECTION_LABELS: Record<string, SectionLabels> = {
     materialsHeading: 'Druckmaterialien',
     assessmentHeading: 'Lernkontroll-Kriterien',
     standardsHeading: 'Curriculum-Standards',
+    vocabularyReferenceHeading: 'Vokabel-Referenz',
+    numeralReferenceHeading: 'Zahlen-Referenz',
+    englishGlossLabel: 'en',
   },
   es: {
     eyebrow: 'Referencia del docente',
@@ -90,6 +256,9 @@ const SECTION_LABELS: Record<string, SectionLabels> = {
     materialsHeading: 'Materiales imprimibles',
     assessmentHeading: 'Criterios de evaluación',
     standardsHeading: 'Estándares curriculares',
+    vocabularyReferenceHeading: 'Referencia de vocabulario',
+    numeralReferenceHeading: 'Referencia de numerales',
+    englishGlossLabel: 'en',
   },
   nl: {
     eyebrow: 'Leerkrachtreferentie',
@@ -99,6 +268,9 @@ const SECTION_LABELS: Record<string, SectionLabels> = {
     materialsHeading: 'Afdrukbare materialen',
     assessmentHeading: 'Evaluatiecriteria',
     standardsHeading: 'Curriculumstandaarden',
+    vocabularyReferenceHeading: 'Vocabulair-referentie',
+    numeralReferenceHeading: 'Cijfer-referentie',
+    englishGlossLabel: 'en',
   },
 };
 
@@ -121,8 +293,39 @@ function renderExercise(ex: ComposedExercise): string {
     </article>`;
 }
 
-function renderMaterial(m: PackageMaterial): string {
+function renderContentRows(content: ResolvedContent, labels: SectionLabels, locale: string): string {
+  const heading =
+    content.kind === 'vocab' ? labels.vocabularyReferenceHeading : labels.numeralReferenceHeading;
+  const rowHtml = content.rows
+    .map(([key, primary, english]) => {
+      const hasGloss = english && english !== primary && locale !== 'en';
+      const glossHtml = hasGloss
+        ? `<span class="content-gloss">${escapeHtml(english!)}</span>`
+        : '';
+      return `
+        <li class="content-row">
+          <span class="content-key">${escapeHtml(key)}</span>
+          <span class="content-primary">${escapeHtml(primary)}</span>
+          ${glossHtml}
+        </li>`;
+    })
+    .join('');
+  return `
+    <div class="content-block">
+      <h4 class="content-heading">${escapeHtml(heading)}</h4>
+      <ol class="content-list">${rowHtml}</ol>
+    </div>`;
+}
+
+function renderMaterial(
+  m: PackageMaterial,
+  vocab: Record<string, VocabEntry>,
+  locale: string,
+  labels: SectionLabels
+): string {
   const summary = summarizeMaterialParams(m.customizationParameters);
+  const content = resolveMaterialContent(m, vocab, locale);
+  const contentHtml = content && content.rows.length > 0 ? renderContentRows(content, labels, locale) : '';
   return `
     <article class="entry">
       <header class="entry-header">
@@ -131,6 +334,7 @@ function renderMaterial(m: PackageMaterial): string {
         <span class="entry-role">${escapeHtml(m.pedagogicalRole)}</span>
       </header>
       ${summary ? `<p class="entry-params">${escapeHtml(summary)}</p>` : ''}
+      ${contentHtml}
     </article>`;
 }
 
@@ -204,6 +408,52 @@ const CSS = `
     color: #94a3b8;
     letter-spacing: 0.04em;
   }
+  .content-block {
+    margin-top: 2mm;
+    padding-top: 2mm;
+    border-top: 0.3pt solid #E8DFCB;
+  }
+  .content-heading {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600;
+    font-size: 8.5pt;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #5F7D5C;
+    margin: 0 0 1.5mm 0;
+  }
+  .content-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    columns: 2;
+    column-gap: 6mm;
+    font-size: 9pt;
+  }
+  .content-row {
+    display: flex;
+    gap: 1.5mm;
+    align-items: baseline;
+    padding: 0.4mm 0;
+    break-inside: avoid;
+    color: #2E2A22;
+  }
+  .content-key {
+    font-family: monospace;
+    font-size: 8pt;
+    color: #94a3b8;
+    min-width: 5em;
+  }
+  .content-primary {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+    color: #1A1814;
+  }
+  .content-gloss {
+    font-size: 8pt;
+    color: #5A5345;
+    font-style: italic;
+  }
 `;
 
 export async function renderPrintHtml(
@@ -211,6 +461,7 @@ export async function renderPrintHtml(
   locale: string
 ): Promise<string> {
   const labels = getSectionLabels(locale);
+  const vocab = loadVocab(REPO_ROOT);
   const title = localizedField(pkg.title, locale);
   const compositionalRationale = localizedField(pkg.compositionalRationale, locale);
   const assessmentCriteria = localizedField(pkg.assessmentCriteria, locale);
@@ -239,7 +490,7 @@ export async function renderPrintHtml(
     sections.push(`
       <section>
         <h2 class="section-heading">${escapeHtml(labels.materialsHeading)}</h2>
-        ${sortedMaterials.map(renderMaterial).join('')}
+        ${sortedMaterials.map((m) => renderMaterial(m, vocab, locale, labels)).join('')}
       </section>`);
   }
 

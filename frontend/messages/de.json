@@ -1269,7 +1269,7 @@
       "duration": "{minutes} Min. Einheit"
     },
     "taxonomy": {
-      "heading": "Pädagogische Einordnung"
+      "heading": "Was hier gelernt wird"
     },
     "structure": {
       "heading": "Stundenaufbau",
@@ -1282,8 +1282,8 @@
       }
     },
     "exercises": {
-      "heading": "Komponierte Übungen",
-      "subheading": "{count} Arbeitsblatt-Übungen aus den Katalog-Apps",
+      "heading": "Arbeitsblätter in diesem Paket",
+      "subheading": "{count} interaktive Arbeitsblätter, die Ihre Klasse durchgeht.",
       "sampleLabel": "Beispiel",
       "openDeck": "Beispiel-Deck öffnen",
       "viewTopic": "Themenseite ansehen",
@@ -1367,7 +1367,7 @@
     },
     "bundleContext": {
       "heading": "Erscheint in {count} themenbasierten Bundle(s)",
-      "subheading": "Dieses Lehrpaket ist in den folgenden Pillar-2-Themenbundles enthalten."
+      "subheading": "Dieses Lehrpaket gehört zu den folgenden Themenbundles."
     }
   },
   "bundlePage": {

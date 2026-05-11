@@ -1178,7 +1178,7 @@
       "duration": "{minutes} min session"
     },
     "taxonomy": {
-      "heading": "Pedagogical framing"
+      "heading": "What this teaches"
     },
     "structure": {
       "heading": "Session structure",
@@ -1191,8 +1191,8 @@
       }
     },
     "exercises": {
-      "heading": "Composed exercises",
-      "subheading": "{count} worksheet exercises from the catalog apps",
+      "heading": "Worksheets in this package",
+      "subheading": "{count} interactive worksheets your class will work through.",
       "sampleLabel": "Sample",
       "openDeck": "Open the sample deck",
       "viewTopic": "View topic page",
@@ -1275,8 +1275,8 @@
       "subheading": "This teaching package has authored content in the following languages."
     },
     "bundleContext": {
-      "heading": "Appears in {count} themed bundle(s)",
-      "subheading": "This teaching package is composed into the following Pillar 2 themed bundles."
+      "heading": "Also in {count} themed bundle(s)",
+      "subheading": "This package is part of the following themed bundles."
     }
   },
   "bundlePage": {

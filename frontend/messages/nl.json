@@ -1449,7 +1449,7 @@
       "duration": "Sessie van {minutes} min"
     },
     "taxonomy": {
-      "heading": "Pedagogisch kader"
+      "heading": "Wat hier wordt geleerd"
     },
     "structure": {
       "heading": "Sessiestructuur",
@@ -1462,8 +1462,8 @@
       }
     },
     "exercises": {
-      "heading": "Samengestelde oefeningen",
-      "subheading": "{count} werkbladoefeningen uit de catalogus-apps",
+      "heading": "Werkbladen in dit pakket",
+      "subheading": "{count} interactieve werkbladen die uw klas doorneemt.",
       "sampleLabel": "Voorbeeld",
       "openDeck": "Voorbeelddeck openen",
       "viewTopic": "Themapagina bekijken",
@@ -1547,7 +1547,7 @@
     },
     "bundleContext": {
       "heading": "Komt voor in {count} themabundle(s)",
-      "subheading": "Dit lespakket is opgenomen in de volgende Pilaar 2-themabundles."
+      "subheading": "Dit lespakket maakt deel uit van de volgende themabundles."
     }
   },
   "bundlePage": {

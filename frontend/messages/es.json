@@ -1462,7 +1462,7 @@
       "duration": "Sesión de {minutes} min"
     },
     "taxonomy": {
-      "heading": "Marco pedagógico"
+      "heading": "Qué se enseña aquí"
     },
     "structure": {
       "heading": "Estructura de la sesión",
@@ -1475,8 +1475,8 @@
       }
     },
     "exercises": {
-      "heading": "Ejercicios compuestos",
-      "subheading": "{count} ejercicios de hoja de trabajo de las apps del catálogo",
+      "heading": "Hojas de trabajo en este paquete",
+      "subheading": "{count} hojas de trabajo interactivas que su clase trabajará.",
       "sampleLabel": "Muestra",
       "openDeck": "Abrir la baraja de muestra",
       "viewTopic": "Ver la página del tema",
@@ -1560,7 +1560,7 @@
     },
     "bundleContext": {
       "heading": "Aparece en {count} bundle(s) temático(s)",
-      "subheading": "Este paquete didáctico está incluido en los siguientes bundles temáticos del Pilar 2."
+      "subheading": "Este paquete didáctico forma parte de los siguientes paquetes temáticos."
     }
   },
   "bundlePage": {

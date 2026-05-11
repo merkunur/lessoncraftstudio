@@ -1,0 +1,93 @@
+# Pillar 2 Arc 6 Phase 2 themed bundle — Desserts and sweets
+# Theme-anchored bundle composing 5 desserts-themed teaching packages spanning
+# vocabulary + counting + comparison + sorting + sensory-properties.
+# 6th daily-life cluster bundle.
+
+bundleSlug: desserts-and-sweets
+themeAxisKey: desserts_and_sweets
+language: en
+
+title:
+  en: "Desserts & Sweets — K-3 Themed Bundle"
+
+description:
+  en: "K-3 bundle centered on desserts as sensory-rich daily-life cluster extension. 6th daily-life cluster bundle (after breakfast + kitchen-tools + classroom + bakery + at-the-supermarket). 5 packages span vocabulary-acquisition (identify-and-name-foods — extended to dessert subset: cake, ice-cream, cookie, donut, cupcake, candy, lollipop, brownie, pie, pudding) + numeracy (count-objects-1-to-10 — counting cookies, cupcakes, candies, scoops of ice-cream) + comparison (compare-quantities-more-fewer — more cookies than donuts on the plate?) + cognitive-sorting (sort-by-category — frozen desserts vs baked desserts vs candy) + sensory-properties (describe-physical-properties-of-objects — sweet, sticky, cold, warm, soft, crispy desserts). Cross-strand daily-life cluster bundle parallel to bakery-bundle (both sensory-rich); distinguishes from bakery by sweet-only subset + frozen-dessert inclusion. Suitable for a 4-5 week classroom unit; supports K-3 multilingual classrooms with cultural-dessert-tradition + birthday-celebration extensions."
+
+thumbnailUrl: "/bundles/desserts-and-sweets-thumbnail.png"
+
+status: draft
+
+teachingPackageSlugs:
+  - identify-and-name-foods
+  - count-objects-1-to-10
+  - compare-quantities-more-fewer
+  - sort-by-category
+  - describe-physical-properties-of-objects
+
+deckIds: []
+lessonPlanIds: []
+
+thematicCoherence:
+  en: |
+    All 5 packages cohere around the desserts theme + extend daily-life
+    cluster's sensory-rich pattern (parallel to bakery-bundle) with
+    sweet-specific + frozen-dessert subset coverage.
+
+    **Pedagogical sequencing:**
+    1. **identify-and-name-foods** — Foundational food vocabulary
+       extended to dessert subset (cake, ice-cream, cookie, donut,
+       cupcake, candy, lollipop, brownie, pie, pudding). Same shared
+       package with breakfast + at-the-supermarket + bakery bundles
+       (cluster reuse across daily-life cluster).
+    2. **count-objects-1-to-10** — Counting practice using dessert
+       items as countable subjects (5 cookies on the plate; 3 scoops
+       of ice-cream; 7 candies in the jar; 8 cupcakes in the box).
+       Same shared package across many bundles; dessert-context
+       particularly engaging for K-3 (birthday-party counting + sharing
+       contexts).
+    3. **compare-quantities-more-fewer** — Comparison work using
+       dessert contexts (more cookies than donuts on the plate?; fewer
+       chocolate chips than M&Ms in the cookie?; equal scoops of
+       vanilla and chocolate ice-cream?). Same shared package with
+       breakfast + at-the-supermarket + bakery bundles.
+    4. **sort-by-category** — Category-classification work
+       distinguishing frozen desserts (ice-cream, popsicle, sherbet)
+       vs baked desserts (cake, cookie, brownie, pie) vs candy
+       (lollipop, gummy, chocolate, hard-candy) vs prepared desserts
+       (pudding, jello, mousse). Same shared package; dessert-context
+       enables multi-axis classification (preparation method + ingredient
+       type + serving temperature).
+    5. **describe-physical-properties-of-objects** — Sensory-property
+       work using dessert items (sweet ice-cream; sticky lollipop;
+       cold popsicle; warm brownie; soft pudding; crispy cookie). From
+       Arc 15 Phase 4. Same shared package with bakery-bundle (cross-
+       arc reuse continues compounding). Dessert-context particularly
+       sensory-rich + multi-modal (taste + touch + temperature +
+       texture).
+
+    **Strand spread:** 1 vocabulary-acquisition (foods extended to
+    desserts) + 1 numeracy + 1 comparison + 1 cognitive-sorting + 1
+    materials-and-properties. **5 distinct strands.** Cross-strand
+    daily-life cluster bundle pattern mirrors bakery-bundle but
+    distinguishes by sweet-only + frozen-dessert subset coverage.
+
+    **Suggested unit duration:** 4-5 weeks (1 package per week).
+    Natural fit alongside birthday-celebration weeks + cultural-dessert
+    units. Particularly engaging for K-3 — desserts have universal +
+    high-interest appeal.
+
+    **Multilingual classroom relevance:** dessert vocabulary cognate-
+    rich Romance (postres / desserts / dolci / sobremesas); Germanic-
+    distinct (Süßigkeiten / dessert / efterrätter / jälkiruoat).
+    Specific dessert vocabulary highly culturally specific (tiramisu /
+    panna-cotta / baklava / mochi / pavlova / churros / dulce-de-leche /
+    rasgulla). Particularly load-bearing for international school +
+    dual-language program contexts where kids' families bring diverse
+    cultural-dessert traditions enriching classroom discussion.
+
+    **Pillar 2 architectural pattern:** desserts-and-sweets-bundle
+    exemplifies daily-life cluster substantial-coverage (6 bundles:
+    breakfast + kitchen-tools + classroom + bakery + at-the-supermarket
+    + desserts-and-sweets). Theme-axis-key daily-life-desserts-subset
+    (vs bakery at broader baked-goods anchor). Substantial-coverage
+    milestone for daily-life cluster.

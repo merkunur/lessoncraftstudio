@@ -1,0 +1,105 @@
+# Pillar 2 Arc 6 Phase 2 themed bundle — Thanksgiving
+# Theme-anchored bundle composing 5 thanksgiving-themed teaching packages
+# spanning vocabulary + counting + color-sorting + cultural-awareness + seasonal.
+# 3rd holiday-themed bundle (after easter + christmas; holiday template extension).
+
+bundleSlug: thanksgivinng
+themeAxisKey: thanksgivinng
+language: en
+
+title:
+  en: "Thanksgiving — K-3 Themed Bundle"
+
+description:
+  en: "K-3 bundle centered on Thanksgiving as autumn-anchored North-American holiday for cross-strand cultural-awareness + seasonal work. 3rd holiday-themed bundle extending holiday-template established at Pillar 2 Arc 5 (easter + christmas). 5 packages span vocabulary-acquisition (identify-and-name-action-verbs — gather, share, give-thanks, harvest, feast, celebrate + thanksgiving-specific verbs) + numeracy (count-objects-1-to-10 — counting turkeys, pumpkins, place-settings, family-members at the table, autumn-leaves) + color-cognition (sort-by-color — autumn-palette: red leaves vs orange leaves vs yellow leaves vs brown leaves) + cultural-awareness (compare-greeting-routines-across-cultures — Thanksgiving traditions vary widely: US/Canadian Thanksgiving vs harvest-festivals in other cultures: Chuseok in Korea + Mid-Autumn Festival in China + Sukkot in Jewish tradition + Pongal in India + Erntedankfest in Germany) + autumn-seasonal (identify-four-seasons — Thanksgiving as autumn-anchored celebration). Holiday-template inheritance (action-verbs + counting + color-sorting + cross-cultural-greetings + four-seasons) per pattern locked at easter + christmas. Suitable for a 3-4 week classroom unit timed to late-November (US Thanksgiving) or mid-October (Canadian Thanksgiving). Supports K-3 multilingual classrooms with cross-cultural-harvest-tradition + family-gratitude extensions."
+
+thumbnailUrl: "/bundles/thanksgivinng-thumbnail.png"
+
+status: draft
+
+teachingPackageSlugs:
+  - identify-and-name-action-verbs
+  - count-objects-1-to-10
+  - sort-by-color
+  - compare-greeting-routines-across-cultures
+  - identify-four-seasons
+
+deckIds: []
+lessonPlanIds: []
+
+thematicCoherence:
+  en: |
+    All 5 packages cohere around the Thanksgiving theme + inherit
+    holiday-bundle template structure from easter + christmas
+    (action-verbs + counting + color-sorting + cross-cultural-greetings
+    + four-seasons). 3rd holiday-template instantiation validates
+    template doctrine.
+
+    **Pedagogical sequencing:**
+    1. **identify-and-name-action-verbs** — Foundational Thanksgiving
+       action vocabulary (gather, share, give-thanks, harvest, feast,
+       celebrate, cook, eat, thank). Same shared package across many
+       bundles (~14 bundles use this package now); thanksgiving-context
+       substantiates verb-vocabulary with concrete gratitude-expression
+       + family-gathering actions.
+    2. **count-objects-1-to-10** — Counting practice using thanksgiving
+       items as countable subjects (5 turkeys at the farm; 3 pumpkins
+       on the porch; 7 place-settings at the table; 8 family-members
+       at the feast; 4 autumn-leaves in the basket). Same shared
+       package across many bundles.
+    3. **sort-by-color** — Color-cognition work using autumn-palette
+       contexts (red leaves vs orange leaves vs yellow leaves vs brown
+       leaves; sometimes adding green-but-turning + bare-branches as
+       transition states). Autumn color-coding is concrete + naturally
+       observable + culturally meaningful in North-America-+-Europe
+       contexts.
+    4. **compare-greeting-routines-across-cultures** — Multilingual-
+       awareness work via Thanksgiving + harvest-tradition variations.
+       US/Canadian Thanksgiving as one specific tradition; bundle
+       materials embed inclusive framing: many cultures celebrate
+       harvest-festival traditions differently (Chuseok in Korea / Mid-
+       Autumn Festival in China / Sukkot in Jewish tradition / Pongal
+       in India / Erntedankfest in Germany). Particularly load-bearing
+       for international school + dual-language program contexts —
+       Thanksgiving-as-American-only framing excludes broader harvest
+       tradition diversity.
+    5. **identify-four-seasons** — Seasonal-cognition work situating
+       Thanksgiving as autumn-anchored celebration (autumn leaves,
+       cooler weather, harvest season). Same shared package with
+       winter + summer + spring + tree + beach + easter + christmas
+       bundles. Cross-locale relevance: in Southern Hemisphere
+       countries (Brazil + Australia + New Zealand), no equivalent
+       autumn-harvest celebration; bundle materials acknowledge.
+
+    **Strand spread:** 1 vocabulary-acquisition (action-verbs) + 1
+    numeracy + 1 cognitive-sorting (color) + 1 multilingual-language-
+    awareness (cross-cultural-greetings) + 1 environment-and-weather
+    (four-seasons). **5 distinct strands.** Mirrors easter-bundle +
+    christmas-bundle template — 3rd holiday-template instantiation
+    validates template doctrine empirically.
+
+    **Suggested unit duration:** 3-4 weeks (1 package per week). Timed
+    to late-November (US Thanksgiving, 4th Thursday) OR mid-October
+    (Canadian Thanksgiving, 2nd Monday). Time-bounded relevance like
+    other holiday bundles differentiates from year-round bundles.
+
+    **Multilingual classroom relevance:** Thanksgiving vocabulary
+    primarily North-American context (Thanksgiving / Action de grâce
+    [French Canadian]); other locales' harvest-festival vocabulary
+    varies (Erntedankfest [DE] / Festa del Ringraziamento [IT, less
+    common] / Dia de Acción de Gracias [Spanish, used in US-Latino
+    contexts only]). Critical inclusive framing — most non-US/Canadian
+    multilingual K-3 classrooms have students unfamiliar with US
+    Thanksgiving; bundle materials should frame as "one cultural
+    tradition among many harvest-festival traditions worldwide" + invite
+    students to share their family's harvest-tradition equivalents.
+
+    **Pillar 2 architectural pattern:** thanksgivinng-bundle exemplifies
+    holiday-template 3rd instantiation. Theme-axis-key holiday-thanksgiving
+    (vs easter at spring-anchored holiday; vs christmas at winter-
+    anchored holiday). Template-doctrine validates empirically at 3-
+    instance threshold. Future holiday bundles (halloween + valentines
+    + 4th-of-july + diwali + hanukkah + chinese-new-year + ramadan
+    candidates) inherit the template. Note: themeAxisKey 'thanksgivinng'
+    contains a typo locked-in at topics-taxonomy.json + image library
+    dir name; bundleSlug matches typo per consistency convention.

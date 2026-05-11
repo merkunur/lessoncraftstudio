@@ -14,17 +14,20 @@
  * warrants dynamic allowlist (subscriber-data-driven), commission migration
  * to Bundle metadata flag (option b) as future arc.
  *
- * The allowlist is INITIAL — operator picks final 3 packages at Phase 3a
- * close (C5 launch-trigger condition surface). Pre-recommendation candidates
- * span cross-cluster K-3 representation:
+ * Final allowlist locked by operator at Phase 3a close (C5 launch-trigger
+ * condition):
  *
- *   - count-objects-1-to-10 (numeracy cluster; theme-derived; broad K-3 appeal)
- *   - identify-and-name-emotions (personal-social-emotional cluster; vocabKeyList; K-3-natural)
- *   - identify-letter-sounds-vowels (early-literacy cluster; phonics foundation)
+ *   - count-objects-1-to-10 (early-numeracy; math domain)
+ *   - identify-letter-sounds-vowels (early-literacy; literacy domain)
+ *   - identify-living-vs-nonliving (world-knowledge; science domain)
  *
- * These 3 cover math + SEL + literacy domains — three distinct cluster
- * representations + diverse pedagogical strands. Operator-strategic at Phase
- * 3a close; constant table is mutable via subsequent code commit.
+ * Cross-domain coverage: math + literacy + world-knowledge. The world-
+ * knowledge third-domain pick (identify-living-vs-nonliving) was operator
+ * override of CC's original SEL pre-recommendation (identify-and-name-
+ * emotions) per architectural-centrality reasoning: identify-living-vs-
+ * nonliving has ~8-bundle cross-bundle reuse density signaling high
+ * cross-domain applicability; surfacing it to free-tier showcases bundle
+ * reusability pattern + K-3 science search-traffic optimization.
  */
 
 interface SubscriptionShape {
@@ -38,14 +41,14 @@ interface SessionLikeShape {
 }
 
 /**
- * Free-tier-3-package allowlist (initial). Operator picks final 3 at Phase
- * 3a close per C5 launch-trigger condition. Constant-table pattern; allowlist
+ * Free-tier-3-package allowlist (C5 launch-trigger condition). Operator
+ * locked final 3 at Phase 3a close. Constant-table pattern; allowlist
  * change requires code commit (no DB migration).
  */
 export const FREE_TIER_FLASHCARD_PACKAGES: ReadonlySet<string> = new Set([
   'count-objects-1-to-10',
-  'identify-and-name-emotions',
   'identify-letter-sounds-vowels',
+  'identify-living-vs-nonliving',
 ]);
 
 export type AccessReason = 'free-tier' | 'subscription' | 'admin-bypass' | 'gated';

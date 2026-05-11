@@ -1129,5 +1129,43 @@
       "duration": "{minutes} minutes total",
       "readFullCta": "Read the full plan"
     }
+  },
+  "flashcardReader": {
+    "metadata": {
+      "title": "Flashcards | LessonCraftStudio",
+      "description": "Multilingual K-3 vocabulary flashcards — digital deck + printable PDFs."
+    },
+    "loading": "Loading…",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "deck": {
+      "title": "Flashcards · {packageSlug}",
+      "subtitle": "K-3 vocabulary deck — digital + print formats",
+      "iframeTitle": "Flashcard deck viewer",
+      "printSection": {
+        "heading": "Print formats",
+        "body": "Download the printable PDF. Cut along the corner guides; laminate for repeated classroom use.",
+        "print6up": "Download 6-up PDF",
+        "print9up": "Download 9-up PDF"
+      }
+    },
+    "freeTier": {
+      "banner": {
+        "title": "This is a free-tier flashcard pack",
+        "body": "Three flashcard packs are free to try. The full library of ~100 packages across all 11 platform languages is part of the $69/year subscription.",
+        "cta": "See the subscription"
+      }
+    },
+    "paywall": {
+      "title": "Flashcards are part of the subscription",
+      "body": "The {packageSlug} flashcard pack is included with the $69/year LessonCraftStudio subscription. Three packs are free to try without subscribing — see below.",
+      "freeTierTeaser": {
+        "heading": "Try the free-tier packs first",
+        "body": "Three flashcard packs are free for everyone — sample the Sky+v2 design across math, literacy, and science:",
+        "packageLink": "Open the {slug} flashcards"
+      },
+      "subscribeCta": "Go to subscribe",
+      "signInPrompt": "Already a subscriber?",
+      "signInCta": "Sign in"
+    }
   }
 }

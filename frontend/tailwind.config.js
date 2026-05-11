@@ -58,8 +58,13 @@ module.exports = {
         // Sage: secondary accent — "correct" indicator on Section 3 right panels.
         sage: {
           50: '#EFF2EB',
+          100: '#DCE3D3',
+          200: '#C2D0B8',
           300: '#A8B79B',
+          400: '#91A788',
           500: '#7A9A75',
+          600: '#5F7D5C',
+          700: '#496045',
         },
       },
       fontFamily: {

@@ -18,6 +18,14 @@ const languageNames: Record<string, string> = {
   sv: 'Svenska'
 };
 
+// Locale code → hreflang code per Next.js Metadata API emission (matches
+// getHreflangCode at frontend/lib/schema-generator.ts). `pt` emits as `pt-BR`
+// (Brazilian Portuguese canonical per §6); other locales map 1:1.
+const HREFLANG_CODE_MAP: Record<string, string> = {
+  da: 'da', de: 'de', en: 'en', es: 'es', fi: 'fi',
+  fr: 'fr', it: 'it', nl: 'nl', no: 'no', pt: 'pt-BR', sv: 'sv'
+};
+
 export function LanguageSelector() {
   const router = useRouter();
   const pathname = usePathname();
@@ -41,12 +49,45 @@ export function LanguageSelector() {
   }, []);
 
   const handleLocaleChange = async (newLocale: string) => {
-    // Replace locale in path
-    const newPathSegments = [...pathSegments];
-    newPathSegments[1] = newLocale;
-    const newPath = newPathSegments.join('/') || `/${newLocale}`;
+    // Native-language slug doctrine (§17.4): topic-page URLs differ per locale
+    // (e.g., /es/topic/suma/ vs /de/topic/addition/). Path-segment swap alone
+    // produces 404s when the slug doesn't match the target locale's axis-key
+    // slug. Consume the Next.js Metadata API's hreflang alternates as the
+    // source-of-truth for cross-locale URL equivalents (already emitted on
+    // topic pages per frontend/app/[locale]/topic/[slug]/page.tsx:149-168).
+    //
+    // Fallback chain:
+    //   1. hreflang alternate in DOM → use href.pathname
+    //   2. deck pages (no cross-locale siblings per §17.8.7) → /${newLocale}
+    //   3. homepage + static pages → path-segment swap (locale-only change)
+    const code = HREFLANG_CODE_MAP[newLocale] || newLocale;
+    const link = document.querySelector(`link[rel="alternate"][hreflang="${code}"]`);
+    if (link) {
+      const href = link.getAttribute('href');
+      if (href) {
+        try {
+          const url = new URL(href);
+          router.push(url.pathname);
+          setIsOpen(false);
+          return;
+        } catch {
+          // malformed href; fall through to fallback
+        }
+      }
+    }
 
-    router.push(newPath);
+    if (pathSegments[2] === 'decks') {
+      // Deck pages have no cross-locale siblings (v1 per §17.8.7); locale
+      // switch lands at the target locale's homepage.
+      router.push(`/${newLocale}`);
+    } else {
+      // Homepage + static pages: path-segment swap is correct (the page-
+      // structure URL is locale-invariant outside the locale prefix).
+      const newPathSegments = [...pathSegments];
+      newPathSegments[1] = newLocale;
+      const newPath = newPathSegments.join('/') || `/${newLocale}`;
+      router.push(newPath);
+    }
     setIsOpen(false);
   };
 

@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import topicsTaxonomy from '@/config/topics-taxonomy.json';
 import themeThumbnails from '@/lib/theme-thumbnails.json';
+import { listNonEmptyAxisKeys } from '@/lib/topic-decks';
 
 /**
  * ThemeStrip — Alt A above-the-fold structural-axis surface per
@@ -36,7 +37,20 @@ export default async function ThemeStrip({ locale }: { locale: string }) {
     axes: { theme: Record<string, { name: Record<string, string>; slug: Record<string, string> }> };
   }).axes.theme;
   const thumbnails = themeThumbnails as Record<string, string>;
-  const themeKeys = Object.keys(themeAxis);
+
+  // Content-gate per §16.6.1 substrate-honesty discipline. Only render tiles
+  // for theme axis-keys with ≥1 published deck in the current locale.
+  // Without this filter, locales with partial catalog (es currently ~50 themes
+  // of 100) show 100 tiles where ~50 point at empty topic pages that 404.
+  const nonEmptyKeys = await listNonEmptyAxisKeys('theme', locale);
+  const nonEmptySet = new Set(nonEmptyKeys);
+  const themeKeys = Object.keys(themeAxis).filter((k) => nonEmptySet.has(k));
+
+  if (themeKeys.length === 0) {
+    // Substrate-only locale; don't render an empty strip. Future: placeholder copy.
+    return null;
+  }
+
   function nameFor(themeKey: string): string {
     const entry = themeAxis[themeKey];
     return entry?.name?.[locale] ?? entry?.name?.en ?? themeKey;

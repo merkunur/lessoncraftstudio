@@ -3,7 +3,16 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
+import { useEffect, useState } from 'react';
 import { SUPPORTED_LOCALES, LOCALE_NAMES, type SupportedLocale } from '@/config/locales';
+
+// Locale code → hreflang code per Next.js Metadata API emission (matches
+// getHreflangCode at frontend/lib/schema-generator.ts). `pt` emits as `pt-BR`
+// (Brazilian Portuguese canonical per §6); other locales map 1:1.
+const HREFLANG_CODE_MAP: Record<string, string> = {
+  da: 'da', de: 'de', en: 'en', es: 'es', fi: 'fi',
+  fr: 'fr', it: 'it', nl: 'nl', no: 'no', pt: 'pt-BR', sv: 'sv',
+};
 
 // Locale → ISO 3166-1 alpha-2 country code for flag asset lookup.
 // Operator-locked at Arc 2 A1 adjudication (2026-05-06):
@@ -53,12 +62,46 @@ const LOCALE_FLAG_ISO2: Record<SupportedLocale, string> = {
 export default function LocaleStrip() {
   const pathname = usePathname();
   const t = useTranslations('homepage.localeStrip');
+  const [hreflangUrls, setHreflangUrls] = useState<Record<string, string>>({});
+
+  // Per-locale URL resolution: consume Next.js Metadata API's hreflang
+  // alternates as source-of-truth for cross-locale URL equivalents
+  // (already emitted on topic pages per §17.4 hreflang doctrine). Falls
+  // back to path-segment swap for pages without alternates (homepage,
+  // static pages). Path-segment swap is correct for homepage/static
+  // pages since `/<locale>` is the locale-invariant route shape; it
+  // FAILS for topic pages where the slug differs per locale
+  // (§17.4 native-language slug — e.g., /es/topic/suma/ vs /de/topic/addition/).
+  useEffect(() => {
+    const map: Record<string, string> = {};
+    for (const locale of SUPPORTED_LOCALES) {
+      const code = HREFLANG_CODE_MAP[locale] || locale;
+      const link = document.querySelector(`link[rel="alternate"][hreflang="${code}"]`);
+      if (link) {
+        const href = link.getAttribute('href');
+        if (href) {
+          try {
+            map[locale] = new URL(href).pathname;
+          } catch {
+            // malformed href; fall through to path-segment-swap fallback
+          }
+        }
+      }
+    }
+    setHreflangUrls(map);
+  }, [pathname]);
 
   // Strip the existing locale segment + replace with each candidate locale
   // when the link is clicked. Path "/en/topic/foo" → "/de/topic/foo" etc.
+  // PREFERRED PATH: hreflangUrls (from DOM, populated by useEffect). Falls
+  // back to path-segment swap when no alternate exists (homepage / static
+  // pages). Deck pages have no cross-locale siblings per §17.8.7 → fall
+  // back to /${targetLocale} home.
   function pathInLocale(targetLocale: SupportedLocale): string {
+    if (hreflangUrls[targetLocale]) return hreflangUrls[targetLocale];
     if (!pathname) return `/${targetLocale}`;
     const segments = pathname.split('/').filter(Boolean);
+    if (segments[1] === 'decks') return `/${targetLocale}`;
     if (segments.length === 0) return `/${targetLocale}`;
     // First segment is current locale; replace it.
     const isFirstSegmentLocale = (SUPPORTED_LOCALES as readonly string[]).includes(segments[0]);

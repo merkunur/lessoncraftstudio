@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import { CANONICAL_29_EXERCISE_TYPES } from '@/lib/catalog-axes';
+import { listNonEmptyAxisKeys } from '@/lib/topic-decks';
 import topicsTaxonomy from '@/config/topics-taxonomy.json';
 import { ExerciseTypeIcon } from './icons/ExerciseTypeIcon';
 
@@ -29,6 +30,24 @@ import { ExerciseTypeIcon } from './icons/ExerciseTypeIcon';
  */
 export default async function ExerciseTypeGrid({ locale }: { locale: string }) {
   const t = await getTranslations({ locale, namespace: 'homepage.exerciseTypeGrid' });
+
+  // Content-gate per §16.6.1 substrate-honesty discipline. Only render tiles
+  // for axis-keys with ≥1 published deck in the current locale; matches
+  // footer's FOOTER_EXERCISE_TYPES_BY_LOCALE honesty per §16.6. Without this
+  // filter, locales with partial catalog (es currently 6 apps of 29) show
+  // 29 tiles where 23 point at empty topic pages that 404 per §16.6.1.
+  const nonEmptyKeys = await listNonEmptyAxisKeys('exercise-type', locale);
+  const nonEmptySet = new Set(nonEmptyKeys);
+  const visibleTypes = CANONICAL_29_EXERCISE_TYPES.filter((k) => nonEmptySet.has(k));
+
+  if (visibleTypes.length === 0) {
+    // Substrate-only locales (Tier 3-4 it/fr/pt/sv/da/no/fi at this commission's
+    // time) have no published decks yet — don't render an empty grid + heading.
+    // Future: replace with placeholder copy ("coming soon" etc.) per follow-on
+    // commission. Current state aligns with footer's empty-array placeholder
+    // discipline per §16.6.1.
+    return null;
+  }
 
   // Per-axis-key localized labels live at SoT in topics-taxonomy.json
   // (§16.5 + §16.4 schema; populated 11 locales per a47ea021 + 9ea577fe).
@@ -68,7 +87,7 @@ export default async function ExerciseTypeGrid({ locale }: { locale: string }) {
         className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7 gap-3"
         role="list"
       >
-        {CANONICAL_29_EXERCISE_TYPES.map((exerciseType) => {
+        {visibleTypes.map((exerciseType) => {
           const label = labelFor(exerciseType);
           const slug = slugFor(exerciseType);
           return (

@@ -1167,5 +1167,58 @@
       "signInPrompt": "Already a subscriber?",
       "signInCta": "Sign in"
     }
+  },
+  "teachingPackagePage": {
+    "breadcrumb": {
+      "home": "Home",
+      "teachingPackages": "Teaching packages"
+    },
+    "header": {
+      "eyebrow": "Teaching package",
+      "duration": "{minutes} min session"
+    },
+    "taxonomy": {
+      "heading": "Pedagogical framing"
+    },
+    "structure": {
+      "heading": "Session structure",
+      "phaseDuration": "{minutes} min",
+      "phaseLabel": {
+        "warmup": "Warm-up",
+        "contentActivity": "Content activity",
+        "scaffold": "Scaffold + station rotation",
+        "closure": "Closure"
+      }
+    },
+    "exercises": {
+      "heading": "Composed exercises",
+      "subheading": "{count} worksheet exercises from the catalog apps",
+      "role": {
+        "introduction": "Introduction",
+        "practice": "Practice",
+        "consolidation": "Consolidation",
+        "assessment": "Assessment"
+      }
+    },
+    "materials": {
+      "heading": "Printable materials",
+      "subheading": "{count} printable items for classroom use",
+      "role": {
+        "vocabulary-anchor": "Vocabulary anchor",
+        "production-prompt": "Production prompt",
+        "language-frame": "Language frame",
+        "concrete-manipulative": "Concrete manipulative",
+        "home-school-bridge": "Home-school bridge",
+        "teacher-reference": "Teacher reference",
+        "vocabulary-game": "Vocabulary game"
+      }
+    },
+    "assessment": {
+      "heading": "Assessment criteria"
+    },
+    "flashcards": {
+      "heading": "Flashcards",
+      "subheading": "Digital deck + printable PDFs paired with this package"
+    }
   }
 }

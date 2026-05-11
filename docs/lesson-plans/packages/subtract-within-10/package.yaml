@@ -85,7 +85,7 @@ materials:
   - materialSlug: flashcards
     customizationParameters:
       imageSource: theme
-      themeName: foods
+      themeName: breakfast
       cardCount: 15
       cardsPerPage: 5
       colorMode: color
@@ -101,7 +101,7 @@ materials:
   - materialSlug: picture-cards
     customizationParameters:
       imageSource: theme
-      themeName: foods
+      themeName: breakfast
       cardCount: 15
       cardsPerPage: 5
       colorMode: color
@@ -114,7 +114,7 @@ materials:
   - materialSlug: math-mat
     customizationParameters:
       imageSource: theme
-      themeName: foods
+      themeName: breakfast
       operation: subtraction
       maxNumber: 10
       colorMode: color
@@ -125,7 +125,7 @@ materials:
   - materialSlug: vocabulary-tracing-strips
     customizationParameters:
       imageSource: theme
-      themeName: foods
+      themeName: breakfast
       stripCount: 8
       stripsPerPage: 4
       labelCase: lowercase
@@ -139,7 +139,7 @@ materials:
   - materialSlug: manipulative-cut-outs
     customizationParameters:
       imageSource: theme
-      themeName: foods
+      themeName: breakfast
       mode: counters
       itemCount: 40
       itemSize: small-1in
@@ -153,7 +153,7 @@ materials:
     customizationParameters:
       tone: warm
       imageSource: theme
-      themeName: foods
+      themeName: breakfast
       pictureCueCount: 4
       homeLanguage: en
       language: en

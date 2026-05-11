@@ -91,7 +91,7 @@ materials:
   - materialSlug: flashcards
     customizationParameters:
       imageSource: theme
-      themeName: school-objects
+      themeName: occupations
       cardCount: 10
       cardsPerPage: 6
       colorMode: color
@@ -107,7 +107,7 @@ materials:
   - materialSlug: picture-cards
     customizationParameters:
       imageSource: theme
-      themeName: school-objects
+      themeName: occupations
       cardCount: 12
       cardsPerPage: 6
       colorMode: color
@@ -120,7 +120,7 @@ materials:
   - materialSlug: matching-mat
     customizationParameters:
       imageSource: theme
-      themeName: school-objects
+      themeName: occupations
       pairCount: 8
       rightColumnContent: word
       colorMode: color
@@ -133,7 +133,7 @@ materials:
     customizationParameters:
       framePreset: this-is-a
       imageSource: theme
-      themeName: school-objects
+      themeName: occupations
       stripCount: 8
       stripsPerPage: 4
       colorMode: color
@@ -145,7 +145,7 @@ materials:
   - materialSlug: manipulative-cut-outs
     customizationParameters:
       imageSource: theme
-      themeName: school-objects
+      themeName: occupations
       mode: single-repeat
       itemCount: 24
       itemSize: small-1in
@@ -159,7 +159,7 @@ materials:
     customizationParameters:
       tone: warm
       imageSource: theme
-      themeName: school-objects
+      themeName: occupations
       pictureCueCount: 4
       homeLanguage: en
       language: en

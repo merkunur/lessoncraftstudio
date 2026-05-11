@@ -85,7 +85,7 @@ materials:
   - materialSlug: flashcards
     customizationParameters:
       imageSource: theme
-      themeName: school-objects
+      themeName: classroom
       cardCount: 8
       cardsPerPage: 4
       colorMode: color
@@ -101,7 +101,7 @@ materials:
   - materialSlug: picture-cards
     customizationParameters:
       imageSource: theme
-      themeName: school-objects
+      themeName: classroom
       cardCount: 12
       cardsPerPage: 6
       colorMode: color
@@ -114,7 +114,7 @@ materials:
   - materialSlug: matching-mat
     customizationParameters:
       imageSource: theme
-      themeName: school-objects
+      themeName: classroom
       pairCount: 8
       rightColumnContent: word
       colorMode: color
@@ -126,7 +126,7 @@ materials:
   - materialSlug: vocabulary-tracing-strips
     customizationParameters:
       imageSource: theme
-      themeName: school-objects
+      themeName: classroom
       stripCount: 8
       stripsPerPage: 4
       labelCase: lowercase
@@ -140,7 +140,7 @@ materials:
   - materialSlug: manipulative-cut-outs
     customizationParameters:
       imageSource: theme
-      themeName: school-objects
+      themeName: classroom
       mode: single-repeat
       itemCount: 24
       itemSize: small-1in
@@ -154,7 +154,7 @@ materials:
     customizationParameters:
       tone: warm
       imageSource: theme
-      themeName: school-objects
+      themeName: classroom
       pictureCueCount: 4
       homeLanguage: en
       language: en

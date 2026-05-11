@@ -1536,6 +1536,12 @@
       "description": "Imprima este PDF, recorte por las guías punteadas y use las pequeñas fichas de imagen como material manipulable concreto. Apropiado para conteo, tareas de clasificación y actividades de categorización.",
       "downloadButton": "Descargar PDF de recortables"
     },
+    "answerKey": {
+      "heading": "Referencia del docente",
+      "subheading": "Metadatos completos del paquete: ejercicios compuestos, materiales, marco pedagógico y criterios de evaluación",
+      "description": "Imprima esta PDF de referencia del docente antes de la clase. Agrega los ejercicios compuestos, los materiales imprimibles, el marco pedagógico, los criterios de evaluación y los estándares curriculares en un único documento listo para el aula.",
+      "downloadButton": "Descargar PDF de referencia del docente"
+    },
     "locales": {
       "heading": "Idiomas disponibles",
       "subheading": "Este paquete didáctico tiene contenido creado en los siguientes idiomas."

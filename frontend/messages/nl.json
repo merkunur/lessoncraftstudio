@@ -1523,6 +1523,12 @@
       "description": "Druk deze PDF af, knip langs de stippellijnen en gebruik de kleine beeldtegels als concreet manipulatief materiaal. Geschikt voor teloefeningen, sorteertaken en classificatie-activiteiten.",
       "downloadButton": "Download knip-PDF"
     },
+    "answerKey": {
+      "heading": "Leerkrachtreferentie",
+      "subheading": "Volledige pakket-metadata: samengestelde oefeningen, materialen, pedagogisch kader en evaluatiecriteria",
+      "description": "Druk deze leerkrachtreferentie-PDF voor de les af. Hij voegt de samengestelde oefeningen, afdrukbare materialen, het pedagogische kader, de evaluatiecriteria en de curriculumstandaarden samen in één lesgereed document voor de leerkracht.",
+      "downloadButton": "Download leerkrachtreferentie-PDF"
+    },
     "locales": {
       "heading": "Beschikbare talen",
       "subheading": "Dit lespakket heeft inhoud in de volgende talen."

@@ -14,6 +14,7 @@ import TeachingPackageBundleContext from '@/components/teaching-packages/Teachin
 import TeachingPackagePictureCardsSection from '@/components/teaching-packages/TeachingPackagePictureCardsSection';
 import TeachingPackageNumeralCardsSection from '@/components/teaching-packages/TeachingPackageNumeralCardsSection';
 import TeachingPackageManipulativeCutOutsSection from '@/components/teaching-packages/TeachingPackageManipulativeCutOutsSection';
+import TeachingPackageAnswerKeySection from '@/components/teaching-packages/TeachingPackageAnswerKeySection';
 
 // Pillar 1 + Pillar 2 + Pillar 4 evaluation-surface commission Phase 2.
 // Per-package teaching-package detail surface composing the full canonical
@@ -123,6 +124,16 @@ export default async function TeachingPackageDetailPage({
             packageSlug={pkg.targetSlug}
             itemCount={ic}
             itemSize={is}
+          />
+        );
+      })()}
+      {(() => {
+        const akMaterial = pkg.materials.find((m) => m.materialSlug === 'answer-key');
+        if (!akMaterial) return null;
+        return (
+          <TeachingPackageAnswerKeySection
+            locale={params.locale}
+            packageSlug={pkg.targetSlug}
           />
         );
       })()}

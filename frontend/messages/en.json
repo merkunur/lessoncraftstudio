@@ -1252,6 +1252,12 @@
       "description": "Print this PDF, cut along the dashed guides, and use the small image tiles as physical manipulatives. Suitable for counting work, sorting tasks, and classification activities.",
       "downloadButton": "Download cut-outs PDF"
     },
+    "answerKey": {
+      "heading": "Teacher reference",
+      "subheading": "Complete package metadata: composed exercises, materials, pedagogical framing, and assessment criteria",
+      "description": "Print this teacher-reference PDF before the lesson. It aggregates the composed exercises, printable materials, pedagogical framing, assessment criteria, and curriculum standards into a single classroom-ready handout for the teacher.",
+      "downloadButton": "Download teacher-reference PDF"
+    },
     "locales": {
       "heading": "Available languages",
       "subheading": "This teaching package has authored content in the following languages."

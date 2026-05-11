@@ -1343,6 +1343,12 @@
       "description": "Drucken Sie diese PDF, schneiden Sie entlang der gestrichelten Linien aus und verwenden Sie die kleinen Bildplättchen als konkretes Material. Geeignet für Zählarbeit, Sortieraufgaben und Klassifizierungsaktivitäten.",
       "downloadButton": "Ausschneide-PDF herunterladen"
     },
+    "answerKey": {
+      "heading": "Lehrkraft-Referenz",
+      "subheading": "Vollständige Paket-Metadaten: komponierte Übungen, Materialien, pädagogische Einordnung und Lernkontroll-Kriterien",
+      "description": "Drucken Sie diese Lehrkraft-Referenz-PDF vor der Stunde aus. Sie fasst die komponierten Übungen, Druckmaterialien, pädagogische Einordnung, Lernkontroll-Kriterien und Curriculum-Standards in einem klassenraumfertigen Handout für die Lehrkraft zusammen.",
+      "downloadButton": "Lehrkraft-Referenz-PDF herunterladen"
+    },
     "locales": {
       "heading": "Verfügbare Sprachen",
       "subheading": "Dieses Lehrpaket hat Inhalte in den folgenden Sprachen."

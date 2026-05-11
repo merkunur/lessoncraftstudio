@@ -1,0 +1,245 @@
+# Teaching package — identify school staff roles
+# Arc 15 Phase 1 (science / community-and-roles 1/2 → 2/2 SATURATE).
+# 13th saturated strand at this Phase 1.
+
+targetSlug: identify-school-staff-roles
+language: en
+title:
+  en: "School Staff — who works at our school?"
+description:
+  en: "Pre-K / Kindergarten community-and-roles package teaching kids to identify school staff roles. Builds on Arc 11 identify-community-helpers foundation; extends community-roles understanding from broad community (firefighter, doctor, police officer) to school-specific staff roles (teacher, principal, librarian, school nurse, cafeteria worker, janitor, bus driver, school counselor). Saturating package for community-and-roles strand at 2/2 — 13th saturated strand on the platform. Critical bridge from broad community-roles vocabulary to immediate-classroom-context relevance for K-3 students. Pairs naturally with classroom-bundle (Pillar 2 Arc 2 Phase 2 precedent). 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook + school-staff introduction. Teacher
+      displays photos of school staff (the teacher themselves +
+      principal + librarian + nurse + cafeteria worker + janitor
+      + bus driver). "Look! These are people who work at OUR
+      school. They help us every day. Let's learn their names +
+      what they do." Teacher introduces each role with what-they-
+      do anchor: "The teacher teaches us. The principal LEADS
+      the school. The librarian helps with BOOKS. The nurse
+      helps when someone is sick. The cafeteria worker cooks
+      our lunch." Visual + verbal anchor establishes school-
+      staff role-vocabulary.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + identification routine. Each pair receives
+      8 picture cards (school-staff role pictures) + 8 task
+      cards ("makes our lunch" / "drives the bus" / "checks if
+      we're sick" / "leads the school" / "helps with books" /
+      "cleans the school" / "teaches us" / "helps with feelings").
+      Pair matches role-picture to task-description. Teacher
+      circulates; recasts errors ("the nurse drives the bus? Let's
+      think — the nurse helps when we're sick. Who drives the
+      bus? The BUS DRIVER!").
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching worksheet (role-name
+      to picture). Station 2: vocabulary-tracing-strips for
+      school-staff role names. Station 3: missing-pieces
+      worksheet (school scene with one staff member missing —
+      kid identifies which role is missing). Station 4: pattern-
+      train worksheet (sequence school staff in order of typical
+      school-day encounters: bus driver → teacher → cafeteria
+      worker → nurse).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class review. Teacher asks each student to name one
+      school-staff role + describe what they do in 1 sentence.
+      "Mrs. Smith is our TEACHER. She teaches us reading + math."
+      Forward-pointer: "Today we learned about school staff. When
+      we come back next, we can think about people in our
+      NEIGHBORHOOD — who helps us in places OUTSIDE school?
+      Mail-carriers, doctors, firefighters, librarians at the
+      public library!"
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 8, themeSelect: occupations, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: missing-pieces
+    exerciseMode: unified
+    customizationParameters: { themeSelect: occupations, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: pattern-train
+    exerciseMode: unified
+    customizationParameters: { themeSelect: occupations, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 8, themeSelect: occupations, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: classroom, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: occupations
+      cardCount: 16
+      cardsPerPage: 8
+      colorMode: color
+      labelDisplay: role-name
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: occupations
+      cardCount: 16
+      cardsPerPage: 8
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: occupations
+      pairCount: 8
+      rightColumnContent: role-task
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: occupations
+      stripCount: 16
+      stripsPerPage: 8
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: occupations
+      mode: role-set
+      itemCount: 16
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: occupations
+      pictureCueCount: 6
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: science / community-and-roles (school-staff
+    role identification — saturates strand 2/2). Secondary strand:
+    vocabulary-acquisition (school-staff role names). Tertiary
+    strand: social-and-cultural understanding (recognizing who
+    helps in immediate school community).
+
+    Architectural significance: SATURATES community-and-roles
+    strand at 2/2 — 13th saturated strand on the platform. Builds
+    on Arc 11 identify-community-helpers foundation; extends from
+    broad community (firefighter, doctor, police) to school-
+    specific staff (teacher, principal, librarian). Critical
+    bridge from broad community-roles to immediate-classroom-
+    context relevance for K-3 students.
+
+    Distinctive composition: 2 matching + 1 missing-pieces + 1
+    pattern-train + 1 matching (cross-theme assessment). Heavy
+    role-identification + role-association work; matching
+    dominates because role-name + role-task mapping is the
+    primary cognitive task.
+
+    Class B FLEXIBLE substrate: composes against occupations +
+    classroom themes (occupations image library covers
+    professional roles; classroom adds school-specific items).
+
+    K-3 multilingual classroom relevance: school-staff vocabulary
+    varied across 11 platform locales — teacher (maestro/maestra
+    / Lehrer / lärare); principal (director / Direktor / rector);
+    librarian (bibliotecario / Bibliothekar). Most school-staff
+    terms cognate Romance + Germanic with locale variations.
+    Particularly valuable for multilingual classrooms where
+    school-staff vocabulary varies between home-language + school-
+    language contexts.
+
+curriculumStandards:
+  - CCSS.K.SS.1
+  - EYFS.ELG.UW.PEOPLE
+  - IB-PYP.WhoWeAre
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Name 8 school-staff roles when shown role picture in 7 of
+        10 trials.
+      - Match school-staff role to what-they-do task in 7 of 10
+        trials.
+      - Identify which school-staff role helps with a given
+        scenario ("I'm hungry — who do I go to?") in 6 of 10
+        trials.
+
+    Differentiation:
+    - Pre-K: 4-role scope (teacher, principal, nurse, bus driver);
+      receptive-only role-name vocabulary.
+    - K: 8-role scope (extends to librarian, cafeteria worker,
+      janitor, counselor); receptive + productive vocabulary.
+    - Grade 1+: extend to community-roles outside school +
+      bridge to Career-Awareness work + community-helpers integration.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

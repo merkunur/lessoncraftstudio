@@ -1,0 +1,245 @@
+# Teaching package — tens and ones (place value 1 to 20)
+# Arc 15 Phase 1 (math / place-value strand foundation; first place-value package).
+
+targetSlug: tens-and-ones-1-to-20
+language: en
+title:
+  en: "Tens and Ones — understanding two-digit numbers"
+description:
+  en: "Grade 1 / Grade 2 math package teaching kids to understand the place-value system for numbers 1-20: each two-digit number is composed of TENS and ONES. Examples: 13 = 1 ten + 3 ones; 17 = 1 ten + 7 ones; 20 = 2 tens + 0 ones. Builds on Arc 7-12 count-objects-1-to-20 + add-within-20 numeracy foundation. Foundational place-value package — first in the place-value strand. Critical bridge from counting-by-1s (which works for 1-20 via single-numeral counting) to understanding two-digit structure (which generalizes to all multi-digit numbers). Foundation for later regrouping in addition/subtraction work. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook + tens-and-ones introduction. Teacher
+      displays 13 single-counters + groups them as 1 BUNDLE OF
+      10 + 3 LOOSE COUNTERS. "Look — when we have 13 things,
+      we can group them as 1 TEN + 3 ONES. The number 13 has
+      TWO PARTS: the '1' on the left means 1 ten (10 things);
+      the '3' on the right means 3 ones (3 things). Together
+      they make 13." Teacher repeats with 17 (1 ten + 7 ones)
+      + 20 (2 tens + 0 ones) + 11 (1 ten + 1 one). Visual +
+      tactile anchor for tens-and-ones place-value composition.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + place-value routine. Each pair receives 8
+      base-ten manipulative kits (or printed counters in 10-stick
+      + single-counter format). Pair takes turns: kid A shows
+      a number with manipulatives (e.g., shows 1 ten-stick + 4
+      ones = 14); kid B writes the digital number (14). Then
+      kid A writes a number (e.g., 18); kid B builds it with
+      manipulatives. Recast errors with re-grouping demo
+      ("you built 16 with 6 ten-sticks. Let's check — 6 ten-
+      sticks would be 60. You need 1 ten-stick + 6 ones to make
+      16.").
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching worksheet (number to
+      tens-and-ones representation: 14 ↔ ◼◼◼◼◼◼◼◼◼◼ + 4
+      circles). Station 2: math-puzzle (decompose a number into
+      tens + ones: 17 = ? tens + ? ones). Station 3: pattern-
+      train (sequence numbers 10, 11, 12, 13... showing each
+      adds 1 one). Station 4: vocabulary-tracing-strips for
+      place-value vocabulary (ten, ones, place, digit, tens-
+      place, ones-place).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class place-value review. Teacher shows 6 numbers
+      (12, 15, 18, 11, 19, 20); class collectively names tens
+      + ones for each. "12 = 1 ten + 2 ones! 15 = 1 ten + 5
+      ones!" Forward-pointer: "Today we learned tens and ones
+      up to 20. When we come back next, we can do TENS AND
+      ONES up to 100 — bigger numbers with the same pattern
+      — and then HUNDREDS + TENS + ONES for three-digit numbers!"
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 8, themeSelect: miscellaneous, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: math-puzzle
+    exerciseMode: decomposition
+    customizationParameters: { operationType: place-value, maxNumber: 20, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: pattern-train
+    exerciseMode: unified
+    customizationParameters: { themeSelect: miscellaneous, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 8, themeSelect: miscellaneous, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: math-puzzle
+    exerciseMode: decomposition
+    customizationParameters: { operationType: place-value, maxNumber: 20, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: miscellaneous
+      cardCount: 20
+      cardsPerPage: 8
+      colorMode: color
+      labelDisplay: math-expression
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: miscellaneous
+      cardCount: 20
+      cardsPerPage: 8
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: place-value-mat
+    customizationParameters:
+      tensColumn: true
+      onesColumn: true
+      maxNumber: 20
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: place-value-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: miscellaneous
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: miscellaneous
+      mode: base-ten-blocks
+      itemCount: 40
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: miscellaneous
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: math / place-value (tens-and-ones for numbers
+    1-20 — first place-value strand package). Secondary strand:
+    numeracy (counting + number-recognition for 1-20 range). Tertiary
+    strand: vocabulary-acquisition (place-value vocabulary: ten,
+    ones, place, digit).
+
+    Architectural significance: founds the place-value strand
+    (currently 0/8; this package brings to 1/8). Builds on Arc 7-12
+    count-objects + add-within-20 numeracy foundation. Critical
+    bridge from counting-by-1s (works for 1-20 via single-numeral
+    counting) to understanding two-digit structure (generalizes to
+    all multi-digit numbers). Foundation for regrouping work in
+    future addition/subtraction.
+
+    Distinctive composition: 2 matching + 2 math-puzzle
+    (decomposition) + 1 pattern-train. Decomposition work
+    emphasized; place-value understanding fundamentally about
+    decomposing numbers into tens-and-ones structure.
+
+    Class B FLEXIBLE substrate: composes against miscellaneous
+    image-library theme; place-value work uses abstract numerical
+    representation (no specific theme content needed). Tens-and-
+    ones representation primarily visual (ten-sticks + single-
+    counters) handled via manipulative-cut-outs material.
+
+    K-3 multilingual classroom relevance: place-value concept
+    universal across 11 platform locales. Number words for 11-19
+    vary significantly — Germanic + Romance follow regular pattern
+    (eleven/twelve break; thirteen-nineteen regular). Vocabulary
+    for "tens" + "ones" varied: "tens place" in en, "decenas" in
+    es, "dizenas" in pt, "Zehner" in de. Locale-variant work at
+    Phase 3+ adapts to each locale's number-word + place-value
+    vocabulary system.
+
+curriculumStandards:
+  - CCSS.K.NBT.A.1
+  - CCSS.1.NBT.B.2
+  - CCSS.1.NBT.B.3
+  - EYFS.ELG.MATH.NUM
+  - IB-PYP.HowTheWorldWorks
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Decompose 6 of 8 numbers (10-20) into correct tens-and-ones
+        representation.
+      - Use vocabulary TENS / ONES / PLACE / DIGIT accurately in 7
+        of 10 trials.
+      - Build a given number with base-ten manipulatives in 7 of 10
+        trials.
+      - Identify tens-place vs ones-place digit in a written number
+        in 8 of 10 trials.
+
+    Differentiation:
+    - Pre-K: skip tens-and-ones; review count-objects-1-to-10 only.
+    - K: tens-and-ones for 10-15 only; concrete manipulatives
+      required.
+    - Grade 1: tens-and-ones for 10-20 full coverage.
+    - Grade 2+: extend to tens-and-ones for 21-99 + introduce
+      hundreds + thousands place-value + bridge to addition-with-
+      regrouping work.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

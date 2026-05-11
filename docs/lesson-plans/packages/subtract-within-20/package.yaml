@@ -1,0 +1,240 @@
+# Teaching package — subtract within 20
+# Arc 15 Phase 1 (math / addition-subtraction +1; extends Arc 14 Phase 4's subtract-within-5/10).
+
+targetSlug: subtract-within-20
+language: en
+title:
+  en: "Subtract Within 20 — taking away bigger numbers"
+description:
+  en: "Grade 1 / Grade 2 math package teaching kids to subtract numbers within 20 (15-7=8, 18-6=12, 20-13=7, etc.). Builds on Arc 14 Phase 4 subtract-within-5 + subtract-within-10 + Arc 12 add-within-20 foundation. Extends subtraction work from within-10 range to within-20 range. Critical bridge from mental subtraction (within 10) to two-digit subtraction (within 20 introduces 'borrowing' / 'regrouping' conceptual foundation when minuend has 1 in tens place and subtrahend exceeds ones place). Completes the basic subtraction sequence (5 → 10 → 20). 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook + within-20 subtraction introduction.
+      Teacher displays a number line 1-20. "Today we subtract
+      BIGGER numbers — within 20. Let's start with 15-7. We
+      START at 15 on the number line + COUNT BACK 7 jumps."
+      Teacher draws 7 arc-jumps on the number line. "15-14-13-
+      12-11-10-9-8. We land on 8. So 15-7=8." Class repeats
+      with 3-4 problems (18-6, 16-9, 20-13, 17-5). Teacher
+      introduces strategy variations: count-back; decompose
+      ("15-7: take away 5 first to get 10, then 2 more = 8");
+      use-known-facts ("15-7? I know 7+8=15, so 15-7=8").
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + subtraction routine. Each pair receives a
+      worksheet with 6 subtraction problems within 20 (15-7,
+      18-6, 16-9, 20-13, 17-5, 14-8). Pair takes turns: kid A
+      reads problem; kid B chooses strategy (number-line / count-
+      back / decomposition / use-known-facts) + computes answer.
+      Recast errors with strategy-demo ("18-6 — let's try
+      decomposition: take away 6 in two steps. 18-3=15, 15-3=12.
+      So 18-6=12."). Different strategies introduced
+      progressively; kids choose strategies that work for them.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: subtraction worksheet (cross-
+      out method within 20 — visual countables). Station 2:
+      math-worksheet (vertical subtraction within 20; no
+      regrouping yet — borrowing introduced gently). Station 3:
+      math-puzzle (find missing operand: 15-?=8; ?-7=12).
+      Station 4: more-less worksheet (compare 2 subtraction
+      results: which is greater, 18-9 or 17-7?).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class within-20 subtraction quiz. Teacher presents 5
+      fast subtraction problems; class collectively answers using
+      preferred strategy. "20-5? 18-9? 15-6? 17-10? 19-12?"
+      Forward-pointer: "Today we subtracted within 20. When we
+      come back next, we'll learn DOUBLE-DIGIT subtraction (25-13,
+      48-29) where we sometimes need to BORROW from the tens
+      place — and add-and-subtract together in mixed problems!"
+
+composedExercises:
+  - appName: subtraction
+    exerciseMode: cross-out
+    customizationParameters: { themeSelect: animals, languageSelect: en, maxNumber: 20 }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: math-worksheet
+    exerciseMode: vertical-subtraction
+    customizationParameters: { operationType: subtraction, maxNumber: 20, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: math-puzzle
+    exerciseMode: missing-operand
+    customizationParameters: { operationType: subtraction, maxNumber: 20, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: more-less
+    exerciseMode: number-result
+    customizationParameters: { mode: number-result, operationType: subtraction, maxNumber: 20, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: math-worksheet
+    exerciseMode: vertical-subtraction
+    customizationParameters: { operationType: subtraction, maxNumber: 20, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 20
+      cardsPerPage: 8
+      colorMode: color
+      labelDisplay: math-expression
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 20
+      cardsPerPage: 8
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: number-line-mat
+    customizationParameters:
+      rangeMin: 0
+      rangeMax: 20
+      stepInterval: 1
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: subtraction-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: counters
+      itemCount: 60
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: math / addition-subtraction (subtraction within
+    20 — extends strand by deepening subtraction coverage). Secondary
+    strand: numeracy (strategy-based subtraction: count-back,
+    decomposition, use-known-facts). Tertiary strand: math /
+    place-value (within-20 subtraction introduces tens-place
+    conceptual foundation).
+
+    Architectural significance: extends Arc 14 Phase 4 subtract-
+    within-5 + subtract-within-10 into within-20 range. Completes
+    basic subtraction sequence (5 → 10 → 20). Critical bridge from
+    mental subtraction (within 10) to two-digit subtraction; within-
+    20 range introduces 'crossing the 10' subtraction (15-7 requires
+    crossing 10) which prepares for borrowing/regrouping work in
+    future place-value-aware subtraction.
+
+    Distinctive composition: 2 math-worksheet (vertical format) + 1
+    subtraction (cross-out method) + 1 math-puzzle (missing-operand)
+    + 1 more-less (compare subtraction results). Strategy diversity
+    emphasized in worksheet design.
+
+    Class B FLEXIBLE substrate: composes against animals theme
+    (countable for subtraction work; cross-arc with Arc 14 subtract-
+    within-5 + subtract-within-10 themes).
+
+    K-3 multilingual classroom relevance: subtraction within 20 is
+    universal K-3 math content across 11 platform locales. Number
+    words varied (one-to-twenty Romance partial-cognate; Germanic
+    + Finnic distinct number-word systems). Strategy vocabulary
+    varies — "count-back" / "decomposition" / "use-known-facts"
+    translate to locale-specific math-strategy idioms. Locale-
+    variant work at Phase 3+ adapts to each locale's number-word
+    + strategy-vocabulary register.
+
+curriculumStandards:
+  - CCSS.1.OA.A.1
+  - CCSS.1.OA.B.4
+  - CCSS.1.OA.C.6
+  - EYFS.ELG.MATH.NUM
+  - IB-PYP.HowTheWorldWorks
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Compute subtraction within 20 correctly in 7 of 10 trials.
+      - Use at least 2 subtraction strategies when solving problems
+        in 6 of 10 trials.
+      - Solve simple missing-operand problems (20-?=8; ?-7=12) in
+        5 of 10 trials.
+      - Compare subtraction results (which is greater: 18-9 or 17-7?)
+        in 5 of 10 trials.
+
+    Differentiation:
+    - Pre-K: review subtraction within 10; no within-20 work.
+    - K: subtraction within 15; strategy support emphasized.
+    - Grade 1: subtraction within 20 fluent; multiple strategies.
+    - Grade 2+: extend to two-digit subtraction with regrouping;
+      bridge to subtract-within-100.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

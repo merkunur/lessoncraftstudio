@@ -25,6 +25,12 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
+// js-yaml has no bundled TypeScript types in the dependency tree; declaring
+// the module here keeps Next.js TS-build clean without requiring an
+// @types/js-yaml package install. Used only for yaml.load() in this file.
+declare module 'js-yaml' {
+  export function load(str: string): unknown;
+}
 import * as yaml from 'js-yaml';
 
 const REPO_ROOT = path.resolve(__dirname, '..', '..', '..');

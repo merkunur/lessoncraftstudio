@@ -3284,6 +3284,58 @@ Phase 5 close-out doc records the en-not-rerun decision explicitly per Item 15 f
 
 Origin: Phase 5 Sub-item 2 + 3 + Sub-step 7; codified at Phase 6 fold.
 
+#### A.13.21 Operator-pre-recommendation substrate verification at theme/category selection
+
+When operator pre-recommendation involves theme / category / package selection (e.g., "use these 4 themes" / "these 5 packages" / "4-5 additional themed bundles"), CC verifies candidate items against canonical-state at planning step before locking commission scope. Saves operator-attention by surfacing substrate-state divergence at planning step rather than execution-time.
+
+**How to apply (during any Phase 1 plan step receiving operator pre-recommendation):**
+
+1. **Identify the recommendation's substrate dependencies.** Theme names → `topics-taxonomy.json axes.theme` keys. Category labels → `apps.*.default_subject` values. Package slugs → `docs/lesson-plans/packages/<slug>/` directory. ThemeAxisKey choices → existing `image_themes` table entries.
+2. **Empirically query the substrate** before responding to operator. Concrete forms: `node -e "..."` queries against `topics-taxonomy.json`; directory listing at `docs/lesson-plans/packages/` or `docs/lesson-plans/bundles/`; cross-reference against canonical inventory.
+3. **Surface divergence as §A.13.6 firing** if substrate-state contradicts operator pre-recommendation. Per §A.13.8 cost-recalibration, do NOT silently accept the pre-recommendation against contradicting substrate — surface for re-adjudication.
+
+**Why this matters.** Operator pre-recommendations frame commission scope at planning step. If the recommendation assumes substrate-state that doesn't hold, the commission ships against wrong substrate (wasted authoring) OR fails at execution (wasted operator-attention re-adjudicating mid-commission). Pre-flight verification at planning step catches the divergence early when re-adjudication cost is low.
+
+**Empirical anchors:**
+- **Pillar 2 Arc 6 Phase 1 themeAxisKey verification:** operator pre-recommended 4 themes; Phase 1 verification showed 3 of 4 unverified per `image_themes` substrate; CC self-adjudicated substitute picks per §A.13.8 (zoo-animals + space + tools replacing library + garden + arts_and_crafts). 10th §A.13.6 firing.
+- **Pillar 2 Arc 7 Phase 2 saturation finding:** operator framed "4-5 additional themed bundles bringing 48 → ~52-53." Phase 1 empirical query against `topics-taxonomy.json axes.theme` (100 keys; 50 canonical-color) + bundle inventory (48 dirs) revealed 48/50 canonical-color saturation; only `birds_2` + `miscellaneous` unbundled. Surfaced via AskUserQuestion; operator ratified (P2-close-pillar2). 16th §A.13.6 firing.
+
+**Relationship to §A.13.5 + §A.13.6:**
+- §A.13.5 Shape A discipline addresses authoring-app boundary substrate verification (per-app emit-site)
+- §A.13.6 spec-vs-shipped-contract validation addresses commission-spec boundary
+- §A.13.21 (this section) addresses operator-recommendation boundary — the substrate verification at commission-input
+
+The three form a layered defense: substrate verification at app boundary (Shape A) + spec boundary (§A.13.6) + recommendation boundary (§A.13.21).
+
+Origin: Pillar 2 Arc 6 Phase 1 (`bf2dfc3c` + `df1c4ee1` 10th firing) + Pillar 2 Arc 7 Phase 2 saturation finding (`957eb8ff` 16th firing); codified at Phase 6 fold.
+
+#### A.13.22 Audit-doc-vs-canonical-state divergence at commencement-time inspection
+
+Audit documents become stale during commission cycles. At commencement of any work derived from an audit doc, re-verify the audit's empirical claims against canonical-state. Don't trust audit-state at commencement.
+
+**How to apply (at any commission's Phase 1 commencement when work is sourced from a prior audit doc):**
+
+1. **Identify the audit doc's load-bearing empirical claims** (e.g., "5 packages have theme-dir absent" / "84+ NSR-flag entries pending" / "27 unverified apps").
+2. **Re-verify each claim against canonical-state at commencement.** Direct grep + file inspection per §A.13.14 Phase 1 Explore-agent fidelity validation; don't trust audit-doc summary at face value.
+3. **Surface divergence as §A.13.6 firing** if audit-doc claim contradicts canonical-state. Re-classify per empirical reality before commencing execution.
+
+**Why this matters.** Audit docs capture state at audit-authoring time; commission cycles advance state between audit + commencement (per Items 17 + 20 + 26). Audit-doc-driven work that doesn't re-verify ships against stale state, producing same failure modes as §A.13.6 spec-vs-shipped-contract divergence at recommendation boundary.
+
+**Empirical anchor:** Stream A Arc 2 Phase 1 (P1-C2-only) commission cycle (commit `e87c464c`). Audit doc `docs/lesson-plans/stream-a-arc-2-substrate-audit.md` §1.3 claimed 5 packages had theme-dir absence (school-objects + foods × 5 packages). Edit-time re-verification revealed only 3 of 5 packages had `themeName: foods` OR `themeName: school-objects` (identify-community-helpers + identify-days-of-week + subtract-within-10); the 2 prepositions packages (use-position-vocabulary + use-spatial-position-words) did NOT use `themeName: foods` — they used `themeName: animals` (existing theme) + empty `vocabKeyList` for flashcards (separate failure mode class). 15th §A.13.6 firing at edit-time; 3 valid migrations applied; 2 prepositions packages preserved unchanged and filed for follow-on commission.
+
+**Distinction from §A.13.21:**
+- §A.13.21 verifies operator-pre-recommendation substrate at PLAN STEP (before commission scope locks)
+- §A.13.22 verifies audit-doc empirical claims at COMMENCEMENT STEP (before execution begins)
+- Different inspection boundaries; same underlying §A.13.6 firing pattern
+
+**Cross-references:**
+- §A.13.5 Shape A authoring-app substrate verification
+- §A.13.6 + §A.13.8 spec-vs-shipped + cost-recalibration paired discipline
+- §A.13.14 Phase 1 Explore-agent fidelity validation (recon-quality discipline)
+- §A.13.21 operator-pre-recommendation substrate verification
+
+Origin: Stream A Arc 2 Phase 1 audit-doc inaccuracy (`e87c464c` 15th firing); codified at Phase 6 fold.
+
 ### A.14 Scaling Arc audit doctrine
 
 `[CHORE][AUDIT]` commissions measure publish-cli's path against scale targets without making any production change. The doctrine here governs both the audit commission shape and the engineering decisions that follow.

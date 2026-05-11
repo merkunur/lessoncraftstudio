@@ -17,9 +17,27 @@ import * as path from 'path';
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const yaml: { load: (str: string) => unknown } = require('js-yaml');
 
-// Resolves to <repo-root> from frontend/lib/teaching-packages/
-const REPO_ROOT = path.resolve(__dirname, '..', '..', '..');
-const PACKAGES_ROOT = path.join(REPO_ROOT, 'docs', 'lesson-plans', 'packages');
+// Resolves to <repo-root>/docs/lesson-plans/packages/. Robust across both
+// dev (npm run dev; cwd=frontend) AND Next.js standalone production builds
+// (PM2 cwd=/opt/lessoncraftstudio/frontend per ecosystem.config.js). The
+// docs/ directory lives at <repo-root>/docs/ — one level above frontend/ —
+// and is NOT bundled into .next/standalone/. process.cwd()-based resolution
+// reads from the actual filesystem location rather than the standalone
+// bundle.
+const CANDIDATE_PACKAGES_ROOTS = [
+  path.resolve(process.cwd(), '..', 'docs', 'lesson-plans', 'packages'), // cwd=frontend
+  path.resolve(process.cwd(), 'docs', 'lesson-plans', 'packages'),       // cwd=repo-root (dev fallback)
+  path.resolve(__dirname, '..', '..', '..', 'docs', 'lesson-plans', 'packages'), // __dirname-based fallback
+];
+
+function resolvePackagesRoot(): string {
+  for (const candidate of CANDIDATE_PACKAGES_ROOTS) {
+    if (fs.existsSync(candidate)) return candidate;
+  }
+  return CANDIDATE_PACKAGES_ROOTS[0];
+}
+
+const PACKAGES_ROOT = resolvePackagesRoot();
 
 export interface ComposedExercise {
   appName: string;

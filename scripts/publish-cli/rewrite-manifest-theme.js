@@ -51,6 +51,10 @@ var AdmZip = require(path.resolve(__dirname, '..', '..', 'node_modules', 'adm-zi
 var slug = require('./slug');
 var topicsTaxonomy = require(path.resolve(__dirname, '..', '..', 'frontend', 'config', 'topics-taxonomy.json'));
 
+// --force-divergent flag: overrides skip-divergent safety. Use when operator
+// confirms image content is truth + manifest emit was buggy. Set by CLI arg.
+var FORCE_DIVERGENT = false;
+
 // -------------------------------------------------------------------------
 // Topics-taxonomy lookup tables — built once at module load
 // -------------------------------------------------------------------------
@@ -277,7 +281,17 @@ function classifyZip(zipPath) {
   // image-pool theme; surface for operator visibility but do not rewrite.
   // Salvage script's primary use case is recovering manifest.theme=null
   // (the recurring emit-defect class), not overriding populated values.
+  // EXCEPTION: --force-divergent flag overrides this safety when the
+  // operator explicitly confirms image content is truth (e.g., 2026-05-11
+  // ES code-addition wave: 99 ZIPs declared theme="4th_of_july" but
+  // image content shows different themes; operator confirmed images are
+  // correct + manifest emit was buggy).
   if (result.oldTheme) {
+    if (FORCE_DIVERGENT) {
+      result.action = 'rewrite';
+      result.note = 'force-divergent: oldTheme "' + result.oldTheme + '" overridden by image-walk "' + corrected + '" per --force-divergent flag';
+      return result;
+    }
     result.action = 'skip-divergent';
     result.note = 'oldTheme "' + result.oldTheme + '" differs from image-walk corrected "' + corrected + '" — preserving operator manifest (no rewrite)';
     return result;
@@ -500,6 +514,7 @@ function main() {
   var workingDir = null;
   for (var i = 0; i < args.length; i++) {
     if (args[i] === '--dry-run') { dryRun = true; continue; }
+    if (args[i] === '--force-divergent') { FORCE_DIVERGENT = true; continue; }
     if (args[i].startsWith('--')) {
       console.error('ERROR: unknown flag "' + args[i] + '"');
       process.exit(2);
@@ -509,7 +524,7 @@ function main() {
     process.exit(2);
   }
   if (!workingDir) {
-    console.error('USAGE: node scripts/publish-cli/rewrite-manifest-theme.js <directory> [--dry-run]');
+    console.error('USAGE: node scripts/publish-cli/rewrite-manifest-theme.js <directory> [--dry-run] [--force-divergent]');
     process.exit(2);
   }
   workingDir = path.resolve(workingDir);

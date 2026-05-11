@@ -5,7 +5,7 @@
 **Estimated phases:** 4 sub-commits per arc
 **Estimated LoC:** ~2500-4000
 **Estimated sessions:** 2-3
-**Status: DRAFT — operator ratification pending at Arc 14 close.**
+**Status: RATIFIED 2026-05-11 — operator ratification at next-session commencement post-Arc-14-close. β shape paired with Pillar 2 Arc 4. Mixed Option G CONTINUATION + Option I saturation-closing default adjudicator-forward per CC at Phase 1 (community-and-roles + time-and-routine 2 strands to saturate).**
 
 ## 1. Context
 

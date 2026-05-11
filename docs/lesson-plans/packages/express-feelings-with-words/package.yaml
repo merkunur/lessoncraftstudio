@@ -1,0 +1,247 @@
+# Teaching package — express feelings with words
+# Arc 15 Phase 2 (science / personal-social-emotional-development 0/6 → 1/6; founds strand).
+
+targetSlug: express-feelings-with-words
+language: en
+title:
+  en: "Naming My Feelings — finding words for emotions"
+description:
+  en: "Kindergarten / Grade 1 social-emotional package teaching kids to RECOGNIZE + NAME + EXPRESS basic feelings using specific emotional vocabulary. Builds on Arc 8-12 identify-and-name-emotions + identify-own-emotions-in-context + identify-emotions-of-others-from-faces foundation; extends recognition-only work to verbal-expression work. Foundational personal-social-emotional-development strand package (0/6 → 1/6). Critical bridge from emotional-recognition (passive identification) to emotional-expression (active communication) — kids learn to say 'I FEEL frustrated' instead of acting out. Foundation for later emotion-regulation + conflict-resolution + empathy-development work. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook + feelings-vocabulary introduction. Teacher
+      displays 8 feeling-face cards (happy, sad, angry, scared,
+      excited, frustrated, surprised, calm). "Today we learn to
+      SAY how we feel. When we use WORDS for our feelings, we
+      help others understand us — and we help ourselves understand
+      our own feelings." Class chants: "I feel happy! I feel sad!
+      I feel excited! I feel calm!" Teacher demonstrates self-
+      modeling: "When I feel HAPPY, I can SAY: I feel happy
+      today. When I feel FRUSTRATED, I can SAY: I feel frustrated
+      because..."
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + feelings-expression routine. Each pair receives
+      8 scenario cards (e.g., "you got a present" / "you can't
+      find your favorite toy" / "your friend shared with you" /
+      "someone broke your drawing"). Pair takes turns: kid A
+      reads scenario; kid B says "I would feel ___ because ___".
+      Recast errors with feeling-vocabulary support ("when your
+      drawing breaks, you might feel SAD or FRUSTRATED. Can you
+      try: I would feel SAD because my drawing got ruined?").
+      Use feeling-face cards as visual prompts; kids point to
+      the face that matches their feeling.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching worksheet (feeling-
+      word to feeling-face picture). Station 2: prepositions
+      worksheet (sentence-frames like "I feel HAPPY when ___" +
+      "I feel SAD when ___"). Station 3: picture-sort worksheet
+      (sort scenarios into POSITIVE feelings + DIFFICULT feelings
+      bins). Station 4: vocabulary-tracing-strips for feeling
+      words (happy, sad, angry, scared, excited, frustrated,
+      surprised, calm, proud, lonely).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class feelings-check-in. Each child shares a feeling
+      they had THIS WEEK + describes the situation in 1 sentence.
+      "I felt EXCITED when we did art class!" "I felt SAD when my
+      pet was sick." Teacher validates each response with active
+      listening. Forward-pointer: "Today we said our feelings.
+      When we come back next, we can learn what to DO when we
+      have BIG feelings — calming strategies + asking-for-help +
+      problem-solving with friends!"
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 8, themeSelect: emotions, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: prepositions
+    exerciseMode: sentence-frame
+    customizationParameters: { themeSelect: emotions, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: picture-sort
+    exerciseMode: unified
+    customizationParameters: { themeSelect: emotions, languageSelect: en, binCount: 2 }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 8, themeSelect: emotions, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: emotions, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: emotions
+      cardCount: 16
+      cardsPerPage: 8
+      colorMode: color
+      labelDisplay: feeling-word
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: emotions
+      cardCount: 16
+      cardsPerPage: 8
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: feelings-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: emotions
+      feelingCount: 8
+      includeScenarioCards: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: feelings-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: emotions
+      stripCount: 10
+      stripsPerPage: 5
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: emotions
+      mode: feeling-faces
+      itemCount: 16
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: emotions
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: science / personal-social-emotional-development
+    (feelings-expression — founds strand at 1/6). Secondary
+    strand: vocabulary-acquisition (feelings vocabulary: happy,
+    sad, angry, scared, excited, frustrated, surprised, calm).
+    Tertiary strand: communication (verbal expression of internal
+    states).
+
+    Architectural significance: founds personal-social-emotional-
+    development strand at 1/6 — third strand foundation
+    established at Arc 15 (numeral-recognition + place-value at
+    Phase 1; materials-and-properties + personal-social-emotional-
+    development at Phase 2). Builds on Arc 8-12 emotions
+    foundation (identify-and-name-emotions + identify-own-emotions-
+    in-context + identify-emotions-of-others-from-faces); extends
+    recognition-only work to verbal-expression work. Critical
+    bridge from emotional-recognition (passive identification)
+    to emotional-expression (active communication).
+
+    Distinctive composition: 3 matching + 1 prepositions
+    (sentence-frame) + 1 picture-sort. Vocabulary-anchored
+    throughout; prepositions package provides sentence-frame
+    structure ("I feel ___ when ___") foundational to feelings-
+    expression.
+
+    Class B FLEXIBLE substrate: composes against emotions image-
+    library theme (canonical for feeling-face imagery).
+
+    K-3 multilingual classroom relevance: feelings vocabulary
+    varied across 11 platform locales — basic emotions (happy,
+    sad, angry, scared) moderate-cognate Romance + Germanic;
+    nuanced emotions (frustrated, lonely, proud, calm) more
+    locale-specific. Sentence-frame structure ("I feel ___")
+    syntactically varies (en post-verbal complement; some
+    Romance languages use different copula). Particularly
+    valuable for multilingual classrooms where feelings-
+    expression in home-language may precede school-language
+    expression.
+
+curriculumStandards:
+  - CASEL-Self-Awareness
+  - EYFS.ELG.PSED.SR
+  - IB-PYP.WhoWeAre
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Name 6 of 8 basic feeling-words correctly when shown
+        feeling-face in 7 of 10 trials.
+      - Use sentence-frame "I feel ___ when ___" correctly in 6
+        of 10 trials.
+      - Match scenario to most-likely feeling in 7 of 10 trials.
+      - Identify own current feeling using 4+ feeling-words
+        accurately in self-check.
+
+    Differentiation:
+    - Pre-K: 4 basic feelings only (happy, sad, angry, scared);
+      receptive vocabulary.
+    - K: 6-8 feelings with sentence-frame.
+    - Grade 1+: extend to nuanced feelings + emotion-regulation
+      strategies + bridge to conflict-resolution + empathy work.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

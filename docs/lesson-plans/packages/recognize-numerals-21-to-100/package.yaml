@@ -1,0 +1,238 @@
+# Teaching package — recognize numerals 21 to 100
+# Arc 15 Phase 2 (math / numeral-recognition 1/4 → 2/4; deepens Arc 15 Phase 1 foundation).
+
+targetSlug: recognize-numerals-21-to-100
+language: en
+title:
+  en: "Numerals 21-100 — recognizing bigger written numbers"
+description:
+  en: "Grade 1 / Grade 2 math package extending numeral-recognition from 1-20 (Arc 15 Phase 1 recognize-numerals-1-to-20) to 21-100. Builds directly on Phase 1 foundation. Critical scaling work — kids extend numeral-recognition from one-and-two-digit range to full two-digit range. Foundation for hundred-chart navigation + extended-counting work + place-value-aware number-reading. Numeral-recognition strand: 1/4 → 2/4 at Phase 2 close. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook + extended-range introduction. Teacher
+      displays a hundreds-chart (10x10 grid of numbers 1-100).
+      "We already know numerals 1-20. Now let's see numerals 21
+      all the way to 100! See the pattern? Each row goes UP by
+      1, each column going DOWN goes UP by 10." Teacher points
+      to numerals: "Find the 25! Find the 47! Find the 100!"
+      Kids point to corresponding numerals. Pattern emphasis:
+      "Once you know the TEN (the first digit), you can find any
+      number by counting the ONE (second digit)."
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + numeral-recognition routine. Each pair receives
+      20 numeral cards (random subset from 21-100) + a hundreds-
+      chart. Pair takes turns: kid A picks a numeral card; kid B
+      finds the numeral on the hundreds-chart. Recast errors with
+      pattern reminder ("you're looking for 47. The tens digit is
+      4, so find the row that starts with 41. Then count over —
+      47 is the 7th number in that row."). Differentiate by range
+      — Pre-K kids work 21-50; K kids work 21-100.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching worksheet (numeral
+      to quantity-representation: 45 ↔ specific quantity arrangement).
+      Station 2: pattern-train worksheet (sequence numerals in
+      counting-by-1, counting-by-5, or counting-by-10 patterns).
+      Station 3: missing-pieces worksheet (number sequence with
+      one numeral missing — kid identifies which numeral is
+      missing). Station 4: more-less worksheet (compare two-digit
+      numbers using ranking).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class numeral-quiz. Teacher displays random numerals
+      21-100; class collectively reads each. "Number 45! Number
+      67! Number 89! Number 100!" Forward-pointer: "Today we
+      recognized numerals 21-100. When we come back next, we can
+      recognize THREE-DIGIT numerals (100-999) + start WRITING
+      these numerals on our own + read them in different
+      contexts!"
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 12, themeSelect: miscellaneous, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: pattern-train
+    exerciseMode: unified
+    customizationParameters: { themeSelect: miscellaneous, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: missing-pieces
+    exerciseMode: unified
+    customizationParameters: { themeSelect: miscellaneous, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: more-less
+    exerciseMode: number-result
+    customizationParameters: { mode: number-result, maxNumber: 100, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: pattern-train
+    exerciseMode: unified
+    customizationParameters: { themeSelect: miscellaneous, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: miscellaneous
+      cardCount: 80
+      cardsPerPage: 10
+      colorMode: color
+      labelDisplay: numeral
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: miscellaneous
+      cardCount: 40
+      cardsPerPage: 8
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: hundreds-chart-mat
+    customizationParameters:
+      rangeMin: 1
+      rangeMax: 100
+      gridLayout: 10x10
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: numeral-recognition-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: miscellaneous
+      stripCount: 20
+      stripsPerPage: 10
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: miscellaneous
+      mode: numeral-cards
+      itemCount: 80
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: miscellaneous
+      pictureCueCount: 6
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: math / numeral-recognition (numerals 21-100;
+    deepens Phase 1 foundation 1/4 → 2/4). Secondary strand:
+    numeracy (extended counting + hundreds-chart navigation).
+    Tertiary strand: cognitive-and-executive-function / pattern-
+    recognition (extending numeral-recognition from 1-20 to 21-
+    100 leverages tens-pattern).
+
+    Architectural significance: deepens numeral-recognition strand
+    from 1/4 to 2/4. Builds directly on Arc 15 Phase 1 recognize-
+    numerals-1-to-20 foundation. Critical scaling work — extends
+    numeral-recognition from one-and-two-digit range to full two-
+    digit range. Foundation for hundred-chart navigation +
+    extended-counting + place-value-aware reading.
+
+    Distinctive composition: 1 matching + 2 pattern-train + 1
+    missing-pieces + 1 more-less. Pattern-recognition emphasized;
+    hundreds-chart context anchored throughout.
+
+    Class B FLEXIBLE substrate: composes against miscellaneous
+    theme; numeral-recognition uses abstract numerical
+    representation. Hundreds-chart-mat material is the canonical
+    extended-range substrate.
+
+    K-3 multilingual classroom relevance: numeral SYMBOLS are
+    universal across 11 platform locales (Hindu-Arabic). Number
+    WORDS for 21-100 vary significantly: en (twenty-one to one-
+    hundred); es (veintiuno-veinticuatro; treinta-cuarenta-
+    cincuenta-sesenta...); de (einundzwanzig...; reverse-decade
+    pattern); fi (kaksikymmentäyksi...; agglutinative). Locale-
+    variant work at Phase 3+ adapts to each locale's number-word
+    system in the 21-100 range.
+
+curriculumStandards:
+  - CCSS.1.NBT.A.1
+  - CCSS.1.NBT.B.3
+  - CCSS.2.NBT.A.2
+  - EYFS.ELG.MATH.NUM
+  - IB-PYP.HowTheWorldWorks
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Recognize 21-100 numerals by name in 7 of 10 trials.
+      - Match numeral to position on hundreds-chart in 7 of 10
+        trials.
+      - Identify missing numeral in sequence (44, 45, ?, 47, 48)
+        in 6 of 10 trials.
+      - Order 5 random two-digit numerals from smallest to
+        largest in 6 of 10 trials.
+
+    Differentiation:
+    - Pre-K: skip 21-100; review numerals-1-to-20.
+    - K: numerals 21-50 only.
+    - Grade 1: full numerals 21-100 fluent.
+    - Grade 2+: extend to numerals 100-999 + bridge to writing-
+      multi-digit-numerals + place-value-aware reading.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

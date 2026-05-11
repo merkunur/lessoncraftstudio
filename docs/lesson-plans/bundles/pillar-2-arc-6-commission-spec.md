@@ -5,7 +5,7 @@
 **Estimated phases:** 3 sub-commits per arc (mirroring Arc 3-4-5 shape)
 **Estimated LoC:** ~1500-2500
 **Estimated sessions:** 1-2
-**Status: DRAFT — operator ratification pending at Pillar 2 Arc 5 Phase 3 close.**
+**Status: RATIFIED 2026-05-11 — operator selected Shape A (continued bundle expansion) via AskUserQuestion at Phase 2 close paired adjudication. Theme picks adjudicator-forward per CC selection from candidate themes; operator override at glance-review surface only.**
 
 ## 1. Context
 

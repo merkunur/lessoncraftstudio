@@ -1,0 +1,83 @@
+# Pillar 2 Arc 4 Phase 2 themed bundle — Beach
+# Theme-anchored bundle composing 4 beach-themed teaching packages
+# spanning vocabulary + sensory + activity + cognitive sorting.
+
+bundleSlug: beach
+themeAxisKey: beach
+language: en
+
+title:
+  en: "Beach — K-3 Themed Bundle"
+
+description:
+  en: "Comprehensive K-3 bundle centered on beach + seaside vocabulary spanning equipment + activities + sensory experience + cognitive sorting. 4 packages span vocabulary-acquisition (identify-and-name-clothing — beach-specific clothing: swimsuit, sun hat, flip-flops; identify-and-name-action-verbs — beach actions: swim, dig, build sandcastle, splash) + cognitive sorting (sort-by-color — beach colors: blue water, yellow sand, multi-color seashells; identify-and-name-foods — beach picnic foods: ice cream, sandwiches, watermelon, juice). Cross-strand seasonal/outdoor bundle pairing with summer-bundle (Pillar 2 Arc 4 Phase 1) — beach activities are canonical summer-context experience. Suitable for a 4-week classroom unit on summer + ocean awareness + family-beach-day activities."
+
+thumbnailUrl: "/bundles/beach-thumbnail.png"
+
+status: draft
+
+teachingPackageSlugs:
+  - identify-and-name-clothing
+  - identify-and-name-action-verbs
+  - sort-by-color
+  - identify-and-name-foods
+
+deckIds: []
+lessonPlanIds: []
+
+thematicCoherence:
+  en: |
+    All 4 packages cohere around the beach theme + form a
+    cross-strand bundle anchored at seaside-context vocabulary +
+    sensory + activity work.
+
+    **Pedagogical sequencing:**
+    1. **identify-and-name-clothing** — Beach clothing vocabulary
+       (swimsuit, sun hat, flip-flops, sunglasses, beach cover-up).
+       Distinct from winter/summer clothing context. Same shared
+       package across clothing + winter + summer + spring + beach
+       (5 bundles).
+    2. **identify-and-name-action-verbs** — Beach action verbs
+       (swim, dig, build sandcastle, splash, surf, sunbathe).
+       Same shared package across occupations + toys + pets +
+       birds + camping + dinosaurs + beach (7 bundles). Action-
+       verbs continues universally-composable across activity-
+       context bundles.
+    3. **sort-by-color** — Cognitive sorting using beach color
+       palette (blue water, yellow sand, multi-color shells,
+       white foam, red sun-hat, orange beach-ball). Same shared
+       package across fruits + vegetables + flowers + ocean-life
+       + colors + beach (6 bundles). Color-sorting continues
+       reliable cross-bundle anchor.
+    4. **identify-and-name-foods** — Beach-context food vocabulary
+       (ice cream, watermelon, sandwiches, juice, salty snacks).
+       Same shared package across breakfast + kitchen-tools +
+       camping + beach (4 bundles). Foods context varies per
+       bundle setting; beach foods canonical "summer-treats"
+       category.
+
+    **Strand spread:** 2 vocabulary-acquisition (clothing + foods)
+    + 1 action-vocabulary (action verbs) + 1 cognitive-sorting
+    (color). 4 distinct strands; cross-strand pattern.
+
+    **Suggested unit duration:** 4 weeks (1 package per week).
+    Beach-day extension activities + ocean awareness + family
+    beach-trip conversation prompts natural fit. Pairs naturally
+    with summer-bundle for sustained-context unit work.
+
+    **Multilingual classroom relevance:** beach vocabulary
+    varied across 11 platform locales — Romance distinct
+    (playa / plage / spiaggia) + Germanic distinct (Strand /
+    strand / strand — Germanic common). Universal seaside-
+    activity relevance for K-3 students in coastal regions.
+
+    **Pillar 2 architectural pattern:** beach-bundle exemplifies
+    seasonal/outdoor-activity cross-strand bundle composition,
+    pairing with summer-bundle for summer-context unit work.
+    Demonstrates that theme-axis-key narrow (beach as specific
+    setting) supports niche-audience pedagogical work alongside
+    broader seasonal anchors (summer). Beach-bundle is 4th
+    seasonal/outdoor cluster bundle (winter + summer + spring +
+    beach); pattern shows bundle catalog growth covers both
+    abstract-seasonal (4 cardinal seasons) + specific-context
+    (beach, camping) cluster dimensions.

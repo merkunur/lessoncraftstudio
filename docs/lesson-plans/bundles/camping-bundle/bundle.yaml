@@ -1,0 +1,75 @@
+# Pillar 2 Arc 4 Phase 2 themed bundle — Camping
+# Theme-anchored bundle composing 4 camping-themed teaching packages
+# spanning outdoor-activity vocabulary + spatial reasoning + nature.
+
+bundleSlug: camping
+themeAxisKey: camping
+language: en
+
+title:
+  en: "Camping — K-3 Themed Bundle"
+
+description:
+  en: "Comprehensive K-3 bundle centered on camping + outdoor-activity vocabulary spanning equipment + nature + spatial reasoning + survival concepts. 4 packages span vocabulary-acquisition (identify-and-name-foods — campfire/trail-mix foods; identify-and-name-action-verbs — camping actions: pitch tent, hike, fish, build-fire) + spatial vocabulary (use-spatial-position-words — where camping items go: tent BEHIND tree; sleeping bag INSIDE tent) + cognitive sorting (sort-by-category — camping essentials vs household items). Cross-strand outdoor-activity bundle. Suitable for a 4-week classroom unit on outdoor exploration + nature + summer-prep activities; supports K-3 multilingual classrooms with outdoor-extension activities + family-camping conversation prompts."
+
+thumbnailUrl: "/bundles/camping-thumbnail.png"
+
+status: draft
+
+teachingPackageSlugs:
+  - identify-and-name-foods
+  - identify-and-name-action-verbs
+  - use-spatial-position-words
+  - sort-by-category
+
+deckIds: []
+lessonPlanIds: []
+
+thematicCoherence:
+  en: |
+    All 4 packages cohere around the camping theme + form a
+    cross-strand bundle anchored at outdoor-activity context.
+
+    **Pedagogical sequencing:**
+    1. **identify-and-name-action-verbs** — Camping action verbs
+       (pitch tent, hike, build fire, fish, paddle, hike, climb,
+       cook). Anchor for camping-activity vocabulary. Same shared
+       package across occupations + toys + pets + birds + camping
+       (5 bundles).
+    2. **identify-and-name-foods** — Camping/outdoor food
+       vocabulary (s'mores, hot dogs, trail mix, hot chocolate,
+       sandwiches, fruits). Cross-context food vocabulary
+       different from kitchen-prep context. Same shared package
+       with breakfast-bundle + kitchen-tools-bundle + camping.
+    3. **use-spatial-position-words** — Spatial vocabulary
+       (in, on, under, behind, between, near) practiced in
+       camping-context settings (tent IN the clearing; sleeping
+       bag INSIDE the tent; rocks UNDER the campfire). Same
+       shared package with occupations-bundle.
+    4. **sort-by-category** — Category-classification work
+       distinguishing camping essentials (tent, flashlight,
+       sleeping bag) from household items (TV, sofa, refrigerator).
+       Same shared package across breakfast + kitchen-tools +
+       forest-creatures + camping (4 bundles).
+
+    **Strand spread:** 2 vocabulary-acquisition (action-verbs +
+    foods) + 1 spatial-vocabulary + 1 cognitive-sorting. 4
+    distinct strands; cross-strand pattern.
+
+    **Suggested unit duration:** 4 weeks (1 package per week).
+    Family-camping conversation prompts + nature-walk + outdoor-
+    classroom extensions natural fit.
+
+    **Multilingual classroom relevance:** camping vocabulary
+    varied across 11 platform locales — Romance distinct
+    (acampar / camper / accampare) + Germanic distinct (Camping
+    / kamperen / camping; Germanic borrows en "camping" widely).
+    Universal outdoor-activity relevance for K-3 students in
+    family-camping cultures.
+
+    **Pillar 2 architectural pattern:** camping-bundle exemplifies
+    outdoor-activity cross-strand bundle composition. First
+    outdoor-activity-themed bundle on the platform; precedent for
+    similar contexts (beach, hiking, picnic, gardening). Theme-
+    axis-key narrow (specific activity-context) supports niche-
+    audience pedagogical work.

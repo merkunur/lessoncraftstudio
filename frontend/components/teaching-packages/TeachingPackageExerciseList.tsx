@@ -1,9 +1,16 @@
 import { getTranslations } from 'next-intl/server';
 import type { TeachingPackage, ComposedExercise } from '@/lib/teaching-packages/teaching-package-loader';
+import { fetchDecksForAxis, type TopicDeckSummary } from '@/lib/topic-decks';
 
 interface Props {
   pkg: TeachingPackage;
   locale: string;
+}
+
+function localizedTitle(title: unknown, locale: string): string {
+  if (!title || typeof title !== 'object') return '';
+  const obj = title as Record<string, string>;
+  return obj[locale] || obj.en || Object.values(obj)[0] || '';
 }
 
 function formatParameters(params: Record<string, unknown> | undefined): string {
@@ -14,11 +21,43 @@ function formatParameters(params: Record<string, unknown> | undefined): string {
     .join(' · ');
 }
 
+/**
+ * Pick a representative deck for an exercise. Tries:
+ *   1. Match exact (exerciseType, exerciseMode) if mode present in package
+ *   2. Match exerciseType only (first available)
+ * Returns null if no published deck found in locale catalog.
+ */
+function pickSampleDeck(
+  decks: TopicDeckSummary[],
+  exerciseMode: string | undefined
+): TopicDeckSummary | null {
+  if (decks.length === 0) return null;
+  if (exerciseMode) {
+    const exact = decks.find((d) => d.exerciseMode === exerciseMode);
+    if (exact) return exact;
+  }
+  return decks[0];
+}
+
 export default async function TeachingPackageExerciseList({ pkg, locale }: Props) {
   const t = await getTranslations({ locale, namespace: 'teachingPackagePage.exercises' });
   const exercises = [...pkg.composedExercises].sort((a, b) => a.ordering - b.ordering);
 
   if (exercises.length === 0) return null;
+
+  // Fetch sample decks per unique appName (deduped to single DB query per app)
+  const uniqueApps = Array.from(new Set(exercises.map((e) => e.appName)));
+  const deckMap = new Map<string, TopicDeckSummary[]>();
+  await Promise.all(
+    uniqueApps.map(async (app) => {
+      try {
+        const decks = await fetchDecksForAxis('exercise-type', app, locale);
+        deckMap.set(app, decks);
+      } catch {
+        deckMap.set(app, []);
+      }
+    })
+  );
 
   return (
     <section className="mb-10">
@@ -29,32 +68,67 @@ export default async function TeachingPackageExerciseList({ pkg, locale }: Props
         {t('subheading', { count: exercises.length })}
       </p>
       <ol className="space-y-3">
-        {exercises.map((ex: ComposedExercise) => (
-          <li
-            key={ex.ordering}
-            className="p-4 rounded-md border border-cream-300 bg-white"
-          >
-            <header className="flex items-center justify-between mb-2 gap-3 flex-wrap">
-              <h3 className="font-display font-semibold text-ink-900 flex items-center gap-2">
-                <span className="text-sage-600 font-mono">{ex.ordering}.</span>
-                <span>{ex.appName}</span>
-                {ex.exerciseMode && (
-                  <span className="text-xs text-ink-500 font-normal font-mono">
-                    [{ex.exerciseMode}]
-                  </span>
+        {exercises.map((ex: ComposedExercise) => {
+          const decks = deckMap.get(ex.appName) || [];
+          const sample = pickSampleDeck(decks, ex.exerciseMode);
+          const deckUrl = sample ? `/${locale}/decks/${sample.slug}/` : null;
+          const topicUrl = `/${locale}/topic/${ex.appName}`;
+          const sampleTitle = sample ? localizedTitle(sample.title, locale) : null;
+
+          return (
+            <li
+              key={ex.ordering}
+              className="rounded-md border border-cream-300 bg-white overflow-hidden hover:border-sage-400 transition"
+            >
+              <a
+                href={deckUrl ?? topicUrl}
+                className="flex flex-col sm:flex-row gap-4 p-4 group"
+              >
+                {sample?.thumbnailUrl ? (
+                  <img
+                    src={sample.thumbnailUrl}
+                    alt=""
+                    className="w-full sm:w-32 h-32 object-cover rounded border border-cream-200 bg-cream-50 flex-shrink-0"
+                    loading="lazy"
+                  />
+                ) : (
+                  <div className="w-full sm:w-32 h-32 rounded border border-cream-200 bg-cream-100 flex items-center justify-center text-ink-400 text-xs text-center px-2 flex-shrink-0">
+                    {t('noSamplePreview')}
+                  </div>
                 )}
-              </h3>
-              <span className="inline-flex items-center px-2 py-0.5 rounded-full bg-terracotta-100 text-terracotta-700 text-xs font-medium">
-                {ex.pedagogicalRole}
-              </span>
-            </header>
-            {ex.customizationParameters && (
-              <p className="text-xs text-ink-600 font-mono mt-1 break-all">
-                {formatParameters(ex.customizationParameters)}
-              </p>
-            )}
-          </li>
-        ))}
+                <div className="flex-1 min-w-0">
+                  <header className="flex items-center justify-between mb-2 gap-3 flex-wrap">
+                    <h3 className="font-display font-semibold text-ink-900 flex items-center gap-2 flex-wrap">
+                      <span className="text-sage-600 font-mono">{ex.ordering}.</span>
+                      <span className="group-hover:text-sage-700 transition">{ex.appName}</span>
+                      {ex.exerciseMode && (
+                        <span className="text-xs text-ink-500 font-normal font-mono">
+                          [{ex.exerciseMode}]
+                        </span>
+                      )}
+                    </h3>
+                    <span className="inline-flex items-center px-2 py-0.5 rounded-full bg-terracotta-100 text-terracotta-700 text-xs font-medium">
+                      {ex.pedagogicalRole}
+                    </span>
+                  </header>
+                  {sampleTitle && (
+                    <p className="text-sm text-ink-700 mb-2 line-clamp-2">
+                      {t('sampleLabel')}: {sampleTitle}
+                    </p>
+                  )}
+                  {ex.customizationParameters && (
+                    <p className="text-xs text-ink-500 font-mono break-all">
+                      {formatParameters(ex.customizationParameters)}
+                    </p>
+                  )}
+                  <p className="text-xs text-sage-600 mt-2 font-medium">
+                    {deckUrl ? t('openDeck') : t('viewTopic')} →
+                  </p>
+                </div>
+              </a>
+            </li>
+          );
+        })}
       </ol>
     </section>
   );

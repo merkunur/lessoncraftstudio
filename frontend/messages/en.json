@@ -1193,6 +1193,10 @@
     "exercises": {
       "heading": "Composed exercises",
       "subheading": "{count} worksheet exercises from the catalog apps",
+      "sampleLabel": "Sample",
+      "openDeck": "Open the sample deck",
+      "viewTopic": "View topic page",
+      "noSamplePreview": "No sample published yet",
       "role": {
         "introduction": "Introduction",
         "practice": "Practice",
@@ -1203,6 +1207,16 @@
     "materials": {
       "heading": "Printable materials",
       "subheading": "{count} printable items for classroom use",
+      "availableBelow": "Available below",
+      "status": {
+        "shipped": "Shipped",
+        "deferred": "Deferred",
+        "substrate-gap": "Generator pending"
+      },
+      "statusDescription": {
+        "deferred": "Material spec exists; generator deferred to a later commission cycle.",
+        "substrate-gap": "Material spec exists in materials-catalog.json; runtime generator not yet built."
+      },
       "role": {
         "vocabulary-anchor": "Vocabulary anchor",
         "production-prompt": "Production prompt",

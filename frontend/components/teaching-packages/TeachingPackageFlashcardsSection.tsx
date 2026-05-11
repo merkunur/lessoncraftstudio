@@ -17,7 +17,7 @@ export default function TeachingPackageFlashcardsSection({ locale, packageSlug }
   const t = useTranslations('teachingPackagePage.flashcards');
 
   return (
-    <section className="mb-10">
+    <section id="flashcards" className="mb-10 scroll-mt-6">
       <h2 className="font-display text-xl font-semibold text-ink-900 mb-1">
         {t('heading')}
       </h2>

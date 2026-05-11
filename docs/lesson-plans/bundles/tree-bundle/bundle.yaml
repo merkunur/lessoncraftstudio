@@ -1,0 +1,95 @@
+# Pillar 2 Arc 5 Phase 1 themed bundle — Tree
+# Theme-anchored bundle composing 5 tree-themed teaching packages spanning
+# biology + vocabulary + counting + seasonal-changes + plant-life-cycle.
+
+bundleSlug: tree
+themeAxisKey: tree
+language: en
+
+title:
+  en: "Trees — K-3 Themed Bundle"
+
+description:
+  en: "Comprehensive K-3 bundle centered on trees as biological + seasonal anchor for cross-strand work. 5 packages span vocabulary-acquisition (identify-plant-parts — trunk, branch, leaf, root, bark, fruit, seed) + biology (describe-plant-life-cycle — seed, sprout, sapling, mature tree, fruit) + seasonal-cognition (identify-four-seasons — trees change appearance through spring/summer/autumn/winter) + numeracy (count-objects-1-to-10 — counting leaves, branches, apples, pinecones) + cognitive-sorting (sort-by-category — deciduous vs evergreen). Cross-strand biology/seasonal bundle anchored in tree context — particularly suited for outdoor-nature walks + classroom nature-corner + seasonal-change observation across the school year. Suitable for a 4-5 week classroom unit; supports K-3 multilingual classrooms with outdoor-education + environmental-awareness extensions."
+
+thumbnailUrl: "/bundles/tree-thumbnail.png"
+
+status: draft
+
+teachingPackageSlugs:
+  - identify-plant-parts
+  - describe-plant-life-cycle
+  - identify-four-seasons
+  - count-objects-1-to-10
+  - sort-by-category
+
+deckIds: []
+lessonPlanIds: []
+
+thematicCoherence:
+  en: |
+    All 5 packages cohere around the tree theme + form a cross-strand
+    progression from vocabulary through biology + seasonal-cognition
+    to numeracy and classification.
+
+    **Pedagogical sequencing:**
+    1. **identify-plant-parts** — Foundational tree-part vocabulary
+       (trunk, branch, leaf, root, bark, fruit, seed). Same shared
+       package with flowers-bundle (cross-bundle reuse) — trees +
+       flowers share plant-part anatomy.
+    2. **describe-plant-life-cycle** — Biology work tracing seed →
+       sprout → sapling → mature tree → fruit/seed regeneration cycle.
+       Same shared package with flowers-bundle + vegetables-bundle.
+       Trees particularly load-bearing for life-cycle (longer cycle
+       than annual plants; kids can observe the same tree across
+       multiple school years).
+    3. **identify-four-seasons** — Seasonal-cognition work using
+       trees as observable seasonal anchor (deciduous trees: green
+       in spring, full leaves in summer, color-change in autumn,
+       bare in winter; evergreens stay constant — productive
+       contrast). Same shared package with winter-bundle + summer-
+       bundle + spring-bundle + beach-bundle.
+    4. **count-objects-1-to-10** — Counting practice using tree
+       items as countable subjects (5 leaves; 3 acorns; 7 pinecones;
+       8 apples on a branch). Same shared package with fruits-bundle
+       + flowers-bundle + insects-bundle + ocean-life-bundle +
+       breakfast-bundle.
+    5. **sort-by-category** — Category-classification work
+       distinguishing deciduous vs evergreen trees; or fruit-bearing
+       vs non-fruit-bearing; or tree-vs-bush-vs-vine. Connects tree
+       vocabulary to broader plant-classification reasoning.
+
+    **Strand spread:** 1 vocabulary-acquisition (plant-parts) + 1
+    living-things (life-cycle) + 1 environment-and-weather
+    (seasons) + 1 numeracy + 1 cognitive-sorting. **5 distinct
+    strands.** Cross-strand biology/seasonal bundle pattern parallel
+    to insects-bundle (biology + counting + sorting + vocab) but
+    extending to seasonal-cognition.
+
+    **Suggested unit duration:** 4-5 weeks (1 package per week).
+    Year-round relevance; particularly load-bearing in early autumn
+    (back-to-school + leaf-color observation) or early spring
+    (bud-emergence + sapling observation).
+
+    **Multilingual classroom relevance:** tree vocabulary is
+    universally K-3-relevant across all 11 platform locales.
+    Cognate-rich Romance (árbol / arbre / albero / árvore); Germanic
+    distinct (Baum / boom / träd / træ / tre / puu); Finnish unique
+    (puu — short word; same word as "wood"). Specific tree species
+    vary by locale (oak / Eiche / roble / chêne / quercia / carvalho;
+    pine / Kiefer / pino / pin / pino / pinheiro). Universal
+    classroom-relevance — every K-3 classroom has access to trees as
+    outdoor-observation anchor regardless of locale.
+
+    **Pillar 2 architectural pattern:** tree-bundle exemplifies
+    seasonal-adjacent biological-anchor bundle composition. Theme-
+    axis-key tree-as-biological-entity (vs winter-bundle which
+    anchors at seasonal-context); two-dimension complement.
+    Companion bundles (flowers-bundle + vegetables-bundle) share
+    plant-life-cycle but differ at theme-axis-key (annual plants vs
+    long-lived trees). Tree-bundle is autumn-adjacent (deciduous
+    leaf-color change is autumn anchor) without requiring autumn-
+    bundle themeAxisKey registration. Substitutes structurally for
+    autumn-bundle in the seasonal-quartet template (winter-bundle +
+    spring-bundle + summer-bundle + tree-bundle as autumn-adjacent
+    4th seasonal anchor).

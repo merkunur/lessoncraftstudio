@@ -1,0 +1,83 @@
+# Pillar 2 Arc 5 Phase 1 themed bundle — Music
+# Theme-anchored bundle composing 4 music-themed teaching packages spanning
+# vocabulary + pattern-recognition + counting + cognitive-sorting.
+# 1st cultural-arts bundle on the platform.
+
+bundleSlug: music
+themeAxisKey: music
+language: en
+
+title:
+  en: "Music — K-3 Themed Bundle"
+
+description:
+  en: "K-3 bundle centered on music as cultural-arts anchor for cross-strand work. 4 packages span vocabulary-acquisition (identify-and-name-action-verbs — sing, clap, play, dance, listen + music-specific instrument verbs) + pattern-recognition (recognize-and-extend-patterns — rhythmic patterns: clap-clap-pause; loud-soft-loud-soft) + numeracy (count-objects-1-to-10 — counting beats, instruments, musicians, notes) + cognitive-sorting (sort-by-category — string vs percussion vs wind instruments OR loud vs soft sounds). 1st cultural-arts bundle on the platform — extends Pillar 2 catalog beyond animals + seasonal + daily-life clusters into expressive-arts territory. Suitable for a 4-week classroom unit; supports K-3 multilingual classrooms with classroom-music + cultural-celebration + auditory-literacy extensions."
+
+thumbnailUrl: "/bundles/music-thumbnail.png"
+
+status: draft
+
+teachingPackageSlugs:
+  - identify-and-name-action-verbs
+  - recognize-and-extend-patterns
+  - count-objects-1-to-10
+  - sort-by-category
+
+deckIds: []
+lessonPlanIds: []
+
+thematicCoherence:
+  en: |
+    All 4 packages cohere around the music theme + form a cross-strand
+    progression from action vocabulary through pattern-recognition to
+    counting and categorization.
+
+    **Pedagogical sequencing:**
+    1. **identify-and-name-action-verbs** — Foundational music-action
+       vocabulary (sing, clap, play, dance, listen, drum, strum, blow).
+       Highly shared cross-bundle package (~7 bundles use this package);
+       music-context substantiates verb-vocabulary acquisition with
+       concrete embodied actions. Productive vocabulary work — kids
+       perform the action while naming it.
+    2. **recognize-and-extend-patterns** — Pattern-recognition work
+       applied to rhythmic patterns (clap-clap-pause; loud-soft-loud-
+       soft; high-low-high-low). Music as kinesthetic substrate for
+       abstract pattern-cognition — easier than visual-pattern work for
+       many K-3 learners. Bridges pattern-recognition strand into
+       auditory + multi-sensory modalities.
+    3. **count-objects-1-to-10** — Counting practice using music-themed
+       countable subjects (4 beats, 3 drums, 5 musicians, 8 musical
+       notes). Same shared package across many bundles; music-context
+       enables embodied counting (counting claps while clapping).
+    4. **sort-by-category** — Category-classification work distinguishing
+       string vs percussion vs wind instruments OR loud vs soft sounds
+       OR fast vs slow tempo. Connects music vocabulary to broader
+       attribute-classification reasoning.
+
+    **Strand spread:** 1 vocabulary-acquisition (action-verbs) + 1
+    pattern-recognition + 1 numeracy + 1 cognitive-sorting. **4 distinct
+    strands.** First cultural-arts bundle — precedent for sports-bundle +
+    dance-bundle + arts-bundle future candidates.
+
+    **Suggested unit duration:** 4 weeks (1 package per week). Music-
+    classroom integration natural; particularly load-bearing during
+    cultural-celebration weeks (school music performance; cultural
+    holidays with music traditions).
+
+    **Multilingual classroom relevance:** music vocabulary cognate-rich
+    Romance (música / musique / musica); Germanic distinct (Musik / muziek
+    / musik / musiikki). Specific instrument vocabulary varies across
+    locales (guitar / Gitarre / chitarra / kitara) but many follow cognate
+    patterns from Italian-via-Latin musical-tradition. Particularly
+    relevant for international school contexts where music is part of
+    multicultural curriculum — kids bring instrument vocabulary from
+    home languages enriching classroom inventory.
+
+    **Pillar 2 architectural pattern:** music-bundle exemplifies cultural-
+    arts cross-strand bundle composition. Theme-axis-key music-as-cultural-
+    domain (vs occupations-bundle which anchors at adult-role-identity);
+    first arts-themed bundle on the platform. Companion bundles for arts
+    cluster (dance-bundle + arts-bundle + sports-bundle candidates) would
+    parallel this pattern for future Arcs. Demonstrates that Pillar 2
+    bundle catalog extends naturally into expressive-domain themes beyond
+    biological + seasonal + daily-life-routine clusters.

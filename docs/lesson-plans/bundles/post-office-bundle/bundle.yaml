@@ -1,0 +1,103 @@
+# Pillar 2 Arc 5 Phase 1 themed bundle — Post office
+# Theme-anchored bundle composing 5 post-office-themed teaching packages
+# spanning vocabulary + community-roles + writing + counting + cognitive-
+# sorting. Community-context cluster anchor.
+
+bundleSlug: post-office
+themeAxisKey: post_office
+language: en
+
+title:
+  en: "Post Office — K-3 Themed Bundle"
+
+description:
+  en: "K-3 bundle centered on post-office as community-context anchor for cross-strand work. 5 packages span vocabulary-acquisition (identify-and-name-action-verbs — write, send, deliver, stamp, mail, address + post-office-specific verbs) + community-roles (identify-community-helpers — mail-carrier, postal-clerk, stamp-vendor as post-office workers) + emerging-literacy (label-with-noun-phrase — label items: 'a red envelope', 'a small stamp', 'a brown package') + numeracy (count-objects-1-to-10 — counting stamps, envelopes, packages, mailboxes) + cognitive-sorting (sort-by-category — letters vs packages vs postcards; or by destination). Cross-strand community-context bundle with strong real-world classroom-trip + cultural-bridge (mail across borders for multilingual families) extensions. Suitable for a 4-5 week classroom unit; supports K-3 multilingual classrooms with letter-writing + family-correspondence + community-awareness extensions."
+
+thumbnailUrl: "/bundles/post-office-thumbnail.png"
+
+status: draft
+
+teachingPackageSlugs:
+  - identify-and-name-action-verbs
+  - identify-community-helpers
+  - label-with-noun-phrase
+  - count-objects-1-to-10
+  - sort-by-category
+
+deckIds: []
+lessonPlanIds: []
+
+thematicCoherence:
+  en: |
+    All 5 packages cohere around the post-office theme + form a
+    cross-strand progression from action vocabulary through community-
+    roles + emerging-literacy to counting and categorization.
+
+    **Pedagogical sequencing:**
+    1. **identify-and-name-action-verbs** — Foundational post-office
+       action vocabulary (write, send, deliver, stamp, mail, address).
+       Same shared package with music-bundle + classroom-bundle +
+       multiple other bundles (~7 bundles use this package). Post-
+       office-context substantiates verb-vocabulary with concrete
+       transactional actions.
+    2. **identify-community-helpers** — Community-roles work
+       extending to post-office workers (mail-carrier, postal-clerk,
+       stamp-vendor, package-handler). Same shared package with
+       classroom-bundle + at-the-supermarket-bundle precedent;
+       post-office adds a distinctive community-helper subset (the
+       mail-carrier visits the school + neighborhood weekly — high
+       K-3 visibility).
+    3. **label-with-noun-phrase** — Emerging-literacy work labeling
+       items with descriptive noun-phrases ('a red envelope'; 'a
+       small stamp'; 'a brown package'; 'the heavy box'). Post-
+       office context provides concrete adjective + noun pairings
+       supporting noun-phrase syntax acquisition. Same package as
+       Arc 14 Phase 2 forward-pointer resolution.
+    4. **count-objects-1-to-10** — Counting practice using
+       post-office items as countable subjects (5 stamps; 3 packages;
+       7 envelopes; 4 mailboxes; 8 letters). Same shared package
+       across many bundles; post-office-context authentic real-
+       world transactional counting.
+    5. **sort-by-category** — Category-classification work
+       distinguishing letters vs packages vs postcards OR sorting
+       by destination (local vs nation-wide vs international).
+       Connects sorting strand to global-awareness work supporting
+       multilingual classroom contexts (mail crosses linguistic
+       borders for many K-3 multilingual-family kids).
+
+    **Strand spread:** 1 vocabulary-acquisition (action-verbs) + 1
+    community-and-roles + 1 emerging-literacy (noun-phrase) + 1
+    numeracy + 1 cognitive-sorting. **5 distinct strands.** Cross-
+    strand community-context bundle pattern parallel to classroom-
+    bundle (5-strand community context) + at-the-supermarket-bundle
+    (community + commerce). Distinguishes from classroom-bundle by
+    out-of-school community-context anchor; distinguishes from
+    at-the-supermarket-bundle by transactional-communication anchor
+    vs purchase-decision-making anchor.
+
+    **Suggested unit duration:** 4-5 weeks (1 package per week).
+    Natural fit with letter-writing weeks; particularly load-bearing
+    around holiday-season correspondence (sending cards, packages
+    to family in other countries — direct multilingual-family
+    relevance).
+
+    **Multilingual classroom relevance:** post-office vocabulary
+    cognate-rich Romance (oficina de correos / bureau de poste /
+    ufficio postale); Germanic distinct (Postamt / postkantoor /
+    postkontor); Finnish unique (posti — short word; same word as
+    "mail"). Particularly load-bearing for K-3 multilingual
+    classrooms with international families — many K-3 kids in
+    international + dual-language + bilingual programs maintain
+    family correspondence across borders. Mail-vocabulary
+    intersects with global-family-bridge work where K-3 kids learn
+    that mail crosses language boundaries.
+
+    **Pillar 2 architectural pattern:** post-office-bundle exemplifies
+    community-context cross-strand bundle composition. Theme-axis-key
+    community-context-post-office (vs classroom-bundle at school-
+    context; vs at-the-supermarket-bundle at shopping-context).
+    Companion bundles in community-context cluster (hospital-bundle,
+    fire-station-bundle, library-bundle, park-bundle candidates) would
+    parallel this pattern for future Arcs. Demonstrates that Pillar 2
+    bundle catalog scales naturally into out-of-school community
+    contexts for K-3 community-awareness curriculum integration.

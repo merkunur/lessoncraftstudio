@@ -3508,6 +3508,47 @@ Curl-spot-check at deploy boundary catches all four classes with bounded effort 
 
 Origin: Pillar 4 Arc 2 Phase 4 + Brief B Phase 1 + (μ) Phase 2 retrofit production-canonical-path verification audit-trail; codified at Phase 6 fold.
 
+#### A.13.29 Ground-truth source-citation discipline for behavior-describing content
+
+When authoring content (prose templates, per-mode explanations, UI-mechanic guidance, kid-interaction descriptions, correct-answer-shape summaries) that describes the BEHAVIOR of an external component the author has not directly observed, the content MUST cite the source code it was verified against. Behavior-describing content authored from mental-model assumption alone is a defect class equivalent to TypeScript `any`: structurally permitted, semantically wrong.
+
+**How to apply (any commission authoring behavior-describing content):**
+
+1. **Phase 1 MUST verify against actual source code BEFORE authoring.** Launch an Explore agent (or direct Read+Grep) against `REFERENCE APPS/<app>.html` or the equivalent source file. Identify: mode dispatch (which params trigger which rendering); kid interaction (tap | circle | write | draw line | drag); answer shape; visual feedback; correctness criteria.
+2. **Cite source per entry.** Every per-entry comment block MUST carry:
+   ```
+   // Verified against: REFERENCE APPS/<app>.html lines X-Y
+   // Mode dispatch: <which params trigger which rendering>
+   // Kid interaction: <tap | circle | write | draw line | drag>
+   // Audited <YYYY-MM-DD> against actual app source.
+   ```
+3. **Empty-citation OR missing-comment-block = defect.** Reviewer (operator OR self-audit) rejects on sight. Same severity as a TypeScript `any` or a missing test for a new code path.
+4. **Re-verify on source change.** When the cited source component's rendering logic changes, grep for the cited line range; if shifted, re-audit the rendering behavior; update template prose + citation line range. Stale citations are silent drift accumulators.
+
+**Cross-references (verification-hygiene doctrine family):**
+
+- §A.13.6 spec-vs-shipped-contract validation (code+spec layer)
+- §A.13.14 Phase 1 Explore-agent fidelity validation (exploration-quality layer)
+- §A.13.21 Operator-pre-recommendation substrate verification (input boundary layer)
+- §A.13.22 Audit-doc-vs-canonical-state divergence (audit-document layer)
+- §A.13.29 (this section) — behavior-description layer
+
+**Empirical anchor:** Sub-Phase 2.4 commit `7eac8f50` (25th §A.13.6 firing). Pre-fix state: `exercise-answer-templates.ts` shipped 10 per-(appName, exerciseMode) prose templates authored assumption-based. Phase 1 Explore audit ground-truthed all 10 against actual `REFERENCE APPS` source; 4 of 10 templates DRIFTED — `find-and-count` (assumed per-row counting; actual is category-counting with legend blanks), `more-less` (assumed circle-the-group; actual is tap one of three symbol buttons >, <, =), `word-guess` (used wrong param name "clue-density" as content descriptor; actual `difficulty` parameter sets letter-reveal ratio), `odd-one-out` (assumed circle-the-odd-one; actual is choice-tap one of 4 image buttons; odd image is from a different paired theme, not "unrelated generically"). Post-fix state: discipline preamble + per-template source-citation comments + 4 drifted templates rewritten. Doctrine added 2026-05-11 to prevent recurrence.
+
+**Generalization beyond per-app templates:** applies to ANY content authoring where the author describes behavior they haven't directly observed:
+
+- Per-(appName, exerciseMode) prose templates (the surfaced case)
+- Parent-letter / take-home-letter prose IF it claims specific exercise mechanics
+- Sentence-strips guidance IF it claims specific UI layouts (sentence-frame templates themselves are operator-authored verbatim port = ground-truth by construction)
+- Any future material-generator copy describing kid interactions, correct-answer shapes, or app-specific UI conventions
+- Per-app "what does this generate" docs (admin tooling copy, marketing copy, support content, FAQ entries)
+
+**File-level preamble pattern:** `frontend/scripts/lib/exercise-answer-templates.ts` lines 1-50 (Sub-Phase 2.4 canonical reference). Future content-authoring files of similar shape MUST adopt the same preamble pattern.
+
+**Memory cross-reference:** `feedback_template_ground_truth_discipline.md` (sibling of `feedback_documentation_against_real_emitter.md` for the documentation/config layer; both describe the same pattern at different layers — claims verified against real state before relied upon).
+
+Origin: Sub-Phase 2.4 (`7eac8f50`) + multi-mechanism discipline lock commission this session.
+
 ### A.14 Scaling Arc audit doctrine
 
 `[CHORE][AUDIT]` commissions measure publish-cli's path against scale targets without making any production change. The doctrine here governs both the audit commission shape and the engineering decisions that follow.

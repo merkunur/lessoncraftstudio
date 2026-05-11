@@ -168,11 +168,14 @@ function buildPatternReplacements(locale, traceFields) {
     if (!locValue) return;
 
     if (field === 'worksheetWord') {
-      // Title context: " Worksheet —"
-      pairs.push({ from: ' ' + enValue + ' —', to: ' ' + locValue + ' —', why: 'worksheet/title' });
+      // Title context: " Worksheet —" or " worksheet —" (some apps lowercase)
+      pairs.push({ from: ' ' + enValue + ' —', to: ' ' + locValue + ' —', why: 'worksheet/title-cap' });
+      pairs.push({ from: ' ' + enValue.toLowerCase() + ' —', to: ' ' + locValue + ' —', why: 'worksheet/title-low' });
       // Description context: " Worksheet (" (themed) OR " Worksheet ." (themeless)
-      pairs.push({ from: ' ' + enValue + ' (', to: ' ' + locValue + ' (', why: 'worksheet/desc-themed' });
-      pairs.push({ from: ' ' + enValue + ' .', to: ' ' + locValue + ' .', why: 'worksheet/desc-themeless' });
+      pairs.push({ from: ' ' + enValue + ' (', to: ' ' + locValue + ' (', why: 'worksheet/desc-themed-cap' });
+      pairs.push({ from: ' ' + enValue.toLowerCase() + ' (', to: ' ' + locValue + ' (', why: 'worksheet/desc-themed-low' });
+      pairs.push({ from: ' ' + enValue + ' .', to: ' ' + locValue + ' .', why: 'worksheet/desc-themeless-cap' });
+      pairs.push({ from: ' ' + enValue.toLowerCase() + ' .', to: ' ' + locValue + ' .', why: 'worksheet/desc-themeless-low' });
     } else if (field === 'freeInteractive') {
       // Start of description: "Free interactive " preceded by quote or content="
       pairs.push({ from: '"' + enValue + ' ', to: '"' + locValue + ' ', why: 'freeInteractive/json-or-meta' });

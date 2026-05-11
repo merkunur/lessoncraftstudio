@@ -25,6 +25,48 @@
 
 'use strict';
 
+var path = require('path');
+
+/**
+ * Topics taxonomy — single source-of-truth for per-locale axis-key slugs.
+ *
+ * Read once at module load per §A.13.4 recon-output-as-code-constant pattern.
+ * Per §17.8.5 native-language slug derivation (locked at native-language-slug
+ * commission 2026-05-11): slug components localize via
+ * axes.<axis>.<key>.slug.<manifest.language>; English-canonical fallback when
+ * the per-locale slug is missing, with WARN class surfaced for future taxonomy-
+ * expansion fold-ins per §16.6.1 substrate-honesty discipline.
+ */
+var TAXONOMY = require(path.join(__dirname, '..', '..', 'frontend', 'config', 'topics-taxonomy.json'));
+
+/**
+ * Resolve a manifest axis-key to its locale-localized slug component.
+ *
+ * Reads `TAXONOMY.axes.<axis>.<key>.slug.<locale>` with two fallback levels:
+ *   1. missing taxonomy entry for axis-key → fall back to bare key + WARN
+ *   2. taxonomy entry present but locale slug null/missing → fall back to
+ *      en slug + WARN. WARN surfaces locale-coverage gaps for taxonomy
+ *      expansion follow-on commissions (per §16.6.1 substrate-honesty).
+ *
+ * Backwards-compatible invariant: every locale's slug.en value equals the
+ * axis-key string verbatim (taxonomy invariant). So EN decks slug identically
+ * pre-amendment.
+ */
+function localizeAxisKey(axis, key, locale) {
+  if (!key) return null;
+  var entry = TAXONOMY.axes[axis] && TAXONOMY.axes[axis][key];
+  if (!entry || !entry.slug) {
+    console.warn('[slug] WARN: no taxonomy entry for axis=' + axis + ' key=' + key + '; falling back to bare key');
+    return key;
+  }
+  var localized = entry.slug[locale];
+  if (!localized) {
+    console.warn('[slug] WARN: missing ' + locale + ' slug for axis=' + axis + ' key=' + key + '; falling back to en');
+    localized = entry.slug.en || key;
+  }
+  return localized;
+}
+
 /**
  * App-classification for the §A.13 exerciseMode reconciliation gate.
  *
@@ -168,10 +210,16 @@ function resolveCollision(candidate, isTakenFn) {
  * Returns: space-joined seed string. Caller passes through slugify().
  */
 function deriveSeedFromManifest(manifest) {
+  // Per §17.8.5 native-language slug derivation: localize each axis-key
+  // component via the taxonomy at the manifest's language. English-canonical
+  // fallback when locale slug missing (matches pre-amendment EN behavior).
+  // EN decks slug identically to pre-amendment because taxonomy invariant:
+  // <axis-key>.slug.en === <axis-key> verbatim for every entry.
+  var locale = manifest.language || 'en';
   var parts = [];
-  if (manifest.exercise_type) parts.push(manifest.exercise_type);
-  if (manifest.exercise_mode) parts.push(manifest.exercise_mode);
-  if (manifest.theme) parts.push(manifest.theme);
+  if (manifest.exercise_type) parts.push(localizeAxisKey('exercise-type', manifest.exercise_type, locale));
+  if (manifest.exercise_mode) parts.push(localizeAxisKey('exercise-mode', manifest.exercise_mode, locale));
+  if (manifest.theme) parts.push(localizeAxisKey('theme', manifest.theme, locale));
   // Optional disambiguator per §11 future-arc-candidate "Manifest-disambiguator-field
   // for fresh-roll-variation slug shape" — promoted to active doctrine on the 345-en-wave
   // (2nd recurrence at scale of the fresh-roll collision pattern). When present, appends
@@ -180,6 +228,7 @@ function deriveSeedFromManifest(manifest) {
   // Backwards-compatible: manifests without variant_id slug exactly as before.
   // The salvage script scripts/publish-cli/add-variant-ids.js (§15.17 pattern) is the
   // canonical recovery path that injects this field for collision waves.
+  // variant_id is appended bare (NOT a localizable component per §17.8.5 disambiguator contract).
   if (manifest.variant_id != null && String(manifest.variant_id).trim() !== '') {
     parts.push(String(manifest.variant_id).trim());
   }
@@ -410,9 +459,11 @@ module.exports = {
   slugify: slugify,
   resolveCollision: resolveCollision,
   deriveSeedFromManifest: deriveSeedFromManifest,
+  localizeAxisKey: localizeAxisKey,
   parseThemeFromImagePath: parseThemeFromImagePath,
   reconcileManifestTheme: reconcileManifestTheme,
   reconcileExerciseMode: reconcileExerciseMode,
   EXERCISE_MODE_APP_CLASSIFICATION: EXERCISE_MODE_APP_CLASSIFICATION,
+  _TAXONOMY: TAXONOMY,
   _NON_DECOMPOSABLE_MAP: NON_DECOMPOSABLE_MAP
 };

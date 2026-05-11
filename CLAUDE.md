@@ -1498,8 +1498,11 @@ Topic destination page URLs follow the canonical pattern **`/<locale>/topic/<nat
 | `exercise-type` | App + mode → `exercise_type_axis_key` → slug-per-locale | `/de/topic/addition/` | always one |
 | `theme` | Operator-set theme → axis-key → slug-per-locale | `/de/topic/tiere/` | conditional (only when theme is set on the deck) |
 | `educational-level` | `age_range` → §17.8.6 mapping → axis-key → slug-per-locale | `/de/topic/kindergarten/` | always one |
+| `exercise-mode` | App emit-site `manifest.exercise_mode` → axis-key → slug-per-locale | (not a topic-page axis; slug-component-only per §17.8.5 native-language slug derivation) | conditional (only when exercise_mode is non-null per §17.8.5 default-mode-emits-null contract) |
 
 A deck's end-of-deck links (§17.8.2) point to its three (or two, when theme absent) granular topic pages plus a locale-rooted catalog-home link `/<locale>/`.
+
+**`exercise-mode` is a slug-component axis only, NOT a topic-page axis.** The three topic-page axes (exercise-type, theme, educational-level) generate `/<locale>/topic/<slug>/` destination pages per §16.1 resolution. `exercise-mode` participates only in deck-page slug derivation (§17.8.5 native-language slug shape) — it does NOT generate its own topic page. Rationale: modes (find-addend, image-image, cross-out, etc.) are mechanic distinctions within an exercise-type, not standalone discovery surfaces — teachers searching for "subtraction" want all subtraction modes on one topic page, not separate pages per mechanic.
 
 **Compound search-intent topic pages** (e.g., `/de/topic/mathe-kindergarten-addition/`) are NOT in v1 scope. The URL space remains available for future addition without breaking the granular pattern; they would live alongside α-granular pages, not replace them. Deferred per the §17.8.5 publish-cli substitution simplicity vs combinatorial-explosion tradeoff.
 
@@ -1525,6 +1528,9 @@ A deck's end-of-deck links (§17.8.2) point to its three (or two, when theme abs
       "<axis-key>": { "slug": { "<locale>": "<native-language-slug>" } }
     },
     "educational-level": {
+      "<axis-key>": { "slug": { "<locale>": "<native-language-slug>" } }
+    },
+    "exercise-mode": {
       "<axis-key>": { "slug": { "<locale>": "<native-language-slug>" } }
     }
   }
@@ -2191,6 +2197,33 @@ The pattern shortens canonical URLs for the high-traffic case while preserving p
 Operator-strategic adjudication anchors the choice of which mode is "default" per the §1 SEO-first emit-site framing: default = most-common authoring intent + shortest URL. The pattern applies at any future app extension that adds a mode dimension.
 
 Origin: `109a91d4` (Commission ε emit-site fix across 16 hardcoded-null apps post-`5078f491` code-addition reference).
+
+**Native-language slug derivation (locked at native-language-slug commission 2026-05-11).** publish-cli derives slug components per-locale from `topics-taxonomy.json` rather than from raw English-canonical axis-keys. Closes the §17.4 native-language-slug doctrine gap that was latent since publish-cli's first slug derivation; surfaced empirically at first non-EN catalog publish at scale (1018-deck ES math-cluster wave 2026-05-11).
+
+Component resolution:
+
+- `manifest.exercise_type` → `axes.exercise-type.<key>.slug.<manifest.language>`
+- `manifest.exercise_mode` → `axes.exercise-mode.<key>.slug.<manifest.language>`
+- `manifest.theme`         → `axes.theme.<key>.slug.<manifest.language>`
+- `manifest.variant_id`    → appended bare (NOT localizable per the §17.8.5 disambiguator contract)
+
+**Fallback chain (slug.js `localizeAxisKey`):**
+
+1. taxonomy entry for `(axis, key)` missing → emit WARN, fall back to bare key (matches pre-amendment behavior for keys not yet registered)
+2. taxonomy entry present but `slug.<locale>` null/missing → emit WARN, fall back to `slug.en`
+3. `slug.en` itself missing → fall back to bare axis-key
+
+WARN entries surface locale-coverage gaps to fold into the next taxonomy-expansion commission per §16.6.1 substrate-honesty discipline.
+
+**Example (es):** manifest `{exercise_type:'subtraction', exercise_mode:'find-subtrahend', theme:'animals', language:'es', variant_id:'1507'}` derives seed `resta buscar-sustraendo animales 1507` → slug `resta-buscar-sustraendo-animales-1507`.
+
+**Backwards compatibility:** EN decks slug identically to pre-amendment behavior because `axes.<axis>.<key>.slug.en === <key>` (taxonomy invariant — verified across all currently-registered axes at amendment time). No EN-deck retrofit needed.
+
+**Anti-scope:** non-EN already-published deck slug retrofit is per-commission scope. The ES wave (1018 decks) is retrofit at the native-language-slug commission via unpublish-then-republish. Future de/nl/fr/it/pt/sv/da/no/fi waves derive native-language slugs by construction at first publish.
+
+**Cross-reference:** §17.4 native-language-slug doctrine (the parent doctrine this operationalizes); §16.5 axes schema box (lists `axes.exercise-mode` alongside the original 3 axes).
+
+Origin: native-language-slug commission 2026-05-11 (operator-locked option 2 of plan-entry AskUserQuestion: exercise_mode localizes via new `axes.exercise-mode` taxonomy axis).
 
 #### 17.8.6 The age-range to educational-level mapping
 

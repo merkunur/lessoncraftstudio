@@ -3917,6 +3917,205 @@
           "fi": "3. luokka"
         }
       }
+    },
+    "exercise-mode": {
+      "$comment": "Per CLAUDE.md §17.8.5 native-language slug derivation: slug.js localizes manifest.exercise_mode via this axis at publish-cli boundary. Authored coverage scope (initial commission 2026-05-11 native-language-slug ES wave): en + es full. Other 9 locales placeholder per §16.6.1 substrate-honesty discipline; slug.js falls back to English-canonical when locale slug missing. Future taxonomy-expansion commission authors per-locale slugs when each locale's Track C wave stages.",
+      "find-addend": {
+        "slug": {
+          "en": "find-addend",
+          "de": null,
+          "es": "buscar-sumando",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Find Addend",
+          "de": null,
+          "es": "Buscar Sumando",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "image-image": {
+        "slug": {
+          "en": "image-image",
+          "de": null,
+          "es": "imagen-imagen",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Image-Image",
+          "de": null,
+          "es": "Imagen-Imagen",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "image-number": {
+        "slug": {
+          "en": "image-number",
+          "de": null,
+          "es": "imagen-numero",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Image-Number",
+          "de": null,
+          "es": "Imagen-Número",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "mixed": {
+        "slug": {
+          "en": "mixed",
+          "de": null,
+          "es": "mixto",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Mixed",
+          "de": null,
+          "es": "Mixto",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "cross-out": {
+        "slug": {
+          "en": "cross-out",
+          "de": null,
+          "es": "tachar",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Cross Out",
+          "de": null,
+          "es": "Tachar",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "find-subtrahend": {
+        "slug": {
+          "en": "find-subtrahend",
+          "de": null,
+          "es": "buscar-sustraendo",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Find Subtrahend",
+          "de": null,
+          "es": "Buscar Sustraendo",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "secret-word": {
+        "slug": {
+          "en": "secret-word",
+          "de": null,
+          "es": "palabra-secreta",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Secret Word",
+          "de": null,
+          "es": "Palabra Secreta",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      }
     }
   }
 }

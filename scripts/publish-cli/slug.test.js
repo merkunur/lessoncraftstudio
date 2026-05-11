@@ -108,9 +108,9 @@ var seedCases = [
     expectedSlug: 'addition-find-addend-animals'
   },
   {
-    label: 'theme-bearing subtraction with hyphenated theme',
+    label: 'theme-bearing subtraction with underscore theme (taxonomy en slug uses hyphen-form)',
     manifest: { exercise_type: 'subtraction', exercise_mode: 'cross-out', theme: 'farm_animals' },
-    expected: 'subtraction cross-out farm_animals',
+    expected: 'subtraction cross-out farm-animals',
     expectedSlug: 'subtraction-cross-out-farm-animals'
   },
   {
@@ -132,15 +132,15 @@ var seedCases = [
     expectedSlug: 'wordsearch'
   },
   {
-    label: '4th-of-July numeric-leading theme',
+    label: '4th-of-July numeric-leading theme (taxonomy en slug "4-of-july")',
     manifest: { exercise_type: 'addition', exercise_mode: 'image-image', theme: '4th_of_july' },
-    expected: 'addition image-image 4th_of_july',
+    expected: 'addition image-image 4th-of-july',
     expectedSlug: 'addition-image-image-4th-of-july'
   },
   {
     label: 'BW theme variant produces distinct slug',
     manifest: { exercise_type: 'addition', exercise_mode: 'mixed', theme: 'valentine_bw' },
-    expected: 'addition mixed valentine_bw',
+    expected: 'addition mixed valentine-bw',
     expectedSlug: 'addition-mixed-valentine-bw'
   },
   {
@@ -185,6 +185,48 @@ var seedCases = [
     manifest: { exercise_type: 'wordsearch', variant_id: '   ' },
     expected: 'wordsearch',
     expectedSlug: 'wordsearch'
+  },
+
+  // §17.8.5 native-language slug derivation tests (locked at native-language-slug
+  // commission 2026-05-11). Each component localizes via topics-taxonomy.json
+  // axes.<axis>.<key>.slug.<manifest.language> with English-canonical fallback +
+  // WARN class for missing per-locale slugs. EN decks slug identically per
+  // taxonomy invariant: slug.en === <axis-key>.
+  {
+    label: 'EN backwards-compat: addition mixed animals (taxonomy en slug === axis-key)',
+    manifest: { exercise_type: 'addition', exercise_mode: 'mixed', theme: 'animals', language: 'en' },
+    expected: 'addition mixed animals',
+    expectedSlug: 'addition-mixed-animals'
+  },
+  {
+    label: 'ES localized: subtraction find-subtrahend animals → "resta buscar-sustraendo animales"',
+    manifest: { exercise_type: 'subtraction', exercise_mode: 'find-subtrahend', theme: 'animals', language: 'es' },
+    expected: 'resta buscar-sustraendo animales',
+    expectedSlug: 'resta-buscar-sustraendo-animales'
+  },
+  {
+    label: 'ES localized with variant_id: code-addition secret-word 4th_of_july 1507',
+    manifest: { exercise_type: 'code-addition', exercise_mode: 'secret-word', theme: '4th_of_july', language: 'es', variant_id: '1507' },
+    expected: 'suma-codificada palabra-secreta 4-de-julio 1507',
+    expectedSlug: 'suma-codificada-palabra-secreta-4-de-julio-1507'
+  },
+  {
+    label: 'ES localized themeless: math-worksheet (null mode + null theme; type-only with variant)',
+    manifest: { exercise_type: 'math-worksheet', exercise_mode: null, theme: null, language: 'es', variant_id: 'a1b2' },
+    expected: 'ficha-matematica a1b2',
+    expectedSlug: 'ficha-matematica-a1b2'
+  },
+  {
+    label: 'ES code-addition standard-mode (null exercise_mode → omitted from slug)',
+    manifest: { exercise_type: 'code-addition', exercise_mode: null, theme: '4th_of_july', language: 'es', variant_id: '26df' },
+    expected: 'suma-codificada 4-de-julio 26df',
+    expectedSlug: 'suma-codificada-4-de-julio-26df'
+  },
+  {
+    label: 'Missing-locale fallback: ES exercise_mode key NOT in taxonomy → falls back to bare key with WARN',
+    manifest: { exercise_type: 'addition', exercise_mode: 'unknown-future-mode', theme: 'animals', language: 'es' },
+    expected: 'suma unknown-future-mode animales',
+    expectedSlug: 'suma-unknown-future-mode-animales'
   }
 ];
 

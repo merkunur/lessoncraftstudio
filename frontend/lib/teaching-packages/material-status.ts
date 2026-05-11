@@ -21,7 +21,7 @@ export interface MaterialStatusEntry {
 const MATERIAL_STATUS: Record<string, MaterialStatusEntry> = {
   flashcards: { status: 'shipped', shippedAnchor: '#flashcards' },
   'numeral-cards': { status: 'deferred' },
-  'picture-cards': { status: 'substrate-gap' },
+  'picture-cards': { status: 'shipped', shippedAnchor: '#picture-cards' },
   'sentence-strips': { status: 'substrate-gap' },
   'manipulative-cut-outs': { status: 'substrate-gap' },
   'parent-take-home-letter': { status: 'substrate-gap' },

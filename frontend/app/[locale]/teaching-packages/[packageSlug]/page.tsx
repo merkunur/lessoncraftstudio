@@ -11,6 +11,7 @@ import TeachingPackageAssessment from '@/components/teaching-packages/TeachingPa
 import TeachingPackageFlashcardsSection from '@/components/teaching-packages/TeachingPackageFlashcardsSection';
 import TeachingPackageLocaleVariants from '@/components/teaching-packages/TeachingPackageLocaleVariants';
 import TeachingPackageBundleContext from '@/components/teaching-packages/TeachingPackageBundleContext';
+import TeachingPackagePictureCardsSection from '@/components/teaching-packages/TeachingPackagePictureCardsSection';
 
 // Pillar 1 + Pillar 2 + Pillar 4 evaluation-surface commission Phase 2.
 // Per-package teaching-package detail surface composing the full canonical
@@ -85,6 +86,18 @@ export default async function TeachingPackageDetailPage({
         locale={params.locale}
         packageSlug={pkg.targetSlug}
       />
+      {(() => {
+        const pcMaterial = pkg.materials.find((m) => m.materialSlug === 'picture-cards');
+        if (!pcMaterial) return null;
+        const cpp = (pcMaterial.customizationParameters?.cardsPerPage as number | undefined) || 6;
+        return (
+          <TeachingPackagePictureCardsSection
+            locale={params.locale}
+            packageSlug={pkg.targetSlug}
+            cardsPerPage={cpp}
+          />
+        );
+      })()}
       <TeachingPackageBundleContext
         packageSlug={pkg.targetSlug}
         locale={params.locale}

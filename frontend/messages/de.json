@@ -1325,6 +1325,12 @@
       "heading": "Lernkarten",
       "subheading": "Digitales Deck + druckbare PDFs zu diesem Paket"
     },
+    "pictureCards": {
+      "heading": "Bildkarten",
+      "subheading": "Reine Bildkarten für Ausschneide- und Klassenarbeit",
+      "description": "Drucken Sie diese PDF, schneiden Sie entlang der gestrichelten Linien aus und verwenden Sie die Bildkarten für Zähl-, Sortier- oder Wortschatzspiele im Klassenraum.",
+      "downloadButton": "{count}er-PDF herunterladen"
+    },
     "locales": {
       "heading": "Verfügbare Sprachen",
       "subheading": "Dieses Lehrpaket hat Inhalte in den folgenden Sprachen."

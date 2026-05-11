@@ -1518,6 +1518,12 @@
       "heading": "Tarjetas didácticas",
       "subheading": "Baraja digital + PDFs imprimibles emparejados con este paquete"
     },
+    "pictureCards": {
+      "heading": "Tarjetas de imagen",
+      "subheading": "Tarjetas solo con imágenes para trabajo de cortar y manipular en el aula",
+      "description": "Imprima este PDF, recorte por las guías punteadas y use las tarjetas para contar, clasificar o juegos de vocabulario en clase.",
+      "downloadButton": "Descargar PDF de {count}"
+    },
     "locales": {
       "heading": "Idiomas disponibles",
       "subheading": "Este paquete didáctico tiene contenido creado en los siguientes idiomas."

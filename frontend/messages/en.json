@@ -1234,6 +1234,12 @@
       "heading": "Flashcards",
       "subheading": "Digital deck + printable PDFs paired with this package"
     },
+    "pictureCards": {
+      "heading": "Picture cards",
+      "subheading": "Image-only cards for cut-and-handle classroom work",
+      "description": "Print this PDF, cut along the dashed guides, and use the picture cards for classroom counting, sorting, or vocabulary games.",
+      "downloadButton": "Download {count}-up PDF"
+    },
     "locales": {
       "heading": "Available languages",
       "subheading": "This teaching package has authored content in the following languages."

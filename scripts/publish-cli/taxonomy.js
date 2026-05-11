@@ -104,6 +104,30 @@ function themeFor(themeKey, locale) {
   return axisLookup('theme', themeKey, locale);
 }
 
+/**
+ * Returns {slug, name} for (exercise-mode, modeKey, locale), or null on miss.
+ * Per §17.8.5 native-language slug derivation (locked at native-language-slug
+ * commission 2026-05-11): exercise_mode localizes via axes.exercise-mode.
+ *
+ * Returns null when:
+ *   - modeKey is null/empty (legitimate per §17.8.5 default-mode-emits-null contract)
+ *   - axis-key not registered in taxonomy.axes.exercise-mode (gap)
+ *   - locale slug missing on a present axis-key (per §16.6.1 substrate-honesty)
+ *
+ * Callers fall back via deriveExerciseModeName title-case (catalog-export.js)
+ * OR keep modeName null per default-mode contract.
+ */
+function exerciseModeFor(modeKey, locale) {
+  if (modeKey == null || modeKey === '') return null;
+  try {
+    return axisLookup('exercise-mode', modeKey, locale);
+  } catch (e) {
+    // Defensive: missing axis-key returns null rather than throwing so the
+    // republish-seo retrofit path falls back to title-case-derived name.
+    return null;
+  }
+}
+
 function levelFor(ageRange, locale) {
   var levelAxisKey = AGE_RANGE_TO_LEVEL_AXIS_KEY[ageRange];
   if (!levelAxisKey) {
@@ -121,6 +145,7 @@ module.exports = {
   axisLookup: axisLookup,
   exerciseTypeFor: exerciseTypeFor,
   themeFor: themeFor,
+  exerciseModeFor: exerciseModeFor,
   levelFor: levelFor,
   clearCache: clearCache,
   AGE_RANGE_TO_LEVEL_AXIS_KEY: AGE_RANGE_TO_LEVEL_AXIS_KEY,

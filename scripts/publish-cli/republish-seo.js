@@ -192,12 +192,31 @@ function resolveSeoOpts(c) {
   var locale = manifest.language;
   var trace = manifest.seo_trace;
 
+  // Native-language-slug commission 2026-05-11: prefer taxonomy.<axis>.<key>.name.<locale>
+  // for typeName + themeName + modeName when present, overriding any trace value.
+  // Rationale: trace values were baked at gen-time and may carry English fragments
+  // (e.g., modeName="Find Addend" derived from raw axis-key) even when isLocalized=true.
+  // Taxonomy is the canonical source-of-truth for axis-key names per §17.4 +
+  // §17.8.5 + §A.13.5 Shape A (taxonomy-as-canonical for axis-bound copy).
+  // Trace remains the source-of-truth for app-emitted copy that has no taxonomy
+  // equivalent (canvas.lcsLocalizedTitle for exercise type, instruction).
+  //
+  // Backwards-compatibility: when no taxonomy entry exists for the (axis, key, locale)
+  // tuple, falls back to trace value; when no trace either, falls back to title-case
+  // derivation or capitalize. EN decks slug + name identically because axes.<axis>.<key>.name.en
+  // === <axis-key>-title-cased verbatim for every entry.
+
   // exerciseTypeName + exerciseTypeSlug
   var exerciseTypeName, exerciseTypeSlug;
-  if (trace && trace.title && trace.title.typeName) {
-    exerciseTypeName = trace.title.typeName.value || '';
-  } else {
-    // Fallback: taxonomy.exerciseTypeFor or capitalize the exercise_type slug
+  exerciseTypeSlug = manifest.exercise_type || '';
+  exerciseTypeName = null;
+  // Trace value FIRST (it carries canvas.lcsLocalizedTitle like "Suma Divertida"
+  // which the apps' designers chose specifically; taxonomy.name is just
+  // "Suma" — less marketing-friendly. Prefer trace for typeName.)
+  if (trace && trace.title && trace.title.typeName && trace.title.typeName.value) {
+    exerciseTypeName = trace.title.typeName.value;
+  }
+  if (!exerciseTypeName) {
     try {
       var typeEntry = taxonomy.exerciseTypeFor(manifest.exercise_type, locale);
       exerciseTypeName = typeEntry && typeEntry.name ? typeEntry.name : capitalize(manifest.exercise_type || '');
@@ -205,18 +224,25 @@ function resolveSeoOpts(c) {
       exerciseTypeName = capitalize(manifest.exercise_type || '');
     }
   }
-  exerciseTypeSlug = manifest.exercise_type || '';
 
-  // themeName (nullable)
+  // themeName (nullable) — PREFER TAXONOMY over trace per native-language-slug commission.
+  // Trace's themeName for non-en often holds the raw English axis-key ("animals")
+  // rather than localized name ("Animales"). Taxonomy is authoritative.
   var themeName = null;
-  if (trace && trace.title && trace.title.themeName) {
-    themeName = trace.title.themeName.value || null;
-  } else if (manifest.theme) {
+  if (manifest.theme) {
     try {
       var themeEntry = taxonomy.themeFor(manifest.theme, locale);
       themeName = themeEntry && themeEntry.name ? themeEntry.name : null;
     } catch (e) {
       themeName = null;
+    }
+    // Fallback to trace only if taxonomy missed (and trace value isn't the raw key)
+    if (!themeName && trace && trace.title && trace.title.themeName && trace.title.themeName.value) {
+      var traceThemeName = trace.title.themeName.value;
+      // Filter out raw-axis-key fallbacks (e.g., "animals" when locale=es expects "Animales")
+      if (traceThemeName !== manifest.theme) {
+        themeName = traceThemeName;
+      }
     }
   }
 
@@ -245,15 +271,32 @@ function resolveSeoOpts(c) {
   // {level}. Print or play online."
 
   // Phase 4a Checkpoint 2.5 (θ): exercise_mode discriminator for title
-  // uniqueness invariant (Phase 2 §1). Class A.1: source from
-  // manifest.seo_trace.title.modeName.value (post-Phase-3b shape).
-  // Class A.2/B: derive from manifest.exercise_mode via title-case
-  // conversion (mirror of catalog-export.js deriveExerciseModeName).
+  // uniqueness invariant (Phase 2 §1).
+  // Native-language-slug commission 2026-05-11: PREFER taxonomy.exerciseModeFor
+  // over trace + title-case-derivation. Trace value derived from manifest.exercise_mode
+  // via title-case (e.g., "find-addend" → "Find Addend") leaks English when the
+  // locale has a Spanish taxonomy entry ("Buscar Sumando"). Taxonomy is authoritative.
   var exerciseModeName = null;
-  if (trace && trace.title && trace.title.modeName && trace.title.modeName.value) {
-    exerciseModeName = trace.title.modeName.value || null;
-  } else if (manifest.exercise_mode) {
-    exerciseModeName = deriveExerciseModeNameLocal(manifest.exercise_mode);
+  if (manifest.exercise_mode) {
+    try {
+      var modeEntry = taxonomy.exerciseModeFor(manifest.exercise_mode, locale);
+      exerciseModeName = modeEntry && modeEntry.name ? modeEntry.name : null;
+    } catch (e) {
+      exerciseModeName = null;
+    }
+    // Fallback to trace only if taxonomy missed AND trace value differs from
+    // the raw title-cased axis-key (which would just be English residue).
+    if (!exerciseModeName && trace && trace.title && trace.title.modeName && trace.title.modeName.value) {
+      var traceMode = trace.title.modeName.value;
+      var titleCaseEN = deriveExerciseModeNameLocal(manifest.exercise_mode);
+      if (traceMode !== titleCaseEN) {
+        exerciseModeName = traceMode;
+      }
+    }
+    // Final fallback: title-case-derived English (matches pre-amendment behavior for EN).
+    if (!exerciseModeName) {
+      exerciseModeName = deriveExerciseModeNameLocal(manifest.exercise_mode);
+    }
   }
 
   return {

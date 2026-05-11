@@ -6,10 +6,16 @@ import { Footer } from '@/components/layout/Footer';
 
 export function LocaleLayoutClient({
   children,
-  locale
+  locale,
+  footerAvailableExerciseTypes = [],
+  footerAvailableThemes = [],
+  footerAvailableLevels = []
 }: {
   children: React.ReactNode;
   locale: string;
+  footerAvailableExerciseTypes?: string[];
+  footerAvailableThemes?: string[];
+  footerAvailableLevels?: string[];
 }) {
   const pathname = usePathname();
 
@@ -33,14 +39,18 @@ export function LocaleLayoutClient({
     );
   }
 
-  // Other routes: Normal document flow with Footer
+  // Other routes: Normal document flow with Footer (content-gated per §16.6.1)
   return (
     <>
       <Navigation />
       <main className="flex-1">
         {children}
       </main>
-      <Footer />
+      <Footer
+        availableExerciseTypes={footerAvailableExerciseTypes}
+        availableThemes={footerAvailableThemes}
+        availableLevels={footerAvailableLevels}
+      />
     </>
   );
 }

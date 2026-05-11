@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
+import topicsTaxonomy from '@/config/topics-taxonomy.json';
 
 // Tier-weighted language ordering per HOMEPAGE-IMPLEMENTATION-PROMPT.md §5.6 + CLAUDE.md §19.
 // Pass 7b F4 honesty discipline: array membership IS the gate — only locales with
@@ -457,13 +458,71 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
   ],
 };
 
-export function Footer() {
+/**
+ * Build a reverse-lookup map: `slug.<locale>` → axis-key, for a given axis.
+ * Used by Footer to map its hardcoded FooterLink.slug values back to taxonomy
+ * axis-keys so the array can be filtered against per-locale "axis-keys with
+ * ≥1 published deck" sets (passed from layout.tsx via props).
+ *
+ * Per §16.6.1 substrate-honesty discipline — Footer arrays were authored
+ * comprehensively (all 29 ex-types, all themes) under the assumption that
+ * non-empty axis-keys would be content-gated downstream. This map lets the
+ * downstream filter operate against the hardcoded data without reshuffling
+ * the data structure.
+ */
+function buildSlugToAxisKeyMap(axis: 'exercise-type' | 'theme' | 'educational-level', locale: string): Map<string, string> {
+  const axisEntries = (topicsTaxonomy as unknown as {
+    axes: Record<string, Record<string, { slug?: Record<string, string> }>>;
+  }).axes[axis];
+  const map = new Map<string, string>();
+  for (const [axisKey, entry] of Object.entries(axisEntries)) {
+    const slug = entry.slug?.[locale];
+    if (slug) map.set(slug, axisKey);
+  }
+  return map;
+}
+
+export function Footer({
+  availableExerciseTypes = [],
+  availableThemes = [],
+  availableLevels = []
+}: {
+  availableExerciseTypes?: string[];
+  availableThemes?: string[];
+  availableLevels?: string[];
+} = {}) {
   const pathname = usePathname();
   const locale = pathname.split('/')[1] || 'en';
   const t = useTranslations('footer');
 
-  const topics = FOOTER_TOPICS_BY_LOCALE[locale] ?? [];
-  const exerciseTypes = FOOTER_EXERCISE_TYPES_BY_LOCALE[locale] ?? [];
+  // Content-gate per §16.6.1 substrate-honesty. Reverse-lookup each
+  // FooterLink.slug → axis-key, then only render entries whose axis-key
+  // is in the available set (decks with ≥1 published in this locale).
+  // Pre-amendment: hardcoded arrays were comprehensive (29 ex-types) but
+  // most rendered links pointed at empty topic pages that 404 per §16.6.1.
+  const exTypeSlugToAxisKey = buildSlugToAxisKeyMap('exercise-type', locale);
+  const themeSlugToAxisKey = buildSlugToAxisKeyMap('theme', locale);
+  const levelSlugToAxisKey = buildSlugToAxisKeyMap('educational-level', locale);
+  const availableExTypeSet = new Set(availableExerciseTypes);
+  const availableThemeSet = new Set(availableThemes);
+  const availableLevelSet = new Set(availableLevels);
+
+  const rawTopics = FOOTER_TOPICS_BY_LOCALE[locale] ?? [];
+  const rawExerciseTypes = FOOTER_EXERCISE_TYPES_BY_LOCALE[locale] ?? [];
+
+  // FOOTER_TOPICS_BY_LOCALE merges theme + educational-level axes per §16.6
+  // "by topic" column. Filter against BOTH theme-available + level-available sets.
+  const topics = rawTopics.filter(t => {
+    const themeKey = themeSlugToAxisKey.get(t.slug);
+    if (themeKey && availableThemeSet.has(themeKey)) return true;
+    const levelKey = levelSlugToAxisKey.get(t.slug);
+    if (levelKey && availableLevelSet.has(levelKey)) return true;
+    return false;
+  });
+  const exerciseTypes = rawExerciseTypes.filter(e => {
+    const axisKey = exTypeSlugToAxisKey.get(e.slug);
+    return axisKey ? availableExTypeSet.has(axisKey) : false;
+  });
 
   return (
     <footer id="footer" className="bg-cream-50 border-t border-cream-300 py-16 mt-24">

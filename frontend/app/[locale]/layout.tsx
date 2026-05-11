@@ -5,6 +5,7 @@ import { locales } from '@/i18n/request';
 import { Navigation } from '@/components/layout/Navigation';
 import { Footer } from '@/components/layout/Footer';
 import { LocaleLayoutClient } from './LocaleLayoutClient';
+import { listNonEmptyAxisKeys } from '@/lib/topic-decks';
 
 // Generate static params for all locales - enables static generation
 export function generateStaticParams() {
@@ -30,9 +31,32 @@ export default async function LocaleLayout({
   // Explicitly pass locale to ensure correct messages are loaded
   const messages = await getMessages({ locale });
 
+  // Footer content-gating per §16.6.1 substrate-honesty discipline. Fetch the
+  // set of axis-keys with ≥1 published deck in this locale and pass through to
+  // Footer as a Set; Footer filters its hardcoded FOOTER_EXERCISE_TYPES /
+  // FOOTER_TOPICS arrays against these sets so non-published axis-keys don't
+  // render as broken links. Computed at layout level (Server Component) to keep
+  // the DB hits centralized and ISR-cacheable.
+  let footerAvailableExerciseTypes: string[] = [];
+  let footerAvailableThemes: string[] = [];
+  let footerAvailableLevels: string[] = [];
+  try {
+    footerAvailableExerciseTypes = await listNonEmptyAxisKeys('exercise-type', locale);
+    footerAvailableThemes = await listNonEmptyAxisKeys('theme', locale);
+    footerAvailableLevels = await listNonEmptyAxisKeys('educational-level', locale);
+  } catch {
+    // DB unavailable (local dev / startup): fall back to empty arrays. Footer
+    // will render nothing for axis-bound columns; language column still works.
+  }
+
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
-      <LocaleLayoutClient locale={locale}>
+      <LocaleLayoutClient
+        locale={locale}
+        footerAvailableExerciseTypes={footerAvailableExerciseTypes}
+        footerAvailableThemes={footerAvailableThemes}
+        footerAvailableLevels={footerAvailableLevels}
+      >
         {children}
       </LocaleLayoutClient>
     </NextIntlClientProvider>

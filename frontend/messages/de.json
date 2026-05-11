@@ -1258,5 +1258,99 @@
       "signInPrompt": "Bereits Abonnent?",
       "signInCta": "Anmelden"
     }
+  },
+  "teachingPackagePage": {
+    "breadcrumb": {
+      "home": "Startseite",
+      "teachingPackages": "Lehrpakete"
+    },
+    "header": {
+      "eyebrow": "Lehrpaket",
+      "duration": "{minutes} Min. Einheit"
+    },
+    "taxonomy": {
+      "heading": "Pädagogische Einordnung"
+    },
+    "structure": {
+      "heading": "Stundenaufbau",
+      "phaseDuration": "{minutes} Min.",
+      "phaseLabel": {
+        "warmup": "Einstieg",
+        "contentActivity": "Hauptaktivität",
+        "scaffold": "Vertiefung + Stationen",
+        "closure": "Abschluss"
+      }
+    },
+    "exercises": {
+      "heading": "Komponierte Übungen",
+      "subheading": "{count} Arbeitsblatt-Übungen aus den Katalog-Apps",
+      "sampleLabel": "Beispiel",
+      "openDeck": "Beispiel-Deck öffnen",
+      "viewTopic": "Themenseite ansehen",
+      "noSamplePreview": "Noch kein Beispiel veröffentlicht",
+      "role": {
+        "introduction": "Einführung",
+        "practice": "Übung",
+        "consolidation": "Festigung",
+        "assessment": "Lernkontrolle"
+      }
+    },
+    "materials": {
+      "heading": "Druckmaterialien",
+      "subheading": "{count} druckbare Elemente für den Klassenraum",
+      "availableBelow": "Unten verfügbar",
+      "status": {
+        "shipped": "Verfügbar",
+        "deferred": "Zurückgestellt",
+        "substrate-gap": "Generator ausstehend"
+      },
+      "statusDescription": {
+        "deferred": "Material-Spezifikation vorhanden; Generator für einen späteren Commission-Zyklus zurückgestellt.",
+        "substrate-gap": "Material-Spezifikation existiert in materials-catalog.json; Laufzeit-Generator noch nicht erstellt."
+      },
+      "role": {
+        "vocabulary-anchor": "Wortschatz-Anker",
+        "production-prompt": "Produktions-Impuls",
+        "language-frame": "Sprachgerüst",
+        "concrete-manipulative": "Konkretes Material",
+        "home-school-bridge": "Schule-Familie-Brücke",
+        "teacher-reference": "Lehrkraft-Referenz",
+        "vocabulary-game": "Wortschatz-Spiel"
+      }
+    },
+    "assessment": {
+      "heading": "Lernkontroll-Kriterien"
+    },
+    "flashcards": {
+      "heading": "Lernkarten",
+      "subheading": "Digitales Deck + druckbare PDFs zu diesem Paket"
+    },
+    "locales": {
+      "heading": "Verfügbare Sprachen",
+      "subheading": "Dieses Lehrpaket hat Inhalte in den folgenden Sprachen."
+    },
+    "bundleContext": {
+      "heading": "Erscheint in {count} themenbasierten Bundle(s)",
+      "subheading": "Dieses Lehrpaket ist in den folgenden Pillar-2-Themenbundles enthalten."
+    }
+  },
+  "bundlePage": {
+    "breadcrumb": {
+      "home": "Startseite",
+      "bundles": "Themenbundles"
+    },
+    "header": {
+      "eyebrow": "Themenbundle",
+      "theme": "Thema",
+      "packageCount": "{count} Lehrpakete"
+    },
+    "coherence": {
+      "heading": "Thematischer Zusammenhang"
+    },
+    "packages": {
+      "heading": "Enthaltene Lehrpakete",
+      "subheading": "Jedes Paket unten passt zum vereinenden Thema des Bundles.",
+      "openPackage": "Lehrpaket öffnen"
+    }
   }
 }

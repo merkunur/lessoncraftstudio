@@ -1438,5 +1438,99 @@
       "signInPrompt": "Al een abonnee?",
       "signInCta": "Inloggen"
     }
+  },
+  "teachingPackagePage": {
+    "breadcrumb": {
+      "home": "Home",
+      "teachingPackages": "Lespakketten"
+    },
+    "header": {
+      "eyebrow": "Lespakket",
+      "duration": "Sessie van {minutes} min"
+    },
+    "taxonomy": {
+      "heading": "Pedagogisch kader"
+    },
+    "structure": {
+      "heading": "Sessiestructuur",
+      "phaseDuration": "{minutes} min",
+      "phaseLabel": {
+        "warmup": "Warming-up",
+        "contentActivity": "Hoofdactiviteit",
+        "scaffold": "Verdieping + stationrotatie",
+        "closure": "Afsluiting"
+      }
+    },
+    "exercises": {
+      "heading": "Samengestelde oefeningen",
+      "subheading": "{count} werkbladoefeningen uit de catalogus-apps",
+      "sampleLabel": "Voorbeeld",
+      "openDeck": "Voorbeelddeck openen",
+      "viewTopic": "Themapagina bekijken",
+      "noSamplePreview": "Nog geen voorbeeld gepubliceerd",
+      "role": {
+        "introduction": "Introductie",
+        "practice": "Oefening",
+        "consolidation": "Verdieping",
+        "assessment": "Evaluatie"
+      }
+    },
+    "materials": {
+      "heading": "Afdrukbare materialen",
+      "subheading": "{count} afdrukbare items voor klassikaal gebruik",
+      "availableBelow": "Hieronder beschikbaar",
+      "status": {
+        "shipped": "Beschikbaar",
+        "deferred": "Uitgesteld",
+        "substrate-gap": "Generator in behandeling"
+      },
+      "statusDescription": {
+        "deferred": "Materiaalspecificatie bestaat; generator uitgesteld naar een latere commissiecyclus.",
+        "substrate-gap": "Materiaalspecificatie bestaat in materials-catalog.json; runtime-generator nog niet gebouwd."
+      },
+      "role": {
+        "vocabulary-anchor": "Woordenschat-anker",
+        "production-prompt": "Productieprikkel",
+        "language-frame": "Taalkader",
+        "concrete-manipulative": "Concreet manipulatief materiaal",
+        "home-school-bridge": "Brug thuis-school",
+        "teacher-reference": "Leerkrachtreferentie",
+        "vocabulary-game": "Woordenschatspel"
+      }
+    },
+    "assessment": {
+      "heading": "Evaluatiecriteria"
+    },
+    "flashcards": {
+      "heading": "Woordkaarten",
+      "subheading": "Digitaal deck + afdrukbare PDF's gekoppeld aan dit pakket"
+    },
+    "locales": {
+      "heading": "Beschikbare talen",
+      "subheading": "Dit lespakket heeft inhoud in de volgende talen."
+    },
+    "bundleContext": {
+      "heading": "Komt voor in {count} themabundle(s)",
+      "subheading": "Dit lespakket is opgenomen in de volgende Pilaar 2-themabundles."
+    }
+  },
+  "bundlePage": {
+    "breadcrumb": {
+      "home": "Home",
+      "bundles": "Themabundles"
+    },
+    "header": {
+      "eyebrow": "Themabundle",
+      "theme": "Thema",
+      "packageCount": "{count} lespakketten"
+    },
+    "coherence": {
+      "heading": "Thematische samenhang"
+    },
+    "packages": {
+      "heading": "Inbegrepen lespakketten",
+      "subheading": "Elk pakket hieronder past bij het verbindende thema van de bundle.",
+      "openPackage": "Lespakket openen"
+    }
   }
 }

@@ -1451,5 +1451,99 @@
       "signInPrompt": "¿Ya es suscriptor?",
       "signInCta": "Iniciar sesión"
     }
+  },
+  "teachingPackagePage": {
+    "breadcrumb": {
+      "home": "Inicio",
+      "teachingPackages": "Paquetes didácticos"
+    },
+    "header": {
+      "eyebrow": "Paquete didáctico",
+      "duration": "Sesión de {minutes} min"
+    },
+    "taxonomy": {
+      "heading": "Marco pedagógico"
+    },
+    "structure": {
+      "heading": "Estructura de la sesión",
+      "phaseDuration": "{minutes} min",
+      "phaseLabel": {
+        "warmup": "Calentamiento",
+        "contentActivity": "Actividad central",
+        "scaffold": "Andamiaje + rotación de estaciones",
+        "closure": "Cierre"
+      }
+    },
+    "exercises": {
+      "heading": "Ejercicios compuestos",
+      "subheading": "{count} ejercicios de hoja de trabajo de las apps del catálogo",
+      "sampleLabel": "Muestra",
+      "openDeck": "Abrir la baraja de muestra",
+      "viewTopic": "Ver la página del tema",
+      "noSamplePreview": "Aún no se ha publicado una muestra",
+      "role": {
+        "introduction": "Introducción",
+        "practice": "Práctica",
+        "consolidation": "Consolidación",
+        "assessment": "Evaluación"
+      }
+    },
+    "materials": {
+      "heading": "Materiales imprimibles",
+      "subheading": "{count} elementos imprimibles para uso en clase",
+      "availableBelow": "Disponible abajo",
+      "status": {
+        "shipped": "Disponible",
+        "deferred": "Aplazado",
+        "substrate-gap": "Generador pendiente"
+      },
+      "statusDescription": {
+        "deferred": "Existe la especificación del material; el generador está aplazado para un ciclo de comisión posterior.",
+        "substrate-gap": "La especificación del material existe en materials-catalog.json; el generador en tiempo de ejecución aún no se ha creado."
+      },
+      "role": {
+        "vocabulary-anchor": "Anclaje de vocabulario",
+        "production-prompt": "Estímulo de producción",
+        "language-frame": "Marco lingüístico",
+        "concrete-manipulative": "Material manipulable concreto",
+        "home-school-bridge": "Puente casa-escuela",
+        "teacher-reference": "Referencia del docente",
+        "vocabulary-game": "Juego de vocabulario"
+      }
+    },
+    "assessment": {
+      "heading": "Criterios de evaluación"
+    },
+    "flashcards": {
+      "heading": "Tarjetas didácticas",
+      "subheading": "Baraja digital + PDFs imprimibles emparejados con este paquete"
+    },
+    "locales": {
+      "heading": "Idiomas disponibles",
+      "subheading": "Este paquete didáctico tiene contenido creado en los siguientes idiomas."
+    },
+    "bundleContext": {
+      "heading": "Aparece en {count} bundle(s) temático(s)",
+      "subheading": "Este paquete didáctico está incluido en los siguientes bundles temáticos del Pilar 2."
+    }
+  },
+  "bundlePage": {
+    "breadcrumb": {
+      "home": "Inicio",
+      "bundles": "Bundles temáticos"
+    },
+    "header": {
+      "eyebrow": "Bundle temático",
+      "theme": "Tema",
+      "packageCount": "{count} paquetes didácticos"
+    },
+    "coherence": {
+      "heading": "Coherencia temática"
+    },
+    "packages": {
+      "heading": "Paquetes didácticos incluidos",
+      "subheading": "Cada paquete a continuación se relaciona con el tema unificador del bundle.",
+      "openPackage": "Abrir el paquete didáctico"
+    }
   }
 }

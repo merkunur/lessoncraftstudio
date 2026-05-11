@@ -3582,6 +3582,47 @@ All user-facing content (i18n message strings, PDF text, page descriptions, UI l
 
 Origin: Sub-Phase 2.5 multi-mechanism discipline lock commission this session.
 
+#### A.13.31 Per-instance content-awareness discipline
+
+When a commission's scope NAMES a specific package, deck, topic, lesson plan, material instance, or any other content artifact identified by slug / ID / name, Phase 1 MUST read the canonical artifact for that named instance BEFORE Phase 2 design begins. The artifact's NAME is a label; its YAML / manifest / data file is the truth. Authoring content ABOUT a specific named artifact without reading that artifact's canonical data is a defect class.
+
+**How to apply (any commission whose scope names a specific content artifact):**
+
+1. **Identify the named instance(s).** The commission spec, operator message, or IDE-open signal names one or more specific artifacts (`count-objects-1-to-10` package, `compare-by-weight` package, `/de/decks/addition-tiere-kindergarten/` deck, `addition-kindergarten-spanish` topic, the parent-letter material for package X).
+2. **Read the canonical artifact for each named instance BEFORE Phase 2.** Canonical paths:
+   - Package → `docs/lesson-plans/packages/<slug>/package.yaml` (full file; not just the title/description fields)
+   - Topic → `frontend/config/topics-taxonomy.json` axis entry for the topic axis-key + grep packages composing the topic
+   - Deck → manifest JSON + bundle + exercise data at the canonical asset path
+   - Lesson plan → `docs/lesson-plans/packages/<slug>/lessons/<lesson>.yaml` (if it exists at the canonical path)
+   - Material instance → the package.yaml's `materials:` entry for that specific (package, materialSlug) tuple
+3. **No inference from name.** The package name `compare-by-weight` is a label; its YAML reveals the actual content (warmup routine, contentActivity, composed exercises, materials, assessment criteria). The slug `count-objects-1-to-10` hints at the topic but doesn't reveal the specific `themeSelect: animals` config that drives the composed exercises. The topic identifier `addition-kindergarten-spanish` names a topic but doesn't enumerate the specific decks composing it. Always read past the name.
+4. **Cite canonical artifact paths in commission close-out / commit message.** "Verified against `docs/lesson-plans/packages/compare-by-weight/package.yaml`" or equivalent.
+5. **Doctrine ALSO applies to operator's IDE-open signals.** When the operator opens a specific package YAML / deck file / config in the IDE alongside a commission, Phase 1 reads that file as part of context-establishment — even if commission scope doesn't explicitly name it. The IDE-open signal is contextual intent.
+
+**Cross-references (verification-hygiene doctrine family):**
+
+- §A.13.6 spec-vs-shipped-contract validation (code+spec layer)
+- §A.13.14 Phase 1 Explore-agent fidelity validation (exploration-quality layer)
+- §A.13.21 Operator-pre-recommendation substrate verification (input boundary layer)
+- §A.13.22 Audit-doc-vs-canonical-state divergence (audit-document layer)
+- §A.13.29 Ground-truth source-citation discipline (behavior-description layer)
+- §A.13.30 Audience-perspective discipline (reader-perspective layer)
+- §A.13.31 (this section) — per-instance content-awareness layer
+
+The three content-discipline doctrines (§A.13.29 / §A.13.30 / §A.13.31) form a complete family covering source / reader / instance dimensions of every content commission:
+
+- §A.13.29 catches assumption-based BEHAVIOR descriptions (per-(app, mode) templates)
+- §A.13.30 catches engineer-perspective READER copy (i18n, page descriptions, UI labels)
+- §A.13.31 catches authoring content ABOUT a specific named INSTANCE without reading its data
+
+**Empirical anchor:** This session's discipline-lock commission. Retrospective framing: Sub-Phase 2.4 find-and-count drift was partly per-instance content-blindness — I described what `find-and-count|unified` exercises do in general (covered by §A.13.29) without reading `docs/lesson-plans/packages/count-objects-1-to-10/package.yaml` to verify which specific configuration the C5 package actually uses (`themeSelect: animals` triggers object-counting, not letter-spotting). IDE-open signal at this commission's surface: `docs/lesson-plans/packages/compare-by-weight/package.yaml` open in operator's IDE. Reading the YAML revealed substantive package data (Preschool/Kindergarten weight-comparison teaching, direct-lifting routine, comparative vocabulary heavier/lighter/same-weight, composes against big-small + matching apps, 5 exercises + 7 materials over a 1-week unit) that the package NAME `compare-by-weight` only labels — never describes.
+
+**Generalization:** any time a commission's scope names a specific instance, the instance's canonical data file is the source-of-truth. Read past the name. Cite the artifact path. The discipline scales: per-package content authoring, per-deck SEO surfaces, per-topic destination pages, per-material customization, per-lesson-plan authoring — every named-instance commission triggers the same Phase 1 read-the-artifact pre-flight.
+
+**Memory cross-reference:** `feedback_per_instance_content_awareness.md` (third sibling of the content-discipline feedback memory family, alongside `feedback_template_ground_truth_discipline.md` for §A.13.29 and `feedback_audience_perspective_user_facing_content.md` for §A.13.30).
+
+Origin: Multi-mechanism discipline lock commission this session.
+
 ### A.14 Scaling Arc audit doctrine
 
 `[CHORE][AUDIT]` commissions measure publish-cli's path against scale targets without making any production change. The doctrine here governs both the audit commission shape and the engineering decisions that follow.

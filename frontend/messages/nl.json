@@ -1400,5 +1400,43 @@
       "duration": "In totaal {minutes} minuten",
       "readFullCta": "Lees het volledige plan"
     }
+  },
+  "flashcardReader": {
+    "metadata": {
+      "title": "Woordkaarten | LessonCraftStudio",
+      "description": "Meertalige K-3 woordenschat-woordkaarten — digitale deck + afdrukbare PDF's."
+    },
+    "loading": "Laden…",
+    "errorGeneric": "Er is iets misgegaan. Probeer het opnieuw.",
+    "deck": {
+      "title": "Woordkaarten · {packageSlug}",
+      "subtitle": "K-3 woordenschat-deck — digitale en afdrukformaten",
+      "iframeTitle": "Woordkaarten-deck-viewer",
+      "printSection": {
+        "heading": "Afdrukformaten",
+        "body": "Download de afdrukbare PDF. Snijd langs de hoekgeleidingen; lamineer voor herhaald klasgebruik.",
+        "print6up": "PDF met 6 kaarten per pagina downloaden",
+        "print9up": "PDF met 9 kaarten per pagina downloaden"
+      }
+    },
+    "freeTier": {
+      "banner": {
+        "title": "Dit is een gratis woordkaartenpakket",
+        "body": "Drie woordkaartenpakketten zijn gratis te proberen. De volledige bibliotheek met ~100 pakketten in alle 11 platformtalen maakt deel uit van het abonnement van 69 USD/jaar.",
+        "cta": "Abonnement bekijken"
+      }
+    },
+    "paywall": {
+      "title": "Woordkaarten maken deel uit van het abonnement",
+      "body": "Het woordkaartenpakket {packageSlug} is inbegrepen bij het LessonCraftStudio-abonnement van 69 USD/jaar. Drie pakketten zijn gratis te proberen zonder abonnement — zie hieronder.",
+      "freeTierTeaser": {
+        "heading": "Probeer eerst de gratis pakketten",
+        "body": "Drie woordkaartenpakketten zijn gratis voor iedereen — probeer het Sky+v2-ontwerp uit in rekenen, geletterdheid en wetenschap:",
+        "packageLink": "Open de {slug} woordkaarten"
+      },
+      "subscribeCta": "Naar abonnement",
+      "signInPrompt": "Al een abonnee?",
+      "signInCta": "Inloggen"
+    }
   }
 }

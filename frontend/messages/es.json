@@ -1413,5 +1413,43 @@
       "duration": "{minutes} minutos en total",
       "readFullCta": "Leer el plan completo"
     }
+  },
+  "flashcardReader": {
+    "metadata": {
+      "title": "Tarjetas didácticas | LessonCraftStudio",
+      "description": "Tarjetas didácticas de vocabulario K-3 multilingüe — baraja digital + PDFs imprimibles."
+    },
+    "loading": "Cargando…",
+    "errorGeneric": "Algo salió mal. Por favor, inténtelo de nuevo.",
+    "deck": {
+      "title": "Tarjetas didácticas · {packageSlug}",
+      "subtitle": "Baraja de vocabulario K-3 — formatos digital e impreso",
+      "iframeTitle": "Visor de baraja de tarjetas didácticas",
+      "printSection": {
+        "heading": "Formatos para imprimir",
+        "body": "Descargue el PDF imprimible. Corte siguiendo las guías de las esquinas; plastifique para uso repetido en el aula.",
+        "print6up": "Descargar PDF de 6 tarjetas por página",
+        "print9up": "Descargar PDF de 9 tarjetas por página"
+      }
+    },
+    "freeTier": {
+      "banner": {
+        "title": "Este es un paquete de tarjetas didácticas gratuito",
+        "body": "Tres paquetes de tarjetas didácticas son gratuitos para probar. La biblioteca completa de ~100 paquetes en los 11 idiomas de la plataforma es parte de la suscripción de 69 USD/año.",
+        "cta": "Ver la suscripción"
+      }
+    },
+    "paywall": {
+      "title": "Las tarjetas didácticas son parte de la suscripción",
+      "body": "El paquete de tarjetas didácticas {packageSlug} está incluido en la suscripción de LessonCraftStudio de 69 USD/año. Tres paquetes son gratuitos para probar sin suscribirse — vea más abajo.",
+      "freeTierTeaser": {
+        "heading": "Pruebe primero los paquetes gratuitos",
+        "body": "Tres paquetes de tarjetas didácticas son gratuitos para todos — pruebe el diseño Sky+v2 en matemáticas, alfabetización y ciencias:",
+        "packageLink": "Abrir las tarjetas {slug}"
+      },
+      "subscribeCta": "Ir a suscribirse",
+      "signInPrompt": "¿Ya es suscriptor?",
+      "signInCta": "Iniciar sesión"
+    }
   }
 }

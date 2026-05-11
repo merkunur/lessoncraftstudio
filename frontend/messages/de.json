@@ -1220,5 +1220,43 @@
       "duration": "Insgesamt {minutes} Minuten",
       "readFullCta": "Den vollständigen Entwurf lesen"
     }
+  },
+  "flashcardReader": {
+    "metadata": {
+      "title": "Lernkarten | LessonCraftStudio",
+      "description": "Mehrsprachige K-3-Wortschatz-Lernkarten — digitales Deck + druckbare PDFs."
+    },
+    "loading": "Wird geladen…",
+    "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    "deck": {
+      "title": "Lernkarten · {packageSlug}",
+      "subtitle": "K-3-Wortschatz-Deck — digitale und Druckformate",
+      "iframeTitle": "Lernkarten-Deck-Viewer",
+      "printSection": {
+        "heading": "Druckformate",
+        "body": "Laden Sie das druckbare PDF herunter. Entlang der Eckmarkierungen schneiden; für wiederholten Klassenraumgebrauch laminieren.",
+        "print6up": "PDF mit 6 Karten pro Seite herunterladen",
+        "print9up": "PDF mit 9 Karten pro Seite herunterladen"
+      }
+    },
+    "freeTier": {
+      "banner": {
+        "title": "Dies ist ein kostenloses Lernkarten-Paket",
+        "body": "Drei Lernkarten-Pakete sind kostenlos zum Ausprobieren. Die vollständige Bibliothek mit ~100 Paketen in allen 11 Plattformsprachen ist Teil des Abonnements für 69 USD/Jahr.",
+        "cta": "Abonnement ansehen"
+      }
+    },
+    "paywall": {
+      "title": "Lernkarten sind Teil des Abonnements",
+      "body": "Das Lernkarten-Paket {packageSlug} ist im LessonCraftStudio-Abonnement für 69 USD/Jahr enthalten. Drei Pakete sind kostenlos zum Ausprobieren — siehe unten.",
+      "freeTierTeaser": {
+        "heading": "Probieren Sie zuerst die kostenlosen Pakete",
+        "body": "Drei Lernkarten-Pakete sind für alle kostenlos — testen Sie das Sky+v2-Design in Mathematik, Lese- und Naturwissenschaft:",
+        "packageLink": "Lernkarten {slug} öffnen"
+      },
+      "subscribeCta": "Zum Abonnement",
+      "signInPrompt": "Bereits Abonnent?",
+      "signInCta": "Anmelden"
+    }
   }
 }

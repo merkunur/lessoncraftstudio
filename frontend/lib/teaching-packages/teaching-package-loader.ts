@@ -17,17 +17,19 @@ import * as path from 'path';
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const yaml: { load: (str: string) => unknown } = require('js-yaml');
 
-// Resolves to <repo-root>/docs/lesson-plans/packages/. Robust across both
-// dev (npm run dev; cwd=frontend) AND Next.js standalone production builds
-// (PM2 cwd=/opt/lessoncraftstudio/frontend per ecosystem.config.js). The
-// docs/ directory lives at <repo-root>/docs/ — one level above frontend/ —
-// and is NOT bundled into .next/standalone/. process.cwd()-based resolution
-// reads from the actual filesystem location rather than the standalone
-// bundle.
+// Resolves to <repo-root>/docs/lesson-plans/packages/. Robust across:
+//   - Next.js standalone production builds: PM2 launches node server.js from
+//     .next/standalone/; process.cwd() = /opt/lessoncraftstudio/frontend/
+//     .next/standalone/. Repo root is 3 levels up.
+//   - Dev mode (npm run dev): cwd = frontend/. Repo root is 1 level up.
+//   - Alt dev launch: cwd = repo root.
+// docs/ directory is NOT bundled into .next/standalone/; it lives at repo
+// root and is readable at filesystem level by the standalone process.
 const CANDIDATE_PACKAGES_ROOTS = [
-  path.resolve(process.cwd(), '..', 'docs', 'lesson-plans', 'packages'), // cwd=frontend
-  path.resolve(process.cwd(), 'docs', 'lesson-plans', 'packages'),       // cwd=repo-root (dev fallback)
-  path.resolve(__dirname, '..', '..', '..', 'docs', 'lesson-plans', 'packages'), // __dirname-based fallback
+  path.resolve(process.cwd(), '..', '..', '..', 'docs', 'lesson-plans', 'packages'), // standalone (cwd=.next/standalone)
+  path.resolve(process.cwd(), '..', 'docs', 'lesson-plans', 'packages'),             // dev (cwd=frontend)
+  path.resolve(process.cwd(), 'docs', 'lesson-plans', 'packages'),                   // cwd=repo-root
+  path.resolve(__dirname, '..', '..', '..', 'docs', 'lesson-plans', 'packages'),     // __dirname-based fallback
 ];
 
 function resolvePackagesRoot(): string {

@@ -1337,6 +1337,12 @@
       "description": "Drucken Sie diese PDF, schneiden Sie entlang der gestrichelten Linien aus und verwenden Sie die Zahlenkarten für Zählübungen, Zahlerkennung und Zuordnung von Zahlen zu Mengen.",
       "downloadButton": "{count}er-PDF herunterladen"
     },
+    "manipulativeCutOuts": {
+      "heading": "Manipulative Ausschneideelemente",
+      "subheading": "Kleine Bildplättchen für handlungsorientiertes Zählen, Sortieren und Klassifizieren",
+      "description": "Drucken Sie diese PDF, schneiden Sie entlang der gestrichelten Linien aus und verwenden Sie die kleinen Bildplättchen als konkretes Material. Geeignet für Zählarbeit, Sortieraufgaben und Klassifizierungsaktivitäten.",
+      "downloadButton": "Ausschneide-PDF herunterladen"
+    },
     "locales": {
       "heading": "Verfügbare Sprachen",
       "subheading": "Dieses Lehrpaket hat Inhalte in den folgenden Sprachen."

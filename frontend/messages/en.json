@@ -1246,6 +1246,12 @@
       "description": "Print this PDF, cut along the dashed guides, and use the numeral cards for counting practice, numeral recognition, and matching numerals to quantities.",
       "downloadButton": "Download {count}-up PDF"
     },
+    "manipulativeCutOuts": {
+      "heading": "Manipulative cut-outs",
+      "subheading": "Small image tiles for hands-on counting, sorting, and classification",
+      "description": "Print this PDF, cut along the dashed guides, and use the small image tiles as physical manipulatives. Suitable for counting work, sorting tasks, and classification activities.",
+      "downloadButton": "Download cut-outs PDF"
+    },
     "locales": {
       "heading": "Available languages",
       "subheading": "This teaching package has authored content in the following languages."

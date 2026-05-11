@@ -1517,6 +1517,12 @@
       "description": "Druk deze PDF af, knip langs de stippellijnen en gebruik de getalkaarten voor teloefeningen, getalherkenning en het koppelen van cijfers aan hoeveelheden.",
       "downloadButton": "Download PDF ({count}-up)"
     },
+    "manipulativeCutOuts": {
+      "heading": "Knipbare manipulatieven",
+      "subheading": "Kleine beeldtegels voor praktisch tellen, sorteren en classificeren",
+      "description": "Druk deze PDF af, knip langs de stippellijnen en gebruik de kleine beeldtegels als concreet manipulatief materiaal. Geschikt voor teloefeningen, sorteertaken en classificatie-activiteiten.",
+      "downloadButton": "Download knip-PDF"
+    },
     "locales": {
       "heading": "Beschikbare talen",
       "subheading": "Dit lespakket heeft inhoud in de volgende talen."

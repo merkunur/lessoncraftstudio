@@ -13,6 +13,7 @@ import TeachingPackageLocaleVariants from '@/components/teaching-packages/Teachi
 import TeachingPackageBundleContext from '@/components/teaching-packages/TeachingPackageBundleContext';
 import TeachingPackagePictureCardsSection from '@/components/teaching-packages/TeachingPackagePictureCardsSection';
 import TeachingPackageNumeralCardsSection from '@/components/teaching-packages/TeachingPackageNumeralCardsSection';
+import TeachingPackageManipulativeCutOutsSection from '@/components/teaching-packages/TeachingPackageManipulativeCutOutsSection';
 
 // Pillar 1 + Pillar 2 + Pillar 4 evaluation-surface commission Phase 2.
 // Per-package teaching-package detail surface composing the full canonical
@@ -108,6 +109,20 @@ export default async function TeachingPackageDetailPage({
             locale={params.locale}
             packageSlug={pkg.targetSlug}
             cardsPerPage={cpp}
+          />
+        );
+      })()}
+      {(() => {
+        const mcoMaterial = pkg.materials.find((m) => m.materialSlug === 'manipulative-cut-outs');
+        if (!mcoMaterial) return null;
+        const ic = mcoMaterial.customizationParameters?.itemCount as number | undefined;
+        const is = mcoMaterial.customizationParameters?.itemSize as string | undefined;
+        return (
+          <TeachingPackageManipulativeCutOutsSection
+            locale={params.locale}
+            packageSlug={pkg.targetSlug}
+            itemCount={ic}
+            itemSize={is}
           />
         );
       })()}

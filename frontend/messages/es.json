@@ -1530,6 +1530,12 @@
       "description": "Imprima este PDF, recorte por las guías punteadas y use las tarjetas numéricas para práctica de conteo, reconocimiento de números y asociación de números con cantidades.",
       "downloadButton": "Descargar PDF de {count}"
     },
+    "manipulativeCutOuts": {
+      "heading": "Recortables manipulables",
+      "subheading": "Pequeñas fichas de imagen para conteo, clasificación y categorización prácticos",
+      "description": "Imprima este PDF, recorte por las guías punteadas y use las pequeñas fichas de imagen como material manipulable concreto. Apropiado para conteo, tareas de clasificación y actividades de categorización.",
+      "downloadButton": "Descargar PDF de recortables"
+    },
     "locales": {
       "heading": "Idiomas disponibles",
       "subheading": "Este paquete didáctico tiene contenido creado en los siguientes idiomas."

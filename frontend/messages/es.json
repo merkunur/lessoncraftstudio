@@ -1542,6 +1542,12 @@
       "description": "Imprima esta PDF de referencia del docente antes de la clase. Agrega los ejercicios compuestos, los materiales imprimibles, el marco pedagógico, los criterios de evaluación y los estándares curriculares en un único documento listo para el aula.",
       "downloadButton": "Descargar PDF de referencia del docente"
     },
+    "parentLetter": {
+      "heading": "Carta para familias",
+      "subheading": "Carta de una sola página para llevar a casa: resumen cálido de la unidad más una cuadrícula de imágenes con etiquetas en el idioma destino",
+      "description": "Imprima esta carta de una página y envíela a casa con el niño o niña al final de la unidad. El texto principal está en el idioma del hogar de los padres; las etiquetas de las imágenes están en el idioma destino del paquete, para que la familia practique el nuevo vocabulario en casa. Incluye una línea de firma para el docente.",
+      "downloadButton": "Descargar carta para familias PDF"
+    },
     "locales": {
       "heading": "Idiomas disponibles",
       "subheading": "Este paquete didáctico tiene contenido creado en los siguientes idiomas."

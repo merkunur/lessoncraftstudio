@@ -24,7 +24,7 @@ const MATERIAL_STATUS: Record<string, MaterialStatusEntry> = {
   'picture-cards': { status: 'shipped', shippedAnchor: '#picture-cards' },
   'sentence-strips': { status: 'substrate-gap' },
   'manipulative-cut-outs': { status: 'shipped', shippedAnchor: '#manipulative-cut-outs' },
-  'parent-take-home-letter': { status: 'substrate-gap' },
+  'parent-take-home-letter': { status: 'shipped', shippedAnchor: '#parent-letter' },
   'answer-key': { status: 'shipped', shippedAnchor: '#answer-key' },
   'matching-mat': { status: 'substrate-gap' },
   'vocabulary-tracing-strips': { status: 'substrate-gap' },

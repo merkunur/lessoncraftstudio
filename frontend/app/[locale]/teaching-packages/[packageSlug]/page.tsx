@@ -15,6 +15,7 @@ import TeachingPackagePictureCardsSection from '@/components/teaching-packages/T
 import TeachingPackageNumeralCardsSection from '@/components/teaching-packages/TeachingPackageNumeralCardsSection';
 import TeachingPackageManipulativeCutOutsSection from '@/components/teaching-packages/TeachingPackageManipulativeCutOutsSection';
 import TeachingPackageAnswerKeySection from '@/components/teaching-packages/TeachingPackageAnswerKeySection';
+import TeachingPackageParentLetterSection from '@/components/teaching-packages/TeachingPackageParentLetterSection';
 
 // Pillar 1 + Pillar 2 + Pillar 4 evaluation-surface commission Phase 2.
 // Per-package teaching-package detail surface composing the full canonical
@@ -132,6 +133,16 @@ export default async function TeachingPackageDetailPage({
         if (!akMaterial) return null;
         return (
           <TeachingPackageAnswerKeySection
+            locale={params.locale}
+            packageSlug={pkg.targetSlug}
+          />
+        );
+      })()}
+      {(() => {
+        const plMaterial = pkg.materials.find((m) => m.materialSlug === 'parent-take-home-letter');
+        if (!plMaterial) return null;
+        return (
+          <TeachingPackageParentLetterSection
             locale={params.locale}
             packageSlug={pkg.targetSlug}
           />

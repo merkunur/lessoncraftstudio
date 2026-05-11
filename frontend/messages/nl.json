@@ -1529,6 +1529,12 @@
       "description": "Druk deze leerkrachtreferentie-PDF voor de les af. Hij voegt de samengestelde oefeningen, afdrukbare materialen, het pedagogische kader, de evaluatiecriteria en de curriculumstandaarden samen in één lesgereed document voor de leerkracht.",
       "downloadButton": "Download leerkrachtreferentie-PDF"
     },
+    "parentLetter": {
+      "heading": "Ouderbrief",
+      "subheading": "Eenzijdige brief voor families om mee naar huis te nemen: warme samenvatting van de lessenreeks plus een raster met afbeeldingen met labels in de doeltaal",
+      "description": "Druk deze eenzijdige brief af en geef hem aan het einde van de lessenreeks mee aan het kind. De lopende tekst staat in de thuistaal van de ouders; de labels bij de afbeeldingen staan in de doeltaal van het pakket, zodat het gezin de nieuwe woordenschat samen kan oefenen. De brief bevat een handtekeningregel voor de leerkracht.",
+      "downloadButton": "Download ouderbrief-PDF"
+    },
     "locales": {
       "heading": "Beschikbare talen",
       "subheading": "Dit lespakket heeft inhoud in de volgende talen."

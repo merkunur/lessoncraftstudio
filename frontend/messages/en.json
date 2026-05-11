@@ -1258,6 +1258,12 @@
       "description": "Print this teacher-reference PDF before the lesson. It aggregates the composed exercises, printable materials, pedagogical framing, assessment criteria, and curriculum standards into a single classroom-ready handout for the teacher.",
       "downloadButton": "Download teacher-reference PDF"
     },
+    "parentLetter": {
+      "heading": "Parent letter",
+      "subheading": "Single-page take-home letter for families: warm-tone summary of the unit plus a picture-cue grid with target-language labels",
+      "description": "Print this single-page letter and send it home with the student at unit end. Body prose is in the parent's home language; picture-cue labels are in the deck's target language so the family can practice the new vocabulary together. The letter includes a signature line for the teacher.",
+      "downloadButton": "Download parent letter PDF"
+    },
     "locales": {
       "heading": "Available languages",
       "subheading": "This teaching package has authored content in the following languages."

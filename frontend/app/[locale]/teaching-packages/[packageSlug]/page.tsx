@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getTranslations } from 'next-intl/server';
-import { loadTeachingPackage, localizedField } from '@/lib/teaching-packages/teaching-package-loader';
+import { loadTeachingPackage, listAvailableLocales, localizedField } from '@/lib/teaching-packages/teaching-package-loader';
 import TeachingPackageHeader from '@/components/teaching-packages/TeachingPackageHeader';
 import TeachingPackageTaxonomy from '@/components/teaching-packages/TeachingPackageTaxonomy';
 import TeachingPackageStructure from '@/components/teaching-packages/TeachingPackageStructure';
@@ -9,6 +9,7 @@ import TeachingPackageExerciseList from '@/components/teaching-packages/Teaching
 import TeachingPackageMaterialsList from '@/components/teaching-packages/TeachingPackageMaterialsList';
 import TeachingPackageAssessment from '@/components/teaching-packages/TeachingPackageAssessment';
 import TeachingPackageFlashcardsSection from '@/components/teaching-packages/TeachingPackageFlashcardsSection';
+import TeachingPackageLocaleVariants from '@/components/teaching-packages/TeachingPackageLocaleVariants';
 
 // Pillar 1 + Pillar 2 + Pillar 4 evaluation-surface commission Phase 2.
 // Per-package teaching-package detail surface composing the full canonical
@@ -28,7 +29,7 @@ export async function generateMetadata({
 }: {
   params: { locale: string; packageSlug: string };
 }): Promise<Metadata> {
-  const pkg = loadTeachingPackage(params.packageSlug);
+  const pkg = loadTeachingPackage(params.packageSlug, params.locale);
   if (!pkg) return { robots: { index: false, follow: false } };
 
   const title = localizedField(pkg.title, params.locale);
@@ -46,8 +47,10 @@ export default async function TeachingPackageDetailPage({
 }: {
   params: { locale: string; packageSlug: string };
 }) {
-  const pkg = loadTeachingPackage(params.packageSlug);
+  const pkg = loadTeachingPackage(params.packageSlug, params.locale);
   if (!pkg) notFound();
+
+  const availableLocales = listAvailableLocales(params.packageSlug);
 
   const t = await getTranslations({
     locale: params.locale,
@@ -67,6 +70,11 @@ export default async function TeachingPackageDetailPage({
       </p>
 
       <TeachingPackageHeader pkg={pkg} locale={params.locale} />
+      <TeachingPackageLocaleVariants
+        slug={pkg.targetSlug}
+        currentLocale={params.locale}
+        availableLocales={availableLocales}
+      />
       <TeachingPackageTaxonomy pkg={pkg} locale={params.locale} />
       <TeachingPackageStructure pkg={pkg} locale={params.locale} />
       <TeachingPackageExerciseList pkg={pkg} locale={params.locale} />

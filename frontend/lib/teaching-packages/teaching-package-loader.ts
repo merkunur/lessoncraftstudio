@@ -87,10 +87,17 @@ export interface TeachingPackage {
 }
 
 /**
- * Loads a teaching package by slug. Returns null if package doesn't exist
- * (caller should 404 for unknown packages).
+ * Loads a teaching package by slug + optional locale. Returns null if package
+ * doesn't exist (caller should 404 for unknown packages).
+ *
+ * Locale-variant sparse-override pattern (per Arc 3 Phase 2):
+ *   docs/lesson-plans/packages/<slug>/package.yaml       — master (en)
+ *   docs/lesson-plans/packages/<slug>/package.<loc>.yaml — sparse override
+ *
+ * Sparse-override files provide title/description/structure body texts in
+ * target locale; composedExercises + materials inherit from master.
  */
-export function loadTeachingPackage(slug: string): TeachingPackage | null {
+export function loadTeachingPackage(slug: string, locale: string = 'en'): TeachingPackage | null {
   // Defend against directory-traversal in slug. Slugs are kebab-case
   // [a-z0-9-]+; anything else is rejected.
   if (!/^[a-z0-9-]+$/.test(slug)) {
@@ -110,7 +117,7 @@ export function loadTeachingPackage(slug: string): TeachingPackage | null {
 
   // Default-fill required fields to canonical shapes (defensive against
   // YAML authoring variance).
-  return {
+  const master: TeachingPackage = {
     targetSlug: parsed.targetSlug ?? slug,
     language: parsed.language ?? 'en',
     title: parsed.title ?? {},
@@ -127,6 +134,63 @@ export function loadTeachingPackage(slug: string): TeachingPackage | null {
     lessonPlanId: parsed.lessonPlanId ?? null,
     generatedBy: parsed.generatedBy ?? 'manual',
   };
+
+  // If non-en locale + sparse-override file exists, merge text fields.
+  if (locale !== 'en') {
+    const overridePath = path.join(PACKAGES_ROOT, slug, `package.${locale}.yaml`);
+    if (fs.existsSync(overridePath)) {
+      const overrideRaw = fs.readFileSync(overridePath, 'utf8');
+      const override = yaml.load(overrideRaw) as Partial<TeachingPackage> | null;
+      if (override && typeof override === 'object') {
+        master.title = { ...master.title, ...(override.title ?? {}) };
+        master.description = { ...master.description, ...(override.description ?? {}) };
+        master.compositionalRationale = {
+          ...master.compositionalRationale,
+          ...(override.compositionalRationale ?? {}),
+        };
+        master.assessmentCriteria = {
+          ...master.assessmentCriteria,
+          ...(override.assessmentCriteria ?? {}),
+        };
+        // Structure: merge per-phase body if override provides it
+        if (override.structure) {
+          const mergedStructure = { ...master.structure };
+          for (const phase of ['warmup', 'contentActivity', 'scaffold', 'closure'] as const) {
+            const overridePhase = override.structure[phase];
+            const masterPhase = mergedStructure[phase];
+            if (overridePhase && masterPhase) {
+              mergedStructure[phase] = {
+                durationMinutes: masterPhase.durationMinutes,
+                body: overridePhase.body ?? masterPhase.body,
+              };
+            }
+          }
+          master.structure = mergedStructure;
+        }
+      }
+    }
+  }
+
+  return master;
+}
+
+/**
+ * Returns list of locales for which a sparse-override file exists for the
+ * given package slug. Always includes 'en' (master) as available.
+ */
+export function listAvailableLocales(slug: string): string[] {
+  if (!/^[a-z0-9-]+$/.test(slug)) {
+    return [];
+  }
+  const dir = path.join(PACKAGES_ROOT, slug);
+  if (!fs.existsSync(dir)) return [];
+  const entries = fs.readdirSync(dir);
+  const locales: string[] = ['en'];
+  for (const entry of entries) {
+    const match = /^package\.([a-z]{2})\.yaml$/.exec(entry);
+    if (match) locales.push(match[1]);
+  }
+  return locales;
 }
 
 /**

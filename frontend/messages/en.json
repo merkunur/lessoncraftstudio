@@ -1233,6 +1233,10 @@
     "flashcards": {
       "heading": "Flashcards",
       "subheading": "Digital deck + printable PDFs paired with this package"
+    },
+    "locales": {
+      "heading": "Available languages",
+      "subheading": "This teaching package has authored content in the following languages."
     }
   }
 }

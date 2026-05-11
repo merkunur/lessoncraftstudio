@@ -1,0 +1,141 @@
+# Teaching package — ler horas em relógio analógico (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 15 Phase 3 per Arc 3 Phase 1 sparse-override pattern).
+# pt sparse-override for time-and-routine SATURATED strand. 11th consecutive
+# pt arc per locked sequence. Conteúdo universal de leitura-de-horas com
+# pt-BR-specific time-expression idioms ("meia-hora" structure differs
+# significantly from en "half-past"). BR-MEC educação infantil register per
+# CLAUDE.md §6 + formal "você" address per §17.9.
+
+title:
+  pt: "Lendo as Horas — horas e meia-horas no relógio analógico"
+description:
+  pt: "Pacote de matemática para 1º / 2º ano que ensina as crianças a lerem horas em um relógio analógico (posições de hora cheia e meia-hora). Constrói sobre o Arco 14 Fase 4 compare-by-time-duration + base anterior identify-days-of-week + identify-months-of-year. Pacote saturador do fio cognitive-and-executive-function / time-and-routine em 4/4 — 14º fio saturado na plataforma. As crianças aprendem o mostrador de 12 posições, identificam o ponteiro das horas vs o ponteiro dos minutos, leem 'hora cheia' (12 horas, 1 hora, 2 horas...) + 'meia hora' (1 e meia, 2 e meia...). Ponte crítica da comparação-de-duração-de-tempo (Arco 14) para a leitura-formal-de-tempo (baseada-em-relógio). Especificidade pt-BR: a estrutura idiomática para meia-hora difere do inglês — pt-BR diz 'uma e meia' ou 'meia-hora depois da uma' (NÃO 'metade de duas'). 5 exercícios + 7 materiais imprimíveis em uma unidade de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Iniciador com toda a turma + introdução do relógio analógico.
+      A professora ou o professor exibe um grande mostrador de
+      relógio analógico + aponta para as características: "Este é
+      um relógio — ele nos diz as HORAS. Veem os 12 números ao
+      redor da borda? Veem DOIS ponteiros? O ponteiro CURTO é o
+      ponteiro das HORAS. O ponteiro COMPRIDO é o ponteiro dos
+      MINUTOS. Quando o ponteiro comprido aponta para o 12,
+      dizemos: É hora cheia. Quando o ponteiro comprido aponta
+      para o 6, dizemos: É meia-hora." Demonstra 3 posições: 3
+      horas (ponteiro das horas no 3, minutos no 12) / 6 e meia
+      (ponteiro das horas entre 6 e 7, minutos no 6) / 9 horas
+      (horas no 9, minutos no 12). Turma repete: "3 horas! 6 e
+      meia! 9 horas!" Especificidade pt-BR: enfatize "e meia"
+      como construção pt-BR canônica (NÃO "metade de" — isso é
+      tradução literal do inglês "half-past").
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de leitura-de-relógio. Cada
+      dupla recebe 8 mostradores de relógio analógico impressos
+      mostrando horários diferentes (mix de horas cheias + meia-
+      horas: 2 horas, 5 e meia, 8 horas, 11 e meia, 3 e meia, 7
+      horas, 10 e meia, 12 horas). Dupla alterna: criança A lê o
+      horário em voz alta; criança B escreve em formato digital
+      ("2 horas" ou "5:30"). Inverta papéis. A professora ou o
+      professor circula; refraseia erros com rastreamento-de-
+      ponteiros ("qual ponteiro é o CURTO? Esse é o de HORAS. Para
+      onde aponta? Entre 5 e 6. O ponteiro comprido está no 6 —
+      meia-hora. Então isso é '5 e meia', ou 5:30.").
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios de
+      emparelhamento (mostrador de relógio analógico para formato
+      digital de horário). Estação 2: folha de exercícios missing-
+      pieces (mostrador de relógio com um ponteiro faltando — a
+      criança identifica que horário deveria mostrar). Estação 3:
+      folha de exercícios pattern-train (sequenciar 4 mostradores
+      de relógio mostrando manhã → meio-dia → tarde → noite).
+      Estação 4: vocabulary-tracing-strips para vocabulário de
+      leitura-de-tempo. Vocabulário pt-BR canônico: hora, minuto,
+      hora cheia (NÃO "em ponto" como expressão única em pt-BR),
+      "e meia" (estrutura idiomática), manhã, meio-dia, tarde,
+      noite, da manhã (AM), da tarde (PM).
+  closure:
+    body: |
+      Revisão de leitura-de-tempo com toda a turma. A professora
+      ou o professor exibe 6 mostradores de relógio diferentes; a
+      turma coletivamente lê cada horário. "4 horas! 10 e meia!
+      1 hora! 7 e meia!" Indicador adiante: "Hoje lemos horas
+      cheias e meia-horas. Quando voltarmos na próxima vez,
+      poderemos ler QUARTOS-DE-HORA (15 e 45 minutos depois) +
+      ler horários de 5-em-5 minutos + aprender da MANHÃ vs da
+      TARDE!"
+
+assessmentCriteria:
+  pt: |
+    Ao final da unidade de 1 semana:
+      - Ler 8 mostradores de relógio analógico (mix de horas
+        cheias + meia-horas) corretamente em 7 de 10 tentativas.
+      - Distinguir o ponteiro das horas do ponteiro dos minutos
+        em 9 de 10 tentativas.
+      - Ajustar os ponteiros do relógio para um horário dado
+        ("mostre-me 3 e meia") em 6 de 10 tentativas.
+      - Usar vocabulário HORA CHEIA / E MEIA / HORA / MINUTO
+        corretamente em 7 de 10 tentativas.
+
+    Diferenciação:
+      - Pré-K (3-5 anos): pular leitura de relógio analógico;
+        revisar identify-days-of-week + identify-months-of-year
+        apenas.
+      - Educação infantil (5-7 anos): leitura apenas de horas
+        cheias (pular meia-hora); 6 posições de hora no máximo.
+      - 1º ano: cobertura completa de hora-cheia + meia-hora.
+      - 2º ano em diante: estender para quartos-de-hora (15 e 45
+        minutos depois) + leitura de 5-em-5 minutos + distinção
+        manhã/tarde + ponte para relógio digital + formato 24h
+        (importante no Brasil — uso oficial em rádio/TV/agenda
+        + transporte público).
+
+compositionalRationale:
+  pt: |
+    Fio principal: cognitive-and-executive-function / time-and-
+    routine (leitura de relógio analógico — satura fio em 4/4).
+    Fio secundário: matemática / measurement (tempo como dimensão
+    mensurável — paralelo a comprimento/peso/capacidade/duração).
+    Fio terciário: aquisição-de-vocabulário (vocabulário de
+    leitura-de-tempo).
+
+    Significância arquitetural: SATURA o fio time-and-routine em
+    4/4 — 14º fio saturado na plataforma. Constrói sobre Arc 14
+    Fase 4 compare-by-time-duration + base anterior time-and-
+    routine. Ponte crítica da comparação-de-tempo (qualitativa)
+    para a leitura-formal-de-tempo (quantitativa).
+
+    Especificidade pt-BR: o sistema de expressões de tempo em
+    pt-BR difere estruturalmente do inglês:
+    - **"hora cheia"** pt-BR: "1 hora", "2 horas", "3 horas"...
+      (singular "hora" para 1; plural "horas" para 2+). Inglês
+      "1 o'clock", "2 o'clock"... usa "o'clock" fixo.
+    - **"meia-hora" idiom** pt-BR: "1 e meia" / "2 e meia" /
+      "3 e meia". Estrutura "número + e meia". Inglês "half past
+      1" / "half past 2" / "half past 3". NÃO traduza "half past"
+      literalmente — pt-BR não usa estrutura "meia depois de" no
+      contexto coloquial K-3.
+    - **AM/PM em pt-BR**: "da manhã" + "da tarde" + "da noite".
+      Inglês usa "AM" / "PM" diretamente. pt-BR formal usa "h00"
+      (10h00 = 10 da manhã) + formato 24h em contextos oficiais
+      (rádio: "São 14 horas").
+
+    Contexto cultural pt-BR: o Brasil utiliza relógios analógicos
+    + digitais em diferentes contextos — analógico em escolas +
+    relógios de pulso tradicionais; digital em smartphones +
+    aparelhos modernos. Formato 24h é PADRÃO em contextos
+    oficiais (radio/TV/transporte público); formato 12h+AM/PM é
+    mais comum em conversação informal. Currículo K-3 introduz
+    primeiro o analógico clássico para entender o conceito
+    sequencial das horas + ponteiros, depois ponte para digital.
+
+    Currículo BNCC EF01MA22 + 2º ano EF02MA18: leitura de horas
+    + meia-horas em relógio analógico; reconhecimento de unidades
+    de tempo + uso de calendário.
+
+    Substrato Class B FLEXIBLE: composta contra tema miscellaneous
+    (imagens de relógio + visuais abstratos relacionados a tempo);
+    material clock-mat é o substrato canônico de prática.

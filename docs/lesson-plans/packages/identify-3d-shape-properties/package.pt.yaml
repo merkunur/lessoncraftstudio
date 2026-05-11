@@ -1,0 +1,132 @@
+# Teaching package — identificar propriedades de formas 3D (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 15 Phase 3 per Arc 3 Phase 1 sparse-override pattern).
+# pt sparse-override for math / geometry strand. Conteúdo geométrico universal —
+# tradução direta sem reestruturação pedagógica. BR-MEC educação infantil
+# register per CLAUDE.md §6 + formal "você" address per §17.9.
+
+title:
+  pt: "Formas 3D — contando faces, arestas e cantos"
+description:
+  pt: "Pacote de matemática para 1º / 2º ano que ensina as crianças a identificar propriedades de formas 3D comuns: número de faces, arestas e cantos (vértices). Exemplos: cubo tem 6 faces, 12 arestas, 8 cantos; cilindro tem 2 faces planas + 1 face curva, 2 arestas, 0 cantos; esfera tem 1 face, 0 arestas, 0 cantos. Constrói sobre Arc 9-13 identify-3d-shapes + describe-shape-attributes como base. Estende o fio de geometria do trabalho de nomeação-de-formas + atributos-2D para análise quantitativa de propriedades-3D. Ponte crítica do reconhecimento-visual-de-formas (2D) para o raciocínio-de-propriedades-espaciais (3D); base para trabalho futuro de área + volume + área-de-superfície. 5 exercícios + 7 materiais imprimíveis em uma unidade de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Iniciador + introdução de propriedades de formas 3D com toda
+      a turma. A professora ou o professor exibe um cubo + traça
+      com o dedo enquanto descreve: "Um cubo tem 6 FACES — lados
+      planos que podemos ver (toca uma face, depois outra,
+      contando até 6). Tem 12 ARESTAS — onde duas faces se
+      encontram em uma LINHA (traça uma aresta). E 8 CANTOS —
+      onde três arestas se encontram em um PONTO (toca um canto)."
+      Turma repete: "Cubo: 6 faces, 12 arestas, 8 cantos!"
+      Repete com esfera ("1 face, 0 arestas, 0 cantos — tudo
+      curvo!") + cone ("1 face plana + 1 curva, 1 aresta onde a
+      curva encontra a plana, 1 canto na ponta"). Especificidade
+      pt-BR: vocabulário geométrico pt-BR é em grande parte
+      cognato — face, aresta, vértice, cubo, esfera, cone,
+      cilindro são todos cognatos com inglês. "Canto" + "vértice"
+      são intercambiáveis em pt-BR K-3 (canto = informal; vértice
+      = formal).
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de contagem-de-propriedades.
+      Cada dupla recebe 8 cartas de imagem (cubo + esfera + cone
+      + cilindro + paralelepípedo + pirâmide + 2 formas adicionais
+      mais simples) + uma folha de exercícios de contagem-de-
+      propriedades. Dupla alterna: criança A escolhe uma carta de
+      forma; criança B conta + escreve faces / arestas / cantos.
+      Refraseie erros com demonstração-de-traçado-com-dedo +
+      referência-de-forma-concreta (se a turma tiver
+      manipulativos de formas 3D, use-os). Formas complicadas —
+      arestas de cilindro (2 círculos contam como arestas onde
+      plano-encontra-curvo); vértice de cone (1 ponto no topo).
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios de
+      emparelhamento (forma 3D para tripla-de-propriedades: cubo
+      ↔ 6F/12A/8V). Estação 2: folha de exercícios pattern-train
+      (sequenciar formas por contagem-de-faces: 1, 1, 2, 5, 6,
+      6, ...). Estação 3: math-puzzle (encontrar forma a partir
+      de propriedades: "Eu tenho 5 faces e 8 arestas e 5 cantos
+      — que forma sou eu?" Resposta: pirâmide de base quadrada).
+      Estação 4: vocabulary-tracing-strips para vocabulário de
+      formas 3D + propriedades (face, aresta, canto, vértice,
+      lado, plano, curvo).
+  closure:
+    body: |
+      Revisão de propriedades 3D com toda a turma. A professora
+      ou o professor exibe 5 formas; a turma coletivamente nomeia
+      propriedades para cada uma. "Cubo: 6 faces, 12 arestas, 8
+      cantos! Esfera: 1 face, 0 arestas, 0 cantos!" Indicador
+      adiante: "Hoje contamos faces, arestas e cantos. Quando
+      voltarmos na próxima vez, podemos MEDIR formas — encontrar
+      sua área (espaço plano dentro) e volume (espaço dentro de
+      uma forma 3D) usando quadrados de grade + cubos de unidade!"
+
+assessmentCriteria:
+  pt: |
+    Ao final da unidade de 1 semana:
+      - Identificar faces, arestas e cantos em 5 de 6 formas 3D
+        comuns corretamente em 7 de 10 tentativas.
+      - Usar vocabulário FACE / ARESTA / CANTO / VÉRTICE
+        corretamente em 7 de 10 tentativas.
+      - Identificar uma forma 3D a partir de sua lista de
+        propriedades (ex: "5 faces + 8 arestas + 5 cantos =
+        pirâmide de base quadrada") em 6 de 10 tentativas.
+
+    Diferenciação:
+      - Pré-K (3-5 anos): revisar apenas nomes de formas 3D; sem
+        contagem-de-propriedades.
+      - Educação infantil (5-7 anos): contagem-de-faces apenas
+        (pular arestas + cantos); 3 tipos de formas (cubo, esfera,
+        cilindro).
+      - 1º ano: contagem-de-faces + arestas + cantos para 5-6
+        tipos de formas.
+      - 2º ano em diante: estender para área + volume + área-de-
+        superfície bases conceituais + ponte para trabalho formal
+        de medição geométrica.
+
+compositionalRationale:
+  pt: |
+    Fio principal: matemática / geometria (análise de propriedades
+    de formas 3D — estende fio com trabalho de análise-
+    quantitativa). Fio secundário: aquisição-de-vocabulário
+    (vocabulário de formas 3D + propriedades: face, aresta, canto,
+    vértice). Fio terciário: cognitive-and-executive-function /
+    contagem (contar faces/arestas/cantos requer contagem
+    sistemática).
+
+    Significância arquitetural: estende o fio de geometria do
+    trabalho de nomeação-de-formas (Arcs 9-13) + trabalho de
+    atributos-2D (describe-shape-attributes) + desenho-2D (Arc
+    14 Fase 2 trace-2d-shapes + draw-2d-shapes-freehand) para
+    análise quantitativa de propriedades-3D. Ponte crítica do
+    reconhecimento-visual-de-formas (2D) para o raciocínio-de-
+    propriedades-espaciais (3D); base para trabalho futuro de
+    área, volume, área-de-superfície.
+
+    Especificidade pt-BR: vocabulário de formas 3D é cognato-rico
+    Romance + Germanic; pt-BR particularmente acessível:
+    - **cubo / esfera / cone / cilindro / paralelepípedo /
+      pirâmide** — todos cognatos universais; reconhecimento
+      cross-locale natural.
+    - **face** — cognato pt-BR; usado tanto para anatomia
+      (face do corpo) quanto para geometria (face de forma).
+      Contexto desambigua.
+    - **aresta** — pt-BR canônico para "edge" (linha onde duas
+      faces se encontram). Cognato Romance (arista em es; arête
+      em fr).
+    - **canto** vs **vértice** — pt-BR K-3 usa "canto" como
+      forma informal natural; "vértice" é forma técnica/formal.
+      Ambos aceitos; "canto" mais acessível para K-3 contexto.
+
+    Currículo BNCC EF01MA13 + 2º ano EF02MA14: reconhecimento de
+    figuras geométricas espaciais + identificação de
+    características; uso de propriedades para classificar.
+
+    Substrato Class B FLEXIBLE: composta contra tema shapes; formas
+    3D precisam de representação visual rica. Manipulative-cut-outs
+    em modo 3d-shape-nets produz nets-de-formas-dobráveis para
+    trabalho tátil.

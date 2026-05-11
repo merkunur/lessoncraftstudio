@@ -45,6 +45,12 @@ import {
   writeDigitalViewer,
   writePrintPdf,
 } from './lib/flashcard-render';
+import {
+  loadAllPackages,
+  loadPackagesBySlugs,
+  resolveImagesForPackage,
+  FlashcardPackage,
+} from './lib/flashcard-package-loader';
 
 const REPO_ROOT = path.resolve(__dirname, '..', '..');
 const IMAGE_LIBRARY_ROOT = path.join(REPO_ROOT, 'image library');
@@ -60,6 +66,11 @@ interface CliArgs {
   layouts: (6 | 9)[];               // print layouts to emit
   digitalOnly: boolean;
   printOnly: boolean;
+  // Arc 2 Phase 2 additions per Q1-(b) consolidated-triple lock:
+  allPackages: boolean;              // iterate all packages with flashcards material
+  packages: string[];                // subset of package slugs
+  resume: boolean;                   // skip when destination files already exist
+  concurrency: number;               // parallel worker count (default 4)
 }
 
 function parseArgs(argv: string[]): CliArgs {
@@ -71,6 +82,10 @@ function parseArgs(argv: string[]): CliArgs {
     layouts: [6, 9],
     digitalOnly: false,
     printOnly: false,
+    allPackages: false,
+    packages: [],
+    resume: false,
+    concurrency: 4,
   };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
@@ -81,6 +96,10 @@ function parseArgs(argv: string[]): CliArgs {
     else if (a === '--layouts') args.layouts = argv[++i].split(',').map(s => parseInt(s.trim(), 10) as 6 | 9);
     else if (a === '--digital-only') args.digitalOnly = true;
     else if (a === '--print-only') args.printOnly = true;
+    else if (a === '--all-packages') args.allPackages = true;
+    else if (a === '--package' || a === '--packages') args.packages.push(...argv[++i].split(',').map(s => s.trim()).filter(Boolean));
+    else if (a === '--resume') args.resume = true;
+    else if (a === '--concurrency') args.concurrency = parseInt(argv[++i], 10) || 4;
     else if (a === '--help' || a === '-h') {
       printHelp();
       process.exit(0);
@@ -104,10 +123,15 @@ Flags:
   --validation-batch   Run Phase 3 validation batch (CC-curated selection)
   --image <ref>        Single image reference: "themeDir/filename" (no .png)
   --images <list>      Comma-separated image references
+  --all-packages       Arc 2 Phase 2: iterate all packages with flashcards material
+  --package <slug>     Arc 2 Phase 2: render single package
+  --packages <list>    Arc 2 Phase 2: comma-separated package slugs
   --locale <loc>       Single platform locale (en|de|es|nl|fr|it|pt|sv|da|no|fi)
   --locales <list>     Comma-separated locales
   --out <dir>          Output directory (default: ${DEFAULT_OUTPUT})
   --layouts <6,9>      Print layouts to emit (default: 6,9)
+  --resume             Skip (locale, package) tasks whose outputs already exist
+  --concurrency <N>    Parallel worker count (default: 4)
   --digital-only       Skip print PDFs
   --print-only         Skip digital viewer HTML
   --help               Show this message
@@ -266,6 +290,202 @@ async function generateBatch(args: CliArgs): Promise<RenderResult[]> {
   return results;
 }
 
+// ----- Arc 2 Phase 2 per-package mass-run -----
+
+interface PackageTask {
+  pkg: FlashcardPackage;
+  locale: Locale;
+}
+
+interface PackageResult {
+  packageSlug: string;
+  locale: Locale;
+  cardCount: number;
+  digitalOk: boolean;
+  printOk: Record<number, boolean>;
+  skipped: boolean;
+  error?: string;
+}
+
+/**
+ * Run async tasks with bounded concurrency.
+ * Simple worker-pool: spawns N parallel chains processing tasks until exhausted.
+ */
+async function runWithConcurrency<T, R>(
+  tasks: T[],
+  concurrency: number,
+  worker: (t: T) => Promise<R>
+): Promise<R[]> {
+  const results: R[] = [];
+  let cursor = 0;
+  async function chain(): Promise<void> {
+    while (cursor < tasks.length) {
+      const idx = cursor++;
+      try {
+        const r = await worker(tasks[idx]);
+        results[idx] = r;
+      } catch (e: any) {
+        console.error(`worker chain error at task ${idx}:`, e.message);
+      }
+    }
+  }
+  await Promise.all(Array.from({ length: concurrency }, () => chain()));
+  return results;
+}
+
+async function runPackageTask(
+  task: PackageTask,
+  args: CliArgs,
+  vocab: ReturnType<typeof loadVocab>
+): Promise<PackageResult> {
+  const { pkg, locale } = task;
+  const outDir = path.join(args.outDir, locale, pkg.slug);
+  const deckPath = path.join(outDir, 'deck.html');
+  const layoutPaths: Record<number, string> = {};
+  for (const layout of args.layouts) {
+    layoutPaths[layout] = path.join(outDir, `print-${layout}up.pdf`);
+  }
+
+  // --resume: skip if all expected outputs exist
+  if (args.resume) {
+    const wantDigital = !args.printOnly;
+    const wantPrint = !args.digitalOnly;
+    let allExist = true;
+    if (wantDigital && !fs.existsSync(deckPath)) allExist = false;
+    if (wantPrint) {
+      for (const layout of args.layouts) {
+        if (!fs.existsSync(layoutPaths[layout])) { allExist = false; break; }
+      }
+    }
+    if (allExist) {
+      return {
+        packageSlug: pkg.slug,
+        locale,
+        cardCount: pkg.vocabKeys.length,
+        digitalOk: true,
+        printOk: Object.fromEntries(args.layouts.map(l => [l, true])),
+        skipped: true,
+      };
+    }
+  }
+
+  fs.mkdirSync(outDir, { recursive: true });
+
+  // Resolve images for the package's vocab keys
+  const resolved = resolveImagesForPackage(pkg);
+
+  // Build FlashcardCard list for this locale; skip cards lacking vocab entries
+  const cards: FlashcardCard[] = [];
+  for (const r of resolved) {
+    const v = vocab[r.vocabKey];
+    if (!v) continue; // silently skip; warning was issued at loader time if needed
+    cards.push({
+      vocabKey: r.vocabKey,
+      imagePath: r.imagePath,
+      themeDir: r.themeDir,
+      vocab: v,
+      locale,
+    });
+  }
+
+  if (cards.length === 0) {
+    return {
+      packageSlug: pkg.slug,
+      locale,
+      cardCount: 0,
+      digitalOk: false,
+      printOk: {},
+      skipped: false,
+      error: 'no resolvable cards',
+    };
+  }
+
+  const meta = {
+    title: `Flashcards · ${pkg.slug} · ${locale.toUpperCase()}`,
+    locale,
+    packageSlug: pkg.slug,
+  };
+
+  let digitalOk = false;
+  if (!args.printOnly) {
+    try {
+      await writeDigitalViewer(cards, meta, deckPath);
+      digitalOk = true;
+    } catch (e: any) {
+      console.error(`FAIL digital ${locale}/${pkg.slug}: ${e.message}`);
+    }
+  }
+
+  const printOk: Record<number, boolean> = {};
+  if (!args.digitalOnly) {
+    for (const perPage of args.layouts) {
+      try {
+        await writePrintPdf(cards, { perPage, locale }, layoutPaths[perPage]);
+        printOk[perPage] = true;
+      } catch (e: any) {
+        console.error(`FAIL print-${perPage}up ${locale}/${pkg.slug}: ${e.message}`);
+        printOk[perPage] = false;
+      }
+    }
+  }
+
+  return {
+    packageSlug: pkg.slug,
+    locale,
+    cardCount: cards.length,
+    digitalOk,
+    printOk,
+    skipped: false,
+  };
+}
+
+async function generatePackagesBatch(args: CliArgs): Promise<PackageResult[]> {
+  const vocab = loadVocab(REPO_ROOT);
+
+  // Load packages
+  let packages: Map<string, FlashcardPackage>;
+  if (args.allPackages) {
+    packages = loadAllPackages();
+  } else {
+    packages = loadPackagesBySlugs(args.packages);
+  }
+
+  if (packages.size === 0) {
+    console.error('No packages loaded. Check --all-packages or --packages list.');
+    return [];
+  }
+
+  console.log(`Packages: ${packages.size}`);
+  console.log(`Locales:  ${args.locales.join(', ')}`);
+  console.log(`Concurrency: ${args.concurrency}`);
+  console.log(`Resume:   ${args.resume ? 'YES' : 'NO'}`);
+
+  // Build task list: (package, locale) pairs
+  const tasks: PackageTask[] = [];
+  for (const pkg of packages.values()) {
+    for (const locale of args.locales) {
+      tasks.push({ pkg, locale });
+    }
+  }
+  console.log(`Total tasks: ${tasks.length}`);
+  console.log('');
+
+  // Run with concurrency
+  let completed = 0;
+  const startTime = Date.now();
+  const results = await runWithConcurrency(tasks, args.concurrency, async (task) => {
+    const r = await runPackageTask(task, args, vocab);
+    completed++;
+    if (completed % 50 === 0 || completed === tasks.length) {
+      const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
+      console.log(`  progress: ${completed}/${tasks.length} (${elapsed}s elapsed)`);
+    }
+    return r;
+  });
+
+  return results;
+}
+
 // ----- Validation batch README -----
 
 function writeValidationReadme(args: CliArgs, results: RenderResult[]): void {
@@ -352,9 +572,16 @@ async function main(): Promise<void> {
     if (args.locales.length === 0) args.locales = [...VALIDATION_BATCH_LOCALES];
   }
 
+  // Per-package mode default (Arc 2 Phase 2): if --all-packages or --packages,
+  // default locales to all platform locales unless overridden.
+  const packageMode = args.allPackages || args.packages.length > 0;
+  if (packageMode && args.locales.length === 0) {
+    args.locales = [...PLATFORM_LOCALES];
+  }
+
   // Defaults if nothing specified
-  if (args.images.length === 0) {
-    console.error('No images specified. Use --image, --images, or --validation-batch.');
+  if (!packageMode && args.images.length === 0) {
+    console.error('No images specified. Use --image, --images, --validation-batch, --all-packages, or --packages.');
     process.exit(2);
   }
   if (args.locales.length === 0) args.locales = ['en'];
@@ -369,8 +596,8 @@ async function main(): Promise<void> {
   }
 
   console.log('=== generate-flashcards.ts ===');
-  console.log(`mode:    ${args.validationBatch ? 'validation-batch' : 'custom'}`);
-  console.log(`images:  ${args.images.length}`);
+  console.log(`mode:    ${packageMode ? 'package' : args.validationBatch ? 'validation-batch' : 'custom'}`);
+  if (!packageMode) console.log(`images:  ${args.images.length}`);
   console.log(`locales: ${args.locales.join(', ')}`);
   console.log(`out:     ${args.outDir}`);
   console.log('');
@@ -378,10 +605,15 @@ async function main(): Promise<void> {
   fs.mkdirSync(args.outDir, { recursive: true });
 
   let results: RenderResult[] = [];
+  let packageResults: PackageResult[] = [];
   let failed = 0;
   try {
-    results = await generateBatch(args);
-    if (args.validationBatch) writeValidationReadme(args, results);
+    if (packageMode) {
+      packageResults = await generatePackagesBatch(args);
+    } else {
+      results = await generateBatch(args);
+      if (args.validationBatch) writeValidationReadme(args, results);
+    }
   } catch (e: any) {
     console.error(`pipeline failure: ${e.message}`);
     failed = 1;
@@ -391,11 +623,24 @@ async function main(): Promise<void> {
 
   console.log('');
   console.log('=== summary ===');
-  console.log(`  total cards:    ${results.length}`);
-  console.log(`  digital ok:     ${results.filter(r => r.digitalOk).length}`);
-  console.log(`  print 6up ok:   ${results.filter(r => r.printOk[6]).length}`);
-  console.log(`  print 9up ok:   ${results.filter(r => r.printOk[9]).length}`);
-  console.log(`  output dir:     ${args.outDir}`);
+  if (packageMode) {
+    const skipped = packageResults.filter(r => r.skipped).length;
+    const digitalOk = packageResults.filter(r => r.digitalOk).length;
+    const print6Ok = packageResults.filter(r => r.printOk[6]).length;
+    const print9Ok = packageResults.filter(r => r.printOk[9]).length;
+    console.log(`  total tasks:    ${packageResults.length}`);
+    console.log(`  skipped (resume):${skipped}`);
+    console.log(`  digital ok:     ${digitalOk}`);
+    console.log(`  print 6up ok:   ${print6Ok}`);
+    console.log(`  print 9up ok:   ${print9Ok}`);
+    console.log(`  output dir:     ${args.outDir}`);
+  } else {
+    console.log(`  total cards:    ${results.length}`);
+    console.log(`  digital ok:     ${results.filter(r => r.digitalOk).length}`);
+    console.log(`  print 6up ok:   ${results.filter(r => r.printOk[6]).length}`);
+    console.log(`  print 9up ok:   ${results.filter(r => r.printOk[9]).length}`);
+    console.log(`  output dir:     ${args.outDir}`);
+  }
 
   process.exit(failed);
 }

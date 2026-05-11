@@ -88,14 +88,13 @@ composedExercises:
 materials:
   - materialSlug: flashcards
     customizationParameters:
-      imageSource: vocabKeyList
-      vocabKeys: []
-      cardCount: 0
+      imageSource: theme
+      themeName: animals
+      cardCount: 8
       cardsPerPage: 4
       colorMode: color
       labelDisplay: singular
       labelCase: lowercase
-      showArticle: false
       paperSize: a4
       language: en
       borderStyle: thick

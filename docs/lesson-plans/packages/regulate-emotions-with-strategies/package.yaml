@@ -1,0 +1,243 @@
+# Teaching package — regulate emotions with strategies
+# Arc 15 Phase 4 (science / personal-social-emotional-development 1/6 → 2/6).
+# Deepens Arc 15 Phase 2 express-feelings-with-words foundation.
+
+targetSlug: regulate-emotions-with-strategies
+language: en
+title:
+  en: "Calming Down — strategies for big feelings"
+description:
+  en: "Kindergarten / Grade 1 social-emotional package teaching kids practical calming strategies for managing BIG feelings (anger, frustration, fear, sadness, excitement). Builds on Arc 15 Phase 2 express-feelings-with-words foundation (recognition + naming). Extends to ACTIVE emotion-regulation work — what to DO when big feelings arise. 5 strategies taught: DEEP BREATHING (4-count inhale, 4-count exhale); SAFE PLACE (visualize calm setting); COUNT TO TEN (slow internal counting); MOVE BODY (jumping, stretching, walking); ASK FOR HELP (find trusted adult). Critical bridge from emotional-expression (Arc 15 Phase 2) to emotional-regulation (active self-management). Foundation for later conflict-resolution + peer-relationship work. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook + calming-strategies introduction. Teacher
+      asks: "When you have a BIG feeling — like really angry, or
+      really scared, or really sad — what can you DO to feel
+      better? Today we'll learn FIVE strategies. Strategy 1:
+      DEEP BREATHING — breathe in slowly for 4 counts (demonstrates:
+      1-2-3-4); breathe OUT slowly for 4 counts (1-2-3-4)." Class
+      practices together. "Strategy 2: SAFE PLACE — close eyes
+      + imagine a place where you feel safe and calm." Continue
+      with strategies 3-5: COUNT TO TEN; MOVE BODY; ASK FOR HELP.
+      Visual + experiential anchor for each strategy.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + strategy-matching routine. Each pair receives
+      8 scenario cards (e.g., "you're frustrated because your
+      puzzle won't fit" / "you're angry because someone took
+      your toy" / "you're scared of the dark at bedtime" / "you're
+      excited and can't sit still"). Pair takes turns: kid A
+      reads scenario; kid B suggests which strategy might help
+      + explains why ("if you're frustrated, take 5 deep breaths
+      to calm your body, then try the puzzle again"). Recast
+      with strategy-pairing reminders ("for ANGER, DEEP BREATHING
+      + MOVE BODY work well; for SAD, SAFE PLACE + ASK FOR HELP
+      often help"). Multiple strategies acceptable per scenario.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching worksheet (scenario
+      to strategy). Station 2: pattern-train worksheet (sequence
+      a calming routine: notice feeling → choose strategy → try
+      strategy → check-in again). Station 3: missing-pieces
+      worksheet (4-step calming routine with one step missing).
+      Station 4: vocabulary-tracing-strips for strategy
+      vocabulary (deep breathing, safe place, count, move body,
+      ask for help, calm, regulate, manage).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class practice. Teacher leads guided practice of all
+      5 strategies. "Let's practice DEEP BREATHING together —
+      breathe in 1-2-3-4, breathe out 1-2-3-4. Now COUNT TO TEN
+      slowly — 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. Now MOVE BODY —
+      stand up + jump in place 10 times." Forward-pointer: "Today
+      we learned 5 calming strategies. When we come back next,
+      we can learn EMPATHY — how to notice others' feelings + how
+      to help friends + family when they have big feelings too!"
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 8, themeSelect: emotions, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: pattern-train
+    exerciseMode: unified
+    customizationParameters: { themeSelect: emotions, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: missing-pieces
+    exerciseMode: unified
+    customizationParameters: { themeSelect: emotions, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 8, themeSelect: emotions, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: picture-sort
+    exerciseMode: unified
+    customizationParameters: { themeSelect: emotions, languageSelect: en, binCount: 5 }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: emotions
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: strategy-name
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: emotions
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: strategies-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: emotions
+      strategyCount: 5
+      includeScenarioCards: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: strategies-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: emotions
+      stripCount: 10
+      stripsPerPage: 5
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: emotions
+      mode: strategy-cards
+      itemCount: 16
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: emotions
+      pictureCueCount: 5
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: science / personal-social-emotional-development
+    (emotion-regulation strategies — deepens strand 1/6 → 2/6).
+    Secondary strand: communication (asking for help when needed).
+    Tertiary strand: cognitive-and-executive-function (self-
+    awareness + behavior choice).
+
+    Architectural significance: deepens personal-social-emotional-
+    development strand from 1/6 to 2/6. Builds on Arc 15 Phase 2
+    express-feelings-with-words foundation (recognition + naming);
+    extends to ACTIVE emotion-regulation work. Critical bridge
+    from emotional-expression (Phase 2) to emotional-regulation
+    (this Phase). Foundation for later conflict-resolution +
+    peer-relationship work.
+
+    Distinctive composition: 2 matching + 1 pattern-train + 1
+    missing-pieces + 1 picture-sort (sort scenarios by appropriate
+    strategy). Strategy-emphasis throughout; picture-sort
+    introduces multi-bin classification by strategy-match.
+
+    Class B FLEXIBLE substrate: composes against emotions theme
+    (canonical for feeling + strategy imagery).
+
+    K-3 multilingual classroom relevance: emotion-regulation
+    strategies universal across cultures. Strategy vocabulary
+    varies: "deep breathing" (respirar profundamente / atmen),
+    "safe place" (lugar seguro / sicherer Ort), "count to ten"
+    universal mathematical-counting. Cultural variations in
+    accepted regulation strategies exist (some cultures favor
+    movement; others favor stillness; some emphasize asking-for-
+    help more than independent regulation). Bundle includes
+    multiple strategies allowing locale + cultural adaptation.
+
+curriculumStandards:
+  - CASEL-Self-Management
+  - EYFS.ELG.PSED.SR
+  - IB-PYP.WhoWeAre
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Identify 4 of 5 calming strategies by name in 7 of 10
+        trials.
+      - Demonstrate deep-breathing technique correctly in 9 of 10
+        trials (4-count inhale + 4-count exhale).
+      - Match scenario to appropriate strategy in 7 of 10 trials.
+      - Use a calming strategy independently when emotionally
+        activated (teacher observation) in 4 of 5 weekly trials.
+
+    Differentiation:
+    - Pre-K: 2 strategies only (deep breathing + ask for help);
+      guided practice.
+    - K: 4 strategies; some independent use.
+    - Grade 1+: all 5 strategies; independent use expected; bridge
+      to peer-regulation-support work + conflict-resolution.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

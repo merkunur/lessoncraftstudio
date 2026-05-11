@@ -87,17 +87,29 @@ const TRUNCATED_ALIASES: Record<string, string> = {
   'gown': 'dress',
   'note': 'musical-note',
   'conversation': 'conversation-heart',
-  'crystal-ball': 'crystal-ball',
+  // 'crystal-ball' self-alias removed at Arc 2 Phase 1 — vocab gap; no
+  // target key in IMAGE_VOCABULARY for "crystal ball". Per CLAUDE.md §10.3
+  // (NEVER modify image-vocabulary.js without operator approval), this is
+  // operator-coordinated; flashcard falls back to filename until vocab
+  // entry added.
   'lounge': 'lounge-chair',
-  'monitor': 'monitor',
+  // 'monitor': 'monitor' self-alias → 'heart-monitor' (Arc 2 Phase 1 fix)
+  'monitor': 'heart-monitor',
   'mortar': 'mortar',
-  'cocoa': 'cocoa',
+  // 'cocoa': 'cocoa' self-alias → 'hot-cocoa' (Arc 2 Phase 1 fix)
+  'cocoa': 'hot-cocoa',
   'puffer': 'pufferfish',
   'postman': 'mail-carrier',
   'page': 'book-page',
-  'chart': 'bar-chart',
+  // 'chart': 'bar-chart' → 'medical-chart' (Arc 2 Phase 1 fix; 'bar-chart'
+  // not in vocab; 'medical-chart' is the right target for hospital/chart.png)
+  'chart': 'medical-chart',
   'mixer-truck': 'cement-mixer',
   'golf-': 'golf-club',
+  // Arc 2 Phase 1 substrate audit additions:
+  // winter/pine.png needs explicit fallback to pine-tree (TREE_THEME_KEYS
+  // path only fires when themeDir startsWith 'tree'; winter is not tree).
+  'pine': 'pine-tree',
 };
 
 /**
@@ -377,6 +389,227 @@ export const SOFT_HYPHENS: Record<string, Partial<Record<Locale, string>>> = {
     de: 'Leucht­turm',
     sv: 'Fyr',
     fi: 'Maja­kka',
+  },
+
+  // ===== Arc 2 Phase 1 extension (40 high-impact unique keys × de+sv+fi) =====
+  // Curated subset of 416-candidate ≥11ch universe (audit at
+  // docs/lesson-plans/flashcard-arc-2-substrate-audit.md). Picks emphasize
+  // K-3 frequency + clear morpheme boundaries.
+  // NSR-flag (sv + fi entries): native-speaker review pending per §17.5.1
+  // Nordic posture. Operator may commission separate NSR pass; functional-
+  // fallback acceptable until then (CSS hyphens:auto is the runtime
+  // fallback when soft-hyphen entry absent).
+  //
+  // Occupations (10):
+  'nurse': {
+    de: 'Kranken­schwester',
+    sv: 'Sjuk­sköterska',
+    fi: 'Sairaan­hoitaja',
+  },
+  'librarian': {
+    de: 'Biblio­thekar',
+    sv: 'Biblio­tekarie',
+    fi: 'Kirjaston­hoitaja',
+  },
+  'dishwasher': {
+    de: 'Geschirr­spüler',
+    sv: 'Disk­maskin',
+    fi: 'Astian­pesu­kone',
+  },
+  'bus-driver': {
+    de: 'Bus­fahrer',
+    sv: 'Buss­chaufför',
+    fi: 'Linja-auton­kuljettaja',
+  },
+  'construction-worker': {
+    de: 'Bau­arbeiter',
+    sv: 'Byggnads­arbetare',
+    fi: 'Rakennus­työn­tekijä',
+  },
+  'flight-attendant': {
+    de: 'Flug­begleiter',
+    sv: 'Flyg­värdinna',
+    fi: 'Lento­emäntä',
+  },
+  'office-worker': {
+    de: 'Büro­angestellter',
+    sv: 'Kontors­arbetare',
+    fi: 'Toimisto­työn­tekijä',
+  },
+  'delivery-driver': {
+    de: 'Liefer­fahrer',
+    sv: 'Leverans­chaufför',
+    fi: 'Kuljettaja',
+  },
+  'lifeguard': {
+    de: 'Rettungs­schwimmer',
+    sv: 'Liv­räddare',
+    fi: 'Hengen­pelastaja',
+  },
+  'sanitation-worker': {
+    de: 'Müllmann',
+    sv: 'Renhållnings­arbetare',
+    fi: 'Jätehuolto­työn­tekijä',
+  },
+
+  // Objects + tools (10):
+  'toolbox': {
+    de: 'Werkzeug­kasten',
+    sv: 'Verktygs­låda',
+    fi: 'Työkalu­laatikko',
+  },
+  'wrench': {
+    de: 'Schrauben­schlüssel',
+    sv: 'Skift­nyckel',
+    fi: 'Jako­avain',
+  },
+  'desk-lamp': {
+    de: 'Schreib­tisch­lampe',
+    sv: 'Skriv­bords­lampa',
+    fi: 'Työ­pöytä­lamppu',
+  },
+  'toilet-paper': {
+    de: 'Toiletten­papier',
+    sv: 'Toalett­papper',
+    fi: 'Wc-paperi',
+  },
+  'shopping-bag': {
+    de: 'Einkaufs­tasche',
+    sv: 'Shopping­väska',
+    fi: 'Ostos­kassi',
+  },
+  'extension-cord': {
+    de: 'Verlängerungs­kabel',
+    sv: 'Förlängnings­sladd',
+    fi: 'Jatko­johto',
+  },
+  'remote-control': {
+    de: 'Fern­bedienung',
+    sv: 'Fjärr­kontroll',
+    fi: 'Kauko­säädin',
+  },
+  'light-switch': {
+    de: 'Licht­schalter',
+    sv: 'Ström­brytare',
+    fi: 'Valo­katkaisin',
+  },
+  'chandelier': {
+    de: 'Kron­leuchter',
+    sv: 'Kristall­krona',
+    fi: 'Katto­kruunu',
+  },
+  'computer-keyboard': {
+    de: 'Computer­tastatur',
+    sv: 'Dator­tangentbord',
+    fi: 'Tieto­kone­näppäimistö',
+  },
+
+  // Animals (8):
+  'centipede': {
+    de: 'Tausend­füßler',
+    sv: 'Tusen­foting',
+    fi: 'Juoksu­jalkainen',
+  },
+  'canary': {
+    de: 'Kanarien­vogel',
+    sv: 'Kanarie­fågel',
+    fi: 'Kanaria­lintu',
+  },
+  'kingfisher': {
+    de: 'Eis­vogel',
+    sv: 'Kungs­fiskare',
+    fi: 'Kuningas­kalastaja',
+  },
+  'cockatiel': {
+    de: 'Nymphen­sittich',
+    sv: 'Nymf­parakit',
+    fi: 'Neito­kakadu',
+  },
+  'sea-turtle': {
+    de: 'Meeres­schildkröte',
+    sv: 'Havs­sköldpadda',
+    fi: 'Meri­kilpikonna',
+  },
+  'hermit-crab': {
+    de: 'Einsiedler­krebs',
+    sv: 'Eremit­kräfta',
+    fi: 'Erakko­rapu',
+  },
+  'komodo-dragon': {
+    de: 'Komodo­waran',
+    sv: 'Komodo­varan',
+    fi: 'Komodon­varaani',
+  },
+  'scarecrow': {
+    de: 'Vogel­scheuche',
+    sv: 'Fågel­skrämma',
+    fi: 'Linnun­pelätin',
+  },
+
+  // Foods (6):
+  'gingerbread-man': {
+    de: 'Lebkuchen­mann',
+    sv: 'Pepparkaks­gubbe',
+    fi: 'Piparkakku­ukko',
+  },
+  'gingerbread-house': {
+    de: 'Lebkuchen­haus',
+    sv: 'Pepparkaks­hus',
+    fi: 'Piparkakku­talo',
+  },
+  'cheeseburger': {
+    de: 'Cheese­burger',
+    sv: 'Cheese­burgare',
+    fi: 'Juusto­hampurilainen',
+  },
+  'peanut-butter': {
+    de: 'Erdnuss­butter',
+    sv: 'Jordnöts­smör',
+    fi: 'Maa­pähkinä­voi',
+  },
+  'dragon-fruit': {
+    de: 'Drachen­frucht',
+    sv: 'Drak­frukt',
+    fi: 'Lohi­käärme­hedelmä',
+  },
+  'espresso-machine': {
+    de: 'Espresso­maschine',
+    sv: 'Espresso­maskin',
+    fi: 'Espresso­kone',
+  },
+
+  // Trees (3) — supports tree-bundle (Pillar 2 Arc 5 Phase 1):
+  'chestnut-tree': {
+    de: 'Kastanien­baum',
+    sv: 'Kastanje­träd',
+    fi: 'Kastanja­puu',
+  },
+  'walnut-tree': {
+    de: 'Wal­nuss­baum',
+    sv: 'Val­nöts­träd',
+    fi: 'Saksan­pähkinä­puu',
+  },
+  'baobab-tree': {
+    de: 'Affen­brot­baum',
+    sv: 'Baobab­träd',
+    fi: 'Apinan­leipä­puu',
+  },
+
+  // Hospital + medical (3):
+  'hospital-bed': {
+    de: 'Krankenhaus­bett',
+    sv: 'Sjukhus­säng',
+    fi: 'Sairaala­sänky',
+  },
+  'hospital-gown': {
+    de: 'Krankenhaus­hemd',
+    sv: 'Sjukhus­kläder',
+    fi: 'Sairaala­takki',
+  },
+  'medical-chart': {
+    de: 'Kranken­akte',
+    sv: 'Patient­journal',
+    fi: 'Potilas­kertomus',
   },
 };
 

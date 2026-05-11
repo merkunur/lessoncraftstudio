@@ -1524,6 +1524,12 @@
       "description": "Imprima este PDF, recorte por las guías punteadas y use las tarjetas para contar, clasificar o juegos de vocabulario en clase.",
       "downloadButton": "Descargar PDF de {count}"
     },
+    "numeralCards": {
+      "heading": "Tarjetas numéricas",
+      "subheading": "Tarjetas de números con palabras-número localizadas para práctica de conteo",
+      "description": "Imprima este PDF, recorte por las guías punteadas y use las tarjetas numéricas para práctica de conteo, reconocimiento de números y asociación de números con cantidades.",
+      "downloadButton": "Descargar PDF de {count}"
+    },
     "locales": {
       "heading": "Idiomas disponibles",
       "subheading": "Este paquete didáctico tiene contenido creado en los siguientes idiomas."

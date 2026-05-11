@@ -1240,6 +1240,12 @@
       "description": "Print this PDF, cut along the dashed guides, and use the picture cards for classroom counting, sorting, or vocabulary games.",
       "downloadButton": "Download {count}-up PDF"
     },
+    "numeralCards": {
+      "heading": "Numeral cards",
+      "subheading": "Number cards with localized number-words for counting practice",
+      "description": "Print this PDF, cut along the dashed guides, and use the numeral cards for counting practice, numeral recognition, and matching numerals to quantities.",
+      "downloadButton": "Download {count}-up PDF"
+    },
     "locales": {
       "heading": "Available languages",
       "subheading": "This teaching package has authored content in the following languages."

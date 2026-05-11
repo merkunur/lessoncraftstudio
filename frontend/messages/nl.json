@@ -1511,6 +1511,12 @@
       "description": "Druk deze PDF af, knip langs de stippellijnen en gebruik de beeldkaarten voor tel-, sorteer- of woordenschat-activiteiten in de klas.",
       "downloadButton": "Download PDF ({count}-up)"
     },
+    "numeralCards": {
+      "heading": "Getalkaarten",
+      "subheading": "Cijferkaarten met gelokaliseerde getalwoorden voor teloefeningen",
+      "description": "Druk deze PDF af, knip langs de stippellijnen en gebruik de getalkaarten voor teloefeningen, getalherkenning en het koppelen van cijfers aan hoeveelheden.",
+      "downloadButton": "Download PDF ({count}-up)"
+    },
     "locales": {
       "heading": "Beschikbare talen",
       "subheading": "Dit lespakket heeft inhoud in de volgende talen."

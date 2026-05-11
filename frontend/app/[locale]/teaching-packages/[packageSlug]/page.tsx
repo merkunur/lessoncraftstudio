@@ -12,6 +12,7 @@ import TeachingPackageFlashcardsSection from '@/components/teaching-packages/Tea
 import TeachingPackageLocaleVariants from '@/components/teaching-packages/TeachingPackageLocaleVariants';
 import TeachingPackageBundleContext from '@/components/teaching-packages/TeachingPackageBundleContext';
 import TeachingPackagePictureCardsSection from '@/components/teaching-packages/TeachingPackagePictureCardsSection';
+import TeachingPackageNumeralCardsSection from '@/components/teaching-packages/TeachingPackageNumeralCardsSection';
 
 // Pillar 1 + Pillar 2 + Pillar 4 evaluation-surface commission Phase 2.
 // Per-package teaching-package detail surface composing the full canonical
@@ -92,6 +93,18 @@ export default async function TeachingPackageDetailPage({
         const cpp = (pcMaterial.customizationParameters?.cardsPerPage as number | undefined) || 6;
         return (
           <TeachingPackagePictureCardsSection
+            locale={params.locale}
+            packageSlug={pkg.targetSlug}
+            cardsPerPage={cpp}
+          />
+        );
+      })()}
+      {(() => {
+        const ncMaterial = pkg.materials.find((m) => m.materialSlug === 'numeral-cards');
+        if (!ncMaterial) return null;
+        const cpp = (ncMaterial.customizationParameters?.cardsPerPage as number | undefined) || 4;
+        return (
+          <TeachingPackageNumeralCardsSection
             locale={params.locale}
             packageSlug={pkg.targetSlug}
             cardsPerPage={cpp}

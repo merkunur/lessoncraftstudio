@@ -1,0 +1,96 @@
+# Pillar 2 Arc 5 Phase 2 themed bundle — Easter
+# Theme-anchored bundle composing 5 Easter-themed teaching packages spanning
+# vocabulary + counting + color-sorting + cultural-awareness + spring-seasonal.
+# 1st holiday-themed bundle on the platform.
+
+bundleSlug: easter
+themeAxisKey: easter
+language: en
+
+title:
+  en: "Easter — K-3 Themed Bundle"
+
+description:
+  en: "K-3 bundle centered on Easter as holiday-anchor for cross-strand spring-seasonal + cultural-awareness work. 5 packages span vocabulary-acquisition (identify-and-name-action-verbs — hide, find, hunt, decorate, paint, celebrate + Easter-specific verbs) + numeracy (count-objects-1-to-10 — counting Easter eggs, chocolate bunnies, baskets, jellybeans) + color-cognition (sort-by-color — decorated eggs by color: red eggs vs blue eggs vs green eggs) + cultural-awareness (compare-greeting-routines-across-cultures — Easter traditions vary widely: Spanish/Latin Pascua / German Oster-bonfires / Greek Anastasi / Brazilian chocolate eggs) + seasonal-cognition (identify-four-seasons — Easter as spring-anchored holiday). 1st holiday-themed bundle on the platform — opens holiday cluster (precedent for christmas + thanksgiving + halloween + diwali + chinese-new-year + ramadan candidates). Suitable for a 3-4 week classroom unit timed to spring season. Supports K-3 multilingual classrooms with cross-cultural-holiday + family-tradition + spring-celebration extensions."
+
+thumbnailUrl: "/bundles/easter-thumbnail.png"
+
+status: draft
+
+teachingPackageSlugs:
+  - identify-and-name-action-verbs
+  - count-objects-1-to-10
+  - sort-by-color
+  - compare-greeting-routines-across-cultures
+  - identify-four-seasons
+
+deckIds: []
+lessonPlanIds: []
+
+thematicCoherence:
+  en: |
+    All 5 packages cohere around the Easter theme + form a cross-strand
+    spring-seasonal + cultural-awareness composition.
+
+    **Pedagogical sequencing:**
+    1. **identify-and-name-action-verbs** — Foundational Easter-action
+       vocabulary (hide, find, hunt, decorate, paint, celebrate, bless,
+       gather). Same shared package across many bundles (~10 bundles
+       reuse this package); Easter-context substantiates verb-vocabulary
+       with concrete celebratory actions kids physically perform during
+       Easter activities.
+    2. **count-objects-1-to-10** — Counting practice using Easter items
+       as countable subjects (5 Easter eggs hidden in the room; 3 chocolate
+       bunnies on the table; 2 baskets; 8 jellybeans in the bag). Same
+       shared package across many bundles; Easter-context particularly
+       engaging for K-3 counting via egg-hunt-style activities.
+    3. **sort-by-color** — Color-cognition work using decorated-egg
+       contexts (red eggs vs blue eggs vs green eggs vs yellow eggs).
+       Same shared package across many bundles; Easter eggs are
+       canonical color-sorting substrate due to traditional decoration
+       practice — vivid + varied + culturally meaningful.
+    4. **compare-greeting-routines-across-cultures** — Multilingual-
+       awareness work via Easter-greeting traditions (English Happy
+       Easter / Spanish Felices Pascuas / German Frohe Ostern / Italian
+       Buona Pasqua / Greek Christos Anesti / Portuguese Feliz Páscoa).
+       Connects holiday-vocabulary to cross-cultural-awareness work.
+       Particularly load-bearing for multilingual classrooms with
+       Christian + non-Christian family traditions where Easter
+       celebration varies.
+    5. **identify-four-seasons** — Seasonal-cognition work
+       situating Easter as spring-anchored celebration (spring flowers,
+       baby animals, warming weather). Same shared package with
+       winter + summer + spring + tree + beach bundles. Connects
+       holiday to broader seasonal-cycle understanding.
+
+    **Strand spread:** 1 vocabulary-acquisition (action-verbs) + 1
+    numeracy + 1 cognitive-sorting (color) + 1 multilingual-language-
+    awareness (cross-cultural-greetings) + 1 environment-and-weather
+    (four-seasons). **5 distinct strands.** First holiday-themed bundle
+    on the platform with distinctive cultural-awareness strand inclusion.
+
+    **Suggested unit duration:** 3-4 weeks (1 package per week).
+    Timed to spring season — natural fit late-winter through early
+    spring (early March through Easter weekend). Time-bounded
+    relevance differentiates holiday bundles from year-round bundles.
+
+    **Multilingual classroom relevance:** Easter vocabulary cognate-rich
+    Romance (Pascua / Pâques / Pasqua / Páscoa); Germanic varies (Ostern
+    / Pasen / Påsk / Påske / Pääsiäinen). Cultural-traditions vary
+    significantly — egg-hunts predominantly Anglo-American; bonfire-
+    traditions Germanic + Nordic; processions Mediterranean. Particularly
+    load-bearing for international school + dual-language program
+    contexts where kids share home-country Easter customs enriching
+    classroom multicultural discussion.
+
+    **Pillar 2 architectural pattern:** easter-bundle exemplifies holiday-
+    themed bundle composition. Theme-axis-key holiday-easter (1st holiday-
+    themed bundle). First Pillar 2 bundle with time-bounded relevance
+    (vs year-round bundles like animals + colors + shapes). Distinctively
+    includes multilingual-language-awareness strand via cross-cultural-
+    greetings substrate. Precedent for sibling holiday bundles (christmas-
+    bundle this Phase; thanksgiving-bundle + halloween-bundle + diwali-
+    bundle + ramadan-bundle + chinese-new-year-bundle candidates for
+    future arcs). Demonstrates that Pillar 2 bundle catalog extends
+    naturally into holiday-themed cluster alongside daily-life + community-
+    context + seasonal + biological clusters.

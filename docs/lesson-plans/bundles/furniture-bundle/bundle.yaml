@@ -1,0 +1,95 @@
+# Pillar 2 Arc 5 Phase 2 themed bundle — Furniture
+# Theme-anchored bundle composing 5 furniture-themed teaching packages spanning
+# vocabulary + spatial-reasoning + counting + sorting + comparison.
+# 1st home-context cluster bundle (opens home-context cluster).
+
+bundleSlug: furniture
+themeAxisKey: furniture
+language: en
+
+title:
+  en: "Furniture — K-3 Themed Bundle"
+
+description:
+  en: "K-3 bundle centered on furniture as home-context anchor for cross-strand work spanning vocabulary + spatial-reasoning + numeracy + classification. 5 packages span vocabulary-acquisition (identify-and-name-house-rooms — kitchen, bedroom, living-room, bathroom; with associated furniture items) + spatial-reasoning (use-spatial-position-words — on the chair, under the table, beside the sofa, behind the desk) + numeracy (count-objects-1-to-10 — counting chairs, beds, lamps in the house) + cognitive-sorting (sort-by-category — living room furniture vs bedroom furniture vs kitchen furniture) + comparison (use-size-comparison-words — big chair vs small chair; tall lamp vs short lamp). Cross-strand home-context bundle with strong real-world relevance — furniture is K-3-ubiquitous; every kid's home has chairs, beds, tables. Suitable for a 4-5 week classroom unit; supports K-3 multilingual classrooms with home-school-bridge + family-routine extensions."
+
+thumbnailUrl: "/bundles/furniture-thumbnail.png"
+
+status: draft
+
+teachingPackageSlugs:
+  - identify-and-name-house-rooms
+  - use-spatial-position-words
+  - count-objects-1-to-10
+  - sort-by-category
+  - use-size-comparison-words
+
+deckIds: []
+lessonPlanIds: []
+
+thematicCoherence:
+  en: |
+    All 5 packages cohere around the furniture theme + form a
+    cross-strand progression from house-room vocabulary through
+    spatial-positioning to counting + classification + comparison.
+
+    **Pedagogical sequencing:**
+    1. **identify-and-name-house-rooms** — Foundational house-room
+       vocabulary (kitchen, bedroom, living-room, bathroom, dining-
+       room). Connects directly to furniture-context — each room
+       has signature furniture pieces. Vocabulary anchor for
+       furniture-as-room-context work.
+    2. **use-spatial-position-words** — Spatial-reasoning work
+       applied to furniture-arrangement (on the chair; under the
+       table; beside the sofa; behind the desk; in front of the
+       bookshelf). Furniture-context concrete substrate for
+       abstract spatial-position vocabulary.
+    3. **count-objects-1-to-10** — Counting practice using
+       furniture items as countable subjects (3 chairs; 2 beds;
+       5 lamps; 8 picture frames). Same shared package across
+       many bundles; furniture-context authentic home-environment
+       counting.
+    4. **sort-by-category** — Category-classification work
+       distinguishing living-room furniture (sofa, coffee table,
+       armchair) vs bedroom furniture (bed, dresser, nightstand)
+       vs kitchen furniture (table, chairs, stools). Same shared
+       package across many bundles; furniture-context connects
+       sorting to spatial-organization reasoning.
+    5. **use-size-comparison-words** — Comparison work using
+       furniture-size contexts (big chair vs small chair; tall
+       lamp vs short lamp; long sofa vs short bench; wide table
+       vs narrow desk). Same shared package; furniture-context
+       supports kinesthetic size-estimation (kids physically
+       compare themselves to furniture).
+
+    **Strand spread:** 1 vocabulary-acquisition (house-rooms) + 1
+    spatial-reasoning + 1 numeracy + 1 cognitive-sorting + 1
+    comparison. **5 distinct strands.** Cross-strand home-context
+    bundle pattern parallel to at-the-supermarket-bundle (5-strand
+    daily-life context) but anchored at static-home-environment vs
+    transactional-shopping context.
+
+    **Suggested unit duration:** 4-5 weeks (1 package per week).
+    Year-round relevance; natural fit alongside home-family unit
+    OR seasonal arrangements (winter cozy-furniture week; spring
+    organize-furniture week).
+
+    **Multilingual classroom relevance:** furniture vocabulary
+    cognate-rich Romance (mueble / meuble / mobile / móvel);
+    Germanic distinct (Möbel / meubel / möbel / møbel / huonekalu).
+    Specific item vocabulary varies extensively (sofa / Sofa / kanapee
+    / sohva; chair / Stuhl / silla / chaise / sedia / cadeira / stol
+    / tuoli). Universal home-relevance — every K-3 kid encounters
+    furniture daily across cultures. Cultural variations in
+    furniture-types (Japanese: tatami / futon; European: armchairs;
+    American: recliners) enriches multilingual-classroom discussion.
+
+    **Pillar 2 architectural pattern:** furniture-bundle exemplifies
+    static-home-context cross-strand bundle composition. Theme-axis-
+    key home-context-furniture (vs around-the-house bundle candidate
+    at broader home-context; vs at-the-supermarket-bundle at transactional-
+    shopping context). First home-context cluster bundle; opens cluster
+    for around-the-house / kitchen-tools (kitchen-tools-bundle exists)
+    / decoration-bundle / appliances-bundle candidates in future arcs.
+    Demonstrates that Pillar 2 bundle catalog extends naturally into
+    home-environment themes parallel to community-context cluster.

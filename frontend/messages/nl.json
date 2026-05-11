@@ -1503,42 +1503,42 @@
     },
     "flashcards": {
       "heading": "Woordkaarten",
-      "subheading": "Digitaal deck + afdrukbare PDF's gekoppeld aan dit pakket"
+      "subheading": "Afdrukbare woordkaarten om woordenschat te oefenen — één afbeelding en één woord per kaart."
     },
     "pictureCards": {
       "heading": "Beeldkaarten",
-      "subheading": "Alleen-beeld kaarten voor knip- en hanteringswerk in de klas",
-      "description": "Druk deze PDF af, knip langs de stippellijnen en gebruik de beeldkaarten voor tel-, sorteer- of woordenschat-activiteiten in de klas.",
+      "subheading": "Kaarten met alleen afbeeldingen die uw klas kan uitknippen en hanteren.",
+      "description": "Druk af, knip langs de stippellijnen en gebruik de kaarten voor tellen, sorteren en woordenschatspelletjes.",
       "downloadButton": "Download PDF ({count}-up)"
     },
     "numeralCards": {
       "heading": "Getalkaarten",
-      "subheading": "Cijferkaarten met gelokaliseerde getalwoorden voor teloefeningen",
-      "description": "Druk deze PDF af, knip langs de stippellijnen en gebruik de getalkaarten voor teloefeningen, getalherkenning en het koppelen van cijfers aan hoeveelheden.",
+      "subheading": "Getalkaarten van 1 tot 10 met het getalwoord in de taal die uw kinderen leren.",
+      "description": "Druk af, knip langs de stippellijnen en gebruik de getalkaarten om te tellen, getallen te herkennen en cijfers aan hoeveelheden te koppelen.",
       "downloadButton": "Download PDF ({count}-up)"
     },
     "manipulativeCutOuts": {
-      "heading": "Knipbare manipulatieven",
-      "subheading": "Kleine beeldtegels voor praktisch tellen, sorteren en classificeren",
-      "description": "Druk deze PDF af, knip langs de stippellijnen en gebruik de kleine beeldtegels als concreet manipulatief materiaal. Geschikt voor teloefeningen, sorteertaken en classificatie-activiteiten.",
+      "heading": "Uitknip-tegels",
+      "subheading": "Kleine beeldtegels die uw kinderen uitknippen en in de hand nemen om te tellen, sorteren en groeperen.",
+      "description": "Druk af, knip langs de stippellijnen en laat uw kinderen de kleine tegels gebruiken voor praktisch telwerk en sorteren.",
       "downloadButton": "Download knip-PDF"
     },
     "answerKey": {
       "heading": "Leerkrachtreferentie",
-      "subheading": "Volledige pakket-metadata: samengestelde oefeningen, materialen, pedagogisch kader en evaluatiecriteria",
-      "description": "Druk deze leerkrachtreferentie-PDF voor de les af. Hij voegt de samengestelde oefeningen, afdrukbare materialen, het pedagogische kader, de evaluatiecriteria en de curriculumstandaarden samen in één lesgereed document voor de leerkracht.",
+      "subheading": "Een overzichtsblad voor uzelf: de lesopbouw, de materialenlijst en waar u op let bij het nakijken van het werk van uw kinderen.",
+      "description": "Druk dit blad voor uzelf af vóór de les. Het geeft u de oefeningen die u doorneemt, de afdrukken die u gebruikt, uw lesnotities en wat per activiteit een goed antwoord is.",
       "downloadButton": "Download leerkrachtreferentie-PDF"
     },
     "parentLetter": {
       "heading": "Ouderbrief",
-      "subheading": "Eenzijdige brief voor families om mee naar huis te nemen: warme samenvatting van de lessenreeks plus een raster met afbeeldingen met labels in de doeltaal",
-      "description": "Druk deze eenzijdige brief af en geef hem aan het einde van de lessenreeks mee aan het kind. De lopende tekst staat in de thuistaal van de ouders; de labels bij de afbeeldingen staan in de doeltaal van het pakket, zodat het gezin de nieuwe woordenschat samen kan oefenen. De brief bevat een handtekeningregel voor de leerkracht.",
+      "subheading": "Een brief van één pagina die u mee naar huis kunt geven, zodat families weten waaraan hun kind heeft gewerkt en samen kunnen oefenen.",
+      "description": "Druk deze brief af en geef hem aan het einde van de week mee naar huis. De tekst staat in de thuistaal van het gezin; de afbeeldingen zijn gelabeld in de taal die uw kinderen leren, zodat het gezin de nieuwe woorden samen kan uitspreken. Met een regel voor uw handtekening.",
       "downloadButton": "Download ouderbrief-PDF"
     },
     "sentenceStrips": {
       "heading": "Zinstroken",
-      "subheading": "Meerstrook-afdruk met één afbeelding + één gelokaliseerde zin per strook; lidwoorden en geslacht worden automatisch opgelost vanuit IMAGE_VOCABULARY",
-      "description": "Druk deze zinstroken af en gebruik ze bij de kaartenbak, in klein-groepswerk of als knip-en-overtrek-oefening. Elke strook koppelt een afbeelding uit de doelwoordenschat aan een volledige zin in de taal van het pakket; lidwoorden en meervoudscongruentie worden automatisch opgelost vanuit de geslachtsdata van de woordenschat, zodat de grammatica in elke taal correct is. Een optionele schrijfregel onder elke strook laat het kind de zin overschrijven.",
+      "subheading": "Afdrukbare stroken met één afbeelding en één volledige zin in de taal die uw kinderen leren — één per strook.",
+      "description": "Druk af, knip langs de stippellijnen en gebruik de stroken bij de kaartenbak, in klein-groepswerk of voor overschrijf-oefening. Elke strook toont één afbeelding en één volledige zin in de taal die uw kinderen leren, met een optionele regel eronder voor uw kind om de zin op te schrijven.",
       "downloadButton": "Download zinstroken-PDF"
     },
     "locales": {

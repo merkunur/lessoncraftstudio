@@ -1515,43 +1515,43 @@
       "heading": "Criterios de evaluación"
     },
     "flashcards": {
-      "heading": "Tarjetas didácticas",
-      "subheading": "Baraja digital + PDFs imprimibles emparejados con este paquete"
+      "heading": "Tarjetas de vocabulario",
+      "subheading": "Tarjetas imprimibles para practicar vocabulario: una imagen y una palabra por tarjeta."
     },
     "pictureCards": {
-      "heading": "Tarjetas de imagen",
-      "subheading": "Tarjetas solo con imágenes para trabajo de cortar y manipular en el aula",
-      "description": "Imprima este PDF, recorte por las guías punteadas y use las tarjetas para contar, clasificar o juegos de vocabulario en clase.",
+      "heading": "Tarjetas con imágenes",
+      "subheading": "Tarjetas solo con imágenes que su clase puede recortar y manipular.",
+      "description": "Imprima, recorte por las líneas punteadas y use las tarjetas para contar, clasificar y jugar con vocabulario.",
       "downloadButton": "Descargar PDF de {count}"
     },
     "numeralCards": {
-      "heading": "Tarjetas numéricas",
-      "subheading": "Tarjetas de números con palabras-número localizadas para práctica de conteo",
-      "description": "Imprima este PDF, recorte por las guías punteadas y use las tarjetas numéricas para práctica de conteo, reconocimiento de números y asociación de números con cantidades.",
+      "heading": "Tarjetas de números",
+      "subheading": "Tarjetas de números del 1 al 10 con la palabra-número en el idioma que sus niños están aprendiendo.",
+      "description": "Imprima, recorte por las líneas punteadas y use las tarjetas para contar, reconocer números y asociar números con cantidades.",
       "downloadButton": "Descargar PDF de {count}"
     },
     "manipulativeCutOuts": {
-      "heading": "Recortables manipulables",
-      "subheading": "Pequeñas fichas de imagen para conteo, clasificación y categorización prácticos",
-      "description": "Imprima este PDF, recorte por las guías punteadas y use las pequeñas fichas de imagen como material manipulable concreto. Apropiado para conteo, tareas de clasificación y actividades de categorización.",
+      "heading": "Fichas recortables",
+      "subheading": "Pequeñas fichas con imágenes que sus niños recortan y manipulan para contar, clasificar y agrupar.",
+      "description": "Imprima, recorte por las líneas punteadas y deje que sus niños manipulen las pequeñas fichas para trabajo práctico de conteo y clasificación.",
       "downloadButton": "Descargar PDF de recortables"
     },
     "answerKey": {
       "heading": "Referencia del docente",
-      "subheading": "Metadatos completos del paquete: ejercicios compuestos, materiales, marco pedagógico y criterios de evaluación",
-      "description": "Imprima esta PDF de referencia del docente antes de la clase. Agrega los ejercicios compuestos, los materiales imprimibles, el marco pedagógico, los criterios de evaluación y los estándares curriculares en un único documento listo para el aula.",
-      "downloadButton": "Descargar PDF de referencia del docente"
+      "subheading": "Una hoja de referencia para usted: el esquema de la lección, la lista de materiales y qué observar al revisar el trabajo de sus niños.",
+      "description": "Imprima esta hoja para usted antes de la clase. Le muestra los ejercicios que va a trabajar, los materiales que va a usar, sus notas pedagógicas y qué se considera una respuesta correcta en cada actividad.",
+      "downloadButton": "Descargar referencia del docente PDF"
     },
     "parentLetter": {
       "heading": "Carta para familias",
-      "subheading": "Carta de una sola página para llevar a casa: resumen cálido de la unidad más una cuadrícula de imágenes con etiquetas en el idioma destino",
-      "description": "Imprima esta carta de una página y envíela a casa con el niño o niña al final de la unidad. El texto principal está en el idioma del hogar de los padres; las etiquetas de las imágenes están en el idioma destino del paquete, para que la familia practique el nuevo vocabulario en casa. Incluye una línea de firma para el docente.",
+      "subheading": "Una carta de una página que puede enviar a casa para que las familias sepan en qué trabajó su hijo o hija y puedan practicar juntos.",
+      "description": "Imprima esta carta y envíela a casa al final de la semana. El texto está escrito en el idioma del hogar; las imágenes están etiquetadas en el idioma que sus niños están aprendiendo, para que la familia pueda decir las palabras nuevas juntos. Incluye una línea para su firma.",
       "downloadButton": "Descargar carta para familias PDF"
     },
     "sentenceStrips": {
       "heading": "Tiras de oraciones",
-      "subheading": "Impresión multitira con una imagen + una oración localizada por tira; los artículos y el género se resuelven automáticamente desde IMAGE_VOCABULARY",
-      "description": "Imprima estas tiras de oraciones y úselas en el cuadro de bolsillo, en trabajo de grupo pequeño o como práctica de recortar y trazar. Cada tira asocia una imagen del vocabulario objetivo con una oración completa en el idioma del paquete; los artículos y la concordancia de plurales se resuelven automáticamente desde los datos de género del vocabulario, para que la gramática sea correcta en cada idioma. Una línea de escritura opcional debajo de cada tira permite que el niño o niña copie la oración.",
+      "subheading": "Tiras imprimibles con una imagen y una oración completa en el idioma que sus niños están aprendiendo, una por tira.",
+      "description": "Imprima, recorte por las líneas punteadas y use las tiras en el cuadro de bolsillo, en lectura en grupo pequeño o para práctica de copiar y trazar. Cada tira muestra una imagen y una oración completa en el idioma que sus niños están aprendiendo, con una línea opcional debajo para que su hijo o hija escriba la oración.",
       "downloadButton": "Descargar tiras de oraciones PDF"
     },
     "locales": {

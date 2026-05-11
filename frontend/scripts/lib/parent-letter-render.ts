@@ -348,7 +348,7 @@ export async function renderPrintHtml(pkg: ParentLetterPackage): Promise<string>
 </head>
 <body>
   <div class="header-row">
-    <div class="school-brand">LessonCraftStudio</div>
+    <div class="school-brand"></div>
     <div class="meta-fields">
       <span class="meta-line"><span class="meta-label">${escapeHtml(meta.childLabel)}:</span><span class="meta-blank">&nbsp;</span></span>
       <span class="meta-line"><span class="meta-label">${escapeHtml(meta.dateLabel)}:</span><span class="meta-blank">&nbsp;</span></span>
@@ -365,7 +365,6 @@ export async function renderPrintHtml(pkg: ParentLetterPackage): Promise<string>
     <p class="closing-text">${escapeHtml(prose.closing)}</p>
     ${signatureHtml}
   </div>
-  <footer class="brand">LessonCraftStudio</footer>
 </body>
 </html>`;
 }

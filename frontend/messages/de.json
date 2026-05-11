@@ -1323,43 +1323,43 @@
     },
     "flashcards": {
       "heading": "Lernkarten",
-      "subheading": "Digitales Deck + druckbare PDFs zu diesem Paket"
+      "subheading": "Druckbare Lernkarten für Wortschatzübungen – ein Bild und ein Wort pro Karte."
     },
     "pictureCards": {
       "heading": "Bildkarten",
-      "subheading": "Reine Bildkarten für Ausschneide- und Klassenarbeit",
-      "description": "Drucken Sie diese PDF, schneiden Sie entlang der gestrichelten Linien aus und verwenden Sie die Bildkarten für Zähl-, Sortier- oder Wortschatzspiele im Klassenraum.",
+      "subheading": "Reine Bildkarten zum Ausschneiden und Verwenden im Klassenraum.",
+      "description": "Drucken, an den gestrichelten Linien ausschneiden und für Zähl-, Sortier- und Wortschatzspiele einsetzen.",
       "downloadButton": "{count}er-PDF herunterladen"
     },
     "numeralCards": {
       "heading": "Zahlenkarten",
-      "subheading": "Zahlenkarten mit lokalisierten Zahlwörtern für Zählübungen",
-      "description": "Drucken Sie diese PDF, schneiden Sie entlang der gestrichelten Linien aus und verwenden Sie die Zahlenkarten für Zählübungen, Zahlerkennung und Zuordnung von Zahlen zu Mengen.",
+      "subheading": "Zahlenkarten von 1 bis 10 mit dem Zahlwort in der Sprache, die Ihre Kinder lernen.",
+      "description": "Drucken, an den gestrichelten Linien ausschneiden und für Zählübungen, Zahlerkennung und das Zuordnen von Zahlen zu Mengen verwenden.",
       "downloadButton": "{count}er-PDF herunterladen"
     },
     "manipulativeCutOuts": {
-      "heading": "Manipulative Ausschneideelemente",
-      "subheading": "Kleine Bildplättchen für handlungsorientiertes Zählen, Sortieren und Klassifizieren",
-      "description": "Drucken Sie diese PDF, schneiden Sie entlang der gestrichelten Linien aus und verwenden Sie die kleinen Bildplättchen als konkretes Material. Geeignet für Zählarbeit, Sortieraufgaben und Klassifizierungsaktivitäten.",
+      "heading": "Ausschneide-Plättchen",
+      "subheading": "Kleine Bildplättchen, die Ihre Kinder ausschneiden und beim Zählen, Sortieren und Gruppieren in die Hand nehmen.",
+      "description": "Drucken, an den gestrichelten Linien ausschneiden und Ihre Kinder die kleinen Plättchen beim handlungsorientierten Zählen und Sortieren verwenden lassen.",
       "downloadButton": "Ausschneide-PDF herunterladen"
     },
     "answerKey": {
       "heading": "Lehrkraft-Referenz",
-      "subheading": "Vollständige Paket-Metadaten: komponierte Übungen, Materialien, pädagogische Einordnung und Lernkontroll-Kriterien",
-      "description": "Drucken Sie diese Lehrkraft-Referenz-PDF vor der Stunde aus. Sie fasst die komponierten Übungen, Druckmaterialien, pädagogische Einordnung, Lernkontroll-Kriterien und Curriculum-Standards in einem klassenraumfertigen Handout für die Lehrkraft zusammen.",
+      "subheading": "Eine kompakte Übersicht für Sie – mit Stundenverlauf, Materialliste und worauf Sie beim Kontrollieren der Kinderarbeit achten.",
+      "description": "Drucken Sie das vor der Stunde für sich selbst aus. Es zeigt Ihnen die Übungen, die Sie durchgehen, die Druckmaterialien, die Sie verwenden, Ihre Unterrichtsnotizen und was bei jeder Aktivität als richtige Antwort zählt.",
       "downloadButton": "Lehrkraft-Referenz-PDF herunterladen"
     },
     "parentLetter": {
       "heading": "Elternbrief",
-      "subheading": "Einseitiger Brief für Familien zum Mitnehmen: warmherzige Zusammenfassung der Einheit plus Bildkartenraster mit Beschriftungen in der Zielsprache",
-      "description": "Drucken Sie diesen einseitigen Brief aus und geben Sie ihn am Ende der Unterrichtseinheit Ihrem Kind mit nach Hause. Der Fließtext ist in der Familiensprache der Eltern; die Bildkarten-Beschriftungen sind in der Zielsprache des Lernpakets, damit Familie und Kind den neuen Wortschatz gemeinsam üben können. Der Brief enthält eine Unterschriftszeile für die Lehrkraft.",
+      "subheading": "Ein einseitiger Brief, den Sie nach Hause mitgeben können, damit Familien wissen, woran ihr Kind gearbeitet hat, und gemeinsam üben können.",
+      "description": "Drucken Sie diesen Brief aus und geben Sie ihn am Ende der Woche mit nach Hause. Der Brieftext ist in der Familiensprache geschrieben; die Bilder sind in der Sprache beschriftet, die Ihre Kinder lernen, damit die Familie die neuen Wörter gemeinsam aussprechen kann. Mit einer Zeile für Ihre Unterschrift.",
       "downloadButton": "Elternbrief-PDF herunterladen"
     },
     "sentenceStrips": {
-      "heading": "Sätze-Streifen",
-      "subheading": "Mehrstreifiger Druck mit einem Bild + einem lokalisierten Satz pro Streifen; Artikel und Genus werden automatisch aus IMAGE_VOCABULARY aufgelöst",
-      "description": "Drucken Sie diese Sätze-Streifen und nutzen Sie sie an der Steckwand, in Kleingruppenarbeit oder als Ausschneide- und Nachspur-Übung. Jeder Streifen verbindet ein Zielwortschatz-Bild mit einem vollständigen Satz in der Sprache des Lernpakets; Artikel und Pluralkongruenz werden automatisch aus den Genus-Daten des Vokabulars aufgelöst, damit die Grammatik in jeder Sprache korrekt ist. Eine optionale Schreiblinie unter jedem Streifen lässt das Kind den Satz nachschreiben.",
-      "downloadButton": "Sätze-Streifen-PDF herunterladen"
+      "heading": "Satzstreifen",
+      "subheading": "Druckbare Streifen mit einem Bild und einem vollständigen Satz in der Sprache, die Ihre Kinder lernen – einer pro Streifen.",
+      "description": "Drucken, an den gestrichelten Linien ausschneiden und an der Steckwand, in der Kleingruppenarbeit oder zum Nachschreiben einsetzen. Jeder Streifen zeigt ein Bild und einen vollständigen Satz in der Sprache, die Ihre Kinder lernen, mit einer optionalen Schreibzeile darunter zum Mitschreiben.",
+      "downloadButton": "Satzstreifen-PDF herunterladen"
     },
     "locales": {
       "heading": "Verfügbare Sprachen",

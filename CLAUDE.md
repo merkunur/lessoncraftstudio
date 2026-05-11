@@ -3549,6 +3549,39 @@ When authoring content (prose templates, per-mode explanations, UI-mechanic guid
 
 Origin: Sub-Phase 2.4 (`7eac8f50`) + multi-mechanism discipline lock commission this session.
 
+#### A.13.30 Audience-perspective discipline for user-facing content
+
+All user-facing content (i18n message strings, PDF text, page descriptions, UI labels, download-button copy, modal text, error messages) MUST be written from the reader's perspective — what they get, what they do with it — never how the system produces it internally. Audience-blind copy reads as engineer-talk and breaks reader trust at first contact.
+
+**How to apply (any commission authoring user-facing copy):**
+
+1. **Identify the reader role explicitly.** Before authoring, name the audience: K-3 teacher? Parent of a K-3 child? Subscriber on the admin dashboard? Each role has a different vocabulary and concerns.
+2. **Use plain reader-vocabulary, never operator-internal taxonomy.** Specifically forbidden in teacher/parent-facing copy:
+   - Internal taxonomy names: `composedExercises`, `materialSlug`, `framePreset`, `package metadata`, `pedagogical framing`, `curriculum standards` (as a label)
+   - Implementation primitives: `IMAGE_VOCABULARY`, `NUMBER_WORDS`, `auto-resolved`, `gender data`, `locale resolution`, `target language` (use "the language your kids are learning" instead)
+   - Architectural concepts: `packages`, `decks`, `generators`, `ground-truth`, `locales-as-codes`, `print pipeline`, `mass-run`
+   - Aesthetic-meta descriptors: `warm-tone summary`, `picture-cue grid`, `multi-strip printable` (describe the thing, not your characterization of it)
+3. **Describe what the reader gets + what they DO with it.** "Print, cut along the dashed lines, and use the cards for counting" — not "Image-only cards for cut-and-handle classroom work".
+4. **Third-party brand stamps in private external communications are forbidden.** Parent letters, take-home content, family-facing materials a teacher sends home — these are private teacher-parent communication. Never stamp them with platform branding. Classroom-internal materials (flashcards, worksheets, answer keys for the teacher's own use) MAY carry attribution per the §14.3 attribution-neutrality contract; private external communication MAY NOT.
+5. **Self-audit before commit.** Read every line out loud as the reader would. If the reader role would not understand a word, would think "what is this software trying to tell me", or would not trust the document, the copy fails.
+
+**Cross-references (verification-hygiene doctrine family):**
+
+- §A.13.6 spec-vs-shipped-contract validation (code+spec layer)
+- §A.13.14 Phase 1 Explore-agent fidelity validation (exploration-quality layer)
+- §A.13.21 Operator-pre-recommendation substrate verification (input boundary layer)
+- §A.13.22 Audit-doc-vs-canonical-state divergence (audit-document layer)
+- §A.13.29 Ground-truth source-citation discipline (behavior-description layer)
+- §A.13.30 (this section) — audience-perspective layer
+
+**Empirical anchor:** Sub-Phase 2.5 commit (this session). Pre-fix state: 7 teaching-package section descriptions × 4 Tier 1+2 locales = 28 entries all written from engineering perspective, leaking jargon (`IMAGE_VOCABULARY-driven article and gender resolution`, `composed exercises`, `pedagogical framing`, `target-language labels`, `auto-resolved from the vocabulary's gender data`). Parent-letter PDF shipped with `LessonCraftStudio` brand stamp at both header and footer of letters teachers send home to parents. Operator surfaced as absurd + unprofessional. Post-fix state: branding removed from parent-letter; 28 i18n entries rewritten in plain teacher-vocabulary; discipline established at §A.13.30.
+
+**Generalization:** Applies forward to ANY user-facing content authoring — homepage hero copy, deck-page descriptions, blog/guide articles, FAQ entries, support content, modal text, error messages, email templates, admin tooling labels surfaced to subscribers. Every commission that touches reader-visible copy must self-audit against the §A.13.30 checklist before shipping.
+
+**Memory cross-reference:** `feedback_audience_perspective_user_facing_content.md` (sibling of `feedback_template_ground_truth_discipline.md` at the audience-perspective layer of the discipline family).
+
+Origin: Sub-Phase 2.5 multi-mechanism discipline lock commission this session.
+
 ### A.14 Scaling Arc audit doctrine
 
 `[CHORE][AUDIT]` commissions measure publish-cli's path against scale targets without making any production change. The doctrine here governs both the audit commission shape and the engineering decisions that follow.

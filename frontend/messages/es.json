@@ -1548,6 +1548,12 @@
       "description": "Imprima esta carta de una página y envíela a casa con el niño o niña al final de la unidad. El texto principal está en el idioma del hogar de los padres; las etiquetas de las imágenes están en el idioma destino del paquete, para que la familia practique el nuevo vocabulario en casa. Incluye una línea de firma para el docente.",
       "downloadButton": "Descargar carta para familias PDF"
     },
+    "sentenceStrips": {
+      "heading": "Tiras de oraciones",
+      "subheading": "Impresión multitira con una imagen + una oración localizada por tira; los artículos y el género se resuelven automáticamente desde IMAGE_VOCABULARY",
+      "description": "Imprima estas tiras de oraciones y úselas en el cuadro de bolsillo, en trabajo de grupo pequeño o como práctica de recortar y trazar. Cada tira asocia una imagen del vocabulario objetivo con una oración completa en el idioma del paquete; los artículos y la concordancia de plurales se resuelven automáticamente desde los datos de género del vocabulario, para que la gramática sea correcta en cada idioma. Una línea de escritura opcional debajo de cada tira permite que el niño o niña copie la oración.",
+      "downloadButton": "Descargar tiras de oraciones PDF"
+    },
     "locales": {
       "heading": "Idiomas disponibles",
       "subheading": "Este paquete didáctico tiene contenido creado en los siguientes idiomas."

@@ -1355,6 +1355,12 @@
       "description": "Drucken Sie diesen einseitigen Brief aus und geben Sie ihn am Ende der Unterrichtseinheit Ihrem Kind mit nach Hause. Der Fließtext ist in der Familiensprache der Eltern; die Bildkarten-Beschriftungen sind in der Zielsprache des Lernpakets, damit Familie und Kind den neuen Wortschatz gemeinsam üben können. Der Brief enthält eine Unterschriftszeile für die Lehrkraft.",
       "downloadButton": "Elternbrief-PDF herunterladen"
     },
+    "sentenceStrips": {
+      "heading": "Sätze-Streifen",
+      "subheading": "Mehrstreifiger Druck mit einem Bild + einem lokalisierten Satz pro Streifen; Artikel und Genus werden automatisch aus IMAGE_VOCABULARY aufgelöst",
+      "description": "Drucken Sie diese Sätze-Streifen und nutzen Sie sie an der Steckwand, in Kleingruppenarbeit oder als Ausschneide- und Nachspur-Übung. Jeder Streifen verbindet ein Zielwortschatz-Bild mit einem vollständigen Satz in der Sprache des Lernpakets; Artikel und Pluralkongruenz werden automatisch aus den Genus-Daten des Vokabulars aufgelöst, damit die Grammatik in jeder Sprache korrekt ist. Eine optionale Schreiblinie unter jedem Streifen lässt das Kind den Satz nachschreiben.",
+      "downloadButton": "Sätze-Streifen-PDF herunterladen"
+    },
     "locales": {
       "heading": "Verfügbare Sprachen",
       "subheading": "Dieses Lehrpaket hat Inhalte in den folgenden Sprachen."

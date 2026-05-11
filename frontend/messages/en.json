@@ -1264,6 +1264,12 @@
       "description": "Print this single-page letter and send it home with the student at unit end. Body prose is in the parent's home language; picture-cue labels are in the deck's target language so the family can practice the new vocabulary together. The letter includes a signature line for the teacher.",
       "downloadButton": "Download parent letter PDF"
     },
+    "sentenceStrips": {
+      "heading": "Sentence strips",
+      "subheading": "Multi-strip printable with one image + one localized sentence per strip, using IMAGE_VOCABULARY-driven article and gender resolution",
+      "description": "Print these sentence strips and use them at the pocket chart, in small-group work, or as cut-and-trace practice. Each strip pairs a target-vocabulary image with a complete sentence in the deck's language; articles and plural agreement are auto-resolved from the vocabulary's gender data so the grammar is correct in every locale. Optional writing line below each strip lets the kid copy the sentence.",
+      "downloadButton": "Download sentence strips PDF"
+    },
     "locales": {
       "heading": "Available languages",
       "subheading": "This teaching package has authored content in the following languages."

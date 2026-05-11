@@ -1535,6 +1535,12 @@
       "description": "Druk deze eenzijdige brief af en geef hem aan het einde van de lessenreeks mee aan het kind. De lopende tekst staat in de thuistaal van de ouders; de labels bij de afbeeldingen staan in de doeltaal van het pakket, zodat het gezin de nieuwe woordenschat samen kan oefenen. De brief bevat een handtekeningregel voor de leerkracht.",
       "downloadButton": "Download ouderbrief-PDF"
     },
+    "sentenceStrips": {
+      "heading": "Zinstroken",
+      "subheading": "Meerstrook-afdruk met één afbeelding + één gelokaliseerde zin per strook; lidwoorden en geslacht worden automatisch opgelost vanuit IMAGE_VOCABULARY",
+      "description": "Druk deze zinstroken af en gebruik ze bij de kaartenbak, in klein-groepswerk of als knip-en-overtrek-oefening. Elke strook koppelt een afbeelding uit de doelwoordenschat aan een volledige zin in de taal van het pakket; lidwoorden en meervoudscongruentie worden automatisch opgelost vanuit de geslachtsdata van de woordenschat, zodat de grammatica in elke taal correct is. Een optionele schrijfregel onder elke strook laat het kind de zin overschrijven.",
+      "downloadButton": "Download zinstroken-PDF"
+    },
     "locales": {
       "heading": "Beschikbare talen",
       "subheading": "Dit lespakket heeft inhoud in de volgende talen."

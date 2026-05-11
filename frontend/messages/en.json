@@ -1237,6 +1237,29 @@
     "locales": {
       "heading": "Available languages",
       "subheading": "This teaching package has authored content in the following languages."
+    },
+    "bundleContext": {
+      "heading": "Appears in {count} themed bundle(s)",
+      "subheading": "This teaching package is composed into the following Pillar 2 themed bundles."
+    }
+  },
+  "bundlePage": {
+    "breadcrumb": {
+      "home": "Home",
+      "bundles": "Themed bundles"
+    },
+    "header": {
+      "eyebrow": "Themed bundle",
+      "theme": "Theme",
+      "packageCount": "{count} teaching packages"
+    },
+    "coherence": {
+      "heading": "Thematic coherence"
+    },
+    "packages": {
+      "heading": "Composed teaching packages",
+      "subheading": "Each package below pairs with the bundle's unifying theme.",
+      "openPackage": "Open the teaching package"
     }
   }
 }

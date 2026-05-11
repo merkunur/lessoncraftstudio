@@ -10,6 +10,7 @@ import TeachingPackageMaterialsList from '@/components/teaching-packages/Teachin
 import TeachingPackageAssessment from '@/components/teaching-packages/TeachingPackageAssessment';
 import TeachingPackageFlashcardsSection from '@/components/teaching-packages/TeachingPackageFlashcardsSection';
 import TeachingPackageLocaleVariants from '@/components/teaching-packages/TeachingPackageLocaleVariants';
+import TeachingPackageBundleContext from '@/components/teaching-packages/TeachingPackageBundleContext';
 
 // Pillar 1 + Pillar 2 + Pillar 4 evaluation-surface commission Phase 2.
 // Per-package teaching-package detail surface composing the full canonical
@@ -83,6 +84,10 @@ export default async function TeachingPackageDetailPage({
       <TeachingPackageFlashcardsSection
         locale={params.locale}
         packageSlug={pkg.targetSlug}
+      />
+      <TeachingPackageBundleContext
+        packageSlug={pkg.targetSlug}
+        locale={params.locale}
       />
     </main>
   );

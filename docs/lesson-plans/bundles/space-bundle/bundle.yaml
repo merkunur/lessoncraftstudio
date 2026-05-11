@@ -1,0 +1,97 @@
+# Pillar 2 Arc 6 Phase 1 themed bundle — Space
+# Theme-anchored bundle composing 5 space-themed teaching packages spanning
+# numeracy + science-cognition + cognitive-sorting + comparison.
+# 1st STEM-cluster bundle on the platform (opens science cluster).
+
+bundleSlug: space
+themeAxisKey: space
+language: en
+
+title:
+  en: "Space — K-3 Themed Bundle"
+
+description:
+  en: "K-3 bundle centered on space as STEM-cluster anchor for cross-strand exploration. 1st STEM-cluster bundle on the platform — opens science cluster alongside the existing environment + biological clusters. 5 packages span numeracy (count-objects-1-to-10 — counting planets, stars, ships, astronauts in space imagery) + science-cognition (describe-day-night-cycle — Earth-Sun-Moon orbital relationship; day/night caused by Earth rotation) + cognitive-sorting (sort-by-color — colored planets: red Mars, blue Earth, yellow Sun + sort-by-category — planets vs stars vs spacecraft vs astronauts) + comparison (use-size-comparison-words — Sun bigger than planets; planets bigger than moons; spacecraft smaller than planets). Exploration-first pedagogy (vs vocab-first) — K-3 space-content engagement typically leads with wonder + observation rather than formal vocabulary acquisition. Suitable for a 4-5 week classroom unit; supports K-3 multilingual classrooms with science-imagination + cross-cultural-space-celebration (lunar-new-year + summer-solstice + space-mission-news) extensions."
+
+thumbnailUrl: "/bundles/space-thumbnail.png"
+
+status: draft
+
+teachingPackageSlugs:
+  - count-objects-1-to-10
+  - describe-day-night-cycle
+  - sort-by-color
+  - sort-by-category
+  - use-size-comparison-words
+
+deckIds: []
+lessonPlanIds: []
+
+thematicCoherence:
+  en: |
+    All 5 packages cohere around the space theme + form a cross-strand
+    exploration-first progression — distinguishes from vocab-anchored
+    bundles (e.g., animals + foods + occupations) by leading with K-3
+    wonder + observation rather than formal vocabulary work.
+
+    **Pedagogical sequencing:**
+    1. **count-objects-1-to-10** — Counting practice using space items
+       as countable subjects (5 planets in the solar system; 3
+       astronauts on the space station; 7 stars in the constellation; 8
+       moons of Jupiter). Same shared package across many bundles;
+       space-context particularly engaging for K-3 counting via
+       imagination + memorable celestial-imagery.
+    2. **describe-day-night-cycle** — Science-cognition work centered
+       on Earth-Sun-Moon orbital relationship. Same shared package
+       with weather-bundle. Space-context naturally anchors day-night-
+       cycle pedagogy — kids see the Sun + Moon + stars in their
+       everyday observable world.
+    3. **sort-by-color** — Color-cognition work using colored-planet
+       contexts (red Mars, blue Earth, yellow Sun, green-ish Uranus,
+       blue Neptune). Same shared package across many bundles; space-
+       context introduces real-world color-coding (Mars literally red
+       due to iron oxide) bridging colors to physical-science basics.
+    4. **sort-by-category** — Category-classification work
+       distinguishing celestial objects: planets vs stars vs
+       spacecraft vs astronauts vs moons. Same shared package; space-
+       context enables multi-axis classification (natural vs human-
+       made; rocky vs gas; large vs small).
+    5. **use-size-comparison-words** — Comparison work using space
+       size-contrasts (Sun bigger than planets; planets bigger than
+       moons; spacecraft smaller than planets; stars far bigger than
+       planets up close). Same shared package; space-scale-extremes
+       provide vivid size-comparison substrate (the Sun is so big a
+       million Earths fit inside) supporting awe-driven engagement.
+
+    **Strand spread:** 1 numeracy + 1 environment-and-weather (day-
+    night-cycle) + 2 cognitive-sorting (color + category) + 1
+    comparison. **4 distinct strands.** Exploration-first composition
+    pattern — no vocabulary-acquisition package (vs vocab-anchored
+    bundles); space-imagery substrate supports learning-through-
+    observation rather than learning-through-labeling.
+
+    **Suggested unit duration:** 4-5 weeks (1 package per week).
+    Year-round relevance; particularly load-bearing during
+    space-event weeks (Moon-landing anniversary; space-mission
+    news; Mars-rover discoveries). Classroom-engagement boost from
+    aligning unit-week with current astronomical events.
+
+    **Multilingual classroom relevance:** space vocabulary cognate-rich
+    Romance (espacio / espace / spazio / espaço); Germanic-distinct
+    (Weltraum / ruimte / rymden / rom / avaruus). Planet names
+    largely cognate (Mars / Venus / Saturn / Jupiter — Latin-derived
+    cross-locale). Space exploration is universally-aspirational
+    across cultures + ages; multilingual K-3 classrooms find space-
+    themed work engages cross-cultural fascination naturally.
+
+    **Pillar 2 architectural pattern:** space-bundle exemplifies
+    exploration-first bundle composition (vs vocabulary-first). Theme-
+    axis-key STEM-space (1st STEM-cluster bundle). Distinguishes from
+    science-adjacent bundles (weather, dinosaurs implicit-paleo,
+    butterfly-life-cycle implicit-biology) by leading with wonder +
+    observation. Precedent for STEM-cluster expansion (technology +
+    geology + biology candidates). 14-cluster cluster taxonomy after
+    space-bundle ships — STEM-cluster opens new pedagogical-mode
+    dimension alongside vocab + community-context + holiday + daily-
+    life + home-context + cultural-arts + seasonal + biological +
+    sensory + abstract clusters.

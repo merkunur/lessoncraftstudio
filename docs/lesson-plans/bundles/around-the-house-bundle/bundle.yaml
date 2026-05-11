@@ -1,0 +1,87 @@
+# Pillar 2 Arc 6 Phase 1 themed bundle — Around the house
+# Theme-anchored bundle composing 5 home-context teaching packages spanning
+# vocabulary + spatial-reasoning + counting + sorting + comparison.
+# 2nd home-context cluster bundle (furniture is 1st; pairs with furniture-bundle).
+
+bundleSlug: around-the-house
+themeAxisKey: around_the_house
+language: en
+
+title:
+  en: "Around the House — K-3 Themed Bundle"
+
+description:
+  en: "K-3 bundle centered on around-the-house as broad home-context anchor extending furniture-bundle into wider home-environment vocabulary. 5 packages span vocabulary-acquisition (identify-and-name-house-rooms — kitchen, bedroom, living-room, bathroom, dining-room with associated household items) + spatial-reasoning (use-spatial-position-words — on the shelf, under the bed, beside the chair, in the closet) + numeracy (count-objects-1-to-10 — counting household items: 3 windows, 5 doors, 2 lamps, 8 dishes) + cognitive-sorting (sort-by-category — kitchen items vs bedroom items vs bathroom items) + comparison (use-size-comparison-words — big window vs small window; tall door vs short door). Cross-strand home-context bundle bridging furniture-bundle's narrower static-furniture anchor to broader household-object vocabulary. Suitable for a 4-5 week classroom unit; supports K-3 multilingual classrooms with home-school-bridge + family-routine + spatial-awareness extensions."
+
+thumbnailUrl: "/bundles/around-the-house-thumbnail.png"
+
+status: draft
+
+teachingPackageSlugs:
+  - identify-and-name-house-rooms
+  - use-spatial-position-words
+  - count-objects-1-to-10
+  - sort-by-category
+  - use-size-comparison-words
+
+deckIds: []
+lessonPlanIds: []
+
+thematicCoherence:
+  en: |
+    All 5 packages cohere around the broader household-context theme +
+    extend furniture-bundle's narrower static-furniture anchor.
+
+    **Pedagogical sequencing:**
+    1. **identify-and-name-house-rooms** — Foundational room vocabulary
+       (kitchen, bedroom, living-room, bathroom, dining-room). Same
+       shared package with furniture-bundle. Around-the-house-bundle
+       broadens to whole-house-object vocabulary beyond furniture-only.
+    2. **use-spatial-position-words** — Spatial-reasoning work applied
+       across whole-home contexts (on the shelf in the kitchen; under
+       the bed in the bedroom; beside the chair in the living room).
+       Same shared package with furniture-bundle.
+    3. **count-objects-1-to-10** — Counting practice using household
+       items as countable subjects (3 windows; 5 doors; 2 lamps; 8
+       dishes; 7 picture frames). Same shared package across many
+       bundles.
+    4. **sort-by-category** — Category-classification work distinguishing
+       kitchen items (pots, plates, utensils) vs bedroom items (pillow,
+       blanket, lamp) vs bathroom items (towel, soap, toothbrush) vs
+       living-room items (sofa, TV, coffee-table). Same shared package
+       across many bundles; whole-home-context enables richer category
+       discrimination.
+    5. **use-size-comparison-words** — Comparison work using household-
+       size contexts (big window vs small window; tall door vs short
+       door; long hallway vs short hallway; wide kitchen vs narrow
+       bathroom). Same shared package; whole-home-context supports
+       kinesthetic size-estimation.
+
+    **Strand spread:** 1 vocabulary-acquisition (house-rooms) + 1
+    spatial-reasoning + 1 numeracy + 1 cognitive-sorting + 1
+    comparison. **5 distinct strands.** Cross-strand home-context
+    bundle pattern mirrors furniture-bundle but broadens at the theme
+    level — whole-household-environment vs static-furniture-only.
+
+    **Suggested unit duration:** 4-5 weeks (1 package per week).
+    Year-round relevance; natural fit alongside family-routine units.
+    Pairs naturally with furniture-bundle: deliver furniture-bundle
+    first (narrower vocabulary anchor) then around-the-house-bundle
+    (broader vocabulary extension).
+
+    **Multilingual classroom relevance:** household vocabulary cognate-
+    rich Romance (casa / casa / maison / casa); Germanic distinct
+    (Haus / huis / hus / talo). Specific household-item vocabulary
+    varies extensively (window / Fenster / ventana / fenêtre / finestra
+    / janela; door / Tür / puerta / porte / porta). Universal home-
+    relevance — every K-3 kid encounters household objects daily.
+
+    **Pillar 2 architectural pattern:** around-the-house-bundle
+    exemplifies cluster-extension bundle composition — extends the
+    home-context cluster opened by furniture-bundle to broader
+    whole-household scope. Theme-axis-key home-context-whole-house (vs
+    furniture-bundle at static-furniture anchor). Precedent for cluster-
+    extension pattern: a cluster's 1st bundle establishes anchor; 2nd
+    bundle broadens the scope at the cluster's natural expansion
+    boundary. Future home-context cluster: decoration-bundle +
+    appliances-bundle candidates.

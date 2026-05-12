@@ -39,9 +39,13 @@ export default function AddToCollectionButton({ deckId }: AddToCollectionButtonP
   const [createSubmitting, setCreateSubmitting] = useState(false);
   const [createError, setCreateError] = useState<string | null>(null);
 
-  // Subscriber-only render gate per Q-a Option I.
-  if (authLoading) return null;
-  if (!user || !isLcsSubscriptionActive(user)) return null;
+  // React Hook Rules: ALL hooks must be called unconditionally + in same order
+  // on every render. The subscriber-only render gate below uses early-returns,
+  // so useCallback + useEffect MUST be declared BEFORE those returns.
+  // Pre-fix (commit c9ebb2fa diagnostic): hooks were AFTER the early return →
+  // hook count differed across renders (12 on non-subscriber path; 14 on
+  // subscriber path) → React #310 hydration mismatch fired on every page
+  // load that mounts this component (deck cards on topic pages).
 
   const fetchCollections = useCallback(async () => {
     setPickError(null);
@@ -64,6 +68,11 @@ export default function AddToCollectionButton({ deckId }: AddToCollectionButtonP
       fetchCollections();
     }
   }, [open, createMode, fetchCollections]);
+
+  // Subscriber-only render gate per Q-a Option I.
+  // MUST come AFTER all hooks per React Hook Rules.
+  if (authLoading) return null;
+  if (!user || !isLcsSubscriptionActive(user)) return null;
 
   async function handlePick(collectionId: string, collectionName: string) {
     setPicking(true);

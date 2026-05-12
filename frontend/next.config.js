@@ -6,15 +6,6 @@ const nextConfig = {
   // Enable standalone output for Docker deployment
   output: 'standalone',
 
-  // DEBUG ONLY: enable source maps to identify React #310 hydration-mismatch
-  // root cause. Operator reports #310 firing on grid-icon / topic / deck
-  // navigation with "Try again" recovering (classic hydration-mismatch
-  // signature). Stack trace minified to `Object.le [as useCallback]` /
-  // `Object.lt [as useMemo]` from chunk 2117-f8e2a424a4a1063b.js — can't
-  // identify offending component without source maps.
-  // REVERT THIS LINE after diagnostic session.
-  productionBrowserSourceMaps: true,
-
   // Increase static-page generation timeout. Default 60s is insufficient for
   // sitemap/2.xml (2-axis intersection shard) at non-trivial catalog scale —
   // intersection enumeration runs N²+N DB queries per axis-pair × N locales.

@@ -1554,6 +1554,12 @@
       "description": "Imprima, recorte por las líneas punteadas y use las tiras en el cuadro de bolsillo, en lectura en grupo pequeño o para práctica de copiar y trazar. Cada tira muestra una imagen y una oración completa en el idioma que sus niños están aprendiendo, con una línea opcional debajo para que su hijo o hija escriba la oración.",
       "downloadButton": "Descargar tiras de oraciones PDF"
     },
+    "matchingMat": {
+      "heading": "Tablero de emparejamiento",
+      "subheading": "Tablero de una página con imágenes a la izquierda y las palabras correspondientes a la derecha — sus niños trazan líneas o colocan fichas para emparejarlas.",
+      "description": "Imprima un tablero por niño (o por pareja). Las imágenes a la izquierda y las palabras a la derecha aparecen en distinto orden — su hijo o hija encuentra la palabra que corresponde a cada imagen y las une con una línea de lápiz, un trozo de cordel o pequeñas fichas. Las celdas más grandes que las de la hoja de emparejamiento habitual hacen que el tablero funcione bien como actividad de alfombra o estación en parejas.",
+      "downloadButton": "Descargar tablero de emparejamiento PDF"
+    },
     "locales": {
       "heading": "Idiomas disponibles",
       "subheading": "Este paquete didáctico tiene contenido creado en los siguientes idiomas."

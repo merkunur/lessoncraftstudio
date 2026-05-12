@@ -17,6 +17,7 @@ import TeachingPackageManipulativeCutOutsSection from '@/components/teaching-pac
 import TeachingPackageAnswerKeySection from '@/components/teaching-packages/TeachingPackageAnswerKeySection';
 import TeachingPackageParentLetterSection from '@/components/teaching-packages/TeachingPackageParentLetterSection';
 import TeachingPackageSentenceStripsSection from '@/components/teaching-packages/TeachingPackageSentenceStripsSection';
+import TeachingPackageMatchingMatSection from '@/components/teaching-packages/TeachingPackageMatchingMatSection';
 
 // Pillar 1 + Pillar 2 + Pillar 4 evaluation-surface commission Phase 2.
 // Per-package teaching-package detail surface composing the full canonical
@@ -156,6 +157,18 @@ export default async function TeachingPackageDetailPage({
           <TeachingPackageSentenceStripsSection
             locale={params.locale}
             packageSlug={pkg.targetSlug}
+          />
+        );
+      })()}
+      {(() => {
+        const mmMaterial = pkg.materials.find((m) => m.materialSlug === 'matching-mat');
+        if (!mmMaterial) return null;
+        const pc = mmMaterial.customizationParameters?.pairCount as number | undefined;
+        return (
+          <TeachingPackageMatchingMatSection
+            locale={params.locale}
+            packageSlug={pkg.targetSlug}
+            pairCount={pc}
           />
         );
       })()}

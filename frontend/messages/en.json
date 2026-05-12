@@ -1270,6 +1270,12 @@
       "description": "Print, cut along the dashed lines, and use the strips at the pocket chart, in small-group reading, or for copy-and-trace practice. Each strip has one picture and one full sentence in the language your kids are learning, with an optional line underneath for your kid to write the sentence.",
       "downloadButton": "Download sentence strips PDF"
     },
+    "matchingMat": {
+      "heading": "Matching mat",
+      "subheading": "Single-page mat with pictures on the left and matching words on the right — your kids draw lines or place counters to pair them up.",
+      "description": "Print one mat per kid (or per pair). The pictures on the left and the words on the right are shuffled — your kid finds each picture's matching word and connects them with a pencil line, a piece of string, or small counters. Larger cells than the regular matching worksheet make this work well as a carpet activity or a paired station.",
+      "downloadButton": "Download matching mat PDF"
+    },
     "locales": {
       "heading": "Available languages",
       "subheading": "This teaching package has authored content in the following languages."

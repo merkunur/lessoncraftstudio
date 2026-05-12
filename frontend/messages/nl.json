@@ -1541,6 +1541,12 @@
       "description": "Druk af, knip langs de stippellijnen en gebruik de stroken bij de kaartenbak, in klein-groepswerk of voor overschrijf-oefening. Elke strook toont één afbeelding en één volledige zin in de taal die uw kinderen leren, met een optionele regel eronder voor uw kind om de zin op te schrijven.",
       "downloadButton": "Download zinstroken-PDF"
     },
+    "matchingMat": {
+      "heading": "Verbindingsmat",
+      "subheading": "Mat van één pagina met afbeeldingen aan de linkerkant en de bijbehorende woorden aan de rechterkant — uw kinderen trekken lijnen of leggen fiches om de paren te vormen.",
+      "description": "Druk één mat per kind af (of per duo). De afbeeldingen links en de woorden rechts staan in een andere volgorde — uw kind zoekt bij elke afbeelding het passende woord en verbindt ze met een potloodlijn, een stukje touw of kleine fiches. De grotere vakken vergeleken met het gewone verbindingsblad maken de mat geschikt als kringactiviteit of als duo-station.",
+      "downloadButton": "Download verbindingsmat-PDF"
+    },
     "locales": {
       "heading": "Beschikbare talen",
       "subheading": "Dit lespakket heeft inhoud in de volgende talen."

@@ -1361,6 +1361,12 @@
       "description": "Drucken, an den gestrichelten Linien ausschneiden und an der Steckwand, in der Kleingruppenarbeit oder zum Nachschreiben einsetzen. Jeder Streifen zeigt ein Bild und einen vollständigen Satz in der Sprache, die Ihre Kinder lernen, mit einer optionalen Schreibzeile darunter zum Mitschreiben.",
       "downloadButton": "Satzstreifen-PDF herunterladen"
     },
+    "matchingMat": {
+      "heading": "Zuordnungsmatte",
+      "subheading": "Einseitige Matte mit Bildern links und den passenden Wörtern rechts – Ihre Kinder verbinden die Paare mit Linien oder legen Marker darauf.",
+      "description": "Drucken Sie eine Matte pro Kind (oder Paar) aus. Die Bilder links und die Wörter rechts stehen in unterschiedlicher Reihenfolge – Ihr Kind findet das passende Wort zu jedem Bild und verbindet sie mit einer Bleistiftlinie, einem Stück Schnur oder kleinen Markern. Die größeren Felder im Vergleich zum normalen Zuordnungsblatt machen die Matte zu einer guten Teppich- oder Partnerstation.",
+      "downloadButton": "Zuordnungsmatten-PDF herunterladen"
+    },
     "locales": {
       "heading": "Verfügbare Sprachen",
       "subheading": "Dieses Lehrpaket hat Inhalte in den folgenden Sprachen."

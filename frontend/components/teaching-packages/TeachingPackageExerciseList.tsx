@@ -23,18 +23,34 @@ function formatParameters(params: Record<string, unknown> | undefined): string {
 
 /**
  * Pick a representative deck for an exercise. Tries:
- *   1. Match exact (exerciseType, exerciseMode) if mode present in package
- *   2. Match exerciseType only (first available)
+ *   1. Match exact (exerciseMode, theme) if both present in package
+ *   2. Match exerciseMode only (if present)
+ *   3. Match theme only (subjectTags includes themeSelect) — F5 Path B fallback
+ *      that disambiguates slots whose YAML exerciseMode has no matching deck in
+ *      the production catalog (e.g., count-objects-1-to-10's "unified"-mode
+ *      slots whose catalog match falls through to first letter-spotting deck).
+ *   4. First available
  * Returns null if no published deck found in locale catalog.
  */
 function pickSampleDeck(
   decks: TopicDeckSummary[],
-  exerciseMode: string | undefined
+  exerciseMode: string | undefined,
+  themeSelect: string | undefined
 ): TopicDeckSummary | null {
   if (decks.length === 0) return null;
+  if (exerciseMode && themeSelect) {
+    const exact = decks.find(
+      (d) => d.exerciseMode === exerciseMode && d.subjectTags.includes(themeSelect)
+    );
+    if (exact) return exact;
+  }
   if (exerciseMode) {
     const exact = decks.find((d) => d.exerciseMode === exerciseMode);
     if (exact) return exact;
+  }
+  if (themeSelect) {
+    const themeMatch = decks.find((d) => d.subjectTags.includes(themeSelect));
+    if (themeMatch) return themeMatch;
   }
   return decks[0];
 }
@@ -70,7 +86,8 @@ export default async function TeachingPackageExerciseList({ pkg, locale }: Props
       <ol className="space-y-3">
         {exercises.map((ex: ComposedExercise) => {
           const decks = deckMap.get(ex.appName) || [];
-          const sample = pickSampleDeck(decks, ex.exerciseMode);
+          const themeSelect = ex.customizationParameters?.themeSelect as string | undefined;
+          const sample = pickSampleDeck(decks, ex.exerciseMode, themeSelect);
           const deckUrl = sample ? `/${locale}/decks/${sample.slug}/` : null;
           const topicUrl = `/${locale}/topic/${ex.appName}`;
           const sampleTitle = sample ? localizedTitle(sample.title, locale) : null;

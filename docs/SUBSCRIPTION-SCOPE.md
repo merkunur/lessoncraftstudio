@@ -584,3 +584,73 @@ A materials-additivity audit ran against the count-objects-1-to-10 C5 free-tier 
 **Audit plan file (full deliverable + audit-trail):** `C:\Users\rkgen\.claude\plans\analyze-the-files-in-luminous-milner.md` (out-of-tree per §10.4 working-memory artifact pattern; persists at filesystem level; cross-reference for next-session resumption).
 
 **Pending separate [CHORE][DOCS] reconciliation (filed):** this canonical `docs/SUBSCRIPTION-SCOPE.md` is behind on Pillar 5 detail (Pillar 5 generator architecture + Phase 1 + Phase 2 close-out shipped during the cycle that closed 2026-05-11 per `important/SUBSCRIPTION-SCOPE.md` working-memory snapshot, but not yet folded into canonical). Per §A.8.2 multi-copy doctrine-file drift discipline, the canonical-state catch-up is a separate commission shape from this in-line audit-finding amendment. Filed as deferred [CHORE][DOCS] reconciliation candidate.
+
+---
+
+## Materials-additivity audit — C5 fan-out (added 2026-05-12 post operator approval of consolidated audit deliverable)
+
+Following the count-objects-1-to-10 baseline audit (above R4 entry) + F5 Path B shipping at commit `d8102dcb`: the audit shape extended to the other 2 C5 free-tier packages (identify-letter-sounds-vowels + identify-living-vs-nonliving) per R2 ratification. Three-package empirical basis is now the canonical strand-aware-disposition-template source for downstream fan-out.
+
+### Class-conditional disposition pattern CONFIRMED (3-package basis)
+
+The R4-amendment's strand-aware framing is empirically validated:
+
+| Material | Numeracy class (count-objects) | Literacy class (letter-sounds) | World-knowledge class (living-vs-nonliving) |
+|---|---|---|---|
+| Flashcards | REMOVE | KEEP | KEEP |
+| Picture-cards | REMOVE | KEEP | KEEP |
+| Numeral-cards | KEEP | (not composed) | (not composed) |
+| Manipulative-cut-outs | KEEP | KEEP | KEEP |
+| Sentence-strips | REVISE (F6 count-mode) | (not composed) | KEEP (this-is-a frame; no F6 defect) |
+| Parent-letter | REVISE (F7 strand-aware) | KEEP-as-shipped | KEEP-as-shipped |
+| Answer-key | KEEP | KEEP | KEEP |
+| Matching-mat | (not composed) | PROSPECTIVE KEEP (F10) | PROSPECTIVE KEEP (F10) |
+| Vocabulary-tracing-strips | (not composed) | PROSPECTIVE KEEP (F11) | (not composed) |
+
+Numeracy-class is the outlier. REMOVE flashcards + picture-cards is numeracy-specific. Vocabulary-acquisition artifacts (flashcards + picture-cards) earn slot-residency at literacy + world-knowledge packages because vocabulary IS the instructional content there.
+
+### Substrate-gap finding — 2 materials composed in YAMLs but not yet implemented in production
+
+- **matching-mat** (composed at 2 of 3 C5 packages — both fan-out packages) — NO generator script, NO UI section component, production CDN returns HTTP 404. Status: `substrate-gap` per `frontend/lib/teaching-packages/material-status.ts:29`. Teaching-package UI renders the slot with a substrate-gap badge instead of a download link (graceful failure).
+- **vocabulary-tracing-strips** (composed at identify-letter-sounds-vowels only) — same state. Status: `substrate-gap` per `material-status.ts:30`. Production CDN 404.
+
+### F-filing scope refinement per C5 fan-out empirical basis
+
+- **F6 (sentence-strips countMode)**: scope is **NUMERACY-CLASS ONLY** (or any package composing `framePreset: there-are-count-plural`). identify-living-vs-nonliving's `this-is-a` frame has no count parameter; F6 doesn't apply. Refines F6 commission spec to count-bearing-frames only.
+- **F7 (parent-letter strand-aware variants)**: scope is **NUMERACY-CLASS PRIMARILY**. Literacy + world-knowledge classes find the current "counting, sorting, matching, listening to new English words" body-prose acceptable (literacy maps to "listening to new English words"; world-knowledge maps to "sorting"). F7 still useful for tightening per-strand tone but not gating disposition acceptance at literacy/world-knowledge classes.
+- **F8 (answer-key vocab-table consolidation)**: universal cross-package.
+- **F9 (deck-side answer-key UX surfacing)**: universal per-deck.
+
+### New filings opened during C5 fan-out
+
+- **F10**: Generator + UI section + production CDN pipeline for **matching-mat**. High cross-package generalization (composed at 2 of 3 C5 packages; likely composed at many packages beyond C5). Operator strategic-direction call on generator-authoring commission shape.
+- **F11**: Generator + UI section + production CDN pipeline for **vocabulary-tracing-strips**. Composed at 1 of 3 C5 packages (literacy class). Same trigger as F10.
+- **F12**: Extend F5 Path B's pickSampleDeck theme-fallback to handle apps with non-standard customization-param names. picture-sort uses `leftCategoryThemeSelect` + `rightCategoryThemeSelect` (not `themeSelect`); F5 doesn't activate for picture-sort. identify-living-vs-nonliving slots 1 + 3 collapse post-F5 because the theme-fallback doesn't fire.
+- **F13**: picture-sort `subjectTags` shape: `{leftTheme-vs-rightTheme}` compound string vs 2 separate theme tags. May consolidate with F12 if both resolve via pickSampleDeck logic.
+- **F14**: identify-letter-sounds-vowels `foods`-theme catalog gap. Slots 4-5 reference `themeSelect: foods` but production catalog has 0 decks with `foods` subject_tag for any composed exerciseType. Either operator authors foods-themed decks (similar to F5b) OR YAML slots revise to align with catalog (animals/fruits/etc.).
+
+### C5 free-tier badge grid recalibrated (3-package consolidated)
+
+| Package | Current effective grid | Post-F-fix effective grid |
+|---|---:|---:|
+| count-objects-1-to-10 (numeracy) | 3 KEEP + 2 REVISE-pending + 2 REMOVE = **5 of 7** | 5 of 7 post-F6+F7 (REMOVEs stay) |
+| identify-letter-sounds-vowels (literacy) | 5 KEEP-shipped + 2 substrate-gap = **5 of 7** | 7 of 7 IFF F10+F11 ship |
+| identify-living-vs-nonliving (world-knowledge) | 6 KEEP-shipped + 1 substrate-gap = **6 of 7** | 7 of 7 IFF F10 ships |
+
+**Three-package empirical Pillar 5 materials-surface count: 16 effective slots of 21 total composed across C5 (76%).** Post-F10+F11+F6+F7 fixes: 19 of 21 (90%) effective. The remaining 2 (count-objects-1-to-10 numeracy-class REMOVEs of flashcards + picture-cards) stay REMOVED per audit disposition.
+
+### Subscribe-flip readiness implication updated (3-package basis)
+
+The R4-amendment's strand-aware framing HOLDS empirically. C5 fan-out adds substrate-gap evidence + F10-F14 structural-defect filings. Updated materials-surface readiness:
+
+- **Numeracy class**: 5 effective per package; F6+F7 fixes preserve count
+- **Literacy class**: 5 effective CURRENTLY; 7 effective IFF F10+F11 generators ship
+- **World-knowledge class**: 6 effective CURRENTLY; 7 effective IFF F10 ships
+
+**(R2) ADVANCING-NATURALLY state preservation HOLDS** — the C5 fan-out characterizes materials-surface state honestly without invalidating launch-trigger readiness. F10 + F11 (substrate-gap generator implementations) become PRIORITIZED follow-on commissions; their absence is bounded + acceptable for (R2)→(R1) re-ratification provided the strand-aware framing is canonical at SUBSCRIPTION-SCOPE.md (this amendment).
+
+**(R2)→(R1) re-ratification gating recommendation:** ship F10 + F11 (substrate-gap closures) + F12 (F5 Path B picture-sort extension) before (R1) re-ratification, OR operator-strategic accept of substrate-gap + slot-collapse state as bounded per current effective grid.
+
+### C5 fan-out audit plan file
+
+Full Phase 0 + Phase 1 + Phase 2 deliverable at `C:\Users\rkgen\.claude\plans\analyze-the-files-in-luminous-milner.md` (working-memory artifact per §10.4; out-of-tree). Audit-trail integrity preserved — count-objects-1-to-10 baseline + F5 commission + C5 fan-out all accumulate in the same plan file via additive section structure.

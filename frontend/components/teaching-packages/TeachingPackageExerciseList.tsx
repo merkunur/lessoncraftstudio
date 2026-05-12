@@ -23,33 +23,41 @@ function formatParameters(params: Record<string, unknown> | undefined): string {
 
 /**
  * Pick a representative deck for an exercise. Tries:
- *   1. Match exact (exerciseMode, theme) if both present in package
+ *   1. Match exact (exerciseMode, any theme candidate) if both present
  *   2. Match exerciseMode only (if present)
- *   3. Match theme only (subjectTags includes themeSelect) — F5 Path B fallback
- *      that disambiguates slots whose YAML exerciseMode has no matching deck in
- *      the production catalog (e.g., count-objects-1-to-10's "unified"-mode
- *      slots whose catalog match falls through to first letter-spotting deck).
+ *   3. Match any theme candidate (subjectTags includes) — F5 Path B fallback,
+ *      generalized to multi-candidate per F12 for picture-sort compound-theme
+ *      decks (subjectTags carries compound `<leftTheme>-vs-<rightTheme>`) and
+ *      any future apps with non-standard theme-discriminator naming.
  *   4. First available
  * Returns null if no published deck found in locale catalog.
+ *
+ * themeCandidates: ordered list of theme strings to try against subjectTags.
+ * Caller constructs from customizationParameters — standard `themeSelect` for
+ * most apps; picture-sort additionally constructs both orderings of the
+ * `<leftCategoryThemeSelect>-vs-<rightCategoryThemeSelect>` compound since
+ * authoring-side ordering may not match deck-row ordering.
  */
 function pickSampleDeck(
   decks: TopicDeckSummary[],
   exerciseMode: string | undefined,
-  themeSelect: string | undefined
+  themeCandidates: string[]
 ): TopicDeckSummary | null {
   if (decks.length === 0) return null;
-  if (exerciseMode && themeSelect) {
-    const exact = decks.find(
-      (d) => d.exerciseMode === exerciseMode && d.subjectTags.includes(themeSelect)
-    );
-    if (exact) return exact;
+  if (exerciseMode && themeCandidates.length > 0) {
+    for (const tc of themeCandidates) {
+      const exact = decks.find(
+        (d) => d.exerciseMode === exerciseMode && d.subjectTags.includes(tc)
+      );
+      if (exact) return exact;
+    }
   }
   if (exerciseMode) {
     const exact = decks.find((d) => d.exerciseMode === exerciseMode);
     if (exact) return exact;
   }
-  if (themeSelect) {
-    const themeMatch = decks.find((d) => d.subjectTags.includes(themeSelect));
+  for (const tc of themeCandidates) {
+    const themeMatch = decks.find((d) => d.subjectTags.includes(tc));
     if (themeMatch) return themeMatch;
   }
   return decks[0];
@@ -86,8 +94,26 @@ export default async function TeachingPackageExerciseList({ pkg, locale }: Props
       <ol className="space-y-3">
         {exercises.map((ex: ComposedExercise) => {
           const decks = deckMap.get(ex.appName) || [];
-          const themeSelect = ex.customizationParameters?.themeSelect as string | undefined;
-          const sample = pickSampleDeck(decks, ex.exerciseMode, themeSelect);
+          const cp = (ex.customizationParameters ?? {}) as Record<string, unknown>;
+          const themeCandidates: string[] = [];
+          if (typeof cp.themeSelect === 'string') {
+            themeCandidates.push(cp.themeSelect);
+          }
+          if (
+            typeof cp.leftCategoryThemeSelect === 'string' &&
+            typeof cp.rightCategoryThemeSelect === 'string'
+          ) {
+            // picture-sort schema convention (F12): subjectTags carries compound
+            // `<left>-vs-<right>`. Try both orderings since authoring-side
+            // ordering may not match deck-row ordering.
+            themeCandidates.push(
+              `${cp.leftCategoryThemeSelect}-vs-${cp.rightCategoryThemeSelect}`
+            );
+            themeCandidates.push(
+              `${cp.rightCategoryThemeSelect}-vs-${cp.leftCategoryThemeSelect}`
+            );
+          }
+          const sample = pickSampleDeck(decks, ex.exerciseMode, themeCandidates);
           const deckUrl = sample ? `/${locale}/decks/${sample.slug}/` : null;
           const topicUrl = `/${locale}/topic/${ex.appName}`;
           const sampleTitle = sample ? localizedTitle(sample.title, locale) : null;

@@ -550,3 +550,37 @@ The home page subscription section now has a concrete frame to draft against:
 - Strategic-decisions session 2026-05-02 resolved 6 originally-open decisions. Resolution #7 added at Phase 1c apply (`e912b805`). Resolutions folded into §1 Conditions + Pillar sections + audit-trailed in the "Resolved decisions" section. Schema impacts: per-locale-rows lesson-plan localization (resolution #5) was schema-resolved at commit `9ba9fa2d`; Bundle model (resolution #4) shipped at migration `20260504081907_add_bundle_schema` with BundleDeck + BundleLessonPlan + BundleTeachingPackage join tables.
 - Tier 2 closeout doctrine pass 2026-05-03 (post `d3b4f962`) added the Tier 1+2 catalog completion milestone subsection with bundle-scope adjudication = Option A (hold 7 × 2 = 14). Decision rationale: bundles ship with paired lesson plans; bundle localization downstream of lesson-plan localization; es+nl bundle authoring filed as follow-on extension.
 - v3 reconciliation 2026-05-08 (this revision) merged operator-pasted v2 6-condition re-lock against current canonical state per 7 reconciliation deltas: master count 15→21 (Delta A), locale variants 4→7 (Delta B), Pillar 2 redefinition to teaching-package bundles (Delta C; v2 supersedes), launch-trigger framework (Delta D; coexist with strict role separation — 170-units becomes informational milestone, 6-condition is sole launch trigger), NSR-flag bifurcated discipline introduction (Delta E), authoring envelope projection introduction (Delta F), CLAUDE.md fold-list deferral (Delta H; separate next-[DOCS]-cycle commit). The CLAUDE.md fold list (§1 launch-trigger / §A.13.X NSR-bifurcated / §A.13.Y substrate-audit-at-arc-commencement / §A.14.X scaling-checkpoint / §7 Pillar 2 reframe / §11 future-arc registry) is queued for the next [DOCS] cycle as its own commit shape per §A.8.2 multi-copy doctrine drift discipline.
+
+---
+
+## Materials-additivity audit finding (added 2026-05-12 post audit ratification R4)
+
+A materials-additivity audit ran against the count-objects-1-to-10 C5 free-tier pilot package on 2026-05-12 and produced operator-ratified findings (R1-R4 batched ratification surface):
+
+- **R1 ratification:** 7 per-material dispositions ratified for count-objects-1-to-10 (numeracy class): REMOVE flashcards + REMOVE picture-cards / KEEP numeral-cards + manipulative-cut-outs + answer-key / REVISE parent-letter + sentence-strips. Honest count for this package post-audit: 3 KEEP + 2 REVISE-pending + 2 REMOVE = 5 effective materials (not 7 format-slots).
+- **R2 ratification:** fan-out scope = extend audit to other 2 C5 free-tier packages (identify-letter-sounds-vowels + identify-living-vs-nonliving) before broader cross-package extension. Strand-aware findings expected: vocabulary-class packages likely keep flashcards + picture-cards; numeracy-class packages likely REMOVE per pilot finding.
+- **R3 ratification:** F5 (package-YAML mode-mismatch vs production catalog) prioritized as foundational structural fix. F6-F9 ship after F5.
+- **R4 ratification (this entry):** materials-surface completeness framing is **partially illusory** at the format-coverage-first measure. Pillar 5 materials-surface story needs strand-aware recalibration:
+  - Numeracy-strand packages effective materials count: ~5 post-F6+F7-fix (not 7).
+  - Vocabulary-strand packages effective materials count: ~7 (unchanged; audit findings don't apply).
+  - Literacy + world-knowledge strands: TBD post-C5-fan-out (the other 2 C5 packages' audits).
+  - Prior "7-of-7 generators SHIPPED at C5 free-tier packages (operationally adjacent to Subscribe-flip readiness)" framing should be amended to "7 generators ship; per-package additive count is strand-aware: numeracy effective at ~5 post-fix, vocabulary effective at ~7, literacy + world-knowledge TBD."
+
+**Subscribe-flip readiness implication:** (R2) ADVANCING-NATURALLY operational state is preserved. The readiness STORY is updated to reflect honest materials-surface count rather than format-slot count. Subscribe-flip is structurally achievable post-F5+F6+F7 ship + C5 fan-out validation. The structural-fix triad + cross-package fan-out are the remaining substrate work; not blocking on the format-coverage milestone framing.
+
+**Filings opened during audit (all UNBLOCKED post-ratification; each separate commission):**
+
+- F5: package.yaml composed-exercise mode-mismatch resolution (3 paths: revise YAML / extend pickSampleDeck / generate `unified`-mode decks; operator strategic call on which path)
+- F6: `lib/sentence-strips-render.ts` countMode parameter (fixed/varying/explicit + countList; align strip image-count with stated count)
+- F7: `parent-letter-tone-templates.ts` strand-aware body-prose variants per locale × tone × strand
+- F8: `lib/answer-key-render.ts` in-document vocab-table redundancy consolidation
+- F9: Topic-page or teaching-package UX surfacing `Deck.answerKeyUrl` (file exists on CDN + serves 200 HTTP but no teacher-facing UI link)
+
+**Doctrine candidates from audit for next [DOCS] cycle:**
+
+- Editorial-layer gap (P2-§2 of audit plan file): commission framework currently has no slot for editorial judgment about additive value per material per package. Phase 1 6-field per-material structure (deck-zip-provides + package-adds + rendered-output-verification + delta + disposition + cross-package) is the canonical shape candidate for an editorial-layer step at package-authoring or commission-completion.
+- Mid-commission spec revision (audit precedent): operator revised the commission spec substantially mid-execution, requiring retroactive Phase 1 rewrite. §A.13.6-class precedent worth folding into the §A.13 verification-hygiene family — when commission spec evolves during execution, the revised spec retroactively reshapes deliverables.
+
+**Audit plan file (full deliverable + audit-trail):** `C:\Users\rkgen\.claude\plans\analyze-the-files-in-luminous-milner.md` (out-of-tree per §10.4 working-memory artifact pattern; persists at filesystem level; cross-reference for next-session resumption).
+
+**Pending separate [CHORE][DOCS] reconciliation (filed):** this canonical `docs/SUBSCRIPTION-SCOPE.md` is behind on Pillar 5 detail (Pillar 5 generator architecture + Phase 1 + Phase 2 close-out shipped during the cycle that closed 2026-05-11 per `important/SUBSCRIPTION-SCOPE.md` working-memory snapshot, but not yet folded into canonical). Per §A.8.2 multi-copy doctrine-file drift discipline, the canonical-state catch-up is a separate commission shape from this in-line audit-finding amendment. Filed as deferred [CHORE][DOCS] reconciliation candidate.

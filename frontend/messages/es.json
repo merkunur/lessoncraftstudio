@@ -1560,6 +1560,12 @@
       "description": "Imprima un tablero por niño (o por pareja). Las imágenes a la izquierda y las palabras a la derecha aparecen en distinto orden — su hijo o hija encuentra la palabra que corresponde a cada imagen y las une con una línea de lápiz, un trozo de cordel o pequeñas fichas. Las celdas más grandes que las de la hoja de emparejamiento habitual hacen que el tablero funcione bien como actividad de alfombra o estación en parejas.",
       "downloadButton": "Descargar tablero de emparejamiento PDF"
     },
+    "vocabularyTracingStrips": {
+      "heading": "Tiras para trazar vocabulario",
+      "subheading": "Tiras con una imagen, una palabra para trazar en gris claro y una línea en blanco debajo — sus niños trazan y luego escriben la palabra por su cuenta.",
+      "description": "Imprima una hoja por niño. Cada tira muestra una imagen, la palabra correspondiente en gris claro para trazar, y una línea en blanco debajo para escribir la palabra de manera independiente. Útil en una estación de escritura o como hoja de práctica para llevar a casa. Apropiada para niños de jardín de infantes y primer grado que trabajan en la formación de letras mientras aprenden vocabulario.",
+      "downloadButton": "Descargar tiras para trazar PDF"
+    },
     "locales": {
       "heading": "Idiomas disponibles",
       "subheading": "Este paquete didáctico tiene contenido creado en los siguientes idiomas."

@@ -18,6 +18,7 @@ import TeachingPackageAnswerKeySection from '@/components/teaching-packages/Teac
 import TeachingPackageParentLetterSection from '@/components/teaching-packages/TeachingPackageParentLetterSection';
 import TeachingPackageSentenceStripsSection from '@/components/teaching-packages/TeachingPackageSentenceStripsSection';
 import TeachingPackageMatchingMatSection from '@/components/teaching-packages/TeachingPackageMatchingMatSection';
+import TeachingPackageVocabularyTracingStripsSection from '@/components/teaching-packages/TeachingPackageVocabularyTracingStripsSection';
 
 // Pillar 1 + Pillar 2 + Pillar 4 evaluation-surface commission Phase 2.
 // Per-package teaching-package detail surface composing the full canonical
@@ -169,6 +170,18 @@ export default async function TeachingPackageDetailPage({
             locale={params.locale}
             packageSlug={pkg.targetSlug}
             pairCount={pc}
+          />
+        );
+      })()}
+      {(() => {
+        const vtsMaterial = pkg.materials.find((m) => m.materialSlug === 'vocabulary-tracing-strips');
+        if (!vtsMaterial) return null;
+        const sc = vtsMaterial.customizationParameters?.stripCount as number | undefined;
+        return (
+          <TeachingPackageVocabularyTracingStripsSection
+            locale={params.locale}
+            packageSlug={pkg.targetSlug}
+            stripCount={sc}
           />
         );
       })()}

@@ -1276,6 +1276,12 @@
       "description": "Print one mat per kid (or per pair). The pictures on the left and the words on the right are shuffled — your kid finds each picture's matching word and connects them with a pencil line, a piece of string, or small counters. Larger cells than the regular matching worksheet make this work well as a carpet activity or a paired station.",
       "downloadButton": "Download matching mat PDF"
     },
+    "vocabularyTracingStrips": {
+      "heading": "Vocabulary tracing strips",
+      "subheading": "Strips with a picture, a traceable word in light gray, and a blank line below — your kids trace and then write the word themselves.",
+      "description": "Print one sheet per kid. Each strip shows a picture, the matching word in light gray for tracing, and a blank line below to write the word independently. Use at a handwriting station or as a take-home practice sheet. Good for kindergarten and Grade 1 kids working on letter formation while learning vocabulary.",
+      "downloadButton": "Download tracing strips PDF"
+    },
     "locales": {
       "heading": "Available languages",
       "subheading": "This teaching package has authored content in the following languages."

@@ -1367,6 +1367,12 @@
       "description": "Drucken Sie eine Matte pro Kind (oder Paar) aus. Die Bilder links und die Wörter rechts stehen in unterschiedlicher Reihenfolge – Ihr Kind findet das passende Wort zu jedem Bild und verbindet sie mit einer Bleistiftlinie, einem Stück Schnur oder kleinen Markern. Die größeren Felder im Vergleich zum normalen Zuordnungsblatt machen die Matte zu einer guten Teppich- oder Partnerstation.",
       "downloadButton": "Zuordnungsmatten-PDF herunterladen"
     },
+    "vocabularyTracingStrips": {
+      "heading": "Wörter-Nachspur-Streifen",
+      "subheading": "Streifen mit einem Bild, einem hellgrauen Wort zum Nachspuren und einer leeren Linie darunter – Ihre Kinder spuren nach und schreiben das Wort dann selbst.",
+      "description": "Drucken Sie ein Blatt pro Kind aus. Jeder Streifen zeigt ein Bild, das passende Wort in hellem Grau zum Nachspuren und eine leere Linie darunter, auf die das Kind das Wort selbst schreibt. Gut geeignet für die Schreibstation oder als Übungsblatt für zu Hause. Passend für Kindergarten- und Erstklasskinder, die an der Buchstabenformung arbeiten und gleichzeitig Wortschatz lernen.",
+      "downloadButton": "Wörter-Nachspur-Streifen herunterladen"
+    },
     "locales": {
       "heading": "Verfügbare Sprachen",
       "subheading": "Dieses Lehrpaket hat Inhalte in den folgenden Sprachen."

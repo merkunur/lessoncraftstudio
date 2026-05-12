@@ -27,7 +27,7 @@ const MATERIAL_STATUS: Record<string, MaterialStatusEntry> = {
   'parent-take-home-letter': { status: 'shipped', shippedAnchor: '#parent-letter' },
   'answer-key': { status: 'shipped', shippedAnchor: '#answer-key' },
   'matching-mat': { status: 'shipped', shippedAnchor: '#matching-mat' },
-  'vocabulary-tracing-strips': { status: 'substrate-gap' },
+  'vocabulary-tracing-strips': { status: 'shipped', shippedAnchor: '#vocabulary-tracing-strips' },
   'math-mat': { status: 'substrate-gap' },
 };
 

@@ -1547,6 +1547,12 @@
       "description": "Druk één mat per kind af (of per duo). De afbeeldingen links en de woorden rechts staan in een andere volgorde — uw kind zoekt bij elke afbeelding het passende woord en verbindt ze met een potloodlijn, een stukje touw of kleine fiches. De grotere vakken vergeleken met het gewone verbindingsblad maken de mat geschikt als kringactiviteit of als duo-station.",
       "downloadButton": "Download verbindingsmat-PDF"
     },
+    "vocabularyTracingStrips": {
+      "heading": "Woorden-overtrekstroken",
+      "subheading": "Stroken met een afbeelding, een lichtgrijs woord om over te trekken en een lege regel eronder — uw kinderen trekken eerst over en schrijven het woord daarna zelf.",
+      "description": "Druk één blad per kind af. Elke strook toont een afbeelding, het bijpassende woord in lichtgrijs om over te trekken en een lege regel eronder waar het kind het woord zelf opschrijft. Geschikt voor een schrijfstation of als oefenblad om mee naar huis te nemen. Past goed bij kleuters en groep-3-kinderen die werken aan lettervormen terwijl ze woordenschat leren.",
+      "downloadButton": "Download overtrekstroken-PDF"
+    },
     "locales": {
       "heading": "Beschikbare talen",
       "subheading": "Dit lespakket heeft inhoud in de volgende talen."

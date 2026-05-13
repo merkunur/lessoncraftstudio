@@ -1,0 +1,265 @@
+# Teaching package — compare quantities (more / fewer / equal) up to 20
+# Arc 16 Phase 1.2 (math / comparison strand-depth; extends Arc 12+ compare-quantities-more-fewer 1-10 range to 11-20 teen range).
+
+targetSlug: compare-quantities-more-fewer-up-to-20
+language: en
+title:
+  en: "Comparing Quantities to 20 — more / fewer / equal in the teen range"
+
+description:
+  en: "Grade 1 / Grade 2 numeracy package extending quantity comparison work into the teen range (11-20). Builds directly on Arc 12+ compare-quantities-more-fewer (which covered ranges 1-5 + 1-10). Critical extension because the teen range introduces TWO-DIGIT comparison reasoning: kids learn to compare 15 vs 12, 18 vs 19, 14 vs 14 (equal) by reasoning ABOUT the tens-and-ones structure of two-digit numbers (Arc 15 place-value foundation). Strategy emphasis: count-and-compare for early learners; place-value-aware comparison (tens-first, then ones-tiebreak) for Grade-2-ready learners. Cross-bundle reuse opportunity at food-context bundles per Pillar 2 cycle close 4-bundle precedent (food-prep + restaurant + breakfast-foods + snacks: comparing serving quantities). 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook + teen-range comparison introduction.
+      Teacher shows two groups: 14 counters + 17 counters. "Which
+      group has MORE? Which has FEWER?" Class counts each group
+      aloud (1-14; 1-17) + identifies 17 > 14. Teacher introduces
+      place-value-aware strategy: "Both numbers are TEENS — both
+      have 1 ten. So look at the ONES: 4 ones vs 7 ones. 7 ones
+      is more, so 17 is more." Teacher repeats with 12 vs 18 (1
+      ten each; compare ones 2 vs 8 → 18 is more), 15 vs 11 (1
+      ten each; 5 vs 1 ones → 15 is more), 14 vs 14 (1 ten each;
+      4 vs 4 ones → EQUAL — same quantity). Pattern emphasis:
+      "In the teen range, the TENS digit is always 1 — so the
+      ONES digit decides which is more or fewer or equal."
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + teen-range comparison routine. Each pair
+      receives base-ten kits + 6 comparison cards (pairs of teen
+      numbers: 13/16, 18/14, 15/15, 17/12, 11/19, 14/14). Pair
+      takes turns: kid A builds first number with manipulatives
+      (1 ten-stick + N ones); kid B builds second number; together
+      they compare visually + verbally ("13 has 3 ones; 16 has 6
+      ones; 16 has MORE because 6 ones is more than 3 ones").
+      Recast errors with strategy-demo ("when both are teens,
+      compare the ONES — same tens, different ones."). Extension
+      for advanced kids: introduce 9 vs 12 (CROSS-RANGE: single-
+      digit vs teen) — "9 has 0 tens + 9 ones; 12 has 1 ten + 2
+      ones. Tens decide first: 1 ten > 0 tens, so 12 is more."
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: more-less worksheet (teen-
+      number comparison; mode: image-vs-number). Station 2:
+      matching worksheet (number cards in teen range; match
+      equivalent representations like 14 + tally marks of 14).
+      Station 3: math-puzzle (find equal-pair: which two cards
+      show same quantity, 14 or 14 or 41?). Station 4: chart-count
+      (count-bar groups to 20 + compare bar heights).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class teen-range comparison quiz. Teacher shows 5
+      teen-number pairs (15/12, 18/19, 14/14, 11/17, 16/13);
+      class collectively answers using "more", "fewer", or
+      "equal" + names the strategy used. Forward-pointer: "Today
+      we compared teen numbers (11-20). When we come back next,
+      we'll compare numbers up to 100 + numbers up to 1000 —
+      using the SAME place-value strategy: compare BIGGEST place
+      first (hundreds, then tens, then ones)!"
+
+composedExercises:
+  - appName: more-less
+    exerciseMode: number-result
+    customizationParameters: { mode: image-to-number, maxNumber: 20, languageSelect: en, themeSelect: animals }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 8, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: math-puzzle
+    exerciseMode: missing-operand
+    customizationParameters: { operationType: comparison, maxNumber: 20, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: more-less
+    exerciseMode: number-result
+    customizationParameters: { mode: number-to-number, maxNumber: 20, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: chart-count
+    exerciseMode: unified
+    customizationParameters: { languageSelect: en, themeSelect: animals }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 20
+      cardsPerPage: 8
+      colorMode: color
+      labelDisplay: math-expression
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 20
+      cardsPerPage: 8
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 10
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: counters
+      itemCount: 40
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: math / comparison (more/fewer/equal in teen
+    range 11-20; extends existing 1-10 range package). Secondary
+    strand: math / place-value (teen-range comparison foregrounds
+    1-tens-place; bridges to two-digit comparison reasoning).
+    Tertiary strand: numeracy / counting-and-cardinality (counts
+    to 20 reinforced).
+
+    Architectural significance: extends Arc 12+ compare-quantities-
+    more-fewer 1-10 range into teen range (11-20). Critical bridge
+    to two-digit comparison reasoning: teen numbers all have 1
+    ten, so ones-digit-tiebreak strategy emerges as canonical.
+    Foundation for compare-quantities-up-to-100 + up-to-999 future
+    work (where tens AND hundreds-digit-tiebreaks layer in). Note:
+    distinct from existing compare-quantities-more-fewer (1-10
+    range) — this package SPECIFICALLY targets 11-20.
+
+    Distinctive composition: 2 more-less + 1 matching + 1 math-
+    puzzle + 1 chart-count. more-less mode varied (image-to-number
+    first, then number-to-number for advanced kids); matching
+    surfaces equivalent representations (numeral / tally / dots /
+    word); chart-count bar-graph comparison consolidates strategy.
+
+    Class B FLEXIBLE substrate: composes against animals theme
+    (countable for comparison work; cross-arc with Arc 12-15
+    numeracy themes).
+
+    Cross-bundle reuse opportunity: food-context bundles per
+    Pillar 2 cycle close 4-bundle precedent (food-prep +
+    restaurant + breakfast-foods + snacks); cooking-themed
+    quantity comparison aligns naturally ("you have 14 apples;
+    your friend has 17 apples — who has more?"). Bundle.yaml
+    update deferred to arc-close consolidated cycle per Arc
+    14/15 decoupled-ship pattern.
+
+    K-3 multilingual classroom relevance: teen-number naming
+    varies significantly across locales (Romance partial-cognate
+    11-20 onze/doze... vs Germanic distinct 11-19 elf/zwölf...
+    + Finnic agglutinative; teen-range comparison work surfaces
+    these number-word irregularities). Comparison vocabulary
+    "more/fewer/equal" translates locale-specific: en "more /
+    fewer / equal"; de "mehr / weniger / gleich"; es "más /
+    menos / igual"; pt "mais / menos / igual" / "igual a". Locale-
+    variant work at Phase 3+ adapts.
+
+curriculumStandards:
+  - CCSS.1.NBT.B.3
+  - CCSS.K.CC.C.6
+  - CCSS.K.CC.C.7
+  - EYFS.ELG.MATH.NUM
+  - IB-PYP.HowTheWorldWorks
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Compare two teen-range quantities correctly in 7 of 10
+        trials (more/fewer/equal identified accurately).
+      - Use ones-digit-tiebreak strategy explicitly ("both teens,
+        so compare ones") in 5 of 10 trials.
+      - Identify equal pairs (same quantity) reliably in 5 of 6
+        trials.
+      - Bridge teen-range comparison to single-digit + teen
+        comparison (9 vs 12; 18 vs 7) in 5 of 8 cross-range
+        trials.
+
+    Differentiation:
+    - Pre-K: skip teen-range; review compare-quantities-more-
+      fewer (1-5 range).
+    - K: visual comparison up to 15; concrete manipulative
+      support; "more" + "fewer" only (no "equal" initially).
+    - Grade 1: full teen-range comparison; introduce "equal";
+      ones-digit-tiebreak strategy practiced.
+    - Grade 2+: extend to compare-quantities-up-to-100 (Arc 17+
+      candidate); bridge to abstract numerical comparison.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

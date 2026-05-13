@@ -1,0 +1,251 @@
+# Teaching package — add within 100
+# Arc 16 Phase 1.1 (math / addition-subtraction 3/14 → 4/14). Extends Arc 12 add-within-20 + Arc 15 Phase 4 tens-and-ones-51-to-100 foundations.
+
+targetSlug: add-within-100
+language: en
+title:
+  en: "Adding Within 100 — two-digit sums with place-value bridging"
+
+description:
+  en: "Grade 2 math package teaching addition within 100 (sums like 27+38=65, 45+19=64, 56+44=100). Builds on Arc 12 add-within-20 + Arc 15 Phase 4 tens-and-ones-51-to-100 place-value foundation. Critical bridge from single-digit make-10 strategy to two-digit addition where the make-10 idea extends into place-value reasoning (add tens to tens, ones to ones, regroup ones when they sum to 10+). Introduces regrouping (carrying) as the canonical two-digit strategy. Some kids will lean on count-on (45+19: 45...50, 60, 64); others on decomposition (45+19 = 45+20-1 = 65-1 = 64); others on standard-algorithm column addition with carrying. Strategy diversity emphasized; place-value structure made explicit. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook + place-value-aware addition introduction.
+      Teacher displays 27+38 written vertically with tens-and-ones
+      columns clearly marked. "Today we add BIGGER numbers — up
+      to 100. Let's add 27 + 38. First, let's add the ONES: 7+8
+      = 15. That's MORE than 10, so we REGROUP — the 1 ten goes
+      to the tens column. Now the tens: 2+3+1 (carried) = 6 tens
+      = 60. Plus 5 ones = 65." Teacher repeats with 45+19 (no
+      regroup; ones sum to 14 — wait, regroup!) and 56+44 (ones
+      sum to 10 = regroup; result 100). Pattern emphasis: "When
+      ones sum to 10 or more, REGROUP. When less than 10, just
+      add normally."
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + base-ten manipulative routine. Each pair receives
+      base-ten kits (ten-sticks + single-counters) + a worksheet
+      with 6 problems within 100 (27+38, 45+19, 56+44, 64+25,
+      33+18, 71+29). Pair takes turns: kid A builds first number
+      with manipulatives; kid B builds second number; together
+      they combine, regroup 10-ones-into-1-ten where needed, write
+      the answer. Recast errors with regroup-demo ("you have 12
+      ones in the ones column — that's 1 ten and 2 ones. Slide
+      the ten-stick to the tens column."). Strategy choices: kids
+      may use manipulatives, vertical column-add with carrying,
+      decomposition, OR count-on; teacher accepts any strategy
+      that produces correct answer + can be explained.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: addition worksheet (vertical
+      format within 100 — practice with regrouping). Station 2:
+      math-puzzle (missing-addend: 27+?=65; ?+38=65). Station 3:
+      manipulative-cut-outs base-ten-block hands-on addition.
+      Station 4: more-less (compare two addition results: which
+      sum is greater, 45+19 or 38+26?).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class within-100 addition quiz. Teacher presents 5
+      fast problems; class collectively answers with preferred
+      strategy + identifies regrouping moments. "27+45? 56+33?
+      64+29? 18+82? 39+49?" Forward-pointer: "Today we added
+      within 100 + learned REGROUPING. When we come back next,
+      we'll learn SUBTRACTION within 100 with BORROWING (the
+      reverse of regrouping) — and three-digit place value!"
+
+composedExercises:
+  - appName: addition
+    exerciseMode: vertical-addition
+    customizationParameters: { themeSelect: animals, languageSelect: en, maxNumber: 100 }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: math-worksheet
+    exerciseMode: vertical-addition
+    customizationParameters: { operationType: addition, maxNumber: 100, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: math-puzzle
+    exerciseMode: missing-addend
+    customizationParameters: { operationType: addition, maxNumber: 100, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: more-less
+    exerciseMode: number-result
+    customizationParameters: { mode: number-result, operationType: addition, maxNumber: 100, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: math-worksheet
+    exerciseMode: vertical-addition
+    customizationParameters: { operationType: addition, maxNumber: 100, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 30
+      cardsPerPage: 8
+      colorMode: color
+      labelDisplay: math-expression
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 20
+      cardsPerPage: 8
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: place-value-mat
+    customizationParameters:
+      tensColumn: true
+      onesColumn: true
+      maxNumber: 100
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: addition-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: base-ten-blocks
+      itemCount: 100
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: math / addition-subtraction (addition within
+    100 — deepens strand 3/14 → 4/14). Secondary strand: math /
+    place-value (two-digit addition foregrounds tens-ones structure;
+    regrouping concept introduced). Tertiary strand: numeracy
+    (strategy-based addition: regrouping, decomposition, count-on,
+    use-known-facts).
+
+    Architectural significance: extends Arc 12 add-within-20
+    foundation into two-digit range. Leverages Arc 15 Phase 1+4
+    tens-and-ones place-value work (1-20 + 21-50 + 51-100 =
+    full two-digit place-value range covered) as conceptual
+    substrate. First package to require REGROUPING (carrying)
+    as canonical addition strategy. Bridges single-digit
+    addition fluency to two-digit place-value-aware addition.
+
+    Distinctive composition: 1 addition (vertical format) + 2
+    math-worksheet (vertical addition within 100) + 1 math-puzzle
+    (missing-addend) + 1 more-less (compare addition results).
+    Vertical format emphasized — column alignment + carry-mark
+    practice critical for regrouping fluency.
+
+    Class B FLEXIBLE substrate: composes against animals theme
+    (countable for addition work; cross-arc with Arc 12-15
+    addition themes for consistency).
+
+    K-3 multilingual classroom relevance: addition within 100
+    universal K-3 content. Number-word naming for 21-99 varies
+    significantly across locales: en regular "twenty-one through
+    ninety-nine"; de reverse-decade "einundzwanzig" (one-and-
+    twenty); es "veintiuno...noventa-y-nueve" with elision; fr
+    "soixante-dix...quatre-vingt-dix-neuf" (sixty-ten through
+    four-twenty-ten-nine) — French presents most striking
+    irregularity; fi agglutinative compounds. Cross-locale
+    regrouping vocabulary varies: en "carry/regroup"; de
+    "umgruppieren/Übertrag"; es "agrupar/llevar"; pt
+    "reagrupar/transportar". Locale-variant work at Phase 3+
+    adapts to each locale's number-word + regrouping-vocabulary
+    register.
+
+curriculumStandards:
+  - CCSS.2.NBT.B.5
+  - CCSS.2.NBT.B.6
+  - CCSS.1.OA.C.6
+  - EYFS.ELG.MATH.NUM
+  - IB-PYP.HowTheWorldWorks
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Compute addition within 100 correctly in 7 of 10 trials.
+      - Identify regrouping moments + execute regrouping correctly
+        in 6 of 8 problems requiring carrying.
+      - Use at least 2 addition strategies (e.g., column-add-with-
+        carrying + decomposition) in 5 of 10 trials.
+      - Solve missing-addend problems (27+?=65) in 5 of 10 trials.
+
+    Differentiation:
+    - Pre-K: skip within-100; review add-within-10 + add-within-20.
+    - K: addition within 50; manipulative support emphasized.
+    - Grade 1: addition within 100 with regrouping introduced;
+      column-add format practiced.
+    - Grade 2+: extend to three-digit addition (Arc 16+ candidate);
+      bridge to mental two-digit addition fluency + algorithm
+      automaticity.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

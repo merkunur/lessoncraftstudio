@@ -1,0 +1,163 @@
+# Teaching package — identificar valor posicional (centenas, dezenas e unidades para 100-999) (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 16 Phase 1.1 per Arc 3 Phase 1 sparse-override pattern;
+# 12th consecutive arc continuation). pt sparse-override for math / place-value
+# strand. Conteúdo matemático universal — tradução direta sem reestruturação
+# pedagógica. BR-MEC ensino fundamental anos iniciais register per CLAUDE.md §6 +
+# formal "você" address per §17.9.
+
+title:
+  pt: "Identificando Valor Posicional até 999 — centenas, dezenas e unidades"
+
+description:
+  pt: "Pacote de matemática para 2º ano que ensina valor posicional de três dígitos: centenas, dezenas e unidades para números 100-999. Exemplos: 347 = 3 centenas + 4 dezenas + 7 unidades; 805 = 8 centenas + 0 dezenas + 5 unidades; 999 = 9 centenas + 9 dezenas + 9 unidades. Constrói diretamente sobre Arc 15 Fase 4 tens-and-ones-51-to-100 (que prévia 100 = 10 dezenas OU 1 centena). Extensão crítica da faixa de valor posicional de dois para três dígitos. Estabelece o padrão de valor posicional que escala para números de quatro dígitos + maiores (sempre: centenas-dezenas-unidades lidos da esquerda para a direita). Base para adição + subtração de três dígitos com reagrupamento (candidato para Arc 17+). Casos extremos zero-no-meio-ou-no-fim (805, 720, 600) enfatizados — crianças frequentemente pulam o zero ou confundem o lugar. Fio valor posicional: 3/8 → 4/8 no fechamento desta Fase 1.1. 5 exercícios + 7 materiais imprimíveis em uma unidade de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Iniciador com toda a turma + introdução de valor posicional
+      de três dígitos. A professora ou o professor exibe 347
+      unidades-avulsas (impraticavelmente muitas) então as agrupa
+      como 3 GRUPOS-DE-100 (cada grupo = 10 barras-de-dez
+      agrupadas) + 4 BARRAS-DE-DEZ AVULSAS + 7 UNIDADES AVULSAS.
+      "Terminamos dezenas-e-unidades até 100. Hoje vamos para AS
+      CENTENAS — valor posicional de três dígitos! 347 = 3
+      CENTENAS + 4 DEZENAS + 7 UNIDADES. Mesma regra se estende:
+      dígito das CENTENAS primeiro (o MAIOR), dígito das DEZENAS
+      segundo, dígito das UNIDADES terceiro (MENOR)." Repete com
+      805 (8 centenas + 0 dezenas + 5 unidades — enfatize o ZERO
+      nas dezenas), 720 (7 centenas + 2 dezenas + 0 unidades —
+      zero no final), 999 (9 centenas + 9 dezenas + 9 unidades).
+      Ênfase do padrão: "O zero é um GUARDA-LUGAR — diz 'nenhuma
+      dezena' ou 'nenhuma unidade' aqui. Não pule ele!"
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina com manipulativo base-dez.
+      Cada dupla recebe kits base-dez (placas-de-cem + barras-
+      de-dez + unidades-avulsas) + uma folha com 8 números de
+      três dígitos (347, 805, 720, 256, 600, 491, 980, 999).
+      Dupla alterna: criança A lê um número em voz alta (em
+      forma expandida de valor posicional: "três centenas, quatro
+      dezenas, sete unidades"); criança B constrói o número com
+      manipulativos. Refraseie erros com demonstração-em-tapete-
+      de-valor-posicional ("805 — três colunas: centenas-dezenas-
+      unidades. Mostre-me 8 placas-de-cem na coluna das centenas.
+      Zero na coluna das dezenas significa NENHUMA barra-de-dez.
+      Cinco unidades-avulsas na coluna das unidades. NÃO 850 —
+      isso troca dezenas e unidades!"). Crianças com zero-no-
+      lugar frequentemente precisam de reforço extra; aborde
+      este padrão explicitamente.
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios matching
+      (número de três dígitos para representação expandida de
+      valor posicional; e.g., 347 ↔ "3 centenas + 4 dezenas + 7
+      unidades"). Estação 2: math-puzzle (decompor: 805 = ?
+      centenas + ? dezenas + ? unidades; também inverso: construir
+      um número a partir de dígitos centenas/dezenas/unidades
+      dados). Estação 3: pattern-train (sequência: 347, 348, 349,
+      350... OU 990, 991, 992... aproximação a 1000). Estação 4:
+      more-less (compare dois números de três dígitos — crianças
+      devem comparar centenas primeiro; depois dezenas se as
+      centenas empatam; depois unidades se as dezenas empatam;
+      e.g., qual é maior: 347 vs 374? 805 vs 850?). Vocabulário
+      pt-BR canônico para valor posicional: centenas / dezenas /
+      unidades; lugar / posição; guarda-lugar; algarismo / dígito.
+      Use "centenas/dezenas/unidades" como termos K-3 canônicos.
+  closure:
+    body: |
+      Quiz de valor posicional de três dígitos com toda a turma.
+      A professora ou o professor mostra 6 números de três
+      dígitos (256, 478, 805, 720, 999, 600); turma coletivamente
+      nomeia centenas + dezenas + unidades. "256 = 2 centenas + 5
+      dezenas + 6 unidades! 805 = 8 centenas + 0 dezenas + 5
+      unidades — o ZERO segura o lugar das dezenas!" Indicador
+      adiante: "Hoje aprendemos valor posicional de três dígitos
+      até 999. Quando voltarmos na próxima vez, usaremos valor
+      posicional para ADIÇÃO + SUBTRAÇÃO DE TRÊS DÍGITOS com
+      reagrupamento (transportar por várias colunas; pedir
+      emprestado por várias colunas). Mesmas regras — apenas
+      mais colunas!"
+
+assessmentCriteria:
+  pt: |
+    Ao final da unidade de 1 semana:
+      - Decompor 6 de 8 números de três dígitos (100-999) em
+        representação correta centenas-dezenas-unidades.
+      - Construir um dado número de três dígitos com manipulativos
+        base-dez em 7 de 10 tentativas (incluindo casos zero-no-
+        meio + zero-no-final).
+      - Comparar dois números de três dígitos usando comparação
+        hierárquica (centenas primeiro, depois dezenas, depois
+        unidades) corretamente em 7 de 10 tentativas.
+      - Identificar zero como guarda-lugar (805 = "oitocentos e
+        CINCO, com ZERO dezenas") em 6 de 8 tentativas zero-no-
+        lugar.
+
+    Diferenciação:
+      - Pré-K (3-5 anos): pular trabalho de três dígitos; revisar
+        pacotes de valor posicional anteriores (tens-and-ones-
+        1-to-20).
+      - Educação infantil (5-7 anos): faixa 100-300 apenas com
+        manipulativos concretos; evitar casos extremos zero-no-
+        lugar inicialmente.
+      - 1º ano: cobertura completa 100-999; casos zero-como-
+        guarda-lugar introduzidos gentilmente.
+      - 2º ano em diante: estender para valor posicional de
+        quatro dígitos (milhares-centenas-dezenas-unidades) +
+        ponte para adição/subtração de três dígitos com
+        reagrupamento (candidato para Arc 17+).
+
+compositionalRationale:
+  pt: |
+    Fio principal: matemática / valor-posicional (valor posicional
+    de três dígitos para 100-999; aprofunda fio 3/8 → 4/8). Fio
+    secundário: numeracia (contagem + reconhecimento-de-números
+    estendendo-se para a faixa de três dígitos). Fio terciário:
+    cognição-e-função-executiva / reconhecimento-de-padrões
+    (estendendo padrão de valor posicional de dois dígitos para
+    três dígitos; mesma regra, coluna adicional).
+
+    Significância arquitetural: estende Arc 15 Fase 4 tens-and-
+    ones-51-to-100 de dois para três dígitos. Estabelece o padrão
+    de valor posicional que escala (centenas-dezenas-unidades
+    estende para milhares-centenas-dezenas-unidades para trabalho
+    de quatro dígitos em arcs futuros). Base para adição +
+    subtração de três dígitos com reagrupamento (candidato para
+    Arc 17+ — construiria diretamente sobre a fluência de valor
+    posicional deste pacote). Casos extremos zero-como-guarda-
+    lugar enfatizados — concepção-errônea comum é ler 805 como
+    85 (pulando zero) ou como 850 (colocando zero no final).
+
+    Especificidade pt-BR: valor posicional de três dígitos é
+    conceito universal + traduzível 1:1 do en. Vocabulário pt-BR
+    canônico:
+    - **"centenas / dezenas / unidades"** — termos técnicos pt-BR
+      canônicos para hundreds/tens/ones; usados desde a educação
+      infantil até o ensino fundamental.
+    - **"lugar"** / **"posição"** — termos para place-value
+      position; "lugar das centenas" é forma K-3 mais comum;
+      "posição" mais técnica.
+    - **"guarda-lugar"** — termo pt-BR para placeholder/zero-
+      as-placeholder; acessível K-3.
+    - **"algarismo"** / **"dígito"** — sinônimos para digit;
+      "algarismo" é forma técnica brasileira; "dígito" empréstimo
+      do inglês cada vez mais comum em sala de aula.
+
+    Sistema de palavras-número pt-BR para 100-999: regular com
+    "e" conector ("cento e quarenta e sete" para 147, "duzentos
+    e cinquenta e seis" para 256). As centenas têm formas
+    distintas: cem (100, sem qualquer "e") / cento (101-199,
+    com "e") / duzentos / trezentos / quatrocentos / quinhentos
+    / seiscentos / setecentos / oitocentos / novecentos. A
+    transição cem ↔ cento é uma irregularidade pt-BR — "cem" é
+    apenas 100 exato; "cento" é a forma combinatória para 101+.
+
+    Currículo BNCC EF02MA01 + EF02MA02 + EF02MA03 (2º ano):
+    fazer estimativa; comparar e ordenar números até 1000; uso
+    de sistema de numeração decimal; valor posicional.
+
+    Substrato Class B FLEXIBLE: composta contra tema miscellaneous
+    (trabalho de valor posicional usa representação numérica
+    abstrata; não há imagens temáticas específicas necessárias
+    além de cartões).

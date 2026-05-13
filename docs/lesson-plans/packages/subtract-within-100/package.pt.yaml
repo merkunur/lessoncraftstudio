@@ -1,0 +1,158 @@
+# Teaching package — subtrair até 100 (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 16 Phase 1.1 per Arc 3 Phase 1 sparse-override pattern;
+# 12th consecutive arc continuation). pt sparse-override for math /
+# addition-subtraction strand. Conteúdo matemático universal — tradução direta
+# sem reestruturação pedagógica. BR-MEC ensino fundamental anos iniciais register
+# per CLAUDE.md §6 + formal "você" address per §17.9.
+
+title:
+  pt: "Subtrair até 100 — subtração de dois dígitos com empréstimo"
+
+description:
+  pt: "Pacote de matemática para 2º ano que ensina subtração até 100 (problemas como 73-28=45, 50-17=33, 100-46=54). Constrói sobre Arc 15 Fase 1 subtract-within-20 + companheiro emparelhado de Arc 16 Fase 1.1 add-within-100 (reagrupamento/transporte introduzido lá; empréstimo introduzido aqui como o inverso). Completa a sequência básica adição-subtração (5 → 10 → 20 → 100). Ponte crítica da subtração de um dígito + até-20 (base Arc 14-15) para subtração de dois dígitos onde a ideia 'cruzar-zero' do até-10 se generaliza para 'pegar emprestado do lugar das dezenas quando dígito das unidades do subtraendo excede dígito das unidades do minuendo' (algoritmo canônico do 2º ano). Diversidade de estratégias enfatizada: algoritmo padrão subtração-em-colunas-com-empréstimo; decomposição (73-28 = 73-30+2 = 43+2 = 45); contar-de-volta; usar-fatos-conhecidos. 5 exercícios + 7 materiais imprimíveis em uma unidade de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Iniciador com toda a turma + introdução de subtração com
+      consciência-de-valor-posicional. A professora ou o professor
+      exibe 73-28 escrito verticalmente com colunas de dezenas-e-
+      unidades claramente marcadas. "Hoje vamos subtrair números
+      MAIORES — até 100. Vamos resolver 73-28. Olhe a coluna das
+      UNIDADES primeiro: precisamos de 3 menos 8. Mas 3 é MENOR
+      que 8 — não podemos tirar 8 de 3! Precisamos PEGAR EMPRESTADO
+      das dezenas. Pegamos 1 dezena das 7 dezenas (sobra 6
+      dezenas) + trazemos para as unidades (3 + 10 = 13). Agora
+      podemos subtrair: 13-8 = 5 unidades; 6-2 = 4 dezenas = 40.
+      Resposta: 45." Repete com 50-17 (5 dezenas 0 unidades;
+      precisa emprestar porque 0-7 impossível: empresta 1 dezena
+      → 4 dezenas 10 unidades; 10-7=3 unidades, 4-1=3 dezenas =
+      33) e 100-46 (100 = 10 dezenas 0 unidades; empréstimo
+      cascateia pelas dezenas; resultado 54). Ênfase do padrão:
+      "Quando dígito das unidades do número de baixo é MAIOR,
+      PEGUE EMPRESTADO das dezenas. Depois subtraia normalmente."
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina com manipulativo base-dez.
+      Cada dupla recebe kits base-dez (barras-de-dez + unidades-
+      avulsas) + uma folha com 6 problemas de subtração até 100
+      (73-28, 50-17, 100-46, 82-35, 64-19, 91-47). Dupla alterna:
+      criança A constrói o minuendo (número de cima) com
+      manipulativos; criança B remove fisicamente o subtraendo
+      (número de baixo) — quebrando uma barra-de-dez em 10
+      unidades-avulsas quando necessário para empréstimo. Juntos
+      contam o que resta + escrevem resposta. Refraseie erros
+      com demonstração-de-empréstimo ("você precisa tirar 8
+      unidades, mas só tem 3 na coluna das unidades. Quebre uma
+      barra-de-dez: uma dezena vira dez unidades. Agora você
+      tem 13 unidades para subtrair."). Escolhas de estratégia:
+      crianças podem usar manipulativos, subtração-em-colunas-
+      com-empréstimo, decomposição, contar-de-volta, OU usar-
+      fatos-conhecidos; a professora ou o professor aceita
+      qualquer estratégia que produza resposta correta + possa
+      ser explicada.
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios de
+      subtração (formato vertical até 100 — prática com
+      empréstimo). Estação 2: math-worksheet (problemas mistos
+      de subtração até 100). Estação 3: math-puzzle (encontrar
+      operando faltante: 73-?=45; ?-28=45). Estação 4: more-less
+      (compare dois resultados de subtração: qual diferença é
+      maior, 73-28 ou 82-35?). Vocabulário pt-BR canônico para
+      subtração-com-empréstimo: tirar / subtrair / menos /
+      diferença / resto; pedir emprestado / emprestar / tomar
+      emprestado. Use "pedir emprestado" como forma K-3 canônica
+      em sala de aula brasileira.
+  closure:
+    body: |
+      Quiz de subtração até 100 com toda a turma. A professora
+      ou o professor apresenta 5 problemas rápidos; turma
+      responde coletivamente + identifica momentos de empréstimo.
+      "73-28? 50-17? 92-45? 100-37? 85-49?" Indicador adiante:
+      "Hoje subtraímos até 100 + aprendemos EMPRÉSTIMO. Junto
+      com add-within-100 + trabalho de adição-e-subtração-
+      misturadas até 100, agora temos fluência completa em
+      operações de dois dígitos. Quando voltarmos na próxima
+      vez, podemos começar operações de três dígitos (adição +
+      subtração até 1000) + problemas-palavra com operações
+      mistas!"
+
+assessmentCriteria:
+  pt: |
+    Ao final da unidade de 1 semana:
+      - Calcular subtração até 100 corretamente em 7 de 10
+        tentativas.
+      - Identificar momentos de empréstimo + executar empréstimo
+        corretamente em 6 de 8 problemas que requerem.
+      - Usar pelo menos 2 estratégias de subtração (e.g.,
+        subtração-em-colunas-com-empréstimo + decomposição) em 5
+        de 10 tentativas.
+      - Resolver problemas de operando-faltante (73-?=45) em 5
+        de 10 tentativas.
+
+    Diferenciação:
+      - Pré-K (3-5 anos): pular até-100; revisar subtract-within-
+        10 + subtract-within-20.
+      - Educação infantil (5-7 anos): subtração até 50; suporte
+        de manipulativo enfatizado; evitar problemas que requerem
+        empréstimo inicialmente.
+      - 1º ano: subtração até 100 com empréstimo introduzido;
+        formato subtração-em-colunas praticado.
+      - 2º ano em diante: estender para subtração de três
+        dígitos com empréstimo duplo (candidato para Arc 16+);
+        ponte para fluência mental em subtração de dois dígitos
+        + automaticidade do algoritmo.
+
+compositionalRationale:
+  pt: |
+    Fio principal: matemática / adição-subtração (subtração até
+    100 — aprofunda fio 4/14 → 5/14; companheiro emparelhado
+    inverso de Arc 16 Fase 1.1 add-within-100). Fio secundário:
+    matemática / valor-posicional (subtração de dois dígitos
+    destaca empréstimo como operação de valor posicional). Fio
+    terciário: numeracia (subtração baseada-em-estratégia:
+    empréstimo, decomposição, contar-de-volta, usar-fatos-
+    conhecidos).
+
+    Significância arquitetural: estende Arc 15 Fase 1 subtract-
+    within-20 para a faixa de dois dígitos. Companheiro
+    emparelhado de add-within-100 (mesma fase do arc). Completa
+    a sequência básica adição-subtração (5 → 10 → 20 → 100).
+    Alavanca trabalho de valor posicional Arc 15 Fase 1+4
+    tens-and-ones como substrato conceitual. Primeiro pacote a
+    requerer EMPRÉSTIMO (o inverso do reagrupamento/transporte
+    introduzido em add-within-100) como estratégia canônica de
+    subtração. Faz ponte da fluência em subtração de um dígito
+    para subtração de dois dígitos com consciência-de-valor-
+    posicional.
+
+    Especificidade pt-BR: subtração até 100 é conceito universal
+    + traduzível 1:1 do en. Vocabulário pt-BR canônico:
+    - **"tirar"** (informal K-3) / **"subtrair"** (técnico
+      formal) — K-3 contexto natural usa "tirar"; "subtrair" é
+      escolar formal.
+    - **"menos"** — universal pt-BR; usado para sinal − e
+      vocabulário comparativo.
+    - **"diferença"** — termo técnico para resultado da
+      subtração; acessível K-3 quando introduzido.
+    - **"pedir emprestado"** / **"emprestar"** / **"tomar
+      emprestado"** — três formas pt-BR canônicas para a
+      operação de empréstimo/borrow; "pedir emprestado" é a
+      forma K-3 mais comum em sala de aula brasileira.
+
+    Sistema de palavras-número pt-BR para 21-99: mesmo padrão
+    regular com "e" conector que add-within-100 (vinte e um,
+    vinte e dois... noventa e nove). Centena 100 = "cem"; a
+    transição "noventa e nove → cem" + de volta ("100-1 = 99")
+    é importante para fluência de subtração na faixa de
+    cruzamento-de-centena.
+
+    Currículo BNCC EF02MA05 (1º ano) + EF02MA06 (2º ano):
+    cálculo de subtração com números de até três ordens; uso de
+    estratégias pessoais; algoritmo + decomposição.
+
+    Substrato Class B FLEXIBLE: composta contra tema animals
+    (contável para trabalho de subtração; cross-arc com Arc 12-15
+    addition/subtraction themes para consistência).

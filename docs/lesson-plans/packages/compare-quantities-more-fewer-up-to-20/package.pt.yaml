@@ -1,0 +1,148 @@
+# Teaching package — comparar quantidades até 20 (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 16 Phase 1.2; 13th consecutive arc continuation).
+# pt sparse-override for math / comparison strand. Conteúdo matemático universal —
+# tradução direta sem reestruturação pedagógica. BR-MEC ensino fundamental anos
+# iniciais register per CLAUDE.md §6 + formal "você" address per §17.9.
+
+title:
+  pt: "Comparando Quantidades até 20 — mais / menos / igual na faixa dos dez"
+
+description:
+  pt: "Pacote de numeracia para 1º / 2º ano que estende a comparação de quantidades para a faixa dos dez (11-20). Constrói diretamente sobre Arc 12+ compare-quantities-more-fewer (que cobriu faixas 1-5 + 1-10). Extensão crítica porque a faixa dos dez introduz raciocínio de comparação de DOIS DÍGITOS: crianças aprendem a comparar 15 vs 12, 18 vs 19, 14 vs 14 (igual) raciocinando SOBRE a estrutura dezenas-e-unidades de números de dois dígitos (base Arc 15 valor posicional). Ênfase de estratégia: contar-e-comparar para aprendizes iniciantes; comparação com consciência-de-valor-posicional (dezenas primeiro, depois desempate por unidades) para aprendizes prontos para 2º ano. Oportunidade de reuso entre bundles em bundles de contexto-alimentar (food-prep + restaurant + breakfast-foods + snacks: comparando quantidades de porções). 5 exercícios + 7 materiais imprimíveis em uma unidade de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Iniciador com toda a turma + introdução de comparação na
+      faixa dos dez. A professora ou o professor mostra dois
+      grupos: 14 unidades-avulsas + 17 unidades-avulsas. "Qual
+      grupo tem MAIS? Qual tem MENOS?" A turma conta cada grupo
+      em voz alta (1-14; 1-17) + identifica 17 > 14. A professora
+      introduz a estratégia com consciência-de-valor-posicional:
+      "Ambos os números são da FAIXA DOS DEZ — ambos têm 1
+      dezena. Então olhe para as UNIDADES: 4 unidades vs 7
+      unidades. 7 unidades é mais, então 17 é mais." Repete com
+      12 vs 18 (1 dezena cada; compara unidades 2 vs 8 → 18 é
+      mais), 15 vs 11 (1 dezena cada; 5 vs 1 unidades → 15 é
+      mais), 14 vs 14 (1 dezena cada; 4 vs 4 unidades → IGUAL —
+      mesma quantidade). Ênfase do padrão: "Na faixa dos dez, o
+      dígito das DEZENAS é sempre 1 — então o dígito das
+      UNIDADES decide qual é mais ou menos ou igual."
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de comparação na faixa dos dez.
+      Cada dupla recebe kits base-dez + 6 cartões de comparação
+      (pares de números na faixa dos dez: 13/16, 18/14, 15/15,
+      17/12, 11/19, 14/14). Dupla alterna: criança A constrói
+      primeiro número com manipulativos (1 barra-de-dez + N
+      unidades); criança B constrói segundo número; juntas
+      comparam visualmente + verbalmente ("13 tem 3 unidades; 16
+      tem 6 unidades; 16 tem MAIS porque 6 unidades é mais que 3
+      unidades"). Refraseie erros com demonstração-de-estratégia
+      ("quando ambos são da faixa dos dez, compare as UNIDADES —
+      mesmas dezenas, unidades diferentes."). Extensão para
+      crianças avançadas: introduza 9 vs 12 (CRUZAR-FAIXA: um
+      dígito vs faixa dos dez) — "9 tem 0 dezenas + 9 unidades;
+      12 tem 1 dezena + 2 unidades. Dezenas decidem primeiro: 1
+      dezena > 0 dezenas, então 12 é mais."
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios
+      more-less (comparação na faixa dos dez; modo: imagem-
+      versus-número). Estação 2: folha de exercícios matching
+      (cartões numéricos na faixa dos dez; combine representações
+      equivalentes como 14 + marcas-de-contagem de 14). Estação
+      3: math-puzzle (encontrar par-igual: quais dois cartões
+      mostram mesma quantidade, 14 ou 14 ou 41?). Estação 4:
+      chart-count (conte grupos-de-barra até 20 + compare
+      alturas-de-barra). Vocabulário pt-BR canônico para
+      comparação: mais / menos / igual; maior / menor / igual a;
+      mais que / menos que. Use "mais que" / "menos que" como
+      formas K-3 canônicas; "maior" / "menor" para comparação-de-
+      tamanho-físico (não-quantidade).
+  closure:
+    body: |
+      Quiz de comparação na faixa dos dez com toda a turma. A
+      professora ou o professor mostra 5 pares de números na
+      faixa dos dez (15/12, 18/19, 14/14, 11/17, 16/13); turma
+      coletivamente responde usando "mais", "menos", ou "igual"
+      + nomeia a estratégia usada. Indicador adiante: "Hoje
+      comparamos números da faixa dos dez (11-20). Quando
+      voltarmos na próxima vez, compararemos números até 100 +
+      números até 1000 — usando a MESMA estratégia de valor
+      posicional: comparar o MAIOR lugar primeiro (centenas,
+      depois dezenas, depois unidades)!"
+
+assessmentCriteria:
+  pt: |
+    Ao final da unidade de 1 semana:
+      - Comparar duas quantidades na faixa dos dez corretamente
+        em 7 de 10 tentativas (mais/menos/igual identificado
+        com precisão).
+      - Usar a estratégia desempate-por-unidades explicitamente
+        ("ambos são da faixa dos dez, então compare unidades")
+        em 5 de 10 tentativas.
+      - Identificar pares iguais (mesma quantidade) com
+        confiança em 5 de 6 tentativas.
+      - Ponte da comparação na faixa dos dez para comparação um-
+        dígito + faixa dos dez (9 vs 12; 18 vs 7) em 5 de 8
+        tentativas cruzando-faixa.
+
+    Diferenciação:
+      - Pré-K (3-5 anos): pular faixa dos dez; revisar
+        compare-quantities-more-fewer (faixa 1-5).
+      - Educação infantil (5-7 anos): comparação visual até 15;
+        suporte de manipulativo concreto; apenas "mais" + "menos"
+        (sem "igual" inicialmente).
+      - 1º ano: comparação completa na faixa dos dez; introduzir
+        "igual"; estratégia desempate-por-unidades praticada.
+      - 2º ano em diante: estender para compare-quantities-up-
+        to-100 (candidato para Arc 17+); ponte para comparação
+        numérica abstrata.
+
+compositionalRationale:
+  pt: |
+    Fio principal: matemática / comparação (mais/menos/igual na
+    faixa dos dez 11-20; estende pacote de faixa 1-10 existente).
+    Fio secundário: matemática / valor-posicional (comparação
+    na faixa dos dez destaca lugar-1-dezena; ponte para raciocínio
+    de comparação de dois dígitos). Fio terciário: numeracia /
+    contagem-e-cardinalidade (contagens até 20 reforçadas).
+
+    Significância arquitetural: estende Arc 12+ compare-quantities-
+    more-fewer faixa 1-10 para a faixa dos dez (11-20). Ponte
+    crítica para raciocínio de comparação de dois dígitos: números
+    da faixa dos dez todos têm 1 dezena, então estratégia
+    desempate-por-dígito-das-unidades emerge como canônica.
+    Base para compare-quantities-up-to-100 + up-to-999 trabalho
+    futuro (onde desempates por dezenas + centenas se camadam).
+    Nota: distinto do compare-quantities-more-fewer existente
+    (faixa 1-10) — este pacote ESPECIFICAMENTE alvo 11-20.
+
+    Especificidade pt-BR: comparação de quantidades é conceito
+    universal + traduzível 1:1 do en. Vocabulário pt-BR canônico:
+    - **"mais / menos / igual"** — vocabulário canônico pt-BR
+      para mais-fewer-equal; "igual" usado tanto para quantidade-
+      igual quanto comparação-igual.
+    - **"mais que / menos que"** — formas K-3 mais naturais para
+      comparações específicas ("17 é mais que 15").
+    - **"maior / menor"** — usado para comparação-de-tamanho-
+      físico; pt-BR distingue claramente quantidade (mais/menos)
+      de tamanho (maior/menor).
+
+    Sistema de palavras-número pt-BR para 11-20: tem
+    irregularidades — "onze, doze, treze, catorze, quinze,
+    dezesseis, dezessete, dezoito, dezenove, vinte". A regra
+    "dez+número" começa em 16 (dez-e-seis); 11-15 são formas
+    irregulares completamente distintas. Comparação na faixa
+    dos dez deve consolidar essas palavras-número pt-BR-
+    irregulares.
+
+    Currículo BNCC EF02MA01 + EF02MA02 + EF02MA09: comparar
+    quantidades; ordenar números até 1000; resolver problemas
+    envolvendo comparação.
+
+    Substrato Class B FLEXIBLE: composta contra tema animals
+    (contável para trabalho de comparação; cross-arc com Arc 12-15
+    numeracy themes para consistência).

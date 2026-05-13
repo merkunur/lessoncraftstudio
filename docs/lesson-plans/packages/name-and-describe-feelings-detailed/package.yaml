@@ -1,0 +1,295 @@
+# Teaching package — name and describe complex feelings with detailed vocabulary
+# Arc 16 Phase 1.2 (science / personal-social-emotional-development 3/6 → 4/6; extends Arc 8-12 express-feelings-with-words basic-emotions work into complex-emotions vocabulary).
+
+targetSlug: name-and-describe-feelings-detailed
+language: en
+title:
+  en: "Naming Complex Feelings — frustrated, anxious, proud, embarrassed, jealous"
+
+description:
+  en: "Kindergarten / Grade 1 social-emotional package extending emotion-vocabulary work into COMPLEX emotions beyond the basic 4 (happy/sad/angry/scared). EXPLICITLY DISTINCT from existing express-feelings-with-words (Arc 8-12) which teaches RECOGNIZE + NAME + EXPRESS for basic emotions: this package teaches kids to NAME + DESCRIBE COMPLEX emotions — frustrated (when something doesn't work despite trying), anxious (worried about future), proud (felt big after accomplishment), embarrassed (when others noticed a mistake), jealous (wishing for what others have), surprised (unexpected event), curious (wanting to know more), disappointed (when expectation isn't met), bored (waiting too long with nothing to do), excited (looking forward to something). Critical developmental step from BASIC emotion-recognition (happy/sad/angry/scared) to NUANCED emotion-vocabulary that empowers kids to articulate complex internal states. Foundation for self-regulation + empathy + conflict-resolution work (Arc 17+ candidates). PSED strand: 3/6 → 4/6 at this Phase 1.2 close. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook + complex-emotion introduction. Teacher
+      reviews basic 4 emotions: "We know HAPPY, SAD, ANGRY,
+      SCARED. Today we learn MORE feeling-words." Teacher
+      introduces FRUSTRATED via concrete scenario: "Imagine you
+      try to tie your shoes, and the laces won't stay tied no
+      matter how hard you try. That sticky annoying feeling
+      when something doesn't work even though you tried — that
+      feeling is FRUSTRATED. It's a kind of ANGRY mixed with
+      TIRED." Class repeats word; teacher displays an image of
+      a frustrated face. Teacher introduces 3 more emotions
+      similarly: ANXIOUS (scenario: worried about a test
+      tomorrow), PROUD (scenario: completed a hard puzzle), and
+      EMBARRASSED (scenario: tripped in front of friends).
+      Pattern emphasis: "Each complex feeling has a STORY — a
+      situation where you'd feel it. Stories help us remember
+      the words."
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + emotion-vocabulary card routine. Each pair
+      receives 12 emotion-vocabulary cards (faces + word labels
+      for: frustrated, anxious, proud, embarrassed, jealous,
+      surprised, curious, disappointed, bored, excited, plus 2
+      review basic-emotion cards happy + angry). Pair takes
+      turns: kid A reads a scenario card (10 scenarios provided:
+      "You worked on a tower of blocks for a long time + it
+      kept falling down" / "You waited a long time for your
+      turn on the swing" / "You learned something new about
+      dinosaurs" / "Your friend got a toy you really wanted" /
+      etc.). Together they pick the emotion-vocabulary card
+      that matches. Recast errors with story-anchor demo
+      ("waiting a long time with nothing fun to do — that's
+      BORED. Bored is when you wish something interesting would
+      happen."). NO PRESSURE to use specific complex labels —
+      kids who say "tired" instead of "frustrated" are heard +
+      gently introduced to the more-precise word.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: picture-sort (emotion-faces
+      grouped by emotion-category: "happy-family" face vs
+      "anxious-family" face vs "proud-family" face). Station 2:
+      matching worksheet (scenario-to-emotion pairs). Station 3:
+      math-worksheet (count-frequency exercise: how many
+      different feelings have you had today? Tally). Station 4:
+      manipulative cut-out activity (use cut-out emotion-icons
+      to build a "feeling-day" tracker — show what you felt this
+      morning + at lunch + during recess).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class emotion-vocabulary closure. Teacher names
+      scenarios; class collectively picks the emotion: "You
+      learned a new game + can't wait to play it again!" (class:
+      EXCITED!) "Your turn at the slide kept getting taken by
+      bigger kids!" (FRUSTRATED!) "You finished reading a
+      chapter book all by yourself!" (PROUD!) Forward-pointer:
+      "Today we learned big feeling-words. When we come back
+      next, we'll learn what to DO with these feelings —
+      strategies to feel calmer when frustrated or anxious, and
+      ways to share proud and excited feelings with others
+      (REGULATE EMOTIONS strand)."
+
+composedExercises:
+  - appName: picture-sort
+    exerciseMode: unified
+    customizationParameters: { themeSelect: emotions, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 8, themeSelect: emotions, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: math-worksheet
+    exerciseMode: easy
+    customizationParameters: { difficulty: easy, numExercises: 6, operations: count, selectMode: theme, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: word-guess
+    exerciseMode: unified
+    customizationParameters: { themeSelect: emotions, languageSelect: en, letterCase: lowercase }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: emotions, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: emotions
+      cardCount: 24
+      cardsPerPage: 8
+      colorMode: color
+      labelDisplay: word
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: emotions
+      cardCount: 24
+      cardsPerPage: 8
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: i-feel
+      imageSource: theme
+      themeName: emotions
+      stripCount: 12
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 3
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: emotions
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 4
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: emotions
+      pictureCueCount: 6
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 5
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 6
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: science / personal-social-emotional-development
+    (complex-emotion vocabulary expansion; deepens PSED strand
+    3/6 → 4/6). Secondary strand: early-literacy / vocabulary-
+    acquisition (10 new emotion-vocabulary words added per
+    package). Tertiary strand: cognitive-and-executive-function
+    / self-awareness (scenario-emotion matching builds metacognitive
+    awareness of internal states).
+
+    Architectural significance: extends Arc 8-12 express-feelings-
+    with-words (basic 4 emotions: happy/sad/angry/scared) into
+    COMPLEX-EMOTION territory (10 new vocabulary words covering
+    frustrated/anxious/proud/embarrassed/jealous/surprised/curious/
+    disappointed/bored/excited). EXPLICITLY DISTINCT from express-
+    feelings-with-words — that package teaches BASIC emotion
+    recognize + name + verbal-express; this package teaches
+    NUANCED VOCABULARY for complex emotions kids feel daily but
+    often can't articulate. Foundation for regulate-emotions-
+    with-strategies (Arc 15; already shipped) + show-empathy-
+    toward-others (Arc 15; already shipped) — kids with richer
+    emotion-vocabulary regulate + empathize better. PSED strand
+    advancement: 3/6 → 4/6 at this Phase 1.2 close.
+
+    Distinctive composition: 1 picture-sort (emotion-categories)
+    + 2 matching (scenario-to-emotion) + 1 math-worksheet
+    (feeling-frequency tally) + 1 word-guess (emotion-word
+    spelling practice). picture-sort surfaces emotion-family
+    groupings (happy/excited/proud/curious cluster vs sad/
+    disappointed/bored cluster vs angry/frustrated cluster vs
+    scared/anxious/embarrassed/jealous cluster); matching
+    emphasizes scenario-anchoring per developmental-norm pattern.
+
+    Class B FLEXIBLE substrate: composes against emotions theme
+    (theme is canonical for SEL work; face-image library covers
+    the 14+ emotion expressions surfaced in this package).
+    Cross-bundle reuse opportunity: emotions-bundle (Pillar 2
+    cycle close 1-bundle SEL anchor) + future SEL-cluster
+    bundles (Arc 17+ candidates).
+
+    SEL class-conditional material composition (per CC↔assistant
+    adjudication during Phase 1.2 execution):
+    - flashcards (KEEP): emotion-vocabulary word-flash work
+    - picture-cards (KEEP): emotion-face production prompts
+    - sentence-strips (KEEP): "i-feel" frame preset; "I feel
+      FRUSTRATED when ___" canonical SEL sentence-frame
+    - manipulative-cut-outs (KEEP): emotion-icon cut-outs for
+      feeling-day tracker activity
+    - parent-take-home-letter (KEEP): home-school SEL bridge;
+      parent introduction to complex-emotion vocabulary
+    - answer-key (KEEP): teacher-reference for scenario-emotion
+      pairings + classroom-culture-sensitive discussion guidance
+    - matching-mat (REMOVE per audit fan-out SEL class disposition):
+      emotion-vocabulary doesn't fit pair-matching shape
+    - vocabulary-tracing-strips (REMOVE per audit fan-out):
+      emotion-vocabulary tracing isn't pedagogically additive
+      at K-Grade-1 register
+    Total: 6 materials per SEL class-conditional adjudication.
+
+    K-3 multilingual classroom relevance: complex-emotion
+    vocabulary varies significantly across locales + cultures —
+    some locales have direct cognate words ("frustrated" → de
+    "frustriert" / pt "frustrado"); others have culturally-
+    specific emotion concepts (de "Schadenfreude" / pt
+    "saudade"). Per CLAUDE.md §1 international K-3 multilingual
+    classroom audience, this package emphasizes the 10 most-
+    universally-applicable complex emotions; locale-variant
+    work at Phase 3+ adapts to each locale's culturally-specific
+    emotion-vocabulary register. Classroom-culture sensitivity
+    preserved: NO judgment about "right" or "wrong" feelings;
+    all feelings are normal + can be named.
+
+curriculumStandards:
+  - EYFS.ELG.PSED.M.R
+  - EYFS.ELG.PSED.S
+  - CASEL.SELF_AWARENESS
+  - IB-PYP.WhoWeAre
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Match 8 of 10 complex emotions to appropriate scenario
+        prompts.
+      - Use at least 3 complex emotion-words productively (saying
+        "I feel ___") in 5 of 10 conversational trials.
+      - Distinguish complex emotions from basic 4 (e.g., "this
+        is FRUSTRATED, not just ANGRY — frustrated has the
+        tried-and-failed part") in 4 of 6 trials.
+      - Identify emotion-family groupings (happy-cluster vs sad-
+        cluster vs angry-cluster vs scared-cluster) accurately
+        in 5 of 8 picture-sort trials.
+
+    Differentiation:
+    - Pre-K: focus on basic 4 emotions; introduce only 2-3
+      complex emotions (proud + excited + frustrated as most-
+      accessible).
+    - K: full 10-emotion vocabulary; scenario-anchoring
+      emphasized; productive-language pressure low (recognition
+      first, expression as it emerges).
+    - Grade 1: full vocabulary + productive-language target;
+      emotion-family groupings introduced.
+    - Grade 2+: extend to 15-20 emotion-words; introduce mixed-
+      emotions ("I feel proud AND embarrassed at the same
+      time") + emotional-context-of-others work (empathy strand).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

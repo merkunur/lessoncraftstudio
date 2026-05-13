@@ -1,0 +1,147 @@
+# Teaching package — somar até 100 (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 16 Phase 1.1 per Arc 3 Phase 1 sparse-override pattern;
+# 12th consecutive arc continuation). pt sparse-override for math /
+# addition-subtraction strand. Conteúdo matemático universal — tradução direta
+# sem reestruturação pedagógica. BR-MEC ensino fundamental anos iniciais register
+# per CLAUDE.md §6 + formal "você" address per §17.9.
+
+title:
+  pt: "Somar até 100 — somas de dois dígitos com agrupamento por valor posicional"
+
+description:
+  pt: "Pacote de matemática para 2º ano que ensina adição até 100 (somas como 27+38=65, 45+19=64, 56+44=100). Constrói sobre Arc 12 add-within-20 + Arc 15 Fase 4 tens-and-ones-51-to-100 como base de valor posicional. Ponte crítica da estratégia 'fazer-10' de um dígito para adição de dois dígitos, onde a ideia 'fazer-10' se estende em raciocínio de valor posicional (somar dezenas com dezenas, unidades com unidades, reagrupar unidades quando somam 10+). Introduz reagrupamento ('transportar' / 'levar 1') como a estratégia canônica de dois dígitos. Algumas crianças se apoiarão em contar-de-frente (45+19: 45...50, 60, 64); outras em decomposição (45+19 = 45+20-1 = 65-1 = 64); outras em algoritmo padrão de adição em colunas com transporte. Diversidade de estratégias enfatizada; estrutura de valor posicional tornada explícita. 5 exercícios + 7 materiais imprimíveis em uma unidade de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Iniciador com toda a turma + introdução de adição com
+      consciência-de-valor-posicional. A professora ou o professor
+      exibe 27+38 escrito verticalmente com colunas de dezenas-e-
+      unidades claramente marcadas. "Hoje vamos somar números
+      MAIORES — até 100. Vamos somar 27 + 38. Primeiro, vamos
+      somar as UNIDADES: 7+8 = 15. Isso é MAIS que 10, então
+      REAGRUPAMOS — 1 dezena vai para a coluna das dezenas.
+      Agora as dezenas: 2+3+1 (transportado) = 6 dezenas = 60.
+      Mais 5 unidades = 65." Repete com 45+19 (reagrupa; soma
+      das unidades = 14) e 56+44 (unidades somam 10 = reagrupa;
+      resultado 100). Ênfase do padrão: "Quando as unidades
+      somam 10 ou mais, REAGRUPE. Quando menos que 10, some
+      normalmente."
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina com manipulativo base-dez.
+      Cada dupla recebe kits base-dez (barras-de-dez + unidades-
+      avulsas) + uma folha com 6 problemas até 100 (27+38, 45+19,
+      56+44, 64+25, 33+18, 71+29). Dupla alterna: criança A
+      constrói primeiro número com manipulativos; criança B
+      constrói segundo número; juntos combinam, reagrupam 10-
+      unidades-em-1-dezena onde necessário, escrevem resposta.
+      Refraseie erros com demonstração-de-reagrupamento ("você
+      tem 12 unidades na coluna das unidades — isso é 1 dezena
+      e 2 unidades. Deslize a barra-de-dez para a coluna das
+      dezenas."). Escolhas de estratégia: crianças podem usar
+      manipulativos, adição em colunas com transporte,
+      decomposição, OU contar-de-frente; a professora ou o
+      professor aceita qualquer estratégia que produza resposta
+      correta + possa ser explicada.
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios de
+      adição (formato vertical até 100 — prática com
+      reagrupamento). Estação 2: math-puzzle (adendo faltante:
+      27+?=65; ?+38=65). Estação 3: manipulative-cut-outs
+      adição prática com blocos base-dez. Estação 4: more-less
+      (compare dois resultados de adição: qual soma é maior,
+      45+19 ou 38+26?). Vocabulário pt-BR canônico para
+      adição-com-reagrupamento: somar / adicionar / mais /
+      total / soma; reagrupar / transportar / levar 1. Use
+      "somar" + "mais" como formas K-3 mais naturais; "adicionar"
+      técnico mais formal; "levar 1" é a expressão K-3 canônica
+      para a operação de transporte.
+  closure:
+    body: |
+      Quiz de adição até 100 com toda a turma. A professora ou
+      o professor apresenta 5 problemas rápidos; turma responde
+      coletivamente com estratégia preferida + identifica
+      momentos de reagrupamento. "27+45? 56+33? 64+29? 18+82?
+      39+49?" Indicador adiante: "Hoje somamos até 100 + aprendemos
+      REAGRUPAMENTO. Quando voltarmos na próxima vez, aprenderemos
+      SUBTRAÇÃO até 100 com EMPRÉSTIMO (o inverso do reagrupamento)
+      — e valor posicional de três dígitos!"
+
+assessmentCriteria:
+  pt: |
+    Ao final da unidade de 1 semana:
+      - Calcular adição até 100 corretamente em 7 de 10
+        tentativas.
+      - Identificar momentos de reagrupamento + executar
+        reagrupamento corretamente em 6 de 8 problemas que
+        requerem transporte.
+      - Usar pelo menos 2 estratégias de adição (e.g., adição-
+        em-colunas-com-transporte + decomposição) em 5 de 10
+        tentativas.
+      - Resolver problemas de adendo-faltante (27+?=65) em 5 de
+        10 tentativas.
+
+    Diferenciação:
+      - Pré-K (3-5 anos): pular até-100; revisar add-within-10 +
+        add-within-20.
+      - Educação infantil (5-7 anos): adição até 50; suporte de
+        manipulativo enfatizado.
+      - 1º ano: adição até 100 com reagrupamento introduzido;
+        formato adição-em-colunas praticado.
+      - 2º ano em diante: estender para adição de três dígitos
+        (candidato para Arc 16+); ponte para fluência mental
+        em adição de dois dígitos + automaticidade do algoritmo.
+
+compositionalRationale:
+  pt: |
+    Fio principal: matemática / adição-subtração (adição até 100
+    — aprofunda fio 3/14 → 4/14). Fio secundário: matemática /
+    valor-posicional (adição de dois dígitos destaca estrutura
+    dezenas-unidades; conceito de reagrupamento introduzido).
+    Fio terciário: numeracia (adição baseada-em-estratégia:
+    reagrupamento, decomposição, contar-de-frente, usar-fatos-
+    conhecidos).
+
+    Significância arquitetural: estende a base Arc 12 add-within-20
+    para a faixa de dois dígitos. Alavanca trabalho de valor
+    posicional Arc 15 Fase 1+4 tens-and-ones (1-20 + 21-50 +
+    51-100 = faixa completa de valor posicional de dois dígitos
+    coberta) como substrato conceitual. Primeiro pacote a requerer
+    REAGRUPAMENTO ('transportar' / 'levar 1') como estratégia
+    canônica de adição. Faz ponte da fluência em adição de um
+    dígito para adição de dois dígitos com consciência-de-valor-
+    posicional.
+
+    Especificidade pt-BR: adição até 100 é conceito universal +
+    traduzível 1:1 do en. Vocabulário pt-BR canônico:
+    - **"somar"** (informal K-3) / **"adicionar"** (técnico
+      formal) — K-3 contexto natural usa "somar"; "adicionar" é
+      escolar formal.
+    - **"mais"** — universal pt-BR; usado para sinal + e
+      vocabulário comparativo.
+    - **"soma"** / **"total"** — termos técnicos para resultado
+      da adição; acessíveis K-3 quando introduzidos.
+    - **"reagrupar"** / **"transportar"** / **"levar 1"** — três
+      formas pt-BR canônicas para a operação de transporte/carry;
+      "levar 1" é a forma K-3 mais comum em sala de aula
+      brasileira.
+
+    Sistema de palavras-número pt-BR para 21-99: regular mas
+    com "e" conector ("vinte e um, vinte e dois...noventa e
+    nove"); o conector "e" é load-bearing — sem ele a palavra-
+    número soa errada. A pronúncia das dezenas é regular ("vinte,
+    trinta, quarenta, cinquenta, sessenta, setenta, oitenta,
+    noventa"). Centena 100 = "cem"; 101-199 = "cento e..." (NÃO
+    "um cento e..."); transição "noventa e nove → cem" é
+    importante reconhecer.
+
+    Currículo BNCC EF02MA05 (1º ano) + EF02MA06 (2º ano):
+    cálculo de adição com números de até três ordens; uso de
+    estratégias pessoais; algoritmo + agrupamento.
+
+    Substrato Class B FLEXIBLE: composta contra tema animals
+    (contável para trabalho de adição; cross-arc com Arc 12-15
+    addition/subtraction themes para consistência).

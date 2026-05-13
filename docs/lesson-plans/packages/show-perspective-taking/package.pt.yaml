@@ -1,0 +1,197 @@
+# Teaching package — ver pela perspectiva do outro (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 16 Phase 1.3; 14th consecutive arc continuation).
+# pt sparse-override for science / personal-social-emotional-development strand.
+# Conteúdo socioemocional culturalmente sensível — adaptação cuidadosa, não
+# tradução-direta-literal. BR-MEC educação infantil + ensino fundamental anos
+# iniciais register per CLAUDE.md §6 + formal "você" address per §17.9.
+
+title:
+  pt: "Vendo do Jeito Deles — reconhecendo que outros têm sentimentos, pensamentos e visões diferentes"
+
+description:
+  pt: "Pacote socioemocional para educação infantil / 1º-2º ano que ensina a base de teoria-da-mente: o reconhecimento de que OUTROS têm sentimentos, pensamentos e visões DIFERENTES dos seus. Companheiro de Arc 16 Fase 1.2 name-and-describe-feelings-detailed (autoconsciência-emocional) — este pacote estende para consciência-emocional-DOS-OUTROS via sequência desenvolvimental de tomada-de-perspectiva. Distinto de Arc 15 show-empathy-toward-others (que ensina como RESPONDER com cuidado): este pacote ensina a BASE COGNITIVA por trás da resposta empática — reconhecer que o estado interno de outra pessoa pode diferir do seu. Sequência desenvolvimental de três estágios: (1) RECONHECER-SENTIMENTOS-DO-OUTRO — Sara sente-se triste embora eu me sinta feliz; (2) INFERIR-PENSAMENTOS-DO-OUTRO — meu amigo não sabe da surpresa porque não estava lá; (3) PREVER-AÇÕES-DO-OUTRO — Sam vai olhar na gaveta onde ele guardou o brinquedo por último, mesmo que ele tenha sido movido. Ponte crítica de autoconsciência-emocional para cognição-social. Base para o trabalho de RESPOSTA de show-empathy-toward-others + posterior resolução-de-conflito + trabalho de amizade. Fio PSED: 4/6 → 5/6 no fechamento desta Fase 1.3. 5 exercícios + 7 materiais imprimíveis em uma unidade de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Iniciador com toda a turma + introdução de teoria-da-mente.
+      A professora ou o professor mostra duas fotos lado-a-lado:
+      uma criança sorrindo para uma fatia de bolo + uma criança
+      com rosto triste olhando para o mesmo bolo. "Olhem — mesmo
+      bolo, dois sentimentos diferentes. Por que uma criança
+      pode estar FELIZ com o bolo e a outra TRISTE?" A turma faz
+      brainstorm (uma está com fome, a outra cheia; uma gosta do
+      sabor, a outra é alérgica; uma teve surpresa de aniversário,
+      a outra teve que partilhar seu próprio bolo). "Pessoas
+      diferentes veem a MESMA coisa de formas DIFERENTES. Hoje
+      praticamos VER PELA PERSPECTIVA DO OUTRO — entender que os
+      sentimentos e pensamentos dos outros podem ser diferentes
+      dos seus, mesmo sobre a mesma coisa." A professora
+      introduz três passos: (1) RECONHECER: que sentimentos dos
+      outros podem ser diferentes dos seus; (2) INFERIR: o que
+      outros podem estar pensando quando não têm as mesmas
+      informações que você; (3) PREVER: o que outros podem fazer
+      com base no que ELES sabem (não no que VOCÊ sabe). Ênfase
+      do padrão: "Sua visão não é a única visão — e é realmente
+      útil perceber isso!"
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de cenário de tomada-de-
+      perspectiva. Cada dupla recebe 8 cartões-cenário abrangendo
+      os 3 estágios: cenários RECONHECER-SENTIMENTOS (e.g.,
+      "Maria vê uma aranha e grita; você acha aranhas legais —
+      como Maria se sente? Como pode ser diferente de você?");
+      cenários INFERIR-PENSAMENTOS (e.g., "Mamãe escondeu um
+      presente no armário enquanto você não estava em casa;
+      depois quando você chegou em casa não sabia disso — o que
+      você pensou quando viu Mamãe olhando estranhamente para o
+      armário?"); cenários PREVER-AÇÕES (e.g., "Sam colocou seu
+      ursinho na cama antes do almoço; enquanto ele almoçava,
+      você moveu o ursinho para a prateleira; depois do almoço,
+      onde Sam vai PROCURAR PRIMEIRO o ursinho?" — clássico
+      tarefa-de-crença-falsa: crianças que respondem "na cama"
+      demonstram teoria-da-mente). Dupla alterna: criança A lê
+      cenário; criança B passa pela tomada-de-perspectiva
+      pensando em voz alta. Refraseie erros com prompt-de-
+      perspectiva ("você sabe que o ursinho foi movido — mas Sam
+      NÃO viu você movê-lo. Então o que SAM pensa? O que Sam
+      vai FAZER?"). NENHUMA PRESSÃO — tomada-de-perspectiva
+      emerge em idades diferentes (4-5 anos para básico; 5-7
+      anos para empatia-cognitiva; 7-9 anos para perspectiva-
+      social).
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios
+      matching (cenário-para-resposta-de-perspectiva; e.g.,
+      "Sam procurando ursinho na localização movida" ↔ "Sam não
+      sabe que o ursinho foi movido"). Estação 2: pattern-train
+      (sequenciar os 3 passos da tomada-de-perspectiva:
+      RECONHECER → INFERIR → PREVER). Estação 3: picture-sort
+      (classificar cenários em categorias "mesma visão" vs
+      "visões diferentes" com base em se os personagens
+      partilham as mesmas informações). Estação 4: vocabulary-
+      tracing-strips para vocabulário de perspectiva (perspectiva,
+      diferente, visão, opinião, pensar, sentir, perceber,
+      entender). Vocabulário pt-BR canônico para tomada-de-
+      perspectiva: perspectiva / ponto-de-vista / visão; diferente
+      / mesmo; pensar / sentir / saber; perceber / notar /
+      entender. Use "ponto-de-vista" como forma K-3 mais natural;
+      "perspectiva" mais técnica.
+  closure:
+    body: |
+      Círculo de tomada-de-perspectiva com toda a turma. Cada
+      criança compartilha um momento em que percebeu que alguém
+      VIU algo diferentemente dela. "Eu achava que meu irmão ia
+      adorar o brinquedo que dei para ele, mas ele queria um
+      diferente." OU "Eu estava triste quando minha amiga
+      mudou-se, mas minha amiga estava na verdade ANIMADA para
+      ver o primo dela." A professora valida cada resposta.
+      Indicador adiante: "Hoje praticamos VER PELA PERSPECTIVA
+      DO OUTRO. Quando voltarmos na próxima vez, combinaremos
+      tomada-de-perspectiva com EMPATIA — uma vez que você
+      pode reconhecer que alguém se sente diferente de você,
+      pode RESPONDER com cuidado (como aprendemos em show-
+      empathy-toward-others). Tomada-de-perspectiva + empatia
+      juntas constroem as habilidades de amizade e cooperação
+      que trabalharemos em semanas futuras!"
+
+assessmentCriteria:
+  pt: |
+    Ao final da unidade de 1 semana:
+      - Reconhecer que outra pessoa pode sentir-se diferentemente
+        de si sobre a mesma situação em 7 de 10 tentativas
+        (passo RECONHECER-SENTIMENTOS).
+      - Inferir o que outra pessoa pode estar pensando quando
+        não têm as mesmas informações em 5 de 8 tentativas
+        (passo INFERIR-PENSAMENTOS; alvo clássico de tarefa-de-
+        crença-falsa).
+      - Prever a ação provável de outra pessoa baseado no que
+        ELES sabem (não no que VOCÊ sabe) em 5 de 8 tentativas
+        (passo PREVER-AÇÕES).
+      - Usar linguagem produtiva de tomada-de-perspectiva ("Eu
+        acho que ele/ela sente ___" / "Talvez ele/ela esteja
+        pensando ___") em 5 de 10 tentativas de conversa.
+
+    Diferenciação:
+      - Pré-K (3-5 anos): foco apenas no passo RECONHECER-
+        SENTIMENTOS; estrutura básica "pessoas diferentes têm
+        sentimentos diferentes".
+      - Educação infantil (5-7 anos): passos RECONHECER +
+        INFERIR; introduzir cenários clássicos de crença-falsa
+        com adereços concretos (a tarefa-do-ursinho).
+      - 1º ano: estrutura completa de 3 passos; uso produtivo de
+        vocabulário-de-perspectiva.
+      - 2º ano em diante: estender para tomada-de-perspectiva
+        mais abstrata (perspectiva-cultural, perspectiva-
+        histórica, perspectiva-de-personagem-fictício em
+        histórias); ponte para trabalho de resolução-de-
+        conflito + amizade.
+
+compositionalRationale:
+  pt: |
+    Fio principal: ciências / desenvolvimento-pessoal-social-
+    emocional (tomada-de-perspectiva + base de teoria-da-mente;
+    aprofunda fio PSED 4/6 → 5/6). Fio secundário: cognição-e-
+    função-executiva / cognição-social (reconhecer estados
+    internos distintos em outros). Fio terciário: alfabetização
+    inicial / aquisição-de-vocabulário (vocabulário-de-perspectiva:
+    perspectiva, diferente, visão, opinião, etc.).
+
+    Significância arquitetural: companheiro de Arc 16 Fase 1.2
+    name-and-describe-feelings-detailed na superfície do fio
+    PSED (sequência desenvolvimental autoconsciência-emocional
+    → consciência-emocional-dos-outros). Estende Arc 15 Fase 4
+    show-empathy-toward-others adicionando a camada de BASE
+    COGNITIVA por trás da resposta-empática (tomada-de-
+    perspectiva → empatia → ajudar é a sequência desenvolvimental
+    canônica SEL). EXPLICITAMENTE DISTINTO de show-empathy-
+    toward-others — aquele pacote ensina o lado de RESPOSTA
+    (como agir com cuidado); este pacote ensina o lado de
+    COGNIÇÃO (reconhecer estados internos distintos). Fio PSED:
+    4/6 → 5/6 no fechamento desta Fase 1.3 + completa a
+    contribuição de Arc 16 ao fio PSED.
+
+    Especificidade pt-BR: tomada-de-perspectiva é marco
+    desenvolvimental cognitivo universal através de culturas —
+    teoria-da-mente emerge ao redor dos 4-5 anos em todas as
+    populações estudadas. Variação cross-cultural existe em
+    COMO tomada-de-perspectiva é ensinada — algumas culturas
+    enfatizam perspectiva-coletiva (visões-de-grupo) cedo;
+    outras enfatizam perspectiva-individual. Vocabulário pt-BR
+    canônico:
+    - **"perspectiva"** / **"ponto-de-vista"** — pt-BR canônico
+      para perspective; "ponto-de-vista" é forma K-3 mais
+      natural; "perspectiva" mais técnica.
+    - **"visão"** — versão informal K-3 para perspective;
+      contexto desambigua de visão-óptica.
+    - **"diferente / mesmo"** — vocabulário comparativo
+      essencial para reconhecimento-de-distinção-de-perspectiva.
+    - **"pensar / sentir / saber"** — distinção crítica
+      pt-BR-canônica entre estados-cognitivos (pensar/saber) e
+      estados-afetivos (sentir); tomada-de-perspectiva trabalha
+      ambos.
+
+    Contexto cultural pt-BR: cultura brasileira tradicionalmente
+    enfatiza coletividade-familiar + perspectiva-relacional
+    (jeitinho brasileiro como navegação-multi-perspectiva).
+    Tomada-de-perspectiva no contexto K-3 brasileiro pode
+    enfatizar relações-familiares + dinâmicas-de-amizade como
+    cenários-âncora primários (em contraste com cenários-mais-
+    individualistas comuns em registros culturalmente-mais-
+    individualistas).
+
+    Currículo BNCC competências socioemocionais transversais
+    (autoconhecimento + autorregulação + empatia + cooperação) +
+    BNCC EF02ER01 + EF02ER02 (ensino religioso opcional, foco em
+    convivência ética + reconhecimento de diferenças culturais):
+    base socioemocional para reconhecimento-de-diferenças +
+    cooperação-em-grupo.
+
+    Substrato Class B FLEXIBLE: composta contra tema emotions
+    (canônico para imagens de expressão-facial + interação-
+    social). Oportunidade de reuso entre bundles: emotions-bundle
+    (pareada com name-and-describe-feelings-detailed + show-
+    empathy-toward-others como composição de bundle de cluster-
+    SEL de 3-pacotes) + bundles de cluster-SEL futuros
+    (candidatos para Arc 17+).

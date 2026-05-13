@@ -538,10 +538,12 @@ export default async function TopicPage({
                   href: deckLinkFor(deck),
                   thumbnailUrl: deck.thumbnailUrl,
                   pdfUrl: deck.pdfUrl,
+                  answerKeyUrl: deck.answerKeyUrl,
                 }))}
                 labels={{
                   playLink: t('deckCard.playLink'),
                   pdfLink: t('deckCard.pdfLink'),
+                  answerKeyLink: t('deckCard.answerKeyLink'),
                 }}
               />
             )}

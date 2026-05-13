@@ -887,7 +887,8 @@
     "decksCount": "{count, plural, =0 {No worksheets yet} =1 {1 worksheet} other {# worksheets}}",
     "deckCard": {
       "playLink": "Play online",
-      "pdfLink": "Print PDF"
+      "pdfLink": "Print PDF",
+      "answerKeyLink": "Answer key"
     },
     "emptyState": {
       "heading": "No worksheets match these filters.",

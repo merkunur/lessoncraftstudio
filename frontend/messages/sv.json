@@ -1094,7 +1094,8 @@
     "decksCount": "{count, plural, =0 {Inga arbetsblad ännu} =1 {1 arbetsblad} other {# arbetsblad}}",
     "deckCard": {
       "playLink": "Spela online",
-      "pdfLink": "Skriv ut PDF"
+      "pdfLink": "Skriv ut PDF",
+      "answerKeyLink": "Facit"
     },
     "emptyState": {
       "heading": "Inga arbetsblad matchar dessa filter.",

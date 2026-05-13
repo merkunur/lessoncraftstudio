@@ -1098,7 +1098,8 @@
     "decksCount": "{count, plural, =0 {Ingen arbeidsark ennå} =1 {1 arbeidsark} other {# arbeidsark}}",
     "deckCard": {
       "playLink": "Spill online",
-      "pdfLink": "Skriv ut PDF"
+      "pdfLink": "Skriv ut PDF",
+      "answerKeyLink": "Fasit"
     },
     "emptyState": {
       "heading": "Ingen arbeidsark matcher disse filtrene.",

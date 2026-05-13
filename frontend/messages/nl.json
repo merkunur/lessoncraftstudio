@@ -834,7 +834,8 @@
     "decksCount": "{count, plural, =0 {Nog geen werkbladen} =1 {1 werkblad} other {# werkbladen}}",
     "deckCard": {
       "playLink": "Online spelen",
-      "pdfLink": "PDF afdrukken"
+      "pdfLink": "PDF afdrukken",
+      "answerKeyLink": "Antwoorden"
     },
     "emptyState": {
       "heading": "Geen werkbladen passen bij deze filters.",

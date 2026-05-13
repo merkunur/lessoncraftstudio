@@ -25,6 +25,7 @@ export interface TopicDeckCardData {
   href: string;
   thumbnailUrl: string;
   pdfUrl: string;
+  answerKeyUrl: string | null;
 }
 
 interface DeckGridClientProps {
@@ -32,6 +33,7 @@ interface DeckGridClientProps {
   labels: {
     playLink: string;
     pdfLink: string;
+    answerKeyLink: string;
   };
 }
 
@@ -209,6 +211,19 @@ export default function DeckGridClient({
                     >
                       {labels.pdfLink}
                     </a>
+                    {deck.answerKeyUrl && (
+                      <>
+                        <span className="text-ink-300" aria-hidden="true">·</span>
+                        <a
+                          href={deck.answerKeyUrl}
+                          className="text-ink-600 hover:text-ink-900"
+                          target="_blank"
+                          rel="noopener"
+                        >
+                          {labels.answerKeyLink}
+                        </a>
+                      </>
+                    )}
                     <AddToCollectionButton deckId={deck.id} />
                     <ShareDeckButton deckId={deck.id} />
                   </div>

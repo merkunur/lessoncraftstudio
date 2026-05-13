@@ -847,7 +847,8 @@
     "decksCount": "{count, plural, =0 {Aún no hay hojas de trabajo} =1 {1 hoja de trabajo} other {# hojas de trabajo}}",
     "deckCard": {
       "playLink": "Jugar en línea",
-      "pdfLink": "Imprimir PDF"
+      "pdfLink": "Imprimir PDF",
+      "answerKeyLink": "Respuestas"
     },
     "emptyState": {
       "heading": "Ninguna hoja de trabajo coincide con estos filtros.",

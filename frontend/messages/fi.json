@@ -1083,7 +1083,8 @@
     "decksCount": "{count, plural, =0 {Ei vielä tehtäviä} =1 {1 tehtävä} other {# tehtävää}}",
     "deckCard": {
       "playLink": "Pelaa verkossa",
-      "pdfLink": "Tulosta PDF"
+      "pdfLink": "Tulosta PDF",
+      "answerKeyLink": "Vastaukset"
     },
     "emptyState": {
       "heading": "Mikään tehtäväarkki ei vastaa näitä suodattimia.",

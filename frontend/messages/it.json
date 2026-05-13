@@ -1104,7 +1104,8 @@
     "decksCount": "{count, plural, =0 {Ancora nessuna scheda} =1 {1 scheda} other {# schede}}",
     "deckCard": {
       "playLink": "Gioca online",
-      "pdfLink": "Stampa PDF"
+      "pdfLink": "Stampa PDF",
+      "answerKeyLink": "Risposte"
     },
     "emptyState": {
       "heading": "Nessuna scheda corrisponde a questi filtri.",

@@ -1114,7 +1114,8 @@
     "decksCount": "{count, plural, =0 {Aucune fiche pour le moment} =1 {1 fiche} other {# fiches}}",
     "deckCard": {
       "playLink": "Jouer en ligne",
-      "pdfLink": "Imprimer le PDF"
+      "pdfLink": "Imprimer le PDF",
+      "answerKeyLink": "Corrigé"
     },
     "emptyState": {
       "heading": "Aucune fiche ne correspond à ces filtres.",

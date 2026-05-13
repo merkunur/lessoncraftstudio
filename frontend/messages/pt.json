@@ -1104,7 +1104,8 @@
     "decksCount": "{count, plural, =0 {Nenhuma atividade ainda} =1 {1 atividade} other {# atividades}}",
     "deckCard": {
       "playLink": "Jogar online",
-      "pdfLink": "Imprimir PDF"
+      "pdfLink": "Imprimir PDF",
+      "answerKeyLink": "Respostas"
     },
     "emptyState": {
       "heading": "Nenhuma ficha corresponde a esses filtros.",

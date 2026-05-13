@@ -13,6 +13,7 @@ export interface TopicDeckSummary {
   subjectTags: string[];
   thumbnailUrl: string;
   pdfUrl: string;
+  answerKeyUrl: string | null;
   htmlUrl: string;
   publishedAt: Date | null;
   updatedAt: Date;
@@ -30,6 +31,7 @@ const DECK_SELECT = {
   subjectTags: true,
   thumbnailUrl: true,
   pdfUrl: true,
+  answerKeyUrl: true,
   htmlUrl: true,
   publishedAt: true,
   updatedAt: true,

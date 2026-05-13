@@ -978,7 +978,8 @@
     "decksCount": "{count, plural, =0 {Noch keine Arbeitsblätter} =1 {1 Arbeitsblatt} other {# Arbeitsblätter}}",
     "deckCard": {
       "playLink": "Online spielen",
-      "pdfLink": "PDF drucken"
+      "pdfLink": "PDF drucken",
+      "answerKeyLink": "Lösungen"
     },
     "emptyState": {
       "heading": "Keine Arbeitsblätter passen zu diesen Filtern.",

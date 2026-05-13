@@ -21,6 +21,7 @@ teachingPackageSlugs:
   - count-objects-1-to-10
   - sort-by-category
   - compare-by-capacity
+  - measure-time-in-hours
 
 deckIds: []
 lessonPlanIds: []

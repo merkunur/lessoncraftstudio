@@ -1,0 +1,204 @@
+# Teaching package — subtrair dois dígitos sem empréstimo (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT per Arc 7 Phase 3 + Arc 3 Phase 1 sparse-override pattern.
+# Arc 17 Phase 1.2 pt-cadence continuation (15th consecutive arc).
+# pt sparse-override for math / addition-subtraction strand. Conteúdo matemático
+# universal — tradução direta sem reestruturação pedagógica. BR-MEC ensino
+# fundamental anos iniciais register per CLAUDE.md §6 + formal "você" address per §17.9.
+
+title:
+  pt: "Subtrair Dois Dígitos Sem Empréstimo — subtração em colunas onde as unidades não atravessam"
+
+description:
+  pt: "Pacote de matemática para 1º ano que ensina subtração de dois dígitos onde o algarismo das unidades do minuendo é pelo menos tão grande quanto o algarismo das unidades do subtraendo (problemas como 67-23=44, 89-47=42, 78-56=22, 95-64=31). Constrói sobre Arc 15 Phase 1 subtract-within-20 + base de valor posicional Arco 15 tens-and-ones. Degrau conceitual para Arco 16 Phase 1.1 subtract-within-100 (onde o empréstimo é introduzido) — este pacote isola a mecânica da subtração de dois dígitos no caso sem-empréstimo, para que as crianças encontrem subtração-em-colunas SEM ter que gerenciar também a operação de empréstimo. Quando a rotina de subtração-em-colunas fica familiar (alinhe dezenas com dezenas, unidades com unidades, subtraia cada coluna), o empréstimo se torna um acréscimo a uma rotina existente em vez de um procedimento totalmente novo. Faixa de operandos 10–99; restrição: unidades-do-minuendo ≥ unidades-do-subtraendo. Diversidade de estratégias enfatizada: subtração-em-colunas, decomposição (67-23 = 60-20 + 7-3 = 40+4 = 44), contar-para-trás, encenação no tapete de valor-posicional. 5 exercícios + 7 materiais imprimíveis em uma unidade de 1 semana. Companheiro inverso emparelhado: add-2-digit-without-regrouping (sem-transporte). Juntos preparam as crianças para a introdução de reagrupamento/empréstimo nos pacotes within-100 do Arc 16."
+
+structure:
+  warmup:
+    body: |
+      Iniciador com toda a turma + introdução de subtração com
+      consciência-de-valor-posicional sem empréstimo. A
+      professora ou o professor exibe 67-23 escrito verticalmente
+      com colunas de dezenas-e-unidades claramente marcadas.
+      "Hoje vamos subtrair números MAIORES — dois dígitos menos
+      dois dígitos. Vamos resolver 67 - 23. Subtraímos as
+      UNIDADES primeiro: 7-3 = 4. Depois as DEZENAS: 6-2 = 4
+      dezenas = 40. Mais 4 unidades = 44." Repete com 89-47
+      (unidades: 9-7=2; dezenas: 8-4=4 dezenas = 40; total 42)
+      e 95-64 (unidades: 5-4=1; dezenas: 9-6=3 dezenas = 30;
+      total 31). Ênfase do padrão: "Alinhe as dezenas. Alinhe
+      as unidades. Subtraia cada coluna. Hoje as unidades de
+      cima são sempre maiores (ou iguais) que as unidades de
+      baixo, então nunca precisamos PEDIR EMPRESTADO." A
+      professora ou o professor faz um breve contraste com uma
+      prévia do empréstimo: "Amanhã quando subtrairmos 73 - 28,
+      as unidades de cima (3) serão MENORES que as de baixo
+      (8) — e teremos que PEDIR EMPRESTADO das dezenas. Mas
+      hoje, as unidades de cima são sempre grandes o bastante
+      para entregar o que precisamos."
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina com manipulativo base-dez.
+      Cada dupla recebe kits base-dez (barras-de-dez + unidades-
+      avulsas) + uma folha com 6 problemas sem empréstimo
+      (67-23, 89-47, 78-56, 95-64, 48-25, 56-31). Dupla alterna:
+      criança A constrói o minuendo (número de cima) no tapete
+      de valor-posicional — dezenas na coluna das dezenas,
+      unidades na coluna das unidades; criança B remove
+      fisicamente o subtraendo (número de baixo) — removendo
+      dezenas da coluna das dezenas, unidades da coluna das
+      unidades, nunca atravessando entre colunas. Juntos contam
+      o que sobra em cada coluna separadamente + escrevem
+      resposta. A estrutura em colunas do tapete torna o
+      invariante de valor-posicional visível — as crianças veem
+      que a subtração da coluna das dezenas e a subtração da
+      coluna das unidades são duas operações independentes
+      quando nenhum empréstimo é necessário. Refraseie erros
+      com pista-de-coluna ("você removeu 2 dezenas da coluna
+      das dezenas — 6 dezenas menos 2 dezenas deixa 4 dezenas.
+      Depois as unidades."). Escolhas de estratégia: crianças
+      podem usar manipulativos + tapete de valor-posicional,
+      subtração-em-colunas escrita, decomposição, contar-para-
+      trás, OU usar-fatos-conhecidos; a professora ou o
+      professor aceita qualquer estratégia que produza resposta
+      correta + possa ser explicada.
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios de
+      subtração (formato vertical com operandos sem empréstimo
+      — prática de subtração-em-colunas sem operação entre
+      colunas). Estação 2: math-worksheet (problemas de
+      subtração mistos sem empréstimo). Estação 3: math-puzzle
+      (operando faltante: 67-?=44; ?-23=44 — crianças trabalham
+      da diferença para encontrar o operando faltante). Estação
+      4: more-less (compare duas diferenças: qual diferença é
+      maior, 67-23 ou 89-47?). Manipulative-cut-outs base-dez
+      disponíveis em qualquer estação para crianças que
+      queiram apoio concreto. Vocabulário pt-BR canônico para
+      subtração-de-dois-dígitos-sem-empréstimo: subtrair /
+      tirar / menos / diferença; coluna das dezenas / coluna
+      das unidades; alinhar; valor posicional. Use "subtrair" +
+      "tirar" + "menos" como formas K-3 mais naturais;
+      "alinhar as colunas" + "coluna das dezenas" / "coluna
+      das unidades" são os termos K-3 operacionais canônicos.
+  closure:
+    body: |
+      Quiz de subtração-sem-empréstimo com toda a turma. A
+      professora ou o professor apresenta 5 problemas rápidos;
+      turma responde coletivamente + nomeia os resultados de
+      dezenas e unidades. "67-23? 89-47? 78-56? 95-64? 48-25?"
+      Indicador adiante: "Hoje subtraímos números de dois
+      dígitos quando as unidades de cima são grandes o bastante.
+      Quando voltarmos, conheceremos SUBTRAIR ATÉ 100 — mesma
+      rotina de subtração-em-colunas, mas agora as unidades de
+      cima às vezes são menores que as de baixo e aprenderemos
+      a PEDIR EMPRESTADO (quebrar uma dezena em dez unidades).
+      E lembrem do trabalho emparelhado de hoje: SOMAR DOIS
+      DÍGITOS SEM REAGRUPAMENTO — mesma estrutura em colunas,
+      juntando em vez de tirar."
+
+assessmentCriteria:
+  pt: |
+    Ao final da unidade de 1 semana:
+      - Calcular subtração de dois dígitos sem empréstimo
+        corretamente em 7 de 10 tentativas.
+      - Alinhar dezenas-com-dezenas e unidades-com-unidades em
+        formato de colunas em 8 de 10 problemas.
+      - Usar pelo menos 2 estratégias de subtração (e.g.,
+        subtração-em-colunas + decomposição) em 5 de 10
+        tentativas.
+      - Resolver problemas de operando-faltante dentro da
+        faixa sem-empréstimo (67-?=44) em 5 de 10 tentativas.
+
+    Diferenciação:
+      - Pré-K (3-5 anos): pular dois dígitos; revisar
+        subtract-within-10.
+      - Educação infantil (5-7 anos): introduzir dois-dígitos
+        menos unidades (47-3, 60-4) antes de dois-dígitos
+        menos dois-dígitos; suporte de manipulativo enfatizado;
+        evite problemas que requerem empréstimo inicialmente.
+      - 1º ano: dois-dígitos menos dois-dígitos sem empréstimo
+        completo; formato subtração-em-colunas praticado;
+        transições para subtrair-até-100 (2º ano) quando o
+        empréstimo for o próximo passo conceitual.
+      - 2º ano em diante: reforço breve; o caso sem-empréstimo
+        se torna o subconjunto fácil de subtrair-até-100;
+        meta de fluência é subtração mental de dois dígitos no
+        caso sem-empréstimo.
+
+compositionalRationale:
+  pt: |
+    Fio principal: matemática / adição-subtração (subtração
+    de dois dígitos sem empréstimo — aprofunda fio 10/14 →
+    11/14; inverso emparelhado de Arc 17 Phase 1.2 add-2-
+    digit-without-regrouping). Fio secundário: matemática /
+    valor-posicional (subtração-em-colunas torna a estrutura
+    dezenas-e-unidades operacionalmente explícita; a restrição
+    sem-empréstimo mantém o invariante de valor-posicional
+    limpo — subtração na coluna das dezenas e subtração na
+    coluna das unidades são duas operações independentes,
+    sem tráfego entre colunas). Fio terciário: numeracia
+    (subtração baseada-em-estratégia: subtração-em-colunas,
+    decomposição, contar-para-trás, encenação no tapete de
+    valor-posicional).
+
+    Significância arquitetural: faz ponte entre a base Arc
+    15 Phase 1 subtract-within-20 → Arc 16 Phase 1.1
+    subtract-within-100 (empréstimo introduzido lá). Este
+    pacote isola a mecânica de subtração-em-colunas de dois
+    dígitos no caso sem-empréstimo, para que as crianças
+    encontrem subtração com consciência-de-valor-posicional +
+    a rotina em colunas SEM ter que gerenciar também o
+    empréstimo. Quando a rotina de subtração-em-colunas fica
+    familiar, o empréstimo em subtrair-até-100 se torna um
+    acréscimo a uma rotina existente em vez de um procedimento
+    totalmente novo.
+
+    Companheiro inverso emparelhado: add-2-digit-without-
+    regrouping (mesma fase do arco) — crianças encontram
+    adição-em-colunas no caso sem-transporte em paralelo. Os
+    dois pacotes compartilham infraestrutura de tapete de
+    valor-posicional + manipulativos base-dez + formato
+    operação-em-colunas, diferindo apenas na direção da
+    operação (combinar vs. tirar). Juntos preparam o terreno
+    para a introdução de reagrupamento/empréstimo em add-
+    within-100 + subtract-within-100; esta estrutura
+    emparelhada espelha o emparelhamento Arc 16 Phase 1.1 de
+    add-within-100 + subtract-within-100.
+
+    Especificidade pt-BR: subtração-de-dois-dígitos-sem-
+    empréstimo é conceito universal + traduzível 1:1 do en.
+    Vocabulário pt-BR canônico:
+    - **"subtrair"** (técnico formal) / **"tirar"** (informal
+      K-3) — K-3 contexto natural usa "tirar"; "subtrair" é
+      escolar formal.
+    - **"menos"** — universal pt-BR; usado para sinal − e
+      vocabulário comparativo.
+    - **"diferença"** — termo técnico para resultado da
+      subtração; acessível K-3 quando introduzido.
+    - **"coluna das dezenas"** / **"coluna das unidades"** —
+      formas pt-BR canônicas para a estrutura de subtração-em-
+      colunas; vocabulário operacional K-3 partilhado com o
+      pacote de adição emparelhado.
+    - **"alinhar"** — verbo K-3 natural para a ação de pôr
+      dezena-sob-dezena, unidade-sob-unidade.
+
+    O vocabulário de empréstimo pt-BR ("emprestar" /
+    "transportar" / "pegar emprestado") fica FORA do escopo
+    deste pacote; entra apenas em subtrair-até-100.
+
+    Sistema de palavras-número pt-BR para 21-99: regular com
+    "e" conector (mesmas características descritas em add-2-
+    digit-without-regrouping pt). A restrição sem-empréstimo
+    mantém o foco do trabalho transcultural na fluência das
+    palavras-número sem introduzir simultaneamente vocabulário
+    de empréstimo (que entra em subtrair-até-100).
+
+    Currículo BNCC EF01MA08 (1º ano) + EF02MA06 (2º ano):
+    cálculo de subtração com números de até duas ordens; uso
+    de estratégias pessoais; algoritmo + decomposição.
+
+    Substrato Class B FLEXIBLE: composta contra tema animals
+    (contável para trabalho de subtração; cross-arc com Arc
+    12-16 addition/subtraction themes para consistência; pair-
+    coherence com add-2-digit-without-regrouping que usa o
+    mesmo tema).

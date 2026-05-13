@@ -1,0 +1,145 @@
+# Teaching package — complete analogies from image pairs (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT per Arc 7 Phase 3 + Arc 3 Phase 1 sparse-override pattern.
+# Arc 17 Phase 1.1 pt-cadence continuation (15th consecutive arc).
+# SAT-CLOSING for logical-reasoning canonical strand (BR Portuguese register per
+# CLAUDE.md §6 (pt = BR canonical); formal "você" address per §17.9).
+
+title:
+  pt: "Complete a Analogia — raciocínio relacional com pares de imagens"
+
+description:
+  pt: "Pacote de raciocínio lógico para Jardim de Infância / 1º ano do ensino fundamental ensinando a conclusão de analogias por pares de imagens. As crianças veem um par que compartilha uma relação (filhote↔cachorro como par filhote-adulto; pé↔sapato como par parte-do-corpo-e-sua-cobertura) e completam um segundo par usando a mesma relação. Habilidade fundamental de raciocínio relacional: a regra é a RELAÇÃO entre os dois itens, não os itens em si. Constrói sobre pacotes anteriores de raciocínio lógico (causa-e-efeito + trabalho de padrões AB/AAB/ABB dos Arcos 7 + 8) introduzindo a analogia como uma operação de relação paralela. Pacote de FECHAMENTO da estrutura saturada: completa o fio de raciocínio lógico em 5/5 alvos canônicos. Ancorado em vocabulário — nomear a relação (\"o filhote CRESCE para virar um cachorro\") reforça o vocabulário enquanto exercita a cognição relacional."
+
+structure:
+  warmup:
+    body: |
+      Atividade concreta com analogia para toda a turma. O professor ou
+      a professora mostra a imagem de um filhote e a de um cachorro
+      adulto. "Estes dois formam um par — eles vão juntos. Como estão
+      relacionados? O filhote CRESCE para virar o cachorro. Mesmo
+      animal, idade diferente." O professor então mostra a imagem de
+      um filhote de gato. "Filhote de gato vai com ... ?" A turma prevê:
+      gato. "Sim! O filhote de gato cresce para virar um gato — mesma
+      relação que filhote e cachorro." O professor introduz o quadro de
+      analogia: "filhote está para cachorro ASSIM COMO filhote de gato
+      está para gato." Repita com mais 2 tipos de relação: mãe-bebê
+      (vaca↔bezerro como ovelha↔cordeiro), ferramenta-ação (vassoura↔
+      varrer como garfo↔comer). Ênfase do padrão: "Encontre a RELAÇÃO
+      no primeiro par e então use a MESMA RELAÇÃO para o segundo par."
+
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de cartões de analogia. Cada dupla
+      recebe 12 conjuntos de cartões de analogia (4 cartões por
+      analogia: imagem A + imagem B que compartilham uma relação,
+      mais imagem C + uma escolha de 3 candidatos para a imagem D).
+      A criança A lê o primeiro par em voz alta ("cachorro e osso"),
+      depois nomeia a relação ("o cachorro come o osso — animal e
+      sua comida"). A criança B aplica a mesma relação ao segundo par
+      ("gato e ... peixe? leite? uma bola?"). A turma corrige os erros
+      com explicação da relação ("cachorro vai com osso porque
+      cachorros comem ossos; gato vai com PEIXE porque gatos comem
+      peixes — não com uma bola. A relação é animal-e-sua-comida").
+      Relações incluídas: filhote-adulto (filhote↔cachorro como
+      filhote de gato↔gato), animal-casa (pássaro↔ninho como abelha↔
+      colmeia), animal-filhote (vaca↔bezerro como ovelha↔cordeiro),
+      animal-comida (cachorro↔osso como gato↔peixe), ferramenta-ação
+      (vassoura↔varrer como garfo↔comer), objeto-cobertura (pé↔sapato
+      como cabeça↔chapéu).
+
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: folha de exercícios de
+      emparelhamento (combinar par-de-imagens com nome-de-relação:
+      par de imagens → cartão de relação). Estação 2: pattern-worksheet
+      (completar a analogia entre 3 opções de escolha; o quadro do
+      enigma é a tarefa de relação paralela). Estação 3: folha de
+      emparelhamento (variante de relação — mesma mecânica, diferentes
+      tipos de relação ao longo da folha de exercícios). Estação 4:
+      word-guess (as crianças adivinham o parceiro que falta em um
+      quadro escrito de analogia "filhote está para cachorro como
+      filhote de gato está para _ _ _ _").
+
+  closure:
+    body: |
+      Círculo de analogias com toda a turma. O professor apresenta 5
+      analogias incompletas; a turma completa coletivamente cada uma
+      nomeando primeiro a relação. "Pássaro está para ninho como
+      abelha está para ... ?" (COLMEIA, porque é onde as abelhas
+      vivem, assim como ninhos são onde os pássaros vivem). "Mão
+      está para luva como pé está para ... ?" (SAPATO, porque luvas
+      cobrem mãos e sapatos cobrem pés). Indicador adiante: "Hoje
+      completamos analogias — encontramos a relação em um par e
+      usamos a mesma relação para outro par. Quando voltarmos à
+      lógica na próxima vez, trabalharemos com cadeias de
+      causa-e-efeito — o que acontece quando uma coisa leva a outra
+      coisa que leva a outra coisa."
+
+compositionalRationale:
+  pt: |
+    Fio principal: função cognitiva e executiva / raciocínio lógico
+    (conclusão de analogia; FECHAMENTO da saturação canônica em 4/5
+    → 5/5). Fio secundário: alfabetização inicial / aquisição de
+    vocabulário (vocabulário de relação + nomeação de objetos
+    pareados). Fio terciário: função cognitiva e executiva /
+    classificação (analogia é uma operação de categorização
+    relacional — as crianças agrupam pares pela relação que se
+    mantém entre seus itens).
+
+    Significância arquitetural: este pacote FECHA o fio canônico de
+    raciocínio lógico em 5/5. Alvo canônico final para o fio
+    (trabalhos anteriores cobriram reconhecimento de padrões AB +
+    extensões AAB/ABB + causa-e-efeito nos Arcos 7-8). A conclusão
+    de analogia adiciona raciocínio de RELAÇÃO PARALELA ao fio —
+    distinto do trabalho com padrões (que exercita a aplicação
+    sequencial de regras) e do trabalho com causa-efeito (que
+    exercita o raciocínio temporal-causal). O fio de raciocínio
+    lógico está agora totalmente saturado; a cobertura do domínio
+    de função cognitiva e executiva avança: reconhecimento-de-padrões
+    + classificação + raciocínio-lógico + memória-e-atenção todos
+    SATURADOS pós-Arco 17 P1.1.
+
+    Relevância cultural pt-BR específica: o trabalho com analogia é
+    altamente transferível entre culturas — a operação cognitiva
+    (encontrar a relação, aplicá-la novamente) é portável entre
+    idiomas. O vocabulário de relação se adapta ao registro pt-BR:
+    "filhote / cachorro / filhote de gato / gato" para relação
+    filhote-adulto; "casa / ninho / colmeia" para relação
+    animal-casa. Alguns domínios de analogia se encaixam mais
+    naturalmente no contexto pt-BR brasileiro (por exemplo, frutas
+    tropicais — manga↔mangueira como abacaxi↔abacaxizeiro; relação
+    fruta-e-sua-árvore canônica em jardins brasileiros). O professor
+    pode incorporar substrato culturalmente específico para
+    enriquecer o registro pt-BR.
+
+    Substrato Class B FLEXIBLE: compõe-se principalmente contra o
+    tema animals, porque animais são o substrato K-3 de maior
+    alavancagem para relações de analogia. Substrato de imagens
+    da biblioteca de imagens suporta filhote-adulto + animal-casa
+    + animal-comida + ferramenta-ação universalmente.
+
+assessmentCriteria:
+  pt: |
+    Ao final da unidade de 1 semana:
+      - Identificar a relação em um par de 2 imagens entre 4 opções
+        de relação nomeada (filhote-adulto, animal-casa,
+        animal-comida, ferramenta-ação) em 8 de 10 tentativas.
+      - Completar uma analogia de 4 cartões (A↔B como C↔?) entre
+        3 opções em 7 de 10 tentativas.
+      - Produzir uma conclusão verbal de analogia usando o quadro de
+        frase "___ está para ___ como ___ está para ___" em 5 de 8
+        tentativas produtivas.
+      - Gerar um par de analogia original a partir de um par inicial
+        (final aberto; o professor aceita qualquer relação que a
+        criança articule) em 4 de 6 tentativas.
+
+    Diferenciação:
+      - Pré-K: conjunto de 2 relações (filhote-adulto + animal-comida);
+        apenas emparelhamento receptivo; sem requisito de quadro verbal.
+      - Jardim de Infância: conjunto de 4 relações; emparelhamento +
+        conclusão de 3 escolhas; quadro verbal introduzido.
+      - 1º ano em diante: conjunto de 6 relações; quadros verbais
+        produtivos + geração de analogia original; expansão para
+        analogia abstrata (por exemplo, parte-todo, função-propósito)
+        no Arco 18+ se arquivado.

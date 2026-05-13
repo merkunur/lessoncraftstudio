@@ -1,0 +1,333 @@
+# Teaching package — tell time to the half-hour
+# Arc 17 Phase 1.4 (math / measurement strand — completes tell-time canonical pair). Extends tell-time-to-the-hour (Slot 1) to half-hour reading. Pair partner: tell-time-to-the-hour (same arc phase).
+
+targetSlug: tell-time-to-half-hour
+language: en
+title:
+  en: "Tell Time to the Half-Hour — when the minute hand points straight down"
+
+description:
+  en: "Grade 1 math/measurement package extending tell-time-to-the-hour (Slot 1 of Phase 1.4) to half-hour reading on analog clocks. At the half-hour, the minute hand points straight DOWN to 6 (instead of straight up to 12 at the hour). The hour hand sits BETWEEN the previous hour and the next hour — 3:30 has the hour hand halfway between 3 and 4. Bridges hour-only reading to fully-quantitative time reading. CCSS.1.MD.B.3 anchor (the same standard covers both hour + half-hour reading; per learning-targets.json `tell-time-to-half-hour` is a distinct canonical target). Parallel to Arc 15 Phase 1 read-time-on-analog-clock per the same measurement-strand vs time-and-routine-strand framing distinction documented in tell-time-to-the-hour (Slot 1). Together with tell-time-to-the-hour, this package completes the canonical measurement-strand tell-time pair (2 of 3 tell-time canonical targets shipped; tell-time-to-quarter-hour deferred to Phase 1.5+). 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook + half-hour position introduction.
+      Teacher displays a large analog clock + reviews the
+      hour-only work from yesterday: "Remember when the
+      minute hand points straight UP to 12, the time is
+      exactly the hour — three o'clock, five o'clock." Then
+      the new content: "Today we learn what happens when
+      30 MINUTES have passed since the hour. We're HALFWAY
+      THROUGH the hour. The minute hand has moved from 12
+      all the way around to point straight DOWN to 6. We
+      call this HALF-PAST." Teacher demonstrates 3:30 (hour
+      hand between 3 and 4; minute hand pointing straight
+      down at 6); 7:30 (hour hand between 7 and 8; minute
+      hand at 6); 11:30 (hour hand between 11 and 12;
+      minute hand at 6). Pattern emphasis: "At HALF-PAST,
+      the LONG hand points STRAIGHT DOWN to 6. The SHORT
+      hand sits BETWEEN two hour numbers — between 3 and
+      4 means half-past 3. The hour hand has already
+      MOVED PAST 3 but hasn't reached 4 yet, because we're
+      still in the 3-something time." Teacher writes
+      digital forms: 3:30, 7:30, 11:30.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + half-hour clock-reading routine with
+      movable-hand paper clocks. Each pair receives the
+      same movable-hand clock-mat material as Slot 1 + a
+      set of 8 half-hour time cards (2:30, 5:30, 8:30,
+      11:30, 1:30, 4:30, 7:30, 10:30). Pair takes turns:
+      kid A draws a half-hour time card (e.g., 5:30); kid
+      B sets the paper clock — minute hand straight down
+      to 6, hour hand BETWEEN 5 and 6. Kid A verifies the
+      placement, especially checking the hour-hand
+      between-position. Then swap. Recast errors with
+      between-hand cue ("5:30: the hour hand isn't ON 5,
+      it isn't ON 6 — it's BETWEEN 5 and 6. The minute
+      hand has moved halfway around, so the hour hand has
+      also moved halfway between the hours."). The
+      between-position of the hour hand is the load-
+      bearing visual insight that distinguishes half-hour
+      from hour reading — kids who think the hour hand
+      stays exactly on the named number will get half-hour
+      reading wrong.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching activity —
+      match each analog clock face (drawn at half-hour
+      positions) to its digital time (1:30, 2:30, ... 12:30).
+      Station 2: chart-count activity — count through hour
+      AND half-hour positions in sequence (1:00, 1:30,
+      2:00, 2:30, 3:00, 3:30...). Station 3: math-puzzle
+      (set the clock to a given half-hour time:
+      missing-element prompt). Station 4: mixed-hour-and-
+      half-hour matching (kids must distinguish between
+      o'clock and half-past based on minute-hand position).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class half-hour quick-recall. Teacher displays
+      6 clock faces (mix of o'clock + half-past); class
+      chorally reads each. "Three o'clock! Half-past four!
+      Eight o'clock! Half-past eleven! Half-past one!
+      Twelve o'clock!" Forward-pointer: "Today we read
+      half-hour times — when the minute hand points
+      straight DOWN to 6. Together with yesterday's hour
+      reading, we now read both EXACT hour times and
+      HALF-PAST times. Next we'll meet QUARTER-HOUR
+      reading — when the minute hand points to 3 or 9
+      (15 minutes past or quarter-to-the-next-hour) — and
+      eventually we'll read EVERY-5-MINUTES, AM vs PM,
+      and ELAPSED TIME (how many hours between two
+      times). The measurement of time keeps getting more
+      precise."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 8, themeSelect: miscellaneous, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: chart-count
+    exerciseMode: unified
+    customizationParameters: { themeSelect: miscellaneous, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: math-puzzle
+    exerciseMode: unified
+    customizationParameters: { themeSelect: miscellaneous, languageSelect: en, difficulty: easy }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 8, themeSelect: miscellaneous, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: math-worksheet
+    exerciseMode: easy
+    customizationParameters: { difficulty: easy, numExercises: 6, operations: count, selectMode: theme, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: miscellaneous
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: time-format
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: miscellaneous
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: clock-mat
+    customizationParameters:
+      clockType: analog
+      hourMarkings: true
+      minuteHand: movable
+      hourHand: movable
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: clock-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: miscellaneous
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: miscellaneous
+      mode: clock-pieces
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: miscellaneous
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: math / measurement (tell time to the
+    half-hour on an analog clock — completes canonical
+    tell-time pair within measurement strand). Secondary
+    strand: math / time-and-routine (parallel framing —
+    see cross-reference below). Tertiary strand:
+    vocabulary-acquisition (half-past, halfway, between).
+
+    Architectural significance: completes the measurement-
+    strand tell-time canonical pair opened by tell-time-
+    to-the-hour (Slot 1). Per learning-targets.json `tell-
+    time-to-half-hour` is a distinct canonical target with
+    `tell-time-to-the-hour` as prerequisite. The two
+    packages together cover 2 of 3 tell-time canonical
+    targets (tell-time-to-quarter-hour, CCSS.2.MD.C.7, is
+    the 3rd; deferred to Phase 1.5+).
+
+    Cross-reference to read-time-on-analog-clock (Arc 15
+    Phase 1) and to tell-time-to-the-hour (Slot 1): same
+    framing as Slot 1 — the existing read-time-on-analog-
+    clock package saturates the cognitive-and-executive-
+    function / time-and-routine strand AND covers both
+    hour + half-hour pedagogically; Phase 1.4's tell-time
+    pair coexists as parallel measurement-strand framing.
+    See Slot 1 compositionalRationale for the full
+    framing-distinction documentation; this package
+    inherits that framing distinction.
+
+    Pair partner: tell-time-to-the-hour (Slot 1 of Phase
+    1.4). Shares material infrastructure (clock-mat,
+    clock-pieces mode, time-format labelDisplay), shares
+    composition shape, differs only in time-content
+    (half-hour times instead of hour-only times). The
+    pair-coherent structure mirrors Phase 1.2 add-2-
+    digit + subtract-2-digit pair and Phase 1.3
+    decompose-tens-and-ones + identify-tens-and-ones
+    sibling pair — measurement-strand work follows the
+    same pair-coherent ship pattern.
+
+    Distinctive composition: 2 matching + 1 chart-count
+    + 1 math-puzzle + 1 math-worksheet — same shape as
+    Slot 1 with content adjusted for half-hour scope.
+    Chart-count at position 2 surfaces the hour-AND-half-
+    hour sequence (1:00, 1:30, 2:00, 2:30...) which
+    visually shows half-hour positions as the midpoint
+    between consecutive hours. The mixed-time matching
+    at consolidation (position 4) distinguishes o'clock
+    from half-past — the load-bearing diagnostic skill
+    that tests whether kids really internalized the
+    minute-hand-position distinction.
+
+    Materials note: same canonical clock-reading material
+    set as Slot 1 (clock-mat + clock-pieces manipulative-
+    cut-outs + time-format flashcards). The materials
+    infrastructure for clock-reading is shared across
+    both tell-time packages.
+
+    Class B FLEXIBLE substrate: composes against
+    miscellaneous theme (pair-coherent with Slot 1).
+
+    K-3 multilingual classroom relevance: half-hour
+    reading universal across K-3 + locale-portable
+    conceptually. The spoken time-expression for half-
+    past varies significantly across locales — and one
+    locale-specific idiom is particularly tricky:
+    - en 'half-past 3' = 3:30 (HALF PAST the previous
+      hour)
+    - de 'halb 4' (literally 'half 4') = 3:30 (HALF
+      TOWARD the next hour — German uses the upcoming
+      hour, NOT the past hour!)
+    - es 'tres y media' (literally 'three and half') =
+      3:30
+    - pt 'três e meia' (literally 'three and half') =
+      3:30
+    - fr 'trois heures et demie' (literally 'three hours
+      and half') = 3:30
+    - fi 'puoli neljä' (literally 'half four') = 3:30
+      (Finnish, like German, uses the UPCOMING hour!)
+    The de + fi idiom is the cross-locale teaching
+    challenge: kids who know en 'half-past' must remember
+    that de 'halb 4' = 3:30 NOT 4:30. This is a notable
+    locale-variant adaptation at Phase 3+. Locale-variant
+    work adapts to each locale's half-past convention.
+
+curriculumStandards:
+  - CCSS.1.MD.B.3
+  - CCSS.2.MD.C.7
+  - EYFS.ELG.M
+  - IB-PYP.WhereWeAreInPlaceAndTime
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Read 8 analog clock faces showing half-hour times
+        correctly in 7 of 10 trials.
+      - Distinguish o'clock from half-past based on
+        minute-hand position (12 vs 6) in 8 of 10 trials.
+      - Identify the hour-hand BETWEEN-position at half-
+        past times (e.g., at 5:30 the hour hand sits
+        between 5 and 6, not on either) in 6 of 10 trials.
+      - Set the movable-hand paper clock to a given
+        half-hour time in 6 of 10 trials.
+      - Use vocabulary 'half-past' / 'halfway' / 'thirty'
+        correctly in 6 of 10 productive-language trials.
+
+    Differentiation:
+    - Pre-K: skip half-hour reading entirely; review
+      days-of-week + months-of-year + hour-only reading
+      (via Slot 1) first.
+    - K: hour-only reading (Slot 1) is sufficient for
+      K; defer half-past to Grade 1.
+    - Grade 1: full half-past reading; movable-hand work
+      heavily scaffolded; the hour-hand-between-position
+      gets explicit attention.
+    - Grade 2+: extend to tell-time-to-quarter-hour
+      (Phase 1.5+ candidate) + tell-time-to-five-minutes
+      + AM/PM distinction + digital clock format +
+      elapsed-time problems.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

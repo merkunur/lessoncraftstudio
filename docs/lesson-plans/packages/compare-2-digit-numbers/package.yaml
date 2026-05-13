@@ -1,0 +1,326 @@
+# Teaching package — compare 2-digit numbers
+# Arc 17 Phase 1.4 (math / place-value canonical 2/3 → 3/3 SAT close — closes place-value canonical sub-track at 22nd saturated strand at canonical-sub-track level). Closes the Phase 1.3 sibling cluster (decompose-tens-and-ones-within-19 + identify-tens-and-ones-2-digit + this) into the full canonical place-value introduction sequence.
+
+targetSlug: compare-2-digit-numbers
+language: en
+title:
+  en: "Compare Two-Digit Numbers — look at the tens first"
+
+description:
+  en: "Grade 1 math package teaching kids to compare two-digit numbers using place-value structure. To decide which is bigger (47 vs 53), compare the TENS first — 5 tens (50) is more than 4 tens (40), so 53 > 47 regardless of the ones digit. When tens are equal (47 vs 43), THEN compare the ones — 7 > 3, so 47 > 43. Builds on the Phase 1.3 sibling cluster (decompose-tens-and-ones-within-19 + identify-tens-and-ones-2-digit) by USING the tens-and-ones decomposition kids learned there as the operational basis for comparison. CCSS.1.NBT.B.3 primary anchor ('Compare two two-digit numbers based on meanings of the tens and ones digits'). Closes math/place-value canonical sub-track at 3/3 SAT — the 22nd saturated strand at canonical sub-track level on the platform. After this package the K-3 place-value canonical work is complete (operational extensions like compare-by-tens-and-ones and 3-digit comparison are post-K-3 / extension territory). 5 worksheet exercises + 7 printable materials over a 1-week unit. Place-value-mat material deferred to Pillar 5 per Arc 17 Phase 0 §8 (C); matching-mat + manipulative-cut-outs in base-ten-blocks mode carry the place-value enactment role."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook + place-value comparison introduction.
+      Teacher writes 47 vs 53 on the board, vertically aligned.
+      "Which number is BIGGER? Let's use what we know about
+      TENS and ONES. 47 = 4 tens + 7 ones. 53 = 5 tens + 3
+      ones. Look at the TENS first. 4 tens is 40. 5 tens is
+      50. 50 is bigger than 40, so 53 is bigger than 47.
+      Even though 7 ones is bigger than 3 ones, the TENS
+      decide first." Teacher writes: 53 > 47 (using the
+      'mouth opens to the bigger number' notation kids may
+      already know from earlier work). Teacher repeats with
+      29 vs 31 (tens: 2 vs 3 → 31 wins; ones don't matter)
+      and 80 vs 78 (tens: 8 vs 7 → 80 wins; ones-comparison
+      9-vs-0 is irrelevant). Then a same-tens case: 47 vs
+      43. "Same tens! 4 = 4. So we look at the ONES. 7 vs 3:
+      7 > 3, so 47 > 43." Pattern emphasis: "Tens FIRST. Only
+      compare ones if tens are equal."
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + base-ten comparison routine. Each pair
+      receives a 'comparison mat' (two side-by-side spaces
+      for building two numbers) + animal-themed base-ten
+      manipulative cut-outs (ten-sticks + single counters).
+      Pair plays the comparison game: teacher gives two
+      2-digit numbers (e.g., 47 and 53); kid A builds the
+      first number with manipulatives (4 ten-sticks + 7
+      single counters); kid B builds the second number (5
+      ten-sticks + 3 single counters). Together they
+      compare the TEN-STICKS first — whoever has more ten-
+      sticks built the bigger number. They write the
+      comparison: 47 < 53 (or 53 > 47). Pair swaps + repeats
+      with new pairs: 29 vs 31, 80 vs 78, 47 vs 43, 60 vs
+      66, 91 vs 89. Recast errors with tens-cue ("count the
+      ten-sticks first — who has MORE ten-sticks? That
+      number is bigger, no matter how many ones"). The
+      manipulatives make the tens-first comparison visible
+      — kids SEE that 5 ten-sticks dominates 4 ten-sticks
+      regardless of how many ones sit beside each.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: more-less app (the
+      canonical comparison app — compare two numbers via
+      a simple comparison interface). Station 2: matching
+      activity — match each two-digit-number pair (47 vs
+      53; 80 vs 78; 47 vs 43) to its comparison statement
+      (47<53; 80>78; 47>43). Station 3: math-puzzle (find
+      missing relation: 47 ? 53; ? > 47 — which number
+      could fit). Station 4: math-worksheet with mixed
+      2-digit comparison problems. The more-less app at
+      position 1 + 5 (assessment) is load-bearing — it's
+      the canonical comparison-mechanic app.
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class place-value comparison quick-recall.
+      Teacher presents pairs; class collectively names the
+      bigger number + reasoning. "47 vs 53? — 53 is bigger,
+      5 tens beats 4 tens." "80 vs 78? — 80 is bigger, 8
+      tens beats 7 tens." "47 vs 43? — 47 is bigger, same
+      tens (4=4) but 7 ones beats 3 ones." Forward-pointer:
+      "Today we closed our two-digit place-value work — we
+      can DECOMPOSE numbers (Phase 1.3 first sibling
+      package), IDENTIFY their tens and ones (second
+      sibling), and now COMPARE them (this package). The
+      same tens-first idea grows: when we meet THREE-DIGIT
+      numbers (Grade 2), we'll look at HUNDREDS first, then
+      tens, then ones — same place-value structure, more
+      digits. Next we'll meet bigger numbers + measurement
+      work."
+
+composedExercises:
+  - appName: more-less
+    exerciseMode: number-result
+    customizationParameters: { mode: number-result, maxNumber: 99, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 8, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: math-puzzle
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en, difficulty: easy }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: math-worksheet
+    exerciseMode: medium
+    customizationParameters: { difficulty: medium, numExercises: 8, operations: add, selectMode: theme }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: more-less
+    exerciseMode: number-result
+    customizationParameters: { mode: number-result, maxNumber: 99, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 24
+      cardsPerPage: 8
+      colorMode: color
+      labelDisplay: math-expression
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 20
+      cardsPerPage: 8
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 12
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: place-value-comparison-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: base-ten-blocks
+      itemCount: 100
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: math / place-value (compare two-digit
+    numbers — closes place-value canonical sub-track at
+    3/3 SAT; 22nd saturated strand at canonical sub-track
+    level on the platform). Secondary strand: numeracy
+    (number-magnitude comparison; foundational ordering
+    skill). Tertiary strand: working-memory + sequential-
+    reasoning (the 'tens-first then ones-if-equal'
+    decision tree is a 2-step procedure kids hold in mind).
+
+    Architectural significance: closes the math/place-value
+    canonical sub-track at 3/3 SAT. The Phase 1.3 sibling
+    cluster (decompose-tens-and-ones-within-19 + identify-
+    tens-and-ones-2-digit) established the place-value
+    decomposition insight; this package USES that
+    decomposition operationally — comparison is the first
+    place-value-applied skill kids meet. After this package
+    the K-3 place-value canonical work is structurally
+    complete (operational extensions like compare-by-tens-
+    and-ones explicitly and 3-digit place-value belong to
+    Grade 2+ extension territory; the Arc 15 Phase 4
+    identify-place-value-hundreds package is the existing
+    3-digit work).
+
+    Cross-reference to Phase 1.3 sibling cluster:
+    decompose-tens-and-ones-within-19 (the K foundation;
+    teen numbers as 10+n) + identify-tens-and-ones-2-digit
+    (the Grade 1 extension; 2-digit numbers as N tens + M
+    ones) + this package (the Grade 1 application;
+    comparison using place-value) form the complete K →
+    Grade 1 place-value introduction sequence. The three
+    packages share theme (animals), share materials
+    infrastructure, and cross-reference each other in
+    compositionalRationale.
+
+    Distinctive composition: 2 more-less (intro +
+    assessment, bookending the comparison work — more-less
+    is the canonical comparison-mechanic app) + 1 matching
+    + 1 math-puzzle + 1 math-worksheet. The more-less app
+    is load-bearing: it produces 2-number-comparison
+    problems where the kid picks which is bigger/smaller,
+    which is exactly the comparison mechanic this package
+    teaches. The matching activity surfaces the comparison
+    notation (47<53 paired with the number pair).
+
+    Materials note: place-value-mat (the canonical place-
+    value enactment surface) is deferred to Pillar 5 per
+    Arc 17 Phase 0 §8 (C); see Phase 1.3 sibling cluster
+    rationale for the substitution pattern. Matching-mat
+    occupies position 3 with pedagogicalRole 'place-value-
+    comparison-game' (the matching surface pairs 2-digit
+    number pairs with their comparison statements).
+    Manipulative-cut-outs in base-ten-blocks mode (position
+    5, itemCount 100 for full 2-digit range) provides the
+    concrete ten-sticks + ones for tens-first comparison
+    enactment.
+
+    Class B FLEXIBLE substrate: composes against animals
+    theme (pair-coherent with Phase 1.3 sibling cluster +
+    Arc 16 + Phase 1.2 addition-subtraction cluster).
+
+    K-3 multilingual classroom relevance: place-value
+    comparison is universal K-3 numeracy content. The
+    tens-first algorithm is locale-portable — the place-
+    value structure is the same in every locale, only the
+    spoken number-word forms vary (and for comparison
+    work, the structural insight that 'left digit = tens'
+    means kids can compare visually without needing to say
+    the numbers aloud). Cross-locale comparison
+    vocabulary: en 'greater than / less than / equal to';
+    de 'größer als / kleiner als / gleich'; es 'mayor que
+    / menor que / igual a'; pt 'maior que / menor que /
+    igual a'; fr 'plus grand que / plus petit que / égal
+    à'; fi 'suurempi kuin / pienempi kuin / yhtä suuri
+    kuin'. Mathematical symbols (>, <, =) are
+    international and locale-portable. Locale-variant work
+    at Phase 3+ adapts comparison-vocabulary to each
+    locale's register.
+
+curriculumStandards:
+  - CCSS.1.NBT.B.3
+  - CCSS.2.NBT.A.4
+  - EYFS.ELG.M
+  - IB-PYP.HowTheWorldWorks
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Compare 2-digit number pairs correctly in 8 of 10
+        trials.
+      - Apply the tens-first algorithm (compare tens
+        digits first; only compare ones if tens are equal)
+        in 7 of 10 trials.
+      - Use comparison vocabulary 'greater than' / 'less
+        than' / 'equal to' (or culture-appropriate
+        synonyms like 'bigger / smaller / same') in 7 of
+        10 productive-language trials.
+      - Write comparison statements using >, <, = symbols
+        correctly in 6 of 10 trials.
+
+    Differentiation:
+    - Pre-K: skip 2-digit comparison entirely; build 1-
+      digit comparison foundation first.
+    - K: introduce 2-digit comparison only with multiples
+      of 10 (10, 20, 30, ... 90) where tens-comparison is
+      trivial; full no-same-tens range only.
+    - Grade 1: full 2-digit comparison fluency; both
+      cases practiced (different-tens + same-tens with
+      ones-tiebreaker); comparison-symbol notation
+      introduced.
+    - Grade 2+: extend to 3-digit comparison (hundreds-
+      first then tens then ones); bridge to ordering
+      multiple numbers + number-line placement.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

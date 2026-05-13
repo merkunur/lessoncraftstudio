@@ -1,0 +1,310 @@
+# Teaching package — tell time to the hour
+# Arc 17 Phase 1.4 (math / measurement strand — opens tell-time canonical pair). Measurement-strand framing of clock-reading work; parallel to Arc 15 Phase 1 read-time-on-analog-clock which framed the same observable activity in the cognitive-and-executive-function / time-and-routine strand. Pair partner: tell-time-to-half-hour (same arc phase).
+
+targetSlug: tell-time-to-the-hour
+language: en
+title:
+  en: "Tell Time to the Hour — when the minute hand points straight up"
+
+description:
+  en: "Grade 1 math/measurement package teaching kids to read analog clocks at the hour. Kids learn the structural features of an analog clock — 12 numbered positions, a SHORT hand (the hour hand) that points to a number 1-12, and a LONG hand (the minute hand) that points straight up to 12 when it's exactly the hour. 1:00 = hour hand on 1, minute hand on 12. CCSS.1.MD.B.3 anchor (canonical measurement-strand fill per learning-targets.json). Parallel to Arc 15 Phase 1 read-time-on-analog-clock (which saturated the cognitive-and-executive-function / time-and-routine strand by framing clock-reading as a daily-life skill); this package frames the same activity through the measurement-strand lens — clock-reading as quantitative measurement of time as a measurable dimension (parallel to length, weight, capacity, duration). Both framings coexist intentionally: the time-and-routine framing emphasizes WHEN things happen in the day; the measurement framing emphasizes time as a quantity that can be read off an instrument. Pair partner: tell-time-to-half-hour (Slot 4 of Phase 1.4; extends hour-only reading to half-hour positions). Together they form the canonical measurement-strand tell-time pair, opening the broader measurement-strand work that continues with tell-time-to-quarter-hour (Phase 1.5+), elapsed-time + minute work (Arc 18+). 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook + analog-clock structure introduction.
+      Teacher displays a large analog clock face. "This is a
+      clock — a tool that MEASURES time. See the 12 numbers
+      around the edge? Each number is a HOUR-position. See
+      TWO hands? The SHORT hand is the HOUR HAND — it shows
+      us the hour. The LONG hand is the MINUTE HAND — it
+      shows us the minutes. When it's exactly an HOUR (no
+      extra minutes), the minute hand points STRAIGHT UP to
+      12. The hour hand points to the hour number." Teacher
+      demonstrates 3 hour-only positions: 3:00 (hour hand
+      pointing at 3; minute hand pointing straight up at 12);
+      9:00 (hour hand at 9; minute hand at 12); 12:00 (both
+      hands together at 12). Class chants: "Three o'clock!
+      Nine o'clock! Twelve o'clock!" Pattern emphasis: "When
+      the long hand points straight up, the time is EXACTLY
+      the hour. Read the hour hand to know which hour."
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + clock-reading routine with movable-hand
+      paper clocks. Each pair receives a movable-hand paper
+      clock (clock-mat material with movable hour + minute
+      hands) + a set of 8 hour-time cards (1:00, 4:00, 7:00,
+      10:00, 2:00, 5:00, 8:00, 11:00). Pair takes turns: kid
+      A draws a time card; kid B sets the paper clock to
+      that time by moving the hands — minute hand to 12,
+      hour hand to the named number. Kid A verifies the
+      placement. Then swap. Recast errors with hand-cue ("8
+      o'clock: long hand POINTS STRAIGHT UP to 12; short
+      hand points to 8"). The movable hands let kids
+      physically enact the position rather than just see it
+      printed — measurement work is hands-on.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching activity — match
+      each analog clock face (drawn at hour positions) to
+      its digital time (1:00, 2:00, ... 12:00). Station 2:
+      chart-count activity — count through hour positions
+      around the clock face (1, 2, 3, ... 12). Station 3:
+      math-puzzle activity (set the clock to a given time:
+      missing-element prompt). Station 4: matching variant
+      with vocabulary (clock face → "X o'clock" written
+      form).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class hour-reading quick-recall. Teacher displays
+      6 clock faces; class chorally reads each. "Four
+      o'clock! Seven o'clock! Eleven o'clock! Twelve
+      o'clock! Two o'clock! Nine o'clock!" Forward-pointer:
+      "Today we read hour times — when the minute hand
+      points straight up to 12. Next we'll learn HALF-PAST
+      — when the minute hand points straight down to 6. And
+      after that, QUARTER-PAST + QUARTER-TO — when the
+      minute hand points to 3 or 9. Step by step, we're
+      learning to MEASURE time on the clock."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 8, themeSelect: miscellaneous, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: chart-count
+    exerciseMode: unified
+    customizationParameters: { themeSelect: miscellaneous, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: math-puzzle
+    exerciseMode: unified
+    customizationParameters: { themeSelect: miscellaneous, languageSelect: en, difficulty: easy }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 8, themeSelect: miscellaneous, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: math-worksheet
+    exerciseMode: easy
+    customizationParameters: { difficulty: easy, numExercises: 6, operations: count, selectMode: theme, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: miscellaneous
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: time-format
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: miscellaneous
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: clock-mat
+    customizationParameters:
+      clockType: analog
+      hourMarkings: true
+      minuteHand: movable
+      hourHand: movable
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: clock-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: miscellaneous
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: miscellaneous
+      mode: clock-pieces
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: miscellaneous
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: math / measurement (tell time to the hour
+    on an analog clock — opens canonical measurement-strand
+    sub-track for tell-time work). Secondary strand: math /
+    time-and-routine (parallel framing — see cross-reference
+    to read-time-on-analog-clock below). Tertiary strand:
+    vocabulary-acquisition (clock-reading vocabulary: hour,
+    minute, o'clock, hand, clock face).
+
+    Architectural significance: opens the measurement-strand
+    tell-time canonical pair (Slot 1 + Slot 4 of Phase 1.4).
+    Per learning-targets.json `tell-time-to-the-hour` lives
+    in the measurement strand (CCSS.1.MD.B.3); this package
+    is its canonical fill. Together with tell-time-to-half-
+    hour (Slot 4), it covers the first 2 of 3 tell-time
+    canonical targets (tell-time-to-quarter-hour, CCSS.2.MD.
+    C.7, is the 3rd; deferred to Phase 1.5+).
+
+    Cross-reference to read-time-on-analog-clock (Arc 15
+    Phase 1): the existing read-time-on-analog-clock package
+    saturates the cognitive-and-executive-function / time-
+    and-routine strand at 4/4 and ALSO covers hour + half-
+    hour clock-reading pedagogically. Phase 1.4's tell-time
+    pair coexists with that work as a parallel measurement-
+    strand framing. The two framings emphasize different
+    pedagogical aspects of the same observable activity:
+    - read-time-on-analog-clock: clock-reading as a daily-
+      life skill (WHEN things happen in the day; schedule
+      reading; time-and-routine awareness).
+    - tell-time-to-the-hour (this package): clock-reading
+      as quantitative measurement (TIME AS A MEASURABLE
+      DIMENSION parallel to length, weight, capacity,
+      duration). The clock is a measurement instrument that
+      reads off the quantity 'time of day'.
+    Both framings are valuable; teachers can pull whichever
+    framing fits their curriculum context. The two packages
+    share material precedents (clock-mat, clock-pieces mode
+    on manipulative-cut-outs, time-format labelDisplay on
+    flashcards) — the canonical clock-reading material
+    infrastructure is shared across both strand framings.
+
+    Pair partner (within Phase 1.4): tell-time-to-half-hour
+    (Slot 4) — extends hour-only reading to half-hour
+    positions. The two packages share infrastructure and
+    composition shape; only the time-content varies (hour
+    times vs half-hour times).
+
+    Distinctive composition: 2 matching + 1 chart-count +
+    1 math-puzzle + 1 math-worksheet. Matching is load-
+    bearing for clock-reading (analog face → digital time
+    is the canonical pairing exercise). Chart-count at
+    position 2 surfaces the 12-position circular structure
+    of the clock face (kids count 1, 2, 3, ... 12 around
+    the rim). Math-puzzle work at position 3 inverts the
+    pairing (given a digital time, set the analog hands —
+    the missing-element shape).
+
+    Class B FLEXIBLE substrate: composes against
+    miscellaneous theme (clock-faces don't compose against
+    animal/food themes naturally; aligns with read-time-on-
+    analog-clock + tens-and-ones-1-to-20 abstract-numerical
+    package precedent).
+
+    K-3 multilingual classroom relevance: hour-reading
+    universal across K-3 + locale-portable conceptually,
+    but the SPOKEN time-expression varies substantially:
+    en 'o'clock' is en-specific syntax ('three o'clock');
+    de 'es ist drei Uhr' (literally 'it is three clock');
+    es 'son las tres' (literally 'they are the three' —
+    plural-only construction); pt 'são três horas'
+    (literally 'they are three hours'); fr 'il est trois
+    heures' (literally 'it is three hours'); fi 'kello on
+    kolme' (literally 'clock is three'). The clock-face
+    visual is locale-portable; the verbal time-expression
+    requires locale-specific adaptation. Locale-variant
+    work at Phase 3+ adapts to each locale's time-
+    expression idiom.
+
+curriculumStandards:
+  - CCSS.1.MD.B.3
+  - CCSS.2.MD.C.7
+  - EYFS.ELG.M
+  - IB-PYP.WhereWeAreInPlaceAndTime
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Read 8 analog clock faces showing hour-only times
+        correctly in 7 of 10 trials.
+      - Distinguish hour hand from minute hand in 9 of 10
+        trials (the SHORT hand is hours; the LONG hand is
+        minutes).
+      - Set the movable-hand paper clock to a given hour
+        time (e.g., 'show me 4 o'clock') in 7 of 10 trials.
+      - Use vocabulary 'o'clock' / 'hour hand' / 'minute
+        hand' / 'twelve' (the minute-hand-position-at-the-
+        hour) correctly in 7 of 10 productive-language
+        trials.
+
+    Differentiation:
+    - Pre-K: skip analog clock reading; review days-of-week
+      + months-of-year sequence first.
+    - K: hour-only reading with 4-6 hour positions (1, 3,
+      6, 9, 12 are most accessible at K — the cardinal
+      compass-point positions); skip half-past entirely.
+    - Grade 1: full hour-only reading; movable-hand work
+      heavily scaffolded; bridge to tell-time-to-half-hour
+      (sibling package).
+    - Grade 2+: extend to tell-time-to-quarter-hour (Phase
+      1.5+ candidate) + tell-time-to-five-minutes + AM/PM
+      distinction + digital clock format.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

@@ -1,0 +1,204 @@
+# Teaching package — comparar números de dois dígitos (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT per Arc 7 Phase 3 + Arc 3 Phase 1 sparse-override pattern.
+# Arc 17 Phase 1.4 pt-cadence continuation (17th consecutive arc).
+# pt sparse-override for math / place-value strand. Conteúdo matemático
+# universal — tradução direta sem reestruturação pedagógica. BR-MEC ensino
+# fundamental anos iniciais register per CLAUDE.md §6 + formal "você" address per §17.9.
+
+title:
+  pt: "Comparar Números de Dois Dígitos — olhe primeiro para as dezenas"
+
+description:
+  pt: "Pacote de matemática para 1º ano que ensina as crianças a comparar números de dois dígitos usando a estrutura de valor-posicional. Para decidir qual é maior (47 vs 53), compare primeiro as DEZENAS — 5 dezenas (50) é mais que 4 dezenas (40), então 53 > 47 independente do dígito das unidades. Quando as dezenas são iguais (47 vs 43), AÍ compare as unidades — 7 > 3, então 47 > 43. Constrói sobre o cluster-irmão Phase 1.3 (decompose-tens-and-ones-within-19 + identify-tens-and-ones-2-digit) USANDO a decomposição dezenas-e-unidades que as crianças aprenderam ali como a base operacional para comparação. Âncora primária CCSS.1.NBT.B.3 ('Comparar dois números de dois dígitos com base nos significados dos dígitos das dezenas e unidades'). Fecha sub-track canônico math/place-value em 3/3 SAT — o 22º fio saturado no nível sub-track canônico da plataforma. Após este pacote o trabalho canônico K-3 de valor-posicional está estruturalmente completo (extensões operacionais como compare-by-tens-and-ones explicitamente e valor-posicional de 3 dígitos pertencem ao território de extensão do 2º ano em diante; o pacote Arc 15 Phase 4 identify-place-value-hundreds é o trabalho existente de 3 dígitos). 5 exercícios + 7 materiais imprimíveis em uma unidade de 1 semana. Material place-value-mat diferido para Pillar 5 per Arc 17 Phase 0 §8 (C); matching-mat + manipulative-cut-outs em modo base-dez carregam o papel de encenação de valor-posicional."
+
+structure:
+  warmup:
+    body: |
+      Iniciador com toda a turma + introdução de comparação
+      de valor-posicional. A professora ou o professor escreve
+      47 vs 53 no quadro, alinhados verticalmente. "Qual
+      número é MAIOR? Vamos usar o que sabemos sobre DEZENAS
+      e UNIDADES. 47 = 4 dezenas + 7 unidades. 53 = 5 dezenas
+      + 3 unidades. Olhem primeiro para as DEZENAS. 4 dezenas
+      é 40. 5 dezenas é 50. 50 é maior que 40, então 53 é
+      maior que 47. Mesmo que 7 unidades seja maior que 3
+      unidades, as DEZENAS decidem primeiro." Escreve: 53 >
+      47 (usando a notação 'boca aberta para o número maior'
+      que as crianças talvez já conheçam de trabalho anterior).
+      Repete com 29 vs 31 (dezenas: 2 vs 3 → 31 ganha;
+      unidades não importam) e 80 vs 78 (dezenas: 8 vs 7 →
+      80 ganha; comparação-de-unidades 0-vs-8 é irrelevante).
+      Depois um caso de mesmas-dezenas: 47 vs 43. "Mesmas
+      dezenas! 4 = 4. Então olhamos as UNIDADES. 7 vs 3:
+      7 > 3, então 47 > 43." Ênfase do padrão: "Dezenas
+      PRIMEIRO. Só compare unidades se as dezenas forem
+      iguais."
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de comparação base-dez.
+      Cada dupla recebe um 'tapete de comparação' (dois
+      espaços lado-a-lado para construir dois números) +
+      cut-outs base-dez com tema animals (barras-de-dez +
+      contadores avulsos). Dupla joga o jogo de comparação:
+      a professora ou o professor dá dois números de 2
+      dígitos (e.g., 47 e 53); criança A constrói o primeiro
+      número com manipulativos (4 barras-de-dez + 7
+      contadores avulsos); criança B constrói o segundo
+      número (5 barras-de-dez + 3 contadores avulsos).
+      Juntas comparam primeiro as BARRAS-DE-DEZ — quem
+      tiver mais barras-de-dez construiu o número maior.
+      Escrevem a comparação: 47 < 53 (ou 53 > 47). Dupla
+      troca + repete com novos pares: 29 vs 31, 80 vs 78,
+      47 vs 43, 60 vs 66, 91 vs 89. Refraseie erros com
+      pista-de-dezenas ("conte as barras-de-dez primeiro —
+      quem tem MAIS barras-de-dez? Esse número é maior, não
+      importa quantas unidades"). Os manipulativos tornam
+      a comparação dezenas-primeiro visível — as crianças
+      VEEM que 5 barras-de-dez domina 4 barras-de-dez
+      independente de quantas unidades estão ao lado de
+      cada uma. Vocabulário pt-BR canônico para comparação:
+      maior que / menor que / igual a; mais / menos /
+      mesma quantidade; dezenas primeiro. Use "maior que"
+      / "menor que" / "igual a" como formas BNCC canônicas;
+      "maior" / "menor" / "mesma" são variantes K-3
+      coloquiais.
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: more-less app (o app
+      canônico de comparação — compara dois números via uma
+      interface simples). Estação 2: atividade matching —
+      combine cada par de números-de-2-dígitos (47 vs 53;
+      80 vs 78; 47 vs 43) à sua declaração de comparação
+      (47<53; 80>78; 47>43). Estação 3: math-puzzle
+      (encontre relação faltante: 47 ? 53; ? > 47 — qual
+      número poderia caber). Estação 4: math-worksheet com
+      problemas mistos de comparação de 2 dígitos. O app
+      more-less nas posições 1 + 5 (avaliação) é load-
+      bearing — é o app canônico para o mecanismo de
+      comparação.
+  closure:
+    body: |
+      Recuperação rápida de comparação de valor-posicional
+      com toda a turma. A professora ou o professor apresenta
+      pares; a turma nomeia coletivamente o número maior +
+      raciocínio. "47 vs 53? — 53 é maior, 5 dezenas vence
+      4 dezenas." "80 vs 78? — 80 é maior, 8 dezenas vence
+      7 dezenas." "47 vs 43? — 47 é maior, mesmas dezenas
+      (4=4) mas 7 unidades vence 3 unidades." Indicador
+      adiante: "Hoje fechamos nosso trabalho de valor-
+      posicional de dois dígitos — podemos DECOMPOR números
+      (primeiro pacote-irmão da Phase 1.3), IDENTIFICAR
+      suas dezenas e unidades (segundo pacote-irmão), e
+      agora COMPARÁ-los (este pacote). A mesma ideia
+      dezenas-primeiro cresce: quando conhecermos números
+      de TRÊS DÍGITOS (2º ano), olharemos CENTENAS
+      primeiro, depois dezenas, depois unidades — mesma
+      estrutura de valor-posicional, mais dígitos. A seguir
+      conheceremos números maiores + trabalho de medida."
+
+assessmentCriteria:
+  pt: |
+    Ao final da unidade de 1 semana:
+      - Comparar pares de números de 2 dígitos corretamente
+        em 8 de 10 tentativas.
+      - Aplicar o algoritmo dezenas-primeiro (compare os
+        dígitos das dezenas primeiro; só compare as unidades
+        se as dezenas forem iguais) em 7 de 10 tentativas.
+      - Usar vocabulário de comparação 'maior que' / 'menor
+        que' / 'igual a' (ou sinônimos apropriados-culturais
+        como 'maior / menor / mesmo') em 7 de 10 tentativas
+        de linguagem produtiva.
+      - Escrever declarações de comparação usando símbolos
+        >, <, = corretamente em 6 de 10 tentativas.
+
+    Diferenciação:
+      - Pré-K (3-5 anos): pular comparação de 2 dígitos
+        inteiramente; construir primeiro a fundação de
+        comparação de 1 dígito.
+      - Educação infantil (5-7 anos): introduzir comparação
+        de 2 dígitos apenas com múltiplos de 10 (10, 20, 30,
+        ... 90) onde a comparação-de-dezenas é trivial;
+        faixa completa sem-mesmas-dezenas apenas.
+      - 1º ano: fluência completa de comparação de 2 dígitos;
+        ambos os casos praticados (diferentes-dezenas +
+        mesmas-dezenas com desempate por unidades); notação
+        de símbolos de comparação introduzida.
+      - 2º ano em diante: estender para comparação de 3
+        dígitos (centenas-primeiro depois dezenas depois
+        unidades); ponte para ordenar múltiplos números +
+        colocação na reta numérica.
+
+compositionalRationale:
+  pt: |
+    Fio principal: matemática / valor-posicional (comparar
+    números de dois dígitos — fecha sub-track canônico de
+    valor-posicional em 3/3 SAT; 22º fio saturado no nível
+    sub-track canônico da plataforma). Fio secundário:
+    numeracia (comparação de magnitude-de-número;
+    habilidade fundamental de ordenação). Fio terciário:
+    memória-de-trabalho + raciocínio-sequencial (a árvore
+    de decisão 'dezenas-primeiro e depois unidades-se-
+    iguais' é um procedimento de 2 passos que as crianças
+    mantêm em mente).
+
+    Significância arquitetural: fecha o sub-track canônico
+    math/place-value em 3/3 SAT. O cluster-irmão Phase 1.3
+    (decompose-tens-and-ones-within-19 + identify-tens-
+    and-ones-2-digit) estabeleceu a percepção de decomposição
+    de valor-posicional; este pacote USA essa decomposição
+    operacionalmente — comparação é a primeira habilidade
+    aplicada-em-valor-posicional que as crianças encontram.
+    Após este pacote o trabalho canônico K-3 de valor-
+    posicional está estruturalmente completo.
+
+    Referência cruzada ao cluster-irmão Phase 1.3:
+    decompose-tens-and-ones-within-19 (a fundação K; números
+    de 10 a 19 como 10+n) + identify-tens-and-ones-2-digit
+    (a extensão Grade 1; números de 2 dígitos como N
+    dezenas + M unidades) + este pacote (a aplicação Grade
+    1; comparação usando valor-posicional) formam a
+    sequência completa de introdução de valor-posicional
+    K → 1º ano. Os três pacotes compartilham tema (animals),
+    compartilham infraestrutura de materiais, e fazem
+    referência cruzada uns aos outros no compositionalRationale.
+
+    Especificidade pt-BR: comparação de valor-posicional é
+    conceito universal + traduzível 1:1 do en. Vocabulário
+    pt-BR canônico:
+    - **"maior que"** / **"menor que"** / **"igual a"** —
+      formas BNCC canônicas K-3 para comparação ordenada;
+      cognatas estruturalmente com en 'greater than / less
+      than / equal to'.
+    - **"maior"** / **"menor"** / **"mesmo"** / **"mesma
+      quantidade"** — variantes K-3 coloquiais; mais
+      acessíveis para iniciantes.
+    - **"mais"** / **"menos"** — usados como sinônimos
+      coloquiais ("47 tem mais dezenas que 43"); ancorados
+      em vocabulário K-3 de adição-subtração.
+    - **"dezenas primeiro"** — slogan operacional para o
+      algoritmo K-3 da comparação.
+
+    Símbolos matemáticos (>, <, =) são internacionais e
+    locale-portáteis. A notação 'boca aberta para o número
+    maior' é universal-pedagógica e ancora a memorização
+    do símbolo > / <.
+
+    Currículo BNCC EF01MA02 (1º ano) + EF02MA03 (2º ano):
+    contar, ler, escrever e ordenar números; comparar
+    números naturais; estabelecer relações de ordem usando
+    representações na reta numérica.
+
+    Substrato Class B FLEXIBLE: composta contra tema
+    animals (pair-coherent com cluster-irmão Phase 1.3 +
+    Arc 16 + Phase 1.2 cluster adição-subtração).
+
+    Nota sobre place-value-mat: a esteira de valor-
+    posicional é diferida para Pillar 5 per Arc 17 Phase
+    0 §8 (C); ver racional do cluster-irmão Phase 1.3
+    para o padrão de substituição. Matching-mat ocupa
+    posição 3 com pedagogicalRole 'place-value-comparison-
+    game'; manipulative-cut-outs em modo base-dez
+    (posição 5, itemCount 100 para a faixa completa de 2
+    dígitos) fornece as barras-de-dez + unidades concretas
+    para a encenação de comparação dezenas-primeiro.

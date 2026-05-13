@@ -1,0 +1,321 @@
+# Teaching package — compose shapes from smaller shapes
+# Arc 17 Phase 1.3 (geometry 5/8 → 6/8). Builds on Arc 9 identify-2d-shapes-basic + Arc 14 describe-shape-attributes; extends geometry strand from shape-recognition + attribute-analysis into spatial-composition work.
+
+targetSlug: compose-shapes-from-parts
+language: en
+title:
+  en: "Compose Shapes from Parts — two triangles make a square"
+
+description:
+  en: "Grade 1 math + geometry package teaching kids to combine smaller 2D shape pieces into larger composite shapes. Two right triangles compose into a square; two squares compose into a rectangle; a square + a triangle composes into a pentagon (or a 'house' shape); six equilateral triangles compose into a hexagon. Builds on Arc 9 identify-2d-shapes-basic foundation; extends geometry strand from naming + attribute-analysis work to spatial-composition reasoning. Critical insight: shapes are not isolated objects — they have part-whole relationships, and many familiar shapes can be decomposed into simpler primitives OR composed from them. This is the K-3 anchor for later geometric reasoning (area calculation as sum of part areas; fraction-of-shape work as composition relationships). CCSS.1.G.A.2 primary anchor ('compose two-dimensional shapes... to create a composite shape, and compose new shapes from the composite shape'). 5 worksheet exercises + 7 printable materials over a 1-week unit. Manipulative-cut-outs in 2d-shape-pieces mode is the load-bearing material — kids physically slide pieces together to discover composition relationships."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook + composition introduction with paper
+      shape pieces. Teacher holds up two identical right
+      triangles. "Watch what happens when I put these two
+      triangles together." Teacher slides the triangles so
+      their longest sides meet — they form a square. "Two
+      triangles MAKE a square. A square is COMPOSED of two
+      triangles." Class chants: "Two triangles make a
+      square!" Teacher then composes a rectangle from two
+      squares ("Two squares make a rectangle"), a hexagon
+      from six equilateral triangles ("Six triangles make a
+      hexagon"), and a 'house' from a square + a triangle on
+      top ("A square plus a triangle makes a house shape").
+      Reverse demonstration: teacher takes the house and
+      separates it back into square + triangle. "And we can
+      take a composite shape APART back into its pieces.
+      Compose: put together. Decompose: take apart. Both
+      directions work."
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + free composition with paper shape pieces.
+      Each pair receives a bag of cut-out 2D shape pieces
+      (triangles in three sizes — small equilateral, small
+      right, large right; squares in two sizes; rectangles;
+      half-circles; small parallelograms). Pair plays the
+      composition challenge: teacher names a target shape
+      (e.g., 'house', 'flower', 'fish', 'rocket', 'castle')
+      and kids compose it from their available pieces. After
+      each composition, kids draw it on paper + label the
+      primitives used. Recast errors by demonstrating the
+      composition: 'A boat needs a long rectangle for the
+      bottom + a triangle for the sail — try that.' Free
+      time at end: kids invent their own composite shapes
+      and challenge their partner to recreate them. The
+      cut-out manipulatives are load-bearing — kids need
+      hands-on time sliding pieces around to internalize the
+      part-whole relationships.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching activity — match
+      each composite shape (house, fish, rocket) to the set
+      of primitives that compose it (square+triangle,
+      half-circle+triangle+rectangle, rectangle+triangle).
+      Station 2: missing-pieces activity — kids see a partial
+      composite shape with one primitive piece missing; their
+      job is to identify which piece (from a small palette
+      of options) completes the shape. Station 3: picture-
+      sort activity — sort shapes into 'made of triangles',
+      'made of squares', 'made of mixed shapes' categories.
+      Station 4: grid-match activity — fit shape pieces into
+      a grid layout to form a target composite. The grid-
+      match station works on spatial fit alongside
+      composition.
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class composition quick-recall. Teacher shows
+      composite shapes on the board; class chorally names
+      the primitive composition. "Square + triangle on top
+      — house shape! Two triangles meeting — square! Six
+      triangles around a point — hexagon!" Teacher then
+      asks the reverse: "How can we make a rectangle?"
+      (Two squares; OR one square + half a square; OR four
+      smaller rectangles.) Multiple-answer recognition is
+      important — most composite shapes have several valid
+      decompositions. Forward-pointer: "Today we composed
+      shapes from smaller shapes. Composing and decomposing
+      shapes is what kids do when they build with blocks,
+      do tangram puzzles, fold paper, and draw pictures.
+      Next time in geometry, we'll meet PARTITIONING SHAPES
+      INTO EQUAL PARTS (halves and quarters) and SYMMETRY
+      (lines that split a shape into matching mirror
+      halves)."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: shapes, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: missing-pieces
+    exerciseMode: unified
+    customizationParameters: { themeSelect: shapes, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: grid-match
+    exerciseMode: unified
+    customizationParameters: { themeSelect: shapes, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: picture-sort
+    exerciseMode: unified
+    customizationParameters: { themeSelect: shapes, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: shapes, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      cardCount: 18
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      cardCount: 18
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      pairCount: 10
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      stripCount: 10
+      stripsPerPage: 5
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      mode: single-repeat
+      itemCount: 60
+      itemSize: medium-1.5in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: shapes
+      pictureCueCount: 6
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: math / geometry (compose 2D shapes from
+    smaller shapes — extends strand 5/8 → 6/8 via spatial-
+    composition work). Secondary strand: spatial-reasoning
+    (kids manipulate pieces in space + reason about part-
+    whole relationships). Tertiary strand: vocabulary-
+    acquisition (composition vocabulary: compose, decompose,
+    part, whole, primitive, composite).
+
+    Architectural significance: extends geometry strand from
+    shape-recognition + attribute-analysis (Arc 9 identify-
+    2d-shapes-basic + Arc 9 identify-2d-shapes-extended +
+    Arc 14 describe-shape-attributes) into spatial-
+    composition reasoning. First package to surface the part-
+    whole structure of shapes — kids learn that familiar
+    composite shapes (house, fish, rocket) decompose into
+    primitive shapes (triangle, square, rectangle), and
+    primitives compose into composites. This is the K-3
+    anchor for later geometric reasoning: area calculation
+    treats a complex shape as a sum of simpler areas;
+    fraction-of-shape work (Arc 17+ candidate partition-
+    shape-halves-quarters) is composition with the
+    constraint of equal parts.
+
+    Distinctive composition: 2 matching (intro + assessment,
+    bookending the primitive-to-composite pairing work) + 1
+    missing-pieces (the canonical app for composition gap-
+    filling work — kids see a composite with one primitive
+    missing and identify the missing piece) + 1 grid-match
+    (spatial-fit work, drag pieces into a grid layout) + 1
+    picture-sort (sorting shapes by composition category).
+    Missing-pieces at position 2 is load-bearing: the app's
+    shape-masked placed pieces + 1-to-N options-with-
+    distractors palette is purpose-built for composition
+    work where kids must identify which primitive completes
+    a partial composite.
+
+    Class B FLEXIBLE substrate: composes against shapes
+    theme (geometry strand canonical theme — used by
+    identify-2d-shapes-basic + identify-3d-shapes + identify-
+    3d-shape-properties + describe-shape-attributes; cross-
+    arc consistency).
+
+    K-3 multilingual classroom relevance: shape-composition
+    is universal K-3 geometry content. The composition
+    relationships (two triangles → square; six triangles →
+    hexagon) are locale-portable — the geometry is the same
+    in every locale. Shape-name vocabulary is cognate-rich
+    in Romance (triangle / triángulo / triângulo / triangolo;
+    square / cuadrado / quadrado / quadrato) but distinct in
+    Germanic (Dreieck = three-corner = triangle; Quadrat =
+    square; Sechseck = six-corner = hexagon — German shape
+    names are descriptive compounds that already encode
+    composition structure). Composition vocabulary (compose,
+    decompose, part, whole, primitive, composite) is more
+    varied: en 'compose'; de 'zusammensetzen' (compound:
+    together-set); es 'componer'; pt 'compor'; fr 'composer';
+    fi 'koota' (to assemble). The hands-on cut-out work
+    bypasses much of the vocabulary load — kids can do the
+    composition manipulation regardless of which vocabulary
+    is being introduced. Locale-variant work at Phase 3+
+    adapts to each locale's shape + composition register.
+
+curriculumStandards:
+  - CCSS.1.G.A.2
+  - CCSS.K.G.B.6
+  - CCSS.2.G.A.1
+  - EYFS.ELG.M
+  - EYFS.ELG.UW
+  - IB-PYP.HowTheWorldWorks
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Compose a target composite shape from a given set of
+        primitive pieces in 7 of 10 trials.
+      - Decompose a composite shape into named primitive
+        parts in 6 of 10 trials.
+      - Identify the missing primitive in a partial composite
+        shape in 7 of 10 trials.
+      - Articulate the composition aloud ('a house is a
+        square plus a triangle on top') in 5 of 10
+        productive-language trials.
+      - Recognize that most composite shapes have multiple
+        valid decompositions (e.g., a rectangle = two squares
+        OR four smaller rectangles OR two triangles cut
+        diagonally) in 4 of 6 trials.
+
+    Differentiation:
+    - Pre-K: build primitive shape recognition first; the
+      composition work can be introduced informally via free
+      play with shape pieces (no naming requirement).
+    - K: introduce composition with only two-piece composites
+      (two triangles into a square; two squares into a
+      rectangle); larger composites (six-triangle hexagon,
+      multi-piece rocket) deferred.
+    - Grade 1: full composition fluency across the primitive
+      set; multiple valid decompositions recognized; both
+      compose and decompose directions practiced.
+    - Grade 2+: extend to 3D shape composition (cubes from
+      smaller cubes; rectangular prisms from cubes); bridge
+      to area calculation (compose-then-count grid squares)
+      + fraction-of-shape work (partition-shape-halves-
+      quarters is the next geometry package).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

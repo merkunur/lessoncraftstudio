@@ -1,0 +1,355 @@
+# Teaching package — form uppercase letters
+# Arc 17 Phase 1.5 (fine-motor-and-visual-spatial / handwriting strand-OPENER — EMPTY → 1/3). First handwriting strand package in the catalog. Builds on Arc 10 Phase 1 identify-uppercase-letters (the letter-recognition prerequisite).
+
+targetSlug: form-uppercase-letters
+language: en
+title:
+  en: "Form Uppercase Letters — trace and write the 26 capitals"
+
+description:
+  en: "Kindergarten / Grade 1 fine-motor + handwriting package teaching kids to FORM the 26 uppercase letters via tracing + independent writing. Builds on Arc 10 Phase 1 identify-uppercase-letters (the letter-recognition prerequisite — kids must recognize a letter before they can form it). FIRST package in the fine-motor-and-visual-spatial / handwriting strand (currently 0/3 EMPTY); Phase 1.5 opens the strand to 1/3. Kids start with letter-tracing on dotted-line templates (the canonical vocabulary-tracing-strips material with `traceStyle: dotted` + `includeIndependentLine: true`) and progress to independent letter formation alongside the dotted-trace prompt. Per §A.13.30 K-foundational-informal framing: K-1 handwriting work is BASIC LETTER-FORMATION ROUTINE — kids learn to make a letter shape recognizably, NOT formal stroke-order memorization or precise calligraphy. The stroke order may vary by teacher / curriculum; the recognizability of the letter form is the load-bearing K-1 fluency target. CCSS.L.K.1a primary anchor ('Print many upper- and lowercase letters'). 5 worksheet exercises + 8 printable materials over a 1-week unit. Load-bearing material: vocabulary-tracing-strips (the literal handwriting-pedagogy substrate) + manipulative-cut-outs letter shapes (kinesthetic letter-formation support)."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class letter-formation introduction. Teacher
+      displays a large uppercase A on the board. "We know
+      what an A looks like — yesterday we recognized it
+      among the other letters. Today we LEARN TO MAKE A.
+      Watch — two slanted lines coming together at the
+      top, one horizontal line across the middle." Teacher
+      traces the A in the air with one finger; class
+      mirrors. Teacher then forms A on the board with
+      dotted-line guides showing the strokes. Class chants
+      the formation: "Down-slant, down-slant, across!"
+      Teacher repeats with B (down-line, top-curve, bottom-
+      curve) and O (one big circle). Pattern emphasis:
+      "Every letter has a SHAPE we can recognize + a way
+      to MAKE it. Today we learn to make the letters we
+      already know."
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + tracing-then-independent routine. Each
+      pair receives vocabulary-tracing-strips with target
+      letters in dotted form alongside an independent-
+      writing line. Pair takes turns: kid A traces a letter
+      on the dotted form; kid B watches + names the letter.
+      Then kid A attempts the letter independently on the
+      blank line; kid B compares the independent attempt
+      to the dotted form. Recast errors with finger-guide
+      ("you made the A with three lines crossing — let me
+      show you again: two slanted lines coming together,
+      ONE horizontal across"). The dotted-to-independent
+      progression is the load-bearing fine-motor work; the
+      teacher's role is to model the formation initially +
+      step back as kids gain independence. Letter-shape
+      manipulative-cut-outs are available as a kinesthetic
+      support — kids can pick up a 3D letter cut-out + feel
+      the shape with their hands while writing.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching activity (kids
+      match each uppercase letter to its vocabulary anchor
+      image — letter-recognition refresh that re-anchors
+      the form they're learning to make). Station 2: chart-
+      count alphabet sequence (counting through A-Z
+      reinforces the letter inventory while the formation
+      work continues). Station 3: math-puzzle (letter-form
+      fill-in — given a partial letter outline, kid
+      completes the missing strokes). Station 4: missing-
+      pieces (similar gap-completion at the letter-form
+      level).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class letter-formation quick-recall. Teacher
+      names a letter; class makes the letter in the air
+      with one finger + says the formation aloud. "Make
+      M! — down, up-slant, down-slant, up!" "Make C! — One
+      big curve!" "Make T! — Across, then down!" Forward-
+      pointer: "Today we opened our HANDWRITING work —
+      forming the uppercase letters we already recognize.
+      Next we'll learn LOWERCASE letter forms (a, b, c, ...)
+      and number formation (0, 1, 2, ..., 9). The motor
+      routine you learned today — tracing on dotted form,
+      then writing independently — works for every letter
+      and every number going forward."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: chart-count
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: math-puzzle
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en, difficulty: easy }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: missing-pieces
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 26
+      cardsPerPage: 8
+      colorMode: color
+      labelDisplay: singular
+      labelCase: UPPERCASE
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 26
+      cardsPerPage: 8
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 12
+      rightColumnContent: word
+      colorMode: color
+      labelCase: UPPERCASE
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: i-see-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 10
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      stripCount: 12
+      stripsPerPage: 4
+      labelCase: UPPERCASE
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 5
+    pedagogicalRole: handwriting-formation
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 26
+      itemSize: medium-1.5in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 6
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 7
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 8
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: fine-motor-and-visual-spatial /
+    handwriting (form uppercase letters — STRAND-OPENER
+    EMPTY → 1/3; first handwriting strand package in the
+    catalog). Secondary strand: early-literacy / letter-
+    recognition (the formation work reinforces letter-shape
+    recognition kids established at identify-uppercase-
+    letters prerequisite). Tertiary strand: fine-motor-
+    control (the actual pencil-grip + stroke-control work
+    that handwriting requires).
+
+    Architectural significance: opens the fine-motor-and-
+    visual-spatial / handwriting strand. This is a FIRST-
+    in-strand package — handwriting work was not previously
+    represented in the catalog. Phase 1.5 opens the strand
+    with the foundation skill (uppercase letter formation);
+    Arc 18+ continues with form-lowercase-letters + form-
+    numerals-0-to-10 to bring the strand to full 3/3 SAT.
+    Per learning-targets.json prerequisite chain: form-
+    uppercase-letters → form-lowercase-letters (which also
+    requires identify-lowercase-letters); form-numerals-0-
+    to-10 is the parallel numeracy-handwriting target.
+
+    Cross-reference to Arc 10 Phase 1 identify-uppercase-
+    letters (the prerequisite): that package established
+    letter-shape RECOGNITION (kids can name letters when
+    shown them); this package establishes letter-shape
+    FORMATION (kids can produce letters with a pencil).
+    The recognition-before-formation sequence is canonical
+    early-literacy pedagogy — kids cannot reliably form a
+    letter whose shape they don't recognize.
+
+    Per §A.13.30 K-foundational-informal framing: K-1
+    handwriting is RECOGNIZABLE LETTER FORMATION, not
+    formal stroke-order memorization or precise
+    calligraphy. The vocabulary-tracing-strips material's
+    dotted-line templates guide kids through canonical
+    letter forms; the independent-writing line lets kids
+    attempt formation without scaffolding. Both teacher
+    and parent can use whichever stroke-order pedagogy
+    their curriculum prefers — this package teaches the
+    OUTCOME (recognizable letter shapes) without
+    prescribing one PROCESS. K-1 kids physically struggle
+    with precise calligraphy; the goal at this age is the
+    motor-routine fluency.
+
+    Distinctive composition: 1 matching (intro — letter-
+    recognition anchor) + 1 chart-count (alphabet
+    sequence work) + 1 math-puzzle (letter-form fill-in)
+    + 1 matching (letter-mode at consolidation) + 1
+    missing-pieces (assessment — complete the partial
+    letter form). The math-puzzle + missing-pieces work
+    at positions 3 + 5 surfaces the letter-form
+    completion skill — kids see a partial letter outline
+    + complete the missing strokes, which mirrors the
+    independent-writing work at the contentActivity step.
+
+    Materials note: 8-material literacy class stack per
+    Phase 1.5 commission spec. Adds sentence-strips
+    (position 4; framePreset 'i-see-a' for letter-in-
+    context anchoring — kids see "I see a [letter-word]"
+    sentences that contextualize the uppercase letter
+    formation work) on top of the canonical 7-material
+    literacy-tracing stack (precedent: identify-uppercase-
+    letters at Arc 10 Phase 1). Vocabulary-tracing-strips
+    at position 5 with pedagogicalRole 'handwriting-
+    formation' is the load-bearing material — the dotted-
+    template + independent-line shape is the literal
+    handwriting-pedagogy substrate.
+
+    Class B FLEXIBLE substrate: composes against animals
+    theme (literacy-class precedent per identify-uppercase-
+    letters + identify-letter-sounds-vowels; vocab-
+    anchored animal-names per letter — A-Antelope, B-Bear,
+    C-Cat, etc. — provide the familiar vocabulary anchor).
+
+    K-3 multilingual classroom relevance: letter formation
+    is target-language-specific. en alphabet has 26
+    uppercase letters; cross-locale letter inventories
+    vary: de has 30 (adds ÄÖÜß); es has 27 (adds Ñ);
+    fr/it/pt have 26 (with diacritical marks on some
+    letters); fi has 29 (adds ÅÄÖ); sv has 29 (adds ÅÄÖ);
+    da/no have 29 (adds ÆØÅ); nl has 26 (with IJ as
+    digraph). The motor-routine for letter formation is
+    locale-portable; the LETTER INVENTORY varies. Locale-
+    variant work at Phase 3+ adapts to each locale's
+    extended letter set + diacritical-mark handling
+    (German Umlauts ÄÖÜ require dotted-line templates
+    above the base letter; Nordic ÅÄÖ similarly; Spanish
+    Ñ requires tilde-over-N work). For the first
+    locale-variant pass per Arc 17 cadence, pt uses the
+    standard 26-letter inventory (Brazilian Portuguese
+    does not include accent-bearing letters as separate
+    alphabet entries; accents are applied to vowels at
+    spelling-not-formation time).
+
+curriculumStandards:
+  - CCSS.L.K.1a
+  - CCSS.K.RF.1
+  - EYFS.ELG.LIT.W
+  - EYFS.ELG.PD.FM
+  - IB-PYP.HowWeExpressOurselves
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Trace 20 of 26 uppercase letters recognizably on
+        the dotted-line template in 8 of 10 trials.
+      - Independently form 15 of 26 uppercase letters
+        recognizably (not perfectly — recognizably) in 7
+        of 10 trials.
+      - Use vocabulary 'trace' / 'write' / 'letter' /
+        'shape' correctly in 6 of 10 productive-language
+        trials.
+      - Pencil-grip + paper-position stable for 5+
+        minutes of continuous handwriting work in 4 of 5
+        sessions.
+
+    Differentiation:
+    - Pre-K: skip independent formation; tracing-only
+      work on 8-10 most-frequent letters (vowels +
+      AEIOU + common consonants BCDMNST). Pencil-grip
+      development is the primary motor goal.
+    - K: full 26-letter tracing fluency; independent
+      formation on the most-frequent 13 letters
+      (AEIOUBCDMNSTR — the most commonly-used uppercase
+      in K texts).
+    - Grade 1: full 26-letter independent formation
+      fluency; recognizability the load-bearing goal
+      (not calligraphic perfection).
+    - Grade 2+: brief reinforcement + bridge to form-
+      lowercase-letters (Arc 18+ candidate) + form-
+      numerals-0-to-10. By Grade 2 most kids transition
+      to print-write fluency and the dotted-template
+      scaffolding falls away.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

@@ -1,0 +1,207 @@
+# Teaching package — famílias de fatos até 10 (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT per Arc 7 Phase 3 + Arc 3 Phase 1 sparse-override pattern.
+# Arc 17 Phase 1.3 pt-cadence continuation (16th consecutive arc).
+# pt sparse-override for math / addition-subtraction strand. Conteúdo matemático
+# universal — tradução direta sem reestruturação pedagógica. BR-MEC ensino
+# fundamental anos iniciais register per CLAUDE.md §6 + formal "você" address per §17.9.
+
+title:
+  pt: "Famílias de Fatos até 10 — quatro fatos, três números, uma família"
+
+description:
+  pt: "Pacote de matemática para 1º ano que ensina as crianças que três números como {3, 5, 8} formam uma 'família de fatos' — quatro fatos relacionados de adição + subtração que compartilham os mesmos três números: 3+5=8, 5+3=8, 8-3=5, 8-5=3. Constrói sobre a fluência Arc 4 add-within-5 + Arc 11 add-within-10 + Arc 14 subtract-within-10; a relação de quatro fatos torna adição + subtração visíveis como operações inversas (saber que 3+5=8 significa que você já sabe que 8-3=5). Fecha o fio math/addition-subtraction 13/14 → 14/14 SAT (21º fio saturado). Pair-coherent com Phase 1.2 make-10-strategy + find-missing-addend-within-10: esses três pacotes juntos formam o cluster de âncora-de-fio de fluência em adição — fazer-dez constrói recuperação-de-par, encontrar-adendo-faltante o estende para qualquer desconhecido de um dígito, famílias-de-fatos integram ambas as operações na relação completa de operação-inversa. Sequência concreto-pictórico-abstrato: as crianças começam com triplas de contadores físicos, passam para triângulos-família-de-fatos (uma visualização onde a soma fica no topo e os adendos embaixo), e finalmente articulam todos os quatro fatos de uma família de memória. Âncora primária CCSS.1.OA.B.4 ('entender subtração como problema de adendo desconhecido'); cruzamento CCSS.1.OA.B.3 (comutatividade); CCSS.1.OA.C.6 (fluência até 10); CCSS.2.OA.B.2 (somas + diferenças mentais). 5 exercícios + 7 materiais imprimíveis em uma unidade de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Iniciador com toda a turma + introdução de família de
+      fatos com três números. A professora ou o professor
+      coloca 3 contadores vermelhos e 5 contadores azuis no
+      tapete. "Três vermelhos mais cinco azuis é oito." Escreve:
+      3 + 5 = 8. Depois inverte a ordem: "E cinco azuis mais
+      três vermelhos também é oito." Escreve: 5 + 3 = 8. "Agora
+      se COMEÇARMOS com oito e TIRARMOS três vermelhos, ficamos
+      com cinco azuis." Escreve: 8 - 3 = 5. "E se TIRARMOS
+      cinco azuis, ficamos com três vermelhos." Escreve: 8 -
+      5 = 3. "Olhem — mesmos três números, quatro fatos. Isto
+      é uma FAMÍLIA de fatos." A professora ou o professor
+      desenha um triângulo-família-de-fatos no quadro — 8 no
+      topo, 3 e 5 nos cantos de baixo — e mostra como todos
+      os quatro fatos vêm dos mesmos três números. Repete com
+      {2, 7, 9} (2+7=9, 7+2=9, 9-2=7, 9-7=2) e com o caso
+      especial de "dobro" {4, 4, 8} (4+4=8, 8-4=4 — apenas
+      dois fatos porque os dois adendos são iguais).
+  contentActivity:
+    body: |
+      Trabalho em duplas + atividade com triângulos-família-
+      de-fatos. Cada dupla recebe uma pilha de modelos de
+      triângulo em papel e contadores com tema animals. Dupla
+      joga o jogo de construção-de-triângulo: a professora ou
+      o professor dá uma soma (e.g., 7) e um adendo (e.g., 4);
+      criança A coloca 4 contadores na mesa e conta para frente
+      com mais contadores até 7 no total — o adendo faltante
+      é 3. Criança B preenche o triângulo-família-de-fatos: 7
+      no topo, 4 e 3 embaixo. Juntas escrevem todas as quatro
+      equações ao redor do triângulo (4+3=7, 3+4=7, 7-4=3,
+      7-3=4) e dizem cada uma em voz alta. Dupla troca + repete
+      com nova tripla. Os contadores com tema animals mantêm
+      o trabalho ancorado em coisas reais e contáveis (3 leões
+      e 4 leões fazem 7 leões; tira 3 leões e ficam 4). A
+      professora ou o professor refraseia erros apontando para
+      o triângulo: "você escreveu 7 - 3 = 4. O triângulo tem
+      7 no topo, 4 e 3 embaixo. Sim — três de sete é quatro,
+      o outro canto!" A forma espacial do triângulo ancora a
+      relação de quatro fatos visualmente.
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: addition app modo find-
+      addend com operandos de um dígito; crianças completam
+      famílias de fatos encontrando o adendo faltante. Estação
+      2: math-puzzle modo missing-addend (o formato de pergunta
+      que faz surgir um fato de cada vez de uma família de
+      fatos). Estação 3: math-worksheet com problemas mistos
+      de adição + subtração até 10 — o app produz uma faixa
+      de problemas, e quem ensina circula apontando relações
+      de família-de-fatos quando um problema de adição e um
+      problema de subtração na mesma página compartilham os
+      mesmos três números ("olhem, 3 + 5 = 8 aqui, e 8 - 5 =
+      3 ali — mesma família"). Estação 4: atividade matching
+      — combine cada tripla de família-de-fatos (como {3, 5,
+      8}) às suas quatro equações dispostas como cartas. A
+      curadoria pela professora ou pelo professor entre estações
+      é load-bearing — os apps produzem problemas gerais até
+      10; a percepção de família-de-fatos vive em como quem
+      ensina enquadra as relações que as crianças notam.
+      Vocabulário pt-BR canônico para famílias-de-fatos:
+      família de fatos / família de números; tripla / trio;
+      operações inversas / fatos inversos; comutativa / ordem
+      dos parcelas; triângulo-família. Use "família de fatos"
+      como forma BNCC canônica K-3; "operações inversas" é o
+      termo técnico para a relação adição-subtração.
+  closure:
+    body: |
+      Recuperação rápida de família-de-fatos com toda a turma.
+      A professora ou o professor nomeia uma soma e um adendo;
+      a turma produz coletivamente todos os quatro fatos.
+      "Soma 9, adendo 4? — Quatro mais cinco é nove. Cinco
+      mais quatro é nove. Nove menos quatro é cinco. Nove
+      menos cinco é quatro." Depois "Soma 8, adendo 6? — Seis
+      mais dois é oito. Dois mais seis é oito. Oito menos seis
+      é dois. Oito menos dois é seis." Indicador adiante:
+      "Hoje fechamos nossa fluência em adição-e-subtração até
+      10 — a ÚLTIMA peça do mundo de fatos até 10. Podemos
+      alcançar qualquer um desses quatro fatos em uma família
+      sem contar. Quando voltarmos, estenderemos famílias de
+      fatos para números maiores — famílias de fatos até 20 —
+      e usaremos a mesma forma de triângulo para organizá-las.
+      A ESTRATÉGIA FAZER-DEZ de antes ajuda aqui: cada par
+      fazer-dez {3, 7}, {4, 6}, {1, 9} também é uma família
+      de fatos com soma 10."
+
+assessmentCriteria:
+  pt: |
+    Ao final da unidade de 1 semana:
+      - Dados três números que formam uma família de fatos
+        (e.g., 3, 5, 8), produzir todas as quatro equações
+        corretamente em 7 de 10 tentativas.
+      - Identificar quando três números formam uma família
+        de fatos versus quando não formam (e.g., {2, 3, 6}
+        não forma — 2+3≠6) em 6 de 8 tentativas.
+      - Usar a visualização triângulo-família-de-fatos para
+        recordar um fato faltante quando mostrados três
+        lados da família em 6 de 10 tentativas.
+      - Reconhecer o caso especial de família-de-dobros (onde
+        existem apenas duas equações porque os dois adendos
+        são iguais: 4+4=8, 8-4=4) em 4 de 5 tentativas.
+
+    Diferenciação:
+      - Pré-K (3-5 anos): pular a produção de quatro equações;
+        construir recuperação de fato-de-adição até 5 com
+        manipulativos.
+      - Educação infantil (5-7 anos): introduzir famílias de
+        fatos até 5 primeiro ({1, 2, 3}, {2, 3, 5}); visualização
+        triângulo-família-de-fatos fortemente apoiada; apenas
+        equações de adição esperadas, com subtração adicionada
+        quando a adição for fluente.
+      - 1º ano: fluência completa de famílias de fatos até 10;
+        todas as quatro equações esperadas; visualização do
+        triângulo permanece disponível mas as crianças cada
+        vez mais recordam sem ela.
+      - 2º ano em diante: estender para famílias de fatos até
+        20 (candidato Arc 17 P1.4+), depois famílias de fatos
+        até 100 + a extensão multiplicação/divisão de família-
+        de-fatos (candidato 3º ano+). A percepção de operação-
+        inversa que as crianças encontram aqui se torna o
+        padrão multiplicação-divisão de família-de-fatos mais
+        tarde (3 × 4 = 12, 12 ÷ 3 = 4, etc.).
+
+compositionalRationale:
+  pt: |
+    Fio principal: matemática / adição-subtração (famílias de
+    fatos até 10 — fecha fio 13/14 → 14/14 SAT; 21º fio
+    saturado no catálogo). Fio secundário: precursor de
+    pensamento-algébrico (a relação de operação-inversa
+    entre adição e subtração é a percepção estrutural que
+    fundamenta a manipulação posterior de equações; famílias
+    de fatos tornam a relação discreta + memorável). Fio
+    terciário: memória-de-trabalho + recordação (crianças
+    mantêm três números em mente e produzem quatro equações
+    a partir deles; esta operação de fluência é a âncora K-1
+    para aritmética mental).
+
+    Significância arquitetural: fecha matemática/adição-
+    subtração no canônico 14/14 SAT — o 21º fio saturado no
+    catálogo. Este é o pacote que fecha o SAT do fio que
+    ancorou a maior parte do trabalho de numeracia desde Arc
+    1 (add-within-5). Pair-coherent com Phase 1.2 make-10-
+    strategy + find-missing-addend-within-10: esses três
+    pacotes juntos formam o cluster de âncora-de-fio de
+    fluência em adição — fazer-dez constrói recuperação-de-
+    par, encontrar-adendo-faltante o estende para qualquer
+    desconhecido de um dígito, famílias-de-fatos integram as
+    duas operações na relação completa de operação-inversa.
+    Após este pacote, o fio adição-subtração não tem lacunas
+    canônicas restantes dentro do escopo K-3 (variantes de
+    reagrupamento/empréstimo vivem em Arc 16 add-within-100
+    / subtract-within-100 + Phase 1.2 add-2-digit-without-
+    regrouping + subtract-2-digit-without-regrouping;
+    trabalho de operação mista em Arc 15 Phase 2 add-and-
+    subtract-mixed-within-20).
+
+    Especificidade pt-BR: famílias-de-fatos é conceito
+    universal + traduzível 1:1 do en. Vocabulário pt-BR
+    canônico:
+    - **"família de fatos"** — forma BNCC canônica K-3 (a
+      tradução literal de 'fact family'); também aparece
+      como **"família de números"** em alguns materiais
+      didáticos brasileiros.
+    - **"operações inversas"** — termo técnico para a
+      relação adição-subtração; acessível K-3 quando
+      introduzido com o contexto da família.
+    - **"tripla"** / **"trio"** — termos K-3 para o
+      conjunto de três números que compõem a família.
+    - **"comutativa"** / **"propriedade comutativa"** —
+      termo formal BNCC para o padrão a+b=b+a; em sala de
+      aula K-3 mais comum dizer "ordem dos parcelas não
+      muda o resultado" do que usar o termo formal.
+    - **"triângulo-família-de-fatos"** — a visualização
+      tradutível 1:1 do en; o triângulo serve como ancoragem
+      espacial da relação de quatro fatos.
+
+    Sistema de palavras-número pt-BR para 1-10: completamente
+    regular e cognato com 'fato' (fato matemático). As
+    crianças brasileiras dizem 'oito menos três é cinco' com
+    a mesma estrutura linguística do en ('eight minus three
+    is five'), tornando o trabalho de quatro-fatos locale-
+    portátil em termos estruturais.
+
+    Currículo BNCC EF01MA06 (1º ano) + EF01MA08 (1º ano) +
+    EF02MA05 (2º ano): construção de fatos básicos da adição
+    + subtração; reconhecimento de operações inversas;
+    propriedade comutativa.
+
+    Substrato Class B FLEXIBLE: composta contra tema animals
+    (precedente do fio adição-subtração Arc 4-16; contável
+    para o trabalho de quatro-fatos; consistência cross-arc
+    com o cluster).

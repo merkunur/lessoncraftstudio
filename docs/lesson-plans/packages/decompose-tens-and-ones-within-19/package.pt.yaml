@@ -1,0 +1,208 @@
+# Teaching package — decompor números de 11 a 19 (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT per Arc 7 Phase 3 + Arc 3 Phase 1 sparse-override pattern.
+# Arc 17 Phase 1.3 pt-cadence continuation (16th consecutive arc).
+# pt sparse-override for math / place-value strand. Conteúdo matemático
+# universal — tradução direta sem reestruturação pedagógica. BR-MEC ensino
+# fundamental anos iniciais register per CLAUDE.md §6 + formal "você" address per §17.9.
+
+title:
+  pt: "Decompor Números de 11 a 19 — quatorze é uma dezena e quatro unidades"
+
+description:
+  pt: "Pacote de matemática para a Educação Infantil que ensina as crianças que os números 'adolescentes' de 10 a 19 cada um se decompõe como 'uma dezena e algumas unidades'. 14 = 10 + 4; 17 = 10 + 7; 10 = 10 + 0; 19 = 10 + 9. Percepção K-fundamental de valor posicional — números de 11-19 visual + estruturalmente são 'dez e mais um pouco', e esta decomposição é o andaime conceitual para todo o trabalho posterior de valor posicional multi-dígito. Constrói sobre Arc 7-12 count-objects-1-to-20 como base de numeracia; especificamente nomeado como pré-requisito para o trabalho add-2-digit-without-regrouping shipped em Phase 1.2 (a rotina de adição-em-colunas assume que as crianças saibam o que significa dezenas-e-unidades). Percepção crítica: em português, as palavras-número 11-15 ('onze', 'doze', 'treze', 'catorze', 'quinze') escondem parcialmente a estrutura, mas 'dezesseis', 'dezessete', 'dezoito', 'dezenove' (16-19) expõem a estrutura claramente (dez+seis, dez+sete, etc.); o português brasileiro torna o trabalho place-value mais legível do que em inglês ou alemão. Fundação para o pacote irmão identify-tens-and-ones-2-digit, que estende a mesma ideia de decomposição para a faixa 20-99. Âncora primária CCSS.K.NBT.A.1 ('compor e decompor números de 11 a 19 em uma dezena e algumas unidades'). 5 exercícios + 7 materiais imprimíveis em uma unidade de 1 semana. Material place-value-mat (a superfície canônica de encenação de valor posicional) diferido para Pillar 5 per Arc 17 Phase 0 §8 (C); matching-mat + manipulative-cut-outs em modo base-dez carregam o papel de encenação de valor posicional neste pacote."
+
+structure:
+  warmup:
+    body: |
+      Iniciador com toda a turma + introdução de decomposição
+      de números de 11 a 19. A professora ou o professor coloca
+      14 contadores avulsos no tapete. "Quatorze contadores.
+      Vejam o que acontece quando AGRUPAMOS em um pacote de
+      DEZ." Desliza 10 contadores juntos e enrola um elástico
+      ao redor. "Agora temos um PACOTE de dez — essa é nossa
+      dezena — e quatro contadores SOLTOS sentados separados.
+      Quatorze é UMA DEZENA e QUATRO UNIDADES." Escreve: 14 =
+      10 + 4. "Olhem o número 14 — veem o 1 da esquerda? Essa
+      é nossa dezena. Veem o 4 da direita? Essas são nossas
+      quatro unidades. O número diz a decomposição." Repete
+      com 17 (uma dezena + sete unidades), 19 (uma dezena +
+      nove unidades), 10 (uma dezena + zero unidades), 11 (uma
+      dezena + uma unidade — 'onze' esconde a estrutura, mas
+      os dígitos a mostram). Ênfase do padrão: "Todo número
+      de 11 a 19 é UMA DEZENA mais algumas unidades. O primeiro
+      dígito de um número de 10 a 19 é sempre 1 — essa é a
+      dezena. O segundo dígito diz quantas unidades."
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de decomposição com cut-outs
+      de animais. Cada dupla recebe uma pilha de recortes de
+      animais + elásticos ou clipes para agrupar. Dupla joga
+      o jogo de pacote-de-dez: a professora ou o professor
+      nomeia um número de 11 a 19 (e.g., 13); criança A conta
+      13 animais; criança B agrupa 10 deles juntos e aponta
+      para os 3 animais soltos — "Treze é uma dezena e três
+      unidades." Dupla escreve a decomposição: 13 = 10 + 3.
+      Dupla troca + repete com 16, 11, 18, 10, 15. Refraseie
+      erros com pista-de-pacote ("você agrupou 11 animais no
+      seu pacote — conte de novo, só colocamos DEZ em um
+      pacote"). Os cut-outs de animais fornecem a contabilidade
+      concreta; a ação de agrupar encena a decomposição de
+      valor-posicional fisicamente.
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: atividade matching —
+      combine cada numeral de 10 a 19 (10, 11, 12, ..., 19) à
+      sua carta de decomposição (10+0, 10+1, 10+2, ..., 10+9).
+      Estação 2: atividade chart-count reforçando a estrutura
+      do painel-de-dez (crianças contam animais em um layout
+      que visualmente mostra dez em uma fileira + restante em
+      uma segunda fileira). Estação 3: math-puzzle modo
+      decomposition (crianças preenchem a peça faltante: 14 =
+      10 + ?; 18 = 10 + ?; 11 = ? + 1). Estação 4: pattern-
+      train sequência (10, 11, 12, 13... mostrando que cada
+      passo adiciona uma unidade à mesma dezena — vagões do
+      trem carregam visualmente o incremento). Vocabulário pt-
+      BR canônico para decomposição-de-10-a-19: dezena /
+      dezenas; unidade / unidades; decompor / decomposição;
+      pacote de dez; valor posicional. Use "dezena" + "unidade"
+      como formas BNCC canônicas K-3; "pacote de dez" é a
+      forma operacional K-3 para o agrupamento físico.
+  closure:
+    body: |
+      Recuperação rápida de decomposição-de-10-a-19 com toda
+      a turma. A professora ou o professor mostra numerais;
+      a turma articula coletivamente a decomposição. "12? —
+      Uma dezena e duas unidades." "16? — Uma dezena e seis
+      unidades." "19? — Uma dezena e nove unidades." "10? —
+      Uma dezena e zero unidades." Indicador adiante: "Hoje
+      aprendemos que os números de 10 a 19 são UMA DEZENA
+      mais algumas unidades. Quando voltarmos, conheceremos
+      NÚMEROS DE DOIS DÍGITOS que têm DUAS ou mais dezenas —
+      vinte-e-cinco é DUAS dezenas e cinco unidades; quarenta-
+      e-sete é QUATRO dezenas e sete unidades. Mesma ideia,
+      mais dezenas. E esta ideia de decomposição é a fundação
+      para a adição-em-colunas que já aprendemos em SOMAR DOIS
+      DÍGITOS SEM REAGRUPAMENTO — colocamos as dezenas com as
+      dezenas e as unidades com as unidades."
+
+assessmentCriteria:
+  pt: |
+    Ao final da unidade de 1 semana:
+      - Decompor 8 de 10 números de 10 a 19 em representação
+        '10 + n' correta.
+      - Identificar o dígito das dezenas (sempre 1) e o dígito
+        das unidades em um numeral de 10 a 19 escrito em 8 de
+        10 tentativas.
+      - Construir um número de 10 a 19 com manipulativos
+        agrupados (uma dezena + n unidades) em 7 de 10
+        tentativas.
+      - Articular a decomposição em voz alta ('quatorze é uma
+        dezena e quatro unidades') em 5 de 10 tentativas de
+        linguagem produtiva.
+
+    Diferenciação:
+      - Pré-K (3-5 anos): pular a faixa 10-19 completa;
+        construir fluência de contagem com 1-10 primeiro; o
+        movimento de pacote-de-dez pode ser introduzido
+        informalmente com manipulativos concretos.
+      - Educação infantil (5-7 anos): trabalho completo de
+        decomposição-de-10-a-19; agrupamento de manipulativos
+        fortemente apoiado; a decomposição falada é o alvo
+        primário de fluência.
+      - 1º ano: reforço breve; a decomposição de 10-19 é
+        conhecimento pré-requisito para o trabalho irmão
+        identify-tens-and-ones-2-digit; alvo de fluência é
+        reconhecimento mental da estrutura de números de 10
+        a 19 sem manipulativos.
+      - 2º ano em diante: estender para números 20-99 via o
+        pacote irmão + ponte para valor posicional de 3
+        dígitos (alvo do 2º ano).
+
+compositionalRationale:
+  pt: |
+    Fio principal: matemática / valor-posicional (decompor
+    números de 11 a 19 como 10 + n — primeiro fill canônico
+    no fio de valor-posicional; 0/3 → 1/3 canônico). Fio
+    secundário: contagem-e-cardinalidade (reconhecimento de
+    números 11-19 + contagem-com-agrupamento). Fio terciário:
+    vocabulário de palavras-número (nomes de números 11-19 em
+    português brasileiro expõem a estrutura mais claramente
+    do que em inglês ou alemão, especialmente nos números
+    16-19; este pacote alavanca essa transparência linguística).
+
+    Significância arquitetural: abre o fio canônico
+    matemática/valor-posicional. Percepção K-fundamental de
+    valor posicional que fundamenta todo o trabalho multi-
+    dígito posterior. Especificamente nomeado como pré-
+    requisito para Phase 1.2 add-2-digit-without-regrouping +
+    subtract-2-digit-without-regrouping em learning-targets.json
+    (as rotinas de adição-em-colunas + subtração-em-colunas
+    assumem que as crianças saibam o que significa dezenas-e-
+    unidades; este pacote constrói essa compreensão fundacional
+    primeiro na faixa K). Par-irmão com identify-tens-and-ones-
+    2-digit (mesma fase do arco) — aquele pacote estende a
+    mesma ideia de decomposição do escopo de 10-19 para o
+    escopo completo de 2 dígitos (20-99); juntos formam a
+    sequência de introdução de valor-posicional K → 1º ano.
+
+    Especificidade pt-BR: decomposição-de-10-a-19 é conceito
+    universal + traduzível 1:1 do en, mas o português
+    brasileiro tem uma vantagem linguística específica que o
+    inglês NÃO tem: os números 16-19 em pt-BR expõem
+    explicitamente a estrutura de valor-posicional:
+    - **"dezesseis"** = "dez-e-seis" = 10 + 6
+    - **"dezessete"** = "dez-e-sete" = 10 + 7
+    - **"dezoito"** = "dez-e-oito" = 10 + 8
+    - **"dezenove"** = "dez-e-nove" = 10 + 9
+
+    Em inglês os números teen 13-19 escondem parcialmente
+    ('-teen' tem origem em 'ten' mas não é transparente para
+    crianças K). Em pt-BR a estrutura é audível — quando a
+    criança diz 'dezesseis' ela está literalmente dizendo
+    'dez-e-seis'. Esta transparência linguística torna o
+    trabalho de decomposição mais fácil em pt-BR do que em
+    en. Os números 11-15 ('onze, doze, treze, catorze, quinze')
+    ainda escondem a estrutura como em inglês — para esses, o
+    trabalho de decomposição precisa do andaime visual dos
+    manipulativos + da escrita do numeral.
+
+    Vocabulário pt-BR canônico:
+    - **"dezena"** / **"dezenas"** — forma BNCC canônica K-3
+      para 'tens'; cognata com 'dez'.
+    - **"unidade"** / **"unidades"** — forma BNCC canônica
+      K-3 para 'ones'; cognata com 'uma/uno' (a quantidade
+      mais básica).
+    - **"decompor"** (técnico) / **"separar"** (informal K-3)
+      — K-3 contexto natural usa ambos; "decompor" é a forma
+      BNCC.
+    - **"pacote de dez"** — forma operacional K-3 para o
+      agrupamento físico; também aparece como "grupo de
+      dez" ou "amarrado de dez".
+    - **"valor posicional"** — termo técnico para o conceito;
+      acessível K-3 quando introduzido com contexto.
+
+    Currículo BNCC EF01MA01 (1º ano) + EF01MA07 (1º ano) +
+    EF02MA01 (2º ano): reconhecer e expressar quantidades por
+    representação posicional; compor e decompor; sistema de
+    numeração decimal.
+
+    Substrato Class B FLEXIBLE: composta contra tema animals
+    (precedente do fio numeracia; consistência cross-arc com
+    pacote-irmão identify-tens-and-ones-2-digit que usa o
+    mesmo tema).
+
+    Nota sobre place-value-mat: a esteira de valor-posicional
+    é a superfície canônica de encenação (aparece na posição
+    3 em Arc 15 tens-and-ones-1-to-20 + Arc 16 add-within-100
+    / subtract-within-100). Per Arc 17 Phase 0 §8 (C) DEFER,
+    a autoria do gerador place-value-mat está em fila para
+    Pillar 5. Neste pacote matching-mat ocupa a posição 3
+    com pedagogicalRole 'place-value-decomposition-game'
+    (a superfície de matching emparelha numerais de 10-19
+    às suas cartas de decomposição). Manipulative-cut-outs em
+    modo base-dez (posição 5) fornece os manipulativos
+    concretos de barras-de-dez + unidades que a place-value-
+    mat estruturaria no espaço; neste pacote o trabalho de
+    agrupamento acontece com os cut-outs diretamente na mesa
+    em vez de na esteira.

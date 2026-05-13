@@ -1,0 +1,315 @@
+# Teaching package — share with peers and take turns
+# Arc 17 Phase 1.1 (world-knowledge / personal-social-emotional-development
+# strand SAT close: 7/8 → 8/8). Final canonical fill for the PSED strand.
+# Completes the Arc 16 SEL triad-pair (name-and-describe-feelings-detailed
+# builds emotion-vocabulary substrate; show-perspective-taking builds
+# awareness-of-others; share-and-take-turns is the BEHAVIORAL APPLICATION of
+# perspective-taking via concrete prosocial-skills work).
+
+targetSlug: share-and-take-turns
+language: en
+title:
+  en: "Share and Take Turns — prosocial skills for cooperative play"
+
+description:
+  en: "Kindergarten / Grade 1 social-emotional package teaching turn-taking + sharing as concrete prosocial behaviors. Foundation skill: kids learn the social-language scripts (\"my turn\" / \"your turn\" / \"we can share\"), the situational cues that trigger turn-taking (one toy + two kids; one swing + a line; one snack-pack + a friend), and the impulse-control work required to wait while another peer takes their turn. SAT-CLOSING package: completes PSED canonical strand at 8/8. Builds on Arc 16 SEL triad-pair: name-and-describe-feelings-detailed (kids name what they feel when waiting is hard — frustrated, jealous, impatient) + show-perspective-taking (kids imagine how the other kid feels when getting their turn). Turn-taking is the BEHAVIORAL OUTPUT of those two cognitive-emotional substrates. Critical K-3 prosocial-skills work; foundation for conflict-resolution + collaboration + community-of-learners norms. 5 worksheet exercises + 6 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class scenario-recognition hook. Teacher displays a
+      picture of two kids reaching for the same toy. \"What's
+      happening here? Both kids want the toy. What can they do?\"
+      Class brainstorms: take turns, share, ask politely. Teacher
+      introduces 3 social-language scripts: \"my turn\" (claim a
+      turn fairly), \"your turn\" (offer a turn to a peer), \"we
+      can share\" (use the item together when possible). Teacher
+      then displays 2 more scenarios: 5 kids in line for the slide
+      (turn-taking by queue) and a snack-pack with 6 crackers
+      shared among 3 kids (sharing by dividing). Pattern emphasis:
+      \"Turn-taking and sharing use WORDS to solve fairness problems
+      without anyone getting hurt or sad.\"
+
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + turn-taking practice routine. Each pair receives
+      1 shared toy or game-board piece (intentional 1-item-for-2-
+      kids constraint). Pair practices the turn-taking script: kid
+      A says \"my turn,\" plays for 30 seconds, says \"your turn,\"
+      passes to kid B; kid B plays for 30 seconds, says \"your
+      turn,\" passes back. Teacher circulates + recasts errors with
+      script-modeling (\"I see you grabbed it back — try saying
+      'I want my turn now, please' instead\"). Optional extension:
+      kids dramatize a sharing-without-taking-turns scenario (e.g.,
+      kid A draws on one half of a paper; kid B draws on the other
+      half; they share the page without sequential turns).
+      Discussion: when does turn-taking work vs when does sharing-
+      together work? (One toy = take turns; a snack with many
+      pieces = share by dividing; a big drawing paper = share by
+      using different parts.)
+
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: picture-sort worksheet (kids
+      sort scenario pictures into \"taking turns\" vs \"not taking
+      turns\" buckets — e.g., kid waiting in line for swing GOES IN
+      taking-turns; kid grabbing toy from peer GOES IN not-taking-
+      turns). Station 2: matching worksheet (scenario picture →
+      appropriate social-language response: 5 kids in line ↔ \"we
+      wait our turn\"; one toy 2 kids ↔ \"let's take turns\";
+      6 crackers 3 kids ↔ \"we can share\"). Station 3: math-
+      worksheet (counting context — how many turns each kid gets
+      if 6 turns total + 3 kids = 2 each; how many crackers each
+      if 6 crackers + 3 kids = 2 each; counting as fairness
+      reasoning). Station 4: manipulative cut-outs (kids assemble
+      a turn-taking-tracker cardstrip: kid-name square + 5 turn
+      checkboxes; cross off each turn as taken; visual fairness
+      tracker for free-play time).
+
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class turn-taking pledge. Class collectively names the
+      3 social-language scripts (\"my turn\" / \"your turn\" / \"we
+      can share\") and identifies 2 classroom situations from the
+      week where each script applied. Teacher closes with: \"This
+      week we learned the WORDS for fair turn-taking and sharing.
+      When you feel impatient or jealous or upset that it's not
+      your turn yet — remember the feelings work we did with
+      name-and-describe-feelings-detailed and the perspective-
+      taking work we did with show-perspective-taking. The other
+      kid feels happy when it IS their turn, just like you feel
+      happy when it's yours.\" Forward-pointer: \"When we come
+      back to social skills next, we'll learn what to do when
+      turn-taking breaks down — conflict resolution + asking-an-
+      adult-for-help (Arc 18+ candidates).\"
+
+composedExercises:
+  - appName: picture-sort
+    exerciseMode: unified
+    customizationParameters: { themeSelect: emotions, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: emotions, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: math-worksheet
+    exerciseMode: easy
+    customizationParameters: { difficulty: easy, numExercises: 6, operations: count, selectMode: theme, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, themeSelect: emotions, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: emotions, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: emotions
+      cardCount: 16
+      cardsPerPage: 8
+      colorMode: color
+      labelDisplay: word
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: emotions
+      cardCount: 16
+      cardsPerPage: 8
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: i-feel
+      imageSource: theme
+      themeName: emotions
+      stripCount: 12
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 3
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: emotions
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 4
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: emotions
+      pictureCueCount: 6
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 5
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 6
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: world-knowledge / personal-social-emotional-
+    development (PSED; SAT-CLOSING canonical fill at 7/8 → 8/8).
+    Secondary strand: early-literacy / speaking-and-listening (the
+    3 social-language scripts \"my turn\" / \"your turn\" / \"we can
+    share\" are scaffolded productive-language work). Tertiary
+    strand: cognitive-and-executive-function / memory-and-attention
+    (impulse-control + delayed-gratification + waiting are core
+    executive-function operations underlying turn-taking).
+
+    Architectural significance: this package CLOSES the PSED
+    canonical strand at 8/8 — final canonical target for the strand.
+    Completes the Arc 16 SEL triad-pair: name-and-describe-feelings-
+    detailed (Arc 16 Phase 1.2) + show-perspective-taking (Arc 16
+    Phase 1.3) + share-and-take-turns (Arc 17 Phase 1.1). The triad
+    builds a complete developmental arc: NAME complex feelings →
+    UNDERSTAND others have their own feelings (perspective-taking)
+    → APPLY behaviorally via turn-taking + sharing scripts. PSED
+    strand now fully saturated; world-knowledge domain coverage
+    advances: 6 of 6 strands saturated (living-things + environment-
+    and-weather + community-and-roles + time-and-routine + materials-
+    and-properties + PSED).
+
+    Distinctive composition: 5 exercises across 4 apps — picture-sort
+    (position 1) surfaces appropriate-vs-inappropriate scenario
+    sorting; matching (positions 2 + 5) builds scenario-to-response
+    pairing; math-worksheet (position 3) introduces fairness-as-
+    division counting work (a turn-taking arithmetic substrate
+    distinct from numeracy work — kids learn that fairness has
+    quantitative shape: 6 crackers / 3 kids = 2 each); word-guess
+    (position 4) reinforces social-language vocabulary in puzzle
+    form.
+
+    SEL-class material composition: 6-material per Arc 16 §A.13.6-
+    firing-corrected SEL class-conditional disposition. REMOVE
+    matching-mat (the matching-mat mechanic is image-to-word pairing
+    which doesn't fit SEL scenario-response work shape) + REMOVE
+    vocabulary-tracing-strips (SEL behavioral skill work doesn't
+    primarily anchor on vocabulary-tracing reinforcement; scripts
+    are short oral-language phrases not tracing-substrate words).
+    KEEP: flashcards (scenario cards) + picture-cards (positive
+    social-interaction images) + sentence-strips (i-feel + my-turn
+    + your-turn social-language frames; the i-feel frame preset
+    accommodates emotion-vocabulary work alongside script work)
+    + manipulative-cut-outs (turn-taking tracker) + parent-take-
+    home-letter (home-school SEL bridge for sharing-and-turn-taking
+    work that surfaces at family meals + playdates + sibling
+    dynamics) + answer-key.
+
+    Class B FLEXIBLE substrate: composes against emotions theme. The
+    Arc 16 triad-pair anchor (name-and-describe-feelings + show-
+    perspective-taking) used emotions theme; share-and-take-turns
+    continues the theme to preserve cross-package cluster coherence.
+    emotions-bundle becomes the 3-package SEL anchor bundle post-
+    Arc-17 Phase 1.1 (cross-bundle reuse density advancement to
+    Arc 17 P2 close).
+
+    K-3 multilingual classroom relevance: turn-taking + sharing
+    norms vary across cultures with K-3-relevant divergence —
+    individual-turn-taking traditions (US/Northern European register)
+    contrast with collective-sharing traditions (Latin American /
+    Mediterranean / Asian family registers where food is shared from
+    a common dish without individual portions); some cultures emphasize
+    waiting-respectfully without using verbal scripts. Locale-variant
+    sparse-overrides adapt the SCRIPT register per locale: pt-BR
+    \"minha vez\" / \"sua vez\" / \"vamos compartilhar\" with
+    warm-relational register; nordic locales use shorter scripts
+    matching local communication style; multilingual K-3 classrooms
+    benefit from explicit script-modeling because kids may have
+    different home-cultural defaults colliding in classroom-shared
+    contexts.
+
+    Cross-cultural affirmation discipline: package affirms cultural
+    variation in sharing practices (\"some families share food from
+    one big plate; some families have their own portions; both are
+    fair\") rather than prescribing one register. Particularly load-
+    bearing for international school + dual-language program contexts
+    where kids' home-cultural backgrounds diverge.
+
+curriculumStandards:
+  - EYFS.ELG.PSED.M.R
+  - EYFS.ELG.PSED.S
+  - CASEL.SELF_MANAGEMENT
+  - CASEL.RELATIONSHIP_SKILLS
+  - IB-PYP.HowWeOrganizeOurselves
+  - IB-PYP.WhoWeAre
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Identify turn-taking in a scenario picture from a 4-choice
+        set (taking-turns / waiting-line / sharing-divided / not-
+        taking-turns) in 8 of 10 trials.
+      - Name 3 turn-taking phrases (\"my turn\" / \"your turn\" /
+        \"we can share\") productively when prompted by scenario
+        cues in 5 of 8 trials.
+      - Demonstrate turn-taking in 4 of 6 observed pair-activities
+        during free-play (teacher rubric across week).
+      - Self-advocate \"my turn\" without conflict in 3 of 5 free-
+        play observations (script-application metric).
+
+    Differentiation:
+    - Pre-K: 2-script set (\"my turn\" + \"your turn\"); receptive-
+      modeling first (kids respond to teacher-prompted scripts);
+      productive-language emerges as it does without pressure.
+    - K: full 3-script set; productive use of scripts during pair
+      activities; teacher rubric on free-play observations.
+    - Grade 1+: extend to conflict-de-escalation (\"can we share?\"
+      + \"can I have a turn next?\" + \"please, may I?\") + asking-
+      adult-for-help when turn-taking breaks down (Arc 18+
+      candidate); bridge to community-of-learners norms +
+      classroom-culture work.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

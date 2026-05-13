@@ -1,0 +1,328 @@
+# Teaching package — fact families within 10
+# Arc 17 Phase 1.3 (math / addition-subtraction 13/14 → 14/14 SAT close — 21st saturated strand). RESOLVES the math/addition-subtraction canonical-target gap. Pair-coherent with Phase 1.2 make-10-strategy + find-missing-addend-within-10 (addition-fluency strand-anchor cluster).
+
+targetSlug: fact-families-within-10
+language: en
+title:
+  en: "Fact Families Within 10 — four facts, three numbers, one family"
+
+description:
+  en: "Grade 1 math package teaching kids that three numbers like {3, 5, 8} form a 'fact family' — four related addition + subtraction facts that share the same three numbers: 3+5=8, 5+3=8, 8-3=5, 8-5=3. Builds on Arc 4 add-within-5 + Arc 11 add-within-10 + Arc 14 subtract-within-10 fluency; the four-fact relationship makes addition + subtraction visible as inverse operations (knowing 3+5=8 means you already know 8-3=5). Closes math/addition-subtraction strand 13/14 → 14/14 SAT (21st saturated strand). Pair-coherent with Phase 1.2 make-10-strategy + find-missing-addend-within-10: fact-families integrate make-10-partner work (the {3, 7, 10} fact family IS the make-10 partner pair) and missing-addend recall (knowing all four equations means missing-addend questions become instant recall). Concrete-pictorial-abstract sequence: kids start with physical counter triples, move to fact-family triangles (a visual where the sum sits at top and addends at bottom), and finally articulate all four facts of a family from memory. CCSS.1.OA.B.4 primary anchor ('understand subtraction as an unknown-addend problem'); CCSS.1.OA.B.3 cross-walk (commutativity); CCSS.1.OA.C.6 (fluency within 10); CCSS.2.OA.B.2 (mental-math sums + differences). 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook + fact-family introduction with three
+      numbers. Teacher places 3 red counters and 5 blue counters
+      on the carpet. "Three red plus five blue is eight." Teacher
+      writes: 3 + 5 = 8. Then swaps order: "And five blue plus
+      three red is also eight." Writes: 5 + 3 = 8. "Now if we
+      START with eight and TAKE AWAY three reds, we have five
+      blues left." Writes: 8 - 3 = 5. "And if we TAKE AWAY five
+      blues, we have three reds left." Writes: 8 - 5 = 3. "Look
+      — same three numbers, four facts. This is a FAMILY of
+      facts." Teacher draws a fact-family triangle on the board
+      — 8 at top, 3 and 5 at bottom corners — and shows how all
+      four facts come from the same three numbers. Teacher
+      repeats with {2, 7, 9} (2+7=9, 7+2=9, 9-2=7, 9-7=2) and
+      with the special "doubles" case {4, 4, 8} (4+4=8, 8-4=4 —
+      only two facts because both addends are the same).
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + fact-family triangle activity. Each pair
+      receives a stack of paper fact-family triangle templates
+      and animal-themed counters. Pair plays the triangle-build
+      game: teacher gives a sum (e.g., 7) and one addend (e.g.,
+      4); kid A places 4 counters on the table and counts up
+      with more counters until 7 total — the missing addend is
+      3. Kid B fills in the fact-family triangle: 7 at top, 4
+      and 3 at bottom. Together they write all four equations
+      around the triangle (4+3=7, 3+4=7, 7-4=3, 7-3=4) and say
+      each one aloud. Pair swaps + repeats with new triple. The
+      animal-themed counters keep the work grounded in real
+      countable things (3 lions and 4 lions make 7 lions; take
+      away 3 lions and 4 remain). Teacher recasts errors by
+      pointing at the triangle: "you wrote 7 - 3 = 4. The
+      triangle has 7 at top, 4 and 3 at bottom. Yes — three of
+      seven is four, the other corner!" The triangle's spatial
+      shape anchors the four-fact relationship visually.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: addition app find-addend
+      mode with single-digit operands; kids complete fact
+      families by finding the missing addend. Station 2: math-
+      puzzle missing-addend mode (the question form that
+      surfaces one fact at a time from a fact family). Station
+      3: math-worksheet with mixed addition + subtraction
+      problems within 10 — the app produces a range of problems,
+      and teacher circulates pointing out fact-family
+      relationships when an addition problem and a subtraction
+      problem on the same page share the same three numbers
+      ("look, 3 + 5 = 8 here, and 8 - 5 = 3 there — same
+      family"). Station 4: matching activity — match each
+      fact-family triple (like {3, 5, 8}) to its four equations
+      laid out as cards. Teacher curation across stations is
+      load-bearing — the apps produce general within-10
+      problems; the fact-family insight lives in how the
+      teacher frames the relationships kids notice.
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class fact-family quick-recall. Teacher names a
+      sum and one addend; class chorally produces all four
+      facts. "Sum 9, addend 4? — Four plus five is nine. Five
+      plus four is nine. Nine minus four is five. Nine minus
+      five is four." Then "Sum 8, addend 6? — Six plus two is
+      eight. Two plus six is eight. Eight minus six is two.
+      Eight minus two is six." Forward-pointer: "Today we
+      closed our addition-and-subtraction fluency within 10 —
+      the LAST piece of the within-10 fact world. We can
+      reach for any of these four facts in a family without
+      counting. When we come back, we'll extend fact families
+      to bigger numbers — fact families within 20 — and use
+      the same triangle shape to organize them. The MAKE-10
+      STRATEGY from earlier helps here: every make-10 partner
+      pair {3, 7}, {4, 6}, {1, 9} is also a fact family with
+      sum 10."
+
+composedExercises:
+  - appName: addition
+    exerciseMode: find-addend
+    customizationParameters:
+      exerciseMode: find-addend
+      problemCount: 6
+      minOperand: 1
+      maxOperand: 5
+      themeSelect: animals
+      showPlusSign: true
+      languageSelect: en
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: math-puzzle
+    exerciseMode: missing-addend
+    customizationParameters: { operationType: addition, maxNumber: 10, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: math-worksheet
+    exerciseMode: easy
+    customizationParameters: { difficulty: easy, numExercises: 8, operations: addsubtract, selectMode: theme }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: math-worksheet
+    exerciseMode: easy
+    customizationParameters: { difficulty: easy, numExercises: 8, operations: addsubtract, selectMode: theme }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 24
+      cardsPerPage: 8
+      colorMode: color
+      labelDisplay: math-expression
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 20
+      cardsPerPage: 8
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 40
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: math / addition-subtraction (fact families
+    within 10 — closes strand 13/14 → 14/14 SAT; 21st
+    saturated strand in the catalog). Secondary strand:
+    algebraic-thinking precursor (the inverse-operation
+    relationship between addition and subtraction is the
+    structural insight that grounds later equation manipulation;
+    fact-families make the relationship discrete + memorizable).
+    Tertiary strand: working-memory + recall (kids hold three
+    numbers in mind and produce four equations from them; this
+    fluency move is the K-1 anchor for mental arithmetic).
+
+    Architectural significance: closes math/addition-subtraction
+    at canonical 14/14 SAT — the 21st saturated strand in the
+    catalog. This is the SAT-closing package for the strand
+    that has anchored most numeracy work since Arc 1 (add-
+    within-5). Pair-coherent with Phase 1.2 make-10-strategy
+    + find-missing-addend-within-10: those three packages
+    together form the addition-fluency strand-anchor cluster
+    — make-10 builds partner recall, find-missing-addend
+    extends it to any single-digit unknown, fact-families
+    integrate both moves into the full inverse-operation
+    relationship. After this package, the addition-
+    subtraction strand has no remaining canonical gaps
+    within K-3 scope (regrouping/borrowing variants live in
+    Arc 16 add-within-100 / subtract-within-100 + Phase 1.2
+    add-2-digit-without-regrouping + subtract-2-digit-without-
+    regrouping; mixed-operation work in Arc 15 Phase 2 add-
+    and-subtract-mixed-within-20).
+
+    Distinctive composition: 1 addition find-addend
+    (introduction — surfaces the missing-addend reading of
+    fact families) + 1 math-puzzle missing-addend + 2 math-
+    worksheet easy with addsubtract operation mix (the
+    addition + subtraction mix at the same difficulty level
+    surfaces the four-fact-from-three-numbers relationship in
+    the exercise sequence itself) + 1 matching (consolidation).
+    The math-worksheet operation parameter is set to
+    'addsubtract' rather than addition-only or subtraction-
+    only — this is the load-bearing exercise choice for
+    fact-families work, because the kid encounters addition
+    and subtraction problems drawn from the same three-number
+    families and notices the structural relationship.
+
+    Class B FLEXIBLE substrate: composes against animals
+    theme (Arc 4-16 addition-subtraction strand precedent;
+    countable for the four-fact work; cross-arc consistency
+    with the cluster).
+
+    K-3 multilingual classroom relevance: fact-family concept
+    is universal K-3 numeracy + algebraic-precursor content.
+    The fact-family-triangle visualization is locale-portable.
+    Cross-locale vocabulary: en "fact family"; de
+    "Zahlentripel" / "Umkehraufgabe" (inverse-task); es
+    "familia de números" / "operaciones inversas"; pt
+    "família de fatos" / "operações inversas"; fr "famille
+    de nombres" / "opérations inverses"; fi
+    "lukukolmikko". The 'family' metaphor (numbers that
+    belong together) is cross-locale intuitive. The triangle
+    visualization works in every script direction (left-to-
+    right + right-to-left). Locale-variant work at Phase 3+
+    adapts the family-metaphor naming convention without
+    changing the pedagogy.
+
+curriculumStandards:
+  - CCSS.1.OA.B.4
+  - CCSS.1.OA.B.3
+  - CCSS.1.OA.C.6
+  - CCSS.2.OA.B.2
+  - EYFS.ELG.M
+  - IB-PYP.HowTheWorldWorks
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Given three numbers that form a fact family (e.g., 3,
+        5, 8), produce all four equations correctly in 7 of
+        10 trials.
+      - Identify when three numbers form a fact family versus
+        when they don't (e.g., {2, 3, 6} doesn't — 2+3≠6) in
+        6 of 8 trials.
+      - Use the fact-family-triangle visual to recall a
+        missing fact when shown three sides of the family in
+        6 of 10 trials.
+      - Recognize the doubles-family special case (where only
+        two equations exist because both addends are the
+        same: 4+4=8, 8-4=4) in 4 of 5 trials.
+
+    Differentiation:
+    - Pre-K: skip the four-equation production; build addition-
+      fact recall within 5 with manipulatives instead.
+    - K: introduce fact families within 5 first ({1, 2, 3},
+      {2, 3, 5}); fact-family-triangle visual heavily
+      scaffolded; only addition equations expected, with
+      subtraction added once addition is fluent.
+    - Grade 1: full fact families within 10 fluency; all four
+      equations expected; triangle visual remains available
+      but kids increasingly recall without it.
+    - Grade 2+: extend to fact families within 20 (Arc 17 P1.4+
+      candidate), then fact families within 100 + the
+      multiplication/division fact-family extension (Grade 3+
+      candidate). The inverse-operation insight kids meet here
+      becomes the multiplication-division fact-family pattern
+      later (3 x 4 = 12, 12 ÷ 3 = 4, etc.).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

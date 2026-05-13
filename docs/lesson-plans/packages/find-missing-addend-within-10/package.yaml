@@ -1,0 +1,315 @@
+# Teaching package — find missing addend within 10
+# Arc 17 Phase 1.2 (math / addition-subtraction 12/14 → 13/14). RESOLVES Arc 4 add-within-5 forward-pointer ('find-missing-addend-within-10 — adjacent inverse-thinking target'). Algebraic-thinking precursor anchor. Paired strand-anchor: make-10-strategy (same arc phase).
+
+targetSlug: find-missing-addend-within-10
+language: en
+title:
+  en: "Find the Missing Addend Within 10 — what number goes in the blank?"
+
+description:
+  en: "Grade 1 math package teaching the missing-addend question form ('3 + ? = 8 — what number fills the blank?') with sums up to 10. Builds on Arc 4 add-within-5 + Arc 11 add-within-10 fluency; the missing-addend question reuses addition facts the kids already know but flips the question — instead of computing a sum from two known addends, the kid finds an unknown addend given the sum and the other addend. RESOLVES the Arc 4 add-within-5 forward-pointer ('adjacent inverse-thinking target'). This is the first algebraic-thinking package — the unknown-in-a-blank question form is the K-3 precursor to the equation-solving work that lands in middle elementary (x + 3 = 8). Concrete-pictorial-abstract sequence: kids start by physically counting the gap on a 10-frame, move to pictorial number-line counting-up, and finally answer mentally using addition-fact recall ('I know 3 + 5 = 8, so the blank is 5'). CCSS.1.OA.D.8 primary anchor; CCSS.K.OA.A.4 cross-walk ('find the number that makes 10'). 5 worksheet exercises + 6 printable materials over a 1-week unit. Paired strand-anchor companion: make-10-strategy (decomposition mental-math on the same addition-fluency strand)."
+
+durationMinutes: 25
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook + missing-addend question-form
+      introduction. Teacher writes 3 + ? = 8 on the board.
+      "Today we meet a new kind of question. Usually I ask
+      you 'what's 3 plus 5?' and you say 8. Today I'm asking
+      something different. I tell you 3 plus SOMETHING equals
+      8. Your job is to find the SOMETHING." Teacher shows
+      counting-up on fingers: hold up 3 fingers ("three"),
+      count up to 8 raising more fingers ("four, five, six,
+      seven, eight"), then count the new fingers ("five"). "So
+      3 plus 5 equals 8. The missing number is 5." Teacher
+      repeats with 4 + ? = 9 (count up from 4: five, six,
+      seven, eight, nine — five new fingers; answer 5) and
+      6 + ? = 10 (a make-10 partner — 6's partner is 4).
+      Pattern emphasis: "We KNOW one addend. We KNOW the sum.
+      We FIND the OTHER addend by counting up — or by knowing
+      the addition fact."
+  contentActivity:
+    durationMinutes: 10
+    body: |
+      Pair work with 10-frame + fruit-themed counters. Each
+      pair receives a 10-frame + a stack of fruit counters.
+      Pair plays the missing-addend game: teacher gives a
+      problem (e.g., 3 + ? = 8); kid A places the known
+      addend on the 10-frame (3 apples in the first 3
+      squares); kid B's job is to find how many more counters
+      fill up to the sum (place fruit until the total is 8 —
+      kid B places 5 more; the answer is 5). Both say aloud:
+      "3 plus 5 is 8. The missing number is 5." Then pair
+      swaps + repeats with 4 + ? = 7, 2 + ? = 9, 5 + ? = 10,
+      6 + ? = 8. The 10-frame's grid structure makes the
+      counting-up visible — kids can see the gap between
+      what's there and what's needed. Recast errors with
+      count-up cue ('start at 3 — count up to 8 — how many
+      new ones did you place?'). Strategy choices: kids may
+      count up on the frame, use addition-fact recall, OR
+      use a number-line / hundreds-chart aid; teacher
+      accepts any strategy that produces correct answer +
+      can be explained.
+  scaffold:
+    durationMinutes: 7
+    body: |
+      Station rotation. Station 1: addition app find-addend
+      mode (operands within 10 — the canonical missing-addend
+      exercise from add-within-5's composition, now scaled
+      to sums-up-to-10). Station 2: math-puzzle missing-
+      addend mode (visual problems with a blank where the
+      missing addend goes). Station 3: math-worksheet
+      missing-addend problems (written column or sentence
+      format: 3 + __ = 8). Station 4: matching activity —
+      match each missing-addend problem to its answer (3+?=8
+      matches to 5; 4+?=10 matches to 6).
+  closure:
+    durationMinutes: 3
+    body: |
+      Whole-class missing-addend quick-recall. Teacher
+      presents problems; class answers chorally + names the
+      strategy. "3 + ? = 7? — Four! I counted up from 3 to
+      7 — four steps." "5 + ? = 10? — Five! That's a make-
+      10 partner." "2 + ? = 9? — Seven! I know 2 plus 7
+      equals 9." Forward-pointer: "Today we found missing
+      addends within 10. The same question form grows:
+      bigger sums get bigger missing addends (find-missing-
+      addend within 20, within 100), and eventually we'll
+      see this same shape with x in middle elementary — x +
+      3 = 8. The blank you find today is the same blank
+      that becomes a letter later. The MAKE-10 STRATEGY we
+      just learned helps here — when the sum is 10, the
+      missing addend is the make-10 partner."
+
+composedExercises:
+  - appName: addition
+    exerciseMode: find-addend
+    customizationParameters:
+      exerciseMode: find-addend
+      problemCount: 6
+      minOperand: 1
+      maxOperand: 5
+      themeSelect: fruits
+      showPlusSign: true
+      languageSelect: en
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: math-puzzle
+    exerciseMode: missing-addend
+    customizationParameters: { operationType: addition, maxNumber: 10, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: math-worksheet
+    exerciseMode: easy
+    customizationParameters: { difficulty: easy, numExercises: 6, operations: add, selectMode: theme }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: fruits, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: addition
+    exerciseMode: find-addend
+    customizationParameters:
+      exerciseMode: find-addend
+      problemCount: 6
+      minOperand: 1
+      maxOperand: 5
+      themeSelect: fruits
+      showPlusSign: true
+      languageSelect: en
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: fruits
+      cardCount: 24
+      cardsPerPage: 8
+      colorMode: color
+      labelDisplay: math-expression
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: fruits
+      cardCount: 20
+      cardsPerPage: 8
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: fruits
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: fruits
+      mode: single-repeat
+      itemCount: 40
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 4
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: fruits
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 5
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 6
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: math / addition-subtraction (find missing
+    addend within 10 — deepens strand 12/14 → 13/14). Secondary
+    strand: algebraic-thinking precursor (the unknown-in-a-
+    blank question form is the K-3 precursor to equation-
+    solving; the same blank that holds '5' here becomes 'x'
+    in middle-elementary algebra). Tertiary strand: numeracy
+    (count-up + addition-fact-recall + use-known-facts
+    strategy fluency).
+
+    Architectural significance: RESOLVES Arc 4 add-within-5
+    forward-pointer ('find-missing-addend-within-10 —
+    adjacent inverse-thinking target'). First algebraic-
+    thinking package in the catalog. The missing-addend
+    question reuses addition facts kids already have from
+    add-within-5 + add-within-10 fluency, but flips the
+    question — instead of computing a sum from known
+    addends, kid finds an unknown addend given sum and one
+    addend. This question-form flip is the cognitive move
+    that grounds later equation-solving; surfacing it as a
+    discrete K-3 skill makes the algebraic move legible
+    long before letters enter the math vocabulary.
+
+    Paired strand-anchor companion: make-10-strategy (same
+    arc phase) — the make-10 partner work overlaps directly
+    with missing-addend recall when the sum is 10 (knowing
+    7 + ? = 10 IS using a make-10 partner). The two
+    packages share addition-fluency strand DNA; the make-
+    10 package builds partner-recall, this package extends
+    it to any sum-within-10.
+
+    Distinctive composition: 2 addition find-addend (intro
+    + assessment slots — the load-bearing missing-addend
+    exercise mode bookending the unit) + 1 math-puzzle
+    missing-addend + 1 math-worksheet + 1 matching. Heavy
+    weighting on addition find-addend mode because that's
+    the app/mode that produces the canonical missing-addend
+    exercise shape; add-within-5 already used find-addend
+    at its position 4 (consolidation), and this package
+    extends that work to a full missing-addend unit. The
+    matching activity at position 4 surfaces the answer-
+    recall path: kids match each problem (3+?=8) to its
+    answer (5) directly, which reinforces the addition-
+    fact-recall strategy beyond counting-up.
+
+    Class B FLEXIBLE substrate: composes against fruits
+    theme (cross-strand diversification away from animals;
+    light continuity with add-within-5's mixed-exercise
+    fruits theme at position 5 — kids who did add-within-5
+    will recognize the fruit context when the missing-
+    addend question form arrives).
+
+    K-3 multilingual classroom relevance: missing-addend
+    question form is universal K-3 numeracy + algebraic-
+    thinking content. The verbal form varies across locales:
+    en 'what number fills the blank?' / 'three plus what is
+    eight?'; de 'welche Zahl fehlt?' / 'drei plus wie viel
+    ergibt acht?'; es 'qué número falta?' / 'tres más cuánto
+    es ocho?'; pt 'que número falta?' / 'três mais quanto
+    é oito?'; fr 'quel nombre manque?' / 'trois plus combien
+    fait huit?'; fi 'mikä luku puuttuu?'. The make-10-partner
+    overlap is locale-portable — every locale's number-word
+    system has a 'make-ten partner' relationship even if the
+    teen-number words themselves are irregular. Locale-
+    variant work at Phase 3+ adapts question-form phrasing
+    + strategy-naming convention to each locale's register.
+
+curriculumStandards:
+  - CCSS.1.OA.D.8
+  - CCSS.K.OA.A.4
+  - CCSS.1.OA.B.4
+  - EYFS.ELG.M
+  - IB-PYP.HowTheWorldWorks
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Solve find-missing-addend-within-10 problems
+        (3 + ? = 8) in 7 of 10 trials.
+      - Use count-up strategy from the known addend to the
+        sum in 6 of 10 trials when prompted to show work.
+      - Articulate the answer in addition-sentence form
+        ('three plus five is eight; the missing number is
+        five') in 5 of 10 productive-language trials.
+      - Recognize when the sum is 10 and apply make-10
+        partner recall as a shortcut in 6 of 8 sum-equals-10
+        problems.
+
+    Differentiation:
+    - Pre-K: skip the abstract missing-addend question
+      form; build addition-fact recall within 5 with
+      manipulatives.
+    - K: introduce missing-addend within 5 first ('1 + ? =
+      4'); manipulative + 10-frame support emphasized;
+      count-up strategy heavily scaffolded.
+    - Grade 1: full missing-addend within 10 fluency;
+      count-up + addition-fact recall + make-10-partner
+      strategies in active use.
+    - Grade 2+: extend to find-missing-addend within 20
+      (Arc 13+ candidate); bridge to algebraic equation-
+      solving in later elementary — the same blank that
+      held '5' here becomes 'x' there.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

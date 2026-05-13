@@ -1,0 +1,307 @@
+# Teaching package — make-10 strategy
+# Arc 17 Phase 1.2 (math / addition-subtraction 11/14 → 12/14). Strategy-isolation companion to Arc 12 add-within-20 (where make-10 is the core fluency lesson). This package narrowly drills the decomposition mechanic. Paired strand-anchor: find-missing-addend-within-10 (same arc phase).
+
+targetSlug: make-10-strategy
+language: en
+title:
+  en: "Make-10 Strategy — decompose to reach ten, then add the rest"
+
+description:
+  en: "Grade 1 math package teaching the make-10 mental-math strategy as a discrete skill. Solver decomposes one addend so the other can be filled up to 10, then adds the remainder. Example: 8 + 5 = 8 + 2 + 3 = 10 + 3 = 13. Companion to Arc 12 add-within-20 (where make-10 is the core fluency lesson embedded inside a broader within-20 unit); this package isolates the decomposition mechanic so kids who need extra strategy-fluency practice get a focused unit, and the make-10 move becomes a named, memorable strategy rather than something that happens incidentally inside larger addition work. Number-bond practice + 10-frame visual support + 'find the make-10 partner' games make the decomposition routine concrete before kids carry it mentally. CCSS.1.OA.C.6 anchor; CCSS.K.OA.A.4 cross-walk ('find the number that makes 10 when added'). 5 worksheet exercises + 6 printable materials over a 1-week unit. Paired strand-anchor companion: find-missing-addend-within-10 (algebraic-thinking precursor on the same addition-fluency strand)."
+
+durationMinutes: 25
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook + make-10 partner introduction. Teacher
+      uses a 10-frame on the board (2 rows of 5 squares). "Here
+      are 8 dots." (Teacher fills 8 squares.) "How many EMPTY
+      squares?" Kids answer 2. "So 8 and 2 are make-10 PARTNERS.
+      What about 6 and 4? 7 and 3? 9 and 1?" Quick partner
+      naming around the room. Then the strategy move: "When we
+      add 8 + 5, we don't have to count from 8 all the way to
+      13. We can use the make-10 partner. 8 needs 2 to make 10.
+      So we BREAK 5 into 2 and 3. 8 + 2 = 10. 10 + 3 = 13. Done."
+      Teacher walks through 9 + 4 (9's partner is 1; break 4 into
+      1 and 3; 10 + 3 = 13) and 7 + 6 (7's partner is 3; break
+      6 into 3 and 3; 10 + 3 = 13). Pattern emphasis: "Look at
+      the FIRST number. Find its make-10 partner. BREAK the
+      second number. ADD the leftover."
+  contentActivity:
+    durationMinutes: 10
+    body: |
+      Pair work with 10-frame manipulatives. Each pair receives
+      a 10-frame + two-color counters (e.g., breakfast-themed
+      cutouts: yellow toast pieces + brown eggs). Pair plays
+      make-10 partner round: kid A places N counters of the
+      first color (N ≤ 9). Kid B counts the empty squares (this
+      is N's make-10 partner). Both say aloud: "8 toast pieces.
+      8 plus 2 makes 10." Then the strategy round: kid A
+      writes a sum like 8 + 5 on a slip. Kid B places 8 toast,
+      thinks "8 needs 2", takes 2 eggs out of the 5 to fill the
+      frame, then names the 3 leftover eggs: "10 plus 3 is 13."
+      Pair swaps roles. Recast errors with partner-cue ("you
+      have 7 in the frame — what's 7's make-10 partner?"). The
+      counters' breakfast theme is incidental — make-10 is the
+      load-bearing structure; the theme provides recognizable
+      countable objects so kids stay grounded in real things
+      rather than abstract dots.
+  scaffold:
+    durationMinutes: 7
+    body: |
+      Station rotation. Station 1: math-puzzle addition mode
+      (sums up to 20 — teacher curates the problems that fit
+      the make-10 strategy cleanly: 8+5, 9+4, 7+6, 8+6, 9+3,
+      7+5). Station 2: math-worksheet sums-within-20; teacher
+      circulates and prompts make-10 thinking on eligible
+      problems. Station 3: addition app find-addend mode with
+      single-digit operands; kids practice the missing-addend
+      recall move that overlaps with make-10 partner work
+      (when the displayed sum lands on 10, that problem IS a
+      make-10 partner question). Station 4: matching activity
+      — match each sum (8+5, 9+4, 7+6) to its make-10
+      decomposition path (8+2+3, 9+1+3, 7+3+3). Teacher
+      curation across stations is load-bearing — the apps
+      produce a range of sums, and the make-10 strategy work
+      lives in how the teacher frames each problem.
+  closure:
+    durationMinutes: 3
+    body: |
+      Whole-class make-10 quick-recall. Teacher names sums; kids
+      chorally articulate the make-10 path. "8 + 5? — 8 plus 2
+      makes 10, plus 3 leftover, equals 13." "9 + 6? — 9 plus 1
+      makes 10, plus 5 leftover, equals 15." "7 + 8? — 7 plus 3
+      makes 10, plus 5 leftover, equals 15." Forward-pointer:
+      "Today we made the make-10 strategy its own lesson. The
+      same move helps with FIND THE MISSING ADDEND — if I know
+      3 + ? = 10, I'm using a make-10 partner. And as we grow
+      into bigger numbers, the make-10 idea extends — when we
+      meet ADD WITHIN 100, we'll make ten again to manage the
+      regrouping move."
+
+composedExercises:
+  - appName: math-puzzle
+    exerciseMode: addition
+    customizationParameters: { languageSelect: en, maxNumber: 20 }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: math-worksheet
+    exerciseMode: medium
+    customizationParameters: { difficulty: medium, numExercises: 6, operations: add, selectMode: theme }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: addition
+    exerciseMode: find-addend
+    customizationParameters:
+      exerciseMode: find-addend
+      problemCount: 6
+      minOperand: 1
+      maxOperand: 9
+      themeSelect: breakfast
+      showPlusSign: true
+      languageSelect: en
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: breakfast, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: math-worksheet
+    exerciseMode: medium
+    customizationParameters: { difficulty: medium, numExercises: 6, operations: add, selectMode: theme }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: breakfast
+      cardCount: 24
+      cardsPerPage: 8
+      colorMode: color
+      labelDisplay: math-expression
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: breakfast
+      cardCount: 20
+      cardsPerPage: 8
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: breakfast
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: breakfast
+      mode: single-repeat
+      itemCount: 40
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 4
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: breakfast
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 5
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 6
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: math / addition-subtraction (make-10
+    strategy — deepens strand 11/14 → 12/14). Secondary
+    strand: math / number-decomposition (the load-bearing
+    mental move is decomposing one addend to fill the other
+    to 10; this is the same decomposition skill that grounds
+    later place-value work). Tertiary strand: working-memory
+    + strategy-selection (kid holds the partner-pair in mind
+    while breaking the second addend; named-strategy fluency
+    is a precondition for flexible mental arithmetic).
+
+    Architectural significance: strategy-isolation companion
+    to Arc 12 add-within-20. In add-within-20, make-10 is
+    the core fluency lesson embedded inside a broader sums-
+    within-20 unit; this package isolates the make-10
+    mechanic as a named, focused skill. Kids who need extra
+    strategy-fluency practice get a dedicated unit; the make-
+    10 move becomes a memorable named strategy rather than
+    something that happens incidentally. The within-20
+    package and this strategy-isolation package compose
+    naturally — teachers can teach within-20 first and then
+    pull this strategy-isolation package for a targeted
+    second pass, OR teach this package first as preparation
+    for within-20.
+
+    Paired strand-anchor companion: find-missing-addend-
+    within-10 (same arc phase) — the make-10 partner work
+    overlaps directly with missing-addend recall (knowing
+    7 + ? = 10 IS finding a missing addend within 10). The
+    two packages share addition-fluency strand DNA without
+    being inverse partners (unlike the 2-digit-without-
+    regrouping pair); their pairing is thematic rather than
+    operationally inverse.
+
+    Distinctive composition: 1 math-puzzle addition + 2
+    math-worksheet (sums-within-20 with make-10 problems
+    weighted) + 1 addition find-addend (constrained to make-
+    10-partner problems) + 1 matching (match sum to make-10
+    decomposition path). The find-addend exercise at
+    position 3 is the load-bearing strategy-practice slot —
+    by isolating the partner-recall move (8 + ? = 10) it
+    builds the fluency the larger sums depend on. Materials
+    drop place-value-mat (not load-bearing for single-digit
+    make-10 work); the 10-frame role lives inside the
+    manipulative-cut-outs material in single-repeat mode
+    (kids arrange counters in a 10-frame layout themselves).
+
+    Class B FLEXIBLE substrate: composes against breakfast
+    theme (foods with discrete, countable items — toast
+    pieces, eggs, pancakes — that visually support the
+    decomposition story; cross-strand diversification away
+    from animals-dominant addition packages per §1
+    acquisition-flywheel reuse-density principle).
+
+    K-3 multilingual classroom relevance: make-10 strategy
+    is universal K-3 numeracy bridge. The make-10 mental
+    move is locale-portable — the decomposition is the same
+    in every locale; only the vocabulary varies. Cross-locale
+    make-10 vocabulary: en 'make ten / bond to ten / partner
+    to ten'; de 'Zehnerübergang / Zerlegung zur 10'; es
+    'formar diez / descomponer hasta diez'; pt 'fazer dez /
+    decompor para chegar a dez'; fr 'compléter à dix /
+    décomposer pour faire dix'; fi 'kymmeneen täydentäminen'.
+    Teen-number naming irregularities (Arc 12 add-within-20
+    rationale) become especially salient here: kids who say
+    '10 + 3 = thirteen' have to coordinate the decomposition
+    pattern with the irregular teen-word; the make-10
+    strategy makes the 'ten and three' structure of teen
+    numbers operationally visible.
+
+curriculumStandards:
+  - CCSS.1.OA.C.6
+  - CCSS.K.OA.A.4
+  - CCSS.1.OA.B.3
+  - EYFS.ELG.M
+  - IB-PYP.HowTheWorldWorks
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Identify the make-10 partner for any number 1–9 in
+        8 of 10 trials.
+      - Apply the make-10 strategy to solve sums-within-20
+        where it fits cleanly (e.g., 8+5, 9+4, 7+6) in 6 of
+        10 trials.
+      - Articulate the make-10 path aloud ('eight plus two
+        makes ten, plus three is thirteen') in 5 of 10
+        productive-language trials.
+      - Decompose the second addend correctly when prompted
+        in 6 of 10 trials.
+
+    Differentiation:
+    - Pre-K: build make-10 partner recall on a 10-frame
+      with counters; skip the strategy-application step.
+    - K: full partner-recall fluency + introduction to the
+      decomposition move using 10-frame manipulatives;
+      sums-within-15 emphasized.
+    - Grade 1: full strategy fluency — partner recall +
+      decomposition + mental sums-within-20 using the
+      strategy.
+    - Grade 2+: extend the make-10 idea to make-100 (e.g.,
+      78 + 5 = 78 + 2 + 3 = 80 + 3); the same mental move
+      generalizes to place-value-aware addition (Arc 16
+      add-within-100).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

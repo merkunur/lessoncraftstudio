@@ -1,0 +1,204 @@
+# Teaching package — compor formas a partir de partes (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT per Arc 7 Phase 3 + Arc 3 Phase 1 sparse-override pattern.
+# Arc 17 Phase 1.3 pt-cadence continuation (16th consecutive arc).
+# pt sparse-override for math / geometry strand. Conteúdo matemático
+# universal — tradução direta sem reestruturação pedagógica. BR-MEC ensino
+# fundamental anos iniciais register per CLAUDE.md §6 + formal "você" address per §17.9.
+
+title:
+  pt: "Compor Formas a Partir de Partes — dois triângulos formam um quadrado"
+
+description:
+  pt: "Pacote de matemática + geometria para 1º ano que ensina as crianças a combinar peças de formas 2D menores em formas compostas maiores. Dois triângulos retângulos compõem um quadrado; dois quadrados compõem um retângulo; um quadrado + um triângulo compõem um pentágono (ou uma forma de 'casinha'); seis triângulos equiláteros compõem um hexágono. Constrói sobre a base Arc 9 identify-2d-shapes-basic; estende o fio de geometria do trabalho de nomeação + análise-de-atributos para raciocínio de composição-espacial. Percepção crítica: formas não são objetos isolados — elas têm relações parte-todo, e muitas formas familiares podem ser decompostas em primitivas mais simples OU compostas a partir delas. Esta é a âncora K-3 para o raciocínio geométrico posterior (cálculo de área como soma de áreas de partes; trabalho de fração-de-forma como relações de composição). Âncora primária CCSS.1.G.A.2 ('compor formas bidimensionais... para criar uma forma composta, e compor novas formas a partir da forma composta'). 5 exercícios + 7 materiais imprimíveis em uma unidade de 1 semana. Manipulative-cut-outs em modo 2d-shape-pieces é o material load-bearing — as crianças deslizam fisicamente as peças juntas para descobrir as relações de composição."
+
+structure:
+  warmup:
+    body: |
+      Iniciador com toda a turma + introdução de composição
+      com peças de forma em papel. A professora ou o professor
+      segura dois triângulos retângulos idênticos. "Vejam o
+      que acontece quando coloco esses dois triângulos juntos."
+      Desliza os triângulos para que os lados mais longos se
+      encontrem — eles formam um quadrado. "Dois triângulos
+      FAZEM um quadrado. Um quadrado é COMPOSTO de dois
+      triângulos." Turma repete: "Dois triângulos formam um
+      quadrado!" Depois compõe um retângulo a partir de dois
+      quadrados ("Dois quadrados formam um retângulo"), um
+      hexágono a partir de seis triângulos equiláteros ("Seis
+      triângulos formam um hexágono"), e uma 'casinha' a
+      partir de um quadrado + um triângulo em cima ("Um
+      quadrado mais um triângulo formam uma casinha").
+      Demonstração reversa: pega a casinha e separa novamente
+      em quadrado + triângulo. "E podemos separar uma forma
+      composta DE VOLTA em suas peças. Compor: juntar.
+      Decompor: separar. Ambas as direções funcionam."
+  contentActivity:
+    body: |
+      Trabalho em duplas + composição livre com peças de
+      forma em papel. Cada dupla recebe um saquinho de peças
+      de forma 2D recortadas (triângulos em três tamanhos —
+      pequeno equilátero, pequeno retângulo, grande retângulo;
+      quadrados em dois tamanhos; retângulos; semicírculos;
+      paralelogramos pequenos). Dupla joga o desafio de
+      composição: a professora ou o professor nomeia uma
+      forma alvo (e.g., 'casinha', 'flor', 'peixe', 'foguete',
+      'castelo') e as crianças a compõem a partir das peças
+      disponíveis. Após cada composição, as crianças a
+      desenham no papel + rotulam as primitivas usadas.
+      Refraseie erros demonstrando a composição: 'Um barco
+      precisa de um retângulo comprido para o casco + um
+      triângulo para a vela — tente isso.' Tempo livre no
+      final: crianças inventam suas próprias formas compostas
+      e desafiam suas parceiras a recriá-las. Os manipulativos
+      recortados são load-bearing — as crianças precisam de
+      tempo prático deslizando peças para internalizar as
+      relações parte-todo.
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: atividade matching —
+      combine cada forma composta (casinha, peixe, foguete)
+      ao conjunto de primitivas que a compõem
+      (quadrado+triângulo, semicírculo+triângulo+retângulo,
+      retângulo+triângulo). Estação 2: atividade missing-
+      pieces — as crianças veem uma forma composta parcial
+      com uma peça primitiva faltante; seu trabalho é
+      identificar qual peça (de uma pequena paleta de opções)
+      completa a forma. Estação 3: atividade picture-sort —
+      classifique as formas em categorias 'feito de
+      triângulos', 'feito de quadrados', 'feito de formas
+      mistas'. Estação 4: atividade grid-match — encaixe
+      peças de forma em um layout de grade para formar uma
+      forma alvo composta. A estação grid-match trabalha em
+      encaixe espacial junto com composição. Vocabulário pt-
+      BR canônico para composição-de-formas: compor /
+      decompor; forma composta / forma primitiva; parte /
+      todo; encaixar / juntar; quadrado / triângulo /
+      retângulo / hexágono / pentágono. Use "compor" + "
+      decompor" como termos BNCC canônicos K-3.
+  closure:
+    body: |
+      Recuperação rápida de composição com toda a turma. A
+      professora ou o professor mostra formas compostas no
+      quadro; a turma nomeia coletivamente a composição
+      primitiva. "Quadrado + triângulo em cima — casinha!
+      Dois triângulos se encontrando — quadrado! Seis
+      triângulos ao redor de um ponto — hexágono!" Depois
+      pergunta o reverso: "Como podemos fazer um retângulo?"
+      (Dois quadrados; OU um quadrado + meio quadrado; OU
+      quatro retângulos menores.) Reconhecimento de múltiplas-
+      respostas é importante — a maioria das formas compostas
+      tem várias decomposições válidas. Indicador adiante:
+      "Hoje compusemos formas a partir de formas menores.
+      Compor e decompor formas é o que as crianças fazem
+      quando constroem com blocos, fazem quebra-cabeças
+      tangram, dobram papel e desenham. Na próxima vez em
+      geometria, conheceremos PARTICIONAR FORMAS EM PARTES
+      IGUAIS (metades e quartos) e SIMETRIA (linhas que
+      dividem uma forma em metades-espelho correspondentes)."
+
+assessmentCriteria:
+  pt: |
+    Ao final da unidade de 1 semana:
+      - Compor uma forma composta alvo a partir de um conjunto
+        dado de peças primitivas em 7 de 10 tentativas.
+      - Decompor uma forma composta em partes primitivas
+        nomeadas em 6 de 10 tentativas.
+      - Identificar a primitiva faltante em uma forma composta
+        parcial em 7 de 10 tentativas.
+      - Articular a composição em voz alta ('uma casinha é
+        um quadrado mais um triângulo em cima') em 5 de 10
+        tentativas de linguagem produtiva.
+      - Reconhecer que a maioria das formas compostas tem
+        múltiplas decomposições válidas (e.g., um retângulo
+        = dois quadrados OU quatro retângulos menores OU
+        dois triângulos cortados diagonalmente) em 4 de 6
+        tentativas.
+
+    Diferenciação:
+      - Pré-K (3-5 anos): construir reconhecimento de formas
+        primitivas primeiro; o trabalho de composição pode
+        ser introduzido informalmente via brincadeira livre
+        com peças de forma (sem requisito de nomeação).
+      - Educação infantil (5-7 anos): introduzir composição
+        apenas com compostas de duas peças (dois triângulos
+        em um quadrado; dois quadrados em um retângulo);
+        compostas maiores (hexágono de seis triângulos,
+        foguete multi-peça) diferidas.
+      - 1º ano: fluência completa de composição em todo o
+        conjunto de primitivas; múltiplas decomposições
+        válidas reconhecidas; ambas as direções compor e
+        decompor praticadas.
+      - 2º ano em diante: estender para composição de formas
+        3D (cubos a partir de cubos menores; prismas
+        retangulares a partir de cubos); ponte para cálculo
+        de área (compor-depois-contar quadrados de grade) +
+        trabalho de fração-de-forma (partition-shape-halves-
+        quarters é o próximo pacote de geometria).
+
+compositionalRationale:
+  pt: |
+    Fio principal: matemática / geometria (compor formas 2D
+    a partir de formas menores — estende fio 5/8 → 6/8 via
+    trabalho de composição-espacial). Fio secundário:
+    raciocínio-espacial (crianças manipulam peças no espaço
+    + raciocinam sobre relações parte-todo). Fio terciário:
+    aquisição-de-vocabulário (vocabulário de composição:
+    compor, decompor, parte, todo, primitiva, composta).
+
+    Significância arquitetural: estende o fio de geometria
+    de reconhecimento-de-forma + análise-de-atributos (Arc
+    9 identify-2d-shapes-basic + Arc 9 identify-2d-shapes-
+    extended + Arc 14 describe-shape-attributes) para
+    raciocínio de composição-espacial. Primeiro pacote a
+    fazer surgir a estrutura parte-todo das formas — as
+    crianças aprendem que formas compostas familiares
+    (casinha, peixe, foguete) se decompõem em formas
+    primitivas (triângulo, quadrado, retângulo), e as
+    primitivas se compõem em compostas. Esta é a âncora
+    K-3 para o raciocínio geométrico posterior: cálculo de
+    área trata uma forma complexa como soma de áreas mais
+    simples; trabalho de fração-de-forma (candidato Arc 17+
+    partition-shape-halves-quarters) é composição com a
+    restrição de partes iguais.
+
+    Especificidade pt-BR: composição-de-formas é conceito
+    universal + traduzível 1:1 do en. Vocabulário pt-BR
+    canônico:
+    - **"compor"** / **"decompor"** — termos BNCC canônicos
+      K-3; cognatos com en 'compose' / 'decompose'.
+    - **"forma composta"** / **"forma primitiva"** — termos
+      K-3 para a relação parte-todo entre formas; "composta"
+      e "primitiva" são acessíveis K-3 quando introduzidos
+      com contexto manipulativo.
+    - **"parte"** / **"todo"** — vocabulário básico K-3 para
+      a relação geral; usado em pt-BR desde Educação Infantil.
+    - **"encaixar"** / **"juntar"** — verbos K-3 naturais
+      para a ação física de combinar peças.
+    - **"quadrado / triângulo / retângulo / hexágono /
+      pentágono / círculo / semicírculo"** — vocabulário
+      cognato com en para as formas primitivas; pt-BR é
+      cognato-rich com en aqui, facilitando o trabalho de
+      composição translocale.
+
+    Os nomes das formas em pt-BR são em grande parte
+    cognatos com en (triangle/triângulo; square/quadrado —
+    cognato com 'quadrado' = quatro; pentagon/pentágono =
+    pent (cinco) + ágono; hexagon/hexágono = hex (seis) +
+    ágono — os nomes pt-BR já encodificam estruturalmente
+    a contagem dos lados/cantos para as crianças que
+    reconhecem os prefixos numéricos). Esta transparência
+    etimológica torna o trabalho de composição mais
+    legível em pt-BR.
+
+    Currículo BNCC EF01MA13 (1º ano) + EF02MA15 (2º ano):
+    reconhecer e nomear figuras planas; comparar atributos
+    de figuras geométricas planas; identificar pontos de
+    referência em figuras geométricas; compor e decompor
+    figuras planas a partir de outras figuras planas.
+
+    Substrato Class B FLEXIBLE: composta contra tema shapes
+    (tema canônico do fio de geometria — usado por identify-
+    2d-shapes-basic + identify-3d-shapes + identify-3d-
+    shape-properties + describe-shape-attributes; consistência
+    cross-arc).

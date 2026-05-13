@@ -1,0 +1,308 @@
+# Teaching package — complete analogies from image pairs
+# Arc 17 Phase 1.1 (cognitive-and-executive-function / logical-reasoning strand
+# SAT close: 4/5 → 5/5). Final canonical fill for the logic strand. Vocab-anchored
+# relational-reasoning work: kids identify how a pair of images relate, then
+# apply the same relation to complete a parallel pair.
+
+targetSlug: complete-analogy-image-pair
+language: en
+title:
+  en: "Complete the Analogy — image-pair relational reasoning"
+
+description:
+  en: "Kindergarten / Grade 1 logical-reasoning package teaching analogy completion via image pairs. Kids see a pair that share a relation (puppy↔dog as the young-and-grown pair; foot↔shoe as the body-part-and-its-cover pair) and complete a second pair using the same relation. Foundational relational-reasoning skill: the rule is the RELATION between the two items, not the items themselves. Builds on existing logical-reasoning packages (cause-and-effect + AB/AAB/ABB pattern work from Arc 7 + 8) by introducing analogy as a parallel-relation operation. SAT-CLOSING package: completes logical-reasoning strand at 5/5 canonical targets. Vocab-anchored — naming the relation (\"the puppy GROWS UP to be a dog\") reinforces vocabulary while exercising relational cognition. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class concrete-analogy hook. Teacher holds up a puppy
+      picture and a dog picture. "These two are a pair — they go
+      together. How are they related? The puppy GROWS UP to be the
+      dog. Same animal, different age." Teacher then holds up a
+      kitten picture. "Kitten goes with ... ?" Class predicts: cat.
+      "Yes! Kitten grows up to be a cat — same relation as puppy and
+      dog." Teacher introduces the analogy frame: "puppy is to dog
+      AS kitten is to cat." Repeat with 2 more relation types:
+      mother-baby (cow↔calf as sheep↔lamb), tool-action (broom↔sweep
+      as fork↔eat). Pattern emphasis: "Find the RELATION in the
+      first pair, then use the SAME RELATION for the second pair."
+
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + analogy-card routine. Each pair receives 12
+      analogy-card sets (4 cards per analogy: image A + image B
+      that share a relation, plus image C + a choice of 3 image
+      candidates for image D). Kid A reads the first pair aloud
+      ("dog and bone"), then names the relation ("the dog eats the
+      bone — animal and its food"). Kid B applies the same relation
+      to the second pair ("cat and ... fish? milk? a ball?"). Class
+      recasts errors with relation-explanation ("dog goes with bone
+      because dogs eat bones; cat goes with FISH because cats eat
+      fish — not with a ball. The relation is animal-and-its-food").
+      Relations included: young-grown (puppy↔dog as kitten↔cat),
+      animal-home (bird↔nest as bee↔hive), animal-baby (cow↔calf as
+      sheep↔lamb), animal-food (dog↔bone as cat↔fish), tool-action
+      (broom↔sweep as fork↔eat), object-cover (foot↔shoe as
+      head↔hat).
+
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching worksheet (image-pair to
+      relation-name matching: pair of images → relation card).
+      Station 2: pattern-worksheet (complete the analogy from
+      3 choice options; the puzzle frame is the parallel-relation
+      task). Station 3: matching worksheet (relation variant — same
+      mechanic, different relation types across the worksheet).
+      Station 4: word-guess (kids guess the missing partner in a
+      written analogy frame "puppy is to dog as kitten is to _ _ _").
+
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class analogy circle. Teacher presents 5 incomplete
+      analogies; class collectively completes each by naming the
+      relation first. "Bird is to nest as bee is to ... ?" (HIVE,
+      because that's where bees live, just like nests are where
+      birds live). "Hand is to glove as foot is to ... ?" (SHOE,
+      because gloves cover hands and shoes cover feet). Forward-
+      pointer: "Today we completed analogies — we found the
+      relation in one pair and used the same relation for another
+      pair. When we come back to logic next, we'll work with
+      cause-and-effect chains — what happens when one thing leads
+      to another thing leads to another."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 8, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: pattern-worksheet
+    exerciseMode: mixed
+    customizationParameters: { exerciseCount: 6, themeSelect: animals, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, themeSelect: animals, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 16
+      cardsPerPage: 8
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 16
+      cardsPerPage: 8
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 5
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 6
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 7
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 8
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: cognitive-and-executive-function / logical-reasoning
+    (analogy completion; SAT-CLOSING canonical fill at 4/5 → 5/5).
+    Secondary strand: early-literacy / vocabulary-acquisition (relation
+    vocabulary + paired-object naming). Tertiary strand: cognitive-and-
+    executive-function / sorting-and-classification (analogy is a
+    relational-categorization operation — kids group pairs by the
+    relation that holds between their items).
+
+    Architectural significance: this package CLOSES the logical-reasoning
+    canonical strand at 5/5. Final canonical target for the strand
+    (preceding work covered AB pattern recognition + AAB/ABB extensions
+    + cause-and-effect at Arc 7-8). Analogy completion adds
+    PARALLEL-RELATION reasoning to the strand — distinct from pattern
+    work (which exercises sequential rule application) and cause-effect
+    work (which exercises temporal-causal reasoning). Logical-reasoning
+    strand now fully saturated; cognitive-and-executive-function domain
+    coverage advances: pattern-recognition + sorting-and-classification
+    + logical-reasoning + memory-and-attention all SAT post-Arc-17 P1.1.
+
+    Distinctive composition: 2 matching exercises (positions 1 + 2)
+    establish image-pair vocabulary substrate; pattern-worksheet
+    (position 3) applies analogy mechanic in puzzle form; word-guess
+    (position 4) bridges to written language frames; odd-one-out
+    (position 5) tests relational discrimination as assessment. Note:
+    matching app at positions 1+2 produces image-pair sets that the
+    pair-work routine adapts into 4-card analogy sets at scaffold time
+    (worksheets supply substrate; pair-work adapts substrate into
+    relational task).
+
+    Class B FLEXIBLE substrate: composes against animals theme primarily,
+    because animals are the K-3 highest-leverage substrate for
+    analogy relations: young-grown (puppy↔dog), home (bird↔nest),
+    food (dog↔bone), body-cover (animals don't wear clothes but human-
+    body-with-clothes work surfaces in scaffold).
+
+    Logic-class material composition: 8-material composition (full set
+    including vocabulary-tracing-strips). Departs slightly from Arc 7
+    identify-AB-pattern (7-material with no voc-tracing) to add
+    voc-tracing for analogy-vocabulary reinforcement: kids trace
+    relation-vocabulary words (\"grown\", \"baby\", \"home\", \"food\")
+    that name the analogy types. Logic-class composition canonical
+    going forward: 8-material standard set; per-package adjustment
+    surfaces at draft review (e.g., pattern-recognition packages may
+    skip voc-tracing where the mechanic doesn't surface load-bearing
+    vocabulary).
+
+    K-3 multilingual classroom relevance: analogy work is HIGHLY
+    transferable across locales — the cognitive operation (find the
+    relation, apply it again) is language-portable. Locale-variant
+    work adapts the relation-vocabulary register (en \"grown / baby\";
+    de \"erwachsen / Baby\"; es \"adulto / bebé\"; pt-BR
+    \"adulto / filhote\"). Some analogy domains land more naturally
+    in some locales than others (e.g., \"sock↔foot as glove↔hand\"
+    works universally; \"chopstick↔rice\" works less well outside
+    Asian-cultural contexts — locale-variant adapts substrate).
+    Particularly load-bearing for international multilingual classroom
+    contexts where kids' relational-reasoning is exercised in
+    multiple languages simultaneously, accelerating cross-language
+    transfer of cognitive skills.
+
+curriculumStandards:
+  - CCSS.K.OA.A.4
+  - CCSS.1.OA.D.7
+  - EYFS.ELG.UW
+  - EYFS.ELG.M
+  - IB-PYP.HowTheWorldWorks
+  - IB-PYP.HowWeOrganizeOurselves
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Identify the relation in a 2-image pair from 4 named-relation
+        options (young-grown, animal-home, animal-food, tool-action)
+        in 8 of 10 trials.
+      - Complete a 4-card analogy (A↔B as C↔?) from 3-choice options
+        in 7 of 10 trials.
+      - Produce a verbal analogy completion using the sentence frame
+        \"___ is to ___ as ___ is to ___\" in 5 of 8 productive
+        trials.
+      - Generate one original analogy pair given a starting pair
+        (open-ended; teacher accepts any relation kid can articulate)
+        in 4 of 6 trials.
+
+    Differentiation:
+    - Pre-K: 2-relation set (young-grown + animal-food); receptive
+      matching only; no verbal frame requirement.
+    - K: 4-relation set; matching + 3-choice completion; verbal
+      frame introduced.
+    - Grade 1+: 6-relation set; productive verbal frames + original-
+      analogy generation; bridge to abstract analogy (e.g.,
+      part-whole, function-purpose) at Arc 18+ if filed.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

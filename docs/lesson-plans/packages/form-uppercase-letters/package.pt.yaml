@@ -1,0 +1,208 @@
+# Teaching package — formar letras maiúsculas (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT per Arc 7 Phase 3 + Arc 3 Phase 1 sparse-override pattern.
+# Arc 17 Phase 1.5 pt-cadence continuation (18th consecutive arc).
+# pt sparse-override for fine-motor-and-visual-spatial / handwriting strand-OPENER.
+# Conteúdo de formação-de-letras universal — adaptação locale-específica para o
+# alfabeto pt-BR (mesmo conjunto de 26 letras que en; acentos são aplicados em
+# tempo-de-ortografia, não em tempo-de-formação). BR-MEC ensino fundamental anos
+# iniciais register per CLAUDE.md §6 + formal "você" address per §17.9.
+
+title:
+  pt: "Formar Letras Maiúsculas — trace e escreva as 26 letras"
+
+description:
+  pt: "Pacote de motricidade-fina + caligrafia para Educação Infantil / 1º ano que ensina as crianças a FORMAR as 26 letras maiúsculas via traçado + escrita independente. Constrói sobre Arc 10 Phase 1 identify-uppercase-letters (o pré-requisito de reconhecimento-de-letras — as crianças devem reconhecer uma letra antes de poder formá-la). PRIMEIRO pacote no fio de motricidade-fina-e-visual-espacial / caligrafia (atualmente 0/3 VAZIO); Phase 1.5 abre o fio para 1/3. As crianças começam com traçado-de-letra em modelos de linha pontilhada (o material canônico vocabulary-tracing-strips com `traceStyle: dotted` + `includeIndependentLine: true`) e progridem para formação-de-letra independente ao lado da prompt de traçado pontilhado. Per enquadramento §A.13.30 K-fundamental-informal: o trabalho de caligrafia K-1 é ROTINA BÁSICA DE FORMAÇÃO-DE-LETRA — as crianças aprendem a fazer uma forma de letra reconhecível, NÃO memorização formal de ordem-de-traços ou caligrafia precisa. A ordem-de-traços pode variar por quem ensina / currículo; a reconhecibilidade da forma da letra é o alvo de fluência load-bearing K-1. Âncora primária CCSS.L.K.1a ('Imprimir muitas letras maiúsculas e minúsculas'). 5 exercícios + 8 materiais imprimíveis em uma unidade de 1 semana. Material load-bearing: vocabulary-tracing-strips (o substrato literal da pedagogia caligráfica) + manipulative-cut-outs formas-de-letra (suporte cinestésico de formação-de-letra)."
+
+structure:
+  warmup:
+    body: |
+      Introdução de formação-de-letras com toda a turma. A
+      professora ou o professor exibe um A maiúsculo grande
+      no quadro. "Sabemos como se parece um A — ontem o
+      reconhecemos entre as outras letras. Hoje APRENDEMOS
+      A FAZER UM A. Vejam — duas linhas inclinadas se
+      encontrando no topo, uma linha horizontal cruzando o
+      meio." Traça o A no ar com um dedo; turma reflete.
+      Depois forma A no quadro com guias de linha pontilhada
+      mostrando os traços. Turma repete a formação: "Inclina
+      para baixo, inclina para baixo, atravessa!" Repete com
+      B (linha-vertical, curva-de-cima, curva-de-baixo) e
+      O (um grande círculo). Ênfase do padrão: "Toda letra
+      tem uma FORMA que reconhecemos + um jeito de FAZÊ-LA.
+      Hoje aprendemos a fazer as letras que já conhecemos."
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina traçar-depois-escrever-
+      independente. Cada dupla recebe vocabulary-tracing-
+      strips com letras-alvo em forma pontilhada ao lado de
+      uma linha de escrita-independente. Dupla alterna:
+      criança A traça uma letra na forma pontilhada;
+      criança B observa + nomeia a letra. Depois criança A
+      tenta a letra independentemente na linha em branco;
+      criança B compara a tentativa independente com a
+      forma pontilhada. Refraseie erros com guia-de-dedo
+      ("você fez o A com três linhas se cruzando — deixa
+      eu te mostrar de novo: duas linhas inclinadas se
+      encontrando, UMA horizontal cruzando"). A progressão
+      pontilhado-para-independente é o trabalho load-bearing
+      de motricidade-fina; o papel de quem ensina é modelar
+      a formação inicialmente + dar espaço conforme as
+      crianças ganham independência. Recortes-de-letras
+      manipulativos estão disponíveis como suporte
+      cinestésico — as crianças podem pegar um recorte 3D
+      de letra + sentir a forma com as mãos enquanto
+      escrevem. Vocabulário pt-BR canônico para formação-
+      de-letras: maiúscula / minúscula; traçar / escrever;
+      letra / forma; linha pontilhada; modelo. Use
+      "maiúscula" como termo K-3 canônico para uppercase;
+      "traçar" como verbo K-3 natural para tracing.
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: atividade matching
+      (as crianças combinam cada letra maiúscula à sua
+      imagem-âncora de vocabulário — refresh de
+      reconhecimento-de-letras que re-ancora a forma que
+      estão aprendendo a fazer). Estação 2: sequência de
+      alfabeto chart-count (contar através de A-Z reforça
+      o inventário de letras enquanto o trabalho de
+      formação continua). Estação 3: math-puzzle
+      (preenchimento de forma-de-letra — dado um contorno
+      parcial de letra, a criança completa os traços
+      faltantes). Estação 4: missing-pieces (completação
+      de lacunas semelhante no nível da forma-de-letra).
+  closure:
+    body: |
+      Recuperação rápida de formação-de-letras com toda a
+      turma. A professora ou o professor nomeia uma letra;
+      a turma faz a letra no ar com um dedo + diz a
+      formação em voz alta. "Façam M! — para baixo, sobe
+      inclinado, desce inclinado, sobe!" "Façam C! — Uma
+      grande curva!" "Façam T! — Atravessa, depois desce!"
+      Indicador adiante: "Hoje abrimos nosso trabalho de
+      CALIGRAFIA — formando as letras maiúsculas que já
+      reconhecemos. A seguir aprenderemos as formas das
+      letras MINÚSCULAS (a, b, c, ...) e formação de
+      números (0, 1, 2, ..., 9). A rotina motora que vocês
+      aprenderam hoje — traçar na forma pontilhada, depois
+      escrever independentemente — funciona para toda
+      letra e todo número daqui para a frente."
+
+assessmentCriteria:
+  pt: |
+    Ao final da unidade de 1 semana:
+      - Traçar 20 de 26 letras maiúsculas de forma
+        reconhecível no modelo de linha pontilhada em 8
+        de 10 tentativas.
+      - Formar independentemente 15 de 26 letras maiúsculas
+        de forma reconhecível (não perfeitamente — de forma
+        reconhecível) em 7 de 10 tentativas.
+      - Usar vocabulário 'traçar' / 'escrever' / 'letra' /
+        'forma' corretamente em 6 de 10 tentativas de
+        linguagem produtiva.
+      - Pegada-de-lápis + posição-de-papel estáveis por
+        5+ minutos de trabalho contínuo de caligrafia em
+        4 de 5 sessões.
+
+    Diferenciação:
+      - Pré-K (3-5 anos): pular formação independente;
+        trabalho apenas-traçado em 8-10 letras mais
+        frequentes (vogais + AEIOU + consoantes comuns
+        BCDMNST). Desenvolvimento de pegada-de-lápis é
+        a meta motora primária.
+      - Educação infantil (5-7 anos): fluência completa de
+        traçado das 26 letras; formação independente nas
+        13 letras mais frequentes (AEIOUBCDMNSTR — as
+        maiúsculas mais comumente usadas em textos K).
+      - 1º ano: fluência completa de formação independente
+        das 26 letras; reconhecibilidade é a meta load-
+        bearing (não perfeição caligráfica).
+      - 2º ano em diante: reforço breve + ponte para
+        form-lowercase-letters (candidato Arc 18+) +
+        form-numerals-0-to-10. No 2º ano a maioria das
+        crianças transita para fluência de impressão-
+        escrita e o andaime de modelo-pontilhado cai.
+
+compositionalRationale:
+  pt: |
+    Fio principal: motricidade-fina-e-visual-espacial /
+    caligrafia (formar letras maiúsculas — ABRIDOR DE FIO
+    VAZIO → 1/3; primeiro pacote do fio de caligrafia no
+    catálogo). Fio secundário: alfabetização-inicial /
+    reconhecimento-de-letras (o trabalho de formação reforça
+    o reconhecimento de forma-de-letra que as crianças
+    estabeleceram no pré-requisito identify-uppercase-
+    letters). Fio terciário: controle-motor-fino (o
+    trabalho real de pegada-de-lápis + controle-de-traço
+    que a caligrafia requer).
+
+    Significância arquitetural: abre o fio motricidade-
+    fina-e-visual-espacial / caligrafia. Este é um pacote
+    PRIMEIRO-NO-FIO — o trabalho de caligrafia não estava
+    previamente representado no catálogo. Phase 1.5 abre
+    o fio com a habilidade fundamental (formação de letra
+    maiúscula); Arc 18+ continua com form-lowercase-letters
+    + form-numerals-0-to-10 para levar o fio ao SAT 3/3
+    completo. Per cadeia de pré-requisitos learning-
+    targets.json: form-uppercase-letters → form-lowercase-
+    letters (que também requer identify-lowercase-letters);
+    form-numerals-0-to-10 é o alvo paralelo de caligrafia-
+    de-numeracia.
+
+    Referência cruzada a Arc 10 Phase 1 identify-uppercase-
+    letters (o pré-requisito): aquele pacote estabeleceu
+    RECONHECIMENTO de forma-de-letra (as crianças podem
+    nomear letras quando lhes são mostradas); este pacote
+    estabelece FORMAÇÃO de forma-de-letra (as crianças
+    podem produzir letras com um lápis). A sequência
+    reconhecimento-antes-de-formação é pedagogia canônica
+    de alfabetização-inicial — as crianças não conseguem
+    formar de forma confiável uma letra cuja forma não
+    reconhecem.
+
+    Per enquadramento §A.13.30 K-fundamental-informal:
+    caligrafia K-1 é FORMAÇÃO DE LETRA RECONHECÍVEL, não
+    memorização formal de ordem-de-traços ou caligrafia
+    precisa. Os modelos de linha pontilhada do material
+    vocabulary-tracing-strips guiam as crianças através
+    de formas canônicas de letra; a linha de escrita-
+    independente permite que as crianças tentem a formação
+    sem andaime. Tanto quem ensina quanto pais e mães
+    podem usar qualquer pedagogia de ordem-de-traços que
+    seu currículo prefira — este pacote ensina o RESULTADO
+    (formas de letra reconhecíveis) sem prescrever um
+    PROCESSO. As crianças K-1 lutam fisicamente com
+    caligrafia precisa; a meta nesta idade é a fluência da
+    rotina motora.
+
+    Especificidade pt-BR: formação de letra maiúscula é
+    target-language-specific. O alfabeto pt-BR usa o
+    mesmo conjunto de 26 letras que en (A-Z); acentos
+    são aplicados a vogais em tempo-de-ortografia (não em
+    tempo-de-formação), portanto o trabalho de formação
+    base pt-BR é estruturalmente idêntico ao en em termos
+    do conjunto-de-letras. Vocabulário pt-BR canônico:
+    - **"maiúscula"** / **"letra maiúscula"** — termo K-3
+      canônico para uppercase; em contraste com "minúscula"
+      para lowercase.
+    - **"traçar"** — verbo K-3 natural para tracing;
+      cognato com en 'trace'.
+    - **"escrever"** — verbo K-3 para writing; usado para
+      formação independente.
+    - **"forma da letra"** / **"forma"** — termo K-3 para
+      letter-shape; ancorado em vocabulário visual K-3.
+    - **"linha pontilhada"** / **"modelo pontilhado"** —
+      descrição K-3 do template de traçado.
+
+    Currículo BNCC EF01LP04 (1º ano) + EF02LP02 (2º ano):
+    distinguir as letras do alfabeto de outros sinais
+    gráficos; escrever, espontaneamente ou por ditado,
+    palavras e frases de forma alfabética — usando letras
+    maiúsculas conforme apropriado.
+
+    Substrato Class B FLEXIBLE: composta contra tema
+    animals (precedente de classe-de-alfabetização per
+    identify-uppercase-letters + identify-letter-sounds-
+    vowels; nomes-de-animais vocab-ancorados por letra —
+    A-Antílope, B-Bicho-preguiça, C-Cachorro, etc. —
+    fornecem a âncora familiar de vocabulário).

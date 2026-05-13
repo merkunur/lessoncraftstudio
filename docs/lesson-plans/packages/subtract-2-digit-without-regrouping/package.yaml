@@ -1,0 +1,310 @@
+# Teaching package — subtract two-digit numbers without borrowing
+# Arc 17 Phase 1.2 (math / addition-subtraction 10/14 → 11/14). Bridges Arc 15 Phase 1 subtract-within-20 → Arc 16 Phase 1.1 subtract-within-100 by isolating the no-borrow case as conceptual stepping stone. Paired inverse companion: add-2-digit-without-regrouping (same arc phase).
+
+targetSlug: subtract-2-digit-without-regrouping
+language: en
+title:
+  en: "Subtracting Two-Digit Numbers Without Borrowing — column subtraction where ones don't cross"
+
+description:
+  en: "Grade 1 math package teaching two-digit subtraction where the ones digit of the minuend is at least as big as the ones digit of the subtrahend (problems like 67-23=44, 89-47=42, 78-56=22, 95-64=31). Builds on Arc 15 Phase 1 subtract-within-20 + Arc 15 tens-and-ones place-value foundation. Conceptual stepping stone to Arc 16 Phase 1.1 subtract-within-100 (where borrowing is introduced) — this package isolates the two-digit subtraction mechanic in the no-borrow case, so kids meet column-subtraction WITHOUT also having to manage the borrow move. Once the column-subtraction routine feels familiar (line up tens with tens, ones with ones, subtract each column), borrowing becomes an addition to a routine rather than a whole new procedure. Operand range 10–99; constraint: ones-of-minuend ≥ ones-of-subtrahend. Strategy diversity emphasized: column-subtract, decomposition (67-23 = 60-20 + 7-3 = 40+4 = 44), count-back, place-value-mat enactment. 5 worksheet exercises + 7 printable materials over a 1-week unit. Paired inverse companion: add-2-digit-without-regrouping (no-carry partner). Together they prepare kids for the regrouping/borrowing introduction at Arc 16's within-100 packages."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook + place-value-aware subtraction introduction
+      with no borrowing needed. Teacher displays 67-23 written
+      vertically with tens-and-ones columns clearly marked.
+      "Today we subtract BIGGER numbers — two-digit minus two-
+      digit. Let's solve 67 - 23. We subtract the ONES first:
+      7-3 = 4. Then the TENS: 6-2 = 4 tens = 40. Plus 4 ones =
+      44." Teacher repeats with 89-47 (ones: 9-7=2; tens: 8-4=4
+      tens = 40; total 42) and 95-64 (ones: 5-4=1; tens: 9-6=3
+      tens = 30; total 31). Pattern emphasis: "Line up the tens.
+      Line up the ones. Subtract each column. Today the top
+      number's ones are always bigger than (or equal to) the
+      bottom number's ones, so we never have to BORROW." Teacher
+      contrasts briefly with a borrowing preview: "Tomorrow when
+      we subtract 73 - 28, the top ones (3) will be SMALLER than
+      the bottom ones (8) — and we'll have to BORROW from the
+      tens. But today, the top ones are always big enough to
+      hand over what we need."
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + base-ten manipulative routine. Each pair receives
+      base-ten kits (ten-sticks + single-counters) + a worksheet
+      with 6 no-borrow problems (67-23, 89-47, 78-56, 95-64,
+      48-25, 56-31). Pair takes turns: kid A builds the minuend
+      (top number) on the place-value-mat — tens in tens column,
+      ones in ones column; kid B physically removes the
+      subtrahend (bottom number) — removing tens from tens
+      column, ones from ones column, never crossing between
+      columns. Together they count what remains in each column
+      separately + write the answer. The mat's column structure
+      makes the place-value invariant visible — kids see that
+      tens-place subtraction and ones-place subtraction are two
+      independent moves when no borrowing is needed. Recast
+      errors with column-cue ("you removed 2 tens from the tens
+      column — 6 tens minus 2 tens leaves 4 tens. Then the
+      ones."). Strategy choices: kids may use manipulatives +
+      place-value-mat, column-subtract written, decomposition,
+      count-back, OR use-known-facts; teacher accepts any
+      strategy that produces correct answer + can be explained.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: subtraction worksheet
+      (vertical format with no-borrow operands — column-
+      subtract practice with no cross-column move). Station 2:
+      math-worksheet (mixed no-borrow subtraction problems).
+      Station 3: math-puzzle (missing-operand: 67-?=44; ?-23=44
+      — kids work back from difference to find missing operand).
+      Station 4: more-less (compare two subtraction results:
+      which difference is greater, 67-23 or 89-47?). Manipulative-
+      cut-outs base-ten available at any station for kids who
+      want concrete backup.
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class no-borrow subtraction quiz. Teacher presents 5
+      fast problems; class collectively answers + names the tens
+      and ones results. "67-23? 89-47? 78-56? 95-64? 48-25?"
+      Forward-pointer: "Today we subtracted two-digit numbers
+      when the top ones are big enough. When we come back, we'll
+      meet SUBTRACT WITHIN 100 — same column-subtract routine,
+      but now the top ones are sometimes smaller than the bottom
+      ones and we'll learn to BORROW (break a ten into ten ones).
+      And remember today's partner work: ADDING TWO-DIGIT NUMBERS
+      WITHOUT REGROUPING — same column structure, putting
+      together instead of taking apart."
+
+composedExercises:
+  - appName: subtraction
+    exerciseMode: vertical-subtraction
+    customizationParameters: { themeSelect: animals, languageSelect: en, maxNumber: 99 }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: math-worksheet
+    exerciseMode: vertical-subtraction
+    customizationParameters: { operationType: subtraction, maxNumber: 99, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: math-puzzle
+    exerciseMode: missing-operand
+    customizationParameters: { operationType: subtraction, maxNumber: 99, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: more-less
+    exerciseMode: number-result
+    customizationParameters: { mode: number-result, operationType: subtraction, maxNumber: 99, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: math-worksheet
+    exerciseMode: vertical-subtraction
+    customizationParameters: { operationType: subtraction, maxNumber: 99, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 30
+      cardsPerPage: 8
+      colorMode: color
+      labelDisplay: math-expression
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 20
+      cardsPerPage: 8
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: place-value-mat
+    customizationParameters:
+      tensColumn: true
+      onesColumn: true
+      maxNumber: 99
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: subtraction-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: base-ten-blocks
+      itemCount: 100
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: math / addition-subtraction (two-digit
+    subtraction without borrowing — deepens strand 10/14 →
+    11/14; paired inverse of Arc 17 Phase 1.2 add-2-digit-
+    without-regrouping). Secondary strand: math / place-value
+    (column-subtraction makes tens-and-ones structure
+    operationally explicit; the no-borrow constraint keeps
+    the place-value invariant clean — tens-place and ones-
+    place subtraction are two independent moves, no cross-
+    column traffic). Tertiary strand: numeracy (strategy-
+    based subtraction: column-subtract, decomposition,
+    count-back, place-value-mat enactment).
+
+    Architectural significance: bridges Arc 15 Phase 1
+    subtract-within-20 foundation → Arc 16 Phase 1.1
+    subtract-within-100 (borrowing introduced there). This
+    package isolates the two-digit column-subtraction
+    mechanic in the no-borrow case, so kids meet place-
+    value-aware subtraction + the column routine WITHOUT
+    also having to manage borrowing. Once the column-
+    subtraction routine is familiar, borrowing at subtract-
+    within-100 becomes an addition to an existing routine
+    rather than a whole new procedure. Pedagogical
+    sequencing matches the standard K-3 curriculum
+    progression (no-borrowing before borrowing introduces
+    the algorithm in stages).
+
+    Paired inverse companion: add-2-digit-without-regrouping
+    (same arc phase) — kids meet column-addition in the no-
+    carry case in parallel. The two packages share place-
+    value-mat infrastructure + base-ten manipulatives +
+    column-operation format, differing only in operation
+    direction (combining vs. taking apart). Together they
+    prepare the ground for the regrouping/borrowing
+    introduction at add-within-100 + subtract-within-100;
+    this paired structure mirrors the Arc 16 Phase 1.1
+    pairing of add-within-100 + subtract-within-100.
+
+    Distinctive composition: 1 subtraction (vertical format)
+    + 2 math-worksheet (vertical subtraction with no-borrow
+    operands) + 1 math-puzzle (missing-operand) + 1 more-
+    less (compare subtraction results). Vertical format
+    emphasized — column alignment is the load-bearing visual
+    structure; kids learn to align tens-under-tens and ones-
+    under-ones BEFORE they have to manage borrow-marks. The
+    math-puzzle missing-operand work at position 3
+    introduces inverse-thinking (67-?=44) which complements
+    the same package's straightforward subtraction.
+
+    Class B FLEXIBLE substrate: composes against animals
+    theme (countable for subtraction work; cross-arc with
+    Arc 12-16 addition/subtraction themes for consistency;
+    pair-coherence with add-2-digit-without-regrouping
+    which uses the same theme).
+
+    K-3 multilingual classroom relevance: two-digit
+    subtraction universal K-3 content. Two-digit number-
+    word naming carries cross-locale irregularities as
+    described in add-2-digit-without-regrouping (en regular;
+    de reverse-decade; fr 70-99 irregular; fi agglutinative).
+    The no-borrowing constraint keeps the cross-locale work
+    focused on number-word fluency without simultaneously
+    introducing borrow-vocabulary (which lands at subtract-
+    within-100). Borrowing vocabulary varies across locales:
+    en "borrow"; de "borgen"; es "pedir prestado"; pt
+    "emprestar"; fr "emprunter" — that complexity stays out
+    of this package's scope. Locale-variant work at Phase
+    3+ adapts to each locale's two-digit number-word
+    register without borrowing-vocabulary complexity.
+
+curriculumStandards:
+  - CCSS.1.NBT.C.6
+  - CCSS.2.NBT.B.5
+  - CCSS.1.OA.C.6
+  - EYFS.ELG.M
+  - IB-PYP.HowTheWorldWorks
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Compute two-digit subtraction without borrowing
+        correctly in 7 of 10 trials.
+      - Align tens-under-tens and ones-under-ones in column
+        format in 8 of 10 problems.
+      - Use at least 2 subtraction strategies (e.g., column-
+        subtract + decomposition) in 5 of 10 trials.
+      - Solve missing-operand problems within the no-borrow
+        range (67-?=44) in 5 of 10 trials.
+
+    Differentiation:
+    - Pre-K: skip two-digit; review subtract-within-10.
+    - K: introduce two-digit minus ones (47-3, 60-4) before
+      two-digit minus two-digit; manipulative support
+      emphasized; avoid problems requiring borrowing
+      initially.
+    - Grade 1: full two-digit minus two-digit without
+      borrowing; column-subtract format practiced;
+      transitions to subtract-within-100 (Grade 2) when
+      borrowing is the next conceptual step.
+    - Grade 2+: brief reinforcement; the no-borrow case
+      becomes the easy subset of subtract-within-100;
+      fluency target is mental two-digit subtraction in
+      the no-borrow case.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

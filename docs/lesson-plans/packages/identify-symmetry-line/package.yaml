@@ -1,0 +1,335 @@
+# Teaching package — identify a line of symmetry (informal)
+# Arc 17 Phase 1.4 (geometry 6/8 → 7/8). K-Grade 2 informal anchor for noticing bilateral symmetry in simple shapes. Formal axis-of-symmetry standard (CCSS.4.G.A.3) lives outside K-3 scope; this package teaches the K-3-appropriate noticing skill via folding + matching activities.
+
+targetSlug: identify-symmetry-line
+language: en
+title:
+  en: "Notice Lines of Symmetry — fold and match the two halves"
+
+description:
+  en: "K-Grade 2 math/geometry package teaching kids to notice when a shape has a line of symmetry — a line that lets you fold the shape so the two halves MATCH. A circle has many such lines; a square has 4; a rectangle has 2; an equilateral triangle has 3; the letter A has 1 (vertical); the letter B has 1 (horizontal); the letter F has none. Builds on the Arc 5 identify-2d-shapes-basic foundation; extends geometry strand from shape-recognition + composition (Phase 1.3 compose-shapes-from-parts) into spatial-relation noticing. The K-3 framing is NOTICING / SPOTTING symmetry — kids fold paper shapes and see whether the halves overlap, or look at pictures and spot the fold line that would make halves match. The FORMAL axis-of-symmetry identification (counting exact lines on irregular shapes, identifying rotational symmetry, distinguishing reflective from rotational) is the Grade 4 standard (CCSS.4.G.A.3) and lives outside K-3 scope. EYFS.ELG.UW partial fit at K-2 level for the noticing skill. Geometry strand 5/8 → 6/8 with Phase 1.3 compose-shapes-from-parts already shipped; this package brings the strand to 6/8 → 7/8 (1 remaining canonical target: partition-shape-halves-quarters). 5 worksheet exercises + 7 printable materials over a 1-week unit. Manipulative-cut-outs in single-repeat mode is load-bearing — kids physically fold paper shapes to discover symmetry."
+
+durationMinutes: 25
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook + symmetry-fold introduction. Teacher
+      holds up a paper heart. "Watch what happens when I
+      fold this heart down the middle." Teacher folds the
+      heart along its vertical center. "The two halves
+      MATCH! They overlap exactly. We say this heart has a
+      LINE OF SYMMETRY — a fold line that makes the two
+      halves match." Teacher unfolds the heart + traces the
+      fold line with a finger. Then a non-symmetric shape:
+      teacher holds up a paper leaf with one large lobe +
+      one small lobe (asymmetric leaf). "Watch this leaf —
+      can I fold it so the halves match?" Teacher tries
+      several fold directions; none produce matching
+      halves. "This leaf has NO line of symmetry. The two
+      sides don't match no matter where I fold." Teacher
+      repeats with familiar shapes: a square (4 fold lines
+      — vertical, horizontal, and the two diagonals); a
+      rectangle (2 fold lines — vertical + horizontal,
+      but NOT the diagonals because the halves are
+      different shapes); a circle (many fold lines — you
+      can fold any way through the center); a triangle
+      (depends — equilateral has 3, isoceles has 1, scalene
+      has 0). Pattern emphasis: "A SYMMETRY LINE is a fold
+      line that makes the two halves MATCH. Some shapes
+      have many; some have one; some have NONE."
+  contentActivity:
+    durationMinutes: 10
+    body: |
+      Pair work + paper-folding routine. Each pair receives
+      a stack of paper shape cut-outs (8-10 shapes per pair:
+      circle, square, rectangle, equilateral triangle,
+      isoceles triangle, scalene triangle, heart, star,
+      letter A, letter F, butterfly outline, leaf outline).
+      Pair plays the symmetry-discovery game: kid A picks a
+      shape; both kids physically try to fold it different
+      ways to find symmetry lines. They draw each fold line
+      on the shape with a pencil. After exploring all
+      shapes, they record: how many symmetry lines does
+      each shape have? (circle: many — kids might say 'lots'
+      or 'so many'; square: 4; rectangle: 2; equilateral
+      triangle: 3; scalene triangle: 0; heart: 1; letter A:
+      1; letter F: 0; butterfly: 1.) Recast errors by
+      folding alongside: "you said the rectangle has 4
+      lines like the square — let's try folding diagonally.
+      See how the two halves are different shapes? That
+      diagonal isn't a symmetry line for the rectangle."
+  scaffold:
+    durationMinutes: 7
+    body: |
+      Station rotation. Station 1: matching activity — match
+      each shape to its symmetry-line count (circle → many;
+      square → 4; rectangle → 2; equilateral triangle → 3;
+      heart → 1; letter F → 0). Station 2: picture-sort —
+      sort shapes into 'has symmetry' / 'no symmetry'
+      categories. Station 3: missing-pieces — given the
+      left half of a symmetric shape, complete the right
+      half (kids reason about what the matching half would
+      look like). Station 4: matching variant — pair each
+      symmetric shape with its mirror-image partner.
+  closure:
+    durationMinutes: 3
+    body: |
+      Whole-class symmetry-noticing quick-recall. Teacher
+      shows shapes; class chorally responds. "Heart? — YES,
+      one symmetry line!" "Letter F? — NO, no symmetry!"
+      "Circle? — YES, lots of lines!" "Scalene triangle? —
+      NO!" "Equilateral triangle? — YES, three!" "Letter
+      A? — YES, one (down the middle)!" Forward-pointer:
+      "Today we noticed symmetry — when shapes fold so the
+      halves match. Symmetry shows up everywhere — in
+      flowers, butterflies, our own bodies (one eye on
+      each side; one arm on each side), in many letters of
+      the alphabet, in many road signs. When you grow older
+      you'll learn more PRECISE symmetry — exact angles
+      and rotation symmetry — but the NOTICING you learned
+      today is the foundation. Next time in geometry we'll
+      meet PARTITIONING SHAPES INTO EQUAL PARTS (halves
+      and quarters)."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: shapes, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: shapes, rightCategoryThemeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: missing-pieces
+    exerciseMode: unified
+    customizationParameters: { themeSelect: shapes, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 6, themeSelect: shapes, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: shapes, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      cardCount: 14
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      cardCount: 14
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      mode: single-repeat
+      itemCount: 32
+      itemSize: medium-1.5in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: shapes
+      pictureCueCount: 6
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: math / geometry (notice lines of
+    symmetry in simple shapes — extends strand 5/8 → 6/8
+    after Phase 1.3 compose-shapes-from-parts; brings the
+    strand to 6/8 → 7/8). Secondary strand: spatial-
+    reasoning (kids mentally + physically reason about
+    whether halves match under a fold). Tertiary strand:
+    visual discrimination (noticing exact-match vs near-
+    match between two halves).
+
+    Architectural significance: extends geometry strand
+    from shape-recognition + composition work into spatial-
+    relation noticing. Per §A.13.30 audience-perspective
+    discipline + commission spec: K-3 framing is NOTICING /
+    SPOTTING symmetry, NOT formal axis-of-symmetry
+    identification. The formal Grade 4 standard CCSS.4.G.A.3
+    (recognize a line of symmetry as a line across the
+    figure such that the figure can be folded along the
+    line into matching parts; identify line-symmetric
+    figures and draw lines of symmetry) lives outside K-3
+    scope; this package teaches the K-3-appropriate
+    informal noticing skill via folding + matching
+    activities. EYFS.ELG.UW partial fit at K-2 level (the
+    EYFS Understanding the World ELG includes spatial
+    awareness + observation of features).
+
+    K-3 noticing vs Grade-4 formal identification:
+    - K-3 (this package): physical folding of paper shapes
+      to see whether halves match; spot fold-lines
+      informally; count fold-lines for familiar simple
+      shapes (heart, square, rectangle); recognize
+      'symmetry vs no symmetry' as a binary distinction.
+    - Grade 4 (CCSS.4.G.A.3, outside K-3 scope):
+      identify lines of symmetry on more complex figures;
+      distinguish reflective from rotational symmetry;
+      draw exact symmetry lines using rulers + protractors.
+
+    Pair-coherent context: Phase 1.3 compose-shapes-from-
+    parts opened spatial-composition work; this package
+    opens spatial-relation noticing — together they build
+    the K-3 spatial-reasoning foundation that grounds
+    later partition + fraction-of-shape work (partition-
+    shape-halves-quarters is the 8th geometry canonical;
+    deferred to Phase 1.5+).
+
+    Distinctive composition: 3 matching (intro +
+    consolidation + assessment — multiple matching slots
+    because the matching mechanic is canonical for shape-
+    property pairing work) + 1 picture-sort (sort shapes
+    with-symmetry vs without-symmetry; the binary noticing
+    skill) + 1 missing-pieces (complete the symmetric
+    half — the reasoning task that tests whether kids
+    really internalized the symmetry concept). The
+    matching variety at positions 1, 4, 5 surfaces
+    different aspects of the same symmetry-noticing skill:
+    shape-to-line-count (position 1); shape-to-mirror-
+    partner (position 4); shape-to-property-statement
+    (position 5).
+
+    Class B FLEXIBLE substrate: composes against shapes
+    theme (geometry strand canonical theme per Phase 1.3
+    compose-shapes-from-parts + Arc 9 identify-2d-shapes-
+    basic + Arc 14 describe-shape-attributes precedents).
+
+    K-3 multilingual classroom relevance: symmetry-noticing
+    is universal K-3 spatial-reasoning content. The
+    folding-and-matching activity is locale-portable —
+    the visual judgment is the same in every locale.
+    Cross-locale symmetry vocabulary: en 'line of
+    symmetry' / 'symmetry' / 'mirror image'; de
+    'Symmetrieachse' / 'Spiegelbild' (mirror-image); es
+    'eje de simetría' / 'simetría' / 'reflexión'; pt
+    'eixo de simetria' / 'simetria'; fr 'axe de symétrie'
+    / 'symétrie'; fi 'symmetria-akseli'. The mathematical
+    word 'symmetry' is cognate-rich Romance + Germanic
+    (cognate with Greek 'symmetria'); pedagogical work is
+    locale-portable. Locale-variant work at Phase 3+
+    adapts symmetry-vocabulary register.
+
+curriculumStandards:
+  - EYFS.ELG.UW
+  - CCSS.4.G.A.3 (formal Grade 4 standard; outside K-3 scope but anchors the conceptual target)
+  - EYFS.ELG.M
+  - IB-PYP.HowTheWorldWorks
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Notice whether a given shape has symmetry (binary
+        yes/no judgment) in 8 of 10 trials.
+      - Identify the count of symmetry lines for the most
+        familiar simple shapes — heart (1), square (4),
+        rectangle (2), equilateral triangle (3), circle
+        ('many' or 'lots') — in 6 of 10 trials.
+      - Physically fold paper shapes to discover symmetry
+        lines in 7 of 10 trials.
+      - Complete the symmetric half of a shape (given the
+        left half, sketch the right half so the halves
+        match) in 5 of 10 trials.
+
+    Differentiation:
+    - Pre-K: skip the symmetry-count quantification; just
+      explore folding paper shapes informally — the
+      noticing skill is enough at Pre-K.
+    - K: introduce symmetry vs no-symmetry binary
+      distinction; full count quantification deferred to
+      Grade 1.
+    - Grade 1: count quantification for familiar simple
+      shapes (heart, square, rectangle, equilateral
+      triangle, letter A); bridge to noticing in real-
+      world images (butterflies, flowers, faces).
+    - Grade 2+: extend to more complex shapes
+      (pentagons, hexagons); introduce 'reflective
+      symmetry' as a name for what kids have been doing;
+      bridge to formal Grade 4 axis-of-symmetry work.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

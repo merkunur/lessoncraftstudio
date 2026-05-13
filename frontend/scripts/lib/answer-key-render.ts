@@ -122,6 +122,26 @@ const VOCAB_BEARING_SLUGS = new Set([
   'parent-take-home-letter',
 ]);
 
+/**
+ * F8 — per-material canonical count-field for vocab-table trimming inside the
+ * answer-key reference. Maps each vocab-bearing material slug to the
+ * customizationParameters key whose numeric value bounds the rendered
+ * material's vocab cardinality. Used to clamp the answer-key's per-material
+ * vocab-table to the material-specific count instead of the full theme/
+ * vocabKeyList. Without this, sentence-strips / manipulative-cut-outs /
+ * parent-take-home-letter render the full unsliced vocab (theme dir or
+ * vocabKeyList), producing redundant 30-40 entry tables when the actual
+ * material renders only stripCount / itemCount / pictureCueCount entries.
+ */
+const MATERIAL_COUNT_FIELD: Record<string, string> = {
+  'flashcards': 'cardCount',
+  'picture-cards': 'cardCount',
+  'sentence-strips': 'stripCount',
+  'bingo': 'cardCount',
+  'manipulative-cut-outs': 'itemCount',
+  'parent-take-home-letter': 'pictureCueCount',
+};
+
 function resolveMaterialContent(
   m: PackageMaterial,
   vocab: Record<string, VocabEntry>,
@@ -148,11 +168,18 @@ function resolveMaterialContent(
   const themeName = typeof params.themeName === 'string' ? (params.themeName as string) : null;
   const explicitKeys = Array.isArray(params.vocabKeys) ? (params.vocabKeys as string[]) : null;
 
+  // F8 — derive material-specific trim count from MATERIAL_COUNT_FIELD lookup.
+  // Applied uniformly at both vocab-source paths (vocabKeyList + theme).
+  // .slice(0, N) handles N > length and N < length cleanly without error.
+  const countField = MATERIAL_COUNT_FIELD[m.materialSlug];
+  const trimCount: number | null = countField && typeof params[countField] === 'number'
+    ? (params[countField] as number)
+    : null;
+
   if (imageSource === 'vocabKeyList' && explicitKeys && explicitKeys.length > 0) {
-    vocabKeys = explicitKeys;
+    vocabKeys = trimCount !== null ? explicitKeys.slice(0, trimCount) : explicitKeys;
   } else if (themeName) {
-    const cardCount = typeof params.cardCount === 'number' ? (params.cardCount as number) : null;
-    const filenames = pickThemeImages(themeName, cardCount);
+    const filenames = pickThemeImages(themeName, trimCount);
     vocabKeys = filenames.map(normalizeKey);
   }
 

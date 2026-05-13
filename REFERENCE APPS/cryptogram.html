@@ -1446,7 +1446,14 @@
         function getAlphabetForLocale(locale) {
             return languageAlphabets[locale] || languageAlphabets['en'];
         }
-        
+
+        function normalizeToAlphabet(char, alphabet) {
+            if (alphabet.includes(char)) return char;
+            const stripped = char.normalize('NFD').replace(/[̀-ͯ]/g, '');
+            if (alphabet.includes(stripped)) return stripped;
+            return char;
+        }
+
         let ALPHABET = getAlphabetForLocale(currentLocale).split("");
         const downloadMultiplier = 4;
 
@@ -2335,8 +2342,11 @@
                 await autoAssignImages();
             }
 
-            const uniqueLetters = [...new Set(phrases.join("").toUpperCase().split(""))]
-                .filter(c => ALPHABET.includes(c));
+            const uniqueLetters = [...new Set(
+                phrases.join("").toUpperCase().split("")
+                    .map(c => normalizeToAlphabet(c, ALPHABET))
+                    .filter(c => ALPHABET.includes(c))
+            )];
 
             const unassigned = uniqueLetters.filter(l => !assignedImages[l]);
             if (unassigned.length > 0) {
@@ -2356,11 +2366,15 @@
                 const wrappedLines = wrapLineByWords(phrase.toUpperCase(), maxCharsPerLine);
                 for (const lineText of wrappedLines) {
                     if (totalLines >= maxTotalLines) break;
-                    const lineData = lineText.split('').map(char => ({
-                        char,
-                        isLetter: ALPHABET.includes(char),
-                        image: assignedImages[char] || null
-                    }));
+                    const lineData = lineText.split('').map(char => {
+                        const normChar = normalizeToAlphabet(char, ALPHABET);
+                        return {
+                            char,
+                            normChar,
+                            isLetter: ALPHABET.includes(normChar),
+                            image: assignedImages[normChar] || null
+                        };
+                    });
                     puzzleGrid.push(lineData);
                     totalLines++;
                 }
@@ -2696,16 +2710,20 @@
                             img.set({ left: currentX + CELL_WIDTH / 2, top: CELL_HEIGHT * 0.75, originX: 'center', originY: 'center' });
                             lineObjects.push(img);
                         }
-                        const isBlankCell = cellData.isLetter && !puzzleData.clueLetters.includes(cellData.char);
+                        const cipherKey = cellData.normChar || cellData.char;
+                        const isBlankCell = cellData.isLetter && !puzzleData.clueLetters.includes(cipherKey);
                         const boxConfig = { width: CELL_WIDTH, height: CELL_HEIGHT * 0.45, fill: 'white', stroke: '#aaa', strokeWidth: 1, rx: 4, ry: 4, left: currentX, top: 0 };
                         if (isBlankCell) {
                             boxConfig.isCryptogramBlankCell = true;
-                            boxConfig.expectedLetter = cellData.char;
-                            boxConfig.cipherLetter = cellData.char;
+                            boxConfig.expectedLetter = cipherKey;
+                            boxConfig.cipherLetter = cipherKey;
+                            if (cellData.char !== cipherKey) {
+                                boxConfig.displayChar = cellData.char;
+                            }
                         }
                         const box = new fabric.Rect(boxConfig);
                         lineObjects.push(box);
-                        let letterToShow = cellData.isLetter ? (puzzleData.clueLetters.includes(cellData.char) ? cellData.char : '') : cellData.char;
+                        let letterToShow = cellData.isLetter ? (puzzleData.clueLetters.includes(cipherKey) ? cellData.char : '') : cellData.char;
                         const text = new fabric.Textbox(letterToShow, { width: CELL_WIDTH, fontSize: 24, fontWeight: 'bold', textAlign: 'center', left: currentX, top: (box.height / 2), originY: 'center' });
                         lineObjects.push(text);
                     }
@@ -4315,14 +4333,17 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             // (below) to describe the cipher key without leaking plaintext.
             var slots = tagged.gridRects.map(function (r) {
                 var letter = String(r.expectedLetter || r.cipherLetter || '').toUpperCase();
-
-                return {
+                var slot = {
                     slotType: 'grid',
                     kind: 'letter',
                     cipherLetter: letter,
                     expected: letter,
                     rect: _worldRectBounds(r)
                 };
+                if (r.displayChar && r.displayChar !== letter) {
+                    slot.displayChar = r.displayChar;
+                }
+                return slot;
             });
 
             var legendSlots = tagged.legendRects.map(function (r) {
@@ -4475,7 +4496,7 @@ async function downloadPDF(canvasToExport, fileName, opts) {
                 allCorrect: _rt("runtimeAllCorrect", "All correct!")
             };
             return {
-                bundleVersion: '16.3.0',
+                bundleVersion: '16.4.0',
                 schemaFormat: 'image-references-v2',
                 loadingMode: loadingMode,
                 imagePlacements: imagePlacements,
@@ -4597,7 +4618,7 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             '  var STRINGS = STRINGS_ALL[((DECK_BUNDLE && DECK_BUNDLE.contentLanguage) || "en").slice(0,2)] || STRINGS_ALL.en;',
             '  function T(k){return STRINGS[k]||STRINGS_ALL.en[k]||k}',
             '',
-            '  var state=DECK_BUNDLE.slots.map(function(sl,i){return{index:i,cipher:String(sl.cipherLetter||"").toUpperCase(),expected:String(sl.expected||"").toUpperCase(),rect:sl.rect,value:"",status:"empty"}});',
+            '  var state=DECK_BUNDLE.slots.map(function(sl,i){return{index:i,cipher:String(sl.cipherLetter||"").toUpperCase(),expected:String(sl.expected||"").toUpperCase(),displayChar:sl.displayChar||null,rect:sl.rect,value:"",status:"empty"}});',
             '  var legendState=(DECK_BUNDLE.legendSlots||[]).map(function(l){return{cipher:String(l.cipherLetter||"").toUpperCase(),rect:l.rect}});',
             '  var muted=false;try{muted=localStorage.getItem("lcsMuted")==="1"}catch(e){}',
             '  var reducedMotion=false;try{reducedMotion=window.matchMedia("(prefers-reduced-motion: reduce)").matches}catch(e){}',
@@ -4845,12 +4866,13 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             '        s.status="correct";',
             '        slot.classList.add("lcs-slot--correct");',
             '        correct++;',
+            '        if(s.displayChar)input.value=s.displayChar;',
             '        if(mark)mark.innerHTML=\'<svg class="lcs-mark__icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#4CAF50" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg>\';',
             '      } else {',
             '        s.status="wrong";',
             '        slot.classList.add("lcs-slot--wrong");',
             '        if(mark){',
-            '          var displayAnswer=String(s.expected||"").toUpperCase();',
+            '          var displayAnswer=String(s.displayChar||s.expected||"").toUpperCase();',
             '          var pillHTML=\'<span class="lcs-mark__correct-value">\'+displayAnswer+\'</span>\';',
             '          mark.innerHTML=\'<svg class="lcs-mark__icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#E53935" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M6 18L18 6"/></svg>\'+pillHTML;',
             '        }',

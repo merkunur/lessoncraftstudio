@@ -15,6 +15,8 @@ const yaml: { load: (str: string) => unknown } = require('js-yaml');
 const REPO_ROOT = path.resolve(__dirname, '..', '..', '..');
 const PACKAGES_ROOT = path.join(REPO_ROOT, 'docs', 'lesson-plans', 'packages');
 
+export type CountMode = 'fixed' | 'varying' | 'explicit';
+
 export interface SentenceStripsPackage {
   slug: string;
   framePreset: string;
@@ -29,6 +31,18 @@ export interface SentenceStripsPackage {
   paperSize: 'a4' | 'letter';
   language: string;
   title: Record<string, string>;
+  /**
+   * F6: count parameter resolution per strip. When framePreset is count-bearing
+   * (currently only `there-are-count-plural`), this determines how counts vary
+   * across strips. Defaults to "varying" for count-bearing presets, "fixed" for
+   * count-free presets — packages can override via explicit YAML param.
+   */
+  countMode: CountMode;
+  /**
+   * F6: explicit count list per strip when countMode === "explicit". Length
+   * cycles if shorter than stripCount. Null for "fixed" + "varying" modes.
+   */
+  countList: number[] | null;
 }
 
 interface RawMaterial {
@@ -45,6 +59,8 @@ interface RawMaterial {
     includeWritingLine?: boolean;
     paperSize?: string;
     language?: string;
+    countMode?: string;
+    countList?: number[];
   };
 }
 
@@ -75,9 +91,26 @@ function loadOnePackage(packageDir: string): SentenceStripsPackage | null {
     cp.imageSource === 'vocabKeyList' ? 'vocabKeyList' :
     cp.imageSource === 'theme' ? 'theme' : null;
 
+  // F6: countMode resolution — explicit YAML override OR default-by-framePreset
+  const framePreset = typeof cp.framePreset === 'string' ? cp.framePreset : 'i-see-a';
+  const explicitCountMode =
+    typeof cp.countMode === 'string' && ['fixed', 'varying', 'explicit'].includes(cp.countMode)
+      ? (cp.countMode as CountMode)
+      : undefined;
+  // Default: count-bearing framePreset → "varying"; count-free → "fixed".
+  // Currently only `there-are-count-plural` is count-bearing (per
+  // sentence-frame-library.ts inspection); other 7 framePresets have no
+  // {count} placeholder so countMode is effectively unused at fillTemplate.
+  const countMode: CountMode =
+    explicitCountMode ?? (framePreset === 'there-are-count-plural' ? 'varying' : 'fixed');
+  const countList: number[] | null =
+    Array.isArray(cp.countList) && cp.countList.every((n) => typeof n === 'number')
+      ? cp.countList
+      : null;
+
   return {
     slug: raw.targetSlug || packageDir,
-    framePreset: typeof cp.framePreset === 'string' ? cp.framePreset : 'i-see-a',
+    framePreset,
     frameTemplate: typeof cp.frameTemplate === 'string' ? cp.frameTemplate : null,
     imageSource,
     themeName: typeof cp.themeName === 'string' ? cp.themeName : null,
@@ -89,6 +122,8 @@ function loadOnePackage(packageDir: string): SentenceStripsPackage | null {
     paperSize,
     language: typeof cp.language === 'string' ? cp.language : 'en',
     title: raw.title || {},
+    countMode,
+    countList,
   };
 }
 

@@ -148,13 +148,51 @@ export const FRAME_BY_LOCALE: Record<string, Record<string, string>> = {
   },
 };
 
+/**
+ * F6 N=1 grammar fix: per-locale singular variant of the
+ * `there-are-count-plural` frame. English+German+Dutch+Italian require
+ * verb-form change (is/ist/is/c'è); other locales' impersonal-existential
+ * verb (hay/há/il y a/det finns/der er/det er/on) handles both counts so
+ * only the item-form (plural → bare-singular) changes.
+ *
+ * NSR-flag continuity: fi's partitive concern at N=1 documented per the
+ * fi block above; the N=1 frame uses bare-nominative for consistency with
+ * NSR-flagged plural frame.
+ */
+const THERE_IS_ONE_BY_LOCALE: Record<string, string> = {
+  en: 'There is {count} {item:bare}.',
+  de: 'Es ist {count} {item:bare} da.',
+  es: 'Hay {count} {item:bare}.',
+  fr: 'Il y a {count} {item:bare}.',
+  nl: 'Er is {count} {item:bare}.',
+  pt: 'Há {count} {item:bare}.',
+  it: "C'è {count} {item:bare}.",
+  sv: 'Det finns {count} {item:bare}.',
+  da: 'Der er {count} {item:bare}.',
+  no: 'Det er {count} {item:bare}.', // NSR-FLAG continuity per fi pattern
+  fi: 'On {count} {item:bare}.', // NSR-FLAG: nominative/partitive concern same as plural variant
+};
+
+/**
+ * F6: count parameter enables count-aware frame selection. When framePreset
+ * is `there-are-count-plural` AND count === 1, returns the locale's singular
+ * variant from THERE_IS_ONE_BY_LOCALE. Other framePresets unaffected by count.
+ *
+ * Caller (sentence-strips-render.ts buildStrips) passes per-strip count;
+ * chooseTemplate is now invoked per-strip rather than per-package.
+ */
 export function chooseTemplate(
   framePreset: string,
   locale: string,
-  customTemplate?: string | null
+  customTemplate?: string | null,
+  count?: number
 ): string {
   if (framePreset === 'custom') {
     return customTemplate || '{item}';
+  }
+  // F6: N=1 singular variant for there-are-count-plural
+  if (framePreset === 'there-are-count-plural' && count === 1) {
+    return THERE_IS_ONE_BY_LOCALE[locale] || THERE_IS_ONE_BY_LOCALE.en;
   }
   const localeFrames = FRAME_BY_LOCALE[locale] || FRAME_BY_LOCALE.en;
   return localeFrames[framePreset] || FRAME_TEMPLATES_EN[framePreset] || '{item}';

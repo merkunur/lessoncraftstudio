@@ -1364,7 +1364,24 @@
             }
             return arr;
         };
-        const isVowel = (letter) => 'AEIOU'.includes(letter.toUpperCase());
+        const VOWELS_BY_LOCALE = {
+            en: 'AEIOU',
+            de: 'AEIOUÄÖÜ',
+            fr: 'AEIOUYÀÂÆÉÈÊËÎÏÔŒÙÛÜŸ',
+            es: 'AEIOUÁÉÍÓÚÜ',
+            it: 'AEIOUÀÈÉÌÍÎÒÓÙÚ',
+            pt: 'AEIOUÁÀÂÃÉÊÍÓÔÕÚÜ',
+            nl: 'AEIOUYÁÉÍÓÚÄËÏÖÜ',
+            sv: 'AEIOUYÅÄÖ',
+            da: 'AEIOUYÅÆØ',
+            no: 'AEIOUYÅÆØ',
+            fi: 'AEIOUYÄÖ'
+        };
+        const isVowel = (letter) => {
+            const locale = (window.currentLocale || 'en').slice(0, 2);
+            const vowels = VOWELS_BY_LOCALE[locale] || VOWELS_BY_LOCALE.en;
+            return vowels.includes(letter.toUpperCase());
+        };
 
         function getActiveCanvas() {
             const activeTab = document.querySelector('.tab.active');

@@ -16,6 +16,19 @@ import type { ParentLetterPackage } from './parent-letter-package-loader';
 import { localizedField } from './parent-letter-package-loader';
 import { loadVocab, displayWord, type VocabEntry, type Locale } from './flashcard-data';
 import { resolveParentLetterProse } from './parent-letter-tone-templates';
+import { pickLetterAnchors, findImageByVocabKey } from './parent-letter-letter-anchor-map';
+
+// F7: NUMBER_WORDS resource for numeracy-class numeral-text picture cues.
+// Reuses the same require-with-cast pattern as numeral-cards-render.ts:20.
+const NUMBER_WORDS_PATH_F7 = path.join(
+  path.resolve(__dirname, '..', '..', '..'),
+  'REFERENCE TRANSLATIONS',
+  'number-words.js'
+);
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const NumberWordsF7: {
+  get: (numeral: number | string, locale: string, gender?: string) => string | null;
+} = require(NUMBER_WORDS_PATH_F7);
 
 const REPO_ROOT = path.resolve(__dirname, '..', '..', '..');
 const IMAGE_LIBRARY_ROOT = path.join(REPO_ROOT, 'image library');
@@ -98,9 +111,10 @@ function normalizeKey(filename: string): string {
 // ---- Picture-cue data ----
 
 interface PictureCue {
-  imageDataUri: string; // base64 PNG
+  imageDataUri: string; // base64 PNG; empty if textCue is set
   label: string;        // localized singular name in target `language`
   vocabKey: string;
+  textCue?: string;     // F7 numeracy: large numeral text rendered in place of image
 }
 
 function imageToDataUri(absPath: string): string {
@@ -108,7 +122,54 @@ function imageToDataUri(absPath: string): string {
   return `data:image/png;base64,${buf.toString('base64')}`;
 }
 
-function buildPictureCues(
+/**
+ * F7 numeracy-class picture-cue resolution: render large numeral text +
+ * localized number-word as the cue. No image; numeral renders via CSS
+ * (parallels numeral-cards-render.ts text-only approach at lines 54-63).
+ */
+function buildNumeracyCues(pkg: ParentLetterPackage): PictureCue[] {
+  const cues: PictureCue[] = [];
+  for (let n = 1; n <= pkg.pictureCueCount; n++) {
+    const word = NumberWordsF7.get(n, pkg.language) || String(n);
+    cues.push({
+      imageDataUri: '',
+      label: word,
+      vocabKey: `numeral-${n}`,
+      textCue: String(n),
+    });
+  }
+  return cues;
+}
+
+/**
+ * F7 literacy-class picture-cue resolution: pick first N letter-anchored
+ * vocab keys from the A-Z anchor map (apple, bear, cat, ...). Image
+ * resolved via findImageByVocabKey scan of image-library.
+ */
+function buildLiteracyCues(
+  pkg: ParentLetterPackage,
+  vocab: Record<string, VocabEntry>
+): PictureCue[] {
+  const cues: PictureCue[] = [];
+  const anchors = pickLetterAnchors(pkg.pictureCueCount);
+  for (const vocabKey of anchors) {
+    const entry = vocab[vocabKey];
+    const label = entry
+      ? displayWord(vocabKey, entry, pkg.language as Locale)
+      : vocabKey.replace(/-/g, ' ');
+    const imgPath = findImageByVocabKey(vocabKey);
+    const imageDataUri = imgPath ? imageToDataUri(imgPath) : '';
+    cues.push({ imageDataUri, label, vocabKey });
+  }
+  return cues;
+}
+
+/**
+ * Default picture-cue resolution (vocabulary / world-knowledge / sel classes
+ * + fallback). Uses package's existing imageSource + themeName / vocabKeys
+ * fields per pre-F7 behavior.
+ */
+function buildDefaultCues(
   pkg: ParentLetterPackage,
   vocab: Record<string, VocabEntry>
 ): PictureCue[] {
@@ -139,6 +200,21 @@ function buildPictureCues(
     cues.push({ imageDataUri, label, vocabKey });
   }
   return cues;
+}
+
+/**
+ * F7 strand-aware picture-cue dispatcher. Branches per pkg.strand:
+ *   - numeracy: text-numeral cues via NumberWords (no image)
+ *   - literacy: letter-anchor cues via A-Z map + image-library scan
+ *   - vocabulary / world-knowledge / sel: existing theme-image / vocabKey path
+ */
+function buildPictureCues(
+  pkg: ParentLetterPackage,
+  vocab: Record<string, VocabEntry>
+): PictureCue[] {
+  if (pkg.strand === 'numeracy') return buildNumeracyCues(pkg);
+  if (pkg.strand === 'literacy') return buildLiteracyCues(pkg, vocab);
+  return buildDefaultCues(pkg, vocab);
 }
 
 // ---- Page CSS ----
@@ -232,6 +308,19 @@ const CSS = `
     min-height: 32mm;
     justify-content: center;
   }
+  /* F7 numeracy text-cue: large numeral rendered in place of an image */
+  .picture-cue .text-cue {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 36pt;
+    line-height: 1;
+    color: #1A1814;
+    width: 28mm;
+    height: 28mm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .closing-row {
     margin-top: 6mm;
     padding-top: 3mm;
@@ -305,7 +394,7 @@ export async function renderPrintHtml(pkg: ParentLetterPackage): Promise<string>
   const vocab = loadVocab(REPO_ROOT);
   const homeLanguage = pkg.homeLanguage;
   const title = localizedField(pkg.title, homeLanguage);
-  const prose = resolveParentLetterProse(pkg.tone, homeLanguage, {
+  const prose = resolveParentLetterProse(pkg.tone, homeLanguage, pkg.strand, {
     packageTitle: title || pkg.slug,
     durationMinutes: pkg.durationMinutes,
     pictureCueCount: pkg.pictureCueCount,
@@ -318,13 +407,22 @@ export async function renderPrintHtml(pkg: ParentLetterPackage): Promise<string>
 
   const cueHtml = cues
     .map((c) => {
-      const imgPart = c.imageDataUri
-        ? `<img src="${c.imageDataUri}" alt="${escapeHtml(c.label)}">`
-        : '';
-      const className = c.imageDataUri ? 'picture-cue' : 'picture-cue no-image';
+      let visualPart: string;
+      let className: string;
+      if (c.textCue) {
+        // F7 numeracy: large numeral text in place of image
+        visualPart = `<div class="text-cue">${escapeHtml(c.textCue)}</div>`;
+        className = 'picture-cue';
+      } else if (c.imageDataUri) {
+        visualPart = `<img src="${c.imageDataUri}" alt="${escapeHtml(c.label)}">`;
+        className = 'picture-cue';
+      } else {
+        visualPart = '';
+        className = 'picture-cue no-image';
+      }
       return `
         <div class="${className}">
-          ${imgPart}
+          ${visualPart}
           <div class="label">${escapeHtml(c.label)}</div>
         </div>`;
     })

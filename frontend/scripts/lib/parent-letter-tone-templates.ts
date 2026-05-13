@@ -13,7 +13,7 @@
  * (parent-letter targets recent-immigrant parents with low home-language literacy).
  */
 
-import type { Tone } from './parent-letter-package-loader';
+import type { Tone, Strand } from './parent-letter-package-loader';
 
 export interface ParentLetterProse {
   greeting: string;       // "Dear families," / "Liebe Familien,"
@@ -178,12 +178,139 @@ const TONE_REGISTRY: Record<Tone, Record<string, Template>> = {
   playful: PLAYFUL,
 };
 
+// ---- F7 strand-aware body + picturesIntro overrides ----
+//
+// Strand axis layered on top of (tone, homeLanguage). When package's strand
+// resolves to numeracy / literacy / world-knowledge / sel, the body +
+// picturesIntro fields override the (tone, locale) cell's defaults to
+// match the pedagogical strand. Other fields (greeting / opening / signature
+// / closing) preserve (tone, locale) tone register.
+//
+// Vocabulary class has no override — preserves existing behavior verbatim
+// for backward-compatibility per F7 Phase 0 §F7-§5 adjudication.
+//
+// Body prose authored per K-3 multilingual classroom instructional-practice
+// norms. Numeracy template per audit revision spec (commit 09ccafa6 R4
+// ratification). Literacy / world-knowledge / sel templates authored per
+// CC↔assistant pedagogical adjudication; reader-perspective discipline per
+// CLAUDE.md §A.13.30 (plain teacher/parent vocabulary; no operator-internal
+// taxonomy leaks).
+
+interface StrandOverride {
+  body: string;
+  picturesIntro: string;
+}
+
+type StrandTemplate = (i: TemplateInputs) => StrandOverride;
+
+const NUMERACY_BY_LOCALE: Record<string, StrandTemplate> = {
+  en: (i) => ({
+    body: `Your child has been counting groups of objects up to 10, matching numerals to quantities, and comparing groups (more, less, same). The printed pages show counting activities we did together. Ask your child to count the pictures on each page with you, point to the numerals, and try counting out small groups of objects at home.`,
+    picturesIntro: `Below are ${i.pictureCueCount} of the numerals we worked with. Each card shows a numeral and the word for it in ${languageName(i.language, 'en')}. Try counting that many small objects (buttons, beans, blocks) together at home.`,
+  }),
+  de: (i) => ({
+    body: `Ihr Kind hat Gruppen von Gegenständen bis 10 gezählt, Zahlen den passenden Mengen zugeordnet und Gruppen verglichen (mehr, weniger, gleich viel). Die mitgegebenen Blätter zeigen Zählaufgaben, die wir gemacht haben. Zählen Sie zusammen mit Ihrem Kind die Bilder auf jeder Seite, zeigen Sie auf die Zahlen und zählen Sie zu Hause kleine Gruppen von Gegenständen ab.`,
+    picturesIntro: `Unten sehen Sie ${i.pictureCueCount} der Zahlen, mit denen wir gearbeitet haben. Jede Karte zeigt eine Zahl und das Wort dafür auf ${languageName(i.language, 'de')}. Zählen Sie zu Hause gemeinsam diese Anzahl kleiner Gegenstände (Knöpfe, Bohnen, Bauklötze).`,
+  }),
+  es: (i) => ({
+    body: `Su hijo o hija ha contado grupos de objetos hasta 10, ha emparejado números con cantidades y ha comparado grupos (más, menos, lo mismo). Las páginas impresas muestran las actividades de conteo que hicimos juntos. Cuente con su hijo o hija las imágenes en cada página, señale los números y, en casa, cuente pequeños grupos de objetos juntos.`,
+    picturesIntro: `A continuación encontrará ${i.pictureCueCount} de los números con los que trabajamos. Cada tarjeta muestra un número y la palabra para él en ${languageName(i.language, 'es')}. Cuenten juntos en casa esa cantidad de objetos pequeños (botones, frijoles, bloques).`,
+  }),
+  nl: (i) => ({
+    body: `Uw kind heeft groepen voorwerpen tot 10 geteld, getallen gekoppeld aan hoeveelheden en groepen vergeleken (meer, minder, evenveel). De afdrukken laten de teloefeningen zien die we samen deden. Tel samen met uw kind de plaatjes op elke pagina, wijs de getallen aan en tel thuis samen kleine groepjes voorwerpen (knopen, bonen, blokjes).`,
+    picturesIntro: `Hieronder ziet u ${i.pictureCueCount} van de getallen waarmee we werkten. Elke kaart toont een getal en het woord ervoor in het ${languageName(i.language, 'nl')}. Tel thuis samen dit aantal kleine voorwerpen (knopen, bonen, blokjes).`,
+  }),
+};
+
+const LITERACY_BY_LOCALE: Record<string, StrandTemplate> = {
+  en: (i) => ({
+    body: `Your child has been listening for letter sounds, recognizing letters in words, and saying sounds out loud. The printed pages show the letter-sound work we did together. Ask your child to point to letters on each page and say the sound that letter makes. Find the same letters on cereal boxes or store signs at home.`,
+    picturesIntro: `Below are ${i.pictureCueCount} picture cues from our alphabet work. Each picture starts with a letter we practiced — say the word together and listen for the first sound in ${languageName(i.language, 'en')}.`,
+  }),
+  de: (i) => ({
+    body: `Ihr Kind hat auf Laute gehört, Buchstaben in Wörtern erkannt und Laute laut nachgesprochen. Die mitgegebenen Blätter zeigen die Buchstaben-Laut-Arbeit, die wir gemacht haben. Bitten Sie Ihr Kind, auf Buchstaben auf jeder Seite zu zeigen und den passenden Laut zu sagen. Suchen Sie zu Hause die gleichen Buchstaben auf Verpackungen oder Schildern.`,
+    picturesIntro: `Unten sehen Sie ${i.pictureCueCount} Bildkarten aus unserer Alphabetarbeit. Jedes Bild beginnt mit einem Buchstaben, den wir geübt haben — sprechen Sie das Wort gemeinsam und hören Sie auf den Anfangslaut auf ${languageName(i.language, 'de')}.`,
+  }),
+  es: (i) => ({
+    body: `Su hijo o hija ha estado escuchando los sonidos de las letras, reconociendo letras en palabras y diciendo los sonidos en voz alta. Las páginas impresas muestran el trabajo con letras y sonidos que hicimos juntos. Pídale a su hijo o hija que señale las letras en cada página y diga el sonido que hace cada letra. Busquen las mismas letras en cajas de cereal o letreros en casa.`,
+    picturesIntro: `A continuación encontrará ${i.pictureCueCount} imágenes de nuestro trabajo con el alfabeto. Cada imagen empieza con una letra que practicamos — digan la palabra juntos y escuchen el primer sonido en ${languageName(i.language, 'es')}.`,
+  }),
+  nl: (i) => ({
+    body: `Uw kind heeft geluisterd naar letterklanken, letters in woorden herkend en de klanken hardop gezegd. De afdrukken laten het letter-klank-werk zien dat we samen deden. Vraag uw kind om letters op elke pagina aan te wijzen en de klank te zeggen die de letter maakt. Zoek thuis dezelfde letters op verpakkingen of borden.`,
+    picturesIntro: `Hieronder ziet u ${i.pictureCueCount} plaatjes uit ons alfabetwerk. Elk plaatje begint met een letter die we oefenden — zeg het woord samen en luister naar de eerste klank in het ${languageName(i.language, 'nl')}.`,
+  }),
+};
+
+const WORLD_KNOWLEDGE_BY_LOCALE: Record<string, StrandTemplate> = {
+  en: (i) => ({
+    body: `Your child has been observing, sorting, and grouping things by what they have in common. The printed pages show the sorting activities we did together. Ask your child to look at the pictures and talk about why some things belong together. At home, sort small objects into groups (toys, clothes, food) and ask your child to explain the groups.`,
+    picturesIntro: `Below are ${i.pictureCueCount} of the pictures we sorted in class. Each one is labeled in ${languageName(i.language, 'en')}. Talk together about which pictures belong together and why.`,
+  }),
+  de: (i) => ({
+    body: `Ihr Kind hat beobachtet, sortiert und Dinge nach Gemeinsamkeiten gruppiert. Die mitgegebenen Blätter zeigen die Sortier-Aktivitäten, die wir gemacht haben. Bitten Sie Ihr Kind, sich die Bilder anzusehen und zu erzählen, warum manche Dinge zusammengehören. Sortieren Sie zu Hause kleine Gegenstände in Gruppen (Spielzeug, Kleidung, Lebensmittel) und lassen Sie Ihr Kind die Gruppen erklären.`,
+    picturesIntro: `Unten sehen Sie ${i.pictureCueCount} der Bilder, die wir in der Klasse sortiert haben. Jedes ist auf ${languageName(i.language, 'de')} beschriftet. Sprechen Sie gemeinsam darüber, welche Bilder zusammengehören und warum.`,
+  }),
+  es: (i) => ({
+    body: `Su hijo o hija ha estado observando, clasificando y agrupando cosas por lo que tienen en común. Las páginas impresas muestran las actividades de clasificación que hicimos juntos. Pídale a su hijo o hija que mire las imágenes y explique por qué algunas cosas van juntas. En casa, clasifiquen objetos pequeños en grupos (juguetes, ropa, comida) y pidan a su hijo o hija que explique los grupos.`,
+    picturesIntro: `A continuación encontrará ${i.pictureCueCount} de las imágenes que clasificamos en clase. Cada una está rotulada en ${languageName(i.language, 'es')}. Hablen juntos sobre qué imágenes van juntas y por qué.`,
+  }),
+  nl: (i) => ({
+    body: `Uw kind heeft geobserveerd, gesorteerd en dingen gegroepeerd op wat ze gemeen hebben. De afdrukken laten de sorteer-activiteiten zien die we samen deden. Vraag uw kind om naar de plaatjes te kijken en uit te leggen waarom sommige dingen bij elkaar horen. Sorteer thuis kleine voorwerpen in groepen (speelgoed, kleren, eten) en laat uw kind de groepen uitleggen.`,
+    picturesIntro: `Hieronder ziet u ${i.pictureCueCount} van de plaatjes die we in de klas hebben gesorteerd. Elk is gelabeld in het ${languageName(i.language, 'nl')}. Praat samen over welke plaatjes bij elkaar horen en waarom.`,
+  }),
+};
+
+const SEL_BY_LOCALE: Record<string, StrandTemplate> = {
+  en: (i) => ({
+    body: `Your child has been noticing feelings, naming emotions, and learning that it is okay to feel many different ways. The printed pages show the feelings work we did together. Ask your child about the faces on each page and talk about times they have felt the same way. Naming feelings out loud helps children handle big emotions.`,
+    picturesIntro: `Below are ${i.pictureCueCount} of the feeling-faces we talked about. Each one is labeled in ${languageName(i.language, 'en')}. Take turns at home making the face and saying the feeling word together.`,
+  }),
+  de: (i) => ({
+    body: `Ihr Kind hat Gefühle wahrgenommen, Emotionen benannt und gelernt, dass es in Ordnung ist, sich auf viele verschiedene Arten zu fühlen. Die mitgegebenen Blätter zeigen die Gefühlsarbeit, die wir gemacht haben. Fragen Sie Ihr Kind nach den Gesichtern auf jeder Seite und sprechen Sie darüber, wann es sich genauso gefühlt hat. Gefühle laut zu benennen hilft Kindern, große Emotionen zu bewältigen.`,
+    picturesIntro: `Unten sehen Sie ${i.pictureCueCount} der Gefühlsgesichter, über die wir gesprochen haben. Jedes ist auf ${languageName(i.language, 'de')} beschriftet. Wechseln Sie sich zu Hause ab, das Gesicht zu machen und das Gefühlswort gemeinsam zu sagen.`,
+  }),
+  es: (i) => ({
+    body: `Su hijo o hija ha estado notando sentimientos, nombrando emociones y aprendiendo que está bien sentirse de muchas maneras diferentes. Las páginas impresas muestran el trabajo con emociones que hicimos juntos. Pregúntele a su hijo o hija sobre las caras de cada página y hablen de momentos en los que se sintió igual. Nombrar los sentimientos en voz alta ayuda a los niños a manejar emociones fuertes.`,
+    picturesIntro: `A continuación encontrará ${i.pictureCueCount} de las caras de emociones que comentamos. Cada una está rotulada en ${languageName(i.language, 'es')}. Túrnense en casa para hacer la cara y decir juntos la palabra del sentimiento.`,
+  }),
+  nl: (i) => ({
+    body: `Uw kind heeft gevoelens opgemerkt, emoties benoemd en geleerd dat het oké is om je op veel verschillende manieren te voelen. De afdrukken laten het gevoelens-werk zien dat we samen deden. Vraag uw kind naar de gezichten op elke pagina en praat over momenten waarop het zich net zo voelde. Gevoelens hardop benoemen helpt kinderen om grote emoties te hanteren.`,
+    picturesIntro: `Hieronder ziet u ${i.pictureCueCount} van de gevoelsgezichten waarover we praatten. Elk is gelabeld in het ${languageName(i.language, 'nl')}. Wissel thuis af om het gezicht te maken en samen het gevoelswoord te zeggen.`,
+  }),
+};
+
+const STRAND_OVERRIDES: Partial<Record<Strand, Record<string, StrandTemplate>>> = {
+  numeracy: NUMERACY_BY_LOCALE,
+  literacy: LITERACY_BY_LOCALE,
+  'world-knowledge': WORLD_KNOWLEDGE_BY_LOCALE,
+  sel: SEL_BY_LOCALE,
+  // vocabulary: no override — preserves existing tone/locale cell body verbatim
+};
+
+function resolveStrandOverride(
+  strand: Strand,
+  homeLanguage: string,
+  inputs: TemplateInputs
+): StrandOverride | null {
+  const strandMap = STRAND_OVERRIDES[strand];
+  if (!strandMap) return null;
+  const fn = strandMap[homeLanguage] || strandMap.en;
+  if (!fn) return null;
+  return fn(inputs);
+}
+
 export function resolveParentLetterProse(
   tone: Tone,
   homeLanguage: string,
+  strand: Strand,
   inputs: TemplateInputs
 ): ParentLetterProse {
   const toneMap = TONE_REGISTRY[tone] || TONE_REGISTRY.warm;
   const tpl = toneMap[homeLanguage] || toneMap.en;
-  return tpl(inputs);
+  const base = tpl(inputs);
+  const override = resolveStrandOverride(strand, homeLanguage, inputs);
+  if (override) {
+    return { ...base, body: override.body, picturesIntro: override.picturesIntro };
+  }
+  return base;
 }

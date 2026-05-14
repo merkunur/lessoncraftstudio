@@ -3772,13 +3772,15 @@ When extending a generator with new modes OR referencing a generator's modes fro
 
 **Maintenance rule.** At any generator-extension commission, amend the canonical-state table below BEFORE shipping the extension. Future commissions reference this table at Phase 1 audit to confirm scope.
 
-**Current canonical state of record (Arc 17 close):**
+**Current canonical state of record (Arc 18 Phase 0 substrate audit; corrected post-Phase-6-fold-Round-1 training-fluency defect):**
 
-| Generator | Canonical modes |
-|---|---|
-| `manipulative-cut-outs` | `single-repeat`, `base-ten-blocks`, `3d-shape-nets`, `counters`, `clock-pieces` |
+| Generator | Canonical modes | Source-of-truth |
+|---|---|---|
+| `manipulative-cut-outs` | `single-repeat`, `variety` | `frontend/scripts/lib/manipulative-cut-outs-package-loader.ts:30` (`CutOutMode` type definition); originating spec at `materials-catalog.json` lines 215-244 |
 
-(Additional generators' mode enumerations folded into this table as future commissions surface them. The pattern: generator-name + canonical-mode list as of latest extension.)
+Per the source: `single-repeat` = one image × itemCount tiles (counting work); `variety` = one image per vocabKey × itemCount copies each (sorting). These 2 modes are the entirety of the canonical mode set; no other modes exist at the source.
+
+(Additional generators' mode enumerations folded into this table as future commissions surface them. The pattern: generator-name + canonical-mode list + source-of-truth path. Source-of-truth column is **load-bearing** per §A.13.32 canonical-artifact-grounding — table entries without explicit source-of-truth citation are training-fluency-vulnerable.)
 
 **Forward-extension scope.** The discipline generalizes to ANY mode-parameter generator, not only `manipulative-cut-outs`. Canonical extension targets identified at Arc 16+17 close:
 
@@ -3794,13 +3796,17 @@ The maintenance rule is uniform across mode-parameter generators: canonical-stat
 - **At generator-extension commission:** amend the canonical-mode table in this section as part of the extension commit. Table-amendment is a load-bearing artifact, not a documentation afterthought — future commissions read this table as canonical.
 - **At Phase 1 inventory step where mode enumeration is load-bearing:** cross-reference table + source. If the table is stale relative to source, that's a §A.13.6 firing pointing at the prior extension commission's failed table-amendment discipline.
 
-**Empirical anchor:** Arc 17 Phase 1.4 canonical mode-verification surfaced `clock-pieces` as the 5th canonical manipulative-cut-outs mode. Pre-Arc-17 generator extension had added `clock-pieces` to the source code; canonical-state table in CLAUDE.md did not exist at the time (this section establishes it). Documenting forward as canonical-state surface prevents future commissions from re-inventing OR re-discovering existing modes.
+**Empirical anchor (canonical-source grounding per §A.13.32):** Source-of-truth empirically verified at `frontend/scripts/lib/manipulative-cut-outs-package-loader.ts:30` — `export type CutOutMode = 'single-repeat' | 'variety';`. Documentation at file header lines 6-15 cites `materials-catalog.json` lines 215-244 as the originating spec; both source code AND materials-catalog.json define the same 2-mode canonical state.
+
+**Self-firing-as-validation footnote (Arc 18 Phase 0 audit, post Phase-6-fold-Round-1 / Round-2):** The Round 1 fold-cycle authoring (`2bf7723b`) introduced this table with 5 modes (`single-repeat`, `base-ten-blocks`, `3d-shape-nets`, `counters`, `clock-pieces`) — authored from training-fluency / memory rather than canonical-source verification. The 4 non-canonical modes were likely confusions with `themeName` values, NOT canonical modes. The Round 2 fold-cycle (`6a6f69b0`) preserved the defect while adding forward-extension scope. Arc 18 Phase 0 substrate audit per §A.13.32 canonical-artifact-grounding caught the defect at the very next commission's commencement — validation of §A.13.32 + §A.13.35 maintenance-rule discipline as designed. The discipline I folded to prevent training-fluency canonical-naming fired at its own instance; the §A.13.6 firing surface that resulted is the canonical example of a doctrine catching its own substrate violation. Correction shipped as [FIX][DOCS] before Arc 18 P1.1 commenced.
+
+**Documenting forward as canonical-state surface** (per the doctrine's maintenance rule) prevents future commissions from re-inventing OR re-discovering existing modes — provided the table entries cite empirical source-of-truth (the load-bearing column added in this correction).
 
 **When-to-apply trigger:** at any (a) commission referencing generator modes in spec; (b) generator-extension commission adding new modes; (c) Phase 1 inventory step where mode enumeration is load-bearing.
 
 **Cross-references:** §A.13.32 (canonical-artifact-grounding-at-composition-time) — generator-mode-verification is the generator-side specialization of canonical-artifact-grounding. The canonical-mode table here IS the artifact §A.13.32 grounds against.
 
-Origin: Arc 17 Phase 1.4 canonical mode-verification + forward-looking table establishment.
+Origin: Arc 17 Phase 1.4 canonical mode-verification + forward-looking table establishment; canonical-source grounding correction at Arc 18 Phase 0 audit (post Phase-6-fold-Round-1 `2bf7723b` + Round-2 `6a6f69b0` training-fluency defect).
 
 #### A.13.36 CC↔assistant cooperation cadence within commission
 

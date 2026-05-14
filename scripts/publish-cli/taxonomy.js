@@ -120,7 +120,20 @@ function themeFor(themeKey, locale) {
 function exerciseModeFor(modeKey, locale) {
   if (modeKey == null || modeKey === '') return null;
   try {
-    return axisLookup('exercise-mode', modeKey, locale);
+    var r = axisLookup('exercise-mode', modeKey, locale);
+    if (r) return r;
+    // axisLookup returns null when slug.locale is missing. For SEO title
+    // localization (republish-seo), we need the NAME independent of slug —
+    // slug.es deferred per §A.13.17 to avoid URL fragmentation against
+    // already-published ES decks. Synthesize name-only result when slug
+    // is null but name is populated. Callers using slug-derivation still
+    // see null on this path (same as current behavior).
+    var t = load();
+    var entry = t.axes && t.axes['exercise-mode'] && t.axes['exercise-mode'][modeKey];
+    if (entry && entry.name && entry.name[locale]) {
+      return { slug: null, name: entry.name[locale] };
+    }
+    return null;
   } catch (e) {
     // Defensive: missing axis-key returns null rather than throwing so the
     // republish-seo retrofit path falls back to title-case-derived name.

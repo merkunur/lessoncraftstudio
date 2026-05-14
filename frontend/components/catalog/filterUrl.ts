@@ -67,6 +67,6 @@ export function withoutParam(
  */
 export function clearFilters(current: URLSearchParams): URLSearchParams {
   const next = new URLSearchParams(current);
-  ['level', 'theme', 'type', 'sort', 'page'].forEach(k => next.delete(k));
+  ['level', 'theme', 'type', 'mode', 'sort', 'page'].forEach(k => next.delete(k));
   return next;
 }

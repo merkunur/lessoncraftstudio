@@ -888,7 +888,8 @@
         "showLess": "Minder tonen"
       },
       "exerciseType": "Oefentype",
-      "educationalLevel": "Klas"
+      "educationalLevel": "Klas",
+      "exerciseMode": "Oefeningsmodus"
     },
     "activeFilters": {
       "clearAll": "Alle filters wissen",

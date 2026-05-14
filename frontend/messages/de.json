@@ -1032,7 +1032,8 @@
         "showLess": "Weniger anzeigen"
       },
       "exerciseType": "Übungstyp",
-      "educationalLevel": "Klassenstufe"
+      "educationalLevel": "Klassenstufe",
+      "exerciseMode": "Übungsart"
     },
     "activeFilters": {
       "clearAll": "Alle Filter löschen",

@@ -4599,7 +4599,12 @@ document.addEventListener("DOMContentLoaded", function() {
             // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
             var manifestMeta = buildCatalogManifestSettings();
             var difficulty = (document.getElementById('difficultySelect') || {}).value;
-            var derivedExerciseMode = difficulty === '6' ? 'medium' : (difficulty === '8' ? 'hard' : null);
+            // Emit 'easy' for difficulty=4 explicitly (instead of null per §17.8.5
+            // default-mode-emits-null) so the topic-page exercise-mode filter
+            // surfaces all 3 difficulty levels as distinct facets. Trade-off per
+            // §A.13.17: future sudoku-easy slugs gain the 'easy' segment; existing
+            // sudoku-<theme> URLs keep their current shape.
+            var derivedExerciseMode = difficulty === '6' ? 'medium' : (difficulty === '8' ? 'hard' : 'easy');
             // Phase 4a Checkpoint 2.5 (θ): hoist exerciseMode for seoMeta discriminator
             var exerciseModeForBundle = derivedExerciseMode;
             var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline', exerciseMode: exerciseModeForBundle });

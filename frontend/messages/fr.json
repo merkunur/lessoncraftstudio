@@ -1168,7 +1168,8 @@
         "showLess": "Voir moins"
       },
       "exerciseType": "Type d’exercice",
-      "educationalLevel": "Niveau scolaire"
+      "educationalLevel": "Niveau scolaire",
+      "exerciseMode": "Mode d'exercice"
     },
     "activeFilters": {
       "clearAll": "Effacer tous les filtres",

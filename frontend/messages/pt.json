@@ -1158,7 +1158,8 @@
         "showLess": "Ver menos"
       },
       "exerciseType": "Tipo de atividade",
-      "educationalLevel": "Nível de ensino"
+      "educationalLevel": "Nível de ensino",
+      "exerciseMode": "Modo de exercício"
     },
     "activeFilters": {
       "clearAll": "Limpar todos os filtros",

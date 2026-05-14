@@ -1137,7 +1137,8 @@
         "showLess": "Näytä vähemmän"
       },
       "exerciseType": "Tehtävätyyppi",
-      "educationalLevel": "Luokka-aste"
+      "educationalLevel": "Luokka-aste",
+      "exerciseMode": "Harjoitustyyppi"
     },
     "activeFilters": {
       "clearAll": "Poista kaikki suodattimet",

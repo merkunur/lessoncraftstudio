@@ -941,7 +941,8 @@
         "showLess": "Show fewer"
       },
       "exerciseType": "Exercise type",
-      "educationalLevel": "Educational level"
+      "educationalLevel": "Educational level",
+      "exerciseMode": "Exercise mode"
     },
     "activeFilters": {
       "clearAll": "Clear all filters",

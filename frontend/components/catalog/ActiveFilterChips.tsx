@@ -13,7 +13,7 @@ import { buildFilterUrl, withoutParam, clearFilters } from './filterUrl';
 // params at once.
 
 interface ChipDescriptor {
-  paramKey: 'level' | 'theme' | 'type';
+  paramKey: 'level' | 'theme' | 'type' | 'mode';
   axisKey: string;       // universal English-canonical key (URL value)
   label: string;         // locale-natural display name
 }
@@ -34,7 +34,7 @@ export default function ActiveFilterChips({
 
   if (chips.length === 0) return null;
 
-  function onRemoveChip(paramKey: 'level' | 'theme' | 'type') {
+  function onRemoveChip(paramKey: 'level' | 'theme' | 'type' | 'mode') {
     const next = withoutParam(searchParams, paramKey);
     next.delete('page'); // reset pagination on filter change
     const url = buildFilterUrl(basePath || pathname, next);

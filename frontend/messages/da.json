@@ -1145,7 +1145,8 @@
         "showLess": "Vis færre"
       },
       "exerciseType": "Øvelsestype",
-      "educationalLevel": "Klassetrin"
+      "educationalLevel": "Klassetrin",
+      "exerciseMode": "Øvelsesform"
     },
     "activeFilters": {
       "clearAll": "Ryd alle filtre",

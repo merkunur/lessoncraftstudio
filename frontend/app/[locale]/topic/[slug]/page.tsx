@@ -12,6 +12,7 @@ import {
 import {
   fetchDecksForAxis,
   fetchDecksForTopicWithFilters,
+  getExerciseModeCountsForType,
   getFacetCounts,
   listAllNonEmptyThemesWithCounts,
   listNonEmptyAxisKeys,
@@ -299,6 +300,7 @@ interface ParsedFilters {
   level?: string;
   theme?: string;
   type?: string;
+  mode?: string;
 }
 
 function parseSearchParams(
@@ -316,6 +318,7 @@ function parseSearchParams(
   const level = get('level');
   const theme = get('theme');
   const type = get('type');
+  const mode = get('mode');
 
   // Default-value canonical redirect: ?sort=newest / ?page=1 / empty values
   const sort: TopicSortKey =
@@ -339,6 +342,7 @@ function parseSearchParams(
   if (sort !== 'newest') sp.set('sort', sort);
   if (pageNum !== 1) sp.set('page', String(pageNum));
   if (level) sp.set('level', level);
+  if (mode) sp.set('mode', mode);
   if (theme) sp.set('theme', theme);
   if (type) sp.set('type', type);
   const canonicalUrl = buildFilterUrl(basePath, sp);
@@ -359,7 +363,7 @@ function parseSearchParams(
   const canonicalRedirect = rawCurrentUrl !== canonicalUrl ? canonicalUrl : null;
 
   return {
-    parsed: { sort, page: pageNum, level, theme, type },
+    parsed: { sort, page: pageNum, level, theme, type, mode },
     canonicalRedirect,
     notFound: false,
   };
@@ -403,10 +407,16 @@ export default async function TopicPage({
 
   const primaryAxes = [{ axis, axisKey }];
 
+  // Exercise-mode filter (subsidiary to exercise-type — only meaningful when
+  // path-bound axis is exercise-type per the topic-page-as-app-discovery
+  // contract). Silently drops the filter on non-exercise-type pages.
+  const modeFilter = (axis === 'exercise-type' && filters.mode) ? filters.mode : undefined;
+
   const { decks, totalCount, pageCount } = await fetchDecksForTopicWithFilters(
     primaryAxes,
     {
       secondaryAxes: secondaryAxes.length > 0 ? secondaryAxes : undefined,
+      modeFilter,
       sort: filters.sort,
       page: filters.page,
       pageSize: TOPIC_PAGE_SIZE,
@@ -417,14 +427,19 @@ export default async function TopicPage({
   // Out-of-range page (page > pageCount) → 404 per Q pagination spec
   if (filters.page > pageCount && pageCount > 0) notFound();
 
-  // Facet counts for sidebar — reflect active filters
-  const facetCounts = await getFacetCounts(primaryAxes, secondaryAxes, locale);
+  // Facet counts for sidebar — reflect active filters (including mode)
+  const facetCounts = await getFacetCounts(primaryAxes, secondaryAxes, locale, modeFilter);
+
+  // Mode facet counts (only meaningful when path-bound axis is exercise-type)
+  const modeFacetOptions = (axis === 'exercise-type')
+    ? await getExerciseModeCountsForType(axisKey, secondaryAxes, locale)
+    : [];
 
   // Full theme list (Tier 2 expand)
   const allThemes = await listAllNonEmptyThemesWithCounts(locale);
 
   // Build active-filter chip descriptors (locale-natural display labels)
-  type ChipKey = 'level' | 'theme' | 'type';
+  type ChipKey = 'level' | 'theme' | 'type' | 'mode';
   type Chip = { paramKey: ChipKey; axisKey: string; label: string };
   const activeChips: Chip[] = [];
   if (filters.level) {
@@ -438,6 +453,10 @@ export default async function TopicPage({
   if (filters.type) {
     const name = getAxisName('exercise-type', filters.type, locale);
     if (name) activeChips.push({ paramKey: 'type', axisKey: filters.type, label: name });
+  }
+  if (modeFilter) {
+    const name = getAxisName('exercise-mode', modeFilter, locale);
+    if (name) activeChips.push({ paramKey: 'mode', axisKey: modeFilter, label: name });
   }
 
   // Build facet groups for the sidebar — exclude the path-bound axis
@@ -480,6 +499,18 @@ export default async function TopicPage({
       }));
     facetGroups.push({ paramKey: 'type', heading: tFacets('exerciseType'), options: opts });
   }
+  // Exercise-mode facet — appears only when path-bound axis is exercise-type
+  // (mode is subsidiary to exercise-type per §17.8.5; meaningless otherwise).
+  // Per FilterSidebar's empty-options-skip behavior, mode-less apps naturally
+  // produce no facet rendering.
+  if (axis === 'exercise-type' && modeFacetOptions.length > 0) {
+    const opts = modeFacetOptions.map(c => ({
+      axisKey: c.axisKey,
+      label: getAxisName('exercise-mode', c.axisKey, locale) ?? c.axisKey,
+      count: c.count,
+    }));
+    facetGroups.push({ paramKey: 'mode', heading: tFacets('exerciseMode'), options: opts });
+  }
 
   // Build searchParams string for child components' URL-construction
   const childSpString = (() => {
@@ -487,6 +518,7 @@ export default async function TopicPage({
     if (filters.sort !== 'newest') out.set('sort', filters.sort);
     if (filters.page !== 1) out.set('page', String(filters.page));
     if (filters.level) out.set('level', filters.level);
+    if (modeFilter) out.set('mode', modeFilter);
     if (filters.theme) out.set('theme', filters.theme);
     if (filters.type) out.set('type', filters.type);
     return out.toString();

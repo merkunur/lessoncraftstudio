@@ -22,7 +22,7 @@ interface FacetOption {
 }
 
 interface FacetGroup {
-  paramKey: 'level' | 'theme' | 'type';
+  paramKey: 'level' | 'theme' | 'type' | 'mode';
   heading: string;
   options: FacetOption[];
   isThemeWithExpand?: boolean;

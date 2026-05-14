@@ -1148,7 +1148,8 @@
         "showLess": "Visa färre"
       },
       "exerciseType": "Övningstyp",
-      "educationalLevel": "Årskurs"
+      "educationalLevel": "Årskurs",
+      "exerciseMode": "Övningstyp"
     },
     "activeFilters": {
       "clearAll": "Rensa alla filter",

@@ -4451,6 +4451,90 @@
           "no": null,
           "fi": null
         }
+      },
+      "medium": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Medium",
+          "de": "Mittel",
+          "es": "Medio",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "hard": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Hard",
+          "de": "Schwer",
+          "es": "Difícil",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "standard": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Standard",
+          "de": "Standard",
+          "es": "Estándar",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
       }
     }
   }

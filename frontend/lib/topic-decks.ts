@@ -563,6 +563,7 @@ export async function fetchDecksForTopicWithFilters(
   primaryAxes: Array<{ axis: Axis; axisKey: string }>,
   options: {
     secondaryAxes?: Array<{ axis: Axis; axisKey: string }>;
+    modeFilter?: string;
     sort?: TopicSortKey;
     page?: number;
     pageSize?: number;
@@ -584,6 +585,12 @@ export async function fetchDecksForTopicWithFilters(
       return { decks: [], totalCount: 0, pageCount: 0 };
     }
     whereFragments.push(w);
+  }
+
+  // exercise-mode is subsidiary to exercise-type (only meaningful when path
+  // is exercise-type-bound). Not a formal Axis but plumbs into WHERE.
+  if (options.modeFilter) {
+    whereFragments.push({ exerciseMode: options.modeFilter });
   }
 
   const baseWhere = {
@@ -631,7 +638,8 @@ export async function fetchDecksForTopicWithFilters(
 export async function getFacetCounts(
   primaryAxes: Array<{ axis: Axis; axisKey: string }>,
   activeFilters: Array<{ axis: Axis; axisKey: string }>,
-  locale: string
+  locale: string,
+  modeFilter?: string
 ): Promise<Record<Axis, Array<{ axisKey: string; count: number }>>> {
   const allAxes = [...primaryAxes, ...activeFilters];
   const whereFragments: Array<Record<string, unknown>> = [];
@@ -641,6 +649,12 @@ export async function getFacetCounts(
       return { theme: [], 'exercise-type': [], 'educational-level': [] };
     }
     whereFragments.push(w);
+  }
+
+  // Mode filter narrows the same way for facet counts (so counts on other
+  // axes reflect the post-mode-filter cardinality).
+  if (modeFilter) {
+    whereFragments.push({ exerciseMode: modeFilter });
   }
 
   const baseWhere = {
@@ -691,6 +705,61 @@ export async function getFacetCounts(
     'exercise-type': toSortedArray(exerciseTypeCounts),
     'educational-level': toSortedArray(levelCounts),
   };
+}
+
+/**
+ * Exercise-mode facet counts for a specific exercise-type topic page.
+ *
+ * Mode is subsidiary to exercise-type — only meaningful when the user is
+ * already viewing a specific app's topic page (path-bound axis is exercise-
+ * type). Counts reflect post-active-filter cardinality so users see how
+ * many decks would remain if they layered the mode filter on top.
+ *
+ * Returns non-null exercise_mode buckets only; null-mode decks (mode-less
+ * apps per §17.8.5 default-mode-emits-null contract) don't appear as a
+ * filterable option — they show by default when no mode filter is active.
+ *
+ * Validates against `topics-taxonomy.json axes.exercise-mode` registry —
+ * any mode value not registered drops from the result (defensive against
+ * future operator-app emit drift; preserves filter-UI integrity).
+ */
+export async function getExerciseModeCountsForType(
+  exerciseTypeKey: string,
+  activeFilters: Array<{ axis: Axis; axisKey: string }>,
+  locale: string
+): Promise<Array<{ axisKey: string; count: number }>> {
+  const whereFragments: Array<Record<string, unknown>> = [
+    { exerciseType: exerciseTypeKey },
+  ];
+  for (const a of activeFilters) {
+    const w = buildAxisWhere(a.axis, a.axisKey);
+    if (!w) return [];
+    whereFragments.push(w);
+  }
+
+  const baseWhere = {
+    language: locale,
+    status: 'published',
+    exerciseMode: { not: null },
+    ...whereFragments.reduce((acc, w) => ({ ...acc, ...w }), {}),
+  };
+
+  const decks = await prisma.deck.findMany({
+    where: baseWhere,
+    select: { exerciseMode: true },
+  });
+
+  const modeRegistry = new Set(listAxisKeys('exercise-mode'));
+  const modeCounts = new Map<string, number>();
+  for (const d of decks) {
+    if (!d.exerciseMode) continue;
+    if (!modeRegistry.has(d.exerciseMode)) continue;
+    modeCounts.set(d.exerciseMode, (modeCounts.get(d.exerciseMode) ?? 0) + 1);
+  }
+
+  return Array.from(modeCounts.entries())
+    .map(([axisKey, count]) => ({ axisKey, count }))
+    .sort((a, b) => b.count - a.count);
 }
 
 /**

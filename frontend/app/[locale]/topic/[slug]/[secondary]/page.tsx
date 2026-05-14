@@ -13,6 +13,7 @@ import {
   fetchDecksForIntersection,
   countDecksForIntersection,
   fetchDecksForTopicWithFilters,
+  getExerciseModeCountsForType,
   getFacetCounts,
   listAllNonEmptyThemesWithCounts,
   TopicDeckSummary,
@@ -47,6 +48,7 @@ interface ParsedFilters {
   level?: string;
   theme?: string;
   type?: string;
+  mode?: string;
 }
 
 function parseSearchParams(
@@ -64,6 +66,7 @@ function parseSearchParams(
   const level = get('level');
   const theme = get('theme');
   const type = get('type');
+  const mode = get('mode');
 
   const sort: TopicSortKey =
     sortRaw && (VALID_SORTS as string[]).includes(sortRaw)
@@ -82,6 +85,7 @@ function parseSearchParams(
   if (sort !== 'newest') sp.set('sort', sort);
   if (pageNum !== 1) sp.set('page', String(pageNum));
   if (level) sp.set('level', level);
+  if (mode) sp.set('mode', mode);
   if (theme) sp.set('theme', theme);
   if (type) sp.set('type', type);
   const canonicalUrl = buildFilterUrl(basePath, sp);
@@ -98,7 +102,7 @@ function parseSearchParams(
   const canonicalRedirect = rawCurrentUrl !== canonicalUrl ? canonicalUrl : null;
 
   return {
-    parsed: { sort, page: pageNum, level, theme, type },
+    parsed: { sort, page: pageNum, level, theme, type, mode },
     canonicalRedirect,
     notFound: false,
   };
@@ -413,10 +417,19 @@ export default async function IntersectionPage({
     { axis: axis2, axisKey: axisKey2 },
   ];
 
+  // Exercise-mode filter — only meaningful when one of the path-bound axes
+  // IS exercise-type. Identifies the path-bound exercise-type axis-key so
+  // the mode facet can be scoped to that app.
+  const pathBoundExerciseTypeKey =
+    axis1 === 'exercise-type' ? axisKey1 :
+    axis2 === 'exercise-type' ? axisKey2 : null;
+  const modeFilter = (pathBoundExerciseTypeKey && filters.mode) ? filters.mode : undefined;
+
   const { decks, totalCount, pageCount } = await fetchDecksForTopicWithFilters(
     primaryAxes,
     {
       secondaryAxes: secondaryAxes.length > 0 ? secondaryAxes : undefined,
+      modeFilter,
       sort: filters.sort,
       page: filters.page,
       pageSize: TOPIC_PAGE_SIZE,
@@ -426,11 +439,17 @@ export default async function IntersectionPage({
 
   if (filters.page > pageCount && pageCount > 0) notFound();
 
-  const facetCounts = await getFacetCounts(primaryAxes, secondaryAxes, locale);
+  const facetCounts = await getFacetCounts(primaryAxes, secondaryAxes, locale, modeFilter);
+
+  // Mode facet — appears only when path bound to exercise-type via axis1 or axis2
+  const modeFacetOptions = pathBoundExerciseTypeKey
+    ? await getExerciseModeCountsForType(pathBoundExerciseTypeKey, secondaryAxes, locale)
+    : [];
 
   // Build active-filter chip descriptors (only the third unanchored axis can
-  // be active on intersection pages).
-  type ChipKey = 'level' | 'theme' | 'type';
+  // be active on intersection pages — except mode, which is subsidiary to
+  // exercise-type and shows when exercise-type is path-bound).
+  type ChipKey = 'level' | 'theme' | 'type' | 'mode';
   type Chip = { paramKey: ChipKey; axisKey: string; label: string };
   const activeChips: Chip[] = [];
   if (filters.level && !pathAxes.has('educational-level')) {
@@ -444,6 +463,10 @@ export default async function IntersectionPage({
   if (filters.type && !pathAxes.has('exercise-type')) {
     const name = getAxisName('exercise-type', filters.type, locale);
     if (name) activeChips.push({ paramKey: 'type', axisKey: filters.type, label: name });
+  }
+  if (modeFilter) {
+    const name = getAxisName('exercise-mode', modeFilter, locale);
+    if (name) activeChips.push({ paramKey: 'mode', axisKey: modeFilter, label: name });
   }
 
   // Build facet group(s) — only the unanchored axis renders as a facet
@@ -483,12 +506,23 @@ export default async function IntersectionPage({
     }));
     facetGroups.push({ paramKey: 'type', heading: tFacets('exerciseType'), options: opts });
   }
+  // Exercise-mode facet — appears only when one of the path-bound axes is
+  // exercise-type (mode is subsidiary to exercise-type per §17.8.5).
+  if (pathBoundExerciseTypeKey && modeFacetOptions.length > 0) {
+    const opts = modeFacetOptions.map(c => ({
+      axisKey: c.axisKey,
+      label: getAxisName('exercise-mode', c.axisKey, locale) ?? c.axisKey,
+      count: c.count,
+    }));
+    facetGroups.push({ paramKey: 'mode', heading: tFacets('exerciseMode'), options: opts });
+  }
 
   const childSpString = (() => {
     const out = new URLSearchParams();
     if (filters.sort !== 'newest') out.set('sort', filters.sort);
     if (filters.page !== 1) out.set('page', String(filters.page));
     if (filters.level) out.set('level', filters.level);
+    if (modeFilter) out.set('mode', modeFilter);
     if (filters.theme) out.set('theme', filters.theme);
     if (filters.type) out.set('type', filters.type);
     return out.toString();

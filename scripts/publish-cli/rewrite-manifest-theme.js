@@ -90,11 +90,13 @@ function lookupAxisKeyByDisplayName(displayName, locale) {
 // ordered list of theme-bearing settings field names; first matching
 // field whose value is a registered axis-key wins. Currently registered:
 //   matching — settings.letter_theme (Class E in the 2026-05-09 wave)
+//              + settings.dict_theme as secondary for non-letter modes
+//              (image-image, pair, etc.) per 2026-05-14 es wave Shape A fix.
 // Future apps register here as the source-side emit-defect surfaces:
 // the salvage script preserves operator's existing generation hours
 // while authoring-side fixes ship asynchronously per §A.13.10.
 var SETTINGS_THEME_FIELDS = {
-  'matching': ['letter_theme']
+  'matching': ['letter_theme', 'dict_theme']
 };
 
 // -------------------------------------------------------------------------

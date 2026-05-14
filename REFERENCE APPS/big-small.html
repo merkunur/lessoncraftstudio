@@ -5322,8 +5322,15 @@ async function downloadPDF(canvasInstance, fileName, opts) {
           capture('borderThemeSelect', 'border_theme_select');
           capture('backgroundThemeSelect', 'background_theme_select');
           capture('grayscaleToggle', 'grayscale');
-          var theme = (typeof dictionaryThemeSelect !== 'undefined' && dictionaryThemeSelect && dictionaryThemeSelect.value && dictionaryThemeSelect.value !== 'all')
-              ? dictionaryThemeSelect.value : null;
+          // Shape A fix per CLAUDE.md §A.13.5: previous code read the WRONG picker
+          // (dictionaryThemeSelect, which only filters the image-library browser, and
+          // is referenced as a non-existent JS-scope variable). The operator-facing
+          // worksheet theme picker is worksheetThemeSelect — same source that
+          // LCSCatalogExport.deriveThemeName reads for seoMeta. Mirror it here so
+          // manifest.theme stays consistent with seoMeta.themeName.
+          var _wtEl = document.getElementById('worksheetThemeSelect');
+          var theme = (_wtEl && _wtEl.value && _wtEl.value !== 'all' && _wtEl.value !== 'none' && _wtEl.value !== '')
+              ? _wtEl.value : null;
           return {
               settings: settings,
               theme: theme,

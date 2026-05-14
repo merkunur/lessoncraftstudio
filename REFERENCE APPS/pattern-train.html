@@ -4938,8 +4938,14 @@ async function downloadPDF(canvasToExport, baseFilename, opts) {
         capture('themeSelect', 'theme_select');
         capture('borderThemeSelect', 'border_theme_select');
         capture('grayscaleToggle', 'grayscale');
-        var theme = (typeof themeSelect !== 'undefined' && themeSelect && themeSelect.value && themeSelect.value !== 'all')
-            ? themeSelect.value : null;
+        // Shape A fix per CLAUDE.md §A.13.5: previous code read the dictionary
+        // theme picker (themeSelect), not the operator-facing worksheet theme
+        // picker (worksheetThemeSelect). LCSCatalogExport.deriveThemeName uses
+        // worksheetThemeSelect for seoMeta; mirror it here so manifest.theme
+        // stays consistent.
+        var _wtEl = document.getElementById('worksheetThemeSelect');
+        var theme = (_wtEl && _wtEl.value && _wtEl.value !== 'all' && _wtEl.value !== 'none' && _wtEl.value !== '')
+            ? _wtEl.value : null;
         return {
             settings: settings,
             theme: theme,

@@ -4449,9 +4449,17 @@
             capture('dictTheme', 'dict_theme');
             capture('borderThemeSelect', 'border_theme_select');
             capture('grayscaleToggle', 'grayscale');
+            // Shape A fix per CLAUDE.md §A.13.5: read mode-conditional theme picker
+            // (letterTheme for mode=letter; dictTheme for image modes).
+            // 'all'/empty → null (legitimate themeless deck or random-pull mode).
+            var _modeEl = document.getElementById('mode');
+            var _mode = _modeEl ? _modeEl.value : '';
+            var _pickerId = (_mode === 'letter') ? 'letterTheme' : 'dictTheme';
+            var _pEl = document.getElementById(_pickerId);
+            var _theme = (_pEl && _pEl.value && _pEl.value !== 'all') ? _pEl.value : null;
             return {
                 settings: settings,
-                theme: null,
+                theme: _theme,
                 images_used: [],
                 vocabulary: vocabulary,
                 exercises: Array.isArray(pd.pairs) ? pd.pairs : []

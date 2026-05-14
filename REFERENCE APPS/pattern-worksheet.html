@@ -5442,9 +5442,16 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf', opts) {
             capture('themeSelect', 'theme_select');
             capture('borderThemeSelect', 'border_theme_select');
             capture('grayscaleToggle', 'grayscale');
+            // Shape A fix per CLAUDE.md §A.13.5: previous code read ui.themeSelect
+            // (dictionary picker), not the operator-facing ui.worksheetThemeSelect
+            // (worksheet theme). Mirror what LCSCatalogExport.deriveThemeName reads
+            // for seoMeta so manifest.theme stays consistent.
+            var _wt = ui.worksheetThemeSelect;
+            var _topTheme = (_wt && _wt.value && _wt.value !== 'all' && _wt.value !== 'none' && _wt.value !== '')
+                ? _wt.value : null;
             return {
                 settings: settings,
-                theme: (ui.themeSelect && ui.themeSelect.value && ui.themeSelect.value !== 'all') ? ui.themeSelect.value : null,
+                theme: _topTheme,
                 images_used: imagesUsed,
                 vocabulary: [],
                 exercises: Array.isArray(pd.puzzles) ? pd.puzzles : [pd]

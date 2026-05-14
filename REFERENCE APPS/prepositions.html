@@ -4911,24 +4911,29 @@
         capture('themeSelect', 'theme_select');
         capture('borderThemeSelect', 'border_theme_select');
         capture('grayscaleToggle', 'grayscale');
-        // Propagate the operator-selected theme to the top-level `theme` field
-        // so it participates in the §17.8.5 slug derivation + §17.8.1 SEO surfaces.
-        // 'all' is the operator's all-themes mode (random pull); the deck still ends
-        // up themed by whatever single theme the random-pull selected, which the
-        // §15.16 reconciliation gate (and rewrite-manifest-theme.js salvage) read
-        // from exercises[0].item.theme. Emit null in that case to let downstream
-        // tooling derive the actual theme from in-bundle content.
-        var themeEl = document.getElementById('themeSelect');
-        var themeVal = themeEl && themeEl.value ? String(themeEl.value).trim() : '';
-        var topLevelTheme = (themeVal && themeVal !== '' && themeVal !== 'all')
-            ? themeVal
-            : null;
+        // Shape A fix per CLAUDE.md §A.13.5: the operator commonly leaves themeSelect
+        // at 'all' (random-pull mode) but the resulting exercises all share a single
+        // theme via the dictionary's random pull. The deck IS themed; capture that
+        // by deriving from exercises[].item.theme rather than the picker's 'all'-state.
+        // Falls back to themeSelect value when it's a concrete (non-'all') choice.
+        var _assignments = Array.isArray(pd.assignments) ? pd.assignments : [pd];
+        var _themes = {};
+        _assignments.forEach(function (a) {
+            var t = a && a.item && a.item.theme;
+            if (t && t !== 'all') _themes[t] = true;
+        });
+        var _themeKeys = Object.keys(_themes);
+        var _derivedFromExercises = (_themeKeys.length === 1) ? _themeKeys[0] : null;
+        var _themeEl = document.getElementById('themeSelect');
+        var _themeVal = _themeEl && _themeEl.value ? String(_themeEl.value).trim() : '';
+        var _fromPicker = (_themeVal && _themeVal !== 'all') ? _themeVal : null;
+        var topLevelTheme = _fromPicker || _derivedFromExercises || null;
         return {
             settings: settings,
             theme: topLevelTheme,
             images_used: [],
             vocabulary: [],
-            exercises: Array.isArray(pd.assignments) ? pd.assignments : [pd]
+            exercises: _assignments
         };
     }
 

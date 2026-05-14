@@ -23,6 +23,8 @@ teachingPackageSlugs:
   - sort-by-category
   - describe-physical-properties-of-objects
   - compare-quantities-more-fewer-up-to-20
+  - add-2-digit-without-regrouping
+  - subtract-2-digit-without-regrouping
 
 deckIds: []
 lessonPlanIds: []

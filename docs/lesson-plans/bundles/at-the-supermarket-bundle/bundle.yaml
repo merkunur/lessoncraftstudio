@@ -25,6 +25,9 @@ teachingPackageSlugs:
   - sort-by-category
   - identify-community-helpers
   - compare-quantities-more-fewer-up-to-20
+  - add-2-digit-without-regrouping
+  - subtract-2-digit-without-regrouping
+  - compare-2-digit-numbers
 
 deckIds: []
 lessonPlanIds: []

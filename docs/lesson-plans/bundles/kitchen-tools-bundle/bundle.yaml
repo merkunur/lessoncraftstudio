@@ -22,6 +22,8 @@ teachingPackageSlugs:
   - sort-by-category
   - compare-by-capacity
   - measure-time-in-hours
+  - tell-time-to-the-hour
+  - tell-time-to-half-hour
 
 deckIds: []
 lessonPlanIds: []

@@ -23,6 +23,8 @@ teachingPackageSlugs:
   - sort-by-category
   - compare-quantities-more-fewer-up-to-20
   - measure-time-in-hours
+  - tell-time-to-the-hour
+  - tell-time-to-half-hour
 
 deckIds: []
 lessonPlanIds: []

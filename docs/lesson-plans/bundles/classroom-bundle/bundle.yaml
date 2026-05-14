@@ -23,6 +23,10 @@ teachingPackageSlugs:
   - identify-days-of-week
   - notice-cognate-word-pairs
   - measure-time-in-hours
+  - tell-time-to-the-hour
+  - tell-time-to-half-hour
+  - form-uppercase-letters
+  - fact-families-within-10
 
 deckIds: []
 lessonPlanIds: []

@@ -22,6 +22,8 @@ teachingPackageSlugs:
   - identify-3d-shapes
   - describe-shape-attributes
   - sort-by-shape
+  - compose-shapes-from-parts
+  - identify-symmetry-line
 
 deckIds: []
 lessonPlanIds: []

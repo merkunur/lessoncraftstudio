@@ -2848,6 +2848,9 @@ function updateTranslations() {
         // 3 odd images in Odd-One-Out mode. Min theme size is 4 (3 targets + ≥1 decoy).
         const FIND_OBJECTS_TARGET_COUNT = 3;
         const FIND_OBJECTS_MIN_THEME_SIZE = FIND_OBJECTS_TARGET_COUNT + 1;
+        // Max pair count per Odd-One-Out worksheet (operator spec 2026-05-15) — beyond this,
+        // additional theme pairs are randomly sampled-out. Total max tiles = 3 + 15*2 = 33.
+        const FIND_OBJECTS_MAX_PAIRS = 15;
 
         // Locale-aware theme cache lookup. Shares the imageCache used by loadDictionary
         // (cache key `${theme}-${currentLocale}` per line ~2648). On miss, fetches and
@@ -2993,12 +2996,18 @@ function updateTranslations() {
             }
 
             // Shuffle the theme; first 3 become odd images (targets, each shown once),
-            // rest become pairs (decoys, each shown twice).
-            // ALL theme images are used (no cap) — see computeOddOneOutSizing which scales
-            // item sizes to fit ALL items rather than dropping any. v2 fix 2026-05-15.
+            // next up to 15 become pairs (decoys, each shown twice). v3 fix 2026-05-15:
+            // pair count capped per operator spec at FIND_OBJECTS_MAX_PAIRS (= 15) so the
+            // worksheet never exceeds 33 tiles — keeps visual density in the 70-90 px range
+            // even for large themes. shuffled is already random so slice preserves random sample.
+            // For themes with N <= 18 images, the slice end-index exceeds array length and
+            // JavaScript returns all available pairs (no conditional needed).
             const shuffled = getRandomSubset(themeImages, themeImages.length);
             const oddImages = shuffled.slice(0, FIND_OBJECTS_TARGET_COUNT);
-            const pairs = shuffled.slice(FIND_OBJECTS_TARGET_COUNT);
+            const pairs = shuffled.slice(
+                FIND_OBJECTS_TARGET_COUNT,
+                FIND_OBJECTS_TARGET_COUNT + FIND_OBJECTS_MAX_PAIRS
+            );
 
             let allImages = [];
 

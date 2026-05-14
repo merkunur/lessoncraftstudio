@@ -791,7 +791,8 @@
       "worksheet": "Worksheet",
       "free_interactive": "Free interactive",
       "for": "for",
-      "print_or_play_online": "Print or play online"
+      "print_or_play_online": "Print or play online",
+      "variant_label": "Set"
     }
   },
   "endDeck": {

@@ -882,7 +882,8 @@
       "worksheet": "Arbeitsblatt",
       "free_interactive": "Kostenloses interaktives",
       "for": "für",
-      "print_or_play_online": "Drucken oder online spielen"
+      "print_or_play_online": "Drucken oder online spielen",
+      "variant_label": "Satz"
     }
   },
   "endDeck": {

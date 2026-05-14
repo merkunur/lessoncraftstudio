@@ -116,8 +116,11 @@ function parseSearchParams(
 // when slugs are passed in the wrong order — protects SEO signal against
 // external links written in either order.
 
-const TOPIC_LOCALES = ['en', 'de', 'es', 'nl', 'it', 'fr', 'pt', 'sv', 'da', 'no', 'fi'] as const;
-type TopicLocale = (typeof TOPIC_LOCALES)[number];
+// Topic-page locales — single source of truth at frontend/config/topic-locales.ts.
+// Mirrors single-axis topic page locale set.
+import { TOPIC_ENABLED_LOCALES, TopicEnabledLocale } from '@/config/topic-locales';
+const TOPIC_LOCALES = TOPIC_ENABLED_LOCALES;
+type TopicLocale = TopicEnabledLocale;
 
 const BASE_URL = 'https://www.lessoncraftstudio.com';
 
@@ -224,6 +227,42 @@ function deckLinkFor(deck: TopicDeckSummary): string {
   return `/${deck.language}/decks/${deck.slug}/`;
 }
 
+/**
+ * Resolve intersection prose for the (a1, a2) pair from topicProse namespace.
+ * Per §16.7.2 alphabetic-key convention: keys are stored as `<sortedA>__<sortedB>`.
+ * Returns null when no prose authored (long-tail intersections per §16.7.3 Path B).
+ */
+async function getIntersectionProse(locale: string, axisKey1: string, axisKey2: string): Promise<string | null> {
+  try {
+    const tp = await getTranslations({ locale, namespace: 'topicProse' });
+    const sorted = [axisKey1, axisKey2].sort().join('__');
+    const v = tp(sorted);
+    if (!v || v === sorted) return null;
+    return v;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Extract first sentence from prose for use as meta description (mirrors
+ * the single-axis topic page helper for consistency).
+ */
+function firstSentenceOf(prose: string | null | undefined, maxLen = 155): string | null {
+  if (!prose) return null;
+  const trimmed = prose.trim();
+  if (!trimmed) return null;
+  const m = trimmed.match(/^[\s\S]+?[.!?](?=\s|$)/);
+  let candidate = m ? m[0].trim() : trimmed;
+  if (candidate.length > maxLen) {
+    candidate = candidate.slice(0, maxLen);
+    const lastSpace = candidate.lastIndexOf(' ');
+    if (lastSpace > maxLen * 0.7) candidate = candidate.slice(0, lastSpace);
+    candidate = candidate.replace(/[,;:]+$/, '') + '…';
+  }
+  return candidate;
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -254,16 +293,22 @@ export async function generateMetadata({
 
   const canonical = `${BASE_URL}/${locale}/topic/${params.slug}/${params.secondary}/`;
 
+  // Prefer intersection prose first sentence as meta description (per §16.7.2
+  // alphabetic-key lookup). Falls back to template for long-tail intersections.
+  const intersectionProse = await getIntersectionProse(locale, axisKey1, axisKey2);
+  const prosePreview = firstSentenceOf(intersectionProse, 155);
+  const description = prosePreview ?? t('description', { topic: compositeName });
+
   return {
     title: t('title', { topic: compositeName }),
-    description: t('description', { topic: compositeName }),
+    description,
     alternates: {
       canonical,
       languages: hreflangAlternates,
     },
     openGraph: {
       title: t('title', { topic: compositeName }),
-      description: t('description', { topic: compositeName }),
+      description,
       type: 'website',
       url: canonical,
       siteName: 'LessonCraftStudio',
@@ -272,7 +317,7 @@ export async function generateMetadata({
     twitter: {
       card: 'summary',
       title: t('title', { topic: compositeName }),
-      description: t('description', { topic: compositeName }),
+      description,
     },
   };
 }
@@ -281,14 +326,23 @@ function buildCollectionSchema(
   locale: TopicLocale,
   topicName: string,
   canonical: string,
-  decks: TopicDeckSummary[]
+  decks: TopicDeckSummary[],
+  proseDescription?: string | null
 ) {
+  let description: string | undefined;
+  if (proseDescription) {
+    const trimmed = proseDescription.trim();
+    description = trimmed.length > 500
+      ? trimmed.slice(0, 497).replace(/[\s,;:]+$/, '') + '…'
+      : trimmed;
+  }
   return {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
     '@id': canonical,
     url: canonical,
     name: topicName,
+    ...(description ? { description } : {}),
     inLanguage: locale,
     isPartOf: {
       '@type': 'WebSite',
@@ -441,7 +495,8 @@ export default async function IntersectionPage({
   })();
 
   const canonical = `${BASE_URL}${basePath}`;
-  const schema = buildCollectionSchema(locale, compositeName, canonical, decks);
+  const intersectionProseForSchema = await getIntersectionProse(locale, axisKey1, axisKey2);
+  const schema = buildCollectionSchema(locale, compositeName, canonical, decks, intersectionProseForSchema);
 
   return (
     <>

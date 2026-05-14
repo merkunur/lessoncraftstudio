@@ -268,7 +268,11 @@ const translations = {
     "srWorksheetQuestions": "Worksheet questions",
     "srPuzzleCryptogram": "Cryptogram puzzle. The cipher key shows pictures of {imageList}. Each picture stands for a letter. Sound out each picture's starting letter, then write that letter to fill in the secret message.",
     "runtimeTitle": "Cryptogram Practice"
-  },
+    "worksheet": "Worksheet",
+    "seoFreeInteractive": "Free interactive",
+    "seoFor": "for",
+    "seoPrintOrPlayOnline": "Print or play online",
+},
   "da": {
     "exportToCatalog": "Eksporter til kataloget",
     "exportingToCatalog": "Eksporterer…",
@@ -529,7 +533,11 @@ const translations = {
     "sendBackward": "Flyt bagud",
     "sendToBack": "Placer bagerst",
     "runtimeTitle": "Kryptogramøvelse"
-  },
+    "worksheet": "Opgaveark",
+    "seoFreeInteractive": "Gratis interaktiv",
+    "seoFor": "til",
+    "seoPrintOrPlayOnline": "Udskriv eller spil online",
+},
   "nl": {
     "exportToCatalog": "Naar catalogus exporteren",
     "exportingToCatalog": "Bezig met exporteren…",
@@ -789,7 +797,11 @@ const translations = {
     "sendBackward": "Naar achteren",
     "sendToBack": "Op de achtergrond plaatsen",
     "runtimeTitle": "Cryptogram oefenen"
-  },
+    "worksheet": "Werkblad",
+    "seoFreeInteractive": "Gratis interactief",
+    "seoFor": "voor",
+    "seoPrintOrPlayOnline": "Print of speel online",
+},
   "fi": {
     "exportToCatalog": "Vie katalogiin",
     "exportingToCatalog": "Viedään…",
@@ -1051,7 +1063,11 @@ const translations = {
     "sendBackward": "Siirrä taaksepäin",
     "sendToBack": "Siirrä taustalle",
     "runtimeTitle": "Salakirjoitusharjoitus"
-  },
+    "worksheet": "Tehtäväpaperi",
+    "seoFreeInteractive": "Ilmainen vuorovaikutteinen",
+    "seoFor": "aiheelle",
+    "seoPrintOrPlayOnline": "Tulosta tai pelaa verkossa",
+},
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",
     "exportingToCatalog": "Exportation en cours…",
@@ -1312,7 +1328,11 @@ const translations = {
     "sendBackward": "Reculer",
     "sendToBack": "Placer en arrière-plan",
     "runtimeTitle": "Exercices de cryptogramme"
-  },
+    "worksheet": "Fiche",
+    "seoFreeInteractive": "Fiche interactive gratuite",
+    "seoFor": "pour",
+    "seoPrintOrPlayOnline": "Imprimer ou jouer en ligne",
+},
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
     "exportingToCatalog": "Wird exportiert…",
@@ -1575,7 +1595,11 @@ const translations = {
     "srWorksheetQuestions": "Arbeitsblatt-Fragen",
     "srPuzzleCryptogram": "Geheimschrift-Rätsel. Der Geheimcode zeigt diese Bilder: {imageList}. Jedes Bild steht für einen Buchstaben. Sprich den Anfangsbuchstaben jedes Bildes aus und trage ihn in die geheime Botschaft ein.",
     "runtimeTitle": "Kryptogramm-Übung"
-  },
+    "worksheet": "Arbeitsblatt",
+    "seoFreeInteractive": "Kostenloses interaktives",
+    "seoFor": "für",
+    "seoPrintOrPlayOnline": "Drucken oder online spielen",
+},
   "it": {
     "exportToCatalog": "Esporta nel catalogo",
     "exportingToCatalog": "Esportazione in corso…",
@@ -1826,7 +1850,11 @@ const translations = {
     "sendBackward": "Porta indietro",
     "sendToBack": "Sposta sullo sfondo",
     "runtimeTitle": "Esercizi di crittogramma"
-  },
+    "worksheet": "Scheda",
+    "seoFreeInteractive": "Scheda interattiva gratuita",
+    "seoFor": "per",
+    "seoPrintOrPlayOnline": "Stampa o gioca online",
+},
   "no": {
     "exportToCatalog": "Eksporter til katalog",
     "exportingToCatalog": "Eksporterer…",
@@ -2085,7 +2113,11 @@ const translations = {
     "sendBackward": "Flytt bakover",
     "sendToBack": "Plasser bakerst",
     "runtimeTitle": "Kryptogramøving"
-  },
+    "worksheet": "Oppgaveark",
+    "seoFreeInteractive": "Gratis interaktiv",
+    "seoFor": "for",
+    "seoPrintOrPlayOnline": "Skriv ut eller spill online",
+},
   "pt": {
     "exportToCatalog": "Exportar para o catálogo",
     "exportingToCatalog": "Exportando…",
@@ -2345,7 +2377,11 @@ const translations = {
     "sendBackward": "Enviar para trás",
     "sendToBack": "Enviar para o fundo",
     "runtimeTitle": "Prática de Criptograma"
-  },
+    "worksheet": "Folha de Exercícios",
+    "seoFreeInteractive": "Atividade interativa gratuita",
+    "seoFor": "para",
+    "seoPrintOrPlayOnline": "Imprimir ou jogar online",
+},
   "es": {
     "exportToCatalog": "Exportar al catálogo",
     "exportingToCatalog": "Exportando…",
@@ -2606,7 +2642,11 @@ const translations = {
     "sendBackward": "Enviar atrás",
     "sendToBack": "Enviar al fondo",
     "runtimeTitle": "Práctica de Criptograma"
-  },
+    "worksheet": "Ficha",
+    "seoFreeInteractive": "Hoja interactiva gratuita",
+    "seoFor": "para",
+    "seoPrintOrPlayOnline": "Imprimir o jugar en línea",
+},
   "sv": {
     "exportToCatalog": "Exportera till katalog",
     "exportingToCatalog": "Exporterar…",
@@ -2860,7 +2900,11 @@ const translations = {
     "sendBackward": "Flytta bakåt",
     "sendToBack": "Flytta längst bak",
     "runtimeTitle": "Kryptogramövning"
-  }
+    "worksheet": "Övningsblad",
+    "seoFreeInteractive": "Gratis interaktivt",
+    "seoFor": "för",
+    "seoPrintOrPlayOnline": "Skriv ut eller spela online",
+}
 };
 
 // Export for module systems

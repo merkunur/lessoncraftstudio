@@ -394,10 +394,21 @@
    * Returns null when input is null/empty/non-string. Empty string trips
    * the fallback path (default-mode contract).
    */
-  function deriveExerciseModeName(rawMode) {
+  function deriveExerciseModeName(rawMode, locale, taxonomy) {
     if (!rawMode || typeof rawMode !== 'string') return null;
     var s = rawMode.trim();
     if (!s) return null;
+    // Locale lookup via topics-taxonomy.json axes.exercise-mode.<key>.name.<locale>
+    // when taxonomy provided; falls back locale → en → title-cased slug.
+    if (taxonomy && taxonomy.axes && taxonomy.axes['exercise-mode']) {
+      var entry = taxonomy.axes['exercise-mode'][s];
+      if (entry && entry.name) {
+        var loc = locale || 'en';
+        if (entry.name[loc]) return entry.name[loc];
+        if (entry.name.en) return entry.name.en;
+      }
+    }
+    // Final fallback: title-case the raw slug
     return s.split('-').map(function (w) {
       if (!w) return '';
       return w.charAt(0).toUpperCase() + w.slice(1);
@@ -505,8 +516,12 @@
     var freeInteractive = String(opts.freeInteractive || 'Free interactive');
     var forWord         = String(opts.forWord || 'for');
     var printOrPlay     = String(opts.printOrPlay || 'Print or play online');
+    // Variant-id label localized per locale (es: "Conjunto", de: "Satz", etc.).
+    // Defaults to English "Set" for backwards compat with callers that don't
+    // pass variantLabel (legacy app gen-time invocations pre-locale-fix).
+    var variantLabel    = String(opts.variantLabel || 'Set');
 
-    // Title: "{Type} {Mode?} {Worksheet} — {Theme} — __EDUCATIONAL_LEVEL_LOCALIZED__ — Set {variantId}? | LessonCraftStudio"
+    // Title: "{Type} {Mode?} {Worksheet} — {Theme} — __EDUCATIONAL_LEVEL_LOCALIZED__ — {VariantLabel} {variantId}? | LessonCraftStudio"
     // Mode segment included when non-null (non-default mode); omitted for default mode.
     // Theme segment + its em-dashes are omitted when no theme is set.
     // Variant segment included when non-null (§11 commission); omitted for legacy decks.
@@ -514,17 +529,17 @@
     var titleSegments = [titleHead];
     if (themeName) titleSegments.push(themeName);
     titleSegments.push('__EDUCATIONAL_LEVEL_LOCALIZED__');
-    if (variantId) titleSegments.push('Set ' + variantId);
+    if (variantId) titleSegments.push(variantLabel + ' ' + variantId);
     var titleCore = titleSegments.join(' — ');
     var titleFull = titleCore + ' | LessonCraftStudio';
 
-    // Description: "{freeInteractive} {type} {mode?} {worksheet} ({theme}) {for} __EDUCATIONAL_LEVEL_LOCALIZED__. {instruction}. {printOrPlay} (Set {variantId})?."
+    // Description: "{freeInteractive} {type} {mode?} {worksheet} ({theme}) {for} __EDUCATIONAL_LEVEL_LOCALIZED__. {instruction}. {printOrPlay} ({VariantLabel} {variantId})?."
     // Preserve input casing — German requires capitalized nouns; lowercasing
     // breaks grammar in 5+ of the 11 supported languages.
     var descLead = freeInteractive + ' ' + typeName + (modeName ? ' ' + modeName : '') + ' ' + worksheetWord;
     if (themeName) descLead += ' (' + themeName + ')';
     descLead += ' ' + forWord + ' __EDUCATIONAL_LEVEL_LOCALIZED__';
-    var descTail = ' ' + printOrPlay + (variantId ? ' (Set ' + variantId + ')' : '') + '.';
+    var descTail = ' ' + printOrPlay + (variantId ? ' (' + variantLabel + ' ' + variantId + ')' : '') + '.';
     var description = descLead + '.' + (instruction ? ' ' + instruction + (/[.!?]$/.test(instruction) ? '' : '.') : '') + descTail;
 
     // Schema.org LearningResource. Placeholders sit INSIDE string-quoted JSON

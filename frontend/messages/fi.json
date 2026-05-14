@@ -1054,7 +1054,8 @@
       "worksheet": "Tehtävämoniste",
       "free_interactive": "Ilmainen interaktiivinen",
       "for": "varten",
-      "print_or_play_online": "Tulosta tai pelaa verkossa"
+      "print_or_play_online": "Tulosta tai pelaa verkossa",
+      "variant_label": "Sarja"
     }
   },
   "endDeck": {

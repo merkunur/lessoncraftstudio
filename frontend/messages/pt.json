@@ -1075,7 +1075,8 @@
       "worksheet": "Folha de exercícios",
       "free_interactive": "Folha interativa grátis",
       "for": "para",
-      "print_or_play_online": "Imprima ou jogue online"
+      "print_or_play_online": "Imprima ou jogue online",
+      "variant_label": "Conjunto"
     }
   },
   "endDeck": {

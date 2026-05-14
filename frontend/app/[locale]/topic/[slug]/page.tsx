@@ -35,11 +35,12 @@ import Pagination from '@/components/catalog/Pagination';
 import { buildFilterUrl, clearFilters } from '@/components/catalog/filterUrl';
 import DeckGridClient, { TopicDeckCardData } from './DeckGridClient';
 
-// Tier 1 launch locales per CLAUDE.md §19. Tier 2-4 fold in later; topic
-// pages only generate for locales with catalog content (per Footer.tsx
-// convention §5.6: don't fabricate links to pages that don't exist yet).
-const TOPIC_LOCALES = ['en', 'de', 'es', 'nl', 'it', 'fr', 'pt', 'sv', 'da', 'no', 'fi'] as const;
-type TopicLocale = (typeof TOPIC_LOCALES)[number];
+// Topic-page locales — single source of truth at frontend/config/topic-locales.ts.
+// Per Footer.tsx convention §5.6 + §16.6.1 honesty discipline: per-(axis,key,locale)
+// tuple URL emission gated by fetchDecksForAxis() so empty tuples never render.
+import { TOPIC_ENABLED_LOCALES, TopicEnabledLocale } from '@/config/topic-locales';
+const TOPIC_LOCALES = TOPIC_ENABLED_LOCALES;
+type TopicLocale = TopicEnabledLocale;
 
 const BASE_URL = 'https://www.lessoncraftstudio.com';
 
@@ -134,6 +135,44 @@ function deckLinkFor(deck: TopicDeckSummary): string {
   return `/${deck.language}/decks/${deck.slug}/`;
 }
 
+/**
+ * Extract first sentence from prose for use as meta description.
+ * Truncates at sentence boundary; falls back to character truncation if
+ * no sentence punctuation found within max chars.
+ */
+function firstSentenceOf(prose: string | null | undefined, maxLen = 155): string | null {
+  if (!prose) return null;
+  const trimmed = prose.trim();
+  if (!trimmed) return null;
+  // Match first sentence ending in . ! ? followed by space or end-of-string
+  const m = trimmed.match(/^[\s\S]+?[.!?](?=\s|$)/);
+  let candidate = m ? m[0].trim() : trimmed;
+  if (candidate.length > maxLen) {
+    // Truncate at last word boundary before maxLen
+    candidate = candidate.slice(0, maxLen);
+    const lastSpace = candidate.lastIndexOf(' ');
+    if (lastSpace > maxLen * 0.7) candidate = candidate.slice(0, lastSpace);
+    candidate = candidate.replace(/[,;:]+$/, '') + '…';
+  }
+  return candidate;
+}
+
+/**
+ * Resolve topic prose for the given axis-key from the topicProse namespace.
+ * Returns null when no prose authored (long-tail axis-keys per §16.7.3 Path B).
+ */
+async function getTopicProse(locale: string, axisKey: string): Promise<string | null> {
+  try {
+    const tp = await getTranslations({ locale, namespace: 'topicProse' });
+    const v = tp(axisKey);
+    // next-intl returns the key itself when missing; treat as no prose
+    if (!v || v === axisKey) return null;
+    return v;
+  } catch {
+    return null;
+  }
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -160,16 +199,23 @@ export async function generateMetadata({
   const canonical = `${BASE_URL}/${locale}/topic/${params.slug}/`;
   const otherSiblings = siblings.filter(s => s.locale !== locale);
 
+  // Prefer topicProse first sentence as meta description (per CLAUDE.md §17.4
+  // content-depth doctrine + §16.7.1 fallback chain). Falls back to template
+  // for long-tail axis-keys without authored prose.
+  const prose = await getTopicProse(locale, axisKey);
+  const prosePreview = firstSentenceOf(prose, 155);
+  const description = prosePreview ?? t('description', { topic: topicName });
+
   return {
     title: t('title', { topic: topicName }),
-    description: t('description', { topic: topicName }),
+    description,
     alternates: {
       canonical,
       languages: hreflangAlternates,
     },
     openGraph: {
       title: t('title', { topic: topicName }),
-      description: t('description', { topic: topicName }),
+      description,
       type: 'website',
       url: canonical,
       siteName: 'LessonCraftStudio',
@@ -179,7 +225,7 @@ export async function generateMetadata({
     twitter: {
       card: 'summary',
       title: t('title', { topic: topicName }),
-      description: t('description', { topic: topicName }),
+      description,
     },
   };
 }
@@ -188,14 +234,25 @@ function buildCollectionSchema(
   locale: TopicLocale,
   topicName: string,
   canonical: string,
-  decks: TopicDeckSummary[]
+  decks: TopicDeckSummary[],
+  proseDescription?: string | null
 ) {
+  // Truncate prose to 500 chars for schema description (Google rich-snippet
+  // recommendation; full-page prose stays in body content + OG description).
+  let description: string | undefined;
+  if (proseDescription) {
+    const trimmed = proseDescription.trim();
+    description = trimmed.length > 500
+      ? trimmed.slice(0, 497).replace(/[\s,;:]+$/, '') + '…'
+      : trimmed;
+  }
   return {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
     '@id': canonical,
     url: canonical,
     name: topicName,
+    ...(description ? { description } : {}),
     inLanguage: locale,
     isPartOf: {
       '@type': 'WebSite',
@@ -436,7 +493,12 @@ export default async function TopicPage({
   })();
 
   const canonical = `${BASE_URL}${basePath}`;
-  const schema = buildCollectionSchema(locale, topicName, canonical, decks);
+  // Topic prose feeds CollectionPage schema description (rich snippet
+  // eligibility) — same prose substrate the meta description first-sentence
+  // is extracted from. Long-tail axis-keys without authored prose pass
+  // undefined and the schema omits the description field.
+  const topicProseForSchema = await getTopicProse(locale, axisKey);
+  const schema = buildCollectionSchema(locale, topicName, canonical, decks, topicProseForSchema);
 
   // Pillar 1 Phase 1b — axis-driven lesson-plan reference. Silent fall-through
   // when no plan exists for this (axisKey, locale). Renders as preview card

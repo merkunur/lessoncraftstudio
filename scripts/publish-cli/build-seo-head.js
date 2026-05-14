@@ -73,6 +73,10 @@ function buildSeoHead(opts) {
   var freeInteractive = String(opts.freeInteractive || 'Free interactive');
   var forWord         = String(opts.forWord || 'for');
   var printOrPlay     = String(opts.printOrPlay || 'Print or play online');
+  // Variant-id label localized per locale (es: "Conjunto", de: "Satz", etc.).
+  // Defaults to English "Set" for backwards compat with callers that don't
+  // pass variantLabel (e.g., legacy republish-seo invocations pre-locale-fix).
+  var variantLabel    = String(opts.variantLabel || 'Set');
 
   // Title: "{Type} {Mode?} {Worksheet} — {Theme} — __EDUCATIONAL_LEVEL_LOCALIZED__ — Set {variantId}? | LessonCraftStudio"
   // Mode segment included when non-null (non-default mode); omitted for default mode.
@@ -82,7 +86,7 @@ function buildSeoHead(opts) {
   var titleSegments = [titleHead];
   if (themeName) titleSegments.push(themeName);
   titleSegments.push('__EDUCATIONAL_LEVEL_LOCALIZED__');
-  if (variantId) titleSegments.push('Set ' + variantId);
+  if (variantId) titleSegments.push(variantLabel + ' ' + variantId);
   var titleCore = titleSegments.join(' — ');
   var titleFull = titleCore + ' | LessonCraftStudio';
 
@@ -92,7 +96,7 @@ function buildSeoHead(opts) {
   var descLead = freeInteractive + ' ' + typeName + (modeName ? ' ' + modeName : '') + ' ' + worksheetWord;
   if (themeName) descLead += ' (' + themeName + ')';
   descLead += ' ' + forWord + ' __EDUCATIONAL_LEVEL_LOCALIZED__';
-  var descTail = ' ' + printOrPlay + (variantId ? ' (Set ' + variantId + ')' : '') + '.';
+  var descTail = ' ' + printOrPlay + (variantId ? ' (' + variantLabel + ' ' + variantId + ')' : '') + '.';
   var description = descLead + '.' + (instruction ? ' ' + instruction + (/[.!?]$/.test(instruction) ? '' : '.') : '') + descTail;
 
   // Schema.org LearningResource. Placeholders sit INSIDE string-quoted JSON
@@ -145,18 +149,37 @@ function buildSeoHead(opts) {
 }
 
 /**
- * Phase 4a Checkpoint 2.5 (θ): convert raw exercise_mode slug (e.g.,
- * 'find-addend') to title-case human-readable form (e.g., 'Find Addend').
- * Mirror of catalog-export.js deriveExerciseModeName for Node-side
- * republish-seo retrofit consumption.
+ * Convert raw exercise_mode slug to localized human-readable form for SEO
+ * surfaces. Reads name from topics-taxonomy.json `axes.exercise-mode.<key>.name.<locale>`
+ * with fallback chain: locale → en → title-cased slug.
+ *
+ * Phase 4a Checkpoint 2.5 (θ) shipped title-case-only fallback; Phase 5+
+ * (this commission) layers locale-aware lookup on top so es/de/etc. titles
+ * render localized mode names instead of leaking raw English ('Easy', 'FindBig').
+ *
+ * Args:
+ *   rawMode  — manifest.exercise_mode raw slug (e.g., 'find-addend', 'easy')
+ *   locale   — deck's content language ('en' | 'es' | ...); optional, defaults to 'en'
+ *   taxonomy — frontend/config/topics-taxonomy.json object; optional. When
+ *              omitted, falls through to title-case-only behavior (legacy).
  *
  * Returns null when input is null/empty/non-string. Empty string trips
  * the fallback path (default-mode contract per §17.8.5).
  */
-function deriveExerciseModeName(rawMode) {
+function deriveExerciseModeName(rawMode, locale, taxonomy) {
   if (!rawMode || typeof rawMode !== 'string') return null;
   var s = rawMode.trim();
   if (!s) return null;
+  // Taxonomy lookup: locale → en → title-cased slug
+  if (taxonomy && taxonomy.axes && taxonomy.axes['exercise-mode']) {
+    var entry = taxonomy.axes['exercise-mode'][s];
+    if (entry && entry.name) {
+      var loc = locale || 'en';
+      if (entry.name[loc]) return entry.name[loc];
+      if (entry.name.en) return entry.name.en;
+    }
+  }
+  // Final fallback: title-case the raw slug
   return s.split('-').map(function (w) {
     if (!w) return '';
     return w.charAt(0).toUpperCase() + w.slice(1);

@@ -16,14 +16,13 @@ export const revalidate = 1800;
 // Dynamic date from build environment, falls back to static date
 const STATIC_CONTENT_DATE = new Date(process.env.BUILD_DATE || '2026-04-04');
 
-// Topic-page locales — Tier 1 + Tier 2 per CLAUDE.md §19. Mirrors the topic route's
-// generateStaticParams locale set so the sitemap doesn't advertise URLs that
-// won't 200. Per F4 honesty discipline (Pass 7b), per-locale topic URLs only emit
-// when the (axis, axis-key, locale) tuple has ≥1 published deck — extending
-// TOPIC_LOCALES does NOT inflate the sitemap with empty es/nl entries; emission
-// is content-gated downstream (see fetchDecksForAxis at the topic route).
-const TOPIC_LOCALES = ['en', 'de', 'es', 'nl'] as const;
-type TopicLocale = (typeof TOPIC_LOCALES)[number];
+// Topic-page locales — single source of truth at frontend/config/topic-locales.ts.
+// Mirrors the topic route's TOPIC_LOCALES; honesty-discipline filters
+// (listNonEmptyAxisKeys / listNonEmptyIntersections) ensure only (axis, key, locale)
+// tuples with ≥1 published deck emit URLs, so adding Tier-3+ locales here is safe.
+import { TOPIC_ENABLED_LOCALES, TopicEnabledLocale } from '@/config/topic-locales';
+const TOPIC_LOCALES = TOPIC_ENABLED_LOCALES;
+type TopicLocale = TopicEnabledLocale;
 const TOPIC_AXES: Axis[] = ['exercise-type', 'theme', 'educational-level'];
 
 // Axis-pair canonical-order rank per Arc 6c — theme → educational-level →
@@ -94,11 +93,19 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       const routes: MetadataRoute.Sitemap = [];
       for (const d of decks) {
         if (deckPartition(d.id) !== targetPartition) continue;
+        const deckUrl = `${baseUrl}/${d.language}/decks/${d.slug}/`;
+        // Single-language hreflang self-reference per CLAUDE.md §17.8.7 v1.
+        // Each deck currently maps to exactly one (language, slug) tuple
+        // (content_family_id null per v1). v2 (translate-this-deck) will
+        // expand this to a sibling-set keyed off contentFamilyId.
         routes.push({
-          url: `${baseUrl}/${d.language}/decks/${d.slug}/`,
+          url: deckUrl,
           lastModified: d.updatedAt,
           changeFrequency: 'weekly',
           priority: 0.7,
+          alternates: {
+            languages: { [getHreflangCode(d.language)]: deckUrl },
+          },
         });
       }
       return routes;

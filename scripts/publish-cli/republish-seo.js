@@ -51,14 +51,17 @@ var SEO_MARKER_END = '<!-- SEO_INSERTION_POINT_END -->';
 var CELEBRATION_H1_OPEN_REGEX = /<h1(\s[^>]*class="[^"]*lcs-celebration__title[^"]*"[^>]*)>/g;
 
 // Default English fallbacks for the 4 SEO words. Used when manifest.seo_trace
-// absent (Class A.2 + B). Phase 5 NSR review may add localized values to
-// frontend/messages/<locale>.json under "seo.words.*"; this script reads them
-// when present and falls back to these defaults otherwise.
+// absent (Class A.2 + B) AND when trace values match these English defaults
+// (indicates app-side _t() lookup fell back to English at gen time — cryptogram
+// + chart-count surfaced this in 2026-05-14 ES wave). Phase 5 NSR review added
+// localized values to frontend/messages/<locale>.json under "seo.words.*";
+// this script reads them when present and falls back to these defaults otherwise.
 var SEO_WORD_DEFAULTS = {
   worksheet: 'Worksheet',
   freeInteractive: 'Free interactive',
   forWord: 'for',
-  printOrPlay: 'Print or play online'
+  printOrPlay: 'Print or play online',
+  variantLabel: 'Set'
 };
 
 // ============================================================
@@ -247,19 +250,34 @@ function resolveSeoOpts(c) {
   }
 
   // 4 SEO words (worksheet / freeInteractive / forWord / printOrPlay)
+  // Preference: trace value when present AND not English-default (locale-residue
+  // detection per the 2026-05-14 cryptogram/chart-count surface). When trace
+  // value EQUALS English default AND locale != en, fall back to i18n (locale's
+  // seo.words.* entry in frontend/messages) — recovers Spanish "Ficha" etc.
+  // for apps whose _t() lookup misfired at gen time.
+  function resolveSeoWord(traceVal, defaultEN, i18nKey) {
+    var i18nVal = tryI18n(locale, i18nKey, null);
+    if (traceVal && traceVal !== defaultEN) return traceVal;       // trust trace if non-English
+    if (locale !== 'en' && i18nVal) return i18nVal;                // override English-residue with i18n
+    return traceVal || i18nVal || defaultEN;                       // final fallback
+  }
   var worksheetWord, freeInteractive, forWord, printOrPlay;
   if (trace && trace.title && trace.title.worksheetWord) {
-    worksheetWord = trace.title.worksheetWord.value || SEO_WORD_DEFAULTS.worksheet;
-    freeInteractive = (trace.description && trace.description.freeInteractive && trace.description.freeInteractive.value) || SEO_WORD_DEFAULTS.freeInteractive;
-    forWord = (trace.description && trace.description.forWord && trace.description.forWord.value) || SEO_WORD_DEFAULTS.forWord;
-    printOrPlay = (trace.description && trace.description.printOrPlay && trace.description.printOrPlay.value) || SEO_WORD_DEFAULTS.printOrPlay;
+    worksheetWord   = resolveSeoWord(trace.title.worksheetWord.value, SEO_WORD_DEFAULTS.worksheet,            'seo.words.worksheet');
+    freeInteractive = resolveSeoWord((trace.description && trace.description.freeInteractive && trace.description.freeInteractive.value) || null, SEO_WORD_DEFAULTS.freeInteractive, 'seo.words.free_interactive');
+    forWord         = resolveSeoWord((trace.description && trace.description.forWord && trace.description.forWord.value) || null, SEO_WORD_DEFAULTS.forWord, 'seo.words.for');
+    printOrPlay     = resolveSeoWord((trace.description && trace.description.printOrPlay && trace.description.printOrPlay.value) || null, SEO_WORD_DEFAULTS.printOrPlay, 'seo.words.print_or_play_online');
   } else {
     // Fallback: try i18n.seo.words.*; default to English
-    worksheetWord = tryI18n(locale, 'seo.words.worksheet', SEO_WORD_DEFAULTS.worksheet);
-    freeInteractive = tryI18n(locale, 'seo.words.free_interactive', SEO_WORD_DEFAULTS.freeInteractive);
-    forWord = tryI18n(locale, 'seo.words.for', SEO_WORD_DEFAULTS.forWord);
-    printOrPlay = tryI18n(locale, 'seo.words.print_or_play_online', SEO_WORD_DEFAULTS.printOrPlay);
+    worksheetWord   = tryI18n(locale, 'seo.words.worksheet',              SEO_WORD_DEFAULTS.worksheet);
+    freeInteractive = tryI18n(locale, 'seo.words.free_interactive',       SEO_WORD_DEFAULTS.freeInteractive);
+    forWord         = tryI18n(locale, 'seo.words.for',                    SEO_WORD_DEFAULTS.forWord);
+    printOrPlay     = tryI18n(locale, 'seo.words.print_or_play_online',   SEO_WORD_DEFAULTS.printOrPlay);
   }
+  // Variant label localized per locale (es: "Conjunto", de: "Satz", etc.).
+  // Trace doesn't carry this field (added Phase 5+ post-§11 commission); always
+  // resolve from i18n.
+  var variantLabel = tryI18n(locale, 'seo.words.variant_label',           SEO_WORD_DEFAULTS.variantLabel);
 
   // instruction
   var instruction = '';
@@ -299,6 +317,14 @@ function resolveSeoOpts(c) {
     }
   }
 
+  // §11 commission: variant_id discriminator (load-bearing for §17.8.17
+  // Invariant 1+2 title/description uniqueness on fresh-roll variations).
+  // Source: manifest.variant_id baked at gen time. Without this, retrofit
+  // would drop the "Set XXX" suffix → identical titles across (type, mode,
+  // theme) tuples → uniqueness HALT class.
+  var variantId = (manifest.variant_id !== undefined && manifest.variant_id !== null && manifest.variant_id !== '')
+                    ? String(manifest.variant_id) : null;
+
   return {
     language: locale,
     exerciseTypeName: exerciseTypeName,
@@ -309,7 +335,9 @@ function resolveSeoOpts(c) {
     instruction: instruction,
     freeInteractive: freeInteractive,
     forWord: forWord,
-    printOrPlay: printOrPlay
+    printOrPlay: printOrPlay,
+    variantLabel: variantLabel,
+    variantId: variantId
   };
 }
 

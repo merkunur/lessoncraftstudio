@@ -738,7 +738,8 @@
       "worksheet": "Werkblad",
       "free_interactive": "Gratis interactief",
       "for": "voor",
-      "print_or_play_online": "Afdrukken of online spelen"
+      "print_or_play_online": "Afdrukken of online spelen",
+      "variant_label": "Set"
     }
   },
   "endDeck": {

@@ -3936,7 +3936,7 @@
         },
         "name": {
           "en": "Find Addend",
-          "de": null,
+          "de": "Summand finden",
           "es": "Buscar Sumando",
           "nl": null,
           "it": null,
@@ -3964,7 +3964,7 @@
         },
         "name": {
           "en": "Image-Image",
-          "de": null,
+          "de": "Bild-Bild",
           "es": "Imagen-Imagen",
           "nl": null,
           "it": null,
@@ -3992,7 +3992,7 @@
         },
         "name": {
           "en": "Image-Number",
-          "de": null,
+          "de": "Bild-Zahl",
           "es": "Imagen-Número",
           "nl": null,
           "it": null,
@@ -4020,7 +4020,7 @@
         },
         "name": {
           "en": "Mixed",
-          "de": null,
+          "de": "Gemischt",
           "es": "Mixto",
           "nl": null,
           "it": null,
@@ -4048,7 +4048,7 @@
         },
         "name": {
           "en": "Cross Out",
-          "de": null,
+          "de": "Durchstreichen",
           "es": "Tachar",
           "nl": null,
           "it": null,
@@ -4076,7 +4076,7 @@
         },
         "name": {
           "en": "Find Subtrahend",
-          "de": null,
+          "de": "Subtrahend finden",
           "es": "Buscar Sustraendo",
           "nl": null,
           "it": null,
@@ -4104,8 +4104,344 @@
         },
         "name": {
           "en": "Secret Word",
-          "de": null,
+          "de": "Geheimwort",
           "es": "Palabra Secreta",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "easy": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Easy",
+          "de": "Leicht",
+          "es": "Fácil",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "normal": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Normal",
+          "de": "Normal",
+          "es": "Normal",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "fillin": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Fill-In",
+          "de": "Lückentext",
+          "es": "Completar",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "multiplechoice": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Multiple Choice",
+          "de": "Multiple-Choice",
+          "es": "Opción Múltiple",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "findbig": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Find Big",
+          "de": "Großes finden",
+          "es": "Encontrar el Grande",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "orderasc": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Order Ascending",
+          "de": "Aufsteigend ordnen",
+          "es": "Orden Ascendente",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "aab": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "AAB",
+          "de": "AAB",
+          "es": "AAB",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "aabb": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "AABB",
+          "de": "AABB",
+          "es": "AABB",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "abb": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "ABB",
+          "de": "ABB",
+          "es": "ABB",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "abc": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "ABC",
+          "de": "ABC",
+          "es": "ABC",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "letter": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Letter",
+          "de": "Buchstaben",
+          "es": "Letras",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "name": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Name",
+          "de": "Namen",
+          "es": "Nombres",
           "nl": null,
           "it": null,
           "fr": null,

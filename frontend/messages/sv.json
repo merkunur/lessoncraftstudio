@@ -1065,7 +1065,8 @@
       "worksheet": "Övningsblad",
       "free_interactive": "Gratis interaktivt",
       "for": "för",
-      "print_or_play_online": "Skriv ut eller spela online"
+      "print_or_play_online": "Skriv ut eller spela online",
+      "variant_label": "Set"
     }
   },
   "endDeck": {

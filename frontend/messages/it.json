@@ -1075,7 +1075,8 @@
       "worksheet": "Scheda di esercizi",
       "free_interactive": "Scheda interattiva gratuita",
       "for": "per",
-      "print_or_play_online": "Stampa o gioca online"
+      "print_or_play_online": "Stampa o gioca online",
+      "variant_label": "Set"
     }
   },
   "endDeck": {

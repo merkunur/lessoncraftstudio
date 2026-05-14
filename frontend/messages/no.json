@@ -1069,7 +1069,8 @@
       "worksheet": "Oppgaveark",
       "free_interactive": "Gratis interaktivt",
       "for": "for",
-      "print_or_play_online": "Skriv ut eller spill online"
+      "print_or_play_online": "Skriv ut eller spill online",
+      "variant_label": "Sett"
     }
   },
   "endDeck": {

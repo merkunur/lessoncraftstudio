@@ -213,19 +213,24 @@ function resolveSeoOpts(c) {
   var exerciseTypeName, exerciseTypeSlug;
   exerciseTypeSlug = manifest.exercise_type || '';
   exerciseTypeName = null;
-  // Trace value FIRST (it carries canvas.lcsLocalizedTitle like "Suma Divertida"
-  // which the apps' designers chose specifically; taxonomy.name is just
-  // "Suma" — less marketing-friendly. Prefer trace for typeName.)
-  if (trace && trace.title && trace.title.typeName && trace.title.typeName.value) {
+  // For non-en locales: prefer taxonomy.name.<locale> over trace (avoids
+  // English residue when app's lcsLocalizedTitle was English at gen time —
+  // e.g. bingo shipped trace.typeName="Picture Bingo" for ES decks because
+  // the app's locale-binding failed). Taxonomy is canonical SoT per §17.4.
+  // For en: keep trace-first behavior so app-curated marketing names like
+  // "Suma Divertida" win over generic taxonomy "Addition".
+  var typeEntry = null;
+  try {
+    typeEntry = taxonomy.exerciseTypeFor(manifest.exercise_type, locale);
+  } catch (e) { /* defensive */ }
+  if (locale !== 'en' && typeEntry && typeEntry.name) {
+    exerciseTypeName = typeEntry.name;
+  } else if (trace && trace.title && trace.title.typeName && trace.title.typeName.value) {
     exerciseTypeName = trace.title.typeName.value;
-  }
-  if (!exerciseTypeName) {
-    try {
-      var typeEntry = taxonomy.exerciseTypeFor(manifest.exercise_type, locale);
-      exerciseTypeName = typeEntry && typeEntry.name ? typeEntry.name : capitalize(manifest.exercise_type || '');
-    } catch (e) {
-      exerciseTypeName = capitalize(manifest.exercise_type || '');
-    }
+  } else if (typeEntry && typeEntry.name) {
+    exerciseTypeName = typeEntry.name;
+  } else {
+    exerciseTypeName = capitalize(manifest.exercise_type || '');
   }
 
   // themeName (nullable) — PREFER TAXONOMY over trace per native-language-slug commission.

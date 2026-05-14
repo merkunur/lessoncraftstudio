@@ -119,8 +119,12 @@ function themeFor(themeKey, locale) {
  */
 function exerciseModeFor(modeKey, locale) {
   if (modeKey == null || modeKey === '') return null;
+  // Case-insensitive key normalization: operator's apps emit modes in various
+  // casings ('findBig', 'FindBig', 'findbig'); taxonomy registers lowercase keys.
+  // Normalize to lowercase before lookup so all casings resolve consistently.
+  var normalizedKey = String(modeKey).toLowerCase();
   try {
-    var r = axisLookup('exercise-mode', modeKey, locale);
+    var r = axisLookup('exercise-mode', normalizedKey, locale);
     if (r) return r;
     // axisLookup returns null when slug.locale is missing. For SEO title
     // localization (republish-seo), we need the NAME independent of slug —
@@ -129,7 +133,7 @@ function exerciseModeFor(modeKey, locale) {
     // is null but name is populated. Callers using slug-derivation still
     // see null on this path (same as current behavior).
     var t = load();
-    var entry = t.axes && t.axes['exercise-mode'] && t.axes['exercise-mode'][modeKey];
+    var entry = t.axes && t.axes['exercise-mode'] && t.axes['exercise-mode'][normalizedKey];
     if (entry && entry.name && entry.name[locale]) {
       return { slug: null, name: entry.name[locale] };
     }

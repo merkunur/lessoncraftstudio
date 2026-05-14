@@ -2948,39 +2948,35 @@ function updateTranslations() {
             };
         }
 
-        // Density-aware sizing helper for Odd-One-Out mode (added 2026-05-15).
-        // Computes per-item size bounds given total item count + canvas content area;
-        // returns capItems=true with maxItemCount when item count would exceed the K-3
-        // visual quality floor (70 px minimum for recognizable images), so prepareOddOneOutImages
-        // can sample-down the pair set before placement begins. See plan for design rationale.
+        // Density-aware sizing helper for Odd-One-Out mode (rewritten 2026-05-15 v2).
+        // Computes per-item size bounds given total item count + canvas content area.
+        // CRITICAL: NEVER caps the item count. All theme images are always used. When the
+        // theme is large, items scale down to fit; when the theme is small, items scale up.
+        // Floor at 50 px keeps items visually recognizable for K-3 even at extreme densities.
         function computeOddOneOutSizing(itemCount, contentRect, isLandscape) {
-            const targetUtilization = 0.50;       // 50% canvas-area-with-spacing slots utilized
-            const spacing = 30;                   // matches isTooCloseToPartner / minDistance buffer
-            const absoluteMinSize = 70;           // K-3 visual recognition floor
+            const targetCoverage = 0.55;          // 55% of canvas covered by item bboxes
+            const absoluteMinSize = 50;           // K-3 recognition floor (small but readable)
             const absoluteMaxSize = isLandscape ? 270 : 225;  // existing cap, preserved
             const contentArea = Math.max(1, contentRect.width * contentRect.height);
             const safeItemCount = Math.max(1, itemCount);
 
-            // Solve for size such that itemCount fits at target utilization:
-            //   itemCount = contentArea * targetUtilization / (avg + spacing)^2
-            const idealAvgSize = Math.sqrt(contentArea * targetUtilization / safeItemCount) - spacing;
+            // Solve for average item size such that itemCount items cover targetCoverage of canvas:
+            //   itemCount * avg^2 = contentArea * targetCoverage
+            const idealAvgSize = Math.sqrt(contentArea * targetCoverage / safeItemCount);
 
-            if (idealAvgSize >= absoluteMinSize) {
-                // Adaptive sizing path — sizes scale down with item count
-                const minSize = Math.max(idealAvgSize * 0.75, absoluteMinSize);
-                const maxSize = Math.min(idealAvgSize * 1.50, absoluteMaxSize);
-                return { capItems: false, maxItemCount: safeItemCount, minSize: minSize, maxSize: maxSize };
-            } else {
-                // Quality-floor path — cap item count, hold sizes at floor
-                const avgAtFloor = absoluteMinSize / 0.75;  // ~93 px
-                const maxItemCount = Math.max(
-                    FIND_OBJECTS_TARGET_COUNT,
-                    Math.floor(contentArea * targetUtilization / Math.pow(avgAtFloor + spacing, 2))
-                );
-                const minSize = absoluteMinSize;
-                const maxSize = avgAtFloor * 1.50;          // ~140 px (floor regime cap)
-                return { capItems: true, maxItemCount: maxItemCount, minSize: minSize, maxSize: maxSize };
-            }
+            // Clamp to floor + ceiling
+            const clampedAvg = Math.max(absoluteMinSize, Math.min(idealAvgSize, absoluteMaxSize));
+            const minSize = Math.max(clampedAvg * 0.75, absoluteMinSize);
+            const maxSize = Math.min(clampedAvg * 1.50, absoluteMaxSize);
+
+            // NEVER cap items — operator's theme selection drives content; algorithm fits visually.
+            return {
+                capItems: false,
+                maxItemCount: safeItemCount,
+                minSize: minSize,
+                maxSize: maxSize,
+                avgSize: clampedAvg
+            };
         }
 
         async function prepareOddOneOutImages() {
@@ -2998,22 +2994,11 @@ function updateTranslations() {
 
             // Shuffle the theme; first 3 become odd images (targets, each shown once),
             // rest become pairs (decoys, each shown twice).
+            // ALL theme images are used (no cap) — see computeOddOneOutSizing which scales
+            // item sizes to fit ALL items rather than dropping any. v2 fix 2026-05-15.
             const shuffled = getRandomSubset(themeImages, themeImages.length);
             const oddImages = shuffled.slice(0, FIND_OBJECTS_TARGET_COUNT);
-            let pairs = shuffled.slice(FIND_OBJECTS_TARGET_COUNT);
-
-            // Density-aware item cap (added 2026-05-15) — sample down pairs when total items
-            // would exceed the K-3 visual-recognition floor at the current canvas size. Cap
-            // happens here (in image preparation) rather than in placement so that downstream
-            // exports (interactive HTML, answer key) reflect the sampled set, not the full theme.
-            const projectedItemCount = pairs.length * 2 + FIND_OBJECTS_TARGET_COUNT;
-            const provisionalRect = computeContentRect();
-            const sizing = computeOddOneOutSizing(projectedItemCount, provisionalRect, provisionalRect.isLandscape);
-            if (sizing.capItems) {
-                const maxPairs = Math.max(0, Math.floor((sizing.maxItemCount - FIND_OBJECTS_TARGET_COUNT) / 2));
-                // shuffled was already random; slicing preserves random sample
-                pairs = pairs.slice(0, maxPairs);
-            }
+            const pairs = shuffled.slice(FIND_OBJECTS_TARGET_COUNT);
 
             let allImages = [];
 
@@ -3186,7 +3171,12 @@ function updateTranslations() {
 
 
         // Specialized placement for odd one out mode with pair constraints
-        async function placeOddOneOutImages(canvas, images, contentRect, baseSize, minSize, maxSize, isLandscape) {
+        async function placeOddOneOutImages(canvas, images, contentRect, baseSize, minSize, maxSize, isLandscape, avgItemSize) {
+            // Dynamic spacing buffer scales with item size — at small floor sizes (50-60 px)
+            // the original hardcoded 30 px buffer was too generous and forced unsolvable packing
+            // for large themes. v2 fix 2026-05-15.
+            const dynBuffer = Math.max(12, Math.min(30, (avgItemSize || 80) * 0.25));
+            const dynPartnerSep = Math.max(40, (avgItemSize || 80) * 0.8);
             const placedObjects = [];
             let generatedItemCounter = 0;
 
@@ -3259,12 +3249,12 @@ function updateTranslations() {
                         // Check if horizontally adjacent (same row, side by side)
                         // Horizontal adjacency: vertical distance small AND horizontal distance is about sum of half-widths
                         const horizontallyAdjacent = dy < Math.max(imgHeight, partnerHeight) * 0.6 &&
-                                                     dx < (imgWidth + partnerWidth) / 2 + 100; // 100px minimum separation
+                                                     dx < (imgWidth + partnerWidth) / 2 + dynPartnerSep; // scales with avg item size
 
                         // Check if vertically adjacent (same column, stacked)
                         // Vertical adjacency: horizontal distance small AND vertical distance is about sum of half-heights
                         const verticallyAdjacent = dx < Math.max(imgWidth, partnerWidth) * 0.6 &&
-                                                   dy < (imgHeight + partnerHeight) / 2 + 100; // 100px minimum separation
+                                                   dy < (imgHeight + partnerHeight) / 2 + dynPartnerSep; // scales with avg item size
 
                         if (horizontallyAdjacent || verticallyAdjacent) {
                             return true; // Too close to partner
@@ -3315,7 +3305,7 @@ function updateTranslations() {
                                 const distance = Math.sqrt(dx * dx + dy * dy);
 
                                 // Minimum distance with buffer to ensure no visual overlap
-                                const minDistance = (imgWidth + existing.getScaledWidth()) / 2 + 30;
+                                const minDistance = (imgWidth + existing.getScaledWidth()) / 2 + dynBuffer;
 
                                 if (distance < minDistance) {
                                     // Calculate how much they overlap
@@ -3368,7 +3358,7 @@ function updateTranslations() {
                                         const dx = centerX - existing.left;
                                         const dy = centerY - existing.top;
                                         const distance = Math.sqrt(dx * dx + dy * dy);
-                                        const minDistance = (shrunkWidth + existing.getScaledWidth()) / 2 + 30;
+                                        const minDistance = (shrunkWidth + existing.getScaledWidth()) / 2 + dynBuffer;
 
                                         if (distance < minDistance) {
                                             const overlap = minDistance - distance;
@@ -3626,10 +3616,9 @@ function updateTranslations() {
 
             if (isOddOneOutMode) {
 
-                // Density-aware sizing (added 2026-05-15) — sizes scale to actual item count
-                // up to a K-3 visual quality floor (70 px). Pair count was already capped in
-                // prepareOddOneOutImages when the floor would otherwise be breached, so by
-                // this point allDistractors.length is guaranteed to fit at sizing.minSize.
+                // Density-aware sizing v2 (rewritten 2026-05-15) — sizes scale to actual item
+                // count; ALL theme images are used, never capped. Floor at 50 px keeps items
+                // visually recognizable for K-3 even at extreme densities (50+ image themes).
                 const oddSizing = computeOddOneOutSizing(allDistractors.length, contentRect, isLandscape);
 
                 // Use specialized placement for odd one out with pair constraints
@@ -3640,7 +3629,8 @@ function updateTranslations() {
                     baseSize,
                     oddSizing.minSize,
                     oddSizing.maxSize,
-                    isLandscape
+                    isLandscape,
+                    oddSizing.avgSize
                 );
                 // Skip to legend creation - placement done
             } else {

@@ -570,6 +570,14 @@
       '@type': 'LearningResource',
       name: titleCore,
       description: description,
+      // image + datePublished added 2026-05-14 for Google search-result
+      // thumbnail surfacing. `image` is the load-bearing Schema.org signal
+      // Google uses to confidently render a thumbnail alongside the title.
+      // og:image + twitter:image were already present; Schema.org image
+      // closes the rich-result detection path. datePublished provides a
+      // freshness signal for Google Discover + News index visibility.
+      image: '__OG_IMAGE__',
+      datePublished: '__DATE_PUBLISHED__',
       learningResourceType: 'Worksheet',
       educationalLevel: '__EDUCATIONAL_LEVEL__',
       teaches: typeSlug,

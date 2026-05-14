@@ -107,6 +107,12 @@ function buildSeoHead(opts) {
     '@type': 'LearningResource',
     name: titleCore,
     description: description,
+    // image + datePublished added 2026-05-14 for Google search-result
+    // thumbnail surfacing. Mirrors REFERENCE TRANSLATIONS/catalog-export.js
+    // buildSeoHead — both emit-paths (forward-flow at apps + retrofit at
+    // republish-seo.js) MUST stay in sync per §17.8.4 contract.
+    image: '__OG_IMAGE__',
+    datePublished: '__DATE_PUBLISHED__',
     learningResourceType: 'Worksheet',
     educationalLevel: '__EDUCATIONAL_LEVEL__',
     teaches: typeSlug,

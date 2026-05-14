@@ -342,6 +342,13 @@ function apply(opts) {
   var ogImageAlt = ogTitle;
   note('__OG_IMAGE_ALT__', 'mirrors __OG_TITLE__', ogImageAlt, false);
 
+  // 38. __DATE_PUBLISHED__ — ISO 8601 timestamp from manifest.generated_at per
+  // §15.1 generation.json schema. Drives Schema.org LearningResource.datePublished
+  // for Google freshness signal. Added 2026-05-14 alongside Schema.org image
+  // field for Google search-result thumbnail surfacing.
+  var datePublished = (manifest && manifest.generated_at) ? String(manifest.generated_at) : '';
+  note('__DATE_PUBLISHED__', 'from manifest.generated_at', datePublished, !datePublished);
+
   // Apply OG substitutions (idempotent allowlist iteration per §15.13 dry-run-vs-real
   // parity guarantee). Forward-compatible: no-ops until catalog-export.js emits.
   html = html
@@ -349,7 +356,8 @@ function apply(opts) {
     .replace(/__OG_DESCRIPTION__/g, ogDescription)
     .replace(/__OG_IMAGE__/g, ogImage)
     .replace(/__OG_LOCALE__/g, ogLocale)
-    .replace(/__OG_IMAGE_ALT__/g, ogImageAlt);
+    .replace(/__OG_IMAGE_ALT__/g, ogImageAlt)
+    .replace(/__DATE_PUBLISHED__/g, datePublished);
 
   return {
     html: html,

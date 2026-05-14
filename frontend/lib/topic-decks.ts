@@ -1,5 +1,5 @@
 import { prisma } from './prisma';
-import { Axis, levelKeyToAgeRanges, listAxisKeys } from './taxonomy';
+import { Axis, levelKeyToAgeRanges, listAxisKeys, listExerciseModeKeys } from './taxonomy';
 
 export interface TopicDeckSummary {
   id: string;
@@ -749,7 +749,7 @@ export async function getExerciseModeCountsForType(
     select: { exerciseMode: true },
   });
 
-  const modeRegistry = new Set(listAxisKeys('exercise-mode'));
+  const modeRegistry = new Set(listExerciseModeKeys());
   const modeCounts = new Map<string, number>();
   for (const d of decks) {
     if (!d.exerciseMode) continue;

@@ -13,12 +13,21 @@ interface AppEntry {
   exercise_type_axis_key: string;
 }
 
+// exercise-mode is a slug-component axis per §17.8.5, NOT a formal topic-page
+// axis. Its entries may have null slug.<locale> values (name-only lookups
+// supported for SEO + filter UI); use ExerciseModeEntry rather than AxisEntry.
+interface ExerciseModeEntry {
+  slug: Record<string, string | null>;
+  name: Record<string, string | null>;
+}
+
 interface Taxonomy {
   apps: Record<string, AppEntry>;
   axes: {
     'exercise-type': Record<string, AxisEntry>;
     theme: Record<string, AxisEntry>;
     'educational-level': Record<string, AxisEntry>;
+    'exercise-mode'?: Record<string, ExerciseModeEntry>;
   };
 }
 
@@ -48,6 +57,29 @@ export function getAxisSlug(axis: Axis, axisKey: string, locale: string): string
 
 export function getAxisName(axis: Axis, axisKey: string, locale: string): string | null {
   return getAxisEntry(axis, axisKey)?.name?.[locale] ?? null;
+}
+
+/**
+ * Exercise-mode helpers — kept separate from the 3 formal axes.
+ * Per CLAUDE.md §17.8.5 mode is a slug-component axis (not a topic-page
+ * axis); these helpers expose its registry + name-lookup for the
+ * topic-page filter UI per the §16.8 mode-facet extension.
+ *
+ * listExerciseModeKeys(): all registered mode axis-keys (used to validate
+ * deck-emitted exercise_mode values before tallying into facet counts).
+ *
+ * getExerciseModeName(): locale-specific display name (falls back to en
+ * then to the bare axis-key per the same fallback chain used in
+ * scripts/publish-cli/taxonomy.js for SEO retrofit).
+ */
+export function listExerciseModeKeys(): string[] {
+  return Object.keys(taxonomy.axes['exercise-mode'] ?? {});
+}
+
+export function getExerciseModeName(modeKey: string, locale: string): string | null {
+  const entry = taxonomy.axes['exercise-mode']?.[modeKey];
+  if (!entry || !entry.name) return null;
+  return entry.name[locale] ?? entry.name.en ?? null;
 }
 
 export function ageRangeToLevelKey(ageRange: string): string | null {

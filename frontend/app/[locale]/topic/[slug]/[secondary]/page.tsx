@@ -6,6 +6,7 @@ import {
   Axis,
   getAxisName,
   getAxisSlug,
+  getExerciseModeName,
   listAxisKeys,
   resolveTopicSlug,
 } from '@/lib/taxonomy';
@@ -465,7 +466,7 @@ export default async function IntersectionPage({
     if (name) activeChips.push({ paramKey: 'type', axisKey: filters.type, label: name });
   }
   if (modeFilter) {
-    const name = getAxisName('exercise-mode', modeFilter, locale);
+    const name = getExerciseModeName(modeFilter, locale);
     if (name) activeChips.push({ paramKey: 'mode', axisKey: modeFilter, label: name });
   }
 
@@ -511,7 +512,7 @@ export default async function IntersectionPage({
   if (pathBoundExerciseTypeKey && modeFacetOptions.length > 0) {
     const opts = modeFacetOptions.map(c => ({
       axisKey: c.axisKey,
-      label: getAxisName('exercise-mode', c.axisKey, locale) ?? c.axisKey,
+      label: getExerciseModeName(c.axisKey, locale) ?? c.axisKey,
       count: c.count,
     }));
     facetGroups.push({ paramKey: 'mode', heading: tFacets('exerciseMode'), options: opts });

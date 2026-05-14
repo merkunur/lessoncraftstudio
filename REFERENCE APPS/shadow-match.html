@@ -3230,7 +3230,13 @@
               // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2: pre-build bundle so
               // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
               // Phase 4a Checkpoint 2.5 (θ): hoist exerciseMode for seoMeta discriminator
-              var exerciseModeForBundle = (document.getElementById('exerciseModeSelect') && document.getElementById('exerciseModeSelect').value) || null;
+              // Mode derived from radio[name="exerciseMode"]: shadowMatch → 'find-shadow';
+              // makeItWhole → 'make-whole'. (find-shadow avoids slug collision with the
+              // shadow-match exercise-type axis-key.)
+              // Per topic-page mode-filter commission (§16.8 + §A.13.5 Shape A).
+              var _smRadio = document.querySelector('input[name="exerciseMode"]:checked');
+              var _smVal = (_smRadio && _smRadio.value) || 'shadowMatch';
+              var exerciseModeForBundle = (_smVal === 'makeItWhole') ? 'make-whole' : 'find-shadow';
               var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline', exerciseMode: exerciseModeForBundle });
               var getBundle = async function () { return cachedBundle; };
               var manifestMeta = buildCatalogManifestSettings();

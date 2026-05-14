@@ -4268,9 +4268,13 @@
                 // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2: pre-build bundle so
                 // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
                 var manifestMeta = buildCatalogManifestSettings();
-                var pieceShapeMap = { circle: 'circle', rectPortrait: 'rect-portrait', rectLandscape: 'rect-landscape', ellipsePortrait: 'ellipse-portrait', ellipseLandscape: 'ellipse-landscape' };
-                var pieceShape = manifestMeta.settings && manifestMeta.settings.piece_shape;
-                var derivedExerciseMode = pieceShape ? (pieceShapeMap[pieceShape] || null) : null;
+                // Mode derived from missingCountInput (1-5 missing pieces). Per topic-page mode-filter
+                // commission (§16.8 + §A.13.5 Shape A); replaces prior piece_shape-based derivation.
+                // piece_shape stays in manifest.settings; mode dimension is the count operator selected.
+                var _mciEl = document.getElementById('missingCountInput');
+                var _mciVal = parseInt((_mciEl && _mciEl.value) || '1', 10);
+                var _countWord = ['', 'one', 'two', 'three', 'four', 'five'][_mciVal] || 'one';
+                var derivedExerciseMode = _countWord + '-missing';
                 // Phase 4a Checkpoint 2.5 (θ): hoist exerciseMode for seoMeta discriminator
                 var exerciseModeForBundle = derivedExerciseMode;
                 var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline', exerciseMode: exerciseModeForBundle });

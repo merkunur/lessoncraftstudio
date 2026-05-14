@@ -4159,8 +4159,12 @@
               // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2: pre-build bundle so
               // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
               var manifestMeta = buildCatalogManifestSettings();
+              // Mode derived from directionTypeSelect (basic → 'cardinal-arrows';
+              // cardinal → 'compass'). Per topic-page mode-filter commission (§16.8):
+              // explicit-emit for both modes (was null-default for basic pre-commission
+              // per §17.8.5; now both modes filterable).
               var dirType = (document.getElementById('directionTypeSelect') || {}).value;
-              var derivedExerciseMode = dirType === 'cardinal' ? 'compass' : null;
+              var derivedExerciseMode = (dirType === 'cardinal') ? 'compass' : 'cardinal-arrows';
               // Phase 4a Checkpoint 2.5 (θ): hoist exerciseMode for seoMeta discriminator
               var exerciseModeForBundle = derivedExerciseMode;
               var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline', exerciseMode: exerciseModeForBundle });

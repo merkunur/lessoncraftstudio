@@ -8237,7 +8237,11 @@ document.addEventListener("DOMContentLoaded", function() {
           // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2: pre-build bundle so
           // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
           // Phase 4a Checkpoint 2.5 (θ): hoist exerciseMode for seoMeta discriminator
-          var exerciseModeForBundle = (document.getElementById('gameMode') && document.getElementById('gameMode').value) || null;
+          // Fix typo: actual UI control id is `gameModeSelect` (not `gameMode`). UI values
+          // (pathway / classic-maze / choose-path) pass through directly as canonical mode keys.
+          // Per topic-page mode-filter commission (§16.8 + §A.13.5 Shape A).
+          var _gmsEl = document.getElementById('gameModeSelect');
+          var exerciseModeForBundle = (_gmsEl && _gmsEl.value) || 'pathway';
           var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline', exerciseMode: exerciseModeForBundle });
           var getBundle = async function () { return cachedBundle; };
           var manifestMeta = buildCatalogManifestSettings();

@@ -5204,7 +5204,16 @@
               // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2: pre-build bundle so
               // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
               // Phase 4a Checkpoint 2.5 (θ): hoist exerciseMode for seoMeta discriminator
-              var exerciseModeForBundle = (document.getElementById('operationSelect') && document.getElementById('operationSelect').value) || null;
+              // Mode derived from difficulty (2/3/4 symbols) + operations (add / addsub) — combined per
+              // operator commission. 6 combinations: <symbol-count>-<ops>.
+              // Per topic-page mode-filter commission (§16.8 + §A.13.5 Shape A).
+              var _diffEl = document.getElementById('difficulty');
+              var _opsEl = document.getElementById('operations');
+              var _diffVal = (_diffEl && _diffEl.value) || 'medium';
+              var _opsVal = (_opsEl && _opsEl.value) || 'addsub';
+              var _symPart = (_diffVal === 'medium') ? 'three-symbols' : (_diffVal === 'hard' ? 'four-symbols' : 'two-symbols');
+              var _opsPart = (_opsVal === 'add') ? 'add' : 'add-sub';
+              var exerciseModeForBundle = _symPart + '-' + _opsPart;
               var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline', exerciseMode: exerciseModeForBundle });
               var getBundle = async function () { return cachedBundle; };
               var manifestMeta = buildCatalogManifestSettings();

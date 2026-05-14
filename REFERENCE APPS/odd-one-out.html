@@ -4504,8 +4504,11 @@
               // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2: pre-build bundle so
               // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
               var manifestMeta = buildCatalogManifestSettings();
+              // Mode derived from modeSelect (identical → 'same-theme'; similar → 'cross-theme').
+              // Per topic-page mode-filter commission (§16.8): explicit-emit for both modes (was
+              // null-default for identical pre-commission per §17.8.5; now both modes filterable).
               var globalMode = (document.getElementById('modeSelect') || {}).value;
-              var derivedExerciseMode = globalMode === 'similar' ? 'cross-theme' : null;
+              var derivedExerciseMode = (globalMode === 'similar') ? 'cross-theme' : 'same-theme';
               // Phase 4a Checkpoint 2.5 (θ): hoist exerciseMode for seoMeta discriminator
               var exerciseModeForBundle = derivedExerciseMode;
               var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline', exerciseMode: exerciseModeForBundle });

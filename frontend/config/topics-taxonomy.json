@@ -4535,6 +4535,762 @@
           "no": null,
           "fi": null
         }
+      },
+      "letter-spotting": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Letter Spotting",
+          "de": "Buchstaben suchen",
+          "es": "Búsqueda de letras",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "hidden-object": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Hidden Object",
+          "de": "Versteckte Objekte",
+          "es": "Objetos escondidos",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "i-spy": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "I Spy",
+          "de": "Ich sehe was",
+          "es": "Veo veo",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "find-odd": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Find the Odd One",
+          "de": "Anders finden",
+          "es": "Encontrar el diferente",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "addition": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Addition",
+          "de": "Addition",
+          "es": "Suma",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "subtraction": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Subtraction",
+          "de": "Subtraktion",
+          "es": "Resta",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "two-symbols-add": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "2 Symbols, Addition",
+          "de": "2 Symbole, Addition",
+          "es": "2 símbolos, suma",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "two-symbols-add-sub": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "2 Symbols, Add+Sub",
+          "de": "2 Symbole, Add+Sub",
+          "es": "2 símbolos, suma+resta",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "three-symbols-add": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "3 Symbols, Addition",
+          "de": "3 Symbole, Addition",
+          "es": "3 símbolos, suma",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "three-symbols-add-sub": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "3 Symbols, Add+Sub",
+          "de": "3 Symbole, Add+Sub",
+          "es": "3 símbolos, suma+resta",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "four-symbols-add": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "4 Symbols, Addition",
+          "de": "4 Symbole, Addition",
+          "es": "4 símbolos, suma",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "four-symbols-add-sub": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "4 Symbols, Add+Sub",
+          "de": "4 Symbole, Add+Sub",
+          "es": "4 símbolos, suma+resta",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "one-missing": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "1 Missing Piece",
+          "de": "1 fehlendes Teil",
+          "es": "1 pieza faltante",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "two-missing": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "2 Missing Pieces",
+          "de": "2 fehlende Teile",
+          "es": "2 piezas faltantes",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "three-missing": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "3 Missing Pieces",
+          "de": "3 fehlende Teile",
+          "es": "3 piezas faltantes",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "four-missing": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "4 Missing Pieces",
+          "de": "4 fehlende Teile",
+          "es": "4 piezas faltantes",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "five-missing": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "5 Missing Pieces",
+          "de": "5 fehlende Teile",
+          "es": "5 piezas faltantes",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "check-cross": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Check & Cross Groups",
+          "de": "Ankreuzen und durchstreichen",
+          "es": "Marcar y tachar grupos",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "same-theme": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Same Theme",
+          "de": "Gleiches Thema",
+          "es": "Mismo tema",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "cross-theme": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Cross-Theme",
+          "de": "Themenübergreifend",
+          "es": "Tema cruzado",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "find-shadow": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Match the Shadow",
+          "de": "Schatten zuordnen",
+          "es": "Emparejar la sombra",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "make-whole": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Make It Whole",
+          "de": "Ganz machen",
+          "es": "Completarla",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "cardinal-arrows": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Up/Down/Left/Right",
+          "de": "Hoch/Runter/Links/Rechts",
+          "es": "Arriba/Abajo/Izq/Der",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "compass": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Compass Directions",
+          "de": "Himmelsrichtungen",
+          "es": "Puntos cardinales",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "pathway": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Picture Pathway",
+          "de": "Bilderpfad",
+          "es": "Camino con imágenes",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "classic-maze": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Classic Maze",
+          "de": "Klassisches Labyrinth",
+          "es": "Laberinto clásico",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
+      },
+      "choose-path": {
+        "slug": {
+          "en": null,
+          "de": null,
+          "es": null,
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        },
+        "name": {
+          "en": "Choose the Right Path",
+          "de": "Den richtigen Weg wählen",
+          "es": "Elegir el camino correcto",
+          "nl": null,
+          "it": null,
+          "fr": null,
+          "pt": null,
+          "sv": null,
+          "da": null,
+          "no": null,
+          "fi": null
+        }
       }
     }
   }

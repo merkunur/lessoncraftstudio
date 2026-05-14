@@ -5447,7 +5447,10 @@ async function downloadPDF(canvasToExport, filename, opts) {
             // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2: pre-build bundle so
             // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
             // Phase 4a Checkpoint 2.5 (θ): hoist exerciseMode for seoMeta discriminator
-            var exerciseModeForBundle = (document.getElementById('exerciseModeSelect') && document.getElementById('exerciseModeSelect').value) || null;
+            // Mode derived from beginningLetterToggle (checked = letter-spotting; unchecked = hidden-object).
+            // Per topic-page mode-filter commission (§16.8 + §A.13.5 Shape A).
+            var _bltEl = document.getElementById('beginningLetterToggle');
+            var exerciseModeForBundle = (_bltEl && _bltEl.checked) ? 'letter-spotting' : 'hidden-object';
             var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline', exerciseMode: exerciseModeForBundle });
             var getBundle = async function () { return cachedBundle; };
             var manifestMeta = buildCatalogManifestSettings();

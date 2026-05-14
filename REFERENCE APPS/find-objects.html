@@ -1110,57 +1110,7 @@
                         <option value="oddoneout" data-translate="activityMode.oddoneout">Odd One Out - Find Unpaired Images</option>
                     </select>
 
-                    <!-- I Spy Mode Controls -->
-                    <div id="ispyModeControls">
-                        <h4 data-translate="findobjects.distractors.label">Distractors (Select 8–12)</h4>
-                    <label for="distractorThemeSelect" data-translate="findobjects.distractors.theme.label" data-translate="findobjects.distractors.theme.label">Or Select Theme for Distractors:</label>
-                    <select id="distractorThemeSelect">
-                        <option value="" data-translate="findobjects.no.theme.manual">-- No Theme (Use Manual Selection) --</option>
-                    </select>
-                    <div class="selected-items" id="distractorItems"></div>
-
-                    <h4 style="margin-top: 20px;" data-translate="findobjects.hidden.label">Hidden Objects (Select 1–5)</h4>
-                    <label for="hiddenObjectThemeSelect" data-translate="findobjects.hidden.theme.label" data-translate="findobjects.hidden.theme.label">Or Select Theme for Hidden Objects:</label>
-                    <select id="hiddenObjectThemeSelect">
-                        <option value="" data-translate="findobjects.no.theme.manual">-- No Theme (Use Manual Selection) --</option>
-                    </select>
-                    <div class="selected-items" id="hiddenItems"></div>
-                    </div>
-                    <!-- End I Spy Mode Controls -->
-
-                    <!-- Odd One Out Mode Controls -->
-                    <div id="oddOneOutModeControls" style="display: none;">
-                        <h4 data-translate="oddoneout.pairs.heading">Pairs</h4>
-                        <label for="pairsCountSelect" data-translate="oddoneout.pairs.count.label">Number of Pairs:</label>
-                        <select id="pairsCountSelect">
-                            <option value="8" data-translate="oddoneout.pairs.count.8">8 pairs (16 images)</option>
-                            <option value="9" data-translate="oddoneout.pairs.count.9">9 pairs (18 images)</option>
-                            <option value="10" selected data-translate="oddoneout.pairs.count.10">10 pairs (20 images)</option>
-                            <option value="11" data-translate="oddoneout.pairs.count.11">11 pairs (22 images)</option>
-                            <option value="12" data-translate="oddoneout.pairs.count.12">12 pairs (24 images)</option>
-                        </select>
-
-                        <label for="pairsThemeSelect" data-translate="oddoneout.pairs.theme.label">Or Select Theme for Pairs:</label>
-                        <select id="pairsThemeSelect">
-                            <option value="" selected data-translate="oddoneout.theme.manual">-- No Theme (Use Manual Selection) --</option>
-                        </select>
-                        <div class="selected-items" id="pairsItems"></div>
-
-                        <h4 style="margin-top: 20px;" data-translate="oddoneout.odd.images.heading">Odd Images (Unpaired)</h4>
-                        <label for="oddImagesCountSelect" data-translate="oddoneout.odd.images.count.label">Number of Odd Images:</label>
-                        <select id="oddImagesCountSelect">
-                            <option value="1" data-translate="oddoneout.odd.count.1">1 odd image</option>
-                            <option value="2" selected data-translate="oddoneout.odd.count.2">2 odd images</option>
-                            <option value="3" data-translate="oddoneout.odd.count.3">3 odd images</option>
-                        </select>
-
-                        <label for="oddImagesThemeSelect" data-translate="oddoneout.odd.images.theme.label">Or Select Theme for Odd Images:</label>
-                        <select id="oddImagesThemeSelect">
-                            <option value="" selected data-translate="oddoneout.theme.manual">-- No Theme (Use Manual Selection) --</option>
-                        </select>
-                        <div class="selected-items" id="oddImagesItems"></div>
-                    </div>
-                    <!-- End Odd One Out Mode Controls -->
+                    <p class="theme-hint" data-translate="findobjects.theme.helper" style="margin-top: 12px; font-size: 12px; color: #555; line-height: 1.4;">Pick a theme in the Image Library section below. The app will randomly select 3 target objects from the theme and use the remaining images as decoys.</p>
                 </div>
             </div>
         </div>
@@ -1437,8 +1387,6 @@ function updateTranslations() {
     document.addEventListener("DOMContentLoaded", function() {
         // --- Globals & Constants ---
         const downloadMultiplier = 4;
-        let selectedDistractors = [];
-        let selectedHidden = [];
         let uploadedImages = []; // ADDED: For custom uploads
         let imageCache = {};
         let lastGeneratedLayout = null;
@@ -1489,24 +1437,11 @@ function updateTranslations() {
         // ADDED: Custom upload elements
         const imageUploadInput = getEl('imageUploadInput');
         const uploadedImagesPreviewDiv = getEl('uploadedImagesPreview');
-        const distractorThemeSelect = getEl('distractorThemeSelect');
-        const hiddenObjectThemeSelect = getEl('hiddenObjectThemeSelect');
 
-        // Odd One Out mode variables
+        // Activity mode selector — drives I-Spy vs Odd-One-Out at generate time.
+        // Object selection itself is theme-driven via the Image Library themeSelect.
         const activityModeSelect = getEl('activityModeSelect');
-        const ispyModeControls = getEl('ispyModeControls');
-        const oddOneOutModeControls = getEl('oddOneOutModeControls');
-        const pairsCountSelect = getEl('pairsCountSelect');
-        const pairsThemeSelect = getEl('pairsThemeSelect');
-        const pairsItems = getEl('pairsItems');
-        const oddImagesCountSelect = getEl('oddImagesCountSelect');
-        const oddImagesThemeSelect = getEl('oddImagesThemeSelect');
-        const oddImagesItems = getEl('oddImagesItems');
 
-        let selectedPairs = [];
-        let selectedOddImages = [];
-        const distractorItemsDiv = getEl('distractorItems');
-        const hiddenItemsDiv = getEl('hiddenItems');
         const includeNameDate = getEl('includeNameDate');
         const textInput = getEl('textInput');
         const textColorInput = getEl('textColor');
@@ -1582,12 +1517,12 @@ function updateTranslations() {
                     // Wait for themes to be loaded by polling
                     let attempts = 0;
                     const maxAttempts = 30; // Reduced from 50
-                    while (distractorThemeSelect.options.length <= 1 && attempts < maxAttempts) {
+                    while (themeSelect.options.length <= 1 && attempts < maxAttempts) {
                         await new Promise(resolve => setTimeout(resolve, 100));
                         attempts++;
                     }
 
-                    if (distractorThemeSelect.options.length <= 1) {
+                    if (themeSelect.options.length <= 1) {
                         console.error('Failed to load themes for initial worksheet generation');
                         return;
                     }
@@ -1599,11 +1534,9 @@ function updateTranslations() {
                     const [w, h] = getEl('pageSizeSelect').value.split('x').map(Number);
                     updateCanvasDisplayDimensions(w, h);
 
-                    // Set distractor theme to animals
-                    distractorThemeSelect.value = 'animals';
-
-                    // Set hidden object theme to fruits
-                    hiddenObjectThemeSelect.value = 'fruits';
+                    // Set Image Library theme to animals — drives object selection at generate time.
+                    themeSelect.value = 'animals';
+                    loadDictionary();
 
                     // Update the generate button state
                     updateGenerateButton();
@@ -1655,7 +1588,7 @@ function updateTranslations() {
             }
 
             loadDictionary();
-            updateSelectedPanels();
+            updateGenerateButton();
             updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
         }
 
@@ -1722,7 +1655,6 @@ function updateTranslations() {
                 imageCache = {};
                 loadAllThemes(); // Reload themes with translations
                 loadDictionary(); // Reload current images
-                updateSelectedPanels(); // Update selected items display
 
                 // Update URL with content parameter instead of locale
                 const url = new URL(window.location);
@@ -1756,38 +1688,13 @@ function updateTranslations() {
                 this.searchTimeout = setTimeout(loadDictionary, 300);
             });
             imageUploadInput.addEventListener('change', handleImageUpload);
-            distractorThemeSelect.addEventListener('change', handleThemeSelectionChange);
-            hiddenObjectThemeSelect.addEventListener('change', handleThemeSelectionChange);
+            themeSelect.addEventListener('change', updateGenerateButton);
 
-            // Activity mode switch handler
+            // Activity mode switch handler — UI surface is just the mode label now;
+            // object selection is theme-driven (same flow for both modes).
             activityModeSelect.addEventListener('change', function() {
-                const isOddOneOut = activityModeSelect.value === 'oddoneout';
-                ispyModeControls.style.display = isOddOneOut ? 'none' : 'block';
-                oddOneOutModeControls.style.display = isOddOneOut ? 'block' : 'none';
-
-                // Clear selections when switching modes
-                selectedDistractors = [];
-                selectedHidden = [];
-                selectedPairs = [];
-                selectedOddImages = [];
-                updateSelectionDisplay('distractor');
-                updateSelectionDisplay('hidden');
-                updateSelectionDisplay('pairs');
-                updateSelectionDisplay('oddImages');
-                updateGenerateButtonState();
-
-                // Update dictionary button labels
-                updateDictionaryButtonLabels();
-
-                // Also update uploaded images buttons
-                if (uploadedImages.length > 0) {
-                    renderUploadedImages();
-                }
+                updateGenerateButton();
             });
-
-            // Theme selection handlers for odd one out mode
-            pairsThemeSelect.addEventListener('change', handleThemeSelectionChange);
-            oddImagesThemeSelect.addEventListener('change', handleThemeSelectionChange);
             
             borderThemeSelect.addEventListener('change', loadBorderImages);
             borderOpacitySlider.addEventListener('input', applyBorderOpacity); 
@@ -2212,17 +2119,6 @@ function updateTranslations() {
             closeAllPopovers();
         }
         
-        function handleThemeSelectionChange(event) {
-            const isDistractor = event.target.id === 'distractorThemeSelect';
-            if (event.target.value) {
-                if (isDistractor) selectedDistractors = [];
-                else selectedHidden = [];
-                updateSelectedPanels();
-                showMessage(formatTranslation(t('findobjects.msg.theme.selected'), {type: isDistractor ? t('findobjects.distractors.label') : t('findobjects.hidden.label')}));
-            }
-            updateGenerateButton();
-        }
-
         function initializeCanvas(canvasEl) {
             return new fabric.Canvas(canvasEl, {
                 preserveObjectStacking: true,
@@ -2595,11 +2491,7 @@ function updateTranslations() {
                 const themes = await res.json();
                 
                 const themeDropdowns = [
-                    {el: themeSelect, staticHtml: `<option value="all" data-translate="findobjects.themes.all">${t('findobjects.themes.all')}</option>`},
-                    {el: distractorThemeSelect, staticHtml: `<option value="" data-translate="findobjects.no.theme.manual">${t('findobjects.no.theme.manual')}</option>`},
-                    {el: hiddenObjectThemeSelect, staticHtml: `<option value="" data-translate="findobjects.no.theme.manual">${t('findobjects.no.theme.manual')}</option>`},
-                    {el: pairsThemeSelect, staticHtml: `<option value="" data-translate="oddoneout.theme.manual">${t('oddoneout.theme.manual')}</option>`},
-                    {el: oddImagesThemeSelect, staticHtml: `<option value="" data-translate="oddoneout.theme.manual">${t('oddoneout.theme.manual')}</option>`}
+                    {el: themeSelect, staticHtml: `<option value="all" data-translate="findobjects.themes.all">${t('findobjects.themes.all')}</option>`}
                 ];
                 
                 themeDropdowns.forEach(dd => {
@@ -2709,145 +2601,31 @@ function updateTranslations() {
         }
 
         function renderImageThumbnails(container, images, query) {
-            const isOddOneOut = activityModeSelect.value === 'oddoneout';
             container.innerHTML = '';
             if (images.length === 0) {
                 container.innerHTML = `<p class="dictionary-message">No images found${query ? ` matching "${query}"` : ''}.</p>`;
                 return;
             }
 
+            // Library is browse-only in find-objects — clicking thumbnails does not
+            // build selection lists. Object selection is theme-driven at generate time.
             images.forEach((imgData) => {
                 const displayName = imgData.name || imgData.word;
                 const item = document.createElement('div');
                 item.className = 'dictionary-item';
                 item.innerHTML = `
                     <img src="${imgData.path}" alt="${displayName}" loading="lazy"/>
-                    <span>${displayName}</span>
-                    <div class="dict-btns">
-                        <button data-action="${isOddOneOut ? 'pairs' : 'distractor'}">${isOddOneOut ? 'Pair' : t("findobjects.distractor.button")}</button>
-                        <button data-action="${isOddOneOut ? 'oddImages' : 'hidden'}">${isOddOneOut ? 'Odd' : t("findobjects.hidden.button")}</button>
-                    </div>`;
-                item.querySelector('.dict-btns').addEventListener('click', (e) => {
-                    if (e.target.tagName === 'BUTTON') {
-                        addImage(e.target.dataset.action, imgData);
-                    }
-                    e.stopPropagation(); 
-                });
+                    <span>${displayName}</span>`;
                 container.appendChild(item);
             });
         }
-        
-        function addImage(category, imgData) {
-            // Determine target array, limit, and theme select based on category
-            let targetArray, limit, themeSelect;
-
-            if (category === 'distractor') {
-                targetArray = selectedDistractors;
-                limit = 12;
-                themeSelect = distractorThemeSelect;
-            } else if (category === 'hidden') {
-                targetArray = selectedHidden;
-                limit = 5;
-                themeSelect = hiddenObjectThemeSelect;
-            } else if (category === 'pairs') {
-                targetArray = selectedPairs;
-                limit = 24; // 12 pairs = 24 images max
-                themeSelect = pairsThemeSelect;
-            } else if (category === 'oddImages') {
-                targetArray = selectedOddImages;
-                limit = 5;
-                themeSelect = oddImagesThemeSelect;
-            } else {
-                console.error('Unknown category:', category);
-                return;
-            }
-
-            // Check if already selected in ANY category
-            const isAlreadySelected = selectedDistractors.some(i => i.path === imgData.path) ||
-                                       selectedHidden.some(i => i.path === imgData.path) ||
-                                       selectedPairs.some(i => i.path === imgData.path) ||
-                                       selectedOddImages.some(i => i.path === imgData.path);
-            if (isAlreadySelected) {
-                showMessage(t('findobjects.msg.already.selected'), 'info');
-                return;
-            }
-
-            if (targetArray.length >= limit) {
-                showMessage(formatTranslation(t('findobjects.msg.selection.limit'), {limit: limit, category: category}), 'info');
-                return;
-            }
-
-            targetArray.push(imgData);
-            themeSelect.value = ""; // Clear theme when manually selecting
-
-            updateSelectedPanels();
-        }
-
-        function updateSelectedPanels() {
-            const renderPanel = (container, items, category) => {
-                container.innerHTML = '';
-                items.forEach((item, index) => {
-                    const displayName = item.name || item.word;
-                    const div = document.createElement('div');
-                    div.className = 'selected-item';
-                    div.innerHTML = `<img src="${item.path}" alt="${displayName}" />`;
-                    const removeBtn = document.createElement('button');
-                    removeBtn.innerHTML = '&times;';
-                    removeBtn.className = 'remove-btn';
-                    removeBtn.onclick = () => {
-                        items.splice(index, 1);
-                        if(category === 'distractor') distractorThemeSelect.value = "";
-                        else if (category === 'hidden') hiddenObjectThemeSelect.value = "";
-                        else if (category === 'pairs') pairsThemeSelect.value = "";
-                        else if (category === 'oddImages') oddImagesThemeSelect.value = "";
-                        updateSelectedPanels();
-                    };
-                    div.appendChild(removeBtn);
-                    container.appendChild(div);
-                });
-            };
-            renderPanel(distractorItemsDiv, selectedDistractors, 'distractor');
-            renderPanel(hiddenItemsDiv, selectedHidden, 'hidden');
-            renderPanel(pairsItems, selectedPairs, 'pairs');
-            renderPanel(oddImagesItems, selectedOddImages, 'oddImages');
-            updateGenerateButton();
-        }
 
         function updateGenerateButton() {
-            const distractorThemeSelected = !!distractorThemeSelect.value;
-            const manualDistractorsOk = selectedDistractors.length >= 8;
-            const distractorsReady = distractorThemeSelected || manualDistractorsOk;
-
-            const hiddenObjectThemeSelected = !!hiddenObjectThemeSelect.value;
-            const manualHiddenOk = selectedHidden.length >= 1 && selectedHidden.length <= 5;
-            const hiddenReady = hiddenObjectThemeSelected || manualHiddenOk;
-
-            // Check odd one out mode requirements
-            const isOddOneOut = activityModeSelect.value === 'oddoneout';
-            let oddOneOutReady = true;
-
-            if (isOddOneOut) {
-                const pairsCount = parseInt(pairsCountSelect.value);
-                const oddCount = parseInt(oddImagesCountSelect.value);
-
-                const pairsThemeSelected = !!pairsThemeSelect.value;
-                const manualPairsOk = selectedPairs.length >= pairsCount;
-                const pairsReady = pairsThemeSelected || manualPairsOk;
-
-                const oddThemeSelected = !!oddImagesThemeSelect.value;
-                const manualOddOk = selectedOddImages.length >= oddCount;
-                const oddReady = oddThemeSelected || manualOddOk;
-
-                oddOneOutReady = pairsReady && oddReady;
-            }
-
-            generateDropdownBtn.disabled = !(distractorsReady && hiddenReady);
-        }
-
-
-        function updateDictionaryButtonLabels() {
-            // Re-render dictionary to update button actions and labels
-            loadDictionary();
+            // Theme-driven: generation is enabled when a real theme is selected.
+            // The "all" sentinel value in themeSelect is not a real theme — exclude it.
+            const themeValue = themeSelect.value;
+            const themeReady = !!themeValue && themeValue !== 'all';
+            generateDropdownBtn.disabled = !themeReady;
         }
         async function generateWorksheet() {
             // Set flag to prevent object:added events from saving during generation (from wordsearch line 1766)
@@ -3061,6 +2839,36 @@ function updateTranslations() {
         }
 
 
+        // Theme-driven object selection (replaces the prior manual distractor/hidden +
+        // pairs/odd lists). One theme drives both target picks and decoys: exactly 3
+        // targets are sampled from the theme, the remaining theme images become decoys.
+        // Shared by I-Spy (decoys = padded distractors) and Odd-One-Out (decoys = pairs).
+
+        // Fixed target count per the planning lock — 3 hidden objects in I-Spy mode and
+        // 3 odd images in Odd-One-Out mode. Min theme size is 4 (3 targets + ≥1 decoy).
+        const FIND_OBJECTS_TARGET_COUNT = 3;
+        const FIND_OBJECTS_MIN_THEME_SIZE = FIND_OBJECTS_TARGET_COUNT + 1;
+
+        // Locale-aware theme cache lookup. Shares the imageCache used by loadDictionary
+        // (cache key `${theme}-${currentLocale}` per line ~2648). On miss, fetches and
+        // populates the cache; on error, returns null and surfaces a message.
+        async function getImagesFromTheme(themeName) {
+            const cacheKey = `${themeName}-${currentLocale}`;
+            if (imageCache[cacheKey]) return imageCache[cacheKey];
+            try {
+                const res = await fetch(`/api/images?theme=${encodeURIComponent(themeName)}&locale=${currentLocale}`);
+                if (!res.ok) throw new Error(`Fetch failed for theme ${themeName}`);
+                const data = await res.json();
+                const images = data.images || data;
+                imageCache[cacheKey] = images;
+                return images;
+            } catch (err) {
+                showMessage(formatTranslation(t('findobjects.msg.theme.load.error'), {type: themeName}), 'error');
+                console.error(err);
+                return null;
+            }
+        }
+
         async function prepareImagesForGeneration() {
             const isOddOneOut = activityModeSelect.value === 'oddoneout';
 
@@ -3072,180 +2880,99 @@ function updateTranslations() {
         }
 
         async function prepareISpyImages() {
-            let dists = [...selectedDistractors];
-            let hidden = [...hiddenObjectThemeSelect.value ? [] : selectedHidden];
-
-            async function getImagesFromTheme(themeName, type) {
-                if (imageCache[themeName]) return imageCache[themeName];
-                try {
-                    const res = await fetch(`/api/images?theme=${encodeURIComponent(themeName)}&locale=${currentLocale}`);
-                    if (!res.ok) throw new Error(`Fetch failed for theme ${themeName}`);
-                    const data = await res.json();
-                    const images = data.images || data;
-                    imageCache[themeName] = images;
-                    return images;
-                } catch (err) {
-                    showMessage(formatTranslation(t('findobjects.msg.theme.load.error'), {type: type}), 'error');
-                    return null;
-                }
+            const themeName = themeSelect.value;
+            if (!themeName || themeName === 'all') {
+                showMessage(t('findobjects.msg.no.theme') || 'Please select a theme in the Image Library section.', 'error');
+                return null;
             }
 
-            if (distractorThemeSelect.value) {
-                const themeImages = await getImagesFromTheme(distractorThemeSelect.value, 'distractor');
-                if (!themeImages || themeImages.length < 8) {
-                     showMessage(t('findobjects.msg.distractor.insufficient'), 'error'); return null;
-                }
-                dists = getRandomSubset(themeImages, Math.floor(Math.random() * (Math.min(12, themeImages.length) - 8 + 1)) + 8);
+            const themeImages = await getImagesFromTheme(themeName);
+            if (!themeImages || themeImages.length < FIND_OBJECTS_MIN_THEME_SIZE) {
+                showMessage(formatTranslation(t('findobjects.msg.theme.too.small') || 'Theme needs at least {min} images (3 hidden objects + decoys). Pick a larger theme.', {min: FIND_OBJECTS_MIN_THEME_SIZE}), 'error');
+                return null;
             }
 
-            if (hiddenObjectThemeSelect.value) {
-                const themeImages = await getImagesFromTheme(hiddenObjectThemeSelect.value, 'hidden object');
-                 if (!themeImages || themeImages.length < 1) {
-                    showMessage(t('findobjects.msg.hidden.empty'), 'error'); return null;
-                }
-                hidden = getRandomSubset(themeImages, Math.floor(Math.random() * (Math.min(5, themeImages.length) - 1 + 1)) + 1);
-            }
+            // Shuffle the entire theme; first 3 become hidden targets, rest become decoys.
+            const shuffled = getRandomSubset(themeImages, themeImages.length);
+            const uniqueHidden = shuffled.slice(0, FIND_OBJECTS_TARGET_COUNT);
+            const dists = shuffled.slice(FIND_OBJECTS_TARGET_COUNT);
 
-            const uniqueHidden = [...hidden];
-            if (uniqueHidden.length < 1 || uniqueHidden.length > 5) { showMessage(`Hidden object count must be 1-5. You have ${uniqueHidden.length}.`, 'error'); return null; }
-            if (dists.length < 8) { showMessage(t('findobjects.msg.min.distractors'), 'error'); return null;}
-
+            // Pad distractors to 30 by random duplication from the decoy pool — preserves
+            // the v30 scene density regardless of theme size.
             let allDistractors = [...dists];
-            if (allDistractors.length > 0) {
-                while(allDistractors.length < 30) {
-                    allDistractors.push(dists[Math.floor(Math.random() * dists.length)]);
-                }
+            while (allDistractors.length < 30) {
+                allDistractors.push(dists[Math.floor(Math.random() * dists.length)]);
             }
 
-            // CRITICAL: Create clean copies to prevent property pollution from previous generations
-            // Strip any properties like isPair, targetSize, etc that might cause mode misdetection
-            allDistractors = allDistractors.map(img => ({
-                path: img.path,
-                name: img.name
-            }));
+            // Strip any leftover properties (isPair, isOdd, targetSize, pairId, etc.) so
+            // a mode switch doesn't carry state from a prior generation.
+            allDistractors = allDistractors.map(img => ({ path: img.path, name: img.name }));
 
-            let finalHidden = [];
-            if (uniqueHidden.length > 0) {
-                const hiddenCount = Math.floor(Math.random() * 6) + 5;
-                 for (let i = 0; i < hiddenCount; i++) {
-                    finalHidden.push(uniqueHidden[Math.floor(Math.random() * uniqueHidden.length)]);
-                }
+            // Build the on-scene hidden objects: 5–10 instances drawn randomly from the
+            // 3 unique targets (so the same target appears multiple times on the page).
+            const hiddenCount = Math.floor(Math.random() * 6) + 5;
+            const finalHidden = [];
+            for (let i = 0; i < hiddenCount; i++) {
+                finalHidden.push(uniqueHidden[Math.floor(Math.random() * uniqueHidden.length)]);
             }
 
-            // Clean finalHidden and uniqueHidden as well
-            finalHidden = finalHidden.map(img => ({ path: img.path, name: img.name }));
+            const cleanFinalHidden = finalHidden.map(img => ({ path: img.path, name: img.name }));
             const cleanUniqueHidden = uniqueHidden.map(img => ({ path: img.path, name: img.name }));
 
-            return { allDistractors, finalHidden, uniqueHidden: cleanUniqueHidden, mode: 'ispy' };
+            return {
+                allDistractors,
+                finalHidden: cleanFinalHidden,
+                uniqueHidden: cleanUniqueHidden,
+                mode: 'ispy'
+            };
         }
 
         async function prepareOddOneOutImages() {
-            const pairsCount = parseInt(pairsCountSelect.value);
-            const oddCount = parseInt(oddImagesCountSelect.value);
-
-            let pairs = [...selectedPairs];
-            let oddImages = [...selectedOddImages];
-
-            async function getImagesFromTheme(themeName, type) {
-                if (imageCache[themeName]) return imageCache[themeName];
-                try {
-                    const res = await fetch(`/api/images?theme=${encodeURIComponent(themeName)}&locale=${currentLocale}`);
-                    if (!res.ok) throw new Error(`Fetch failed for theme ${themeName}`);
-                    const data = await res.json();
-                    const images = data.images || data;
-                    imageCache[themeName] = images;
-                    return images;
-                } catch (err) {
-                    showMessage(`Failed to load ${type} theme images`, 'error');
-                    return null;
-                }
-            }
-
-            // If theme selected for pairs, get random images
-            if (pairsThemeSelect.value) {
-                const themeImages = await getImagesFromTheme(pairsThemeSelect.value, 'pairs');
-                if (!themeImages || themeImages.length < pairsCount) {
-                    showMessage(`Not enough images in theme for ${pairsCount} pairs. Need at least ${pairsCount} images.`, 'error');
-                    return null;
-                }
-                pairs = getRandomSubset(themeImages, pairsCount);
-            }
-
-            // If theme selected for odd images, get random images
-            // IMPORTANT: Exclude any images already used in pairs to prevent overlap
-            if (oddImagesThemeSelect.value) {
-                const themeImages = await getImagesFromTheme(oddImagesThemeSelect.value, 'odd images');
-                if (!themeImages || themeImages.length < oddCount) {
-                    showMessage(`Not enough images in theme for ${oddCount} odd images.`, 'error');
-                    return null;
-                }
-                // Get paths of already selected pairs to exclude them
-                const pairPathsForExclusion = new Set(pairs.map(p => p.path));
-                // Filter theme images to exclude any that are already used as pairs
-                const availableOddImages = themeImages.filter(img => !pairPathsForExclusion.has(img.path));
-                if (availableOddImages.length < oddCount) {
-                    showMessage(`Not enough unique images in theme. Need ${oddCount} odd images different from pairs.`, 'error');
-                    return null;
-                }
-                oddImages = getRandomSubset(availableOddImages, oddCount);
-            }
-
-            // Validation
-            if (pairs.length < pairsCount) {
-                showMessage(`Please select at least ${pairsCount} images for pairs.`, 'error');
-                return null;
-            }
-            if (oddImages.length < oddCount) {
-                showMessage(`Please select at least ${oddCount} odd images.`, 'error');
+            const themeName = themeSelect.value;
+            if (!themeName || themeName === 'all') {
+                showMessage(t('findobjects.msg.no.theme') || 'Please select a theme in the Image Library section.', 'error');
                 return null;
             }
 
-            // CRITICAL: Ensure pairs and odd images are completely separate
-            // An image cannot be both a pair AND an odd image
-            // Pair image = appears exactly 2 times, Odd image = appears exactly 1 time
-            const pairPaths = new Set(pairs.slice(0, pairsCount).map(p => p.path));
-
-            // Filter out any odd images that also appear in pairs
-            const uniqueOddImages = oddImages.filter(img => !pairPaths.has(img.path));
-
-            if (uniqueOddImages.length < oddCount) {
-                // Not enough unique odd images after filtering out pair overlaps
-                showMessage(`Error: Some odd images overlap with pair images. Please select ${oddCount} odd images that are different from the pair images.`, 'error');
+            const themeImages = await getImagesFromTheme(themeName);
+            if (!themeImages || themeImages.length < FIND_OBJECTS_MIN_THEME_SIZE) {
+                showMessage(formatTranslation(t('findobjects.msg.theme.too.small') || 'Theme needs at least {min} images (3 odd images + decoys). Pick a larger theme.', {min: FIND_OBJECTS_MIN_THEME_SIZE}), 'error');
                 return null;
             }
 
-            // Use the filtered unique odd images
-            oddImages = uniqueOddImages;
+            // Shuffle the theme; first 3 become odd images (targets, each shown once),
+            // rest become pairs (decoys, each shown twice).
+            const shuffled = getRandomSubset(themeImages, themeImages.length);
+            const oddImages = shuffled.slice(0, FIND_OBJECTS_TARGET_COUNT);
+            const pairs = shuffled.slice(FIND_OBJECTS_TARGET_COUNT);
 
-            // Create the final image list: each pair appears twice + odd images appear once
             let allImages = [];
 
-            // Add pairs (each image twice)
-            // IMPORTANT: Mark each pair with a unique pairId so we can track them
-            for (let i = 0; i < pairsCount; i++) {
+            // Add each pair twice with a unique pairId so the scene can identify
+            // pair-mates downstream.
+            for (let i = 0; i < pairs.length; i++) {
                 allImages.push({ ...pairs[i], isPair: true, isOdd: false, pairId: `pair-${i}` });
                 allImages.push({ ...pairs[i], isPair: true, isOdd: false, pairId: `pair-${i}` });
             }
 
-            // Add odd images (each appears once)
-            for (let i = 0; i < oddCount; i++) {
+            // Add each odd image once.
+            for (let i = 0; i < FIND_OBJECTS_TARGET_COUNT; i++) {
                 allImages.push({
                     ...oddImages[i],
                     isPair: false,
                     isOdd: true,
-                    oddImageIndex: i  // Track which odd image this is
+                    oddImageIndex: i
                 });
             }
 
-            // Shuffle the images
             allImages = allImages.sort(() => Math.random() - 0.5);
 
             return {
-                allDistractors: allImages, // Use same structure as I spy mode
-                finalHidden: [], // No hidden objects in odd one out mode
-                uniqueHidden: [], // No unique hidden
+                allDistractors: allImages,
+                finalHidden: [],
+                uniqueHidden: [],
                 mode: 'oddoneout',
-                oddImages: oddImages.slice(0, oddCount) // Store the actual odd images for answer key
+                oddImages: oddImages.slice(0, FIND_OBJECTS_TARGET_COUNT)
             };
         }
         
@@ -4425,10 +4152,6 @@ function updateTranslations() {
         }
 
         function clearAll() {
-            distractorThemeSelect.value = '';
-            hiddenObjectThemeSelect.value = '';
-            selectedDistractors = [];
-            selectedHidden = [];
             uploadedImages = [];
             lastGeneratedLayout = null;
             
@@ -4459,8 +4182,8 @@ function updateTranslations() {
                 answerKeyCanvas.renderAll();
             }
             
-            updateSelectedPanels();
             renderUploadedImages();
+            updateGenerateButton();
             generateDropdownBtn.disabled = true;
             generateAnswerKeyBtn.disabled = true;
             downloadDropdownBtn.disabled = true;

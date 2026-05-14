@@ -3656,6 +3656,217 @@ The three content-discipline doctrines (§A.13.29 / §A.13.30 / §A.13.31) form 
 
 Origin: Multi-mechanism discipline lock commission this session.
 
+#### A.13.32 Canonical-artifact-grounding-at-composition-time discipline
+
+Commission specs that name specific canonical artifacts (taxonomy slugs, generator inventory, per-package material lists, per-package YAML configs) MUST ground composition-time content against canonical SoT at the commission-spec authoring step — NOT against prior-session close-out summaries, carried-forward operator-facing prompts, or assumed inventory state. The discipline is the composition-time complement to §A.13.21 / §A.13.22 / §A.13.31 substrate verification at recommendation / audit-doc / per-instance content boundaries.
+
+**Canonical SoT paths:**
+- Taxonomy slugs → `frontend/config/learning-targets.json` strand/target enumeration
+- Per-package YAML → `docs/lesson-plans/packages/<slug>/package.yaml`
+- Generator inventory → canonical generator code paths + §A.13.35 canonical-mode tables
+
+**Four sub-doctrines (all consolidated here):**
+
+1. **Slug-grounding.** Taxonomy slugs in commission specs verify against `learning-targets.json` strand/target enumeration BEFORE locking spec. Naming-from-memory or naming-from-prior-session-close-out is the defect class.
+2. **Generator-inventory completeness.** At any commission referencing the canonical generator set, verify the inventory at composition time, not against prior count or assumed enumeration. New generators added since the last reference are silent expansions of scope.
+3. **Per-package × per-generator matrix as mass-run scope.** Mass-run commission scope IS the full (package, generator) matrix, NOT the materials-yaml union. A package's `materials:` list enumerates the materials it composes; the mass-run scope at a generator-extension commission is every package whose class-template includes that generator, regardless of whether the specific package YAML currently references it.
+4. **Generator-executability verification.** YAML-reference-existence is insufficient. A package YAML can reference a generator that doesn't yet exist OR whose code path doesn't yet handle the package's parameters. Verify the actual code path the generator runs against — not just the reference at the YAML.
+
+**How to apply (Phase 0 of any commission referencing canonical artifacts):**
+- Read the canonical SoT for each named artifact (taxonomy entry, package YAML, generator code path).
+- Cross-reference against the commission spec's claims. Surface divergence as §A.13.6 firing BEFORE Phase 1 execution.
+- Cite canonical artifact paths in commission spec + close-out.
+
+**Empirical anchors (4 Arc 17 firings):**
+- Arc 17 Phase 1.3 slug-grounding firing — commission-spec slug naming diverged from `learning-targets.json` strand enumeration; surfaced at Phase 1 commencement.
+- Arc 17 P2 numeral-cards generator-inventory firing — mass-run spec assumed inventory matching prior session's count; canonical state had additional generators added since.
+- Arc 17 P2 identify-community-places matrix-scope firing — spec assumed mass-run scope as materials-yaml union per package; canonical scope is per-package × per-generator matrix (broader by construction).
+- Arc 17 Phase 1.4 clock-mat generator-executability firing — package YAML references clock-mat generator; code path didn't exist OR didn't handle the package's parameters; YAML-reference-existence was insufficient.
+
+**When-to-apply trigger:** at any commission whose spec names canonical artifacts (taxonomy slugs / package YAMLs / generator inventory / class-template references). Phase 0 commission-spec authoring step performs the verification; divergence halts spec-lock and routes to operator-strategic re-adjudication per §A.13.6 paired discipline.
+
+**Cross-references (substrate-verification family):**
+- §A.13.21 Operator-pre-recommendation substrate verification (recommendation boundary)
+- §A.13.22 Audit-doc-vs-canonical-state divergence (audit-doc boundary)
+- §A.13.31 Per-instance content-awareness (per-instance content boundary)
+- §A.13.32 (this section) — canonical-artifact at composition-spec boundary
+
+The four together form the substrate-verification family at distinct inspection boundaries. §A.13.32 is the earliest-boundary defense in the family: §A.13.21 fires at recommendation, §A.13.22 at audit-doc carry-forward, §A.13.31 at per-instance content authoring, §A.13.32 at commission-spec composition itself — before any of the downstream boundaries get a chance to fire.
+
+Origin: Arc 17 Phase 1.3 + P2 numeral-cards + P2 identify-community-places + Phase 1.4 clock-mat — four firings in single arc cite already-backlogged candidates as preventable-causes; doctrine fold absorbs the pattern.
+
+#### A.13.33 Phase 0 explicit-methodology reporting at substrate audit
+
+When Phase 0 substrate-audit outputs reference counts that could diverge by methodology (total-catalog vs strand-subset; en-only vs en+pt; pre-arc vs post-arc; published-only vs all-status; etc.), report methodology explicitly in audit findings. Silent methodology shifts between successive phases produce baseline-divergence surfaces that cost operator-attention to reconcile at later-phase commencement.
+
+**How to apply (Phase 0 of any commission emitting count-based findings):**
+
+Audit-report's findings section explicitly states for every count:
+1. **Denominator** — what's being divided into (e.g., "total catalog 167 packages" vs "logic-strand subset 22 packages")
+2. **Locale scope** — en-only / en+pt / all-locales / per-locale stratified
+3. **Status filter** — published-only / all-status / pre-publish-staging-only
+4. **Temporal anchor** — pre-arc / post-arc / at-commencement / latest-known
+
+Two successive Phase 0 audits with the same denominator-label but different scope underneath is the silent failure mode. Explicit-methodology reporting prevents it by construction.
+
+**Empirical anchor:** Arc 17 Phase 1.3 → 1.4 → 1.5 baseline shifts where each phase's Phase 0 counts used different denominators without disclosure:
+- Phase 1.3 used strand-subset denominator (logic-strand only)
+- Phase 1.4 used total-catalog denominator (all 167 packages)
+- Phase 1.5 used en+pt union denominator (locale-bilingual subset)
+
+Reconciliation cost operator-attention at Phase 1.5 commencement; explicit-methodology reporting at Phase 1.3 + 1.4 close-outs would have surfaced the denominator shifts at the earlier boundary.
+
+**When-to-apply trigger:** at any Phase 0 audit emitting count-based findings, regardless of audit shape. Counts that look comparable across phases must be denominator-comparable, or denominator differences must be disclosed.
+
+**Cross-references (count-reporting discipline family):**
+- §A.13.18 Backfill-rate as commission close-out metric (per-locale stratification + file-level-vs-DB-level distinction)
+- §A.13.27 Trajectory-vs-static-state pricing inspection (denominator-vs-numerator inspection at trajectory-rate change)
+- §A.13.33 (this section) — methodology disclosure at substrate audit
+
+The three together govern count-reporting discipline at audit / close-out / trajectory-reading boundaries. §A.13.33 is the substrate-audit-time complement to §A.13.27's trajectory-time inspection: the same denominator-vs-numerator decomposition discipline applies at both moments, surfaced explicitly when methodology could diverge.
+
+Origin: Arc 17 Phase 1.3 → 1.4 → 1.5 baseline-shift reconciliation.
+
+#### A.13.34 Parallel-strand-framing pattern for cross-strand content overlap
+
+When an existing package covers content that overlaps a Phase X canonical fill at the observable-activity layer, default to surfacing the parallel framing distinction in `compositionalRationale` rather than defer-or-skip. Two packages can coexist as parallel strand framings of the same observable activity when each frames the content under a distinct strand's pedagogy.
+
+**The pattern.** An observable activity (e.g., "the kid reads the clock") can be the surface for content authored under multiple strands' pedagogy:
+- One package frames it under measurement strand (clock-mat manipulative-first; physical manipulation of clock pieces)
+- Another package frames it under telling-time strand (productive vocabulary; speaking the time aloud)
+
+Both packages have legitimate strand-canonical pedagogy; both ship at filesystem level; `compositionalRationale` in each names the strand-framing distinction explicitly so future commissions don't conflate the two as duplicates.
+
+**Anti-pattern: defer-or-skip on observable-activity overlap.** Observable-activity overlap alone does NOT mean a package is duplicate. The strand-framing distinction is the canonical pedagogical reality — different strands' canonical pedagogy can route through the same observable surface. Defer-or-skip at observable-activity overlap silently drops legitimate strand coverage.
+
+**How to apply (Phase 1 of any commission step where canonical fill overlaps existing package):**
+
+1. **Identify the existing package's strand framing.** Read its `compositionalRationale` + strand assignment. (Per §A.13.31, the YAML reveals what the name only labels.)
+2. **Identify the new package's strand framing.** Per the commission's canonical-fill spec.
+3. **Compare strand framings.** If distinct, the packages are parallel strand framings — both ship; each `compositionalRationale` names the distinction. If identical, the new package IS a duplicate — defer-or-skip is correct.
+4. **Ratify with operator at Phase 1 close** if the framing distinction is non-trivial (e.g., closely-adjacent strands; emerging strand pattern).
+
+**Empirical anchor:** Arc 17 Phase 1.4 read-time-vs-tell-time pattern. Observable activity "the kid reads the clock" overlapped existing tell-time package framed under telling-time-productive-vocabulary strand. New read-time package framed under measurement strand (clock-mat manipulative-first) coexisted; both shipped at filesystem level; each `compositionalRationale` names the strand-framing distinction. Initial draft proposed defer-or-skip on observable-activity overlap; parallel-strand-framing surface caught the duplicate-vs-parallel distinction before authoring decision locked.
+
+**When-to-apply trigger:** at any Phase 1 step where canonical-fill spec's observable activity overlaps existing package. Default to parallel-strand-framing inspection BEFORE defaulting to defer-or-skip.
+
+**Cross-references:** §A.13.31 (per-instance content-awareness) — the existing package's strand framing is in its canonical artifact, NOT inferrable from the slug or activity name. Parallel-strand-framing requires §A.13.31's discipline as a prerequisite.
+
+Origin: Arc 17 Phase 1.4 read-time-vs-tell-time pattern surfacing.
+
+#### A.13.35 Canonical generator-mode-verification at extension boundaries
+
+When extending a generator with new modes OR referencing a generator's modes from commission spec, verify against the canonical mode enumeration at the generator's source code AND maintain a versioned canonical-mode list in CLAUDE.md per generator. Inventing new modes outside the canonical set without operator-strategic ratification + canonical-list amendment is structural drift.
+
+**Maintenance rule.** At any generator-extension commission, amend the canonical-state table below BEFORE shipping the extension. Future commissions reference this table at Phase 1 audit to confirm scope.
+
+**Current canonical state of record (Arc 17 close):**
+
+| Generator | Canonical modes |
+|---|---|
+| `manipulative-cut-outs` | `single-repeat`, `base-ten-blocks`, `3d-shape-nets`, `counters`, `clock-pieces` |
+
+(Additional generators' mode enumerations folded into this table as future commissions surface them. The pattern: generator-name + canonical-mode list as of latest extension.)
+
+**How to apply:**
+
+- **At commission referencing generator modes in spec:** Phase 1 audit reads the canonical-mode table here AND grep-verifies against the generator's source code. Surface divergence as §A.13.6 firing.
+- **At generator-extension commission:** amend the canonical-mode table in this section as part of the extension commit. Table-amendment is a load-bearing artifact, not a documentation afterthought — future commissions read this table as canonical.
+- **At Phase 1 inventory step where mode enumeration is load-bearing:** cross-reference table + source. If the table is stale relative to source, that's a §A.13.6 firing pointing at the prior extension commission's failed table-amendment discipline.
+
+**Empirical anchor:** Arc 17 Phase 1.4 canonical mode-verification surfaced `clock-pieces` as the 5th canonical manipulative-cut-outs mode. Pre-Arc-17 generator extension had added `clock-pieces` to the source code; canonical-state table in CLAUDE.md did not exist at the time (this section establishes it). Documenting forward as canonical-state surface prevents future commissions from re-inventing OR re-discovering existing modes.
+
+**When-to-apply trigger:** at any (a) commission referencing generator modes in spec; (b) generator-extension commission adding new modes; (c) Phase 1 inventory step where mode enumeration is load-bearing.
+
+**Cross-references:** §A.13.32 (canonical-artifact-grounding-at-composition-time) — generator-mode-verification is the generator-side specialization of canonical-artifact-grounding. The canonical-mode table here IS the artifact §A.13.32 grounds against.
+
+Origin: Arc 17 Phase 1.4 canonical mode-verification + forward-looking table establishment.
+
+#### A.13.36 CC↔assistant cooperation cadence within commission
+
+Per-package pedagogical-judgment + class-conditional adjudication resolves between CC + assistant within a commission, NOT through operator routing. Operator routing is reserved for (a) phase-boundary ratification, (b) strategic-direction adjudication, (c) explicit-delegation surface adjudication (per §3.4 adjudicator-forward). Implicit operator routing on per-package adjudication wastes operator-attention proportional to package count.
+
+**The cadence.**
+
+- **Per-package pedagogical-judgment** (which strand frames this content; which class-template applies; which materials compose; which canonical-fill ordering serves the launch envelope): CC drafts; assistant reviews substantively; CC revises; iterate to exemplar grade. Operator does not route.
+- **Class-conditional adjudication** (does this package fit Numeracy 7 / Literacy 8 / Vocabulary 8 / World-knowledge 7 / SEL case-by-case / Logic 8 template? per §A.13.37): CC reads the class-conditional table; applies template; surfaces deviations to assistant for ratification. Operator does not route.
+- **Phase-boundary ratification** (arc-close commit; commission spec lock; Phase N → N+1 transition): routes to operator. The phase-boundary is the operator-attention surface, not the per-package work within a phase.
+- **Strategic-direction adjudication** (Pillar 5 mass-run scope; launch-envelope lock; cross-pillar prioritization; new pillar emergence): routes to operator.
+- **Explicit-delegation moments** (operator says "you choose" / "make the call" / "decide"): adjudicator-forward per §3.4; CC OR assistant locks per delegation; does not re-route to operator.
+
+**Anti-pattern:** "I drafted X for package Y; please confirm" per package across an N-package commission. Operator-attention cost scales with N; cooperation-cadence cost is bounded by phase count. The implicit operator-routing pattern surfaces as commission-completion latency proportional to per-package routing roundtrips.
+
+**Empirical validation:** 5 Arc 17 phases (Phase 1.1 + 1.2 + 1.3 + 1.4 + 1.5) + Arc 14 / 15 / 16 — CC↔assistant cooperation resolved per-package pedagogical-judgment, class-conditional materials selection, parallel-strand-framing decisions, and canonical-fill prioritization without operator routing. Operator routing appeared at: arc-close phase-boundary ratification, strategic-direction questions (Pillar 5 mass-run scope, launch-envelope lock, double-close-out trajectory moments), explicit-delegation moments.
+
+**When-to-apply trigger:** at any per-package adjudication within commission scope. Resolve between CC + assistant first; surface to operator only if (a) operator-strategic dimension surfaces OR (b) explicit-delegation moment is the appropriate disposition.
+
+**Cross-references:**
+- §3.4 (adjudicator-forward decision-locking) — governs explicit-delegation moments within the cadence
+- §A.13.11 (operator-strategic adjudication batching at recon-completion) — when operator routing is appropriate, batch at phase-boundary rather than streaming
+- §A.13.21 (operator-pre-recommendation substrate verification) — operator-pre-recommendation does NOT mean per-package routing; substrate verification at recommendation boundary IS the operator-routing surface
+
+Origin: Arc 17 cycle 5-phase empirical validation + canonical correction from prior cycle's implicit per-package operator-routing pattern.
+
+#### A.13.37 Class-conditional disposition pattern as canonical materials composition gate
+
+At authoring time for any teaching-package, the materials composition is dictated by package class per a fixed canonical table. The table IS the gate: the materials list ships against the class-template, not against per-package improvisation. Deviations require explicit `compositionalRationale` rationale + assistant ratification at Phase 1 close.
+
+**Canonical class-conditional disposition table (Arc 16+17 empirical lock):**
+
+| Package class | Materials count | Composition |
+|---|---:|---|
+| Numeracy | 7 | flashcards, picture-cards, place-value-mat, vocabulary-tracing-strips, manipulative-cut-outs, parent-take-home-letter, answer-key |
+| Literacy | 8 | (class-template per established Arc 16 patterns; see canonical package YAMLs at `docs/lesson-plans/packages/identify-letter-sounds-vowels/` and siblings) |
+| Vocabulary | 8 | (class-template per established Arc 16 patterns; see canonical package YAMLs) |
+| World-knowledge | 7 | (class-template per established Arc 17 patterns; see canonical package YAMLs at `docs/lesson-plans/packages/identify-living-vs-nonliving/` and siblings) |
+| SEL | case-by-case | strand-specific composition; default to PSED-class-template when applicable; otherwise per-strand canonical |
+| Logic | 8 | Arc 17 Phase 1.1 logic-class canonical composition: standard 7 + matching-mat (logic-class addition) |
+
+**How to apply (Phase 1 of any teaching-package authoring step):**
+
+1. **Identify the package class** per its strand assignment.
+2. **Read the class-conditional row** in the table above.
+3. **Compose materials against the class-template.** Default disposition: identical to class-template; no improvisation.
+4. **Surface deviations at Phase 1 close.** If the package legitimately needs a deviation (e.g., parallel-strand-framing per §A.13.34 imposes a different composition; per-package pedagogical-judgment surfaces a load-bearing class-template miss), the deviation MUST be ratified at Phase 1 close with explicit rationale in `compositionalRationale`.
+
+**Empirical validation:** 3-package empirical basis at Arc 16 close (`count-objects-1-to-10` + `identify-letter-sounds-vowels` + `identify-living-vs-nonliving`) — first-shipped exemplars per class. Cross-class generalization at Arc 17 across 5 phases (logic-class canonical composition at Phase 1.1; numeracy + literacy + vocabulary + world-knowledge applied consistently across Phase 1.2-1.5). Class-conditional gate fired consistently; no per-package improvisation surfaced as load-bearing across the validation set.
+
+**Anti-pattern:** per-package improvisation at materials composition without class-template grounding. The class-conditional table IS the canonical authoring pattern at the materials layer; improvisation without ratification at Phase 1 close drifts the class-template silently.
+
+**When-to-apply trigger:** at any teaching-package authoring step. Phase 1 materials composition reads the class-conditional table; deviations route to assistant ratification.
+
+**Cross-references:**
+- §A.13.5 (Shape A canonical authoring pattern) — Shape A governs authoring-app-side defect prevention; §A.13.37 governs teaching-package authoring-time materials composition. Different surfaces, parallel canonical-authoring discipline.
+- §A.13.21 (operator-pre-recommendation substrate verification) — class assignment per strand is canonical-state; substrate verification at recommendation boundary IS the gate that catches class-misalignment.
+- §A.13.34 (parallel-strand-framing) — parallel-strand-framing legitimately imposes deviations from class-template; ratification at Phase 1 close is the appropriate surface.
+
+Origin: 3-package Arc 16 empirical basis + Arc 17 5-phase cross-class generalization; canonical table establishment.
+
+#### A.13.38 Decoupled-ship pattern across arc-close empirical reliability
+
+Multi-pillar commission cycles (package-authoring + materials regen + CDN deploy + cross-bundle + scope-doc amendment) ship in a decoupled cadence: (1) package authoring at filesystem level; (2) arc-close commit; (3) P2 close-out cycle absorbs materials regen + CDN deploy + cross-bundle + scope-doc amendment. The decoupling preserves rollback granularity AND absorbs unplanned-failure-mode at the filesystem-level discipline boundary.
+
+**The cadence in three phases:**
+
+1. **Phase P1 — package authoring at filesystem level.** Write `package.yaml` + asset trees to disk BEFORE git-stage. Filesystem captures the work; intermediate failure-modes (PC-power-loss, crash, accidental process-kill) leave the work recoverable from filesystem state, not lost.
+2. **Arc-close commit.** Single commit captures the recoverable filesystem state atomically. Rollback granularity = one commit per arc; git history clean.
+3. **Phase P2 — close-out cycle.** Absorbs the downstream-deploy dimensions in a separate cadence: materials regen (PDF assets) + CDN deploy (per §15.8 5-min TTL) + cross-bundle updates (per `docs/SUBSCRIPTION-SCOPE.md`) + scope-doc amendments (per §A.8.2 multi-copy doctrine-file discipline). P2 ships separately so per-dimension failure-modes don't entangle with arc-authoring rollback.
+
+**Sub-doctrine — filesystem-level discipline absorbs unplanned-failure-mode.** Authoring at filesystem level (writing `package.yaml` + asset trees BEFORE git-stage) means PC-power-loss / crash / accidental-process-kill leaves the work recoverable from filesystem state. Arc-close commit then captures the recoverable state atomically; intermediate failure modes do not corrupt git history. Validated empirically at Arc 17 P2 PC-power-loss recovery: filesystem state preserved across power-loss event; arc-close commit re-ran cleanly post-recovery without re-authoring loss.
+
+**Empirical validation:** Arc 14 / 15 / 16 / 17 — 4-arc empirical reliability of the decoupled-ship cadence. P2 close-out cycle absorbed materials regen + CDN deploy at each arc without coupling to arc-authoring commit boundary. The cadence is the canonical multi-pillar shape, not an exception.
+
+**Anti-pattern:** coupled-ship at arc-authoring commit boundary (package authoring + materials regen + CDN deploy + scope-doc amendment all in one commit). Couples per-dimension failure-modes to rollback granularity; entangles concerns. Coupled-ship trades rollback granularity for atomicity — rarely the right tradeoff at multi-pillar scale.
+
+**When-to-apply trigger:** at any multi-pillar commission cycle with package-authoring + downstream-deploy dimensions. Default to decoupled-ship cadence; surface to operator at arc-close if coupled-ship would benefit (rare; coupled-ship trades rollback granularity for atomicity).
+
+**Cross-references:**
+- §A.13.11 (operator-strategic adjudication batching) — P2 close-out cycle IS the canonical batching surface for downstream-deploy adjudication. Operator routing at P2 close-out, not at per-deploy-dimension within P2.
+- §A.13.24 (double-close-out paired commission milestone) — when two pillars' commission cycles converge at the same paired close-out moment, the decoupled-ship cadence still applies per-pillar; double-close-out is a phase-boundary, not a coupling event.
+- §A.8.2 (multi-copy doctrine-file drift discipline) — scope-doc amendments at P2 close-out follow §A.8.2 canonical-vs-alternate copy discipline.
+
+Origin: Arc 14 / 15 / 16 / 17 4-arc empirical reliability + Arc 17 P2 PC-power-loss recovery validating the filesystem-level discipline sub-doctrine.
+
 ### A.14 Scaling Arc audit doctrine
 
 `[CHORE][AUDIT]` commissions measure publish-cli's path against scale targets without making any production change. The doctrine here governs both the audit commission shape and the engineering decisions that follow.

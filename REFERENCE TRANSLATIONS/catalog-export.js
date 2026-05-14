@@ -439,12 +439,32 @@
   function deriveVariantId(bundle) {
     if (!bundle || typeof bundle !== 'object') return null;
     // Hash deterministic content-bearing subset (per-app fields).
+    // 2026-05-14: extended contentKeys to include picture-sort (items, bins) +
+    // picture-path (solutionPath, startCellImage, endCellImage, mode) content
+    // fields. Previously both apps emitted `imageRefs: {}` (empty placeholder
+    // per image-references-v3 schema), which the primary-path detection saw
+    // as "present" and produced identical hash across all rolls in a session
+    // (97 ES picture-sort + 93 picture-path collided on variant_id 98be on
+    // 2026-05-14 wave; salvaged via rewrite-duplicate-variant-ids.js).
     var contentKeys = ['targets', 'cells', 'cutoutsData', 'holes', 'uniqueImageKeys',
                        'problems', 'exercises', 'placedWordsInfo', 'words',
-                       'imageRefs', 'imagePlacements'];
+                       'imageRefs', 'imagePlacements',
+                       // picture-sort content fields:
+                       'items', 'bins',
+                       // picture-path content fields:
+                       'solutionPath', 'startCellImage', 'endCellImage', 'mode'];
     var contentObj = {};
     contentKeys.forEach(function (k) {
-      if (bundle[k] !== undefined) contentObj[k] = bundle[k];
+      var v = bundle[k];
+      if (v === undefined || v === null) return;
+      // Treat empty objects/arrays as absent — an empty placeholder shouldn't
+      // count as "content present" (otherwise contentObj={imageRefs:{}} hashes
+      // to identical value across every deck in a session).
+      if (typeof v === 'object') {
+        var emptyObj = Array.isArray(v) ? v.length === 0 : Object.keys(v).length === 0;
+        if (emptyObj) return;
+      }
+      contentObj[k] = v;
     });
     // Fallback: bundle minus volatile fields (createdAt etc.)
     if (Object.keys(contentObj).length === 0) {

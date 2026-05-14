@@ -2927,6 +2927,62 @@ function updateTranslations() {
             };
         }
 
+        // Shared content-rectangle helper (added 2026-05-15) — single source of truth for
+        // the worksheet content area; called by both generateScene and prepareOddOneOutImages
+        // so the density-aware cap operates on the same area placement uses.
+        function computeContentRect() {
+            const canvasWidth = currentCanvasConfig.width;
+            const canvasHeight = currentCanvasConfig.height;
+            const isLandscape = canvasWidth > canvasHeight;
+            const headerHeight = isLandscape ? 145 : 220;
+            const includeNameDateChecked = (typeof includeNameDate !== 'undefined' && includeNameDate.checked);
+            const topMargin = headerHeight + (includeNameDateChecked ? 20 : 10);
+            const bottomMargin = (typeof activityModeSelect !== 'undefined' && activityModeSelect.value === 'oddoneout') ? 50 : 120;
+            const sideMargin = isLandscape ? 60 : 50;
+            return {
+                x: sideMargin,
+                y: topMargin,
+                width: canvasWidth - (sideMargin * 2),
+                height: canvasHeight - topMargin - bottomMargin,
+                isLandscape: isLandscape
+            };
+        }
+
+        // Density-aware sizing helper for Odd-One-Out mode (added 2026-05-15).
+        // Computes per-item size bounds given total item count + canvas content area;
+        // returns capItems=true with maxItemCount when item count would exceed the K-3
+        // visual quality floor (70 px minimum for recognizable images), so prepareOddOneOutImages
+        // can sample-down the pair set before placement begins. See plan for design rationale.
+        function computeOddOneOutSizing(itemCount, contentRect, isLandscape) {
+            const targetUtilization = 0.50;       // 50% canvas-area-with-spacing slots utilized
+            const spacing = 30;                   // matches isTooCloseToPartner / minDistance buffer
+            const absoluteMinSize = 70;           // K-3 visual recognition floor
+            const absoluteMaxSize = isLandscape ? 270 : 225;  // existing cap, preserved
+            const contentArea = Math.max(1, contentRect.width * contentRect.height);
+            const safeItemCount = Math.max(1, itemCount);
+
+            // Solve for size such that itemCount fits at target utilization:
+            //   itemCount = contentArea * targetUtilization / (avg + spacing)^2
+            const idealAvgSize = Math.sqrt(contentArea * targetUtilization / safeItemCount) - spacing;
+
+            if (idealAvgSize >= absoluteMinSize) {
+                // Adaptive sizing path — sizes scale down with item count
+                const minSize = Math.max(idealAvgSize * 0.75, absoluteMinSize);
+                const maxSize = Math.min(idealAvgSize * 1.50, absoluteMaxSize);
+                return { capItems: false, maxItemCount: safeItemCount, minSize: minSize, maxSize: maxSize };
+            } else {
+                // Quality-floor path — cap item count, hold sizes at floor
+                const avgAtFloor = absoluteMinSize / 0.75;  // ~93 px
+                const maxItemCount = Math.max(
+                    FIND_OBJECTS_TARGET_COUNT,
+                    Math.floor(contentArea * targetUtilization / Math.pow(avgAtFloor + spacing, 2))
+                );
+                const minSize = absoluteMinSize;
+                const maxSize = avgAtFloor * 1.50;          // ~140 px (floor regime cap)
+                return { capItems: true, maxItemCount: maxItemCount, minSize: minSize, maxSize: maxSize };
+            }
+        }
+
         async function prepareOddOneOutImages() {
             const themeName = themeSelect.value;
             if (!themeName || themeName === 'all') {
@@ -2944,7 +3000,20 @@ function updateTranslations() {
             // rest become pairs (decoys, each shown twice).
             const shuffled = getRandomSubset(themeImages, themeImages.length);
             const oddImages = shuffled.slice(0, FIND_OBJECTS_TARGET_COUNT);
-            const pairs = shuffled.slice(FIND_OBJECTS_TARGET_COUNT);
+            let pairs = shuffled.slice(FIND_OBJECTS_TARGET_COUNT);
+
+            // Density-aware item cap (added 2026-05-15) — sample down pairs when total items
+            // would exceed the K-3 visual-recognition floor at the current canvas size. Cap
+            // happens here (in image preparation) rather than in placement so that downstream
+            // exports (interactive HTML, answer key) reflect the sampled set, not the full theme.
+            const projectedItemCount = pairs.length * 2 + FIND_OBJECTS_TARGET_COUNT;
+            const provisionalRect = computeContentRect();
+            const sizing = computeOddOneOutSizing(projectedItemCount, provisionalRect, provisionalRect.isLandscape);
+            if (sizing.capItems) {
+                const maxPairs = Math.max(0, Math.floor((sizing.maxItemCount - FIND_OBJECTS_TARGET_COUNT) / 2));
+                // shuffled was already random; slicing preserves random sample
+                pairs = pairs.slice(0, maxPairs);
+            }
 
             let allImages = [];
 
@@ -3267,57 +3336,66 @@ function updateTranslations() {
                             }
                         }
 
-                        // If no good position found, try with slightly smaller image
+                        // Iterative shrink fallback (strengthened 2026-05-15) — if best position
+                        // still has significant overlap, try progressively smaller sizes (95%, 90%,
+                        // 85%, 80%, 75% of original). Stops early once overlap drops to acceptable.
+                        // Backstop only; primary fix is density-aware sizing in computeOddOneOutSizing.
+                        let bestSize = itemInfo.targetSize;
                         if (bestOverlapPenalty > 100) {
-                            // Reduce size by 10% and try again
-                            img.scaleToWidth(itemInfo.targetSize * 0.9);
-                            const reducedWidth = img.getScaledWidth();
-                            const reducedHeight = img.getScaledHeight();
+                            const shrinkSteps = [0.95, 0.90, 0.85, 0.80, 0.75];
+                            for (const shrinkRatio of shrinkSteps) {
+                                const shrunkSize = itemInfo.targetSize * shrinkRatio;
+                                img.scaleToWidth(shrunkSize);
+                                const shrunkWidth = img.getScaledWidth();
+                                const shrunkHeight = img.getScaledHeight();
 
-                            let reducedBestPosition = null;
-                            let reducedBestPenalty = Infinity;
+                                let shrunkBestPosition = null;
+                                let shrunkBestPenalty = Infinity;
 
-                            for (let attempt = 0; attempt < 100; attempt++) {
-                                const x = contentRect.x + Math.random() * Math.max(1, contentRect.width - reducedWidth);
-                                const y = contentRect.y + Math.random() * Math.max(1, contentRect.height - reducedHeight);
+                                for (let attempt = 0; attempt < 100; attempt++) {
+                                    const x = contentRect.x + Math.random() * Math.max(1, contentRect.width - shrunkWidth);
+                                    const y = contentRect.y + Math.random() * Math.max(1, contentRect.height - shrunkHeight);
 
-                                const centerX = x + reducedWidth / 2;
-                                const centerY = y + reducedHeight / 2;
+                                    const centerX = x + shrunkWidth / 2;
+                                    const centerY = y + shrunkHeight / 2;
 
-                                if (isTooCloseToPartner(itemInfo, x, y, reducedWidth, reducedHeight)) {
-                                    continue;
-                                }
+                                    if (isTooCloseToPartner(itemInfo, x, y, shrunkWidth, shrunkHeight)) {
+                                        continue;
+                                    }
 
-                                let overlapPenalty = 0;
-                                for (const existing of placedObjects) {
-                                    const dx = centerX - existing.left;
-                                    const dy = centerY - existing.top;
-                                    const distance = Math.sqrt(dx * dx + dy * dy);
-                                    const minDistance = (reducedWidth + existing.getScaledWidth()) / 2 + 30;
+                                    let overlapPenalty = 0;
+                                    for (const existing of placedObjects) {
+                                        const dx = centerX - existing.left;
+                                        const dy = centerY - existing.top;
+                                        const distance = Math.sqrt(dx * dx + dy * dy);
+                                        const minDistance = (shrunkWidth + existing.getScaledWidth()) / 2 + 30;
 
-                                    if (distance < minDistance) {
-                                        const overlap = minDistance - distance;
-                                        overlapPenalty += overlap;
+                                        if (distance < minDistance) {
+                                            const overlap = minDistance - distance;
+                                            overlapPenalty += overlap;
+                                        }
+                                    }
+
+                                    if (overlapPenalty < shrunkBestPenalty) {
+                                        shrunkBestPenalty = overlapPenalty;
+                                        shrunkBestPosition = { x: centerX, y: centerY };
+                                        if (overlapPenalty === 0) break;
                                     }
                                 }
 
-                                if (overlapPenalty < reducedBestPenalty) {
-                                    reducedBestPenalty = overlapPenalty;
-                                    reducedBestPosition = { x: centerX, y: centerY };
-
-                                    if (overlapPenalty === 0) break;
+                                // Accept shrunk size if it improves overlap
+                                if (shrunkBestPenalty < bestOverlapPenalty) {
+                                    bestPosition = shrunkBestPosition;
+                                    bestOverlapPenalty = shrunkBestPenalty;
+                                    bestSize = shrunkSize;
                                 }
-                            }
 
-                            // Use reduced size position if it's better
-                            if (reducedBestPenalty < bestOverlapPenalty) {
-                                bestPosition = reducedBestPosition;
-                                bestOverlapPenalty = reducedBestPenalty;
-                            } else {
-                                // Restore original size if reduced didn't help
-                                img.scaleToWidth(itemInfo.targetSize);
+                                // Stop early once overlap drops to acceptable
+                                if (bestOverlapPenalty <= 50) break;
                             }
                         }
+                        // Apply the best size found (may be original if no shrink helped)
+                        img.scaleToWidth(bestSize);
 
                         // Use the best position found (guaranteed to have minimal overlap)
                         const finalPosition = bestPosition || {
@@ -3448,20 +3526,9 @@ function updateTranslations() {
                 enforceZOrder(canvas);
             }
 
-            // Professional margins - account for header height
-            const headerHeight = isLandscape ? 145 : 220;
-            const topMargin = headerHeight + (includeNameDate.checked ? 20 : 10);
-            // For odd one out mode, use smaller bottom margin since no legend is displayed
-            const bottomMargin = (activityModeSelect.value === 'oddoneout') ? 50 : 120; // Space for legend (only in I Spy mode)
-            const sideMargin = isLandscape ? 60 : 50;
-            
-            // Content area with proper boundaries
-            const contentRect = {
-                x: sideMargin,
-                y: topMargin,
-                width: canvasWidth - (sideMargin * 2),
-                height: canvasHeight - topMargin - bottomMargin
-            };
+            // Content area with proper boundaries — shared helper (added 2026-05-15) so
+            // prepareOddOneOutImages density-aware cap operates on the same rect placement uses.
+            const contentRect = computeContentRect();
             
             const placedObjects = [];
             
@@ -3559,11 +3626,11 @@ function updateTranslations() {
 
             if (isOddOneOutMode) {
 
-                // Odd one out mode uses LARGER sizes (50% bigger than I spy)
-                const oddMinSize = baseSize * 1.05 * 0.5;  // 50% larger minimum (50% reduction)
-                const oddRelativeMaxSize = oddMinSize * 2.5;
-                const oddAbsoluteMaxSize = isLandscape ? 270 : 225; // 50% larger maximum
-                const oddMaxSize = Math.min(oddRelativeMaxSize, oddAbsoluteMaxSize);
+                // Density-aware sizing (added 2026-05-15) — sizes scale to actual item count
+                // up to a K-3 visual quality floor (70 px). Pair count was already capped in
+                // prepareOddOneOutImages when the floor would otherwise be breached, so by
+                // this point allDistractors.length is guaranteed to fit at sizing.minSize.
+                const oddSizing = computeOddOneOutSizing(allDistractors.length, contentRect, isLandscape);
 
                 // Use specialized placement for odd one out with pair constraints
                 const placedOddOneOutObjects = await placeOddOneOutImages(
@@ -3571,8 +3638,8 @@ function updateTranslations() {
                     allDistractors,
                     contentRect,
                     baseSize,
-                    oddMinSize,  // Use larger minimum
-                    oddMaxSize,  // Use larger maximum
+                    oddSizing.minSize,
+                    oddSizing.maxSize,
                     isLandscape
                 );
                 // Skip to legend creation - placement done

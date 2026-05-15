@@ -23,9 +23,11 @@ var path = require('path');
 
 var TAXONOMY_PATH = path.resolve(__dirname, '..', 'frontend', 'config', 'topics-taxonomy.json');
 // Locales currently populated in taxonomy axes.exercise-mode.<key>.name.<locale>
-// (verified at script-authoring time: en + de + es have 49/49 coverage; other
-// 8 locales have 0/49). Update this list as taxonomy expands per §16.6.1.
-var EMBEDDED_LOCALES = ['en', 'de', 'es'];
+// (verified at 11-locale extension commission: en + de + es + nl + it + fr + pt
+// + sv + da + no + fi all have 49/49 coverage). The 4 Nordic+Finnic locales
+// shipped with [NSR-flag] per §17.5.1 — values functional immediately, native-
+// speaker review batched later per project_k3_phrasing_native_speaker_review.md.
+var EMBEDDED_LOCALES = ['en', 'de', 'es', 'nl', 'it', 'fr', 'pt', 'sv', 'da', 'no', 'fi'];
 
 function generate() {
   var taxonomy = JSON.parse(fs.readFileSync(TAXONOMY_PATH, 'utf8'));

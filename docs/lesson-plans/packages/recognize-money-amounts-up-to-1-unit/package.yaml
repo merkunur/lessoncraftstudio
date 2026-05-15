@@ -1,0 +1,417 @@
+# Teaching package — recognize money amounts up to 1 unit (USD canonical)
+# Arc 18 Phase 1.2 (math / measurement strand — CLOSES money sub-track 1/2 → 2/2 SAT). Pair partner: identify-coin-values (slot 2 of Phase 1.2; opens the sub-track). Together the pair closes the measurement-strand money sub-track. Builds on slot-2 coin-value recognition + Arc 12 count-objects-1-to-20 + add-within-100 (Arc 15) prerequisites.
+
+targetSlug: recognize-money-amounts-up-to-1-unit
+language: en
+title:
+  en: "Recognize Money Amounts up to 1 Dollar — count coins to make amounts"
+
+description:
+  en: "Grade 2 math/measurement package CLOSING the money sub-track in the measurement strand at 2/2 SAT. Teaches kids to COUNT collections of coins to recognize amounts up to $1 (= 100 cents). Builds on pair partner identify-coin-values (slot 2 of Phase 1.2) where kids learned each coin's value; this package extends that recognition into COUNTING combinations. Sample skills: count 3 dimes + 2 nickels = 40¢; count 1 quarter + 2 dimes + 3 pennies = 48¢; count 4 quarters = $1 (= 100¢); count 5 nickels + 5 pennies = 30¢. Per §A.13.30 K-3 informal framing: Grade 2 money-amount pedagogy is COIN-COMBINATION COUNTING up to $1 — kids use skip-counting (by 25s for quarters, 10s for dimes, 5s for nickels, 1s for pennies) to compute small-scale totals. The CCSS.2.MD.C.8 direct anchor scope. NOT formal currency arithmetic with making change or comparing prices (Grade 3+ work). 5 worksheet exercises + 7 printable materials over a 1-week unit. **LOCALE-MONEY-SYSTEM DIVERGENCE per operator-locked Path A at Arc 18 Phase 0 §A.13.6 firings batch:** this en package authors USD canonical (counting amounts up to $1 using penny / nickel / dime / quarter / dollar-bill); pt sibling at `package.pt.yaml` authors BRL canonical (counting amounts up to R$1 using 5/10/25/50 centavos + R$1 real) with FULL OVERRIDE of materials list. Arc 7+ sparse-override convention INTENTIONALLY DEPARTED for this commission (slots 2+3 of Phase 1.2). See pair partner identify-coin-values compositionalRationale for full convention-departure documentation."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class money-counting introduction. Teacher
+      displays 4 quarters on the board. "How much money
+      is this?" Most kids will know each quarter is 25¢
+      from yesterday's identify-coin-values work. "Let's
+      count by 25s: twenty-five, fifty, seventy-five, ONE
+      HUNDRED. Four quarters make 100 cents — which is
+      ONE DOLLAR. So 4 quarters = $1." Teacher writes
+      this on board: 4 quarters = 25¢ + 25¢ + 25¢ + 25¢
+      = 100¢ = $1. Then 5 dimes: "How much is 5 dimes?
+      Count by 10s: ten, twenty, thirty, forty, FIFTY.
+      5 dimes = 50¢." Then a mixed collection: "What
+      about 1 quarter + 2 dimes? Twenty-five — thirty-
+      five — FORTY-FIVE. 1 quarter + 2 dimes = 45¢. Try
+      it with me: 2 quarters + 3 pennies?" Class counts
+      together: "Twenty-five, FIFTY, fifty-one, fifty-
+      two, FIFTY-THREE. 2 quarters + 3 pennies = 53¢."
+      Pattern emphasis: "Count the BIGGEST coins first
+      (quarters by 25s), then dimes by 10s, then nickels
+      by 5s, then pennies by 1s. Add them as you go."
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + coin-counting routine. Each pair receives
+      coin-pile cards (8 cards, each showing 2-4 coins in
+      a small collection) + value cards (the amount each
+      collection adds to: 15¢, 30¢, 50¢, 75¢, $1, etc.).
+      Pair takes turns: kid A draws a coin-pile card +
+      counts the total amount aloud ("a quarter and a
+      dime — twenty-five, thirty-five — 35 cents!"); kid
+      B finds the matching value card. Both verify the
+      count. Then swap. Recast errors with count-step
+      cues ("you said 35¢ but you counted the dime as 5¢
+      — a dime is 10¢. Let me recount: 25, then 35. So
+      yes, 35¢ — but make sure you skip-count by 10 for
+      dimes."). Optional extension: kids COMPOSE their
+      own collections to make a target amount (teacher:
+      'show me 30¢'; kids combine coins from the pile to
+      total 30¢). Free time at end: kids make as many
+      different combinations of $1 as possible (4
+      quarters; 10 dimes; 20 nickels; 100 pennies; 2
+      quarters + 5 dimes; etc.). The combination-
+      multiplicity is conceptually important — kids learn
+      that the SAME amount can be made multiple ways.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching activity —
+      match each coin-pile image to its total amount.
+      Station 2: math-worksheet — given a coin-pile image,
+      write the total amount (e.g., 3 dimes + 1 nickel
+      = 35¢). Station 3: math-puzzle (make-target-amount
+      — given a target amount, kid selects coins from
+      palette to make it: target 65¢; kid picks 2
+      quarters + 1 dime + 1 nickel). Station 4: picture-
+      sort — sort coin-pile images by amount-range:
+      'small amounts' (under 25¢) vs 'medium amounts'
+      (25¢-75¢) vs 'large amounts' (75¢-$1).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class money-amount quick-recall. Teacher
+      displays 3 coin piles; class chorally counts each.
+      "Two quarters + 1 dime — twenty-five, FIFTY, SIXTY!
+      60¢!" "Three nickels + 4 pennies — five, ten,
+      FIFTEEN — sixteen, seventeen, eighteen, NINETEEN!
+      19¢!" "Four quarters — ONE DOLLAR! $1!" Teacher
+      then poses the money-sub-track summary: "We've now
+      completed the money sub-track of measurement —
+      IDENTIFY-COIN-VALUES (which coin is which, what
+      it's worth) + RECOGNIZE-MONEY-AMOUNTS (counting
+      coins to find a total). Together these two skills
+      let you handle most money math at Grade 2 — buying
+      something with coins, counting your piggy bank,
+      understanding prices under $1." Forward-pointer:
+      "Next we'll meet bigger money: DOLLAR BILLS in
+      different denominations ($5, $10, $20), AMOUNTS
+      OVER $1, MAKING CHANGE, COMPARING PRICES. The
+      counting skill you learned here scales up — you'll
+      use the same skip-counting routines with bigger
+      bills."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: miscellaneous, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: math-worksheet
+    exerciseMode: easy
+    customizationParameters: { difficulty: easy, numExercises: 6, operations: addition, selectMode: theme, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: math-puzzle
+    exerciseMode: unified
+    customizationParameters: { themeSelect: miscellaneous, languageSelect: en, difficulty: easy }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 6, themeSelect: miscellaneous, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: picture-sort
+    exerciseMode: unified
+    customizationParameters: { themeSelect: miscellaneous, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys:
+        - penny
+        - nickel
+        - dime
+        - quarter
+        - dollar-bill
+      cardCount: 10
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys:
+        - penny
+        - nickel
+        - dime
+        - quarter
+        - dollar-bill
+      cardCount: 10
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys:
+        - penny
+        - nickel
+        - dime
+        - quarter
+        - dollar-bill
+      pairCount: 10
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys:
+        - penny
+        - nickel
+        - dime
+        - quarter
+        - dollar-bill
+      stripCount: 10
+      stripsPerPage: 5
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys:
+        - penny
+        - nickel
+        - dime
+        - quarter
+        - dollar-bill
+      mode: variety
+      itemCount: 10
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: vocabKeyList
+      vocabKeys:
+        - penny
+        - nickel
+        - dime
+        - quarter
+        - dollar-bill
+      pictureCueCount: 5
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: math / measurement (recognize money
+    amounts up to 1 unit — CLOSES money sub-track 1/2 →
+    2/2 SAT in the measurement strand). Secondary strand:
+    early-numeracy / addition (the coin-counting work
+    reinforces skip-counting + multi-coin addition
+    strategies kids established at Arc 15 add-within-100
+    prerequisite). Tertiary strand: vocabulary-acquisition
+    (amount + total + value vocabulary; money-counting
+    register).
+
+    Architectural significance: CLOSES the money sub-
+    track of the measurement strand opened by pair
+    partner identify-coin-values (slot 2 of Phase 1.2).
+    The two packages complete the canonical money sub-
+    track at 2/2 SAT — the structural symmetry mirrors
+    the Arc 17 P1.4 tell-time pair pattern (hour + half-
+    hour) extended at Arc 18 P1.1 to a tell-time triple
+    (hour + half-hour + quarter-hour). Money sub-track
+    is structurally simpler (2 targets vs 3): identify-
+    coin-values opens, recognize-money-amounts closes.
+
+    Pair partner: identify-coin-values (slot 2 of Phase
+    1.2). The two packages teach incremental skill
+    layers:
+    - identify-coin-values: coin-RECOGNITION + value-
+      RECOGNITION (Grade 2 prerequisite). Pedagogy
+      anchors on coin-appearance-vs-value pairing.
+    - recognize-money-amounts (this package): coin-
+      COMBINATION COUNTING (CCSS.2.MD.C.8 direct anchor).
+      Pedagogy anchors on skip-counting routines applied
+      to coin collections (25s for quarters, 10s for
+      dimes, 5s for nickels, 1s for pennies).
+    Together they form the K-3 currency module —
+    RECOGNITION first, then COUNTING. The
+    materials infrastructure (USD coin vocabKeys per Path
+    A operator-locked at Phase 0) is shared between the
+    two packages.
+
+    Cross-reference to count-objects-1-to-20 (Arc 12
+    prerequisite) + add-within-100 (Arc 15 prerequisite):
+    the number-counting + multi-step-addition skills
+    established by those K-1 + Grade 1 packages ground
+    the coin-counting work this package builds. Kids who
+    can skip-count + add within 100 can compute coin
+    totals up to $1 (= 100¢). Combination-multiplicity
+    (same total made multiple ways) is the conceptual
+    extension specific to money work.
+
+    **LOCALE-MONEY-SYSTEM DIVERGENCE PER OPERATOR-LOCKED
+    PATH A**: same as pair partner identify-coin-values.
+    This en package teaches USD-canonical amount-counting
+    (penny / nickel / dime / quarter + amounts up to $1);
+    pt sibling teaches BRL-canonical amount-counting
+    (5/10/25/50 centavos + R$1 + amounts up to R$1). pt
+    sibling has FULL OVERRIDE of materials list per
+    operator-locked Path A. See pair partner identify-
+    coin-values compositionalRationale for full
+    convention-departure documentation; do NOT silently
+    align pt sibling to sparse-override convention.
+
+    Per §A.13.30 K-3 informal framing: Grade 2 money-
+    amount pedagogy is COIN-COMBINATION COUNTING up to
+    $1 (= 100¢). Kids use skip-counting by coin values
+    + sequential addition to compute small-scale totals.
+    The K-3 boundary is the $1 limit — counting amounts
+    over $1 requires dollar-bill arithmetic that's Grade
+    3+ scope. The combination-multiplicity skill (same
+    total made multiple ways) is the conceptual extension
+    appropriate at Grade 2 — kids see that $1 can be 4
+    quarters OR 10 dimes OR 20 nickels OR 100 pennies OR
+    many combinations. This sets up Grade 3+ work on
+    equivalence + change-making.
+
+    Distinctive composition: 1 matching (intro — coin-
+    pile-image to total-amount pairing) + 1 math-
+    worksheet (count amounts from coin-pile images) + 1
+    math-puzzle (make-target-amount — given target, kid
+    picks coins to total it) + 1 matching (letter-mode
+    at consolidation) + 1 picture-sort (sort coin piles
+    by amount-range, surfaces total-amount comparison
+    work). Composition shape parallels pair partner
+    identify-coin-values but emphasizes the COUNTING
+    skill at positions 2-3 (math-worksheet + math-puzzle)
+    rather than the RECOGNITION skill (which was
+    pair-partner's emphasis at positions 1-2).
+
+    Materials note: 7-material Numeracy/Measurement class
+    stack per §A.13.37. Materials list IDENTICAL to pair
+    partner identify-coin-values (same 5 USD coin
+    vocabKeys; same `mode: variety`; same itemCount
+    scale — though manipulative-cut-outs at slot 3 uses
+    itemCount 10 vs slot-2's 6 because amount-counting
+    needs more coin pieces than just recognition).
+    **SUBSTRATE CARRY-FORWARD TO P2**: same as pair
+    partner — USD coin substrate (image library +
+    vocab-dictionary entries) deferred to Pillar 5 P2
+    close-out per §A.13.38 decoupled-ship discipline.
+
+    Class B FLEXIBLE substrate: composes against
+    miscellaneous theme on composedExercises (same as
+    pair partner + tell-time measurement-strand
+    precedent). Materials use vocabKeyList directly.
+
+    K-3 multilingual classroom relevance: amount-counting
+    pedagogy is structurally locale-portable (skip-
+    counting + addition routines are universal). The
+    locale-specific dimensions are: the COIN SET (USD
+    vs BRL vs EUR vs others — each locale has its own);
+    the AMOUNT LIMIT ($1 / R$1 / €1 / etc. — each
+    locale's "1 unit" is the natural ceiling); the
+    SKIP-COUNT VALUES (USD 1/5/10/25/100 vs BRL
+    5/10/25/50/100 — note BRL lacks the 1-cent unit per
+    pair partner discussion). Per operator-locked Path A,
+    this en package teaches USD up to $1; pt sibling
+    teaches BRL up to R$1. Future locale-variant
+    expansion (Phase 3+ for additional locales) will
+    teach each locale's currency-system up to their "1
+    unit" canonical ceiling.
+
+curriculumStandards:
+  - CCSS.2.MD.C.8
+  - CCSS.2.NBT.A.2
+  - CCSS.2.NBT.B.5
+  - EYFS.ELG.M
+  - IB-PYP.HowWeOrganizeOurselves
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Count a coin-pile of 2-3 coins (e.g., 1 quarter
+        + 2 dimes) to the correct total amount in 7 of
+        10 trials.
+      - Count a coin-pile of 4-5 coins (e.g., 1 quarter
+        + 2 dimes + 1 nickel + 2 pennies = 52¢) to the
+        correct total in 5 of 10 trials.
+      - Make a target amount from a coin palette (e.g.,
+        "show me 40¢" → select 1 quarter + 1 dime + 1
+        nickel; OR 4 dimes; OR 8 nickels) in 6 of 10
+        trials.
+      - Recognize that $1 can be made multiple ways (4
+        quarters / 10 dimes / 20 nickels / 100 pennies +
+        combinations) in 5 of 10 trials.
+      - Use vocabulary 'amount' / 'total' / 'count' /
+        'cents' / 'dollar' correctly in 5 of 10
+        productive-language trials.
+
+    Differentiation:
+    - Pre-K: skip amount counting entirely; coin-
+      recognition work (pair partner identify-coin-
+      values) is the K coverage.
+    - K: introduce amount counting with only same-coin
+      piles (e.g., 4 dimes = 40¢; 3 nickels = 15¢);
+      mixed-coin piles deferred to Grade 1+.
+    - Grade 1: amount counting with 2-coin mixed piles
+      (1 quarter + 1 dime, etc.); skip-count fluency
+      with 5s + 10s established; 25-count deferred.
+    - Grade 2: full amount-counting fluency up to $1;
+      mixed-coin piles + combination-multiplicity
+      practiced; bridge to make-target-amount work.
+    - Grade 3+: extend to dollar bills ($5 / $10 / $20);
+      making change (subtraction-based); comparing
+      prices; introducing percent (which is fundamentally
+      based on per-100 / cents-per-dollar).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

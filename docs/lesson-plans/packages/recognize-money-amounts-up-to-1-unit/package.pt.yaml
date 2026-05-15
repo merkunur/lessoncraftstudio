@@ -1,0 +1,431 @@
+# Teaching package — recognize money amounts up to 1 unit (BRL canonical; FULL OVERRIDE per Path A)
+# Arc 18 Phase 1.2 (20th-consecutive pt cadence; CONVENTION DEPARTURE per operator-locked Path A locale-money-system divergence). BR-MEC ensino-fundamental register; formal "você" address throughout. BNCC alignment: EF02MA20 (resolução de problemas; sistema monetário brasileiro).
+#
+# **CONVENTION DEPARTURE NOTICE per §A.13.34 + §A.13.6:**
+# This file FULL-OVERRIDES the materials list (NOT inherited from package.yaml via Arc 7+ sparse-override merge). Pair partner identify-coin-values pt.yaml carries the full convention-departure documentation; this package mirrors that convention departure for symmetric pair-coherent ship. Path A operator-locked at Arc 18 Phase 0 §A.13.6 firings batch; departure applies to THIS COMMISSION SPECIFICALLY (slots 2+3 of Phase 1.2).
+
+targetSlug: recognize-money-amounts-up-to-1-unit
+language: pt
+
+title:
+  pt: "Reconhecer quantias de dinheiro até 1 real — contar moedas para fazer quantias"
+
+description:
+  pt: "Pacote de matemática + grandezas e medidas para o 2.º ano do ensino fundamental, FECHANDO o sub-track de dinheiro no strand de medidas em 2/2 SAT. Ensina crianças a CONTAR coleções de moedas para reconhecer quantias até R$1 (= 100 centavos). Apoia-se no pacote-parceiro identify-coin-values (slot 2 da Fase 1.2) onde as crianças aprenderam o valor de cada moeda; este pacote estende esse reconhecimento à CONTAGEM de combinações. Habilidades-exemplo: contar 3 moedas de 10 centavos + 2 moedas de 5 centavos = 40 centavos; contar 1 moeda de 25 centavos + 2 moedas de 10 centavos + 3 moedas de 5 centavos = 60 centavos; contar 4 moedas de 25 centavos = R$1 (= 100 centavos); contar 2 moedas de 50 centavos = R$1. Por §A.13.30 enquadramento informal K-3: a pedagogia de quantia monetária do 2.º ano é CONTAGEM DE COMBINAÇÕES DE MOEDAS até R$1 — as crianças usam contagem-por-saltos (de 25 em 25 para moedas de 25 centavos, de 10 em 10 para moedas de 10, de 5 em 5 para moedas de 5) para computar totais de pequena escala. NÃO aritmética monetária formal com troco ou comparação de preços (conteúdo do 3.º + 4.º ano). 5 exercícios + 7 materiais imprimíveis ao longo de 1 semana. **DIVERGÊNCIA LOCALE-MONEY-SYSTEM per Path A do operador:** este pacote em pt autora conteúdo canonicamente brasileiro (contagem até R$1 com moedas BRL); o irmão en em `package.yaml` autora conteúdo canonicamente americano (contagem até $1 com moedas USD). A lista de materiais é FULL-OVERRIDE per Path A. Ver pacote-parceiro identify-coin-values.pt.yaml para documentação completa da divergência de convenção."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    body: |
+      Introdução à contagem de dinheiro com toda a turma.
+      Você mostra 4 moedas de 25 centavos no quadro.
+      "Quanto dinheiro é isso?" A maioria das crianças
+      vai saber que cada moeda de 25 centavos vale 25
+      centavos do trabalho do dia anterior em identify-
+      coin-values. "Vamos contar de 25 em 25: vinte e
+      cinco, cinquenta, setenta e cinco, CEM. Quatro
+      moedas de 25 centavos fazem 100 centavos — que é
+      UM REAL. Então 4 moedas de 25 centavos = R$1."
+      Você escreve no quadro: 4 × 25¢ = 25¢ + 25¢ + 25¢
+      + 25¢ = 100¢ = R$1. Depois 5 moedas de 10 centavos:
+      "Quanto é 5 moedas de 10 centavos? Contem de 10
+      em 10: dez, vinte, trinta, quarenta, CINQUENTA.
+      5 × 10¢ = 50 centavos = R$0,50 = METADE DE UM
+      REAL." Depois uma coleção mista: "E 1 moeda de 25
+      centavos + 2 moedas de 10 centavos? Vinte e cinco
+      — trinta e cinco — QUARENTA E CINCO. 1 × 25¢ +
+      2 × 10¢ = 45 centavos." Faça com a turma: "2
+      moedas de 25 centavos + 3 moedas de 5 centavos?"
+      A turma conta junto: "Vinte e cinco, CINQUENTA,
+      cinquenta e cinco, sessenta, SESSENTA E CINCO. 2
+      × 25¢ + 3 × 5¢ = 65 centavos." Ênfase do padrão:
+      "Contem as MAIORES moedas primeiro (50 centavos
+      e 25 centavos), depois 10 em 10, depois 5 em 5.
+      Some à medida que conta. (Note: no Brasil não
+      ensinamos moedas de 1 centavo neste pacote — o
+      Brasil descontinuou essa moeda em 2018; a menor
+      moeda em uso comum é a de 5 centavos.)"
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de contagem de moedas.
+      Cada dupla recebe cartões de pilha-de-moedas (8
+      cartões, cada um mostrando 2-4 moedas em uma
+      pequena coleção) + cartões de valor (a quantia que
+      cada coleção soma: 15 centavos, 30 centavos, 50
+      centavos, 75 centavos, R$1, etc.). A dupla se
+      reveza: a criança A pega um cartão de pilha-de-
+      moedas + conta o total em voz alta ("uma moeda de
+      25 centavos e uma moeda de 10 — vinte e cinco,
+      trinta e cinco — 35 centavos!"); a criança B
+      encontra o cartão de valor correspondente. Ambas
+      verificam a contagem. Depois trocam. Recapture
+      erros com pistas de passo de contagem ("você disse
+      35 centavos, mas contou a moeda de 10 como 5 — uma
+      moeda de 10 vale 10 centavos. Vamos contar de novo:
+      25, depois 35. Então sim, 35 centavos — mas
+      lembre-se de pular de 10 em 10 para moedas de
+      10."). Extensão opcional: as crianças COMPÕEM suas
+      próprias coleções para fazer uma quantia-alvo
+      (você: 'mostrem-me 30 centavos'; as crianças
+      combinam moedas da pilha para totalizar 30
+      centavos). Tempo livre no fim: as crianças fazem
+      tantas combinações diferentes de R$1 quanto
+      possível (4 moedas de 25; 10 moedas de 10; 2
+      moedas de 50; 1 moeda de 50 + 2 moedas de 25; 1
+      moeda de 50 + 5 moedas de 10; muitas combinações).
+      A multiplicidade-de-combinações é conceitualmente
+      importante — as crianças aprendem que a MESMA
+      quantia pode ser feita de várias maneiras.
+  scaffold:
+    body: |
+      Rotação por estações. Estação 1: atividade de
+      correspondência — combinar cada imagem de pilha-de-
+      moedas à sua quantia total. Estação 2: math-
+      worksheet — dada uma imagem de pilha-de-moedas,
+      escrever a quantia total (ex.: 3 × 10¢ + 1 × 5¢
+      = 35 centavos). Estação 3: math-puzzle (faça-uma-
+      quantia-alvo — dada uma quantia-alvo, a criança
+      seleciona moedas de um palette para fazê-la: alvo
+      65 centavos; a criança escolhe 2 moedas de 25 + 1
+      moeda de 10 + 1 moeda de 5). Estação 4: picture-
+      sort — separar imagens de pilha-de-moedas por
+      faixa de quantia: 'pequenas quantias' (até 25
+      centavos) vs 'quantias médias' (25-75 centavos)
+      vs 'grandes quantias' (75 centavos a R$1).
+  closure:
+    body: |
+      Recapitulação rápida de quantia monetária com toda
+      a turma. Você mostra 3 pilhas de moedas; a turma
+      conta cada uma em coro. "Duas moedas de 25 + uma
+      moeda de 10 — vinte e cinco, CINQUENTA, SESSENTA!
+      60 centavos!" "Três moedas de 5 + quatro moedas de
+      10 — cinco, dez, QUINZE — vinte e cinco, trinta
+      e cinco, quarenta e cinco, CINQUENTA E CINCO! 55
+      centavos!" "Quatro moedas de 25 — UM REAL! R$1!"
+      Você faz o resumo do sub-track de dinheiro:
+      "Completamos agora o sub-track de dinheiro das
+      medidas — IDENTIFICAR VALORES DE MOEDAS (qual
+      moeda é qual, quanto vale) + RECONHECER QUANTIAS
+      MONETÁRIAS (contar moedas para encontrar um total).
+      Juntas, essas duas habilidades permitem vocês
+      lidarem com a maior parte da matemática monetária
+      do 2.º ano — comprar algo com moedas, contar seu
+      cofrinho, entender preços abaixo de R$1." Aponte
+      adiante: "A seguir vamos conhecer dinheiro maior:
+      CÉDULAS de diferentes valores (R$2, R$5, R$10,
+      R$20), QUANTIAS ACIMA DE R$1, DAR TROCO, COMPARAR
+      PREÇOS. A habilidade de contagem que vocês
+      aprenderam aqui se escala — vocês vão usar as
+      mesmas rotinas de contagem-por-saltos com cédulas
+      maiores."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: miscellaneous, languageSelect: pt }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: math-worksheet
+    exerciseMode: easy
+    customizationParameters: { difficulty: easy, numExercises: 6, operations: addition, selectMode: theme, languageSelect: pt }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: math-puzzle
+    exerciseMode: unified
+    customizationParameters: { themeSelect: miscellaneous, languageSelect: pt, difficulty: easy }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 6, themeSelect: miscellaneous, languageSelect: pt }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: picture-sort
+    exerciseMode: unified
+    customizationParameters: { themeSelect: miscellaneous, languageSelect: pt }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys:
+        - centavo-5
+        - centavo-10
+        - centavo-25
+        - centavo-50
+        - real-1
+      cardCount: 10
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: pt
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys:
+        - centavo-5
+        - centavo-10
+        - centavo-25
+        - centavo-50
+        - real-1
+      cardCount: 10
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys:
+        - centavo-5
+        - centavo-10
+        - centavo-25
+        - centavo-50
+        - real-1
+      pairCount: 10
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: pt
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys:
+        - centavo-5
+        - centavo-10
+        - centavo-25
+        - centavo-50
+        - real-1
+      stripCount: 10
+      stripsPerPage: 5
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: pt
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys:
+        - centavo-5
+        - centavo-10
+        - centavo-25
+        - centavo-50
+        - real-1
+      mode: variety
+      itemCount: 10
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: pt
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: vocabKeyList
+      vocabKeys:
+        - centavo-5
+        - centavo-10
+        - centavo-25
+        - centavo-50
+        - real-1
+      pictureCueCount: 5
+      homeLanguage: pt
+      language: pt
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: pt
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+assessmentCriteria:
+  pt: |
+    Ao fim da unidade de 1 semana:
+      - Contar uma pilha de 2-3 moedas (ex.: 1 moeda de
+        25 centavos + 2 moedas de 10) na quantia total
+        correta em 7 de 10 tentativas.
+      - Contar uma pilha de 4-5 moedas (ex.: 1 moeda de
+        25 + 2 moedas de 10 + 1 moeda de 5 = 50
+        centavos) na quantia total correta em 5 de 10
+        tentativas.
+      - Fazer uma quantia-alvo a partir de uma palette
+        de moedas (ex.: "mostre 40 centavos" → 1 moeda
+        de 25 + 1 moeda de 10 + 1 moeda de 5; OU 4
+        moedas de 10; OU 8 moedas de 5) em 6 de 10
+        tentativas.
+      - Reconhecer que R$1 pode ser feito de várias
+        maneiras (4 moedas de 25; 10 moedas de 10; 2
+        moedas de 50; combinações) em 5 de 10
+        tentativas.
+      - Usar o vocabulário 'quantia' / 'total' / 'contar'
+        / 'centavos' / 'real' corretamente em 5 de 10
+        tentativas de produção verbal.
+
+    Diferenciação:
+    - Pré-escola: pular a contagem de quantias
+      inteiramente; o trabalho de reconhecimento de
+      moedas (parceiro-do-par identify-coin-values) é
+      a cobertura apropriada.
+    - Educação infantil (5-7 anos): introduzir contagem
+      de quantias apenas com pilhas da mesma moeda (ex.:
+      4 moedas de 10 = 40 centavos; 3 moedas de 5 = 15
+      centavos); pilhas de moedas mistas adiadas para o
+      1.º ano em diante.
+    - 1.º ano: contagem de quantias com pilhas de 2
+      moedas mistas (1 moeda de 25 + 1 moeda de 10
+      etc.); fluência de contagem-por-saltos com 5 e 10
+      estabelecida; contagem de 25 em 25 adiada.
+    - 2.º ano: fluência completa de contagem de quantias
+      até R$1; pilhas mistas + multiplicidade-de-
+      combinações praticadas; ponte para o trabalho de
+      fazer-quantia-alvo.
+    - 3.º ano em diante: estender para cédulas (R$2 /
+      R$5 / R$10 / R$20); dar troco (baseado em
+      subtração); comparar preços; introduzir porcentagem
+      (que é fundamentalmente baseada em por-100 /
+      centavos-por-real).
+
+compositionalRationale:
+  pt: |
+    Adaptação locale-AUTÊNTICA do pacote canônico per
+    operator-locked Path A no Arc 18 Phase 0 §A.13.6
+    firings batch. Este arquivo inclui MATERIALS LIST
+    OVERRIDE (mesmo padrão do pacote-parceiro identify-
+    coin-values.pt.yaml). Ver pacote-parceiro
+    compositionalRationale para documentação completa da
+    divergência de convenção; este pacote mirrora o
+    padrão pair-coherent.
+
+    Vocabulário pt-BR canônico para contagem de
+    quantias:
+    - 'quantia' (canônico para amount; alternativa
+      'valor' em registro paralelo)
+    - 'total' (total — o resultado final da contagem)
+    - 'contar' (to count); 'contagem' (counting)
+    - 'somar' (to add); 'soma' (sum)
+    - 'combinar' / 'combinação' (to combine /
+      combination — para múltiplas maneiras de fazer a
+      mesma quantia)
+    - 'centavos' (cents — a sub-unidade); 'real' /
+      'reais' (real / reais — a unidade)
+    - 'até' (up to — para o limite R$1 / 100 centavos)
+    - 'igual a' (equal to — para mostrar equivalências:
+      'duas moedas de 50 centavos são iguais a um real')
+
+    Habilidade pedagógica determinante: contagem-por-
+    saltos brasileira. As crianças brasileiras do 2.º
+    ano EF aprendem contagem-por-saltos como parte do
+    trabalho de adição da BNCC (EF02MA05 contar de 2 em
+    2, 5 em 5, 10 em 10 a partir de qualquer número
+    natural). Este pacote aplica essa habilidade de
+    contagem-por-saltos a moedas: contar de 5 em 5 com
+    moedas de 5 centavos; de 10 em 10 com moedas de
+    10; de 25 em 25 com moedas de 25; de 50 em 50 com
+    moedas de 50. A contagem-por-saltos é universal no
+    currículo brasileiro K-2 + Grade 2; este pacote
+    surfaceiza a aplicação monetária da habilidade.
+
+    Estratégia de contagem: a contagem brasileira K-3
+    para múltiplas moedas segue a sequência:
+    1. Comece com as MAIORES moedas (50 centavos, depois
+       25 centavos)
+    2. Continue com as MÉDIAS (10 centavos)
+    3. Termine com as MENORES (5 centavos)
+    4. Some sequencialmente em voz alta
+    Esta ordem facilita a contagem cognitivamente — as
+    maiores moedas "ancoram" o total inicial, e as
+    menores apenas ajustam o valor final. Recapture
+    erros surgem mais frequentemente quando crianças
+    começam contando moedas pequenas primeiro + esquecem
+    de adicionar as maiores no final.
+
+    Combinações múltiplas para fazer R$1: pedagogicamente
+    importante surfaceizar várias combinações:
+    - 4 × 25 centavos = R$1
+    - 2 × 50 centavos = R$1
+    - 1 × 50 + 2 × 25 = R$1
+    - 1 × 50 + 5 × 10 = R$1
+    - 10 × 10 centavos = R$1
+    - 20 × 5 centavos = R$1
+    - 1 × 50 + 1 × 25 + 2 × 10 + 1 × 5 = R$1
+    - muitas outras combinações
+    A multiplicidade-de-combinações é conceitualmente
+    importante — as crianças aprendem que R$1 NÃO é uma
+    única coleção de moedas; é uma QUANTIA que pode ser
+    formada de muitas maneiras. Esta é a ponte para o
+    trabalho do 3.º + 4.º ano EF em equivalência +
+    troco.
+
+    Alinhamento BNCC: EF02MA20 (sistema monetário
+    brasileiro; reconhecer cédulas e moedas) é o anchor
+    direto. EF02MA05 (contagem-por-saltos) é o pré-
+    requisito habilidade. EF03MA24 ('Resolver problemas
+    com a comparação e a equivalência de valores
+    monetários do sistema brasileiro em situações de
+    compra, venda e troca') é a extensão BNCC do 3.º
+    ano. Este pacote (junto com pair partner identify-
+    coin-values) cobre o anchor EF02MA20 completo do
+    2.º ano EF.
+
+    Por §A.13.30 enquadramento informal K-3: este pacote
+    NÃO ensina troco (subtração monetária) ou
+    comparação de preços — apenas contagem de
+    combinações de moedas até R$1. Famílias brasileiras
+    às vezes perguntam por trabalho mais avançado
+    (cálculo de troco; comparação de preços de produtos);
+    o parent-take-home-letter explicita que o objetivo
+    do 2.º ano EF é a contagem fundamental, com
+    operações monetárias mais avançadas emergindo no
+    3.º + 4.º ano EF.
+
+    Pacote-parceiro identify-coin-values: completou o
+    reconhecimento de moedas (qual moeda + qual valor);
+    este pacote estende para contagem de combinações.
+    Juntos os dois pacotes formam o módulo de dinheiro
+    K-3 brasileiro. A sequência canônica de duas semanas
+    é: semana 1 = identify-coin-values; semana 2 =
+    recognize-money-amounts. Após esta sequência, as
+    crianças do 2.º ano EF têm a base completa de
+    matemática monetária do sistema brasileiro.
+
+    Saturação de sub-track: este pacote FECHA o sub-
+    track money do strand measurement em 2/2 SAT. Junto
+    com o sub-track tell-time canonical (SAT 3/3 no
+    Arc 18 P1.1 close), e os 4 outros sub-tracks
+    (length, weight, capacity, comparison-vocabulary —
+    cada um com seus próprios pacotes), o strand
+    measurement progride de modo coerente. O sub-track
+    money é estruturalmente o mais simples (apenas 2
+    targets) mas pedagogicamente um dos mais práticos
+    para o dia a dia infantil brasileiro.

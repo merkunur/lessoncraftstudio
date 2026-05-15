@@ -1,0 +1,296 @@
+# Teaching package — add two 2-digit numbers (pt sparse-override)
+# Arc 18 Phase 1.3 (21st-consecutive pt cadence per Arc 7+ convention). BR-MEC ensino-fundamental register; formal "você" address throughout. BNCC alignment: EF02MA06 (resolver e elaborar problemas de adição e de subtração, envolvendo números de até três ordens) + EF02MA07.
+
+targetSlug: add-2-digit-numbers
+language: pt
+
+title:
+  pt: "Adição de dois números de 2 algarismos — alinhar as dezenas e unidades"
+
+description:
+  pt: "Pacote de matemática para o 2.º ano do ensino fundamental, ensinando a habilidade canônica de adição de 2 algarismos + 2 algarismos: crianças somam pares de números de dois dígitos (45+23, 27+38, 56+44, 89+11) alinhando as colunas das DEZENAS e UNIDADES e somando coluna por coluna. Apoia-se no Arc 16 P1.1 add-within-100 (o objetivo mais amplo de fluência computacional dentro de 100); este pacote especificamente restringe aos casos 2-algarismos + 2-algarismos e enfatiza a estrutura de colunas de valor posicional que torna a adição de 2 algarismos sistemática. Ambos os casos com-reagrupamento (quando a soma das unidades é 10 ou mais e uma dezena é transportada para a coluna de dezenas) e sem-reagrupamento (quando a soma das unidades é menor que 10) são praticados. O strand de adição-subtração avança 11/14 → 12/14. Por §A.13.30 enquadramento informal K-3: a adição de 2 algarismos no 2.º ano é FLUÊNCIA COMPUTACIONAL ANCORADA NO VALOR POSICIONAL — crianças entendem POR QUE o procedimento de soma em coluna funciona (dezenas somam com dezenas porque são MESMO VALOR POSICIONAL; unidades com unidades; reagrupamento quando unidades transbordam porque 10 unidades = 1 dezena pela estrutura do valor posicional). NÃO domínio do algoritmo formal de adição em coluna (que é trabalho do 3.º ano em diante refinando para eficiência); o foco do 2.º ano é compreensão conceitual através de manipulativos + múltiplas estratégias + consciência do algoritmo padrão. Alinhamento BNCC: EF02MA06 + EF02MA07 (adição + propriedades de operações no 2.º ano EF). 5 exercícios + 7 materiais imprimíveis ao longo de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Introdução à adição em coluna de 2 algarismos com
+      toda a turma. Você escreve 45+23 verticalmente no
+      quadro com colunas de dezenas e unidades claramente
+      desenhadas (uma linha vertical separando dezenas e
+      unidades). "Hoje somamos DOIS NÚMEROS DE DOIS
+      ALGARISMOS. Alinhamos a coluna das DEZENAS e a
+      coluna das UNIDADES. 45 tem 4 DEZENAS e 5
+      UNIDADES. 23 tem 2 DEZENAS e 3 UNIDADES. Somamos
+      as UNIDADES primeiro: 5+3 = 8. Oito unidades, sem
+      necessidade de reagrupar. Depois as DEZENAS: 4+2 =
+      6 dezenas, que é 60. Então 45+23 = 68." Você
+      repete com 27+38 (PRECISA de reagrupamento —
+      unidades somam 15 = 1 dezena + 5 unidades; a 1
+      dezena vai para a coluna de dezenas; dezenas
+      somam 2+3+1 = 6 dezenas = 60; resultado 65). Depois
+      56+44 (reagrupamento de unidades para fazer
+      exatamente 100). Ênfase do padrão: "Quando vocês
+      somam números de 2 algarismos, SEMPRE alinhem a
+      coluna das DEZENAS e a coluna das UNIDADES. Somem
+      as UNIDADES primeiro. Se elas somam 10 ou mais,
+      REAGRUPEM — transportem a dezena. Depois somem as
+      DEZENAS, incluindo qualquer dezena transportada."
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de adição de 2
+      algarismos ancorada no valor posicional. Cada
+      dupla recebe um place-value-mat (uma folha-tapete
+      com coluna de DEZENAS à esquerda + coluna de
+      UNIDADES à direita) + manipulativos base-dez
+      (ten-sticks + ones-counters como recortes) + uma
+      folha de exercícios com 6 problemas (45+23, 27+38,
+      56+44, 64+15, 33+18, 78+22). A dupla se reveza: a
+      criança A constrói o primeiro número no place-
+      value-mat (45 = 4 ten-sticks na coluna de DEZENAS
+      + 5 ones-counters na coluna de UNIDADES); a
+      criança B constrói o segundo número (23 = 2 ten-
+      sticks + 3 ones-counters); juntas combinam as
+      colunas + verificam se precisa reagrupar (se a
+      coluna de unidades tem 10+ contadores, deslizem 10
+      ones-counters para formar um ten-stick e adicionem
+      à coluna de DEZENAS). Depois contam o total de
+      dezenas + total de unidades; escrevem a resposta.
+      Recapture erros com demonstração de reagrupamento
+      ("você tem 13 unidades na coluna de unidades —
+      isso é 1 dezena e 3 unidades. Tirem a dezena +
+      adicionem à coluna de dezenas."). O place-value-
+      mat físico + manipulativos base-dez são
+      determinantes — crianças que VEEM o reagrupamento
+      fisicamente entendem POR QUE o algoritmo de soma
+      em coluna funciona. Diversidade de estratégias:
+      crianças também podem usar decomposição (45+23 =
+      40+20+5+3 = 60+8 = 68) ou estratégias de contar-
+      adicionando; você aceita qualquer estratégia que
+      produza a resposta correta + se conecte ao
+      raciocínio de valor posicional.
+  scaffold:
+    body: |
+      Rotação por estações. Estação 1: atividade de
+      correspondência — combinar expressões de adição
+      de 2 algarismos (ex.: 45+23) às suas somas (68).
+      Estação 2: atividade chart-count — contar de 10
+      em 10 com números de 2 algarismos (10, 20, 30,
+      ..., 100). Estação 3: math-puzzle (parcela-em-
+      falta: 27+?=65; ?+38=65). Estação 4: math-
+      worksheet (prática de adição de 2 algarismos em
+      formato vertical com mistura de problemas com
+      reagrupamento + sem reagrupamento).
+  closure:
+    body: |
+      Recapitulação rápida de adição de 2 algarismos com
+      toda a turma. Você apresenta 5 problemas rápidos;
+      a turma responde coletivamente + identifica os
+      momentos de reagrupamento. "27+45?" (Turma
+      trabalha: 72; reagrupamento necessário.) "33+24?"
+      (57; sem reagrupamento.) "48+39?" (87;
+      reagrupamento necessário.) "60+30?" (90; sem
+      reagrupamento.) "55+45?" (100; reagrupamento faz
+      exatamente 100.) Você faz a pergunta de raciocínio
+      de valor posicional: "Por que alinhamos as
+      dezenas e unidades?" (Turma: porque adicionamos os
+      MESMOS VALORES POSICIONAIS juntos!) Aponte
+      adiante: "Hoje dominamos a adição de 2 + 2
+      algarismos com reagrupamento. A seguir
+      aprenderemos a mesma habilidade para SUBTRAÇÃO —
+      subtract-2-digit-numbers, com EMPRÉSTIMO (o
+      reverso do reagrupamento). Depois disso,
+      adicionaremos TRÊS números dentro de 20 (add-3-
+      numbers-within-20) — o ÚLTIMO alvo no nosso
+      strand de adição-subtração. Mais dois pacotes e
+      teremos FECHADO o trabalho de adição-subtração
+      para K-3!"
+
+assessmentCriteria:
+  pt: |
+    Ao fim da unidade de 1 semana:
+      - Computar adição de 2 + 2 algarismos corretamente
+        em 7 de 10 tentativas.
+      - Identificar momentos de reagrupamento + executar
+        reagrupamento corretamente em 6 de 8 problemas
+        que exigem transporte.
+      - Usar o place-value-mat + manipulativos base-dez
+        para construir números de 2 algarismos +
+        realizar adição em 6 de 8 tentativas.
+      - Usar pelo menos 2 estratégias de adição (ex.:
+        soma-em-coluna-com-reagrupamento + decomposição)
+        em 5 de 10 tentativas.
+      - Resolver problemas de parcela-em-falta (27+?=65)
+        em 5 de 10 tentativas.
+      - Usar o vocabulário 'dezenas' / 'unidades' /
+        'valor posicional' / 'reagrupar' / 'coluna' /
+        'dois algarismos' corretamente em 5 de 10
+        tentativas de produção verbal.
+
+    Diferenciação:
+    - Pré-escola: pular a adição de 2 algarismos;
+      revisar contagem + add-within-10 primeiro.
+    - Educação infantil (5-7 anos): introduzir números
+      de 2 algarismos + valor posicional (Arc 15
+      dezenas-e-unidades); adiar a adição de 2
+      algarismos para o 1.º ano+.
+    - 1.º ano: introduzir adição de 2-algarismos + 1-
+      algarismo (45+3); guardar 2-algarismos + 2-
+      algarismos para o 2.º ano.
+    - 2.º ano: domínio completo da adição de 2
+      algarismos + 2 algarismos com reagrupamento;
+      múltiplas estratégias praticadas; ponte para o
+      pacote-parceiro subtract-2-digit-numbers
+      (candidato Fase 1.4+).
+    - 3.º ano em diante: estender à adição de 3
+      algarismos; fluência mental de adição de 2
+      algarismos; ponte para eficiência do algoritmo
+      padrão sem apoio de manipulativos.
+
+compositionalRationale:
+  pt: |
+    Adaptação locale-específica do pacote canônico (en).
+    Os campos materials, composedExercises,
+    curriculumStandards e learningObjectives são herdados
+    do package.yaml via merge sparse-override e não são
+    repetidos aqui per a convenção Arc 7+.
+
+    Vocabulário pt-BR canônico para adição de 2
+    algarismos:
+    - 'algarismo' (digit) — pt-BR K-1 usa 'algarismo'
+      como termo canônico (vs 'dígito' que é registro
+      técnico)
+    - 'dezena' / 'dezenas' (ten / tens) — pt-BR
+      canônico para a posição decimal de dezenas
+    - 'unidade' / 'unidades' (one / ones) — pt-BR
+      canônico
+    - 'valor posicional' / 'posição' (place value)
+    - 'reagrupar' (regroup) — pt-BR canônico; pt-PT
+      pode preferir 'transportar' ou 'reagrupar'
+      similarmente
+    - 'somar' / 'adição' (to add / addition)
+    - 'parcela' (addend); 'soma' / 'total' (sum / total)
+    - 'coluna' (column) — para alinhamento vertical
+    - 'transportar' / 'vai-um' (carry) — pt-BR usa
+      ambos no registro escolar; 'vai-um' é
+      coloquial popular K-1
+
+    Convenção pt-BR vs pt-PT: ambas as variantes usam
+    'dezena' + 'unidade' identicamente. Algumas
+    pequenas divergências (pt-PT 'transportar' canônico;
+    pt-BR usa 'reagrupar' canonicamente em material
+    didático contemporâneo; ambos são compreendidos em
+    ambas variantes).
+
+    Particularidade pt-BR para nomes de números de 2
+    algarismos:
+    Pt-BR usa estrutura regular para números de 2
+    algarismos (a partir de 21):
+    - 21 = "vinte e um" (vinte + e + um)
+    - 35 = "trinta e cinco"
+    - 99 = "noventa e nove"
+    Estrutura: dezena-completa + "e" + unidade. SEMPRE
+    inclui o "e" conectivo (não como no espanhol que
+    elide: "veintiuno" → veint+uno; pt sempre mantém o
+    "e"). Esta estrutura é estável + fácil para K-1
+    EF brasileiro. Comparação:
+    - 21: en "twenty-one" / de "einundzwanzig" (REVERSO:
+      um-e-vinte) / pt "vinte e um" (igual a en em
+      ordem)
+    - 71: en "seventy-one" / fr "soixante-et-onze"
+      (sessenta-e-onze; vigesimal) / pt "setenta e um"
+      (regular)
+    Pt-BR + en são as variantes mais regulares para
+    números de 2 algarismos K-3; alemão tem reverso de
+    decade-unit; francês tem vigesimal a partir de 70+.
+
+    Alinhamento BNCC (Base Nacional Comum Curricular):
+    EF02MA06 ('Resolver e elaborar problemas de adição e
+    de subtração, envolvendo números de até três ordens,
+    com os significados de juntar, acrescentar, separar
+    e retirar, com o suporte de imagens e/ou material
+    manipulável, utilizando estratégias pessoais') é o
+    anchor BNCC direto para o trabalho do 2.º ano EF
+    em adição de 2 algarismos. EF02MA07 ('Resolver e
+    elaborar problemas de multiplicação cujos
+    resultados envolvam fatores até 5, com material
+    manipulável') é uma habilidade adjacente do 2.º
+    ano EF que se beneficia da fluência de adição de 2
+    algarismos.
+
+    Currículo brasileiro K-3 para valor posicional:
+    A BNCC brasileira EF estabelece valor posicional
+    no 1.º ano EF (EF01MA08 — comparação de números
+    naturais), introduzindo dezenas + unidades como
+    base para o trabalho de 2 algarismos. No 2.º ano
+    EF, EF02MA06 + EF02MA07 + EF02MA08 expandem o
+    valor posicional para 3 ordens (centenas-dezenas-
+    unidades). Este pacote (adição de 2 algarismos) é
+    a aplicação canônica do valor posicional de 2
+    ordens na operação de adição.
+
+    Material concreto: o place-value-mat (tapete de
+    valor posicional) com colunas DEZENAS + UNIDADES é
+    o material determinante. As crianças brasileiras
+    K-1 EF se beneficiam significativamente da
+    representação física de dezenas como ten-sticks +
+    unidades como ones-counters — o material manipulável
+    é canônico na pedagogia brasileira K-2 EF (BNCC
+    EF02MA06 explicita "com material manipulável" como
+    suporte pedagógico esperado). O place-value-mat
+    deste pacote (ainda com gerador DEFERIDO) substitui
+    o material físico tradicional (tapete de papel com
+    colunas) e o sistema de ten-sticks/ones-counters
+    canônico em escolas brasileiras.
+
+    Divergência interna documentada: este pacote
+    diverge do Arc 16 P1.1 add-within-100 na dimensão
+    do modo do manipulative-cut-outs (canonical-
+    correct `mode: variety` neste pacote vs `mode:
+    base-ten-blocks` no Arc 16 P1.1 — débito de dados
+    pré-correção §A.13.35). A divergência é
+    INTENCIONAL + OPERATOR-LOCKED per precedente Phase
+    1.2 Slot 2 (tell-time-to-quarter-hour) no Arc 18
+    Phase 0 §A.13.6 firings batch. Ver compositional-
+    Rationale.en para a documentação completa.
+
+    Por §A.13.30 enquadramento informal K-3: este
+    pacote NÃO ensina o algoritmo formal de coluna
+    como procedure-only (eficiência sem compreensão) —
+    ensina o algoritmo como APLICAÇÃO DO VALOR
+    POSICIONAL (eficiência com compreensão). Famílias
+    brasileiras às vezes perguntam por mais 'vai-um'
+    formal e menos manipulativos; o parent-take-home-
+    letter explicita que o objetivo do 2.º ano EF é a
+    compreensão conceitual + procedural, com
+    automaticidade emergindo no 3.º + 4.º ano EF.
+
+    Pacote-parceiro Arc 16 P1.1 add-within-100: junto
+    com este pacote, formam o par de pacotes de adição
+    canônica dentro de 100 do 2.º ano EF brasileiro.
+    Add-within-100 cobre fluência ampla (qualquer
+    adição dentro de 100); este pacote especifica o
+    caso canônico 2-algarismos + 2-algarismos com
+    ênfase na coluna de valor posicional. Trabalho
+    futuro inclui subtract-2-digit-numbers (candidato
+    Fase 1.4+) + add-3-numbers-within-20 (último alvo
+    canônico do strand addition-subtraction).
+
+    **CARRY-FORWARDS DE SUBSTRATO P2 per §A.13.32 sub-
+    doctrine (d):**
+    1. Gerador place-value-mat DEFERIDO (continuando o
+       carry-forward do Arc 16 + anteriores; afeta
+       este pacote E o pacote irmão add-within-100).
+    2. Substrato de imagem de vocabKey base-dez (ten-
+       stick + ones-counter no image library +
+       entradas em image-vocabulary.js) NÃO existe
+       ainda no Phase 1.3 ship. Criação de substrato é
+       adiada para o ciclo de fechamento P2 do Pillar
+       5 per §A.13.38 decoupled-ship discipline. Este
+       é um NOVO carry-forward no Arc 18 P1.3
+       (alongside the existing carry-forwards: currency
+       substrate from P1.2 + materials substrate from
+       Slot 4 this commission).
+    3. Arc 16 P1.1 add-within-100 mode-correção (mode:
+       base-ten-blocks → mode: variety) adicionado à
+       fila de retro-fix alongside Arc 17 P1.4 tell-
+       time pair retro-fix.

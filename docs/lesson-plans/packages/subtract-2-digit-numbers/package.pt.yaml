@@ -1,0 +1,333 @@
+# Teaching package — subtract two 2-digit numbers (pt sparse-override)
+# Arc 18 Phase 1.4 (22nd-consecutive pt cadence per Arc 7+ convention). BR-MEC ensino-fundamental register; formal "você" address throughout. BNCC alignment: EF02MA06 (resolver e elaborar problemas de adição e subtração, envolvendo números de até três ordens) — BNCC Matemática Anos Iniciais. Pair-package partner of add-2-digit-numbers (Arc 18 P1.3); together cobrem operações canônicas Grade 2 de 2-algarismos + 2-algarismos.
+
+targetSlug: subtract-2-digit-numbers
+language: pt
+
+title:
+  pt: "Subtração de dois números de 2 algarismos — alinhar dezenas e unidades, emprestar quando preciso"
+
+description:
+  pt: "Pacote de matemática para o 2.º ano do ensino fundamental, ensinando a habilidade canônica de subtração de 2 algarismos - 2 algarismos: crianças subtraem pares de números de dois dígitos (54-23, 62-37, 80-45, 100-29) alinhando as colunas das DEZENAS e UNIDADES e subtraindo coluna por coluna. Apoia-se DIRETAMENTE no Arc 18 Fase 1.3 add-2-digit-numbers (a operação inversa; este pacote espelha a estrutura de add-2-digit-numbers exatamente com subtração substituindo adição). Apoia-se no Arc 16 P1.1 subtract-within-100 (objetivo mais amplo de fluência computacional dentro de 100); este pacote especificamente restringe aos casos 2-algarismos - 2-algarismos e enfatiza a estrutura de colunas de valor posicional além da mecânica do EMPRÉSTIMO (o inverso do reagrupamento/transporte da adição). Ambos os casos com-empréstimo (quando a unidade do número de cima é menor que a unidade do número de baixo, exigindo emprestar da coluna de dezenas) e sem-empréstimo (quando a unidade de cima ≥ unidade de baixo) são praticados. O strand de adição-subtração avança 12/14 → 13/14 (1 alvo restante: add-3-numbers-within-20). Por §A.13.30 enquadramento informal K-3: a subtração de 2 algarismos no 2.º ano é FLUÊNCIA COMPUTACIONAL ANCORADA NO VALOR POSICIONAL — crianças entendem POR QUE o procedimento de empréstimo funciona (nós 'emprestamos' uma dezena tirando-a fisicamente da coluna de dezenas e convertendo-a em 10 unidades na coluna de unidades; isso funciona pela estrutura do valor posicional: 10 unidades = 1 dezena). NÃO domínio do algoritmo formal de subtração em coluna (que é trabalho do 3.º ano em diante refinando para eficiência); o foco do 2.º ano é compreensão conceitual através de manipulativos + múltiplas estratégias + consciência do algoritmo padrão. Alinhamento BNCC: EF02MA06 (resolver problemas de adição + subtração de até 3 ordens com material manipulável). 5 exercícios + 7 materiais imprimíveis ao longo de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Introdução à subtração em coluna de 2 algarismos com
+      toda a turma. Você escreve 54-23 verticalmente no
+      quadro com colunas de dezenas e unidades claramente
+      desenhadas. "Hoje SUBTRAÍMOS DOIS NÚMEROS DE DOIS
+      ALGARISMOS. Alinhamos a coluna das DEZENAS e a
+      coluna das UNIDADES — igual ao que fizemos para
+      ADICIONAR números de 2 algarismos na semana
+      passada, só que com MENOS em vez de MAIS. 54 tem 5
+      DEZENAS e 4 UNIDADES. 23 tem 2 DEZENAS e 3
+      UNIDADES. Subtraímos as UNIDADES primeiro: 4-3 = 1.
+      Uma unidade, sem necessidade de emprestar. Depois
+      as DEZENAS: 5-2 = 3 dezenas, que é 30. Então 54-23
+      = 31." Você repete com 62-37 (PRECISA de empréstimo
+      — coluna de unidades 2-7 não funciona porque 2 é
+      menor que 7; emprestar 1 dezena da coluna de
+      dezenas, convertendo-a em 10 unidades; coluna de
+      unidades vira 12-7 = 5; coluna de dezenas era 6,
+      agora 5 depois do empréstimo; 5-3 = 2 dezenas;
+      resultado 25). Depois 80-45 (empréstimo através de
+      um zero; coluna de unidades 0-5 não funciona;
+      emprestar da coluna de dezenas, fazendo 7 dezenas
+      + 10 unidades; subtrair; resultado 35). Ênfase do
+      padrão: "Quando vocês subtraem números de 2
+      algarismos, SEMPRE alinhem a coluna das DEZENAS e
+      a coluna das UNIDADES. Subtraiam as UNIDADES
+      primeiro. Se a unidade de cima é MENOR que a
+      unidade de baixo, EMPRESTEM — peguem 1 dezena da
+      coluna de dezenas e transformem em 10 unidades.
+      Depois subtraiam as DEZENAS, lembrando que vocês
+      têm UMA DEZENA A MENOS porque emprestaram."
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de subtração de 2
+      algarismos ancorada no valor posicional. Cada dupla
+      recebe um place-value-mat (uma folha-tapete com
+      coluna de DEZENAS à esquerda + coluna de UNIDADES
+      à direita) + manipulativos base-dez (ten-sticks +
+      ones-counters como recortes) + uma folha de
+      exercícios com 6 problemas (54-23, 62-37, 80-45,
+      75-31, 91-58, 100-29). A dupla se reveza: a
+      criança A constrói o número de cima no place-value-
+      mat (54 = 5 ten-sticks na coluna de DEZENAS + 4
+      ones-counters na coluna de UNIDADES); a criança B
+      fisicamente RETIRA o número de baixo do tapete
+      (subtrair 23 = retirar 2 ten-sticks + retirar 3
+      ones-counters). Quando empréstimo é necessário, as
+      crianças fisicamente deslizam um ten-stick para
+      fora da coluna de dezenas + trocam por 10 ones-
+      counters que adicionam à coluna de unidades ("nós
+      EMPRESTAMOS uma dezena — agora temos 10 unidades a
+      mais para subtrair"). Depois contam dezenas
+      restantes + unidades restantes; escrevem a
+      resposta. Recapture erros com demonstração de
+      empréstimo ("você tem 2 unidades na coluna de
+      unidades mas precisa subtrair 7 — você não pode
+      tirar 7 de 2. Empreste uma dezena: deslize um
+      ten-stick para fora da coluna de dezenas + traga
+      10 ones-counters para a coluna de unidades. Agora
+      você tem 12 unidades — o suficiente para subtrair
+      7."). O place-value-mat físico + manipulativos
+      base-dez + a TROCA de uma-dezena-por-dez-unidades
+      é a pedagogia determinante — crianças que VEEM o
+      empréstimo fisicamente entendem POR QUE o
+      procedimento de empréstimo funciona (não é mágica;
+      é o inverso do reagrupamento que as crianças
+      aprenderam em add-2-digit-numbers). Diversidade de
+      estratégias: as crianças também podem usar
+      decomposição (54-23 = 50+4-20-3 = 30+1 = 31),
+      contar-para-baixo, ou contar-para-cima-do-fundo-
+      ao-topo; você aceita qualquer estratégia que
+      produza a resposta correta + se conecte ao
+      raciocínio de valor posicional.
+  scaffold:
+    body: |
+      Rotação por estações. Estação 1: atividade de
+      correspondência — combinar expressões de subtração
+      de 2 algarismos (ex.: 54-23) às suas diferenças
+      (31). Estação 2: atividade chart-count — contar
+      DE TRÁS PARA FRENTE de 10 em 10 com números de 2
+      algarismos (100, 90, 80, ..., 10). Estação 3:
+      math-puzzle (subtraendo-em-falta: 54-?=31; ?-23=
+      31). Estação 4: math-worksheet (prática de
+      subtração de 2 algarismos em formato vertical com
+      mistura de problemas com empréstimo + sem
+      empréstimo, incluindo casos de empréstimo-através-
+      do-zero como 100-29).
+  closure:
+    body: |
+      Recapitulação rápida de subtração de 2 algarismos
+      com toda a turma + nota de avanço do strand. Você
+      apresenta 5 problemas rápidos; a turma responde
+      coletivamente + identifica os momentos de
+      empréstimo. "54-21?" (Turma trabalha: 33; sem
+      empréstimo.) "63-28?" (35; empréstimo necessário.)
+      "80-37?" (43; empréstimo necessário.) "99-50?"
+      (49; sem empréstimo.) "100-44?" (56; empréstimo
+      através do zero.) Você faz a pergunta de
+      raciocínio de valor posicional: "Por que
+      EMPRESTAMOS da coluna de dezenas quando a coluna
+      de unidades não tem o suficiente?" (Turma: porque
+      1 dezena = 10 unidades! Não estamos criando
+      números novos; estamos TROCANDO uma dezena por
+      dez unidades, mesmo valor total!) Aponte adiante:
+      "Hoje dominamos a subtração de 2 + 2 algarismos
+      com empréstimo. Agora conhecemos AMBAS as
+      operações com números de 2 algarismos — adição
+      com reagrupamento (transporte) E subtração com
+      empréstimo (o inverso). Temos UM alvo a mais no
+      nosso strand de adição-subtração: add-3-numbers-
+      within-20 (somar TRÊS números pequenos como
+      4+5+6 = 15). Depois disso, teremos FECHADO o
+      trabalho de adição-subtração para K-3 — 14 de 14
+      alvos PRONTOS!"
+
+assessmentCriteria:
+  pt: |
+    Ao fim da unidade de 1 semana:
+      - Computar subtração de 2 - 2 algarismos
+        corretamente em 7 de 10 tentativas.
+      - Identificar momentos de empréstimo + executar
+        empréstimo corretamente em 6 de 8 problemas que
+        exigem empréstimo.
+      - Usar o place-value-mat + manipulativos base-dez
+        para construir números de 2 algarismos +
+        realizar subtração com troca física de uma-
+        dezena-por-dez-unidades em 6 de 8 tentativas.
+      - Usar pelo menos 2 estratégias de subtração
+        (ex.: subtrair-em-coluna-com-empréstimo +
+        decomposição ou contar-para-cima-do-fundo) em 5
+        de 10 tentativas.
+      - Resolver problemas de subtraendo-em-falta
+        (54-?=31) em 5 de 10 tentativas.
+      - Usar o vocabulário 'dezenas' / 'unidades' /
+        'valor posicional' / 'emprestar' / 'diferença' /
+        'menos' / 'subtrair' / 'dois algarismos'
+        corretamente em 5 de 10 tentativas de produção
+        verbal.
+
+    Diferenciação:
+    - Pré-escola: pular a subtração de 2 algarismos;
+      revisar contagem + subtract-within-10 primeiro.
+    - Educação infantil (5-7 anos): introduzir números
+      de 2 algarismos + valor posicional (Arc 15
+      dezenas-e-unidades); adiar a subtração de 2
+      algarismos para o 1.º ano+.
+    - 1.º ano: introduzir subtração de 2-algarismos -
+      1-algarismo (45-3); guardar 2-algarismos - 2-
+      algarismos para o 2.º ano.
+    - 2.º ano: domínio completo da subtração de 2
+      algarismos - 2 algarismos com empréstimo;
+      múltiplas estratégias praticadas; ponte para o
+      pacote-parceiro add-2-digit-numbers (já lançado
+      Fase 1.3); ponte de fechamento de strand para
+      add-3-numbers-within-20 (candidato Fase 1.5+;
+      alvo final do strand de adição-subtração).
+    - 3.º ano em diante: estender à subtração de 3
+      algarismos; fluência mental de subtração de 2
+      algarismos; ponte para eficiência do algoritmo
+      padrão sem apoio de manipulativos; estender a
+      problemas de palavra de múltiplos passos
+      envolvendo subtração.
+
+compositionalRationale:
+  pt: |
+    Adaptação locale-específica do pacote canônico (en).
+    Os campos materials, composedExercises,
+    curriculumStandards e learningObjectives são herdados
+    do package.yaml via merge sparse-override e não são
+    repetidos aqui per a convenção Arc 7+.
+
+    Vocabulário pt-BR canônico para subtração de 2
+    algarismos:
+    - 'algarismo' (digit) — pt-BR K-1 usa 'algarismo'
+      como termo canônico (vs 'dígito' que é registro
+      técnico)
+    - 'dezena' / 'dezenas' (ten / tens) — pt-BR
+      canônico para a posição decimal de dezenas
+    - 'unidade' / 'unidades' (one / ones) — pt-BR
+      canônico
+    - 'valor posicional' / 'posição' (place value)
+    - 'subtrair' / 'subtração' (to subtract /
+      subtraction) — pt-BR canônico
+    - 'menos' (minus) — operador de subtração
+    - 'diferença' (difference) — resultado da subtração
+    - 'minuendo' (minuend) — número de cima; pt-BR
+      escolar canônico
+    - 'subtraendo' (subtrahend) — número de baixo;
+      pt-BR escolar canônico
+    - 'emprestar' (borrow) — pt-BR escolar canônico
+      para a operação de pegar uma dezena e converter
+      em 10 unidades
+    - 'desagrupar' (regroup-down/borrow) — alternativa
+      pt-BR mais técnica; usada em material didático
+      contemporâneo
+    - 'tirar' (take away) — registro pt-BR coloquial
+      K-1 popular (mais informal que 'subtrair')
+
+    Convenção pt-BR vs pt-PT: ambas as variantes usam
+    'dezena' + 'unidade' identicamente. Algumas
+    pequenas divergências (pt-PT pode preferir 'tirar'
+    coloquialmente; pt-BR usa tanto 'subtrair' quanto
+    'tirar' alternadamente em registro K-1).
+
+    Particularidade pt-BR para nomes de números de 2
+    algarismos:
+    Pt-BR usa estrutura regular para números de 2
+    algarismos (a partir de 21 — mesma estrutura de
+    add-2-digit-numbers; reuso da convenção):
+    - 21 = "vinte e um" (vinte + e + um)
+    - 35 = "trinta e cinco"
+    - 99 = "noventa e nove"
+    Estrutura: dezena-completa + "e" + unidade. Isso é
+    estável + fácil para K-1 EF brasileiro tanto para
+    adição quanto para subtração.
+
+    Alinhamento BNCC (Base Nacional Comum Curricular):
+    EF02MA06 ('Resolver e elaborar problemas de adição
+    e de subtração, envolvendo números de até três
+    ordens, com os significados de juntar, acrescentar,
+    separar e retirar, com o suporte de imagens e/ou
+    material manipulável, utilizando estratégias
+    pessoais') é o anchor BNCC direto para o trabalho
+    do 2.º ano EF em subtração de 2 algarismos. Os
+    significados 'separar' + 'retirar' do EF02MA06
+    cobrem especificamente a operação de subtração
+    (em contraste com 'juntar' + 'acrescentar' que
+    cobrem adição — pacote-parceiro add-2-digit-
+    numbers). Junto, add-2-digit-numbers + subtract-
+    2-digit-numbers cobrem o anchor EF02MA06 em sua
+    totalidade (todos os 4 significados: juntar,
+    acrescentar, separar, retirar).
+
+    Currículo brasileiro K-3 para subtração de 2
+    algarismos: A BNCC brasileira EF estabelece a
+    operação de subtração no 1.º ano EF (EF01MA06 —
+    construir fatos básicos da adição e subtração com
+    números de 1 algarismo) e expande para subtração
+    com 2-3 ordens no 2.º ano EF (EF02MA06). Este
+    pacote (subtração de 2 algarismos) é a aplicação
+    canônica do valor posicional de 2 ordens na
+    operação de subtração.
+
+    Material concreto: o place-value-mat com colunas
+    DEZENAS + UNIDADES é o material determinante para
+    SUBTRAÇÃO assim como foi para ADIÇÃO no pacote-
+    parceiro. As crianças brasileiras K-1 EF se
+    beneficiam significativamente da representação
+    física da TROCA de uma-dezena-por-dez-unidades —
+    o material manipulável é canônico na pedagogia
+    brasileira K-2 EF para empréstimo (BNCC EF02MA06
+    explicita "com material manipulável" como suporte
+    pedagógico esperado). A operação de empréstimo é
+    historicamente difícil para crianças K-1
+    brasileiras quando ensinada apenas como
+    procedimento simbólico ("traz um", "pega
+    emprestado"); o material manipulável surface o
+    POR QUE da operação (que é a equivalência
+    posicional 10 unidades = 1 dezena).
+
+    Divergência interna documentada: este pacote
+    diverge do Arc 16 P1.1 subtract-within-100 na
+    dimensão do modo do manipulative-cut-outs
+    (canonical-correct `mode: variety` neste pacote vs
+    `mode: base-ten-blocks` no Arc 16 P1.1 — débito de
+    dados pré-correção §A.13.35). A divergência é
+    INTENCIONAL + OPERATOR-LOCKED per precedente Phase
+    1.3 Slot 3 add-2-digit-numbers (que canonicalizou
+    este padrão para o par add+subtract). Ver
+    compositionalRationale.en para a documentação
+    completa.
+
+    Por §A.13.30 enquadramento informal K-3: este
+    pacote NÃO ensina o algoritmo formal de coluna
+    como procedure-only (eficiência sem compreensão) —
+    ensina o algoritmo como APLICAÇÃO DO VALOR
+    POSICIONAL com TROCA-DE-EQUIVALÊNCIA (eficiência
+    com compreensão). Famílias brasileiras às vezes
+    perguntam por mais 'pega emprestado' formal e
+    menos manipulativos; o parent-take-home-letter
+    explicita que o objetivo do 2.º ano EF é a
+    compreensão conceitual + procedural, com
+    automaticidade emergindo no 3.º + 4.º ano EF.
+
+    Pacote-parceiro Arc 18 Fase 1.3 add-2-digit-
+    numbers: este pacote ESPELHA add-2-digit-numbers
+    em todas as dimensões (mesmo materials list, mesmo
+    tema, mesma configuração de place-value-mat,
+    mesma configuração de manipulative-cut-outs, mesma
+    forma de composedExercises com 'subtraction'
+    substituindo 'addition' + 'missing-subtrahend'
+    substituindo 'missing-addend'). Junto, o par cobre
+    operações canônicas Grade 2 de 2-algarismos + 2-
+    algarismos. Trabalho futuro inclui add-3-numbers-
+    within-20 (último alvo canônico do strand
+    addition-subtraction; candidato Fase 1.5+).
+
+    **CARRY-FORWARDS DE SUBSTRATO P2 per §A.13.32 sub-
+    doctrine (d):**
+    1. Gerador place-value-mat DEFERIDO (continuando o
+       carry-forward; afeta este pacote E o pacote
+       irmão add-2-digit-numbers E ambos os pacotes
+       within-100 — 4 pacotes compartilham o gap).
+    2. Substrato de imagem de vocabKey base-dez (ten-
+       stick + ones-counter no image library +
+       entradas em image-vocabulary.js) NÃO existe
+       ainda no Phase 1.4 ship. **Este pacote
+       COMPARTILHA o substrato-gap base-dez com o seu
+       pacote-parceiro add-2-digit-numbers** (Arc 18
+       P1.3 carry-forward). Criação de substrato no
+       fechamento P2 cobre AMBOS os pacotes em uma
+       única ação (mesmas 2 vocabKeys, mesmas
+       necessidades de imagem).
+    3. Arc 16 P1.1 subtract-within-100 mode-correção
+       (mode: base-ten-blocks → mode: variety)
+       adicionado à fila de retro-fix alongside
+       add-within-100 + Arc 17 P1.4 tell-time pair
+       retro-fix — **fila de retro-fix agora tem 4
+       pacotes**.

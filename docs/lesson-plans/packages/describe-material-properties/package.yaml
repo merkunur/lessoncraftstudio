@@ -1,0 +1,482 @@
+# Teaching package — describe material properties (hard/soft, smooth/rough, flexible/rigid, transparent/opaque)
+# Arc 18 Phase 1.4 (world-knowledge / materials-and-properties — STRAND-SAT-CLOSING 1/2 → 2/2). 18th parent-class strand SATISFIED. Pair partner of Arc 18 Phase 1.3 identify-common-materials (the 1st canonical target in the strand). Together the pair saturates materials-and-properties at 2/2 SAT.
+
+targetSlug: describe-material-properties
+language: en
+title:
+  en: "Hard or Soft? Smooth or Rough? — describe material properties"
+
+description:
+  en: "Kindergarten / Grade 1 world-knowledge package teaching kids to DESCRIBE the observable PROPERTIES of common materials they have already learned to identify (Arc 18 Phase 1.3 identify-common-materials prerequisite). Property pairs introduced: HARD vs SOFT (a wooden block is HARD; a fabric pillow is SOFT), SMOOTH vs ROUGH (glass is SMOOTH; bark is ROUGH), FLEXIBLE vs RIGID (paper bends — FLEXIBLE; metal does not bend easily — RIGID), TRANSPARENT vs OPAQUE (glass lets light through — TRANSPARENT; wood blocks light — OPAQUE). Builds DIRECTLY on identify-common-materials (kids who can identify the 6 canonical materials — wood, plastic, metal, paper, fabric, glass — now describe what those materials FEEL LIKE and LOOK LIKE). STRAND-SAT-CLOSING package: completes world-knowledge / materials-and-properties at 2/2 SAT (the 18th parent-class strand SATISFIED in the catalog; final zero-coverage strand in world-knowledge domain closes). Per §A.13.30 K-1-informal framing: K material-property work is OBSERVABLE-PROPERTY description (kid touches a material → kid names a property word from a small canonical vocabulary set). NOT formal materials-property classification (NGSS 2-PS1-1 'Plan and conduct an investigation to describe and classify different kinds of materials by their observable properties' — that's Grade 2+ work that builds on this K-level property-vocabulary foundation). NGSS K-PS3 informal anchor (kindergarten energy + property work bridges to Grade 2 materials-property investigation). 5 worksheet exercises + 7 printable materials over a 1-week unit. Load-bearing material: manipulative-cut-outs with `mode: variety` enumerating the same 6 material-type vocabKeys as identify-common-materials (wood, plastic, metal, paper, fabric, glass) — kids physically handle cut-outs of each material category and describe what they feel + see. Sentence-strips at position 4 with framePreset 'this-is-a' carrying property-anchor frames ('this wood is hard', 'this fabric is soft', 'this glass is smooth')."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class property-introduction with hands-on material
+      handling. Teacher displays 6 everyday classroom objects, one
+      per material from the identify-common-materials work: wooden
+      block (wood); plastic cup (plastic); metal spoon (metal);
+      paper sheet (paper); fabric scarf (fabric); glass jar (glass).
+      Teacher passes one object around the circle: "Touch the
+      wooden block. How does it FEEL? HARD! Can you bend it? NO —
+      wood is RIGID. The wood does not bend." Repeats with each
+      material introducing property pairs: plastic ("HARD or SOFT?
+      HARD! Smooth or rough? SMOOTH! Can you bend it a little?
+      Yes — plastic is FLEXIBLE."), metal ("HARD! SMOOTH! RIGID!
+      Cold to touch."), paper ("Soft? It's THIN — can you bend
+      it? YES, very FLEXIBLE. Can you tear it? Yes — paper TEARS
+      easily."), fabric ("SOFT! VERY FLEXIBLE — fabric folds and
+      bends! Smooth? Some fabrics smooth, some rough."), glass
+      ("HARD! SMOOTH! And — can you SEE THROUGH it? YES — glass
+      is TRANSPARENT. Light goes through glass."). Pattern
+      emphasis: "Every material has PROPERTIES we can observe.
+      Properties tell us WHY each material is used the way it is.
+      Today we learn 4 property pairs: HARD vs SOFT; SMOOTH vs
+      ROUGH; FLEXIBLE vs RIGID; TRANSPARENT vs OPAQUE."
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + property-description routine. Each pair receives
+      a property-description tray with 6 small objects (one per
+      material: wood block, plastic chip, metal washer, paper
+      square, fabric swatch, glass marble) + 8 property cards
+      (HARD, SOFT, SMOOTH, ROUGH, FLEXIBLE, RIGID, TRANSPARENT,
+      OPAQUE). Pair takes turns: kid A picks an object; kid B
+      touches the object + names 2 properties out loud + places
+      the matching property cards next to the object. Both kids
+      say: "This [material] is [property] and [property]." Recast
+      errors with side-by-side comparison ("you said the paper is
+      RIGID — but watch, when I push it, it BENDS. So paper is
+      FLEXIBLE. Metal is RIGID — see how the metal washer doesn't
+      bend even when I push hard."). Optional extension: pair
+      walks around the classroom + finds one object showing each
+      property; report back with "I found a [object] that is
+      [property]." Teacher note: K kids sometimes confuse
+      flexible/soft (both feel "give-y" but flexible means BENDS-
+      WITHOUT-BREAKING while soft means SQUISHES-WHEN-PRESSED) and
+      smooth/transparent (both feel like "no bumps" but smooth is
+      TEXTURE while transparent is SEE-THROUGH). Explicit side-by-
+      side property-comparison work supports disambiguation. Some
+      objects show MULTIPLE properties (a glass marble is HARD +
+      SMOOTH + TRANSPARENT — three properties at once!) — for K
+      work, name 1-2 properties per object initially; build to
+      multi-property descriptions by Grade 1.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching activity — match each
+      property word (HARD, SOFT, SMOOTH, ROUGH, FLEXIBLE, RIGID,
+      TRANSPARENT, OPAQUE) to a picture of an object showing that
+      property. Station 2: picture-sort activity — sort object
+      cards into property-pair bins (HARD bin vs SOFT bin; SMOOTH
+      bin vs ROUGH bin); surfaces the property-binary-classification
+      skill. Station 3: odd-one-out — find the object that does
+      NOT show the named property (3 hard objects + 1 soft object;
+      kid identifies the soft-out-of-place). Station 4: matching
+      activity at consolidation (object image to property word
+      pair; reinforces the canonical material-property pairing).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class property-recall + strand-closure celebration.
+      Teacher names everyday objects; class chorally identifies
+      one property of each. "Pillow? SOFT! Window? TRANSPARENT!
+      Tree bark? ROUGH! Coin? HARD! Newspaper? FLEXIBLE! Brick
+      wall? RIGID! Mirror? SMOOTH! Curtain? SOFT and FLEXIBLE!"
+      Teacher then poses property-reasoning questions: "WHY are
+      windows made of GLASS?" (Class: because glass is
+      TRANSPARENT — light comes in!) "WHY are blankets made of
+      FABRIC?" (Class: because fabric is SOFT — comfortable for
+      sleeping!) "WHY are forks made of METAL?" (Class: because
+      metal is HARD and RIGID — won't break or bend!) Forward-
+      pointer: "Today we CLOSED our materials work! We learned
+      what materials are made of (last time) AND what properties
+      each material has (today). Now we know WHY each material
+      is used the way it is — windows GLASS for transparency,
+      blankets FABRIC for softness, forks METAL for hardness.
+      When we look at any object now, we can ask TWO questions:
+      'What is it MADE OF?' and 'What PROPERTIES does that
+      material have?' That's how scientists think about
+      materials. When we come back to materials work in Grade
+      2, we'll do INVESTIGATIONS — testing materials to see
+      which floats, which is magnetic, which is waterproof.
+      Today we built the foundation; investigations come next."
+
+composedExercises:
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: animals, rightCategoryThemeSelect: vehicles, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: miscellaneous, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: vehicles, rightCategoryThemeSelect: fruits, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: odd-one-out
+    exerciseMode: unified
+    customizationParameters: { themeSelect: miscellaneous, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: miscellaneous, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys:
+        - wood
+        - plastic
+        - metal
+        - paper
+        - fabric
+        - glass
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys:
+        - wood
+        - plastic
+        - metal
+        - paper
+        - fabric
+        - glass
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys:
+        - wood
+        - plastic
+        - metal
+        - paper
+        - fabric
+        - glass
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: vocabKeyList
+      vocabKeys:
+        - wood
+        - plastic
+        - metal
+        - paper
+        - fabric
+        - glass
+      stripCount: 12
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys:
+        - wood
+        - plastic
+        - metal
+        - paper
+        - fabric
+        - glass
+      mode: variety
+      itemCount: 4
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: vocabKeyList
+      vocabKeys:
+        - wood
+        - plastic
+        - metal
+        - paper
+        - fabric
+        - glass
+      pictureCueCount: 6
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: world-knowledge / materials-and-
+    properties (describe material properties — STRAND-
+    SAT-CLOSING 1/2 → 2/2). 18TH PARENT-CLASS STRAND
+    SATISFIED in the catalog. Final canonical fill in
+    the materials-and-properties strand; pairs with Arc
+    18 Phase 1.3 identify-common-materials (the 1st
+    canonical target — material identification) which
+    opened the strand.
+
+    Secondary strand: vocabulary-acquisition (property-
+    vocabulary: hard/soft, smooth/rough, flexible/rigid,
+    transparent/opaque — 8 property words organized into
+    4 binary pairs). Tertiary strand: scientific-
+    reasoning + property-classification (kids reason
+    about WHY materials are used the way they are based
+    on observable properties; foundation for Grade 2+
+    materials-property investigation work).
+
+    Architectural significance: SAT-CLOSES the world-
+    knowledge / materials-and-properties strand at 2/2.
+    Per learning-targets.json the strand has 2 canonical
+    targets; Arc 18 Phase 1.3 opened the strand to 1/2
+    via identify-common-materials; this Phase 1.4
+    package closes the strand at 2/2 SAT. **18th
+    parent-class strand SATISFIED in the catalog**
+    (advances aggregate strand-saturation 17/30 → 18/30
+    = 60.0%). Closes the LAST partial-coverage strand
+    in the world-knowledge domain — world-knowledge
+    domain advances from 4/6 SAT to 5/6 SAT (only PSED
+    remains partial in world-knowledge after Phase 1.4
+    closes; PSED is Slot 4 of this same Phase 1.4
+    advancing 3/8 → 4/8).
+
+    Pair-coherent extension of identify-common-materials:
+    that package taught the 6-material identification
+    foundation (kids learn WOOD / PLASTIC / METAL /
+    PAPER / FABRIC / GLASS as a closed canonical
+    vocabulary set; identify which material an object
+    is made of by SEEING + TOUCHING). This package
+    EXTENDS the identification work to property
+    description (kids who can identify materials now
+    describe their observable properties). The cognitive
+    progression: things → living-vs-non-living (Arc 11)
+    → for-non-living-things-what-material (Arc 18 P1.3)
+    → for-each-material-what-properties (THIS PACKAGE).
+    Each step builds on the prior; this package
+    completes the K-1 materials-science arc.
+
+    Per §A.13.30 K-1-informal framing: K material-
+    property work is CONCRETE OBSERVABLE-PROPERTY
+    DESCRIPTION (kid touches material → kid names
+    property word from 8-vocabulary set organized into
+    4 binary pairs). The 8-property vocabulary
+    (hard/soft, smooth/rough, flexible/rigid,
+    transparent/opaque) is deliberately the K-1
+    foundational set; some properties (magnetic,
+    elastic, conductive, water-absorbing, malleable)
+    are out-of-scope at K for vocabulary-load reasons.
+    The 4 property-pair structure is pedagogically
+    chosen because BINARY OPPOSITES are easier for K
+    kids to grasp than continuous scales (kids can
+    classify HARD-vs-SOFT before they can classify
+    HARDER-OR-SOFTER). Formal materials-property
+    investigation (NGSS 2-PS1-1 'Plan and conduct an
+    investigation to describe and classify different
+    kinds of materials by their observable properties')
+    is Grade 2+ work that builds on this K-level
+    property-vocabulary foundation. Grade 2 work shifts
+    from VOCABULARY (this package) to INVESTIGATION
+    (designing experiments to test which materials
+    float, which are magnetic, which are transparent).
+
+    Distinctive composition: 2 picture-sort exercises +
+    2 matching exercises + 1 odd-one-out. **Same
+    composition shape as Arc 18 P1.3 identify-common-
+    materials precedent + Arc 11 identify-living-vs-
+    nonliving precedent** — picture-sort + matching +
+    odd-one-out triad is the canonical K-level
+    classification-pedagogy app set. Pair-package
+    composition coherence with identify-common-
+    materials is intentional: same exercise shape lets
+    kids transfer their identification skills directly
+    to property-description without learning new
+    exercise mechanics.
+
+    Materials note: 7-material World-knowledge class
+    stack per §A.13.37. **Pair-coherent with Arc 18
+    P1.3 identify-common-materials precedent on every
+    materials-list dimension** (flashcards + picture-
+    cards + matching-mat + sentence-strips +
+    manipulative-cut-outs + parent-take-home-letter +
+    answer-key; NO vocabulary-tracing-strips per
+    World-knowledge 7 vs Numeracy/Literacy 8 class
+    distinction). Sentence-strips at position 4 with
+    framePreset 'this-is-a' (property-anchor frames:
+    "This wood is hard. This fabric is soft. This glass
+    is smooth.") — same framePreset as identify-common-
+    materials; the frame structure accommodates BOTH
+    material-naming AND property-description work via
+    the same "this is X" template. Manipulative-cut-
+    outs at position 5 emits canonical-correct
+    `mode: variety` with vocabKey enumeration of the
+    SAME 6 material-type vocabKeys as identify-common-
+    materials (wood, plastic, metal, paper, fabric,
+    glass) at itemCount 4. **The vocabKey set is
+    deliberately identical to the pair package** — kids
+    handle the same physical cut-outs they used in
+    identify-common-materials, this time describing
+    properties rather than naming materials. This
+    surfaces the cognitive-continuity intent: same
+    materials, deeper observation. The §A.13.35 mode-
+    correct shape inherits cleanly from Phase 1.3
+    precedent.
+
+    **SUBSTRATE CARRY-FORWARD TO P2 per §A.13.32 sub-
+    doctrine (d) generator-executability:**
+    The vocabKey image substrate (wood / plastic /
+    metal / paper / fabric / glass images in image
+    library + corresponding entries in image-
+    vocabulary.js) does NOT yet exist at Phase 1.4
+    ship. Substrate creation is deferred to Pillar 5
+    P2 close-out cycle per §A.13.38 decoupled-ship
+    discipline. **This package SHARES the materials
+    substrate gap with its pair package identify-
+    common-materials** (Arc 18 P1.3 carry-forward).
+    Substrate authoring at P2 close-out covers BOTH
+    packages in a single substrate-authoring action
+    (same 6 vocabKeys, same image needs).
+
+    Class B FLEXIBLE substrate: composes against
+    miscellaneous theme for composedExercises (property
+    descriptions span object-attribute work; no single
+    semantic theme captures the breadth of property-
+    bearing objects). The picture-sort exercises use
+    animals + vehicles + fruits theme contrasts (a
+    property-indirect proxy — kids sort by visible
+    properties of theme objects: vehicles tend to be
+    HARD + RIGID; fruits are SOFT or FIRM; animals
+    living-not-property). Same composedExercises shape
+    as identify-common-materials precedent.
+
+    K-3 multilingual classroom relevance: property
+    description is universal K-1 science content. The
+    8-property vocabulary is locale-portable; every
+    locale has K-1 vocabulary for these common
+    observable properties. Cross-locale property
+    vocabulary: en 'hard/soft, smooth/rough,
+    flexible/rigid, transparent/opaque'; de 'hart/weich,
+    glatt/rau, biegsam/starr, durchsichtig/
+    undurchsichtig'; es 'duro/blando, liso/áspero,
+    flexible/rígido, transparente/opaco'; pt
+    'duro/macio, liso/áspero, flexível/rígido,
+    transparente/opaco'; fr 'dur/mou, lisse/rugueux,
+    flexible/rigide, transparent/opaque'; it
+    'duro/morbido, liscio/ruvido, flessibile/rigido,
+    trasparente/opaco'; nl 'hard/zacht, glad/ruw,
+    buigzaam/stijf, doorzichtig/ondoorzichtig'; fi
+    'kova/pehmeä, sileä/karkea, taipuisa/jäykkä,
+    läpinäkyvä/läpinäkymätön'; sv 'hård/mjuk,
+    slät/grov, böjlig/styv, genomskinlig/ogenomskinlig';
+    da 'hård/blød, glat/ru, bøjelig/stiv, gennemsigtig/
+    uigennemsigtig'; no 'hard/myk, glatt/ru, bøyelig/
+    stiv, gjennomsiktig/ugjennomsiktig'. The 4-pair
+    binary-opposite structure is universal in K-1
+    materials science vocabulary across the 11 locale
+    variants. Locale-variant work at Phase 3+ adapts
+    to each locale's property-vocabulary register;
+    some property words have register variation
+    (formal vs informal forms).
+
+curriculumStandards:
+  - NGSS.K-PS3-1
+  - NGSS.2-PS1-1
+  - EYFS.ELG.UW
+  - IB-PYP.HowTheWorldWorks
+  - CCSS.K.SL.4
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Describe 1-2 properties of 6 common materials from the
+        canonical 6-vocabulary set (wood, plastic, metal, paper,
+        fabric, glass) using the 8-property vocabulary correctly
+        in 7 of 10 trials.
+      - Identify the matching property pair (HARD-SOFT, SMOOTH-
+        ROUGH, FLEXIBLE-RIGID, TRANSPARENT-OPAQUE) for a given
+        property word in 6 of 10 attempts.
+      - Sort 12 mixed-property object cards into 4 binary
+        property-pair bins correctly in 5 of 10 attempts.
+      - Reason about material-use ("Why is the window glass?
+        Because glass is TRANSPARENT.") in 5 of 8 prompts.
+      - Use vocabulary 'property' / 'hard' / 'soft' / 'smooth' /
+        'rough' / 'flexible' / 'rigid' / 'transparent' / 'opaque'
+        correctly in 5 of 10 productive-language trials.
+
+    Differentiation:
+    - Pre-K: skip property description; review identify-common-
+      materials (Arc 18 Phase 1.3) for material identification
+      foundation first.
+    - K: 4 property pairs (hard/soft, smooth/rough, flexible/
+      rigid, transparent/opaque) with 1-property-per-object
+      naming; teacher-led property-comparison routines.
+    - Grade 1: extend to multi-property descriptions ("The glass
+      marble is HARD AND SMOOTH AND TRANSPARENT — three
+      properties!"); introduce material-PROPERTY-USE reasoning
+      ("Why is X used for Y?"); bridge to materials-and-
+      engineering thinking.
+    - Grade 2+: full NGSS 2-PS1-1 material-property
+      investigation work (design experiments to test material
+      properties: float-vs-sink, magnetic-vs-not, transparent-
+      vs-opaque, water-absorbing-vs-water-resistant); bridge to
+      materials-engineering (which materials to use for which
+      jobs; the canonical Grade 3+ engineering-design strand
+      that depends on this property-vocabulary foundation).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

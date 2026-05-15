@@ -1,0 +1,283 @@
+# Teaching package — infer character feeling from picture cue (pt sparse-override)
+# Arc 18 Phase 1.3 (21st-consecutive pt cadence per Arc 7+ convention). BR-MEC ensino-fundamental register; formal "você" address throughout. BNCC alignment: EF02LP26 (identificar elementos da narrativa: personagens + sentimentos) + EF01EF03 (reconhecer sentimentos próprios e dos outros).
+
+targetSlug: infer-character-feeling-from-picture-cue
+language: pt
+
+title:
+  pt: "Inferir os sentimentos do personagem — o que o personagem está sentindo?"
+
+description:
+  pt: "Pacote de compreensão leitora do 1.º ano do ensino fundamental, ensinando crianças a INFERIR o estado emocional de um personagem a partir de pistas visuais (expressão facial + linguagem corporal + contexto da situação). Apoia-se no Arc 17 P1.5 identify-main-character (crianças que identificam QUEM é o personagem da história agora inferem como esse personagem SE SENTE) + identify-and-name-emotions (Arc 4 vocabulary-acquisition; crianças conhecem o vocabulário de emoções: feliz, triste, bravo, com medo, animado, surpreso, orgulhoso, frustrado). O strand reading-comprehension avança 6/10 → 7/10. Pacote-parceiro de answer-who-what-where-questions (Slot 1 da Fase 1.3) — juntos formam o cluster K → 1.º ano de conhecimento-de-personagem (Slot 1 nível-K: extração QUEM/O QUÊ/ONDE; Slot 2 nível-1.º ano: QUEM + inferência de estado emocional). Por §A.13.30 enquadramento informal K-1: a inferência de sentimentos do personagem no 1.º ano é LEITURA DE PISTAS VISUAIS + CORRESPONDÊNCIA DE VOCABULÁRIO EMOCIONAL, NÃO análise psicológica formal. As crianças veem o rosto do personagem + postura na ilustração, leem ou escutam o contexto da história, e inferem o sentimento mais provável a partir do vocabulário emocional que já conhecem. O passo inferencial é a demanda cognitiva do 1.º ano — as crianças têm que ir do EXPLÍCITO (QUEM é nomeado no texto) ao IMPLÍCITO (O QUE o personagem está sentindo, mesmo que não seja diretamente declarado). Alinhamento BNCC: EF02LP26 + EF01EF03. 5 exercícios + 8 materiais imprimíveis ao longo de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Introdução à inferência de sentimentos do personagem
+      com toda a turma. Você mostra 4 imagens de
+      personagens, cada uma com uma expressão facial
+      distinta: um personagem sorrindo; um personagem com
+      lágrimas escorrendo nas bochechas; um personagem
+      com sobrancelhas franzidas e punhos cerrados; um
+      personagem com olhos arregalados e boca aberta (de
+      surpresa). "Olhem para os rostos desses personagens.
+      O que vocês acham que cada um está sentindo?" A
+      turma nomeia cada um: "Feliz! Triste! Bravo!
+      Surpreso!" Você adiciona o contexto da história a
+      cada um: "Este personagem está sorrindo PARA um
+      bolo de aniversário — feliz. Este personagem está
+      chorando PORQUE perdeu o brinquedo — triste. Este
+      personagem está olhando bravo para um caminhão
+      quebrado — bravo. Este personagem está vendo um
+      arco-íris pela primeira vez — surpreso." Ênfase do
+      padrão: "Nós INFERIMOS como o personagem se sente.
+      O ROSTO dá pistas. O CORPO dá pistas. A HISTÓRIA
+      dá pistas. Juntamos as pistas + descobrimos o
+      sentimento. Isso se chama INFERIR — ir além do que
+      as palavras DIZEM para o que elas QUEREM DIZER."
+      Você escreve 4 palavras de sentimento no quadro:
+      feliz, triste, bravo, surpreso. Adiciona mais 4:
+      com medo, animado, orgulhoso, frustrado. "Oito
+      palavras de sentimento para o nosso trabalho com
+      sentimentos do personagem hoje."
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de sentimento do
+      personagem. Cada dupla recebe 8 cartões de cena de
+      personagem (cada cartão mostra um personagem numa
+      situação com pistas emocionais claras: expressão
+      facial + linguagem corporal + objeto de contexto)
+      + 8 cartões de palavra de emoção (feliz, triste,
+      bravo, com medo, animado, surpreso, orgulhoso,
+      frustrado). A dupla se reveza: a criança A pega
+      um cartão de cena; a criança B diz em voz alta:
+      "Este personagem está [emoção]. O personagem se
+      sente [emoção] porque [razão da imagem]." A
+      criança B encontra o cartão de palavra de emoção
+      correspondente + coloca ao lado da cena. Recapture
+      erros com indicação de pista ("você disse que o
+      personagem está feliz, mas olhe — as sobrancelhas
+      estão apontando para BAIXO e a boca está com
+      CARINHA TRISTE. Essas são pistas de TRISTE ou
+      BRAVO. O personagem também está segurando pedaços
+      de um brinquedo quebrado — isso é triste. Vamos
+      dizer: este personagem está TRISTE porque o
+      brinquedo dele quebrou."). Extensão opcional: as
+      crianças inventam sua própria história de
+      sentimento — mostram um cartão de cena ao
+      parceiro, descrevem o que o personagem está
+      sentindo e POR QUÊ. Nota para o professor:
+      crianças K-1 frequentemente recorrem a duas
+      emoções (feliz/triste) quando 8 palavras de
+      emoção estão disponíveis. Distinguir explicitamente
+      as emoções mais sutis (frustrado vs bravo;
+      surpreso vs com medo; orgulhoso vs feliz) é
+      trabalho cognitivo do 1.º ano. Recapture erros que
+      confundem emoções similares ("você disse que o
+      personagem está bravo, mas os olhos estão
+      ARREGALADOS e a boca está aberta — isso é
+      surpreso, não bravo. Bravo tem olhos estreitados;
+      surpreso tem olhos arregalados.").
+  scaffold:
+    body: |
+      Rotação por estações. Estação 1: atividade de
+      correspondência (as crianças combinam cada imagem
+      de personagem ao cartão de palavra de emoção; o
+      exercício canônico de pareamento personagem-
+      sentimento). Estação 2: atividade picture-sort
+      (separar imagens de personagem em categorias de
+      emoção: rostos felizes vs rostos tristes vs
+      rostos bravos vs rostos surpresos — revela a
+      discriminação de pista de expressão facial).
+      Estação 3: missing-pieces (completar uma imagem
+      parcial de personagem — a peça faltante
+      frequentemente é a boca ou as sobrancelhas, que
+      determinam a emoção). Estação 4: atividade de
+      correspondência na consolidação (imagem de
+      personagem com cartão de palavra de emoção;
+      reforça o pareamento canônico).
+  closure:
+    body: |
+      Recapitulação rápida de sentimento do personagem
+      com toda a turma. Você mostra 4 imagens de
+      personagem; a turma identifica cada sentimento em
+      coro. "Este personagem está FELIZ — rosto
+      sorridente, olhos enrugados, segurando um
+      presente!" "Este personagem está FRUSTRADO —
+      olhos estreitados, mãos na cintura, olhando para
+      um quebra-cabeça que não encaixa!" "Este
+      personagem está ORGULHOSO — queixo erguido,
+      ombros para trás, segurando um troféu!" "Este
+      personagem está COM MEDO — olhos arregalados,
+      mãos para cima, recuando de uma aranha!" Você faz
+      a pergunta de raciocínio inferencial: "Como vocês
+      sabem que o personagem está com medo?" (Turma:
+      OLHOS ARREGALADOS! MÃOS PARA CIMA! RECUANDO! A
+      ARANHA É ASSUSTADORA!) Aponte adiante: "Hoje
+      INFERIMOS sentimentos de personagem a partir de
+      pistas visuais + contexto da história. Ler é
+      entender O QUE ESTÁ ATRÁS das palavras — o que
+      os personagens SENTEM + POR QUE sentem. A seguir
+      vamos aprender IDENTIFICAR O PROBLEMA E A SOLUÇÃO
+      (o que DÁ ERRADO em uma história e como é
+      RESOLVIDO?). Quando soubermos QUEM está na
+      história + ONDE estão + O QUE estão fazendo +
+      COMO se sentem + QUAL é o problema + COMO ele se
+      resolve, vamos saber a HISTÓRIA INTEIRA. Estamos
+      construindo para contar histórias completas nós
+      mesmos."
+
+assessmentCriteria:
+  pt: |
+    Ao fim da unidade de 1 semana:
+      - Identificar a emoção de um personagem numa cena
+        ilustrada corretamente entre 8 opções de emoção
+        (feliz, triste, bravo, com medo, surpreso,
+        animado, orgulhoso, frustrado) em 7 de 10
+        tentativas.
+      - Articular o PORQUÊ da emoção do personagem ('o
+        personagem está triste porque o brinquedo dele
+        quebrou') em 5 de 10 tentativas de produção
+        verbal.
+      - Distinguir emoções similares (feliz vs
+        orgulhoso; triste vs frustrado; bravo vs com
+        medo; surpreso vs animado) em 5 de 10
+        tentativas.
+      - Usar o vocabulário 'sentir' / 'sentimento' /
+        'emoção' / 'personagem' / 'inferir' / 'porque'
+        corretamente em 5 de 10 tentativas de produção
+        verbal.
+
+    Diferenciação:
+    - Pré-escola: pular o trabalho inferencial de
+      sentimento do personagem; usar identify-and-name-
+      emotions (Arc 4) primeiro para reconhecimento de
+      emoção própria.
+    - Educação infantil (5-7 anos): introduzir
+      inferência de sentimento do personagem com as 4
+      emoções mais simples (feliz, triste, bravo, com
+      medo); adiar as 4 mais sutis (orgulhoso,
+      surpreso, animado, frustrado) até o 1.º ano.
+    - 1.º ano: fluência completa de inferência de
+      sentimento com as 8 emoções; ponte para trabalho
+      de motivação do personagem (POR QUE personagens
+      se sentem dessa forma).
+    - 2.º ano em diante: trabalho de arco-de-personagem
+      (como sentimentos mudam ao longo de uma história);
+      reconhecimento de emoção mista (personagem se
+      sente feliz E nervoso); ponte para identify-
+      problem-and-solution (candidato Fase 1.4;
+      trabalho de problema-solução frequentemente
+      envolve sentimentos do personagem como sinal
+      emocional da tensão narrativa).
+
+compositionalRationale:
+  pt: |
+    Adaptação locale-específica do pacote canônico (en).
+    Os campos materials, composedExercises,
+    curriculumStandards e learningObjectives são herdados
+    do package.yaml via merge sparse-override e não são
+    repetidos aqui per a convenção Arc 7+.
+
+    Vocabulário pt-BR canônico para sentimentos de
+    personagem:
+    - 'sentimento' (feeling); 'emoção' (emotion);
+      'sentir' (to feel)
+    - 'personagem' (character)
+    - 'inferir' (to infer); 'inferência' (inference);
+      pt-BR K-1 introduz 'inferir' formalmente apenas no
+      2.º + 3.º ano EF — para K-1 usa-se 'descobrir' ou
+      'pensar' como termo acessível
+    - 'expressão' (expression); 'rosto' (face);
+      'sorrir' (smile); 'chorar' (cry)
+    - 'porque' (because — conjunção causal)
+    - 'pista' (clue); 'pistas visuais' (visual cues)
+
+    Conjunto canônico pt-BR de 8 emoções K-1 + 1.º ano
+    EF:
+    - 'feliz' (happy) — emoção positiva fundamental
+    - 'triste' (sad) — emoção negativa fundamental
+    - 'bravo' / 'com raiva' (angry) — pt-BR K-1 prefere
+      'bravo' como mais acessível; 'com raiva' é o
+      registro formal
+    - 'com medo' (scared) — pt-BR usa 'com medo' como
+      construção canônica (NÃO 'medroso' que carrega
+      conotação negativa)
+    - 'animado' / 'empolgado' (excited) — pt-BR K-1
+      prefere 'animado' como mais acessível
+    - 'surpreso' (surprised) — direto cognato
+    - 'orgulhoso' (proud) — pt-BR usa 'orgulhoso' como
+      adjetivo positivo K-1 acessível
+    - 'frustrado' (frustrated) — direto cognato; pt-BR
+      K-1 pode também usar 'chateado' como sinônimo
+      acessível
+
+    Convenção pt-BR vs pt-PT: ambas as variantes usam o
+    conjunto canônico K-1 identicamente. Algumas
+    divergências fonológicas (pt-PT 'zangado' em vez de
+    'bravo'; 'aborrecido' em vez de 'chateado') mas o
+    vocabulário core é cross-locale-portable.
+
+    Particularidade pt-BR para o framework de inferência:
+    Pt-BR K-1 EF distingue duas operações cognitivas
+    parecidas:
+    - 'OBSERVAR' (observe) — descrever o que está
+      EXPLICITAMENTE na imagem (o personagem está
+      sorrindo)
+    - 'INFERIR' (infer) — concluir o que NÃO ESTÁ
+      EXPLICITAMENTE na imagem (o personagem está
+      feliz; este é uma INFERÊNCIA do sorriso)
+    Esta distinção é fundamental para a alfabetização
+    inferencial brasileira. As pistas visuais (rosto,
+    corpo, objetos) são as ENTRADAS; o sentimento
+    inferido é a CONCLUSÃO.
+
+    Alinhamento BNCC (Base Nacional Comum Curricular):
+    EF02LP26 ('Identificar elementos que compõem uma
+    narrativa: personagens, cenário, tempo, conflito e
+    desfecho') é a habilidade BNCC que inclui
+    sentimentos do personagem como parte da
+    caracterização. EF01EF03 ('Reconhecer sentimentos
+    próprios e dos outros e adotar atitudes que
+    contribuam para o bem-estar emocional próprio e
+    coletivo') é a habilidade BNCC do componente
+    Educação Física + Educação Socioemocional que
+    cobre o trabalho de reconhecimento emocional
+    (próprio + dos outros). Este pacote bridges
+    Literacia + Socioemocional — a inferência de
+    sentimento do personagem é simultaneamente um ato
+    leitor + um ato de perspectiva social-emocional.
+
+    Pacote-parceiro do Slot 1 answer-who-what-where-
+    questions: juntos formam o módulo K → 1.º ano de
+    extração de elementos narrativos.
+    - Slot 1 (nível-K): extração EXPLÍCITA (QUEM, O
+      QUÊ, ONDE — elementos diretamente mostrados ou
+      nomeados)
+    - Slot 2 (nível-1.º ano, ESTE PACOTE): extração
+      INFERENCIAL (COMO O PERSONAGEM SE SENTE — elemento
+      implicado pelas pistas, não diretamente
+      declarado)
+    A progressão K → 1.º ano de explícito para
+    inferencial é a curva canônica de desenvolvimento
+    leitor.
+
+    Cross-reference ao Arc 17 P1.5 identify-main-
+    character + Arc 18 P1.2 identify-setting +
+    Slot 1 answer-who-what-where-questions: os 4
+    pacotes juntos formam o cluster de conhecimento-
+    de-personagem K → 1.º ano. A simetria estrutural
+    dos 4 pacotes torna o trabalho de ensino coerente
+    entre as semanas.
+
+    Por §A.13.30 enquadramento informal K-1: este
+    pacote NÃO ensina análise psicológica formal nem
+    teoria de mente avançada — apenas a inferência
+    básica de sentimentos do personagem a partir de
+    pistas visuais. Famílias brasileiras às vezes
+    perguntam por análise mais sofisticada
+    (motivação do personagem; conflito interno); o
+    parent-take-home-letter explicita que o objetivo
+    do 1.º ano EF é a inferência fundamental, com
+    análise de personagem mais profunda emergindo no
+    3.º + 4.º ano EF.

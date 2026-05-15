@@ -1,0 +1,430 @@
+# Teaching package — tell time to the quarter-hour
+# Arc 18 Phase 1.1 (math / measurement strand — completes tell-time canonical triple at 3/3 SAT). Extends Arc 17 P1.4 pair (tell-time-to-the-hour + tell-time-to-half-hour) to quarter-hour reading. Pair-coherent ship pattern with Arc 17 P1.4 on materials-list shape (clock-mat at position 3); canonical-correct on manipulative-cut-outs `mode: variety` (divergence-ratified from Arc 17 P1.4 data debt).
+
+targetSlug: tell-time-to-quarter-hour
+language: en
+title:
+  en: "Tell Time to the Quarter-Hour — when the minute hand points to 3 or 9"
+
+description:
+  en: "Grade 2 math/measurement package completing the canonical tell-time triple (3/3 SAT in the measurement strand's tell-time sub-track) by teaching quarter-hour reading on analog clocks. After the Arc 17 P1.4 pair (tell-time-to-the-hour at 1:00 + tell-time-to-half-hour at 1:30), this package adds the QUARTER-HOUR positions: 1:15 (QUARTER PAST 1 — minute hand pointing straight right at 3) + 1:45 (QUARTER TO 2 — minute hand pointing straight left at 9). The minute hand's position around the clock face encodes the partition into 4 equal quarters: 12 (full hour, 0 minutes), 3 (quarter past, 15 minutes), 6 (half past, 30 minutes), 9 (quarter to, 45 minutes). At quarter-past, the hour hand sits between the named hour and the next; at quarter-to, the hour hand sits closer to the next hour than to the named one. CCSS.2.MD.C.7 primary anchor ('tell and write time from analog and digital clocks to the nearest five minutes, using a.m. and p.m.' — quarter-hour precision is the canonical Grade 2 entry point). Parallel to Arc 15 Phase 1 read-time-on-analog-clock per the same measurement-strand vs time-and-routine-strand framing distinction documented in tell-time-to-the-hour (Arc 17 P1.4 Slot 1). Together with the Arc 17 P1.4 pair, this package completes the canonical measurement-strand tell-time triple 3/3 SAT. 5 worksheet exercises + 7 printable materials over a 1-week unit. NOTE: This package internally diverges from the Arc 17 P1.4 pair on manipulative-cut-outs mode dimension — Arc 17 P1.4 ships `mode: clock-pieces` (non-canonical, pre-§A.13.35-correction data debt); Phase 1.1 ships canonical-correct `mode: variety` with vocabKey enumeration per operator adjudication at Arc 18 Phase 0 §A.13.6 firings batch. Pair-coherence preserved on materials-list shape (clock-mat at position 3); divergence-ratified on cut-outs mode."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook + quarter-hour position introduction.
+      Teacher displays a large analog clock + reviews the
+      hour + half-hour work from the prior tell-time pair:
+      "When the minute hand points STRAIGHT UP to 12, the
+      time is exactly the hour — three o'clock. When it
+      points STRAIGHT DOWN to 6, the time is half-past —
+      three thirty." Then the new content: "Today we meet
+      the OTHER two positions where the minute hand points
+      to a special place. When it points STRAIGHT RIGHT to
+      3, we say QUARTER PAST. When it points STRAIGHT LEFT
+      to 9, we say QUARTER TO the next hour." Teacher
+      demonstrates 4:15 (hour hand just past 4; minute hand
+      at 3 — "quarter past 4 — fifteen minutes after 4");
+      7:45 (hour hand close to 8; minute hand at 9 —
+      "quarter to 8 — fifteen minutes before 8"); 2:15
+      ("quarter past 2"); 10:45 ("quarter to 11"). Pattern
+      emphasis: "The clock face has FOUR special positions —
+      12 for the hour, 3 for quarter-past, 6 for half-past,
+      9 for quarter-to. The minute hand visits these four
+      positions as the hour goes by." Teacher writes digital
+      forms: 4:15, 7:45, 2:15, 10:45. "Quarter-past means
+      :15 in digital form. Quarter-to means :45 in digital
+      form."
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + quarter-hour clock-reading routine with
+      movable-hand paper clocks. Each pair receives the
+      same movable-hand clock-mat material as the Arc 17
+      P1.4 pair + a set of 8 quarter-hour time cards
+      (2:15, 5:15, 8:15, 11:15, 1:45, 4:45, 7:45, 10:45).
+      Pair takes turns: kid A draws a quarter-time card
+      (e.g., 5:15); kid B sets the paper clock — for
+      quarter-past, minute hand straight right to 3, hour
+      hand just past 5; for quarter-to, minute hand
+      straight left to 9, hour hand close to the NEXT hour
+      (so 5:45 has hour hand close to 6). Kid A verifies
+      the placement. Then swap. Recast the quarter-to
+      catch with the next-hour-cue ("7:45 means almost 8 —
+      the hour hand has moved MOSTLY past 7, getting close
+      to 8. The minute hand at 9 means the 8 is coming
+      soon."). The two quarter-positions (past vs to) are
+      the load-bearing visual distinction — kids who
+      conflate them get systematically wrong answers. Free
+      time at end: kids mix all four hour-positions (full,
+      quarter-past, half, quarter-to) on the movable clock
+      + name aloud what they set.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching activity — match
+      each analog clock face (drawn at quarter-hour
+      positions) to its digital time (e.g., 1:15 — 4:45 —
+      9:15 — 11:45). Station 2: chart-count activity —
+      count through hour + quarter-hour positions in
+      sequence (1:00, 1:15, 1:30, 1:45, 2:00, 2:15...).
+      Station 3: math-puzzle (set the clock to a given
+      quarter-hour time: missing-element prompt). Station
+      4: mixed full/quarter-past/half/quarter-to matching
+      (kids must distinguish all four positions based on
+      minute-hand placement). The mixed-positions matching
+      at station 4 is the load-bearing diagnostic — by this
+      point kids should fluently read all four canonical
+      positions.
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class quarter-hour quick-recall. Teacher
+      displays 6 clock faces (mix of all four positions);
+      class chorally reads each. "Three o'clock! Quarter
+      past 5! Half-past 8! Quarter to 11! Two o'clock!
+      Quarter past 9!" Forward-pointer: "Today we completed
+      the four CANONICAL quarter positions on the clock —
+      o'clock (12), quarter-past (3), half-past (6),
+      quarter-to (9). With these four positions, you can
+      read MOST of the times you see in daily life. Next
+      we'll learn the IN-BETWEEN times — every five minutes
+      around the clock (1:10, 1:20, 1:25, etc.) — and AM
+      vs PM, and ELAPSED TIME (how many hours pass between
+      two times). Reading time keeps getting more precise."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 8, themeSelect: miscellaneous, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: chart-count
+    exerciseMode: unified
+    customizationParameters: { themeSelect: miscellaneous, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: math-puzzle
+    exerciseMode: unified
+    customizationParameters: { themeSelect: miscellaneous, languageSelect: en, difficulty: easy }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 8, themeSelect: miscellaneous, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: math-worksheet
+    exerciseMode: easy
+    customizationParameters: { difficulty: easy, numExercises: 6, operations: count, selectMode: theme, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: miscellaneous
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: time-format
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: miscellaneous
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: clock-mat
+    customizationParameters:
+      clockType: analog
+      hourMarkings: true
+      minuteHand: movable
+      hourHand: movable
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: clock-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: miscellaneous
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys:
+        - hour-hand
+        - minute-hand
+        - clock-face
+        - number-1
+        - number-2
+        - number-3
+        - number-4
+        - number-5
+        - number-6
+        - number-7
+        - number-8
+        - number-9
+        - number-10
+        - number-11
+        - number-12
+      mode: variety
+      itemCount: 2
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: miscellaneous
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: math / measurement (tell time to the
+    quarter-hour on an analog clock — completes the
+    canonical tell-time triple at 3/3 SAT in the measurement
+    strand). Secondary strand: math / time-and-routine
+    (parallel framing — see cross-reference to read-time-
+    on-analog-clock below). Tertiary strand: vocabulary-
+    acquisition (quarter-hour vocabulary: quarter-past,
+    quarter-to, fifteen-minutes, forty-five-minutes).
+
+    Architectural significance: completes the measurement-
+    strand tell-time canonical triple opened by Arc 17
+    P1.4 (tell-time-to-the-hour + tell-time-to-half-hour
+    Slots 1 + 4). Per learning-targets.json `tell-time-to-
+    quarter-hour` is the third of three canonical tell-time
+    targets (CCSS.2.MD.C.7 anchor); this package's ship
+    saturates the tell-time sub-track 3/3. The broader
+    measurement strand (9 targets) continues to grow with
+    elapsed-time + minute work + currency + capacity targets
+    in subsequent arcs.
+
+    Cross-reference to read-time-on-analog-clock (Arc 15
+    Phase 1) per §A.13.34 parallel-strand-framing: the
+    existing read-time-on-analog-clock package saturates
+    the cognitive-and-executive-function / time-and-
+    routine strand and ALSO covers hour + half-hour clock-
+    reading pedagogically. Arc 17 P1.4 + Arc 18 P1.1's
+    tell-time triple coexists with that work as parallel
+    measurement-strand framing. The framing distinction
+    inherits from Arc 17 P1.4 Slot 1 verbatim:
+    - read-time-on-analog-clock: clock-reading as a daily-
+      life skill (WHEN things happen in the day; schedule
+      reading; time-and-routine awareness).
+    - tell-time-to-the-hour / -half-hour / -quarter-hour
+      (the canonical measurement-strand triple): clock-
+      reading as quantitative measurement (TIME AS A
+      MEASURABLE DIMENSION parallel to length, weight,
+      capacity, duration). The clock is a measurement
+      instrument that reads off the quantity 'time of day'
+      at increasingly precise sub-hour increments.
+    Both framings are valuable; teachers can pull whichever
+    framing fits their curriculum context. The materials
+    infrastructure (clock-mat, time-format flashcards) is
+    shared across both strand framings.
+
+    Pair triple completion: tell-time-to-the-hour (Arc 17
+    P1.4 Slot 1; hour-only reading) + tell-time-to-half-
+    hour (Arc 17 P1.4 Slot 4; +half-past reading) +
+    tell-time-to-quarter-hour (THIS PACKAGE; +quarter-past
+    + quarter-to reading). The triple covers all four
+    canonical quarter positions of the clock face (12 / 3
+    / 6 / 9). Subsequent measurement-strand work extends
+    to nearest-5-minutes precision per the broader
+    CCSS.2.MD.C.7 scope.
+
+    Materials note (CRITICAL DIVERGENCE RATIFICATION per
+    §A.13.6 spec-vs-shipped-contract validation +
+    §A.13.34 transparency):
+
+    THIS PACKAGE INTERNALLY DIVERGES FROM ARC 17 P1.4 PAIR
+    ON ONE DIMENSION. Materials position 3 (clock-mat)
+    mirrors Arc 17 P1.4 precedent verbatim — preserves
+    pair-triple coherence on the materials-list shape +
+    carries forward the §A.13.32 sub-doctrine (d)
+    generator-executability gap consistently across all 3
+    tell-time canonical packages (clock-mat generator is
+    Pillar 5 (C) DEFER carry-forward; when authored,
+    retro-fix applies uniformly to all 3 packages).
+
+    HOWEVER, materials position 5 (manipulative-cut-outs)
+    DIVERGES from Arc 17 P1.4 on the `mode:` dimension.
+    Arc 17 P1.4 packages emit `mode: clock-pieces` (a
+    non-canonical mode value that does NOT exist in the
+    corrected CutOutMode type per `frontend/scripts/lib/
+    manipulative-cut-outs-package-loader.ts:30` — the
+    canonical set is `'single-repeat' | 'variety'` only,
+    per the §A.13.35 self-firing correction shipped at
+    commit 694f9823). The Arc 17 P1.4 `mode: clock-pieces`
+    is pre-correction data debt.
+
+    Per operator adjudication at Arc 18 Phase 0 §A.13.6
+    firings batch (3 firings surfaced + adjudicated via
+    AskUserQuestion): this package ships canonical-correct
+    `mode: variety` with vocabKey enumeration of 15 clock-
+    piece types (hour-hand, minute-hand, clock-face,
+    number-1 through number-12) at itemCount 2. The Arc 17
+    P1.4 packages stay at `mode: clock-pieces` for a
+    separate retro-fix arc (Pillar 5 (C) DEFER carry-
+    forward: 2-package retrofit alongside clock-mat
+    generator authoring when prioritized).
+
+    The internal-shape divergence is INTENTIONAL +
+    OPERATOR-LOCKED. Future audits resolving apparent
+    inconsistency should read this compositionalRationale +
+    consult Arc 18 Phase 0 §A.13.6 firings batch in the
+    arc commit. Do NOT silently align this package to Arc
+    17 P1.4 `mode: clock-pieces` — that would re-introduce
+    the §A.13.35 self-firing defect at the catalog layer.
+
+    Distinctive composition: 2 matching + 1 chart-count +
+    1 math-puzzle + 1 math-worksheet. Same shape as Arc 17
+    P1.4 pair with content adjusted for quarter-hour
+    scope. Chart-count at position 2 surfaces the four-
+    canonical-positions sequence (1:00, 1:15, 1:30, 1:45,
+    2:00, 2:15...) which visually shows quarter-hour
+    positions as the midpoints between the half-hour
+    canonical positions. The mixed-positions matching at
+    consolidation (position 4) distinguishes all four
+    canonical positions — the load-bearing diagnostic that
+    tests whether kids really internalized the minute-hand-
+    position distinction across all four quarter-hour
+    positions.
+
+    Class B FLEXIBLE substrate: composes against
+    miscellaneous theme (clock-faces don't compose against
+    animal/food themes naturally; aligns with Arc 17 P1.4
+    pair-coherent theme choice + read-time-on-analog-clock
+    + tens-and-ones-1-to-20 abstract-numerical package
+    precedent).
+
+    K-3 multilingual classroom relevance: quarter-hour
+    reading universal across Grade 2 + locale-portable
+    conceptually, but the SPOKEN time-expression varies
+    substantially:
+    - en 'quarter past 3' = 3:15; 'quarter to 4' = 3:45
+    - de 'Viertel nach 3' = 3:15; 'Viertel vor 4' = 3:45
+      (canonical en/de structural parallel)
+    - es 'tres y cuarto' (lit. 'three and quarter') =
+      3:15; 'cuarto para las cuatro' (lit. 'quarter to
+      four') = 3:45 OR 'tres y cuarenta y cinco' (3:45
+      digital read-out form)
+    - pt 'três e quinze' (lit. 'three and fifteen') = 3:15;
+      'quinze para as quatro' (lit. 'fifteen to four') =
+      3:45. pt prefers number-form ('quinze') over
+      'quarter'-form in most K-1+2 registers.
+    - fr 'trois heures et quart' (lit. 'three hours and
+      quarter') = 3:15; 'quatre heures moins le quart'
+      (lit. 'four hours minus the quarter') = 3:45
+    - fi 'varttia yli kolmen' (lit. 'quarter past three')
+      = 3:15; 'varttia vaille neljä' (lit. 'quarter
+      lacking four') = 3:45
+    The clock-face visual is locale-portable; the verbal
+    time-expression requires locale-specific adaptation.
+    Notable challenge: de + fi use the upcoming-hour
+    framing for 'quarter to' (Viertel VOR 4 = quarter
+    BEFORE 4 — pointing at 4 not 3); some locales use
+    number-form ('three and fifteen') instead of quarter-
+    form, which is more transparent but loses the
+    canonical 'quarter' vocabulary. Locale-variant work
+    at Phase 3+ adapts to each locale's quarter-hour
+    expression idiom.
+
+curriculumStandards:
+  - CCSS.2.MD.C.7
+  - CCSS.1.MD.B.3
+  - EYFS.ELG.M
+  - IB-PYP.WhereWeAreInPlaceAndTime
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Read 8 analog clock faces showing quarter-hour
+        times (mix of quarter-past + quarter-to) correctly
+        in 6 of 10 trials.
+      - Distinguish quarter-past from quarter-to based on
+        minute-hand position (3 vs 9) in 8 of 10 trials.
+      - Identify the hour-hand position at quarter-to
+        times (hour hand close to NEXT hour, not the
+        named one — e.g., at 5:45 the hour hand is
+        between 5 and 6, closer to 6) in 5 of 10 trials.
+      - Set the movable-hand paper clock to a given
+        quarter-hour time in 5 of 10 trials.
+      - Use vocabulary 'quarter-past' / 'quarter-to' /
+        'fifteen-minutes' / 'forty-five-minutes' correctly
+        in 5 of 10 productive-language trials.
+
+    Differentiation:
+    - Pre-K: skip quarter-hour reading entirely; the
+      Arc 17 P1.4 pair's hour + half-hour scope is the
+      appropriate K coverage.
+    - K: defer quarter-hour reading; focus on hour-only
+      reading (Arc 17 P1.4 Slot 1).
+    - Grade 1: introduce quarter-past only (minute hand at
+      3); defer quarter-to until Grade 2. The quarter-to
+      hour-hand-between-position is too cognitively
+      demanding for most Grade 1 learners.
+    - Grade 2: full quarter-past + quarter-to fluency;
+      movable-hand work heavily scaffolded; the hour-
+      hand-position-at-quarter-to gets explicit attention.
+    - Grade 3+: brief reinforcement + bridge to nearest-
+      5-minutes precision per the broader CCSS.2.MD.C.7
+      scope; AM/PM distinction + digital clock format +
+      elapsed-time problems.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

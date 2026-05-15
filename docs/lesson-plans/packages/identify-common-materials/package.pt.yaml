@@ -1,0 +1,265 @@
+# Teaching package — identify common materials (pt sparse-override)
+# Arc 18 Phase 1.3 (21st-consecutive pt cadence per Arc 7+ convention). BR-MEC ensino-fundamental register; formal "você" address throughout. BNCC alignment: EF01CI01 (identificar materiais usados no dia a dia + suas propriedades) — BNCC Ciências da Natureza.
+
+targetSlug: identify-common-materials
+language: pt
+
+title:
+  pt: "Do que é feito? — identificar materiais comuns"
+
+description:
+  pt: "Pacote de conhecimento-de-mundo para a educação infantil, ensinando crianças a identificar os MATERIAIS COMUNS dos objetos cotidianos: MADEIRA (cadeiras, lápis, árvores), PLÁSTICO (brinquedos, garrafas, recipientes), METAL (garfos, moedas, carros), PAPEL (livros, cadernos, lenços), TECIDO (roupas, cobertores, cortinas), e VIDRO (janelas, copos, espelhos). Apoia-se no Arc 11 identify-living-vs-nonliving (a base de classificação mais ampla; crianças que sabem separar coisas vivas vs não-vivas agora separam objetos não-vivos PELO MATERIAL DO QUAL SÃO FEITOS). ABRE o strand world-knowledge / materials-and-properties (atualmente 0/2 SEM COBERTURA). A Fase 1.3 abre o strand para 1/2; describe-material-properties (o 2.º alvo canônico — descrever PROPRIEDADES de materiais como duro/macio, liso/áspero, transparente/opaco) é um candidato para a Fase 1.4+ que saturaria o strand em 2/2 SAT. Por §A.13.30 enquadramento informal K-1: ciência de materiais no K é IDENTIFICAÇÃO CONCRETA DE MATERIAIS — as crianças APRENDEM o vocabulário de materiais + RECONHECEM de qual material um objeto é feito ao VER e TOCAR + agrupando materiais semelhantes. NÃO classificação formal de propriedades de materiais (que é conteúdo do ensino fundamental II per progressão NGSS 2-PS1). Alinhamento BNCC: EF01CI01 (Ciências da Natureza — identificar materiais usados no dia a dia + suas propriedades). 5 exercícios + 7 materiais imprimíveis ao longo de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Introdução à identificação de materiais com toda a
+      turma. Você mostra 6 objetos cotidianos da sala de
+      aula, um por material: um lápis de madeira
+      (madeira); uma garrafinha de água plástica
+      (plástico); uma colher de metal (metal); um caderno
+      de papel (papel); um lenço de tecido (tecido); um
+      pote de vidro (vidro). Você pega cada objeto:
+      "Do que é feito este lápis? MADEIRA. A madeira vem
+      das ÁRVORES. Vocês podem sentir que a madeira é
+      DURA e um pouco ÁSPERA." A turma toca uma
+      superfície de madeira (a mesa ou um bloquinho).
+      "Do que é feita esta garrafinha de água? PLÁSTICO.
+      O plástico é DURO mas MAIS LEVE que a madeira, e é
+      LISO. Usamos plástico em garrafas, brinquedos,
+      recipientes." Continue com cada material: metal
+      ("DURO, FRIO, BRILHANTE — facas, moedas, carros"),
+      papel ("FINO, pode RASGAR, vem das árvores mas
+      diferente da madeira — livros, cadernos"), tecido
+      ("MACIO, pode DOBRAR, feito de algodão ou lã ou
+      seda — roupas, cobertores"), vidro ("DURO, LISO,
+      TRANSPARENTE — janelas, copos"). Ênfase do padrão:
+      "Todo objeto é FEITO DE alguma coisa. Olhar para o
+      QUE ele é FEITO nos diz sobre o objeto. Seis
+      materiais comuns: MADEIRA, PLÁSTICO, METAL, PAPEL,
+      TECIDO, VIDRO."
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de separação por
+      material. Cada dupla recebe uma coleção de 12-18
+      cartões de objetos (mistura de objetos feitos dos
+      6 materiais: 2-3 itens de madeira, 2-3 de plástico,
+      2-3 de metal, 2-3 de papel, 2-3 de tecido, 2-3 de
+      vidro) + 6 cartões de categoria de material
+      (MADEIRA, PLÁSTICO, METAL, PAPEL, TECIDO, VIDRO).
+      A dupla se reveza: a criança A pega um cartão de
+      objeto; a criança B identifica o material + coloca
+      o cartão na categoria correspondente. Ambas as
+      crianças dizem em voz alta: "Este [objeto] é feito
+      de [material]." Recapture erros com dicas de
+      material ("você colocou a cadeira em METAL, mas a
+      maioria das cadeiras é de MADEIRA — cadeiras
+      geralmente são de madeira. Algumas cadeiras SÃO de
+      metal — cadeiras de metal geralmente são mais
+      brilhantes e frias que as de madeira. Vou mostrar
+      uma cadeira de metal vs uma de madeira."). Extensão
+      opcional: as crianças andam pela sala + encontram
+      um objeto de cada material; relatam de volta com
+      "Eu encontrei um [objeto] feito de [material]."
+      Nota para o professor: crianças K às vezes
+      confundem papel com tecido (ambos são finos) ou
+      metal com plástico (alguns plásticos parecem
+      brilhantes). Trabalho explícito de comparação lado
+      a lado apoia a desambiguação. Alguns objetos têm
+      MÚLTIPLOS materiais (um livro tem páginas de papel
+      + uma capa de papelão; um bichinho de pelúcia tem
+      tecido por fora + algodão/plástico por dentro) —
+      para o trabalho K, classifique pelo material
+      PRINCIPAL visível.
+  scaffold:
+    body: |
+      Rotação por estações. Estação 1: atividade de
+      correspondência — combinar cada imagem de objeto à
+      sua palavra de material (ex.: lápis → madeira;
+      colher → metal). Estação 2: atividade picture-sort
+      — separar cartões de objetos nas 6 categorias de
+      material; revela a habilidade de classificação
+      categórica. Estação 3: missing-pieces — completar
+      uma imagem parcial de objeto; a criança identifica
+      de qual material o objeto completado é feito.
+      Estação 4: atividade de correspondência na
+      consolidação (imagem de objeto à palavra de
+      material; reforça o pareamento canônico).
+  closure:
+    body: |
+      Recapitulação rápida de identificação de materiais
+      com toda a turma. Você nomeia objetos cotidianos;
+      a turma identifica o material em coro. "Cadeira?
+      MADEIRA! Copo? VIDRO! Moeda? METAL! Suéter? TECIDO!
+      Jornal? PAPEL! Carrinho de brinquedo? PLÁSTICO!
+      Janela? VIDRO! Lápis? MADEIRA!" Você faz a pergunta
+      diagnóstica sobre propriedade de material: "Qual
+      material é o MAIS DURO?" (Turma: METAL! ou VIDRO!
+      depende de qual considerarem — ambos válidos.)
+      "Qual material é o MAIS MACIO?" (Turma: TECIDO!)
+      "Qual material você pode VER ATRAVÉS?" (Turma:
+      VIDRO!) Aponte adiante: "Hoje abrimos nosso
+      trabalho com MATERIAIS! Aprendemos 6 materiais
+      comuns: MADEIRA, PLÁSTICO, METAL, PAPEL, TECIDO,
+      VIDRO. A seguir vamos aprender as PROPRIEDADES
+      desses materiais — duro ou macio? liso ou áspero?
+      transparente ou não? Materiais têm PROPRIEDADES
+      que podemos observar + descrever. Quando soubermos
+      do que algo é feito + que propriedades esse
+      material tem, vamos entender por que é usado da
+      forma que é — por que as janelas são de vidro, por
+      que os cobertores são de tecido, por que os garfos
+      são de metal. A ciência dos materiais responde
+      POR QUE nosso mundo é construído da forma que é."
+
+assessmentCriteria:
+  pt: |
+    Ao fim da unidade de 1 semana:
+      - Identificar o material de 6 objetos cotidianos
+        comuns a partir do conjunto canônico de 6
+        palavras-vocabulário (madeira, plástico, metal,
+        papel, tecido, vidro) em 7 de 10 tentativas.
+      - Separar 12 cartões de objetos de materiais
+        mistos nas 6 categorias de material corretamente
+        em 6 de 10 tentativas.
+      - Distinguir materiais visualmente parecidos
+        (papel vs tecido finos; metal vs plástico
+        brilhantes) corretamente em 5 de 10 tentativas.
+      - Usar o vocabulário 'feito de' / 'material' /
+        'madeira' / 'plástico' / 'metal' / 'papel' /
+        'tecido' / 'vidro' corretamente em 5 de 10
+        tentativas de produção verbal.
+      - Encontrar um objeto da sala feito de cada
+        material (atividade de caça ao tesouro de
+        materiais) em 5 de 6 categorias.
+
+    Diferenciação:
+    - Pré-escola: pular a identificação de materiais;
+      usar identify-living-vs-nonliving (Arc 11) para
+      classificação mais ampla primeiro.
+    - Educação infantil (5-7 anos): identificação
+      completa dos 6 materiais com exemplos de objetos
+      concretos; caça ao tesouro de materiais na sala
+      reforça reconhecimento prático.
+    - 1.º ano: estender ao conjunto de 8 materiais
+      (adicionar borracha + cerâmica); introduzir
+      vocabulário de PROPRIEDADE de material
+      (duro/macio/liso/áspero); ponte para o pacote-
+      parceiro describe-material-properties (candidato
+      Fase 1.4+; o trabalho de propriedade depende da
+      fundação de identificação de material).
+    - 2.º ano em diante: trabalho completo NGSS 2-PS1-1
+      de investigação de propriedades de materiais
+      (projetar experimentos para testar propriedades de
+      materiais: flutua-ou-afunda, magnético-ou-não,
+      transparente-ou-opaco); ponte para materiais-e-
+      engenharia (quais materiais usar para quais
+      trabalhos; o strand canônico de design de
+      engenharia do 3.º + 4.º ano).
+
+compositionalRationale:
+  pt: |
+    Adaptação locale-específica do pacote canônico (en).
+    Os campos materials, composedExercises,
+    curriculumStandards e learningObjectives são herdados
+    do package.yaml via merge sparse-override e não são
+    repetidos aqui per a convenção Arc 7+.
+
+    Vocabulário pt-BR canônico para identificação de
+    materiais:
+    - 'material' / 'materiais' (material / materials)
+    - 'feito de' (made of); 'feita de' (concordância de
+      gênero com substantivo)
+    - Conjunto canônico de 6 materiais K-1:
+      - 'madeira' (wood) — feminino
+      - 'plástico' (plastic) — masculino
+      - 'metal' (metal) — masculino
+      - 'papel' (paper) — masculino
+      - 'tecido' (fabric) — masculino; alternativa
+        'pano' em registro mais informal pt-BR
+      - 'vidro' (glass) — masculino
+    - Propriedades introduzidas (para o pacote-parceiro
+      describe-material-properties): 'duro' / 'macio'
+      (hard / soft); 'liso' / 'áspero' (smooth / rough);
+      'transparente' / 'opaco' (transparent / opaque)
+    - 'do que é feito?' (what is it made of? — pergunta
+      canônica)
+
+    Convenção pt-BR vs pt-PT: ambas as variantes usam o
+    conjunto canônico K-1 identicamente. Algumas
+    pequenas divergências (pt-PT 'plástico' idêntico;
+    pt-PT pode usar 'estofo' em vez de 'tecido' em
+    alguns contextos mas pt-BR + pt-PT K-1 usam 'tecido'
+    como canônico).
+
+    Particularidade pt-BR para o framework de
+    classificação por material:
+    Crianças brasileiras K-1 frequentemente conhecem o
+    vocabulário de materiais MUITO antes do trabalho
+    formal de ciência (família + cuidadores naturalmente
+    usam 'madeira' / 'plástico' / 'metal' nas
+    interações cotidianas). Este pacote canaliza esse
+    conhecimento prévio em um framework explícito de 6
+    categorias. A distinção 'do que é feito' vs 'para
+    que serve' é pedagogicamente importante — kids
+    K-1 sometimes confunde 'cadeira' (objeto) com
+    'sentar' (uso) — este pacote foca explicitamente na
+    PROPRIEDADE-MATERIAL do objeto, separadamente da
+    FUNÇÃO-USO do objeto.
+
+    Alinhamento BNCC (Base Nacional Comum Curricular):
+    EF01CI01 ('Comparar características de diferentes
+    materiais presentes em objetos de uso cotidiano,
+    discutindo sua origem, os modos como são descartados
+    e como podem ser usados de forma mais consciente')
+    cobre exatamente a pedagogia deste pacote. A BNCC
+    do 1.º ano EF Ciências da Natureza coloca a
+    identificação de materiais como base para o
+    trabalho posterior em propriedades de materiais
+    (EF02CI01-04 no 2.º ano EF) + materiais e energia
+    + materiais e descarte/reciclagem (EF03CI04 no 3.º
+    ano EF). Este pacote (junto com o pacote-parceiro
+    futuro describe-material-properties) cobre o anchor
+    EF01CI01 fundamental.
+
+    Ciência de materiais brasileira K-1: o currículo
+    brasileiro K-1 frequentemente inclui também o
+    tópico de DESCARTE + RECICLAGEM de materiais (o
+    que se faz com cada material depois de usado). Este
+    pacote NÃO ensina descarte/reciclagem formal — é
+    apenas identificação fundamental. O tópico de
+    descarte/reciclagem é trabalho do 3.º ano EF + além;
+    este pacote estabelece a base de identificação que
+    o trabalho de descarte precisa.
+
+    Por §A.13.30 enquadramento informal K-1: este
+    pacote NÃO ensina propriedades formais de materiais
+    nem investigação científica de materiais — apenas
+    identificação do material de objetos. Famílias
+    brasileiras às vezes perguntam por trabalho mais
+    avançado (origem dos materiais; reciclagem; ciclo
+    de vida); o parent-take-home-letter explicita que
+    o objetivo do 1.º ano EF é a identificação
+    fundamental, com trabalho de propriedade emergindo
+    no 2.º ano + descarte/reciclagem no 3.º ano EF.
+
+    Strand-opener status: este pacote ABRE o strand
+    materials-and-properties (0/2 → 1/2). O pacote-
+    parceiro futuro describe-material-properties
+    saturaria o strand em 2/2 SAT (candidato Fase 1.4+).
+    Este é o primeiro strand do mundo-de-conhecimento a
+    abrir desde Arc 17 P1.1 community-and-roles
+    saturation; foi o último strand zero-coverage no
+    domínio world-knowledge.
+
+    **CARRY-FORWARD DE SUBSTRATO P2 per §A.13.32 sub-
+    doctrine (d):** O substrato de imagem das
+    vocabKeys (madeira / plástico / metal / papel /
+    tecido / vidro em image library + entradas em
+    image-vocabulary.js) NÃO existe ainda no Phase 1.3
+    ship; a criação do substrato é adiada para o
+    ciclo de fechamento P2 do Pillar 5 per §A.13.38
+    decoupled-ship discipline. Substrate-gap também
+    afeta o pacote irmão en. Tanto USD (slot 2+3 P1.2)
+    quanto material substrate (este slot) compartilham
+    a mesma fila P2 de criação de imagem.

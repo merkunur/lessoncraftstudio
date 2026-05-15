@@ -1,0 +1,440 @@
+# Teaching package — form lowercase letters
+# Arc 18 Phase 1.1 (fine-motor-and-visual-spatial / handwriting strand 1/3 → 2/3). Builds on Arc 17 P1.5 form-uppercase-letters (motor-routine fluency established) AND Arc 10+ identify-lowercase-letters (lowercase letter-shape recognition prerequisite). Form-numerals-0-to-10 remains for Arc 18 P1.2 candidate to bring strand to 3/3 SAT.
+
+targetSlug: form-lowercase-letters
+language: en
+title:
+  en: "Form Lowercase Letters — trace and write the 26 lowercase letters"
+
+description:
+  en: "Kindergarten / Grade 1 fine-motor + handwriting package teaching kids to FORM the 26 lowercase letters via tracing + independent writing. Builds on Arc 17 P1.5 form-uppercase-letters (where kids established the motor-routine fluency for uppercase formation) AND identify-lowercase-letters (the letter-shape recognition prerequisite for lowercase). Lowercase letters introduce new motor challenges that uppercase did NOT: most lowercase letters have ASCENDERS (b/d/f/h/k/l/t) or DESCENDERS (g/j/p/q/y) that require kids to attend to letter height-zones (descender below baseline; ascender above x-height); some lowercase pairs are visually similar (b/d, p/q, n/u) and require careful attention to orientation; the cursive-like curves of a/e/g/o/q/s are motor-different from the angular strokes of uppercase. Per §A.13.30 K-foundational-informal framing: K-1 lowercase handwriting work is RECOGNIZABLE LETTER FORMATION — kids learn to make each lowercase letter shape recognizably, NOT formal stroke-order memorization or precise calligraphy. The stroke order may vary by teacher / curriculum; the recognizability of the letter form is the load-bearing K-1 fluency target. CCSS.L.K.1a primary anchor ('Print many upper- and lowercase letters'). Strand advance: handwriting 1/3 → 2/3 (form-numerals-0-to-10 remains for Arc 18 P1.2 candidate to bring strand to 3/3 SAT). 5 worksheet exercises + 8 printable materials over a 1-week unit. Load-bearing materials: vocabulary-tracing-strips with lowercase labelCase + dotted trace style + independent line (the literal handwriting-pedagogy substrate) + manipulative-cut-outs with 26 lowercase letter shapes (kinesthetic letter-formation support)."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class lowercase letter-formation introduction.
+      Teacher displays a large lowercase 'a' on the board.
+      "Yesterday we made the BIG A — uppercase. Today we
+      learn the SMALL a — lowercase. They sound the same
+      when we read them, but they look different + we make
+      them differently. Watch the small a — round circle
+      + a short straight line on the right." Teacher traces
+      the 'a' in the air with one finger; class mirrors.
+      Teacher then forms 'a' on the board with dotted-line
+      guides showing the strokes. Class chants the
+      formation: "Round circle, line down!" Teacher repeats
+      with 'b' (note: ascender goes ABOVE the line — "the
+      tall part of b goes UP, and the round belly goes
+      RIGHT") and 'g' (note: descender goes BELOW the line
+      — "the round head sits on the line, and the tail
+      hangs DOWN below"). Pattern emphasis: "Lowercase
+      letters live in THREE zones: most letters sit
+      between the bottom line and a middle line — like a,
+      c, e, m, n, o. SOME letters have a TALL part that
+      goes ABOVE the middle line — b, d, f, h, k, l, t —
+      we call those ASCENDERS. SOME letters have a TAIL
+      that hangs BELOW the bottom line — g, j, p, q, y —
+      we call those DESCENDERS." Teacher writes 'cat' with
+      all three zones visible: c sits on the line, a sits
+      on the line, t has an ascender that goes up. Then
+      'dog' with the descender on g. Pattern: "The zones
+      help us make each letter the right SIZE."
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + tracing-then-independent routine for
+      lowercase letters. Each pair receives vocabulary-
+      tracing-strips with target lowercase letters in
+      dotted form alongside an independent-writing line.
+      Pair takes turns: kid A traces a lowercase letter
+      on the dotted form; kid B watches + names the letter.
+      Then kid A attempts the letter independently on the
+      blank line; kid B compares the independent attempt
+      to the dotted form. Recast errors with zone-cues
+      ("Your 'g' has the tail going the wrong way — the
+      tail goes DOWN below the line. Let me show you
+      again") + ascender/descender cues ("Your 'b' looks
+      like 'd' — the tall part of 'b' is on the LEFT, and
+      the belly is on the RIGHT. Let me show you the
+      difference"). The dotted-to-independent progression
+      is the load-bearing fine-motor work; the teacher's
+      role is to model the formation initially + step back
+      as kids gain independence. Letter-shape manipulative-
+      cut-outs in lowercase form are available as a
+      kinesthetic support — kids can pick up a 3D
+      lowercase letter cut-out + feel the shape with their
+      hands while writing. Note for the teacher: the
+      visually-similar lowercase pairs (b/d, p/q, n/u, m/w)
+      benefit from explicit side-by-side comparison work;
+      the curves of a/c/e/o/s benefit from continuous-
+      motion tracing (one stroke without lifting the
+      pencil).
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching activity (kids
+      match each lowercase letter to its vocabulary anchor
+      image — letter-recognition refresh that re-anchors
+      the form they're learning to make). Station 2: chart-
+      count alphabet sequence in lowercase (counting
+      through a-z reinforces the letter inventory while the
+      formation work continues; also surfaces the
+      lowercase-form differences from the uppercase
+      sequence). Station 3: math-puzzle (lowercase letter-
+      form fill-in — given a partial lowercase letter
+      outline, kid completes the missing strokes). Station
+      4: missing-pieces (similar gap-completion at the
+      lowercase letter-form level — note: lowercase
+      missing-pieces work surfaces the ascender/descender
+      zones explicitly because partial-letter completion
+      requires knowing where the letter sits in the
+      vertical zone-structure).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class lowercase letter-formation quick-recall.
+      Teacher names a lowercase letter; class makes the
+      letter in the air with one finger + says the
+      formation aloud. "Make m! — down, up, hump, hump,
+      down!" "Make q! — round, line down, tail to the
+      right!" "Make e! — curve up, curve around!" Teacher
+      then poses the visually-similar-pair diagnostic:
+      "Make b — show me with your hand which side the tall
+      part goes on!" (Class: LEFT! Tall on left, belly on
+      right.) "Make d — show me!" (Class: RIGHT! Tall on
+      right, belly on left.) Forward-pointer: "Today we
+      added LOWERCASE letter formation to our handwriting
+      work. We now know how to make uppercase AND lowercase
+      letters — almost the full English alphabet skill set.
+      Next we'll add NUMBER FORMATION (0, 1, 2, 3, 4, 5,
+      6, 7, 8, 9) to complete our basic handwriting
+      strand. The motor routine you learned for uppercase
+      and lowercase letters — tracing on dotted form, then
+      writing independently — works for numbers too."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: chart-count
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: math-puzzle
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en, difficulty: easy }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: missing-pieces
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 26
+      cardsPerPage: 8
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 26
+      cardsPerPage: 8
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 12
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: i-see-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 10
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      stripCount: 12
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 5
+    pedagogicalRole: handwriting-formation
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 26
+      itemSize: medium-1.5in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 6
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 7
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 8
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: fine-motor-and-visual-spatial /
+    handwriting (form lowercase letters — advances strand
+    1/3 → 2/3; form-numerals-0-to-10 remains for Arc 18
+    P1.2 candidate to bring strand to 3/3 SAT). Secondary
+    strand: early-literacy / letter-recognition (the
+    formation work reinforces lowercase letter-shape
+    recognition kids established at identify-lowercase-
+    letters prerequisite). Tertiary strand: fine-motor-
+    control (the actual pencil-grip + stroke-control work
+    + zone-awareness work that lowercase handwriting
+    requires).
+
+    Architectural significance: extends the handwriting
+    strand opened by Arc 17 P1.5 form-uppercase-letters.
+    Where form-uppercase-letters established the motor-
+    routine fluency for uppercase formation (26 letter
+    shapes, all sitting on the baseline, no ascenders or
+    descenders to track), this package adds the more
+    motor-demanding lowercase set: most lowercase letters
+    have THREE-ZONE structure (descender below baseline +
+    x-height-middle + ascender above x-height), and
+    several lowercase pairs are visually similar (b/d,
+    p/q, n/u, m/w) requiring explicit orientation
+    attention. The lowercase work is the natural successor
+    to uppercase + identify-lowercase-letters (the
+    recognition-before-formation chain canonical for
+    lowercase as well as uppercase).
+
+    Cross-reference to Arc 17 P1.5 form-uppercase-letters
+    (the motor-routine fluency prerequisite): that package
+    established the dotted-trace + independent-line
+    pedagogy + the basic 26-letter motor inventory; this
+    package applies the SAME pedagogy to a more demanding
+    lowercase letter set. The dotted-trace + independent-
+    line is reusable; the zone-awareness + visually-
+    similar-pair-disambiguation is lowercase-specific
+    added pedagogy.
+
+    Cross-reference to identify-lowercase-letters (the
+    letter-shape recognition prerequisite): kids must
+    recognize the lowercase letter forms before they can
+    reliably form them. The recognition-before-formation
+    sequence is canonical early-literacy pedagogy at the
+    lowercase level same as at uppercase. If
+    identify-lowercase-letters has not been taught yet,
+    this package should defer; pre-K and early-K students
+    can do uppercase formation work without lowercase
+    recognition prerequisite, but the lowercase formation
+    work specifically depends on lowercase recognition.
+
+    Per §A.13.30 K-foundational-informal framing: K-1
+    lowercase handwriting is RECOGNIZABLE LOWERCASE LETTER
+    FORMATION, not formal stroke-order memorization or
+    precise calligraphy. The vocabulary-tracing-strips
+    material's dotted-line templates guide kids through
+    canonical lowercase letter forms; the independent-
+    writing line lets kids attempt formation without
+    scaffolding. Zone-awareness (ascender/descender/
+    x-height) is introduced informally via the dotted-
+    line templates that show the zones visually — kids
+    don't need to memorize zone vocabulary, but their
+    formation work IS guided by the zone-structure
+    embedded in the template. Both teacher and parent can
+    use whichever stroke-order pedagogy their curriculum
+    prefers — this package teaches the OUTCOME
+    (recognizable lowercase letter shapes) without
+    prescribing one PROCESS. K-1 kids physically struggle
+    with precise calligraphy; the goal at this age is the
+    motor-routine fluency.
+
+    Distinctive composition: 1 matching (intro — lowercase
+    letter-recognition anchor) + 1 chart-count (lowercase
+    alphabet sequence work) + 1 math-puzzle (lowercase
+    letter-form fill-in) + 1 matching (letter-mode at
+    consolidation) + 1 missing-pieces (assessment —
+    complete the partial lowercase letter form). Same
+    composition shape as Arc 17 P1.5 form-uppercase-
+    letters; content adjusted for lowercase scope (all
+    customizationParameters use lowercase labelCase
+    throughout; matching + math-puzzle + missing-pieces
+    work surfaces lowercase letter-form completion at
+    positions 3 + 5).
+
+    Materials note: 8-material Literacy class stack per
+    §A.13.37 (Literacy 8 vs Numeracy 7). Adds sentence-
+    strips (position 4; framePreset 'i-see-a' for letter-
+    in-context anchoring — kids see 'I see a [letter-
+    word]' sentences that contextualize the lowercase
+    letter formation work) on top of the canonical 7-
+    material literacy-tracing stack. Mirrors form-
+    uppercase-letters precedent on materials-list shape
+    exactly; differs in labelCase parameter (lowercase
+    throughout instead of UPPERCASE). Vocabulary-tracing-
+    strips at position 5 with pedagogicalRole 'handwriting-
+    formation' is the load-bearing material — the dotted-
+    template + independent-line shape is the literal
+    handwriting-pedagogy substrate, now in lowercase form.
+    Manipulative-cut-outs at position 6 emits
+    `mode: single-repeat` with itemCount 26 — mirrors
+    form-uppercase-letters precedent shape verbatim (26
+    letter-shape cut-outs for kinesthetic letter-
+    formation support, now in lowercase form).
+
+    Class B FLEXIBLE substrate: composes against animals
+    theme (literacy-class precedent per identify-
+    uppercase-letters + identify-letter-sounds-vowels +
+    form-uppercase-letters; vocab-anchored animal-names
+    per letter — a-antelope, b-bear, c-cat, d-dog, ...
+    z-zebra — provide the familiar vocabulary anchor in
+    lowercase form for this package).
+
+    K-3 multilingual classroom relevance: lowercase letter
+    formation is target-language-specific same as
+    uppercase. en lowercase alphabet has 26 letters;
+    cross-locale lowercase inventories vary: de has 30
+    (adds äöüß); es has 27 (adds ñ); fr/it/pt have 26
+    (with diacritical marks on some letters); fi has 29
+    (adds åäö); sv has 29 (adds åäö); da/no have 29 (adds
+    æøå); nl has 26 (with ij as digraph). The motor-
+    routine for lowercase letter formation is locale-
+    portable; the LETTER INVENTORY varies — and several
+    locale-specific lowercase letters have additional
+    motor demands (German ß requires a unique stroke;
+    Nordic æøå include compound + accented forms; Spanish
+    ñ requires tilde-over-n work). The zone-structure
+    (ascender / x-height / descender) is locale-portable;
+    most Latin-alphabet languages share the canonical
+    zone-positions per letter. Locale-variant work at
+    Phase 3+ adapts to each locale's extended lowercase
+    letter set + diacritical-mark handling. For the first
+    locale-variant pass per Arc 18 P1.1 cadence, pt uses
+    the standard 26-letter inventory (Brazilian
+    Portuguese does not include accent-bearing letters as
+    separate alphabet entries; accents are applied to
+    vowels at spelling-not-formation time per established
+    Arc 17 P1.5 form-uppercase-letters convention).
+
+curriculumStandards:
+  - CCSS.L.K.1a
+  - CCSS.K.RF.1
+  - EYFS.ELG.LIT.W
+  - EYFS.ELG.PD.FM
+  - IB-PYP.HowWeExpressOurselves
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Trace 20 of 26 lowercase letters recognizably on
+        the dotted-line template in 8 of 10 trials.
+      - Independently form 15 of 26 lowercase letters
+        recognizably (not perfectly — recognizably) in 7
+        of 10 trials.
+      - Distinguish visually-similar lowercase pairs
+        (b/d, p/q, n/u, m/w) correctly in formation in 5
+        of 8 trials.
+      - Place ascender letters (b, d, f, h, k, l, t)
+        with the tall part in the ascender zone (above
+        x-height) in 6 of 10 trials.
+      - Place descender letters (g, j, p, q, y) with the
+        tail in the descender zone (below baseline) in 6
+        of 10 trials.
+      - Use vocabulary 'lowercase' / 'small letter' /
+        'tall part' / 'tail' correctly in 5 of 10
+        productive-language trials.
+
+    Differentiation:
+    - Pre-K: skip independent formation; tracing-only
+      work on 8-10 most-frequent lowercase letters
+      (vowels a/e/i/o/u + common consonants b/c/d/m/n/s/t).
+      Pencil-grip development remains the primary motor
+      goal at this age.
+    - K: full 26-letter lowercase tracing fluency;
+      independent formation on the most-frequent 13
+      lowercase letters (a/e/i/o/u/b/c/d/m/n/s/t/r — the
+      most commonly-used lowercase in K texts).
+    - Grade 1: full 26-letter lowercase independent
+      formation fluency; recognizability the load-bearing
+      goal (not calligraphic perfection); visually-
+      similar pair disambiguation explicitly assessed.
+    - Grade 2+: brief reinforcement + bridge to form-
+      numerals-0-to-10 (Arc 18 P1.2 candidate) +
+      cursive-introduction work. By Grade 2 most kids
+      transition to print-write fluency in both case
+      forms; the dotted-template scaffolding falls away.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

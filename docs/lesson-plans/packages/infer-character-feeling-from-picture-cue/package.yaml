@@ -1,0 +1,464 @@
+# Teaching package — infer character feeling from picture cue
+# Arc 18 Phase 1.3 (language-and-communication / reading-comprehension 6/10 → 7/10). Pair-coherent ship pattern with answer-who-what-where-questions (slot 1 of Phase 1.3; the K foundation) + Arc 17 P1.5 identify-main-character (the WHO-identification precedent). Together with Arc 18 P1.2 identify-setting, forms the K → Grade 1 character-knowledge cluster. Builds on Arc 17 P1.5 identify-main-character (character-identification substrate) + identify-and-name-emotions (emotion-vocabulary substrate; Arc 4 vocabulary-acquisition strand).
+
+targetSlug: infer-character-feeling-from-picture-cue
+language: en
+title:
+  en: "Infer Character Feelings — what is the character feeling?"
+
+description:
+  en: "Grade 1 reading-comprehension package teaching kids to INFER a character's emotional state from picture cues (facial expression + body language + situation context). Builds on Arc 17 P1.5 identify-main-character (kids who can identify WHO the story is about can now infer how that character FEELS) + identify-and-name-emotions (Arc 4 vocabulary-acquisition; kids know the emotion-vocabulary words: happy, sad, angry, scared, excited, surprised, proud, frustrated). Reading-comprehension strand advances 6/10 → 7/10. Pair-coherent ship with answer-who-what-where-questions (Slot 1 of Phase 1.3) — together they form the K → Grade 1 character-knowledge cluster (Slot 1 K-level: WHO/WHAT/WHERE extraction; Slot 2 Grade 1: WHO + emotional-state inference). Per §A.13.30 K-1-informal framing: Grade 1 character-feeling-inference is PICTURE-CUE READING + EMOTION-VOCABULARY MATCHING, NOT formal psychological analysis. Kids see a character's face + posture in the picture, read or hear the story-context, and infer the most likely feeling from the emotion-vocabulary they already know. The inferential step is the Grade 1 cognitive demand — kids must move from explicit (WHO is named in the text) to implicit (WHAT is the character feeling, even if not directly stated). CCSS.RL.1.3 primary anchor ('Describe characters, settings, and major events in a story, using key details'); the Grade 1 'describe characters' scope explicitly includes inferred attributes like feelings. 5 worksheet exercises + 8 printable materials over a 1-week unit. Load-bearing material: sentence-strips with this-is-a framePreset (character-emotion frames: 'This character is [emotion]. The character feels [emotion] because [reason from picture].')."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class character-feeling-inference introduction.
+      Teacher displays 4 character images, each showing a
+      distinct facial expression: a smiling character; a
+      character with tears running down their cheeks; a
+      character with furrowed brows and clenched fists;
+      a character with wide eyes and an open mouth (in
+      surprise). "Look at these characters' faces. What
+      do you think each one is feeling?" Class names each:
+      "Happy! Sad! Angry! Surprised!" Teacher then adds
+      story-context to each: "This character is smiling
+      AT a birthday cake — happy. This character is crying
+      BECAUSE they lost their toy — sad. This character is
+      glaring at a broken truck — angry. This character is
+      seeing a rainbow for the first time — surprised."
+      Pattern emphasis: "We INFER how a character feels.
+      Their FACE gives us clues. Their BODY gives us
+      clues. The STORY gives us clues. We put the clues
+      together + figure out the feeling. This is called
+      INFERRING — going beyond what the words say to what
+      they MEAN." Teacher writes 4 emotion words on
+      board: happy, sad, angry, surprised. Adds 4 more:
+      scared, excited, proud, frustrated. "Eight feeling
+      words for our character-feeling work today."
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + character-feeling routine. Each pair
+      receives 8 character scene cards (each card shows a
+      character in a situation with clear emotion cues:
+      facial expression + body language + context object)
+      + 8 emotion word cards (happy, sad, angry, scared,
+      excited, surprised, proud, frustrated). Pair takes
+      turns: kid A picks a scene card; kid B says aloud:
+      "This character is [emotion]. The character feels
+      [emotion] because [reason from picture]." Kid B
+      finds the matching emotion word card + lays it next
+      to the scene. Recast errors with cue-pointing
+      ("you said the character is happy, but look — the
+      eyebrows are pointing DOWN and the mouth is
+      FROWNING. Those are SAD or ANGRY cues. The character
+      is also holding broken pieces of a toy — that's
+      sad. Let's say: this character is SAD because their
+      toy broke."). Optional extension: kids invent their
+      own feeling-story — show a scene card to their
+      partner, describe what the character is feeling and
+      WHY. Note for the teacher: K-1 kids often default
+      to two emotions (happy/sad) when 8 emotion words
+      are available. Explicitly distinguishing the more
+      nuanced emotions (frustrated vs angry; surprised vs
+      scared; proud vs happy) is Grade 1 cognitive work.
+      Recast errors that conflate similar emotions ("you
+      said the character is angry, but their eyes are
+      WIDE open and their mouth is hanging open — that's
+      surprised, not angry. Angry has narrowed eyes;
+      surprised has wide eyes.").
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching activity
+      (kids match each character image to the emotion-
+      word card; the canonical character-feeling-pairing
+      exercise). Station 2: picture-sort activity (sort
+      character images into emotion categories: happy
+      faces vs sad faces vs angry faces vs surprised
+      faces — surfaces facial-expression-cue
+      discrimination). Station 3: missing-pieces
+      (complete a partial character image — the missing
+      piece often is the mouth or the eyebrows, which
+      determines the emotion). Station 4: matching
+      activity at consolidation (character image to
+      emotion-word card; reinforces the canonical
+      pairing).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class character-feeling quick-recall. Teacher
+      displays 4 character images; class chorally
+      identifies each feeling. "This character is HAPPY
+      — smiling face, eyes crinkled, holding a present!"
+      "This character is FRUSTRATED — eyes narrowed,
+      hands on hips, looking at a puzzle that won't
+      fit!" "This character is PROUD — chin lifted,
+      shoulders back, holding a trophy!" "This character
+      is SCARED — wide eyes, hands raised, backing away
+      from a spider!" Teacher then poses the inference-
+      reasoning question: "How do you know the character
+      is scared?" (Class: WIDE EYES! HANDS UP! BACKING
+      AWAY! THE SPIDER IS SCARY!) Forward-pointer: "Today
+      we INFERRED character feelings from picture cues +
+      story context. Reading is about understanding
+      WHAT'S BEHIND the words — what characters FEEL +
+      WHY they feel it. Next we'll learn IDENTIFY THE
+      PROBLEM AND SOLUTION (what GOES WRONG in a story,
+      and how is it FIXED?). When we know WHO is in the
+      story + WHERE they are + WHAT they're doing + HOW
+      they feel + WHAT the problem is + HOW it gets
+      solved, we know the WHOLE story. We're building
+      toward telling complete stories ourselves."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: animals, rightCategoryThemeSelect: vehicles, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: missing-pieces
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 12
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 5
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 6
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 7
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 8
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: language-and-communication / reading-
+    comprehension (infer character feelings from picture
+    cues — advances strand 6/10 → 7/10). Secondary
+    strand: vocabulary-acquisition (emotion vocabulary
+    is the substrate; depends on Arc 4 identify-and-name-
+    emotions packaging). Tertiary strand: cognitive-and-
+    executive-function / social-emotional-learning (the
+    inferential work of reading another person's
+    emotional state is foundational to perspective-
+    taking — a CEF + SEL skill).
+
+    Architectural significance: continues reading-
+    comprehension strand expansion. Per learning-targets.
+    json the strand has 10 canonical targets; current
+    state at Arc 18 P1.3 commencement is 5 authored
+    + 1 (slot 1 of Phase 1.3); this package is the
+    seventh, bringing the strand to 7/10. Per learning-
+    targets.json prerequisite chain: identify-main-
+    character (Arc 17 P1.5) establishes WHO-identification
+    foundation; identify-and-name-emotions (Arc 4 in
+    vocabulary-acquisition strand) establishes emotion-
+    word vocabulary foundation. THIS PACKAGE synthesizes
+    both prerequisites: kids must KNOW the character
+    (WHO) AND KNOW emotion words (HAPPY/SAD/etc.) to
+    INFER the character's feeling from picture cues.
+
+    Pair-coherent ship pattern with answer-who-what-
+    where-questions (Slot 1 of Phase 1.3). The two
+    packages teach incremental cognitive layers:
+    - answer-who-what-where-questions (Slot 1, K): K-level
+      EXPLICIT element extraction. Kids identify WHO,
+      WHAT, WHERE — elements that are DIRECTLY shown in
+      the picture or NAMED in the text.
+    - infer-character-feeling-from-picture-cue (THIS
+      PACKAGE, Grade 1): Grade-1 INFERENTIAL element
+      extraction. Kids identify HOW THE CHARACTER FEELS
+      — an element that is IMPLIED by picture cues +
+      story context, NOT directly stated in words.
+    The K → Grade 1 cognitive jump is from EXPLICIT to
+    INFERENTIAL reading. The pair-coherent ship surfaces
+    this progression as a natural learning trajectory:
+    a kid who answers WHO + WHAT + WHERE questions
+    fluently is ready to take the inferential step to
+    HOW-DOES-THE-CHARACTER-FEEL.
+
+    Together with Arc 17 P1.5 identify-main-character
+    (the WHO precedent) + Arc 18 P1.2 identify-setting
+    (the WHERE precedent) + Slot 1 answer-who-what-
+    where-questions (the WHO/WHAT/WHERE generalization)
+    + this package (the WHO+feeling extension), forms
+    the K → Grade 1 character-knowledge cluster of 4
+    pair-coherent packages.
+
+    Reading-comprehension strand future (Phase 1.4+
+    candidates per learning-targets.json residual):
+    identify-problem-and-solution (forward-pointer from
+    identify-setting closing rationale), distinguish-
+    fiction-from-nonfiction, read-and-follow-2-sentence-
+    instruction. Phase 1.4+ closes the strand at 9-10/10.
+
+    Per §A.13.30 K-1-informal framing: Grade 1
+    character-feeling-inference is PICTURE-CUE READING
+    + EMOTION-VOCABULARY MATCHING, NOT formal
+    psychological analysis. The K-1-Grade-1 identifier
+    signals are deliberately concrete:
+    - FACIAL EXPRESSION (eyebrows, mouth, eyes) gives
+      the most direct emotion cue
+    - BODY LANGUAGE (posture, gesture) reinforces the
+      facial cue
+    - SITUATION CONTEXT (what's happening; what objects
+      are in the picture) provides the WHY for the
+      emotion
+    These signals make the inference accessible at
+    Grade 1 without requiring formal literary-analysis
+    vocabulary or independent decoding fluency. Grade
+    2+ work extends to character-motivation analysis
+    (WHY the character feels this; what their goals
+    are), character-arc work (how feelings CHANGE
+    across the story), and emotional-complexity
+    recognition (mixed feelings; conflicted emotions) —
+    all beyond Grade 1 scope here.
+
+    Cross-reference to identify-main-character
+    (Arc 17 P1.5; WHO-extraction prerequisite): that
+    package established that K-1 kids can identify the
+    protagonist of a story. This package extends that
+    work by asking what the protagonist is FEELING —
+    the inferential next step. The character-extraction
+    + character-feeling combination grounds the broader
+    character-knowledge work kids do throughout
+    elementary reading.
+
+    Cross-reference to identify-and-name-emotions (Arc 4
+    vocabulary-acquisition; emotion-word substrate):
+    that package established the emotion-vocabulary
+    (happy, sad, angry, scared, etc.) kids use to label
+    their own feelings. This package extends that work
+    by applying the emotion-vocabulary to STORY
+    CHARACTERS — reading another person's feelings
+    rather than naming one's own. The vocabulary-to-
+    application bridge is the cognitive lift.
+
+    Distinctive composition: 3 matching exercises
+    (canonical reading-comp pattern — match character-
+    image to emotion-word across multiple practice
+    slots) + 1 picture-sort (sort character images by
+    emotion category) + 1 missing-pieces (complete a
+    partial character image — the missing piece is
+    often the mouth or eyebrows, which determines the
+    emotion). Composition shape mirrors identify-
+    setting + identify-main-character + Slot 1 answer-
+    who-what-where-questions precedents exactly (3
+    matching + 1 picture-sort + 1 missing-pieces) —
+    the canonical K-Grade-1 reading-comp app pattern.
+
+    Materials note: 8-material Literacy class stack per
+    §A.13.37. Sentence-strips at position 4 with
+    framePreset 'this-is-a' (character-emotion frames:
+    "This character is [emotion]. The character feels
+    [emotion] because [reason from picture].") is the
+    load-bearing material — the literal feeling-
+    vocabulary substrate kids work with. Vocabulary-
+    tracing-strips at position 5 traces emotion-
+    vocabulary words ('happy', 'sad', 'angry',
+    'scared', 'surprised', 'excited', 'proud',
+    'frustrated'). The combination surfaces both the
+    receptive inferential work (read character feelings
+    from picture cues) AND the productive-language
+    work (use emotion-vocabulary in retellings of
+    character feelings).
+
+    Class B FLEXIBLE substrate: composes against
+    animals theme (animal-character emotions are K-1-
+    accessible per identify-main-character precedent;
+    early picture books overwhelmingly feature
+    emotional animal-protagonists — Pete the Cat happy,
+    The Pigeon angry, Splat the Cat scared, etc. The
+    genre is animal-rich + culturally universal across
+    the 11 locale variants).
+
+    K-3 multilingual classroom relevance: character-
+    feeling-inference is universal K-3 comprehension
+    content. The emotional concept-set (happy, sad,
+    angry, scared, surprised, excited, proud,
+    frustrated) is locale-portable; only the
+    vocabulary varies. Cross-locale emotion vocabulary:
+    en 'happy/sad/angry/scared/surprised/excited/proud/
+    frustrated'; de 'glücklich/traurig/wütend/ängstlich/
+    überrascht/aufgeregt/stolz/frustriert'; es 'feliz/
+    triste/enojado/asustado/sorprendido/emocionado/
+    orgulloso/frustrado'; pt 'feliz/triste/bravo/com
+    medo/surpreso/animado/orgulhoso/frustrado'; fr
+    'heureux/triste/en colère/effrayé/surpris/excité/
+    fier/frustré'; it 'felice/triste/arrabbiato/
+    spaventato/sorpreso/eccitato/orgoglioso/frustrato'.
+    The Romance + Germanic emotion vocabulary is
+    cognate-rich (frustrated / frustriert / frustrado /
+    frustré / frustrato show clear cognate pattern;
+    surprised has more variation). Locale-variant work
+    at Phase 3+ adapts to each locale's emotion-
+    vocabulary register + culturally-familiar emotional-
+    situation contexts (some emotion expressions are
+    culture-bound; what makes a character 'proud' in
+    one culture may differ from another).
+
+curriculumStandards:
+  - CCSS.RL.1.3
+  - CCSS.RL.K.3
+  - CCSS.K.RL.7
+  - CCSS.SL.1.1
+  - EYFS.ELG.LIT.C
+  - EYFS.ELG.PSED
+  - IB-PYP.WhoWeAre
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Identify the emotion of a character in a picture
+        scene correctly from 8 emotion options (happy,
+        sad, angry, scared, surprised, excited, proud,
+        frustrated) in 7 of 10 trials.
+      - Articulate the WHY of the character's emotion
+        ('the character is sad because their toy broke')
+        in 5 of 10 productive-language trials.
+      - Distinguish similar emotions (happy vs proud;
+        sad vs frustrated; angry vs scared; surprised vs
+        excited) in 5 of 10 trials.
+      - Use vocabulary 'feel' / 'feeling' / 'emotion' /
+        'character' / 'infer' / 'because' correctly in
+        5 of 10 productive-language trials.
+
+    Differentiation:
+    - Pre-K: skip inferential character-feeling work;
+      use identify-and-name-emotions (Arc 4) for own-
+      emotion recognition first.
+    - K: introduce character-feeling inference with the
+      4 simplest emotions (happy, sad, angry, scared);
+      defer subtler 4 (proud, surprised, excited,
+      frustrated) until Grade 1.
+    - Grade 1: full 8-emotion character-feeling
+      inference fluency; bridge to character-motivation
+      work (WHY characters feel this way).
+    - Grade 2+: character-arc work (how feelings change
+      across a story); mixed-emotion recognition
+      (character feels happy AND nervous); bridge to
+      identify-problem-and-solution (Phase 1.4
+      candidate; problem-and-solution work often
+      involves character-feelings as the emotional
+      signal of the narrative tension).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

@@ -1,0 +1,369 @@
+# Teaching package — partition shapes into halves and quarters
+# Arc 18 Phase 1.1 (geometry 7/8; paired with identify-fractions-half-third-quarter at slot 4 — together they saturate the geometry strand 8/8). Builds on Arc 17 P1.3 compose-shapes-from-parts (part-whole reasoning established) + Arc 9 identify-2d-shapes-basic (shape recognition prerequisite).
+
+targetSlug: partition-shape-halves-quarters
+language: en
+title:
+  en: "Partition Shapes into Halves and Quarters — cutting a shape into equal parts"
+
+description:
+  en: "Grade 1 math + geometry package teaching kids to PARTITION simple 2D shapes (circles, squares, rectangles) into 2 equal parts (HALVES) or 4 equal parts (QUARTERS/FOURTHS). Builds on Arc 17 P1.3 compose-shapes-from-parts (where kids learned that shapes have part-whole structure) by reversing the action: partition is decomposition with the CONSTRAINT OF EQUAL PARTS. Critical insight: kids learn the difference between cutting a shape into ANY pieces (composition's flexible reverse) vs cutting it into EQUAL pieces (partition's strict reverse). Equal parts give the parts a NAME — two equal parts are HALVES; four equal parts are QUARTERS or FOURTHS. Per §A.13.30 K-foundational-informal framing: K-1 partition work introduces equal-share VOCABULARY + the visual structure of partitioned shapes; formal 1/2 + 1/4 fraction notation is Grade 3+ (CCSS.3.NF.A) and explicitly out of scope. CCSS.1.G.A.3 primary anchor ('partition circles and rectangles into two and four equal shares, describe the shares using the words halves, fourths, and quarters'). Pair partner: identify-fractions-half-third-quarter (slot 4 of Phase 1.1; extends the named-equal-parts work to also include THIRDS at the Grade 2 level per CCSS.2.G.A.3). Together the pair saturates the geometry strand 8/8 — the 23rd saturated strand in the catalog. 5 worksheet exercises + 7 printable materials over a 1-week unit. Manipulative-cut-outs with vocabKey-enumerated fraction-piece shapes is the load-bearing material — kids physically arrange whole shapes alongside their partitioned forms to internalize the equal-parts visual structure."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook + partition introduction with paper
+      shapes. Teacher holds up a paper circle. "Watch what
+      happens when I cut this circle into TWO equal pieces."
+      Teacher folds the circle exactly in half + cuts along
+      the fold. "Two equal pieces. Each piece is a HALF of
+      the whole circle. Two halves make one whole." Teacher
+      holds up the two halves + matches them back together.
+      Class chants: "Two halves make a whole!" Then with a
+      square: teacher folds the square once + cuts (two
+      rectangles — two HALVES of the square); then folds it
+      again perpendicular + cuts both halves (four small
+      squares — four QUARTERS or FOURTHS of the original
+      square). "Four equal pieces. Each piece is a QUARTER
+      of the whole square. We can also say FOURTH — quarter
+      and fourth mean the same thing. Four quarters make
+      one whole." Pattern emphasis: "When we cut a shape
+      into EQUAL pieces, the pieces have NAMES. Two equal
+      pieces are HALVES. Four equal pieces are QUARTERS.
+      Unequal pieces don't get those names — they're just
+      pieces."
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + partition routine with paper shape pieces.
+      Each pair receives a bag of whole shapes (circles,
+      squares, rectangles in 3 sizes each) + the matching
+      partitioned versions (halves of each shape; quarters
+      of each shape). Pair plays the matching challenge:
+      teacher names a partition (e.g., "show me halves of
+      a circle"); kids find the two half-circle pieces +
+      arrange them back into the whole circle shape. Then
+      "show me quarters of a square" + kids arrange four
+      small squares into the original square shape. Recast
+      errors by demonstrating: "These two pieces are
+      DIFFERENT SIZES — they're not halves. Halves have to
+      be EQUAL. Let me show you the equal pieces." Free
+      time at end: kids match wholes with their partitioned
+      forms across all shapes in the bag. The hands-on
+      reassembly is load-bearing — kids see that the parts
+      ARE the whole (just cut up) by physically putting them
+      back together. The cut-out manipulatives with vocabKey-
+      enumerated fraction-pieces (whole-circle, half-circle,
+      quarter-circle, whole-square, half-square, quarter-
+      square, whole-rectangle, half-rectangle, quarter-
+      rectangle) are exactly the inventory kids need.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching activity — match
+      each partitioned shape (a circle cut into two halves;
+      a square cut into four quarters; etc.) to its whole
+      shape counterpart. Station 2: missing-pieces activity
+      — kids see a partial partition (one half-circle drawn;
+      one half missing) + identify which piece completes the
+      whole. Station 3: grid-match activity — kids fit
+      partitioned pieces into a grid layout to reconstruct
+      the whole shape. Station 4: picture-sort activity —
+      sort partitioned shapes into 'cut into halves' vs
+      'cut into quarters' categories. The picture-sort at
+      station 4 surfaces the equal-parts-counting structure
+      (halves = 2; quarters = 4).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class partition quick-recall. Teacher displays
+      shapes on the board; class chorally names the
+      partition. "Circle cut into two equal pieces — halves!
+      Square cut into four equal pieces — quarters! Rectangle
+      cut into two equal pieces — halves! Square cut into
+      two equal pieces — halves!" Teacher asks the
+      diagnostic: "What if I cut a shape into TWO pieces
+      that aren't equal — are those halves?" (Class: No!
+      They're just pieces. Halves have to be equal.)
+      Forward-pointer: "Today we partitioned shapes into
+      halves and quarters — equal pieces with names. Next,
+      we'll learn what to call those equal pieces when we
+      see them ALONE (without seeing the cutting happen) +
+      meet a new equal-pieces name: THIRDS (three equal
+      pieces). Later in school, halves and quarters and
+      thirds will become FRACTIONS — written with numbers.
+      For now, the names + the visual structure are what
+      we're learning."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: shapes, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: missing-pieces
+    exerciseMode: unified
+    customizationParameters: { themeSelect: shapes, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: grid-match
+    exerciseMode: unified
+    customizationParameters: { themeSelect: shapes, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: picture-sort
+    exerciseMode: unified
+    customizationParameters: { themeSelect: shapes, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: shapes, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      cardCount: 18
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      cardCount: 18
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      pairCount: 10
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: shapes
+      stripCount: 10
+      stripsPerPage: 5
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys:
+        - whole-circle
+        - half-circle
+        - quarter-circle
+        - whole-square
+        - half-square
+        - quarter-square
+        - whole-rectangle
+        - half-rectangle
+        - quarter-rectangle
+      mode: variety
+      itemCount: 3
+      itemSize: medium-1.5in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: shapes
+      pictureCueCount: 6
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: math / geometry (partition shapes into
+    equal parts — extends strand 7/8 alongside slot-4 pair
+    partner identify-fractions-half-third-quarter; together
+    the pair saturates the strand 8/8). Secondary strand:
+    spatial-reasoning (the visual-structural work of seeing
+    a whole as equal parts + equal parts as a whole).
+    Tertiary strand: vocabulary-acquisition (partition
+    vocabulary: equal, equal parts, partition, halves,
+    fourths, quarters, whole, share).
+
+    Architectural significance: extends geometry strand
+    from spatial-composition reasoning (Arc 17 P1.3
+    compose-shapes-from-parts) into EQUAL-PARTS partition
+    reasoning. Where compose-shapes-from-parts taught that
+    shapes have part-whole structure with ANY decomposition
+    (a house = square + triangle on top; equally a rocket
+    = rectangle + triangle + small rectangles), this
+    package adds the EQUAL-PARTS CONSTRAINT — two equal
+    pieces are halves; four equal pieces are quarters.
+    Unequal pieces don't get those names. This is the K-3
+    anchor for later fraction work: a fraction names an
+    equal-part share of a whole. Pair partner identify-
+    fractions-half-third-quarter (slot 4) extends the
+    named-equal-parts vocabulary work to ALSO cover thirds
+    (which CCSS.2.G.A.3 introduces at Grade 2) — together
+    the pair saturates the geometry strand 8/8 (23rd
+    saturated strand in the catalog).
+
+    Per §A.13.30 K-foundational-informal framing: K-1
+    partition work introduces the equal-share VOCABULARY
+    (halves, quarters, fourths) + the VISUAL STRUCTURE of
+    partitioned shapes. Formal fraction notation (1/2 + 1/4
+    + 1/3 written symbolically) is Grade 3+ work per
+    CCSS.3.NF.A and explicitly out of scope here. Kids
+    leave this unit able to identify partitioned shapes by
+    name + reconstruct wholes from parts; they do NOT need
+    to write fractions in numeric form. The visual + verbal
+    vocabulary is the load-bearing K-1 fluency target.
+
+    Distinctive composition: 2 matching (intro + assessment,
+    bookending the partition-recognition work) + 1 missing-
+    pieces (canonical app for partition gap-completion —
+    given a partial partitioned shape, kids identify the
+    missing equal-part piece) + 1 grid-match (spatial-fit
+    work; kids fit equal-part pieces into a grid to
+    reconstruct the whole) + 1 picture-sort (sorting
+    partitioned shapes into halves vs quarters categories;
+    surfaces the equal-parts-counting structure 2 vs 4).
+    Composition shape mirrors Arc 17 P1.3 compose-shapes-
+    from-parts exactly (2 matching + 1 missing-pieces + 1
+    grid-match + 1 picture-sort) — partition is composition's
+    reverse with equal-parts constraint, so the same
+    pedagogical app shape applies.
+
+    Materials note: 7-material Geometry-as-Numeracy-subclass
+    class stack per §A.13.37. Manipulative-cut-outs at
+    position 5 emits canonical-correct `mode: variety` with
+    vocabKey enumeration of fraction-piece shapes (whole-
+    circle, half-circle, quarter-circle, whole-square, half-
+    square, quarter-square, whole-rectangle, half-rectangle,
+    quarter-rectangle) at itemCount 3. This is the canonical
+    §A.13.35 mode-correct shape — diverges from the Arc 17
+    P1.3 compose-shapes-from-parts precedent's `mode: single-
+    repeat itemCount: 60 themeName: shapes` (which carried
+    pre-correction mode semantics); Phase 1.1 ships canonical-
+    correct on the mode dimension per operator adjudication
+    at Arc 18 Phase 0 §A.13.6 firings batch. The vocabKey-
+    enumerated approach makes the partition pedagogy explicit:
+    each fraction-piece shape is a discrete vocab item, and
+    kids physically sort + match them.
+
+    Class B FLEXIBLE substrate: composes against shapes
+    theme (geometry strand canonical theme — cross-arc
+    consistency with identify-2d-shapes-basic + identify-
+    3d-shapes + describe-shape-attributes + compose-shapes-
+    from-parts).
+
+    K-3 multilingual classroom relevance: partition pedagogy
+    is universal K-3 geometry content. The equal-parts
+    structure is locale-portable — two equal pieces are
+    halves in every language; four equal pieces are
+    quarters in every language. The VOCABULARY varies
+    notably across locales: en 'halves' + 'quarters' /
+    'fourths' (note the en doublet — quarter and fourth are
+    interchangeable); de 'Hälften' + 'Viertel'; es 'mitades' +
+    'cuartos'; pt 'metades' + 'quartos'; fr 'moitiés' +
+    'quarts'; it 'metà' + 'quarti'; nl 'helften' + 'kwarten'
+    / 'vierden'; fi 'puoliskot' + 'neljannekset'. The hands-
+    on cut-out work bypasses much of the vocabulary load —
+    kids do the partition manipulation regardless of which
+    vocabulary they're learning. Locale-variant work at
+    Phase 3+ adapts to each locale's partition register
+    (some locales like en + nl have doublets; others like
+    de + es + pt use a single canonical term per partition).
+
+curriculumStandards:
+  - CCSS.1.G.A.3
+  - CCSS.2.G.A.3
+  - EYFS.ELG.M
+  - IB-PYP.HowTheWorldWorks
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Identify a circle, square, or rectangle partitioned
+        into 2 equal parts as 'halves' in 7 of 10 trials.
+      - Identify a circle, square, or rectangle partitioned
+        into 4 equal parts as 'quarters' or 'fourths' in 7
+        of 10 trials.
+      - Distinguish equal-parts partition (halves, quarters)
+        from unequal-parts partition (just pieces, no name)
+        in 6 of 10 trials.
+      - Reconstruct a whole shape from its partitioned parts
+        (e.g., two half-circles into a whole circle; four
+        quarter-squares into a whole square) in 7 of 10
+        trials.
+      - Use vocabulary 'halves' / 'quarters' / 'fourths' /
+        'equal parts' / 'whole' correctly in 6 of 10
+        productive-language trials.
+
+    Differentiation:
+    - Pre-K: skip partition entirely; review whole-shape
+      recognition first (per Arc 9 identify-2d-shapes-basic).
+    - K: introduce halves only (skip quarters); use hands-on
+      paper-folding + cut-out manipulation as primary
+      mode; defer formal vocabulary recall.
+    - Grade 1: full halves + quarters partition fluency;
+      both visual identification + verbal naming + hand-on
+      reconstruction practiced.
+    - Grade 2+: extend to thirds (per pair-partner identify-
+      fractions-half-third-quarter at slot 4); bridge to
+      CCSS.2.G.A.3 'partition into 2, 3, or 4 equal shares'.
+      Formal fraction notation (1/2 + 1/4 + 1/3) remains
+      explicitly deferred to Grade 3+ per CCSS.3.NF.A.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

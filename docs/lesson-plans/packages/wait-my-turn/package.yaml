@@ -1,0 +1,521 @@
+# Teaching package — wait my turn (impulse control)
+# Arc 18 Phase 1.5 Slot 1 (world-knowledge / personal-social-emotional-development strand 4/8 → 5/8). Foundational executive-function skill: kids hold back from acting until appropriate. Pair-coherent with Phase 1.4 Slot 4 identify-classroom-rules (immediate predecessor) + Arc 17 P1.1 share-and-take-turns (SEL-class composition pattern). SEL emotions-bundle cluster grows to 4-package anchor bundle (name-and-describe-feelings + show-perspective-taking + share-and-take-turns + identify-classroom-rules + wait-my-turn = 5-package cluster).
+
+targetSlug: wait-my-turn
+language: en
+title:
+  en: "Wait Your Turn — impulse control and patience in classroom routines"
+
+description:
+  en: "Kindergarten / Grade 1 social-emotional package teaching kids to wait their turn — hold back from acting until appropriate. Foundation executive-function skill underlying turn-taking, line-waiting, raising-hand-instead-of-calling-out, and waiting-to-be-helped. Per learning-targets.json, wait-my-turn has no prerequisites; it stands as a foundational impulse-control target whose mastery supports all subsequent SEL behavioral work (turn-taking, conflict resolution, classroom-rule following). Critical K-1 prosocial-skills work: kids learn to recognize the FEELING of impatience (when waiting feels hard), use INTERNAL STRATEGIES to manage that feeling (count to 10, deep breath, hands in lap, look at a friend who's also waiting), and trust that THEIR TURN WILL COME. Per §A.13.30 K-1 informal framing: K-1 impulse-control work is CONCRETE WAITING-STRATEGY RECOGNITION + APPLICATION — kids name the feeling, name a strategy, apply the strategy in a specific waiting context. NOT formal executive-function pedagogy (which is Grade 2+ work introducing terms like 'self-regulation', 'inhibitory control', 'delayed gratification'); the K-1 pedagogy uses everyday language ('wait your turn' / 'be patient' / 'first comes Maria, then comes you') to surface the underlying impulse-control pattern. EYFS.ELG.PSED.M.R + CASEL.SELF_MANAGEMENT primary anchors. Multilingual / international-school context emphasis: cultural norms around waiting-time and patience vary significantly across school cultures; the package frames CO-CREATED CLASSROOM WAITING-AGREEMENTS rather than absolute universal rules about how-long-to-wait-quietly. PSED strand advances 4/8 → 5/8 (50.0% → 62.5%; pair-coherent advancement following Phase 1.4 Slot 4 identify-classroom-rules which advanced 3/8 → 4/8). 5 worksheet exercises + 6 printable materials (SEL-class composition per §A.13.37 + Arc 17 P1.1 share-and-take-turns precedent: REMOVES matching-mat + vocabulary-tracing-strips; KEEPS flashcards + picture-cards + sentence-strips + manipulative-cut-outs + parent-take-home-letter + answer-key). Manipulative-cut-outs in `mode: single-repeat` (canonical-correct per §A.13.35) with theme: emotions (cluster continuity)."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class waiting-strategy introduction with
+      classroom-routine hook. Teacher asks: "When does
+      it get HARD to wait? Tell me a time waiting was
+      hard." Class brainstorms: waiting in line for the
+      slide, waiting to be called on, waiting for snack,
+      waiting for a friend to finish their turn, waiting
+      for the bathroom. Teacher then introduces 4
+      waiting-strategies: (1) HANDS IN LAP — kids put
+      their hands in their lap when waiting to keep
+      hands from grabbing; (2) COUNT TO 10 — silent
+      count-to-10 while waiting helps the time pass;
+      (3) DEEP BREATH — slow breathing calms the
+      impatient feeling in the body; (4) LOOK AT A
+      WAITING FRIEND — find another kid who's also
+      waiting; remind yourself everyone takes turns.
+      Teacher narrates the connection to feelings:
+      "When waiting is hard, you might feel IMPATIENT
+      (you want it NOW), JEALOUS (someone else has
+      what you want), FRUSTRATED (it's taking too
+      long). These feelings are NORMAL — everyone
+      feels them sometimes. The strategies help us
+      WAIT EVEN WHEN THE FEELINGS ARE STRONG. Today
+      we practice the 4 waiting-strategies so we have
+      them ready when waiting gets hard."
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + waiting-strategy practice routine.
+      Each pair receives 4 strategy cards (HANDS IN
+      LAP / COUNT TO 10 / DEEP BREATH / LOOK AT A
+      FRIEND) + 6 waiting-scenario cards (kid waiting
+      in line for slide; kid waiting to be called on
+      to speak; kid waiting for snack to be passed;
+      kid waiting for a friend to finish their turn
+      with a toy; kid waiting for the teacher to
+      finish helping another kid; kid waiting for
+      family pickup). Pair takes turns: kid A picks a
+      scenario card; kid B picks one of the 4
+      strategy cards that would help in that scenario
+      + narrates aloud "I would use [strategy]
+      because [reason]." Then they switch. Recast
+      errors with strategy-fit reasoning ("you said
+      COUNT TO 10 for waiting for the bathroom — but
+      counting to 10 doesn't make the bathroom
+      faster. DEEP BREATH might help because the
+      feeling of urgently-needing-to-go is
+      uncomfortable; deep breath calms the body. Or
+      LOOK AT A FRIEND helps if you can see another
+      kid waiting too — reminds you everyone has to
+      wait sometimes."). Optional extension: pair
+      practices a strategy in real-time — kid A
+      pretends to wait for something; kid B reminds
+      them which strategy to use. Teacher note: K-1
+      kids sometimes apply strategies mechanically
+      without connecting them to the feeling-state.
+      Help kids see: strategies are TOOLS for
+      managing IMPATIENT FEELINGS. The goal is not
+      to STOP FEELING IMPATIENT (impatience is
+      normal); the goal is to KEEP YOUR BODY CALM
+      while the feeling passes. Some kids may also
+      conflate WAITING with PASSIVITY (doing nothing
+      = boring). Help kids see: waiting is ACTIVE —
+      you're actively using a strategy, actively
+      breathing, actively counting. Waiting is hard
+      WORK, not just sitting still.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: picture-sort
+      worksheet (kids sort scenario pictures into
+      "waiting calmly" vs "not waiting" buckets —
+      kid sitting cross-legged with hands in lap
+      while waiting goes in waiting-calmly; kid
+      grabbing toy from another kid's hands goes in
+      not-waiting). Station 2: matching worksheet
+      (waiting-scenario picture → strategy text;
+      e.g., kid waiting in line for slide ↔ "hands
+      in lap and count to 10"). Station 3: math-
+      worksheet (counting-as-waiting-strategy: count
+      from 1 to 10 several times; reinforces the
+      count-to-10 strategy through numeracy work;
+      also introduces fairness-as-counting: if 3
+      kids share one slide and each gets 5 turns,
+      how many slides total? = 15). Station 4:
+      word-guess worksheet (cluster-theme puzzle
+      practice using emotion vocabulary; the
+      waiting-strategy vocabulary work happens at
+      the lesson-body station-2 + station-3
+      activities, NOT at this composedExercise per
+      §A.13.36 Phase 1.4 Slot 4 Path B abstraction
+      layer precedent).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class waiting-strategy practice + SEL-
+      cluster framing. Class collectively names the
+      4 waiting-strategies (HANDS IN LAP / COUNT TO
+      10 / DEEP BREATH / LOOK AT A FRIEND). Teacher
+      poses the cluster-connection question: "How
+      does waiting connect to what we learned about
+      RULES last time (identify-classroom-rules) and
+      SHARING (share-and-take-turns)?" Class
+      reflects: rules tell us WHEN to wait (raise
+      hand and wait to be called); sharing means
+      letting OTHER kids have their turn while you
+      wait for yours; waiting is the WORK we do
+      while we wait for our turn to come. Teacher
+      closes with: "Waiting is hard. Adults still
+      feel impatient sometimes. The strategies don't
+      MAKE you stop feeling impatient — they HELP
+      YOU WAIT even when the feeling is strong. The
+      more you practice, the easier waiting gets.
+      Your turn WILL come — that's the most
+      important thing to remember when waiting feels
+      forever." Forward-pointer: "When we come back
+      to social-emotional work next, we'll learn
+      what to do when YOUR TURN finally comes after
+      a long wait — being ready to participate
+      without rushing or being too excited. Next
+      target candidates: regulate-emotions-with-
+      strategies + identify-safe-vs-unsafe-
+      situations (Arc 18+ + Arc 19 candidates)."
+
+composedExercises:
+  - appName: picture-sort
+    exerciseMode: unified
+    customizationParameters: { themeSelect: emotions, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: emotions, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: math-worksheet
+    exerciseMode: easy
+    customizationParameters: { difficulty: easy, numExercises: 6, operations: count, selectMode: theme, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, themeSelect: emotions, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: emotions, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: emotions
+      cardCount: 16
+      cardsPerPage: 8
+      colorMode: color
+      labelDisplay: word
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: emotions
+      cardCount: 16
+      cardsPerPage: 8
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: i-feel
+      imageSource: theme
+      themeName: emotions
+      stripCount: 12
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 3
+    pedagogicalRole: language-frame
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: emotions
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 4
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: emotions
+      pictureCueCount: 6
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 5
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 6
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: world-knowledge / personal-social-
+    emotional-development (PSED; wait-my-turn — strand
+    4/8 → 5/8; 50.0% → 62.5%). Secondary strand:
+    cognitive-and-executive-function / memory-and-
+    attention (impulse-control + delayed-gratification
+    + waiting are core executive-function operations
+    underlying turn-taking + line-waiting + raise-
+    hand routines). Tertiary strand: early-literacy /
+    speaking-and-listening (waiting-strategy narration
+    + feeling-naming are productive-language work).
+
+    Architectural significance: pair-coherent with
+    Phase 1.4 Slot 4 identify-classroom-rules
+    (immediate predecessor; advances PSED 3/8 → 4/8
+    → 5/8 over Phase 1.4 → Phase 1.5 sequence) +
+    Arc 17 P1.1 share-and-take-turns (SEL-class
+    composition pattern; waiting is the EXECUTIVE-
+    FUNCTION SUBSTRATE that turn-taking depends on —
+    you have to be able to wait before you can take
+    turns fairly). SEL emotions-bundle anchor cluster
+    grows to 5-package shape post-Phase-1.5: name-
+    and-describe-feelings-detailed + show-
+    perspective-taking + share-and-take-turns +
+    identify-classroom-rules + wait-my-turn. Cross-
+    bundle reuse density advancement opportunity at
+    Arc 18 P2 close-out per §A.13.25 paired-cluster
+    pattern emergence at scale.
+
+    PSED strand state-bookkeeping note: per Phase 1.4
+    Round 2 audit-trail filing, share-and-take-turns
+    (Arc 17 P1.1) compositionalRationale at lines
+    200-220 claims "PSED strand SAT close: 7/8 → 8/8"
+    (PSED fully saturated). This claim is incompatible
+    with learning-targets.json PSED 8-target
+    enumeration at lines 354-363 (which includes
+    wait-my-turn + identify-classroom-rules + identify-
+    safe-vs-unsafe-situations + make-and-name-a-friend
+    + name-things-i-can-do-myself among unsatisfied
+    targets at Arc 17 P1.1 ship time). The state-
+    bookkeeping defect was filed as separate [FIX]
+    [DOCS] commission stub at Phase 1.4 Round 2. This
+    package's 4/8 → 5/8 framing aligns with learning-
+    targets.json canonical state + Phase 1.4 Slot 4
+    identify-classroom-rules accurate 3/8 → 4/8
+    framing.
+
+    Per §A.13.30 K-1 informal framing: K-1 impulse-
+    control work is CONCRETE WAITING-STRATEGY
+    RECOGNITION + APPLICATION. Kids learn that
+    impatience is a NORMAL feeling (not a behavior
+    problem) and that the 4 waiting-strategies are
+    TOOLS for managing the feeling so the body stays
+    calm. The pedagogy uses everyday classroom
+    waiting-contexts (line for slide, line for
+    snack, raise-hand-and-wait, waiting-for-help)
+    BEFORE encountering formal executive-function
+    terms ('self-regulation' / 'inhibitory control'
+    / 'delayed gratification' are Grade 2+ academic
+    terms; this package uses 'wait your turn' / 'be
+    patient' / 'use a waiting-strategy' as K-1-
+    accessible language). Formal executive-function
+    pedagogy (Grade 2+) extends to inhibitory-control
+    measurement + self-regulation interventions; this
+    package establishes the foundation waiting-as-
+    active-work pattern that later self-regulation
+    work depends on.
+
+    Multilingual / international-school context
+    emphasis: cultural norms around waiting-time and
+    patience vary significantly across school
+    cultures globally. Some cultures expect kids to
+    wait silently and motionlessly for extended
+    periods; other cultures expect more
+    spontaneous-call-out + active-physical-waiting.
+    Some kids' home-cultural backgrounds emphasize
+    waiting-as-respect-for-elders; others emphasize
+    waiting-as-individual-self-discipline. The
+    package deliberately frames CO-CREATED
+    CLASSROOM WAITING-AGREEMENTS (some contexts
+    need quiet waiting; some allow gentle activity-
+    while-waiting; the strategies adapt to context)
+    rather than absolute universal rules about
+    how-long-to-wait-quietly. This framing aligns
+    with EYFS.ELG.PSED.M.R (managing self) +
+    CASEL.SELF_MANAGEMENT (managing emotions +
+    delayed gratification) + IB-PYP.WhoWeAre
+    (identity-and-community work).
+
+    Cross-reference to Arc 17 P1.1 share-and-take-
+    turns (SEL-class composition pattern; pair-
+    coherence): that package established the SEL-
+    class 6-material composition pattern at the Arc
+    16 §A.13.6-firing-corrected disposition (REMOVE
+    matching-mat + vocabulary-tracing-strips; KEEP
+    flashcards + picture-cards + sentence-strips +
+    manipulative-cut-outs + parent-take-home-letter
+    + answer-key). **This package MIRRORS share-and-
+    take-turns SEL-class composition exactly** +
+    inherits the Phase 1.4 Slot 4 identify-classroom-
+    rules word-guess Path B abstraction layer:
+    composedExercises ship as cluster-theme puzzle-
+    format practice (emotions vocabulary); waiting-
+    strategy scaffolding lives at the lesson-body
+    level (specifically station-2 strategy-to-
+    scenario matching + station-3 counting-as-
+    waiting-strategy + the contentActivity pair-
+    routine). The two roles are layered, not
+    conflated.
+
+    Pair-coherent extension of identify-classroom-
+    rules (Phase 1.4 Slot 4): that package taught
+    classroom rules + reasons (the SHARED
+    AGREEMENTS that let many kids learn together).
+    This package teaches the EXECUTIVE-FUNCTION
+    SUBSTRATE that lets kids follow those rules —
+    waiting (specifically raise-hand-and-wait,
+    line-wait, wait-for-help, wait-for-snack). The
+    cognitive progression: KNOW the rules → WAIT
+    while following them → APPLY behaviorally in
+    routine contexts. Phase 1.4 Slot 4 established
+    rules-knowledge; this package establishes
+    waiting-behavior that lets rules-knowledge
+    become rules-following.
+
+    Distinctive composition: 5 exercises across 4
+    apps — picture-sort (position 1) surfaces
+    waiting-calmly-vs-not-waiting scenario sorting;
+    matching (positions 2 + 5) builds scenario-to-
+    strategy pairing; math-worksheet (position 3)
+    introduces counting-as-waiting-strategy (the
+    count-to-10 strategy through numeracy work +
+    fairness-as-counting); word-guess (position 4)
+    provides cluster-theme puzzle-format practice
+    in the emotions vocabulary domain. Same
+    composition shape as share-and-take-turns +
+    identify-classroom-rules precedents EXACTLY —
+    preserves cross-package SEL-class coherence
+    within the growing emotions-bundle anchor.
+
+    Materials note: 6-material SEL class-conditional
+    composition per §A.13.37 + share-and-take-turns
+    + identify-classroom-rules precedent. SEL class
+    is case-by-case per §A.13.37 row; the share-
+    and-take-turns precedent established the 6-
+    material SEL-typical pattern (REMOVE matching-
+    mat + vocabulary-tracing-strips because
+    waiting-strategy work doesn't anchor on image-
+    to-word pairing or single-word-tracing
+    reinforcement; KEEP flashcards + picture-cards
+    + sentence-strips + manipulative-cut-outs +
+    parent-take-home-letter + answer-key). This
+    package inherits the 6-material SEL composition
+    exactly. Sentence-strips at position 3 with
+    framePreset 'i-feel' (the i-feel frame
+    accommodates BOTH emotion-naming AND waiting-
+    register work via feeling-anchored frames: "I
+    feel impatient when I wait for snack." / "I
+    feel calm when I count to 10." — connecting
+    waiting-strategy to felt classroom-experience).
+    Manipulative-cut-outs at position 4 emits
+    canonical-correct `mode: single-repeat` per
+    §A.13.35 + share-and-take-turns + identify-
+    classroom-rules precedent (same configuration:
+    itemCount 24 + itemSize small-1in + theme
+    emotions for cluster continuity).
+
+    Class B FLEXIBLE substrate: composes against
+    emotions theme. The Arc 16 + Arc 17 + Arc 18
+    SEL package cluster (name-and-describe-feelings
+    + show-perspective-taking + share-and-take-
+    turns + identify-classroom-rules) used emotions
+    theme; wait-my-turn continues the theme to
+    preserve cross-package cluster coherence.
+    emotions-bundle becomes the 5-package SEL
+    anchor bundle post-Arc-18 Phase 1.5 (cross-
+    bundle reuse density advancement opportunity
+    for Arc 18 P2 close-out cycle per §A.13.25
+    paired-cluster pattern emergence at scale).
+
+    K-3 multilingual classroom relevance: waiting +
+    patience are universal K-3 prosocial skills with
+    K-3-relevant cross-cultural divergence in
+    expression-norms. Cross-locale waiting-vocabulary
+    varies: en 'wait / patient / impatient / your
+    turn / my turn'; de 'warten / geduldig /
+    ungeduldig / dein Mal / mein Mal'; es 'esperar /
+    paciente / impaciente / tu turno / mi turno';
+    pt 'esperar / paciente / impaciente / sua vez /
+    minha vez'; fr 'attendre / patient / impatient
+    / ton tour / mon tour'; nordic locales use
+    shorter verb-forms matching local communication
+    style. Cross-cultural classroom-norm awareness
+    is universally relevant for international
+    schools + dual-language programs where kids'
+    home-school-cultural defaults around waiting-
+    quietness diverge significantly.
+
+    Cross-cultural affirmation discipline: package
+    affirms cultural variation in waiting
+    expression ('some kids are good at waiting
+    silently; some kids are good at waiting while
+    moving their bodies gently; both are okay if
+    they don't disturb other kids') rather than
+    prescribing one waiting-register. Particularly
+    load-bearing for international school + dual-
+    language program contexts where kids' home-
+    school-cultural backgrounds diverge
+    significantly in expectations around how-to-
+    wait.
+
+curriculumStandards:
+  - EYFS.ELG.PSED.M.R
+  - EYFS.ELG.PSED.S
+  - CASEL.SELF_MANAGEMENT
+  - CASEL.RESPONSIBLE_DECISION_MAKING
+  - IB-PYP.WhoWeAre
+  - IB-PYP.HowWeOrganizeOurselves
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Name 4 waiting-strategies (hands in lap /
+        count to 10 / deep breath / look at a
+        friend) in 7 of 10 trials.
+      - Match a waiting-scenario to an appropriate
+        strategy in 6 of 8 attempts.
+      - Demonstrate at least one waiting-strategy
+        in 4 of 6 observed classroom-routine
+        waiting moments during the week (teacher
+        rubric: line-waiting, raise-hand-wait,
+        snack-wait, help-wait).
+      - Self-advocate "I'm waiting" or "my turn
+        next" without conflict in 3 of 5 free-play
+        observations (script-application metric).
+      - Use vocabulary 'wait' / 'patient' /
+        'impatient' / 'turn' / 'strategy' correctly
+        in 5 of 10 productive-language trials.
+
+    Differentiation:
+    - Pre-K: 2-strategy starter set (hands in lap +
+      deep breath); receptive-modeling first (kids
+      respond to teacher-prompted strategies);
+      productive-language emerges as it does
+      without pressure.
+    - K: full 4-strategy set; productive use of
+      strategies during pair activities + classroom
+      routines; teacher rubric on free-play +
+      routine observations across the week.
+    - Grade 1+: extend to STRATEGY-CO-CREATION
+      (kids propose new waiting-strategies; class
+      collectively decides which to add to the
+      classroom's waiting-toolkit); bridge to
+      conflict-de-escalation work (Arc 18+
+      candidates: what to do when waiting feels
+      impossible, how to ask-adult-for-help when
+      waiting becomes overwhelming); bridge to
+      regulate-emotions-with-strategies (PSED
+      strand-advancement candidate; the broader
+      emotion-regulation work that uses waiting-
+      strategies as one tool among many).
+    - Grade 2+: full executive-function vocabulary
+      (self-regulation / inhibitory control /
+      delayed gratification); bridge to peer-led
+      classroom-meeting work where kids practice
+      waiting-respectfully during group discussion;
+      Grade 3+ extends to formal mindfulness
+      practices + body-awareness work as waiting-
+      tools.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

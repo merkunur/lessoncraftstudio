@@ -1,0 +1,388 @@
+# Teaching package — add three numbers with sum within 20 (pt sparse-override)
+# Arc 18 Phase 1.5 Slot 2 (24th-consecutive pt cadence per Arc 7+ convention). BR-MEC ensino-fundamental register; formal "você" address throughout. BNCC alignment: EF01MA06 ('Construir fatos básicos da adição e utilizá-los em procedimentos de cálculo para resolver problemas') + EF01MA08 ('Resolver e elaborar problemas de adição e de subtração, envolvendo números de até dois algarismos') — BNCC Matemática Anos Iniciais 1.º ano EF. STRAND-SAT-CLOSING package (addition-subtraction 13/14 → 14/14 SAT; 19th parent-class strand SAT).
+
+targetSlug: add-3-numbers-within-20
+language: pt
+
+title:
+  pt: "Somar Três Números até 20 — encontrar pares, usar 'fazer 10', combinar os três"
+
+description:
+  pt: "Pacote de matemática para o 1.º ano do ensino fundamental, ensinando a habilidade canônica de adição de 3 parcelas: crianças resolvem problemas a+b+c = ? onde a soma fica dentro de 20 (ex.: 4+5+6 = 15, 2+8+7 = 17, 3+3+4 = 10). Pacote STRAND-SAT-CLOSING: completa o strand addition-subtraction em 14/14 SAT — alvo canônico final per learning-targets.json. 19º strand de classe-pai SATISFEITO no catálogo (avança saturação agregada de strand 18/30 → 19/30 = 63,3%). Apoia-se DIRETAMENTE em add-within-20 (cadeia de pré-requisito Arc 12-15) adicionando uma TERCEIRA parcela ao padrão de adição. Habilidade crítica de numeracia do 1.º ano: a adição de 3 parcelas revela flexibilidade-de-estratégia porque as crianças podem escolher QUAIS DUAS adicionar primeiro (trabalho com propriedades comutativa + associativa: 3+7+5 pode ser resolvido como (3+7)+5 = 10+5 = 15 OU como 3+(7+5) = 3+12 = 15 OU como (3+5)+7 = 8+7 = 15). A estratégia 'fazer-10' (encontrar duas parcelas que somam 10 primeiro, depois adicionar a terceira) é o movimento pedagógico determinante: em 4+6+7, encontrar que 4+6=10 primeiro, depois adicionar 7 para obter 17. Isso torna o trabalho de 3 parcelas CONCEITUALMENTE DIFERENTE do trabalho de 2 parcelas — a escolha estratégica da ordem-dos-pares se torna a habilidade cognitiva determinante. Por §A.13.30 enquadramento informal K-3: a adição de 3 parcelas no 1.º ano é FLUÊNCIA ESTRATÉGIA-CONSCIENTE — as crianças entendem que se pode SOMAR EM QUALQUER ORDEM (propriedade associativa) e que algumas ordens são MAIS FÁCEIS do que outras (estratégia encontrar-o-10). NÃO pedagogia formal de nomeação-de-propriedade (termos 'comutativa' / 'associativa' são vocabulário do 2.º ano em diante); a ênfase do 1.º ano é flexibilidade estratégica através de prática de múltiplas estratégias. Alinhamento BNCC: EF01MA06 ('Construir fatos básicos da adição e utilizá-los em procedimentos de cálculo para resolver problemas') é o anchor BNCC direto para o trabalho de fluência de fatos básicos de adição no 1.º ano EF. EF01MA08 ('Resolver e elaborar problemas de adição e de subtração, envolvendo números de até dois algarismos') cobre o aspecto de resolução-de-problemas. 5 exercícios + 7 materiais imprimíveis ao longo de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Introdução à adição de 3 parcelas com toda a
+      turma + gancho de flexibilidade-estratégica.
+      Você escreve 3+7+5 no quadro. "Hoje somamos
+      TRÊS números juntos. Três mais sete mais
+      cinco. Qual é um bom PRIMEIRO PASSO?" A
+      turma faz uma chuva de ideias: somar 3+7
+      primeiro (= 10), depois somar 5 (= 15); OU
+      somar 7+5 primeiro (= 12), depois somar 3
+      (= 15); OU somar 3+5 primeiro (= 8), depois
+      somar 7 (= 15). Você enfatiza: "AS TRÊS
+      ORDENS dão a mesma resposta — 15. Mas
+      notem: 3+7 faz 10, que é FÁCIL de adicionar
+      a 5. Essa é a estratégia 'FAZER-10' —
+      encontrar duas parcelas que fazem 10
+      primeiro, depois adicionar a terceira.
+      Fazer-10 torna o trabalho MAIS FÁCIL." Você
+      repete com 4+6+7 (encontrar 4+6=10 primeiro,
+      depois +7 = 17); com 2+8+9 (encontrar 2+8=10
+      primeiro, depois +9 = 19); com 6+5+4
+      (encontrar 6+4=10 primeiro, depois +5 = 15).
+      Ênfase do padrão: "Quando vocês têm TRÊS
+      números para somar, PROCUREM UM PAR QUE
+      FAZ 10 PRIMEIRO. Depois somem o terceiro
+      número. Fazer-10 é amigo de vocês para
+      problemas de 3 parcelas."
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de adição com
+      flexibilidade-estratégica. Cada dupla recebe
+      uma folha com 8 problemas de 3 parcelas
+      (4+6+5, 3+7+8, 2+8+6, 5+5+4, 9+1+7, 4+4+6,
+      6+3+7, 2+5+8) + fichas de contagem (20
+      recortes de animais por criança). A dupla
+      se reveza: a criança A escolhe um problema;
+      a criança B identifica o par fazer-10 (ou
+      par alternativo se não há par fazer-10
+      exato) + verbaliza a estratégia: "Eu vou
+      somar [a]+[b] primeiro porque eles fazem 10
+      (ou um número fácil de continuar contando).
+      Depois vou somar [c]." Depois trocam. Para
+      problemas onde NENHUM par faz exatamente 10
+      (ex.: 3+4+5 = 12 sem par fazer-10), as
+      crianças encontram o par 'achar-dobros'
+      (não há 5+5 aqui; o mais próximo é 4+4
+      se presente; caso contrário usar qualquer
+      par). Diversidade estratégica é encorajada:
+      contar-adicionando (começar do maior, somar
+      os dois menores), achar-dobros (procurar
+      pares como 3+3, 4+4, 5+5 que são fáceis de
+      recordar), decompor (5 = 4+1; usar o 1
+      para fazer-10 em outro lugar da expressão).
+      Recapture erros com raciocínio estratégico
+      ("você somou 4+6+5 fazendo 4+6=10, depois
+      10+5=15. Essa é a estratégia fazer-10.
+      Mas você também podia ter feito 6+5=11,
+      depois 11+4=15. Mesma resposta, caminho
+      diferente. Qual ficou mais fácil?"). Extensão
+      opcional: a dupla inventa um problema de 3
+      parcelas com soma ≤ 20 + pede à outra dupla
+      para resolver usando duas estratégias
+      diferentes. Nota para você: crianças do
+      1.º ano às vezes somam DA ESQUERDA-PARA-
+      DIREITA mecanicamente sem consciência-de-
+      estratégia (4+6+5 sempre feito como
+      ((4+6)+5) mesmo quando outras ordenações
+      seriam mais fáceis). Ajude as crianças a
+      verem: a adição é FLEXÍVEL — você pode
+      escolher QUALQUER ORDEM, e escolher
+      sabiamente torna o trabalho mais fácil.
+      Esse é trabalho de propriedade-associativa
+      em forma acessível K-1. Algumas crianças
+      também podem ter dificuldade em reconhecer
+      pares fazer-10 rapidamente. Construa
+      fluência com pares fazer-10 primeiro (1+9,
+      2+8, 3+7, 4+6, 5+5 — os 5 pares fazer-10
+      canônicos); depois a estratégia fazer-10 se
+      torna reconhecimento-automático-de-padrão.
+  scaffold:
+    body: |
+      Rotação por estações. Estação 1: atividade
+      de emparelhamento — combinar expressões de
+      3 parcelas (ex.: 4+6+5) às suas somas (15).
+      Estação 2: atividade chart-count — contar
+      de 1 em 1 + 2 em 2 + 5 em 5 até 20;
+      reforça estratégias de contar-adicionando.
+      Estação 3: math-puzzle (parcela-em-falta
+      em 3 parcelas: 4+?+5 = 15; ?+6+3 = 15;
+      identificar qual parcela está faltando).
+      Estação 4: math-worksheet (prática de 3
+      parcelas com mistura de problemas fazer-10
+      possível + problemas sem-fazer-10 exigindo
+      estratégias alternativas).
+  closure:
+    body: |
+      Recapitulação rápida de 3 parcelas com toda
+      a turma + celebração STRAND-SAT-CLOSING.
+      Você apresenta 5 problemas rápidos; a turma
+      responde coletivamente + nomeia a estratégia
+      usada. "4+6+5?" (Turma trabalha: 15;
+      fazer-10 com 4+6.) "3+7+9?" (19; fazer-10
+      com 3+7.) "5+5+8?" (18; dobros+8.)
+      "2+9+8?" (19; fazer-10 com 2+8 OU contar-
+      adicionando a partir de 9.) "6+4+10?"
+      (20; fazer-10 com 6+4, depois +10.) Você
+      então faz o anúncio STRAND-SAT-CLOSING:
+      "Hoje FECHAMOS nosso trabalho de adição-
+      subtração! Começamos na pré-escola com
+      add-within-5, depois add-within-10, depois
+      add-within-20, depois 2 dígitos + 2
+      dígitos, e HOJE terminamos com somar três
+      números até 20. 14 de 14 alvos PRONTOS —
+      esse é o strand completo de adição-
+      subtração para K-3. Tudo daqui em diante
+      estende o que vocês aprenderam. A
+      multiplicação no próximo ano se baseia na
+      adição (multiplicação É adição repetida).
+      Subtração com reagrupamento vocês já
+      dominaram. Vocês estão PRONTOS para a
+      matemática do 2.º ano." Aponte adiante:
+      "Quando voltarmos ao trabalho de
+      matemática, começaremos a MULTIPLICAÇÃO —
+      somar o mesmo número várias vezes. 3 + 3 +
+      3 + 3 é apenas 4 grupos de 3 = 4 × 3 = 12.
+      A multiplicação se baseia DIRETAMENTE no
+      trabalho de 3 parcelas que fizemos hoje.
+      Três números somados → muitos números
+      somados → atalho da multiplicação."
+
+assessmentCriteria:
+  pt: |
+    Ao fim da unidade de 1 semana:
+      - Computar adição de 3 parcelas com soma ≤
+        20 corretamente em 7 de 10 tentativas.
+      - Identificar o par fazer-10 em uma
+        expressão de 3 parcelas quando existe em
+        6 de 8 tentativas (problemas como 4+6+5
+        onde 4+6=10).
+      - Aplicar a estratégia fazer-10 verbalmente
+        durante a resolução de problemas em 5 de
+        8 tentativas.
+      - Usar pelo menos 2 estratégias de adição
+        (ex.: fazer-10 + contar-adicionando; ou
+        fazer-10 + achar-dobros) em 5 de 10
+        tentativas.
+      - Resolver problemas de parcela-em-falta em
+        expressões de 3 parcelas (4+?+5 = 15) em
+        5 de 10 tentativas.
+      - Usar o vocabulário 'fazer-10' / 'par' /
+        'parcela' / 'soma' / 'estratégia' / 'três
+        números' corretamente em 5 de 10
+        tentativas de produção verbal.
+
+    Diferenciação:
+    - Pré-escola: pular 3 parcelas; revisar
+      contagem + add-within-5 primeiro.
+    - Educação infantil (5-7 anos): introduzir
+      add-within-10 primeiro; adiar 3 parcelas
+      para o 1.º ano+; se tentar 3 parcelas no
+      K, restringir à soma ≤ 10 (1+2+3, 2+3+4,
+      etc.).
+    - 1.º ano EF: domínio completo de 3 parcelas
+      até 20 com ênfase na estratégia fazer-10;
+      múltiplas estratégias praticadas; ponte
+      para trabalho de operação-inversa
+      (subtração de 3 parcelas pode ser derivada:
+      4+6+5=15 → 15-5-6=4; 15-4-5=6; etc.).
+    - 2.º ano EF em diante: estender a 3
+      parcelas dentro de 100; ponte para
+      conceitos de multiplicação (multiplicação
+      como adição repetida: 3 grupos de 4 =
+      4+4+4 = 12); introduzir nomes formais de
+      propriedades (comutativa / associativa);
+      ponte para fluência de cálculo mental sem
+      manipulativos.
+    - 3.º ano EF em diante: estender a problemas
+      de adição multipasso com 4+ parcelas +
+      contextos de problemas-verbais exigindo
+      raciocínio de 3 parcelas; ponte para
+      generalização algébrica (equações de 3
+      parcelas com incógnitas em qualquer
+      posição).
+
+compositionalRationale:
+  pt: |
+    Adaptação locale-específica do pacote canônico (en).
+    Os campos materials, composedExercises,
+    curriculumStandards e learningObjectives são herdados
+    do package.yaml via merge sparse-override e não são
+    repetidos aqui per a convenção Arc 7+.
+
+    Vocabulário pt-BR canônico para adição de 3
+    parcelas dentro de 20:
+    - 'parcela' / 'parcelas' (addend / addends) —
+      pt-BR canônico K-1 para os números somados
+    - 'soma' / 'total' (sum / total) — pt-BR
+      canônico
+    - 'fazer-10' (make-10) — locução pt-BR
+      canônica para a estratégia de encontrar par
+      que faz 10
+    - 'par fazer-10' (make-10 pair) — locução
+      pt-BR canônica para os 5 pares fazer-10
+      (1+9, 2+8, 3+7, 4+6, 5+5)
+    - 'estratégia' (strategy) — pt-BR canônico
+    - 'contar-adicionando' (count-on) — locução
+      pt-BR canônica para a estratégia de
+      contagem
+    - 'achar-dobros' (find-doubles) — locução
+      pt-BR canônica para a estratégia de
+      reconhecimento-de-pares-iguais
+    - 'qualquer ordem' (any order) — pt-BR
+      canônico para a flexibilidade de
+      ordenamento
+    - 'três números' (three numbers) — pt-BR
+      canônico K-1 para o trabalho de 3 parcelas
+    - Frases-modelo K-1: "Eu somo [a]+[b]
+      primeiro porque..." / "[a]+[b] faz 10" /
+      "Posso somar em qualquer ordem"
+
+    Convenção pt-BR vs pt-PT: ambas as variantes
+    usam 'parcela' + 'soma' + 'fazer-10'
+    identicamente. Algumas pequenas divergências
+    regionais (pt-PT pode usar 'fazer dez'
+    canonicamente; pt-BR usa 'fazer-10'
+    canonicamente em registro K-1).
+
+    Particularidade pt-BR para nomes de números
+    dentro de 20:
+    Pt-BR usa estrutura regular para números 11-
+    19 com algumas irregularidades nomeadas:
+    - 11 = "onze" (irregular; não 'dez-e-um')
+    - 12 = "doze" (irregular; não 'dez-e-dois')
+    - 13 = "treze" (irregular)
+    - 14 = "catorze" / "quatorze" (variante
+      regional; ambas aceitas K-1)
+    - 15 = "quinze"
+    - 16 = "dezesseis" (regular: dez + e + seis,
+      contraído)
+    - 17 = "dezessete"
+    - 18 = "dezoito"
+    - 19 = "dezenove"
+    - 20 = "vinte"
+    Esta estrutura é estável + canônica para K-1
+    EF brasileiro. Comparação:
+    - 11-15: pt-BR irregular (onze...quinze) /
+      en irregular (eleven...fifteen) / similar
+      padrão de irregularidade nessa faixa
+    - 16-19: pt-BR regular composto (dezesseis...
+      dezenove) / en composto (sixteen...
+      nineteen) / similar padrão composto
+
+    Alinhamento BNCC (Base Nacional Comum
+    Curricular):
+    EF01MA06 ('Construir fatos básicos da adição
+    e utilizá-los em procedimentos de cálculo
+    para resolver problemas') é o anchor BNCC
+    direto para o trabalho do 1.º ano EF em
+    fluência de fatos básicos de adição. EF01MA08
+    ('Resolver e elaborar problemas de adição e
+    de subtração, envolvendo números de até dois
+    algarismos, com os significados de juntar,
+    acrescentar, separar e retirar, com o suporte
+    de imagens e/ou material manipulável,
+    utilizando estratégias pessoais') cobre o
+    aspecto de resolução-de-problemas-com-
+    múltiplas-estratégias. Junto, EF01MA06 +
+    EF01MA08 cobrem a progressão de fluência-de-
+    fatos + aplicação-de-estratégia no 1.º ano
+    EF brasileiro. EF01MA02 ('Contar de maneira
+    exata ou aproximada, utilizando diferentes
+    estratégias como o pareamento e outros
+    agrupamentos') é um anchor adjacente para a
+    estratégia de fazer-10 (agrupamentos em 10
+    como estratégia de contagem).
+
+    Currículo brasileiro K-1 EF para fatos de
+    adição:
+    A BNCC brasileira EF Matemática Anos
+    Iniciais 1.º ano EF estabelece a fluência
+    de fatos básicos de adição (EF01MA06) como
+    competência fundamental. Este pacote alinha
+    com essa abordagem. Escolas brasileiras
+    frequentemente integram estratégias de
+    cálculo mental (fazer-10, dobros, contagem-
+    estratégica) com manipulativos concretos
+    (recortes de fichas, blocos contadores) —
+    diferindo de modelos mais procedimentais que
+    enfatizam memorização-de-tabelas. Este
+    pacote aproveita a abordagem brasileira de
+    estratégia-com-manipulativo naturalmente.
+
+    Material concreto: matching-mat (tapete de
+    correspondência) com pares expressão-soma é o
+    material determinante para o trabalho de
+    fluência de fatos. As crianças brasileiras
+    K-1 EF se beneficiam significativamente do
+    reconhecimento-de-padrão visual: ver
+    repetidamente que 4+6+5 = 15 + 3+7+5 = 15 +
+    2+8+5 = 15 estabelece o padrão fazer-10-mais-
+    5 = 15 que se torna automático. Manipulative-
+    cut-outs com animais (em `mode: single-
+    repeat`) fornecem fichas-de-contagem
+    concretas para o trabalho de modelagem
+    física de a+b+c — canônico na pedagogia
+    brasileira K-1 EF (BNCC EF01MA08 explicita
+    "com material manipulável" como suporte
+    pedagógico esperado).
+
+    Diferença pedagógica deste pacote vs add-2-
+    digit-numbers + subtract-2-digit-numbers
+    (pair-coherent precedentes da Fase 1.3 + 1.4):
+    aqueles pacotes ensinaram trabalho de coluna
+    de valor posicional com reagrupamento /
+    empréstimo (place-value-mat na posição 3 +
+    base-ten vocabKeys na posição 5). Este
+    pacote ensina FLEXIBILIDADE ESTRATÉGICA
+    DENTRO DE 20 (matching-mat na posição 3 +
+    theme: animais na posição 5; SEM substrato
+    base-dez porque o trabalho dentro-de-20 não
+    requer dezenas + unidades; SEM place-value-
+    mat porque a estrutura de coluna não é
+    determinante para somas de 1 dígito). A
+    divergência é pedagogicamente INTENCIONAL —
+    o trabalho de 3 parcelas dentro de 20 é uma
+    superfície pedagógica distinta do trabalho
+    de coluna de 2 dígitos.
+
+    Por §A.13.30 enquadramento informal K-3:
+    este pacote NÃO ensina nomeação-formal-de-
+    propriedade (termos 'comutativa' /
+    'associativa' são vocabulário do 2.º ano em
+    diante). Famílias brasileiras às vezes
+    perguntam por mais tabelas-de-adição
+    memorizadas; o parent-take-home-letter
+    explicita que o objetivo do 1.º ano EF é a
+    flexibilidade estratégica (escolher a ordem
+    de adição sabiamente) com fluência-de-fatos
+    emergindo através de prática-com-estratégia,
+    NÃO através de memorização-de-tabelas.
+
+    Pacote pair-coherent + STRAND-SAT-CLOSING:
+    junto com Fase 1.3 Slot 3 add-2-digit-numbers
+    + Fase 1.4 Slot 3 subtract-2-digit-numbers,
+    este pacote forma o cluster de numeracia
+    canônica final do Arco 18. Add-2-digit-
+    numbers + subtract-2-digit-numbers cobrem
+    trabalho de coluna do 2.º ano EF; este
+    pacote cobre flexibilidade estratégica de 1
+    dígito do 1.º ano EF. **STRAND-SAT-CLOSING:
+    addition-subtraction 13/14 → 14/14 SAT;
+    19º strand de classe-pai SATISFEITO no
+    catálogo**. O Arco 18 fecha com 2 SAT
+    closures de strand de classe-pai
+    (materials-and-properties na Fase 1.4 Slot 1
+    + addition-subtraction na Fase 1.5 Slot 2).
+
+    SEM CARRY-FORWARD DE SUBSTRATO deste pacote:
+    matching-mat é um gerador já enviado (sem
+    DEFER); tema-animais + manipulative-cut-outs
+    single-repeat são substrato canônico; nenhum
+    novo vocabKey introduzido (imagens-de-
+    animais são pré-existentes). A fila de
+    carry-forward de substrato permanece em 3
+    cumulativos (moeda + base-dez + materiais-
+    e-propriedades) — este pacote Fase 1.5 Slot
+    2 NÃO adiciona a ela.
+
+    Per §A.13.36 cadência de cooperação CC↔
+    assistant: o pacote pt herda materials,
+    composedExercises, curriculumStandards via
+    sparse-override per convenção Arc 7+;
+    quaisquer emendas en (se Round 2 surgir) se
+    propagam automaticamente para esta variante
+    pt.

@@ -1,0 +1,247 @@
+# Teaching package — identify the setting of a story (pt sparse-override)
+# Arc 18 Phase 1.2 (20th-consecutive pt cadence per Arc 7+ convention). BR-MEC ensino-fundamental register; formal "você" address throughout. BNCC alignment: EF01LP19 (recuperar informações em textos; identificar o cenário/ambiente da narrativa) + EF02LP26 (identificar elementos da narrativa: cenário, personagens, eventos principais).
+
+targetSlug: identify-setting
+language: pt
+
+title:
+  pt: "Identificar o cenário — onde acontece a história?"
+
+description:
+  pt: "Pacote de educação infantil / 1.º ano do ensino fundamental para compreensão leitora, ensinando crianças a identificar o CENÁRIO de uma história — o LUGAR onde a história acontece. Apoia-se no Arc 12 Fase 2 match-sentence-to-picture (a fundação 0/10 → 1/10 do strand) E é pacote-parceiro do Arc 17 P1.5 identify-main-character — juntos os dois pacotes formam o módulo de extração dupla de elementos da narrativa (personagem+cenário) para K-1. As crianças que sabem identificar QUEM (o personagem principal) agora também identificam ONDE (o cenário). O strand reading-comprehension avança 4/10 → 5/10 (match-sentence-to-picture + predict-from-picture-cue + sequence-3-event-story + identify-main-character são os irmãos existentes). Por §A.13.30 enquadramento informal K-1: o trabalho K-1 é identificação do cenário em LEITURA EM VOZ ALTA PELO PROFESSOR ou texto APOIADO POR ILUSTRAÇÃO, NÃO decodificação independente + análise literária avançada. As crianças escutam ou acompanham uma história curta; você pergunta 'onde acontece esta história?' e as crianças identificam o cenário (geralmente mostrado em ilustrações de fundo ou nomeado na frase de abertura). O cenário no K-1 é mais frequentemente um LUGAR reconhecível — casa, escola, parque, fazenda, floresta, praia, supermercado. A distinção interior vs exterior é a dimensão fundamental de classificação. Alinhamento BNCC: EF01LP19 + EF02LP26 (elementos da narrativa). 5 exercícios + 8 materiais imprimíveis ao longo de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Introdução ao cenário com leitura em voz alta para
+      toda a turma. Você lê um livro ilustrado curto e
+      familiar (ex.: 'A Lagarta Comilona' de Eric Carle —
+      a lagarta atravessa um jardim e uma floresta; ou
+      'Marcelo, Marmelo, Martelo' de Ruth Rocha — em casa,
+      no quintal, no quarto). Depois da leitura: "Onde
+      aconteceu esta história?" A turma nomeia o cenário
+      (o jardim; a casa). "Como vocês descobriram? O que
+      as ilustrações mostraram?" A turma explica que viram
+      o cenário no fundo de quase todas as páginas, a
+      frase de abertura às vezes nomeava o lugar, os
+      personagens faziam suas ações NAQUELE lugar. Você
+      apresenta o vocabulário: "Chamamos isso de CENÁRIO —
+      o LUGAR onde a história acontece. Algumas histórias
+      têm UM cenário; outras viajam entre VÁRIOS cenários.
+      Perguntamos: onde acontece esta história?" Você
+      repete com uma segunda história curta com cenário
+      claramente ilustrado (ex.: 'Boa Noite, Lua' de
+      Margaret Wise Brown — o coelho está em um quarto).
+      A turma identifica o quarto como cenário fundamental.
+      Ênfase do padrão: "Quando lemos uma história,
+      PERGUNTEM: onde isso acontece? O CENÁRIO aparece no
+      FUNDO das ilustrações, a frase de abertura às vezes
+      o NOMEIA, os personagens fazem suas ações NAQUELE
+      lugar."
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de história-e-cenário.
+      Cada dupla recebe 6 cartões de história curta (3-4
+      frases cada com ilustração de apoio; cenário claro
+      no fundo de cada ilustração) + 6 cartões de cenário
+      (o cenário de cada história mostrado sozinho — uma
+      ilustração do lugar sem personagens). A dupla se
+      reveza: a criança A lê o cartão de história em voz
+      alta (ou você lê se a fluência ainda não chegou); a
+      criança B identifica o cenário + encontra o cartão
+      de cenário correspondente. Ambas as crianças dizem
+      em voz alta: "A história acontece [no cenário]."
+      Recapture erros com indicação de pista ("você disse
+      que o cenário era a fazenda, mas olhe para esta
+      ilustração — tem edifícios + calçadas + pessoas
+      passando por lojas — esta história acontece no
+      supermercado, não na fazenda."). Os cartões de
+      cenário fornecem o apoio de correspondência; os
+      cartões de história fornecem o contexto narrativo.
+      Extensão opcional: as crianças recontam sua história
+      favorita ao parceiro usando os cartões de cenário
+      como apoio visual + praticando o vocabulário de
+      cenário no reconto. Nota para o professor: crianças
+      K-1 às vezes confundem o cenário (onde) com o
+      personagem (quem) — trabalho explícito de
+      contrastação lado a lado apoia a distinção ("o
+      personagem é o coelho; o cenário é o quarto").
+  scaffold:
+    body: |
+      Rotação por estações. Estação 1: atividade de
+      correspondência (imagem-de-cenário a nome-de-
+      cenário; âncora de vocabulário para o vocabulário
+      de lugar que as crianças encontram nas histórias).
+      Estação 2: atividade picture-sort (separar cartões
+      de cenário em 'lugares fechados' vs 'lugares
+      abertos' — revela a distinção fundamental de tipo
+      de cenário que crianças K-1 trabalham). Estação 3:
+      missing-pieces (completar a imagem de cenário —
+      apoia o reconhecimento visual de cenário sobre o
+      qual a habilidade de compreensão se constrói).
+      Estação 4: atividade de correspondência (cartão-de-
+      história a cartão-de-cenário; o exercício canônico
+      da habilidade de compreensão).
+  closure:
+    body: |
+      Recapitulação rápida de cenário com toda a turma.
+      Você mostra 3 cartões de história; a turma identifica
+      em coro o cenário de cada um. "Esta história
+      acontece na FAZENDA! Esta na PRAIA! Esta na
+      ESCOLA!" Você faz a pergunta de reflexão: "Como
+      vocês encontram o cenário?" A turma repete em coro:
+      "Olhem o FUNDO! Escutem a FRASE DE ABERTURA! Vejam
+      onde os personagens fazem suas ações!" Depois a
+      integração personagem+cenário: "Agora sabemos duas
+      partes da história — o PERSONAGEM PRINCIPAL (sobre
+      quem é a história) + o CENÁRIO (onde a história
+      acontece). Juntos eles nos contam a maior parte do
+      que é uma história." Aponte adiante: "Hoje
+      identificamos cenários. Ler é compreender HISTÓRIAS
+      — e histórias têm PERSONAGENS fazendo coisas em
+      CENÁRIOS. A seguir, vamos conhecer IDENTIFICAR O
+      PROBLEMA E A SOLUÇÃO (o que dá errado, e como é
+      resolvido?). Histórias quase sempre têm um problema
+      — é isso que as torna histórias. Estamos
+      construindo para contar nossas próprias histórias."
+
+assessmentCriteria:
+  pt: |
+    Ao fim da unidade de 1 semana:
+      - Identificar o cenário de uma história lida em voz
+        alta familiar em 8 de 10 tentativas.
+      - Identificar o cenário de uma história NOVA (com
+        leitura em voz alta pelo professor) em 6 de 10
+        tentativas.
+      - Distinguir cenários fechados (casa, escola,
+        supermercado) de cenários abertos (parque,
+        fazenda, praia) em 8 de 10 tentativas.
+      - Articular o raciocínio de identificação ('eu sei
+        que a história acontece na fazenda porque as
+        ilustrações mostram um celeiro + animais +
+        campos') em 5 de 10 tentativas de produção
+        verbal.
+      - Usar o vocabulário 'cenário' / 'lugar' / 'onde' /
+        'fundo' corretamente em 6 de 10 tentativas de
+        produção verbal.
+
+    Diferenciação:
+    - Pré-escola: leitura em voz alta + identificação por
+      pista visual do cenário (sem distinção formal);
+      crianças simplesmente nomeiam 'onde a história
+      acontece'.
+    - Educação infantil (5-7 anos): identificação completa
+      do cenário com histórias familiares + histórias
+      novas simples; leitura em voz alta pelo professor
+      muito apoiada; classificação fechado-vs-aberto
+      praticada.
+    - 1.º ano: identificação independente de cenário em
+      histórias novas simples; ponte para a distinção
+      personagem-vs-cenário com o parceiro-do-par
+      identify-main-character; introduzir reconhecimento
+      de mudança de cenário (histórias onde personagens
+      viajam entre lugares).
+    - 2.º ano em diante: reconhecimento de mudança de
+      cenário; cenários abstratos (tempos históricos;
+      mundos imaginários); distinção entre cenário físico
+      e cenário cultural/temporal; ponte para identify-
+      problem-and-solution (candidato Arc 18+).
+
+compositionalRationale:
+  pt: |
+    Adaptação locale-específica do pacote canônico (en).
+    Os campos materials, composedExercises,
+    curriculumStandards e learningObjectives são herdados
+    do package.yaml via merge sparse-override e não são
+    repetidos aqui per a convenção Arc 7+.
+
+    Vocabulário pt-BR canônico para identificação de
+    cenário:
+    - 'cenário' (canônico para setting; termo formal de
+      análise narrativa em pt-BR)
+    - 'lugar' (alternativa K-1 acessível; usada com mais
+      frequência em registro informal)
+    - 'onde' (interrogativa de localização)
+    - 'fundo' (background da ilustração — o lugar
+      mostrado atrás dos personagens)
+    - 'ambiente' (registro mais formal; em uso paralelo a
+      'cenário' em alguns materiais didáticos brasileiros)
+    - 'lugar fechado' / 'lugar aberto' (indoor vs outdoor;
+      a distinção fundamental K-1)
+    - vocabulário de lugares específicos: 'casa', 'escola',
+      'parque', 'fazenda', 'praia', 'floresta',
+      'supermercado', 'cozinha', 'quarto' — todos
+      universais no inventário K-1 brasileiro
+
+    Convenção pt-BR vs pt-PT: ambas as variantes usam
+    'cenário' canonicamente; pt-PT pode preferir 'lugar
+    da ação' em registro mais formal mas pt-BR K-1 usa
+    'cenário' como termo introdutório.
+
+    Alinhamento BNCC (Base Nacional Comum Curricular):
+    EF01LP19 ('Recuperar em textos lidos pelo professor
+    ou pelas crianças informações explícitas, como
+    personagens, suas características, tempo e espaço
+    onde se desenrola a ação') cobre exatamente a
+    pedagogia de identificação de cenário deste pacote.
+    EF02LP26 ('Identificar elementos que compõem uma
+    narrativa: personagens, cenário, tempo, conflito e
+    desfecho') é a extensão BNCC do 2.º ano que integra
+    cenário com os outros elementos narrativos. A
+    pedagogia BNCC do 1.º + 2.º ano coloca cenário ao
+    lado de personagens como elementos narrativos
+    fundamentais — exatamente o par identify-main-
+    character + identify-setting que este pacote completa.
+
+    Leitura em voz alta como modo pedagógico canônico no
+    K-1 brasileiro: a alfabetização brasileira K-1 valoriza
+    o trabalho de leitura compartilhada (professor lê em
+    voz alta; crianças acompanham com ilustrações). Este
+    pacote alinha-se com esse modo pedagógico — as
+    crianças NÃO precisam ler de forma independente para
+    identificar o cenário; basta acompanhar a leitura do
+    professor + interpretar pistas visuais. A
+    independência de leitura desenvolve-se no 2.º +
+    3.º ano EF; até lá, o trabalho de compreensão é
+    construído sobre a leitura partilhada professor-aluno.
+
+    Sugestões de literatura infantil brasileira para o
+    warmup + content activity:
+    - 'Marcelo, Marmelo, Martelo' (Ruth Rocha) — cenário
+      da casa de Marcelo + variação por cômodo
+    - 'A Bolsa Amarela' (Lygia Bojunga) — múltiplos
+      cenários domésticos + escolares
+    - 'O Menino Maluquinho' (Ziraldo) — variação entre
+      casa, escola, e ambientes externos
+    - 'Bumba Meu Boi' (folclore brasileiro adaptado) —
+      cenários rurais nordestinos
+    - 'Pluft, o Fantasminha' (Maria Clara Machado) — o
+      cenário do navio velho como espaço maravilhoso
+    Estas histórias têm cenários culturalmente familiares
+    para crianças brasileiras; o professor pode escolher
+    qualquer uma adequada à idade da turma. Histórias
+    internacionais traduzidas (Lagarta Comilona, Onde
+    Vivem os Monstros) também funcionam — o que importa
+    é que o cenário seja claramente ilustrado e
+    reconhecível.
+
+    Por §A.13.30 enquadramento informal K-1: este pacote
+    NÃO ensina análise literária formal de cenário (cenário
+    como elemento estético; cenário simbólico; etc.) —
+    apenas a identificação básica do LUGAR onde a história
+    acontece. Famílias brasileiras às vezes perguntam por
+    análise mais sofisticada; o parent-take-home-letter
+    explicita que o objetivo K-1 é o reconhecimento
+    fundamental do cenário como elemento narrativo, com
+    análise mais profunda emergindo no 4.º + 5.º ano EF.
+
+    Pacote-parceiro do Arc 17 P1.5 identify-main-character:
+    juntos formam o módulo de extração dupla de elementos
+    narrativos (personagem+cenário) para K-1. A simetria
+    estrutural dos dois pacotes (mesma composição de 5
+    exercícios; mesmos 8 materiais; mesmo framePreset
+    'this-is-a') torna o trabalho de ensino coerente entre
+    as duas semanas. Professores podem ensinar identify-
+    main-character primeiro (semana 1), depois identify-
+    setting (semana 2), depois passar a integrar os dois
+    elementos em retelling work no 2.º ano.

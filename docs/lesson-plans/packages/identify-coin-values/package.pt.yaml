@@ -1,0 +1,401 @@
+# Teaching package — identify coin values (BRL canonical; FULL OVERRIDE per Path A)
+# Arc 18 Phase 1.2 (20th-consecutive pt cadence; CONVENTION DEPARTURE per operator-locked Path A locale-money-system divergence). BR-MEC ensino-fundamental register; formal "você" address throughout. BNCC alignment: EF02MA20 (resolução de problemas envolvendo sistema monetário brasileiro: reconhecer cédulas e moedas).
+#
+# **CONVENTION DEPARTURE NOTICE per §A.13.34 + §A.13.6:**
+# This file FULL-OVERRIDES the materials list (NOT inherited from package.yaml via Arc 7+ sparse-override merge). vocabKeys differ between locales because USD coins (penny/nickel/dime/quarter/dollar-bill) are NOT pedagogically valid for pt-BR locale — Brazilian K-3 kids do not encounter USD coins in daily life. Per operator-locked Path A at Arc 18 Phase 0 §A.13.6 firings batch: pt sibling authors BRL canonical content (5/10/25/50 centavos + R$1 real) with distinct vocabKey enumeration.
+# This convention departure applies to THIS COMMISSION SPECIFICALLY (slots 2+3 of Phase 1.2). Other pt sparse-override packages (Arc 18 P1.1 4-package set; Phase 1.2 slots 1+4) continue the Arc 7+ sparse-override convention unchanged.
+
+targetSlug: identify-coin-values
+language: pt
+
+title:
+  pt: "Identificar os valores das moedas — quanto vale cada moeda?"
+
+description:
+  pt: "Pacote de matemática + grandezas e medidas para o 2.º ano do ensino fundamental, ABRINDO o sub-track de dinheiro no strand de medidas. Ensina crianças a identificar moedas brasileiras pelo seu valor: a MOEDA DE 5 CENTAVOS (vale 5 centavos), a MOEDA DE 10 CENTAVOS (vale 10 centavos), a MOEDA DE 25 CENTAVOS (vale 25 centavos), a MOEDA DE 50 CENTAVOS (vale 50 centavos), e a MOEDA DE 1 REAL (vale R$1 / cem centavos). Cada moeda é uma quantia DIFERENTE — as crianças têm de reconhecer cada moeda pela aparência + saber quanto cada uma vale. Pacote-parceiro de recognize-money-amounts-up-to-1-unit (slot 3 da Fase 1.2). Juntos o par fecha o sub-track de dinheiro 0/2 → 2/2 SAT. Alinhamento BNCC: EF02MA20 ('Resolver e elaborar problemas com números até três ordens, com os significados de juntar, acrescentar, separar, retirar, utilizando estratégias pessoais') + reconhecimento do sistema monetário brasileiro (cédulas + moedas). Por §A.13.30 enquadramento informal K-3: pedagogia de reconhecimento de moedas no 2.º ano é IDENTIFICAÇÃO DE VALOR-DE-MOEDA (reconhecer moeda → saber valor) + contagem-por-valor-de-moeda; NÃO aritmética monetária formal (que é conteúdo do 4.º + 5.º ano). 5 exercícios + 7 materiais imprimíveis ao longo de 1 semana. **NOTA DE DIVERGÊNCIA LOCALE-MONEY-SYSTEM per Path A do operador no Arc 18 Phase 0 §A.13.6 firings batch:** este pacote em pt autora conteúdo canonicamente brasileiro (BRL: 5/10/25/50 centavos + R$1 real); o irmão en em `package.yaml` autora conteúdo canonicamente americano (USD: penny / nickel / dime / quarter / dollar bill). A lista de materiais é FULL-OVERRIDE neste arquivo pt (NÃO herdada do package.yaml via merge sparse-override) porque os conjuntos de moedas diferem categoricamente. A convenção Arc 7+ sparse-override foi INTENCIONALMENTE DEPARTIDA para este commission para superficializar pedagogia monetária authentic-por-locale."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    body: |
+      Introdução aos valores das moedas com toda a turma.
+      Você mostra uma moeda real ou uma impressão grande
+      de uma MOEDA DE 5 CENTAVOS: "Esta é a moeda de cinco
+      centavos. Vale 5 centavos. Escrevemos como R$0,05."
+      Depois uma MOEDA DE 10 CENTAVOS: "Esta é a moeda de
+      dez centavos. É MAIOR do que a de cinco. Vale 10
+      centavos. Escrevemos como R$0,10." Depois uma MOEDA
+      DE 25 CENTAVOS: "Esta é a moeda de vinte e cinco
+      centavos. Vale 25 centavos. Escrevemos como
+      R$0,25." Depois uma MOEDA DE 50 CENTAVOS: "Esta é a
+      moeda de cinquenta centavos. Vale 50 centavos.
+      Escrevemos como R$0,50. É METADE DE UM REAL." Por
+      fim a MOEDA DE 1 REAL: "Esta é a moeda de um real.
+      Vale R$1 — ou, dizemos, UM REAL. UM REAL é o mesmo
+      que CEM CENTAVOS. Escrevemos como R$1,00. O real é
+      a unidade do nosso dinheiro." Ênfase do padrão: "As
+      moedas têm TAMANHOS DIFERENTES mas o TAMANHO não te
+      diz o valor — VOCÊ tem de APRENDER quanto vale cada
+      moeda RECONHECENDO-A: pelo material, pela cor, pelo
+      número escrito nela. As moedas brasileiras têm o
+      VALOR ESCRITO no anverso — olhe + leia o número."
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de correspondência
+      moeda-valor. Cada dupla recebe um conjunto de
+      recortes de moedas em papelão ou plastificadas
+      (várias de cada: 5 centavos, 10 centavos, 25
+      centavos, 50 centavos; mais 1-2 recortes de R$1) +
+      cartões de valor (R$0,05; R$0,10; R$0,25; R$0,50;
+      R$1,00). A dupla se reveza: a criança A pega uma
+      moeda da pilha; a criança B identifica a moeda +
+      encontra o cartão de valor correspondente. Ambas as
+      crianças dizem em voz alta: "Esta é a moeda de
+      [valor]. Vale [valor]." Recapture erros com pistas
+      de aparência ("você disse que esta é a moeda de 25
+      centavos, mas olhe — é a moeda de 50 CENTAVOS. As
+      duas são douradas e redondas, mas a de 50 é MAIOR.
+      Deixe-me mostrar lado a lado."). Extensão opcional:
+      as crianças separam toda a pilha em 5 montinhos (5
+      centavos, 10, 25, 50, 1 real) + contam quantas há
+      de cada. O reconhecimento das moedas é determinante
+      — crianças que não distinguem uma moeda de outra
+      vão falhar no trabalho do slot 3 (contar quantias).
+  scaffold:
+    body: |
+      Rotação por estações. Estação 1: atividade de
+      correspondência — combinar cada imagem de moeda ao
+      seu valor (5 centavos → R$0,05; 10 centavos →
+      R$0,10; 25 centavos → R$0,25; 50 centavos →
+      R$0,50; 1 real → R$1,00). Estação 2: atividade
+      chart-count — contar por valores de moeda (contar
+      de 5 em 5 com moedas de 5 centavos; contar de 10
+      em 10 com moedas de 10 centavos; contar de 25 em
+      25 com moedas de 25 centavos). Estação 3: atividade
+      picture-sort — separar moedas por valor em caixas
+      rotuladas com o valor da moeda. Estação 4:
+      atividade math-worksheet — dada uma imagem de
+      moeda, escrever o valor (R$0,05 / R$0,10 / R$0,25
+      / R$0,50 / R$1,00).
+  closure:
+    body: |
+      Recapitulação rápida com toda a turma. Você mostra
+      uma moeda; a turma a nomeia + diz o valor em coro.
+      "Cinco centavos!" "Cinquenta centavos!" "Vinte e
+      cinco centavos!" "Dez centavos!" "Um real! Cem
+      centavos!" Você faz a comparação diagnóstica: "Qual
+      vale MAIS — cinco centavos ou cinquenta?" (Turma:
+      CINQUENTA!) "Qual é MAIOR — cinco centavos ou dez?"
+      (Turma: depende — pode variar! Mas a moeda de cinco
+      é geralmente maior do que a de dez na medida
+      atual.) "O TAMANHO da moeda não te diz o VALOR — é
+      preciso aprender cada moeda!" Aponte adiante: "Hoje
+      identificamos cinco valores de moeda brasileiros.
+      Amanhã usamos esses valores para CONTAR QUANTIAS —
+      quanto é 3 moedas de 10 centavos + 2 moedas de 25
+      centavos + 1 moeda de 5 centavos? Quando vocês
+      souberem CONTAR quantias até UM REAL, terão domínio
+      da matemática monetária do 2.º ano."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 5, themeSelect: miscellaneous, languageSelect: pt }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: chart-count
+    exerciseMode: unified
+    customizationParameters: { themeSelect: miscellaneous, languageSelect: pt }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: picture-sort
+    exerciseMode: unified
+    customizationParameters: { themeSelect: miscellaneous, languageSelect: pt }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 5, themeSelect: miscellaneous, languageSelect: pt }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: math-worksheet
+    exerciseMode: easy
+    customizationParameters: { difficulty: easy, numExercises: 6, operations: count, selectMode: theme, languageSelect: pt }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys:
+        - centavo-5
+        - centavo-10
+        - centavo-25
+        - centavo-50
+        - real-1
+      cardCount: 10
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: pt
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys:
+        - centavo-5
+        - centavo-10
+        - centavo-25
+        - centavo-50
+        - real-1
+      cardCount: 10
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys:
+        - centavo-5
+        - centavo-10
+        - centavo-25
+        - centavo-50
+        - real-1
+      pairCount: 10
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: pt
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys:
+        - centavo-5
+        - centavo-10
+        - centavo-25
+        - centavo-50
+        - real-1
+      stripCount: 10
+      stripsPerPage: 5
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: pt
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: vocabKeyList
+      vocabKeys:
+        - centavo-5
+        - centavo-10
+        - centavo-25
+        - centavo-50
+        - real-1
+      mode: variety
+      itemCount: 6
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: pt
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: vocabKeyList
+      vocabKeys:
+        - centavo-5
+        - centavo-10
+        - centavo-25
+        - centavo-50
+        - real-1
+      pictureCueCount: 5
+      homeLanguage: pt
+      language: pt
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: pt
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+assessmentCriteria:
+  pt: |
+    Ao fim da unidade de 1 semana:
+      - Identificar todas as 5 moedas brasileiras (5
+        centavos, 10 centavos, 25 centavos, 50 centavos,
+        1 real) pelo nome ao ver a imagem da moeda em 8
+        de 10 tentativas.
+      - Dizer o valor de cada moeda (R$0,05 / R$0,10 /
+        R$0,25 / R$0,50 / R$1,00) ao ver a imagem da
+        moeda em 7 de 10 tentativas.
+      - Distinguir o paradoxo aparência-vs-tamanho
+        (reconhecer que o tamanho não corresponde
+        diretamente ao valor) em 6 de 10 tentativas.
+      - Contar por valor de moeda (contar de 5 em 5 com 5
+        moedas de 5 centavos; contar de 10 em 10 com 5
+        moedas de 10 centavos; contar de 25 em 25 com 4
+        moedas de 25 centavos; contar de 50 em 50 com 2
+        moedas de 50 centavos) em 5 de 10 tentativas.
+      - Usar o vocabulário 'moeda' / 'centavo' / 'real' /
+        'valor' / 'vale' corretamente em 5 de 10
+        tentativas de produção verbal.
+
+    Diferenciação:
+    - Pré-escola: pular a identificação de valores de
+      moeda inteiramente; revisar o reconhecimento de
+      valor numérico primeiro (per Arc 12 count-objects-
+      1-to-20).
+    - Educação infantil (5-7 anos): introduzir apenas
+      moedas de 5 + 10 centavos (pular 25 / 50 / 1 real);
+      focar nos valores que se alinham com o trabalho de
+      contagem por 5 e 10 do K.
+    - 1.º ano: identificação completa das 5 moedas mas
+      fluência limitada de contagem (contar de 5 em 5
+      com moedas de 5 centavos é OK; contar de 25 em 25
+      é difícil no 1.º ano).
+    - 2.º ano: identificação completa das 5 moedas +
+      contagem por valor de moeda + ponte para o
+      parceiro-do-par recognize-money-amounts-up-to-1-
+      unit para trabalho de problemas com texto.
+    - 3.º ano em diante: estender às combinações de
+      moedas + dar troco + comparar preços + introduzir
+      cédulas R$2 / R$5 / R$10 / R$20 / R$50 / R$100
+      (além do escopo K-3 deste pacote).
+
+compositionalRationale:
+  pt: |
+    Adaptação locale-AUTÊNTICA do pacote canônico per
+    operator-locked Path A no Arc 18 Phase 0 §A.13.6
+    firings batch. ESTE ARQUIVO INCLUI MATERIALS LIST
+    OVERRIDE — convenção Arc 7+ sparse-override
+    INTENCIONALMENTE DEPARTIDA para esta commission
+    específica (slots 2+3 da Fase 1.2). Outras commissions
+    pt continuam a usar sparse-override sem alteração.
+
+    Vocabulário pt-BR canônico para reconhecimento de
+    moedas:
+    - 'moeda' (canônico para coin); 'moedas' (plural)
+    - 'centavo' / 'centavos' (cent / cents — a sub-
+      unidade do real)
+    - 'real' / 'reais' (real / reais — a unidade do
+      sistema monetário brasileiro; R$1 = um real)
+    - 'cédula' (banknote — distingue-se de moeda
+      metálica; usado para R$2, R$5, R$10, R$20, R$50,
+      R$100, mas R$1 existe tanto como moeda QUANTO
+      como cédula no sistema atual)
+    - 'valor' / 'vale' (value / is worth)
+    - 'R$' símbolo monetário canônico brasileiro
+    - notação canônica brasileira para valores: R$0,05 /
+      R$0,10 / R$0,25 / R$0,50 / R$1,00 (vírgula
+      decimal; espaço opcional entre R$ e número)
+
+    Sistema monetário brasileiro K-3 + diferenças do USD:
+    O sistema monetário brasileiro tem características
+    estruturais distintas do USD que afetam a pedagogia
+    K-3:
+    1. **Moedas + cédulas como categorias separadas**:
+       O Brasil tem moedas para 5, 10, 25, 50 centavos +
+       R$1; CÉDULAS para R$2, R$5, R$10, R$20, R$50,
+       R$100. (USD tem moedas até $1 mas também tem
+       cédula de $1; o Brasil teve cédula de R$1
+       descontinuada — atualmente R$1 é predominantemente
+       moeda.) Este pacote K-3 foca apenas em MOEDAS
+       (sub-unidade até R$1) — cédulas são conteúdo do
+       3.º + 4.º ano.
+    2. **Estrutura decimal limpa**: O sistema BRL tem
+       MOEDAS decimais (5, 10, 25, 50 centavos + 1 real
+       = 100 centavos), facilitando o trabalho de
+       contagem decimal. O sistema USD inclui 25 cents
+       como a maior moeda fracionária, que NÃO tem
+       paralelo BRL direto (R$0,25 é decimal-friendly;
+       quarter USD é semi-decimal — divisão por 4 do
+       dollar).
+    3. **Ausência da moeda de 1 centavo**: O Brasil
+       descontinuou a moeda de 1 centavo em 2018 (a
+       moeda ainda circula mas é cada vez mais rara).
+       Este pacote NÃO ensina a moeda de 1 centavo —
+       começa em 5 centavos. (USD ensina a penny como
+       valor fundamental.)
+    4. **Símbolo R$ vs $/¢**: O Brasil usa R$ unificado
+       para reais E centavos (R$0,05 = 5 centavos); o
+       USD separa $ (dólares) de ¢ (cents). Este pacote
+       usa R$ exclusivamente per convenção brasileira.
+
+    Alinhamento BNCC (Base Nacional Comum Curricular):
+    EF02MA20 ('Resolver e elaborar problemas com números
+    até três ordens, com os significados de juntar,
+    acrescentar, separar, retirar, utilizando estratégias
+    pessoais') é o anchor BNCC do 2.º ano; o
+    reconhecimento de cédulas + moedas é conteúdo
+    embutido nesse objetivo. EF03MA24 ('Resolver e
+    elaborar problemas que envolvam a comparação e a
+    equivalência de valores monetários do sistema
+    brasileiro em situações de compra, venda e troca')
+    é a extensão do 3.º ano que adiciona equivalência +
+    troca. Este pacote (junto com o parceiro-do-par
+    recognize-money-amounts) cobre o EF02MA20 anchor.
+
+    Material concreto: o manipulative-cut-outs com
+    vocabKeys enumerando 5 tipos de moedas brasileiras
+    (centavo-5, centavo-10, centavo-25, centavo-50,
+    real-1) com `mode: variety` é o material determinante
+    para o trabalho de reconhecimento. As crianças pegam
+    fisicamente cada tipo de moeda, contam quantas
+    formam 1 real, e nomeiam o valor.
+
+    **CARRY-FORWARD DE SUBSTRATO P2:** O substrato de
+    imagem das vocabKeys de moedas brasileiras (centavo-5,
+    centavo-10, centavo-25, centavo-50, real-1 imagens na
+    image library + entradas em image-vocabulary.js) NÃO
+    existe ainda no Phase 1.2 ship; a criação do
+    substrato é adiada para o ciclo de fechamento P2 do
+    Pillar 5 per §A.13.38 decoupled-ship discipline. O
+    substrate-gap também afeta o pacote irmão en (que
+    requer substrato USD); ambos os substratos (USD +
+    BRL) são gerados em paralelo no P2 close-out.
+
+    Por §A.13.30 enquadramento informal K-3: este pacote
+    NÃO ensina aritmética monetária formal — apenas
+    reconhecimento de moedas + valores. Famílias
+    brasileiras às vezes perguntam por trabalho mais
+    avançado (calcular troco; comparar preços); o
+    parent-take-home-letter explicita que o objetivo do
+    2.º ano EF é o reconhecimento fundamental, com
+    aritmética monetária formal emergindo no 3.º + 4.º
+    ano EF.
+
+    Pacote-parceiro recognize-money-amounts-up-to-1-unit:
+    juntos formam o módulo de dinheiro K-3 brasileiro.
+    Professor pode ensinar identify-coin-values primeiro
+    (semana 1), depois recognize-money-amounts (semana
+    2) — a sequência canônica de duas semanas para
+    cobrir o sistema monetário brasileiro no 2.º ano EF.

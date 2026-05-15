@@ -2876,13 +2876,18 @@
         }
 
         const problemsData = [];
+        const seenOperations = new Set();
+        const MAX_ATTEMPTS_PER_SLOT = 50;
         for (let i = 0; i < currentProblemCount; i++) {
-            let minuend, subtrahend;
+            let minuend, subtrahend, key;
+            let attempts = 0;
             do {
                 minuend = getRandomInt(2, maxMinuend);
                 subtrahend = getRandomInt(1, minuend - 1);
-            } while (subtrahend >= minuend);
-            
+                key = minuend + ':' + subtrahend;
+                attempts++;
+            } while ((subtrahend >= minuend || seenOperations.has(key)) && attempts < MAX_ATTEMPTS_PER_SLOT);
+            seenOperations.add(key);
             problemsData.push({ minuend, subtrahend, image: exerciseImages[i % exerciseImages.length] });
         }
         return problemsData;

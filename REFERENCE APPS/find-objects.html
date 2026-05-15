@@ -4591,10 +4591,18 @@ function showMessage(msg, type = 'info', duration = 3000) {
 
             // SEO inputs for the deck.html surface (Brief A §4)
             var _t = (typeof t === 'function') ? t : function(k){return null;};
+            // [FIX][AUTHORING] §A.13.5 Shape A: resolve deckLocale up-front + pass to
+            // deriveExerciseModeName so seoMeta.exerciseModeName ships localized
+            // (per topics-taxonomy.json axes.exercise-mode.<key>.name.<deckLocale>)
+            // instead of falling back to title-case English residue
+            // (e.g., 'find-odd' → 'Find Odd' in es decks). Helper internally
+            // consults its EMBEDDED_EXERCISE_MODE_NAMES table when called from
+            // the browser without an explicit taxonomy arg.
+            var deckLocale = (window.currentLocale || (typeof languageSelect !== 'undefined' && languageSelect && languageSelect.value) || 'en');
             // Phase 4a Checkpoint 2.5 (θ): exercise_mode discriminator
             var rawExerciseMode = (options && options.exerciseMode) || null;
             var exerciseModeName = (window.LCSCatalogExport && LCSCatalogExport.deriveExerciseModeName)
-                ? LCSCatalogExport.deriveExerciseModeName(rawExerciseMode)
+                ? LCSCatalogExport.deriveExerciseModeName(rawExerciseMode, deckLocale)
                 : null;
             var seoMeta = {
                 exerciseTypeSlug: 'find-objects',
@@ -4611,7 +4619,7 @@ function showMessage(msg, type = 'info', duration = 3000) {
             };
 
             // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2 — path-(b) origin trace
-            var deckLocale = (window.currentLocale || (typeof languageSelect !== 'undefined' && languageSelect && languageSelect.value) || 'en');
+            // (deckLocale already resolved above for deriveExerciseModeName; reuse it)
             var seoTrace = (window.LCSCatalogExport && LCSCatalogExport.buildSeoTrace)
                 ? LCSCatalogExport.buildSeoTrace({
                     locale: deckLocale,

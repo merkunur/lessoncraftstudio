@@ -379,36 +379,120 @@
     return { title: titleTrace, description: descriptionTrace };
   }
 
+  // ------------------------------------------------------------------
+  // EMBEDDED_EXERCISE_MODE_NAMES — snapshot of topics-taxonomy.json
+  // axes.exercise-mode.<key>.name.<locale> for locales currently populated
+  // (en + de + es). Refresh via:
+  //   node scripts/generate-embedded-mode-names.js
+  // Other locales fall through to .en or to title-case slug per the
+  // deriveExerciseModeName fallback chain. See CLAUDE.md §16.6.1 for the
+  // substrate-honesty discipline on Tier 2-4 locale expansion.
+  // ------------------------------------------------------------------
+  var EMBEDDED_EXERCISE_MODE_NAMES = {
+    "aab": { en: "AAB", de: "AAB", es: "AAB" },
+    "aabb": { en: "AABB", de: "AABB", es: "AABB" },
+    "abb": { en: "ABB", de: "ABB", es: "ABB" },
+    "abc": { en: "ABC", de: "ABC", es: "ABC" },
+    "addition": { en: "Addition", de: "Addition", es: "Suma" },
+    "cardinal-arrows": { en: "Up/Down/Left/Right", de: "Hoch/Runter/Links/Rechts", es: "Arriba/Abajo/Izq/Der" },
+    "check-cross": { en: "Check & Cross Groups", de: "Ankreuzen und durchstreichen", es: "Marcar y tachar grupos" },
+    "choose-path": { en: "Choose the Right Path", de: "Den richtigen Weg wählen", es: "Elegir el camino correcto" },
+    "classic-maze": { en: "Classic Maze", de: "Klassisches Labyrinth", es: "Laberinto clásico" },
+    "compass": { en: "Compass Directions", de: "Himmelsrichtungen", es: "Puntos cardinales" },
+    "cross-out": { en: "Cross Out", de: "Durchstreichen", es: "Tachar" },
+    "cross-theme": { en: "Cross-Theme", de: "Themenübergreifend", es: "Tema cruzado" },
+    "easy": { en: "Easy", de: "Leicht", es: "Fácil" },
+    "fillin": { en: "Fill-In", de: "Lückentext", es: "Completar" },
+    "find-addend": { en: "Find Addend", de: "Summand finden", es: "Buscar Sumando" },
+    "find-odd": { en: "Find the Odd One", de: "Anders finden", es: "Encontrar el diferente" },
+    "find-shadow": { en: "Match the Shadow", de: "Schatten zuordnen", es: "Emparejar la sombra" },
+    "find-subtrahend": { en: "Find Subtrahend", de: "Subtrahend finden", es: "Buscar Sustraendo" },
+    "findbig": { en: "Find Big", de: "Großes finden", es: "Encontrar el Grande" },
+    "five-missing": { en: "5 Missing Pieces", de: "5 fehlende Teile", es: "5 piezas faltantes" },
+    "four-missing": { en: "4 Missing Pieces", de: "4 fehlende Teile", es: "4 piezas faltantes" },
+    "four-symbols-add": { en: "4 Symbols, Addition", de: "4 Symbole, Addition", es: "4 símbolos, suma" },
+    "four-symbols-add-sub": { en: "4 Symbols, Add+Sub", de: "4 Symbole, Add+Sub", es: "4 símbolos, suma+resta" },
+    "hard": { en: "Hard", de: "Schwer", es: "Difícil" },
+    "hidden-object": { en: "Hidden Object", de: "Versteckte Objekte", es: "Objetos escondidos" },
+    "i-spy": { en: "I Spy", de: "Ich sehe was", es: "Veo veo" },
+    "image-image": { en: "Image-Image", de: "Bild-Bild", es: "Imagen-Imagen" },
+    "image-number": { en: "Image-Number", de: "Bild-Zahl", es: "Imagen-Número" },
+    "letter": { en: "Letter", de: "Buchstaben", es: "Letras" },
+    "letter-spotting": { en: "Letter Spotting", de: "Buchstaben suchen", es: "Búsqueda de letras" },
+    "make-whole": { en: "Make It Whole", de: "Ganz machen", es: "Completarla" },
+    "medium": { en: "Medium", de: "Mittel", es: "Medio" },
+    "mixed": { en: "Mixed", de: "Gemischt", es: "Mixto" },
+    "multiplechoice": { en: "Multiple Choice", de: "Multiple-Choice", es: "Opción Múltiple" },
+    "name": { en: "Name", de: "Namen", es: "Nombres" },
+    "normal": { en: "Normal", de: "Normal", es: "Normal" },
+    "one-missing": { en: "1 Missing Piece", de: "1 fehlendes Teil", es: "1 pieza faltante" },
+    "orderasc": { en: "Order Ascending", de: "Aufsteigend ordnen", es: "Orden Ascendente" },
+    "pathway": { en: "Picture Pathway", de: "Bilderpfad", es: "Camino con imágenes" },
+    "same-theme": { en: "Same Theme", de: "Gleiches Thema", es: "Mismo tema" },
+    "secret-word": { en: "Secret Word", de: "Geheimwort", es: "Palabra Secreta" },
+    "standard": { en: "Standard", de: "Standard", es: "Estándar" },
+    "subtraction": { en: "Subtraction", de: "Subtraktion", es: "Resta" },
+    "three-missing": { en: "3 Missing Pieces", de: "3 fehlende Teile", es: "3 piezas faltantes" },
+    "three-symbols-add": { en: "3 Symbols, Addition", de: "3 Symbole, Addition", es: "3 símbolos, suma" },
+    "three-symbols-add-sub": { en: "3 Symbols, Add+Sub", de: "3 Symbole, Add+Sub", es: "3 símbolos, suma+resta" },
+    "two-missing": { en: "2 Missing Pieces", de: "2 fehlende Teile", es: "2 piezas faltantes" },
+    "two-symbols-add": { en: "2 Symbols, Addition", de: "2 Symbole, Addition", es: "2 símbolos, suma" },
+    "two-symbols-add-sub": { en: "2 Symbols, Add+Sub", de: "2 Symbole, Add+Sub", es: "2 símbolos, suma+resta" }
+  };
+
   /**
    * Phase 4a Checkpoint 2.5 (θ): convert raw exercise_mode slug (e.g.,
-   * 'find-addend') to title-case human-readable form (e.g., 'Find Addend').
+   * 'find-addend') to a human-readable form, localized per the deck's locale.
    * Used by per-app extractDeckBundle to populate seoMeta.exerciseModeName +
    * by publish-cli's republish-seo retrofit script when manifest.seo_trace
    * is absent (Class A.2 / Class B fallback).
    *
-   * Phase 5 NSR review (Adjudication 2 (γ)) layers localized mode-name
-   * translations on top via messages/<locale>.json seo.mode.* keys. This
-   * Phase 4a immediate fix ships English title-case mode IDs; Phase 5
-   * refines to localized forms.
+   * Resolution chain (per CLAUDE.md §A.13.5 Shape A + §A.13.10):
+   *   1. Explicit taxonomy arg → axes.exercise-mode.<key>.name.<locale>
+   *   2. EMBEDDED_EXERCISE_MODE_NAMES (snapshot of taxonomy, browser-side)
+   *   3. Title-case slug fallback (final safety net for unregistered modes)
+   *
+   * `locale` auto-resolves from window.currentLocale when caller doesn't
+   * pass it explicitly. Apps' extractDeckBundle calls used to pass only
+   * rawMode (1-arg); they now pass deckLocale (2-arg) per the per-app
+   * fix at find-objects.html + treasure-hunt.html. Helper's auto-resolution
+   * keeps the other 27 apps' 1-arg calls working — they pick up the deck's
+   * locale via the global without per-app code change.
    *
    * Returns null when input is null/empty/non-string. Empty string trips
-   * the fallback path (default-mode contract).
+   * the fallback path (default-mode contract per §17.8.5).
    */
   function deriveExerciseModeName(rawMode, locale, taxonomy) {
     if (!rawMode || typeof rawMode !== 'string') return null;
     var s = rawMode.trim();
     if (!s) return null;
-    // Locale lookup via topics-taxonomy.json axes.exercise-mode.<key>.name.<locale>
-    // when taxonomy provided; falls back locale → en → title-cased slug.
+
+    // Auto-resolve locale from global when not passed explicitly.
+    // window.currentLocale is set by every worksheet generator app per its
+    // language picker; helper falls back to 'en' if neither is set
+    // (e.g., Node-side callers that don't run in a browser context).
+    if (!locale && typeof window !== 'undefined') {
+      locale = window.currentLocale || null;
+    }
+    var loc = locale || 'en';
+
+    // Path 1: explicit taxonomy arg (Node-side republish-seo + tests).
     if (taxonomy && taxonomy.axes && taxonomy.axes['exercise-mode']) {
       var entry = taxonomy.axes['exercise-mode'][s];
       if (entry && entry.name) {
-        var loc = locale || 'en';
         if (entry.name[loc]) return entry.name[loc];
         if (entry.name.en) return entry.name.en;
       }
     }
-    // Final fallback: title-case the raw slug
+
+    // Path 2: embedded snapshot (apps' default path; covers en/de/es).
+    if (EMBEDDED_EXERCISE_MODE_NAMES[s]) {
+      var emb = EMBEDDED_EXERCISE_MODE_NAMES[s];
+      if (emb[loc]) return emb[loc];
+      if (emb.en) return emb.en;
+    }
+
+    // Path 3: title-case slug fallback (for modes not yet in taxonomy).
     return s.split('-').map(function (w) {
       if (!w) return '';
       return w.charAt(0).toUpperCase() + w.slice(1);

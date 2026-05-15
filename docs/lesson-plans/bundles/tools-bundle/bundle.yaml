@@ -23,6 +23,8 @@ teachingPackageSlugs:
   - count-objects-1-to-10
   - sort-by-category
   - use-size-comparison-words
+  - identify-common-materials
+  - describe-material-properties
 
 deckIds: []
 lessonPlanIds: []

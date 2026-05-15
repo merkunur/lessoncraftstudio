@@ -24,6 +24,8 @@ teachingPackageSlugs:
   - sort-by-shape
   - compose-shapes-from-parts
   - identify-symmetry-line
+  - partition-shape-halves-quarters
+  - identify-fractions-half-third-quarter
 
 deckIds: []
 lessonPlanIds: []

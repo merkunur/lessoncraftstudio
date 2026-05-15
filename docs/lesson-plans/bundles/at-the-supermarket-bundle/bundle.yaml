@@ -28,6 +28,8 @@ teachingPackageSlugs:
   - add-2-digit-without-regrouping
   - subtract-2-digit-without-regrouping
   - compare-2-digit-numbers
+  - identify-coin-values
+  - recognize-money-amounts-up-to-1-unit
 
 deckIds: []
 lessonPlanIds: []

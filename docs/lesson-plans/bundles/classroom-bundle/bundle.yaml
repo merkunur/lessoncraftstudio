@@ -27,6 +27,10 @@ teachingPackageSlugs:
   - tell-time-to-half-hour
   - form-uppercase-letters
   - fact-families-within-10
+  - identify-classroom-rules
+  - form-lowercase-letters
+  - form-numerals-0-to-10
+  - tell-time-to-quarter-hour
 
 deckIds: []
 lessonPlanIds: []

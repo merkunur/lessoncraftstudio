@@ -255,9 +255,7 @@
             { "slug": "order-3-objects-by-length", "name": "Order 3 objects by length", "description": "Arrange shortest-to-longest.", "prerequisites": ["compare-by-length"], "curriculum_alignment": ["CCSS.1.MD.A.1"] },
             { "slug": "tell-time-to-the-hour", "name": "Tell time to the hour on an analog clock", "description": "Read 1:00, 2:00, ... 12:00.", "prerequisites": [], "curriculum_alignment": ["CCSS.1.MD.B.3"] },
             { "slug": "tell-time-to-half-hour", "name": "Tell time to the half-hour", "description": "Read times like 3:30, 4:30.", "prerequisites": ["tell-time-to-the-hour"], "curriculum_alignment": ["CCSS.1.MD.B.3"] },
-            { "slug": "tell-time-to-quarter-hour", "name": "Tell time to the quarter-hour", "description": "Read times like 3:15, 3:45.", "prerequisites": ["tell-time-to-half-hour"], "curriculum_alignment": ["CCSS.2.MD.C.7"] },
-            { "slug": "identify-coin-values", "name": "Identify coin values (locale-appropriate)", "description": "Recognize the coins of the relevant currency and their values.", "prerequisites": [], "curriculum_alignment": ["CCSS.2.MD.C.8"] },
-            { "slug": "recognize-money-amounts-up-to-1-unit", "name": "Recognize money amounts up to 1 currency unit", "description": "Combine coins to total amounts up to 1 dollar/euro/etc.", "prerequisites": ["identify-coin-values"], "curriculum_alignment": ["CCSS.2.MD.C.8"] }
+            { "slug": "tell-time-to-quarter-hour", "name": "Tell time to the quarter-hour", "description": "Read times like 3:15, 3:45.", "prerequisites": ["tell-time-to-half-hour"], "curriculum_alignment": ["CCSS.2.MD.C.7"] }
           ]
         },
         {

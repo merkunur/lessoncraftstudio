@@ -2913,11 +2913,22 @@
             const shouldPreserve = preserveTransforms && exerciseMode !== 'multiplechoice';
 
             // --- Part B, Step 1: Preserve State ---
+            // Typed-key partitioning prevents originalIndex collision between
+            // whiteboard cell groups (createCellGroup line 3390) and Q&A text
+            // items (buildQuestionBlock line 3478). Without this, the cell
+            // group's transform was overwritten by the Q&A text's transform
+            // (same originalIndex 0..7), and on regeneration cell groups got
+            // placed at the Q&A row positions — leaking whiteboard images into
+            // the exercises area. Discriminator: isFillinExerciseText (set
+            // only on mainQuestionText, not on cell groups).
+            function _transformKey(obj) {
+                return (obj.isFillinExerciseText ? 'qa:' : 'cell:') + obj.originalIndex;
+            }
             const oldTransforms = {};
             if (shouldPreserve) {
                 worksheetCanvas.getObjects().forEach(obj => {
                     if (obj.isGeneratedItem && obj.originalIndex != null) {
-                        oldTransforms[obj.originalIndex] = {
+                        oldTransforms[_transformKey(obj)] = {
                             left: obj.left, top: obj.top,
                             scaleX: obj.scaleX, scaleY: obj.scaleY,
                             angle: obj.angle
@@ -2988,13 +2999,14 @@
             // --- Part B, Step 3 & 4: Re-apply and Finalize ---
             newItems.forEach(item => {
                 const beforePos = { left: item.left, top: item.top };
-                if (shouldPreserve && oldTransforms[item.originalIndex]) {
+                const savedTransform = (item.originalIndex != null) ? oldTransforms[_transformKey(item)] : null;
+                if (shouldPreserve && savedTransform) {
                     console.log('OVERRIDING POSITION:', {
-                        originalIndex: item.originalIndex,
+                        transformKey: _transformKey(item),
                         before: beforePos,
-                        override: oldTransforms[item.originalIndex]
+                        override: savedTransform
                     });
-                    item.set(oldTransforms[item.originalIndex]);
+                    item.set(savedTransform);
                 }
                 worksheetCanvas.add(item);
             });
@@ -3049,11 +3061,17 @@
             const shouldPreserve = preserveTransforms && exerciseMode !== 'multiplechoice';
 
             // --- Part C, Step 1: Preserve State ---
+            // Typed-key partitioning per generateWorksheet — same bug class:
+            // cell-group + Q&A-text originalIndex namespace collision causes
+            // cell groups to leak into the Q&A area on regeneration.
+            function _transformKey(obj) {
+                return (obj.isFillinExerciseText ? 'qa:' : 'cell:') + obj.originalIndex;
+            }
             const oldTransforms = {};
             if (shouldPreserve) {
                 answerKeyCanvas.getObjects().forEach(obj => {
                     if (obj.isAnswerKeyItem && obj.originalIndex != null) {
-                        oldTransforms[obj.originalIndex] = {
+                        oldTransforms[_transformKey(obj)] = {
                             left: obj.left, top: obj.top,
                             scaleX: obj.scaleX, scaleY: obj.scaleY,
                             angle: obj.angle
@@ -3119,8 +3137,9 @@
 
             // --- Part C, Step 4: Re-apply and Finalize ---
             newItems.forEach(item => {
-                if (shouldPreserve && oldTransforms[item.originalIndex]) {
-                    item.set(oldTransforms[item.originalIndex]);
+                const savedTransform = (item.originalIndex != null) ? oldTransforms[_transformKey(item)] : null;
+                if (shouldPreserve && savedTransform) {
+                    item.set(savedTransform);
                 }
                 answerKeyCanvas.add(item);
             });

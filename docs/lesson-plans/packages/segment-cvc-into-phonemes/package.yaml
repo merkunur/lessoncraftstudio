@@ -1,0 +1,432 @@
+# Teaching package — segment CVC words into phonemes
+# Arc 19 Phase 1.3 Slot 2 (early-literacy / phonological-awareness strand 8/9 → 9/9 SAT — STRAND-SAT-CLOSING; 22nd parent-class strand SAT closure). Pair-coherent with Phase 1.3 Slot 1 blend-onset-rime. Final canonical target in the phonological-awareness strand. Reverse-operation pair with Phase 1.2 Slot 4 blend-phonemes-cvc. Prerequisites per learning-targets.json line 41: blend-phonemes-cvc (Phase 1.2 Slot 4; ✓ filesystem-staged).
+
+targetSlug: segment-cvc-into-phonemes
+language: en
+title:
+  en: "Segment Sounds — pulling words apart into separate sounds"
+description:
+  en: "Kindergarten early-literacy package teaching kids to SEGMENT CVC words into individual phonemes. Direct reverse-operation of Phase 1.2 Slot 4 blend-phonemes-cvc synthesis: kids hear 'cat' + decompose it into /c/ + /a/ + /t/. Most analytically-demanding of the phonological-awareness skills + the canonical bridge to systematic phonics-decoding via Elkonin-box methodology (3 boxes = 3 sounds; kid taps each box while saying each phoneme). STRAND-SAT-CLOSING package: completes phonological-awareness strand at 9/9 SAT — final canonical target per learning-targets.json line 41. **22nd parent-class strand SATISFIED in the catalog** (advances aggregate parent-class strand-saturation 21/30 → 22/30 = 73.3% per §A.13.33 parent-class methodology). 3-consecutive-SAT-closure momentum: Phase 1.1 reading-comprehension + Phase 1.2 measurement + Phase 1.3 phonological-awareness = 3 SAT closures across 3 phases of Arc 19. Per learning-targets.json line 41 prerequisite: blend-phonemes-cvc (Phase 1.2 Slot 4 ✓ filesystem-staged). Per §A.13.30 K-1 informal framing: K segmentation work is CONCRETE SOUND-DECOMPOSITION via Elkonin-box methodology — kid sees 3 empty boxes drawn on paper + taps each box while pronouncing each phoneme of a CVC word slowly ('/c/.../a/.../t/'). NOT formal phonological-decomposition theory pedagogy. CCSS.RF.K.2e primary anchor ('Add or substitute individual sounds (phonemes) in simple, one-syllable words to make new words'). 5 worksheet exercises + 8 printable materials over a 1-week unit. **Phonological-awareness pedagogy is locale-specific — segmentation pedagogy differs per locale. pt-BR uses syllabic-segmentation primarily; phonemic-segmentation introduced later per BR-MEC framework.** Materials list mirrors Phase 1.1+1.2 phonological-awareness cluster Literacy 8-material canonical."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class segmentation hook + Elkonin-box introduction.
+      Teacher draws 3 empty boxes on the board side by side:
+      [ ] [ ] [ ]. "These are SOUND BOXES. Each box is for ONE
+      sound. A 3-sound word fits in 3 boxes. Let's try with
+      CAT." Teacher slowly pronounces: "C-A-T. That's 3 sounds:
+      /c/.../a/.../t/. We can put one sound in each box."
+      Teacher writes a letter in each box as the sound is said:
+      [C] [A] [T]. "Now we can SEE the 3 sounds + HEAR the 3
+      sounds." Repeats with DOG → [D] [O] [G]; SUN → [S] [U]
+      [N]; PIG → [P] [I] [G]. Pattern emphasis: "Every CVC word
+      has 3 SOUNDS. Segmenting means pulling the word APART
+      into the 3 sounds. Blending puts them together; segmenting
+      pulls them apart. SAME SOUNDS, OPPOSITE DIRECTION."
+      Critical pedagogical framing — the reverse-operation
+      insight (mirrors Phase 1.2 Slot 4): "Yesterday we BLENDED
+      sounds together. Today we're SEGMENTING — pulling words
+      APART into separate sounds. Both skills use the same
+      3 sounds; the difference is direction."
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + Elkonin-box segmentation routine. Each pair
+      receives 8 picture cards with CVC vocabulary (cat, dog,
+      pig, hen, bat, mat, sun, bus) + Elkonin-box paper strips
+      (3 empty boxes per strip). Pair takes turns: kid A names
+      a picture (cat); kid B says the word slowly + TAPS each
+      box while saying each phoneme ("/c/" tap-box-1; "/a/"
+      tap-box-2; "/t/" tap-box-3). Kid B then says how many
+      sounds (3). Critical pedagogical technique: SLOW-STRETCHED
+      PRONUNCIATION + box-tapping. The box-tap is the
+      kinesthetic anchor that makes phoneme-segmentation
+      concrete. K-1 kids often segment incorrectly without
+      kinesthetic anchoring (saying 2 sounds for cat /c-at/
+      or 4 sounds /c-a-t-h/); the box-tap forces exactly 3
+      taps for 3 phonemes. Recast errors with re-segmentation
+      ("you said /c/.../at/ — that's 2 sounds, but CAT has 3
+      boxes. Let's try again, ONE sound per box: /c/.../a/...
+      /t/. Three taps for three sounds."). Common error
+      patterns: (a) treating consonant blend as one sound
+      (BLAST → 4 sounds instead of 5; defer blend-onset
+      segmentation to Grade 1); (b) treating long-vowel/silent-
+      e words as 4 sounds (CAKE → /c/+/a/+/k/+/e/ — actually
+      3 sounds /c/+/a/+/k/ with silent-e; defer to Grade 1
+      CVCe work); (c) miscounting due to letter-name confusion
+      (saying "C-A-T" letter-names = 3 letter-names but
+      phoneme-segmentation requires sound-not-letter-name).
+      Optional extension: kid A says a CVC word; kid B
+      segments + writes each sound in its Elkonin box (using
+      single-letter representation per phoneme). This bridges
+      segmentation directly to phonemic encoding (early
+      spelling).
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: word-guess worksheet (kids
+      fill in missing-letter positions of a CVC word given a
+      picture — segmentation supports letter-position
+      identification). Station 2: matching worksheet (CVC
+      picture → 3-box Elkonin representation; kids match
+      pictures to the correct number of sound-boxes filled).
+      Station 3: picture-sort (kids sort pictures by phoneme
+      count — 3-phoneme CVCs vs 4-phoneme words). Station 4:
+      word-scramble (kids unscramble CVC words; reinforces
+      that each letter-position holds one sound).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class STRAND-SAT-CLOSING celebration + segmentation
+      quick-recall. Teacher names a CVC word; class shouts the
+      3 sounds in order. "Sun!" → /s/-/u/-/n/! "Cat!" →
+      /c/-/a/-/t/! "Pig!" → /p/-/i/-/g/! "Bat!" → /b/-/a/-/t/!
+      Teacher then makes the STRAND-SAT-CLOSING announcement:
+      "Today we CLOSED our phonological-awareness strand! We
+      started with rhyme back in Pre-K + Arc 10 (identify-
+      rhyming-pairs + produce-rhyming-words), then syllable-
+      counting (count-syllables-1-to-3), then phoneme-isolation
+      at the first / last / middle positions (isolate-initial/
+      final/medial-phoneme), then phoneme-blending (blend-
+      phonemes-cvc) + onset-rime blending (blend-onset-rime
+      yesterday), and TODAY we finished with phoneme-
+      segmentation. 9 of 9 phonological-awareness targets
+      DONE — that's the COMPLETE phonological-awareness
+      strand for K. ALL the sound-skills before reading: rhyme
+      + syllable + phoneme-isolation + phoneme-blending + onset-
+      rime + segmentation. Now we have ALL the listening-skills
+      we need for reading." Forward-pointer: "Phonological
+      awareness is the foundation. Reading sits on top of
+      phonological awareness + PHONICS (letter-sound work).
+      We've been learning phonics alongside phonological-
+      awareness all year — letter-recognition + letter-sounds
+      + read-cvc-words. Now those skills can come together.
+      Next we'll work on more advanced phonics — reading words
+      with CONSONANT BLENDS like 'blast', 'stop', 'fresh'.
+      That's our next strand to fill in!"
+
+composedExercises:
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: animals, rightCategoryThemeSelect: vehicles, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: word-scramble
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: phoneme-segmentation-pairing-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 12
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 5
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 6
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 7
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 8
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: early-literacy / phonological-awareness
+    (segment-cvc-into-phonemes — STRAND-SAT-CLOSING 8/9 → 9/9
+    SAT). **22nd parent-class strand SATISFIED in the catalog**
+    (advances aggregate parent-class strand-saturation 21/30 →
+    22/30 = 73.3% per §A.13.33 parent-class methodology).
+    Final canonical target per learning-targets.json
+    phonological-awareness strand enumeration (9 targets total;
+    segment-cvc-into-phonemes at line 41 closes the strand).
+    **3-consecutive-SAT-closure momentum** across Arc 19:
+    Phase 1.1 reading-comprehension (20th) + Phase 1.2
+    measurement (21st) + Phase 1.3 phonological-awareness
+    (22nd) = 3 SAT closures across 3 consecutive phases. Per
+    §A.13.31 per-instance content-awareness: `blend-phonemes-
+    cvc/package.yaml` (Phase 1.2 Slot 4) is the canonical
+    reverse-operation precedent — this package mirrors its
+    Literacy 8-material + composedExercises shape with
+    analysis-pedagogy adaptation.
+
+    Architectural significance: SAT-CLOSES the phonological-
+    awareness strand at 9/9 + completes the full phonological-
+    awareness pedagogical cluster across all 5 canonical
+    skills (rhyme + syllable + phoneme-isolation + phoneme-
+    blending + phoneme-segmentation). Cognitive progression:
+    rhyme-recognition (Arc 10 P1 + Phase 1.1 Slot 4) →
+    syllable-counting (Arc 10 P1) → phoneme-isolation (Phase
+    1.1 Slot 3 + Phase 1.2 Slots 2+3) → phoneme-blending
+    synthesis (Phase 1.2 Slot 4) + onset-rime blending
+    synthesis (Phase 1.3 Slot 1) → phoneme-segmentation
+    analysis (this package). Closing the strand here completes
+    the K phonological-awareness foundation that underlies
+    systematic phonics-decoding pedagogy + emergent reading
+    fluency.
+
+    **Phonological-awareness cluster significance:** Phase
+    1.1 Slots 3+4 + Phase 1.2 Slots 2+3+4 + Phase 1.3 Slots
+    1+2 = **7-package phonological-awareness cluster** + 2
+    pre-existing (identify-rhyming-pairs + count-syllables-1-
+    to-3 from Arc 10 P1) = full 9/9 strand cluster. This is
+    a CANDIDATE FOR Arc 19 P2 close-out NEW phonological-
+    awareness-bundle creation per §A.13.38 — alongside
+    character-knowledge-bundle + numeracy-bundle Arc 18 P2
+    docs residuals. The bundle would package the complete
+    K phonological-awareness pedagogical sequence for
+    teachers who want the full cluster as a unit.
+
+    Per §A.13.30 K-1 informal framing: K segmentation work
+    is CONCRETE SOUND-DECOMPOSITION via Elkonin-box
+    methodology. Kid sees 3 empty boxes drawn on paper +
+    taps each box while pronouncing each phoneme slowly.
+    The pedagogy uses everyday language ('segment' / 'pull
+    apart' / 'separate sounds') + kinesthetic anchoring
+    (box-tapping; one tap per sound). NOT formal phonological-
+    decomposition theory pedagogy — phonemic-feature analysis
+    + autosegmental phonology + metrical phonology are post-
+    Grade-3 academic work. Critical pedagogical move
+    documented in contentActivity: SLOW-STRETCHED
+    PRONUNCIATION + box-tapping kinesthetic anchor. Common
+    error patterns addressed via re-segmentation:
+    treating consonant blend as one sound, treating long-
+    vowel words as 4 sounds, miscounting due to letter-name
+    confusion. All three patterns are developmentally
+    typical for K + addressed in differentiation.
+
+    Per §A.13.29 ground-truth source-citation: composedExercises
+    cite `REFERENCE APPS/word-guess.html` (clue-density mode
+    for missing-letter-position work that segmentation
+    supports) + `REFERENCE APPS/matching.html` (imgname mode
+    for picture-to-Elkonin-box pairing) + `REFERENCE APPS/
+    picture-sort.html` (theme mode for phoneme-count
+    categorization) + `REFERENCE APPS/word-scramble.html`
+    (unified mode for letter-position-to-sound reinforcement).
+
+    Cross-reference to blend-phonemes-cvc (Phase 1.2 Slot 4;
+    pair-coherent reverse-operation): segmentation is the
+    cognitive INVERSE of blending. Same 3 phonemes; opposite
+    direction. Blending puts /c/+/a/+/t/ together into 'cat';
+    segmentation pulls 'cat' apart into /c/+/a/+/t/. Kids who
+    master both operations have full bidirectional phonemic
+    awareness — the canonical foundation for reading + early
+    spelling. The two packages form the structural pair that
+    completes the synthesis+analysis dimension of
+    phonological-awareness work.
+
+    Cross-reference to read-cvc-words (Arc 6 P1; phonics-
+    decoding strand-start): segmentation is the cognitive
+    operation underlying CVC decoding from the kid's side.
+    When a kid sees printed CAT + sounds out each letter +
+    blends to read 'cat', the implicit prerequisite is that
+    the kid can SEGMENT spoken 'cat' into 3 sounds (so the
+    written 3 letters → 3 sounds mapping makes sense).
+    Phonological-awareness segmentation (this package; oral-
+    only) + read-cvc-words (phonics decoding; written CVC →
+    sounded-out → read) form the foundational reading-skill
+    pair from oral + written sides. **The §A.13.34 parallel-
+    strand-framing applies here too:** segmentation in
+    phonological-awareness vs phonics-decoding work operates
+    at different strand boundaries per the symbol-dimension
+    (oral-only vs symbol-integrated). See Phase 1.2 Slot 4
+    blend-phonemes-cvc compositionalRationale for the
+    canonical §A.13.34 strand-boundary discipline.
+
+    Materials note: 8-material Literacy class stack per
+    §A.13.37 + Phase 1.1+1.2 phonological-awareness cluster
+    canonical precedents. Materials structure mirrors
+    isolate-initial/final/medial-phoneme + blend-phonemes-
+    cvc + blend-onset-rime verbatim (theme: animals provides
+    familiar K-1 CVC vocabulary for segmentation work — cat
+    /c-a-t/ + dog /d-o-g/ + pig /p-i-g/ + hen /h-e-n/ + bat
+    /b-a-t/ + bus /b-u-s/ all decompose cleanly into 3
+    phonemes). Manipulative-cut-outs at position 6 emits
+    canonical-correct `mode: single-repeat` per §A.13.35.
+
+    Distinctive composition: word-guess at position 1
+    (introduction) — the missing-letter format naturally
+    surfaces segmentation work (kid sees C_T + picture cue,
+    segments the heard word to identify the missing-position
+    phoneme). Matching ×2 (positions 2+5) + picture-sort
+    (position 3; phoneme-count categorization) + word-
+    scramble (position 4). Same composition shape as Phase
+    1.2 Slot 4 blend-phonemes-cvc — analysis + synthesis
+    operations both benefit from word-guess's incomplete-
+    letter affordance because the missing letter forces the
+    kid to segment the heard word + identify the position-
+    specific phoneme.
+
+    Class B FLEXIBLE substrate: composes against animals
+    theme (vocab-anchored with familiar K-1 CVC vocabulary;
+    cross-arc theme consistency with Phase 1.1+1.2 cluster).
+    No substrate gaps; ships clean.
+
+    K-3 multilingual classroom relevance: segmentation is
+    universal K early-literacy content BUT segmentation
+    pedagogy differs per locale's phonological structure.
+    English (consonant-cluster permissive; CVC-dominant)
+    teaches phonemic segmentation via Elkonin-boxes as the
+    canonical methodology. pt-BR (CV-syllable-dominant) +
+    Italian + Spanish typically introduce syllabic-
+    segmentation first + phonemic-segmentation later per
+    BR-MEC / Italian / Spanish ministerial frameworks.
+    Multilingual K-3 classrooms benefit from explicit
+    segmentation work in the language-of-instruction strategy
+    + awareness that home-language segmentation strategies
+    may differ structurally.
+
+curriculumStandards:
+  - CCSS.RF.K.2e
+  - CCSS.RF.K.2d
+  - CCSS.RF.K.3b
+  - EYFS.ELG.LIT.WR
+  - IB-PYP.HowWeExpressOurselves
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Segment a heard CVC word into 3 phonemes in 7 of 10
+        trials.
+      - Use Elkonin-box methodology (one tap per phoneme) in
+        8 of 10 trials.
+      - Identify the phoneme-count of a heard CVC word in 7
+        of 10 trials.
+      - Match a heard CVC word to its 3-box Elkonin
+        representation in 7 of 10 trials.
+      - Write each phoneme in its Elkonin-box position
+        (segmentation → encoding bridge) in 5 of 8 attempts.
+      - Use vocabulary 'segment' / 'pull apart' / 'separate
+        sounds' / 'sound box' / 'phoneme' (if introduced
+        formally) correctly in 5 of 10 productive-language
+        trials.
+
+    Differentiation:
+    - Pre-K: focus on rhyme + syllable + initial-phoneme work;
+      defer full phoneme-segmentation to K.
+    - K: 3-phoneme CVC segmentation with Elkonin-box scaffold;
+      defer 4+ phoneme segmentation + consonant-blend
+      decomposition to Grade 1.
+    - Grade 1: full CVC + CVCC + CCVC segmentation; bridge to
+      written-word segmentation + early spelling (kids
+      segment THEN encode each phoneme as a letter).
+    - Grade 2+: extend to multi-syllable segmentation
+      (compound + 2-syllable words via syllable-segmentation
+      then phoneme-segmentation within each syllable); bridge
+      to systematic phonics decoding + word-attack strategies.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

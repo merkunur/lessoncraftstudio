@@ -1,0 +1,253 @@
+# Teaching package — read vowel-team words
+# Arc 19 Phase 1.4 (early-literacy / phonics-decoding strand-advancement 3 → 4).
+# Builds on Arc 12 read-cvc-words + Arc 13 read-cvce-words foundation.
+# Resolves the long-vowel forward-pointer chain at the canonical
+# vowel-team layer.
+
+targetSlug: read-vowel-teams
+language: en
+title:
+  en: "Vowel Teams — read rain, see, boat, day, light"
+description:
+  en: "Grade 1 / Grade 2 early-literacy package teaching kids to read words with common vowel teams. Builds on Arc 12 read-cvc-words + Arc 13 read-cvce-words foundation. Vowel teams are two-letter vowel combinations that work together to make one long-vowel sound: ai (rain), ay (day), ee (see), ea (eat), oa (boat), ow (snow), ie (pie), igh (light). When kids see two vowels side-by-side, they learn 'when two vowels go walking, the first one does the talking' — the team makes the first vowel's long sound. Critical phonics-decoding bridge from single-vowel + silent-e patterns to multi-letter vowel patterns; opens the door to 70% of Tier-1 reading vocabulary. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook: the vowel-team rule. Teacher writes "rain"
+      on the board + sounds it out: "r-ai-n. The 'a' and 'i' work
+      together — they make ONE long-A sound. Rain. Train. Brain."
+      Class repeats. Teacher introduces the saying: "When two vowels
+      go walking, the first one does the talking." Repeat with: "see"
+      (ee → long E); "boat" (oa → long O); "day" (ay → long A);
+      "light" (igh → long I). Anchor words establish memorable
+      handles for each team.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + sound-out routine. Each pair receives 8 picture
+      cards with vowel-team labels (rain, train, see, tree, boat,
+      goat, day, hay). Pair takes turns: kid A points to a card; kid
+      B sounds out the word using the vowel-team rule ("r-ai-n... I
+      see 'ai', so it makes long A... rain!"). Recast errors with
+      sound-stretching ("you said 'rin' for 'rain' — let's look at
+      the vowels: a-i. Two vowels walking. The first one talks. So
+      what sound does A make when it's walking with I? Long A. /ay/.
+      Rain.") Optional extension: kids use letter-cut-outs to BUILD
+      vowel-team words.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching worksheet (vowel-team
+      word to picture). Station 2: word-guess (kids fill in
+      missing vowel-team letters from picture clues — r__n = rain;
+      tr__ = tree; b__t = boat). Station 3: word-scramble (rearrange
+      letters to form vowel-team words). Station 4: vocabulary-
+      tracing-strips for vowel-team anchor words.
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class vowel-team review. Teacher writes 5 vowel-team
+      words; class reads each by spotting the team + saying the long
+      sound. Forward-pointer: "Today we read vowel-team words. When
+      we come back to reading next, we'll read words with R-CONTROLLED
+      vowels — 'car', 'bird', 'horn' — where the letter R changes
+      how the vowel sounds altogether."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 5, difficulty: medium, letterCase: lowercase, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: word-scramble
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en, difficulty: medium }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 5, difficulty: medium, letterCase: lowercase, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 6, themeSelect: foods, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 16
+      cardsPerPage: 8
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 16
+      cardsPerPage: 8
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      stripCount: 16
+      stripsPerPage: 8
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: variety
+      itemCount: 4
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 6
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: early-literacy / phonics-decoding (vowel-team
+    word reading; canonical strand-advancement 3 → 4). Secondary
+    strand: phonological awareness (kids hear the long-vowel sounds
+    produced by vowel teams). Tertiary strand: vocabulary acquisition
+    (vowel-team anchor words drawn from familiar K-3 vocabulary).
+
+    Architectural significance: phonics-decoding strand-advancement
+    (3 → 4 base canonical authored). Reading-CVCe at Arc 13 introduced
+    long-vowel patterns via silent-e; vowel-teams extend long-vowel
+    work to a second canonical multi-letter pattern (ai/ay/ee/ea/
+    oa/ow/ie/igh). Phonetic-reciprocity-with-spelling: vowel-team
+    decoding work pairs with future spell-vowel-team-words (NOT in
+    canonical 5-target spelling-and-encoding strand; could surface as
+    Phase 2+ candidate per learning-targets.json doctrine_notes).
+
+    Pair-coherent ship pattern (per Arc 19 cadence): paired with
+    read-r-controlled-vowels in this Phase 1.4 commission. Together
+    the pair completes the long-vowel + r-controlled phonics-decoding
+    extension for English-CVC-pattern locales.
+
+    Distinctive composition: 2 matching + 2 word-guess + 1 word-
+    scramble. Word-guess as cloze-decoding practice surfaces the
+    vowel-team pattern in fill-in-the-blank context; word-scramble
+    reinforces the team-stays-together ordering.
+
+    Class B FLEXIBLE substrate: composes against animals + foods
+    image-library themes (vowel-team-rich vocabulary: rain, train,
+    bee, tree, boat, goat, pie, light, day, hay, sea, beach, soap,
+    coat). Manipulative-cut-outs in variety mode supplies the 4
+    canonical vowel-team patterns (long-A, long-E, long-O, long-I)
+    as letter-tile prompt set.
+
+    K-3 multilingual classroom relevance: vowel-team phonics is
+    English-CVC-pattern-specific. Other locales use different
+    long-vowel marking strategies — Spanish has open-syllable
+    structure (no long-vowel-by-team need); Italian + Portuguese
+    use accent marks (não, à); Finnish uses doubled-vowel-letters
+    (tuli vs tuuli) for length contrast; German uses h-as-vowel-
+    lengthener (Bahn) + doubled-vowels (Boot). Locale-variant
+    sparse-overrides per Phase 3 will reframe vowel-pattern work
+    against locale-canonical orthographic conventions, not transpose
+    English vowel-teams.
+
+curriculumStandards:
+  - CCSS.RF.2.3b
+  - CCSS.RF.1.3c
+  - EYFS.ELG.LIT
+  - IB-PYP.HowWeExpressOurselves
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Identify the vowel-team in a written word (rain, see, boat)
+        and produce the corresponding long-vowel sound in 8 of 10
+        trials.
+      - Read 8 unfamiliar vowel-team words (e.g., 'snail', 'green',
+        'soap', 'sigh') correctly in 7 of 10 trials.
+      - Apply the two-vowels-walking rule to predict the long-vowel
+        sound from spelling pattern in 6 of 10 trials.
+
+    Differentiation:
+    - Pre-K: read-only vowel-team review with picture support; long-
+      vowel sound matching only.
+    - Kindergarten: 4 most-frequent vowel teams (ai, ee, oa, ay) +
+      independent reading.
+    - Grade 1+: extend full vowel-team set (ai, ay, ee, ea, oa, ow,
+      ie, igh) + bridge to r-controlled-vowel phonics work +
+      diphthong patterns (ou, oy, oi).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

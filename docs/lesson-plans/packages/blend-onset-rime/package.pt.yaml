@@ -1,0 +1,249 @@
+# Teaching package — blend onset and rime into words (pt sparse-override)
+# Arc 19 Phase 1.3 Slot 1 (24th-consecutive arc pt cadence per Arc 7+ convention; pt cadence increments per-arc, not per-package; all 4 Phase 1.3 pt variants share the same Arc-19 cadence anchor). BR-MEC ensino-fundamental register; formal "você" address throughout. BNCC alignment: EF01LP06 (consciência fonológica) + EF01LP04 (rima e aliteração — bridge to rhyme-family work). **Phonological-awareness pedagogy is locale-specific — onset-rime structure differs across languages. pt-BR syllable structure is CV-open-syllable-dominant; English allows CVC closed syllables. Onset-rime decomposition operates differently across the two phonologies.** §A.13.34 locale-canonical-curriculum-divergence sub-class applies — sparse-override locked per Phase 1.1+1.2 precedent.
+
+targetSlug: blend-onset-rime
+language: pt
+
+title:
+  pt: "Combinar Início e Rima — deslizando o começo com o fim"
+
+description:
+  pt: "Pacote de alfabetização para a educação infantil brasileira (5-7 anos) ensinando crianças a COMBINAR INÍCIO (consoante inicial ou encontro consonantal de uma sílaba) + RIMA (o resto da sílaba: vogal + quaisquer consoantes finais) em uma palavra falada. Síntese fonológica de grão-médio entre combinação-silábica + combinação completa de fonemas: /g/ (início) + /ato/ (rima) → 'gato'; /p/ + /ão/ → 'pão'; /tr/ + /ês/ → 'três'. O strand de phonological-awareness avança 7/9 → 8/9 (pair-coherent com Slot 2 segment-cvc-into-phonemes avançando 8/9 → 9/9 SAT-fechando). Por learning-targets.json linha 36 pré-requisito: count-syllables-1-to-3 (Arc 10 P1 ✓ ENVIADO). Cognitivamente MAIS FÁCIL que combinação completa de fonemas (Phase 1.2 Slot 4 blend-phonemes-cvc) porque a rima é uma UNIDADE PEDAÇO em vez de decomposta em fonemas individuais; crianças que têm dificuldade com /g/+/a/+/t/+/u/ combinação-de-fonemas frequentemente têm sucesso com /g/+/ato/ combinação-de-início-rima. Habilidade-de-ponte crítica para decodificação de família-de-palavras: famílias-de-palavras compartilham rimas (gato/pato/rato/mato compartilham /ato/; bola/cola/mola compartilham /ola/) — crianças que combinam início-rima fluentemente desenvolvem estratégia de decodificação-consciente-de-família-de-palavras. **NOTA pt-BR ESTRUTURAL: pt-BR favorece sílabas CV-abertas (gato = ga+to; cada sílaba é início + vogal sem consoante de fechamento típica). Inglês permite sílabas CVC (cat = início /c/ + rima /at/). Onset-rime decomposition opera diferentemente nas duas fonologias — pt-BR rimes são tipicamente vogal-final-aberta (-a, -o, -i, -u, -e) ou vogal-nasal-final (-ão, -em, -im).** Alinhamento BNCC: EF01LP06 (consciência fonológica) + EF01LP04 (rima e aliteração). 5 exercícios + 8 materiais imprimíveis ao longo de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Atividade início-rima com toda a turma. Você escreve
+      conjuntos de família-de-palavras no quadro: GATO — PATO —
+      RATO — MATO. "Essas palavras todas terminam com -ATO. A
+      parte -ATO se chama RIMA. O que é diferente no começo? G,
+      P, R, M. Isso se chama INÍCIO — o som de início." Você
+      demonstra combinação: "Eu vou dizer o INÍCIO, vocês dizem
+      a RIMA, depois COMBINAMOS juntos. /g/.../ato/.../g-ato/...
+      /GATO/!" Repete com: "/p/.../ato/.../p-ato/.../PATO/!" "/r/...
+      /ato/.../r-ato/.../RATO/!" Ênfase do padrão: "Início +
+      rima = PALAVRA. O início é o COMEÇO. A rima é o que vem
+      depois do começo. Nós COMBINAMOS eles — deslizamos eles
+      juntos." Visualização opcional: você segura um punho à
+      frente (início) + um punho atrás (rima), depois junta os
+      punhos ao dizer a palavra.
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de família-de-palavras início-
+      rima. Cada dupla recebe 3 conjuntos de cartões-de-família-
+      de-palavras (família -ATO: gato/pato/rato/mato; família
+      -OLA: bola/cola/mola/fila; família -ÃO: pão/cão/chão/mão).
+      Cada cartão tem a letra-de-início em um cartão pequeno + a
+      rima em um cartão mais longo. A dupla se reveza: a criança
+      A diz o início; a criança B diz a rima; ambas dizem a
+      palavra combinada. "G + ATO = GATO!" "P + ATO = PATO!"
+      Movimento pedagógico crítico: COMEÇAR LENTO + ACELERAR.
+      Começar com separação audível entre início + rima ('/g/...
+      /ato/'); reduzir progressivamente a lacuna até se tocarem
+      ('/g-ato/'); então a palavra emerge ('gato'). Insight
+      pedagógico crítico: combinação início-rima é o ANDAIME que
+      prepara crianças para combinação completa de fonemas.
+      Crianças que ainda não conseguem gerenciar /g/+/a/+/t/+/u/
+      frequentemente conseguem gerenciar /g/+/ato/ porque a rima
+      é um pedaço, não quatro. Recapture erros via re-modelo —
+      NÃO correção — porque combinação se fortalece através da
+      repetição. Extensão opcional: a dupla gera NOVAS palavras
+      em uma família ("se /ato/ é a rima, que outros inícios
+      funcionam? /s/ → sato (palavra inventada); /f/ → fato;
+      /c/ → cato (palavra inventada); /b/ → bato"). Geração de
+      família-de-palavras surge consciência de família-de-rima
+      como ponte natural de habilidade cruzada de rima (Arc 10
+      identify-rhyming-pairs + Phase 1.1 produce-rhyming-words)
+      ao trabalho de nível-de-fonema.
+  scaffold:
+    body: |
+      Rotação por estações. Estação 1: folha word-guess (as
+      crianças preenchem a letra-de-início dada uma pista de
+      rima + imagem). Estação 2: folha de emparelhamento
+      (cartão-letra-de-início → cartão-rima de família-de-
+      palavras; as crianças combinam inícios a rimas que
+      formam palavras reais). Estação 3: folha picture-sort
+      (as crianças classificam imagens em grupos de família-
+      de-palavras por rima compartilhada — palavras -ato em
+      um grupo, -ola em outro, -ão em um terceiro). Estação 4:
+      folha word-scramble (as crianças desembaralham palavras
+      CVC onde a estrutura início + rima é destacada).
+  closure:
+    body: |
+      Recapitulação rápida início-rima + geração de família-de-
+      palavras com toda a turma. Você dá um início + rima; a
+      turma grita a palavra combinada. "/r/ + /ato/" → RATO!
+      "/c/ + /ola/" → COLA! "/m/ + /ão/" → MÃO! "/p/ + /ato/"
+      → PATO! Você encerra: "Início + rima é o PASSO-DO-MEIO
+      entre contagem-de-sílabas e combinação completa de
+      fonemas. Adicionamos mais uma habilidade fonológica:
+      combinação no nível de início-rima. Essas são 4 das 9
+      habilidades de phonological-awareness que aprendemos
+      este ano — rima (Arc 10 + Phase 1.1) + sílaba (Arc 10)
+      + isolamento-de-fonema (Phase 1.1+1.2) + combinação-de-
+      fonemas (Phase 1.2) + combinação início-rima (hoje).
+      Apenas UMA habilidade restante — segmentar palavras em
+      fonemas — e então teremos TODAS as habilidades de
+      phonological-awareness." Aponte adiante: "Amanhã
+      aprenderemos a ÚLTIMA habilidade de phonological-
+      awareness: SEGMENTAR palavras. Se combinar coloca sons
+      JUNTOS, segmentar puxa eles APARTE. Depois de amanhã
+      teremos completado o strand inteiro de phonological-
+      awareness!"
+
+assessmentCriteria:
+  pt: |
+    Ao fim da unidade de 1 semana:
+      - Combinar início + rima em uma palavra CVC em 7 de 10
+        tentativas.
+      - Identificar o início de uma palavra CVC ouvida ("qual é
+        o som de início?") em 7 de 10 tentativas.
+      - Identificar a rima de uma palavra CVC ouvida ("qual é
+        o pedaço final?") em 6 de 10 tentativas.
+      - Classificar 12 imagens em grupos de família-de-palavras
+        por rima compartilhada em 6 de 10 tentativas.
+      - Gerar pelo menos 3 substituições de início para uma
+        rima dada (extensão: família -ato → gato/pato/rato/
+        mato) em 4 de 8 tentativas.
+      - Usar o vocabulário 'início' / 'rima' / 'som de começo'
+        / 'pedaço final' / 'família de palavras' corretamente
+        em 5 de 10 tentativas de produção verbal.
+
+    Diferenciação:
+    - Pré-escola: foco em rima + trabalho silábico primeiro;
+      adiar decomposição de início-rima para o K.
+    - Educação infantil (5-7 anos): trabalho completo início-
+      rima com inícios de consoante-única; adiar inícios de
+      encontro consonantal (/pr/, /br/, /tr/) para o 1.º ano
+      EF.
+    - 1.º ano EF: estender para inícios de encontro consonantal
+      + decodificação de família-de-palavras (-ato, -ola, -ão,
+      -or em pt-BR); ponte para decodificação escrita de
+      família-de-palavras (read-cvc-words; Arc 6 P1).
+    - 2.º ano EF em diante: estender para decomposição
+      início-rima multi-silábica (palavras compostas + palavras
+      multi-silábicas via segmentação-silábica depois início-
+      rima dentro de cada sílaba).
+
+compositionalRationale:
+  pt: |
+    Adaptação locale-específica do pacote canônico (en). Os
+    campos materials, composedExercises, curriculumStandards
+    e learningObjectives são herdados do package.yaml via
+    merge sparse-override e não são repetidos aqui per a
+    convenção Arc 7+.
+
+    **NOTA LOCALE-CRÍTICA: estrutura silábica pt-BR difere
+    do inglês — afeta decomposição início-rima.** Padrões de
+    sílaba em pt-BR:
+    - **Sílaba CV-aberta dominante:** sílabas pt-BR
+      tipicamente terminam em vogal (gato = ga+to; cada
+      sílaba é início + vogal sem consoante de fechamento).
+      Inglês permite sílabas CVC (cat = início /c/ + rima /at/).
+    - **Rimas pt-BR canônicas K-1:** -a (gata), -o (gato),
+      -i (peixe), -e (mesa), -u (rua); -ão (pão), -em (sem),
+      -im (sim) [vogais nasais]; -al (animal), -or (cor),
+      -ar (lar), -ol (sol) [consoantes finais permitidas].
+    - **Inícios pt-BR canônicos K-1:** consoantes simples
+      (/p/ /b/ /t/ /d/ /k/ /g/ /m/ /n/ /l/ /r/ /s/ /v/
+      /f/ /z/); encontros consonantais (/pr/ /br/ /tr/ /dr/
+      /kr/ /gr/ /fr/ /vr/ /pl/ /bl/ /tl/ /kl/ /gl/ /fl/
+      /vl/) são tipicamente trabalho do 1.º-2.º ano EF.
+
+    Famílias-de-palavras pt-BR canônicas K-1 EF (rima-
+    centradas):
+    - **Família -ato:** gato, pato, rato, mato, fato, prato,
+      sapato, retrato
+    - **Família -ola:** bola, cola, mola, sacola, gaiola
+    - **Família -ão:** pão, cão, chão, mão, irmão, opinião,
+      ração
+    - **Família -al:** animal, mal, sal, capital, casal
+    - **Família -el:** papel, anel, mel, hotel
+    - **Família -ol:** sol, anzol, lençol, futebol
+    - **Família -or:** dor, cor, ator, professor
+
+    Vocabulário pt-BR canônico para início-rima K-1:
+    - 'início' (onset) — pt-BR pedagógico canônico
+    - 'rima' (rhyme) — pt-BR canônico (já estabelecido em
+      Arc 10 P1 identify-rhyming-pairs + Phase 1.1 Slot 4
+      produce-rhyming-words)
+    - 'som de começo' (start sound) — pt-BR informal K-1
+    - 'pedaço final' (end chunk) — pt-BR informal K-1
+    - 'família de palavras' (word family) — pt-BR canônico
+    - 'combinar' (to blend) — pt-BR canônico (estabelecido
+      em Phase 1.2 Slot 4 blend-phonemes-cvc)
+    - Frases-modelo K-1: "Início + rima = palavra. /g/ +
+      /ato/ = GATO." / "Essas palavras estão na família -ato."
+
+    Particularidade pt-BR para acento + sílaba tônica:
+    Português-BR K-1 EF tem distinção acentual entre
+    sílabas tônicas + átonas que afeta percepção da rima.
+    Em GATO (paroxítona), a sílaba tônica é GA + a sílaba
+    átona é TO; a rima -ato é percebida como combinação
+    tônica+átona. Em CAFÉ (oxítona), a sílaba tônica é FÉ
+    + a rima é -é (perceptualmente sólida porque tônica).
+    Este pacote foca em palavras PAROXÍTONAS canônicas
+    K-1 (a maioria das palavras pt-BR K-1 são paroxítonas)
+    para evitar complexidade tônica em ponto-de-entrada.
+
+    Alinhamento BNCC (Base Nacional Comum Curricular):
+    EF01LP06 ('Segmentar oralmente palavras em sílabas') é o
+    anchor BNCC do 1.º ano EF para consciência silábica;
+    decomposição início-rima é o passo natural após
+    segmentação silábica simples. EF01LP04 ('rima e
+    aliteração') estabelece consciência de rima adjacente.
+    EF01LP08 ('Relacionar elementos sonoros — sílabas,
+    fonemas, partes de palavras — com sua representação
+    escrita') é o anchor mais direto para combinação início-
+    rima como ponte entre sílaba + fonema.
+
+    Currículo brasileiro K-1 EF para início-rima:
+    A BNCC brasileira EF Língua Portuguesa Anos Iniciais
+    integra consciência silábica + consciência de rima como
+    competências paralelas K-1. Decomposição início-rima é
+    um passo intermediário canônico entre essas duas
+    competências; algumas pedagogias brasileiras ensinam-na
+    explicitamente, outras a integram em trabalho silábico
+    + de rima sem nomeá-la formalmente. Este pacote nomeia-a
+    explicitamente como passo pedagógico pelo benefício de
+    ponte para fonema-blending.
+
+    Por §A.13.30 enquadramento informal K-1: este pacote NÃO
+    ensina teoria formal de estrutura silábica (hierarquia
+    de sonoridade; princípio de início maximal; geometria
+    de feição fonológica são trabalho de pesquisa pós-
+    graduada). A ênfase do K é COMBINAÇÃO-DE-PEDAÇO-DE-SOM
+    CONCRETA via metáfora encaixe-e-pedaço.
+
+    Pacote pair-coherent com Phase 1.3 Slot 2 segment-cvc-
+    into-phonemes (SAT-CLOSING): juntos fecham o strand
+    phonological-awareness em 9/9 SAT — 22º strand de classe-
+    pai SAT no catálogo.
+
+    **§A.13.34 sub-class adjudication — locale-canonical-
+    curriculum-divergence:**
+    Phonological-awareness pedagogy has structural divergence
+    between English + pt-BR (English consonant-final-dominance
+    rhyme + CVC phoneme inventory vs pt-BR vowel-ending-
+    dominance + nasal-vowel rhyme + 7 oral + 5 nasal vowel
+    phonemes). For onset-rime pedagogy specifically: pt-BR's
+    CV-open-syllable-dominant structure produces different
+    onset-rime decomposition patterns than English's CVC-
+    permissive structure. This is a canonical §A.13.34
+    locale-canonical-curriculum-divergence case. SPARSE-
+    OVERRIDE locked for current commission per minimal-
+    amendment principle (structure body + assessmentCriteria
+    + compositionalRationale.pt carry pt-BR-specific
+    pedagogical content including pt-BR canonical rime
+    families + syllable structure; materials + composedExercises
+    pedagogically translate cleanly across locale-divergence
+    because the underlying app surfaces are locale-portable
+    at the mechanic level). FULL-OVERRIDE flagged as future-
+    arc candidate when post-Arc-19 dedicated pt-BR-syllable-
+    pedagogy commission justifies full re-authoring.
+
+    Per §A.13.36 cadência de cooperação CC↔assistant: o
+    pacote pt herda materials, composedExercises,
+    curriculumStandards via sparse-override per convenção
+    Arc 7+; quaisquer emendas en (se Round 2 surgir) se
+    propagam automaticamente para esta variante pt.

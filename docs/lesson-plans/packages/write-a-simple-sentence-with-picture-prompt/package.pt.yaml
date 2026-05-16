@@ -1,0 +1,186 @@
+# Teaching package — write a simple sentence with picture prompt (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE FORMAT (Arc 19 Phase 1.5 per Arc 13 Phase 3 sparse-override pattern).
+# pt sparse-override for early-literacy / writing-composition strand.
+# Pt-BR sentence structure shares SVO ordering with English but adds:
+# (a) pro-drop (verb-only sentences are canonical: "vejo uma maçã");
+# (b) adjective POST-noun ("a maçã vermelha" not "a vermelha maçã");
+# (c) gendered agreement (artigo + substantivo + adjetivo concordam em gênero);
+# (d) accent diacritics on common verb forms (é, está, são).
+# §A.13.34 locale-canonical-curriculum-divergence at sentence-structure
+# level — pt sparse-override layers locale-canonical sentence-frame patterns,
+# NOT direct translation of English frames.
+# BR-MEC educação infantil register per CLAUDE.md §6 + formal "você" address
+# per §17.9. BNCC EF01LP14 + EF01LP15 + EF02LP06 crosswalk.
+
+title:
+  pt: "Escrever Frases Simples — 'Vejo uma maçã vermelha'"
+description:
+  pt: "Pacote de letramento inicial para a educação infantil / 1º ano que ensina crianças a escrever uma frase simples completa usando uma imagem-pista + uma estrutura-de-frase pt-BR canônica. Constrói sobre o trabalho de label-a-picture-with-1-word + label-with-noun-phrase. As crianças progridem de rótulos-de-palavra-única + sintagmas-nominais a FRASES completas com sujeito + verbo + objeto/complemento — a forma canônica da primeira-frase. Estruturas de frase pt-BR: 'Vejo uma {item}.' / 'A/O {item} é {cor}.' / 'A/O {item} pode {ação}.' Especificidade pt-BR: pt permite pro-drop (sujeito-omitido) — 'Vejo uma maçã' é frase completa SEM 'eu' explícito. Adjetivos vêm DEPOIS do substantivo ('maçã vermelha' não 'vermelha maçã'). Concordância de gênero é obrigatória ('uma maçã vermelha' feminino; 'um cachorro marrom' masculino). 5 exercícios + 7 materiais imprimíveis em uma unidade de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Rotina de construção-de-frase com toda a turma. A professora
+      ou o professor mostra uma imagem de maçã vermelha + escreve
+      'Vejo uma maçã vermelha.' no quadro, apontando para cada
+      palavra: 'Ve-jo... u-ma... ma-çã... ver-me-lha. Quatro
+      palavras. UMA frase. Começa com letra MAIÚSCULA + termina
+      com PONTO.' A turma repete. A professora então mostra imagem
+      de cachorro + lidera: 'Vejo um... que cor é o cachorro?...
+      marrom! Vejo um cachorro marrom. Vamos escrever.' A turma
+      canta enquanto a professora escreve. Estabelece a estrutura
+      pt-BR canônica + as convenções letra-maiúscula-no-início +
+      ponto-no-fim.
+
+      Especificidade pt-BR: enfatize as 3 diferenças críticas em
+      relação ao en — (a) pt permite OMITIR o 'eu' (pro-drop):
+      'Vejo' já significa 'Eu vejo'; (b) o adjetivo vem DEPOIS do
+      substantivo: 'maçã vermelha' (não 'vermelha maçã'); (c) o
+      artigo + substantivo + adjetivo CONCORDAM em gênero: 'uma
+      maçã vermelha' (feminino) vs 'um cachorro marrom' (masculino).
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de escreva-a-frase. Cada dupla
+      recebe folha com 6 cartas-imagem (uma maçã vermelha / um
+      cachorro marrom / dois peixes azuis / uma árvore grande / um
+      gato feliz / um passarinho pequeno). A dupla alterna: criança
+      A aponta para uma imagem; criança B escreve uma frase completa
+      descrevendo-a usando estrutura-de-frase pt-BR ('Vejo uma maçã
+      vermelha.' / 'O cachorro é marrom.' / 'Dois peixes nadam.').
+      Refraseie os erros gentilmente ('você escreveu 'maçã vermelha'
+      — é um sintagma nominal, não uma frase completa. Uma frase
+      precisa de verbo. Tente: 'Vejo uma maçã vermelha.' ou 'A maçã
+      é vermelha.' Ambas são frases. Adicione letra maiúscula no
+      começo + ponto no fim.').
+
+      Especificidade pt-BR: extensão opcional — peça que as
+      crianças escrevam variações pt-BR-canônicas: 'A maçã está
+      vermelha' (estado temporário) vs 'A maçã é vermelha' (essência
+      permanente) — distinção ser/estar fundacional ao pt-BR
+      ausente em en (en usa só 'is' para ambos).
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: word-scramble (reorganize
+      palavras pt-BR para formar frase correta: vejo / uma / vermelha
+      / maçã → 'Vejo uma maçã vermelha'; lembre-se de que adjetivo
+      vai DEPOIS do substantivo em pt-BR). Estação 2: word-guess
+      (preencha palavra-de-frase a partir da imagem-pista — 'Vejo
+      um __ cachorro' [marrom]). Estação 3: folha de exercícios de
+      emparelhamento (frase-com-imagem). Estação 4: vocabulary-
+      tracing-strips com estruturas-de-frase pt-BR canônicas
+      ('Vejo um(a) ___' / 'O/A ___ é ___' / 'O/A ___ pode ___').
+
+      Especificidade pt-BR: ao traçar 'O/A ___ é ___', enfatize a
+      concordância de gênero — 'O cachorro é marrom' (masculino) /
+      'A flor é amarela' (feminino). Cada palavra concorda.
+  closure:
+    body: |
+      Compartilhamento-de-frase com toda a turma. Cada criança lê
+      em voz alta uma frase que escreveu; a turma escuta + verifica
+      letra-maiúscula-no-início + ponto-no-fim + concordância de
+      gênero. A professora ou o professor expõe as frases escritas
+      na parede da sala como uma galeria-de-frases. Indicador
+      adiante: 'Hoje escrevemos uma frase com uma imagem. Quando
+      voltarmos a escrever na próxima vez, escreveremos DUAS frases
+      sobre o mesmo tema — 'Vejo uma maçã vermelha. A maçã está
+      doce.' — aprendendo a manter nossa escrita conectada de uma
+      frase para a outra.'
+
+assessmentCriteria:
+  pt: |
+    Escrever 5 frases simples completas (sujeito-verbo-complemento)
+    com imagens-pista em 8 de 10 tentativas. Aplicar convenção
+    letra-maiúscula-no-início-de-frase em 8 de 10 tentativas.
+    Aplicar convenção ponto-no-fim-de-frase em 8 de 10 tentativas.
+    Aplicar concordância de gênero (artigo + substantivo + adjetivo)
+    em 7 de 10 frases construídas. Escolher substantivo + adjetivo
+    + verbo apropriados a partir da imagem em 7 de 10 construções
+    de frase.
+
+    Diferenciação:
+      - Pré-K (3-5 anos): completar oral de estrutura-de-frase (a
+        criança DIZ a frase; professora ou professor escreve); copiar
+        um modelo de estrutura-de-frase escrita.
+      - Educação infantil (5-7 anos): escrita-de-frase independente
+        com scaffolding de estrutura-de-frase visível ('Vejo um(a)
+        ___ ___.' modelo).
+      - 1º ano em diante: estender para estruturas-de-frase variadas
+        ('O/A ___ é ___.' / 'O/A ___ pode ___.'); ponte para write-
+        2-sentences-on-a-topic + uso refinado de letras-maiúsculas +
+        pontuação pt-BR (vírgula, ponto-de-exclamação).
+
+compositionalRationale:
+  pt: |
+    Fio principal: letramento inicial / writing-composition (escrita
+    de frase-simples-com-imagem-pista — strand-advancement). Fio
+    secundário: aquisição de vocabulário (substantivo + adjetivo
+    + verbo mobilizados na construção da frase). Fio terciário:
+    motor-fino (escrita da frase).
+
+    Significância arquitetural: aprofunda o fio writing-composition
+    pt-BR. Ponte pedagógica crítica do trabalho de rotulagem (write-
+    own-name + label-a-picture-with-1-word + label-with-noun-phrase)
+    para escrita ao nível-de-frase. A estrutura 'Vejo um(a) [adjetivo]
+    [substantivo].' é a forma canônica da primeira-frase em
+    pedagogia ELA K-3 — significativa + scaffolded + reproduzível
+    em centenas de imagens.
+
+    Slot final-arc-cycle Phase 1.5 conforme a responsabilidade de
+    fechamento do Arco 19. Phase 1.5 é o slot final do ciclo de
+    comissão canônica-de-trajetória do trajeto de autoria-mestre
+    do Pilar 1; alcançar C1 SATISFIED no fechamento do Arco 19
+    marca o estado-de-fim canônico.
+
+    Especificidade pt-BR: a estrutura-de-frase pt-BR diverge
+    significativamente da estrutura-de-frase en + requer
+    adaptação pedagógica explícita:
+
+    - **Pro-drop**: 'Vejo uma maçã' é frase completa pt-BR SEM
+      sujeito explícito. 'Eu vejo uma maçã' também é correto + mais
+      enfático, mas pro-drop é o padrão coloquial. Diferente do en
+      onde 'See an apple' não é frase completa — requer subject
+      ('I see an apple'). Crianças brasileiras precisam aprender
+      que ambos os padrões pt-BR são corretos + escolher conforme
+      registro.
+
+    - **Adjetivo POST-substantivo**: 'maçã vermelha' (não 'vermelha
+      maçã'). pt-BR tem adjetivos pré-nominais APENAS para casos
+      especiais (uma boa maçã / a velha casa) — significados
+      idiomáticos. A regra-padrão é ADJETIVO-DEPOIS-DO-SUBSTANTIVO.
+      Diferente do en onde adjetivo é sempre PRE-noun ('red apple').
+      Crianças brasileiras letrando após exposição inicial ao en
+      frequentemente erram ordem do adjetivo.
+
+    - **Concordância de gênero**: artigo + substantivo + adjetivo
+      concordam em gênero. 'O cachorro marrom' (M-M-M) vs 'A flor
+      amarela' (F-F-F). Pt-BR sem distinção entre gêneros gramaticais
+      é gramaticalmente incorreto. Crianças brasileiras nativas
+      adquirem isso na fala; o letramento exige consciência explícita
+      + aplicação ao escrever.
+
+    - **Ser/Estar**: pt-BR distingue 'ser' (estado permanente/
+      essencial: 'A maçã é vermelha' — característica) vs 'estar'
+      (estado temporário/contingente: 'A maçã está madura' — fase).
+      En usa 'is' para ambos (the apple IS red / the apple IS ripe).
+      Crianças brasileiras letrando aprendem esta distinção como
+      fundacional ao pt-BR + frequentemente erram ao traduzir
+      construções en.
+
+    Em escolas internacionais com pt-BR como L2 + em programas de
+    imersão pt-BR no exterior, crianças falantes de en cometem
+    erros sistemáticos na construção de frases pt-BR: ordem do
+    adjetivo (vermelha maçã / red apple), pro-drop (eu vejo / I
+    see), concordância de gênero (o flor / the flower).
+
+    Currículo BNCC EF01LP14 (escrever frases simples respeitando
+    convenções gráficas); EF01LP15 (organizar palavras em frases);
+    EF02LP06 (segmentar palavras + escrever frases adequadas).
+
+    Substrato Class B FLEXIBLE: composta contra a amplitude da
+    biblioteca de imagens. Vocabulário pt-BR rico em combinações
+    substantivo-adjetivo-verbo para frases simples: animais (gato
+    preto / cachorro grande / passarinho amarelo / peixe pequeno);
+    comida (maçã vermelha / banana amarela / pão fresco / suco
+    gelado); natureza (árvore alta / flor bonita / sol quente /
+    nuvem branca).

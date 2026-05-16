@@ -1,0 +1,163 @@
+# Teaching package — distinguish fiction from nonfiction (pt sparse-override)
+# Arc 19 Phase 1.1 Slot 1 (24th-consecutive arc pt cadence per Arc 7+ convention; pt cadence increments per-arc, not per-package; all 4 Phase 1.1 pt variants share the same Arc-19 cadence anchor). BR-MEC ensino-fundamental register; formal "você" address throughout. BNCC alignment: EF02LP26 (compreensão de elementos da narrativa) + EF01LP15 (distinção ficção vs não-ficção em textos K-1).
+
+targetSlug: distinguish-fiction-from-nonfiction
+language: pt
+
+title:
+  pt: "Faz-de-Conta ou de Verdade? — distinguir ficção de não-ficção"
+
+description:
+  pt: "Pacote de compreensão narrativa para a educação infantil / 1.º ano do ensino fundamental, ensinando crianças a distinguir FICÇÃO (histórias de faz-de-conta) de NÃO-FICÇÃO (histórias verdadeiras sobre coisas reais). Apoia-se no cluster Arc 17/18 de compreensão narrativa (identify-main-character + identify-setting + identify-problem-and-solution + answer-who-what-where-questions). Habilidade crítica K-1 de consciência-de-gênero: as crianças olham uma história e identificam pistas que sinalizam faz-de-conta (animais que falam, magia, criaturas inventadas) vs real (animais reais fazendo coisas reais, fotografias de lugares reais, informação factual). O strand de reading-comprehension avança 8/10 → 9/10. Pair-coherent com Phase 1.1 Slot 2 read-and-follow-2-sentence-instruction; juntos SAT-fecham reading-comprehension em 10/10 (20º strand de classe-pai SAT no catálogo). Alinhamento BNCC: EF02LP26 (compreensão de elementos da narrativa no 2.º ano EF) + EF01LP15 (distinção ficção vs não-ficção em textos K-1)."
+
+structure:
+  warmup:
+    body: |
+      Atividade introdutória ficção-vs-não-ficção com toda
+      a turma. Você mostra 2 pares-contrastantes de imagens:
+      (1) um rato-cartoon usando óculos + lendo um livro; (2)
+      uma fotografia de um rato real comendo uma semente.
+      "Qual é DE FAZ-DE-CONTA? Qual é DE VERDADE?" A turma
+      identifica: rato-com-óculos = faz-de-conta (ratos reais
+      não leem livros); fotografia de rato real = real. Você
+      introduz o vocabulário: "Histórias de FAZ-DE-CONTA são
+      FICÇÃO. Histórias REAIS são NÃO-FICÇÃO." Repete com
+      mais 2 pares. Ênfase do padrão: "Procurem PISTAS.
+      Animais que falam, magia, criaturas inventadas = ficção.
+      Fotografias reais, animais reais fazendo coisas reais,
+      fatos sobre o mundo = não-ficção."
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de reconhecimento-de-pistas.
+      Cada dupla recebe 8 cartões-de-história (mistura de
+      ficção + não-ficção). A dupla se reveza: a criança A
+      escolhe um cartão; a criança B identifica se é ficção
+      ou não-ficção + nomeia a PISTA que delatou ("Isto é
+      ficção porque o urso está vestindo calças — ursos reais
+      não vestem calças"; "Isto é não-ficção porque é uma
+      fotografia de um caminhão de bombeiros real"). Nota
+      para você: crianças K-1 às vezes rotulam todas as
+      histórias com animais como ficção (já que algumas
+      histórias com animais são ficção). Ajude as crianças
+      a verem: histórias reais sobre animais (um documentário
+      sobre ursos pescando) são não-ficção; ficção adiciona
+      elementos de faz-de-conta (um urso que administra uma
+      padaria).
+  scaffold:
+    body: |
+      Rotação por estações. Estação 1: folha picture-sort
+      (as crianças classificam cartões-de-história em FICÇÃO
+      vs NÃO-FICÇÃO). Estação 2: folha de emparelhamento
+      (combinar pista-de-ficção com história de ficção). Estação
+      3: folha missing-pieces (completar uma história de ficção
+      ou não-ficção). Estação 4: vocabulary-tracing-strips para
+      o vocabulário de gênero (ficção, não-ficção, real, faz-
+      de-conta, história, fato).
+  closure:
+    body: |
+      Recapitulação rápida de gênero com toda a turma. Você
+      nomeia cenários rápidos; a turma grita FICÇÃO ou NÃO-
+      FICÇÃO. "Um macaco usando uma coroa!" (Turma: FICÇÃO!)
+      "Uma fotografia de um elefante real na África!" (NÃO-
+      FICÇÃO!) Você encerra: "Livros e histórias vêm em DOIS
+      TIPOS GRANDES. Ficção = inventada; não-ficção = real.
+      Saber a diferença ajuda vocês a entenderem QUE TIPO de
+      história estão lendo." Aponte adiante: "A seguir
+      aprenderemos a ler INSTRUÇÕES — pequenas direções que
+      nos dizem o que fazer. Esse é nosso ÚLTIMO alvo de
+      reading-comprehension antes de fechar o strand inteiro!"
+
+assessmentCriteria:
+  pt: |
+    Ao fim da unidade de 1 semana:
+      - Identificar uma história como ficção ou não-ficção a
+        partir de uma imagem + texto breve em 7 de 10 tentativas.
+      - Nomear uma PISTA específica que sinaliza ficção ou não-
+        ficção em 5 de 8 tentativas.
+      - Classificar 12 cartões-de-história mistos em ficção vs
+        não-ficção corretamente em 6 de 10 tentativas.
+      - Usar o vocabulário 'ficção' / 'não-ficção' / 'real' /
+        'faz-de-conta' corretamente em 5 de 10 tentativas de
+        produção verbal.
+
+    Diferenciação:
+    - Pré-escola: foco em real vs faz-de-conta apenas no nível
+      de pista-imagem; pular vocabulário formal de gênero.
+    - Educação infantil (5-7 anos): reconhecimento completo de
+      ficção-vs-não-ficção com vocabulário cotidiano;
+      introduzir nomeação-de-pista-de-gênero.
+    - 1.º ano EF: estender para identificação multi-pista
+      (várias razões pelas quais uma história é ficção ou
+      não-ficção); introduzir vocabulário de subgênero
+      (conto-de-fadas, livro-informativo).
+    - 2.º ano EF em diante: introdução formal de teoria-de-
+      gênero (realismo vs fantasia; não-ficção informativa vs
+      narrativa); ponte para reconhecimento de feições-de-
+      texto.
+
+compositionalRationale:
+  pt: |
+    Adaptação locale-específica do pacote canônico (en). Os
+    campos materials, composedExercises, curriculumStandards e
+    learningObjectives são herdados do package.yaml via merge
+    sparse-override e não são repetidos aqui per a convenção
+    Arc 7+.
+
+    Vocabulário pt-BR canônico para ficção-vs-não-ficção K-1:
+    - 'ficção' (fiction) — pt-BR canônico
+    - 'não-ficção' (nonfiction) — pt-BR canônico
+    - 'faz-de-conta' (make-believe) — locução pt-BR canônica
+      K-1 para o registro infantil-narrativo
+    - 'real' / 'de verdade' (real) — pt-BR usa ambos em
+      registro K-1
+    - 'história' (story) — termo neutro abrangendo ambos os
+      gêneros
+    - 'fato' (fact) — pt-BR canônico para conteúdo factual
+    - 'inventado' (made-up) — sinônimo de 'faz-de-conta'
+    - 'pista' (clue) — pt-BR canônico para sinal-de-gênero
+    - Frases-modelo K-1: "Esta história é..." / "É faz-de-
+      conta porque..." / "É de verdade porque..."
+
+    Particularidade pt-BR para distinção de gênero K-1:
+    Crianças brasileiras K-1 frequentemente conhecem
+    distinção ficção-vs-real através de FILMES DE ANIMAÇÃO vs
+    DOCUMENTÁRIOS — o cinema infantil brasileiro tem forte
+    tradição de filmes animados (Turma da Mônica, animações
+    nacionais + Disney) ao lado de programação documental
+    educativa (TV Brasil + canais educativos). Este pacote
+    sistematiza esse conhecimento prévio em um framework
+    explícito de identificação. O conceito de 'faz-de-conta'
+    é canônico em educação infantil brasileira para o
+    domínio do imaginário-pretendido.
+
+    Alinhamento BNCC (Base Nacional Comum Curricular):
+    EF02LP26 ('Ler e compreender, com certa autonomia, textos
+    literários, de gêneros variados, identificando elementos
+    da narrativa') é o anchor BNCC do 2.º ano EF para
+    compreensão de elementos narrativos. EF01LP15
+    (compreensão narrativa e distinção ficção-vs-não-ficção
+    no 1.º ano EF). EF01LP16 (compreensão narrativa
+    colaborativa) é anchor adjacente. Junto, EF01LP15 +
+    EF01LP16 + EF02LP26 cobrem a progressão K → 1.º ano →
+    2.º ano para reconhecimento de gênero.
+
+    Por §A.13.30 enquadramento informal K-1: este pacote NÃO
+    ensina teoria-formal-de-gênero (terminologia 'realismo' /
+    'fantasia' / 'memória' / 'biografia' é trabalho do 3.º ano
+    EF em diante). Famílias brasileiras às vezes perguntam
+    por categorização-de-gênero mais formal; o parent-take-
+    home-letter explicita que o objetivo do 1.º ano EF é o
+    reconhecimento de pistas-de-gênero em linguagem
+    cotidiana.
+
+    Pacote pair-coherent + parte do cluster SAT-CLOSING de
+    reading-comprehension: junto com Phase 1.1 Slot 2 read-
+    and-follow-2-sentence-instruction, este pacote fecha o
+    strand reading-comprehension em 10/10 SAT — o 20º strand
+    de classe-pai SAT no catálogo.
+
+    Per §A.13.36 cadência de cooperação CC↔assistant: o
+    pacote pt herda materials, composedExercises,
+    curriculumStandards via sparse-override per convenção
+    Arc 7+; quaisquer emendas en (se Round 2 surgir) se
+    propagam automaticamente para esta variante pt.

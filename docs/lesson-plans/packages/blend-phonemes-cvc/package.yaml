@@ -1,0 +1,420 @@
+# Teaching package — blend phonemes into CVC words
+# Arc 19 Phase 1.2 Slot 4 (early-literacy / phonological-awareness strand 6/9 → 7/9). Opens phoneme-synthesis work: kids combine 3 individual phonemes into a single CVC word (/c/ + /a/ + /t/ → 'cat'). Reverse operation of the isolation cluster (Phase 1.1 Slot 3 + Phase 1.2 Slots 2+3). Pair-coherent prerequisite for Phase 1.3 candidate segment-cvc-into-phonemes (analysis-side; full 3-phoneme decomposition). Prerequisites per learning-targets.json line 40: isolate-initial-phoneme + isolate-final-phoneme (both ship by Phase 1.2 close).
+
+targetSlug: blend-phonemes-cvc
+language: en
+title:
+  en: "Blend Sounds — putting sounds together to make a word"
+description:
+  en: "Kindergarten early-literacy package teaching kids to BLEND individual phonemes into spoken CVC words. Direct reverse-operation of the isolation cluster (Phase 1.1 Slot 3 isolate-initial + Phase 1.2 Slot 2 isolate-final + Phase 1.2 Slot 3 isolate-medial): kids hear /c/ + /a/ + /t/ + smoothly combine them into 'cat'. Synthesis-side pedagogy: where isolation pulls a word APART, blending puts sounds TOGETHER. Phonological-awareness strand advances 6/9 → 7/9. Per learning-targets.json line 40 prerequisites: isolate-initial-phoneme (Phase 1.1 ✓ SHIPPED) + isolate-final-phoneme (Phase 1.2 Slot 2; ships concurrently). Critical decoding-bridge skill: blending is the cognitive operation underlying systematic phonics decoding — kids see a printed CVC word, sound out each letter, then blend the sounds to read the word. Per §A.13.30 K-1 informal framing: K blending work is CONCRETE SOUND-COMBINING via slow-to-fast blending — teacher says /c/.../a/.../t/ slowly then speeds up '/c-a-t/' then says 'cat'; kids copy. NOT formal phonological-encoding pedagogy. CCSS.RF.K.2e primary anchor ('Add or substitute individual sounds (phonemes) in simple, one-syllable words to make new words'). 5 worksheet exercises + 8 printable materials over a 1-week unit. **Phonological-awareness pedagogy is locale-specific — blending pedagogy differs per locale's syllabic structure.** Materials list mirrors isolate-initial/final/medial-phoneme Literacy 8-material canonical."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class blending hook. Teacher demonstrates phoneme-
+      blending dramatically: "I'm going to say 3 sounds slowly,
+      then BLEND them into a word. Listen: /c/.../a/.../t/.
+      What word? /c-a-t/. CAT!" Kids notice the trick: separate
+      sounds → combined word. Repeats with: "/d/.../o/.../g/.
+      What's the word? /d-o-g/. DOG!" "/m/.../o/.../m/. /m-o-m/.
+      MOM!" Pattern emphasis: "When we BLEND sounds, we put
+      them TOGETHER. Three sounds become ONE WORD. It's like
+      sliding the sounds together until they make a word we
+      know." Critical pedagogical framing — the reverse-
+      operation insight: "Last week we PULLED words APART into
+      sounds. This week we're putting sounds TOGETHER to make
+      words. Same sounds — opposite direction." Optional
+      visualization: teacher holds 3 fingers up for /c/ /a/ /t/
+      then claps them together when saying CAT.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + slow-to-fast blending routine. Each pair
+      receives 8 picture cards with CVC vocabulary (cat, dog,
+      pig, hen, bat, mat, sun, bus). Pair takes turns: kid A
+      gives the 3 phonemes SLOWLY ("/c/.../a/.../t/"); kid B
+      blends the phonemes + names the pictured word ('cat').
+      Critical pedagogical technique: SLOW-TO-FAST progression.
+      Start with phonemes separated by ~1 second pause; speed
+      up progressively until phonemes touch ('/c-a-t/'); then
+      the word emerges ('cat'). Kids who struggle with
+      blending benefit from teacher modeling the slow-to-fast
+      transition explicitly + co-blending alongside the kid
+      ("let's blend together: /c/.../a/.../t/. /c-a-t/. CAT!").
+      Recast errors with re-modeling — NOT correction —
+      because blending is a cognitive integration skill that
+      strengthens through repetition more than through
+      correction. Common error patterns: (a) holding phonemes
+      separated even at fast pace ("/c/, /a/, /t/" with stops
+      between — teach the smooth slide); (b) substituting a
+      similar phoneme during blending ("/c/.../a/.../t/" →
+      'cot' — re-model with vowel emphasis; the medial-
+      isolation work from Slot 3 supports this); (c) reversing
+      phoneme order. Optional extension: kid A says the
+      phonemes FAST + kid B identifies the word; reverse
+      roles. Some kids benefit from BODY-MOVEMENT blending
+      (clap once per phoneme then merge into one slide).
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching worksheet (3-
+      phoneme cue → CVC picture; kids match a separated-
+      phoneme cue to the resulting word picture). Station 2:
+      word-guess (kids fill in a CVC word given separated
+      phoneme cues — bridges blending to decoding). Station
+      3: picture-sort (kids sort CVC pictures by first-or-
+      final phoneme matching — reinforces phoneme awareness
+      that supports blending). Station 4: word-scramble (kids
+      unscramble CVC words; the scrambling-then-reassembly
+      pedagogy parallels blending — putting parts back into
+      a whole).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class blending quick-recall + cluster-status report.
+      Teacher gives 3 separated phonemes; class shouts the
+      blended word. "/s/.../u/.../n/" → SUN! "/p/.../i/.../g/"
+      → PIG! "/b/.../a/.../t/" → BAT! "/h/.../e/.../n/" → HEN!
+      Teacher then reports phono-awareness progress: "We've
+      learned to ISOLATE sounds at the first, middle, AND
+      last positions of a word. We've learned to BLEND sounds
+      together to make a word. That's 4 of the 5 main
+      phonological-awareness skills — rhyming was 1st (Arc 10),
+      syllable-counting was 2nd, phoneme-isolation was 3rd
+      (Slots 3+2+3 of Phase 1.1/1.2), blending is the 4th.
+      Next we'll learn the 5th: SEGMENTATION — pulling words
+      apart into separate sounds. Blending puts together;
+      segmenting pulls apart. Same skill, opposite direction.
+      We're almost done with phonological awareness!"
+
+composedExercises:
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: animals, rightCategoryThemeSelect: vehicles, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: word-scramble
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: phoneme-to-word-pairing-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 12
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 5
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 6
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 7
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 8
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: early-literacy / phonological-awareness
+    (blend-phonemes-cvc — strand 6/9 → 7/9). Opens phoneme-
+    synthesis work as the reverse-operation pair of the
+    isolation cluster (Phase 1.1 Slot 3 + Phase 1.2 Slots 2+3).
+    Pair-coherent prerequisite for Phase 1.3 candidate
+    segment-cvc-into-phonemes (analysis-side; reverse-of-
+    blending). Per §A.13.31 per-instance content-awareness:
+    `isolate-initial-phoneme/package.yaml` (Phase 1.1 Slot 3)
+    + `isolate-final-phoneme/package.yaml` (Phase 1.2 Slot 2)
+    + `isolate-medial-phoneme/package.yaml` (Phase 1.2 Slot 3)
+    are the canonical Literacy 8-material phonological-awareness
+    precedents — this package mirrors their materials +
+    composedExercises shape with synthesis-pedagogy adaptation.
+
+    Architectural significance: OPENS phoneme-synthesis work +
+    completes the Phase 1.2 phonological-awareness triad. The
+    Phase 1.2 phonological-awareness triad (Slots 2+3+4)
+    advances the strand 4/9 → 7/9 (77.8%), positioning Phase
+    1.3 for strand SAT-closure with remaining 2 targets
+    (blend-onset-rime + segment-cvc-into-phonemes). Cognitive
+    progression: 3-position isolation (Phase 1.1+1.2 Slots 2+3
+    pull words apart) → synthesis (this package puts sounds
+    together) → segmentation (Phase 1.3 pulls words apart in
+    full 3-phoneme decomposition). Synthesis is the canonical
+    bridge from phonological-awareness to systematic phonics
+    decoding: kids who can blend separated phonemes into a
+    word are cognitively prepared to decode by sounding out
+    each letter then blending the sounds.
+
+    Per §A.13.30 K-1 informal framing: K blending work is
+    CONCRETE SOUND-COMBINING via slow-to-fast progression.
+    Teacher says phonemes slowly + speeds up + the word
+    emerges. The pedagogy uses everyday language ('blend' /
+    'put sounds together' / 'slide sounds together') + body-
+    movement scaffolding (3 fingers for 3 phonemes then a clap
+    when the word emerges). NOT formal phonological-encoding
+    pedagogy — phonemic-encoding theory + grapheme-phoneme
+    correspondence chart is Grade 1-2+ phonics work. Critical
+    pedagogical move documented in contentActivity: SLOW-TO-
+    FAST progression. Phonemes separated by ~1 second pause
+    initially; speed up progressively until phonemes touch +
+    the word emerges. Common error patterns are addressed via
+    RE-MODELING rather than correction (blending is a
+    cognitive integration skill strengthened by repetition).
+
+    **Phonological-awareness pedagogy is LOCALE-SPECIFIC —
+    blending pedagogy differs per locale's syllabic structure.**
+    English CVC structure (consonant-vowel-consonant) is the
+    canonical K-1 blending target; the 3-phoneme decomposition
+    is structural. pt-BR has CV-syllable-dominant structure
+    (most pt-BR words decompose into open CV syllables: ga-to
+    = /ga/+/tu/ NOT /g/+/a/+/t/+/u/). pt-BR phonics is
+    traditionally taught syllabically rather than phonemically
+    per BR-MEC framework. This en package teaches English
+    CVC phoneme-blending; pt variant per §A.13.34 sub-class
+    requires syllabic-blending adaptation (SPARSE-OVERRIDE
+    locked at this commission; FULL-OVERRIDE flagged as
+    future-arc candidate because syllabic-vs-phonemic blending
+    is structurally distinct pedagogy).
+
+    Per §A.13.29 ground-truth source-citation: composedExercises
+    cite `REFERENCE APPS/word-guess.html` (clue-density mode
+    for fill-in-CVC-given-phoneme-cues bridging blending to
+    decoding) + `REFERENCE APPS/matching.html` (imgname mode
+    for separated-phoneme-cue to CVC-picture pairing) +
+    `REFERENCE APPS/picture-sort.html` (theme mode for
+    phoneme-aware categorization) + `REFERENCE APPS/word-
+    scramble.html` (unified mode where scrambling-then-
+    reassembly parallels blending pedagogy).
+
+    Cross-reference to isolate-initial/final/medial-phoneme
+    (prerequisites per learning-targets.json line 40): kids
+    must master phoneme isolation BEFORE blending — they need
+    to be able to identify the individual sounds before they
+    can combine them. The skill progression is pedagogically
+    natural: hear sounds in isolation → combine sounds into a
+    word. This package operationalizes the synthesis step via
+    explicit slow-to-fast blending technique.
+
+    Cross-reference to read-cvc-words (Arc 6 P1 phonics-
+    decoding strand-start): blending is the cognitive
+    operation underlying CVC decoding. Kids see CAT printed,
+    sound out /c/.../a/.../t/, blend the sounds, read 'cat'.
+    Phonological-awareness blending (this package; oral-only)
+    + read-cvc-words (phonics decoding; written CVC →
+    sounded-out → blended) form the foundational decoding
+    skill pair. read-cvc-words is the canonical 1st-target
+    of the phonics-decoding strand; blend-phonemes-cvc is
+    the canonical phonological-awareness precursor.
+
+    **§A.13.34 parallel-strand-framing — phonological-
+    awareness vs phonics-decoding:** blend-phonemes-cvc is a
+    phonological-awareness strand canonical target (oral
+    phoneme synthesis at /c/+/a/+/t/ → cat); it is NOT a
+    phonics-decoding strand target (symbol-grapheme blending
+    at written C+A+T → cat). The strand-boundary is the
+    SYMBOL DIMENSION: phonological-awareness work operates
+    on SPOKEN phonemes only (no printed letters or letter-
+    sound correspondences); phonics-decoding work integrates
+    written graphemes with spoken phonemes (kids see printed
+    letters, recall the corresponding sounds, then blend).
+    The two strands are adjacent in pedagogical sequencing
+    + structurally overlapping at the blending operation
+    itself — but they're distinct canonical strands per
+    learning-targets.json enumeration. Same observable
+    activity (combining sounds to form a word) routes
+    through different strand pedagogy per the symbol
+    dimension. Explicit §A.13.34 parallel-strand-framing
+    citation prevents future audit confusion + sets the
+    pattern for Phase 1.3 candidate segment-cvc-into-phonemes
+    (same parallel-strand framing applies: oral phoneme
+    segmentation = phonological-awareness; written-word
+    segmentation = phonics-decoding).
+
+    Materials note: 8-material Literacy class stack per
+    §A.13.37 + Phase 1.1 Slot 3 + Phase 1.2 Slots 2+3
+    canonical precedents. Materials structure mirrors
+    isolate-initial/final/medial-phoneme verbatim (theme:
+    animals provides familiar CVC vocabulary for blending
+    work — cat /c-a-t/ + dog /d-o-g/ + pig /p-i-g/ + hen
+    /h-e-n/ + bat /b-a-t/ + bus /b-u-s/ give clean 3-
+    phoneme structure across common K-1 short-vowel CVC
+    words). Manipulative-cut-outs at position 6 emits
+    canonical-correct `mode: single-repeat` per §A.13.35.
+
+    Distinctive composition: word-guess at position 1
+    (introduction) — the missing-letter format naturally
+    surfaces the blending operation (kid sees C_T + cue,
+    blends to read CAT). Matching ×2 (positions 2+5) +
+    picture-sort (position 3) + word-scramble (position 4).
+    Word-guess at position 1 distinguishes this composition
+    from the isolation-cluster siblings (which used matching
+    at position 1) — synthesis pedagogy benefits from word-
+    guess's incomplete-letter affordance because the missing
+    letter forces kids to BLEND the surrounding letters' sounds
+    to fill the gap.
+
+    Class B FLEXIBLE substrate: composes against animals
+    theme (vocab-anchored with familiar K-1 CVC vocabulary;
+    cross-arc theme consistency with isolation cluster). No
+    substrate gaps; ships clean.
+
+    K-3 multilingual classroom relevance: blending is universal
+    K early-literacy content BUT syllabic-vs-phonemic blending
+    strategies differ per language. English (consonant-cluster
+    permissive; CVC blending) + German + Dutch use phonemic
+    blending. Italian + Spanish + pt-BR use syllabic blending
+    (CV-syllable units rather than C-V-C phonemes). Multilingual
+    K-3 classrooms benefit from explicit blending work in the
+    language-of-instruction strategy + awareness that home-
+    language blending strategy may differ structurally.
+
+curriculumStandards:
+  - CCSS.RF.K.2e
+  - CCSS.RF.K.2c
+  - CCSS.RF.K.3b
+  - EYFS.ELG.LIT.WR
+  - IB-PYP.HowWeExpressOurselves
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Blend 3 separately-spoken phonemes into a CVC word in
+        7 of 10 trials.
+      - Blend at slow-pace (1-second separation) in 8 of 10
+        trials.
+      - Blend at fast-pace (no separation) in 6 of 10 trials.
+      - Match a 3-phoneme cue (heard separately) to the
+        correct CVC picture in 7 of 10 trials.
+      - Use vocabulary 'blend' / 'put sounds together' / 'slide
+        sounds together' correctly in 5 of 10 productive-
+        language trials.
+      - PRODUCE a CVC word from 3 separated phonemes given
+        orally (not just RECOGNIZE) in 5 of 8 attempts.
+
+    Differentiation:
+    - Pre-K: focus on syllable-blending + rhyme work first;
+      defer phoneme-blending to K.
+    - K: 3-phoneme CVC blending with slow-to-fast progression;
+      defer consonant-blend onset blending (/bl/, /str/) +
+      4+ phoneme blending to Grade 1.
+    - Grade 1: full CVC + consonant-blend onset blending
+      (/bl-a-st/ → blast; /st-o-p/ → stop) + initial bridge to
+      4-phoneme blending (CVCC + CCVC); bridge to written CVC
+      decoding (read-cvc-words; Arc 6 P1).
+    - Grade 2+: extend to multi-syllable blending (compound
+      words; 2-syllable words via syllable-blending then
+      phoneme-blending within syllables); bridge to fluent
+      decoding of multi-syllable words.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

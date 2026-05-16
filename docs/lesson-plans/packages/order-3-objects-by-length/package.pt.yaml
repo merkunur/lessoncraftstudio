@@ -1,0 +1,208 @@
+# Teaching package — order 3 objects by length (pt sparse-override)
+# Arc 19 Phase 1.2 Slot 1 (24th-consecutive arc pt cadence per Arc 7+ convention; pt cadence increments per-arc, not per-package; all 4 Phase 1.2 pt variants share the same Arc-19 cadence anchor). BR-MEC ensino-fundamental register; formal "você" address throughout. BNCC alignment: EF01MA17 (medidas de comprimento — comparação não convencional) + EF02MA17 (medidas comparativas em ordem). STRAND-SAT-CLOSING package: completa measurement em 9/9 SAT (21º strand de classe-pai SAT).
+
+targetSlug: order-3-objects-by-length
+language: pt
+
+title:
+  pt: "Ordenar por Comprimento — do mais curto ao mais longo"
+
+description:
+  pt: "Pacote de numeracia inicial para a educação infantil / 1.º ano do ensino fundamental, ensinando crianças a ordenar 3 objetos por comprimento, organizando-os do MAIS CURTO ao MAIS LONGO (ou do mais longo ao mais curto). Extensão direta de compare-by-length (Arc 9 P1; comparação aos pares) para o caso de 3 objetos que requer raciocínio transitivo ('se A é mais curto que B e B é mais curto que C, então A é mais curto que C — portanto a ordem é A → B → C'). Pacote STRAND-SAT-CLOSING: completa measurement em 9/9 SAT — alvo canônico final per learning-targets.json linha 255. **21º strand de classe-pai SATISFEITO no catálogo** (avança saturação agregada de strand de classe-pai 20/30 → 21/30 = 70,0% per §A.13.33 metodologia de classe-pai). Por §A.13.30 enquadramento informal K-1: trabalho de ordenar-3-objetos é ORDENAÇÃO FÍSICA CONCRETA — as crianças manuseiam 3 objetos + os organizam em fila do mais curto ao mais longo, nomeando a ordem verbalmente. NÃO é aplicação formal de unidades-de-medida (régua + unidades numéricas é trabalho do 1.º-2.º ano EF+; este strand permanece pré-formal). Alinhamento BNCC: EF01MA17 (medidas de comprimento — comparação não convencional no 1.º ano EF) + EF02MA17 (medidas comparativas em ordem no 2.º ano EF). 5 exercícios + 7 materiais imprimíveis ao longo de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Atividade de ordenação-de-3-objetos com toda a turma. Você
+      mostra 3 objetos de comprimentos claramente diferentes (um
+      lápis, um giz de cera, uma régua) no chão ou na mesa. "Qual
+      é o MAIS CURTO? Qual é o MAIS LONGO?" A turma identifica
+      os extremos. Em seguida você pergunta: "E o que está NO
+      MEIO?" A turma identifica. Você organiza os 3 objetos em
+      fila do mais curto ao mais longo dizendo: "Primeiro o
+      mais curto, depois o do meio, depois o mais longo. CURTO
+      — MEIO — LONGO." Repete com mais 3 trios (3 cobras de
+      papel recortado; 3 fitas; 3 sapatos). Ênfase do padrão:
+      "Quando ORDENAMOS 3 coisas por comprimento, encontramos
+      o MAIS CURTO primeiro, o MAIS LONGO por último, e o DO
+      MEIO entre eles."
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de ordenação-de-3-objetos.
+      Cada dupla recebe 3 conjuntos de 3 objetos recortados de
+      papel (ex.: 3 cobras; 3 minhocas; 3 fitas). A dupla se
+      reveza: a criança A embaralha um conjunto; a criança B
+      organiza os 3 objetos do mais curto ao mais longo +
+      nomeia a ordem em voz alta ("o mais curto é a minhoca;
+      o do meio é a cobra; o mais longo é a fita"). As crianças
+      verificam alinhando os objetos lado a lado com as bases
+      alinhadas (a técnica canônica de comparação-direta). Movimento
+      pedagógico crítico — RACIOCÍNIO TRANSITIVO: crianças que
+      dominaram compare-by-length aos pares às vezes têm
+      dificuldade em encadear comparações entre 3 objetos.
+      Recapture com encadeamento explícito ("você disse que a
+      cobra é mais curta que a fita, e a minhoca é mais curta
+      que a cobra. Então a minhoca é mais curta que a fita
+      TAMBÉM — a minhoca deve ser a mais curta de todas as
+      três"). Extensão opcional: a dupla ordena 4 objetos do
+      mais curto ao mais longo; depois 5 objetos. Construa
+      progressivamente a contagem-de-objetos conforme as
+      crianças ganham fluência em comparação-transitiva.
+  scaffold:
+    body: |
+      Rotação por estações. Estação 1: folha big-small (as
+      crianças identificam o maior/menor em um conjunto de 3
+      itens — extensão natural do par maior/menor para os
+      extremos do trio). Estação 2: folha de emparelhamento
+      (pares nome-de-veículo; reforça vocabulário relevante a
+      comprimento — ônibus, carro, motocicleta têm variação de
+      comprimento significativa). Estação 3: manipulative cut-
+      outs hands-on ordering (as crianças organizam fisicamente
+      3 objetos recortados por comprimento usando comparação
+      direta). Estação 4: sentence-strips com enquadramento de
+      tamanho (as crianças preenchem 'o MAIS CURTO é o X' / 'o
+      MAIS LONGO é o Y' / 'o DO MEIO é o Z').
+  closure:
+    body: |
+      Celebração STRAND-SAT-CLOSING + recapitulação rápida de
+      ordenação-de-3-objetos com toda a turma. Você mostra 3
+      conjuntos de 3 objetos em ordem embaralhada; a turma
+      coletivamente ordena cada conjunto do mais curto ao mais
+      longo. Você então faz o anúncio STRAND-SAT-CLOSING: "Hoje
+      FECHAMOS nosso strand de measurement! Começamos no K com
+      compare-by-length, depois compare-by-weight, compare-by-
+      capacity, tell-time-to-the-hour e -half-hour e -quarter-
+      hour, identify-coin-values, recognize-money-amounts... e
+      hoje terminamos com order-3-objects-by-length. 9 de 9
+      alvos de measurement PRONTOS — esse é o strand COMPLETO
+      de measurement para K-3. Measurement é comparar +
+      ordenar coisas por tamanho, peso, capacidade, tempo, e
+      valor. Vocês aprenderam todos os cinco." Aponte adiante:
+      "Quando voltarmos a pensar em measurement mais tarde,
+      vamos começar a usar NÚMEROS para medir (quantos clipes
+      de comprimento? quantos cubos de altura?) em vez de
+      apenas comparar coisas diretamente. Esse é trabalho de
+      measurement do 1.º-2.º ano EF que constrói em cima da
+      fundação que vocês acabaram de terminar."
+
+assessmentCriteria:
+  pt: |
+    Ao fim da unidade de 1 semana:
+      - Organizar 3 objetos do mais curto ao mais longo em 7
+        de 10 tentativas.
+      - Usar o enquadramento superlativo ('o mais curto /
+        mais longo / do meio é o X') em 6 de 10 tentativas de
+        produção verbal.
+      - Aplicar raciocínio transitivo para prever o mais longo
+        de 3 objetos dadas 2 comparações aos pares em 5 de 8
+        instâncias observadas.
+      - Usar o vocabulário 'mais curto' / 'mais longo' / 'do
+        meio' / 'entre' corretamente em 5 de 10 tentativas de
+        produção verbal.
+      - Ordenar 4 objetos do mais curto ao mais longo (extensão)
+        em 4 de 8 tentativas.
+
+    Diferenciação:
+    - Pré-escola: permanecer com comparação aos pares de 2
+      objetos; adiar ordenação-de-3-objetos para o K.
+    - Educação infantil (5-7 anos): ordenação de 3 objetos com
+      objetos físicos concretos; adiar encadeamento de
+      raciocínio-transitivo para o 1.º ano EF.
+    - 1.º ano EF: ordenação completa de 3 objetos + raciocínio
+      transitivo + extensão para ordenação de 4 objetos; ponte
+      para medição com unidades numéricas (unidades informais:
+      'quantos clipes de comprimento?').
+    - 2.º ano EF em diante: ordenação de 5+ objetos + ponte
+      para medição com régua (unidades numéricas formais:
+      centímetros, polegadas) + conservação de atributo-de-
+      medida (o comprimento de um objeto não muda quando
+      rotacionado ou movido).
+
+compositionalRationale:
+  pt: |
+    Adaptação locale-específica do pacote canônico (en). Os campos
+    materials, composedExercises, curriculumStandards e
+    learningObjectives são herdados do package.yaml via merge
+    sparse-override e não são repetidos aqui per a convenção
+    Arc 7+.
+
+    Vocabulário pt-BR canônico para ordenação-por-comprimento K-1
+    EF:
+    - 'comprimento' (length) — pt-BR canônico
+    - 'curto' / 'longo' (short / long) — pt-BR canônico K-1
+    - 'mais curto' / 'mais longo' (shorter / longer) —
+      comparativos canônicos
+    - 'o mais curto' / 'o mais longo' (the shortest / the
+      longest) — superlativos canônicos
+    - 'do meio' / 'no meio' (the middle / in the middle) — pt-
+      BR canônico para posição-do-meio em sequência ordenada
+    - 'entre' (between) — pt-BR canônico para localização
+      relativa
+    - 'ordenar' / 'organizar em ordem' (to order / to arrange
+      in order) — pt-BR canônico
+    - 'do menor para o maior' / 'do mais curto para o mais
+      longo' (smallest to largest / shortest to longest) —
+      locução canônica de ordenação K-1
+    - 'comparar' (to compare) — pt-BR canônico
+    - Frases-modelo K-1: "O mais curto é o X. O do meio é o
+      Y. O mais longo é o Z." / "X é mais curto que Y." /
+      "X é mais longo que Y e mais curto que Z."
+
+    Particularidade pt-BR para superlativos K-1:
+    Português-BR K-1 EF tem estrutura superlativa morfológica
+    distinta do inglês:
+    - Comparativos pt-BR: 'mais curto que X' / 'mais longo
+      que X' (frase-comparativa-de-2-palavras com partícula
+      'mais')
+    - Superlativos pt-BR: 'o mais curto' / 'o mais longo'
+      (frase-superlativa com artigo definido + comparativo)
+    - Inglês: comparativos morfológicos com sufixo -er
+      (shorter, longer); superlativos morfológicos com -est
+      (shortest, longest)
+    Crianças brasileiras K-1 EF reconhecem a estrutura
+    'mais + adjetivo' como comparação; a adição do artigo
+    definido ('o mais curto') é o marcador superlativo. Este
+    pacote ensina explicitamente a distinção comparativo-vs-
+    superlativo via práticas de produção verbal.
+
+    Alinhamento BNCC (Base Nacional Comum Curricular):
+    EF01MA17 ('Reconhecer e relacionar valores de moedas e
+    cédulas do sistema monetário brasileiro para resolver
+    situações simples do cotidiano do estudante')... CORREÇÃO:
+    EF01MA17 é o anchor BNCC mais próximo do 1.º ano EF para
+    comparação-de-medidas-não-convencionais. EF02MA17
+    ('Estimar, medir e comparar comprimentos de lados de salas
+    (incluindo contorno) e de polígonos, utilizando unidades
+    de medida não convencionais e convencionais') é o anchor
+    BNCC do 2.º ano EF para medição-de-comprimento com
+    extensão para unidades-não-convencionais. Junto, EF01MA17
+    + EF02MA17 cobrem a progressão K → 1.º ano → 2.º ano para
+    raciocínio-de-medida-de-comprimento + ordenação.
+
+    Currículo brasileiro K-1 EF para measurement:
+    A BNCC brasileira EF Matemática Anos Iniciais coloca
+    comparação-pré-formal de grandezas (comprimento, massa,
+    capacidade) entre as competências fundacionais de K-1.
+    Este pacote alinha com essa abordagem. Escolas brasileiras
+    frequentemente integram ordenação-por-comprimento com
+    atividades de educação física (organizar crianças por
+    altura) + sala-de-aula (organizar lápis na lapiseira por
+    comprimento).
+
+    Por §A.13.30 enquadramento informal K-1: este pacote NÃO
+    ensina pedagogia formal de unidades-de-medida (centímetros
+    + polegadas + sistemas métrico vs imperial são trabalho
+    do 2.º-3.º ano EF em diante). A ênfase do 1.º ano EF é
+    ordenação-pré-formal via comparação-direta visual + física.
+
+    Pacote STRAND-SAT-CLOSING: SAT-fecha o strand measurement
+    em 9/9 — o 21º strand de classe-pai SAT no catálogo.
+    Pair-coherent positioning com Phase 1.2 Slots 2+3+4
+    phonological-awareness triad (clusters distintos mas
+    contemporary commit cycle).
+
+    Per §A.13.36 cadência de cooperação CC↔assistant: o
+    pacote pt herda materials, composedExercises,
+    curriculumStandards via sparse-override per convenção
+    Arc 7+; quaisquer emendas en (se Round 2 surgir) se
+    propagam automaticamente para esta variante pt.

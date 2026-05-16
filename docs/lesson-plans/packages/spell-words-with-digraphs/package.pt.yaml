@@ -1,0 +1,191 @@
+# Teaching package — spell words with consonant digraphs (Portuguese locale variant)
+#
+# SPARSE-OVERRIDE REFRAMED FORMAT (Arc 19 Phase 1.5 per Arc 13 Phase 3 + read-vowel-teams
+# Phase 1.4 REFRAMED precedent).
+#
+# §A.13.34 LOCALE-CANONICAL-CURRICULUM-DIVERGENCE — pt-BR digraph inventory
+# differs structurally from English. English digraphs: ch/sh/th/wh/ph.
+# Pt-BR canonical digraphs: LH (filho), NH (sonho), RR (carro), SS (passar),
+# CH (chuva), Ç (faça), GU+vowel (guerra/seguir), QU+vowel (queijo/aquilo).
+# Sparse-override REFRAMED per read-vowel-teams pt precedent — pt content
+# teaches pt-BR canonical digraph encoding, NOT translated English digraphs.
+# Pedagogy-level divergence consolidating §A.13.34 sub-class FULL-OVERRIDE
+# threshold-class enumeration (Firing 5 doctrine candidate Phase 1.5 empirical
+# input — at this empirical surface the sparse-override REFRAMED pattern
+# carries the canonical pedagogy for the locale).
+# BR-MEC educação infantil register per CLAUDE.md §6 + formal "você" address
+# per §17.9. BNCC EF01LP08 + EF02LP05 crosswalk.
+
+title:
+  pt: "Escrever Dígrafos pt-BR — filho, sonho, carro, chuva, passar"
+description:
+  pt: "Pacote de letramento inicial para o 1º-2º ano que ensina crianças a escrever palavras pt-BR com dígrafos canônicos. Constrói sobre o trabalho spell-cvc-words do Arco 12 + spell-words-with-blends Phase 1.4 pt-BR-equivalente. Reciprocidade leitura-escrita: pareia foneticamente com o trabalho de leitura de dígrafos pt-BR. Especificidade pt-BR: o inventário de dígrafos pt-BR difere ESTRUTURALMENTE do inglês. Inglês usa: ch (chair), sh (ship), th (three), wh (when), ph (phone). Pt-BR usa: LH /ʎ/ (filho, palha, telhado), NH /ɲ/ (sonho, banheiro, manhã), RR /h/ ou /R/ (carro, ferro, arroz), SS /s/ (passar, missa, cessar), CH /ʃ/ (chuva, chá, cacho), Ç /s/ (faça, açúcar, peço), GU+vogal (guerra, seguir, guitarra), QU+vogal (queijo, aquilo, quanto). Cada dígrafo tem regra-de-uso específica + contexto-de-vogal-seguinte específico em alguns casos. As crianças ouvem palavras com dígrafos + escrevem os dígrafos corretamente. Trabalho fundacional porque dígrafos aparecem em ~35% do vocabulário pt-BR de 1º-2º ano. 5 exercícios + 7 materiais imprimíveis em uma unidade de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Rotina dos-dígrafos-pt-BR com toda a turma. A professora ou o
+      professor escreve 6 palavras-âncora pt-BR no quadro + as
+      sublinha pelos dígrafos: filho (LH), sonho (NH), carro (RR),
+      chuva (CH), passar (SS), faça (Ç). 'Estas palavras têm
+      DÍGRAFOS — duas letras juntas que fazem UM som:
+      - **LH** em 'filho' faz som /ʎ/ — diferente de L + H separados
+      - **NH** em 'sonho' faz som /ɲ/ — diferente de N + H separados
+      - **RR** em 'carro' faz som forte /h/ (em SP/RJ) ou /R/-vibrante
+        (em SC/RS) — diferente do R simples 'caro'
+      - **CH** em 'chuva' faz som /ʃ/ — como o SH inglês em 'shoe'
+      - **SS** em 'passar' faz som /s/ — duas letras, um som /s/
+      - **Ç** em 'faça' faz som /s/ — a cedilha antes de A/O/U faz
+        o C ter som de /s/'
+      A turma repete cada palavra prestando atenção ao dígrafo.
+      Especificidade pt-BR: enfatize que estes dígrafos são
+      pt-BR-canônicos + AUSENTES em en — uma criança brasileira
+      letrando em ambiente bilíngue precisa aprender estes dígrafos
+      explicitamente como característica pt-BR.
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de ditado. Cada dupla recebe folha
+      com 10 cartas-imagem (filho / palha / sonho / banheiro / carro
+      / ferro / chuva / chá / passar / cessar). A dupla alterna:
+      criança A diz a palavra; criança B escreve em quadro-branco
+      de memória, prestando atenção especial ao dígrafo. A dupla
+      verifica cada grafia. Refraseie os erros com soletração-
+      letra-a-letra ('você escreveu 'fio' para 'filho' — olhe o
+      meio: /ʎ/. Não é só L sozinho — é L + H juntos: LH. Tente
+      de novo: F-I-L-H-O.'). Especificidade pt-BR: extensão
+      opcional — as crianças encontram palavras-pares-mínimas que
+      diferem APENAS pelo dígrafo (cara/carra; pala/palha; sono/
+      sonho) + escrevem ambas demonstrando entendimento de que
+      UMA letra muda significado.
+  scaffold:
+    body: |
+      Rotação de estações. Estação 1: word-scramble (rearranje
+      letras para formar palavras-com-dígrafos: I-L-F-H-O = filho;
+      O-N-S-H-O = sonho; H-V-A-C-U = chuva). Estação 2: word-guess
+      (preencha o dígrafo a partir da pista-imagem — fi__o = filho;
+      so__o = sonho; ca__o = carro; chu__ = chuva). Estação 3:
+      vocabulary-tracing-strips com palavras-âncora pt-BR de
+      dígrafos. As crianças praticam traçar + dizer cada palavra
+      enquanto sentem o dígrafo. Estação 4: folha de exercícios de
+      emparelhamento (dígrafo ao par-âncora — LH ↔ filho; NH ↔
+      sonho; RR ↔ carro; CH ↔ chuva; SS ↔ passar; Ç ↔ faça).
+  closure:
+    body: |
+      Mini-ditado-de-dígrafos com toda a turma. A professora ou o
+      professor lê 6 palavras-com-dígrafos em voz alta (filho /
+      sonho / carro / chuva / passar / faça); as crianças escrevem
+      cada uma em quadro-branco individual. Verificação visual
+      rápida confere a precisão. Indicador adiante: 'Hoje
+      escrevemos palavras com dígrafos pt-BR — duas letras juntas
+      que fazem UM som. Quando voltarmos à escrita na próxima vez,
+      aprenderemos sobre palavras com GU+vogal (guerra, seguir) +
+      QU+vogal (queijo, aquilo) — onde o U pode ser silencioso ou
+      sonoro dependendo do contexto.'
+
+assessmentCriteria:
+  pt: |
+    Escrever 6 de 8 palavras-com-dígrafos pt-BR ditadas corretamente
+    em 8 de 10 tentativas (com suporte de pista-imagem). Identificar
+    + escrever o dígrafo correto (LH/NH/RR/SS/CH/Ç) quando dada a
+    parte medial-final do som da palavra em 7 de 10 tentativas.
+    Distinguir dígrafo (duas-letras-um-som: LH = /ʎ/) de letras-
+    separadas (L + H em palavras estrangeiras) em 7 de 10 tentativas.
+    Aplicar a estratégia de escrita-de-dígrafo a palavras novas
+    desconhecidas (ex: 'malha', 'unha', 'morro') em 6 de 10
+    tentativas.
+
+    Diferenciação:
+      - Pré-K (3-5 anos): apenas reconhecimento-de-dígrafo (sem
+        escrita); circule a palavra-com-dígrafo que combina com a
+        imagem entre 2-3 opções.
+      - 1º ano (6-8 anos): 4 dígrafos mais frequentes pt-BR (LH, NH,
+        RR, CH) + escrita independente.
+      - 2º ano em diante: estender o conjunto completo de dígrafos
+        pt-BR (LH/NH/RR/SS/CH/Ç) + ponte para palavras com GU+vogal
+        + QU+vogal + distinção ortográfica entre R/RR + S/SS +
+        C/Ç dependendo do contexto.
+
+compositionalRationale:
+  pt: |
+    Fio principal: letramento inicial / spelling-and-encoding
+    (escrita de palavras com dígrafos pt-BR canônicos — strand-
+    advancement em direção à SAT). Fio secundário: phonics-decoding
+    (as crianças aproveitam o trabalho-de-leitura para escrever o
+    que aprenderam a ler). Fio terciário: aquisição de vocabulário
+    (palavras-âncora com dígrafos canônicos no vocabulário pt-BR
+    K-3).
+
+    Significância arquitetural: aprofunda o fio spelling-and-encoding
+    pt-BR. Reciprocidade leitura-escrita: pareia foneticamente com
+    o trabalho de leitura de dígrafos pt-BR (par decoding-encoding
+    canônico).
+
+    Slot final-arc-cycle Phase 1.5 conforme a responsabilidade de
+    fechamento do Arco 19. Trajetória do 23º parent-class strand
+    SAT closure.
+
+    **§A.13.34 LOCALE-CANONICAL-CURRICULUM-DIVERGENCE — sub-classe
+    pedagogia-nível**: o inventário de dígrafos pt-BR difere
+    ESTRUTURALMENTE do inglês. Mais do que substituição de
+    vocabulário — é mudança da própria pedagogia dos dígrafos.
+
+    **Inventário de dígrafos pt-BR canônicos:**
+
+    - **LH /ʎ/** — palatal lateral. Único do português + galego
+      entre línguas românicas. Exemplos: filho, palha, telhado,
+      ilha, milho, malha, mulher. Som similar ao GL italiano
+      (figlio) ou LL espanhol regional (llave em algumas
+      pronúncias).
+
+    - **NH /ɲ/** — palatal nasal. Único do português + galego.
+      Exemplos: sonho, banheiro, manhã, montanha, ninho, unha,
+      tamanho. Som similar ao GN italiano (gnocchi) ou Ñ espanhol
+      (niño).
+
+    - **RR /h/ ou /R/** — vibrante forte ou aspirado. Aparece
+      APENAS entre vogais; R-inicial OU R-pós-consoante usa R
+      simples com o mesmo som. Exemplos: carro, ferro, arroz,
+      garrafa, terra, jarro. Variação regional significativa
+      (SP/RJ /h/; SC/RS /R/-vibrante).
+
+    - **SS /s/** — surdo entre vogais. Aparece APENAS entre vogais;
+      S simples entre vogais soa /z/ (casa = /kaza/). Exemplos:
+      passar, missa, cessar, assunto, possibilidade, professor.
+      Distinção ortográfica crucial: 'caso' /kazo/ vs 'cassino'
+      /kasino/.
+
+    - **CH /ʃ/** — fricativa palatal surda. Exemplos: chuva, chá,
+      cacho, machado, chumbo. Som idêntico ao SH inglês.
+      Diferentemente do en CH que faz /tʃ/ (chair, church).
+
+    - **Ç /s/** — cedilha. C com cedilha = /s/. Aparece APENAS
+      antes de A, O, U (NUNCA antes de E ou I porque nesses
+      contextos C já é /s/). Exemplos: faça, açúcar, peço, ação,
+      educação, açaí.
+
+    - **GU+vogal** — em GUE, GUI, o U é geralmente silencioso
+      (guerra, guitarra). Em GUA, GUO, o U é sonoro (água,
+      arguição). Crianças aprendem a regra de quando o U é
+      silencioso vs sonoro.
+
+    - **QU+vogal** — paralela ao GU. Em QUE, QUI, o U pode ser
+      silencioso (queijo, aquilo) ou sonoro (cinquenta,
+      tranquilo). Em QUA, QUO, o U é sonoro (quando, quociente).
+
+    Em contextos de imersão pt-BR + ambientes bilíngues, crianças
+    falantes de en cometem erros sistemáticos: substituem LH por
+    LY (escrevem 'fily' em vez de 'filho'); substituem NH por NY
+    (escrevem 'sony' em vez de 'sonho'); confundem CH /ʃ/ pt-BR
+    com CH /tʃ/ en (lendo 'chuva' como /tʃuva/ em vez de /ʃuva/).
+    O ensino explícito dos dígrafos pt-BR canônicos como sistema-
+    distinto-do-en é fundacional.
+
+    Currículo BNCC EF01LP08 (identificar regularidades + irregularidades
+    no sistema ortográfico pt-BR); EF02LP05 (escrever palavras com
+    diferentes estruturas silábicas + dígrafos pt-BR-específicos).
+
+    Substrato Class B FLEXIBLE: composta contra a amplitude da
+    biblioteca de imagens. Vocabulário pt-BR rico em dígrafos:
+    família (filho, filha, vovó, mulher); animais (galinha, peixe-
+    espada, cobra, abelha); objetos (carrinho, ferrolho, chave,
+    montanha); ações (passar, banhar, achar, ouvir).

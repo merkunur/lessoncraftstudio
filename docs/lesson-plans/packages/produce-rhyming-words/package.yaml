@@ -1,0 +1,321 @@
+# Teaching package — produce rhyming words
+# Arc 19 Phase 1.1 Slot 4 (early-literacy / phonological-awareness strand 3/9 → 4/9). Pair-coherent with Phase 1.1 Slot 3 isolate-initial-phoneme. Foundational pre-reading skill: kids hear or see a word and GENERATE rhyming words (cat → hat, bat, mat, rat). Per learning-targets.json prerequisites: identify-rhyming-pairs (Arc 10; already shipped).
+
+targetSlug: produce-rhyming-words
+language: en
+title:
+  en: "Make a Rhyme — generate words that sound the same at the end"
+description:
+  en: "Kindergarten early-literacy package teaching kids to PRODUCE rhyming words. Builds on identify-rhyming-pairs prerequisite (Arc 10): kids who can recognize rhyming pairs now generate new rhymes themselves. Given 'cat', kids produce 'hat', 'bat', 'mat', 'rat', 'sat'. Phonological-awareness strand advances 3/9 → 4/9 (if Slot 3 isolate-initial-phoneme also ships). Critical productive-phonological skill: rhyme-production exercises the kid's mental representation of word-ending sound patterns + builds the foundation for word-family decoding. Per §A.13.30 K-1 informal framing: K rhyme-production work is CONCRETE PATTERN-COMPLETION — kids hear a target word + generate words matching its ending sound. NOT formal poetic-form pedagogy (terms like 'perfect rhyme' / 'slant rhyme' / 'rhyme scheme' are post-Grade-3 work); the K pedagogy uses everyday language ('words that sound the same at the end') to surface the rhyme pattern. CCSS.RF.K.2a primary anchor ('Recognize and produce rhyming words'). 5 worksheet exercises + 8 printable materials over a 1-week unit. Materials list mirrors identify-rhyming-pairs Class B FLEXIBLE substrate."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class rhyme-production hook. Teacher says: "I'm
+      thinking of a word: CAT. Who can tell me a word that
+      rhymes with CAT? Same sound at the end!" Class
+      brainstorms: hat, bat, mat, rat, sat, fat, that, pat...
+      Teacher writes them on the board in a column. "Look —
+      all these words end with -at. They all RHYME with CAT
+      because they share the same ending sound." Teacher
+      repeats with: "BALL — what rhymes with BALL?" Class:
+      fall, tall, wall, call, hall, small... "SUN — what
+      rhymes with SUN?" Class: fun, run, bun, one, ton, none...
+      Pattern emphasis: "When we MAKE rhymes, we keep the ending
+      sound the same + change the beginning. -at family, -all
+      family, -un family. These are RHYMING FAMILIES."
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + rhyme-generation routine. Each pair receives
+      6 target word cards (cat, ball, sun, pig, bed, sock) +
+      blank paper. Pair takes turns: kid A picks a target
+      card; kid B generates as many rhyming words as they can
+      orally + kid A writes them down (or kid B writes if they
+      can). Pair switches roles. Recast errors with rhyme-
+      checking ("you said BIRD rhymes with CAT — do they sound
+      the same at the end? CAT ends in -at; BIRD ends in -ird.
+      Different! Let's try again: what ends in -at? HAT? Yes!
+      MAT? Yes! BAT? Yes!"). Build rhyme-family fluency first
+      with simple CVC families (-at, -an, -ot, -ig); defer more
+      complex rhyme families (-ake, -ight, -ound) to later
+      work. Critical pedagogical move: REAL or NONSENSE? K
+      kids may generate nonsense rhymes (rat, kat, lat, plat).
+      Accept nonsense rhymes as valid PHONOLOGICAL output (the
+      rhyme-pattern is correct) while gently distinguishing
+      real vs nonsense words. The phonological skill ALWAYS
+      wins; spelling/meaning constraints come later.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching worksheet (kids
+      match target words to lists of rhyming words). Station 2:
+      word-guess (kids fill in a rhyming word given a clue +
+      partial spelling). Station 3: word-scramble (kids
+      unscramble rhyming-family words; reinforces spelling of
+      rhyme patterns). Station 4: missing-pieces (kids complete
+      a rhyming-poem stanza by supplying the missing final
+      word).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class rhyme-share-out. Teacher calls out a target
+      word; class generates rhymes orally as fast as possible.
+      "CAR!" (Class: jar, far, star, bar, scar...) "BUG!" (rug,
+      mug, hug, jug, tug, dug...) "TREE!" (bee, see, free,
+      knee, three, me...) Teacher closes: "Making rhymes
+      EXERCISES our phonological-awareness MUSCLES. The more
+      rhymes we make, the easier it becomes to hear ending
+      sounds in NEW words we encounter when we read. Rhyme
+      is one of the BIGGEST helpers for early reading."
+      Forward-pointer: "Next we'll move to other phonological
+      skills — segmenting words into sounds + blending sounds
+      into words. Those work at the BEGINNING + MIDDLE of
+      words, complementing the END-of-word rhyme work."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: word-scramble
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: missing-pieces
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: rhyme-family-pairing-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 12
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 5
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 6
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 7
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 8
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: early-literacy / phonological-awareness
+    (produce-rhyming-words — strand 3/9 → 4/9). Pair-coherent
+    with Phase 1.1 Slot 3 isolate-initial-phoneme; together
+    advance the strand 2/9 → 4/9.
+
+    Architectural significance: builds DIRECTLY on Arc 10
+    identify-rhyming-pairs (prerequisite per learning-targets.
+    json; already shipped). That package taught kids to
+    RECOGNIZE rhyming pairs (receptive); this package teaches
+    kids to GENERATE rhyming words (productive). Cognitive
+    progression: receptive rhyme-recognition → productive
+    rhyme-generation. Productive phonological work
+    consolidates the underlying sound-pattern mental
+    representation that decodes word-families.
+
+    Per §A.13.30 K-1 informal framing: K rhyme-production
+    work is CONCRETE PATTERN-COMPLETION. Kids hear a target
+    word + generate words matching its ending sound + see
+    that rhyming patterns form word-families (-at family,
+    -all family, -un family). The pedagogy uses everyday
+    language ('words that sound the same at the end' /
+    'rhyming family') + accepts nonsense rhymes as valid
+    PHONOLOGICAL output (the phonological skill always wins
+    over spelling/meaning constraints at the K level).
+    Formal poetic-form pedagogy (perfect rhyme vs slant
+    rhyme; rhyme scheme; meter) is post-Grade-3 academic
+    work that this K foundation supports.
+
+    Cross-reference to identify-rhyming-pairs (Arc 10
+    prerequisite): that package operationalized receptive
+    rhyme-recognition. This package operationalizes
+    productive rhyme-generation. Together they form the
+    rhyme-cluster within phonological-awareness; both feed
+    into systematic phonics decoding by establishing the
+    rhyme-family mental representation.
+
+    Materials note: 8-material Literacy class stack per
+    §A.13.37 + pair-coherent with identify-rhyming-pairs
+    Class B FLEXIBLE substrate (theme: animals provides
+    familiar CVC vocabulary with rich rhyme-family
+    coverage — cat / rat / bat / mat from -at family; dog
+    / hog / fog / log from -og family; cow / how / now from
+    -ow family; pig / wig / dig from -ig family). Manipulative-
+    cut-outs at position 6 emits canonical-correct `mode:
+    single-repeat` per §A.13.35.
+
+    Distinctive composition: matching ×2 (positions 1+5) +
+    word-guess (position 2) + word-scramble (position 3) +
+    missing-pieces (position 4). Same composition shape as
+    identify-rhyming-pairs precedent with word-scramble
+    serving the productive-rhyme-generation work + missing-
+    pieces surfacing rhyming-poem stanza completion.
+
+    Class B FLEXIBLE substrate: composes against animals
+    theme (vocab-anchored with familiar K-1 vocabulary;
+    cross-arc with Arc 10 + Slot 3 phonological-awareness
+    theme consistency). No substrate gaps; ships clean.
+
+    K-3 multilingual classroom relevance: rhyme-production
+    is universal K early-literacy content. Rhyme patterns
+    differ per language: English uses ending-sound-rhyme;
+    Spanish + Portuguese use vowel-ending rhyme + sometimes
+    consonance; nordic languages use ending-sound rhyme
+    similar to English. Multilingual K-3 classrooms benefit
+    from explicit rhyme-pattern work in the language-of-
+    instruction + cross-language rhyme-awareness work
+    (bilingual kids may notice cross-language non-rhymes
+    that ARE rhymes within one language).
+
+curriculumStandards:
+  - CCSS.RF.K.2a
+  - CCSS.RF.K.2b
+  - CCSS.RF.K.3
+  - EYFS.ELG.LIT.WR
+  - IB-PYP.HowWeExpressOurselves
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Produce 3+ rhyming words for a target CVC word in 7
+        of 10 trials.
+      - Recognize the rhyming-family pattern (-at, -an, -ot,
+        -ig) in 6 of 8 trials.
+      - Sort 12 picture cards into rhyming-family groups (3-
+        4 groups) correctly in 6 of 10 attempts.
+      - Distinguish rhyming from non-rhyming pairs in 7 of 10
+        trials (receptive review from identify-rhyming-pairs).
+      - Use vocabulary 'rhyme' / 'rhyming' / 'sound the same'
+        / 'ending sound' / 'rhyming family' correctly in 5
+        of 10 productive-language trials.
+
+    Differentiation:
+    - Pre-K: focus on identify-rhyming-pairs (receptive) only;
+      defer productive rhyme to K.
+    - K: full CVC rhyme-family production with simple families
+      (-at, -an, -ot, -ig); nonsense rhymes accepted; defer
+      complex rhyme-families.
+    - Grade 1: extend to complex rhyme-families (-ake, -ight,
+      -ound, -ation); introduce real vs nonsense word
+      distinction more formally; bridge to rhyming-poem
+      writing.
+    - Grade 2+: extend to slant-rhyme + near-rhyme awareness;
+      bridge to poetic-form pedagogy + creative writing
+      composition.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

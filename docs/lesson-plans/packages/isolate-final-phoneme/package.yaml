@@ -1,0 +1,372 @@
+# Teaching package — isolate final phoneme
+# Arc 19 Phase 1.2 Slot 2 (early-literacy / phonological-awareness strand 4/9 → 5/9). Pair-coherent with Phase 1.1 Slot 3 isolate-initial-phoneme + Phase 1.2 Slots 3+4 isolate-medial-phoneme + blend-phonemes-cvc. Reverse-end skill of isolate-initial-phoneme: kids identify the LAST SOUND in spoken CVC words (cat → /t/; dog → /g/; mom → /m/). Prerequisite per learning-targets.json line 38: isolate-initial-phoneme (Phase 1.1 Slot 3).
+
+targetSlug: isolate-final-phoneme
+language: en
+title:
+  en: "Last Sounds — what sound does the word END with?"
+description:
+  en: "Kindergarten early-literacy package teaching kids to isolate the FINAL PHONEME (last sound) in spoken CVC words. Direct extension of isolate-initial-phoneme (Phase 1.1 Slot 3) to the word-ending position. Phonological-awareness strand advances 4/9 → 5/9 (pair-coherent with Slots 3+4 advancing 5/9 → 7/9). Per learning-targets.json line 38 prerequisite: isolate-initial-phoneme (Phase 1.1 Slot 3 ✓ SHIPPED). Critical phoneme-isolation pair: initial-phoneme (Phase 1.1) + final-phoneme (this package) bracket the word; together they prepare kids for medial-phoneme work (Phase 1.2 Slot 3) + full CVC phoneme-segmentation (Phase 1.3 candidate). Per §A.13.30 K-1 informal framing: K final-phoneme isolation work is CONCRETE SOUND-RECOGNITION at the word-end position — kids hear a word, slow it down, name the last sound, match it to an ending-sound picture or letter. The pedagogy uses everyday language ('last sound' / 'ending sound' / 'final sound'). NOT formal phonetics-theory pedagogy (consonant-class taxonomy + IPA transcription is post-Grade-3 academic work). CCSS.RF.K.2d primary anchor ('Isolate and pronounce the initial, medial vowel, and final sounds (phonemes) in three-phoneme CVC words'). 5 worksheet exercises + 8 printable materials over a 1-week unit. **Phonological-awareness pedagogy is locale-specific because phoneme inventories differ per language.** This en package uses the English phoneme set; pt variant uses the Brazilian Portuguese phoneme set per BR-MEC framework. Materials list mirrors isolate-initial-phoneme (Phase 1.1 Slot 3) Literacy 8-material canonical."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class last-sound hook. Teacher says a word slowly,
+      EXTRA-stressing the final consonant: "C-a-T. What sound does
+      CAT END with?" Class: /t/! Teacher writes the letter T + a
+      cat picture on the board. "Yes — CAT ends with the /t/ sound."
+      Repeats with: "D-o-G. Last sound?" Class: /g/! "M-o-M. Last
+      sound?" /m/! "S-u-N. Last sound?" /n/! Pattern emphasis:
+      "Every word ENDS with a sound too — not just starts. The
+      last sound is the ENDING SOUND. We can hear it if we say
+      the word slowly + listen for the FINAL part." Critical
+      pedagogical framing — bracket the word: "Last week we
+      learned the FIRST sound. This week we're learning the LAST
+      sound. CAT starts with /k/ + ends with /t/. The middle
+      sound /a/ we'll learn next time. The first + last sounds
+      bracket the word."
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + last-sound recognition routine. Each pair
+      receives 8 picture cards + 4 letter cards. Pair takes
+      turns: kid A names a picture (cat); kid B identifies the
+      last sound (/t/) + places the picture under the matching
+      ending-letter card (T). Repeats with hat, bat, mat all
+      going under T (rhyme-family clustering: kids notice that
+      words sharing an ending sound also rhyme — this is the
+      bridge from final-phoneme isolation back to rhyme work).
+      Critical pedagogical move: SLOW-PRONUNCIATION with extra
+      stress on the final consonant. K kids often hear the
+      stressed VOWEL clearly + miss the unstressed FINAL
+      consonant. Recast errors with consonant-emphasis ("you
+      said BUS ends with /u/ — that's the MIDDLE sound. Let's
+      say it slowly with extra stress on the last sound: B-u-SSS.
+      What's the FINAL sound? /s/, the hissing sound at the
+      end."). Some kids may benefit from hand-cupping the ear
+      to focus on the word-end. Build final-phoneme fluency
+      with single-consonant final sounds; defer consonant-blend
+      codas (/st/, /nd/, /mp/) to later phonological-awareness
+      work.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching worksheet (picture →
+      final letter; kids match pictures to the letter representing
+      their last sound). Station 2: word-guess (kids fill in the
+      missing FINAL letter of a picture's name). Station 3:
+      picture-sort (kids sort pictures into groups by ending
+      sound — rhyme-family clustering surfaces naturally). Station
+      4: word-scramble (kids unscramble simple CVC words; reinforces
+      sound-letter mapping at word level including the final-
+      letter position).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class last-sound quick-recall. Teacher names a word;
+      class shouts the last sound. "Sun!" /n/! "Tree!" /e/! "Pop!"
+      /p/! "Fish!" /sh/! Teacher closes: "Every word has a first
+      sound AND a last sound. Hearing the LAST sound is the
+      SECOND step in reading — the first step was first-sound
+      isolation last week. Next we'll learn the MIDDLE sound —
+      the vowel between the first and last. Three sounds in CVC
+      words: first, middle, last. We've learned first + last;
+      middle comes next."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: animals, rightCategoryThemeSelect: vehicles, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: word-scramble
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: phoneme-letter-pairing-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 12
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 5
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 6
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 7
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 8
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: early-literacy / phonological-awareness
+    (isolate-final-phoneme — strand 4/9 → 5/9). Pair-coherent
+    with Phase 1.1 Slot 3 isolate-initial-phoneme (reverse-end
+    skill) + Phase 1.2 Slots 3+4 isolate-medial-phoneme +
+    blend-phonemes-cvc (cluster completion + synthesis-side
+    opening). The Phase 1.2 phonological-awareness triad
+    advances the strand 4/9 → 7/9 (77.8%), positioning Phase
+    1.3 for strand SAT-closure. Per §A.13.31 per-instance
+    content-awareness: `isolate-initial-phoneme/package.yaml`
+    (Phase 1.1 Slot 3) is the canonical Literacy 8-material
+    phonological-awareness precedent — this package mirrors
+    its materials + composedExercises shape with final-position
+    pedagogical adaptation.
+
+    Architectural significance: extends Phase 1.1 phoneme-
+    isolation work to the word-ending position. Cognitive
+    progression: initial-phoneme isolation (Phase 1.1 Slot 3;
+    word-start) → final-phoneme isolation (this package;
+    word-end) → medial-phoneme isolation (Phase 1.2 Slot 3;
+    word-middle vowel). The 3-position phoneme-isolation
+    cluster bracketing-then-filling completes when isolate-
+    medial-phoneme ships next (Phase 1.2 Slot 3). The cluster
+    sets up Phase 1.3 candidate segment-cvc-into-phonemes
+    (full 3-phoneme decomposition) + Phase 1.2 Slot 4
+    blend-phonemes-cvc (3-phoneme synthesis; reverse
+    operation).
+
+    Per §A.13.30 K-1 informal framing: K final-phoneme
+    isolation work is CONCRETE SOUND-RECOGNITION at the
+    word-ending position. Kids hear a word + slow it down +
+    name the last sound + match it to an ending-sound picture
+    or letter. The pedagogy uses everyday language ('last
+    sound' / 'ending sound' / 'final sound') + introduces the
+    /sound/ notation only as the SOUND-vs-LETTER distinction
+    becomes load-bearing. K kids often hear the stressed
+    VOWEL clearly + miss the unstressed FINAL consonant — the
+    pedagogical move documented in contentActivity is SLOW-
+    PRONUNCIATION with extra-stress on the final consonant
+    + consonant-emphasis recasting. Some kids benefit from
+    hand-cupping-the-ear to focus on word-end audition.
+    Bracket-the-word framing (first + last bracket the word;
+    middle fills in) makes the 3-position phoneme structure
+    visible.
+
+    **Phonological-awareness pedagogy is LOCALE-SPECIFIC.**
+    Phoneme inventories + word-end syllabic structure differ
+    per language. English CVC words end with consonants (cat
+    /t/, dog /g/, sun /n/); the final-phoneme is typically a
+    consonant. pt-BR words frequently end with vowels
+    (gato /u/, perro /u/ — actually pt-BR is gato /u/ in BR
+    register; the final-phoneme is typically a vowel sound
+    representing word-end open syllable). This en package
+    uses the English consonant-final pattern; pt variant
+    requires per-locale adaptation per §A.13.34 locale-
+    canonical-curriculum-divergence sub-class (FULL-OVERRIDE
+    candidate; SPARSE-OVERRIDE locked at this commission per
+    minimal-amendment principle).
+
+    Per §A.13.29 ground-truth source-citation: composedExercises
+    cite `REFERENCE APPS/matching.html` (imgname mode for
+    picture-letter pairing) + `REFERENCE APPS/word-guess.html`
+    (clue-density mode for fill-in-missing-letter work) +
+    `REFERENCE APPS/picture-sort.html` (theme mode for
+    ending-sound categorization) + `REFERENCE APPS/word-
+    scramble.html` (unified mode for sound-letter-mapping
+    word-level reinforcement).
+
+    Cross-reference to isolate-initial-phoneme (Phase 1.1 Slot
+    3; prerequisite per learning-targets.json line 38): kids
+    must master initial-phoneme isolation before final-phoneme
+    isolation. The skill progression is pedagogically natural:
+    word-start is the most salient phoneme position (first-
+    perception); word-end is the second-most-salient (last-
+    perception); word-middle vowel is the LEAST salient (the
+    hardest of the three; addressed in Phase 1.2 Slot 3).
+
+    Cross-reference to identify-rhyming-pairs (Arc 10 P1):
+    rhyme-family clustering surfaces naturally during final-
+    phoneme isolation — words sharing an ending sound also
+    rhyme (cat / hat / bat / mat share /at/ final-rime). The
+    final-phoneme isolation skill connects back to earlier
+    rhyme work + forward to systematic phonics decoding (word
+    families: -at, -an, -in, -ot, -un).
+
+    Materials note: 8-material Literacy class stack per
+    §A.13.37 + Phase 1.1 Slot 3 canonical precedent. Materials
+    structure mirrors isolate-initial-phoneme verbatim (theme:
+    animals provides familiar CVC vocabulary for phoneme-
+    isolation work — cat / dog / cow / pig / rat / bat / hen
+    / fox give clean final-phoneme variety across common K-1
+    phonemes /t/ /g/ /au/ /g/ /t/ /t/ /n/ /ks/). Manipulative-
+    cut-outs at position 6 emits canonical-correct `mode:
+    single-repeat` per §A.13.35.
+
+    Distinctive composition: matching ×2 (positions 1+5) +
+    word-guess (position 2) + picture-sort (position 3) +
+    word-scramble (position 4). Same composition shape as
+    Phase 1.1 Slot 3 isolate-initial-phoneme — phoneme-
+    isolation work uses identical exercise affordances
+    regardless of word-position (initial / final / medial);
+    the pedagogical surface adapts via teacher framing
+    + worksheet text emphasis.
+
+    Class B FLEXIBLE substrate: composes against animals
+    theme (vocab-anchored with familiar K-1 vocabulary;
+    cross-arc theme consistency with Phase 1.1 Slot 3 +
+    Arc 10+ phonological-awareness theme pattern). No
+    substrate gaps; ships clean.
+
+    K-3 multilingual classroom relevance: final-phoneme
+    isolation is universal K early-literacy content BUT
+    word-end phonemic structure differs per language.
+    Languages with consonant-cluster word-endings (English,
+    German) emphasize final-consonant isolation; languages
+    with predominantly vowel-final open-syllable structure
+    (Italian, Portuguese-BR, Spanish vowel-final words)
+    require different per-locale framing. The cognitive
+    operation (hear word → name last sound → match to
+    representation) is universal; the canonical phoneme
+    targets vary per locale.
+
+curriculumStandards:
+  - CCSS.RF.K.2d
+  - CCSS.RF.K.3a
+  - CCSS.RF.K.3b
+  - EYFS.ELG.LIT.WR
+  - IB-PYP.HowWeExpressOurselves
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Isolate the final phoneme of a spoken CVC word in 7 of
+        10 trials.
+      - Match a pictured CVC word to its final-sound letter in
+        7 of 10 trials.
+      - Sort 12 pictures into ending-sound groups (3-4 groups)
+        correctly in 6 of 10 attempts.
+      - Use vocabulary 'last sound' / 'ending sound' / 'final
+        sound' correctly in 5 of 10 productive-language trials.
+      - Identify both initial AND final phonemes of a CVC word
+        (bracket-the-word task) in 5 of 8 attempts.
+
+    Differentiation:
+    - Pre-K: focus on rhyme + syllable work + initial-phoneme
+      first; defer final-phoneme isolation to K.
+    - K: single-consonant final-phoneme isolation + picture-
+      to-letter matching; consonant-blend codas deferred.
+    - Grade 1: extend to consonant-blend codas (/st/, /nd/,
+      /mp/) + medial-vowel isolation; bridge to full CVC
+      phoneme-segmentation + word-family decoding (-at, -an,
+      -in, -ot, -un).
+    - Grade 2+: formal phonemic-awareness assessments + bridge
+      to systematic phonics decoding (phoneme-grapheme
+      correspondence + decoding fluency across digraphs +
+      blends + vowel teams).
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

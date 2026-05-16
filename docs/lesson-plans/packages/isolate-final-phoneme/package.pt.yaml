@@ -1,0 +1,239 @@
+# Teaching package — isolate final phoneme (pt sparse-override)
+# Arc 19 Phase 1.2 Slot 2 (24th-consecutive arc pt cadence per Arc 7+ convention; pt cadence increments per-arc, not per-package; all 4 Phase 1.2 pt variants share the same Arc-19 cadence anchor). BR-MEC ensino-fundamental register; formal "você" address throughout. BNCC alignment: EF01LP05 (reconhecimento do princípio acrofônico) + EF01LP06 (consciência fonológica). **Phonological-awareness pedagogy is locale-specific: pt-BR word-end structure (predominantemente vocálica) differs structurally from English (predominantemente consonantal).** §A.13.34 locale-canonical-curriculum-divergence sub-class applies — sparse-override locked per Phase 1.1 precedent.
+
+targetSlug: isolate-final-phoneme
+language: pt
+
+title:
+  pt: "Últimos Sons — com que som a palavra TERMINA?"
+
+description:
+  pt: "Pacote de alfabetização para a educação infantil brasileira (5-7 anos) ensinando crianças a isolar o FONEMA FINAL (último som) em palavras CVC faladas. Extensão direta de isolate-initial-phoneme (Phase 1.1 Slot 3; ✓ ENVIADO) para a posição final da palavra. O strand de phonological-awareness avança 4/9 → 5/9 (pair-coherent com Slots 3+4 avançando 5/9 → 7/9). Habilidade fundamental de consciência fonológica: as crianças ouvem 'gato' e identificam o último som como /u/ (vogal final aberta em pt-BR), ouvem 'pão' e identificam /ãw̃/ (vogal nasal final), ouvem 'sol' e identificam /l/ (consoante final). Por §A.13.30 enquadramento informal K-1: trabalho de isolamento de fonema-final no K é RECONHECIMENTO CONCRETO DE SOM na posição final-de-palavra — as crianças ouvem uma palavra, desaceleram, nomeiam o último som, combinam com uma imagem ou letra de som-final. **Pedagogia de consciência fonológica é locale-específica: este pacote usa o inventário fonêmico pt-BR per BR-MEC framework + estrutura silábica final-de-palavra pt-BR (predominantemente vogal-aberta + nasais), NÃO mapeamento de fonema final inglês (predominantemente consonantal).** Alinhamento BNCC: EF01LP05 (reconhecimento do princípio acrofônico — sistema alfabético) + EF01LP06 (consciência fonológica). 5 exercícios + 8 materiais imprimíveis ao longo de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Atividade do-último-som com toda a turma. Você diz uma
+      palavra devagar, com ÊNFASE EXTRA no som final: "G-a-T-O.
+      Com que som GATO TERMINA?" A turma: /u/! Você escreve a
+      letra O + uma imagem de gato no quadro. "Sim — GATO termina
+      com o som /u/ (que escrevemos com a letra O em português)."
+      Repete com: "P-ã-O. Último som?" A turma: /ãw̃/ (som nasal)!
+      "S-o-L. Último som?" /l/! "M-ã-O. Último som?" /ãw̃/!
+      Ênfase do padrão: "Toda palavra TERMINA com um som também
+      — não apenas começa. O último som é o SOM FINAL. Podemos
+      ouvi-lo se dizemos a palavra devagar + escutamos a PARTE
+      FINAL." Enquadramento pedagógico crítico — emoldure a
+      palavra: "Na semana passada aprendemos o PRIMEIRO som.
+      Esta semana estamos aprendendo o ÚLTIMO som. GATO começa
+      com /g/ + termina com /u/. O som do meio /a/ aprenderemos
+      na próxima vez. Os primeiros + últimos sons EMOLDURAM a
+      palavra."
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de reconhecimento-do-último-
+      som. Cada dupla recebe 8 cartões-de-imagem + 4 cartões-
+      letra. A dupla se reveza: a criança A nomeia uma imagem
+      (gato); a criança B identifica o último som (/u/) + coloca
+      a imagem sob o cartão-letra correspondente (O). Repete com
+      pato, rato, sapato todos indo sob O (agrupamento de
+      família-de-rima: crianças notam que palavras que compartilham
+      um som final também rimam — esta é a ponte do isolamento-de-
+      fonema-final de volta ao trabalho de rima). Movimento
+      pedagógico crítico: PRONÚNCIA-LENTA com ênfase extra no
+      som final. Crianças K frequentemente ouvem a VOGAL tônica
+      claramente + perdem a CONSOANTE final não-tônica. Em pt-BR
+      a maioria das palavras CVC termina em vogal, então o
+      desafio é o INVERSO: crianças podem perder a NASALIZAÇÃO
+      final (-ão, -em, -im) e identificar apenas a vogal oral
+      subjacente. Recapture erros com ênfase-de-nasalização
+      ("você disse que PÃO termina com /a/ — vamos dizer
+      devagar com ênfase no fim: P-ã-OOOO. Qual é o som FINAL?
+      /ãw̃/, o som nasal no fim. /a/ é o som do MEIO de PÃO."
+      Algumas crianças podem se beneficiar de tampar a orelha
+      com a mão para focar o fim da palavra. Construa fluência
+      de fonema-final primeiro com sons finais de consoante-única
+      + vogais simples; adie nasalizações complexas (-ão, -em,
+      -em) para trabalho posterior de consciência fonológica.
+  scaffold:
+    body: |
+      Rotação por estações. Estação 1: folha de emparelhamento
+      (imagem → letra-final; as crianças combinam imagens à
+      letra que representa seu último som). Estação 2: folha
+      word-guess (as crianças preenchem a letra-final faltante
+      do nome de uma imagem). Estação 3: folha picture-sort (as
+      crianças classificam imagens em grupos por som-final —
+      agrupamento de família-de-rima surge naturalmente).
+      Estação 4: folha word-scramble (as crianças desembaralham
+      palavras CVC simples; reforça mapeamento som-letra ao
+      nível-de-palavra incluindo a posição-de-letra-final).
+  closure:
+    body: |
+      Recapitulação rápida do-último-som com toda a turma. Você
+      nomeia uma palavra; a turma grita o último som. "Sol!" /l/!
+      "Mãe!" /ɛ̃/! "Pé!" /ɛ/! "Cão!" /ãw̃/! Você encerra: "Toda
+      palavra tem um primeiro som E um último som. Ouvir o
+      ÚLTIMO som é o SEGUNDO passo na leitura — o primeiro passo
+      foi isolamento de primeiro-som na semana passada. A seguir
+      aprenderemos o som DO MEIO — a vogal entre o primeiro e
+      o último. Três sons em palavras CVC: primeiro, meio, último.
+      Aprendemos primeiro + último; o meio vem a seguir."
+
+assessmentCriteria:
+  pt: |
+    Ao fim da unidade de 1 semana:
+      - Isolar o fonema final de uma palavra CVC falada em 7 de
+        10 tentativas.
+      - Combinar uma palavra CVC ilustrada à sua letra-de-som-
+        final em 7 de 10 tentativas.
+      - Classificar 12 imagens em grupos de último-som (3-4
+        grupos) corretamente em 6 de 10 tentativas.
+      - Usar o vocabulário 'último som' / 'som final' / 'som do
+        fim' corretamente em 5 de 10 tentativas de produção
+        verbal.
+      - Identificar AMBOS os fonemas inicial E final de uma
+        palavra CVC (tarefa de emoldurar-a-palavra) em 5 de 8
+        tentativas.
+
+    Diferenciação:
+    - Pré-escola: foco em rima + sílaba + fonema-inicial primeiro;
+      adiar isolamento de fonema-final para o K.
+    - Educação infantil (5-7 anos): isolamento de fonema-final de
+      consoante/vogal-única + emparelhamento imagem-para-letra;
+      nasalizações complexas adiadas.
+    - 1.º ano EF: estender para nasalizações (-ão, -em, -im) +
+      isolamento de vogal-mediana; ponte para segmentação-de-
+      fonema CVC completa + decodificação de família-de-palavras
+      (-ato, -ola, -ão, -or em pt-BR).
+    - 2.º ano EF em diante: avaliações formais de consciência
+      fonêmica + ponte para decodificação fônica sistemática
+      através de famílias-de-rima pt-BR.
+
+compositionalRationale:
+  pt: |
+    Adaptação locale-específica do pacote canônico (en). Os
+    campos materials, composedExercises, curriculumStandards
+    e learningObjectives são herdados do package.yaml via
+    merge sparse-override e não são repetidos aqui per a
+    convenção Arc 7+.
+
+    **NOTA LOCALE-CRÍTICA: estrutura silábica final-de-palavra
+    pt-BR difere estruturalmente do inglês.** Padrões de
+    fonema-final em português brasileiro:
+    - **Terminação vocálica dominante:** a maioria das palavras
+      CVC pt-BR termina em VOGAL (gato /u/, pato /u/, mesa /a/,
+      casa /a/). Inglês CVC termina predominantemente em
+      consoante (cat /t/, dog /g/, sun /n/). Este é um
+      contraste estrutural significativo entre os dois inventários
+      fonêmicos.
+    - **Vogais nasais finais:** pt-BR tem terminações nasais
+      ricas (-ão /ãw̃/, -em /ẽj̃/, -im /ĩ/, -om /õ/, -um /ũ/)
+      que não têm equivalente em inglês. Crianças pt-BR K-1
+      devem aprender a perceber + nomear nasalização-final
+      como categoria fonêmica distinta.
+    - **Consoantes finais permitidas:** pt-BR permite /s/ /l/
+      /r/ /m/ /n/ como consoantes finais em sílabas tônicas
+      (sol, lar, mar, par). Outras consoantes finais (/t/ /d/
+      /k/ /p/) são raras em pt-BR + tipicamente trazem epêntese
+      vocálica /i/ ("club" → "clube" /klubi/). Este pacote
+      foca nas consoantes finais canônicas pt-BR.
+    - **Sílaba tônica final-de-palavra:** pt-BR tem acento
+      lexical variável (oxítona / paroxítona / proparoxítona).
+      O fonema-final em palavra paroxítona típica (gato) é
+      a vogal átona pós-tônica; em palavra oxítona (mamão)
+      é a vogal nasal tônica. Crianças K-1 podem distinguir
+      por intuição prosódica antes de teoria formal.
+
+    Famílias-de-fonema-final pt-BR canônicas K-1 EF:
+    - vogal /a/ final: gata, mesa, casa, vaca
+    - vogal /u/ final: gato, pato, rato, sapato (representado
+      por <o> em ortografia pt-BR)
+    - vogal /i/ final: peixe, hoje, leite, sorte (representado
+      por <e> em ortografia pt-BR)
+    - nasal /ãw̃/ final: pão, cão, chão, mão
+    - consoante /l/ final: sol, mal, anzol, sandal
+    - consoante /r/ final: lar, mar, par, suor
+    - consoante /s/ final: dois, três, mais (raro em palavras
+      monossilábicas mas existente)
+
+    Vocabulário pt-BR canônico para isolamento de fonema-final
+    K-1:
+    - 'último som' (last sound) — pt-BR canônico
+    - 'som final' (final sound) — pt-BR canônico um pouco mais
+      formal
+    - 'som do fim' (ending sound) — variante coloquial K-1
+    - 'fonema final' (final phoneme) — pt-BR canônico técnico;
+      introduzido apenas se a turma adquiriu o vocabulário formal
+    - 'rima' (rhyme) — termo de consciência-fonológica para
+      sons-finais correspondentes (re-introdução do trabalho
+      Arc 10 identify-rhyming-pairs)
+    - Frases-modelo K-1: "A palavra X termina com o som Y..." /
+      "O último som de X é Y..." / "Eu ouço Y no fim..."
+
+    Particularidade pt-BR para distinção vogal-final-átona:
+    Português-BR K-1 EF tem desafio pedagógico distinto na
+    distinção vogal-final-átona porque algumas vogais finais
+    têm pronúncia muito reduzida em registro coloquial
+    (ex.: gato pode ser pronunciado [gatu] ou [gat] em
+    fala rápida). Este pacote ensina a vogal-final em
+    PRONÚNCIA-LENTA-CITAÇÃO (forma de aula) — a forma reduzida
+    coloquial não é trabalho de K-1 EF.
+
+    Alinhamento BNCC (Base Nacional Comum Curricular):
+    EF01LP05 ('Reconhecer o sistema de escrita alfabética como
+    representação dos sons da fala') é o anchor BNCC do 1.º
+    ano EF para o princípio acrofônico (palavras são feitas
+    de sons; letras representam sons). EF01LP06 ('Segmentar
+    oralmente palavras em sílabas') estabelece consciência
+    silábica adjacente. EF01LP08 ('Relacionar elementos sonoros
+    — sílabas, fonemas, partes de palavras — com sua
+    representação escrita') é o anchor mais direto para
+    isolamento-de-fonema-final. Este pacote opera no espaço
+    EF01LP08 entre consciência silábica + decodificação
+    sistemática.
+
+    Currículo brasileiro K-1 EF para consciência fonológica
+    fonema-final:
+    A BNCC brasileira EF Língua Portuguesa Anos Iniciais 1.º
+    ano EF estabelece a consciência fonológica como competência
+    fundacional para a alfabetização. O 'método fônico' brasileiro
+    integra isolamento de fonema-inicial + fonema-final como
+    par-coerente em pedagogia sintética (sons-para-letras
+    explícito). Este pacote alinha com essa abordagem.
+
+    Por §A.13.30 enquadramento informal K-1: este pacote NÃO
+    ensina vocabulário formal de fonética (transcrição IPA;
+    classificação de articulação; sonoridade são trabalho
+    pós-3.º ano EF). A ênfase do K é reconhecimento-de-som-
+    concreto na posição final-de-palavra.
+
+    Pacote pair-coherent com Phase 1.2 Slot 3 isolate-medial-
+    phoneme + Phase 1.2 Slot 4 blend-phonemes-cvc + Phase 1.1
+    Slot 3 isolate-initial-phoneme (já enviado): juntos
+    avançam o strand phonological-awareness 4/9 → 7/9 (77.8%).
+    O cluster de isolamento-de-3-posições (inicial / final /
+    mediana) completa quando Slot 3 envia.
+
+    **§A.13.34 sub-class adjudication — locale-canonical-
+    curriculum-divergence:**
+    Phonological-awareness pedagogy has structural divergence
+    between English + pt-BR (English consonant-final-dominance
+    rhyme + CVC phoneme inventory vs pt-BR vowel-ending-
+    dominance + nasal-vowel rhyme + 7 oral + 5 nasal vowel
+    phonemes). This is a canonical §A.13.34 locale-canonical-
+    curriculum-divergence case. SPARSE-OVERRIDE locked for
+    current commission per minimal-amendment principle
+    (structure body + assessmentCriteria + compositionalRationale.pt
+    carry pt-BR-specific pedagogical content; materials +
+    composedExercises pedagogically translate cleanly across
+    locale-divergence). FULL-OVERRIDE flagged as future-arc
+    candidate when Phase 1.3 phonological-awareness continuation
+    surfaces additional locale-divergence patterns warranting
+    full re-authoring of materials + composedExercises against
+    pt-BR canonical pedagogy.
+
+    Per §A.13.36 cadência de cooperação CC↔assistant: o
+    pacote pt herda materials, composedExercises,
+    curriculumStandards via sparse-override per convenção
+    Arc 7+; quaisquer emendas en (se Round 2 surgir) se
+    propagam automaticamente para esta variante pt.

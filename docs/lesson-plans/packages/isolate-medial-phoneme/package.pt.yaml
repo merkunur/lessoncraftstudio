@@ -1,0 +1,264 @@
+# Teaching package — isolate medial phoneme (pt sparse-override)
+# Arc 19 Phase 1.2 Slot 3 (24th-consecutive arc pt cadence per Arc 7+ convention; pt cadence increments per-arc, not per-package; all 4 Phase 1.2 pt variants share the same Arc-19 cadence anchor). BR-MEC ensino-fundamental register; formal "você" address throughout. BNCC alignment: EF01LP05 (reconhecimento do princípio acrofônico) + EF01LP06 (consciência fonológica). **Phonological-awareness pedagogy is locale-specific — medial-vowel pedagogy especially so. pt-BR has 7 oral vowels + 5 nasal vowels vs English 5 short vowels — structural vowel-inventory divergence.** §A.13.34 locale-canonical-curriculum-divergence sub-class applies — sparse-override locked per Phase 1.1 precedent; FULL-OVERRIDE flagged as future-arc candidate because vowel-inventory divergence is most pedagogically significant of the 3 phoneme-isolation positions.
+
+targetSlug: isolate-medial-phoneme
+language: pt
+
+title:
+  pt: "Sons do Meio — qual é a vogal NO MEIO da palavra?"
+
+description:
+  pt: "Pacote de alfabetização para a educação infantil brasileira (5-7 anos) / 1.º ano do ensino fundamental, ensinando crianças a isolar o FONEMA MEDIAL VOCÁLICO (som do meio) em palavras CVC faladas. Completa o cluster de isolamento-de-fonema em 3 posições: inicial (Phase 1.1 Slot 3) + final (Phase 1.2 Slot 2) + medial (este pacote). O strand de phonological-awareness avança 5/9 → 6/9. Por learning-targets.json linha 39 pré-requisitos: isolate-initial-phoneme (Phase 1.1 ✓ ENVIADO) + isolate-final-phoneme (Phase 1.2 Slot 2; envia simultaneamente nesta comissão). MAIS COGNITIVAMENTE EXIGENTE das 3 posições de isolamento-de-fonema porque a vogal medial é a menos perceptualmente saliente das três posições — as crianças percebem mais facilmente o início-da-palavra (primeiro-atendido) + o fim-da-palavra (último-ouvido); a vogal-do-meio fica entre as duas. **Pedagogia de consciência fonológica MEDIAL é altamente locale-específica: pt-BR tem inventário vocálico estruturalmente diferente do inglês (7 vogais orais + 5 vogais nasais = 12 fonemas vocálicos vs inglês 5 vogais curtas). Este pacote usa inventário pt-BR per BR-MEC framework, NÃO 5-vogais-inglês mapping.** Por §A.13.30 enquadramento informal K-1: trabalho de isolamento-vocálico-medial é DISCRIMINAÇÃO VOCÁLICA CONCRETA via contrastes-de-par-mínimo (gato/gota/gata diferem APENAS na vogal medial; crianças ouvem todas três + nomeiam a vogal medial de cada). Alinhamento BNCC: EF01LP05 (reconhecimento do princípio acrofônico — sistema alfabético) + EF01LP06 (consciência fonológica). 5 exercícios + 8 materiais imprimíveis ao longo de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Atividade vocal-do-meio com toda a turma. Você escreve 3
+      palavras CVC no quadro compartilhando o mesmo enquadramento
+      consonantal mas vogais diferentes: GATO — GOTA — GATA.
+      "Essas três palavras têm o MESMO primeiro som /g/ + o MESMO
+      último som /a/ ou /u/. O que é DIFERENTE?" A turma
+      identifica: o som do meio. Você pronuncia devagar cada uma,
+      ALONGANDO EXTRA a vogal medial: "G-AAA-T-O. O som do meio
+      de GATO é /a/." "G-OOO-T-A. O som do meio de GOTA é /o/."
+      "G-AAA-T-A. O som do meio de GATA é /a/." Repete com outro
+      conjunto de par-mínimo: PATO — POTE — PETE. Ênfase do
+      padrão: "Toda palavra CVC tem uma vogal NO MEIO. A vogal
+      do meio é o SOM VOCÁLICO ENTRE as primeiras + últimas
+      consoantes. Aprendemos o meio ouvindo ENTRE o início e
+      o fim." Enquadramento pedagógico crítico — contraste de
+      par mínimo: "Quando 3 palavras têm o mesmo primeiro som E
+      o mesmo último som, a ÚNICA diferença é a vogal do meio.
+      Ouçam com MUITA atenção o meio para distingui-las."
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de discriminação vogal-do-meio.
+      Cada dupla recebe 8 cartões-de-imagem organizados em
+      conjuntos de pares-mínimos (gato/gota/gata; pato/pote/peto;
+      casa/cosa/coxa) + 7 cartões-letra para as 7 vogais orais
+      pt-BR (A /a/, E /e/ e /ɛ/, I /i/, O /o/ e /ɔ/, U /u/). A
+      dupla se reveza: a criança A escolhe um cartão; a criança
+      B diz a palavra devagar, isola a vogal medial + coloca a
+      imagem sob o cartão-vogal correspondente. Movimento
+      pedagógico crítico: ALONGUE a vogal medial durante
+      pronúncia-lenta. Crianças K-1 frequentemente percebem a
+      vogal medial como uma transição breve + perdem sua
+      qualidade distinta. Recapture erros com alongamento-vocálico
+      ("você disse que o meio de GATO é /e/ — vamos alongar:
+      g-AAAAA-t-o. Isso é /a/ como em ÁRVORE, não /e/ como em
+      ELEFANTE. O som /e/ é diferente — escute: g-EEEEE-t-o
+      seria uma palavra diferente."). Use imagens-âncora para
+      tornar os sons vocálicos memoráveis: /a/ como em ÁRVORE,
+      /e/ como em ELEFANTE, /ɛ/ como em ESCOLA, /i/ como em
+      IGREJA, /o/ como em OLHO, /ɔ/ como em OVO, /u/ como em
+      ULTRA. Algumas crianças se beneficiam de imitação de
+      forma-de-boca ("olhem minha boca: para /a/ a boca abre
+      bem; para /o/ faz um formato redondo; para /u/ empurra
+      para frente"). Construa fluência de discriminação-vocálica
+      progressivamente com pares de alto contraste primeiro
+      (gato/gota — /a/ vs /o/ são perceptualmente distantes);
+      adie pares de alta-similaridade (pato/peto — /a/ vs /e/
+      são perceptualmente próximos) para trabalho posterior.
+      **NOTA pt-BR: este pacote NÃO trabalha vogais nasais
+      mediais (são tipicamente trabalho de fonema-final em pt-
+      BR via -ão / -em / -im). Vogais orais 7 são o foco
+      K-1.**
+  scaffold:
+    body: |
+      Rotação por estações. Estação 1: folha de emparelhamento
+      (imagem → letra-vogal-do-meio; as crianças combinam
+      imagens à letra-vogal que representa seu som do meio).
+      Estação 2: folha word-guess (as crianças preenchem a
+      letra DO MEIO faltante do nome de uma imagem — a maioria
+      são vogais). Estação 3: folha picture-sort (as crianças
+      classificam imagens em grupos por vogal-do-meio — 5-7
+      categorias para as 7 vogais orais OR 2 categorias para
+      pares de alto contraste). Estação 4: folha word-scramble
+      (as crianças desembaralham palavras CVC simples; reforça
+      mapeamento som-letra na posição-vogal-do-meio que é a
+      posição mais difícil de adquirir em termos de ortografia).
+  closure:
+    body: |
+      Celebração CLUSTER-COMPLETION + recapitulação rápida de
+      vogal-do-meio com toda a turma. Você nomeia uma palavra;
+      a turma grita a vogal do meio. "Gato!" /a/! "Bicho!" /i/!
+      "Foca!" /ɔ/! "Sol!" /ɔ/! "Pé!" /ɛ/! Você então anuncia o
+      CLUSTER-COMPLETION: "Hoje terminamos de aprender todas as
+      TRÊS posições de fonema! Primeiro som (Phase 1.1 Slot 3
+      isolate-initial-phoneme), último som (Phase 1.2 Slot 2
+      isolate-final-phoneme), e agora o som DO MEIO. Palavras
+      CVC têm 3 sons: primeiro + meio + último. Podemos ouvir
+      todos os três. Isso se chama CONSCIÊNCIA FONÊMICA — ser
+      capaz de ouvir cada som em uma palavra." Aponte adiante:
+      "A seguir vamos JUNTAR os sons (síntese: /g/ + /a/ + /t/
+      + /u/ = gato) e SEPARAR palavras (segmentação: gato =
+      /g/ + /a/ + /t/ + /u/). Síntese é Phase 1.2 Slot 4
+      blend-phonemes-cvc; aprendemos isso esta semana também.
+      Depois vem segmentação-de-fonema."
+
+assessmentCriteria:
+  pt: |
+    Ao fim da unidade de 1 semana:
+      - Isolar a vogal medial de uma palavra CVC falada em 7
+        de 10 tentativas.
+      - Combinar uma palavra CVC ilustrada à sua letra-vogal-
+        do-meio em 7 de 10 tentativas.
+      - Classificar 12 imagens em grupos de vogal-do-meio (3-7
+        grupos para as 7 vogais orais) corretamente em 6 de
+        10 tentativas.
+      - Discriminar pares-mínimos de alto contraste (gato/gota,
+        pato/poto) em 7 de 10 tentativas.
+      - Discriminar pares-mínimos de alta-similaridade (peto/
+        pito, casa/cosa) em 5 de 10 tentativas (extensão).
+      - Usar o vocabulário 'som do meio' / 'vogal do meio' /
+        'vogal medial' corretamente em 5 de 10 tentativas de
+        produção verbal.
+      - Identificar TODOS OS TRÊS fonemas de uma palavra CVC
+        (inicial + medial + final) em 5 de 8 tentativas.
+
+    Diferenciação:
+    - Pré-escola: foco em rima + sílaba + fonema-inicial; adiar
+      isolamento de vogal-medial para o K-1.
+    - Educação infantil (5-7 anos): trabalho de par-mínimo de
+      alto contraste apenas (gato/gota/gota com vogais de
+      máxima distância); adiar pares de alta-similaridade para
+      o 1.º ano EF.
+    - 1.º ano EF: isolamento medial completo de 7 vogais orais
+      incluindo pares de alta-similaridade; ponte para
+      decodificação por substituição-vocálica + trabalho de
+      família-de-palavras (-ato, -ota, -ita pt-BR).
+    - 2.º ano EF em diante: estender para vogais nasais
+      mediais raras + ditongos; ponte para decodificação
+      fônica sistemática.
+
+compositionalRationale:
+  pt: |
+    Adaptação locale-específica do pacote canônico (en). Os
+    campos materials, composedExercises, curriculumStandards
+    e learningObjectives são herdados do package.yaml via
+    merge sparse-override e não são repetidos aqui per a
+    convenção Arc 7+.
+
+    **NOTA LOCALE-CRÍTICA: inventário vocálico pt-BR difere
+    ESTRUTURALMENTE do inglês — esta é a divergência locale-
+    canônica mais significativa do cluster de isolamento-de-
+    fonema.** Inventários vocálicos pt-BR canônicos K-1:
+    - **7 vogais orais:** /a/ (árvore, gato), /e/ (mesa, pelo),
+      /ɛ/ (escola, pé), /i/ (igreja, fila), /o/ (olho, povo),
+      /ɔ/ (ovo, sol), /u/ (ultra, gato_final). Note que em
+      pt-BR ortográfico, a letra E representa /e/ ou /ɛ/, e a
+      letra O representa /o/ ou /ɔ/ dependendo de contexto
+      tônico-vs-átono + posição.
+    - **5 vogais nasais:** /ã/ (cantar), /ẽ/ (sentir), /ĩ/
+      (mim), /õ/ (bombom), /ũ/ (atum). Vogais nasais são
+      tipicamente FINAIS em pt-BR (não mediais); este pacote
+      NÃO inclui vogais nasais mediais (trabalho de fonema-
+      final).
+    - **Total: 12 fonemas vocálicos pt-BR vs 5 vogais curtas
+      inglês** — divergência estrutural significativa.
+
+    Famílias-de-vogal-medial pt-BR canônicas K-1 EF:
+    - /a/ medial: gato, pato, sapo, casa, vaca
+    - /e/ medial: mesa, pelo, dedo, medo
+    - /ɛ/ medial: festa, dela, ela (em sílaba aberta tônica)
+    - /i/ medial: bicho, peixe, leite
+    - /o/ medial: olho, povo, bolo
+    - /ɔ/ medial: avó, foca, sol (em sílaba aberta tônica)
+    - /u/ medial: rua, lua, suor (parcialmente medial em CV
+      monossilábico)
+
+    Vocabulário pt-BR canônico para isolamento de vogal-medial
+    K-1:
+    - 'som do meio' (middle sound) — pt-BR canônico K-1
+    - 'vogal do meio' (middle vowel) — pt-BR canônico
+    - 'vogal medial' (medial vowel) — pt-BR canônico técnico;
+      introduzido apenas se a turma adquiriu o vocabulário
+      formal
+    - 'vogal' (vowel) — pt-BR canônico
+    - 'consoante' (consonant) — pt-BR canônico
+    - 'vogal aberta' / 'vogal fechada' (open vowel / close
+      vowel) — distinção pt-BR EF para /ɛ/ vs /e/ + /ɔ/ vs
+      /o/ (introdução pode ser deferida ao 2.º ano EF)
+    - Frases-modelo K-1: "A vogal do meio de GATO é /a/." /
+      "Eu ouço /a/ no meio de GATO." / "GATO e PATO têm a
+      mesma vogal do meio."
+
+    Particularidade pt-BR para abertura-vocálica:
+    Português-BR K-1 EF tem distinção fonêmica entre /e/ vs
+    /ɛ/ + /o/ vs /ɔ/ (distinção de abertura vocálica) que
+    inglês não tem como contraste fonêmico (inglês tem
+    /e/ em pen + /ɛ/ em pet — sons distintos mas mesma vogal
+    fonemicamente). Este pacote ensina a distinção
+    pedagogicamente em SÍLABA TÔNICA (a posição onde a
+    distinção é audível) sem terminologia formal de
+    abertura-vocálica.
+
+    Alinhamento BNCC (Base Nacional Comum Curricular):
+    EF01LP05 + EF01LP06 são os anchors BNCC do 1.º ano EF
+    para consciência fonológica de vogal-medial. EF01LP08
+    ('Relacionar elementos sonoros — sílabas, fonemas, partes
+    de palavras — com sua representação escrita') estabelece
+    a ponte fonema-grafema para vogais que este pacote
+    operacionaliza. EF02LP02 ('Segmentar palavras em sílabas
+    e remover e substituir sílabas iniciais, mediais ou finais
+    para criar novas palavras') é o anchor do 2.º ano EF para
+    o trabalho de substituição-medial que este pacote prepara.
+
+    Currículo brasileiro K-1 EF para consciência fonológica
+    vogal-medial:
+    A BNCC brasileira EF Língua Portuguesa Anos Iniciais 1.º
+    ano EF estabelece a consciência fonológica como competência
+    fundacional para a alfabetização. O 'método fônico'
+    brasileiro integra isolamento de vogais-mediais como
+    par-coerente com trabalho de substituição-vocálica para
+    decodificação por família-de-palavras. Este pacote alinha
+    com essa abordagem.
+
+    Por §A.13.30 enquadramento informal K-1: este pacote NÃO
+    ensina vocabulário formal de fonética articulatória
+    (transcrição IPA; classificação de altura/anterioridade
+    vocálica; abertura formal são trabalho do 2.º-3.º ano EF
+    em diante). A ênfase do K é discriminação-vocálica
+    concreta via contrastes-de-par-mínimo.
+
+    Pacote pair-coherent com Phase 1.2 Slot 2 isolate-final-
+    phoneme + Phase 1.2 Slot 4 blend-phonemes-cvc + Phase 1.1
+    Slot 3 isolate-initial-phoneme (já enviado): juntos
+    completam o cluster de isolamento-de-fonema em 3 posições
+    + avançam o strand phonological-awareness 4/9 → 7/9
+    (77.8%).
+
+    **§A.13.34 sub-class adjudication — locale-canonical-
+    curriculum-divergence:**
+    Phonological-awareness pedagogy has structural divergence
+    between English + pt-BR (English consonant-final-dominance
+    rhyme + CVC phoneme inventory vs pt-BR vowel-ending-
+    dominance + nasal-vowel rhyme + 7 oral + 5 nasal vowel
+    phonemes). **For medial-vowel pedagogy specifically the
+    divergence is most pedagogically significant: pt-BR's
+    12-phoneme vowel inventory (7 oral + 5 nasal) vs English
+    5 short vowels = structural mismatch at the level of
+    canonical vowel-target enumeration.** This is a canonical
+    §A.13.34 locale-canonical-curriculum-divergence case.
+    SPARSE-OVERRIDE locked for current commission per
+    minimal-amendment principle (structure body +
+    assessmentCriteria + compositionalRationale.pt carry pt-
+    BR-specific pedagogical content including pt-BR vowel-
+    inventory enumeration; materials + composedExercises
+    pedagogically translate cleanly across locale-divergence
+    because the underlying app surfaces — matching / word-
+    guess / picture-sort / word-scramble — are locale-portable
+    at the mechanic level even when the canonical vowel
+    targets diverge structurally). **FULL-OVERRIDE strongly
+    flagged as future-arc candidate** when Phase 1.3
+    phonological-awareness continuation OR a dedicated
+    pt-BR-vowel-pedagogy commission justifies full re-
+    authoring of materials + composedExercises against pt-BR
+    canonical pedagogy (12-vowel-inventory + open-close
+    distinction + nasal-vowel handling).
+
+    Per §A.13.36 cadência de cooperação CC↔assistant: o
+    pacote pt herda materials, composedExercises,
+    curriculumStandards via sparse-override per convenção
+    Arc 7+; quaisquer emendas en (se Round 2 surgir) se
+    propagam automaticamente para esta variante pt.

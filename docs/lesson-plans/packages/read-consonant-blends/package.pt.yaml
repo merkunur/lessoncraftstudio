@@ -1,0 +1,318 @@
+# Teaching package — read words with consonant blends (pt sparse-override)
+# Arc 19 Phase 1.3 Slot 3 (24th-consecutive arc pt cadence per Arc 7+ convention; pt cadence increments per-arc, not per-package; all 4 Phase 1.3 pt variants share the same Arc-19 cadence anchor). BR-MEC ensino-fundamental register; formal "você" address throughout. BNCC alignment: EF01LP08 (relação fonema-grafema) + EF02LP01 (encontros consonantais). **pt-BR encontros consonantais introduction timing differs structurally from English. pt-BR permits onset clusters (pr-, br-, tr-, cl-, fl-) but NO coda clusters (pt-BR is open-syllable dominant). Pedagogical introduction at 1.º-2.º ano EF post-CV/CVC mastery per BR-MEC framework.** §A.13.34 locale-canonical-curriculum-divergence sub-class applies — sparse-override locked per Phase 1.1+1.2 precedent.
+
+targetSlug: read-consonant-blends
+language: pt
+
+title:
+  pt: "Ler Palavras com Encontros Consonantais — soltando consoantes juntas"
+
+description:
+  pt: "Pacote de alfabetização para o 1.º ano do ensino fundamental brasileiro ensinando crianças a LER palavras impressas contendo encontros consonantais (PRATO, BRAVO, TRÊS, CRAVO, FLOR, CLUBE) sons-letrando cada letra individualmente + combinando suavemente o encontro consonantal. O strand de phonics-decoding avança 2/11 → 3/11. Por learning-targets.json linha 64 pré-requisito: read-cvc-words (Arc 6 P1 ✓ ENVIADO). Encontros canônicos pt-BR K-1 EF: encontros perfeitos com /r/ (pr-, br-, tr-, dr-, kr-, gr-, fr-, vr-) + encontros perfeitos com /l/ (pl-, bl-, tl-, kl-, gl-, fl-) + encontros imperfeitos (sons separados em sílabas diferentes: ad-vo-ga-do = ad/vo/ga/do; not present in K-1 work). **NOTA pt-BR ESTRUTURAL CRÍTICA: pt-BR permite encontros consonantais NO INÍCIO de sílaba mas NÃO permite encontros consonantais NO FIM de sílaba (pt-BR é open-syllable-dominant). Em inglês, palavras como JUMP, NEST, MILK têm encontros consonantais finais (-mp, -st, -lk); essas estruturas NÃO existem em pt-BR canônico K-1. Este pacote foca exclusivamente em encontros consonantais INICIAIS canônicos pt-BR.** Por §A.13.30 enquadramento informal K-1: trabalho de leitura de encontro consonantal no 1.º ano EF é DECODIFICAÇÃO CONCRETA DE PALAVRA-ESCRITA — a criança vê PRATO impresso, sons-letra cada letra /p/-/r/-/a/-/t/-/u/, combina suavemente o encontro consonantal /pr/ para ler 'prato'. NÃO é teoria formal de fonotática (hierarquia de sonoridade + restrições de cluster consonantal são trabalho de pesquisa pós-graduada). Alinhamento BNCC: EF01LP08 (relação fonema-grafema) + EF02LP01 (encontros consonantais). 5 exercícios + 8 materiais imprimíveis ao longo de 1 semana."
+
+structure:
+  warmup:
+    body: |
+      Atividade encontro-consonantal com toda a turma + sons-
+      letrar modelagem. Você escreve PRATO no quadro. "Essa
+      palavra tem 5 letras: P-R-A-T-O. Escutem enquanto eu
+      sons-letro letra por letra: /p/-/r/-/a/-/t/-/u/. O /p/ e
+      o /r/ vêm juntos no começo — isso é um ENCONTRO
+      CONSONANTAL. Cada consoante mantém seu próprio som —
+      diferente de dígrafos onde 2 letras fazem 1 som novo.
+      Em encontros consonantais, ouvimos CADA som, mas eles
+      deslizam juntos. Veja como o encontro soa junto: /pr-a-
+      t-u/. Agora suave: PRATO!" Você repete com BRAVO /br-
+      a-v-u/, TRÊS /tr-e-s/, FLOR /fl-o-r/. Ênfase do padrão:
+      "Um ENCONTRO CONSONANTAL é 2 consoantes que vêm juntas
+      em uma palavra. Cada consoante mantém seu próprio som
+      — isso é diferente de dígrafos onde 2 letras fazem 1
+      som novo. Em encontros, ouvimos CADA som, mas eles
+      deslizam juntos. Sons-letra cada letra, depois deslize
+      eles suaves." Enquadramento pedagógico crítico:
+      "Encontros consonantais parecem difíceis mas são apenas
+      2 sons grudados juntos. Se você consegue ler RATO, você
+      consegue ler PRATO. Apenas adicione o /p/ no começo.
+      RATO → PRATO. Adicionando uma letra, adicionando um
+      som." **Nota pt-BR especial: a inserção de schwa
+      ([pi]rato em vez de prato) é um padrão comum de
+      hipercorreção pt-BR; este pacote especificamente
+      treina contra ele via modelagem rápida-de-encontro.**
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de decodificação som-
+      combinação. Cada dupla recebe 8 cartões-de-imagem com
+      palavras de encontro consonantal (prato, bravo, três,
+      cravo, flor, clube, grama, drama) + ladrilhos-de-letra.
+      A dupla se reveza: a criança A lê um cartão-de-palavra
+      em voz alta sons-letrando cada letra + combinando; a
+      criança B verifica contra a imagem. Técnica pedagógica
+      crítica: SONS-LETRAR-DEPOIS-DESLIZAR. Primeiro, a
+      criança sons-letra cada letra individualmente com
+      breve pausa (/p/-/r/-/a/-/t/-/u/). Depois, a criança
+      diz suave (/pr-a-t-u/). Então, a palavra emerge (PRATO).
+      Decodificação de 3 passos: isolar → combinar → ler.
+      Recapture erros com re-modelagem: ("você leu PRATO
+      como /pi-ra-to/ — você adicionou uma vogal /i/ entre
+      /p/ e /r/. Esse é o erro de schwa-pt-BR — deixar uma
+      vogal escapar entre as consoantes do encontro. Vamos
+      tentar mais rápido: /pr-a-t-u/. PRATO! Sem vogal entre
+      /p/ e /r/, eles deslizam suaves."). Padrões comuns de
+      erro: (a) inserção de schwa entre consoantes do
+      encontro (PRATO lido como /pi-ra-to/; hipercorreção
+      pt-BR clássica; recapture com modelagem rápida-de-
+      encontro); (b) descartar uma consoante do encontro
+      (FLOR lido como /lor/ — criança pulou o /f/; recapture
+      com indicação-de-letra); (c) confundir encontro com
+      dígrafo (CHAVE /ʃ-a-v-i/ é dígrafo + vogal +
+      consoante + vogal — /ʃ/ é UM som não 2; este pacote
+      foca em encontros, adia dígrafos para read-consonant-
+      digraphs Phase 1.4 candidato). Extensão opcional:
+      trabalho de família-de-palavras com mesma rima +
+      onset-de-encontro variando (-ATO família: rato →
+      prato → mato; -OR família: dor → flor → cor).
+      Crianças que dominaram Phase 1.3 Slot 1 blend-onset-
+      rime (oral) transferem a habilidade para decodificação
+      onset-rime ESCRITA aqui.
+  scaffold:
+    body: |
+      Rotação por estações. Estação 1: folha word-guess (as
+      crianças preenchem posições-de-letra-faltante de
+      palavras de encontro consonantal dada uma imagem).
+      Estação 2: folha de emparelhamento (palavra de
+      encontro → imagem; as crianças combinam palavras
+      impressas de encontro com seus significados
+      ilustrados). Estação 3: folha picture-sort (as
+      crianças classificam palavras de encontro consonantal
+      por categoria de encontro inicial — pr-/br-/tr- em um
+      grupo; fl-/cl-/gl- em outro). Estação 4: folha word-
+      scramble (as crianças desembaralham palavras de
+      encontro consonantal; superfície a estrutura de
+      posição-de-letra incluindo posições do encontro).
+  closure:
+    body: |
+      Recapitulação rápida de decodificação-de-encontro com
+      toda a turma. Você escreve palavras de encontro
+      consonantal no quadro; a turma lê cada uma em voz alta
+      depois de sons-letrar. PRATO, BRAVO, TRÊS, CRAVO,
+      FLOR, CLUBE, GRAMA, DRAMA. Você encerra: "Hoje lemos
+      palavras com ENCONTROS CONSONANTAIS. Encontros parecem
+      mais difíceis que palavras CVC simples porque têm MAIS
+      LETRAS — mas cada letra ainda mantém seu próprio som.
+      Sons-letre cada letra, depois deslize eles suaves. Essa
+      é a MESMA habilidade que ler palavras CVC simples;
+      apenas temos mais sons para deslizar juntos. Cuidado
+      com o escape-de-schwa: /p-r/ vai juntinho, sem /i/ no
+      meio." Aponte adiante: "A seguir aprenderemos sobre
+      DÍGRAFOS — pares de letras que fazem UM som novo, não
+      dois. CH-, LH-, NH-, RR-. Diferente de encontros onde
+      cada letra mantém seu som. Ambos são comuns em
+      português, ambos importantes para leitura."
+
+assessmentCriteria:
+  pt: |
+    Ao fim da unidade de 1 semana:
+      - Ler 7 de 10 palavras de encontro consonantal (canônicas
+        pt-BR: pr-, br-, tr-, cl-, fl-, gr-) quando mostradas
+        palavras impressas + imagens.
+      - Decodificar palavras de encontro consonantal via
+        andaime sons-letrar-depois-deslizar de 3 passos em 7
+        de 10 tentativas.
+      - Distinguir encontros canônicos pt-BR (pr-, br-, tr-,
+        etc.) de hipercorreções (não-vogal inserida) em 6 de
+        10 tentativas.
+      - Evitar padrões comuns de erro (inserção-de-schwa,
+        descarte-de-consoante) em 6 de 8 tentativas após re-
+        modelagem.
+      - Usar o vocabulário 'encontro consonantal' / 'sons-
+        letrar' / 'deslizar juntos' corretamente em 5 de 10
+        tentativas de produção verbal.
+      - Ler 5 de 8 palavras de encontro consonantal
+        independentemente (sem suporte de imagem) — habilidade
+        de nível-avaliação.
+
+    Diferenciação:
+    - Educação infantil (5-7 anos): foco em CVC + CV+CV
+      decodificação primeiro; adiar leitura de encontro
+      consonantal para o 1.º ano EF.
+    - 1.º ano EF: leitura completa de encontro consonantal
+      simples (apenas inicial; sem coda-cluster que não
+      existe em pt-BR canônico) com andaime sons-letrar-
+      depois-deslizar; adiar palavras de 3 consoantes
+      (raras em pt-BR; tipicamente empréstimos: estresse,
+      estraviar) para 2.º ano EF.
+    - 2.º ano EF: estender para encontros consonantais
+      compostos + palavras com encontros + dígrafos
+      (CRACHÁ, FLECHA); ponte para decodificação de palavras
+      multi-silábicas.
+    - 3.º ano EF em diante: decodificação fônica sistemática
+      completa incluindo dígrafos pt-BR (LH, NH, CH, RR, SS,
+      QU, GU) + sílabas complexas; ponte para fluência de
+      leitura em nível-de-vocabulário.
+
+compositionalRationale:
+  pt: |
+    Adaptação locale-específica do pacote canônico (en). Os
+    campos materials, composedExercises, curriculumStandards
+    e learningObjectives são herdados do package.yaml via
+    merge sparse-override e não são repetidos aqui per a
+    convenção Arc 7+.
+
+    **NOTA LOCALE-CRÍTICA: encontros consonantais pt-BR
+    diferem ESTRUTURALMENTE do inglês.** Padrões de encontro
+    consonantal em português brasileiro:
+    - **Encontros INICIAIS permitidos:** pt-BR permite
+      encontros consonantais perfeitos no início de sílaba:
+      consoante + /r/ (pr-, br-, tr-, dr-, cr-, gr-, fr-,
+      vr-) + consoante + /l/ (pl-, bl-, tl-, cl-, gl-, fl-).
+      Esses são canônicos K-1 EF.
+    - **Encontros FINAIS NÃO permitidos:** pt-BR NÃO permite
+      encontros consonantais no fim de sílaba (pt-BR é
+      open-syllable-dominant). Palavras inglesas como JUMP,
+      NEST, MILK têm encontros consonantais finais (-mp,
+      -st, -lk); essas estruturas NÃO existem em pt-BR K-1
+      canônico. Este pacote foca exclusivamente em encontros
+      INICIAIS.
+    - **Encontros consonantais 'imperfeitos' vs 'perfeitos':**
+      pt-BR distingue encontros 'perfeitos' (mesma sílaba:
+      pra-to) de encontros 'imperfeitos' (sílabas diferentes:
+      ad-vo-ga-do). Este pacote ensina apenas encontros
+      perfeitos canônicos K-1.
+    - **Hipercorreção de schwa:** falantes pt-BR têm tendência
+      a inserir vogal /i/ entre consoantes de encontro
+      (PRATO pronunciado /pirato/). Em fala formal pt-BR
+      isso é considerado erro; em fala coloquial regional
+      é aceito. Este pacote treina contra a inserção-de-
+      schwa via modelagem rápida-de-encontro.
+    - **Empréstimos lexicais:** palavras de empréstimo (do
+      inglês, francês) podem ter encontros não-canônicos
+      (estresse = etr-e-ss-e; clube = klubi). Geralmente
+      pt-BR adapta esses adicionando vogal-epentética
+      inicial (e-stresse → estresse; sport → esporte).
+
+    Encontros consonantais pt-BR canônicos K-1 EF
+    (categorizado por consoante-final-do-encontro):
+    - **Encontros com /r/:**
+      - PR-: prato, prima, prado, presa, primeiro
+      - BR-: bravo, branco, brigada, brasa
+      - TR-: três, trabalho, trato, trono
+      - DR-: drama, drogaria, draga
+      - CR-: cravo, criar, cruz, crocodilo
+      - GR-: grama, grupo, gramar
+      - FR-: fruta, frente, frequência
+      - VR-: livro, palavra (encontro em sílaba interna)
+    - **Encontros com /l/:**
+      - PL-: planeta, planta, planeta
+      - BL-: bloco, blusa, blindar
+      - CL-: clube, classe, claro
+      - GL-: globo, glúten, glamour
+      - FL-: flor, flecha, flauta
+
+    Vocabulário pt-BR canônico para leitura de encontro
+    consonantal K-1:
+    - 'encontro consonantal' (consonant blend/cluster) —
+      pt-BR canônico técnico do BR-MEC framework
+    - 'sons-letrar' (to sound out) — pt-BR pedagógico
+      canônico (BR-MEC alternativo: 'soletrar' para
+      soletração; 'sons-letrar' enfatiza a decodificação
+      fônica)
+    - 'deslizar juntos' (to slide together) — pt-BR
+      pedagógico canônico para combinação suave
+    - 'consoante' (consonant) — pt-BR canônico
+    - 'vogal' (vowel) — pt-BR canônico
+    - 'sílaba' (syllable) — pt-BR canônico (já estabelecido)
+    - 'dígrafo' (digraph) — pt-BR canônico; conceito
+      adjacente que é trabalho do read-consonant-digraphs
+      Phase 1.4 candidato
+    - Frases-modelo K-1: "PRATO tem o encontro PR no começo."
+      / "Sons-letre cada letra: /p/-/r/-/a/-/t/-/u/. Agora
+      deslize: prato." / "/p/ e /r/ andam juntos — sem
+      espaço entre eles."
+
+    Particularidade pt-BR para timing pedagógico:
+    Currículo brasileiro K-1 EF tipicamente introduz
+    encontros consonantais NO 1.º-2.º ANO EF após domínio
+    de palavras CV + CVC simples. O timing difere do inglês
+    (onde encontros são introduzidos em Grade 1 alongside
+    CVCe). Esta é uma divergência pedagógica per BR-MEC
+    framework — pacote alinha com timing pt-BR canônico.
+
+    Alinhamento BNCC (Base Nacional Comum Curricular):
+    EF01LP08 ('Relacionar elementos sonoros — sílabas,
+    fonemas, partes de palavras — com sua representação
+    escrita') é o anchor BNCC do 1.º ano EF para relação
+    fonema-grafema (base para decodificação fônica de
+    encontros consonantais). EF02LP01 ('Conhecer as
+    convenções gráficas: identificar a alfabeto +
+    correspondências grafo-fonêmicas + organização espacial
+    da escrita; encontros consonantais e dígrafos') é o
+    anchor BNCC do 2.º ano EF para encontros consonantais
+    especificamente. Juntos, EF01LP08 + EF02LP01 cobrem a
+    progressão K-1 → 2.º ano para leitura de encontros
+    consonantais.
+
+    Currículo brasileiro K-1 EF para encontros consonantais:
+    A BNCC brasileira EF Língua Portuguesa Anos Iniciais
+    coloca encontros consonantais entre as competências
+    foundacionais de alfabetização 1.º-2.º ano EF. O 'método
+    fônico silábico' brasileiro integra encontros
+    consonantais como extensão natural da decodificação
+    silábica simples. Este pacote alinha com essa abordagem.
+
+    Por §A.13.30 enquadramento informal K-1: este pacote
+    NÃO ensina teoria formal de fonotática (sonority
+    hierarchy + restrições de cluster consonantal + análise
+    silábica avançada são trabalho de pesquisa pós-graduada).
+    A ênfase do 1.º ano EF é DECODIFICAÇÃO CONCRETA de
+    palavras-de-encontro-consonantal via andaime sons-
+    letrar-depois-deslizar.
+
+    Cross-reference para blend-onset-rime (Phase 1.3 Slot 1;
+    oral) + blend-phonemes-cvc (Phase 1.2 Slot 4; oral):
+    leitura de encontro consonantal transfere o trabalho
+    oral de cluster consonantal para contextos escritos.
+    Crianças que conseguem oralmente combinar /p/+/r/+/a/+
+    /t/+/u/ (Phase 1.2 Slot 4 oral) em PRATO falado têm a
+    infraestrutura cognitiva para fazer a mesma operação
+    enquanto OLHAM para P-R-A-T-O impresso (este pacote).
+    O trabalho phonological-awareness é o substrato
+    cognitivo; trabalho phonics-decoding integra a dimensão
+    grafema escrito.
+
+    Pacote PARTIAL-advancement em phonics-decoding strand
+    (2/11 → 3/11). Pair-coherent extensão da cadeia-de-
+    prerrequisito de read-cvc-words (Arc 6 P1) + read-cvce-
+    words (post-Arc-6).
+
+    **§A.13.34 sub-class adjudication — locale-canonical-
+    curriculum-divergence:**
+    Phonics-decoding pedagogy has structural divergence
+    between English + pt-BR. English consonant-blend
+    orthography permits both INITIAL (bl-, str-) AND FINAL
+    (-mp, -st) clusters. pt-BR permits ONLY initial clusters
+    (pr-, br-, cl-, fl-, etc.); final clusters do NOT exist
+    in pt-BR canonical K-1 because pt-BR is open-syllable-
+    dominant. Additionally, pt-BR has the schwa-insertion
+    hypercorrection pattern that English does not have.
+    This is a canonical §A.13.34 locale-canonical-curriculum-
+    divergence case. SPARSE-OVERRIDE locked for current
+    commission per minimal-amendment principle (structure
+    body + assessmentCriteria + compositionalRationale.pt
+    carry pt-BR-specific pedagogical content including pt-
+    BR canonical initial-blend inventory + schwa-insertion
+    treatment + 1.º-2.º ano EF timing; materials +
+    composedExercises pedagogically translate cleanly across
+    locale-divergence because the underlying app surfaces
+    are locale-portable at the mechanic level). **FULL-
+    OVERRIDE flagged as future-arc candidate** when post-
+    Arc-19 dedicated pt-BR phonics-decoding commission
+    justifies full re-authoring against pt-BR canonical
+    pedagogy (including dígrafos pt-BR: LH, NH, CH, RR, SS,
+    QU, GU which are structurally distinct from English
+    digraphs).
+
+    Per §A.13.36 cadência de cooperação CC↔assistant: o
+    pacote pt herda materials, composedExercises,
+    curriculumStandards via sparse-override per convenção
+    Arc 7+; quaisquer emendas en (se Round 2 surgir) se
+    propagam automaticamente para esta variante pt.

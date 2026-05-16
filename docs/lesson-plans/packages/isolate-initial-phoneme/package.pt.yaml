@@ -1,0 +1,213 @@
+# Teaching package — isolate initial phoneme (pt sparse-override)
+# Arc 19 Phase 1.1 Slot 3 (24th-consecutive arc pt cadence per Arc 7+ convention; pt cadence increments per-arc, not per-package; all 4 Phase 1.1 pt variants share the same Arc-19 cadence anchor). BR-MEC ensino-fundamental register; formal "você" address throughout. BNCC alignment: EF01LP05 (reconhecimento do princípio acrofônico) + EF01LP06 (consciência fonológica do fonema inicial). **Phonological-awareness pedagogy is locale-specific: pt-BR phoneme inventory used, NOT English phoneme mapping.**
+
+targetSlug: isolate-initial-phoneme
+language: pt
+
+title:
+  pt: "Primeiros Sons — com que som a palavra COMEÇA?"
+
+description:
+  pt: "Pacote de alfabetização para a educação infantil brasileira (5-7 anos) ensinando crianças a isolar o FONEMA INICIAL (primeiro som) em palavras CVC faladas. Habilidade fundamental de consciência fonológica: as crianças ouvem 'pato' e identificam o primeiro som como /p/, ouvem 'cão' e identificam /k/, ouvem 'mãe' e identificam /m/. O strand de phonological-awareness avança 2/9 → 3/9. Por learning-targets.json pré-requisitos: [] (foundacional). Ponte crítica entre consciência-de-rima (Arc 10 identify-rhyming-pairs) + decodificação fônica de fonema (trabalho posterior do K-1 EF): crianças que conseguem isolar fonemas iniciais adquirem decodificação fônica sistemática mais facilmente. Por §A.13.30 enquadramento informal K-1: trabalho de isolamento de fonema no K é RECONHECIMENTO CONCRETO DE SOM — as crianças ouvem uma palavra, nomeiam o primeiro som, combinam com uma imagem de som-inicial. Alinhamento BNCC: EF01LP05 (reconhecimento do princípio acrofônico — sistema alfabético) + EF01LP06 (consciência fonológica do fonema inicial). 5 exercícios + 8 materiais imprimíveis ao longo de 1 semana. **Pedagogia de consciência fonológica é locale-específica: este pacote usa o inventário fonêmico pt-BR per BR-MEC framework, NÃO um mapeamento de fonemas inglês.**"
+
+structure:
+  warmup:
+    body: |
+      Atividade do-primeiro-som com toda a turma. Você diz uma
+      palavra devagar: "P-a-t-o. Com que som PATO começa?" A
+      turma: /p/! Você escreve a letra P + uma imagem de pato
+      no quadro. "Sim — PATO começa com o som /p/." Repete
+      com: "C-ã-o. Primeiro som?" A turma: /k/! "M-ã-e.
+      Primeiro som?" /m/! "S-o-l. Primeiro som?" /s/!
+      Ênfase do padrão: "Toda palavra começa com um SOM. O
+      primeiro som é o SOM INICIAL da palavra. Conseguimos
+      ouvir se dizemos a palavra devagar. Conseguimos
+      combinar com uma letra que faz aquele som."
+  contentActivity:
+    body: |
+      Trabalho em duplas + rotina de reconhecimento-do-primeiro-
+      som. Cada dupla recebe 8 cartões-de-imagem + 4 cartões-
+      letra. A dupla se reveza: a criança A nomeia uma imagem
+      (pato); a criança B identifica o primeiro som (/p/) +
+      coloca a imagem sob a letra-cartão correspondente (P).
+      Repete com mão, cão, bola, sol indo sob M, K, B, S
+      respectivamente. Nota pedagógica crítica: crianças K
+      podem confundir nomes-de-som com nomes-de-letra — /p/
+      é o SOM; "pê" é o NOME-DE-LETRA. Seja explícito:
+      "Estamos ouvindo o SOM com que a palavra começa, não
+      o nome-de-letra." Recapture erros com pronúncia-lenta
+      ("você disse que PEIXE começa com /x/ — vamos dizer
+      devagar: P-e-i-x-e. Qual é o PRIMEIRO som? /p/, não
+      /x/. O /x/ está no MEIO de PEIXE."). Algumas crianças
+      também podem se beneficiar de segmentar a palavra com
+      batidinhas-de-dedo (uma batidinha por som) antes de
+      identificar o primeiro fonema. Construa fluência de
+      isolamento-de-fonema primeiro com sons iniciais de
+      consoante-única; adie encontros consonantais iniciais
+      (/br/, /pl/, /tr/) para trabalho posterior de
+      consciência fonológica.
+  scaffold:
+    body: |
+      Rotação por estações. Estação 1: folha de emparelhamento
+      (imagem → letra-inicial; as crianças combinam imagens à
+      letra que representa seu primeiro som). Estação 2:
+      folha word-guess (as crianças preenchem a letra-inicial
+      faltante do nome de uma imagem). Estação 3: folha
+      picture-sort (as crianças classificam imagens em grupos
+      por primeiro som). Estação 4: folha word-scramble (as
+      crianças desembaralham palavras CVC simples; reforça
+      mapeamento som-letra ao nível-de-palavra).
+  closure:
+    body: |
+      Recapitulação rápida do-primeiro-som com toda a turma.
+      Você nomeia uma palavra; a turma grita o primeiro som.
+      "Sol!" /s/! "Árvore!" /a/! "Maçã!" /m/! "Foca!" /f/!
+      Você encerra: "Toda palavra começa com um som. Ouvir
+      o primeiro som é o PRIMEIRO passo na leitura. A seguir
+      aprenderemos a PRODUZIR PALAVRAS QUE RIMAM — inventar
+      palavras que terminam com o mesmo som. Essa é a
+      habilidade-de-combinar no OUTRO extremo da palavra."
+
+assessmentCriteria:
+  pt: |
+    Ao fim da unidade de 1 semana:
+      - Isolar o fonema inicial de uma palavra CVC falada em
+        7 de 10 tentativas.
+      - Combinar uma palavra CVC ilustrada à sua letra-de-
+        som-inicial em 7 de 10 tentativas.
+      - Classificar 12 imagens em grupos de primeiro som
+        (3-4 grupos) corretamente em 6 de 10 tentativas.
+      - Usar o vocabulário 'primeiro som' / 'som inicial' /
+        'som de começo' corretamente em 5 de 10 tentativas
+        de produção verbal.
+
+    Diferenciação:
+    - Pré-escola: foco em trabalho de rima + sílaba primeiro;
+      adiar isolamento de nível-de-fonema para o K (5-7
+      anos).
+    - Educação infantil (5-7 anos): isolamento de fonema-
+      inicial de consoante-única + emparelhamento imagem-
+      para-letra; encontros consonantais iniciais adiados.
+    - 1.º ano EF: estender para encontros consonantais
+      iniciais (/br/, /pl/, /tr/) + isolamento de vogal-
+      mediana + fonema-final; ponte para segmentação-de-
+      fonema CVC completa.
+    - 2.º ano EF em diante: avaliações formais de
+      consciência fonêmica + ponte para decodificação fônica
+      sistemática.
+
+compositionalRationale:
+  pt: |
+    Adaptação locale-específica do pacote canônico (en). Os
+    campos materials, composedExercises, curriculumStandards
+    e learningObjectives são herdados do package.yaml via
+    merge sparse-override e não são repetidos aqui per a
+    convenção Arc 7+.
+
+    **NOTA LOCALE-CRÍTICA: pedagogia de consciência fonológica
+    é LOCALE-ESPECÍFICA.** Inventários fonêmicos diferem por
+    idioma. Português-BR tem inventário fonêmico distinto do
+    inglês:
+    - Fonemas consonantais pt-BR canônicos K-1: /b/ /d/ /f/
+      /g/ /k/ /l/ /m/ /n/ /p/ /r/ /s/ /t/ /v/ /z/ + alguns
+      mais variantes regionais
+    - Fonemas vocálicos pt-BR canônicos: 7 vogais orais
+      (/a/ /e/ /ɛ/ /i/ /o/ /ɔ/ /u/) + 5 vogais nasais (/ã/
+      /ẽ/ /ĩ/ /õ/ /ũ/) + ditongos
+    - Inventário pt-BR difere significativamente do inglês
+      em VOGAIS nasais (não há equivalente em inglês K-1) +
+      consoantes africadas regionais (ex.: /tʃ/ /dʒ/ em
+      registros nordestino/carioca)
+    Este pacote NÃO é tradução do en — é adaptação per BR-
+    MEC framework para inventário-fonêmico pt-BR.
+
+    Vocabulário pt-BR canônico para isolamento de fonema-
+    inicial K-1:
+    - 'primeiro som' (first sound) — pt-BR canônico K-1
+    - 'som inicial' (initial sound) — pt-BR canônico um pouco
+      mais formal; usado em material didático
+    - 'som de começo' (starting sound) — variante coloquial
+      K-1
+    - 'fonema' (phoneme) — pt-BR canônico técnico; introduzido
+      apenas se a turma adquiriu o vocabulário formal
+    - 'sílaba' (syllable) — termo distinto de 'fonema'; usado
+      em consciência-silábica work (count-syllables-1-to-3)
+    - 'letra' (letter) — distinção clara entre LETRA (visual
+      representação) + SOM (auditiva)
+    - 'rima' (rhyme) — termo de consciência-fonológica para
+      sons-finais correspondentes
+    - 'palavra' (word) — termo neutro
+    - Frases-modelo K-1: "A palavra X começa com o som
+      Y..." / "O primeiro som de X é Y..." / "Eu ouço Y..."
+
+    Particularidade pt-BR para distinção SOM-vs-LETRA:
+    Português-BR K-1 EF tem desafio pedagógico distinto na
+    distinção SOM-vs-LETRA porque alguns nomes-de-letra pt-
+    BR coincidem com sons (ex.: 'pê' nome-letra /p/ + som
+    /p/ são quase idênticos para crianças K-1). Inglês K-1
+    tem o mesmo desafio mas com letras diferentes ('kay'
+    nome-letra /k/ vs som /k/ é mais distinto). Este pacote
+    é explícito sobre a distinção: o conteúdo ativa o som
+    APENAS, não o nome-de-letra.
+
+    Alinhamento BNCC (Base Nacional Comum Curricular):
+    EF01LP05 ('Reconhecer o sistema de escrita alfabética
+    como representação dos sons da fala') é o anchor BNCC
+    do 1.º ano EF para o princípio acrofônico (palavras são
+    feitas de sons; letras representam sons). EF01LP06
+    ('Segmentar oralmente palavras em sílabas') estabelece
+    consciência silábica adjacente. EF01LP08 ('Relacionar
+    elementos sonoros — sílabas, fonemas, partes de palavras
+    — com sua representação escrita') é o anchor mais direto
+    para isolamento-de-fonema-inicial. Esta lacuna entre
+    EF01LP06 (sílabas) + EF01LP08 (fonemas) é exatamente
+    onde este pacote opera pedagogicamente: o isolamento-
+    de-fonema-inicial é a habilidade fundacional que faz a
+    ponte entre essas competências BNCC.
+
+    Currículo brasileiro K-1 EF para consciência fonológica:
+    A BNCC brasileira EF Língua Portuguesa Anos Iniciais 1.º
+    ano EF estabelece a consciência fonológica como
+    competência fundacional para a alfabetização. Este
+    pacote alinha com essa abordagem. O 'método fônico'
+    brasileiro é debatido — algumas escolas adotam
+    abordagens mais sintéticas (sons-para-letras explícito);
+    outras adotam abordagens mais analíticas (palavras-
+    inteiras para sons). Este pacote opera no nível de
+    isolamento-de-fonema-inicial que é canônico em ambas as
+    abordagens.
+
+    Por §A.13.30 enquadramento informal K-1: este pacote
+    NÃO ensina vocabulário formal de fonética (lugar +
+    modo + sonoridade de articulação; transcrição fonética
+    IPA é trabalho acadêmico pós-3.º ano EF). A ênfase do
+    K é reconhecimento-de-som-concreto.
+
+    Pacote pair-coherent com Phase 1.1 Slot 4 produce-
+    rhyming-words: juntos avançam o strand phonological-
+    awareness 2/9 → 4/9. Foundation cluster para Arc 19
+    P1.2-1.4 continuação de phonological-awareness.
+
+    **§A.13.34 sub-class adjudication — locale-canonical-
+    curriculum-divergence:**
+    Phonological-awareness pedagogy has structural divergence
+    between English + pt-BR (English consonant-final-dominance
+    rhyme + CVC phoneme inventory vs pt-BR vowel-ending-
+    dominance + nasal-vowel rhyme + 7 oral + 5 nasal vowel
+    phonemes). This is a canonical §A.13.34 locale-canonical-
+    curriculum-divergence case. SPARSE-OVERRIDE locked for
+    current commission per minimal-amendment principle
+    (structure body + assessmentCriteria + compositionalRationale.pt
+    carry pt-BR-specific pedagogical content; materials +
+    composedExercises pedagogically translate cleanly across
+    locale-divergence). FULL-OVERRIDE flagged as future-arc
+    candidate when Phase 1.2 phonological-awareness continuation
+    surfaces additional locale-divergence patterns warranting
+    full re-authoring of materials + composedExercises against
+    pt-BR canonical pedagogy.
+
+    Per §A.13.36 cadência de cooperação CC↔assistant: o
+    pacote pt herda materials, composedExercises,
+    curriculumStandards via sparse-override per convenção
+    Arc 7+; quaisquer emendas en (se Round 2 surgir) se
+    propagam automaticamente para esta variante pt.

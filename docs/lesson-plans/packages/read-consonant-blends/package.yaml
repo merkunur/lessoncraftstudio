@@ -1,0 +1,417 @@
+# Teaching package — read words with consonant blends
+# Arc 19 Phase 1.3 Slot 3 (early-literacy / phonics-decoding strand 2/11 → 3/11). Pair-coherent prerequisite-chain extension from read-cvc-words (Arc 6 P1) + read-cvce-words. Phonics-decoding strand PARTIAL advancement — NOT a strand-start (strand has 2 prior SAT). Prerequisites per learning-targets.json line 64: read-cvc-words (Arc 6 P1; ✓ SHIPPED). §A.13.34 parallel-strand-framing REQUIRED at authoring time per Phase 1.2 Slot 4 Round 2 fix precedent — read-consonant-blends crosses the phonological-awareness/phonics-decoding strand-boundary at the consonant-cluster work; the symbol-dimension differentiates the strands.
+
+targetSlug: read-consonant-blends
+language: en
+title:
+  en: "Read Words with Blends — sounding out tricky consonant clusters"
+description:
+  en: "Grade 1 early-literacy package teaching kids to READ printed words containing consonant blends (BLAST, STOP, FRESH, JUMP) by sounding out each letter individually + smoothly blending the consonant cluster. Phonics-decoding strand advances 2/11 → 3/11. Per learning-targets.json line 64 prerequisite: read-cvc-words (Arc 6 P1 ✓ SHIPPED). Pair-coherent prerequisite-chain extension from read-cvc-words → read-cvce-words → read-consonant-blends. CVC → CVCe → consonant-blend progression is canonical English phonics scope-and-sequence. Initial-position blends (bl-, br-, cl-, cr-, dr-, fl-, fr-, gl-, gr-, pl-, pr-, sl-, sn-, sp-, st-, sw-, tr-) AND final-position blends (-st, -nd, -mp, -nk, -lt, -ft) both canonical at this skill level. Per §A.13.30 K-1 informal framing: Grade 1 consonant-blend reading is CONCRETE WRITTEN-WORD DECODING — kid sees printed BLAST, sounds out each letter /b/-/l/-/a/-/s/-/t/, smoothly blends to read 'blast'. NOT formal phonotactics theory pedagogy (sonority hierarchy + consonant cluster constraints are post-Grade-3 academic work). CCSS.RF.1.3a primary anchor ('Know the spelling-sound correspondences for common consonant digraphs'; consonant-blend extension implicit). 5 worksheet exercises + 8 printable materials over a 1-week unit. **§A.13.34 parallel-strand-framing applies — see compositionalRationale for full strand-boundary discipline.** Materials list mirrors Literacy 8-material canonical."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class consonant-blend hook + sound-it-out modeling.
+      Teacher writes BLAST on the board. "This word has 5
+      letters: B-L-A-S-T. Listen as I sound it out letter by
+      letter: /b/-/l/-/a/-/s/-/t/. The /b/ and /l/ go together
+      at the start — that's a BLEND. The /s/ and /t/ go
+      together at the end — also a BLEND. Watch how the blends
+      sound together: /bl-a-st/. Now smooth: BLAST!" Teacher
+      repeats with STOP /st-o-p/, FROG /fr-o-g/, JUMP /j-u-mp/.
+      Pattern emphasis: "A BLEND is 2 (or 3) consonants that
+      come together in a word. Each consonant keeps its own
+      sound — that's different from digraphs where 2 letters
+      make 1 new sound. In blends, we hear EVERY sound, but
+      they slide together. Sound out each letter, then slide
+      them smooth." Critical pedagogical framing: "Consonant
+      blends look hard but they're just 2 sounds glued
+      together. If you can read CAT, you can read FLAT. Just
+      add the /f/ at the start. CAT → FLAT. Adding a letter,
+      adding a sound."
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + sound-blending decoding routine. Each pair
+      receives 8 picture cards with consonant-blend words
+      (blast, stop, frog, jump, snake, plant, drum, swim) +
+      letter tiles. Pair takes turns: kid A reads a word card
+      aloud by sounding-out each letter + blending; kid B
+      checks against the picture. Critical pedagogical
+      technique: SOUND-OUT-THEN-SLIDE. First, kid sounds out
+      each letter individually with brief pause (/b/-/l/-/a/-
+      /s/-/t/). Then, kid says it smooth (/bl-a-st/). Then,
+      the word emerges (BLAST). Three-step decoding: isolate
+      → blend → read. Recast errors with re-modeling: ("you
+      read STOP as /so-p/ — let's slow down. /s/-/t/-/o/-/p/.
+      That's FOUR sounds, not three. The /s/ and /t/ are a
+      BLEND at the start. /st-o-p/. STOP!"). Common error
+      patterns: (a) dropping a blend consonant (FROG read as
+      /fog/ — kid skipped the /r/; recast with letter-pointing);
+      (b) inserting a vowel between blend consonants (BLAST
+      read as /belast/ — kid added a vowel; recast with rapid-
+      blend modeling); (c) misidentifying digraph as blend
+      (SHIP /sh-i-p/ is digraph + vowel + consonant — /sh/ is
+      ONE sound, not 2; this package focuses on blends, defers
+      digraphs to read-consonant-digraphs Phase 1.4 candidate).
+      Optional extension: word-family work with same rime +
+      varying initial-blend onset (LAST → BLAST → FAST → MAST
+      — family -AST). Kids who mastered Phase 1.3 Slot 1
+      blend-onset-rime (oral) transfer the skill to WRITTEN
+      onset-rime decoding here.
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: word-guess worksheet (kids
+      fill in missing-letter positions of consonant-blend
+      words given a picture). Station 2: matching worksheet
+      (blend word → picture; kids match printed blend words
+      to their illustrated meanings). Station 3: picture-sort
+      (kids sort consonant-blend words by initial-blend
+      category — bl-/cl-/fl- in one group; st-/sn-/sw- in
+      another). Station 4: word-scramble (kids unscramble
+      consonant-blend words; surface the letter-position
+      structure including blend positions).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class blend-decoding quick-recall. Teacher writes
+      consonant-blend words on the board; class reads each
+      aloud after sounding-out. CLAP, STOP, FROG, SNAKE,
+      PLANT, BRUSH, SWIM, DRUM. Teacher closes: "Today we
+      read words with BLENDS. Blends look harder than CVC
+      words because they have MORE LETTERS — but each letter
+      still keeps its own sound. Sound out each letter, then
+      slide them smooth. That's the SAME skill as reading
+      CVC words; we just have more sounds to slide together."
+      Forward-pointer: "Next we'll learn about DIGRAPHS —
+      letter pairs that make ONE new sound, not two. SH-, CH-,
+      TH-, WH-, PH-. Different from blends where each letter
+      keeps its sound. Both are common in English, both
+      important for reading."
+
+composedExercises:
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 4, difficulty: easy, letterCase: lowercase, themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: picture-sort
+    exerciseMode: theme
+    customizationParameters: { leftCategoryThemeSelect: animals, rightCategoryThemeSelect: vehicles, languageSelect: en }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: word-scramble
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 12
+      cardsPerPage: 6
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: blend-word-pairing-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 12
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      stripCount: 8
+      stripsPerPage: 4
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 5
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: single-repeat
+      itemCount: 24
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 6
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 4
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 7
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 8
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: early-literacy / phonics-decoding
+    (read-consonant-blends — strand 2/11 → 3/11). Pair-
+    coherent prerequisite-chain extension from read-cvc-words
+    (Arc 6 P1; phonics-decoding strand-start) + read-cvce-
+    words (post-Arc-6; phonics-decoding strand continuation).
+    Per §A.13.31 per-instance content-awareness: `read-cvc-
+    words/package.yaml` (Arc 6 P1) + `read-cvce-words/
+    package.yaml` are the canonical phonics-decoding strand
+    precedents — this package mirrors their materials +
+    composedExercises shape with consonant-blend pedagogical
+    extension.
+
+    Architectural significance: extends CVC → CVCe →
+    consonant-blend progression that is canonical English
+    phonics scope-and-sequence. Cognitive progression: 3-
+    letter CVC decoding (CAT, DOG) → 4-letter CVCe silent-e
+    decoding (CAKE, BIKE) → 4-5-letter consonant-blend
+    decoding (BLAST, JUMP, FROG; this package). Each step
+    adds complexity to the letter-sound mapping without
+    changing the fundamental decode-by-sounding-out
+    operation. Closing the CVC→CVCe→blend triplet establishes
+    the foundational Grade-1 phonics-decoding sequence.
+
+    Per §A.13.30 K-1 informal framing: Grade 1 consonant-
+    blend reading is CONCRETE WRITTEN-WORD DECODING. Kid
+    sees printed BLAST, sounds out each letter individually
+    (/b/-/l/-/a/-/s/-/t/), smoothly blends the consonant
+    cluster to read 'blast'. The pedagogy uses everyday
+    language ('blend' / 'slide letters together' / 'sound
+    out then slide') + 3-step decoding scaffold (isolate →
+    blend → read). NOT formal phonotactics theory pedagogy —
+    sonority hierarchy + maximal-onset principle + consonant
+    cluster constraints are post-Grade-3 academic work.
+    Critical pedagogical move documented in contentActivity:
+    SOUND-OUT-THEN-SLIDE 3-step decoding scaffold. Common
+    error patterns addressed via re-modeling: dropping a
+    blend consonant, inserting a vowel between blend
+    consonants, misidentifying digraph as blend (digraphs
+    deferred to read-consonant-digraphs Phase 1.4 candidate).
+
+    **§A.13.34 parallel-strand-framing — phonics-decoding
+    vs phonological-awareness:** read-consonant-blends is a
+    phonics-decoding strand canonical target (WRITTEN
+    grapheme-blend decoding; kid sees printed BLAST, sounds
+    out /b-l-a-s-t/, reads 'blast'). It is NOT a
+    phonological-awareness strand target (ORAL phoneme-blend
+    synthesis would be that strand's equivalent). The strand-
+    boundary is the SYMBOL DIMENSION: phonics-decoding work
+    operates on WRITTEN graphemes integrated with spoken
+    phonemes (kid sees printed letters, recalls the
+    corresponding sounds, then blends); phonological-
+    awareness work operates on SPOKEN phonemes only (no
+    printed letters or letter-sound correspondences). Phase
+    1.2 Slot 4 blend-phonemes-cvc (oral CVC phoneme-blending)
+    + Phase 1.3 Slot 1 blend-onset-rime (oral onset-rime
+    blending) are the phonological-awareness strand
+    counterparts to this package's phonics-decoding work at
+    the consonant-cluster level. Same observable activity
+    (combining sounds in consonant-cluster contexts) routes
+    through different strands per symbol dimension. Future
+    phonological-awareness extension that operates on
+    consonant-blend ORAL synthesis (e.g., blend-consonant-
+    blend-onset, not in current canonical 9-target enumeration)
+    would parallel this package on the phonological-awareness
+    side. Explicit §A.13.34 parallel-strand-framing citation
+    per Phase 1.2 Slot 4 Round 2 fix precedent — REQUIRED
+    at authoring time, NOT as Round 2 fix.
+
+    Per §A.13.29 ground-truth source-citation: composedExercises
+    cite `REFERENCE APPS/word-guess.html` (clue-density mode
+    for missing-letter-position decoding work on consonant-
+    blend words) + `REFERENCE APPS/matching.html` (imgname
+    mode for blend-word to picture pairing) + `REFERENCE
+    APPS/picture-sort.html` (theme mode for blend-category
+    sorting) + `REFERENCE APPS/word-scramble.html` (unified
+    mode for letter-position structure reinforcement on
+    consonant-blend words).
+
+    Cross-reference to read-cvc-words + read-cvce-words
+    (prerequisite chain per learning-targets.json line 64):
+    kids must master CVC decoding + CVCe long-vowel decoding
+    before consonant-blend decoding. The skill progression
+    is pedagogically natural: 3-letter CVCs (CAT) → 4-letter
+    CVCes (CAKE) → 4-5-letter consonant-blend words (BLAST,
+    JUMP). Each step extends the basic decode-by-sounding-
+    out operation to longer / more-complex letter strings.
+    This package operationalizes the consonant-blend
+    extension via 3-step decoding scaffold + re-modeling
+    error correction.
+
+    Cross-reference to blend-onset-rime (Phase 1.3 Slot 1;
+    oral) + blend-phonemes-cvc (Phase 1.2 Slot 4; oral):
+    consonant-blend reading transfers the oral consonant-
+    cluster work to written contexts. Kids who can orally
+    blend /b/+/l/+/a/+/s/+/t/ (Phase 1.2 Slot 4) into spoken
+    BLAST have the cognitive infrastructure to do the same
+    operation while LOOKING at printed B-L-A-S-T (this
+    package). The phonological-awareness work is the
+    cognitive substrate; phonics-decoding work integrates
+    the written grapheme dimension.
+
+    Materials note: 8-material Literacy class stack per
+    §A.13.37 + read-cvc-words + read-cvce-words canonical
+    precedents. Materials structure mirrors phonics-decoding
+    strand siblings (theme: animals provides familiar K-1
+    vocabulary with consonant-blend words — frog, snake,
+    plant, drum, snail, swing; cross-arc theme consistency
+    with phonological-awareness cluster). Manipulative-cut-
+    outs at position 6 emits canonical-correct `mode:
+    single-repeat` per §A.13.35.
+
+    Distinctive composition: word-guess at position 1
+    (introduction) — the missing-letter format naturally
+    surfaces blend-position decoding work (kid sees _LAST +
+    picture cue, identifies the missing /b/ blend-onset).
+    Matching ×2 (positions 2+5) + picture-sort (position 3;
+    blend-category sorting) + word-scramble (position 4).
+    Same composition shape as Phase 1.2 Slot 4 blend-
+    phonemes-cvc + Phase 1.3 Slot 1 blend-onset-rime — the
+    cognitive operation (combining sounds in consonant-
+    cluster contexts) routes through identical exercise
+    affordances; the pedagogical surface adapts via teacher
+    framing (oral vs written) + worksheet emphasis on the
+    symbol dimension.
+
+    Class B FLEXIBLE substrate: composes against animals
+    theme (vocab-anchored with familiar K-1 consonant-blend
+    vocabulary; cross-arc theme consistency with Phase
+    1.1+1.2+1.3 cluster). No substrate gaps; ships clean.
+
+    K-3 multilingual classroom relevance: consonant-blend
+    decoding is universal for languages permitting consonant
+    clusters BUT cluster permissibility varies structurally
+    per language. English permits rich onset clusters (/str/,
+    /spl/, /spr/) + coda clusters (/mp/, /nd/, /lt/). pt-BR
+    permits some onset clusters (/pr/, /br/, /tr/, /cl/, /fl/,
+    /vr/) but NO coda clusters (pt-BR is open-syllable
+    dominant; words don't end in consonant clusters). German
+    permits rich clusters in both positions. Multilingual
+    K-3 classrooms benefit from explicit consonant-blend
+    work in the language-of-instruction's permissible cluster
+    inventory + awareness that home-language cluster patterns
+    may differ structurally.
+
+curriculumStandards:
+  - CCSS.RF.1.3a
+  - CCSS.RF.K.3b
+  - CCSS.RF.1.4
+  - EYFS.ELG.LIT.WR
+  - IB-PYP.HowWeExpressOurselves
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Read 7 of 10 consonant-blend words (mix of initial-
+        blend + final-blend) when shown printed words +
+        pictures.
+      - Decode consonant-blend words via sound-out-then-
+        slide 3-step scaffold in 7 of 10 trials.
+      - Distinguish initial-blend (BLAST, STOP, FROG) from
+        final-blend (JUMP, NEST, MILK) word categories in
+        6 of 10 trials.
+      - Avoid common error patterns (drop-a-consonant, vowel-
+        insertion) in 6 of 8 attempts after re-modeling.
+      - Use vocabulary 'blend' / 'consonant blend' / 'sound
+        out' / 'slide together' correctly in 5 of 10
+        productive-language trials.
+      - Read 5 of 8 consonant-blend words independently
+        (without picture support) — assessment-level skill.
+
+    Differentiation:
+    - K: focus on CVC + CVCe decoding first; defer consonant-
+      blend reading to Grade 1.
+    - Grade 1: full single-blend reading (initial OR final
+      blend; rarely both in one word) with sound-out-then-
+      slide scaffold; defer 3-consonant clusters (/str/, /spl/)
+      + double-blend words to Grade 2.
+    - Grade 2: extend to 3-consonant cluster reading (STREET,
+      SPLAT, SCRUB) + double-blend words (FROST, BLAST has
+      both); bridge to multi-syllable word decoding.
+    - Grade 3+: full systematic phonics decoding including
+      consonant digraphs + vowel teams + r-controlled vowels;
+      bridge to vocabulary-level reading fluency.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

@@ -1,0 +1,251 @@
+# Teaching package — read r-controlled vowel words
+# Arc 19 Phase 1.4 (early-literacy / phonics-decoding strand-advancement 4 → 5).
+# Builds on Arc 12 read-cvc-words + Arc 13 read-cvce-words + Arc 19
+# Phase 1.4 read-vowel-teams foundation. Pair-coherent with
+# read-vowel-teams per Arc 19 Phase 1.4 ship pattern.
+
+targetSlug: read-r-controlled-vowels
+language: en
+title:
+  en: "R-Controlled Vowels — read car, bird, horn, turn, her"
+description:
+  en: "Grade 1 / Grade 2 early-literacy package teaching kids to read words with r-controlled vowels — the five vowel-plus-R patterns: ar (car), er (her), ir (bird), or (horn), ur (turn). Builds on Arc 12-13 phonics-decoding foundation + Arc 19 Phase 1.4 read-vowel-teams pair. The letter R is special — when it follows a vowel, the R 'bosses' the vowel, changing the vowel sound entirely. Car doesn't say 'cay-r' (with the long-A); it says /kar/ — the A becomes the R-controlled /ar/ sound. Same with: bird /bɜrd/, horn /hɔrn/, turn /tɜrn/. The 3 single-syllable sounds (ar / or / and the merged er-ir-ur) make up the canonical r-controlled set. Foundational decoding work because r-controlled vowels appear in 30% of grade-1 reading vocabulary. 5 worksheet exercises + 7 printable materials over a 1-week unit."
+
+durationMinutes: 30
+
+structure:
+  warmup:
+    durationMinutes: 5
+    body: |
+      Whole-class hook: the bossy-R rule. Teacher writes "car" on
+      the board + sounds it out slowly: "c-ar. The A doesn't make
+      its short-A sound (/a/ like apple) or its long-A sound (/ay/
+      like cake). The R changes it. The A becomes /ar/. Car. Star.
+      Far." Class repeats. Teacher introduces the rule: "When a
+      vowel is followed by R, the R bosses the vowel. The vowel
+      doesn't make its own sound anymore — it makes the R-controlled
+      sound." Repeat with: "her" (er → /ɜr/); "bird" (ir → /ɜr/);
+      "horn" (or → /ɔr/); "turn" (ur → /ɜr/). Notice the er-ir-ur
+      sound the same — kids accept this as the bossy-R rule.
+  contentActivity:
+    durationMinutes: 12
+    body: |
+      Pair work + R-pattern-spotting routine. Each pair receives 10
+      picture cards with r-controlled-vowel labels (car, star, jar,
+      her, bird, girl, horn, corn, turn, fur). Pair takes turns: kid
+      A points to a card; kid B reads the word + identifies the
+      r-controlled pattern ("c-ar... I see 'ar', so it makes /ar/.
+      Car.") Recast errors with sound-stretching ("you said 'cat'
+      for 'car' — let's look at the end: c-a-r. There's an R after
+      the A. When R follows a vowel, it changes the sound. /kar/.
+      Car.") Optional extension: kids sort cards into 3 piles by
+      R-pattern (ar / or / er-ir-ur).
+  scaffold:
+    durationMinutes: 8
+    body: |
+      Station rotation. Station 1: matching worksheet (r-controlled
+      word to picture). Station 2: word-guess (kids fill in r-
+      controlled letters from picture clues — c_r = car; b_rd =
+      bird; h_rn = horn). Station 3: word-scramble with r-controlled
+      words. Station 4: vocabulary-tracing-strips for r-controlled
+      anchor words (car / her / bird / horn / turn).
+  closure:
+    durationMinutes: 5
+    body: |
+      Whole-class r-controlled review. Teacher writes 5 words; class
+      reads each by spotting the R-pattern + saying the bossy-R
+      sound. Forward-pointer: "Today we read r-controlled-vowel
+      words. When we come back to reading next, we'll work on
+      reading common prefixes and suffixes — un-, re-, -ed, -ing,
+      -er — the little word-parts that change what a word means."
+
+composedExercises:
+  - appName: matching
+    exerciseMode: imgname
+    customizationParameters: { mode: imgname, count: 6, themeSelect: animals, languageSelect: en }
+    ordering: 1
+    pedagogicalRole: introduction
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 5, difficulty: medium, letterCase: lowercase, languageSelect: en }
+    ordering: 2
+    pedagogicalRole: practice
+  - appName: word-scramble
+    exerciseMode: unified
+    customizationParameters: { themeSelect: animals, languageSelect: en, difficulty: medium }
+    ordering: 3
+    pedagogicalRole: practice
+  - appName: word-guess
+    exerciseMode: clue-density
+    customizationParameters: { puzzleCount: 5, difficulty: medium, letterCase: lowercase, languageSelect: en }
+    ordering: 4
+    pedagogicalRole: consolidation
+  - appName: matching
+    exerciseMode: letter
+    customizationParameters: { mode: letter, count: 6, themeSelect: foods, languageSelect: en }
+    ordering: 5
+    pedagogicalRole: assessment
+
+materials:
+  - materialSlug: flashcards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 15
+      cardsPerPage: 8
+      colorMode: color
+      labelDisplay: singular
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 1
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: picture-cards
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      cardCount: 15
+      cardsPerPage: 8
+      colorMode: color
+      paperSize: a4
+      borderStyle: thin
+      roundedCorners: true
+      showCutGuides: true
+    ordering: 2
+    pedagogicalRole: production-prompt
+  - materialSlug: matching-mat
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      pairCount: 8
+      rightColumnContent: word
+      colorMode: color
+      labelCase: lowercase
+      paperSize: a4
+      language: en
+    ordering: 3
+    pedagogicalRole: vocabulary-game
+  - materialSlug: vocabulary-tracing-strips
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      stripCount: 15
+      stripsPerPage: 8
+      labelCase: lowercase
+      traceStyle: dotted
+      includeIndependentLine: true
+      colorMode: color
+      paperSize: a4
+      language: en
+    ordering: 4
+    pedagogicalRole: vocabulary-anchor
+  - materialSlug: manipulative-cut-outs
+    customizationParameters:
+      imageSource: theme
+      themeName: animals
+      mode: variety
+      itemCount: 4
+      itemSize: small-1in
+      colorMode: color
+      paperSize: a4
+      language: en
+      showCutGuides: true
+    ordering: 5
+    pedagogicalRole: concrete-manipulative
+  - materialSlug: parent-take-home-letter
+    customizationParameters:
+      tone: warm
+      imageSource: theme
+      themeName: animals
+      pictureCueCount: 6
+      homeLanguage: en
+      language: en
+      colorMode: color
+      signatureLine: true
+      paperSize: a4
+    ordering: 6
+    pedagogicalRole: home-school-bridge
+  - materialSlug: answer-key
+    customizationParameters:
+      includeExerciseAnswers: true
+      includeMaterialReference: true
+      includePedagogicalNotes: true
+      paperSize: a4
+      language: en
+    ordering: 7
+    pedagogicalRole: teacher-reference
+
+compositionalRationale:
+  en: |
+    Primary strand: early-literacy / phonics-decoding (r-controlled
+    vowel word reading; canonical strand-advancement 4 → 5). Secondary
+    strand: phonological awareness (kids distinguish the bossy-R
+    sound from regular vowel sounds). Tertiary strand: vocabulary
+    acquisition (r-controlled anchor words drawn from familiar K-3
+    vocabulary).
+
+    Architectural significance: phonics-decoding strand-advancement
+    (4 → 5 base canonical authored). Pair-coherent with read-vowel-
+    teams (Arc 19 Phase 1.4 pair; both extend long-vowel work
+    introduced at read-cvce-words in Arc 13). The vowel-team + r-
+    controlled pair completes the canonical English-CVC-pattern long-
+    vowel extension; together they cover the high-frequency Grade-1
+    reading patterns (>50% of Grade-1 phonics target vocabulary).
+
+    Distinctive composition: 2 matching + 2 word-guess + 1 word-
+    scramble. Same composition shape as read-vowel-teams (pair-
+    coherence in materials structure too). Manipulative-cut-outs
+    variety mode supplies the 3 canonical r-controlled patterns
+    (ar / or / merged-er-ir-ur) as letter-tile prompt set.
+
+    Class B FLEXIBLE substrate: composes against animals + foods
+    image-library themes (r-controlled-rich vocabulary: car, bird,
+    horse, turtle, shark, corn, farm, fork). Animals theme
+    particularly rich (bird, turtle, shark, horse, hornet, otter).
+
+    K-3 multilingual classroom relevance: r-controlled vowels are
+    English-CVC-pattern-specific. R-coloring of vowels is a
+    distinctive feature of English (American English) + a few other
+    languages. Other locales handle R-positioning differently —
+    Spanish has tap-R vs trill-RR distinction (caro vs carro);
+    Portuguese has flap-R vs strong-R distinction with regional
+    realization (paulista vs carioca R-final); Italian has flap-R
+    that doesn't color preceding vowels; German has uvular R that
+    behaves like a vowel after vowel (Bahnhof — the R after A
+    softens to schwa). Locale-variant sparse-overrides per Phase 3
+    reframe R-work against locale-canonical R-positioning rather
+    than transpose English r-controlled vowels.
+
+curriculumStandards:
+  - CCSS.RF.2.3c
+  - CCSS.RF.1.3
+  - EYFS.ELG.LIT
+  - IB-PYP.HowWeExpressOurselves
+
+assessmentCriteria:
+  en: |
+    By end of 1-week unit:
+      - Identify the r-controlled vowel pattern (ar / or / er-ir-ur)
+        in a written word and produce the corresponding bossy-R
+        sound in 8 of 10 trials.
+      - Read 8 unfamiliar r-controlled-vowel words (e.g., 'shark',
+        'first', 'storm', 'burn') correctly in 7 of 10 trials.
+      - Apply the bossy-R rule to predict the vowel sound from the
+        ar/or/er/ir/ur pattern in 6 of 10 trials.
+
+    Differentiation:
+    - Pre-K: read-only r-controlled-vowel review with picture support;
+      ar + or sound matching only.
+    - Kindergarten: 3 r-controlled patterns (ar / or / er) +
+      independent reading.
+    - Grade 1+: extend full r-controlled set (ar / or / er-ir-ur) +
+      bridge to read-common-prefixes-suffixes (un-, re-, -ed, -ing,
+      -er) for morphological-decoding work.
+
+recommendedDeckIds: []
+recommendedPdfDeckIds: []
+lessonPlanId: null
+generatedBy: manual

@@ -2,7 +2,7 @@
 # Arc 14 Phase 2 (early-literacy / written-expression +1 from Arc 13).
 # Resolves Arc 13 label-a-picture-with-1-word forward-pointer.
 
-targetSlug: label-with-noun-phrase
+targetSlug: label-picture-with-noun-phrase
 language: en
 title:
   en: "Label with a Noun Phrase — the red apple, a big dog"

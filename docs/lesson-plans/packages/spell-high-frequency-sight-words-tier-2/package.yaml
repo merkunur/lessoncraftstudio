@@ -2,7 +2,7 @@
 # Arc 14 Phase 2 (early-literacy / spelling +1 from Arc 13 baseline).
 # Resolves Arc 13 spell-high-frequency-sight-words-tier-1 forward-pointer.
 
-targetSlug: spell-tier-2-sight-words
+targetSlug: spell-high-frequency-sight-words-tier-2
 language: en
 title:
   en: "Tier 2 Sight Words — said, what, when, where, why, how"

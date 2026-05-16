@@ -137,7 +137,7 @@ materials:
     customizationParameters:
       imageSource: theme
       themeName: miscellaneous
-      mode: word-cards
+      mode: variety
       itemCount: 25
       itemSize: small-1in
       colorMode: color

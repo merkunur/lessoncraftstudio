@@ -144,7 +144,7 @@ materials:
     customizationParameters:
       imageSource: theme
       themeName: weather
-      mode: stage-set
+      mode: variety
       itemCount: 16
       itemSize: medium-2in
       colorMode: color

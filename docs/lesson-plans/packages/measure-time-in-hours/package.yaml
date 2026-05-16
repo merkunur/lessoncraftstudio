@@ -154,7 +154,7 @@ materials:
     customizationParameters:
       imageSource: theme
       themeName: animals
-      mode: counters
+      mode: variety
       itemCount: 24
       itemSize: small-1in
       colorMode: color

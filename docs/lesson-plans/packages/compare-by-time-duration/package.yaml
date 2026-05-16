@@ -146,7 +146,7 @@ materials:
     customizationParameters:
       imageSource: theme
       themeName: miscellaneous
-      mode: event-set
+      mode: variety
       itemCount: 16
       itemSize: medium-2in
       colorMode: color

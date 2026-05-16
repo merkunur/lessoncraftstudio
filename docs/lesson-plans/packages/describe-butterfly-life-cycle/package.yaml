@@ -141,7 +141,7 @@ materials:
     customizationParameters:
       imageSource: theme
       themeName: insects-and-bugs
-      mode: stage-set
+      mode: variety
       itemCount: 16
       itemSize: medium-2in
       colorMode: color

@@ -166,7 +166,7 @@ materials:
     customizationParameters:
       imageSource: theme
       themeName: animals
-      mode: base-ten-blocks
+      mode: variety
       itemCount: 40
       itemSize: small-1in
       colorMode: color

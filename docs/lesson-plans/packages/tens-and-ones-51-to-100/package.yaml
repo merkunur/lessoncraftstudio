@@ -141,7 +141,7 @@ materials:
     customizationParameters:
       imageSource: theme
       themeName: miscellaneous
-      mode: base-ten-blocks
+      mode: variety
       itemCount: 100
       itemSize: small-1in
       colorMode: color

@@ -147,7 +147,7 @@ materials:
     customizationParameters:
       imageSource: theme
       themeName: miscellaneous
-      mode: property-set
+      mode: variety
       itemCount: 24
       itemSize: small-1in
       colorMode: color

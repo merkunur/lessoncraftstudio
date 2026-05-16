@@ -140,7 +140,7 @@ materials:
     customizationParameters:
       imageSource: theme
       themeName: breakfast
-      mode: counters
+      mode: variety
       itemCount: 40
       itemSize: small-1in
       colorMode: color

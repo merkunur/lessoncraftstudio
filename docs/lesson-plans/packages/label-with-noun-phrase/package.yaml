@@ -139,7 +139,7 @@ materials:
     customizationParameters:
       imageSource: theme
       themeName: animals
-      mode: word-cards
+      mode: variety
       itemCount: 24
       itemSize: small-1in
       colorMode: color

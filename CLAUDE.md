@@ -3672,23 +3672,37 @@ Any of the three produces a §A.13.6 firing at Phase 1 commencement when canonic
 - Per-package YAML → `docs/lesson-plans/packages/<slug>/package.yaml`
 - Generator inventory → canonical generator code paths + §A.13.35 canonical-mode tables
 
-**Four sub-doctrines (all consolidated here):**
+**Six sub-doctrines (all consolidated here):**
 
 1. **Slug-grounding.** Taxonomy slugs in commission specs verify against `learning-targets.json` strand/target enumeration BEFORE locking spec. Naming-from-memory or naming-from-prior-session-close-out is the defect class.
 2. **Generator-inventory completeness.** At any commission referencing the canonical generator set, verify the inventory at composition time, not against prior count or assumed enumeration. New generators added since the last reference are silent expansions of scope.
 3. **Per-package × per-generator matrix as mass-run scope.** Mass-run commission scope IS the full (package, generator) matrix, NOT the materials-yaml union. A package's `materials:` list enumerates the materials it composes; the mass-run scope at a generator-extension commission is every package whose class-template includes that generator, regardless of whether the specific package YAML currently references it.
 4. **Generator-executability verification.** YAML-reference-existence is insufficient. A package YAML can reference a generator that doesn't yet exist OR whose code path doesn't yet handle the package's parameters. Verify the actual code path the generator runs against — not just the reference at the YAML.
+5. **Strand-state baseline grounding.** When a commission spec references parent-class strand state (e.g., "phonics-decoding currently 2/7"), verify against canonical strand state per `frontend/config/learning-targets.json` enumeration BEFORE locking spec. Phase 1 commencement that reads spec-stated strand state without empirical re-verification can ship against stale state — counts drift across arcs as packages land + strands advance. The discipline extends sub-doctrine #1 (slug-grounding) from per-slug to per-strand-aggregate scope: same canonical SoT (`learning-targets.json`), broader inspection unit.
+6. **Commission-spec drafting from prior-close-out text.** When drafting a follow-on commission spec (e.g., P2.3 follow-on after P2.2 close), ground the new spec against the prior commit's actual close-out scope + body — NOT against memory of what was projected in earlier commits. Drafting-from-prior-close-out-text without canonical grounding propagates stale framing forward (e.g., projecting "Phase 4 ~15-20 entries" because the P2.1 close-out said that, when P2.2 commit's actual close-out shipped Phase 4 closed with 1 entry). The discipline complements sub-doctrines #1-4 at the assistant-side commission-spec authoring boundary — canonical SoT for follow-on specs is the prior commit's actual body, not the chain-earlier projection.
 
 **How to apply (Phase 0 of any commission referencing canonical artifacts):**
 - Read the canonical SoT for each named artifact (taxonomy entry, package YAML, generator code path).
 - Cross-reference against the commission spec's claims. Surface divergence as §A.13.6 firing BEFORE Phase 1 execution.
 - Cite canonical artifact paths in commission spec + close-out.
 
-**Empirical anchors (4 Arc 17 firings):**
+**Empirical anchors:**
+
+*Arc 17 firings (sub-doctrines 1-4):*
 - Arc 17 Phase 1.3 slug-grounding firing — commission-spec slug naming diverged from `learning-targets.json` strand enumeration; surfaced at Phase 1 commencement.
 - Arc 17 P2 numeral-cards generator-inventory firing — mass-run spec assumed inventory matching prior session's count; canonical state had additional generators added since.
 - Arc 17 P2 identify-community-places matrix-scope firing — spec assumed mass-run scope as materials-yaml union per package; canonical scope is per-package × per-generator matrix (broader by construction).
 - Arc 17 Phase 1.4 clock-mat generator-executability firing — package YAML references clock-mat generator; code path didn't exist OR didn't handle the package's parameters; YAML-reference-existence was insufficient.
+
+*Arc 18-19 firings (sub-doctrine 5 — strand-state baseline grounding):*
+- Arc 17 Phase 1.3 strand-state drift firing — addition-subtraction strand state at spec drift from canonical at commission-spec drafting.
+- Arc 18 Phase 1.3 vocabulary-class-strand-start infeasibility — spec assumed vocabulary class-template applied at strand-start; canonical strand-state surfaced infeasibility at Phase 0.
+- Arc 19 Phase 1.3 strand-start framing firing — phonological-awareness strand-state at spec drifted from canonical.
+- Arc 19 Phase 1.4 spelling-and-encoding baseline drift (`bc128f4b` firing #1) — spec claimed 1/5 PARTIAL; empirical 2-3/5. Same §A.13.32 commission-spec drafting refinement pattern as Phase 1.3 strand-state drift firings.
+
+*Arc 19 + currency-removal firings (sub-doctrine 6 — drafting-from-prior-close-out anti-pattern):*
+- Arc 19 P2.3 commission-spec firing (`22338d69` firing #6) — P2.3 spec drafted from P2.1 close-out text framing ("Phase 4 ~15-20 entries projected") without grounding against P2.2 commit's actual close-out scope-reduction (1 honest fit; Phase 4 closed). Surfaced at Phase 4 entry recon; resolved via Interpretation-1 operator ratification (skip Phase 4; fold finding into close commit body).
+- Currency-removal Phase 1c firing (`0d56e025`) — presumed `money` sub-track wrapper in `frontend/config/learning-targets.json` did not exist as a separate JSON object; currency entries are flat siblings within `measurement`'s single `targets[]` array (line 251-261). Sub-track-removal sub-decision moot; corrected to flat-entry deletion via §A.13.6 firing correction. Spec was drafted against assumed JSON structure rather than actual `learning-targets.json` content at Phase 1 commencement.
 
 **When-to-apply trigger:** at any commission whose spec names canonical artifacts (taxonomy slugs / package YAMLs / generator inventory / class-template references). Phase 0 commission-spec authoring step performs the verification; divergence halts spec-lock and routes to operator-strategic re-adjudication per §A.13.6 paired discipline.
 
@@ -3700,7 +3714,9 @@ Any of the three produces a §A.13.6 firing at Phase 1 commencement when canonic
 
 The four together form the substrate-verification family at distinct inspection boundaries. §A.13.32 is the earliest-boundary defense in the family: §A.13.21 fires at recommendation, §A.13.22 at audit-doc carry-forward, §A.13.31 at per-instance content authoring, §A.13.32 at commission-spec composition itself — before any of the downstream boundaries get a chance to fire.
 
-Origin: Arc 17 Phase 1.3 + P2 numeral-cards + P2 identify-community-places + Phase 1.4 clock-mat — four firings in single arc cite already-backlogged candidates as preventable-causes; doctrine fold absorbs the pattern.
+Sub-doctrines 5 + 6 extend §A.13.32's reach to **strand-state baseline grounding** (per-strand-aggregate verification at commission-spec scope) + **drafting-from-prior-close-out anti-pattern** (assistant-side commission-spec authoring boundary). Together with the original 4, §A.13.32 covers commission-spec composition at slug + generator + matrix + executability + strand-state + prior-close-out-text boundaries — 6 distinct surfaces at the spec-authoring layer.
+
+Origin: Arc 17 Phase 1.3 + P2 numeral-cards + P2 identify-community-places + Phase 1.4 clock-mat (sub-doctrines 1-4); Arc 17 P1.3 + Arc 18 P1.3 + Arc 19 P1.3 + Arc 19 P1.4 strand-state baseline drift (sub-doctrine 5); Arc 19 P2.3 `22338d69` firing #6 + currency-removal `0d56e025` Phase 1c firing (sub-doctrine 6); doctrine fold absorbs the pattern at Round 3.
 
 #### A.13.33 Phase 0 explicit-methodology reporting at substrate audit
 
@@ -3713,6 +3729,7 @@ Audit-report's findings section explicitly states for every count:
 2. **Locale scope** — en-only / en+pt / all-locales / per-locale stratified
 3. **Status filter** — published-only / all-status / pre-publish-staging-only
 4. **Temporal anchor** — pre-arc / post-arc / at-commencement / latest-known
+5. **Parent-class vs sub-track layer** — strand-state reporting distinguishes parent-class strand counts (e.g., "measurement" at parent-class layer, used for C4 saturation) from sub-tracks within (e.g., "money" sub-track within "measurement"). Reports must disclose which layer the count operates at. When a sub-track is added or dropped (e.g., currency-removal commission at `0d56e025` dropped money sub-track within measurement), parent-class saturation status is preserved at rebaselined inventory — but the report MUST disclose whether the count reflects parent-class layer or sub-track layer. Silent layer-switch is a methodology-shift failure mode within strand-state reporting; same shape as the denominator-shift failure mode at dimension 1, but operating at the strand-aggregate axis instead of the package-count axis.
 
 Two successive Phase 0 audits with the same denominator-label but different scope underneath is the silent failure mode. Explicit-methodology reporting prevents it by construction.
 
@@ -3727,6 +3744,8 @@ Each phase's Phase 0 counts used different denominators without disclosure:
 - Phase 1.5 used en+pt union denominator (locale-bilingual subset)
 
 Reconciliation cost operator-attention at Phase 1.5 commencement; explicit-methodology reporting at Phase 1.3 + 1.4 close-outs would have surfaced the denominator shifts at the earlier boundary. The numerics (154→157, 79→66) read as content-state-change without methodology disclosure; with methodology, they read as scope-filter-change, which is the operationally-correct framing.
+
+**Empirical anchor for dimension 5 (parent-class vs sub-track):** currency-removal commission at `0d56e025` dropped 2 packages (identify-coin-values + recognize-money-amounts-up-to-1-unit) from `measurement`'s money sub-track. C1 SATISFIED rebaselined 203/203 → 201/201 at parent-class layer. Measurement strand SAT preserved at rebaselined inventory — other sub-tracks (time + length + weight + capacity + size-comparison) unaffected by money-sub-track removal. Report at `0d56e025` commit body explicitly discloses "money sub-track ceases to exist; measurement parent-class remains SAT at rebaselined inventory" — canonical example of dimension 5 disclosure preventing silent layer-switch.
 
 **When-to-apply trigger:** at any Phase 0 audit emitting count-based findings, regardless of audit shape. Counts that look comparable across phases must be denominator-comparable, or denominator differences must be disclosed.
 
@@ -3765,6 +3784,59 @@ Both packages have legitimate strand-canonical pedagogy; both ship at filesystem
 **Cross-references:** §A.13.31 (per-instance content-awareness) — the existing package's strand framing is in its canonical artifact, NOT inferrable from the slug or activity name. Parallel-strand-framing requires §A.13.31's discipline as a prerequisite.
 
 Origin: Arc 17 Phase 1.4 read-time-vs-tell-time pattern surfacing.
+
+**Additional empirical anchors (Arc 18-19):**
+- Arc 18 P1.2 read-time-vs-tell-time pattern reinforcement — measurement-strand clock-mat manipulative-first + telling-time-productive-vocabulary parallel framing applied at form-numerals + tell-time-to-quarter-hour close.
+- Arc 19 Phase 1.4 phonological-awareness vs phonics-decoding strand-boundary — both strands legitimately frame partial overlap at letter-sound-blending observable activity; phonological-awareness frames pre-decoding (oral phoneme manipulation) while phonics-decoding frames letter-symbol-decoding. Both ship at filesystem level with `compositionalRationale` strand-framing distinction per §A.13.34 structural requirement.
+
+#### A.13.34.1 FULL-OVERRIDE threshold-class enumeration
+
+Locale variants of canonical packages diverge from the en canonical at one of three threshold classes. Classifying the threshold at Phase 1 commencement (during pt or other-locale variant authoring) governs which sparse-override format applies.
+
+- **Materials-level locale-divergence:** the package's pedagogical content is preserved across locales; only the materials' linguistic surface needs translation. Sparse-override format: `compositionalRationale.<locale>` describes per-material linguistic adjustments. Empirical pattern: most pt locale variants across Arc 17/18/19 follow this class (~80% of pt variants).
+
+- **Pedagogy-level locale-divergence:** the package's underlying pedagogy is locale-specific (e.g., pt-BR has no r-controlled vowels; pt-BR uses digraph inventory `LH/NH/RR/SS/CH/Ç` vs en `CH/SH/TH/WH/PH`). Sparse-override REFRAMED format: `compositionalRationale.<locale>` documents the pedagogy-level locale-divergence + reframes the content within the locale's canonical-curriculum SoT (per §A.13.34.2 below). Empirical anchors at `bc128f4b` firing #5: Arc 19 P1.4 read-r-controlled-vowels pt (reframed as R-positioning, 4 canonical positions per pt-BR phonics canon) + read-vowel-teams pt (reframed as accent-marking + nasal-vowel digraphs) + spell-words-with-digraphs pt (pt-BR digraph inventory) + write-a-simple-sentence-with-picture-prompt pt (sentence-structure divergence: pro-drop, adjective-post-noun, gender-agreement, ser/estar).
+
+- **No-equivalent-canonical-target divergence:** the package's content has no equivalent in the locale's canonical curriculum (e.g., USD currency packages had no canonical pt-BR equivalent; BRL currency required entirely new substrate, and each non-en-non-pt locale would have required its own coin/bill set per locale-currency multiplication problem). Disposition: typically either substrate-fill (author the locale-equivalent substrate at operator-coordinated commission) OR pkg-removal (drop the package — see currency-removal commission at `0d56e025` for the canonical empirical case). Sparse-override is NOT viable at this class because there is nothing locale-equivalent to reframe against.
+
+**How to apply.** At Phase 1 of any locale-variant authoring commission, classify each variant package against this enumeration BEFORE locking the sparse-override format:
+
+- Materials-level → standard sparse-override (`compositionalRationale.<locale>` linguistic-adjustments only)
+- Pedagogy-level → REFRAMED sparse-override with extensive `compositionalRationale.<locale>` locale-divergence documentation citing the locale's canonical-curriculum SoT
+- No-equivalent → operator-strategic adjudication on substrate-fill vs pkg-removal; sparse-override does not apply
+
+**Why this matters.** Without explicit threshold-class enumeration, pedagogy-level locale-divergence cases were resolved ad-hoc per package, costing operator-attention proportional to N variants. Currency-removal commission (`0d56e025`) joint-adjudication resolved 7 dispositions for the no-equivalent class in one batched operator-strategic decision; the threshold-class enumeration formalizes that pattern for future locale-variant commissions.
+
+**Cross-reference:** §A.13.41 Class (c) parallel-framing test — pedagogy-level locale-divergence per §A.13.34.1 is structurally a Class (c) parallel framing under distinct canonical-curriculum SoTs; the threshold-class enumeration is the operationalization at the locale-variant boundary.
+
+Origin: Arc 18 P1.2 currency pt locale-canonical-curriculum-divergence + Arc 19 P1.4-1.5 phonics + writing pt FULL-OVERRIDE adjudication (`bc128f4b` firing #5) + currency-removal `0d56e025` no-equivalent canonical resolution.
+
+#### A.13.34.2 Locale-canonical-curriculum-divergence sub-class
+
+Per pedagogy-level locale-divergence per §A.13.34.1 above. When a locale's school-system has a distinct canonical-curriculum SoT (CCSS for en + BNCC for pt-BR + locale-equivalents for other Tier 1-4 locales), pedagogy-level reframing MUST anchor to the locale's canonical-curriculum SoT, NOT en CCSS. The locale's `compositionalRationale.<locale>` cites the relevant locale-canonical-curriculum reference (e.g., BNCC `EF01LP*` codes for pt-BR Year-1 literacy; BNCC `EF02MA*` codes for pt-BR Year-2 math).
+
+**How to apply.** When authoring pedagogy-level REFRAMED sparse-override per §A.13.34.1:
+
+1. Identify the locale's canonical-curriculum SoT (CCSS for en; BNCC for pt-BR; per-locale curriculum framework for other locales).
+2. Locate the locale-canonical-curriculum entry that frames the pedagogy-level reframing (e.g., BNCC entry for pt-BR phonics convention).
+3. Cite the locale-canonical-curriculum reference in `compositionalRationale.<locale>` alongside the locale-divergence documentation.
+4. The locale-canonical-curriculum citation is structural — without it, the reframing reads as ad-hoc deviation from en canon rather than principled alignment with locale canon.
+
+**Empirical anchors:**
+- pt-BR phonics divergence from en CCSS — Arc 19 P1.4 read-r-controlled-vowels (R-positioning per BNCC pt-BR phonics canon, 4 positions) + read-vowel-teams (accent-marking + nasal-vowel digraphs per BNCC) + spell-words-with-digraphs (pt-BR `LH/NH/RR/SS/CH/Ç` digraph inventory per BNCC)
+- pt-BR sentence-structure divergence — Arc 19 P1.5 write-a-simple-sentence-with-picture-prompt pt (pro-drop, adjective-post-noun, gender-agreement, ser/estar per BNCC pt-BR sentence-structure canon)
+- pt-BR currency canonical (pre-removal) — Arc 18 P1.2 currency pt FULL-OVERRIDE; subsequently retired at currency-removal commission `0d56e025` per no-equivalent-canonical-target class
+
+**Generalization to future Tier 1-4 locale variants:** each locale's pedagogy-level locale-divergence at sparse-override REFRAMED format MUST cite the locale's canonical-curriculum SoT (es + nl Track-C scaling at first first-publish per locale; future fr + it + de + sv + da + no + fi extensions per §19 launch-tier sequencing).
+
+**When-to-apply trigger:** at any locale-variant commission authoring sparse-override REFRAMED format for pedagogy-level locale-divergence per §A.13.34.1. The locale-canonical-curriculum citation is load-bearing for the reframing's principled grounding; without it, the reframing reads as ad-hoc.
+
+**Cross-references:**
+- §A.13.34.1 (FULL-OVERRIDE threshold-class enumeration) — parent classification; this sub-section operationalizes the pedagogy-level class
+- §A.13.32 (canonical-artifact-grounding) — locale-canonical-curriculum citation is a canonical-artifact per the §A.13.32 grounding discipline
+- §A.13.41 (authoring-drift recognition) — locale-curriculum-divergence is Class (c) parallel framing under distinct canonical SoTs
+
+Origin: Arc 18 P1.2 currency pt + Arc 19 P1.4-1.5 phonics + writing pt empirical pattern; currency-removal `0d56e025` no-equivalent boundary case; codified at Round 3 [DOCS] fold-cycle.
 
 #### A.13.35 Canonical generator-mode-verification at extension boundaries
 
@@ -3906,6 +3978,115 @@ The three tiers ship in sequence per commission cycle. Tier (c) is the working-m
 - §A.8.2 (multi-copy doctrine-file drift discipline) — scope-doc amendments at P2 close-out follow §A.8.2 canonical-vs-alternate copy discipline.
 
 Origin: Arc 14 / 15 / 16 / 17 4-arc empirical reliability + Arc 17 P2 PC-power-loss recovery validating the filesystem-level discipline sub-doctrine.
+
+#### A.13.39 Fold-cycle doctrine-content empirical-grounding at Round 1 + Round 2 review
+
+[DOCS] fold-cycle Round 1 + Round 2 review surfaces MUST include empirical-content verification of every doctrine-table cell, canonical-mode list, canonical-artifact path, and cited line range against the canonical source. Fold-cycle authoring that proceeds from training-fluency / memory / prior-session-text rather than canonical-source verification produces doctrine-table defects that ship into canonical and propagate to downstream commissions until empirically caught.
+
+**Anti-pattern pole (the defect class):** authoring doctrine table cells from training-fluency at fold-cycle. Plausible-sounding canonical-mode names / class-template material counts / generator inventories surface as emit-correct content but diverge from canonical SoT. Round 1 ships the defect; Round 2 review preserves the defect without empirical-content verification dimension; downstream commission catches the defect at its own Phase 0 audit (per §A.13.32 + §A.13.35 maintenance rules). The doctrine designed to prevent training-fluency canonical-naming fires at its own instance until §A.13.39 closes the gap structurally at the fold cycle itself.
+
+**How to apply (Round 1 + Round 2 review of [DOCS] fold-cycle commission):**
+
+Round 1 review dimensions (existing): structural-shape (sub-section template), cross-reference completeness, anti-pattern pole sharpness, when-to-apply trigger specificity, empirical-anchor commit-hash citation, origin line presence.
+
+Round 2 review **adds 6th dimension: empirical-content verification.** For each canonical-mode table cell / class-template material count / generator-inventory entry / canonical-artifact path / cited line range introduced by Round 1:
+
+1. Read the canonical SoT directly (Read tool + Grep against the cited file path + line-range inspection).
+2. Compare the doctrine cell's claimed content against the canonical source.
+3. Flag divergence as §A.13.6 firing BEFORE Round 2 surgical-fixes commit.
+4. Correct the cell + cite the canonical SoT in the empirical-anchor block.
+
+**Why this matters.** §A.13.32 governs canonical-artifact-grounding at commission-spec drafting time; §A.13.39 (this section) governs the SAME discipline at [DOCS] fold-cycle Round 1 + Round 2 review. Without §A.13.39, training-fluency authoring of doctrine content ships into canonical and propagates structurally — the doctrine itself becomes the defect class that other commissions encounter at their substrate-audit boundary, costing operator-attention proportional to the propagation distance.
+
+**Empirical anchor:** §A.13.35 self-firing correction at commit `694f9823` (Arc 18 Phase 0). Round 1 fold commit `2bf7723b` shipped 5-mode `manipulative-cut-outs` canonical table (`single-repeat` + `base-ten-blocks` + `3d-shape-nets` + `counters` + `clock-pieces`) authored from training-fluency; Round 2 fold commit `6a6f69b0` preserved the defect via surgical-fixes pass that did NOT include empirical-content verification dimension. Arc 18 Phase 0 substrate audit per §A.13.32 caught the defect at canonical source verification: `frontend/scripts/lib/manipulative-cut-outs-package-loader.ts:30` defines only 2 modes (`single-repeat | variety`). 4 of 5 modes in the doctrine table were likely confusions with `themeName` values, not canonical modes. The discipline §A.13.32 mandates grounding against caught its own substrate violation; the very doctrine designed to prevent training-fluency canonical-naming fired at its own instance — canonical example of §A.13.39's necessity.
+
+**When-to-apply trigger:** at every Round 1 + Round 2 review of any [DOCS] fold-cycle commission. The 6th verification dimension applies uniformly across all doctrine content emitted at fold cycles — not just generator-mode tables, but class-conditional disposition tables (§A.13.37), canonical-artifact paths (§A.13.32 sub-doctrines), and cited line ranges throughout new + amended sub-sections.
+
+**Cross-references:**
+- §A.13.32 (canonical-artifact-grounding-at-composition-time) — parent discipline at commission-spec boundary; §A.13.39 is the [DOCS]-fold-cycle specialization
+- §A.13.35 (canonical generator-mode-verification) — the empirical anchor at fold cycle Round 1 + Round 2 corrected via §A.13.39 discipline gap
+- §A.13.6 (spec-vs-shipped-contract validation) — paired discipline for surfacing classification errors at fold cycle
+
+Origin: §A.13.35 self-firing correction at `694f9823` (Arc 18 Phase 0) + Round 3 [DOCS] fold-cycle absorption.
+
+#### A.13.40 Operational-tooling canonical-patterns
+
+Production scripts that compose shell tools (chained-bash pipes, pscp / plink, tar extract, Puppeteer headless browser) have toolchain-specific failure modes that recur across commissions when undocumented. These patterns are NOT general programming hygiene; they are concrete tool-and-platform interactions that have empirically caused operational failures at production-script execution time. Capturing them as canonical patterns prevents re-diagnosis cost per commission.
+
+**Anti-pattern pole (the defect class):** invoking a tool with syntactically-plausible CLI args that silently fail on a specific platform OR a pipe operator that hangs on a specific subprocess-cleanup pattern. Surface reads as "command failed without obvious error" or "hung indefinitely with no diagnostic output." Re-diagnosing the toolchain failure mode per commission wastes operator-attention proportional to recurrence rate.
+
+**Canonical patterns (current as of `22338d69` + `1bdc2789`):**
+
+1. **Puppeteer `browser.close()` + chained-bash `| tail -N` pipes hang.** Chained-bash pipes hang on Puppeteer browser.close() because the Puppeteer subprocess cleanup doesn't release pipe stdin/stdout until process-exit; downstream pipe stage blocks indefinitely waiting for upstream EOF.
+   - **Use:** single-generator-per-job invocation: `node scripts/<gen>.js --all-packages --locales en,es --concurrency 4 --resume`
+   - **Anti-pattern:** `node scripts/gen-A.js ... | tail -20 && node scripts/gen-B.js ... | tail -20` — hangs at first browser.close() event
+   - Surfaced empirically at Arc 18 P2 (`1bdc2789` commit body).
+
+2. **pscp CLI syntax on Windows requires `-l user host:path`.** PuTTY's `pscp` (Windows scp equivalent) requires the `-l user host:path` form; the POSIX-standard `user@host:path` form silently fails on Windows — file is not uploaded, but exit code is 0.
+   - **Use:** `pscp -pw <pw> -l root <local> <host>:<remote-path>`
+   - **Anti-pattern:** `pscp -pw <pw> <local> root@<host>:<remote-path>` — exit code 0, file NOT uploaded
+   - Surfaced empirically at Arc 18 P2 deploy when a ~590-PDF tarball appeared to upload successfully but Hetzner-side `ls` showed no file post-pscp.
+
+3. **tar -C extract path ordering preserves entry-relative paths.** `tar -C <dir> <pattern>` writes entries with paths relative to the working directory at archive time; extraction with `tar -C <dir>` produces those same relative paths under the new `<dir>`. Mismatch between archive-time and extract-time directory framing produces nested-path defects.
+   - **Use (archive at `frontend/.scratch/<gen>` → extract to `materials/<gen>`):** archive with `tar -C frontend/.scratch/<gen> en es` producing entries `en/*` + `es/*`; extract with `tar -C materials/<gen>` producing clean `materials/<gen>/en/*` + `materials/<gen>/es/*`
+   - **Anti-pattern:** archive with `tar -C frontend/.scratch <gen>/en <gen>/es` producing entries `<gen>/en/*`; extract with `tar -C materials/<gen>` produces nested `materials/<gen>/<gen>/en/*` (double-`<gen>` path)
+   - Surfaced empirically at Arc 19 P2.3 numeral-cards pilot (`22338d69` commit body): nested-path defect required `cp -r nested/en/. canonical/en/ && rm -rf nested` cleanup; subsequent 7 generators used the corrected tar pattern.
+
+4. **Curl-verification at 6-dimension grep pattern** — cross-references §A.13.13 (fan-out verification 6-dim grep) + §A.13.28 (Phase 4 production-canonical-path verification via curl). The 6-dimension grep coverage is itself an operational-tooling pattern for verifying mechanical-fan-out completeness post-edit.
+
+**How to apply.** At any commission spec that composes shell-tool invocation, audit against this canonical-patterns list at Phase 1 inventory. Surface divergence as §A.13.6 firing BEFORE execution. Re-running the same canonical pattern across commissions is the structural prevention; the patterns above are the empirical canon current as of Round 3 fold cycle.
+
+**When-to-apply trigger:** at any commission that invokes Puppeteer / pscp / plink / chained-bash pipes / tar extract / curl verification in a production-script context (typically Pillar 4 / Pillar 5 mass-run + CDN deploy commissions; future scaling-arc commissions per §A.14).
+
+**Maintenance rule.** New operational-tooling patterns are added to this canonical-patterns list at the commission that empirically surfaces them — NOT via separate [DOCS] fold-cycle commission. Pattern: empirical surface at commission → §A.13.6 firing batched into the commission's commit body → canonical-list amendment in the same commit OR at the next fold cycle if the operator routes it that way. The pattern matches §A.13.35's canonical-mode table maintenance rule.
+
+**Cross-references:**
+- §A.5 Deployment (TWO-STEP deploy protocol; deploy.sh + update-worksheet.sh)
+- §A.13.13 + §A.13.16 (fan-out verification 6-dimension grep)
+- §A.13.28 (Phase 4 production-canonical-path verification via curl)
+- §15.17 (salvage scripts pattern — operational tooling at recovery boundary)
+- §A.14 Scaling Arc audit doctrine — future operational-tooling patterns at scale-ceiling boundaries
+
+Origin: Arc 18 P2 hung-job (`1bdc2789` commit body — Puppeteer + pscp empirical lessons) + Arc 19 P2.3 tar-extract nested-path defect (`22338d69` commit body) + Round 3 [DOCS] fold-cycle absorption.
+
+#### A.13.41 Authoring-drift recognition discipline — class (a)/(b)/(c) framework
+
+When a canonical-state-vs-shipped-state divergence surfaces at a commission's Phase 0 audit, classify into one of three structural classes BEFORE locking remediation:
+
+- **Class (a) Authoring drift:** the shipped package / data row / config entry diverges from canonical due to authoring error at original ship time. The canonical (doctrine, schema, source-of-truth) is correct. Remediation: retrofit the shipped state to canonical via [FIX][LESSON-PLANS] / [FIX][SCHEMA] / [FIX][AUTHORING] commission.
+
+- **Class (b) Doctrine drift:** the doctrine / canonical reference is empirically wrong; the shipped state reflects correct empirical reality. Remediation: amend the doctrine via [FIX][DOCS] commission AND audit any prior commissions that locked against the wrong doctrine.
+
+- **Class (c) Parallel framing:** distinct strands / packages / framings legitimately at the same observable activity. Both shipped states are correct under different framings; the divergence is structural-pedagogical-pluralism, not error. Remediation: ratify both at filesystem level with explicit `compositionalRationale` distinction per §A.13.34.
+
+**Anti-pattern pole (the defect class):** reflexive Class (b) classification (amend the doctrine) when the divergence is actually Class (a) (authoring drift). The failure mode produces doctrine-table whiplash — amendments that later need un-amending, while the authoring drift remains unfixed. Symmetric anti-pattern: reflexive Class (a) classification when the doctrine is empirically wrong, locking the shipped state to canonical that drifts further from reality.
+
+**How to apply (Phase 0 of any commission surfacing canonical-state-vs-shipped-state divergence):**
+
+1. **Identify the divergence.** What does canonical say? What does shipped state say? Quote both verbatim with source-of-truth paths.
+2. **Verify canonical is current.** Per §A.13.32 grounding discipline, confirm the canonical reference is itself empirically verified (not stale doctrine, not training-fluency authoring per §A.13.39).
+3. **Test for Class (c) first.** Could both states legitimately coexist as parallel framings? Per §A.13.34, observable-activity overlap does NOT mean duplicate. If both have legitimate strand / pedagogical framing, Class (c) applies; both ship with `compositionalRationale` distinction.
+4. **Test for Class (b) second.** Does the canonical reference itself fail empirical-content verification per §A.13.39? If yes, Class (b) applies; amend doctrine + audit downstream.
+5. **Default to Class (a).** If canonical is current AND parallel framings don't apply, Class (a) applies; retrofit the shipped state.
+
+**Why this matters.** Reflexive Class (b) classification ships doctrine amendments that later need reversing; reflexive Class (a) classification locks against wrong canonical. The §A.13.37 literacy 8-vs-7 material reversal at Arc 19 P2.2 (`f41d4146`) is the canonical empirical case for Class (b) → Class (a) reclassification: Arc 19 P1.4 close (`bc128f4b`) initially classified the divergence as Class (b) "§A.13.37 documents literacy = 8 materials; empirical canonical = 7"; Arc 19 P2.2 close re-read the Phase 1.1-1.3 packages (8 materials WITH sentence-strips) + identified the Phase 1.4-1.5 6 packages as the drift; reclassified to Class (a) authoring drift. §A.13.37 doctrine table is correct at 8 materials; 6 packages need sentence-strips retrofit. Per `f41d4146` commit body firing #2: "§A.13.37 doctrine table was CORRECT all along; my Phase 1.4 audit of identify-letter-sounds-vowels (Arc 14; old shape) led me astray."
+
+**Empirical anchors:**
+- §A.13.37 literacy material count: Class (b) → Class (a) reclassification at `bc128f4b` (initial Class (b)) → `f41d4146` (reversal to Class (a) + 6-package retrofit queue)
+- §A.13.35 `manipulative-cut-outs` canonical-mode table: Class (b) — doctrine empirically wrong (training-fluency authoring at Round 1 fold); corrected at `694f9823`
+- §A.13.34 read-time-vs-tell-time pattern (Arc 17 P1.4): Class (c) — parallel strand framings legitimately at same observable activity (measurement-strand clock-mat manipulative-first + telling-time-productive-vocabulary); both ship with `compositionalRationale` distinction
+- §A.13.35 `word-cards` mode-drift in 3 Arc 14 packages (`bc128f4b` firing #4): Class (a) — 3 packages (read-blends-and-digraphs + spell-tier-2-sight-words + label-with-noun-phrase) need retrofit to canonical `single-repeat | variety`; no doctrine amendment per Arc 19 P2.1 verification (`7c86233d`)
+- §A.13.34 pt FULL-OVERRIDE pedagogy-level locale-divergence (Arc 19 P1.4-1.5; `bc128f4b` firing #5): Class (c) — pt-BR phonics canon (BNCC) legitimately diverges from en CCSS at the canonical-curriculum SoT layer
+
+**When-to-apply trigger:** at any Phase 0 audit surfacing canonical-state-vs-shipped-state divergence. Run a/b/c classification BEFORE locking remediation; surface class to operator at Phase 0 close (or to assistant per §A.13.36 if not strategic-direction). Default-to-Class-(a) discipline prevents reflexive Class (b) whiplash; default-to-Class-(c)-test-first prevents missing legitimate parallel framings.
+
+**Cross-references:**
+- §A.13.32 (canonical-artifact-grounding) — Class (a)/(b) test requires canonical-source verification
+- §A.13.34 (parallel-strand-framing) — Class (c) framework + threshold-class enumeration at §A.13.34.1
+- §A.13.39 (fold-cycle doctrine-content empirical-grounding) — Class (b) reclassification trigger when fold-cycle doctrine itself fails empirical-content verification
+- §A.13.37 (class-conditional disposition pattern) — the canonical-state SoT for Class (a)/(b) tests at materials-composition boundary
+
+Origin: Arc 17/18/19 5-phase empirical pattern; canonical reframe at `bc128f4b` (initial Class (b) classification of §A.13.37 8-vs-7) → `f41d4146` (Class (b) → Class (a) reversal) + §A.13.35 self-firing correction at `694f9823` (Class (b) confirmation when canonical empirically wrong); codified at Round 3 [DOCS] fold-cycle.
 
 ### A.14 Scaling Arc audit doctrine
 

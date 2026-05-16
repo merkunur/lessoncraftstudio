@@ -136,6 +136,19 @@ materials:
       language: en
     ordering: 3
     pedagogicalRole: vocabulary-game
+  - materialSlug: sentence-strips
+    customizationParameters:
+      framePreset: this-is-a
+      imageSource: theme
+      themeName: animals
+      stripCount: 12
+      stripsPerPage: 4
+      colorMode: color
+      paperSize: a4
+      language: en
+      includeWritingLine: true
+    ordering: 4
+    pedagogicalRole: language-frame
   - materialSlug: vocabulary-tracing-strips
     customizationParameters:
       imageSource: theme
@@ -148,7 +161,7 @@ materials:
       colorMode: color
       paperSize: a4
       language: en
-    ordering: 4
+    ordering: 5
     pedagogicalRole: spelling-anchor
   - materialSlug: manipulative-cut-outs
     customizationParameters:
@@ -161,7 +174,7 @@ materials:
       paperSize: a4
       language: en
       showCutGuides: true
-    ordering: 5
+    ordering: 6
     pedagogicalRole: concrete-manipulative
   - materialSlug: parent-take-home-letter
     customizationParameters:
@@ -174,7 +187,7 @@ materials:
       colorMode: color
       signatureLine: true
       paperSize: a4
-    ordering: 6
+    ordering: 7
     pedagogicalRole: home-school-bridge
   - materialSlug: answer-key
     customizationParameters:
@@ -183,7 +196,7 @@ materials:
       includePedagogicalNotes: true
       paperSize: a4
       language: en
-    ordering: 7
+    ordering: 8
     pedagogicalRole: teacher-reference
 
 compositionalRationale:

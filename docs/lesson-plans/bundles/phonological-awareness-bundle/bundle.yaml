@@ -1,0 +1,107 @@
+# Pillar 2 Arc 19 P2 (α) — Phonological Awareness Bundle
+# STRAND-ANCHORED bundle (not theme-anchored per existing 47-bundle pattern;
+# §A.13.25 strand-cluster sub-pattern emergence at scale). 9-package cluster
+# covering the canonical phonological-awareness strand at 9/9 SAT (closed
+# at Arc 19 Phase 1.3 — 22nd parent-class strand SAT closure). NEW bundle
+# creation per operator (α) lock at Arc 19 P2 close-out.
+
+bundleSlug: phonological-awareness
+themeAxisKey: phonological-awareness
+language: en
+
+title:
+  en: "Phonological Awareness — K Pre-Letter Sound Bundle"
+
+description:
+  en: "Strand-anchored Pre-K / Kindergarten bundle covering the canonical phonological-awareness strand at 9/9 SAT closure. 9 packages span phoneme isolation + phoneme blending + segmentation + rhyme + syllable work — the canonical pre-reading sound-awareness foundation. Closes the 22nd parent-class strand SAT cluster (Arc 19 Phase 1.3 SAT closure). Cross-locale: phonological-awareness pedagogy adapts per locale's phonological inventory (English-CVC scope here; locale-variant sparse-overrides per Phase 3 reframe per locale's canonical phonological structure). Foundational pre-reading work for K-3 multilingual classrooms — kids hear sounds before they read letters."
+
+thumbnailUrl: "/bundles/phonological-awareness-thumbnail.png"
+
+status: draft
+
+teachingPackageSlugs:
+  - identify-rhyming-pairs
+  - produce-rhyming-words
+  - count-syllables-1-to-3
+  - blend-onset-rime
+  - isolate-initial-phoneme
+  - isolate-medial-phoneme
+  - isolate-final-phoneme
+  - blend-phonemes-cvc
+  - segment-cvc-into-phonemes
+
+deckIds: []
+lessonPlanIds: []
+
+thematicCoherence:
+  en: |
+    All 9 packages cohere around the phonological-awareness canonical
+    strand — the pre-reading sound-awareness foundation that bridges
+    K-3 multilingual learners from oral-language fluency to letter-
+    sound mapping. Strand SAT closed at 9/9 (22nd parent-class
+    strand SAT) per Arc 19 Phase 1.3.
+
+    **Pedagogical sequencing (3-phase phonological-awareness arc):**
+
+    **Phase 1: Word-level awareness (Pre-K → K early)**
+    1. **identify-rhyming-pairs** — Foundation: kids notice that words
+       can sound alike at the end (cat / hat). Anchor for all sound-
+       awareness work.
+    2. **produce-rhyming-words** — Productive rhyme: kids supply
+       rhyming words from a given anchor (cat → bat / sat / mat).
+    3. **count-syllables-1-to-3** — Word-chunk awareness: kids hear
+       words as composable of beat-units (cat = 1 beat; rabbit = 2
+       beats).
+
+    **Phase 2: Onset-rime + initial-phoneme isolation (K)**
+    4. **blend-onset-rime** — Word-segment blending: kids combine
+       onset (c) + rime (-at) → cat. Bridges word-level to phoneme-
+       level work.
+    5. **isolate-initial-phoneme** — First-sound recognition: kids
+       hear the opening sound of a word.
+    6. **isolate-final-phoneme** — Last-sound recognition: kids hear
+       the ending sound.
+    7. **isolate-medial-phoneme** — Middle-vowel recognition (the
+       hardest single-phoneme task).
+
+    **Phase 3: Full phoneme blending + segmentation (K → Grade 1)**
+    8. **blend-phonemes-cvc** — Productive blending: kids combine
+       /c/ /a/ /t/ → cat. Foundation for decoding.
+    9. **segment-cvc-into-phonemes** — Productive segmentation: kids
+       break cat → /c/ /a/ /t/. Foundation for spelling.
+
+    **Strand spread:** all 9 packages anchor in phonological-
+    awareness canonical strand (closed at 9/9 SAT at Arc 19 Phase 1.3).
+    Single-strand bundle composition reflects canonical strand
+    saturation; rare in the Pillar 2 ecosystem (most bundles are
+    multi-strand). The bundle anchors the 22nd parent-class strand
+    SAT closure cleanly.
+
+    **Suggested unit duration:** 6-8 weeks. Phonological-awareness
+    work benefits from sustained daily practice across the
+    Pre-K → K year before letter-sound work intensifies. Typical
+    K classroom delivers 10-15 minutes daily for the full year.
+
+    **Multilingual classroom relevance:** phonological-awareness
+    pedagogy adapts significantly per locale's phonological
+    inventory. English-CVC scope is canonical here; locale variants:
+
+    - **es/it/pt**: syllabic phonology, not CVC; emphasis on
+      syllable + onset-rime work
+    - **fi**: 1:1 grapheme-phoneme + vowel-length distinction;
+      vowel-length awareness is the load-bearing phonological
+      skill
+    - **de**: V-vs-VV length + initial-cluster work
+    - **fr**: silent-final-consonant + liaison work
+    - **Nordic**: glottal-stop awareness (da especially) +
+      vowel-quality discrimination
+
+    Locale-variant sparse-overrides at the package level handle
+    locale-specific phonological-awareness reframing.
+
+    **Architectural significance:** STRAND-COMPLETION bundle —
+    captures the 22nd parent-class strand SAT closure (phonological-
+    awareness 9/9) cleanly. Pattern for future strand-completion
+    bundles: when a canonical strand reaches SAT, a strand-anchored
+    bundle captures the full cluster for teacher discovery + lesson-
+    planning integration.

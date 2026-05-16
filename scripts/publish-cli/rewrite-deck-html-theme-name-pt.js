@@ -105,16 +105,24 @@ function walkPtDecks(rootDir, slugFilter, appPrefix) {
 // Defensive: fall back to scanning the title for the snake_case theme segment.
 var BUNDLE_RE = /var\s+DECK_BUNDLE\s*=\s*(\{[\s\S]*?\});\s*<\/script>/;
 
+// Raw snake_case axis-key: lowercase + digits + underscore only.
+// Anything else (capitalized, accented, spaces, hyphens) = already pt-localized → skip.
+function isRawSnakeCaseAxisKey(s) {
+  return typeof s === 'string' && /^[a-z0-9_]+$/.test(s) && s.length > 0;
+}
+
 function extractThemeAxisKey(html) {
-  // Primary: extract from seoMeta.themeName in DECK_BUNDLE (raw axis-key for defective decks)
-  var seoMatch = /"seoMeta"\s*:\s*\{[^}]*"themeName"\s*:\s*"([^"]+)"/.exec(html);
-  if (seoMatch && seoMatch[1]) {
-    return seoMatch[1];
-  }
-  // Secondary: parse the <title> snake_case segment between em-dashes
-  var titleMatch = /<title>[^<]+— ([a-z0-9_]+) —/.exec(html);
-  if (titleMatch && titleMatch[1] && titleMatch[1].indexOf('_') !== -1) {
+  // Primary: parse <title> for snake_case segment between em-dashes (most reliable;
+  // already-fixed decks will have a pt-localized title segment that fails this match).
+  var titleMatch = /<title>[^<]+— ([^<]+?) —/.exec(html);
+  if (titleMatch && titleMatch[1] && isRawSnakeCaseAxisKey(titleMatch[1])) {
     return titleMatch[1];
+  }
+  // Secondary: extract from seoMeta.themeName in DECK_BUNDLE. Only return if
+  // snake_case (raw axis-key); reject already-pt-localized values.
+  var seoMatch = /"seoMeta"\s*:\s*\{[^}]*"themeName"\s*:\s*"([^"]+)"/.exec(html);
+  if (seoMatch && seoMatch[1] && isRawSnakeCaseAxisKey(seoMatch[1])) {
+    return seoMatch[1];
   }
   return null;
 }
@@ -178,7 +186,8 @@ function classifyDeck(entry, taxonomy) {
   }
   var axisKey = extractThemeAxisKey(html);
   if (!axisKey) {
-    return Object.assign({}, entry, { classification: 'halt-B-no-theme-extracted', html: html });
+    // No raw snake_case axis-key in title or seoMeta → already pt-localized OR themeless.
+    return Object.assign({}, entry, { classification: 'skip-clean', html: html, axisKey: null });
   }
   // If the extracted "axis-key" doesn't contain underscore AND isn't a known
   // raw axis-key in topics-taxonomy, it's likely already pt-localized → skip-clean.

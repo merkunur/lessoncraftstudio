@@ -4666,6 +4666,30 @@ async function downloadPDF(canvasInstance, baseFileName, opts) {
 
             // SEO inputs for the deck.html surface (Brief A §4)
             var _t = (typeof t === 'function') ? t : function(k){return null;};
+
+            // Shape A authoring fix (this commission): code-addition's global t()
+            // binds to window.uiLocale (interface chrome language), not to the
+            // deck's content language. When uiLocale != currentLocale (common when
+            // operator selects a non-default content language while keeping the
+            // chrome in en), every _t('worksheet')/seoFreeInteractive/seoFor/
+            // seoPrintOrPlayOnline lookup falls through to the en fallback —
+            // baking English literals into bundle.seoMeta. The _ct() helper below
+            // binds explicitly to the deck's content locale, mirroring the
+            // §17.8.14 srLang-keyed lookup convention extended to SEO-bake sites.
+            var _contentLocale = (window.currentLocale
+                || (typeof languageSelect !== 'undefined' && languageSelect && languageSelect.value)
+                || 'en');
+            function _ct(key, enFallback) {
+                if (typeof CODE_ADDITION_TRANSLATIONS !== 'undefined') {
+                    var v = CODE_ADDITION_TRANSLATIONS[_contentLocale] && CODE_ADDITION_TRANSLATIONS[_contentLocale][key];
+                    if (v) return v;
+                }
+                if (typeof translations !== 'undefined' && translations[_contentLocale] && translations[_contentLocale][key]) {
+                    return translations[_contentLocale][key];
+                }
+                return enFallback;
+            }
+
             // Phase 4a Checkpoint 2.5 (θ): exercise_mode discriminator
             var rawExerciseMode = (options && options.exerciseMode) || null;
             var exerciseModeName = (window.LCSCatalogExport && LCSCatalogExport.deriveExerciseModeName)
@@ -4679,10 +4703,10 @@ async function downloadPDF(canvasInstance, baseFileName, opts) {
                     ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('themeSelect') })
                     : null,
                 instruction: canvas.lcsLocalizedInstruction || '',
-                worksheetWord: _t('worksheet') || 'Worksheet',
-                freeInteractive: _t('seoFreeInteractive') || 'Free interactive',
-                forWord: _t('seoFor') || 'for',
-                printOrPlay: _t('seoPrintOrPlayOnline') || 'Print or play online'
+                worksheetWord: _ct('worksheet', 'Worksheet'),
+                freeInteractive: _ct('seoFreeInteractive', 'Free interactive'),
+                forWord: _ct('seoFor', 'for'),
+                printOrPlay: _ct('seoPrintOrPlayOnline', 'Print or play online')
             };
 
             // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2 — path-(b) origin trace

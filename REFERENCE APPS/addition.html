@@ -4501,11 +4501,19 @@
             ? LCSCatalogExport.deriveExerciseModeName(rawExerciseMode)
             : null;
 
+        // Shape A authoring fix (this commission): themeName must resolve to the
+        // localized <option> display name, not the raw axis-key value of themeSelect.
+        // Mirrors subtraction.html lines 4323-4324 and the 27 other catalog apps.
+        // Defense: when LCSCatalogExport.deriveThemeName is missing (stale browser
+        // cache), themeName is null rather than the raw axis-key; downstream
+        // §15.16 gate then catches as MISSING_THEME (loud) vs silent residue.
         var seoMeta = {
             exerciseTypeSlug: 'addition',
             exerciseTypeName: canvas.lcsLocalizedTitle || 'Addition Fun',
             exerciseModeName: exerciseModeName,
-            themeName: worksheetTheme,
+            themeName: (window.LCSCatalogExport && window.LCSCatalogExport.deriveThemeName)
+                ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('themeSelect') })
+                : null,
             instruction: canvas.lcsLocalizedInstruction || '',
             worksheetWord: _t('worksheet') || 'Worksheet',
             freeInteractive: _t('seoFreeInteractive') || 'Free interactive',

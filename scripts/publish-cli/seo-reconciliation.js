@@ -562,6 +562,30 @@ function reconcileLocaleResidueViaTrace(manifest) {
           source: info.source,
           value: info.value
         });
+        return;
+      }
+      // Predicate-calibration backstop (this commission): catch raw snake_case
+      // axis-key in themeName value EVEN WHEN isLocalized claims true. The pt
+      // addition wave on 2026-05-16 surfaced 199 decks where seo_trace.themeName
+      // had value="zoo_animals" (raw axis-key) + source="metadata.theme" +
+      // isLocalized=true, because the authoring-side bake assigned themeSelect.value
+      // directly without going through LCSCatalogExport.deriveThemeName.
+      // §A.13.5 Shape A authoring fix landed at <this commission>; this gate-side
+      // check is the structural complement per §A.13.5 structural-complement doctrine.
+      // Bound: only fires on themeName field (other fields like worksheetWord
+      // legitimately could be short snake_case-shaped in some locales, e.g., en).
+      if (
+        field === 'themeName' &&
+        typeof info.value === 'string' &&
+        /^[a-z0-9_]{2,}$/.test(info.value)
+      ) {
+        issues.push({
+          section: section,
+          field: field,
+          source: info.source,
+          value: info.value,
+          reason: 'raw_snake_case_axis_key_in_themeName'
+        });
       }
     });
   });

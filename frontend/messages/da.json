@@ -192,6 +192,12 @@
       "heading": "Sæt et hvilket som helst arbejdsark på dit websted.",
       "intro": "Indlejr et interaktivt arbejdsark på din klasseblog, skolewebsted eller delte side. Dine elever får den samme spiloplevelse uden tilmelding.",
       "buttonLabel": "Hent indlejringskoden"
+    },
+    "quota": {
+      "exceededTitle": "Daily limit reached",
+      "exceededBody": "Free users can play 2 worksheets or download 2 resources per day. Subscribe for unlimited access — $69 per year, cancel anytime.",
+      "subscribeCta": "Subscribe — $69/year",
+      "dismissCta": "Maybe later"
     }
   },
   "worksheetSamples": {

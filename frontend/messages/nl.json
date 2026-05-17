@@ -192,6 +192,12 @@
       "heading": "Plaats elk werkblad op je website.",
       "intro": "Sluit een interactief werkblad in op je klassenblog, schoolsite of gedeelde pagina. Je leerlingen krijgen dezelfde speelervaring, geen registratie nodig.",
       "buttonLabel": "Embed-code ophalen"
+    },
+    "quota": {
+      "exceededTitle": "Daily limit reached",
+      "exceededBody": "Free users can play 2 worksheets or download 2 resources per day. Subscribe for unlimited access — $69 per year, cancel anytime.",
+      "subscribeCta": "Subscribe — $69/year",
+      "dismissCta": "Maybe later"
     }
   },
   "auth": {

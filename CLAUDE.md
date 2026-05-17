@@ -163,14 +163,16 @@ Free-to-use for teachers; clearly differentiated paid tier targeting teachers wh
 
 K-3 specific exclusions: student progress tracking dashboards, multi-deck assignment sequencing, detailed performance analytics — K-3 teachers are with their students all day; don't need windows into independent work.
 
-**Free tier — unlimited use of the core platform:**
-- Full access to every deck in all 11 languages
+**Free tier — daily 2-action cap across teacher-engagement surfaces:**
+- Full access to BROWSE every deck in all 11 languages (browsing is never gated)
 - Full search, browse, filter
 - Unlimited shareable links (no expiration, no student count limits)
 - QR code generation
-- Printable PDF + answer key downloads (small "Made with LessonCraftStudio" footer)
+- **2 actions per UTC day** across three intentional-engagement categories: (a) opening a catalog deck page from a deck-card click, (b) downloading a printable PDF, (c) downloading an app-generated worksheet [v1 ships catalog gating only; worksheet-generator-app gating deferred to follow-up commission, currently free unlimited there]
 - Email signup to save favorites + new-deck digests
 - Topic destination pages (deck grid + companion printable PDF list)
+- Embedded sample decks on public pages (acquisition flywheel; never gated)
+- Direct-link student plays via `/play/[linkId]` (kid-side, per §4.4; never gated)
 
 **Annual subscription: $69/year (individual).** Subscription pillars post lesson-plans-domain removal (2026-05-17, commit `920aebbc`):
 
@@ -191,11 +193,20 @@ Auto-renew with 30/14/3 day notification emails.
 
 **Grace period on subscription lapse:** 60 days. Subscription features continue 60 days after lapse. Links generated while subscribed continue indefinitely; after 60 days students keep access but see "this teacher's subscription has lapsed — renew here."
 
-**Never gated:** sharing with students; individual deck access; language switching; search/browse; PDF downloads (small attribution footer is the cost).
+**Never gated:** sharing with students (via `/play/[linkId]` for kids); language switching; search/browse/filter; SEO-crawlable catalog deck URLs (direct-link visitors don't deplete quota; only deck-card clicks from catalog navigation do); embedded sample-deck iframes on marketing pages (acquisition flywheel per §3 + §18); bot/crawler traffic (User-Agent gate at quota layer). PDF downloads + interactive plays from catalog ARE gated for free tier per the 2/day cap above; subscribers bypass entirely.
 
 **Individual deck purchase:** not offered.
 
-**Conversion mechanics:** inline "organize into collections" prompt after fifth favorite. Lesson-plan-blur + bundle-CTA + parent-communication-template conversion mechanics removed 2026-05-17 along with the underlying domain. Non-blocking; contextual.
+**Conversion mechanics:** inline "organize into collections" prompt after fifth favorite; **`QuotaExceededModal` shown to free users when 3rd quota-gated action attempted in a UTC day** (anchors to `/[locale]#subscription`; dismissible). Lesson-plan-blur + bundle-CTA + parent-communication-template conversion mechanics removed 2026-05-17 along with the underlying domain. Non-blocking; contextual.
+
+**Quota system implementation** (commission 2026-05-17, post lemonsqueezy variant Published):
+- `DailyQuota` Prisma model — one row per `(userId|anonymousId, UTC-midnight-date)` with `actionCount` integer
+- `frontend/lib/quota.ts: checkAndIncrementQuota(identity)` — atomic upsert with conditional increment; subscriber + bot bypass at the predicate layer (no DB write)
+- API surfaces: `POST /api/quota/check-and-increment` (used by catalog Play click handlers); `GET /api/quota/status` (read-only); `GET /api/quota/pdf/[deckId]` (PDF download proxy with 302 redirect on allowed, 402 on blocked)
+- Anonymous identity: `lcs_anon_id` cookie (UUID, 1-yr expiry, HttpOnly/Secure/SameSite=Lax). Cookie-cleared abuse not specifically caught in v1 (operator-strategic decision; v2 can add IP-hash fallback per `ipHashAnonymousId()` helper already present)
+- Bot bypass: User-Agent regex `/bot|crawler|spider|googlebot|bingbot|baiduspider|yandexbot|duckduckbot|facebookexternalhit|slackbot|twitterbot|linkedinbot|whatsapp/i`
+- Fail-open on internal error — quota infra issues never block teacher flows; ops monitors 500 rate
+- v1 scope: gates catalog deck-card Play clicks + catalog PDF downloads; **worksheet-generator app downloads remain free unlimited in v1** (filed as follow-up commission)
 
 ## 8. Technical standards
 

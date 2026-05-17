@@ -193,6 +193,12 @@
       "heading": "Put any worksheet on your website.",
       "intro": "Embed an interactive deck on your classroom blog, school site, or shared page. Your students get the same play experience, no signup required.",
       "buttonLabel": "Get the embed code"
+    },
+    "quota": {
+      "exceededTitle": "Daily limit reached",
+      "exceededBody": "Free users can play 2 worksheets or download 2 resources per day. Subscribe for unlimited access — $69 per year, cancel anytime.",
+      "subscribeCta": "Subscribe — $69/year",
+      "dismissCta": "Maybe later"
     }
   },
   "auth": {

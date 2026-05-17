@@ -193,6 +193,12 @@
       "heading": "Setzen Sie jedes Arbeitsblatt auf Ihre Website.",
       "intro": "Betten Sie ein interaktives Deck in Ihren Klassenblog, Ihre Schulseite oder eine geteilte Seite ein. Ihre Schüler erhalten dasselbe Spielerlebnis, ohne Anmeldung.",
       "buttonLabel": "Embed-Code holen"
+    },
+    "quota": {
+      "exceededTitle": "Tägliches Limit erreicht",
+      "exceededBody": "Kostenlose Nutzer können 2 Arbeitsblätter pro Tag spielen oder 2 Ressourcen herunterladen. Abonnieren Sie für unbegrenzten Zugriff — 69 $ pro Jahr, jederzeit kündbar.",
+      "subscribeCta": "Abonnieren — 69 $/Jahr",
+      "dismissCta": "Später"
     }
   },
   "auth": {

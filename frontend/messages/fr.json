@@ -192,6 +192,12 @@
       "heading": "Mettez n'importe quelle fiche sur votre site Web.",
       "intro": "Intégrez un exercice interactif sur le blog de votre classe, le site de votre école ou une page partagée. Vos élèves bénéficient de la même expérience de jeu, sans inscription requise.",
       "buttonLabel": "Obtenir le code d'intégration"
+    },
+    "quota": {
+      "exceededTitle": "Daily limit reached",
+      "exceededBody": "Free users can play 2 worksheets or download 2 resources per day. Subscribe for unlimited access — $69 per year, cancel anytime.",
+      "subscribeCta": "Subscribe — $69/year",
+      "dismissCta": "Maybe later"
     }
   },
   "worksheetSamples": {

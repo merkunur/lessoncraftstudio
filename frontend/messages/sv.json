@@ -192,6 +192,12 @@
       "heading": "Lägg till vilket arbetsblad som helst på din webbplats.",
       "intro": "Bädda in ett interaktivt blad på din klassblogg, skolwebbplats eller delad sida. Dina elever får samma spelupplevelse, utan registrering.",
       "buttonLabel": "Hämta inbäddningskoden"
+    },
+    "quota": {
+      "exceededTitle": "Daily limit reached",
+      "exceededBody": "Free users can play 2 worksheets or download 2 resources per day. Subscribe for unlimited access — $69 per year, cancel anytime.",
+      "subscribeCta": "Subscribe — $69/year",
+      "dismissCta": "Maybe later"
     }
   },
   "worksheetSamples": {

@@ -192,6 +192,12 @@
       "heading": "Pon cualquier hoja de trabajo en tu sitio web.",
       "intro": "Inserta una ficha interactiva en el blog de tu clase, el sitio de tu escuela o una página compartida. Tus alumnos tienen la misma experiencia de juego, sin registro.",
       "buttonLabel": "Obtener el código de inserción"
+    },
+    "quota": {
+      "exceededTitle": "Daily limit reached",
+      "exceededBody": "Free users can play 2 worksheets or download 2 resources per day. Subscribe for unlimited access — $69 per year, cancel anytime.",
+      "subscribeCta": "Subscribe — $69/year",
+      "dismissCta": "Maybe later"
     }
   },
   "auth": {

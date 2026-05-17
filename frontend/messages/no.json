@@ -192,6 +192,12 @@
       "heading": "Legg til hvilket som helst arbeidsark på nettstedet ditt.",
       "intro": "Bygg inn et interaktivt ark på klassebloggen, skolenettstedet eller en delt side. Elevene får den samme spillopplevelsen uten påmelding.",
       "buttonLabel": "Hent innebyggingskoden"
+    },
+    "quota": {
+      "exceededTitle": "Daily limit reached",
+      "exceededBody": "Free users can play 2 worksheets or download 2 resources per day. Subscribe for unlimited access — $69 per year, cancel anytime.",
+      "subscribeCta": "Subscribe — $69/year",
+      "dismissCta": "Maybe later"
     }
   },
   "worksheetSamples": {

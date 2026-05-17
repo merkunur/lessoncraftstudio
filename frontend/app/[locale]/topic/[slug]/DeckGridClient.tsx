@@ -9,6 +9,7 @@ import DeckCardCheckbox from '@/components/catalog/DeckCardCheckbox';
 import BulkSelectToolbar, { BulkAction } from '@/components/catalog/BulkSelectToolbar';
 import BulkAddToCollectionPicker from '@/components/catalog/BulkAddToCollectionPicker';
 import ShareLinkResultModal, { ShareLinkResult } from '@/components/catalog/ShareLinkResultModal';
+import { useQuotaModal } from '@/components/quota/QuotaExceededModal';
 
 // Tool 5A — client wrapper extraction from the topic page's inline grid.
 // Owns bulk-mode state + selection state + per-card affordances. Per §17.4
@@ -42,6 +43,7 @@ export default function DeckGridClient({
   labels,
 }: DeckGridClientProps) {
   const t = useTranslations('bulk');
+  const { showQuotaModal, QuotaModalElement } = useQuotaModal();
 
   const [bulkMode, setBulkMode] = useState(false);
   const [selectedDeckIds, setSelectedDeckIds] = useState<Set<string>>(new Set());
@@ -53,6 +55,34 @@ export default function DeckGridClient({
     skippedCount: number;
   } | null>(null);
   const [confirmation, setConfirmation] = useState<string | null>(null);
+
+  // Quota-gated click handler for the Play link. POSTs to
+  // /api/quota/check-and-increment; on 200 (allowed) navigates to the deck
+  // page; on 402 (blocked) shows the QuotaExceededModal without navigation.
+  const handlePlayClick = useCallback(
+    async (e: React.MouseEvent<HTMLAnchorElement>, deckHref: string, deckId: string) => {
+      e.preventDefault();
+      try {
+        const res = await fetch('/api/quota/check-and-increment', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ action: 'play', deckId }),
+        });
+        if (res.status === 402) {
+          const body = await res.json().catch(() => ({}));
+          showQuotaModal(body);
+          return;
+        }
+        // 200 or fail-open — proceed
+        window.location.href = deckHref;
+      } catch (err) {
+        // Network failure — fail open
+        console.warn('quota check failed; opening deck', err);
+        window.location.href = deckHref;
+      }
+    },
+    [showQuotaModal]
+  );
 
   const flashConfirmation = useCallback((msg: string) => {
     setConfirmation(msg);
@@ -189,7 +219,11 @@ export default function DeckGridClient({
                       {deck.title}
                     </button>
                   ) : (
-                    <a href={deck.href} className="hover:text-leaf-700">
+                    <a
+                      href={deck.href}
+                      onClick={e => handlePlayClick(e, deck.href, deck.id)}
+                      className="hover:text-leaf-700"
+                    >
                       {deck.title}
                     </a>
                   )}
@@ -198,13 +232,14 @@ export default function DeckGridClient({
                   <div className="flex items-center gap-3 text-sm flex-wrap">
                     <a
                       href={deck.href}
+                      onClick={e => handlePlayClick(e, deck.href, deck.id)}
                       className="text-leaf-700 font-semibold hover:underline"
                     >
                       {labels.playLink}
                     </a>
                     <span className="text-ink-300" aria-hidden="true">·</span>
                     <a
-                      href={deck.pdfUrl}
+                      href={`/api/quota/pdf/${deck.id}`}
                       className="text-ink-600 hover:text-ink-900"
                       target="_blank"
                       rel="noopener"
@@ -278,6 +313,7 @@ export default function DeckGridClient({
           {confirmation}
         </div>
       )}
+      {QuotaModalElement}
     </>
   );
 }

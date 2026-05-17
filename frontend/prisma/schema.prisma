@@ -64,6 +64,7 @@ model User {
   analyticsEvents    AnalyticsEvent[]
   payments           Payment[]
   paymentFailures    PaymentFailure[]
+  dailyQuotas        DailyQuota[]
   notifications      Notification[]
   activityLogs       ActivityLog[]
   supportTickets     SupportTicket[]
@@ -235,6 +236,38 @@ model Subscription {
   @@index([status])
   @@index([planName])
   @@map("subscriptions")
+}
+
+// Daily quota tracking for free-tier 2-actions-per-day cap per CLAUDE.md §7.
+//
+// One row per (identity, UTC-midnight-date). actionCount increments for each
+// gated action: deck-play-from-catalog / PDF-download / app-gen-download.
+// Cap enforced at the API boundary in frontend/lib/quota.ts.
+//
+// Identity is EITHER userId (logged-in path) OR anonymousId (anon path).
+// anonymousId is the value of the lcs_anon_id cookie (UUID set on first
+// quota check); falls back to SHA256(ip+ua) if cookie unavailable.
+// Subscribers bypass entirely (no row writes).
+//
+// Compound unique constraints on both (userId, date) and (anonymousId, date)
+// guarantee atomic upsert semantics under concurrent action attempts.
+model DailyQuota {
+  id          String   @id @default(cuid())
+  userId      String?  @map("user_id")
+  anonymousId String?  @map("anonymous_id")
+  date        DateTime @map("date")
+  actionCount Int      @default(0) @map("action_count")
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  user User? @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, date], map: "daily_quotas_user_date_key")
+  @@unique([anonymousId, date], map: "daily_quotas_anon_date_key")
+  @@index([date])
+  @@index([userId])
+  @@index([anonymousId])
+  @@map("daily_quotas")
 }
 
 model Payment {

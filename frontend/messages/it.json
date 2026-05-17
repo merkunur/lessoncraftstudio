@@ -192,6 +192,12 @@
       "heading": "Metti qualsiasi scheda sul tuo sito web.",
       "intro": "Incorpora una scheda interattiva sul blog della tua classe, sul sito della scuola o su una pagina condivisa. I tuoi alunni hanno la stessa esperienza di gioco, senza registrazione.",
       "buttonLabel": "Ottieni il codice di incorporamento"
+    },
+    "quota": {
+      "exceededTitle": "Daily limit reached",
+      "exceededBody": "Free users can play 2 worksheets or download 2 resources per day. Subscribe for unlimited access — $69 per year, cancel anytime.",
+      "subscribeCta": "Subscribe — $69/year",
+      "dismissCta": "Maybe later"
     }
   },
   "worksheetSamples": {

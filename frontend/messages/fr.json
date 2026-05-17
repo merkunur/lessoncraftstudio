@@ -45,10 +45,10 @@
       "ogAlt": "LessonCraftStudio — fiches K-3 en 11 langues"
     },
     "hero": {
-      "title": "Des fiches qui fonctionnent vraiment dans votre seconde langue.",
-      "subtitle": "Une bibliothèque d'illustrations K-3 sélectionnées, associée à un système de vocabulaire couvrant 11 langues — avec genre, pluriels et signes diacritiques corrects dans chacune. Conçue pour les enseignants en programmes bilingues, classes bilingues et écoles internationales.",
-      "interaction": "Les enfants les utilisent dans le navigateur. Imprimez-les si vous préférez.",
-      "cta": "Inscrivez-vous gratuitement →"
+      "title": "Worksheets in 11 languages, printable and interactive.",
+      "subtitle": "33 worksheet creators generate over 100 worksheet types — addition, crosswords, sudoku, picture sorts, find-and-count, and more. 29 of the 33 produce both a printable PDF and a browser-playable interactive version from the same setup.",
+      "interaction": "Built for teachers in bilingual, dual-language, and international schools.",
+      "cta": "Join for free →"
     },
     "fourCardGrid": {
       "sectionTitle": "Notre bibliothèque d'apprentissage",
@@ -137,29 +137,33 @@
       "breadthIntro": "Touchez-en une pour jouer une fiche complète — comme vos élèves le feront."
     },
     "subscription": {
-      "sectionTitle": "Accès illimité pour 69 $ par an.",
-      "intro": "2 téléchargements gratuits par jour — répartis entre notre bibliothèque de decks et nos générateurs de fiches. Abonnez-vous pour des téléchargements illimités, un usage illimité des apps et la bibliothèque complète de plans de leçon et de packs thématiques.",
-      "themedBundles": {
-        "title": "Packs thématiques pour les moments qui reviennent chaque année",
-        "body": "Des packs sélectionnés à la main pour la rentrée, Halloween, les fêtes d'hiver, la Saint-Valentin, la fin d'année et les bilans de fin d'unité. Chaque pack associe un ensemble cohérent de decks à une fiche de séance écrite pour le thème du pack. Imprimez le dossier, suivez la fiche, enseignez la semaine. De nouveaux packs ajoutés au cours de l'année, tous inclus dans l'abonnement."
+      "sectionTitle": "Unlimited access for $69 a year.",
+      "intro": "Free tier: 2 downloads per day across the catalog and apps. Subscribe for unlimited downloads, unlimited generation, and access to every theme and language.",
+      "catalog": {
+        "title": "Full worksheet catalog",
+        "body": "Printable and interactive worksheets across 11 languages. Unlimited downloads of every existing deck plus everything we publish through the year."
       },
-      "workspace": {
-        "title": "Un espace de travail à votre mesure",
-        "body": "Le catalogue passera la barre des milliers de decks. L'abonnement vous donne des collections pour les organiser, un espace de travail où vous arrivez en vous connectant, un filtrage avancé adapté à la façon dont les enseignants cherchent réellement, une cartographie curriculaire pour vos propres unités, et des outils par lots qui transforment des tâches de cinq minutes en tâches de trente secondes. Votre structure se reporte d'année en année — c'est tout l'intérêt."
+      "creators": {
+        "title": "All 33 worksheet creators",
+        "body": "100+ worksheet types — math, literacy, puzzles, matching, search. Generate as many variations as you need. 29 of the 33 apps output both printable and interactive formats from a single setup."
       },
-      "price": "$69 par an. Annulable à tout moment.",
-      "subscribeCta": "S'abonner →",
-      "subscribeSubCopy": "Vous serez redirigé·e vers notre partenaire de paiement. Après le paiement, votre compte est prêt immédiatement.",
-      "alreadySubscribedCta": "Voir mon abonnement"
+      "assets": {
+        "title": "100+ themes, 3,000+ images, 11 languages",
+        "body": "The illustration library and vocabulary system that lets the same worksheet work across languages — grammatically correct gender, plurals, and diacritics in every one."
+      },
+      "price": "$69 per year. Cancel anytime.",
+      "subscribeCta": "Subscribe →",
+      "subscribeSubCopy": "You'll be taken to our payment partner. After checkout, your account is ready immediately.",
+      "alreadySubscribedCta": "View your subscription"
     },
     "notify": {
-      "aboveField": "Nous finalisons la bibliothèque de fiches de séance et lançons l'abonnement bientôt. Laissez-nous votre e-mail et nous vous préviendrons le jour de l'ouverture.",
+      "aboveField": "Subscriptions launching soon. Leave your email and we'll let you know the day it opens.",
       "label": "Adresse e-mail",
       "placeholder": "votre-email@ecole.fr",
       "submit": "Me prévenir →",
       "submitting": "Envoi en cours…",
       "confirmation": "Merci — nous vous écrirons quand l'abonnement sera ouvert.",
-      "subCopy": "Un seul e-mail, uniquement à l'ouverture de l'abonnement. Pas de liste marketing, pas de séquence de relance.",
+      "subCopy": "One email, only when the subscription opens. No marketing list, no follow-up sequence.",
       "errors": {
         "invalid_email": "Veuillez saisir une adresse e-mail valide.",
         "server": "Une erreur est survenue. Veuillez réessayer."

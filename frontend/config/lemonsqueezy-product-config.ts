@@ -38,10 +38,27 @@ export const SUBSCRIPTION_PRODUCT = {
   // (numeric IDs are operationally fragile across Lemon Squeezy environments).
   slug: "lcs-subscription",
 
-  // Lemon Squeezy checkout URL — same pattern as the existing per-app/per-bundle
-  // buyNowUrl entries in lemonsqueezy-products.ts. Variant-id form: LS resolves
-  // 1595188 to the active checkout for this product.
-  buyNowUrl: "https://lessoncraftstudio-com.lemonsqueezy.com/buy/1595188",
+  // Lemon Squeezy checkout URL.
+  //
+  // Uses the variant SLUG (UUID) form rather than the numeric-variant-id form.
+  // The variant-id form `https://lessoncraftstudio-com.lemonsqueezy.com/buy/1595188`
+  // returns HTTP 404 when the variant is in "pending" status (the variant is
+  // currently pending — operator publishes in LS dashboard for the numeric
+  // form to also resolve). The UUID form (this URL) is what LS itself returns
+  // via `GET /v1/stores/{id}/products` `buy_now_url` field and resolves
+  // regardless of variant status.
+  //
+  // `?checkout[redirect_url]=...` (URL-encoded `[` and `]` per LS hosted-checkout
+  // query-param convention) sends the visitor to /member after a successful
+  // purchase — the sign-in page that redirects authenticated users to
+  // /member/dashboard. This is where fresh subscribers land after the webhook
+  // auto-creates their account and emails them a password-reset link.
+  //
+  // To rediscover the UUID if it changes, query the LS API:
+  //   curl -H "Authorization: Bearer $LEMONSQUEEZY_API_KEY" \
+  //     "https://api.lemonsqueezy.com/v1/stores/$LEMONSQUEEZY_STORE_ID/products"
+  // and read the `buy_now_url` attribute on product id 1016671.
+  buyNowUrl: "https://lessoncraftstudio-com.lemonsqueezy.com/checkout/buy/4c08cb24-0aee-486e-ae01-1f77259a031d?checkout%5Bredirect_url%5D=https%3A%2F%2Fwww.lessoncraftstudio.com%2Fmember",
 } as const;
 
 /**

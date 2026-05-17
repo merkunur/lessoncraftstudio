@@ -46,9 +46,9 @@
       "ogAlt": "LessonCraftStudio — K-3 worksheets in 11 languages"
     },
     "hero": {
-      "title": "Worksheets that actually work in your second language.",
-      "subtitle": "A curated library of K-3 illustrations paired with a vocabulary system across 11 languages — correct gender, plurals, and diacritics in every one. Built for teachers in dual-language programs, bilingual classrooms, and international schools.",
-      "interaction": "Students play them in the browser. Print them if you prefer.",
+      "title": "Worksheets in 11 languages, printable and interactive.",
+      "subtitle": "33 worksheet creators generate over 100 worksheet types — addition, crosswords, sudoku, picture sorts, find-and-count, and more. 29 of the 33 produce both a printable PDF and a browser-playable interactive version from the same setup.",
+      "interaction": "Built for teachers in bilingual, dual-language, and international schools.",
       "cta": "Join for free →"
     },
     "fourCardGrid": {
@@ -139,14 +139,18 @@
     },
     "subscription": {
       "sectionTitle": "Unlimited access for $69 a year.",
-      "intro": "2 free downloads per day across our deck library and worksheet creators. Subscribe for unlimited downloads, unlimited app use, and the full lesson-plan and themed-bundle library.",
-      "themedBundles": {
-        "title": "Themed bundles for the moments that come around every year",
-        "body": "Hand-curated bundles for back-to-school, Halloween, winter holidays, Valentine's Day, end-of-year, and end-of-unit review. Each bundle pairs a coherent set of decks with a lesson plan written for that bundle's theme. Print the packet, follow the plan, teach the week. New bundles added through the year, all included in the subscription."
+      "intro": "Free tier: 2 downloads per day across the catalog and apps. Subscribe for unlimited downloads, unlimited generation, and access to every theme and language.",
+      "catalog": {
+        "title": "Full worksheet catalog",
+        "body": "Printable and interactive worksheets across 11 languages. Unlimited downloads of every existing deck plus everything we publish through the year."
       },
-      "workspace": {
-        "title": "A workspace for the teacher you actually are",
-        "body": "The catalog will pass thousands of decks. The subscription gives you collections to organize them, a workspace home to land in, advanced filtering tuned to how teachers actually search, curriculum mapping for your own units, and bulk tools that turn five-minute tasks into thirty-second ones. Your structure carries forward year after year — that's the whole point."
+      "creators": {
+        "title": "All 33 worksheet creators",
+        "body": "100+ worksheet types — math, literacy, puzzles, matching, search. Generate as many variations as you need. 29 of the 33 apps output both printable and interactive formats from a single setup."
+      },
+      "assets": {
+        "title": "100+ themes, 3,000+ images, 11 languages",
+        "body": "The illustration library and vocabulary system that lets the same worksheet work across languages — grammatically correct gender, plurals, and diacritics in every one."
       },
       "price": "$69 per year. Cancel anytime.",
       "subscribeCta": "Subscribe →",
@@ -154,7 +158,7 @@
       "alreadySubscribedCta": "View your subscription"
     },
     "notify": {
-      "aboveField": "We're finishing the lesson-plan library and launching the subscription soon. Leave your email and we'll let you know the day it opens.",
+      "aboveField": "Subscriptions launching soon. Leave your email and we'll let you know the day it opens.",
       "label": "Email address",
       "placeholder": "your-email@school.org",
       "submit": "Notify me →",

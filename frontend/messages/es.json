@@ -45,10 +45,10 @@
       "ogAlt": "LessonCraftStudio — hojas de trabajo K-3 multilingües."
     },
     "hero": {
-      "title": "Hojas de trabajo que realmente funcionan en su segunda lengua.",
-      "subtitle": "Una biblioteca curada de ilustraciones K-3 acompañada de un sistema de vocabulario en 11 lenguas — con género, plurales y diacríticos correctos en cada una. Hecho para docentes en programas bilingües, aulas duales y escuelas internacionales.",
-      "interaction": "Los niños los juegan en el navegador. Imprímalos si lo prefiere.",
-      "cta": "Únase gratis →"
+      "title": "Worksheets in 11 languages, printable and interactive.",
+      "subtitle": "33 worksheet creators generate over 100 worksheet types — addition, crosswords, sudoku, picture sorts, find-and-count, and more. 29 of the 33 produce both a printable PDF and a browser-playable interactive version from the same setup.",
+      "interaction": "Built for teachers in bilingual, dual-language, and international schools.",
+      "cta": "Join for free →"
     },
     "fourCardGrid": {
       "sectionTitle": "Nuestra biblioteca de aprendizaje",
@@ -137,29 +137,33 @@
       "breadthIntro": "Toca cualquiera para jugar una ficha completa — igual que tus alumnos."
     },
     "subscription": {
-      "sectionTitle": "Acceso ilimitado por $69 al año.",
-      "intro": "2 descargas gratis al día — entre nuestra biblioteca de decks y los creadores de hojas. Suscríbase para obtener descargas ilimitadas, uso ilimitado de las apps y la biblioteca completa de planes de clase y paquetes temáticos.",
-      "themedBundles": {
-        "title": "Paquetes temáticos para los momentos que vuelven",
-        "body": "Paquetes hechos a mano para regreso a clases, Halloween, vacaciones de invierno, San Valentín, fin de curso y repaso de fin de unidad. Cada paquete combina un conjunto coherente de decks con un plan de clase escrito para el tema de ese paquete. Imprima el cuadernillo, siga el plan, enseñe la semana. Se añaden paquetes nuevos a lo largo del año, todos incluidos en la suscripción."
+      "sectionTitle": "Unlimited access for $69 a year.",
+      "intro": "Free tier: 2 downloads per day across the catalog and apps. Subscribe for unlimited downloads, unlimited generation, and access to every theme and language.",
+      "catalog": {
+        "title": "Full worksheet catalog",
+        "body": "Printable and interactive worksheets across 11 languages. Unlimited downloads of every existing deck plus everything we publish through the year."
       },
-      "workspace": {
-        "title": "Un espacio de trabajo para la docente que realmente es",
-        "body": "El catálogo superará miles de decks. La suscripción le da colecciones para organizarlos, una página de inicio del espacio de trabajo donde aterrizar, filtros avanzados afinados a cómo los docentes realmente buscan, mapeo curricular para sus propias unidades, y herramientas de uso en lote que convierten tareas de cinco minutos en tareas de treinta segundos. Su estructura se mantiene año tras año — de eso se trata."
+      "creators": {
+        "title": "All 33 worksheet creators",
+        "body": "100+ worksheet types — math, literacy, puzzles, matching, search. Generate as many variations as you need. 29 of the 33 apps output both printable and interactive formats from a single setup."
       },
-      "price": "$69 al año. Cancele cuando quiera.",
-      "subscribeCta": "Suscribirse →",
-      "subscribeSubCopy": "Será dirigido a nuestro socio de pagos. Después del pago, su cuenta queda lista de inmediato.",
-      "alreadySubscribedCta": "Ver su suscripción"
+      "assets": {
+        "title": "100+ themes, 3,000+ images, 11 languages",
+        "body": "The illustration library and vocabulary system that lets the same worksheet work across languages — grammatically correct gender, plurals, and diacritics in every one."
+      },
+      "price": "$69 per year. Cancel anytime.",
+      "subscribeCta": "Subscribe →",
+      "subscribeSubCopy": "You'll be taken to our payment partner. After checkout, your account is ready immediately.",
+      "alreadySubscribedCta": "View your subscription"
     },
     "notify": {
-      "aboveField": "Estamos terminando la biblioteca de planes de clase y lanzaremos la suscripción pronto. Déjenos su correo y le avisaremos el día que abra.",
+      "aboveField": "Subscriptions launching soon. Leave your email and we'll let you know the day it opens.",
       "label": "Correo electrónico",
       "placeholder": "su-email@escuela.org",
       "submit": "Avísenme →",
       "submitting": "Enviando…",
       "confirmation": "Gracias — le avisaremos por correo cuando se abra la suscripción.",
-      "subCopy": "Un solo correo, solo cuando se abra la suscripción. Sin lista de marketing, sin secuencia de seguimiento.",
+      "subCopy": "One email, only when the subscription opens. No marketing list, no follow-up sequence.",
       "errors": {
         "invalid_email": "Por favor, introduzca un correo electrónico válido.",
         "server": "Algo salió mal. Por favor, inténtelo de nuevo."

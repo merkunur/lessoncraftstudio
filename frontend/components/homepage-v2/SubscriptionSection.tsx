@@ -1,17 +1,20 @@
 import { getTranslations } from 'next-intl/server';
 import SubscribeCTA from './SubscribeCTA';
 
-// Section 5 — Subscription per HOMEPAGE-COPY.md + HOMEPAGE-IMPLEMENTATION-PROMPT.md §5.5.
-// 2-pillar structure post lesson-plans-domain removal (2026-05-17): themed bundles
-// + workspace tooling. Server-rendered shell with the SubscribeCTA as a client child.
+// Section 5 — Subscription per homepage-restructure 2026-05-17 commission.
+// Post lesson-plans-domain removal: 3-column capability block (catalog +
+// creators + assets). Replaced the prior 2-pillar (themedBundles + workspace)
+// structure per Variant A ratification.
 //
-// HOMEPAGE_SUBSCRIBE_MODE env var (read here at static-generation time, passed into
-// SubscribeCTA as a prop because SubscribeCTA is a client component and can't read
-// non-NEXT_PUBLIC env vars directly):
-//   "subscribe"  → existing 3-state auth-aware Subscribe flow
-//   "notify_me"  → email-capture Notify-me form (default; per T5 launch readiness)
-// Per HOMEPAGE-IMPLEMENTATION-PROMPT.md §9 launch readiness item 1 + T5 default,
-// notify_me is the production default until subscription content lands.
+// Server-rendered shell with the SubscribeCTA as a client child.
+//
+// HOMEPAGE_SUBSCRIBE_MODE env var (read here at static-generation time, passed
+// into SubscribeCTA as a prop because SubscribeCTA is a client component and
+// can't read non-NEXT_PUBLIC env vars directly):
+//   "subscribe"  → 3-state auth-aware Subscribe flow → LS hosted checkout
+//   "notify_me"  → email-capture NotifyMe form (rollback default)
+// Operator flips to "subscribe" once LS variant 1595188 is published in the
+// LS dashboard (variant currently in "pending" status per LS API).
 
 type SubscribeMode = 'subscribe' | 'notify_me';
 
@@ -23,9 +26,10 @@ function resolveSubscribeMode(): SubscribeMode {
 export default async function SubscriptionSection({ locale }: { locale: string }) {
   const t = await getTranslations({ locale, namespace: 'homepage.subscription' });
 
-  const pillars = [
-    { key: 'themedBundles', title: t('themedBundles.title'), body: t('themedBundles.body') },
-    { key: 'workspace', title: t('workspace.title'), body: t('workspace.body') },
+  const columns = [
+    { key: 'catalog', title: t('catalog.title'), body: t('catalog.body') },
+    { key: 'creators', title: t('creators.title'), body: t('creators.body') },
+    { key: 'assets', title: t('assets.title'), body: t('assets.body') },
   ];
 
   return (
@@ -40,14 +44,14 @@ export default async function SubscriptionSection({ locale }: { locale: string }
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 mb-16">
-          {pillars.map(pillar => (
-            <div key={pillar.key}>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 mb-16">
+          {columns.map(col => (
+            <div key={col.key}>
               <h3 className="font-display font-semibold text-xl text-ink-900 mb-3">
-                {pillar.title}
+                {col.title}
               </h3>
               <p className="text-base text-ink-600 leading-relaxed">
-                {pillar.body}
+                {col.body}
               </p>
             </div>
           ))}

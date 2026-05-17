@@ -45,10 +45,10 @@
       "ogAlt": "LessonCraftStudio — K-3-tehtäväarkit 11 kielellä"
     },
     "hero": {
-      "title": "Tehtäväarkit jotka toimivat oikeasti toisella kielelläsi.",
-      "subtitle": "Kuratoitu K-3-kuvituskirjasto yhdistettynä sanastojärjestelmään, joka kattaa 11 kieltä — oikeilla suvuilla, oikeilla monikkomuodoilla ja oikeilla diakriittisillä merkeillä jokaisessa kielessä. Rakennettu opettajille kaksikielisissä ohjelmissa, kaksikielisissä luokissa ja kansainvälisissä kouluissa.",
-      "interaction": "Lapset tekevät ne selaimessa. Tulosta ne, jos haluat.",
-      "cta": "Liity ilmaiseksi →"
+      "title": "Worksheets in 11 languages, printable and interactive.",
+      "subtitle": "33 worksheet creators generate over 100 worksheet types — addition, crosswords, sudoku, picture sorts, find-and-count, and more. 29 of the 33 produce both a printable PDF and a browser-playable interactive version from the same setup.",
+      "interaction": "Built for teachers in bilingual, dual-language, and international schools.",
+      "cta": "Join for free →"
     },
     "fourCardGrid": {
       "sectionTitle": "Oppimiskirjastomme",
@@ -137,29 +137,33 @@
       "breadthIntro": "Napauta mitä tahansa pelataksesi koko tehtäväsivun — aivan kuten oppilaasi."
     },
     "subscription": {
-      "sectionTitle": "Rajaton käyttö 69 $ vuodessa.",
-      "intro": "2 ilmaista latausta päivässä — jaettuna korttipakkakirjaston ja tehtävägeneraattoreiden välillä. Tilaa rajattomat lataukset, rajaton sovellusten käyttö ja koko tuntisuunnitelma- ja teemapakettikirjasto.",
-      "themedBundles": {
-        "title": "Teemapaketit hetkiin, jotka palaavat joka vuosi",
-        "body": "Käsin valitut paketit koulun aloitukseen, Halloweeniin, talvilomiin, ystävänpäivään, lukuvuoden lopetukseen ja jakson lopun kertaukseen. Jokainen paketti yhdistää johdonmukaisen korttipakkasarjan paketin teemaan kirjoitettuun tuntisuunnitelmaan. Tulosta paketti, seuraa suunnitelmaa, opeta viikko. Uusia paketteja lisätään vuoden mittaan, kaikki sisältyvät tilaukseen."
+      "sectionTitle": "Unlimited access for $69 a year.",
+      "intro": "Free tier: 2 downloads per day across the catalog and apps. Subscribe for unlimited downloads, unlimited generation, and access to every theme and language.",
+      "catalog": {
+        "title": "Full worksheet catalog",
+        "body": "Printable and interactive worksheets across 11 languages. Unlimited downloads of every existing deck plus everything we publish through the year."
       },
-      "workspace": {
-        "title": "Työtila opettajalle, joka todella olet",
-        "body": "Katalogi tulee ylittämään tuhannet korttipakat. Tilaus antaa sinulle kokoelmat niiden järjestämiseen, työtilan, johon kirjautuessasi laskeudut, kehittyneen suodatuksen, joka on viritetty siihen, miten opettajat oikeasti hakevat, opetussuunnitelma­linkityksen omiin jaksoihisi ja joukkotyökalut, jotka muuttavat viiden minuutin tehtävät kolmenkymmenen sekunnin tehtäviksi. Rakenteesi siirtyy vuodesta toiseen — siinä koko juju."
+      "creators": {
+        "title": "All 33 worksheet creators",
+        "body": "100+ worksheet types — math, literacy, puzzles, matching, search. Generate as many variations as you need. 29 of the 33 apps output both printable and interactive formats from a single setup."
       },
-      "price": "$69 vuodessa. Peruuta milloin tahansa.",
-      "subscribeCta": "Tilaa →",
-      "subscribeSubCopy": "Sinut ohjataan maksukumppanillemme. Maksun jälkeen tilisi on heti valmis.",
-      "alreadySubscribedCta": "Näytä tilaukseni"
+      "assets": {
+        "title": "100+ themes, 3,000+ images, 11 languages",
+        "body": "The illustration library and vocabulary system that lets the same worksheet work across languages — grammatically correct gender, plurals, and diacritics in every one."
+      },
+      "price": "$69 per year. Cancel anytime.",
+      "subscribeCta": "Subscribe →",
+      "subscribeSubCopy": "You'll be taken to our payment partner. After checkout, your account is ready immediately.",
+      "alreadySubscribedCta": "View your subscription"
     },
     "notify": {
-      "aboveField": "Saamme tuntisuunnitelma­kirjaston valmiiksi ja lanseeraamme tilauksen pian. Jätä sähköpostisi, niin kerromme päivänä, jona se aukeaa.",
+      "aboveField": "Subscriptions launching soon. Leave your email and we'll let you know the day it opens.",
       "label": "Sähköpostiosoite",
       "placeholder": "sahkoposti@koulu.fi",
       "submit": "Ilmoita minulle →",
       "submitting": "Lähetetään…",
       "confirmation": "Kiitos — lähetämme sähköpostia, kun tilaus aukeaa.",
-      "subCopy": "Yksi sähköposti, vain kun tilaus aukeaa. Ei markkinointilistaa, ei jatkoviestisarjaa.",
+      "subCopy": "One email, only when the subscription opens. No marketing list, no follow-up sequence.",
       "errors": {
         "invalid_email": "Anna kelvollinen sähköpostiosoite.",
         "server": "Jokin meni pieleen. Yritä uudelleen."

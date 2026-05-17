@@ -45,10 +45,10 @@
       "ogAlt": "LessonCraftStudio — K-3-werkbladen in 11 talen"
     },
     "hero": {
-      "title": "Werkbladen die in uw tweede taal werkelijk werken.",
-      "subtitle": "Een gecureerde bibliotheek met K-3-illustraties, gekoppeld aan een vocabulairesysteem in 11 talen — met correcte geslachten, meervoudsvormen en diakrieten in elke taal. Gebouwd voor leerkrachten in tweetalige programma's, bilinguale klassen en internationale scholen.",
-      "interaction": "De kinderen spelen ze in de browser. Druk ze af als u dat liever heeft.",
-      "cta": "Sluit u gratis aan →"
+      "title": "Worksheets in 11 languages, printable and interactive.",
+      "subtitle": "33 worksheet creators generate over 100 worksheet types — addition, crosswords, sudoku, picture sorts, find-and-count, and more. 29 of the 33 produce both a printable PDF and a browser-playable interactive version from the same setup.",
+      "interaction": "Built for teachers in bilingual, dual-language, and international schools.",
+      "cta": "Join for free →"
     },
     "fourCardGrid": {
       "sectionTitle": "Onze leerbibliotheek",
@@ -137,29 +137,33 @@
       "breadthIntro": "Tik op een van deze om een volledig werkblad te spelen — net als je leerlingen."
     },
     "subscription": {
-      "sectionTitle": "Onbeperkte toegang voor $69 per jaar.",
-      "intro": "2 gratis downloads per dag — verdeeld over onze deck-bibliotheek en werkblad-makers. Neem een abonnement voor onbeperkt downloaden, onbeperkt app-gebruik en de volledige bibliotheek met lesplannen en themapakketten.",
-      "themedBundles": {
-        "title": "Themapakketten voor de momenten die elk jaar terugkomen",
-        "body": "Met de hand samengestelde pakketten voor begin van het schooljaar, Halloween, kerstvakantie, Valentijnsdag, einde van het schooljaar en herhaling aan het einde van een thema. Elk pakket combineert een samenhangende reeks decks met een lesplan dat voor het thema van dat pakket is geschreven. Druk het boekje af, volg het plan, geef de week les. Door het jaar heen worden nieuwe pakketten toegevoegd, allemaal inbegrepen in het abonnement."
+      "sectionTitle": "Unlimited access for $69 a year.",
+      "intro": "Free tier: 2 downloads per day across the catalog and apps. Subscribe for unlimited downloads, unlimited generation, and access to every theme and language.",
+      "catalog": {
+        "title": "Full worksheet catalog",
+        "body": "Printable and interactive worksheets across 11 languages. Unlimited downloads of every existing deck plus everything we publish through the year."
       },
-      "workspace": {
-        "title": "Een werkruimte voor de leerkracht die u werkelijk bent",
-        "body": "De catalogus zal duizenden decks tellen. Het abonnement geeft u collecties om ze te ordenen, een werkruimte-startpagina om in te landen, geavanceerde filters afgestemd op hoe leerkrachten werkelijk zoeken, leerplankoppeling voor uw eigen thema's, en bulkgereedschap dat taken van vijf minuten in taken van dertig seconden verandert. Uw structuur draagt jaar na jaar door — daar gaat het om."
+      "creators": {
+        "title": "All 33 worksheet creators",
+        "body": "100+ worksheet types — math, literacy, puzzles, matching, search. Generate as many variations as you need. 29 of the 33 apps output both printable and interactive formats from a single setup."
       },
-      "price": "$69 per jaar. Op elk moment opzegbaar.",
-      "subscribeCta": "Abonneren →",
-      "subscribeSubCopy": "U wordt doorgestuurd naar onze betaalpartner. Na de betaling is uw account direct klaar voor gebruik.",
-      "alreadySubscribedCta": "Mijn abonnement bekijken"
+      "assets": {
+        "title": "100+ themes, 3,000+ images, 11 languages",
+        "body": "The illustration library and vocabulary system that lets the same worksheet work across languages — grammatically correct gender, plurals, and diacritics in every one."
+      },
+      "price": "$69 per year. Cancel anytime.",
+      "subscribeCta": "Subscribe →",
+      "subscribeSubCopy": "You'll be taken to our payment partner. After checkout, your account is ready immediately.",
+      "alreadySubscribedCta": "View your subscription"
     },
     "notify": {
-      "aboveField": "Wij zijn de lesplan-bibliotheek aan het afronden en lanceren het abonnement binnenkort. Laat ons uw e-mailadres achter en wij geven u op de openingsdag bericht.",
+      "aboveField": "Subscriptions launching soon. Leave your email and we'll let you know the day it opens.",
       "label": "E-mailadres",
       "placeholder": "uw-email@school.nl",
       "submit": "Geef mij bericht →",
       "submitting": "Wordt verzonden…",
       "confirmation": "Dank u — wij sturen u een e-mail wanneer het abonnement opent.",
-      "subCopy": "Eén e-mail, alleen wanneer het abonnement opent. Geen marketinglijst, geen vervolgreeks.",
+      "subCopy": "One email, only when the subscription opens. No marketing list, no follow-up sequence.",
       "errors": {
         "invalid_email": "Voer een geldig e-mailadres in.",
         "server": "Er is iets misgegaan. Probeer het opnieuw."

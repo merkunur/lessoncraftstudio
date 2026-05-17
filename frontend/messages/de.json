@@ -46,10 +46,10 @@
       "ogAlt": "LessonCraftStudio — K-3-Arbeitsblätter in 11 Sprachen"
     },
     "hero": {
-      "title": "Arbeitsblätter, die in Ihrer zweiten Sprache wirklich funktionieren.",
-      "subtitle": "Eine kuratierte Bibliothek mit K-3-Illustrationen, gepaart mit einem Vokabelsystem in 11 Sprachen — mit korrektem Genus, korrekter Pluralbildung und korrekten Sonderzeichen in jeder Sprache. Entwickelt für Lehrkräfte in zweisprachigen Programmen, bilingualen Klassen und internationalen Schulen.",
-      "interaction": "Die Kinder lösen sie im Browser. Drucken Sie sie, wenn Sie das vorziehen.",
-      "cta": "Kostenlos beitreten →"
+      "title": "Arbeitsblätter in 11 Sprachen, druckbar und interaktiv.",
+      "subtitle": "33 Arbeitsblatt-Generatoren erzeugen über 100 Arbeitsblattarten — Addition, Kreuzworträtsel, Sudoku, Bildersortierung, Suchen-und-Zählen und mehr. 29 der 33 liefern aus einem einzigen Setup sowohl ein druckbares PDF als auch eine im Browser spielbare interaktive Version.",
+      "interaction": "Entwickelt für Lehrkräfte in bilingualen, immersiven und internationalen Schulen.",
+      "cta": "Kostenlos starten →"
     },
     "fourCardGrid": {
       "sectionTitle": "Unsere Lernbibliothek",
@@ -138,29 +138,33 @@
       "breadthIntro": "Tippen Sie auf eine, um ein vollständiges Deck zu spielen — genau wie Ihre Schüler."
     },
     "subscription": {
-      "sectionTitle": "Unbegrenzter Zugriff für 69 $ pro Jahr.",
-      "intro": "2 kostenlose Downloads pro Tag — über unsere Deck-Bibliothek und unsere Arbeitsblatt-Generatoren hinweg. Mit dem Abonnement erhalten Sie unbegrenzte Downloads, unbegrenzte App-Nutzung und die vollständige Bibliothek mit Unterrichtsentwürfen und Themenpaketen.",
-      "themedBundles": {
-        "title": "Themenpakete für die wiederkehrenden Anlässe",
-        "body": "Handverlesene Pakete für Schulanfang, Halloween, Winterferien, Valentinstag, Schuljahresende und Wiederholung am Einheitsende. Jedes Paket verbindet eine zusammenhängende Auswahl von Decks mit einem Unterrichtsentwurf, der für das Thema dieses Pakets geschrieben wurde. Heft drucken, Plan folgen, die Woche unterrichten. Im Laufe des Jahres kommen neue Pakete hinzu, alle im Abonnement enthalten."
+      "sectionTitle": "Unbegrenzter Zugang für 69 $ pro Jahr.",
+      "intro": "Kostenloses Kontingent: 2 Downloads pro Tag aus Katalog und Apps. Im Abonnement: unbegrenzte Downloads, unbegrenzte Generierung und Zugriff auf jedes Thema und jede Sprache.",
+      "catalog": {
+        "title": "Vollständiger Arbeitsblatt-Katalog",
+        "body": "Druckbare und interaktive Arbeitsblätter in 11 Sprachen. Unbegrenzte Downloads aller bestehenden Decks plus allem, was wir im Laufe des Jahres veröffentlichen."
       },
-      "workspace": {
-        "title": "Ein Arbeitsbereich für die Lehrkraft, die Sie tatsächlich sind",
-        "body": "Der Katalog wird tausende Decks umfassen. Das Abonnement gibt Ihnen Sammlungen, um sie zu organisieren, einen Arbeitsbereich-Startpunkt, in dem Sie landen, fortgeschrittene Filter, abgestimmt darauf, wie Lehrkräfte tatsächlich suchen, Lehrplanverknüpfung für Ihre eigenen Einheiten und Massentools, die Fünf-Minuten-Aufgaben in Dreißig-Sekunden-Aufgaben verwandeln. Ihre Struktur trägt von Jahr zu Jahr — genau darum geht es."
+      "creators": {
+        "title": "Alle 33 Arbeitsblatt-Generatoren",
+        "body": "Über 100 Arbeitsblattarten — Mathematik, Sprache & Schrift, Rätsel, Zuordnung, Suchen. Generieren Sie so viele Varianten, wie Sie brauchen. 29 der 33 Apps liefern aus einem einzigen Setup beide Formate — druckbar und interaktiv."
       },
-      "price": "$69 pro Jahr. Jederzeit kündbar.",
+      "assets": {
+        "title": "Über 100 Themen, über 3.000 Bilder, 11 Sprachen",
+        "body": "Die Illustrationsbibliothek und das Vokabelsystem, mit dem dasselbe Arbeitsblatt über Sprachen hinweg funktioniert — grammatikalisch korrektes Genus, Plural und Diakritika in jeder einzelnen."
+      },
+      "price": "69 $ pro Jahr. Jederzeit kündbar.",
       "subscribeCta": "Abonnieren →",
-      "subscribeSubCopy": "Sie werden zu unserem Zahlungspartner weitergeleitet. Nach dem Bezahlen ist Ihr Konto sofort einsatzbereit.",
+      "subscribeSubCopy": "Sie werden zu unserem Zahlungspartner weitergeleitet. Nach dem Kauf ist Ihr Konto sofort einsatzbereit.",
       "alreadySubscribedCta": "Mein Abonnement ansehen"
     },
     "notify": {
-      "aboveField": "Wir vervollständigen gerade die Unterrichtsentwurfs-Bibliothek und starten das Abonnement bald. Lassen Sie uns Ihre E-Mail-Adresse da, und wir benachrichtigen Sie an dem Tag, an dem es losgeht.",
+      "aboveField": "Das Abonnement startet bald. Hinterlassen Sie Ihre E-Mail, und wir benachrichtigen Sie am Eröffnungstag.",
       "label": "E-Mail-Adresse",
       "placeholder": "ihre-email@schule.de",
       "submit": "Benachrichtigen →",
       "submitting": "Wird gesendet…",
       "confirmation": "Danke — wir benachrichtigen Sie, wenn das Abonnement startet.",
-      "subCopy": "Eine E-Mail, nur wenn das Abonnement startet. Keine Werbeliste, keine Folgenachrichten.",
+      "subCopy": "Eine E-Mail, nur zur Eröffnung. Kein Newsletter, keine Folgesequenz.",
       "errors": {
         "invalid_email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
         "server": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."

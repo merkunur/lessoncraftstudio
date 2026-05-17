@@ -45,10 +45,10 @@
       "ogAlt": "LessonCraftStudio — K-3-arbeidsark på 11 språk"
     },
     "hero": {
-      "title": "Arbeidsark som virker på ekte i andrespråket ditt.",
-      "subtitle": "Et kuratert bibliotek med K-3-illustrasjoner kombinert med et vokabularsystem som dekker 11 språk — med korrekt kjønn, korrekte flertallsformer og korrekte diakritiske tegn i hvert språk. Bygget for lærere i tospråklige programmer, tospråklige klasserom og internasjonale skoler.",
-      "interaction": "Barna løser dem i nettleseren. Skriv dem ut hvis du foretrekker det.",
-      "cta": "Bli med gratis →"
+      "title": "Worksheets in 11 languages, printable and interactive.",
+      "subtitle": "33 worksheet creators generate over 100 worksheet types — addition, crosswords, sudoku, picture sorts, find-and-count, and more. 29 of the 33 produce both a printable PDF and a browser-playable interactive version from the same setup.",
+      "interaction": "Built for teachers in bilingual, dual-language, and international schools.",
+      "cta": "Join for free →"
     },
     "fourCardGrid": {
       "sectionTitle": "Vårt læringsbibliotek",
@@ -137,29 +137,33 @@
       "breadthIntro": "Trykk på hvilket som helst for å spille et helt arbeidsark — akkurat som elevene dine."
     },
     "subscription": {
-      "sectionTitle": "Ubegrenset tilgang for 69 $ i året.",
-      "intro": "2 gratis nedlastinger per dag — fordelt mellom deck-biblioteket og arbeidsark-generatorene. Tegn abonnement for ubegrensede nedlastinger, ubegrenset bruk av appene og hele biblioteket med undervisningsplaner og temapakker.",
-      "themedBundles": {
-        "title": "Temapakker for øyeblikkene som kommer tilbake hvert år",
-        "body": "Håndplukkede pakker for skolestart, Halloween, vinterferie, Valentinsdag, skoleårsavslutning og repetisjon ved temaslutt. Hver pakke kombinerer et sammenhengende sett med decks med et undervisningsopplegg skrevet for pakkens tema. Skriv ut heftet, følg opplegget, underviser uka. Nye pakker legges til i løpet av året, alle inkludert i abonnementet."
+      "sectionTitle": "Unlimited access for $69 a year.",
+      "intro": "Free tier: 2 downloads per day across the catalog and apps. Subscribe for unlimited downloads, unlimited generation, and access to every theme and language.",
+      "catalog": {
+        "title": "Full worksheet catalog",
+        "body": "Printable and interactive worksheets across 11 languages. Unlimited downloads of every existing deck plus everything we publish through the year."
       },
-      "workspace": {
-        "title": "Et arbeidsområde for læreren du faktisk er",
-        "body": "Katalogen vil passere tusenvis av decks. Abonnementet gir deg samlinger til å organisere dem, et arbeidsområde å lande i når du logger inn, avansert filtrering tilpasset hvordan lærere faktisk søker, læreplankobling for dine egne enheter og bulkverktøy som forvandler femminutters oppgaver til trettisekunders oppgaver. Strukturen din følger med fra år til år — det er hele poenget."
+      "creators": {
+        "title": "All 33 worksheet creators",
+        "body": "100+ worksheet types — math, literacy, puzzles, matching, search. Generate as many variations as you need. 29 of the 33 apps output both printable and interactive formats from a single setup."
       },
-      "price": "$69 i året. Avslutt når som helst.",
-      "subscribeCta": "Abonner →",
-      "subscribeSubCopy": "Du sendes videre til vår betalingspartner. Etter betalingen er kontoen din klar umiddelbart.",
-      "alreadySubscribedCta": "Se abonnementet mitt"
+      "assets": {
+        "title": "100+ themes, 3,000+ images, 11 languages",
+        "body": "The illustration library and vocabulary system that lets the same worksheet work across languages — grammatically correct gender, plurals, and diacritics in every one."
+      },
+      "price": "$69 per year. Cancel anytime.",
+      "subscribeCta": "Subscribe →",
+      "subscribeSubCopy": "You'll be taken to our payment partner. After checkout, your account is ready immediately.",
+      "alreadySubscribedCta": "View your subscription"
     },
     "notify": {
-      "aboveField": "Vi gjør ferdig undervisningsopplegg-biblioteket og lanserer abonnementet snart. Legg igjen e-posten din, så gir vi deg beskjed den dagen det åpner.",
+      "aboveField": "Subscriptions launching soon. Leave your email and we'll let you know the day it opens.",
       "label": "E-postadresse",
       "placeholder": "din-epost@skole.no",
       "submit": "Gi meg beskjed →",
       "submitting": "Sender…",
       "confirmation": "Takk — vi sender e-post når abonnementet åpner.",
-      "subCopy": "Én e-post, bare når abonnementet åpner. Ingen markedsføringsliste, ingen oppfølgingssekvens.",
+      "subCopy": "One email, only when the subscription opens. No marketing list, no follow-up sequence.",
       "errors": {
         "invalid_email": "Vennligst skriv inn en gyldig e-postadresse.",
         "server": "Noe gikk galt. Prøv igjen."

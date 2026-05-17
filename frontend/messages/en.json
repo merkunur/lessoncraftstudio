@@ -138,8 +138,8 @@
       "breadthIntro": "Tap any of these to play a complete deck — same as your students will."
     },
     "subscription": {
-      "sectionTitle": "Unlimited access for $69 a year.",
-      "intro": "Free tier: 2 downloads per day across the catalog and apps. Subscribe for unlimited downloads, unlimited generation, and access to every theme and language.",
+      "sectionTitle": "Everything we make, free for teachers.",
+      "intro": "Sign up to play every worksheet, download every PDF, and use every worksheet creator. No tiers, no subscription — just free for teachers.",
       "catalog": {
         "title": "Full worksheet catalog",
         "body": "Printable and interactive worksheets across 11 languages. Unlimited downloads of every existing deck plus everything we publish through the year."
@@ -152,23 +152,10 @@
         "title": "100+ themes, 3,000+ images, 11 languages",
         "body": "The illustration library and vocabulary system that lets the same worksheet work across languages — grammatically correct gender, plurals, and diacritics in every one."
       },
-      "price": "$69 per year. Cancel anytime.",
-      "subscribeCta": "Subscribe →",
-      "subscribeSubCopy": "You'll be taken to our payment partner. After checkout, your account is ready immediately.",
-      "alreadySubscribedCta": "View your subscription"
-    },
-    "notify": {
-      "aboveField": "Subscriptions launching soon. Leave your email and we'll let you know the day it opens.",
-      "label": "Email address",
-      "placeholder": "your-email@school.org",
-      "submit": "Notify me →",
-      "submitting": "Sending…",
-      "confirmation": "Thanks — we'll email you when the subscription opens.",
-      "subCopy": "One email, only when the subscription opens. No marketing list, no follow-up sequence.",
-      "errors": {
-        "invalid_email": "Please enter a valid email address.",
-        "server": "Something went wrong. Please try again."
-      }
+      "price": "Free for everyone with a teacher account.",
+      "subscribeCta": "Join for free →",
+      "subscribeSubCopy": "Free for all teachers. Sign-up takes 30 seconds.",
+      "alreadySubscribedCta": "Go to workspace"
     },
     "exerciseTypeGrid": {
       "heading": "Every K-3 exercise type, in your language.",
@@ -193,12 +180,6 @@
       "heading": "Put any worksheet on your website.",
       "intro": "Embed an interactive deck on your classroom blog, school site, or shared page. Your students get the same play experience, no signup required.",
       "buttonLabel": "Get the embed code"
-    },
-    "quota": {
-      "exceededTitle": "Daily limit reached",
-      "exceededBody": "Free users can play 2 worksheets or download 2 resources per day. Subscribe for unlimited access — $69 per year, cancel anytime.",
-      "subscribeCta": "Subscribe — $69/year",
-      "dismissCta": "Maybe later"
     }
   },
   "auth": {
@@ -898,12 +879,9 @@
       "errorGeneric": "Something went wrong. Please try again."
     },
     "gate": {
-      "subscribePromptTitle": "Collections is part of the subscription",
-      "subscribePromptBody": "Save and organize decks into collections is one of the workspace tools the $69/year subscription unlocks. Free users can browse, print, embed, and share every deck — without an account.",
-      "subscribeCta": "Go to subscribe",
-      "signInPromptTitle": "Sign in to access your collections",
-      "signInPromptBody": "Your collections live with your account. Sign in to view them.",
-      "signInCta": "Sign in"
+      "signInPromptTitle": "Sign-in required",
+      "signInPromptBody": "Free sign-up needed to access this feature. Takes 30 seconds.",
+      "signInCta": "Join for free"
     },
     "addAffordance": {
       "label": "Add to collection",
@@ -1072,12 +1050,9 @@
       "welcomeLine": "Your collections and recent activity, all in one place."
     },
     "gate": {
-      "subscribePromptTitle": "Workspace is part of the subscription",
-      "subscribePromptBody": "Your workspace — collections, recent activity, and saved decks — is one of the tools the $69/year subscription unlocks.",
-      "subscribeCta": "Go to subscribe",
-      "signInPromptTitle": "Sign in to access your workspace",
-      "signInPromptBody": "Your workspace lives with your account. Sign in to view it.",
-      "signInCta": "Sign in"
+      "signInPromptTitle": "Sign-in required",
+      "signInPromptBody": "Free sign-up needed to access this feature. Takes 30 seconds.",
+      "signInCta": "Join for free"
     },
     "loading": "Loading…",
     "errorGeneric": "Something went wrong. Please try again.",

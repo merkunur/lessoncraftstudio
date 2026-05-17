@@ -1,27 +1,13 @@
 import { getTranslations } from 'next-intl/server';
 import SubscribeCTA from './SubscribeCTA';
 
-// Section 5 — Subscription per homepage-restructure 2026-05-17 commission.
-// Post lesson-plans-domain removal: 3-column capability block (catalog +
-// creators + assets). Replaced the prior 2-pillar (themedBundles + workspace)
-// structure per Variant A ratification.
+// Section 5 — "Everything free with sign-up" per CLAUDE.md §7
+// (post-subscription-pivot, 2026-05-17). 3-column capability block
+// reframed: no $69, no payment partner, no notify-me. Just free for
+// teachers with a sign-up.
 //
-// Server-rendered shell with the SubscribeCTA as a client child.
-//
-// HOMEPAGE_SUBSCRIBE_MODE env var (read here at static-generation time, passed
-// into SubscribeCTA as a prop because SubscribeCTA is a client component and
-// can't read non-NEXT_PUBLIC env vars directly):
-//   "subscribe"  → 3-state auth-aware Subscribe flow → LS hosted checkout
-//   "notify_me"  → email-capture NotifyMe form (rollback default)
-// Operator flips to "subscribe" once LS variant 1595188 is published in the
-// LS dashboard (variant currently in "pending" status per LS API).
-
-type SubscribeMode = 'subscribe' | 'notify_me';
-
-function resolveSubscribeMode(): SubscribeMode {
-  const raw = process.env.HOMEPAGE_SUBSCRIBE_MODE;
-  return raw === 'subscribe' ? 'subscribe' : 'notify_me';
-}
+// Server-rendered shell with SubscribeCTA as a client child (the latter
+// branches on signed-in / signed-out via useAuth).
 
 export default async function SubscriptionSection({ locale }: { locale: string }) {
   const t = await getTranslations({ locale, namespace: 'homepage.subscription' });
@@ -61,7 +47,7 @@ export default async function SubscriptionSection({ locale }: { locale: string }
           <p className="font-display font-semibold text-2xl text-ink-900">
             {t('price')}
           </p>
-          <SubscribeCTA mode={resolveSubscribeMode()} />
+          <SubscribeCTA />
         </div>
       </div>
     </section>

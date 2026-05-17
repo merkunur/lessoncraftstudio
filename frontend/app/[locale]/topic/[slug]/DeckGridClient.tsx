@@ -9,7 +9,7 @@ import DeckCardCheckbox from '@/components/catalog/DeckCardCheckbox';
 import BulkSelectToolbar, { BulkAction } from '@/components/catalog/BulkSelectToolbar';
 import BulkAddToCollectionPicker from '@/components/catalog/BulkAddToCollectionPicker';
 import ShareLinkResultModal, { ShareLinkResult } from '@/components/catalog/ShareLinkResultModal';
-import { useQuotaGatedClick } from '@/components/quota/QuotaExceededModal';
+import { useSignInGate } from '@/components/auth/SignInRequiredGate';
 
 // Tool 5A — client wrapper extraction from the topic page's inline grid.
 // Owns bulk-mode state + selection state + per-card affordances. Per §17.4
@@ -43,7 +43,7 @@ export default function DeckGridClient({
   labels,
 }: DeckGridClientProps) {
   const t = useTranslations('bulk');
-  const { gatedClick, QuotaModalElement } = useQuotaGatedClick();
+  const { gatedClick } = useSignInGate();
 
   const [bulkMode, setBulkMode] = useState(false);
   const [selectedDeckIds, setSelectedDeckIds] = useState<Set<string>>(new Set());
@@ -60,15 +60,13 @@ export default function DeckGridClient({
   // /api/quota/check-and-increment; on 200 (allowed) navigates to the deck
   // page; on 402 (blocked) shows the QuotaExceededModal without navigation.
   // Thin alias for Play clicks (preserves existing call sites in the JSX
-  // below). PDF + answer-key links call `gatedClick` directly with the
-  // appropriate action + target.
+  // below). All deck-action clicks just check sign-in and redirect to
+  // signup if not authenticated — no quota counter, no modal.
   const handlePlayClick = useCallback(
-    (e: React.MouseEvent<HTMLAnchorElement>, deckHref: string, deckId: string) =>
-      gatedClick(e, deckHref, 'play', deckId, 'self'),
+    (e: React.MouseEvent<HTMLAnchorElement>, deckHref: string, _deckId: string) =>
+      gatedClick(e, deckHref, 'self'),
     [gatedClick]
   );
-
-  const handleQuotaGatedClick = gatedClick; // keep var name used in JSX
 
   const flashConfirmation = useCallback((msg: string) => {
     setConfirmation(msg);
@@ -225,10 +223,8 @@ export default function DeckGridClient({
                     </a>
                     <span className="text-ink-300" aria-hidden="true">·</span>
                     <a
-                      href={`/api/quota/pdf/${deck.id}`}
-                      onClick={e =>
-                        handleQuotaGatedClick(e, deck.pdfUrl, 'pdf', deck.id, 'blank')
-                      }
+                      href={deck.pdfUrl}
+                      onClick={e => gatedClick(e, deck.pdfUrl, 'blank')}
                       className="text-ink-600 hover:text-ink-900"
                       target="_blank"
                       rel="noopener"
@@ -239,16 +235,8 @@ export default function DeckGridClient({
                       <>
                         <span className="text-ink-300" aria-hidden="true">·</span>
                         <a
-                          href={`/api/quota/answer-key/${deck.id}`}
-                          onClick={e =>
-                            handleQuotaGatedClick(
-                              e,
-                              deck.answerKeyUrl!,
-                              'answer-key',
-                              deck.id,
-                              'blank'
-                            )
-                          }
+                          href={deck.answerKeyUrl}
+                          onClick={e => gatedClick(e, deck.answerKeyUrl!, 'blank')}
                           className="text-ink-600 hover:text-ink-900"
                           target="_blank"
                           rel="noopener"
@@ -311,7 +299,6 @@ export default function DeckGridClient({
           {confirmation}
         </div>
       )}
-      {QuotaModalElement}
     </>
   );
 }

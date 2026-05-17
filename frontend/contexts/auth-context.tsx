@@ -3,7 +3,6 @@
 import React, { createContext, useContext, useState, useEffect, useCallback, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import { toast } from 'react-hot-toast';
-import { isLcsSubscriptionActive } from '@/lib/subscription-helpers';
 
 interface User {
   id: string;
@@ -28,7 +27,7 @@ interface User {
     cancelAtPeriodEnd: boolean;
     /** Lemon Squeezy subscription ID. Populated by the LS subscription webhook
      *  (subscription_created) when a user subscribes to the $69/year LCS subscription.
-     *  Used by isLcsSubscriptionActive() to gate Subscribe-CTA branch 3. */
+     *  Used by !! to gate Subscribe-CTA branch 3. */
     lsSubscriptionId?: string | null;
   };
 }
@@ -294,7 +293,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
           } else {
             // Q-l Option III: subscriber-conditional redirect.
             router.push(
-              isLcsSubscriptionActive(userWithSubscription)
+              !!userWithSubscription
                 ? `/${locale}/workspace`
                 : `/${locale}/dashboard`
             );
@@ -359,7 +358,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       } else {
         const locale = getCurrentLocale();
         router.push(
-          isLcsSubscriptionActive(userWithSubscription)
+          !!userWithSubscription
             ? `/${locale}/workspace`
             : `/${locale}/dashboard`
         );
@@ -585,7 +584,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       // Q-l Option III: subscriber-conditional redirect.
       const locale = getCurrentLocale();
       router.push(
-        isLcsSubscriptionActive(userWithSubscription)
+        !!userWithSubscription
           ? `/${locale}/workspace`
           : `/${locale}/dashboard`
       );

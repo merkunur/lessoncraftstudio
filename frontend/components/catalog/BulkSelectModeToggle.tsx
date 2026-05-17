@@ -2,7 +2,6 @@
 
 import { useTranslations } from 'next-intl';
 import { useAuth } from '@/contexts/auth-context';
-import { isLcsSubscriptionActive } from '@/lib/subscription-helpers';
 
 // Subscriber-only "Select" / "Done" toggle that flips a parent-owned bulk-mode
 // boolean. Render NOTHING for non-subscribers per Q-q Option I — the bulk
@@ -21,7 +20,7 @@ export default function BulkSelectModeToggle({
   const { user, loading: authLoading } = useAuth();
 
   if (authLoading) return null;
-  if (!user || !isLcsSubscriptionActive(user)) return null;
+  if (!user) return null;
 
   return (
     <button

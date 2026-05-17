@@ -116,7 +116,6 @@ export default async function VarietyStrip(props: VarietyStripProps) {
               className="border border-cream-300 rounded-md overflow-hidden bg-white shadow-sm hover:shadow-md transition"
             >
               <VarietyStripCard
-                deckId={deck.id}
                 deckUrl={deckLinkFor(deck)}
                 title={title}
                 thumbnailUrl={deck.thumbnailUrl}

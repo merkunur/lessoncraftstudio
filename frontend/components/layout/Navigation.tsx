@@ -7,7 +7,6 @@ import { usePathname } from 'next/navigation';
 import { LanguageSelector } from '@/components/LanguageSelector';
 import { useState } from 'react';
 import { useAuth } from '@/contexts/auth-context';
-import { isLcsSubscriptionActive } from '@/lib/subscription-helpers';
 import { Menu, X } from 'lucide-react';
 import { CategoryNav } from './CategoryNav';
 
@@ -79,7 +78,7 @@ export function Navigation({ availableExerciseTypes = [] }: NavigationProps = {}
                   {/* Tool 2A — subscriber-only Workspace nav entry per Q-i Option β.
                       Replaces Tool 1A's standalone "Collections" entry; /collections
                       stays reachable via Workspace home's "View all" link. */}
-                  {isLcsSubscriptionActive(user) && (
+                  {!!user && (
                     <Link href={`/${locale}/workspace`} className="px-3 py-2 text-sm font-medium text-ink-600 hover:text-ink-900 hover:bg-cream-200 rounded-md transition-colors">
                       {t('workspace')}
                     </Link>
@@ -138,7 +137,7 @@ export function Navigation({ availableExerciseTypes = [] }: NavigationProps = {}
           {user ? (
             <div className="space-y-2 pt-4 border-t border-cream-300">
               {/* Tool 2A — subscriber-only Workspace entry, mobile mirror per Q-i β. */}
-              {isLcsSubscriptionActive(user) && (
+              {!!user && (
                 <Link
                   href={`/${locale}/workspace`}
                   className="block py-2 text-ink-600 hover:text-primary transition-colors font-medium"

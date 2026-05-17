@@ -94,7 +94,6 @@ export default async function BreadthGrid({ locale }: { locale: string }) {
         {thumbnails.map(deck => (
           <BreadthGridThumbnail
             key={`${deck.language}-${deck.slug}`}
-            deckId={deck.id}
             slug={deck.slug}
             language={deck.language}
             title={deck.title}

@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { useAuth } from '@/contexts/auth-context';
-import { isLcsSubscriptionActive } from '@/lib/subscription-helpers';
 
 // Subscriber-only "Share link" affordance for catalog deck cards. Mirrors
 // AddToCollectionButton's gate pattern: render NOTHING for non-subscribers.
@@ -26,7 +25,7 @@ export default function ShareDeckButton({ deckId }: ShareDeckButtonProps) {
   const [copied, setCopied] = useState(false);
 
   if (authLoading) return null;
-  if (!user || !isLcsSubscriptionActive(user)) return null;
+  if (!user) return null;
 
   async function handleClick() {
     setOpen(true);

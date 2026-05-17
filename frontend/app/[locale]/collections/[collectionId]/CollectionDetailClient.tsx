@@ -5,13 +5,12 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { useAuth } from '@/contexts/auth-context';
-import { isLcsSubscriptionActive } from '@/lib/subscription-helpers';
 import BulkSelectModeToggle from '@/components/catalog/BulkSelectModeToggle';
 import DeckCardCheckbox from '@/components/catalog/DeckCardCheckbox';
 import BulkSelectToolbar, { BulkAction } from '@/components/catalog/BulkSelectToolbar';
 import ShareDeckButton from '@/components/catalog/ShareDeckButton';
 import ShareLinkResultModal, { ShareLinkResult } from '@/components/catalog/ShareLinkResultModal';
-import { useQuotaGatedClick } from '@/components/quota/QuotaExceededModal';
+import { useSignInGate } from '@/components/auth/SignInRequiredGate';
 
 interface CollectionDeckEntry {
   deckId: string;
@@ -55,7 +54,7 @@ export default function CollectionDetailClient({
   const t = useTranslations('collections');
   const { user, loading: authLoading } = useAuth();
   const router = useRouter();
-  const { gatedClick, QuotaModalElement } = useQuotaGatedClick();
+  const { gatedClick } = useSignInGate();
 
   const [collection, setCollection] = useState<CollectionDetail | null>(null);
   const [loading, setLoading] = useState(false);
@@ -135,7 +134,7 @@ export default function CollectionDetailClient({
   }, [collectionId, t]);
 
   useEffect(() => {
-    if (!user || !isLcsSubscriptionActive(user)) return;
+    if (!user) return;
     fetchCollection();
   }, [user, fetchCollection]);
 
@@ -155,27 +154,10 @@ export default function CollectionDetailClient({
         </h1>
         <p className="text-ink-700 mb-8">{t('gate.signInPromptBody')}</p>
         <Link
-          href={`/${locale}/auth/signin`}
+          href={`/${locale}/auth/signup`}
           className="inline-flex items-center px-6 py-3 rounded-md bg-terracotta-400 text-cream-50 font-semibold hover:bg-terracotta-500 transition"
         >
           {t('gate.signInCta')}
-        </Link>
-      </main>
-    );
-  }
-
-  if (!isLcsSubscriptionActive(user)) {
-    return (
-      <main className="container mx-auto px-4 max-w-3xl py-16">
-        <h1 className="font-display text-3xl font-semibold text-ink-900 mb-4">
-          {t('gate.subscribePromptTitle')}
-        </h1>
-        <p className="text-ink-700 mb-8">{t('gate.subscribePromptBody')}</p>
-        <Link
-          href={`/${locale}#subscription`}
-          className="inline-flex items-center px-6 py-3 rounded-md bg-terracotta-400 text-cream-50 font-semibold hover:bg-terracotta-500 transition"
-        >
-          {t('gate.subscribeCta')}
         </Link>
       </main>
     );
@@ -422,7 +404,7 @@ export default function CollectionDetailClient({
                 ) : (
                   <a
                     href={href}
-                    onClick={e => gatedClick(e, href, 'play', deck.deckId, 'self')}
+                    onClick={e => gatedClick(e, href, 'self')}
                     className="block"
                   >
                     {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -451,7 +433,7 @@ export default function CollectionDetailClient({
                       ) : (
                         <a
                           href={href}
-                          onClick={e => gatedClick(e, href, 'play', deck.deckId, 'self')}
+                          onClick={e => gatedClick(e, href, 'self')}
                           className="hover:text-leaf-700"
                         >
                           {title}
@@ -605,7 +587,6 @@ export default function CollectionDetailClient({
         </div>
       )}
     </main>
-    {QuotaModalElement}
     </>
   );
 }

@@ -157,56 +157,33 @@ English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, N
 
 **`no` = bokmål canonical** (`a47ea021`). Single `no` locale code; no nb/nn split. Bokmål register (barnehage / 1. trinn).
 
-## 7. Pricing and subscription model
+## 7. Pricing and access model
 
-Free-to-use for teachers; clearly differentiated paid tier targeting teachers who integrated the platform into workflow. The free tier needs to be generous enough that teachers genuinely adopt; the paid tier needs to solve frustrations from sustained free-tier use. Conversion is value-driven, not scarcity-driven.
+**Free for everyone with a teacher sign-up. No tiers; no paid subscription; no daily cap.** Revenue model TBD (operator-strategic; separate adjudication post-2026-05-17 pivot).
 
-K-3 specific exclusions: student progress tracking dashboards, multi-deck assignment sequencing, detailed performance analytics — K-3 teachers are with their students all day; don't need windows into independent work.
+Sign-up is required to play interactive worksheets, download PDFs/answer keys, or use the 29 worksheet-generator apps. Sign-up exists primarily as a bot-deterrent — it's free, takes 30 seconds, and unlocks everything.
 
-**Free tier — daily 2-action cap across teacher-engagement surfaces:**
-- Full access to BROWSE every deck in all 11 languages (browsing is never gated)
-- Full search, browse, filter
-- Unlimited shareable links (no expiration, no student count limits)
+**Free with sign-up — everything:**
+- Full access to play every interactive worksheet
+- Unlimited printable PDF + answer-key downloads
+- All 29 worksheet-generator apps with unlimited generation + downloads
+- Collections + workspace + curriculum mapping + bulk tools (former subscriber features)
+- Shareable links (no expiration, no student count limits)
 - QR code generation
-- **2 actions per UTC day** across three intentional-engagement categories: (a) opening a catalog deck page from a deck-card click, (b) downloading a printable PDF, (c) downloading an app-generated worksheet from any of the 29 interactive worksheet-generator apps. Subscribers + bots bypass. All three categories deplete the same unified daily bucket.
-- Email signup to save favorites + new-deck digests
-- Topic destination pages (deck grid + companion printable PDF list)
-- Embedded sample decks on public pages (acquisition flywheel; never gated)
-- Direct-link student plays via `/play/[linkId]` (kid-side, per §4.4; never gated)
 
-**Annual subscription: $69/year (individual).** Subscription pillars post lesson-plans-domain removal (2026-05-17, commit `920aebbc`):
+**Anonymous (no sign-up) — browse-only:**
+- Browse catalog (search / filter / view deck pages — all SEO-public for crawlability)
+- View topic destination pages
+- Play embedded sample decks on marketing pages (acquisition flywheel per §3 + §18; never gated)
+- Direct-link student plays via `/play/[linkId]` (kid-side, per §4.4; never gated — students don't sign up)
 
-1. **[FUTURE] Themed bundles** — curated bundles surfaced as aspirational marketing value-prop until rebuilt from scratch. Operator-strategic re-scoping pending. The previous Pillar 1 (lesson plans) + the previous Pillar 2 (themed bundles paired with lesson plans) were nuked in full per the 2026-05-17 commission; future rebuild is a separate strategic-direction adjudication.
-2. **Workspace + catalog-management tooling** — collections, workspace home, advanced filtering, curriculum mapping, bulk operations. Load-bearing as catalog grows past thousands. This is the operational pillar.
+**Sign-in gate implementation:**
+- Client-side: `useSignInGate()` hook in `frontend/components/auth/SignInRequiredGate.tsx`. Used by 5 catalog/homepage surfaces: DeckGridClient (topic page), BreadthGridThumbnail (homepage), VarietyStripCard (variety strips), CollectionDetailClient (collections), RecentActivityWidget (workspace). On click: if `!user`, redirect to `/[locale]/auth/signup?redirect=<url>`; otherwise navigate normally.
+- Worksheet-generator apps: `REFERENCE TRANSLATIONS/signin-guard.js` (capture-phase click interceptor on `#downloadInteractiveHtmlBtn`). Same redirect-to-signup behavior. Loaded by all 29 interactive apps.
+- API-side: `frontend/lib/subscriber-api-gate.ts: requireSubscriber()` reduced to simple sign-in check (401 if no user; no 403 subscription branch). Used by `/api/collections/*` and similar.
+- Middle-click / direct-URL access to catalog deck pages stays ungated (SEO + acquisition; deck pages are public-crawlable).
 
-Auto-renew with 30/14/3 day notification emails.
-
-**Features previously listed but NOT in current scope:**
-- **Lesson plans (former Pillar 1)** — removed 2026-05-17 per operator commission; DB tables dropped (Topic, LessonPlan, ParentNote); domain code + data + docs purged. Subscribe-flow + topic-destination pages no longer expose blurred lesson-plan content.
-- **Themed bundles (former Pillar 2)** — DB tables dropped (Bundle, BundleDeck, BundleLessonPlan, TeachingPackage, BundleTeachingPackage); current implementation removed; future rebuild deferred to operator-strategic re-scoping.
-- **Embed codes** — moved to free tier per §3 acquisition flywheel.
-- **Parallel bilingual deck view** — deferred (§3.2 app-rewrite conflict).
-- **Parent communication templates** — deferred.
-- **Watermark-free PDFs** — deferred.
-
-**School license tier (v1.5):** $399-799/year covering up to 10 teachers. Account-grouping logic to invite teachers; not in v1 launch scope but designed to accommodate.
-
-**Grace period on subscription lapse:** 60 days. Subscription features continue 60 days after lapse. Links generated while subscribed continue indefinitely; after 60 days students keep access but see "this teacher's subscription has lapsed — renew here."
-
-**Never gated:** sharing with students (via `/play/[linkId]` for kids); language switching; search/browse/filter; SEO-crawlable catalog deck URLs (direct-link visitors don't deplete quota; only deck-card clicks from catalog navigation do); embedded sample-deck iframes on marketing pages (acquisition flywheel per §3 + §18); bot/crawler traffic (User-Agent gate at quota layer). PDF downloads + interactive plays from catalog ARE gated for free tier per the 2/day cap above; subscribers bypass entirely.
-
-**Individual deck purchase:** not offered.
-
-**Conversion mechanics:** inline "organize into collections" prompt after fifth favorite; **`QuotaExceededModal` shown to free users when 3rd quota-gated action attempted in a UTC day** (anchors to `/[locale]#subscription`; dismissible). Lesson-plan-blur + bundle-CTA + parent-communication-template conversion mechanics removed 2026-05-17 along with the underlying domain. Non-blocking; contextual.
-
-**Quota system implementation** (commission 2026-05-17, post lemonsqueezy variant Published):
-- `DailyQuota` Prisma model — one row per `(userId|anonymousId, UTC-midnight-date)` with `actionCount` integer
-- `frontend/lib/quota.ts: checkAndIncrementQuota(identity)` — atomic upsert with conditional increment; subscriber + bot bypass at the predicate layer (no DB write)
-- API surfaces: `POST /api/quota/check-and-increment` (used by catalog Play click handlers); `GET /api/quota/status` (read-only); `GET /api/quota/pdf/[deckId]` (PDF download proxy with 302 redirect on allowed, 402 on blocked)
-- Anonymous identity: `lcs_anon_id` cookie (UUID, 1-yr expiry, HttpOnly/Secure/SameSite=Lax). Cookie-cleared abuse not specifically caught in v1 (operator-strategic decision; v2 can add IP-hash fallback per `ipHashAnonymousId()` helper already present)
-- Bot bypass: User-Agent regex `/bot|crawler|spider|googlebot|bingbot|baiduspider|yandexbot|duckduckbot|facebookexternalhit|slackbot|twitterbot|linkedinbot|whatsapp/i`
-- Fail-open on internal error — quota infra issues never block teacher flows; ops monitors 500 rate
-- v1 gate surfaces: (a) catalog deck-card Play clicks + (b) catalog PDF downloads (both via DeckGridClient + `/api/quota/pdf/[deckId]` proxy); (c) worksheet-generator app `#downloadInteractiveHtmlBtn` (via `REFERENCE TRANSLATIONS/quota-guard.js` capture-phase click interceptor loaded by all 29 interactive apps; operator-context bypass via `tier` URL param + `localStorage.accessToken`). Operator-only `#exportToCatalogBtn` (catalog publish flow) intentionally NOT gated. The 4 PDF-only apps (`coloring`, `writing`, `draw-and-color`, `drawing-lines`) don't ship interactive HTML and aren't gate-target candidates per §14.10.
+**Historical: subscription model retired 2026-05-17.** Previous $69/year subscription with 2-pillar scope (themed bundles + workspace tooling) was abandoned because the Lemon Squeezy variant remained stuck in `Pending` status for 17+ days, and operator pivoted strategy to free-with-sign-up. Quota system (DailyQuota table, /api/quota/* routes, quota-guard.js) dropped in the same commission. The Lemon Squeezy + Subscription Prisma model + webhook handler scaffolding stays in place dormant — cheap to revive if a future revenue pivot lands.
 
 ## 8. Technical standards
 

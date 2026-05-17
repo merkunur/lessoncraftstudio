@@ -4,7 +4,6 @@ import { useEffect, useState, useCallback } from 'react';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { useAuth } from '@/contexts/auth-context';
-import { isLcsSubscriptionActive } from '@/lib/subscription-helpers';
 import CollectionsWidget, { CollectionSummary } from './CollectionsWidget';
 import RecentActivityWidget, { Activity } from './RecentActivityWidget';
 
@@ -41,7 +40,7 @@ export default function WorkspaceClient({ locale }: { locale: string }) {
   }, [t]);
 
   useEffect(() => {
-    if (!user || !isLcsSubscriptionActive(user)) return;
+    if (!user) return;
     fetchWorkspace();
   }, [user, fetchWorkspace]);
 
@@ -70,18 +69,18 @@ export default function WorkspaceClient({ locale }: { locale: string }) {
     );
   }
 
-  if (!isLcsSubscriptionActive(user)) {
+  if (!user) {
     return (
       <main className="container mx-auto px-4 max-w-3xl py-16">
         <h1 className="font-display text-3xl font-semibold text-ink-900 mb-4">
-          {t('gate.subscribePromptTitle')}
+          {t('gate.signInPromptTitle')}
         </h1>
-        <p className="text-ink-700 mb-8">{t('gate.subscribePromptBody')}</p>
+        <p className="text-ink-700 mb-8">{t('gate.signInPromptBody')}</p>
         <Link
-          href={`/${locale}#subscription`}
+          href={`/${locale}/auth/signup`}
           className="inline-flex items-center px-6 py-3 rounded-md bg-terracotta-400 text-cream-50 font-semibold hover:bg-terracotta-500 transition"
         >
-          {t('gate.subscribeCta')}
+          {t('gate.signInCta')}
         </Link>
       </main>
     );

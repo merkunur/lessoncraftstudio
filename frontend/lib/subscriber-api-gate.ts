@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { extractBearerToken, verifyAccessToken } from './auth-utils';
 import { prisma } from './prisma';
-import { isLcsSubscriptionActive } from './subscription-helpers';
 
 // Subscriber-API gate: Bearer auth + active LCS subscription check (with
 // admin short-circuit per isLcsSubscriptionActive's two-path semantic —
@@ -93,15 +92,8 @@ export async function requireSubscriber(
   });
   if (!user) {
     return NextResponse.json(
-      { error: 'User not found' },
+      { error: 'Sign-in required' },
       { status: 401 }
-    );
-  }
-
-  if (!isLcsSubscriptionActive(user)) {
-    return NextResponse.json(
-      { error: 'Active subscription required' },
-      { status: 403 }
     );
   }
 

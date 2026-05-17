@@ -3,7 +3,6 @@
 import { useState, useCallback, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { useAuth } from '@/contexts/auth-context';
-import { isLcsSubscriptionActive } from '@/lib/subscription-helpers';
 
 // Subscriber-only "Add to collection" affordance for catalog deck cards.
 // Per Q-a Option I: render NOTHING for non-subscribers (no upsell on cards).
@@ -72,7 +71,7 @@ export default function AddToCollectionButton({ deckId }: AddToCollectionButtonP
   // Subscriber-only render gate per Q-a Option I.
   // MUST come AFTER all hooks per React Hook Rules.
   if (authLoading) return null;
-  if (!user || !isLcsSubscriptionActive(user)) return null;
+  if (!user) return null;
 
   async function handlePick(collectionId: string, collectionName: string) {
     setPicking(true);

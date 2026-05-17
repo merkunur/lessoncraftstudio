@@ -138,8 +138,8 @@
       "breadthIntro": "Tippen Sie auf eine, um ein vollständiges Deck zu spielen — genau wie Ihre Schüler."
     },
     "subscription": {
-      "sectionTitle": "Unbegrenzter Zugang für 69 $ pro Jahr.",
-      "intro": "Kostenloses Kontingent: 2 Downloads pro Tag aus Katalog und Apps. Im Abonnement: unbegrenzte Downloads, unbegrenzte Generierung und Zugriff auf jedes Thema und jede Sprache.",
+      "sectionTitle": "Alles, was wir machen, kostenlos für Lehrkräfte.",
+      "intro": "Registrieren Sie sich, um jedes Arbeitsblatt zu spielen, jede PDF herunterzuladen und jeden Arbeitsblatt-Generator zu nutzen. Keine Stufen, kein Abonnement — einfach kostenlos für Lehrkräfte.",
       "catalog": {
         "title": "Vollständiger Arbeitsblatt-Katalog",
         "body": "Druckbare und interaktive Arbeitsblätter in 11 Sprachen. Unbegrenzte Downloads aller bestehenden Decks plus allem, was wir im Laufe des Jahres veröffentlichen."
@@ -152,23 +152,10 @@
         "title": "Über 100 Themen, über 3.000 Bilder, 11 Sprachen",
         "body": "Die Illustrationsbibliothek und das Vokabelsystem, mit dem dasselbe Arbeitsblatt über Sprachen hinweg funktioniert — grammatikalisch korrektes Genus, Plural und Diakritika in jeder einzelnen."
       },
-      "price": "69 $ pro Jahr. Jederzeit kündbar.",
-      "subscribeCta": "Abonnieren →",
-      "subscribeSubCopy": "Sie werden zu unserem Zahlungspartner weitergeleitet. Nach dem Kauf ist Ihr Konto sofort einsatzbereit.",
-      "alreadySubscribedCta": "Mein Abonnement ansehen"
-    },
-    "notify": {
-      "aboveField": "Das Abonnement startet bald. Hinterlassen Sie Ihre E-Mail, und wir benachrichtigen Sie am Eröffnungstag.",
-      "label": "E-Mail-Adresse",
-      "placeholder": "ihre-email@schule.de",
-      "submit": "Benachrichtigen →",
-      "submitting": "Wird gesendet…",
-      "confirmation": "Danke — wir benachrichtigen Sie, wenn das Abonnement startet.",
-      "subCopy": "Eine E-Mail, nur zur Eröffnung. Kein Newsletter, keine Folgesequenz.",
-      "errors": {
-        "invalid_email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
-        "server": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
-      }
+      "price": "Kostenlos für alle mit einem Lehrkonto.",
+      "subscribeCta": "Kostenlos registrieren →",
+      "subscribeSubCopy": "Kostenlos für alle Lehrkräfte. Die Registrierung dauert 30 Sekunden.",
+      "alreadySubscribedCta": "Zum Arbeitsbereich"
     },
     "exerciseTypeGrid": {
       "heading": "Jede K-3-Aufgabenart, in Ihrer Sprache.",
@@ -193,12 +180,6 @@
       "heading": "Setzen Sie jedes Arbeitsblatt auf Ihre Website.",
       "intro": "Betten Sie ein interaktives Deck in Ihren Klassenblog, Ihre Schulseite oder eine geteilte Seite ein. Ihre Schüler erhalten dasselbe Spielerlebnis, ohne Anmeldung.",
       "buttonLabel": "Embed-Code holen"
-    },
-    "quota": {
-      "exceededTitle": "Tägliches Limit erreicht",
-      "exceededBody": "Kostenlose Nutzer können 2 Arbeitsblätter pro Tag spielen oder 2 Ressourcen herunterladen. Abonnieren Sie für unbegrenzten Zugriff — 69 $ pro Jahr, jederzeit kündbar.",
-      "subscribeCta": "Abonnieren — 69 $/Jahr",
-      "dismissCta": "Später"
     }
   },
   "auth": {
@@ -989,12 +970,9 @@
       "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
     },
     "gate": {
-      "subscribePromptTitle": "Sammlungen sind Teil des Abonnements",
-      "subscribePromptBody": "Decks in Sammlungen ablegen und organisieren ist eines der Arbeitsbereich-Werkzeuge, die das Abonnement für $69 pro Jahr freischaltet. Kostenlose Nutzer können jedes Deck stöbern, drucken, einbetten und teilen — ohne Konto.",
-      "subscribeCta": "Zum Abonnement",
-      "signInPromptTitle": "Melden Sie sich an, um auf Ihre Sammlungen zuzugreifen",
-      "signInPromptBody": "Ihre Sammlungen sind mit Ihrem Konto verknüpft. Melden Sie sich an, um sie anzuzeigen.",
-      "signInCta": "Anmelden"
+      "signInPromptTitle": "Anmeldung erforderlich",
+      "signInPromptBody": "Eine kostenlose Registrierung ist erforderlich. Dauert 30 Sekunden.",
+      "signInCta": "Kostenlos registrieren"
     },
     "addAffordance": {
       "label": "Zur Sammlung hinzufügen",
@@ -1163,12 +1141,9 @@
       "welcomeLine": "Ihre Sammlungen und letzten Aktivitäten — alles an einem Ort."
     },
     "gate": {
-      "subscribePromptTitle": "Der Arbeitsbereich ist Teil des Abonnements",
-      "subscribePromptBody": "Ihr Arbeitsbereich — Sammlungen, letzte Aktivitäten und gespeicherte Decks — ist eines der Werkzeuge, die das Abonnement für 69 USD/Jahr freischaltet.",
-      "subscribeCta": "Zum Abonnement",
-      "signInPromptTitle": "Melden Sie sich an, um Ihren Arbeitsbereich zu öffnen",
-      "signInPromptBody": "Ihr Arbeitsbereich gehört zu Ihrem Konto. Bitte melden Sie sich an, um ihn zu sehen.",
-      "signInCta": "Anmelden"
+      "signInPromptTitle": "Anmeldung erforderlich",
+      "signInPromptBody": "Eine kostenlose Registrierung ist erforderlich. Dauert 30 Sekunden.",
+      "signInCta": "Kostenlos registrieren"
     },
     "loading": "Wird geladen…",
     "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",

@@ -2,7 +2,50 @@
 
 ---
 
-## [AMENDMENT 2026-05-17] Teaching-packages domain removed — scope reduced to 2 pillars
+## [AMENDMENT 2026-05-17 v3] Subscription model fully retired — platform is free with sign-up
+
+**Operator-strategic pivot this date** (separate from the earlier-this-day teaching-packages-domain removal):
+
+> "Completely useless. Undo whatever you did so far to limit the free users. Everything on the website is free... change the everything related to subscription and don't mention any kind of subscription. Sign up is necessary to prevent the bots."
+
+The $69/year subscription model is **abandoned**. Platform pivots to **free-for-everyone with a required sign-up**. Sign-up exists as a bot deterrent; it's free, takes 30 seconds, and unlocks everything.
+
+### Triggering context
+
+The Lemon Squeezy variant 1595188 stayed stuck in `Pending` status for 17+ days. Operator emailed LS support but didn't receive timely resolution. After multiple iterations on quota-gating + UX, operator concluded that the entire paid-tier framing was friction without value. Pivot.
+
+### What's live post-pivot
+
+- **Free with sign-up:** play interactive worksheets, download PDFs, use the 29 worksheet-generator apps, collections, workspace, bulk tools, curriculum mapping — everything
+- **Anonymous:** browse catalog (SEO-public deck pages, topic pages), play embedded sample decks on marketing pages, follow direct-link `/play/[linkId]` URLs (student-side)
+- **Sign-in gate:** every download/play/generator-action requires `!!user` (auth). `useSignInGate()` client-side + `signin-guard.js` for worksheet-generator apps + `requireSubscriber` API helper reduced to a simple `requireAuth` (401 if no user)
+
+### What's gone
+
+- **DailyQuota Prisma table** — dropped via migration `<TS>_drop_daily_quotas`
+- `/api/quota/check-and-increment`, `/api/quota/status`, `/api/quota/pdf/[deckId]`, `/api/quota/answer-key/[deckId]` API routes — deleted
+- `frontend/lib/quota.ts`, `frontend/components/quota/QuotaExceededModal.tsx`, `REFERENCE TRANSLATIONS/quota-guard.js` — deleted
+- `frontend/components/homepage-v2/NotifyMe.tsx` — deleted ("Subscriptions launching soon" email-capture form)
+- `HOMEPAGE_SUBSCRIBE_MODE` env var — no longer consumed; SubscriptionSection unconditionally renders the free-with-sign-up framing
+- All "Subscribe / $69 / Cancel anytime / Notify me / launching soon" copy stripped from i18n across 11 locales
+- All `isLcsSubscriptionActive(user)` checks reduced to `!!user` in 13 callers (Navigation, AddToCollection, ShareDeck, BulkSelectMode, Collections, Workspace, auth-context, signin-client)
+
+### What stays dormant (scaffolding preserved for future revival)
+
+- `frontend/config/lemonsqueezy-product-config.ts` (LS product ID + variant ID)
+- `frontend/app/api/webhooks/lemonsqueezy/route.ts` (full subscription-event handler chain)
+- Prisma `Subscription` + `Payment` + `LSWebhookEvent` models (no migration drop; tables stay)
+- `frontend/lib/subscription-helpers.ts: isLcsSubscriptionActive` (function definition; no callers post-pivot but kept for cheap revival)
+
+These are cheap to revive if a future revenue pivot lands. The cost of dropping them entirely would be re-implementing the integration from scratch later.
+
+### Revenue model going forward
+
+**TBD; operator-strategic; separate adjudication.** This commission ships the free-with-sign-up state. Revenue strategy (donations, school licenses, ads, freemium-with-different-axis, etc.) is a future commission.
+
+---
+
+## [AMENDMENT 2026-05-17 v2] Teaching-packages domain removed — scope reduced to 2 pillars
 
 Per operator commission this date, the entire **lesson-plans / teaching-packages / themed-bundles domain** was nuked (commit `920aebbc` "[REMOVE][SCHEMA] DROP teaching-packages domain tables"). The previous v3 framework documented below is **historical**; the canonical post-removal scope is:
 

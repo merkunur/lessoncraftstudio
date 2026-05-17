@@ -129,49 +129,60 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       ];
 
       for (const [axis1, axis2] of PAIRS) {
-        // For each locale, enumerate the non-empty (axisKey1, axisKey2)
-        // tuples with ≥1 published deck — empty-intersection pruning per
-        // §16.6.1. Emit canonical URL + hreflang siblings.
-        for (const locale of TOPIC_LOCALES) {
-          let intersections;
+        // PRECOMPUTE: enumerate non-empty intersections ONCE per (axis1, axis2, locale).
+        // Previously, the per-intersection sibling-check loop called
+        // listNonEmptyIntersections(axis1, axis2, sib) inside a triple-nested loop —
+        // O(pairs × locales × intersections × 11 siblings) DB queries. At 1K+
+        // intersections × 11 locales × 11 siblings × 3 pairs ≈ 363K DB queries
+        // serially → static-export worker SIGTERMs at 5-min budget per
+        // /sitemap/2.xml render. Hoisting the enumeration to the (axis1, axis2)
+        // loop level reduces to O(pairs × locales) = 33 queries total.
+        const sibIntersectionMap = new Map<string, Set<string>>();
+        for (const sib of TOPIC_LOCALES) {
           try {
-            intersections = await listNonEmptyIntersections(axis1, axis2, locale);
+            const sibInts = await listNonEmptyIntersections(axis1, axis2, sib);
+            sibIntersectionMap.set(sib, new Set(sibInts.map(p => `${p.key1}|${p.key2}`)));
           } catch (e) {
-            console.warn(`[sitemap] intersection enumeration failed (${axis1}×${axis2}, ${locale}):`, (e as Error).message);
-            continue;
+            console.warn(`[sitemap] sibling intersection enumeration failed (${axis1}×${axis2}, ${sib}):`, (e as Error).message);
+            sibIntersectionMap.set(sib, new Set());
           }
-          for (const { key1, key2 } of intersections) {
+        }
+
+        for (const locale of TOPIC_LOCALES) {
+          // Reuse precomputed result for this locale's own intersections.
+          const ownIntersections = sibIntersectionMap.get(locale);
+          if (!ownIntersections || ownIntersections.size === 0) continue;
+
+          for (const tupleKey of ownIntersections) {
+            const [key1, key2] = tupleKey.split('|');
             const slug1 = getAxisSlug(axis1, key1, locale);
             const slug2 = getAxisSlug(axis2, key2, locale);
             if (!slug1 || !slug2) continue;
 
-            // Hreflang alternates: only locales where the same intersection
-            // also has decks AND has localized slugs.
+            // Hreflang alternates: lookup against precomputed sibIntersectionMap.
+            // O(1) per sibling instead of O(DB query).
             const alternates: Record<string, string> = {};
             for (const sib of TOPIC_LOCALES) {
               const sibSlug1 = getAxisSlug(axis1, key1, sib);
               const sibSlug2 = getAxisSlug(axis2, key2, sib);
               if (!sibSlug1 || !sibSlug2) continue;
-              // Sibling honesty per §17.4: only declare a sibling if its
-              // intersection actually has content. Cheap-but-real check.
-              try {
-                const sibInts = await listNonEmptyIntersections(axis1, axis2, sib);
-                const has = sibInts.some(p => p.key1 === key1 && p.key2 === key2);
-                if (!has) continue;
-              } catch {
-                continue;
-              }
+              const sibSet = sibIntersectionMap.get(sib);
+              if (!sibSet || !sibSet.has(tupleKey)) continue;
               alternates[getHreflangCode(sib)] =
                 `${baseUrl}/${sib}/topic/${sibSlug1}/${sibSlug2}/`;
             }
             const enKey = getHreflangCode('en' as TopicLocale);
             if (alternates[enKey]) alternates['x-default'] = alternates[enKey];
 
-            const lastMod = await intersectionLastModified(axis1, key1, axis2, key2, locale);
-
+            // lastmod = STATIC_CONTENT_DATE (BUILD_DATE). Per-intersection
+            // intersectionLastModified would add 1 DB query × ~1K intersections
+            // × 11 locales × 3 pairs = ~33K serial DB queries during static
+            // export, blowing the 5-min worker budget. Sitemap lastmod is a
+            // soft signal; build date is acceptable accuracy and unblocks
+            // /sitemap/2.xml generation at scale.
             routes.push({
               url: `${baseUrl}/${locale}/topic/${slug1}/${slug2}/`,
-              lastModified: lastMod ?? STATIC_CONTENT_DATE,
+              lastModified: STATIC_CONTENT_DATE,
               changeFrequency: 'weekly',
               priority: 0.4,
               alternates: { languages: alternates },

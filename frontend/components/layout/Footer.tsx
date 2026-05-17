@@ -256,10 +256,13 @@ const FOOTER_EXERCISE_TYPES_BY_LOCALE: Record<string, FooterLink[]> = {
     { slug: 'foto-sudoku', label: 'foto-sudoku' },
     { slug: 'woordpuzzel', label: 'woordpuzzel' },
   ],
-  // Track C animals-theme publish wave — fr/it/pt/sv/da × 28 decks each landed.
-  // 28 exercise-types per locale (§14.10 canonical 29 minus pattern-worksheet, which
-  // carries a generator-side defect at this wave: theme-field leaks operator User.id;
-  // pattern-worksheet excluded uniformly across all 5 locales pending generator fix).
+  // Track C animals-theme publish wave originally shipped 28 exercise-types per
+  // locale (excluding pattern-worksheet pending a generator-side theme-field fix
+  // that was leaking operator User.id). Exclusion lifted at 14255657 (2026-05-04)
+  // when the 6-locale pattern-worksheet gap-close shipped; all 10 Tier 1-3
+  // locales now carry the full §14.10 canonical 29 entries. pt 12-app wave
+  // (2026-05-17, 1006 decks INSERT including 49 pattern-worksheet) reconfirmed
+  // the defect is closed at current generator state.
   fr: [
     { slug: 'addition', label: 'addition' },
     { slug: 'train-de-l-alphabet', label: 'train de l\'alphabet' },

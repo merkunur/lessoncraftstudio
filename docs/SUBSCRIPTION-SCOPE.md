@@ -1,5 +1,40 @@
 # SUBSCRIPTION-SCOPE.md
 
+---
+
+## [AMENDMENT 2026-05-17] Teaching-packages domain removed — scope reduced to 2 pillars
+
+Per operator commission this date, the entire **lesson-plans / teaching-packages / themed-bundles domain** was nuked (commit `920aebbc` "[REMOVE][SCHEMA] DROP teaching-packages domain tables"). The previous v3 framework documented below is **historical**; the canonical post-removal scope is:
+
+### Post-removal canonical pillars
+
+1. **[FUTURE] Themed bundles** — aspirational marketing value-prop pending operator-strategic rebuild from scratch. The prior themed-bundles implementation depended on the teaching-packages substrate that was removed; no current data backing this pillar. Subscribe-flow can mention it as forthcoming but cannot deliver content against it until rebuild is scoped + commissioned.
+2. **Workspace + catalog-management tooling** — collections, workspace home, advanced filtering, curriculum mapping, bulk operations. Load-bearing as catalog grows past thousands of decks. The §1 catalog-scale frame (5000+ decks) makes this the operational anchor for the subscription's existence.
+
+### Post-removal launch-trigger condition
+
+The 6-condition launch-trigger gate documented in §1 below is **obsolete** — conditions tied to teaching-package master count, bundle count, NSR-flag clearance over teaching-package content, and Mac-Studio AI-assist for lesson plans no longer apply. A new launch-trigger framework awaits operator strategic re-scoping post-2026-05-17.
+
+Until re-scoping completes, the practical launch-trigger heuristic is: workspace tooling implementation reaches subscriber-functional state + catalog reaches a scale that operationally requires the workspace tooling (the original §1 catalog-scale frame). The subscribe-flow UI ships in `notify_me` mode (email-capture for future launch) per `HOMEPAGE_SUBSCRIBE_MODE=notify_me` until subscribe-flip is operator-authorized.
+
+### What was removed (full code + data + DB + i18n + docs)
+
+- **DB schema:** `Topic`, `LessonPlan`, `ParentNote`, `Bundle`, `BundleDeck`, `BundleLessonPlan`, `TeachingPackage`, `BundleTeachingPackage` Prisma models DROPped via migration `20260517143000_drop_teaching_packages_domain`.
+- **Code:** `frontend/app/[locale]/{teaching-packages,lesson-plans,flashcards,themed-bundles}/` route trees; `frontend/components/teaching-packages/`, `frontend/components/lesson-plan-reader/`, `frontend/components/flashcards/`, `frontend/components/themed-bundles/`; `frontend/lib/lesson-plans.ts`; `frontend/config/learning-targets.json`; 8 teaching-package material generators; `frontend/scripts/scale-checkpoint/`.
+- **Data:** `docs/lesson-plans/` directory (~202 teaching-package YAMLs + ~60 bundle YAMLs).
+- **i18n:** `lessonPlanReader`, `flashcardReader`, `teachingPackagePage`, `bundlePage` namespaces stripped across 11 locales.
+- **Middleware:** 410-Gone for `/teaching-packages`, `/lesson-plans`, `/flashcards`, `/themed-bundles` prefixes.
+
+### Implication for future subscription-adjacent work
+
+If a future commission touches subscription scope, home-page copy, pricing-page copy, signup-flow, account-dashboard, FAQ, or any user-facing surface that references the subscription value proposition: use the 2-pillar framing above. The historical 6-condition launch-trigger framework + clause-(a)/(b)/(c) lesson-plan-as-text-plans framework + Pillar 2 themed-bundles-paired-with-lesson-plans framework are all **obsolete** as of 2026-05-17.
+
+---
+
+## [HISTORICAL — v3, pre-removal] Canonical scope spec
+
+**The text below is preserved as audit trail. It does NOT reflect the current subscription scope. Use the post-removal 2-pillar framework above.**
+
 **Status:** Canonical scope specification for the LessonCraftStudio $69/year subscription. **v3** — 6-condition launch-trigger re-lock + Pillar 2 redefinition (teaching-package bundles) + NSR bifurcated discipline + post-Arc-4 master/locale count update.
 **Authored:** 2026-04-30 (chat-side strategic conversation, post-Brief-B sealing).
 **Revised:** 2026-05-08 (v3 reconciliation merging operator-pasted v2 6-condition re-lock against current canonical state).

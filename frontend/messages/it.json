@@ -24,6 +24,28 @@
     },
     "pricing": "Prezzi"
   },
+  "nav": {
+    "categories": {
+      "worksheets": "Schede",
+      "apps": "App",
+      "teachingPackages": "Piani di lezione",
+      "interactive": "Interattivo",
+      "strands": {
+        "numeracy": "Numerazione",
+        "literacy": "Alfabetizzazione",
+        "vocabulary": "Vocabolario",
+        "worldKnowledge": "Conoscenza del mondo",
+        "logic": "Logica",
+        "sel": "Socio-emotivo"
+      },
+      "browseAll": {
+        "worksheets": "Tutte le schede",
+        "apps": "Tutti i generatori",
+        "teachingPackages": "Tutti i piani",
+        "interactive": "Tutte le interattive"
+      }
+    }
+  },
   "homepage": {
     "meta": {
       "title": "LessonCraftStudio — Schede che funzionano davvero nella vostra seconda lingua",
@@ -35,7 +57,32 @@
     "hero": {
       "title": "Schede che funzionano davvero nella vostra seconda lingua.",
       "subtitle": "Una biblioteca curata di illustrazioni K-3 abbinata a un sistema di vocabolario in 11 lingue — con genere, plurali e segni diacritici corretti in ognuna. Pensata per insegnanti in programmi bilingui, classi bilingui e scuole internazionali.",
-      "interaction": "I bambini le usano nel browser. Stampatele se preferite."
+      "interaction": "I bambini le usano nel browser. Stampatele se preferite.",
+      "cta": "Iscrivetevi gratis →"
+    },
+    "fourCardGrid": {
+      "sectionTitle": "La nostra biblioteca di apprendimento",
+      "intro": "Schede, generatori di schede, piani di lezione e attività interattive — tutto ciò che serve a una classe multilingue K-3, in 11 lingue.",
+      "worksheets": {
+        "title": "Schede",
+        "description": "PDF stampabili in 11 lingue con illustrazioni K-3 e vocabolario grammaticalmente corretto. 29 tipi di esercizi su 100 temi.",
+        "cta": "Sfoglia le schede"
+      },
+      "apps": {
+        "title": "Generatori di schede",
+        "description": "29 generatori di schede che producono sia PDF stampabili sia attività interattive. Scegliete tema, motivo e lingua — le app fanno il resto.",
+        "cta": "Apri le app"
+      },
+      "teachingPackages": {
+        "title": "Piani di lezione",
+        "description": "Piani di lezione pronti all'uso, organizzati per area — matematica, alfabetizzazione, vocabolario, conoscenza del mondo, logica e socio-emotivo.",
+        "cta": "Sfoglia i piani"
+      },
+      "interactive": {
+        "title": "Schede interattive",
+        "description": "Schede digitali che i bambini eseguono in qualsiasi browser — stesso contenuto delle versioni stampabili, interattivo.",
+        "cta": "Gioca interattivo"
+      }
     },
     "breadthGrid": {
       "sectionTitle": "Deck che gli insegnanti stanno usando in questo momento.",
@@ -96,8 +143,8 @@
       "breadthIntro": "Tocca una qualsiasi per giocare una scheda completa — come faranno i tuoi alunni."
     },
     "subscription": {
-      "sectionTitle": "Per gli insegnanti che usano LessonCraftStudio ogni settimana.",
-      "intro": "Il catalogo è gratuito, e resta gratuito. L'abbonamento è per gli insegnanti che hanno integrato LessonCraftStudio nella loro pratica regolare e vogliono organizzare l'insegnamento — con piani di lezione pronti all'uso, pacchetti tematici per i momenti che tornano ogni anno, e uno spazio di lavoro pensato per gestire migliaia di deck.",
+      "sectionTitle": "Accesso illimitato a 69 $ all'anno.",
+      "intro": "2 download gratuiti al giorno — tra la biblioteca di deck e i generatori di schede. Iscrivetevi per download illimitati, uso illimitato delle app e la biblioteca completa di piani di lezione e pacchetti tematici.",
       "lessonPlans": {
         "title": "Piani di lezione pronti all'uso",
         "body": "Una biblioteca crescente di piani di lezione pre-redatti, ognuno legato a deck specifici. Ogni piano segue una struttura coerente in quattro tempi ispirata ai principi CLIL — riscaldamento, attività contenuto-lingua, impalcatura linguistica e pratica, e chiusura — così imparate la forma una volta e poi insegnate. I piani sono redatti nativamente per lingua, non tradotti automaticamente, e riflettono le convenzioni di ogni aula per cui sono scritti."

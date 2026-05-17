@@ -24,6 +24,28 @@
     },
     "pricing": "Priser"
   },
+  "nav": {
+    "categories": {
+      "worksheets": "Arbetsblad",
+      "apps": "Appar",
+      "teachingPackages": "Lektionsplaner",
+      "interactive": "Interaktivt",
+      "strands": {
+        "numeracy": "Numeracy",
+        "literacy": "Läs- och skrivkunnighet",
+        "vocabulary": "Vokabulär",
+        "worldKnowledge": "Omvärldskunskap",
+        "logic": "Logik",
+        "sel": "Socioemotionellt"
+      },
+      "browseAll": {
+        "worksheets": "Alla arbetsblad",
+        "apps": "Alla generatorer",
+        "teachingPackages": "Alla lektionsplaner",
+        "interactive": "Alla interaktiva"
+      }
+    }
+  },
   "homepage": {
     "meta": {
       "title": "LessonCraftStudio — Arbetsblad som fungerar på riktigt på ditt andraspråk",
@@ -35,7 +57,32 @@
     "hero": {
       "title": "Arbetsblad som fungerar på riktigt på ditt andraspråk.",
       "subtitle": "Ett kuraterat bibliotek med K-3-illustrationer kombinerat med ett vokabulärsystem som täcker 11 språk — med korrekt genus, korrekta pluralformer och korrekta diakritiska tecken i varje språk. Byggt för lärare i tvåspråkiga program, tvåspråkiga klassrum och internationella skolor.",
-      "interaction": "Barnen löser dem i webbläsaren. Skriv ut dem om du föredrar det."
+      "interaction": "Barnen löser dem i webbläsaren. Skriv ut dem om du föredrar det.",
+      "cta": "Gå med gratis →"
+    },
+    "fourCardGrid": {
+      "sectionTitle": "Vårt lärandebibliotek",
+      "intro": "Arbetsblad, arbetsbladsgeneratorer, lektionsplaner och interaktiva aktiviteter — allt ett flerspråkigt K-3-klassrum behöver, på 11 språk.",
+      "worksheets": {
+        "title": "Arbetsblad",
+        "description": "Utskrivbara PDF:er på 11 språk med K-3-illustrationer och grammatiskt korrekt vokabulär. 29 övningstyper över 100 teman.",
+        "cta": "Bläddra i arbetsblad"
+      },
+      "apps": {
+        "title": "Arbetsbladsgeneratorer",
+        "description": "29 generatorer som skapar både utskrivbara PDF:er och interaktiva aktiviteter. Välj ämne, tema och språk — apparna gör resten.",
+        "cta": "Öppna apparna"
+      },
+      "teachingPackages": {
+        "title": "Lektionsplaner",
+        "description": "Färdiga lektionsplaner ordnade efter område — matematik, läs- och skrivkunnighet, vokabulär, omvärldskunskap, logik och socioemotionellt.",
+        "cta": "Bläddra i lektionsplaner"
+      },
+      "interactive": {
+        "title": "Interaktiva arbetsblad",
+        "description": "Digitala arbetsblad som barnen löser i vilken webbläsare som helst — samma innehåll som de utskrivbara, fast interaktivt.",
+        "cta": "Spela interaktivt"
+      }
     },
     "breadthGrid": {
       "sectionTitle": "Decks som lärare använder just nu.",
@@ -96,8 +143,8 @@
       "breadthIntro": "Tryck på vilken som helst för att spela ett helt arbetsblad — precis som dina elever."
     },
     "subscription": {
-      "sectionTitle": "För lärare som använder LessonCraftStudio varje vecka.",
-      "intro": "Katalogen är gratis och förblir gratis. Prenumerationen är till för lärare som har gjort LessonCraftStudio till en del av sin regelbundna praxis och vill ha sin undervisning organiserad — med färdiga lektionsplaner, temapaket för de tillfällen som återkommer varje år och en arbetsyta byggd för att hantera tusentals decks.",
+      "sectionTitle": "Obegränsad åtkomst för 69 $ per år.",
+      "intro": "2 gratis nedladdningar per dag — fördelade mellan vår deckbibliotek och våra arbetsbladsgeneratorer. Prenumerera för obegränsade nedladdningar, obegränsad användning av apparna och hela biblioteket med lektionsplaner och temapaket.",
       "lessonPlans": {
         "title": "Färdiga lektionsplaner",
         "body": "Ett växande bibliotek med förskrivna lektionsplaner, var och en kopplad till specifika decks. Varje plan följer en konsekvent fyrastegsstruktur byggd på CLIL-principer — uppvärmning, innehåll-och-språk-aktivitet, språkställning och övning samt avslutning — så att du lär dig formen en gång och sedan bara undervisar. Planerna skrivs nativt per språk, inte maskinöversätts, och speglar konventionerna i varje klassrum de är skrivna för."

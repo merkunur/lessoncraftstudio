@@ -24,6 +24,28 @@
     },
     "pricing": "Tarifs"
   },
+  "nav": {
+    "categories": {
+      "worksheets": "Fiches",
+      "apps": "Apps",
+      "teachingPackages": "Plans de leçon",
+      "interactive": "Interactif",
+      "strands": {
+        "numeracy": "Numération",
+        "literacy": "Littératie",
+        "vocabulary": "Vocabulaire",
+        "worldKnowledge": "Connaissance du monde",
+        "logic": "Logique",
+        "sel": "Socio-émotionnel"
+      },
+      "browseAll": {
+        "worksheets": "Toutes les fiches",
+        "apps": "Tous les générateurs",
+        "teachingPackages": "Tous les plans",
+        "interactive": "Toutes les interactives"
+      }
+    }
+  },
   "homepage": {
     "meta": {
       "title": "LessonCraftStudio — Des fiches qui fonctionnent vraiment dans votre seconde langue",
@@ -35,7 +57,32 @@
     "hero": {
       "title": "Des fiches qui fonctionnent vraiment dans votre seconde langue.",
       "subtitle": "Une bibliothèque d'illustrations K-3 sélectionnées, associée à un système de vocabulaire couvrant 11 langues — avec genre, pluriels et signes diacritiques corrects dans chacune. Conçue pour les enseignants en programmes bilingues, classes bilingues et écoles internationales.",
-      "interaction": "Les enfants les utilisent dans le navigateur. Imprimez-les si vous préférez."
+      "interaction": "Les enfants les utilisent dans le navigateur. Imprimez-les si vous préférez.",
+      "cta": "Inscrivez-vous gratuitement →"
+    },
+    "fourCardGrid": {
+      "sectionTitle": "Notre bibliothèque d'apprentissage",
+      "intro": "Fiches, générateurs de fiches, plans de leçon et activités interactives — tout ce dont une classe multilingue K-3 a besoin, en 11 langues.",
+      "worksheets": {
+        "title": "Fiches",
+        "description": "PDF imprimables en 11 langues avec illustrations K-3 et vocabulaire grammaticalement correct. 29 types d'exercices sur 100 thèmes.",
+        "cta": "Parcourir les fiches"
+      },
+      "apps": {
+        "title": "Générateurs de fiches",
+        "description": "29 générateurs de fiches qui produisent à la fois des PDF imprimables et des activités interactives. Choisissez le sujet, le thème et la langue — les apps font le reste.",
+        "cta": "Ouvrir les apps"
+      },
+      "teachingPackages": {
+        "title": "Plans de leçon",
+        "description": "Plans de leçon prêts à enseigner, organisés par domaine — mathématiques, littératie, vocabulaire, connaissance du monde, logique et socio-émotionnel.",
+        "cta": "Parcourir les plans"
+      },
+      "interactive": {
+        "title": "Fiches interactives",
+        "description": "Fiches numériques que les enfants utilisent dans n'importe quel navigateur — même contenu que les versions imprimables, interactif.",
+        "cta": "Jouer en interactif"
+      }
     },
     "breadthGrid": {
       "sectionTitle": "Decks que les enseignants utilisent en ce moment.",
@@ -96,8 +143,8 @@
       "breadthIntro": "Touchez-en une pour jouer une fiche complète — comme vos élèves le feront."
     },
     "subscription": {
-      "sectionTitle": "Pour les enseignants qui utilisent LessonCraftStudio toutes les semaines.",
-      "intro": "Le catalogue est gratuit, et il le reste. L'abonnement est destiné aux enseignants qui ont intégré LessonCraftStudio dans leur pratique régulière et veulent organiser leur enseignement — avec des fiches de séance prêtes à l'emploi, des packs thématiques pour les moments qui reviennent chaque année, et un espace de travail pensé pour gérer des milliers de decks.",
+      "sectionTitle": "Accès illimité pour 69 $ par an.",
+      "intro": "2 téléchargements gratuits par jour — répartis entre notre bibliothèque de decks et nos générateurs de fiches. Abonnez-vous pour des téléchargements illimités, un usage illimité des apps et la bibliothèque complète de plans de leçon et de packs thématiques.",
       "lessonPlans": {
         "title": "Fiches de séance prêtes à l'emploi",
         "body": "Une bibliothèque grandissante de fiches de séance pré-rédigées, chacune liée à des decks spécifiques. Chaque fiche suit une structure cohérente en quatre temps inspirée des principes CLIL — mise en train, activité contenu-langue, étayage langue et pratique, et clôture — pour que vous appreniez la forme une fois et puissiez ensuite simplement enseigner. Les fiches sont rédigées nativement par langue, pas traduites automatiquement, et reflètent les conventions de chaque classe pour laquelle elles sont écrites."

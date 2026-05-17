@@ -25,6 +25,28 @@
     },
     "pricing": "Preise"
   },
+  "nav": {
+    "categories": {
+      "worksheets": "Arbeitsblätter",
+      "apps": "Apps",
+      "teachingPackages": "Unterrichtspläne",
+      "interactive": "Interaktiv",
+      "strands": {
+        "numeracy": "Numeracy",
+        "literacy": "Literacy",
+        "vocabulary": "Wortschatz",
+        "worldKnowledge": "Sachwissen",
+        "logic": "Logik",
+        "sel": "Sozial-emotional"
+      },
+      "browseAll": {
+        "worksheets": "Alle Arbeitsblätter",
+        "apps": "Alle Arbeitsblatt-Generatoren",
+        "teachingPackages": "Alle Unterrichtspläne",
+        "interactive": "Alle interaktiven"
+      }
+    }
+  },
   "homepage": {
     "meta": {
       "title": "LessonCraftStudio — Arbeitsblätter, die in Ihrer Zweitsprache wirklich funktionieren",
@@ -36,7 +58,32 @@
     "hero": {
       "title": "Arbeitsblätter, die in Ihrer zweiten Sprache wirklich funktionieren.",
       "subtitle": "Eine kuratierte Bibliothek mit K-3-Illustrationen, gepaart mit einem Vokabelsystem in 11 Sprachen — mit korrektem Genus, korrekter Pluralbildung und korrekten Sonderzeichen in jeder Sprache. Entwickelt für Lehrkräfte in zweisprachigen Programmen, bilingualen Klassen und internationalen Schulen.",
-      "interaction": "Die Kinder lösen sie im Browser. Drucken Sie sie, wenn Sie das vorziehen."
+      "interaction": "Die Kinder lösen sie im Browser. Drucken Sie sie, wenn Sie das vorziehen.",
+      "cta": "Kostenlos beitreten →"
+    },
+    "fourCardGrid": {
+      "sectionTitle": "Unsere Lernbibliothek",
+      "intro": "Arbeitsblätter, Arbeitsblatt-Generatoren, Unterrichtspläne und interaktive Aktivitäten — alles, was eine K-3-Klasse mit mehreren Sprachen braucht, in 11 Sprachen.",
+      "worksheets": {
+        "title": "Arbeitsblätter",
+        "description": "Druckbare PDFs in 11 Sprachen mit K-3-Illustrationen und grammatikalisch korrektem Vokabular. 29 Übungsarten in 100 Themen.",
+        "cta": "Arbeitsblätter durchsuchen"
+      },
+      "apps": {
+        "title": "Arbeitsblatt-Generatoren",
+        "description": "29 Arbeitsblatt-Generatoren, die sowohl druckbare PDFs als auch interaktive Aktivitäten erstellen. Wählen Sie Thema, Motiv und Sprache — den Rest übernehmen die Apps.",
+        "cta": "Apps öffnen"
+      },
+      "teachingPackages": {
+        "title": "Unterrichtspläne",
+        "description": "Sofort einsetzbare Unterrichtspläne, gegliedert nach Lernbereichen — Mathematik, Literacy, Wortschatz, Sachwissen, Logik und sozial-emotionales Lernen.",
+        "cta": "Unterrichtspläne durchsuchen"
+      },
+      "interactive": {
+        "title": "Interaktive Arbeitsblätter",
+        "description": "Selbstabspielbare digitale Arbeitsblätter, die Ihre Schülerinnen und Schüler in jedem Browser bearbeiten — derselbe Inhalt wie die druckbaren Versionen, nur interaktiv.",
+        "cta": "Interaktiv spielen"
+      }
     },
     "breadthGrid": {
       "sectionTitle": "Decks, die Lehrkräfte gerade jetzt einsetzen.",
@@ -97,8 +144,8 @@
       "breadthIntro": "Tippen Sie auf eine, um ein vollständiges Deck zu spielen — genau wie Ihre Schüler."
     },
     "subscription": {
-      "sectionTitle": "Für Lehrkräfte, die LessonCraftStudio jede Woche nutzen.",
-      "intro": "Der Katalog ist kostenlos und bleibt es. Das Abonnement richtet sich an Lehrkräfte, die regelmäßig mit LessonCraftStudio arbeiten und ihren Unterricht organisiert wissen möchten — mit fertigen Unterrichtsentwürfen, Themenpaketen für die wiederkehrenden Anlässe im Schuljahr und einem Arbeitsbereich, der für die Verwaltung tausender Decks gebaut ist.",
+      "sectionTitle": "Unbegrenzter Zugriff für 69 $ pro Jahr.",
+      "intro": "2 kostenlose Downloads pro Tag — über unsere Deck-Bibliothek und unsere Arbeitsblatt-Generatoren hinweg. Mit dem Abonnement erhalten Sie unbegrenzte Downloads, unbegrenzte App-Nutzung und die vollständige Bibliothek mit Unterrichtsentwürfen und Themenpaketen.",
       "lessonPlans": {
         "title": "Fertige Unterrichtsentwürfe",
         "body": "Eine wachsende Bibliothek vorgefertigter Unterrichtsentwürfe, jeder mit konkreten Decks verbunden. Jeder Entwurf folgt einer einheitlichen vierschrittigen Struktur nach CLIL-Prinzipien — Aufwärmen, Inhalt-und-Sprache-Aktivität, Sprachgerüst und Übung sowie Abschluss — sodass Sie die Form einmal lernen und dann einfach unterrichten. Die Entwürfe werden pro Sprache nativ verfasst, nicht automatisch übersetzt, und spiegeln die Konventionen jedes Klassenraums, für den sie geschrieben werden."

@@ -24,6 +24,28 @@
     },
     "pricing": "Precios"
   },
+  "nav": {
+    "categories": {
+      "worksheets": "Hojas de trabajo",
+      "apps": "Apps",
+      "teachingPackages": "Planes de clase",
+      "interactive": "Interactivo",
+      "strands": {
+        "numeracy": "Numeración",
+        "literacy": "Alfabetización",
+        "vocabulary": "Vocabulario",
+        "worldKnowledge": "Conocimiento del mundo",
+        "logic": "Lógica",
+        "sel": "Socioemocional"
+      },
+      "browseAll": {
+        "worksheets": "Ver todas las hojas",
+        "apps": "Todos los creadores",
+        "teachingPackages": "Todos los planes",
+        "interactive": "Todas las interactivas"
+      }
+    }
+  },
   "homepage": {
     "meta": {
       "title": "LessonCraftStudio — Hojas de trabajo que realmente funcionan en su segunda lengua",
@@ -35,7 +57,32 @@
     "hero": {
       "title": "Hojas de trabajo que realmente funcionan en su segunda lengua.",
       "subtitle": "Una biblioteca curada de ilustraciones K-3 acompañada de un sistema de vocabulario en 11 lenguas — con género, plurales y diacríticos correctos en cada una. Hecho para docentes en programas bilingües, aulas duales y escuelas internacionales.",
-      "interaction": "Los niños los juegan en el navegador. Imprímalos si lo prefiere."
+      "interaction": "Los niños los juegan en el navegador. Imprímalos si lo prefiere.",
+      "cta": "Únase gratis →"
+    },
+    "fourCardGrid": {
+      "sectionTitle": "Nuestra biblioteca de aprendizaje",
+      "intro": "Hojas de trabajo, creadores de hojas, planes de clase y actividades interactivas — todo lo que un aula multilingüe K-3 necesita, en 11 lenguas.",
+      "worksheets": {
+        "title": "Hojas de trabajo",
+        "description": "PDFs imprimibles en 11 lenguas con ilustraciones K-3 y vocabulario gramaticalmente correcto. 29 tipos de ejercicios en 100 temas.",
+        "cta": "Ver hojas de trabajo"
+      },
+      "apps": {
+        "title": "Creadores de hojas",
+        "description": "29 creadores de hojas que generan tanto PDFs imprimibles como actividades interactivas. Elija el tema, el motivo y la lengua — las apps hacen el resto.",
+        "cta": "Abrir las apps"
+      },
+      "teachingPackages": {
+        "title": "Planes de clase",
+        "description": "Planes de clase listos para enseñar, organizados por área — matemática, alfabetización, vocabulario, conocimiento del mundo, lógica y socioemocional.",
+        "cta": "Ver planes de clase"
+      },
+      "interactive": {
+        "title": "Hojas interactivas",
+        "description": "Hojas digitales que los niños juegan en cualquier navegador — el mismo contenido que las imprimibles, interactivo.",
+        "cta": "Jugar interactivo"
+      }
     },
     "breadthGrid": {
       "sectionTitle": "Decks que los docentes están usando ahora mismo.",
@@ -96,8 +143,8 @@
       "breadthIntro": "Toca cualquiera para jugar una ficha completa — igual que tus alumnos."
     },
     "subscription": {
-      "sectionTitle": "Para docentes que usan LessonCraftStudio cada semana.",
-      "intro": "El catálogo es gratuito y seguirá siéndolo. La suscripción es para docentes que trabajan con LessonCraftStudio de forma habitual y quieren su enseñanza organizada — con planes de clase listos para usar, paquetes temáticos para los momentos que vuelven cada año, y un espacio de trabajo construido para gestionar miles de decks.",
+      "sectionTitle": "Acceso ilimitado por $69 al año.",
+      "intro": "2 descargas gratis al día — entre nuestra biblioteca de decks y los creadores de hojas. Suscríbase para obtener descargas ilimitadas, uso ilimitado de las apps y la biblioteca completa de planes de clase y paquetes temáticos.",
       "lessonPlans": {
         "title": "Planes de clase listos para usar",
         "body": "Una biblioteca creciente de planes de clase ya escritos, cada uno enlazado con decks concretos. Cada plan sigue una estructura coherente de cuatro pasos basada en principios CLIL — calentamiento, actividad de contenido y lengua, andamiaje lingüístico y práctica, y cierre — para que aprenda la forma una vez y luego solo enseñe. Los planes se escriben de forma nativa por lengua, no traducidos automáticamente, y reflejan las convenciones de cada aula para la que se escriben."

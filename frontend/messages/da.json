@@ -24,6 +24,28 @@
     },
     "pricing": "Priser"
   },
+  "nav": {
+    "categories": {
+      "worksheets": "Arbejdsark",
+      "apps": "Apps",
+      "teachingPackages": "Undervisningsplaner",
+      "interactive": "Interaktivt",
+      "strands": {
+        "numeracy": "Numeracy",
+        "literacy": "Læse- og skrivefærdigheder",
+        "vocabulary": "Ordforråd",
+        "worldKnowledge": "Omverdensviden",
+        "logic": "Logik",
+        "sel": "Socioemotionelt"
+      },
+      "browseAll": {
+        "worksheets": "Alle arbejdsark",
+        "apps": "Alle generatorer",
+        "teachingPackages": "Alle undervisningsplaner",
+        "interactive": "Alle interaktive"
+      }
+    }
+  },
   "homepage": {
     "meta": {
       "title": "LessonCraftStudio — Arbejdsark der virker rigtigt på dit andetsprog",
@@ -35,7 +57,32 @@
     "hero": {
       "title": "Arbejdsark der virker rigtigt på dit andetsprog.",
       "subtitle": "Et kurateret bibliotek med K-3-illustrationer kombineret med et ordforrådssystem der dækker 11 sprog — med korrekt køn, korrekte flertalsformer og korrekte diakritiske tegn i hvert enkelt sprog. Bygget til lærere i tosprogede programmer, tosprogede klasseværelser og internationale skoler.",
-      "interaction": "Børnene løser dem i browseren. Print dem ud, hvis du foretrækker det."
+      "interaction": "Børnene løser dem i browseren. Print dem ud, hvis du foretrækker det.",
+      "cta": "Tilmeld dig gratis →"
+    },
+    "fourCardGrid": {
+      "sectionTitle": "Vores læringsbibliotek",
+      "intro": "Arbejdsark, arbejdsark-generatorer, undervisningsplaner og interaktive aktiviteter — alt hvad en flersproget K-3-klasse har brug for, på 11 sprog.",
+      "worksheets": {
+        "title": "Arbejdsark",
+        "description": "Printbare PDF'er på 11 sprog med K-3-illustrationer og grammatisk korrekt ordforråd. 29 øvelsestyper på tværs af 100 temaer.",
+        "cta": "Gennemse arbejdsark"
+      },
+      "apps": {
+        "title": "Arbejdsark-generatorer",
+        "description": "29 arbejdsark-generatorer der laver både printbare PDF'er og interaktive aktiviteter. Vælg emne, tema og sprog — apperne klarer resten.",
+        "cta": "Åbn apperne"
+      },
+      "teachingPackages": {
+        "title": "Undervisningsplaner",
+        "description": "Færdige undervisningsplaner inddelt efter område — matematik, læse- og skrivefærdigheder, ordforråd, omverdensviden, logik og socioemotionelt.",
+        "cta": "Gennemse undervisningsplaner"
+      },
+      "interactive": {
+        "title": "Interaktive arbejdsark",
+        "description": "Digitale arbejdsark som børnene løser i enhver browser — samme indhold som de printbare, bare interaktivt.",
+        "cta": "Spil interaktivt"
+      }
     },
     "breadthGrid": {
       "sectionTitle": "Decks som lærere bruger lige nu.",
@@ -96,8 +143,8 @@
       "breadthIntro": "Tryk på et hvilket som helst for at spille et helt arbejdsark — ligesom dine elever."
     },
     "subscription": {
-      "sectionTitle": "Til lærere der bruger LessonCraftStudio hver uge.",
-      "intro": "Kataloget er gratis og bliver ved med at være gratis. Abonnementet er til lærere der har gjort LessonCraftStudio til en del af deres regelmæssige praksis og vil have deres undervisning organiseret — med færdige lektionsplaner, temapakker til de øjeblikke der vender tilbage hvert år, og en arbejdsplads bygget til at håndtere tusindvis af decks.",
+      "sectionTitle": "Ubegrænset adgang for 69 $ om året.",
+      "intro": "2 gratis downloads om dagen — fordelt mellem vores deck-bibliotek og vores arbejdsark-generatorer. Tegn abonnement for ubegrænsede downloads, ubegrænset brug af apperne og hele biblioteket med undervisningsplaner og temapakker.",
       "lessonPlans": {
         "title": "Færdige lektionsplaner",
         "body": "Et voksende bibliotek af forskrevne lektionsplaner, hver enkelt knyttet til specifikke decks. Hver plan følger en konsekvent firtrins-struktur bygget på CLIL-principper — opvarmning, indhold-og-sprog-aktivitet, sprogstillads og øvelse samt afslutning — så du lærer formen én gang og derefter bare underviser. Planerne skrives nativt per sprog, ikke maskinoversat, og afspejler konventionerne i hvert klasseværelse de er skrevet til."

@@ -24,6 +24,28 @@
     },
     "pricing": "Prijzen"
   },
+  "nav": {
+    "categories": {
+      "worksheets": "Werkbladen",
+      "apps": "Apps",
+      "teachingPackages": "Lesplannen",
+      "interactive": "Interactief",
+      "strands": {
+        "numeracy": "Rekenen",
+        "literacy": "Geletterdheid",
+        "vocabulary": "Woordenschat",
+        "worldKnowledge": "Wereldoriëntatie",
+        "logic": "Logica",
+        "sel": "Sociaal-emotioneel"
+      },
+      "browseAll": {
+        "worksheets": "Alle werkbladen",
+        "apps": "Alle werkblad-makers",
+        "teachingPackages": "Alle lesplannen",
+        "interactive": "Alle interactieve"
+      }
+    }
+  },
   "homepage": {
     "meta": {
       "title": "LessonCraftStudio — Werkbladen die in uw tweede taal werkelijk werken",
@@ -35,7 +57,32 @@
     "hero": {
       "title": "Werkbladen die in uw tweede taal werkelijk werken.",
       "subtitle": "Een gecureerde bibliotheek met K-3-illustraties, gekoppeld aan een vocabulairesysteem in 11 talen — met correcte geslachten, meervoudsvormen en diakrieten in elke taal. Gebouwd voor leerkrachten in tweetalige programma's, bilinguale klassen en internationale scholen.",
-      "interaction": "De kinderen spelen ze in de browser. Druk ze af als u dat liever heeft."
+      "interaction": "De kinderen spelen ze in de browser. Druk ze af als u dat liever heeft.",
+      "cta": "Sluit u gratis aan →"
+    },
+    "fourCardGrid": {
+      "sectionTitle": "Onze leerbibliotheek",
+      "intro": "Werkbladen, werkblad-makers, lesplannen en interactieve activiteiten — alles wat een meertalige K-3-klas nodig heeft, in 11 talen.",
+      "worksheets": {
+        "title": "Werkbladen",
+        "description": "Afdrukbare PDF's in 11 talen met K-3-illustraties en grammaticaal correcte woordenschat. 29 oefentypes verdeeld over 100 thema's.",
+        "cta": "Bekijk werkbladen"
+      },
+      "apps": {
+        "title": "Werkblad-makers",
+        "description": "29 werkblad-makers die zowel afdrukbare PDF's als interactieve activiteiten genereren. Kies onderwerp, thema en taal — de apps doen de rest.",
+        "cta": "Open de apps"
+      },
+      "teachingPackages": {
+        "title": "Lesplannen",
+        "description": "Direct bruikbare lesplannen, geordend per leerlijn — rekenen, geletterdheid, woordenschat, wereldoriëntatie, logica en sociaal-emotioneel.",
+        "cta": "Bekijk lesplannen"
+      },
+      "interactive": {
+        "title": "Interactieve werkbladen",
+        "description": "Digitale werkbladen die kinderen in elke browser spelen — dezelfde inhoud als de afdrukbare versies, interactief.",
+        "cta": "Speel interactief"
+      }
     },
     "breadthGrid": {
       "sectionTitle": "Decks die leerkrachten op dit moment gebruiken.",
@@ -96,8 +143,8 @@
       "breadthIntro": "Tik op een van deze om een volledig werkblad te spelen — net als je leerlingen."
     },
     "subscription": {
-      "sectionTitle": "Voor leerkrachten die LessonCraftStudio elke week gebruiken.",
-      "intro": "De catalogus is gratis en blijft gratis. Het abonnement is voor leerkrachten die LessonCraftStudio een vast onderdeel van hun praktijk hebben gemaakt en hun lesgeven georganiseerd willen hebben — met kant-en-klare lesplannen, themapakketten voor de momenten die elk jaar terugkomen, en een werkruimte gebouwd voor het beheren van duizenden decks.",
+      "sectionTitle": "Onbeperkte toegang voor $69 per jaar.",
+      "intro": "2 gratis downloads per dag — verdeeld over onze deck-bibliotheek en werkblad-makers. Neem een abonnement voor onbeperkt downloaden, onbeperkt app-gebruik en de volledige bibliotheek met lesplannen en themapakketten.",
       "lessonPlans": {
         "title": "Kant-en-klare lesplannen",
         "body": "Een groeiende bibliotheek van vooraf geschreven lesplannen, elk gekoppeld aan concrete decks. Elk plan volgt een consistente vierstapsstructuur op basis van CLIL-principes — opwarming, inhoud-en-taal-activiteit, taalsteun en oefening, en afsluiting — zodat u de vorm één keer leert en daarna gewoon lesgeeft. De plannen worden per taal natief geschreven, niet automatisch vertaald, en weerspiegelen de conventies van elke klas waarvoor ze geschreven zijn."

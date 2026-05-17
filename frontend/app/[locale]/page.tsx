@@ -3,13 +3,9 @@ import { getTranslations } from 'next-intl/server';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import Hero from '@/components/homepage-v2/Hero';
-import ExerciseTypeGrid from '@/components/homepage-v2/ExerciseTypeGrid';
-import MagnitudeFraming from '@/components/homepage-v2/MagnitudeFraming';
-import ThemeStrip from '@/components/homepage-v2/ThemeStrip';
-import LocaleStrip from '@/components/homepage-v2/LocaleStrip';
+import FourCardGrid from '@/components/homepage-v2/FourCardGrid';
+import BreadthGrid from '@/components/homepage-v2/BreadthGrid';
 import EmbedViralityCTA from '@/components/homepage-v2/EmbedViralityCTA';
-import LanguageProof from '@/components/homepage-v2/LanguageProof';
-import FreeExperience from '@/components/homepage-v2/FreeExperience';
 import SubscriptionSection from '@/components/homepage-v2/SubscriptionSection';
 
 // Cache headers per HOMEPAGE-IMPLEMENTATION-PROMPT.md §6 / CLAUDE.md §17.4 LCP target.
@@ -125,28 +121,33 @@ export default async function HomePage({ params }: { params: { locale: string } 
         />
       ))}
 
-      {/* Section 1 — Hero (LOCKED per HOMEPAGE-SAVE-STATE.md) */}
+      {/* Section 1 — Hero (preserved video element + lang dropdown stays in
+          Navigation per operator's 2026-05-17 commission lock #2). New CTA
+          "Join for free" added per education.com reference pattern. */}
       <Hero locale={locale} />
 
-      {/* Section 2 — Above-fold structural-axes density per Alt A architecture
-          lock (Arc 3, 2026-05-06). Order matters: visible-evidence first
-          (29 icons), then numerical context (axis-product), then second-axis
-          variety (themes), then locale signal, then conversion CTA. The
-          BreadthGrid that previously occupied this position is demoted to
-          Section 4 (FreeExperience) as a "see one in action" sub-section. */}
-      <ExerciseTypeGrid locale={locale} />
-      <MagnitudeFraming locale={locale} />
-      <ThemeStrip locale={locale} />
-      <LocaleStrip />
+      {/* Section 2 — "Our learning library" 4-card grid per 2026-05-17 §8.1
+          restructure (replaces Alt A's 5-component above-fold density —
+          ExerciseTypeGrid/MagnitudeFraming/ThemeStrip/LocaleStrip/LanguageProof
+          retired). Four cards: Worksheets / Apps / Teaching packages /
+          Interactive worksheets. Apps category is now public per operator's
+          Apps-gating reversal (CLAUDE.md §3.3 + §17.2 amendment queued
+          separately as [DOCS] commission). */}
+      <FourCardGrid locale={locale} />
+
+      {/* Section 3 — "See one in action" inline play. BreadthGrid migrated
+          here per operator commission lock #1 (was Section 4 sub-component
+          via FreeExperience; FreeExperience retired). Keeps §1 product-as-
+          marketing + §18.4.2 day-of-week rotation rhythm. */}
+      <BreadthGrid locale={locale} />
+
+      {/* Section 4 — Embed acquisition CTA per §1 acquisition-flywheel Layer 3
+          (homepage signaling). Migrated below the 4-card grid per operator
+          commission lock #1. */}
       <EmbedViralityCTA locale={locale} />
 
-      {/* Section 3 — Language proof */}
-      <LanguageProof locale={locale} />
-
-      {/* Section 4 — The free experience (now contains demoted BreadthGrid) */}
-      <FreeExperience locale={locale} />
-
-      {/* Section 5 — Subscription */}
+      {/* Section 5 — Subscription. Flipped to subscribe-mode at deploy via
+          HOMEPAGE_SUBSCRIBE_MODE=subscribe env var per commission Phase 1C. */}
       <SubscriptionSection locale={locale} />
     </>
   );

@@ -24,6 +24,28 @@
     },
     "pricing": "Priser"
   },
+  "nav": {
+    "categories": {
+      "worksheets": "Arbeidsark",
+      "apps": "Apper",
+      "teachingPackages": "Undervisningsplaner",
+      "interactive": "Interaktivt",
+      "strands": {
+        "numeracy": "Numeracy",
+        "literacy": "Lese- og skriveferdigheter",
+        "vocabulary": "Vokabular",
+        "worldKnowledge": "Omverdenskunnskap",
+        "logic": "Logikk",
+        "sel": "Sosioemosjonelt"
+      },
+      "browseAll": {
+        "worksheets": "Alle arbeidsark",
+        "apps": "Alle generatorer",
+        "teachingPackages": "Alle undervisningsplaner",
+        "interactive": "Alle interaktive"
+      }
+    }
+  },
   "homepage": {
     "meta": {
       "title": "LessonCraftStudio — Arbeidsark som virker på ekte i andrespråket ditt",
@@ -35,7 +57,32 @@
     "hero": {
       "title": "Arbeidsark som virker på ekte i andrespråket ditt.",
       "subtitle": "Et kuratert bibliotek med K-3-illustrasjoner kombinert med et vokabularsystem som dekker 11 språk — med korrekt kjønn, korrekte flertallsformer og korrekte diakritiske tegn i hvert språk. Bygget for lærere i tospråklige programmer, tospråklige klasserom og internasjonale skoler.",
-      "interaction": "Barna løser dem i nettleseren. Skriv dem ut hvis du foretrekker det."
+      "interaction": "Barna løser dem i nettleseren. Skriv dem ut hvis du foretrekker det.",
+      "cta": "Bli med gratis →"
+    },
+    "fourCardGrid": {
+      "sectionTitle": "Vårt læringsbibliotek",
+      "intro": "Arbeidsark, arbeidsark-generatorer, undervisningsplaner og interaktive aktiviteter — alt et flerspråklig K-3-klasserom trenger, på 11 språk.",
+      "worksheets": {
+        "title": "Arbeidsark",
+        "description": "Utskrivbare PDF-er på 11 språk med K-3-illustrasjoner og grammatisk korrekt vokabular. 29 øvelsestyper på tvers av 100 temaer.",
+        "cta": "Bla i arbeidsark"
+      },
+      "apps": {
+        "title": "Arbeidsark-generatorer",
+        "description": "29 arbeidsark-generatorer som lager både utskrivbare PDF-er og interaktive aktiviteter. Velg emne, tema og språk — appene gjør resten.",
+        "cta": "Åpne appene"
+      },
+      "teachingPackages": {
+        "title": "Undervisningsplaner",
+        "description": "Ferdige undervisningsplaner ordnet etter område — matematikk, lese- og skriveferdigheter, vokabular, omverdenskunnskap, logikk og sosioemosjonelt.",
+        "cta": "Bla i undervisningsplaner"
+      },
+      "interactive": {
+        "title": "Interaktive arbeidsark",
+        "description": "Digitale arbeidsark som barna løser i hvilken som helst nettleser — samme innhold som de utskrivbare, bare interaktivt.",
+        "cta": "Spill interaktivt"
+      }
     },
     "breadthGrid": {
       "sectionTitle": "Decks som lærere bruker akkurat nå.",
@@ -96,8 +143,8 @@
       "breadthIntro": "Trykk på hvilket som helst for å spille et helt arbeidsark — akkurat som elevene dine."
     },
     "subscription": {
-      "sectionTitle": "For lærere som bruker LessonCraftStudio hver uke.",
-      "intro": "Katalogen er gratis og forblir gratis. Abonnementet er for lærere som har gjort LessonCraftStudio til en del av sin regelmessige praksis og vil ha undervisningen sin organisert — med ferdige undervisningsopplegg, temapakker for de øyeblikkene som kommer tilbake hvert år, og et arbeidsområde bygget for å håndtere tusenvis av decks.",
+      "sectionTitle": "Ubegrenset tilgang for 69 $ i året.",
+      "intro": "2 gratis nedlastinger per dag — fordelt mellom deck-biblioteket og arbeidsark-generatorene. Tegn abonnement for ubegrensede nedlastinger, ubegrenset bruk av appene og hele biblioteket med undervisningsplaner og temapakker.",
       "lessonPlans": {
         "title": "Ferdige undervisningsopplegg",
         "body": "Et voksende bibliotek av forhåndsskrevne undervisningsopplegg, hvert enkelt knyttet til spesifikke decks. Hvert opplegg følger en konsekvent firetrinns-struktur bygget på CLIL-prinsipper — oppvarming, innhold-og-språk-aktivitet, språkstillas og øvelse samt avslutning — slik at du lærer formen én gang og deretter bare underviser. Oppleggene skrives nativt per språk, ikke maskinoversatt, og gjenspeiler konvensjonene i hvert klasserom de er skrevet for."

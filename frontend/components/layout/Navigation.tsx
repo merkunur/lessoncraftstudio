@@ -9,6 +9,7 @@ import { useState } from 'react';
 import { useAuth } from '@/contexts/auth-context';
 import { isLcsSubscriptionActive } from '@/lib/subscription-helpers';
 import { Menu, X } from 'lucide-react';
+import { CategoryNav } from './CategoryNav';
 
 // Minimal educator-aligned navigation per HOMEPAGE-IMPLEMENTATION-PROMPT.md §6.10 + T4 option C.
 // Drops the seller-era Free Tools / Resources dropdowns and the Apps / Pricing links —
@@ -38,6 +39,7 @@ export function Navigation() {
   };
 
   return (
+    <>
     <nav className="bg-cream-50 border-b border-cream-300 relative z-50">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="flex items-center justify-between h-16 lg:h-[72px]">
@@ -174,5 +176,9 @@ export function Navigation() {
         </div>
       </div>
     </nav>
+    {/* Category dropdown nav — second row, desktop-only. Mobile users access
+        categories via the 4-card grid + footer columns. */}
+    <CategoryNav />
+    </>
   );
 }

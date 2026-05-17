@@ -24,6 +24,28 @@
     },
     "pricing": "Hinnat"
   },
+  "nav": {
+    "categories": {
+      "worksheets": "Tehtäväarkit",
+      "apps": "Sovellukset",
+      "teachingPackages": "Tuntisuunnitelmat",
+      "interactive": "Interaktiivinen",
+      "strands": {
+        "numeracy": "Numeracy",
+        "literacy": "Lukutaito",
+        "vocabulary": "Sanasto",
+        "worldKnowledge": "Maailmantieto",
+        "logic": "Logiikka",
+        "sel": "Sosioemotionaalinen"
+      },
+      "browseAll": {
+        "worksheets": "Kaikki tehtäväarkit",
+        "apps": "Kaikki generaattorit",
+        "teachingPackages": "Kaikki tuntisuunnitelmat",
+        "interactive": "Kaikki interaktiiviset"
+      }
+    }
+  },
   "homepage": {
     "meta": {
       "title": "LessonCraftStudio — Tehtäväarkit jotka toimivat oikeasti toisella kielelläsi",
@@ -35,7 +57,32 @@
     "hero": {
       "title": "Tehtäväarkit jotka toimivat oikeasti toisella kielelläsi.",
       "subtitle": "Kuratoitu K-3-kuvituskirjasto yhdistettynä sanastojärjestelmään, joka kattaa 11 kieltä — oikeilla suvuilla, oikeilla monikkomuodoilla ja oikeilla diakriittisillä merkeillä jokaisessa kielessä. Rakennettu opettajille kaksikielisissä ohjelmissa, kaksikielisissä luokissa ja kansainvälisissä kouluissa.",
-      "interaction": "Lapset tekevät ne selaimessa. Tulosta ne, jos haluat."
+      "interaction": "Lapset tekevät ne selaimessa. Tulosta ne, jos haluat.",
+      "cta": "Liity ilmaiseksi →"
+    },
+    "fourCardGrid": {
+      "sectionTitle": "Oppimiskirjastomme",
+      "intro": "Tehtäväarkit, tehtävägeneraattorit, tuntisuunnitelmat ja interaktiiviset tehtävät — kaikki mitä monikielinen K-3-luokka tarvitsee, 11 kielellä.",
+      "worksheets": {
+        "title": "Tehtäväarkit",
+        "description": "Tulostettavat PDF:t 11 kielellä K-3-kuvituksilla ja kieliopillisesti oikealla sanastolla. 29 tehtävätyyppiä 100 teemassa.",
+        "cta": "Selaa tehtäväarkkeja"
+      },
+      "apps": {
+        "title": "Tehtävägeneraattorit",
+        "description": "29 tehtävägeneraattoria, jotka tuottavat sekä tulostettavia PDF:iä että interaktiivisia tehtäviä. Valitse aihe, teema ja kieli — sovellukset hoitavat loput.",
+        "cta": "Avaa sovellukset"
+      },
+      "teachingPackages": {
+        "title": "Tuntisuunnitelmat",
+        "description": "Valmiit tuntisuunnitelmat jaoteltuna osa-alueittain — matematiikka, lukutaito, sanasto, maailmantieto, logiikka ja sosioemotionaalinen.",
+        "cta": "Selaa tuntisuunnitelmia"
+      },
+      "interactive": {
+        "title": "Interaktiiviset tehtäväarkit",
+        "description": "Digitaaliset tehtäväarkit, jotka lapset tekevät missä tahansa selaimessa — sama sisältö kuin tulostettavissa, mutta interaktiivisesti.",
+        "cta": "Pelaa interaktiivisesti"
+      }
     },
     "breadthGrid": {
       "sectionTitle": "Korttipakat, joita opettajat käyttävät juuri nyt.",
@@ -96,8 +143,8 @@
       "breadthIntro": "Napauta mitä tahansa pelataksesi koko tehtäväsivun — aivan kuten oppilaasi."
     },
     "subscription": {
-      "sectionTitle": "Opettajille, jotka käyttävät LessonCraftStudiota joka viikko.",
-      "intro": "Katalogi on ilmainen ja pysyy ilmaisena. Tilaus on opettajille, jotka ovat tehneet LessonCraftStudiosta osan säännöllistä työtään ja haluavat opetuksensa järjestelmällisesti — valmiilla tuntisuunnitelmilla, teemapaketeilla niihin hetkiin, jotka palaavat joka vuosi, ja työtilalla, joka on rakennettu tuhansien korttipakkojen hallintaan.",
+      "sectionTitle": "Rajaton käyttö 69 $ vuodessa.",
+      "intro": "2 ilmaista latausta päivässä — jaettuna korttipakkakirjaston ja tehtävägeneraattoreiden välillä. Tilaa rajattomat lataukset, rajaton sovellusten käyttö ja koko tuntisuunnitelma- ja teemapakettikirjasto.",
       "lessonPlans": {
         "title": "Valmiit tuntisuunnitelmat",
         "body": "Kasvava kirjasto valmiiksi kirjoitettuja tuntisuunnitelmia, joista jokainen on yhdistetty tiettyihin korttipakkoihin. Jokainen suunnitelma noudattaa johdonmukaista nelivaiheista rakennetta CLIL-periaatteiden mukaan — lämmittely, sisältö-ja-kieli-aktiviteetti, kielen tukirakenne ja harjoittelu sekä lopetus — niin että opit muodon kerran ja sen jälkeen vain opetat. Suunnitelmat kirjoitetaan natiivisti kullekin kielelle, ei konekääntäen, ja ne heijastavat sen luokkahuoneen käytäntöjä, jolle ne on kirjoitettu."

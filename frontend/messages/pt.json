@@ -24,6 +24,28 @@
     },
     "pricing": "Precos"
   },
+  "nav": {
+    "categories": {
+      "worksheets": "Fichas",
+      "apps": "Apps",
+      "teachingPackages": "Planos de aula",
+      "interactive": "Interativo",
+      "strands": {
+        "numeracy": "Numeramento",
+        "literacy": "Alfabetização",
+        "vocabulary": "Vocabulário",
+        "worldKnowledge": "Conhecimento do mundo",
+        "logic": "Lógica",
+        "sel": "Socioemocional"
+      },
+      "browseAll": {
+        "worksheets": "Todas as fichas",
+        "apps": "Todos os geradores",
+        "teachingPackages": "Todos os planos",
+        "interactive": "Todas as interativas"
+      }
+    }
+  },
   "homepage": {
     "meta": {
       "title": "LessonCraftStudio — Fichas que funcionam de verdade na sua segunda língua",
@@ -35,7 +57,32 @@
     "hero": {
       "title": "Fichas que funcionam de verdade na sua segunda língua.",
       "subtitle": "Uma biblioteca curada de ilustrações K-3, combinada a um sistema de vocabulário em 11 idiomas — com gênero, plurais e acentuação corretos em cada um. Pensada para professores em programas bilíngues, salas bilíngues e escolas internacionais.",
-      "interaction": "As crianças usam no navegador. Imprima se preferir."
+      "interaction": "As crianças usam no navegador. Imprima se preferir.",
+      "cta": "Cadastre-se grátis →"
+    },
+    "fourCardGrid": {
+      "sectionTitle": "Nossa biblioteca de aprendizagem",
+      "intro": "Fichas, geradores de fichas, planos de aula e atividades interativas — tudo o que uma sala multilíngue K-3 precisa, em 11 idiomas.",
+      "worksheets": {
+        "title": "Fichas",
+        "description": "PDFs imprimíveis em 11 idiomas com ilustrações K-3 e vocabulário gramaticalmente correto. 29 tipos de exercícios em 100 temas.",
+        "cta": "Ver fichas"
+      },
+      "apps": {
+        "title": "Geradores de fichas",
+        "description": "29 geradores de fichas que produzem tanto PDFs imprimíveis quanto atividades interativas. Escolha o tema, o assunto e o idioma — os apps fazem o resto.",
+        "cta": "Abrir os apps"
+      },
+      "teachingPackages": {
+        "title": "Planos de aula",
+        "description": "Planos de aula prontos para usar, organizados por área — matemática, alfabetização, vocabulário, conhecimento do mundo, lógica e socioemocional.",
+        "cta": "Ver planos de aula"
+      },
+      "interactive": {
+        "title": "Fichas interativas",
+        "description": "Fichas digitais que as crianças jogam em qualquer navegador — mesmo conteúdo das versões imprimíveis, interativo.",
+        "cta": "Jogar interativo"
+      }
     },
     "breadthGrid": {
       "sectionTitle": "Decks que professores estão usando agora.",
@@ -96,8 +143,8 @@
       "breadthIntro": "Toque em qualquer uma para jogar uma atividade completa — como seus alunos vão fazer."
     },
     "subscription": {
-      "sectionTitle": "Para professores que usam LessonCraftStudio toda semana.",
-      "intro": "O catálogo é gratuito, e continua gratuito. A assinatura é para professores que tornaram LessonCraftStudio parte da prática regular e querem o ensino organizado — com planos de aula prontos, pacotes temáticos para os momentos que voltam todo ano, e um espaço de trabalho pensado para gerenciar milhares de decks.",
+      "sectionTitle": "Acesso ilimitado por US$ 69 por ano.",
+      "intro": "2 downloads gratuitos por dia — distribuídos entre a biblioteca de decks e os geradores de fichas. Assine para downloads ilimitados, uso ilimitado dos apps e a biblioteca completa de planos de aula e pacotes temáticos.",
       "lessonPlans": {
         "title": "Planos de aula prontos para usar",
         "body": "Uma biblioteca crescente de planos de aula pré-escritos, cada um ligado a decks específicos. Cada plano segue uma estrutura coerente em quatro etapas baseada nos princípios CLIL — aquecimento, atividade conteúdo-língua, andaime linguístico e prática, e encerramento — para que você aprenda a forma uma vez e depois apenas ensine. Os planos são escritos nativamente por idioma, não traduzidos automaticamente, e refletem as convenções de cada sala para a qual são escritos."

@@ -25,6 +25,28 @@
     },
     "pricing": "Pricing"
   },
+  "nav": {
+    "categories": {
+      "worksheets": "Worksheets",
+      "apps": "Apps",
+      "teachingPackages": "Teaching packages",
+      "interactive": "Interactive",
+      "strands": {
+        "numeracy": "Numeracy",
+        "literacy": "Literacy",
+        "vocabulary": "Vocabulary",
+        "worldKnowledge": "World knowledge",
+        "logic": "Logic",
+        "sel": "Social-emotional"
+      },
+      "browseAll": {
+        "worksheets": "Browse all worksheets",
+        "apps": "All worksheet creators",
+        "teachingPackages": "All lesson plans",
+        "interactive": "Browse all interactive"
+      }
+    }
+  },
   "homepage": {
     "meta": {
       "title": "LessonCraftStudio — Worksheets that work in your second language",
@@ -36,7 +58,32 @@
     "hero": {
       "title": "Worksheets that actually work in your second language.",
       "subtitle": "A curated library of K-3 illustrations paired with a vocabulary system across 11 languages — correct gender, plurals, and diacritics in every one. Built for teachers in dual-language programs, bilingual classrooms, and international schools.",
-      "interaction": "Students play them in the browser. Print them if you prefer."
+      "interaction": "Students play them in the browser. Print them if you prefer.",
+      "cta": "Join for free →"
+    },
+    "fourCardGrid": {
+      "sectionTitle": "Our learning library",
+      "intro": "Worksheets, worksheet creators, lesson plans, and interactive activities — everything a K-3 multilingual classroom needs, in 11 languages.",
+      "worksheets": {
+        "title": "Worksheets",
+        "description": "Printable PDFs in 11 languages with K-3 illustrations and grammatically correct vocabulary. 29 exercise types across 100 themes.",
+        "cta": "Browse worksheets"
+      },
+      "apps": {
+        "title": "Worksheet creators",
+        "description": "29 worksheet creators that generate both printable PDFs and interactive activities. Pick your topic, theme, and language — the apps do the rest.",
+        "cta": "Open the apps"
+      },
+      "teachingPackages": {
+        "title": "Lesson plans",
+        "description": "Ready-to-teach lesson plans organized by strand — math, literacy, vocabulary, world knowledge, logic, and social-emotional.",
+        "cta": "Browse lesson plans"
+      },
+      "interactive": {
+        "title": "Interactive worksheets",
+        "description": "Self-playing digital worksheets your students do in any browser — same content as the printables, interactive.",
+        "cta": "Play interactive"
+      }
     },
     "breadthGrid": {
       "sectionTitle": "Decks teachers are using right now.",
@@ -97,8 +144,8 @@
       "breadthIntro": "Tap any of these to play a complete deck — same as your students will."
     },
     "subscription": {
-      "sectionTitle": "For teachers who use LessonCraftStudio every week.",
-      "intro": "The catalog is free, and it stays free. The subscription is for teachers who've made LessonCraftStudio part of their regular practice and want their teaching organized — with ready-to-use lesson plans, themed bundles for the moments that come around every year, and a workspace built for managing thousands of decks.",
+      "sectionTitle": "Unlimited access for $69 a year.",
+      "intro": "2 free downloads per day across our deck library and worksheet creators. Subscribe for unlimited downloads, unlimited app use, and the full lesson-plan and themed-bundle library.",
       "lessonPlans": {
         "title": "Ready-to-use lesson plans",
         "body": "A growing library of pre-written lesson plans, each one tied to specific decks. Every plan follows a consistent four-step structure built on CLIL principles — warmup, content-and-language activity, language scaffold and practice, and closure — so you learn the shape once and then just teach. Plans are written natively per language, not auto-translated, and reflect the conventions of each classroom they're written for."

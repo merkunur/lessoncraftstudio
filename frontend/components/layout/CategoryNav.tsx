@@ -31,36 +31,52 @@ interface TaxonomySchema {
   };
 }
 
-// 6 operator-curated exercise-type anchors for Worksheets + Interactive dropdowns.
-// Per CLAUDE.md §A.13.37 logic-class + §14.10 canonical 29 apps, these are
-// high-engagement category exemplars across math/literacy/logic/spatial.
-const WORKSHEETS_ANCHOR_KEYS = [
+// Operator-curated exercise-type anchor candidates for Worksheets +
+// Interactive dropdowns. Filtered at render time against the locale's
+// non-empty axis-keys (passed in via `availableExerciseTypes` prop from
+// LocaleLayout) per §16.6.1 substrate-honesty — only axis-keys with ≥1
+// published deck in the current locale render as dropdown sub-items.
+//
+// `picture-path` + `sudoku` removed from canonical anchors: en uses
+// per-locale aliases `picture-trail` + `picture-sudoku` (per §15.10
+// cross-locale-OK + topics-taxonomy.json slug.en), and the canonical
+// axis-key topic-pages return 404 because en's decks were archived at
+// commit 0ad626cb. The locale-filter handles this correctly by checking
+// each candidate against availableExerciseTypes before rendering.
+const WORKSHEETS_ANCHOR_CANDIDATES = [
   'addition',
   'subtraction',
   'cryptogram',
   'crossword',
   'wordsearch',
   'matching',
+  'word-guess',
+  'word-scramble',
+  'find-and-count',
 ] as const;
 
-// 6 interactive-suited anchors (different mix; surfaces interactive-strong mechanics).
-const INTERACTIVE_ANCHOR_KEYS = [
-  'sudoku',
-  'picture-path',
+const INTERACTIVE_ANCHOR_CANDIDATES = [
   'matching',
   'shadow-match',
   'pattern-train',
   'bingo',
+  'find-objects',
+  'odd-one-out',
+  'grid-match',
+  'missing-pieces',
+  'picture-sort',
 ] as const;
 
-// 6 Apps anchors — operator-curated representative subset of the 29 §14.10 apps.
+// Apps anchors — link to /worksheet-makers/#<app-anchor>. Doesn't depend on
+// deck-availability per locale (landing-page list is static; not gated on
+// published-deck-count). 6 operator-curated subset.
 const APPS_ANCHOR_KEYS = [
   'addition',
   'word-guess',
-  'sudoku',
-  'cryptogram',
-  'picture-path',
   'crossword',
+  'sudoku',
+  'matching',
+  'big-small',
 ] as const;
 
 // 6 §A.13.37 class-conditional strands for Teaching packages dropdown.
@@ -97,7 +113,15 @@ interface CategoryDropdown {
   browseAllLabel: string;
 }
 
-export function CategoryNav() {
+interface CategoryNavProps {
+  // Per-locale non-empty exercise-type axis-keys, sourced from
+  // listNonEmptyAxisKeys('exercise-type', locale) at the LocaleLayout server
+  // component. Used to filter dropdown sub-items so we never link to a
+  // 404'ing topic-page per §16.6.1 substrate-honesty.
+  availableExerciseTypes?: string[];
+}
+
+export function CategoryNav({ availableExerciseTypes = [] }: CategoryNavProps) {
   const t = useTranslations('nav.categories');
   const pathname = usePathname();
   const locale = pathname.split('/')[1] || 'en';
@@ -123,12 +147,30 @@ export function CategoryNav() {
     };
   }, [openKey]);
 
-  // Build dropdown definitions from taxonomy + strand list.
-  const worksheetsItems: DropdownItem[] = WORKSHEETS_ANCHOR_KEYS.map(key => ({
+  // Per-locale availability filter. Empty `availableExerciseTypes` means
+  // either DB unavailable at build time OR locale has no published decks —
+  // either way, fall back to candidates as-is so dropdown still renders.
+  const availSet = new Set(availableExerciseTypes);
+  const filterByAvail = (candidates: readonly string[]): string[] => {
+    if (availSet.size === 0) return candidates.slice(0, 6); // fallback
+    return candidates.filter(k => availSet.has(k)).slice(0, 6);
+  };
+
+  const worksheetsKeys = filterByAvail(WORKSHEETS_ANCHOR_CANDIDATES);
+  const interactiveKeys = filterByAvail(INTERACTIVE_ANCHOR_CANDIDATES);
+
+  // Dynamic browse-all destination per locale: first available axis-key.
+  // Avoids hardcoded `addition` / `matching` that 404 in locales without
+  // those keys (e.g., Tier 3+4 with sparse Track C catalog).
+  const firstAvailable = availableExerciseTypes[0] || worksheetsKeys[0] || 'addition';
+  const browseAllTopicHref = `/${locale}/topic/${resolveAxisSlug(firstAvailable, locale)}/`;
+
+  // Build dropdown definitions.
+  const worksheetsItems: DropdownItem[] = worksheetsKeys.map(key => ({
     href: `/${locale}/topic/${resolveAxisSlug(key, locale)}/`,
     label: resolveAxisName(key, locale),
   }));
-  const interactiveItems: DropdownItem[] = INTERACTIVE_ANCHOR_KEYS.map(key => ({
+  const interactiveItems: DropdownItem[] = interactiveKeys.map(key => ({
     href: `/${locale}/topic/${resolveAxisSlug(key, locale)}/`,
     label: resolveAxisName(key, locale),
   }));
@@ -146,7 +188,7 @@ export function CategoryNav() {
       key: 'worksheets',
       label: t('worksheets'),
       items: worksheetsItems,
-      browseAllHref: `/${locale}/topic/${resolveAxisSlug('addition', locale)}/`,
+      browseAllHref: browseAllTopicHref,
       browseAllLabel: t('browseAll.worksheets'),
     },
     {
@@ -167,7 +209,7 @@ export function CategoryNav() {
       key: 'interactive',
       label: t('interactive'),
       items: interactiveItems,
-      browseAllHref: `/${locale}/topic/${resolveAxisSlug('matching', locale)}/`,
+      browseAllHref: browseAllTopicHref,
       browseAllLabel: t('browseAll.interactive'),
     },
   ];

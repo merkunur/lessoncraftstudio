@@ -17,7 +17,11 @@ import { CategoryNav } from './CategoryNav';
 // teardown per CLAUDE.md §11 / §17. The home page's Section 5 carries the Subscribe CTA;
 // the nav itself stays pared down.
 
-export function Navigation() {
+interface NavigationProps {
+  availableExerciseTypes?: string[];
+}
+
+export function Navigation({ availableExerciseTypes = [] }: NavigationProps = {}) {
   const t = useTranslations('navigation');
   const pathname = usePathname();
   const locale = pathname.split('/')[1] || 'en';
@@ -178,7 +182,7 @@ export function Navigation() {
     </nav>
     {/* Category dropdown nav — second row, desktop-only. Mobile users access
         categories via the 4-card grid + footer columns. */}
-    <CategoryNav />
+    <CategoryNav availableExerciseTypes={availableExerciseTypes} />
     </>
   );
 }

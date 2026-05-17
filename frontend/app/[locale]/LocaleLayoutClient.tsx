@@ -31,7 +31,7 @@ export function LocaleLayoutClient({
   if (isAppsRoute) {
     return (
       <>
-        <Navigation />
+        <Navigation availableExerciseTypes={footerAvailableExerciseTypes} />
         <main>
           {children}
         </main>
@@ -39,10 +39,12 @@ export function LocaleLayoutClient({
     );
   }
 
-  // Other routes: Normal document flow with Footer (content-gated per §16.6.1)
+  // Other routes: Normal document flow with Footer (content-gated per §16.6.1).
+  // Pass footerAvailableExerciseTypes to Navigation too — CategoryNav uses it
+  // for per-locale sub-item filtering so dropdown items don't 404.
   return (
     <>
-      <Navigation />
+      <Navigation availableExerciseTypes={footerAvailableExerciseTypes} />
       <main className="flex-1">
         {children}
       </main>

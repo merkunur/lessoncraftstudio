@@ -28,8 +28,8 @@
   "nav": {
     "categories": {
       "worksheets": "Worksheets",
-      "apps": "Apps",
-      "teachingPackages": "Teaching packages",
+      "apps": "Worksheet creators",
+      "teachingPackages": "Lesson plans",
       "interactive": "Interactive",
       "strands": {
         "numeracy": "Numeracy",

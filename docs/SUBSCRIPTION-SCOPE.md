@@ -2,6 +2,35 @@
 
 ---
 
+## [AMENDMENT 2026-05-17 v4] Sign-in gate removed — resources open to anonymous traffic
+
+**Operator-strategic pivot** ~one hour after v3 amendment: traffic acquisition takes precedence over bot deterrence. Sign-in requirement on resource actions removed entirely.
+
+### What changed (rollback of v3's sign-in gate)
+
+- 5 catalog/homepage surfaces (DeckGridClient, BreadthGridThumbnail, VarietyStripCard, CollectionDetailClient deck-cards, RecentActivityWidget) — `useSignInGate` hook + onClick handlers stripped; plain `<a href>` restored
+- `frontend/components/auth/SignInRequiredGate.tsx` — deleted (no consumers)
+- `REFERENCE TRANSLATIONS/signin-guard.js` — deleted
+- 29 REFERENCE APPS/*.html — `<script src="signin-guard.js">` tag stripped
+- Hetzner-side `/var/www/lcs-media/worksheet-generators/js/signin-guard.js` — deleted (chattr -i + rm)
+
+### What stays
+
+- Anonymous browse + click + play + download for every resource (anonymous everything)
+- Hero CTA "Join for free →" — voluntary affordance only
+- SubscribeCTA on homepage — voluntary affordance only
+- Sign-up + sign-in flows — voluntary; users can create accounts for collections/workspace
+- Page-level sign-in checks on `/workspace` + `/collections` — account features, stays sign-in-bound
+- Quota infrastructure — already deleted in v3 commit `54d76124`; stays deleted
+
+### Future revenue model (operator-internal — DO NOT SURFACE ON WEBSITE)
+
+Operator plans to ship educational games behind a subscription gate in a future commission. Sign-up flow + Lemon Squeezy scaffolding + Subscription Prisma model + isLcsSubscriptionActive helper all stay dormant in place for cheap future revival.
+
+**Until that future commission ships AND explicitly authorizes user-facing copy, no marketing surface mentions any future subscription tier, paid feature, or "coming soon" framing.** The website reads as flat-free-forever to any current visitor.
+
+---
+
 ## [AMENDMENT 2026-05-17 v3] Subscription model fully retired — platform is free with sign-up
 
 **Operator-strategic pivot this date** (separate from the earlier-this-day teaching-packages-domain removal):

@@ -159,31 +159,35 @@ English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, N
 
 ## 7. Pricing and access model
 
-**Free for everyone with a teacher sign-up. No tiers; no paid subscription; no daily cap.** Revenue model TBD (operator-strategic; separate adjudication post-2026-05-17 pivot).
+**Free for everyone. No tiers; no paid subscription; no daily cap; no sign-up requirement to use any worksheet resource.** Revenue model TBD (operator-strategic; separate adjudication).
 
-Sign-up is required to play interactive worksheets, download PDFs/answer keys, or use the 29 worksheet-generator apps. Sign-up exists primarily as a bot-deterrent — it's free, takes 30 seconds, and unlocks everything.
+Every resource — interactive worksheets, printable PDFs, answer keys, worksheet-generator app downloads — is anonymous-accessible. Plain `<a href>` navigation; no JS gate; no proxy. The operator's stated rationale (2026-05-17): friction-free access maximizes acquisition traffic.
 
-**Free with sign-up — everything:**
-- Full access to play every interactive worksheet
-- Unlimited printable PDF + answer-key downloads
-- All 29 worksheet-generator apps with unlimited generation + downloads
-- Collections + workspace + curriculum mapping + bulk tools (former subscriber features)
-- Shareable links (no expiration, no student count limits)
-- QR code generation
+**Anonymous-accessible (everything load-bearing):**
+- Play every interactive worksheet (catalog deck pages, embedded samples, direct-link plays)
+- Download every PDF + answer key
+- Use every worksheet-generator app, including downloading their interactive-HTML output
+- Browse / search / filter / topic pages / variety strips / homepage breadth grid
+- All catalog actions (deck-card clicks, deck Play, PDF links) — direct browser navigation
 
-**Anonymous (no sign-up) — browse-only:**
-- Browse catalog (search / filter / view deck pages — all SEO-public for crawlability)
-- View topic destination pages
-- Play embedded sample decks on marketing pages (acquisition flywheel per §3 + §18; never gated)
-- Direct-link student plays via `/play/[linkId]` (kid-side, per §4.4; never gated — students don't sign up)
+**Sign-in-bound (account features, NOT "resources"):**
+- Workspace landing (`/[locale]/workspace`)
+- Collections (create / view / manage / share)
+- Per-user state (favorites, share-history, etc.)
 
-**Sign-in gate implementation:**
-- Client-side: `useSignInGate()` hook in `frontend/components/auth/SignInRequiredGate.tsx`. Used by 5 catalog/homepage surfaces: DeckGridClient (topic page), BreadthGridThumbnail (homepage), VarietyStripCard (variety strips), CollectionDetailClient (collections), RecentActivityWidget (workspace). On click: if `!user`, redirect to `/[locale]/auth/signup?redirect=<url>`; otherwise navigate normally.
-- Worksheet-generator apps: `REFERENCE TRANSLATIONS/signin-guard.js` (capture-phase click interceptor on `#downloadInteractiveHtmlBtn`). Same redirect-to-signup behavior. Loaded by all 29 interactive apps.
-- API-side: `frontend/lib/subscriber-api-gate.ts: requireSubscriber()` reduced to simple sign-in check (401 if no user; no 403 subscription branch). Used by `/api/collections/*` and similar.
-- Middle-click / direct-URL access to catalog deck pages stays ungated (SEO + acquisition; deck pages are public-crawlable).
+These pages check `!!user` and prompt sign-in if absent — they're personal-organization features, not platform resources per the operator-defined distinction. Sign-in is voluntary; the catalog stays fully open.
 
-**Historical: subscription model retired 2026-05-17.** Previous $69/year subscription with 2-pillar scope (themed bundles + workspace tooling) was abandoned because the Lemon Squeezy variant remained stuck in `Pending` status for 17+ days, and operator pivoted strategy to free-with-sign-up. Quota system (DailyQuota table, /api/quota/* routes, quota-guard.js) dropped in the same commission. The Lemon Squeezy + Subscription Prisma model + webhook handler scaffolding stays in place dormant — cheap to revive if a future revenue pivot lands.
+**Voluntary sign-up affordances (no coercion):**
+- Hero CTA "Join for free →" on homepage → `/[locale]/auth/signup`
+- SubscriptionSection CTA "Join for free →" (signed-out) / "Go to workspace" (signed-in) at the bottom of the homepage
+- These exist as inviting affordances; nothing forces them; no friction on the catalog side.
+
+**Future revenue model — operator-internal, NOT to be surfaced on the website.** Operator plans to add educational games behind a subscription gate in a future commission. Until that commission ships and explicitly authorizes user-facing copy, **no marketing surface mentions any future subscription tier**. Sign-up flow + Lemon Squeezy scaffolding + Subscription Prisma model + isLcsSubscriptionActive helper all stay in place dormant for that future.
+
+**Historical (do-not-revive without operator authorization):**
+- Subscription model with $69/year tier (retired 2026-05-17 — LS variant stuck Pending for 17+ days; operator pivot)
+- 2/day quota gate (built then removed 2026-05-17 — operator preferred unlimited free access)
+- Sign-in-required-for-resources gate (built then removed 2026-05-17 — operator preferred anonymous traffic)
 
 ## 8. Technical standards
 

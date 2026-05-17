@@ -2,7 +2,6 @@
 
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
-import { useSignInGate } from '@/components/auth/SignInRequiredGate';
 
 export type Activity =
   | {
@@ -66,7 +65,6 @@ export default function RecentActivityWidget({
   activities,
 }: RecentActivityWidgetProps) {
   const t = useTranslations('workspace.recentActivity');
-  const { gatedClick } = useSignInGate();
 
   return (
     <section>
@@ -137,10 +135,6 @@ export default function RecentActivityWidget({
                 </span>
                 <a
                   href={deckHrefFor(a.deckLanguage, a.deckSlug)}
-                  onClick={e => {
-                    const url = deckHrefFor(a.deckLanguage, a.deckSlug);
-                    gatedClick(e, url, 'self');
-                  }}
                   className="text-xs text-ink-500 hover:text-ink-900 flex-shrink-0"
                 >
                   {time}

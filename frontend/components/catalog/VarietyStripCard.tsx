@@ -1,13 +1,10 @@
 'use client';
 
-import { useSignInGate } from '@/components/auth/SignInRequiredGate';
-
 /**
  * Client wrapper for a single VarietyStrip deck card.
  *
- * Per CLAUDE.md §7 (post-subscription-pivot): clicking a variety-strip
- * deck card requires sign-in. Unsigned users redirect to signup with the
- * deck URL preserved as `?redirect=`.
+ * Per CLAUDE.md §7 (post-2026-05-17 sign-in-gate removal): variety-strip
+ * deck plays are anonymous-accessible. Plain `<a href>` — no gate.
  */
 
 interface VarietyStripCardProps {
@@ -25,14 +22,8 @@ export default function VarietyStripCard({
   languageLabel,
   languageAriaLabel,
 }: VarietyStripCardProps) {
-  const { gatedClick } = useSignInGate();
-
   return (
-    <a
-      href={deckUrl}
-      onClick={e => gatedClick(e, deckUrl, 'self')}
-      className="block group"
-    >
+    <a href={deckUrl} className="block group">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={thumbnailUrl}

@@ -10,7 +10,6 @@ import DeckCardCheckbox from '@/components/catalog/DeckCardCheckbox';
 import BulkSelectToolbar, { BulkAction } from '@/components/catalog/BulkSelectToolbar';
 import ShareDeckButton from '@/components/catalog/ShareDeckButton';
 import ShareLinkResultModal, { ShareLinkResult } from '@/components/catalog/ShareLinkResultModal';
-import { useSignInGate } from '@/components/auth/SignInRequiredGate';
 
 interface CollectionDeckEntry {
   deckId: string;
@@ -54,7 +53,6 @@ export default function CollectionDetailClient({
   const t = useTranslations('collections');
   const { user, loading: authLoading } = useAuth();
   const router = useRouter();
-  const { gatedClick } = useSignInGate();
 
   const [collection, setCollection] = useState<CollectionDetail | null>(null);
   const [loading, setLoading] = useState(false);
@@ -402,11 +400,7 @@ export default function CollectionDetailClient({
                     />
                   </button>
                 ) : (
-                  <a
-                    href={href}
-                    onClick={e => gatedClick(e, href, 'self')}
-                    className="block"
-                  >
+                  <a href={href} className="block">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={deck.thumbnailUrl}
@@ -431,11 +425,7 @@ export default function CollectionDetailClient({
                           {title}
                         </button>
                       ) : (
-                        <a
-                          href={href}
-                          onClick={e => gatedClick(e, href, 'self')}
-                          className="hover:text-leaf-700"
-                        >
+                        <a href={href} className="hover:text-leaf-700">
                           {title}
                         </a>
                       )}

@@ -1,16 +1,14 @@
 'use client';
 
-import { useSignInGate } from '@/components/auth/SignInRequiredGate';
-
 /**
  * Client wrapper for a single BreadthGrid deck thumbnail.
  *
- * Per CLAUDE.md §7 (post-subscription-pivot): clicking a homepage deck
- * thumbnail requires sign-in. Unsigned users redirected to signup with
- * the deck URL as `?redirect=`.
+ * Per CLAUDE.md §7 (post-2026-05-17 sign-in-gate removal): deck plays are
+ * anonymous-accessible. Plain `<a href>` — no gate, no hook.
  *
- * Middle-click / ctrl-click bypass the onClick (browser opens href directly
- * in new tab); the deck URL is SEO-public per §7 locked design.
+ * Kept as a `'use client'` wrapper component (rather than inlining back
+ * into the server BreadthGrid) for cheap future re-introduction of any
+ * per-thumbnail interactivity (analytics, animation, etc.).
  */
 
 interface BreadthGridThumbnailProps {
@@ -30,12 +28,9 @@ export default function BreadthGridThumbnail({
   deckUrl,
   ariaLabel,
 }: BreadthGridThumbnailProps) {
-  const { gatedClick } = useSignInGate();
-
   return (
     <a
       href={deckUrl}
-      onClick={e => gatedClick(e, deckUrl, 'self')}
       className="group block rounded-md overflow-hidden bg-cream-50 border border-cream-300 hover:border-ink-700 hover:shadow-md transition-all"
       aria-label={ariaLabel}
     >

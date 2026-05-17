@@ -29,20 +29,10 @@
     "categories": {
       "worksheets": "Arbeitsblätter",
       "apps": "Arbeitsblatt-Generatoren",
-      "teachingPackages": "Unterrichtspläne",
       "interactive": "Interaktiv",
-      "strands": {
-        "numeracy": "Numeracy",
-        "literacy": "Literacy",
-        "vocabulary": "Wortschatz",
-        "worldKnowledge": "Sachwissen",
-        "logic": "Logik",
-        "sel": "Sozial-emotional"
-      },
       "browseAll": {
         "worksheets": "Alle Arbeitsblätter",
         "apps": "Alle Arbeitsblatt-Generatoren",
-        "teachingPackages": "Alle Unterrichtspläne",
         "interactive": "Alle interaktiven"
       }
     }
@@ -73,11 +63,6 @@
         "title": "Arbeitsblatt-Generatoren",
         "description": "29 Arbeitsblatt-Generatoren, die sowohl druckbare PDFs als auch interaktive Aktivitäten erstellen. Wählen Sie Thema, Motiv und Sprache — den Rest übernehmen die Apps.",
         "cta": "Apps öffnen"
-      },
-      "teachingPackages": {
-        "title": "Unterrichtspläne",
-        "description": "Sofort einsetzbare Unterrichtspläne, gegliedert nach Lernbereichen — Mathematik, Literacy, Wortschatz, Sachwissen, Logik und sozial-emotionales Lernen.",
-        "cta": "Unterrichtspläne durchsuchen"
       },
       "interactive": {
         "title": "Interaktive Arbeitsblätter",
@@ -146,10 +131,6 @@
     "subscription": {
       "sectionTitle": "Unbegrenzter Zugriff für 69 $ pro Jahr.",
       "intro": "2 kostenlose Downloads pro Tag — über unsere Deck-Bibliothek und unsere Arbeitsblatt-Generatoren hinweg. Mit dem Abonnement erhalten Sie unbegrenzte Downloads, unbegrenzte App-Nutzung und die vollständige Bibliothek mit Unterrichtsentwürfen und Themenpaketen.",
-      "lessonPlans": {
-        "title": "Fertige Unterrichtsentwürfe",
-        "body": "Eine wachsende Bibliothek vorgefertigter Unterrichtsentwürfe, jeder mit konkreten Decks verbunden. Jeder Entwurf folgt einer einheitlichen vierschrittigen Struktur nach CLIL-Prinzipien — Aufwärmen, Inhalt-und-Sprache-Aktivität, Sprachgerüst und Übung sowie Abschluss — sodass Sie die Form einmal lernen und dann einfach unterrichten. Die Entwürfe werden pro Sprache nativ verfasst, nicht automatisch übersetzt, und spiegeln die Konventionen jedes Klassenraums, für den sie geschrieben werden."
-      },
       "themedBundles": {
         "title": "Themenpakete für die wiederkehrenden Anlässe",
         "body": "Handverlesene Pakete für Schulanfang, Halloween, Winterferien, Valentinstag, Schuljahresende und Wiederholung am Einheitsende. Jedes Paket verbindet eine zusammenhängende Auswahl von Decks mit einem Unterrichtsentwurf, der für das Thema dieses Pakets geschrieben wurde. Heft drucken, Plan folgen, die Woche unterrichten. Im Laufe des Jahres kommen neue Pakete hinzu, alle im Abonnement enthalten."
@@ -1239,216 +1220,5 @@
     "errorClipboard": "Zugriff auf die Zwischenablage nicht möglich. Bitte den Link markieren und manuell kopieren.",
     "bulkResultsTitle": "{count, plural, =1 {1 Teilen-Link} other {# Teilen-Links}}",
     "bulkResultsSkipped": "{count, plural, =1 {1 Deck wurde übersprungen (nicht veröffentlicht)} other {# Decks wurden übersprungen (nicht veröffentlicht)}}"
-  },
-  "lessonPlanReader": {
-    "metadata": {
-      "title": "Unterrichtsentwurf | LessonCraftStudio",
-      "description": "Ein fertiger Unterrichtsentwurf für zweisprachige K-3-Klassen."
-    },
-    "loading": "Wird geladen…",
-    "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
-    "notFoundTitle": "Unterrichtsentwurf nicht gefunden",
-    "notFoundBody": "Für dieses Thema in dieser Sprache liegt noch kein Unterrichtsentwurf vor.",
-    "totalDuration": "Insgesamt {minutes} Minuten",
-    "sectionDuration": "{minutes} Min.",
-    "section": {
-      "warmup": "Aufwärmung",
-      "contentActivity": "Inhalt-Sprache-Aktivität",
-      "scaffold": "Sprachgerüst und Übung",
-      "closure": "Abschluss"
-    },
-    "gate": {
-      "subscribePromptTitle": "Unterrichtsentwürfe sind Teil des Abonnements",
-      "subscribePromptBody": "Vorgefertigte Unterrichtsentwürfe, mit unseren Decks verbunden, für zweisprachige K-3-Klassen geschrieben — eines der Werkzeuge, die das Abonnement für 69 USD/Jahr freischaltet.",
-      "subscribeCta": "Zum Abonnement",
-      "signInPromptTitle": "Melden Sie sich an, um diesen Unterrichtsentwurf zu lesen",
-      "signInPromptBody": "Unterrichtsentwürfe sind Teil der Abonnenten-Bibliothek. Melden Sie sich mit Ihrem Abonnenten-Konto an, um zu lesen.",
-      "signInCta": "Anmelden"
-    },
-    "topicReference": {
-      "heading": "Unterrichtsentwurf verfügbar",
-      "duration": "Insgesamt {minutes} Minuten",
-      "readFullCta": "Den vollständigen Entwurf lesen"
-    }
-  },
-  "flashcardReader": {
-    "metadata": {
-      "title": "Lernkarten | LessonCraftStudio",
-      "description": "Mehrsprachige K-3-Wortschatz-Lernkarten — digitales Deck + druckbare PDFs."
-    },
-    "loading": "Wird geladen…",
-    "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
-    "deck": {
-      "title": "Lernkarten · {packageSlug}",
-      "subtitle": "K-3-Wortschatz-Deck — digitale und Druckformate",
-      "iframeTitle": "Lernkarten-Deck-Viewer",
-      "printSection": {
-        "heading": "Druckformate",
-        "body": "Laden Sie das druckbare PDF herunter. Entlang der Eckmarkierungen schneiden; für wiederholten Klassenraumgebrauch laminieren.",
-        "print6up": "PDF mit 6 Karten pro Seite herunterladen",
-        "print9up": "PDF mit 9 Karten pro Seite herunterladen"
-      }
-    },
-    "freeTier": {
-      "banner": {
-        "title": "Dies ist ein kostenloses Lernkarten-Paket",
-        "body": "Drei Lernkarten-Pakete sind kostenlos zum Ausprobieren. Die vollständige Bibliothek mit ~100 Paketen in allen 11 Plattformsprachen ist Teil des Abonnements für 69 USD/Jahr.",
-        "cta": "Abonnement ansehen"
-      }
-    },
-    "paywall": {
-      "title": "Lernkarten sind Teil des Abonnements",
-      "body": "Das Lernkarten-Paket {packageSlug} ist im LessonCraftStudio-Abonnement für 69 USD/Jahr enthalten. Drei Pakete sind kostenlos zum Ausprobieren — siehe unten.",
-      "freeTierTeaser": {
-        "heading": "Probieren Sie zuerst die kostenlosen Pakete",
-        "body": "Drei Lernkarten-Pakete sind für alle kostenlos — testen Sie das Sky+v2-Design in Mathematik, Lese- und Naturwissenschaft:",
-        "packageLink": "Lernkarten {slug} öffnen"
-      },
-      "subscribeCta": "Zum Abonnement",
-      "signInPrompt": "Bereits Abonnent?",
-      "signInCta": "Anmelden"
-    }
-  },
-  "teachingPackagePage": {
-    "breadcrumb": {
-      "home": "Startseite",
-      "teachingPackages": "Lehrpakete"
-    },
-    "header": {
-      "eyebrow": "Lehrpaket",
-      "duration": "{minutes} Min. Einheit"
-    },
-    "taxonomy": {
-      "heading": "Was hier gelernt wird"
-    },
-    "structure": {
-      "heading": "Stundenaufbau",
-      "phaseDuration": "{minutes} Min.",
-      "phaseLabel": {
-        "warmup": "Einstieg",
-        "contentActivity": "Hauptaktivität",
-        "scaffold": "Vertiefung + Stationen",
-        "closure": "Abschluss"
-      }
-    },
-    "exercises": {
-      "heading": "Arbeitsblätter in diesem Paket",
-      "subheading": "{count} interaktive Arbeitsblätter, die Ihre Klasse durchgeht.",
-      "sampleLabel": "Beispiel",
-      "openDeck": "Beispiel-Deck öffnen",
-      "viewTopic": "Themenseite ansehen",
-      "noSamplePreview": "Noch kein Beispiel veröffentlicht",
-      "role": {
-        "introduction": "Einführung",
-        "practice": "Übung",
-        "consolidation": "Festigung",
-        "assessment": "Lernkontrolle"
-      }
-    },
-    "materials": {
-      "heading": "Druckmaterialien",
-      "subheading": "{count} druckbare Elemente für den Klassenraum",
-      "availableBelow": "Unten verfügbar",
-      "status": {
-        "shipped": "Verfügbar",
-        "deferred": "Zurückgestellt",
-        "substrate-gap": "Generator ausstehend"
-      },
-      "statusDescription": {
-        "deferred": "Material-Spezifikation vorhanden; Generator für einen späteren Commission-Zyklus zurückgestellt.",
-        "substrate-gap": "Material-Spezifikation existiert in materials-catalog.json; Laufzeit-Generator noch nicht erstellt."
-      },
-      "role": {
-        "vocabulary-anchor": "Wortschatz-Anker",
-        "production-prompt": "Produktions-Impuls",
-        "language-frame": "Sprachgerüst",
-        "concrete-manipulative": "Konkretes Material",
-        "home-school-bridge": "Schule-Familie-Brücke",
-        "teacher-reference": "Lehrkraft-Referenz",
-        "vocabulary-game": "Wortschatz-Spiel"
-      }
-    },
-    "assessment": {
-      "heading": "Lernkontroll-Kriterien"
-    },
-    "flashcards": {
-      "heading": "Lernkarten",
-      "subheading": "Druckbare Lernkarten für Wortschatzübungen – ein Bild und ein Wort pro Karte."
-    },
-    "pictureCards": {
-      "heading": "Bildkarten",
-      "subheading": "Reine Bildkarten zum Ausschneiden und Verwenden im Klassenraum.",
-      "description": "Drucken, an den gestrichelten Linien ausschneiden und für Zähl-, Sortier- und Wortschatzspiele einsetzen.",
-      "downloadButton": "{count}er-PDF herunterladen"
-    },
-    "numeralCards": {
-      "heading": "Zahlenkarten",
-      "subheading": "Zahlenkarten von 1 bis 10 mit dem Zahlwort in der Sprache, die Ihre Kinder lernen.",
-      "description": "Drucken, an den gestrichelten Linien ausschneiden und für Zählübungen, Zahlerkennung und das Zuordnen von Zahlen zu Mengen verwenden.",
-      "downloadButton": "{count}er-PDF herunterladen"
-    },
-    "manipulativeCutOuts": {
-      "heading": "Ausschneide-Plättchen",
-      "subheading": "Kleine Bildplättchen, die Ihre Kinder ausschneiden und beim Zählen, Sortieren und Gruppieren in die Hand nehmen.",
-      "description": "Drucken, an den gestrichelten Linien ausschneiden und Ihre Kinder die kleinen Plättchen beim handlungsorientierten Zählen und Sortieren verwenden lassen.",
-      "downloadButton": "Ausschneide-PDF herunterladen"
-    },
-    "answerKey": {
-      "heading": "Lehrkraft-Referenz",
-      "subheading": "Eine kompakte Übersicht für Sie – mit Stundenverlauf, Materialliste und worauf Sie beim Kontrollieren der Kinderarbeit achten.",
-      "description": "Drucken Sie das vor der Stunde für sich selbst aus. Es zeigt Ihnen die Übungen, die Sie durchgehen, die Druckmaterialien, die Sie verwenden, Ihre Unterrichtsnotizen und was bei jeder Aktivität als richtige Antwort zählt.",
-      "downloadButton": "Lehrkraft-Referenz-PDF herunterladen"
-    },
-    "parentLetter": {
-      "heading": "Elternbrief",
-      "subheading": "Ein einseitiger Brief, den Sie nach Hause mitgeben können, damit Familien wissen, woran ihr Kind gearbeitet hat, und gemeinsam üben können.",
-      "description": "Drucken Sie diesen Brief aus und geben Sie ihn am Ende der Woche mit nach Hause. Der Brieftext ist in der Familiensprache geschrieben; die Bilder sind in der Sprache beschriftet, die Ihre Kinder lernen, damit die Familie die neuen Wörter gemeinsam aussprechen kann. Mit einer Zeile für Ihre Unterschrift.",
-      "downloadButton": "Elternbrief-PDF herunterladen"
-    },
-    "sentenceStrips": {
-      "heading": "Satzstreifen",
-      "subheading": "Druckbare Streifen mit einem Bild und einem vollständigen Satz in der Sprache, die Ihre Kinder lernen – einer pro Streifen.",
-      "description": "Drucken, an den gestrichelten Linien ausschneiden und an der Steckwand, in der Kleingruppenarbeit oder zum Nachschreiben einsetzen. Jeder Streifen zeigt ein Bild und einen vollständigen Satz in der Sprache, die Ihre Kinder lernen, mit einer optionalen Schreibzeile darunter zum Mitschreiben.",
-      "downloadButton": "Satzstreifen-PDF herunterladen"
-    },
-    "matchingMat": {
-      "heading": "Zuordnungsmatte",
-      "subheading": "Einseitige Matte mit Bildern links und den passenden Wörtern rechts – Ihre Kinder verbinden die Paare mit Linien oder legen Marker darauf.",
-      "description": "Drucken Sie eine Matte pro Kind (oder Paar) aus. Die Bilder links und die Wörter rechts stehen in unterschiedlicher Reihenfolge – Ihr Kind findet das passende Wort zu jedem Bild und verbindet sie mit einer Bleistiftlinie, einem Stück Schnur oder kleinen Markern. Die größeren Felder im Vergleich zum normalen Zuordnungsblatt machen die Matte zu einer guten Teppich- oder Partnerstation.",
-      "downloadButton": "Zuordnungsmatten-PDF herunterladen"
-    },
-    "vocabularyTracingStrips": {
-      "heading": "Wörter-Nachspur-Streifen",
-      "subheading": "Streifen mit einem Bild, einem hellgrauen Wort zum Nachspuren und einer leeren Linie darunter – Ihre Kinder spuren nach und schreiben das Wort dann selbst.",
-      "description": "Drucken Sie ein Blatt pro Kind aus. Jeder Streifen zeigt ein Bild, das passende Wort in hellem Grau zum Nachspuren und eine leere Linie darunter, auf die das Kind das Wort selbst schreibt. Gut geeignet für die Schreibstation oder als Übungsblatt für zu Hause. Passend für Kindergarten- und Erstklasskinder, die an der Buchstabenformung arbeiten und gleichzeitig Wortschatz lernen.",
-      "downloadButton": "Wörter-Nachspur-Streifen herunterladen"
-    },
-    "locales": {
-      "heading": "Verfügbare Sprachen",
-      "subheading": "Dieses Lehrpaket hat Inhalte in den folgenden Sprachen."
-    },
-    "bundleContext": {
-      "heading": "Erscheint in {count} themenbasierten Bundle(s)",
-      "subheading": "Dieses Lehrpaket gehört zu den folgenden Themenbundles."
-    }
-  },
-  "bundlePage": {
-    "breadcrumb": {
-      "home": "Startseite",
-      "bundles": "Themenbundles"
-    },
-    "header": {
-      "eyebrow": "Themenbundle",
-      "theme": "Thema",
-      "packageCount": "{count} Lehrpakete"
-    },
-    "coherence": {
-      "heading": "Thematischer Zusammenhang"
-    },
-    "packages": {
-      "heading": "Enthaltene Lehrpakete",
-      "subheading": "Jedes Paket unten passt zum vereinenden Thema des Bundles.",
-      "openPackage": "Lehrpaket öffnen"
-    }
   }
 }

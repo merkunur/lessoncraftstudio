@@ -4,7 +4,6 @@ import topicsTaxonomy from '@/config/topics-taxonomy.json';
 import {
   BookOpen,
   Sparkles,
-  GraduationCap,
   Gamepad2,
   ArrowRight,
 } from 'lucide-react';
@@ -70,14 +69,6 @@ export default async function FourCardGrid({ locale }: FourCardGridProps) {
       href: `/${locale}/worksheet-makers/`,
     },
     {
-      key: 'teachingPackages',
-      icon: GraduationCap,
-      title: t('teachingPackages.title'),
-      description: t('teachingPackages.description'),
-      ctaLabel: t('teachingPackages.cta'),
-      href: `/${locale}/teaching-packages/`,
-    },
-    {
       key: 'interactive',
       icon: Gamepad2,
       title: t('interactive.title'),
@@ -98,7 +89,7 @@ export default async function FourCardGrid({ locale }: FourCardGridProps) {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
         {cards.map(card => {
           const Icon = card.icon;
           return (

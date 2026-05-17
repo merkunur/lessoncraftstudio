@@ -79,11 +79,6 @@ const APPS_ANCHOR_KEYS = [
   'big-small',
 ] as const;
 
-// 6 §A.13.37 class-conditional strands for Teaching packages dropdown.
-// Reads as canonical pedagogical lenses, not exercise-type axis-keys.
-type StrandKey = 'numeracy' | 'literacy' | 'vocabulary' | 'worldKnowledge' | 'logic' | 'sel';
-const STRANDS: ReadonlyArray<StrandKey> = ['numeracy', 'literacy', 'vocabulary', 'worldKnowledge', 'logic', 'sel'];
-
 function resolveAxisSlug(axisKey: string, locale: string): string {
   const taxonomy = topicsTaxonomy as unknown as TaxonomySchema;
   const entry = taxonomy.axes['exercise-type']?.[axisKey];
@@ -98,7 +93,7 @@ function resolveAxisName(axisKey: string, locale: string): string {
 
 // --- Component ---
 
-type CategoryKey = 'worksheets' | 'apps' | 'teachingPackages' | 'interactive';
+type CategoryKey = 'worksheets' | 'apps' | 'interactive';
 
 interface DropdownItem {
   href: string;
@@ -178,10 +173,6 @@ export function CategoryNav({ availableExerciseTypes = [] }: CategoryNavProps) {
     href: `/${locale}/worksheet-makers/#${key}`,
     label: resolveAxisName(key, locale),
   }));
-  const teachingPackagesItems: DropdownItem[] = STRANDS.map(strand => ({
-    href: `/${locale}/teaching-packages/?strand=${strand}`,
-    label: t(`strands.${strand}`),
-  }));
 
   const dropdowns: CategoryDropdown[] = [
     {
@@ -197,13 +188,6 @@ export function CategoryNav({ availableExerciseTypes = [] }: CategoryNavProps) {
       items: appsItems,
       browseAllHref: `/${locale}/worksheet-makers/`,
       browseAllLabel: t('browseAll.apps'),
-    },
-    {
-      key: 'teachingPackages',
-      label: t('teachingPackages'),
-      items: teachingPackagesItems,
-      browseAllHref: `/${locale}/teaching-packages/`,
-      browseAllLabel: t('browseAll.teachingPackages'),
     },
     {
       key: 'interactive',

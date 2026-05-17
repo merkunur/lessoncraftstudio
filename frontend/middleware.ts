@@ -88,7 +88,7 @@ function return410(): NextResponse {
  * Reshelled directories (pricing, about, faq) are deliberately NOT here —
  * they 404 via the route system until new content lands per §17.1.
  */
-const REMOVED_PREFIXES = /^\/(?:[a-z]{2}\/)?(apps|tools|guides|bundles|ideas|start|blog|compare|gallery)(?:\/.*)?$/;
+const REMOVED_PREFIXES = /^\/(?:[a-z]{2}\/)?(apps|tools|guides|bundles|ideas|start|blog|compare|gallery|teaching-packages|lesson-plans|flashcards|themed-bundles)(?:\/.*)?$/;
 
 /**
  * Standalone removed paths (sitemap-related + pre-pivot relics).

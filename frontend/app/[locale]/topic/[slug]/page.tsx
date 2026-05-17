@@ -21,7 +21,6 @@ import {
   TOPIC_PAGE_SIZE,
   TopicSortKey,
 } from '@/lib/topic-decks';
-import { fetchLessonPlanSummaryForTopic } from '@/lib/lesson-plans';
 import VarietyStrip from '@/components/catalog/VarietyStrip';
 import Breadcrumbs from '@/components/catalog/Breadcrumbs';
 import SiblingAxisStrip from '@/components/catalog/SiblingAxisStrip';
@@ -533,14 +532,6 @@ export default async function TopicPage({
   const topicProseForSchema = await getTopicProse(locale, axisKey);
   const schema = buildCollectionSchema(locale, topicName, canonical, decks, topicProseForSchema);
 
-  // Pillar 1 Phase 1b — axis-driven lesson-plan reference. Silent fall-through
-  // when no plan exists for this (axisKey, locale). Renders as preview card
-  // above the deck grid when present. Subscriber-gating UI lives in the
-  // LessonPlanReader at the standalone reader route; topic-page link is
-  // public-facing and the read surface enforces gate.
-  const lessonPlanSummary = await fetchLessonPlanSummaryForTopic(axisKey, locale);
-  const tLessonPlan = await getTranslations({ locale, namespace: 'lessonPlanReader.topicReference' });
-
   return (
     <>
       <script
@@ -575,32 +566,6 @@ export default async function TopicPage({
           intent1={intentForAxis(axis)}
           topicName1={topicName}
         />
-
-        {lessonPlanSummary && (
-          <section className="mb-10 p-6 rounded-lg bg-cream-100 border border-cream-300">
-            <h2 className="font-display text-xl font-semibold text-ink-900 mb-2">
-              {tLessonPlan('heading')}
-            </h2>
-            <p className="text-base text-ink-800 mb-3">
-              <span className="font-medium">{lessonPlanSummary.title}</span>
-              {' '}
-              <span className="text-sm text-ink-500">
-                · {tLessonPlan('duration', { minutes: lessonPlanSummary.durationMinutes })}
-              </span>
-            </p>
-            {lessonPlanSummary.warmupExcerpt && (
-              <p className="text-sm text-ink-700 mb-4">
-                {lessonPlanSummary.warmupExcerpt}
-              </p>
-            )}
-            <a
-              href={`/${locale}/lesson-plans/${params.slug}/`}
-              className="inline-flex items-center text-sm font-medium text-terracotta-500 hover:text-terracotta-600"
-            >
-              {tLessonPlan('readFullCta')} →
-            </a>
-          </section>
-        )}
 
         {/* Arc 6b — Filter sidebar (left rail desktop) + main content
             (sort, active chips, deck grid, pagination). Mobile: filter

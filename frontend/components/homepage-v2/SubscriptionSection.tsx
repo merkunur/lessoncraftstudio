@@ -1,9 +1,9 @@
 import { getTranslations } from 'next-intl/server';
 import SubscribeCTA from './SubscribeCTA';
 
-// Section 5 — Subscription per HOMEPAGE-COPY.md + HOMEPAGE-IMPLEMENTATION-PROMPT.md §5.5
-// + SUBSCRIPTION-SCOPE.md three-pillar structure (lesson plans, themed bundles,
-// workspace tooling). Server-rendered shell with the SubscribeCTA as a client child.
+// Section 5 — Subscription per HOMEPAGE-COPY.md + HOMEPAGE-IMPLEMENTATION-PROMPT.md §5.5.
+// 2-pillar structure post lesson-plans-domain removal (2026-05-17): themed bundles
+// + workspace tooling. Server-rendered shell with the SubscribeCTA as a client child.
 //
 // HOMEPAGE_SUBSCRIBE_MODE env var (read here at static-generation time, passed into
 // SubscribeCTA as a prop because SubscribeCTA is a client component and can't read
@@ -24,7 +24,6 @@ export default async function SubscriptionSection({ locale }: { locale: string }
   const t = await getTranslations({ locale, namespace: 'homepage.subscription' });
 
   const pillars = [
-    { key: 'lessonPlans', title: t('lessonPlans.title'), body: t('lessonPlans.body') },
     { key: 'themedBundles', title: t('themedBundles.title'), body: t('themedBundles.body') },
     { key: 'workspace', title: t('workspace.title'), body: t('workspace.body') },
   ];
@@ -41,7 +40,7 @@ export default async function SubscriptionSection({ locale }: { locale: string }
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 mb-16">
           {pillars.map(pillar => (
             <div key={pillar.key}>
               <h3 className="font-display font-semibold text-xl text-ink-900 mb-3">

@@ -28,20 +28,10 @@
     "categories": {
       "worksheets": "Hojas de trabajo",
       "apps": "Creadores de hojas",
-      "teachingPackages": "Planes de clase",
       "interactive": "Interactivo",
-      "strands": {
-        "numeracy": "Numeración",
-        "literacy": "Alfabetización",
-        "vocabulary": "Vocabulario",
-        "worldKnowledge": "Conocimiento del mundo",
-        "logic": "Lógica",
-        "sel": "Socioemocional"
-      },
       "browseAll": {
         "worksheets": "Ver todas las hojas",
         "apps": "Todos los creadores",
-        "teachingPackages": "Todos los planes",
         "interactive": "Todas las interactivas"
       }
     }
@@ -72,11 +62,6 @@
         "title": "Creadores de hojas",
         "description": "29 creadores de hojas que generan tanto PDFs imprimibles como actividades interactivas. Elija el tema, el motivo y la lengua — las apps hacen el resto.",
         "cta": "Abrir las apps"
-      },
-      "teachingPackages": {
-        "title": "Planes de clase",
-        "description": "Planes de clase listos para enseñar, organizados por área — matemática, alfabetización, vocabulario, conocimiento del mundo, lógica y socioemocional.",
-        "cta": "Ver planes de clase"
       },
       "interactive": {
         "title": "Hojas interactivas",
@@ -145,10 +130,6 @@
     "subscription": {
       "sectionTitle": "Acceso ilimitado por $69 al año.",
       "intro": "2 descargas gratis al día — entre nuestra biblioteca de decks y los creadores de hojas. Suscríbase para obtener descargas ilimitadas, uso ilimitado de las apps y la biblioteca completa de planes de clase y paquetes temáticos.",
-      "lessonPlans": {
-        "title": "Planes de clase listos para usar",
-        "body": "Una biblioteca creciente de planes de clase ya escritos, cada uno enlazado con decks concretos. Cada plan sigue una estructura coherente de cuatro pasos basada en principios CLIL — calentamiento, actividad de contenido y lengua, andamiaje lingüístico y práctica, y cierre — para que aprenda la forma una vez y luego solo enseñe. Los planes se escriben de forma nativa por lengua, no traducidos automáticamente, y reflejan las convenciones de cada aula para la que se escriben."
-      },
       "themedBundles": {
         "title": "Paquetes temáticos para los momentos que vuelven",
         "body": "Paquetes hechos a mano para regreso a clases, Halloween, vacaciones de invierno, San Valentín, fin de curso y repaso de fin de unidad. Cada paquete combina un conjunto coherente de decks con un plan de clase escrito para el tema de ese paquete. Imprima el cuadernillo, siga el plan, enseñe la semana. Se añaden paquetes nuevos a lo largo del año, todos incluidos en la suscripción."
@@ -1431,217 +1412,6 @@
         "name": "Piezas faltantes",
         "description": "Encuentra las piezas que faltan"
       }
-    }
-  },
-  "lessonPlanReader": {
-    "metadata": {
-      "title": "Plan de clase | LessonCraftStudio",
-      "description": "Un plan de clase listo para usar, escrito para aulas K-3 bilingües."
-    },
-    "loading": "Cargando…",
-    "errorGeneric": "Algo salió mal. Por favor, inténtelo de nuevo.",
-    "notFoundTitle": "Plan de clase no encontrado",
-    "notFoundBody": "Aún no hay un plan de clase para este tema en este idioma.",
-    "totalDuration": "{minutes} minutos en total",
-    "sectionDuration": "{minutes} min",
-    "section": {
-      "warmup": "Calentamiento",
-      "contentActivity": "Actividad de contenido y lengua",
-      "scaffold": "Andamiaje lingüístico y práctica",
-      "closure": "Cierre"
-    },
-    "gate": {
-      "subscribePromptTitle": "Los planes de clase forman parte de la suscripción",
-      "subscribePromptBody": "Planes de clase ya escritos enlazados con nuestros decks, escritos para aulas K-3 bilingües — una de las herramientas que la suscripción de $69 al año desbloquea.",
-      "subscribeCta": "Ir a la suscripción",
-      "signInPromptTitle": "Inicie sesión para leer este plan de clase",
-      "signInPromptBody": "Los planes de clase forman parte de la biblioteca de suscriptores. Inicie sesión con su cuenta de suscriptor para leer.",
-      "signInCta": "Iniciar sesión"
-    },
-    "topicReference": {
-      "heading": "Plan de clase disponible",
-      "duration": "{minutes} minutos en total",
-      "readFullCta": "Leer el plan completo"
-    }
-  },
-  "flashcardReader": {
-    "metadata": {
-      "title": "Tarjetas didácticas | LessonCraftStudio",
-      "description": "Tarjetas didácticas de vocabulario K-3 multilingüe — baraja digital + PDFs imprimibles."
-    },
-    "loading": "Cargando…",
-    "errorGeneric": "Algo salió mal. Por favor, inténtelo de nuevo.",
-    "deck": {
-      "title": "Tarjetas didácticas · {packageSlug}",
-      "subtitle": "Baraja de vocabulario K-3 — formatos digital e impreso",
-      "iframeTitle": "Visor de baraja de tarjetas didácticas",
-      "printSection": {
-        "heading": "Formatos para imprimir",
-        "body": "Descargue el PDF imprimible. Corte siguiendo las guías de las esquinas; plastifique para uso repetido en el aula.",
-        "print6up": "Descargar PDF de 6 tarjetas por página",
-        "print9up": "Descargar PDF de 9 tarjetas por página"
-      }
-    },
-    "freeTier": {
-      "banner": {
-        "title": "Este es un paquete de tarjetas didácticas gratuito",
-        "body": "Tres paquetes de tarjetas didácticas son gratuitos para probar. La biblioteca completa de ~100 paquetes en los 11 idiomas de la plataforma es parte de la suscripción de 69 USD/año.",
-        "cta": "Ver la suscripción"
-      }
-    },
-    "paywall": {
-      "title": "Las tarjetas didácticas son parte de la suscripción",
-      "body": "El paquete de tarjetas didácticas {packageSlug} está incluido en la suscripción de LessonCraftStudio de 69 USD/año. Tres paquetes son gratuitos para probar sin suscribirse — vea más abajo.",
-      "freeTierTeaser": {
-        "heading": "Pruebe primero los paquetes gratuitos",
-        "body": "Tres paquetes de tarjetas didácticas son gratuitos para todos — pruebe el diseño Sky+v2 en matemáticas, alfabetización y ciencias:",
-        "packageLink": "Abrir las tarjetas {slug}"
-      },
-      "subscribeCta": "Ir a suscribirse",
-      "signInPrompt": "¿Ya es suscriptor?",
-      "signInCta": "Iniciar sesión"
-    }
-  },
-  "teachingPackagePage": {
-    "breadcrumb": {
-      "home": "Inicio",
-      "teachingPackages": "Paquetes didácticos"
-    },
-    "header": {
-      "eyebrow": "Paquete didáctico",
-      "duration": "Sesión de {minutes} min"
-    },
-    "taxonomy": {
-      "heading": "Qué se enseña aquí"
-    },
-    "structure": {
-      "heading": "Estructura de la sesión",
-      "phaseDuration": "{minutes} min",
-      "phaseLabel": {
-        "warmup": "Calentamiento",
-        "contentActivity": "Actividad central",
-        "scaffold": "Andamiaje + rotación de estaciones",
-        "closure": "Cierre"
-      }
-    },
-    "exercises": {
-      "heading": "Hojas de trabajo en este paquete",
-      "subheading": "{count} hojas de trabajo interactivas que su clase trabajará.",
-      "sampleLabel": "Muestra",
-      "openDeck": "Abrir la baraja de muestra",
-      "viewTopic": "Ver la página del tema",
-      "noSamplePreview": "Aún no se ha publicado una muestra",
-      "role": {
-        "introduction": "Introducción",
-        "practice": "Práctica",
-        "consolidation": "Consolidación",
-        "assessment": "Evaluación"
-      }
-    },
-    "materials": {
-      "heading": "Materiales imprimibles",
-      "subheading": "{count} elementos imprimibles para uso en clase",
-      "availableBelow": "Disponible abajo",
-      "status": {
-        "shipped": "Disponible",
-        "deferred": "Aplazado",
-        "substrate-gap": "Generador pendiente"
-      },
-      "statusDescription": {
-        "deferred": "Existe la especificación del material; el generador está aplazado para un ciclo de comisión posterior.",
-        "substrate-gap": "La especificación del material existe en materials-catalog.json; el generador en tiempo de ejecución aún no se ha creado."
-      },
-      "role": {
-        "vocabulary-anchor": "Anclaje de vocabulario",
-        "production-prompt": "Estímulo de producción",
-        "language-frame": "Marco lingüístico",
-        "concrete-manipulative": "Material manipulable concreto",
-        "home-school-bridge": "Puente casa-escuela",
-        "teacher-reference": "Referencia del docente",
-        "vocabulary-game": "Juego de vocabulario"
-      }
-    },
-    "assessment": {
-      "heading": "Criterios de evaluación"
-    },
-    "flashcards": {
-      "heading": "Tarjetas de vocabulario",
-      "subheading": "Tarjetas imprimibles para practicar vocabulario: una imagen y una palabra por tarjeta."
-    },
-    "pictureCards": {
-      "heading": "Tarjetas con imágenes",
-      "subheading": "Tarjetas solo con imágenes que su clase puede recortar y manipular.",
-      "description": "Imprima, recorte por las líneas punteadas y use las tarjetas para contar, clasificar y jugar con vocabulario.",
-      "downloadButton": "Descargar PDF de {count}"
-    },
-    "numeralCards": {
-      "heading": "Tarjetas de números",
-      "subheading": "Tarjetas de números del 1 al 10 con la palabra-número en el idioma que sus niños están aprendiendo.",
-      "description": "Imprima, recorte por las líneas punteadas y use las tarjetas para contar, reconocer números y asociar números con cantidades.",
-      "downloadButton": "Descargar PDF de {count}"
-    },
-    "manipulativeCutOuts": {
-      "heading": "Fichas recortables",
-      "subheading": "Pequeñas fichas con imágenes que sus niños recortan y manipulan para contar, clasificar y agrupar.",
-      "description": "Imprima, recorte por las líneas punteadas y deje que sus niños manipulen las pequeñas fichas para trabajo práctico de conteo y clasificación.",
-      "downloadButton": "Descargar PDF de recortables"
-    },
-    "answerKey": {
-      "heading": "Referencia del docente",
-      "subheading": "Una hoja de referencia para usted: el esquema de la lección, la lista de materiales y qué observar al revisar el trabajo de sus niños.",
-      "description": "Imprima esta hoja para usted antes de la clase. Le muestra los ejercicios que va a trabajar, los materiales que va a usar, sus notas pedagógicas y qué se considera una respuesta correcta en cada actividad.",
-      "downloadButton": "Descargar referencia del docente PDF"
-    },
-    "parentLetter": {
-      "heading": "Carta para familias",
-      "subheading": "Una carta de una página que puede enviar a casa para que las familias sepan en qué trabajó su hijo o hija y puedan practicar juntos.",
-      "description": "Imprima esta carta y envíela a casa al final de la semana. El texto está escrito en el idioma del hogar; las imágenes están etiquetadas en el idioma que sus niños están aprendiendo, para que la familia pueda decir las palabras nuevas juntos. Incluye una línea para su firma.",
-      "downloadButton": "Descargar carta para familias PDF"
-    },
-    "sentenceStrips": {
-      "heading": "Tiras de oraciones",
-      "subheading": "Tiras imprimibles con una imagen y una oración completa en el idioma que sus niños están aprendiendo, una por tira.",
-      "description": "Imprima, recorte por las líneas punteadas y use las tiras en el cuadro de bolsillo, en lectura en grupo pequeño o para práctica de copiar y trazar. Cada tira muestra una imagen y una oración completa en el idioma que sus niños están aprendiendo, con una línea opcional debajo para que su hijo o hija escriba la oración.",
-      "downloadButton": "Descargar tiras de oraciones PDF"
-    },
-    "matchingMat": {
-      "heading": "Tablero de emparejamiento",
-      "subheading": "Tablero de una página con imágenes a la izquierda y las palabras correspondientes a la derecha — sus niños trazan líneas o colocan fichas para emparejarlas.",
-      "description": "Imprima un tablero por niño (o por pareja). Las imágenes a la izquierda y las palabras a la derecha aparecen en distinto orden — su hijo o hija encuentra la palabra que corresponde a cada imagen y las une con una línea de lápiz, un trozo de cordel o pequeñas fichas. Las celdas más grandes que las de la hoja de emparejamiento habitual hacen que el tablero funcione bien como actividad de alfombra o estación en parejas.",
-      "downloadButton": "Descargar tablero de emparejamiento PDF"
-    },
-    "vocabularyTracingStrips": {
-      "heading": "Tiras para trazar vocabulario",
-      "subheading": "Tiras con una imagen, una palabra para trazar en gris claro y una línea en blanco debajo — sus niños trazan y luego escriben la palabra por su cuenta.",
-      "description": "Imprima una hoja por niño. Cada tira muestra una imagen, la palabra correspondiente en gris claro para trazar, y una línea en blanco debajo para escribir la palabra de manera independiente. Útil en una estación de escritura o como hoja de práctica para llevar a casa. Apropiada para niños de jardín de infantes y primer grado que trabajan en la formación de letras mientras aprenden vocabulario.",
-      "downloadButton": "Descargar tiras para trazar PDF"
-    },
-    "locales": {
-      "heading": "Idiomas disponibles",
-      "subheading": "Este paquete didáctico tiene contenido creado en los siguientes idiomas."
-    },
-    "bundleContext": {
-      "heading": "Aparece en {count} bundle(s) temático(s)",
-      "subheading": "Este paquete didáctico forma parte de los siguientes paquetes temáticos."
-    }
-  },
-  "bundlePage": {
-    "breadcrumb": {
-      "home": "Inicio",
-      "bundles": "Bundles temáticos"
-    },
-    "header": {
-      "eyebrow": "Bundle temático",
-      "theme": "Tema",
-      "packageCount": "{count} paquetes didácticos"
-    },
-    "coherence": {
-      "heading": "Coherencia temática"
-    },
-    "packages": {
-      "heading": "Paquetes didácticos incluidos",
-      "subheading": "Cada paquete a continuación se relaciona con el tema unificador del bundle.",
-      "openPackage": "Abrir el paquete didáctico"
     }
   }
 }

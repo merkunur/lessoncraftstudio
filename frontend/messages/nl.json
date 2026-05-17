@@ -28,20 +28,10 @@
     "categories": {
       "worksheets": "Werkbladen",
       "apps": "Werkblad-makers",
-      "teachingPackages": "Lesplannen",
       "interactive": "Interactief",
-      "strands": {
-        "numeracy": "Rekenen",
-        "literacy": "Geletterdheid",
-        "vocabulary": "Woordenschat",
-        "worldKnowledge": "Wereldoriëntatie",
-        "logic": "Logica",
-        "sel": "Sociaal-emotioneel"
-      },
       "browseAll": {
         "worksheets": "Alle werkbladen",
         "apps": "Alle werkblad-makers",
-        "teachingPackages": "Alle lesplannen",
         "interactive": "Alle interactieve"
       }
     }
@@ -72,11 +62,6 @@
         "title": "Werkblad-makers",
         "description": "29 werkblad-makers die zowel afdrukbare PDF's als interactieve activiteiten genereren. Kies onderwerp, thema en taal — de apps doen de rest.",
         "cta": "Open de apps"
-      },
-      "teachingPackages": {
-        "title": "Lesplannen",
-        "description": "Direct bruikbare lesplannen, geordend per leerlijn — rekenen, geletterdheid, woordenschat, wereldoriëntatie, logica en sociaal-emotioneel.",
-        "cta": "Bekijk lesplannen"
       },
       "interactive": {
         "title": "Interactieve werkbladen",
@@ -145,10 +130,6 @@
     "subscription": {
       "sectionTitle": "Onbeperkte toegang voor $69 per jaar.",
       "intro": "2 gratis downloads per dag — verdeeld over onze deck-bibliotheek en werkblad-makers. Neem een abonnement voor onbeperkt downloaden, onbeperkt app-gebruik en de volledige bibliotheek met lesplannen en themapakketten.",
-      "lessonPlans": {
-        "title": "Kant-en-klare lesplannen",
-        "body": "Een groeiende bibliotheek van vooraf geschreven lesplannen, elk gekoppeld aan concrete decks. Elk plan volgt een consistente vierstapsstructuur op basis van CLIL-principes — opwarming, inhoud-en-taal-activiteit, taalsteun en oefening, en afsluiting — zodat u de vorm één keer leert en daarna gewoon lesgeeft. De plannen worden per taal natief geschreven, niet automatisch vertaald, en weerspiegelen de conventies van elke klas waarvoor ze geschreven zijn."
-      },
       "themedBundles": {
         "title": "Themapakketten voor de momenten die elk jaar terugkomen",
         "body": "Met de hand samengestelde pakketten voor begin van het schooljaar, Halloween, kerstvakantie, Valentijnsdag, einde van het schooljaar en herhaling aan het einde van een thema. Elk pakket combineert een samenhangende reeks decks met een lesplan dat voor het thema van dat pakket is geschreven. Druk het boekje af, volg het plan, geef de week les. Door het jaar heen worden nieuwe pakketten toegevoegd, allemaal inbegrepen in het abonnement."
@@ -1418,217 +1399,6 @@
         "name": "Ontbrekende stukken",
         "description": "Vind de ontbrekende stukken"
       }
-    }
-  },
-  "lessonPlanReader": {
-    "metadata": {
-      "title": "Lesplan | LessonCraftStudio",
-      "description": "Een kant-en-klaar lesplan, geschreven voor tweetalige K-3-klassen."
-    },
-    "loading": "Laden…",
-    "errorGeneric": "Er is iets misgegaan. Probeer het opnieuw.",
-    "notFoundTitle": "Lesplan niet gevonden",
-    "notFoundBody": "Er is nog geen lesplan voor dit onderwerp in deze taal.",
-    "totalDuration": "In totaal {minutes} minuten",
-    "sectionDuration": "{minutes} min.",
-    "section": {
-      "warmup": "Opwarming",
-      "contentActivity": "Inhoud-taal-activiteit",
-      "scaffold": "Taalsteun en oefening",
-      "closure": "Afsluiting"
-    },
-    "gate": {
-      "subscribePromptTitle": "Lesplannen maken deel uit van het abonnement",
-      "subscribePromptBody": "Vooraf geschreven lesplannen gekoppeld aan onze decks, geschreven voor tweetalige K-3-klassen — een van de tools die het abonnement van $69 per jaar ontgrendelt.",
-      "subscribeCta": "Naar abonnement",
-      "signInPromptTitle": "Log in om dit lesplan te lezen",
-      "signInPromptBody": "Lesplannen maken deel uit van de abonnee-bibliotheek. Log in met uw abonnee-account om te lezen.",
-      "signInCta": "Inloggen"
-    },
-    "topicReference": {
-      "heading": "Lesplan beschikbaar",
-      "duration": "In totaal {minutes} minuten",
-      "readFullCta": "Lees het volledige plan"
-    }
-  },
-  "flashcardReader": {
-    "metadata": {
-      "title": "Woordkaarten | LessonCraftStudio",
-      "description": "Meertalige K-3 woordenschat-woordkaarten — digitale deck + afdrukbare PDF's."
-    },
-    "loading": "Laden…",
-    "errorGeneric": "Er is iets misgegaan. Probeer het opnieuw.",
-    "deck": {
-      "title": "Woordkaarten · {packageSlug}",
-      "subtitle": "K-3 woordenschat-deck — digitale en afdrukformaten",
-      "iframeTitle": "Woordkaarten-deck-viewer",
-      "printSection": {
-        "heading": "Afdrukformaten",
-        "body": "Download de afdrukbare PDF. Snijd langs de hoekgeleidingen; lamineer voor herhaald klasgebruik.",
-        "print6up": "PDF met 6 kaarten per pagina downloaden",
-        "print9up": "PDF met 9 kaarten per pagina downloaden"
-      }
-    },
-    "freeTier": {
-      "banner": {
-        "title": "Dit is een gratis woordkaartenpakket",
-        "body": "Drie woordkaartenpakketten zijn gratis te proberen. De volledige bibliotheek met ~100 pakketten in alle 11 platformtalen maakt deel uit van het abonnement van 69 USD/jaar.",
-        "cta": "Abonnement bekijken"
-      }
-    },
-    "paywall": {
-      "title": "Woordkaarten maken deel uit van het abonnement",
-      "body": "Het woordkaartenpakket {packageSlug} is inbegrepen bij het LessonCraftStudio-abonnement van 69 USD/jaar. Drie pakketten zijn gratis te proberen zonder abonnement — zie hieronder.",
-      "freeTierTeaser": {
-        "heading": "Probeer eerst de gratis pakketten",
-        "body": "Drie woordkaartenpakketten zijn gratis voor iedereen — probeer het Sky+v2-ontwerp uit in rekenen, geletterdheid en wetenschap:",
-        "packageLink": "Open de {slug} woordkaarten"
-      },
-      "subscribeCta": "Naar abonnement",
-      "signInPrompt": "Al een abonnee?",
-      "signInCta": "Inloggen"
-    }
-  },
-  "teachingPackagePage": {
-    "breadcrumb": {
-      "home": "Home",
-      "teachingPackages": "Lespakketten"
-    },
-    "header": {
-      "eyebrow": "Lespakket",
-      "duration": "Sessie van {minutes} min"
-    },
-    "taxonomy": {
-      "heading": "Wat hier wordt geleerd"
-    },
-    "structure": {
-      "heading": "Sessiestructuur",
-      "phaseDuration": "{minutes} min",
-      "phaseLabel": {
-        "warmup": "Warming-up",
-        "contentActivity": "Hoofdactiviteit",
-        "scaffold": "Verdieping + stationrotatie",
-        "closure": "Afsluiting"
-      }
-    },
-    "exercises": {
-      "heading": "Werkbladen in dit pakket",
-      "subheading": "{count} interactieve werkbladen die uw klas doorneemt.",
-      "sampleLabel": "Voorbeeld",
-      "openDeck": "Voorbeelddeck openen",
-      "viewTopic": "Themapagina bekijken",
-      "noSamplePreview": "Nog geen voorbeeld gepubliceerd",
-      "role": {
-        "introduction": "Introductie",
-        "practice": "Oefening",
-        "consolidation": "Verdieping",
-        "assessment": "Evaluatie"
-      }
-    },
-    "materials": {
-      "heading": "Afdrukbare materialen",
-      "subheading": "{count} afdrukbare items voor klassikaal gebruik",
-      "availableBelow": "Hieronder beschikbaar",
-      "status": {
-        "shipped": "Beschikbaar",
-        "deferred": "Uitgesteld",
-        "substrate-gap": "Generator in behandeling"
-      },
-      "statusDescription": {
-        "deferred": "Materiaalspecificatie bestaat; generator uitgesteld naar een latere commissiecyclus.",
-        "substrate-gap": "Materiaalspecificatie bestaat in materials-catalog.json; runtime-generator nog niet gebouwd."
-      },
-      "role": {
-        "vocabulary-anchor": "Woordenschat-anker",
-        "production-prompt": "Productieprikkel",
-        "language-frame": "Taalkader",
-        "concrete-manipulative": "Concreet manipulatief materiaal",
-        "home-school-bridge": "Brug thuis-school",
-        "teacher-reference": "Leerkrachtreferentie",
-        "vocabulary-game": "Woordenschatspel"
-      }
-    },
-    "assessment": {
-      "heading": "Evaluatiecriteria"
-    },
-    "flashcards": {
-      "heading": "Woordkaarten",
-      "subheading": "Afdrukbare woordkaarten om woordenschat te oefenen — één afbeelding en één woord per kaart."
-    },
-    "pictureCards": {
-      "heading": "Beeldkaarten",
-      "subheading": "Kaarten met alleen afbeeldingen die uw klas kan uitknippen en hanteren.",
-      "description": "Druk af, knip langs de stippellijnen en gebruik de kaarten voor tellen, sorteren en woordenschatspelletjes.",
-      "downloadButton": "Download PDF ({count}-up)"
-    },
-    "numeralCards": {
-      "heading": "Getalkaarten",
-      "subheading": "Getalkaarten van 1 tot 10 met het getalwoord in de taal die uw kinderen leren.",
-      "description": "Druk af, knip langs de stippellijnen en gebruik de getalkaarten om te tellen, getallen te herkennen en cijfers aan hoeveelheden te koppelen.",
-      "downloadButton": "Download PDF ({count}-up)"
-    },
-    "manipulativeCutOuts": {
-      "heading": "Uitknip-tegels",
-      "subheading": "Kleine beeldtegels die uw kinderen uitknippen en in de hand nemen om te tellen, sorteren en groeperen.",
-      "description": "Druk af, knip langs de stippellijnen en laat uw kinderen de kleine tegels gebruiken voor praktisch telwerk en sorteren.",
-      "downloadButton": "Download knip-PDF"
-    },
-    "answerKey": {
-      "heading": "Leerkrachtreferentie",
-      "subheading": "Een overzichtsblad voor uzelf: de lesopbouw, de materialenlijst en waar u op let bij het nakijken van het werk van uw kinderen.",
-      "description": "Druk dit blad voor uzelf af vóór de les. Het geeft u de oefeningen die u doorneemt, de afdrukken die u gebruikt, uw lesnotities en wat per activiteit een goed antwoord is.",
-      "downloadButton": "Download leerkrachtreferentie-PDF"
-    },
-    "parentLetter": {
-      "heading": "Ouderbrief",
-      "subheading": "Een brief van één pagina die u mee naar huis kunt geven, zodat families weten waaraan hun kind heeft gewerkt en samen kunnen oefenen.",
-      "description": "Druk deze brief af en geef hem aan het einde van de week mee naar huis. De tekst staat in de thuistaal van het gezin; de afbeeldingen zijn gelabeld in de taal die uw kinderen leren, zodat het gezin de nieuwe woorden samen kan uitspreken. Met een regel voor uw handtekening.",
-      "downloadButton": "Download ouderbrief-PDF"
-    },
-    "sentenceStrips": {
-      "heading": "Zinstroken",
-      "subheading": "Afdrukbare stroken met één afbeelding en één volledige zin in de taal die uw kinderen leren — één per strook.",
-      "description": "Druk af, knip langs de stippellijnen en gebruik de stroken bij de kaartenbak, in klein-groepswerk of voor overschrijf-oefening. Elke strook toont één afbeelding en één volledige zin in de taal die uw kinderen leren, met een optionele regel eronder voor uw kind om de zin op te schrijven.",
-      "downloadButton": "Download zinstroken-PDF"
-    },
-    "matchingMat": {
-      "heading": "Verbindingsmat",
-      "subheading": "Mat van één pagina met afbeeldingen aan de linkerkant en de bijbehorende woorden aan de rechterkant — uw kinderen trekken lijnen of leggen fiches om de paren te vormen.",
-      "description": "Druk één mat per kind af (of per duo). De afbeeldingen links en de woorden rechts staan in een andere volgorde — uw kind zoekt bij elke afbeelding het passende woord en verbindt ze met een potloodlijn, een stukje touw of kleine fiches. De grotere vakken vergeleken met het gewone verbindingsblad maken de mat geschikt als kringactiviteit of als duo-station.",
-      "downloadButton": "Download verbindingsmat-PDF"
-    },
-    "vocabularyTracingStrips": {
-      "heading": "Woorden-overtrekstroken",
-      "subheading": "Stroken met een afbeelding, een lichtgrijs woord om over te trekken en een lege regel eronder — uw kinderen trekken eerst over en schrijven het woord daarna zelf.",
-      "description": "Druk één blad per kind af. Elke strook toont een afbeelding, het bijpassende woord in lichtgrijs om over te trekken en een lege regel eronder waar het kind het woord zelf opschrijft. Geschikt voor een schrijfstation of als oefenblad om mee naar huis te nemen. Past goed bij kleuters en groep-3-kinderen die werken aan lettervormen terwijl ze woordenschat leren.",
-      "downloadButton": "Download overtrekstroken-PDF"
-    },
-    "locales": {
-      "heading": "Beschikbare talen",
-      "subheading": "Dit lespakket heeft inhoud in de volgende talen."
-    },
-    "bundleContext": {
-      "heading": "Komt voor in {count} themabundle(s)",
-      "subheading": "Dit lespakket maakt deel uit van de volgende themabundles."
-    }
-  },
-  "bundlePage": {
-    "breadcrumb": {
-      "home": "Home",
-      "bundles": "Themabundles"
-    },
-    "header": {
-      "eyebrow": "Themabundle",
-      "theme": "Thema",
-      "packageCount": "{count} lespakketten"
-    },
-    "coherence": {
-      "heading": "Thematische samenhang"
-    },
-    "packages": {
-      "heading": "Inbegrepen lespakketten",
-      "subheading": "Elk pakket hieronder past bij het verbindende thema van de bundle.",
-      "openPackage": "Lespakket openen"
     }
   }
 }

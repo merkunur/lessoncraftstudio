@@ -28,20 +28,10 @@
     "categories": {
       "worksheets": "Arbeidsark",
       "apps": "Arbeidsark-generatorer",
-      "teachingPackages": "Undervisningsplaner",
       "interactive": "Interaktivt",
-      "strands": {
-        "numeracy": "Numeracy",
-        "literacy": "Lese- og skriveferdigheter",
-        "vocabulary": "Vokabular",
-        "worldKnowledge": "Omverdenskunnskap",
-        "logic": "Logikk",
-        "sel": "Sosioemosjonelt"
-      },
       "browseAll": {
         "worksheets": "Alle arbeidsark",
         "apps": "Alle generatorer",
-        "teachingPackages": "Alle undervisningsplaner",
         "interactive": "Alle interaktive"
       }
     }
@@ -72,11 +62,6 @@
         "title": "Arbeidsark-generatorer",
         "description": "29 arbeidsark-generatorer som lager både utskrivbare PDF-er og interaktive aktiviteter. Velg emne, tema og språk — appene gjør resten.",
         "cta": "Åpne appene"
-      },
-      "teachingPackages": {
-        "title": "Undervisningsplaner",
-        "description": "Ferdige undervisningsplaner ordnet etter område — matematikk, lese- og skriveferdigheter, vokabular, omverdenskunnskap, logikk og sosioemosjonelt.",
-        "cta": "Bla i undervisningsplaner"
       },
       "interactive": {
         "title": "Interaktive arbeidsark",
@@ -145,10 +130,6 @@
     "subscription": {
       "sectionTitle": "Ubegrenset tilgang for 69 $ i året.",
       "intro": "2 gratis nedlastinger per dag — fordelt mellom deck-biblioteket og arbeidsark-generatorene. Tegn abonnement for ubegrensede nedlastinger, ubegrenset bruk av appene og hele biblioteket med undervisningsplaner og temapakker.",
-      "lessonPlans": {
-        "title": "Ferdige undervisningsopplegg",
-        "body": "Et voksende bibliotek av forhåndsskrevne undervisningsopplegg, hvert enkelt knyttet til spesifikke decks. Hvert opplegg følger en konsekvent firetrinns-struktur bygget på CLIL-prinsipper — oppvarming, innhold-og-språk-aktivitet, språkstillas og øvelse samt avslutning — slik at du lærer formen én gang og deretter bare underviser. Oppleggene skrives nativt per språk, ikke maskinoversatt, og gjenspeiler konvensjonene i hvert klasserom de er skrevet for."
-      },
       "themedBundles": {
         "title": "Temapakker for øyeblikkene som kommer tilbake hvert år",
         "body": "Håndplukkede pakker for skolestart, Halloween, vinterferie, Valentinsdag, skoleårsavslutning og repetisjon ved temaslutt. Hver pakke kombinerer et sammenhengende sett med decks med et undervisningsopplegg skrevet for pakkens tema. Skriv ut heftet, følg opplegget, underviser uka. Nye pakker legges til i løpet av året, alle inkludert i abonnementet."
@@ -1297,25 +1278,6 @@
       "errorGeneric": "Could not load collections. Please try again."
     }
   },
-  "bundlePage": {
-    "breadcrumb": {
-      "home": "Home",
-      "bundles": "Themed bundles"
-    },
-    "header": {
-      "eyebrow": "Themed bundle",
-      "theme": "Theme",
-      "packageCount": "{count} teaching packages"
-    },
-    "coherence": {
-      "heading": "Thematic coherence"
-    },
-    "packages": {
-      "heading": "Composed teaching packages",
-      "subheading": "Each package below pairs with the bundle's unifying theme.",
-      "openPackage": "Open the teaching package"
-    }
-  },
   "collections": {
     "meta": {
       "title": "Your collections | LessonCraftStudio",
@@ -1383,75 +1345,6 @@
       "errorGeneric": "Could not add. Please try again."
     }
   },
-  "flashcardReader": {
-    "metadata": {
-      "title": "Flashcards | LessonCraftStudio",
-      "description": "Multilingual K-3 vocabulary flashcards — digital deck + printable PDFs."
-    },
-    "loading": "Loading…",
-    "errorGeneric": "Something went wrong. Please try again.",
-    "deck": {
-      "title": "Flashcards · {packageSlug}",
-      "subtitle": "K-3 vocabulary deck — digital + print formats",
-      "iframeTitle": "Flashcard deck viewer",
-      "printSection": {
-        "heading": "Print formats",
-        "body": "Download the printable PDF. Cut along the corner guides; laminate for repeated classroom use.",
-        "print6up": "Download 6-up PDF",
-        "print9up": "Download 9-up PDF"
-      }
-    },
-    "freeTier": {
-      "banner": {
-        "title": "This is a free-tier flashcard pack",
-        "body": "Three flashcard packs are free to try. The full library of ~100 packages across all 11 platform languages is part of the $69/year subscription.",
-        "cta": "See the subscription"
-      }
-    },
-    "paywall": {
-      "title": "Flashcards are part of the subscription",
-      "body": "The {packageSlug} flashcard pack is included with the $69/year LessonCraftStudio subscription. Three packs are free to try without subscribing — see below.",
-      "freeTierTeaser": {
-        "heading": "Try the free-tier packs first",
-        "body": "Three flashcard packs are free for everyone — sample the Sky+v2 design across math, literacy, and science:",
-        "packageLink": "Open the {slug} flashcards"
-      },
-      "subscribeCta": "Go to subscribe",
-      "signInPrompt": "Already a subscriber?",
-      "signInCta": "Sign in"
-    }
-  },
-  "lessonPlanReader": {
-    "metadata": {
-      "title": "Lesson plan | LessonCraftStudio",
-      "description": "A ready-to-use lesson plan written for K-3 multilingual classrooms."
-    },
-    "loading": "Loading…",
-    "errorGeneric": "Something went wrong. Please try again.",
-    "notFoundTitle": "Lesson plan not found",
-    "notFoundBody": "No lesson plan exists for this topic in this language yet.",
-    "totalDuration": "{minutes} minutes total",
-    "sectionDuration": "{minutes} min",
-    "section": {
-      "warmup": "Warmup",
-      "contentActivity": "Content-language activity",
-      "scaffold": "Language scaffold and practice",
-      "closure": "Closure"
-    },
-    "gate": {
-      "subscribePromptTitle": "Lesson plans are part of the subscription",
-      "subscribePromptBody": "Pre-written lesson plans paired with our decks, written for K-3 multilingual classrooms — one of the tools the $69/year subscription unlocks.",
-      "subscribeCta": "Go to subscribe",
-      "signInPromptTitle": "Sign in to read this lesson plan",
-      "signInPromptBody": "Lesson plans are part of the subscriber library. Sign in with your subscriber account to read.",
-      "signInCta": "Sign in"
-    },
-    "topicReference": {
-      "heading": "Lesson plan available",
-      "duration": "{minutes} minutes total",
-      "readFullCta": "Read the full plan"
-    }
-  },
   "share": {
     "label": "Share link",
     "singleDeckTitle": "Share this deck",
@@ -1466,117 +1359,6 @@
     "errorClipboard": "Could not access clipboard. Select the link and copy manually.",
     "bulkResultsTitle": "{count, plural, =1 {1 share link} other {# share links}}",
     "bulkResultsSkipped": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
-  },
-  "teachingPackagePage": {
-    "breadcrumb": {
-      "home": "Home",
-      "teachingPackages": "Teaching packages"
-    },
-    "header": {
-      "eyebrow": "Teaching package",
-      "duration": "{minutes} min session"
-    },
-    "taxonomy": {
-      "heading": "What this teaches"
-    },
-    "structure": {
-      "heading": "Session structure",
-      "phaseDuration": "{minutes} min",
-      "phaseLabel": {
-        "warmup": "Warm-up",
-        "contentActivity": "Content activity",
-        "scaffold": "Scaffold + station rotation",
-        "closure": "Closure"
-      }
-    },
-    "exercises": {
-      "heading": "Worksheets in this package",
-      "subheading": "{count} interactive worksheets your class will work through.",
-      "sampleLabel": "Sample",
-      "openDeck": "Open the sample deck",
-      "viewTopic": "View topic page",
-      "noSamplePreview": "No sample published yet",
-      "role": {
-        "introduction": "Introduction",
-        "practice": "Practice",
-        "consolidation": "Consolidation",
-        "assessment": "Assessment"
-      }
-    },
-    "materials": {
-      "heading": "Printable materials",
-      "subheading": "{count} printable items for classroom use",
-      "availableBelow": "Available below",
-      "status": {
-        "shipped": "Shipped",
-        "deferred": "Deferred",
-        "substrate-gap": "Generator pending"
-      },
-      "statusDescription": {
-        "deferred": "Material spec exists; generator deferred to a later commission cycle.",
-        "substrate-gap": "Material spec exists in materials-catalog.json; runtime generator not yet built."
-      },
-      "role": {
-        "vocabulary-anchor": "Vocabulary anchor",
-        "production-prompt": "Production prompt",
-        "language-frame": "Language frame",
-        "concrete-manipulative": "Concrete manipulative",
-        "home-school-bridge": "Home-school bridge",
-        "teacher-reference": "Teacher reference",
-        "vocabulary-game": "Vocabulary game"
-      }
-    },
-    "assessment": {
-      "heading": "Assessment criteria"
-    },
-    "flashcards": {
-      "heading": "Flashcards",
-      "subheading": "Printable flashcards for vocabulary practice — one picture and one word per card."
-    },
-    "pictureCards": {
-      "heading": "Picture cards",
-      "subheading": "Picture-only cards your class can cut out and handle.",
-      "description": "Print, cut along the dashed lines, and use the cards for counting, sorting, and vocabulary games.",
-      "downloadButton": "Download {count}-up PDF"
-    },
-    "numeralCards": {
-      "heading": "Number cards",
-      "subheading": "Number cards from 1 to 10 with the number-word in the language your kids are learning.",
-      "description": "Print, cut along the dashed lines, and use the number cards for counting, recognising numbers, and matching numbers to quantities.",
-      "downloadButton": "Download {count}-up PDF"
-    },
-    "manipulativeCutOuts": {
-      "heading": "Cut-out tiles",
-      "subheading": "Small picture tiles your kids cut out and use for hands-on counting, sorting, and grouping.",
-      "description": "Print, cut along the dashed lines, and let your kids handle the small tiles for hands-on counting and sorting work.",
-      "downloadButton": "Download cut-outs PDF"
-    },
-    "answerKey": {
-      "heading": "Teacher reference",
-      "subheading": "A one-stop reference sheet for you — the lesson outline, the materials list, and what to look for when checking your kids' work.",
-      "description": "Print this for yourself before the lesson. It gives you the exercises you will work through, the printables you will use, your teaching notes, and what counts as a correct answer for each activity.",
-      "downloadButton": "Download teacher reference PDF"
-    },
-    "parentLetter": {
-      "heading": "Parent letter",
-      "subheading": "A one-page letter you can send home so families know what their child worked on and can practise together.",
-      "description": "Print this letter and send it home at the end of the week. The body is written in the family's home language; the pictures are labelled in the language your kids are learning, so the family can say the new words together. Includes a line for your signature.",
-      "downloadButton": "Download parent letter PDF"
-    },
-    "sentenceStrips": {
-      "heading": "Sentence strips",
-      "subheading": "Printable strips with a picture and a full sentence in the language your kids are learning — one per strip.",
-      "description": "Print, cut along the dashed lines, and use the strips at the pocket chart, in small-group reading, or for copy-and-trace practice. Each strip has one picture and one full sentence in the language your kids are learning, with an optional line underneath for your kid to write the sentence.",
-      "downloadButton": "Download sentence strips PDF"
-    },
-    "locales": {
-      "heading": "Available languages",
-      "subheading": "This teaching package has authored content in the following languages."
-    },
-    "bundleContext": {
-      "heading": "Also in {count} themed bundle(s)",
-      "subheading": "This package is part of the following themed bundles."
-    }
   },
   "workspace": {
     "metadata": {

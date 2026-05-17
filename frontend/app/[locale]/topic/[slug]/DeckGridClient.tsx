@@ -59,14 +59,32 @@ export default function DeckGridClient({
   // Quota-gated click handler for the Play link. POSTs to
   // /api/quota/check-and-increment; on 200 (allowed) navigates to the deck
   // page; on 402 (blocked) shows the QuotaExceededModal without navigation.
-  const handlePlayClick = useCallback(
-    async (e: React.MouseEvent<HTMLAnchorElement>, deckHref: string, deckId: string) => {
+  // Unified quota-gated click handler. POSTs to check-and-increment;
+  // on 200 (allowed) navigates/opens the target URL; on 402 (blocked)
+  // shows the QuotaExceededModal without navigation.
+  // `target='self'` uses window.location.href; 'blank' uses window.open
+  // with noopener (for PDF / answer-key download in a new tab).
+  const handleQuotaGatedClick = useCallback(
+    async (
+      e: React.MouseEvent<HTMLAnchorElement>,
+      url: string,
+      action: 'play' | 'pdf' | 'answer-key',
+      deckId: string,
+      target: 'self' | 'blank' = 'self'
+    ) => {
       e.preventDefault();
+      const openUrl = () => {
+        if (target === 'blank') {
+          window.open(url, '_blank', 'noopener,noreferrer');
+        } else {
+          window.location.href = url;
+        }
+      };
       try {
         const res = await fetch('/api/quota/check-and-increment', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ action: 'play', deckId }),
+          body: JSON.stringify({ action, deckId }),
         });
         if (res.status === 402) {
           const body = await res.json().catch(() => ({}));
@@ -74,14 +92,21 @@ export default function DeckGridClient({
           return;
         }
         // 200 or fail-open — proceed
-        window.location.href = deckHref;
+        openUrl();
       } catch (err) {
         // Network failure — fail open
-        console.warn('quota check failed; opening deck', err);
-        window.location.href = deckHref;
+        console.warn('quota check failed; proceeding', err);
+        openUrl();
       }
     },
     [showQuotaModal]
+  );
+
+  // Backwards-compatible alias for Play clicks (same shape as before).
+  const handlePlayClick = useCallback(
+    (e: React.MouseEvent<HTMLAnchorElement>, deckHref: string, deckId: string) =>
+      handleQuotaGatedClick(e, deckHref, 'play', deckId, 'self'),
+    [handleQuotaGatedClick]
   );
 
   const flashConfirmation = useCallback((msg: string) => {
@@ -240,6 +265,9 @@ export default function DeckGridClient({
                     <span className="text-ink-300" aria-hidden="true">·</span>
                     <a
                       href={`/api/quota/pdf/${deck.id}`}
+                      onClick={e =>
+                        handleQuotaGatedClick(e, deck.pdfUrl, 'pdf', deck.id, 'blank')
+                      }
                       className="text-ink-600 hover:text-ink-900"
                       target="_blank"
                       rel="noopener"
@@ -250,7 +278,16 @@ export default function DeckGridClient({
                       <>
                         <span className="text-ink-300" aria-hidden="true">·</span>
                         <a
-                          href={deck.answerKeyUrl}
+                          href={`/api/quota/answer-key/${deck.id}`}
+                          onClick={e =>
+                            handleQuotaGatedClick(
+                              e,
+                              deck.answerKeyUrl!,
+                              'answer-key',
+                              deck.id,
+                              'blank'
+                            )
+                          }
                           className="text-ink-600 hover:text-ink-900"
                           target="_blank"
                           rel="noopener"

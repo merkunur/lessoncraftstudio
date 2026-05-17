@@ -9,7 +9,7 @@ import DeckCardCheckbox from '@/components/catalog/DeckCardCheckbox';
 import BulkSelectToolbar, { BulkAction } from '@/components/catalog/BulkSelectToolbar';
 import BulkAddToCollectionPicker from '@/components/catalog/BulkAddToCollectionPicker';
 import ShareLinkResultModal, { ShareLinkResult } from '@/components/catalog/ShareLinkResultModal';
-import { useQuotaModal } from '@/components/quota/QuotaExceededModal';
+import { useQuotaGatedClick } from '@/components/quota/QuotaExceededModal';
 
 // Tool 5A — client wrapper extraction from the topic page's inline grid.
 // Owns bulk-mode state + selection state + per-card affordances. Per §17.4
@@ -43,7 +43,7 @@ export default function DeckGridClient({
   labels,
 }: DeckGridClientProps) {
   const t = useTranslations('bulk');
-  const { showQuotaModal, QuotaModalElement } = useQuotaModal();
+  const { gatedClick, QuotaModalElement } = useQuotaGatedClick();
 
   const [bulkMode, setBulkMode] = useState(false);
   const [selectedDeckIds, setSelectedDeckIds] = useState<Set<string>>(new Set());
@@ -59,55 +59,16 @@ export default function DeckGridClient({
   // Quota-gated click handler for the Play link. POSTs to
   // /api/quota/check-and-increment; on 200 (allowed) navigates to the deck
   // page; on 402 (blocked) shows the QuotaExceededModal without navigation.
-  // Unified quota-gated click handler. POSTs to check-and-increment;
-  // on 200 (allowed) navigates/opens the target URL; on 402 (blocked)
-  // shows the QuotaExceededModal without navigation.
-  // `target='self'` uses window.location.href; 'blank' uses window.open
-  // with noopener (for PDF / answer-key download in a new tab).
-  const handleQuotaGatedClick = useCallback(
-    async (
-      e: React.MouseEvent<HTMLAnchorElement>,
-      url: string,
-      action: 'play' | 'pdf' | 'answer-key',
-      deckId: string,
-      target: 'self' | 'blank' = 'self'
-    ) => {
-      e.preventDefault();
-      const openUrl = () => {
-        if (target === 'blank') {
-          window.open(url, '_blank', 'noopener,noreferrer');
-        } else {
-          window.location.href = url;
-        }
-      };
-      try {
-        const res = await fetch('/api/quota/check-and-increment', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ action, deckId }),
-        });
-        if (res.status === 402) {
-          const body = await res.json().catch(() => ({}));
-          showQuotaModal(body);
-          return;
-        }
-        // 200 or fail-open — proceed
-        openUrl();
-      } catch (err) {
-        // Network failure — fail open
-        console.warn('quota check failed; proceeding', err);
-        openUrl();
-      }
-    },
-    [showQuotaModal]
-  );
-
-  // Backwards-compatible alias for Play clicks (same shape as before).
+  // Thin alias for Play clicks (preserves existing call sites in the JSX
+  // below). PDF + answer-key links call `gatedClick` directly with the
+  // appropriate action + target.
   const handlePlayClick = useCallback(
     (e: React.MouseEvent<HTMLAnchorElement>, deckHref: string, deckId: string) =>
-      handleQuotaGatedClick(e, deckHref, 'play', deckId, 'self'),
-    [handleQuotaGatedClick]
+      gatedClick(e, deckHref, 'play', deckId, 'self'),
+    [gatedClick]
   );
+
+  const handleQuotaGatedClick = gatedClick; // keep var name used in JSX
 
   const flashConfirmation = useCallback((msg: string) => {
     setConfirmation(msg);

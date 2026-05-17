@@ -11,6 +11,7 @@ import DeckCardCheckbox from '@/components/catalog/DeckCardCheckbox';
 import BulkSelectToolbar, { BulkAction } from '@/components/catalog/BulkSelectToolbar';
 import ShareDeckButton from '@/components/catalog/ShareDeckButton';
 import ShareLinkResultModal, { ShareLinkResult } from '@/components/catalog/ShareLinkResultModal';
+import { useQuotaGatedClick } from '@/components/quota/QuotaExceededModal';
 
 interface CollectionDeckEntry {
   deckId: string;
@@ -54,6 +55,7 @@ export default function CollectionDetailClient({
   const t = useTranslations('collections');
   const { user, loading: authLoading } = useAuth();
   const router = useRouter();
+  const { gatedClick, QuotaModalElement } = useQuotaGatedClick();
 
   const [collection, setCollection] = useState<CollectionDetail | null>(null);
   const [loading, setLoading] = useState(false);
@@ -326,6 +328,7 @@ export default function CollectionDetailClient({
   }
 
   return (
+    <>
     <main className="container mx-auto px-4 max-w-5xl py-12">
       <Link
         href={`/${locale}/collections`}
@@ -417,7 +420,11 @@ export default function CollectionDetailClient({
                     />
                   </button>
                 ) : (
-                  <a href={href} className="block">
+                  <a
+                    href={href}
+                    onClick={e => gatedClick(e, href, 'play', deck.deckId, 'self')}
+                    className="block"
+                  >
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={deck.thumbnailUrl}
@@ -442,7 +449,11 @@ export default function CollectionDetailClient({
                           {title}
                         </button>
                       ) : (
-                        <a href={href} className="hover:text-leaf-700">
+                        <a
+                          href={href}
+                          onClick={e => gatedClick(e, href, 'play', deck.deckId, 'self')}
+                          className="hover:text-leaf-700"
+                        >
                           {title}
                         </a>
                       )}
@@ -594,5 +605,7 @@ export default function CollectionDetailClient({
         </div>
       )}
     </main>
+    {QuotaModalElement}
+    </>
   );
 }

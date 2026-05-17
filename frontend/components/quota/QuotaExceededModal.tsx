@@ -120,3 +120,64 @@ export function useQuotaModal() {
 
   return { showQuotaModal, QuotaModalElement };
 }
+
+/**
+ * Higher-level hook combining useQuotaModal + a generic click-gating handler.
+ * Used by every catalog/homepage surface that links to a deck URL or
+ * triggers a download. POSTs to /api/quota/check-and-increment; on 200
+ * navigates/opens; on 402 surfaces the modal without navigation.
+ *
+ *   const { gatedClick, QuotaModalElement } = useQuotaGatedClick();
+ *
+ *   <a href={url}
+ *      onClick={e => gatedClick(e, url, 'play', deckId, 'self')}>
+ *     {label}
+ *   </a>
+ *   {QuotaModalElement}
+ *
+ * target='self'  → uses window.location.href = url (same-tab navigation)
+ * target='blank' → uses window.open(url, '_blank') (new-tab download)
+ */
+export function useQuotaGatedClick() {
+  const { showQuotaModal, QuotaModalElement } = useQuotaModal();
+
+  const gatedClick = useCallback(
+    async (
+      e: React.MouseEvent<HTMLAnchorElement>,
+      url: string,
+      action: 'play' | 'pdf' | 'answer-key' | 'app-gen',
+      deckId: string | undefined,
+      target: 'self' | 'blank' = 'self'
+    ) => {
+      e.preventDefault();
+      const openUrl = () => {
+        if (target === 'blank') {
+          window.open(url, '_blank', 'noopener,noreferrer');
+        } else {
+          window.location.href = url;
+        }
+      };
+      try {
+        const res = await fetch('/api/quota/check-and-increment', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          credentials: 'same-origin',
+          body: JSON.stringify({ action, deckId: deckId ?? null }),
+        });
+        if (res.status === 402) {
+          const body = await res.json().catch(() => ({}));
+          showQuotaModal(body);
+          return;
+        }
+        // 200 or fail-open — proceed
+        openUrl();
+      } catch (err) {
+        console.warn('[quota] check failed; proceeding', err);
+        openUrl();
+      }
+    },
+    [showQuotaModal]
+  );
+
+  return { gatedClick, QuotaModalElement };
+}

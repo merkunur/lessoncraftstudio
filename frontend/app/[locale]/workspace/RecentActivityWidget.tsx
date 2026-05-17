@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+import { useQuotaGatedClick } from '@/components/quota/QuotaExceededModal';
 
 export type Activity =
   | {
@@ -65,6 +66,7 @@ export default function RecentActivityWidget({
   activities,
 }: RecentActivityWidgetProps) {
   const t = useTranslations('workspace.recentActivity');
+  const { gatedClick, QuotaModalElement } = useQuotaGatedClick();
 
   return (
     <section>
@@ -135,6 +137,10 @@ export default function RecentActivityWidget({
                 </span>
                 <a
                   href={deckHrefFor(a.deckLanguage, a.deckSlug)}
+                  onClick={e => {
+                    const url = deckHrefFor(a.deckLanguage, a.deckSlug);
+                    gatedClick(e, url, 'play', `${a.deckLanguage}-${a.deckSlug}`, 'self');
+                  }}
                   className="text-xs text-ink-500 hover:text-ink-900 flex-shrink-0"
                 >
                   {time}
@@ -144,6 +150,7 @@ export default function RecentActivityWidget({
           })}
         </ul>
       )}
+      {QuotaModalElement}
     </section>
   );
 }

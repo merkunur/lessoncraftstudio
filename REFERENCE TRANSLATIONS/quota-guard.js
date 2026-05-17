@@ -239,11 +239,21 @@
 
   // Diagnostic surface — operator can inspect via console
   window.__LCSQuotaGuard = {
-    version: '1',
+    version: '2',
     selector: GATE_SELECTOR,
     api: QUOTA_API,
     subscribeUrl: SUBSCRIBE_URL,
     isOperatorContext: isOperatorContext,
     showOverlay: showQuotaOverlay,
   };
+
+  // Boot diagnostic — visible in browser console. If operator doesn't see
+  // this on app page load, the quota-guard.js script didn't load (stale
+  // browser cache, network error, or script tag missing from the HTML).
+  try {
+    console.log(
+      '[quota-guard] loaded v2',
+      { isOperator: isOperatorContext(), gateSelector: GATE_SELECTOR, api: QUOTA_API }
+    );
+  } catch (_) {}
 })();

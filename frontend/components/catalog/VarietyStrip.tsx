@@ -7,6 +7,7 @@ import {
   fetchDecksCatalogHighlights,
 } from '@/lib/topic-variety';
 import { TopicDeckSummary } from '@/lib/topic-decks';
+import VarietyStripCard from './VarietyStripCard';
 
 // Catalog variety Arc 1 — below-the-fold variety strips on topic pages
 // per CLAUDE.md §1 (variety complements topic-page-as-destination per
@@ -114,28 +115,14 @@ export default async function VarietyStrip(props: VarietyStripProps) {
               key={`${deck.language}-${deck.id}`}
               className="border border-cream-300 rounded-md overflow-hidden bg-white shadow-sm hover:shadow-md transition"
             >
-              <a href={deckLinkFor(deck)} className="block group">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={deck.thumbnailUrl}
-                  alt={title}
-                  width={480}
-                  height={620}
-                  loading="lazy"
-                  className="w-full h-auto bg-cream-50"
-                />
-                <div className="px-3 py-2 flex items-center justify-between gap-2">
-                  <span className="text-sm font-medium text-ink-900 truncate group-hover:text-leaf-700">
-                    {title}
-                  </span>
-                  <span
-                    className="text-xs font-medium text-ink-500 flex-shrink-0"
-                    aria-label={tAria('languageBadge', { label: languageLabelFor(deck.language) })}
-                  >
-                    {languageLabelFor(deck.language)}
-                  </span>
-                </div>
-              </a>
+              <VarietyStripCard
+                deckId={deck.id}
+                deckUrl={deckLinkFor(deck)}
+                title={title}
+                thumbnailUrl={deck.thumbnailUrl}
+                languageLabel={languageLabelFor(deck.language)}
+                languageAriaLabel={tAria('languageBadge', { label: languageLabelFor(deck.language) })}
+              />
             </li>
           );
         })}

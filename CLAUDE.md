@@ -168,7 +168,7 @@ K-3 specific exclusions: student progress tracking dashboards, multi-deck assign
 - Full search, browse, filter
 - Unlimited shareable links (no expiration, no student count limits)
 - QR code generation
-- **2 actions per UTC day** across three intentional-engagement categories: (a) opening a catalog deck page from a deck-card click, (b) downloading a printable PDF, (c) downloading an app-generated worksheet [v1 ships catalog gating only; worksheet-generator-app gating deferred to follow-up commission, currently free unlimited there]
+- **2 actions per UTC day** across three intentional-engagement categories: (a) opening a catalog deck page from a deck-card click, (b) downloading a printable PDF, (c) downloading an app-generated worksheet from any of the 29 interactive worksheet-generator apps. Subscribers + bots bypass. All three categories deplete the same unified daily bucket.
 - Email signup to save favorites + new-deck digests
 - Topic destination pages (deck grid + companion printable PDF list)
 - Embedded sample decks on public pages (acquisition flywheel; never gated)
@@ -206,7 +206,7 @@ Auto-renew with 30/14/3 day notification emails.
 - Anonymous identity: `lcs_anon_id` cookie (UUID, 1-yr expiry, HttpOnly/Secure/SameSite=Lax). Cookie-cleared abuse not specifically caught in v1 (operator-strategic decision; v2 can add IP-hash fallback per `ipHashAnonymousId()` helper already present)
 - Bot bypass: User-Agent regex `/bot|crawler|spider|googlebot|bingbot|baiduspider|yandexbot|duckduckbot|facebookexternalhit|slackbot|twitterbot|linkedinbot|whatsapp/i`
 - Fail-open on internal error — quota infra issues never block teacher flows; ops monitors 500 rate
-- v1 scope: gates catalog deck-card Play clicks + catalog PDF downloads; **worksheet-generator app downloads remain free unlimited in v1** (filed as follow-up commission)
+- v1 gate surfaces: (a) catalog deck-card Play clicks + (b) catalog PDF downloads (both via DeckGridClient + `/api/quota/pdf/[deckId]` proxy); (c) worksheet-generator app `#downloadInteractiveHtmlBtn` (via `REFERENCE TRANSLATIONS/quota-guard.js` capture-phase click interceptor loaded by all 29 interactive apps; operator-context bypass via `tier` URL param + `localStorage.accessToken`). Operator-only `#exportToCatalogBtn` (catalog publish flow) intentionally NOT gated. The 4 PDF-only apps (`coloring`, `writing`, `draw-and-color`, `drawing-lines`) don't ship interactive HTML and aren't gate-target candidates per §14.10.
 
 ## 8. Technical standards
 

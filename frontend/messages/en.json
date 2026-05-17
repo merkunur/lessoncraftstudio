@@ -62,7 +62,16 @@
       "apps": {
         "title": "Worksheet creators",
         "description": "29 worksheet creators that generate both printable PDFs and interactive activities. Pick your topic, theme, and language — the apps do the rest.",
-        "cta": "Open the apps"
+        "cta": "Open the apps",
+        "cardCta": "Open worksheet creator",
+        "categories": {
+          "math": "Math",
+          "literacy": "Literacy",
+          "visual": "Visual",
+          "matching": "Matching",
+          "puzzle": "Puzzle",
+          "search": "Search"
+        }
       },
       "interactive": {
         "title": "Interactive worksheets",

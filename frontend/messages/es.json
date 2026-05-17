@@ -61,7 +61,16 @@
       "apps": {
         "title": "Creadores de hojas",
         "description": "29 creadores de hojas que generan tanto PDFs imprimibles como actividades interactivas. Elija el tema, el motivo y la lengua — las apps hacen el resto.",
-        "cta": "Abrir las apps"
+        "cta": "Abrir las apps",
+        "cardCta": "Abrir generador de hojas",
+        "categories": {
+          "math": "Matemáticas",
+          "literacy": "Lectoescritura",
+          "visual": "Visual",
+          "matching": "Emparejamiento",
+          "puzzle": "Rompecabezas",
+          "search": "Buscar"
+        }
       },
       "interactive": {
         "title": "Hojas interactivas",

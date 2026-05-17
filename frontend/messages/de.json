@@ -62,7 +62,16 @@
       "apps": {
         "title": "Arbeitsblatt-Generatoren",
         "description": "29 Arbeitsblatt-Generatoren, die sowohl druckbare PDFs als auch interaktive Aktivitäten erstellen. Wählen Sie Thema, Motiv und Sprache — den Rest übernehmen die Apps.",
-        "cta": "Apps öffnen"
+        "cta": "Apps öffnen",
+        "cardCta": "Arbeitsblatt-Generator öffnen",
+        "categories": {
+          "math": "Mathematik",
+          "literacy": "Sprache & Schrift",
+          "visual": "Visuell",
+          "matching": "Zuordnen",
+          "puzzle": "Rätsel",
+          "search": "Suchen"
+        }
       },
       "interactive": {
         "title": "Interaktive Arbeitsblätter",

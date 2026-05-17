@@ -61,7 +61,16 @@
       "apps": {
         "title": "Generatori di schede",
         "description": "29 generatori di schede che producono sia PDF stampabili sia attività interattive. Scegliete tema, motivo e lingua — le app fanno il resto.",
-        "cta": "Apri le app"
+        "cta": "Apri le app",
+        "cardCta": "Apri il generatore",
+        "categories": {
+          "math": "Matematica",
+          "literacy": "Letto-scrittura",
+          "visual": "Visuale",
+          "matching": "Abbinamento",
+          "puzzle": "Rompicapo",
+          "search": "Cercare"
+        }
       },
       "interactive": {
         "title": "Schede interattive",

@@ -61,7 +61,16 @@
       "apps": {
         "title": "Geradores de fichas",
         "description": "29 geradores de fichas que produzem tanto PDFs imprimíveis quanto atividades interativas. Escolha o tema, o assunto e o idioma — os apps fazem o resto.",
-        "cta": "Abrir os apps"
+        "cta": "Abrir os apps",
+        "cardCta": "Abrir o gerador",
+        "categories": {
+          "math": "Matemática",
+          "literacy": "Alfabetização",
+          "visual": "Visual",
+          "matching": "Correspondência",
+          "puzzle": "Quebra-cabeça",
+          "search": "Buscar"
+        }
       },
       "interactive": {
         "title": "Fichas interativas",

@@ -61,7 +61,16 @@
       "apps": {
         "title": "Tehtävägeneraattorit",
         "description": "29 tehtävägeneraattoria, jotka tuottavat sekä tulostettavia PDF:iä että interaktiivisia tehtäviä. Valitse aihe, teema ja kieli — sovellukset hoitavat loput.",
-        "cta": "Avaa sovellukset"
+        "cta": "Avaa sovellukset",
+        "cardCta": "Avaa generaattori",
+        "categories": {
+          "math": "Matematiikka",
+          "literacy": "Kielitaito",
+          "visual": "Visuaalinen",
+          "matching": "Yhdistäminen",
+          "puzzle": "Pulma",
+          "search": "Etsi"
+        }
       },
       "interactive": {
         "title": "Interaktiiviset tehtäväarkit",

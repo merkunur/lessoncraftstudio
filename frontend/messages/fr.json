@@ -61,7 +61,16 @@
       "apps": {
         "title": "Générateurs de fiches",
         "description": "29 générateurs de fiches qui produisent à la fois des PDF imprimables et des activités interactives. Choisissez le sujet, le thème et la langue — les apps font le reste.",
-        "cta": "Ouvrir les apps"
+        "cta": "Ouvrir les apps",
+        "cardCta": "Ouvrir le générateur",
+        "categories": {
+          "math": "Mathématiques",
+          "literacy": "Littératie",
+          "visual": "Visuel",
+          "matching": "Association",
+          "puzzle": "Énigme",
+          "search": "Chercher"
+        }
       },
       "interactive": {
         "title": "Fiches interactives",

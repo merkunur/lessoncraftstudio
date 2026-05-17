@@ -61,7 +61,16 @@
       "apps": {
         "title": "Arbetsbladsgeneratorer",
         "description": "29 generatorer som skapar både utskrivbara PDF:er och interaktiva aktiviteter. Välj ämne, tema och språk — apparna gör resten.",
-        "cta": "Öppna apparna"
+        "cta": "Öppna apparna",
+        "cardCta": "Öppna generator",
+        "categories": {
+          "math": "Matematik",
+          "literacy": "Språk och skrivning",
+          "visual": "Visuellt",
+          "matching": "Para ihop",
+          "puzzle": "Pussel",
+          "search": "Sök"
+        }
       },
       "interactive": {
         "title": "Interaktiva arbetsblad",

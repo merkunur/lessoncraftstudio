@@ -61,7 +61,16 @@
       "apps": {
         "title": "Arbeidsark-generatorer",
         "description": "29 arbeidsark-generatorer som lager både utskrivbare PDF-er og interaktive aktiviteter. Velg emne, tema og språk — appene gjør resten.",
-        "cta": "Åpne appene"
+        "cta": "Åpne appene",
+        "cardCta": "Åpne generator",
+        "categories": {
+          "math": "Matematikk",
+          "literacy": "Språk og skriving",
+          "visual": "Visuelt",
+          "matching": "Para sammen",
+          "puzzle": "Puslespill",
+          "search": "Søk"
+        }
       },
       "interactive": {
         "title": "Interaktive arbeidsark",

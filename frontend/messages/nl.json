@@ -61,7 +61,16 @@
       "apps": {
         "title": "Werkblad-makers",
         "description": "29 werkblad-makers die zowel afdrukbare PDF's als interactieve activiteiten genereren. Kies onderwerp, thema en taal — de apps doen de rest.",
-        "cta": "Open de apps"
+        "cta": "Open de apps",
+        "cardCta": "Werkbladmaker openen",
+        "categories": {
+          "math": "Rekenen",
+          "literacy": "Taal",
+          "visual": "Visueel",
+          "matching": "Koppelen",
+          "puzzle": "Puzzel",
+          "search": "Zoeken"
+        }
       },
       "interactive": {
         "title": "Interactieve werkbladen",

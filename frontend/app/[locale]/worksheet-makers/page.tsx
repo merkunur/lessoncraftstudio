@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { ALL_APPS } from '@/config/products';
+import { ArrowRight } from 'lucide-react';
 
 // /[locale]/worksheet-makers/ — Worksheet creators (Apps) category landing.
 // Reopened publicly per operator's 2026-05-17 strategic lock §8.1; daily
@@ -8,9 +9,10 @@ import { ALL_APPS } from '@/config/products';
 // per §8.6 #3.
 //
 // v1 content shape: 29 §14.10 canonical apps as a card grid, grouped by
-// category. Per-app marketing pages don't exist yet; clicking a card scrolls
-// to its anchor on this page (no external link). Full per-app surface
-// downstream.
+// category. Each card links directly to the nginx-served worksheet generator
+// at /worksheet-generators/<htmlFile> (plain <a href> per §15.7 routing-
+// contract, NOT Next.js <Link>). Per-app marketing pages don't exist yet —
+// direct generator anchor is the v1 surface.
 
 const BASE_URL = 'https://www.lessoncraftstudio.com';
 
@@ -22,22 +24,24 @@ interface AppMeta {
   slug: string;
   name: string;
   category: string;
+  htmlFile: string;
 }
 
 function listCatalogApps(): AppMeta[] {
   const apps: AppMeta[] = [];
   for (const [slug, meta] of Object.entries(ALL_APPS)) {
     if (PDF_ONLY_APPS.has(slug)) continue;
-    apps.push({ slug, name: meta.name, category: meta.category });
+    apps.push({ slug, name: meta.name, category: meta.category, htmlFile: meta.htmlFile });
   }
   // Stable sort: category then name.
   apps.sort((a, b) => a.category.localeCompare(b.category) || a.name.localeCompare(b.name));
   return apps;
 }
 
-// Category display order matches products.ts grouping (math / literacy /
-// visual / matching / puzzle).
-const CATEGORY_ORDER = ['math', 'literacy', 'visual', 'matching', 'puzzle'];
+// Category display order matches products.ts grouping. `search` is a small
+// 4-app cluster (find-and-count / find-objects / crossword / treasure-hunt)
+// that appears after puzzle.
+const CATEGORY_ORDER = ['math', 'literacy', 'visual', 'matching', 'puzzle', 'search'];
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const locale = params.locale || 'en';
@@ -83,25 +87,40 @@ export default async function WorksheetMakersPage({ params }: { params: { locale
 
       {orderedCategories.map(category => {
         const categoryApps = byCategory.get(category) ?? [];
+        // Localized category heading; fall back to the raw slug for any
+        // unmapped category so we never render nothing.
+        let categoryLabel = category;
+        try {
+          categoryLabel = t(`categories.${category}`);
+        } catch {
+          categoryLabel = category;
+        }
         return (
           <section key={category} className="mb-12">
-            <h2 className="font-display font-semibold text-xl md:text-2xl text-ink-900 capitalize mb-4">
-              {category}
+            <h2 className="font-display font-semibold text-xl md:text-2xl text-ink-900 mb-4">
+              {categoryLabel}
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
               {categoryApps.map(app => (
-                <div
+                <a
                   key={app.slug}
                   id={app.slug}
-                  className="bg-cream-50 border border-cream-300 rounded-lg p-4 md:p-5"
+                  href={`/worksheet-generators/${app.htmlFile}`}
+                  target="_blank"
+                  rel="noopener"
+                  className="group bg-cream-50 hover:bg-cream-100 border border-cream-300 hover:border-terracotta-400 rounded-lg p-4 md:p-5 transition-colors block"
                 >
-                  <h3 className="font-display font-semibold text-base md:text-lg text-ink-900 mb-1">
+                  <h3 className="font-display font-semibold text-base md:text-lg text-ink-900 mb-1 group-hover:text-terracotta-600 transition-colors">
                     {app.name}
                   </h3>
-                  <p className="text-sm text-ink-500 capitalize">
-                    {category}
+                  <p className="text-sm text-ink-500 mb-3">
+                    {categoryLabel}
                   </p>
-                </div>
+                  <span className="inline-flex items-center gap-1 text-sm font-medium text-terracotta-500 group-hover:text-terracotta-600 transition-colors">
+                    {t('cardCta')}
+                    <ArrowRight size={14} strokeWidth={2} aria-hidden="true" />
+                  </span>
+                </a>
               ))}
             </div>
           </section>

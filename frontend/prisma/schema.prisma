@@ -1116,10 +1116,13 @@ model DesignElement {
 // =====================================================================
 // CATALOG DOMAIN (Brief B Phase 1 — Deck table only; v1)
 //
-// Other catalog-domain tables per CLAUDE.md §8.1 (DeckEnrichment, Topic,
-// LessonPlan, ParentNote, PlayLink, Collection, CollectionDeck,
-// DeckFavorite, EmbedConfig) defer to their respective consumer briefs
-// per §3.1 additive principle. They are NOT in Brief B.
+// Other catalog-domain tables per CLAUDE.md §8.1 (DeckEnrichment, PlayLink,
+// Collection, CollectionDeck, DeckFavorite, EmbedConfig) defer to their
+// respective consumer briefs per §3.1 additive principle. They are NOT in
+// Brief B. The lesson-plans / teaching-packages / themed-bundles domain
+// (Topic, LessonPlan, ParentNote, Bundle, BundleDeck, BundleLessonPlan,
+// TeachingPackage, BundleTeachingPackage) was removed 2026-05-17 per
+// operator commission; tables dropped via DROP TABLE migration.
 //
 // content_family_id is reserved per §17.8.7 (always null in v1; v2's
 // translate-this-deck workflow populates it for cross-language sibling
@@ -1163,7 +1166,6 @@ model Deck {
   favorites             DeckFavorite[]
   collectionMemberships CollectionDeck[]
   embedConfigs          EmbedConfig[]
-  bundleMemberships     BundleDeck[]
 
   @@unique([language, slug]) // §17.8.5 compound unique (Drift D2)
   @@unique([language, titleHash], map: "decks_language_title_hash_key") // Phase 2 §1 uniqueness invariant
@@ -1184,15 +1186,19 @@ model Deck {
 // Catalog-side §8.1 models (commission pass)
 //
 // Per CLAUDE.md §8.1 stated-intent shapes. CREATE-only; zero blast radius
-// on extant tables. Three families:
-//   A. catalog-enrichment: DeckEnrichment, Topic, LessonPlan, ParentNote
+// on extant tables. Two families post lesson-plans-domain removal:
+//   A. catalog-enrichment: DeckEnrichment
 //   B. player-embeds:      EmbedConfig, PlayLink
 //   C. workspace:          Collection, CollectionDeck, DeckFavorite
 //
-// Migration files split by family per recon's A/B/C topological order.
-// Topic.ageRange = String matches shipped Deck convention; AgeRange enum
-// retrofit deferred per project_deferred_items_queue.md (covers Deck +
-// Topic together).
+// The Topic / LessonPlan / ParentNote / Bundle / BundleDeck /
+// BundleLessonPlan / TeachingPackage / BundleTeachingPackage models were
+// removed 2026-05-17 per operator commission (full teaching-packages-domain
+// nuke); tables dropped via DROP TABLE migration. See CLAUDE.md §7 (post-
+// removal 2-pillar subscription scope).
+//
+// AgeRange enum retrofit on Deck deferred per
+// project_deferred_items_queue.md.
 // =====================================================================
 
 // Family A — catalog enrichment
@@ -1226,74 +1232,6 @@ model DeckEnrichment {
 //
 // ageRange = String matches shipped Deck convention; §8.1 line 414 closing
 // guidance about AgeRange enum is deferred per project_deferred_items_queue.md.
-model Topic {
-  slug           String   @id
-  title          Json
-  description    Json
-  subject        String
-  ageRange       String   @map("age_range")
-  language       String
-  curriculumTags String[] @default([]) @map("curriculum_tags")
-  parentSlug     String?  @map("parent_slug")
-  isHighPriority Boolean  @default(false) @map("is_high_priority")
-  embedding      Bytes?
-  createdAt      DateTime @default(now()) @map("created_at")
-  updatedAt      DateTime @updatedAt @map("updated_at")
-
-  lessonPlans LessonPlan[]
-  parentNotes ParentNote[]
-
-  @@index([subject, language])
-  @@map("topics")
-}
-
-// Per-locale lesson plan rows (one per (topic, language) combination per the
-// @@unique below). content-only library per docs/SUBSCRIPTION-SCOPE.md
-// Pillar 1 — no plan-builder. AI-generated; structure JSON carries the
-// pedagogical-stance-shaped content (pedagogical stance is open decision #1
-// in SUBSCRIPTION-SCOPE.md, schema-shape-independent).
-model LessonPlan {
-  id                    String   @id @default(cuid())
-  topicSlug             String   @map("topic_slug")
-  language              String
-  durationMinutes       Int      @map("duration_minutes")
-  structure             Json
-  recommendedDeckIds    String[] @default([]) @map("recommended_deck_ids")
-  recommendedPdfDeckIds String[] @default([]) @map("recommended_pdf_deck_ids")
-  generatedBy           String   @map("generated_by")
-  generatedAt           DateTime @default(now()) @map("generated_at")
-  generationVersion     Int      @default(1) @map("generation_version")
-
-  topic             Topic              @relation(fields: [topicSlug], references: [slug], onDelete: Cascade)
-  bundleMemberships BundleLessonPlan[]
-  teachingPackages  TeachingPackage[]
-
-  @@unique([topicSlug, language])
-  @@map("lesson_plans")
-}
-
-// v1 deferred per docs/SUBSCRIPTION-SCOPE.md (parent-communication templates
-// moved to deferred features at §7); reserved for forward-compatibility per
-// CLAUDE.md §17.8.7 reservation pattern. Schema is created at this pass to
-// avoid a future migration when feature reactivates. AI service generation
-// (§4.5) currently does NOT include parent-note generation; resumes on
-// feature reactivation.
-model ParentNote {
-  id                String   @id @default(cuid())
-  topicSlug         String   @map("topic_slug")
-  language          String
-  body              String   @db.Text
-  tone              String
-  generatedBy       String   @map("generated_by")
-  generatedAt       DateTime @default(now()) @map("generated_at")
-  generationVersion Int      @default(1) @map("generation_version")
-
-  topic Topic @relation(fields: [topicSlug], references: [slug], onDelete: Cascade)
-
-  @@unique([topicSlug, language, tone])
-  @@map("parent_notes")
-}
-
 // Family B — player + embeds
 
 // Platform-infrastructure model (free for all users per CLAUDE.md §3
@@ -1387,149 +1325,6 @@ model DeckFavorite {
   @@id([teacherId, deckId])
   @@index([teacherId, favoritedAt])
   @@map("deck_favorites")
-}
-
-// =====================================================================
-// Family D — Pillar 2 themed bundles (commission pass)
-//
-// Per docs/SUBSCRIPTION-SCOPE.md Feature Area 2 + the b57e26f7 Option A
-// lock (7 themes × 2 locales = 14 bundles for launch trigger clause (b)).
-// Schema-only substrate; tables ship empty. Authoring follows the
-// cooperation pattern Pillar 1 used at e912b805.
-//
-// themeAxisKey is a soft FK by convention into topics-taxonomy.json
-// axes.theme.<key> (matching how Deck.subjectTags references the same
-// taxonomy without a DB-level FK; themes live in config + image_themes).
-//
-// Bundle.@@unique([themeAxisKey, language]) is load-bearing for the 7×2
-// launch shape. Bundle.@@unique([language, slug]) mirrors Deck §17.8.5.
-//
-// BundleDeck + BundleLessonPlan are M2M joins. Cascade on Bundle deletion
-// is correct (deleting a bundle removes its memberships); NO cascade on
-// Deck or LessonPlan deletion (deleting either parent must fail loudly
-// rather than silently mutate bundles — operator removes BundleDeck /
-// BundleLessonPlan rows explicitly first).
-// =====================================================================
-
-model Bundle {
-  id           String    @id @default(cuid())
-  slug         String // NOT @unique at column level; compound below per Deck §17.8.5 precedent
-  themeAxisKey String    @map("theme_axis_key") // soft FK into topics-taxonomy.json axes.theme.<key>
-  language     String // ISO 639-1; one Bundle row = one locale
-  title        Json // {en: "...", de: "...", ...}
-  description  Json
-  thumbnailUrl String    @map("thumbnail_url")
-  status       String    @default("draft") // "draft" | "published" | "archived"
-  publishedAt  DateTime? @map("published_at")
-  createdAt    DateTime  @default(now()) @map("created_at")
-  updatedAt    DateTime  @updatedAt @map("updated_at")
-
-  decks            BundleDeck[]
-  lessonPlans      BundleLessonPlan[]
-  teachingPackages BundleTeachingPackage[]
-
-  @@unique([themeAxisKey, language]) // 7×2 launch shape
-  @@unique([language, slug]) // slug uniqueness per locale (mirrors Deck §17.8.5)
-  @@index([status, publishedAt])
-  @@index([language, status])
-  @@map("bundles")
-}
-
-// Bundle ↔ Deck join with ordering position. Composite PK on
-// (bundleId, deckId). Cascade on Bundle deletion only; Deck deletion
-// must fail loudly until BundleDeck rows are removed explicitly.
-model BundleDeck {
-  bundleId String   @map("bundle_id")
-  deckId   String   @map("deck_id")
-  position Int
-  addedAt  DateTime @default(now()) @map("added_at")
-
-  bundle Bundle @relation(fields: [bundleId], references: [id], onDelete: Cascade)
-  deck   Deck   @relation(fields: [deckId], references: [id])
-
-  @@id([bundleId, deckId])
-  @@index([bundleId, position])
-  @@map("bundle_decks")
-}
-
-// Bundle ↔ LessonPlan join. Bundles ship with at least one paired
-// lesson plan (SUBSCRIPTION-SCOPE.md Feature Area 2 "bundle/lesson-plan
-// pairing"); enforced at authoring time, not schema. Cascade on Bundle
-// deletion only; LessonPlan deletion must fail loudly.
-model BundleLessonPlan {
-  bundleId     String @map("bundle_id")
-  lessonPlanId String @map("lesson_plan_id")
-
-  bundle     Bundle     @relation(fields: [bundleId], references: [id], onDelete: Cascade)
-  lessonPlan LessonPlan @relation(fields: [lessonPlanId], references: [id])
-
-  @@id([bundleId, lessonPlanId])
-  @@map("bundle_lesson_plans")
-}
-
-// Teaching package — sibling table to LessonPlan, keyed on pedagogical learning
-// targets (frontend/config/learning-targets.json) rather than topics-taxonomy
-// axis-keys. Per docs/lesson-plans/existing-plan-substrate.md §7-8 Option B
-// lock at Phase 1 surface gate (commit 3b33fe1d, 2026-05-06).
-//
-// Two keying spaces coexist:
-//   - LessonPlan.topicSlug → Topic.slug (axis-keys: addition / sudoku / animals / kindergarten)
-//   - TeachingPackage.targetSlug → frontend/config/learning-targets.json (pedagogical
-//     learning targets: identify-and-name-10-farm-animals / count-quantities-to-10 / ...)
-//
-// Optional lessonPlanId FK lets a TeachingPackage wrap an existing LessonPlan
-// for the text-plan portion; null when the package authors its own structure.
-//
-// composedExercises Json shape:
-//   [{appName, exerciseMode, customizationParameters, ordering, pedagogicalRole}]
-// materials Json shape:
-//   [{materialSlug, customizationParameters, ordering, pedagogicalRole}]
-// assessmentCriteria Json shape:
-//   {<locale>: <success-criteria text>}
-model TeachingPackage {
-  id                    String    @id @default(cuid())
-  targetSlug            String    @map("target_slug")
-  language              String
-  title                 Json
-  description           Json
-  durationMinutes       Int       @map("duration_minutes")
-  structure             Json
-  composedExercises     Json      @map("composed_exercises")
-  materials             Json
-  curriculumStandards   String[]  @default([]) @map("curriculum_standards")
-  assessmentCriteria    Json      @map("assessment_criteria")
-  recommendedDeckIds    String[]  @default([]) @map("recommended_deck_ids")
-  recommendedPdfDeckIds String[]  @default([]) @map("recommended_pdf_deck_ids")
-  lessonPlanId          String?   @map("lesson_plan_id")
-  status                String    @default("draft")
-  publishedAt           DateTime? @map("published_at")
-  generatedBy           String    @map("generated_by")
-  generatedAt           DateTime  @default(now()) @map("generated_at")
-  generationVersion     Int       @default(1) @map("generation_version")
-  createdAt             DateTime  @default(now()) @map("created_at")
-  updatedAt             DateTime  @updatedAt @map("updated_at")
-
-  lessonPlan        LessonPlan?             @relation(fields: [lessonPlanId], references: [id])
-  bundleMemberships BundleTeachingPackage[]
-
-  @@unique([targetSlug, language])
-  @@index([status, publishedAt])
-  @@index([targetSlug])
-  @@map("teaching_packages")
-}
-
-// Bundle ↔ TeachingPackage join. Reserved per §17.8.7 reservation pattern; no
-// Pillar 2 consumers in v1, schema landed now to avoid a future migration.
-// Cascade on Bundle deletion only; TeachingPackage deletion must fail loudly.
-model BundleTeachingPackage {
-  bundleId          String @map("bundle_id")
-  teachingPackageId String @map("teaching_package_id")
-
-  bundle          Bundle          @relation(fields: [bundleId], references: [id], onDelete: Cascade)
-  teachingPackage TeachingPackage @relation(fields: [teachingPackageId], references: [id])
-
-  @@id([bundleId, teachingPackageId])
-  @@map("bundle_teaching_packages")
 }
 
 // Notify-me email captures for the pre-launch home page.

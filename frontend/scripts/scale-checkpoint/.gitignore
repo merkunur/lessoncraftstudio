@@ -1,5 +1,0 @@
-# Runtime outputs from capture-strips.js + run-loadtest.js — ephemeral
-# verification artifacts; not committed.
-capture-output.json
-loadtest-results.json
-*.log

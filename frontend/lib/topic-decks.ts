@@ -236,11 +236,16 @@ export async function listNonEmptyIntersections(
   axis1: Axis,
   axis2: Axis,
   locale: string
-): Promise<Array<{ key1: string; key2: string }>> {
+): Promise<Array<{ key1: string; key2: string; lastModified: Date | null }>> {
   if (axis1 === axis2) return [];
+  // Pull `updatedAt` in the same findMany so callers (sitemap shard 2 per
+  // §17.10.1) can derive per-intersection lastmod without a second DB
+  // round-trip. Replaces the previous per-intersection
+  // intersectionLastModified() N+1 query (1 DB call per tuple × thousands
+  // of tuples = static-export worker SIGTERMs at the 5-min budget).
   const decks = await prisma.deck.findMany({
     where: { language: locale, status: 'published' },
-    select: { exerciseType: true, ageRange: true, subjectTags: true },
+    select: { exerciseType: true, ageRange: true, subjectTags: true, updatedAt: true },
   });
 
   // Reverse-map ageRange (e.g. '5-7') to the educational-level axis-key
@@ -269,19 +274,26 @@ export async function listNonEmptyIntersections(
     return [];
   }
 
-  const seen = new Set<string>();
-  const out: Array<{ key1: string; key2: string }> = [];
+  // Aggregate max(updatedAt) per (key1, key2) tuple in one pass.
+  const tupleLastMod = new Map<string, Date>();
   for (const d of decks) {
     const ks1 = keysFor(axis1, d);
     const ks2 = keysFor(axis2, d);
     for (const k1 of ks1) {
       for (const k2 of ks2) {
         const key = `${k1}|${k2}`;
-        if (seen.has(key)) continue;
-        seen.add(key);
-        out.push({ key1: k1, key2: k2 });
+        const current = tupleLastMod.get(key);
+        if (!current || d.updatedAt > current) {
+          tupleLastMod.set(key, d.updatedAt);
+        }
       }
     }
+  }
+
+  const out: Array<{ key1: string; key2: string; lastModified: Date | null }> = [];
+  for (const [key, lastModified] of tupleLastMod) {
+    const [k1, k2] = key.split('|');
+    out.push({ key1: k1, key2: k2, lastModified });
   }
   return out;
 }

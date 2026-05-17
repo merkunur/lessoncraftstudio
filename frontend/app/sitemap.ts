@@ -129,60 +129,53 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       ];
 
       for (const [axis1, axis2] of PAIRS) {
-        // PRECOMPUTE: enumerate non-empty intersections ONCE per (axis1, axis2, locale).
-        // Previously, the per-intersection sibling-check loop called
-        // listNonEmptyIntersections(axis1, axis2, sib) inside a triple-nested loop —
-        // O(pairs × locales × intersections × 11 siblings) DB queries. At 1K+
-        // intersections × 11 locales × 11 siblings × 3 pairs ≈ 363K DB queries
-        // serially → static-export worker SIGTERMs at 5-min budget per
-        // /sitemap/2.xml render. Hoisting the enumeration to the (axis1, axis2)
-        // loop level reduces to O(pairs × locales) = 33 queries total.
-        const sibIntersectionMap = new Map<string, Set<string>>();
+        // PRECOMPUTE: enumerate non-empty intersections ONCE per (axis1, axis2, sib).
+        // listNonEmptyIntersections now returns per-tuple lastModified in the
+        // same DB call (single findMany + JS aggregation per locale per pair),
+        // so we get sibling-honesty + lastmod accuracy in O(pairs × locales) =
+        // 33 queries total. Was previously O(363K+) DB queries via N+1 in the
+        // per-intersection sibling-check + per-intersection intersectionLastModified
+        // calls; both refactored into the single listNonEmptyIntersections pass.
+        const sibIntersectionMap = new Map<string, Map<string, Date | null>>();
         for (const sib of TOPIC_LOCALES) {
           try {
             const sibInts = await listNonEmptyIntersections(axis1, axis2, sib);
-            sibIntersectionMap.set(sib, new Set(sibInts.map(p => `${p.key1}|${p.key2}`)));
+            const m = new Map<string, Date | null>();
+            for (const p of sibInts) m.set(`${p.key1}|${p.key2}`, p.lastModified);
+            sibIntersectionMap.set(sib, m);
           } catch (e) {
             console.warn(`[sitemap] sibling intersection enumeration failed (${axis1}×${axis2}, ${sib}):`, (e as Error).message);
-            sibIntersectionMap.set(sib, new Set());
+            sibIntersectionMap.set(sib, new Map());
           }
         }
 
         for (const locale of TOPIC_LOCALES) {
-          // Reuse precomputed result for this locale's own intersections.
           const ownIntersections = sibIntersectionMap.get(locale);
           if (!ownIntersections || ownIntersections.size === 0) continue;
 
-          for (const tupleKey of ownIntersections) {
+          for (const [tupleKey, tupleLastMod] of ownIntersections) {
             const [key1, key2] = tupleKey.split('|');
             const slug1 = getAxisSlug(axis1, key1, locale);
             const slug2 = getAxisSlug(axis2, key2, locale);
             if (!slug1 || !slug2) continue;
 
-            // Hreflang alternates: lookup against precomputed sibIntersectionMap.
-            // O(1) per sibling instead of O(DB query).
+            // Hreflang alternates: O(1) Map lookup per sibling.
             const alternates: Record<string, string> = {};
             for (const sib of TOPIC_LOCALES) {
               const sibSlug1 = getAxisSlug(axis1, key1, sib);
               const sibSlug2 = getAxisSlug(axis2, key2, sib);
               if (!sibSlug1 || !sibSlug2) continue;
-              const sibSet = sibIntersectionMap.get(sib);
-              if (!sibSet || !sibSet.has(tupleKey)) continue;
+              const sibMap = sibIntersectionMap.get(sib);
+              if (!sibMap || !sibMap.has(tupleKey)) continue;
               alternates[getHreflangCode(sib)] =
                 `${baseUrl}/${sib}/topic/${sibSlug1}/${sibSlug2}/`;
             }
             const enKey = getHreflangCode('en' as TopicLocale);
             if (alternates[enKey]) alternates['x-default'] = alternates[enKey];
 
-            // lastmod = STATIC_CONTENT_DATE (BUILD_DATE). Per-intersection
-            // intersectionLastModified would add 1 DB query × ~1K intersections
-            // × 11 locales × 3 pairs = ~33K serial DB queries during static
-            // export, blowing the 5-min worker budget. Sitemap lastmod is a
-            // soft signal; build date is acceptable accuracy and unblocks
-            // /sitemap/2.xml generation at scale.
             routes.push({
               url: `${baseUrl}/${locale}/topic/${slug1}/${slug2}/`,
-              lastModified: STATIC_CONTENT_DATE,
+              lastModified: tupleLastMod ?? STATIC_CONTENT_DATE,
               changeFrequency: 'weekly',
               priority: 0.4,
               alternates: { languages: alternates },

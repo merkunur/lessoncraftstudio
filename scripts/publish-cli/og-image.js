@@ -113,8 +113,10 @@ async function derive(thumbnailBuffer, opts) {
     ]);
 
   // Step 4: optional XMP packet (Phase 3).
-  if (opts.xmpBuffer && Buffer.isBuffer(opts.xmpBuffer)) {
-    pipeline = pipeline.withXmp(opts.xmpBuffer);
+  if (opts.xmpPacket && typeof opts.xmpPacket === 'string' && opts.xmpPacket.length > 0) {
+    pipeline = pipeline.withXmp(opts.xmpPacket);
+  } else if (opts.xmpBuffer && Buffer.isBuffer(opts.xmpBuffer)) {
+    pipeline = pipeline.withXmp(opts.xmpBuffer.toString('utf8'));
   }
 
   var ogBuffer = await pipeline

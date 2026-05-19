@@ -45,14 +45,14 @@
       "ogAlt": "LessonCraftStudio — K-3-arbejdsark på mange sprog"
     },
     "hero": {
-      "title": "Worksheets in many languages, printable and interactive.",
-      "subtitle": "Our worksheet creators generate a wide range of worksheet types — addition, crosswords, sudoku, picture sorts, find-and-count, and more. Most of them produce both a printable PDF and a browser-playable interactive version from the same setup.",
-      "interaction": "Built for teachers in bilingual, dual-language, and international schools.",
-      "cta": "Join for free →"
+      "title": "Arbejdsark på flere sprog, printbare og interaktive.",
+      "subtitle": "Vores arbejdsark-generatorer skaber et bredt udvalg af arbejdsark-typer — addition, krydsord, sudoku, billedsortering, find-og-tæl, og mere. De fleste laver både en printbar PDF og en interaktiv version, der kan spilles i browseren, ud fra samme opsætning.",
+      "interaction": "Bygget til lærere i tosprogede programmer, tosprogede klasseværelser og internationale skoler.",
+      "cta": "Tilmeld dig gratis →"
     },
     "fourCardGrid": {
       "sectionTitle": "Vores læringsbibliotek",
-      "intro": "Worksheets, worksheet creators, and interactive activities — everything a K-3 multilingual classroom needs, across many languages.",
+      "intro": "Arbejdsark, arbejdsark-generatorer og interaktive aktiviteter — alt hvad et K-3-klasseværelse i flersproget miljø behøver, på flere sprog.",
       "worksheets": {
         "title": "Arbejdsark",
         "description": "Printbare PDF'er på mange sprog med K-3-illustrationer og grammatisk korrekt ordforråd. Et bredt udvalg af øvelsestyper på tværs af mange temaer.",
@@ -147,24 +147,24 @@
       "breadthIntro": "Tryk på et hvilket som helst for at spille et helt arbejdsark — ligesom dine elever."
     },
     "subscription": {
-      "sectionTitle": "Everything we make, free for teachers.",
-      "intro": "Sign up to play every worksheet, download every PDF, and use every worksheet creator. No tiers, no subscription — just free for teachers.",
+      "sectionTitle": "Alt vi laver, gratis for lærere.",
+      "intro": "Tilmeld dig for at spille hvert arbejdsark, downloade hver PDF og bruge hver arbejdsark-generator. Ingen niveauer, intet abonnement — bare gratis for lærere.",
       "catalog": {
-        "title": "Full worksheet catalog",
-        "body": "Printable and interactive worksheets across many languages. Unlimited downloads of every existing deck plus everything we publish through the year."
+        "title": "Fuldt arbejdsark-katalog",
+        "body": "Printbare og interaktive arbejdsark på flere sprog. Ubegrænsede downloads af hvert eksisterende deck plus alt vi udgiver i løbet af året."
       },
       "creators": {
-        "title": "Every worksheet creator",
-        "body": "A wide range of worksheet types — math, literacy, puzzles, matching, search. Generate as many variations as you need. Most of the apps output both printable and interactive formats from a single setup."
+        "title": "Hver arbejdsark-generator",
+        "body": "Et bredt udvalg af arbejdsark-typer — matematik, læse- og skrivefærdigheder, puslespil, par sammen, søg. Lav så mange varianter du har brug for. De fleste apper laver både printbare og interaktive formater ud fra en enkelt opsætning."
       },
       "assets": {
-        "title": "A vast theme library, a large image collection, many languages",
-        "body": "The illustration library and vocabulary system that lets the same worksheet work across languages — grammatically correct gender, plurals, and diacritics in each language."
+        "title": "Et omfattende temabibliotek, en stor billedsamling, flere sprog",
+        "body": "Illustrationsbiblioteket og ordforrådssystemet som lader det samme arbejdsark fungere på forskellige sprog — grammatisk korrekt køn, flertal og diakritiske tegn på hvert sprog."
       },
-      "price": "Free for everyone with a teacher account.",
-      "subscribeCta": "Join for free →",
-      "subscribeSubCopy": "Free for all teachers. Sign-up takes just a moment.",
-      "alreadySubscribedCta": "Go to workspace"
+      "price": "Gratis for alle med en lærerkonto.",
+      "subscribeCta": "Tilmeld dig gratis →",
+      "subscribeSubCopy": "Gratis for alle lærere. Tilmeldingen tager kun et øjeblik.",
+      "alreadySubscribedCta": "Gå til arbejdsområdet"
     },
     "exerciseTypeGrid": {
       "heading": "Enhver K-3 øvelsestype, på dit sprog.",

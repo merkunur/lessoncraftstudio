@@ -45,14 +45,14 @@
       "ogAlt": "LessonCraftStudio — K-3-arbetsblad på många språk"
     },
     "hero": {
-      "title": "Worksheets in many languages, printable and interactive.",
-      "subtitle": "Our worksheet creators generate a wide range of worksheet types — addition, crosswords, sudoku, picture sorts, find-and-count, and more. Most of them produce both a printable PDF and a browser-playable interactive version from the same setup.",
-      "interaction": "Built for teachers in bilingual, dual-language, and international schools.",
-      "cta": "Join for free →"
+      "title": "Arbetsblad på flera språk, utskrivbara och interaktiva.",
+      "subtitle": "Våra arbetsbladsgeneratorer skapar ett brett urval av arbetsbladstyper — addition, korsord, sudoku, bildsortering, hitta-och-räkna, och mer. De flesta producerar både ett utskrivbart PDF och en interaktiv version som spelas i webbläsaren från samma inställning.",
+      "interaction": "Byggt för lärare i tvåspråkiga program, tvåspråkiga klassrum och internationella skolor.",
+      "cta": "Gå med gratis →"
     },
     "fourCardGrid": {
       "sectionTitle": "Vårt lärandebibliotek",
-      "intro": "Worksheets, worksheet creators, and interactive activities — everything a K-3 multilingual classroom needs, across many languages.",
+      "intro": "Arbetsblad, arbetsbladsgeneratorer och interaktiva aktiviteter — allt som ett K-3-klassrum i flerspråkig miljö behöver, på flera språk.",
       "worksheets": {
         "title": "Arbetsblad",
         "description": "Utskrivbara PDF:er på många språk med K-3-illustrationer och grammatiskt korrekt vokabulär. Ett brett urval övningstyper över många teman.",
@@ -147,24 +147,24 @@
       "breadthIntro": "Tryck på vilken som helst för att spela ett helt arbetsblad — precis som dina elever."
     },
     "subscription": {
-      "sectionTitle": "Everything we make, free for teachers.",
-      "intro": "Sign up to play every worksheet, download every PDF, and use every worksheet creator. No tiers, no subscription — just free for teachers.",
+      "sectionTitle": "Allt vi skapar, gratis för lärare.",
+      "intro": "Registrera dig för att spela varje arbetsblad, ladda ner varje PDF och använda varje arbetsbladsgenerator. Inga nivåer, inget abonnemang — bara gratis för lärare.",
       "catalog": {
-        "title": "Full worksheet catalog",
-        "body": "Printable and interactive worksheets across many languages. Unlimited downloads of every existing deck plus everything we publish through the year."
+        "title": "Fullständig arbetsbladskatalog",
+        "body": "Utskrivbara och interaktiva arbetsblad på flera språk. Obegränsade nedladdningar av varje befintligt deck plus allt vi publicerar under året."
       },
       "creators": {
-        "title": "Every worksheet creator",
-        "body": "A wide range of worksheet types — math, literacy, puzzles, matching, search. Generate as many variations as you need. Most of the apps output both printable and interactive formats from a single setup."
+        "title": "Varje arbetsbladsgenerator",
+        "body": "Ett brett urval av arbetsbladstyper — matematik, läs- och skrivkunnighet, pussel, para ihop, sök. Skapa så många varianter du behöver. De flesta apparna producerar både utskrivbara och interaktiva format från en enda inställning."
       },
       "assets": {
-        "title": "A vast theme library, a large image collection, many languages",
-        "body": "The illustration library and vocabulary system that lets the same worksheet work across languages — grammatically correct gender, plurals, and diacritics in each language."
+        "title": "Ett omfattande temabibliotek, en stor bildsamling, flera språk",
+        "body": "Illustrationsbiblioteket och ordförrådssystemet som låter samma arbetsblad fungera på olika språk — grammatiskt korrekt genus, plural och diakritiska tecken på varje språk."
       },
-      "price": "Free for everyone with a teacher account.",
-      "subscribeCta": "Join for free →",
-      "subscribeSubCopy": "Free for all teachers. Sign-up takes just a moment.",
-      "alreadySubscribedCta": "Go to workspace"
+      "price": "Gratis för alla med ett lärarkonto.",
+      "subscribeCta": "Gå med gratis →",
+      "subscribeSubCopy": "Gratis för alla lärare. Registreringen tar bara ett ögonblick.",
+      "alreadySubscribedCta": "Gå till arbetsytan"
     },
     "exerciseTypeGrid": {
       "heading": "Varje K-3 övningstyp, på ditt språk.",

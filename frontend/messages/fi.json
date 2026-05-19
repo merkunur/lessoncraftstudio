@@ -45,14 +45,14 @@
       "ogAlt": "LessonCraftStudio — K-3-tehtäväarkit monilla kielillä"
     },
     "hero": {
-      "title": "Worksheets in many languages, printable and interactive.",
-      "subtitle": "Our worksheet creators generate a wide range of worksheet types — addition, crosswords, sudoku, picture sorts, find-and-count, and more. Most of them produce both a printable PDF and a browser-playable interactive version from the same setup.",
-      "interaction": "Built for teachers in bilingual, dual-language, and international schools.",
-      "cta": "Join for free →"
+      "title": "Tehtäväarkit monilla kielillä, tulostettavia ja interaktiivisia.",
+      "subtitle": "Tehtäväpohjien luojamme tuottavat laajan valikoiman tehtäväarkkityyppejä — yhteenlasku, ristisanatehtäviä, sudoku, kuvalajittelu, etsi-ja-laske, ja paljon muuta. Useimmat tuottavat sekä tulostettavan PDF:n että selaimessa pelattavan interaktiivisen version samasta asetuksesta.",
+      "interaction": "Rakennettu opettajille kaksikielisissä ohjelmissa, kaksikielisissä luokissa ja kansainvälisissä kouluissa.",
+      "cta": "Liity ilmaiseksi →"
     },
     "fourCardGrid": {
       "sectionTitle": "Oppimiskirjastomme",
-      "intro": "Worksheets, worksheet creators, and interactive activities — everything a K-3 multilingual classroom needs, across many languages.",
+      "intro": "Tehtäväarkkeja, tehtävägeneraattoreita ja interaktiivisia aktiviteetteja — kaikki mitä K-3-luokka monikielisessä ympäristössä tarvitsee, monilla kielillä.",
       "worksheets": {
         "title": "Tehtäväarkit",
         "description": "Tulostettavat PDF:t monilla kielillä K-3-kuvituksilla ja kieliopillisesti oikealla sanastolla. Laaja valikoima tehtävätyyppejä lukuisissa teemoissa.",
@@ -147,24 +147,24 @@
       "breadthIntro": "Napauta mitä tahansa pelataksesi koko tehtäväsivun — aivan kuten oppilaasi."
     },
     "subscription": {
-      "sectionTitle": "Everything we make, free for teachers.",
-      "intro": "Sign up to play every worksheet, download every PDF, and use every worksheet creator. No tiers, no subscription — just free for teachers.",
+      "sectionTitle": "Kaikki mitä teemme, ilmaiseksi opettajille.",
+      "intro": "Rekisteröidy pelataksesi jokaista tehtäväarkkia, ladataksesi jokaista PDF:ää ja käyttääksesi jokaista tehtävägeneraattoria. Ei tasoja, ei tilausta — pelkkä ilmainen opettajille.",
       "catalog": {
-        "title": "Full worksheet catalog",
-        "body": "Printable and interactive worksheets across many languages. Unlimited downloads of every existing deck plus everything we publish through the year."
+        "title": "Täysi tehtäväarkkikatalogi",
+        "body": "Tulostettavia ja interaktiivisia tehtäväarkkeja monilla kielillä. Rajoittamattomat lataukset jokaisesta olemassa olevasta korttipakasta sekä kaikki, mitä julkaisemme vuoden aikana."
       },
       "creators": {
-        "title": "Every worksheet creator",
-        "body": "A wide range of worksheet types — math, literacy, puzzles, matching, search. Generate as many variations as you need. Most of the apps output both printable and interactive formats from a single setup."
+        "title": "Jokainen tehtävägeneraattori",
+        "body": "Laaja valikoima tehtäväarkkityyppejä — matematiikka, lukutaito, pulmat, yhdistäminen, etsiminen. Luo niin monta variaatiota kuin tarvitset. Useimmat sovellukset tuottavat sekä tulostettavia että interaktiivisia muotoja yhdellä asetuksella."
       },
       "assets": {
-        "title": "A vast theme library, a large image collection, many languages",
-        "body": "The illustration library and vocabulary system that lets the same worksheet work across languages — grammatically correct gender, plurals, and diacritics in each language."
+        "title": "Laaja teemakirjasto, suuri kuvakokoelma, useita kieliä",
+        "body": "Kuvituskirjasto ja sanasto­järjestelmä, jotka mahdollistavat saman tehtäväarkin toimimisen eri kielillä — kieliopillisesti oikea sukupuoli, monikko ja diakriittiset merkit jokaisella kielellä."
       },
-      "price": "Free for everyone with a teacher account.",
-      "subscribeCta": "Join for free →",
-      "subscribeSubCopy": "Free for all teachers. Sign-up takes just a moment.",
-      "alreadySubscribedCta": "Go to workspace"
+      "price": "Ilmainen kaikille opettajan tilin omistajille.",
+      "subscribeCta": "Liity ilmaiseksi →",
+      "subscribeSubCopy": "Ilmainen kaikille opettajille. Rekisteröityminen vie vain hetken.",
+      "alreadySubscribedCta": "Mene työtilaan"
     },
     "exerciseTypeGrid": {
       "heading": "Jokainen K-3-tehtävätyyppi, omalla kielelläsi.",

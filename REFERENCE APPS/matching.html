@@ -11,7 +11,7 @@
     <title>MatchUp Maker</title>
     <!-- Load complete professional translations -->
     <script src="js/translations-matchup-maker.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=9"></script>
+    <script src="js/translations-shared.js?v=10"></script>
     <script src="js/image-vocabulary.js?v=3"></script>
     <script src="js/bulletproof-loader.js"></script>
     <script src="js/unified-language-manager.js"></script>
@@ -1212,6 +1212,8 @@
                         <div id="downloadDropdownContent" class="dropdown-content">
                             <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadPdfBtn" disabled data-translate="pdfWorksheet">PDF Worksheet</button>
+                            <button id="downloadAnswerKeyPdfBtn" disabled data-translate="pdfAnswerKey">Answer Key (PDF)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
                             <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
@@ -1360,6 +1362,8 @@
         
         // New Download Buttons
         const exportToCatalogBtn = $('exportToCatalogBtn');
+        const downloadPdfBtn = $('downloadPdfBtn');
+        const downloadAnswerKeyPdfBtn = $('downloadAnswerKeyPdfBtn');
         const downloadInteractiveHtmlBtn = $('downloadInteractiveHtmlBtn');
 
         // Zoom Controls
@@ -2848,6 +2852,7 @@
                 generateAnswerKeyBtn.disabled = false;
                 downloadDropdownBtn.disabled = false;
                 if (downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = false;
+                if (downloadPdfBtn) downloadPdfBtn.disabled = false;
 
                 // Undo/Redo: Reset flag and save state after generation
                 isGenerating = false;
@@ -2929,6 +2934,7 @@
             answerKeyCanvas.renderAll();
 
             exportToCatalogBtn.disabled = false;
+            if (downloadAnswerKeyPdfBtn) downloadAnswerKeyPdfBtn.disabled = false;
 
             // Undo/Redo: Reset flag and save state after generation
             isGenerating = false;
@@ -4536,6 +4542,8 @@
             downloadDropdownBtn.disabled = true;
             exportToCatalogBtn.disabled = true;
             if (downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = true;
+            if (downloadPdfBtn) downloadPdfBtn.disabled = true;
+            if (downloadAnswerKeyPdfBtn) downloadAnswerKeyPdfBtn.disabled = true;
             generateAnswerKeyBtn.disabled = true;
             
             showMessage(t('clearedAllSettings'), "success");
@@ -4899,6 +4907,8 @@
             // New Download Listeners
             downloadInteractiveHtmlBtn.onclick = () => downloadInteractiveHtml(worksheetCanvas, 'matching_interactive.html', { loadingMode: 'inline' });
             exportToCatalogBtn.onclick = handleExportToCatalog;
+            downloadPdfBtn.onclick = () => downloadPDF(worksheetCanvas, 'worksheet.pdf');
+            downloadAnswerKeyPdfBtn.onclick = () => downloadPDF(answerKeyCanvas, 'answer-key.pdf');
             
             menuToggleBtn.addEventListener('click', openMenu);
             menuCloseBtn.addEventListener('click', closeMenu);

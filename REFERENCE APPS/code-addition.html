@@ -15,7 +15,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="js/translations.js"></script>
   <script src="js/translations-code-addition.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=9"></script>
+    <script src="js/translations-shared.js?v=10"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
     <script>
     // Ensure translations are loaded
@@ -1296,10 +1296,13 @@
             <div id="downloadDropdownContent" class="dropdown-content">
               <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
               <hr style="margin: 6px 0; border-color: #eee;">
-              <button id="downloadInteractiveHtmlBtn" disabled data-translate="codeaddition.download.interactive.html">Interactive Worksheet (HTML)</button>
+              <button id="downloadPdfBtn" disabled data-translate="pdfWorksheet">PDF Worksheet</button>
+              <button id="downloadAnswerKeyPdfBtn" disabled data-translate="pdfAnswerKey">Answer Key (PDF)</button>
+              <hr style="margin: 6px 0; border-color: #eee;">
+              <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
               <hr style="margin: 6px 0; border-color: #eee;">
               <label class="checkbox-label" id="grayscaleLabel">
-                <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
+                <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
               </label>
             </div>
           </div>
@@ -1757,6 +1760,8 @@
         const unlockAllControls = document.getElementById('unlockAllControls');
 
         const exportToCatalogBtn = document.getElementById('exportToCatalogBtn');
+        const downloadPdfBtn = document.getElementById('downloadPdfBtn');
+        const downloadAnswerKeyPdfBtn = document.getElementById('downloadAnswerKeyPdfBtn');
         const downloadInteractiveHtmlBtn = document.getElementById('downloadInteractiveHtmlBtn');
 
         const pageSizeSelect = document.getElementById('pageSizeSelect');
@@ -3145,6 +3150,7 @@
 
             updateDownloadButtonsState(true);
             downloadInteractiveHtmlBtn.disabled = false;
+            downloadPdfBtn.disabled = false;
             // Required by image-reference.js propagation checklist item 10.
             window.__lcsGenerationCounter = (window.__lcsGenerationCounter || 0) + 1;
             generateAnswerKeyBtn.disabled = false;
@@ -3446,6 +3452,7 @@
             isFirstAnswerKeyGeneration = false;
 
             exportToCatalogBtn.disabled = false;
+            downloadAnswerKeyPdfBtn.disabled = false;
 
             document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
             showMessage(t('codeaddition.msg.answer.generated'), 'success');
@@ -4167,6 +4174,8 @@
 
             exportToCatalogBtn.disabled = true;
             downloadInteractiveHtmlBtn.disabled = true;
+            downloadPdfBtn.disabled = true;
+            downloadAnswerKeyPdfBtn.disabled = true;
 
             generateAnswerKeyBtn.disabled = true;
 
@@ -5574,6 +5583,14 @@ async function downloadPDF(canvasInstance, baseFileName, opts) {
             downloadInteractiveHtml(worksheetCanvas, 'code-addition_interactive.html', { loadingMode: 'inline' });
             downloadDropdownContent.style.display = 'none';
         });
+        downloadPdfBtn.addEventListener("click", () => {
+            downloadPDF(worksheetCanvas, 'worksheet');
+            downloadDropdownContent.style.display = 'none';
+        });
+        downloadAnswerKeyPdfBtn.addEventListener("click", () => {
+            downloadPDF(answerKeyCanvas, 'answer-key');
+            downloadDropdownContent.style.display = 'none';
+        });
         exportToCatalogBtn.addEventListener("click", () => {
             handleExportToCatalog();
             downloadDropdownContent.style.display = 'none';
@@ -5952,6 +5969,8 @@ async function downloadPDF(canvasInstance, baseFileName, opts) {
         
         exportToCatalogBtn.disabled = true;
         downloadInteractiveHtmlBtn.disabled = true;
+        downloadPdfBtn.disabled = true;
+        downloadAnswerKeyPdfBtn.disabled = true;
 
         // Initialize language selector
         if (languageSelect && currentLocale) {

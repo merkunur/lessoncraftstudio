@@ -12,7 +12,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="js/translations-missing-pieces.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=9"></script>
+    <script src="js/translations-shared.js?v=10"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
@@ -1376,10 +1376,13 @@
                         <div id="downloadDropdownContent" class="dropdown-content">
                             <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadPdfBtn" disabled data-translate="pdfWorksheet">PDF Worksheet</button>
+                            <button id="downloadAnswerKeyPdfBtn" disabled data-translate="pdfAnswerKey">Answer Key (PDF)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
                             <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
                             <label class="checkbox-label" id="grayscaleLabel">
-                                <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
+                                <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
                             </label>
                         </div>
                     </div>
@@ -1489,6 +1492,8 @@
         const downloadDropdownBtn = document.getElementById("downloadDropdownBtn");
         const downloadDropdownContent = document.getElementById("downloadDropdownContent");
         const exportToCatalogBtn = document.getElementById("exportToCatalogBtn");
+        const downloadPdfBtn = document.getElementById("downloadPdfBtn");
+        const downloadAnswerKeyPdfBtn = document.getElementById("downloadAnswerKeyPdfBtn");
         const downloadInteractiveHtmlBtn = document.getElementById("downloadInteractiveHtmlBtn");
         const clearBtn = document.getElementById("clearBtn");
         const grayscaleToggle = document.getElementById('grayscaleToggle');
@@ -3271,6 +3276,7 @@
                 }
 
                 generateAnswerKeyBtn.disabled = false;
+                downloadPdfBtn.disabled = false;
                 if (downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = false;
                 showMessage(t('missingpieces.msg.worksheet.success'), "success");
 
@@ -3337,6 +3343,7 @@
                 isRestoring = false;
 
                 exportToCatalogBtn.disabled = false;
+                downloadAnswerKeyPdfBtn.disabled = false;
                 document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
                 showMessage(t('missingpieces.msg.answer.generated'), 'success');
 
@@ -4603,6 +4610,8 @@ async function downloadPDF(canvasToExport, filename, opts) {
             if(worksheetCanvas) worksheetCanvas.backgroundColor = '#FFFFFF';
             if(answerKeyCanvas) answerKeyCanvas.backgroundColor = '#FFFFFF';
             [generateAnswerKeyBtn, exportToCatalogBtn].forEach(b => b.disabled = true);
+            downloadPdfBtn.disabled = true;
+            downloadAnswerKeyPdfBtn.disabled = true;
             if (downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = true;
             if (generateDropdownContent) generateDropdownContent.style.display = 'none';
             if (downloadDropdownContent) downloadDropdownContent.style.display = 'none';
@@ -4658,6 +4667,8 @@ async function downloadPDF(canvasToExport, filename, opts) {
                 downloadInteractiveHtml(worksheetCanvas, 'missing_pieces_interactive.html', { loadingMode: 'inline' }));
         }
         exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
+        downloadPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
+        downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'answer-key.pdf'));
 
         themeSelect.addEventListener("change", loadDictionary);
         searchInput.addEventListener("input", () => { if (this.searchTimeout) clearTimeout(this.searchTimeout); this.searchTimeout = setTimeout(loadDictionary, 300); });

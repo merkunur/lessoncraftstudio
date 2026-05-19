@@ -105,7 +105,20 @@ const SHARED_TRANSLATIONS = {
     "runtimeCorrect": "correct",
     "runtimeScore": "{n} of {total} correct",
     "runtimeProgressLabel": "{n} / {total}",
-    "runtimeFirstTryStars": "first-try stars"
+    "runtimeFirstTryStars": "first-try stars",
+
+    // Download UI v1 — labels for the worksheet-generator app download
+    // dropdown. Consumed by all 33 apps. Previously per-app translation
+    // files omitted these keys; t()-returns-key-on-miss leaked raw
+    // "exportToCatalog"/"interactiveWorksheetHtml"/"common.grayscale"
+    // into the UI. Promoted to shared per §14.3a ≥2-consumer rule.
+    "download": "Download",
+    "exportToCatalog": "Export to catalog",
+    "pdfWorksheet": "PDF Worksheet",
+    "pdfAnswerKey": "Answer Key (PDF)",
+    "interactiveWorksheetHtml": "Interactive Worksheet (HTML)",
+    "jpegImage": "JPEG Image",
+    "grayscale": "Grayscale"
   },
   "de": {
     "srShapeSquare": "Quadrat",
@@ -163,7 +176,16 @@ const SHARED_TRANSLATIONS = {
     "runtimeCorrect": "richtig",
     "runtimeScore": "{n} von {total} richtig",
     "runtimeProgressLabel": "{n} / {total}",
-    "runtimeFirstTryStars": "Sterne im ersten Versuch"
+    "runtimeFirstTryStars": "Sterne im ersten Versuch",
+
+    // Download UI v1
+    "download": "Herunterladen",
+    "exportToCatalog": "Zum Katalog exportieren",
+    "pdfWorksheet": "PDF-Arbeitsblatt",
+    "pdfAnswerKey": "Lösungsbogen (PDF)",
+    "interactiveWorksheetHtml": "Interaktives Arbeitsblatt (HTML)",
+    "jpegImage": "JPEG-Bild",
+    "grayscale": "Graustufen"
   },
 
   // Tier-1+2 + Tier-4 Romance locales — operator-best-effort embed authoring
@@ -199,7 +221,16 @@ const SHARED_TRANSLATIONS = {
     "runtimeCorrect": "correctas",
     "runtimeScore": "{n} de {total} correctas",
     "runtimeProgressLabel": "{n} / {total}",
-    "runtimeFirstTryStars": "estrellas al primer intento"
+    "runtimeFirstTryStars": "estrellas al primer intento",
+
+    // Download UI v1
+    "download": "Descargar",
+    "exportToCatalog": "Exportar al catálogo",
+    "pdfWorksheet": "Ficha PDF",
+    "pdfAnswerKey": "Soluciones (PDF)",
+    "interactiveWorksheetHtml": "Ficha interactiva (HTML)",
+    "jpegImage": "Imagen JPEG",
+    "grayscale": "Escala de grises"
   },
   "nl": {
     "embedHeader": "Dit werkblad op je site insluiten",
@@ -230,7 +261,16 @@ const SHARED_TRANSLATIONS = {
     "runtimeCorrect": "goed",
     "runtimeScore": "{n} van {total} goed",
     "runtimeProgressLabel": "{n} / {total}",
-    "runtimeFirstTryStars": "sterren in eerste poging"
+    "runtimeFirstTryStars": "sterren in eerste poging",
+
+    // Download UI v1
+    "download": "Downloaden",
+    "exportToCatalog": "Exporteren naar catalogus",
+    "pdfWorksheet": "Werkblad (PDF)",
+    "pdfAnswerKey": "Antwoordsleutel (PDF)",
+    "interactiveWorksheetHtml": "Interactief werkblad (HTML)",
+    "jpegImage": "JPEG-afbeelding",
+    "grayscale": "Grijswaarden"
   },
   "fr": {
     "embedHeader": "Intégrer cette fiche sur votre site",
@@ -261,7 +301,16 @@ const SHARED_TRANSLATIONS = {
     "runtimeCorrect": "correct",
     "runtimeScore": "{n} sur {total} correct",
     "runtimeProgressLabel": "{n} / {total}",
-    "runtimeFirstTryStars": "étoiles au premier essai"
+    "runtimeFirstTryStars": "étoiles au premier essai",
+
+    // Download UI v1
+    "download": "Télécharger",
+    "exportToCatalog": "Exporter vers le catalogue",
+    "pdfWorksheet": "Fiche PDF",
+    "pdfAnswerKey": "Corrigé (PDF)",
+    "interactiveWorksheetHtml": "Fiche interactive (HTML)",
+    "jpegImage": "Image JPEG",
+    "grayscale": "Niveaux de gris"
   },
   "it": {
     "embedHeader": "Incorpora questa scheda sul tuo sito",
@@ -292,7 +341,16 @@ const SHARED_TRANSLATIONS = {
     "runtimeCorrect": "corretto",
     "runtimeScore": "{n} su {total} corretto",
     "runtimeProgressLabel": "{n} / {total}",
-    "runtimeFirstTryStars": "stelle al primo tentativo"
+    "runtimeFirstTryStars": "stelle al primo tentativo",
+
+    // Download UI v1
+    "download": "Scarica",
+    "exportToCatalog": "Esporta nel catalogo",
+    "pdfWorksheet": "Scheda PDF",
+    "pdfAnswerKey": "Soluzioni (PDF)",
+    "interactiveWorksheetHtml": "Scheda interattiva (HTML)",
+    "jpegImage": "Immagine JPEG",
+    "grayscale": "Scala di grigi"
   },
   "pt": {
     // Brazilian Portuguese canonical per §6 (single 'pt' locale code; BR register).
@@ -324,7 +382,16 @@ const SHARED_TRANSLATIONS = {
     "runtimeCorrect": "correto",
     "runtimeScore": "{n} de {total} correto",
     "runtimeProgressLabel": "{n} / {total}",
-    "runtimeFirstTryStars": "estrelas na primeira tentativa"
+    "runtimeFirstTryStars": "estrelas na primeira tentativa",
+
+    // Download UI v1
+    "download": "Baixar",
+    "exportToCatalog": "Exportar para o catálogo",
+    "pdfWorksheet": "Atividade PDF",
+    "pdfAnswerKey": "Gabarito (PDF)",
+    "interactiveWorksheetHtml": "Atividade interativa (HTML)",
+    "jpegImage": "Imagem JPEG",
+    "grayscale": "Escala de cinza"
   },
 
   // Nordic locales — operator-best-effort embed authoring + NSR-flagged
@@ -363,7 +430,16 @@ const SHARED_TRANSLATIONS = {
     "runtimeCorrect": "rätt",
     "runtimeScore": "{n} av {total} rätt",
     "runtimeProgressLabel": "{n} / {total}",
-    "runtimeFirstTryStars": "stjärnor på första försöket"
+    "runtimeFirstTryStars": "stjärnor på första försöket",
+
+    // Download UI v1 — NSR-flagged per §17.5.1 Nordic-tier review posture
+    "download": "Ladda ner",
+    "exportToCatalog": "Exportera till katalog",
+    "pdfWorksheet": "PDF-arbetsblad",
+    "pdfAnswerKey": "Facit (PDF)",
+    "interactiveWorksheetHtml": "Interaktivt arbetsblad (HTML)",
+    "jpegImage": "JPEG-bild",
+    "grayscale": "Gråskala"
   },
   "da": {
     "embedHeader": "Indlejr dette arbejdsark på dit websted",
@@ -397,7 +473,16 @@ const SHARED_TRANSLATIONS = {
     "runtimeCorrect": "rigtigt",
     "runtimeScore": "{n} ud af {total} rigtigt",
     "runtimeProgressLabel": "{n} / {total}",
-    "runtimeFirstTryStars": "stjerner i første forsøg"
+    "runtimeFirstTryStars": "stjerner i første forsøg",
+
+    // Download UI v1 — NSR-flagged per §17.5.1 Nordic-tier review posture
+    "download": "Download",
+    "exportToCatalog": "Eksportér til katalog",
+    "pdfWorksheet": "PDF-arbejdsark",
+    "pdfAnswerKey": "Facitliste (PDF)",
+    "interactiveWorksheetHtml": "Interaktivt arbejdsark (HTML)",
+    "jpegImage": "JPEG-billede",
+    "grayscale": "Gråtoner"
   },
   "no": {
     // Bokmål canonical per §6 (single 'no' locale code).
@@ -432,7 +517,16 @@ const SHARED_TRANSLATIONS = {
     "runtimeCorrect": "riktig",
     "runtimeScore": "{n} av {total} riktig",
     "runtimeProgressLabel": "{n} / {total}",
-    "runtimeFirstTryStars": "stjerner på første forsøk"
+    "runtimeFirstTryStars": "stjerner på første forsøk",
+
+    // Download UI v1 — NSR-flagged per §17.5.1 Nordic-tier review posture
+    "download": "Last ned",
+    "exportToCatalog": "Eksporter til katalog",
+    "pdfWorksheet": "PDF-arbeidsark",
+    "pdfAnswerKey": "Fasit (PDF)",
+    "interactiveWorksheetHtml": "Interaktivt arbeidsark (HTML)",
+    "jpegImage": "JPEG-bilde",
+    "grayscale": "Gråtoner"
   },
   "fi": {
     "embedHeader": "Upota tämä työarkki sivustollesi",
@@ -466,7 +560,16 @@ const SHARED_TRANSLATIONS = {
     "runtimeCorrect": "oikein",
     "runtimeScore": "{n}/{total} oikein",
     "runtimeProgressLabel": "{n} / {total}",
-    "runtimeFirstTryStars": "tähteä ensimmäisellä yrityksellä"
+    "runtimeFirstTryStars": "tähteä ensimmäisellä yrityksellä",
+
+    // Download UI v1 — NSR-flagged per §17.5.1 Nordic-tier review posture
+    "download": "Lataa",
+    "exportToCatalog": "Vie luetteloon",
+    "pdfWorksheet": "PDF-työarkki",
+    "pdfAnswerKey": "Vastaukset (PDF)",
+    "interactiveWorksheetHtml": "Interaktiivinen työarkki (HTML)",
+    "jpegImage": "JPEG-kuva",
+    "grayscale": "Harmaasävy"
   }
 };
 

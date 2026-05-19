@@ -13,7 +13,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="js/translations-cryptogram.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=9"></script>
+    <script src="js/translations-shared.js?v=10"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js?v=1759320100"></script>
   <script>
@@ -1321,10 +1321,13 @@
             <div id="downloadDropdownContent" class="dropdown-content">
               <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
               <hr style="margin: 6px 0; border-color: #eee;">
-              <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveHtml">Interactive Worksheet (HTML)</button>
+              <button id="downloadPdfBtn" disabled data-translate="pdfWorksheet">PDF Worksheet</button>
+              <button id="downloadAnswerKeyPdfBtn" disabled data-translate="pdfAnswerKey">Answer Key (PDF)</button>
+              <hr style="margin: 6px 0; border-color: #eee;">
+              <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
               <hr style="margin: 6px 0; border-color: #eee;">
               <label class="checkbox-label" id="grayscaleLabel">
-                <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
+                <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
               </label>
             </div>
           </div>
@@ -2102,6 +2105,8 @@
 
             document.getElementById('downloadInteractiveHtmlBtn').addEventListener('click', () => downloadInteractiveHtml(worksheetCanvas, 'cryptogram_interactive.html', { loadingMode: 'inline' }));
             document.getElementById('exportToCatalogBtn').addEventListener('click', handleExportToCatalog);
+            document.getElementById('downloadPdfBtn').addEventListener('click', () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
+            document.getElementById('downloadAnswerKeyPdfBtn').addEventListener('click', () => downloadPDF(answerKeyCanvas, 'answer-key.pdf'));
 
             downloadDropdownContent.addEventListener('click', (e) => {
                 e.stopPropagation();
@@ -2317,6 +2322,8 @@
 
                 downloadDropdownBtn.disabled = false;
                 document.getElementById('downloadInteractiveHtmlBtn').disabled = false;
+                document.getElementById('downloadPdfBtn').disabled = false;
+                document.getElementById('downloadAnswerKeyPdfBtn').disabled = false;
                 // Required by image-reference.js propagation checklist item 10.
                 window.__lcsGenerationCounter = (window.__lcsGenerationCounter || 0) + 1;
 

@@ -12,7 +12,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="js/translations-odd-one-out.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=9"></script>
+    <script src="js/translations-shared.js?v=10"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
@@ -1457,10 +1457,13 @@
                         <div id="downloadDropdownContent" class="dropdown-content">
                             <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadPdfBtn" disabled data-translate="pdfWorksheet">PDF Worksheet</button>
+                            <button id="downloadAnswerKeyPdfBtn" disabled data-translate="pdfAnswerKey">Answer Key (PDF)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
                             <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
                             <label class="checkbox-label" id="grayscaleLabel">
-                                <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
+                                <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
                             </label>
                         </div>
                     </div>
@@ -1598,6 +1601,8 @@
         downloadDropdownContent: document.getElementById('downloadDropdownContent'),
         // START OF CHANGES
         exportToCatalogBtn: document.getElementById('exportToCatalogBtn'),
+        downloadPdfBtn: document.getElementById('downloadPdfBtn'),
+        downloadAnswerKeyPdfBtn: document.getElementById('downloadAnswerKeyPdfBtn'),
         downloadInteractiveHtmlBtn: document.getElementById('downloadInteractiveHtmlBtn'),
         // END OF CHANGES
         clearBtn: document.getElementById('clearBtn'),
@@ -3091,6 +3096,7 @@
         }
 
         ui.generateAnswerKeyBtn.disabled = false;
+        ui.downloadPdfBtn.disabled = false;
         if (ui.downloadInteractiveHtmlBtn) ui.downloadInteractiveHtmlBtn.disabled = false;
 
         // Reset flag and save initial state after generation completes
@@ -3190,6 +3196,7 @@
           showMessage(t('oddoneout.msg.answer.generated'), "success");
 
           ui.exportToCatalogBtn.disabled = false;
+          ui.downloadAnswerKeyPdfBtn.disabled = false;
       };
 
       const renderCardsToCanvas = async (rowsData, canvas, isAnswerKey, oldTransforms = {}) => {
@@ -4637,6 +4644,8 @@
         ui.generateAnswerKeyBtn.disabled = true;
         // START OF CHANGES
         ui.exportToCatalogBtn.disabled = true;
+        ui.downloadPdfBtn.disabled = true;
+        ui.downloadAnswerKeyPdfBtn.disabled = true;
         if (ui.downloadInteractiveHtmlBtn) ui.downloadInteractiveHtmlBtn.disabled = true;
         // END OF CHANGES
 
@@ -4671,6 +4680,7 @@
           // Disable answer key button until worksheet is regenerated
           ui.generateAnswerKeyBtn.disabled = true;
           ui.exportToCatalogBtn.disabled = true;
+          ui.downloadAnswerKeyPdfBtn.disabled = true;
           showMessage(t('oddoneout.msg.regenerate'), 'info');
         }
         
@@ -4713,6 +4723,8 @@
         // START OF CHANGES
         if (ui.downloadInteractiveHtmlBtn) ui.downloadInteractiveHtmlBtn.addEventListener('click', () => downloadInteractiveHtml(worksheetCanvas, 'odd_one_out_interactive.html', { loadingMode: 'inline' }));
         if (ui.exportToCatalogBtn) ui.exportToCatalogBtn.addEventListener('click', handleExportToCatalog);
+        ui.downloadPdfBtn.addEventListener('click', () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
+        ui.downloadAnswerKeyPdfBtn.addEventListener('click', () => downloadPDF(answerKeyCanvas, 'answer-key.pdf'));
         // END OF CHANGES
 
         // Zoom controls event listeners

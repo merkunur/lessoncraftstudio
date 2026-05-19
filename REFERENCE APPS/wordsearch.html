@@ -13,7 +13,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="js/translations-wordsearch-complete.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=9"></script>
+    <script src="js/translations-shared.js?v=10"></script>
     <script src="js/image-vocabulary.js?v=3"></script>
     <script src="js/bulletproof-loader.js?v=2"></script>
     <script src="js/unified-language-manager.js"></script>
@@ -1373,7 +1373,10 @@
                         <div id="downloadDropdownContent" class="dropdown-content">
                             <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
-                            <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveHtml">Interactive Worksheet (HTML)</button>
+                            <button id="downloadPdfBtn" disabled data-translate="pdfWorksheet">PDF Worksheet</button>
+                            <button id="downloadAnswerKeyPdfBtn" disabled data-translate="pdfAnswerKey">Answer Key (PDF)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
                             <label class="checkbox-label" id="grayscaleLabel">
                                 <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
@@ -1518,6 +1521,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Download buttons
     const exportToCatalogBtn = getEl('exportToCatalogBtn');
+    const downloadPdfBtn = getEl('downloadPdfBtn');
+    const downloadAnswerKeyPdfBtn = getEl('downloadAnswerKeyPdfBtn');
     const downloadInteractiveHtmlBtn = getEl('downloadInteractiveHtmlBtn');
 
     const messageDiv = getEl("message");
@@ -2017,6 +2022,8 @@ document.addEventListener("DOMContentLoaded", function() {
         // Downloads
         downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'wordsearch_interactive.html', { loadingMode: 'inline' }));
         exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
+        downloadPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
+        downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'answer-key.pdf'));
         grayscaleLabel.addEventListener('click', (e) => e.stopPropagation());
         
         // Image Library
@@ -2335,6 +2342,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         showMessage(t("worksheetGeneratedSuccessfully"), "success");
         downloadInteractiveHtmlBtn.disabled = false;
+        if (downloadPdfBtn) downloadPdfBtn.disabled = false;
         // Required by image-reference.js propagation checklist item 10.
         window.__lcsGenerationCounter = (window.__lcsGenerationCounter || 0) + 1;
         generateAnswerKeyBtn.disabled = false;
@@ -2458,6 +2466,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
         showMessage(t("answerKeyGenerated"), "success");
         exportToCatalogBtn.disabled = false;
+        if (downloadAnswerKeyPdfBtn) downloadAnswerKeyPdfBtn.disabled = false;
         
         // Reset generating flag
         isGenerating = false;
@@ -3539,6 +3548,8 @@ document.addEventListener("DOMContentLoaded", function() {
         
         exportToCatalogBtn.disabled = true;
         downloadInteractiveHtmlBtn.disabled = true;
+        if (downloadPdfBtn) downloadPdfBtn.disabled = true;
+        if (downloadAnswerKeyPdfBtn) downloadAnswerKeyPdfBtn.disabled = true;
         generateAnswerKeyBtn.disabled = true;
         showMessage(t('allSettingsCleared'), 'success');
     }

@@ -11,6 +11,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="js/translations.js"></script>
   <script src="js/translations-draw-and-color.js?v=de-i18n-1"></script>
+  <script src="js/translations-shared.js?v=10"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
   <script src="js/border-background-sizer.js"></script>
@@ -1229,13 +1230,13 @@
               </div>
               <button id="generateBtn" class="action-button accent" data-translate="drawcolor.generate">Create</button>
               <div class="dropdown-container">
-                  <button id="downloadDropdownBtn" class="action-button download-btn" disabled data-translate="drawcolor.download"><span data-translate="drawcolor.download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
+                  <button id="downloadDropdownBtn" class="action-button download-btn" disabled data-translate="download"><span data-translate="download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
                   <div id="downloadDropdownContent" class="dropdown-content">
-                      <button id="downloadJpegBtn" data-translate="drawcolor.download.jpeg">Download as JPEG</button>
-                      <button id="downloadPdfBtn" data-translate="drawcolor.download.pdf">Download as PDF</button>
+                      <button id="downloadJpegBtn" data-translate="jpegImage">JPEG Image</button>
+                      <button id="downloadPdfBtn" data-translate="pdfWorksheet">PDF Worksheet</button>
                       <hr style="margin: 6px 0; border-color: #eee;">
                       <label class="checkbox-label" id="grayscaleLabel">
-                          <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
+                          <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
                       </label>
                   </div>
               </div>

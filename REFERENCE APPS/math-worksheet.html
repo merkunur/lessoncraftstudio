@@ -11,7 +11,7 @@
   <title>Math Worksheet Generator</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="js/translations-math-worksheet-final.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=9"></script>
+    <script src="js/translations-shared.js?v=10"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
@@ -1540,8 +1540,10 @@
                 <div id="downloadDropdownContent" class="dropdown-content">
                     <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
                     <hr style="margin: 6px 0; border-color: #eee;">
+                    <button id="downloadPdfBtn" disabled data-translate="pdfWorksheet">PDF Worksheet</button>
+                    <button id="downloadAnswerKeyPdfBtn" disabled data-translate="pdfAnswerKey">Answer Key (PDF)</button>
                     <hr style="margin: 6px 0; border-color: #eee;">
-                    <button id="downloadInteractiveHtmlBtn" disabled data-translate="worksheetInteractiveHtml">Interactive Worksheet (HTML)</button>
+                    <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
                     <hr style="margin: 6px 0; border-color: #eee;">
                     <label class="checkbox-label">
                         <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
@@ -1828,6 +1830,8 @@
       const downloadDropdownBtn = $('downloadDropdownBtn');
       const downloadDropdownContent = $('downloadDropdownContent');
       const exportToCatalogBtn = $('exportToCatalogBtn');
+      const downloadPdfBtn = $('downloadPdfBtn');
+      const downloadAnswerKeyPdfBtn = $('downloadAnswerKeyPdfBtn');
       const downloadInteractiveHtmlBtn = $('downloadInteractiveHtmlBtn');
       const grayscaleToggle = $('grayscaleToggle');
       const clearBtn = $('clearBtn');
@@ -3646,6 +3650,7 @@
         // Enable worksheet download buttons if content exists
         const hasWorksheetContent = worksheetCanvas.getObjects().some(o => !o.isBorder && !o.isBackground);
         downloadInteractiveHtmlBtn.disabled = !hasWorksheetContent;
+        downloadPdfBtn.disabled = !hasWorksheetContent;
         if (hasWorksheetContent) {
             // Required by image-reference.js propagation checklist item 10.
             window.__lcsGenerationCounter = (window.__lcsGenerationCounter || 0) + 1;
@@ -4120,6 +4125,7 @@
 
           isAnswerKeyGenerated = true;
           exportToCatalogBtn.disabled = false;
+          downloadAnswerKeyPdfBtn.disabled = false;
           isGenerating = false;
           saveCanvasState();
       }
@@ -5547,6 +5553,8 @@
         // Disable download/generate buttons
         exportToCatalogBtn.disabled = true;
         downloadInteractiveHtmlBtn.disabled = true;
+        downloadPdfBtn.disabled = true;
+        downloadAnswerKeyPdfBtn.disabled = true;
         generateAnswerKeyBtn.disabled = true;
         isAnswerKeyGenerated = false;
 
@@ -5694,6 +5702,8 @@
       
       downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'math-worksheet_interactive.html', { loadingMode: 'inline' }));
       exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
+      downloadPdfBtn.addEventListener("click", () => downloadAsPdf(worksheetCanvas, 'worksheet.pdf'));
+      downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadAsPdf(answerKeyCanvas, 'answer-key.pdf'));
 
       clearBtn.addEventListener("click", clearAll);
 

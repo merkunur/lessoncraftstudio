@@ -12,7 +12,7 @@
   <title data-translate="chartcount.page.title">Picture Graph Playground</title>
   <script src="js/translations.js"></script>
   <script src="js/translations-chart-count.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=9"></script>
+    <script src="js/translations-shared.js?v=10"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
@@ -1129,11 +1129,13 @@
                         <div id="downloadDropdownContent" class="dropdown-content">
                             <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadPdfBtn" disabled data-translate="pdfWorksheet">PDF Worksheet</button>
+                            <button id="downloadAnswerKeyPdfBtn" disabled data-translate="pdfAnswerKey">Answer Key (PDF)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
                             <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
                             <label class="checkbox-label" id="grayscaleLabel">
-                                <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
+                                <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
                             </label>
                         </div>
                     </div>
@@ -1279,6 +1281,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const downloadDropdownBtn = document.getElementById('downloadDropdownBtn');
     const downloadDropdownContent = document.getElementById('downloadDropdownContent');
     const exportToCatalogBtn = document.getElementById('exportToCatalogBtn');
+    const downloadPdfBtn = document.getElementById('downloadPdfBtn');
+    const downloadAnswerKeyPdfBtn = document.getElementById('downloadAnswerKeyPdfBtn');
     const downloadInteractiveHtmlBtn = document.getElementById('downloadInteractiveHtmlBtn');
     const grayscaleToggle = document.getElementById('grayscaleToggle');
     const zoomInBtn = document.getElementById('zoomInBtn');
@@ -1603,6 +1607,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
         exportToCatalogBtn.addEventListener('click', handleExportToCatalog);
         downloadInteractiveHtmlBtn.addEventListener('click', () => downloadInteractiveHtml(worksheetCanvas, 'chart_count_interactive.html', { loadingMode: 'inline' }));
+        downloadPdfBtn.addEventListener('click', () => downloadCanvasAsPDF(worksheetCanvas, 'worksheet.pdf'));
+        downloadAnswerKeyPdfBtn.addEventListener('click', () => downloadCanvasAsPDF(solutionCanvas, 'answer-key.pdf'));
         if (false) {
             // legacy reference-button hook removed
         }
@@ -2069,6 +2075,7 @@ document.addEventListener('DOMContentLoaded', function() {
         await renderSolution(lastGeneratedData);
         switchTab(document.querySelector('.tab-button[data-tab="solutionTab"]'));
         exportToCatalogBtn.disabled = false;
+        downloadAnswerKeyPdfBtn.disabled = false;
         showMessage('success', t('chartcount.msg.answer.generated'));
 
         isGenerating = false; // Re-enable state saving
@@ -4283,10 +4290,12 @@ document.addEventListener('DOMContentLoaded', function() {
     function updateDownloadButtonsState(enabled) {
         downloadDropdownBtn.disabled = !enabled;
         if (downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = !enabled;
+        if (downloadPdfBtn) downloadPdfBtn.disabled = !enabled;
 
-        // Catalog export needs both worksheet and answer key; disabled here, enabled separately in handleGenerateSolution.
+        // Catalog export + answer-key PDF need both worksheet and answer key; disabled here, enabled separately in handleGenerateSolution.
         if (!enabled) {
             exportToCatalogBtn.disabled = true;
+            if (downloadAnswerKeyPdfBtn) downloadAnswerKeyPdfBtn.disabled = true;
         }
 
         if (!enabled) {

@@ -28,7 +28,7 @@
     <!-- Enhancement Scripts -->
     <script src="js/translations.js"></script>
     <script src="js/translations-sudoku.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=9"></script>
+    <script src="js/translations-shared.js?v=10"></script>
     <script src="js/image-vocabulary.js?v=3"></script>
     <script src="js/bulletproof-loader.js"></script>
     <script src="js/unified-language-manager.js"></script>
@@ -1308,11 +1308,13 @@
                         <div id="downloadDropdownContent" class="dropdown-content">
                             <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
                             <hr style="margin: 4px 0; border: none; border-top: 1px solid #eee;">
+                            <button id="downloadPdfBtn" disabled data-translate="pdfWorksheet">PDF Worksheet</button>
+                            <button id="downloadAnswerKeyPdfBtn" disabled data-translate="pdfAnswerKey">Answer Key (PDF)</button>
                             <hr style="margin: 4px 0; border: none; border-top: 1px solid #eee;">
                             <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
                             <hr style="margin: 4px 0; border: none; border-top: 1px solid #eee;">
                             <label class="checkbox-label" id="grayscaleLabel">
-                                <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
+                                <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
                             </label>
                         </div>
                     </div>
@@ -1452,6 +1454,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const downloadDropdownContent = getEl('downloadDropdownContent');
 
     const exportToCatalogBtn = getEl("exportToCatalogBtn");
+    const downloadPdfBtn = getEl("downloadPdfBtn");
+    const downloadAnswerKeyPdfBtn = getEl("downloadAnswerKeyPdfBtn");
     const downloadInteractiveHtmlBtn = getEl("downloadInteractiveHtmlBtn");
 
     const clearBtn = getEl("clearBtn");
@@ -1725,6 +1729,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 downloadInteractiveHtml(worksheetCanvas, 'sudoku_interactive.html', { loadingMode: 'inline' }));
         }
         exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
+        if (downloadPdfBtn) {
+            downloadPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
+        }
+        if (downloadAnswerKeyPdfBtn) {
+            downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'answer-key.pdf'));
+        }
 
         grayscaleLabel.addEventListener('click', (e) => e.stopPropagation());
         
@@ -2166,6 +2176,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
         showMessage(t('sudoku.msg.answer.generated'), 'success');
         exportToCatalogBtn.disabled = false;
+        if (downloadAnswerKeyPdfBtn) downloadAnswerKeyPdfBtn.disabled = false;
     }
 
     // --- Initial Worksheet Generation ---
@@ -2751,6 +2762,7 @@ document.addEventListener("DOMContentLoaded", function() {
         worksheetCanvas.problemsData = { hasGrid: true };
 
         if (typeof downloadInteractiveHtmlBtn !== 'undefined' && downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = false;
+        if (typeof downloadPdfBtn !== 'undefined' && downloadPdfBtn) downloadPdfBtn.disabled = false;
 
         // Store current canvas size for future comparisons
         worksheetCanvas.lastCanvasSize = {
@@ -3477,6 +3489,8 @@ document.addEventListener("DOMContentLoaded", function() {
         
         exportToCatalogBtn.disabled = true;
         if (downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = true;
+        if (downloadPdfBtn) downloadPdfBtn.disabled = true;
+        if (downloadAnswerKeyPdfBtn) downloadAnswerKeyPdfBtn.disabled = true;
         generateAnswerKeyBtn.disabled = true;
 
         showMessage(t('sudoku.msg.cleared'), 'success');

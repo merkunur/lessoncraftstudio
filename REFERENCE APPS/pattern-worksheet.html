@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title data-translate="pattern.worksheet.page.title">Pattern Worksheet Generator</title>
   <script src="js/translations-pattern-worksheet.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=9"></script>
+    <script src="js/translations-shared.js?v=10"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/translations.js"></script>
   <script src="js/bulletproof-loader.js"></script>
@@ -1116,11 +1116,13 @@
                         <div id="downloadDropdownContent" class="dropdown-content">
                             <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadPdfBtn" disabled data-translate="pdfWorksheet">PDF Worksheet</button>
+                            <button id="downloadAnswerKeyPdfBtn" disabled data-translate="pdfAnswerKey">Answer Key (PDF)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
-                            <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveHtml">Interactive Worksheet (HTML)</button>
+                            <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
                             <label class="checkbox-label" id="grayscaleLabel">
-                                <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
+                                <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
                             </label>
                         </div>
                     </div>
@@ -1262,6 +1264,8 @@
             downloadDropdownBtn: document.getElementById('downloadDropdownBtn'),
             downloadDropdownContent: document.getElementById('downloadDropdownContent'),
             exportToCatalogBtn: document.getElementById('exportToCatalogBtn'),
+            downloadPdfBtn: document.getElementById('downloadPdfBtn'),
+            downloadAnswerKeyPdfBtn: document.getElementById('downloadAnswerKeyPdfBtn'),
             downloadInteractiveHtmlBtn: document.getElementById('downloadInteractiveHtmlBtn'),
             grayscaleToggle: document.getElementById('grayscaleToggle'),
 
@@ -1621,6 +1625,8 @@
             // New Download Listeners
             ui.downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'pattern-worksheet_interactive.html', { loadingMode: 'inline' }));
             ui.exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
+            ui.downloadPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
+            ui.downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'answer-key.pdf'));
 
 
             // Prevent dropdown from closing on label click
@@ -1807,6 +1813,8 @@
             ui.generateAnswerKeyBtn.disabled = true;
             ui.downloadDropdownBtn.disabled = true;
             ui.exportToCatalogBtn.disabled = true;
+            ui.downloadPdfBtn.disabled = true;
+            ui.downloadAnswerKeyPdfBtn.disabled = true;
             if (ui.downloadInteractiveHtmlBtn) ui.downloadInteractiveHtmlBtn.disabled = true;
 
 
@@ -1996,6 +2004,7 @@
 
                 ui.generateAnswerKeyBtn.disabled = false;
                 ui.downloadDropdownBtn.disabled = false;
+                ui.downloadPdfBtn.disabled = false;
                 if (ui.downloadInteractiveHtmlBtn) ui.downloadInteractiveHtmlBtn.disabled = false;
                 // Required by image-reference.js propagation checklist item 10.
                 window.__lcsGenerationCounter = (window.__lcsGenerationCounter || 0) + 1;
@@ -2027,6 +2036,7 @@
                 saveCanvasState();
 
                 ui.exportToCatalogBtn.disabled = false;
+                ui.downloadAnswerKeyPdfBtn.disabled = false;
                 showMessage(t('pattern.worksheet.msg.answer.generated'), "success");
             } catch (err) {
                 console.error("Error generating answer key:", err);

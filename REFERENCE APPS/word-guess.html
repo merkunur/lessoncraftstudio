@@ -13,7 +13,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="js/translations-word-guess.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=9"></script>
+    <script src="js/translations-shared.js?v=10"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js?v=1759320100"></script>
   <script src="js/unified-language-manager.js"></script>
@@ -1116,7 +1116,10 @@
                         <div id="downloadDropdownContent" class="dropdown-content">
                             <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
-                            <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveHtml">Interactive Worksheet (HTML)</button>
+                            <button id="downloadPdfBtn" disabled data-translate="pdfWorksheet">PDF Worksheet</button>
+                            <button id="downloadAnswerKeyPdfBtn" disabled data-translate="pdfAnswerKey">Answer Key (PDF)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
                             <label class="checkbox-label" id="grayscaleLabel">
                                 <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
@@ -1228,6 +1231,8 @@
             downloadDropdownContent: document.getElementById("downloadDropdownContent"),
             
             exportToCatalogBtn: document.getElementById("exportToCatalogBtn"),
+            downloadPdfBtn: document.getElementById("downloadPdfBtn"),
+            downloadAnswerKeyPdfBtn: document.getElementById("downloadAnswerKeyPdfBtn"),
             downloadInteractiveHtmlBtn: document.getElementById("downloadInteractiveHtmlBtn"),
             
             grayscaleToggle: document.getElementById('grayscaleToggle'),
@@ -1532,6 +1537,8 @@
             // Download Listeners
             ui.downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'word-guess_interactive.html', { loadingMode: 'inline' }));
             ui.exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
+            ui.downloadPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet'));
+            ui.downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'answer-key'));
 
 
             ui.tabButtons.forEach(btn => {
@@ -2679,7 +2686,7 @@
             }
             worksheetCanvas.renderAll();
 
-            [ui.downloadInteractiveHtmlBtn, ui.generateAnswerKeyBtn].forEach(b => { if (b) b.disabled = false; });
+            [ui.downloadInteractiveHtmlBtn, ui.downloadPdfBtn, ui.generateAnswerKeyBtn].forEach(b => { if (b) b.disabled = false; });
             // Required by image-reference.js propagation checklist item 10.
             window.__lcsGenerationCounter = (window.__lcsGenerationCounter || 0) + 1;
             showMessage(t('message.worksheetGenerated'), 'success');
@@ -2769,6 +2776,7 @@
 
             ui.tabButtons[1].click(); // Switch to answer key tab
             ui.exportToCatalogBtn.disabled = false;
+            if (ui.downloadAnswerKeyPdfBtn) ui.downloadAnswerKeyPdfBtn.disabled = false;
             showMessage(t('message.answerGenerated'), 'success');
 
             // Save state after generation is complete
@@ -3515,7 +3523,7 @@
             clearCanvas(worksheetCanvas, true);
             clearCanvas(answerKeyCanvas, true);
             
-            [ui.exportToCatalogBtn, ui.downloadInteractiveHtmlBtn, ui.generateAnswerKeyBtn].forEach(b => b.disabled = true);
+            [ui.exportToCatalogBtn, ui.downloadInteractiveHtmlBtn, ui.downloadPdfBtn, ui.downloadAnswerKeyPdfBtn, ui.generateAnswerKeyBtn].forEach(b => b.disabled = true);
             
             ui.puzzleCount.value = 8;
             document.querySelector('input[name="difficulty"][value="0"]').checked = true;

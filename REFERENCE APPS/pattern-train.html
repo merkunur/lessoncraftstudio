@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pattern Train Worksheet App</title>
   <script src="js/translations-pattern-train.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=9"></script>
+    <script src="js/translations-shared.js?v=10"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
@@ -1356,11 +1356,13 @@
                     <div id="downloadDropdownContent" class="dropdown-content">
                         <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
                         <hr style="margin: 6px 0; border-color: #eee;">
+                        <button id="downloadPdfBtn" disabled data-translate="pdfWorksheet">PDF Worksheet</button>
+                        <button id="downloadAnswerKeyPdfBtn" disabled data-translate="pdfAnswerKey">Answer Key (PDF)</button>
                         <hr style="margin: 6px 0; border-color: #eee;">
-                        <button id="downloadInteractiveHtmlBtn" disabled data-translate="pattern.train.download.interactive.html">Interactive Worksheet (HTML)</button>
+                        <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
                         <hr style="margin: 6px 0; border-color: #eee;">
                         <label class="checkbox-label" id="grayscaleLabel">
-                            <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
+                            <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
                         </label>
                     </div>
                 </div>
@@ -1530,6 +1532,8 @@
 
     // Download Buttons
     const exportToCatalogBtn = document.getElementById('exportToCatalogBtn');
+    const downloadPdfBtn = document.getElementById('downloadPdfBtn');
+    const downloadAnswerKeyPdfBtn = document.getElementById('downloadAnswerKeyPdfBtn');
     const downloadInteractiveHtmlBtn = document.getElementById('downloadInteractiveHtmlBtn');
     const generateDropdownContent = document.getElementById('generateDropdownContent');
 
@@ -1575,6 +1579,7 @@
     function updateDownloadButtonsState(isGenerated) {
         downloadDropdownBtn.disabled = !isGenerated;
         downloadInteractiveHtmlBtn.disabled = !isGenerated;
+        downloadPdfBtn.disabled = !isGenerated;
 
         // Enable answer key generation button when worksheet is generated
         generateAnswerKeyBtn.disabled = !isGenerated;
@@ -1582,6 +1587,7 @@
         // Catalog export requires both the worksheet and a rendered answer key
         const akHasContent = answerKeyCanvas && answerKeyCanvas.getObjects().length > 0;
         exportToCatalogBtn.disabled = !akHasContent;
+        downloadAnswerKeyPdfBtn.disabled = !akHasContent;
 
         if (!isGenerated && downloadDropdownContent) {
             downloadDropdownContent.style.display = 'none';
@@ -1697,6 +1703,8 @@
         // New Download Listeners
         downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'pattern-train_interactive.html', { loadingMode: 'inline' }));
         exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
+        downloadPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet'));
+        downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'answer-key'));
     }
     
     function updateCanvasDisplayDimensions(width, height, fromLoad = false) {

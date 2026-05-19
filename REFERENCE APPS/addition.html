@@ -10,7 +10,7 @@
   <meta name="robots" content="noindex, nofollow">
   <title data-translate="additionGenerator">Image Addition Worksheet Generator</title>
   <script src="js/translations-addition-complete.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=9"></script>
+    <script src="js/translations-shared.js?v=10"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script>
     // CRITICAL: Set locales IMMEDIATELY after loading translations.js!
@@ -1527,6 +1527,9 @@
             <div id="downloadDropdownContent" class="dropdown-content">
                 <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
                 <hr style="margin: 6px 0; border-color: #eee;">
+                <button id="downloadPdfBtn" disabled data-translate="pdfWorksheet">PDF Worksheet</button>
+                <button id="downloadAnswerKeyPdfBtn" disabled data-translate="pdfAnswerKey">Answer Key (PDF)</button>
+                <hr style="margin: 6px 0; border-color: #eee;">
                 <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
                 <hr style="margin: 6px 0; border-color: #eee;">
                 <label class="checkbox-label">
@@ -1736,6 +1739,8 @@
       const downloadDropdownBtn = document.getElementById("downloadDropdownBtn");
       const downloadDropdownContent = document.getElementById("downloadDropdownContent");
       const exportToCatalogBtn = document.getElementById("exportToCatalogBtn");
+      const downloadPdfBtn = document.getElementById("downloadPdfBtn");
+      const downloadAnswerKeyPdfBtn = document.getElementById("downloadAnswerKeyPdfBtn");
       const downloadInteractiveHtmlBtn = document.getElementById("downloadInteractiveHtmlBtn");
       const clearBtn = document.getElementById("clearBtn");
       const grayscaleToggle = document.getElementById('grayscaleToggle');
@@ -2890,6 +2895,8 @@
         }
         if(answerKeyCanvas) { answerKeyCanvas.clear(); answerKeyCanvas.backgroundColor = '#fff'; answerKeyCanvas.renderAll(); }
         exportToCatalogBtn.disabled = true;
+        downloadPdfBtn.disabled = true;
+        downloadAnswerKeyPdfBtn.disabled = true;
         generateAnswerKeyBtn.disabled = true;
 
         if (generateDropdownContent) generateDropdownContent.style.display = 'none';
@@ -3708,6 +3715,7 @@
 
         worksheetCanvas.renderAll();
         downloadInteractiveHtmlBtn.disabled = false;
+        downloadPdfBtn.disabled = false;
         generateAnswerKeyBtn.disabled = false;
         showMessage(t('worksheetGeneratedSuccessfully'), "success");
         // Required by image-reference.js propagation checklist item 10.
@@ -4053,6 +4061,7 @@
 
         document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
         exportToCatalogBtn.disabled = false;
+        downloadAnswerKeyPdfBtn.disabled = false;
         showMessage(t('answerKeyGenerated'), "success");
 
         // Reset generating flag and save initial state
@@ -5628,6 +5637,8 @@
       });
 
       downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'addition_interactive.html', { loadingMode: 'inline' }));
+      downloadPdfBtn.addEventListener("click", () => downloadPdfFile(worksheetCanvas, 'worksheet.pdf'));
+      downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPdfFile(answerKeyCanvas, 'answer-key.pdf'));
 
       // Export to catalog — bundles manifest + deck.html + printable.pdf +
       // answer-key.pdf + thumbnail.png into <deck_id>.zip per CLAUDE.md §15.

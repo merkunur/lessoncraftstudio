@@ -12,7 +12,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="js/translations-math-puzzle.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=9"></script>
+    <script src="js/translations-shared.js?v=10"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js?v=1759320052"></script>
   <script src="js/unified-language-manager.js"></script>
@@ -1323,11 +1323,13 @@
                         <div id="downloadDropdownContent" class="dropdown-content">
                             <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadPdfBtn" disabled data-translate="pdfWorksheet">PDF Worksheet</button>
+                            <button id="downloadAnswerKeyPdfBtn" disabled data-translate="pdfAnswerKey">Answer Key (PDF)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
-                            <button id="downloadInteractiveHtmlBtn" disabled data-translate="mathpuzzle.download.interactive.html">Interactive Worksheet (HTML)</button>
+                            <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
                             <label class="checkbox-label" id="grayscaleLabel">
-                                <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
+                                <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
                             </label>
                         </div>
                     </div>
@@ -1523,6 +1525,8 @@ document.addEventListener("DOMContentLoaded", function() {
         downloadDropdownBtn: $('downloadDropdownBtn'),
         downloadDropdownContent: $('downloadDropdownContent'),
         exportToCatalogBtn: $('exportToCatalogBtn'),
+        downloadPdfBtn: $('downloadPdfBtn'),
+        downloadAnswerKeyPdfBtn: $('downloadAnswerKeyPdfBtn'),
         downloadInteractiveHtmlBtn: $('downloadInteractiveHtmlBtn'),
         grayscaleToggle: $('grayscaleToggle'),
         clearBtn: $('clearBtn'),
@@ -1875,6 +1879,8 @@ document.addEventListener("DOMContentLoaded", function() {
         
         elements.downloadInteractiveHtmlBtn.addEventListener('click', () => downloadInteractiveHtml(worksheetCanvas, 'math-puzzle_interactive.html', { loadingMode: 'inline' }));
         elements.exportToCatalogBtn.addEventListener('click', handleExportToCatalog);
+        elements.downloadPdfBtn.addEventListener('click', () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
+        elements.downloadAnswerKeyPdfBtn.addEventListener('click', () => downloadPDF(answerKeyCanvas, 'answer-key.pdf'));
 
         elements.addTextBtn.addEventListener('click', addText);
 
@@ -2266,6 +2272,8 @@ document.addEventListener("DOMContentLoaded", function() {
         [
             elements.exportToCatalogBtn,
             elements.downloadInteractiveHtmlBtn,
+            elements.downloadPdfBtn,
+            elements.downloadAnswerKeyPdfBtn,
             elements.generateAnswerKeyBtn
         ].forEach(btn => btn.disabled = true);
         
@@ -2993,6 +3001,7 @@ document.addEventListener("DOMContentLoaded", function() {
             showMessage(t('mathpuzzle.msg.worksheet.success'), 'success');
 
             elements.downloadInteractiveHtmlBtn.disabled = false;
+            elements.downloadPdfBtn.disabled = false;
             // Required by image-reference.js propagation checklist item 10.
             window.__lcsGenerationCounter = (window.__lcsGenerationCounter || 0) + 1;
             elements.generateAnswerKeyBtn.disabled = false;
@@ -3021,6 +3030,7 @@ document.addEventListener("DOMContentLoaded", function() {
             await renderAnswerKey();
             showMessage(t('mathpuzzle.msg.answer.generated'), 'success');
             elements.exportToCatalogBtn.disabled = false;
+            elements.downloadAnswerKeyPdfBtn.disabled = false;
 
             isGenerating = false;
             saveState();

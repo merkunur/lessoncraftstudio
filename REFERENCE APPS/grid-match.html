@@ -13,7 +13,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="js/translations-grid-match.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=9"></script>
+    <script src="js/translations-shared.js?v=10"></script>
     <script src="js/image-vocabulary.js?v=3"></script>
     <script src="js/bulletproof-loader.js?v=2"></script>
     <script src="js/unified-language-manager.js?v=2"></script>
@@ -1297,11 +1297,13 @@
                         <div id="downloadDropdownContent" class="dropdown-content">
                             <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadPdfBtn" disabled data-translate="pdfWorksheet">PDF Worksheet</button>
+                            <button id="downloadAnswerKeyPdfBtn" disabled data-translate="pdfAnswerKey">Answer Key (PDF)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
                             <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
                             <label class="checkbox-label" id="grayscaleLabel">
-                                <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
+                                <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
                             </label>
                         </div>
                     </div>
@@ -1384,6 +1386,8 @@
         const downloadDropdownBtn = $('downloadDropdownBtn');
         const downloadDropdownContent = $('downloadDropdownContent');
         const exportToCatalogBtn = $('exportToCatalogBtn');
+        const downloadPdfBtn = $('downloadPdfBtn');
+        const downloadAnswerKeyPdfBtn = $('downloadAnswerKeyPdfBtn');
         const downloadInteractiveHtmlBtn = $('downloadInteractiveHtmlBtn');
         const clearBtn = $('clearBtn');
         const grayscaleToggle = $('grayscaleToggle');
@@ -3434,6 +3438,7 @@
                     // Enable worksheet-specific download buttons
                     downloadDropdownBtn.disabled = false;
                     if (downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = false;
+                    if (downloadPdfBtn) downloadPdfBtn.disabled = false;
 
                     generateAnswerKeyBtn.disabled = false;
 
@@ -3512,6 +3517,7 @@
 
                 generateAnswerKeyBtn.disabled = false; // Now enabled
                 exportToCatalogBtn.disabled = false;
+                if (downloadAnswerKeyPdfBtn) downloadAnswerKeyPdfBtn.disabled = false;
 
                 showMessage(getTranslation('answerKeyGenerated'), 'success');
 
@@ -4742,6 +4748,8 @@ async function downloadPDF(canvasToExport, filename, opts) {
             downloadDropdownBtn.disabled = true;
             exportToCatalogBtn.disabled = true;
             if (downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = true;
+            if (downloadPdfBtn) downloadPdfBtn.disabled = true;
+            if (downloadAnswerKeyPdfBtn) downloadAnswerKeyPdfBtn.disabled = true;
 
             showMessage(getTranslation('formCleared'), 'success', 2000);
         }
@@ -4868,6 +4876,8 @@ async function downloadPDF(canvasToExport, filename, opts) {
         // New Download Listeners
         downloadInteractiveHtmlBtn.addEventListener('click', () => downloadInteractiveHtml(wsCanvas, 'grid_match_interactive.html', { loadingMode: 'inline' }));
         exportToCatalogBtn.addEventListener('click', handleExportToCatalog);
+        downloadPdfBtn.addEventListener('click', () => downloadPDF(wsCanvas, 'worksheet.pdf'));
+        downloadAnswerKeyPdfBtn.addEventListener('click', () => downloadPDF(akCanvas, 'answer-key.pdf'));
 
         layersBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePopover(layersDropdown); });
         alignBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePopover(alignDropdown); });

@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title data-translate="picture.sort.page.title">Picture-Sort Worksheet Generator</title>
   <script src="js/translations-picture-sort.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=9"></script>
+    <script src="js/translations-shared.js?v=10"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
@@ -1103,11 +1103,13 @@
                 <div id="downloadDropdownContent" class="dropdown-content">
                     <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
                     <hr style="margin: 6px 0; border-color: #eee;">
+                    <button id="downloadPdfBtn" disabled data-translate="pdfWorksheet">PDF Worksheet</button>
+                    <button id="downloadAnswerKeyPdfBtn" disabled data-translate="pdfAnswerKey">Answer Key (PDF)</button>
                     <hr style="margin: 6px 0; border-color: #eee;">
                     <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
                     <hr style="margin: 6px 0; border-color: #eee;">
                     <label class="checkbox-label" id="grayscaleLabel">
-                        <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
+                        <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
                     </label>
                 </div>
             </div>
@@ -1294,6 +1296,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const downloadDropdownContent = document.getElementById('downloadDropdownContent');
     // New Download Buttons
     const exportToCatalogBtn = document.getElementById('exportToCatalogBtn');
+    const downloadPdfBtn = document.getElementById('downloadPdfBtn');
+    const downloadAnswerKeyPdfBtn = document.getElementById('downloadAnswerKeyPdfBtn');
     const downloadInteractiveHtmlBtn = document.getElementById('downloadInteractiveHtmlBtn');
     const grayscaleToggle = document.getElementById('grayscaleToggle');
     const pageSizeSelect = document.getElementById('pageSizeSelect');
@@ -1790,6 +1794,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 downloadInteractiveHtml(worksheetCanvas, 'picture_sort_interactive.html', { loadingMode: 'inline' }));
         }
         exportToCatalogBtn.addEventListener('click', handleExportToCatalog);
+        downloadPdfBtn.addEventListener('click', () => downloadPDF('worksheet.pdf', worksheetCanvas));
+        downloadAnswerKeyPdfBtn.addEventListener('click', () => downloadPDF('answer-key.pdf', solutionCanvas));
 
         [leftCategoryThemeSelect, rightCategoryThemeSelect].forEach(el => el.addEventListener('change', () => {
             syncCustomWordsVisibility();
@@ -2732,7 +2738,9 @@ document.addEventListener('DOMContentLoaded', () => {
     function updateDownloadButtonsState(worksheetEnabled, answerKeyEnabled) {
         downloadDropdownBtn.disabled = !worksheetEnabled;
         if (downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = !worksheetEnabled;
+        downloadPdfBtn.disabled = !worksheetEnabled;
         exportToCatalogBtn.disabled = !answerKeyEnabled;
+        downloadAnswerKeyPdfBtn.disabled = !answerKeyEnabled;
         if (!worksheetEnabled && !answerKeyEnabled) {
             downloadDropdownContent.style.display = 'none';
         }

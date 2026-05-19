@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I Spy Worksheet Generator</title>
     <script src="js/translations-find-and-count-complete.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=9"></script>
+    <script src="js/translations-shared.js?v=10"></script>
     <script src="js/image-vocabulary.js?v=3"></script>
     <script src="js/bulletproof-loader.js"></script>
     <script src="js/unified-language-manager.js"></script>
@@ -1498,6 +1498,9 @@
                         <div id="downloadDropdownContent" class="dropdown-content">
                             <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadPdfBtn" disabled data-translate="pdfWorksheet">PDF Worksheet</button>
+                            <button id="downloadAnswerKeyPdfBtn" disabled data-translate="pdfAnswerKey">Answer Key (PDF)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
                             <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
                             <label class="checkbox-label" id="grayscaleLabel">
@@ -1684,6 +1687,8 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // START: REFACTORED CODE (Part D, Step 3)
     const exportToCatalogBtn = document.getElementById('exportToCatalogBtn');
+    const downloadPdfBtn = document.getElementById('downloadPdfBtn');
+    const downloadAnswerKeyPdfBtn = document.getElementById('downloadAnswerKeyPdfBtn');
     const downloadInteractiveHtmlBtn = document.getElementById('downloadInteractiveHtmlBtn');
     // END: REFACTORED CODE (Part D, Step 3)
     
@@ -3118,6 +3123,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         generateAnswerKeyBtn.disabled = false;
         downloadInteractiveHtmlBtn.disabled = false;
+        downloadPdfBtn.disabled = false;
 
         // Undo/Redo: Reset flag and save state after generation
         isGenerating = false;
@@ -3203,6 +3209,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
         exportToCatalogBtn.disabled = false;
+        downloadAnswerKeyPdfBtn.disabled = false;
 
         // Undo/Redo: Reset flag and save state after generation
         isGenerating = false;
@@ -4230,6 +4237,8 @@ document.addEventListener("DOMContentLoaded", function() {
         generateAnswerKeyBtn.disabled = true;
         exportToCatalogBtn.disabled = true;
         if (downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = true;
+        if (downloadPdfBtn) downloadPdfBtn.disabled = true;
+        if (downloadAnswerKeyPdfBtn) downloadAnswerKeyPdfBtn.disabled = true;
 
         loadThemeImages();
         renderUploadedImages();
@@ -5910,6 +5919,8 @@ async function downloadPDF(canvasToExport, filename, opts) {
     // START: REFACTORED CODE (Part D, Step 3)
     downloadInteractiveHtmlBtn.addEventListener('click', () => downloadInteractiveHtml(worksheetCanvas, 'find_and_count_interactive.html', { loadingMode: 'inline' }));
     exportToCatalogBtn.addEventListener('click', handleExportToCatalog);
+    downloadPdfBtn.addEventListener('click', () => downloadPDF(worksheetCanvas, 'worksheet'));
+    downloadAnswerKeyPdfBtn.addEventListener('click', () => downloadPDF(answerKeyCanvas, 'answer-key'));
     // END: REFACTORED CODE (Part D, Step 3)
 
 

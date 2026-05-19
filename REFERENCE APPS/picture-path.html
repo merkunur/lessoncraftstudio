@@ -28,7 +28,7 @@
   <title data-translate="picture.pathway.page.title">Picture Pathway</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="js/translations-picture-pathway.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=9"></script>
+    <script src="js/translations-shared.js?v=10"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
@@ -1655,10 +1655,13 @@
                         <div id="downloadDropdownContent" class="dropdown-content">
                             <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadPdfBtn" disabled data-translate="pdfWorksheet">PDF Worksheet</button>
+                            <button id="downloadAnswerKeyPdfBtn" disabled data-translate="pdfAnswerKey">Answer Key (PDF)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
                             <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
                             <hr style="margin: 6px 0; border-color: #eee;">
                             <label class="checkbox-label" id="grayscaleLabel">
-                                <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
+                                <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
                             </label>
                         </div>
                     </div>
@@ -1849,6 +1852,8 @@ document.addEventListener("DOMContentLoaded", function() {
   const downloadDropdownBtn = document.getElementById("downloadDropdownBtn");
   const downloadDropdownContent = document.getElementById("downloadDropdownContent");
   const exportToCatalogBtn = document.getElementById("exportToCatalogBtn");
+  const downloadPdfBtn = document.getElementById("downloadPdfBtn");
+  const downloadAnswerKeyPdfBtn = document.getElementById("downloadAnswerKeyPdfBtn");
   const downloadInteractiveHtmlBtn = document.getElementById("downloadInteractiveHtmlBtn");
 
   const clearBtn = document.getElementById("clearBtn");
@@ -6839,6 +6844,7 @@ document.addEventListener("DOMContentLoaded", function() {
           displayMessage(t('picture.pathway.msg.complete.selections'), 'error');
           generateAnswerKeyBtn.disabled = true;
           exportToCatalogBtn.disabled = true;
+          downloadAnswerKeyPdfBtn.disabled = true;
           isGenerating = false;
           return;
         }
@@ -7119,6 +7125,7 @@ document.addEventListener("DOMContentLoaded", function() {
     worksheetCanvas.problemsData = { hasGrid: true };
 
     if (typeof downloadInteractiveHtmlBtn !== 'undefined' && downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = false;
+    downloadPdfBtn.disabled = false;
 
     // Clear answer key canvas when generating new worksheet
     answerKeyCanvas.clear();
@@ -7147,6 +7154,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
     exportToCatalogBtn.disabled = false;
+    downloadAnswerKeyPdfBtn.disabled = false;
     displayMessage(t('picture.pathway.msg.answer.generated'), "success");
   }
 
@@ -8686,6 +8694,8 @@ async function downloadPDF(canvasToExport, fileName, opts) {
 
     generateAnswerKeyBtn.disabled = true;
     exportToCatalogBtn.disabled = true;
+    downloadPdfBtn.disabled = true;
+    downloadAnswerKeyPdfBtn.disabled = true;
     if (downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = true;
     
     if (generateDropdownContent) generateDropdownContent.style.display = 'none';
@@ -8784,6 +8794,8 @@ async function downloadPDF(canvasToExport, fileName, opts) {
           downloadInteractiveHtml(worksheetCanvas, 'picture_path_interactive.html', { loadingMode: 'inline' }));
   }
   exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
+  downloadPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
+  downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'answer-key.pdf'));
 
   /******************************
    * NEW GAME MODE EVENT LISTENERS

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-translate="page.title">Writing Worksheet Generator</title>
     <script src="js/translations-writing.js"></script>
+    <script src="js/translations-shared.js?v=10"></script>
     <script src="js/bulletproof-loader.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
@@ -2367,12 +2368,12 @@
             </div>
             <button id="addRowBtn" class="action-button accent" data-translate="button.addRow"><i class="fas fa-pen-square"></i> Add Row</button>
             <div class="dropdown-container">
-                <button id="downloadDropdownBtn" class="action-button secondary" data-translate="button.download">Download <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
+                <button id="downloadDropdownBtn" class="action-button secondary" data-translate="download">Download <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
                 <div id="downloadDropdownContent" class="dropdown-content">
-                    <button id="downloadPdfBtn" data-translate="button.downloadPdf">Download as PDF</button>
-                    <button id="downloadJpegBtn" data-translate="button.downloadJpeg">Download as JPEG</button>
+                    <button id="downloadPdfBtn" data-translate="pdfWorksheet">PDF Worksheet</button>
+                    <button id="downloadJpegBtn" data-translate="jpegImage">JPEG Image</button>
                     <label class="checkbox-label">
-                        <input type="checkbox" id="grayscaleToggle" /><span data-translate="settings.grayscale">Grayscale</span>
+                        <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
                     </label>
                 </div>
             </div>

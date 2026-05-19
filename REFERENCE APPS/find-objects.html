@@ -13,7 +13,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="js/translations-find-objects.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=9"></script>
+    <script src="js/translations-shared.js?v=10"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
@@ -1200,11 +1200,13 @@
             <div id="downloadDropdownContent" class="dropdown-content">
               <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
               <hr style="margin: 6px 0; border-color: #eee;">
+              <button id="downloadPdfBtn" disabled data-translate="pdfWorksheet">PDF Worksheet</button>
+              <button id="downloadAnswerKeyPdfBtn" disabled data-translate="pdfAnswerKey">Answer Key (PDF)</button>
               <hr style="margin: 6px 0; border-color: #eee;">
               <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
               <hr style="margin: 6px 0; border-color: #eee;">
               <label class="checkbox-label" id="grayscaleLabel">
-                <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
+                <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
               </label>
             </div>
           </div>
@@ -1416,6 +1418,8 @@ function updateTranslations() {
         const generateAnswerKeyBtn = getEl('generateAnswerKeyBtn');
         const downloadDropdownBtn = getEl('downloadDropdownBtn');
         const exportToCatalogBtn = getEl('exportToCatalogBtn');
+        const downloadPdfBtn = getEl('downloadPdfBtn');
+        const downloadAnswerKeyPdfBtn = getEl('downloadAnswerKeyPdfBtn');
         const downloadInteractiveHtmlBtn = getEl('downloadInteractiveHtmlBtn');
         const clearBtn = getEl('clearBtn');
         const grayscaleToggle = getEl('grayscaleToggle');
@@ -1680,6 +1684,8 @@ function updateTranslations() {
                     downloadInteractiveHtml(worksheetCanvas, 'find_objects_interactive.html', { loadingMode: 'inline' }));
             }
             exportToCatalogBtn.addEventListener('click', handleExportToCatalog);
+            downloadPdfBtn.addEventListener('click', () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
+            downloadAnswerKeyPdfBtn.addEventListener('click', () => downloadPDF(answerKeyCanvas, 'answer-key.pdf'));
 
             clearBtn.addEventListener('click', clearAll);
             themeSelect.addEventListener('change', loadDictionary);
@@ -2673,6 +2679,7 @@ function updateTranslations() {
 
                 downloadDropdownBtn.disabled = false;
                 if (typeof downloadInteractiveHtmlBtn !== 'undefined' && downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = false;
+                if (downloadPdfBtn) downloadPdfBtn.disabled = false;
                 generateAnswerKeyBtn.disabled = false;
                 showMessage(t('findobjects.msg.worksheet.success'), 'success');
             } catch (error) {
@@ -2830,6 +2837,7 @@ function updateTranslations() {
             answerKeyCanvas.renderAll();
 
             exportToCatalogBtn.disabled = false;
+            if (downloadAnswerKeyPdfBtn) downloadAnswerKeyPdfBtn.disabled = false;
             document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
             showMessage(t('findobjects.msg.answer.generated'), 'success');
 
@@ -4255,6 +4263,8 @@ function updateTranslations() {
             downloadDropdownBtn.disabled = true;
             exportToCatalogBtn.disabled = true;
             if (downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = true;
+            if (downloadPdfBtn) downloadPdfBtn.disabled = true;
+            if (downloadAnswerKeyPdfBtn) downloadAnswerKeyPdfBtn.disabled = true;
             showMessage(t('findobjects.msg.cleared'), 'success');
         }
 

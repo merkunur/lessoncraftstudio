@@ -35,7 +35,7 @@
   <!-- Enhancement Scripts -->
   <script src="js/translations.js?v=1759320925"></script>
   <script src="js/translations-picture-bingo.js?v=runtime-title-1" onerror="console.error('Failed to load translations-picture-bingo.js')" onload="console.log('translations-picture-bingo.js loaded successfully')"></script>
-  <script src="js/translations-shared.js?v=9"></script>
+  <script src="js/translations-shared.js?v=10"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
 
   <!-- Define translation functions AFTER loading translations -->
@@ -899,6 +899,8 @@
                 <div id="downloadDropdownContent" class="dropdown-content">
                     <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
                     <hr style="margin: 6px 0; border-color: #eee;">
+                    <button id="downloadPdfBtn" disabled data-translate="pdfWorksheet">PDF Worksheet</button>
+                    <button id="downloadAnswerKeyPdfBtn" disabled data-translate="pdfAnswerKey">Answer Key (PDF)</button>
                     <hr style="margin: 6px 0; border-color: #eee;">
                     <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
                     <hr style="margin: 6px 0; border-color: #eee;">
@@ -1118,6 +1120,8 @@
       const downloadDropdownContent = document.getElementById("downloadDropdownContent");
       
       const exportToCatalogBtn = document.getElementById("exportToCatalogBtn");
+      const downloadPdfBtn = document.getElementById("downloadPdfBtn");
+      const downloadAnswerKeyPdfBtn = document.getElementById("downloadAnswerKeyPdfBtn");
       const downloadInteractiveHtmlBtn = document.getElementById("downloadInteractiveHtmlBtn");
 
       const clearBtn = document.getElementById("clearBtn");
@@ -2951,6 +2955,8 @@
 
           exportToCatalogBtn.disabled = false;
           if (downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = false;
+          if (downloadPdfBtn) downloadPdfBtn.disabled = false;
+          if (downloadAnswerKeyPdfBtn) downloadAnswerKeyPdfBtn.disabled = false;
           showMessage('bingoWorksheetGenerated', 'success');
 
           // Required by image-reference.js propagation checklist item 10.
@@ -4245,6 +4251,8 @@
         renderSelectedImages(); renderUploadedImages();
         exportToCatalogBtn.disabled = true;
         if (downloadInteractiveHtmlBtn) downloadInteractiveHtmlBtn.disabled = true;
+        if (downloadPdfBtn) downloadPdfBtn.disabled = true;
+        if (downloadAnswerKeyPdfBtn) downloadAnswerKeyPdfBtn.disabled = true;
         closeAllPopups();
         searchInput.value = "";
         themeSelect.value = "all";
@@ -4389,6 +4397,8 @@
       generateWorksheetBtn.addEventListener("click", () => { closeAllPopups(); generateWorksheet().catch(e => { console.error(e); showMessage('generationFailed', 'error', 3000, {error: e.message}); }); });
       
       downloadInteractiveHtmlBtn.addEventListener("click", () => downloadInteractiveHtml(worksheetCanvas, 'bingo_interactive.html', { loadingMode: 'inline' }));
+      downloadPdfBtn.addEventListener("click", () => downloadPdfFile(null, 'worksheet.pdf', true));
+      downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPdfFile(calloutsCanvas, 'answer-key.pdf', false));
       exportToCatalogBtn.addEventListener("click", handleExportToCatalog);
 
       clearBtn.addEventListener("click", clearAll);

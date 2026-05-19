@@ -1605,3 +1605,10 @@ const translations = {
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = translations;
 }
+
+// Expose to window so translations-shared.js can merge in canonical download UI keys
+// (download / pdfWorksheet / jpegImage / grayscale). Without this, the merge-on-load
+// guard `typeof window.translations === 'object'` fails and the dropdown leaks raw keys.
+if (typeof window !== 'undefined') {
+    window.translations = translations;
+}

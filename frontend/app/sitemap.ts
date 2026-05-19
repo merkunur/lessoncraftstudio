@@ -83,36 +83,16 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
   // ====================================================================
   // SHARD 0 + 1 — DECK PAGES (hash-partitioned)
   // ====================================================================
+  // Phase 4 SEO-thumbnail commission (2026-05-19): shards 0 + 1 are now
+  // served by custom route handlers at app/sitemap/0.xml/route.ts +
+  // app/sitemap/1.xml/route.ts. Those routes emit per-URL <image:image>
+  // entries with xmlns:image namespace (Google's image sitemap protocol).
+  // Next.js 14.2.18's MetadataRoute.Sitemap doesn't support image fields,
+  // hence the bypass. This branch returns empty so the auto-generated
+  // /sitemap/0.xml + /sitemap/1.xml routes from this sitemap.ts produce
+  // no content; the static custom routes take precedence in routing.
   if (id === 0 || id === 1) {
-    const targetPartition = id;
-    try {
-      const decks = await prisma.deck.findMany({
-        where: { status: 'published' },
-        select: { language: true, slug: true, updatedAt: true, id: true },
-      });
-      const routes: MetadataRoute.Sitemap = [];
-      for (const d of decks) {
-        if (deckPartition(d.id) !== targetPartition) continue;
-        const deckUrl = `${baseUrl}/${d.language}/decks/${d.slug}/`;
-        // Single-language hreflang self-reference per CLAUDE.md §17.8.7 v1.
-        // Each deck currently maps to exactly one (language, slug) tuple
-        // (content_family_id null per v1). v2 (translate-this-deck) will
-        // expand this to a sibling-set keyed off contentFamilyId.
-        routes.push({
-          url: deckUrl,
-          lastModified: d.updatedAt,
-          changeFrequency: 'weekly',
-          priority: 0.7,
-          alternates: {
-            languages: { [getHreflangCode(d.language)]: deckUrl },
-          },
-        });
-      }
-      return routes;
-    } catch (err) {
-      console.warn(`[sitemap] shard ${id} (decks) DB unreachable; emitting empty:`, (err as Error).message);
-      return [];
-    }
+    return [];
   }
 
   // ====================================================================

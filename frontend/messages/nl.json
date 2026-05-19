@@ -15,7 +15,7 @@
     "start": "Aan de slag",
     "blog": "Blog",
     "resourcesDesc": {
-      "tools": "Probeer alle 33 generators online",
+      "tools": "Probeer alle every generator online",
       "guides": "Stap-voor-stap verkoopgidsen",
       "bundles": "Bespaar met bundels",
       "ideas": "Inspiratie voor winstgevende niches",
@@ -503,7 +503,7 @@
   },
   "faq": {
     "metaTitle": "Veelgestelde Vragen - LessonCraftStudio",
-    "metaDescription": "Antwoorden op veelgestelde vragen over onze 33 werkbladgeneratoren, prijsplannen, commerciële licenties en technische ondersteuning",
+    "metaDescription": "Antwoorden op veelgestelde vragen over onze onze werkbladgeneratoren, prijsplannen, commerciële licenties en technische ondersteuning",
     "metaKeywords": "FAQ, hulp werkbladgeneratoren, prijsvragen, commerciële licentie, technische ondersteuning",
     "hero": {
       "title": "Veelgestelde Vragen",
@@ -613,7 +613,7 @@
         "name": "Volledige Toegang",
         "description": "De complete oplossing voor professionals",
         "features": [
-          "Toegang tot alle 33+ werkbladgeneratoren",
+          "Toegang tot alle werkbladgeneratoren",
           "Onbeperkt werkbladen maken",
           "Zonder watermerk",
           "Hoogwaardige PDF-downloads",
@@ -691,25 +691,25 @@
   },
   "about": {
     "metaTitle": "Over LessonCraftStudio | Professionele Printable-Generatoren",
-    "metaDescription": "Leer meer over LessonCraftStudio — 33 professionele printable-generatoren voor Etsy-verkopers, Amazon KDP-uitgevers en printable-ondernemers. 11 talen, 3.000+ afbeeldingen, commerciële licentie inbegrepen.",
+    "metaDescription": "Leer meer over LessonCraftStudio — professionele printable-generatoren voor Etsy-verkopers, Amazon KDP-uitgevers en printable-ondernemers. vele talen, duizenden afbeeldingen, commerciële licentie inbegrepen.",
     "hero": {
       "title": "Over LessonCraftStudio",
       "subtitle": "Professionele printable-generatoren voor Etsy-verkopers en KDP-uitgevers wereldwijd"
     },
     "stats": {
-      "generators": "33",
+      "generators": "many",
       "generatorsLabel": "Werkblad-generatoren",
-      "languages": "11",
+      "languages": "many",
       "languagesLabel": "Talen",
-      "images": "3.000+",
+      "images": "thousands",
       "imagesLabel": "Thematische afbeeldingen",
-      "themes": "100+",
+      "themes": "plenty",
       "themesLabel": "Thema’s"
     },
     "mission": {
       "title": "Onze missie",
       "description": "LessonCraftStudio is gebouwd om Etsy-verkopers, KDP-uitgevers en printable-ondernemers te helpen direct professionele werkbladen te maken — zonder designvaardigheden, dure software of uren voorbereiding.",
-      "description2": "Onze 33 generatoren maken drukklare PDF's in 300 DPI met antwoordsleutels, 3.000+ thematische afbeeldingen en 11 talen — alles met commerciële licentie om op elk platform te verkopen."
+      "description2": "Onze generatoren maken drukklare PDF's in 300 DPI met antwoordsleutels, duizenden thematische afbeeldingen en vele talen — alles met commerciële licentie om op elk platform te verkopen."
     },
     "methodology": {
       "title": "Onze aanpak",
@@ -723,7 +723,7 @@
       },
       "inclusive": {
         "title": "Meertalig & inclusief",
-        "description": "Alle 33 generatoren werken naadloos in 11 talen, met cultureel passende inhoud en een bibliotheek van meer dan 3.000 handgeselecteerde afbeeldingen."
+        "description": "Al onze generatoren werken naadloos in vele talen, met cultureel passende inhoud en een bibliotheek van een grote collectie handgeselecteerde afbeeldingen."
       }
     },
     "audience": {
@@ -738,7 +738,7 @@
       },
       "therapists": {
         "title": "Contentmakers en uitgevers",
-        "description": "Produceer professionele printbare content op schaal. 33 generatoren, 104 thema's, 11 talen — maak honderden unieke producten op een enkel platform."
+        "description": "Produceer professionele printbare content op schaal. onze generatoren, plenty of thema’s, vele talen — maak honderden unieke producten op een enkel platform."
       }
     },
     "cta": {
@@ -837,7 +837,7 @@
     },
     "gate": {
       "signInPromptTitle": "Sign-in required",
-      "signInPromptBody": "Free sign-up needed to access this feature. Takes 30 seconds.",
+      "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
     },
     "addAffordance": {
@@ -1008,7 +1008,7 @@
     },
     "gate": {
       "signInPromptTitle": "Sign-in required",
-      "signInPromptBody": "Free sign-up needed to access this feature. Takes 30 seconds.",
+      "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
     },
     "loading": "Laden…",
@@ -1083,8 +1083,8 @@
   },
   "worksheetSamples": {
     "title": "Galerij met werkbladvoorbeelden",
-    "subtitle": "Klik op een werkblad voor een grotere preview. Dit zijn slechts enkele voorbeelden uit onze collectie van 33 professionele werkbladgenerators.",
-    "ctaText": "Ontdek alle 33 werkbladgenerators →",
+    "subtitle": "Klik op een werkblad voor een grotere preview. Dit zijn slechts enkele voorbeelden uit onze collectie van professionele werkbladgenerators.",
+    "ctaText": "Ontdek al onze werkbladgenerators →",
     "alphabetTrain": {
       "title": "Alfabettrein",
       "description": "Leuk alfabetleren met kleurrijke treinwagons"
@@ -1248,7 +1248,7 @@
       "full": {
         "description": "De complete oplossing voor professionals",
         "features": [
-          "Alle 33 generatoren",
+          "Al onze generatoren",
           "Onbeperkt werkbladen maken",
           "Zonder watermerk"
         ]

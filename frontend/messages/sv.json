@@ -15,7 +15,7 @@
     "start": "Kom igång",
     "blog": "Blogg",
     "resourcesDesc": {
-      "tools": "Testa alla 33 generatorer online",
+      "tools": "Testa alla våra generatorer online",
       "guides": "Steg-för-steg säljguider",
       "bundles": "Spara med paket",
       "ideas": "Inspiration för lönsamma nischer",
@@ -193,8 +193,8 @@
   },
   "worksheetSamples": {
     "title": "Galleri med arbetsbladsexempel",
-    "subtitle": "Klicka på ett arbetsblad för en större förhandsvisning. Detta är bara några exempel från vår samling av 33 professionella arbetsbladsgeneratorer.",
-    "ctaText": "Utforska alla 33 arbetsbladsgeneratorer →",
+    "subtitle": "Klicka på ett arbetsblad för en större förhandsvisning. Detta är bara några exempel från vår samling av professionella arbetsbladsgeneratorer.",
+    "ctaText": "Utforska alla våra arbetsbladsgeneratorer →",
     "alphabetTrain": {
       "title": "Alfabetståg",
       "description": "Rolig alfabetsinlärning med färgglada tågvagnar"
@@ -593,7 +593,7 @@
   },
   "faq": {
     "metaTitle": "Vanliga frågor - LessonCraftStudio",
-    "metaDescription": "Svar på vanliga frågor om våra 33 arbetsbladsgeneratorer, prisplaner, kommersiella licenser och teknisk support",
+    "metaDescription": "Svar på vanliga frågor om våra arbetsbladsgeneratorer, prisplaner, kommersiella licenser och teknisk support",
     "metaKeywords": "FAQ, hjälp med arbetsbladsgeneratorer, prisfrågor, kommersiell licens, teknisk support",
     "hero": {
       "title": "Vanliga frågor",
@@ -700,7 +700,7 @@
       "full": {
         "description": "Den kompletta lösningen för proffs",
         "features": [
-          "Alla 33 generatorer",
+          "alla våra generatorer",
           "Obegränsat antal arbetsblad",
           "Utan vattenstämpel"
         ]
@@ -948,7 +948,7 @@
         "name": "Premium",
         "description": "Komplett tillgång för avancerade användare",
         "features": [
-          "Tillgång till alla 33+ arbetsbladsgeneratorer",
+          "Tillgång till alla våra arbetsbladsgeneratorer",
           "Obegränsad arbetsbladsgenerering",
           "Utan vattenstämpel",
           "Högkvalitativa PDF-nedladdningar",
@@ -1018,25 +1018,25 @@
   },
   "about": {
     "metaTitle": "Om LessonCraftStudio | Professionella Printable-Generatorer",
-    "metaDescription": "Lär dig mer om LessonCraftStudio — 33 professionella printable-generatorer för Etsy-säljare, Amazon KDP-utgivare och printable-entreprenörer. 11 språk, 3 000+ bilder, kommersiell licens ingår.",
+    "metaDescription": "Lär dig mer om LessonCraftStudio — professionella printable-generatorer för Etsy-säljare, Amazon KDP-utgivare och printable-entreprenörer. flera språk, tusentals bilder, kommersiell licens ingår.",
     "hero": {
       "title": "Om LessonCraftStudio",
       "subtitle": "Professionella printable-generatorer för Etsy-säljare, KDP-utgivare och entreprenörer"
     },
     "stats": {
-      "generators": "33",
+      "generators": "many",
       "generatorsLabel": "Arbetsblads-generatorer",
-      "languages": "11",
+      "languages": "many",
       "languagesLabel": "Språk",
-      "images": "3 000+",
+      "images": "thousands",
       "imagesLabel": "Tematiska bilder",
-      "themes": "100+",
+      "themes": "plenty",
       "themesLabel": "Teman"
     },
     "mission": {
       "title": "Vårt uppdrag",
       "description": "LessonCraftStudio skapades för att hjälpa Etsy-säljare, KDP-utgivare och printable-entreprenörer att skapa professionella arbetsblad direkt — utan designkunskaper, dyr programvara eller timmar av förberedelse.",
-      "description2": "Våra 33 generatorer skapar utskriftsklara PDF-filer i 300 DPI med svarsnycklar, 3 000+ temabilder och 11 språk — allt med kommersiell licens för försäljning på alla plattformar."
+      "description2": "Våra generatorer skapar utskriftsklara PDF-filer i 300 DPI med svarsnycklar, tusentals temabilder och flera språk — allt med kommersiell licens för försäljning på alla plattformar."
     },
     "methodology": {
       "title": "Vår metod",
@@ -1050,7 +1050,7 @@
       },
       "inclusive": {
         "title": "Flerspråkigt & inkluderande",
-        "description": "Alla 33 generatorer fungerar sömlöst på 11 språk, med kulturellt anpassat innehåll och ett bibliotek med över 3 000 handplockade bilder."
+        "description": "alla våra generatorer fungerar sömlöst på flera språk, med kulturellt anpassat innehåll och ett bibliotek med över en stor samling handplockade bilder."
       }
     },
     "audience": {
@@ -1061,7 +1061,7 @@
       },
       "parents": {
         "title": "Personligt bruk",
-        "description": "Skapa anpassade arbetsblad för dina barn hemma — välj bland 100+ teman och 11 språk för engagerande inlärning."
+        "description": "Skapa anpassade arbetsblad för dina barn hemma — välj bland många teman och flera språk för engagerande inlärning."
       },
       "therapists": {
         "title": "Innehållsskapare och utgivare",
@@ -1333,7 +1333,7 @@
     },
     "gate": {
       "signInPromptTitle": "Sign-in required",
-      "signInPromptBody": "Free sign-up needed to access this feature. Takes 30 seconds.",
+      "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
     },
     "addAffordance": {
@@ -1374,7 +1374,7 @@
     },
     "gate": {
       "signInPromptTitle": "Sign-in required",
-      "signInPromptBody": "Free sign-up needed to access this feature. Takes 30 seconds.",
+      "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
     },
     "loading": "Loading…",

@@ -15,7 +15,7 @@
     "start": "Démarrer",
     "blog": "Blog",
     "resourcesDesc": {
-      "tools": "Essayez les 33 générateurs en ligne",
+      "tools": "Essayez tous nos générateurs en ligne",
       "guides": "Guides de vente étape par étape",
       "bundles": "Économisez avec les packs",
       "ideas": "Inspiration de niches rentables",
@@ -193,8 +193,8 @@
   },
   "worksheetSamples": {
     "title": "Galerie d'exemples de fiches",
-    "subtitle": "Cliquez sur une fiche pour un aperçu plus grand. Voici quelques exemples de notre collection de 33 générateurs professionnels de fiches pédagogiques.",
-    "ctaText": "Explorer les 33 générateurs de fiches →",
+    "subtitle": "Cliquez sur une fiche pour un aperçu plus grand. Voici quelques exemples de notre collection de générateurs professionnels de fiches pédagogiques.",
+    "ctaText": "Explorer tous nos générateurs de fiches →",
     "alphabetTrain": {
       "title": "Train de l'alphabet",
       "description": "Apprentissage ludique de l'alphabet avec des wagons colorés"
@@ -593,7 +593,7 @@
   },
   "faq": {
     "metaTitle": "Questions Fréquentes - LessonCraftStudio",
-    "metaDescription": "Réponses aux questions courantes sur nos 33 générateurs de fiches d'exercices, formules tarifaires, licences commerciales et assistance technique",
+    "metaDescription": "Réponses aux questions courantes sur nos générateurs de fiches d'exercices, formules tarifaires, licences commerciales et assistance technique",
     "metaKeywords": "FAQ, aide générateurs de fiches, questions tarifs, licence commerciale, support technique",
     "hero": {
       "title": "Questions Fréquentes",
@@ -700,7 +700,7 @@
       "full": {
         "description": "La solution complète pour les professionnels",
         "features": [
-          "Les 33 générateurs",
+          "tous nos générateurs",
           "Fiches illimitées",
           "Sans filigrane"
         ]
@@ -948,7 +948,7 @@
         "name": "Accès Complet",
         "description": "La solution complète pour les professionnels",
         "features": [
-          "Accès aux 33+ générateurs",
+          "Accès à tous nos générateurs",
           "Fiches illimitées",
           "Sans filigrane",
           "Téléchargements PDF haute qualité",
@@ -1038,25 +1038,25 @@
   },
   "about": {
     "metaTitle": "À propos de LessonCraftStudio | Générateurs de Printables pour Vendeurs",
-    "metaDescription": "LessonCraftStudio — 33 générateurs de printables professionnels pour vendeurs Etsy, éditeurs Amazon KDP et entrepreneurs. 11 langues, 3 000+ images, licence commerciale incluse.",
+    "metaDescription": "LessonCraftStudio — nos générateurs de printables professionnels pour vendeurs Etsy, éditeurs Amazon KDP et entrepreneurs. plusieurs langues, des milliers d’images, licence commerciale incluse.",
     "hero": {
       "title": "À propos de LessonCraftStudio",
       "subtitle": "Générateurs de printables professionnels pour vendeurs Etsy et éditeurs KDP dans le monde entier"
     },
     "stats": {
-      "generators": "33",
+      "generators": "many",
       "generatorsLabel": "Générateurs de fiches",
-      "languages": "11",
+      "languages": "many",
       "languagesLabel": "Langues",
-      "images": "3 000+",
+      "images": "thousands",
       "imagesLabel": "Images thématiques",
-      "themes": "100+",
+      "themes": "plenty",
       "themesLabel": "Thèmes"
     },
     "mission": {
       "title": "Notre mission",
       "description": "LessonCraftStudio a été créé pour aider les vendeurs Etsy, les éditeurs KDP et les entrepreneurs du printable à produire des fiches professionnelles en un instant — sans compétences en design, logiciel coûteux ni heures de préparation.",
-      "description2": "Nos 33 générateurs créent des PDFs prêts à imprimer en 300 DPI avec corrigés, 3 000+ images thématiques et 11 langues — le tout avec licence commerciale pour vendre sur toutes les plateformes."
+      "description2": "Nos nos générateurs créent des PDFs prêts à imprimer en 300 DPI avec corrigés, des milliers d’images thématiques et plusieurs langues — le tout avec licence commerciale pour vendre sur toutes les plateformes."
     },
     "methodology": {
       "title": "Notre approche",
@@ -1070,7 +1070,7 @@
       },
       "inclusive": {
         "title": "Multilingue & Inclusif",
-        "description": "Les 33 générateurs fonctionnent parfaitement en 11 langues, avec un contenu culturellement adapté et une bibliothèque de plus de 3 000 images sélectionnées."
+        "description": "tous nos générateurs fonctionnent parfaitement en plusieurs langues, avec un contenu culturellement adapté et une bibliothèque de plus de des milliers d’images sélectionnées."
       }
     },
     "audience": {
@@ -1085,7 +1085,7 @@
       },
       "therapists": {
         "title": "Créateurs de contenu & Éditeurs",
-        "description": "Produisez du contenu imprimable professionnel à grande échelle. 33 générateurs, 104 thèmes, 11 langues — créez des centaines de produits uniques sur une seule plateforme."
+        "description": "Produisez du contenu imprimable professionnel à grande échelle. nos générateurs, de nombreux thèmes, plusieurs langues — créez des centaines de produits uniques sur une seule plateforme."
       }
     },
     "cta": {
@@ -1353,7 +1353,7 @@
     },
     "gate": {
       "signInPromptTitle": "Sign-in required",
-      "signInPromptBody": "Free sign-up needed to access this feature. Takes 30 seconds.",
+      "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
     },
     "addAffordance": {
@@ -1394,7 +1394,7 @@
     },
     "gate": {
       "signInPromptTitle": "Sign-in required",
-      "signInPromptBody": "Free sign-up needed to access this feature. Takes 30 seconds.",
+      "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
     },
     "loading": "Loading…",

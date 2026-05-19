@@ -1,10 +1,15 @@
 'use client';
 
+import Link from 'next/link';
+
 /**
  * Client wrapper for a single BreadthGrid deck thumbnail.
  *
- * Per CLAUDE.md §7 (post-2026-05-17 sign-in-gate removal): deck plays are
- * anonymous-accessible. Plain `<a href>` — no gate, no hook.
+ * Per operator commission 2026-05-19: `deckUrl` is the visitor-locale topic
+ * page URL (Next.js route), NOT the deck URL — see BreadthGrid.tsx comments.
+ * The prop name is retained for backwards compat but it now targets a topic
+ * route. Use Next.js <Link> (topic routes are Next.js, unlike the nginx-served
+ * deck routes per §15.7).
  *
  * Kept as a `'use client'` wrapper component (rather than inlining back
  * into the server BreadthGrid) for cheap future re-introduction of any
@@ -29,7 +34,7 @@ export default function BreadthGridThumbnail({
   ariaLabel,
 }: BreadthGridThumbnailProps) {
   return (
-    <a
+    <Link
       href={deckUrl}
       className="group block rounded-md overflow-hidden bg-cream-50 border border-cream-300 hover:border-ink-700 hover:shadow-md transition-all"
       aria-label={ariaLabel}
@@ -53,6 +58,6 @@ export default function BreadthGridThumbnail({
           {languageLabel}
         </span>
       </div>
-    </a>
+    </Link>
   );
 }

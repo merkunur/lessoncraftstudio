@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import {
   getExerciseModeUniverse,
@@ -6,28 +7,40 @@ import {
   Subject,
   ExerciseModeTile,
 } from '@/lib/exercise-mode-universe';
+import { getAxisSlug } from '@/lib/taxonomy';
 
-// Section — "Every exercise we offer". Server-rendered per the home-page
+// Section — "A wide variety of exercises". Server-rendered per the home-page
 // ISR window (revalidate=3600 lives on frontend/app/[locale]/page.tsx).
 //
-// Per operator commission 2026-05-19: surface every published (app, mode)
-// tuple as a clickable tile linking to a representative deck. Universe is
-// anchored to the EN catalog (Track-C-complete per CLAUDE.md §19.5); locales
-// with partial coverage fall back silently to the EN deck per the
-// "loan from English" rule.
+// Per operator commission 2026-05-19: each (app, mode) tile links to the
+// exercise-type topic page in the VISITOR's locale, not the deck's native
+// locale. Operator rationale: most locales currently fall back to EN decks
+// while their Track-C catalog is being published; clicking should keep the
+// visitor in their selected locale rather than dump them on /en/decks/...
 //
-// Per CLAUDE.md §15.7: deck URLs are nginx-served, so tiles use plain <a>
-// (not Next.js Link). Per §16.5: exercise-mode is slug-component-only —
-// tiles link directly to /[lang]/decks/[slug]/, NOT to a topic page.
+// Per CLAUDE.md §16.5: exercise-mode is slug-component-only (NOT a topic-page
+// axis), so the link target is the exercise-type topic page with the mode
+// passed as a `?mode=` query param (honored by topic route per §16.5.4 /
+// §16.8.2). Per §15.7 routing-contract: /[locale]/topic/[slug]/ IS a Next.js
+// route (unlike /[locale]/decks/[slug]/ which is nginx-served), so tiles use
+// Next.js <Link>.
 
-function ModeTile({ tile }: { tile: ExerciseModeTile }) {
-  const deckUrl = `/${tile.deck.language}/decks/${tile.deck.slug}/`;
+interface ModeTileProps {
+  tile: ExerciseModeTile;
+  locale: string;
+}
+
+function ModeTile({ tile, locale }: ModeTileProps) {
+  const typeSlug = getAxisSlug('exercise-type', tile.exerciseType, locale) ?? tile.exerciseType;
+  const topicUrl = tile.exerciseMode
+    ? `/${locale}/topic/${typeSlug}/?mode=${tile.exerciseMode}`
+    : `/${locale}/topic/${typeSlug}/`;
   const displayLabel = tile.modeLabel ?? tile.appLabel;
   const subLabel = tile.modeLabel ? tile.appLabel : null;
 
   return (
-    <a
-      href={deckUrl}
+    <Link
+      href={topicUrl}
       className="group block rounded-md overflow-hidden bg-cream-50 border border-cream-300 hover:border-ink-700 hover:shadow-md transition-all"
       aria-label={`${displayLabel}${subLabel ? ` — ${subLabel}` : ''}`}
     >
@@ -49,7 +62,7 @@ function ModeTile({ tile }: { tile: ExerciseModeTile }) {
           </div>
         )}
       </div>
-    </a>
+    </Link>
   );
 }
 
@@ -95,6 +108,7 @@ export default async function AllExerciseModesGrid({ locale }: { locale: string 
                 <ModeTile
                   key={`${tile.exerciseType}-${tile.exerciseMode ?? 'default'}`}
                   tile={tile}
+                  locale={locale}
                 />
               ))}
             </div>

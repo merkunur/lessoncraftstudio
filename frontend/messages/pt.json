@@ -45,14 +45,14 @@
       "ogAlt": "LessonCraftStudio — fichas K-3 em muitos idiomas"
     },
     "hero": {
-      "title": "Worksheets in many languages, printable and interactive.",
-      "subtitle": "Our worksheet creators generate a wide range of worksheet types — addition, crosswords, sudoku, picture sorts, find-and-count, and more. Most of them produce both a printable PDF and a browser-playable interactive version from the same setup.",
-      "interaction": "Built for teachers in bilingual, dual-language, and international schools.",
-      "cta": "Join for free →"
+      "title": "Fichas em muitos idiomas, imprimíveis e interativas.",
+      "subtitle": "Nossos geradores de fichas produzem uma ampla variedade de tipos de fichas — adições, palavras cruzadas, sudoku, classificação por imagens, busca-e-conta, e muito mais. A maioria produz tanto um PDF imprimível quanto uma versão interativa jogável no navegador a partir da mesma configuração.",
+      "interaction": "Pensado para professores em programas bilíngues, salas bilíngues e escolas internacionais.",
+      "cta": "Cadastre-se grátis →"
     },
     "fourCardGrid": {
       "sectionTitle": "Nossa biblioteca de aprendizagem",
-      "intro": "Worksheets, worksheet creators, and interactive activities — everything a K-3 multilingual classroom needs, across many languages.",
+      "intro": "Fichas, geradores de fichas e atividades interativas — tudo o que uma sala K-3 multilíngue precisa, em muitos idiomas.",
       "worksheets": {
         "title": "Fichas",
         "description": "PDFs imprimíveis em muitos idiomas com ilustrações K-3 e vocabulário gramaticalmente correto. Uma ampla variedade de tipos de exercícios em diversos temas.",
@@ -147,24 +147,24 @@
       "breadthIntro": "Toque em qualquer uma para jogar uma atividade completa — como seus alunos vão fazer."
     },
     "subscription": {
-      "sectionTitle": "Everything we make, free for teachers.",
-      "intro": "Sign up to play every worksheet, download every PDF, and use every worksheet creator. No tiers, no subscription — just free for teachers.",
+      "sectionTitle": "Tudo o que fazemos, grátis para professores.",
+      "intro": "Cadastre-se para jogar cada ficha, baixar cada PDF e usar cada gerador de fichas. Sem níveis, sem assinatura — apenas grátis para professores.",
       "catalog": {
-        "title": "Full worksheet catalog",
-        "body": "Printable and interactive worksheets across many languages. Unlimited downloads of every existing deck plus everything we publish through the year."
+        "title": "Catálogo completo de fichas",
+        "body": "Fichas imprimíveis e interativas em muitos idiomas. Downloads ilimitados de cada deck existente além de tudo o que publicarmos durante o ano."
       },
       "creators": {
-        "title": "Every worksheet creator",
-        "body": "A wide range of worksheet types — math, literacy, puzzles, matching, search. Generate as many variations as you need. Most of the apps output both printable and interactive formats from a single setup."
+        "title": "Cada gerador de fichas",
+        "body": "Uma ampla variedade de tipos de fichas — matemática, alfabetização, quebra-cabeças, correspondência, busca. Gere quantas variações precisar. A maioria dos apps produz formatos imprimíveis e interativos a partir de uma única configuração."
       },
       "assets": {
-        "title": "A vast theme library, a large image collection, many languages",
-        "body": "The illustration library and vocabulary system that lets the same worksheet work across languages — grammatically correct gender, plurals, and diacritics in each language."
+        "title": "Uma vasta biblioteca de temas, uma grande coleção de imagens, muitos idiomas",
+        "body": "A biblioteca de ilustrações e o sistema de vocabulário que fazem a mesma ficha funcionar em idiomas diferentes — gênero, plurais e acentuação gramaticalmente corretos em cada idioma."
       },
-      "price": "Free for everyone with a teacher account.",
-      "subscribeCta": "Join for free →",
-      "subscribeSubCopy": "Free for all teachers. Sign-up takes just a moment.",
-      "alreadySubscribedCta": "Go to workspace"
+      "price": "Grátis para todos com uma conta de professor.",
+      "subscribeCta": "Cadastre-se grátis →",
+      "subscribeSubCopy": "Grátis para todos os professores. O cadastro leva apenas um momento.",
+      "alreadySubscribedCta": "Ir ao espaço de trabalho"
     },
     "exerciseTypeGrid": {
       "heading": "Cada tipo de exercício K-3, no seu idioma.",

@@ -3,6 +3,7 @@ import {
   selectBreadthGridDecks,
   BreadthGridDeck,
 } from '@/lib/breadth-grid-selection';
+import { getAxisSlug } from '@/lib/taxonomy';
 import FeaturedDeckTile from './FeaturedDeckTile';
 import BreadthGridThumbnail from './BreadthGridThumbnail';
 
@@ -15,8 +16,11 @@ import BreadthGridThumbnail from './BreadthGridThumbnail';
 // Selection logic lives in lib/breadth-grid-selection.ts; this component is
 // rendering only.
 //
-// Non-featured tiles use plain <a>, not Next.js Link, per CLAUDE.md §15.7
-// routing-contract convention (deck URL is nginx-served, not a Next.js route).
+// Per operator commission 2026-05-19: non-featured thumbnails route to the
+// exercise-type topic page in the VISITOR's locale (regardless of the deck's
+// native language). The featured tile keeps the deck URL because it's an
+// inline iframe play (needs the actual deck.html). Per §15.7 routing-contract:
+// topic URLs are Next.js routes (Link); deck URLs are nginx-served (plain <a>).
 
 interface RenderDeck {
   id?: string;
@@ -25,7 +29,8 @@ interface RenderDeck {
   title: string;
   languageLabel: string;
   thumbnailUrl: string;
-  deckUrl: string;
+  deckUrl: string;     // for FeaturedDeckTile iframe (deck.language native)
+  topicUrl: string;    // for thumbnail click (visitor-locale topic page)
 }
 
 function titleFor(deck: BreadthGridDeck): string {
@@ -33,7 +38,8 @@ function titleFor(deck: BreadthGridDeck): string {
   return titleMap[deck.language] || deck.slug;
 }
 
-function toRenderDeck(deck: BreadthGridDeck): RenderDeck {
+function toRenderDeck(deck: BreadthGridDeck, visitorLocale: string): RenderDeck {
+  const typeSlug = getAxisSlug('exercise-type', deck.exerciseType, visitorLocale) ?? deck.exerciseType;
   return {
     id: (deck as BreadthGridDeck & { id?: string }).id,
     slug: deck.slug,
@@ -42,6 +48,7 @@ function toRenderDeck(deck: BreadthGridDeck): RenderDeck {
     languageLabel: deck.language.toUpperCase(),
     thumbnailUrl: deck.thumbnailUrl,
     deckUrl: `/${deck.language}/decks/${deck.slug}/`,
+    topicUrl: `/${visitorLocale}/topic/${typeSlug}/`,
   };
 }
 
@@ -65,8 +72,8 @@ export default async function BreadthGrid({ locale }: { locale: string }) {
     );
   }
 
-  const thumbnails = [...visiting, ...crossLocale].map(toRenderDeck);
-  const featuredRender = featured ? toRenderDeck(featured) : null;
+  const thumbnails = [...visiting, ...crossLocale].map(d => toRenderDeck(d, locale));
+  const featuredRender = featured ? toRenderDeck(featured, locale) : null;
 
   return (
     <section id="breadth" className="container mx-auto px-4 max-w-6xl py-20 md:py-28">
@@ -99,7 +106,7 @@ export default async function BreadthGrid({ locale }: { locale: string }) {
             title={deck.title}
             languageLabel={deck.languageLabel}
             thumbnailUrl={deck.thumbnailUrl}
-            deckUrl={deck.deckUrl}
+            deckUrl={deck.topicUrl}
             ariaLabel={`${t('openDeck')}: ${deck.title}`}
           />
         ))}

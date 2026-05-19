@@ -45,14 +45,14 @@
       "ogAlt": "LessonCraftStudio — K-3-werkbladen in vele talen"
     },
     "hero": {
-      "title": "Worksheets in many languages, printable and interactive.",
-      "subtitle": "Our worksheet creators generate a wide range of worksheet types — addition, crosswords, sudoku, picture sorts, find-and-count, and more. Most of them produce both a printable PDF and a browser-playable interactive version from the same setup.",
-      "interaction": "Built for teachers in bilingual, dual-language, and international schools.",
-      "cta": "Join for free →"
+      "title": "Werkbladen in vele talen, afdrukbaar en interactief.",
+      "subtitle": "Onze werkblad-makers genereren een brede waaier aan werkbladtypes — optellen, kruiswoordraadsels, sudoku, beeldsorteren, zoek-en-tel, en meer. De meeste produceren zowel een afdrukbare PDF als een in de browser speelbare interactieve versie vanuit dezelfde opzet.",
+      "interaction": "Gebouwd voor leerkrachten in tweetalige programma's, bilinguale klassen en internationale scholen.",
+      "cta": "Gratis aanmelden →"
     },
     "fourCardGrid": {
       "sectionTitle": "Onze leerbibliotheek",
-      "intro": "Worksheets, worksheet creators, and interactive activities — everything a K-3 multilingual classroom needs, across many languages.",
+      "intro": "Werkbladen, werkblad-makers en interactieve activiteiten — alles wat een K-3 meertalige klas nodig heeft, in vele talen.",
       "worksheets": {
         "title": "Werkbladen",
         "description": "Afdrukbare PDF's in vele talen met K-3-illustraties en grammaticaal correcte woordenschat. Een brede waaier aan oefentypes verdeeld over vele thema's.",
@@ -147,24 +147,24 @@
       "breadthIntro": "Tik op een van deze om een volledig werkblad te spelen — net als je leerlingen."
     },
     "subscription": {
-      "sectionTitle": "Everything we make, free for teachers.",
-      "intro": "Sign up to play every worksheet, download every PDF, and use every worksheet creator. No tiers, no subscription — just free for teachers.",
+      "sectionTitle": "Alles wat we maken, gratis voor leerkrachten.",
+      "intro": "Meld u aan om elk werkblad te spelen, elke PDF te downloaden en elke werkblad-maker te gebruiken. Geen niveaus, geen abonnement — gewoon gratis voor leerkrachten.",
       "catalog": {
-        "title": "Full worksheet catalog",
-        "body": "Printable and interactive worksheets across many languages. Unlimited downloads of every existing deck plus everything we publish through the year."
+        "title": "Volledige werkblad-catalogus",
+        "body": "Afdrukbare en interactieve werkbladen in vele talen. Onbeperkt downloaden van elk bestaand deck plus alles wat we gedurende het jaar publiceren."
       },
       "creators": {
-        "title": "Every worksheet creator",
-        "body": "A wide range of worksheet types — math, literacy, puzzles, matching, search. Generate as many variations as you need. Most of the apps output both printable and interactive formats from a single setup."
+        "title": "Elke werkblad-maker",
+        "body": "Een brede waaier aan werkbladtypes — rekenen, taal, puzzels, koppelen, zoeken. Genereer zoveel varianten als u nodig hebt. De meeste apps leveren zowel afdrukbare als interactieve formaten vanuit één opzet."
       },
       "assets": {
-        "title": "A vast theme library, a large image collection, many languages",
-        "body": "The illustration library and vocabulary system that lets the same worksheet work across languages — grammatically correct gender, plurals, and diacritics in each language."
+        "title": "Een uitgebreide thema-bibliotheek, een grote beeldcollectie, vele talen",
+        "body": "De illustratiebibliotheek en het vocabulairesysteem die hetzelfde werkblad in verschillende talen laten werken — grammaticaal correct geslacht, meervoud en accenten in elke taal."
       },
-      "price": "Free for everyone with a teacher account.",
-      "subscribeCta": "Join for free →",
-      "subscribeSubCopy": "Free for all teachers. Sign-up takes just a moment.",
-      "alreadySubscribedCta": "Go to workspace"
+      "price": "Gratis voor iedereen met een leerkracht-account.",
+      "subscribeCta": "Gratis aanmelden →",
+      "subscribeSubCopy": "Gratis voor alle leerkrachten. Aanmelding kost slechts een moment.",
+      "alreadySubscribedCta": "Naar de werkruimte"
     },
     "exerciseTypeGrid": {
       "heading": "Elk K-3 oefeningstype, in jouw taal.",

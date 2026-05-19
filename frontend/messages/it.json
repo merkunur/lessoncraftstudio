@@ -45,14 +45,14 @@
       "ogAlt": "LessonCraftStudio — schede K-3 in molte lingue"
     },
     "hero": {
-      "title": "Worksheets in many languages, printable and interactive.",
-      "subtitle": "Our worksheet creators generate a wide range of worksheet types — addition, crosswords, sudoku, picture sorts, find-and-count, and more. Most of them produce both a printable PDF and a browser-playable interactive version from the same setup.",
-      "interaction": "Built for teachers in bilingual, dual-language, and international schools.",
-      "cta": "Join for free →"
+      "title": "Schede in molte lingue, stampabili e interattive.",
+      "subtitle": "I nostri generatori di schede producono un'ampia varietà di tipi di schede — addizioni, cruciverba, sudoku, classificazione per immagini, cerca-e-conta, e altro. La maggior parte produce sia un PDF stampabile sia una versione interattiva giocabile nel browser dalla stessa configurazione.",
+      "interaction": "Pensato per insegnanti in programmi bilingui, classi bilingui e scuole internazionali.",
+      "cta": "Iscriviti gratis →"
     },
     "fourCardGrid": {
       "sectionTitle": "La nostra biblioteca di apprendimento",
-      "intro": "Worksheets, worksheet creators, and interactive activities — everything a K-3 multilingual classroom needs, across many languages.",
+      "intro": "Schede, generatori di schede e attività interattive — tutto ciò di cui una classe K-3 multilingue ha bisogno, in molte lingue.",
       "worksheets": {
         "title": "Schede",
         "description": "PDF stampabili in molte lingue con illustrazioni K-3 e vocabolario grammaticalmente corretto. Un'ampia varietà di tipi di esercizi su numerosi temi.",
@@ -147,24 +147,24 @@
       "breadthIntro": "Tocca una qualsiasi per giocare una scheda completa — come faranno i tuoi alunni."
     },
     "subscription": {
-      "sectionTitle": "Everything we make, free for teachers.",
-      "intro": "Sign up to play every worksheet, download every PDF, and use every worksheet creator. No tiers, no subscription — just free for teachers.",
+      "sectionTitle": "Tutto ciò che produciamo, gratis per gli insegnanti.",
+      "intro": "Iscriviti per giocare ogni scheda, scaricare ogni PDF e usare ogni generatore di schede. Nessun livello, nessun abbonamento — semplicemente gratis per gli insegnanti.",
       "catalog": {
-        "title": "Full worksheet catalog",
-        "body": "Printable and interactive worksheets across many languages. Unlimited downloads of every existing deck plus everything we publish through the year."
+        "title": "Catalogo completo di schede",
+        "body": "Schede stampabili e interattive in molte lingue. Download illimitati di ogni deck esistente più tutto ciò che pubblichiamo durante l'anno."
       },
       "creators": {
-        "title": "Every worksheet creator",
-        "body": "A wide range of worksheet types — math, literacy, puzzles, matching, search. Generate as many variations as you need. Most of the apps output both printable and interactive formats from a single setup."
+        "title": "Ogni generatore di schede",
+        "body": "Un'ampia varietà di tipi di schede — matematica, alfabetizzazione, rompicapi, abbinamento, ricerca. Genera tutte le varianti che ti servono. La maggior parte delle app produce sia formati stampabili sia interattivi da una sola configurazione."
       },
       "assets": {
-        "title": "A vast theme library, a large image collection, many languages",
-        "body": "The illustration library and vocabulary system that lets the same worksheet work across languages — grammatically correct gender, plurals, and diacritics in each language."
+        "title": "Una vasta biblioteca di temi, una grande raccolta di immagini, molte lingue",
+        "body": "La biblioteca di illustrazioni e il sistema di vocabolario che permettono alla stessa scheda di funzionare in lingue diverse — genere, plurali e accenti grammaticalmente corretti in ogni lingua."
       },
-      "price": "Free for everyone with a teacher account.",
-      "subscribeCta": "Join for free →",
-      "subscribeSubCopy": "Free for all teachers. Sign-up takes just a moment.",
-      "alreadySubscribedCta": "Go to workspace"
+      "price": "Gratuito per chiunque abbia un account insegnante.",
+      "subscribeCta": "Iscriviti gratis →",
+      "subscribeSubCopy": "Gratuito per tutti gli insegnanti. L'iscrizione richiede solo un istante.",
+      "alreadySubscribedCta": "Vai allo spazio di lavoro"
     },
     "exerciseTypeGrid": {
       "heading": "Ogni tipo di esercizio K-3, nella tua lingua.",

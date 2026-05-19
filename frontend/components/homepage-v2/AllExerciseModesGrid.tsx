@@ -89,9 +89,6 @@ export default async function AllExerciseModesGrid({ locale }: { locale: string 
           <div key={subject}>
             <h3 className="font-display font-medium text-xl md:text-2xl text-ink-900 mb-6">
               {t(`subject.${subject}`)}
-              <span className="ml-2 text-base font-normal text-ink-500">
-                ({grouped[subject].length})
-              </span>
             </h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
               {grouped[subject].map(tile => (

@@ -39,28 +39,28 @@
   "homepage": {
     "meta": {
       "title": "LessonCraftStudio — Fichas que funcionam de verdade na sua segunda língua",
-      "description": "Uma biblioteca curada de ilustrações K-3 e um sistema de vocabulário em 11 idiomas, com gênero, plurais e acentuação corretos. Pensado para salas bilíngues e programas em imersão.",
+      "description": "Uma biblioteca curada de ilustrações K-3 e um sistema de vocabulário multilíngue com gênero, plurais e acentuação corretos. Pensado para salas bilíngues e programas em imersão.",
       "ogTitle": "Fichas que funcionam de verdade na sua segunda língua.",
       "ogDescription": "Pensado para professores em programas bilíngues, salas bilíngues e escolas internacionais.",
-      "ogAlt": "LessonCraftStudio — fichas K-3 em 11 idiomas"
+      "ogAlt": "LessonCraftStudio — fichas K-3 em muitos idiomas"
     },
     "hero": {
-      "title": "Worksheets in 11 languages, printable and interactive.",
-      "subtitle": "33 worksheet creators generate over 100 worksheet types — addition, crosswords, sudoku, picture sorts, find-and-count, and more. 29 of the 33 produce both a printable PDF and a browser-playable interactive version from the same setup.",
+      "title": "Worksheets in many languages, printable and interactive.",
+      "subtitle": "Our worksheet creators generate a wide range of worksheet types — addition, crosswords, sudoku, picture sorts, find-and-count, and more. Most of them produce both a printable PDF and a browser-playable interactive version from the same setup.",
       "interaction": "Built for teachers in bilingual, dual-language, and international schools.",
       "cta": "Join for free →"
     },
     "fourCardGrid": {
       "sectionTitle": "Nossa biblioteca de aprendizagem",
-      "intro": "Worksheets, worksheet creators, and interactive activities — everything a K-3 multilingual classroom needs, in 11 languages.",
+      "intro": "Worksheets, worksheet creators, and interactive activities — everything a K-3 multilingual classroom needs, across many languages.",
       "worksheets": {
         "title": "Fichas",
-        "description": "PDFs imprimíveis em 11 idiomas com ilustrações K-3 e vocabulário gramaticalmente correto. 29 tipos de exercícios em 100 temas.",
+        "description": "PDFs imprimíveis em muitos idiomas com ilustrações K-3 e vocabulário gramaticalmente correto. Uma ampla variedade de tipos de exercícios em diversos temas.",
         "cta": "Ver fichas"
       },
       "apps": {
         "title": "Geradores de fichas",
-        "description": "29 geradores de fichas que produzem tanto PDFs imprimíveis quanto atividades interativas. Escolha o tema, o assunto e o idioma — os apps fazem o resto.",
+        "description": "Geradores de fichas que produzem tanto PDFs imprimíveis quanto atividades interativas. Escolha o tema, o assunto e o idioma — os apps fazem o resto.",
         "cta": "Abrir os apps",
         "cardCta": "Abrir o gerador",
         "categories": {
@@ -88,8 +88,8 @@
       "loadingDeck": "Carregando deck…"
     },
     "allExerciseModes": {
-      "sectionTitle": "Todos os exercícios que oferecemos.",
-      "intro": "29 geradores de atividades, cerca de 80 atividades distintas. Toque em qualquer uma para jogar.",
+      "sectionTitle": "Uma ampla variedade de exercícios.",
+      "intro": "Adições, labirintos com imagens, sudoku, busca-e-conta, palavras cruzadas, lógica de padrões e muito mais. Toque em qualquer um para jogar aqui mesmo.",
       "subject": {
         "math": "Matemática e números",
         "letters": "Letras e palavras",
@@ -99,8 +99,8 @@
     },
     "languageProof": {
       "sectionTitle": "O que a tradução automática erra — e o que fazemos certo.",
-      "intro": "A maioria dos sites de fichas traduz conteúdo em inglês com um motor genérico e publica o resultado. Os artigos saem errados. Os plurais se achatam. Os acentos somem. As crianças aprendem os erros. Tratamos cada um dos nossos 11 idiomas como um catálogo próprio — não como uma tradução do inglês — com vocabulário curado por pessoas que realmente ensinam naquele idioma.",
-      "subIntro": "Dois exemplos, lado a lado.",
+      "intro": "A maioria dos sites de fichas traduz conteúdo em inglês com um motor genérico e publica o resultado. Os artigos saem errados. Os plurais se achatam. Os acentos somem. As crianças aprendem os erros. Tratamos cada um dos nossos idiomas como um catálogo próprio — não como uma tradução do inglês — com vocabulário curado por pessoas que realmente ensinam naquele idioma.",
+      "subIntro": "Exemplos, lado a lado.",
       "german": {
         "heading": "Alemão — gênero, maiúsculas, plural irregular",
         "leftAnnotation1": "A tradução automática adivinha o artigo a partir do contexto em inglês. Schule é feminino — nenhum contexto em inglês diz isso.",
@@ -109,7 +109,7 @@
         "annotation1": "die Schule — o artigo certo, sempre. Nosso vocabulário alemão é indexado pelo gênero, não adivinhado.",
         "annotation2": "Schule — em maiúscula, como deve ser um substantivo alemão.",
         "annotation3": "Schulen — o plural verdadeiro, não um chute do tipo latino.",
-        "ariaLabel": "Comparação lado a lado: uma ficha alemã traduzida automaticamente com três erros — artigo feminino errado (« der » em vez de « die »), substantivo sem maiúscula (« schule » em vez de « Schule »), e plural à inglesa (« schules » em vez de « Schulen ») — ao lado da versão LessonCraftStudio com « die Schule » e « die Schulen » corretamente apresentados."
+        "ariaLabel": "Comparação lado a lado: uma ficha alemã traduzida automaticamente com erros comuns — artigo feminino errado (« der » em vez de « die »), substantivo sem maiúscula (« schule » em vez de « Schule »), e plural à inglesa (« schules » em vez de « Schulen ») — ao lado da versão LessonCraftStudio com « die Schule » e « die Schulen » corretamente apresentados."
       },
       "french": {
         "heading": "Francês — gênero, contrações, acentos",
@@ -119,7 +119,7 @@
         "annotation1": "l'école — elisão e acento corretos.",
         "annotation2": "à l'école — contração correta com a preposição.",
         "annotation3": "Cada acento do nosso catálogo francês é tratado como parte integrante da palavra.",
-        "ariaLabel": "Comparação lado a lado: uma ficha francesa traduzida automaticamente com três erros — artigo não elidido (« la école » em vez de « l'école »), preposição não contraída (« à le école » em vez de « à l'école »), e acento agudo ausente (« ecole » em vez de « école ») — ao lado da versão LessonCraftStudio com « l'école », « à l'école » e « école » corretamente apresentados."
+        "ariaLabel": "Comparação lado a lado: uma ficha francesa traduzida automaticamente com erros comuns — artigo não elidido (« la école » em vez de « l'école »), preposição não contraída (« à le école » em vez de « à l'école »), e acento agudo ausente (« ecole » em vez de « école ») — ao lado da versão LessonCraftStudio com « l'école », « à l'école » e « école » corretamente apresentados."
       },
       "closingLine": "As crianças merecem materiais à altura do idioma que estão aprendendo. Construímos nesse padrão."
     },
@@ -151,28 +151,28 @@
       "intro": "Sign up to play every worksheet, download every PDF, and use every worksheet creator. No tiers, no subscription — just free for teachers.",
       "catalog": {
         "title": "Full worksheet catalog",
-        "body": "Printable and interactive worksheets across 11 languages. Unlimited downloads of every existing deck plus everything we publish through the year."
+        "body": "Printable and interactive worksheets across many languages. Unlimited downloads of every existing deck plus everything we publish through the year."
       },
       "creators": {
-        "title": "All 33 worksheet creators",
-        "body": "100+ worksheet types — math, literacy, puzzles, matching, search. Generate as many variations as you need. 29 of the 33 apps output both printable and interactive formats from a single setup."
+        "title": "Every worksheet creator",
+        "body": "A wide range of worksheet types — math, literacy, puzzles, matching, search. Generate as many variations as you need. Most of the apps output both printable and interactive formats from a single setup."
       },
       "assets": {
-        "title": "100+ themes, 3,000+ images, 11 languages",
-        "body": "The illustration library and vocabulary system that lets the same worksheet work across languages — grammatically correct gender, plurals, and diacritics in every one."
+        "title": "A vast theme library, a large image collection, many languages",
+        "body": "The illustration library and vocabulary system that lets the same worksheet work across languages — grammatically correct gender, plurals, and diacritics in each language."
       },
       "price": "Free for everyone with a teacher account.",
       "subscribeCta": "Join for free →",
-      "subscribeSubCopy": "Free for all teachers. Sign-up takes 30 seconds.",
+      "subscribeSubCopy": "Free for all teachers. Sign-up takes just a moment.",
       "alreadySubscribedCta": "Go to workspace"
     },
     "exerciseTypeGrid": {
       "heading": "Cada tipo de exercício K-3, no seu idioma.",
-      "intro": "29 tipos distintos de exercícios em matemática, letras, lógica e raciocínio espacial. Clique em qualquer um para explorar o catálogo desse tipo de exercício no seu idioma."
+      "intro": "Uma ampla variedade de tipos de exercícios em matemática, letras, lógica e raciocínio espacial. Clique em qualquer um para explorar o catálogo desse tipo de exercício no seu idioma."
     },
     "themeStrip": {
       "heading": "Cada tema da sala de aula.",
-      "intro": "100 temas abrangendo animais, veículos, alimentos, feriados, partes do corpo, estações e muito mais. Clique em qualquer um para explorar o catálogo desse tema no seu idioma.",
+      "intro": "Uma vasta biblioteca de temas que abrange animais, veículos, alimentos, feriados, partes do corpo, estações e muito mais. Clique em qualquer um para explorar o catálogo desse tema no seu idioma.",
       "listLabel": "Explorar atividades por tema"
     },
     "localeStrip": {

@@ -39,28 +39,28 @@
   "homepage": {
     "meta": {
       "title": "LessonCraftStudio — Arbeidsark som virker på ekte i andrespråket ditt",
-      "description": "Et kuratert K-3-illustrasjonsbibliotek og et vokabularsystem på 11 språk, med korrekte artikler, flertallsformer og diakritiske tegn. Bygget for tospråklige og flerspråklige klasserom.",
+      "description": "Et kuratert K-3-illustrasjonsbibliotek og et flerspråklig vokabularsystem med korrekte artikler, flertallsformer og diakritiske tegn. Bygget for tospråklige og flerspråklige klasserom.",
       "ogTitle": "Arbeidsark som virker på ekte i andrespråket ditt.",
       "ogDescription": "Bygget for lærere i tospråklige programmer, tospråklige klasserom og internasjonale skoler.",
-      "ogAlt": "LessonCraftStudio — K-3-arbeidsark på 11 språk"
+      "ogAlt": "LessonCraftStudio — K-3-arbeidsark på mange språk"
     },
     "hero": {
-      "title": "Worksheets in 11 languages, printable and interactive.",
-      "subtitle": "33 worksheet creators generate over 100 worksheet types — addition, crosswords, sudoku, picture sorts, find-and-count, and more. 29 of the 33 produce both a printable PDF and a browser-playable interactive version from the same setup.",
+      "title": "Worksheets in many languages, printable and interactive.",
+      "subtitle": "Our worksheet creators generate a wide range of worksheet types — addition, crosswords, sudoku, picture sorts, find-and-count, and more. Most of them produce both a printable PDF and a browser-playable interactive version from the same setup.",
       "interaction": "Built for teachers in bilingual, dual-language, and international schools.",
       "cta": "Join for free →"
     },
     "fourCardGrid": {
       "sectionTitle": "Vårt læringsbibliotek",
-      "intro": "Worksheets, worksheet creators, and interactive activities — everything a K-3 multilingual classroom needs, in 11 languages.",
+      "intro": "Worksheets, worksheet creators, and interactive activities — everything a K-3 multilingual classroom needs, across many languages.",
       "worksheets": {
         "title": "Arbeidsark",
-        "description": "Utskrivbare PDF-er på 11 språk med K-3-illustrasjoner og grammatisk korrekt vokabular. 29 øvelsestyper på tvers av 100 temaer.",
+        "description": "Utskrivbare PDF-er på mange språk med K-3-illustrasjoner og grammatisk korrekt vokabular. Et bredt utvalg av øvelsestyper på tvers av mange temaer.",
         "cta": "Bla i arbeidsark"
       },
       "apps": {
         "title": "Arbeidsark-generatorer",
-        "description": "29 arbeidsark-generatorer som lager både utskrivbare PDF-er og interaktive aktiviteter. Velg emne, tema og språk — appene gjør resten.",
+        "description": "Arbeidsark-generatorer som lager både utskrivbare PDF-er og interaktive aktiviteter. Velg emne, tema og språk — appene gjør resten.",
         "cta": "Åpne appene",
         "cardCta": "Åpne generator",
         "categories": {
@@ -88,8 +88,8 @@
       "loadingDeck": "Laster deck…"
     },
     "allExerciseModes": {
-      "sectionTitle": "Alle øvelsene vi tilbyr.",
-      "intro": "29 arbeidsark-lagere, rundt 80 ulike aktiviteter. Trykk på en for å spille den.",
+      "sectionTitle": "Et bredt utvalg av øvelser.",
+      "intro": "Pluss, bildelabyrinter, sudoku, finn-og-tell, kryssord, mønsterlogikk og mer. Trykk på en for å spille den her.",
       "subject": {
         "math": "Matte og tall",
         "letters": "Bokstaver og ord",
@@ -99,8 +99,8 @@
     },
     "languageProof": {
       "sectionTitle": "Hva maskinoversettelse får galt — og hva vi får riktig.",
-      "intro": "De fleste arbeidsark-sider oversetter engelsk innhold med en generisk motor og publiserer resultatet. Artiklene blir feil. Flertallsformene kollapser. Aksentene forsvinner. Barn lærer feilene. Vi behandler hvert av våre 11 språk som sin egen katalog — ikke som en oversettelse fra engelsk — med ordforråd kuratert av mennesker som faktisk underviser på det språket.",
-      "subIntro": "To eksempler, side om side.",
+      "intro": "De fleste arbeidsark-sider oversetter engelsk innhold med en generisk motor og publiserer resultatet. Artiklene blir feil. Flertallsformene kollapser. Aksentene forsvinner. Barn lærer feilene. Vi behandler hvert av våre språk som sin egen katalog — ikke som en oversettelse fra engelsk — med ordforråd kuratert av mennesker som faktisk underviser på det språket.",
+      "subIntro": "Eksempler, side om side.",
       "german": {
         "heading": "Tysk — kjønn, store forbokstaver, uregelmessig flertall",
         "leftAnnotation1": "Maskinoversettelse gjetter artikkelen ut fra den engelske konteksten. Schule er feminin — ingen engelsk kontekst forteller deg det.",
@@ -109,7 +109,7 @@
         "annotation1": "die Schule — riktig artikkel, hver gang. Vårt tyske ordforråd er indeksert etter kjønn, ikke gjettet.",
         "annotation2": "Schule — med stor forbokstav, slik et tysk substantiv skal være.",
         "annotation3": "Schulen — den faktiske flertallsformen, ikke en latinsk-stilisert gjetning.",
-        "ariaLabel": "Sammenligning side om side: et maskinoversatt tysk arbeidsark med tre feil — feil feminin artikkel ('der' i stedet for 'die'), substantiv uten stor forbokstav ('schule' i stedet for 'Schule') og engelsk-pluralisert form ('schules' i stedet for 'Schulen') — ved siden av LessonCraftStudio-versjonen hvor 'die Schule' og 'die Schulen' gjengis korrekt."
+        "ariaLabel": "Sammenligning side om side: et maskinoversatt tysk arbeidsark med vanlige feil — feil feminin artikkel ('der' i stedet for 'die'), substantiv uten stor forbokstav ('schule' i stedet for 'Schule') og engelsk-pluralisert form ('schules' i stedet for 'Schulen') — ved siden av LessonCraftStudio-versjonen hvor 'die Schule' og 'die Schulen' gjengis korrekt."
       },
       "french": {
         "heading": "Fransk — kjønn, sammentrekninger, aksenter",
@@ -119,7 +119,7 @@
         "annotation1": "l'école — korrekt elisjon og korrekt aksent.",
         "annotation2": "à l'école — korrekt sammentrekning med preposisjonen.",
         "annotation3": "Hver aksent i den franske katalogen vår behandles som en del av ordet.",
-        "ariaLabel": "Sammenligning side om side: et maskinoversatt fransk arbeidsark med tre feil — ikke-elidert artikkel ('la école' i stedet for 'l'école'), ikke-sammentrukket preposisjon ('à le école' i stedet for 'à l'école') og manglende akutt aksent ('ecole' i stedet for 'école') — ved siden av LessonCraftStudio-versjonen hvor 'l'école', 'à l'école' og 'école' gjengis korrekt."
+        "ariaLabel": "Sammenligning side om side: et maskinoversatt fransk arbeidsark med vanlige feil — ikke-elidert artikkel ('la école' i stedet for 'l'école'), ikke-sammentrukket preposisjon ('à le école' i stedet for 'à l'école') og manglende akutt aksent ('ecole' i stedet for 'école') — ved siden av LessonCraftStudio-versjonen hvor 'l'école', 'à l'école' og 'école' gjengis korrekt."
       },
       "closingLine": "Barn fortjener materiale som matcher det språket de lærer. Vi bygger til den standarden."
     },
@@ -151,28 +151,28 @@
       "intro": "Sign up to play every worksheet, download every PDF, and use every worksheet creator. No tiers, no subscription — just free for teachers.",
       "catalog": {
         "title": "Full worksheet catalog",
-        "body": "Printable and interactive worksheets across 11 languages. Unlimited downloads of every existing deck plus everything we publish through the year."
+        "body": "Printable and interactive worksheets across many languages. Unlimited downloads of every existing deck plus everything we publish through the year."
       },
       "creators": {
-        "title": "All 33 worksheet creators",
-        "body": "100+ worksheet types — math, literacy, puzzles, matching, search. Generate as many variations as you need. 29 of the 33 apps output both printable and interactive formats from a single setup."
+        "title": "Every worksheet creator",
+        "body": "A wide range of worksheet types — math, literacy, puzzles, matching, search. Generate as many variations as you need. Most of the apps output both printable and interactive formats from a single setup."
       },
       "assets": {
-        "title": "100+ themes, 3,000+ images, 11 languages",
-        "body": "The illustration library and vocabulary system that lets the same worksheet work across languages — grammatically correct gender, plurals, and diacritics in every one."
+        "title": "A vast theme library, a large image collection, many languages",
+        "body": "The illustration library and vocabulary system that lets the same worksheet work across languages — grammatically correct gender, plurals, and diacritics in each language."
       },
       "price": "Free for everyone with a teacher account.",
       "subscribeCta": "Join for free →",
-      "subscribeSubCopy": "Free for all teachers. Sign-up takes 30 seconds.",
+      "subscribeSubCopy": "Free for all teachers. Sign-up takes just a moment.",
       "alreadySubscribedCta": "Go to workspace"
     },
     "exerciseTypeGrid": {
       "heading": "Hver K-3 øvelsestype, på ditt språk.",
-      "intro": "29 forskjellige øvelsestyper innen matematikk, bokstaver, logikk og romlig tenkning. Klikk på en hvilken som helst for å bla i katalogen for den øvelsestypen på ditt språk."
+      "intro": "Et bredt utvalg av øvelsestyper innen matematikk, bokstaver, logikk og romlig tenkning. Klikk på en hvilken som helst for å bla i katalogen for den øvelsestypen på ditt språk."
     },
     "themeStrip": {
       "heading": "Hvert klasseromstema.",
-      "intro": "100 temaer som dekker dyr, kjøretøy, mat, høytider, kroppsdeler, årstider og mer. Klikk på et hvilket som helst for å bla i katalogen for det temaet på ditt språk.",
+      "intro": "Et omfattende temabibliotek som dekker dyr, kjøretøy, mat, høytider, kroppsdeler, årstider og mer. Klikk på et hvilket som helst for å bla i katalogen for det temaet på ditt språk.",
       "listLabel": "Bla arbeidsark etter tema"
     },
     "localeStrip": {

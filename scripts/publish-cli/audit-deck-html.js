@@ -205,12 +205,30 @@ async function runChecksForDeck(dbDeck, htmlText, manifestObj, ctx) {
   }
 
   // ===== Check 6: locale residue (non-en only) =====
+  // Authoritative path: lexicon-against-rendered-HTML (what Google sees).
+  // Path-(b) trace is run separately and emitted as INFO if it disagrees with
+  // lexicon — manifest.seo_trace can lag rendered HTML when republish-seo
+  // regenerates from taxonomy but doesn't touch the manifest meta-record.
   if (dbDeck.language !== 'en') {
-    var localeResult = seoReconciliation.reconcileLocaleResidue(synManifest, renderedTitle, renderedDesc, {});
-    if (localeResult.category === 'CLEAN') {
-      checks.localeResidue = { pass: true, path: localeResult.path };
+    // Pass an empty manifest (no seo_trace) to force lexicon path.
+    var lexicalManifest = {
+      language: dbDeck.language,
+      exercise_type: dbDeck.exerciseType,
+      deck_id: dbDeck.id
+    };
+    var lexicalResult = seoReconciliation.reconcileLocaleResidue(lexicalManifest, renderedTitle, renderedDesc, {});
+    if (lexicalResult.category === 'CLEAN') {
+      checks.localeResidue = { pass: true, path: 'lexicon-on-html' };
+      // Run trace path if seo_trace exists; emit as INFO not defect.
+      if (manifestObj && manifestObj.seo_trace) {
+        var traceResult = seoReconciliation.reconcileLocaleResidue(synManifest, renderedTitle, renderedDesc, {});
+        if (traceResult.category !== 'CLEAN') {
+          checks.localeResidue.traceInfo = { category: traceResult.category, issues: traceResult.issues };
+          defects.push('LOCALE_RESIDUE_TRACE_HYGIENE');
+        }
+      }
     } else {
-      checks.localeResidue = { pass: false, category: localeResult.category, englishWords: localeResult.englishWords, path: localeResult.path };
+      checks.localeResidue = { pass: false, category: lexicalResult.category, englishWords: lexicalResult.englishWords, path: 'lexicon-on-html' };
       defects.push('LOCALE_RESIDUE_DETECTED');
     }
   } else {

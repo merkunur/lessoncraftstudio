@@ -24,15 +24,19 @@ var SUBHEAD_COLOR = '#4E5FE8';        // LCS brand blue
 var WORDMARK_COLOR = '#1C1C1E';
 
 var PADDING_X = 40;
-var TITLE_FONT_SIZE = 52;
+var TITLE_FONT_SIZE = 48;
 var TITLE_LINE_HEIGHT = 1.15;
 var TITLE_MAX_LINES = 3;
 var TITLE_TOP_Y = 110;                // Baseline of first title line
-var TITLE_CHAR_WIDTH_EST = 26;        // Empirical: DejaVu Sans Bold 52px
+// Empirical: DejaVu Sans Bold 48px renders ~28-32 px wide per char on average
+// (variable across glyphs; em-dash is wider). Conservative estimate ensures
+// no clipping. Re-tested on /var/www/lcs-media/decks/en/bingo/thumbnail.png
+// at 2026-05-19 SEO-thumbnail commission Phase 2.
+var TITLE_CHAR_WIDTH_EST = 32;
 
-var SUBHEAD_FONT_SIZE = 30;
-var SUBHEAD_TOP_OFFSET = 30;          // Gap below title block
-var SUBHEAD_CHAR_WIDTH_EST = 14;      // DejaVu Sans Regular 30px
+var SUBHEAD_FONT_SIZE = 28;
+var SUBHEAD_TOP_OFFSET = 36;          // Gap below title block
+var SUBHEAD_CHAR_WIDTH_EST = 16;      // DejaVu Sans Regular 28px
 
 var WORDMARK_FONT_SIZE = 28;
 var WORDMARK_BASELINE_FROM_BOTTOM = 50;

@@ -3502,7 +3502,14 @@
               exerciseTypeSlug: 'treasure-hunt',
               exerciseTypeName: canvas.lcsLocalizedTitle || 'Treasure Hunt',
               exerciseModeName: exerciseModeName,
-              themeName: null,
+              // Shape A fix per CLAUDE.md §A.13.5: derive themeName from the
+              // operator's worksheetThemeSelect (the "Generate from Theme" picker
+              // at line 835). Was hardcoded null on the stale "themeless single-
+              // puzzle design" rationale from commit 0e5f1560; treasure-hunt
+              // now emits a manifest.theme + ships SEO-bearing decks per theme.
+              themeName: (window.LCSCatalogExport && window.LCSCatalogExport.deriveThemeName)
+                  ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('worksheetThemeSelect') })
+                  : null,
               instruction: canvas.lcsLocalizedInstruction || '',
               worksheetWord: _t('worksheet') || 'Worksheet',
               freeInteractive: _t('seoFreeInteractive') || 'Free interactive',
@@ -4157,8 +4164,13 @@
           captureValue('backgroundThemeSelect', 'background_theme_select');
           captureValue('gridSizeSelect', 'grid_size');
           captureValue('grayscaleToggle', 'grayscale');
-          var theme = (typeof themeSelect !== 'undefined' && themeSelect && themeSelect.value && themeSelect.value !== 'all')
-              ? themeSelect.value
+          // Shape A fix per CLAUDE.md §A.13.5: read worksheetThemeSelect (operator's
+          // "Generate from Theme (Overrides Manual)" picker at line 835) — matches
+          // seoMeta.themeName path. The bare themeSelect at line 858 drives only the
+          // dictionary panel.
+          var _wtEl = document.getElementById('worksheetThemeSelect');
+          var theme = (_wtEl && _wtEl.value && _wtEl.value !== 'all' && _wtEl.value !== '')
+              ? _wtEl.value
               : null;
           return {
               settings: settings,

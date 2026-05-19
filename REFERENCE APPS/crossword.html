@@ -4555,8 +4555,15 @@ document.addEventListener("DOMContentLoaded", function() {
         capture('themeSelect', 'theme_select');
         capture('borderThemeSelect', 'border_theme_select');
         capture('grayscaleToggle', 'grayscale');
-        var theme = (typeof themeSelect !== 'undefined' && themeSelect && themeSelect.value && themeSelect.value !== 'all')
-            ? themeSelect.value : null;
+        // Shape A fix per CLAUDE.md §A.13.5: read worksheetThemeSelect (operator's
+        // worksheet theme picker) — matches seoMeta.themeName path at line 3847.
+        // Per the documenting comment at lines 2968-2969: "crossword has TWO theme
+        // selects: worksheetThemeSelect (worksheet generator) and themeSelect
+        // (image-dictionary browser). Use worksheetThemeSelect — the bare themeSelect
+        // drives the dictionary panel, not the worksheet."
+        var _wtEl = document.getElementById('worksheetThemeSelect');
+        var theme = (_wtEl && _wtEl.value && _wtEl.value !== 'all' && _wtEl.value !== '')
+            ? _wtEl.value : null;
         return {
             settings: settings,
             theme: theme,

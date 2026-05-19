@@ -536,7 +536,15 @@
                        // picture-sort content fields:
                        'items', 'bins',
                        // picture-path content fields:
-                       'solutionPath', 'startCellImage', 'endCellImage', 'mode'];
+                       'solutionPath', 'startCellImage', 'endCellImage', 'mode',
+                       // shadow-match content field (per-deck pair indices +
+                       // topImageKey). Without this, shadow-match's primary-path
+                       // contentObj collapses to {mode:'makeItWhole'} (constant
+                       // within mode batch) and all decks share the same
+                       // variant_id — surfaced empirically as 87 pt-make-whole
+                       // ZIPs all hashing to '5d83' on 2026-05-19 (commit
+                       // 0db3090e3). Same defect-class as 31662053 fix.
+                       'pairs'];
     var contentObj = {};
     contentKeys.forEach(function (k) {
       var v = bundle[k];

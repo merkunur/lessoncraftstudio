@@ -3937,6 +3937,17 @@
           var previousLabel = exportToCatalogBtn.textContent;
           exportToCatalogBtn.textContent = 'Exporting…';
           try {
+              // Shape A fix per CLAUDE.md §A.13.5: bingo's createHeaderGroup
+              // (defined at line 1792) bakes canvas.lcsLocalizedTitle +
+              // lcsLocalizedInstruction from defaultTitles[currentLang] /
+              // defaultDescriptions[currentLang] as a side effect. It was
+              // never invoked during generateWorksheet — bingo's "header" is
+              // the card layout itself, not a separate header strip — so
+              // extractDeckBundle's canvas.lcsLocalizedTitle was undefined
+              // and fell back to the English literal at line 3110. Calling
+              // here produces no visual change (returned objects are
+              // discarded) and sets the SEO surface correctly per locale.
+              createHeaderGroup(worksheetCanvas);
               // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2: pre-build bundle so
               // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
               var manifestMeta = buildCatalogManifestSettings();

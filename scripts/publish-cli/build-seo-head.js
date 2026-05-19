@@ -102,26 +102,43 @@ function buildSeoHead(opts) {
   // Schema.org LearningResource. Placeholders sit INSIDE string-quoted JSON
   // values so JSON.parse stays valid both before and after publish-cli's
   // literal-token substitution (CLAUDE.md §17.8.1.6 / Brief A §4.6).
+  //
+  // Image enrichment (2026-05-19 SEO-thumbnail commission): `image` expanded
+  // from bare URL string to full ImageObject with width/height/caption +
+  // separate `thumbnailUrl` field + `keywords` + `typicalAgeRange` +
+  // `publisher`. Drives Google search-result thumbnail display + image-search
+  // discoverability. Mirrors REFERENCE TRANSLATIONS/catalog-export.js per §A.2.
   var ld = {
     '@context': 'https://schema.org',
     '@type': 'LearningResource',
     name: titleCore,
     description: description,
-    // image + datePublished added 2026-05-14 for Google search-result
-    // thumbnail surfacing. Mirrors REFERENCE TRANSLATIONS/catalog-export.js
-    // buildSeoHead — both emit-paths (forward-flow at apps + retrofit at
-    // republish-seo.js) MUST stay in sync per §17.8.4 contract.
-    image: '__OG_IMAGE__',
+    image: {
+      '@type': 'ImageObject',
+      url: '__OG_IMAGE__',
+      contentUrl: '__OG_IMAGE__',
+      width: 1200,
+      height: 630,
+      caption: '__OG_IMAGE_ALT__'
+    },
+    thumbnailUrl: '__THUMBNAIL_URL__',
     datePublished: '__DATE_PUBLISHED__',
     learningResourceType: 'Worksheet',
     educationalLevel: '__EDUCATIONAL_LEVEL__',
+    typicalAgeRange: '__AGE_RANGE__',
     teaches: typeSlug,
+    keywords: '__SEO_KEYWORDS__',
     inLanguage: language,
     isAccessibleForFree: true,
     creator: {
       '@type': 'Organization',
       name: 'LessonCraftStudio',
-      url: 'https://lessoncraftstudio.com'
+      url: 'https://www.lessoncraftstudio.com'
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'LessonCraftStudio',
+      url: 'https://www.lessoncraftstudio.com'
     },
     audience: {
       '@type': 'EducationalAudience',
@@ -135,10 +152,13 @@ function buildSeoHead(opts) {
     '<title>' + escapeHtml(titleFull) + '</title>',
     '<meta name="description" content="' + escapeAttr(description) + '">',
     '<link rel="canonical" href="__CANONICAL_URL__">',
+    '<link rel="image_src" href="__OG_IMAGE__">',
     '<script type="application/ld+json">' + JSON.stringify(ld) + '<\/script>',
     '<meta property="og:title" content="__OG_TITLE__">',
     '<meta property="og:description" content="__OG_DESCRIPTION__">',
     '<meta property="og:image" content="__OG_IMAGE__">',
+    '<meta property="og:image:secure_url" content="__OG_IMAGE__">',
+    '<meta property="og:image:type" content="image/png">',
     '<meta property="og:image:width" content="1200">',
     '<meta property="og:image:height" content="630">',
     '<meta property="og:image:alt" content="__OG_IMAGE_ALT__">',
@@ -150,6 +170,7 @@ function buildSeoHead(opts) {
     '<meta name="twitter:title" content="__OG_TITLE__">',
     '<meta name="twitter:description" content="__OG_DESCRIPTION__">',
     '<meta name="twitter:image" content="__OG_IMAGE__">',
+    '<meta name="twitter:image:alt" content="__OG_IMAGE_ALT__">',
     '<!-- SEO_INSERTION_POINT_END -->'
   ].join('\n');
 }

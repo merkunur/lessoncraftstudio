@@ -177,22 +177,52 @@ test('JSON-LD: isAccessibleForFree true', function () {
 console.log('');
 console.log('OG + Twitter tag emission (Phase 3a.1 §17.8.1):');
 
-test('emits 10 og:* tags', function () {
+test('emits 12 og:* tags (10 original + og:image:secure_url + og:image:type per SEO-thumbnail commission)', function () {
   var out = buildSeoHead(optsFixture());
   var ogCount = (out.match(/<meta property="og:[^"]+"/g) || []).length;
-  assert.strictEqual(ogCount, 10);
+  assert.strictEqual(ogCount, 12);
 });
 
-test('emits 4 twitter:* tags', function () {
+test('emits 5 twitter:* tags (4 original + twitter:image:alt per SEO-thumbnail commission)', function () {
   var out = buildSeoHead(optsFixture());
   var twitterCount = (out.match(/<meta name="twitter:[^"]+"/g) || []).length;
-  assert.strictEqual(twitterCount, 4);
+  assert.strictEqual(twitterCount, 5);
 });
 
-test('total OG + Twitter = 14', function () {
+test('total OG + Twitter = 17', function () {
   var out = buildSeoHead(optsFixture());
   var total = (out.match(/<meta (property="og:|name="twitter:)/g) || []).length;
-  assert.strictEqual(total, 14);
+  assert.strictEqual(total, 17);
+});
+
+test('SEO-thumbnail commission: emits og:image:secure_url + og:image:type + twitter:image:alt + link rel=image_src', function () {
+  var out = buildSeoHead(optsFixture());
+  assert.ok(out.indexOf('<meta property="og:image:secure_url" content="__OG_IMAGE__">') !== -1, 'og:image:secure_url');
+  assert.ok(out.indexOf('<meta property="og:image:type" content="image/png">') !== -1, 'og:image:type');
+  assert.ok(out.indexOf('<meta name="twitter:image:alt" content="__OG_IMAGE_ALT__">') !== -1, 'twitter:image:alt');
+  assert.ok(out.indexOf('<link rel="image_src" href="__OG_IMAGE__">') !== -1, 'link rel=image_src');
+});
+
+test('SEO-thumbnail commission: Schema.org image is ImageObject with width/height/caption', function () {
+  var out = buildSeoHead(optsFixture());
+  var ld = JSON.parse(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/.exec(out)[1]);
+  assert.strictEqual(typeof ld.image, 'object', 'image is object not string');
+  assert.strictEqual(ld.image['@type'], 'ImageObject');
+  assert.strictEqual(ld.image.url, '__OG_IMAGE__');
+  assert.strictEqual(ld.image.contentUrl, '__OG_IMAGE__');
+  assert.strictEqual(ld.image.width, 1200);
+  assert.strictEqual(ld.image.height, 630);
+  assert.strictEqual(ld.image.caption, '__OG_IMAGE_ALT__');
+});
+
+test('SEO-thumbnail commission: Schema.org adds thumbnailUrl + keywords + typicalAgeRange + publisher', function () {
+  var out = buildSeoHead(optsFixture());
+  var ld = JSON.parse(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/.exec(out)[1]);
+  assert.strictEqual(ld.thumbnailUrl, '__THUMBNAIL_URL__');
+  assert.strictEqual(ld.keywords, '__SEO_KEYWORDS__');
+  assert.strictEqual(ld.typicalAgeRange, '__AGE_RANGE__');
+  assert.strictEqual(ld.publisher['@type'], 'Organization');
+  assert.strictEqual(ld.publisher.name, 'LessonCraftStudio');
 });
 
 test('og:title + twitter:title both emit __OG_TITLE__ placeholder', function () {

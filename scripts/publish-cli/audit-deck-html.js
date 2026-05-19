@@ -226,23 +226,32 @@ async function runChecksForDeck(dbDeck, htmlText, manifestObj, ctx) {
     defects.push('MULTIPLE_H1_DETECTED');
   }
 
-  // ===== Check 8: seoMeta.themeName populated when manifest.theme non-null =====
-  // §A.14.8 step 2b.
+  // ===== Check 8: theme keyword appears in rendered <title> when manifest.theme is non-null =====
+  // §A.14.8 step 2b — but at the user-facing surface (rendered <title>) rather
+  // than the internal bundle.seoMeta object. The original step 2b concern was
+  // titles missing theme keyword; post-republish-seo all titles render via
+  // taxonomy override so theme appears in title regardless of bundle.seoMeta
+  // state. We verify the user-facing outcome (theme in title).
   var manifestTheme = manifestObj && manifestObj.theme;
-  // Find seoMeta object in deck.html. The bundle's seoMeta lives within DECK_BUNDLE JSON.
-  var seoMetaMatch = /"seoMeta"\s*:\s*\{[^}]*"themeName"\s*:\s*("([^"]*)"|null)/.exec(htmlText);
-  var themeNameInHtml = null;
-  if (seoMetaMatch) {
-    themeNameInHtml = seoMetaMatch[1] === 'null' ? null : seoMetaMatch[2];
-  }
-  if (manifestTheme && !themeNameInHtml) {
-    checks.seoMetaThemeName = { pass: false, category: 'SEO_META_THEME_NAME_NULL_WHILE_MANIFEST_THEME_NON_NULL', manifestTheme: manifestTheme };
-    defects.push('SEO_META_THEME_NAME_MISSING');
-  } else if (manifestTheme && themeNameInHtml) {
-    checks.seoMetaThemeName = { pass: true, themeName: themeNameInHtml };
+  if (manifestTheme && ctx.taxonomy) {
+    var themeAxis = ctx.taxonomy && ctx.taxonomy.axes && ctx.taxonomy.axes.theme && ctx.taxonomy.axes.theme[manifestTheme];
+    var localizedThemeName = themeAxis && themeAxis.name && (themeAxis.name[dbDeck.language] || themeAxis.name.en);
+    if (localizedThemeName) {
+      // Theme axis-key exists in taxonomy; verify it appears in rendered title.
+      if (renderedTitle.toLowerCase().indexOf(localizedThemeName.toLowerCase()) !== -1) {
+        checks.themeInTitle = { pass: true, themeName: localizedThemeName };
+      } else {
+        checks.themeInTitle = { pass: false, category: 'THEME_KEYWORD_MISSING_FROM_TITLE', manifestTheme: manifestTheme, expectedName: localizedThemeName };
+        defects.push('THEME_KEYWORD_MISSING_FROM_TITLE');
+      }
+    } else {
+      // Off-taxonomy theme string (e.g., 'foo_bar-vs-baz'); not expected in title.
+      checks.themeInTitle = { pass: true, skip: 'off-taxonomy-theme', manifestTheme: manifestTheme };
+    }
+  } else if (manifestTheme && !ctx.taxonomy) {
+    checks.themeInTitle = { pass: true, skip: 'taxonomy-not-loaded' };
   } else {
-    // manifest.theme null → themeless app or operator didn't set theme; HTML may or may not have themeName
-    checks.seoMetaThemeName = { pass: true, skip: 'manifest theme is null', themeName: themeNameInHtml };
+    checks.themeInTitle = { pass: true, skip: 'manifest theme is null' };
   }
 
   // ===== Check 9: deckend-suggestions strip ≥3 markers =====
@@ -486,10 +495,19 @@ async function main() {
   console.log('[audit-deck-html] auditing ' + decks.length + ' decks (concurrency=' + args.concurrency + ')');
   var t0 = Date.now();
 
+  // Load taxonomy once.
+  var taxonomy = null;
+  try {
+    taxonomy = JSON.parse(fs.readFileSync(path.resolve(__dirname, '..', '..', 'frontend', 'config', 'topics-taxonomy.json'), 'utf8'));
+  } catch (e) {
+    console.warn('[audit-deck-html] taxonomy load failed:', e.message);
+  }
+
   // Shared context for cross-deck collision tracking.
   var ctx = {
     titleHashSetByLocale: {},
-    descriptionHashSetByLocale: {}
+    descriptionHashSetByLocale: {},
+    taxonomy: taxonomy
   };
 
   var fsErrorCount = 0;

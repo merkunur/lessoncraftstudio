@@ -27,6 +27,7 @@ var dryRunMod = require('./dry-run');
 var updatesManifestMod = require('./updates-manifest');
 var seoReconMod = require('./seo-reconciliation');
 var countInboundMod = require('./count-inbound-surfaces');
+var db = require('./db');
 
 function listZips(folder) {
   if (!fs.existsSync(folder) || !fs.statSync(folder).isDirectory()) {
@@ -577,8 +578,12 @@ async function dryRunBatch(opts) {
     // hit the new (language, title_hash) compound unique index from the
     // 20260509083000_add_seo_hash_columns migration. countInboundFn flips the
     // reconcileInboundLinkSurface stub to real (Phase 3a.1 Checkpoint 2 helper).
-    findExistingByTitleHash: opts.findExistingByTitleHash,
-    findExistingByDescriptionHash: opts.findExistingByDescriptionHash,
+    // §15.18.1 wire-in gap closure (SEO-100pct commission Phase 5): default-fallback
+    // pattern matching countInboundFn precedent. index.js callers never populate
+    // opts.findExistingByTitleHash / findExistingByDescriptionHash, so without this
+    // fallback the uniqueness predicates 1+2 silent-no-op on bulk-publish runs.
+    findExistingByTitleHash: opts.findExistingByTitleHash || db.findExistingByTitleHash,
+    findExistingByDescriptionHash: opts.findExistingByDescriptionHash || db.findExistingByDescriptionHash,
     // Phase 4b (a-1) ratification: real helper as default; tests / specialized
     // callers may override via opts.countInboundFn. Per Phase 4b Sub-step 2.3
     // wire-in pattern, mirrors publish.js single-publish path. Predicate stays

@@ -123,4 +123,6 @@ export async function GET() {
   }
 }
 
-export { buildShard };
+// Internal helper buildShard intentionally not exported — Next.js route files
+// only allow specific exports (GET, POST, revalidate, etc.). For testing,
+// import the module via require + access the symbol differently.

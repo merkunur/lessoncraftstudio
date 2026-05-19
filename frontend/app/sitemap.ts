@@ -50,9 +50,12 @@ const AXIS_ORDER_RANK: Record<Axis, number> = {
  * inside shard 2 — only URLs with ≥1 published deck emit.
  */
 export async function generateSitemaps() {
+  // Phase 4 SEO-thumbnail commission: shards 0 + 1 are served by custom route
+  // handlers at app/sitemap/0.xml/route.ts + 1.xml/route.ts (Next.js
+  // MetadataRoute.Sitemap doesn't support <image:image> entries inline).
+  // Omitting ids 0 + 1 here lets the custom static routes own those URLs;
+  // app/sitemap.xml/route.ts (the index) still references all four shards.
   return [
-    { id: 0 },
-    { id: 1 },
     { id: 2 },
     { id: 3 },
   ];

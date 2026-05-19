@@ -40,28 +40,28 @@
   "homepage": {
     "meta": {
       "title": "LessonCraftStudio — Arbeitsblätter, die in Ihrer Zweitsprache wirklich funktionieren",
-      "description": "Eine kuratierte K-3-Illustrationsbibliothek und ein Vokabelsystem in 11 Sprachen — mit korrekten Artikeln, Pluralformen und Diakritika. Für zweisprachige Klassen.",
+      "description": "Eine kuratierte K-3-Illustrationsbibliothek und ein mehrsprachiges Vokabelsystem mit korrekten Artikeln, Pluralformen und Diakritika. Für zweisprachige Klassen.",
       "ogTitle": "Arbeitsblätter, die in Ihrer zweiten Sprache wirklich funktionieren.",
       "ogDescription": "Entwickelt für Lehrkräfte in zweisprachigen Programmen, bilingualen Klassen und internationalen Schulen.",
-      "ogAlt": "LessonCraftStudio — K-3-Arbeitsblätter in 11 Sprachen"
+      "ogAlt": "LessonCraftStudio — K-3-Arbeitsblätter in vielen Sprachen"
     },
     "hero": {
-      "title": "Arbeitsblätter in 11 Sprachen, druckbar und interaktiv.",
-      "subtitle": "33 Arbeitsblatt-Generatoren erzeugen über 100 Arbeitsblattarten — Addition, Kreuzworträtsel, Sudoku, Bildersortierung, Suchen-und-Zählen und mehr. 29 der 33 liefern aus einem einzigen Setup sowohl ein druckbares PDF als auch eine im Browser spielbare interaktive Version.",
+      "title": "Arbeitsblätter in vielen Sprachen, druckbar und interaktiv.",
+      "subtitle": "Unsere Arbeitsblatt-Generatoren erzeugen eine breite Auswahl an Arbeitsblattarten — Addition, Kreuzworträtsel, Sudoku, Bildersortierung, Suchen-und-Zählen und mehr. Die meisten liefern aus einem einzigen Setup sowohl ein druckbares PDF als auch eine im Browser spielbare interaktive Version.",
       "interaction": "Entwickelt für Lehrkräfte in bilingualen, immersiven und internationalen Schulen.",
       "cta": "Kostenlos starten →"
     },
     "fourCardGrid": {
       "sectionTitle": "Unsere Lernbibliothek",
-      "intro": "Arbeitsblätter, Arbeitsblatt-Generatoren und interaktive Aktivitäten — alles, was ein K-3-Klassenzimmer in einer mehrsprachigen Umgebung braucht, in 11 Sprachen.",
+      "intro": "Arbeitsblätter, Arbeitsblatt-Generatoren und interaktive Aktivitäten — alles, was ein K-3-Klassenzimmer in einer mehrsprachigen Umgebung braucht, in vielen Sprachen.",
       "worksheets": {
         "title": "Arbeitsblätter",
-        "description": "Druckbare PDFs in 11 Sprachen mit K-3-Illustrationen und grammatikalisch korrektem Vokabular. 29 Übungsarten in 100 Themen.",
+        "description": "Druckbare PDFs in vielen Sprachen mit K-3-Illustrationen und grammatikalisch korrektem Vokabular. Eine breite Auswahl an Übungsarten in zahlreichen Themen.",
         "cta": "Arbeitsblätter durchsuchen"
       },
       "apps": {
         "title": "Arbeitsblatt-Generatoren",
-        "description": "29 Arbeitsblatt-Generatoren, die sowohl druckbare PDFs als auch interaktive Aktivitäten erstellen. Wählen Sie Thema, Motiv und Sprache — den Rest übernehmen die Apps.",
+        "description": "Arbeitsblatt-Generatoren, die sowohl druckbare PDFs als auch interaktive Aktivitäten erstellen. Wählen Sie Thema, Motiv und Sprache — den Rest übernehmen die Apps.",
         "cta": "Apps öffnen",
         "cardCta": "Arbeitsblatt-Generator öffnen",
         "categories": {
@@ -89,8 +89,8 @@
       "loadingDeck": "Deck wird geladen…"
     },
     "allExerciseModes": {
-      "sectionTitle": "Alle Übungen, die wir anbieten.",
-      "intro": "29 Arbeitsblatt-Generatoren, rund 80 verschiedene Aktivitäten. Tippe eine an, um sie zu spielen.",
+      "sectionTitle": "Eine breite Auswahl an Übungen.",
+      "intro": "Addition, Bilderlabyrinthe, Sudoku, Suchen-und-Zählen, Kreuzworträtsel, Mustererkennung und mehr. Tippe eine an, um sie hier zu spielen.",
       "subject": {
         "math": "Mathe & Zahlen",
         "letters": "Buchstaben & Wörter",
@@ -100,8 +100,8 @@
     },
     "languageProof": {
       "sectionTitle": "Was Auto-Übersetzung falsch macht — und was wir richtig machen.",
-      "intro": "Die meisten Arbeitsblatt-Sites übersetzen englische Inhalte mit einer generischen Maschine und liefern das Ergebnis aus. Artikel sind falsch. Pluralformen kippen. Akzente fehlen. Kinder lernen die Fehler mit. Wir behandeln jede unserer 11 Sprachen als eigenständigen Katalog — keine Übersetzung des Englischen — mit Wortschatz, der von Menschen kuratiert wird, die tatsächlich in dieser Sprache unterrichten.",
-      "subIntro": "Zwei Beispiele, nebeneinander.",
+      "intro": "Die meisten Arbeitsblatt-Sites übersetzen englische Inhalte mit einer generischen Maschine und liefern das Ergebnis aus. Artikel sind falsch. Pluralformen kippen. Akzente fehlen. Kinder lernen die Fehler mit. Wir behandeln jede unserer Sprachen als eigenständigen Katalog — keine Übersetzung des Englischen — mit Wortschatz, der von Menschen kuratiert wird, die tatsächlich in dieser Sprache unterrichten.",
+      "subIntro": "Beispiele, nebeneinander.",
       "german": {
         "heading": "Deutsch — Genus, Großschreibung, unregelmäßiger Plural",
         "leftAnnotation1": "Auto-Übersetzung rät den Artikel aus dem englischen Kontext. Schule ist feminin — der englische Kontext sagt das nicht.",
@@ -110,7 +110,7 @@
         "annotation1": "die Schule — korrekter Artikel, jedes Mal. Unser deutscher Wortschatz ist nach Genus verschlagwortet, nicht geraten.",
         "annotation2": "Schule — großgeschrieben, wie ein deutsches Substantiv es sein soll.",
         "annotation3": "Schulen — der tatsächliche Plural, keine englisch-stilisierte Vermutung.",
-        "ariaLabel": "Vergleich nebeneinander: ein automatisch übersetztes deutsches Arbeitsblatt mit drei Fehlern — falscher femininer Artikel ('der' statt 'die'), kleingeschriebenes Substantiv ('schule' statt 'Schule') und englisch-pluralisierte Form ('schules' statt 'Schulen') — neben der LessonCraftStudio-Version mit korrekt gerendertem 'die Schule' und 'die Schulen'."
+        "ariaLabel": "Vergleich nebeneinander: ein automatisch übersetztes deutsches Arbeitsblatt mit häufigen Fehlern — falscher femininer Artikel ('der' statt 'die'), kleingeschriebenes Substantiv ('schule' statt 'Schule') und englisch-pluralisierte Form ('schules' statt 'Schulen') — neben der LessonCraftStudio-Version mit korrekt gerendertem 'die Schule' und 'die Schulen'."
       },
       "french": {
         "heading": "Französisch — Genus, Kontraktionen, Akzente",
@@ -120,7 +120,7 @@
         "annotation1": "l'école — korrekte Elision und korrekter Akzent.",
         "annotation2": "à l'école — korrekte Kontraktion mit der Präposition.",
         "annotation3": "Jeder Akzent in unserem französischen Katalog wird als Teil des Wortes behandelt.",
-        "ariaLabel": "Vergleich nebeneinander: ein automatisch übersetztes französisches Arbeitsblatt mit drei Fehlern — nicht-elidierter Artikel ('la école' statt 'l'école'), nicht-kontrahierte Präposition ('à le école' statt 'à l'école') und fehlender Akut ('ecole' statt 'école') — neben der LessonCraftStudio-Version mit korrekt gerendertem 'l'école', 'à l'école' und 'école'."
+        "ariaLabel": "Vergleich nebeneinander: ein automatisch übersetztes französisches Arbeitsblatt mit häufigen Fehlern — nicht-elidierter Artikel ('la école' statt 'l'école'), nicht-kontrahierte Präposition ('à le école' statt 'à l'école') und fehlender Akut ('ecole' statt 'école') — neben der LessonCraftStudio-Version mit korrekt gerendertem 'l'école', 'à l'école' und 'école'."
       },
       "closingLine": "Kinder verdienen Materialien, die zur Sprache passen, die sie lernen. Daran richten wir unsere Arbeit aus."
     },
@@ -152,28 +152,28 @@
       "intro": "Registrieren Sie sich, um jedes Arbeitsblatt zu spielen, jede PDF herunterzuladen und jeden Arbeitsblatt-Generator zu nutzen. Keine Stufen, kein Abonnement — einfach kostenlos für Lehrkräfte.",
       "catalog": {
         "title": "Vollständiger Arbeitsblatt-Katalog",
-        "body": "Druckbare und interaktive Arbeitsblätter in 11 Sprachen. Unbegrenzte Downloads aller bestehenden Decks plus allem, was wir im Laufe des Jahres veröffentlichen."
+        "body": "Druckbare und interaktive Arbeitsblätter in vielen Sprachen. Unbegrenzte Downloads aller bestehenden Decks plus allem, was wir im Laufe des Jahres veröffentlichen."
       },
       "creators": {
-        "title": "Alle 33 Arbeitsblatt-Generatoren",
-        "body": "Über 100 Arbeitsblattarten — Mathematik, Sprache & Schrift, Rätsel, Zuordnung, Suchen. Generieren Sie so viele Varianten, wie Sie brauchen. 29 der 33 Apps liefern aus einem einzigen Setup beide Formate — druckbar und interaktiv."
+        "title": "Jeder Arbeitsblatt-Generator",
+        "body": "Eine breite Auswahl an Arbeitsblattarten — Mathematik, Sprache & Schrift, Rätsel, Zuordnung, Suchen. Generieren Sie so viele Varianten, wie Sie brauchen. Die meisten Apps liefern aus einem einzigen Setup beide Formate — druckbar und interaktiv."
       },
       "assets": {
-        "title": "Über 100 Themen, über 3.000 Bilder, 11 Sprachen",
-        "body": "Die Illustrationsbibliothek und das Vokabelsystem, mit dem dasselbe Arbeitsblatt über Sprachen hinweg funktioniert — grammatikalisch korrektes Genus, Plural und Diakritika in jeder einzelnen."
+        "title": "Eine umfangreiche Themenbibliothek, eine große Bildersammlung, viele Sprachen",
+        "body": "Die Illustrationsbibliothek und das Vokabelsystem, mit dem dasselbe Arbeitsblatt über Sprachen hinweg funktioniert — grammatikalisch korrektes Genus, Plural und Diakritika in jeder Sprache."
       },
       "price": "Kostenlos für alle mit einem Lehrkonto.",
       "subscribeCta": "Kostenlos registrieren →",
-      "subscribeSubCopy": "Kostenlos für alle Lehrkräfte. Die Registrierung dauert 30 Sekunden.",
+      "subscribeSubCopy": "Kostenlos für alle Lehrkräfte. Die Registrierung dauert nur einen Moment.",
       "alreadySubscribedCta": "Zum Arbeitsbereich"
     },
     "exerciseTypeGrid": {
       "heading": "Jede K-3-Aufgabenart, in Ihrer Sprache.",
-      "intro": "29 verschiedene Aufgabenarten in Mathematik, Buchstaben, Logik und räumlichem Denken. Klicken Sie auf eine, um den Katalog zu dieser Aufgabenart in Ihrer Sprache zu durchsuchen."
+      "intro": "Eine breite Auswahl an Aufgabenarten in Mathematik, Buchstaben, Logik und räumlichem Denken. Klicken Sie auf eine, um den Katalog zu dieser Aufgabenart in Ihrer Sprache zu durchsuchen."
     },
     "themeStrip": {
       "heading": "Jedes Klassenzimmer-Thema.",
-      "intro": "100 Themen, die Tiere, Fahrzeuge, Lebensmittel, Feiertage, Körperteile, Jahreszeiten und mehr abdecken. Klicken Sie auf eines, um den Katalog zu diesem Thema in Ihrer Sprache zu durchsuchen.",
+      "intro": "Eine umfangreiche Themenbibliothek mit Tieren, Fahrzeugen, Lebensmitteln, Feiertagen, Körperteilen, Jahreszeiten und mehr. Klicken Sie auf eines, um den Katalog zu diesem Thema in Ihrer Sprache zu durchsuchen.",
       "listLabel": "Arbeitsblätter nach Thema durchsuchen"
     },
     "localeStrip": {

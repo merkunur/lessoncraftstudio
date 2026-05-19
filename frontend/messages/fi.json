@@ -39,28 +39,28 @@
   "homepage": {
     "meta": {
       "title": "LessonCraftStudio — Tehtäväarkit jotka toimivat oikeasti toisella kielelläsi",
-      "description": "Kuratoitu K-3-kuvituskirjasto ja sanasto­järjestelmä 11 kielellä, jossa artikkelit, monikkomuodot ja diakriittiset merkit ovat oikein. Rakennettu kaksikielisiin ja monikielisiin luokkiin.",
+      "description": "Kuratoitu K-3-kuvituskirjasto ja monikielinen sanasto­järjestelmä, jossa artikkelit, monikkomuodot ja diakriittiset merkit ovat oikein. Rakennettu kaksikielisiin ja monikielisiin luokkiin.",
       "ogTitle": "Tehtäväarkit jotka toimivat oikeasti toisella kielelläsi.",
       "ogDescription": "Rakennettu opettajille kaksikielisissä ohjelmissa, kaksikielisissä luokissa ja kansainvälisissä kouluissa.",
-      "ogAlt": "LessonCraftStudio — K-3-tehtäväarkit 11 kielellä"
+      "ogAlt": "LessonCraftStudio — K-3-tehtäväarkit monilla kielillä"
     },
     "hero": {
-      "title": "Worksheets in 11 languages, printable and interactive.",
-      "subtitle": "33 worksheet creators generate over 100 worksheet types — addition, crosswords, sudoku, picture sorts, find-and-count, and more. 29 of the 33 produce both a printable PDF and a browser-playable interactive version from the same setup.",
+      "title": "Worksheets in many languages, printable and interactive.",
+      "subtitle": "Our worksheet creators generate a wide range of worksheet types — addition, crosswords, sudoku, picture sorts, find-and-count, and more. Most of them produce both a printable PDF and a browser-playable interactive version from the same setup.",
       "interaction": "Built for teachers in bilingual, dual-language, and international schools.",
       "cta": "Join for free →"
     },
     "fourCardGrid": {
       "sectionTitle": "Oppimiskirjastomme",
-      "intro": "Worksheets, worksheet creators, and interactive activities — everything a K-3 multilingual classroom needs, in 11 languages.",
+      "intro": "Worksheets, worksheet creators, and interactive activities — everything a K-3 multilingual classroom needs, across many languages.",
       "worksheets": {
         "title": "Tehtäväarkit",
-        "description": "Tulostettavat PDF:t 11 kielellä K-3-kuvituksilla ja kieliopillisesti oikealla sanastolla. 29 tehtävätyyppiä 100 teemassa.",
+        "description": "Tulostettavat PDF:t monilla kielillä K-3-kuvituksilla ja kieliopillisesti oikealla sanastolla. Laaja valikoima tehtävätyyppejä lukuisissa teemoissa.",
         "cta": "Selaa tehtäväarkkeja"
       },
       "apps": {
         "title": "Tehtävägeneraattorit",
-        "description": "29 tehtävägeneraattoria, jotka tuottavat sekä tulostettavia PDF:iä että interaktiivisia tehtäviä. Valitse aihe, teema ja kieli — sovellukset hoitavat loput.",
+        "description": "Tehtävägeneraattoreita, jotka tuottavat sekä tulostettavia PDF:iä että interaktiivisia tehtäviä. Valitse aihe, teema ja kieli — sovellukset hoitavat loput.",
         "cta": "Avaa sovellukset",
         "cardCta": "Avaa generaattori",
         "categories": {
@@ -88,8 +88,8 @@
       "loadingDeck": "Ladataan korttipakkaa…"
     },
     "allExerciseModes": {
-      "sectionTitle": "Kaikki tarjoamamme harjoitukset.",
-      "intro": "29 tehtäväpohjan luojaa, noin 80 erilaista harjoitusta. Napauta yhtä pelataksesi sitä.",
+      "sectionTitle": "Laaja valikoima harjoituksia.",
+      "intro": "Yhteenlasku, kuvalabyrintit, sudoku, etsi-ja-laske, ristisanatehtävät, kuvioharjoitukset ja paljon muuta. Napauta yhtä pelataksesi sitä tässä.",
       "subject": {
         "math": "Matematiikka ja luvut",
         "letters": "Kirjaimet ja sanat",
@@ -99,8 +99,8 @@
     },
     "languageProof": {
       "sectionTitle": "Mitä konekäännös tekee väärin — ja mitä me teemme oikein.",
-      "intro": "Useimmat tehtäväsivustot kääntävät englanninkielisen sisällön yleiskäyttöisellä koneella ja julkaisevat tuloksen. Artikkelit menevät väärin. Monikkomuodot lyttääntyvät. Aksenttimerkit katoavat. Lapset oppivat virheet. Käsittelemme jokaista 11 kielestämme omana katalogina — emme englanninkielisen käännöksenä — sanastolla, jonka ovat kuratoineet ihmiset, jotka todella opettavat sillä kielellä.",
-      "subIntro": "Kaksi esimerkkiä, vierekkäin.",
+      "intro": "Useimmat tehtäväsivustot kääntävät englanninkielisen sisällön yleiskäyttöisellä koneella ja julkaisevat tuloksen. Artikkelit menevät väärin. Monikkomuodot lyttääntyvät. Aksenttimerkit katoavat. Lapset oppivat virheet. Käsittelemme jokaista kieltämme omana katalogina — emme englanninkielisen käännöksenä — sanastolla, jonka ovat kuratoineet ihmiset, jotka todella opettavat sillä kielellä.",
+      "subIntro": "Esimerkkejä, vierekkäin.",
       "german": {
         "heading": "Saksa — suku, isot alkukirjaimet, epäsäännöllinen monikko",
         "leftAnnotation1": "Konekäännös arvaa artikkelin englanninkielisestä asiayhteydestä. Schule on feminiini — mikään englanninkielinen konteksti ei kerro sitä.",
@@ -109,7 +109,7 @@
         "annotation1": "die Schule — oikea artikkeli, joka kerta. Saksankielinen sanastomme on indeksoitu suvun mukaan, ei arvattu.",
         "annotation2": "Schule — isolla alkukirjaimella, kuten saksan substantiivin kuuluu olla.",
         "annotation3": "Schulen — todellinen monikko, ei latinalaistyyppinen arvaus.",
-        "ariaLabel": "Vertailu vierekkäin: konekäännetty saksankielinen tehtäväarkki, jossa on kolme virhettä — väärä feminiininen artikkeli ('der' eikä 'die'), substantiivi ilman isoa alkukirjainta ('schule' eikä 'Schule') ja englanniksi monikoitu muoto ('schules' eikä 'Schulen') — LessonCraftStudio-version vieressä, jossa 'die Schule' ja 'die Schulen' näkyvät oikein."
+        "ariaLabel": "Vertailu vierekkäin: konekäännetty saksankielinen tehtäväarkki, jossa on yleisiä virheitä — väärä feminiininen artikkeli ('der' eikä 'die'), substantiivi ilman isoa alkukirjainta ('schule' eikä 'Schule') ja englanniksi monikoitu muoto ('schules' eikä 'Schulen') — LessonCraftStudio-version vieressä, jossa 'die Schule' ja 'die Schulen' näkyvät oikein."
       },
       "french": {
         "heading": "Ranska — suku, supistumat, aksentit",
@@ -119,7 +119,7 @@
         "annotation1": "l'école — oikea elisio ja oikea aksentti.",
         "annotation2": "à l'école — oikea supistuma preposition kanssa.",
         "annotation3": "Jokainen aksentti ranskankielisessä katalogissamme käsitellään osana sanaa.",
-        "ariaLabel": "Vertailu vierekkäin: konekäännetty ranskankielinen tehtäväarkki, jossa on kolme virhettä — eli­doitumaton artikkeli ('la école' eikä 'l'école'), supistumaton prepositio ('à le école' eikä 'à l'école') ja puuttuva akuutti aksentti ('ecole' eikä 'école') — LessonCraftStudio-version vieressä, jossa 'l'école', 'à l'école' ja 'école' näkyvät oikein."
+        "ariaLabel": "Vertailu vierekkäin: konekäännetty ranskankielinen tehtäväarkki, jossa on yleisiä virheitä — eli­doitumaton artikkeli ('la école' eikä 'l'école'), supistumaton prepositio ('à le école' eikä 'à l'école') ja puuttuva akuutti aksentti ('ecole' eikä 'école') — LessonCraftStudio-version vieressä, jossa 'l'école', 'à l'école' ja 'école' näkyvät oikein."
       },
       "closingLine": "Lapset ansaitsevat materiaalia, joka vastaa kieltä, jota he opettelevat. Rakennamme sille tasolle."
     },
@@ -151,28 +151,28 @@
       "intro": "Sign up to play every worksheet, download every PDF, and use every worksheet creator. No tiers, no subscription — just free for teachers.",
       "catalog": {
         "title": "Full worksheet catalog",
-        "body": "Printable and interactive worksheets across 11 languages. Unlimited downloads of every existing deck plus everything we publish through the year."
+        "body": "Printable and interactive worksheets across many languages. Unlimited downloads of every existing deck plus everything we publish through the year."
       },
       "creators": {
-        "title": "All 33 worksheet creators",
-        "body": "100+ worksheet types — math, literacy, puzzles, matching, search. Generate as many variations as you need. 29 of the 33 apps output both printable and interactive formats from a single setup."
+        "title": "Every worksheet creator",
+        "body": "A wide range of worksheet types — math, literacy, puzzles, matching, search. Generate as many variations as you need. Most of the apps output both printable and interactive formats from a single setup."
       },
       "assets": {
-        "title": "100+ themes, 3,000+ images, 11 languages",
-        "body": "The illustration library and vocabulary system that lets the same worksheet work across languages — grammatically correct gender, plurals, and diacritics in every one."
+        "title": "A vast theme library, a large image collection, many languages",
+        "body": "The illustration library and vocabulary system that lets the same worksheet work across languages — grammatically correct gender, plurals, and diacritics in each language."
       },
       "price": "Free for everyone with a teacher account.",
       "subscribeCta": "Join for free →",
-      "subscribeSubCopy": "Free for all teachers. Sign-up takes 30 seconds.",
+      "subscribeSubCopy": "Free for all teachers. Sign-up takes just a moment.",
       "alreadySubscribedCta": "Go to workspace"
     },
     "exerciseTypeGrid": {
       "heading": "Jokainen K-3-tehtävätyyppi, omalla kielelläsi.",
-      "intro": "29 erilaista tehtävätyyppiä matematiikan, kirjainten, logiikan ja avaruudellisen päättelyn alueilla. Klikkaa mitä tahansa selataksesi katalogia kyseisestä tehtävätyypistä omalla kielelläsi."
+      "intro": "Laaja valikoima tehtävätyyppejä matematiikan, kirjainten, logiikan ja avaruudellisen päättelyn alueilla. Klikkaa mitä tahansa selataksesi katalogia kyseisestä tehtävätyypistä omalla kielelläsi."
     },
     "themeStrip": {
       "heading": "Jokainen luokkahuoneen aihe.",
-      "intro": "100 aihetta, jotka kattavat eläimet, ajoneuvot, ruoan, juhlapyhät, kehonosat, vuodenajat ja muuta. Klikkaa mitä tahansa selataksesi katalogia kyseisestä aiheesta omalla kielelläsi.",
+      "intro": "Laaja teemakirjasto, joka kattaa eläimet, ajoneuvot, ruoan, juhlapyhät, kehonosat, vuodenajat ja muuta. Klikkaa mitä tahansa selataksesi katalogia kyseisestä aiheesta omalla kielelläsi.",
       "listLabel": "Selaa työarkkeja aiheen mukaan"
     },
     "localeStrip": {

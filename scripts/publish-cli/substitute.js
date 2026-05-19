@@ -223,13 +223,36 @@ function apply(opts) {
   note('__LINK_TEXT_BROWSE_ALL__', rBrowse.source, rBrowse.value, rBrowse.fallbackFired,
     rBrowse.fallbackFired ? 'fell back to ' + rBrowse.source : null);
 
-  // 13. <!-- HREFLANG_INSERTION_POINT --> — v1 always empty (content_family_id null per §17.8.7)
+  // 13. <!-- HREFLANG_INSERTION_POINT --> — v2 shipped at SEO-100pct commission Phase 4.
+  // When opts.siblings is provided (list of {language, slug}), emit hreflang block:
+  //   <!-- HREFLANG_BLOCK_START -->
+  //   <link rel="alternate" hreflang="<lang>" href="<canonical>"/> per sibling
+  //   <link rel="alternate" hreflang="x-default" href="<en | first>"/>
+  //   <!-- HREFLANG_BLOCK_END -->
+  // Empty when opts.siblings absent OR has 0 entries.
   var hreflangBlock = '';
-  if (manifest.content_family_id != null) {
+  if (opts.siblings && Array.isArray(opts.siblings) && opts.siblings.length > 0) {
+    var sortedSibs = opts.siblings.slice().sort(function (a, b) { return a.language.localeCompare(b.language); });
+    var hlLines = ['<!-- HREFLANG_BLOCK_START -->'];
+    sortedSibs.forEach(function (s) {
+      var sUrl = CANONICAL_URL_BASE + '/' + s.language + '/decks/' + s.slug + '/';
+      hlLines.push('<link rel="alternate" hreflang="' + s.language + '" href="' + sUrl + '"/>');
+    });
+    var xDef = sortedSibs.find(function (s) { return s.language === 'en'; }) || sortedSibs[0];
+    if (xDef) {
+      var xUrl = CANONICAL_URL_BASE + '/' + xDef.language + '/decks/' + xDef.slug + '/';
+      hlLines.push('<link rel="alternate" hreflang="x-default" href="' + xUrl + '"/>');
+    }
+    hlLines.push('<!-- HREFLANG_BLOCK_END -->');
+    hreflangBlock = hlLines.join('\n');
+    note('<!-- HREFLANG_INSERTION_POINT -->', 'v2 siblings', String(sortedSibs.length) + ' alternates', false);
+  } else if (manifest.content_family_id != null) {
     warnings.push('manifest has non-null content_family_id ("' + manifest.content_family_id +
-      '") — v2 hreflang sibling-injection code path NOT IMPLEMENTED in v1; substituting empty string');
+      '") but no opts.siblings provided — emitting empty hreflang block. Caller should look up siblings via DB before substitute() to populate cross-locale alternates.');
+    note('<!-- HREFLANG_INSERTION_POINT -->', 'v2 missing-siblings', '', true);
+  } else {
+    note('<!-- HREFLANG_INSERTION_POINT -->', 'no siblings', '', false);
   }
-  note('<!-- HREFLANG_INSERTION_POINT -->', 'v1 empty', '', false);
 
   // 14. __DECK_END_SUGGESTIONS_HEADER__ (Commission B Phase 2)
   // Key path: endDeck.suggestionsHeader — alongside other endDeck.* keys

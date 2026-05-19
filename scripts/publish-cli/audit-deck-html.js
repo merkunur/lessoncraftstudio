@@ -34,6 +34,15 @@ var countInboundMod = require('./count-inbound-surfaces');
 var CANONICAL_URL_BASE = 'https://www.lessoncraftstudio.com';
 var DECKS_ROOT_DEFAULT = '/var/www/lcs-media/decks';
 
+// Two hash algorithms coexist in the catalog due to Phase 4a retrofit using
+// SHA-1 normalized but new publishes via seo-reconciliation predicate using
+// SHA-256 raw. Audit accepts either as a valid match and flags the algorithm
+// inconsistency as a separate defect class for Phase 2.7 standardization.
+function sha1Normalized(s) {
+  var normalized = String(s || '').trim().toLowerCase().replace(/\s+/g, ' ');
+  return normalized ? crypto.createHash('sha1').update(normalized).digest('hex') : null;
+}
+
 function parseArgs(argv) {
   var out = {
     baseline: null,
@@ -83,52 +92,77 @@ async function runChecksForDeck(dbDeck, htmlText, manifestObj, ctx) {
   var defects = [];
 
   // ===== Check 1: title uniqueness =====
-  // DB-side check; we use the baseline state since it's authoritative.
+  // The DB has TWO coexisting hash algorithms (legacy data-integrity defect):
+  //   SHA-256 raw (predicate canonical, length 64)
+  //   SHA-1 normalized (Phase 4a republish-seo, length 40)
+  // We compute both, accept either as a match, and flag any deck whose DB
+  // hash is SHA-1 as needing standardization (HASH_ALGORITHM_LEGACY).
   var titleTagMatch = /<title>([\s\S]*?)<\/title>/i.exec(htmlText);
   var renderedTitle = titleTagMatch ? titleTagMatch[1].trim() : '';
-  var renderedTitleHash = renderedTitle ? sha256(renderedTitle) : null;
-  // The DB titleHash should match the rendered titleHash AND be unique within locale.
+  var renderedTitleSha256 = renderedTitle ? sha256(renderedTitle) : null;
+  var renderedTitleSha1Norm = renderedTitle ? sha1Normalized(renderedTitle) : null;
   if (!dbDeck.titleHash) {
-    checks.titleUniqueness = { pass: false, category: 'TITLE_HASH_NULL', renderedTitle: renderedTitle.slice(0, 120), renderedTitleHash: renderedTitleHash };
+    checks.titleUniqueness = { pass: false, category: 'TITLE_HASH_NULL', renderedTitle: renderedTitle.slice(0, 120), renderedTitleSha256: renderedTitleSha256 };
     defects.push('TITLE_HASH_NULL');
-  } else if (renderedTitleHash && renderedTitleHash !== dbDeck.titleHash) {
-    checks.titleUniqueness = { pass: false, category: 'TITLE_HASH_MISMATCH', renderedTitle: renderedTitle.slice(0, 120), dbHash: dbDeck.titleHash, renderedHash: renderedTitleHash };
-    defects.push('TITLE_HASH_MISMATCH');
   } else {
-    // Collision detection: was already done at baseline (zero collisions per locale).
-    // Track this here for the per-deck record; aggregate-level collision is the truth.
-    var collisionSet = ctx.titleHashSetByLocale[dbDeck.language] || new Map();
-    var prior = collisionSet.get(dbDeck.titleHash);
-    if (prior && prior !== dbDeck.id) {
-      checks.titleUniqueness = { pass: false, category: 'TITLE_HASH_COLLIDES_WITH', collidesWith: prior };
-      defects.push('TITLE_NON_UNIQUE');
+    var dbHashLen = dbDeck.titleHash.length;
+    var matchSha256 = dbDeck.titleHash === renderedTitleSha256;
+    var matchSha1 = dbDeck.titleHash === renderedTitleSha1Norm;
+    if (!matchSha256 && !matchSha1) {
+      checks.titleUniqueness = { pass: false, category: 'TITLE_HASH_MISMATCH', renderedTitle: renderedTitle.slice(0, 120), dbHash: dbDeck.titleHash, renderedSha256: renderedTitleSha256, renderedSha1Norm: renderedTitleSha1Norm };
+      defects.push('TITLE_HASH_MISMATCH');
     } else {
-      collisionSet.set(dbDeck.titleHash, dbDeck.id);
-      ctx.titleHashSetByLocale[dbDeck.language] = collisionSet;
-      checks.titleUniqueness = { pass: true };
+      // Collision detection within the same locale.
+      var collisionSet = ctx.titleHashSetByLocale[dbDeck.language] || new Map();
+      var prior = collisionSet.get(dbDeck.titleHash);
+      if (prior && prior !== dbDeck.id) {
+        checks.titleUniqueness = { pass: false, category: 'TITLE_HASH_COLLIDES_WITH', collidesWith: prior };
+        defects.push('TITLE_NON_UNIQUE');
+      } else {
+        collisionSet.set(dbDeck.titleHash, dbDeck.id);
+        ctx.titleHashSetByLocale[dbDeck.language] = collisionSet;
+        // Track algorithm legacy class.
+        if (dbHashLen === 40) {
+          checks.titleUniqueness = { pass: true, algorithm: 'sha1-normalized', flag: 'LEGACY' };
+          defects.push('HASH_ALGORITHM_LEGACY_TITLE');
+        } else {
+          checks.titleUniqueness = { pass: true, algorithm: 'sha256' };
+        }
+      }
     }
   }
 
   // ===== Check 2: description uniqueness =====
   var descMatch = /<meta\s+name="description"\s+content="([^"]*)"/i.exec(htmlText);
   var renderedDesc = descMatch ? descMatch[1] : '';
-  var renderedDescHash = renderedDesc ? sha256(renderedDesc) : null;
+  var renderedDescSha256 = renderedDesc ? sha256(renderedDesc) : null;
+  var renderedDescSha1Norm = renderedDesc ? sha1Normalized(renderedDesc) : null;
   if (!dbDeck.descriptionHash) {
     checks.descriptionUniqueness = { pass: false, category: 'DESCRIPTION_HASH_NULL', renderedDesc: renderedDesc.slice(0, 120) };
     defects.push('DESCRIPTION_HASH_NULL');
-  } else if (renderedDescHash && renderedDescHash !== dbDeck.descriptionHash) {
-    checks.descriptionUniqueness = { pass: false, category: 'DESCRIPTION_HASH_MISMATCH', dbHash: dbDeck.descriptionHash, renderedHash: renderedDescHash };
-    defects.push('DESCRIPTION_HASH_MISMATCH');
   } else {
-    var descSet = ctx.descriptionHashSetByLocale[dbDeck.language] || new Map();
-    var priorDesc = descSet.get(dbDeck.descriptionHash);
-    if (priorDesc && priorDesc !== dbDeck.id) {
-      checks.descriptionUniqueness = { pass: false, category: 'DESCRIPTION_HASH_COLLIDES_WITH', collidesWith: priorDesc };
-      defects.push('DESCRIPTION_NON_UNIQUE');
+    var dbDescLen = dbDeck.descriptionHash.length;
+    var descMatchSha256 = dbDeck.descriptionHash === renderedDescSha256;
+    var descMatchSha1 = dbDeck.descriptionHash === renderedDescSha1Norm;
+    if (!descMatchSha256 && !descMatchSha1) {
+      checks.descriptionUniqueness = { pass: false, category: 'DESCRIPTION_HASH_MISMATCH', dbHash: dbDeck.descriptionHash, renderedSha256: renderedDescSha256, renderedSha1Norm: renderedDescSha1Norm };
+      defects.push('DESCRIPTION_HASH_MISMATCH');
     } else {
-      descSet.set(dbDeck.descriptionHash, dbDeck.id);
-      ctx.descriptionHashSetByLocale[dbDeck.language] = descSet;
-      checks.descriptionUniqueness = { pass: true };
+      var descSet = ctx.descriptionHashSetByLocale[dbDeck.language] || new Map();
+      var priorDesc = descSet.get(dbDeck.descriptionHash);
+      if (priorDesc && priorDesc !== dbDeck.id) {
+        checks.descriptionUniqueness = { pass: false, category: 'DESCRIPTION_HASH_COLLIDES_WITH', collidesWith: priorDesc };
+        defects.push('DESCRIPTION_NON_UNIQUE');
+      } else {
+        descSet.set(dbDeck.descriptionHash, dbDeck.id);
+        ctx.descriptionHashSetByLocale[dbDeck.language] = descSet;
+        if (dbDescLen === 40) {
+          checks.descriptionUniqueness = { pass: true, algorithm: 'sha1-normalized', flag: 'LEGACY' };
+          defects.push('HASH_ALGORITHM_LEGACY_DESC');
+        } else {
+          checks.descriptionUniqueness = { pass: true, algorithm: 'sha256' };
+        }
+      }
     }
   }
 

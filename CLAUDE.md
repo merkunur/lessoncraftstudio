@@ -1,6 +1,6 @@
 # CLAUDE.md — LessonCraftStudio Interactive Worksheets Platform
 
-**Version:** 3.1 (post lesson-plans-domain nuke) **Last updated:** 2026-05-17
+**Version:** 3.2 (post SEO-100pct commission) **Last updated:** 2026-05-19
 
 ---
 
@@ -815,7 +815,7 @@ Empirical (153 en code-addition wave 2026-05-05): theme rewriter Phase 2 dry-run
 ### 15.18 Inbound-link surface counter + gate doctrine
 `scripts/publish-cli/count-inbound-surfaces.js` (Phase 4b CJS port from `frontend/lib/seo/count-inbound-surfaces.ts`) implements 8-surface counter consumed by `reconcileInboundLinkSurface` predicate at `seo-reconciliation.js:708`. Counts: exerciseTypeTopicPage (always-true) + educationalLevelTopicPage (always-true via §17.8.6) + themeTopicPages (subjectTags non-empty) + siblingAxisStrip (locale ≥2 distinct exerciseTypes) + varietyStripRotation (always-true) + crossAxisPivots (always-true) + deckEndSuggestionStrip (locale ≥7 decks) + breadthGridFeatured (Phase 3a conservative `false`). Predicate fires `INBOUND_LINK_COUNT_BELOW_TARGET` when count <3. WARN pre-Phase-5; HALT post-Phase-5 close.
 
-**§15.18.1 bulk.js wire-in gap discipline.** `publish.js` wires `db.findExistingByTitleHash` + `db.findExistingByDescriptionHash` directly (lines 205-206). `bulk.js` threads `ctx.X` from `opts.X` (lines 579-582) but `index.js` (caller at lines 335 + 383) does NOT populate. Production runs receive `undefined`; predicate's same-locale uniqueness checks silently no-op. Structurally identical wire-in gap that Phase 4b closed for `countInboundFn` via default-fallback at ctx construction (`opts.countInboundFn || countInboundMod.countInboundSurfacesForDeck`). **§A.13.3 candidate at any future bulk.js touch.** Audit `opts.findExistingBy*` and apply default-fallback pattern; OR commission small `[FIX][PUBLISH-CLI]`. Origin: Phase 4b close-out Item 12.
+**§15.18.1 bulk.js wire-in gap discipline. CLOSED 2026-05-19 SEO-100pct commission Phase 5** via default-fallback pattern at `bulk.js` ctx construction (matching countInboundFn precedent): `findExistingByTitleHash: opts.findExistingByTitleHash || db.findExistingByTitleHash`. Same for descriptionHash. Now bulk-publish enforces same uniqueness invariants as single-publish via publish.js (lines 205-206). Origin: Phase 4b close-out Item 12; closed at commit closing Phase 5 of SEO-100pct.
 
 **§15.18.2 Pre-publish-state vs post-publish-state semantics for inbound predicate.** Predicate calls `countInboundFn(deckId, language)` where `deckId` derives from `manifest.deck_id` (operator-space, e.g., `big-small-findbig-en-20260507200010`); helper does `findUnique({where:{id:deckId}})` against `Deck.id` (Prisma CUID). For pre-publish dry-run, `manifest.deck_id ≠ DB CUID` → null → count=0 → predicate fires.
 
@@ -1264,15 +1264,16 @@ English populates Schema.org `educationalLevel`. Localized (via `seo.educational
 
 #### 17.8.7 v1 vs v2 scope: cross-language sibling tracking
 
-Hreflang only matters when real cross-language siblings exist. Real siblings only exist when operator explicitly translates a deck.
+Hreflang only matters when real cross-language siblings exist. Real siblings exist when operator explicitly translates a deck OR when retroactive tuple-matching identifies concept-level siblings across locales.
 
-**v1 (now):** `content_family_id` reserved **nullable** column on `Deck`. Always `null` for every v1 deck. **publish-cli behavior under null is normative, not defensive.** Encountering null → (1) replaces marker with empty string, (2) skips sibling re-injection. v1 implementers must NOT add validation that errors or warns on null — null is expected v1 state.
+**v1 (historical):** `content_family_id` nullable column on `Deck`. Always `null` for every v1 deck. publish-cli substituted `<!-- HREFLANG_INSERTION_POINT -->` with empty string.
 
-**v2 (later):** translate-this-deck workflow. Operator selects published deck, clicks "translate to <language>". Workflow generates new deck with same images/exercise structure/theme; only language strings differ. Translate action assigns shared `content_family_id` to both source (back-filled) + new sibling.
+**v2 (SHIPPED 2026-05-19 SEO-100pct commission):**
+- **Retroactive tuple-matching:** `scripts/publish-cli/populate-and-inject-hreflang.js` groups published decks by 5-tuple (exercise_type, exercise_mode, theme, age_range, variant_id). Multi-locale groups (≥2 distinct languages) get a fresh `content_family_id` (cf-prefixed cuid); each member's deck.html is injected with a `<!-- HREFLANG_BLOCK_START -->...<!-- HREFLANG_BLOCK_END -->` block carrying one `<link rel="alternate" hreflang="<lang>">` per sibling + an `x-default` (preferring en).
+- **Forward-path emission:** `scripts/publish-cli/substitute.js` accepts `opts.siblings = [{language, slug}, ...]` — when non-empty, emits the same shape at `HREFLANG_INSERTION_POINT` for new publishes. Callers (publish.js single-deck + bulk.js batch) must look up siblings via DB before invoking substitute when `manifest.content_family_id` is set; warning emitted when content_family_id is set but siblings absent.
+- **Empirical state (2026-05-19):** 77 decks across 29 cross-locale sibling groups carry content_family_id + hreflang alternates. 9114 single-locale decks correctly have content_family_id=null + no hreflang block.
 
-**Why reserve schema field now:** if added later, every v1 deck needs migration. By reserving day one (nullable, default null), v1 ships clean; v2 backfills only decks that become siblings.
-
-**v2-forward-compatibility:** v1 substitution function accepts optional sibling-list parameter defaulting empty; v2 caller populates.
+**Translate-this-deck UI:** deferred to follow-on commission. The substrate (hreflang emission + content_family_id population) is in place; the admin workflow tooling for explicit translation is operator-facing and doesn't affect SEO of existing decks.
 
 #### 17.8.8 What this section does NOT change
 Attribution per §14.3 (tier-neutral). Tier model per §7. Cache per §4.4. Pricing per §7. Apps that export per §14.9. Catalog-export ZIP per §15.2; manifest gains one field on generation.json + two on metadata.json per §15.1. URL pattern for `/<locale>/topic/<slug>/` per §16.5.
@@ -1332,6 +1333,30 @@ deck.html `<head>` SEO uses paired `<!-- SEO_INSERTION_POINT_START -->` + `<!-- 
 **Auto-control state at commission close:** all 7 enforced HALT-class on every new publish via `reconcileDeckPageSEO` at `seo-reconciliation.js:778`. Operator does not need to remind CC; gate IS the reminder.
 
 Origin: Phase 2 doctrine (`ac9109c7`).
+
+#### 17.8.18 Canonical hash algorithm for titleHash + descriptionHash
+
+**SHA-1 normalized** is the canonical hash function for `Deck.titleHash` + `Deck.descriptionHash` per §17.8.17 invariants 1+2. Computed via `scripts/publish-cli/seo-reconciliation.js: hashTitleOrDescription(s)`:
+
+```js
+function hashTitleOrDescription(s) {
+  if (!s) return null;
+  var normalized = String(s).trim().toLowerCase().replace(/\s+/g, ' ');
+  if (!normalized) return null;
+  return crypto.createHash('sha1').update(normalized, 'utf8').digest('hex');
+}
+```
+
+Length 40 hex. Normalization (trim + lowercase + whitespace collapse) makes hash robust to cosmetic differences — `"Title — Theme"` and `"  title — theme  "` hash identically.
+
+**Standardized 2026-05-19 SEO-100pct commission.** Prior to standardization, the catalog had a mix:
+- `seo-reconciliation.js` predicate wrote SHA-256 raw for new INSERTs
+- `republish-seo.js` + all `rewrite-deck-html-*.js` retrofit paths wrote SHA-1 normalized
+- After full-catalog republish-seo run, 7847 of 9191 decks were SHA-1; 1124 were SHA-256 stuck due to unique-constraint blocks during retrofit.
+
+Unifying on SHA-1 normalized matches the retrofit-canonical state + adds whitespace robustness. The `sha256()` helper is RETAINED at `seo-reconciliation.js` for backwards-compatibility callers but is NOT used by the uniqueness predicates.
+
+**For future hash-writing code:** import + use `hashTitleOrDescription`. Never call `sha256()` for title/description hash computation. Audit script `audit-deck-html.js` flags any DB hash of length 64 as `TITLE_HASH_ALGORITHM_STALE`.
 
 ### 17.9 [REMOVED 2026-05-17] Pillar 1 lesson-plan production discipline
 
@@ -1679,6 +1704,8 @@ Explore agents are for breadth-survey ("what's surface area of X?"); fidelity-cr
 #### A.13.17 Slug-vs-title-shape redundancy as separate doctrine class
 Slug-level catalog data hygiene structurally distinct from title-shape; slug-level collisions not resolvable by title-shape alone. **(a) Shape-pathology collisions** — same (locale, shape) → identical title-hash; resolvable via title-shape adjustment. **(b) Catalog-data-hygiene collisions** — same (locale, slug) due to operator workflow OR legacy renames; requires operator-strategic catalog rationalization commission. Phase 4a CP2.5 (ι) close: (ε) → (θ) → (ι) at 63.3% surfaced (b) requiring (μ) slug-rationalization stub.
 
+**(μ) CLOSED 2026-05-19 SEO-100pct commission via algorithmic disambiguation:** `scripts/publish-cli/disambiguate-titles-mu.js` groups all published en+es decks by ACTUAL RENDERED TITLE (extracted from deck.html, not by structural manifest axes — catches off-taxonomy themes that collapse onto generic titles via republish-seo's taxonomy fallback). For each rendered-title-collision group sorted by createdAt ASC: first member keeps canonical title (no variant_id); members 2..N get sequential ordinal variant_id ('002', '003', ...). Pairs with `disambiguate-titles-finalize.js` (slug-derived sha1(slug)[:6] for cross-slug residue after ordinal assignment). Re-running republish-seo emits new titles with variantLabel suffix ('Set 002' / 'Conjunto 002'); SHA-1 normalized hashes update successfully in DB; @@unique([language, titleHash]) constraint enforces forward. Final state: 9191/9191 unique titleHash + descriptionHash across en/es/pt.
+
 #### A.13.18 Backfill-rate as commission close-out metric
 When primary deliverable enforces uniqueness invariant via DB-side hash, close-out reports **two metrics**: file-level retrofit rate + DB-level invariant-enforcement rate. Silent under-enforcement ("100%" file-level) worse than visible partial enforcement. Phase 4a precedent: file-level 2776/2776 (100%); DB-level 1693/2673 (63.3% en) + 29/29 (100% non-en).
 
@@ -1941,5 +1968,35 @@ Three defect classes have recurred across multiple operator deck-publish hand-of
 **Apply.** At the START of any commission involving `publish-bulk` on operator-staged ZIPs, run the 5-step checklist before any other work. Surface findings in Phase 1 inventory; fix BEFORE `--confirm`. Each step has documented canonical solution + recovery script.
 
 Origin: surfaced empirically across 345-en-wave + alphabet-train/prepositions embed-gap commission cycles. Step 4 added 2026-05-09 after 9-app wave (picture-sort/shadow-match/bingo/matching/pattern-worksheet/chart-count/pattern-train/big-small) shipped without populated reels; root-cause Mode A + Mode B stale-emit from operator's PC sync lag. Cross-references: §A.10, §A.13.5, §A.13.7, §15.17, §17.8.5.
+
+### A.14.9 SEO-100pct audit infrastructure (canonical reference)
+
+The SEO-100pct commission (2026-05-19) shipped a reusable audit pair under `scripts/publish-cli/`:
+
+1. **`audit-published-baseline.js`** — DB-side enumeration of all published decks for requested locales. Outputs per-deck JSON + per-locale stratified summary (NULL hashes pre vs post 20260509083000 migration; collision sets; cohort breakdown). Reads `frontend/.env.production` for DATABASE_URL on Hetzner. Read-only.
+
+2. **`audit-deck-html.js`** — per-deck FS audit running 10 invariant checks against `/var/www/lcs-media/decks/<locale>/<slug>/deck.html` + sibling `manifest.json`. Bypasses Cloudflare (direct FS read; no rate limits). Concurrency-limited parallel runner. Outputs per-deck JSON + aggregated markdown summary. Reuses `seo-reconciliation.js` predicates + `count-inbound-surfaces.js`.
+
+**Invariants checked:**
+1. Title uniqueness (SHA-1 normalized; matches DB titleHash)
+2. Description uniqueness (SHA-1 normalized; matches DB descriptionHash)
+3. Canonical URL pattern (www-form + locale + native slug + trailing /)
+4. OG tags ≥14 (7 og:* + 7 twitter:*)
+5. Inbound link count ≥3 (via countInboundSurfacesForDeck)
+6. Locale residue absent (lexicon-on-rendered-HTML; trace findings emit as INFO)
+7. Single h1
+8. Theme keyword in rendered title (when manifest.theme is taxonomy-keyed)
+9. Deckend-suggestions strip ≥3 markers
+10. Canonical-host var url= www-form (embed iframe compatibility)
+
+**Invocation pattern (on Hetzner via plink):**
+```
+node scripts/publish-cli/audit-published-baseline.js --locales=en,es,pt
+node scripts/publish-cli/audit-deck-html.js --locales=en,es,pt --baseline=<latest baseline json> --concurrency=16
+```
+
+Wall-clock at 9,191-deck catalog: baseline 0.6s + per-deck audit 20s. Requires `--max-old-space-size=16384` for full-catalog audit on Node 18.
+
+**Future SEO audits:** invoke these scripts; extend `runChecksForDeck` for new invariant classes; do NOT re-author DB-querying or FS-walking logic.
 
 *End of CLAUDE.md.*

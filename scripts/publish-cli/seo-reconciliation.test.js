@@ -624,6 +624,17 @@ test('sha256 produces stable hex digest', function () {
   assert.strictEqual(h1.length, 64); // sha256 hex = 64 chars
 });
 
+test('hashTitleOrDescription: canonical SHA-1 normalized', function () {
+  var h1 = seoRecon.hashTitleOrDescription('Test Title');
+  var h2 = seoRecon.hashTitleOrDescription('  test   title  ');
+  var h3 = seoRecon.hashTitleOrDescription('Different Title');
+  assert.strictEqual(h1, h2, 'normalize whitespace + case');
+  assert.notStrictEqual(h1, h3);
+  assert.strictEqual(h1.length, 40); // sha1 hex
+  assert.strictEqual(seoRecon.hashTitleOrDescription(''), null);
+  assert.strictEqual(seoRecon.hashTitleOrDescription(null), null);
+});
+
 test('tokenizeForLexicon splits on whitespace + punctuation; lowercases', function () {
   var toks = seoRecon.tokenizeForLexicon('Picture Sudoku Worksheet — Kindergarten | LessonCraftStudio');
   assert.ok(toks.indexOf('picture') !== -1);

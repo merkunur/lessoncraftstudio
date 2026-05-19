@@ -36,11 +36,37 @@ var path = require('path');
 // =====================================================================
 
 /**
- * sha256 hash of a string. Returns lowercase hex digest. Used for
- * Deck.titleHash + Deck.descriptionHash uniqueness predicates.
+ * sha256 hash of a string. Returns lowercase hex digest. Retained for
+ * backwards-compatibility callers but no longer used by the title /
+ * description uniqueness predicates — see hashTitleOrDescription below.
  */
 function sha256(str) {
   return crypto.createHash('sha256').update(String(str || ''), 'utf8').digest('hex');
+}
+
+/**
+ * Canonical hash function for Deck.titleHash + Deck.descriptionHash uniqueness
+ * predicates. SHA-1 over a normalized string (trimmed, lowercased, internal
+ * whitespace collapsed to single spaces).
+ *
+ * Standardized to SHA-1 normalized at the SEO-100pct commission close —
+ * republish-seo.js + rewrite-deck-html-mode-name-*.js + rewrite-deck-html-theme-name-*.js
+ * all used this algorithm during the Phase 4a retrofit. After full-catalog
+ * republish-seo run, all 9191 published en/es/pt decks carry SHA-1 normalized
+ * hashes; the predicate path was the lone outlier writing SHA-256 raw for new
+ * INSERTs. Unifying eliminates the hash-algorithm-split data-integrity defect
+ * surfaced at audit 2026-05-19.
+ *
+ * Normalization is whitespace + case insensitive — collisions correctly fire
+ * for "Title — Theme" vs "  title — theme  " (semantically identical).
+ *
+ * Length 40 hex chars.
+ */
+function hashTitleOrDescription(str) {
+  if (!str) return null;
+  var normalized = String(str).trim().toLowerCase().replace(/\s+/g, ' ');
+  if (!normalized) return null;
+  return crypto.createHash('sha1').update(normalized, 'utf8').digest('hex');
 }
 
 /**
@@ -207,7 +233,7 @@ async function reconcileTitleUniqueness(manifest, renderedTitle, opts) {
       app: manifest && manifest.exercise_type ? manifest.exercise_type : null
     };
   }
-  var titleHash = sha256(renderedTitle);
+  var titleHash = hashTitleOrDescription(renderedTitle);
   var existing = null;
   if (opts && typeof opts.findExistingByTitleHash === 'function') {
     try {
@@ -275,7 +301,7 @@ async function reconcileDescriptionUniqueness(manifest, renderedDescription, opt
       app: manifest && manifest.exercise_type ? manifest.exercise_type : null
     };
   }
-  var descHash = sha256(renderedDescription);
+  var descHash = hashTitleOrDescription(renderedDescription);
   var existing = null;
   if (opts && typeof opts.findExistingByDescriptionHash === 'function') {
     try {
@@ -965,6 +991,7 @@ module.exports = {
   reconcileDeckPageSEO: reconcileDeckPageSEO,
   // Helpers (exported for tests + reuse)
   sha256: sha256,
+  hashTitleOrDescription: hashTitleOrDescription,
   tokenizeForLexicon: tokenizeForLexicon,
   loadLexiconExceptions: loadLexiconExceptions,
   // Constants

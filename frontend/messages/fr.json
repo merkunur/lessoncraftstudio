@@ -87,6 +87,16 @@
       "closeFeatured": "Fermer",
       "loadingDeck": "Chargement du deck…"
     },
+    "allExerciseModes": {
+      "sectionTitle": "Tous les exercices que nous proposons.",
+      "intro": "29 créateurs de fiches, environ 80 activités distinctes. Touchez-en une pour y jouer.",
+      "subject": {
+        "math": "Maths et nombres",
+        "letters": "Lettres et mots",
+        "logic": "Logique et motifs",
+        "spatial-reasoning": "Raisonnement spatial"
+      }
+    },
     "languageProof": {
       "sectionTitle": "Ce que la traduction automatique se trompe — et ce que nous faisons bien.",
       "intro": "La plupart des sites de fiches d'exercices traduisent du contenu anglais avec un moteur générique et publient le résultat. Les articles sont faux. Les pluriels s'effondrent. Les accents disparaissent. Les enfants apprennent les erreurs. Nous traitons chacune de nos 11 langues comme son propre catalogue — pas comme une traduction de l'anglais — avec un vocabulaire sélectionné par des personnes qui enseignent réellement dans cette langue.",

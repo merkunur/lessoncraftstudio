@@ -87,6 +87,16 @@
       "closeFeatured": "Chiudi",
       "loadingDeck": "Caricamento del deck…"
     },
+    "allExerciseModes": {
+      "sectionTitle": "Tutti gli esercizi che offriamo.",
+      "intro": "29 generatori di schede, circa 80 attività distinte. Toccane una per giocare.",
+      "subject": {
+        "math": "Matematica e numeri",
+        "letters": "Lettere e parole",
+        "logic": "Logica e schemi",
+        "spatial-reasoning": "Ragionamento spaziale"
+      }
+    },
     "languageProof": {
       "sectionTitle": "Cosa sbaglia la traduzione automatica — e cosa noi facciamo bene.",
       "intro": "La maggior parte dei siti di schede traduce contenuti inglesi con un motore generico e pubblica il risultato. Gli articoli risultano sbagliati. I plurali si appiattiscono. Gli accenti spariscono. I bambini imparano gli errori. Trattiamo ognuna delle nostre 11 lingue come un proprio catalogo — non come una traduzione dall'inglese — con un vocabolario curato da persone che insegnano realmente in quella lingua.",

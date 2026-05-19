@@ -87,6 +87,16 @@
       "closeFeatured": "Cerrar",
       "loadingDeck": "Cargando deck…"
     },
+    "allExerciseModes": {
+      "sectionTitle": "Todos los ejercicios que ofrecemos.",
+      "intro": "29 generadores de hojas de trabajo, alrededor de 80 actividades distintas. Toca cualquiera para jugar.",
+      "subject": {
+        "math": "Matemáticas y números",
+        "letters": "Letras y palabras",
+        "logic": "Lógica y patrones",
+        "spatial-reasoning": "Razonamiento espacial"
+      }
+    },
     "languageProof": {
       "sectionTitle": "Lo que la traducción automática se equivoca — y lo que nosotros acertamos.",
       "intro": "La mayoría de los sitios de hojas de trabajo traducen contenido en inglés con un motor genérico y publican el resultado. Los artículos quedan mal. Los plurales colapsan. Las tildes desaparecen. Los niños aprenden los errores. Nosotros tratamos cada una de nuestras 11 lenguas como su propio catálogo — no como una traducción del inglés — con vocabulario curado por personas que enseñan en esa lengua.",

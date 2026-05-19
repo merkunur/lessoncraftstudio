@@ -87,6 +87,16 @@
       "closeFeatured": "Stäng",
       "loadingDeck": "Laddar deck…"
     },
+    "allExerciseModes": {
+      "sectionTitle": "Alla övningar vi erbjuder.",
+      "intro": "29 arbetsbladsmakare, omkring 80 olika aktiviteter. Tryck på en för att spela den.",
+      "subject": {
+        "math": "Matematik och tal",
+        "letters": "Bokstäver och ord",
+        "logic": "Logik och mönster",
+        "spatial-reasoning": "Rumsligt tänkande"
+      }
+    },
     "languageProof": {
       "sectionTitle": "Vad maskinöversättning gör fel — och vad vi gör rätt.",
       "intro": "De flesta arbetsbladssajter översätter engelskt innehåll med en generisk motor och publicerar resultatet. Artiklar blir fel. Pluralformer kollapsar. Accenter försvinner. Barn lär sig misstagen. Vi behandlar vart och ett av våra 11 språk som en egen katalog — inte en översättning från engelska — med ordförråd kuraterat av människor som faktiskt undervisar på det språket.",

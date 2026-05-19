@@ -87,6 +87,16 @@
       "closeFeatured": "Sluiten",
       "loadingDeck": "Deck wordt geladen…"
     },
+    "allExerciseModes": {
+      "sectionTitle": "Elke oefening die we aanbieden.",
+      "intro": "29 werkbladmakers, ongeveer 80 verschillende activiteiten. Tik er een aan om te spelen.",
+      "subject": {
+        "math": "Rekenen & getallen",
+        "letters": "Letters & woorden",
+        "logic": "Logica & patronen",
+        "spatial-reasoning": "Ruimtelijk denken"
+      }
+    },
     "languageProof": {
       "sectionTitle": "Wat automatische vertaling fout doet — en wat wij goed doen.",
       "intro": "De meeste werkblad-sites vertalen Engelse inhoud met een generieke machine en publiceren het resultaat. Lidwoorden kloppen niet. Meervoudsvormen vallen om. Accenten verdwijnen. Kinderen leren de fouten mee. Wij behandelen elk van onze 11 talen als een eigen catalogus — geen vertaling van het Engels — met een woordenschat die wordt samengesteld door mensen die werkelijk in die taal lesgeven.",

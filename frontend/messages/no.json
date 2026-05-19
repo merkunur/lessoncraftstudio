@@ -87,6 +87,16 @@
       "closeFeatured": "Lukk",
       "loadingDeck": "Laster deck…"
     },
+    "allExerciseModes": {
+      "sectionTitle": "Alle øvelsene vi tilbyr.",
+      "intro": "29 arbeidsark-lagere, rundt 80 ulike aktiviteter. Trykk på en for å spille den.",
+      "subject": {
+        "math": "Matte og tall",
+        "letters": "Bokstaver og ord",
+        "logic": "Logikk og mønstre",
+        "spatial-reasoning": "Romlig tenkning"
+      }
+    },
     "languageProof": {
       "sectionTitle": "Hva maskinoversettelse får galt — og hva vi får riktig.",
       "intro": "De fleste arbeidsark-sider oversetter engelsk innhold med en generisk motor og publiserer resultatet. Artiklene blir feil. Flertallsformene kollapser. Aksentene forsvinner. Barn lærer feilene. Vi behandler hvert av våre 11 språk som sin egen katalog — ikke som en oversettelse fra engelsk — med ordforråd kuratert av mennesker som faktisk underviser på det språket.",

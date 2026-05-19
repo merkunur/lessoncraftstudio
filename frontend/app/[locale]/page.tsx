@@ -5,6 +5,7 @@ import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import Hero from '@/components/homepage-v2/Hero';
 import FourCardGrid from '@/components/homepage-v2/FourCardGrid';
 import BreadthGrid from '@/components/homepage-v2/BreadthGrid';
+import AllExerciseModesGrid from '@/components/homepage-v2/AllExerciseModesGrid';
 import EmbedViralityCTA from '@/components/homepage-v2/EmbedViralityCTA';
 import SubscriptionSection from '@/components/homepage-v2/SubscriptionSection';
 
@@ -141,12 +142,21 @@ export default async function HomePage({ params }: { params: { locale: string } 
           marketing + §18.4.2 day-of-week rotation rhythm. */}
       <BreadthGrid locale={locale} />
 
-      {/* Section 4 — Embed acquisition CTA per §1 acquisition-flywheel Layer 3
+      {/* Section 4 — "Every exercise we offer." Surfaces every published
+          (app, mode) tuple as a clickable tile linking to a representative
+          deck. Universe anchored to EN catalog (Track-C-complete per §19.5);
+          locales with partial coverage fall back silently to EN per the
+          "loan from English" rule (operator commission 2026-05-19). Per §1
+          magnitude-via-structural-axes doctrine + crawl-bait-density metric:
+          ~80 anchors per locale × 11 locales = ~880 new homepage links. */}
+      <AllExerciseModesGrid locale={locale} />
+
+      {/* Section 5 — Embed acquisition CTA per §1 acquisition-flywheel Layer 3
           (homepage signaling). Migrated below the 4-card grid per operator
           commission lock #1. */}
       <EmbedViralityCTA locale={locale} />
 
-      {/* Section 5 — Subscription. Flipped to subscribe-mode at deploy via
+      {/* Section 6 — Subscription. Flipped to subscribe-mode at deploy via
           HOMEPAGE_SUBSCRIBE_MODE=subscribe env var per commission Phase 1C. */}
       <SubscriptionSection locale={locale} />
     </>

@@ -15,7 +15,7 @@
     "start": "Inizia",
     "blog": "Blog",
     "resourcesDesc": {
-      "tools": "Prova tutti i 33 generatori online",
+      "tools": "Prova tutti i nostri generatori online",
       "guides": "Guide alla vendita passo passo",
       "bundles": "Risparmia con i pacchetti",
       "ideas": "Ispirazione per nicchie redditizie",
@@ -193,8 +193,8 @@
   },
   "worksheetSamples": {
     "title": "Galleria di esempi di schede didattiche",
-    "subtitle": "Clicca su una scheda per vedere un'anteprima più grande. Questi sono solo alcuni esempi dalla nostra collezione di 33 generatori professionali di schede didattiche.",
-    "ctaText": "Esplora tutti i 33 generatori di schede →",
+    "subtitle": "Clicca su una scheda per vedere un'anteprima più grande. Questi sono solo alcuni esempi dalla nostra collezione di generatori professionali di schede didattiche.",
+    "ctaText": "Esplora tutti i nostri generatori di schede →",
     "alphabetTrain": {
       "title": "Trenino dell'alfabeto",
       "description": "Apprendimento divertente dell'alfabeto con vagoni colorati"
@@ -593,7 +593,7 @@
   },
   "faq": {
     "metaTitle": "Domande Frequenti - LessonCraftStudio",
-    "metaDescription": "Risposte alle domande più comuni sui nostri 33 generatori di schede didattiche, piani tariffari, licenze commerciali e supporto tecnico",
+    "metaDescription": "Risposte alle domande più comuni sui nostri generatori di schede didattiche, piani tariffari, licenze commerciali e supporto tecnico",
     "metaKeywords": "FAQ, aiuto generatori schede, domande prezzi, licenza commerciale, supporto tecnico",
     "hero": {
       "title": "Domande Frequenti",
@@ -700,7 +700,7 @@
       "full": {
         "description": "La soluzione completa per i professionisti",
         "features": [
-          "Tutti i 33 generatori",
+          "tutti i nostri generatori",
           "Schede illimitate",
           "Senza watermark"
         ]
@@ -948,7 +948,7 @@
         "name": "Accesso Completo",
         "description": "La soluzione completa per i professionisti",
         "features": [
-          "Accesso a tutti i 33+ generatori",
+          "Accesso a tutti i nostri generatori",
           "Schede illimitate",
           "Senza filigrana",
           "Download PDF di alta qualità",
@@ -1028,25 +1028,25 @@
   },
   "about": {
     "metaTitle": "Chi siamo | LessonCraftStudio — Generatori Professionali di Stampabili",
-    "metaDescription": "Scopri LessonCraftStudio — 33 generatori professionali di stampabili per venditori Etsy, editori Amazon KDP e imprenditori di stampabili. 11 lingue, 3.000+ immagini, licenza commerciale inclusa.",
+    "metaDescription": "Scopri LessonCraftStudio — nostri generatori professionali di stampabili per venditori Etsy, editori Amazon KDP e imprenditori di stampabili. molte lingue, migliaia di immagini, licenza commerciale inclusa.",
     "hero": {
       "title": "Chi siamo",
       "subtitle": "Generatori professionali di stampabili per venditori Etsy e editori KDP in tutto il mondo"
     },
     "stats": {
-      "generators": "33",
+      "generators": "many",
       "generatorsLabel": "Generatori di schede",
-      "languages": "11",
+      "languages": "many",
       "languagesLabel": "Lingue",
-      "images": "3.000+",
+      "images": "thousands",
       "imagesLabel": "Immagini tematiche",
-      "themes": "100+",
+      "themes": "plenty",
       "themesLabel": "Temi"
     },
     "mission": {
       "title": "La nostra missione",
       "description": "LessonCraftStudio è stato creato per aiutare venditori Etsy, editori KDP e imprenditori di stampabili a generare schede professionali in un istante — senza competenze di design, software costoso o ore di preparazione.",
-      "description2": "I nostri 33 generatori creano PDF pronti per la stampa a 300 DPI con chiavi di risposta, 3.000+ immagini tematiche e 11 lingue — tutto con licenza commerciale per vendere su qualsiasi piattaforma."
+      "description2": "I nostri generatori creano PDF pronti per la stampa a 300 DPI con chiavi di risposta, migliaia di immagini tematiche e molte lingue — tutto con licenza commerciale per vendere su qualsiasi piattaforma."
     },
     "methodology": {
       "title": "Il nostro approccio",
@@ -1060,7 +1060,7 @@
       },
       "inclusive": {
         "title": "Multilingue e inclusivo",
-        "description": "Tutti i 33 generatori funzionano perfettamente in 11 lingue, con contenuti culturalmente appropriati e una libreria di oltre 3.000 immagini selezionate."
+        "description": "tutti i nostri generatori funzionano perfettamente in molte lingue, con contenuti culturalmente appropriati e una libreria di oltre migliaia di immagini selezionate."
       }
     },
     "audience": {
@@ -1075,7 +1075,7 @@
       },
       "therapists": {
         "title": "Creatori di contenuti ed editori",
-        "description": "Produci contenuti stampabili professionali su larga scala. 33 generatori, 104 temi, 11 lingue — crea centinaia di prodotti unici su un'unica piattaforma."
+        "description": "Produci contenuti stampabili professionali su larga scala. nostri generatori, molti temi, molte lingue — crea centinaia di prodotti unici su un'unica piattaforma."
       }
     },
     "cta": {
@@ -1343,7 +1343,7 @@
     },
     "gate": {
       "signInPromptTitle": "Sign-in required",
-      "signInPromptBody": "Free sign-up needed to access this feature. Takes 30 seconds.",
+      "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
     },
     "addAffordance": {
@@ -1384,7 +1384,7 @@
     },
     "gate": {
       "signInPromptTitle": "Sign-in required",
-      "signInPromptBody": "Free sign-up needed to access this feature. Takes 30 seconds.",
+      "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
     },
     "loading": "Loading…",

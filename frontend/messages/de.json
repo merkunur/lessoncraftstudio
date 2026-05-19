@@ -16,7 +16,7 @@
     "start": "Erste Schritte",
     "blog": "Blog",
     "resourcesDesc": {
-      "tools": "Alle 33 Generatoren online testen",
+      "tools": "Jeder Generator online testen",
       "guides": "Schritt-für-Schritt Verkaufsanleitungen",
       "bundles": "Sparen mit Kategoriepaketen",
       "ideas": "Profitable Nischen-Inspiration",
@@ -231,7 +231,7 @@
       "signIn": "Hier anmelden",
       "orSignUpWith": "Oder registrieren mit",
       "freeAccountInfo": "Starten Sie kostenlos mit dem Wortsuche-Generator",
-      "upgradeAnytime": "Jederzeit erweiterbar auf alle 33 Apps!",
+      "upgradeAnytime": "Jederzeit erweiterbar auf alle unsere Apps!",
       "errors": {
         "allFieldsRequired": "Alle Felder müssen ausgefüllt werden",
         "passwordLength": "Das Passwort muss mindestens 8 Zeichen lang sein",
@@ -274,8 +274,8 @@
   },
   "worksheetSamples": {
     "title": "Arbeitsblätter-Beispielgalerie",
-    "subtitle": "Klicken Sie auf ein Arbeitsblatt für eine größere Vorschau. Dies sind nur einige Beispiele aus unserer Sammlung von 33 professionellen Arbeitsblatt-Generatoren.",
-    "ctaText": "Alle 33 Arbeitsblatt-Generatoren erkunden →",
+    "subtitle": "Klicken Sie auf ein Arbeitsblatt für eine größere Vorschau. Dies sind nur einige Beispiele aus unserer Sammlung professioneller Arbeitsblatt-Generatoren.",
+    "ctaText": "Jeder Arbeitsblatt-Generator erkunden →",
     "alphabetTrain": {
       "title": "Alphabet-Zug",
       "description": "Spaßiges Alphabet-Lernen mit bunten Zugwaggons"
@@ -635,7 +635,7 @@
   },
   "faq": {
     "metaTitle": "Häufig gestellte Fragen - LessonCraftStudio",
-    "metaDescription": "Antworten auf häufige Fragen zu unseren 33 Arbeitsblatt-Generatoren, Preisplänen, Gewerbelizenzen und technischem Support",
+    "metaDescription": "Antworten auf häufige Fragen zu unseren unsere Arbeitsblatt-Generatoren, Preisplänen, Gewerbelizenzen und technischem Support",
     "metaKeywords": "FAQ, Arbeitsblatt-Generatoren Hilfe, Preisfragen, Gewerbelizenz, technischer Support",
     "hero": {
       "title": "Häufig gestellte Fragen",
@@ -745,7 +745,7 @@
         "name": "Vollzugriff",
         "description": "Die Komplettlösung für Profis",
         "features": [
-          "Zugriff auf alle 33+ Arbeitsblattgeneratoren",
+          "Zugriff auf Jeder Arbeitsblattgenerator",
           "Unbegrenzte Arbeitsblattgenerierung",
           "Ohne Wasserzeichen",
           "Hochwertige PDF-Downloads",
@@ -835,25 +835,25 @@
   },
   "about": {
     "metaTitle": "Über LessonCraftStudio | Professionelle Printable-Generatoren für Verkäufer",
-    "metaDescription": "LessonCraftStudio — 33 professionelle Printable-Generatoren für Etsy-Verkäufer, Amazon-KDP-Publisher und Printable-Unternehmer. 11 Sprachen, 3.000+ Bilder, kommerzielle Lizenz inklusive.",
+    "metaDescription": "LessonCraftStudio — professionelle Printable-Generatoren für Etsy-Verkäufer, Amazon-KDP-Publisher und Printable-Unternehmer. vielen Sprachen, tausende Bilder, kommerzielle Lizenz inklusive.",
     "hero": {
       "title": "Über LessonCraftStudio",
       "subtitle": "Professionelle Printable-Generatoren für Etsy-Verkäufer und KDP-Publisher weltweit"
     },
     "stats": {
-      "generators": "33",
+      "generators": "many",
       "generatorsLabel": "Arbeitsblatt-Generatoren",
-      "languages": "11",
+      "languages": "many",
       "languagesLabel": "Sprachen",
-      "images": "3.000+",
+      "images": "thousands",
       "imagesLabel": "Thematische Bilder",
-      "themes": "100+",
+      "themes": "plenty",
       "themesLabel": "Themen"
     },
     "mission": {
       "title": "Unsere Mission",
       "description": "LessonCraftStudio wurde entwickelt, um Etsy-Verkäufern, KDP-Publishern und Printable-Unternehmern zu helfen, professionelle Arbeitsblätter sofort zu erstellen — ohne Designkenntnisse, teure Software oder stundenlange Vorbereitung.",
-      "description2": "Unsere 33 Generatoren erstellen druckfertige PDFs in 300 DPI mit Antwortschlüsseln, 3.000+ thematischen Bildern und 11 Sprachen — alles mit kommerzieller Lizenz zum Verkauf auf jeder Plattform."
+      "description2": "Unsere unsere Generatoren erstellen druckfertige PDFs in 300 DPI mit Antwortschlüsseln, tausenden thematischen Bildern und vielen Sprachen — alles mit kommerzieller Lizenz zum Verkauf auf jeder Plattform."
     },
     "methodology": {
       "title": "Unser Ansatz",
@@ -867,7 +867,7 @@
       },
       "inclusive": {
         "title": "Mehrsprachig & Inklusiv",
-        "description": "Alle 33 Generatoren funktionieren nahtlos in 11 Sprachen, mit kulturell angemessenen Inhalten und einer Bibliothek von über 3.000 handverlesenen Bildern."
+        "description": "Jeder Generator funktionieren nahtlos in vielen Sprachen, mit kulturell angemessenen Inhalten und einer Bibliothek von über tausenden handverlesenen Bildern."
       }
     },
     "audience": {
@@ -882,7 +882,7 @@
       },
       "therapists": {
         "title": "Content-Ersteller & Verleger",
-        "description": "Produzieren Sie professionelle Printable-Inhalte im großen Maßstab. 33 Generatoren, 104 Themen, 11 Sprachen — erstellen Sie Hunderte einzigartiger Produkte auf einer Plattform."
+        "description": "Produzieren Sie professionelle Printable-Inhalte im großen Maßstab. unsere Generatoren, zahlreiche Themen, vielen Sprachen — erstellen Sie Hunderte einzigartiger Produkte auf einer Plattform."
       }
     },
     "cta": {
@@ -981,7 +981,7 @@
     },
     "gate": {
       "signInPromptTitle": "Anmeldung erforderlich",
-      "signInPromptBody": "Eine kostenlose Registrierung ist erforderlich. Dauert 30 Sekunden.",
+      "signInPromptBody": "Eine kostenlose Registrierung ist erforderlich. Dauert einen Moment.",
       "signInCta": "Kostenlos registrieren"
     },
     "addAffordance": {
@@ -1152,7 +1152,7 @@
     },
     "gate": {
       "signInPromptTitle": "Anmeldung erforderlich",
-      "signInPromptBody": "Eine kostenlose Registrierung ist erforderlich. Dauert 30 Sekunden.",
+      "signInPromptBody": "Eine kostenlose Registrierung ist erforderlich. Dauert einen Moment.",
       "signInCta": "Kostenlos registrieren"
     },
     "loading": "Wird geladen…",

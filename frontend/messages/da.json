@@ -15,7 +15,7 @@
     "start": "Kom i gang",
     "blog": "Blog",
     "resourcesDesc": {
-      "tools": "Prøv alle 33 generatorer online",
+      "tools": "Prøv alle vores generatorer online",
       "guides": "Trin-for-trin salgsguider",
       "bundles": "Spar med pakker",
       "ideas": "Inspiration til profitable nicher",
@@ -193,8 +193,8 @@
   },
   "worksheetSamples": {
     "title": "Galleri med arbejdsarkeksempler",
-    "subtitle": "Klik på et arbejdsark for en større forhåndsvisning. Dette er kun nogle eksempler fra vores samling af 33 professionelle arbejdsarkgeneratorer.",
-    "ctaText": "Udforsk alle 33 arbejdsarkgeneratorer →",
+    "subtitle": "Klik på et arbejdsark for en større forhåndsvisning. Dette er kun nogle eksempler fra vores samling af professionelle arbejdsarkgeneratorer.",
+    "ctaText": "Udforsk alle vores arbejdsarkgeneratorer →",
     "alphabetTrain": {
       "title": "Alfabettog",
       "description": "Sjov alfabetlæring med farverige togvogne"
@@ -593,7 +593,7 @@
   },
   "faq": {
     "metaTitle": "Ofte stillede spørgsmål - LessonCraftStudio",
-    "metaDescription": "Svar på almindelige spørgsmål om vores 33 opgavearks-generatorer, prisplaner, kommercielle licenser og teknisk support",
+    "metaDescription": "Svar på almindelige spørgsmål om vores opgavearks-generatorer, prisplaner, kommercielle licenser og teknisk support",
     "metaKeywords": "FAQ, hjælp til opgavearks-generatorer, prisspørgsmål, kommerciel licens, teknisk support",
     "hero": {
       "title": "Ofte stillede spørgsmål",
@@ -700,7 +700,7 @@
       "full": {
         "description": "Den komplette løsning til professionelle",
         "features": [
-          "Alle 33 generatorer",
+          "alle vores generatorer",
           "Ubegrænset antal opgaveark",
           "Uden vandmærke"
         ]
@@ -948,7 +948,7 @@
         "name": "Premium",
         "description": "Den komplette løsning til professionelle",
         "features": [
-          "Adgang til alle 33+ generatorer",
+          "Adgang til alle vores generatorer",
           "Ubegrænset antal opgaveark",
           "Uden vandmærke",
           "PDF-downloads i høj kvalitet",
@@ -1015,25 +1015,25 @@
   },
   "about": {
     "metaTitle": "Om LessonCraftStudio | Professionelle Printable-Generatorer",
-    "metaDescription": "Lær mere om LessonCraftStudio — 33 professionelle printable-generatorer til Etsy-sælgere, Amazon KDP-udgivere og printable-iværksættere. 11 sprog, 3.000+ billeder, kommerciel licens inkluderet.",
+    "metaDescription": "Lær mere om LessonCraftStudio — professionelle printable-generatorer til Etsy-sælgere, Amazon KDP-udgivere og printable-iværksættere. flere sprog, tusindvis af billeder, kommerciel licens inkluderet.",
     "hero": {
       "title": "Om LessonCraftStudio",
       "subtitle": "Professionelle printable-generatorer til Etsy-sælgere, KDP-udgivere og iværksættere"
     },
     "stats": {
-      "generators": "33",
+      "generators": "many",
       "generatorsLabel": "Arbejdsark-generatorer",
-      "languages": "11",
+      "languages": "many",
       "languagesLabel": "Sprog",
-      "images": "3.000+",
+      "images": "thousands",
       "imagesLabel": "Tematiske billeder",
-      "themes": "100+",
+      "themes": "plenty",
       "themesLabel": "Temaer"
     },
     "mission": {
       "title": "Vores mission",
       "description": "LessonCraftStudio blev skabt for at hjælpe Etsy-sælgere, KDP-udgivere og printable-iværksættere med at generere professionelle arbejdsark øjeblikkeligt — uden designkompetencer, dyr software eller timevis forberedelse.",
-      "description2": "Vores 33 generatorer skaber printklare PDF-filer i 300 DPI med svarark, 3.000+ temabilleder og 11 sprog — alt med kommerciel licens til salg på alle platforme."
+      "description2": "Vores generatorer skaber printklare PDF-filer i 300 DPI med svarark, tusindvis af temabilleder og flere sprog — alt med kommerciel licens til salg på alle platforme."
     },
     "methodology": {
       "title": "Vores tilgang",
@@ -1047,7 +1047,7 @@
       },
       "inclusive": {
         "title": "Flersproget & inkluderende",
-        "description": "Alle 33 generatorer fungerer problemfrit på 11 sprog, med kulturelt tilpasset indhold og et bibliotek med over 3.000 håndplukkede billeder."
+        "description": "alle vores generatorer fungerer problemfrit på flere sprog, med kulturelt tilpasset indhold og et bibliotek med en stor samling håndplukkede billeder."
       }
     },
     "audience": {
@@ -1058,7 +1058,7 @@
       },
       "parents": {
         "title": "Personlig brug",
-        "description": "Skab tilpassede arbejdsark til dine børn derhjemme — vælg mellem 100+ temaer og 11 sprog for engagerende læring."
+        "description": "Skab tilpassede arbejdsark til dine børn derhjemme — vælg mellem mange temaer og flere sprog for engagerende læring."
       },
       "therapists": {
         "title": "Indholdsskabere og udgivere",
@@ -1330,7 +1330,7 @@
     },
     "gate": {
       "signInPromptTitle": "Sign-in required",
-      "signInPromptBody": "Free sign-up needed to access this feature. Takes 30 seconds.",
+      "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
     },
     "addAffordance": {
@@ -1371,7 +1371,7 @@
     },
     "gate": {
       "signInPromptTitle": "Sign-in required",
-      "signInPromptBody": "Free sign-up needed to access this feature. Takes 30 seconds.",
+      "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
     },
     "loading": "Loading…",

@@ -15,7 +15,7 @@
     "start": "Comenzar",
     "blog": "Blog",
     "resourcesDesc": {
-      "tools": "Prueba los 33 generadores en línea",
+      "tools": "Prueba todos nuestros generadores en línea",
       "guides": "Guías de venta paso a paso",
       "bundles": "Ahorra con paquetes",
       "ideas": "Inspiración de nichos rentables",
@@ -503,7 +503,7 @@
   },
   "faq": {
     "metaTitle": "Preguntas Frecuentes - LessonCraftStudio",
-    "metaDescription": "Respuestas a las preguntas más comunes sobre nuestros 33 generadores de fichas, planes de precios, licencias comerciales y soporte técnico",
+    "metaDescription": "Respuestas a las preguntas más comunes sobre nuestros generadores de fichas, planes de precios, licencias comerciales y soporte técnico",
     "metaKeywords": "FAQ, ayuda generadores de fichas, preguntas precios, licencia comercial, soporte técnico",
     "hero": {
       "title": "Preguntas Frecuentes",
@@ -613,7 +613,7 @@
         "name": "Acceso Completo",
         "description": "La solución completa para profesionales",
         "features": [
-          "Acceso a todos los 33+ generadores",
+          "Acceso a todos todos nuestros generadores",
           "Fichas ilimitadas",
           "Sin marca de agua",
           "Descargas PDF de alta calidad",
@@ -704,25 +704,25 @@
   },
   "about": {
     "metaTitle": "Sobre LessonCraftStudio | Generadores de Fichas Educativas",
-    "metaDescription": "Conozca LessonCraftStudio — 33 generadores de fichas profesionales en 11 idiomas con más de 3.000 imágenes temáticas para maestros, padres y terapeutas.",
+    "metaDescription": "Conozca LessonCraftStudio — nuestros generadores de fichas profesionales en muchos idiomas con más de miles de imágenes temáticas para maestros, padres y terapeutas.",
     "hero": {
       "title": "Sobre LessonCraftStudio",
       "subtitle": "Apoyando a educadores en todo el mundo con generadores de fichas profesionales"
     },
     "stats": {
-      "generators": "33",
+      "generators": "many",
       "generatorsLabel": "Generadores de fichas",
-      "languages": "11",
+      "languages": "many",
       "languagesLabel": "Idiomas",
-      "images": "3.000+",
+      "images": "thousands",
       "imagesLabel": "Imágenes temáticas",
-      "themes": "100+",
+      "themes": "plenty",
       "themesLabel": "Temas"
     },
     "mission": {
       "title": "Nuestra misión",
       "description": "LessonCraftStudio fue creado para ayudar a vendedores de Etsy, editores KDP y emprendedores de imprimibles a generar fichas profesionales al instante — sin habilidades de diseño, software costoso ni horas de preparación.",
-      "description2": "Nuestros 33 generadores crean PDFs listos para imprimir en 300 DPI con claves de respuesta, 3.000+ imágenes temáticas y 11 idiomas — todo con licencia comercial para vender en cualquier plataforma."
+      "description2": "Nuestros nuestros generadores crean PDFs listos para imprimir en 300 DPI con claves de respuesta, miles de imágenes temáticas y muchos idiomas — todo con licencia comercial para vender en cualquier plataforma."
     },
     "methodology": {
       "title": "Nuestro enfoque",
@@ -736,7 +736,7 @@
       },
       "inclusive": {
         "title": "Multilingüe e inclusivo",
-        "description": "Los 33 generadores funcionan perfectamente en 11 idiomas, con contenido culturalmente apropiado y una biblioteca de más de 3.000 imágenes seleccionadas."
+        "description": "todos nuestros generadores funcionan perfectamente en muchos idiomas, con contenido culturalmente apropiado y una biblioteca de más de miles de imágenes seleccionadas."
       }
     },
     "audience": {
@@ -751,7 +751,7 @@
       },
       "therapists": {
         "title": "Creadores de contenido y editores",
-        "description": "Produzca contenido imprimible profesional a gran escala. 33 generadores, 104 temas, 11 idiomas — cree cientos de productos únicos en una sola plataforma."
+        "description": "Produzca contenido imprimible profesional a gran escala. nuestros generadores, muchos temas, muchos idiomas — cree cientos de productos únicos en una sola plataforma."
       }
     },
     "cta": {
@@ -850,7 +850,7 @@
     },
     "gate": {
       "signInPromptTitle": "Sign-in required",
-      "signInPromptBody": "Free sign-up needed to access this feature. Takes 30 seconds.",
+      "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
     },
     "addAffordance": {
@@ -1021,7 +1021,7 @@
     },
     "gate": {
       "signInPromptTitle": "Sign-in required",
-      "signInPromptBody": "Free sign-up needed to access this feature. Takes 30 seconds.",
+      "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
     },
     "loading": "Cargando…",
@@ -1096,8 +1096,8 @@
   },
   "worksheetSamples": {
     "title": "Galería de ejemplos de hojas de trabajo",
-    "subtitle": "Haz clic en una hoja para ver una vista previa más grande. Estos son solo algunos ejemplos de nuestra colección de 33 generadores profesionales de hojas de trabajo.",
-    "ctaText": "Explorar los 33 generadores de hojas →",
+    "subtitle": "Haz clic en una hoja para ver una vista previa más grande. Estos son solo algunos ejemplos de nuestra colección de generadores profesionales de hojas de trabajo.",
+    "ctaText": "Explorar todos nuestros generadores de hojas →",
     "alphabetTrain": {
       "title": "Tren del alfabeto",
       "description": "Aprendizaje divertido del alfabeto con vagones coloridos"
@@ -1261,7 +1261,7 @@
       "full": {
         "description": "La solución completa para profesionales",
         "features": [
-          "Los 33 generadores",
+          "todos nuestros generadores",
           "Fichas ilimitadas",
           "Sin marca de agua"
         ]

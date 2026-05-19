@@ -15,7 +15,7 @@
     "start": "Aloita",
     "blog": "Blogi",
     "resourcesDesc": {
-      "tools": "Kokeile kaikkia 33 generaattoria verkossa",
+      "tools": "Kokeile kaikkia generaattorejamme verkossa",
       "guides": "Vaihe vaiheelta myyntioppaita",
       "bundles": "Säästä paketeilla",
       "ideas": "Inspiraatiota tuottoisiin nicheihin",
@@ -193,8 +193,8 @@
   },
   "worksheetSamples": {
     "title": "Työarkkiesimerkkien galleria",
-    "subtitle": "Klikkaa työarkkia nähdäksesi suuremman esikatselun. Nämä ovat vain muutamia esimerkkejä 33 ammattimaisesta työarkkigeneraattoristamme.",
-    "ctaText": "Tutustu kaikkiin 33 työarkkigeneraattoriin →",
+    "subtitle": "Klikkaa työarkkia nähdäksesi suuremman esikatselun. Nämä ovat vain muutamia esimerkkejä ammattimaisista työarkkigeneraattoreistammemme.",
+    "ctaText": "Tutustu kaikkiin työarkkigeneraattoreihimme →",
     "alphabetTrain": {
       "title": "Aakkosjuna",
       "description": "Hauska aakkosten oppiminen värikkäillä junavaunuilla"
@@ -593,7 +593,7 @@
   },
   "faq": {
     "metaTitle": "Usein kysytyt kysymykset - LessonCraftStudio",
-    "metaDescription": "Vastauksia yleisiin kysymyksiin 33 tehtäväarkki-generaattoristamme, hinnoista, kaupallisista lisensseistä ja teknisestä tuesta",
+    "metaDescription": "Vastauksia yleisiin kysymyksiin tehtäväarkki-generaattoristamme, hinnoista, kaupallisista lisensseistä ja teknisestä tuesta",
     "metaKeywords": "FAQ, apua tehtäväarkki-generaattoreihin, hintakysymykset, kaupallinen lisenssi, tekninen tuki",
     "hero": {
       "title": "Usein kysytyt kysymykset",
@@ -700,7 +700,7 @@
       "full": {
         "description": "Täysi ratkaisu ammattilaisille",
         "features": [
-          "Kaikki 33 generaattoria",
+          "Kaikki generaattorimme",
           "Rajaton määrä tehtävämonisteja",
           "Ilman vesileimaa"
         ]
@@ -940,7 +940,7 @@
         "name": "Premium",
         "description": "Täysi ratkaisu ammattilaisille",
         "features": [
-          "Pääsy kaikkiin 33+ generaattoriin",
+          "Pääsy kaikkiin generaattoreihin",
           "Rajaton määrä tehtävämonisteja",
           "Ilman vesileimaa",
           "PDF-lataukset korkealaatuisina",
@@ -1007,25 +1007,25 @@
   },
   "about": {
     "metaTitle": "Tietoa LessonCraftStudiosta | Ammattimaiset Printable-Generaattorit",
-    "metaDescription": "Tutustu LessonCraftStudioon — 33 ammattimaista printable-generaattoria Etsy-myyjille, Amazon KDP-julkaisijoille ja printable-yrittäjille. 11 kieltä, 3 000+ kuvaa, kaupallinen lisenssi sisältyy.",
+    "metaDescription": "Tutustu LessonCraftStudioon — ammattimaisia printable-generaattoreita Etsy-myyjille, Amazon KDP-julkaisijoille ja printable-yrittäjille. monilla kielillä, tuhansia kuvia, kaupallinen lisenssi sisältyy.",
     "hero": {
       "title": "Tietoa LessonCraftStudiosta",
       "subtitle": "Ammattimaiset printable-generaattorit Etsy-myyjille, KDP-julkaisijoille ja yrittäjille"
     },
     "stats": {
-      "generators": "33",
+      "generators": "many",
       "generatorsLabel": "Työarkki-generaattoria",
-      "languages": "11",
+      "languages": "many",
       "languagesLabel": "Kieltä",
-      "images": "3 000+",
+      "images": "thousands",
       "imagesLabel": "Teemakuvaa",
-      "themes": "100+",
+      "themes": "plenty",
       "themesLabel": "Teemaa"
     },
     "mission": {
       "title": "Tehtävämme",
       "description": "LessonCraftStudio luotiin auttamaan Etsy-myyjiä, KDP-julkaisijoita ja printable-yrittäjiä luomaan ammattimaisia työarkkeja välittömästi — ilman suunnittelutaitoja, kallista ohjelmistoa tai tuntien valmistelutyötä.",
-      "description2": "33 generaattoriamme luovat tulostusvalmiita PDF-tiedostoja 300 DPI:llä vastausavaimineen, 3 000+ teemakuvaa ja 11 kieltä — kaikki kaupallisella lisenssillä myyntiin kaikilla alustoilla."
+      "description2": "generaattorimme luovat tulostusvalmiita PDF-tiedostoja 300 DPI:llä vastausavaimineen, tuhansia teemakuvia ja monilla kielillä — kaikki kaupallisella lisenssillä myyntiin kaikilla alustoilla."
     },
     "methodology": {
       "title": "Lähestymistapamme",
@@ -1039,7 +1039,7 @@
       },
       "inclusive": {
         "title": "Monikielinen ja inklusiivinen",
-        "description": "Kaikki 33 generaattoria toimivat saumattomasti 11 kielellä, kulttuurisesti sopivalla sisällöllä ja yli 3 000 käsin valitun kuvan kirjastolla."
+        "description": "Kaikki generaattorimme toimivat saumattomasti monilla kielillä, kulttuurisesti sopivalla sisällöllä ja suuren käsin valittujen kuvien kirjastolla."
       }
     },
     "audience": {
@@ -1050,7 +1050,7 @@
       },
       "parents": {
         "title": "Henkilökohtainen käyttö",
-        "description": "Luo räätälöityjä työarkkeja lapsillesi kotona — valitse 100+ teemasta ja 11 kielestä innostavaan oppimiseen."
+        "description": "Luo räätälöityjä työarkkeja lapsillesi kotona — valitse monista teemoista ja monista kielistä innostavaan oppimiseen."
       },
       "therapists": {
         "title": "Sisällöntuottajat ja julkaisijat",
@@ -1322,7 +1322,7 @@
     },
     "gate": {
       "signInPromptTitle": "Sign-in required",
-      "signInPromptBody": "Free sign-up needed to access this feature. Takes 30 seconds.",
+      "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
     },
     "addAffordance": {
@@ -1363,7 +1363,7 @@
     },
     "gate": {
       "signInPromptTitle": "Sign-in required",
-      "signInPromptBody": "Free sign-up needed to access this feature. Takes 30 seconds.",
+      "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
       "signInCta": "Join for free"
     },
     "loading": "Loading…",

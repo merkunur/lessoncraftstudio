@@ -88,6 +88,16 @@
       "closeFeatured": "Schließen",
       "loadingDeck": "Deck wird geladen…"
     },
+    "allExerciseModes": {
+      "sectionTitle": "Alle Übungen, die wir anbieten.",
+      "intro": "29 Arbeitsblatt-Generatoren, rund 80 verschiedene Aktivitäten. Tippe eine an, um sie zu spielen.",
+      "subject": {
+        "math": "Mathe & Zahlen",
+        "letters": "Buchstaben & Wörter",
+        "logic": "Logik & Muster",
+        "spatial-reasoning": "Räumliches Denken"
+      }
+    },
     "languageProof": {
       "sectionTitle": "Was Auto-Übersetzung falsch macht — und was wir richtig machen.",
       "intro": "Die meisten Arbeitsblatt-Sites übersetzen englische Inhalte mit einer generischen Maschine und liefern das Ergebnis aus. Artikel sind falsch. Pluralformen kippen. Akzente fehlen. Kinder lernen die Fehler mit. Wir behandeln jede unserer 11 Sprachen als eigenständigen Katalog — keine Übersetzung des Englischen — mit Wortschatz, der von Menschen kuratiert wird, die tatsächlich in dieser Sprache unterrichten.",

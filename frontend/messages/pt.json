@@ -87,6 +87,16 @@
       "closeFeatured": "Fechar",
       "loadingDeck": "Carregando deck…"
     },
+    "allExerciseModes": {
+      "sectionTitle": "Todos os exercícios que oferecemos.",
+      "intro": "29 geradores de atividades, cerca de 80 atividades distintas. Toque em qualquer uma para jogar.",
+      "subject": {
+        "math": "Matemática e números",
+        "letters": "Letras e palavras",
+        "logic": "Lógica e padrões",
+        "spatial-reasoning": "Raciocínio espacial"
+      }
+    },
     "languageProof": {
       "sectionTitle": "O que a tradução automática erra — e o que fazemos certo.",
       "intro": "A maioria dos sites de fichas traduz conteúdo em inglês com um motor genérico e publica o resultado. Os artigos saem errados. Os plurais se achatam. Os acentos somem. As crianças aprendem os erros. Tratamos cada um dos nossos 11 idiomas como um catálogo próprio — não como uma tradução do inglês — com vocabulário curado por pessoas que realmente ensinam naquele idioma.",

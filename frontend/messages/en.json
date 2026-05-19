@@ -88,6 +88,16 @@
       "closeFeatured": "Close",
       "loadingDeck": "Loading deck…"
     },
+    "allExerciseModes": {
+      "sectionTitle": "Every exercise we offer.",
+      "intro": "29 worksheet creators, around 80 distinct activities. Tap any one to play it.",
+      "subject": {
+        "math": "Math & Numbers",
+        "letters": "Letters & Words",
+        "logic": "Logic & Patterns",
+        "spatial-reasoning": "Spatial Reasoning"
+      }
+    },
     "languageProof": {
       "sectionTitle": "What auto-translation gets wrong, and what we get right.",
       "intro": "Most worksheet sites translate English content with a generic engine and ship the result. Articles end up wrong. Plurals collapse. Accents go missing. Children learn the mistakes. We treat each of our 11 languages as its own catalog — not a translation of English — with vocabulary curated by people who actually teach in that language.",

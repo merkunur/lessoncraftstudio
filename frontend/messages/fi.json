@@ -87,6 +87,16 @@
       "closeFeatured": "Sulje",
       "loadingDeck": "Ladataan korttipakkaa…"
     },
+    "allExerciseModes": {
+      "sectionTitle": "Kaikki tarjoamamme harjoitukset.",
+      "intro": "29 tehtäväpohjan luojaa, noin 80 erilaista harjoitusta. Napauta yhtä pelataksesi sitä.",
+      "subject": {
+        "math": "Matematiikka ja luvut",
+        "letters": "Kirjaimet ja sanat",
+        "logic": "Logiikka ja kuviot",
+        "spatial-reasoning": "Avaruudellinen päättely"
+      }
+    },
     "languageProof": {
       "sectionTitle": "Mitä konekäännös tekee väärin — ja mitä me teemme oikein.",
       "intro": "Useimmat tehtäväsivustot kääntävät englanninkielisen sisällön yleiskäyttöisellä koneella ja julkaisevat tuloksen. Artikkelit menevät väärin. Monikkomuodot lyttääntyvät. Aksenttimerkit katoavat. Lapset oppivat virheet. Käsittelemme jokaista 11 kielestämme omana katalogina — emme englanninkielisen käännöksenä — sanastolla, jonka ovat kuratoineet ihmiset, jotka todella opettavat sillä kielellä.",

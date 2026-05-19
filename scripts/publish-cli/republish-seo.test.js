@@ -283,13 +283,13 @@ test('Class A.1: marker pair preserved (count = 2)', function () {
   assert.strictEqual(endCount, 1);
 });
 
-test('Class A.1: 14 OG/Twitter tags present', function () {
+test('Class A.1: 17 OG/Twitter tags present (12 og + 5 twitter post SEO-thumbnail commission)', function () {
   var d = setupClassA1Deck();
   var c = republishMod.classifyDeck({ deckHtml: d.deckHtml, locale: 'en', slug: 'addition-animals' });
   var result = republishMod.computeNewHtml(c);
   var ogCount = (result.newHtml.match(/<meta property="og:[^"]+"/g) || []).length;
   var twCount = (result.newHtml.match(/<meta name="twitter:[^"]+"/g) || []).length;
-  assert.strictEqual(ogCount + twCount, 14);
+  assert.strictEqual(ogCount + twCount, 17);
 });
 
 test('Class A.1: celebration h1 → h2', function () {
@@ -342,13 +342,13 @@ test('Class B: SEO block injected BEFORE </head>', function () {
   assert.ok(endIdx < headEndIdx, 'SEO block end (' + endIdx + ') before </head> (' + headEndIdx + ')');
 });
 
-test('Class B: 14 OG/Twitter tags present (was 0 before)', function () {
+test('Class B: 17 OG/Twitter tags present (was 0 before; 12 og + 5 twitter post SEO-thumbnail)', function () {
   var d = setupClassBDeck();
   var c = republishMod.classifyDeck({ deckHtml: d.deckHtml, locale: 'en', slug: 'subtraction' });
   var result = republishMod.computeNewHtml(c);
   var ogCount = (result.newHtml.match(/<meta property="og:[^"]+"/g) || []).length;
   var twCount = (result.newHtml.match(/<meta name="twitter:[^"]+"/g) || []).length;
-  assert.strictEqual(ogCount + twCount, 14);
+  assert.strictEqual(ogCount + twCount, 17);
 });
 
 test('Class B: celebration h1 → h2', function () {

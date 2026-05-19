@@ -372,6 +372,65 @@ function apply(opts) {
   var datePublished = (manifest && manifest.generated_at) ? String(manifest.generated_at) : '';
   note('__DATE_PUBLISHED__', 'from manifest.generated_at', datePublished, !datePublished);
 
+  // 39. __THUMBNAIL_URL__ — canonical-relative thumbnail.png URL per §15.14.
+  // The raw 480×620 worksheet thumbnail (distinct from og-image.png composite).
+  // Drives Schema.org LearningResource.thumbnailUrl for Google search thumbnail
+  // surfacing. Added 2026-05-19 SEO-thumbnail commission.
+  var thumbnailUrl = canonicalURL + 'thumbnail.png';
+  note('__THUMBNAIL_URL__', 'computed from canonical', thumbnailUrl, false);
+
+  // 40. __AGE_RANGE__ — raw manifest.age_range value (e.g. "3-5", "5-7", "6-8").
+  // Drives Schema.org typicalAgeRange. Direct passthrough; no localization
+  // (Schema.org expects iso-style range; not a localized string).
+  var ageRangeRaw = ageRange || '';
+  note('__AGE_RANGE__', 'from metadata.age_range', ageRangeRaw, !ageRangeRaw);
+
+  // 41. __SEO_KEYWORDS__ — comma-joined localized keywords driving Schema.org
+  // LearningResource.keywords. Composition: exercise-type name, theme name (if
+  // set), educational-level name, plus worksheet + interactive + free localized
+  // via i18n. Deduped case-insensitively + capped at 6 entries to avoid keyword
+  // stuffing penalty.
+  var keywordsArr = [];
+  function pushKw(s) {
+    if (!s) return;
+    var v = String(s).trim();
+    if (!v) return;
+    for (var ki = 0; ki < keywordsArr.length; ki++) {
+      if (keywordsArr[ki].toLowerCase() === v.toLowerCase()) return;
+    }
+    keywordsArr.push(v);
+  }
+  try {
+    var typeAxis = taxonomy.exerciseTypeFor(manifest.generator && manifest.generator.app, locale);
+    if (typeAxis && typeAxis.name) pushKw(typeAxis.name);
+  } catch (e) { /* swallow; absence is acceptable for keywords */ }
+  if (manifest.theme) {
+    try {
+      var thAxis = taxonomy.themeFor(manifest.theme, locale);
+      if (thAxis && thAxis.name) pushKw(thAxis.name);
+    } catch (e) { /* swallow */ }
+  }
+  if (ageRange) {
+    try {
+      var lvAxis = taxonomy.levelFor(ageRange, locale);
+      if (lvAxis && lvAxis.name) pushKw(lvAxis.name);
+    } catch (e) { /* swallow */ }
+  }
+  // Localized generic terms via i18n (worksheet / interactive / free).
+  // Fallback: keep English term when locale doesn't define the key.
+  var rWorksheet = i18n.resolve(locale, 'worksheet', 'Worksheet');
+  if (rWorksheet && rWorksheet.value) pushKw(rWorksheet.value);
+  var rInteractive = i18n.resolve(locale, 'seoInteractive', 'interactive');
+  if (rInteractive && rInteractive.value) pushKw(rInteractive.value);
+  var rFree = i18n.resolve(locale, 'seoFree', 'free');
+  if (rFree && rFree.value) pushKw(rFree.value);
+  if (keywordsArr.length > 6) keywordsArr = keywordsArr.slice(0, 6);
+  // JSON-safe escape: placeholder lives inside JSON-LD string-quoted value,
+  // so substituted value must be JSON-escape-safe.
+  var keywordsJoined = keywordsArr.join(', ');
+  var seoKeywords = JSON.stringify(keywordsJoined).slice(1, -1);
+  note('__SEO_KEYWORDS__', 'composed from taxonomy + i18n', keywordsJoined, !keywordsJoined);
+
   // Apply OG substitutions (idempotent allowlist iteration per §15.13 dry-run-vs-real
   // parity guarantee). Forward-compatible: no-ops until catalog-export.js emits.
   html = html
@@ -380,7 +439,10 @@ function apply(opts) {
     .replace(/__OG_IMAGE__/g, ogImage)
     .replace(/__OG_LOCALE__/g, ogLocale)
     .replace(/__OG_IMAGE_ALT__/g, ogImageAlt)
-    .replace(/__DATE_PUBLISHED__/g, datePublished);
+    .replace(/__DATE_PUBLISHED__/g, datePublished)
+    .replace(/__THUMBNAIL_URL__/g, thumbnailUrl)
+    .replace(/__AGE_RANGE__/g, ageRangeRaw)
+    .replace(/__SEO_KEYWORDS__/g, seoKeywords);
 
   return {
     html: html,

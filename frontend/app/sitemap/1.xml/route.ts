@@ -102,4 +102,5 @@ export async function GET() {
   }
 }
 
-export { buildShard };
+// Internal helper buildShard intentionally not exported per Next.js route
+// export constraints. See app/sitemap/0.xml/route.ts for the rationale.

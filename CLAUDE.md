@@ -1,6 +1,6 @@
 # CLAUDE.md — LessonCraftStudio Interactive Worksheets Platform
 
-**Version:** 3.2 (post SEO-100pct commission) **Last updated:** 2026-05-19
+**Version:** 3.3 (post SEO-thumbnail commission) **Last updated:** 2026-05-19
 
 ---
 
@@ -770,7 +770,15 @@ Per-deck staging set (`manifest.json` + post-substitution `deck.html` + `deck.ht
 **Within-batch collision-pair inspection-before-confirm.** Default to surfacing inspection report before `--confirm` rather than auto-suffix. Tiebreak: drop LATER-generated ZIP (earlier-roll-wins). Track C 443→440-deck en wave 2026-05-05: 3 pairs dropped; final 440 decks with no `-2` slugs.
 
 ### 15.14 Asset placement / OG image / pruning
-Layout: `/var/www/lcs-media/decks/<locale>/<slug>-v<N>/{deck.html, printable.pdf, answer-key.pdf, thumbnail.png, og-image.png}` + symlink. Ownership: `lcs-media:lcs-media` 755/644; locale-dir auto-chown via `ensureLocaleDir` (`9a30f049`). OG image: 1200×630 Sharp-composite (480×620 thumbnail centered on white, `channels:3` flattens alpha). Pruning: KEEP_VERSIONS=3 moves aged-out dirs to `.archived/`.
+Layout: `/var/www/lcs-media/decks/<locale>/<slug>-v<N>/{deck.html, printable.pdf, answer-key.pdf, thumbnail.png, og-image.png}` + symlink. Ownership: `lcs-media:lcs-media` 755/644; locale-dir auto-chown via `ensureLocaleDir` (`9a30f049`). Pruning: KEEP_VERSIONS=3 moves aged-out dirs to `.archived/`.
+
+**OG image (post SEO-thumbnail commission 2026-05-19):** 1200×630 Sharp-composite, two-column layout:
+- Left 487×630: scaled thumbnail.png (fit:cover; preserves source 480×620 aspect)
+- Right 713×630: cream `#FEFAF3` + deck title (DejaVu Sans Bold 48px, wrapped) + theme/level subhead + brand wordmark
+- XMP packet embedded via Sharp `.withXmp(string)` — dc:title/description/creator/rights/subject + xmpRights:Marked. ~1KB packet.
+- `channels:3` RGB no-alpha; transparent regions composite onto cream background.
+
+Legacy centered-on-white layout retained at `og-image.js: deriveLegacy()` for backwards-compat callers (operator-side app gen without title context). See §17.8.19 for full image-SEO signal stack.
 
 ### 15.15 publish-bulk per-locale isolation
 `publish-bulk` has NO `--language` flag. SCHEMAS declares `--dry-run`, `--confirm`, `--updates-manifest`, `--batch-id`, `--staging-dir`. Per-locale isolation enforced at folder-content layer (`bulk.js` reads via `fs.readdirSync` non-recursive, filters `.zip`; dot-prefixed subdirs naturally skipped).
@@ -1334,6 +1342,30 @@ deck.html `<head>` SEO uses paired `<!-- SEO_INSERTION_POINT_START -->` + `<!-- 
 
 Origin: Phase 2 doctrine (`ac9109c7`).
 
+#### 17.8.19 Image SEO signal stack (multi-signal for Google thumbnails)
+
+Per SEO-thumbnail commission (2026-05-19), every deck page exposes a redundant 5-channel image signal stack so Google can confidently render the thumbnail in search results:
+
+1. **HTML `<head>` meta tags** — emitted by `buildSeoHead` (mirror sources: `scripts/publish-cli/build-seo-head.js` + `REFERENCE TRANSLATIONS/catalog-export.js`):
+   - `<meta property="og:image">` + `:width`/`:height`/`:alt`/`:secure_url`/`:type`
+   - `<meta name="twitter:image">` + `:image:alt`
+   - `<link rel="image_src">`
+   - `<meta name="robots" content="max-image-preview:large">` (global at `frontend/app/layout.tsx`)
+
+2. **Schema.org JSON-LD** — `LearningResource` with full `ImageObject` (`url`, `contentUrl`, `width:1200`, `height:630`, `caption`) + separate `thumbnailUrl` field pointing at `thumbnail.png` + `keywords` (comma-joined localized: exercise-type/theme/level + worksheet/interactive/free) + `typicalAgeRange` + `publisher`.
+
+3. **XML sitemap `<image:image>` entries** — emitted by custom routes at `frontend/app/sitemap/0.xml/route.ts` + `1.xml/route.ts`. Two image entries per deck (og-image.png + thumbnail.png) inline with `xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"`. `image:title` from `Deck.title` JSON; `image:caption` from `Deck.description`. **Next.js 14.2.18's `MetadataRoute.Sitemap` does NOT support image entries** — hence the custom routes; sitemap.ts's `generateSitemaps()` returns `[{id:2},{id:3}]` only to cede `/sitemap/0.xml` + `/sitemap/1.xml` to the static custom routes.
+
+4. **Embedded XMP packet in og-image.png** — `scripts/publish-cli/og-image-xmp.js: buildXmpPacket` builds dc:title + dc:description + dc:creator + dc:rights + dc:subject (Bag) + xmpRights:Marked. Embedded via Sharp's `withXmp(string)` (Sharp 0.34.5 API; accepts string only, not Buffer). Adds ~1KB per og-image.
+
+5. **Visual og-image two-column composite** — `scripts/publish-cli/og-image.js: derive(thumbnailBuffer, opts)` extended with `opts.title`/`themeName`/`levelName`/`locale`/`xmpPacket`. Left column 487×630 = scaled thumbnail (fit:cover); right column 713×630 = cream `#FEFAF3` + deck title (DejaVu Sans Bold 48px, wrapped to 3 lines max) + theme/level subhead (28px brand-blue) + LessonCraftStudio wordmark (28px). SVG-text rendered via `scripts/publish-cli/og-image-text.js: buildRightColumnSvg` (librsvg-compatible; manual char-width word-wrap since librsvg lacks `<foreignObject>` support).
+
+**Retrofit script:** `scripts/publish-cli/regenerate-og-images.js` walks all decks under `--locales`, reads thumbnail.png + manifest + post-republish-seo deck.html, derives og-image with two-column + XMP, writes atomically. ~100ms/deck on Hetzner; 9296 decks regenerated in 15min at SEO-thumbnail commission close.
+
+**Forward path:** new publishes via originating apps' `LCSCatalogExport.export()` use the same buildSeoHead emission; og-image generation at the operator-side authoring path retains the legacy `deriveLegacy` centered-on-white layout (no title context available at that gen-time). Hetzner publish-cli + retrofit calls take the two-column path. To upgrade operator-side gen, pass title context into `catalog-export.js`'s og-image derive call.
+
+**For future image SEO work:** invoke `regenerate-og-images.js`; do NOT re-author Sharp pipeline. SVG-text rendering depends on system fonts (Hetzner has DejaVu Sans); changing font requires verifying with `fc-list` first.
+
 #### 17.8.18 Canonical hash algorithm for titleHash + descriptionHash
 
 **SHA-1 normalized** is the canonical hash function for `Deck.titleHash` + `Deck.descriptionHash` per §17.8.17 invariants 1+2. Computed via `scripts/publish-cli/seo-reconciliation.js: hashTitleOrDescription(s)`:
@@ -1364,7 +1396,12 @@ Section deleted per operator commission (commit `920aebbc` "[REMOVE][SCHEMA] DRO
 
 ### 17.10 I18n hygiene + sitemap-shard infrastructure
 
-**17.10.1 4-shard sitemap-index hash-partitioning.** 4 shards: 0/1 = published deck URLs by `Deck.id` last-char ASCII parity (50/50); 2 = 2-axis intersections; 3 = single-axis topic pages + locale-root + meta. Keeps each under Google's 50K limit. Cross-locale through same 4 shards. Master auto-generated via `generateSitemaps`. Origin: `e5bb3cb4` + `85f090a3` Arc 6c.
+**17.10.1 4-shard sitemap-index hash-partitioning.** 4 shards: 0/1 = published deck URLs by `Deck.id` last-char ASCII parity (50/50); 2 = 2-axis intersections; 3 = single-axis topic pages + locale-root + meta. Keeps each under Google's 50K limit. Cross-locale through same 4 shards. Origin: `e5bb3cb4` + `85f090a3` Arc 6c.
+
+**Shard routing (post SEO-thumbnail commission 2026-05-19):**
+- Shards 0 + 1 served by **custom routes** at `frontend/app/sitemap/0.xml/route.ts` + `1.xml/route.ts`. Emit `xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"` with per-URL `<image:image>` entries (og-image.png + thumbnail.png; title + caption from `Deck.title`/`description`). Next.js 14.2.18's `MetadataRoute.Sitemap` type doesn't support image fields, hence the bypass.
+- Shards 2 + 3 served by Next.js sitemap convention via `frontend/app/sitemap.ts: generateSitemaps()` which returns only `[{id:2},{id:3}]` (omitting 0 + 1 cedes those URLs to the custom routes).
+- Index at `frontend/app/sitemap.xml/route.ts` hard-codes `[0,1,2,3]` so all four shards remain listed regardless of `generateSitemaps()` return shape.
 
 **17.10.2 Reuse-existing-i18n-key when strings identical.** Identical (key, locale) values reuse single shared key. Origin: `15444fe8` Arc 6a.
 
@@ -1998,5 +2035,17 @@ node scripts/publish-cli/audit-deck-html.js --locales=en,es,pt --baseline=<lates
 Wall-clock at 9,191-deck catalog: baseline 0.6s + per-deck audit 20s. Requires `--max-old-space-size=16384` for full-catalog audit on Node 18.
 
 **Future SEO audits:** invoke these scripts; extend `runChecksForDeck` for new invariant classes; do NOT re-author DB-querying or FS-walking logic.
+
+### A.14.10 Image-SEO retrofit infrastructure (SEO-thumbnail commission, 2026-05-19)
+
+Added beyond the §A.14.9 audit pair:
+
+1. **`og-image-text.js`** — SVG-text builder for og-image right column. DejaVu Sans on Hetzner; manual char-width word-wrap (librsvg lacks `<foreignObject>`).
+2. **`og-image-xmp.js`** — XMP packet builder. dc:title/description/creator/rights/subject + xmpRights:Marked; Sharp `.withXmp(string)` API.
+3. **`regenerate-og-images.js`** — walks all `/var/www/lcs-media/decks/<locale>/<slug>/`, regenerates og-image.png with two-column composite + XMP embed. ~100ms/deck on Hetzner; 9296 decks in ~15min at commission close.
+
+Custom sitemap routes at `frontend/app/sitemap/0.xml/route.ts` + `1.xml/route.ts` emit `<image:image>` entries inline per Google's image sitemap protocol (Next.js MetadataRoute.Sitemap doesn't support image fields).
+
+For future image-SEO work: extend `og-image-text.js` SVG builder or `og-image-xmp.js` field set; re-run `regenerate-og-images.js`. Do NOT touch Sharp pipeline directly.
 
 *End of CLAUDE.md.*

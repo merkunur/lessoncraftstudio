@@ -92,77 +92,59 @@ async function runChecksForDeck(dbDeck, htmlText, manifestObj, ctx) {
   var defects = [];
 
   // ===== Check 1: title uniqueness =====
-  // The DB has TWO coexisting hash algorithms (legacy data-integrity defect):
-  //   SHA-256 raw (predicate canonical, length 64)
-  //   SHA-1 normalized (Phase 4a republish-seo, length 40)
-  // We compute both, accept either as a match, and flag any deck whose DB
-  // hash is SHA-1 as needing standardization (HASH_ALGORITHM_LEGACY).
+  // Canonical hash algorithm: SHA-1 normalized (40-char hex). Standardized at
+  // SEO-100pct commission close per scripts/publish-cli/seo-reconciliation.js
+  // hashTitleOrDescription. Pre-standardization SHA-256 (64-char) hashes flag
+  // as TITLE_HASH_ALGORITHM_STALE (needs re-hash via republish-seo).
   var titleTagMatch = /<title>([\s\S]*?)<\/title>/i.exec(htmlText);
   var renderedTitle = titleTagMatch ? titleTagMatch[1].trim() : '';
-  var renderedTitleSha256 = renderedTitle ? sha256(renderedTitle) : null;
-  var renderedTitleSha1Norm = renderedTitle ? sha1Normalized(renderedTitle) : null;
+  var canonicalTitleHash = renderedTitle ? sha1Normalized(renderedTitle) : null;
   if (!dbDeck.titleHash) {
-    checks.titleUniqueness = { pass: false, category: 'TITLE_HASH_NULL', renderedTitle: renderedTitle.slice(0, 120), renderedTitleSha256: renderedTitleSha256 };
+    checks.titleUniqueness = { pass: false, category: 'TITLE_HASH_NULL', renderedTitle: renderedTitle.slice(0, 120), canonicalHash: canonicalTitleHash };
     defects.push('TITLE_HASH_NULL');
+  } else if (dbDeck.titleHash.length === 64) {
+    // SHA-256 stale — needs re-hash to canonical SHA-1 normalized.
+    checks.titleUniqueness = { pass: false, category: 'TITLE_HASH_ALGORITHM_STALE', renderedTitle: renderedTitle.slice(0, 120), dbHash: dbDeck.titleHash, canonicalHash: canonicalTitleHash };
+    defects.push('TITLE_HASH_ALGORITHM_STALE');
+  } else if (dbDeck.titleHash !== canonicalTitleHash) {
+    checks.titleUniqueness = { pass: false, category: 'TITLE_HASH_MISMATCH', renderedTitle: renderedTitle.slice(0, 120), dbHash: dbDeck.titleHash, canonicalHash: canonicalTitleHash };
+    defects.push('TITLE_HASH_MISMATCH');
   } else {
-    var dbHashLen = dbDeck.titleHash.length;
-    var matchSha256 = dbDeck.titleHash === renderedTitleSha256;
-    var matchSha1 = dbDeck.titleHash === renderedTitleSha1Norm;
-    if (!matchSha256 && !matchSha1) {
-      checks.titleUniqueness = { pass: false, category: 'TITLE_HASH_MISMATCH', renderedTitle: renderedTitle.slice(0, 120), dbHash: dbDeck.titleHash, renderedSha256: renderedTitleSha256, renderedSha1Norm: renderedTitleSha1Norm };
-      defects.push('TITLE_HASH_MISMATCH');
+    var collisionSet = ctx.titleHashSetByLocale[dbDeck.language] || new Map();
+    var prior = collisionSet.get(dbDeck.titleHash);
+    if (prior && prior !== dbDeck.id) {
+      checks.titleUniqueness = { pass: false, category: 'TITLE_HASH_COLLIDES_WITH', collidesWith: prior };
+      defects.push('TITLE_NON_UNIQUE');
     } else {
-      // Collision detection within the same locale.
-      var collisionSet = ctx.titleHashSetByLocale[dbDeck.language] || new Map();
-      var prior = collisionSet.get(dbDeck.titleHash);
-      if (prior && prior !== dbDeck.id) {
-        checks.titleUniqueness = { pass: false, category: 'TITLE_HASH_COLLIDES_WITH', collidesWith: prior };
-        defects.push('TITLE_NON_UNIQUE');
-      } else {
-        collisionSet.set(dbDeck.titleHash, dbDeck.id);
-        ctx.titleHashSetByLocale[dbDeck.language] = collisionSet;
-        // Track algorithm legacy class.
-        if (dbHashLen === 40) {
-          checks.titleUniqueness = { pass: true, algorithm: 'sha1-normalized', flag: 'LEGACY' };
-          defects.push('HASH_ALGORITHM_LEGACY_TITLE');
-        } else {
-          checks.titleUniqueness = { pass: true, algorithm: 'sha256' };
-        }
-      }
+      collisionSet.set(dbDeck.titleHash, dbDeck.id);
+      ctx.titleHashSetByLocale[dbDeck.language] = collisionSet;
+      checks.titleUniqueness = { pass: true, algorithm: 'sha1-normalized' };
     }
   }
 
   // ===== Check 2: description uniqueness =====
   var descMatch = /<meta\s+name="description"\s+content="([^"]*)"/i.exec(htmlText);
   var renderedDesc = descMatch ? descMatch[1] : '';
-  var renderedDescSha256 = renderedDesc ? sha256(renderedDesc) : null;
-  var renderedDescSha1Norm = renderedDesc ? sha1Normalized(renderedDesc) : null;
+  var canonicalDescHash = renderedDesc ? sha1Normalized(renderedDesc) : null;
   if (!dbDeck.descriptionHash) {
     checks.descriptionUniqueness = { pass: false, category: 'DESCRIPTION_HASH_NULL', renderedDesc: renderedDesc.slice(0, 120) };
     defects.push('DESCRIPTION_HASH_NULL');
+  } else if (dbDeck.descriptionHash.length === 64) {
+    checks.descriptionUniqueness = { pass: false, category: 'DESCRIPTION_HASH_ALGORITHM_STALE', dbHash: dbDeck.descriptionHash, canonicalHash: canonicalDescHash };
+    defects.push('DESCRIPTION_HASH_ALGORITHM_STALE');
+  } else if (dbDeck.descriptionHash !== canonicalDescHash) {
+    checks.descriptionUniqueness = { pass: false, category: 'DESCRIPTION_HASH_MISMATCH', dbHash: dbDeck.descriptionHash, canonicalHash: canonicalDescHash };
+    defects.push('DESCRIPTION_HASH_MISMATCH');
   } else {
-    var dbDescLen = dbDeck.descriptionHash.length;
-    var descMatchSha256 = dbDeck.descriptionHash === renderedDescSha256;
-    var descMatchSha1 = dbDeck.descriptionHash === renderedDescSha1Norm;
-    if (!descMatchSha256 && !descMatchSha1) {
-      checks.descriptionUniqueness = { pass: false, category: 'DESCRIPTION_HASH_MISMATCH', dbHash: dbDeck.descriptionHash, renderedSha256: renderedDescSha256, renderedSha1Norm: renderedDescSha1Norm };
-      defects.push('DESCRIPTION_HASH_MISMATCH');
+    var descSet = ctx.descriptionHashSetByLocale[dbDeck.language] || new Map();
+    var priorDesc = descSet.get(dbDeck.descriptionHash);
+    if (priorDesc && priorDesc !== dbDeck.id) {
+      checks.descriptionUniqueness = { pass: false, category: 'DESCRIPTION_HASH_COLLIDES_WITH', collidesWith: priorDesc };
+      defects.push('DESCRIPTION_NON_UNIQUE');
     } else {
-      var descSet = ctx.descriptionHashSetByLocale[dbDeck.language] || new Map();
-      var priorDesc = descSet.get(dbDeck.descriptionHash);
-      if (priorDesc && priorDesc !== dbDeck.id) {
-        checks.descriptionUniqueness = { pass: false, category: 'DESCRIPTION_HASH_COLLIDES_WITH', collidesWith: priorDesc };
-        defects.push('DESCRIPTION_NON_UNIQUE');
-      } else {
-        descSet.set(dbDeck.descriptionHash, dbDeck.id);
-        ctx.descriptionHashSetByLocale[dbDeck.language] = descSet;
-        if (dbDescLen === 40) {
-          checks.descriptionUniqueness = { pass: true, algorithm: 'sha1-normalized', flag: 'LEGACY' };
-          defects.push('HASH_ALGORITHM_LEGACY_DESC');
-        } else {
-          checks.descriptionUniqueness = { pass: true, algorithm: 'sha256' };
-        }
-      }
+      descSet.set(dbDeck.descriptionHash, dbDeck.id);
+      ctx.descriptionHashSetByLocale[dbDeck.language] = descSet;
+      checks.descriptionUniqueness = { pass: true, algorithm: 'sha1-normalized' };
     }
   }
 

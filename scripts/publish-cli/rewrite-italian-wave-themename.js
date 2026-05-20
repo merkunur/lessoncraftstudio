@@ -62,6 +62,22 @@ function correctItNameFromTheme(themeKey) {
 }
 
 // ============================================================
+// IT SEO word lexicon — values sourced from translations-shared.js
+// (REFERENCE TRANSLATIONS/translations-shared.js, "it" block lines 329-332).
+// Fallback English baked when per-app _ct() helper found neither
+// CODE_ADDITION_TRANSLATIONS.it.<key> nor translations.it.<key> (translations
+// global was undefined — translations-code-addition.js line 2234 referenced
+// undeclared `translations`; fixed at commit follow-on to 41da4ce2).
+// ============================================================
+
+var IT_SEO_WORDS = [
+  { field: 'worksheetWord',   en: 'Worksheet',             it: 'Scheda',                      seoTraceKey: 'worksheetWord',  fallbackSource: 'fallback.en.worksheet',             cleanSource: 'shared-translations.it.worksheet' },
+  { field: 'freeInteractive', en: 'Free interactive',      it: 'Scheda interattiva gratuita', seoTraceKey: 'freeInteractive',fallbackSource: 'fallback.en.seoFreeInteractive',    cleanSource: 'shared-translations.it.seoFreeInteractive' },
+  { field: 'forWord',         en: 'for',                   it: 'per',                         seoTraceKey: 'forWord',        fallbackSource: 'fallback.en.seoFor',                cleanSource: 'shared-translations.it.seoFor' },
+  { field: 'printOrPlay',     en: 'Print or play online',  it: 'Stampa o gioca online',       seoTraceKey: 'printOrPlay',    fallbackSource: 'fallback.en.seoPrintOrPlayOnline',  cleanSource: 'shared-translations.it.seoPrintOrPlayOnline' }
+];
+
+// ============================================================
 // ZIP discovery
 // ============================================================
 
@@ -145,7 +161,25 @@ function classifyZip(entry) {
     });
   }
 
-  if (currentBaked === correctIt) {
+  // Detect English SEO word residue (separate defect class — IT decks where _ct()
+  // fell through to enFallback because window.translations was undefined).
+  // Inspect manifest.seo_trace for any of the 4 SEO words flagged isLocalized=false.
+  var hasSeoWordResidue = false;
+  if (manifest.seo_trace) {
+    ['title', 'description'].forEach(function (segment) {
+      var node = manifest.seo_trace[segment];
+      if (!node) return;
+      IT_SEO_WORDS.forEach(function (w) {
+        var field = node[w.seoTraceKey];
+        if (field && field.value === w.en && field.isLocalized === false) {
+          hasSeoWordResidue = true;
+        }
+      });
+    });
+  }
+
+  var themeClean = (currentBaked === correctIt);
+  if (themeClean && !hasSeoWordResidue) {
     return Object.assign({}, entry, { classification: 'skip-clean', manifest: manifest, html: htmlBuf, zip: zip, themeKey: themeKey });
   }
 
@@ -156,7 +190,9 @@ function classifyZip(entry) {
     zip: zip,
     themeKey: themeKey,
     currentBaked: currentBaked,
-    correctIt: correctIt
+    correctIt: correctIt,
+    rewriteTheme: !themeClean,
+    rewriteSeoWords: hasSeoWordResidue
   });
 }
 
@@ -171,25 +207,64 @@ function countOccurrences(s, needle) {
   return c;
 }
 
-function patchHtml(html, currentBaked, correctIt) {
-  var pairs = [
-    // Title segment + JSON-LD name + og:title + twitter:title bound by em-dashes
-    { from: ' — ' + currentBaked + ' — ',           to: ' — ' + correctIt + ' — ' },
-    // Meta description + JSON-LD description parenthetical
-    { from: '(' + currentBaked + ')',               to: '(' + correctIt + ')' },
-    // seoMeta JSON in DECK_BUNDLE + seoTrace fields
-    { from: '"themeName":"' + currentBaked + '"',   to: '"themeName":"' + correctIt + '"' },
-    // seoTrace.title.themeName.value (sometimes embedded inside larger object)
-    { from: '"value":"' + currentBaked + '"',       to: '"value":"' + correctIt + '"' },
-    // og:image alt attribute defensive — content="<themeName>"
-    { from: 'content="' + currentBaked + '"',       to: 'content="' + correctIt + '"' }
-  ];
+function patchHtml(html, currentBaked, correctIt, alsoSeoWords) {
+  var pairs = [];
+
+  // Theme-name pass — skip when themeClean (currentBaked === correctIt)
+  if (currentBaked && correctIt && currentBaked !== correctIt) {
+    pairs.push(
+      // Title segment + JSON-LD name + og:title + twitter:title bound by em-dashes
+      { from: ' — ' + currentBaked + ' — ',           to: ' — ' + correctIt + ' — ' },
+      // Meta description + JSON-LD description parenthetical
+      { from: '(' + currentBaked + ')',               to: '(' + correctIt + ')' },
+      // seoMeta JSON in DECK_BUNDLE + seoTrace fields
+      { from: '"themeName":"' + currentBaked + '"',   to: '"themeName":"' + correctIt + '"' },
+      // seoTrace.themeName.value (embedded inside larger object)
+      { from: '"value":"' + currentBaked + '","source":"metadata.theme"',  to: '"value":"' + correctIt + '","source":"metadata.theme"' },
+      // og:image alt attribute defensive — content="<themeName>"
+      { from: 'content="' + currentBaked + '"',       to: 'content="' + correctIt + '"' }
+    );
+  }
+
+  // SEO words pass — replace 4 English SEO words with Italian
+  if (alsoSeoWords) {
+    IT_SEO_WORDS.forEach(function (w) {
+      pairs.push(
+        // seoMeta JSON in DECK_BUNDLE: "worksheetWord":"Worksheet" → "worksheetWord":"Scheda"
+        { from: '"' + w.field + '":"' + w.en + '"',   to: '"' + w.field + '":"' + w.it + '"' },
+        // seoTrace value+source+isLocalized triplet
+        { from: '"value":"' + w.en + '","source":"' + w.fallbackSource + '","isLocalized":false',
+          to:   '"value":"' + w.it + '","source":"' + w.cleanSource + '","isLocalized":true' }
+      );
+    });
+
+    // Bounded contextual replacements in title + meta description + JSON-LD
+    // Note: "Worksheet" appears in title as `<typeName> Worksheet — ` so bound by space + em-dash.
+    // "Free interactive" appears at start of meta description after `content="`.
+    // "for" appears in meta description between level placeholder + instruction.
+    // "Print or play online" appears in meta description before `(Set <variant>)`.
+    pairs.push(
+      // Title pattern: `Codice Segreto Addizione Worksheet — `
+      { from: ' Worksheet — ',                        to: ' Scheda — ' },
+      // Meta description start: `Free interactive Codice Segreto Addizione Worksheet`
+      { from: '"Free interactive ',                   to: '"Scheda interattiva gratuita ' },
+      { from: 'description":"Free interactive ',      to: 'description":"Scheda interattiva gratuita ' },
+      // After Worksheet (or its replacement) — `Worksheet (4 luglio)` context already replaced; defensive: ` Worksheet (` → ` Scheda (`
+      { from: ' Worksheet (',                         to: ' Scheda (' },
+      // ` for __EDUCATIONAL_LEVEL_LOCALIZED__` pattern
+      { from: ') for __EDUCATIONAL_LEVEL_LOCALIZED__', to: ') per __EDUCATIONAL_LEVEL_LOCALIZED__' },
+      // `Print or play online (Set xxxx)` — anchored by space + parenthesis only
+      // (instruction-end punctuation varies: `.`, `!`, `?`, etc., so we can't
+      // bound on the preceding punctuation).
+      { from: ' Print or play online (',             to: ' Stampa o gioca online (' }
+    );
+  }
 
   var beforeCounts = pairs.map(function (p) { return countOccurrences(html, p.from); });
   var newHtml = html;
   pairs.forEach(function (p) { newHtml = newHtml.split(p.from).join(p.to); });
 
-  // Verify residue: count current-baked occurrences inside same anchor patterns
+  // Verify residue: count from-needles in patched html (must all be 0)
   var residue = pairs.map(function (p) { return countOccurrences(newHtml, p.from); });
 
   return {
@@ -204,21 +279,39 @@ function patchHtml(html, currentBaked, correctIt) {
 // Manifest seo_trace patch
 // ============================================================
 
-function patchManifest(manifest, currentBaked, correctIt) {
+function patchManifest(manifest, currentBaked, correctIt, alsoSeoWords) {
   var changed = false;
   var trace = manifest.seo_trace;
   if (!trace) return { manifest: manifest, changed: false };
 
-  function maybeFix(node) {
+  function maybeFixTheme(node) {
     if (node && typeof node === 'object' && node.themeName && typeof node.themeName === 'object') {
-      if (node.themeName.value === currentBaked) {
+      if (currentBaked && correctIt && node.themeName.value === currentBaked && currentBaked !== correctIt) {
         node.themeName.value = correctIt;
         changed = true;
       }
     }
   }
-  if (trace.title) maybeFix(trace.title);
-  if (trace.description) maybeFix(trace.description);
+  function maybeFixSeoWords(node) {
+    if (!node || typeof node !== 'object') return;
+    IT_SEO_WORDS.forEach(function (w) {
+      var field = node[w.seoTraceKey];
+      if (field && field.value === w.en && field.isLocalized === false) {
+        field.value = w.it;
+        field.source = w.cleanSource;
+        field.isLocalized = true;
+        changed = true;
+      }
+    });
+  }
+  if (trace.title) {
+    maybeFixTheme(trace.title);
+    if (alsoSeoWords) maybeFixSeoWords(trace.title);
+  }
+  if (trace.description) {
+    maybeFixTheme(trace.description);
+    if (alsoSeoWords) maybeFixSeoWords(trace.description);
+  }
   return { manifest: manifest, changed: changed };
 }
 
@@ -227,7 +320,7 @@ function patchManifest(manifest, currentBaked, correctIt) {
 // ============================================================
 
 function rewriteZip(c, opts) {
-  var patched = patchHtml(c.html, c.currentBaked, c.correctIt);
+  var patched = patchHtml(c.html, c.currentBaked, c.correctIt, c.rewriteSeoWords);
   if (patched.totalSubstitutions === 0) {
     return { ok: false, reason: 'no occurrences found post-classify (unexpected)', zipPath: c.zipPath };
   }
@@ -236,7 +329,7 @@ function rewriteZip(c, opts) {
   }
 
   // Patch manifest seo_trace
-  var manifestPatch = patchManifest(c.manifest, c.currentBaked, c.correctIt);
+  var manifestPatch = patchManifest(c.manifest, c.currentBaked, c.correctIt, c.rewriteSeoWords);
 
   // Backup original ZIP before any write
   if (opts.backupRoot) {
@@ -366,11 +459,14 @@ function main() {
       console.log('  themeKey:     ' + sample.themeKey);
       console.log('  currentBaked: "' + sample.currentBaked + '"');
       console.log('  correctIt:    "' + sample.correctIt + '"');
-      var patched = patchHtml(sample.html, sample.currentBaked, sample.correctIt);
+      console.log('  rewriteTheme: ' + sample.rewriteTheme + ', rewriteSeoWords: ' + sample.rewriteSeoWords);
+      var patched = patchHtml(sample.html, sample.currentBaked, sample.correctIt, sample.rewriteSeoWords);
       console.log('  substitutions: ' + patched.totalSubstitutions);
       console.log('  per-anchor counts: ' + JSON.stringify(patched.before));
       var newTitleMatch = /<title>([^<]+)<\/title>/i.exec(patched.html);
       if (newTitleMatch) console.log('  new title:    ' + newTitleMatch[1]);
+      var newMetaMatch = /<meta\s+name="description"\s+content="([^"]+)"/i.exec(patched.html);
+      if (newMetaMatch) console.log('  new meta:     ' + newMetaMatch[1].slice(0, 180));
     }
     console.log('[rewrite-italian-wave-themename] no FS writes (dry-run)');
     return;

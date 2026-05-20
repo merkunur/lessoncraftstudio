@@ -4708,8 +4708,16 @@ async function downloadPDF(canvasInstance, baseFileName, opts) {
                 exerciseTypeSlug: 'code-addition',
                 exerciseTypeName: canvas.lcsLocalizedTitle || 'Code Addition Practice',
                 exerciseModeName: exerciseModeName,
+                // Shape A §A.13.5: read worksheetThemeSelect (operator's "Generate
+                // from Theme" picker) — must mirror buildCatalogManifestSettings's
+                // worksheetThemeSelect read so manifest.theme and seoMeta.themeName
+                // stay in lockstep. The bare themeSelect is the image-dictionary
+                // filter; it holds a stagnant filter-state value, not the per-deck
+                // worksheet theme. dbeb1058 closed buildCatalogManifestSettings but
+                // missed this parallel emit-site. Closes 147/198 IT code-addition
+                // wave 2026-05-19 themeName-mismatch defect class.
                 themeName: (window.LCSCatalogExport && window.LCSCatalogExport.deriveThemeName)
-                    ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('themeSelect') })
+                    ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('worksheetThemeSelect') })
                     : null,
                 instruction: canvas.lcsLocalizedInstruction || '',
                 worksheetWord: _ct('worksheet', 'Worksheet'),

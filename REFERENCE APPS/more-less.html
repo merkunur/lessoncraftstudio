@@ -5242,9 +5242,22 @@ async function downloadPDF(canvasToExport, filename, opts) {
             exerciseTypeSlug: 'more-less',
             exerciseTypeName: canvas.lcsLocalizedTitle || 'More or Less Practice',
             exerciseModeName: exerciseModeName,
-            themeName: (window.LCSCatalogExport && window.LCSCatalogExport.deriveThemeName)
-                ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('themeWorksheet') || document.getElementById('ccThemeWorksheet') })
-                : null,
+            // Shape A §A.13.5: mode-aware theme-element selection mirroring
+            // buildCatalogManifestSettings line 6086-6107. The prior
+            // `themeWorksheet || ccThemeWorksheet` lookup was mode-blind — both
+            // elements always exist in the DOM (lines 1334 + 1418), so it
+            // always returned themeWorksheet's value even when the operator
+            // worked in check-cross mode using ccThemeWorksheet. Closes 49/149
+            // IT more-less check-cross wave 2026-05-19 themeName-mismatch.
+            themeName: (function () {
+                if (!(window.LCSCatalogExport && window.LCSCatalogExport.deriveThemeName)) return null;
+                var compMode = (typeof comparisonModeSelect !== 'undefined' && comparisonModeSelect)
+                    ? comparisonModeSelect.value : null;
+                var selEl = (compMode === 'check-cross')
+                    ? document.getElementById('ccThemeWorksheet')
+                    : document.getElementById('themeWorksheet');
+                return window.LCSCatalogExport.deriveThemeName({ selectEl: selEl });
+            })(),
             instruction: canvas.lcsLocalizedInstruction || '',
             worksheetWord: _t('worksheet') || 'Worksheet',
             freeInteractive: _t('seoFreeInteractive') || 'Free interactive',

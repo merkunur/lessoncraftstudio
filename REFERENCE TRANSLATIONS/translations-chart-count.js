@@ -2504,6 +2504,17 @@ if (typeof window !== 'undefined') {
 // §A.13.5 Shape A structural fix — export translations to window so translations-shared.js merge can fill missing keys.
 // Pattern matches translations-addition-complete.js + translations-subtraction.js canonical export. Missing this line
 // caused 533 LOCALE_RESIDUE_DETECTED halts in the 2026-05-11 ES math-cluster wave.
+//
+// Bug-fix 2026-05-20: prior version referenced undeclared `translations` global
+// (typo from the canonical addition-complete.js pattern where the top-level
+// object IS named `translations`). This file declares CHART_COUNT_TRANSLATIONS
+// at line 17; the undefined-`translations` ReferenceError silently broke the
+// window.translations export, leaving translations-shared.js merge unable to
+// fill missing it/fr/pt/es/nl/sv/da/no/fi seoFreeInteractive/seoFor/
+// seoPrintOrPlayOnline/worksheet keys → any future non-EN chart-count deck
+// wave would ship English SEO words baked in seoMeta + manifest.seo_trace,
+// halting publish-cli at LOCALE_RESIDUE_DETECTED. Closes the latent twin of
+// the translations-code-addition.js defect fixed at commit b666aa17.
 if (typeof window !== "undefined") {
-  window.translations = translations;
+  window.translations = CHART_COUNT_TRANSLATIONS;
 }

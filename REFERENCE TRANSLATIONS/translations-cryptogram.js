@@ -267,7 +267,7 @@ const translations = {
     // ============= SR-ONLY (Group B Phase 2) =============
     "srWorksheetQuestions": "Worksheet questions",
     "srPuzzleCryptogram": "Cryptogram puzzle. The cipher key shows pictures of {imageList}. Each picture stands for a letter. Sound out each picture's starting letter, then write that letter to fill in the secret message.",
-    "runtimeTitle": "Cryptogram Practice"
+    "runtimeTitle": "Cryptogram Practice",
     "worksheet": "Worksheet",
     "seoFreeInteractive": "Free interactive",
     "seoFor": "for",
@@ -532,7 +532,7 @@ const translations = {
     "bringForward": "Flyt fremad",
     "sendBackward": "Flyt bagud",
     "sendToBack": "Placer bagerst",
-    "runtimeTitle": "Kryptogramøvelse"
+    "runtimeTitle": "Kryptogramøvelse",
     "worksheet": "Opgaveark",
     "seoFreeInteractive": "Gratis interaktiv",
     "seoFor": "til",
@@ -796,7 +796,7 @@ const translations = {
     "bringForward": "Naar voren",
     "sendBackward": "Naar achteren",
     "sendToBack": "Op de achtergrond plaatsen",
-    "runtimeTitle": "Cryptogram oefenen"
+    "runtimeTitle": "Cryptogram oefenen",
     "worksheet": "Werkblad",
     "seoFreeInteractive": "Gratis interactief",
     "seoFor": "voor",
@@ -1062,7 +1062,7 @@ const translations = {
     "bringForward": "Siirrä eteenpäin",
     "sendBackward": "Siirrä taaksepäin",
     "sendToBack": "Siirrä taustalle",
-    "runtimeTitle": "Salakirjoitusharjoitus"
+    "runtimeTitle": "Salakirjoitusharjoitus",
     "worksheet": "Tehtäväpaperi",
     "seoFreeInteractive": "Ilmainen vuorovaikutteinen",
     "seoFor": "aiheelle",
@@ -1327,7 +1327,7 @@ const translations = {
     "bringForward": "Avancer",
     "sendBackward": "Reculer",
     "sendToBack": "Placer en arrière-plan",
-    "runtimeTitle": "Exercices de cryptogramme"
+    "runtimeTitle": "Exercices de cryptogramme",
     "worksheet": "Fiche",
     "seoFreeInteractive": "Fiche interactive gratuite",
     "seoFor": "pour",
@@ -1594,7 +1594,7 @@ const translations = {
     // ============= SR-ONLY (Group B Phase 3) =============
     "srWorksheetQuestions": "Arbeitsblatt-Fragen",
     "srPuzzleCryptogram": "Geheimschrift-Rätsel. Der Geheimcode zeigt diese Bilder: {imageList}. Jedes Bild steht für einen Buchstaben. Sprich den Anfangsbuchstaben jedes Bildes aus und trage ihn in die geheime Botschaft ein.",
-    "runtimeTitle": "Kryptogramm-Übung"
+    "runtimeTitle": "Kryptogramm-Übung",
     "worksheet": "Arbeitsblatt",
     "seoFreeInteractive": "Kostenloses interaktives",
     "seoFor": "für",
@@ -1849,7 +1849,7 @@ const translations = {
     "bringForward": "Porta avanti",
     "sendBackward": "Porta indietro",
     "sendToBack": "Sposta sullo sfondo",
-    "runtimeTitle": "Esercizi di crittogramma"
+    "runtimeTitle": "Esercizi di crittogramma",
     "worksheet": "Scheda",
     "seoFreeInteractive": "Scheda interattiva gratuita",
     "seoFor": "per",
@@ -2112,7 +2112,7 @@ const translations = {
     "bringForward": "Flytt fremover",
     "sendBackward": "Flytt bakover",
     "sendToBack": "Plasser bakerst",
-    "runtimeTitle": "Kryptogramøving"
+    "runtimeTitle": "Kryptogramøving",
     "worksheet": "Oppgaveark",
     "seoFreeInteractive": "Gratis interaktiv",
     "seoFor": "for",
@@ -2376,7 +2376,7 @@ const translations = {
     "bringForward": "Trazer para frente",
     "sendBackward": "Enviar para trás",
     "sendToBack": "Enviar para o fundo",
-    "runtimeTitle": "Prática de Criptograma"
+    "runtimeTitle": "Prática de Criptograma",
     "worksheet": "Folha de Exercícios",
     "seoFreeInteractive": "Atividade interativa gratuita",
     "seoFor": "para",
@@ -2641,7 +2641,7 @@ const translations = {
     "bringForward": "Traer al frente",
     "sendBackward": "Enviar atrás",
     "sendToBack": "Enviar al fondo",
-    "runtimeTitle": "Práctica de Criptograma"
+    "runtimeTitle": "Práctica de Criptograma",
     "worksheet": "Ficha",
     "seoFreeInteractive": "Hoja interactiva gratuita",
     "seoFor": "para",
@@ -2899,7 +2899,7 @@ const translations = {
     "bringForward": "Flytta framåt",
     "sendBackward": "Flytta bakåt",
     "sendToBack": "Flytta längst bak",
-    "runtimeTitle": "Kryptogramövning"
+    "runtimeTitle": "Kryptogramövning",
     "worksheet": "Övningsblad",
     "seoFreeInteractive": "Gratis interaktivt",
     "seoFor": "för",

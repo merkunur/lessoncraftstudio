@@ -102,6 +102,24 @@ window.ChoiceBoardCore = {
         var subjectText = this.api.el('div', 'cb-subject-text');
         subjectText.textContent = String(this.subject.text);
         subjectEl.appendChild(subjectText);
+      } else if (this.subject.type === 'group' && this.subject.imgUrl && this.subject.count > 0) {
+        /* Batch 3: subject-level group. Reuses .cb-group + .cb-group-item
+           CSS from Batch 2 (standalone selectors). Used by how-many-group
+           — shows N objects above the tile board; kid counts + picks the
+           matching number tile. */
+        var subjectGroup = this.api.el('div', 'cb-group');
+        var subjectCount = Math.min(this.subject.count, 8);  /* engine cap */
+        var sCols = subjectCount <= 4 ? subjectCount : (subjectCount <= 6 ? 3 : 4);
+        subjectGroup.style.gridTemplateColumns = 'repeat(' + sCols + ', 1fr)';
+        subjectGroup.setAttribute('aria-label', subjectCount + ' ' + (this.subject.alt || 'items'));
+        for (var sg = 0; sg < subjectCount; sg++) {
+          var sgImg = this.api.el('img', 'cb-group-item');
+          sgImg.src = this.subject.imgUrl;
+          sgImg.alt = '';
+          sgImg.setAttribute('loading', 'lazy');
+          subjectGroup.appendChild(sgImg);
+        }
+        subjectEl.appendChild(subjectGroup);
       }
       wrap.appendChild(subjectEl);
     }
@@ -298,6 +316,21 @@ window.ChoiceBoardCore = {
       '  font-family:var(--lcs-font-display);font-weight:800;',
       '  font-size:clamp(48px,12vmin,84px);color:var(--lcs-structure);',
       '  line-height:1;letter-spacing:-0.02em;',
+      '}',
+
+      /* Subject-group modifier (Batch 3) — used by how-many-group to
+         show N objects above the tile board. Caps the subject group at
+         a comfortable width (4×80px = ~340px) so it visually anchors
+         the activity without dominating. Items slightly larger than
+         tile-group items since the subject is the focal point. */
+      '.cb-subject--group{max-width:360px;}',
+      '.cb-subject--group .cb-group{',
+      '  width:100%;height:auto;min-height:clamp(96px,18vmin,140px);',
+      '  align-content:center;justify-content:center;',
+      '}',
+      '.cb-subject--group .cb-group-item{',
+      '  max-width:80px;',
+      '  filter:drop-shadow(0 4px 12px rgba(20,30,28,0.10));',
       '}',
 
       /* Selected (pre-Check) — teal-tinted gradient + inset ring + soft glow. */

@@ -39,6 +39,8 @@
     celebrate:  {en:'Great!',de:'Super!',fr:'Bravo !',it:'Bravo!',es:'¡Genial!',pt:'Ótimo!',nl:'Goed gedaan!',sv:'Bra jobbat!',da:'Flot klaret!',no:'Bra jobbet!',fi:'Hienoa!'},
     tryAgain:   {en:'Not yet — try again!',de:'Noch nicht — versuche es nochmal!',fr:'Pas encore — essaie encore !',it:'Non ancora — riprova!',es:'Aún no — ¡intenta otra vez!',pt:'Ainda não — tente de novo!',nl:'Nog niet — probeer nog eens!',sv:'Inte än — försök igen!',da:'Ikke endnu — prøv igen!',no:'Ikke ennå — prøv igjen!',fi:'Ei vielä — yritä uudelleen!'},
     tasksDone:  {en:'Tasks done: {n}',de:'Aufgaben erledigt: {n}',fr:'Tâches faites : {n}',it:'Compiti fatti: {n}',es:'Tareas hechas: {n}',pt:'Tarefas feitas: {n}',nl:'Taken gedaan: {n}',sv:'Klara uppgifter: {n}',da:'Færdige opgaver: {n}',no:'Ferdige oppgaver: {n}',fi:'Tehtyjä tehtäviä: {n}'},
+    /* Direction A: progress pill label (uppercase letter-spaced, separate from the count). */
+    tasksDoneLabel: {en:'TASKS DONE',de:'AUFGABEN',fr:'FAITES',it:'FATTI',es:'COMPLETADAS',pt:'CONCLUÍDAS',nl:'KLAAR',sv:'KLARA',da:'FÆRDIGE',no:'FERDIGE',fi:'VALMIIT'},
     readAloud:  {en:'Read aloud',de:'Vorlesen',fr:'Lire à voix haute',it:'Leggi ad alta voce',es:'Leer en voz alta',pt:'Ler em voz alta',nl:'Voorlezen',sv:'Läs högt',da:'Læs højt',no:'Les høyt',fi:'Lue ääneen'}
   };
 
@@ -424,6 +426,7 @@
          browser TTS. No audio assets — Web Speech Synthesis API across
          all 11 locales. */
       promptEl = el('div', 'lcs-activity-prompt');
+      var promptRow = el('div', 'lcs-activity-prompt-row');
       var promptText = el('span', 'lcs-activity-prompt-text');
       var speakBtn = el('button', 'lcs-activity-speak');
       speakBtn.type = 'button';
@@ -442,13 +445,21 @@
           global.speechSynthesis.speak(u);
         } catch (_) {}
       });
-      promptEl.append(promptText, speakBtn);
+      promptRow.append(promptText, speakBtn);
+      var promptHint = el('div', 'lcs-activity-prompt-hint');
+      promptEl.append(promptRow, promptHint);
       app.insertBefore(promptEl, stage);
 
-      /* progress indicator — in header next to the titles */
-      progressEl = el('span', 'lcs-activity-progress');
-      progressEl.textContent = interpolate(i18n.chrome('tasksDone'), { n: 0 });
-      titles.appendChild(progressEl);
+      /* Progress indicator — Direction A puts this at the top-left of the
+         CARD (not the page header) as a pill with TASKS DONE label + count.
+         Rendered as a div directly inside .lcs-app, before the prompt. */
+      progressEl = el('div', 'lcs-activity-progress');
+      var progLabel = el('span', 'lcs-activity-progress-label');
+      progLabel.textContent = i18n.chrome('tasksDoneLabel') || 'TASKS DONE';
+      var progPill = el('span', 'lcs-activity-progress-pill');
+      progPill.textContent = '0';
+      progressEl.append(progLabel, progPill);
+      app.insertBefore(progressEl, promptEl);
 
       /* feedback overlay — sibling of stage inside .lcs-app so the tool's
          render() (which clears `stage.innerHTML`) doesn't wipe it. */
@@ -485,16 +496,23 @@
       currentTask = task;
       if (!task) return;
       var promptStr = interpolate(api.t(task.promptKey), task.promptArgs || {});
-      /* promptEl wraps a text span + speaker button; only the text changes */
+      /* promptEl wraps a row (text + speaker) + hint line. Only the text
+         + state classes change between tasks. */
       var textSpan = promptEl.querySelector('.lcs-activity-prompt-text');
+      var hintSpan = promptEl.querySelector('.lcs-activity-prompt-hint');
       if (textSpan) textSpan.textContent = promptStr;
       else promptEl.textContent = promptStr;
+      if (hintSpan) hintSpan.textContent = '';
+      promptEl.classList.remove('celebrate', 'tryagain');
       api.announce(promptStr);
       if (task.setup) task.setup(tool);
       if (tool.render) tool.render();
       renderAnswerSurface(task);
-      feedbackEl.classList.remove('open', 'celebrate', 'tryagain');
-      feedbackEl.textContent = '';
+      /* Legacy feedback element — wipe even though Direction A hides it. */
+      if (feedbackEl) {
+        feedbackEl.classList.remove('open', 'celebrate', 'tryagain');
+        feedbackEl.textContent = '';
+      }
       nextBtnEl.hidden = true;
       checkBtnEl.hidden = false;
       checkBtnEl.disabled = (task.answerType === 'number' || task.answerType === 'choice');
@@ -575,30 +593,43 @@
       var answer = readAnswer(currentTask);
       var ok = false;
       try { ok = !!currentTask.check(tool, answer); } catch (e) { ok = false; }
-      feedbackEl.classList.remove('celebrate', 'tryagain');
+      /* Direction A — prompt-as-feedback (no floating badge).
+         Mutate the prompt text + apply .celebrate / .tryagain to it. */
+      var textSpan = promptEl.querySelector('.lcs-activity-prompt-text');
+      var hintSpan = promptEl.querySelector('.lcs-activity-prompt-hint');
+      promptEl.classList.remove('celebrate', 'tryagain');
       if (ok) {
         Audio.pop(880);
-        feedbackEl.classList.add('open', 'celebrate');
-        feedbackEl.textContent = i18n.chrome('celebrate');
+        promptEl.classList.add('celebrate');
+        if (textSpan) textSpan.textContent = i18n.chrome('celebrate');
+        if (hintSpan) hintSpan.textContent = '';
         api.announce(i18n.chrome('celebrate'));
         tasksCompleted += 1;
-        progressEl.textContent = interpolate(i18n.chrome('tasksDone'), { n: tasksCompleted });
+        var progPill = progressEl && progressEl.querySelector('.lcs-activity-progress-pill');
+        if (progPill) progPill.textContent = String(tasksCompleted);
         nextBtnEl.hidden = false;
         checkBtnEl.hidden = true;
         spawnConfetti();
         api.track('task:check', { id: currentTask.id, ok: true });
+        if (typeof postActivityResize === 'function') postActivityResize();
       } else {
         Audio.pop(440);
-        feedbackEl.classList.add('open', 'tryagain');
+        promptEl.classList.add('tryagain');
         var hintKey = currentTask.hintKey && currentTask.hintKey(tool, answer);
-        var msg = i18n.chrome('tryAgain') + (hintKey ? ' — ' + api.t(hintKey) : '');
-        feedbackEl.textContent = msg;
-        api.announce(msg);
+        var hintMsg = hintKey ? api.t(hintKey) : i18n.chrome('tryAgain');
+        if (hintSpan) hintSpan.textContent = hintMsg;
+        api.announce(i18n.chrome('tryAgain') + ' — ' + hintMsg);
         api.track('task:check', { id: currentTask.id, ok: false });
+        /* After the shake settles, clear the tryagain prompt-state so the
+           kid sees the original prompt again (matches the previous
+           auto-dismiss UX). */
         setTimeout(function () {
-          if (feedbackEl.classList.contains('tryagain')) {
-            feedbackEl.classList.remove('open', 'tryagain');
-            feedbackEl.textContent = '';
+          if (promptEl.classList.contains('tryagain')) {
+            promptEl.classList.remove('tryagain');
+            if (hintSpan) hintSpan.textContent = '';
+            /* Restore the original prompt text. */
+            var promptStr = interpolate(api.t(currentTask.promptKey), currentTask.promptArgs || {});
+            if (textSpan) textSpan.textContent = promptStr;
           }
         }, 1800);
       }
@@ -632,7 +663,11 @@
       if (!tool.tasks && !tool.nextTask) return;
       currentTaskIndex = 0;
       tasksCompleted = 0;
-      if (progressEl) progressEl.textContent = interpolate(i18n.chrome('tasksDone'), { n: 0 });
+      if (progressEl) {
+        var pill = progressEl.querySelector('.lcs-activity-progress-pill');
+        if (pill) pill.textContent = '0';
+        else progressEl.textContent = interpolate(i18n.chrome('tasksDone'), { n: 0 });
+      }
       loadTask(getTask(0));
     };
 

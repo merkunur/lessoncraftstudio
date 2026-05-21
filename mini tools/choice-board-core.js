@@ -101,6 +101,11 @@ window.ChoiceBoardCore = {
       img.setAttribute('loading', 'lazy');
       tile.appendChild(img);
 
+      /* Direction A corner badges — hidden by default, shown via paint() */
+      var badge = this.api.el('div', 'cb-tile-badge');
+      badge.setAttribute('aria-hidden', 'true');
+      tile.appendChild(badge);
+
       (function (key) {
         tile.addEventListener('click', function () { self.selectKey(key); });
       }(opt.key));
@@ -126,12 +131,19 @@ window.ChoiceBoardCore = {
 
       /* Clear feedback classes before re-applying so transitions read cleanly. */
       tile.classList.remove('cb-tile--correct', 'cb-tile--wrong', 'cb-tile--dim');
+      var badge = tile.querySelector('.cb-tile-badge');
+      if (badge) badge.textContent = '';
 
       if (this.feedbackMode === 'correct' && key === this.targetKey) {
         tile.classList.add('cb-tile--correct');
+        if (badge) badge.textContent = '✓';  /* ✓ */
       } else if (this.feedbackMode === 'wrong') {
-        if (key === this.answer) tile.classList.add('cb-tile--wrong');
-        else tile.classList.add('cb-tile--dim');
+        if (key === this.answer) {
+          tile.classList.add('cb-tile--wrong');
+          if (badge) badge.textContent = '✕';  /* ✕ */
+        } else {
+          tile.classList.add('cb-tile--dim');
+        }
       }
     }
   },
@@ -143,34 +155,101 @@ window.ChoiceBoardCore = {
     this.paint();
   },
 
-  /* ---- stage CSS — idempotent ---- */
+  /* ---- stage CSS — Direction A "warm tactile" ---- */
   _cssInjected: false,
   injectCSS: function () {
     if (this._cssInjected) return;
     this._cssInjected = true;
-    var css = ''
-    + '.cb-wrap{display:flex;flex-direction:column;align-items:center;gap:clamp(8px,2vmin,18px);width:100%;}'
-    + '.cb-board{display:grid;gap:clamp(8px,2vmin,16px);width:100%;max-width:560px;}'
-    + '.cb-cols-2{grid-template-columns:repeat(2,1fr);}'
-    /* 2×2 on mobile, 1×4 on desktop for 4-option grids. */
-    + '.cb-cols-4{grid-template-columns:repeat(2,1fr);}'
-    + '@media(min-width:560px){.cb-cols-4{grid-template-columns:repeat(4,1fr);}}'
-    + '.cb-tile{aspect-ratio:1;background:var(--lcs-surface);border:3px solid transparent;'
-    +   'border-radius:var(--lcs-radius);display:grid;place-items:center;cursor:pointer;'
-    +   'touch-action:manipulation;padding:clamp(8px,2vmin,16px);'
-    +   'transition:transform .1s var(--lcs-ease),background .12s,border-color .12s,opacity .15s;}'
-    + '.cb-tile:hover:not([disabled]){background:var(--lcs-surface-2);transform:translateY(-2px);}'
-    + '.cb-tile:active{transform:scale(.96);}'
-    + '.cb-tile-img{max-width:78%;max-height:78%;width:auto;height:auto;'
-    +   'pointer-events:none;user-select:none;}'
-    + '.cb-tile--selected{border-color:var(--lcs-structure);background:var(--lcs-surface-2);}'
-    + '.cb-tile--correct{border-color:#2D8B5A;background:#E5F4EB;'
-    +   'animation:cb-pop .25s var(--lcs-ease);}'
-    + '.cb-tile--wrong{border-color:#C84A4A;background:#FCEAEA;'
-    +   'animation:cb-shake .35s var(--lcs-ease);}'
-    + '.cb-tile--dim{opacity:.35;}'
-    + '@keyframes cb-pop{0%{transform:scale(1);}40%{transform:scale(1.08);}100%{transform:scale(1);}}'
-    + '@keyframes cb-shake{0%,100%{transform:translateX(0);}25%{transform:translateX(-4px);}75%{transform:translateX(4px);}}';
+    var css = [
+      /* Wrap fills the stage; tiles centered. */
+      '.cb-wrap{display:flex;flex-direction:column;align-items:center;gap:clamp(8px,2vmin,18px);width:100%;padding:0 clamp(4px,1.4vmin,12px);}',
+      '.cb-board{display:grid;gap:clamp(12px,2.4vmin,18px);width:100%;max-width:560px;}',
+      '.cb-cols-2{grid-template-columns:repeat(2,1fr);}',
+      /* 2×2 on mobile, 1×4 on desktop for 4-option grids. */
+      '.cb-cols-4{grid-template-columns:repeat(2,1fr);}',
+      '@media(min-width:560px){.cb-cols-4{grid-template-columns:repeat(4,1fr);}}',
+
+      /* Direction A tile — two-tone gradient + dual shadow (drop + inset highlight). */
+      '.cb-tile{',
+      '  aspect-ratio:1;',
+      '  background:linear-gradient(180deg,#FFFEFB 0%,#FAF1DF 100%);',
+      '  border:0;border-radius:28px;',
+      '  display:grid;place-items:center;cursor:pointer;',
+      '  touch-action:manipulation;',
+      '  padding:clamp(10px,2.2vmin,18px);',
+      '  position:relative;',
+      '  box-shadow:',
+      '    inset 0 1px 0 rgba(255,255,255,0.8),',
+      '    0 8px 16px rgba(20,30,28,0.08),',
+      '    0 1px 3px rgba(20,30,28,0.04);',
+      '  transition:transform .15s cubic-bezier(.2,.8,.2,1),box-shadow .15s,background .25s,opacity .15s;',
+      '}',
+      '.cb-tile:hover:not(:disabled){',
+      '  transform:translateY(-4px);',
+      '  box-shadow:',
+      '    inset 0 1px 0 rgba(255,255,255,0.9),',
+      '    0 14px 24px rgba(20,30,28,0.11),',
+      '    0 2px 4px rgba(20,30,28,0.05);',
+      '}',
+      '.cb-tile:active{transform:translateY(-2px) scale(.98);}',
+      '.cb-tile-img{max-width:78%;max-height:78%;width:auto;height:auto;pointer-events:none;user-select:none;}',
+
+      /* Selected (pre-Check) — teal-tinted gradient + inset ring + soft glow. */
+      '.cb-tile--selected{',
+      '  background:linear-gradient(180deg,#DCEDE9 0%,#C5E0DA 100%);',
+      '  box-shadow:',
+      '    inset 0 0 0 3px var(--lcs-structure),',
+      '    0 14px 24px rgba(20,107,94,0.18),',
+      '    0 2px 4px rgba(20,107,94,0.06);',
+      '}',
+
+      /* Correct — green-tinted gradient + green ring + scale up. */
+      '.cb-tile--correct{',
+      '  background:linear-gradient(180deg,#E0F2E8 0%,#BFE2CE 100%);',
+      '  box-shadow:',
+      '    inset 0 0 0 3px var(--lcs-good),',
+      '    0 14px 24px rgba(47,165,106,0.22),',
+      '    0 2px 4px rgba(47,165,106,0.08);',
+      '  transform:scale(1.06);',
+      '  animation:cb-pop .35s cubic-bezier(.2,.8,.2,1);',
+      '}',
+
+      /* Wrong — red-tinted gradient + red ring + shake. */
+      '.cb-tile--wrong{',
+      '  background:linear-gradient(180deg,#F7DDDC 0%,#ECC0BE 100%);',
+      '  box-shadow:',
+      '    inset 0 0 0 3px #C84A4A,',
+      '    0 8px 16px rgba(200,74,74,0.20);',
+      '  animation:cb-shake .35s var(--lcs-ease);',
+      '}',
+
+      /* Dim — non-picked tiles fade after wrong Check. */
+      '.cb-tile--dim{opacity:.45;}',
+
+      /* Corner badges (✓ on correct / ✕ on wrong). 32px white circle pinned to top-right. */
+      '.cb-tile-badge{',
+      '  position:absolute;top:10px;right:10px;',
+      '  width:32px;height:32px;border-radius:50%;',
+      '  display:grid;place-items:center;',
+      '  font-weight:800;font-size:18px;line-height:1;color:transparent;',
+      '  transition:transform .25s cubic-bezier(.2,.8,.2,1);',
+      '  pointer-events:none;',
+      '}',
+      '.cb-tile--correct .cb-tile-badge{',
+      '  background:var(--lcs-good);color:#fff;',
+      '  box-shadow:0 4px 12px rgba(47,165,106,0.4);',
+      '  animation:cb-badge-pop .3s cubic-bezier(.2,.8,.2,1);',
+      '}',
+      '.cb-tile--wrong .cb-tile-badge{',
+      '  background:#C84A4A;color:#fff;',
+      '  box-shadow:0 3px 10px rgba(200,74,74,0.35);',
+      '  animation:cb-badge-pop .3s cubic-bezier(.2,.8,.2,1);',
+      '}',
+
+      '@keyframes cb-badge-pop{from{transform:scale(0);}to{transform:scale(1);}}',
+      '@keyframes cb-pop{0%{transform:scale(1);}40%{transform:scale(1.12);}100%{transform:scale(1.06);}}',
+      '@keyframes cb-shake{0%,100%{transform:translateX(0);}25%{transform:translateX(-4px);}75%{transform:translateX(4px);}}'
+    ].join('\n');
     var tag = document.createElement('style');
     tag.textContent = css;
     document.head.appendChild(tag);

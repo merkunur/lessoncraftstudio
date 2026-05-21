@@ -97,6 +97,12 @@ const REMOVED_PREFIXES = /^\/(?:[a-z]{2}\/)?(apps|tools|guides|bundles|ideas|sta
  * defensive completeness if the matcher changes in the future.
  */
 function isRemovedRoute(pathname: string): boolean {
+  // CARVE-OUT: /<locale>/tools and /<locale>/tools/ are the NEW
+  // manipulatives landing per the platform-header arc (Part 1, 2026-05-21).
+  // Seller-era sub-paths like /<locale>/tools/kdp-royalty-calculator are
+  // still caught by REMOVED_PREFIXES below since they include a sub-path.
+  if (/^\/[a-z]{2}\/tools\/?$/.test(pathname)) return false;
+
   if (REMOVED_PREFIXES.test(pathname)) return true;
 
   if (pathname === '/image-sitemap-index.xml') return true;

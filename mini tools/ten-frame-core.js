@@ -169,7 +169,13 @@ window.TenFrameCore = {
     +   'transition:transform .1s var(--lcs-ease),background .12s;}'
     + '.tf-cell:hover{background:var(--lcs-surface-2);}'
     + '.tf-cell:active{transform:scale(.94);}'
-    + '.tf-cell svg{animation:tf-pop .18s var(--lcs-ease);}'
+    /* SVG tokens (dot/heart/star) render with HTML width="56" attribute.
+       In double-frame mode the cell shrinks to clamp(36px,8vmin,64px),
+       so a raw 56px SVG would overflow on the right (visible as orange
+       circles spilling past each frame's border). CSS clamps to 78% of
+       the cell — mirrors the .tf-cell img rule below. */
+    + '.tf-cell svg{max-width:78%;max-height:78%;width:auto;height:auto;'
+    +   'animation:tf-pop .18s var(--lcs-ease);}'
     /* image tokens (color-theme activities) scale to the cell via CSS,
        regardless of their width/height HTML attributes. Prevents overflow
        when the cell clamp shrinks to 36px but the token was requested

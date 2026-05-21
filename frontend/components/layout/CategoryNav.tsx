@@ -6,6 +6,8 @@ import { useTranslations } from 'next-intl';
 import { usePathname } from 'next/navigation';
 import { ChevronDown } from 'lucide-react';
 import topicsTaxonomy from '@/config/topics-taxonomy.json';
+import { MANIPULATIVES } from '@/lib/manipulatives';
+import type { ActivityRow } from '@/lib/activities';
 
 // Header dropdown nav per homepage-restructure commission (2026-05-17 strategic
 // lock §8.1). Adds a second nav row beneath the existing Navigation row with 4
@@ -93,7 +95,7 @@ function resolveAxisName(axisKey: string, locale: string): string {
 
 // --- Component ---
 
-type CategoryKey = 'worksheets' | 'apps' | 'interactive';
+type CategoryKey = 'worksheets' | 'apps' | 'interactive' | 'activities' | 'manipulatives';
 
 interface DropdownItem {
   href: string;
@@ -114,12 +116,42 @@ interface CategoryNavProps {
   // component. Used to filter dropdown sub-items so we never link to a
   // 404'ing topic-page per §16.6.1 substrate-honesty.
   availableExerciseTypes?: string[];
+  // Per-locale activity-row summaries for the new Activities dropdown.
+  // Server-resolved at LocaleLayout so the manifest fs.read happens once
+  // per locale-rendered page, not per CategoryNav mount.
+  availableActivities?: Array<{ id: string; slug: string; title: string; code: string }>;
 }
 
-export function CategoryNav({ availableExerciseTypes = [] }: CategoryNavProps) {
+// Localized labels for the new Activities + Manipulatives nav entries +
+// their browse-all CTAs. Inlined here for now (≤2 consumers per §17.10.2);
+// promote to next-intl keys when a third consumer appears.
+const LABELS: Record<string, {
+  activities: string;
+  manipulatives: string;
+  browseAllActivities: string;
+  browseAllManipulatives: string;
+}> = {
+  en: { activities: 'Activities', manipulatives: 'Tools', browseAllActivities: 'Browse all activities', browseAllManipulatives: 'Browse all tools' },
+  de: { activities: 'Aufgaben', manipulatives: 'Werkzeuge', browseAllActivities: 'Alle Aufgaben', browseAllManipulatives: 'Alle Werkzeuge' },
+  es: { activities: 'Actividades', manipulatives: 'Herramientas', browseAllActivities: 'Ver todas las actividades', browseAllManipulatives: 'Ver todas las herramientas' },
+  fr: { activities: 'Activités', manipulatives: 'Outils', browseAllActivities: 'Voir toutes les activités', browseAllManipulatives: 'Voir tous les outils' },
+  it: { activities: 'Attività', manipulatives: 'Strumenti', browseAllActivities: 'Vedi tutte le attività', browseAllManipulatives: 'Vedi tutti gli strumenti' },
+  pt: { activities: 'Atividades', manipulatives: 'Ferramentas', browseAllActivities: 'Ver todas as atividades', browseAllManipulatives: 'Ver todas as ferramentas' },
+  nl: { activities: 'Activiteiten', manipulatives: 'Hulpmiddelen', browseAllActivities: 'Alle activiteiten', browseAllManipulatives: 'Alle hulpmiddelen' },
+  sv: { activities: 'Aktiviteter', manipulatives: 'Verktyg', browseAllActivities: 'Alla aktiviteter', browseAllManipulatives: 'Alla verktyg' },
+  da: { activities: 'Aktiviteter', manipulatives: 'Værktøjer', browseAllActivities: 'Alle aktiviteter', browseAllManipulatives: 'Alle værktøjer' },
+  no: { activities: 'Aktiviteter', manipulatives: 'Verktøy', browseAllActivities: 'Alle aktiviteter', browseAllManipulatives: 'Alle verktøy' },
+  fi: { activities: 'Tehtävät', manipulatives: 'Työkalut', browseAllActivities: 'Kaikki tehtävät', browseAllManipulatives: 'Kaikki työkalut' },
+};
+
+export function CategoryNav({
+  availableExerciseTypes = [],
+  availableActivities = [],
+}: CategoryNavProps) {
   const t = useTranslations('nav.categories');
   const pathname = usePathname();
   const locale = pathname.split('/')[1] || 'en';
+  const labels = LABELS[locale] || LABELS.en;
   const [openKey, setOpenKey] = useState<CategoryKey | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -174,6 +206,21 @@ export function CategoryNav({ availableExerciseTypes = [] }: CategoryNavProps) {
     label: resolveAxisName(key, locale),
   }));
 
+  // Activities dropdown sub-items — sourced from the per-locale activity
+  // manifests via the server-resolved availableActivities prop. Cap to 6
+  // for visual density; the "Browse all" link goes to the full index.
+  const activitiesItems: DropdownItem[] = availableActivities.slice(0, 6).map(a => ({
+    href: `/${locale}/activities/${a.slug}/`,
+    label: a.title,
+  }));
+
+  // Manipulatives dropdown sub-items — sourced from the in-code metadata.
+  // Same shape for all locales (3 tools today).
+  const manipulativesItems: DropdownItem[] = MANIPULATIVES.map(m => ({
+    href: `/${locale}/tools/`,
+    label: m.title[locale] ?? m.title.en,
+  }));
+
   const dropdowns: CategoryDropdown[] = [
     {
       key: 'worksheets',
@@ -181,6 +228,20 @@ export function CategoryNav({ availableExerciseTypes = [] }: CategoryNavProps) {
       items: worksheetsItems,
       browseAllHref: browseAllTopicHref,
       browseAllLabel: t('browseAll.worksheets'),
+    },
+    {
+      key: 'activities',
+      label: labels.activities,
+      items: activitiesItems,
+      browseAllHref: `/${locale}/activities/`,
+      browseAllLabel: labels.browseAllActivities,
+    },
+    {
+      key: 'manipulatives',
+      label: labels.manipulatives,
+      items: manipulativesItems,
+      browseAllHref: `/${locale}/tools/`,
+      browseAllLabel: labels.browseAllManipulatives,
     },
     {
       key: 'apps',

@@ -1,0 +1,15 @@
+{
+  "_comment": "Per-tool image-pool spec for ten-frame activities. Keys are pre-verified to exist at /var/www/lcs-media/image-library/<theme>/<key>.png AND /var/www/lcs-media/image-library-webp/themes/<theme>/<key>@2x.webp. Themes here are color-only per the §A.B&W exclusion rule (axisKey does NOT end in '_bw' AND no locale's displayName ends in its BW marker).",
+  "themes": {
+    "animals": {
+      "color_verified": true,
+      "src_pattern": "/image-library-webp/themes/animals/{key}@2x.webp",
+      "keys": ["cat", "dog", "duck", "elephant", "fish", "fox", "tiger"]
+    },
+    "fruits": {
+      "color_verified": true,
+      "src_pattern": "/image-library-webp/themes/fruits/{key}@2x.webp",
+      "keys": ["apple", "banana", "cherry", "lemon", "orange", "peach", "pear", "strawberry", "watermelon"]
+    }
+  }
+}

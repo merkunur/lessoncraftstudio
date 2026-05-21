@@ -1,0 +1,344 @@
+[
+  {
+    "id": "ten-frame.count-to-10.make-n.animals",
+    "tool": "ten-frame-activity",
+    "task_template": "make-n",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.CC.B.4",
+      "grade": "K",
+      "strand": "Counting & Cardinality"
+    },
+    "params": {
+      "targets": [3, 5, 7, 9, 10],
+      "range": { "min": 0, "max": 10 },
+      "frames": 1
+    },
+    "theme": "animals",
+    "slug": {
+      "en": "count-to-10-with-animals",
+      "de": "bis-10-zaehlen-mit-tieren",
+      "es": "contar-hasta-10-con-animales",
+      "fr": "compter-jusqu-a-10-avec-des-animaux",
+      "it": "contare-fino-a-10-con-animali",
+      "pt": "contar-ate-10-com-animais",
+      "nl": "tellen-tot-10-met-dieren",
+      "sv": "rakna-till-10-med-djur",
+      "da": "tael-til-10-med-dyr",
+      "no": "tell-til-10-med-dyr",
+      "fi": "laske-10-elaimilla"
+    },
+    "page_title": {
+      "en": "Count to 10 with Animals — Ten Frame Activity",
+      "de": "Bis 10 zählen mit Tieren — Zehnerfeld-Aufgabe",
+      "es": "Contar hasta 10 con animales — Marco de diez",
+      "fr": "Compter jusqu'à 10 avec des animaux — Cadre de dix",
+      "it": "Contare fino a 10 con animali — Tabella del dieci",
+      "pt": "Contar até 10 com animais — Quadro de dez",
+      "nl": "Tellen tot 10 met dieren — Tienraam",
+      "sv": "Räkna till 10 med djur — Tioram",
+      "da": "Tæl til 10 med dyr — Tierramme",
+      "no": "Tell til 10 med dyr — Tierramme",
+      "fi": "Laske 10 saakka eläimillä — Kymmenruudukko"
+    },
+    "page_intro": {
+      "en": "Practise counting from 0 to 10 on a ten-frame using animal counters. Aligned to Common Core K.CC.B.4 — connect counting to cardinality.",
+      "de": "Übe das Zählen von 0 bis 10 auf dem Zehnerfeld mit Tierplättchen. Angepasst an Common Core K.CC.B.4 — Zählen mit Kardinalität verknüpfen.",
+      "es": "Practica contar de 0 a 10 en un marco de diez con animales. Alineado a Common Core K.CC.B.4 — relacionar conteo y cardinalidad.",
+      "fr": "Pratique le comptage de 0 à 10 sur un cadre de dix avec des animaux. Aligné à Common Core K.CC.B.4 — relier comptage et cardinalité.",
+      "it": "Esercitati a contare da 0 a 10 su una tabella del dieci con animali. Allineato a Common Core K.CC.B.4 — collegare conteggio e cardinalità.",
+      "pt": "Pratique contar de 0 a 10 num quadro de dez com animais. Alinhado a Common Core K.CC.B.4 — relacionar contagem e cardinalidade.",
+      "nl": "Oefen tellen van 0 tot 10 op een tienraam met dieren. Aansluitend bij Common Core K.CC.B.4 — tellen koppelen aan kardinaliteit.",
+      "sv": "Öva på att räkna från 0 till 10 i en tioram med djur. I linje med Common Core K.CC.B.4 — koppla räknande till kardinalitet.",
+      "da": "Øv at tælle fra 0 til 10 på en tierramme med dyr. På linje med Common Core K.CC.B.4 — forbind tælling med kardinalitet.",
+      "no": "Øv på å telle fra 0 til 10 på en tierramme med dyr. Etter Common Core K.CC.B.4 — knytt telling til kardinalitet.",
+      "fi": "Harjoittele laskemaan 0–10 kymmenruudukolla eläimillä. Yhdenmukainen Common Core K.CC.B.4 — yhdistä laskeminen kardinaliteettiin."
+    },
+    "kid_prompt_template": "taskMake"
+  },
+  {
+    "id": "ten-frame.count-to-20.make-n.fruits",
+    "tool": "ten-frame-activity",
+    "task_template": "make-n",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.CC.B.4",
+      "grade": "K",
+      "strand": "Counting & Cardinality"
+    },
+    "params": {
+      "targets": [13, 15, 17, 19, 20],
+      "range": { "min": 0, "max": 20 },
+      "frames": 2
+    },
+    "theme": "fruits",
+    "slug": {
+      "en": "count-to-20-with-fruits",
+      "de": "bis-20-zaehlen-mit-fruechten",
+      "es": "contar-hasta-20-con-frutas",
+      "fr": "compter-jusqu-a-20-avec-des-fruits",
+      "it": "contare-fino-a-20-con-frutta",
+      "pt": "contar-ate-20-com-frutas",
+      "nl": "tellen-tot-20-met-fruit",
+      "sv": "rakna-till-20-med-frukter",
+      "da": "tael-til-20-med-frugter",
+      "no": "tell-til-20-med-frukt",
+      "fi": "laske-20-hedelmilla"
+    },
+    "page_title": {
+      "en": "Count to 20 with Fruits — Double Ten Frame Activity",
+      "de": "Bis 20 zählen mit Früchten — Doppeltes Zehnerfeld",
+      "es": "Contar hasta 20 con frutas — Marco de diez doble",
+      "fr": "Compter jusqu'à 20 avec des fruits — Cadre de dix double",
+      "it": "Contare fino a 20 con frutta — Doppia tabella del dieci",
+      "pt": "Contar até 20 com frutas — Quadro de dez duplo",
+      "nl": "Tellen tot 20 met fruit — Dubbel tienraam",
+      "sv": "Räkna till 20 med frukter — Dubbel tioram",
+      "da": "Tæl til 20 med frugter — Dobbelt tierramme",
+      "no": "Tell til 20 med frukt — Dobbel tierramme",
+      "fi": "Laske 20 saakka hedelmillä — Kaksoiskymmenruudukko"
+    },
+    "page_intro": {
+      "en": "Practise counting from 0 to 20 on a double ten-frame using fruit counters. Aligned to Common Core K.CC.B.4 — extend cardinality past 10.",
+      "de": "Übe das Zählen von 0 bis 20 auf einem doppelten Zehnerfeld mit Fruchtplättchen. Angepasst an Common Core K.CC.B.4 — Kardinalität über 10 hinaus.",
+      "es": "Practica contar de 0 a 20 en un marco de diez doble con frutas. Alineado a Common Core K.CC.B.4 — extender la cardinalidad más allá de 10.",
+      "fr": "Pratique le comptage de 0 à 20 sur un cadre de dix double avec des fruits. Aligné à Common Core K.CC.B.4 — étendre la cardinalité au-delà de 10.",
+      "it": "Esercitati a contare da 0 a 20 su una doppia tabella del dieci con frutta. Allineato a Common Core K.CC.B.4 — estendere la cardinalità oltre 10.",
+      "pt": "Pratique contar de 0 a 20 num quadro de dez duplo com frutas. Alinhado a Common Core K.CC.B.4 — estender a cardinalidade além de 10.",
+      "nl": "Oefen tellen van 0 tot 20 op een dubbel tienraam met fruit. Aansluitend bij Common Core K.CC.B.4 — kardinaliteit voorbij 10.",
+      "sv": "Öva på att räkna från 0 till 20 i en dubbel tioram med frukter. I linje med Common Core K.CC.B.4 — utöka kardinaliteten över 10.",
+      "da": "Øv at tælle fra 0 til 20 på en dobbelt tierramme med frugter. På linje med Common Core K.CC.B.4 — udvid kardinaliteten ud over 10.",
+      "no": "Øv på å telle fra 0 til 20 på en dobbel tierramme med frukt. Etter Common Core K.CC.B.4 — utvid kardinaliteten forbi 10.",
+      "fi": "Harjoittele laskemaan 0–20 kaksoiskymmenruudukolla hedelmillä. Yhdenmukainen Common Core K.CC.B.4 — laajenna kardinaliteetti yli kymmenen."
+    },
+    "kid_prompt_template": "taskMake"
+  },
+  {
+    "id": "ten-frame.how-many.0-10.animals",
+    "tool": "ten-frame-activity",
+    "task_template": "how-many",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.CC.B.5",
+      "grade": "K",
+      "strand": "Counting & Cardinality"
+    },
+    "params": {
+      "targets": [3, 5, 7, 9],
+      "range": { "min": 0, "max": 10 },
+      "frames": 1
+    },
+    "theme": "animals",
+    "slug": {
+      "en": "how-many-animals-0-to-10",
+      "de": "wie-viele-tiere-0-bis-10",
+      "es": "cuantos-animales-0-a-10",
+      "fr": "combien-d-animaux-0-a-10",
+      "it": "quanti-animali-0-a-10",
+      "pt": "quantos-animais-0-a-10",
+      "nl": "hoeveel-dieren-0-tot-10",
+      "sv": "hur-manga-djur-0-till-10",
+      "da": "hvor-mange-dyr-0-til-10",
+      "no": "hvor-mange-dyr-0-til-10",
+      "fi": "kuinka-monta-elainta-0-10"
+    },
+    "page_title": {
+      "en": "How Many Animals? Count 0 to 10 — Ten Frame Activity",
+      "de": "Wie viele Tiere? Zählen 0 bis 10 — Zehnerfeld",
+      "es": "¿Cuántos animales? Contar de 0 a 10 — Marco de diez",
+      "fr": "Combien d'animaux ? Compter de 0 à 10 — Cadre de dix",
+      "it": "Quanti animali? Contare da 0 a 10 — Tabella del dieci",
+      "pt": "Quantos animais? Contar de 0 a 10 — Quadro de dez",
+      "nl": "Hoeveel dieren? Tellen van 0 tot 10 — Tienraam",
+      "sv": "Hur många djur? Räkna 0 till 10 — Tioram",
+      "da": "Hvor mange dyr? Tæl 0 til 10 — Tierramme",
+      "no": "Hvor mange dyr? Tell 0 til 10 — Tierramme",
+      "fi": "Kuinka monta eläintä? Laske 0–10 — Kymmenruudukko"
+    },
+    "page_intro": {
+      "en": "Look at the ten-frame and answer how many animals you see. Aligned to Common Core K.CC.B.5 — count to answer \"how many?\" up to 20 things.",
+      "de": "Schau auf das Zehnerfeld und sage, wie viele Tiere du siehst. Angepasst an Common Core K.CC.B.5 — Zählen, um „wie viele?\" zu beantworten.",
+      "es": "Mira el marco de diez y di cuántos animales ves. Alineado a Common Core K.CC.B.5 — contar para responder «¿cuántos?».",
+      "fr": "Regarde le cadre de dix et dis combien d'animaux tu vois. Aligné à Common Core K.CC.B.5 — compter pour répondre à « combien ? ».",
+      "it": "Guarda la tabella del dieci e di' quanti animali vedi. Allineato a Common Core K.CC.B.5 — contare per rispondere a «quanti?».",
+      "pt": "Olha o quadro de dez e diz quantos animais vês. Alinhado a Common Core K.CC.B.5 — contar para responder «quantos?».",
+      "nl": "Kijk naar het tienraam en zeg hoeveel dieren je ziet. Aansluitend bij Common Core K.CC.B.5 — tellen om \"hoeveel?\" te beantwoorden.",
+      "sv": "Titta på tioramen och säg hur många djur du ser. I linje med Common Core K.CC.B.5 — räkna för att svara på \"hur många?\".",
+      "da": "Se på tierrammen og sig hvor mange dyr du ser. På linje med Common Core K.CC.B.5 — tæl for at svare på \"hvor mange?\".",
+      "no": "Se på tierrammen og si hvor mange dyr du ser. Etter Common Core K.CC.B.5 — tell for å svare på \"hvor mange?\".",
+      "fi": "Katso kymmenruudukkoa ja sano, kuinka monta eläintä näet. Yhdenmukainen Common Core K.CC.B.5 — laske vastataksesi \"kuinka monta?\"."
+    },
+    "kid_prompt_template": "taskHowMany"
+  },
+  {
+    "id": "ten-frame.write-numeral.0-20.fruits",
+    "tool": "ten-frame-activity",
+    "task_template": "how-many",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.CC.A.3",
+      "grade": "K",
+      "strand": "Counting & Cardinality"
+    },
+    "params": {
+      "targets": [4, 8, 12, 16],
+      "range": { "min": 0, "max": 20 },
+      "frames": 2
+    },
+    "theme": "fruits",
+    "slug": {
+      "en": "write-the-number-0-to-20-with-fruits",
+      "de": "zahlen-0-bis-20-schreiben-mit-fruechten",
+      "es": "escribir-numeros-0-a-20-con-frutas",
+      "fr": "ecrire-nombres-0-a-20-avec-des-fruits",
+      "it": "scrivere-numeri-0-a-20-con-frutta",
+      "pt": "escrever-numeros-0-a-20-com-frutas",
+      "nl": "getallen-0-tot-20-schrijven-met-fruit",
+      "sv": "skriva-siffror-0-till-20-med-frukter",
+      "da": "skrive-tal-0-til-20-med-frugter",
+      "no": "skrive-tall-0-til-20-med-frukt",
+      "fi": "kirjoita-numero-0-20-hedelmilla"
+    },
+    "page_title": {
+      "en": "Write the Number 0 to 20 with Fruits — Double Ten Frame",
+      "de": "Zahlen 0 bis 20 schreiben mit Früchten — Doppeltes Zehnerfeld",
+      "es": "Escribir números de 0 a 20 con frutas — Marco de diez doble",
+      "fr": "Écrire les nombres de 0 à 20 avec des fruits — Cadre de dix double",
+      "it": "Scrivere i numeri da 0 a 20 con frutta — Doppia tabella del dieci",
+      "pt": "Escrever números de 0 a 20 com frutas — Quadro de dez duplo",
+      "nl": "Getallen 0 tot 20 schrijven met fruit — Dubbel tienraam",
+      "sv": "Skriva siffror 0 till 20 med frukter — Dubbel tioram",
+      "da": "Skrive tal 0 til 20 med frugter — Dobbelt tierramme",
+      "no": "Skrive tall 0 til 20 med frukt — Dobbel tierramme",
+      "fi": "Kirjoita numero 0–20 hedelmillä — Kaksoiskymmenruudukko"
+    },
+    "page_intro": {
+      "en": "Count the fruits on the double ten-frame and write the numeral 0 to 20. Aligned to Common Core K.CC.A.3 — represent a number of objects with a written numeral.",
+      "de": "Zähle die Früchte auf dem doppelten Zehnerfeld und schreibe die Zahl 0 bis 20. Angepasst an Common Core K.CC.A.3 — eine Anzahl mit Ziffern darstellen.",
+      "es": "Cuenta las frutas en el marco de diez doble y escribe el número de 0 a 20. Alineado a Common Core K.CC.A.3 — representar una cantidad con cifras.",
+      "fr": "Compte les fruits sur le cadre de dix double et écris le nombre de 0 à 20. Aligné à Common Core K.CC.A.3 — représenter une quantité avec un chiffre.",
+      "it": "Conta la frutta sulla doppia tabella del dieci e scrivi il numero da 0 a 20. Allineato a Common Core K.CC.A.3 — rappresentare una quantità con un numero scritto.",
+      "pt": "Conta as frutas no quadro de dez duplo e escreve o número de 0 a 20. Alinhado a Common Core K.CC.A.3 — representar uma quantidade com um numeral.",
+      "nl": "Tel het fruit op het dubbel tienraam en schrijf het getal 0 tot 20. Aansluitend bij Common Core K.CC.A.3 — een aantal weergeven met een geschreven cijfer.",
+      "sv": "Räkna frukterna i den dubbla tioramen och skriv siffran 0 till 20. I linje med Common Core K.CC.A.3 — representera ett antal med en skriven siffra.",
+      "da": "Tæl frugterne på den dobbelte tierramme og skriv tallet 0 til 20. På linje med Common Core K.CC.A.3 — repræsentér en mængde med et tal.",
+      "no": "Tell frukten på den doble tierrammen og skriv tallet 0 til 20. Etter Common Core K.CC.A.3 — representér et antall med et skrevet tall.",
+      "fi": "Laske hedelmät kaksoiskymmenruudukolla ja kirjoita numero 0–20. Yhdenmukainen Common Core K.CC.A.3 — esitä määrä kirjoitetulla numerolla."
+    },
+    "kid_prompt_template": "taskHowMany"
+  },
+  {
+    "id": "ten-frame.decompose-10.make-pairs",
+    "tool": "ten-frame-activity",
+    "task_template": "make-n",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.OA.A.3",
+      "grade": "K",
+      "strand": "Operations & Algebraic Thinking"
+    },
+    "params": {
+      "targets": [3, 5, 7],
+      "range": { "min": 0, "max": 10 },
+      "frames": 1
+    },
+    "theme": null,
+    "slug": {
+      "en": "decompose-10-into-pairs",
+      "de": "10-in-paare-zerlegen",
+      "es": "descomponer-10-en-pares",
+      "fr": "decomposer-10-en-paires",
+      "it": "scomporre-10-in-coppie",
+      "pt": "decompor-10-em-pares",
+      "nl": "10-in-paren-splitsen",
+      "sv": "dela-upp-10-i-par",
+      "da": "10-i-par-opdele",
+      "no": "10-i-par-dele",
+      "fi": "hajota-10-pareiksi"
+    },
+    "page_title": {
+      "en": "Decompose 10 into Pairs — Ten Frame Activity",
+      "de": "10 in Paare zerlegen — Zehnerfeld-Aufgabe",
+      "es": "Descomponer 10 en pares — Marco de diez",
+      "fr": "Décomposer 10 en paires — Cadre de dix",
+      "it": "Scomporre 10 in coppie — Tabella del dieci",
+      "pt": "Decompor 10 em pares — Quadro de dez",
+      "nl": "10 in paren splitsen — Tienraam",
+      "sv": "Dela upp 10 i par — Tioram",
+      "da": "Opdele 10 i par — Tierramme",
+      "no": "Dele 10 i par — Tierramme",
+      "fi": "Hajota 10 pareiksi — Kymmenruudukko"
+    },
+    "page_intro": {
+      "en": "Fill some cells in the ten-frame and see how the rest pair with them to make 10. Aligned to Common Core K.OA.A.3 — decompose numbers ≤ 10 into pairs in more than one way.",
+      "de": "Fülle einige Felder im Zehnerfeld und sieh, wie die übrigen mit ihnen 10 ergeben. Angepasst an Common Core K.OA.A.3 — Zahlen ≤ 10 in mehrere Paare zerlegen.",
+      "es": "Llena algunas casillas del marco de diez y ve cómo las otras forman pares hasta 10. Alineado a Common Core K.OA.A.3 — descomponer números ≤ 10 en pares.",
+      "fr": "Remplis quelques cases du cadre de dix et vois comment les autres complètent une paire jusqu'à 10. Aligné à Common Core K.OA.A.3 — décomposer les nombres ≤ 10 en paires.",
+      "it": "Riempi alcune caselle nella tabella del dieci e osserva come le altre formano coppie fino a 10. Allineato a Common Core K.OA.A.3 — scomporre numeri ≤ 10 in coppie.",
+      "pt": "Preenche algumas células do quadro de dez e vê como as outras formam pares até 10. Alinhado a Common Core K.OA.A.3 — decompor números ≤ 10 em pares.",
+      "nl": "Vul enkele vakjes in het tienraam en zie hoe de andere er paren mee vormen tot 10. Aansluitend bij Common Core K.OA.A.3 — splits getallen ≤ 10 in paren.",
+      "sv": "Fyll några rutor i tioramen och se hur de andra bildar par till 10. I linje med Common Core K.OA.A.3 — dela upp tal ≤ 10 i par.",
+      "da": "Fyld nogle felter i tierrammen og se, hvordan de andre danner par til 10. På linje med Common Core K.OA.A.3 — opdel tal ≤ 10 i par.",
+      "no": "Fyll noen ruter i tierrammen og se hvordan de andre danner par til 10. Etter Common Core K.OA.A.3 — del tall ≤ 10 i par.",
+      "fi": "Täytä joitakin ruutuja kymmenruudukossa ja katso, miten muut muodostavat parit kymmeneen. Yhdenmukainen Common Core K.OA.A.3 — jaa luvut ≤ 10 pareiksi."
+    },
+    "kid_prompt_template": "taskMake"
+  },
+  {
+    "id": "ten-frame.teen-numbers.make-n",
+    "tool": "ten-frame-activity",
+    "task_template": "make-n",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.NBT.A.1",
+      "grade": "K",
+      "strand": "Number & Operations in Base Ten"
+    },
+    "params": {
+      "targets": [11, 13, 15, 17, 19],
+      "range": { "min": 0, "max": 20 },
+      "frames": 2
+    },
+    "theme": null,
+    "slug": {
+      "en": "teen-numbers-11-to-19",
+      "de": "zahlen-11-bis-19",
+      "es": "numeros-11-a-19",
+      "fr": "nombres-11-a-19",
+      "it": "numeri-11-a-19",
+      "pt": "numeros-11-a-19",
+      "nl": "getallen-11-tot-19",
+      "sv": "siffror-11-till-19",
+      "da": "tal-11-til-19",
+      "no": "tall-11-til-19",
+      "fi": "luvut-11-19"
+    },
+    "page_title": {
+      "en": "Teen Numbers 11 to 19 — Double Ten Frame Activity",
+      "de": "Zahlen 11 bis 19 — Doppeltes Zehnerfeld",
+      "es": "Números 11 a 19 — Marco de diez doble",
+      "fr": "Nombres de 11 à 19 — Cadre de dix double",
+      "it": "Numeri da 11 a 19 — Doppia tabella del dieci",
+      "pt": "Números 11 a 19 — Quadro de dez duplo",
+      "nl": "Getallen 11 tot 19 — Dubbel tienraam",
+      "sv": "Siffror 11 till 19 — Dubbel tioram",
+      "da": "Tal 11 til 19 — Dobbelt tierramme",
+      "no": "Tall 11 til 19 — Dobbel tierramme",
+      "fi": "Luvut 11–19 — Kaksoiskymmenruudukko"
+    },
+    "page_intro": {
+      "en": "Build teen numbers 11 to 19 as \"a full ten and some more.\" The double ten-frame shows ten ones plus the extra ones. Aligned to Common Core K.NBT.A.1.",
+      "de": "Baue Zahlen von 11 bis 19 als „ein volles Zehnerfeld und einige mehr\". Das doppelte Zehnerfeld zeigt zehn Einer plus die zusätzlichen. Angepasst an Common Core K.NBT.A.1.",
+      "es": "Construye los números 11 a 19 como «un diez completo y algunos más». El marco de diez doble muestra diez unidades más las adicionales. Alineado a Common Core K.NBT.A.1.",
+      "fr": "Construis les nombres de 11 à 19 comme « un dizaine complète et quelques unités ». Le cadre de dix double montre dix unités plus les autres. Aligné à Common Core K.NBT.A.1.",
+      "it": "Costruisci i numeri da 11 a 19 come «un dieci pieno e altri ancora». La doppia tabella del dieci mostra dieci unità più altre. Allineato a Common Core K.NBT.A.1.",
+      "pt": "Constrói os números 11 a 19 como «uma dezena completa e mais alguns». O quadro de dez duplo mostra dez unidades mais as adicionais. Alinhado a Common Core K.NBT.A.1.",
+      "nl": "Bouw getallen 11 tot 19 als \"een volle tien en nog wat meer\". Het dubbele tienraam toont tien enen plus de extra's. Aansluitend bij Common Core K.NBT.A.1.",
+      "sv": "Bygg siffror 11 till 19 som \"en hel tia och några till\". Den dubbla tioramen visar tio ettor plus de extra. I linje med Common Core K.NBT.A.1.",
+      "da": "Byg tal 11 til 19 som \"en fuld tier og lidt mere\". Den dobbelte tierramme viser ti enere plus de ekstra. På linje med Common Core K.NBT.A.1.",
+      "no": "Bygg tall 11 til 19 som \"en hel tier og noen til\". Den doble tierrammen viser ti enere pluss de ekstra. Etter Common Core K.NBT.A.1.",
+      "fi": "Rakenna luvut 11–19 muodossa \"täysi kymmen ja muutama lisää\". Kaksoiskymmenruudukko näyttää kymmenen ykköstä plus lisät. Yhdenmukainen Common Core K.NBT.A.1."
+    },
+    "kid_prompt_template": "taskMake"
+  }
+]

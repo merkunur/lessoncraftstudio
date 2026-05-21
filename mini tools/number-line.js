@@ -312,7 +312,8 @@ var NumberLine = {
   +   'font-weight:700;font-size:clamp(20px,3.6vmin,28px);'
   +   'color:var(--lcs-structure);background:var(--lcs-surface);'
   +   'padding:2px 14px;border-radius:var(--lcs-radius-pill);'
-  +   'box-shadow:var(--lcs-shadow-sm);pointer-events:none;white-space:nowrap;}'
+  +   'box-shadow:var(--lcs-shadow-sm);pointer-events:none;white-space:nowrap;'
+  +   'transition:left .12s var(--lcs-ease);}'   /* match marker animation */
   + '.nl-steps{display:flex;justify-content:center;gap:14px;}'
   + '.nl-step{width:var(--lcs-tap);height:var(--lcs-tap);display:grid;'
   +   'place-items:center;border-radius:var(--lcs-radius-sm);'

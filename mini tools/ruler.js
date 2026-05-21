@@ -313,9 +313,10 @@ var Ruler = {
 
     /* re-token handles only when shape/color actually changed */
     if (s.shape !== this._lastShape || s.color !== this._lastColor) {
-      var svg = this.api.token(s.shape, s.color, 40);
+      var svg = this.api.token(s.shape, s.color, 32);
       this.startHandleEl.innerHTML = svg;
       this.endHandleEl.innerHTML   = svg;
+      this.barEl.style.background  = s.color;   // ribbon body matches handle colour
       this._lastShape = s.shape;
       this._lastColor = s.color;
     }
@@ -385,25 +386,33 @@ var Ruler = {
   +   'text-align:center;}'
   /* ruler area */
   + '.rl-area{position:relative;height:clamp(120px,18vmin,180px);touch-action:manipulation;}'
-  + '.rl-svg{position:absolute;top:0;left:0;width:100%;height:60%;overflow:visible;}'
+  + '.rl-svg{position:absolute;top:0;left:0;width:100%;height:50%;overflow:visible;}'
   + '.rl-tape{fill:var(--lcs-surface);stroke:var(--lcs-line);stroke-width:1.5;}'
   + '.rl-baseline{stroke:var(--lcs-structure);stroke-width:2.5;stroke-linecap:round;}'
   + '.rl-tick{stroke:var(--lcs-line);stroke-width:1.2;pointer-events:none;}'
   + '.rl-tick.major{stroke:var(--lcs-structure);stroke-width:2.2;}'
   + '.rl-label{fill:var(--lcs-ink-soft);font-family:var(--lcs-font-body);'
   +   'font-weight:700;font-size:11px;pointer-events:none;}'
-  /* object bar between handles */
-  + '.rl-bar{position:absolute;top:75%;height:14px;'
-  +   'background:var(--lcs-structure-soft);border:2px solid var(--lcs-structure);'
-  +   'border-radius:var(--lcs-radius-pill);transform:translateY(-50%);'
-  +   'pointer-events:none;transition:left .12s var(--lcs-ease),width .12s var(--lcs-ease);}'
-  /* handles */
-  + '.rl-handle{position:absolute;top:75%;transform:translate(-50%,-50%);'
-  +   'width:clamp(36px,7vmin,56px);height:clamp(36px,7vmin,56px);'
+  /* Object body — sits immediately below the ruler baseline (no gap),
+     thick enough to feel like a physical object (ribbon/measuring-tape).
+     Background colour comes from settings.color, set inline in paint(). */
+  + '.rl-bar{position:absolute;top:50%;height:clamp(20px,3vmin,28px);'
+  +   'margin-top:4px;background:var(--lcs-accent);'
+  +   'border:2px solid var(--lcs-structure);border-radius:var(--lcs-radius-pill);'
+  +   'pointer-events:none;'
+  +   'transition:left .12s var(--lcs-ease),width .12s var(--lcs-ease),background .15s;}'
+  /* Endpoint handles — sit ON the bar\'s vertical centre, smaller than the
+     bar so they read as endpoints, not as the object itself. Generous
+     :before pseudo expands the tap target to ≥44px on touch devices
+     without enlarging the visible mark. */
+  + '.rl-handle{position:absolute;top:calc(50% + clamp(14px,2.25vmin,18px));'
+  +   'transform:translate(-50%,-50%);'
+  +   'width:clamp(24px,3.6vmin,32px);height:clamp(24px,3.6vmin,32px);'
   +   'display:grid;place-items:center;background:var(--lcs-surface);'
   +   'border-radius:50%;box-shadow:var(--lcs-shadow);touch-action:none;'
   +   'transition:left .12s var(--lcs-ease),transform .12s var(--lcs-ease);'
   +   'cursor:grab;padding:0;z-index:2;}'
+  + '.rl-handle::before{content:"";position:absolute;inset:-12px;border-radius:50%;}'
   + '.rl-handle:active{cursor:grabbing;}'
   + '.rl-handle.dragging{transition:none;cursor:grabbing;}'
   + '.rl-handle svg{width:80%;height:80%;display:block;}';

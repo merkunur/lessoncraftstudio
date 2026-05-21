@@ -237,18 +237,23 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
   margin-top: 2px;
 }
 /* Feedback lives as a sibling of .lcs-stage (so the tool's render() can't
-   wipe it). .lcs-app is the positioning context. */
+   wipe it). .lcs-app is the positioning context.
+   Anchored to the BOTTOM of the iframe (not center) so the badge doesn't
+   cover the answer surface (board/keypad/ten-frame cells) at the moment
+   of feedback. Slide-up-from-bottom on .open. */
 .lcs-app { position: relative; }
 .lcs-activity-feedback {
   position: absolute;
-  left: 50%; top: 50%;
-  transform: translate(-50%, -50%) scale(0.95);
+  left: 50%;
+  bottom: clamp(12px, 2vmin, 20px);
+  top: auto;
+  transform: translate(-50%, 12px) scale(0.95);
   max-width: 80%;
-  padding: 14px 28px;
+  padding: 12px 24px;
   border-radius: var(--lcs-radius-pill);
   font-family: var(--lcs-font-display);
   font-weight: 700;
-  font-size: clamp(22px, 4vmin, 32px);
+  font-size: clamp(20px, 3.4vmin, 28px);
   box-shadow: var(--lcs-shadow);
   opacity: 0;
   pointer-events: none;
@@ -256,7 +261,7 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
   transition: opacity .2s var(--lcs-ease), transform .2s var(--lcs-ease);
   z-index: 4;
 }
-.lcs-activity-feedback.open    { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+.lcs-activity-feedback.open    { opacity: 1; transform: translate(-50%, 0) scale(1); }
 .lcs-activity-feedback.celebrate { background: var(--lcs-good); color: #fff; }
 .lcs-activity-feedback.tryagain  { background: var(--lcs-accent); color: var(--lcs-accent-ink); }
 

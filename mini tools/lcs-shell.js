@@ -498,6 +498,9 @@
       nextBtnEl.hidden = true;
       checkBtnEl.hidden = false;
       checkBtnEl.disabled = (task.answerType === 'number' || task.answerType === 'choice');
+      /* Broadcast new content height (fixes parent iframe sizing for
+         short activities like choice-board on cards sized for ten-frame). */
+      if (typeof postActivityResize === 'function') postActivityResize();
     }
 
     /* The pending answer for 'number' / 'choice' tasks. */
@@ -632,6 +635,38 @@
       if (progressEl) progressEl.textContent = interpolate(i18n.chrome('tasksDone'), { n: 0 });
       loadTask(getTask(0));
     };
+
+    /* Iframe auto-resize: broadcast the rendered content height to the
+       parent page (the Next.js activity-detail wrapper listens + adjusts
+       the iframe height). Fixes the "tall card / short content" gap that
+       appears when a short activity (e.g., choice-board) shares chrome
+       with a tall one (ten-frame). Activity-mode only. */
+    var _lastReportedHeight = 0;
+    var _resizeRaf = null;
+    function postActivityResize() {
+      if (!tool.tasks && !tool.nextTask) return;
+      if (_resizeRaf) cancelAnimationFrame(_resizeRaf);
+      _resizeRaf = requestAnimationFrame(function () {
+        _resizeRaf = null;
+        var h = app.scrollHeight || document.body.scrollHeight;
+        if (!h || Math.abs(h - _lastReportedHeight) < 4) return;
+        _lastReportedHeight = h;
+        try {
+          window.parent.postMessage(
+            { type: 'lcs-activity-resize', height: h },
+            '*'
+          );
+        } catch (e) { /* cross-origin block — fail silent */ }
+      });
+    }
+    /* Hook into post-render moments so the parent always knows the
+       current content height. Activity-mode only (the manipulative
+       tools have no `tasks` so postActivityResize is a no-op). */
+    if (tool.tasks || tool.nextTask) {
+      window.addEventListener('resize', postActivityResize);
+      /* Initial broadcast after first paint. */
+      requestAnimationFrame(postActivityResize);
+    }
 
     /* ---- go live ---- */
     root.innerHTML = '';

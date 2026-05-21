@@ -62,6 +62,66 @@ var ACTIVITY_STRINGS = {
     no: 'Hvilket tall er størst?',
     fi: 'Kumpi luku on suurempi?'
   },
+  /* Batch 2 K.CC.C.6 — Which group has more */
+  promptWhichMore: {
+    en: 'Which group has more?',
+    de: 'Welche Gruppe hat mehr?',
+    fr: 'Quel groupe en a plus ?',
+    it: 'Quale gruppo ne ha di più?',
+    es: '¿Qué grupo tiene más?',
+    pt: 'Qual grupo tem mais?',
+    nl: 'Welke groep heeft er meer?',
+    sv: 'Vilken grupp har fler?',
+    da: 'Hvilken gruppe har flest?',
+    no: 'Hvilken gruppe har flest?',
+    fi: 'Kummalla ryhmällä on enemmän?'
+  },
+  /* Batch 2 2.OA.C.3 — Even or odd */
+  promptEvenOrOdd: {
+    en: 'Is this number even or odd?',
+    de: 'Ist diese Zahl gerade oder ungerade?',
+    fr: 'Ce nombre est-il pair ou impair ?',
+    it: 'Questo numero è pari o dispari?',
+    es: '¿Este número es par o impar?',
+    pt: 'Este número é par ou ímpar?',
+    nl: 'Is dit getal even of oneven?',
+    sv: 'Är talet jämnt eller udda?',
+    da: 'Er tallet lige eller ulige?',
+    no: 'Er tallet partall eller oddetall?',
+    fi: 'Onko luku parillinen vai pariton?'
+  },
+  /* Batch 2 K.G.A.3 — Flat or solid (2D vs 3D) */
+  promptFlatOrSolid: {
+    en: 'Is this shape flat or solid?',
+    de: 'Ist diese Form flach oder ein Körper?',
+    fr: 'Cette forme est-elle plate ou solide ?',
+    it: 'Questa forma è piatta o solida?',
+    es: '¿Esta forma es plana o sólida?',
+    pt: 'Esta forma é plana ou sólida?',
+    nl: 'Is deze vorm plat of een lichaam?',
+    sv: 'Är formen platt eller solid?',
+    da: 'Er formen flad eller rumlig?',
+    no: 'Er formen flat eller solid?',
+    fi: 'Onko muoto litteä vai kappale?'
+  },
+  /* Even/Odd tile labels */
+  labelEven: {
+    en: 'Even', de: 'Gerade', fr: 'Pair', it: 'Pari', es: 'Par', pt: 'Par',
+    nl: 'Even', sv: 'Jämnt', da: 'Lige', no: 'Partall', fi: 'Parillinen'
+  },
+  labelOdd: {
+    en: 'Odd', de: 'Ungerade', fr: 'Impair', it: 'Dispari', es: 'Impar', pt: 'Ímpar',
+    nl: 'Oneven', sv: 'Udda', da: 'Ulige', no: 'Oddetall', fi: 'Pariton'
+  },
+  /* Flat/Solid tile labels */
+  labelFlat: {
+    en: 'Flat', de: 'Flach', fr: 'Plate', it: 'Piatta', es: 'Plana', pt: 'Plana',
+    nl: 'Plat', sv: 'Platt', da: 'Flad', no: 'Flat', fi: 'Litteä'
+  },
+  labelSolid: {
+    en: 'Solid', de: 'Körper', fr: 'Solide', it: 'Solida', es: 'Sólida', pt: 'Sólida',
+    nl: 'Lichaam', sv: 'Solid', da: 'Rumlig', no: 'Solid', fi: 'Kappale'
+  },
   hintPickOne: {
     en: 'Pick one of the shapes first',
     de: 'Wähle zuerst eine Form aus',
@@ -119,6 +179,20 @@ var SHAPE_LABELS = {
   },
   diamond: {
     en:'diamond',de:'Raute',fr:'losange',it:'rombo',es:'rombo',pt:'losango',nl:'ruit',sv:'romben',da:'rumben',no:'rombe',fi:'vinoneliötä'
+  },
+  /* 3D shapes — used as flat-solid subject ARIA labels. Not interpolated
+     into promptTapShape (that template is 2D-only). */
+  cube: {
+    en:'cube',de:'Würfel',fr:'cube',it:'cubo',es:'cubo',pt:'cubo',nl:'kubus',sv:'kub',da:'terning',no:'terning',fi:'kuutio'
+  },
+  sphere: {
+    en:'sphere',de:'Kugel',fr:'sphère',it:'sfera',es:'esfera',pt:'esfera',nl:'bol',sv:'sfär',da:'kugle',no:'kule',fi:'pallo'
+  },
+  cylinder: {
+    en:'cylinder',de:'Zylinder',fr:'cylindre',it:'cilindro',es:'cilindro',pt:'cilindro',nl:'cilinder',sv:'cylinder',da:'cylinder',no:'sylinder',fi:'lieriö'
+  },
+  cone: {
+    en:'cone',de:'Kegel',fr:'cône',it:'cono',es:'cono',pt:'cone',nl:'kegel',sv:'kon',da:'kegle',no:'kjegle',fi:'kartio'
   }
 };
 
@@ -346,6 +420,110 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
           },
           check: function (tool) {
             var correct = tool.answer === String(bigger);
+            tool.showFeedback(correct);
+            return correct;
+          },
+          hintKey: function (tool) {
+            return tool.answer == null ? 'hintPickOne' : 'hintTryAgain';
+          }
+        };
+      });
+    }
+
+    /* TEMPLATE: which-more (K.CC.C.6) — show 2 groups of objects, kid
+       picks the group with more. params.pairs = [
+         { noun: 'cat', themeDir: 'animals', counts: [3, 5] }, ...
+       ]. Engine cap: counts ≤ 8 per side. */
+    if (row.task_template === 'which-more') {
+      var morePairs = row.params.pairs;
+      return morePairs.map(function (pair, idx) {
+        var imgUrl = '/image-library-webp/themes/' + pair.themeDir + '/' + pair.noun + '@2x.webp';
+        var a = pair.counts[0], b = pair.counts[1];
+        var more = a > b ? a : b;
+        var moreKey = 'group_' + more;
+        return {
+          id: row.id + '.' + pair.noun + '-' + a + '-vs-' + b,
+          promptKey: 'promptWhichMore',
+          answerType: 'state',
+          setup: function (tool) {
+            /* idx-parity for deterministic left/right placement so
+               bigger isn't always on the same side. */
+            var first  = (idx % 2 === 0) ? a : b;
+            var second = (idx % 2 === 0) ? b : a;
+            var options = [
+              { key: 'group_' + first,  group: { imgUrl: imgUrl, count: first  }, label: first  + ' ' + pair.noun },
+              { key: 'group_' + second, group: { imgUrl: imgUrl, count: second }, label: second + ' ' + pair.noun }
+            ];
+            tool.setupTask(options, moreKey, null);
+          },
+          check: function (tool) {
+            var correct = tool.answer === moreKey;
+            tool.showFeedback(correct);
+            return correct;
+          },
+          hintKey: function (tool) {
+            return tool.answer == null ? 'hintPickOne' : 'hintTryAgain';
+          }
+        };
+      });
+    }
+
+    /* TEMPLATE: even-odd (2.OA.C.3) — show a numeral as subject, kid
+       picks "Even" or "Odd" text tile. params.numbers = [2..9, ...]. */
+    if (row.task_template === 'even-odd') {
+      var numbers = row.params.numbers;
+      return numbers.map(function (n) {
+        var isEven = (n % 2 === 0);
+        var targetKey = isEven ? 'even' : 'odd';
+        return {
+          id: row.id + '.n' + n,
+          promptKey: 'promptEvenOrOdd',
+          answerType: 'state',
+          setup: function (tool) {
+            var options = [
+              { key: 'even', text: self.api.t('labelEven') },
+              { key: 'odd',  text: self.api.t('labelOdd')  }
+            ];
+            var subject = { type: 'text', text: String(n) };
+            tool.setupTask(options, targetKey, subject);
+          },
+          check: function (tool) {
+            var correct = tool.answer === targetKey;
+            tool.showFeedback(correct);
+            return correct;
+          },
+          hintKey: function (tool) {
+            return tool.answer == null ? 'hintPickOne' : 'hintTryAgain';
+          }
+        };
+      });
+    }
+
+    /* TEMPLATE: flat-solid (K.G.A.3) — show a shape image as subject,
+       kid picks "Flat" (2D) or "Solid" (3D) text tile.
+       params.shapes = [{ key, kind: '2d' | '3d' }, ...]. */
+    if (row.task_template === 'flat-solid') {
+      var shapeList = row.params.shapes;
+      return shapeList.map(function (entry) {
+        var targetKey = entry.kind === '3d' ? 'solid' : 'flat';
+        return {
+          id: row.id + '.' + entry.key,
+          promptKey: 'promptFlatOrSolid',
+          answerType: 'state',
+          setup: function (tool) {
+            var options = [
+              { key: 'flat',  text: self.api.t('labelFlat')  },
+              { key: 'solid', text: self.api.t('labelSolid') }
+            ];
+            var subject = {
+              type: 'image',
+              imgUrl: '/image-library-webp/themes/shapes/' + entry.key + '@2x.webp',
+              alt: self.api.t('shapeLabel_' + entry.key) || entry.key
+            };
+            tool.setupTask(options, targetKey, subject);
+          },
+          check: function (tool) {
+            var correct = tool.answer === targetKey;
             tool.showFeedback(correct);
             return correct;
           },

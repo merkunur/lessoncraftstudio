@@ -119,11 +119,29 @@ window.ChoiceBoardCore = {
       tile.setAttribute('aria-pressed', 'false');
       tile.setAttribute('aria-label', opt.label || opt.text || opt.key);
 
-      /* Two tile shapes: image (existing) OR text (new). Text tiles
-         render the option's text as a big display-font glyph (used by
-         pick-bigger + count-sides for number tiles). Image tiles render
-         the option's image (used by shape-id). */
-      if (opt.text != null) {
+      /* Three tile shapes: image (existing), text (Batch 1), group (Batch 2).
+         Text tiles render the option's text as a big display-font glyph
+         (used by pick-bigger / count-sides for number tiles, even-odd /
+         flat-solid for label tiles). Image tiles render the option's
+         image (used by shape-id). Group tiles render N small copies of
+         the option's image in a grid inside the tile (used by which-more
+         to show "3 cats vs 5 cats"). */
+      if (opt.group && opt.group.imgUrl && opt.group.count > 0) {
+        tile.classList.add('cb-tile--group');
+        var groupEl = this.api.el('div', 'cb-group');
+        var count = Math.min(opt.group.count, 8);  /* engine cap per plan */
+        var cols = count <= 4 ? 2 : (count <= 6 ? 3 : 4);
+        groupEl.style.gridTemplateColumns = 'repeat(' + cols + ', 1fr)';
+        groupEl.setAttribute('aria-label', count + ' items');
+        for (var g = 0; g < count; g++) {
+          var gImg = this.api.el('img', 'cb-group-item');
+          gImg.src = opt.group.imgUrl;
+          gImg.alt = '';
+          gImg.setAttribute('loading', 'lazy');
+          groupEl.appendChild(gImg);
+        }
+        tile.appendChild(groupEl);
+      } else if (opt.text != null) {
         tile.classList.add('cb-tile--text');
         var textEl = this.api.el('span', 'cb-tile-text');
         textEl.textContent = String(opt.text);
@@ -240,6 +258,27 @@ window.ChoiceBoardCore = {
       '  color:var(--lcs-structure);',
       '  line-height:1;letter-spacing:-0.02em;',
       '  pointer-events:none;user-select:none;',
+      '  text-align:center;',
+      '}',
+
+      /* Group tile — used by which-more. Renders N small copies of an
+         image in a grid inside the tile chassis. Grid columns set
+         inline by render() based on count (2/3/4 per band). Items
+         scale within their grid cells to keep the count readable at
+         the 2-up tile size. */
+      '.cb-tile--group{padding:clamp(12px,2.6vmin,20px);}',
+      '.cb-group{',
+      '  display:grid;',
+      '  gap:clamp(4px,1vmin,8px);',
+      '  width:100%;height:100%;',
+      '  align-items:center;justify-items:center;',
+      '  align-content:center;justify-content:center;',
+      '}',
+      '.cb-group-item{',
+      '  width:100%;height:auto;max-width:64px;',
+      '  aspect-ratio:1;object-fit:contain;',
+      '  pointer-events:none;user-select:none;',
+      '  filter:drop-shadow(0 2px 4px rgba(20,30,28,0.08));',
       '}',
 
       /* Subject element — shown ABOVE the tile grid. Used by activities

@@ -50,6 +50,8 @@ Each accepts `?lang=<locale>`, `?embed=1`, `?embed=compact`, `?sound=off`.
 
 ## Subsequent updates (per-edit cadence)
 
+_**Steady-state path** (every edit after first-time setup): just `deploy.sh` then the step-3 copy below. The symlink is permanent in `frontend/public/mini-tools` and `cp -a public` carries it into every future standalone snapshot. (First-time setup was different — it required `deploy.sh → one-time setup → deploy.sh again` because the standalone snapshot must already contain the symlink for the served URL to resolve.)_
+
 For every edit to a `mini tools/` file:
 
 1. **Local PC**: run `scripts\master-sync.bat` (Windows) or `bash scripts/master-sync.sh` (Unix). This refreshes `frontend/public/mini-tools/` so the local Next.js dev server (`npm run dev`) shows the change.

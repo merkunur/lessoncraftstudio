@@ -127,6 +127,67 @@ function evaluate(inputs, opts) {
     };
   }
 
+  // GREEN-locale branch (es, it, pt, fr, fi): rule-syllabifier is the
+  // AUTHORITATIVE split source when present and agreeing with vocab-phonics
+  // count. TeX is typographic line-break hyphenation (Liang patterns), not a
+  // pedagogical source — its disagreement on GREEN locales is logged in notes,
+  // not vetoing. Safety floor preserved: rule-vs-vocab-phonics count
+  // disagreement still quarantines; rule-null falls through to the legacy
+  // multi-source gate (which quarantines for insufficient sources).
+  const GREEN_LOCALES = new Set(['es', 'it', 'pt', 'fr', 'fi']);
+  const isGreen = GREEN_LOCALES.has(opts.locale);
+
+  if (isGreen && R) {
+    const topSplit = R;
+    const ruleCount = R.length;
+
+    // Genuine conflict: rule vs vocab-phonics disagree on count → quarantine.
+    if (S !== null && S !== ruleCount) {
+      return {
+        verdict: 'QUARANTINE',
+        reason: 'rule_vs_vocab_phonics_count_disagreement',
+        top_split: topSplit,
+        top_split_count: ruleCount,
+        vocab_phonics_syl: S,
+        tex_split: T,
+        source_outputs: { T, R, N: nCount, W, S }
+      };
+    }
+
+    // S missing → only rule is available. GREEN locales require
+    // rule + vocab-phonics agreement (2 pedagogically-grounded sources).
+    if (S === null) {
+      return {
+        verdict: 'QUARANTINE',
+        reason: 'insufficient_independent_sources',
+        sources_agreed: ['rule'],
+        min_required: 2,
+        total_agreed: 1,
+        top_split: topSplit,
+        source_outputs: { T, R, N: nCount, W, S }
+      };
+    }
+
+    // PASS — rule + vocab-phonics agree on count. TeX disagreement → advisory.
+    const sourcesAgreed = ['rule', 'vocab-phonics-syl'];
+    const result = {
+      verdict: 'PASS',
+      syllables: topSplit,
+      count: ruleCount,
+      chunks: topSplit,
+      sources_agreed: sourcesAgreed,
+      total_agreed: sourcesAgreed.length,
+      rule_authoritative: true
+    };
+    if (T !== null && !splitsEqual(T, R)) {
+      result.notes = { tex_disagreed_with_rule: true, tex_split: T };
+    } else if (T !== null) {
+      sourcesAgreed.unshift('TeX');
+      result.total_agreed = sourcesAgreed.length;
+    }
+    return result;
+  }
+
   // Collect ORTHOGRAPHIC split sources (T, R) for boundary-position agreement
   const splitSources = [];
   if (T) splitSources.push({ label: 'TeX', split: T });

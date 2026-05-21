@@ -158,7 +158,9 @@ async function runLocale(locale, opts) {
           total_agreed: verdict.total_agreed,
           ...(verdict.policy_managed ? { policy_managed: true, policy_managed_reasons: verdict.policy_managed_reasons } : {}),
           ...(verdict.nst_sampa ? { nst_sampa: verdict.nst_sampa } : {}),
-          ...(verdict.wiktionary_ipa ? { wiktionary_ipa: verdict.wiktionary_ipa } : {})
+          ...(verdict.wiktionary_ipa ? { wiktionary_ipa: verdict.wiktionary_ipa } : {}),
+          ...(verdict.rule_authoritative ? { rule_authoritative: true } : {}),
+          ...(verdict.notes ? { notes: verdict.notes } : {})
         });
       } else {
         quarantined.push({ locale, key, word, ...verdict });
@@ -171,7 +173,7 @@ async function runLocale(locale, opts) {
   const out = {
     locale,
     generated_at: new Date().toISOString(),
-    gate_version: '1.0',
+    gate_version: '1.1',
     source_stack: [
       'TeX-hyphenation-via-hyphen-npm',
       'rule-based-phonotactic-syllabifier',

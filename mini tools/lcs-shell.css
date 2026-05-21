@@ -432,13 +432,6 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
     0 2px 0 rgba(20, 90, 56, 0.4),
     0 4px 8px rgba(47, 165, 106, 0.2);
 }
-.lcs-activity-check:hover:not(:disabled),
-.lcs-activity-next:hover  { transform: translateY(-1px); background: #1a8576; }
-.lcs-activity-check:active:not(:disabled),
-.lcs-activity-next:active { transform: scale(.96); }
-.lcs-activity-check:disabled { opacity: .45; cursor: not-allowed; }
-.lcs-activity-next { background: var(--lcs-accent); }
-.lcs-activity-next:hover { background: #d9663c; }
 .lcs-activity-check[hidden],
 .lcs-activity-next[hidden] { display: none; }
 

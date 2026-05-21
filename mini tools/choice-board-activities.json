@@ -54,5 +54,130 @@
       "fi": "Napauta muotoa, joka mainitaan kussakin tehtävässä. Yhdenmukainen Common Core K.G.A.2 — nimeä muotoja suuntaamisesta tai koosta riippumatta."
     },
     "kid_prompt_template": "promptTapShape"
+  },
+  {
+    "id": "choice-board.count-sides.k-g-b-4",
+    "tool": "choice-board-activity",
+    "task_template": "count-sides",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.G.B.4",
+      "grade": "K",
+      "strand": "Geometry"
+    },
+    "params": {
+      "shapes": [
+        { "key": "triangle", "sides": 3 },
+        { "key": "square",   "sides": 4 },
+        { "key": "pentagon", "sides": 5 },
+        { "key": "hexagon",  "sides": 6 }
+      ],
+      "distractorPool": [3, 4, 5, 6, 7, 8]
+    },
+    "theme": null,
+    "slug": {
+      "en": "count-the-sides",
+      "de": "seiten-zaehlen",
+      "es": "cuenta-los-lados",
+      "fr": "compte-les-cotes",
+      "it": "conta-i-lati",
+      "pt": "conte-os-lados",
+      "nl": "zijden-tellen",
+      "sv": "rakna-sidorna",
+      "da": "tael-siderne",
+      "no": "tell-sidene",
+      "fi": "laske-sivut"
+    },
+    "page_title": {
+      "en": "Count the Sides — Kindergarten Geometry",
+      "de": "Seiten zählen — Geometrie im Kindergarten",
+      "es": "Cuenta los lados — Geometría en jardín infantil",
+      "fr": "Compte les côtés — Géométrie à la maternelle",
+      "it": "Conta i lati — Geometria scuola dell'infanzia",
+      "pt": "Conte os lados — Geometria no pré-escolar",
+      "nl": "Zijden tellen — Meetkunde in de kleuterklas",
+      "sv": "Räkna sidorna — Geometri i förskoleklass",
+      "da": "Tæl siderne — Geometri i børnehaveklassen",
+      "no": "Tell sidene — Geometri i barnehagen",
+      "fi": "Laske sivut — Esiopetuksen geometriaa"
+    },
+    "page_intro": {
+      "en": "Look at each shape and tap how many sides it has. Aligned to Common Core K.G.B.4 — analyze shapes by their parts, like the number of sides.",
+      "de": "Schau dir jede Form an und tippe an, wie viele Seiten sie hat. Angepasst an Common Core K.G.B.4 — Formen anhand ihrer Teile analysieren, etwa der Anzahl der Seiten.",
+      "es": "Mira cada forma y toca cuántos lados tiene. Alineado a Common Core K.G.B.4 — analizar formas por sus partes, como el número de lados.",
+      "fr": "Regarde chaque forme et touche le nombre de côtés. Aligné à Common Core K.G.B.4 — analyser les formes selon leurs parties, comme le nombre de côtés.",
+      "it": "Guarda ogni forma e tocca quanti lati ha. Allineato a Common Core K.G.B.4 — analizzare le forme attraverso le loro parti, come il numero di lati.",
+      "pt": "Olhe cada forma e toque em quantos lados ela tem. Alinhado a Common Core K.G.B.4 — analisar formas pelas suas partes, como o número de lados.",
+      "nl": "Kijk naar elke vorm en tik op het aantal zijden. Aansluitend bij Common Core K.G.B.4 — vormen analyseren aan de hand van hun onderdelen, zoals het aantal zijden.",
+      "sv": "Titta på varje form och tryck på antalet sidor. I linje med Common Core K.G.B.4 — analysera former utifrån deras delar, som antalet sidor.",
+      "da": "Se på hver form og tryk på antallet af sider. På linje med Common Core K.G.B.4 — analysér former ud fra deres dele, som antallet af sider.",
+      "no": "Se på hver form og trykk på antall sider. Etter Common Core K.G.B.4 — analysér former ut fra delene deres, som antall sider.",
+      "fi": "Katso jokaista muotoa ja napauta sivujen lukumäärää. Yhdenmukainen Common Core K.G.B.4 — analysoi muotoja niiden osien, kuten sivujen lukumäärän, perusteella."
+    },
+    "kid_prompt_template": "promptCountSides"
+  },
+  {
+    "id": "choice-board.pick-bigger.k-c-c-7",
+    "tool": "choice-board-activity",
+    "task_template": "pick-bigger",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.CC.C.7",
+      "grade": "K",
+      "strand": "Counting & Cardinality"
+    },
+    "params": {
+      "pairs": [
+        [3, 5],
+        [7, 4],
+        [9, 6],
+        [2, 8],
+        [5, 3],
+        [6, 9],
+        [4, 1],
+        [8, 7]
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "which-number-is-bigger",
+      "de": "welche-zahl-ist-groesser",
+      "es": "que-numero-es-mayor",
+      "fr": "quel-nombre-est-plus-grand",
+      "it": "quale-numero-e-piu-grande",
+      "pt": "qual-numero-e-maior",
+      "nl": "welk-getal-is-groter",
+      "sv": "vilket-tal-ar-storre",
+      "da": "hvilket-tal-er-storst",
+      "no": "hvilket-tall-er-storst",
+      "fi": "kumpi-luku-on-suurempi"
+    },
+    "page_title": {
+      "en": "Which Number Is Bigger? — Kindergarten Counting",
+      "de": "Welche Zahl ist größer? — Zählen im Kindergarten",
+      "es": "¿Qué número es mayor? — Contar en jardín infantil",
+      "fr": "Quel nombre est plus grand ? — Numération à la maternelle",
+      "it": "Quale numero è più grande? — Contare alla scuola dell'infanzia",
+      "pt": "Qual número é maior? — Contagem no pré-escolar",
+      "nl": "Welk getal is groter? — Tellen in de kleuterklas",
+      "sv": "Vilket tal är större? — Räkning i förskoleklass",
+      "da": "Hvilket tal er størst? — Tælling i børnehaveklassen",
+      "no": "Hvilket tall er størst? — Telling i barnehagen",
+      "fi": "Kumpi luku on suurempi? — Esiopetuksen laskemista"
+    },
+    "page_intro": {
+      "en": "Look at two numbers and tap the bigger one. Aligned to Common Core K.CC.C.7 — compare two numbers between 1 and 10 presented as written numerals.",
+      "de": "Schau dir zwei Zahlen an und tippe die größere an. Angepasst an Common Core K.CC.C.7 — zwei Zahlen zwischen 1 und 10 in geschriebener Form vergleichen.",
+      "es": "Mira dos números y toca el mayor. Alineado a Common Core K.CC.C.7 — comparar dos números entre 1 y 10 presentados como numerales escritos.",
+      "fr": "Regarde deux nombres et touche le plus grand. Aligné à Common Core K.CC.C.7 — comparer deux nombres entre 1 et 10 présentés sous forme écrite.",
+      "it": "Guarda due numeri e tocca quello più grande. Allineato a Common Core K.CC.C.7 — confrontare due numeri tra 1 e 10 scritti in cifre.",
+      "pt": "Olhe dois números e toque no maior. Alinhado a Common Core K.CC.C.7 — comparar dois números entre 1 e 10 apresentados como algarismos escritos.",
+      "nl": "Kijk naar twee getallen en tik het grootste aan. Aansluitend bij Common Core K.CC.C.7 — twee getallen tussen 1 en 10 vergelijken die als geschreven cijfers worden gepresenteerd.",
+      "sv": "Titta på två tal och tryck på det som är större. I linje med Common Core K.CC.C.7 — jämför två tal mellan 1 och 10 i sifferform.",
+      "da": "Se på to tal og tryk på det største. På linje med Common Core K.CC.C.7 — sammenlign to tal mellem 1 og 10 skrevet med cifre.",
+      "no": "Se på to tall og trykk på det største. Etter Common Core K.CC.C.7 — sammenlign to tall mellom 1 og 10 i sifferform.",
+      "fi": "Katso kahta lukua ja napauta suurempaa. Yhdenmukainen Common Core K.CC.C.7 — vertaile kahta lukua välillä 1–10, jotka esitetään kirjoitettuina numeroina."
+    },
+    "kid_prompt_template": "promptPickBigger"
   }
 ]

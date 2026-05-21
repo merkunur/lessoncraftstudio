@@ -7,14 +7,17 @@
  * explicitly and visibly limited to "activities + tools" — the placeholder
  * copy and "no results" message reflect this.
  *
- * Per-locale payload built at request time (server function called by
- * PlatformSearch on mount via a Next.js Route Handler, OR — preferred —
- * loaded at build time as a static module since the source data is static
- * JSON + in-code TS).
+ * Cross-locale (operator-locked 2026-05-21): the index now contains
+ * entries for ALL 11 locales as a single flat array. Each entry carries
+ * its own `locale` field. Filtering by current locale + ranking is the
+ * client's responsibility — the API delivers the full ~88-entry payload
+ * to every caller, CDN-cached for 1h. This lets a teacher on /en/ find
+ * German content via search without first switching locale.
  *
  * Match algorithm: tokenized substring AND match (all query tokens must
- * appear somewhere in label + hint). Ranked by exact label prefix match,
- * then label substring, then hint substring.
+ * appear somewhere in label + hint). Ranked by label-prefix > label-
+ * substring > hint-substring, plus a current-locale bonus the client
+ * applies before sorting.
  */
 import { listAllActivities, ActivityRow } from "@/lib/activities";
 import { MANIPULATIVES } from "@/lib/manipulatives";
@@ -22,23 +25,24 @@ import { MANIPULATIVES } from "@/lib/manipulatives";
 export interface SearchEntry {
   id: string;
   type: "activity" | "manipulative";
+  /** Locale this entry lives in — used for the locale badge + ranking bonus. */
+  locale: string;
   label: string;
   url: string;
   /** Short context — CC code + grade for activities, tagline for manipulatives. */
   hint: string;
 }
 
-let _cache: Record<string, SearchEntry[]> | null = null;
+let _cache: SearchEntry[] | null = null;
 
 /**
- * Build the per-locale index. Cached for server lifetime.
+ * Build the global search index. Cached for server lifetime.
  */
-export async function buildSearchIndex(): Promise<Record<string, SearchEntry[]>> {
+export async function buildSearchIndex(): Promise<SearchEntry[]> {
   if (_cache) return _cache;
 
-  const out: Record<string, SearchEntry[]> = {};
+  const out: SearchEntry[] = [];
   const locales = ["en", "de", "es", "fr", "it", "pt", "nl", "sv", "da", "no", "fi"];
-  for (const loc of locales) out[loc] = [];
 
   // Activities
   let activities: ActivityRow[] = [];
@@ -52,9 +56,10 @@ export async function buildSearchIndex(): Promise<Record<string, SearchEntry[]>>
       const slug = a.slug[loc];
       const title = a.page_title[loc];
       if (!slug || !title) continue;
-      out[loc].push({
+      out.push({
         id: `activity.${a.id}.${loc}`,
         type: "activity",
+        locale: loc,
         label: title,
         url: `/${loc}/activities/${slug}/`,
         hint: `${a.alignment.code} · Grade ${a.alignment.grade} · ${a.alignment.strand}`,
@@ -67,9 +72,10 @@ export async function buildSearchIndex(): Promise<Record<string, SearchEntry[]>>
     for (const loc of locales) {
       const title = m.title[loc] ?? m.title.en;
       const tagline = m.tagline[loc] ?? m.tagline.en;
-      out[loc].push({
+      out.push({
         id: `manipulative.${m.id}.${loc}`,
         type: "manipulative",
+        locale: loc,
         label: title,
         url: `/${loc}/tools/`,
         hint: tagline,
@@ -96,13 +102,16 @@ function normalize(s: string): string {
 }
 
 /**
- * Match query against entries for a locale. Returns top N matches, ranked
- * by exact-prefix > label-substring > hint-substring > alphabetical.
+ * Match query against entries. Returns top N matches, ranked by
+ * exact-prefix > label-substring > hint-substring > alphabetical.
+ * Current-locale entries get a +20 bonus so they bubble above
+ * other-locale matches with equivalent text overlap.
  */
 export function searchEntries(
   entries: SearchEntry[],
   query: string,
-  limit = 8
+  currentLocale: string,
+  limit = 10
 ): SearchEntry[] {
   const q = normalize(query);
   if (!q) return [];
@@ -124,11 +133,11 @@ export function searchEntries(
     if (label.startsWith(q)) score += 100;
     else if (label.includes(q)) score += 50;
     if (hint.includes(q)) score += 10;
-    // bonus for matching all tokens at the start of the label
     for (const t of tokens) {
       if (label.includes(t)) score += 5;
       if (hint.includes(t)) score += 1;
     }
+    if (entry.locale === currentLocale) score += 20;
     scored.push({ entry, score });
   }
 

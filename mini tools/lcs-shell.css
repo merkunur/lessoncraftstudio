@@ -51,7 +51,7 @@
 
 /* ============================== RESET ================================ */
 *, *::before, *::after { box-sizing: border-box; }
-html, body { margin: 0; height: 100%; }
+html, body { margin: 0; height: 100%; overflow: hidden; }
 button { font: inherit; color: inherit; cursor: pointer; border: 0; background: none; }
 :focus-visible { outline: 3px solid var(--lcs-focus); outline-offset: 2px; }
 

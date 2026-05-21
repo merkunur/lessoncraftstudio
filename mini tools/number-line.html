@@ -4,15 +4,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Number Line — LessonCraft Studio</title>
-  <link rel="stylesheet" href="lcs-shell.css">
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css">
 </head>
 <body>
   <!-- The shell mounts the whole tool into this element. -->
   <div id="lcs-root"></div>
 
-  <!-- Shell first, then the tool, then boot. -->
-  <script src="lcs-shell.js"></script>
-  <script src="number-line.js"></script>
+  <!-- Shell first, then the tool, then boot. Absolute /mini-tools/ paths
+       so embeds + cross-context loads resolve identically. -->
+  <script src="/mini-tools/lcs-shell.js"></script>
+  <script src="/mini-tools/number-line.js"></script>
   <script>
     // URL params the shell understands:
     //   ?lang=de  ?lang=fi  (any of: en de fr it es pt nl sv da no fi)

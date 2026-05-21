@@ -210,6 +210,11 @@ if [ -d "$RELEASE_DIR/public/admin" ] && [ ! -L "$RELEASE_DIR/public/admin" ]; t
     rm -rf "$RELEASE_DIR"
     exit 1
 fi
+if [ -d "$RELEASE_DIR/public/mini-tools" ] && [ ! -L "$RELEASE_DIR/public/mini-tools" ]; then
+    echo "FATAL: public/mini-tools is a directory, not a symlink!"
+    rm -rf "$RELEASE_DIR"
+    exit 1
+fi
 echo "   ✅ Symlinks preserved correctly"
 
 echo "   → Copying .env.production to staged release"

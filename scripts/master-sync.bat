@@ -107,6 +107,77 @@ echo   Copied %COPIED% translation files
 echo.
 
 REM ============================================================================
+REM STEP 4: Sync "mini tools/" to frontend/public/mini-tools
+REM   Mirrors the worksheet-generators pattern: git-tracked source folder,
+REM   gitignored local mirror in public/. *.test.js excluded from the mirror
+REM   (devtools, not for serving).
+REM ============================================================================
+echo [STEP 4] Syncing mini tools/ to frontend/public/mini-tools...
+
+if not exist "mini tools" (
+    echo   WARNING: "mini tools" folder not found - skipping STEP 4
+    goto :skip_mini_tools
+)
+
+REM Count files in source (excluding *.test.js)
+set MT_COUNT=0
+for %%f in ("mini tools\*.html") do set /a MT_COUNT+=1
+for %%f in ("mini tools\*.css")  do set /a MT_COUNT+=1
+for %%f in ("mini tools\*.js")   do (
+    set "FNAME=%%~nxf"
+    setlocal enabledelayedexpansion
+    echo !FNAME! | findstr /E ".test.js" >nul
+    if errorlevel 1 (
+        endlocal
+        set /a MT_COUNT+=1
+    ) else (
+        endlocal
+    )
+)
+
+if %MT_COUNT% LSS 3 (
+    echo ERROR: "mini tools" has fewer than 3 shippable files!
+    echo        Expected at least lcs-shell.{css,js} + one tool.
+    echo        Aborting to prevent partial sync.
+    exit /b 1
+)
+
+echo   mini tools/ shippable files: %MT_COUNT%
+
+if not exist "frontend\public\mini-tools" (
+    echo   Creating directory: frontend\public\mini-tools
+    mkdir "frontend\public\mini-tools"
+)
+
+REM Copy *.html and *.css unconditionally
+set COPIED=0
+for %%f in ("mini tools\*.html") do (
+    copy /Y "%%f" "frontend\public\mini-tools\" >nul 2>&1
+    set /a COPIED+=1
+)
+for %%f in ("mini tools\*.css") do (
+    copy /Y "%%f" "frontend\public\mini-tools\" >nul 2>&1
+    set /a COPIED+=1
+)
+REM Copy *.js excluding *.test.js
+for %%f in ("mini tools\*.js") do (
+    set "FNAME=%%~nxf"
+    setlocal enabledelayedexpansion
+    echo !FNAME! | findstr /E ".test.js" >nul
+    if errorlevel 1 (
+        endlocal
+        copy /Y "%%f" "frontend\public\mini-tools\" >nul 2>&1
+        set /a COPIED+=1
+    ) else (
+        endlocal
+    )
+)
+echo   Copied %COPIED% files to frontend\public\mini-tools
+echo.
+
+:skip_mini_tools
+
+REM ============================================================================
 REM Summary
 REM ============================================================================
 echo ============================================================

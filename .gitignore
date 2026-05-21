@@ -96,6 +96,21 @@ frontend/public/content-managers/*.html
 # Note: REFERENCE APPS/ and REFERENCE CONTENT MANAGERS/ folders ARE tracked by git (source of truth)
 
 # ============================================
+# MINI TOOLS (embeddable K-3 micro-tools)
+# ============================================
+# Architecture (mirrors worksheet-generators):
+# - "mini tools/" = SOURCE OF TRUTH in git
+# - frontend/public/mini-tools/ = local dev mirror, populated by scripts/master-sync.{bat,sh}
+# - /var/www/lcs-media/mini-tools/ = server immutable storage (NOT in git)
+# See "mini tools/SERVER-SETUP.md" for one-time Hetzner setup commands.
+frontend/public/mini-tools/*
+
+# Test files under "mini tools/" are devtools (Puppeteer smoke tests),
+# not source-of-truth tool files. They never get served and never get
+# synced into frontend/public/mini-tools/. Excluded from git too.
+mini tools/*.test.js
+
+# ============================================
 # SAMPLE FILES (images/PDFs for homepage gallery)
 # ============================================
 # These are large binary files (10GB+) that should NOT be in git

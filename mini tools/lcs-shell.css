@@ -1,0 +1,194 @@
+/* =====================================================================
+   LessonCraft Studio — SHARED SHELL  (lcs-shell.css)
+   ---------------------------------------------------------------------
+   This file is the single source of visual truth for ALL micro-tools.
+   Every tool inherits these tokens + chrome styles. To re-theme the whole
+   toolkit (or a seasonal/themed skin), change the tokens here — nowhere else.
+   Per-tool CSS lives in the tool file and should only style the stage,
+   never the chrome.
+   ===================================================================== */
+
+/* ---- Fonts (friendly + legible for K-3; not generic-corporate) ------ */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+/* ============================ DESIGN TOKENS ========================== */
+:root {
+  /* Brand / theme — change these to re-skin everything */
+  --lcs-bg:        #FBF3E4;   /* warm cream paper                       */
+  --lcs-surface:   #FFFFFF;   /* cards / stage                          */
+  --lcs-surface-2: #FBF6EE;   /* recessed wells (e.g. empty cells)      */
+  --lcs-ink:       #2A2A35;   /* primary text                          */
+  --lcs-ink-soft:  #6B6B78;   /* secondary text                        */
+  --lcs-line:      #E7DCC8;   /* hairlines / borders                   */
+  --lcs-structure: #146B5E;   /* deep teal — frames, controls          */
+  --lcs-structure-soft:#E2F0EC;
+  --lcs-accent:    #F2784B;   /* warm coral — counters / highlights    */
+  --lcs-accent-ink:#FFFFFF;
+  --lcs-good:      #2FA56A;
+  --lcs-focus:     #1E8FD4;
+
+  /* Type */
+  --lcs-font-display:'Baloo 2', 'Trebuchet MS', system-ui, sans-serif;
+  --lcs-font-body:   'Nunito', system-ui, -apple-system, sans-serif;
+
+  /* Geometry */
+  --lcs-radius:   18px;
+  --lcs-radius-sm:12px;
+  --lcs-radius-pill:999px;
+  --lcs-gap:      clamp(8px, 1.8vmin, 16px);
+  --lcs-pad:      clamp(12px, 2.4vmin, 24px);
+
+  /* Touch targets — generous for small hands / tablets */
+  --lcs-tap: clamp(44px, 7vmin, 56px);
+
+  /* Elevation */
+  --lcs-shadow:    0 6px 22px rgba(20,107,94,0.10), 0 1px 3px rgba(0,0,0,0.06);
+  --lcs-shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+
+  /* Motion */
+  --lcs-ease: cubic-bezier(.2,.8,.2,1);
+}
+
+/* ============================== RESET ================================ */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+button { font: inherit; color: inherit; cursor: pointer; border: 0; background: none; }
+:focus-visible { outline: 3px solid var(--lcs-focus); outline-offset: 2px; }
+
+/* ============================== APP FRAME ============================ */
+.lcs-app {
+  font-family: var(--lcs-font-body);
+  color: var(--lcs-ink);
+  background: var(--lcs-bg);
+  /* subtle paper texture via layered gradients, no image asset needed */
+  background-image:
+    radial-gradient(circle at 18% 12%, rgba(242,120,75,0.05) 0, transparent 38%),
+    radial-gradient(circle at 84% 88%, rgba(20,107,94,0.05) 0, transparent 42%);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* ----- Header: tool title + one-line instruction -------------------- */
+.lcs-header {
+  display: flex; align-items: center; gap: var(--lcs-gap);
+  padding: var(--lcs-pad);
+  padding-bottom: calc(var(--lcs-pad) * 0.5);
+}
+.lcs-titles { flex: 1; min-width: 0; }
+.lcs-title {
+  font-family: var(--lcs-font-display);
+  font-weight: 700;
+  font-size: clamp(20px, 3.6vmin, 30px);
+  line-height: 1.05;
+  margin: 0;
+  color: var(--lcs-structure);
+}
+.lcs-instruction {
+  margin: 2px 0 0;
+  font-size: clamp(13px, 1.9vmin, 16px);
+  color: var(--lcs-ink-soft);
+}
+
+/* ----- Control bar (IDENTICAL placement across every tool) ---------- */
+.lcs-controls { display: flex; gap: 8px; flex-shrink: 0; }
+.lcs-ctrl {
+  width: var(--lcs-tap); height: var(--lcs-tap);
+  display: grid; place-items: center;
+  border-radius: var(--lcs-radius-sm);
+  background: var(--lcs-surface);
+  box-shadow: var(--lcs-shadow-sm);
+  color: var(--lcs-structure);
+  transition: transform .12s var(--lcs-ease), background .15s;
+}
+.lcs-ctrl:hover  { background: var(--lcs-structure-soft); }
+.lcs-ctrl:active { transform: scale(.92); }
+.lcs-ctrl svg { width: 46%; height: 46%; }
+.lcs-ctrl[aria-pressed="false"] { color: var(--lcs-ink-soft); }
+
+/* ----- Stage: where the tool draws itself --------------------------- */
+.lcs-stage {
+  flex: 1;
+  display: flex; align-items: center; justify-content: center;
+  padding: var(--lcs-pad);
+  min-height: 0;
+}
+
+/* ----- Settings drawer (shell renders it from each tool's schema) --- */
+.lcs-drawer-scrim {
+  position: absolute; inset: 0;
+  background: rgba(20,30,28,0.32);
+  opacity: 0; pointer-events: none;
+  transition: opacity .2s var(--lcs-ease);
+}
+.lcs-drawer-scrim.open { opacity: 1; pointer-events: auto; }
+.lcs-drawer {
+  position: absolute; top: 0; inset-inline-end: 0; height: 100%;
+  width: min(340px, 86vw);
+  background: var(--lcs-surface);
+  box-shadow: -8px 0 30px rgba(0,0,0,0.16);
+  transform: translateX(100%);
+  transition: transform .25s var(--lcs-ease);
+  display: flex; flex-direction: column;
+  z-index: 5;
+}
+[dir="rtl"] .lcs-drawer { transform: translateX(-100%); }
+.lcs-drawer.open { transform: translateX(0); }
+.lcs-drawer-head {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: var(--lcs-pad);
+  border-bottom: 1px solid var(--lcs-line);
+}
+.lcs-drawer-head h2 {
+  font-family: var(--lcs-font-display); margin: 0;
+  font-size: 20px; color: var(--lcs-structure);
+}
+.lcs-drawer-body { padding: var(--lcs-pad); overflow-y: auto; display: grid; gap: 20px; }
+
+/* settings field primitives the schema renderer uses */
+.lcs-field { display: grid; gap: 8px; }
+.lcs-field > label { font-weight: 700; font-size: 14px; }
+.lcs-segment { display: flex; flex-wrap: wrap; gap: 6px; }
+.lcs-chip {
+  min-height: 40px; padding: 0 14px;
+  border-radius: var(--lcs-radius-pill);
+  background: var(--lcs-surface-2);
+  border: 2px solid var(--lcs-line);
+  font-weight: 600;
+  display: inline-flex; align-items: center; gap: 6px;
+  transition: all .12s var(--lcs-ease);
+}
+.lcs-chip[aria-checked="true"] {
+  background: var(--lcs-structure); color: #fff; border-color: var(--lcs-structure);
+}
+.lcs-swatch { width: 22px; height: 22px; border-radius: 50%; }
+.lcs-switch {
+  width: 52px; height: 30px; border-radius: 999px; padding: 3px;
+  background: var(--lcs-line); display: inline-flex; transition: background .15s;
+}
+.lcs-switch[aria-checked="true"] { background: var(--lcs-good); }
+.lcs-switch .knob {
+  width: 24px; height: 24px; border-radius: 50%; background: #fff;
+  box-shadow: var(--lcs-shadow-sm); transition: transform .15s var(--lcs-ease);
+}
+.lcs-switch[aria-checked="true"] .knob { transform: translateX(22px); }
+[dir="rtl"] .lcs-switch[aria-checked="true"] .knob { transform: translateX(-22px); }
+
+/* ----- Embed mode: drop the header chrome, keep the stage ----------- */
+.lcs-app.embed .lcs-header { padding-bottom: var(--lcs-pad); }
+.lcs-app.embed .lcs-instruction { display: none; }
+/* compact embed (tightly-cropped iframes): drop the title too -> pure stage */
+.lcs-app.compact .lcs-title { display: none; }
+.lcs-app.compact .lcs-header { padding-block: calc(var(--lcs-pad) * 0.5); }
+
+/* screen-reader-only live region (visually hidden, still announced) */
+.lcs-sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+@media (max-width: 480px) {
+  .lcs-header { flex-wrap: wrap; }
+}

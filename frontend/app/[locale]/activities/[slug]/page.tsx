@@ -8,6 +8,25 @@ import {
   hreflangAlternatesForRow,
   ActivityRow,
 } from '@/lib/activities';
+import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
+
+// "Activities" section label per locale — used for the middle breadcrumb
+// crumb on individual activity landing pages. Same string as the title of
+// /<locale>/activities/. Inlined here (not next-intl) since it's read by
+// one consumer; promote to a message file when a second consumer appears.
+const ACTIVITIES_SECTION_LABEL: Record<string, string> = {
+  en: 'Activities',
+  de: 'Aufgaben',
+  es: 'Actividades',
+  fr: 'Activités',
+  it: 'Attività',
+  pt: 'Atividades',
+  nl: 'Activiteiten',
+  sv: 'Aktiviteter',
+  da: 'Aktiviteter',
+  no: 'Aktiviteter',
+  fi: 'Tehtävät',
+};
 
 /**
  * Activity landing page route — one URL per (manifest row × locale).
@@ -109,9 +128,19 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
     `&lang=${encodeURIComponent(params.locale)}` +
     `&embed=1`;
 
+  const sectionLabel =
+    ACTIVITIES_SECTION_LABEL[params.locale] ?? ACTIVITIES_SECTION_LABEL.en;
+
   return (
     <main className="bg-cream-100 py-2 px-3 md:py-3 md:px-6">
       <article className="mx-auto max-w-5xl">
+        <BreadcrumbTrail
+          locale={params.locale}
+          trail={[
+            { href: `/${params.locale}/activities/`, label: sectionLabel },
+            { label: row.page_title[params.locale] },
+          ]}
+        />
         {/* SEO chrome — H1 + intro + standard chip. Very compact so the
             iframe below fits above-the-fold inside the site's global nav
             + footer chrome on viewports down to ~720px tall. */}

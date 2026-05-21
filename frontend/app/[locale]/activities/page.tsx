@@ -6,6 +6,7 @@ import {
   TopicEnabledLocale,
 } from "@/config/topic-locales";
 import { listAllActivities } from "@/lib/activities";
+import BreadcrumbTrail from "@/components/breadcrumbs/BreadcrumbTrail";
 
 /**
  * Activities index landing — /<locale>/activities/
@@ -179,6 +180,7 @@ export default async function ActivitiesIndexPage({
   return (
     <main className="bg-cream-100 min-h-[calc(100vh-200px)] py-6 px-3 md:py-10 md:px-6">
       <article className="mx-auto max-w-5xl">
+        <BreadcrumbTrail locale={locale} trail={[{ label: strings.pageTitle }]} />
         <header className="mb-8 md:mb-12 text-center">
           <h1 className="font-display font-bold text-3xl md:text-4xl text-teal-800 leading-tight mb-3">
             {strings.pageTitle}

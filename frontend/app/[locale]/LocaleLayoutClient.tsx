@@ -9,13 +9,15 @@ export function LocaleLayoutClient({
   locale,
   footerAvailableExerciseTypes = [],
   footerAvailableThemes = [],
-  footerAvailableLevels = []
+  footerAvailableLevels = [],
+  availableActivities = []
 }: {
   children: React.ReactNode;
   locale: string;
   footerAvailableExerciseTypes?: string[];
   footerAvailableThemes?: string[];
   footerAvailableLevels?: string[];
+  availableActivities?: Array<{ id: string; slug: string; title: string; code: string }>;
 }) {
   const pathname = usePathname();
 
@@ -31,7 +33,10 @@ export function LocaleLayoutClient({
   if (isAppsRoute) {
     return (
       <>
-        <Navigation availableExerciseTypes={footerAvailableExerciseTypes} />
+        <Navigation
+          availableExerciseTypes={footerAvailableExerciseTypes}
+          availableActivities={availableActivities}
+        />
         <main>
           {children}
         </main>
@@ -44,7 +49,10 @@ export function LocaleLayoutClient({
   // for per-locale sub-item filtering so dropdown items don't 404.
   return (
     <>
-      <Navigation availableExerciseTypes={footerAvailableExerciseTypes} />
+      <Navigation
+        availableExerciseTypes={footerAvailableExerciseTypes}
+        availableActivities={availableActivities}
+      />
       <main className="flex-1">
         {children}
       </main>

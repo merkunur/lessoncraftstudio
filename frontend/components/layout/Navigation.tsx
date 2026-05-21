@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/Button';
 import { usePathname } from 'next/navigation';
 import { LanguageSelector } from '@/components/LanguageSelector';
+import { PlatformSearch } from '@/components/PlatformSearch';
 import { useState } from 'react';
 import { useAuth } from '@/contexts/auth-context';
 import { Menu, X } from 'lucide-react';
@@ -18,9 +19,13 @@ import { CategoryNav } from './CategoryNav';
 
 interface NavigationProps {
   availableExerciseTypes?: string[];
+  availableActivities?: Array<{ id: string; slug: string; title: string; code: string }>;
 }
 
-export function Navigation({ availableExerciseTypes = [] }: NavigationProps = {}) {
+export function Navigation({
+  availableExerciseTypes = [],
+  availableActivities = [],
+}: NavigationProps = {}) {
   const t = useTranslations('navigation');
   const pathname = usePathname();
   const locale = pathname.split('/')[1] || 'en';
@@ -45,9 +50,9 @@ export function Navigation({ availableExerciseTypes = [] }: NavigationProps = {}
     <>
     <nav className="bg-cream-50 border-b border-cream-300 relative z-50">
       <div className="container mx-auto px-4 max-w-6xl">
-        <div className="flex items-center justify-between h-16 lg:h-[72px]">
+        <div className="flex items-center justify-between gap-4 h-16 lg:h-[72px]">
           {/* Logo */}
-          <Link href={`/${locale}`} className="flex items-center space-x-2 lg:space-x-3 h-full relative z-10">
+          <Link href={`/${locale}`} className="flex items-center space-x-2 lg:space-x-3 h-full relative z-10 flex-shrink-0">
             <div className="flex items-center justify-center h-10 lg:h-11 w-auto">
               <picture>
                 <source srcSet="/logo-lcs.webp" type="image/webp" />
@@ -68,8 +73,15 @@ export function Navigation({ availableExerciseTypes = [] }: NavigationProps = {}
             </span>
           </Link>
 
+          {/* Platform search — desktop centered. IXL-faithful prominent
+              search per Direction A locked 2026-05-21. Scope: activities +
+              tools only (decks NOT indexed). */}
+          <div className="hidden lg:flex flex-1 max-w-md justify-center">
+            <PlatformSearch />
+          </div>
+
           {/* Desktop actions */}
-          <div className="hidden lg:flex items-center space-x-3">
+          <div className="hidden lg:flex items-center space-x-3 flex-shrink-0">
             <LanguageSelector />
             <div className="h-5 w-px bg-cream-300" />
             <div className="flex items-center space-x-2">
@@ -114,11 +126,16 @@ export function Navigation({ availableExerciseTypes = [] }: NavigationProps = {}
           {/* Mobile menu button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="lg:hidden p-2 text-ink-600 hover:text-ink-900"
+            className="lg:hidden p-2 text-ink-600 hover:text-ink-900 flex-shrink-0"
             aria-label="Toggle menu"
           >
             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
+        </div>
+
+        {/* Mobile-only search row, sits beneath the brand row */}
+        <div className="lg:hidden pb-3 pt-1">
+          <PlatformSearch />
         </div>
       </div>
 
@@ -181,7 +198,10 @@ export function Navigation({ availableExerciseTypes = [] }: NavigationProps = {}
     </nav>
     {/* Category dropdown nav — second row, desktop-only. Mobile users access
         categories via the 4-card grid + footer columns. */}
-    <CategoryNav availableExerciseTypes={availableExerciseTypes} />
+    <CategoryNav
+      availableExerciseTypes={availableExerciseTypes}
+      availableActivities={availableActivities}
+    />
     </>
   );
 }

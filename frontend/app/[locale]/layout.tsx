@@ -6,6 +6,7 @@ import { Navigation } from '@/components/layout/Navigation';
 import { Footer } from '@/components/layout/Footer';
 import { LocaleLayoutClient } from './LocaleLayoutClient';
 import { listNonEmptyAxisKeys } from '@/lib/topic-decks';
+import { listAllActivities } from '@/lib/activities';
 
 // Generate static params for all locales - enables static generation
 export function generateStaticParams() {
@@ -49,6 +50,23 @@ export default async function LocaleLayout({
     // will render nothing for axis-bound columns; language column still works.
   }
 
+  // Activities-dropdown payload for CategoryNav. Loaded once per locale
+  // page-render; cached at lib/activities.ts level so subsequent layouts
+  // hit the in-memory cache.
+  let availableActivities: Array<{ id: string; slug: string; title: string; code: string }> = [];
+  try {
+    const all = await listAllActivities();
+    for (const row of all) {
+      const slug = row.slug[locale];
+      const title = row.page_title[locale];
+      if (slug && title) {
+        availableActivities.push({ id: row.id, slug, title, code: row.alignment.code });
+      }
+    }
+  } catch {
+    // Manifest unreachable: dropdown renders empty + Browse-all link still works.
+  }
+
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
       <LocaleLayoutClient
@@ -56,6 +74,7 @@ export default async function LocaleLayout({
         footerAvailableExerciseTypes={footerAvailableExerciseTypes}
         footerAvailableThemes={footerAvailableThemes}
         footerAvailableLevels={footerAvailableLevels}
+        availableActivities={availableActivities}
       >
         {children}
       </LocaleLayoutClient>

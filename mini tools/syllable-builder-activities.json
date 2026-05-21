@@ -1,0 +1,31 @@
+[
+  {
+    "id": "syllable-builder.forma-las-silabas.rf-k-2-b",
+    "tool": "syllable-builder-activity",
+    "task_template": "build-syllables-word",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.2.B",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "language": "es-ES",
+      "words": [
+        { "noun": "cat",       "themeDir": "animals",          "targetWord": "gato",     "syllables": ["ga","to"],          "label": "gato" },
+        { "noun": "table",     "themeDir": "furniture",        "targetWord": "mesa",     "syllables": ["me","sa"],          "label": "mesa" },
+        { "noun": "house",     "themeDir": "miscellaneous",    "targetWord": "casa",     "syllables": ["ca","sa"],          "label": "casa" },
+        { "noun": "moon",      "themeDir": "space",            "targetWord": "luna",     "syllables": ["lu","na"],          "label": "luna" },
+        { "noun": "toad",      "themeDir": "forest creatures", "targetWord": "sapo",     "syllables": ["sa","po"],          "label": "sapo" },
+        { "noun": "ball",      "themeDir": "toys",             "targetWord": "pelota",   "syllables": ["pe","lo","ta"],     "label": "pelota" },
+        { "noun": "giraffe",   "themeDir": "animals",          "targetWord": "jirafa",   "syllables": ["ji","ra","fa"],     "label": "jirafa" },
+        { "noun": "butterfly", "themeDir": "insects and bugs", "targetWord": "mariposa", "syllables": ["ma","ri","po","sa"], "label": "mariposa" }
+      ]
+    },
+    "theme": null,
+    "slug": { "es": "forma-las-silabas" },
+    "page_title": { "es": "Forma las sílabas — Fonética en jardín infantil" },
+    "page_intro": { "es": "Mira la imagen y forma la palabra colocando las sílabas en orden. Alineado con Common Core RF.K.2.B — contar, pronunciar, mezclar y segmentar sílabas en palabras habladas." },
+    "kid_prompt_template": "promptBuildSyllables"
+  }
+]

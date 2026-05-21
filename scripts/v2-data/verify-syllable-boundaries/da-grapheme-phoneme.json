@@ -1,0 +1,75 @@
+{
+  "locale": "da",
+  "locale_name": "Danish",
+  "editorial_source": "Juul, H. (2007). Tidlig skriftsproglig udvikling. Akademisk Forlag. Plus Elbro, C. & Pallesen, B.R. (1991/2003) — lydrethed taxonomy + Danish G-P regularity ratings. Plus Gellert, A.S. & Elbro, C. (2017) — phonics intervention G-P inventory. Bonderup Grønbæk's Hop-om-bord materials provide pedagogical sequencing. The G-P correspondences themselves are linguistic facts; only textbook presentation is copyrighted.",
+  "policy_note": "Danish has notoriously opaque orthography — many graphemes have multiple phonemic realizations depending on position. This table enumerates the canonical correspondences for K-3 phonics decoding. Each entry includes a regularity rating: 'high' = predictable mapping, 'medium' = position-dependent, 'low' = irregular (often quarantined by the da-quarantine regex). High-regularity graphemes are the foundation of K-1 lydrethed teaching.",
+  "correspondences": {
+    "a": [
+      { "ipa": "a|ɑ", "context": "default", "regularity": "high" },
+      { "ipa": "æ", "context": "before /r/", "regularity": "medium" }
+    ],
+    "e": [
+      { "ipa": "ɛ|e", "context": "default", "regularity": "high" },
+      { "ipa": "ə", "context": "unstressed", "regularity": "medium" }
+    ],
+    "i": [{ "ipa": "i", "context": "default", "regularity": "high" }],
+    "o": [{ "ipa": "o|ɔ", "context": "default", "regularity": "high" }],
+    "u": [{ "ipa": "u", "context": "default", "regularity": "high" }],
+    "y": [{ "ipa": "y", "context": "default", "regularity": "high" }],
+    "æ": [{ "ipa": "ɛ|æ", "context": "default", "regularity": "high" }],
+    "ø": [{ "ipa": "ø|œ", "context": "default", "regularity": "high" }],
+    "å": [{ "ipa": "ɔ|o", "context": "default", "regularity": "high" }],
+    "b": [{ "ipa": "b", "context": "word-initial", "regularity": "high" },
+          { "ipa": "p", "context": "word-final, post-vowel", "regularity": "medium" }],
+    "c": [{ "ipa": "k|s", "context": "loanword-dependent", "regularity": "low" }],
+    "d": [
+      { "ipa": "d", "context": "word-initial", "regularity": "high" },
+      { "ipa": "ð", "context": "intervocalic, post-vowel-final", "regularity": "medium" },
+      { "ipa": "∅", "context": "word-final after nasal+stop cluster (nd, ld)", "regularity": "low" }
+    ],
+    "f": [{ "ipa": "f", "context": "default", "regularity": "high" }],
+    "g": [
+      { "ipa": "g", "context": "word-initial", "regularity": "high" },
+      { "ipa": "w|j|∅", "context": "intervocalic / word-final", "regularity": "low" }
+    ],
+    "h": [{ "ipa": "h", "context": "word-initial only", "regularity": "high" }],
+    "j": [{ "ipa": "j", "context": "default", "regularity": "high" }],
+    "k": [
+      { "ipa": "kʰ", "context": "word-initial (aspirated)", "regularity": "high" },
+      { "ipa": "g", "context": "after s-", "regularity": "medium" }
+    ],
+    "l": [{ "ipa": "l", "context": "default", "regularity": "high" }],
+    "m": [{ "ipa": "m", "context": "default", "regularity": "high" }],
+    "n": [{ "ipa": "n", "context": "default", "regularity": "high" }],
+    "p": [
+      { "ipa": "pʰ", "context": "word-initial (aspirated)", "regularity": "high" },
+      { "ipa": "b", "context": "after s-", "regularity": "medium" }
+    ],
+    "r": [
+      { "ipa": "ʁ", "context": "word-initial (uvular)", "regularity": "high" },
+      { "ipa": "ɐ̯", "context": "post-vocalic (vocalized)", "regularity": "low" }
+    ],
+    "s": [{ "ipa": "s", "context": "default", "regularity": "high" }],
+    "t": [
+      { "ipa": "tˢ", "context": "word-initial (affricated)", "regularity": "high" },
+      { "ipa": "d", "context": "after s-", "regularity": "medium" },
+      { "ipa": "ð|∅", "context": "intervocalic / weakened", "regularity": "low" }
+    ],
+    "v": [
+      { "ipa": "v", "context": "word-initial", "regularity": "high" },
+      { "ipa": "w|∅", "context": "intervocalic/final", "regularity": "low" }
+    ],
+    "w": [{ "ipa": "v", "context": "loanwords only", "regularity": "low" }],
+    "x": [{ "ipa": "ks", "context": "default", "regularity": "high" }],
+    "z": [{ "ipa": "s", "context": "loanwords", "regularity": "low" }]
+  },
+  "digraphs": {
+    "ng": [{ "ipa": "ŋ", "context": "default", "regularity": "high" }],
+    "nk": [{ "ipa": "ŋk", "context": "default", "regularity": "high" }],
+    "ch": [{ "ipa": "ɕ|k", "context": "loanwords", "regularity": "low" }],
+    "sk": [{ "ipa": "sg", "context": "before vowel", "regularity": "medium" }],
+    "sj": [{ "ipa": "ɕ", "context": "loanwords", "regularity": "low" }]
+  },
+  "version": "1.0",
+  "generated_at": "2026-05-21"
+}

@@ -1,0 +1,27 @@
+{
+  "locale": "nl",
+  "locale_name": "Dutch",
+  "editorial_source": "Mommers, M.J.C. & Caesar, F. (Veilig Leren Lezen / VLL kern methodology, Zwijsen) — the canonical Dutch K-1 phonics chunk inventory. The chunks themselves (digraphs, long-vowel doublings, diphthongs) are facts of Dutch orthography and not copyrightable; only the textbook presentation is. Academic fallback: de Graaff, S. & Bosman, A.M.T. (2012). Klanken en hun letters in Nederlandse woorden. Tijdschrift voor Orthopedagogiek 51, 67-83. SLO Tussendoelen Beginnende Geletterdheid also references this inventory.",
+  "policy_note": "Dutch open vs closed syllable distinction is central: kaas (open, long vowel by spelling aa) vs kat (closed, short vowel). VLL kern 1-6 covers single letters + aa/ee/oo/uu doubling + sch/ch/ng/nk; kern 7-12 covers diphthongs + the ij/ei pair.",
+  "chunks": {
+    "aa": { "category": "long_vowel", "sound": "aː", "example_words": ["kaas", "maan"] },
+    "ee": { "category": "long_vowel", "sound": "eː", "example_words": ["beer", "twee"] },
+    "oo": { "category": "long_vowel", "sound": "oː", "example_words": ["boom", "rood"] },
+    "uu": { "category": "long_vowel", "sound": "yː", "example_words": ["muur", "buur"] },
+    "ie": { "category": "long_vowel", "sound": "iː", "example_words": ["bier", "vier"] },
+    "oe": { "category": "long_vowel", "sound": "uː", "example_words": ["boek", "stoel"] },
+    "eu": { "category": "diphthong", "sound": "øː", "example_words": ["deur", "neus"] },
+    "ui": { "category": "diphthong", "sound": "œy", "example_words": ["huis", "muis"] },
+    "ij": { "category": "diphthong", "sound": "ɛi", "example_words": ["ijs", "wijn"] },
+    "ei": { "category": "diphthong", "sound": "ɛi", "example_words": ["ei", "klein"] },
+    "au": { "category": "diphthong", "sound": "ɑu", "example_words": ["pauw", "gauw"] },
+    "ou": { "category": "diphthong", "sound": "ɑu", "example_words": ["zout", "hout"] },
+    "sch": { "category": "digraph_consonant", "sound": "sx (word-initial) | s (word-final)", "example_words": ["school", "vis"] },
+    "ch": { "category": "digraph_consonant", "sound": "x", "example_words": ["lach", "nacht"] },
+    "ng": { "category": "digraph_consonant", "sound": "ŋ", "example_words": ["lang", "ring"] },
+    "nk": { "category": "digraph_consonant", "sound": "ŋk", "example_words": ["bank"] }
+  },
+  "single_letters_implicitly_allowed": ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"],
+  "version": "1.0",
+  "generated_at": "2026-05-21"
+}

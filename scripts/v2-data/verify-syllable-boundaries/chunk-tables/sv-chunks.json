@@ -1,0 +1,28 @@
+{
+  "locale": "sv",
+  "locale_name": "Swedish",
+  "editorial_source": "Garlén, C. (1988). Svenskans fonologi. Studentlitteratur. Plus Lgr22 svenska årskurs 1–3 (Skolverket) — grundläggande läs- och skrivinlärning + ljudning. The sj-cluster + tj/kj allophone inventory is the canonical Swedish K-1 chunk set.",
+  "policy_note": "Swedish sj-ljudet has multiple spellings (sj, skj, stj, sch, sk(i/e/y/ä/ö)) all mapping to the same /ɧ/ phoneme; tj-ljudet has tj, kj, k(i/e/y/ä/ö); ng-ljudet is its own phoneme. These chunks are treated as single sounds in K-1 ljudmetoden phonics. The å/ä/ö letters are separate letters in Swedish (not modified vowels of a/o), so they are single-letter chunks in their own right.",
+  "chunks": {
+    "sj":  { "category": "sj_sound", "sound": "ɧ", "example_words": ["sjö", "sju"] },
+    "skj": { "category": "sj_sound", "sound": "ɧ", "example_words": ["skjorta"] },
+    "stj": { "category": "sj_sound", "sound": "ɧ", "example_words": ["stjärna"] },
+    "sch": { "category": "sj_sound", "sound": "ɧ", "example_words": ["schema"] },
+    "tj":  { "category": "tj_sound", "sound": "ɕ", "example_words": ["tjugo", "tjej"] },
+    "kj":  { "category": "tj_sound", "sound": "ɕ", "example_words": ["kjol"] },
+    "ng":  { "category": "ng_sound", "sound": "ŋ", "example_words": ["lång", "ring"] },
+    "ch":  { "category": "digraph_consonant", "sound": "ɕ (loanwords) | x (some)", "example_words": ["choklad"] },
+    "å":   { "category": "special_letter", "sound": "oː|ɔ", "example_words": ["år", "sång"] },
+    "ä":   { "category": "special_letter", "sound": "ɛː|ɛ", "example_words": ["äpple", "rätt"] },
+    "ö":   { "category": "special_letter", "sound": "øː|œ", "example_words": ["öga", "höst"] }
+  },
+  "context_sensitive_chunks": {
+    "comment": "These letter sequences ALSO map to sj/tj sounds when followed by specific front vowels (i, e, y, ä, ö). Pipeline gate may approve these via NST phoneme verification — they aren't fixed orthographic chunks.",
+    "sk_+_front_vowel": "sk before i/e/y/ä/ö → /ɧ/ (e.g., sked, ski)",
+    "k_+_front_vowel": "k before i/e/y/ä/ö → /ɕ/ (e.g., kemi, köpa)",
+    "g_+_front_vowel": "g before i/e/y/ä/ö → /j/ (e.g., gjuta)"
+  },
+  "single_letters_implicitly_allowed": ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"],
+  "version": "1.0",
+  "generated_at": "2026-05-21"
+}

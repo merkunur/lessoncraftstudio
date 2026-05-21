@@ -1,0 +1,9 @@
+{
+  "name": "lcs-phonics-verify",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Phonics safety-verification pipeline — multi-source syllable boundary gate for K-3 phonics activities. Outputs approved-words-*.json + quarantine-report.json.",
+  "dependencies": {
+    "hyphen": "^1.14.1"
+  }
+}

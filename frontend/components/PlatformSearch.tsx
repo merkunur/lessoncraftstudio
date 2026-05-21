@@ -5,23 +5,24 @@ import { useRouter, usePathname } from "next/navigation";
 import { Search, X } from "lucide-react";
 
 /**
- * Platform search box — typeahead over activities + manipulatives.
+ * Platform search box — typeahead over activities + manipulatives across
+ * ALL 11 locales.
  *
- * Scope discipline (operator-locked 2026-05-21): does NOT index decks.
- * Placeholder + "no results" copy reflects this honestly ("Search
- * activities and tools…" not "Search topics, skills, and more…").
+ * Scope discipline (operator-locked 2026-05-21):
+ *   - Does NOT index decks
+ *   - Indexes activities + tools across ALL locales as a single global
+ *     payload (~88 entries / ~18KB JSON). Current-locale entries rank
+ *     above other-locale matches via a +20 score bonus; non-current-
+ *     locale entries display a small uppercase locale badge.
  *
  * Pattern follows LanguageSelector.tsx: custom state + click-outside
- * close + Esc key. No @radix-ui / @headlessui dependency (per
- * CLAUDE.md §10.3 add-dependency guard).
- *
- * Index loaded once per locale from /api/search-index?locale=<loc>.
- * Cached client-side in component state for the session.
+ * close + Esc key. No @radix-ui / @headlessui dependency.
  */
 
 interface SearchEntry {
   id: string;
   type: "activity" | "manipulative";
+  locale: string;
   label: string;
   url: string;
   hint: string;
@@ -43,7 +44,7 @@ const CHROME: Record<string, {
     noResults: "No matches",
     sectionActivities: "Activities",
     sectionManipulatives: "Tools",
-    scopeNote: "Searches activities & tools only",
+    scopeNote: "Searches activities & tools across all 11 languages",
     clearLabel: "Clear search",
   },
   de: {
@@ -51,7 +52,7 @@ const CHROME: Record<string, {
     noResults: "Keine Treffer",
     sectionActivities: "Aufgaben",
     sectionManipulatives: "Werkzeuge",
-    scopeNote: "Sucht nur in Aufgaben und Werkzeugen",
+    scopeNote: "Sucht in Aufgaben & Werkzeugen in allen 11 Sprachen",
     clearLabel: "Suche leeren",
   },
   es: {
@@ -59,7 +60,7 @@ const CHROME: Record<string, {
     noResults: "Sin resultados",
     sectionActivities: "Actividades",
     sectionManipulatives: "Herramientas",
-    scopeNote: "Busca solo en actividades y herramientas",
+    scopeNote: "Busca en actividades y herramientas en los 11 idiomas",
     clearLabel: "Borrar búsqueda",
   },
   fr: {
@@ -67,7 +68,7 @@ const CHROME: Record<string, {
     noResults: "Aucun résultat",
     sectionActivities: "Activités",
     sectionManipulatives: "Outils",
-    scopeNote: "Recherche limitée aux activités et outils",
+    scopeNote: "Recherche dans les activités et outils des 11 langues",
     clearLabel: "Effacer la recherche",
   },
   it: {
@@ -75,7 +76,7 @@ const CHROME: Record<string, {
     noResults: "Nessun risultato",
     sectionActivities: "Attività",
     sectionManipulatives: "Strumenti",
-    scopeNote: "Cerca solo tra attività e strumenti",
+    scopeNote: "Cerca tra attività e strumenti in tutte le 11 lingue",
     clearLabel: "Cancella ricerca",
   },
   pt: {
@@ -83,7 +84,7 @@ const CHROME: Record<string, {
     noResults: "Sem resultados",
     sectionActivities: "Atividades",
     sectionManipulatives: "Ferramentas",
-    scopeNote: "Busca apenas em atividades e ferramentas",
+    scopeNote: "Busca em atividades e ferramentas nos 11 idiomas",
     clearLabel: "Limpar busca",
   },
   nl: {
@@ -91,7 +92,7 @@ const CHROME: Record<string, {
     noResults: "Geen resultaten",
     sectionActivities: "Activiteiten",
     sectionManipulatives: "Hulpmiddelen",
-    scopeNote: "Zoekt alleen in activiteiten en hulpmiddelen",
+    scopeNote: "Zoekt in activiteiten en hulpmiddelen in alle 11 talen",
     clearLabel: "Zoekopdracht wissen",
   },
   sv: {
@@ -99,7 +100,7 @@ const CHROME: Record<string, {
     noResults: "Inga träffar",
     sectionActivities: "Aktiviteter",
     sectionManipulatives: "Verktyg",
-    scopeNote: "Söker endast i aktiviteter och verktyg",
+    scopeNote: "Söker i aktiviteter och verktyg på alla 11 språk",
     clearLabel: "Rensa sökning",
   },
   da: {
@@ -107,7 +108,7 @@ const CHROME: Record<string, {
     noResults: "Ingen resultater",
     sectionActivities: "Aktiviteter",
     sectionManipulatives: "Værktøjer",
-    scopeNote: "Søger kun i aktiviteter og værktøjer",
+    scopeNote: "Søger i aktiviteter og værktøjer på alle 11 sprog",
     clearLabel: "Ryd søgning",
   },
   no: {
@@ -115,7 +116,7 @@ const CHROME: Record<string, {
     noResults: "Ingen treff",
     sectionActivities: "Aktiviteter",
     sectionManipulatives: "Verktøy",
-    scopeNote: "Søker kun i aktiviteter og verktøy",
+    scopeNote: "Søker i aktiviteter og verktøy på alle 11 språk",
     clearLabel: "Tøm søk",
   },
   fi: {
@@ -123,7 +124,7 @@ const CHROME: Record<string, {
     noResults: "Ei tuloksia",
     sectionActivities: "Tehtävät",
     sectionManipulatives: "Työkalut",
-    scopeNote: "Hakee vain tehtävistä ja työkaluista",
+    scopeNote: "Hakee tehtävistä ja työkaluista kaikilla 11 kielellä",
     clearLabel: "Tyhjennä haku",
   },
 };
@@ -137,7 +138,12 @@ function normalize(s: string): string {
     .trim();
 }
 
-function scoreEntry(entry: SearchEntry, q: string, tokens: string[]): number {
+function scoreEntry(
+  entry: SearchEntry,
+  q: string,
+  tokens: string[],
+  currentLocale: string
+): number {
   const label = normalize(entry.label);
   const hint = normalize(entry.hint);
   const haystack = label + " " + hint;
@@ -151,6 +157,9 @@ function scoreEntry(entry: SearchEntry, q: string, tokens: string[]): number {
     if (label.includes(t)) score += 5;
     if (hint.includes(t)) score += 1;
   }
+  // Current-locale bonus: bubble matches in the user's locale above
+  // equivalent matches in other locales.
+  if (entry.locale === currentLocale) score += 20;
   return score;
 }
 
@@ -163,28 +172,24 @@ export function PlatformSearch() {
   const [query, setQuery] = useState("");
   const [isOpen, setIsOpen] = useState(false);
   const [activeIdx, setActiveIdx] = useState(0);
-  // Locale-keyed cache of search entries. Replaces the prior one-way
-  // `loaded: boolean` flag which prevented re-fetch on locale switch
-  // (the LanguageSelector does client-side router.push, so this
-  // component stays mounted across locale changes — without re-fetching,
-  // the EN-loaded entries would persist into /de, /es, etc.).
-  const [indexCache, setIndexCache] = useState<Record<string, SearchEntry[]>>({});
+  // Global index across all 11 locales. Fetched once per session; the
+  // payload is ~88 entries (~18KB JSON) CDN-cached for 1h, so a single
+  // fetch covers every locale switch the user might do later.
+  const [index, setIndex] = useState<SearchEntry[]>([]);
 
   const containerRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  // Fetch the index for the current locale whenever it changes. Cached
-  // per-locale so re-visiting a previously-loaded locale doesn't refetch.
+  // Fetch the global index once on mount.
   useEffect(() => {
-    if (indexCache[currentLocale]) return;
     let cancelled = false;
     (async () => {
       try {
-        const res = await fetch(`/api/search-index?locale=${encodeURIComponent(currentLocale)}`);
+        const res = await fetch(`/api/search-index`);
         if (!res.ok) return;
         const data = await res.json();
         if (cancelled) return;
-        setIndexCache((prev) => ({ ...prev, [currentLocale]: data.entries || [] }));
+        setIndex(data.entries || []);
       } catch (err) {
         // eslint-disable-next-line no-console
         console.warn("[PlatformSearch] index load failed:", err);
@@ -193,10 +198,7 @@ export function PlatformSearch() {
     return () => {
       cancelled = true;
     };
-  }, [currentLocale, indexCache]);
-
-  // Current locale's entries (empty array until the fetch resolves).
-  const index: SearchEntry[] = indexCache[currentLocale] || [];
+  }, []);
 
   // Click-outside + Esc.
   useEffect(() => {
@@ -225,7 +227,7 @@ export function PlatformSearch() {
   const tokens = q.split(" ").filter(Boolean);
   const results: SearchEntry[] = q
     ? index
-        .map((e) => ({ e, s: scoreEntry(e, q, tokens) }))
+        .map((e) => ({ e, s: scoreEntry(e, q, tokens, currentLocale) }))
         .filter((x) => x.s >= 0)
         .sort((a, b) => (b.s !== a.s ? b.s - a.s : a.e.label.localeCompare(b.e.label)))
         .slice(0, 10)
@@ -335,7 +337,17 @@ export function PlatformSearch() {
                               isActive ? "bg-teal-50" : "hover:bg-cream-100"
                             }`}
                           >
-                            <span className="text-sm font-medium text-ink-900 leading-tight">{r.label}</span>
+                            <span className="text-sm font-medium text-ink-900 leading-tight inline-flex items-center gap-2 flex-wrap">
+                              <span>{r.label}</span>
+                              {r.locale !== currentLocale && (
+                                <span
+                                  className="inline-flex items-center px-1.5 py-0.5 text-[10px] font-mono font-semibold uppercase tracking-wide rounded bg-cream-200 text-stone-700 shrink-0"
+                                  aria-label={`Language: ${r.locale}`}
+                                >
+                                  {r.locale}
+                                </span>
+                              )}
+                            </span>
                             <span className="text-xs text-stone-600">{r.hint}</span>
                           </button>
                         </li>
@@ -363,7 +375,17 @@ export function PlatformSearch() {
                               isActive ? "bg-teal-50" : "hover:bg-cream-100"
                             }`}
                           >
-                            <span className="text-sm font-medium text-ink-900 leading-tight">{r.label}</span>
+                            <span className="text-sm font-medium text-ink-900 leading-tight inline-flex items-center gap-2 flex-wrap">
+                              <span>{r.label}</span>
+                              {r.locale !== currentLocale && (
+                                <span
+                                  className="inline-flex items-center px-1.5 py-0.5 text-[10px] font-mono font-semibold uppercase tracking-wide rounded bg-cream-200 text-stone-700 shrink-0"
+                                  aria-label={`Language: ${r.locale}`}
+                                >
+                                  {r.locale}
+                                </span>
+                              )}
+                            </span>
                             <span className="text-xs text-stone-600">{r.hint}</span>
                           </button>
                         </li>

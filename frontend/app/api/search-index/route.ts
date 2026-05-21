@@ -2,30 +2,24 @@ import { NextResponse } from "next/server";
 import { buildSearchIndex } from "@/lib/search-index";
 
 /**
- * Per-locale search index API — returns the array of {label, url, hint, type}
- * entries the client-side PlatformSearch typeahead matches against.
+ * Global search index API — returns ALL entries across all 11 locales as
+ * a single flat array. Each entry carries its own `locale` field so the
+ * client can filter / rank / badge by locale.
  *
- * Scope: activities + manipulatives ONLY. NOT decks (operator-locked
- * 2026-05-21).
+ * Cross-locale scope (operator-locked 2026-05-21): teachers should find
+ * activities + tools regardless of their current page's locale. The
+ * `?locale=` query param is no longer used; accepted for backwards-compat
+ * but ignored. Payload is ~88 entries (~18KB JSON gzipped); CDN-cached 1h.
  *
- * Cached aggressively at the server: the index is built once per server
- * lifetime via the cache in lib/search-index.ts. CDN cache-control set to
- * one hour since the source data is static (activity manifests + in-code
- * manipulatives metadata; neither changes at runtime).
- *
- * Locale defaults to `en` if missing or unrecognized.
+ * Scope: activities + manipulatives ONLY. NOT decks.
  */
 export const revalidate = 3600;
 
-export async function GET(req: Request): Promise<NextResponse> {
-  const url = new URL(req.url);
-  const locale = url.searchParams.get("locale") || "en";
-
-  const index = await buildSearchIndex();
-  const entries = index[locale] || index.en || [];
+export async function GET(_req: Request): Promise<NextResponse> {
+  const entries = await buildSearchIndex();
 
   return NextResponse.json(
-    { locale, count: entries.length, entries },
+    { count: entries.length, entries },
     {
       headers: {
         "Cache-Control": "public, s-maxage=3600, stale-while-revalidate=300",

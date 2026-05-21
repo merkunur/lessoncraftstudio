@@ -9,6 +9,7 @@ import {
   ActivityRow,
 } from '@/lib/activities';
 import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
+import { ActivityIframe } from '@/components/activities/ActivityIframe';
 
 // "Activities" section label per locale — used for the middle breadcrumb
 // crumb on individual activity landing pages. Same string as the title of
@@ -160,28 +161,14 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
           </div>
         </header>
 
-        {/* Activity tool — embedded iframe. Height accounts for the site's
-            global nav (~80px) + this page's header (~80-100px) so the
-            whole iframe sits above-the-fold on standard viewports.
-            Cream backgroundColor matches the tool's inner bg so any minor
-            height mismatch looks seamless. */}
-        <div
-          className="rounded-3xl overflow-hidden shadow-xl"
-          style={{
-            backgroundColor: '#FBF3E4',
-            width: '100%',
-            height: 'min(calc(100vh - 250px), 540px)',
-            minHeight: '380px',
-          }}
-        >
-          <iframe
-            src={iframeSrc}
-            title={row.page_title[params.locale]}
-            loading="lazy"
-            allow="fullscreen; autoplay"
-            style={{ width: '100%', height: '100%', border: 0, display: 'block' }}
-          />
-        </div>
+        {/* Activity tool — embedded iframe wrapped in a client component
+            that listens for the shell's `lcs-activity-resize` postMessage
+            and adjusts iframe height to fit content. Closes the
+            "tall card, short content" gap that appeared when a short
+            activity (choice-board) shared chrome sized for a tall one
+            (ten-frame). Cream backgroundColor matches the tool's inner
+            bg so any minor height mismatch looks seamless. */}
+        <ActivityIframe src={iframeSrc} title={row.page_title[params.locale]} />
 
         {/* JSON-LD structured data for SEO — educationalAlignment carries the
             CC code so teacher searches like "K.CC.B.4 activity" can find this. */}

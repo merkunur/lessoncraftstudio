@@ -119,7 +119,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
           <h1 className="font-display font-bold text-lg md:text-xl text-teal-800 leading-tight mb-1">
             {row.page_title[params.locale]}
           </h1>
-          <p className="hidden md:block text-xs md:text-sm text-stone-700 max-w-3xl mx-auto leading-snug mb-1.5">
+          <p className="hidden lg:block text-xs lg:text-sm text-stone-700 max-w-3xl mx-auto leading-snug mb-1.5">
             {row.page_intro[params.locale]}
           </p>
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-50 text-teal-800 text-xs font-semibold">
@@ -141,7 +141,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
           style={{
             backgroundColor: '#FBF3E4',
             width: '100%',
-            height: 'min(calc(100vh - 220px), 560px)',
+            height: 'min(calc(100vh - 250px), 540px)',
             minHeight: '380px',
           }}
         >

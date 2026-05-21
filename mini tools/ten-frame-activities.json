@@ -228,63 +228,6 @@
     "kid_prompt_template": "taskHowMany"
   },
   {
-    "id": "ten-frame.decompose-10.make-pairs",
-    "tool": "ten-frame-activity",
-    "task_template": "make-n",
-    "alignment": {
-      "framework": "CCSS",
-      "code": "K.OA.A.3",
-      "grade": "K",
-      "strand": "Operations & Algebraic Thinking"
-    },
-    "params": {
-      "targets": [3, 5, 7],
-      "range": { "min": 0, "max": 10 },
-      "frames": 1
-    },
-    "theme": null,
-    "slug": {
-      "en": "decompose-10-into-pairs",
-      "de": "10-in-paare-zerlegen",
-      "es": "descomponer-10-en-pares",
-      "fr": "decomposer-10-en-paires",
-      "it": "scomporre-10-in-coppie",
-      "pt": "decompor-10-em-pares",
-      "nl": "10-in-paren-splitsen",
-      "sv": "dela-upp-10-i-par",
-      "da": "10-i-par-opdele",
-      "no": "10-i-par-dele",
-      "fi": "hajota-10-pareiksi"
-    },
-    "page_title": {
-      "en": "Decompose 10 into Pairs — Ten Frame Activity",
-      "de": "10 in Paare zerlegen — Zehnerfeld-Aufgabe",
-      "es": "Descomponer 10 en pares — Marco de diez",
-      "fr": "Décomposer 10 en paires — Cadre de dix",
-      "it": "Scomporre 10 in coppie — Tabella del dieci",
-      "pt": "Decompor 10 em pares — Quadro de dez",
-      "nl": "10 in paren splitsen — Tienraam",
-      "sv": "Dela upp 10 i par — Tioram",
-      "da": "Opdele 10 i par — Tierramme",
-      "no": "Dele 10 i par — Tierramme",
-      "fi": "Hajota 10 pareiksi — Kymmenruudukko"
-    },
-    "page_intro": {
-      "en": "Fill some cells in the ten-frame and see how the rest pair with them to make 10. Aligned to Common Core K.OA.A.3 — decompose numbers ≤ 10 into pairs in more than one way.",
-      "de": "Fülle einige Felder im Zehnerfeld und sieh, wie die übrigen mit ihnen 10 ergeben. Angepasst an Common Core K.OA.A.3 — Zahlen ≤ 10 in mehrere Paare zerlegen.",
-      "es": "Llena algunas casillas del marco de diez y ve cómo las otras forman pares hasta 10. Alineado a Common Core K.OA.A.3 — descomponer números ≤ 10 en pares.",
-      "fr": "Remplis quelques cases du cadre de dix et vois comment les autres complètent une paire jusqu'à 10. Aligné à Common Core K.OA.A.3 — décomposer les nombres ≤ 10 en paires.",
-      "it": "Riempi alcune caselle nella tabella del dieci e osserva come le altre formano coppie fino a 10. Allineato a Common Core K.OA.A.3 — scomporre numeri ≤ 10 in coppie.",
-      "pt": "Preenche algumas células do quadro de dez e vê como as outras formam pares até 10. Alinhado a Common Core K.OA.A.3 — decompor números ≤ 10 em pares.",
-      "nl": "Vul enkele vakjes in het tienraam en zie hoe de andere er paren mee vormen tot 10. Aansluitend bij Common Core K.OA.A.3 — splits getallen ≤ 10 in paren.",
-      "sv": "Fyll några rutor i tioramen och se hur de andra bildar par till 10. I linje med Common Core K.OA.A.3 — dela upp tal ≤ 10 i par.",
-      "da": "Fyld nogle felter i tierrammen og se, hvordan de andre danner par til 10. På linje med Common Core K.OA.A.3 — opdel tal ≤ 10 i par.",
-      "no": "Fyll noen ruter i tierrammen og se hvordan de andre danner par til 10. Etter Common Core K.OA.A.3 — del tall ≤ 10 i par.",
-      "fi": "Täytä joitakin ruutuja kymmenruudukossa ja katso, miten muut muodostavat parit kymmeneen. Yhdenmukainen Common Core K.OA.A.3 — jaa luvut ≤ 10 pareiksi."
-    },
-    "kid_prompt_template": "taskMake"
-  },
-  {
     "id": "ten-frame.teen-numbers.make-n",
     "tool": "ten-frame-activity",
     "task_template": "make-n",

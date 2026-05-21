@@ -48,20 +48,45 @@ const MANIFEST_FILES = [
 
 let _cache: ActivityRow[] | null = null;
 
+/**
+ * Candidate paths in order of preference. The server's process.cwd() varies
+ * across local dev (`<repo>/frontend`), production standalone runtime
+ * (`<repo>/frontend/.next/standalone`), and direct `next start` from a build.
+ * We try each in turn so the manifest loads regardless of where Node was
+ * launched. `public/mini-tools/` is the most reliable because the master-sync
+ * script ALWAYS populates it as part of the deployment, and the standalone
+ * build's public/ symlink resolves to the served storage on the server.
+ */
+function candidateManifestPaths(file: string): string[] {
+  const cwd = process.cwd();
+  return [
+    path.join(cwd, 'public', 'mini-tools', file),                          // standalone via symlink
+    path.join(cwd, '..', 'public', 'mini-tools', file),                    // local dev from frontend/
+    path.join(cwd, 'frontend', 'public', 'mini-tools', file),              // launched from repo root
+    path.join(cwd, '..', '..', '..', '..', 'mini tools', file),            // standalone → repo-root mini tools/
+    path.join(cwd, '..', 'mini tools', file),                              // local dev → repo-root mini tools/
+    path.join(cwd, 'mini tools', file),                                    // launched from repo root
+  ];
+}
+
 async function loadActivities(): Promise<ActivityRow[]> {
   if (_cache) return _cache;
-  const repoRoot = path.join(process.cwd(), '..');
   const all: ActivityRow[] = [];
   for (const file of MANIFEST_FILES) {
-    const full = path.join(repoRoot, 'mini tools', file);
-    try {
-      const raw = await fs.readFile(full, 'utf-8');
-      const rows = JSON.parse(raw) as ActivityRow[];
-      all.push(...rows);
-    } catch (err) {
-      // Manifest absent or unreadable — log and continue. Activities for
-      // engines without manifests just won't appear.
-      console.warn('[activities] Failed to load', full, (err as Error).message);
+    let loaded = false;
+    for (const candidate of candidateManifestPaths(file)) {
+      try {
+        const raw = await fs.readFile(candidate, 'utf-8');
+        const rows = JSON.parse(raw) as ActivityRow[];
+        all.push(...rows);
+        loaded = true;
+        break;
+      } catch {
+        // try the next candidate
+      }
+    }
+    if (!loaded) {
+      console.warn('[activities] Could not load', file, 'from any candidate path');
     }
   }
   _cache = all;

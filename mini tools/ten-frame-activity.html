@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Ten Frame — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css">
+</head>
+<body>
+  <!-- The shell mounts the whole tool into this element. -->
+  <div id="lcs-root"></div>
+
+  <!-- Shell first, then the shared ten-frame core, then this activity wrapper. -->
+  <script src="/mini-tools/lcs-shell.js"></script>
+  <script src="/mini-tools/ten-frame-core.js"></script>
+  <script src="/mini-tools/ten-frame-activity.js"></script>
+  <script>
+    LCS.mount(TenFrameActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

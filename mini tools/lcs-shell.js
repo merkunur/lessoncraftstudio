@@ -32,8 +32,23 @@
     settings:   {en:'Settings',de:'Einstellungen',fr:'Réglages',it:'Impostazioni',es:'Ajustes',pt:'Configurações',nl:'Instellingen',sv:'Inställningar',da:'Indstillinger',no:'Innstillinger',fi:'Asetukset'},
     fullscreen: {en:'Fullscreen',de:'Vollbild',fr:'Plein écran',it:'Schermo intero',es:'Pantalla completa',pt:'Tela cheia',nl:'Volledig scherm',sv:'Helskärm',da:'Fuld skærm',no:'Fullskjerm',fi:'Koko näyttö'},
     sound:      {en:'Sound',de:'Ton',fr:'Son',it:'Suono',es:'Sonido',pt:'Som',nl:'Geluid',sv:'Ljud',da:'Lyd',no:'Lyd',fi:'Ääni'},
-    close:      {en:'Close',de:'Schließen',fr:'Fermer',it:'Chiudi',es:'Cerrar',pt:'Fechar',nl:'Sluiten',sv:'Stäng',da:'Luk',no:'Lukk',fi:'Sulje'}
+    close:      {en:'Close',de:'Schließen',fr:'Fermer',it:'Chiudi',es:'Cerrar',pt:'Fechar',nl:'Sluiten',sv:'Stäng',da:'Luk',no:'Lukk',fi:'Sulje'},
+    /* Activity chrome — rendered only when a tool declares `tasks`/`nextTask`. */
+    check:      {en:'Check',de:'Prüfen',fr:'Vérifier',it:'Verifica',es:'Comprobar',pt:'Verificar',nl:'Controleer',sv:'Kontrollera',da:'Tjek',no:'Sjekk',fi:'Tarkista'},
+    next:       {en:'Next',de:'Weiter',fr:'Suivant',it:'Avanti',es:'Siguiente',pt:'Próximo',nl:'Volgende',sv:'Nästa',da:'Næste',no:'Neste',fi:'Seuraava'},
+    celebrate:  {en:'Great!',de:'Super!',fr:'Bravo !',it:'Bravo!',es:'¡Genial!',pt:'Ótimo!',nl:'Goed gedaan!',sv:'Bra jobbat!',da:'Flot klaret!',no:'Bra jobbet!',fi:'Hienoa!'},
+    tryAgain:   {en:'Not yet — try again!',de:'Noch nicht — versuche es nochmal!',fr:'Pas encore — essaie encore !',it:'Non ancora — riprova!',es:'Aún no — ¡intenta otra vez!',pt:'Ainda não — tente de novo!',nl:'Nog niet — probeer nog eens!',sv:'Inte än — försök igen!',da:'Ikke endnu — prøv igen!',no:'Ikke ennå — prøv igjen!',fi:'Ei vielä — yritä uudelleen!'},
+    tasksDone:  {en:'Tasks done: {n}',de:'Aufgaben erledigt: {n}',fr:'Tâches faites : {n}',it:'Compiti fatti: {n}',es:'Tareas hechas: {n}',pt:'Tarefas feitas: {n}',nl:'Taken gedaan: {n}',sv:'Klara uppgifter: {n}',da:'Færdige opgaver: {n}',no:'Ferdige oppgaver: {n}',fi:'Tehtyjä tehtäviä: {n}'}
   };
+
+  /* Simple {key} interpolation for prompt + progress strings. */
+  function interpolate(template, args) {
+    if (!template) return '';
+    args = args || {};
+    return String(template).replace(/\{(\w+)\}/g, function (m, k) {
+      return (k in args) ? String(args[k]) : m;
+    });
+  }
 
   /* ---- i18n engine ------------------------------------------------- */
   var i18n = {
@@ -382,11 +397,210 @@
     function openDrawer()  { if (!drawer) buildDrawer(); scrim.classList.add('open'); drawer.classList.add('open'); }
     function closeDrawer() { if (drawer) { scrim.classList.remove('open'); drawer.classList.remove('open'); } }
 
+    /* =====================================================================
+       ACTIVITY CHROME — rendered only when the tool declares `tasks`.
+       ---------------------------------------------------------------------
+       Manipulative tools (ten-frame.js, number-line.js, ruler.js as of
+       this writing) don't declare `tasks`, so this block is a complete
+       no-op for them — no DOM additions, no listeners, no behaviour drift.
+
+       Owned by the shell so all 150 activity tools get identical task
+       chrome (prompt / answer surface / Check / feedback / Next / progress).
+       K-3 tone is hard-coded: celebrate copy + "Not yet — try again",
+       880 Hz on success / 440 Hz on retry, screen-reader announce,
+       prefers-reduced-motion respect on the confetti.
+       ===================================================================== */
+    var promptEl, progressEl, feedbackEl, answerEl, checkBtnEl, nextBtnEl;
+    var currentTaskIndex = 0, tasksCompleted = 0, currentTask = null;
+
+    function ensureActivityChrome() {
+      if (!tool.tasks && !tool.nextTask) return false;
+      app.classList.add('activity');
+
+      /* prompt banner — between header and stage */
+      promptEl = el('div', 'lcs-activity-prompt');
+      app.insertBefore(promptEl, stage);
+
+      /* progress indicator — in header next to the titles */
+      progressEl = el('span', 'lcs-activity-progress');
+      progressEl.textContent = interpolate(i18n.chrome('tasksDone'), { n: 0 });
+      titles.appendChild(progressEl);
+
+      /* feedback overlay — sibling of stage inside .lcs-app so the tool's
+         render() (which clears `stage.innerHTML`) doesn't wipe it. */
+      feedbackEl = el('div', 'lcs-activity-feedback');
+      feedbackEl.setAttribute('role', 'status');
+      app.insertBefore(feedbackEl, stage.nextSibling);
+
+      /* answer surface + action row — below the stage */
+      answerEl = el('div', 'lcs-activity-answer');
+      var actions = el('div', 'lcs-activity-actions');
+      checkBtnEl = el('button', 'lcs-activity-check');
+      checkBtnEl.type = 'button';
+      checkBtnEl.textContent = i18n.chrome('check');
+      checkBtnEl.addEventListener('click', onCheckClick);
+      nextBtnEl = el('button', 'lcs-activity-next');
+      nextBtnEl.type = 'button';
+      nextBtnEl.textContent = i18n.chrome('next');
+      nextBtnEl.hidden = true;
+      nextBtnEl.addEventListener('click', onNextClick);
+      actions.append(checkBtnEl, nextBtnEl);
+      app.appendChild(answerEl);
+      app.appendChild(actions);
+      return true;
+    }
+
+    /* Resolve the i-th task. Supports either tool.tasks[] or tool.nextTask(). */
+    function getTask(i) {
+      if (tool.tasks && tool.tasks.length) return tool.tasks[i % tool.tasks.length];
+      if (typeof tool.nextTask === 'function') return tool.nextTask({ index: i, completed: tasksCompleted });
+      return null;
+    }
+
+    function loadTask(task) {
+      currentTask = task;
+      if (!task) return;
+      var promptText = interpolate(api.t(task.promptKey), task.promptArgs || {});
+      promptEl.textContent = promptText;
+      api.announce(promptText);
+      if (task.setup) task.setup(tool);
+      if (tool.render) tool.render();
+      renderAnswerSurface(task);
+      feedbackEl.classList.remove('open', 'celebrate', 'tryagain');
+      feedbackEl.textContent = '';
+      nextBtnEl.hidden = true;
+      checkBtnEl.hidden = false;
+      checkBtnEl.disabled = (task.answerType === 'number' || task.answerType === 'choice');
+    }
+
+    /* The pending answer for 'number' / 'choice' tasks. */
+    var pendingAnswer = null;
+
+    function renderAnswerSurface(task) {
+      answerEl.innerHTML = '';
+      pendingAnswer = null;
+      if (task.answerType === 'number') {
+        var display = el('div', 'lcs-activity-answer-display');
+        display.textContent = '';
+        var pad = el('div', 'lcs-activity-keypad');
+        var min = (typeof task.answerMin === 'number') ? task.answerMin : 0;
+        var max = (typeof task.answerMax === 'number') ? task.answerMax :  Infinity;
+        function setPending(v) {
+          if (v == null || v === '') { pendingAnswer = null; display.textContent = ''; }
+          else { pendingAnswer = v; display.textContent = String(v); }
+          checkBtnEl.disabled = (pendingAnswer == null);
+        }
+        var current = '';
+        for (var d = 0; d <= 9; d++) {
+          (function (digit) {
+            var k = el('button', 'lcs-activity-key');
+            k.type = 'button';
+            k.textContent = String(digit);
+            k.addEventListener('click', function () {
+              var nextStr = (current + digit).replace(/^0+(?=\d)/, '');   // strip leading zeros
+              var num = parseInt(nextStr, 10);
+              if (isFinite(max) && num > max) return;
+              current = nextStr;
+              setPending(num);
+            });
+            pad.appendChild(k);
+          }(d));
+        }
+        var clear = el('button', 'lcs-activity-key lcs-activity-key-clear');
+        clear.type = 'button';
+        clear.textContent = '⌫';
+        clear.setAttribute('aria-label', 'Clear');
+        clear.addEventListener('click', function () { current = ''; setPending(null); });
+        pad.appendChild(clear);
+        answerEl.append(display, pad);
+      } else if (task.answerType === 'choice') {
+        var seg = el('div', 'lcs-activity-choices');
+        seg.setAttribute('role', 'radiogroup');
+        (task.choices || []).forEach(function (opt) {
+          var chip = el('button', 'lcs-chip');
+          chip.type = 'button';
+          chip.setAttribute('role', 'radio');
+          chip.setAttribute('aria-checked', 'false');
+          chip.textContent = opt.labelKey ? api.t(opt.labelKey) : String(opt.value);
+          chip.addEventListener('click', function () {
+            seg.querySelectorAll('.lcs-chip').forEach(function (c) { c.setAttribute('aria-checked', 'false'); });
+            chip.setAttribute('aria-checked', 'true');
+            pendingAnswer = opt.value;
+            checkBtnEl.disabled = false;
+          });
+          seg.appendChild(chip);
+        });
+        answerEl.appendChild(seg);
+      }
+      /* 'state' / null → answerEl stays empty; tool's own stage is the surface */
+    }
+
+    function readAnswer(task) {
+      if (task.answerType === 'number' || task.answerType === 'choice') return pendingAnswer;
+      return undefined;
+    }
+
+    function onCheckClick() {
+      if (!currentTask) return;
+      var answer = readAnswer(currentTask);
+      var ok = false;
+      try { ok = !!currentTask.check(tool, answer); } catch (e) { ok = false; }
+      feedbackEl.classList.remove('celebrate', 'tryagain');
+      if (ok) {
+        Audio.pop(880);
+        feedbackEl.classList.add('open', 'celebrate');
+        feedbackEl.textContent = i18n.chrome('celebrate');
+        api.announce(i18n.chrome('celebrate'));
+        tasksCompleted += 1;
+        progressEl.textContent = interpolate(i18n.chrome('tasksDone'), { n: tasksCompleted });
+        nextBtnEl.hidden = false;
+        checkBtnEl.hidden = true;
+        spawnConfetti();
+        api.track('task:check', { id: currentTask.id, ok: true });
+      } else {
+        Audio.pop(440);
+        feedbackEl.classList.add('open', 'tryagain');
+        var hintKey = currentTask.hintKey && currentTask.hintKey(tool, answer);
+        var msg = i18n.chrome('tryAgain') + (hintKey ? ' — ' + api.t(hintKey) : '');
+        feedbackEl.textContent = msg;
+        api.announce(msg);
+        api.track('task:check', { id: currentTask.id, ok: false });
+        setTimeout(function () {
+          if (feedbackEl.classList.contains('tryagain')) {
+            feedbackEl.classList.remove('open', 'tryagain');
+            feedbackEl.textContent = '';
+          }
+        }, 1800);
+      }
+    }
+
+    function onNextClick() {
+      currentTaskIndex += 1;
+      loadTask(getTask(currentTaskIndex));
+    }
+
+    /* Confetti — code-drawn sparkles, respects prefers-reduced-motion. */
+    function spawnConfetti() {
+      if (global.matchMedia && global.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      var container = el('div', 'lcs-confetti');
+      for (var i = 0; i < 6; i++) {
+        var s = el('span', 'lcs-confetti-piece');
+        s.style.left  = (10 + i * 14 + Math.random() * 8) + '%';
+        s.style.animationDelay = (i * 40) + 'ms';
+        s.style.color = (i % 2 === 0) ? 'var(--lcs-accent)' : 'var(--lcs-good)';
+        s.innerHTML = '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M8 0l2 6 6 2-6 2-2 6-2-6-6-2 6-2z" fill="currentColor"/></svg>';
+        container.appendChild(s);
+      }
+      stage.appendChild(container);
+      setTimeout(function () { if (container.parentNode) container.parentNode.removeChild(container); }, 900);
+    }
+
     /* ---- go live ---- */
     root.innerHTML = '';
     root.appendChild(app);
     if (tool.init) tool.init(api);
     if (tool.render) tool.render();
+    if (ensureActivityChrome()) loadTask(getTask(0));
     api.track('load', { embed: embed });
   }
 

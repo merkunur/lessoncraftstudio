@@ -189,6 +189,155 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
   overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
 }
 
+/* =====================================================================
+   ACTIVITY CHROME — rendered only when a tool declares `tasks`/`nextTask`.
+   All selectors namespaced `.lcs-activity-*`, so the rules apply only to
+   activity tools. Manipulative tools (no `tasks`) don't get any of these
+   elements in the DOM and are visually unchanged by this block.
+   ===================================================================== */
+.lcs-activity-prompt {
+  font-family: var(--lcs-font-display);
+  font-weight: 700;
+  font-size: clamp(20px, 3.6vmin, 30px);
+  color: var(--lcs-structure);
+  text-align: center;
+  padding: 0 var(--lcs-pad) var(--lcs-gap);
+  line-height: 1.15;
+}
+.lcs-activity-progress {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--lcs-ink-soft);
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  margin-top: 2px;
+}
+/* Feedback lives as a sibling of .lcs-stage (so the tool's render() can't
+   wipe it). .lcs-app is the positioning context. */
+.lcs-app { position: relative; }
+.lcs-activity-feedback {
+  position: absolute;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%) scale(0.95);
+  max-width: 80%;
+  padding: 14px 28px;
+  border-radius: var(--lcs-radius-pill);
+  font-family: var(--lcs-font-display);
+  font-weight: 700;
+  font-size: clamp(22px, 4vmin, 32px);
+  box-shadow: var(--lcs-shadow);
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
+  transition: opacity .2s var(--lcs-ease), transform .2s var(--lcs-ease);
+  z-index: 4;
+}
+.lcs-activity-feedback.open    { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+.lcs-activity-feedback.celebrate { background: var(--lcs-good); color: #fff; }
+.lcs-activity-feedback.tryagain  { background: var(--lcs-accent); color: var(--lcs-accent-ink); }
+
+.lcs-activity-answer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--lcs-gap);
+  padding: 0 var(--lcs-pad);
+  flex-wrap: wrap;
+}
+.lcs-activity-answer:empty { display: none; }
+.lcs-activity-answer-display {
+  min-width: 3.2em;
+  text-align: center;
+  font-family: var(--lcs-font-display);
+  font-weight: 700;
+  font-size: clamp(28px, 5vmin, 44px);
+  color: var(--lcs-structure);
+  background: var(--lcs-surface);
+  padding: 6px 18px;
+  border-radius: var(--lcs-radius-sm);
+  box-shadow: var(--lcs-shadow-sm);
+}
+.lcs-activity-keypad {
+  display: grid;
+  grid-template-columns: repeat(5, var(--lcs-tap));
+  gap: 6px;
+}
+.lcs-activity-key {
+  width: var(--lcs-tap); height: var(--lcs-tap);
+  display: grid; place-items: center;
+  border-radius: var(--lcs-radius-sm);
+  background: var(--lcs-surface);
+  box-shadow: var(--lcs-shadow-sm);
+  font-family: var(--lcs-font-display);
+  font-weight: 700;
+  font-size: clamp(18px, 3vmin, 24px);
+  color: var(--lcs-structure);
+  transition: transform .12s var(--lcs-ease), background .15s;
+  touch-action: manipulation;
+}
+.lcs-activity-key:hover { background: var(--lcs-structure-soft); }
+.lcs-activity-key:active { transform: scale(.92); }
+.lcs-activity-key-clear { color: var(--lcs-ink-soft); }
+
+.lcs-activity-choices {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;
+}
+
+.lcs-activity-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: var(--lcs-pad);
+  padding-top: calc(var(--lcs-pad) * 0.5);
+}
+.lcs-activity-check,
+.lcs-activity-next {
+  min-height: 56px;
+  min-width: clamp(120px, 24vmin, 200px);
+  padding: 0 28px;
+  border-radius: var(--lcs-radius-pill);
+  background: var(--lcs-structure);
+  color: #fff;
+  font-family: var(--lcs-font-display);
+  font-weight: 700;
+  font-size: clamp(18px, 3vmin, 22px);
+  box-shadow: var(--lcs-shadow);
+  transition: transform .12s var(--lcs-ease), background .15s, opacity .15s;
+  touch-action: manipulation;
+}
+.lcs-activity-check:hover:not(:disabled),
+.lcs-activity-next:hover  { transform: translateY(-1px); background: #1a8576; }
+.lcs-activity-check:active:not(:disabled),
+.lcs-activity-next:active { transform: scale(.96); }
+.lcs-activity-check:disabled { opacity: .45; cursor: not-allowed; }
+.lcs-activity-next { background: var(--lcs-accent); }
+.lcs-activity-next:hover { background: #d9663c; }
+.lcs-activity-check[hidden],
+.lcs-activity-next[hidden] { display: none; }
+
+/* confetti — only on activity tools and only when motion is allowed */
+.lcs-confetti {
+  position: absolute; inset: 0;
+  pointer-events: none;
+  overflow: visible;
+  z-index: 3;
+}
+.lcs-confetti-piece {
+  position: absolute;
+  top: 40%;
+  width: 14px; height: 14px;
+  display: inline-block;
+  animation: lcs-sparkle 800ms var(--lcs-ease) forwards;
+}
+@keyframes lcs-sparkle {
+  0%   { transform: translateY(0) scale(0.4) rotate(0);    opacity: 0;   }
+  20%  { transform: translateY(-12px) scale(1) rotate(60deg); opacity: 1; }
+  100% { transform: translateY(40px) scale(0.5) rotate(180deg); opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .lcs-confetti, .lcs-activity-feedback { animation: none !important; transition: opacity .12s !important; }
+}
+
 @media (max-width: 480px) {
   .lcs-header { flex-wrap: wrap; }
 }

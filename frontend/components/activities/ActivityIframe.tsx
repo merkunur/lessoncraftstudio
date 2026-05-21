@@ -51,6 +51,7 @@ export function ActivityIframe({
       title={title}
       loading="lazy"
       allow="fullscreen; autoplay"
+      scrolling="no"
       style={{
         width: "100%",
         height: `${height}px`,

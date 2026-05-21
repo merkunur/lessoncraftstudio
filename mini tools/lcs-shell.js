@@ -683,7 +683,13 @@
       if (_resizeRaf) cancelAnimationFrame(_resizeRaf);
       _resizeRaf = requestAnimationFrame(function () {
         _resizeRaf = null;
-        var h = app.scrollHeight || document.body.scrollHeight;
+        /* Use getBoundingClientRect for sub-pixel-accurate measurement
+           + ceil + 2px buffer so the parent iframe is ALWAYS slightly
+           taller than the content. Eliminates the sub-pixel-rounding
+           overflow that triggers an iframe scrollbar at certain
+           viewports/font-loaded states. */
+        var rect = app.getBoundingClientRect();
+        var h = Math.ceil(rect.height) + 2;
         if (!h || Math.abs(h - _lastReportedHeight) < 4) return;
         _lastReportedHeight = h;
         try {

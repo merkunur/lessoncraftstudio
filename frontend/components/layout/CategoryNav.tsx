@@ -30,6 +30,8 @@ import type { ActivityRow } from '@/lib/activities';
 interface TaxonomySchema {
   axes: {
     'exercise-type': Record<string, { slug: Record<string, string>; name: Record<string, string> }>;
+    'theme': Record<string, { slug: Record<string, string>; name: Record<string, string> }>;
+    'educational-level': Record<string, { slug: Record<string, string>; name: Record<string, string> }>;
   };
 }
 
@@ -81,21 +83,37 @@ const APPS_ANCHOR_KEYS = [
   'big-small',
 ] as const;
 
-function resolveAxisSlug(axisKey: string, locale: string): string {
+// Theme anchor candidates for the new Topics dropdown sub-items.
+// Filtered at render time against availableThemes (per-locale non-empty
+// theme axis-keys) per §16.6.1 substrate-honesty. Picked to span everyday
+// K-3 classroom themes that teachers search for most.
+const TOPICS_THEME_ANCHOR_CANDIDATES = [
+  'animals',
+  'food',
+  'vehicles',
+  'fruits',
+  'birds',
+  'around_the_house',
+  'school',
+  'weather',
+  'colors',
+] as const;
+
+function resolveAxisSlug(axisKey: string, locale: string, axis: 'exercise-type' | 'theme' = 'exercise-type'): string {
   const taxonomy = topicsTaxonomy as unknown as TaxonomySchema;
-  const entry = taxonomy.axes['exercise-type']?.[axisKey];
+  const entry = taxonomy.axes[axis]?.[axisKey];
   return entry?.slug?.[locale] ?? entry?.slug?.en ?? axisKey;
 }
 
-function resolveAxisName(axisKey: string, locale: string): string {
+function resolveAxisName(axisKey: string, locale: string, axis: 'exercise-type' | 'theme' = 'exercise-type'): string {
   const taxonomy = topicsTaxonomy as unknown as TaxonomySchema;
-  const entry = taxonomy.axes['exercise-type']?.[axisKey];
+  const entry = taxonomy.axes[axis]?.[axisKey];
   return entry?.name?.[locale] ?? entry?.name?.en ?? axisKey;
 }
 
 // --- Component ---
 
-type CategoryKey = 'worksheets' | 'apps' | 'interactive' | 'activities' | 'manipulatives';
+type CategoryKey = 'worksheets' | 'apps' | 'interactive' | 'activities' | 'manipulatives' | 'topics';
 
 interface DropdownItem {
   href: string;
@@ -120,6 +138,8 @@ interface CategoryNavProps {
   // Server-resolved at LocaleLayout so the manifest fs.read happens once
   // per locale-rendered page, not per CategoryNav mount.
   availableActivities?: Array<{ id: string; slug: string; title: string; code: string }>;
+  // Per-locale non-empty theme axis-keys for the Topics dropdown sub-items.
+  availableThemes?: string[];
 }
 
 // Localized labels for the new Activities + Manipulatives nav entries +
@@ -128,25 +148,28 @@ interface CategoryNavProps {
 const LABELS: Record<string, {
   activities: string;
   manipulatives: string;
+  topics: string;
   browseAllActivities: string;
   browseAllManipulatives: string;
+  browseAllTopics: string;
 }> = {
-  en: { activities: 'Activities', manipulatives: 'Tools', browseAllActivities: 'Browse all activities', browseAllManipulatives: 'Browse all tools' },
-  de: { activities: 'Aufgaben', manipulatives: 'Werkzeuge', browseAllActivities: 'Alle Aufgaben', browseAllManipulatives: 'Alle Werkzeuge' },
-  es: { activities: 'Actividades', manipulatives: 'Herramientas', browseAllActivities: 'Ver todas las actividades', browseAllManipulatives: 'Ver todas las herramientas' },
-  fr: { activities: 'Activités', manipulatives: 'Outils', browseAllActivities: 'Voir toutes les activités', browseAllManipulatives: 'Voir tous les outils' },
-  it: { activities: 'Attività', manipulatives: 'Strumenti', browseAllActivities: 'Vedi tutte le attività', browseAllManipulatives: 'Vedi tutti gli strumenti' },
-  pt: { activities: 'Atividades', manipulatives: 'Ferramentas', browseAllActivities: 'Ver todas as atividades', browseAllManipulatives: 'Ver todas as ferramentas' },
-  nl: { activities: 'Activiteiten', manipulatives: 'Hulpmiddelen', browseAllActivities: 'Alle activiteiten', browseAllManipulatives: 'Alle hulpmiddelen' },
-  sv: { activities: 'Aktiviteter', manipulatives: 'Verktyg', browseAllActivities: 'Alla aktiviteter', browseAllManipulatives: 'Alla verktyg' },
-  da: { activities: 'Aktiviteter', manipulatives: 'Værktøjer', browseAllActivities: 'Alle aktiviteter', browseAllManipulatives: 'Alle værktøjer' },
-  no: { activities: 'Aktiviteter', manipulatives: 'Verktøy', browseAllActivities: 'Alle aktiviteter', browseAllManipulatives: 'Alle verktøy' },
-  fi: { activities: 'Tehtävät', manipulatives: 'Työkalut', browseAllActivities: 'Kaikki tehtävät', browseAllManipulatives: 'Kaikki työkalut' },
+  en: { activities: 'Activities', manipulatives: 'Tools', topics: 'Topics', browseAllActivities: 'Browse all activities', browseAllManipulatives: 'Browse all tools', browseAllTopics: 'Browse all topics' },
+  de: { activities: 'Aufgaben', manipulatives: 'Werkzeuge', topics: 'Themen', browseAllActivities: 'Alle Aufgaben', browseAllManipulatives: 'Alle Werkzeuge', browseAllTopics: 'Alle Themen' },
+  es: { activities: 'Actividades', manipulatives: 'Herramientas', topics: 'Temas', browseAllActivities: 'Ver todas las actividades', browseAllManipulatives: 'Ver todas las herramientas', browseAllTopics: 'Ver todos los temas' },
+  fr: { activities: 'Activités', manipulatives: 'Outils', topics: 'Sujets', browseAllActivities: 'Voir toutes les activités', browseAllManipulatives: 'Voir tous les outils', browseAllTopics: 'Voir tous les sujets' },
+  it: { activities: 'Attività', manipulatives: 'Strumenti', topics: 'Argomenti', browseAllActivities: 'Vedi tutte le attività', browseAllManipulatives: 'Vedi tutti gli strumenti', browseAllTopics: 'Vedi tutti gli argomenti' },
+  pt: { activities: 'Atividades', manipulatives: 'Ferramentas', topics: 'Tópicos', browseAllActivities: 'Ver todas as atividades', browseAllManipulatives: 'Ver todas as ferramentas', browseAllTopics: 'Ver todos os tópicos' },
+  nl: { activities: 'Activiteiten', manipulatives: 'Hulpmiddelen', topics: "Onderwerpen", browseAllActivities: 'Alle activiteiten', browseAllManipulatives: 'Alle hulpmiddelen', browseAllTopics: 'Alle onderwerpen' },
+  sv: { activities: 'Aktiviteter', manipulatives: 'Verktyg', topics: 'Ämnen', browseAllActivities: 'Alla aktiviteter', browseAllManipulatives: 'Alla verktyg', browseAllTopics: 'Alla ämnen' },
+  da: { activities: 'Aktiviteter', manipulatives: 'Værktøjer', topics: 'Emner', browseAllActivities: 'Alle aktiviteter', browseAllManipulatives: 'Alle værktøjer', browseAllTopics: 'Alle emner' },
+  no: { activities: 'Aktiviteter', manipulatives: 'Verktøy', topics: 'Emner', browseAllActivities: 'Alle aktiviteter', browseAllManipulatives: 'Alle verktøy', browseAllTopics: 'Alle emner' },
+  fi: { activities: 'Tehtävät', manipulatives: 'Työkalut', topics: 'Aiheet', browseAllActivities: 'Kaikki tehtävät', browseAllManipulatives: 'Kaikki työkalut', browseAllTopics: 'Kaikki aiheet' },
 };
 
 export function CategoryNav({
   availableExerciseTypes = [],
   availableActivities = [],
+  availableThemes = [],
 }: CategoryNavProps) {
   const t = useTranslations('nav.categories');
   const pathname = usePathname();
@@ -221,6 +244,18 @@ export function CategoryNav({
     label: m.title[locale] ?? m.title.en,
   }));
 
+  // Topics dropdown sub-items — popular themes filtered by per-locale
+  // non-empty availability. Bottom link routes to the /topic/ index.
+  const themeAvailSet = new Set(availableThemes);
+  const topicsKeys = (themeAvailSet.size === 0
+    ? TOPICS_THEME_ANCHOR_CANDIDATES.slice(0, 6)
+    : TOPICS_THEME_ANCHOR_CANDIDATES.filter(k => themeAvailSet.has(k)).slice(0, 6)
+  );
+  const topicsItems: DropdownItem[] = topicsKeys.map(key => ({
+    href: `/${locale}/topic/${resolveAxisSlug(key, locale, 'theme')}/`,
+    label: resolveAxisName(key, locale, 'theme'),
+  }));
+
   const dropdowns: CategoryDropdown[] = [
     {
       key: 'worksheets',
@@ -242,6 +277,13 @@ export function CategoryNav({
       items: manipulativesItems,
       browseAllHref: `/${locale}/tools/`,
       browseAllLabel: labels.browseAllManipulatives,
+    },
+    {
+      key: 'topics',
+      label: labels.topics,
+      items: topicsItems,
+      browseAllHref: `/${locale}/topic/`,
+      browseAllLabel: labels.browseAllTopics,
     },
     {
       key: 'apps',

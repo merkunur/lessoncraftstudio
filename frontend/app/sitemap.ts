@@ -295,6 +295,32 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       console.warn('[sitemap] tools URLs failed; skipping:', (err as Error).message);
     }
 
+    // Activities + Topics index landings — one URL per locale (11 + 11 = 22).
+    // Same hreflang shape: all 11 sibling locales + x-default.
+    const buildLocaleAlternates = (basePath: string): Record<string, string> => {
+      const out: Record<string, string> = {};
+      for (const loc of TOPIC_LOCALES) out[loc] = `${baseUrl}/${loc}${basePath}`;
+      out['x-default'] = `${baseUrl}/en${basePath}`;
+      return out;
+    };
+
+    for (const loc of TOPIC_LOCALES) {
+      routes.push({
+        url: `${baseUrl}/${loc}/activities/`,
+        lastModified: STATIC_CONTENT_DATE,
+        changeFrequency: 'monthly',
+        priority: 0.5,
+        alternates: { languages: buildLocaleAlternates('/activities/') },
+      });
+      routes.push({
+        url: `${baseUrl}/${loc}/topic/`,
+        lastModified: STATIC_CONTENT_DATE,
+        changeFrequency: 'monthly',
+        priority: 0.5,
+        alternates: { languages: buildLocaleAlternates('/topic/') },
+      });
+    }
+
     return routes;
   }
 

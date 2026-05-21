@@ -20,11 +20,13 @@ import { CategoryNav } from './CategoryNav';
 interface NavigationProps {
   availableExerciseTypes?: string[];
   availableActivities?: Array<{ id: string; slug: string; title: string; code: string }>;
+  availableThemes?: string[];
 }
 
 export function Navigation({
   availableExerciseTypes = [],
   availableActivities = [],
+  availableThemes = [],
 }: NavigationProps = {}) {
   const t = useTranslations('navigation');
   const pathname = usePathname();
@@ -201,6 +203,7 @@ export function Navigation({
     <CategoryNav
       availableExerciseTypes={availableExerciseTypes}
       availableActivities={availableActivities}
+      availableThemes={availableThemes}
     />
     </>
   );

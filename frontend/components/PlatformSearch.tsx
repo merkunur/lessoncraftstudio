@@ -163,28 +163,40 @@ export function PlatformSearch() {
   const [query, setQuery] = useState("");
   const [isOpen, setIsOpen] = useState(false);
   const [activeIdx, setActiveIdx] = useState(0);
-  const [index, setIndex] = useState<SearchEntry[]>([]);
-  const [loaded, setLoaded] = useState(false);
+  // Locale-keyed cache of search entries. Replaces the prior one-way
+  // `loaded: boolean` flag which prevented re-fetch on locale switch
+  // (the LanguageSelector does client-side router.push, so this
+  // component stays mounted across locale changes — without re-fetching,
+  // the EN-loaded entries would persist into /de, /es, etc.).
+  const [indexCache, setIndexCache] = useState<Record<string, SearchEntry[]>>({});
 
   const containerRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  // Load search index lazily on first focus.
-  async function ensureIndexLoaded() {
-    if (loaded) return;
-    try {
-      const res = await fetch(`/api/search-index?locale=${encodeURIComponent(currentLocale)}`);
-      if (!res.ok) throw new Error("status " + res.status);
-      const data = await res.json();
-      setIndex(data.entries || []);
-    } catch (err) {
-      // Stay silent on the UI side; index just remains empty.
-      // eslint-disable-next-line no-console
-      console.warn("[PlatformSearch] index load failed:", err);
-    } finally {
-      setLoaded(true);
-    }
-  }
+  // Fetch the index for the current locale whenever it changes. Cached
+  // per-locale so re-visiting a previously-loaded locale doesn't refetch.
+  useEffect(() => {
+    if (indexCache[currentLocale]) return;
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await fetch(`/api/search-index?locale=${encodeURIComponent(currentLocale)}`);
+        if (!res.ok) return;
+        const data = await res.json();
+        if (cancelled) return;
+        setIndexCache((prev) => ({ ...prev, [currentLocale]: data.entries || [] }));
+      } catch (err) {
+        // eslint-disable-next-line no-console
+        console.warn("[PlatformSearch] index load failed:", err);
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [currentLocale, indexCache]);
+
+  // Current locale's entries (empty array until the fetch resolves).
+  const index: SearchEntry[] = indexCache[currentLocale] || [];
 
   // Click-outside + Esc.
   useEffect(() => {
@@ -268,14 +280,10 @@ export function PlatformSearch() {
           aria-autocomplete="list"
           placeholder={t.placeholder}
           value={query}
-          onFocus={() => {
-            setIsOpen(true);
-            ensureIndexLoaded();
-          }}
+          onFocus={() => setIsOpen(true)}
           onChange={(e) => {
             setQuery(e.target.value);
             if (!isOpen) setIsOpen(true);
-            if (!loaded) ensureIndexLoaded();
           }}
           onKeyDown={onKeyDown}
           className="w-full pl-10 pr-9 py-2 bg-white border border-cream-300 rounded-full text-sm text-ink-900 placeholder:text-stone-500 focus:outline-none focus:ring-2 focus:ring-teal-600 focus:border-transparent shadow-sm"

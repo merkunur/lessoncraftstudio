@@ -110,17 +110,18 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
     `&embed=1`;
 
   return (
-    <main className="min-h-screen bg-cream-100 py-8 px-4 md:py-12 md:px-6">
+    <main className="min-h-screen bg-cream-100 py-3 px-3 md:py-5 md:px-6 overflow-hidden">
       <article className="mx-auto max-w-5xl">
-        {/* SEO chrome — H1 + intro + standard chip. Teacher-facing surface. */}
-        <header className="mb-6 md:mb-8 text-center">
-          <h1 className="font-display font-bold text-3xl md:text-4xl text-teal-800 leading-tight mb-3">
+        {/* SEO chrome — H1 + intro + standard chip. Compact so the iframe
+            below fits within the viewport without scroll. */}
+        <header className="mb-3 md:mb-4 text-center">
+          <h1 className="font-display font-bold text-xl md:text-2xl text-teal-800 leading-tight mb-1.5">
             {row.page_title[params.locale]}
           </h1>
-          <p className="text-base md:text-lg text-stone-700 max-w-3xl mx-auto leading-relaxed mb-4">
+          <p className="text-xs md:text-sm text-stone-700 max-w-3xl mx-auto leading-snug mb-2">
             {row.page_intro[params.locale]}
           </p>
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-teal-50 text-teal-800 text-sm font-semibold">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-50 text-teal-800 text-xs font-semibold">
             <span>Grade {row.alignment.grade}</span>
             <span className="text-teal-400">·</span>
             <span>{row.alignment.strand}</span>
@@ -129,13 +130,17 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
           </div>
         </header>
 
-        {/* Activity tool — embedded iframe. Aspect ratio + responsive sizing
-            give the tool dominant screen presence (IXL clarity). */}
+        {/* Activity tool — embedded iframe. Height adapts to viewport so the
+            whole activity fits without page scroll on standard laptop and
+            tablet viewports. Cream-bg matches the tool's inner bg so any
+            tiny mismatch in height appears seamless. */}
         <div
-          className="rounded-3xl overflow-hidden shadow-xl bg-white"
+          className="rounded-3xl overflow-hidden shadow-xl"
           style={{
-            aspectRatio: '4 / 3',
-            maxHeight: 'min(80vh, 700px)',
+            backgroundColor: '#FBF3E4',
+            width: '100%',
+            height: 'min(calc(100vh - 180px), 580px)',
+            minHeight: '420px',
           }}
         >
           <iframe

@@ -79,7 +79,12 @@ window.TenFrameCore = {
     stage.innerHTML = '';
     this.cells = [];
 
-    var wrap = this.api.el('div', 'tf-wrap');
+    var wrap = this.api.el('div', 'tf-wrap' + (s.frames === 2 ? ' tf-double' : ''));
+
+    /* Frames live inside a sub-container so we can flex-row them when
+       frames=2 (side-by-side keeps the tool within the iframe height —
+       prior vertical stacking caused an internal scrollbar). */
+    var framesArea = this.api.el('div', 'tf-frames-area');
 
     for (var f = 0; f < s.frames; f++) {
       var frame = this.api.el('div', 'tf-frame');
@@ -98,8 +103,9 @@ window.TenFrameCore = {
         this.cells.push(cell);
         frame.appendChild(cell);
       }
-      wrap.appendChild(frame);
+      framesArea.appendChild(frame);
     }
+    wrap.appendChild(framesArea);
 
     if (s.showNumber) {
       var readout = this.api.el('div', 'tf-readout');
@@ -145,7 +151,16 @@ window.TenFrameCore = {
     if (this._cssInjected) return;
     this._cssInjected = true;
     var css = ''
-    + '.tf-wrap{display:flex;flex-direction:column;align-items:center;gap:clamp(12px,3vmin,28px);}'
+    + '.tf-wrap{display:flex;flex-direction:column;align-items:center;gap:clamp(8px,2vmin,18px);}'
+    /* frames-area is the container around the (one or two) .tf-frame
+       grids. flex-column (stacked) for single frame; flex-row
+       (side-by-side) for double frame. Side-by-side halves the
+       vertical footprint vs the prior stacked layout that overflowed. */
+    + '.tf-frames-area{display:flex;flex-direction:column;align-items:center;gap:clamp(10px,2.4vmin,20px);}'
+    + '.tf-double .tf-frames-area{flex-direction:row;gap:clamp(12px,2.5vmin,24px);}'
+    /* In double mode, shrink cells slightly so the 10 columns fit
+       horizontally inside the iframe at common viewport widths. */
+    + '.tf-double .tf-cell{width:clamp(36px,8vmin,64px);}'
     + '.tf-frame{display:grid;grid-template-columns:repeat(5,1fr);gap:clamp(4px,1vmin,8px);'
     +   'background:var(--lcs-structure);padding:clamp(6px,1.4vmin,12px);'
     +   'border-radius:var(--lcs-radius);box-shadow:var(--lcs-shadow);}'

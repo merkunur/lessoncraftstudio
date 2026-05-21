@@ -201,13 +201,14 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
   font-size: clamp(20px, 3.6vmin, 30px);
   color: var(--lcs-structure);
   text-align: center;
-  padding: 0 var(--lcs-pad) var(--lcs-gap);
+  padding: 0 var(--lcs-pad) calc(var(--lcs-gap) * 0.4);
   line-height: 1.15;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   gap: 12px;
   width: 100%;
+  flex-shrink: 0;
 }
 .lcs-activity-prompt-text {
   /* Text span inside the prompt — sits to the LEFT of the speaker button.
@@ -310,8 +311,8 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
   display: flex;
   justify-content: center;
   gap: 12px;
-  padding: var(--lcs-pad);
-  padding-top: calc(var(--lcs-pad) * 0.5);
+  padding: calc(var(--lcs-pad) * 0.5) var(--lcs-pad);
+  flex-shrink: 0;
 }
 .lcs-activity-check,
 .lcs-activity-next {

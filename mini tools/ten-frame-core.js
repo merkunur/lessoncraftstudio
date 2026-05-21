@@ -55,7 +55,10 @@ window.TenFrameCore = {
   init: function (api) {
     this.api = api;
     this.count = 0;
-    this.readOnly = false;   // activity variants set true to block taps
+    this.readOnly = false;       // activity variants set true to block taps
+    this.hideReadout = false;    // activity 'how-many' tasks set true so the
+                                  // COUNT readout doesn't show the answer the
+                                  // kid is being asked to determine
   },
 
   capacity: function () { return this.api.settings.frames * 10; },
@@ -107,7 +110,7 @@ window.TenFrameCore = {
     }
     wrap.appendChild(framesArea);
 
-    if (s.showNumber) {
+    if (s.showNumber && !this.hideReadout) {
       var readout = this.api.el('div', 'tf-readout');
       var label = this.api.el('span', 'tf-readout-label');
       label.textContent = this.api.t('count');

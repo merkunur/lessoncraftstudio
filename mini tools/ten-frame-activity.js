@@ -29,22 +29,24 @@ var ACTIVITY_STRINGS = {
    show the original 5-task showcase. */
 var STATIC_DEMO_TASKS = [
   { id:'make-3', promptKey:'taskMake', promptArgs:{n:3}, answerType:'state',
-    setup:   function (t) { t.readOnly = false; t.setCount(0); },
+    setup:   function (t) { t.hideReadout = false; t.readOnly = false; t.setCount(0); },
     check:   function (t) { return t.count === 3; },
     hintKey: function (t) { return t.count < 3 ? 'hintAddMore' : 'hintTakeAway'; } },
   { id:'make-7', promptKey:'taskMake', promptArgs:{n:7}, answerType:'state',
-    setup:   function (t) { t.readOnly = false; t.setCount(0); },
+    setup:   function (t) { t.hideReadout = false; t.readOnly = false; t.setCount(0); },
     check:   function (t) { return t.count === 7; },
     hintKey: function (t) { return t.count < 7 ? 'hintAddMore' : 'hintTakeAway'; } },
   { id:'make-10', promptKey:'taskMake', promptArgs:{n:10}, answerType:'state',
-    setup:   function (t) { t.readOnly = false; t.setCount(0); },
+    setup:   function (t) { t.hideReadout = false; t.readOnly = false; t.setCount(0); },
     check:   function (t) { return t.count === 10; },
     hintKey: function (t) { return t.count < 10 ? 'hintAddMore' : 'hintTakeAway'; } },
+  /* how-many demo tasks: hideReadout=true so the COUNT readout doesn't
+     show the kid the answer they're being asked to determine */
   { id:'count-4', promptKey:'taskHowMany', answerType:'number', answerMin:0, answerMax:10,
-    setup: function (t) { t.setCount(4); t.readOnly = true; },
+    setup: function (t) { t.hideReadout = true; t.readOnly = true; t.setCount(4); },
     check: function (t, ans) { return parseInt(ans, 10) === t.count; } },
   { id:'count-8', promptKey:'taskHowMany', answerType:'number', answerMin:0, answerMax:10,
-    setup: function (t) { t.setCount(8); t.readOnly = true; },
+    setup: function (t) { t.hideReadout = true; t.readOnly = true; t.setCount(8); },
     check: function (t, ans) { return parseInt(ans, 10) === t.count; } }
 ];
 
@@ -154,11 +156,10 @@ var TenFrameActivity = Object.assign({}, TenFrameCore, {
           promptArgs: { n: n },
           answerType: 'state',
           setup: function (tool) {
-            if (row.params.frames && tool.api.settings.frames !== row.params.frames) {
-              tool.api.settings.frames = row.params.frames;
-              tool.render();
-            }
+            tool.hideReadout = false;                    // make-n: kid sees their progress
             tool.readOnly = false;
+            if (row.params.frames) tool.api.settings.frames = row.params.frames;
+            tool.render();                               // force re-render to honor hideReadout flip
             tool.setCount(0);
           },
           check: function (tool) { return tool.count === n; },
@@ -175,12 +176,11 @@ var TenFrameActivity = Object.assign({}, TenFrameCore, {
           answerMin: row.params.range.min,
           answerMax: row.params.range.max,
           setup: function (tool) {
-            if (row.params.frames && tool.api.settings.frames !== row.params.frames) {
-              tool.api.settings.frames = row.params.frames;
-              tool.render();
-            }
-            tool.setCount(n);
+            tool.hideReadout = true;                     // how-many: hide the answer
             tool.readOnly = true;
+            if (row.params.frames) tool.api.settings.frames = row.params.frames;
+            tool.render();                               // force re-render so readout disappears
+            tool.setCount(n);
           },
           check: function (tool, ans) { return parseInt(ans, 10) === tool.count; }
         };

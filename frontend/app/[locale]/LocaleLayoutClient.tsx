@@ -15,6 +15,8 @@ export function LocaleLayoutClient({
   children: React.ReactNode;
   locale: string;
   footerAvailableExerciseTypes?: string[];
+  /** Per-locale non-empty theme axis-keys. Threaded to Navigation/CategoryNav
+   *  in addition to Footer; powers the new Topics dropdown sub-items. */
   footerAvailableThemes?: string[];
   footerAvailableLevels?: string[];
   availableActivities?: Array<{ id: string; slug: string; title: string; code: string }>;
@@ -36,6 +38,7 @@ export function LocaleLayoutClient({
         <Navigation
           availableExerciseTypes={footerAvailableExerciseTypes}
           availableActivities={availableActivities}
+          availableThemes={footerAvailableThemes}
         />
         <main>
           {children}

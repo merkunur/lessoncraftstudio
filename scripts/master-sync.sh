@@ -90,6 +90,52 @@ echo "  Copied $COPIED translation files"
 echo ""
 
 # ============================================================================
+# STEP 4: Sync "mini tools/" to frontend/public/mini-tools
+#   Mirrors the worksheet-generators pattern: git-tracked source folder,
+#   gitignored local mirror in public/. *.test.js excluded from the mirror
+#   (devtools, not for serving).
+# ============================================================================
+echo "[STEP 4] Syncing mini tools/ to frontend/public/mini-tools..."
+
+if [ ! -d "mini tools" ]; then
+    echo "  WARNING: 'mini tools' folder not found - skipping STEP 4"
+else
+    # Count shippable files (exclude *.test.js)
+    MT_COUNT=0
+    for f in "mini tools"/*.html "mini tools"/*.css; do
+        [ -e "$f" ] && MT_COUNT=$((MT_COUNT + 1))
+    done
+    for f in "mini tools"/*.js; do
+        [ -e "$f" ] || continue
+        case "$f" in *.test.js) ;; *) MT_COUNT=$((MT_COUNT + 1)) ;; esac
+    done
+
+    if [ "$MT_COUNT" -lt 3 ]; then
+        echo "ERROR: 'mini tools' has fewer than 3 shippable files!"
+        echo "       Expected at least lcs-shell.{css,js} + one tool."
+        echo "       Aborting to prevent partial sync."
+        exit 1
+    fi
+
+    echo "  mini tools/ shippable files: $MT_COUNT"
+    mkdir -p "frontend/public/mini-tools"
+
+    COPIED=0
+    for f in "mini tools"/*.html "mini tools"/*.css; do
+        [ -e "$f" ] && cp "$f" "frontend/public/mini-tools/" && COPIED=$((COPIED + 1))
+    done
+    for f in "mini tools"/*.js; do
+        [ -e "$f" ] || continue
+        case "$f" in
+            *.test.js) ;;
+            *) cp "$f" "frontend/public/mini-tools/"; COPIED=$((COPIED + 1)) ;;
+        esac
+    done
+    echo "  Copied $COPIED files to frontend/public/mini-tools"
+    echo ""
+fi
+
+# ============================================================================
 # Summary
 # ============================================================================
 echo "============================================================"

@@ -1,7 +1,17 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Script from 'next/script';
+import { getTranslations } from 'next-intl/server';
 import { TOPIC_ENABLED_LOCALES, TopicEnabledLocale } from '@/config/topic-locales';
+
+/* Map manifest `alignment.grade` ("K"/"1"/"2"/"3") to the localized
+   `seo.educational_level.*` key. Reused across activities of all engines. */
+const GRADE_KEY_MAP: Record<string, string> = {
+  'K': 'kindergarten',
+  '1': 'grade_1',
+  '2': 'grade_2',
+  '3': 'grade_3',
+};
 import {
   resolveActivitySlug,
   listActivitySitemapEntries,
@@ -123,6 +133,18 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   const row = await resolveActivitySlug(params.slug, params.locale);
   if (!row) notFound();
 
+  /* Teacher-chip grade label: reuse the existing seo.educational_level.*
+     table (complete in all 11 locales). The manifest's alignment.grade is
+     a literal "K"/"1"/"2"/"3"; lookup the localized phrase via the map.
+     Strand + CC code stay English here — strand because CCSS strand names
+     are not yet translated in the repo (separate [FIX][I18N] commission);
+     code because RF.K.2.B and siblings are CCSS identifiers. */
+  const tSeo = await getTranslations({ locale: params.locale, namespace: 'seo' });
+  const gradeKey = GRADE_KEY_MAP[row.alignment.grade];
+  const localizedGrade = gradeKey
+    ? tSeo(`educational_level.${gradeKey}`)
+    : `Grade ${row.alignment.grade}`;
+
   const iframeSrc =
     `/mini-tools/${row.tool}.html` +
     `?activity=${encodeURIComponent(row.id)}` +
@@ -153,7 +175,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
             {row.page_intro[params.locale]}
           </p>
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-50 text-teal-800 text-xs font-semibold">
-            <span>Grade {row.alignment.grade}</span>
+            <span>{localizedGrade}</span>
             <span className="text-teal-400">·</span>
             <span className="hidden sm:inline">{row.alignment.strand}</span>
             <span className="hidden sm:inline text-teal-400">·</span>

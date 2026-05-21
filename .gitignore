@@ -181,3 +181,12 @@ design-elements-sampler.html
 # (lesson-plan-drafts/{en,de,es,nl}/{slug}.md). Only the template is tracked.
 lesson-plan-drafts/**/*.md
 !lesson-plan-drafts/_TEMPLATE.md
+
+# Phonics safety-verification pipeline — vendored external sources.
+# NST pronunciation lexicons (CC0 from Språkbanken/Nasjonalbiblioteket) and
+# kaikki.org Wiktionary IPA dumps (CC-BY-SA) are downloaded on first run
+# and cached locally; not committed (each lexicon is hundreds of MB).
+# Pipeline code + outputs (approved-words-*.json, quarantine-report.json,
+# chunk-tables, da-grapheme-phoneme.json, danish-syllable-policy.md) ARE
+# committed — only the raw external corpora live in .cache/.
+scripts/v2-data/verify-syllable-boundaries/.cache/

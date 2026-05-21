@@ -1,0 +1,27 @@
+{
+  "locale": "no",
+  "locale_name": "Norwegian Bokmål",
+  "editorial_source": "Endresen, R.T., Simonsen, H.G., Sveen, A. (2000). Innføring i lingvistikk. Universitetsforlaget. Plus Læreplanverket LK20 norsk (Utdanningsdirektoratet) — kunne bokstaver, lyder, ord. The sj/kj/skj cluster inventory + æ/ø/å letters are the canonical Bokmål K-1 phonics chunk set.",
+  "policy_note": "Norwegian sj-ljudet has multiple spellings (sj, skj, sk(i/e/y/æ/ø), stj) all → /ʃ/; kj-ljudet has kj, k(i/e/y/æ/ø), tj all → /ç/. The kj-sj merger (younger speakers conflate the two) is a CURRICULUM-CHOICE issue resolved by the team's locked default (treat as distinct in K-1 per traditional pedagogy; merger awareness in grade 2). The æ/ø/å letters are separate letters in their own right.",
+  "chunks": {
+    "sj":  { "category": "sj_sound", "sound": "ʃ", "example_words": ["sjø", "sjokolade"] },
+    "skj": { "category": "sj_sound", "sound": "ʃ", "example_words": ["skjorte"] },
+    "stj": { "category": "sj_sound", "sound": "ʃ", "example_words": ["stjerne"] },
+    "kj":  { "category": "kj_sound", "sound": "ç", "example_words": ["kjede", "kjole"] },
+    "tj":  { "category": "kj_sound", "sound": "ç", "example_words": ["tjern"] },
+    "ng":  { "category": "ng_sound", "sound": "ŋ", "example_words": ["lang", "tang"] },
+    "æ":   { "category": "special_letter", "sound": "æ|ɛ", "example_words": ["være", "lære"] },
+    "ø":   { "category": "special_letter", "sound": "øː|œ", "example_words": ["øy", "høst"] },
+    "å":   { "category": "special_letter", "sound": "oː|ɔ", "example_words": ["år", "håp"] }
+  },
+  "context_sensitive_chunks": {
+    "comment": "Context-sensitive: sk/k/g before front vowel realize as palatal/sibilant. NST gives phoneme directly so the pipeline can verify these via NST phoneme match, not by orthographic chunking.",
+    "sk_+_front_vowel": "sk before i/e/y/æ/ø/øy → /ʃ/ (e.g., ski)",
+    "k_+_front_vowel": "k before i/e/y/æ/ø → /ç/ (e.g., kino)",
+    "g_+_front_vowel": "g before i/e/y/æ/ø → /j/ (e.g., gi)"
+  },
+  "kj_sj_merger_policy": "K-1 teach kj and sj as distinct chunks per traditional Bokmål pedagogy. Grade 2: introduce awareness that younger speakers merge them. Pipeline approves both kj-words and sj-words as separate chunks; activities present them at different curriculum levels.",
+  "single_letters_implicitly_allowed": ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"],
+  "version": "1.0",
+  "generated_at": "2026-05-21"
+}

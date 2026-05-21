@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-21",
+  "method": "Direct en.wiktionary.org/w/api.php queries for 100 randomly-sampled K-3 nouns per locale from image-vocabulary.js (seed=42). Coverage = (entries with valid {{IPA|<code>|...}} template in the language section) / sampled count.",
+  "sample_size": 100,
+  "threshold": "60% — below this NL would have been treated like DA (defined-quarantine + policy-managed) rather than relying on Wiktionary as load-bearing.",
+  "per_locale_coverage_pct": {
+    "de": 88,
+    "nl": 84,
+    "sv": 83,
+    "no": 72,
+    "da": 70
+  },
+  "verdict_per_locale": {
+    "de": "Above threshold — Wiktionary IPA usable as a count cross-check source",
+    "nl": "Above threshold — design-pass concern (estimated 50-70%) did NOT materialize; proceed with normal multi-source gate (4 sources for NL: T + R + W + S)",
+    "sv": "Above threshold — combined with NST (gold-standard), strongest source stack of all locales",
+    "no": "Above threshold — combined with NST, robust source stack",
+    "da": "Above threshold — combined with NST + Juul/Elbro G-P table + da-quarantine regex, sufficient for policy-managed quarantine workflow"
+  },
+  "fi_special_case": {
+    "wiktionary_finnish_uses_template": "{{fi-pronunciation}}",
+    "explanation": "Finnish Wiktionary entries use a Finnish-specific {{fi-pronunciation}} template that auto-generates IPA from spelling rather than the generic {{IPA|fi|...}} template. We do NOT query Wiktionary for Finnish in the production pipeline because (a) the IPA isn't directly available in the wikitext, and (b) even if resolved, the auto-generated IPA is derived from spelling, so it wouldn't be a TRULY independent source. Finnish's gate uses T (TeX hyphenation) + R (rule-based phonotactic syllabifier) + S (vocab-phonics syl count) = 3 sources, which is the design intent for the GREEN locale.",
+    "earlier_preflight_probe_was_overcounting": "The earlier 100-word probe reported 88% Wiktionary coverage for Finnish — this was a measurement bug (the section-end detector matched ===Subheaders=== as well as level-2 ==Headers==, so the regex was effectively checking the whole wikitext for any IPA template, not just the Finnish section). The bug was corrected when building the production adapter."
+  },
+  "wiktionary_locales_in_production": ["de","nl","sv","no","da"],
+  "nst_locales_in_production": ["sv","no","da"],
+  "nst_license_verified": {
+    "sv": "CC-ZERO / public domain — 927k entries — https://www.nb.no/sbfil/leksikalske_databaser/leksikon/sv.leksikon.tar.gz",
+    "no": "CC-ZERO / public domain — 785k entries — https://www.nb.no/sbfil/leksikalske_databaser/leksikon/no.leksikon.tar.gz",
+    "da": "CC-ZERO / public domain — 238k entries — https://www.nb.no/sbfil/leksikalske_databaser/leksikon/da_leksikon.tar.gz"
+  },
+  "hyphen_npm_locales_verified": ["sv","no","nb","da","fi","de-1996","nl","es","it","pt","fr","en-us"],
+  "next_action": "Run pipeline on SV + FI as the design's proof locales. SV is the strongest case (NST as gold-standard + Wiktionary as count cross-check); FI is the GREEN control (rule-syllabifier as primary independent source, no NST needed)."
+}

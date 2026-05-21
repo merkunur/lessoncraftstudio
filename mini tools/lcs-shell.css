@@ -190,80 +190,129 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
 }
 
 /* =====================================================================
-   ACTIVITY CHROME — rendered only when a tool declares `tasks`/`nextTask`.
-   All selectors namespaced `.lcs-activity-*`, so the rules apply only to
-   activity tools. Manipulative tools (no `tasks`) don't get any of these
-   elements in the DOM and are visually unchanged by this block.
+   ACTIVITY CHROME — Direction A "warm tactile".
+   Rendered only when a tool declares `tasks`/`nextTask`. All selectors
+   namespaced `.lcs-activity-*`, so manipulative tools (no `tasks`) get
+   none of this in their DOM and are visually unchanged.
+
+   Visual contract: mockups/activity-card-redesign/A-warm-tactile-*.html
    ===================================================================== */
+
+/* The card frame itself — applied to .lcs-app when in activity mode. */
+.lcs-app.activity {
+  background:
+    radial-gradient(circle at 8% 8%, rgba(20,107,94,0.04) 0, transparent 50%),
+    radial-gradient(circle at 92% 92%, rgba(242,120,75,0.04) 0, transparent 50%),
+    var(--lcs-surface-2);
+  /* Card margin centers within iframe + caps width on wide viewports. */
+  max-width: 720px;
+  margin: 0 auto;
+  border-radius: 32px;
+  box-shadow:
+    0 2px 6px rgba(20, 30, 28, 0.06),
+    0 24px 60px rgba(20, 30, 28, 0.10);
+  overflow: visible;  /* badges may overflow corners */
+}
+@media (max-width: 600px) {
+  .lcs-app.activity { border-radius: 24px; }
+}
+
+/* Prompt — the hero. Big display font, centered. */
 .lcs-activity-prompt {
   font-family: var(--lcs-font-display);
   font-weight: 700;
-  font-size: clamp(20px, 3.6vmin, 30px);
+  font-size: clamp(22px, 4.2vmin, 32px);
+  letter-spacing: -0.01em;
   color: var(--lcs-structure);
   text-align: center;
-  padding: 0 var(--lcs-pad) calc(var(--lcs-gap) * 0.4);
+  padding: 8px var(--lcs-pad) calc(var(--lcs-gap) * 0.6);
   line-height: 1.15;
-  display: inline-flex;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 12px;
+  gap: 6px;
   width: 100%;
   flex-shrink: 0;
+  transition: color .2s var(--lcs-ease), transform .2s var(--lcs-ease);
 }
-.lcs-activity-prompt-text {
-  /* Text span inside the prompt — sits to the LEFT of the speaker button.
-     Empty when no prompt loaded; both prompt + speaker render via JS. */
+.lcs-activity-prompt-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
 }
+.lcs-activity-prompt-hint {
+  /* Inline hint line that appears below the prompt on wrong answers. */
+  font-size: clamp(13px, 2vmin, 15px);
+  font-weight: 600;
+  color: var(--lcs-accent);
+  font-family: var(--lcs-font-body);
+  letter-spacing: 0;
+  opacity: 0;
+  height: 0;
+  transition: opacity .2s var(--lcs-ease);
+}
+.lcs-activity-prompt.tryagain .lcs-activity-prompt-hint {
+  opacity: 1;
+  height: auto;
+}
+.lcs-activity-prompt.celebrate {
+  color: var(--lcs-good);
+  transform: scale(1.04);
+}
+.lcs-activity-prompt.tryagain {
+  color: var(--lcs-accent);
+}
+
+/* Speaker button inline in the prompt row. */
 .lcs-activity-speak {
   width: 44px; height: 44px;
   display: grid; place-items: center;
   border-radius: 50%;
   background: var(--lcs-surface);
-  box-shadow: var(--lcs-shadow-sm);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   color: var(--lcs-structure);
   flex-shrink: 0;
   transition: transform .12s var(--lcs-ease), background .15s;
   touch-action: manipulation;
+  border: 0; cursor: pointer;
 }
 .lcs-activity-speak:hover  { background: var(--lcs-structure-soft); }
 .lcs-activity-speak:active { transform: scale(.92); }
 .lcs-activity-speak svg    { width: 22px; height: 22px; }
+
+/* Progress pill — "TASKS DONE" label + count chip. Top-left of card. */
 .lcs-activity-progress {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   color: var(--lcs-ink-soft);
   text-transform: uppercase;
-  letter-spacing: .04em;
-  margin-top: 2px;
+  letter-spacing: .06em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: var(--lcs-pad) var(--lcs-pad) 0;
 }
-/* Feedback lives as a sibling of .lcs-stage (so the tool's render() can't
-   wipe it). .lcs-app is the positioning context.
-   Anchored to the BOTTOM of the iframe (not center) so the badge doesn't
-   cover the answer surface (board/keypad/ten-frame cells) at the moment
-   of feedback. Slide-up-from-bottom on .open. */
+.lcs-activity-progress-pill {
+  background: var(--lcs-surface);
+  padding: 4px 12px;
+  border-radius: var(--lcs-radius-pill);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  color: var(--lcs-structure);
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: none;
+  font-size: 13px;
+}
+
+/* Legacy feedback element — hidden by default. Direction A puts feedback
+   in the prompt area, not as a floating overlay. The element stays in the
+   DOM for backwards compat with any consumer that still touches it. */
 .lcs-app { position: relative; }
 .lcs-activity-feedback {
   position: absolute;
-  left: 50%;
-  bottom: clamp(12px, 2vmin, 20px);
-  top: auto;
-  transform: translate(-50%, 12px) scale(0.95);
-  max-width: 80%;
-  padding: 12px 24px;
-  border-radius: var(--lcs-radius-pill);
-  font-family: var(--lcs-font-display);
-  font-weight: 700;
-  font-size: clamp(20px, 3.4vmin, 28px);
-  box-shadow: var(--lcs-shadow);
-  opacity: 0;
-  pointer-events: none;
-  white-space: nowrap;
-  transition: opacity .2s var(--lcs-ease), transform .2s var(--lcs-ease);
-  z-index: 4;
+  display: none;  /* DIRECTION A: prompt-as-feedback; the legacy badge is hidden */
 }
-.lcs-activity-feedback.open    { opacity: 1; transform: translate(-50%, 0) scale(1); }
-.lcs-activity-feedback.celebrate { background: var(--lcs-good); color: #fff; }
-.lcs-activity-feedback.tryagain  { background: var(--lcs-accent); color: var(--lcs-accent-ink); }
 
 .lcs-activity-answer {
   display: flex;
@@ -326,16 +375,62 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
 .lcs-activity-next {
   min-height: 56px;
   min-width: clamp(120px, 24vmin, 200px);
-  padding: 0 28px;
+  padding: 0 36px;
   border-radius: var(--lcs-radius-pill);
-  background: var(--lcs-structure);
+  /* Direction A: chunky gradient + depth shadow. */
+  background: linear-gradient(180deg, #1A7E70 0%, #146B5E 100%);
   color: #fff;
   font-family: var(--lcs-font-display);
   font-weight: 700;
-  font-size: clamp(18px, 3vmin, 22px);
-  box-shadow: var(--lcs-shadow);
-  transition: transform .12s var(--lcs-ease), background .15s, opacity .15s;
+  font-size: clamp(18px, 3vmin, 20px);
+  border: 0;
+  box-shadow:
+    0 4px 0 rgba(15, 60, 53, 0.4),
+    0 8px 16px rgba(20, 107, 94, 0.25);
+  transition: transform .12s var(--lcs-ease), box-shadow .12s, opacity .15s;
   touch-action: manipulation;
+  cursor: pointer;
+}
+.lcs-activity-check:hover,
+.lcs-activity-next:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 6px 0 rgba(15, 60, 53, 0.4),
+    0 12px 20px rgba(20, 107, 94, 0.3);
+}
+.lcs-activity-check:active,
+.lcs-activity-next:active {
+  transform: translateY(2px);
+  box-shadow:
+    0 2px 0 rgba(15, 60, 53, 0.4),
+    0 4px 8px rgba(20, 107, 94, 0.2);
+}
+.lcs-activity-check:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.lcs-activity-check:disabled:hover {
+  transform: none;
+  box-shadow:
+    0 4px 0 rgba(15, 60, 53, 0.4),
+    0 8px 16px rgba(20, 107, 94, 0.25);
+}
+/* Next button shifts to green gradient — visual cue you've succeeded. */
+.lcs-activity-next {
+  background: linear-gradient(180deg, #3CB777 0%, #2FA56A 100%);
+  box-shadow:
+    0 4px 0 rgba(20, 90, 56, 0.4),
+    0 8px 16px rgba(47, 165, 106, 0.25);
+}
+.lcs-activity-next:hover {
+  box-shadow:
+    0 6px 0 rgba(20, 90, 56, 0.4),
+    0 12px 20px rgba(47, 165, 106, 0.3);
+}
+.lcs-activity-next:active {
+  box-shadow:
+    0 2px 0 rgba(20, 90, 56, 0.4),
+    0 4px 8px rgba(47, 165, 106, 0.2);
 }
 .lcs-activity-check:hover:not(:disabled),
 .lcs-activity-next:hover  { transform: translateY(-1px); background: #1a8576; }

@@ -179,5 +179,188 @@
       "fi": "Katso kahta lukua ja napauta suurempaa. Yhdenmukainen Common Core K.CC.C.7 — vertaile kahta lukua välillä 1–10, jotka esitetään kirjoitettuina numeroina."
     },
     "kid_prompt_template": "promptPickBigger"
+  },
+  {
+    "id": "choice-board.which-more.k-c-c-6",
+    "tool": "choice-board-activity",
+    "task_template": "which-more",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.CC.C.6",
+      "grade": "K",
+      "strand": "Counting & Cardinality"
+    },
+    "params": {
+      "pairs": [
+        { "noun": "cat",        "themeDir": "animals", "counts": [3, 5] },
+        { "noun": "dog",        "themeDir": "animals", "counts": [7, 4] },
+        { "noun": "apple",      "themeDir": "fruits",  "counts": [2, 6] },
+        { "noun": "fish",       "themeDir": "animals", "counts": [5, 8] },
+        { "noun": "duck",       "themeDir": "animals", "counts": [6, 3] },
+        { "noun": "strawberry", "themeDir": "fruits",  "counts": [3, 6] },
+        { "noun": "orange",     "themeDir": "fruits",  "counts": [4, 7] },
+        { "noun": "banana",     "themeDir": "fruits",  "counts": [8, 5] }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "which-group-has-more",
+      "de": "welche-gruppe-hat-mehr",
+      "es": "que-grupo-tiene-mas",
+      "fr": "quel-groupe-en-a-plus",
+      "it": "quale-gruppo-ne-ha-di-piu",
+      "pt": "qual-grupo-tem-mais",
+      "nl": "welke-groep-heeft-meer",
+      "sv": "vilken-grupp-har-fler",
+      "da": "hvilken-gruppe-har-flest",
+      "no": "hvilken-gruppe-har-flest",
+      "fi": "kummalla-ryhmalla-on-enemman"
+    },
+    "page_title": {
+      "en": "Which Group Has More? — Kindergarten Counting",
+      "de": "Welche Gruppe hat mehr? — Zählen im Kindergarten",
+      "es": "¿Qué grupo tiene más? — Contar en jardín infantil",
+      "fr": "Quel groupe en a plus ? — Numération à la maternelle",
+      "it": "Quale gruppo ne ha di più? — Contare alla scuola dell'infanzia",
+      "pt": "Qual grupo tem mais? — Contagem no pré-escolar",
+      "nl": "Welke groep heeft er meer? — Tellen in de kleuterklas",
+      "sv": "Vilken grupp har fler? — Räkning i förskoleklass",
+      "da": "Hvilken gruppe har flest? — Tælling i børnehaveklassen",
+      "no": "Hvilken gruppe har flest? — Telling i barnehagen",
+      "fi": "Kummalla ryhmällä on enemmän? — Esiopetuksen laskemista"
+    },
+    "page_intro": {
+      "en": "Look at two groups of objects and tap the one with more. Aligned to Common Core K.CC.C.6 — identify whether the number of objects in one group is greater than, less than, or equal to the number in another group.",
+      "de": "Schau dir zwei Gruppen an und tippe auf die Gruppe mit mehr Objekten. Angepasst an Common Core K.CC.C.6 — erkennen, ob die Anzahl der Objekte in einer Gruppe größer, kleiner oder gleich der in einer anderen ist.",
+      "es": "Mira dos grupos de objetos y toca el que tiene más. Alineado a Common Core K.CC.C.6 — identificar si el número de objetos de un grupo es mayor, menor o igual que el de otro grupo.",
+      "fr": "Regarde deux groupes d'objets et touche celui qui en a plus. Aligné à Common Core K.CC.C.6 — identifier si le nombre d'objets d'un groupe est plus grand, plus petit ou égal à celui d'un autre groupe.",
+      "it": "Guarda due gruppi di oggetti e tocca quello che ne ha di più. Allineato a Common Core K.CC.C.6 — identificare se il numero di oggetti in un gruppo è maggiore, minore o uguale a quello di un altro.",
+      "pt": "Olhe dois grupos de objetos e toque no que tem mais. Alinhado a Common Core K.CC.C.6 — identificar se o número de objetos num grupo é maior, menor ou igual ao de outro grupo.",
+      "nl": "Kijk naar twee groepen voorwerpen en tik op de groep met meer. Aansluitend bij Common Core K.CC.C.6 — vaststellen of het aantal voorwerpen in een groep groter, kleiner of gelijk is aan dat van een andere groep.",
+      "sv": "Titta på två grupper med föremål och tryck på den som har fler. I linje med Common Core K.CC.C.6 — avgöra om antalet föremål i en grupp är större, mindre än eller lika med en annan grupp.",
+      "da": "Se på to grupper af genstande og tryk på den med flest. På linje med Common Core K.CC.C.6 — afgøre om antallet af genstande i én gruppe er større, mindre eller lig med en anden.",
+      "no": "Se på to grupper med gjenstander og trykk på den med flest. Etter Common Core K.CC.C.6 — avgjøre om antallet gjenstander i én gruppe er større, mindre eller likt en annen.",
+      "fi": "Katso kahta esineryhmää ja napauta sitä, jossa on enemmän. Yhdenmukainen Common Core K.CC.C.6 — tunnistaa, onko esineiden määrä yhdessä ryhmässä suurempi, pienempi vai yhtä suuri kuin toisessa."
+    },
+    "kid_prompt_template": "promptWhichMore"
+  },
+  {
+    "id": "choice-board.even-odd.2-oa-c-3",
+    "tool": "choice-board-activity",
+    "task_template": "even-odd",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "2.OA.C.3",
+      "grade": "2",
+      "strand": "Operations & Algebraic Thinking"
+    },
+    "params": {
+      "numbers": [4, 7, 6, 3, 8, 5, 2, 9]
+    },
+    "theme": null,
+    "slug": {
+      "en": "even-or-odd",
+      "de": "gerade-oder-ungerade",
+      "es": "par-o-impar",
+      "fr": "pair-ou-impair",
+      "it": "pari-o-dispari",
+      "pt": "par-ou-impar",
+      "nl": "even-of-oneven",
+      "sv": "jamnt-eller-udda",
+      "da": "lige-eller-ulige",
+      "no": "partall-eller-oddetall",
+      "fi": "parillinen-vai-pariton"
+    },
+    "page_title": {
+      "en": "Even or Odd? — Number Sense for Grade 2",
+      "de": "Gerade oder ungerade? — Zahlenverständnis 2. Klasse",
+      "es": "¿Par o impar? — Sentido numérico para grado 2",
+      "fr": "Pair ou impair ? — Sens des nombres au CE1",
+      "it": "Pari o dispari? — Senso del numero classe seconda",
+      "pt": "Par ou ímpar? — Sentido numérico 2º ano",
+      "nl": "Even of oneven? — Getalbegrip groep 4",
+      "sv": "Jämnt eller udda? — Talförståelse årskurs 2",
+      "da": "Lige eller ulige? — Talforståelse 2. klasse",
+      "no": "Partall eller oddetall? — Tallforståelse 2. trinn",
+      "fi": "Parillinen vai pariton? — Luvun ymmärtämistä 2. luokalla"
+    },
+    "page_intro": {
+      "en": "Look at each number and tap whether it is even or odd. Aligned to Common Core 2.OA.C.3 — determine whether a group of objects has an odd or even number of members.",
+      "de": "Schau dir jede Zahl an und tippe an, ob sie gerade oder ungerade ist. Angepasst an Common Core 2.OA.C.3 — bestimmen, ob eine Gruppe von Objekten eine gerade oder ungerade Anzahl hat.",
+      "es": "Mira cada número y toca si es par o impar. Alineado a Common Core 2.OA.C.3 — determinar si un grupo de objetos tiene un número par o impar de elementos.",
+      "fr": "Regarde chaque nombre et touche s'il est pair ou impair. Aligné à Common Core 2.OA.C.3 — déterminer si un groupe d'objets contient un nombre pair ou impair d'éléments.",
+      "it": "Guarda ogni numero e tocca se è pari o dispari. Allineato a Common Core 2.OA.C.3 — determinare se un gruppo di oggetti ha un numero pari o dispari di elementi.",
+      "pt": "Olhe cada número e toque se é par ou ímpar. Alinhado a Common Core 2.OA.C.3 — determinar se um grupo de objetos tem um número par ou ímpar de elementos.",
+      "nl": "Kijk naar elk getal en tik aan of het even of oneven is. Aansluitend bij Common Core 2.OA.C.3 — bepalen of een groep voorwerpen een even of oneven aantal heeft.",
+      "sv": "Titta på varje tal och tryck på om det är jämnt eller udda. I linje med Common Core 2.OA.C.3 — avgöra om en grupp föremål har ett jämnt eller udda antal medlemmar.",
+      "da": "Se på hvert tal og tryk på, om det er lige eller ulige. På linje med Common Core 2.OA.C.3 — afgøre om en gruppe genstande har et lige eller ulige antal medlemmer.",
+      "no": "Se på hvert tall og trykk på om det er partall eller oddetall. Etter Common Core 2.OA.C.3 — avgjøre om en gruppe med gjenstander har partall eller oddetall medlemmer.",
+      "fi": "Katso jokaista lukua ja napauta, onko se parillinen vai pariton. Yhdenmukainen Common Core 2.OA.C.3 — määritä, onko esineryhmässä parillinen vai pariton määrä."
+    },
+    "kid_prompt_template": "promptEvenOrOdd"
+  },
+  {
+    "id": "choice-board.flat-solid.k-g-a-3",
+    "tool": "choice-board-activity",
+    "task_template": "flat-solid",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.G.A.3",
+      "grade": "K",
+      "strand": "Geometry"
+    },
+    "params": {
+      "shapes": [
+        { "key": "circle",   "kind": "2d" },
+        { "key": "cube",     "kind": "3d" },
+        { "key": "triangle", "kind": "2d" },
+        { "key": "sphere",   "kind": "3d" },
+        { "key": "square",   "kind": "2d" },
+        { "key": "cylinder", "kind": "3d" },
+        { "key": "hexagon",  "kind": "2d" },
+        { "key": "cone",     "kind": "3d" }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "flat-or-solid",
+      "de": "flach-oder-koerper",
+      "es": "plana-o-solida",
+      "fr": "plate-ou-solide",
+      "it": "piatta-o-solida",
+      "pt": "plana-ou-solida",
+      "nl": "plat-of-lichaam",
+      "sv": "platt-eller-solid",
+      "da": "flad-eller-rumlig",
+      "no": "flat-eller-solid",
+      "fi": "littea-vai-kappale"
+    },
+    "page_title": {
+      "en": "Flat or Solid? — 2D and 3D Shapes for Kindergarten",
+      "de": "Flach oder Körper? — 2D- und 3D-Formen im Kindergarten",
+      "es": "¿Plana o sólida? — Formas 2D y 3D en jardín infantil",
+      "fr": "Plate ou solide ? — Formes 2D et 3D à la maternelle",
+      "it": "Piatta o solida? — Forme 2D e 3D scuola dell'infanzia",
+      "pt": "Plana ou sólida? — Formas 2D e 3D no pré-escolar",
+      "nl": "Plat of lichaam? — 2D- en 3D-vormen in de kleuterklas",
+      "sv": "Platt eller solid? — 2D- och 3D-former i förskoleklass",
+      "da": "Flad eller rumlig? — 2D- og 3D-former i børnehaveklassen",
+      "no": "Flat eller solid? — 2D- og 3D-former i barnehagen",
+      "fi": "Litteä vai kappale? — 2D- ja 3D-muotoja esiopetuksessa"
+    },
+    "page_intro": {
+      "en": "Look at each shape and tap whether it is flat (2D) or solid (3D). Aligned to Common Core K.G.A.3 — identify shapes as two-dimensional or three-dimensional.",
+      "de": "Schau dir jede Form an und tippe, ob sie flach (2D) oder ein Körper (3D) ist. Angepasst an Common Core K.G.A.3 — Formen als zweidimensional oder dreidimensional erkennen.",
+      "es": "Mira cada forma y toca si es plana (2D) o sólida (3D). Alineado a Common Core K.G.A.3 — identificar formas como bidimensionales o tridimensionales.",
+      "fr": "Regarde chaque forme et touche si elle est plate (2D) ou solide (3D). Aligné à Common Core K.G.A.3 — identifier les formes comme bidimensionnelles ou tridimensionnelles.",
+      "it": "Guarda ogni forma e tocca se è piatta (2D) o solida (3D). Allineato a Common Core K.G.A.3 — identificare le forme come bidimensionali o tridimensionali.",
+      "pt": "Olhe cada forma e toque se é plana (2D) ou sólida (3D). Alinhado a Common Core K.G.A.3 — identificar formas como bidimensionais ou tridimensionais.",
+      "nl": "Kijk naar elke vorm en tik aan of die plat (2D) of een lichaam (3D) is. Aansluitend bij Common Core K.G.A.3 — vormen aanduiden als tweedimensionaal of driedimensionaal.",
+      "sv": "Titta på varje form och tryck på om den är platt (2D) eller solid (3D). I linje med Common Core K.G.A.3 — identifiera former som tvådimensionella eller tredimensionella.",
+      "da": "Se på hver form og tryk på, om den er flad (2D) eller rumlig (3D). På linje med Common Core K.G.A.3 — identificere former som todimensionale eller tredimensionale.",
+      "no": "Se på hver form og trykk på om den er flat (2D) eller solid (3D). Etter Common Core K.G.A.3 — identifisere former som todimensjonale eller tredimensjonale.",
+      "fi": "Katso jokaista muotoa ja napauta, onko se litteä (2D) vai kappale (3D). Yhdenmukainen Common Core K.G.A.3 — tunnista muodot kaksiulotteisiksi tai kolmiulotteisiksi."
+    },
+    "kid_prompt_template": "promptFlatOrSolid"
   }
 ]

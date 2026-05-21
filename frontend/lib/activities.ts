@@ -43,6 +43,7 @@ export interface ActivityRow {
 
 const MANIFEST_FILES = [
   'ten-frame-activities.json',
+  'choice-board-activities.json',
   // future: 'number-line-activities.json', 'ruler-activities.json', …
 ];
 

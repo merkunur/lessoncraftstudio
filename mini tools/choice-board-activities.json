@@ -1,0 +1,58 @@
+[
+  {
+    "id": "choice-board.shape-id.k-g-a-2",
+    "tool": "choice-board-activity",
+    "task_template": "shape-id",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.G.A.2",
+      "grade": "K",
+      "strand": "Geometry"
+    },
+    "params": {
+      "shapes": ["circle", "square", "triangle", "rectangle", "hexagon", "oval", "star", "diamond"],
+      "choicesPerTask": 4
+    },
+    "theme": null,
+    "slug": {
+      "en": "identify-the-shape",
+      "de": "formen-erkennen",
+      "es": "identifica-la-forma",
+      "fr": "identifie-la-forme",
+      "it": "riconosci-la-forma",
+      "pt": "identifique-a-forma",
+      "nl": "vorm-herkennen",
+      "sv": "kanna-igen-formen",
+      "da": "genkend-formen",
+      "no": "gjenkjenn-formen",
+      "fi": "tunnista-muoto"
+    },
+    "page_title": {
+      "en": "Identify the Shape — Kindergarten Geometry",
+      "de": "Formen erkennen — Geometrie im Kindergarten",
+      "es": "Identifica la forma — Geometría en jardín infantil",
+      "fr": "Identifie la forme — Géométrie à la maternelle",
+      "it": "Riconosci la forma — Geometria scuola dell'infanzia",
+      "pt": "Identifique a forma — Geometria no pré-escolar",
+      "nl": "Vorm herkennen — Meetkunde in de kleuterklas",
+      "sv": "Känn igen formen — Geometri i förskoleklass",
+      "da": "Genkend formen — Geometri i børnehaveklassen",
+      "no": "Gjenkjenn formen — Geometri i barnehagen",
+      "fi": "Tunnista muoto — Esiopetuksen geometriaa"
+    },
+    "page_intro": {
+      "en": "Tap the shape named in each prompt. Aligned to Common Core K.G.A.2 — correctly name shapes regardless of orientation or overall size.",
+      "de": "Tippe auf die in jeder Aufforderung genannte Form. Angepasst an Common Core K.G.A.2 — Formen unabhängig von Ausrichtung oder Größe benennen.",
+      "es": "Toca la forma nombrada en cada indicación. Alineado a Common Core K.G.A.2 — nombrar formas independientemente de la orientación o el tamaño.",
+      "fr": "Touche la forme nommée dans chaque consigne. Aligné à Common Core K.G.A.2 — nommer les formes indépendamment de l'orientation ou de la taille.",
+      "it": "Tocca la forma nominata in ogni richiesta. Allineato a Common Core K.G.A.2 — nominare le forme indipendentemente da orientamento e dimensioni.",
+      "pt": "Toque na forma indicada em cada pedido. Alinhado a Common Core K.G.A.2 — nomear formas independentemente da orientação ou tamanho.",
+      "nl": "Tik op de vorm die in elke opdracht wordt genoemd. Aansluitend bij Common Core K.G.A.2 — vormen benoemen ongeacht oriëntatie of grootte.",
+      "sv": "Tryck på formen som nämns i varje uppmaning. I linje med Common Core K.G.A.2 — namnge former oavsett orientering eller storlek.",
+      "da": "Tryk på formen, der nævnes i hver opgave. På linje med Common Core K.G.A.2 — navngive former uanset orientering eller størrelse.",
+      "no": "Trykk på formen som nevnes i hver oppgave. Etter Common Core K.G.A.2 — navngi former uavhengig av orientering eller størrelse.",
+      "fi": "Napauta muotoa, joka mainitaan kussakin tehtävässä. Yhdenmukainen Common Core K.G.A.2 — nimeä muotoja suuntaamisesta tai koosta riippumatta."
+    },
+    "kid_prompt_template": "promptTapShape"
+  }
+]

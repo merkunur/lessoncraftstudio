@@ -1528,6 +1528,90 @@ At `a47ea021`: substrate complete across all 11 locales (Track A + Wave 1). Deck
 
 ---
 
+## 20. K-3 Common Core activities + literacy engines (2026-05 commission)
+
+Parallel workstream to the deck/catalog pipeline. Builds K-3 Common Core-aligned interactive activities (Math + Literacy/ELA) as the platform's primary product surface. Distinct from the 33 worksheet-generator apps (operator-tooling) and from the catalog deck pipeline (PDF + interactive HTML production). See per-topic memory files at `C:\Users\rkgen\.claude\projects\C--Users-rkgen-lessoncraftstudio\memory\` for full doctrine; this section is the CLAUDE.md index.
+
+### 20.1 Product north star
+Activities are THE product. Target: full K-3 Common Core coverage across BOTH Math and Literacy/ELA — **500+ activities, uncapped** (~250-300 distinct engine-instances; ~4,880 instance-equivalents at one base locale × 11 locales per §6). See [[project-activities-north-star]] for full statement. Operator is non-technical; wants decisions made for him. Surface only (a) live pages to approve and (b) genuine business forks (assets he must supply, audience priority, pricing).
+
+**Two-builder workflow.** A separate Claude instance (PM Claude) writes the prompts; this CC instance builds + deploys. **One prompt → one activity → one engine at a time.** Each must be 100% complete + deployed + operator-approved before next starts. Nothing accumulates.
+
+### 20.2 Engine inventory + live surface
+See [[project-activities-live-inventory]] for the canonical list. As of 2026-05-22:
+- **3 manipulatives** live: ten-frame, number-line, ruler (`/mini-tools/*.html`)
+- **E1 ten-frame-activity** — 5 K-Math activities (K.CC.B.4 ×2, K.CC.B.5, K.CC.A.3, K.NBT.A.1)
+- **E2 choice-tap** — 8 activities (K.G.A.2, K.G.B.4, K.CC.C.6, K.CC.C.7 ×2, K.CC.B.5, K.G.A.3, 2.OA.C.3). **K-Math distinct-skill phase essentially done.**
+- **E7 CVC builder** — 1 EN-only activity (RF.K.3 "Build the CVC Word"). Non-EN return 404 by design.
+
+Engines NOT yet built: E8 Syllable Builder (es/it/pt/fr/fi), E9 Sound-Chunk Builder (de/nl/sv/da/no), E4 match-pairs, E12 place-value, E5/E6 tracing, E9 sight-word, E14 fraction, E3 sort, E13 array, E10 clock, E18 number-bond. See [[project-activities-master-queue]] for leverage ranking + queue triage.
+
+### 20.3 Architecture summary
+See [[project-activities-architecture]] for full doctrine. Key constraints:
+- **Shell+tool split**: `mini tools/lcs-shell.{css,js}` own chrome (settings/sound/fullscreen/reset + activity chrome: prompt banner with TTS speaker → answer surface → Check → feedback → progress pill → Next). Tools declare `tasks` array; shell renders chrome.
+- **Direction A card design** is the LOCKED aesthetic. Cream `#FBF3E4` + teal `#146B5E` + coral `#F2784B`. Baloo 2 + Nunito. Dual-shadow card, max-width 720px, chunky teal Check button.
+- **ActivityIframe** (`frontend/components/activities/ActivityIframe.tsx`) — transparent wrapper, postMessage auto-resize, 3-layer scrollbar kill.
+- **Activity route** (`frontend/app/[locale]/activities/[slug]/page.tsx`) — SSR + ISR 3600 + JSON-LD educationalAlignment + "Grade · Strand · Code" teacher chip. **CC code NEVER in URL.** Native-language slugs hand-written per locale per `*-activities.json` manifest.
+- **Mini-tools served by nginx, NOT Next.js routes.** Files at `/var/www/lcs-media/mini-tools/`; `middleware.ts` `/mini-tools/*` carve-out prevents 307 locale-redirects.
+- **Platform header** (`CategoryNav.tsx`) wraps decks + activities + manipulatives. Does NOT wrap the 33 worksheet-generator apps (operator exception).
+
+### 20.4 Approval cadence
+See [[feedback-activities-approval-cadence]]. **The bar is NOT "tests pass + HTTP 200."** The bar is: **live render + 3-viewport screenshots (phone/tablet/desktop) + operator eyeball.** Empirical bugs that passed tests but were visually broken: blank pages, MIME 307→404 redirect chains, layout breaks at narrow viewports, COUNT readout showing the answer, badge overlapping the board, oversized blank card area beneath short activities. **No timer / score / SmartScore / streak / countdown anywhere — operator-locked.** Warm K-3 no-shame tone.
+
+**Mini-tools cp/deploy race hazard:** standalone Next.js build indexes the static `/mini-tools/` manifest at build time. New files MUST be cp'd to `/var/www/lcs-media/mini-tools/` BEFORE `deploy.sh` runs `npm run build`, OR the build sees a stale manifest. Safe pattern: single chain `git pull → cp → bash deploy.sh`.
+
+### 20.5 Asset rules
+See [[feedback-activities-asset-rules]]. Hard requirements:
+- Images at `/image-library-webp/themes/<theme>/<noun>@2x.webp`
+- `REFERENCE TRANSLATIONS/image-vocabulary.js` (§6) = authoritative for WHICH word; 1,263 noun keys × 11 locales × [singular, plural, gender]. NO phonics data. NEVER modified.
+- **Color-only**. Exclude B&W themes.
+- **B&W themes identified by LOCALIZED end-of-theme-name marker, NOT literal "BW"**: da:SH · de:SW · en:BW · es:BN · fi:MV · fr:NB · it:BN · nl:ZW · no:SH · pt:PB · sv:SV. Filter MUST be language-aware; naive "BW" match leaks B&W into 10 of 11 locales.
+- **Ignore trailing numbers on filenames AND theme names** (`cat 2` → use image, label "cat"). Parsing order: strip trailing number → resolve vocab key; strip trailing number from theme → apply B&W filter (handle combined `animals bw 2`).
+- Use existing localized article+plural data; don't generate.
+- Phonics activities draw from `approved-words-<locale>.json` (the gated output of the safety pipeline) — direct reads from image-vocabulary.js bypass the gate and are FORBIDDEN.
+
+### 20.6 Master activity queue + engine leverage
+See [[project-activities-master-queue]]. Triage of ~4,920 instance-equivalents:
+- **~240 buildable now** (existing E1+E2+E7)
+- **~4,550 engine-blocked** (need E8/E9/E4/E12/E5-E6/E9-sw/E14/E3/E13/E10/E18)
+- **~90 asset-blocked** (K.G.A.1 position-words is canonical; needs staged scene art)
+- **~40 open-ended** (need pedagogical design before engineering)
+
+Engine leverage (decreasing): **E2 (~600+) >> E7 (~200) > E4 (~120) > E12 (~80) > E5/E6 (~73) > E9 sight-word (~70) > E14 (~50) > E3 (~40) > E13 (~35) > E10 (~25) > E18 (~20).**
+
+**Fill discipline:** batch-by-skill, operator reviews each set live, NOT mass-fill (thin-pages SEO risk + operator-attention-load risk). Theme-expansion held to LAST as small waves. Slug component-generator proposed (not built) — becomes load-bearing at 500+ scale.
+
+### 20.7 Literacy engines + phonics safety pipeline
+See [[project-phonics-safety-pipeline]]. Built + SV+FI proven at commit `91421bda` (2026-05-22). 3 engines over a shared internal word-builder core, shipped as distinct facades: **E7** single-letter (EN, built) · **E8** Syllable Builder (es/it/pt/fr/fi, NOT built) · **E9** Sound-Chunk Builder (de/nl/sv/da/no, NOT built). E2 already covers letter-recognition / sight-words / initial-sound across all locales.
+
+**Safety requirement (operator, non-negotiable):** a syllable/decoding error must be **structurally impossible to publish**. Every word's syllable/sound break confirmed by ≥3 independent sources OR quarantine. Source stack: TeX hyphenation (`hyphen` npm) + in-repo rule-based syllabifier + NST pronunciation lexicons (CC0; sv/no/da) + Wiktionary IPA (kaikki; de/nl/sv/no/da) + `vocabulary-phonics.json` syl cross-check + per-locale curriculum chunk tables (de/nl/sv/no) + DA quarantine regex (5 IPA-criteria → policy-managed flag).
+
+**Per-language verdicts (LOCKED, verbatim):**
+- **sv** — fully safe, no quarantine
+- **no** — safe + ~30-60 kj/sj/skj quarantine (one merger-policy decision; treat kj+sj as distinct in K-1, awareness in grade 2)
+- **de** — safe + ~80-120 multigraph-onset quarantine (Augst & Dehn-cited chunk table)
+- **nl** — safe + ~200-300 multigraph quarantine; thinnest source coverage (Wiktionary pre-flight passed at 84% — above 60% threshold)
+- **da** — safe + 35-55% quarantine (stød/weakened-final/post-vocalic-r/s-stop/ld-nd-rd, regex-detectable from NST IPA) + ONE curriculum policy decision **DECIDED: orthographic syllables for K-1, phonemic-divergence awareness grade 2** (Elbro lydrethed-first)
+- **es/it/pt/fr/fi** — GREEN auto-gate, no concern
+
+**No live per-word human review required for any language.** Pipeline outputs `scripts/v2-data/verify-syllable-boundaries/output/approved-words-<locale>.json` (activity-authoring source of truth) + `quarantine-report.json` (operator-reviewable). Read-only inputs: image-vocabulary.js + vocabulary-phonics.json (NEVER touched).
+
+### 20.8 Parked decisions
+See [[project-activities-parked]]:
+- **K.G.A.1 position words** — asset-blocked (needs staged scene art OR port prepositions-app scene-composition logic). Operator-undecided.
+- **"Demonstrate not touch the standard"** rule — early "Decompose 10" activity was REMOVED for failing this (anti-pattern). Before assigning a CC code, verify the activity directly INSTANTIATES the standard, not just touches its topic.
+- **CC code assignment discipline** — only assign when activity directly instantiates the standard; flag uncertain, NEVER invent codes.
+- **Hint-localization minor bug** — activity strand label (e.g., "Counting & Cardinality") renders in English regardless of page locale. Fold a fix into the next code touch in that area; not a standalone commission.
+
+### 20.9 IMMEDIATE next action
+The phonics safety pipeline is shipped + SV+FI proven. **Next commission is E8 Syllable Builder + Spanish/Finnish/Swedish proof activity** on top of `approved-words-<locale>.json`. Activity authoring reads ONLY from the approved list — words not on the list cannot enter the activity manifest. Direction A card design + ActivityIframe + native-language slugs all reuse from existing E2/E7 patterns. Engine reuses ~70% of E7's core.
+
+After E8 ships + ≥3 locales fan out + operator approves → next is **E9 Sound-Chunk Builder** for Germanic + Nordic. After E8+E9 at scale → resume non-literacy engines per §20.6 leverage ranking.
+
+**Do not jump ahead. Await the next prompt from PM Claude.**
+
+---
+
 ## Appendix A — Production safety rules
 
 ### A.1 Server + isolated storage

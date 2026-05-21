@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Constructor de sílabas — Actividad — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=2">
+</head>
+<body>
+  <!-- The shell mounts the whole tool into this element. -->
+  <div id="lcs-root"></div>
+
+  <!-- Shell first, then the shared word-builder core, then this activity wrapper. -->
+  <script src="/mini-tools/lcs-shell.js"></script>
+  <script src="/mini-tools/word-builder-core.js?v=1"></script>
+  <script src="/mini-tools/syllable-builder-activity.js?v=1"></script>
+  <script>
+    LCS.mount(SyllableBuilderActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

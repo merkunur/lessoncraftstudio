@@ -48,6 +48,7 @@ const MANIFEST_FILES = [
   'ten-frame-activities.json',
   'choice-board-activities.json',
   'cvc-builder-activities.json',
+  'syllable-builder-activities.json',
   // future: 'number-line-activities.json', 'ruler-activities.json', …
 ];
 

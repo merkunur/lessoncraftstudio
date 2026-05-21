@@ -362,5 +362,133 @@
       "fi": "Katso jokaista muotoa ja napauta, onko se litteä (2D) vai kappale (3D). Yhdenmukainen Common Core K.G.A.3 — tunnista muodot kaksiulotteisiksi tai kolmiulotteisiksi."
     },
     "kid_prompt_template": "promptFlatOrSolid"
+  },
+  {
+    "id": "choice-board.pick-smaller.k-c-c-7",
+    "tool": "choice-board-activity",
+    "task_template": "pick-smaller",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.CC.C.7",
+      "grade": "K",
+      "strand": "Counting & Cardinality"
+    },
+    "params": {
+      "pairs": [
+        [3, 5],
+        [7, 4],
+        [9, 6],
+        [2, 8],
+        [5, 3],
+        [6, 9],
+        [4, 1],
+        [8, 7]
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "which-number-is-smaller",
+      "de": "welche-zahl-ist-kleiner",
+      "es": "que-numero-es-menor",
+      "fr": "quel-nombre-est-plus-petit",
+      "it": "quale-numero-e-piu-piccolo",
+      "pt": "qual-numero-e-menor",
+      "nl": "welk-getal-is-kleiner",
+      "sv": "vilket-tal-ar-mindre",
+      "da": "hvilket-tal-er-mindst",
+      "no": "hvilket-tall-er-minst",
+      "fi": "kumpi-luku-on-pienempi"
+    },
+    "page_title": {
+      "en": "Which Number Is Smaller? — Kindergarten Counting",
+      "de": "Welche Zahl ist kleiner? — Zählen im Kindergarten",
+      "es": "¿Qué número es menor? — Contar en jardín infantil",
+      "fr": "Quel nombre est plus petit ? — Numération à la maternelle",
+      "it": "Quale numero è più piccolo? — Contare alla scuola dell'infanzia",
+      "pt": "Qual número é menor? — Contagem no pré-escolar",
+      "nl": "Welk getal is kleiner? — Tellen in de kleuterklas",
+      "sv": "Vilket tal är mindre? — Räkning i förskoleklass",
+      "da": "Hvilket tal er mindst? — Tælling i børnehaveklassen",
+      "no": "Hvilket tall er minst? — Telling i barnehagen",
+      "fi": "Kumpi luku on pienempi? — Esiopetuksen laskemista"
+    },
+    "page_intro": {
+      "en": "Look at two numbers and tap the smaller one. Aligned to Common Core K.CC.C.7 — compare two numbers between 1 and 10 presented as written numerals.",
+      "de": "Schau dir zwei Zahlen an und tippe die kleinere an. Angepasst an Common Core K.CC.C.7 — zwei Zahlen zwischen 1 und 10 in geschriebener Form vergleichen.",
+      "es": "Mira dos números y toca el menor. Alineado a Common Core K.CC.C.7 — comparar dos números entre 1 y 10 presentados como numerales escritos.",
+      "fr": "Regarde deux nombres et touche le plus petit. Aligné à Common Core K.CC.C.7 — comparer deux nombres entre 1 et 10 présentés sous forme écrite.",
+      "it": "Guarda due numeri e tocca quello più piccolo. Allineato a Common Core K.CC.C.7 — confrontare due numeri tra 1 e 10 scritti in cifre.",
+      "pt": "Olhe dois números e toque no menor. Alinhado a Common Core K.CC.C.7 — comparar dois números entre 1 e 10 apresentados como algarismos escritos.",
+      "nl": "Kijk naar twee getallen en tik het kleinste aan. Aansluitend bij Common Core K.CC.C.7 — twee getallen tussen 1 en 10 vergelijken die als geschreven cijfers worden gepresenteerd.",
+      "sv": "Titta på två tal och tryck på det som är mindre. I linje med Common Core K.CC.C.7 — jämför två tal mellan 1 och 10 i sifferform.",
+      "da": "Se på to tal og tryk på det mindste. På linje med Common Core K.CC.C.7 — sammenlign to tal mellem 1 og 10 skrevet med cifre.",
+      "no": "Se på to tall og trykk på det minste. Etter Common Core K.CC.C.7 — sammenlign to tall mellom 1 og 10 i sifferform.",
+      "fi": "Katso kahta lukua ja napauta pienempää. Yhdenmukainen Common Core K.CC.C.7 — vertaile kahta lukua välillä 1–10, jotka esitetään kirjoitettuina numeroina."
+    },
+    "kid_prompt_template": "promptPickSmaller"
+  },
+  {
+    "id": "choice-board.how-many-group.k-c-c-b-5",
+    "tool": "choice-board-activity",
+    "task_template": "how-many-group",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.CC.B.5",
+      "grade": "K",
+      "strand": "Counting & Cardinality"
+    },
+    "params": {
+      "items": [
+        { "noun": "cat",        "themeDir": "animals", "count": 4, "distractors": [3, 5, 6] },
+        { "noun": "dog",        "themeDir": "animals", "count": 7, "distractors": [5, 6, 8] },
+        { "noun": "apple",      "themeDir": "fruits",  "count": 3, "distractors": [2, 4, 5] },
+        { "noun": "fish",       "themeDir": "animals", "count": 5, "distractors": [3, 4, 6] },
+        { "noun": "duck",       "themeDir": "animals", "count": 6, "distractors": [4, 5, 7] },
+        { "noun": "strawberry", "themeDir": "fruits",  "count": 2, "distractors": [1, 3, 4] },
+        { "noun": "orange",     "themeDir": "fruits",  "count": 8, "distractors": [6, 7, 9] },
+        { "noun": "banana",     "themeDir": "fruits",  "count": 1, "distractors": [2, 3, 4] }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "how-many-are-there",
+      "de": "wie-viele-sind-es",
+      "es": "cuantos-hay",
+      "fr": "combien-y-en-a-t-il",
+      "it": "quanti-ce-ne-sono",
+      "pt": "quantos-ha",
+      "nl": "hoeveel-zijn-er",
+      "sv": "hur-manga-finns-det",
+      "da": "hvor-mange-er-der",
+      "no": "hvor-mange-er-det",
+      "fi": "montako-niita-on"
+    },
+    "page_title": {
+      "en": "How Many Are There? — Kindergarten Counting",
+      "de": "Wie viele sind es? — Zählen im Kindergarten",
+      "es": "¿Cuántos hay? — Contar en jardín infantil",
+      "fr": "Combien y en a-t-il ? — Numération à la maternelle",
+      "it": "Quanti ce ne sono? — Contare alla scuola dell'infanzia",
+      "pt": "Quantos há? — Contagem no pré-escolar",
+      "nl": "Hoeveel zijn er? — Tellen in de kleuterklas",
+      "sv": "Hur många finns det? — Räkning i förskoleklass",
+      "da": "Hvor mange er der? — Tælling i børnehaveklassen",
+      "no": "Hvor mange er det? — Telling i barnehagen",
+      "fi": "Montako niitä on? — Esiopetuksen laskemista"
+    },
+    "page_intro": {
+      "en": "Count the objects in each group and tap the matching number. Aligned to Common Core K.CC.B.5 — count to answer 'how many?' questions about up to 10 objects arranged in a line, array, or scattered configuration.",
+      "de": "Zähle die Objekte in jeder Gruppe und tippe die passende Zahl an. Angepasst an Common Core K.CC.B.5 — durch Zählen beantworten, wie viele Objekte in einer Anordnung bis 10 zu sehen sind.",
+      "es": "Cuenta los objetos de cada grupo y toca el número que coincide. Alineado a Common Core K.CC.B.5 — contar para responder a la pregunta '¿cuántos hay?' sobre hasta 10 objetos.",
+      "fr": "Compte les objets de chaque groupe et touche le nombre qui correspond. Aligné à Common Core K.CC.B.5 — compter pour répondre à la question « combien y en a-t-il ? » jusqu'à 10 objets.",
+      "it": "Conta gli oggetti in ogni gruppo e tocca il numero corrispondente. Allineato a Common Core K.CC.B.5 — contare per rispondere alla domanda 'quanti ce ne sono?' su fino a 10 oggetti.",
+      "pt": "Conte os objetos em cada grupo e toque no número correspondente. Alinhado a Common Core K.CC.B.5 — contar para responder à pergunta 'quantos há?' sobre até 10 objetos.",
+      "nl": "Tel de voorwerpen in elke groep en tik op het bijbehorende getal. Aansluitend bij Common Core K.CC.B.5 — tellen om de vraag 'hoeveel zijn er?' te beantwoorden over maximaal 10 voorwerpen.",
+      "sv": "Räkna föremålen i varje grupp och tryck på det tal som stämmer. I linje med Common Core K.CC.B.5 — räkna för att svara på frågan 'hur många finns det?' upp till 10 föremål.",
+      "da": "Tæl genstandene i hver gruppe og tryk på det tal, der passer. På linje med Common Core K.CC.B.5 — tælle for at besvare spørgsmålet 'hvor mange er der?' op til 10 genstande.",
+      "no": "Tell gjenstandene i hver gruppe og trykk på tallet som passer. Etter Common Core K.CC.B.5 — telle for å svare på spørsmålet 'hvor mange er det?' opptil 10 gjenstander.",
+      "fi": "Laske esineet jokaisessa ryhmässä ja napauta vastaava luku. Yhdenmukainen Common Core K.CC.B.5 — laske vastataksesi kysymykseen 'montako niitä on?' enintään 10 esineestä."
+    },
+    "kid_prompt_template": "promptMatchNumberToGroup"
   }
 ]

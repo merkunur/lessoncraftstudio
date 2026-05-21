@@ -62,6 +62,34 @@ var ACTIVITY_STRINGS = {
     no: 'Hvilket tall er størst?',
     fi: 'Kumpi luku on suurempi?'
   },
+  /* Batch 3 K.CC.C.7 — Which number is smaller (mirror of pick-bigger) */
+  promptPickSmaller: {
+    en: 'Which number is smaller?',
+    de: 'Welche Zahl ist kleiner?',
+    fr: 'Quel nombre est plus petit ?',
+    it: 'Quale numero è più piccolo?',
+    es: '¿Qué número es menor?',
+    pt: 'Qual número é menor?',
+    nl: 'Welk getal is kleiner?',
+    sv: 'Vilket tal är mindre?',
+    da: 'Hvilket tal er mindst?',
+    no: 'Hvilket tall er minst?',
+    fi: 'Kumpi luku on pienempi?'
+  },
+  /* Batch 3 K.CC.B.5 — How many are there (count + match the numeral) */
+  promptMatchNumberToGroup: {
+    en: 'How many are there?',
+    de: 'Wie viele sind es?',
+    fr: 'Combien y en a-t-il ?',
+    it: 'Quanti ce ne sono?',
+    es: '¿Cuántos hay?',
+    pt: 'Quantos há?',
+    nl: 'Hoeveel zijn er?',
+    sv: 'Hur många finns det?',
+    da: 'Hvor mange er der?',
+    no: 'Hvor mange er det?',
+    fi: 'Montako niitä on?'
+  },
   /* Batch 2 K.CC.C.6 — Which group has more */
   promptWhichMore: {
     en: 'Which group has more?',
@@ -489,6 +517,94 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
           },
           check: function (tool) {
             var correct = tool.answer === targetKey;
+            tool.showFeedback(correct);
+            return correct;
+          },
+          hintKey: function (tool) {
+            return tool.answer == null ? 'hintPickOne' : 'hintTryAgain';
+          }
+        };
+      });
+    }
+
+    /* TEMPLATE: pick-smaller (K.CC.C.7) — mirror of pick-bigger; kid
+       picks the SMALLER of two numerals. params.pairs = [[n1, n2], ...]. */
+    if (row.task_template === 'pick-smaller') {
+      var smallerPairs = row.params.pairs;
+      return smallerPairs.map(function (pair, idx) {
+        var a = pair[0], b = pair[1];
+        var smaller = a < b ? a : b;
+        return {
+          id: row.id + '.' + a + '-vs-' + b,
+          promptKey: 'promptPickSmaller',
+          answerType: 'state',
+          setup: function (tool) {
+            /* idx-parity left/right placement so smaller isn't always
+               on the same side. */
+            var first  = (idx % 2 === 0) ? a : b;
+            var second = (idx % 2 === 0) ? b : a;
+            var options = [
+              { key: String(first),  text: String(first)  },
+              { key: String(second), text: String(second) }
+            ];
+            tool.setupTask(options, String(smaller), null);
+          },
+          check: function (tool) {
+            var correct = tool.answer === String(smaller);
+            tool.showFeedback(correct);
+            return correct;
+          },
+          hintKey: function (tool) {
+            return tool.answer == null ? 'hintPickOne' : 'hintTryAgain';
+          }
+        };
+      });
+    }
+
+    /* TEMPLATE: how-many-group (K.CC.B.5) — show N objects as subject
+       (uses subject.type === 'group' added in Batch 3 core.js), kid picks
+       the matching numeral from 4 number tiles (target + 3 distractors).
+       params.items = [{ noun, themeDir, count, distractors: [n,n,n] }, ...].
+       Engine cap: count ≤ 8. */
+    if (row.task_template === 'how-many-group') {
+      var howManyItems = row.params.items;
+      return howManyItems.map(function (entry) {
+        var imgUrl = '/image-library-webp/themes/' + entry.themeDir + '/' + entry.noun + '@2x.webp';
+        var target = entry.count;
+        return {
+          id: row.id + '.' + entry.noun + '-' + target,
+          promptKey: 'promptMatchNumberToGroup',
+          answerType: 'state',
+          setup: function (tool) {
+            /* 4-tile numeral choice: target + 3 hand-picked distractors.
+               Distractors deterministic per task (from manifest); shuffle
+               keyed on target so order stays consistent across locales. */
+            var numbers = entry.distractors.concat([target]);
+            var seed = target * 31;
+            function rand() {
+              seed = (seed + 0x6D2B79F5) | 0;
+              var t = seed;
+              t = Math.imul(t ^ (t >>> 15), t | 1);
+              t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+              return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+            }
+            for (var m = numbers.length - 1; m > 0; m--) {
+              var n = Math.floor(rand() * (m + 1));
+              var t2 = numbers[m]; numbers[m] = numbers[n]; numbers[n] = t2;
+            }
+            var options = numbers.map(function (val) {
+              return { key: String(val), text: String(val) };
+            });
+            var subject = {
+              type: 'group',
+              imgUrl: imgUrl,
+              count: target,
+              alt: entry.noun
+            };
+            tool.setupTask(options, String(target), subject);
+          },
+          check: function (tool) {
+            var correct = tool.answer === String(target);
             tool.showFeedback(correct);
             return correct;
           },

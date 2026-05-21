@@ -277,6 +277,24 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       console.warn('[sitemap] activity URLs failed; skipping:', (err as Error).message);
     }
 
+    // Manipulatives landing page — one URL per locale (11 total). Static
+    // metadata lives in frontend/lib/manipulatives.ts; no DB or manifest IO.
+    try {
+      const { landingHreflangAlternates } = await import('@/lib/manipulatives');
+      const toolsAlternates = landingHreflangAlternates(baseUrl);
+      for (const loc of TOPIC_LOCALES) {
+        routes.push({
+          url: `${baseUrl}/${loc}/tools/`,
+          lastModified: STATIC_CONTENT_DATE,
+          changeFrequency: 'monthly',
+          priority: 0.5,
+          alternates: { languages: toolsAlternates },
+        });
+      }
+    } catch (err) {
+      console.warn('[sitemap] tools URLs failed; skipping:', (err as Error).message);
+    }
+
     return routes;
   }
 

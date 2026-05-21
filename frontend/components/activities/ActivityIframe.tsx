@@ -6,10 +6,11 @@ import { useEffect, useRef, useState } from "react";
  * Activity iframe wrapper that auto-resizes to its content via postMessage.
  *
  * The mini-tools shell broadcasts `{type: 'lcs-activity-resize', height}`
- * after every task transition. This component listens, sets the iframe
- * height, and lets the surrounding card flex-fit. Closes the "tall card,
- * short content" gap for choice-board activities while still giving
- * ten-frame activities the full 540px they need.
+ * after every task transition. This component listens and sets the iframe
+ * height. The wrapper is VISUALLY INVISIBLE — no background, no radius, no
+ * shadow — because the activity card itself (Direction A `.lcs-app.activity`
+ * inside the iframe) provides all the visible chrome. A wrapping styled
+ * container around it would create a double-card nesting effect.
  *
  * Default initial height (before first message arrives) is 420px — a
  * reasonable middle-ground that avoids both "tall flash then collapse"
@@ -18,7 +19,6 @@ import { useEffect, useRef, useState } from "react";
 
 const INITIAL_HEIGHT = 420;
 const MIN_HEIGHT = 320;
-const MAX_HEIGHT_CSS = "min(calc(100vh - 200px), 640px)";
 
 export function ActivityIframe({
   src,
@@ -45,30 +45,21 @@ export function ActivityIframe({
   }, []);
 
   return (
-    <div
-      className="rounded-3xl overflow-hidden shadow-xl"
+    <iframe
+      ref={iframeRef}
+      src={src}
+      title={title}
+      loading="lazy"
+      allow="fullscreen; autoplay"
       style={{
-        backgroundColor: "#FBF3E4",
         width: "100%",
         height: `${height}px`,
-        maxHeight: MAX_HEIGHT_CSS,
         minHeight: `${MIN_HEIGHT}px`,
+        border: 0,
+        display: "block",
+        background: "transparent",
         transition: "height .25s ease",
       }}
-    >
-      <iframe
-        ref={iframeRef}
-        src={src}
-        title={title}
-        loading="lazy"
-        allow="fullscreen; autoplay"
-        style={{
-          width: "100%",
-          height: "100%",
-          border: 0,
-          display: "block",
-        }}
-      />
-    </div>
+    />
   );
 }

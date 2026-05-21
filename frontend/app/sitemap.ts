@@ -257,6 +257,26 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       console.warn('[sitemap] shard 3 (topic) DB unreachable; skipping topic URLs:', (err as Error).message);
     }
 
+    // CC-pinned activity landing pages — one URL per (manifest row × locale).
+    // Read from `mini tools/<engine>-activities.json` via the activities lib;
+    // no DB dependency (manifest-driven), so this block is independent of the
+    // topic-page try/catch above.
+    try {
+      const { listActivitySitemapEntries, hreflangAlternatesForRow } = await import('@/lib/activities');
+      const acts = await listActivitySitemapEntries();
+      for (const a of acts) {
+        routes.push({
+          url: `${baseUrl}/${a.locale}/activities/${a.slug}/`,
+          lastModified: STATIC_CONTENT_DATE,
+          changeFrequency: 'monthly',
+          priority: 0.6,
+          alternates: { languages: hreflangAlternatesForRow(a.row, baseUrl) },
+        });
+      }
+    } catch (err) {
+      console.warn('[sitemap] activity URLs failed; skipping:', (err as Error).message);
+    }
+
     return routes;
   }
 

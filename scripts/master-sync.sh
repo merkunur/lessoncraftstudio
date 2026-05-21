@@ -121,7 +121,7 @@ else
     mkdir -p "frontend/public/mini-tools"
 
     COPIED=0
-    for f in "mini tools"/*.html "mini tools"/*.css; do
+    for f in "mini tools"/*.html "mini tools"/*.css "mini tools"/*.json; do
         [ -e "$f" ] && cp "$f" "frontend/public/mini-tools/" && COPIED=$((COPIED + 1))
     done
     for f in "mini tools"/*.js; do

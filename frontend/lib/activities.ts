@@ -1,0 +1,116 @@
+/**
+ * Activity manifest loader — per-engine *-activities.json files in `mini tools/`.
+ *
+ * Each activity row is a Common-Core-pinned task set that spawns one
+ * `/<locale>/activities/<slug>/` landing page per locale. Manifest is the
+ * source of truth; the Next.js route resolves slug → row → renders the
+ * SEO chrome + embeds the tool via iframe.
+ *
+ * Path resolution: the manifest lives in `mini tools/<engine>-activities.json`
+ * at the repo root. From the frontend/ Next.js process, `process.cwd()` is
+ * the frontend dir, so the manifest is at `../mini tools/<engine>-activities.json`.
+ *
+ * Cache: read once per server lifetime; ISR (revalidate=3600) covers content
+ * updates without rebuild.
+ */
+import fs from 'fs/promises';
+import path from 'path';
+import { TOPIC_ENABLED_LOCALES, TopicEnabledLocale } from '@/config/topic-locales';
+
+export interface ActivityAlignment {
+  framework: string;
+  code: string;
+  grade: string;
+  strand: string;
+}
+
+export interface ActivityRow {
+  id: string;
+  tool: string;
+  task_template: 'make-n' | 'how-many';
+  alignment: ActivityAlignment;
+  params: {
+    targets: number[];
+    range: { min: number; max: number };
+    frames?: number;
+  };
+  theme: string | null;
+  slug: Record<string, string>;
+  page_title: Record<string, string>;
+  page_intro: Record<string, string>;
+  kid_prompt_template: string;
+}
+
+const MANIFEST_FILES = [
+  'ten-frame-activities.json',
+  // future: 'number-line-activities.json', 'ruler-activities.json', …
+];
+
+let _cache: ActivityRow[] | null = null;
+
+async function loadActivities(): Promise<ActivityRow[]> {
+  if (_cache) return _cache;
+  const repoRoot = path.join(process.cwd(), '..');
+  const all: ActivityRow[] = [];
+  for (const file of MANIFEST_FILES) {
+    const full = path.join(repoRoot, 'mini tools', file);
+    try {
+      const raw = await fs.readFile(full, 'utf-8');
+      const rows = JSON.parse(raw) as ActivityRow[];
+      all.push(...rows);
+    } catch (err) {
+      // Manifest absent or unreadable — log and continue. Activities for
+      // engines without manifests just won't appear.
+      console.warn('[activities] Failed to load', full, (err as Error).message);
+    }
+  }
+  _cache = all;
+  return all;
+}
+
+export async function resolveActivitySlug(
+  slug: string,
+  locale: string
+): Promise<ActivityRow | null> {
+  const all = await loadActivities();
+  return all.find((row) => row.slug[locale] === slug) || null;
+}
+
+export async function listActivitySitemapEntries(): Promise<
+  Array<{ locale: string; slug: string; id: string; row: ActivityRow }>
+> {
+  const all = await loadActivities();
+  const out: Array<{ locale: string; slug: string; id: string; row: ActivityRow }> = [];
+  for (const row of all) {
+    for (const locale of TOPIC_ENABLED_LOCALES) {
+      const slug = row.slug[locale];
+      if (slug) out.push({ locale, slug, id: row.id, row });
+    }
+  }
+  return out;
+}
+
+export async function listAllActivities(): Promise<ActivityRow[]> {
+  return loadActivities();
+}
+
+/**
+ * Build the hreflang alternates map for an activity row — one entry per
+ * locale where the row has a slug declared.
+ */
+export function hreflangAlternatesForRow(
+  row: ActivityRow,
+  baseUrl: string
+): Record<string, string> {
+  const out: Record<string, string> = {};
+  for (const loc of TOPIC_ENABLED_LOCALES) {
+    const s = row.slug[loc];
+    if (s) out[loc] = `${baseUrl}/${loc}/activities/${s}/`;
+  }
+  out['x-default'] = out['en'] || Object.values(out)[0] || baseUrl;
+  return out;
+}
+
+export function isTopicEnabledLocale(l: string): l is TopicEnabledLocale {
+  return (TOPIC_ENABLED_LOCALES as readonly string[]).includes(l);
+}

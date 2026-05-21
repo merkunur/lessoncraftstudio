@@ -149,13 +149,17 @@ if not exist "frontend\public\mini-tools" (
     mkdir "frontend\public\mini-tools"
 )
 
-REM Copy *.html and *.css unconditionally
+REM Copy *.html, *.css, *.json unconditionally (JSON manifests for activities)
 set COPIED=0
 for %%f in ("mini tools\*.html") do (
     copy /Y "%%f" "frontend\public\mini-tools\" >nul 2>&1
     set /a COPIED+=1
 )
 for %%f in ("mini tools\*.css") do (
+    copy /Y "%%f" "frontend\public\mini-tools\" >nul 2>&1
+    set /a COPIED+=1
+)
+for %%f in ("mini tools\*.json") do (
     copy /Y "%%f" "frontend\public\mini-tools\" >nul 2>&1
     set /a COPIED+=1
 )

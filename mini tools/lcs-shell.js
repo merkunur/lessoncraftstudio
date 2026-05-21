@@ -38,7 +38,8 @@
     next:       {en:'Next',de:'Weiter',fr:'Suivant',it:'Avanti',es:'Siguiente',pt:'Próximo',nl:'Volgende',sv:'Nästa',da:'Næste',no:'Neste',fi:'Seuraava'},
     celebrate:  {en:'Great!',de:'Super!',fr:'Bravo !',it:'Bravo!',es:'¡Genial!',pt:'Ótimo!',nl:'Goed gedaan!',sv:'Bra jobbat!',da:'Flot klaret!',no:'Bra jobbet!',fi:'Hienoa!'},
     tryAgain:   {en:'Not yet — try again!',de:'Noch nicht — versuche es nochmal!',fr:'Pas encore — essaie encore !',it:'Non ancora — riprova!',es:'Aún no — ¡intenta otra vez!',pt:'Ainda não — tente de novo!',nl:'Nog niet — probeer nog eens!',sv:'Inte än — försök igen!',da:'Ikke endnu — prøv igen!',no:'Ikke ennå — prøv igjen!',fi:'Ei vielä — yritä uudelleen!'},
-    tasksDone:  {en:'Tasks done: {n}',de:'Aufgaben erledigt: {n}',fr:'Tâches faites : {n}',it:'Compiti fatti: {n}',es:'Tareas hechas: {n}',pt:'Tarefas feitas: {n}',nl:'Taken gedaan: {n}',sv:'Klara uppgifter: {n}',da:'Færdige opgaver: {n}',no:'Ferdige oppgaver: {n}',fi:'Tehtyjä tehtäviä: {n}'}
+    tasksDone:  {en:'Tasks done: {n}',de:'Aufgaben erledigt: {n}',fr:'Tâches faites : {n}',it:'Compiti fatti: {n}',es:'Tareas hechas: {n}',pt:'Tarefas feitas: {n}',nl:'Taken gedaan: {n}',sv:'Klara uppgifter: {n}',da:'Færdige opgaver: {n}',no:'Ferdige oppgaver: {n}',fi:'Tehtyjä tehtäviä: {n}'},
+    readAloud:  {en:'Read aloud',de:'Vorlesen',fr:'Lire à voix haute',it:'Leggi ad alta voce',es:'Leer en voz alta',pt:'Ler em voz alta',nl:'Voorlezen',sv:'Läs högt',da:'Læs højt',no:'Les høyt',fi:'Lue ääneen'}
   };
 
   /* Simple {key} interpolation for prompt + progress strings. */
@@ -114,7 +115,8 @@
     expand:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>',
     soundOn:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16 9a4 4 0 0 1 0 6"/></svg>',
     soundOff:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M22 9l-6 6M16 9l6 6"/></svg>',
-    close:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6L6 18"/></svg>'
+    close:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6L6 18"/></svg>',
+    speaker:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16 9a4 4 0 0 1 0 6"/><path d="M19 7a8 8 0 0 1 0 10"/></svg>'
   };
 
   /* =====================================================================
@@ -417,8 +419,30 @@
       if (!tool.tasks && !tool.nextTask) return false;
       app.classList.add('activity');
 
-      /* prompt banner — between header and stage */
+      /* prompt banner — between header and stage. Wraps a text span + a
+         speaker button so the kid (pre-reader) can hear the prompt via
+         browser TTS. No audio assets — Web Speech Synthesis API across
+         all 11 locales. */
       promptEl = el('div', 'lcs-activity-prompt');
+      var promptText = el('span', 'lcs-activity-prompt-text');
+      var speakBtn = el('button', 'lcs-activity-speak');
+      speakBtn.type = 'button';
+      speakBtn.innerHTML = ICON.speaker;
+      speakBtn.setAttribute('aria-label', i18n.chrome('readAloud'));
+      speakBtn.title = i18n.chrome('readAloud');
+      speakBtn.addEventListener('click', function () {
+        if (!global.speechSynthesis) return;
+        var t = promptText.textContent;
+        if (!t) return;
+        try {
+          global.speechSynthesis.cancel();
+          var u = new global.SpeechSynthesisUtterance(t);
+          u.lang = i18n.current === 'pt' ? 'pt-BR' : i18n.current;
+          u.rate = 0.9;
+          global.speechSynthesis.speak(u);
+        } catch (_) {}
+      });
+      promptEl.append(promptText, speakBtn);
       app.insertBefore(promptEl, stage);
 
       /* progress indicator — in header next to the titles */
@@ -460,9 +484,12 @@
     function loadTask(task) {
       currentTask = task;
       if (!task) return;
-      var promptText = interpolate(api.t(task.promptKey), task.promptArgs || {});
-      promptEl.textContent = promptText;
-      api.announce(promptText);
+      var promptStr = interpolate(api.t(task.promptKey), task.promptArgs || {});
+      /* promptEl wraps a text span + speaker button; only the text changes */
+      var textSpan = promptEl.querySelector('.lcs-activity-prompt-text');
+      if (textSpan) textSpan.textContent = promptStr;
+      else promptEl.textContent = promptStr;
+      api.announce(promptStr);
       if (task.setup) task.setup(tool);
       if (tool.render) tool.render();
       renderAnswerSurface(task);
@@ -594,6 +621,17 @@
       stage.appendChild(container);
       setTimeout(function () { if (container.parentNode) container.parentNode.removeChild(container); }, 900);
     }
+
+    /* Expose a hook so tools that load `tool.tasks` asynchronously (e.g., the
+       activity variant fetches a CC-pinned manifest) can re-trigger the
+       first-task render once tasks are populated. Activity-mode only. */
+    global.LCS_reloadFirstTask = function () {
+      if (!tool.tasks && !tool.nextTask) return;
+      currentTaskIndex = 0;
+      tasksCompleted = 0;
+      if (progressEl) progressEl.textContent = interpolate(i18n.chrome('tasksDone'), { n: 0 });
+      loadTask(getTask(0));
+    };
 
     /* ---- go live ---- */
     root.innerHTML = '';

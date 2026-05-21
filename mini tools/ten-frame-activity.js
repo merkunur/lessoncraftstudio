@@ -104,12 +104,18 @@ var TenFrameActivity = Object.assign({}, TenFrameCore, {
     if (!pool || !pool.color_verified || !pool.keys || !pool.keys.length) return;
     this._imagePool = pool;
     var srcPattern = pool.src_pattern;   // e.g., '/image-library-webp/themes/animals/{key}@2x.webp'
-    /* Register an 'image' token shape on the shell. Per CLAUDE.md §14.3a
-       this is the canonical asset-swap point. */
-    LCS.registerToken('image', function (key, color, size) {
+    /* Register an 'image' token shape on the shell. The shell calls
+       registered token functions as fn(color, size) — so for an image
+       token we use the "color" slot to carry the image-KEY (e.g. "cat")
+       and "size" for the pixel dimension. Matching the contract here
+       is what makes width/height numeric (not the literal "undefined"
+       string that was rendering images at natural pixel size and
+       overflowing every cell). */
+    LCS.registerToken('image', function (key, size) {
+      var px = (typeof size === 'number' && size > 0) ? size : 56;
       var src = srcPattern.replace('{key}', key);
-      return '<img src="' + src + '" width="' + size + '" height="' + size +
-             '" alt="' + key + '" loading="lazy" style="object-fit:contain;">';
+      return '<img src="' + src + '" width="' + px + '" height="' + px +
+             '" alt="' + key + '" loading="lazy" style="object-fit:contain;display:block;">';
     });
     /* Override paint() to use image tokens cycling through the pool. The
        shape setting is ignored when an image theme is active. */

@@ -34,6 +34,34 @@ var ACTIVITY_STRINGS = {
     no: 'Trykk på {shape}',
     fi: 'Napauta {shape}'
   },
+  /* Batch 1 K.G.B.4 — Count the sides */
+  promptCountSides: {
+    en: 'How many sides does this shape have?',
+    de: 'Wie viele Seiten hat diese Form?',
+    fr: 'Combien de côtés a cette forme ?',
+    it: 'Quanti lati ha questa forma?',
+    es: '¿Cuántos lados tiene esta forma?',
+    pt: 'Quantos lados tem esta forma?',
+    nl: 'Hoeveel zijden heeft deze vorm?',
+    sv: 'Hur många sidor har formen?',
+    da: 'Hvor mange sider har formen?',
+    no: 'Hvor mange sider har formen?',
+    fi: 'Kuinka monta sivua tällä muodolla on?'
+  },
+  /* Batch 1 K.CC.C.7 — Which number is bigger */
+  promptPickBigger: {
+    en: 'Which number is bigger?',
+    de: 'Welche Zahl ist größer?',
+    fr: 'Quel nombre est plus grand ?',
+    it: 'Quale numero è più grande?',
+    es: '¿Qué número es mayor?',
+    pt: 'Qual número é maior?',
+    nl: 'Welk getal is groter?',
+    sv: 'Vilket tal är större?',
+    da: 'Hvilket tal er størst?',
+    no: 'Hvilket tall er størst?',
+    fi: 'Kumpi luku on suurempi?'
+  },
   hintPickOne: {
     en: 'Pick one of the shapes first',
     de: 'Wähle zuerst eine Form aus',
@@ -134,6 +162,36 @@ function buildOption(key) {
   return { key: key, imgUrl: shapeImageUrl(key), label: key };
 }
 
+/* Number-tile builder for count-sides + similar templates. Seeded
+   deterministically on the target so all 11 locales render identical
+   tile ordering. Distractors are picked from `pool` excluding target,
+   then target re-added and the whole set shuffled. */
+function pickNumberDistractors(pool, target, count) {
+  var others = pool.filter(function (n) { return n !== target; });
+  var seed = target * 31;
+  function rand() {
+    seed = (seed + 0x6D2B79F5) | 0;
+    var t = seed;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  }
+  var picks = others.slice();
+  for (var j = picks.length - 1; j > 0; j--) {
+    var k = Math.floor(rand() * (j + 1));
+    var tmp = picks[j]; picks[j] = picks[k]; picks[k] = tmp;
+  }
+  var distractors = picks.slice(0, count - 1);
+  var numbers = distractors.concat([target]);
+  for (var m = numbers.length - 1; m > 0; m--) {
+    var n = Math.floor(rand() * (m + 1));
+    var t2 = numbers[m]; numbers[m] = numbers[n]; numbers[n] = t2;
+  }
+  return numbers.map(function (val) {
+    return { key: String(val), text: String(val) };
+  });
+}
+
 /* Deterministic distractor picker. Same shape-key seed produces the same
    shuffled option order across all 11 locales so the 11 sibling URLs
    render identically (only language changes). */
@@ -204,6 +262,8 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
 
   _buildTasksFromRow: function (row) {
     var self = this;
+
+    /* TEMPLATE: shape-id (K.G.A.2) — tap the named shape. */
     if (row.task_template === 'shape-id') {
       var pool = row.params.shapes;
       var choicesPerTask = row.params.choicesPerTask || 4;
@@ -211,9 +271,6 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
         return {
           id: row.id + '.' + targetKey,
           promptKey: 'promptTapShape',
-          /* The shape label is looked up at task-build time via api.t()
-             so the prompt interpolates the LOCALIZED form (e.g.,
-             "Tippe auf das Quadrat" in DE). */
           promptArgs: { shape: self.api.t('shapeLabel_' + targetKey) },
           answerType: 'state',
           setup: function (tool) {
@@ -231,6 +288,74 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
         };
       });
     }
+
+    /* TEMPLATE: count-sides (K.G.B.4) — show a polygon, kid picks the
+       number of sides from 4 number tiles. params.shapes = list of
+       {key, sides} entries; we pick 4 number tiles per task (target +
+       3 distractors from {3..8}). */
+    if (row.task_template === 'count-sides') {
+      var shapeEntries = row.params.shapes;  /* [{key:'triangle', sides:3}, ...] */
+      var distractorPool = row.params.distractorPool || [3, 4, 5, 6, 7, 8];
+      return shapeEntries.map(function (entry) {
+        return {
+          id: row.id + '.' + entry.key,
+          promptKey: 'promptCountSides',
+          answerType: 'state',
+          setup: function (tool) {
+            var numberOpts = pickNumberDistractors(distractorPool, entry.sides, 4);
+            var subject = {
+              type: 'image',
+              imgUrl: '/image-library-webp/themes/shapes/' + entry.key + '@2x.webp',
+              alt: entry.key
+            };
+            tool.setupTask(numberOpts, String(entry.sides), subject);
+          },
+          check: function (tool) {
+            var correct = tool.answer === String(entry.sides);
+            tool.showFeedback(correct);
+            return correct;
+          },
+          hintKey: function (tool) {
+            return tool.answer == null ? 'hintPickOne' : 'hintTryAgain';
+          }
+        };
+      });
+    }
+
+    /* TEMPLATE: pick-bigger (K.CC.C.7) — show 2 numbers, kid picks the
+       bigger one. params.pairs = [[n1, n2], ...]. */
+    if (row.task_template === 'pick-bigger') {
+      var pairs = row.params.pairs;
+      return pairs.map(function (pair, idx) {
+        var a = pair[0], b = pair[1];
+        var bigger = a > b ? a : b;
+        return {
+          id: row.id + '.' + a + '-vs-' + b,
+          promptKey: 'promptPickBigger',
+          answerType: 'state',
+          setup: function (tool) {
+            /* Deterministic left/right order — use idx-parity so half
+               of the tasks have bigger on left, half on right. */
+            var first = (idx % 2 === 0) ? a : b;
+            var second = (idx % 2 === 0) ? b : a;
+            var options = [
+              { key: String(first),  text: String(first) },
+              { key: String(second), text: String(second) }
+            ];
+            tool.setupTask(options, String(bigger), null);
+          },
+          check: function (tool) {
+            var correct = tool.answer === String(bigger);
+            tool.showFeedback(correct);
+            return correct;
+          },
+          hintKey: function (tool) {
+            return tool.answer == null ? 'hintPickOne' : 'hintTryAgain';
+          }
+        };
+      });
+    }
+
     return STATIC_DEMO_TASKS;
   }
 });

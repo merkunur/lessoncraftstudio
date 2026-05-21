@@ -37,19 +37,23 @@ window.ChoiceBoardCore = {
 
   init: function (api) {
     this.api = api;
-    this.options = [];       /* [{key, imgUrl, label}, ...] */
+    this.options = [];       /* [{key, imgUrl?, text?, label?}, ...] */
     this.targetKey = null;
+    this.subject = null;     /* null | {type:'image', imgUrl} | {type:'text', text} */
     this.answer = null;      /* selected key (or null) */
     this.readOnly = false;
     this.feedbackMode = null;  /* null | 'correct' | 'wrong' */
     this.tiles = [];
   },
 
-  /* Load a task's options + correct key. Caller (the activity's
-     task.setup) calls this; the shell then calls render() automatically. */
-  setupTask: function (options, targetKey) {
+  /* Load a task's options + correct key + (optional) subject element
+     shown above the tile grid. Subject lets the activity present a
+     "subject" (e.g., a shape image) that the kid analyzes to pick a
+     tile (e.g., the number of sides). */
+  setupTask: function (options, targetKey, subject) {
     this.options = options || [];
     this.targetKey = targetKey;
+    this.subject = subject || null;
     this.answer = null;
     this.readOnly = false;
     this.feedbackMode = null;
@@ -82,6 +86,26 @@ window.ChoiceBoardCore = {
     this.tiles = [];
 
     var wrap = this.api.el('div', 'cb-wrap');
+
+    /* Subject element (optional) — shown ABOVE the tile grid. Lets the
+       activity present an image or text for the kid to analyze before
+       picking a tile (e.g., a polygon to count sides on). */
+    if (this.subject) {
+      var subjectEl = this.api.el('div', 'cb-subject cb-subject--' + this.subject.type);
+      if (this.subject.type === 'image' && this.subject.imgUrl) {
+        var subjectImg = this.api.el('img', 'cb-subject-img');
+        subjectImg.src = this.subject.imgUrl;
+        subjectImg.alt = this.subject.alt || '';
+        subjectImg.setAttribute('loading', 'lazy');
+        subjectEl.appendChild(subjectImg);
+      } else if (this.subject.type === 'text' && this.subject.text != null) {
+        var subjectText = this.api.el('div', 'cb-subject-text');
+        subjectText.textContent = String(this.subject.text);
+        subjectEl.appendChild(subjectText);
+      }
+      wrap.appendChild(subjectEl);
+    }
+
     var board = this.api.el('div', 'cb-board');
     /* 2-up if there are only 2 options; 4-up grid otherwise (2×2 on mobile). */
     var nCols = this.options.length <= 2 ? 2 : 4;
@@ -93,13 +117,24 @@ window.ChoiceBoardCore = {
       tile.type = 'button';
       tile.dataset.key = opt.key;
       tile.setAttribute('aria-pressed', 'false');
-      tile.setAttribute('aria-label', opt.label || opt.key);
+      tile.setAttribute('aria-label', opt.label || opt.text || opt.key);
 
-      var img = this.api.el('img', 'cb-tile-img');
-      img.src = opt.imgUrl;
-      img.alt = '';  /* decorative; aria-label on the button carries the label */
-      img.setAttribute('loading', 'lazy');
-      tile.appendChild(img);
+      /* Two tile shapes: image (existing) OR text (new). Text tiles
+         render the option's text as a big display-font glyph (used by
+         pick-bigger + count-sides for number tiles). Image tiles render
+         the option's image (used by shape-id). */
+      if (opt.text != null) {
+        tile.classList.add('cb-tile--text');
+        var textEl = this.api.el('span', 'cb-tile-text');
+        textEl.textContent = String(opt.text);
+        tile.appendChild(textEl);
+      } else if (opt.imgUrl) {
+        var img = this.api.el('img', 'cb-tile-img');
+        img.src = opt.imgUrl;
+        img.alt = '';  /* decorative; aria-label on the button carries the label */
+        img.setAttribute('loading', 'lazy');
+        tile.appendChild(img);
+      }
 
       /* Direction A corner badges — hidden by default, shown via paint() */
       var badge = this.api.el('div', 'cb-tile-badge');
@@ -193,6 +228,38 @@ window.ChoiceBoardCore = {
       '}',
       '.cb-tile:active{transform:translateY(-2px) scale(.98);}',
       '.cb-tile-img{max-width:78%;max-height:78%;width:auto;height:auto;pointer-events:none;user-select:none;}',
+
+      /* Text tile — used by pick-bigger / count-sides. The option's
+         text content is rendered as a big display-font glyph. Same
+         tile chassis as image tile; just different content. */
+      '.cb-tile--text{}',
+      '.cb-tile-text{',
+      '  font-family:var(--lcs-font-display);',
+      '  font-weight:800;',
+      '  font-size:clamp(40px,11vmin,72px);',
+      '  color:var(--lcs-structure);',
+      '  line-height:1;letter-spacing:-0.02em;',
+      '  pointer-events:none;user-select:none;',
+      '}',
+
+      /* Subject element — shown ABOVE the tile grid. Used by activities
+         that present a "subject" (image or text) for the kid to analyze
+         before picking a tile. */
+      '.cb-subject{',
+      '  display:flex;align-items:center;justify-content:center;',
+      '  width:100%;max-width:560px;',
+      '  margin-bottom:clamp(4px,1vmin,8px);',
+      '}',
+      '.cb-subject-img{',
+      '  width:auto;height:clamp(96px,18vmin,140px);max-width:80%;',
+      '  pointer-events:none;user-select:none;',
+      '  filter:drop-shadow(0 4px 12px rgba(20,30,28,0.10));',
+      '}',
+      '.cb-subject-text{',
+      '  font-family:var(--lcs-font-display);font-weight:800;',
+      '  font-size:clamp(48px,12vmin,84px);color:var(--lcs-structure);',
+      '  line-height:1;letter-spacing:-0.02em;',
+      '}',
 
       /* Selected (pre-Check) — teal-tinted gradient + inset ring + soft glow. */
       '.cb-tile--selected{',

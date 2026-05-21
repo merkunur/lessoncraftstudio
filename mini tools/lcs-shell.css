@@ -51,24 +51,37 @@
 
 /* ============================== RESET ================================ */
 *, *::before, *::after { box-sizing: border-box; }
-html, body { margin: 0; height: 100%; overflow: hidden; }
+html, body { margin: 0; height: 100%; overflow: hidden; background: var(--lcs-bg); }
 button { font: inherit; color: inherit; cursor: pointer; border: 0; background: none; }
 :focus-visible { outline: 3px solid var(--lcs-focus); outline-offset: 2px; }
 
 /* ============================== APP FRAME ============================ */
+/* Direction A — warm-tactile card surface shared by ALL tools:
+   activities AND free-play manipulatives. Activity-specific overrides
+   (.lcs-app.activity) inherit this base and tweak as needed (auto
+   height + visible overflow for content-fitting). */
 .lcs-app {
   font-family: var(--lcs-font-body);
   color: var(--lcs-ink);
-  background: var(--lcs-bg);
-  /* subtle paper texture via layered gradients, no image asset needed */
-  background-image:
-    radial-gradient(circle at 18% 12%, rgba(242,120,75,0.05) 0, transparent 38%),
-    radial-gradient(circle at 84% 88%, rgba(20,107,94,0.05) 0, transparent 42%);
+  background:
+    radial-gradient(circle at 8% 8%, rgba(20,107,94,0.04) 0, transparent 50%),
+    radial-gradient(circle at 92% 92%, rgba(242,120,75,0.04) 0, transparent 50%),
+    var(--lcs-surface-2);
   height: 100%;
   width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  border-radius: 32px;
+  box-shadow:
+    0 2px 6px rgba(20, 30, 28, 0.06),
+    0 24px 60px rgba(20, 30, 28, 0.10);
+  padding-bottom: var(--lcs-pad);
+}
+@media (max-width: 600px) {
+  .lcs-app { border-radius: 24px; }
 }
 
 /* ----- Header: tool title + one-line instruction -------------------- */
@@ -92,19 +105,36 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
   color: var(--lcs-ink-soft);
 }
 
-/* ----- Control bar (IDENTICAL placement across every tool) ---------- */
+/* ----- Control bar (IDENTICAL placement across every tool) ----------
+   Direction A: chunky tactile depth-shadow buttons that match the
+   Check/Next pill style scaled down. Hover lifts, active flattens. */
 .lcs-controls { display: flex; gap: 8px; flex-shrink: 0; }
 .lcs-ctrl {
   width: var(--lcs-tap); height: var(--lcs-tap);
   display: grid; place-items: center;
   border-radius: var(--lcs-radius-sm);
   background: var(--lcs-surface);
-  box-shadow: var(--lcs-shadow-sm);
+  box-shadow:
+    0 3px 0 rgba(20, 30, 28, 0.10),
+    0 4px 10px rgba(20, 30, 28, 0.08);
   color: var(--lcs-structure);
-  transition: transform .12s var(--lcs-ease), background .15s;
+  border: 0;
+  transition: transform .12s var(--lcs-ease), box-shadow .12s, background .15s;
+  touch-action: manipulation;
 }
-.lcs-ctrl:hover  { background: var(--lcs-structure-soft); }
-.lcs-ctrl:active { transform: scale(.92); }
+.lcs-ctrl:hover {
+  background: var(--lcs-structure-soft);
+  transform: translateY(-2px);
+  box-shadow:
+    0 5px 0 rgba(20, 30, 28, 0.10),
+    0 8px 14px rgba(20, 30, 28, 0.10);
+}
+.lcs-ctrl:active {
+  transform: translateY(1px);
+  box-shadow:
+    0 1px 0 rgba(20, 30, 28, 0.10),
+    0 2px 6px rgba(20, 30, 28, 0.06);
+}
 .lcs-ctrl svg { width: 46%; height: 46%; }
 .lcs-ctrl[aria-pressed="false"] { color: var(--lcs-ink-soft); }
 
@@ -198,33 +228,13 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
    Visual contract: mockups/activity-card-redesign/A-warm-tactile-*.html
    ===================================================================== */
 
-/* The card frame itself — applied to .lcs-app when in activity mode.
-   This IS the visible card; the page-level ActivityIframe wrapper is
-   transparent (no nested-container double-card effect). */
+/* Activity-mode tweaks the base card to size to content (auto height,
+   visible overflow for corner badges that may extend past tile edges).
+   Card frame (cream gradient bg, max-width, radius, shadow, padding) is
+   inherited from .lcs-app base. */
 .lcs-app.activity {
-  background:
-    radial-gradient(circle at 8% 8%, rgba(20,107,94,0.04) 0, transparent 50%),
-    radial-gradient(circle at 92% 92%, rgba(242,120,75,0.04) 0, transparent 50%),
-    var(--lcs-surface-2);
-  max-width: 720px;
-  margin: 0 auto;
-  border-radius: 32px;
-  box-shadow:
-    0 2px 6px rgba(20, 30, 28, 0.06),
-    0 24px 60px rgba(20, 30, 28, 0.10);
-  overflow: visible;  /* badges may overflow corners */
-  /* Bottom padding: matches the top padding (which comes from progress
-     element's padding-top: var(--lcs-pad)) so the Check/Next button has
-     breathing room from the card's bottom edge. */
-  padding-bottom: var(--lcs-pad);
-  /* Override the legacy .lcs-app { height: 100%; overflow: hidden } so the
-     card shrinks to fit content and the iframe's postMessage broadcast
-     reports an accurate scrollHeight (no clipped overflow). */
   height: auto;
   overflow: visible;
-}
-@media (max-width: 600px) {
-  .lcs-app.activity { border-radius: 24px; }
 }
 
 /* Prompt — the hero. Big display font, centered. */

@@ -207,8 +207,10 @@ export default function middleware(request: NextRequest) {
     return resp;
   }
 
-  // Skip middleware for static HTML files and worksheet-generator paths
-  if (pathname.endsWith('.html') || pathname.includes('/worksheet-generators/')) {
+  // Skip middleware for static HTML files, worksheet-generator paths, and mini-tools paths
+  if (pathname.endsWith('.html') ||
+      pathname.includes('/worksheet-generators/') ||
+      pathname.includes('/mini-tools/')) {
     const resp = NextResponse.next({ request: { headers: requestHeaders } });
     resp.headers.set('Content-Language', detectedLocale);
     return resp;
@@ -257,6 +259,6 @@ export default function middleware(request: NextRequest) {
 
 export const config = {
   matcher: [
-    '/((?!api|_next/static|_next/image|favicon.ico|manifest.json|robots.txt|sitemap.xml|sitemap/|image-sitemap|video-sitemap|.*\\.(?:png|jpg|jpeg|svg|ico|webp|gif|pdf)$|samples|videos|worksheet-generators|worksheet-images|worksheet-samples|homepage-content-manager.*\\.html|images|test-.*\\.html|js|uploads|upload|static-page-manager\\.html|page-manager\\.html|easy-page-manager\\.html|simple-upload\\.html|simple-upload|admin|settings|notifications|collaboration|testing|search|member).*)',
+    '/((?!api|_next/static|_next/image|favicon.ico|manifest.json|robots.txt|sitemap.xml|sitemap/|image-sitemap|video-sitemap|.*\\.(?:png|jpg|jpeg|svg|ico|webp|gif|pdf)$|samples|videos|worksheet-generators|mini-tools|worksheet-images|worksheet-samples|homepage-content-manager.*\\.html|images|test-.*\\.html|js|uploads|upload|static-page-manager\\.html|page-manager\\.html|easy-page-manager\\.html|simple-upload\\.html|simple-upload|admin|settings|notifications|collaboration|testing|search|member).*)',
   ]
 };

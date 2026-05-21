@@ -283,7 +283,10 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
 }
 .lcs-activity-keypad {
   display: grid;
-  grid-template-columns: repeat(5, var(--lcs-tap));
+  /* 6 columns × 2 rows for 0-9 + clear. Was 5×3 — wasted ~60px of
+     vertical space, pushed the Check button below the iframe fold in
+     "how-many" tasks. */
+  grid-template-columns: repeat(6, var(--lcs-tap));
   gap: 6px;
 }
 .lcs-activity-key {

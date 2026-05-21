@@ -110,37 +110,39 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
     `&embed=1`;
 
   return (
-    <main className="min-h-screen bg-cream-100 py-3 px-3 md:py-5 md:px-6 overflow-hidden">
+    <main className="bg-cream-100 py-2 px-3 md:py-3 md:px-6">
       <article className="mx-auto max-w-5xl">
-        {/* SEO chrome — H1 + intro + standard chip. Compact so the iframe
-            below fits within the viewport without scroll. */}
-        <header className="mb-3 md:mb-4 text-center">
-          <h1 className="font-display font-bold text-xl md:text-2xl text-teal-800 leading-tight mb-1.5">
+        {/* SEO chrome — H1 + intro + standard chip. Very compact so the
+            iframe below fits above-the-fold inside the site's global nav
+            + footer chrome on viewports down to ~720px tall. */}
+        <header className="mb-2 md:mb-3 text-center">
+          <h1 className="font-display font-bold text-lg md:text-xl text-teal-800 leading-tight mb-1">
             {row.page_title[params.locale]}
           </h1>
-          <p className="text-xs md:text-sm text-stone-700 max-w-3xl mx-auto leading-snug mb-2">
+          <p className="hidden md:block text-xs md:text-sm text-stone-700 max-w-3xl mx-auto leading-snug mb-1.5">
             {row.page_intro[params.locale]}
           </p>
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-50 text-teal-800 text-xs font-semibold">
             <span>Grade {row.alignment.grade}</span>
             <span className="text-teal-400">·</span>
-            <span>{row.alignment.strand}</span>
-            <span className="text-teal-400">·</span>
+            <span className="hidden sm:inline">{row.alignment.strand}</span>
+            <span className="hidden sm:inline text-teal-400">·</span>
             <span className="font-mono">{row.alignment.code}</span>
           </div>
         </header>
 
-        {/* Activity tool — embedded iframe. Height adapts to viewport so the
-            whole activity fits without page scroll on standard laptop and
-            tablet viewports. Cream-bg matches the tool's inner bg so any
-            tiny mismatch in height appears seamless. */}
+        {/* Activity tool — embedded iframe. Height accounts for the site's
+            global nav (~80px) + this page's header (~80-100px) so the
+            whole iframe sits above-the-fold on standard viewports.
+            Cream backgroundColor matches the tool's inner bg so any minor
+            height mismatch looks seamless. */}
         <div
           className="rounded-3xl overflow-hidden shadow-xl"
           style={{
             backgroundColor: '#FBF3E4',
             width: '100%',
-            height: 'min(calc(100vh - 180px), 580px)',
-            minHeight: '420px',
+            height: 'min(calc(100vh - 220px), 560px)',
+            minHeight: '380px',
           }}
         >
           <iframe

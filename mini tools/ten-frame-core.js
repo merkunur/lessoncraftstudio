@@ -170,6 +170,12 @@ window.TenFrameCore = {
     + '.tf-cell:hover{background:var(--lcs-surface-2);}'
     + '.tf-cell:active{transform:scale(.94);}'
     + '.tf-cell svg{animation:tf-pop .18s var(--lcs-ease);}'
+    /* image tokens (color-theme activities) scale to the cell via CSS,
+       regardless of their width/height HTML attributes. Prevents overflow
+       when the cell clamp shrinks to 36px but the token was requested
+       at 56px. */
+    + '.tf-cell img{max-width:78%;max-height:78%;width:auto;height:auto;'
+    +   'animation:tf-pop .18s var(--lcs-ease);}'
     + '@keyframes tf-pop{from{transform:scale(.2);opacity:0;}to{transform:scale(1);opacity:1;}}'
     + '.tf-readout{display:inline-flex;align-items:center;gap:14px;background:var(--lcs-surface);'
     +   'padding:8px 22px;border-radius:var(--lcs-radius-pill);box-shadow:var(--lcs-shadow-sm);}'

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "cvc-builder.build-cvc-word.rf-k-3",
+    "tool": "cvc-builder-activity",
+    "task_template": "build-cvc-word",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.3",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "words": [
+        { "noun": "cat", "themeDir": "animals",  "targetWord": "cat", "distractors": ["d", "r", "o", "s"] },
+        { "noun": "dog", "themeDir": "animals",  "targetWord": "dog", "distractors": ["c", "u", "a", "n"] },
+        { "noun": "pig", "themeDir": "animals",  "targetWord": "pig", "distractors": ["b", "e", "t", "r"] },
+        { "noun": "sun", "themeDir": "weather",  "targetWord": "sun", "distractors": ["c", "i", "a", "m"] },
+        { "noun": "bus", "themeDir": "vehicles", "targetWord": "bus", "distractors": ["p", "a", "o", "t"] },
+        { "noun": "hat", "themeDir": "clothing", "targetWord": "hat", "distractors": ["m", "e", "p", "n"] }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "build-the-cvc-word"
+    },
+    "page_title": {
+      "en": "Build the CVC Word — Kindergarten Phonics"
+    },
+    "page_intro": {
+      "en": "Look at each picture and build the three-letter word by tapping the right letters. Aligned to Common Core RF.K.3 — apply phonics and word analysis skills to decode common CVC (consonant-vowel-consonant) words."
+    },
+    "kid_prompt_template": "promptBuildCvc"
+  }
+]

@@ -27,13 +27,16 @@ export interface ActivityAlignment {
 export interface ActivityRow {
   id: string;
   tool: string;
-  task_template: 'make-n' | 'how-many';
+  /* Engine-specific task template key. Widened from a strict literal union
+     because per-engine manifests own their own template keys (choice-board
+     ships shape-id/count-sides/pick-bigger/which-more/even-odd/flat-solid/
+     pick-smaller/how-many-group; cvc-builder ships build-cvc-word). Each
+     engine's orchestrator switches on this string at runtime. */
+  task_template: string;
   alignment: ActivityAlignment;
-  params: {
-    targets: number[];
-    range: { min: number; max: number };
-    frames?: number;
-  };
+  /* Per-engine task params bag — opaque to the route. Each engine's
+     orchestrator reads its own param shape. */
+  params: Record<string, unknown>;
   theme: string | null;
   slug: Record<string, string>;
   page_title: Record<string, string>;
@@ -44,6 +47,7 @@ export interface ActivityRow {
 const MANIFEST_FILES = [
   'ten-frame-activities.json',
   'choice-board-activities.json',
+  'cvc-builder-activities.json',
   // future: 'number-line-activities.json', 'ruler-activities.json', …
 ];
 

@@ -108,6 +108,172 @@
     };
   }());
 
+  /* ---- LCSAudio: file-first / TTS-fallback voice playback ----------
+     Operator will record human voiceover in all 11 languages to replace
+     Web Speech API TTS. With ZERO audio files present (current state),
+     every speak() falls through to SpeechSynthesis — behavior identical
+     to the legacy path. Once /audio/inventory.json + the per-unit .mp3
+     files exist on the CDN, the file path wins.
+
+     Single chokepoint: every engine's audio call routes through here.
+     Locale-mapping, slugification, fallback all consolidated here. */
+  var LCSAudio = (function () {
+    /* ASCII-fold map matching scripts/publish-cli/slug.js §17.8.5 so
+       audio filenames live in the same slug-space as deck URLs. */
+    var FOLD = {
+      'ä':'a','ö':'o','ü':'u','ß':'ss','å':'a','æ':'ae','ø':'o',
+      'ñ':'n','ç':'c',
+      'à':'a','á':'a','â':'a','ã':'a',
+      'è':'e','é':'e','ê':'e','ë':'e',
+      'ì':'i','í':'i','î':'i','ï':'i',
+      'ò':'o','ó':'o','ô':'o','õ':'o',
+      'ù':'u','ú':'u','û':'u',
+      'ý':'y','ÿ':'y',
+      'ł':'l','ð':'d','þ':'th'
+    };
+    function slugify(value) {
+      var str = String(value == null ? '' : value).toLowerCase();
+      /* NFD decomposes most combining marks; strip them. */
+      try { str = str.normalize('NFD').replace(/[̀-ͯ]/g, ''); }
+      catch (_) {}
+      var out = '';
+      for (var i = 0; i < str.length; i++) {
+        var c = str.charAt(i);
+        out += (Object.prototype.hasOwnProperty.call(FOLD, c) ? FOLD[c] : c);
+      }
+      return out
+        .replace(/[^a-z0-9-]+/g, '-')
+        .replace(/-{2,}/g, '-')
+        .replace(/^-+|-+$/g, '');
+    }
+
+    /* Locale → BCP-47 voice hint for SpeechSynthesisUtterance. Single
+       source of truth — promoted from word-builder-core.js so all four
+       engines share the same mapping. */
+    function ttsLang(lang) {
+      var l = String(lang || 'en').toLowerCase();
+      if (l.indexOf('-') !== -1) return l;
+      switch (l) {
+        case 'es': return 'es-ES';
+        case 'en': return 'en-US';
+        case 'de': return 'de-DE';
+        case 'fr': return 'fr-FR';
+        case 'it': return 'it-IT';
+        case 'pt': return 'pt-BR';
+        case 'nl': return 'nl-NL';
+        case 'sv': return 'sv-SE';
+        case 'da': return 'da-DK';
+        case 'no': return 'nb-NO';
+        case 'fi': return 'fi-FI';
+        default:   return 'en-US';
+      }
+    }
+
+    var TYPES = { word:1, syllable:1, ui:1, number:1 };
+
+    /* Inventory cache. Loaded lazily on first speak() call. On 404 (no
+       recordings uploaded yet) we cache an empty object and stop trying
+       so every subsequent call short-circuits straight to TTS. */
+    var inventory = null;        /* null = not loaded; {} = loaded empty */
+    var inventoryLoading = null; /* in-flight Promise */
+    function loadInventory() {
+      if (inventory !== null) return Promise.resolve(inventory);
+      if (inventoryLoading) return inventoryLoading;
+      inventoryLoading = fetch('/audio/inventory.json', { cache: 'no-cache' })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (j) { inventory = (j && j.audio) || {}; return inventory; })
+        .catch(function () { inventory = {}; return inventory; });
+      return inventoryLoading;
+    }
+
+    function hasRecording(lang, type, slug) {
+      if (!inventory || !inventory[lang] || !inventory[lang][type]) return false;
+      var arr = inventory[lang][type];
+      for (var i = 0; i < arr.length; i++) {
+        if (arr[i] === slug) return true;
+      }
+      return false;
+    }
+
+    /* Current playback handle so a new speak() cancels prior one — same
+       semantics as speechSynthesis.cancel() callers expect. */
+    var currentAudio = null;
+    function cancel() {
+      if (currentAudio) {
+        try { currentAudio.pause(); currentAudio.src = ''; } catch (_) {}
+        currentAudio = null;
+      }
+      if (global.speechSynthesis) {
+        try { global.speechSynthesis.cancel(); } catch (_) {}
+      }
+    }
+
+    function ttsFallback(text, lang, rate) {
+      if (!global.speechSynthesis) return;
+      try {
+        var u = new global.SpeechSynthesisUtterance(String(text));
+        u.lang = ttsLang(lang);
+        if (typeof rate === 'number') u.rate = rate;
+        global.speechSynthesis.speak(u);
+      } catch (_) { /* swallow — pre-LCSAudio code also swallowed */ }
+    }
+
+    /* Public speak() — every engine calls this. With no inventory the
+       fallback is byte-identical to the pre-abstraction direct call. */
+    function speak(opts) {
+      opts = opts || {};
+      var type = opts.type;
+      var text = opts.text;
+      var lang = String(opts.lang || 'en').toLowerCase().split('-')[0];
+      var rate = (typeof opts.rate === 'number') ? opts.rate : 1.0;
+      if (!type || !TYPES[type]) return;
+      if (text == null || text === '') return;
+
+      cancel();
+      var slug = slugify(text);
+      if (!slug) { ttsFallback(text, lang, rate); return; }
+
+      loadInventory().then(function () {
+        if (hasRecording(lang, type, slug)) {
+          var url = '/audio/' + lang + '/' + type + '/' + slug + '.mp3';
+          try {
+            var a = new global.Audio(url);
+            currentAudio = a;
+            /* On any playback failure (404, decode error, autoplay block)
+               we still fall back to TTS so the kid hears something. */
+            a.onerror = function () {
+              if (currentAudio === a) currentAudio = null;
+              ttsFallback(text, lang, rate);
+            };
+            a.onended = function () {
+              if (currentAudio === a) currentAudio = null;
+            };
+            var p = a.play();
+            if (p && typeof p.catch === 'function') {
+              p.catch(function () {
+                if (currentAudio === a) currentAudio = null;
+                ttsFallback(text, lang, rate);
+              });
+            }
+          } catch (_) {
+            ttsFallback(text, lang, rate);
+          }
+        } else {
+          ttsFallback(text, lang, rate);
+        }
+      });
+    }
+
+    return {
+      speak: speak,
+      cancel: cancel,
+      /* exposed for tests + the build-inventory script. */
+      _slugify: slugify,
+      _ttsLang: ttsLang,
+      _loadInventory: loadInventory
+    };
+  }());
+
   /* ---- Inline icon set (code-drawn, no asset files) ----------------
      One icon set, defined once, reused by every tool's chrome. Feather-
      style 24x24 strokes. Replace with your own glyph set later if wanted.*/
@@ -434,16 +600,9 @@
       speakBtn.setAttribute('aria-label', i18n.chrome('readAloud'));
       speakBtn.title = i18n.chrome('readAloud');
       speakBtn.addEventListener('click', function () {
-        if (!global.speechSynthesis) return;
         var t = promptText.textContent;
         if (!t) return;
-        try {
-          global.speechSynthesis.cancel();
-          var u = new global.SpeechSynthesisUtterance(t);
-          u.lang = i18n.current === 'pt' ? 'pt-BR' : i18n.current;
-          u.rate = 0.9;
-          global.speechSynthesis.speak(u);
-        } catch (_) {}
+        LCSAudio.speak({ type: 'ui', text: t, lang: i18n.current, rate: 0.9 });
       });
       promptRow.append(promptText, speakBtn);
       var promptHint = el('div', 'lcs-activity-prompt-hint');
@@ -729,7 +888,9 @@
     drag: { linear: dragLinear },                              // shared slider/drag primitive
     i18n: i18n,
     track: track,
-    LOCALES: LOCALES
+    LOCALES: LOCALES,
+    Audio: LCSAudio                                            // file-first/TTS-fallback voice playback (also at window.LCSAudio)
   };
+  global.LCSAudio = LCSAudio;
 
 }(typeof window !== 'undefined' ? window : this));

@@ -213,10 +213,11 @@ export default function middleware(request: NextRequest) {
     return resp;
   }
 
-  // Skip middleware for static HTML files, worksheet-generator paths, and mini-tools paths
+  // Skip middleware for static HTML files, worksheet-generator paths, mini-tools paths, and audio assets
   if (pathname.endsWith('.html') ||
       pathname.includes('/worksheet-generators/') ||
-      pathname.includes('/mini-tools/')) {
+      pathname.includes('/mini-tools/') ||
+      pathname.includes('/audio/')) {
     const resp = NextResponse.next({ request: { headers: requestHeaders } });
     resp.headers.set('Content-Language', detectedLocale);
     return resp;

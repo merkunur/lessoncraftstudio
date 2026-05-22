@@ -195,16 +195,15 @@ window.CvcBuilderCore = {
         hearBtn.setAttribute('aria-label', 'Hear the word');
         hearBtn.title = 'Hear the word';
         hearBtn.addEventListener('click', function () {
-          if (!window.speechSynthesis) return;
-          try {
-            window.speechSynthesis.cancel();
-            var u = new window.SpeechSynthesisUtterance(hearWord);
-            /* English-only TTS for v1 proof. Per-locale phonics
-               commissions will pass a `subject.hearItLang` per task. */
-            u.lang = self.subject.hearItLang || 'en-US';
-            u.rate = 0.75;  /* slower for early-reader phonics */
-            window.speechSynthesis.speak(u);
-          } catch (e) { /* ignore */ }
+          /* English-only for v1 proof. Per-locale phonics commissions
+             pass `subject.hearItLang` per task; LCSAudio normalizes the
+             base locale before file lookup / TTS fallback. */
+          window.LCSAudio.speak({
+            type: 'word',
+            text: hearWord,
+            lang: self.subject.hearItLang || 'en',
+            rate: 0.75
+          });
         });
         subjectEl.appendChild(hearBtn);
       }

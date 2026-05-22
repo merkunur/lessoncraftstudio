@@ -36,26 +36,33 @@
       min-height: 100% !important;
     }
 
-    /* v5: card WIDTH is secondary and fluid — mobile fills viewport,
-       desktop caps to 62vw with 720px floor (matches IXL's measured 62%
-       content-area). Overrides lcs-shell.css line 72 (max-width: 720px). */
+    /* v5: card WIDTH — mobile fills viewport, desktop caps to 68vw
+       with 720px floor. (68vw not 62vw because vw inside the iframe
+       evaluates against IFRAME width, which = parent.viewport minus
+       page+play-area padding ~128px. 68vw of (1920-128)=1792 = 1218px
+       = 63.4% of parent viewport — squarely in operator's 60-65% range.) */
     .lcs-app { max-width: 95vw !important; }
     @media (min-width: 768px) {
-      .lcs-app { max-width: max(720px, 62vw) !important; }
+      .lcs-app { max-width: max(720px, 68vw) !important; }
     }
 
-    /* v5: contents scale with VIEWPORT HEIGHT (same vh unit as the card
-       height target) so they grow proportionally with the bigger card.
-       Cells / prompt / COUNT readout all use vh. Check button min-width
-       stays vw because button readability is about horizontal reach. */
-    .tf-double .tf-cell { width: clamp(36px, 7vh, 110px) !important; }
-    .lcs-activity-prompt { font-size: clamp(20px, 4vh, 48px) !important; }
+    /* v5: contents scale with VIEWPORT HEIGHT (vh inside iframe =
+       iframe height = 2/3 of parent viewport). Multipliers compensate
+       so contents hit reasonable floors on smaller viewports:
+         - 9vh cells: at iframe vh 720 (parent 1080) = 65px; at iframe
+           vh 533 (parent 800) = 48px (floor matches).
+         - 6vh prompt: at parent 1080 → iframe 720 → 6vh = 43px; at
+           parent 800 → iframe 533 → 6vh = 32px.
+         - Check min-height clamp(56,7vh,80): at parent 800 → 7vh of
+           533 = 37 → clamped 56 floor. */
+    .tf-double .tf-cell { width: clamp(48px, 9vh, 110px) !important; }
+    .lcs-activity-prompt { font-size: clamp(22px, 6vh, 48px) !important; }
     .lcs-activity-check, .lcs-activity-next {
-      min-height: clamp(48px, 6vh, 76px) !important;
-      min-width: clamp(120px, 18vw, 280px) !important;
-      font-size: clamp(16px, 2vh, 26px) !important;
+      min-height: clamp(56px, 7vh, 80px) !important;
+      min-width: clamp(140px, 18vw, 280px) !important;
+      font-size: clamp(18px, 2.4vh, 26px) !important;
     }
-    .tf-readout-num { font-size: clamp(24px, 4.5vh, 56px) !important; }
+    .tf-readout-num { font-size: clamp(28px, 6vh, 56px) !important; }
 
     /* v1: gentle bounce on the success prompt. Lands at scale(1.04) so
        the resting state matches every other activity's existing 4%-scale

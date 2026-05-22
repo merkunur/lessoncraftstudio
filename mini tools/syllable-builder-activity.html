@@ -4,7 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Constructor de sílabas — Actividad — LessonCraft Studio</title>
-  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=2">
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=3">
+  <!-- v7 cascade: see ten-frame-activity.html for the full rationale.
+       Activity-page parent forces iframe to 66.67vh + renders sage field;
+       these rules transparent-body + cascade height: 100% to .lcs-app. -->
+  <style>
+    html, body { background: transparent !important; }
+    html, body, #lcs-root { height: 100% !important; }
+  </style>
 </head>
 <body>
   <!-- The shell mounts the whole tool into this element. -->

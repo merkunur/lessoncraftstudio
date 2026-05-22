@@ -4,7 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Choice Board — Activity — LessonCraft Studio</title>
-  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=2">
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=3">
+  <!-- v7 cascade: activity-page parent forces iframe height to 66.67vh
+       and renders a sage field around the iframe. These per-wrapper
+       rules make the iframe body transparent (so the field shows through)
+       and cascade height: 100% down to .lcs-app so the card fills the
+       iframe. Shared activity-card sizing/padding/header rules live in
+       lcs-shell.css scoped to .lcs-app.activity. -->
+  <style>
+    html, body { background: transparent !important; }
+    html, body, #lcs-root { height: 100% !important; }
+  </style>
 </head>
 <body>
   <!-- The shell mounts the whole tool into this element. -->

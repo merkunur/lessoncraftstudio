@@ -154,113 +154,15 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   const sectionLabel =
     ACTIVITIES_SECTION_LABEL[params.locale] ?? ACTIVITIES_SECTION_LABEL.en;
 
-  // Prototype gate — single live activity for operator review of the
-  // warm-but-restrained redesign (dead-space fix + figure-ground play-area
-  // + tightened adult chrome). Locale-agnostic alignment.code is the
-  // stable signal. When approved, the cascade commission lifts this branch
-  // into a shared component for E2/E7/E8.
-  const isTenFramePrototype = row.alignment.code === 'K.NBT.A.1';
-
-  if (isTenFramePrototype) {
-    // v2 prototype — visible overhaul per operator's failure-mode review of
-    // the first attempt. SOLID warm-sage field (#DBE7DF — ~12% teal blended
-    // into cream, not aqua) over a cream-50 page; cream wave at the field's
-    // base; card lifts off the field with a dual-shadow + the inner card
-    // bg comes from lcs-shell.css (#FBF6EE). Three unambiguous layers:
-    // cream-50 page → sage field → cream card. Coral stays RESERVED for
-    // accent/celebrate; it does not tint the field.
-    return (
-      <main className="bg-cream-50 pt-4 pb-4 px-4 md:pt-6 md:pb-6 md:px-8 lg:pt-8">
-        <article className="mx-auto">
-          <BreadcrumbTrail
-            locale={params.locale}
-            trail={[
-              { href: `/${params.locale}/activities/`, label: sectionLabel },
-              { label: row.page_title[params.locale] },
-            ]}
-          />
-          <section
-            className="lcs-prototype-play-area relative overflow-hidden mt-3 md:mt-4 rounded-2xl md:rounded-3xl bg-[#DBE7DF] px-4 pt-5 pb-12 md:px-8 md:pt-7 md:pb-16 shadow-[0_2px_8px_rgba(20,30,28,0.08),_0_28px_64px_rgba(20,30,28,0.12)]"
-            aria-label={row.page_title[params.locale]}
-          >
-            {/* Adult chrome — tightened, sits ON the sage field. Header
-                feels integrated with the play area rather than stacked
-                above it. */}
-            <header className="relative z-10 mb-4 md:mb-5 text-center">
-              <h1 className="font-display font-semibold text-base md:text-lg text-teal-800 leading-tight mb-0.5">
-                {row.page_title[params.locale]}
-              </h1>
-              <p className="hidden lg:block text-xs text-ink-600/70 max-w-2xl mx-auto leading-snug mb-2">
-                {row.page_intro[params.locale]}
-              </p>
-              <div className="inline-flex items-center gap-2 px-3 py-0.5 rounded-full bg-cream-100/80 text-teal-800 text-xs font-medium backdrop-blur-sm">
-                <span>{localizedGrade}</span>
-                <span className="text-teal-800/40">·</span>
-                <span className="hidden sm:inline">{row.alignment.strand}</span>
-                <span className="hidden sm:inline text-teal-800/40">·</span>
-                <span className="font-mono">{row.alignment.code}</span>
-              </div>
-            </header>
-
-            {/* Iframe wrapper: PARENT-side iframe height = 66.67vh of the
-                page viewport (operator-locked: card covers 2/3 of screen
-                vertically on every device). Inline <style> with
-                !important wins over ActivityIframe's inline
-                `style="height: <postMessage>px"`. Inside the iframe,
-                ten-frame-activity.html's inline <style> makes .lcs-app
-                fill the iframe height (height: 100%), so the card ends
-                up at 66.67vh of the parent viewport. Tailwind arbitrary
-                descendant selectors (tried `[&_iframe]:!h-[66.67vh]`)
-                ship the class but don't generate the CSS rule with the
-                bracket+! combination — using a plain <style> block is
-                the reliable way to ship this override gated to the
-                prototype. */}
-            <style dangerouslySetInnerHTML={{ __html:
-              '.lcs-prototype-iframe-wrapper iframe { height: 66.67vh !important; min-height: 66.67vh !important; }'
-            }} />
-            <div className="lcs-prototype-iframe-wrapper relative z-10">
-              <ActivityIframe src={iframeSrc} title={row.page_title[params.locale]} />
-            </div>
-
-            {/* Soft cream wave at the base of the field — gentle "foam"
-                that gives the field life without becoming a graphic.
-                Absolutely positioned over the field's bottom padding;
-                pointer-events:none so it never blocks the iframe. */}
-            <svg
-              aria-hidden="true"
-              viewBox="0 0 1200 80"
-              preserveAspectRatio="none"
-              className="absolute bottom-0 left-0 right-0 w-full h-[60px] md:h-[72px] pointer-events-none"
-            >
-              <path
-                d="M0,50 C200,15 380,75 600,40 C820,5 1000,70 1200,35 L1200,80 L0,80 Z"
-                fill="#FCFAF4"
-                opacity="0.62"
-              />
-              <path
-                d="M0,60 C220,30 420,80 640,52 C860,24 1040,76 1200,50 L1200,80 L0,80 Z"
-                fill="#FCFAF4"
-                opacity="0.45"
-              />
-            </svg>
-          </section>
-
-          <Script
-            type="application/ld+json"
-            id={`activity-jsonld-${row.id}`}
-            strategy="afterInteractive"
-            dangerouslySetInnerHTML={{ __html: jsonLdFor(row, params.locale) }}
-          />
-        </article>
-      </main>
-    );
-  }
-
-  // Non-prototype path — preserved byte-identical for all other activities
-  // until the cascade commission approves rolling the prototype across them.
+  // v7 cascade (post-K.NBT.A.1 prototype approval): all activities render
+  // the operator-locked sage-field layout. The v6.x prototype gate
+  // (`isTenFramePrototype` check on alignment.code) was removed once the
+  // design was approved. Card height = 2/3 of viewport via the inline
+  // <style> below + the iframe-side rules now in lcs-shell.css scoped to
+  // .lcs-app.activity. Engine-specific cell/tile scaling stays per-wrapper.
   return (
-    <main className="bg-cream-100 py-2 px-3 md:py-3 md:px-6">
-      <article className="mx-auto max-w-5xl">
+    <main className="bg-cream-50 pt-4 pb-4 px-4 md:pt-6 md:pb-6 md:px-8 lg:pt-8">
+      <article className="mx-auto">
         <BreadcrumbTrail
           locale={params.locale}
           trail={[
@@ -268,36 +170,66 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
             { label: row.page_title[params.locale] },
           ]}
         />
-        {/* SEO chrome — H1 + intro + standard chip. Very compact so the
-            iframe below fits above-the-fold inside the site's global nav
-            + footer chrome on viewports down to ~720px tall. */}
-        <header className="mb-2 md:mb-3 text-center">
-          <h1 className="font-display font-bold text-lg md:text-xl text-teal-800 leading-tight mb-1">
-            {row.page_title[params.locale]}
-          </h1>
-          <p className="hidden lg:block text-xs lg:text-sm text-stone-700 max-w-3xl mx-auto leading-snug mb-1.5">
-            {row.page_intro[params.locale]}
-          </p>
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-50 text-teal-800 text-xs font-semibold">
-            <span>{localizedGrade}</span>
-            <span className="text-teal-400">·</span>
-            <span className="hidden sm:inline">{row.alignment.strand}</span>
-            <span className="hidden sm:inline text-teal-400">·</span>
-            <span className="font-mono">{row.alignment.code}</span>
+        <section
+          className="lcs-prototype-play-area relative overflow-hidden mt-3 md:mt-4 rounded-2xl md:rounded-3xl bg-[#DBE7DF] px-4 pt-5 pb-12 md:px-8 md:pt-7 md:pb-16 shadow-[0_2px_8px_rgba(20,30,28,0.08),_0_28px_64px_rgba(20,30,28,0.12)]"
+          aria-label={row.page_title[params.locale]}
+        >
+          {/* Adult chrome — tightened, sits ON the sage field. Header
+              feels integrated with the play area rather than stacked
+              above it. */}
+          <header className="relative z-10 mb-4 md:mb-5 text-center">
+            <h1 className="font-display font-semibold text-base md:text-lg text-teal-800 leading-tight mb-0.5">
+              {row.page_title[params.locale]}
+            </h1>
+            <p className="hidden lg:block text-xs text-ink-600/70 max-w-2xl mx-auto leading-snug mb-2">
+              {row.page_intro[params.locale]}
+            </p>
+            <div className="inline-flex items-center gap-2 px-3 py-0.5 rounded-full bg-cream-100/80 text-teal-800 text-xs font-medium backdrop-blur-sm">
+              <span>{localizedGrade}</span>
+              <span className="text-teal-800/40">·</span>
+              <span className="hidden sm:inline">{row.alignment.strand}</span>
+              <span className="hidden sm:inline text-teal-800/40">·</span>
+              <span className="font-mono">{row.alignment.code}</span>
+            </div>
+          </header>
+
+          {/* Iframe wrapper: PARENT-side iframe height = 66.67vh of the
+              page viewport (operator-locked: card covers 2/3 of screen
+              vertically on every device). Inline <style> with !important
+              wins over ActivityIframe's inline `style="height: <postMessage>px"`.
+              Inside the iframe, lcs-shell.css's v7 rules make .lcs-app.activity
+              fill the iframe height (height: 100%), so the card ends up at
+              66.67vh of the parent viewport. */}
+          <style dangerouslySetInnerHTML={{ __html:
+            '.lcs-prototype-iframe-wrapper iframe { height: 66.67vh !important; min-height: 66.67vh !important; }'
+          }} />
+          <div className="lcs-prototype-iframe-wrapper relative z-10">
+            <ActivityIframe src={iframeSrc} title={row.page_title[params.locale]} />
           </div>
-        </header>
 
-        {/* Activity tool — embedded iframe wrapped in a client component
-            that listens for the shell's `lcs-activity-resize` postMessage
-            and adjusts iframe height to fit content. Closes the
-            "tall card, short content" gap that appeared when a short
-            activity (choice-board) shared chrome sized for a tall one
-            (ten-frame). Cream backgroundColor matches the tool's inner
-            bg so any minor height mismatch looks seamless. */}
-        <ActivityIframe src={iframeSrc} title={row.page_title[params.locale]} />
+          {/* Soft cream wave at the base of the field — gentle "foam"
+              that gives the field life without becoming a graphic.
+              Absolutely positioned over the field's bottom padding;
+              pointer-events:none so it never blocks the iframe. */}
+          <svg
+            aria-hidden="true"
+            viewBox="0 0 1200 80"
+            preserveAspectRatio="none"
+            className="absolute bottom-0 left-0 right-0 w-full h-[60px] md:h-[72px] pointer-events-none"
+          >
+            <path
+              d="M0,50 C200,15 380,75 600,40 C820,5 1000,70 1200,35 L1200,80 L0,80 Z"
+              fill="#FCFAF4"
+              opacity="0.62"
+            />
+            <path
+              d="M0,60 C220,30 420,80 640,52 C860,24 1040,76 1200,50 L1200,80 L0,80 Z"
+              fill="#FCFAF4"
+              opacity="0.45"
+            />
+          </svg>
+        </section>
 
-        {/* JSON-LD structured data for SEO — educationalAlignment carries the
-            CC code so teacher searches like "K.CC.B.4 activity" can find this. */}
         <Script
           type="application/ld+json"
           id={`activity-jsonld-${row.id}`}

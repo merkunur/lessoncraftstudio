@@ -481,3 +481,83 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
 @media (max-width: 480px) {
   .lcs-header { flex-wrap: wrap; }
 }
+
+/* =====================================================================
+   v7 ACTIVITY CARD — shared across all activity engines (E1/E2/E7/E8).
+   Scoped to .lcs-app.activity so manipulatives (no .activity class)
+   keep their default centered-720px shell behaviour. Lifted from the
+   v6.5 ten-frame prototype after operator approval to cascade across
+   all activities. Per-wrapper transparent-body + engine-specific cell
+   scaling stay in each activity wrapper's inline <style>.
+   ===================================================================== */
+
+/* Card width — mobile fills viewport, desktop caps to 60vw (matches
+   IXL's measured 62% content-area; 720px floor preserves the shell
+   baseline on small laptops). */
+.lcs-app { max-width: 95vw; }
+@media (min-width: 768px) {
+  .lcs-app { max-width: max(720px, 60vw); }
+}
+
+/* Activity card sizing + 10% padding rule. Card height = 100% of
+   iframe (parent forces iframe to 66.67vh from the activity-page side).
+   Padding: 10vh top/bottom = 10% of card height; 9.5vw mobile /
+   6vw desktop horizontal = 10% of card width. overflow: hidden clips
+   the settings drawer's translateX(100%) slide-out so close works. */
+.lcs-app.activity {
+  min-height: 66.67vh;
+  height: 100%;
+  padding-block: 10vh;
+  padding-inline: 9.5vw;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  .lcs-app.activity { padding-inline: 6vw; }
+}
+
+/* Zero out the stage's own padding so the card-level 10% padding is
+   the only padding on horizontal axis (prevents double-padding causing
+   stage overflow at narrow viewports). */
+.lcs-app.activity .lcs-stage { padding: 0; }
+
+/* Generic activity-chrome scaling — applies to all activities. The
+   prompt, Check/Next buttons scale with viewport height so they fill
+   the bigger card proportionally. */
+.lcs-app.activity .lcs-activity-prompt { font-size: clamp(22px, 6vh, 48px); }
+.lcs-app.activity .lcs-activity-check,
+.lcs-app.activity .lcs-activity-next {
+  min-height: clamp(56px, 7vh, 80px);
+  min-width: clamp(140px, 18vw, 280px);
+  font-size: clamp(18px, 2.4vh, 26px);
+}
+
+/* Mobile header stack — at narrow widths the 4 control buttons +
+   activity title can't fit on one row; stack vertically with title
+   above + controls right-aligned. */
+@media (max-width: 600px) {
+  .lcs-app.activity .lcs-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 6px;
+  }
+  .lcs-app.activity .lcs-controls {
+    align-self: flex-end;
+  }
+}
+
+/* Gentle celebrate-bounce on the success prompt. Lands at scale(1.04)
+   which matches the resting state of the shell's existing celebrate
+   class; the keyframe is purely additive entry motion. */
+@keyframes lcs-celebrate-bounce {
+  0%   { transform: scale(1); }
+  30%  { transform: scale(1.08); }
+  60%  { transform: scale(0.97); }
+  100% { transform: scale(1.04); }
+}
+.lcs-app.activity .lcs-activity-prompt.celebrate {
+  animation: lcs-celebrate-bounce 360ms var(--lcs-ease) 1;
+}
+@media (prefers-reduced-motion: reduce) {
+  .lcs-app.activity .lcs-activity-prompt.celebrate { animation: none; }
+}

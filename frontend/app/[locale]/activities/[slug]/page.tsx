@@ -202,13 +202,16 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
               </div>
             </header>
 
-            {/* Iframe wrapper: iframe spans the full play-area width so the
-                sage field reads as the wide page-scale surface. The card
-                inside is capped at 720px (lcs-shell.css .lcs-app) and
-                self-centers; the iframe body is set to transparent inside
-                ten-frame-activity.html (scoped inline <style>), so the sage
-                shows through everywhere the card itself doesn't cover. */}
-            <div className="relative z-10">
+            {/* Iframe wrapper: PARENT-side iframe height = 66.67vh of the
+                page viewport (operator-locked: card covers 2/3 of screen
+                vertically on every device). Tailwind arbitrary descendant
+                selector with !important wins over ActivityIframe's
+                inline `style="height: <postMessage>px"`. Inside the
+                iframe, ten-frame-activity.html's inline <style> makes
+                .lcs-app fill the iframe height (height: 100%), so the
+                card ends up at 66.67vh of the parent viewport — exactly
+                the operator's target. */}
+            <div className="relative z-10 [&_iframe]:!h-[66.67vh]">
               <ActivityIframe src={iframeSrc} title={row.page_title[params.locale]} />
             </div>
 

@@ -88,6 +88,27 @@
     }
     .tf-readout-num { font-size: clamp(28px, 6vh, 56px) !important; }
 
+    /* v6.3: stack the card header vertically on narrow viewports so the
+       "Ten Frame Activity" title doesn't overlap the 4 control buttons
+       (settings / sound / fullscreen / reset). Root cause: lcs-shell.css
+       has .lcs-header flex-direction:row + .lcs-titles flex:1 +
+       .lcs-controls flex-shrink:0; at 375px viewport the 4 buttons
+       (44px each) take ~200px, leaving only ~27px for the title, which
+       forces overlap. The shell already has @media (max-width:480px)
+       { .lcs-header { flex-wrap:wrap } } but flex-wrap alone doesn't
+       prevent the overlap state. flex-direction:column forces the
+       title onto its own line above the controls. */
+    @media (max-width: 600px) {
+      .lcs-header {
+        flex-direction: column !important;
+        align-items: stretch !important;
+        gap: 6px !important;
+      }
+      .lcs-controls {
+        align-self: flex-end !important;
+      }
+    }
+
     /* v1: gentle bounce on the success prompt. Lands at scale(1.04) so
        the resting state matches every other activity's existing 4%-scale
        celebrate; the keyframe is purely additive entry motion. */

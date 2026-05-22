@@ -83,5 +83,34 @@
     "page_title": { "pt": "Forme as sílabas — Fonética na educação infantil" },
     "page_intro": { "pt": "Olhe a imagem e forme a palavra colocando as sílabas em ordem. Alinhado com Common Core RF.K.2.B — contar, pronunciar, mesclar e segmentar sílabas em palavras faladas." },
     "kid_prompt_template": "promptBuildSyllables"
+  },
+  {
+    "id": "syllable-builder.forme-le-mot-en-syllabes.rf-k-2-b",
+    "tool": "syllable-builder-activity",
+    "task_template": "build-syllables-word",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.2.B",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "language": "fr-FR",
+      "words": [
+        { "noun": "turtle",   "themeDir": "animals",   "targetWord": "tortue",  "syllables": ["tor","tue"],         "label": "tortue" },
+        { "noun": "airplane", "themeDir": "vehicles",  "targetWord": "avion",   "syllables": ["a","vion"],          "label": "avion" },
+        { "noun": "rabbit",   "themeDir": "animals",   "targetWord": "lapin",   "syllables": ["la","pin"],          "label": "lapin" },
+        { "noun": "moon",     "themeDir": "space",     "targetWord": "lune",    "syllables": ["lu","ne"],           "label": "lune" },
+        { "noun": "balloon",  "themeDir": "toys",      "targetWord": "ballon",  "syllables": ["bal","lon"],         "label": "ballon" },
+        { "noun": "table",    "themeDir": "furniture", "targetWord": "table",   "syllables": ["ta","ble"],          "label": "table" },
+        { "noun": "banana",   "themeDir": "fruits",    "targetWord": "banane",  "syllables": ["ba","na","ne"],      "label": "banane" },
+        { "noun": "car",      "themeDir": "vehicles",  "targetWord": "voiture", "syllables": ["voi","tu","re"],     "label": "voiture" }
+      ]
+    },
+    "theme": null,
+    "slug": { "fr": "forme-le-mot-en-syllabes" },
+    "page_title": { "fr": "Forme le mot en syllabes — Phonétique en maternelle" },
+    "page_intro": { "fr": "Regarde l'image et forme le mot en plaçant les syllabes dans l'ordre. Aligné sur Common Core RF.K.2.B — compter, prononcer, mélanger et segmenter les syllabes dans les mots parlés." },
+    "kid_prompt_template": "promptBuildSyllables"
   }
 ]

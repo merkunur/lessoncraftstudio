@@ -685,6 +685,21 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
   .lcs-app.activity .lcs-stage { padding-block: clamp(6px, 1.5vh, 12px); }
   .lcs-app.activity .lcs-activity-answer { padding-top: clamp(6px, 1.5vh, 12px); }
   .lcs-app.activity .lcs-activity-progress { padding-bottom: clamp(4px, 1vh, 8px); }
+
+  /* v7.6 critical fix — prompt font on mobile uses VW not VH.
+     Empirical: v7 universal rule was clamp(22, 6vh, 48). vh inside
+     iframe = iframe-height/100. On mobile, when prompt text is long
+     (e.g., "Tap the letters to spell the word for this picture")
+     AND wraps to multiple lines, card grows → iframe grows via
+     postMessage → vh basis increases → prompt font clamps to 48px
+     ceiling → wraps MORE lines → card even taller → vicious circle.
+     Measured: cvc promptH=416px, wb promptH=637px, card=1070-1228px.
+     vw is viewport-stable (not affected by iframe height growth)
+     so prompt font stays small on mobile and wrapping stays bounded. */
+  .lcs-app.activity .lcs-activity-prompt {
+    font-size: clamp(18px, 4.5vw, 24px) !important;
+    line-height: 1.25;
+  }
 }
 
 /* Prong 4 — center activity title in header. Balances the v7.4 right-

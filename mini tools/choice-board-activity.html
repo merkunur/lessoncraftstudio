@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Choice Board — Activity — LessonCraft Studio</title>
-  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=12">
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=13">
   <!-- v7 cascade: activity-page parent forces iframe height to 66.67vh
        and renders a sage field around the iframe. These per-wrapper
        rules make the iframe body transparent (so the field shows through)
@@ -31,6 +31,10 @@
       .cb-subject--group .cb-group-item { max-width: 48px !important; }
       .cb-wrap { gap: clamp(10px, 2.4vmin, 16px) !important; }
       .cb-tile { max-width: 76px !important; max-height: 76px !important; }
+      /* v7.11: tile-text font fit for 76px tile (was engine clamp(40,11vmin,72)
+         = 40px floor — "Solid" overflowed by 10px). New floor 14, mobile-vmin
+         scale 4.5vmin (17px at 375 vmin) — fits all 2-7 char words. */
+      .cb-tile-text { font-size: clamp(14px, 4.5vmin, 22px) !important; }
     }
 
     /* v7.10 desktop: cb-subject +30% (120→156 floor, 180→234 ceiling).
@@ -47,7 +51,19 @@
       .cb-cols-2 .cb-tile { max-width: 246px !important; max-height: 246px !important; }
       .cb-cols-4 .cb-tile { max-width: 117px !important; max-height: 117px !important; }
       .cb-wrap { gap: clamp(16px, 2.6vmin, 24px) !important; }
+      /* v7.11: tile-text font fit for 117px tile (cb-cols-4) without
+         overflow. Engine default 40-72px; reduced ceiling. */
+      .cb-tile-text { font-size: clamp(22px, 4vmin, 44px) !important; }
     }
+
+    /* v7.11 universal: center cb-tile within its grid column. Default
+       grid item `justify-self: auto` falls back to `start` (left-align)
+       when max-width prevents stretch. My v7.10 max-width cap created
+       this side-effect — tiles sat at LEFT of column instead of center.
+       Operator's 2026-05-22 214735/214752/214812 screenshots showed
+       Even/Odd, Flat/Solid, Which-group-has-more tile pairs left-shifted.
+       Fix: explicit place-self:center centers tile both axes. */
+    .cb-tile { place-self: center !important; }
   </style>
 </head>
 <body>

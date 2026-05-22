@@ -536,7 +536,14 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
 /* Mobile header stack — at narrow widths the 4 control buttons +
    activity title can't fit on one row; stack vertically with title
    above + controls right-aligned. */
-@media (max-width: 600px) {
+/* v7.11: header flex-column-stack extended from ≤600 to ≤1023 so tablet
+   (768) ALSO uses the stack instead of grid. Operator 2026-05-22 215619
+   tablet screenshot showed title "Ten Frame A..." clipped/overlapping
+   with controls because v7.7 grid `minmax(0,1fr) auto minmax(0,1fr)` on
+   486px tablet card-inner shrunk fr-columns to ~120px each, controls
+   203px overflowed LEFT into title (71px overlap measured). With flex-
+   column-stack, title row + controls row stack vertically = no overlap. */
+@media (max-width: 1023px) {
   .lcs-app.activity .lcs-header {
     flex-direction: column;
     align-items: stretch;
@@ -545,6 +552,8 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
   .lcs-app.activity .lcs-controls {
     align-self: center;  /* v7.8 — operator wants controls centered on mobile (was flex-end since v6.3) */
   }
+}
+@media (max-width: 600px) {
   /* v7.10 — mobile keypad centering. Shell's default
      grid-template-columns: repeat(6, var(--lcs-tap)) gives 6×44 + 5×6
      = 294px wide. On iPhone-SE card-inner ~236px the keypad overflowed
@@ -740,7 +749,12 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
    fr-columns balance each other → title at GEOMETRIC card-center
    regardless of controls width. Scoped to ≥601px so v6.3 mobile
    header-stack (flex-column) on ≤600px stays intact. */
-@media (min-width: 601px) {
+@media (min-width: 1024px) {
+  /* v7.11: was @media (min-width: 601px) — tablet (768) was getting the
+     grid layout and controls overflowed into title area. Bumped to 1024+
+     so only desktop uses grid (where card-inner has room for fr+auto+fr
+     columns to balance properly). Tablet falls through to the ≤1023
+     flex-column-stack above. */
   .lcs-app.activity .lcs-header {
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);

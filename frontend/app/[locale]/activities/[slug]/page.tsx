@@ -171,7 +171,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
     // accent/celebrate; it does not tint the field.
     return (
       <main className="bg-cream-50 pt-4 pb-4 px-3 md:pt-6 md:pb-6 md:px-6 lg:pt-8">
-        <article className="mx-auto max-w-4xl">
+        <article className="mx-auto max-w-7xl">
           <BreadcrumbTrail
             locale={params.locale}
             trail={[
@@ -202,11 +202,13 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
               </div>
             </header>
 
-            {/* Iframe wrapper: max-width caps so the cream card centers on
-                the sage field. The iframe body is set to transparent inside
+            {/* Iframe wrapper: iframe spans the full play-area width so the
+                sage field reads as the wide page-scale surface. The card
+                inside is capped at 720px (lcs-shell.css .lcs-app) and
+                self-centers; the iframe body is set to transparent inside
                 ten-frame-activity.html (scoped inline <style>), so the sage
                 shows through everywhere the card itself doesn't cover. */}
-            <div className="relative z-10 mx-auto max-w-[760px]">
+            <div className="relative z-10">
               <ActivityIframe src={iframeSrc} title={row.page_title[params.locale]} />
             </div>
 

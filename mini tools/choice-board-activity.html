@@ -23,19 +23,31 @@
     @media (max-width: 599px) {
       /* !important needed: engine injects its CSS via JS at runtime (after
          this inline <style>) — equal specificity, later cascade wins. */
-      .cb-subject-img { height: clamp(56px, 12vmin, 80px) !important; }
+      /* v7.9: bumped subject 56→96-130 + capped tile to 130px so 2-tile
+         activities (Flat/Solid) don't have tiles 2x bigger than subject.
+         Empirical pre-v7.9: subject 56, tile 108 (4-choice) or 108-160
+         (2-choice) — ratio 0.35-0.52. Post-v7.9 target ~0.9 ratio. */
+      .cb-subject-img { height: clamp(96px, 22vmin, 130px) !important; }
       .cb-subject--group { max-width: 240px !important; }
       .cb-subject--group .cb-group-item { max-width: 48px !important; }
       .cb-wrap { gap: clamp(10px, 2.4vmin, 16px) !important; }
+      .cb-tile { max-width: 130px !important; max-height: 130px !important; }
     }
 
-    /* v7.4 desktop: scale subject + tile padding so engine content fills
-       the bigger card (operator's screenshot showed tiny ~50px circle
-       in a 720px card with tight gap to prompt above). */
+    /* v7.9 desktop: bump subject 120→160-220 + cap tile 220px so the
+       2-tile Flat/Solid layout doesn't balloon tiles to 350px (ratio
+       was 0.51 pre-v7.9). Other choice-board activities (4-tile shape-
+       id, count-the-sides at 167px) get same cap but their natural
+       size was already under 220. Subject + tile both in 160-220 range
+       → ratio ~0.9. */
     @media (min-width: 768px) {
-      .cb-subject-img { height: clamp(120px, 16vmin, 180px) !important; }
+      .cb-subject-img { height: clamp(160px, 20vmin, 220px) !important; }
       .cb-board { max-width: 720px !important; }
-      .cb-tile { padding: clamp(16px, 2.4vmin, 24px) !important; }
+      .cb-tile {
+        padding: clamp(16px, 2.4vmin, 24px) !important;
+        max-width: 220px !important;
+        max-height: 220px !important;
+      }
       .cb-wrap { gap: clamp(16px, 2.6vmin, 24px) !important; }
     }
   </style>

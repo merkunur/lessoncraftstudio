@@ -2067,6 +2067,38 @@ Bind `loc` to content locale (NOT uiLocale). Read directly from `window.translat
 
 **When to apply:** future app authoring (29-app maintenance) MUST use `_seoT` for SEO chrome emission, never `_t`. Existing apps' SEO emission audited for this pattern; the 4 named are the empirical-failure set; remaining 25 apps continue to work because their `t()` either returns `null` on miss OR their app-specific table happens to carry the SEO keys for all 11 locales (incidental). At any new-app port + at any existing-app SEO emission refactor, apply the `_seoT` shape verbatim.
 
+#### A.13.47 Activity-page CSS pitfalls (compiled from v7.1→v7.13 polish session, 2026-05-22)
+
+Hard-won rules. Re-discovering any of these wastes hours. Apply at every `/[locale]/activities/[slug]/` + `mini tools/*-activity.html` edit.
+
+1. **iframe `vh`/`vmin` is iframe-relative, NOT viewport-relative.** Content that grows the iframe via ActivityIframe postMessage auto-resize creates a circular dependency: bigger iframe → bigger `vh`/`vmin` basis → bigger clamp values → more content growth → more iframe growth. Empirical: v7.5 `prompt { font-size: clamp(22, 6vh, 48) }` ran away to 48px ceiling on mobile when prompt wrapped; card grew 1070-1228px. **Fix**: use `vw` (viewport-stable) for content font sizes that mustn't grow with iframe height.
+
+2. **`display: flex` defaults to `flex-direction: row`.** `justify-content: flex-start` on a flex-row LEFT-aligns horizontally, not top-aligns vertically. Empirical: v7.4 `.lcs-stage { justify-content: flex-start }` intended "top-align engine vertically" but actually left-aligned engine horizontally (engine wraps off-center -19 to -57px). **Fix**: set `flex-direction: column` explicitly when you want column behaviour.
+
+3. **CSS Grid items with `max-width` fall back to `start` (left) when stretch fails.** Adding `max-width: X` to a grid item without `justify-self: center` produces left-aligned items. Default `justify-self: auto` inherits parent `justify-items: stretch`, but max-width prevents stretching → falls back to `start`. Empirical: v7.10 added `max-width: 76/246` on cb-tile → tiles left-shifted in their columns. **Fix**: always pair max-width with `place-self: center`.
+
+4. **`grid-template-columns: repeat(N, 1fr)` with content-sized items creates HUGE inter-item gaps.** Each column = board-width/N regardless of item content. If items smaller than 1fr, empty space appears between them. Empirical: v7.11 desktop cb-cols-2 → inter-tile gap = 320px (column 351, tile 49). **Fix**: use `repeat(N, auto) + justify-content: center` for content-sized columns with only the explicit `gap` between items.
+
+5. **`width: X` ≠ `max-width: X`.** For UNIFORM sizing across content variations (e.g., tiles with different image counts), use `width: X` (forces exact size). `max-width: X` is a cap — items can still vary smaller based on intrinsic content. Empirical: v7.11 Which-group-has-more 3-item tile was 170×170, 5-item tile was 241×241; v7.12 `width: 220px` made both 220×220.
+
+6. **Engine-injected CSS at runtime wins on same-specificity ties.** Engines (cb/tf/cvc/wb-core.js) call `appendStyles()` AFTER DOM parses → engine rules come later in cascade than wrapper inline `<style>`. Empirical: v7.2 wrapper rules without `!important` were defeated; verify-mobile.js found tf-frames-area still `row` despite wrapper saying `column`. **Fix**: use `!important` on every engine-overriding rule.
+
+7. **Card `overflow: hidden` + fixed height clips engine content → visually reads as "elements overlapping each other".** Stage child with `min-height: 0` (shell default) shrinks below content height; engine content overflows DOWN past stage into actions area; card clips bottom. Empirical: v7.7 cvc-builder engine overflow 171px → 141px overlap with Check button. **Fix**: `.lcs-app.activity { height: auto; overflow-y: visible }` universal; iframe `min-height: 66.67vh` (floor only) so postMessage auto-resize handles growth.
+
+8. **Tablet (768) is its own breakpoint, NOT a "wide mobile" or "small desktop".** Desktop grid layouts (`minmax(0, 1fr) auto minmax(0, 1fr)`) with fr-columns shrink to 0 on tablet → controls overflow into title area. Empirical: v7.7 grid worked desktop, broke iPad-mini 768 (title-controls overlap 71px). **Fix**: extend mobile flex-stack header to `≤1023`; grid only at `≥1024`. Always test desktop AND tablet AND mobile separately.
+
+9. **iframe-src cache-buster `?v=N` is REQUIRED, not optional.** Browser bfcache + iOS Safari/Android WebView ignore `Cache-Control: max-age=0` under back-forward restoration. Empirical: v7.5 prompt-runaway fix not visible on operator's phone until v7.3-era added `?v=N`. **Fix**: `ACTIVITY_WRAPPER_VERSION` constant in `frontend/app/[locale]/activities/[slug]/page.tsx`; bump on every wrapper change.
+
+10. **Tests passing ≠ visual approval.** Programmatic assertions catch overlap/gap/padding/font-size but miss "looks unprofessional". Empirical: v7.5 reported 109/109 PASS while operator saw cramped + off-center layout; v7.7 reported 125/125 PASS while operator saw tiles left-shifted. **Fix**: capture screenshots at desktop (1920) + tablet (768) + mobile (375/390) and EYEBALL them before declaring shipped. Cross-reference CLAUDE.md §A.13.43 approval cadence.
+
+**Bonus operator-collaboration rules:**
+- When operator gives precise deltas (+30%/-30%), apply literally. Don't second-guess; declare side-effects but don't pre-adjust. v7.10 was first-try success because operator specified exact deltas.
+- Engine has content-aware classes already (`cb-cols-2`/`cb-cols-4`, `cb-tile--text`/`cb-tile--group`, `tf-double`, etc.) — use them for per-variant CSS. Don't try to detect activity ID from CSS.
+- Cache-busting cascade per §A.13.42: `lcs-shell.css?v=N` bumps in ALL 7 wrappers same-commit when shell changes; `ACTIVITY_WRAPPER_VERSION` in page.tsx bumps independently when only wrapper HTML changes.
+- If operator hits frustration breaking point, STOP and offer rollback (`git revert <commit>`) rather than power through more iterations. v7.9 → v7.8 rollback was the right move.
+
+Origin: 13-iteration polish session 2026-05-22 (v7.1→v7.13, commits `2149e1a8` through `d333f3c8`). Each rule represents a real iteration that could have been saved.
+
 ### A.14 Scaling Arc audit doctrine
 
 `[CHORE][AUDIT]` commissions measure publish-cli's path against scale targets without production change.

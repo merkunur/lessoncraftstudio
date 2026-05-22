@@ -59,11 +59,7 @@ export function LocaleLayoutClient({
       <main className="flex-1">
         {children}
       </main>
-      <Footer
-        availableExerciseTypes={footerAvailableExerciseTypes}
-        availableThemes={footerAvailableThemes}
-        availableLevels={footerAvailableLevels}
-      />
+      <Footer />
     </>
   );
 }

@@ -170,8 +170,8 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
     // cream-50 page → sage field → cream card. Coral stays RESERVED for
     // accent/celebrate; it does not tint the field.
     return (
-      <main className="bg-cream-50 pt-4 pb-4 px-3 md:pt-6 md:pb-6 md:px-6 lg:pt-8">
-        <article className="mx-auto max-w-7xl">
+      <main className="bg-cream-50 pt-4 pb-4 px-4 md:pt-6 md:pb-6 md:px-8 lg:pt-8">
+        <article className="mx-auto max-w-[1800px]">
           <BreadcrumbTrail
             locale={params.locale}
             trail={[

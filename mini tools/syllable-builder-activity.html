@@ -10,10 +10,14 @@
   <!-- The shell mounts the whole tool into this element. -->
   <div id="lcs-root"></div>
 
-  <!-- Shell first, then the shared word-builder core, then this activity wrapper. -->
+  <!-- Shell first, then the shared word-builder core, then this activity wrapper.
+       NOTE: Bump ?v=N on EVERY change to *-core.js or *-activity.js. Browsers
+       cache by URL including the query string; without a bump, clients that
+       visited any earlier version will keep serving the stale local copy and
+       miss new locale strings / task params (e.g., FI fan-out title bug). -->
   <script src="/mini-tools/lcs-shell.js"></script>
-  <script src="/mini-tools/word-builder-core.js?v=1"></script>
-  <script src="/mini-tools/syllable-builder-activity.js?v=1"></script>
+  <script src="/mini-tools/word-builder-core.js?v=2"></script>
+  <script src="/mini-tools/syllable-builder-activity.js?v=2"></script>
   <script>
     LCS.mount(SyllableBuilderActivity, { mount: '#lcs-root' });
   </script>

@@ -2037,6 +2037,36 @@ When tracing rule-syllabifier behavior by hand (typical Phase 1 diagnostic), kee
 
 Cross-reference §A.13.14 (Phase 1 Explore-agent fidelity validation — Grep+Read for fidelity-critical claims).
 
+#### A.13.46 Content-locale-direct SEO chrome lookup (anti-`_t()`-locale-binding-drift)
+
+App-side SEO chrome emission (`seoMeta.{worksheetWord,freeInteractive,forWord,printOrPlay}` per §17.8.4) MUST use a content-locale-direct lookup against `window.translations` (the `translations-shared.js` merged dict), NOT the per-app `t()` function. Two recurring bug classes break SEO emission when SEO calls route through per-app `t()`:
+
+- **Class 1 — `t()` returns the key string on miss.** Per-app `t()` implementations that end with `|| key` (instead of `|| null`) defeat the JS short-circuit `_t('x') || 'Fallback'` because the lowercase/literal key string is truthy. Result: deck.html ships with literal i18n key names (`seoFreeInteractive`, `seoFor`) instead of localized values. Empirical: chart-count Italian wave 2026-05-22 (49 ZIPs halted by §17.8.17 invariant 6).
+- **Class 2 — `t()` uses `uiLocale` (operator's UI language) instead of content locale.** When operator generates Italian content with English UI (`uiLocale='en'`, `currentLocale='it'`), `_t('worksheet')` returns "Worksheet" (English) while the seo_trace builder (which uses content locale via `buildSeoTrace`) records "Scheda" (Italian). The seoMeta + deck.html title diverge from seo_trace. Empirical: bingo Italian wave 2026-05-22 (69 ZIPs; slipped the publish-time gate but caught by post-publish `audit-deck-html.js`).
+
+**Canonical fix — `_seoT` helper at the SEO emission boundary:**
+```js
+var _seoT = function(key) {
+  var loc = (window.currentLocale ||
+             (typeof DECK_BUNDLE !== 'undefined' && DECK_BUNDLE.contentLanguage) ||
+             'en');
+  var s = (window.translations) || {};
+  return (s[loc] && s[loc][key]) ||
+         (s.en && s.en[key]) ||
+         null;
+};
+```
+Bind `loc` to content locale (NOT uiLocale). Read directly from `window.translations` (the shared dict; `translations-shared.js` line ~64-540 carries the 4 SEO chrome keys × 11 locales). Return `null` (NOT the key string) on miss so `_seoT('x') || 'Fallback'` short-circuits correctly.
+
+**Empirical anchor:** Italian first-publish wave 2026-05-22 surfaced 4 apps in the same bug class: chart-count (Class 1, 49 ZIPs), bingo (Class 2, 69 ZIPs), cryptogram (Class 1+2, 99 pre-existing decks), shadow-match/find-shadow (Class 1+2, 1 deck). Structural fix applied at `REFERENCE APPS/{chart-count,bingo,cryptogram,shadow-match}.html` at the SEO emission boundary (~line 2772, 3116, 4457, 2560 respectively): added `_seoT` helper alongside the existing `_t` and swapped the 4 SEO `_t(...)` calls per app. Per-app `t()` left intact for non-SEO UI text.
+
+**Cross-references:**
+- §17.8.14 (sr-only srLang-keyed lookup convention — same discipline applied to sr-only emission; this doctrine extends it to SEO chrome).
+- §A.14.8 step 2b (bundle-vs-current-app reconciliation — `_seoT` removes the gen-time emit-side defect class that produced the chart-count residue; salvage script per §15.17 remains the recovery path for already-staged wave ZIPs).
+- §17.8.17 invariant 6 (`LOCALE_RESIDUE_DETECTED` gate — caught chart-count at publish-time but missed bingo due to seo_trace/template divergence; `_seoT` closes the divergence at emit-time).
+
+**When to apply:** future app authoring (29-app maintenance) MUST use `_seoT` for SEO chrome emission, never `_t`. Existing apps' SEO emission audited for this pattern; the 4 named are the empirical-failure set; remaining 25 apps continue to work because their `t()` either returns `null` on miss OR their app-specific table happens to carry the SEO keys for all 11 locales (incidental). At any new-app port + at any existing-app SEO emission refactor, apply the `_seoT` shape verbatim.
+
 ### A.14 Scaling Arc audit doctrine
 
 `[CHORE][AUDIT]` commissions measure publish-cli's path against scale targets without production change.

@@ -2544,6 +2544,20 @@
 
           // SEO inputs for the deck.html surface (Brief A §4)
           var _t = (typeof t === 'function') ? t : function(k){return null;};
+          // §A.13.46 — content-locale-direct SEO chrome lookup. Shadow-match's
+          // `t()` uses uiLocale + returns the key string on miss, both of
+          // which broke SEO emission for non-EN content. _seoT reads
+          // window.translations keyed on content locale; null on miss so the
+          // JS short-circuit `_seoT('x') || 'Fallback'` works. Cross-ref §17.8.14.
+          var _seoT = function(key) {
+            var loc = (window.currentLocale ||
+                       (typeof DECK_BUNDLE !== 'undefined' && DECK_BUNDLE.contentLanguage) ||
+                       'en');
+            var s = (window.translations) || {};
+            return (s[loc] && s[loc][key]) ||
+                   (s.en && s.en[key]) ||
+                   null;
+          };
           // Phase 4a Checkpoint 2.5 (θ): exercise_mode discriminator
           var rawExerciseMode = (options && options.exerciseMode) || null;
           var exerciseModeName = (window.LCSCatalogExport && LCSCatalogExport.deriveExerciseModeName)
@@ -2557,10 +2571,10 @@
                   ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('themeSelect') })
                   : null,
               instruction: canvas.lcsLocalizedInstruction || '',
-              worksheetWord: _t('worksheet') || 'Worksheet',
-              freeInteractive: _t('seoFreeInteractive') || 'Free interactive',
-              forWord: _t('seoFor') || 'for',
-              printOrPlay: _t('seoPrintOrPlayOnline') || 'Print or play online'
+              worksheetWord: _seoT('worksheet') || 'Worksheet',
+              freeInteractive: _seoT('seoFreeInteractive') || 'Free interactive',
+              forWord: _seoT('seoFor') || 'for',
+              printOrPlay: _seoT('seoPrintOrPlayOnline') || 'Print or play online'
           };
 
           // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2 — path-(b) origin trace

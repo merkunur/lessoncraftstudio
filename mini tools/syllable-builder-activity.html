@@ -4,13 +4,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Constructor de sílabas — Actividad — LessonCraft Studio</title>
-  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=3">
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=4">
   <!-- v7 cascade: see ten-frame-activity.html for the full rationale.
        Activity-page parent forces iframe to 66.67vh + renders sage field;
        these rules transparent-body + cascade height: 100% to .lcs-app. -->
   <style>
     html, body { background: transparent !important; }
     html, body, #lcs-root { height: 100% !important; }
+
+    /* v7.2 mobile: same shape as cvc-builder for parallel engine.
+       Constrain subject/slots/palette to card width; lift Hear button
+       out of slot-row collision; tighten wb-tile min-width so 2 syllable
+       tiles + gap fit cleanly in ~285px card-inner. */
+    @media (max-width: 599px) {
+      .wb-subject { max-width: min(280px, 88vw); }
+      .wb-subject-img { height: clamp(72px, 14vmin, 96px) !important; }
+      .wb-subject-hear { bottom: 4px; right: 4px; }
+      .wb-slots { max-width: 90vw; }
+      .wb-palette { max-width: 90vw; }
+      .wb-tile { min-width: clamp(56px, 13vmin, 80px); }
+      .wb-wrap { gap: clamp(12px, 2.6vmin, 16px); }
+    }
   </style>
 </head>
 <body>

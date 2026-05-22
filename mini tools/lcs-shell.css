@@ -562,3 +562,25 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
 @media (prefers-reduced-motion: reduce) {
   .lcs-app.activity .lcs-activity-prompt.celebrate { animation: none; }
 }
+
+/* =====================================================================
+   v7.2 MOBILE CHROME SPACING — universal across all 4 activity engines
+   (E1/E2/E7/E8). Gated to phone widths (≤ 599px) so desktop stays
+   byte-identical to v7. Scoped to .lcs-app.activity so manipulatives
+   (no .activity class) are untouched. Engine-specific layout fixes
+   (ten-frame stack-direction, choice-board subject-img shrink,
+   cvc/syllable subject/hear/slots/palette constraints) live in each
+   activity wrapper's inline <style>.
+
+   Root cause this block fixes: .lcs-app.activity has no `gap` rule;
+   .lcs-stage has padding:0 (v7); progress/prompt/answer have minimal
+   or zero vertical padding. Result: at 375px the 5 chrome children
+   stack flush. The token clamps (--lcs-gap=8px, --lcs-pad=12px at
+   floor) can't carry visual hierarchy on phone alone. ===================================================================== */
+@media (max-width: 599px) {
+  .lcs-app.activity { gap: 10px; }
+  .lcs-app.activity .lcs-activity-progress { padding-bottom: 8px; }
+  .lcs-app.activity .lcs-activity-prompt { padding-bottom: 12px; }
+  .lcs-app.activity .lcs-stage { padding-block: 8px; }
+  .lcs-app.activity .lcs-activity-answer { padding-top: 8px; }
+}

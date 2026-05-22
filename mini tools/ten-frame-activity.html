@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Ten Frame — Activity — LessonCraft Studio</title>
-  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=3">
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=4">
   <!-- Per-wrapper overrides scoped to ten-frame-activity. The shared v7
        activity-card rules (card sizing, padding, overflow, header
        stacking, celebrate-bounce, prompt/Check/Next scaling) live in
@@ -36,6 +36,16 @@
 
     /* Ten-frame-specific: COUNT readout number font-size. */
     .tf-readout-num { font-size: clamp(28px, 6vh, 56px) !important; }
+
+    /* v7.2 mobile: stack the double-frame vertically (was flex-direction:
+       row at all widths). 10 cells side-by-side at 5vw need ~262px in a
+       ~236px card-inner area — overflow by 26px. Stacking 2 rows of 5
+       lets each cell grow to 28-44px legibly within the same vertical
+       budget (2 × ~60px frame + 10px gap ≈ 130px). */
+    @media (max-width: 599px) {
+      .tf-double .tf-frames-area { flex-direction: column; gap: 10px; }
+      .tf-double .tf-cell { width: clamp(28px, 8vw, 44px) !important; }
+    }
   </style>
 </head>
 <body>

@@ -34,7 +34,15 @@ const INSEPARABLE_CLUSTERS = new Set([
 
 /* French vowel digraphs/trigraphs — sequences that act as one nucleus */
 const VOWEL_DIGRAPHS = ['eau','eai','aoû','aux','oeu','œu','ou','ai','au','eu','ei','oi','ui','ay','ey','oy','uy'];
-const NASAL_VOWELS = ['an','en','in','on','un','am','em','im','om','um','aim','ain','ein','oin','ien'];
+/* `ion` added 2026-05-23: K-3 canon glide-merges the i with the nasal
+   `on` at end-of-word into a single nucleus /jɔ̃/ (`avion → [a, vion]`,
+   `lion → [lion]`, `natation → [na, ta, tion]`). The existing
+   "not followed by a vowel" guard in matchNasalVowel() prevents this
+   from matching mid-word `ion` followed by a vowel (e.g. `lionne` falls
+   back to single-vowel `i`). Direct analogue of PT iã+o fix at
+   ad4924da. Does not resolve `-éon` (accordéon/caméléon) — that's
+   vocab-phonics drift, caught by safety floor, parked to backlog. */
+const NASAL_VOWELS = ['an','en','in','on','un','am','em','im','om','um','aim','ain','ein','oin','ien','ion'];
 
 function isVowel(ch) { return VOWELS.has(ch.toLowerCase()); }
 
@@ -111,6 +119,25 @@ function syllabify(word) {
     const end = (k + 1 < boundaries.length) ? boundaries[k + 1] : n;
     if (end > start) out.push(word.substring(start, end));
   }
+
+  /* Class C: e-muet merge at end-of-word (added 2026-05-23). When the
+     last syllable is exactly 'e' (case-insensitive) AND the preceding
+     syllable's lowercase final character is a vowel, merge them:
+       tortue   → [tor, tu, e]  → [tor, tue]
+       azalée   → [a, za, lé, e] → [a, za, lée]
+       barbecue → [bar, be, cu, e] → [bar, be, cue]
+       brownie  → [brow, ni, e] → [brow, nie]
+     Consonant + silent-e cases (table → [ta, ble], vache → [va, che])
+     are left intact — their last syllable has 2+ chars, so the
+     trigger condition never matches. */
+  if (out.length >= 2 && out[out.length - 1].toLowerCase() === 'e') {
+    const prevLow = out[out.length - 2].toLowerCase();
+    if (prevLow.length > 0 && VOWELS.has(prevLow[prevLow.length - 1])) {
+      out[out.length - 2] = out[out.length - 2] + out[out.length - 1];
+      out.pop();
+    }
+  }
+
   return out.length > 0 ? out : null;
 }
 

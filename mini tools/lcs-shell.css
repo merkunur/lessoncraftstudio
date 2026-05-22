@@ -577,18 +577,27 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
    are bigger and the eye doesn't notice the missing gap until you
    look critically.
 
-   vh-scaled clamps:
-     - At 667vh (iPhone-SE): gap ≈ 13px, paddings 10-13px
-     - At 844vh (iPhone-12): gap ≈ 17px, paddings 13-17px
-     - At 1080vh (desktop):  gap ≈ 22px (ceiling), paddings 16-20px
+   vh-scaled clamps. CRITICAL: vh inside the iframe resolves against
+   the IFRAME's height (parent forces iframe to 66.67vh of viewport,
+   so iframe ≈ 720px tall on desktop, ~445-567px on phones). vh is
+   NOT relative to the parent page. v7.3 first-cut used 2vh which
+   yielded only 14px gap on desktop (2% of 720). Bumped to 3vh +
+   higher clamp floor/ceiling so the empirically-measured gap meets
+   the "professional padding" bar at every viewport.
+
+   Measured gap at clamp(16, 3vh, 28):
+     - iPhone-SE iframe 445px:  3vh = 13.35 → floor 16px
+     - iPhone-12 iframe 567px:  3vh = 17.0  → 17px
+     - iPad-mini iframe 683px:  3vh = 20.5  → 20px
+     - Desktop  iframe 720px:   3vh = 21.6  → 22px
 
    Per-engine mobile-specific overrides (ten-frame column-stack,
    choice-board subject-img shrink, cvc/syllable subject + hear +
    slots + palette + wb-tile constraints) STAY in each wrapper's
    inline <style> — those are truly mobile-specific layout shifts,
    not vertical-spacing concerns. ===================================================================== */
-.lcs-app.activity { gap: clamp(12px, 2vh, 24px); }
-.lcs-app.activity .lcs-activity-progress { padding-bottom: clamp(8px, 1.5vh, 16px); }
-.lcs-app.activity .lcs-activity-prompt { padding-bottom: clamp(12px, 2vh, 20px); }
-.lcs-app.activity .lcs-stage { padding-block: clamp(8px, 1.5vh, 16px); }
-.lcs-app.activity .lcs-activity-answer { padding-top: clamp(8px, 1.5vh, 16px); }
+.lcs-app.activity { gap: clamp(16px, 3vh, 28px); }
+.lcs-app.activity .lcs-activity-progress { padding-bottom: clamp(10px, 2vh, 18px); }
+.lcs-app.activity .lcs-activity-prompt { padding-bottom: clamp(14px, 2.5vh, 22px); }
+.lcs-app.activity .lcs-stage { padding-block: clamp(10px, 2vh, 18px); }
+.lcs-app.activity .lcs-activity-answer { padding-top: clamp(10px, 2vh, 18px); }

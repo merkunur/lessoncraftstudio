@@ -5,14 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Ten Frame — Activity — LessonCraft Studio</title>
   <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=2">
-  <!-- Prototype-only celebrate-bounce per the activity-page redesign
-       commission. Scoped to this wrapper only — choice-board / cvc-builder
-       / syllable-builder wrappers do not include this <style> block and
-       therefore keep the shell's existing 4%-scale celebrate. Lands the
-       prompt at scale(1.04) so the final resting state matches every other
-       activity; the keyframe is purely additive entry motion. When the
-       redesign cascades, this block lifts into lcs-shell.css. -->
+  <!-- Prototype-only overrides per the activity-page redesign commission.
+       Scoped to THIS wrapper only — choice-board / cvc-builder /
+       syllable-builder wrappers do not include this <style> block and
+       therefore keep the shell's existing 4%-scale celebrate + cream
+       iframe-body background. When the redesign cascades, this block
+       lifts into lcs-shell.css. -->
   <style>
+    /* v2: transparent iframe body so the parent page's sage field
+       (#DBE7DF) shows through everywhere the card itself doesn't cover.
+       Overrides lcs-shell.css's `html, body { background: var(--lcs-bg); }`
+       (cream #FBF3E4) which would otherwise hide the field behind the
+       iframe's own document. */
+    html, body { background: transparent !important; }
+
+    /* v1: gentle bounce on the success prompt. Lands at scale(1.04) so
+       the resting state matches every other activity's existing 4%-scale
+       celebrate; the keyframe is purely additive entry motion. */
     @keyframes lcs-celebrate-bounce {
       0%   { transform: scale(1); }
       30%  { transform: scale(1.08); }

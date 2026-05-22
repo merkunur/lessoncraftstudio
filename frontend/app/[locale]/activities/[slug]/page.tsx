@@ -162,16 +162,15 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   const isTenFramePrototype = row.alignment.code === 'K.NBT.A.1';
 
   if (isTenFramePrototype) {
-    // Play-area background: asymmetric dual-radial gradient per operator
-    // refinement — teal at ~5% top-left as primary depth cue, coral at
-    // ~3.5% bottom-right as fainter counter-balance. Calibration ceiling:
-    // never crosses into a visible graphic; sits below the card's own
-    // brighter cream-surface-2 fill so the card still lifts.
-    const playAreaBg =
-      'radial-gradient(circle at 8% 8%, rgba(20,107,94,0.05) 0, transparent 55%),' +
-      ' radial-gradient(circle at 92% 92%, rgba(242,120,75,0.035) 0, transparent 55%)';
+    // v2 prototype — visible overhaul per operator's failure-mode review of
+    // the first attempt. SOLID warm-sage field (#DBE7DF — ~12% teal blended
+    // into cream, not aqua) over a cream-50 page; cream wave at the field's
+    // base; card lifts off the field with a dual-shadow + the inner card
+    // bg comes from lcs-shell.css (#FBF6EE). Three unambiguous layers:
+    // cream-50 page → sage field → cream card. Coral stays RESERVED for
+    // accent/celebrate; it does not tint the field.
     return (
-      <main className="bg-cream-50 py-4 px-3 md:py-6 md:px-6 lg:py-8">
+      <main className="bg-cream-50 pt-4 pb-4 px-3 md:pt-6 md:pb-6 md:px-6 lg:pt-8">
         <article className="mx-auto max-w-4xl">
           <BreadcrumbTrail
             locale={params.locale}
@@ -180,32 +179,59 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
               { label: row.page_title[params.locale] },
             ]}
           />
-          <div
-            className="lcs-prototype-play-area mt-3 md:mt-4 bg-cream-100 rounded-2xl md:rounded-3xl px-4 py-5 md:px-8 md:py-7 shadow-[0_2px_6px_rgba(20,30,28,0.06),_0_20px_48px_rgba(20,30,28,0.09)]"
-            style={{ backgroundImage: playAreaBg }}
+          <section
+            className="lcs-prototype-play-area relative overflow-hidden mt-3 md:mt-4 rounded-2xl md:rounded-3xl bg-[#DBE7DF] px-4 pt-5 pb-12 md:px-8 md:pt-7 md:pb-16 shadow-[0_2px_8px_rgba(20,30,28,0.08),_0_28px_64px_rgba(20,30,28,0.12)]"
+            aria-label={row.page_title[params.locale]}
           >
-            {/* Adult chrome — tightened. Smaller H1, lighter description,
-                softer chip. Still carries SEO + teacher value; visually
-                yields to the card below so the child's eye lands on the
-                toy in roughly half the vertical distance. */}
-            <header className="mb-3 md:mb-4 text-center">
-              <h1 className="font-display font-semibold text-base md:text-lg text-teal-700 leading-tight mb-0.5">
+            {/* Adult chrome — tightened, sits ON the sage field. Header
+                feels integrated with the play area rather than stacked
+                above it. */}
+            <header className="relative z-10 mb-4 md:mb-5 text-center">
+              <h1 className="font-display font-semibold text-base md:text-lg text-teal-800 leading-tight mb-0.5">
                 {row.page_title[params.locale]}
               </h1>
-              <p className="hidden lg:block text-xs text-stone-500 max-w-2xl mx-auto leading-snug mb-1.5">
+              <p className="hidden lg:block text-xs text-ink-600/70 max-w-2xl mx-auto leading-snug mb-2">
                 {row.page_intro[params.locale]}
               </p>
-              <div className="inline-flex items-center gap-2 px-3 py-0.5 rounded-full bg-cream-200 text-teal-700 text-xs font-medium">
+              <div className="inline-flex items-center gap-2 px-3 py-0.5 rounded-full bg-cream-100/80 text-teal-800 text-xs font-medium backdrop-blur-sm">
                 <span>{localizedGrade}</span>
-                <span className="text-teal-700/40">·</span>
+                <span className="text-teal-800/40">·</span>
                 <span className="hidden sm:inline">{row.alignment.strand}</span>
-                <span className="hidden sm:inline text-teal-700/40">·</span>
+                <span className="hidden sm:inline text-teal-800/40">·</span>
                 <span className="font-mono">{row.alignment.code}</span>
               </div>
             </header>
 
-            <ActivityIframe src={iframeSrc} title={row.page_title[params.locale]} />
-          </div>
+            {/* Iframe wrapper: max-width caps so the cream card centers on
+                the sage field. The iframe body is set to transparent inside
+                ten-frame-activity.html (scoped inline <style>), so the sage
+                shows through everywhere the card itself doesn't cover. */}
+            <div className="relative z-10 mx-auto max-w-[760px]">
+              <ActivityIframe src={iframeSrc} title={row.page_title[params.locale]} />
+            </div>
+
+            {/* Soft cream wave at the base of the field — gentle "foam"
+                that gives the field life without becoming a graphic.
+                Absolutely positioned over the field's bottom padding;
+                pointer-events:none so it never blocks the iframe. */}
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 1200 80"
+              preserveAspectRatio="none"
+              className="absolute bottom-0 left-0 right-0 w-full h-[60px] md:h-[72px] pointer-events-none"
+            >
+              <path
+                d="M0,50 C200,15 380,75 600,40 C820,5 1000,70 1200,35 L1200,80 L0,80 Z"
+                fill="#FCFAF4"
+                opacity="0.62"
+              />
+              <path
+                d="M0,60 C220,30 420,80 640,52 C860,24 1040,76 1200,50 L1200,80 L0,80 Z"
+                fill="#FCFAF4"
+                opacity="0.45"
+              />
+            </svg>
+          </section>
 
           <Script
             type="application/ld+json"

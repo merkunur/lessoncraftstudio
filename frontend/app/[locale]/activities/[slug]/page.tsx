@@ -204,14 +204,21 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
 
             {/* Iframe wrapper: PARENT-side iframe height = 66.67vh of the
                 page viewport (operator-locked: card covers 2/3 of screen
-                vertically on every device). Tailwind arbitrary descendant
-                selector with !important wins over ActivityIframe's
-                inline `style="height: <postMessage>px"`. Inside the
-                iframe, ten-frame-activity.html's inline <style> makes
-                .lcs-app fill the iframe height (height: 100%), so the
-                card ends up at 66.67vh of the parent viewport — exactly
-                the operator's target. */}
-            <div className="relative z-10 [&_iframe]:!h-[66.67vh]">
+                vertically on every device). Inline <style> with
+                !important wins over ActivityIframe's inline
+                `style="height: <postMessage>px"`. Inside the iframe,
+                ten-frame-activity.html's inline <style> makes .lcs-app
+                fill the iframe height (height: 100%), so the card ends
+                up at 66.67vh of the parent viewport. Tailwind arbitrary
+                descendant selectors (tried `[&_iframe]:!h-[66.67vh]`)
+                ship the class but don't generate the CSS rule with the
+                bracket+! combination — using a plain <style> block is
+                the reliable way to ship this override gated to the
+                prototype. */}
+            <style dangerouslySetInnerHTML={{ __html:
+              '.lcs-prototype-iframe-wrapper iframe { height: 66.67vh !important; min-height: 66.67vh !important; }'
+            }} />
+            <div className="lcs-prototype-iframe-wrapper relative z-10">
               <ActivityIframe src={iframeSrc} title={row.page_title[params.locale]} />
             </div>
 

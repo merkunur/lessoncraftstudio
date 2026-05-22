@@ -493,10 +493,11 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
 
 /* Card width — mobile fills viewport, desktop caps to 60vw (matches
    IXL's measured 62% content-area; 720px floor preserves the shell
-   baseline on small laptops). */
-.lcs-app { max-width: 95vw; }
+   baseline on small laptops). SCOPED TO .activity so manipulatives
+   keep the default `.lcs-app { max-width: 720px }` (line 72). */
+.lcs-app.activity { max-width: 95vw; }
 @media (min-width: 768px) {
-  .lcs-app { max-width: max(720px, 60vw); }
+  .lcs-app.activity { max-width: max(720px, 60vw); }
 }
 
 /* Activity card sizing + 10% padding rule. Card height = 100% of

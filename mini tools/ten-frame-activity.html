@@ -4,142 +4,38 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Ten Frame — Activity — LessonCraft Studio</title>
-  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=2">
-  <!-- Prototype-only overrides per the activity-page redesign commission.
-       Scoped to THIS wrapper only — choice-board / cvc-builder /
-       syllable-builder wrappers do not include this <style> block and
-       therefore keep the shell's existing sizing + 4%-scale celebrate +
-       cream iframe-body background. When the redesign cascades, this
-       block lifts into lcs-shell.css. -->
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=3">
+  <!-- Per-wrapper overrides scoped to ten-frame-activity. The shared v7
+       activity-card rules (card sizing, padding, overflow, header
+       stacking, celebrate-bounce, prompt/Check/Next scaling) live in
+       lcs-shell.css scoped to .lcs-app.activity. This block holds the
+       wrapper-specific bits: iframe-body transparency for the parent
+       sage field, the height-cascade chain (needs every link to be
+       explicit for % heights to resolve), and ten-frame engine-specific
+       cell + COUNT-readout scaling that wouldn't make sense for
+       choice-board / cvc-builder / syllable-builder. -->
   <style>
-    /* v2: transparent iframe body so the parent page's sage field
-       (#DBE7DF) shows through everywhere the card itself doesn't cover.
-       Overrides lcs-shell.css's `html, body { background: var(--lcs-bg); }`
-       (cream #FBF3E4) which would otherwise hide the field behind the
-       iframe's own document. */
+    /* Iframe body transparent so the parent page's sage field
+       (#DBE7DF) shows through everywhere the card itself doesn't cover. */
     html, body { background: transparent !important; }
 
-    /* v5 PRIMARY TARGET: card HEIGHT = 2/3 of viewport height on every
-       device (operator-locked: "the activity card should cover two third
-       of any kind of screen"). The PARENT page-side sets the iframe
-       element height to 66.67vh of the page viewport via an inline
-       <style> rule on .lcs-prototype-iframe-wrapper iframe. INSIDE the
-       iframe, the percentage-height cascade must run from html → body
-       → #lcs-root → .lcs-app, so EVERY link in that chain needs an
-       explicit height (CSS rule: percentage-height only resolves if the
-       parent has a definite height; #lcs-root with no height-rule was
-       the chain-break that capped .lcs-app at its content-height (522px)
-       even with `height: 100% !important`). */
+    /* Height-cascade chain. Percentage heights only resolve if EVERY
+       parent has a definite height. Activity-page side forces the
+       iframe to 66.67vh; this rule cascades that down to .lcs-app
+       via html → body → #lcs-root. */
     html, body, #lcs-root { height: 100% !important; }
 
-    /* v6.1 operator-locked rule: 10% padding inside the card on all 4
-       sides — left/right = 10% of card width; top/bottom = 10% of card
-       height. Container queries (v6 first cut) don't self-reference
-       correctly — cqi on .lcs-app resolved against the iframe-width,
-       not the card width, so desktop/wide over-padded to 16% (the
-       extra width between card and iframe leaked into the padding).
-       Use vw-based padding tied to the card's max-width formula:
-         - mobile card = 95vw → 10% horizontal padding = 9.5vw
-         - desktop card = 60vw → 10% horizontal padding = 6vw
-         - card height = 100% of iframe (66.67vh of parent) → 10vh
-           padding = 10% of card height regardless of viewport
-       container-type kept (defensive) but no longer load-bearing. */
-    .lcs-app.activity {
-      padding-block: 10vh !important;
-      padding-inline: 9.5vw !important;
-      box-sizing: border-box !important;
-      height: 100% !important;
-      min-height: 100% !important;
-    }
-    @media (min-width: 768px) {
-      .lcs-app.activity { padding-inline: 6vw !important; }
-    }
-
-    /* v6: card WIDTH — desktop narrows from 68vw → 60vw per operator
-       ("even less wide on desktop"). On phone 95vw still applies.
-       60vw of iframe-vw (~1792 at 1920 parent) = 1075px = 56% of parent
-       viewport (was 63.5% in v5.5). */
-    .lcs-app { max-width: 95vw !important; }
-    @media (min-width: 768px) {
-      .lcs-app { max-width: max(720px, 60vw) !important; }
-    }
-
-    /* v6.2: zero out .lcs-stage's own padding so it doesn't double-pad
-       on top of the card-level 10% padding. lcs-shell.css line 145 has
-       `padding: var(--lcs-pad)` (12-24px) on .lcs-stage; with my card
-       padding active, the stage padding pushes the ten-frame inward
-       past the available space and causes the 17px overflow operator
-       would see at narrow viewports. */
-    .lcs-stage { padding: 0 !important; }
-
-    /* v6.2: cells scale via vw with media queries that match the card's
-       width formula. Phone cells slightly smaller (5vw vs 6.5vw) so
-       10 cells + gaps fit inside the 80% inner area without the stage
-       overflow. Desktop unchanged. */
+    /* Ten-frame-specific: cells scale via vw with media queries
+       matching the card's width formula. Phone cells small enough so
+       10 cells + gaps fit inside the 80% inner area (after 10%
+       padding); desktop scales up to fill the wider card. */
     .tf-double .tf-cell { width: clamp(14px, 5vw, 60px) !important; }
     @media (min-width: 768px) {
       .tf-double .tf-cell { width: clamp(40px, 4.2vw, 130px) !important; }
     }
-    .lcs-activity-prompt { font-size: clamp(22px, 6vh, 48px) !important; }
-    .lcs-activity-check, .lcs-activity-next {
-      min-height: clamp(56px, 7vh, 80px) !important;
-      min-width: clamp(140px, 18vw, 280px) !important;
-      font-size: clamp(18px, 2.4vh, 26px) !important;
-    }
+
+    /* Ten-frame-specific: COUNT readout number font-size. */
     .tf-readout-num { font-size: clamp(28px, 6vh, 56px) !important; }
-
-    /* v6.3: stack the card header vertically on narrow viewports so the
-       "Ten Frame Activity" title doesn't overlap the 4 control buttons
-       (settings / sound / fullscreen / reset). Root cause: lcs-shell.css
-       has .lcs-header flex-direction:row + .lcs-titles flex:1 +
-       .lcs-controls flex-shrink:0; at 375px viewport the 4 buttons
-       (44px each) take ~200px, leaving only ~27px for the title, which
-       forces overlap. The shell already has @media (max-width:480px)
-       { .lcs-header { flex-wrap:wrap } } but flex-wrap alone doesn't
-       prevent the overlap state. flex-direction:column forces the
-       title onto its own line above the controls. */
-    @media (max-width: 600px) {
-      .lcs-header {
-        flex-direction: column !important;
-        align-items: stretch !important;
-        gap: 6px !important;
-      }
-      .lcs-controls {
-        align-self: flex-end !important;
-      }
-    }
-
-    /* v6.5: REAL fix for the close-button bug — operator's v6.4 screenshot
-       showed the drawer slides OUT to the right of the card and stays
-       VISIBLE adjacent to it instead of disappearing.
-       Root cause: the close handler IS firing (Puppeteer diagnostic
-       confirmed drawer.classList loses 'open' on click + transform
-       animates to translateX(100%) the closed state). But lcs-shell.css
-       line 237 sets `.lcs-app.activity { overflow: visible }` (to let
-       confetti extend past the card during celebrations). With my v6
-       wider iframe, the translateX(100%) drawer ends up parked just
-       outside the card's right edge but inside the iframe viewport —
-       and overflow:visible means it's painted there.
-       Fix: clip overflow on the activity card so slide-out is hidden.
-       v6.4's z-index/pointer-events rules were the wrong hypothesis
-       (Puppeteer diagnostic proved the handler always worked); removed. */
-    .lcs-app.activity { overflow: hidden !important; }
-
-    /* v1: gentle bounce on the success prompt. Lands at scale(1.04) so
-       the resting state matches every other activity's existing 4%-scale
-       celebrate; the keyframe is purely additive entry motion. */
-    @keyframes lcs-celebrate-bounce {
-      0%   { transform: scale(1); }
-      30%  { transform: scale(1.08); }
-      60%  { transform: scale(0.97); }
-      100% { transform: scale(1.04); }
-    }
-    .lcs-activity-prompt.celebrate {
-      animation: lcs-celebrate-bounce 360ms cubic-bezier(.2,.8,.2,1) 1;
-    }
-    @media (prefers-reduced-motion: reduce) {
-      .lcs-activity-prompt.celebrate { animation: none; }
-    }
   </style>
 </head>
 <body>

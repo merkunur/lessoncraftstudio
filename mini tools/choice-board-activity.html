@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Choice Board — Activity — LessonCraft Studio</title>
-  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=6">
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=7">
   <!-- v7 cascade: activity-page parent forces iframe height to 66.67vh
        and renders a sage field around the iframe. These per-wrapper
        rules make the iframe body transparent (so the field shows through)
@@ -27,6 +27,16 @@
       .cb-subject--group { max-width: 240px !important; }
       .cb-subject--group .cb-group-item { max-width: 48px !important; }
       .cb-wrap { gap: clamp(10px, 2.4vmin, 16px) !important; }
+    }
+
+    /* v7.4 desktop: scale subject + tile padding so engine content fills
+       the bigger card (operator's screenshot showed tiny ~50px circle
+       in a 720px card with tight gap to prompt above). */
+    @media (min-width: 768px) {
+      .cb-subject-img { height: clamp(120px, 16vmin, 180px) !important; }
+      .cb-board { max-width: 720px !important; }
+      .cb-tile { padding: clamp(16px, 2.4vmin, 24px) !important; }
+      .cb-wrap { gap: clamp(16px, 2.6vmin, 24px) !important; }
     }
   </style>
 </head>

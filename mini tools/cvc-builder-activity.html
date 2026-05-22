@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>CVC Word Builder — Activity — LessonCraft Studio</title>
-  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=6">
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=7">
   <!-- v7 cascade: see ten-frame-activity.html for the full rationale.
        Activity-page parent forces iframe to 66.67vh + renders sage field;
        these rules transparent-body + cascade height: 100% to .lcs-app. -->
@@ -29,6 +29,15 @@
       .cvc-slots { max-width: 90vw !important; }
       .cvc-palette { max-width: 90vw !important; }
       .cvc-wrap { gap: clamp(12px, 2.6vmin, 16px) !important; }
+    }
+
+    /* v7.4 desktop: scale subject + slots + letters up so engine content
+       fills the bigger card proportionally. */
+    @media (min-width: 768px) {
+      .cvc-subject-img { height: clamp(120px, 16vmin, 180px) !important; }
+      .cvc-slot { font-size: clamp(48px, 9vmin, 72px) !important; }
+      .cvc-letter { font-size: clamp(28px, 5vmin, 36px) !important; }
+      .cvc-wrap { gap: clamp(16px, 2.6vmin, 22px) !important; }
     }
   </style>
 </head>

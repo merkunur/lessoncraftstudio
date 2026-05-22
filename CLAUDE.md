@@ -1538,13 +1538,14 @@ Activities are THE product. Target: full K-3 Common Core coverage across BOTH Ma
 **Two-builder workflow.** A separate Claude instance (PM Claude) writes the prompts; this CC instance builds + deploys. **One prompt → one activity → one engine at a time.** Each must be 100% complete + deployed + operator-approved before next starts. Nothing accumulates.
 
 ### 20.2 Engine inventory + live surface
-See [[project-activities-live-inventory]] for the canonical list. As of 2026-05-22:
+See [[project-activities-live-inventory]] for the canonical list. As of 2026-05-22 (commit `693b3e86`):
 - **3 manipulatives** live: ten-frame, number-line, ruler (`/mini-tools/*.html`)
 - **E1 ten-frame-activity** — 5 K-Math activities (K.CC.B.4 ×2, K.CC.B.5, K.CC.A.3, K.NBT.A.1)
 - **E2 choice-tap** — 8 activities (K.G.A.2, K.G.B.4, K.CC.C.6, K.CC.C.7 ×2, K.CC.B.5, K.G.A.3, 2.OA.C.3). **K-Math distinct-skill phase essentially done.**
 - **E7 CVC builder** — 1 EN-only activity (RF.K.3 "Build the CVC Word"). Non-EN return 404 by design.
+- **E8 Syllable Builder** — 3 fan-outs LIVE (RF.K.2.B): ES "Forma las sílabas" (`forma-las-silabas`, 8 words, commit `dde3e037`) + FI "Muodosta sana tavuista" (`muodosta-sana-tavuista`, 7 words, commit `92d0a136`) + PT "Forme as sílabas" (`forme-as-silabas`, 7 words, commit `693b3e86`). Engine: `mini tools/word-builder-core.js` + `syllable-builder-activity.js` (sibling to E7's cvc-builder-core; NOT a refactor). Tap-to-place + per-tile TTS + blended-word TTS on correct Check.
 
-Engines NOT yet built: E8 Syllable Builder (es/it/pt/fr/fi), E9 Sound-Chunk Builder (de/nl/sv/da/no), E4 match-pairs, E12 place-value, E5/E6 tracing, E9 sight-word, E14 fraction, E3 sort, E13 array, E10 clock, E18 number-bond. See [[project-activities-master-queue]] for leverage ranking + queue triage.
+Engines NOT yet built: E8 fan-out to **FR** (next active commission; fr.js confirmed CORRECT) + **IT** (NSR-flagged commission alongside FR; it.js iato/dittongo register-sensitive); E9 Sound-Chunk Builder (de/nl/sv/da/no); E4 match-pairs, E12 place-value, E5/E6 tracing, E9 sight-word, E14 fraction, E3 sort, E13 array, E10 clock, E18 number-bond. See [[project-activities-master-queue]] for leverage ranking + queue triage.
 
 ### 20.3 Architecture summary
 See [[project-activities-architecture]] for full doctrine. Key constraints:
@@ -1596,6 +1597,21 @@ See [[project-phonics-safety-pipeline]]. Built + SV+FI proven at commit `91421bd
 
 **No live per-word human review required for any language.** Pipeline outputs `scripts/v2-data/verify-syllable-boundaries/output/approved-words-<locale>.json` (activity-authoring source of truth) + `quarantine-report.json` (operator-reviewable). Read-only inputs: image-vocabulary.js + vocabulary-phonics.json (NEVER touched).
 
+**Gate evolution post-pipeline-ship (2026-05-22 session):**
+- **Gate v1.1** (commit `6bc6e804`): GREEN-locale (es/it/pt/fr/fi) rule-syllabifier is the AUTHORITATIVE split source when it agrees with vocab-phonics count. TeX disagreement is advisory-only (no longer vetoes). Safety floor preserved: rule-vs-vocab-phonics count disagreement still quarantines; rule-null falls through to legacy 3-source gate.
+- **ES río fix** (commit `b84113f7`): accent-guard at `es.js:48` for í/ú adjacent to vowel forcing hiatus per RAE. Structurally identical fix at pt.js (validated empirically in PT first-run).
+- **PT iã+o re-bracketing** (commit `ad4924da`): 2-vowel-lookahead at `pt.js syllabify()` prevents weak+ã+vowel sequences (avião/gavião/lampião/pião) from grabbing the rising diphthong before the nasal can form. Canonical `[a,vi,ão]` / `[ga,vi,ão]` / `[lam,pi,ão]` / `[pi,ão]` splits restored.
+
+**Per-locale gated counts post all fixes (2026-05-22 session close):** ES 958/305, FI 1120/143, SV 931/332, PT 891/372 of 1263 K-3 nouns. EN curated word set (not pipeline-gated).
+
+**Audit verdicts on adjacent rule-syllabifiers (no code changes):**
+- `es.js` — N/A for nasal-rebracket (Spanish has no nasal vowels)
+- `it.js` — FLAG (Italian iato/dittongo register-sensitive; on NSR-backlog alongside FR fan-out)
+- `fr.js` — CORRECT (explicit digraph enumeration; not phonotactic)
+- `fi.js` — CORRECT (explicit diphthong set; no accent marks in native FI)
+
+**Backlog:** `[FIX][DATA]` vocab-phonics count drift on río + iã+o classes (~13 affected words across ES + PT; safety floor catches them; proof sets shipped without these words). Clean correction would re-enable them.
+
 ### 20.8 Parked decisions
 See [[project-activities-parked]]:
 - **K.G.A.1 position words** — asset-blocked (needs staged scene art OR port prepositions-app scene-composition logic). Operator-undecided.
@@ -1604,9 +1620,11 @@ See [[project-activities-parked]]:
 - **Hint-localization minor bug** — activity strand label (e.g., "Counting & Cardinality") renders in English regardless of page locale. Fold a fix into the next code touch in that area; not a standalone commission.
 
 ### 20.9 IMMEDIATE next action
-The phonics safety pipeline is shipped + SV+FI proven. **Next commission is E8 Syllable Builder + Spanish/Finnish/Swedish proof activity** on top of `approved-words-<locale>.json`. Activity authoring reads ONLY from the approved list — words not on the list cannot enter the activity manifest. Direction A card design + ActivityIframe + native-language slugs all reuse from existing E2/E7 patterns. Engine reuses ~70% of E7's core.
+E8 Syllable Builder shipped + approved in 3 locales (ES + FI + PT) atop the gate v1.1 + río + iã+o-fix pipeline. **Next commission is E8 fan-out to FR** ("Forme les syllabes" or operator-decided naming). `fr.js` is CORRECT for the relevant class per audit. **IT remains FLAGGED for an NSR-led commission alongside FR.**
 
-After E8 ships + ≥3 locales fan out + operator approves → next is **E9 Sound-Chunk Builder** for Germanic + Nordic. After E8+E9 at scale → resume non-literacy engines per §20.6 leverage ranking.
+After E8 reaches ≥4 locales (ES+FI+PT+FR) + operator approval, next is **E9 Sound-Chunk Builder** for Germanic (de/nl) + Nordic (sv/da/no), which inherits from `word-builder-core.js`. After E8+E9 at scale → resume non-literacy engines per §20.6 leverage ranking.
+
+**Backlog (deferred, operator-strategic):** `[FIX][DATA]` vocab-phonics count drift on río + iã+o classes (~13 ES + PT words; safety floor catches them; proof sets shipped without these words; clean correction would re-enable them).
 
 **Do not jump ahead. Await the next prompt from PM Claude.**
 
@@ -1988,6 +2006,36 @@ Canonical reclassification empirical: §A.13.37 literacy 8-vs-7 material reversa
 - §A.13.34 read-time-vs-tell-time (Arc 17 P1.4): Class (c)
 - §A.13.35 `word-cards` mode-drift in 3 Arc 14 packages (`bc128f4b` firing #4): Class (a) — 3 packages need retrofit; no doctrine amendment per Arc 19 P2.1 verification (`7c86233d`)
 - §A.13.34 pt FULL-OVERRIDE pedagogy-level (Arc 19 P1.4-1.5; `bc128f4b` firing #5): Class (c) — pt-BR phonics canon (BNCC) legitimately diverges from en CCSS
+
+#### A.13.42 Cache-buster discipline on mini-tools .js changes
+Every change to a `*-core.js` or `*-activity.js` in `mini tools/` MUST bump the `?v=N` query in the html wrapper's `<script src>` tag. Same commit; don't split. Without the bump, browsers that visited any earlier version of the URL continue serving the stale local copy and miss new locale strings / task params. CDN edges + service workers compound the staleness.
+
+Mini-tool wrapper html files carry an inline comment near the script tags documenting the rule as a reminder.
+
+**Empirical anchor:** FI E8 fan-out commit `92d0a136` modified `syllable-builder-activity.js` without bumping `?v=1` → operator's browser served cached pre-fan-out JS → in-card title rendered Spanish on FI page. Corrective commit `f59a7ad2` bumped to `?v=2` and force-refreshed. Current state post commit `693b3e86`: `syllable-builder-activity.html` at `?v=3`.
+
+Long-term cleanup candidate: content-hash cache-busters (`?h=<sha1-of-file>`) eliminate the manual discipline. Defer until volume of mini-tool changes makes manual bumps error-prone.
+
+#### A.13.43 Programmatic textContent assertions for chrome i18n
+For shared-chrome i18n changes (header nav, activity chip, in-iframe title, breadcrumb, footer crawl-bait), the verification artifact MUST include programmatic `textContent` assertions via Puppeteer's `$eval` with `setCacheEnabled(false)`, not just visual eyeball of the screenshot. Eyeball PNGs from fresh-state Chromium can show correct rendering while user-side cache shows broken state — the assertion is the load-bearing check.
+
+**Empirical anchor:** FI E8 fan-out commission's report said "I eyeballed the PNG; title is 'Sanan rakentaja'" — the PNG WAS correct, but operator's browser cache served pre-fan-out JS rendering Spanish. The cache-buster commit `f59a7ad2` added textContent assertions on `.lcs-title` across PT/FI/ES + cache-disabled fetch, catching this class loudly on first run thereafter. The PT E8 fan-out (commit `693b3e86`) USED the new pattern; 3 textContent assertions across PT/FI/ES passed cleanly.
+
+Cross-reference §A.13.42 (cache-buster bump discipline).
+
+#### A.13.44 Pipeline regression-snapshot discipline
+For ANY change to `scripts/v2-data/verify-syllable-boundaries/` (gate.js, cli.js, rule-syllabifiers/*.js), snapshot the existing `output/approved-words-<locale>.json` for every affected locale + aggregated `output/quarantine-report.json` to `.before-<arc>.json` siblings BEFORE re-running the pipeline. Convention: `<filename>.before-<short-arc-name>.json`.
+
+The diff against the snapshot is the only auditable evidence that (a) the target class shifted as expected, (b) no other class regressed, (c) counts in untouched locales stayed byte-identical (modulo `generated_at` timestamp).
+
+**Empirical anchor:** gate v1.1 commission (commit `6bc6e804`) introduced the pattern. Río fix (`b84113f7`) + PT first-run (`e6f979cf`) + iã+o fix (`ad4924da`) all reused it. Snapshot files NOT staged (out-of-tree audit artifacts per §A.8.3).
+
+#### A.13.45 Pre-flight hand-trace encoding fidelity
+When tracing rule-syllabifier behavior by hand (typical Phase 1 diagnostic), keep accented characters as their canonical Unicode codepoints throughout the trace. `ã` is U+00E3 (single codepoint, in `NASAL_VOWELS`); `pão` is `p`+`ã`+`o`, NOT `p`+`a`+`o`. Trace via direct Read of the actual file, not via mental-model reasoning that may strip diacritics.
+
+**Empirical anchor:** PT first-run commission Phase 1 (commit `e6f979cf`) — Explore agent traced `pão` as `p`+`a`+`o` and concluded a "BLOCKING ISSUE" in pt.js nasal handling. Direct read of pt.js + correct codepoint tracing showed `pão`→`[pão]` (1 syllable, nasal diphthong via `NASAL_VOWELS.has('ã')`) is correct. Powering through the agent's false-alarm hypothesis would have wasted a commission. Note: the GENUINE iã+o defect (avião → [a,viã,o]) was a different, real bug — surfaced empirically when the pipeline ran on the real corpus, NOT predicted by the agent. That's the correct fault-detection mode: hand-traces predict; empirical runs validate.
+
+Cross-reference §A.13.14 (Phase 1 Explore-agent fidelity validation — Grep+Read for fidelity-critical claims).
 
 ### A.14 Scaling Arc audit doctrine
 

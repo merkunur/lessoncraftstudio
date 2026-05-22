@@ -543,7 +543,7 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
     gap: 6px;
   }
   .lcs-app.activity .lcs-controls {
-    align-self: flex-end;
+    align-self: center;  /* v7.8 — operator wants controls centered on mobile (was flex-end since v6.3) */
   }
 }
 
@@ -652,16 +652,18 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
   margin-top: calc(var(--lcs-gap) * -1);  /* pull up into header's gap */
 }
 
-/* Prong D.1 — mobile: card grows with content (no clipping → no overlap).
-   overflow-x:hidden keeps drawer translateX(100%) clipped horizontally;
-   overflow-y:visible lets stage content flow beyond iframe boundary
-   (the iframe itself grows via postMessage; see page.tsx Prong D.2). */
-@media (max-width: 767px) {
-  .lcs-app.activity {
-    height: auto;
-    overflow-x: hidden;
-    overflow-y: visible;
-  }
+/* Prong D.1 → v7.8 universal — card grows with content on every viewport.
+   v7.4 had this scoped to mobile (@media max-width:767). Operator's v7.7
+   desktop screenshots showed engine content overlapping the Check button
+   when stage's flex:1 + min-height:0 starved the engine of vertical
+   space and overflow:hidden on card clipped the bottom. Making this
+   universal lets card grow to contain all content + iframe grows via
+   ActivityIframe's postMessage auto-resize. Drawer-close (v6.5)
+   preserved via overflow-x: hidden (horizontal translateX(100%) clip). */
+.lcs-app.activity {
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: visible;
 }
 
 /* =====================================================================

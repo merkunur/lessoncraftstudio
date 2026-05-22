@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Ten Frame — Activity — LessonCraft Studio</title>
-  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=6">
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=7">
   <!-- Per-wrapper overrides scoped to ten-frame-activity. The shared v7
        activity-card rules (card sizing, padding, overflow, header
        stacking, celebrate-bounce, prompt/Check/Next scaling) live in
@@ -30,12 +30,20 @@
        10 cells + gaps fit inside the 80% inner area (after 10%
        padding); desktop scales up to fill the wider card. */
     .tf-double .tf-cell { width: clamp(14px, 5vw, 60px) !important; }
+
+    /* v7.4 desktop: cells scale up so two ten-frames fill the bigger
+       card proportionally (operator's screenshot showed 45px cells
+       floating in a 720px card — looked tiny). */
     @media (min-width: 768px) {
-      .tf-double .tf-cell { width: clamp(40px, 4.2vw, 130px) !important; }
+      .tf-double .tf-cell { width: clamp(60px, 6.5vw, 110px) !important; }
+      .tf-frames-area { gap: clamp(20px, 2.5vw, 40px); }
     }
 
     /* Ten-frame-specific: COUNT readout number font-size. */
     .tf-readout-num { font-size: clamp(28px, 6vh, 56px) !important; }
+    @media (min-width: 768px) {
+      .tf-readout-num { font-size: clamp(40px, 7vh, 64px) !important; }
+    }
 
     /* v7.2 mobile: stack the double-frame vertically (was flex-direction:
        row at all widths). 10 cells side-by-side at 5vw need ~262px in a

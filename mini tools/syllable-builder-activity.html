@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Constructor de sílabas — Actividad — LessonCraft Studio</title>
-  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=6">
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=7">
   <!-- v7 cascade: see ten-frame-activity.html for the full rationale.
        Activity-page parent forces iframe to 66.67vh + renders sage field;
        these rules transparent-body + cascade height: 100% to .lcs-app. -->
@@ -26,6 +26,21 @@
       .wb-palette { max-width: 90vw !important; }
       .wb-tile { min-width: clamp(56px, 13vmin, 80px) !important; }
       .wb-wrap { gap: clamp(12px, 2.6vmin, 16px) !important; }
+    }
+
+    /* v7.4 desktop: scale subject + slots + tiles up so engine content
+       fills the bigger card proportionally. */
+    @media (min-width: 768px) {
+      .wb-subject-img { height: clamp(120px, 16vmin, 180px) !important; }
+      .wb-slot {
+        min-height: clamp(72px, 12vmin, 96px) !important;
+        font-size: clamp(28px, 5vmin, 38px) !important;
+      }
+      .wb-tile {
+        min-width: clamp(96px, 14vmin, 128px) !important;
+        font-size: clamp(28px, 4.5vmin, 38px) !important;
+      }
+      .wb-wrap { gap: clamp(16px, 2.6vmin, 22px) !important; }
     }
   </style>
 </head>

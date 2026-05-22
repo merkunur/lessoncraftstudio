@@ -601,3 +601,52 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
 .lcs-app.activity .lcs-activity-prompt { padding-bottom: clamp(14px, 2.5vh, 22px); }
 .lcs-app.activity .lcs-stage { padding-block: clamp(10px, 2vh, 18px); }
 .lcs-app.activity .lcs-activity-answer { padding-top: clamp(10px, 2vh, 18px); }
+
+/* =====================================================================
+   v7.4 STRUCTURAL LAYOUT FIX — operator's 2026-05-22 desktop screenshots
+   showed: TASKS DONE pill anomalously left-aligned in big empty space;
+   engine content (small circle subject, tiny 45px cells) floats in middle
+   of stage via centering; visual rhythm bunched at top + bottom.
+   Operator also says "elements vertically overlap in ALL exercises on
+   mobile" — quantitative: card 445px height on iPhone-SE, chrome+gaps
+   ~250px → stage has only ~106px for engine content needing 200-300px
+   → overflow:hidden clipping = apparent-overlap.
+
+   Prong A: stage TOP-aligns content instead of centering it. Eliminates
+   the float-in-middle whitespace that desktop screenshots exposed.
+   Combined with margin-top:auto on actions (Check button), card layout
+   becomes: header / progress (right-aligned per Prong C) / prompt /
+   engine top-aligned in stage / Check pinned to card bottom.
+
+   Prong C: TASKS DONE pill becomes a compact right-aligned tab visually
+   attached to the header band, not a full-width row floating between
+   header and prompt.
+
+   Prong D.1: on mobile, card.height auto + overflow-y: visible so the
+   engine content can flow beyond the 66.67vh iframe boundary. Iframe
+   itself grows via postMessage auto-resize (page.tsx Prong D.2 scopes
+   the rigid height: 66.67vh to desktop-only).
+   ===================================================================== */
+/* Prong A — stage top-aligns content; Check pins to card bottom */
+.lcs-app.activity .lcs-stage { justify-content: flex-start; }
+.lcs-app.activity .lcs-activity-actions { margin-top: auto; }
+
+/* Prong C — TASKS DONE compact + right-aligned, visually attached to header */
+.lcs-app.activity .lcs-activity-progress {
+  align-self: flex-end;
+  font-size: 11px;
+  padding: 4px var(--lcs-pad) 0 0;
+  margin-top: calc(var(--lcs-gap) * -1);  /* pull up into header's gap */
+}
+
+/* Prong D.1 — mobile: card grows with content (no clipping → no overlap).
+   overflow-x:hidden keeps drawer translateX(100%) clipped horizontally;
+   overflow-y:visible lets stage content flow beyond iframe boundary
+   (the iframe itself grows via postMessage; see page.tsx Prong D.2). */
+@media (max-width: 767px) {
+  .lcs-app.activity {
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+}

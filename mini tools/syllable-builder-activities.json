@@ -55,5 +55,33 @@
     "page_title": { "fi": "Muodosta sana tavuista — Esiopetuksen fonologia" },
     "page_intro": { "fi": "Katso kuvaa ja muodosta sana asettamalla tavut järjestykseen. Vastaa Common Core RF.K.2.B -tavoitetta — tavujen laskeminen, ääntäminen, yhdistäminen ja erottelu puhutuissa sanoissa." },
     "kid_prompt_template": "promptBuildSyllables"
+  },
+  {
+    "id": "syllable-builder.forme-as-silabas.rf-k-2-b",
+    "tool": "syllable-builder-activity",
+    "task_template": "build-syllables-word",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.2.B",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "language": "pt-BR",
+      "words": [
+        { "noun": "cat",       "themeDir": "animals",          "targetWord": "gato",      "syllables": ["ga","to"],            "label": "gato" },
+        { "noun": "ball",      "themeDir": "toys",             "targetWord": "bola",      "syllables": ["bo","la"],            "label": "bola" },
+        { "noun": "house",     "themeDir": "miscellaneous",    "targetWord": "casa",      "syllables": ["ca","sa"],            "label": "casa" },
+        { "noun": "toad",      "themeDir": "forest creatures", "targetWord": "sapo",      "syllables": ["sa","po"],            "label": "sapo" },
+        { "noun": "table",     "themeDir": "furniture",        "targetWord": "mesa",      "syllables": ["me","sa"],            "label": "mesa" },
+        { "noun": "giraffe",   "themeDir": "animals",          "targetWord": "girafa",    "syllables": ["gi","ra","fa"],       "label": "girafa" },
+        { "noun": "butterfly", "themeDir": "insects and bugs", "targetWord": "borboleta", "syllables": ["bor","bo","le","ta"], "label": "borboleta" }
+      ]
+    },
+    "theme": null,
+    "slug": { "pt": "forme-as-silabas" },
+    "page_title": { "pt": "Forme as sílabas — Fonética na educação infantil" },
+    "page_intro": { "pt": "Olhe a imagem e forme a palavra colocando as sílabas em ordem. Alinhado com Common Core RF.K.2.B — contar, pronunciar, mesclar e segmentar sílabas em palavras faladas." },
+    "kid_prompt_template": "promptBuildSyllables"
   }
 ]

@@ -145,9 +145,19 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
     ? tSeo(`educational_level.${gradeKey}`)
     : `Grade ${row.alignment.grade}`;
 
+  // v7.3 cache buster: bump on any mini tools/*-activity.html change so
+  // browsers fetch fresh wrapper HTML on every navigation. Defends
+  // against iOS Safari + Android WebView page-cache/bfcache quirks that
+  // can ignore upstream Cache-Control: max-age=0 under back-forward
+  // restoration. Same discipline as §A.13.42 lcs-shell.css?v=N bump
+  // applied here to the iframe-loaded wrapper URL (the only un-busted
+  // link in the activity-page → mini-tool chain). The wrapper reads
+  // only `activity` / `lang` / `embed` params; `v` is harmless to it.
+  const ACTIVITY_WRAPPER_VERSION = '7.3';
+
   const iframeSrc =
-    `/mini-tools/${row.tool}.html` +
-    `?activity=${encodeURIComponent(row.id)}` +
+    `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +
+    `&activity=${encodeURIComponent(row.id)}` +
     `&lang=${encodeURIComponent(params.locale)}` +
     `&embed=1`;
 

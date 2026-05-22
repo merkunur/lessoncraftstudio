@@ -27,5 +27,33 @@
     "page_title": { "es": "Forma las sílabas — Fonética en jardín infantil" },
     "page_intro": { "es": "Mira la imagen y forma la palabra colocando las sílabas en orden. Alineado con Common Core RF.K.2.B — contar, pronunciar, mezclar y segmentar sílabas en palabras habladas." },
     "kid_prompt_template": "promptBuildSyllables"
+  },
+  {
+    "id": "syllable-builder.muodosta-sana-tavuista.rf-k-2-b",
+    "tool": "syllable-builder-activity",
+    "task_template": "build-syllables-word",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.2.B",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "language": "fi-FI",
+      "words": [
+        { "noun": "cat",    "themeDir": "animals",       "targetWord": "kissa",   "syllables": ["kis","sa"],      "label": "kissa" },
+        { "noun": "flower", "themeDir": "summer",        "targetWord": "kukka",   "syllables": ["kuk","ka"],      "label": "kukka" },
+        { "noun": "house",  "themeDir": "miscellaneous", "targetWord": "talo",    "syllables": ["ta","lo"],       "label": "talo" },
+        { "noun": "ball",   "themeDir": "toys",          "targetWord": "pallo",   "syllables": ["pal","lo"],      "label": "pallo" },
+        { "noun": "sun",    "themeDir": "weather",       "targetWord": "aurinko", "syllables": ["au","rin","ko"], "label": "aurinko" },
+        { "noun": "horse",  "themeDir": "farm animals",  "targetWord": "hevonen", "syllables": ["he","vo","nen"], "label": "hevonen" },
+        { "noun": "apple",  "themeDir": "fruits",        "targetWord": "omena",   "syllables": ["o","me","na"],   "label": "omena" }
+      ]
+    },
+    "theme": null,
+    "slug": { "fi": "muodosta-sana-tavuista" },
+    "page_title": { "fi": "Muodosta sana tavuista — Esiopetuksen fonologia" },
+    "page_intro": { "fi": "Katso kuvaa ja muodosta sana asettamalla tavut järjestykseen. Vastaa Common Core RF.K.2.B -tavoitetta — tavujen laskeminen, ääntäminen, yhdistäminen ja erottelu puhutuissa sanoissa." },
+    "kid_prompt_template": "promptBuildSyllables"
   }
 ]

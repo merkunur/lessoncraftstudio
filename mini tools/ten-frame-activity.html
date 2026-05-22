@@ -46,16 +46,16 @@
       .lcs-app { max-width: max(720px, 68vw) !important; }
     }
 
-    /* v5: contents scale with VIEWPORT HEIGHT (vh inside iframe =
-       iframe height = 2/3 of parent viewport). Multipliers compensate
-       so contents hit reasonable floors on smaller viewports:
-         - 9vh cells: at iframe vh 720 (parent 1080) = 65px; at iframe
-           vh 533 (parent 800) = 48px (floor matches).
-         - 6vh prompt: at parent 1080 → iframe 720 → 6vh = 43px; at
-           parent 800 → iframe 533 → 6vh = 32px.
-         - Check min-height clamp(56,7vh,80): at parent 800 → 7vh of
-           533 = 37 → clamped 56 floor. */
-    .tf-double .tf-cell { width: clamp(48px, 9vh, 110px) !important; }
+    /* v5: contents scale with viewport so they grow alongside the card.
+       Note: vh inside iframe = iframe height; vw inside iframe = iframe
+       width. For 10 cells across in a double frame, horizontal-fit is
+       the constraint (operator-reported mobile overflow at v5.4 floor
+       of 48px). Use VW for cell width so cells respect horizontal card
+       space; phone iframe vw ~311px × 8vw = 25px (floor 22) — fits;
+       wide iframe vw ~1792 × 8vw = 143 → clamped 120 — large but well
+       within 1218px card. The other contents use vh because they're
+       height-constrained, not width-constrained. */
+    .tf-double .tf-cell { width: clamp(22px, 8vw, 120px) !important; }
     .lcs-activity-prompt { font-size: clamp(22px, 6vh, 48px) !important; }
     .lcs-activity-check, .lcs-activity-next {
       min-height: clamp(56px, 7vh, 80px) !important;

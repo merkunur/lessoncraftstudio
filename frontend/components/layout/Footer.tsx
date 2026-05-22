@@ -528,16 +528,40 @@ export function Footer({
   });
 
   return (
-    <footer id="footer" className="bg-cream-50 border-t border-cream-300 py-16 mt-24">
+    <footer id="footer" className="bg-cream-50 border-t-2 border-cream-300 pt-10 pb-10 md:pt-12 md:pb-12 mt-8">
       <div className="container mx-auto px-4 max-w-6xl">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        {/* Top row — logo + wordmark. Reuses the Navigation.tsx pattern so
+            the brand mark in the footer matches the one in the header. */}
+        <Link href={`/${locale}`} className="inline-flex items-center gap-3 group">
+          <picture>
+            <source srcSet="/logo-lcs.webp" type="image/webp" />
+            <img
+              src="/logo-lcs-optimized.png"
+              alt="LessonCraftStudio"
+              width={242}
+              height={313}
+              className="h-9 w-auto object-contain"
+              loading="lazy"
+            />
+          </picture>
+          <span className="font-display font-semibold text-base text-ink-900 tracking-tight group-hover:text-teal-800 transition-colors">
+            LessonCraftStudio
+          </span>
+        </Link>
+
+        <div className="mt-8 mb-10 border-t border-cream-300" aria-hidden="true" />
+
+        {/* Three link columns. Exercise-type column inner-columnizes the
+            ~29 items into two sub-columns so it stops reading as a single
+            endless vertical run. */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-10">
           {/* By language */}
           <div>
-            <h4 className="font-display text-sm font-semibold text-ink-900 mb-4">{t('byLanguage')}</h4>
-            <ul className="space-y-2 text-sm">
+            <h4 className="font-display text-xs font-bold text-ink-900 mb-3 uppercase tracking-wider">{t('byLanguage')}</h4>
+            <ul className="space-y-1.5 text-sm">
               {FOOTER_LANGUAGES.map(lang => (
                 <li key={lang.code}>
-                  <Link href={`/${lang.code}`} className="text-ink-600 hover:text-ink-900">
+                  <Link href={`/${lang.code}`} className="text-ink-600 hover:text-ink-900 transition-colors">
                     {lang.label}
                   </Link>
                 </li>
@@ -548,11 +572,11 @@ export function Footer({
 
           {/* By topic */}
           <div>
-            <h4 className="font-display text-sm font-semibold text-ink-900 mb-4">{t('byTopic')}</h4>
-            <ul className="space-y-2 text-sm">
+            <h4 className="font-display text-xs font-bold text-ink-900 mb-3 uppercase tracking-wider">{t('byTopic')}</h4>
+            <ul className="space-y-1.5 text-sm">
               {topics.map(topic => (
                 <li key={topic.slug}>
-                  <Link href={`/${locale}/topic/${topic.slug}/`} className="text-ink-600 hover:text-ink-900">
+                  <Link href={`/${locale}/topic/${topic.slug}/`} className="text-ink-600 hover:text-ink-900 transition-colors">
                     {topic.label}
                   </Link>
                 </li>
@@ -561,13 +585,15 @@ export function Footer({
             <p className="text-xs text-ink-500 mt-4">{t('moreTopicsSoon')}</p>
           </div>
 
-          {/* By exercise type */}
-          <div>
-            <h4 className="font-display text-sm font-semibold text-ink-900 mb-4">{t('byExerciseType')}</h4>
-            <ul className="space-y-2 text-sm">
+          {/* By exercise type — list inner-columnizes to 2 columns so the
+              long 29-item locale list reads as an organized grid, not a
+              vertical dump. */}
+          <div className="sm:col-span-2 lg:col-span-1">
+            <h4 className="font-display text-xs font-bold text-ink-900 mb-3 uppercase tracking-wider">{t('byExerciseType')}</h4>
+            <ul className="grid grid-cols-2 gap-x-4 gap-y-1.5 text-sm">
               {exerciseTypes.map(ex => (
                 <li key={ex.slug}>
-                  <Link href={`/${locale}/topic/${ex.slug}/`} className="text-ink-600 hover:text-ink-900">
+                  <Link href={`/${locale}/topic/${ex.slug}/`} className="text-ink-600 hover:text-ink-900 transition-colors">
                     {ex.label}
                   </Link>
                 </li>
@@ -576,24 +602,26 @@ export function Footer({
           </div>
         </div>
 
-        {/* Brand strip */}
-        <div className="mt-16 pt-8 border-t border-cream-300 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-          <p className="text-sm text-ink-600">{t('copyright')}</p>
-          <ul className="flex items-center gap-4 text-sm text-ink-600">
+        {/* Bottom strip — copyright + legal links. Divider sits above so
+            the brand row reads as the footer's signature even when the
+            column heights vary across locales. */}
+        <div className="mt-10 pt-6 border-t border-cream-300 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+          <p className="text-xs text-ink-500">{t('copyright')}</p>
+          <ul className="flex items-center gap-4 text-xs text-ink-500">
             <li>
-              <Link href={`/${locale}/contact`} className="hover:text-ink-900">
+              <Link href={`/${locale}/contact`} className="hover:text-ink-900 transition-colors">
                 {t('contact')}
               </Link>
             </li>
-            <li aria-hidden="true">·</li>
+            <li aria-hidden="true" className="text-ink-300">·</li>
             <li>
-              <Link href={`/${locale}/terms`} className="hover:text-ink-900">
+              <Link href={`/${locale}/terms`} className="hover:text-ink-900 transition-colors">
                 {t('terms')}
               </Link>
             </li>
-            <li aria-hidden="true">·</li>
+            <li aria-hidden="true" className="text-ink-300">·</li>
             <li>
-              <Link href={`/${locale}/privacy`} className="hover:text-ink-900">
+              <Link href={`/${locale}/privacy`} className="hover:text-ink-900 transition-colors">
                 {t('privacy')}
               </Link>
             </li>

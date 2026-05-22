@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Ten Frame — Activity — LessonCraft Studio</title>
-  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=7">
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=8">
   <!-- Per-wrapper overrides scoped to ten-frame-activity. The shared v7
        activity-card rules (card sizing, padding, overflow, header
        stacking, celebrate-bounce, prompt/Check/Next scaling) live in
@@ -31,12 +31,21 @@
        padding); desktop scales up to fill the wider card. */
     .tf-double .tf-cell { width: clamp(14px, 5vw, 60px) !important; }
 
-    /* v7.4 desktop: cells scale up so two ten-frames fill the bigger
-       card proportionally (operator's screenshot showed 45px cells
-       floating in a 720px card — looked tiny). */
+    /* v7.5 desktop: cap cells + safety-wrap frames-area so the double-
+       frame layout NEVER overflows the card horizontally. v7.4 bumped
+       cells to clamp(60, 6.5vw, 110) which at 1280-1440 viewports gave
+       80-95px cells × 5 cells × 2 frames = 800-1000px — exceeded card
+       inner of ~600-700px (operator's screenshots 191627/191654 showed
+       right frame visibly cut off). New ceiling 80px + 4vw scaling +
+       flex-wrap fallback ensures fit at every desktop width 768-2560. */
     @media (min-width: 768px) {
-      .tf-double .tf-cell { width: clamp(60px, 6.5vw, 110px) !important; }
-      .tf-frames-area { gap: clamp(20px, 2.5vw, 40px); }
+      .tf-double .tf-cell { width: clamp(50px, 4vw, 80px) !important; }
+      .tf-frames-area {
+        gap: clamp(16px, 2vw, 32px) !important;
+        max-width: 100% !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+      }
     }
 
     /* Ten-frame-specific: COUNT readout number font-size. */

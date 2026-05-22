@@ -145,7 +145,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
     ? tSeo(`educational_level.${gradeKey}`)
     : `Grade ${row.alignment.grade}`;
 
-  // v7.4 cache buster: bump on any mini tools/*-activity.html change so
+  // v7.5 cache buster: bump on any mini tools/*-activity.html change so
   // browsers fetch fresh wrapper HTML on every navigation. Defends
   // against iOS Safari + Android WebView page-cache/bfcache quirks that
   // can ignore upstream Cache-Control: max-age=0 under back-forward
@@ -153,7 +153,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '7.4';
+  const ACTIVITY_WRAPPER_VERSION = '7.5';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +
@@ -205,18 +205,17 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
 
           {/* Iframe wrapper. DESKTOP: rigid height 66.67vh of viewport
               (operator-locked: card covers 2/3 of screen vertically).
-              MOBILE (v7.4): min-height 66.67vh as floor + height auto
-              so ActivityIframe's postMessage auto-resize can grow the
-              iframe to fit content. Mobile fix prevents the apparent-
-              overlap that v7.3 had: rigid 66.67vh = 445px on iPhone-SE
-              left only ~106px for engine content needing 200-300px →
-              overflow:hidden clipped engine content into the chrome
-              below it = visible overlap. With height:auto on mobile,
-              card+iframe grow together via postMessage and nothing
-              clips. !important still wins over ActivityIframe's inline
-              style on the rule that applies (desktop only). */}
+              MOBILE (v7.5): bumped min-height to 85vh so chrome+engine
+              content fits within iframe without page-scroll (operator
+              feedback: v7.4 card grew to 900-1500px on phone → user
+              had to scroll page). 85vh = 567px on iPhone-SE 667vh →
+              +122px over 66.67vh. Combined with v7.5 Prong 3a mobile
+              chrome-density reductions, card should fit cleanly. iframe
+              still uses height:auto on mobile so ActivityIframe's
+              postMessage auto-resize handles edge cases gracefully. */}
           <style dangerouslySetInnerHTML={{ __html:
             '.lcs-prototype-iframe-wrapper iframe { min-height: 66.67vh !important; }' +
+            '@media (max-width: 767px) { .lcs-prototype-iframe-wrapper iframe { min-height: 85vh !important; } }' +
             '@media (min-width: 768px) { .lcs-prototype-iframe-wrapper iframe { height: 66.67vh !important; } }'
           }} />
           <div className="lcs-prototype-iframe-wrapper relative z-10">

@@ -529,7 +529,7 @@ export function Footer({
 
   return (
     <footer id="footer" className="bg-cream-50 border-t-2 border-cream-300 pt-10 pb-10 md:pt-12 md:pb-12 mt-8">
-      <div className="container mx-auto px-4 max-w-6xl">
+      <div className="container mx-auto px-4 max-w-7xl">
         {/* Top row — logo + wordmark. Reuses the Navigation.tsx pattern so
             the brand mark in the footer matches the one in the header. */}
         <Link href={`/${locale}`} className="inline-flex items-center gap-3 group">
@@ -551,12 +551,12 @@ export function Footer({
 
         <div className="mt-8 mb-10 border-t border-cream-300" aria-hidden="true" />
 
-        {/* Three link columns. Exercise-type column inner-columnizes the
-            ~29 items into two sub-columns so it stops reading as a single
-            endless vertical run. */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-10">
+        {/* Three link columns laid across a 6-track grid so the wide
+            exercise-type list (29 items) flows into 4 sub-columns at
+            desktop — wide-and-short instead of narrow-and-tall. */}
+        <div className="grid grid-cols-1 sm:grid-cols-6 gap-x-8 gap-y-10">
           {/* By language */}
-          <div>
+          <div className="sm:col-span-3 lg:col-span-1">
             <h4 className="font-display text-xs font-bold text-ink-900 mb-3 uppercase tracking-wider">{t('byLanguage')}</h4>
             <ul className="space-y-1.5 text-sm">
               {FOOTER_LANGUAGES.map(lang => (
@@ -571,7 +571,7 @@ export function Footer({
           </div>
 
           {/* By topic */}
-          <div>
+          <div className="sm:col-span-3 lg:col-span-1">
             <h4 className="font-display text-xs font-bold text-ink-900 mb-3 uppercase tracking-wider">{t('byTopic')}</h4>
             <ul className="space-y-1.5 text-sm">
               {topics.map(topic => (
@@ -585,12 +585,12 @@ export function Footer({
             <p className="text-xs text-ink-500 mt-4">{t('moreTopicsSoon')}</p>
           </div>
 
-          {/* By exercise type — list inner-columnizes to 2 columns so the
-              long 29-item locale list reads as an organized grid, not a
-              vertical dump. */}
-          <div className="sm:col-span-2 lg:col-span-1">
+          {/* By exercise type — at desktop the list spans 4 of 6 outer cols
+              and flows into a 4-column inner sub-grid (29 items / 4 cols
+              ≈ 8 rows; was ~15 rows under the previous narrow 2-col stack). */}
+          <div className="sm:col-span-6 lg:col-span-4">
             <h4 className="font-display text-xs font-bold text-ink-900 mb-3 uppercase tracking-wider">{t('byExerciseType')}</h4>
-            <ul className="grid grid-cols-2 gap-x-4 gap-y-1.5 text-sm">
+            <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-1.5 text-sm">
               {exerciseTypes.map(ex => (
                 <li key={ex.slug}>
                   <Link href={`/${locale}/topic/${ex.slug}/`} className="text-ink-600 hover:text-ink-900 transition-colors">

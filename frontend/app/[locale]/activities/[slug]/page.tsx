@@ -154,6 +154,72 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   const sectionLabel =
     ACTIVITIES_SECTION_LABEL[params.locale] ?? ACTIVITIES_SECTION_LABEL.en;
 
+  // Prototype gate — single live activity for operator review of the
+  // warm-but-restrained redesign (dead-space fix + figure-ground play-area
+  // + tightened adult chrome). Locale-agnostic alignment.code is the
+  // stable signal. When approved, the cascade commission lifts this branch
+  // into a shared component for E2/E7/E8.
+  const isTenFramePrototype = row.alignment.code === 'K.NBT.A.1';
+
+  if (isTenFramePrototype) {
+    // Play-area background: asymmetric dual-radial gradient per operator
+    // refinement — teal at ~5% top-left as primary depth cue, coral at
+    // ~3.5% bottom-right as fainter counter-balance. Calibration ceiling:
+    // never crosses into a visible graphic; sits below the card's own
+    // brighter cream-surface-2 fill so the card still lifts.
+    const playAreaBg =
+      'radial-gradient(circle at 8% 8%, rgba(20,107,94,0.05) 0, transparent 55%),' +
+      ' radial-gradient(circle at 92% 92%, rgba(242,120,75,0.035) 0, transparent 55%)';
+    return (
+      <main className="bg-cream-50 py-4 px-3 md:py-6 md:px-6 lg:py-8">
+        <article className="mx-auto max-w-4xl">
+          <BreadcrumbTrail
+            locale={params.locale}
+            trail={[
+              { href: `/${params.locale}/activities/`, label: sectionLabel },
+              { label: row.page_title[params.locale] },
+            ]}
+          />
+          <div
+            className="lcs-prototype-play-area mt-3 md:mt-4 bg-cream-100 rounded-2xl md:rounded-3xl px-4 py-5 md:px-8 md:py-7 shadow-[0_2px_6px_rgba(20,30,28,0.06),_0_20px_48px_rgba(20,30,28,0.09)]"
+            style={{ backgroundImage: playAreaBg }}
+          >
+            {/* Adult chrome — tightened. Smaller H1, lighter description,
+                softer chip. Still carries SEO + teacher value; visually
+                yields to the card below so the child's eye lands on the
+                toy in roughly half the vertical distance. */}
+            <header className="mb-3 md:mb-4 text-center">
+              <h1 className="font-display font-semibold text-base md:text-lg text-teal-700 leading-tight mb-0.5">
+                {row.page_title[params.locale]}
+              </h1>
+              <p className="hidden lg:block text-xs text-stone-500 max-w-2xl mx-auto leading-snug mb-1.5">
+                {row.page_intro[params.locale]}
+              </p>
+              <div className="inline-flex items-center gap-2 px-3 py-0.5 rounded-full bg-cream-200 text-teal-700 text-xs font-medium">
+                <span>{localizedGrade}</span>
+                <span className="text-teal-700/40">·</span>
+                <span className="hidden sm:inline">{row.alignment.strand}</span>
+                <span className="hidden sm:inline text-teal-700/40">·</span>
+                <span className="font-mono">{row.alignment.code}</span>
+              </div>
+            </header>
+
+            <ActivityIframe src={iframeSrc} title={row.page_title[params.locale]} />
+          </div>
+
+          <Script
+            type="application/ld+json"
+            id={`activity-jsonld-${row.id}`}
+            strategy="afterInteractive"
+            dangerouslySetInnerHTML={{ __html: jsonLdFor(row, params.locale) }}
+          />
+        </article>
+      </main>
+    );
+  }
+
+  // Non-prototype path — preserved byte-identical for all other activities
+  // until the cascade commission approves rolling the prototype across them.
   return (
     <main className="bg-cream-100 py-2 px-3 md:py-3 md:px-6">
       <article className="mx-auto max-w-5xl">

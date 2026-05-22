@@ -182,6 +182,14 @@ design-elements-sampler.html
 lesson-plan-drafts/**/*.md
 !lesson-plan-drafts/_TEMPLATE.md
 
+# Audio recording manifests (regenerable artifacts of
+# scripts/audio/build-recording-manifest.js). Per CLAUDE.md §10.4 spirit
+# these are operator-working-copy material; the generator script is
+# committed, the dated CSV folders are not. Each run produces a fresh
+# docs/audio/recording-manifest-<utc-date>/ folder which the operator
+# imports into their own xlsx/Sheets workbook.
+docs/audio/recording-manifest-*/
+
 # Phonics safety-verification pipeline — vendored external sources.
 # NST pronunciation lexicons (CC0 from Språkbanken/Nasjonalbiblioteket) and
 # kaikki.org Wiktionary IPA dumps (CC-BY-SA) are downloaded on first run

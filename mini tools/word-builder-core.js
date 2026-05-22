@@ -128,58 +128,39 @@ window.WordBuilderCore = {
     return null;
   },
 
-  /* Speak a single tile (syllable) in the task's language. The shell
-     primes voice loading on its own speaker buttons; we reuse the same
-     SpeechSynthesis instance. Silent fail-safe — no error if browser
-     blocks autoplay or lacks the voice. */
+  /* Speak a single tile (syllable) in the task's language. Routes
+     through LCSAudio so recorded .mp3 files (when present) replace
+     TTS with zero engine-side change. */
   speakTile: function (text) {
-    if (!window.speechSynthesis) return;
-    try {
-      window.speechSynthesis.cancel();
-      var u = new window.SpeechSynthesisUtterance(String(text));
-      u.lang = this._ttsLang();
-      u.rate = 0.85;  /* slightly slower for chunked phonics */
-      window.speechSynthesis.speak(u);
-    } catch (e) { /* ignore */ }
+    window.LCSAudio.speak({
+      type: 'syllable',
+      text: text,
+      lang: this.language,
+      rate: 0.85  /* slightly slower for chunked phonics */
+    });
   },
 
   /* Speak the joined word — the blend side of segment->blend. Called
      on a correct Check after per-slot rings paint. */
   speakBlend: function () {
-    if (!window.speechSynthesis) return;
     var word = this.answer || this.targetWord;
     if (!word) return;
-    try {
-      window.speechSynthesis.cancel();
-      var u = new window.SpeechSynthesisUtterance(String(word));
-      u.lang = this._ttsLang();
-      u.rate = 0.8;
-      window.speechSynthesis.speak(u);
-    } catch (e) { /* ignore */ }
+    window.LCSAudio.speak({
+      type: 'word',
+      text: word,
+      lang: this.language,
+      rate: 0.8
+    });
   },
 
-  /* Map locale code to BCP-47 TTS hint. Pass the task language through
-     when it's already BCP-47; otherwise default to the locale's typical
-     voice. Spanish defaults to es-ES (the K-3 audience target spans
-     Spain + LATAM bilingual contexts; voice availability is most
-     consistent on es-ES). */
+  /* Thin wrapper kept for backwards-compat with any per-app caller
+     reading the BCP-47 form directly. LCSAudio owns the canonical map;
+     this delegates so the engine has one fewer copy to drift. */
   _ttsLang: function () {
-    var l = String(this.language || 'en').toLowerCase();
-    if (l.indexOf('-') !== -1) return l;
-    switch (l) {
-      case 'es': return 'es-ES';
-      case 'en': return 'en-US';
-      case 'de': return 'de-DE';
-      case 'fr': return 'fr-FR';
-      case 'it': return 'it-IT';
-      case 'pt': return 'pt-BR';
-      case 'nl': return 'nl-NL';
-      case 'sv': return 'sv-SE';
-      case 'da': return 'da-DK';
-      case 'no': return 'nb-NO';
-      case 'fi': return 'fi-FI';
-      default:   return 'en-US';
+    if (window.LCSAudio && window.LCSAudio._ttsLang) {
+      return window.LCSAudio._ttsLang(this.language);
     }
+    return String(this.language || 'en').toLowerCase();
   },
 
   showFeedback: function (correct) {
@@ -232,14 +213,12 @@ window.WordBuilderCore = {
         hearBtn.setAttribute('aria-label', 'Hear the word');
         hearBtn.title = 'Hear the word';
         hearBtn.addEventListener('click', function () {
-          if (!window.speechSynthesis) return;
-          try {
-            window.speechSynthesis.cancel();
-            var u = new window.SpeechSynthesisUtterance(hearWord);
-            u.lang = self.subject.hearItLang || self._ttsLang();
-            u.rate = 0.75;
-            window.speechSynthesis.speak(u);
-          } catch (e) { /* ignore */ }
+          window.LCSAudio.speak({
+            type: 'word',
+            text: hearWord,
+            lang: self.subject.hearItLang || self.language,
+            rate: 0.75
+          });
         });
         subjectEl.appendChild(hearBtn);
       }

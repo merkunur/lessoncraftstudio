@@ -123,7 +123,7 @@ export default async function RootLayout({
         {/* YouTube preconnects moved to VideoLightbox component — only needed when video is present */}
         {/* M5: Removed vestigial Google Fonts preconnects (next/font self-hosts) and self dns-prefetch */}
       </head>
-      <body className={`${inter.variable} ${poppins.variable} ${fraunces.variable} min-h-screen bg-cream-100 font-sans`}>
+      <body className={`${inter.variable} ${poppins.variable} ${fraunces.variable} min-h-screen bg-cream-100 font-sans flex flex-col`}>
         <NavigationProgress />
         <Providers>
           {children}

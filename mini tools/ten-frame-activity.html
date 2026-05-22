@@ -8,9 +8,9 @@
   <!-- Prototype-only overrides per the activity-page redesign commission.
        Scoped to THIS wrapper only — choice-board / cvc-builder /
        syllable-builder wrappers do not include this <style> block and
-       therefore keep the shell's existing 4%-scale celebrate + cream
-       iframe-body background. When the redesign cascades, this block
-       lifts into lcs-shell.css. -->
+       therefore keep the shell's existing sizing + 4%-scale celebrate +
+       cream iframe-body background. When the redesign cascades, this
+       block lifts into lcs-shell.css. -->
   <style>
     /* v2: transparent iframe body so the parent page's sage field
        (#DBE7DF) shows through everywhere the card itself doesn't cover.
@@ -18,6 +18,34 @@
        (cream #FBF3E4) which would otherwise hide the field behind the
        iframe's own document. */
     html, body { background: transparent !important; }
+
+    /* v5 PRIMARY TARGET: card HEIGHT = 2/3 of viewport height on every
+       device (operator-locked: "the activity card should cover two third
+       of any kind of screen"). min-height is the floor; contents can
+       push the card taller but never shorter. Overrides
+       lcs-shell.css line 236-237 (.lcs-app.activity height: auto). */
+    .lcs-app.activity { min-height: 66.67vh !important; }
+
+    /* v5: card WIDTH is secondary and fluid — mobile fills viewport,
+       desktop caps to 62vw with 720px floor (matches IXL's measured 62%
+       content-area). Overrides lcs-shell.css line 72 (max-width: 720px). */
+    .lcs-app { max-width: 95vw !important; }
+    @media (min-width: 768px) {
+      .lcs-app { max-width: max(720px, 62vw) !important; }
+    }
+
+    /* v5: contents scale with VIEWPORT HEIGHT (same vh unit as the card
+       height target) so they grow proportionally with the bigger card.
+       Cells / prompt / COUNT readout all use vh. Check button min-width
+       stays vw because button readability is about horizontal reach. */
+    .tf-double .tf-cell { width: clamp(36px, 7vh, 110px) !important; }
+    .lcs-activity-prompt { font-size: clamp(20px, 4vh, 48px) !important; }
+    .lcs-activity-check, .lcs-activity-next {
+      min-height: clamp(48px, 6vh, 76px) !important;
+      min-width: clamp(120px, 18vw, 280px) !important;
+      font-size: clamp(16px, 2vh, 26px) !important;
+    }
+    .tf-readout-num { font-size: clamp(24px, 4.5vh, 56px) !important; }
 
     /* v1: gentle bounce on the success prompt. Lands at scale(1.04) so
        the resting state matches every other activity's existing 4%-scale

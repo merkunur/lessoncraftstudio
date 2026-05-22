@@ -171,7 +171,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
     // accent/celebrate; it does not tint the field.
     return (
       <main className="bg-cream-50 pt-4 pb-4 px-4 md:pt-6 md:pb-6 md:px-8 lg:pt-8">
-        <article className="mx-auto max-w-[1800px]">
+        <article className="mx-auto">
           <BreadcrumbTrail
             locale={params.locale}
             trail={[

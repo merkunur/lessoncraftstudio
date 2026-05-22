@@ -528,7 +528,7 @@ export function Footer({
   });
 
   return (
-    <footer id="footer" className="bg-cream-50 border-t-2 border-cream-300 pt-10 pb-10 md:pt-12 md:pb-12 mt-8">
+    <footer id="footer" className="bg-cream-50 border-t-2 border-cream-300 pt-8 pb-8 md:pt-10 md:pb-10 mt-8">
       <div className="container mx-auto px-4 max-w-7xl">
         {/* Top row — logo + wordmark. Reuses the Navigation.tsx pattern so
             the brand mark in the footer matches the one in the header. */}
@@ -549,12 +549,12 @@ export function Footer({
           </span>
         </Link>
 
-        <div className="mt-8 mb-10 border-t border-cream-300" aria-hidden="true" />
+        <div className="mt-6 mb-7 border-t border-cream-300" aria-hidden="true" />
 
         {/* Three link columns laid across a 6-track grid so the wide
             exercise-type list (29 items) flows into 4 sub-columns at
             desktop — wide-and-short instead of narrow-and-tall. */}
-        <div className="grid grid-cols-1 sm:grid-cols-6 gap-x-8 gap-y-10">
+        <div className="grid grid-cols-1 sm:grid-cols-6 gap-x-8 gap-y-8">
           {/* By language — 2-col inner sub-grid at desktop so the 11
               languages flow ~6 rows tall (was 11 rows in v3 first cut,
               which kept the row height tall and capped how short the
@@ -609,7 +609,7 @@ export function Footer({
         {/* Bottom strip — copyright + legal links. Divider sits above so
             the brand row reads as the footer's signature even when the
             column heights vary across locales. */}
-        <div className="mt-10 pt-6 border-t border-cream-300 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+        <div className="mt-7 pt-5 border-t border-cream-300 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
           <p className="text-xs text-ink-500">{t('copyright')}</p>
           <ul className="flex items-center gap-4 text-xs text-ink-500">
             <li>

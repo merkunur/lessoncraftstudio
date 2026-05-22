@@ -64,12 +64,19 @@
       .lcs-app { max-width: max(720px, 60vw) !important; }
     }
 
-    /* v6.1: cells scale via vw with media queries that match the card's
-       width formula. Inner card area = 80% of card width (after 10%
-       padding each side). 10 cells × 6.5vw on mobile = 65% of viewport
-       fits within 80% × 95vw = 76vw inner area. On desktop 10 × 4.2vw
-       = 42% of viewport fits in 80% × 60vw = 48vw inner area. */
-    .tf-double .tf-cell { width: clamp(16px, 6.5vw, 60px) !important; }
+    /* v6.2: zero out .lcs-stage's own padding so it doesn't double-pad
+       on top of the card-level 10% padding. lcs-shell.css line 145 has
+       `padding: var(--lcs-pad)` (12-24px) on .lcs-stage; with my card
+       padding active, the stage padding pushes the ten-frame inward
+       past the available space and causes the 17px overflow operator
+       would see at narrow viewports. */
+    .lcs-stage { padding: 0 !important; }
+
+    /* v6.2: cells scale via vw with media queries that match the card's
+       width formula. Phone cells slightly smaller (5vw vs 6.5vw) so
+       10 cells + gaps fit inside the 80% inner area without the stage
+       overflow. Desktop unchanged. */
+    .tf-double .tf-cell { width: clamp(14px, 5vw, 60px) !important; }
     @media (min-width: 768px) {
       .tf-double .tf-cell { width: clamp(40px, 4.2vw, 130px) !important; }
     }

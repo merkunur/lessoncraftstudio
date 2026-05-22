@@ -1,14 +1,14 @@
 {
   "locale": "es",
-  "generated_at": "2026-05-21T22:46:55.719Z",
+  "generated_at": "2026-05-21T23:58:18.775Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
     "rule-based-phonotactic-syllabifier",
     "vocabulary-phonics-syl-cross-check"
   ],
-  "count_approved": 966,
-  "count_quarantined": 297,
+  "count_approved": 958,
+  "count_quarantined": 305,
   "entries": [
     {
       "key": "acorn",
@@ -4892,24 +4892,6 @@
         "co",
         "la",
         "dor"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
-      "key": "cold",
-      "word": "frío",
-      "split": [
-        "frío"
-      ],
-      "count": 1,
-      "chunks": [
-        "frío"
       ],
       "sources_agreed": [
         "TeX",
@@ -14440,28 +14422,6 @@
       }
     },
     {
-      "key": "parsnip",
-      "word": "chirivía",
-      "split": [
-        "chi",
-        "ri",
-        "vía"
-      ],
-      "count": 3,
-      "chunks": [
-        "chi",
-        "ri",
-        "vía"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
       "key": "passport",
       "word": "pasaporte",
       "split": [
@@ -14969,30 +14929,6 @@
         "tó",
         "gra",
         "fo"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
-      "key": "photography",
-      "word": "fotografía",
-      "split": [
-        "fo",
-        "to",
-        "gra",
-        "fía"
-      ],
-      "count": 4,
-      "chunks": [
-        "fo",
-        "to",
-        "gra",
-        "fía"
       ],
       "sources_agreed": [
         "TeX",
@@ -15559,28 +15495,6 @@
         "pa",
         "tru",
         "lla"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
-      "key": "police-officer",
-      "word": "policía",
-      "split": [
-        "po",
-        "li",
-        "cía"
-      ],
-      "count": 3,
-      "chunks": [
-        "po",
-        "li",
-        "cía"
       ],
       "sources_agreed": [
         "TeX",
@@ -16227,28 +16141,6 @@
       "rule_authoritative": true
     },
     {
-      "key": "rainbow",
-      "word": "arcoíris",
-      "split": [
-        "ar",
-        "coí",
-        "ris"
-      ],
-      "count": 3,
-      "chunks": [
-        "ar",
-        "coí",
-        "ris"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
       "key": "rainy",
       "word": "lluvioso",
       "split": [
@@ -16557,24 +16449,6 @@
           "llo"
         ]
       }
-    },
-    {
-      "key": "river",
-      "word": "río",
-      "split": [
-        "río"
-      ],
-      "count": 1,
-      "chunks": [
-        "río"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
     },
     {
       "key": "robin",
@@ -21669,26 +21543,6 @@
       "rule_authoritative": true
     },
     {
-      "key": "watermelon",
-      "word": "sandía",
-      "split": [
-        "san",
-        "día"
-      ],
-      "count": 2,
-      "chunks": [
-        "san",
-        "día"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
       "key": "wave",
       "word": "ola",
       "split": [
@@ -21993,30 +21847,6 @@
         "es",
         "cri",
         "bir"
-      ],
-      "sources_agreed": [
-        "TeX",
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 3,
-      "rule_authoritative": true
-    },
-    {
-      "key": "x-ray",
-      "word": "radiografía",
-      "split": [
-        "ra",
-        "dio",
-        "gra",
-        "fía"
-      ],
-      "count": 4,
-      "chunks": [
-        "ra",
-        "dio",
-        "gra",
-        "fía"
       ],
       "sources_agreed": [
         "TeX",

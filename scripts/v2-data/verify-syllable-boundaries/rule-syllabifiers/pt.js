@@ -39,8 +39,13 @@ function isVowel(ch) { return VOWELS.has(ch.toLowerCase()); }
 
 function isDiphthong(a, b) {
   a = a.toLowerCase(); b = b.toLowerCase();
-  // Nasal diphthongs (ão, ãe, õe)
+  // Nasal diphthongs (ão, ãe, õe) — checked FIRST so cãibra/mãe/põe stay merged
   if (NASAL_VOWELS.has(a) && (WEAK_VOWELS.has(b) || STRONG_VOWELS.has(b))) return true;
+  // Accented weak vowel (í, ú) adjacent to any vowel → HIATUS, not diphthong.
+  // Per Acordo Ortográfico: accented í/ú signals stress on the weak vowel,
+  // breaking what would otherwise be a diphthong (e.g., país=pa-ís, baú=ba-ú,
+  // saúde=sa-ú-de, paraíso=pa-ra-í-so, raízes=ra-í-zes).
+  if (a === 'í' || a === 'ú' || b === 'í' || b === 'ú') return false;
   // Strong+weak / weak+strong / weak+weak
   if (STRONG_VOWELS.has(a) && WEAK_VOWELS.has(b)) return true;
   if (WEAK_VOWELS.has(a) && STRONG_VOWELS.has(b)) return true;

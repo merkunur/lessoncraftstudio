@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-21T22:46:55.722Z",
-  "total_quarantined": 772,
+  "generated_at": "2026-05-21T23:58:18.777Z",
+  "total_quarantined": 780,
   "summary": {
     "fi": {
       "approved": 1120,
@@ -11,8 +11,8 @@
       "quarantined": 332
     },
     "es": {
-      "approved": 966,
-      "quarantined": 297
+      "approved": 958,
+      "quarantined": 305
     }
   },
   "entries": [
@@ -18266,11 +18266,12 @@
       "top_split": [
         "ca",
         "ca",
-        "túa",
+        "tú",
+        "a",
         "nin",
         "fa"
       ],
-      "top_split_count": 5,
+      "top_split_count": 6,
       "vocab_phonics_syl": 3,
       "tex_split": [
         "ca",
@@ -18286,7 +18287,8 @@
         "R": [
           "ca",
           "ca",
-          "túa",
+          "tú",
+          "a",
           "nin",
           "fa"
         ],
@@ -18399,6 +18401,34 @@
         "N": null,
         "W": null,
         "S": 2
+      }
+    },
+    {
+      "locale": "es",
+      "key": "cold",
+      "word": "frío",
+      "verdict": "QUARANTINE",
+      "reason": "rule_vs_vocab_phonics_count_disagreement",
+      "top_split": [
+        "frí",
+        "o"
+      ],
+      "top_split_count": 2,
+      "vocab_phonics_syl": 1,
+      "tex_split": [
+        "frío"
+      ],
+      "source_outputs": {
+        "T": [
+          "frío"
+        ],
+        "R": [
+          "frí",
+          "o"
+        ],
+        "N": null,
+        "W": null,
+        "S": 1
       }
     },
     {
@@ -20531,10 +20561,11 @@
         "ni",
         "tor",
         "car",
-        "día",
+        "dí",
+        "a",
         "co"
       ],
-      "top_split_count": 6,
+      "top_split_count": 7,
       "vocab_phonics_syl": 3,
       "tex_split": [
         "mo",
@@ -20556,7 +20587,8 @@
           "ni",
           "tor",
           "car",
-          "día",
+          "dí",
+          "a",
           "co"
         ],
         "N": null,
@@ -22706,11 +22738,12 @@
       "reason": "rule_vs_vocab_phonics_count_disagreement",
       "top_split": [
         "or",
-        "quí",
+        "qu",
+        "í",
         "de",
         "a"
       ],
-      "top_split_count": 4,
+      "top_split_count": 5,
       "vocab_phonics_syl": 3,
       "tex_split": [
         "or",
@@ -22725,7 +22758,8 @@
         ],
         "R": [
           "or",
-          "quí",
+          "qu",
+          "í",
           "de",
           "a"
         ],
@@ -22930,6 +22964,42 @@
     },
     {
       "locale": "es",
+      "key": "parsnip",
+      "word": "chirivía",
+      "verdict": "QUARANTINE",
+      "reason": "rule_vs_vocab_phonics_count_disagreement",
+      "top_split": [
+        "chi",
+        "ri",
+        "ví",
+        "a"
+      ],
+      "top_split_count": 4,
+      "vocab_phonics_syl": 3,
+      "tex_split": [
+        "chi",
+        "ri",
+        "vía"
+      ],
+      "source_outputs": {
+        "T": [
+          "chi",
+          "ri",
+          "vía"
+        ],
+        "R": [
+          "chi",
+          "ri",
+          "ví",
+          "a"
+        ],
+        "N": null,
+        "W": null,
+        "S": 3
+      }
+    },
+    {
+      "locale": "es",
       "key": "partly-cloudy",
       "word": "parcialmente nublado",
       "verdict": "QUARANTINE",
@@ -23099,9 +23169,10 @@
       "top_split": [
         "pe",
         "o",
-        "nía"
+        "ní",
+        "a"
       ],
-      "top_split_count": 3,
+      "top_split_count": 4,
       "vocab_phonics_syl": 2,
       "tex_split": [
         "peo",
@@ -23115,11 +23186,52 @@
         "R": [
           "pe",
           "o",
-          "nía"
+          "ní",
+          "a"
         ],
         "N": null,
         "W": null,
         "S": 2
+      }
+    },
+    {
+      "locale": "es",
+      "key": "photography",
+      "word": "fotografía",
+      "verdict": "QUARANTINE",
+      "reason": "rule_vs_vocab_phonics_count_disagreement",
+      "top_split": [
+        "fo",
+        "to",
+        "gra",
+        "fí",
+        "a"
+      ],
+      "top_split_count": 5,
+      "vocab_phonics_syl": 4,
+      "tex_split": [
+        "fo",
+        "to",
+        "gra",
+        "fía"
+      ],
+      "source_outputs": {
+        "T": [
+          "fo",
+          "to",
+          "gra",
+          "fía"
+        ],
+        "R": [
+          "fo",
+          "to",
+          "gra",
+          "fí",
+          "a"
+        ],
+        "N": null,
+        "W": null,
+        "S": 4
       }
     },
     {
@@ -23363,6 +23475,42 @@
         "N": null,
         "W": null,
         "S": 2
+      }
+    },
+    {
+      "locale": "es",
+      "key": "police-officer",
+      "word": "policía",
+      "verdict": "QUARANTINE",
+      "reason": "rule_vs_vocab_phonics_count_disagreement",
+      "top_split": [
+        "po",
+        "li",
+        "cí",
+        "a"
+      ],
+      "top_split_count": 4,
+      "vocab_phonics_syl": 3,
+      "tex_split": [
+        "po",
+        "li",
+        "cía"
+      ],
+      "source_outputs": {
+        "T": [
+          "po",
+          "li",
+          "cía"
+        ],
+        "R": [
+          "po",
+          "li",
+          "cí",
+          "a"
+        ],
+        "N": null,
+        "W": null,
+        "S": 3
       }
     },
     {
@@ -23765,6 +23913,42 @@
     },
     {
       "locale": "es",
+      "key": "rainbow",
+      "word": "arcoíris",
+      "verdict": "QUARANTINE",
+      "reason": "rule_vs_vocab_phonics_count_disagreement",
+      "top_split": [
+        "ar",
+        "co",
+        "í",
+        "ris"
+      ],
+      "top_split_count": 4,
+      "vocab_phonics_syl": 3,
+      "tex_split": [
+        "ar",
+        "coí",
+        "ris"
+      ],
+      "source_outputs": {
+        "T": [
+          "ar",
+          "coí",
+          "ris"
+        ],
+        "R": [
+          "ar",
+          "co",
+          "í",
+          "ris"
+        ],
+        "N": null,
+        "W": null,
+        "S": 3
+      }
+    },
+    {
+      "locale": "es",
       "key": "raincoat",
       "word": "impermeable",
       "verdict": "QUARANTINE",
@@ -24057,6 +24241,34 @@
         "N": null,
         "W": null,
         "S": 2
+      }
+    },
+    {
+      "locale": "es",
+      "key": "river",
+      "word": "río",
+      "verdict": "QUARANTINE",
+      "reason": "rule_vs_vocab_phonics_count_disagreement",
+      "top_split": [
+        "rí",
+        "o"
+      ],
+      "top_split_count": 2,
+      "vocab_phonics_syl": 1,
+      "tex_split": [
+        "río"
+      ],
+      "source_outputs": {
+        "T": [
+          "río"
+        ],
+        "R": [
+          "rí",
+          "o"
+        ],
+        "N": null,
+        "W": null,
+        "S": 1
       }
     },
     {
@@ -27071,12 +27283,13 @@
       "verdict": "QUARANTINE",
       "reason": "rule_vs_vocab_phonics_count_disagreement",
       "top_split": [
-        "grúa",
+        "grú",
+        "a",
         "re",
         "mol",
         "que"
       ],
-      "top_split_count": 4,
+      "top_split_count": 5,
       "vocab_phonics_syl": 1,
       "tex_split": [
         "grúa re",
@@ -27090,7 +27303,8 @@
           "que"
         ],
         "R": [
-          "grúa",
+          "grú",
+          "a",
           "re",
           "mol",
           "que"
@@ -27329,10 +27543,11 @@
       "verdict": "QUARANTINE",
       "reason": "rule_vs_vocab_phonics_count_disagreement",
       "top_split": [
-        "tío",
+        "tí",
+        "o",
         "sam"
       ],
-      "top_split_count": 2,
+      "top_split_count": 3,
       "vocab_phonics_syl": 1,
       "tex_split": [
         "tío sam"
@@ -27342,7 +27557,8 @@
           "tío sam"
         ],
         "R": [
-          "tío",
+          "tí",
+          "o",
           "sam"
         ],
         "N": null,
@@ -27504,6 +27720,38 @@
         "N": null,
         "W": null,
         "S": 3
+      }
+    },
+    {
+      "locale": "es",
+      "key": "watermelon",
+      "word": "sandía",
+      "verdict": "QUARANTINE",
+      "reason": "rule_vs_vocab_phonics_count_disagreement",
+      "top_split": [
+        "san",
+        "dí",
+        "a"
+      ],
+      "top_split_count": 3,
+      "vocab_phonics_syl": 2,
+      "tex_split": [
+        "san",
+        "día"
+      ],
+      "source_outputs": {
+        "T": [
+          "san",
+          "día"
+        ],
+        "R": [
+          "san",
+          "dí",
+          "a"
+        ],
+        "N": null,
+        "W": null,
+        "S": 2
       }
     },
     {
@@ -27794,6 +28042,46 @@
         "N": null,
         "W": null,
         "S": 2
+      }
+    },
+    {
+      "locale": "es",
+      "key": "x-ray",
+      "word": "radiografía",
+      "verdict": "QUARANTINE",
+      "reason": "rule_vs_vocab_phonics_count_disagreement",
+      "top_split": [
+        "ra",
+        "dio",
+        "gra",
+        "fí",
+        "a"
+      ],
+      "top_split_count": 5,
+      "vocab_phonics_syl": 4,
+      "tex_split": [
+        "ra",
+        "dio",
+        "gra",
+        "fía"
+      ],
+      "source_outputs": {
+        "T": [
+          "ra",
+          "dio",
+          "gra",
+          "fía"
+        ],
+        "R": [
+          "ra",
+          "dio",
+          "gra",
+          "fí",
+          "a"
+        ],
+        "N": null,
+        "W": null,
+        "S": 4
       }
     },
     {

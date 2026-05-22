@@ -18,12 +18,17 @@
        up from bottom:-6px (was bleeding into slots row below). Widen
        inter-section gap so subject ↔ slots ↔ palette ↔ check don't crowd. */
     @media (max-width: 599px) {
-      .cvc-subject { max-width: min(280px, 88vw); }
+      /* !important needed: engine injects its CSS via JS at runtime (after
+         this inline <style>) — equal specificity, later cascade wins.
+         (Empirical: v7.2 verify-mobile.js first run measured Hear button at
+         -6px because the engine's .cvc-subject-hear{bottom:-6px} rule beat
+         this block without !important.) */
+      .cvc-subject { max-width: min(280px, 88vw) !important; }
       .cvc-subject-img { height: clamp(72px, 14vmin, 96px) !important; }
-      .cvc-subject-hear { bottom: 4px; right: 4px; }
-      .cvc-slots { max-width: 90vw; }
-      .cvc-palette { max-width: 90vw; }
-      .cvc-wrap { gap: clamp(12px, 2.6vmin, 16px); }
+      .cvc-subject-hear { bottom: 4px !important; right: 4px !important; }
+      .cvc-slots { max-width: 90vw !important; }
+      .cvc-palette { max-width: 90vw !important; }
+      .cvc-wrap { gap: clamp(12px, 2.6vmin, 16px) !important; }
     }
   </style>
 </head>

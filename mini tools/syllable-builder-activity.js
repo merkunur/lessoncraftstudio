@@ -31,7 +31,7 @@ var SYLLABLE_ACTIVITY_STRINGS = {
     sv: 'Toca las sílabas en orden para formar la palabra de esta imagen.',
     da: 'Toca las sílabas en orden para formar la palabra de esta imagen.',
     no: 'Toca las sílabas en orden para formar la palabra de esta imagen.',
-    fi: 'Toca las sílabas en orden para formar la palabra de esta imagen.'
+    fi: 'Napauta tavut järjestyksessä muodostaaksesi sanan.'
   },
   hintFillAllSyllableSlots: {
     en: 'Place a syllable in each slot, then check.',
@@ -44,7 +44,7 @@ var SYLLABLE_ACTIVITY_STRINGS = {
     sv: 'Pon una sílaba en cada espacio y luego revisa.',
     da: 'Pon una sílaba en cada espacio y luego revisa.',
     no: 'Pon una sílaba en cada espacio y luego revisa.',
-    fi: 'Pon una sílaba en cada espacio y luego revisa.'
+    fi: 'Aseta tavu jokaiseen ruutuun ja paina Tarkista.'
   },
   hintSyllableOrderOff: {
     en: 'Almost — listen again and try another order.',
@@ -57,7 +57,7 @@ var SYLLABLE_ACTIVITY_STRINGS = {
     sv: 'Casi. Escucha otra vez y prueba otro orden.',
     da: 'Casi. Escucha otra vez y prueba otro orden.',
     no: 'Casi. Escucha otra vez y prueba otro orden.',
-    fi: 'Casi. Escucha otra vez y prueba otro orden.'
+    fi: 'Melkein! Kuuntele uudelleen ja kokeile toista järjestystä.'
   }
 };
 
@@ -144,8 +144,8 @@ function _tilesEqual(a, b) {
 window.SyllableBuilderActivity = Object.assign({}, WordBuilderCore, {
   id: 'syllable-builder-activity',
   strings: Object.assign({}, WordBuilderCore.strings, SYLLABLE_ACTIVITY_STRINGS, {
-    title: {en:'Syllable Builder',de:'Constructor de sílabas',fr:'Constructor de sílabas',it:'Constructor de sílabas',es:'Constructor de sílabas',pt:'Constructor de sílabas',nl:'Constructor de sílabas',sv:'Constructor de sílabas',da:'Constructor de sílabas',no:'Constructor de sílabas',fi:'Constructor de sílabas'},
-    instruction: {en:'Look at the picture. Tap each syllable in order. Tap Check when you are ready.',de:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.',fr:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.',it:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.',es:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.',pt:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.',nl:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.',sv:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.',da:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.',no:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.',fi:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.'}
+    title: {en:'Syllable Builder',de:'Constructor de sílabas',fr:'Constructor de sílabas',it:'Constructor de sílabas',es:'Constructor de sílabas',pt:'Constructor de sílabas',nl:'Constructor de sílabas',sv:'Constructor de sílabas',da:'Constructor de sílabas',no:'Constructor de sílabas',fi:'Sanan rakentaja'},
+    instruction: {en:'Look at the picture. Tap each syllable in order. Tap Check when you are ready.',de:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.',fr:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.',it:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.',es:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.',pt:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.',nl:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.',sv:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.',da:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.',no:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.',fi:'Katso kuvaa. Napauta tavut järjestyksessä. Paina Tarkista, kun olet valmis.'}
   }),
 
   tasks: STATIC_DEMO_SYLLABLE_TASKS,

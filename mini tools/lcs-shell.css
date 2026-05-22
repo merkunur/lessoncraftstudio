@@ -564,23 +564,31 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
 }
 
 /* =====================================================================
-   v7.2 MOBILE CHROME SPACING — universal across all 4 activity engines
-   (E1/E2/E7/E8). Gated to phone widths (≤ 599px) so desktop stays
-   byte-identical to v7. Scoped to .lcs-app.activity so manipulatives
-   (no .activity class) are untouched. Engine-specific layout fixes
-   (ten-frame stack-direction, choice-board subject-img shrink,
-   cvc/syllable subject/hear/slots/palette constraints) live in each
-   activity wrapper's inline <style>.
+   v7.3 UNIVERSAL ACTIVITY CHROME SPACING — applies AT ALL VIEWPORTS.
+   Replaces the v7.2 mobile-only @media (max-width:599px) block. Lifted
+   to universal after operator's 2026-05-22 screenshot showed the same
+   flush-children issue on desktop (ten-frame area visually-flush
+   against the keypad with no breathing room).
 
    Root cause this block fixes: .lcs-app.activity has no `gap` rule;
-   .lcs-stage has padding:0 (v7); progress/prompt/answer have minimal
-   or zero vertical padding. Result: at 375px the 5 chrome children
-   stack flush. The token clamps (--lcs-gap=8px, --lcs-pad=12px at
-   floor) can't carry visual hierarchy on phone alone. ===================================================================== */
-@media (max-width: 599px) {
-  .lcs-app.activity { gap: 10px; }
-  .lcs-app.activity .lcs-activity-progress { padding-bottom: 8px; }
-  .lcs-app.activity .lcs-activity-prompt { padding-bottom: 12px; }
-  .lcs-app.activity .lcs-stage { padding-block: 8px; }
-  .lcs-app.activity .lcs-activity-answer { padding-top: 8px; }
-}
+   .lcs-stage has padding:0 (from v7); progress/prompt/answer have
+   minimal or zero vertical padding. Children stack flush at every
+   viewport — desktop just hid it visually because cells/keys/buttons
+   are bigger and the eye doesn't notice the missing gap until you
+   look critically.
+
+   vh-scaled clamps:
+     - At 667vh (iPhone-SE): gap ≈ 13px, paddings 10-13px
+     - At 844vh (iPhone-12): gap ≈ 17px, paddings 13-17px
+     - At 1080vh (desktop):  gap ≈ 22px (ceiling), paddings 16-20px
+
+   Per-engine mobile-specific overrides (ten-frame column-stack,
+   choice-board subject-img shrink, cvc/syllable subject + hear +
+   slots + palette + wb-tile constraints) STAY in each wrapper's
+   inline <style> — those are truly mobile-specific layout shifts,
+   not vertical-spacing concerns. ===================================================================== */
+.lcs-app.activity { gap: clamp(12px, 2vh, 24px); }
+.lcs-app.activity .lcs-activity-progress { padding-bottom: clamp(8px, 1.5vh, 16px); }
+.lcs-app.activity .lcs-activity-prompt { padding-bottom: clamp(12px, 2vh, 20px); }
+.lcs-app.activity .lcs-stage { padding-block: clamp(8px, 1.5vh, 16px); }
+.lcs-app.activity .lcs-activity-answer { padding-top: clamp(8px, 1.5vh, 16px); }

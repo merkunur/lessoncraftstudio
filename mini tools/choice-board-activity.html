@@ -21,10 +21,12 @@
        tile aspect-ratio break or clipping. Subject 56-80px frees ~40px;
        group items 48px (was 64px) free another ~10px. */
     @media (max-width: 599px) {
+      /* !important needed: engine injects its CSS via JS at runtime (after
+         this inline <style>) — equal specificity, later cascade wins. */
       .cb-subject-img { height: clamp(56px, 12vmin, 80px) !important; }
-      .cb-subject--group { max-width: 240px; }
-      .cb-subject--group .cb-group-item { max-width: 48px; }
-      .cb-wrap { gap: clamp(10px, 2.4vmin, 16px); }
+      .cb-subject--group { max-width: 240px !important; }
+      .cb-subject--group .cb-group-item { max-width: 48px !important; }
+      .cb-wrap { gap: clamp(10px, 2.4vmin, 16px) !important; }
     }
   </style>
 </head>

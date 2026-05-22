@@ -17,13 +17,15 @@
        out of slot-row collision; tighten wb-tile min-width so 2 syllable
        tiles + gap fit cleanly in ~285px card-inner. */
     @media (max-width: 599px) {
-      .wb-subject { max-width: min(280px, 88vw); }
+      /* !important needed: engine injects its CSS via JS at runtime (after
+         this inline <style>) — equal specificity, later cascade wins. */
+      .wb-subject { max-width: min(280px, 88vw) !important; }
       .wb-subject-img { height: clamp(72px, 14vmin, 96px) !important; }
-      .wb-subject-hear { bottom: 4px; right: 4px; }
-      .wb-slots { max-width: 90vw; }
-      .wb-palette { max-width: 90vw; }
-      .wb-tile { min-width: clamp(56px, 13vmin, 80px); }
-      .wb-wrap { gap: clamp(12px, 2.6vmin, 16px); }
+      .wb-subject-hear { bottom: 4px !important; right: 4px !important; }
+      .wb-slots { max-width: 90vw !important; }
+      .wb-palette { max-width: 90vw !important; }
+      .wb-tile { min-width: clamp(56px, 13vmin, 80px) !important; }
+      .wb-wrap { gap: clamp(12px, 2.6vmin, 16px) !important; }
     }
   </style>
 </head>

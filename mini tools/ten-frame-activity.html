@@ -43,7 +43,10 @@
        lets each cell grow to 28-44px legibly within the same vertical
        budget (2 × ~60px frame + 10px gap ≈ 130px). */
     @media (max-width: 599px) {
-      .tf-double .tf-frames-area { flex-direction: column; gap: 10px; }
+      /* !important needed: engine's CSS is injected at runtime (after this
+         inline <style>) — equal specificity, later cascade position wins.
+         Matches the existing .tf-cell-width !important pattern below. */
+      .tf-double .tf-frames-area { flex-direction: column !important; gap: 10px !important; }
       .tf-double .tf-cell { width: clamp(28px, 8vw, 44px) !important; }
     }
   </style>

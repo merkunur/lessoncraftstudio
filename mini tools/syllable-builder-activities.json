@@ -112,5 +112,34 @@
     "page_title": { "fr": "Forme le mot en syllabes — Phonétique en maternelle" },
     "page_intro": { "fr": "Regarde l'image et forme le mot en plaçant les syllabes dans l'ordre. Aligné sur Common Core RF.K.2.B — compter, prononcer, mélanger et segmenter les syllabes dans les mots parlés." },
     "kid_prompt_template": "promptBuildSyllables"
+  },
+  {
+    "id": "syllable-builder.forma-la-parola-con-le-sillabe.rf-k-2-b",
+    "tool": "syllable-builder-activity",
+    "task_template": "build-syllables-word",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.2.B",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "language": "it-IT",
+      "words": [
+        { "noun": "cat",    "themeDir": "animals",       "targetWord": "gatto",     "syllables": ["gat","to"],             "label": "gatto" },
+        { "noun": "dog",    "themeDir": "animals",       "targetWord": "cane",      "syllables": ["ca","ne"],              "label": "cane" },
+        { "noun": "ball",   "themeDir": "toys",          "targetWord": "palla",     "syllables": ["pal","la"],             "label": "palla" },
+        { "noun": "house",  "themeDir": "miscellaneous", "targetWord": "casa",      "syllables": ["ca","sa"],              "label": "casa" },
+        { "noun": "moon",   "themeDir": "space",         "targetWord": "luna",      "syllables": ["lu","na"],              "label": "luna" },
+        { "noun": "apple",  "themeDir": "fruits",        "targetWord": "mela",      "syllables": ["me","la"],              "label": "mela" },
+        { "noun": "table",  "themeDir": "furniture",     "targetWord": "tavolo",    "syllables": ["ta","vo","lo"],         "label": "tavolo" },
+        { "noun": "turtle", "themeDir": "animals",       "targetWord": "tartaruga", "syllables": ["tar","ta","ru","ga"],   "label": "tartaruga" }
+      ]
+    },
+    "theme": null,
+    "slug": { "it": "forma-la-parola-con-le-sillabe" },
+    "page_title": { "it": "Forma la parola con le sillabe — Fonetica nella scuola dell'infanzia" },
+    "page_intro": { "it": "Guarda l'immagine e forma la parola posizionando le sillabe in ordine. Allineato con Common Core RF.K.2.B — contare, pronunciare, fondere e segmentare le sillabe nelle parole parlate." },
+    "kid_prompt_template": "promptBuildSyllables"
   }
 ]

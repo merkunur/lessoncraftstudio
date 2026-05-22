@@ -650,3 +650,51 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
     overflow-y: visible;
   }
 }
+
+/* =====================================================================
+   v7.5 TARGETED POLISH — operator's 2026-05-22 191507/191627/191640/
+   191654 screenshots exposed 4 specific problems:
+   - Desktop ten-frame double-frame overflows card right edge
+   - Keypad answer-display "_" floats left of keypad cluster
+   - Mobile card too long → page-scroll required
+   - LEFT-title vs RIGHT-controls/TASKS-DONE visual asymmetry
+   Prong 1 lives in ten-frame-activity.html. Prongs 2/3a/4 here.
+   Prong 3b lives in page.tsx (iframe min-height bump on mobile).
+   ===================================================================== */
+
+/* Prong 2 — answer display + keypad stack VERTICALLY so the empty-value
+   display sits cleanly above the keypad, both centered. v7.4's flex-row
+   with wrap put the narrow display on its own row left-rendered →
+   visible artifact of an isolated "_" left of the centered keypad. */
+.lcs-app.activity .lcs-activity-answer {
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Prong 3a — mobile chrome density: tighter paddings + gap so card
+   grows LESS on mobile (less page-scroll). Overrides v7.3 universal
+   clamps on mobile only. Combined with Prong 3b iframe min-height
+   bump to 85vh on mobile, content should fit within iframe. */
+@media (max-width: 599px) {
+  .lcs-app.activity {
+    padding-block: clamp(16px, 5vh, 32px);  /* was 10vh — saves ~45px on iPhone-SE */
+    gap: clamp(12px, 2.2vh, 18px);            /* was clamp(16, 3vh, 28) */
+  }
+  .lcs-app.activity .lcs-activity-prompt { padding-bottom: clamp(10px, 1.8vh, 16px); }
+  .lcs-app.activity .lcs-stage { padding-block: clamp(6px, 1.5vh, 12px); }
+  .lcs-app.activity .lcs-activity-answer { padding-top: clamp(6px, 1.5vh, 12px); }
+  .lcs-app.activity .lcs-activity-progress { padding-bottom: clamp(4px, 1vh, 8px); }
+}
+
+/* Prong 4 — center activity title in header. Balances the v7.4 right-
+   aligned TASKS DONE + controls cluster against the previously-left-
+   aligned title. With flex:1 the title fills remaining space and
+   text-align:center centers within. On mobile (header stacked column
+   per v6.3), centered title sits naturally above right-aligned
+   controls. */
+.lcs-app.activity .lcs-titles {
+  text-align: center;
+  flex: 1;
+}
+.lcs-app.activity .lcs-title { text-align: center; }

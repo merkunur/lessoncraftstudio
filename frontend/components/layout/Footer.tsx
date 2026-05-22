@@ -3,34 +3,52 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
+import { FooterCategoryDropdowns } from './FooterCategoryDropdowns';
 
-// One-line utility footer per the activity-page redesign commission
-// (operator decision: this REPLACES the prior multi-column SEO footer).
+// 3-row compact footer per the v5 activity-page redesign:
+//   Row 1: FooterCategoryDropdowns — 3 compact dropdown buttons
+//          (byLanguage / byTopic / byExerciseType) that pop UP on click.
+//   Row 2: utility links (Contact · Terms · Privacy).
+//   Row 3: logo + wordmark + copyright.
 //
-// The browse-by-language / browse-by-topic / browse-by-exercise-type link
-// surfaces that used to live here have not been deleted from the site —
-// they're already in the top-nav CategoryNav dropdowns + the
-// LanguageSelector, per CLAUDE.md §16.5 + §16.6:
-//   - Worksheets dropdown  → /[locale]/topic/<exercise-type-slug>/
-//   - Topics dropdown      → /[locale]/topic/<theme-slug>/
-//   - LanguageSelector     → swaps locale prefix in current URL
-// No crawl paths lost. Substrate-honesty filtering still runs inside
-// CategoryNav per its `availableExerciseTypes` / `availableThemes` props
-// from the LocaleLayout server component.
+// The dropdown row REUSES CategoryNav's data via `buildCategories()` for
+// byTopic + byExerciseType (single SoT in frontend/lib/category-nav-data.ts),
+// so the link sets stay in sync across header + footer surfaces.
+// byLanguage is a small hardcoded 11-locale list (mirrors LanguageSelector).
 //
-// `footer.byLanguage` / `byTopic` / `byExerciseType` / `moreLanguagesSoon`
-// / `moreTopicsSoon` i18n keys are intentionally left in messages/*.json
-// (dormant; deletion is a cross-locale change with no benefit).
+// Substrate-honesty filtering for byTopic + byExerciseType runs via the
+// `availableExerciseTypes` + `availableThemes` props (sourced server-side
+// in `frontend/app/[locale]/layout.tsx`, threaded through LocaleLayoutClient).
+//
+// mt-0 (was mt-8 in v4) because the root layout body is now flex-col +
+// main flex-1 — the footer sticks to viewport bottom on short pages and
+// no longer needs a manual top margin to push it away from content.
 
-export function Footer() {
+interface FooterProps {
+  availableExerciseTypes?: string[];
+  availableThemes?: string[];
+}
+
+export function Footer({
+  availableExerciseTypes = [],
+  availableThemes = [],
+}: FooterProps = {}) {
   const pathname = usePathname();
   const locale = pathname.split('/')[1] || 'en';
   const t = useTranslations('footer');
 
   return (
-    <footer id="footer" className="bg-cream-50 border-t border-cream-300 py-6 md:py-8 mt-8">
-      <div className="container mx-auto px-4 max-w-7xl">
-        {/* Row 1: utility links, single horizontal row, centered. */}
+    <footer id="footer" className="bg-cream-50 border-t border-cream-300 py-5 md:py-6 mt-0">
+      <div className="container mx-auto px-4 max-w-7xl space-y-3">
+        {/* Row 1: 3 compact dropdown buttons. Each opens an UPWARD panel
+            with the localized link items. */}
+        <FooterCategoryDropdowns
+          locale={locale}
+          availableExerciseTypes={availableExerciseTypes}
+          availableThemes={availableThemes}
+        />
+
+        {/* Row 2: utility links, single horizontal row, centered. */}
         <ul className="flex items-center justify-center gap-3 text-sm text-ink-600">
           <li>
             <Link href={`/${locale}/contact`} className="hover:text-ink-900 transition-colors">
@@ -51,8 +69,8 @@ export function Footer() {
           </li>
         </ul>
 
-        {/* Row 2: small brand strip — logo + wordmark + copyright. */}
-        <div className="mt-4 flex flex-col items-center gap-2 sm:flex-row sm:justify-center sm:gap-3 text-xs text-ink-500">
+        {/* Row 3: small brand strip — logo + wordmark + copyright. */}
+        <div className="flex flex-col items-center gap-2 sm:flex-row sm:justify-center sm:gap-3 text-xs text-ink-500">
           <Link href={`/${locale}`} className="inline-flex items-center gap-2 hover:text-ink-900 transition-colors">
             <picture>
               <source srcSet="/logo-lcs.webp" type="image/webp" />

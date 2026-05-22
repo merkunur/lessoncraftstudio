@@ -6,10 +6,11 @@ import { Button } from '@/components/ui/Button';
 import { usePathname } from 'next/navigation';
 import { LanguageSelector } from '@/components/LanguageSelector';
 import { PlatformSearch } from '@/components/PlatformSearch';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useAuth } from '@/contexts/auth-context';
 import { Menu, X } from 'lucide-react';
 import { CategoryNav } from './CategoryNav';
+import { MobileCategoryAccordion } from './MobileCategoryAccordion';
 
 // Minimal educator-aligned navigation per HOMEPAGE-IMPLEMENTATION-PROMPT.md §6.10 + T4 option C.
 // Drops the seller-era Free Tools / Resources dropdowns and the Apps / Pricing links —
@@ -33,6 +34,23 @@ export function Navigation({
   const locale = pathname.split('/')[1] || 'en';
   const { user } = useAuth();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const drawerRef = useRef<HTMLDivElement>(null);
+
+  // Close drawer on Escape; move focus into the drawer when it opens so
+  // keyboard users land on the first interactive element (the first
+  // category accordion toggle) and screen readers announce the new region.
+  useEffect(() => {
+    if (!mobileMenuOpen) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setMobileMenuOpen(false);
+    };
+    document.addEventListener('keydown', onKey);
+    const firstFocusable = drawerRef.current?.querySelector<HTMLElement>(
+      'button[aria-controls], a, button:not([aria-hidden])',
+    );
+    firstFocusable?.focus();
+    return () => document.removeEventListener('keydown', onKey);
+  }, [mobileMenuOpen]);
 
   const localizedLanguageLabel: Record<string, string> = {
     en: 'Language:',
@@ -47,6 +65,8 @@ export function Navigation({
     no: 'Språk:',
     fi: 'Kieli:',
   };
+
+  const closeDrawer = () => setMobileMenuOpen(false);
 
   return (
     <>
@@ -130,6 +150,8 @@ export function Navigation({
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="lg:hidden p-2 text-ink-600 hover:text-ink-900 flex-shrink-0"
             aria-label="Toggle menu"
+            aria-expanded={mobileMenuOpen}
+            aria-controls="mobile-menu-drawer"
           >
             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -143,12 +165,26 @@ export function Navigation({
 
       {/* Mobile menu */}
       <div
-        className={`lg:hidden ${mobileMenuOpen ? 'overflow-visible' : 'overflow-hidden'} transition-[max-height,border-color] duration-300 ease-in-out ${
-          mobileMenuOpen ? 'max-h-[500px] border-t border-cream-300' : 'max-h-0 border-t border-transparent'
+        id="mobile-menu-drawer"
+        ref={drawerRef}
+        className={`lg:hidden ${mobileMenuOpen ? 'overflow-y-auto' : 'overflow-hidden'} transition-[max-height,border-color] duration-300 ease-in-out ${
+          mobileMenuOpen ? 'max-h-[85vh] border-t border-cream-300' : 'max-h-0 border-t border-transparent'
         } bg-cream-50`}
       >
         <div className="container mx-auto px-4 py-4 space-y-4">
-          <div className="flex items-center justify-between">
+          {/* Category nav accordion — first child so the primary navigation
+              is the first thing keyboard / screen-reader users hit on open.
+              Consumes the same buildCategories() output as the desktop
+              CategoryNav so the two surfaces stay in sync. */}
+          <MobileCategoryAccordion
+            locale={locale}
+            availableExerciseTypes={availableExerciseTypes}
+            availableActivities={availableActivities}
+            availableThemes={availableThemes}
+            onItemClick={closeDrawer}
+          />
+
+          <div className="flex items-center justify-between pt-2 border-t border-cream-300">
             <span className="text-sm text-ink-600">{localizedLanguageLabel[locale] || 'Language:'}</span>
             <LanguageSelector />
           </div>
@@ -160,7 +196,7 @@ export function Navigation({
                 <Link
                   href={`/${locale}/workspace`}
                   className="block py-2 text-ink-600 hover:text-primary transition-colors font-medium"
-                  onClick={() => setMobileMenuOpen(false)}
+                  onClick={closeDrawer}
                 >
                   {t('workspace')}
                 </Link>
@@ -168,7 +204,7 @@ export function Navigation({
               <Link
                 href="/member"
                 className="block py-2 text-ink-600 hover:text-primary transition-colors font-medium"
-                onClick={() => setMobileMenuOpen(false)}
+                onClick={closeDrawer}
               >
                 {t('memberArea')}
               </Link>
@@ -199,7 +235,7 @@ export function Navigation({
       </div>
     </nav>
     {/* Category dropdown nav — second row, desktop-only. Mobile users access
-        categories via the 4-card grid + footer columns. */}
+        categories via the accordion inside the mobile drawer above. */}
     <CategoryNav
       availableExerciseTypes={availableExerciseTypes}
       availableActivities={availableActivities}

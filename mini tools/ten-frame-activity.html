@@ -21,10 +21,17 @@
 
     /* v5 PRIMARY TARGET: card HEIGHT = 2/3 of viewport height on every
        device (operator-locked: "the activity card should cover two third
-       of any kind of screen"). min-height is the floor; contents can
-       push the card taller but never shorter. Overrides
-       lcs-shell.css line 236-237 (.lcs-app.activity height: auto). */
-    .lcs-app.activity { min-height: 66.67vh !important; }
+       of any kind of screen"). The PARENT page-side sets the iframe
+       element height to 66.67vh of the page viewport via Tailwind
+       `[&_iframe]:!h-[66.67vh]` on the wrapper. INSIDE the iframe,
+       html/body fill that height; .lcs-app fills body. Result: card
+       renders at 66.67vh of the parent page viewport (not the iframe's
+       own vh, which would be circular). */
+    html, body { height: 100% !important; }
+    .lcs-app.activity {
+      height: 100% !important;
+      min-height: 100% !important;
+    }
 
     /* v5: card WIDTH is secondary and fluid — mobile fills viewport,
        desktop caps to 62vw with 720px floor (matches IXL's measured 62%

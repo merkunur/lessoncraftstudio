@@ -545,6 +545,21 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
   .lcs-app.activity .lcs-controls {
     align-self: center;  /* v7.8 — operator wants controls centered on mobile (was flex-end since v6.3) */
   }
+  /* v7.10 — mobile keypad centering. Shell's default
+     grid-template-columns: repeat(6, var(--lcs-tap)) gives 6×44 + 5×6
+     = 294px wide. On iPhone-SE card-inner ~236px the keypad overflowed
+     by 58px → could not center because it didn't fit. Operator screenshot
+     2026-05-22 212524 confirmed off-center keypad. Fix: minmax(0, 1fr)
+     lets cells shrink below 44px to fit narrow card; max-width caps
+     keypad on larger phones; margin-inline:auto centers within answer
+     surface. Touch target shrinks slightly (~41px on iPhone-SE) -
+     acceptable trade-off per operator request. */
+  .lcs-app.activity .lcs-activity-keypad {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    width: min(100%, 320px);
+    margin-inline: auto;
+    justify-content: center;
+  }
 }
 
 /* Gentle celebrate-bounce on the success prompt. Lands at scale(1.04)

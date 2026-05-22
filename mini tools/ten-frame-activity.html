@@ -32,23 +32,27 @@
        even with `height: 100% !important`). */
     html, body, #lcs-root { height: 100% !important; }
 
-    /* v6 NEW operator-locked rule: 10% padding inside the card on all
-       4 sides — left/right = 10% of card width; top/bottom = 10% of
-       card height. Implementation uses container queries:
-         container-type: size  → makes .lcs-app a query container for
-                                 both inline (width) and block (height)
-                                 dimensions, so cqi and cqb resolve
-                                 against the card itself, not the iframe.
-         padding: 10cqb 10cqi  → block (top/bottom) = 10% card height,
-                                 inline (left/right) = 10% card width.
-       Contents now lay out in the 80% × 80% inner area. Browser support
-       (Chrome 105+ / Safari 16+ / Firefox 110+) — all modern. */
+    /* v6.1 operator-locked rule: 10% padding inside the card on all 4
+       sides — left/right = 10% of card width; top/bottom = 10% of card
+       height. Container queries (v6 first cut) don't self-reference
+       correctly — cqi on .lcs-app resolved against the iframe-width,
+       not the card width, so desktop/wide over-padded to 16% (the
+       extra width between card and iframe leaked into the padding).
+       Use vw-based padding tied to the card's max-width formula:
+         - mobile card = 95vw → 10% horizontal padding = 9.5vw
+         - desktop card = 60vw → 10% horizontal padding = 6vw
+         - card height = 100% of iframe (66.67vh of parent) → 10vh
+           padding = 10% of card height regardless of viewport
+       container-type kept (defensive) but no longer load-bearing. */
     .lcs-app.activity {
-      container-type: size !important;
-      padding: 10cqb 10cqi !important;
+      padding-block: 10vh !important;
+      padding-inline: 9.5vw !important;
       box-sizing: border-box !important;
       height: 100% !important;
       min-height: 100% !important;
+    }
+    @media (min-width: 768px) {
+      .lcs-app.activity { padding-inline: 6vw !important; }
     }
 
     /* v6: card WIDTH — desktop narrows from 68vw → 60vw per operator
@@ -60,13 +64,15 @@
       .lcs-app { max-width: max(720px, 60vw) !important; }
     }
 
-    /* v6: cells scale to fit the inner area (80% of card width), NOT
-       the iframe viewport. 7cqi = 7% of card width, so 10 cells take
-       70% of card width — leaves ~10% for gaps inside the 80% inner
-       area. Cells ALWAYS fit at any card width — definitively closes
-       the v5.5 mobile overflow operator re-reported. Floor 16 keeps
-       cells tap-target-viable on very narrow viewports. */
-    .tf-double .tf-cell { width: clamp(16px, 7cqi, 120px) !important; }
+    /* v6.1: cells scale via vw with media queries that match the card's
+       width formula. Inner card area = 80% of card width (after 10%
+       padding each side). 10 cells × 6.5vw on mobile = 65% of viewport
+       fits within 80% × 95vw = 76vw inner area. On desktop 10 × 4.2vw
+       = 42% of viewport fits in 80% × 60vw = 48vw inner area. */
+    .tf-double .tf-cell { width: clamp(16px, 6.5vw, 60px) !important; }
+    @media (min-width: 768px) {
+      .tf-double .tf-cell { width: clamp(40px, 4.2vw, 130px) !important; }
+    }
     .lcs-activity-prompt { font-size: clamp(22px, 6vh, 48px) !important; }
     .lcs-activity-check, .lcs-activity-next {
       min-height: clamp(56px, 7vh, 80px) !important;

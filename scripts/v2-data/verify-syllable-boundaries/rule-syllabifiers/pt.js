@@ -65,7 +65,24 @@ function syllabify(word) {
     while (i < n && !isVowel(w[i])) i++;
     if (i >= n) break;
     let nucleusEnd = i + 1;
-    if (i + 1 < n && isVowel(w[i + 1]) && isDiphthong(w[i], w[i + 1])) nucleusEnd = i + 2;
+    if (i + 1 < n && isVowel(w[i + 1]) && isDiphthong(w[i], w[i + 1])) {
+      // Re-bracketing guard: if w[i+1] is a nasal vowel (ã/õ) and is followed
+      // by another vowel that forms a nasal diphthong (ão/ãe/õe/ãi), the
+      // nasal diphthong takes precedence over the rising diphthong (iã/uã).
+      // Skip the rising diphthong so the next iteration captures the nasal
+      // pair as one nucleus per BR PT canonical pedagogy (Cunha & Cintra;
+      // BNCC EF01LP04).
+      //   avião   → [a, vi, ão]    (not [a, viã, o])
+      //   gavião  → [ga, vi, ão]   (not [ga, viã, o])
+      //   lampião → [lam, pi, ão]  (not [lam, piã, o])
+      //   pião    → [pi, ão]       (not [piã, o])
+      const wouldOrphanNasal = (
+        NASAL_VOWELS.has(w[i + 1]) &&
+        i + 2 < n && isVowel(w[i + 2]) &&
+        WEAK_VOWELS.has(w[i])
+      );
+      if (!wouldOrphanNasal) nucleusEnd = i + 2;
+    }
 
     let cStart = nucleusEnd;
     let cEnd = cStart;

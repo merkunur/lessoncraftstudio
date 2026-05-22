@@ -31,31 +31,42 @@
        the chain-break that capped .lcs-app at its content-height (522px)
        even with `height: 100% !important`). */
     html, body, #lcs-root { height: 100% !important; }
+
+    /* v6 NEW operator-locked rule: 10% padding inside the card on all
+       4 sides — left/right = 10% of card width; top/bottom = 10% of
+       card height. Implementation uses container queries:
+         container-type: size  → makes .lcs-app a query container for
+                                 both inline (width) and block (height)
+                                 dimensions, so cqi and cqb resolve
+                                 against the card itself, not the iframe.
+         padding: 10cqb 10cqi  → block (top/bottom) = 10% card height,
+                                 inline (left/right) = 10% card width.
+       Contents now lay out in the 80% × 80% inner area. Browser support
+       (Chrome 105+ / Safari 16+ / Firefox 110+) — all modern. */
     .lcs-app.activity {
+      container-type: size !important;
+      padding: 10cqb 10cqi !important;
+      box-sizing: border-box !important;
       height: 100% !important;
       min-height: 100% !important;
     }
 
-    /* v5: card WIDTH — mobile fills viewport, desktop caps to 68vw
-       with 720px floor. (68vw not 62vw because vw inside the iframe
-       evaluates against IFRAME width, which = parent.viewport minus
-       page+play-area padding ~128px. 68vw of (1920-128)=1792 = 1218px
-       = 63.4% of parent viewport — squarely in operator's 60-65% range.) */
+    /* v6: card WIDTH — desktop narrows from 68vw → 60vw per operator
+       ("even less wide on desktop"). On phone 95vw still applies.
+       60vw of iframe-vw (~1792 at 1920 parent) = 1075px = 56% of parent
+       viewport (was 63.5% in v5.5). */
     .lcs-app { max-width: 95vw !important; }
     @media (min-width: 768px) {
-      .lcs-app { max-width: max(720px, 68vw) !important; }
+      .lcs-app { max-width: max(720px, 60vw) !important; }
     }
 
-    /* v5: contents scale with viewport so they grow alongside the card.
-       Note: vh inside iframe = iframe height; vw inside iframe = iframe
-       width. For 10 cells across in a double frame, horizontal-fit is
-       the constraint (operator-reported mobile overflow at v5.4 floor
-       of 48px). Use VW for cell width so cells respect horizontal card
-       space; phone iframe vw ~311px × 8vw = 25px (floor 22) — fits;
-       wide iframe vw ~1792 × 8vw = 143 → clamped 120 — large but well
-       within 1218px card. The other contents use vh because they're
-       height-constrained, not width-constrained. */
-    .tf-double .tf-cell { width: clamp(22px, 8vw, 120px) !important; }
+    /* v6: cells scale to fit the inner area (80% of card width), NOT
+       the iframe viewport. 7cqi = 7% of card width, so 10 cells take
+       70% of card width — leaves ~10% for gaps inside the 80% inner
+       area. Cells ALWAYS fit at any card width — definitively closes
+       the v5.5 mobile overflow operator re-reported. Floor 16 keeps
+       cells tap-target-viable on very narrow viewports. */
+    .tf-double .tf-cell { width: clamp(16px, 7cqi, 120px) !important; }
     .lcs-activity-prompt { font-size: clamp(22px, 6vh, 48px) !important; }
     .lcs-activity-check, .lcs-activity-next {
       min-height: clamp(56px, 7vh, 80px) !important;

@@ -40,6 +40,11 @@ function isVowel(ch) { return VOWELS.has(ch.toLowerCase()); }
 function isDiphthong(a, b) {
   a = a.toLowerCase(); b = b.toLowerCase();
   if (a === b && isVowel(a)) return true; // long vowel-like (rare in es)
+  // Accented weak vowel (í, ú) adjacent to any vowel → HIATUS, not diphthong.
+  // Per RAE: a written accent on a weak vowel signals stress on that vowel,
+  // breaking what would otherwise be a diphthong (e.g., río=rí-o, día=dí-a,
+  // país=pa-ís, baúl=ba-úl, María=ma-rí-a, púa=pú-a, frío=frí-o, sandía=san-dí-a).
+  if (a === 'í' || a === 'ú' || b === 'í' || b === 'ú') return false;
   // Strong+weak or weak+strong → diphthong
   if (STRONG_VOWELS.has(a) && WEAK_VOWELS.has(b)) return true;
   if (WEAK_VOWELS.has(a) && STRONG_VOWELS.has(b)) return true;

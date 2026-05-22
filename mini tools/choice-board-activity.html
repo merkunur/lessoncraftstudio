@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Choice Board — Activity — LessonCraft Studio</title>
-  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=3">
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=4">
   <!-- v7 cascade: activity-page parent forces iframe height to 66.67vh
        and renders a sage field around the iframe. These per-wrapper
        rules make the iframe body transparent (so the field shows through)
@@ -14,6 +14,18 @@
   <style>
     html, body { background: transparent !important; }
     html, body, #lcs-root { height: 100% !important; }
+
+    /* v7.2 mobile: shrink subject (image + group items) so the 2×2 tile
+       grid fits vertically. Subject 96px floor + 283px grid + prompt +
+       gaps = 440px in ~376px vertical budget — overflow by 64px forces
+       tile aspect-ratio break or clipping. Subject 56-80px frees ~40px;
+       group items 48px (was 64px) free another ~10px. */
+    @media (max-width: 599px) {
+      .cb-subject-img { height: clamp(56px, 12vmin, 80px) !important; }
+      .cb-subject--group { max-width: 240px; }
+      .cb-subject--group .cb-group-item { max-width: 48px; }
+      .cb-wrap { gap: clamp(10px, 2.4vmin, 16px); }
+    }
   </style>
 </head>
 <body>

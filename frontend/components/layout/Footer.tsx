@@ -555,10 +555,13 @@ export function Footer({
             exercise-type list (29 items) flows into 4 sub-columns at
             desktop — wide-and-short instead of narrow-and-tall. */}
         <div className="grid grid-cols-1 sm:grid-cols-6 gap-x-8 gap-y-10">
-          {/* By language */}
-          <div className="sm:col-span-3 lg:col-span-1">
+          {/* By language — 2-col inner sub-grid at desktop so the 11
+              languages flow ~6 rows tall (was 11 rows in v3 first cut,
+              which kept the row height tall and capped how short the
+              footer could get). */}
+          <div className="sm:col-span-3 lg:col-span-2">
             <h4 className="font-display text-xs font-bold text-ink-900 mb-3 uppercase tracking-wider">{t('byLanguage')}</h4>
-            <ul className="space-y-1.5 text-sm">
+            <ul className="grid grid-cols-2 gap-x-3 gap-y-1.5 text-sm">
               {FOOTER_LANGUAGES.map(lang => (
                 <li key={lang.code}>
                   <Link href={`/${lang.code}`} className="text-ink-600 hover:text-ink-900 transition-colors">
@@ -570,7 +573,8 @@ export function Footer({
             <p className="text-xs text-ink-500 mt-4">{t('moreLanguagesSoon')}</p>
           </div>
 
-          {/* By topic */}
+          {/* By topic — single col (only 5 items per locale; multi-col
+              would over-engineer it). */}
           <div className="sm:col-span-3 lg:col-span-1">
             <h4 className="font-display text-xs font-bold text-ink-900 mb-3 uppercase tracking-wider">{t('byTopic')}</h4>
             <ul className="space-y-1.5 text-sm">
@@ -585,10 +589,10 @@ export function Footer({
             <p className="text-xs text-ink-500 mt-4">{t('moreTopicsSoon')}</p>
           </div>
 
-          {/* By exercise type — at desktop the list spans 4 of 6 outer cols
-              and flows into a 4-column inner sub-grid (29 items / 4 cols
-              ≈ 8 rows; was ~15 rows under the previous narrow 2-col stack). */}
-          <div className="sm:col-span-6 lg:col-span-4">
+          {/* By exercise type — spans 3 of 6 outer cols at desktop with a
+              4-col inner sub-grid (29 items / 4 cols ≈ 8 rows; was ~15
+              rows under v2's narrow 2-col stack). */}
+          <div className="sm:col-span-6 lg:col-span-3">
             <h4 className="font-display text-xs font-bold text-ink-900 mb-3 uppercase tracking-wider">{t('byExerciseType')}</h4>
             <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-1.5 text-sm">
               {exerciseTypes.map(ex => (

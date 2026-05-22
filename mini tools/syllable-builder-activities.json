@@ -80,7 +80,7 @@
     },
     "theme": null,
     "slug": { "pt": "forme-as-silabas" },
-    "page_title": { "pt": "Forme as sílabas — Fonética na educação infantil" },
+    "page_title": { "pt": "Forme as sílabas — Fonética no jardim de infância" },
     "page_intro": { "pt": "Olhe a imagem e forme a palavra colocando as sílabas em ordem. Alinhado com Common Core RF.K.2.B — contar, pronunciar, mesclar e segmentar sílabas em palavras faladas." },
     "kid_prompt_template": "promptBuildSyllables"
   },
@@ -109,7 +109,7 @@
     },
     "theme": null,
     "slug": { "fr": "forme-le-mot-en-syllabes" },
-    "page_title": { "fr": "Forme le mot en syllabes — Phonétique en maternelle" },
+    "page_title": { "fr": "Forme le mot en syllabes — Phonétique en grande section" },
     "page_intro": { "fr": "Regarde l'image et forme le mot en plaçant les syllabes dans l'ordre. Aligné sur Common Core RF.K.2.B — compter, prononcer, mélanger et segmenter les syllabes dans les mots parlés." },
     "kid_prompt_template": "promptBuildSyllables"
   },

@@ -22,47 +22,40 @@
        group items 48px (was 64px) free another ~10px. */
     @media (max-width: 599px) {
       /* !important needed: engine injects its CSS via JS at runtime (after
-         this inline <style>) — equal specificity, later cascade wins.
-         v7.10: cb-subject +30% (56→73 floor, 80→104 ceiling) per operator
-         spec. cb-tile capped at 76px (-30% from 108) for both 2-tile
-         (Flat/Solid) and 4-tile (Count-the-Sides) layouts on mobile. */
+         this inline <style>) — equal specificity, later cascade wins. */
       .cb-subject-img { height: clamp(73px, 16vmin, 104px) !important; }
       .cb-subject--group { max-width: 240px !important; }
       .cb-subject--group .cb-group-item { max-width: 48px !important; }
       .cb-wrap { gap: clamp(10px, 2.4vmin, 16px) !important; }
-      .cb-tile { max-width: 76px !important; max-height: 76px !important; }
-      /* v7.11: tile-text font fit for 76px tile (was engine clamp(40,11vmin,72)
-         = 40px floor — "Solid" overflowed by 10px). New floor 14, mobile-vmin
-         scale 4.5vmin (17px at 375 vmin) — fits all 2-7 char words. */
+      /* v7.12: cb-board grid cols → auto (size to tile) + justify-content
+         center → cluster centered with only explicit gap between tiles
+         (was: huge empty space because columns were 1fr but tiles content-
+         sized after v7.11 place-self:center). */
+      .cb-cols-2 { grid-template-columns: repeat(2, auto) !important; justify-content: center !important; }
+      .cb-cols-4 { grid-template-columns: repeat(4, auto) !important; justify-content: center !important; }
+      /* v7.12: WIDTH (not max-width) for uniform tile sizing regardless of
+         content — fixes Which-group-has-more where 5-item tile was 241px
+         while 3-item tile was 170px. Now all tiles same size; cb-group
+         items scale to fit inside fixed tile width. */
+      .cb-cols-2 .cb-tile { width: 76px !important; max-width: 76px !important; max-height: 76px !important; }
+      .cb-cols-4 .cb-tile { width: clamp(40px, 13vw, 56px) !important; max-width: 56px !important; max-height: 56px !important; }
       .cb-tile-text { font-size: clamp(14px, 4.5vmin, 22px) !important; }
     }
 
-    /* v7.10 desktop: cb-subject +30% (120→156 floor, 180→234 ceiling).
-       cb-tile cap per cb-cols class: 2-tile Flat/Solid caps at 246
-       (-30% from natural 351); 4-tile Count-the-Sides caps at 117
-       (-30% from natural 167). cb-cols-2/-4 classes are added by the
-       engine to .cb-board based on answer-count, so this targets the
-       two named activities precisely without affecting identify-the-
-       shape (which is 4-tile but already at 167, would also cap to 117). */
     @media (min-width: 768px) {
       .cb-subject-img { height: clamp(156px, 21vmin, 234px) !important; }
       .cb-board { max-width: 720px !important; }
       .cb-tile { padding: clamp(16px, 2.4vmin, 24px) !important; }
-      .cb-cols-2 .cb-tile { max-width: 246px !important; max-height: 246px !important; }
-      .cb-cols-4 .cb-tile { max-width: 117px !important; max-height: 117px !important; }
+      /* v7.12: same gap-reduction pattern as mobile. */
+      .cb-cols-2 { grid-template-columns: repeat(2, auto) !important; justify-content: center !important; }
+      .cb-cols-4 { grid-template-columns: repeat(4, auto) !important; justify-content: center !important; }
+      .cb-cols-2 .cb-tile { width: 220px !important; max-width: 220px !important; max-height: 220px !important; }
+      .cb-cols-4 .cb-tile { width: 150px !important; max-width: 150px !important; max-height: 150px !important; }
       .cb-wrap { gap: clamp(16px, 2.6vmin, 24px) !important; }
-      /* v7.11: tile-text font fit for 117px tile (cb-cols-4) without
-         overflow. Engine default 40-72px; reduced ceiling. */
       .cb-tile-text { font-size: clamp(22px, 4vmin, 44px) !important; }
     }
 
-    /* v7.11 universal: center cb-tile within its grid column. Default
-       grid item `justify-self: auto` falls back to `start` (left-align)
-       when max-width prevents stretch. My v7.10 max-width cap created
-       this side-effect — tiles sat at LEFT of column instead of center.
-       Operator's 2026-05-22 214735/214752/214812 screenshots showed
-       Even/Odd, Flat/Solid, Which-group-has-more tile pairs left-shifted.
-       Fix: explicit place-self:center centers tile both axes. */
+    /* v7.11 universal: center cb-tile within its grid column. */
     .cb-tile { place-self: center !important; }
   </style>
 </head>

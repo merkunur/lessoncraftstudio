@@ -109,6 +109,32 @@
       }
     }
 
+    /* v6.4: settings-drawer close button doesn't dismiss the drawer on
+       touch devices (operator-reported on mobile). Puppeteer mouse-click
+       diagnostic confirms the handler IS wired and DOES fire — but
+       elementFromPoint at the close button's center returns the inner
+       SVG <path> (the X icon), not the button itself. On some touch
+       browsers, taps hitting the SVG path don't bubble cleanly to the
+       button's click listener. Defensive multi-cause fix:
+         - pointer-events:none on the SVG icon inside the close button
+           so touches land on the button element directly (not the path)
+         - z-index boost on the drawer + scrim above the v6 stacking
+           context the padding rules might create
+         - explicit pointer-events:auto + relative z-index on close button
+           in case any ancestor sets pointer-events:none */
+    .lcs-drawer-scrim { z-index: 100 !important; }
+    .lcs-drawer { z-index: 101 !important; }
+    .lcs-drawer-head .lcs-ctrl,
+    .lcs-drawer button.lcs-ctrl {
+      pointer-events: auto !important;
+      position: relative !important;
+      z-index: 1 !important;
+    }
+    .lcs-drawer-head .lcs-ctrl svg,
+    .lcs-drawer-head .lcs-ctrl svg * {
+      pointer-events: none !important;
+    }
+
     /* v1: gentle bounce on the success prompt. Lands at scale(1.04) so
        the resting state matches every other activity's existing 4%-scale
        celebrate; the keyframe is purely additive entry motion. */

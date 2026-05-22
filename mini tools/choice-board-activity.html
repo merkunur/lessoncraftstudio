@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Choice Board — Activity — LessonCraft Studio</title>
-  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=11">
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=12">
   <!-- v7 cascade: activity-page parent forces iframe height to 66.67vh
        and renders a sage field around the iframe. These per-wrapper
        rules make the iframe body transparent (so the field shows through)
@@ -22,20 +22,30 @@
        group items 48px (was 64px) free another ~10px. */
     @media (max-width: 599px) {
       /* !important needed: engine injects its CSS via JS at runtime (after
-         this inline <style>) — equal specificity, later cascade wins. */
-      .cb-subject-img { height: clamp(56px, 12vmin, 80px) !important; }
+         this inline <style>) — equal specificity, later cascade wins.
+         v7.10: cb-subject +30% (56→73 floor, 80→104 ceiling) per operator
+         spec. cb-tile capped at 76px (-30% from 108) for both 2-tile
+         (Flat/Solid) and 4-tile (Count-the-Sides) layouts on mobile. */
+      .cb-subject-img { height: clamp(73px, 16vmin, 104px) !important; }
       .cb-subject--group { max-width: 240px !important; }
       .cb-subject--group .cb-group-item { max-width: 48px !important; }
       .cb-wrap { gap: clamp(10px, 2.4vmin, 16px) !important; }
+      .cb-tile { max-width: 76px !important; max-height: 76px !important; }
     }
 
-    /* v7.4 desktop: scale subject + tile padding so engine content fills
-       the bigger card (operator's screenshot showed tiny ~50px circle
-       in a 720px card with tight gap to prompt above). */
+    /* v7.10 desktop: cb-subject +30% (120→156 floor, 180→234 ceiling).
+       cb-tile cap per cb-cols class: 2-tile Flat/Solid caps at 246
+       (-30% from natural 351); 4-tile Count-the-Sides caps at 117
+       (-30% from natural 167). cb-cols-2/-4 classes are added by the
+       engine to .cb-board based on answer-count, so this targets the
+       two named activities precisely without affecting identify-the-
+       shape (which is 4-tile but already at 167, would also cap to 117). */
     @media (min-width: 768px) {
-      .cb-subject-img { height: clamp(120px, 16vmin, 180px) !important; }
+      .cb-subject-img { height: clamp(156px, 21vmin, 234px) !important; }
       .cb-board { max-width: 720px !important; }
       .cb-tile { padding: clamp(16px, 2.4vmin, 24px) !important; }
+      .cb-cols-2 .cb-tile { max-width: 246px !important; max-height: 246px !important; }
+      .cb-cols-4 .cb-tile { max-width: 117px !important; max-height: 117px !important; }
       .cb-wrap { gap: clamp(16px, 2.6vmin, 24px) !important; }
     }
   </style>

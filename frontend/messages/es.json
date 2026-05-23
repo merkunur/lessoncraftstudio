@@ -1418,5 +1418,180 @@
         "description": "Encuentra las piezas que faltan"
       }
     }
+  },
+  "homepageV3": {
+    "hero": {
+      "eyebrow": "Del jardín al tercer grado · Conforme a los planes de estudio · Once idiomas",
+      "h1Line1Before": "Se juega como un ",
+      "h1Line1Squiggle": "juego",
+      "h1Line1After": ".",
+      "h1Line2": "Se diseña como un plan de estudios.",
+      "body": "Fonética y matemáticas del jardín infantil al tercer grado, en once idiomas, alineadas con los planes de estudio oficiales, pensadas para que el niño las use solo y construidas con el rigor que cualquier docente espera.",
+      "ctaPrimary": "Empezar una actividad",
+      "ctaSecondary": "Explorar el catálogo",
+      "trust1": "Once idiomas",
+      "trust2": "Sin registro",
+      "trust3": "Gratis",
+      "trust4": "Apto para niños",
+      "videoAria": "Ficha de matemáticas resuelta de forma interactiva en el navegador",
+      "mascotAlt": "Elefantito simpático saludando"
+    },
+    "pillar01": {
+      "eyebrow": "Actividades",
+      "h2Line1": "Lecciones que tu hijo quiere terminar.",
+      "h2Line2": "Estándares en los que tu maestro confía.",
+      "support1Label": "Conforme a los planes de estudio",
+      "support1LabelSquiggle": "los planes de estudio",
+      "support1LabelBefore": "Conforme a ",
+      "support1Body": "Código a código. K.CC.B.4, RF.K.2.B, K.G.A.2 — visibles en cada pantalla como códigos-estándar internacionales para que cualquier docente pueda verificarlo de un vistazo.",
+      "support2Label": "Once idiomas",
+      "support2Body": "La misma actividad, el mismo diseño, separación silábica nativa. El niño lee en su idioma; los estándares no cambian.",
+      "support3Label": "Diseño sin presión",
+      "support3Body": "Sin cronómetros. Sin puntuaciones. Sin rachas. Al ritmo de la curiosidad del niño, no de una clasificación.",
+      "support4Label": "Pensado para usarse solo",
+      "support4Body": "El niño puede hacerla solo: elegir una ficha, formar una palabra, escuchar la respuesta. El audio humano está en proceso; el resto ya funciona.",
+      "cta": "Empezar una actividad",
+      "mascotAlt": "Elefantito señalando las tarjetas de actividades",
+      "card1Title": "Constructor de sílabas",
+      "card1Prompt": "Toca las sílabas en orden para formar la palabra.",
+      "card1GradeLabel": "Jardín infantil",
+      "card1CheckLabel": "Comprobar",
+      "card1SubjectAlt": "gato",
+      "card2Title": "Cuenta hasta 10",
+      "card2Prompt": "Toca el marco para formar 5.",
+      "card2GradeLabel": "Jardín infantil",
+      "card2CheckLabel": "Comprobar",
+      "card2SubjectAlt": "cinco gatos",
+      "card3Title": "Forma las sílabas",
+      "card3Prompt": "Toca las sílabas en orden para formar la palabra.",
+      "card3GradeLabel": "Jardín infantil",
+      "card3CheckLabel": "Comprobar",
+      "card3SubjectAlt": "caballo"
+    },
+    "pillar02": {
+      "eyebrow": "Fichas interactivas",
+      "h2Line1": "Todo tipo de ficha, del jardín al tercer grado,",
+      "h2Line2": "en todos los idiomas disponibles.",
+      "body": "Crucigramas, sudokus, clasificaciones, busca y cuenta, sumas, asociaciones, y una amplia biblioteca de otros tipos de ejercicios. El mismo contenido en cualquiera de los once idiomas, gramaticalmente correcto hasta en los plurales con género.",
+      "trust1Strong": "Se juega en cualquier navegador.",
+      "trust1Body": "Sin iniciar sesión. Se comparte como enlace o se incrusta como iframe.",
+      "trust2Strong": "Temáticas más allá del tópico.",
+      "trust2Body": "Dinosaurios, vida marina, fiestas, colecciones para cada temporada — el catálogo profundiza en lo que de verdad les gusta a los niños.",
+      "trust3Strong": "Multilingüe por defecto.",
+      "trust3BodyBefore": "La misma ficha, ",
+      "trust3BodyMiddle": "once idiomas",
+      "trust3BodyAfter": ", con la gramática a la altura.",
+      "cta": "Explorar el catálogo",
+      "emptyState": "El ejemplo en vivo se carga desde el catálogo."
+    },
+    "pillar03": {
+      "eyebrow": "Imprimibles",
+      "h2Line1": "Fichas para imprimir.",
+      "h2Line2": "Soluciones para corregir.",
+      "list1": "Cada ficha interactiva incluye un PDF imprimible — mismas imágenes, mismos ejercicios, pensado para papel.",
+      "list2": "Soluciones incluidas en cada conjunto.",
+      "list3": "Además, formatos solo en PDF para motricidad fina: colorear, escribir, dibujar y colorear, y trazo de líneas.",
+      "list4": "Pensadas para la impresora del aula, la de casa y la fotocopiadora del colegio.",
+      "cta": "Ver fichas imprimibles",
+      "paperStack": {
+        "pdfA4": "PDF · A4",
+        "backTitle": "Sopa de letras",
+        "middleTitle": "Asociación de imágenes",
+        "middleWord1": "Conejo",
+        "middleWord2": "Gato",
+        "middleWord3": "Perro",
+        "frontTitle": "Práctica de sumas",
+        "answerKeyBadge": "+ Soluciones"
+      }
+    },
+    "transition": {
+      "line1": "Y si tú eres",
+      "line2": "quien enseña",
+      "mascotAlt": "Elefantito que une el lado de las familias y el del profesorado"
+    },
+    "pillar04": {
+      "eyebrow": "Generadores de fichas",
+      "h2Line1": "Crea una ficha en un minuto.",
+      "h2Line2": "En cualquiera de los once idiomas.",
+      "body": "Una biblioteca de herramientas generadoras — matemáticas, letras, puzles, patrones — cada una con controles de tema e idioma. Trae tu propia lista de palabras, tus imágenes y tus toques de aula.",
+      "list1": "Una configuración, dos resultados: HTML interactivo y PDF imprimible.",
+      "list2": "Pensado para el docente que quiere exactamente la ficha que tenía en mente.",
+      "list3": "Controles multilingües; la ficha sale en el idioma que elijas.",
+      "cta": "Abrir los generadores",
+      "mockPanel": {
+        "title": "Generador de sumas",
+        "codeChip": "Matemáticas · Jardín-1.º",
+        "themeLabel": "TEMA",
+        "themeValue": "🦕 Dinosaurios",
+        "langLabel": "IDIOMA",
+        "langValue": "🇬🇧 English",
+        "rangeLabel": "RANGO",
+        "itemsLabel": "EJERCICIOS",
+        "generateButton": "Generar",
+        "floatingBadge": "Matemáticas · Letras · Puzles · Patrones"
+      }
+    },
+    "pillar05": {
+      "eyebrow": "Herramientas",
+      "h2Line1": "Los clásicos,",
+      "h2Line2": "redibujados para el navegador.",
+      "body": "Manipulativos matemáticos de aula — táctiles, compatibles con pizarra digital, incrustables en cualquier sitio. Gratis, sin registro.",
+      "tool1Name": "Tablero de diez",
+      "tool1Desc": "La cuadrícula del cinco y del diez para contar, subitizar y sumas iniciales.",
+      "tool2Name": "Recta numérica",
+      "tool2Desc": "Una recta numérica clara para contar de salto en salto, dar saltos y trabajar el valor posicional.",
+      "tool3Name": "Regla",
+      "tool3Desc": "Una regla virtual — mide en pantalla, proyecta en la pizarra.",
+      "perTileCta": "Abrir",
+      "cta": "Abrir las herramientas"
+    },
+    "embedShare": {
+      "eyebrow": "Compartir",
+      "h2Line1": "Incrusta cualquier ficha",
+      "h2Line2": "en tu blog o en la web de tu clase.",
+      "body": "Cada ficha interactiva incluye un fragmento de iframe de una línea. Pégalo donde quieras. Se ejecuta ahí mismo. Sin cuentas. Sin muros de pago.",
+      "pasteCaptionPrefix": "Pega este fragmento",
+      "trust1": "Se ejecuta ahí mismo: los alumnos no salen de tu sitio.",
+      "trust2": "Funciona en WordPress, Wix, Google Sites, Squarespace y donde sea.",
+      "arrowCaption": "así se hace",
+      "mockup": {
+        "worksheetTitle": "Asociaciones",
+        "worksheetHeader": "Animales del zoo",
+        "worksheetInstruction": "Traza líneas para unir las parejas correspondientes.",
+        "animalLion": "León",
+        "animalTiger": "Tigre",
+        "animalGiraffe": "Jirafa",
+        "animalElephant": "Elefante",
+        "animalZebra": "Cebra",
+        "checkAnswers": "Comprobar respuestas",
+        "popupTitle": "Incrustar esta ficha en tu web",
+        "widthLabel": "Ancho",
+        "heightLabel": "Alto",
+        "snippetCaption": "Pega esto en el HTML de tu web",
+        "copyCodeButton": "Copiar código",
+        "closeButton": "Cerrar"
+      }
+    },
+    "signup": {
+      "eyebrow": "Gratis",
+      "h2Line1": "No hace falta registrarse.",
+      "h2Line2": "Crea una cuenta si quieres guardar cosas.",
+      "body": "Cada actividad, ficha y herramienta de este sitio es gratis y sin cuenta. Una cuenta solo sirve para guardar favoritos, crear colecciones e incrustar tus propias fichas.",
+      "ctaPrimary": "Empezar una actividad",
+      "ctaSecondary": "Crear cuenta",
+      "mascotAlt": "Elefantito que te invita a pasar"
+    },
+    "featuredTile": {
+      "badge": "Ejemplo en vivo",
+      "cta": "Toca para jugar →",
+      "closeAria": "Cerrar"
+    },
+    "mascot": {
+      "defaultAlt": "Elefantito simpático"
+    },
+    "metadata": {
+      "title": "Vista previa de la página de inicio v3 · LessonCraftStudio",
+      "description": "Prototipo interno de la página de inicio rediseñada. No indexable."
+    }
   }
 }

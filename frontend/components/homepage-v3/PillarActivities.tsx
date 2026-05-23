@@ -4,6 +4,7 @@
 
 import Link from 'next/link';
 import ActivityCardPreview from './ActivityCardPreview';
+import { DoodleBullet, Arrow, Squiggle } from './DoodleAccents';
 
 interface PillarActivitiesProps {
   locale: string;
@@ -57,19 +58,41 @@ export default function PillarActivities({ locale }: PillarActivitiesProps) {
           {/* LEFT — supporting lines */}
           <div>
             <ul className="space-y-7 md:space-y-9">
-              {SUPPORTING_LINES.map((item) => (
-                <li key={item.label} className="flex gap-5">
-                  <span className="flex-shrink-0 w-1 self-stretch bg-lcs-coral rounded-full" aria-hidden="true" />
-                  <div>
-                    <h3 className="font-lcsDisplay font-semibold text-xl md:text-2xl text-lcs-teal leading-tight">
-                      {item.label}
-                    </h3>
-                    <p className="mt-2 font-lcsBody text-base md:text-lg text-lcs-teal/80 leading-relaxed">
-                      {item.body}
-                    </p>
-                  </div>
-                </li>
-              ))}
+              {SUPPORTING_LINES.map((item, i) => {
+                const variants: Array<'loop' | 'dot' | 'star'> = ['loop', 'star', 'dot', 'loop'];
+                const variant = variants[i % variants.length];
+                return (
+                  <li key={item.label} className="flex gap-5">
+                    {/* Hand-drawn doodle bullet replaces the prior clean
+                        coral vertical bar. Each line gets a slightly
+                        different mark (loop / star / dot) so the list
+                        feels human-drawn, not template-stamped. */}
+                    <span className="flex-shrink-0 w-7 h-7 mt-0.5" aria-hidden="true">
+                      <DoodleBullet
+                        className="text-lcs-coral"
+                        size={28}
+                        variant={variant}
+                      />
+                    </span>
+                    <div>
+                      <h3 className="font-lcsDisplay font-semibold text-xl md:text-2xl text-lcs-teal leading-tight">
+                        {/* First supporting line gets the squiggle flourish
+                            on "Common Core" — picture-book-style emphasis. */}
+                        {i === 0 ? (
+                          <>
+                            Aligned to <span className="hv3-squiggle-word">Common&nbsp;Core</span>
+                          </>
+                        ) : (
+                          item.label
+                        )}
+                      </h3>
+                      <p className="mt-2 font-lcsBody text-base md:text-lg text-lcs-teal/80 leading-relaxed">
+                        {item.body}
+                      </p>
+                    </div>
+                  </li>
+                );
+              })}
             </ul>
 
             <div className="mt-10 md:mt-12">
@@ -85,8 +108,21 @@ export default function PillarActivities({ locale }: PillarActivitiesProps) {
             </div>
           </div>
 
-          {/* RIGHT — card showcase: large foreground card + smaller offset cards */}
-          <div className="relative min-h-[520px] md:min-h-[600px]">
+          {/* RIGHT — card showcase: large foreground card + smaller offset
+              cards. Container grown this pass (min-h 600→720) so the three
+              cards have more room to layer and the actual product art reads
+              larger. */}
+          <div className="relative min-h-[560px] md:min-h-[720px] lg:min-h-[780px]">
+            {/* Hand-drawn arrow from copy column → cards. Sits at top-left
+                of this column, tilted, suggesting "here are real examples".
+                Hidden on phone (the cards stack below copy there). */}
+            <div
+              aria-hidden="true"
+              className="hidden lg:block absolute -top-2 -left-16 z-30 opacity-80"
+              style={{ transform: 'rotate(8deg)' }}
+            >
+              <Arrow className="text-lcs-teal/55" width={110} height={70} rotate={-20} strokeWidth={2.2} />
+            </div>
             {/* Coral atmospheric blob behind */}
             <div
               aria-hidden="true"

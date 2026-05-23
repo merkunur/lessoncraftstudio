@@ -4,6 +4,7 @@
    on the right; copy left. */
 
 import Link from 'next/link';
+import { Pencil, Sparkle } from './DoodleAccents';
 
 interface PillarPrintablesProps {
   locale: string;
@@ -54,15 +55,27 @@ export default function PillarPrintables({ locale }: PillarPrintablesProps) {
             </div>
           </div>
 
-          {/* RIGHT — paper-stack visual metaphor */}
-          <div className="relative flex items-center justify-center min-h-[400px] md:min-h-[500px]">
+          {/* RIGHT — paper-stack visual metaphor. Grown ~25% this pass so
+              the worksheet art on the front page reads larger and the
+              "real worksheet" feeling comes through. */}
+          <div className="relative flex items-center justify-center min-h-[440px] md:min-h-[580px]">
             <div
               aria-hidden="true"
-              className="hv3-blob-coral absolute top-[20%] right-[10%] w-[280px] h-[280px] rounded-full pointer-events-none"
+              className="hv3-blob-coral absolute top-[20%] right-[10%] w-[280px] h-[280px] rounded-full pointer-events-none opacity-60"
             />
 
+            {/* Hand-drawn pencil doodle floating beside the paper stack —
+                signals "print, then write on it" without needing copy. */}
+            <div
+              aria-hidden="true"
+              className="absolute top-[8%] -right-2 md:right-2 z-30 hv3-float"
+              style={{ ['--rot' as string]: '-12deg' } as React.CSSProperties}
+            >
+              <Pencil className="text-lcs-coral-deep" size={56} rotate={-15} />
+            </div>
+
             {/* Stack of three "pages" — layered offset */}
-            <div className="relative w-[260px] md:w-[320px] aspect-[2/2.6]">
+            <div className="relative w-[320px] md:w-[400px] aspect-[2/2.6]">
               {/* Back page */}
               <div
                 className="absolute inset-0 bg-lcs-cream rounded-md shadow-[0_20px_40px_-12px_rgba(20,107,94,0.18),0_8px_16px_-6px_rgba(20,107,94,0.12)] border border-lcs-teal/10"
@@ -124,8 +137,10 @@ export default function PillarPrintables({ locale }: PillarPrintablesProps) {
                 </div>
               </div>
 
-              {/* Floating "Answer key" tag */}
-              <div className="absolute -bottom-6 -right-6 px-4 py-2 bg-lcs-coral text-lcs-cream rounded-full font-lcsBody font-bold text-sm shadow-[0_8px_20px_-4px_rgba(242,120,75,0.5)] rotate-3">
+              {/* Floating "Answer key" tag with a small sparkle accent —
+                  signals the badge as an extra delight, not chrome. */}
+              <div className="absolute -bottom-6 -right-6 px-4 py-2 bg-lcs-coral text-lcs-cream rounded-full font-lcsBody font-bold text-sm shadow-[0_8px_20px_-4px_rgba(242,120,75,0.5)] rotate-3 inline-flex items-center gap-1.5">
+                <Sparkle className="text-lcs-cream" size={14} rotate={-12} />
                 + Answer key
               </div>
             </div>

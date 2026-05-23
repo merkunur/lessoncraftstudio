@@ -7,6 +7,8 @@
 
 import Link from 'next/link';
 import ActivityCardPreview from './ActivityCardPreview';
+import MascotPlaceholder from './MascotPlaceholder';
+import { Sparkle } from './DoodleAccents';
 
 interface HeroV3Props {
   locale: string;
@@ -15,14 +17,13 @@ interface HeroV3Props {
 export default function HeroV3({ locale }: HeroV3Props) {
   return (
     <section className="hv3-grain relative overflow-hidden">
-      {/* Decorative background blobs — non-interactive, behind content */}
+      {/* Single restrained coral atmospheric — the top-left teal blob is
+          intentionally removed in this pass so the page reads less
+          "SaaS hero blob" and lets the foreground illustration carry the
+          warmth instead. */}
       <div
         aria-hidden="true"
-        className="hv3-blob-teal absolute top-[10%] -left-[8%] w-[420px] h-[420px] rounded-full pointer-events-none"
-      />
-      <div
-        aria-hidden="true"
-        className="hv3-blob-coral absolute -bottom-[10%] right-[5%] w-[500px] h-[500px] rounded-full pointer-events-none"
+        className="hv3-blob-coral absolute -bottom-[15%] right-[2%] w-[420px] h-[420px] rounded-full pointer-events-none opacity-70"
       />
 
       <div className="container mx-auto px-4 max-w-7xl pt-12 pb-20 md:pt-20 md:pb-28 lg:pt-24 lg:pb-36 relative">
@@ -34,10 +35,13 @@ export default function HeroV3({ locale }: HeroV3Props) {
               K-3 Common Core · Eleven languages
             </p>
 
-            {/* Headline — dual clause, generous size, line-break-controlled */}
+            {/* Headline — dual clause, generous size, line-break-controlled.
+                The word "game" gets a hand-drawn squiggle underline that
+                draws itself on first paint (replacing the prior clean coral
+                pill underline — same word, more illustrated feel). */}
             <h1 className="hv3-anim-fade-up hv3-anim-d2 mt-5 md:mt-7 font-lcsDisplay font-bold text-lcs-teal leading-[1.02] tracking-tight text-[2.5rem] sm:text-[3.25rem] md:text-[4rem] lg:text-[4.5rem] xl:text-[5rem]">
               <span className="block">
-                Plays like a <span className="hv3-underline-coral">game</span>.
+                Plays like a <span className="hv3-squiggle-word">game</span>.
               </span>
               <span className="block text-lcs-teal-deep">
                 Built like the curriculum.
@@ -73,7 +77,7 @@ export default function HeroV3({ locale }: HeroV3Props) {
             {/* Trust strip — small fact list under CTAs */}
             <ul className="hv3-anim-fade-up hv3-anim-d5 mt-10 md:mt-12 flex flex-wrap gap-x-5 gap-y-2 font-lcsBody text-sm md:text-base text-lcs-teal/70">
               <li className="flex items-center gap-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-lcs-coral inline-block" aria-hidden="true" />
+                <Sparkle className="text-lcs-coral" size={16} rotate={12} />
                 Eleven languages
               </li>
               <li className="flex items-center gap-2">
@@ -109,9 +113,12 @@ export default function HeroV3({ locale }: HeroV3Props) {
             </div>
 
             {/* Card stack wrapper — provides positioning context for the
-                tilted background card behind the main card. Sits below the
-                locale chip strip in the flex column. */}
-            <div className="relative w-full max-w-md">
+                tilted background card behind the main card AND the mascot
+                placeholder that peeks up from the lower-left. Sits below
+                the locale chip strip in the flex column. Grown from
+                max-w-md → max-w-lg this pass so the turtle and the rest
+                of the activity-card art render larger. */}
+            <div className="relative w-full max-w-lg">
               {/* Floating background card (rotated, behind main) */}
               <div
                 aria-hidden="true"
@@ -140,6 +147,19 @@ export default function HeroV3({ locale }: HeroV3Props) {
                 tilt={2}
                 float
               />
+              </div>
+
+              {/* Mascot placeholder — peeking up from the lower-left of the
+                  card. Slight overhang past the card edge breaks the tidy
+                  rectangle and signals "character lives here." Real elephant
+                  art drops in via data-mascot-slot="hero" later. */}
+              <div className="hv3-anim-fade-up hv3-anim-d5 absolute -bottom-12 -left-8 md:-bottom-14 md:-left-12 z-20 pointer-events-none">
+                <MascotPlaceholder
+                  size="hero"
+                  fillTone="sage"
+                  poseHint="welcoming"
+                  className="hv3-mascot-overhang"
+                />
               </div>
             </div>
           </div>

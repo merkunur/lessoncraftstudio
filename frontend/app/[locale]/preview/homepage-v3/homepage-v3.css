@@ -240,6 +240,97 @@
   opacity: 0.85;
 }
 
+/* ─── Hand-drawn personality layer (visual-personality redesign 2026-05-23) ─── */
+
+/* Mascot caption — monospace developer marker so the placeholder reads
+   unambiguously as not-final-art. */
+.hv3-mascot-caption {
+  font-family: ui-monospace, 'SF Mono', Menlo, monospace;
+  font-size: 0.6875rem;
+  letter-spacing: 0.04em;
+  color: #146B5E;
+}
+
+.hv3-mascot-silhouette {
+  /* Subtle stop-motion wobble — single frame, no looping. */
+  animation: hv3MascotWobbleIn 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+@keyframes hv3MascotWobbleIn {
+  0%   { opacity: 0; transform: translateY(8px) rotate(-3deg) scale(0.96); }
+  60%  { opacity: 1; transform: translateY(0) rotate(1.5deg) scale(1.02); }
+  100% { opacity: 1; transform: translateY(0) rotate(0) scale(1); }
+}
+
+/* Hand-drawn squiggle underline — replaces hv3-underline-coral when the
+   word should feel hand-illustrated rather than highlighter-marked.
+   Uses inline SVG mask via background-image. */
+.hv3-squiggle-word {
+  position: relative;
+  display: inline-block;
+}
+.hv3-squiggle-word::after {
+  content: '';
+  position: absolute;
+  left: -3%;
+  right: -3%;
+  bottom: -0.18em;
+  height: 0.4em;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox='0 0 120 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M 2 9 Q 18 1, 32 7 T 60 5 T 88 9 T 118 4' fill='none' stroke='%23F2784B' stroke-width='3.5' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  pointer-events: none;
+  z-index: -1;
+  /* Self-draws on first paint */
+  animation: hv3SquiggleDraw 0.9s ease-out 0.3s both;
+}
+@keyframes hv3SquiggleDraw {
+  from { clip-path: inset(0 100% 0 0); }
+  to   { clip-path: inset(0 0 0 0); }
+}
+
+/* Icon stage — soft cream-and-coral panel behind Tools pillar icons,
+   gives the icon physical stage presence on the sage ground. */
+.hv3-icon-stage {
+  background:
+    radial-gradient(ellipse at 30% 30%, rgba(242, 120, 75, 0.10) 0%, transparent 70%),
+    #FBF3E4;
+  border-radius: 18px;
+  padding: 0.75rem 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.7) inset,
+    0 2px 4px rgba(20, 107, 94, 0.08),
+    0 8px 16px -6px rgba(20, 107, 94, 0.10);
+}
+
+/* Hand-drawn frame — used around code snippet in EmbedShareV3 */
+.hv3-handframe {
+  position: relative;
+  border-radius: 8px;
+  padding: 0.625rem 1rem;
+  background: rgba(20, 107, 94, 0.06);
+}
+.hv3-handframe::before {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border: 2px solid rgba(242, 120, 75, 0.55);
+  border-radius: 12px;
+  /* Irregular dash to look hand-drawn */
+  border-style: dashed;
+  border-dasharray: 3 5;
+  pointer-events: none;
+  transform: rotate(-0.4deg);
+}
+
+/* Slight overhang for mascot in hero — breaks the right-column tidy edge */
+.hv3-mascot-overhang {
+  margin-bottom: -2.5rem;
+  margin-left: -1rem;
+}
+
 /* Prefers-reduced-motion */
 @media (prefers-reduced-motion: reduce) {
   .hv3-anim-fade-up,
@@ -249,4 +340,6 @@
   .hv3-anim-d4,
   .hv3-anim-d5 { animation: none; opacity: 1; transform: none; }
   .hv3-float { animation: none; }
+  .hv3-mascot-silhouette { animation: none; }
+  .hv3-squiggle-word::after { animation: none; clip-path: none; }
 }

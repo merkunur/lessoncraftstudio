@@ -3,6 +3,7 @@
    public page is shareable; embeds spread the flywheel. */
 
 import Link from 'next/link';
+import { Arrow } from './DoodleAccents';
 
 interface Props {
   locale: string;
@@ -18,6 +19,15 @@ export default function EmbedShareV3({ locale }: Props) {
             aria-hidden="true"
             className="hv3-blob-coral absolute -top-[20%] -right-[10%] w-[400px] h-[400px] rounded-full pointer-events-none"
           />
+
+          {/* Hand-drawn arrow connecting copy column → CTA column
+              ("and here's how"). Hidden on phone where the columns stack. */}
+          <div
+            aria-hidden="true"
+            className="hidden md:block absolute left-[55%] top-[48%] -translate-y-1/2 z-10 opacity-70"
+          >
+            <Arrow className="text-lcs-teal/55" width={80} height={50} rotate={-8} strokeWidth={2} />
+          </div>
 
           <div className="relative grid grid-cols-1 md:grid-cols-[1.2fr_0.8fr] gap-10 items-center">
             <div>
@@ -43,7 +53,10 @@ export default function EmbedShareV3({ locale }: Props) {
                 </svg>
               </Link>
 
-              <div className="px-4 py-2.5 bg-lcs-teal-soft rounded-lg font-mono text-xs text-lcs-teal/85 max-w-full overflow-hidden">
+              {/* Hand-drawn frame around the code snippet — dashed coral
+                  border with a slight tilt, signals "this is the thing you
+                  paste" with picture-book emphasis. */}
+              <div className="hv3-handframe font-mono text-xs text-lcs-teal/85 max-w-full overflow-hidden">
                 <code className="block whitespace-nowrap">&lt;iframe src=&quot;…/decks/…/&quot;&gt;&lt;/iframe&gt;</code>
               </div>
             </div>

@@ -1,4 +1,3 @@
-import { notFound } from 'next/navigation';
 import { getRequestConfig } from 'next-intl/server';
 import { SUPPORTED_LOCALES, DEFAULT_LOCALE, LOCALE_NAMES, type SupportedLocale } from '@/config/locales';
 
@@ -8,28 +7,52 @@ export type Locale = SupportedLocale;
 export const defaultLocale = DEFAULT_LOCALE;
 export const localeNames = LOCALE_NAMES;
 
+// Deep-merge two message trees. Keys present in `override` win; keys
+// only present in `base` survive. Used so a locale's messages file can
+// omit namespaces still being recreated per-language — the EN baseline
+// fills the gap rather than rendering raw `t('foo.bar')` keys to the
+// user. (Initial use: homepageV3 namespace ships EN-first; other
+// locales' commissions add their namespace later — until then they
+// render EN, NOT raw keys.)
+function deepMerge(base: Record<string, unknown>, override: Record<string, unknown>): Record<string, unknown> {
+  const result: Record<string, unknown> = { ...base };
+  for (const [key, value] of Object.entries(override)) {
+    if (
+      value !== null &&
+      typeof value === 'object' &&
+      !Array.isArray(value) &&
+      typeof result[key] === 'object' &&
+      result[key] !== null &&
+      !Array.isArray(result[key])
+    ) {
+      result[key] = deepMerge(result[key] as Record<string, unknown>, value as Record<string, unknown>);
+    } else {
+      result[key] = value;
+    }
+  }
+  return result;
+}
+
 export default getRequestConfig(async ({ locale }) => {
-  // Validate that the incoming `locale` parameter is valid
   const currentLocale = locale || defaultLocale;
-  
-  if (!locales.includes(currentLocale as any)) {
-    // Return default locale instead of throwing notFound
-    return {
-      locale: defaultLocale,
-      messages: (await import(`../messages/${defaultLocale}.json`)).default
-    };
+
+  const baseMessages = (await import(`../messages/${defaultLocale}.json`)).default as Record<string, unknown>;
+
+  if (!locales.includes(currentLocale as SupportedLocale)) {
+    return { locale: defaultLocale, messages: baseMessages };
+  }
+
+  if (currentLocale === defaultLocale) {
+    return { locale: defaultLocale, messages: baseMessages };
   }
 
   try {
+    const localeMessages = (await import(`../messages/${currentLocale}.json`)).default as Record<string, unknown>;
     return {
       locale: currentLocale,
-      messages: (await import(`../messages/${currentLocale}.json`)).default
+      messages: deepMerge(baseMessages, localeMessages),
     };
-  } catch (error) {
-    // Fallback to English if translation file not found
-    return {
-      locale: defaultLocale,
-      messages: (await import(`../messages/en.json`)).default
-    };
+  } catch {
+    return { locale: defaultLocale, messages: baseMessages };
   }
 });

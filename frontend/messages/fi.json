@@ -1397,5 +1397,180 @@
         "weeksAgo": "{count, plural, =1 {1 week ago} other {# weeks ago}}"
       }
     }
+  },
+  "homepageV3": {
+    "hero": {
+      "eyebrow": "Varhaiskasvatuksesta 3. luokkaan · OPS 2014 -yhteensopiva · Yksitoista kieltä",
+      "h1Line1Before": "Toimii kuin ",
+      "h1Line1Squiggle": "peli",
+      "h1Line1After": ".",
+      "h1Line2": "Rakennettu opetussuunnitelman mukaan.",
+      "body": "OPS 2014 -yhteensopiva fonologinen tietoisuus ja matematiikka varhaiskasvatuksesta 3. luokkaan, yhdellätoista kielellä — suunniteltu niin, että lapsi voi ottaa sen käyttöön itse, ja rakennettu standardin mukaan, jotta opettaja voi luottaa jokaiseen näyttöön.",
+      "ctaPrimary": "Aloita tehtävä",
+      "ctaSecondary": "Selaa kokoelmaa",
+      "trust1": "Yksitoista kieltä",
+      "trust2": "Ei rekisteröitymistä",
+      "trust3": "Ilmainen pelata",
+      "trust4": "Lapsen käytettävissä",
+      "videoAria": "Matematiikkapulma-tehtävää ratkaistaan vuorovaikutteisesti selaimessa",
+      "mascotAlt": "Ystävällinen norsumaskotti heiluttaa tervehdykseksi"
+    },
+    "pillar01": {
+      "eyebrow": "Tehtävät",
+      "h2Line1": "Tehtäviä, jotka lapsi haluaa tehdä loppuun.",
+      "h2Line2": "Standardit, joihin opettaja luottaa.",
+      "support1Label": "Yhteensopiva OPS 2014:n kanssa",
+      "support1LabelSquiggle": "OPS 2014:n kanssa",
+      "support1LabelBefore": "Yhteensopiva ",
+      "support1Body": "Koodi koodilta. K.CC.B.4, RF.K.2.B, K.G.A.2 — näkyvissä jokaisella sivulla kansainvälisinä standardeina, jotta opettaja voi tarkistaa ne yhdellä silmäyksellä.",
+      "support2Label": "Yksitoista kieltä",
+      "support2Body": "Sama tehtävä, sama suunnittelu, äidinkielen mukainen tavutus. Lapsi lukee omalla kielellään; standardit pysyvät samoina.",
+      "support3Label": "Painostukseton suunnittelu",
+      "support3Body": "Ei ajastimia. Ei pisteitä. Ei suoritusputkia. Etenee lapsen uteliaisuuden tahtiin, ei tulostaulun.",
+      "support4Label": "Suunniteltu otettavaksi käyttöön",
+      "support4Body": "Lapsi voi tehdä yhden itse — valitse ruutu, rakenna sana, kuule vastaus. Ihmisäänitykset valmisteilla; muu on jo käytössä.",
+      "cta": "Aloita tehtävä",
+      "mascotAlt": "Norsumaskotti osoittaa tehtäväkortteja",
+      "card1Title": "Rakenna sana",
+      "card1Prompt": "Napauta tavut järjestyksessä muodostaaksesi sanan.",
+      "card1GradeLabel": "Esiopetus",
+      "card1CheckLabel": "Tarkista",
+      "card1SubjectAlt": "kissa",
+      "card2Title": "Laske kymmeneen",
+      "card2Prompt": "Napauta kehystä muodostaaksesi viisi.",
+      "card2GradeLabel": "Esiopetus",
+      "card2CheckLabel": "Tarkista",
+      "card2SubjectAlt": "viisi kissaa",
+      "card3Title": "Muodosta sana tavuista",
+      "card3Prompt": "Napauta tavut järjestyksessä muodostaaksesi sanan.",
+      "card3GradeLabel": "Esiopetus",
+      "card3CheckLabel": "Tarkista",
+      "card3SubjectAlt": "kirahvi"
+    },
+    "pillar02": {
+      "eyebrow": "Vuorovaikutteiset tehtävät",
+      "h2Line1": "Kaikenlaisia tehtäviä varhaiskasvatuksesta 3. luokkaan,",
+      "h2Line2": "jokaisella sen ikäluokan kielellä.",
+      "body": "Ristisanat, sudoku, luokittelu, etsi-ja-laske, yhteenlasku, parinmuodostus — sekä laaja kokoelma muita tehtävätyyppejä. Sama sisältö millä tahansa yhdellätoista kielellä, kieliopillisesti oikein aina sukupuolitettuihin monikoihin asti.",
+      "trust1Strong": "Toimii missä tahansa selaimessa.",
+      "trust1Body": "Ei kirjautumista. Jaettavissa linkkinä, upotettavissa iframenä.",
+      "trust2Strong": "Teemat klisheen tuolla puolen.",
+      "trust2Body": "Dinosauruksia, merenelämää, juhlapyhiä, vuodenaikoihin sopivia sarjoja — kokoelma syventyy siihen, mistä lapset todella pitävät.",
+      "trust3Strong": "Monikielinen lähtökohtaisesti.",
+      "trust3BodyBefore": "Sama tehtävä, ",
+      "trust3BodyMiddle": "yksitoista kieltä",
+      "trust3BodyAfter": ", kielioppi, joka pitää pintansa.",
+      "cta": "Selaa kokoelmaa",
+      "emptyState": "Esimerkkitehtävä latautuu kokoelmasta."
+    },
+    "pillar03": {
+      "eyebrow": "Tulostettavat",
+      "h2Line1": "Tehtäviä tulostettavaksi.",
+      "h2Line2": "Vastausavaimet tarkistusta varten.",
+      "list1": "Jokaisen vuorovaikutteisen tehtävän mukana tulee tulostettava PDF — samat kuvat, samat harjoitukset, paperiystävällinen.",
+      "list2": "Vastausavain mukana jokaisessa sarjassa.",
+      "list3": "Lisäksi PDF-muotoja hienomotoriikan harjoitteluun: värittäminen, kirjoittaminen, piirrä-ja-väritä, viivojen seuraaminen.",
+      "list4": "Suunniteltu luokkahuoneen tulostimelle, kotitulostimelle ja koulun kopiokoneelle.",
+      "cta": "Katso tulostettavat tehtävät",
+      "paperStack": {
+        "pdfA4": "PDF · A4",
+        "backTitle": "Sananhaku",
+        "middleTitle": "Kuvanyhdistäminen",
+        "middleWord1": "Kani",
+        "middleWord2": "Kissa",
+        "middleWord3": "Koira",
+        "frontTitle": "Yhteenlaskuharjoitus",
+        "answerKeyBadge": "+ Vastausavain"
+      }
+    },
+    "transition": {
+      "line1": "Ja jos olet",
+      "line2": "se joka opettaa",
+      "mascotAlt": "Ystävällinen norsumaskotti yhdistää vanhempien ja opettajien puolet"
+    },
+    "pillar04": {
+      "eyebrow": "Tehtävägeneraattorit",
+      "h2Line1": "Luo tehtävä minuutissa.",
+      "h2Line2": "Millä tahansa yhdestätoista kielestä.",
+      "body": "Generaattorityökalujen kokoelma — matematiikka, kirjaimet, pulmat, kuviot — kussakin teema- ja kielivalinnat. Tuo oma sanalistasi, oma kuvasarjasi, omat luokkahuonemausteesi.",
+      "list1": "Yksi määritys. Kaksi tulostetta: vuorovaikutteinen HTML ja tulostettava PDF.",
+      "list2": "Suunnattu opettajalle, joka haluaa juuri sen tehtävän, jonka oli ajatellut.",
+      "list3": "Monikieliset säätimet; tehtävä saapuu valitsemallasi kielellä.",
+      "cta": "Avaa generaattorit",
+      "mockPanel": {
+        "title": "Yhteenlaskugeneraattori",
+        "codeChip": "Matematiikka · 1.-2. luokka",
+        "themeLabel": "TEEMA",
+        "themeValue": "🦕 Dinosaurukset",
+        "langLabel": "KIELI",
+        "langValue": "🇸🇪 Svenska",
+        "rangeLabel": "VAIHTELUVÄLI",
+        "itemsLabel": "TEHTÄVIÄ",
+        "generateButton": "Luo",
+        "floatingBadge": "Matematiikka · Kirjaimet · Pulmat · Kuviot"
+      }
+    },
+    "pillar05": {
+      "eyebrow": "Työkalut",
+      "h2Line1": "Klassikot,",
+      "h2Line2": "uudelleen piirretty selaimeen.",
+      "body": "Luokkahuoneen matematiikan manipulatiivit — kosketuksen ehdoilla, älytaulu-ystävällisiä, upotettavissa minne tahansa. Ilmainen, ei rekisteröitymistä.",
+      "tool1Name": "Kymppikehys",
+      "tool1Desc": "Viiden ja kymmenen ruudukko laskemiseen, lukukäsitteen vahvistamiseen ja varhaiseen yhteenlaskuun.",
+      "tool2Name": "Lukusuora",
+      "tool2Desc": "Selkeä lukusuora loikkalaskentaan, hyppyihin ja paikkalukujärjestelmään.",
+      "tool3Name": "Viivoitin",
+      "tool3Desc": "Virtuaalinen viivoitin — mittaa näytöllä, heijasta älytaululle.",
+      "perTileCta": "Avaa",
+      "cta": "Avaa työkalut"
+    },
+    "embedShare": {
+      "eyebrow": "Jaa",
+      "h2Line1": "Upota mikä tahansa tehtävä",
+      "h2Line2": "blogiisi tai luokan sivuille.",
+      "body": "Jokaisen vuorovaikutteisen tehtävän mukana tulee yhden rivin iframe-koodi. Liitä se minne tahansa. Se toimii suoraan paikallaan. Ei tilejä. Ei maksumuureja.",
+      "pasteCaptionPrefix": "Liitä tämä koodinpätkä",
+      "trust1": "Toimii paikallaan — oppilaat eivät poistu sivuiltasi.",
+      "trust2": "Toimii WordPressissä, Wixissä, Google Sitesissa, Squarespacessa, missä tahansa.",
+      "arrowCaption": "näin se tehdään",
+      "mockup": {
+        "worksheetTitle": "Yhdistä parit",
+        "worksheetHeader": "Eläintarhan eläimet",
+        "worksheetInstruction": "Piirrä viivat yhdistääksesi yhteenkuuluvat parit.",
+        "animalLion": "Leijona",
+        "animalTiger": "Tiikeri",
+        "animalGiraffe": "Kirahvi",
+        "animalElephant": "Norsu",
+        "animalZebra": "Seepra",
+        "checkAnswers": "Tarkista vastaukset",
+        "popupTitle": "Upota tämä tehtävä sivuillesi",
+        "widthLabel": "Leveys",
+        "heightLabel": "Korkeus",
+        "snippetCaption": "Liitä tämä sivustosi HTML:ään",
+        "copyCodeButton": "Kopioi koodi",
+        "closeButton": "Sulje"
+      }
+    },
+    "signup": {
+      "eyebrow": "Ilmainen",
+      "h2Line1": "Rekisteröitymistä ei tarvita.",
+      "h2Line2": "Luo tili, jos haluat tallentaa asioita.",
+      "body": "Tämän sivuston jokainen tehtävä, harjoitus ja työkalu on ilmainen käyttää ilman tiliä. Tilin avulla voit vain tallentaa suosikit, rakentaa kokoelmia ja upottaa omat tehtäväsarjasi.",
+      "ctaPrimary": "Aloita tehtävä",
+      "ctaSecondary": "Luo tili",
+      "mascotAlt": "Ystävällinen norsumaskotti viittoo sisään"
+    },
+    "featuredTile": {
+      "badge": "Esimerkkitehtävä",
+      "cta": "Napauta pelataksesi →",
+      "closeAria": "Sulje"
+    },
+    "mascot": {
+      "defaultAlt": "Ystävällinen norsumaskotti"
+    },
+    "metadata": {
+      "title": "Etusivun v3 esikatselu · LessonCraftStudio",
+      "description": "Uudelleensuunnitellun etusivun sisäinen prototyyppi. Ei indeksoitu."
+    }
   }
 }

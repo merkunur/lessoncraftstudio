@@ -68,6 +68,9 @@ export default function MascotPlaceholder({
   flip = false,
   alt = 'Friendly elephant mascot',
 }: MascotPlaceholderProps) {
+  // Default alt is the EN fallback. Callers should pass their own alt
+  // sourced from useTranslations('homepageV3.<section>.mascotAlt') —
+  // this default only fires for direct uses (e.g., dev-only renders).
   const pose = resolvePose(poseHint);
   const heightPx = SIZE_PX[size];
   const src = `/mascot/${pose}.png`;

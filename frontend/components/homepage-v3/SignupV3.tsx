@@ -3,6 +3,7 @@
    to play without an account per CLAUDE.md §7). */
 
 import Link from 'next/link';
+import { getTranslations } from 'next-intl/server';
 import MascotPlaceholder from './MascotPlaceholder';
 import { Sparkle } from './DoodleAccents';
 
@@ -10,7 +11,8 @@ interface Props {
   locale: string;
 }
 
-export default function SignupV3({ locale }: Props) {
+export default async function SignupV3({ locale }: Props) {
+  const t = await getTranslations({ locale, namespace: 'homepageV3.signup' });
   return (
     <section className="hv3-section-coral-deep py-24 md:py-32 relative overflow-hidden">
       {/* Atmosphere — soft cream halo behind the mascot. */}
@@ -32,24 +34,22 @@ export default function SignupV3({ locale }: Props) {
           <MascotPlaceholder
             size="signup"
             poseHint="emphasizing"
-            alt="Friendly elephant mascot waving you in"
+            alt={t('mascotAlt')}
           />
         </div>
 
         <div className="text-center md:text-left md:max-w-2xl">
         <p className="hv3-eyebrow inline-flex items-center" style={{ color: '#FBE3D8' }}>
           <span style={{ background: '#F2784B' }} className="!w-6 !h-0.5 inline-block" />
-          Free
+          {t('eyebrow')}
           <Sparkle className="text-lcs-coral ml-2" size={16} rotate={20} />
         </p>
         <h2 className="mt-4 font-lcsDisplay font-bold text-lcs-cream leading-[1.05] tracking-tight text-[2rem] md:text-[3rem] lg:text-[3.5rem]">
-          No signup needed.<br />
-          <span className="text-lcs-coral-soft">Make one if you want to save things.</span>
+          {t('h2Line1')}<br />
+          <span className="text-lcs-coral-soft">{t('h2Line2')}</span>
         </h2>
         <p className="mt-7 font-lcsBody text-lg md:text-xl text-lcs-cream/85 leading-relaxed max-w-2xl mx-auto md:mx-0">
-          Every activity, worksheet, and tool on this site is free to use without
-          an account. An account just lets you keep favorites, build collections,
-          and embed your own decks.
+          {t('body')}
         </p>
 
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
@@ -57,13 +57,13 @@ export default function SignupV3({ locale }: Props) {
             href={`/${locale}/activities/count-to-10-with-animals/`}
             className="inline-flex items-center justify-center font-lcsDisplay font-semibold text-lg px-7 py-3.5 rounded-2xl bg-lcs-coral text-lcs-cream hover:bg-lcs-coral-deep transition-colors shadow-[0_8px_20px_-4px_rgba(242,120,75,0.5)]"
           >
-            Start an activity
+            {t('ctaPrimary')}
           </Link>
           <Link
             href={`/${locale}/auth/signup`}
             className="inline-flex items-center justify-center font-lcsDisplay font-semibold text-lg px-7 py-3 rounded-2xl border-2 border-lcs-cream text-lcs-cream hover:bg-lcs-cream hover:text-lcs-teal transition-colors"
           >
-            Make an account
+            {t('ctaSecondary')}
           </Link>
         </div>
         </div>

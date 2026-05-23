@@ -1133,5 +1133,180 @@
     "errorClipboard": "Could not access clipboard. Select the link and copy manually.",
     "bulkResultsTitle": "{count, plural, =1 {1 share link} other {# share links}}",
     "bulkResultsSkipped": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
+  },
+  "homepageV3": {
+    "hero": {
+      "eyebrow": "K-3 Common Core · Eleven languages",
+      "h1Line1Before": "Plays like a ",
+      "h1Line1Squiggle": "game",
+      "h1Line1After": ".",
+      "h1Line2": "Built like the curriculum.",
+      "body": "Common Core–aligned K-3 phonics and math, in eleven languages — designed so a child can pick one up and learn, and built to the standard so a teacher trusts every screen.",
+      "ctaPrimary": "Start an activity",
+      "ctaSecondary": "Browse the catalog",
+      "trust1": "Eleven languages",
+      "trust2": "No signup",
+      "trust3": "Free to play",
+      "trust4": "Kid-runnable",
+      "videoAria": "Math puzzle worksheet being solved interactively in the browser",
+      "mascotAlt": "Friendly elephant mascot waving hello"
+    },
+    "pillar01": {
+      "eyebrow": "Activities",
+      "h2Line1": "Lessons your kid wants to finish.",
+      "h2Line2": "Standards your teacher trusts.",
+      "support1Label": "Aligned to Common Core",
+      "support1LabelSquiggle": "Common Core",
+      "support1LabelBefore": "Aligned to ",
+      "support1Body": "Code by code. K.CC.B.4, RF.K.2.B, K.G.A.2 — visible on every page so any teacher can verify in a glance.",
+      "support2Label": "Eleven languages",
+      "support2Body": "Same activity, same design, native syllabification. A child reads in their language; the standards stay the same.",
+      "support3Label": "No-pressure design",
+      "support3Body": "No timers. No scores. No streaks. Paced like a child's curiosity, not a leaderboard.",
+      "support4Label": "Built to be picked up",
+      "support4Body": "A child can run one alone — pick a tile, build a word, hear the answer. Human audio in progress; the rest is live.",
+      "cta": "Start an activity",
+      "mascotAlt": "Elephant mascot gesturing toward the activity cards",
+      "card1Title": "Costruttore di sillabe",
+      "card1Prompt": "Tocca le sillabe in ordine per formare la parola.",
+      "card1GradeLabel": "Scuola dell'infanzia",
+      "card1CheckLabel": "Verifica",
+      "card1SubjectAlt": "gatto",
+      "card2Title": "Count to 10",
+      "card2Prompt": "Tap the frame to make 5.",
+      "card2GradeLabel": "Kindergarten",
+      "card2CheckLabel": "Check",
+      "card2SubjectAlt": "five cats",
+      "card3Title": "Forma las sílabas",
+      "card3Prompt": "Toca las sílabas en orden para formar la palabra.",
+      "card3GradeLabel": "Jardín de infancia",
+      "card3CheckLabel": "Comprobar",
+      "card3SubjectAlt": "caballo"
+    },
+    "pillar02": {
+      "eyebrow": "Interactive worksheets",
+      "h2Line1": "Every kind of K-3 worksheet,",
+      "h2Line2": "in every K-3 language.",
+      "body": "Crosswords, sudoku, sorts, find-and-count, addition, matching — and a wide library of other exercise types. Same content in any of eleven languages, grammatically correct down to gendered plurals.",
+      "trust1Strong": "Plays in any browser.",
+      "trust1Body": "No login. Shareable as a link, embeddable as an iframe.",
+      "trust2Strong": "Themes past the cliché.",
+      "trust2Body": "Dinosaurs, ocean life, holidays, season-appropriate sets — the catalog goes deep on what kids actually like.",
+      "trust3Strong": "Multilingual by default.",
+      "trust3BodyBefore": "Same worksheet, ",
+      "trust3BodyMiddle": "eleven languages",
+      "trust3BodyAfter": ", grammar that holds up.",
+      "cta": "Browse the catalog",
+      "emptyState": "Live sample play loads from the catalog."
+    },
+    "pillar03": {
+      "eyebrow": "Printables",
+      "h2Line1": "Worksheets to print.",
+      "h2Line2": "Answer keys to grade by.",
+      "list1": "Every interactive worksheet ships with a printable PDF — same images, same exercises, paper-friendly.",
+      "list2": "Answer keys included for every set.",
+      "list3": "Plus PDF-only formats for fine-motor practice: coloring, writing, draw-and-color, line tracing.",
+      "list4": "Designed for the classroom printer, the home printer, and the school copier alike.",
+      "cta": "See printable worksheets",
+      "paperStack": {
+        "pdfA4": "PDF · A4",
+        "backTitle": "Word Search",
+        "middleTitle": "Picture Matching",
+        "middleWord1": "Rabbit",
+        "middleWord2": "Cat",
+        "middleWord3": "Dog",
+        "frontTitle": "Addition Practice",
+        "answerKeyBadge": "+ Answer key"
+      }
+    },
+    "transition": {
+      "line1": "And if you're",
+      "line2": "the one teaching",
+      "mascotAlt": "Friendly elephant mascot bridging the parent and teacher sides"
+    },
+    "pillar04": {
+      "eyebrow": "Worksheet makers",
+      "h2Line1": "Make a worksheet in a minute.",
+      "h2Line2": "In any of eleven languages.",
+      "body": "A library of generator tools — math, letters, puzzles, patterns — each with theme and language controls. Bring your own word list, your own image set, your own classroom touches.",
+      "list1": "One setup. Two outputs: interactive HTML and printable PDF.",
+      "list2": "Aimed at the teacher who wants exactly the worksheet they had in mind.",
+      "list3": "Multilingual controls; the worksheet ships in the language you choose.",
+      "cta": "Open the makers",
+      "mockPanel": {
+        "title": "Addition Generator",
+        "codeChip": "Math · K-2",
+        "themeLabel": "THEME",
+        "themeValue": "🦕 Dinosaurs",
+        "langLabel": "LANGUAGE",
+        "langValue": "🇫🇷 Français",
+        "rangeLabel": "RANGE",
+        "itemsLabel": "ITEMS",
+        "generateButton": "Generate",
+        "floatingBadge": "Math · Letters · Puzzles · Patterns"
+      }
+    },
+    "pillar05": {
+      "eyebrow": "Tools",
+      "h2Line1": "The classics,",
+      "h2Line2": "redrawn for the browser.",
+      "body": "Classroom math manipulatives — touch-first, whiteboard-friendly, embeddable anywhere. Free, no signup.",
+      "tool1Name": "Ten-frame",
+      "tool1Desc": "The five-and-ten grid for counting, subitizing, and early addition.",
+      "tool2Name": "Number line",
+      "tool2Desc": "A clean number line for skip-counting, jumps, and place value.",
+      "tool3Name": "Ruler",
+      "tool3Desc": "A virtual ruler — measure on screen, project on the whiteboard.",
+      "perTileCta": "Open",
+      "cta": "Open the tools"
+    },
+    "embedShare": {
+      "eyebrow": "Share",
+      "h2Line1": "Embed any worksheet",
+      "h2Line2": "on your blog or your class site.",
+      "body": "Every interactive worksheet ships with a one-line iframe snippet. Paste it anywhere. It plays in place. No accounts. No paywalls.",
+      "pasteCaptionPrefix": "Paste this snippet",
+      "trust1": "Plays in place — students don't leave your site.",
+      "trust2": "Works in WordPress, Wix, Google Sites, Squarespace, anywhere.",
+      "arrowCaption": "here's how",
+      "mockup": {
+        "worksheetTitle": "Match Up",
+        "worksheetHeader": "Zoo Animals",
+        "worksheetInstruction": "Draw lines to connect the matching pairs.",
+        "animalLion": "Lion",
+        "animalTiger": "Tiger",
+        "animalGiraffe": "Giraffe",
+        "animalElephant": "Elephant",
+        "animalZebra": "Zebra",
+        "checkAnswers": "Check Answers",
+        "popupTitle": "Embed this worksheet on your site",
+        "widthLabel": "Width",
+        "heightLabel": "Height",
+        "snippetCaption": "Paste this into your website's HTML",
+        "copyCodeButton": "Copy code",
+        "closeButton": "Close"
+      }
+    },
+    "signup": {
+      "eyebrow": "Free",
+      "h2Line1": "No signup needed.",
+      "h2Line2": "Make one if you want to save things.",
+      "body": "Every activity, worksheet, and tool on this site is free to use without an account. An account just lets you keep favorites, build collections, and embed your own decks.",
+      "ctaPrimary": "Start an activity",
+      "ctaSecondary": "Make an account",
+      "mascotAlt": "Friendly elephant mascot waving you in"
+    },
+    "featuredTile": {
+      "badge": "Sample play",
+      "cta": "Tap to play →",
+      "closeAria": "Close"
+    },
+    "mascot": {
+      "defaultAlt": "Friendly elephant mascot"
+    },
+    "metadata": {
+      "title": "Homepage v3 Preview · LessonCraftStudio",
+      "description": "Internal prototype of the redesigned homepage. Not indexed."
+    }
   }
 }

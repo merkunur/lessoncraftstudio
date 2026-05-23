@@ -4,9 +4,16 @@
    teal. Big drama, clear bridge metaphor. The italic "And if you're the
    one teaching…" line sits across from the mascot. */
 
+import { getTranslations } from 'next-intl/server';
 import MascotPlaceholder from './MascotPlaceholder';
 
-export default function TierTransition() {
+interface TierTransitionProps {
+  locale?: string;
+}
+
+export default async function TierTransition({ locale = 'en' }: TierTransitionProps) {
+  const t = await getTranslations({ locale, namespace: 'homepageV3.transition' });
+
   return (
     <section className="relative overflow-hidden">
       {/* The diagonal sweep — cream upper, deep-teal lower. Single
@@ -33,7 +40,7 @@ export default function TierTransition() {
               <MascotPlaceholder
                 size="transition"
                 poseHint="greeting"
-                alt="Friendly elephant mascot bridging the parent and teacher sides"
+                alt={t('mascotAlt')}
               />
             </div>
 
@@ -44,10 +51,10 @@ export default function TierTransition() {
                 track the diagonal. */}
             <div className="text-center md:text-left max-w-md pr-0 md:pr-6 lg:pr-8">
               <p className="font-lcsDisplay text-3xl md:text-4xl lg:text-[3rem] text-lcs-teal-deep italic leading-[1.05] font-bold -translate-y-3 md:-translate-y-4 lg:-translate-y-6">
-                And if you&apos;re
+                {t('line1')}
               </p>
               <p className="font-lcsDisplay text-3xl md:text-4xl lg:text-[3rem] text-lcs-cream italic leading-[1.05] font-bold mt-2">
-                the one teaching<span className="text-lcs-coral">…</span>
+                {t('line2')}<span className="text-lcs-coral">…</span>
               </p>
             </div>
           </div>

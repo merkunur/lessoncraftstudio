@@ -11,6 +11,7 @@
    distinct types. */
 
 import Link from 'next/link';
+import { getTranslations } from 'next-intl/server';
 import { prisma } from '@/lib/prisma';
 import { getAxisSlug } from '@/lib/taxonomy';
 import FeaturedDeckTileV3 from './FeaturedDeckTileV3';
@@ -98,33 +99,29 @@ async function selectPillarInteractiveDecks(locale: string): Promise<{ featured:
 }
 
 export default async function PillarInteractive({ locale }: PillarInteractiveProps) {
-  const { featured, thumbs } = await selectPillarInteractiveDecks(locale);
+  const [{ featured, thumbs }, t] = await Promise.all([
+    selectPillarInteractiveDecks(locale),
+    getTranslations({ locale, namespace: 'homepageV3.pillar02' }),
+  ]);
 
   return (
     <section id="interactive-worksheets" className="hv3-section-coral relative overflow-hidden py-20 md:py-28 lg:py-36">
       <div className="container mx-auto px-4 max-w-7xl relative">
-        {/* Header row */}
         <div className="max-w-3xl mb-12 md:mb-16">
           <div className="flex items-center gap-4 mb-4">
             <span className="hv3-pillar-num-cream">02</span>
-            <span className="hv3-eyebrow text-lcs-cream/85">Interactive worksheets</span>
+            <span className="hv3-eyebrow text-lcs-cream/85">{t('eyebrow')}</span>
           </div>
           <h2 className="font-lcsDisplay font-bold text-lcs-cream leading-[1.05] tracking-tight text-[2rem] sm:text-[2.5rem] md:text-[3rem] lg:text-[3.75rem]">
-            Every kind of K-3 worksheet,<br />
-            <span className="text-lcs-cream/85 italic">in every K-3 language.</span>
+            {t('h2Line1')}<br />
+            <span className="text-lcs-cream/85 italic">{t('h2Line2')}</span>
           </h2>
         </div>
 
-        {/* Two-column body. Right column wider so the featured deck tile
-            + the variety thumbs row render at larger absolute sizes — the
-            real product art carries more weight. */}
         <div className="grid grid-cols-1 lg:grid-cols-[0.85fr_1.15fr] gap-12 lg:gap-16 items-start">
-          {/* LEFT — supporting lines */}
           <div>
             <p className="font-lcsBody text-lg md:text-xl text-lcs-cream/90 leading-relaxed">
-              Crosswords, sudoku, sorts, find-and-count, addition, matching — and
-              a wide library of other exercise types. Same content in any of
-              eleven languages, grammatically correct down to gendered plurals.
+              {t('body')}
             </p>
 
             <ul className="mt-8 space-y-5 font-lcsBody text-base md:text-lg text-lcs-cream/85">
@@ -133,7 +130,7 @@ export default async function PillarInteractive({ locale }: PillarInteractivePro
                   <HandCheck className="text-lcs-cream" size={26} />
                 </span>
                 <span>
-                  <strong className="font-semibold text-lcs-cream">Plays in any browser.</strong> No login. Shareable as a link, embeddable as an iframe.
+                  <strong className="font-semibold text-lcs-cream">{t('trust1Strong')}</strong> {t('trust1Body')}
                 </span>
               </li>
               <li className="flex items-start gap-3.5">
@@ -141,7 +138,7 @@ export default async function PillarInteractive({ locale }: PillarInteractivePro
                   <HandCheck className="text-lcs-cream" size={26} />
                 </span>
                 <span>
-                  <strong className="font-semibold text-lcs-cream">Themes past the cliché.</strong> Dinosaurs, ocean life, holidays, season-appropriate sets — the catalog goes deep on what kids actually like.
+                  <strong className="font-semibold text-lcs-cream">{t('trust2Strong')}</strong> {t('trust2Body')}
                 </span>
               </li>
               <li className="flex items-start gap-3.5">
@@ -149,7 +146,7 @@ export default async function PillarInteractive({ locale }: PillarInteractivePro
                   <HandCheck className="text-lcs-cream" size={26} />
                 </span>
                 <span>
-                  <strong className="font-semibold text-lcs-cream">Multilingual by default.</strong> Same worksheet, <span className="inline-flex items-center gap-1">eleven languages<Sparkle className="text-lcs-cream inline-block" size={14} rotate={20} /></span>, grammar that holds up.
+                  <strong className="font-semibold text-lcs-cream">{t('trust3Strong')}</strong>{t('trust3BodyBefore')}<span className="inline-flex items-center gap-1">{t('trust3BodyMiddle')}<Sparkle className="text-lcs-cream inline-block" size={14} rotate={20} /></span>{t('trust3BodyAfter')}
                 </span>
               </li>
             </ul>
@@ -159,7 +156,7 @@ export default async function PillarInteractive({ locale }: PillarInteractivePro
                 href={`/${locale}/worksheets/`}
                 className="hv3-cta-cream-outline inline-flex items-center justify-center font-lcsDisplay font-semibold text-base md:text-lg px-6 py-3"
               >
-                Browse the catalog
+                {t('cta')}
                 <svg className="ml-2 w-4 h-4" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                   <path d="M5 10h10M11 5l5 5-5 5" />
                 </svg>
@@ -189,7 +186,7 @@ export default async function PillarInteractive({ locale }: PillarInteractivePro
             ) : (
               <div className="hv3-card-deep p-12 flex items-center justify-center min-h-[400px]">
                 <p className="font-lcsBody text-lcs-teal/60 text-center">
-                  Live sample play loads from the catalog.
+                  {t('emptyState')}
                 </p>
               </div>
             )}

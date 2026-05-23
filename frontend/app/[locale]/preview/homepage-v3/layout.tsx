@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Baloo_2, Nunito } from 'next/font/google';
+import { getTranslations } from 'next-intl/server';
 import './homepage-v3.css';
 
 /* Direction A typography pairing — locked at CLAUDE.md §A.13.47.
@@ -24,11 +25,19 @@ const nunito = Nunito({
   preload: true,
 });
 
-export const metadata: Metadata = {
-  title: 'Homepage v3 Preview · LessonCraftStudio',
-  description: 'Internal prototype of the redesigned homepage. Not indexed.',
-  robots: { index: false, follow: false },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'homepageV3.metadata' });
+  return {
+    title: t('title'),
+    description: t('description'),
+    robots: { index: false, follow: false },
+  };
+}
 
 export default function HomepageV3Layout({
   children,

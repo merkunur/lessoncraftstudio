@@ -4,13 +4,16 @@
    on the right; copy left. */
 
 import Link from 'next/link';
+import { getTranslations } from 'next-intl/server';
 import { Pencil, Sparkle } from './DoodleAccents';
 
 interface PillarPrintablesProps {
   locale: string;
 }
 
-export default function PillarPrintables({ locale }: PillarPrintablesProps) {
+export default async function PillarPrintables({ locale }: PillarPrintablesProps) {
+  const t = await getTranslations({ locale, namespace: 'homepageV3.pillar03' });
+
   return (
     <section id="printables" className="hv3-section-sage relative overflow-hidden py-20 md:py-28">
       <div className="container mx-auto px-4 max-w-7xl relative">
@@ -19,29 +22,29 @@ export default function PillarPrintables({ locale }: PillarPrintablesProps) {
           <div>
             <div className="flex items-center gap-4 mb-4">
               <span className="hv3-pillar-num-coral">03</span>
-              <span className="hv3-eyebrow">Printables</span>
+              <span className="hv3-eyebrow">{t('eyebrow')}</span>
             </div>
             <h2 className="font-lcsDisplay font-bold text-lcs-teal leading-[1.05] tracking-tight text-[2rem] sm:text-[2.5rem] md:text-[3rem]">
-              Worksheets to print.<br />
-              <span className="text-lcs-teal-deep">Answer keys to grade by.</span>
+              {t('h2Line1')}<br />
+              <span className="text-lcs-teal-deep">{t('h2Line2')}</span>
             </h2>
 
             <ul className="mt-8 space-y-5 font-lcsBody text-base md:text-lg text-lcs-teal/85 leading-relaxed">
               <li className="flex items-start gap-3">
                 <span className="flex-shrink-0 w-2 h-2 mt-2.5 rounded-full bg-lcs-coral inline-block" aria-hidden="true" />
-                Every interactive worksheet ships with a printable PDF — same images, same exercises, paper-friendly.
+                {t('list1')}
               </li>
               <li className="flex items-start gap-3">
                 <span className="flex-shrink-0 w-2 h-2 mt-2.5 rounded-full bg-lcs-coral inline-block" aria-hidden="true" />
-                Answer keys included for every set.
+                {t('list2')}
               </li>
               <li className="flex items-start gap-3">
                 <span className="flex-shrink-0 w-2 h-2 mt-2.5 rounded-full bg-lcs-coral inline-block" aria-hidden="true" />
-                Plus PDF-only formats for fine-motor practice: coloring, writing, draw-and-color, line tracing.
+                {t('list3')}
               </li>
               <li className="flex items-start gap-3">
                 <span className="flex-shrink-0 w-2 h-2 mt-2.5 rounded-full bg-lcs-coral inline-block" aria-hidden="true" />
-                Designed for the classroom printer, the home printer, and the school copier alike.
+                {t('list4')}
               </li>
             </ul>
 
@@ -50,7 +53,7 @@ export default function PillarPrintables({ locale }: PillarPrintablesProps) {
                 href={`/${locale}/worksheets/`}
                 className="hv3-cta-teal-outline inline-flex items-center justify-center font-lcsDisplay font-semibold text-base md:text-lg px-6 py-3"
               >
-                See printable worksheets
+                {t('cta')}
               </Link>
             </div>
           </div>
@@ -87,8 +90,8 @@ export default function PillarPrintables({ locale }: PillarPrintablesProps) {
                 <div className="p-6 opacity-70">
                   <div className="flex items-center justify-between mb-4">
                     <div>
-                      <p className="font-lcsBody text-[10px] uppercase tracking-widest text-lcs-coral-deep font-bold">PDF · A4</p>
-                      <p className="font-lcsDisplay font-bold text-lcs-teal text-lg mt-1 leading-tight">Word Search</p>
+                      <p className="font-lcsBody text-[10px] uppercase tracking-widest text-lcs-coral-deep font-bold">{t('paperStack.pdfA4')}</p>
+                      <p className="font-lcsDisplay font-bold text-lcs-teal text-lg mt-1 leading-tight">{t('paperStack.backTitle')}</p>
                     </div>
                     <span className="hv3-locale-chip text-[10px]">DE</span>
                   </div>
@@ -116,8 +119,8 @@ export default function PillarPrintables({ locale }: PillarPrintablesProps) {
                 <div className="p-6 opacity-80">
                   <div className="flex items-center justify-between mb-4">
                     <div>
-                      <p className="font-lcsBody text-[10px] uppercase tracking-widest text-lcs-coral-deep font-bold">PDF · A4</p>
-                      <p className="font-lcsDisplay font-bold text-lcs-teal text-lg mt-1 leading-tight">Picture Matching</p>
+                      <p className="font-lcsBody text-[10px] uppercase tracking-widest text-lcs-coral-deep font-bold">{t('paperStack.pdfA4')}</p>
+                      <p className="font-lcsDisplay font-bold text-lcs-teal text-lg mt-1 leading-tight">{t('paperStack.middleTitle')}</p>
                     </div>
                     <span className="hv3-locale-chip text-[10px]">EN</span>
                   </div>
@@ -137,7 +140,7 @@ export default function PillarPrintables({ locale }: PillarPrintablesProps) {
                         <span className="w-1.5 h-1.5 rounded-full bg-lcs-teal/60" />
                       </div>
                     ))}
-                    {['Rabbit', 'Cat', 'Dog'].map((word, i) => {
+                    {[t('paperStack.middleWord1'), t('paperStack.middleWord2'), t('paperStack.middleWord3')].map((word, i) => {
                       const y = [0, 32, 64][i];
                       return (
                         <div key={`r${i}`} className="absolute right-0 flex items-center gap-1.5" style={{ top: `${y}px` }}>
@@ -154,8 +157,8 @@ export default function PillarPrintables({ locale }: PillarPrintablesProps) {
                 <div className="p-7">
                   <div className="flex items-center justify-between mb-5">
                     <div>
-                      <p className="font-lcsBody text-[10px] uppercase tracking-widest text-lcs-coral-deep font-bold">PDF · A4</p>
-                      <p className="font-lcsDisplay font-bold text-lcs-teal text-lg mt-1 leading-tight">Addition Practice</p>
+                      <p className="font-lcsBody text-[10px] uppercase tracking-widest text-lcs-coral-deep font-bold">{t('paperStack.pdfA4')}</p>
+                      <p className="font-lcsDisplay font-bold text-lcs-teal text-lg mt-1 leading-tight">{t('paperStack.frontTitle')}</p>
                     </div>
                     <span className="hv3-locale-chip hv3-locale-chip-active text-[10px]">FR</span>
                   </div>
@@ -187,7 +190,7 @@ export default function PillarPrintables({ locale }: PillarPrintablesProps) {
                   signals the badge as an extra delight, not chrome. */}
               <div className="absolute -bottom-6 -right-6 px-4 py-2 bg-lcs-coral text-lcs-cream rounded-full font-lcsBody font-bold text-sm shadow-[0_8px_20px_-4px_rgba(242,120,75,0.5)] rotate-3 inline-flex items-center gap-1.5">
                 <Sparkle className="text-lcs-cream" size={14} rotate={-12} />
-                + Answer key
+                {t('paperStack.answerKeyBadge')}
               </div>
             </div>
           </div>

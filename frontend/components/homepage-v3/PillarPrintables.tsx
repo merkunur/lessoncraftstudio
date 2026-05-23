@@ -76,9 +76,10 @@ export default function PillarPrintables({ locale }: PillarPrintablesProps) {
 
             {/* Stack of three "pages" — layered offset */}
             <div className="relative w-[320px] md:w-[400px] aspect-[2/2.6]">
-              {/* Back page */}
+              {/* Back page — tinted slightly warm for natural paper-stack
+                  variation (real paper stacks aren't all identical tone). */}
               <div
-                className="absolute inset-0 bg-lcs-cream rounded-md shadow-[0_20px_40px_-12px_rgba(20,107,94,0.18),0_8px_16px_-6px_rgba(20,107,94,0.12)] border border-lcs-teal/10"
+                className="absolute inset-0 hv3-card hv3-card-tinted-warm rounded-md border border-lcs-teal/10"
                 style={{ transform: 'rotate(-6deg) translate(-12px, 12px)' }}
                 aria-hidden="true"
               >
@@ -88,9 +89,9 @@ export default function PillarPrintables({ locale }: PillarPrintablesProps) {
                   <div className="h-1.5 w-1/2 bg-lcs-teal/20 rounded-full" />
                 </div>
               </div>
-              {/* Middle page */}
+              {/* Middle page — tinted slightly cool for paper-stack variation */}
               <div
-                className="absolute inset-0 bg-lcs-cream rounded-md shadow-[0_20px_40px_-12px_rgba(20,107,94,0.18),0_8px_16px_-6px_rgba(20,107,94,0.12)] border border-lcs-teal/10"
+                className="absolute inset-0 hv3-card hv3-card-tinted-sage rounded-md border border-lcs-teal/10"
                 style={{ transform: 'rotate(3deg) translate(8px, 6px)' }}
                 aria-hidden="true"
               >
@@ -103,8 +104,8 @@ export default function PillarPrintables({ locale }: PillarPrintablesProps) {
                   </div>
                 </div>
               </div>
-              {/* Front page — actual content stand-in */}
-              <div className="absolute inset-0 bg-lcs-cream rounded-md shadow-[0_24px_48px_-16px_rgba(20,107,94,0.28),0_12px_24px_-8px_rgba(20,107,94,0.16)] border border-lcs-teal/10 overflow-hidden">
+              {/* Front page — default cream, on top of the stack with paper grain */}
+              <div className="absolute inset-0 hv3-card rounded-md border border-lcs-teal/10 overflow-hidden">
                 <div className="p-7">
                   <div className="flex items-center justify-between mb-5">
                     <div>

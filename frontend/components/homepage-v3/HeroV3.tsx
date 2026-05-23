@@ -8,7 +8,7 @@
 import Link from 'next/link';
 import ActivityCardPreview from './ActivityCardPreview';
 import MascotPlaceholder from './MascotPlaceholder';
-import { Sparkle } from './DoodleAccents';
+import { Sparkle, MarginDoodleTurtle, MarginDoodleStar } from './DoodleAccents';
 
 interface HeroV3Props {
   locale: string;
@@ -16,17 +16,52 @@ interface HeroV3Props {
 
 export default function HeroV3({ locale }: HeroV3Props) {
   return (
-    <section className="hv3-grain relative overflow-hidden">
-      {/* Single restrained coral atmospheric — the top-left teal blob is
-          intentionally removed in this pass so the page reads less
-          "SaaS hero blob" and lets the foreground illustration carry the
-          warmth instead. */}
+    <section className="relative overflow-hidden">
+      {/* Soft watercolor pools — multi-stop radials feel like paint that
+          bled into the paper, not hard-edged blobs. Two pools (top-right
+          coral, bottom-left sage) give the hero atmosphere without the
+          SaaS-blob feel. */}
       <div
         aria-hidden="true"
-        className="hv3-blob-coral absolute -bottom-[15%] right-[2%] w-[420px] h-[420px] rounded-full pointer-events-none opacity-70"
+        className="hv3-blob-coral absolute top-[-12%] right-[-8%] w-[520px] h-[520px] rounded-full pointer-events-none"
+      />
+      <div
+        aria-hidden="true"
+        className="hv3-blob-sage absolute bottom-[-15%] left-[-10%] w-[520px] h-[520px] rounded-full pointer-events-none"
       />
 
-      <div className="container mx-auto px-4 max-w-7xl pt-12 pb-20 md:pt-20 md:pb-28 lg:pt-24 lg:pb-36 relative">
+      {/* Scattered constellation of tiny doodled stars — picture-book
+          endpaper feel. Low opacity so they whisper, not shout. */}
+      <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
+        <div className="absolute top-[14%] left-[8%] opacity-30">
+          <Sparkle className="text-lcs-coral" size={14} rotate={18} />
+        </div>
+        <div className="absolute top-[8%] left-[44%] opacity-25">
+          <MarginDoodleStar className="text-lcs-teal" size={22} rotate={-12} />
+        </div>
+        <div className="absolute top-[28%] right-[45%] opacity-30">
+          <Sparkle className="text-lcs-teal" size={11} rotate={-20} />
+        </div>
+        <div className="absolute bottom-[28%] left-[3%] opacity-25">
+          <Sparkle className="text-lcs-coral" size={16} rotate={32} />
+        </div>
+        <div className="absolute bottom-[16%] right-[12%] opacity-30">
+          <MarginDoodleStar className="text-lcs-coral" size={20} rotate={22} />
+        </div>
+        <div className="absolute top-[55%] left-[42%] opacity-25">
+          <Sparkle className="text-lcs-teal" size={12} rotate={8} />
+        </div>
+        <div className="absolute top-[42%] right-[3%] opacity-25">
+          <Sparkle className="text-lcs-coral" size={13} rotate={-8} />
+        </div>
+        {/* Margin turtle doodle — tiny line-art at the hero's far-left
+            margin, picture-book "drawn in the margins" feel. */}
+        <div className="absolute bottom-[10%] left-[2%] opacity-20 hidden lg:block">
+          <MarginDoodleTurtle className="text-lcs-teal" size={90} rotate={-6} />
+        </div>
+      </div>
+
+      <div className="container mx-auto px-4 max-w-7xl pt-4 pb-20 md:pt-6 md:pb-28 lg:pt-10 lg:pb-36 relative">
         <div className="grid grid-cols-1 lg:grid-cols-[1.05fr_0.95fr] gap-12 lg:gap-16 items-center">
           {/* LEFT — copy column */}
           <div className="max-w-xl lg:max-w-2xl">

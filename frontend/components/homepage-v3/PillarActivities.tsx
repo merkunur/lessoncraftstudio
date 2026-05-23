@@ -203,6 +203,10 @@ export default async function PillarActivities({ locale }: PillarActivitiesProps
                     img: 'https://www.lessoncraftstudio.com/image-library-webp/themes/animals/elephant@2x.webp',
                     tiles: ['e', 'le', 'fant'],
                   },
+                  no: {
+                    img: 'https://www.lessoncraftstudio.com/image-library-webp/themes/animals/elephant@2x.webp',
+                    tiles: ['e', 'le', 'fant'],
+                  },
                 };
                 const variant = card3ByLocale[locale] ?? card3ByLocale.en;
                 return (

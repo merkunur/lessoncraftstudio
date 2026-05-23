@@ -1412,5 +1412,180 @@
         "weeksAgo": "{count, plural, =1 {1 week ago} other {# weeks ago}}"
       }
     }
+  },
+  "homepageV3": {
+    "hero": {
+      "eyebrow": "Fra barnehage til 3. trinn · Tilpasset LK20 · Elleve språk",
+      "h1Line1Before": "Føles som et ",
+      "h1Line1Squiggle": "spill",
+      "h1Line1After": ".",
+      "h1Line2": "Bygget på læreplanen.",
+      "body": "Fonologisk bevissthet og matematikk fra barnehage til 3. trinn, tilpasset LK20, på elleve språk — laget så et barn kan plukke det opp og lære, og bygget etter standarden så enhver lærer stoler på hver skjerm.",
+      "ctaPrimary": "Start en aktivitet",
+      "ctaSecondary": "Bla i katalogen",
+      "trust1": "Elleve språk",
+      "trust2": "Ingen registrering",
+      "trust3": "Gratis å bruke",
+      "trust4": "Barn kan bruke det selv",
+      "videoAria": "Matematikkpuslespill-oppgave som løses interaktivt i nettleseren",
+      "mascotAlt": "Vennlig elefantmaskot som vinker hei"
+    },
+    "pillar01": {
+      "eyebrow": "Aktiviteter",
+      "h2Line1": "Oppgaver barnet ditt vil fullføre.",
+      "h2Line2": "Standarder læreren stoler på.",
+      "support1Label": "Tilpasset LK20",
+      "support1LabelSquiggle": "LK20",
+      "support1LabelBefore": "Tilpasset ",
+      "support1Body": "Kode for kode. K.CC.B.4, RF.K.2.B, K.G.A.2 — synlig på hver side som internasjonale standarder, så enhver lærer kan verifisere det med ett blikk.",
+      "support2Label": "Elleve språk",
+      "support2Body": "Samme aktivitet, samme design, naturlig stavelsesdeling. Et barn leser på sitt eget språk; standardene er de samme.",
+      "support3Label": "Uten press",
+      "support3Body": "Ingen tidtakere. Ingen poeng. Ingen rekker. I rytmen til et barns nysgjerrighet, ikke en topplista.",
+      "support4Label": "Laget for å plukkes opp",
+      "support4Body": "Et barn kan bruke en alene — velg en brikke, bygg et ord, hør svaret. Menneskelig lyd er underveis; resten er klart.",
+      "cta": "Start en aktivitet",
+      "mascotAlt": "Elefantmaskot peker mot aktivitetskortene",
+      "card1Title": "Bygg ordet",
+      "card1Prompt": "Trykk stavelsene i riktig rekkefølge for å lage ordet.",
+      "card1GradeLabel": "Barnehage (5-7 år)",
+      "card1CheckLabel": "Sjekk",
+      "card1SubjectAlt": "katt",
+      "card2Title": "Tell til 10",
+      "card2Prompt": "Trykk på rammen for å lage 5.",
+      "card2GradeLabel": "Barnehage (5-7 år)",
+      "card2CheckLabel": "Sjekk",
+      "card2SubjectAlt": "fem katter",
+      "card3Title": "Bygg stavelsene",
+      "card3Prompt": "Trykk stavelsene i riktig rekkefølge for å lage ordet.",
+      "card3GradeLabel": "Barnehage (5-7 år)",
+      "card3CheckLabel": "Sjekk",
+      "card3SubjectAlt": "elefant"
+    },
+    "pillar02": {
+      "eyebrow": "Interaktive oppgaver",
+      "h2Line1": "Alle slags oppgaver fra barnehage til 3. trinn,",
+      "h2Line2": "på alle språk i den aldersgruppen.",
+      "body": "Kryssord, sudoku, sortering, finn-og-tell, addisjon, par-til-par — og et stort bibliotek av andre oppgavetyper. Samme innhold på et hvilket som helst av elleve språk, grammatisk korrekt helt ned til kjønn på substantiv i flertall.",
+      "trust1Strong": "Spilles i hvilken som helst nettleser.",
+      "trust1Body": "Ingen innlogging. Kan deles som lenke, bygges inn som iframe.",
+      "trust2Strong": "Temaer utover klisjeene.",
+      "trust2Body": "Dinosaurer, havets dyr, høytider, årstidstilpassede sett — katalogen går i dybden på det barn faktisk liker.",
+      "trust3Strong": "Flerspråklig som standard.",
+      "trust3BodyBefore": "Samme oppgave, ",
+      "trust3BodyMiddle": "elleve språk",
+      "trust3BodyAfter": ", med grammatikk som holder.",
+      "cta": "Bla i katalogen",
+      "emptyState": "Live demo lastes fra katalogen."
+    },
+    "pillar03": {
+      "eyebrow": "Utskrifter",
+      "h2Line1": "Oppgaver til å skrive ut.",
+      "h2Line2": "Fasit til å rette med.",
+      "list1": "Hver interaktive oppgave leveres med en PDF til utskrift — samme bilder, samme oppgaver, papirvennlig.",
+      "list2": "Fasit følger med hvert sett.",
+      "list3": "I tillegg PDF-formater til finmotorikk-trening: fargelegging, skriving, tegn-og-fargelegg og strektegning.",
+      "list4": "Laget for både klasseromsprinteren, hjemmeprinteren og skolens kopimaskin.",
+      "cta": "Se utskriftsoppgaver",
+      "paperStack": {
+        "pdfA4": "PDF · A4",
+        "backTitle": "Ordleting",
+        "middleTitle": "Bildepar",
+        "middleWord1": "Kanin",
+        "middleWord2": "Katt",
+        "middleWord3": "Hund",
+        "frontTitle": "Addisjonsøvelse",
+        "answerKeyBadge": "+ Fasit"
+      }
+    },
+    "transition": {
+      "line1": "Og hvis du er",
+      "line2": "den som underviser",
+      "mascotAlt": "Vennlig elefantmaskot som bygger bro mellom foreldre- og lærersiden"
+    },
+    "pillar04": {
+      "eyebrow": "Oppgavegeneratorer",
+      "h2Line1": "Lag en oppgave på et minutt.",
+      "h2Line2": "På et hvilket som helst av elleve språk.",
+      "body": "Et bibliotek av generatorverktøy — matematikk, bokstaver, gåter, mønstre — hvert med tema- og språkkontroller. Ta med din egen ordliste, ditt eget bildesett, dine egne klasseromstilpasninger.",
+      "list1": "Ett oppsett. To resultater: interaktiv HTML og PDF til utskrift.",
+      "list2": "Laget for læreren som vil ha akkurat den oppgaven hun eller han hadde i tankene.",
+      "list3": "Flerspråklige kontroller; oppgaven leveres på språket du velger.",
+      "cta": "Åpne generatorene",
+      "mockPanel": {
+        "title": "Addisjonsgenerator",
+        "codeChip": "Matematikk · 1.-2. trinn",
+        "themeLabel": "TEMA",
+        "themeValue": "🦕 Dinosaurer",
+        "langLabel": "SPRÅK",
+        "langValue": "🇩🇪 Deutsch",
+        "rangeLabel": "INTERVALL",
+        "itemsLabel": "OPPGAVER",
+        "generateButton": "Generer",
+        "floatingBadge": "Matematikk · Bokstaver · Gåter · Mønstre"
+      }
+    },
+    "pillar05": {
+      "eyebrow": "Verktøy",
+      "h2Line1": "Klassikerne,",
+      "h2Line2": "gjenskapt for nettleseren.",
+      "body": "Klasseromsmateriell for matematikk — laget for trykk, smartboard-vennlig, kan bygges inn hvor som helst. Gratis, ingen registrering.",
+      "tool1Name": "Tierramme",
+      "tool1Desc": "Rutenettet med fem og ti for telling, subitisering og tidlig addisjon.",
+      "tool2Name": "Tallinje",
+      "tool2Desc": "En ren tallinje for hoppetelling, hopp og posisjonssystem.",
+      "tool3Name": "Linjal",
+      "tool3Desc": "En virtuell linjal — mål på skjermen, vis på smartboardet.",
+      "perTileCta": "Åpne",
+      "cta": "Åpne verktøyene"
+    },
+    "embedShare": {
+      "eyebrow": "Del",
+      "h2Line1": "Bygg inn enhver oppgave",
+      "h2Line2": "på bloggen din eller klassens nettsted.",
+      "body": "Hver interaktive oppgave leveres med en iframe-kodesnutt på én linje. Lim den inn hvor som helst. Den spilles der den står. Ingen kontoer. Ingen betalingsmurer.",
+      "pasteCaptionPrefix": "Lim inn denne kodesnutten",
+      "trust1": "Spilles der den står — elevene forlater ikke nettstedet ditt.",
+      "trust2": "Fungerer i WordPress, Wix, Google Sites, Squarespace og overalt ellers.",
+      "arrowCaption": "slik gjør du det",
+      "mockup": {
+        "worksheetTitle": "Finn paret",
+        "worksheetHeader": "Dyr i dyrehagen",
+        "worksheetInstruction": "Trekk streker for å koble parene som passer sammen.",
+        "animalLion": "Løve",
+        "animalTiger": "Tiger",
+        "animalGiraffe": "Sjiraff",
+        "animalElephant": "Elefant",
+        "animalZebra": "Sebra",
+        "checkAnswers": "Sjekk svar",
+        "popupTitle": "Bygg inn denne oppgaven på nettstedet ditt",
+        "widthLabel": "Bredde",
+        "heightLabel": "Høyde",
+        "snippetCaption": "Lim dette inn i HTML-en på nettstedet ditt",
+        "copyCodeButton": "Kopier kode",
+        "closeButton": "Lukk"
+      }
+    },
+    "signup": {
+      "eyebrow": "Gratis",
+      "h2Line1": "Ingen registrering nødvendig.",
+      "h2Line2": "Lag en konto hvis du vil lagre ting.",
+      "body": "Alle aktiviteter, oppgaver og verktøy på dette nettstedet er gratis å bruke uten konto. En konto lar deg bare beholde favoritter, bygge samlinger og bygge inn dine egne oppgavesett.",
+      "ctaPrimary": "Start en aktivitet",
+      "ctaSecondary": "Lag en konto",
+      "mascotAlt": "Vennlig elefantmaskot som vinker deg inn"
+    },
+    "featuredTile": {
+      "badge": "Demospill",
+      "cta": "Trykk for å spille →",
+      "closeAria": "Lukk"
+    },
+    "mascot": {
+      "defaultAlt": "Vennlig elefantmaskot"
+    },
+    "metadata": {
+      "title": "Forhåndsvisning av forside v3 · LessonCraftStudio",
+      "description": "Internt prototypeoppsett av den redesignede forsiden. Ikke indeksert."
+    }
   }
 }

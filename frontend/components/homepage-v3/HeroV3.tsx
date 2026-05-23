@@ -62,11 +62,11 @@ export default function HeroV3({ locale }: HeroV3Props) {
             </p>
 
             {/* Headline at editorial billboard scale. Cream on teal. */}
-            <h1 className="hv3-anim-fade-up hv3-anim-d2 mt-6 md:mt-8 font-lcsDisplay font-bold text-lcs-cream leading-[0.98] tracking-tight text-[3rem] sm:text-[4rem] md:text-[5rem] lg:text-[5.75rem] xl:text-[6.5rem]">
+            <h1 className="hv3-anim-fade-up hv3-anim-d2 mt-6 md:mt-8 font-lcsDisplay font-bold text-lcs-cream leading-[1.08] tracking-tight text-[3rem] sm:text-[4rem] md:text-[5rem] lg:text-[5.75rem] xl:text-[6.5rem]">
               <span className="block">
                 Plays like a <span className="hv3-squiggle-word-on-dark">game</span>.
               </span>
-              <span className="block text-lcs-coral mt-1">
+              <span className="block text-lcs-coral mt-3 md:mt-4">
                 Built like the curriculum.
               </span>
             </h1>

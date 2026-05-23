@@ -159,7 +159,7 @@ export default function EmbedShareV3({ locale: _locale }: Props) {
   return (
     <section className="hv3-section-coral-soft py-20 md:py-28">
       <div className="container mx-auto px-4 max-w-6xl">
-        <div className="relative hv3-card-deep hv3-card-on-color p-8 md:p-10 lg:p-12 overflow-hidden">
+        <div className="relative hv3-card-deep hv3-card-on-color p-6 md:p-8 lg:p-10 overflow-hidden">
           {/* Atmospheric coral haze behind the mockup — backdrop now,
               not gap-filler. Lower opacity since the mockup carries the
               visual weight. */}
@@ -170,7 +170,7 @@ export default function EmbedShareV3({ locale: _locale }: Props) {
 
           {/* Single 2-col grid that spans the full card — no separate
               full-width header on top. Eliminates the prior top gap. */}
-          <div className="relative grid grid-cols-1 md:grid-cols-[1fr_1.15fr] gap-10 md:gap-12 lg:gap-16 items-center">
+          <div className="relative grid grid-cols-1 md:grid-cols-[1fr_1.15fr] gap-10 md:gap-12 lg:gap-16 items-start">
             {/* LEFT — header + snippet + trust bullets (no CTA) */}
             <div className="relative">
               {/* Pencil doodle near the header */}

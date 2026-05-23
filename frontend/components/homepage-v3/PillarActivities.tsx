@@ -108,7 +108,7 @@ export default function PillarActivities({ locale }: PillarActivitiesProps) {
 
             <div className="mt-10 md:mt-12">
               <Link
-                href={`/${locale}/activities/count-to-10-with-animals/`}
+                href={`/${locale}/activities`}
                 className="hv3-cta-coral inline-flex items-center justify-center font-lcsDisplay font-semibold text-lg px-7 py-3.5"
               >
                 Start an activity

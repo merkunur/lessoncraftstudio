@@ -599,34 +599,105 @@
   position: relative;
 }
 
-/* Dashed coral outline + tiny tag wrapping the embedded worksheet
-   inside the browser body — whispers "this is the embed". */
-.hv3-embed-outline {
-  position: relative;
-  padding: 0.5rem;
-  border: 2px dashed rgba(242, 120, 75, 0.55);
-  border-radius: 18px;
-  background: rgba(242, 120, 75, 0.04);
+/* Embed pop-up panel — overlay over the deck-page mockup body.
+   Mirrors the actual product's "Embed this worksheet on your site"
+   modal from the share affordance per §17.8.15. */
+.hv3-embed-popup {
+  position: absolute;
+  background: #FFFFFF;
+  border: 1px solid rgba(20, 107, 94, 0.18);
+  border-radius: 10px;
+  padding: 0.85rem 0.95rem 0.85rem;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.9) inset,
+    0 14px 28px -8px rgba(0, 0, 0, 0.22),
+    0 32px 48px -16px rgba(0, 0, 0, 0.18);
+  font-family: var(--font-nunito), system-ui, sans-serif;
 }
 
-.hv3-embed-here-tag {
-  position: absolute;
-  top: -0.7rem;
-  right: 0.85rem;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  padding: 0.18rem 0.55rem;
-  background: #F2784B;
-  color: #FBF3E4;
-  border-radius: 999px;
+.hv3-embed-popup-header {
+  font-family: var(--font-baloo-2), system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #146B5E;
+  line-height: 1.2;
+  margin-bottom: 0.55rem;
+}
+
+.hv3-embed-popup-field-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hv3-embed-popup-field-label {
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: rgba(20, 107, 94, 0.72);
+  margin-bottom: 0.15rem;
+}
+
+.hv3-embed-popup-field-input {
+  border: 1px solid rgba(20, 107, 94, 0.20);
+  border-radius: 5px;
+  padding: 0.28rem 0.45rem;
   font-family: var(--font-nunito), system-ui, sans-serif;
-  font-size: 0.65rem;
-  font-weight: 800;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  box-shadow: 0 4px 10px -2px rgba(217, 99, 58, 0.45);
-  transform: rotate(-2.5deg);
+  font-size: 0.72rem;
+  color: #146B5E;
+  background: #FFFFFF;
+}
+
+.hv3-embed-popup-snippet {
+  background: #F6F3EB;
+  border: 1px solid rgba(20, 107, 94, 0.14);
+  border-radius: 5px;
+  padding: 0.45rem 0.55rem;
+  font-family: ui-monospace, "SFMono-Regular", Menlo, monospace;
+  font-size: 0.62rem;
+  color: rgba(20, 107, 94, 0.85);
+  line-height: 1.35;
+  margin-bottom: 0.45rem;
+  white-space: pre;
+  overflow-x: auto;
+  max-height: 90px;
+}
+
+.hv3-embed-popup-paste-caption {
+  font-size: 0.62rem;
+  color: rgba(20, 107, 94, 0.65);
+  margin-bottom: 0.55rem;
+  font-style: italic;
+}
+
+.hv3-embed-popup-cta-row {
+  display: flex;
+  gap: 0.4rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hv3-embed-popup-cta-copy {
+  background: #2563EB;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  padding: 0.32rem 0.7rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  cursor: default;
+  box-shadow: 0 4px 8px -2px rgba(37, 99, 235, 0.4);
+}
+
+.hv3-embed-popup-cta-close {
+  background: transparent;
+  color: rgba(20, 107, 94, 0.75);
+  border: 1px solid rgba(20, 107, 94, 0.25);
+  border-radius: 5px;
+  padding: 0.32rem 0.7rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  cursor: default;
 }
 
 /* Prefers-reduced-motion */

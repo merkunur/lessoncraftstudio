@@ -1405,5 +1405,180 @@
         "weeksAgo": "{count, plural, =1 {1 week ago} other {# weeks ago}}"
       }
     }
+  },
+  "homepageV3": {
+    "hero": {
+      "eyebrow": "Fra børnehave til 3. klasse · Tilpasset Fælles Mål · Elleve sprog",
+      "h1Line1Before": "Spilles som et ",
+      "h1Line1Squiggle": "spil",
+      "h1Line1After": ".",
+      "h1Line2": "Bygget som læreplanen.",
+      "body": "Fonologisk bevidsthed og matematik fra børnehave til 3. klasse, tilpasset Fælles Mål, på elleve sprog — designet, så et barn selv kan gå i gang og lære, og bygget efter standarden, så læreren har tillid til hver eneste skærm.",
+      "ctaPrimary": "Start en aktivitet",
+      "ctaSecondary": "Gennemse kataloget",
+      "trust1": "Elleve sprog",
+      "trust2": "Ingen tilmelding",
+      "trust3": "Gratis at spille",
+      "trust4": "Barn-kørbar",
+      "videoAria": "Matematikopgave bliver løst interaktivt i browseren",
+      "mascotAlt": "Venlig elefantmaskot vinker hej"
+    },
+    "pillar01": {
+      "eyebrow": "Aktiviteter",
+      "h2Line1": "Opgaver dit barn vil gøre færdige.",
+      "h2Line2": "Standarder din lærer har tillid til.",
+      "support1Label": "Tilpasset Fælles Mål",
+      "support1LabelSquiggle": "Fælles Mål",
+      "support1LabelBefore": "Tilpasset ",
+      "support1Body": "Kode for kode. K.CC.B.4, RF.K.2.B, K.G.A.2 — synlige på hver side som internationale standarder, så enhver lærer kan tjekke det med et blik.",
+      "support2Label": "Elleve sprog",
+      "support2Body": "Samme aktivitet, samme design, modersmålets stavelser. Barnet læser på sit eget sprog; standarderne er de samme.",
+      "support3Label": "Uden præstationspres",
+      "support3Body": "Ingen tidtagning. Ingen point. Ingen streaks. Tempo som et barns nysgerrighed, ikke som en topliste.",
+      "support4Label": "Bygget til at gå selv i gang med",
+      "support4Body": "Et barn kan klare en helt selv — vælg en brik, byg et ord, hør svaret. Menneskelig lyd er på vej; resten er live.",
+      "cta": "Start en aktivitet",
+      "mascotAlt": "Elefantmaskot peger mod aktivitetskortene",
+      "card1Title": "Byg ordet",
+      "card1Prompt": "Tryk på stavelserne i rigtig rækkefølge for at lave ordet.",
+      "card1GradeLabel": "Børnehaveklasse",
+      "card1CheckLabel": "Tjek",
+      "card1SubjectAlt": "kat",
+      "card2Title": "Tæl til 10",
+      "card2Prompt": "Tryk på rammen for at lave 5.",
+      "card2GradeLabel": "Børnehaveklasse",
+      "card2CheckLabel": "Tjek",
+      "card2SubjectAlt": "fem katte",
+      "card3Title": "Byg stavelserne",
+      "card3Prompt": "Tryk på stavelserne for at danne ordet.",
+      "card3GradeLabel": "Børnehaveklasse",
+      "card3CheckLabel": "Tjek",
+      "card3SubjectAlt": "elefant"
+    },
+    "pillar02": {
+      "eyebrow": "Interaktive opgaver",
+      "h2Line1": "Alle slags opgaver fra børnehave til 3. klasse,",
+      "h2Line2": "på alle sprog i den aldersgruppe.",
+      "body": "Kryds og tværs, sudoku, sorteringsopgaver, find-og-tæl, plus, parring — og et bredt bibliotek af andre opgavetyper. Samme indhold på et hvilket som helst af elleve sprog, grammatisk korrekt helt ned til kønsbestemte flertalsformer.",
+      "trust1Strong": "Spilles i enhver browser.",
+      "trust1Body": "Ingen login. Kan deles som link, indlejres som iframe.",
+      "trust2Strong": "Temaer ud over det forventede.",
+      "trust2Body": "Dinosaurer, havdyr, højtider, årstidsbestemte sæt — kataloget går i dybden med det, børn faktisk kan lide.",
+      "trust3Strong": "Flersproget som standard.",
+      "trust3BodyBefore": "Samme opgave, ",
+      "trust3BodyMiddle": "elleve sprog",
+      "trust3BodyAfter": ", grammatik der holder.",
+      "cta": "Gennemse kataloget",
+      "emptyState": "Live-eksempel indlæses fra kataloget."
+    },
+    "pillar03": {
+      "eyebrow": "Printark",
+      "h2Line1": "Opgaver til at printe.",
+      "h2Line2": "Facit til at rette efter.",
+      "list1": "Hver interaktiv opgave leveres med en printbar PDF — samme billeder, samme øvelser, papirvenlig.",
+      "list2": "Facit medfølger til hvert sæt.",
+      "list3": "Plus PDF-formater til finmotorisk træning: farvelægning, skrivning, tegne-og-farve, stregfølgning.",
+      "list4": "Designet til klasselokalets printer, hjemmeprinteren og skolens kopimaskine.",
+      "cta": "Se printark",
+      "paperStack": {
+        "pdfA4": "PDF · A4",
+        "backTitle": "Find ordene",
+        "middleTitle": "Find par",
+        "middleWord1": "Kanin",
+        "middleWord2": "Kat",
+        "middleWord3": "Hund",
+        "frontTitle": "Plusstykker",
+        "answerKeyBadge": "+ Facit"
+      }
+    },
+    "transition": {
+      "line1": "Og hvis du er",
+      "line2": "den der underviser",
+      "mascotAlt": "Venlig elefantmaskot bygger bro mellem forældre- og lærersiden"
+    },
+    "pillar04": {
+      "eyebrow": "Opgavegeneratorer",
+      "h2Line1": "Lav en opgave på et minut.",
+      "h2Line2": "På et hvilket som helst af elleve sprog.",
+      "body": "Et bibliotek af generatorværktøjer — matematik, bogstaver, gåder, mønstre — hver med tema- og sprogvalg. Tag dine egne ord, dit eget billedsæt og dine egne klasseværelsesfif med.",
+      "list1": "Én opsætning. To resultater: interaktiv HTML og printbar PDF.",
+      "list2": "Henvendt til den lærer, der vil have præcis den opgave, hun havde i tankerne.",
+      "list3": "Sprogvalg med kontroller; opgaven leveres på det sprog, du vælger.",
+      "cta": "Åbn generatorerne",
+      "mockPanel": {
+        "title": "Plusgenerator",
+        "codeChip": "Matematik · Bh.kl.–2. klasse",
+        "themeLabel": "TEMA",
+        "themeValue": "🦕 Dinosaurer",
+        "langLabel": "SPROG",
+        "langValue": "🇩🇪 Deutsch",
+        "rangeLabel": "INTERVAL",
+        "itemsLabel": "OPGAVER",
+        "generateButton": "Generér",
+        "floatingBadge": "Matematik · Bogstaver · Gåder · Mønstre"
+      }
+    },
+    "pillar05": {
+      "eyebrow": "Værktøjer",
+      "h2Line1": "Klassikerne,",
+      "h2Line2": "gentegnet til browseren.",
+      "body": "Klassens matematikmaterialer — touch-først, tavle-venlige, kan indlejres hvor som helst. Gratis, ingen tilmelding.",
+      "tool1Name": "Tierramme",
+      "tool1Desc": "Fem-og-ti-feltet til at tælle, gruppe-genkende og lave tidlig addition.",
+      "tool2Name": "Tallinje",
+      "tool2Desc": "En ren tallinje til at hoppetælle, springe og forstå titalssystemet.",
+      "tool3Name": "Lineal",
+      "tool3Desc": "En digital lineal — mål på skærmen, vis det på tavlen.",
+      "perTileCta": "Åbn",
+      "cta": "Åbn værktøjerne"
+    },
+    "embedShare": {
+      "eyebrow": "Del",
+      "h2Line1": "Indlejr enhver opgave",
+      "h2Line2": "på din blog eller dit klassesite.",
+      "body": "Hver interaktiv opgave leveres med et iframe-snippet på én linje. Sæt det ind hvor som helst. Den afspilles på stedet. Ingen konti. Ingen betalingsmure.",
+      "pasteCaptionPrefix": "Sæt dette snippet ind",
+      "trust1": "Afspilles på stedet — eleverne forlader ikke dit site.",
+      "trust2": "Virker i WordPress, Wix, Google Sites, Squarespace, alle steder.",
+      "arrowCaption": "sådan gør du",
+      "mockup": {
+        "worksheetTitle": "Find par",
+        "worksheetHeader": "Zoodyr",
+        "worksheetInstruction": "Tegn streger for at forbinde parrene.",
+        "animalLion": "Løve",
+        "animalTiger": "Tiger",
+        "animalGiraffe": "Giraf",
+        "animalElephant": "Elefant",
+        "animalZebra": "Zebra",
+        "checkAnswers": "Tjek svar",
+        "popupTitle": "Indlejr denne opgave på dit site",
+        "widthLabel": "Bredde",
+        "heightLabel": "Højde",
+        "snippetCaption": "Sæt dette ind i din websides HTML",
+        "copyCodeButton": "Kopiér kode",
+        "closeButton": "Luk"
+      }
+    },
+    "signup": {
+      "eyebrow": "Gratis",
+      "h2Line1": "Ingen tilmelding nødvendig.",
+      "h2Line2": "Opret en, hvis du vil gemme ting.",
+      "body": "Hver aktivitet, opgave og værktøj på dette site er gratis at bruge uden konto. En konto lader dig bare gemme favoritter, bygge samlinger og indlejre dine egne sæt.",
+      "ctaPrimary": "Start en aktivitet",
+      "ctaSecondary": "Opret konto",
+      "mascotAlt": "Venlig elefantmaskot vinker dig ind"
+    },
+    "featuredTile": {
+      "badge": "Prøvespil",
+      "cta": "Tryk for at spille →",
+      "closeAria": "Luk"
+    },
+    "mascot": {
+      "defaultAlt": "Venlig elefantmaskot"
+    },
+    "metadata": {
+      "title": "Forhåndsvisning af forside v3 · LessonCraftStudio",
+      "description": "Intern prototype af den redesignede forside. Ikke indekseret."
+    }
   }
 }

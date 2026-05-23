@@ -1,0 +1,248 @@
+/* Prototype-scoped styles for homepage-v3.
+   All selectors scoped under .hv3 to avoid bleeding into the rest of the site.
+   No Tailwind layer overrides — additive only. */
+
+.hv3 {
+  /* Type rhythm — Baloo 2 is slightly compressed; bumping line-height slightly. */
+  font-feature-settings: 'ss01' on, 'ss02' on, 'kern' on;
+}
+
+/* Dual-shadow card — the locked Direction A signature: soft outer shadow +
+   tighter contact shadow, plus a 1px inner cream highlight on the top edge.
+   Replicates the "lifted-from-cream" feel of the live activity cards. */
+.hv3-card {
+  background: #FBF3E4;
+  border-radius: 24px;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.6) inset,
+    0 1.5px 0 rgba(20, 107, 94, 0.08),
+    0 12px 24px -8px rgba(20, 107, 94, 0.18),
+    0 32px 48px -16px rgba(20, 107, 94, 0.12);
+}
+
+.hv3-card-deep {
+  background: #FBF3E4;
+  border-radius: 28px;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.7) inset,
+    0 2px 0 rgba(20, 107, 94, 0.10),
+    0 18px 36px -10px rgba(20, 107, 94, 0.22),
+    0 48px 64px -20px rgba(20, 107, 94, 0.14);
+}
+
+/* Sage tile / answer-slot look from the activity card. */
+.hv3-slot {
+  background: #DCE3D3;
+  border: 2px dashed rgba(20, 107, 94, 0.25);
+  border-radius: 12px;
+}
+.hv3-tile {
+  background: #FBF3E4;
+  border: 2px solid rgba(20, 107, 94, 0.18);
+  border-radius: 10px;
+  box-shadow: 0 2px 0 rgba(20, 107, 94, 0.08), 0 6px 12px -4px rgba(20, 107, 94, 0.16);
+}
+
+/* Coral CTA — the activity-card Check button shape. */
+.hv3-cta-coral {
+  background: #F2784B;
+  color: #FBF3E4;
+  border-radius: 16px;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.25) inset,
+    0 2px 0 #D9633A,
+    0 10px 20px -6px rgba(242, 120, 75, 0.45);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.hv3-cta-coral:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.3) inset,
+    0 2px 0 #D9633A,
+    0 14px 28px -8px rgba(242, 120, 75, 0.55);
+}
+.hv3-cta-coral:active {
+  transform: translateY(1px);
+}
+
+/* Teal outlined CTA (secondary). */
+.hv3-cta-teal-outline {
+  background: transparent;
+  color: #146B5E;
+  border: 2px solid #146B5E;
+  border-radius: 16px;
+  transition: background 0.18s ease, color 0.18s ease;
+}
+.hv3-cta-teal-outline:hover {
+  background: #146B5E;
+  color: #FBF3E4;
+}
+
+/* Eyebrow chip — small caps coral underline marker. */
+.hv3-eyebrow {
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #146B5E;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.hv3-eyebrow::before {
+  content: '';
+  display: inline-block;
+  width: 1.5rem;
+  height: 2px;
+  background: #F2784B;
+  border-radius: 1px;
+}
+
+/* Pillar number marker — large editorial numeral. */
+.hv3-pillar-num {
+  font-family: var(--font-baloo-2), system-ui, sans-serif;
+  font-weight: 700;
+  font-size: clamp(3rem, 5vw, 5rem);
+  color: rgba(20, 107, 94, 0.12);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+/* Code chip — looks like the CC standards chip on the activity page. */
+.hv3-code-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.75rem;
+  background: rgba(20, 107, 94, 0.08);
+  color: #146B5E;
+  border-radius: 999px;
+  font-family: var(--font-nunito), monospace;
+  font-weight: 600;
+  font-size: 0.8125rem;
+  letter-spacing: 0.01em;
+}
+.hv3-code-chip-mono {
+  font-family: ui-monospace, 'SF Mono', Menlo, monospace;
+  background: #FBE3D8;
+  color: #D9633A;
+}
+
+/* Locale chip — small pill showing a language code. */
+.hv3-locale-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.25rem;
+  height: 1.5rem;
+  padding: 0 0.5rem;
+  background: rgba(20, 107, 94, 0.06);
+  color: #146B5E;
+  border-radius: 999px;
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 0.6875rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hv3-locale-chip-active {
+  background: #146B5E;
+  color: #FBF3E4;
+}
+
+/* Coral accent blob — radial gradient used behind cards for depth. */
+.hv3-blob-coral {
+  background: radial-gradient(ellipse at center, rgba(242, 120, 75, 0.35) 0%, rgba(242, 120, 75, 0) 70%);
+  filter: blur(8px);
+}
+.hv3-blob-teal {
+  background: radial-gradient(ellipse at center, rgba(20, 107, 94, 0.22) 0%, rgba(20, 107, 94, 0) 70%);
+  filter: blur(8px);
+}
+
+/* Hero entrance — staggered fade-in-up. Crawler-safe (no opacity:0 base). */
+@keyframes hv3FadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.hv3-anim-fade-up { animation: hv3FadeUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.hv3-anim-d1 { animation-delay: 0.08s; }
+.hv3-anim-d2 { animation-delay: 0.16s; }
+.hv3-anim-d3 { animation-delay: 0.24s; }
+.hv3-anim-d4 { animation-delay: 0.32s; }
+.hv3-anim-d5 { animation-delay: 0.42s; }
+
+/* Floating card subtle drift. */
+@keyframes hv3CardFloat {
+  0%, 100% { transform: translateY(0) rotate(var(--rot, 0deg)); }
+  50% { transform: translateY(-6px) rotate(var(--rot, 0deg)); }
+}
+.hv3-float { animation: hv3CardFloat 6s ease-in-out infinite; }
+
+/* Subtle paper-grain overlay — reuses the body::before pattern from globals
+   but explicitly scoped to .hv3-grain elements so it can be applied per
+   section as a decorative texture without doubling the body grain. */
+.hv3-grain {
+  position: relative;
+  isolation: isolate;
+}
+.hv3-grain::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.35;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.08 0 0 0 0 0.42 0 0 0 0 0.37 0 0 0 0.06 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+}
+.hv3-grain > * { position: relative; z-index: 1; }
+
+/* Diagonal divider — used between tiers. */
+.hv3-divider-diagonal {
+  position: relative;
+  height: 80px;
+  background: #FBF3E4;
+  overflow: hidden;
+}
+.hv3-divider-diagonal::after {
+  content: '';
+  position: absolute;
+  left: -5%;
+  right: -5%;
+  bottom: -1px;
+  height: 80px;
+  background: #DCE3D3;
+  transform: skewY(-2deg);
+  transform-origin: bottom right;
+}
+
+/* Underline marker — coral handwritten-style under titles. */
+.hv3-underline-coral {
+  position: relative;
+  display: inline-block;
+}
+.hv3-underline-coral::after {
+  content: '';
+  position: absolute;
+  left: -2%;
+  right: -2%;
+  bottom: 0.08em;
+  height: 0.32em;
+  background: #F2784B;
+  border-radius: 999px;
+  z-index: -1;
+  opacity: 0.85;
+}
+
+/* Prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  .hv3-anim-fade-up,
+  .hv3-anim-d1,
+  .hv3-anim-d2,
+  .hv3-anim-d3,
+  .hv3-anim-d4,
+  .hv3-anim-d5 { animation: none; opacity: 1; transform: none; }
+  .hv3-float { animation: none; }
+}

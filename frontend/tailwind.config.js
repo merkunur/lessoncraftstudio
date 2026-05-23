@@ -66,10 +66,30 @@ module.exports = {
           600: '#5F7D5C',
           700: '#496045',
         },
+        // Direction A (activity-page) palette — locked at CLAUDE.md §A.13.47.
+        // Adopted by the homepage-v3 prototype as the canonical brand surface.
+        // Additive — does NOT replace cream/terracotta/sage/ink which the live
+        // homepage and other pages still rely on.
+        lcs: {
+          cream: '#FBF3E4',  // primary background ground
+          teal: '#146B5E',   // primary structural color (titles, type, accents)
+          'teal-deep': '#0E544A',
+          'teal-soft': '#E3EEEB',
+          coral: '#F2784B',  // primary kinetic accent (CTAs, callouts)
+          'coral-deep': '#D9633A',
+          'coral-soft': '#FBE3D8',
+          sage: '#DCE3D3',   // field tone / Tier 2 ground
+          'sage-deep': '#A8B79B',
+        },
       },
       fontFamily: {
         sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],
         display: ['var(--font-fraunces)', 'var(--font-inter)', 'serif'],
+        // Direction A pairing — homepage-v3 prototype only.
+        // Baloo 2 = rounded display face (warm, kid-friendly without being saccharine).
+        // Nunito = humanist sans body (legible, slightly rounded, matches Baloo 2).
+        lcsDisplay: ['var(--font-baloo-2)', 'var(--font-fraunces)', 'system-ui', 'sans-serif'],
+        lcsBody: ['var(--font-nunito)', 'var(--font-inter)', 'system-ui', 'sans-serif'],
       },
     },
   },

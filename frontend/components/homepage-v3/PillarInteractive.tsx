@@ -40,50 +40,57 @@ function titleFor(deck: DeckRow): string {
   return titleMap[deck.language] || deck.slug;
 }
 
-function pickFeaturedAndThumbs(decks: DeckRow[]): { featured: DeckRow | null; thumbs: DeckRow[] } {
-  const byType = new Map<string, DeckRow[]>();
-  for (const d of decks) {
-    const list = byType.get(d.exerciseType) ?? [];
-    list.push(d);
-    byType.set(d.exerciseType, list);
-  }
-  // Featured: prefer addition (most teacher-recognizable), else first
-  // deck by ordering (most recent overall).
-  const featured = byType.get('addition')?.[0] ?? decks[0] ?? null;
-
-  // Thumbs: one per OTHER allowed type, up to 2. Skips the featured's type.
-  const thumbs: DeckRow[] = [];
-  for (const type of FEATURED_EXERCISE_TYPES) {
-    if (!featured || type === featured.exerciseType) continue;
-    const d = byType.get(type)?.[0];
-    if (d) thumbs.push(d);
-    if (thumbs.length >= 2) break;
-  }
-  return { featured, thumbs };
-}
-
 async function selectPillarInteractiveDecks(locale: string): Promise<{ featured: DeckRow | null; thumbs: DeckRow[] }> {
   try {
-    const decks = await prisma.deck.findMany({
-      where: {
-        language: locale,
-        status: 'published',
-        exerciseType: { in: FEATURED_EXERCISE_TYPES as unknown as string[] },
-      },
-      select: {
-        id: true,
-        slug: true,
-        language: true,
-        title: true,
-        exerciseType: true,
-        thumbnailUrl: true,
-        subjectTags: true,
-        publishedAt: true,
-      },
-      orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
-      take: 12,
+    // 4 parallel per-type queries guarantee one deck per allowed type
+    // (when published in the locale). A single "take 12" query was
+    // biased by recency — a recent missing-pieces batch dominated the
+    // top-12 window for en/es/it/pt, leaving the other allowed types
+    // empty and forcing the featured fallback + 0 thumbs.
+    const perTypePromises = FEATURED_EXERCISE_TYPES.map((type) =>
+      prisma.deck.findMany({
+        where: { language: locale, status: 'published', exerciseType: type },
+        select: {
+          id: true,
+          slug: true,
+          language: true,
+          title: true,
+          exerciseType: true,
+          thumbnailUrl: true,
+          subjectTags: true,
+          publishedAt: true,
+        },
+        orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
+        take: 1,
+      })
+    );
+    const perTypeResults = await Promise.all(perTypePromises);
+
+    const byType = new Map<string, DeckRow>();
+    FEATURED_EXERCISE_TYPES.forEach((type, i) => {
+      const deck = perTypeResults[i][0];
+      if (deck) byType.set(type, deck as DeckRow);
     });
-    return pickFeaturedAndThumbs(decks as DeckRow[]);
+
+    // Featured: prefer addition (most teacher-recognizable), else first
+    // type with any deck in the FEATURED_EXERCISE_TYPES order.
+    const featured =
+      byType.get('addition') ??
+      FEATURED_EXERCISE_TYPES.map((t) => byType.get(t)).find(Boolean) ??
+      null;
+
+    // Thumbs: up to 2 from OTHER types, in FEATURED_EXERCISE_TYPES order.
+    const thumbs: DeckRow[] = [];
+    if (featured) {
+      for (const type of FEATURED_EXERCISE_TYPES) {
+        if (type === featured.exerciseType) continue;
+        const d = byType.get(type);
+        if (d) thumbs.push(d);
+        if (thumbs.length >= 2) break;
+      }
+    }
+
+    return { featured, thumbs };
   } catch (err) {
     console.warn('[PillarInteractive] DB query failed:', (err as Error).message);
     return { featured: null, thumbs: [] };

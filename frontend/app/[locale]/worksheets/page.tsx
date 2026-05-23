@@ -15,6 +15,24 @@ import { getAxisSlug, getAxisName } from '@/lib/taxonomy';
 
 const BASE_URL = 'https://www.lessoncraftstudio.com';
 
+// Substrate-honesty floor — only locales with genuine catalog depth (en /
+// es / it / pt today) get the "Hundreds…" variant. Seed-only locales fall
+// to the safer copy until Track C deck-publish lands per CLAUDE.md §19.5.
+const HUNDREDS_THRESHOLD = 100;
+
+const TITLE_HUNDREDS = 'Hundreds of worksheets, organized by type';
+const TITLE_SAFER = 'Worksheets, organized by type';
+
+const INTRO_HUNDREDS =
+  'Worksheets across themes, age levels, and eleven languages — pick a type to see every available worksheet in that category.';
+const INTRO_SAFER =
+  'Pick a worksheet type to see every available worksheet — interactive HTML to play in the browser plus a printable PDF for every set.';
+
+const META_DESC_HUNDREDS =
+  'Hundreds of worksheets across themes, age levels, and eleven languages — interactive HTML plus printable PDFs, organized by exercise type.';
+const META_DESC_SAFER =
+  'Browse worksheets by exercise type — interactive HTML plus printable PDFs across K-3 math, literacy, puzzles, and more.';
+
 interface Tile {
   exerciseType: string;
   typeName: string;
@@ -23,12 +41,23 @@ interface Tile {
   deckTitle: string;
 }
 
+async function countLocaleDecks(locale: string): Promise<number> {
+  try {
+    return await prisma.deck.count({
+      where: { language: locale, status: 'published' },
+    });
+  } catch {
+    return 0;
+  }
+}
+
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const locale = params.locale || 'en';
+  const total = await countLocaleDecks(locale);
+  const useHundreds = total >= HUNDREDS_THRESHOLD;
   return {
-    title: 'All worksheets | LessonCraftStudio',
-    description:
-      'Browse worksheets by exercise type — interactive HTML + printable PDFs across K-3 math, literacy, puzzles, and more.',
+    title: `${useHundreds ? TITLE_HUNDREDS : TITLE_SAFER} | LessonCraftStudio`,
+    description: useHundreds ? META_DESC_HUNDREDS : META_DESC_SAFER,
     alternates: { canonical: `${BASE_URL}/${locale}/worksheets/` },
     robots: { index: true, follow: true },
   };
@@ -42,19 +71,24 @@ export default async function AllWorksheetsPage({
   const locale = params.locale || 'en';
 
   let tiles: Tile[] = [];
+  let totalCount = 0;
   try {
-    const decks = await prisma.deck.findMany({
-      where: { language: locale, status: 'published' },
-      distinct: ['exerciseType'],
-      select: {
-        slug: true,
-        exerciseType: true,
-        thumbnailUrl: true,
-        title: true,
-        language: true,
-      },
-      orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
-    });
+    const [decks, count] = await Promise.all([
+      prisma.deck.findMany({
+        where: { language: locale, status: 'published' },
+        distinct: ['exerciseType'],
+        select: {
+          slug: true,
+          exerciseType: true,
+          thumbnailUrl: true,
+          title: true,
+          language: true,
+        },
+        orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
+      }),
+      prisma.deck.count({ where: { language: locale, status: 'published' } }),
+    ]);
+    totalCount = count;
 
     tiles = decks
       .map((d) => {
@@ -73,15 +107,17 @@ export default async function AllWorksheetsPage({
     console.warn('[AllWorksheetsPage] DB query failed:', (err as Error).message);
   }
 
+  const useHundreds = totalCount >= HUNDREDS_THRESHOLD;
+  const h1 = useHundreds ? TITLE_HUNDREDS : TITLE_SAFER;
+  const intro = useHundreds ? INTRO_HUNDREDS : INTRO_SAFER;
+
   return (
     <main className="container mx-auto px-4 max-w-6xl py-16 md:py-24">
       <h1 className="font-display font-semibold text-3xl md:text-5xl text-ink-900 leading-tight tracking-tight mb-6">
-        All worksheets
+        {h1}
       </h1>
       <p className="text-lg md:text-xl text-ink-600 leading-relaxed mb-12 max-w-3xl">
-        Pick a worksheet type to browse every available worksheet in that
-        category — interactive HTML to play right in the browser, plus a
-        printable PDF for every set.
+        {intro}
       </p>
 
       {tiles.length === 0 ? (

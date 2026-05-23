@@ -1418,5 +1418,180 @@
         "weeksAgo": "{count, plural, =1 {1 week ago} other {# weeks ago}}"
       }
     }
+  },
+  "homepageV3": {
+    "hero": {
+      "eyebrow": "Dalla scuola dell'infanzia alla classe terza · In linea con le Indicazioni nazionali · Undici lingue",
+      "h1Line1Before": "Si gioca come un ",
+      "h1Line1Squiggle": "gioco",
+      "h1Line1After": ".",
+      "h1Line2": "Costruito come il curricolo.",
+      "body": "Fonetica e matematica dalla scuola dell'infanzia alla classe terza, in linea con le Indicazioni nazionali, in undici lingue — pensate perché un bambino le possa usare da solo e costruite secondo il programma, così ogni insegnante si fida di ogni schermata.",
+      "ctaPrimary": "Inizia un'attività",
+      "ctaSecondary": "Esplora il catalogo",
+      "trust1": "Undici lingue",
+      "trust2": "Senza registrazione",
+      "trust3": "Gratis",
+      "trust4": "Usabile dai bambini",
+      "videoAria": "Scheda di matematica risolta in modo interattivo nel browser",
+      "mascotAlt": "Simpatico elefantino mascotte che saluta"
+    },
+    "pillar01": {
+      "eyebrow": "Attività",
+      "h2Line1": "Lezioni che tuo figlio vuole finire.",
+      "h2Line2": "Programmi di cui l'insegnante si fida.",
+      "support1Label": "In linea con le Indicazioni nazionali",
+      "support1LabelSquiggle": "Indicazioni nazionali",
+      "support1LabelBefore": "In linea con le ",
+      "support1Body": "Codice per codice. K.CC.B.4, RF.K.2.B, K.G.A.2 — visibili su ogni pagina come standard internazionali, così qualunque insegnante può verificare in un colpo d'occhio.",
+      "support2Label": "Undici lingue",
+      "support2Body": "Stessa attività, stesso design, sillabazione nativa. Il bambino legge nella sua lingua; gli standard restano gli stessi.",
+      "support3Label": "Senza pressione",
+      "support3Body": "Niente timer. Niente punteggi. Niente serie. Il ritmo è quello della curiosità di un bambino, non di una classifica.",
+      "support4Label": "Pensato per essere usato da soli",
+      "support4Body": "Un bambino può farne una da solo — sceglie una tessera, costruisce una parola, sente la risposta. L'audio umano è in arrivo; il resto è già attivo.",
+      "cta": "Inizia un'attività",
+      "mascotAlt": "Elefantino mascotte che indica le attività",
+      "card1Title": "Costruttore di sillabe",
+      "card1Prompt": "Tocca le sillabe in ordine per formare la parola.",
+      "card1GradeLabel": "Scuola dell'infanzia (5-7 anni)",
+      "card1CheckLabel": "Verifica",
+      "card1SubjectAlt": "gatto",
+      "card2Title": "Conta fino a 10",
+      "card2Prompt": "Tocca la cornice per fare 5.",
+      "card2GradeLabel": "Scuola dell'infanzia (5-7 anni)",
+      "card2CheckLabel": "Verifica",
+      "card2SubjectAlt": "cinque gatti",
+      "card3Title": "Forma le sillabe",
+      "card3Prompt": "Tocca le sillabe in ordine per formare la parola.",
+      "card3GradeLabel": "Scuola dell'infanzia (5-7 anni)",
+      "card3CheckLabel": "Verifica",
+      "card3SubjectAlt": "cavallo"
+    },
+    "pillar02": {
+      "eyebrow": "Schede interattive",
+      "h2Line1": "Ogni tipo di scheda per la scuola dell'infanzia e primaria,",
+      "h2Line2": "in tutte le lingue di quella fascia.",
+      "body": "Cruciverba, sudoku, classificazioni, trova-e-conta, addizioni, abbinamenti — e un'ampia biblioteca di altri tipi di esercizi. Stessi contenuti in qualunque delle undici lingue, grammaticalmente corretti fino al plurale con genere.",
+      "trust1Strong": "Si gioca in qualunque browser.",
+      "trust1Body": "Senza login. Si condivide come link, si incorpora come iframe.",
+      "trust2Strong": "Temi oltre i soliti.",
+      "trust2Body": "Dinosauri, vita marina, festività, set stagionali — il catalogo va in profondità su quello che ai bambini piace davvero.",
+      "trust3Strong": "Multilingue di base.",
+      "trust3BodyBefore": "Stessa scheda, ",
+      "trust3BodyMiddle": "undici lingue",
+      "trust3BodyAfter": ", con una grammatica solida.",
+      "cta": "Esplora il catalogo",
+      "emptyState": "L'anteprima giocabile sta caricando dal catalogo."
+    },
+    "pillar03": {
+      "eyebrow": "Materiali stampabili",
+      "h2Line1": "Schede da stampare.",
+      "h2Line2": "Soluzioni per correggere.",
+      "list1": "Ogni scheda interattiva è disponibile anche in PDF stampabile — stesse immagini, stessi esercizi, adatto alla carta.",
+      "list2": "Soluzioni incluse in ogni set.",
+      "list3": "E formati solo-PDF per la motricità fine: colorare, scrivere, disegna-e-colora, tracciare linee.",
+      "list4": "Pensate per la stampante di classe, quella di casa e la fotocopiatrice della scuola.",
+      "cta": "Vedi le schede stampabili",
+      "paperStack": {
+        "pdfA4": "PDF · A4",
+        "backTitle": "Cerca-parole",
+        "middleTitle": "Abbinamento immagini",
+        "middleWord1": "Coniglio",
+        "middleWord2": "Gatto",
+        "middleWord3": "Cane",
+        "frontTitle": "Pratica di addizioni",
+        "answerKeyBadge": "+ Soluzioni"
+      }
+    },
+    "transition": {
+      "line1": "E se sei",
+      "line2": "tu che insegni",
+      "mascotAlt": "Elefantino mascotte che fa da ponte tra genitore e insegnante"
+    },
+    "pillar04": {
+      "eyebrow": "Generatori di schede",
+      "h2Line1": "Crea una scheda in un minuto.",
+      "h2Line2": "In qualunque delle undici lingue.",
+      "body": "Una libreria di strumenti generatori — matematica, lettere, puzzle, sequenze — ognuno con controlli per tema e lingua. Porta la tua lista di parole, il tuo set di immagini, i tuoi tocchi di classe.",
+      "list1": "Un'unica impostazione. Due risultati: HTML interattivo e PDF stampabile.",
+      "list2": "Per l'insegnante che vuole esattamente la scheda che aveva in mente.",
+      "list3": "Controlli multilingue; la scheda esce nella lingua che scegli.",
+      "cta": "Apri i generatori",
+      "mockPanel": {
+        "title": "Generatore di addizioni",
+        "codeChip": "Matematica · Scuola dell'infanzia — 2ª primaria",
+        "themeLabel": "TEMA",
+        "themeValue": "🦕 Dinosauri",
+        "langLabel": "LINGUA",
+        "langValue": "🇩🇪 Deutsch",
+        "rangeLabel": "INTERVALLO",
+        "itemsLabel": "ESERCIZI",
+        "generateButton": "Genera",
+        "floatingBadge": "Matematica · Lettere · Puzzle · Sequenze"
+      }
+    },
+    "pillar05": {
+      "eyebrow": "Strumenti",
+      "h2Line1": "I classici,",
+      "h2Line2": "ridisegnati per il browser.",
+      "body": "Strumenti di manipolazione matematica per la classe — touch-first, adatti alla LIM, incorporabili ovunque. Gratis, senza registrazione.",
+      "tool1Name": "Cornice del dieci",
+      "tool1Desc": "La griglia del cinque-e-dieci per contare, riconoscere a colpo d'occhio e iniziare le addizioni.",
+      "tool2Name": "Linea dei numeri",
+      "tool2Desc": "Una linea dei numeri pulita per il conteggio a salti, i salti e il valore posizionale.",
+      "tool3Name": "Righello",
+      "tool3Desc": "Un righello virtuale — misura sullo schermo, proietta sulla LIM.",
+      "perTileCta": "Apri",
+      "cta": "Apri gli strumenti"
+    },
+    "embedShare": {
+      "eyebrow": "Condividi",
+      "h2Line1": "Incorpora qualunque scheda",
+      "h2Line2": "sul tuo blog o sul sito della classe.",
+      "body": "Ogni scheda interattiva include uno snippet iframe di una riga. Incollalo dove vuoi. Si gioca direttamente lì. Niente account. Niente paywall.",
+      "pasteCaptionPrefix": "Incolla questo snippet",
+      "trust1": "Si gioca lì — gli studenti non lasciano il tuo sito.",
+      "trust2": "Funziona su WordPress, Wix, Google Sites, Squarespace, ovunque.",
+      "arrowCaption": "ecco come",
+      "mockup": {
+        "worksheetTitle": "Abbina",
+        "worksheetHeader": "Animali dello zoo",
+        "worksheetInstruction": "Traccia delle linee per collegare le coppie corrispondenti.",
+        "animalLion": "Leone",
+        "animalTiger": "Tigre",
+        "animalGiraffe": "Giraffa",
+        "animalElephant": "Elefante",
+        "animalZebra": "Zebra",
+        "checkAnswers": "Verifica",
+        "popupTitle": "Incorpora questa scheda sul tuo sito",
+        "widthLabel": "Larghezza",
+        "heightLabel": "Altezza",
+        "snippetCaption": "Incolla questo nell'HTML del tuo sito",
+        "copyCodeButton": "Copia codice",
+        "closeButton": "Chiudi"
+      }
+    },
+    "signup": {
+      "eyebrow": "Gratis",
+      "h2Line1": "Non serve registrarsi.",
+      "h2Line2": "Crea un account se vuoi salvare le tue cose.",
+      "body": "Ogni attività, scheda e strumento di questo sito è gratis, senza account. Un account serve solo per salvare i preferiti, creare raccolte e incorporare i tuoi mazzi.",
+      "ctaPrimary": "Inizia un'attività",
+      "ctaSecondary": "Crea un account",
+      "mascotAlt": "Elefantino mascotte che ti dà il benvenuto"
+    },
+    "featuredTile": {
+      "badge": "Anteprima giocabile",
+      "cta": "Tocca per giocare →",
+      "closeAria": "Chiudi"
+    },
+    "mascot": {
+      "defaultAlt": "Simpatico elefantino mascotte"
+    },
+    "metadata": {
+      "title": "Anteprima Homepage v3 · LessonCraftStudio",
+      "description": "Prototipo interno della homepage ridisegnata. Non indicizzato."
+    }
   }
 }

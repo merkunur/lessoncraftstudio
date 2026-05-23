@@ -45,22 +45,24 @@ export default function HomepageV3Layout({
           + paper grain make the cream feel like handmade paper instead
           of a flat canvas. */}
       <style>{`
+        /* BOLD OVERHAUL: body bg is now deep teal #0E544A — the hero
+           ground extends across the whole page outside section spreads.
+           Cream-tone discontinuity is no longer an issue; cream
+           appears only where cards or warm pillars explicitly use it.
+           Chalk-on-teal endpaper pattern: cream + coral marks at higher
+           opacity for a "chalk on dark paper" feel. */
         body {
-          background: #FBF3E4 !important;
+          background: #0E544A !important;
+          color: #FBF3E4;
           background-image:
-            url("data:image/svg+xml;utf8,%3Csvg width='240' height='240' viewBox='0 0 240 240' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23146B5E' stroke-width='1.4' stroke-linecap='round' opacity='0.07'%3E%3Cpath d='M 22 30 q 4 -6 8 0 t 8 0' /%3E%3Cpath d='M 180 60 q 3 -5 6 0 t 6 0' /%3E%3Cpath d='M 65 200 q 5 -7 10 0 t 10 0' /%3E%3C/g%3E%3Cg fill='%23F2784B' opacity='0.07'%3E%3Cpath d='M 95 45 l 1.5 4 l 4 0.5 l -3 2.5 l 1 4 l -3.5 -2 l -3.5 2 l 1 -4 l -3 -2.5 l 4 -0.5 z' /%3E%3Cpath d='M 200 165 l 1 3 l 3 0.4 l -2 1.8 l 0.6 3 l -2.6 -1.5 l -2.6 1.5 l 0.6 -3 l -2 -1.8 l 3 -0.4 z' /%3E%3C/g%3E%3Cg fill='%23146B5E' opacity='0.06'%3E%3Ccircle cx='150' cy='25' r='2'/%3E%3Ccircle cx='40' cy='110' r='2.4'/%3E%3Ccircle cx='215' cy='210' r='1.8'/%3E%3Ccircle cx='115' cy='180' r='1.6'/%3E%3Ccircle cx='12' cy='180' r='1.6'/%3E%3C/g%3E%3Cg fill='none' stroke='%23F2784B' stroke-width='1.3' stroke-linecap='round' opacity='0.07'%3E%3Cpath d='M 50 70 q 8 -4 16 0' /%3E%3Cpath d='M 165 130 q 6 -4 12 0' /%3E%3C/g%3E%3C/svg%3E"),
-            url("data:image/svg+xml;utf8,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.10 0 0 0 0 0.42 0 0 0 0 0.37 0 0 0 0.06 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-          background-size: 240px 240px, 200px 200px;
-          background-repeat: repeat, repeat;
+            url("data:image/svg+xml;utf8,%3Csvg width='280' height='280' viewBox='0 0 280 280' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23FBF3E4' stroke-width='1.6' stroke-linecap='round' opacity='0.12'%3E%3Cpath d='M 28 36 q 5 -7 10 0 t 10 0' /%3E%3Cpath d='M 210 70 q 4 -6 8 0 t 8 0' /%3E%3Cpath d='M 76 220 q 6 -8 12 0 t 12 0' /%3E%3Cpath d='M 130 140 q 5 -6 10 0' /%3E%3C/g%3E%3Cg fill='%23F2784B' opacity='0.14'%3E%3Cpath d='M 110 52 l 1.8 4.6 l 4.6 0.6 l -3.4 2.8 l 1.2 4.6 l -4 -2.4 l -4 2.4 l 1.2 -4.6 l -3.4 -2.8 l 4.6 -0.6 z' /%3E%3Cpath d='M 232 190 l 1.4 3.4 l 3.4 0.4 l -2.4 2 l 0.8 3.4 l -3 -1.8 l -3 1.8 l 0.8 -3.4 l -2.4 -2 l 3.4 -0.4 z' /%3E%3Cpath d='M 50 168 l 1.2 3 l 3 0.4 l -2 1.8 l 0.6 3 l -2.6 -1.6 l -2.6 1.6 l 0.6 -3 l -2 -1.8 l 3 -0.4 z' /%3E%3C/g%3E%3Cg fill='%23FBF3E4' opacity='0.10'%3E%3Ccircle cx='170' cy='28' r='2.4'/%3E%3Ccircle cx='44' cy='124' r='2.8'/%3E%3Ccircle cx='250' cy='240' r='2'/%3E%3Ccircle cx='132' cy='210' r='1.8'/%3E%3Ccircle cx='14' cy='210' r='1.8'/%3E%3Ccircle cx='200' cy='115' r='2.2'/%3E%3C/g%3E%3Cg fill='none' stroke='%23F2784B' stroke-width='1.5' stroke-linecap='round' opacity='0.13'%3E%3Cpath d='M 58 80 q 10 -5 20 0' /%3E%3Cpath d='M 190 150 q 8 -5 16 0' /%3E%3C/g%3E%3C/svg%3E");
+          background-size: 280px 280px;
+          background-repeat: repeat;
         }
-        /* Suppress the legacy body::before grain on this route — the
-           background-image stack above already provides texture + the
-           endpaper pattern, so the duplicate grain layer would over-tint. */
-        body::before {
-          display: none;
-        }
+        /* Suppress the legacy body::before grain on this route. */
+        body::before { display: none; }
       `}</style>
-      <div className={`${baloo2.variable} ${nunito.variable} font-lcsBody text-lcs-teal min-h-screen`}>
+      <div className={`${baloo2.variable} ${nunito.variable} font-lcsBody text-lcs-cream min-h-screen`}>
         {children}
       </div>
     </>

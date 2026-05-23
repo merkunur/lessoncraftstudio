@@ -12,14 +12,20 @@ interface Props {
 
 export default function SignupV3({ locale }: Props) {
   return (
-    <section className="bg-lcs-teal py-20 md:py-28 relative overflow-hidden">
-      {/* Decorative diagonal accent */}
+    <section className="hv3-section-coral-deep py-24 md:py-32 relative overflow-hidden">
+      {/* Decorative diagonal accent — cream stripe on the deep coral */}
       <div
         aria-hidden="true"
-        className="absolute top-0 right-0 w-1/3 h-full opacity-20"
+        className="absolute top-0 right-0 w-1/3 h-full opacity-22"
         style={{
-          background: 'linear-gradient(135deg, transparent 40%, #F2784B 40%, #F2784B 42%, transparent 42%)',
+          background: 'linear-gradient(135deg, transparent 40%, #FBF3E4 40%, #FBF3E4 42%, transparent 42%)',
         }}
+      />
+      {/* Atmosphere — soft cream halo behind the mascot. */}
+      <div
+        aria-hidden="true"
+        className="absolute top-1/2 right-[10%] w-[420px] h-[420px] rounded-full pointer-events-none -translate-y-1/2"
+        style={{ background: 'radial-gradient(circle, rgba(251,243,228,0.18) 0%, transparent 65%)' }}
       />
 
       <div className="container mx-auto px-4 max-w-5xl relative">
@@ -29,14 +35,12 @@ export default function SignupV3({ locale }: Props) {
             character waves you off / welcomes you in." */}
         <div
           aria-hidden="true"
-          className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 z-10 pointer-events-none"
+          className="hidden md:block absolute right-2 lg:right-8 top-1/2 -translate-y-1/2 z-10 pointer-events-none w-[280px] lg:w-[340px]"
         >
           <MascotPlaceholder
             size="signup"
-            fillTone="cream"
-            poseHint="waving"
-            className="[&_.hv3-mascot-caption]:text-lcs-cream/80"
-            flip
+            poseHint="emphasizing"
+            alt="Friendly elephant mascot waving you in"
           />
         </div>
 

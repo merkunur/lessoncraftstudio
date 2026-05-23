@@ -113,19 +113,19 @@ const TOOLS = [
 
 export default function PillarTools({ locale: _locale }: PillarToolsProps) {
   return (
-    <section id="tools" className="relative overflow-hidden bg-lcs-sage pb-20 md:pb-28">
+    <section id="tools" className="hv3-section-teal relative overflow-hidden pt-20 md:pt-28 pb-24 md:pb-32">
       <div className="container mx-auto px-4 max-w-7xl">
         {/* Header */}
         <div className="max-w-2xl mb-10 md:mb-12">
           <div className="flex items-center gap-4 mb-3">
-            <span className="hv3-pillar-num" style={{ color: 'rgba(20, 107, 94, 0.32)' }}>05</span>
-            <span className="hv3-eyebrow">Tools</span>
+            <span className="hv3-pillar-num-cream">05</span>
+            <span className="hv3-eyebrow text-lcs-cream/85">Tools</span>
           </div>
-          <h2 className="font-lcsDisplay font-bold text-lcs-teal leading-[1.1] tracking-tight text-[1.875rem] sm:text-[2.25rem] md:text-[2.5rem]">
+          <h2 className="font-lcsDisplay font-bold text-lcs-cream leading-[1.05] tracking-tight text-[1.875rem] sm:text-[2.5rem] md:text-[3rem]">
             The classics,<br />
-            <span className="text-lcs-teal-deep">redrawn for the browser.</span>
+            <span className="text-lcs-coral">redrawn for the browser.</span>
           </h2>
-          <p className="mt-5 font-lcsBody text-base md:text-lg text-lcs-teal/85 leading-relaxed">
+          <p className="mt-5 font-lcsBody text-base md:text-lg text-lcs-cream/80 leading-relaxed">
             Classroom math manipulatives — touch-first, whiteboard-friendly,
             embeddable anywhere. Free, no signup.
           </p>
@@ -142,7 +142,7 @@ export default function PillarTools({ locale: _locale }: PillarToolsProps) {
             <a
               key={tool.name}
               href={tool.href}
-              className={`hv3-card ${tint} p-6 md:p-7 group hover:-translate-y-1 transition-transform duration-300`}
+              className={`hv3-card hv3-card-on-color ${tint} p-6 md:p-7 group hover:-translate-y-1 transition-transform duration-300`}
             >
               {/* Icon stage — soft cream + coral panel behind the icon
                   gives it physical stage presence on the sage ground. */}

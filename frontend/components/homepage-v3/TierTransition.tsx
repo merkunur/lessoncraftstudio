@@ -21,7 +21,7 @@ export default function TierTransition() {
         />
 
         <div className="container mx-auto px-4 max-w-6xl relative">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 lg:gap-24">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12 lg:gap-16">
             {/* Mascot — BRIDGES the diagonal at huge scale. Upper body
                 on cream, lower body on teal. Real elephant art ("greeting"
                 pose) — the waving gesture reads as "welcome, here we
@@ -42,7 +42,7 @@ export default function TierTransition() {
                 on the cream half, cream where it sits on the teal half.
                 We split into two visual lines to let the color flip
                 track the diagonal. */}
-            <div className="text-center md:text-left max-w-lg">
+            <div className="text-center md:text-left max-w-md pr-0 md:pr-6 lg:pr-8">
               <p className="font-lcsDisplay text-3xl md:text-4xl lg:text-[3rem] text-lcs-teal-deep italic leading-[1.05] font-bold">
                 And if you&apos;re
               </p>

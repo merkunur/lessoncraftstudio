@@ -443,7 +443,7 @@
   position: absolute;
   left: -3%;
   right: -3%;
-  bottom: -0.18em;
+  bottom: -0.3em;
   height: 0.4em;
   background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox='0 0 120 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M 2 9 Q 18 1, 32 7 T 60 5 T 88 9 T 118 4' fill='none' stroke='%23F2784B' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E");
   background-repeat: no-repeat;

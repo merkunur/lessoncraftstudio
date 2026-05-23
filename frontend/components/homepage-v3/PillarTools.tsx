@@ -4,6 +4,7 @@
    Compact 3-column row on desktop; stacked on mobile. */
 
 import Link from 'next/link';
+import { Sparkle } from './DoodleAccents';
 
 interface PillarToolsProps {
   locale: string;
@@ -138,10 +139,19 @@ export default function PillarTools({ locale: _locale }: PillarToolsProps) {
               href={tool.href}
               className="hv3-card p-6 md:p-7 group hover:-translate-y-1 transition-transform duration-300"
             >
-              <div className="mb-5 flex items-center justify-start" aria-hidden="true">
+              {/* Icon stage — soft cream + coral panel behind the icon
+                  gives it physical stage presence on the sage ground. */}
+              <div className="hv3-icon-stage mb-5" aria-hidden="true">
                 {tool.icon}
               </div>
-              <h3 className="font-lcsDisplay font-bold text-xl text-lcs-teal mb-2">{tool.name}</h3>
+              <h3 className="font-lcsDisplay font-bold text-xl text-lcs-teal mb-2 relative inline-flex items-center gap-2">
+                {tool.name}
+                {/* Sparkle accent appears on hover — adds a tiny moment
+                    of delight without permanent visual noise. */}
+                <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <Sparkle className="text-lcs-coral" size={14} rotate={18} />
+                </span>
+              </h3>
               <p className="font-lcsBody text-sm text-lcs-teal/75 leading-relaxed">{tool.desc}</p>
               <span className="mt-4 inline-flex items-center gap-1.5 font-lcsBody text-xs font-bold text-lcs-coral-deep uppercase tracking-wider group-hover:gap-2.5 transition-all">
                 Open

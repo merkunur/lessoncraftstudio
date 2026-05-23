@@ -5,6 +5,7 @@
    + a small preview) showing the DIY paradigm. */
 
 import Link from 'next/link';
+import { Arrow } from './DoodleAccents';
 
 interface PillarMakersProps {
   locale: string;
@@ -97,8 +98,9 @@ export default function PillarMakers({ locale }: PillarMakersProps) {
                 </div>
               </div>
 
-              {/* Generate button */}
-              <div className="mt-5 flex items-center gap-3">
+              {/* Generate button + output badge, with a hand-drawn arrow
+                  between them showing the input → output paradigm playfully. */}
+              <div className="mt-5 flex items-center gap-3 relative">
                 <button
                   type="button"
                   tabIndex={-1}
@@ -107,6 +109,10 @@ export default function PillarMakers({ locale }: PillarMakersProps) {
                 >
                   Generate
                 </button>
+                {/* Doodled arrow — connects "Generate" → "HTML + PDF" */}
+                <span aria-hidden="true" className="inline-block -mx-1">
+                  <Arrow className="text-lcs-teal/55" width={36} height={28} rotate={-5} strokeWidth={2} />
+                </span>
                 <div className="px-3 py-2 bg-lcs-teal/8 rounded-lg font-lcsBody text-xs text-lcs-teal/70 font-semibold">
                   HTML + PDF
                 </div>

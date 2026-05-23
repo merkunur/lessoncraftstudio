@@ -12,6 +12,7 @@ import {
 import { getAxisSlug } from '@/lib/taxonomy';
 import FeaturedDeckTileV3 from './FeaturedDeckTileV3';
 import BreadthThumbV3 from './BreadthThumbV3';
+import { HandCheck, Sparkle } from './DoodleAccents';
 
 interface PillarInteractiveProps {
   locale: string;
@@ -53,8 +54,10 @@ export default async function PillarInteractive({ locale }: PillarInteractivePro
           </h2>
         </div>
 
-        {/* Two-column body */}
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-12 lg:gap-16 items-start">
+        {/* Two-column body. Right column is wider this pass (0.85fr/1.15fr)
+            so the featured deck tile + the variety thumbs row render at
+            larger absolute sizes — the real product art carries more weight. */}
+        <div className="grid grid-cols-1 lg:grid-cols-[0.85fr_1.15fr] gap-12 lg:gap-16 items-start">
           {/* LEFT — supporting lines */}
           <div>
             <p className="font-lcsBody text-lg md:text-xl text-lcs-teal/85 leading-relaxed">
@@ -64,34 +67,31 @@ export default async function PillarInteractive({ locale }: PillarInteractivePro
             </p>
 
             <ul className="mt-8 space-y-5 font-lcsBody text-base md:text-lg text-lcs-teal/80">
-              <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-6 h-6 mt-0.5 rounded-full bg-lcs-coral-soft text-lcs-coral-deep inline-flex items-center justify-center" aria-hidden="true">
-                  <svg className="w-3.5 h-3.5" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M3 8.5L6.5 12L13 5" />
-                  </svg>
+              <li className="flex items-start gap-3.5">
+                {/* Hand-drawn check replaces the prior clean checkmark
+                    inside the round soft-coral pill — same affordance,
+                    illustrated feel. */}
+                <span className="flex-shrink-0 w-6 h-6 mt-0.5" aria-hidden="true">
+                  <HandCheck className="text-lcs-coral" size={26} />
                 </span>
                 <span>
                   <strong className="font-semibold text-lcs-teal">Plays in any browser.</strong> No login. Shareable as a link, embeddable as an iframe.
                 </span>
               </li>
-              <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-6 h-6 mt-0.5 rounded-full bg-lcs-coral-soft text-lcs-coral-deep inline-flex items-center justify-center" aria-hidden="true">
-                  <svg className="w-3.5 h-3.5" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M3 8.5L6.5 12L13 5" />
-                  </svg>
+              <li className="flex items-start gap-3.5">
+                <span className="flex-shrink-0 w-6 h-6 mt-0.5" aria-hidden="true">
+                  <HandCheck className="text-lcs-coral" size={26} />
                 </span>
                 <span>
                   <strong className="font-semibold text-lcs-teal">Themes past the cliché.</strong> Dinosaurs, ocean life, holidays, season-appropriate sets — the catalog goes deep on what kids actually like.
                 </span>
               </li>
-              <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-6 h-6 mt-0.5 rounded-full bg-lcs-coral-soft text-lcs-coral-deep inline-flex items-center justify-center" aria-hidden="true">
-                  <svg className="w-3.5 h-3.5" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M3 8.5L6.5 12L13 5" />
-                  </svg>
+              <li className="flex items-start gap-3.5">
+                <span className="flex-shrink-0 w-6 h-6 mt-0.5" aria-hidden="true">
+                  <HandCheck className="text-lcs-coral" size={26} />
                 </span>
                 <span>
-                  <strong className="font-semibold text-lcs-teal">Multilingual by default.</strong> Same worksheet, eleven languages, grammar that holds up.
+                  <strong className="font-semibold text-lcs-teal">Multilingual by default.</strong> Same worksheet, <span className="inline-flex items-center gap-1">eleven languages<Sparkle className="text-lcs-coral inline-block" size={14} rotate={20} /></span>, grammar that holds up.
                 </span>
               </li>
             </ul>

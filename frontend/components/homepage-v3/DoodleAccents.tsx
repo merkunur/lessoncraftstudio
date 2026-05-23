@@ -154,6 +154,60 @@ export function DoodleBullet({
   );
 }
 
+/* ─── MarginDoodle — tiny hand-drawn line-art for the page margins.
+   Picture-book endpaper style — a small turtle outline that sits in
+   the hero margin at very low opacity, like a child drew on the page. */
+export function MarginDoodleTurtle({
+  className = 'text-lcs-teal',
+  size = 90,
+  rotate = -8,
+}: DoodleProps) {
+  return (
+    <svg
+      viewBox="0 0 100 70"
+      width={size}
+      height={Math.round(size * 0.7)}
+      className={className}
+      style={{ transform: `rotate(${rotate}deg)` }}
+      aria-hidden="true"
+    >
+      <g fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+        {/* Shell — rounded dome with a few segment lines */}
+        <path d="M 25 38 Q 25 18, 50 18 Q 75 18, 75 38 Q 75 50, 50 50 Q 25 50, 25 38 Z" />
+        <path d="M 35 25 Q 38 35, 36 47" />
+        <path d="M 50 21 Q 50 35, 50 50" />
+        <path d="M 65 25 Q 62 35, 64 47" />
+        {/* Head — small oval to the left */}
+        <ellipse cx="18" cy="36" rx="6" ry="5" />
+        {/* Eye */}
+        <circle cx="15" cy="35" r="0.8" fill="currentColor" />
+        {/* Tail — short curl on the right */}
+        <path d="M 76 36 q 5 -1 7 -3" />
+        {/* Legs — four little stumps */}
+        <path d="M 32 50 q 0 5, 3 6" />
+        <path d="M 45 51 q 0 4, 2 5" />
+        <path d="M 56 51 q 0 4, 3 5" />
+        <path d="M 68 50 q 0 5, 3 6" />
+      </g>
+    </svg>
+  );
+}
+
+/* ─── MarginDoodleStar — small hand-drawn star outline for margins ──── */
+export function MarginDoodleStar({ className = 'text-lcs-coral', size = 32, rotate = 12 }: DoodleProps) {
+  return (
+    <svg viewBox="0 0 32 32" width={size} height={size} className={className} style={{ transform: `rotate(${rotate}deg)` }} aria-hidden="true">
+      <path
+        d="M 16 4 L 19 13 L 28 13 L 21 19 L 24 28 L 16 23 L 8 28 L 11 19 L 4 13 L 13 13 Z"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.4"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
 /* ─── Pencil — small hand-drawn pencil icon ─────────────────────────── */
 export function Pencil({ className = 'text-lcs-coral', size = 28, rotate = -8 }: DoodleProps) {
   return (

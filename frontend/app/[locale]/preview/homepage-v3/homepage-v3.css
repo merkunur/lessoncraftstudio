@@ -9,25 +9,69 @@
 
 /* Dual-shadow card — the locked Direction A signature: soft outer shadow +
    tighter contact shadow, plus a 1px inner cream highlight on the top edge.
-   Replicates the "lifted-from-cream" feel of the live activity cards. */
+   Replicates the "lifted-from-cream" feel of the live activity cards.
+
+   Cards now carry an inner paper-grain texture + slightly asymmetric edge
+   shadows so they feel like sheets of handmade paper, not flat color tiles. */
 .hv3-card {
   background: #FBF3E4;
   border-radius: 24px;
+  position: relative;
+  isolation: isolate;
   box-shadow:
     0 1px 0 rgba(255, 255, 255, 0.6) inset,
+    1px 0 0 rgba(20, 107, 94, 0.05) inset,
     0 1.5px 0 rgba(20, 107, 94, 0.08),
     0 12px 24px -8px rgba(20, 107, 94, 0.18),
     0 32px 48px -16px rgba(20, 107, 94, 0.12);
 }
+.hv3-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.35;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='c'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.08 0 0 0 0 0.42 0 0 0 0 0.37 0 0 0 0.07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23c)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+  mix-blend-mode: multiply;
+}
+.hv3-card > * { position: relative; z-index: 1; }
 
 .hv3-card-deep {
   background: #FBF3E4;
   border-radius: 28px;
+  position: relative;
+  isolation: isolate;
   box-shadow:
     0 1px 0 rgba(255, 255, 255, 0.7) inset,
+    1px 0 0 rgba(20, 107, 94, 0.06) inset,
     0 2px 0 rgba(20, 107, 94, 0.10),
     0 18px 36px -10px rgba(20, 107, 94, 0.22),
     0 48px 64px -20px rgba(20, 107, 94, 0.14);
+}
+.hv3-card-deep::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.32;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='cd'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.88' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.08 0 0 0 0 0.42 0 0 0 0 0.37 0 0 0 0.07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23cd)'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+  mix-blend-mode: multiply;
+}
+.hv3-card-deep > * { position: relative; z-index: 1; }
+
+/* Card tonal variants — gentle natural variation within the cream family.
+   Use sparingly. Goal: variety like a stack of real papers, not rainbow. */
+.hv3-card-tinted-sage {
+  background: #F0EFE0;
+}
+.hv3-card-tinted-warm {
+  background: #FBEFDC;
 }
 
 /* Sage tile / answer-slot look from the activity card. */
@@ -155,14 +199,38 @@
   color: #FBF3E4;
 }
 
-/* Coral accent blob — radial gradient used behind cards for depth. */
+/* Watercolor wash atmospherics — multi-stop radials with longer falloff
+   so they feel like watercolor pools that bled into the paper, not hard
+   color blobs. Stronger blur softens the edge further. */
 .hv3-blob-coral {
-  background: radial-gradient(ellipse at center, rgba(242, 120, 75, 0.35) 0%, rgba(242, 120, 75, 0) 70%);
-  filter: blur(8px);
+  background: radial-gradient(
+    ellipse at 40% 45%,
+    rgba(242, 120, 75, 0.32) 0%,
+    rgba(242, 120, 75, 0.18) 22%,
+    rgba(242, 120, 75, 0.08) 48%,
+    rgba(242, 120, 75, 0) 72%
+  );
+  filter: blur(14px);
 }
 .hv3-blob-teal {
-  background: radial-gradient(ellipse at center, rgba(20, 107, 94, 0.22) 0%, rgba(20, 107, 94, 0) 70%);
-  filter: blur(8px);
+  background: radial-gradient(
+    ellipse at 55% 50%,
+    rgba(20, 107, 94, 0.22) 0%,
+    rgba(20, 107, 94, 0.12) 25%,
+    rgba(20, 107, 94, 0.05) 50%,
+    rgba(20, 107, 94, 0) 75%
+  );
+  filter: blur(14px);
+}
+.hv3-blob-sage {
+  background: radial-gradient(
+    ellipse at center,
+    rgba(168, 183, 155, 0.42) 0%,
+    rgba(168, 183, 155, 0.22) 30%,
+    rgba(168, 183, 155, 0.08) 60%,
+    rgba(168, 183, 155, 0) 80%
+  );
+  filter: blur(16px);
 }
 
 /* Hero entrance — staggered fade-in-up. Crawler-safe (no opacity:0 base). */

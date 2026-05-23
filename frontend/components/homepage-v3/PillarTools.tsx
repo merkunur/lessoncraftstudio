@@ -133,11 +133,16 @@ export default function PillarTools({ locale: _locale }: PillarToolsProps) {
 
         {/* 3-column row of tools */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6">
-          {TOOLS.map((tool) => (
+          {TOOLS.map((tool, i) => {
+            // Alternate tonal variants across the three tool cards for
+            // gentle natural paper-stack variation: default cream, warm
+            // tint, sage tint.
+            const tint = i === 0 ? '' : i === 1 ? 'hv3-card-tinted-warm' : 'hv3-card-tinted-sage';
+            return (
             <a
               key={tool.name}
               href={tool.href}
-              className="hv3-card p-6 md:p-7 group hover:-translate-y-1 transition-transform duration-300"
+              className={`hv3-card ${tint} p-6 md:p-7 group hover:-translate-y-1 transition-transform duration-300`}
             >
               {/* Icon stage — soft cream + coral panel behind the icon
                   gives it physical stage presence on the sage ground. */}
@@ -160,7 +165,8 @@ export default function PillarTools({ locale: _locale }: PillarToolsProps) {
                 </svg>
               </span>
             </a>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

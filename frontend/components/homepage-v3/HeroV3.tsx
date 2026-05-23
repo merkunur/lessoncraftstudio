@@ -6,7 +6,6 @@
    activity card floats below the elephant. */
 
 import Link from 'next/link';
-import ActivityCardPreview from './ActivityCardPreview';
 import MascotPlaceholder from './MascotPlaceholder';
 import { Sparkle, MarginDoodleStar } from './DoodleAccents';
 
@@ -132,52 +131,41 @@ export default function HeroV3({ locale }: HeroV3Props) {
               <span className="font-lcsBody text-xs text-lcs-teal/60 pl-1 font-semibold">+5</span>
             </div>
 
-            {/* Mascot + card composite */}
+            {/* Video + mascot composite. The live homepage's autoplay
+                math-puzzle demo (operator-preserved per 2026-05-23
+                request) is the proof: visitor sees a real worksheet
+                being solved in real time. Framed in a cream card so the
+                video pops on the dark teal ground; the elephant mascot
+                peeks from the bottom-left corner so the character
+                "introduces" the demo. */}
             <div className="relative w-full max-w-xl">
-              {/* Cream soft circle behind the elephant — gives the dark
-                  mascot a stage so it pops against teal without
-                  silhouette-disappearing. */}
+              {/* Cream-framed video card. Strong contact shadow + dual-
+                  shadow inset for the "paper on dark table" feel. */}
               <div
-                aria-hidden="true"
-                className="absolute inset-0 flex items-center justify-center pointer-events-none"
+                className="hv3-anim-fade-up hv3-anim-d3 relative z-10 rounded-3xl overflow-hidden bg-lcs-cream p-2 md:p-3 hv3-card-on-color hv3-float"
+                style={{ ['--rot' as string]: '-1.5deg' } as React.CSSProperties}
               >
-                <div
-                  className="rounded-full"
-                  style={{
-                    width: '88%',
-                    height: '88%',
-                    background: 'radial-gradient(circle at 50% 45%, rgba(251,243,228,0.16) 0%, rgba(251,243,228,0.08) 45%, transparent 70%)',
-                  }}
+                <video
+                  src="/videos/math-puzzle.mp4"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  preload="metadata"
+                  aria-label="Math puzzle worksheet being solved interactively in the browser"
+                  className="w-full h-auto block rounded-2xl"
                 />
               </div>
 
-              {/* Real elephant — greeting / waving pose. Sits centered. */}
-              <div className="hv3-anim-fade-up hv3-anim-d3 relative z-10 flex items-center justify-center hv3-float" style={{ ['--rot' as string]: '-2deg' } as React.CSSProperties}>
+              {/* Mascot peeks from the bottom-left of the video card —
+                  greeting pose, smaller scale so the demo stays the
+                  hero of the right column; mascot adds character without
+                  competing with the proof. */}
+              <div className="hv3-anim-fade-up hv3-anim-d5 absolute -bottom-14 -left-10 md:-bottom-16 md:-left-12 z-20 w-[160px] md:w-[200px] pointer-events-none">
                 <MascotPlaceholder
-                  size="hero"
+                  size="inline"
                   poseHint="greeting"
                   alt="Friendly elephant mascot waving hello"
-                />
-              </div>
-
-              {/* Activity card — floats over the bottom-right of the
-                  elephant. Smaller than mascot so character stays the
-                  hero; card is the proof. */}
-              <div className="hv3-anim-fade-up hv3-anim-d5 absolute -bottom-16 -right-4 md:-bottom-20 md:-right-6 z-20 w-[300px] md:w-[340px]">
-                <ActivityCardPreview
-                  variant="compact"
-                  title="Constructeur de syllabes"
-                  prompt="Touche les syllabes dans l'ordre pour former le mot."
-                  subjectImg="https://www.lessoncraftstudio.com/image-library-webp/themes/animals/turtle@2x.webp"
-                  subjectAlt="tortue"
-                  tiles={['tor', 'tue']}
-                  slotsFilled={true}
-                  filledOrder={['tor', 'tue']}
-                  ccCode="RF.K.2.B"
-                  gradeLabel="Grande section"
-                  checkLabel="Vérifier"
-                  tilt={3}
-                  float
                 />
               </div>
             </div>

@@ -207,7 +207,7 @@ export default function PillarActivities({ locale }: PillarActivitiesProps) {
             >
               <MascotPlaceholder
                 size="inline"
-                poseHint="showing-down-left"
+                poseHint="showing-down-right"
                 alt="Elephant mascot gesturing toward the activity cards"
               />
             </div>

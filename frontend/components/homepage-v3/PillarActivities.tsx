@@ -99,7 +99,8 @@ export default function PillarActivities({ locale }: PillarActivitiesProps) {
                 variant="compact"
                 title="Costruttore di sillabe"
                 prompt="Tocca le sillabe in ordine per formare la parola."
-                subjectEmoji="🐱"
+                subjectImg="https://www.lessoncraftstudio.com/image-library-webp/themes/animals/cat@2x.webp"
+                subjectAlt="gatto"
                 tiles={['gat', 'to']}
                 slotsFilled={false}
                 ccCode="RF.K.2.B"
@@ -135,7 +136,8 @@ export default function PillarActivities({ locale }: PillarActivitiesProps) {
                 variant="compact"
                 title="Forma las sílabas"
                 prompt="Toca las sílabas en orden para formar la palabra."
-                subjectEmoji="🐴"
+                subjectImg="https://www.lessoncraftstudio.com/image-library-webp/themes/animals/horse@2x.webp"
+                subjectAlt="caballo"
                 tiles={['ca', 'ba', 'llo']}
                 slotsFilled={true}
                 filledOrder={['ca', 'ba', 'llo']}

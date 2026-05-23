@@ -9,23 +9,34 @@ interface PillarToolsProps {
   locale: string;
 }
 
+/* Tool icons — clean flat illustrations in the teal palette. Each renders
+   at ~80px square inside its tile, sized to match the visual weight of the
+   pillar text and the Direction A polish. Coral accent for filled counters
+   on ten-frame; teal everywhere else. */
 const TOOLS = [
   {
     name: 'Ten-frame',
     desc: 'The five-and-ten grid for counting, subitizing, and early addition.',
     href: '/mini-tools/ten-frame.html',
     icon: (
-      <svg viewBox="0 0 60 30" className="w-12 h-6">
-        {/* Ten-frame: 2 rows × 5 cells, first row 3 filled */}
-        {[0, 1, 2, 3, 4].map((i) => (
-          <g key={`r1-${i}`}>
-            <rect x={2 + i * 11} y={2} width={9} height={11} fill="none" stroke="currentColor" strokeWidth="1" />
-            {i < 3 && <circle cx={6.5 + i * 11} cy={7.5} r={3} fill="currentColor" />}
-          </g>
-        ))}
-        {[0, 1, 2, 3, 4].map((i) => (
-          <rect key={`r2-${i}`} x={2 + i * 11} y={15} width={9} height={11} fill="none" stroke="currentColor" strokeWidth="1" />
-        ))}
+      <svg viewBox="0 0 120 64" className="w-20 h-12">
+        <rect x="2" y="2" width="116" height="60" rx="8" fill="#FBE3D8" />
+        {/* Two rows × 5 cells; first row 3 filled with coral counters */}
+        {[0, 1, 2, 3, 4].map((i) => {
+          const x = 8 + i * 22;
+          return (
+            <g key={`r1-${i}`}>
+              <rect x={x} y={9} width={18} height={20} rx="3" fill="#FBF3E4" stroke="#146B5E" strokeWidth="1.6" />
+              {i < 3 && <circle cx={x + 9} cy={19} r={5.5} fill="#F2784B" />}
+            </g>
+          );
+        })}
+        {[0, 1, 2, 3, 4].map((i) => {
+          const x = 8 + i * 22;
+          return (
+            <rect key={`r2-${i}`} x={x} y={33} width={18} height={20} rx="3" fill="#FBF3E4" stroke="#146B5E" strokeWidth="1.6" />
+          );
+        })}
       </svg>
     ),
   },
@@ -34,14 +45,26 @@ const TOOLS = [
     desc: 'A clean number line for skip-counting, jumps, and place value.',
     href: '/mini-tools/number-line.html',
     icon: (
-      <svg viewBox="0 0 60 30" className="w-12 h-6">
-        <line x1="3" y1="15" x2="57" y2="15" stroke="currentColor" strokeWidth="1.5" />
-        {[0, 1, 2, 3, 4, 5, 6, 7].map((i) => (
-          <g key={i}>
-            <line x1={5 + i * 7.5} y1={10} x2={5 + i * 7.5} y2={20} stroke="currentColor" strokeWidth="1" />
-            <text x={5 + i * 7.5} y={28} textAnchor="middle" fontSize="6" fill="currentColor" fontFamily="monospace">{i}</text>
-          </g>
-        ))}
+      <svg viewBox="0 0 120 64" className="w-20 h-12">
+        <rect x="2" y="2" width="116" height="60" rx="8" fill="#E3EEEB" />
+        {/* Horizontal axis */}
+        <line x1="12" y1="36" x2="108" y2="36" stroke="#146B5E" strokeWidth="2.4" strokeLinecap="round" />
+        {/* Ticks + numerals */}
+        {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((i) => {
+          const x = 12 + i * 9.6;
+          const major = i % 5 === 0;
+          return (
+            <g key={i}>
+              <line x1={x} y1={major ? 26 : 30} x2={x} y2={major ? 46 : 42} stroke="#146B5E" strokeWidth={major ? 2 : 1.4} strokeLinecap="round" />
+              {major && (
+                <text x={x} y={58} textAnchor="middle" fontSize="9" fontWeight="700" fill="#146B5E" fontFamily="ui-monospace, monospace">{i}</text>
+              )}
+            </g>
+          );
+        })}
+        {/* Coral jump arc — visual hint that this is for "jumps" */}
+        <path d="M 21.6 28 Q 50 8 88.4 28" stroke="#F2784B" strokeWidth="2" fill="none" strokeLinecap="round" strokeDasharray="0" />
+        <circle cx="88.4" cy="28" r="2.4" fill="#F2784B" />
       </svg>
     ),
   },
@@ -50,13 +73,38 @@ const TOOLS = [
     desc: 'A virtual ruler — measure on screen, project on the whiteboard.',
     href: '/mini-tools/ruler.html',
     icon: (
-      <svg viewBox="0 0 60 30" className="w-12 h-6">
-        <rect x="3" y="10" width="54" height="10" fill="none" stroke="currentColor" strokeWidth="1.2" rx="1" />
+      <svg viewBox="0 0 120 64" className="w-20 h-12">
+        <rect x="2" y="2" width="116" height="60" rx="8" fill="#FBE3D8" opacity="0.5" />
+        {/* Ruler body — wood-tone parchment */}
+        <rect x="10" y="22" width="100" height="20" rx="3" fill="#FBF3E4" stroke="#146B5E" strokeWidth="1.8" />
+        {/* Tick marks */}
         {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((i) => {
-          const x = 4 + i * 5.4;
-          const tall = i % 2 === 0;
-          return <line key={i} x1={x} y1={10} x2={x} y2={tall ? 16 : 13} stroke="currentColor" strokeWidth="1" />;
+          const x = 12 + i * 9.6;
+          const major = i % 5 === 0;
+          return (
+            <line
+              key={i}
+              x1={x}
+              y1={22}
+              x2={x}
+              y2={major ? 36 : 30}
+              stroke="#146B5E"
+              strokeWidth={major ? 2 : 1.4}
+              strokeLinecap="round"
+            />
+          );
         })}
+        {/* Numerals at major ticks */}
+        {[0, 5, 10].map((n, idx) => {
+          const x = 12 + idx * 5 * 9.6;
+          return (
+            <text key={n} x={x} y={50} textAnchor="middle" fontSize="9" fontWeight="700" fill="#146B5E" fontFamily="ui-monospace, monospace">{n}</text>
+          );
+        })}
+        {/* Coral measurement bracket overhead */}
+        <line x1="12" y1="16" x2="60" y2="16" stroke="#F2784B" strokeWidth="2" strokeLinecap="round" />
+        <line x1="12" y1="13" x2="12" y2="19" stroke="#F2784B" strokeWidth="2" strokeLinecap="round" />
+        <line x1="60" y1="13" x2="60" y2="19" stroke="#F2784B" strokeWidth="2" strokeLinecap="round" />
       </svg>
     ),
   },
@@ -69,7 +117,7 @@ export default function PillarTools({ locale: _locale }: PillarToolsProps) {
         {/* Header */}
         <div className="max-w-2xl mb-10 md:mb-12">
           <div className="flex items-center gap-4 mb-3">
-            <span className="hv3-pillar-num" style={{ color: 'rgba(20, 107, 94, 0.2)' }}>05</span>
+            <span className="hv3-pillar-num" style={{ color: 'rgba(20, 107, 94, 0.32)' }}>05</span>
             <span className="hv3-eyebrow">Tools</span>
           </div>
           <h2 className="font-lcsDisplay font-bold text-lcs-teal leading-[1.1] tracking-tight text-[1.875rem] sm:text-[2.25rem] md:text-[2.5rem]">
@@ -77,8 +125,8 @@ export default function PillarTools({ locale: _locale }: PillarToolsProps) {
             <span className="text-lcs-teal-deep">redrawn for the browser.</span>
           </h2>
           <p className="mt-5 font-lcsBody text-base md:text-lg text-lcs-teal/85 leading-relaxed">
-            A small set of classroom math manipulatives — touch-first,
-            whiteboard-friendly, embeddable anywhere. Free, no signup.
+            Classroom math manipulatives — touch-first, whiteboard-friendly,
+            embeddable anywhere. Free, no signup.
           </p>
         </div>
 
@@ -90,7 +138,7 @@ export default function PillarTools({ locale: _locale }: PillarToolsProps) {
               href={tool.href}
               className="hv3-card p-6 md:p-7 group hover:-translate-y-1 transition-transform duration-300"
             >
-              <div className="text-lcs-teal mb-4">
+              <div className="mb-5 flex items-center justify-start" aria-hidden="true">
                 {tool.icon}
               </div>
               <h3 className="font-lcsDisplay font-bold text-xl text-lcs-teal mb-2">{tool.name}</h3>

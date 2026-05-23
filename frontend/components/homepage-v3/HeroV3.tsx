@@ -91,37 +91,46 @@ export default function HeroV3({ locale }: HeroV3Props) {
             </ul>
           </div>
 
-          {/* RIGHT — visual anchor column */}
-          <div className="relative flex items-center justify-center pt-6 lg:pt-0">
-            {/* Locale-chip strip — multilingual signal floating above the card */}
-            <div className="hv3-anim-fade-up hv3-anim-d3 absolute -top-2 md:-top-4 left-1/2 -translate-x-1/2 z-10 flex items-center gap-1.5 px-4 py-2 bg-lcs-cream rounded-full shadow-[0_8px_20px_-6px_rgba(20,107,94,0.18)]">
+          {/* RIGHT — visual anchor column. The locale-chip strip sits ABOVE
+              the card as a separate element (not absolute-positioned), so
+              it never gets clipped by parent overflow.  Flex column on the
+              right side stacks: chip strip → card. */}
+          <div className="relative flex flex-col items-center justify-center gap-5 md:gap-6 pt-2 lg:pt-0">
+            {/* Locale-chip strip — multilingual signal sits in-flow above
+                the activity card. Crisp pill with shadow. */}
+            <div className="hv3-anim-fade-up hv3-anim-d3 inline-flex items-center gap-1.5 px-4 py-2 bg-lcs-cream rounded-full shadow-[0_8px_20px_-6px_rgba(20,107,94,0.18)] border border-lcs-teal/8 z-10">
               <span className="hv3-locale-chip">EN</span>
               <span className="hv3-locale-chip">ES</span>
               <span className="hv3-locale-chip hv3-locale-chip-active">FR</span>
               <span className="hv3-locale-chip">PT</span>
               <span className="hv3-locale-chip">IT</span>
               <span className="hv3-locale-chip">FI</span>
-              <span className="font-lcsBody text-xs text-lcs-teal/60 pl-1">+5</span>
+              <span className="font-lcsBody text-xs text-lcs-teal/60 pl-1 font-semibold">+5</span>
             </div>
 
-            {/* Floating background card (rotated, behind main) */}
-            <div
-              aria-hidden="true"
-              className="absolute inset-0 flex items-center justify-center pointer-events-none"
-            >
+            {/* Card stack wrapper — provides positioning context for the
+                tilted background card behind the main card. Sits below the
+                locale chip strip in the flex column. */}
+            <div className="relative w-full max-w-md">
+              {/* Floating background card (rotated, behind main) */}
               <div
-                className="hv3-card w-[88%] h-[80%] rounded-3xl opacity-50"
-                style={{ transform: 'rotate(-4deg) translate(-8%, 4%)' }}
-              />
-            </div>
+                aria-hidden="true"
+                className="absolute inset-0 flex items-center justify-center pointer-events-none"
+              >
+                <div
+                  className="hv3-card w-[92%] h-[88%] rounded-3xl opacity-50"
+                  style={{ transform: 'rotate(-4deg) translate(-6%, 4%)' }}
+                />
+              </div>
 
-            {/* Main activity card */}
-            <div className="hv3-anim-fade-up hv3-anim-d4 relative z-10 w-full max-w-md">
+              {/* Main activity card */}
+              <div className="hv3-anim-fade-up hv3-anim-d4 relative z-10 w-full">
               <ActivityCardPreview
                 variant="compact"
                 title="Constructeur de syllabes"
                 prompt="Touche les syllabes dans l'ordre pour former le mot."
-                subjectEmoji="🐢"
+                subjectImg="https://www.lessoncraftstudio.com/image-library-webp/themes/animals/turtle@2x.webp"
+                subjectAlt="tortue"
                 tiles={['tor', 'tue']}
                 slotsFilled={true}
                 filledOrder={['tor', 'tue']}
@@ -131,6 +140,7 @@ export default function HeroV3({ locale }: HeroV3Props) {
                 tilt={2}
                 float
               />
+              </div>
             </div>
           </div>
         </div>

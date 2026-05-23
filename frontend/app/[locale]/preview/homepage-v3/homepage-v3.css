@@ -99,14 +99,18 @@
   border-radius: 1px;
 }
 
-/* Pillar number marker — large editorial numeral. */
+/* Pillar number marker — large editorial numeral.
+   Confidently subtle: a pale teal that reads as deliberate-design, not a
+   rendering glitch. Polish pass 2026-05-23 bumped from 0.12 → 0.28 +
+   added a soft outline so the number reads as a typographic mark. */
 .hv3-pillar-num {
   font-family: var(--font-baloo-2), system-ui, sans-serif;
-  font-weight: 700;
-  font-size: clamp(3rem, 5vw, 5rem);
-  color: rgba(20, 107, 94, 0.12);
-  line-height: 1;
+  font-weight: 800;
+  font-size: clamp(3.25rem, 5.5vw, 5.5rem);
+  color: rgba(20, 107, 94, 0.28);
+  line-height: 0.9;
   letter-spacing: -0.02em;
+  -webkit-text-stroke: 0.5px rgba(20, 107, 94, 0.16);
 }
 
 /* Code chip — looks like the CC standards chip on the activity page. */

@@ -134,10 +134,14 @@ export default async function PillarInteractive({ locale }: PillarInteractivePro
               </div>
             )}
 
-            {/* Variety thumb row */}
+            {/* Variety thumb row — 2 larger thumbs (was 3 small ones) so
+                each thumbnail has more pixels to render the worksheet
+                content sharply. Each thumb is ~50% of the right column
+                width, giving the underlying 480x620 deck art enough
+                space to read without being scaled down to mush. */}
             {thumbs.length > 0 && (
-              <div className="mt-6 grid grid-cols-3 gap-3 md:gap-4">
-                {thumbs.slice(0, 3).map((deck) => {
+              <div className="mt-6 grid grid-cols-2 gap-4 md:gap-5">
+                {thumbs.slice(0, 2).map((deck) => {
                   const typeSlug = getAxisSlug('exercise-type', deck.exerciseType, locale) ?? deck.exerciseType;
                   return (
                     <BreadthThumbV3

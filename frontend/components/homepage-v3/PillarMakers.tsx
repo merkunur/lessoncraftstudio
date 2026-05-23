@@ -18,7 +18,7 @@ export default function PillarMakers({ locale }: PillarMakersProps) {
           {/* LEFT — copy */}
           <div>
             <div className="flex items-center gap-4 mb-4">
-              <span className="hv3-pillar-num" style={{ color: 'rgba(20, 107, 94, 0.2)' }}>04</span>
+              <span className="hv3-pillar-num" style={{ color: 'rgba(20, 107, 94, 0.32)' }}>04</span>
               <span className="hv3-eyebrow">Worksheet makers</span>
             </div>
             <h2 className="font-lcsDisplay font-bold text-lcs-teal leading-[1.1] tracking-tight text-[1.875rem] sm:text-[2.25rem] md:text-[2.75rem]">

@@ -165,7 +165,7 @@ export default function EmbedShareV3({ locale: _locale }: Props) {
               visual weight. */}
           <div
             aria-hidden="true"
-            className="hv3-blob-coral absolute -top-[25%] -right-[10%] w-[420px] h-[420px] rounded-full pointer-events-none opacity-45"
+            className="hv3-blob-coral !absolute -top-[25%] -right-[10%] w-[420px] h-[420px] rounded-full pointer-events-none opacity-45"
           />
 
           {/* Single 2-col grid that spans the full card — no separate

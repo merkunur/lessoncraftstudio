@@ -6,6 +6,7 @@
    activity card floats below the elephant. */
 
 import Link from 'next/link';
+import { getTranslations } from 'next-intl/server';
 import MascotPlaceholder from './MascotPlaceholder';
 import { Sparkle, MarginDoodleStar } from './DoodleAccents';
 
@@ -13,7 +14,8 @@ interface HeroV3Props {
   locale: string;
 }
 
-export default function HeroV3({ locale }: HeroV3Props) {
+export default async function HeroV3({ locale }: HeroV3Props) {
+  const t = await getTranslations({ locale, namespace: 'homepageV3.hero' });
   return (
     <section className="hv3-section-teal hv3-wave-cream-bottom relative overflow-hidden">
       {/* Soft watercolor pools — saturated against the deep teal. */}
@@ -58,23 +60,21 @@ export default function HeroV3({ locale }: HeroV3Props) {
           <div className="max-w-xl lg:max-w-2xl relative z-10">
             {/* Eyebrow STAMP — coral pill with cream type, slight rotation. */}
             <p className="hv3-anim-fade-up hv3-anim-d1 hv3-eyebrow-stamp">
-              K-3 Common Core · Eleven languages
+              {t('eyebrow')}
             </p>
 
             {/* Headline at editorial billboard scale. Cream on teal. */}
             <h1 className="hv3-anim-fade-up hv3-anim-d2 mt-6 md:mt-8 font-lcsDisplay font-bold text-lcs-cream leading-[1.08] tracking-tight text-[3rem] sm:text-[4rem] md:text-[5rem] lg:text-[5.75rem] xl:text-[6.5rem]">
               <span className="block">
-                Plays like a <span className="hv3-squiggle-word-on-dark">game</span>.
+                {t('h1Line1Before')}<span className="hv3-squiggle-word-on-dark">{t('h1Line1Squiggle')}</span>{t('h1Line1After')}
               </span>
               <span className="block text-lcs-coral mt-3 md:mt-4">
-                Built like the curriculum.
+                {t('h1Line2')}
               </span>
             </h1>
 
             <p className="hv3-anim-fade-up hv3-anim-d3 mt-7 md:mt-9 font-lcsBody text-lg md:text-xl text-lcs-cream/85 leading-relaxed max-w-xl">
-              Common Core–aligned K-3 phonics and math, in eleven languages —
-              designed so a child can pick one up and learn, and built to the
-              standard so a teacher trusts every screen.
+              {t('body')}
             </p>
 
             <div className="hv3-anim-fade-up hv3-anim-d4 mt-9 md:mt-11 flex flex-col sm:flex-row items-start sm:items-center gap-4">
@@ -82,7 +82,7 @@ export default function HeroV3({ locale }: HeroV3Props) {
                 href={`/${locale}/activities`}
                 className="hv3-cta-coral inline-flex items-center justify-center font-lcsDisplay font-semibold text-lg md:text-xl px-7 md:px-8 py-3.5 md:py-4 whitespace-nowrap"
               >
-                Start an activity
+                {t('ctaPrimary')}
                 <svg className="ml-2 w-5 h-5" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                   <path d="M5 10h10M11 5l5 5-5 5" />
                 </svg>
@@ -91,26 +91,26 @@ export default function HeroV3({ locale }: HeroV3Props) {
                 href={`/${locale}/activities`}
                 className="hv3-cta-cream-outline inline-flex items-center justify-center font-lcsDisplay font-semibold text-lg md:text-xl px-7 md:px-8 py-3 md:py-3.5 whitespace-nowrap"
               >
-                Browse the catalog
+                {t('ctaSecondary')}
               </Link>
             </div>
 
             <ul className="hv3-anim-fade-up hv3-anim-d5 mt-10 md:mt-12 flex flex-wrap gap-x-5 gap-y-2 font-lcsBody text-sm md:text-base text-lcs-cream/75">
               <li className="flex items-center gap-2">
                 <Sparkle className="text-lcs-coral" size={16} rotate={12} />
-                Eleven languages
+                {t('trust1')}
               </li>
               <li className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-lcs-coral inline-block" aria-hidden="true" />
-                No signup
+                {t('trust2')}
               </li>
               <li className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-lcs-coral inline-block" aria-hidden="true" />
-                Free to play
+                {t('trust3')}
               </li>
               <li className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-lcs-coral inline-block" aria-hidden="true" />
-                Kid-runnable
+                {t('trust4')}
               </li>
             </ul>
           </div>
@@ -152,7 +152,7 @@ export default function HeroV3({ locale }: HeroV3Props) {
                   loop
                   playsInline
                   preload="metadata"
-                  aria-label="Math puzzle worksheet being solved interactively in the browser"
+                  aria-label={t('videoAria')}
                   className="w-full h-auto block rounded-2xl"
                 />
               </div>
@@ -166,7 +166,7 @@ export default function HeroV3({ locale }: HeroV3Props) {
                   size="inline"
                   poseHint="greeting"
                   flip
-                  alt="Friendly elephant mascot waving hello"
+                  alt={t('mascotAlt')}
                 />
               </div>
             </div>

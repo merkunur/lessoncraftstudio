@@ -1224,5 +1224,180 @@
     "errorClipboard": "Zugriff auf die Zwischenablage nicht möglich. Bitte den Link markieren und manuell kopieren.",
     "bulkResultsTitle": "{count, plural, =1 {1 Teilen-Link} other {# Teilen-Links}}",
     "bulkResultsSkipped": "{count, plural, =1 {1 Deck wurde übersprungen (nicht veröffentlicht)} other {# Decks wurden übersprungen (nicht veröffentlicht)}}"
+  },
+  "homepageV3": {
+    "hero": {
+      "eyebrow": "Kita bis 3. Klasse · Lehrplanbezogen · Elf Sprachen",
+      "h1Line1Before": "Spielt sich wie ein ",
+      "h1Line1Squiggle": "Spiel",
+      "h1Line1After": ".",
+      "h1Line2": "Gebaut wie der Lehrplan.",
+      "body": "Lehrplanbezogene Lautierung und Mathematik vom Kindergarten bis zur 3. Klasse, in elf Sprachen — so gestaltet, dass ein Kind allein loslegen kann, und so präzise gebaut, dass Lehrkräfte jedem Bildschirm vertrauen.",
+      "ctaPrimary": "Übung starten",
+      "ctaSecondary": "Katalog durchstöbern",
+      "trust1": "Elf Sprachen",
+      "trust2": "Ohne Anmeldung",
+      "trust3": "Kostenlos spielen",
+      "trust4": "Kindgerecht bedienbar",
+      "videoAria": "Interaktives Mathe-Rätsel-Arbeitsblatt wird im Browser gelöst",
+      "mascotAlt": "Freundliches Elefanten-Maskottchen winkt zur Begrüßung"
+    },
+    "pillar01": {
+      "eyebrow": "Übungen",
+      "h2Line1": "Übungen, die dein Kind gern zu Ende macht.",
+      "h2Line2": "Standards, denen Lehrkräfte vertrauen.",
+      "support1Label": "An Bildungsstandards orientiert",
+      "support1LabelSquiggle": "Bildungsstandards",
+      "support1LabelBefore": "An ",
+      "support1Body": "Code für Code. K.CC.B.4, RF.K.2.B, K.G.A.2 — auf jeder Seite als internationale Bildungsstandard-Codes sichtbar, damit jede Lehrkraft auf einen Blick prüfen kann.",
+      "support2Label": "Elf Sprachen",
+      "support2Body": "Dieselbe Übung, dasselbe Design, muttersprachliche Silbentrennung. Ein Kind liest in seiner Sprache; die Lerninhalte bleiben gleich.",
+      "support3Label": "Lernen ohne Leistungsdruck",
+      "support3Body": "Keine Stoppuhr. Keine Punkte. Keine Streaks. Im Tempo kindlicher Neugier, nicht einer Bestenliste.",
+      "support4Label": "Zum Selber-Loslegen gemacht",
+      "support4Body": "Ein Kind kann eine Übung allein durchführen — Kachel antippen, Wort bauen, Antwort hören. Echte Stimmen kommen noch; alles andere ist live.",
+      "cta": "Übung starten",
+      "mascotAlt": "Elefanten-Maskottchen zeigt auf die Übungskarten",
+      "card1Title": "Silbenbauer",
+      "card1Prompt": "Tippe die Silben der Reihe nach an, um das Wort zu bilden.",
+      "card1GradeLabel": "Kindergarten",
+      "card1CheckLabel": "Prüfen",
+      "card1SubjectAlt": "Katze",
+      "card2Title": "Bis 10 zählen",
+      "card2Prompt": "Tippe das Feld an, um 5 zu machen.",
+      "card2GradeLabel": "Kindergarten",
+      "card2CheckLabel": "Prüfen",
+      "card2SubjectAlt": "fünf Katzen",
+      "card3Title": "Silben formen",
+      "card3Prompt": "Tippe die Silben der Reihe nach an, um das Wort zu bilden.",
+      "card3GradeLabel": "Kindergarten",
+      "card3CheckLabel": "Prüfen",
+      "card3SubjectAlt": "Elefant"
+    },
+    "pillar02": {
+      "eyebrow": "Interaktive Arbeitsblätter",
+      "h2Line1": "Jede Art Arbeitsblatt für Kita bis 3. Klasse,",
+      "h2Line2": "in jeder dieser elf Sprachen.",
+      "body": "Kreuzworträtsel, Sudoku, Sortieraufgaben, Suchen und Zählen, Plusaufgaben, Zuordnungsaufgaben — und eine umfangreiche Bibliothek weiterer Übungsformen. Derselbe Inhalt in jeder der elf Sprachen, grammatisch korrekt bis hin zu Pluralformen mit Genus.",
+      "trust1Strong": "Läuft in jedem Browser.",
+      "trust1Body": "Ohne Login. Teilbar als Link, einbettbar als iframe.",
+      "trust2Strong": "Themen jenseits der Klischees.",
+      "trust2Body": "Dinosaurier, Meereswelt, Feiertage, jahreszeitliche Sets — der Katalog geht in die Tiefe bei dem, was Kinder wirklich mögen.",
+      "trust3Strong": "Mehrsprachig von Haus aus.",
+      "trust3BodyBefore": "Dasselbe Arbeitsblatt, ",
+      "trust3BodyMiddle": "elf Sprachen",
+      "trust3BodyAfter": ", Grammatik, die hält.",
+      "cta": "Katalog durchstöbern",
+      "emptyState": "Live-Beispiel wird aus dem Katalog geladen."
+    },
+    "pillar03": {
+      "eyebrow": "Druckvorlagen",
+      "h2Line1": "Arbeitsblätter zum Ausdrucken.",
+      "h2Line2": "Lösungen zum Korrigieren.",
+      "list1": "Zu jedem interaktiven Arbeitsblatt gibt es eine druckbare PDF — dieselben Bilder, dieselben Aufgaben, papierfreundlich.",
+      "list2": "Lösungen für jedes Set enthalten.",
+      "list3": "Dazu reine PDF-Formate für die Feinmotorik: Ausmalen, Schreiben, Zeichnen-und-Ausmalen, Linienführung.",
+      "list4": "Gestaltet für den Klassenraumdrucker, den Heimdrucker und den Schulkopierer gleichermaßen.",
+      "cta": "Druckvorlagen ansehen",
+      "paperStack": {
+        "pdfA4": "PDF · A4",
+        "backTitle": "Buchstabensalat",
+        "middleTitle": "Bilder zuordnen",
+        "middleWord1": "Hase",
+        "middleWord2": "Katze",
+        "middleWord3": "Hund",
+        "frontTitle": "Plusaufgaben üben",
+        "answerKeyBadge": "+ Lösungen"
+      }
+    },
+    "transition": {
+      "line1": "Und wenn du",
+      "line2": "selbst unterrichtest",
+      "mascotAlt": "Freundliches Elefanten-Maskottchen verbindet Eltern- und Lehrkräfte-Seite"
+    },
+    "pillar04": {
+      "eyebrow": "Arbeitsblatt-Generatoren",
+      "h2Line1": "Ein Arbeitsblatt in einer Minute erstellen.",
+      "h2Line2": "In jeder von elf Sprachen.",
+      "body": "Eine Auswahl an Generator-Werkzeugen — Mathe, Buchstaben, Rätsel, Muster — jeweils mit Themen- und Sprachsteuerung. Eigene Wortliste, eigenes Bildset, eigene Klassenraum-Akzente — bring deins mit.",
+      "list1": "Einmal einstellen. Zwei Ausgaben: interaktives HTML und druckbare PDF.",
+      "list2": "Für die Lehrkraft, die genau das Arbeitsblatt will, das ihr vorschwebt.",
+      "list3": "Mehrsprachige Steuerung; das Arbeitsblatt erscheint in der von dir gewählten Sprache.",
+      "cta": "Generatoren öffnen",
+      "mockPanel": {
+        "title": "Plusaufgaben-Generator",
+        "codeChip": "Mathe · Kita–2. Klasse",
+        "themeLabel": "THEMA",
+        "themeValue": "🦕 Dinosaurier",
+        "langLabel": "SPRACHE",
+        "langValue": "🇹🇷 Türkçe",
+        "rangeLabel": "ZAHLENRAUM",
+        "itemsLabel": "AUFGABEN",
+        "generateButton": "Erstellen",
+        "floatingBadge": "Mathe · Buchstaben · Rätsel · Muster"
+      }
+    },
+    "pillar05": {
+      "eyebrow": "Werkzeuge",
+      "h2Line1": "Die Klassiker,",
+      "h2Line2": "neu gezeichnet für den Browser.",
+      "body": "Klassische Mathe-Arbeitsmittel — touch-first, whiteboard-tauglich, überall einbettbar. Kostenlos, ohne Anmeldung.",
+      "tool1Name": "Zehnerfeld",
+      "tool1Desc": "Das Fünfer- und Zehnerraster für Zählen, schnelles Erfassen kleiner Mengen und erste Plusaufgaben.",
+      "tool2Name": "Zahlenstrahl",
+      "tool2Desc": "Ein klarer Zahlenstrahl für Schrittweise-Zählen, Rechensprünge und Stellenwert.",
+      "tool3Name": "Lineal",
+      "tool3Desc": "Ein virtuelles Lineal — am Bildschirm messen, am Whiteboard projizieren.",
+      "perTileCta": "Öffnen",
+      "cta": "Werkzeuge öffnen"
+    },
+    "embedShare": {
+      "eyebrow": "Teilen",
+      "h2Line1": "Jedes Arbeitsblatt einbetten",
+      "h2Line2": "auf deinem Blog oder deiner Klassen-Website.",
+      "body": "Zu jedem interaktiven Arbeitsblatt gehört ein einzeiliger iframe-Schnipsel. Füg ihn überall ein. Es läuft direkt vor Ort. Keine Konten. Keine Bezahlschranken.",
+      "pasteCaptionPrefix": "Diesen Schnipsel einfügen",
+      "trust1": "Läuft vor Ort — Schülerinnen und Schüler verlassen deine Seite nicht.",
+      "trust2": "Funktioniert in WordPress, Wix, Google Sites, Squarespace — überall.",
+      "arrowCaption": "so geht's",
+      "mockup": {
+        "worksheetTitle": "Verbinden",
+        "worksheetHeader": "Zootiere",
+        "worksheetInstruction": "Verbinde die passenden Paare mit einer Linie.",
+        "animalLion": "Löwe",
+        "animalTiger": "Tiger",
+        "animalGiraffe": "Giraffe",
+        "animalElephant": "Elefant",
+        "animalZebra": "Zebra",
+        "checkAnswers": "Antworten prüfen",
+        "popupTitle": "Dieses Arbeitsblatt auf Ihrer Seite einbetten",
+        "widthLabel": "Breite",
+        "heightLabel": "Höhe",
+        "snippetCaption": "Füg das in den HTML-Code deiner Website ein",
+        "copyCodeButton": "Code kopieren",
+        "closeButton": "Schließen"
+      }
+    },
+    "signup": {
+      "eyebrow": "Kostenlos",
+      "h2Line1": "Keine Anmeldung nötig.",
+      "h2Line2": "Erstell eines, wenn du etwas speichern willst.",
+      "body": "Jede Übung, jedes Arbeitsblatt und jedes Werkzeug auf dieser Seite ist ohne Konto kostenlos nutzbar. Ein Konto dient lediglich dazu, Favoriten zu speichern, Sammlungen anzulegen und eigene Decks einzubetten.",
+      "ctaPrimary": "Übung starten",
+      "ctaSecondary": "Konto erstellen",
+      "mascotAlt": "Freundliches Elefanten-Maskottchen winkt dich herein"
+    },
+    "featuredTile": {
+      "badge": "Beispiel-Übung",
+      "cta": "Antippen zum Spielen →",
+      "closeAria": "Schließen"
+    },
+    "mascot": {
+      "defaultAlt": "Freundliches Elefanten-Maskottchen"
+    },
+    "metadata": {
+      "title": "Startseiten-Vorschau v3 · LessonCraftStudio",
+      "description": "Interner Prototyp der neu gestalteten Startseite. Nicht indexiert."
+    }
   }
 }

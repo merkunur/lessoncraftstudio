@@ -40,7 +40,7 @@ export default async function HomepageV3Page({ params }: PageProps) {
       <PillarActivities locale={locale} />
       <PillarInteractive locale={locale} />
       <PillarPrintables locale={locale} />
-      <TierTransition />
+      <TierTransition locale={locale} />
       <PillarMakers locale={locale} />
       <PillarTools locale={locale} />
       <EmbedShareV3 locale={locale} />

@@ -5,6 +5,7 @@
    Lock body scroll while modal open; ESC closes. */
 
 import { useState, useEffect } from 'react';
+import { useTranslations } from 'next-intl';
 
 interface Props {
   slug: string;
@@ -21,6 +22,7 @@ export default function FeaturedDeckTileV3({
   thumbnailUrl,
   deckUrl,
 }: Props) {
+  const t = useTranslations('homepageV3.featuredTile');
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
@@ -43,7 +45,7 @@ export default function FeaturedDeckTileV3({
         type="button"
         onClick={() => setOpen(true)}
         className="hv3-card-deep group relative block w-full text-left overflow-hidden"
-        aria-label={`Play sample: ${title}`}
+        aria-label={`${t('badge')}: ${title}`}
       >
         <div className="relative aspect-[480/620] bg-lcs-cream overflow-hidden rounded-t-[28px]">
           <img
@@ -55,7 +57,7 @@ export default function FeaturedDeckTileV3({
           {/* Featured badge */}
           <span className="absolute top-4 left-4 inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-lcs-teal text-lcs-cream font-lcsBody font-semibold text-xs uppercase tracking-wider">
             <span className="w-1.5 h-1.5 rounded-full bg-lcs-coral inline-block" aria-hidden="true" />
-            Sample play
+            {t('badge')}
           </span>
           {/* Locale chip */}
           <span className="absolute top-4 right-4 hv3-locale-chip hv3-locale-chip-active">{languageLabel}</span>
@@ -71,7 +73,7 @@ export default function FeaturedDeckTileV3({
         <div className="px-5 py-4 flex items-center justify-between gap-3">
           <span className="font-lcsDisplay font-semibold text-base text-lcs-teal truncate">{title}</span>
           <span className="font-lcsBody text-xs font-semibold text-lcs-teal/60 flex-shrink-0">
-            Tap to play →
+            {t('cta')}
           </span>
         </div>
       </button>
@@ -94,7 +96,7 @@ export default function FeaturedDeckTileV3({
                 type="button"
                 onClick={() => setOpen(false)}
                 className="p-2 -mr-2 text-lcs-teal/70 hover:text-lcs-teal rounded-full hover:bg-lcs-teal/10 transition-colors"
-                aria-label="Close"
+                aria-label={t('closeAria')}
               >
                 <svg className="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                   <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />

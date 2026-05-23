@@ -4,6 +4,7 @@
    Compact 3-column row on desktop; stacked on mobile. */
 
 import Link from 'next/link';
+import { getTranslations } from 'next-intl/server';
 import { Sparkle } from './DoodleAccents';
 
 interface PillarToolsProps {
@@ -13,11 +14,10 @@ interface PillarToolsProps {
 /* Tool icons — clean flat illustrations in the teal palette. Each renders
    at ~80px square inside its tile, sized to match the visual weight of the
    pillar text and the Direction A polish. Coral accent for filled counters
-   on ten-frame; teal everywhere else. */
-const TOOLS = [
+   on ten-frame; teal everywhere else. Name/desc text comes from i18n
+   (see component body); only the icons + hrefs are module-level. */
+const TOOL_ICONS = [
   {
-    name: 'Ten-frame',
-    desc: 'The five-and-ten grid for counting, subitizing, and early addition.',
     href: '/mini-tools/ten-frame.html',
     icon: (
       <svg viewBox="0 0 120 64" className="w-20 h-12">
@@ -42,8 +42,6 @@ const TOOLS = [
     ),
   },
   {
-    name: 'Number line',
-    desc: 'A clean number line for skip-counting, jumps, and place value.',
     href: '/mini-tools/number-line.html',
     icon: (
       <svg viewBox="0 0 120 64" className="w-20 h-12">
@@ -70,8 +68,6 @@ const TOOLS = [
     ),
   },
   {
-    name: 'Ruler',
-    desc: 'A virtual ruler — measure on screen, project on the whiteboard.',
     href: '/mini-tools/ruler.html',
     icon: (
       <svg viewBox="0 0 120 64" className="w-20 h-12">
@@ -111,32 +107,34 @@ const TOOLS = [
   },
 ];
 
-export default function PillarTools({ locale }: PillarToolsProps) {
+export default async function PillarTools({ locale }: PillarToolsProps) {
+  const t = await getTranslations({ locale, namespace: 'homepageV3.pillar05' });
+
+  const tools = [
+    { name: t('tool1Name'), desc: t('tool1Desc'), href: TOOL_ICONS[0].href, icon: TOOL_ICONS[0].icon },
+    { name: t('tool2Name'), desc: t('tool2Desc'), href: TOOL_ICONS[1].href, icon: TOOL_ICONS[1].icon },
+    { name: t('tool3Name'), desc: t('tool3Desc'), href: TOOL_ICONS[2].href, icon: TOOL_ICONS[2].icon },
+  ];
+
   return (
     <section id="tools" className="hv3-section-teal relative overflow-hidden pt-20 md:pt-28 pb-24 md:pb-32">
       <div className="container mx-auto px-4 max-w-7xl">
-        {/* Header */}
         <div className="max-w-2xl mb-10 md:mb-12">
           <div className="flex items-center gap-4 mb-3">
             <span className="hv3-pillar-num-cream">05</span>
-            <span className="hv3-eyebrow text-lcs-cream/85">Tools</span>
+            <span className="hv3-eyebrow text-lcs-cream/85">{t('eyebrow')}</span>
           </div>
           <h2 className="font-lcsDisplay font-bold text-lcs-cream leading-[1.05] tracking-tight text-[1.875rem] sm:text-[2.5rem] md:text-[3rem]">
-            The classics,<br />
-            <span className="text-lcs-coral">redrawn for the browser.</span>
+            {t('h2Line1')}<br />
+            <span className="text-lcs-coral">{t('h2Line2')}</span>
           </h2>
           <p className="mt-5 font-lcsBody text-base md:text-lg text-lcs-cream/80 leading-relaxed">
-            Classroom math manipulatives — touch-first, whiteboard-friendly,
-            embeddable anywhere. Free, no signup.
+            {t('body')}
           </p>
         </div>
 
-        {/* 3-column row of tools */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6">
-          {TOOLS.map((tool, i) => {
-            // Alternate tonal variants across the three tool cards for
-            // gentle natural paper-stack variation: default cream, warm
-            // tint, sage tint.
+          {tools.map((tool, i) => {
             const tint = i === 0 ? '' : i === 1 ? 'hv3-card-tinted-warm' : 'hv3-card-tinted-sage';
             return (
             <a
@@ -144,22 +142,18 @@ export default function PillarTools({ locale }: PillarToolsProps) {
               href={tool.href}
               className={`hv3-card hv3-card-on-color ${tint} p-6 md:p-7 group hover:-translate-y-1 transition-transform duration-300`}
             >
-              {/* Icon stage — soft cream + coral panel behind the icon
-                  gives it physical stage presence on the sage ground. */}
               <div className="hv3-icon-stage mb-5" aria-hidden="true">
                 {tool.icon}
               </div>
               <h3 className="font-lcsDisplay font-bold text-xl text-lcs-teal mb-2 relative inline-flex items-center gap-2">
                 {tool.name}
-                {/* Sparkle accent appears on hover — adds a tiny moment
-                    of delight without permanent visual noise. */}
                 <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <Sparkle className="text-lcs-coral" size={14} rotate={18} />
                 </span>
               </h3>
               <p className="font-lcsBody text-sm text-lcs-teal/75 leading-relaxed">{tool.desc}</p>
               <span className="mt-4 inline-flex items-center gap-1.5 font-lcsBody text-xs font-bold text-lcs-coral-deep uppercase tracking-wider group-hover:gap-2.5 transition-all">
-                Open
+                {t('perTileCta')}
                 <svg className="w-3 h-3" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                   <path d="M5 10h10M11 5l5 5-5 5" />
                 </svg>
@@ -169,14 +163,12 @@ export default function PillarTools({ locale }: PillarToolsProps) {
           })}
         </div>
 
-        {/* Pillar CTA — consistent with how Pillars 02/03/04 each end
-            with one CTA. Cream-outlined on the deep teal ground. */}
         <div className="mt-10 md:mt-12 flex justify-start">
           <Link
             href={`/${locale}/tools`}
             className="hv3-cta-cream-outline inline-flex items-center justify-center font-lcsDisplay font-semibold text-base md:text-lg px-6 py-3"
           >
-            Open the tools
+            {t('cta')}
             <svg className="ml-2 w-4 h-4" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <path d="M5 10h10M11 5l5 5-5 5" />
             </svg>

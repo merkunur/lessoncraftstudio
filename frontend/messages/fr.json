@@ -1428,5 +1428,180 @@
         "weeksAgo": "{count, plural, =1 {1 week ago} other {# weeks ago}}"
       }
     }
+  },
+  "homepageV3": {
+    "hero": {
+      "eyebrow": "Maternelle au CE2 · Conforme aux programmes · Onze langues",
+      "h1Line1Before": "Ça se joue comme un ",
+      "h1Line1Squiggle": "jeu",
+      "h1Line1After": ".",
+      "h1Line2": "Conçu comme le programme.",
+      "body": "Phonologie et mathématiques de la Maternelle au CE2, conformes aux programmes officiels, en onze langues — pensées pour qu'un enfant s'en empare seul, et construites au standard pour qu'un enseignant valide chaque écran d'un coup d'œil.",
+      "ctaPrimary": "Lancer une activité",
+      "ctaSecondary": "Parcourir le catalogue",
+      "trust1": "Onze langues",
+      "trust2": "Sans inscription",
+      "trust3": "Gratuit à l'usage",
+      "trust4": "Utilisable par l'enfant",
+      "videoAria": "Casse-tête mathématique résolu de façon interactive dans le navigateur",
+      "mascotAlt": "Mascotte éléphant sympathique qui fait coucou"
+    },
+    "pillar01": {
+      "eyebrow": "Activités",
+      "h2Line1": "Des leçons que l'enfant veut terminer.",
+      "h2Line2": "Des standards auxquels l'enseignant se fie.",
+      "support1Label": "Conforme aux programmes",
+      "support1LabelSquiggle": "programmes",
+      "support1LabelBefore": "Conforme aux ",
+      "support1Body": "Code par code. K.CC.B.4, RF.K.2.B, K.G.A.2 — visibles sur chaque page comme codes-standard internationaux pour qu'un enseignant vérifie d'un coup d'œil.",
+      "support2Label": "Onze langues",
+      "support2Body": "Même activité, même design, syllabification respectant la langue. L'enfant lit dans sa langue ; les standards restent les mêmes.",
+      "support3Label": "Sans pression",
+      "support3Body": "Pas de chronomètre. Pas de score. Pas de série. Au rythme de la curiosité d'un enfant, pas d'un classement.",
+      "support4Label": "Pensé pour être pris en main",
+      "support4Body": "L'enfant peut s'en servir seul — choisir une tuile, construire un mot, entendre la réponse. Voix humaine en cours ; le reste est en ligne.",
+      "cta": "Lancer une activité",
+      "mascotAlt": "Mascotte éléphant qui désigne les cartes d'activité",
+      "card1Title": "Construire les syllabes",
+      "card1Prompt": "Touche les syllabes dans l'ordre pour former le mot.",
+      "card1GradeLabel": "Grande section",
+      "card1CheckLabel": "Vérifier",
+      "card1SubjectAlt": "chaton",
+      "card2Title": "Compter jusqu'à 10",
+      "card2Prompt": "Touche le cadre pour faire 5.",
+      "card2GradeLabel": "Grande section",
+      "card2CheckLabel": "Vérifier",
+      "card2SubjectAlt": "cinq chats",
+      "card3Title": "Forme les syllabes",
+      "card3Prompt": "Touche les syllabes dans l'ordre pour former le mot.",
+      "card3GradeLabel": "Grande section",
+      "card3CheckLabel": "Vérifier",
+      "card3SubjectAlt": "éléphant"
+    },
+    "pillar02": {
+      "eyebrow": "Fiches interactives",
+      "h2Line1": "Tous les types de fiches, de la Maternelle au CE2,",
+      "h2Line2": "dans toutes les langues disponibles.",
+      "body": "Mots mêlés, sudoku, tris, cherche-et-compte, additions, associations — et toute une bibliothèque d'autres types d'exercices. Le même contenu dans n'importe laquelle des onze langues, grammaticalement correct jusqu'aux pluriels genrés.",
+      "trust1Strong": "Joue dans tout navigateur.",
+      "trust1Body": "Sans connexion. Partageable par lien, intégrable en iframe.",
+      "trust2Strong": "Des thèmes au-delà du cliché.",
+      "trust2Body": "Dinosaures, vie marine, fêtes, ensembles de saison — le catalogue va loin dans ce que les enfants aiment vraiment.",
+      "trust3Strong": "Multilingue par défaut.",
+      "trust3BodyBefore": "Même fiche, ",
+      "trust3BodyMiddle": "onze langues",
+      "trust3BodyAfter": ", grammaire qui tient la route.",
+      "cta": "Parcourir le catalogue",
+      "emptyState": "L'aperçu interactif se charge depuis le catalogue."
+    },
+    "pillar03": {
+      "eyebrow": "À imprimer",
+      "h2Line1": "Des fiches à imprimer.",
+      "h2Line2": "Des corrigés pour évaluer.",
+      "list1": "Chaque fiche interactive est livrée avec un PDF imprimable — mêmes images, mêmes exercices, prêt pour le papier.",
+      "list2": "Corrigés inclus pour chaque série.",
+      "list3": "Plus des formats PDF dédiés à la motricité fine : coloriage, écriture, dessine-et-colorie, tracés de lignes.",
+      "list4": "Conçues pour l'imprimante de la classe, celle de la maison et le photocopieur de l'école.",
+      "cta": "Voir les fiches à imprimer",
+      "paperStack": {
+        "pdfA4": "PDF · A4",
+        "backTitle": "Mots mêlés",
+        "middleTitle": "Associer les images",
+        "middleWord1": "Lapin",
+        "middleWord2": "Chat",
+        "middleWord3": "Chien",
+        "frontTitle": "Additions",
+        "answerKeyBadge": "+ Corrigé"
+      }
+    },
+    "transition": {
+      "line1": "Et si vous êtes",
+      "line2": "celui qui enseigne",
+      "mascotAlt": "Mascotte éléphant qui fait le pont entre le côté parent et le côté enseignant"
+    },
+    "pillar04": {
+      "eyebrow": "Générateurs de fiches",
+      "h2Line1": "Créez une fiche en une minute.",
+      "h2Line2": "Dans n'importe laquelle des onze langues.",
+      "body": "Une bibliothèque d'outils — maths, lettres, casse-têtes, motifs — chacun avec ses réglages de thème et de langue. Apportez votre liste de mots, votre jeu d'images, vos touches personnelles.",
+      "list1": "Une configuration. Deux sorties : HTML interactif et PDF imprimable.",
+      "list2": "Pensé pour l'enseignant qui veut exactement la fiche qu'il avait en tête.",
+      "list3": "Réglages multilingues ; la fiche est livrée dans la langue de votre choix.",
+      "cta": "Ouvrir les générateurs",
+      "mockPanel": {
+        "title": "Générateur d'addition",
+        "codeChip": "Maths · Maternelle–CE1",
+        "themeLabel": "THÈME",
+        "themeValue": "🦕 Dinosaures",
+        "langLabel": "LANGUE",
+        "langValue": "🇩🇪 Deutsch",
+        "rangeLabel": "PLAGE",
+        "itemsLabel": "ÉLÉMENTS",
+        "generateButton": "Générer",
+        "floatingBadge": "Maths · Lettres · Casse-têtes · Motifs"
+      }
+    },
+    "pillar05": {
+      "eyebrow": "Outils",
+      "h2Line1": "Les classiques,",
+      "h2Line2": "redessinés pour le navigateur.",
+      "body": "Manipulables mathématiques de classe — tactiles d'abord, compatibles tableau blanc, intégrables partout. Gratuits, sans inscription.",
+      "tool1Name": "Tableau de dix",
+      "tool1Desc": "La grille du cinq-et-dix pour compter, subitiser et faire les premières additions.",
+      "tool2Name": "Droite numérique",
+      "tool2Desc": "Une droite numérique épurée pour compter de N en N, faire des bonds et travailler la valeur de position.",
+      "tool3Name": "Règle",
+      "tool3Desc": "Une règle virtuelle — mesurer à l'écran, projeter au tableau blanc.",
+      "perTileCta": "Ouvrir",
+      "cta": "Ouvrir les outils"
+    },
+    "embedShare": {
+      "eyebrow": "Partager",
+      "h2Line1": "Intégrez n'importe quelle fiche",
+      "h2Line2": "sur votre blog ou le site de votre classe.",
+      "body": "Chaque fiche interactive est livrée avec un extrait iframe d'une ligne. Collez-le n'importe où. Il joue sur place. Pas de compte. Pas de paywall.",
+      "pasteCaptionPrefix": "Collez cet extrait",
+      "trust1": "Joue sur place — les élèves ne quittent pas votre site.",
+      "trust2": "Fonctionne sous WordPress, Wix, Google Sites, Squarespace, partout.",
+      "arrowCaption": "voici comment",
+      "mockup": {
+        "worksheetTitle": "Associer",
+        "worksheetHeader": "Animaux du zoo",
+        "worksheetInstruction": "Trace des lignes pour relier les paires correspondantes.",
+        "animalLion": "Lion",
+        "animalTiger": "Tigre",
+        "animalGiraffe": "Girafe",
+        "animalElephant": "Éléphant",
+        "animalZebra": "Zèbre",
+        "checkAnswers": "Vérifier les réponses",
+        "popupTitle": "Intégrer cette fiche sur votre site",
+        "widthLabel": "Largeur",
+        "heightLabel": "Hauteur",
+        "snippetCaption": "Collez ceci dans le HTML de votre site",
+        "copyCodeButton": "Copier le code",
+        "closeButton": "Fermer"
+      }
+    },
+    "signup": {
+      "eyebrow": "Gratuit",
+      "h2Line1": "Inscription non requise.",
+      "h2Line2": "Créez-en un si vous voulez sauvegarder vos choses.",
+      "body": "Toutes les activités, fiches et tous les outils du site sont gratuits sans compte. Un compte sert simplement à garder vos favoris, construire des collections et intégrer vos propres jeux.",
+      "ctaPrimary": "Lancer une activité",
+      "ctaSecondary": "Créer un compte",
+      "mascotAlt": "Mascotte éléphant qui vous accueille d'un signe"
+    },
+    "featuredTile": {
+      "badge": "Aperçu jouable",
+      "cta": "Toucher pour jouer →",
+      "closeAria": "Fermer"
+    },
+    "mascot": {
+      "defaultAlt": "Mascotte éléphant sympathique"
+    },
+    "metadata": {
+      "title": "Aperçu page d'accueil v3 · LessonCraftStudio",
+      "description": "Prototype interne de la page d'accueil redessinée. Non indexé."
+    }
   }
 }

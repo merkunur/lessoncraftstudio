@@ -111,7 +111,7 @@ const TOOLS = [
   },
 ];
 
-export default function PillarTools({ locale: _locale }: PillarToolsProps) {
+export default function PillarTools({ locale }: PillarToolsProps) {
   return (
     <section id="tools" className="hv3-section-teal relative overflow-hidden pt-20 md:pt-28 pb-24 md:pb-32">
       <div className="container mx-auto px-4 max-w-7xl">
@@ -167,6 +167,20 @@ export default function PillarTools({ locale: _locale }: PillarToolsProps) {
             </a>
             );
           })}
+        </div>
+
+        {/* Pillar CTA — consistent with how Pillars 02/03/04 each end
+            with one CTA. Cream-outlined on the deep teal ground. */}
+        <div className="mt-10 md:mt-12 flex justify-start">
+          <Link
+            href={`/${locale}/tools`}
+            className="hv3-cta-cream-outline inline-flex items-center justify-center font-lcsDisplay font-semibold text-base md:text-lg px-6 py-3"
+          >
+            Open the tools
+            <svg className="ml-2 w-4 h-4" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M5 10h10M11 5l5 5-5 5" />
+            </svg>
+          </Link>
         </div>
       </div>
     </section>

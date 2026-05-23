@@ -13,14 +13,6 @@ interface Props {
 export default function SignupV3({ locale }: Props) {
   return (
     <section className="hv3-section-coral-deep py-24 md:py-32 relative overflow-hidden">
-      {/* Decorative diagonal accent — cream stripe on the deep coral */}
-      <div
-        aria-hidden="true"
-        className="absolute top-0 right-0 w-1/3 h-full opacity-22"
-        style={{
-          background: 'linear-gradient(135deg, transparent 40%, #FBF3E4 40%, #FBF3E4 42%, transparent 42%)',
-        }}
-      />
       {/* Atmosphere — soft cream halo behind the mascot. */}
       <div
         aria-hidden="true"

@@ -76,31 +76,76 @@ export default function PillarPrintables({ locale }: PillarPrintablesProps) {
 
             {/* Stack of three "pages" — layered offset */}
             <div className="relative w-[320px] md:w-[400px] aspect-[2/2.6]">
-              {/* Back page — tinted slightly warm for natural paper-stack
-                  variation (real paper stacks aren't all identical tone). */}
+              {/* Back page — "Word Search" worksheet (DE chip). Tinted
+                  warm + opacity 0.7 so it reads as the deepest in the
+                  stack while still being a recognizable worksheet. */}
               <div
-                className="absolute inset-0 hv3-card hv3-card-tinted-warm rounded-md border border-lcs-teal/10"
+                className="absolute inset-0 hv3-card hv3-card-tinted-warm rounded-md border border-lcs-teal/10 overflow-hidden"
                 style={{ transform: 'rotate(-6deg) translate(-12px, 12px)' }}
                 aria-hidden="true"
               >
                 <div className="p-6 opacity-70">
-                  <div className="h-2 w-1/3 bg-lcs-teal/30 rounded-full mb-3" />
-                  <div className="h-1.5 w-2/3 bg-lcs-teal/20 rounded-full mb-1.5" />
-                  <div className="h-1.5 w-1/2 bg-lcs-teal/20 rounded-full" />
+                  <div className="flex items-center justify-between mb-4">
+                    <div>
+                      <p className="font-lcsBody text-[10px] uppercase tracking-widest text-lcs-coral-deep font-bold">PDF · A4</p>
+                      <p className="font-lcsDisplay font-bold text-lcs-teal text-lg mt-1 leading-tight">Word Search</p>
+                    </div>
+                    <span className="hv3-locale-chip text-[10px]">DE</span>
+                  </div>
+                  <div className="grid grid-cols-6 gap-1.5">
+                    {['B','A','U','M','E','R','G','A','R','T','E','N','F','I','S','C','H','E','S','O','N','N','E','T','K','I','N','D','E','R','M','A','U','S','E','S']
+                      .slice(0, 30)
+                      .map((ch, i) => (
+                        <span
+                          key={i}
+                          className="aspect-square flex items-center justify-center font-lcsDisplay font-semibold text-lcs-teal text-xs bg-lcs-cream/60 rounded border border-lcs-teal/15"
+                        >
+                          {ch}
+                        </span>
+                      ))}
+                  </div>
                 </div>
               </div>
-              {/* Middle page — tinted slightly cool for paper-stack variation */}
+              {/* Middle page — "Picture Matching" worksheet (EN chip).
+                  Tinted sage + opacity 0.8 so it reads as middle-of-stack. */}
               <div
-                className="absolute inset-0 hv3-card hv3-card-tinted-sage rounded-md border border-lcs-teal/10"
+                className="absolute inset-0 hv3-card hv3-card-tinted-sage rounded-md border border-lcs-teal/10 overflow-hidden"
                 style={{ transform: 'rotate(3deg) translate(8px, 6px)' }}
                 aria-hidden="true"
               >
                 <div className="p-6 opacity-80">
-                  <div className="h-2 w-2/5 bg-lcs-teal/35 rounded-full mb-3" />
-                  <div className="grid grid-cols-3 gap-2 mb-3">
-                    <div className="aspect-square bg-lcs-coral-soft rounded" />
-                    <div className="aspect-square bg-lcs-sage rounded" />
-                    <div className="aspect-square bg-lcs-coral-soft rounded" />
+                  <div className="flex items-center justify-between mb-4">
+                    <div>
+                      <p className="font-lcsBody text-[10px] uppercase tracking-widest text-lcs-coral-deep font-bold">PDF · A4</p>
+                      <p className="font-lcsDisplay font-bold text-lcs-teal text-lg mt-1 leading-tight">Picture Matching</p>
+                    </div>
+                    <span className="hv3-locale-chip text-[10px]">EN</span>
+                  </div>
+                  <div className="relative" style={{ height: '90px' }}>
+                    <svg viewBox="0 0 220 90" className="absolute inset-0 w-full h-full" aria-hidden="true">
+                      <path d="M 38 14 Q 110 22 184 28" stroke="#F2784B" strokeWidth="1.8" fill="none" strokeLinecap="round" strokeDasharray="3 3" opacity="0.7" />
+                      <path d="M 38 46 Q 110 50 184 60" stroke="#F2784B" strokeWidth="1.8" fill="none" strokeLinecap="round" strokeDasharray="3 3" opacity="0.7" />
+                      <path d="M 38 78 Q 110 70 184 76" stroke="#F2784B" strokeWidth="1.8" fill="none" strokeLinecap="round" strokeDasharray="3 3" opacity="0.7" />
+                    </svg>
+                    {[
+                      { y: 0,  emoji: '🐱' },
+                      { y: 32, emoji: '🐶' },
+                      { y: 64, emoji: '🐰' },
+                    ].map((row, i) => (
+                      <div key={`l${i}`} className="absolute left-0 flex items-center gap-1.5" style={{ top: `${row.y}px` }}>
+                        <span className="w-7 h-7 rounded-full bg-lcs-cream border border-lcs-teal/15 flex items-center justify-center text-sm">{row.emoji}</span>
+                        <span className="w-1.5 h-1.5 rounded-full bg-lcs-teal/60" />
+                      </div>
+                    ))}
+                    {['Rabbit', 'Cat', 'Dog'].map((word, i) => {
+                      const y = [0, 32, 64][i];
+                      return (
+                        <div key={`r${i}`} className="absolute right-0 flex items-center gap-1.5" style={{ top: `${y}px` }}>
+                          <span className="w-1.5 h-1.5 rounded-full bg-lcs-teal/60" />
+                          <span className="font-lcsDisplay font-semibold text-xs text-lcs-teal">{word}</span>
+                        </div>
+                      );
+                    })}
                   </div>
                 </div>
               </div>

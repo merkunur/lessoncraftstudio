@@ -4,6 +4,7 @@
 
 import Link from 'next/link';
 import ActivityCardPreview from './ActivityCardPreview';
+import MascotPlaceholder from './MascotPlaceholder';
 import { DoodleBullet, Arrow, Squiggle } from './DoodleAccents';
 
 interface PillarActivitiesProps {
@@ -31,7 +32,17 @@ const SUPPORTING_LINES = [
 
 export default function PillarActivities({ locale }: PillarActivitiesProps) {
   return (
-    <section id="activities" className="relative overflow-hidden bg-lcs-cream py-24 md:py-36 lg:py-44">
+    <section id="activities" className="hv3-section-cream relative overflow-hidden py-24 md:py-36 lg:py-44">
+      {/* Coral transition band along the BOTTOM — softens the jump into
+          Pillar 2's full-bleed coral and signals "the warm pillar leads
+          into the loud pillar". */}
+      <div
+        aria-hidden="true"
+        className="absolute bottom-0 left-0 right-0 h-24 pointer-events-none"
+        style={{
+          background: 'linear-gradient(to bottom, transparent 0%, rgba(242,120,75,0.18) 70%, rgba(242,120,75,0.32) 100%)',
+        }}
+      />
       {/* Subtle teal blob top-right */}
       <div
         aria-hidden="true"
@@ -43,7 +54,7 @@ export default function PillarActivities({ locale }: PillarActivitiesProps) {
         <div className="flex items-end justify-between mb-12 md:mb-16">
           <div className="max-w-2xl">
             <div className="flex items-center gap-4 mb-4">
-              <span className="hv3-pillar-num">01</span>
+              <span className="hv3-pillar-num-coral">01</span>
               <span className="hv3-eyebrow">Activities</span>
             </div>
             <h2 className="font-lcsDisplay font-bold text-lcs-teal leading-[1.05] tracking-tight text-[2.25rem] sm:text-[2.75rem] md:text-[3.5rem] lg:text-[4rem]">
@@ -182,6 +193,22 @@ export default function PillarActivities({ locale }: PillarActivitiesProps) {
                 checkLabel="Comprobar"
                 langChip="ES"
                 tilt={-3}
+              />
+            </div>
+
+            {/* Mascot peeking from the bottom-right corner pointing at the
+                cards. Real elephant art, "showing-down-left" pose so the
+                trunk gestures back toward the card stack. Hidden on small
+                screens. */}
+            <div
+              aria-hidden="true"
+              className="hidden md:block absolute -bottom-12 -right-8 z-30 w-[200px] lg:w-[240px] pointer-events-none hv3-float"
+              style={{ ['--rot' as string]: '4deg' } as React.CSSProperties}
+            >
+              <MascotPlaceholder
+                size="inline"
+                poseHint="showing-down-left"
+                alt="Elephant mascot gesturing toward the activity cards"
               />
             </div>
           </div>

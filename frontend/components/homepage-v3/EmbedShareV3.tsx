@@ -11,9 +11,9 @@ interface Props {
 
 export default function EmbedShareV3({ locale }: Props) {
   return (
-    <section className="bg-lcs-cream py-20 md:py-28">
+    <section className="hv3-section-coral-soft py-20 md:py-28">
       <div className="container mx-auto px-4 max-w-5xl">
-        <div className="relative hv3-card-deep p-10 md:p-14 lg:p-16 overflow-hidden">
+        <div className="relative hv3-card-deep hv3-card-on-color p-10 md:p-14 lg:p-16 overflow-hidden">
           {/* Coral atmospheric blob behind */}
           <div
             aria-hidden="true"

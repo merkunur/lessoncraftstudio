@@ -308,6 +308,151 @@
   opacity: 0.85;
 }
 
+/* ─── BOLD OVERHAUL: saturated-ground utilities (2026-05-23) ───
+   Section-wide color spreads. Cards STAY cream and float on these
+   grounds for the "paper on colored construction paper" feel. */
+
+.hv3-section-teal {
+  background: #0E544A;
+  color: #FBF3E4;
+}
+.hv3-section-teal-mid {
+  background: #146B5E;
+  color: #FBF3E4;
+}
+.hv3-section-coral {
+  background: #F2784B;
+  color: #FBF3E4;
+}
+.hv3-section-coral-deep {
+  background: #D9633A;
+  color: #FBF3E4;
+}
+.hv3-section-coral-soft {
+  background: #FCEFEA;
+  color: #146B5E;
+}
+.hv3-section-sage {
+  background: #DCE3D3;
+  color: #146B5E;
+}
+.hv3-section-cream {
+  background: #FBF3E4;
+  color: #146B5E;
+}
+
+/* Stronger contact shadow for cream cards floating on COLORED grounds.
+   Reads as "paper on colored construction paper" — more present than the
+   subtle cream-on-cream shadow that has to whisper. */
+.hv3-card-on-color {
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.7) inset,
+    0 2px 0 rgba(0, 0, 0, 0.18),
+    0 18px 32px -10px rgba(0, 0, 0, 0.32),
+    0 42px 60px -20px rgba(0, 0, 0, 0.28) !important;
+}
+
+/* Wave divider — soft cream wave separating teal hero from next band. */
+.hv3-wave-cream-bottom {
+  position: relative;
+}
+.hv3-wave-cream-bottom::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 64px;
+  background:
+    radial-gradient(ellipse at 50% 100%, #FBF3E4 60%, transparent 61%);
+  background-size: 320px 64px;
+  background-repeat: repeat-x;
+  pointer-events: none;
+}
+
+/* Diagonal cream-to-teal sweep for the tier transition band */
+.hv3-tier-diagonal-sweep {
+  background: linear-gradient(
+    -3deg,
+    #0E544A 0%,
+    #0E544A 50%,
+    #FBF3E4 50.5%,
+    #FBF3E4 100%
+  );
+}
+
+/* Big pillar number — coral chapter marker, used on cream pillars */
+.hv3-pillar-num-coral {
+  font-family: var(--font-baloo-2), system-ui, sans-serif;
+  font-weight: 800;
+  font-size: clamp(5rem, 9vw, 9rem);
+  color: rgba(242, 120, 75, 0.45);
+  line-height: 0.85;
+  letter-spacing: -0.04em;
+  -webkit-text-stroke: 0;
+}
+.hv3-pillar-num-cream {
+  font-family: var(--font-baloo-2), system-ui, sans-serif;
+  font-weight: 800;
+  font-size: clamp(5rem, 9vw, 9rem);
+  color: rgba(251, 243, 228, 0.32);
+  line-height: 0.85;
+  letter-spacing: -0.04em;
+  -webkit-text-stroke: 0;
+}
+
+/* Cream-outlined CTA — used on dark grounds for the secondary action */
+.hv3-cta-cream-outline {
+  background: transparent;
+  color: #FBF3E4;
+  border: 2px solid #FBF3E4;
+  border-radius: 16px;
+  transition: background 0.18s ease, color 0.18s ease;
+}
+.hv3-cta-cream-outline:hover {
+  background: #FBF3E4;
+  color: #146B5E;
+}
+
+/* Eyebrow STAMP — coral pill with cream type, used on dark hero grounds */
+.hv3-eyebrow-stamp {
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #FBF3E4;
+  background: #F2784B;
+  padding: 0.5rem 1rem 0.45rem;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  box-shadow: 0 6px 14px -4px rgba(217, 99, 58, 0.55);
+  transform: rotate(-1.5deg);
+}
+
+/* Squiggle word for use on DARK grounds — cream coral mix is replaced
+   with a brighter coral so it reads against teal. */
+.hv3-squiggle-word-on-dark {
+  position: relative;
+  display: inline-block;
+}
+.hv3-squiggle-word-on-dark::after {
+  content: '';
+  position: absolute;
+  left: -3%;
+  right: -3%;
+  bottom: -0.18em;
+  height: 0.4em;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox='0 0 120 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M 2 9 Q 18 1, 32 7 T 60 5 T 88 9 T 118 4' fill='none' stroke='%23F2784B' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  pointer-events: none;
+  z-index: 0;
+  animation: hv3SquiggleDraw 0.9s ease-out 0.3s both;
+}
+
 /* ─── Hand-drawn personality layer (visual-personality redesign 2026-05-23) ─── */
 
 /* Mascot caption — monospace developer marker so the placeholder reads

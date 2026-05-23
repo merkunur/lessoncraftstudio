@@ -1,14 +1,14 @@
-/* Hero — the flagship moment.
-   Composition concept: bold dual-clause headline left, floating activity-card
-   preview right. Coral primary CTA + teal outlined secondary CTA. Subtle
-   coral + teal blob accents behind the card for depth. The two clauses of
-   the headline ARE the dual-audience read — parent reads "plays like a game,"
-   teacher reads "built like the curriculum," same line. */
+/* Hero — BOLD overhaul: full-bleed deep teal #0E544A ground.
+   Cream type on dark teal makes the whole page declare a single
+   confident brand color the second a visitor lands. Coral squiggle
+   under "game" pops dramatically against the dark.
+   Layout: bold headline left, real elephant mascot RIGHT at scale,
+   activity card floats below the elephant. */
 
 import Link from 'next/link';
 import ActivityCardPreview from './ActivityCardPreview';
 import MascotPlaceholder from './MascotPlaceholder';
-import { Sparkle, MarginDoodleTurtle, MarginDoodleStar } from './DoodleAccents';
+import { Sparkle, MarginDoodleStar } from './DoodleAccents';
 
 interface HeroV3Props {
   locale: string;
@@ -16,81 +16,68 @@ interface HeroV3Props {
 
 export default function HeroV3({ locale }: HeroV3Props) {
   return (
-    <section className="relative overflow-hidden">
-      {/* Soft watercolor pools — multi-stop radials feel like paint that
-          bled into the paper, not hard-edged blobs. Two pools (top-right
-          coral, bottom-left sage) give the hero atmosphere without the
-          SaaS-blob feel. */}
+    <section className="hv3-section-teal hv3-wave-cream-bottom relative overflow-hidden">
+      {/* Soft watercolor pools — saturated against the deep teal. */}
       <div
         aria-hidden="true"
-        className="hv3-blob-coral absolute top-[-12%] right-[-8%] w-[520px] h-[520px] rounded-full pointer-events-none"
+        className="hv3-blob-coral absolute top-[-12%] right-[-8%] w-[620px] h-[620px] rounded-full pointer-events-none opacity-85"
       />
       <div
         aria-hidden="true"
-        className="hv3-blob-sage absolute bottom-[-15%] left-[-10%] w-[520px] h-[520px] rounded-full pointer-events-none"
+        className="hv3-blob-sage absolute bottom-[-15%] left-[-10%] w-[520px] h-[520px] rounded-full pointer-events-none opacity-60"
       />
 
-      {/* Scattered constellation of tiny doodled stars — picture-book
-          endpaper feel. Low opacity so they whisper, not shout. */}
+      {/* Chalk-on-blackboard scattered stars — higher opacity since they
+          read against the dark teal. */}
       <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-[14%] left-[8%] opacity-30">
-          <Sparkle className="text-lcs-coral" size={14} rotate={18} />
+        <div className="absolute top-[14%] left-[8%] opacity-65">
+          <Sparkle className="text-lcs-cream" size={16} rotate={18} />
         </div>
-        <div className="absolute top-[8%] left-[44%] opacity-25">
-          <MarginDoodleStar className="text-lcs-teal" size={22} rotate={-12} />
+        <div className="absolute top-[8%] left-[44%] opacity-50">
+          <MarginDoodleStar className="text-lcs-coral" size={26} rotate={-12} />
         </div>
-        <div className="absolute top-[28%] right-[45%] opacity-30">
-          <Sparkle className="text-lcs-teal" size={11} rotate={-20} />
+        <div className="absolute top-[28%] right-[45%] opacity-60">
+          <Sparkle className="text-lcs-cream" size={12} rotate={-20} />
         </div>
-        <div className="absolute bottom-[28%] left-[3%] opacity-25">
-          <Sparkle className="text-lcs-coral" size={16} rotate={32} />
+        <div className="absolute bottom-[28%] left-[3%] opacity-55">
+          <Sparkle className="text-lcs-coral" size={18} rotate={32} />
         </div>
-        <div className="absolute bottom-[16%] right-[12%] opacity-30">
-          <MarginDoodleStar className="text-lcs-coral" size={20} rotate={22} />
+        <div className="absolute bottom-[22%] right-[12%] opacity-65">
+          <MarginDoodleStar className="text-lcs-cream" size={22} rotate={22} />
         </div>
-        <div className="absolute top-[55%] left-[42%] opacity-25">
-          <Sparkle className="text-lcs-teal" size={12} rotate={8} />
+        <div className="absolute top-[55%] left-[42%] opacity-55">
+          <Sparkle className="text-lcs-coral" size={14} rotate={8} />
         </div>
-        <div className="absolute top-[42%] right-[3%] opacity-25">
-          <Sparkle className="text-lcs-coral" size={13} rotate={-8} />
-        </div>
-        {/* Margin turtle doodle — tiny line-art at the hero's far-left
-            margin, picture-book "drawn in the margins" feel. */}
-        <div className="absolute bottom-[10%] left-[2%] opacity-20 hidden lg:block">
-          <MarginDoodleTurtle className="text-lcs-teal" size={90} rotate={-6} />
+        <div className="absolute top-[42%] right-[3%] opacity-55">
+          <Sparkle className="text-lcs-cream" size={15} rotate={-8} />
         </div>
       </div>
 
-      <div className="container mx-auto px-4 max-w-7xl pt-4 pb-20 md:pt-6 md:pb-28 lg:pt-10 lg:pb-36 relative">
-        <div className="grid grid-cols-1 lg:grid-cols-[1.05fr_0.95fr] gap-12 lg:gap-16 items-center">
-          {/* LEFT — copy column */}
-          <div className="max-w-xl lg:max-w-2xl">
-            {/* Eyebrow */}
-            <p className="hv3-eyebrow hv3-anim-fade-up hv3-anim-d1">
+      <div className="container mx-auto px-4 max-w-7xl pt-8 pb-32 md:pt-12 md:pb-40 lg:pt-16 lg:pb-48 relative">
+        <div className="grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-12 lg:gap-16 items-center">
+          {/* LEFT — copy column on the dark ground. Cream type. */}
+          <div className="max-w-xl lg:max-w-2xl relative z-10">
+            {/* Eyebrow STAMP — coral pill with cream type, slight rotation. */}
+            <p className="hv3-anim-fade-up hv3-anim-d1 hv3-eyebrow-stamp">
               K-3 Common Core · Eleven languages
             </p>
 
-            {/* Headline — dual clause, generous size, line-break-controlled.
-                The word "game" gets a hand-drawn squiggle underline that
-                draws itself on first paint (replacing the prior clean coral
-                pill underline — same word, more illustrated feel). */}
-            <h1 className="hv3-anim-fade-up hv3-anim-d2 mt-5 md:mt-7 font-lcsDisplay font-bold text-lcs-teal leading-[1.02] tracking-tight text-[2.5rem] sm:text-[3.25rem] md:text-[4rem] lg:text-[4.5rem] xl:text-[5rem]">
+            {/* Headline at editorial billboard scale. Cream on teal. */}
+            <h1 className="hv3-anim-fade-up hv3-anim-d2 mt-6 md:mt-8 font-lcsDisplay font-bold text-lcs-cream leading-[0.98] tracking-tight text-[3rem] sm:text-[4rem] md:text-[5rem] lg:text-[5.75rem] xl:text-[6.5rem]">
               <span className="block">
-                Plays like a <span className="hv3-squiggle-word">game</span>.
+                Plays like a <span className="hv3-squiggle-word-on-dark">game</span>.
               </span>
-              <span className="block text-lcs-teal-deep">
+              <span className="block text-lcs-coral mt-1">
                 Built like the curriculum.
               </span>
             </h1>
 
-            {/* Subhead */}
-            <p className="hv3-anim-fade-up hv3-anim-d3 mt-7 md:mt-9 font-lcsBody text-lg md:text-xl text-lcs-teal/85 leading-relaxed">
+            <p className="hv3-anim-fade-up hv3-anim-d3 mt-7 md:mt-9 font-lcsBody text-lg md:text-xl text-lcs-cream/85 leading-relaxed max-w-xl">
               Common Core–aligned K-3 phonics and math, in eleven languages —
               designed so a child can pick one up and learn, and built to the
               standard so a teacher trusts every screen.
             </p>
 
-            {/* CTAs */}
             <div className="hv3-anim-fade-up hv3-anim-d4 mt-9 md:mt-11 flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <Link
                 href={`/${locale}/activities/count-to-10-with-animals/`}
@@ -103,14 +90,13 @@ export default function HeroV3({ locale }: HeroV3Props) {
               </Link>
               <Link
                 href={`/${locale}/topic/addition/`}
-                className="hv3-cta-teal-outline inline-flex items-center justify-center font-lcsDisplay font-semibold text-lg md:text-xl px-7 md:px-8 py-3 md:py-3.5 whitespace-nowrap"
+                className="hv3-cta-cream-outline inline-flex items-center justify-center font-lcsDisplay font-semibold text-lg md:text-xl px-7 md:px-8 py-3 md:py-3.5 whitespace-nowrap"
               >
                 Browse the catalog
               </Link>
             </div>
 
-            {/* Trust strip — small fact list under CTAs */}
-            <ul className="hv3-anim-fade-up hv3-anim-d5 mt-10 md:mt-12 flex flex-wrap gap-x-5 gap-y-2 font-lcsBody text-sm md:text-base text-lcs-teal/70">
+            <ul className="hv3-anim-fade-up hv3-anim-d5 mt-10 md:mt-12 flex flex-wrap gap-x-5 gap-y-2 font-lcsBody text-sm md:text-base text-lcs-cream/75">
               <li className="flex items-center gap-2">
                 <Sparkle className="text-lcs-coral" size={16} rotate={12} />
                 Eleven languages
@@ -130,14 +116,13 @@ export default function HeroV3({ locale }: HeroV3Props) {
             </ul>
           </div>
 
-          {/* RIGHT — visual anchor column. The locale-chip strip sits ABOVE
-              the card as a separate element (not absolute-positioned), so
-              it never gets clipped by parent overflow.  Flex column on the
-              right side stacks: chip strip → card. */}
-          <div className="relative flex flex-col items-center justify-center gap-5 md:gap-6 pt-2 lg:pt-0">
-            {/* Locale-chip strip — multilingual signal sits in-flow above
-                the activity card. Crisp pill with shadow. */}
-            <div className="hv3-anim-fade-up hv3-anim-d3 inline-flex items-center gap-1.5 px-4 py-2 bg-lcs-cream rounded-full shadow-[0_8px_20px_-6px_rgba(20,107,94,0.18)] border border-lcs-teal/8 z-10">
+          {/* RIGHT — mascot + activity card stack.
+              Layout: chip strip top-right above mascot, large elephant
+              mascot at scale on cream-soft circle backdrop, activity card
+              floats over the bottom-right of the mascot. */}
+          <div className="relative flex flex-col items-center justify-center gap-4 pt-4 lg:pt-0">
+            {/* Locale-chip strip — cream pill on dark teal. */}
+            <div className="hv3-anim-fade-up hv3-anim-d3 inline-flex items-center gap-1.5 px-4 py-2 bg-lcs-cream rounded-full shadow-[0_12px_28px_-8px_rgba(0,0,0,0.4)] border border-lcs-teal/8 z-20 self-end mr-2">
               <span className="hv3-locale-chip">EN</span>
               <span className="hv3-locale-chip">ES</span>
               <span className="hv3-locale-chip hv3-locale-chip-active">FR</span>
@@ -147,53 +132,52 @@ export default function HeroV3({ locale }: HeroV3Props) {
               <span className="font-lcsBody text-xs text-lcs-teal/60 pl-1 font-semibold">+5</span>
             </div>
 
-            {/* Card stack wrapper — provides positioning context for the
-                tilted background card behind the main card AND the mascot
-                placeholder that peeks up from the lower-left. Sits below
-                the locale chip strip in the flex column. Grown from
-                max-w-md → max-w-lg this pass so the turtle and the rest
-                of the activity-card art render larger. */}
-            <div className="relative w-full max-w-lg">
-              {/* Floating background card (rotated, behind main) */}
+            {/* Mascot + card composite */}
+            <div className="relative w-full max-w-xl">
+              {/* Cream soft circle behind the elephant — gives the dark
+                  mascot a stage so it pops against teal without
+                  silhouette-disappearing. */}
               <div
                 aria-hidden="true"
                 className="absolute inset-0 flex items-center justify-center pointer-events-none"
               >
                 <div
-                  className="hv3-card w-[92%] h-[88%] rounded-3xl opacity-50"
-                  style={{ transform: 'rotate(-4deg) translate(-6%, 4%)' }}
+                  className="rounded-full"
+                  style={{
+                    width: '88%',
+                    height: '88%',
+                    background: 'radial-gradient(circle at 50% 45%, rgba(251,243,228,0.16) 0%, rgba(251,243,228,0.08) 45%, transparent 70%)',
+                  }}
                 />
               </div>
 
-              {/* Main activity card */}
-              <div className="hv3-anim-fade-up hv3-anim-d4 relative z-10 w-full">
-              <ActivityCardPreview
-                variant="compact"
-                title="Constructeur de syllabes"
-                prompt="Touche les syllabes dans l'ordre pour former le mot."
-                subjectImg="https://www.lessoncraftstudio.com/image-library-webp/themes/animals/turtle@2x.webp"
-                subjectAlt="tortue"
-                tiles={['tor', 'tue']}
-                slotsFilled={true}
-                filledOrder={['tor', 'tue']}
-                ccCode="RF.K.2.B"
-                gradeLabel="Grande section"
-                checkLabel="Vérifier"
-                tilt={2}
-                float
-              />
-              </div>
-
-              {/* Mascot placeholder — peeking up from the lower-left of the
-                  card. Slight overhang past the card edge breaks the tidy
-                  rectangle and signals "character lives here." Real elephant
-                  art drops in via data-mascot-slot="hero" later. */}
-              <div className="hv3-anim-fade-up hv3-anim-d5 absolute -bottom-12 -left-8 md:-bottom-14 md:-left-12 z-20 pointer-events-none">
+              {/* Real elephant — greeting / waving pose. Sits centered. */}
+              <div className="hv3-anim-fade-up hv3-anim-d3 relative z-10 flex items-center justify-center hv3-float" style={{ ['--rot' as string]: '-2deg' } as React.CSSProperties}>
                 <MascotPlaceholder
                   size="hero"
-                  fillTone="sage"
-                  poseHint="welcoming"
-                  className="hv3-mascot-overhang"
+                  poseHint="greeting"
+                  alt="Friendly elephant mascot waving hello"
+                />
+              </div>
+
+              {/* Activity card — floats over the bottom-right of the
+                  elephant. Smaller than mascot so character stays the
+                  hero; card is the proof. */}
+              <div className="hv3-anim-fade-up hv3-anim-d5 absolute -bottom-16 -right-4 md:-bottom-20 md:-right-6 z-20 w-[300px] md:w-[340px]">
+                <ActivityCardPreview
+                  variant="compact"
+                  title="Constructeur de syllabes"
+                  prompt="Touche les syllabes dans l'ordre pour former le mot."
+                  subjectImg="https://www.lessoncraftstudio.com/image-library-webp/themes/animals/turtle@2x.webp"
+                  subjectAlt="tortue"
+                  tiles={['tor', 'tue']}
+                  slotsFilled={true}
+                  filledOrder={['tor', 'tue']}
+                  ccCode="RF.K.2.B"
+                  gradeLabel="Grande section"
+                  checkLabel="Vérifier"
+                  tilt={3}
+                  float
                 />
               </div>
             </div>

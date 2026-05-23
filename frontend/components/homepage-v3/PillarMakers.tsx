@@ -13,27 +13,27 @@ interface PillarMakersProps {
 
 export default function PillarMakers({ locale }: PillarMakersProps) {
   return (
-    <section id="worksheet-makers" className="relative overflow-hidden bg-lcs-sage py-20 md:py-24">
+    <section id="worksheet-makers" className="hv3-section-teal-mid relative overflow-hidden py-20 md:py-28">
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-12 lg:gap-16 items-center">
           {/* LEFT — copy */}
           <div>
             <div className="flex items-center gap-4 mb-4">
-              <span className="hv3-pillar-num" style={{ color: 'rgba(20, 107, 94, 0.32)' }}>04</span>
-              <span className="hv3-eyebrow">Worksheet makers</span>
+              <span className="hv3-pillar-num-cream">04</span>
+              <span className="hv3-eyebrow text-lcs-cream/85">Worksheet makers</span>
             </div>
-            <h2 className="font-lcsDisplay font-bold text-lcs-teal leading-[1.1] tracking-tight text-[1.875rem] sm:text-[2.25rem] md:text-[2.75rem]">
+            <h2 className="font-lcsDisplay font-bold text-lcs-cream leading-[1.05] tracking-tight text-[1.875rem] sm:text-[2.5rem] md:text-[3rem] lg:text-[3.5rem]">
               Make a worksheet in a minute.<br />
-              <span className="text-lcs-teal-deep">In any of eleven languages.</span>
+              <span className="text-lcs-coral">In any of eleven languages.</span>
             </h2>
 
-            <p className="mt-6 font-lcsBody text-base md:text-lg text-lcs-teal/85 leading-relaxed max-w-xl">
+            <p className="mt-6 font-lcsBody text-base md:text-lg text-lcs-cream/85 leading-relaxed max-w-xl">
               A library of generator tools — math, letters, puzzles, patterns —
               each with theme and language controls. Bring your own word list,
               your own image set, your own classroom touches.
             </p>
 
-            <ul className="mt-6 space-y-3 font-lcsBody text-sm md:text-base text-lcs-teal/80">
+            <ul className="mt-6 space-y-3 font-lcsBody text-sm md:text-base text-lcs-cream/85">
               <li className="flex items-start gap-2.5">
                 <span className="flex-shrink-0 w-1.5 h-1.5 mt-2 rounded-full bg-lcs-coral" aria-hidden="true" />
                 One setup. Two outputs: interactive HTML and printable PDF.
@@ -63,7 +63,7 @@ export default function PillarMakers({ locale }: PillarMakersProps) {
 
           {/* RIGHT — mock control panel */}
           <div className="relative">
-            <div className="hv3-card-deep p-6 md:p-8 max-w-md mx-auto">
+            <div className="hv3-card-deep hv3-card-on-color p-6 md:p-8 max-w-md mx-auto">
               {/* Top label row */}
               <div className="flex items-center justify-between mb-5">
                 <span className="font-lcsDisplay font-bold text-lcs-teal text-sm">Addition Generator</span>

@@ -12,13 +12,13 @@ interface PillarPrintablesProps {
 
 export default function PillarPrintables({ locale }: PillarPrintablesProps) {
   return (
-    <section id="printables" className="relative overflow-hidden bg-lcs-cream py-20 md:py-28">
+    <section id="printables" className="hv3-section-sage relative overflow-hidden py-20 md:py-28">
       <div className="container mx-auto px-4 max-w-7xl relative">
         <div className="grid grid-cols-1 lg:grid-cols-[1.05fr_0.95fr] gap-12 lg:gap-20 items-center">
           {/* LEFT — copy */}
           <div>
             <div className="flex items-center gap-4 mb-4">
-              <span className="hv3-pillar-num">03</span>
+              <span className="hv3-pillar-num-coral">03</span>
               <span className="hv3-eyebrow">Printables</span>
             </div>
             <h2 className="font-lcsDisplay font-bold text-lcs-teal leading-[1.05] tracking-tight text-[2rem] sm:text-[2.5rem] md:text-[3rem]">
@@ -105,7 +105,7 @@ export default function PillarPrintables({ locale }: PillarPrintablesProps) {
                 </div>
               </div>
               {/* Front page — default cream, on top of the stack with paper grain */}
-              <div className="absolute inset-0 hv3-card rounded-md border border-lcs-teal/10 overflow-hidden">
+              <div className="absolute inset-0 hv3-card hv3-card-on-color rounded-md border border-lcs-teal/10 overflow-hidden">
                 <div className="p-7">
                   <div className="flex items-center justify-between mb-5">
                     <div>

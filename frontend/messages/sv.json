@@ -1408,5 +1408,180 @@
         "weeksAgo": "{count, plural, =1 {1 week ago} other {# weeks ago}}"
       }
     }
+  },
+  "homepageV3": {
+    "hero": {
+      "eyebrow": "F-3 · Anpassad till Lgr22 · Elva språk",
+      "h1Line1Before": "Lika kul som ett ",
+      "h1Line1Squiggle": "spel",
+      "h1Line1After": ".",
+      "h1Line2": "Byggt efter läroplanen.",
+      "body": "Fonologisk medvetenhet och matematik från förskola till årskurs 3, anpassad till Lgr22, på elva språk — utformat så att ett barn kan ta sig an det och lära sig, och byggt efter läroplanen så att läraren litar på varje skärm.",
+      "ctaPrimary": "Starta en aktivitet",
+      "ctaSecondary": "Bläddra i katalogen",
+      "trust1": "Elva språk",
+      "trust2": "Ingen registrering",
+      "trust3": "Gratis att spela",
+      "trust4": "Barnvänligt",
+      "videoAria": "Matematikpussel-arbetsblad som löses interaktivt i webbläsaren",
+      "mascotAlt": "Vänlig elefantmaskot som vinkar hej"
+    },
+    "pillar01": {
+      "eyebrow": "Aktiviteter",
+      "h2Line1": "Lektioner som ditt barn vill avsluta.",
+      "h2Line2": "Standarder som läraren litar på.",
+      "support1Label": "Anpassad till Lgr22",
+      "support1LabelSquiggle": "Lgr22",
+      "support1LabelBefore": "Anpassad till ",
+      "support1Body": "Kod för kod. K.CC.B.4, RF.K.2.B, K.G.A.2 — synliga på varje sida som internationella standarder, så att vilken lärare som helst kan kontrollera med en blick.",
+      "support2Label": "Elva språk",
+      "support2Body": "Samma aktivitet, samma design, infödd stavelseindelning. Ett barn läser på sitt språk; standarderna förblir desamma.",
+      "support3Label": "Lugn design",
+      "support3Body": "Inga tidtagare. Inga poäng. Inga sviter. Anpassad till barnets nyfikenhet, inte en topplista.",
+      "support4Label": "Byggt för att tas upp",
+      "support4Body": "Ett barn kan köra en själv — välj en bricka, bygg ett ord, hör svaret. Mänskligt ljud är på gång; resten är live.",
+      "cta": "Starta en aktivitet",
+      "mascotAlt": "Elefantmaskot som pekar mot aktivitetskorten",
+      "card1Title": "Bygg ordet",
+      "card1Prompt": "Tryck på stavelserna i rätt ordning för att bilda ordet.",
+      "card1GradeLabel": "Förskoleklass",
+      "card1CheckLabel": "Kontrollera",
+      "card1SubjectAlt": "katt",
+      "card2Title": "Räkna till 10",
+      "card2Prompt": "Tryck på rutan för att bilda 5.",
+      "card2GradeLabel": "Förskoleklass",
+      "card2CheckLabel": "Kontrollera",
+      "card2SubjectAlt": "fem katter",
+      "card3Title": "Bygg stavelserna",
+      "card3Prompt": "Tryck på stavelserna i rätt ordning för att bilda ordet.",
+      "card3GradeLabel": "Förskoleklass",
+      "card3CheckLabel": "Kontrollera",
+      "card3SubjectAlt": "elefant"
+    },
+    "pillar02": {
+      "eyebrow": "Interaktiva arbetsblad",
+      "h2Line1": "Alla sorters arbetsblad från förskola till årskurs 3,",
+      "h2Line2": "på alla språk i den åldern.",
+      "body": "Korsord, sudoku, sorteringar, hitta-och-räkna, addition, parmatchning — och ett brett bibliotek av andra övningstyper. Samma innehåll på vilket som helst av elva språk, grammatiskt korrekt ända ner till genusböjda pluralformer.",
+      "trust1Strong": "Fungerar i vilken webbläsare som helst.",
+      "trust1Body": "Ingen inloggning. Kan delas som länk, bäddas in som iframe.",
+      "trust2Strong": "Teman bortom klyschan.",
+      "trust2Body": "Dinosaurier, havsdjur, högtider, säsongsanpassade set — katalogen går på djupet i vad barn faktiskt gillar.",
+      "trust3Strong": "Flerspråkigt som standard.",
+      "trust3BodyBefore": "Samma arbetsblad, ",
+      "trust3BodyMiddle": "elva språk",
+      "trust3BodyAfter": ", grammatik som håller.",
+      "cta": "Bläddra i katalogen",
+      "emptyState": "Live-exempel laddas från katalogen."
+    },
+    "pillar03": {
+      "eyebrow": "Utskrifter",
+      "h2Line1": "Arbetsblad att skriva ut.",
+      "h2Line2": "Facit att rätta efter.",
+      "list1": "Varje interaktivt arbetsblad levereras med en utskrivbar PDF — samma bilder, samma övningar, pappersvänligt.",
+      "list2": "Facit ingår i varje set.",
+      "list3": "Plus PDF-format för finmotorisk träning: målarbilder, skrivövningar, rita-och-färglägg, linjeföljning.",
+      "list4": "Designade för klassrumsskrivaren, hemmaskrivaren och skolans kopiator.",
+      "cta": "Se utskrivbara arbetsblad",
+      "paperStack": {
+        "pdfA4": "PDF · A4",
+        "backTitle": "Ordletare",
+        "middleTitle": "Bildmatchning",
+        "middleWord1": "Kanin",
+        "middleWord2": "Katt",
+        "middleWord3": "Hund",
+        "frontTitle": "Additionsövning",
+        "answerKeyBadge": "+ Facit"
+      }
+    },
+    "transition": {
+      "line1": "Och om det är du",
+      "line2": "som undervisar",
+      "mascotAlt": "Vänlig elefantmaskot som binder samman förälder- och lärarsidan"
+    },
+    "pillar04": {
+      "eyebrow": "Arbetsbladsverktyg",
+      "h2Line1": "Skapa ett arbetsblad på en minut.",
+      "h2Line2": "På vilket som helst av elva språk.",
+      "body": "Ett bibliotek av generatorverktyg — matematik, bokstäver, pussel, mönster — vart och ett med tema- och språkkontroller. Ta med din egen ordlista, din egen bilduppsättning, dina egna klassrumstouchar.",
+      "list1": "En uppsättning. Två utdata: interaktiv HTML och utskrivbar PDF.",
+      "list2": "Riktat till läraren som vill ha exakt det arbetsblad hen tänkte sig.",
+      "list3": "Flerspråkiga kontroller; arbetsbladet levereras på det språk du väljer.",
+      "cta": "Öppna verktygen",
+      "mockPanel": {
+        "title": "Additionsgenerator",
+        "codeChip": "Matematik · F-3",
+        "themeLabel": "TEMA",
+        "themeValue": "🦕 Dinosaurier",
+        "langLabel": "SPRÅK",
+        "langValue": "🇫🇮 Suomi",
+        "rangeLabel": "INTERVALL",
+        "itemsLabel": "ANTAL",
+        "generateButton": "Skapa",
+        "floatingBadge": "Matematik · Bokstäver · Pussel · Mönster"
+      }
+    },
+    "pillar05": {
+      "eyebrow": "Verktyg",
+      "h2Line1": "Klassikerna,",
+      "h2Line2": "omritade för webbläsaren.",
+      "body": "Matematikmanipulativ för klassrummet — tryckkänsliga, smartboardvänliga, inbäddningsbara överallt. Gratis, ingen registrering.",
+      "tool1Name": "Tioram",
+      "tool1Desc": "Fem-och-tio-rutnätet för räkning, antalsuppfattning och tidig addition.",
+      "tool2Name": "Tallinje",
+      "tool2Desc": "En ren tallinje för hoppräkning, hopp och positionssystem.",
+      "tool3Name": "Linjal",
+      "tool3Desc": "En virtuell linjal — mät på skärmen, projicera på smartboarden.",
+      "perTileCta": "Öppna",
+      "cta": "Öppna verktygen"
+    },
+    "embedShare": {
+      "eyebrow": "Dela",
+      "h2Line1": "Bädda in vilket arbetsblad som helst",
+      "h2Line2": "på din blogg eller klassrumssida.",
+      "body": "Varje interaktivt arbetsblad levereras med ett iframe-utdrag på en rad. Klistra in det var som helst. Det spelas på plats. Inga konton. Inga betalväggar.",
+      "pasteCaptionPrefix": "Klistra in det här utdraget",
+      "trust1": "Spelas på plats — eleverna lämnar inte din sida.",
+      "trust2": "Fungerar i WordPress, Wix, Google Sites, Squarespace, överallt.",
+      "arrowCaption": "så här gör du",
+      "mockup": {
+        "worksheetTitle": "Para ihop",
+        "worksheetHeader": "Djurparksdjur",
+        "worksheetInstruction": "Dra streck för att koppla ihop paren.",
+        "animalLion": "Lejon",
+        "animalTiger": "Tiger",
+        "animalGiraffe": "Giraff",
+        "animalElephant": "Elefant",
+        "animalZebra": "Zebra",
+        "checkAnswers": "Kontrollera svar",
+        "popupTitle": "Bädda in det här arbetsbladet på din sida",
+        "widthLabel": "Bredd",
+        "heightLabel": "Höjd",
+        "snippetCaption": "Klistra in det här i din webbplats HTML",
+        "copyCodeButton": "Kopiera kod",
+        "closeButton": "Stäng"
+      }
+    },
+    "signup": {
+      "eyebrow": "Gratis",
+      "h2Line1": "Ingen registrering behövs.",
+      "h2Line2": "Skapa ett om du vill spara saker.",
+      "body": "Varje aktivitet, arbetsblad och verktyg på den här sidan är gratis att använda utan konto. Ett konto låter dig bara behålla favoriter, bygga samlingar och bädda in dina egna kortlekar.",
+      "ctaPrimary": "Starta en aktivitet",
+      "ctaSecondary": "Skapa ett konto",
+      "mascotAlt": "Vänlig elefantmaskot som vinkar in dig"
+    },
+    "featuredTile": {
+      "badge": "Provspel",
+      "cta": "Tryck för att spela →",
+      "closeAria": "Stäng"
+    },
+    "mascot": {
+      "defaultAlt": "Vänlig elefantmaskot"
+    },
+    "metadata": {
+      "title": "Förhandsvisning av startsida v3 · LessonCraftStudio",
+      "description": "Intern prototyp av den omdesignade startsidan. Indexeras inte."
+    }
   }
 }

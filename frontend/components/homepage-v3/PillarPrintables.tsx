@@ -47,7 +47,7 @@ export default function PillarPrintables({ locale }: PillarPrintablesProps) {
 
             <div className="mt-10">
               <Link
-                href={`/${locale}/topic/addition/`}
+                href={`/${locale}/worksheets/`}
                 className="hv3-cta-teal-outline inline-flex items-center justify-center font-lcsDisplay font-semibold text-base md:text-lg px-6 py-3"
               >
                 See printable worksheets

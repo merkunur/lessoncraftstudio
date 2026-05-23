@@ -1,14 +1,17 @@
 /* Pillar 2 — Interactive worksheets. Tier 1, second-largest.
-   Carries the breadth/variety framing qualitatively (no specific counts).
-   Layout: copy left + featured inline-play tile right; small thumbnail row
-   beneath for variety signal. Reuses the existing FeaturedDeckTile iframe
-   logic and the BreadthGrid selection lib. */
+   Layout: copy left + featured inline-play tile right; small thumbnail
+   row beneath for variety.
+
+   Per operator: this surface is RESTRICTED to 4 exercise types
+   (addition, word-scramble, missing-pieces, find-and-count) and to
+   the current homepage locale only — NO cross-locale fallback. The
+   purpose-built selectPillarInteractiveDecks() runs a single Prisma
+   query against `{ language: locale, status: 'published', exerciseType
+   IN (...) }`, then variety-picks one featured + 2 thumbs across
+   distinct types. */
 
 import Link from 'next/link';
-import {
-  selectBreadthGridDecks,
-  BreadthGridDeck,
-} from '@/lib/breadth-grid-selection';
+import { prisma } from '@/lib/prisma';
 import { getAxisSlug } from '@/lib/taxonomy';
 import FeaturedDeckTileV3 from './FeaturedDeckTileV3';
 import BreadthThumbV3 from './BreadthThumbV3';
@@ -18,26 +21,77 @@ interface PillarInteractiveProps {
   locale: string;
 }
 
-function titleFor(deck: BreadthGridDeck): string {
+// Operator-locked allowlist for this surface.
+const FEATURED_EXERCISE_TYPES = ['addition', 'word-scramble', 'missing-pieces', 'find-and-count'] as const;
+
+interface DeckRow {
+  id: string;
+  slug: string;
+  language: string;
+  title: unknown; // Prisma Json
+  exerciseType: string;
+  thumbnailUrl: string;
+  subjectTags: string[];
+  publishedAt: Date | null;
+}
+
+function titleFor(deck: DeckRow): string {
   const titleMap = (deck.title ?? {}) as Record<string, string>;
   return titleMap[deck.language] || deck.slug;
 }
 
-export default async function PillarInteractive({ locale }: PillarInteractiveProps) {
-  // Tolerate build-time DB unreachability — same pattern as existing BreadthGrid.
-  let visiting: BreadthGridDeck[] = [];
-  let crossLocale: BreadthGridDeck[] = [];
-  let featured: BreadthGridDeck | null = null;
-  try {
-    const selection = await selectBreadthGridDecks(locale);
-    visiting = selection.visiting;
-    crossLocale = selection.crossLocale;
-    featured = selection.featured;
-  } catch (err) {
-    console.warn('[PillarInteractive] selectBreadthGridDecks failed:', (err as Error).message);
+function pickFeaturedAndThumbs(decks: DeckRow[]): { featured: DeckRow | null; thumbs: DeckRow[] } {
+  const byType = new Map<string, DeckRow[]>();
+  for (const d of decks) {
+    const list = byType.get(d.exerciseType) ?? [];
+    list.push(d);
+    byType.set(d.exerciseType, list);
   }
+  // Featured: prefer addition (most teacher-recognizable), else first
+  // deck by ordering (most recent overall).
+  const featured = byType.get('addition')?.[0] ?? decks[0] ?? null;
 
-  const thumbs = [...visiting, ...crossLocale].slice(0, 6);
+  // Thumbs: one per OTHER allowed type, up to 2. Skips the featured's type.
+  const thumbs: DeckRow[] = [];
+  for (const type of FEATURED_EXERCISE_TYPES) {
+    if (!featured || type === featured.exerciseType) continue;
+    const d = byType.get(type)?.[0];
+    if (d) thumbs.push(d);
+    if (thumbs.length >= 2) break;
+  }
+  return { featured, thumbs };
+}
+
+async function selectPillarInteractiveDecks(locale: string): Promise<{ featured: DeckRow | null; thumbs: DeckRow[] }> {
+  try {
+    const decks = await prisma.deck.findMany({
+      where: {
+        language: locale,
+        status: 'published',
+        exerciseType: { in: FEATURED_EXERCISE_TYPES as unknown as string[] },
+      },
+      select: {
+        id: true,
+        slug: true,
+        language: true,
+        title: true,
+        exerciseType: true,
+        thumbnailUrl: true,
+        subjectTags: true,
+        publishedAt: true,
+      },
+      orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
+      take: 12,
+    });
+    return pickFeaturedAndThumbs(decks as DeckRow[]);
+  } catch (err) {
+    console.warn('[PillarInteractive] DB query failed:', (err as Error).message);
+    return { featured: null, thumbs: [] };
+  }
+}
+
+export default async function PillarInteractive({ locale }: PillarInteractiveProps) {
+  const { featured, thumbs } = await selectPillarInteractiveDecks(locale);
 
   return (
     <section id="interactive-worksheets" className="hv3-section-coral relative overflow-hidden py-20 md:py-28 lg:py-36">
@@ -54,9 +108,9 @@ export default async function PillarInteractive({ locale }: PillarInteractivePro
           </h2>
         </div>
 
-        {/* Two-column body. Right column is wider this pass (0.85fr/1.15fr)
-            so the featured deck tile + the variety thumbs row render at
-            larger absolute sizes — the real product art carries more weight. */}
+        {/* Two-column body. Right column wider so the featured deck tile
+            + the variety thumbs row render at larger absolute sizes — the
+            real product art carries more weight. */}
         <div className="grid grid-cols-1 lg:grid-cols-[0.85fr_1.15fr] gap-12 lg:gap-16 items-start">
           {/* LEFT — supporting lines */}
           <div>
@@ -133,14 +187,11 @@ export default async function PillarInteractive({ locale }: PillarInteractivePro
               </div>
             )}
 
-            {/* Variety thumb row — 2 larger thumbs (was 3 small ones) so
-                each thumbnail has more pixels to render the worksheet
-                content sharply. Each thumb is ~50% of the right column
-                width, giving the underlying 480x620 deck art enough
-                space to read without being scaled down to mush. */}
+            {/* Variety thumb row — up to 2 thumbs from OTHER allowed
+                exercise types in the same locale. */}
             {thumbs.length > 0 && (
               <div className="mt-6 grid grid-cols-2 gap-4 md:gap-5">
-                {thumbs.slice(0, 2).map((deck) => {
+                {thumbs.map((deck) => {
                   const typeSlug = getAxisSlug('exercise-type', deck.exerciseType, locale) ?? deck.exerciseType;
                   return (
                     <BreadthThumbV3

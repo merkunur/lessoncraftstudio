@@ -156,7 +156,7 @@ export default async function PillarInteractive({ locale }: PillarInteractivePro
 
             <div className="mt-10">
               <Link
-                href={`/${locale}/topic/addition/`}
+                href={`/${locale}/worksheets/`}
                 className="hv3-cta-cream-outline inline-flex items-center justify-center font-lcsDisplay font-semibold text-base md:text-lg px-6 py-3"
               >
                 Browse the catalog

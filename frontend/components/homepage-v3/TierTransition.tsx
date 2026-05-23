@@ -53,7 +53,7 @@ export default async function TierTransition({ locale = 'en' }: TierTransitionPr
               <p className="font-lcsDisplay text-3xl md:text-4xl lg:text-[3rem] text-lcs-teal-deep italic leading-[1.05] font-bold -translate-y-3 md:-translate-y-4 lg:-translate-y-6">
                 {t('line1')}
               </p>
-              <p className="font-lcsDisplay text-3xl md:text-4xl lg:text-[3rem] text-lcs-cream italic leading-[1.05] font-bold mt-2">
+              <p className="font-lcsDisplay text-3xl md:text-4xl lg:text-[3rem] text-lcs-cream italic leading-[1.05] font-bold mt-2 translate-y-3 md:translate-y-4 lg:translate-y-6">
                 {t('line2')}<span className="text-lcs-coral">…</span>
               </p>
             </div>

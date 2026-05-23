@@ -1418,5 +1418,180 @@
         "weeksAgo": "{count, plural, =1 {1 week ago} other {# weeks ago}}"
       }
     }
+  },
+  "homepageV3": {
+    "hero": {
+      "eyebrow": "Educação infantil e anos iniciais · Alinhado à BNCC · Onze idiomas",
+      "h1Line1Before": "Diverte como um ",
+      "h1Line1Squiggle": "jogo",
+      "h1Line1After": ".",
+      "h1Line2": "Construído como o currículo.",
+      "body": "Fonética e matemática para a educação infantil e anos iniciais, alinhadas à BNCC, em onze idiomas — feitas para que uma criança consiga pegar e aprender sozinha, e construídas no padrão para que cada professor confie em toda tela.",
+      "ctaPrimary": "Começar uma atividade",
+      "ctaSecondary": "Explorar o catálogo",
+      "trust1": "Onze idiomas",
+      "trust2": "Sem cadastro",
+      "trust3": "Grátis para usar",
+      "trust4": "A criança usa sozinha",
+      "videoAria": "Atividade de matemática sendo resolvida de forma interativa no navegador",
+      "mascotAlt": "Mascote elefante amigável acenando olá"
+    },
+    "pillar01": {
+      "eyebrow": "Atividades",
+      "h2Line1": "Aulas que sua criança quer terminar.",
+      "h2Line2": "Padrões em que o professor confia.",
+      "support1Label": "Alinhado à BNCC",
+      "support1LabelSquiggle": "BNCC",
+      "support1LabelBefore": "Alinhado à ",
+      "support1Body": "Habilidade por habilidade. K.CC.B.4, RF.K.2.B, K.G.A.2 — visíveis em cada página como padrões internacionais para qualquer professor verificar num piscar de olhos.",
+      "support2Label": "Onze idiomas",
+      "support2Body": "A mesma atividade, o mesmo design, separação silábica nativa. A criança lê na sua língua; os padrões permanecem.",
+      "support3Label": "Design sem pressão",
+      "support3Body": "Sem cronômetros. Sem pontuação. Sem sequências. No ritmo da curiosidade da criança, não de um ranking.",
+      "support4Label": "Feito para ser usado sozinho",
+      "support4Body": "A criança consegue usar sozinha — escolhe uma peça, forma uma palavra, ouve a resposta. Áudio humano em produção; o resto já está no ar.",
+      "cta": "Começar uma atividade",
+      "mascotAlt": "Mascote elefante apontando para os cartões de atividade",
+      "card1Title": "Forma as sílabas",
+      "card1Prompt": "Toque as sílabas em ordem para formar a palavra.",
+      "card1GradeLabel": "Educação infantil (pré-escola, 5-7 anos)",
+      "card1CheckLabel": "Verificar",
+      "card1SubjectAlt": "gato",
+      "card2Title": "Conte até 10",
+      "card2Prompt": "Toque no quadro para formar 5.",
+      "card2GradeLabel": "Educação infantil (pré-escola, 5-7 anos)",
+      "card2CheckLabel": "Verificar",
+      "card2SubjectAlt": "cinco gatos",
+      "card3Title": "Forme as sílabas",
+      "card3Prompt": "Toque as sílabas em ordem para formar a palavra.",
+      "card3GradeLabel": "Educação infantil (pré-escola, 5-7 anos)",
+      "card3CheckLabel": "Verificar",
+      "card3SubjectAlt": "cavalo"
+    },
+    "pillar02": {
+      "eyebrow": "Atividades interativas",
+      "h2Line1": "Todo tipo de atividade para a educação infantil e anos iniciais,",
+      "h2Line2": "em todos os idiomas dessa faixa.",
+      "body": "Caça-palavras, sudoku, classificações, encontre-e-conte, adições, pares — e uma ampla biblioteca de outros tipos de exercício. O mesmo conteúdo em qualquer um dos onze idiomas, gramaticalmente correto até nos plurais com gênero.",
+      "trust1Strong": "Funciona em qualquer navegador.",
+      "trust1Body": "Sem login. Compartilhável como link, incorporável como iframe.",
+      "trust2Strong": "Temas além do óbvio.",
+      "trust2Body": "Dinossauros, vida no mar, datas comemorativas, conjuntos sazonais — o catálogo vai fundo no que as crianças realmente gostam.",
+      "trust3Strong": "Multilíngue por padrão.",
+      "trust3BodyBefore": "A mesma atividade, ",
+      "trust3BodyMiddle": "onze idiomas",
+      "trust3BodyAfter": ", com a gramática certinha.",
+      "cta": "Explorar o catálogo",
+      "emptyState": "Amostra interativa carregando do catálogo."
+    },
+    "pillar03": {
+      "eyebrow": "Imprimíveis",
+      "h2Line1": "Folhas para imprimir.",
+      "h2Line2": "Gabaritos para corrigir.",
+      "list1": "Toda atividade interativa vem com um PDF imprimível — mesmas imagens, mesmos exercícios, no formato papel.",
+      "list2": "Gabaritos inclusos em todos os conjuntos.",
+      "list3": "Além de formatos só em PDF para coordenação motora fina: colorir, escrever, desenhar-e-colorir, traçar linhas.",
+      "list4": "Pensados para a impressora da escola, a impressora de casa e a copiadora da diretoria.",
+      "cta": "Ver folhas para imprimir",
+      "paperStack": {
+        "pdfA4": "PDF · A4",
+        "backTitle": "Caça-palavras",
+        "middleTitle": "Pares de imagens",
+        "middleWord1": "Coelho",
+        "middleWord2": "Gato",
+        "middleWord3": "Cachorro",
+        "frontTitle": "Praticar adição",
+        "answerKeyBadge": "+ Gabarito"
+      }
+    },
+    "transition": {
+      "line1": "E se você é",
+      "line2": "quem ensina",
+      "mascotAlt": "Mascote elefante amigável fazendo a ponte entre os lados de pais e professores"
+    },
+    "pillar04": {
+      "eyebrow": "Geradores de atividades",
+      "h2Line1": "Crie uma atividade em um minuto.",
+      "h2Line2": "Em qualquer um dos onze idiomas.",
+      "body": "Uma biblioteca de ferramentas geradoras — matemática, letras, quebra-cabeças, padrões — cada uma com controles de tema e idioma. Use sua própria lista de palavras, seu conjunto de imagens, o jeitinho da sua turma.",
+      "list1": "Uma configuração. Dois resultados: HTML interativo e PDF para imprimir.",
+      "list2": "Feito para o professor que quer exatamente a atividade que tinha em mente.",
+      "list3": "Controles multilíngues; a atividade é gerada no idioma que você escolher.",
+      "cta": "Abrir os geradores",
+      "mockPanel": {
+        "title": "Gerador de adições",
+        "codeChip": "Matemática · Educação infantil — 2º ano",
+        "themeLabel": "TEMA",
+        "themeValue": "🦕 Dinossauros",
+        "langLabel": "IDIOMA",
+        "langValue": "🇪🇸 Español",
+        "rangeLabel": "INTERVALO",
+        "itemsLabel": "QUANTIDADE",
+        "generateButton": "Gerar",
+        "floatingBadge": "Matemática · Letras · Quebra-cabeças · Padrões"
+      }
+    },
+    "pillar05": {
+      "eyebrow": "Ferramentas",
+      "h2Line1": "Os clássicos,",
+      "h2Line2": "redesenhados para o navegador.",
+      "body": "Materiais manipuláveis de matemática para a sala — feitos para o toque, amigáveis para lousa digital, incorporáveis em qualquer lugar. Grátis, sem cadastro.",
+      "tool1Name": "Quadro de dez",
+      "tool1Desc": "A grade de cinco e dez para contar, reconhecer quantidades e iniciar a adição.",
+      "tool2Name": "Reta numérica",
+      "tool2Desc": "Uma reta numérica limpa para contagem salteada, saltos e valor posicional.",
+      "tool3Name": "Régua",
+      "tool3Desc": "Uma régua virtual — meça na tela, projete na lousa.",
+      "perTileCta": "Abrir",
+      "cta": "Abrir as ferramentas"
+    },
+    "embedShare": {
+      "eyebrow": "Compartilhar",
+      "h2Line1": "Incorpore qualquer atividade",
+      "h2Line2": "no seu blog ou no site da sua turma.",
+      "body": "Toda atividade interativa vem com um trecho de iframe de uma linha. Cole em qualquer lugar. Funciona na hora. Sem contas. Sem paywalls.",
+      "pasteCaptionPrefix": "Cole este trecho",
+      "trust1": "Funciona ali mesmo — as crianças não saem do seu site.",
+      "trust2": "Funciona no WordPress, Wix, Google Sites, Squarespace, em qualquer lugar.",
+      "arrowCaption": "é assim",
+      "mockup": {
+        "worksheetTitle": "Faça os pares",
+        "worksheetHeader": "Animais do zoológico",
+        "worksheetInstruction": "Desenhe linhas para conectar os pares correspondentes.",
+        "animalLion": "Leão",
+        "animalTiger": "Tigre",
+        "animalGiraffe": "Girafa",
+        "animalElephant": "Elefante",
+        "animalZebra": "Zebra",
+        "checkAnswers": "Verificar respostas",
+        "popupTitle": "Incorpore esta atividade no seu site",
+        "widthLabel": "Largura",
+        "heightLabel": "Altura",
+        "snippetCaption": "Cole isto no HTML do seu site",
+        "copyCodeButton": "Copiar código",
+        "closeButton": "Fechar"
+      }
+    },
+    "signup": {
+      "eyebrow": "Grátis",
+      "h2Line1": "Sem cadastro.",
+      "h2Line2": "Crie uma conta se quiser salvar suas coisas.",
+      "body": "Toda atividade, folha e ferramenta deste site é grátis para usar sem conta. A conta serve para você guardar favoritos, criar coleções e incorporar suas próprias atividades.",
+      "ctaPrimary": "Começar uma atividade",
+      "ctaSecondary": "Criar conta",
+      "mascotAlt": "Mascote elefante amigável dando as boas-vindas"
+    },
+    "featuredTile": {
+      "badge": "Amostra interativa",
+      "cta": "Toque para jogar →",
+      "closeAria": "Fechar"
+    },
+    "mascot": {
+      "defaultAlt": "Mascote elefante amigável"
+    },
+    "metadata": {
+      "title": "Prévia da página inicial v3 · LessonCraftStudio",
+      "description": "Protótipo interno da nova página inicial. Não indexada."
+    }
   }
 }

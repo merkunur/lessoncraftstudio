@@ -165,6 +165,7 @@ export default function HeroV3({ locale }: HeroV3Props) {
                 <MascotPlaceholder
                   size="inline"
                   poseHint="greeting"
+                  flip
                   alt="Friendly elephant mascot waving hello"
                 />
               </div>

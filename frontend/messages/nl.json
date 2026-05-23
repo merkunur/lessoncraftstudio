@@ -1405,5 +1405,180 @@
         "description": "Vind de ontbrekende stukken"
       }
     }
+  },
+  "homepageV3": {
+    "hero": {
+      "eyebrow": "Peuter t/m groep 5 · Volgens de SLO Kerndoelen · Elf talen",
+      "h1Line1Before": "Speelt als een ",
+      "h1Line1Squiggle": "spel",
+      "h1Line1After": ".",
+      "h1Line2": "Gebouwd volgens het leerplan.",
+      "body": "Fonemisch bewustzijn en rekenen voor peuter tot en met groep 5, in elf talen — zo gemaakt dat een kind het zelfstandig oppakt, en gebouwd volgens internationale standaarden zodat elke leerkracht elk scherm vertrouwt.",
+      "ctaPrimary": "Start een activiteit",
+      "ctaSecondary": "Bekijk de catalogus",
+      "trust1": "Elf talen",
+      "trust2": "Geen aanmelding",
+      "trust3": "Gratis te spelen",
+      "trust4": "Door kinderen zelf te gebruiken",
+      "videoAria": "Interactief rekenpuzzel-werkblad dat in de browser wordt opgelost",
+      "mascotAlt": "Vriendelijke olifant-mascotte die hallo zwaait"
+    },
+    "pillar01": {
+      "eyebrow": "Activiteiten",
+      "h2Line1": "Lessen die je kind wil afmaken.",
+      "h2Line2": "Normen waar de leerkracht op vertrouwt.",
+      "support1Label": "Volgens de SLO Kerndoelen",
+      "support1LabelSquiggle": "SLO Kerndoelen",
+      "support1LabelBefore": "Volgens de ",
+      "support1Body": "Code voor code. K.CC.B.4, RF.K.2.B, K.G.A.2 — zichtbaar op elke pagina als internationale standaarden, zodat elke leerkracht het in één oogopslag kan controleren.",
+      "support2Label": "Elf talen",
+      "support2Body": "Dezelfde activiteit, hetzelfde ontwerp, lettergrepen per taal. Een kind leest in de eigen taal; de normen blijven gelijk.",
+      "support3Label": "Ontwerp zonder prestatiedruk",
+      "support3Body": "Geen tijdsdruk. Geen scores. Geen reeksen. In het tempo van de nieuwsgierigheid van een kind, niet van een ranglijst.",
+      "support4Label": "Gemaakt om zelfstandig op te pakken",
+      "support4Body": "Een kind kan er alleen mee aan de slag — kies een tegel, bouw een woord, hoor het antwoord. Stemopnames volgen binnenkort; de rest staat al live.",
+      "cta": "Start een activiteit",
+      "mascotAlt": "Olifant-mascotte wijst naar de activiteitenkaarten",
+      "card1Title": "Bouw het woord",
+      "card1Prompt": "Tik de lettergrepen in de juiste volgorde aan om het woord te maken.",
+      "card1GradeLabel": "Kleuterklas",
+      "card1CheckLabel": "Nakijken",
+      "card1SubjectAlt": "kat",
+      "card2Title": "Tel tot 10",
+      "card2Prompt": "Tik op het tienkader om 5 te maken.",
+      "card2GradeLabel": "Kleuterklas",
+      "card2CheckLabel": "Nakijken",
+      "card2SubjectAlt": "vijf katten",
+      "card3Title": "Bouw het woord",
+      "card3Prompt": "Tik de lettergrepen in de juiste volgorde aan om het woord te maken.",
+      "card3GradeLabel": "Kleuterklas",
+      "card3CheckLabel": "Nakijken",
+      "card3SubjectAlt": "olifant"
+    },
+    "pillar02": {
+      "eyebrow": "Interactieve werkbladen",
+      "h2Line1": "Elk soort werkblad voor peuter t/m groep 5,",
+      "h2Line2": "in elke taal voor die leeftijd.",
+      "body": "Kruiswoordpuzzels, sudoku, sorteeropdrachten, zoek-en-tel, optellen, koppelen — en een brede bibliotheek van andere oefentypes. Dezelfde inhoud in elk van de elf talen, grammaticaal correct tot in de meervouden met geslacht.",
+      "trust1Strong": "Speelt in elke browser.",
+      "trust1Body": "Geen login. Te delen als link, in te sluiten als iframe.",
+      "trust2Strong": "Thema's voorbij het cliché.",
+      "trust2Body": "Dinosaurussen, zeeleven, feestdagen, seizoensgebonden sets — de catalogus gaat diep op wat kinderen echt leuk vinden.",
+      "trust3Strong": "Standaard meertalig.",
+      "trust3BodyBefore": "Hetzelfde werkblad, ",
+      "trust3BodyMiddle": "elf talen",
+      "trust3BodyAfter": ", grammatica die klopt.",
+      "cta": "Bekijk de catalogus",
+      "emptyState": "Live voorbeeldspel wordt geladen uit de catalogus."
+    },
+    "pillar03": {
+      "eyebrow": "Afdrukbare werkbladen",
+      "h2Line1": "Werkbladen om af te drukken.",
+      "h2Line2": "Antwoordsleutels om mee na te kijken.",
+      "list1": "Elk interactief werkblad komt met een afdrukbare PDF — dezelfde afbeeldingen, dezelfde oefeningen, papiervriendelijk.",
+      "list2": "Antwoordsleutels inbegrepen bij elke set.",
+      "list3": "Plus PDF-formats voor fijne motoriek: kleuren, schrijven, teken-en-kleur, lijnen volgen.",
+      "list4": "Ontworpen voor de schoolprinter, de thuisprinter en het schoolkopieerapparaat.",
+      "cta": "Bekijk afdrukbare werkbladen",
+      "paperStack": {
+        "pdfA4": "PDF · A4",
+        "backTitle": "Woordzoeker",
+        "middleTitle": "Plaatjes koppelen",
+        "middleWord1": "Konijn",
+        "middleWord2": "Kat",
+        "middleWord3": "Hond",
+        "frontTitle": "Optellen oefenen",
+        "answerKeyBadge": "+ Antwoordsleutel"
+      }
+    },
+    "transition": {
+      "line1": "En als jij",
+      "line2": "degene bent die lesgeeft",
+      "mascotAlt": "Vriendelijke olifant-mascotte verbindt de ouder- en leerkrachtkant"
+    },
+    "pillar04": {
+      "eyebrow": "Werkbladmakers",
+      "h2Line1": "Maak een werkblad in een minuut.",
+      "h2Line2": "In elk van de elf talen.",
+      "body": "Een bibliotheek met generators — rekenen, letters, puzzels, patronen — elk met thema- en taalknoppen. Neem je eigen woordenlijst mee, je eigen beeldset, je eigen klastinten.",
+      "list1": "Eén opzet. Twee resultaten: interactieve HTML en afdrukbare PDF.",
+      "list2": "Voor de leerkracht die precies het werkblad wil dat in zijn of haar hoofd zat.",
+      "list3": "Meertalige knoppen; het werkblad verschijnt in de taal die je kiest.",
+      "cta": "Open de makers",
+      "mockPanel": {
+        "title": "Optelgenerator",
+        "codeChip": "Rekenen · groep 1-4",
+        "themeLabel": "THEMA",
+        "themeValue": "🦕 Dinosaurussen",
+        "langLabel": "TAAL",
+        "langValue": "🇩🇪 Deutsch",
+        "rangeLabel": "BEREIK",
+        "itemsLabel": "OPGAVEN",
+        "generateButton": "Genereren",
+        "floatingBadge": "Rekenen · Letters · Puzzels · Patronen"
+      }
+    },
+    "pillar05": {
+      "eyebrow": "Hulpmiddelen",
+      "h2Line1": "De klassiekers,",
+      "h2Line2": "opnieuw getekend voor de browser.",
+      "body": "Klassikale rekenhulpmiddelen — bediend met aanraking, geschikt voor het digibord, overal in te sluiten. Gratis, geen aanmelding.",
+      "tool1Name": "Tienkader",
+      "tool1Desc": "Het vijf-en-tien-raster voor tellen, hoeveelheden in één oogopslag herkennen en eerste optellingen.",
+      "tool2Name": "Getallenlijn",
+      "tool2Desc": "Een schone getallenlijn voor sprongen tellen, sprongetjes maken en positiewaarde.",
+      "tool3Name": "Liniaal",
+      "tool3Desc": "Een virtuele liniaal — meet op het scherm, projecteer op het digibord.",
+      "perTileCta": "Open",
+      "cta": "Open de hulpmiddelen"
+    },
+    "embedShare": {
+      "eyebrow": "Delen",
+      "h2Line1": "Sluit elk werkblad in",
+      "h2Line2": "op je blog of klassensite.",
+      "body": "Elk interactief werkblad komt met een iframe-snippet van één regel. Plak hem ergens neer. Hij speelt ter plekke. Geen accounts. Geen betaalmuren.",
+      "pasteCaptionPrefix": "Plak deze snippet",
+      "trust1": "Speelt ter plekke — leerlingen verlaten je site niet.",
+      "trust2": "Werkt in WordPress, Wix, Google Sites, Squarespace, overal.",
+      "arrowCaption": "zo werkt het",
+      "mockup": {
+        "worksheetTitle": "Koppelen",
+        "worksheetHeader": "Dierentuindieren",
+        "worksheetInstruction": "Trek lijnen om de bij elkaar horende paren te verbinden.",
+        "animalLion": "Leeuw",
+        "animalTiger": "Tijger",
+        "animalGiraffe": "Giraf",
+        "animalElephant": "Olifant",
+        "animalZebra": "Zebra",
+        "checkAnswers": "Antwoorden nakijken",
+        "popupTitle": "Sluit dit werkblad in op je site",
+        "widthLabel": "Breedte",
+        "heightLabel": "Hoogte",
+        "snippetCaption": "Plak dit in de HTML van je website",
+        "copyCodeButton": "Code kopiëren",
+        "closeButton": "Sluiten"
+      }
+    },
+    "signup": {
+      "eyebrow": "Gratis",
+      "h2Line1": "Geen aanmelding nodig.",
+      "h2Line2": "Maak er een aan als je dingen wilt bewaren.",
+      "body": "Elke activiteit, elk werkblad en elk hulpmiddel op deze site is gratis te gebruiken zonder account. Met een account kun je favorieten bewaren, collecties opbouwen en je eigen decks insluiten.",
+      "ctaPrimary": "Start een activiteit",
+      "ctaSecondary": "Account aanmaken",
+      "mascotAlt": "Vriendelijke olifant-mascotte verwelkomt je"
+    },
+    "featuredTile": {
+      "badge": "Voorbeeldspel",
+      "cta": "Tik om te spelen →",
+      "closeAria": "Sluiten"
+    },
+    "mascot": {
+      "defaultAlt": "Vriendelijke olifant-mascotte"
+    },
+    "metadata": {
+      "title": "Voorvertoning homepage v3 · LessonCraftStudio",
+      "description": "Interne prototype van de heringerichte homepage. Niet geïndexeerd."
+    }
   }
 }

@@ -50,10 +50,17 @@ export default async function TierTransition({ locale = 'en' }: TierTransitionPr
                 We split into two visual lines to let the color flip
                 track the diagonal. */}
             <div className="text-center md:text-left max-w-md pr-0 md:pr-6 lg:pr-8">
-              <p className="font-lcsDisplay text-3xl md:text-4xl lg:text-[3rem] text-lcs-teal-deep italic leading-[1.05] font-bold -translate-y-3 md:-translate-y-4 lg:-translate-y-6">
+              {/* Color flip mid-2026-05-24: on mobile (flex-col), the mascot
+                  fills the cream upper half and BOTH text lines sit on the
+                  teal lower half, so Line 1 must be cream to remain readable.
+                  At md+ the layout is side-by-side and Line 1 sits over the
+                  cream half — teal-deep there. The translate-y offsets that
+                  spread the lines along the diagonal only make sense in the
+                  side-by-side composition, so they're gated to md+. */}
+              <p className="font-lcsDisplay text-3xl md:text-4xl lg:text-[3rem] text-lcs-cream md:text-lcs-teal-deep italic leading-[1.05] font-bold md:-translate-y-4 lg:-translate-y-6">
                 {t('line1')}
               </p>
-              <p className="font-lcsDisplay text-3xl md:text-4xl lg:text-[3rem] text-lcs-cream italic leading-[1.05] font-bold mt-2 translate-y-3 md:translate-y-4 lg:translate-y-6">
+              <p className="font-lcsDisplay text-3xl md:text-4xl lg:text-[3rem] text-lcs-cream italic leading-[1.05] font-bold mt-2 md:translate-y-4 lg:translate-y-6">
                 {t('line2')}<span className="text-lcs-coral">…</span>
               </p>
             </div>

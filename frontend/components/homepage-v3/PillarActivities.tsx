@@ -105,7 +105,17 @@ export default async function PillarActivities({ locale }: PillarActivitiesProps
             </div>
           </div>
 
-          <div className="relative min-h-[560px] md:min-h-[720px] lg:min-h-[780px]">
+          {/* Right column — card showcase.
+              On lg+ the container is a positioned canvas and the three
+              cards float at absolute offsets to produce the bold-overlap
+              composition. Below lg (tablet + mobile) the right-percentage
+              offsets push the leftmost card off-screen, so the container
+              switches to a vertical stack: flex-col with the foreground
+              EN card on top, then ES, then IT. DOM order is reordered to
+              match the stack; on lg+ explicit z-indexes preserve the
+              original visual stacking regardless of DOM order. Mobile
+              polish landed 2026-05-24. */}
+          <div className="relative flex flex-col items-center gap-12 md:gap-14 lg:block lg:min-h-[780px] lg:gap-0">
             <div
               aria-hidden="true"
               className="hidden lg:block absolute -top-2 -left-16 z-30 opacity-80"
@@ -115,29 +125,12 @@ export default async function PillarActivities({ locale }: PillarActivitiesProps
             </div>
             <div
               aria-hidden="true"
-              className="hv3-blob-coral absolute top-[20%] -right-[10%] w-[400px] h-[400px] rounded-full pointer-events-none"
+              className="hidden lg:block hv3-blob-coral lg:absolute lg:top-[20%] lg:-right-[10%] lg:w-[400px] lg:h-[400px] lg:rounded-full pointer-events-none"
             />
 
-            {/* Card 1 — language demonstration #1 (was IT, now per-locale). */}
-            <div className="absolute top-[10%] -left-[6%] w-[68%] z-0">
-              <ActivityCardPreview
-                variant="compact"
-                title={t('card1Title')}
-                prompt={t('card1Prompt')}
-                subjectImg="https://www.lessoncraftstudio.com/image-library-webp/themes/animals/cat@2x.webp"
-                subjectAlt={t('card1SubjectAlt')}
-                tiles={['gat', 'to']}
-                slotsFilled={false}
-                ccCode="RF.K.2.B"
-                gradeLabel={t('card1GradeLabel')}
-                checkLabel={t('card1CheckLabel')}
-                langChip="IT"
-                tilt={-5}
-              />
-            </div>
-
-            {/* Card 2 — foreground main card (was EN, now per-locale). */}
-            <div className="absolute top-[2%] right-0 w-[78%] z-10">
+            {/* Card 2 — foreground main card. First in mobile stack
+                (cognitive priority), middle absolute slot on lg+. */}
+            <div className="relative w-full max-w-[360px] sm:max-w-[420px] mx-auto lg:absolute lg:top-[2%] lg:right-0 lg:w-[78%] lg:max-w-none lg:mx-0 lg:z-10">
               <ActivityCardPreview
                 variant="full"
                 title={t('card2Title')}
@@ -155,14 +148,14 @@ export default async function PillarActivities({ locale }: PillarActivitiesProps
               />
             </div>
 
-            {/* Card 3 — bottom tilted card. Subject image + tiles are
-                LOCALE-COORDINATED with the syllabification of the
-                card3SubjectAlt. EN keeps horse/caballo (3 syll). DE swaps
-                to elephant/Elefant (3 syll: e-le-fant). The component
-                here uses a server-side branch on locale to render the
-                correct image + tiles; if you add a new locale, extend
-                this map. */}
-            <div className="absolute bottom-0 left-[4%] w-[64%] z-20">
+            {/* Card 3 — second in mobile stack (was bottom on lg).
+                Subject image + tiles are LOCALE-COORDINATED with the
+                syllabification of the card3SubjectAlt. EN keeps
+                horse/caballo (3 syll). DE swaps to elephant/Elefant
+                (3 syll: e-le-fant). The component here uses a
+                server-side branch on locale to render the correct image
+                + tiles; if you add a new locale, extend this map. */}
+            <div className="relative w-full max-w-[360px] sm:max-w-[420px] mx-auto lg:absolute lg:bottom-0 lg:left-[4%] lg:w-[64%] lg:max-w-none lg:mx-0 lg:z-20">
               {(() => {
                 // Per-locale subject + tiles map for Card 3. Keep at file
                 // level when more locales add coordinated variants.
@@ -233,9 +226,31 @@ export default async function PillarActivities({ locale }: PillarActivitiesProps
               })()}
             </div>
 
+            {/* Card 1 — language demonstration #1 (IT). Third in mobile
+                stack, back absolute slot on lg+. */}
+            <div className="relative w-full max-w-[360px] sm:max-w-[420px] mx-auto lg:absolute lg:top-[10%] lg:-left-[6%] lg:w-[68%] lg:max-w-none lg:mx-0 lg:z-0">
+              <ActivityCardPreview
+                variant="compact"
+                title={t('card1Title')}
+                prompt={t('card1Prompt')}
+                subjectImg="https://www.lessoncraftstudio.com/image-library-webp/themes/animals/cat@2x.webp"
+                subjectAlt={t('card1SubjectAlt')}
+                tiles={['gat', 'to']}
+                slotsFilled={false}
+                ccCode="RF.K.2.B"
+                gradeLabel={t('card1GradeLabel')}
+                checkLabel={t('card1CheckLabel')}
+                langChip="IT"
+                tilt={-5}
+              />
+            </div>
+
+            {/* Mascot — anchors to bottom-right of the showcase canvas
+                on lg+. Hidden below lg because the canvas collapses to
+                a vertical stack and absolute anchors lose their context. */}
             <div
               aria-hidden="true"
-              className="hidden md:block absolute -bottom-12 -right-8 z-30 w-[200px] lg:w-[240px] pointer-events-none hv3-float"
+              className="hidden lg:block lg:absolute lg:-bottom-12 lg:-right-8 z-30 w-[240px] pointer-events-none hv3-float"
               style={{ ['--rot' as string]: '4deg' } as React.CSSProperties}
             >
               <MascotPlaceholder

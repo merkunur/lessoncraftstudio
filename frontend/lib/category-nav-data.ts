@@ -173,9 +173,11 @@ export function buildCategories({
   const worksheetsKeys = filterByAvail(WORKSHEETS_ANCHOR_CANDIDATES);
   const interactiveKeys = filterByAvail(INTERACTIVE_ANCHOR_CANDIDATES);
 
-  // Dynamic browse-all destination per locale: first available axis-key.
-  const firstAvailable = availableExerciseTypes[0] || worksheetsKeys[0] || 'addition';
-  const browseAllTopicHref = `/${locale}/topic/${resolveAxisSlug(firstAvailable, locale)}/`;
+  // "Browse all" for both Worksheets + Interactive dropdowns lands on the
+  // localized /[locale]/worksheets/ catalog hub. Previously linked to the
+  // first available topic page; the hub became authoritative once
+  // /[locale]/worksheets/ chrome was localized in all 11 languages.
+  const browseAllWorksheetsHref = `/${locale}/worksheets/`;
 
   const worksheetsItems: DropdownItem[] = worksheetsKeys.map(key => ({
     href: `/${locale}/topic/${resolveAxisSlug(key, locale)}/`,
@@ -215,7 +217,7 @@ export function buildCategories({
       key: 'worksheets',
       label: t('worksheets'),
       items: worksheetsItems,
-      browseAllHref: browseAllTopicHref,
+      browseAllHref: browseAllWorksheetsHref,
       browseAllLabel: t('browseAll.worksheets'),
     },
     {
@@ -250,7 +252,7 @@ export function buildCategories({
       key: 'interactive',
       label: t('interactive'),
       items: interactiveItems,
-      browseAllHref: browseAllTopicHref,
+      browseAllHref: browseAllWorksheetsHref,
       browseAllLabel: t('browseAll.interactive'),
     },
   ];

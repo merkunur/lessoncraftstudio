@@ -73,7 +73,16 @@ export default async function HeroV3({ locale }: HeroV3Props) {
               </span>
             </h1>
 
-            <p className="hv3-anim-fade-up hv3-anim-d3 mt-7 md:mt-9 font-lcsBody text-lg md:text-xl text-lcs-cream/85 leading-relaxed max-w-xl">
+            {/* Keyword-bearing H2 — mirrors the homepage.meta.title per locale
+                so Google sees the same descriptive phrase in <title>, meta
+                description, and on-page heading. Brand voice stays in the H1
+                above; this H2 carries the search-intent signal. Added 2026-05
+                as Task C of the SEO cleanup follow-on commission. */}
+            <h2 className="hv3-anim-fade-up hv3-anim-d3 mt-5 md:mt-6 font-lcsDisplay font-semibold text-lcs-cream/90 leading-snug text-xl sm:text-2xl md:text-3xl max-w-xl">
+              {t('keywordHeading')}
+            </h2>
+
+            <p className="hv3-anim-fade-up hv3-anim-d3 mt-5 md:mt-6 font-lcsBody text-lg md:text-xl text-lcs-cream/85 leading-relaxed max-w-xl">
               {t('body')}
             </p>
 

@@ -315,7 +315,10 @@ function auditHomepages() {
   }
 
   // ─── Schema checks ───
-  if (source.includes('generateHomepageSchemas')) {
+  // Live homepage uses inline buildSchemas() in [locale]/page.tsx (post 2026-05
+  // SEO cleanup); the dead generateHomepageSchemas helper was removed. Check
+  // for either the inline call OR a JSON-LD type marker.
+  if (source.includes('buildSchemas(') || source.includes('@type":"Organization')) {
     addPass('homepage', 'all');
   } else {
     addIssue(SEVERITY.HIGH, 'homepage', 'all', 'page.tsx', 'schema',
@@ -548,7 +551,8 @@ function auditSchemaGenerator() {
     { name: 'generateBlogSchemas', label: 'BlogPosting schema' },
     { name: 'generateFAQSchema', label: 'FAQ schema' },
     { name: 'generateHowToSchema', label: 'HowTo schema' },
-    { name: 'generateHomepageSchemas', label: 'Homepage schemas' },
+    // generateHomepageSchemas removed 2026-05 SEO cleanup; live homepage uses inline
+    // buildSchemas() in frontend/app/[locale]/page.tsx instead.
     { name: 'generateAllProductPageSchemas', label: 'Product page schemas' },
     { name: 'generateImageObjectSchema', label: 'ImageObject schema' },
     { name: 'generateImageGallerySchema', label: 'ImageGallery schema' },

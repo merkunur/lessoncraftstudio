@@ -383,22 +383,22 @@
     },
     "serviceDescription": {
       "title": "2. PALVELUN KUVAUS",
-      "content": "LessonCraftStudio tarjoaa tehtäväarkki- ja pulmageneraattoreita monikielisille K-3-luokille. Ilmainen käyttö kattaa henkilökohtaisen, luokkahuone- ja ei-kaupallisen käytön. Maksullisiin tuotteisiin (kertaostot) sisältyvät täydet kaupalliset oikeudet, ja ne aktivoidaan lisenssiavaimella, joka lähetetään sähköpostiisi oston jälkeen."
+      "content": "LessonCraftStudio tarjoaa ilmaisia tehtäväarkkeja ja tehtäväarkkigeneraattorityökaluja monikielisiin K-3-luokkahuoneisiin. Kaikki generaattorit ja luodut tehtäväarkit ovat ilmaisia käyttää yhtenäisellä lisenssillä (katso Lisenssiehdot). Maksullista tasoa ei tällä hetkellä tarjota; jos sellainen otetaan käyttöön tulevaisuudessa, sama yhtenäinen lisenssi pätee tasosta riippumatta."
     },
     "userAccounts": {
       "title": "3. KÄYTTÄJÄTILIT",
-      "requirements": "Vaatimukset:",
-      "age": "Vähimmäisikä: 18 vuotta",
-      "accurate": "Tarkat rekisteröintitiedot",
-      "security": "Tilin turvallisuuden ylläpito",
-      "responsible": "Vastuu tilin toiminnoista"
+      "requirements": "Vaatimukset (kun tili luodaan):",
+      "age": "Vähimmäisikä: 18 vuotta tilin luomiseen",
+      "accurate": "Voimassa oleva sähköpostiosoite, jota käytetään tiliin liittyvään viestintään",
+      "security": "Säilytä tilisi tunnistetietojen turvallisuus — älä jaa niitä",
+      "responsible": "Vastuu tililläsi tapahtuvasta toiminnasta"
     },
     "paymentTerms": {
       "title": "4. MAKSUEHDOT",
-      "pricing": "Voimassa olevat hinnat näytetään rekisteröinnin yhteydessä",
-      "billing": "Toistuva laskutus valitun tilauksen mukaan",
-      "refunds": "Ei hyvitystä osittaisista kausista",
-      "changes": "Hintojen muutoksista ilmoitetaan 30 päivää etukäteen"
+      "pricing": "Maksullista tasoa ei tällä hetkellä tarjota.",
+      "billing": "Maksuehdot julkaistaan ennen minkään maksullisen tuotteen käyttöönottoa.",
+      "refunds": "Palautusehdot julkaistaan yhdessä mahdollisen maksullisen tuotteen kanssa.",
+      "changes": "Ilmoitamme etukäteen, jos maksullinen taso otetaan käyttöön ja näitä ehtoja muutetaan."
     },
     "acceptableUse": {
       "title": "5. HYVÄKSYTTÄVÄ KÄYTTÖ",
@@ -411,7 +411,7 @@
     },
     "intellectualProperty": {
       "title": "6. IMMATERIAALIOIKEUDET",
-      "content": "Alusta ja työkalut pysyvät meidän omaisuutenamme. Sisältösi pysyy sinun. Luotu sisältö lisensoidaan tilauksen mukaan."
+      "content": "Alusta, generaattorit, lähdekoodi ja kuvakirjasto pysyvät meidän omaisuutenamme. Generaattoreillamme luomasi sisältö lisensoidaan sinulle Lisenssiehdoissa kuvatun yhtenäisen lisenssin mukaisesti. Itse tehtäväarkit pysyvät LessonCraftStudion sisältönä, eikä niitä saa jälleenmyydä tai jakaa edelleen erillisinä tuotteina."
     },
     "termination": {
       "title": "7. IRTISANOMINEN",
@@ -544,10 +544,10 @@
     "effectiveDate": "Tammikuu 2025",
     "grantOfLicense": {
       "title": "1. LISENSSIN MYÖNTÄMINEN",
-      "intro": "LessonCraftStudio myöntää sinulle lisenssin käyttää luotua sisältöä tilauksesi perusteella:",
-      "freeTier": "Ilmainen käyttö: Kaikki generaattorit ovat ilmaisia käyttää. Tulokset ovat henkilökohtaiseen, luokkahuone- ja ei-kaupalliseen käyttöön.",
-      "coreBundle": "Maksulliset tuotteet (kertaosto): Täydet kaupalliset oikeudet. Luo rajoittamattomasti sisältöä ja myy millä tahansa valitsemallasi alustalla. Lähdeviittausta ei vaadita.",
-      "fullAccess": "Täysi pääsy: Rajoittamaton kaupallinen käyttö mukaan lukien print-on-demand ja jälleenmyynti"
+      "intro": "LessonCraftStudio myöntää sinulle lisenssin käyttää tehtäväarkkigeneraattoreitaan ja luotua sisältöä. Sama lisenssi koskee kaikkia käyttäjiä ja kaikkia nykyisiä tasoja:",
+      "freeTier": "Ilmainen käyttö (tällä hetkellä ainoa saatavilla oleva taso): Kaikki generaattorit ja luodut tehtäväarkit ovat ilmaisia käyttää. Tehtäväarkkeja voidaan käyttää henkilökohtaiseen, luokkahuone-, kotiopetus- ja muuhun opetuskäyttöön — mukaan lukien maksullinen opetus, kuten tutorointi tai maksulliset kurssit. Tehtäväarkkeja EI saa jälleenmyydä, jakaa edelleen tai julkaista uudelleen erillisenä tuotteena.",
+      "coreBundle": "Maksulliset tasot (eivät tällä hetkellä saatavilla): Maksullista tasoa ei tällä hetkellä tarjota. Jos maksullinen taso otetaan käyttöön tulevaisuudessa, sama yhtenäinen lisenssi pätee — maksulliset tasot voivat lisätä ominaisuuksia tai rajoituksia, mutta eivät myönnä lisälisenssi- tai jälleenmyyntioikeuksia.",
+      "fullAccess": "Lisenssiavain (tarvittaessa): Jos maksullinen taso otetaan käyttöön ja ostat käyttöoikeuden, lisenssiavain sidotaan oston yhteydessä käytettyyn sähköpostiosoitteeseen. Yllä olevat yhtenäiset lisenssiehdot pätevät tasosta riippumatta."
     },
     "intellectualProperty": {
       "title": "2. IMMATERIAALIOIKEUDET",
@@ -563,13 +563,13 @@
       "illegal": "Käyttää laittomiin tarkoituksiin"
     },
     "commercialDistribution": {
-      "title": "4. KAUPALLINEN JAKELU",
-      "pod": "Print-on-demand-oikeudet: Maksullisen lisenssin haltijat voivat myydä rajoittamattomia kopioita luodusta sisällöstä minkä tahansa print-on-demand-palvelun kautta.",
-      "digital": "Digitaalinen jakelu: Maksullisen lisenssin haltijat voivat myydä luodun sisällön digitaalisia latauksia millä tahansa valitsemallaan alustalla. Rojalteja tai lähdeviittausta ei vaadita."
+      "title": "4. JÄLLEENMYYNTIRAJOITUS",
+      "pod": "Tiedostojen jälleenmyyntikielto: Tehtäväarkkeja ja luotua sisältöä ei saa jälleenmyydä, jakaa edelleen tai julkaista uudelleen erillisinä tuotteina missään muodossa (painettu, print-on-demand, digitaalinen lataus, kauppapaikkailmoitus tai muutoin).",
+      "digital": "Maksullinen opetus sallittu: Sallittu käyttö sisältää henkilökohtaisen, luokkahuone-, kotiopetus- ja maksullisen opetuskäytön (tutorointi, kurssit, lähi- ja verkko-opetus). Itse tehtäväarkit pysyvät LessonCraftStudion sisältönä; tarjoamasi opetuspalvelu, jossa niitä käytetään, on sinun."
     },
     "termination": {
       "title": "5. IRTISANOMINEN",
-      "content": "Voimme irtisanoa rikkomuksen vuoksi 30 päivän varoitusajalla. Voimassa olevan tilauksen aikana luotu sisältö pysyy lisensoituna."
+      "content": "Voimme irtisanoa lisenssisi näiden ehtojen rikkomisen vuoksi 30 päivän kirjallisella ennakkoilmoituksella. Ennen irtisanomista luotu sisältö pysyy lisensoituna jatkuvaan henkilökohtaiseen, luokkahuone-, kotiopetus- ja maksulliseen opetuskäyttöön kohdan 1 mukaisesti; kohdan 4 jälleenmyyntirajoitus pysyy voimassa."
     },
     "warrantyDisclaimer": {
       "title": "6. TAKUUN VASTUUVAPAUSLAUSEKE",
@@ -590,7 +590,8 @@
     "contact": {
       "title": "10. YHTEYSTIEDOT",
       "content": "Lisenssikysymykset: license@lessoncraftstudio.com"
-    }
+    },
+    "metaDescription": "LessonCraftStudion lisenssiehdot. Ilmaiset K-3-tehtäväarkit ja toiminnot; yksi yhtenäinen lisenssi kaikille käyttäjille; henkilökohtainen, luokkahuone- ja maksullinen opetuskäyttö sallittu; ei tehtäväarkkitiedostojen jälleenmyyntiä."
   },
   "faq": {
     "metaTitle": "Usein kysytyt kysymykset - LessonCraftStudio",
@@ -683,28 +684,31 @@
     },
     "tiers": {
       "free": {
-        "description": "Täydellinen tutustumiseen",
+        "description": "Ilmainen kaikille — tällä hetkellä ainoa saatavilla oleva taso.",
         "features": [
-          "Sananhakugeneraattori",
-          "Rajaton määrä tehtävämonisteja",
-          "Vesileimalla"
-        ]
+          "Kaikki tehtäväarkkigeneraattorit",
+          "Rajaton tehtäväarkkien luominen",
+          "Tulostusvalmiit PDF-lataukset"
+        ],
+        "availability": "available"
       },
       "core": {
-        "description": "Täydellinen monikieliseen luokkahuoneeseen",
+        "description": "Ei tällä hetkellä saatavilla.",
         "features": [
-          "10 suosituinta generaattoria",
-          "Rajaton määrä tehtävämonisteja",
-          "Ilman vesileimaa"
-        ]
+          "Ei tällä hetkellä saatavilla",
+          "Rajaton tehtäväarkkien luominen",
+          "Tulostusvalmiit PDF-lataukset"
+        ],
+        "availability": "not-currently-available"
       },
       "full": {
-        "description": "Täysi ratkaisu ammattilaisille",
+        "description": "Ei tällä hetkellä saatavilla.",
         "features": [
-          "Kaikki generaattorimme",
-          "Rajaton määrä tehtävämonisteja",
-          "Ilman vesileimaa"
-        ]
+          "Ei tällä hetkellä saatavilla",
+          "Rajaton tehtäväarkkien luominen",
+          "Tulostusvalmiit PDF-lataukset"
+        ],
+        "availability": "not-currently-available"
       }
     },
     "categories": {
@@ -917,38 +921,36 @@
     "tiers": {
       "FREE": {
         "name": "Ilmainen",
-        "description": "Täydellinen tutustumiseen",
+        "description": "Ilmainen kaikille — tällä hetkellä ainoa saatavilla oleva taso.",
         "features": [
-          "Vain sananhakugeneraattori",
-          "Rajaton määrä tehtävämonisteja",
-          "Vesileimalla",
+          "Kaikki tehtäväarkkigeneraattorit",
+          "Rajaton tehtäväarkkien luominen",
+          "Tulostusvalmiit PDF-lataukset",
           "Yhteisötuki"
-        ]
+        ],
+        "availability": "available"
       },
       "CORE": {
         "name": "Perus",
-        "description": "Täydellinen monikieliseen luokkahuoneeseen",
+        "description": "Ei tällä hetkellä saatavilla.",
         "features": [
-          "Pääsy 10 suosituimpaan generaattoriin",
-          "Rajaton määrä tehtävämonisteja",
-          "Ilman vesileimaa",
-          "PDF-lataukset korkealaatuisina",
-          "Premium-pohjat",
+          "Ei tällä hetkellä saatavilla",
+          "Rajaton tehtäväarkkien luominen",
+          "Tulostusvalmiit PDF-lataukset",
           "Sähköpostituki"
-        ]
+        ],
+        "availability": "not-currently-available"
       },
       "FULL": {
         "name": "Premium",
-        "description": "Täysi ratkaisu ammattilaisille",
+        "description": "Ei tällä hetkellä saatavilla.",
         "features": [
-          "Pääsy kaikkiin generaattoreihin",
-          "Rajaton määrä tehtävämonisteja",
-          "Ilman vesileimaa",
-          "PDF-lataukset korkealaatuisina",
-          "Kaikki premium-pohjat",
-          "Ensisijainen sähköpostituki",
-          "Kaupallinen lisenssi sisältyy"
-        ]
+          "Ei tällä hetkellä saatavilla",
+          "Rajaton tehtäväarkkien luominen",
+          "Tulostusvalmiit PDF-lataukset",
+          "Ensisijainen sähköpostituki"
+        ],
+        "availability": "not-currently-available"
       }
     }
   },

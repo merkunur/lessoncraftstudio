@@ -293,22 +293,22 @@
     },
     "serviceDescription": {
       "title": "2. DESCRIPCIÓN DEL SERVICIO",
-      "content": "LessonCraftStudio ofrece herramientas para crear fichas educativas en tres planes: Gratuito (limitado), Core (ampliado) y Acceso Completo (ilimitado)."
+      "content": "LessonCraftStudio ofrece hojas de trabajo y generadores de hojas de trabajo gratuitos para aulas K-3 multilingües. Todos los generadores y las hojas de trabajo generadas son de uso gratuito bajo una licencia uniforme (véanse las Condiciones de licencia). No se ofrece actualmente ningún plan de pago; si se introduce uno en el futuro, se aplicará la misma licencia uniforme independientemente del plan."
     },
     "userAccounts": {
       "title": "3. CUENTAS DE USUARIO",
-      "requirements": "Requisitos:",
-      "age": "Edad mínima: 18 años",
-      "accurate": "Información de registro precisa",
-      "security": "Mantener la seguridad de la cuenta",
-      "responsible": "Responsabilidad de las actividades de la cuenta"
+      "requirements": "Requisitos (cuando se crea una cuenta):",
+      "age": "Edad mínima: 18 años para crear una cuenta",
+      "accurate": "Dirección de correo electrónico válida para las comunicaciones de la cuenta",
+      "security": "Mantenga la seguridad de las credenciales de su cuenta — no las comparta",
+      "responsible": "Responsabilidad por la actividad realizada bajo su cuenta"
     },
     "paymentTerms": {
       "title": "4. CONDICIONES DE PAGO",
-      "pricing": "Precios actuales mostrados al registrarse",
-      "billing": "Facturación recurrente según el plan elegido",
-      "refunds": "Sin reembolsos por períodos parciales",
-      "changes": "Cambios de precio con 30 días de aviso"
+      "pricing": "No se ofrece actualmente ningún plan de pago.",
+      "billing": "Las condiciones de pago se publicarán antes de introducir cualquier producto de pago.",
+      "refunds": "Las condiciones de reembolso se publicarán junto con cualquier producto de pago.",
+      "changes": "Avisaremos con la debida antelación si se introduce un plan de pago y estas condiciones cambian."
     },
     "acceptableUse": {
       "title": "5. USO ACEPTABLE",
@@ -321,7 +321,7 @@
     },
     "intellectualProperty": {
       "title": "6. PROPIEDAD INTELECTUAL",
-      "content": "La plataforma y las herramientas siguen siendo nuestra propiedad. Sus contenidos siguen siendo suyos. El contenido generado se licencia según la suscripción."
+      "content": "La plataforma, los generadores, el código fuente y la biblioteca de imágenes siguen siendo nuestra propiedad. Los contenidos que cree utilizando nuestros generadores se le licencian bajo la licencia uniforme descrita en las Condiciones de licencia. Las hojas de trabajo en sí siguen siendo contenido de LessonCraftStudio y no pueden revenderse ni redistribuirse como productos autónomos."
     },
     "termination": {
       "title": "7. TERMINACIÓN",
@@ -359,14 +359,15 @@
   },
   "license": {
     "title": "Términos de licencia",
+    "metaDescription": "Términos de licencia de LessonCraftStudio. Hojas de trabajo y actividades K-3 gratis; una licencia uniforme para todos los usuarios; uso personal, en el aula y en enseñanza remunerada permitido; sin reventa de los archivos de las hojas de trabajo.",
     "lastUpdated": "Última actualización",
     "effectiveDate": "Enero 2025",
     "grantOfLicense": {
       "title": "1. CONCESIÓN DE LICENCIA",
-      "intro": "LessonCraftStudio le otorga una licencia para usar el contenido generado según su suscripción:",
-      "freeTier": "Gratuito: Solo uso educativo personal no comercial",
-      "coreBundle": "Core: Uso educativo comercial en su institución",
-      "fullAccess": "Acceso Completo: Uso comercial ilimitado incluyendo impresión bajo demanda y reventa"
+      "intro": "LessonCraftStudio le otorga una licencia para usar sus generadores de hojas de trabajo y los contenidos generados. La misma licencia se aplica a todos los usuarios y a todos los planes actuales:",
+      "freeTier": "Uso gratuito (actualmente el único plan disponible): Todos los generadores y las hojas de trabajo generadas son de uso gratuito. Las hojas de trabajo pueden utilizarse con fines personales, escolares, de educación en casa y otros fines educativos — incluida la enseñanza remunerada, como clases particulares o cursos pagos. Las hojas de trabajo NO pueden revenderse, redistribuirse ni reeditarse como producto autónomo.",
+      "coreBundle": "Planes de pago (no disponibles actualmente): Actualmente no se ofrece ningún plan de pago. Si se introduce un plan de pago en el futuro, se aplicará la misma licencia uniforme anterior — los planes de pago podrán añadir funciones o límites, pero no otorgan derechos adicionales de licencia ni de reventa.",
+      "fullAccess": "Clave de licencia (cuando proceda): Si se introduce un plan de pago y usted adquiere acceso, su clave de licencia quedará vinculada a la dirección de correo electrónico utilizada en la compra. Las condiciones de licencia uniforme anteriores se aplican con independencia del plan."
     },
     "intellectualProperty": {
       "title": "2. PROPIEDAD INTELECTUAL",
@@ -382,13 +383,13 @@
       "illegal": "Usar para fines ilegales"
     },
     "commercialDistribution": {
-      "title": "4. DISTRIBUCIÓN COMERCIAL",
-      "pod": "Impresión bajo demanda: Los suscriptores de Acceso Completo pueden vender ilimitadamente a través de plataformas de impresión bajo demanda.",
-      "digital": "Distribución digital: Todos los niveles pueden distribuir versiones digitales según su licencia."
+      "title": "4. PROHIBICIÓN DE REVENTA",
+      "pod": "Sin reventa de los archivos: las hojas de trabajo y los contenidos generados no pueden revenderse, redistribuirse ni reeditarse como productos autónomos en ningún formato (impreso, impresión bajo demanda, descarga digital, anuncio en marketplaces u otros).",
+      "digital": "Enseñanza remunerada permitida: el uso permitido incluye los contextos personal, escolar, de educación en casa y de enseñanza remunerada (clases particulares, cursos, clases presenciales y en línea). Las hojas de trabajo en sí siguen siendo contenido de LessonCraftStudio; el servicio educativo que usted preste utilizándolas le pertenece."
     },
     "termination": {
       "title": "5. TERMINACIÓN",
-      "content": "Podemos terminar por incumplimiento con 30 días de aviso. El contenido creado durante una suscripción válida permanece licenciado."
+      "content": "Podemos rescindir su licencia por incumplimiento de estos términos con un aviso por escrito de 30 días. El contenido creado antes de la rescisión sigue licenciado para uso continuado personal, escolar, de educación en casa y de enseñanza remunerada según la Sección 1; la prohibición de reventa de la Sección 4 sigue siendo aplicable."
     },
     "warrantyDisclaimer": {
       "title": "6. EXENCIÓN DE GARANTÍA",
@@ -590,37 +591,35 @@
     "tiers": {
       "FREE": {
         "name": "Gratis",
-        "description": "Perfecto para probar la plataforma",
+        "description": "Gratis para todos — actualmente el único plan disponible.",
+        "availability": "available",
         "features": [
-          "Solo generador de sopa de letras",
-          "Fichas ilimitadas",
-          "Con marca de agua",
+          "Todos los generadores de hojas de trabajo",
+          "Hojas de trabajo ilimitadas",
+          "Descargas en PDF listas para imprimir",
           "Soporte de la comunidad"
         ]
       },
       "CORE": {
         "name": "Paquete Esencial",
-        "description": "Ideal para un aula multilingüe",
+        "description": "No disponible actualmente.",
+        "availability": "not-currently-available",
         "features": [
-          "Acceso a 10 generadores populares",
-          "Fichas ilimitadas",
-          "Sin marca de agua",
-          "Descargas PDF de alta calidad",
-          "Plantillas premium",
+          "No disponible actualmente",
+          "Hojas de trabajo ilimitadas",
+          "Descargas en PDF listas para imprimir",
           "Soporte por correo electrónico"
         ]
       },
       "FULL": {
         "name": "Acceso Completo",
-        "description": "La solución completa para profesionales",
+        "description": "No disponible actualmente.",
+        "availability": "not-currently-available",
         "features": [
-          "Acceso a todos todos nuestros generadores",
-          "Fichas ilimitadas",
-          "Sin marca de agua",
-          "Descargas PDF de alta calidad",
-          "Todas las plantillas premium",
-          "Soporte prioritario por correo",
-          "Licencia comercial incluida"
+          "No disponible actualmente",
+          "Hojas de trabajo ilimitadas",
+          "Descargas en PDF listas para imprimir",
+          "Soporte prioritario por correo"
         ]
       }
     }
@@ -1244,27 +1243,30 @@
     },
     "tiers": {
       "free": {
-        "description": "Perfecto para probar la plataforma",
+        "description": "Gratis para todos — actualmente el único plan disponible.",
+        "availability": "available",
         "features": [
-          "Generador de sopa de letras",
-          "Fichas ilimitadas",
-          "Con marca de agua"
+          "Todos los generadores de hojas de trabajo",
+          "Hojas de trabajo ilimitadas",
+          "Descargas en PDF listas para imprimir"
         ]
       },
       "core": {
-        "description": "Ideal para un aula multilingüe",
+        "description": "No disponible actualmente.",
+        "availability": "not-currently-available",
         "features": [
-          "Los 10 generadores más populares",
-          "Fichas ilimitadas",
-          "Sin marca de agua"
+          "No disponible actualmente",
+          "Hojas de trabajo ilimitadas",
+          "Descargas en PDF listas para imprimir"
         ]
       },
       "full": {
-        "description": "La solución completa para profesionales",
+        "description": "No disponible actualmente.",
+        "availability": "not-currently-available",
         "features": [
-          "todos nuestros generadores",
-          "Fichas ilimitadas",
-          "Sin marca de agua"
+          "No disponible actualmente",
+          "Hojas de trabajo ilimitadas",
+          "Descargas en PDF listas para imprimir"
         ]
       }
     },

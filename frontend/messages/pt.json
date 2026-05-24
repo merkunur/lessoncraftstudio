@@ -383,22 +383,22 @@
     },
     "serviceDescription": {
       "title": "2. DESCRIÇÃO DO SERVIÇO",
-      "content": "O LessonCraftStudio oferece geradores de fichas e quebra-cabeças para salas K-3 multilíngues. O uso gratuito cobre uso pessoal, em sala de aula e não comercial. Os produtos pagos (compra única) incluem direitos comerciais completos e são ativados com uma chave de licença enviada para o seu email após a compra."
+      "content": "O LessonCraftStudio oferece ferramentas gratuitas de criação de fichas e geradores de fichas para salas de aula K-3 multilíngues. Todos os geradores e as fichas geradas são gratuitos e disponibilizados sob uma licença uniforme (consulte as Condições de Licença). No momento, nenhum nível pago é oferecido; caso seja introduzido no futuro, a mesma licença uniforme se aplica independentemente do nível."
     },
     "userAccounts": {
       "title": "3. CONTAS DE USUÁRIO",
-      "requirements": "Requisitos:",
-      "age": "Idade mínima: 18 anos",
-      "accurate": "Informações de registro precisas",
-      "security": "Manter a segurança da conta",
-      "responsible": "Responsabilidade pelas atividades da conta"
+      "requirements": "Requisitos (caso uma conta seja criada):",
+      "age": "Idade mínima: 18 anos para criar uma conta",
+      "accurate": "Endereço de email válido utilizado para as comunicações da conta",
+      "security": "Manter a segurança das credenciais da conta — não compartilhe",
+      "responsible": "Responsabilidade pelas atividades realizadas em sua conta"
     },
     "paymentTerms": {
       "title": "4. CONDIÇÕES DE PAGAMENTO",
-      "pricing": "Preços atuais exibidos no cadastro",
-      "billing": "Cobrança recorrente conforme plano escolhido",
-      "refunds": "Sem reembolsos por períodos parciais",
-      "changes": "Alterações de preço com 30 dias de aviso"
+      "pricing": "No momento, nenhum nível pago é oferecido.",
+      "billing": "As condições de pagamento serão publicadas antes da introdução de qualquer produto pago.",
+      "refunds": "As condições de reembolso serão publicadas com qualquer produto pago.",
+      "changes": "Forneceremos aviso prévio caso um nível pago seja introduzido e estas condições mudem."
     },
     "acceptableUse": {
       "title": "5. USO ACEITÁVEL",
@@ -411,7 +411,7 @@
     },
     "intellectualProperty": {
       "title": "6. PROPRIEDADE INTELECTUAL",
-      "content": "A plataforma e as ferramentas permanecem como nossa propriedade. Seus conteúdos permanecem seus. O conteúdo gerado é licenciado conforme a assinatura."
+      "content": "A plataforma, os geradores, o código-fonte e a biblioteca de imagens permanecem como nossa propriedade. O conteúdo criado por você utilizando nossos geradores é licenciado conforme a licença uniforme descrita nas Condições de Licença. As fichas em si permanecem conteúdo do LessonCraftStudio e não podem ser revendidas ou redistribuídas como produtos autônomos."
     },
     "termination": {
       "title": "7. RESCISÃO",
@@ -544,10 +544,10 @@
     "effectiveDate": "Janeiro 2025",
     "grantOfLicense": {
       "title": "1. CONCESSÃO DE LICENÇA",
-      "intro": "O LessonCraftStudio concede a você uma licença para usar seus geradores de fichas e o conteúdo gerado com base na sua compra:",
-      "freeTier": "Uso gratuito: Todos os geradores são gratuitos. A produção é para uso pessoal, em sala de aula e não comercial.",
-      "coreBundle": "Produtos pagos (compra única): Direitos comerciais completos. Crie conteúdo ilimitado e venda em qualquer plataforma que escolher. Nenhuma atribuição exigida.",
-      "fullAccess": "Ativação da chave de licença: Os produtos pagos são ativados com uma chave de licença vinculada ao endereço de email usado na compra. Cada chave de licença é para um único usuário."
+      "intro": "O LessonCraftStudio concede a você uma licença para usar seus geradores de fichas e o conteúdo gerado. A mesma licença se aplica a todos os usuários e a todos os níveis atualmente disponíveis:",
+      "freeTier": "Uso gratuito (atualmente o único nível disponível): Todos os geradores e as fichas geradas são gratuitos. As fichas podem ser usadas para fins pessoais, em sala de aula, em ensino domiciliar e outros fins educacionais — incluindo atividades de ensino remuneradas como aulas particulares ou cursos pagos. As fichas NÃO podem ser revendidas, redistribuídas ou republicadas como produto autônomo.",
+      "coreBundle": "Níveis pagos (não disponíveis atualmente): No momento, nenhum nível pago é oferecido. Caso um nível pago seja introduzido no futuro, a mesma licença uniforme acima se aplica — níveis pagos podem acrescentar recursos ou limites, mas não concedem direitos adicionais de licenciamento ou revenda.",
+      "fullAccess": "Chave de licença (quando aplicável): Caso um nível pago seja introduzido e você adquira acesso, sua chave de licença será vinculada ao endereço de email utilizado na compra. As condições de licença uniformes acima se aplicam independentemente do nível."
     },
     "intellectualProperty": {
       "title": "2. PROPRIEDADE INTELECTUAL",
@@ -563,14 +563,15 @@
       "illegal": "Usar para fins ilegais"
     },
     "commercialDistribution": {
-      "title": "4. DISTRIBUIÇÃO COMERCIAL",
-      "pod": "Direitos de impressão sob demanda: Os titulares de licença paga podem vender cópias ilimitadas do conteúdo gerado por meio de qualquer serviço de impressão sob demanda.",
-      "digital": "Distribuição digital: Os titulares de licença paga podem vender downloads digitais do conteúdo gerado em qualquer plataforma que escolherem. Sem royalties ou atribuição obrigatória."
+      "title": "4. RESTRIÇÃO DE REVENDA",
+      "pod": "Vedação à revenda dos arquivos: As fichas e o conteúdo gerado não podem ser revendidos, redistribuídos ou republicados como produtos autônomos em nenhum formato (impressão, impressão sob demanda, download digital, anúncio em marketplace ou outro).",
+      "digital": "Uso para ensino remunerado permitido: O uso permitido inclui contextos pessoais, em sala de aula, em ensino domiciliar e em ensino remunerado (aulas particulares, cursos, aulas presenciais e online). As fichas em si permanecem conteúdo do LessonCraftStudio; o serviço educacional que você prestar utilizando-as é seu."
     },
     "termination": {
       "title": "5. RESCISÃO",
-      "content": "Podemos rescindir por violação com 30 dias de aviso. O conteúdo criado durante uma assinatura válida permanece licenciado."
+      "content": "Podemos rescindir sua licença por violação destas condições mediante aviso por escrito com 30 dias de antecedência. O conteúdo criado antes da rescisão permanece licenciado para uso continuado pessoal, em sala de aula, em ensino domiciliar e em ensino remunerado nos termos da Seção 1; a restrição de revenda da Seção 4 permanece aplicável."
     },
+    "metaDescription": "Condições de licença do LessonCraftStudio. Fichas e atividades K-3 gratis; uma licença uniforme para todos os usuários; uso pessoal, em sala de aula e em ensino remunerado permitido; sem revenda dos arquivos das fichas.",
     "warrantyDisclaimer": {
       "title": "6. ISENÇÃO DE GARANTIA",
       "content": "Serviço fornecido COMO ESTÁ sem garantias. Não garantimos adequação para fins específicos."
@@ -683,27 +684,33 @@
     },
     "tiers": {
       "free": {
-        "description": "Perfeito para conhecer a plataforma",
+        "description": "Gratis para todos — atualmente o único nível disponível.",
+        "availability": "available",
         "features": [
-          "Gerador de caça-palavras",
-          "Atividades ilimitadas",
-          "Com marca d'água"
+          "Todos os geradores de fichas",
+          "Geração ilimitada de fichas",
+          "Downloads PDF prontos para imprimir",
+          "Suporte da comunidade"
         ]
       },
       "core": {
-        "description": "Ideal para construir seu negócio de imprimíveis",
+        "description": "Não disponível atualmente.",
+        "availability": "not-currently-available",
         "features": [
-          "Os 10 geradores mais populares",
-          "Atividades ilimitadas",
-          "Sem marca d'água"
+          "Não disponível atualmente",
+          "Geração ilimitada de fichas",
+          "Downloads PDF prontos para imprimir",
+          "Suporte por e-mail"
         ]
       },
       "full": {
-        "description": "A solução completa para profissionais",
+        "description": "Não disponível atualmente.",
+        "availability": "not-currently-available",
         "features": [
-          "Todos todos os nossos geradores",
-          "Atividades ilimitadas",
-          "Sem marca d'água"
+          "Não disponível atualmente",
+          "Geração ilimitada de fichas",
+          "Downloads PDF prontos para imprimir",
+          "Suporte prioritário por e-mail"
         ]
       }
     },
@@ -925,37 +932,35 @@
     "tiers": {
       "FREE": {
         "name": "Gratuito",
-        "description": "Perfeito para conhecer a plataforma",
+        "description": "Gratis para todos — atualmente o único nível disponível.",
+        "availability": "available",
         "features": [
-          "Apenas gerador de caça-palavras",
-          "Atividades ilimitadas",
-          "Com marca d'água",
+          "Todos os geradores de fichas",
+          "Geração ilimitada de fichas",
+          "Downloads PDF prontos para imprimir",
           "Suporte da comunidade"
         ]
       },
       "CORE": {
         "name": "Pacote Essencial",
-        "description": "Perfeito para uma sala de aula multilíngue",
+        "description": "Não disponível atualmente.",
+        "availability": "not-currently-available",
         "features": [
-          "Acesso a 10 geradores populares",
-          "Atividades ilimitadas",
-          "Sem marca d'água",
-          "Downloads PDF de alta qualidade",
-          "Modelos premium",
+          "Não disponível atualmente",
+          "Geração ilimitada de fichas",
+          "Downloads PDF prontos para imprimir",
           "Suporte por e-mail"
         ]
       },
       "FULL": {
         "name": "Acesso Completo",
-        "description": "A solução completa para profissionais",
+        "description": "Não disponível atualmente.",
+        "availability": "not-currently-available",
         "features": [
-          "Acesso a todos todos os nossos geradores",
-          "Atividades ilimitadas",
-          "Sem marca d'água",
-          "Downloads PDF de alta qualidade",
-          "Todos os modelos premium",
-          "Suporte prioritário por e-mail",
-          "Licença comercial incluída"
+          "Não disponível atualmente",
+          "Geração ilimitada de fichas",
+          "Downloads PDF prontos para imprimir",
+          "Suporte prioritário por e-mail"
         ]
       }
     }

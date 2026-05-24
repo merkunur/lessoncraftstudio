@@ -296,22 +296,22 @@
     },
     "serviceDescription": {
       "title": "2. SERVICE DESCRIPTION",
-      "content": "LessonCraftStudio provides worksheet and puzzle generator tools for K-3 multilingual classrooms. Free use covers personal, classroom, and non-commercial use. Paid products (one-time purchases) include full commercial rights and are activated with a license key delivered to your email after purchase."
+      "content": "LessonCraftStudio provides free worksheet and worksheet-generator tools for K-3 multilingual classrooms. All generators and generated worksheets are free to use under a uniform license (see License Terms). No paid tier is currently offered; if introduced in the future, the same uniform license applies regardless of tier."
     },
     "userAccounts": {
       "title": "3. USER ACCOUNTS",
-      "requirements": "Requirements:",
-      "age": "Minimum age: 18 years",
-      "accurate": "Valid email address for license key delivery",
-      "security": "Maintain security of your license key — do not share it",
-      "responsible": "Responsibility for all activity under your license"
+      "requirements": "Requirements (when an account is created):",
+      "age": "Minimum age: 18 years to create an account",
+      "accurate": "Valid email address used for account communications",
+      "security": "Maintain security of your account credentials — do not share them",
+      "responsible": "Responsibility for activity under your account"
     },
     "paymentTerms": {
       "title": "4. PAYMENT TERMS",
-      "pricing": "Pricing displayed on our sales pages at time of purchase",
-      "billing": "One-time payment — no recurring charges or subscriptions",
-      "refunds": "30-day money-back guarantee on all purchases",
-      "changes": "Prices may change; your purchase price is locked in permanently"
+      "pricing": "No paid tier is currently offered.",
+      "billing": "Payment terms will be published before any paid product is introduced.",
+      "refunds": "Refund terms will be published with any paid product.",
+      "changes": "We will provide advance notice if a paid tier is introduced and these terms change."
     },
     "acceptableUse": {
       "title": "5. ACCEPTABLE USE",
@@ -324,7 +324,7 @@
     },
     "intellectualProperty": {
       "title": "6. INTELLECTUAL PROPERTY",
-      "content": "The platform, generators, source code, and image library remain our property. Content you create using our generators belongs to you. Commercial distribution rights are granted to paid license holders per the License Terms."
+      "content": "The platform, generators, source code, and image library remain our property. Content you create using our generators is licensed to you per the uniform license described in the License Terms. The worksheets themselves remain LessonCraftStudio content and may not be resold or redistributed as standalone products."
     },
     "termination": {
       "title": "7. TERMINATION",
@@ -362,16 +362,16 @@
   },
   "license": {
     "metaTitle": "License Terms — Content Usage Rights | LessonCraftStudio",
-    "metaDescription": "LessonCraftStudio license terms. Free K-3 worksheets and activities for classroom use; commercial rights for printable resources where authorized.",
+    "metaDescription": "LessonCraftStudio license terms. Free K-3 worksheets and activities; one uniform license for all users; personal, classroom, and paid-instruction use permitted; no resale of the worksheet files.",
     "title": "License Terms",
     "lastUpdated": "Last Updated",
     "effectiveDate": "February 2027",
     "grantOfLicense": {
       "title": "1. GRANT OF LICENSE",
-      "intro": "LessonCraftStudio grants you a license to use its worksheet generators and generated content based on your purchase:",
-      "freeTier": "Free Use: All generators are free to use. Output is for personal, classroom, and non-commercial use.",
-      "coreBundle": "Paid Products (One-Time Purchase): Full commercial rights. Create unlimited content and sell on any platform you choose. No attribution required.",
-      "fullAccess": "License Key Activation: Paid products are activated with a license key tied to the email address used at purchase. Each license key is for one user."
+      "intro": "LessonCraftStudio grants you a license to use its worksheet generators and generated content. The same license applies to all users and all current tiers:",
+      "freeTier": "Free Use (currently the only available tier): All generators and generated worksheets are free to use. Worksheets may be used for personal, classroom, homeschool, and other educational purposes — including paid instruction such as tutoring or paid courses. Worksheets may NOT be resold, redistributed, or republished as a standalone product.",
+      "coreBundle": "Paid tiers (not currently available): No paid tier is currently offered. If a paid tier is introduced in the future, the same uniform license above applies — paid tiers may add features or limits but do not grant additional licensing or resale rights.",
+      "fullAccess": "License key (when applicable): If a paid tier is introduced and you purchase access, your license key will be tied to the email address used at purchase. The uniform license terms above apply regardless of tier."
     },
     "intellectualProperty": {
       "title": "2. INTELLECTUAL PROPERTY",
@@ -387,13 +387,13 @@
       "illegal": "Use generated content for illegal, harmful, or misleading purposes"
     },
     "commercialDistribution": {
-      "title": "4. COMMERCIAL DISTRIBUTION",
-      "pod": "Print-on-Demand Rights: Paid license holders may sell unlimited copies of generated content through any print-on-demand service.",
-      "digital": "Digital Distribution: Paid license holders may sell digital downloads of generated content on any platform they choose. No royalties or attribution required."
+      "title": "4. RESALE RESTRICTION",
+      "pod": "No-resale of files: Worksheets and generated content may not be resold, redistributed, or republished as standalone products in any format (print, print-on-demand, digital download, marketplace listing, or otherwise).",
+      "digital": "Paid-instruction permitted: Permitted use includes personal, classroom, homeschool, and paid-instruction settings (tutoring, courses, in-person and online classes). The worksheets themselves remain LessonCraftStudio content; the educational service you provide using them is yours."
     },
     "termination": {
       "title": "5. TERMINATION",
-      "content": "We may terminate your license for breach of these terms with 30 days written notice. Content created before termination remains licensed for continued use and sale."
+      "content": "We may terminate your license for breach of these terms with 30 days written notice. Content created before termination remains licensed for continued personal, classroom, homeschool, and paid-instruction use per Section 1; the no-resale restriction in Section 4 continues to apply."
     },
     "warrantyDisclaimer": {
       "title": "6. WARRANTY DISCLAIMER",
@@ -605,37 +605,35 @@
     "tiers": {
       "FREE": {
         "name": "Free",
-        "description": "Get started with Word Search Studio Pro",
+        "description": "Free for everyone — currently the only available tier.",
+        "availability": "available",
         "features": [
-          "Word Search Studio Pro only",
+          "Every worksheet generator",
           "Unlimited worksheet generation",
-          "Watermarked downloads",
+          "Print-ready PDF downloads",
           "Community support"
         ]
       },
       "CORE": {
         "name": "Core Bundle",
-        "description": "Perfect for a multilingual classroom",
+        "description": "Not currently available.",
+        "availability": "not-currently-available",
         "features": [
-          "Access to 10 popular worksheet generators",
+          "Not currently available",
           "Unlimited worksheet generation",
-          "No watermarks",
-          "High-quality PDF downloads",
-          "Premium templates",
+          "Print-ready PDF downloads",
           "Email support"
         ]
       },
       "FULL": {
         "name": "Full Access",
-        "description": "Complete access for power users",
+        "description": "Not currently available.",
+        "availability": "not-currently-available",
         "features": [
-          "Access to every worksheet generator",
+          "Not currently available",
           "Unlimited worksheet generation",
-          "No watermarks",
-          "High-quality PDF downloads",
-          "All premium templates",
-          "Priority email support",
-          "Commercial license included"
+          "Print-ready PDF downloads",
+          "Priority email support"
         ]
       }
     },

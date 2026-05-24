@@ -293,22 +293,22 @@
     },
     "serviceDescription": {
       "title": "2. DIENSTOMSCHRIJVING",
-      "content": "LessonCraftStudio biedt werkblad- en puzzelgeneratoren voor multilinguale K-3-klassen. Het gratis gebruik omvat persoonlijk, klassikaal en niet-commercieel gebruik. Betaalde producten (eenmalige aankopen) bevatten volledige commerciële rechten en worden geactiveerd met een licentiesleutel die na aankoop per e-mail wordt geleverd."
+      "content": "LessonCraftStudio biedt gratis hulpmiddelen voor het maken van werkbladen en werkbladgeneratoren voor meertalige K-3-klassen. Alle generatoren en de gegenereerde werkbladen zijn gratis te gebruiken onder een uniforme licentie (zie de Licentievoorwaarden). Er wordt momenteel geen betaald niveau aangeboden; mocht dat in de toekomst worden geïntroduceerd, dan geldt dezelfde uniforme licentie ongeacht het niveau."
     },
     "userAccounts": {
       "title": "3. GEBRUIKERSACCOUNTS",
-      "requirements": "Vereisten:",
-      "age": "Minimumleeftijd: 18 jaar",
-      "accurate": "Nauwkeurige registratiegegevens",
-      "security": "Accountbeveiliging handhaven",
-      "responsible": "Verantwoordelijkheid voor accountactiviteiten"
+      "requirements": "Vereisten (indien u een account aanmaakt):",
+      "age": "Minimumleeftijd: 18 jaar om een account aan te maken",
+      "accurate": "Geldig e-mailadres dat wordt gebruikt voor accountcommunicatie",
+      "security": "Houd de beveiliging van uw accountgegevens in stand — deel ze niet",
+      "responsible": "Verantwoordelijkheid voor activiteit onder uw account"
     },
     "paymentTerms": {
       "title": "4. BETALINGSVOORWAARDEN",
-      "pricing": "Actuele prijzen getoond bij aanmelding",
-      "billing": "Terugkerende facturering volgens gekozen abonnement",
-      "refunds": "Geen terugbetalingen voor gedeeltelijke periodes",
-      "changes": "Prijswijzigingen met 30 dagen vooraankondiging"
+      "pricing": "Er wordt momenteel geen betaald niveau aangeboden.",
+      "billing": "Betalingsvoorwaarden worden gepubliceerd voordat een betaald product wordt geïntroduceerd.",
+      "refunds": "Voorwaarden voor terugbetaling worden gepubliceerd bij elk betaald product.",
+      "changes": "Wij geven tijdig kennisgeving als er een betaald niveau wordt geïntroduceerd en deze voorwaarden wijzigen."
     },
     "acceptableUse": {
       "title": "5. ACCEPTABEL GEBRUIK",
@@ -321,7 +321,7 @@
     },
     "intellectualProperty": {
       "title": "6. INTELLECTUEEL EIGENDOM",
-      "content": "Platform en tools blijven ons eigendom. Uw inhoud blijft van u. Gegenereerde inhoud wordt gelicentieerd volgens abonnement."
+      "content": "Het platform, de generatoren, de broncode en de afbeeldingenbibliotheek blijven ons eigendom. De inhoud die u met onze generatoren maakt, wordt aan u in licentie gegeven volgens de uniforme licentie zoals beschreven in de Licentievoorwaarden. De werkbladen zelf blijven content van LessonCraftStudio en mogen niet worden doorverkocht of herverspreid als zelfstandige producten."
     },
     "termination": {
       "title": "7. BEËINDIGING",
@@ -363,10 +363,10 @@
     "effectiveDate": "Januari 2025",
     "grantOfLicense": {
       "title": "1. LICENTIEVERLENING",
-      "intro": "LessonCraftStudio verleent u een licentie om de werkbladgeneratoren en gegenereerde inhoud te gebruiken op basis van uw aankoop:",
-      "freeTier": "Gratis gebruik: Alle generatoren zijn gratis te gebruiken. De output is voor persoonlijk, klassikaal en niet-commercieel gebruik.",
-      "coreBundle": "Betaalde producten (eenmalige aankoop): Volledige commerciële rechten. Maak onbeperkte inhoud en verkoop op elk gewenst platform. Geen attributie vereist.",
-      "fullAccess": "Activering met licentiesleutel: Betaalde producten worden geactiveerd met een licentiesleutel die gekoppeld is aan het bij de aankoop gebruikte e-mailadres. Elke licentiesleutel is voor één gebruiker."
+      "intro": "LessonCraftStudio verleent u een licentie om de werkbladgeneratoren en gegenereerde inhoud te gebruiken. Dezelfde licentie geldt voor alle gebruikers en alle momenteel beschikbare niveaus:",
+      "freeTier": "Gratis gebruik (momenteel het enige beschikbare niveau): Alle generatoren en de gegenereerde werkbladen zijn gratis te gebruiken. Werkbladen mogen worden gebruikt voor persoonlijke, klassikale, thuisonderwijs- en andere educatieve doeleinden — met inbegrip van betaald onderwijs zoals bijles of betaalde cursussen. Werkbladen mogen NIET worden doorverkocht, herverspreid of opnieuw gepubliceerd als zelfstandig product.",
+      "coreBundle": "Betaalde niveaus (momenteel niet beschikbaar): Er wordt momenteel geen betaald niveau aangeboden. Als er in de toekomst een betaald niveau wordt geïntroduceerd, geldt dezelfde uniforme licentie als hierboven — betaalde niveaus kunnen functies of limieten toevoegen, maar verlenen geen aanvullende licentie- of doorverkooprechten.",
+      "fullAccess": "Licentiesleutel (indien van toepassing): Als er een betaald niveau wordt geïntroduceerd en u toegang aanschaft, wordt uw licentiesleutel gekoppeld aan het bij de aankoop gebruikte e-mailadres. De hierboven beschreven uniforme licentievoorwaarden gelden ongeacht het niveau."
     },
     "intellectualProperty": {
       "title": "2. INTELLECTUEEL EIGENDOM",
@@ -382,14 +382,15 @@
       "illegal": "Voor illegale doeleinden gebruiken"
     },
     "commercialDistribution": {
-      "title": "4. COMMERCIËLE DISTRIBUTIE",
-      "pod": "Print-on-demand rechten: Houders van een betaalde licentie kunnen onbeperkt kopieën van gegenereerde inhoud verkopen via elke print-on-demand-dienst.",
-      "digital": "Digitale distributie: Houders van een betaalde licentie kunnen digitale downloads van gegenereerde inhoud verkopen op elk platform van hun keuze. Geen royalty's of attributie vereist."
+      "title": "4. BEPERKING OP DOORVERKOOP",
+      "pod": "Geen doorverkoop van de bestanden: Werkbladen en gegenereerde inhoud mogen niet worden doorverkocht, herverspreid of opnieuw gepubliceerd als zelfstandige producten in welk formaat dan ook (druk, print-on-demand, digitale download, marketplace-vermelding of anderszins).",
+      "digital": "Gebruik voor betaald onderwijs toegestaan: Toegestaan gebruik omvat persoonlijke, klassikale, thuisonderwijs- en betaalde-onderwijs-context (bijles, cursussen, fysieke en online lessen). De werkbladen zelf blijven content van LessonCraftStudio; de educatieve dienst die u met behulp daarvan levert, is van u."
     },
     "termination": {
       "title": "5. BEËINDIGING",
-      "content": "Wij kunnen beëindigen bij schending met 30 dagen kennisgeving. Tijdens geldig abonnement gemaakte inhoud blijft gelicentieerd."
+      "content": "Wij kunnen uw licentie beëindigen bij schending van deze voorwaarden met een schriftelijke opzegtermijn van 30 dagen. Inhoud die vóór de beëindiging is aangemaakt, blijft gelicentieerd voor voortgezet persoonlijk, klassikaal, thuisonderwijs- en betaald-onderwijs-gebruik conform Sectie 1; de beperking op doorverkoop in Sectie 4 blijft van kracht."
     },
+    "metaDescription": "Licentievoorwaarden van LessonCraftStudio. Gratis K-3 werkbladen en activiteiten; één uniforme licentie voor alle gebruikers; persoonlijk, klassikaal en betaald-onderwijs-gebruik toegestaan; geen doorverkoop van de werkbladbestanden.",
     "warrantyDisclaimer": {
       "title": "6. GARANTIE-UITSLUITING",
       "content": "Dienst geleverd ZOALS HIJ IS zonder garanties. Wij garanderen geen geschiktheid voor specifieke doeleinden."
@@ -590,37 +591,35 @@
     "tiers": {
       "FREE": {
         "name": "Gratis",
-        "description": "Perfect om het platform te leren kennen",
+        "description": "Gratis voor iedereen — momenteel het enige beschikbare niveau.",
+        "availability": "available",
         "features": [
-          "Alleen woordzoeker generator",
+          "Alle werkbladgeneratoren",
           "Onbeperkt werkbladen maken",
-          "Met watermerk",
+          "Afdrukklare PDF-downloads",
           "Community ondersteuning"
         ]
       },
       "CORE": {
         "name": "Basispakket",
-        "description": "Perfect voor een meertalige klas",
+        "description": "Momenteel niet beschikbaar.",
+        "availability": "not-currently-available",
         "features": [
-          "Toegang tot 10 populaire werkbladgeneratoren",
+          "Momenteel niet beschikbaar",
           "Onbeperkt werkbladen maken",
-          "Zonder watermerk",
-          "Hoogwaardige PDF-downloads",
-          "Premium sjablonen",
+          "Afdrukklare PDF-downloads",
           "E-mail ondersteuning"
         ]
       },
       "FULL": {
         "name": "Volledige Toegang",
-        "description": "De complete oplossing voor professionals",
+        "description": "Momenteel niet beschikbaar.",
+        "availability": "not-currently-available",
         "features": [
-          "Toegang tot alle werkbladgeneratoren",
+          "Momenteel niet beschikbaar",
           "Onbeperkt werkbladen maken",
-          "Zonder watermerk",
-          "Hoogwaardige PDF-downloads",
-          "Alle premium sjablonen",
-          "Prioritaire e-mail ondersteuning",
-          "Commerciële licentie inbegrepen"
+          "Afdrukklare PDF-downloads",
+          "Prioritaire e-mail ondersteuning"
         ]
       }
     }
@@ -1231,27 +1230,33 @@
     },
     "tiers": {
       "free": {
-        "description": "Perfect om het platform te leren kennen",
+        "description": "Gratis voor iedereen — momenteel het enige beschikbare niveau.",
+        "availability": "available",
         "features": [
-          "Woordzoekergenerator",
+          "Alle werkbladgeneratoren",
           "Onbeperkt werkbladen maken",
-          "Met watermerk"
+          "Afdrukklare PDF-downloads",
+          "Community ondersteuning"
         ]
       },
       "core": {
-        "description": "Ideaal voor het opbouwen van uw printable-bedrijf",
+        "description": "Momenteel niet beschikbaar.",
+        "availability": "not-currently-available",
         "features": [
-          "De 10 meest populaire generatoren",
+          "Momenteel niet beschikbaar",
           "Onbeperkt werkbladen maken",
-          "Zonder watermerk"
+          "Afdrukklare PDF-downloads",
+          "E-mail ondersteuning"
         ]
       },
       "full": {
-        "description": "De complete oplossing voor professionals",
+        "description": "Momenteel niet beschikbaar.",
+        "availability": "not-currently-available",
         "features": [
-          "Al onze generatoren",
+          "Momenteel niet beschikbaar",
           "Onbeperkt werkbladen maken",
-          "Zonder watermerk"
+          "Afdrukklare PDF-downloads",
+          "Prioritaire e-mail ondersteuning"
         ]
       }
     },

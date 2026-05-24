@@ -188,7 +188,7 @@ export default async function EmbedShareV3({ locale }: Props) {
             className="hv3-blob-coral !absolute -top-[25%] -right-[10%] w-[420px] h-[420px] rounded-full pointer-events-none opacity-45"
           />
 
-          <div className="relative grid grid-cols-1 md:grid-cols-[1fr_1.15fr] gap-10 md:gap-12 lg:gap-16 items-start">
+          <div className="relative grid grid-cols-1 lg:grid-cols-[1fr_1.15fr] gap-10 lg:gap-12 items-start">
             <div className="relative">
               <div
                 aria-hidden="true"
@@ -208,8 +208,8 @@ export default async function EmbedShareV3({ locale }: Props) {
 
               <p className="mt-7 font-lcsBody text-xs uppercase tracking-widest text-lcs-teal/55 font-bold mb-3">
                 {t('pasteCaptionPrefix')}{' '}
-                <span className="inline md:hidden">↓</span>
-                <span className="hidden md:inline">→</span>
+                <span className="inline lg:hidden">↓</span>
+                <span className="hidden lg:inline">→</span>
               </p>
 
               <div className="hv3-handframe font-mono text-xs md:text-sm text-lcs-teal/85 overflow-x-auto">
@@ -228,10 +228,10 @@ export default async function EmbedShareV3({ locale }: Props) {
               </ul>
             </div>
 
-            <div className="relative">
+            <div className="relative max-w-lg mx-auto lg:max-w-none lg:mx-0">
               <div
                 aria-hidden="true"
-                className="hidden md:flex absolute top-[42%] -left-12 lg:-left-14 z-20 opacity-85 flex-col items-center gap-1"
+                className="hidden lg:flex absolute top-[42%] -left-12 lg:-left-14 z-20 opacity-85 flex-col items-center gap-1"
               >
                 <Arrow className="text-lcs-teal/65" width={70} height={48} rotate={-6} strokeWidth={2.2} />
                 <span className="font-lcsDisplay italic text-xs lg:text-sm text-lcs-teal/70 whitespace-nowrap -mt-1">

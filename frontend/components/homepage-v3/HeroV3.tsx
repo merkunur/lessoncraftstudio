@@ -88,7 +88,7 @@ export default async function HeroV3({ locale }: HeroV3Props) {
                 </svg>
               </Link>
               <Link
-                href={`/${locale}/activities`}
+                href={`/${locale}/worksheets/`}
                 className="hv3-cta-cream-outline inline-flex items-center justify-center font-lcsDisplay font-semibold text-lg md:text-xl px-7 md:px-8 py-3 md:py-3.5 whitespace-nowrap"
               >
                 {t('ctaSecondary')}

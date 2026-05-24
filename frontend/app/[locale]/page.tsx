@@ -1,26 +1,58 @@
 import { Metadata } from 'next';
+import { Baloo_2, Nunito } from 'next/font/google';
 import { getTranslations } from 'next-intl/server';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
-import Hero from '@/components/homepage-v2/Hero';
-import FourCardGrid from '@/components/homepage-v2/FourCardGrid';
-import BreadthGrid from '@/components/homepage-v2/BreadthGrid';
-import AllExerciseModesGrid from '@/components/homepage-v2/AllExerciseModesGrid';
-import EmbedViralityCTA from '@/components/homepage-v2/EmbedViralityCTA';
-import SubscriptionSection from '@/components/homepage-v2/SubscriptionSection';
+import HeroV3 from '@/components/homepage-v3/HeroV3';
+import PillarActivities from '@/components/homepage-v3/PillarActivities';
+import PillarInteractive from '@/components/homepage-v3/PillarInteractive';
+import PillarPrintables from '@/components/homepage-v3/PillarPrintables';
+import TierTransition from '@/components/homepage-v3/TierTransition';
+import PillarMakers from '@/components/homepage-v3/PillarMakers';
+import PillarTools from '@/components/homepage-v3/PillarTools';
+import EmbedShareV3 from '@/components/homepage-v3/EmbedShareV3';
+import SignupV3 from '@/components/homepage-v3/SignupV3';
+import './preview/homepage-v3/homepage-v3.css';
 
-// Cache headers per HOMEPAGE-IMPLEMENTATION-PROMPT.md §6 / CLAUDE.md §17.4 LCP target.
+// Promoted from the homepage-v3 prototype on 2026-05-24. Live design now
+// uses the 9-section homepage-v3 stack (Hero → 5 pillars → tier transition
+// → embed/share → signup). homepage-v2 components remain on disk for
+// rollback safety and continued use by the worksheet-makers landing
+// (consumer of homepage.fourCardGrid.apps namespace).
+
+// Direction A typography pairing per CLAUDE.md §A.13.47 (locked).
+// Baloo 2 + Nunito; latin-ext covers all 11 site locales.
+const baloo2 = Baloo_2({
+  weight: ['400', '500', '600', '700', '800'],
+  subsets: ['latin', 'latin-ext'],
+  variable: '--font-baloo-2',
+  display: 'swap',
+  preload: true,
+});
+
+const nunito = Nunito({
+  weight: ['400', '500', '600', '700'],
+  subsets: ['latin', 'latin-ext'],
+  variable: '--font-nunito',
+  display: 'swap',
+  preload: true,
+});
+
 // 1-hour ISR matches existing site pattern; visitor-facing copy churns rarely.
 export const revalidate = 3600;
 
 const BASE_URL = 'https://www.lessoncraftstudio.com';
 
-// OG image: fixed page-level 1200×630 asset per HOMEPAGE-COPY.md. Co-located
-// with deck assets in the nginx-served versioned dir; locale-independent.
+// OG image: fixed page-level 1200×630 asset. Co-located with deck assets in
+// the nginx-served versioned dir; locale-independent. Carried over from
+// homepage-v2; redesign for v3 deferred to follow-up commission.
 const OG_IMAGE_PATH = '/de/decks/picture-path/og-image.png';
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const locale = params.locale || 'en';
+  // homepage.meta namespace reused: keys are brand-level (not v2-design-
+  // specific) and already localized in all 11 locales. v3 design swap
+  // doesn't change brand positioning.
   const t = await getTranslations({ locale, namespace: 'homepage.meta' });
 
   // Hreflang alternates for all 11 locales.
@@ -64,11 +96,11 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   };
 }
 
-// Schema.org JSON-LD per HOMEPAGE-IMPLEMENTATION-PROMPT.md §6.9.
-// Organization + WebSite. SearchAction omitted (catalog index doesn't ship before home page
-// per the catalog-index decision). sameAs omitted (no official social profiles per
-// HOMEPAGE-SAVE-STATE.md). Per CLAUDE.md §17.4 / §17.8, deck pages and topic pages carry
-// their own schema; home page does not duplicate those.
+// Schema.org JSON-LD: Organization + WebSite. Carried verbatim from
+// homepage-v2 swap. SearchAction omitted; sameAs omitted (no official
+// social profiles per HOMEPAGE-SAVE-STATE.md). Per CLAUDE.md §17.4 /
+// §17.8, deck and topic pages carry their own schema; home page does not
+// duplicate those.
 function buildSchemas(locale: string, title: string, description: string) {
   const organization = {
     '@context': 'https://schema.org',
@@ -113,7 +145,7 @@ export default async function HomePage({ params }: { params: { locale: string } 
 
   return (
     <>
-      {/* JSON-LD structured data — Organization + WebSite per §6.9 */}
+      {/* JSON-LD structured data — Organization + WebSite. */}
       {schemas.map((schema, index) => (
         <script
           key={`schema-${index}`}
@@ -122,43 +154,32 @@ export default async function HomePage({ params }: { params: { locale: string } 
         />
       ))}
 
-      {/* Section 1 — Hero (preserved video element + lang dropdown stays in
-          Navigation per operator's 2026-05-17 commission lock #2). New CTA
-          "Join for free" added per education.com reference pattern. */}
-      <Hero locale={locale} />
+      {/* Homepage-v3 body bg override (deep teal #0E544A + chalk-on-teal
+          endpaper pattern). Scoped to this page only — when user navigates
+          away, the inline style unmounts and parent body bg returns. */}
+      <style>{`
+        body {
+          background: #0E544A !important;
+          color: #FBF3E4;
+          background-image:
+            url("data:image/svg+xml;utf8,%3Csvg width='280' height='280' viewBox='0 0 280 280' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23FBF3E4' stroke-width='1.6' stroke-linecap='round' opacity='0.12'%3E%3Cpath d='M 28 36 q 5 -7 10 0 t 10 0' /%3E%3Cpath d='M 210 70 q 4 -6 8 0 t 8 0' /%3E%3Cpath d='M 76 220 q 6 -8 12 0 t 12 0' /%3E%3Cpath d='M 130 140 q 5 -6 10 0' /%3E%3C/g%3E%3Cg fill='%23F2784B' opacity='0.14'%3E%3Cpath d='M 110 52 l 1.8 4.6 l 4.6 0.6 l -3.4 2.8 l 1.2 4.6 l -4 -2.4 l -4 2.4 l 1.2 -4.6 l -3.4 -2.8 l 4.6 -0.6 z' /%3E%3Cpath d='M 232 190 l 1.4 3.4 l 3.4 0.4 l -2.4 2 l 0.8 3.4 l -3 -1.8 l -3 1.8 l 0.8 -3.4 l -2.4 -2 l 3.4 -0.4 z' /%3E%3Cpath d='M 50 168 l 1.2 3 l 3 0.4 l -2 1.8 l 0.6 3 l -2.6 -1.6 l -2.6 1.6 l 0.6 -3 l -2 -1.8 l 3 -0.4 z' /%3E%3C/g%3E%3Cg fill='%23FBF3E4' opacity='0.10'%3E%3Ccircle cx='170' cy='28' r='2.4'/%3E%3Ccircle cx='44' cy='124' r='2.8'/%3E%3Ccircle cx='250' cy='240' r='2'/%3E%3Ccircle cx='132' cy='210' r='1.8'/%3E%3Ccircle cx='14' cy='210' r='1.8'/%3E%3Ccircle cx='200' cy='115' r='2.2'/%3E%3C/g%3E%3Cg fill='none' stroke='%23F2784B' stroke-width='1.5' stroke-linecap='round' opacity='0.13'%3E%3Cpath d='M 58 80 q 10 -5 20 0' /%3E%3Cpath d='M 190 150 q 8 -5 16 0' /%3E%3C/g%3E%3C/svg%3E");
+          background-size: 280px 280px;
+          background-repeat: repeat;
+        }
+        body::before { display: none; }
+      `}</style>
 
-      {/* Section 2 — "Our learning library" 4-card grid per 2026-05-17 §8.1
-          restructure (replaces Alt A's 5-component above-fold density —
-          ExerciseTypeGrid/MagnitudeFraming/ThemeStrip/LocaleStrip/LanguageProof
-          retired). Four cards: Worksheets / Apps / Teaching packages /
-          Interactive worksheets. Apps category is now public per operator's
-          Apps-gating reversal (CLAUDE.md §3.3 + §17.2 amendment queued
-          separately as [DOCS] commission). */}
-      <FourCardGrid locale={locale} />
-
-      {/* Section 3 — "See one in action" inline play. BreadthGrid migrated
-          here per operator commission lock #1 (was Section 4 sub-component
-          via FreeExperience; FreeExperience retired). Keeps §1 product-as-
-          marketing + §18.4.2 day-of-week rotation rhythm. */}
-      <BreadthGrid locale={locale} />
-
-      {/* Section 4 — "Every exercise we offer." Surfaces every published
-          (app, mode) tuple as a clickable tile linking to a representative
-          deck. Universe anchored to EN catalog (Track-C-complete per §19.5);
-          locales with partial coverage fall back silently to EN per the
-          "loan from English" rule (operator commission 2026-05-19). Per §1
-          magnitude-via-structural-axes doctrine + crawl-bait-density metric:
-          ~80 anchors per locale × 11 locales = ~880 new homepage links. */}
-      <AllExerciseModesGrid locale={locale} />
-
-      {/* Section 5 — Embed acquisition CTA per §1 acquisition-flywheel Layer 3
-          (homepage signaling). Migrated below the 4-card grid per operator
-          commission lock #1. */}
-      <EmbedViralityCTA locale={locale} />
-
-      {/* Section 6 — Subscription. Flipped to subscribe-mode at deploy via
-          HOMEPAGE_SUBSCRIBE_MODE=subscribe env var per commission Phase 1C. */}
-      <SubscriptionSection locale={locale} />
+      <main className={`hv3 ${baloo2.variable} ${nunito.variable} font-lcsBody text-lcs-cream min-h-screen`}>
+        <HeroV3 locale={locale} />
+        <PillarActivities locale={locale} />
+        <PillarInteractive locale={locale} />
+        <PillarPrintables locale={locale} />
+        <TierTransition locale={locale} />
+        <PillarMakers locale={locale} />
+        <PillarTools locale={locale} />
+        <EmbedShareV3 locale={locale} />
+        <SignupV3 locale={locale} />
+      </main>
     </>
   );
 }

@@ -36,9 +36,11 @@ const fraunces = Fraunces({
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || 'https://www.lessoncraftstudio.com'),
-  title: 'LessonCraftStudio - Professional Printable Generators for Sellers',
-  description: '33 professional printable generators for Etsy sellers, KDP publishers, and printable entrepreneurs. Commercial license included.',
-  keywords: 'printable generator, Etsy printables, KDP worksheet generator, commercial license printables, sell worksheets online',
+  title: {
+    default: 'LessonCraftStudio',
+    template: '%s · LessonCraftStudio',
+  },
+  description: 'Free K-3 worksheets and interactive activities in 11 languages. Built for dual-language, bilingual, and international-school classrooms.',
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: '64x64', type: 'image/x-icon' },
@@ -57,23 +59,23 @@ export const metadata: Metadata = {
     'max-video-preview': -1,
   },
   openGraph: {
-    title: 'LessonCraftStudio - Professional Printable Generators for Sellers',
-    description: '33 professional printable generators for Etsy sellers, KDP publishers, and printable entrepreneurs. Commercial license included.',
+    title: 'LessonCraftStudio',
+    description: 'Free K-3 worksheets and interactive activities in 11 languages.',
     siteName: 'LessonCraftStudio',
     images: [
       {
         url: '/opengraph-image.png',
         width: 1200,
         height: 630,
-        alt: 'LessonCraftStudio - 33 Printable Generators',
+        alt: 'LessonCraftStudio — K-3 worksheets in 11 languages',
       },
     ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'LessonCraftStudio - Professional Printable Generators for Sellers',
-    description: '33 professional printable generators for Etsy sellers, KDP publishers, and printable entrepreneurs. Commercial license included.',
+    title: 'LessonCraftStudio',
+    description: 'Free K-3 worksheets and interactive activities in 11 languages.',
     images: ['/opengraph-image.png'],
   },
 };

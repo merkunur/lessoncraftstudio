@@ -17,11 +17,11 @@
     "blog": "Blog",
     "resourcesDesc": {
       "tools": "Essayez tous nos générateurs en ligne",
-      "guides": "Guides de vente étape par étape",
-      "bundles": "Économisez avec les packs",
-      "ideas": "Inspiration de niches rentables",
-      "start": "Lancez votre activité",
-      "blog": "Conseils et stratégies pour vendeurs"
+      "guides": "Guides pratiques pour enseignants",
+      "bundles": "Packs par catégorie",
+      "ideas": "Idées de fiches par sujet",
+      "start": "Premiers pas",
+      "blog": "Conseils et stratégies pour enseignants"
     },
     "pricing": "Tarifs"
   },
@@ -559,7 +559,7 @@
       "reverseEngineer": "Rétroconcevoir la plateforme",
       "competing": "Créer des services concurrents",
       "sublicense": "Sous-licencier l'accès à la plateforme",
-      "removeNotices": "Retirer les filigranes du contenu gratuit",
+      "removeNotices": "Retirer ou contourner les avis ou identifiants des sorties gratuites",
       "illegal": "Utiliser à des fins illégales"
     },
     "commercialDistribution": {
@@ -1042,7 +1042,7 @@
     "metaDescription": "LessonCraftStudio est une plateforme gratuite de fiches K-3 et d'activités interactives en onze langues, conçue pour classes bilingues, duales et écoles internationales.",
     "hero": {
       "title": "À propos de LessonCraftStudio",
-      "subtitle": "Générateurs de printables professionnels pour vendeurs Etsy et éditeurs KDP dans le monde entier"
+      "subtitle": "Fiches K-3 et générateurs de fiches gratuits en 11 langues, pour classes bilingues, duales et écoles internationales"
     },
     "stats": {
       "generators": "many",
@@ -1056,8 +1056,8 @@
     },
     "mission": {
       "title": "Notre mission",
-      "description": "LessonCraftStudio a été créé pour aider les vendeurs Etsy, les éditeurs KDP et les entrepreneurs du printable à produire des fiches professionnelles en un instant — sans compétences en design, logiciel coûteux ni heures de préparation.",
-      "description2": "Nos nos générateurs créent des PDFs prêts à imprimer en 300 DPI avec corrigés, des milliers d’images thématiques et plusieurs langues — le tout avec licence commerciale pour vendre sur toutes les plateformes."
+      "description": "LessonCraftStudio donne aux enseignants des classes bilingues, duales et internationales les outils pour produire des fiches et activités K-3 dans la langue seconde de leurs élèves — sans compétences en design, sans logiciel coûteux ni heures de préparation manuelle. Chaque générateur produit, à partir de la même configuration, une fiche prête à imprimer et une version interactive jouable dans le navigateur, en quelques minutes.",
+      "description2": "Chaque générateur est gratuit pour les enseignants. Pas d'abonnement, pas de frais récurrents, aucune limite à ce que vous créez. Parcourez, prévisualisez, téléchargez, intégrez et partagez sans avoir à vous connecter."
     },
     "methodology": {
       "title": "Notre approche",
@@ -1067,7 +1067,7 @@
       },
       "research": {
         "title": "Qualité professionnelle",
-        "description": "Chaque générateur crée des PDFs prêts à vendre en 300 DPI avec corrigés — parfaits pour les boutiques Etsy, les livres KDP et les téléchargements numériques."
+        "description": "Chaque générateur produit des fichiers prêts pour la classe avec format de page approprié, haute résolution, corrigés automatiques et mise en forme soignée. Imprimez, intégrez à votre site de classe ou à votre ENT, ou partagez par lien."
       },
       "inclusive": {
         "title": "Multilingue & Inclusif",
@@ -1077,16 +1077,16 @@
     "audience": {
       "title": "Pour qui ?",
       "teachers": {
-        "title": "Vendeurs Etsy & KDP",
-        "description": "Créez rapidement un catalogue de produits imprimables. Générez des fiches thématiques uniques qui se démarquent sur le marché."
+        "title": "Enseignants de classes bilingues et duales",
+        "description": "Constituez un catalogue de fiches et d'activités K-3 dans la langue seconde de vos élèves. Générez des séries de phonologie, de mathématiques et de vocabulaire sur de nombreux thèmes — PDFs imprimables et versions interactives jouables dans le navigateur à partir de la même configuration."
       },
       "parents": {
-        "title": "Usage personnel",
-        "description": "Créez des fiches pour le soutien scolaire ou vos projets personnels en quelques secondes. Essai gratuit avec filigrane — aucune inscription requise."
+        "title": "Parents IEF & Tuteurs",
+        "description": "Créez en quelques secondes des fiches K-3 personnalisées pour l'instruction en famille ou le soutien individuel. Chaque générateur est gratuit — aucune inscription requise."
       },
       "therapists": {
-        "title": "Créateurs de contenu & Éditeurs",
-        "description": "Produisez du contenu imprimable professionnel à grande échelle. nos générateurs, de nombreux thèmes, plusieurs langues — créez des centaines de produits uniques sur une seule plateforme."
+        "title": "Enseignants d'écoles internationales",
+        "description": "Proposez des fiches et activités K-3 en 11 langues depuis une seule plateforme. Chaque générateur de fiches, de nombreux thèmes et un système de vocabulaire qui restitue correctement les articles, les pluriels, le genre et les accents dans chaque langue que vous enseignez."
       }
     },
     "cta": {
@@ -1096,19 +1096,19 @@
     },
     "metaKeywords": "fiches K-3, classes multilingues, éducation bilingue, imprimables gratuits, activités interactives",
     "expertise": {
-      "title": "Concu pour les vendeurs",
-      "subtitle": "Chaque fonctionnalite est concue pour vous aider a creer et vendre plus de produits, plus rapidement",
+      "title": "Conçu pour les enseignants",
+      "subtitle": "Chaque fonctionnalité est conçue pour aider les enseignants à proposer plus de cours, dans plus de langues, plus vite",
       "curriculum": {
-        "title": "Production prete a la vente",
-        "description": "Export PDF 300 DPI, corriges automatiques, formatage optimise KDP et mode niveaux de gris. Vos fichiers sont prets a publier sur Etsy, Amazon KDP ou Teachers Pay Teachers immediatement."
+        "title": "Sorties prêtes pour la classe",
+        "description": "Export PDF 300 DPI, corrigés automatiques, mise en forme prête à imprimer et mode niveaux de gris. Vos fichiers sont immédiatement prêts à imprimer, à intégrer à votre site de classe ou à votre ENT, ou à partager par lien."
       },
       "educators": {
-        "title": "Droits commerciaux complets",
-        "description": "Chaque produit payant inclut des droits commerciaux illimites. Vendez sur toute plateforme, en toute quantite. Aucune attribution requise, aucune redevance, aucune restriction."
+        "title": "11 langues, sélectionnées par des enseignants",
+        "description": "Chaque langue de notre catalogue est sélectionnée par des personnes qui enseignent réellement dans cette langue. Articles, pluriels, genre et accents sont corrects — pas auto-traduits. Construisez des fiches authentiques en anglais, allemand, français, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien ou finnois."
       },
       "evidence": {
-        "title": "Achat unique",
-        "description": "Pas d'abonnement, pas de frais mensuels, pas de couts caches. Payez une fois et utilisez vos generateurs pour toujours. Tous les produits incluent une garantie de remboursement de 30 jours."
+        "title": "Pas d'inscription pour parcourir",
+        "description": "Pas d'abonnement, pas de frais mensuels, pas de coûts cachés. Parcourez, prévisualisez et jouez n'importe quelle fiche sans aucun compte. Un compte gratuit optionnel ajoute des fonctions d'espace de travail comme les collections et les favoris."
       }
     }
   },

@@ -17,11 +17,11 @@
     "blog": "Blog",
     "resourcesDesc": {
       "tools": "Teste todos os nossos geradores online",
-      "guides": "Guias de venda passo a passo",
-      "bundles": "Economize com pacotes",
-      "ideas": "Inspiração de nichos rentáveis",
-      "start": "Lance seu negócio",
-      "blog": "Dicas e estratégias para vendedores"
+      "guides": "Guias passo a passo para professores",
+      "bundles": "Economize com pacotes por categoria",
+      "ideas": "Ideias para sua sala K-3",
+      "start": "Comece com LessonCraftStudio",
+      "blog": "Dicas e estratégias para professores"
     },
     "pricing": "Precos"
   },
@@ -348,7 +348,7 @@
   },
   "contact": {
     "title": "Entre em contato",
-    "subtitle": "Que legal que você quer falar com a gente! Manda sua mensagem que respondemos rapidinho. Adoramos conectar com empreendedores como você!",
+    "subtitle": "Que legal que você quer falar com a gente! Manda sua mensagem que respondemos rapidinho. Adoramos conectar com professores como você!",
     "getInTouch": "Entre em contato",
     "name": "Nome",
     "email": "E-mail",
@@ -383,7 +383,7 @@
     },
     "serviceDescription": {
       "title": "2. DESCRIÇÃO DO SERVIÇO",
-      "content": "O LessonCraftStudio oferece ferramentas para criar fichas pedagógicas em três planos: Gratuito (limitado), Core (expandido) e Acesso Completo (ilimitado)."
+      "content": "O LessonCraftStudio oferece geradores de fichas e quebra-cabeças para salas K-3 multilíngues. O uso gratuito cobre uso pessoal, em sala de aula e não comercial. Os produtos pagos (compra única) incluem direitos comerciais completos e são ativados com uma chave de licença enviada para o seu email após a compra."
     },
     "userAccounts": {
       "title": "3. CONTAS DE USUÁRIO",
@@ -462,7 +462,7 @@
     "dataCollection": {
       "title": "3. DADOS COLETADOS",
       "intro": "Coletamos:",
-      "personal": "Dados da conta (nome, email)",
+      "personal": "Dados de compra (email, nome) — fornecidos ao comprar um produto via Lemon Squeezy",
       "usage": "Análises de uso",
       "technical": "Dados técnicos (IP, navegador)",
       "cookies": "Preferências de cookies"
@@ -486,8 +486,8 @@
     "dataSharing": {
       "title": "6. COMPARTILHAMENTO DE DADOS",
       "intro": "Compartilhamento limitado com:",
-      "providers": "Prestadores de serviços (processadores)",
-      "payment": "Processadores de pagamento",
+      "providers": "Lemon Squeezy (processamento de pagamentos e atendimento de pedidos)",
+      "payment": "Principais cartões de crédito e PayPal (processamento de pagamentos via Lemon Squeezy)",
       "legal": "Autoridades quando exigido",
       "consent": "Terceiros com consentimento"
     },
@@ -520,11 +520,11 @@
     },
     "children": {
       "title": "11. MENORES",
-      "content": "Serviço para empreendedores e uso pessoal. Sem coleta de dados de menores de 16 anos."
+      "content": "Nosso serviço é destinado a professores, pais e outros educadores adultos. Não coletamos conscientemente dados pessoais de menores de 16 anos. Nossos geradores criam conteúdo destinado a crianças, mas são operados por adultos."
     },
     "international": {
       "title": "12. TRANSFERÊNCIAS INTERNACIONAIS",
-      "content": "Dados armazenados na UE/EEE. Transferências externas com cláusulas contratuais padrão."
+      "content": "Os dados são armazenados principalmente na UE/EEE. Quando os dados são transferidos para fora da UE (por exemplo, para o Lemon Squeezy nos EUA), salvaguardas apropriadas, como Cláusulas Contratuais Padrão, estão em vigor."
     },
     "changes": {
       "title": "13. ALTERAÇÕES",
@@ -544,10 +544,10 @@
     "effectiveDate": "Janeiro 2025",
     "grantOfLicense": {
       "title": "1. CONCESSÃO DE LICENÇA",
-      "intro": "O LessonCraftStudio concede a você uma licença para usar o conteúdo gerado com base na sua assinatura:",
-      "freeTier": "Gratuito: Apenas uso educacional pessoal não comercial",
-      "coreBundle": "Core: Uso educacional comercial em sua instituição",
-      "fullAccess": "Acesso Completo: Uso comercial ilimitado incluindo impressão sob demanda e revenda"
+      "intro": "O LessonCraftStudio concede a você uma licença para usar seus geradores de fichas e o conteúdo gerado com base na sua compra:",
+      "freeTier": "Uso gratuito: Todos os geradores são gratuitos. A produção é para uso pessoal, em sala de aula e não comercial.",
+      "coreBundle": "Produtos pagos (compra única): Direitos comerciais completos. Crie conteúdo ilimitado e venda em qualquer plataforma que escolher. Nenhuma atribuição exigida.",
+      "fullAccess": "Ativação da chave de licença: Os produtos pagos são ativados com uma chave de licença vinculada ao endereço de email usado na compra. Cada chave de licença é para um único usuário."
     },
     "intellectualProperty": {
       "title": "2. PROPRIEDADE INTELECTUAL",
@@ -559,13 +559,13 @@
       "reverseEngineer": "Fazer engenharia reversa na plataforma",
       "competing": "Criar serviços concorrentes",
       "sublicense": "Sublicenciar o acesso à plataforma",
-      "removeNotices": "Remover marcas d'água do conteúdo gratuito",
+      "removeNotices": "Remover ou contornar avisos ou identificadores na saída de uso gratuito",
       "illegal": "Usar para fins ilegais"
     },
     "commercialDistribution": {
       "title": "4. DISTRIBUIÇÃO COMERCIAL",
-      "pod": "Impressão sob demanda: Assinantes com Acesso Completo podem vender ilimitadamente através de plataformas de impressão sob demanda.",
-      "digital": "Distribuição digital: Todos os níveis podem distribuir versões digitais conforme sua licença."
+      "pod": "Direitos de impressão sob demanda: Os titulares de licença paga podem vender cópias ilimitadas do conteúdo gerado por meio de qualquer serviço de impressão sob demanda.",
+      "digital": "Distribuição digital: Os titulares de licença paga podem vender downloads digitais do conteúdo gerado em qualquer plataforma que escolherem. Sem royalties ou atribuição obrigatória."
     },
     "termination": {
       "title": "5. RESCISÃO",
@@ -605,7 +605,7 @@
       "apps": "Sobre Nossos Aplicativos",
       "pricing": "Preços e Planos",
       "technical": "Suporte Técnico",
-      "commercial": "Uso Comercial e Licenças"
+      "commercial": "Uso em sala de aula e licenças"
     },
     "cta": {
       "title": "Ainda tem dúvidas?",
@@ -935,7 +935,7 @@
       },
       "CORE": {
         "name": "Pacote Essencial",
-        "description": "Ideal para construir seu negócio de imprimíveis",
+        "description": "Perfeito para uma sala de aula multilíngue",
         "features": [
           "Acesso a 10 geradores populares",
           "Atividades ilimitadas",
@@ -1032,7 +1032,7 @@
     "metaDescription": "LessonCraftStudio é uma plataforma gratuita de fichas K-3 e atividades interativas em onze idiomas, feita para salas bilíngues, duais e escolas internacionais.",
     "hero": {
       "title": "Sobre o LessonCraftStudio",
-      "subtitle": "Geradores profissionais de imprimíveis para vendedores Etsy e editores KDP no mundo todo"
+      "subtitle": "Fichas K-3 gratuitas e geradores de fichas em 11 idiomas, para salas bilíngues, duais e escolas internacionais"
     },
     "stats": {
       "generators": "many",
@@ -1046,8 +1046,8 @@
     },
     "mission": {
       "title": "Nossa missão",
-      "description": "LessonCraftStudio foi criado para ajudar vendedores Etsy, editores KDP e empreendedores de imprimíveis a gerar fichas profissionais instantaneamente — sem habilidades de design, software caro ou horas de preparação.",
-      "description2": "Nossos nossos geradores criam PDFs prontos para impressão em 300 DPI com gabaritos, milhares de imagens temáticas e muitos idiomas — tudo com licença comercial para vender em qualquer plataforma."
+      "description": "O LessonCraftStudio dá aos professores de salas bilíngues, duais e escolas internacionais as ferramentas para produzir fichas e atividades K-3 na segunda língua dos seus alunos — sem habilidades de design, software caro ou horas de trabalho manual. Cada gerador produz fichas prontas para impressão e uma versão interativa jogável no navegador a partir da mesma configuração, em minutos.",
+      "description2": "Cada gerador é gratuito para professores. Sem assinaturas, sem taxas recorrentes, sem limites para o que você cria. Navegue, visualize, baixe, incorpore e compartilhe sem fazer login."
     },
     "methodology": {
       "title": "Nossa abordagem",
@@ -1056,8 +1056,8 @@
         "description": "Escolha um tema, personalize as configurações e gere uma atividade pronta para imprimir em segundos. Nenhuma habilidade de design necessária."
       },
       "research": {
-        "title": "Qualidade profissional",
-        "description": "Cada gerador cria PDFs prontos para venda em 300 DPI com gabaritos — perfeitos para lojas Etsy, livros KDP e downloads digitais."
+        "title": "Qualidade para sala de aula",
+        "description": "Cada gerador produz saída pronta para sala de aula com tamanho de página adequado, alta resolução, gabaritos automáticos e formatação limpa. Imprima, incorpore no site da sua classe ou LMS, ou compartilhe como link."
       },
       "inclusive": {
         "title": "Multilingual e inclusivo",
@@ -1067,38 +1067,38 @@
     "audience": {
       "title": "Para quem servimos",
       "teachers": {
-        "title": "Vendedores Etsy e KDP",
-        "description": "Crie rapidamente um catálogo de produtos imprimíveis. Gere fichas temáticas únicas que se destaquem no mercado."
+        "title": "Professores de salas bilíngues e duais",
+        "description": "Monte um catálogo de fichas e atividades K-3 na segunda língua dos seus alunos. Gere baralhos de fonética, matemática e vocabulário em diversos temas — tanto PDFs imprimíveis quanto versões interativas jogáveis no navegador a partir da mesma configuração."
       },
       "parents": {
-        "title": "Uso pessoal",
-        "description": "Crie fichas para educação domiciliar ou projetos pessoais em segundos. Teste grátis com marca d'água — sem cadastro."
+        "title": "Pais que fazem ensino domiciliar e tutores",
+        "description": "Crie fichas K-3 personalizadas para ensino domiciliar ou aulas particulares em segundos. Cada gerador é gratuito — sem cadastro."
       },
       "therapists": {
-        "title": "Criadores de conteúdo e editores",
-        "description": "Produza conteúdo imprimível profissional em escala. nossos geradores, muitos temas, muitos idiomas — crie centenas de produtos únicos em uma única plataforma."
+        "title": "Professores de escolas internacionais",
+        "description": "Ofereça fichas e atividades K-3 em 11 idiomas a partir de uma única plataforma. Cada gerador de fichas, diversos temas e um sistema de vocabulário que acerta artigos, plurais, gênero e acentos em cada idioma que você ensina."
       }
     },
     "cta": {
       "title": "Pronto para criar?",
-      "subtitle": "Comece a criar atividades profissionais em segundos — teste gratuito.",
+      "subtitle": "Cada gerador é gratuito para experimentar — sem cadastro necessário.",
       "button": "Explorar geradores"
     },
     "metaKeywords": "fichas K-3, sala multilíngue, educação bilíngue, imprimíveis grátis, atividades interativas",
     "expertise": {
-      "title": "Criado para vendedores",
-      "subtitle": "Cada funcionalidade e projetada para ajuda-lo a criar e vender mais produtos, mais rapido",
+      "title": "Criado para professores",
+      "subtitle": "Cada funcionalidade é pensada para ajudar professores a dar mais aulas em mais idiomas, mais rápido",
       "curriculum": {
-        "title": "Producao pronta para venda",
-        "description": "Exportacao PDF 300 DPI, gabaritos automaticos, formatacao otimizada para KDP e modo escala de cinza. Sua producao esta pronta para publicar no Etsy, Amazon KDP ou Teachers Pay Teachers imediatamente."
+        "title": "Saída pronta para sala de aula",
+        "description": "Exportação PDF 300 DPI, gabaritos automáticos, formatação pronta para impressão e modo escala de cinza. Sua saída está pronta para imprimir, incorporar no site da sua classe ou LMS, ou compartilhar como link imediatamente."
       },
       "educators": {
-        "title": "Direitos comerciais completos",
-        "description": "Cada produto pago inclui direitos comerciais sem restricoes. Venda em qualquer plataforma, em qualquer quantidade. Sem atribuicao necessaria, sem royalties, sem restricoes."
+        "title": "11 idiomas, curados por professores",
+        "description": "Cada idioma do nosso catálogo é curado por pessoas que realmente ensinam naquele idioma. Artigos, plurais, gênero e acentos estão corretos — não traduzidos automaticamente. Crie fichas autênticas em inglês, alemão, francês, espanhol, português, italiano, holandês, sueco, dinamarquês, norueguês ou finlandês."
       },
       "evidence": {
-        "title": "Compra unica",
-        "description": "Sem assinaturas, sem taxas mensais, sem custos ocultos. Pague uma vez e use seus geradores para sempre. Todos os produtos incluem garantia de reembolso de 30 dias."
+        "title": "Sem cadastro para navegar",
+        "description": "Sem assinaturas, sem taxas mensais, sem custos ocultos. Navegue, visualize e jogue com qualquer baralho sem nenhuma conta. Uma conta gratuita opcional adiciona funcionalidades de espaço de trabalho como coleções e favoritos."
       }
     }
   },

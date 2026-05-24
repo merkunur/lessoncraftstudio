@@ -17,11 +17,11 @@
     "blog": "Blog",
     "resourcesDesc": {
       "tools": "Try every generator online",
-      "guides": "Step-by-step selling guides",
-      "bundles": "Save with category packs",
-      "ideas": "Profitable niche inspiration",
-      "start": "Launch your business",
-      "blog": "Tips & strategies for sellers"
+      "guides": "How-to guides for teachers",
+      "bundles": "Category packs",
+      "ideas": "Worksheet ideas by topic",
+      "start": "Getting started",
+      "blog": "Tips & strategies for teachers"
     },
     "pricing": "Pricing"
   },
@@ -296,7 +296,7 @@
     },
     "serviceDescription": {
       "title": "2. SERVICE DESCRIPTION",
-      "content": "LessonCraftStudio provides professional worksheet and puzzle generator tools. All generators are free to use with a watermark. Paid products (one-time purchases) remove the watermark and include full commercial rights. Paid products are activated with a license key delivered to your email after purchase."
+      "content": "LessonCraftStudio provides worksheet and puzzle generator tools for K-3 multilingual classrooms. Free use covers personal, classroom, and non-commercial use. Paid products (one-time purchases) include full commercial rights and are activated with a license key delivered to your email after purchase."
     },
     "userAccounts": {
       "title": "3. USER ACCOUNTS",
@@ -369,8 +369,8 @@
     "grantOfLicense": {
       "title": "1. GRANT OF LICENSE",
       "intro": "LessonCraftStudio grants you a license to use its worksheet generators and generated content based on your purchase:",
-      "freeTier": "Free Use: All generators are free to use with a watermark. Output is for personal, non-commercial use only.",
-      "coreBundle": "Paid Products (One-Time Purchase): Full commercial rights. Create unlimited content and sell on any platform — Etsy, Amazon KDP, Teachers Pay Teachers, or your own store. No attribution required.",
+      "freeTier": "Free Use: All generators are free to use. Output is for personal, classroom, and non-commercial use.",
+      "coreBundle": "Paid Products (One-Time Purchase): Full commercial rights. Create unlimited content and sell on any platform you choose. No attribution required.",
       "fullAccess": "License Key Activation: Paid products are activated with a license key tied to the email address used at purchase. Each license key is for one user."
     },
     "intellectualProperty": {
@@ -383,13 +383,13 @@
       "reverseEngineer": "Reverse engineer, decompile, or extract source code from the platform",
       "competing": "Create competing worksheet generator services using our platform or assets",
       "sublicense": "Share, transfer, or resell your license key to another person",
-      "removeNotices": "Remove or circumvent watermarks on free-tier output",
+      "removeNotices": "Remove or circumvent any notices or identifiers on free-tier output",
       "illegal": "Use generated content for illegal, harmful, or misleading purposes"
     },
     "commercialDistribution": {
       "title": "4. COMMERCIAL DISTRIBUTION",
-      "pod": "Print-on-Demand Rights: Paid license holders may sell unlimited copies of generated content through print-on-demand platforms (Amazon KDP, Lulu, IngramSpark, etc.).",
-      "digital": "Digital Distribution: Paid license holders may sell digital downloads of generated content on any platform (Etsy, Gumroad, Teachers Pay Teachers, personal websites, etc.). No royalties or attribution required."
+      "pod": "Print-on-Demand Rights: Paid license holders may sell unlimited copies of generated content through any print-on-demand service.",
+      "digital": "Digital Distribution: Paid license holders may sell digital downloads of generated content on any platform they choose. No royalties or attribution required."
     },
     "termination": {
       "title": "5. TERMINATION",
@@ -433,7 +433,7 @@
     "dataCollection": {
       "title": "3. DATA COLLECTED",
       "intro": "We collect:",
-      "personal": "Purchase data (email address, name) — provided when you buy a product via WarriorPlus",
+      "personal": "Purchase data (email address, name) — provided when you buy a product via Lemon Squeezy",
       "usage": "Usage analytics (pages visited, generators used, session duration)",
       "technical": "Technical data (IP address, browser type, device information)",
       "cookies": "Cookie preferences (language selection, locale)"
@@ -457,8 +457,8 @@
     "dataSharing": {
       "title": "6. DATA SHARING",
       "intro": "Limited sharing with:",
-      "providers": "WarriorPlus (payment processing and order fulfillment)",
-      "payment": "PayPal and Stripe (payment processing via WarriorPlus)",
+      "providers": "Lemon Squeezy (payment processing and order fulfillment)",
+      "payment": "Major credit cards and PayPal (payment processing via Lemon Squeezy)",
       "legal": "Legal authorities when required by law",
       "consent": "Third parties only with your explicit consent"
     },
@@ -491,11 +491,11 @@
     },
     "children": {
       "title": "11. CHILDREN",
-      "content": "Our service is designed for adult entrepreneurs, educators, and publishers. We do not knowingly collect personal data from anyone under 16 years of age. Our generators create content intended for children but are operated by adults."
+      "content": "Our service is designed for adult teachers, parents, and other educators. We do not knowingly collect personal data from anyone under 16 years of age. Our generators create content intended for children but are operated by adults."
     },
     "international": {
       "title": "12. INTERNATIONAL TRANSFERS",
-      "content": "Data is primarily stored in the EU/EEA. When data is transferred outside the EU (e.g., to WarriorPlus in the US), appropriate safeguards such as Standard Contractual Clauses are in place."
+      "content": "Data is primarily stored in the EU/EEA. When data is transferred outside the EU (e.g., to Lemon Squeezy in the US), appropriate safeguards such as Standard Contractual Clauses are in place."
     },
     "changes": {
       "title": "13. POLICY CHANGES",
@@ -523,14 +523,14 @@
       "pricing": "Pricing & Purchases",
       "technical": "Technical Support",
       "education": "Education & Grade Levels",
-      "commercial": "Commercial Use & Licensing"
+      "commercial": "Classroom Use & Licensing"
     },
     "items": {
-      "general": "[{\"question\":\"What is LessonCraftStudio?\",\"answer\":\"LessonCraftStudio is a professional platform with a wide range of worksheet and puzzle generators for entrepreneurs, Etsy sellers, Amazon KDP publishers, and educators. All generators are free to use with a watermark — no signup required. Paid products remove the watermark and include full commercial rights.\"},{\"question\":\"Who is LessonCraftStudio for?\",\"answer\":\"Our platform is designed for Etsy sellers, Amazon KDP publishers, Teachers Pay Teachers creators, homeschool parents, and anyone who wants to create and sell professional printable content.\"},{\"question\":\"Do I need design skills to use the generators?\",\"answer\":\"No! Our generators are designed to be user-friendly. Simply choose your settings, pick a theme, and generate professional worksheets in minutes.\"},{\"question\":\"Can I try before I buy?\",\"answer\":\"Yes! Every generator are completely free to use — no signup or credit card required. Free output includes a small watermark. Purchase a product to remove the watermark and unlock full commercial rights.\"}]",
-      "apps": "[{\"question\":\"How many worksheet generators do you offer?\",\"answer\":\"We offer a wide range of worksheet generators covering math, language arts, puzzles, games, visual perception, fine motor skills, and more. All generators are free to use with a watermark.\"},{\"question\":\"What can I do for free?\",\"answer\":\"Every generator are free to use — no signup required. Free output includes a small watermark and is for personal, non-commercial use only.\"},{\"question\":\"What do I get when I purchase a product?\",\"answer\":\"Paid products are one-time purchases (no subscription). You get watermark-free output, full commercial rights to sell on any platform, and a license key for instant activation.\"},{\"question\":\"How many image themes are available?\",\"answer\":\"We offer plenty of themed image collections with thousands of images. The base product includes 10 themes; the Complete Image Library unlocks the full image library.\"},{\"question\":\"Can I create worksheets in multiple languages?\",\"answer\":\"Yes! Our platform supports many languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish.\"},{\"question\":\"Can I customize the worksheets?\",\"answer\":\"Absolutely! Each generator offers customization options including difficulty levels, grid sizes, number of items, color schemes, fonts, and more.\"}]",
-      "pricing": "[{\"question\":\"How much do your products cost?\",\"answer\":\"All generators are free to use with a watermark. Paid products are one-time purchases starting at $27 — no subscriptions, no recurring fees.\"},{\"question\":\"Is this a subscription?\",\"answer\":\"No. All products are one-time purchases. Pay once, use forever. No monthly fees, no annual renewals, no hidden charges.\"},{\"question\":\"What payment methods do you accept?\",\"answer\":\"Payments are processed securely through WarriorPlus, which supports all major credit cards and PayPal.\"},{\"question\":\"Do you offer a money-back guarantee?\",\"answer\":\"Yes! All products come with a 30-day money-back guarantee. No questions asked.\"},{\"question\":\"How do I access my purchase?\",\"answer\":\"After purchase, you receive a license key via email. Enter it at lessoncraftstudio.com/member to activate your products instantly.\"},{\"question\":\"Can I upgrade later?\",\"answer\":\"Yes. You can purchase additional products at any time. The best prices are available right after your initial purchase.\"}]",
-      "technical": "[{\"question\":\"What file formats can I export?\",\"answer\":\"All generators export to high-quality 300 DPI PDF and JPEG formats, perfect for printing, Amazon KDP, Etsy digital downloads, or Teachers Pay Teachers listings.\"},{\"question\":\"Do the generators work on mobile devices?\",\"answer\":\"Yes! Our generators are fully responsive and work on desktop, tablet, and mobile devices through your web browser.\"},{\"question\":\"Do I need to install any software?\",\"answer\":\"No installation required! LessonCraftStudio is entirely web-based. No account needed to use the free generators.\"},{\"question\":\"Are my worksheets saved?\",\"answer\":\"Worksheets are generated on demand — download them immediately after creation. We recommend saving your files to your device or cloud storage.\"},{\"question\":\"What if I encounter a bug or issue?\",\"answer\":\"Contact our support team at support@lessoncraftstudio.com. We respond within 24–48 hours.\"},{\"question\":\"Are there any usage limits?\",\"answer\":\"No! Create unlimited worksheets. There are no daily or monthly generation limits.\"}]",
-      "commercial": "[{\"question\":\"Can I sell the worksheets I create?\",\"answer\":\"Yes — with any paid product. All paid products include full commercial rights. Sell on Etsy, Amazon KDP, Teachers Pay Teachers, or any other platform. No attribution required.\"},{\"question\":\"Can I sell worksheets created with the free generators?\",\"answer\":\"No. Free generator output includes a watermark and is for personal, non-commercial use only. Purchase any paid product to unlock commercial rights.\"},{\"question\":\"What are POD (Print-on-Demand) rights?\",\"answer\":\"All paid products include full POD rights. Sell physical printed copies through Amazon KDP, IngramSpark, Lulu, or any print-on-demand service.\"},{\"question\":\"Can I use the worksheets in my classroom?\",\"answer\":\"Yes! Both free and paid output can be used in your own classroom or homeschool setting.\"},{\"question\":\"Do I need to credit LessonCraftStudio on products I sell?\",\"answer\":\"No attribution is required. Paid products produce clean, watermark-free output with no branding.\"},{\"question\":\"Can I use the images in other projects?\",\"answer\":\"The commercial license applies to complete worksheets generated through our platform. Individual image extraction or use outside the generators is not permitted.\"},{\"question\":\"Is my license permanent?\",\"answer\":\"Yes. Your one-time purchase gives you a permanent license. Content created retains commercial rights forever.\"}]"
+      "general": "[{\"question\":\"What is LessonCraftStudio?\",\"answer\":\"LessonCraftStudio is a platform of free K-3 worksheets and worksheet generators in 11 languages — phonics, math, vocabulary — for dual-language, bilingual, and international-school classrooms. Every worksheet, PDF, and interactive deck is free to use, no signup required.\"},{\"question\":\"Who is LessonCraftStudio for?\",\"answer\":\"Our platform is built for teachers in dual-language, bilingual, and international-school classrooms, as well as parents and other educators working with K-3 learners in a second language.\"},{\"question\":\"Do I need design skills to use the generators?\",\"answer\":\"No. Our generators are designed for teachers, not designers. Pick your topic, theme, and language — the apps produce a print-ready PDF and a browser-playable interactive version in minutes.\"},{\"question\":\"Do I need to sign up?\",\"answer\":\"No. Every worksheet, every PDF download, and every worksheet creator is free to use without signing in. An optional free account adds workspace features like collections and favorites.\"}]",
+      "apps": "[{\"question\":\"How many worksheet generators do you offer?\",\"answer\":\"We offer a wide range of worksheet generators covering math, phonics, vocabulary, puzzles, matching, visual perception, fine motor skills, and more. All generators are free to use.\"},{\"question\":\"What can I do without signing in?\",\"answer\":\"Everything load-bearing. Browse, preview, and play every interactive deck. Download every PDF and answer key. Use every worksheet generator, including downloading the interactive HTML output.\"},{\"question\":\"What does signing in add?\",\"answer\":\"An optional free account adds workspace features: create and share collections, save favorites, and manage shareable links. Resources stay free for everyone.\"},{\"question\":\"How many image themes are available?\",\"answer\":\"We offer plenty of themed image collections with thousands of K-3 illustrations, spanning animals, vehicles, food, holidays, body parts, seasonal moments, and more.\"},{\"question\":\"Can I create worksheets in multiple languages?\",\"answer\":\"Yes. Our platform supports 11 languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish — each curated by people who actually teach in that language.\"},{\"question\":\"Can I customize the worksheets?\",\"answer\":\"Yes. Each generator offers customization options including difficulty levels, grid sizes, number of items, color schemes, fonts, and more.\"}]",
+      "pricing": "[{\"question\":\"How much does LessonCraftStudio cost?\",\"answer\":\"LessonCraftStudio is free. Every worksheet, every PDF, every interactive deck, and every worksheet generator is free to use — no subscription, no recurring fees.\"},{\"question\":\"Is this a subscription?\",\"answer\":\"No. There is no subscription and no recurring fee.\"},{\"question\":\"Do I need to sign up to use it?\",\"answer\":\"No. Every resource is anonymous-accessible. An optional free account adds workspace features like collections and favorites.\"},{\"question\":\"Do I need a credit card?\",\"answer\":\"No. There is no credit card requirement at any point.\"},{\"question\":\"Are there any usage limits?\",\"answer\":\"No. Create, download, embed, and share unlimited worksheets. There are no daily or monthly limits.\"},{\"question\":\"Will pricing change in the future?\",\"answer\":\"The current model is free for everyone. If anything changes, it will be announced in advance.\"}]",
+      "technical": "[{\"question\":\"What file formats can I export?\",\"answer\":\"All generators export to high-quality 300 DPI PDF, perfect for classroom printing, plus a browser-playable interactive version of the same deck for student devices.\"},{\"question\":\"Do the generators work on mobile devices?\",\"answer\":\"Yes. Our generators and interactive decks are fully responsive and work on desktop, tablet, Chromebook, and phone through any modern browser.\"},{\"question\":\"Do I need to install any software?\",\"answer\":\"No installation required. LessonCraftStudio is entirely web-based, and no account is needed to browse, preview, or play any deck.\"},{\"question\":\"Are my worksheets saved?\",\"answer\":\"Worksheets are generated on demand — download them immediately after creation. We recommend saving your files to your device, your school drive, or your LMS.\"},{\"question\":\"What if I encounter a bug or issue?\",\"answer\":\"Contact our support team at support@lessoncraftstudio.com. We respond within 24–48 hours.\"},{\"question\":\"Are there any usage limits?\",\"answer\":\"No. Create unlimited worksheets. There are no daily or monthly generation limits.\"}]",
+      "commercial": "[{\"question\":\"Can I use the worksheets in my classroom?\",\"answer\":\"Yes. Free use covers personal, classroom, and non-commercial use — printable PDFs, interactive decks, and embeds for your class site or LMS.\"},{\"question\":\"Can I share worksheets with my students?\",\"answer\":\"Yes. Send any deck as a link or embed it on your class website, blog, or learning management system. Students play directly in the browser — no signup, no app, no account required.\"},{\"question\":\"Can I share worksheets with other teachers?\",\"answer\":\"Yes. You're welcome to share generated worksheets and deck links with colleagues for classroom use. Each teacher can also create their own free account in just a moment.\"},{\"question\":\"Can I use the worksheets for homeschool?\",\"answer\":\"Yes. Free use covers homeschool and personal-tutoring use in the same way it covers classroom use.\"},{\"question\":\"Do I need to credit LessonCraftStudio when I share a worksheet?\",\"answer\":\"No attribution is required for classroom, homeschool, or personal use.\"},{\"question\":\"Can I use the images on their own, outside the worksheets?\",\"answer\":\"The free use license applies to complete worksheets generated through our platform. Individual image extraction or use outside the generators is not permitted.\"},{\"question\":\"Will my access change in the future?\",\"answer\":\"The current model is free for everyone. If anything changes, it will be announced in advance.\"}]"
     },
     "cta": {
       "title": "Still Have Questions?",
@@ -615,7 +615,7 @@
       },
       "CORE": {
         "name": "Core Bundle",
-        "description": "Perfect for building a printable product line",
+        "description": "Perfect for a multilingual classroom",
         "features": [
           "Access to 10 popular worksheet generators",
           "Unlimited worksheet generation",
@@ -748,7 +748,7 @@
     "metaKeywords": "K-3 worksheets, multilingual classroom, dual-language education, free printables, interactive activities",
     "hero": {
       "title": "About LessonCraftStudio",
-      "subtitle": "Professional printable creation tools for entrepreneurs, educators, and publishers"
+      "subtitle": "Free K-3 worksheets and worksheet creators in 11 languages, for dual-language, bilingual, and international classrooms"
     },
     "stats": {
       "generators": "many",
@@ -762,8 +762,8 @@
     },
     "mission": {
       "title": "Our Mission",
-      "description": "LessonCraftStudio gives you the tools to build a profitable printable business — without design skills, expensive software, or hours of manual work. Our every generator produce professional, print-ready worksheets and puzzles in minutes.",
-      "description2": "Every generator is free to try with a watermark. When you’re ready to sell, a one-time purchase removes the watermark and unlocks full commercial rights — no subscriptions, no recurring fees, no limits on what you create."
+      "description": "LessonCraftStudio gives teachers in dual-language, bilingual, and international classrooms the tools to produce K-3 worksheets and activities in their students' second language — without design skills, expensive software, or hours of manual work. Every generator produces print-ready worksheets and a browser-playable interactive version from the same setup, in minutes.",
+      "description2": "Every generator is free for teachers. No subscriptions, no recurring fees, no limits on what you create. Browse, preview, download, embed, and share without signing in."
     },
     "methodology": {
       "title": "Our Approach",
@@ -772,43 +772,43 @@
         "description": "Pick a theme, customize your settings, and export a print-ready PDF in minutes. No design skills required. Every generator includes automatic formatting, answer keys, and 300 DPI export."
       },
       "research": {
-        "title": "Professional Quality",
-        "description": "Every generator produces output that meets the standards of Amazon KDP, Etsy, and Teachers Pay Teachers. Print-ready files with proper page sizing, high resolution, and clean formatting."
+        "title": "Classroom-Quality Output",
+        "description": "Every generator produces classroom-ready output with proper page sizing, high resolution, automatic answer keys, and clean formatting. Print, embed in your class site or LMS, or share as a link."
       },
       "inclusive": {
-        "title": "Many Languages, Plenty of Themes",
-        "description": "Create products for global markets. All generators support many languages with automatic translation. Choose from plenty of image themes with thousands of professionally curated images."
+        "title": "11 Languages, Plenty of Themes",
+        "description": "Create worksheets in your students' second language. All generators support 11 languages — each curated by people who actually teach in that language. Choose from plenty of image themes with thousands of K-3 illustrations."
       }
     },
     "expertise": {
-      "title": "Built for Sellers",
-      "subtitle": "Every feature is designed to help you create and sell more products, faster",
+      "title": "Built for Teachers",
+      "subtitle": "Every feature is designed to help teachers deliver more lessons in more languages, faster",
       "curriculum": {
-        "title": "Commercial-Ready Output",
-        "description": "300 DPI PDF export, automatic answer keys, KDP-optimized formatting, and grayscale mode. Your output is ready to list on Etsy, Amazon KDP, or Teachers Pay Teachers immediately."
+        "title": "Classroom-Ready Output",
+        "description": "300 DPI PDF export, automatic answer keys, print-ready formatting, and grayscale mode. Your output is ready to print, embed in your class site or LMS, or share as a link immediately."
       },
       "educators": {
-        "title": "Full Commercial Rights",
-        "description": "Every paid product includes unrestricted commercial rights. Sell on any platform, in any quantity. No attribution required, no royalties, no restrictions. Your creations are entirely yours to sell."
+        "title": "11 Languages, Curated By Teachers",
+        "description": "Every language in our catalog is curated by people who actually teach in that language. Articles, plurals, gender, and accents are correct — not auto-translated. Build authentic worksheets in English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish."
       },
       "evidence": {
-        "title": "One-Time Purchase",
-        "description": "No subscriptions, no monthly fees, no hidden costs. Pay once and use your generators forever. All products include a 30-day money-back guarantee."
+        "title": "No Signup To Browse",
+        "description": "No subscriptions, no monthly fees, no hidden costs. Browse, preview, and play any deck with no account at all. An optional free account adds workspace features like collections and favorites."
       }
     },
     "audience": {
       "title": "Who We Serve",
       "teachers": {
-        "title": "Etsy & KDP Sellers",
-        "description": "Build a catalog of printable products fast. Create unique, themed worksheets and puzzle books that stand out in the marketplace. List more products, earn more revenue."
+        "title": "Dual-Language & Bilingual Teachers",
+        "description": "Build a catalog of K-3 worksheets and activities in your students' second language. Generate phonics, math, and vocabulary decks across plenty of themes — both printable PDFs and browser-playable interactive versions from the same setup."
       },
       "parents": {
-        "title": "Personal Use",
-        "description": "Create custom worksheets for homeschool or personal projects in seconds. All generators are free to try with watermark — no signup required."
+        "title": "Homeschool Parents & Tutors",
+        "description": "Create custom K-3 worksheets for homeschool or one-on-one tutoring in seconds. Every generator is free to use — no signup required."
       },
       "therapists": {
-        "title": "Content Creators & Publishers",
-        "description": "Produce professional printable content at scale. every generator, plenty of themes, many languages — create hundreds of unique products from a single platform."
+        "title": "International-School Teachers",
+        "description": "Deliver K-3 worksheets and activities across 11 languages from a single platform. Every worksheet creator, plenty of themes, and a vocabulary system that gets articles, plurals, gender, and accents right in every language you teach."
       }
     },
     "cta": {

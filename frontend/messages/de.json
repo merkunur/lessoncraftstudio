@@ -21,7 +21,7 @@
       "bundles": "Sparen mit Kategoriepaketen",
       "ideas": "Profitable Nischen-Inspiration",
       "start": "Starten Sie Ihr Geschäft",
-      "blog": "Tipps & Strategien für Verkäufer"
+      "blog": "Tipps & Strategien für Lehrkräfte"
     },
     "pricing": "Preise"
   },
@@ -564,7 +564,7 @@
       "reverseEngineer": "Die Plattform zurückentwickeln",
       "competing": "Konkurrierende Dienste erstellen",
       "sublicense": "Plattformzugang unterlizenzieren",
-      "removeNotices": "Wasserzeichen von kostenlosen Inhalten entfernen",
+      "removeNotices": "Hinweise oder Kennungen aus kostenlosen Inhalten entfernen oder umgehen",
       "illegal": "Für illegale Zwecke nutzen"
     },
     "commercialDistribution": {
@@ -731,7 +731,7 @@
       },
       "CORE": {
         "name": "Basis-Paket",
-        "description": "Perfekt zum Aufbau Ihres Printable-Geschäfts",
+        "description": "Perfekt für mehrsprachige Klassen",
         "features": [
           "Zugriff auf 10 beliebte Arbeitsblattgeneratoren",
           "Unbegrenzte Arbeitsblattgenerierung",
@@ -838,7 +838,7 @@
     "metaDescription": "LessonCraftStudio ist eine kostenlose K-3 Arbeitsblatt- und Aktivitätenplattform in elf Sprachen, entwickelt für zweisprachige, bilinguale und internationale Klassen.",
     "hero": {
       "title": "Über LessonCraftStudio",
-      "subtitle": "Professionelle Printable-Generatoren für Etsy-Verkäufer und KDP-Publisher weltweit"
+      "subtitle": "Kostenlose K-3 Arbeitsblätter und Arbeitsblatt-Generatoren in 11 Sprachen, für zweisprachige, bilinguale und internationale Klassen"
     },
     "stats": {
       "generators": "many",
@@ -852,8 +852,8 @@
     },
     "mission": {
       "title": "Unsere Mission",
-      "description": "LessonCraftStudio wurde entwickelt, um Etsy-Verkäufern, KDP-Publishern und Printable-Unternehmern zu helfen, professionelle Arbeitsblätter sofort zu erstellen — ohne Designkenntnisse, teure Software oder stundenlange Vorbereitung.",
-      "description2": "Unsere unsere Generatoren erstellen druckfertige PDFs in 300 DPI mit Antwortschlüsseln, tausenden thematischen Bildern und vielen Sprachen — alles mit kommerzieller Lizenz zum Verkauf auf jeder Plattform."
+      "description": "LessonCraftStudio gibt Lehrkräften in zweisprachigen, bilingualen und internationalen Klassen die Werkzeuge, K-3 Arbeitsblätter und Aktivitäten in der Zweitsprache ihrer Kinder zu produzieren — ohne Designkenntnisse, teure Software oder stundenlange Vorbereitung. Jeder Generator erstellt aus derselben Eingabe druckfertige Arbeitsblätter und eine im Browser spielbare interaktive Version, in wenigen Minuten.",
+      "description2": "Jeder Generator ist kostenlos für Lehrkräfte. Keine Abonnements, keine wiederkehrenden Gebühren, keine Grenzen für das, was Sie erstellen. Stöbern, Vorschau, herunterladen, einbetten und teilen — ganz ohne Anmeldung."
     },
     "methodology": {
       "title": "Unser Ansatz",
@@ -863,7 +863,7 @@
       },
       "research": {
         "title": "Professionelle Qualität",
-        "description": "Jeder Generator erstellt verkaufsfertige PDFs in 300 DPI mit Antwortschlüsseln — perfekt für Etsy-Shops, KDP-Bücher und digitale Downloads."
+        "description": "Jeder Generator erstellt klassenfertige Ausgaben mit korrekter Seitengröße, hoher Auflösung, automatischen Lösungsschlüsseln und sauberer Formatierung. Drucken, in Ihre Klassenseite oder Ihr LMS einbetten oder als Link teilen."
       },
       "inclusive": {
         "title": "Mehrsprachig & Inklusiv",
@@ -873,16 +873,16 @@
     "audience": {
       "title": "Für wen wir da sind",
       "teachers": {
-        "title": "Etsy- & KDP-Verkäufer",
-        "description": "Bauen Sie schnell einen Katalog druckbarer Produkte auf. Erstellen Sie einzigartige, thematische Arbeitsblätter und Rätselbücher, die sich auf dem Marktplatz abheben."
+        "title": "Lehrkräfte für zweisprachige und bilinguale Klassen",
+        "description": "Bauen Sie einen Katalog von K-3 Arbeitsblättern und Aktivitäten in der Zweitsprache Ihrer Kinder auf. Erstellen Sie Lautierungs-, Mathematik- und Vokabel-Decks zu zahlreichen Themen — sowohl druckbare PDFs als auch im Browser spielbare interaktive Versionen aus derselben Eingabe."
       },
       "parents": {
-        "title": "Persönliche Nutzung",
-        "description": "Erstellen Sie Arbeitsblätter für Homeschooling oder persönliche Projekte in Sekunden. Kostenlos testen mit Wasserzeichen — keine Anmeldung erforderlich."
+        "title": "Homeschool-Eltern & Nachhilfekräfte",
+        "description": "Erstellen Sie in Sekunden individuelle K-3 Arbeitsblätter für Homeschooling oder Einzelnachhilfe. Jeder Generator ist kostenlos nutzbar — keine Anmeldung erforderlich."
       },
       "therapists": {
-        "title": "Content-Ersteller & Verleger",
-        "description": "Produzieren Sie professionelle Printable-Inhalte im großen Maßstab. unsere Generatoren, zahlreiche Themen, vielen Sprachen — erstellen Sie Hunderte einzigartiger Produkte auf einer Plattform."
+        "title": "Lehrkräfte an internationalen Schulen",
+        "description": "Liefern Sie K-3 Arbeitsblätter und Aktivitäten in 11 Sprachen von einer einzigen Plattform. Jeder Arbeitsblatt-Generator, zahlreiche Themen und ein Vokabelsystem, das Artikel, Pluralformen, Genus und Akzente in jeder Sprache, die Sie unterrichten, korrekt umsetzt."
       }
     },
     "cta": {
@@ -892,19 +892,19 @@
     },
     "metaKeywords": "K-3 Arbeitsblätter, mehrsprachige Klassen, bilingualer Unterricht, kostenlose Printables, interaktive Aktivitäten",
     "expertise": {
-      "title": "Fuer Verkaeufer entwickelt",
-      "subtitle": "Jede Funktion ist darauf ausgelegt, Ihnen zu helfen, mehr Produkte schneller zu erstellen und zu verkaufen",
+      "title": "Für Lehrkräfte entwickelt",
+      "subtitle": "Jede Funktion ist darauf ausgelegt, Lehrkräften zu helfen, mehr Unterricht in mehr Sprachen schneller zu liefern",
       "curriculum": {
-        "title": "Kommerziell einsatzbereit",
-        "description": "300 DPI PDF-Export, automatische Loesungsschluessel, KDP-optimierte Formatierung und Graustufenmodus. Ihre Ausgabe ist sofort bereit fuer Etsy, Amazon KDP oder Teachers Pay Teachers."
+        "title": "Klassenfertige Ausgabe",
+        "description": "300 DPI PDF-Export, automatische Lösungsschlüssel, druckfertige Formatierung und Graustufenmodus. Ihre Ausgabe ist sofort bereit zum Drucken, zum Einbetten in Ihre Klassenseite oder Ihr LMS, oder zum Teilen als Link."
       },
       "educators": {
-        "title": "Volle kommerzielle Rechte",
-        "description": "Jedes kostenpflichtige Produkt beinhaltet uneingeschraenkte kommerzielle Rechte. Verkaufen Sie auf jeder Plattform, in jeder Menge. Keine Namensnennung erforderlich, keine Lizenzgebuehren, keine Einschraenkungen."
+        "title": "11 Sprachen, von Lehrkräften kuratiert",
+        "description": "Jede Sprache in unserem Katalog wird von Menschen kuratiert, die tatsächlich in dieser Sprache unterrichten. Artikel, Pluralformen, Genus und Akzente sind korrekt — nicht automatisch übersetzt. Erstellen Sie authentische Arbeitsblätter auf Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch oder Finnisch."
       },
       "evidence": {
-        "title": "Einmaliger Kauf",
-        "description": "Keine Abonnements, keine monatlichen Gebuehren, keine versteckten Kosten. Zahlen Sie einmal und nutzen Sie Ihre Generatoren fuer immer. Alle Produkte beinhalten eine 30-Tage-Geld-zurueck-Garantie."
+        "title": "Keine Anmeldung zum Stöbern",
+        "description": "Keine Abonnements, keine monatlichen Gebühren, keine versteckten Kosten. Stöbern, Vorschau und Spielen jedes Decks ganz ohne Konto. Ein optionales kostenloses Konto fügt Arbeitsbereichs-Funktionen wie Sammlungen und Favoriten hinzu."
       }
     }
   },

@@ -134,7 +134,7 @@
       },
       "pdf": {
         "title": "Lag en utskriftsklar PDF.",
-        "body": "Hvert deck lastes ned som en ren utskriftsklar PDF — fasit inkludert. Ingen vannmerke, ingen grense per deck, ingenting holdes tilbake til betalingsversjonen."
+        "body": "Hvert deck lastes ned som en ren utskriftsklar PDF med fasit — ingen registrering, ingen grense per deck, gratis for klasserommet."
       },
       "embed": {
         "title": "Bygg inn et deck på klassesiden eller bloggen din.",
@@ -160,7 +160,7 @@
       },
       "assets": {
         "title": "Et omfattende temabibliotek, en stor bildesamling, flere språk",
-        "body": "Illustrasjonsbiblioteket og ordforrådssystemet som lar det samme arbeidsarket fungere på forskjellige språk — grammatisk korrekt kjønn, flertall og diakritiske tegn på hvert språk."
+        "body": "Et K-3 illustrasjonsbibliotek og et ordforrådssystem som gir korrekt entall, flertall, kjønn og diakritiske tegn på elleve språk."
       },
       "price": "Gratis for alle med en lærerkonto.",
       "subscribeCta": "Bli med gratis →",
@@ -594,8 +594,8 @@
   },
   "faq": {
     "metaTitle": "Ofte stilte spørsmål - LessonCraftStudio",
-    "metaDescription": "Svar på vanlige spørsmål om våre oppgaveark-generatorer, prisplaner, kommersielle lisenser og teknisk support",
-    "metaKeywords": "FAQ, hjelp med oppgaveark-generatorer, prisspørsmål, kommersiell lisens, teknisk support",
+    "metaDescription": "Ofte stilte spørsmål om LessonCraftStudio — gratis K-3 arbeidsark og interaktive aktiviteter på elleve språk for flerspråklige klasserom.",
+    "metaKeywords": "K-3 arbeidsark, flerspråklig klasserom, tospråklig undervisning, gratis utskriftsklart, interaktive aktiviteter",
     "hero": {
       "title": "Ofte stilte spørsmål",
       "subtitle": "Alt du trenger å vite om LessonCraftStudios oppgaveark-generatorer"
@@ -1022,8 +1022,8 @@
     }
   },
   "about": {
-    "metaTitle": "Om LessonCraftStudio | Profesjonelle Printable-Generatorer",
-    "metaDescription": "Lær mer om LessonCraftStudio — profesjonelle printable-generatorer for Etsy-selgere, Amazon KDP-utgivere og printable-gründere. flera språk, tusentals bilder, kommersiell lisens inkludert.",
+    "metaTitle": "Om — K-3 arbeidsark på 11 språk",
+    "metaDescription": "LessonCraftStudio er en gratis plattform for K-3 arbeidsark og interaktive aktiviteter på elleve språk, bygget for tospråklige, flerspråklige og internasjonale klasserom.",
     "hero": {
       "title": "Om LessonCraftStudio",
       "subtitle": "Profesjonelle printable-generatorer for Etsy-selgere, KDP-utgivere og gründere"
@@ -1078,7 +1078,7 @@
       "subtitle": "Begynn å lage profesjonelle arbeidsark på sekunder — gratis å prøve.",
       "button": "Utforsk generatorer"
     },
-    "metaKeywords": "om LessonCraftStudio, arbeidsarkgeneratorer, verktoy for utskriftsbar oppretting, Etsy utskriftsbart, Amazon KDP arbeidsark, puslebokkskaper, kommersiell arbeidsarkgenerator, flerspraklige arbeidsark",
+    "metaKeywords": "K-3 arbeidsark, flerspråklig klasserom, tospråklig undervisning, gratis utskriftsklart, interaktive aktiviteter",
     "expertise": {
       "title": "Bygget for selgere",
       "subtitle": "Hver funksjon er designet for a hjelpe deg med a lage og selge flere produkter, raskere",

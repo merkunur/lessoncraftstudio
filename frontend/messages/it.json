@@ -134,7 +134,7 @@
       },
       "pdf": {
         "title": "Generate un PDF stampabile.",
-        "body": "Ogni deck si scarica come PDF stampabile pulito — chiave delle risposte inclusa. Niente filigrana, niente limite per deck, niente trattenuto per la versione a pagamento."
+        "body": "Ogni deck si scarica come PDF stampabile pulito con la chiave delle risposte — senza registrazione, senza limite per deck, gratis per la classe."
       },
       "embed": {
         "title": "Integrate un deck nel sito della vostra classe o nel vostro blog.",
@@ -160,7 +160,7 @@
       },
       "assets": {
         "title": "Una vasta biblioteca di temi, una grande raccolta di immagini, molte lingue",
-        "body": "La biblioteca di illustrazioni e il sistema di vocabolario che permettono alla stessa scheda di funzionare in lingue diverse — genere, plurali e accenti grammaticalmente corretti in ogni lingua."
+        "body": "Una biblioteca di illustrazioni K-3 e un sistema di vocabolario che restituisce singolare, plurale, genere e accenti corretti in undici lingue."
       },
       "price": "Gratuito per chiunque abbia un account insegnante.",
       "subscribeCta": "Iscriviti gratis →",
@@ -594,8 +594,8 @@
   },
   "faq": {
     "metaTitle": "Domande Frequenti - LessonCraftStudio",
-    "metaDescription": "Risposte alle domande più comuni sui nostri generatori di schede didattiche, piani tariffari, licenze commerciali e supporto tecnico",
-    "metaKeywords": "FAQ, aiuto generatori schede, domande prezzi, licenza commerciale, supporto tecnico",
+    "metaDescription": "Domande frequenti su LessonCraftStudio — schede K-3 e attività interattive gratuite in undici lingue per classi multilingui.",
+    "metaKeywords": "schede K-3, classi multilingui, educazione bilingue, stampabili gratuiti, attività interattive",
     "hero": {
       "title": "Domande Frequenti",
       "subtitle": "Tutto quello che devi sapere sui generatori di schede di LessonCraftStudio"
@@ -1028,8 +1028,8 @@
     "loadError": "Impossibile caricare le tue richieste. Aggiorna la pagina."
   },
   "about": {
-    "metaTitle": "Chi siamo | LessonCraftStudio — Generatori Professionali di Stampabili",
-    "metaDescription": "Scopri LessonCraftStudio — nostri generatori professionali di stampabili per venditori Etsy, editori Amazon KDP e imprenditori di stampabili. molte lingue, migliaia di immagini, licenza commerciale inclusa.",
+    "metaTitle": "Chi siamo — Schede K-3 in 11 lingue",
+    "metaDescription": "LessonCraftStudio è una piattaforma gratuita di schede K-3 e attività interattive in undici lingue, pensata per classi bilingui, duali e scuole internazionali.",
     "hero": {
       "title": "Chi siamo",
       "subtitle": "Generatori professionali di stampabili per venditori Etsy e editori KDP in tutto il mondo"
@@ -1084,7 +1084,7 @@
       "subtitle": "Inizia a creare schede professionali in pochi secondi — prova gratuita.",
       "button": "Scopri i generatori"
     },
-    "metaKeywords": "informazioni su LessonCraftStudio, generatori di schede, strumenti per la creazione di stampabili, stampabili Etsy, schede Amazon KDP, creatore di libri di puzzle, generatore di schede commerciale, schede multilingue",
+    "metaKeywords": "schede K-3, classi multilingui, educazione bilingue, stampabili gratuiti, attività interattive",
     "expertise": {
       "title": "Progettato per i venditori",
       "subtitle": "Ogni funzione e progettata per aiutarti a creare e vendere piu prodotti, piu velocemente",

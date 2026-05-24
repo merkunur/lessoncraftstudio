@@ -134,7 +134,7 @@
       },
       "pdf": {
         "title": "Gere um PDF imprimível.",
-        "body": "Cada deck é baixado como PDF imprimível limpo — gabarito incluso. Sem marca-d'água, sem limite por deck, nada retido para a versão paga."
+        "body": "Cada deck é baixado como PDF imprimível limpo com gabarito — sem cadastro, sem limite por deck, grátis para a sala de aula."
       },
       "embed": {
         "title": "Incorpore um deck no site da sua sala ou no seu blog.",
@@ -160,7 +160,7 @@
       },
       "assets": {
         "title": "Uma vasta biblioteca de temas, uma grande coleção de imagens, muitos idiomas",
-        "body": "A biblioteca de ilustrações e o sistema de vocabulário que fazem a mesma ficha funcionar em idiomas diferentes — gênero, plurais e acentuação gramaticalmente corretos em cada idioma."
+        "body": "Uma biblioteca de ilustrações K-3 e um sistema de vocabulário que entrega singular, plural, gênero e acentuação corretos em onze idiomas."
       },
       "price": "Grátis para todos com uma conta de professor.",
       "subscribeCta": "Cadastre-se grátis →",
@@ -594,8 +594,8 @@
   },
   "faq": {
     "metaTitle": "Perguntas Frequentes - LessonCraftStudio",
-    "metaDescription": "Respostas para as perguntas mais comuns sobre nossos geradores de fichas, planos de preços, licenças comerciais e suporte técnico",
-    "metaKeywords": "FAQ, ajuda geradores de fichas, dúvidas sobre preços, licença comercial, suporte técnico",
+    "metaDescription": "Perguntas frequentes sobre LessonCraftStudio — fichas K-3 e atividades interativas grátis em onze idiomas para salas multilíngues.",
+    "metaKeywords": "fichas K-3, sala multilíngue, educação bilíngue, imprimíveis grátis, atividades interativas",
     "hero": {
       "title": "Perguntas Frequentes",
       "subtitle": "Tudo o que você precisa saber sobre os geradores de fichas do LessonCraftStudio"
@@ -1028,8 +1028,8 @@
     "loadError": "Não foi possível carregar suas solicitações. Por favor, atualize a página."
   },
   "about": {
-    "metaTitle": "Sobre o LessonCraftStudio | Geradores Profissionais de Imprimíveis",
-    "metaDescription": "Conheça o LessonCraftStudio — nossos geradores profissionais de imprimíveis para vendedores Etsy, editores Amazon KDP e empreendedores de imprimíveis. muitos idiomas, milhares de imagens, licença comercial incluída.",
+    "metaTitle": "Sobre — Fichas K-3 em 11 idiomas",
+    "metaDescription": "LessonCraftStudio é uma plataforma gratuita de fichas K-3 e atividades interativas em onze idiomas, feita para salas bilíngues, duais e escolas internacionais.",
     "hero": {
       "title": "Sobre o LessonCraftStudio",
       "subtitle": "Geradores profissionais de imprimíveis para vendedores Etsy e editores KDP no mundo todo"
@@ -1084,7 +1084,7 @@
       "subtitle": "Comece a criar atividades profissionais em segundos — teste gratuito.",
       "button": "Explorar geradores"
     },
-    "metaKeywords": "sobre LessonCraftStudio, geradores de fichas, ferramentas de criacao de imprimiveis, imprimiveis Etsy, fichas Amazon KDP, criador de livros de puzzles, gerador de fichas comercial, fichas multilingues",
+    "metaKeywords": "fichas K-3, sala multilíngue, educação bilíngue, imprimíveis grátis, atividades interativas",
     "expertise": {
       "title": "Criado para vendedores",
       "subtitle": "Cada funcionalidade e projetada para ajuda-lo a criar e vender mais produtos, mais rapido",

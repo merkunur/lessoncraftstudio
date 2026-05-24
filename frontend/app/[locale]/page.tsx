@@ -43,10 +43,14 @@ export const revalidate = 3600;
 
 const BASE_URL = 'https://www.lessoncraftstudio.com';
 
-// OG image: fixed page-level 1200×630 asset. Co-located with deck assets in
-// the nginx-served versioned dir; locale-independent. Carried over from
-// homepage-v2; redesign for v3 deferred to follow-up commission.
-const OG_IMAGE_PATH = '/de/decks/picture-path/og-image.png';
+// OG image: brand-only 1200×630 asset authored 2026-05-24 as Phase 2 of the
+// SEO cleanup commission. Generated reproducibly by
+// scripts/og-images/generate-homepage-og.js (Direction A palette: cream
+// #FBF3E4 / teal #146B5E title / coral #F2784B accents). Locale-independent;
+// served by Next.js from frontend/public/. Previous v2 reference pointed at
+// /de/decks/picture-path/og-image.png — a German-locale-pathed deck
+// thumbnail that leaked the wrong context onto all 11 locales' og:image.
+const OG_IMAGE_PATH = '/og-homepage.png';
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const locale = params.locale || 'en';

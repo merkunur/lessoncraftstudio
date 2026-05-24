@@ -22,7 +22,7 @@ export default async function PillarMakers({ locale }: PillarMakersProps) {
           <div>
             <div className="flex items-center gap-4 mb-4">
               <span className="hv3-pillar-num-cream">04</span>
-              <span className="hv3-eyebrow text-lcs-cream/85">{t('eyebrow')}</span>
+              <span className="hv3-eyebrow hv3-eyebrow-on-dark">{t('eyebrow')}</span>
             </div>
             <h2 className="font-lcsDisplay font-bold text-lcs-cream leading-[1.05] tracking-tight text-[1.875rem] sm:text-[2.5rem] md:text-[3rem] lg:text-[3.5rem]">
               {t('h2Line1')}<br />

@@ -122,7 +122,7 @@ export default async function PillarTools({ locale }: PillarToolsProps) {
         <div className="max-w-2xl mb-10 md:mb-12">
           <div className="flex items-center gap-4 mb-3">
             <span className="hv3-pillar-num-cream">05</span>
-            <span className="hv3-eyebrow text-lcs-cream/85">{t('eyebrow')}</span>
+            <span className="hv3-eyebrow hv3-eyebrow-on-dark">{t('eyebrow')}</span>
           </div>
           <h2 className="font-lcsDisplay font-bold text-lcs-cream leading-[1.05] tracking-tight text-[1.875rem] sm:text-[2.5rem] md:text-[3rem]">
             {t('h2Line1')}<br />

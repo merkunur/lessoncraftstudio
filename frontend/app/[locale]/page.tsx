@@ -63,7 +63,12 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   hreflangAlternates['x-default'] = `${BASE_URL}/en`;
 
   return {
-    title: t('title'),
+    // Phase 1 of SEO cleanup: opt out of root layout's `title.template`
+    // (added 2026-05-24) until Phase 4 strips the LessonCraftStudio brand
+    // from `homepage.meta.title` per locale. Without `absolute`, the
+    // existing brand-prefixed title would render as "LessonCraftStudio —
+    // … · LessonCraftStudio".
+    title: { absolute: t('title') },
     description: t('description'),
     alternates: {
       canonical: `${BASE_URL}/${locale}`,

@@ -57,7 +57,8 @@ const HELPER_FNS = ['getHreflangCode'];
 const schemaFns = exportedFns.filter(fn => !HELPER_FNS.includes(fn));
 
 // Functions that aggregate others (don't directly emit @type)
-const AGGREGATOR_FNS = ['generateAllProductPageSchemas', 'generateHomepageSchemas',
+// generateHomepageSchemas removed 2026-05 SEO cleanup; live homepage uses inline buildSchemas() instead.
+const AGGREGATOR_FNS = ['generateAllProductPageSchemas',
   'generateAppsCollectionSchema', 'generateAuthorPublisherLinks'];
 
 // Check each schema function body for required patterns
@@ -156,7 +157,7 @@ const representativeSchemas = {
     inLanguage: 'en',
   },
 
-  // generateHomepageSchemas - Organization
+  // Homepage Organization (now emitted by inline buildSchemas() in [locale]/page.tsx)
   EducationalOrganization: {
     '@context': 'https://schema.org',
     '@type': 'EducationalOrganization',

@@ -39,11 +39,11 @@
   },
   "homepage": {
     "meta": {
-      "title": "LessonCraftStudio — Worksheets that work in your second language",
-      "description": "A curated K-3 illustration library and a multilingual vocabulary system with correct gender, plurals, and diacritics. Built for dual-language and bilingual classrooms.",
-      "ogTitle": "Worksheets that actually work in your second language.",
-      "ogDescription": "Built for teachers in dual-language programs, bilingual classrooms, and international schools.",
-      "ogAlt": "LessonCraftStudio — K-3 worksheets in many languages"
+      "title": "Free K-3 worksheets in 11 languages",
+      "description": "Free printable and interactive K-3 worksheets in 11 languages — phonics, math, vocabulary. For dual-language, bilingual, and international classrooms.",
+      "ogTitle": "LessonCraftStudio — K-3 worksheets in your second language.",
+      "ogDescription": "Phonics, math, vocabulary. Printable PDFs and browser-playable activities. For dual-language, bilingual, and international-school classrooms.",
+      "ogAlt": "LessonCraftStudio — K-3 worksheets and activities in 11 languages"
     },
     "hero": {
       "title": "Worksheets in many languages, printable and interactive.",

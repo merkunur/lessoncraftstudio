@@ -54,7 +54,7 @@ export default async function SignupV3({ locale }: Props) {
 
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
           <Link
-            href={`/${locale}/activities/count-to-10-with-animals/`}
+            href={`/${locale}/activities`}
             className="inline-flex items-center justify-center font-lcsDisplay font-semibold text-lg px-7 py-3.5 rounded-2xl bg-lcs-coral text-lcs-cream hover:bg-lcs-coral-deep transition-colors shadow-[0_8px_20px_-4px_rgba(242,120,75,0.5)]"
           >
             {t('ctaPrimary')}

@@ -129,6 +129,8 @@ URL slugs in the page's language, not English transliterations (§17.4). Server-
 
 Browsing, deck access, search, PDF download, embed codes all public — no account required. Email signup offered after first use. Subscription gates only the three pillars per `docs/SUBSCRIPTION-SCOPE.md`.
 
+**[AMENDMENT 2026-05-24] Live homepage promoted from v2 to v3.** As of commit `bc215a5c`, `frontend/app/[locale]/page.tsx` renders the 9-section homepage-v3 stack (HeroV3 → 5 pillars → TierTransition → EmbedShareV3 → SignupV3) across all 11 locales. `homepage-v2` components preserved on disk at `frontend/components/homepage-v2/*` for rollback safety (cleanup deferred). `/[locale]/preview/homepage-v3/` route kept in place with `robots: { index: false, follow: false }` as visual-diff safety net. Comprehensive `generateMetadata()` machinery preserved from v2 (canonical, hreflang × 11, OG, JSON-LD; reuses `homepage.meta` namespace for brand-level copy). v3 components live at `frontend/components/homepage-v3/*`; `.hv3` CSS scope class at `frontend/app/[locale]/preview/homepage-v3/homepage-v3.css` (imported via relative path from live page.tsx). Direction A typography (Baloo 2 + Nunito) at page level. Companion catalog hub at `/[locale]/worksheets/` chrome localized in all 11 languages via `worksheetsPage` namespace (commit `3dc57dfe`). 11-locale recreation discipline locked at §A.13.48; per-locale curriculum framework squiggle taxonomy locked at §A.13.49.
+
 ### 4.4 Student play experience (new)
 Route `/play/[linkId]` where `linkId` is random 10-char alphanumeric. No auth. No student account. **No session tracking** — K-3 audience does not benefit from analytics dashboards (§7 cut).
 
@@ -2098,6 +2100,87 @@ Hard-won rules. Re-discovering any of these wastes hours. Apply at every `/[loca
 - If operator hits frustration breaking point, STOP and offer rollback (`git revert <commit>`) rather than power through more iterations. v7.9 → v7.8 rollback was the right move.
 
 Origin: 13-iteration polish session 2026-05-22 (v7.1→v7.13, commits `2149e1a8` through `d333f3c8`). Each rule represents a real iteration that could have been saved.
+
+#### A.13.48 11-locale i18n recreation discipline via 3-agent native ensemble
+
+Standing rule (operator-locked across the 10-commission homepageV3 arc 2026-05-23/24): when a commission requires **recreating** (not translating) a content namespace across all 11 supported locales, the workflow is plan-mode-per-locale + 3-agent ensemble per locale:
+
+1. **Enter plan mode** for each non-EN locale individually. Never batch all 10 non-EN locales in one execution.
+2. **Launch a 3-agent ensemble in parallel** (single message, multiple Agent tool calls):
+   - One native **linguist** of the target locale.
+   - One native **marketing expert** of the target locale (B2C K-3 EdTech).
+   - One native **K-3 educational content expert** of the target locale.
+3. **Synthesize** their three reports. Surface convergences + divergences explicitly. Document which expert you weighed heaviest on each disputed decision.
+4. **Use AskUserQuestion** for the highest-impact operator-strategic decisions — typically: squiggle/curriculum-framework target (per §A.13.49 taxonomy), mock panel demo language, register choice (formal vs informal), card/image swap requirements.
+5. **Write the recreated copy** into the plan file as a string-by-string table (KEY | EN baseline | RECREATED | Synthesis rationale).
+6. **Call ExitPlanMode** for operator approval per locale.
+7. **Apply** after approval — write the locale's namespace into `frontend/messages/<locale>.json`, plus any component-side changes (e.g., per-locale image/tile map).
+8. **Commit** with locale tag: `[FEATURE][PROTOTYPE] <Namespace> <LANG> recreation`. Nordic+Finnic (sv/da/no/fi) MUST add `[NSR-FLAG][<LOCALE>]` per §17.5.1.
+9. **Push + deploy** per locale.
+10. **Verify** via curl spot-check (~15-17 representative strings per locale + raw-i18n-key leak check + DOM audit for image/tile changes).
+
+**Why structural**: prior batched-translation attempts missed strings, used wrong register, made wrong squiggle-target calls. The plan-mode-per-locale + 3-agent discipline catches these BEFORE shipping by forcing explicit synthesis + operator approval per locale. Empirical anchor: 11-locale homepageV3 arc (10 commits across 2026-05-23/24, ~15-45K tokens per locale Phase 1).
+
+**Hybrid acceptable for small namespaces**: when a namespace is ≤10 short strings (e.g., the worksheetsPage 10-key namespace at commit `3dc57dfe`), batch-fanout using vocabulary patterns established from prior plan-mode commissions is acceptable. The 3-agent ensemble per locale is the rule for ≥50 substantive strings.
+
+**When NOT to apply**: single-string edits (typo fix), bug-fix CSS/layout changes (not content recreation), cleanup/refactor of existing i18n without content change.
+
+Origin: this session's 10 homepageV3 commissions (DE/FR/ES/PT/IT/NL/SV/DA/NO/FI).
+
+#### A.13.49 Locale-credible curriculum-framework squiggle taxonomy
+
+Per-locale credible squiggle targets for any K-3 EdTech credibility surface (homepage hero, pillar01, ABout pages, parent-facing pedagogical claims). Locked from the 10-commission homepageV3 arc. Use as canonical reference; do NOT re-derive via fresh agent ensemble at every new commission.
+
+| Locale | Squiggle target | Source / authority |
+|---|---|---|
+| `en` | Common Core | US K-3 standard (CCSS State Standards) |
+| `de` | Lehrplan | KMK / Länder primary curriculum framework |
+| `fr` | programmes officiels | Éducation nationale Bulletin officiel |
+| `es` | los planes de estudio | LOMLOE 2020 / regional curricula |
+| `pt` | BNCC | Base Nacional Comum Curricular (Brazil 2017-) |
+| `it` | Indicazioni nazionali | MIUR 2012/2018 framework |
+| `nl` | SLO Kerndoelen | Stichting Leerplanontwikkeling primary curriculum |
+| `sv` | Lgr22 | Skolverket current K-9 framework (post-2022) |
+| `da` | Fælles Mål | Børne- og Undervisningsministeriet (lit. "Common Goals" — happy semantic near-cognate to Common Core) |
+| `no` | LK20 | Læreplanverket 2020 / Fagfornyelsen (Udir) |
+| `fi` | OPS 2014 | Perusopetuksen opetussuunnitelman perusteet 2014 (Opetushallitus / EDUFI) |
+
+**Apply**: at any new commission requiring per-locale credibility framing, use the table above directly. Pedagogical agent verification required only if extending to a NEW credibility surface that's structurally different from K-3 curriculum framing (e.g., teacher-credential surfacing, professional-development claims). Body-copy supplementary phrasing for "aligned to <framework>" is locale-specific — see homepageV3 namespace in `frontend/messages/<locale>.json` for established collocations ("Anpassad till Lgr22", "Tilpasset Fælles Mål", "Yhteensopiva OPS 2014:n kanssa", etc.).
+
+**Pair with**: §A.13.48 (recreation discipline) — the table above is the OUTPUT of the discipline applied to 10 locales; future commissions consuming this table avoid 10x agent-ensemble cost.
+
+Origin: 10-commission homepageV3 arc 2026-05-23/24.
+
+#### A.13.50 Client-component dropdown SSR verification gotcha
+
+When verifying client-rendered dropdown menu items via curl, content WON'T appear in SSR HTML — the dropdown is gated by `{isOpen && (...)}` and renders only when user clicks to open. False-negative verification trap: a successful CSS-side change shows 0 hits in curl despite being correctly deployed.
+
+**Diagnostic alternatives**:
+1. **Trust source diff + build success** (simplest): if the source change is correct + `deploy.sh` runs clean + git status shows commit pushed, the dropdown change IS live. Curl just can't see it.
+2. **Puppeteer headless test**: click the dropdown trigger, assert `.textContent` on the rendered menu items per §A.13.43 textContent-assertion discipline. Most robust for production verification.
+3. **Operator visual eyeball** at desktop/tablet/mobile breakpoints. Required anyway per §A.13.43 for UI changes.
+
+**Surface area**: any client component with `'use client'` directive that conditionally renders content via `{state && (...)}`. CategoryNav.tsx is the canonical example (line 114 in `frontend/components/layout/CategoryNav.tsx`). Other suspects: modals, hover popovers, tabs (some implementations), conditional sidebars.
+
+**Cross-ref**: §A.13.43 (textContent-assertion discipline). §A.13.13 (fan-out verification 6-grep-dimension discipline) — this is the 7th dimension for client-component dropdowns: "if conditionally rendered, source-diff verification + Puppeteer over curl".
+
+Origin: CategoryNav `browseAllHref` change 2026-05-24 commit `69d7cfdb` — fix shipped + live + verified via source diff, but initial curl verification returned 0 hits because dropdown content is `{isOpen && (...)}`-gated.
+
+#### A.13.51 Homepage-v3 hardcoded card1 tile pattern
+
+`frontend/components/homepage-v3/PillarActivities.tsx` hardcodes card1 tiles as `['gat', 'to']` (Italian "gat-to" syllabification of "gatto"). All 11 locales' homepageV3 namespace recreates card1Title/Prompt/CheckLabel/GradeLabel but `card1SubjectAlt` is alt-text-only (describes IMAGE = cat) WITHOUT affecting the visible Italian tiles.
+
+**Per-locale card1SubjectAlt values shipped**:
+- en/de/fr/es/pt/it/nl/sv/da/no: cat-equivalent in respective language (kat / Katze / chat / gato / gato / gatto / kat / katt / kat / katt — 1 syll most locales, doesn't match 2-tile mockup; alt-text only)
+- fi: **kissa** (kis-sa, 2 syll) — uniquely matches the hardcoded 2-tile syllable count. The Italian tiles still visually render "gat" + "to", but the FI alt accurately describes the cat image with a syllable-count-matching word.
+
+**Card3 (different from card1)** uses per-locale `card3ByLocale` image+tiles map at PillarActivities.tsx — 9 locales reuse elephant image; 1 (FI) swaps to giraffe because "elefantti" is 4 syll. Card3 is fully per-locale; card1 is NOT.
+
+**Per-locale card1 tile recreation deferred** to separate component commission. Design decision needed: does each locale get its own card1 tile triple, or do all locales keep the Italian tiles as a "demonstration of multilingual platform" feature? Operator-strategic.
+
+**Cross-ref**: `card3ByLocale` map in PillarActivities.tsx serves as the precedent pattern if/when card1 is per-localized.
+
+Origin: 10-commission homepageV3 arc 2026-05-23/24 + homepage-v3 promotion 2026-05-24 commit `bc215a5c`.
 
 ### A.14 Scaling Arc audit doctrine
 

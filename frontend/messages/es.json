@@ -1593,5 +1593,27 @@
       "title": "Vista previa de la página de inicio v3 · LessonCraftStudio",
       "description": "Prototipo interno de la página de inicio rediseñada. No indexable."
     }
+  },
+  "worksheetsPage": {
+    "metaTitle": {
+      "hundreds": "Cientos de fichas, organizadas por tipo",
+      "safer": "Fichas de ejercicios, organizadas por tipo"
+    },
+    "metaDescription": {
+      "hundreds": "Cientos de fichas en temas, niveles de edad y once idiomas — HTML interactivo y PDFs imprimibles, organizados por tipo de ejercicio.",
+      "safer": "Explora fichas por tipo de ejercicio — HTML interactivo y PDFs imprimibles para matemáticas, lectura, rompecabezas K-3 y más."
+    },
+    "h1": {
+      "hundreds": "Cientos de fichas, organizadas por tipo",
+      "safer": "Fichas de ejercicios, organizadas por tipo"
+    },
+    "intro": {
+      "hundreds": "Fichas en temas, niveles de edad y once idiomas — elige un tipo para ver todas las fichas disponibles en esa categoría.",
+      "safer": "Elige un tipo de ficha para ver todas las fichas disponibles — HTML interactivo para jugar en el navegador y un PDF imprimible para cada conjunto."
+    },
+    "tileCta": "Ver fichas",
+    "tileAlt": "Ejemplo de ficha: {typeName}",
+    "emptyTitle": "Todavía no hay fichas disponibles en este idioma.",
+    "emptyBody": "Nuestro catálogo crece idioma por idioma. Vuelve pronto o explora otro idioma."
   }
 }

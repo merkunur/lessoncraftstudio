@@ -1580,5 +1580,27 @@
       "title": "Voorvertoning homepage v3 · LessonCraftStudio",
       "description": "Interne prototype van de heringerichte homepage. Niet geïndexeerd."
     }
+  },
+  "worksheetsPage": {
+    "metaTitle": {
+      "hundreds": "Honderden werkbladen, geordend per type",
+      "safer": "Werkbladen, geordend per type"
+    },
+    "metaDescription": {
+      "hundreds": "Honderden werkbladen over thema's, leeftijdsniveaus en elf talen — interactieve HTML en afdrukbare PDFs, geordend per oefentype.",
+      "safer": "Blader door werkbladen per oefentype — interactieve HTML en afdrukbare PDFs voor rekenen, lezen, puzzels K-3 en meer."
+    },
+    "h1": {
+      "hundreds": "Honderden werkbladen, geordend per type",
+      "safer": "Werkbladen, geordend per type"
+    },
+    "intro": {
+      "hundreds": "Werkbladen over thema's, leeftijdsniveaus en elf talen — kies een type om alle beschikbare werkbladen in die categorie te zien.",
+      "safer": "Kies een werkbladtype om alle beschikbare werkbladen te zien — interactieve HTML om in de browser te spelen plus een afdrukbare PDF voor elke set."
+    },
+    "tileCta": "Bekijk werkbladen",
+    "tileAlt": "Voorbeeld werkblad: {typeName}",
+    "emptyTitle": "Nog geen werkbladen beschikbaar in deze taal.",
+    "emptyBody": "Onze catalogus groeit taal per taal. Kom snel terug of blader door een andere taal."
   }
 }

@@ -1587,5 +1587,27 @@
       "title": "Forhåndsvisning av forside v3 · LessonCraftStudio",
       "description": "Internt prototypeoppsett av den redesignede forsiden. Ikke indeksert."
     }
+  },
+  "worksheetsPage": {
+    "metaTitle": {
+      "hundreds": "Hundrevis av oppgaver, sortert etter type",
+      "safer": "Oppgaver, sortert etter type"
+    },
+    "metaDescription": {
+      "hundreds": "Hundrevis av oppgaver om temaer, aldersnivåer og elleve språk — interaktiv HTML og utskrivbare PDF-er, sortert etter oppgavetype.",
+      "safer": "Bla i oppgaver etter oppgavetype — interaktiv HTML og utskrivbare PDF-er for matematikk, lesing, gåter på småtrinnet og mer."
+    },
+    "h1": {
+      "hundreds": "Hundrevis av oppgaver, sortert etter type",
+      "safer": "Oppgaver, sortert etter type"
+    },
+    "intro": {
+      "hundreds": "Oppgaver om temaer, aldersnivåer og elleve språk — velg en type for å se alle tilgjengelige oppgaver i den kategorien.",
+      "safer": "Velg en oppgavetype for å se alle tilgjengelige oppgaver — interaktiv HTML å spille i nettleseren pluss en utskrivbar PDF for hvert sett."
+    },
+    "tileCta": "Se oppgavene",
+    "tileAlt": "Eksempel på oppgave: {typeName}",
+    "emptyTitle": "Ingen oppgaver tilgjengelig på dette språket ennå.",
+    "emptyBody": "Katalogen vår vokser språk for språk. Kom tilbake snart eller bla i et annet språk."
   }
 }

@@ -383,22 +383,22 @@
     },
     "serviceDescription": {
       "title": "2. TJÄNSTEBESKRIVNING",
-      "content": "LessonCraftStudio tillhandahåller verktyg för arbetsblads- och pusselgenerering för flerspråkiga F-3-klassrum. Gratis användning omfattar personlig användning, klassrumsanvändning och icke-kommersiell användning. Betalda produkter (engångsköp) inkluderar fullständiga kommersiella rättigheter och aktiveras med en licensnyckel som skickas till din e-post efter köp."
+      "content": "LessonCraftStudio tillhandahåller gratis arbetsblads- och arbetsbladsgeneratorverktyg för flerspråkiga F-3-klassrum. Alla generatorer och genererade arbetsblad är gratis att använda under en enhetlig licens (se Licensvillkor). Ingen betald nivå erbjuds för närvarande; om en sådan införs i framtiden gäller samma enhetliga licens oavsett nivå."
     },
     "userAccounts": {
       "title": "3. ANVÄNDARKONTON",
-      "requirements": "Krav:",
-      "age": "Minimiålder: 18 år",
-      "accurate": "Korrekta registreringsuppgifter",
-      "security": "Upprätthålla kontosäkerhet",
-      "responsible": "Ansvar för kontoaktiviteter"
+      "requirements": "Krav (när ett konto skapas):",
+      "age": "Minimiålder: 18 år för att skapa ett konto",
+      "accurate": "Giltig e-postadress som används för kontokommunikation",
+      "security": "Upprätthåll säkerheten för dina kontouppgifter — dela dem inte",
+      "responsible": "Ansvar för aktiviteter under ditt konto"
     },
     "paymentTerms": {
       "title": "4. BETALNINGSVILLKOR",
-      "pricing": "Aktuella priser visas vid registrering",
-      "billing": "Återkommande fakturering enligt vald prenumeration",
-      "refunds": "Ingen återbetalning för delperioder",
-      "changes": "Prisändringar med 30 dagars varsel"
+      "pricing": "Ingen betald nivå erbjuds för närvarande.",
+      "billing": "Betalningsvillkor kommer att publiceras innan någon betald produkt introduceras.",
+      "refunds": "Återbetalningsvillkor kommer att publiceras tillsammans med eventuella betalda produkter.",
+      "changes": "Vi kommer att meddela i förväg om en betald nivå införs och dessa villkor ändras."
     },
     "acceptableUse": {
       "title": "5. ACCEPTABEL ANVÄNDNING",
@@ -411,7 +411,7 @@
     },
     "intellectualProperty": {
       "title": "6. IMMATERIELLA RÄTTIGHETER",
-      "content": "Plattformen och verktygen förblir vår egendom. Ditt innehåll förblir ditt. Genererat innehåll licensieras enligt prenumeration."
+      "content": "Plattformen, generatorerna, källkoden och bildbiblioteket förblir vår egendom. Innehåll som du skapar med våra generatorer licensieras till dig enligt den enhetliga licens som beskrivs i Licensvillkoren. Själva arbetsbladen förblir LessonCraftStudios innehåll och får inte säljas vidare eller distribueras om som fristående produkter."
     },
     "termination": {
       "title": "7. UPPSÄGNING",
@@ -544,10 +544,10 @@
     "effectiveDate": "Januari 2025",
     "grantOfLicense": {
       "title": "1. LICENSBEVILJANDE",
-      "intro": "LessonCraftStudio beviljar dig en licens att använda genererat innehåll baserat på din prenumeration:",
-      "freeTier": "Gratis användning: Alla generatorer är gratis att använda. Resultatet är för personlig användning, klassrumsanvändning och icke-kommersiell användning.",
-      "coreBundle": "Betalda produkter (engångsköp): Fullständiga kommersiella rättigheter. Skapa obegränsat innehåll och sälj på vilken plattform du vill. Ingen tillskrivning krävs.",
-      "fullAccess": "Fullständig åtkomst: Obegränsad kommersiell användning inklusive print-on-demand och återförsäljning"
+      "intro": "LessonCraftStudio beviljar dig en licens att använda sina arbetsbladsgeneratorer och genererat innehåll. Samma licens gäller alla användare och alla nuvarande nivåer:",
+      "freeTier": "Gratis användning (för närvarande den enda tillgängliga nivån): Alla generatorer och genererade arbetsblad är gratis att använda. Arbetsbladen får användas för personliga, klassrums-, hemundervisnings- och andra utbildningsändamål — inklusive betald undervisning som handledning eller betalda kurser. Arbetsbladen får INTE säljas vidare, distribueras om eller publiceras på nytt som en fristående produkt.",
+      "coreBundle": "Betalda nivåer (för närvarande inte tillgängliga): Ingen betald nivå erbjuds för närvarande. Om en betald nivå införs i framtiden gäller samma enhetliga licens som ovan — betalda nivåer kan lägga till funktioner eller begränsningar men ger inga ytterligare licens- eller vidareförsäljningsrättigheter.",
+      "fullAccess": "Licensnyckel (vid behov): Om en betald nivå införs och du köper åtkomst kommer din licensnyckel att vara kopplad till den e-postadress som användes vid köpet. De enhetliga licensvillkoren ovan gäller oavsett nivå."
     },
     "intellectualProperty": {
       "title": "2. IMMATERIELLA RÄTTIGHETER",
@@ -563,13 +563,13 @@
       "illegal": "Använda för olagliga syften"
     },
     "commercialDistribution": {
-      "title": "4. KOMMERSIELL DISTRIBUTION",
-      "pod": "Print-on-demand-rättigheter: Innehavare av betald licens får sälja obegränsade kopior av genererat innehåll via valfri print-on-demand-tjänst.",
-      "digital": "Digital distribution: Innehavare av betald licens får sälja digitala nedladdningar av genererat innehåll på valfri plattform. Inga royalties eller tillskrivning krävs."
+      "title": "4. FÖRBUD MOT VIDAREFÖRSÄLJNING",
+      "pod": "Ingen vidareförsäljning av filer: Arbetsblad och genererat innehåll får inte säljas vidare, distribueras om eller publiceras på nytt som fristående produkter i något format (tryck, print-on-demand, digital nedladdning, marknadsplatsannons eller på annat sätt).",
+      "digital": "Betald undervisning tillåten: Tillåten användning inkluderar personliga, klassrums-, hemundervisnings- och betalda undervisningssammanhang (handledning, kurser, fysiska och onlinelektioner). Själva arbetsbladen förblir LessonCraftStudios innehåll; den utbildningstjänst du tillhandahåller med hjälp av dem är din."
     },
     "termination": {
       "title": "5. UPPSÄGNING",
-      "content": "Vi kan säga upp vid överträdelse med 30 dagars varsel. Innehåll skapat under giltig prenumeration förblir licensierat."
+      "content": "Vi kan säga upp din licens vid överträdelse av dessa villkor med 30 dagars skriftligt varsel. Innehåll skapat före uppsägning förblir licensierat för fortsatt personlig, klassrums-, hemundervisnings- och betald undervisning enligt avsnitt 1; förbudet mot vidareförsäljning i avsnitt 4 fortsätter att gälla."
     },
     "warrantyDisclaimer": {
       "title": "6. GARANTIFRISKRIVNING",
@@ -590,7 +590,8 @@
     "contact": {
       "title": "10. KONTAKT",
       "content": "För licensfrågor: license@lessoncraftstudio.com"
-    }
+    },
+    "metaDescription": "LessonCraftStudios licensvillkor. Gratis F-3-arbetsblad och aktiviteter; en enhetlig licens för alla användare; personlig, klassrums- och betald undervisning tillåtet; ingen vidareförsäljning av arbetsbladsfilerna."
   },
   "faq": {
     "metaTitle": "Vanliga frågor - LessonCraftStudio",
@@ -683,28 +684,31 @@
     },
     "tiers": {
       "free": {
-        "description": "Perfekt för att testa plattformen",
+        "description": "Gratis för alla — för närvarande den enda tillgängliga nivån.",
         "features": [
-          "Ordletargenerator",
-          "Obegränsat antal arbetsblad",
-          "Med vattenstämpel"
-        ]
+          "Varje arbetsbladsgenerator",
+          "Obegränsad arbetsbladsgenerering",
+          "Utskriftsklara PDF-nedladdningar"
+        ],
+        "availability": "available"
       },
       "core": {
-        "description": "Perfekt för ett flerspråkigt klassrum",
+        "description": "För närvarande inte tillgänglig.",
         "features": [
-          "De 10 mest populära generatorerna",
-          "Obegränsat antal arbetsblad",
-          "Utan vattenstämpel"
-        ]
+          "För närvarande inte tillgänglig",
+          "Obegränsad arbetsbladsgenerering",
+          "Utskriftsklara PDF-nedladdningar"
+        ],
+        "availability": "not-currently-available"
       },
       "full": {
-        "description": "Den kompletta lösningen för proffs",
+        "description": "För närvarande inte tillgänglig.",
         "features": [
-          "alla våra generatorer",
-          "Obegränsat antal arbetsblad",
-          "Utan vattenstämpel"
-        ]
+          "För närvarande inte tillgänglig",
+          "Obegränsad arbetsbladsgenerering",
+          "Utskriftsklara PDF-nedladdningar"
+        ],
+        "availability": "not-currently-available"
       }
     },
     "categories": {
@@ -925,38 +929,36 @@
     "tiers": {
       "FREE": {
         "name": "Gratis",
-        "description": "Kom igång med vår ordsökningsgenerator",
+        "description": "Gratis för alla — för närvarande den enda tillgängliga nivån.",
         "features": [
-          "Endast ordsökningsgenerator",
+          "Varje arbetsbladsgenerator",
           "Obegränsad arbetsbladsgenerering",
-          "Nedladdningar med vattenstämpel",
+          "Utskriftsklara PDF-nedladdningar",
           "Community-support"
-        ]
+        ],
+        "availability": "available"
       },
       "CORE": {
         "name": "Bas",
-        "description": "Perfekt för flerspråkiga klassrum",
+        "description": "För närvarande inte tillgänglig.",
         "features": [
-          "Tillgång till 10 populära arbetsbladsgeneratorer",
+          "För närvarande inte tillgänglig",
           "Obegränsad arbetsbladsgenerering",
-          "Utan vattenstämpel",
-          "Högkvalitativa PDF-nedladdningar",
-          "Premium-mallar",
+          "Utskriftsklara PDF-nedladdningar",
           "E-postsupport"
-        ]
+        ],
+        "availability": "not-currently-available"
       },
       "FULL": {
         "name": "Premium",
-        "description": "Komplett tillgång för avancerade användare",
+        "description": "För närvarande inte tillgänglig.",
         "features": [
-          "Tillgång till alla våra arbetsbladsgeneratorer",
+          "För närvarande inte tillgänglig",
           "Obegränsad arbetsbladsgenerering",
-          "Utan vattenstämpel",
-          "Högkvalitativa PDF-nedladdningar",
-          "Alla premium-mallar",
-          "Prioriterad e-postsupport",
-          "Kommersiell licens inkluderad"
-        ]
+          "Utskriftsklara PDF-nedladdningar",
+          "Prioriterad e-postsupport"
+        ],
+        "availability": "not-currently-available"
       }
     },
     "paymentHistory": {

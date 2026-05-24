@@ -388,22 +388,22 @@
     },
     "serviceDescription": {
       "title": "2. LEISTUNGSBESCHREIBUNG",
-      "content": "LessonCraftStudio bietet Werkzeuge zur Erstellung von Arbeitsblättern in drei Stufen: Kostenlos (begrenzt), Core (erweitert) und Vollzugriff (unbegrenzt)."
+      "content": "LessonCraftStudio bietet kostenlose Arbeitsblätter und Arbeitsblatt-Generatoren für mehrsprachige K-3 Klassen. Alle Generatoren und erzeugten Arbeitsblätter sind kostenlos nutzbar unter einer einheitlichen Lizenz (siehe Lizenzbedingungen). Derzeit wird kein kostenpflichtiger Tarif angeboten; falls künftig ein kostenpflichtiger Tarif eingeführt wird, gilt dieselbe einheitliche Lizenz unabhängig vom Tarif."
     },
     "userAccounts": {
       "title": "3. BENUTZERKONTEN",
-      "requirements": "Anforderungen:",
-      "age": "Mindestalter: 18 Jahre",
-      "accurate": "Korrekte Registrierungsdaten",
-      "security": "Kontosicherheit gewährleisten",
-      "responsible": "Verantwortung für Kontoaktivitäten"
+      "requirements": "Anforderungen (sofern ein Konto erstellt wird):",
+      "age": "Mindestalter: 18 Jahre zur Kontoerstellung",
+      "accurate": "Gültige E-Mail-Adresse für Konto-Kommunikation",
+      "security": "Sicherheit der Konto-Zugangsdaten wahren — nicht weitergeben",
+      "responsible": "Verantwortung für Aktivitäten unter Ihrem Konto"
     },
     "paymentTerms": {
       "title": "4. ZAHLUNGSBEDINGUNGEN",
-      "pricing": "Aktuelle Preise bei Anmeldung angezeigt",
-      "billing": "Wiederkehrende Abrechnung nach gewähltem Tarif",
-      "refunds": "Keine Rückerstattung für Teilzeiträume",
-      "changes": "Preisänderungen mit 30 Tagen Vorlauf"
+      "pricing": "Derzeit wird kein kostenpflichtiger Tarif angeboten.",
+      "billing": "Zahlungsbedingungen werden veröffentlicht, bevor ein kostenpflichtiges Produkt eingeführt wird.",
+      "refunds": "Rückerstattungsbedingungen werden mit jedem kostenpflichtigen Produkt veröffentlicht.",
+      "changes": "Wir informieren rechtzeitig im Voraus, falls ein kostenpflichtiger Tarif eingeführt wird und sich diese Bedingungen ändern."
     },
     "acceptableUse": {
       "title": "5. ZULÄSSIGE NUTZUNG",
@@ -416,7 +416,7 @@
     },
     "intellectualProperty": {
       "title": "6. GEISTIGES EIGENTUM",
-      "content": "Plattform und Tools bleiben unser Eigentum. Ihre Inhalte bleiben Ihres. Generierte Inhalte werden gemäß Abonnement lizenziert."
+      "content": "Die Plattform, die Generatoren, der Quellcode und die Bildbibliothek bleiben unser Eigentum. Inhalte, die Sie mit unseren Generatoren erstellen, sind Ihnen gemäß der in den Lizenzbedingungen beschriebenen einheitlichen Lizenz lizenziert. Die Arbeitsblätter selbst bleiben Inhalt von LessonCraftStudio und dürfen nicht als eigenständige Produkte weiterverkauft oder weiterverbreitet werden."
     },
     "termination": {
       "title": "7. KÜNDIGUNG",
@@ -545,14 +545,15 @@
   },
   "license": {
     "title": "Lizenzbedingungen",
+    "metaDescription": "LessonCraftStudio Lizenzbedingungen. Kostenlose K-3 Arbeitsblätter und Aktivitäten; eine einheitliche Lizenz für alle Nutzer; private, schulische und entgeltliche Unterrichtsnutzung erlaubt; kein Weiterverkauf der Arbeitsblatt-Dateien.",
     "lastUpdated": "Zuletzt aktualisiert",
     "effectiveDate": "Januar 2025",
     "grantOfLicense": {
       "title": "1. LIZENZGEWÄHRUNG",
-      "intro": "LessonCraftStudio gewährt Ihnen eine Lizenz zur Nutzung generierter Inhalte basierend auf Ihrem Abonnement:",
-      "freeTier": "Kostenlos: Nur persönliche, nicht-kommerzielle Bildungsnutzung",
-      "coreBundle": "Core: Kommerzielle Bildungsnutzung in Ihrer Einrichtung",
-      "fullAccess": "Vollzugriff: Uneingeschränkte kommerzielle Nutzung inkl. POD und Weiterverkauf"
+      "intro": "LessonCraftStudio gewährt Ihnen eine Lizenz zur Nutzung seiner Arbeitsblatt-Generatoren und der erzeugten Inhalte. Dieselbe Lizenz gilt für alle Nutzer und alle aktuellen Tarife:",
+      "freeTier": "Kostenlose Nutzung (derzeit der einzige verfügbare Tarif): Alle Generatoren und erzeugten Arbeitsblätter sind kostenlos nutzbar. Die Arbeitsblätter dürfen für private, schulische, häusliche und sonstige Bildungszwecke verwendet werden — einschließlich entgeltlichem Unterricht wie Nachhilfe oder bezahlten Kursen. Die Arbeitsblätter dürfen NICHT als eigenständiges Produkt weiterverkauft, weiterverbreitet oder neu veröffentlicht werden.",
+      "coreBundle": "Kostenpflichtige Tarife (derzeit nicht verfügbar): Derzeit wird kein kostenpflichtiger Tarif angeboten. Falls künftig ein kostenpflichtiger Tarif eingeführt wird, gilt dieselbe einheitliche Lizenz wie oben — kostenpflichtige Tarife können Funktionen oder Limits hinzufügen, gewähren jedoch keine zusätzlichen Lizenz- oder Weiterverkaufsrechte.",
+      "fullAccess": "Lizenzschlüssel (sofern zutreffend): Falls künftig ein kostenpflichtiger Tarif eingeführt wird und Sie Zugang erwerben, ist Ihr Lizenzschlüssel an die beim Kauf verwendete E-Mail-Adresse gebunden. Die oben genannten einheitlichen Lizenzbedingungen gelten unabhängig vom Tarif."
     },
     "intellectualProperty": {
       "title": "2. GEISTIGES EIGENTUM",
@@ -568,13 +569,13 @@
       "illegal": "Für illegale Zwecke nutzen"
     },
     "commercialDistribution": {
-      "title": "4. KOMMERZIELLE VERTEILUNG",
-      "pod": "Print-on-Demand: Vollzugriff-Abonnenten dürfen unbegrenzt über POD-Plattformen verkaufen.",
-      "digital": "Digitale Verteilung: Alle Stufen dürfen digitale Versionen gemäß ihrer Lizenz verteilen."
+      "title": "4. WEITERVERKAUFSVERBOT",
+      "pod": "Kein Weiterverkauf der Dateien: Arbeitsblätter und erzeugte Inhalte dürfen weder als eigenständige Produkte weiterverkauft noch weiterverbreitet oder neu veröffentlicht werden — weder gedruckt noch über Print-on-Demand, digitalen Download, Marktplatz-Listings oder in anderer Form.",
+      "digital": "Entgeltlicher Unterricht erlaubt: Erlaubte Nutzung umfasst den Einsatz im privaten, schulischen, häuslichen und entgeltlichen Unterricht (Nachhilfe, Kurse, Präsenz- und Online-Unterricht). Die Arbeitsblätter selbst bleiben Inhalt von LessonCraftStudio; die Bildungsleistung, die Sie damit erbringen, gehört Ihnen."
     },
     "termination": {
       "title": "5. BEENDIGUNG",
-      "content": "Wir können bei Verstößen mit 30 Tagen Frist kündigen. Während gültiger Abonnements erstellte Inhalte bleiben lizenziert."
+      "content": "Wir können diese Lizenz bei Verstoß gegen diese Bedingungen mit 30 Tagen schriftlicher Ankündigung beenden. Vor Beendigung erstellte Inhalte bleiben für die weitere Nutzung im privaten, schulischen, häuslichen und entgeltlichen Unterricht gemäß Abschnitt 1 lizenziert; das Weiterverkaufsverbot aus Abschnitt 4 gilt weiter."
     },
     "warrantyDisclaimer": {
       "title": "6. GEWÄHRLEISTUNGSAUSSCHLUSS",
@@ -721,37 +722,35 @@
     "tiers": {
       "FREE": {
         "name": "Kostenlos",
-        "description": "Ideal zum Ausprobieren",
+        "description": "Kostenlos für alle — derzeit der einzige verfügbare Tarif.",
+        "availability": "available",
         "features": [
-          "Nur Wortsuche-Generator",
+          "Alle Arbeitsblatt-Generatoren",
           "Unbegrenzte Arbeitsblattgenerierung",
-          "Mit Wasserzeichen",
+          "Druckfertige PDF-Downloads",
           "Community-Support"
         ]
       },
       "CORE": {
         "name": "Basis-Paket",
-        "description": "Perfekt für mehrsprachige Klassen",
+        "description": "Derzeit nicht verfügbar.",
+        "availability": "not-currently-available",
         "features": [
-          "Zugriff auf 10 beliebte Arbeitsblattgeneratoren",
+          "Derzeit nicht verfügbar",
           "Unbegrenzte Arbeitsblattgenerierung",
-          "Ohne Wasserzeichen",
-          "Hochwertige PDF-Downloads",
-          "Premium-Vorlagen",
+          "Druckfertige PDF-Downloads",
           "E-Mail-Support"
         ]
       },
       "FULL": {
         "name": "Vollzugriff",
-        "description": "Die Komplettlösung für Profis",
+        "description": "Derzeit nicht verfügbar.",
+        "availability": "not-currently-available",
         "features": [
-          "Zugriff auf Jeder Arbeitsblattgenerator",
+          "Derzeit nicht verfügbar",
           "Unbegrenzte Arbeitsblattgenerierung",
-          "Ohne Wasserzeichen",
-          "Hochwertige PDF-Downloads",
-          "Alle Premium-Vorlagen",
-          "Prioritäts-E-Mail-Support",
-          "Kommerzielle Lizenz inklusive"
+          "Druckfertige PDF-Downloads",
+          "Prioritäts-E-Mail-Support"
         ]
       }
     },

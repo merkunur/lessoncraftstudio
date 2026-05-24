@@ -383,22 +383,22 @@
     },
     "serviceDescription": {
       "title": "2. DESCRIZIONE DEL SERVIZIO",
-      "content": "LessonCraftStudio offre generatori di schede e puzzle per classi multilingui K-3. L'uso gratuito copre l'uso personale, didattico e non commerciale. I prodotti a pagamento (acquisto una tantum) includono diritti commerciali completi e si attivano con una chiave di licenza inviata via email dopo l'acquisto."
+      "content": "LessonCraftStudio fornisce strumenti gratuiti per la creazione di schede e generatori di schede per classi K-3 multilingui. Tutti i generatori e le schede generate sono gratuiti e disponibili sotto una licenza uniforme (si veda le Condizioni di Licenza). Al momento non è offerto alcun livello a pagamento; qualora venga introdotto in futuro, si applicherà la stessa licenza uniforme indipendentemente dal livello."
     },
     "userAccounts": {
       "title": "3. ACCOUNT UTENTE",
-      "requirements": "Requisiti:",
-      "age": "Età minima: 18 anni",
-      "accurate": "Informazioni di registrazione accurate",
-      "security": "Mantenere la sicurezza dell'account",
-      "responsible": "Responsabilità per le attività dell'account"
+      "requirements": "Requisiti (in caso di creazione di un account):",
+      "age": "Età minima: 18 anni per creare un account",
+      "accurate": "Indirizzo email valido utilizzato per le comunicazioni relative all'account",
+      "security": "Mantenere la sicurezza delle credenziali dell'account — non condividerle",
+      "responsible": "Responsabilità per le attività svolte tramite il proprio account"
     },
     "paymentTerms": {
       "title": "4. CONDIZIONI DI PAGAMENTO",
-      "pricing": "Prezzi correnti mostrati all'iscrizione",
-      "billing": "Fatturazione ricorrente secondo il piano scelto",
-      "refunds": "Nessun rimborso per periodi parziali",
-      "changes": "Modifiche di prezzo con 30 giorni di preavviso"
+      "pricing": "Al momento non è offerto alcun livello a pagamento.",
+      "billing": "Le condizioni di pagamento saranno pubblicate prima dell'introduzione di qualsiasi prodotto a pagamento.",
+      "refunds": "Le condizioni di rimborso saranno pubblicate con l'eventuale prodotto a pagamento.",
+      "changes": "Forniremo un preavviso adeguato nel caso in cui venga introdotto un livello a pagamento e queste condizioni cambino."
     },
     "acceptableUse": {
       "title": "5. USO ACCETTABILE",
@@ -411,7 +411,7 @@
     },
     "intellectualProperty": {
       "title": "6. PROPRIETÀ INTELLETTUALE",
-      "content": "La piattaforma e gli strumenti rimangono di nostra proprietà. I vostri contenuti rimangono vostri. I contenuti generati sono concessi in licenza secondo l'abbonamento."
+      "content": "La piattaforma, i generatori, il codice sorgente e la libreria di immagini restano di nostra proprietà. I contenuti creati utilizzando i nostri generatori sono concessi in licenza all'utente secondo la licenza uniforme descritta nelle Condizioni di Licenza. Le schede in sé restano contenuti di LessonCraftStudio e non possono essere rivendute o ridistribuite come prodotti autonomi."
     },
     "termination": {
       "title": "7. RISOLUZIONE",
@@ -544,10 +544,10 @@
     "effectiveDate": "Gennaio 2025",
     "grantOfLicense": {
       "title": "1. CONCESSIONE DI LICENZA",
-      "intro": "LessonCraftStudio vi concede una licenza per utilizzare i suoi generatori di schede e i contenuti generati in base al vostro acquisto:",
-      "freeTier": "Uso gratuito: Tutti i generatori sono gratuiti. L'output è destinato all'uso personale, didattico e non commerciale.",
-      "coreBundle": "Prodotti a pagamento (acquisto una tantum): Diritti commerciali completi. Crea contenuti illimitati e vendi su qualsiasi piattaforma a tua scelta. Nessuna attribuzione richiesta.",
-      "fullAccess": "Attivazione della chiave di licenza: I prodotti a pagamento si attivano con una chiave di licenza collegata all'indirizzo email utilizzato per l'acquisto. Ogni chiave di licenza è per un solo utente."
+      "intro": "LessonCraftStudio concede una licenza per utilizzare i propri generatori di schede e i contenuti generati. La stessa licenza si applica a tutti gli utenti e a tutti i livelli attualmente disponibili:",
+      "freeTier": "Uso gratuito (attualmente l'unico livello disponibile): Tutti i generatori e le schede generate sono gratuiti. Le schede possono essere utilizzate per fini personali, didattici, di istruzione parentale e altri fini educativi — incluse attività di insegnamento a pagamento come ripetizioni o corsi a pagamento. Le schede NON possono essere rivendute, ridistribuite o ripubblicate come prodotto autonomo.",
+      "coreBundle": "Livelli a pagamento (non attualmente disponibili): Al momento non è offerto alcun livello a pagamento. Qualora in futuro venisse introdotto un livello a pagamento, si applicherà la stessa licenza uniforme sopra indicata — i livelli a pagamento potranno aggiungere funzionalità o limiti, ma non concedono ulteriori diritti di licenza o di rivendita.",
+      "fullAccess": "Chiave di licenza (se applicabile): Qualora venga introdotto un livello a pagamento e l'utente ne acquisti l'accesso, la chiave di licenza sarà collegata all'indirizzo email utilizzato per l'acquisto. Le condizioni di licenza uniformi sopra indicate si applicano indipendentemente dal livello."
     },
     "intellectualProperty": {
       "title": "2. PROPRIETÀ INTELLETTUALE",
@@ -563,14 +563,15 @@
       "illegal": "Utilizzare per scopi illegali"
     },
     "commercialDistribution": {
-      "title": "4. DISTRIBUZIONE COMMERCIALE",
-      "pod": "Diritti di stampa su richiesta: I titolari di licenza a pagamento possono vendere copie illimitate dei contenuti generati tramite qualsiasi servizio di stampa su richiesta.",
-      "digital": "Distribuzione digitale: I titolari di licenza a pagamento possono vendere download digitali dei contenuti generati su qualsiasi piattaforma scelgano. Nessuna royalty o attribuzione richiesta."
+      "title": "4. LIMITAZIONE ALLA RIVENDITA",
+      "pod": "Divieto di rivendita dei file: Le schede e i contenuti generati non possono essere rivenduti, ridistribuiti o ripubblicati come prodotti autonomi in alcun formato (stampa, print-on-demand, download digitale, inserzione su marketplace o altro).",
+      "digital": "Uso a fini di insegnamento a pagamento consentito: L'uso consentito comprende contesti personali, didattici, di istruzione parentale e di insegnamento a pagamento (ripetizioni, corsi, lezioni in presenza e online). Le schede in sé restano contenuti di LessonCraftStudio; il servizio educativo erogato utilizzandole resta dell'utente."
     },
     "termination": {
       "title": "5. RISOLUZIONE",
-      "content": "Possiamo risolvere per violazione con 30 giorni di preavviso. I contenuti creati durante un abbonamento valido rimangono sotto licenza."
+      "content": "Possiamo risolvere la licenza per violazione di queste condizioni con preavviso scritto di 30 giorni. I contenuti creati prima della risoluzione restano concessi in licenza per il proseguimento dell'uso personale, didattico, di istruzione parentale e di insegnamento a pagamento ai sensi della Sezione 1; la limitazione alla rivendita di cui alla Sezione 4 continua ad applicarsi."
     },
+    "metaDescription": "Condizioni di licenza di LessonCraftStudio. Schede K-3 gratuite e attività; un'unica licenza uniforme per tutti gli utenti; uso personale, didattico e a fini di insegnamento a pagamento consentito; nessuna rivendita dei file delle schede.",
     "warrantyDisclaimer": {
       "title": "6. ESCLUSIONE DI GARANZIA",
       "content": "Servizio fornito COSÌ COM'È senza garanzie. Non garantiamo l'idoneità per scopi specifici."
@@ -683,27 +684,33 @@
     },
     "tiers": {
       "free": {
-        "description": "Perfetto per provare la piattaforma",
+        "description": "Gratuito per tutti — attualmente l'unico livello disponibile.",
+        "availability": "available",
         "features": [
-          "Generatore di crucipuzzle",
-          "Schede illimitate",
-          "Con watermark"
+          "Tutti i generatori di schede",
+          "Generazione di schede illimitata",
+          "Download PDF pronti per la stampa",
+          "Supporto della community"
         ]
       },
       "core": {
-        "description": "Ideale per costruire il tuo business di stampabili",
+        "description": "Non attualmente disponibile.",
+        "availability": "not-currently-available",
         "features": [
-          "I 10 generatori più popolari",
-          "Schede illimitate",
-          "Senza watermark"
+          "Non attualmente disponibile",
+          "Generazione di schede illimitata",
+          "Download PDF pronti per la stampa",
+          "Assistenza via email"
         ]
       },
       "full": {
-        "description": "La soluzione completa per i professionisti",
+        "description": "Non attualmente disponibile.",
+        "availability": "not-currently-available",
         "features": [
-          "tutti i nostri generatori",
-          "Schede illimitate",
-          "Senza watermark"
+          "Non attualmente disponibile",
+          "Generazione di schede illimitata",
+          "Download PDF pronti per la stampa",
+          "Assistenza prioritaria via email"
         ]
       }
     },
@@ -925,37 +932,35 @@
     "tiers": {
       "FREE": {
         "name": "Gratuito",
-        "description": "Perfetto per provare la piattaforma",
+        "description": "Gratuito per tutti — attualmente l'unico livello disponibile.",
+        "availability": "available",
         "features": [
-          "Solo generatore di crucipuzzle",
-          "Schede illimitate",
-          "Con filigrana",
-          "Supporto community"
+          "Tutti i generatori di schede",
+          "Generazione di schede illimitata",
+          "Download PDF pronti per la stampa",
+          "Supporto della community"
         ]
       },
       "CORE": {
         "name": "Pacchetto Essenziale",
-        "description": "Perfetto per una classe multilingue",
+        "description": "Non attualmente disponibile.",
+        "availability": "not-currently-available",
         "features": [
-          "Accesso a 10 generatori popolari",
-          "Schede illimitate",
-          "Senza filigrana",
-          "Download PDF di alta qualità",
-          "Modelli premium",
+          "Non attualmente disponibile",
+          "Generazione di schede illimitata",
+          "Download PDF pronti per la stampa",
           "Assistenza via email"
         ]
       },
       "FULL": {
         "name": "Accesso Completo",
-        "description": "La soluzione completa per i professionisti",
+        "description": "Non attualmente disponibile.",
+        "availability": "not-currently-available",
         "features": [
-          "Accesso a tutti i nostri generatori",
-          "Schede illimitate",
-          "Senza filigrana",
-          "Download PDF di alta qualità",
-          "Tutti i modelli premium",
-          "Assistenza prioritaria via email",
-          "Licenza commerciale inclusa"
+          "Non attualmente disponibile",
+          "Generazione di schede illimitata",
+          "Download PDF pronti per la stampa",
+          "Assistenza prioritaria via email"
         ]
       }
     }

@@ -383,22 +383,22 @@
     },
     "serviceDescription": {
       "title": "2. DESCRIPTION DU SERVICE",
-      "content": "LessonCraftStudio propose des outils de création de fiches pédagogiques en trois formules : Gratuite (limitée), Core (étendue) et Accès Complet (illimité)."
+      "content": "LessonCraftStudio propose des fiches et des générateurs de fiches gratuits pour les classes K-3 multilingues. Tous les générateurs et les fiches générées sont gratuits sous une licence uniforme (voir Conditions de licence). Aucune formule payante n'est actuellement proposée ; si une formule payante est introduite à l'avenir, la même licence uniforme s'applique quelle que soit la formule."
     },
     "userAccounts": {
       "title": "3. COMPTES UTILISATEURS",
-      "requirements": "Exigences :",
-      "age": "Âge minimum : 18 ans",
-      "accurate": "Informations d'inscription exactes",
-      "security": "Maintenir la sécurité du compte",
-      "responsible": "Responsabilité des activités du compte"
+      "requirements": "Exigences (lorsqu'un compte est créé) :",
+      "age": "Âge minimum : 18 ans pour créer un compte",
+      "accurate": "Adresse e-mail valide utilisée pour les communications du compte",
+      "security": "Maintenez la sécurité de vos identifiants — ne les partagez pas",
+      "responsible": "Responsabilité des activités effectuées sous votre compte"
     },
     "paymentTerms": {
       "title": "4. CONDITIONS DE PAIEMENT",
-      "pricing": "Tarifs actuels affichés à l'inscription",
-      "billing": "Facturation récurrente selon la formule choisie",
-      "refunds": "Aucun remboursement pour les périodes partielles",
-      "changes": "Changements de prix avec préavis de 30 jours"
+      "pricing": "Aucune formule payante n'est actuellement proposée.",
+      "billing": "Les conditions de paiement seront publiées avant l'introduction de tout produit payant.",
+      "refunds": "Les conditions de remboursement seront publiées avec tout produit payant.",
+      "changes": "Nous fournirons un préavis suffisant si une formule payante est introduite et que ces conditions changent."
     },
     "acceptableUse": {
       "title": "5. UTILISATION ACCEPTABLE",
@@ -411,7 +411,7 @@
     },
     "intellectualProperty": {
       "title": "6. PROPRIÉTÉ INTELLECTUELLE",
-      "content": "La plateforme et les outils restent notre propriété. Vos contenus restent les vôtres. Les contenus générés sont licenciés selon l'abonnement."
+      "content": "La plateforme, les générateurs, le code source et la bibliothèque d'images restent notre propriété. Les contenus que vous créez à l'aide de nos générateurs vous sont concédés sous la licence uniforme décrite dans les Conditions de licence. Les fiches elles-mêmes restent un contenu de LessonCraftStudio et ne peuvent être ni revendues ni redistribuées comme produits autonomes."
     },
     "termination": {
       "title": "7. RÉSILIATION",
@@ -540,14 +540,15 @@
   },
   "license": {
     "title": "Conditions de licence",
+    "metaDescription": "Conditions de licence LessonCraftStudio. Fiches et activités K-3 gratuites ; une licence uniforme pour tous les utilisateurs ; usage personnel, en classe et en enseignement rémunéré autorisé ; pas de revente des fichiers de fiches.",
     "lastUpdated": "Dernière mise à jour",
     "effectiveDate": "Janvier 2025",
     "grantOfLicense": {
       "title": "1. OCTROI DE LICENCE",
-      "intro": "LessonCraftStudio vous accorde une licence d'utilisation du contenu généré selon votre abonnement :",
-      "freeTier": "Gratuit : Usage éducatif personnel non commercial uniquement",
-      "coreBundle": "Core : Usage éducatif commercial dans votre établissement",
-      "fullAccess": "Accès Complet : Usage commercial illimité incluant impression à la demande et revente"
+      "intro": "LessonCraftStudio vous accorde une licence d'utilisation de ses générateurs de fiches et des contenus générés. La même licence s'applique à tous les utilisateurs et à toutes les formules actuelles :",
+      "freeTier": "Utilisation gratuite (actuellement la seule formule disponible) : Tous les générateurs et les fiches générées sont gratuits. Les fiches peuvent être utilisées à des fins personnelles, scolaires, d'instruction à domicile et à d'autres fins éducatives — y compris l'enseignement rémunéré comme le tutorat ou les cours payants. Les fiches ne peuvent PAS être revendues, redistribuées ni republiées comme produit autonome.",
+      "coreBundle": "Formules payantes (non disponibles actuellement) : Aucune formule payante n'est actuellement proposée. Si une formule payante est introduite à l'avenir, la même licence uniforme ci-dessus s'applique — les formules payantes peuvent ajouter des fonctionnalités ou des limites, mais n'accordent aucun droit de licence ou de revente supplémentaire.",
+      "fullAccess": "Clé de licence (le cas échéant) : Si une formule payante est introduite et que vous achetez un accès, votre clé de licence sera liée à l'adresse e-mail utilisée lors de l'achat. Les conditions de licence uniforme ci-dessus s'appliquent quelle que soit la formule."
     },
     "intellectualProperty": {
       "title": "2. PROPRIÉTÉ INTELLECTUELLE",
@@ -563,13 +564,13 @@
       "illegal": "Utiliser à des fins illégales"
     },
     "commercialDistribution": {
-      "title": "4. DISTRIBUTION COMMERCIALE",
-      "pod": "Impression à la demande : les abonnés Accès Complet peuvent vendre sans limite via les plateformes d'impression à la demande.",
-      "digital": "Distribution numérique : tous les niveaux peuvent distribuer des versions numériques selon leur licence."
+      "title": "4. INTERDICTION DE REVENTE",
+      "pod": "Pas de revente des fichiers : les fiches et les contenus générés ne peuvent être revendus, redistribués ni republiés comme produits autonomes, sous quelque format que ce soit (impression, impression à la demande, téléchargement numérique, listing sur place de marché ou autre).",
+      "digital": "Enseignement rémunéré autorisé : l'usage autorisé inclut les contextes personnel, scolaire, d'instruction à domicile et d'enseignement rémunéré (tutorat, cours, classes en présentiel et en ligne). Les fiches elles-mêmes restent un contenu de LessonCraftStudio ; le service éducatif que vous fournissez en les utilisant vous appartient."
     },
     "termination": {
       "title": "5. RÉSILIATION",
-      "content": "Nous pouvons résilier pour violation avec préavis de 30 jours. Le contenu créé pendant un abonnement valide reste sous licence."
+      "content": "Nous pouvons résilier votre licence pour manquement à ces conditions, avec un préavis écrit de 30 jours. Le contenu créé avant la résiliation reste sous licence pour un usage personnel, scolaire, d'instruction à domicile et d'enseignement rémunéré conformément à la Section 1 ; l'interdiction de revente de la Section 4 continue de s'appliquer."
     },
     "warrantyDisclaimer": {
       "title": "6. EXCLUSION DE GARANTIE",
@@ -683,27 +684,30 @@
     },
     "tiers": {
       "free": {
-        "description": "Parfait pour découvrir la plateforme",
+        "description": "Gratuit pour tous — actuellement la seule formule disponible.",
+        "availability": "available",
         "features": [
-          "Générateur de mots mêlés",
+          "Tous les générateurs de fiches",
           "Fiches illimitées",
-          "Avec filigrane"
+          "Téléchargements PDF prêts à imprimer"
         ]
       },
       "core": {
-        "description": "Idéal pour un usage quotidien en classe",
+        "description": "Non disponible actuellement.",
+        "availability": "not-currently-available",
         "features": [
-          "10 générateurs les plus utilisés",
+          "Non disponible actuellement",
           "Fiches illimitées",
-          "Sans filigrane"
+          "Téléchargements PDF prêts à imprimer"
         ]
       },
       "full": {
-        "description": "La solution complète pour les professionnels",
+        "description": "Non disponible actuellement.",
+        "availability": "not-currently-available",
         "features": [
-          "tous nos générateurs",
+          "Non disponible actuellement",
           "Fiches illimitées",
-          "Sans filigrane"
+          "Téléchargements PDF prêts à imprimer"
         ]
       }
     },
@@ -925,37 +929,35 @@
     "tiers": {
       "FREE": {
         "name": "Gratuit",
-        "description": "Parfait pour découvrir la plateforme",
+        "description": "Gratuit pour tous — actuellement la seule formule disponible.",
+        "availability": "available",
         "features": [
-          "Générateur de mots mêlés uniquement",
+          "Tous les générateurs de fiches",
           "Fiches illimitées",
-          "Avec filigrane",
+          "Téléchargements PDF prêts à imprimer",
           "Support communautaire"
         ]
       },
       "CORE": {
         "name": "Pack Essentiel",
-        "description": "Idéal pour un usage quotidien en classe",
+        "description": "Non disponible actuellement.",
+        "availability": "not-currently-available",
         "features": [
-          "Accès à 10 générateurs populaires",
+          "Non disponible actuellement",
           "Fiches illimitées",
-          "Sans filigrane",
-          "Téléchargements PDF haute qualité",
-          "Modèles premium",
+          "Téléchargements PDF prêts à imprimer",
           "Support par e-mail"
         ]
       },
       "FULL": {
         "name": "Accès Complet",
-        "description": "La solution complète pour les professionnels",
+        "description": "Non disponible actuellement.",
+        "availability": "not-currently-available",
         "features": [
-          "Accès à tous nos générateurs",
+          "Non disponible actuellement",
           "Fiches illimitées",
-          "Sans filigrane",
-          "Téléchargements PDF haute qualité",
-          "Tous les modèles premium",
-          "Support prioritaire par e-mail",
-          "Licence commerciale incluse"
+          "Téléchargements PDF prêts à imprimer",
+          "Support prioritaire par e-mail"
         ]
       }
     },

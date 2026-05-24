@@ -383,22 +383,22 @@
     },
     "serviceDescription": {
       "title": "2. TJENESTEBESKRIVELSE",
-      "content": "LessonCraftStudio leverer arbejdsark- og puslespilsgeneratorer til flersprogede K-3 klasseværelser. Gratis brug dækker personlig, klasseværelses- og ikke-kommerciel brug. Betalte produkter (engangskøb) inkluderer fulde kommercielle rettigheder og aktiveres med en licensnøgle, som sendes til din e-mail efter køb."
+      "content": "LessonCraftStudio leverer gratis arbejdsark og arbejdsarkgeneratorværktøjer til flersprogede K-3-klasseværelser. Alle generatorer og genererede arbejdsark er gratis at bruge under en ensartet licens (se Licensvilkår). Der tilbydes i øjeblikket intet betalt niveau; hvis et sådant introduceres i fremtiden, gælder den samme ensartede licens uanset niveau."
     },
     "userAccounts": {
       "title": "3. BRUGERKONTI",
-      "requirements": "Krav:",
-      "age": "Minimumsalder: 18 år",
-      "accurate": "Nøjagtige registreringsoplysninger",
-      "security": "Opretholde kontosikkerhed",
-      "responsible": "Ansvar for kontoaktiviteter"
+      "requirements": "Krav (når en konto oprettes):",
+      "age": "Minimumsalder: 18 år for at oprette en konto",
+      "accurate": "Gyldig e-mailadresse anvendt til kontokommunikation",
+      "security": "Bevar sikkerheden for dine kontooplysninger — del dem ikke",
+      "responsible": "Ansvar for aktiviteter under din konto"
     },
     "paymentTerms": {
       "title": "4. BETALINGSBETINGELSER",
-      "pricing": "Aktuelle priser vises ved tilmelding",
-      "billing": "Tilbagevendende fakturering efter valgt abonnement",
-      "refunds": "Ingen refusion for delperioder",
-      "changes": "Prisændringer med 30 dages varsel"
+      "pricing": "Der tilbydes i øjeblikket intet betalt niveau.",
+      "billing": "Betalingsvilkår vil blive offentliggjort, inden et betalt produkt introduceres.",
+      "refunds": "Refusionsvilkår vil blive offentliggjort sammen med eventuelle betalte produkter.",
+      "changes": "Vi vil give varsel på forhånd, hvis et betalt niveau introduceres, og disse vilkår ændres."
     },
     "acceptableUse": {
       "title": "5. ACCEPTABEL BRUG",
@@ -411,7 +411,7 @@
     },
     "intellectualProperty": {
       "title": "6. INTELLEKTUEL EJENDOM",
-      "content": "Platform og værktøjer forbliver vores ejendom. Dit indhold forbliver dit. Genereret indhold licenseres efter abonnement."
+      "content": "Platformen, generatorerne, kildekoden og billedbiblioteket forbliver vores ejendom. Indhold, du opretter ved hjælp af vores generatorer, licenseres til dig i henhold til den ensartede licens, der er beskrevet i Licensvilkårene. Selve arbejdsarkene forbliver LessonCraftStudios indhold og må ikke videresælges eller omdistribueres som selvstændige produkter."
     },
     "termination": {
       "title": "7. OPSIGELSE",
@@ -544,10 +544,10 @@
     "effectiveDate": "Januar 2025",
     "grantOfLicense": {
       "title": "1. LICENSTILDELING",
-      "intro": "LessonCraftStudio giver dig licens til at bruge genereret indhold baseret på dit abonnement:",
-      "freeTier": "Gratis brug: Alle generatorer er gratis at bruge. Resultatet er til personlig, klasseværelses- og ikke-kommerciel brug.",
-      "coreBundle": "Betalte produkter (engangskøb): Fulde kommercielle rettigheder. Opret ubegrænset indhold og sælg på enhver platform, du vælger. Ingen kildeangivelse påkrævet.",
-      "fullAccess": "Fuld adgang: Ubegrænset kommerciel brug inklusive print-on-demand og videresalg"
+      "intro": "LessonCraftStudio giver dig en licens til at bruge sine arbejdsarkgeneratorer og det genererede indhold. Den samme licens gælder for alle brugere og alle nuværende niveauer:",
+      "freeTier": "Gratis brug (i øjeblikket det eneste tilgængelige niveau): Alle generatorer og genererede arbejdsark er gratis at bruge. Arbejdsarkene må bruges til personlige, klasseværelses-, hjemmeundervisnings- og andre uddannelsesformål — herunder betalt undervisning som tutoring eller betalte kurser. Arbejdsarkene må IKKE videresælges, omdistribueres eller genudgives som et selvstændigt produkt.",
+      "coreBundle": "Betalte niveauer (ikke tilgængelige i øjeblikket): Der tilbydes i øjeblikket intet betalt niveau. Hvis et betalt niveau introduceres i fremtiden, gælder den samme ensartede licens som ovenfor — betalte niveauer kan tilføje funktioner eller begrænsninger, men giver ikke yderligere licens- eller videresalgsrettigheder.",
+      "fullAccess": "Licensnøgle (når relevant): Hvis et betalt niveau introduceres, og du køber adgang, vil din licensnøgle være knyttet til den e-mailadresse, der blev brugt ved købet. De ensartede licensvilkår ovenfor gælder uanset niveau."
     },
     "intellectualProperty": {
       "title": "2. INTELLEKTUEL EJENDOM",
@@ -563,13 +563,13 @@
       "illegal": "Bruge til ulovlige formål"
     },
     "commercialDistribution": {
-      "title": "4. KOMMERCIEL DISTRIBUTION",
-      "pod": "Print-on-demand-rettigheder: Indehavere af en betalt licens må sælge ubegrænsede kopier af genereret indhold gennem enhver print-on-demand-tjeneste.",
-      "digital": "Digital distribution: Indehavere af en betalt licens må sælge digitale downloads af genereret indhold på enhver platform efter eget valg. Ingen royalties eller kildeangivelse påkrævet."
+      "title": "4. FORBUD MOD VIDERESALG",
+      "pod": "Intet videresalg af filer: Arbejdsark og genereret indhold må ikke videresælges, omdistribueres eller genudgives som selvstændige produkter i nogen form (tryk, print-on-demand, digital download, markedspladsannonce eller på anden vis).",
+      "digital": "Betalt undervisning tilladt: Tilladt brug omfatter personlige, klasseværelses-, hjemmeundervisnings- og betalt undervisningssammenhænge (tutoring, kurser, fysisk og online undervisning). Selve arbejdsarkene forbliver LessonCraftStudios indhold; den uddannelsesydelse, du leverer ved hjælp af dem, er din."
     },
     "termination": {
       "title": "5. OPSIGELSE",
-      "content": "Vi kan opsige ved overtrædelse med 30 dages varsel. Indhold oprettet under gyldig abonnement forbliver licenseret."
+      "content": "Vi kan opsige din licens ved overtrædelse af disse vilkår med 30 dages skriftligt varsel. Indhold oprettet før opsigelsen forbliver licenseret til fortsat personlig, klasseværelses-, hjemmeundervisnings- og betalt undervisningsbrug i henhold til afsnit 1; forbuddet mod videresalg i afsnit 4 fortsætter med at gælde."
     },
     "warrantyDisclaimer": {
       "title": "6. GARANTIFRASKRIVELSE",
@@ -590,7 +590,8 @@
     "contact": {
       "title": "10. KONTAKT",
       "content": "For licensspørgsmål: license@lessoncraftstudio.com"
-    }
+    },
+    "metaDescription": "LessonCraftStudios licensvilkår. Gratis K-3 arbejdsark og aktiviteter; én ensartet licens for alle brugere; personlig brug, klasseværelsesbrug og betalt undervisning tilladt; intet videresalg af arbejdsarkfilerne."
   },
   "faq": {
     "metaTitle": "Ofte stillede spørgsmål - LessonCraftStudio",
@@ -683,28 +684,31 @@
     },
     "tiers": {
       "free": {
-        "description": "Perfekt til at afprøve platformen",
+        "description": "Gratis for alle — i øjeblikket det eneste tilgængelige niveau.",
         "features": [
-          "Ordsøgsgenerator",
-          "Ubegrænset antal opgaveark",
-          "Med vandmærke"
-        ]
+          "Alle arbejdsarkgeneratorer",
+          "Ubegrænset arbejdsarkgenerering",
+          "Klar-til-print PDF-downloads"
+        ],
+        "availability": "available"
       },
       "core": {
-        "description": "Perfekt til et flersproget klasseværelse",
+        "description": "Ikke tilgængelig i øjeblikket.",
         "features": [
-          "De 10 mest populære generatorer",
-          "Ubegrænset antal opgaveark",
-          "Uden vandmærke"
-        ]
+          "Ikke tilgængelig i øjeblikket",
+          "Ubegrænset arbejdsarkgenerering",
+          "Klar-til-print PDF-downloads"
+        ],
+        "availability": "not-currently-available"
       },
       "full": {
-        "description": "Den komplette løsning til professionelle",
+        "description": "Ikke tilgængelig i øjeblikket.",
         "features": [
-          "alle vores generatorer",
-          "Ubegrænset antal opgaveark",
-          "Uden vandmærke"
-        ]
+          "Ikke tilgængelig i øjeblikket",
+          "Ubegrænset arbejdsarkgenerering",
+          "Klar-til-print PDF-downloads"
+        ],
+        "availability": "not-currently-available"
       }
     },
     "categories": {
@@ -925,38 +929,36 @@
     "tiers": {
       "FREE": {
         "name": "Gratis",
-        "description": "Perfekt til at afprøve platformen",
+        "description": "Gratis for alle — i øjeblikket det eneste tilgængelige niveau.",
         "features": [
-          "Kun ordsøgningsgenerator",
-          "Ubegrænset antal opgaveark",
-          "Med vandmærke",
+          "Alle arbejdsarkgeneratorer",
+          "Ubegrænset arbejdsarkgenerering",
+          "Klar-til-print PDF-downloads",
           "Community-support"
-        ]
+        ],
+        "availability": "available"
       },
       "CORE": {
         "name": "Standard",
-        "description": "Perfekt til et flersproget klasseværelse",
+        "description": "Ikke tilgængelig i øjeblikket.",
         "features": [
-          "Adgang til 10 populære generatorer",
-          "Ubegrænset antal opgaveark",
-          "Uden vandmærke",
-          "PDF-downloads i høj kvalitet",
-          "Premium-skabeloner",
+          "Ikke tilgængelig i øjeblikket",
+          "Ubegrænset arbejdsarkgenerering",
+          "Klar-til-print PDF-downloads",
           "E-mail-support"
-        ]
+        ],
+        "availability": "not-currently-available"
       },
       "FULL": {
         "name": "Premium",
-        "description": "Den komplette løsning til professionelle",
+        "description": "Ikke tilgængelig i øjeblikket.",
         "features": [
-          "Adgang til alle vores generatorer",
-          "Ubegrænset antal opgaveark",
-          "Uden vandmærke",
-          "PDF-downloads i høj kvalitet",
-          "Alle premium-skabeloner",
-          "Prioriteret e-mail support",
-          "Kommerciel licens inkluderet"
-        ]
+          "Ikke tilgængelig i øjeblikket",
+          "Ubegrænset arbejdsarkgenerering",
+          "Klar-til-print PDF-downloads",
+          "Prioriteret e-mail-support"
+        ],
+        "availability": "not-currently-available"
       }
     }
   },

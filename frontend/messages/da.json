@@ -1580,5 +1580,27 @@
       "title": "Forhåndsvisning af forside v3 · LessonCraftStudio",
       "description": "Intern prototype af den redesignede forside. Ikke indekseret."
     }
+  },
+  "worksheetsPage": {
+    "metaTitle": {
+      "hundreds": "Hundredvis af opgaver, ordnet efter type",
+      "safer": "Opgaver, ordnet efter type"
+    },
+    "metaDescription": {
+      "hundreds": "Hundredvis af opgaver om temaer, aldersniveauer og elleve sprog — interaktiv HTML og printbare PDF'er, ordnet efter opgavetype.",
+      "safer": "Gennemse opgaver efter opgavetype — interaktiv HTML og printbare PDF'er til matematik, læsning, gåder i indskolingen og mere."
+    },
+    "h1": {
+      "hundreds": "Hundredvis af opgaver, ordnet efter type",
+      "safer": "Opgaver, ordnet efter type"
+    },
+    "intro": {
+      "hundreds": "Opgaver om temaer, aldersniveauer og elleve sprog — vælg en type for at se alle tilgængelige opgaver i den kategori.",
+      "safer": "Vælg en opgavetype for at se alle tilgængelige opgaver — interaktiv HTML at spille i browseren plus en printbar PDF til hvert sæt."
+    },
+    "tileCta": "Se opgaver",
+    "tileAlt": "Eksempel på opgave: {typeName}",
+    "emptyTitle": "Ingen opgaver tilgængelige på dette sprog endnu.",
+    "emptyBody": "Vores katalog vokser sprog for sprog. Kom snart igen eller gennemse et andet sprog."
   }
 }

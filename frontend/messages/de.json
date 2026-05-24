@@ -1399,5 +1399,27 @@
       "title": "Startseiten-Vorschau v3 · LessonCraftStudio",
       "description": "Interner Prototyp der neu gestalteten Startseite. Nicht indexiert."
     }
+  },
+  "worksheetsPage": {
+    "metaTitle": {
+      "hundreds": "Hunderte Arbeitsblätter, nach Typ geordnet",
+      "safer": "Arbeitsblätter, nach Typ geordnet"
+    },
+    "metaDescription": {
+      "hundreds": "Hunderte Arbeitsblätter zu Themen, Altersstufen und elf Sprachen — interaktives HTML und druckbare PDFs, nach Übungsart geordnet.",
+      "safer": "Arbeitsblätter nach Übungsart durchsuchen — interaktives HTML und druckbare PDFs für K-3 Mathematik, Lesen, Rätsel und mehr."
+    },
+    "h1": {
+      "hundreds": "Hunderte Arbeitsblätter, nach Typ geordnet",
+      "safer": "Arbeitsblätter, nach Typ geordnet"
+    },
+    "intro": {
+      "hundreds": "Arbeitsblätter zu Themen, Altersstufen und elf Sprachen — wähle einen Typ, um alle verfügbaren Arbeitsblätter dieser Kategorie zu sehen.",
+      "safer": "Wähle einen Arbeitsblatttyp, um alle verfügbaren Arbeitsblätter zu sehen — interaktives HTML zum Spielen im Browser plus eine druckbare PDF für jeden Satz."
+    },
+    "tileCta": "Arbeitsblätter ansehen",
+    "tileAlt": "{typeName} — Arbeitsblatt-Beispiel",
+    "emptyTitle": "Noch keine Arbeitsblätter in dieser Sprache verfügbar.",
+    "emptyBody": "Unser Katalog wächst Sprache für Sprache. Schau bald wieder vorbei oder durchsuche eine andere Sprache."
   }
 }

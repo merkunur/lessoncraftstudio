@@ -1593,5 +1593,27 @@
       "title": "Prévia da página inicial v3 · LessonCraftStudio",
       "description": "Protótipo interno da nova página inicial. Não indexada."
     }
+  },
+  "worksheetsPage": {
+    "metaTitle": {
+      "hundreds": "Centenas de atividades, organizadas por tipo",
+      "safer": "Atividades, organizadas por tipo"
+    },
+    "metaDescription": {
+      "hundreds": "Centenas de atividades em temas, faixas etárias e onze idiomas — HTML interativo e PDFs imprimíveis, organizados por tipo de exercício.",
+      "safer": "Explore atividades por tipo de exercício — HTML interativo e PDFs imprimíveis para matemática, leitura, quebra-cabeças K-3 e mais."
+    },
+    "h1": {
+      "hundreds": "Centenas de atividades, organizadas por tipo",
+      "safer": "Atividades, organizadas por tipo"
+    },
+    "intro": {
+      "hundreds": "Atividades em temas, faixas etárias e onze idiomas — escolha um tipo para ver todas as atividades disponíveis nessa categoria.",
+      "safer": "Escolha um tipo de atividade para ver todas as atividades disponíveis — HTML interativo para jogar no navegador e um PDF imprimível para cada conjunto."
+    },
+    "tileCta": "Ver atividades",
+    "tileAlt": "Exemplo de atividade: {typeName}",
+    "emptyTitle": "Ainda não há atividades disponíveis nesse idioma.",
+    "emptyBody": "Nosso catálogo cresce idioma por idioma. Volte em breve ou explore outro idioma."
   }
 }

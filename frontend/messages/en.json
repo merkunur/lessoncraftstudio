@@ -1308,5 +1308,27 @@
       "title": "Homepage v3 Preview · LessonCraftStudio",
       "description": "Internal prototype of the redesigned homepage. Not indexed."
     }
+  },
+  "worksheetsPage": {
+    "metaTitle": {
+      "hundreds": "Hundreds of worksheets, organized by type",
+      "safer": "Worksheets, organized by type"
+    },
+    "metaDescription": {
+      "hundreds": "Hundreds of worksheets across themes, age levels, and eleven languages — interactive HTML plus printable PDFs, organized by exercise type.",
+      "safer": "Browse worksheets by exercise type — interactive HTML plus printable PDFs across K-3 math, literacy, puzzles, and more."
+    },
+    "h1": {
+      "hundreds": "Hundreds of worksheets, organized by type",
+      "safer": "Worksheets, organized by type"
+    },
+    "intro": {
+      "hundreds": "Worksheets across themes, age levels, and eleven languages — pick a type to see every available worksheet in that category.",
+      "safer": "Pick a worksheet type to see every available worksheet — interactive HTML to play in the browser plus a printable PDF for every set."
+    },
+    "tileCta": "View worksheets",
+    "tileAlt": "{typeName} worksheet sample",
+    "emptyTitle": "No worksheets available in this language yet.",
+    "emptyBody": "Our catalog is expanding language by language. Please check back soon, or browse another language."
   }
 }

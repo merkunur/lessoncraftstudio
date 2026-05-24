@@ -1583,5 +1583,27 @@
       "title": "Förhandsvisning av startsida v3 · LessonCraftStudio",
       "description": "Intern prototyp av den omdesignade startsidan. Indexeras inte."
     }
+  },
+  "worksheetsPage": {
+    "metaTitle": {
+      "hundreds": "Hundratals arbetsblad, sorterade efter typ",
+      "safer": "Arbetsblad, sorterade efter typ"
+    },
+    "metaDescription": {
+      "hundreds": "Hundratals arbetsblad om teman, åldersnivåer och elva språk — interaktiv HTML och utskrivbara PDF:er, sorterade efter övningstyp.",
+      "safer": "Bläddra bland arbetsblad efter övningstyp — interaktiv HTML och utskrivbara PDF:er för matematik, läsning, pussel F-3 och mer."
+    },
+    "h1": {
+      "hundreds": "Hundratals arbetsblad, sorterade efter typ",
+      "safer": "Arbetsblad, sorterade efter typ"
+    },
+    "intro": {
+      "hundreds": "Arbetsblad om teman, åldersnivåer och elva språk — välj en typ för att se alla tillgängliga arbetsblad i den kategorin.",
+      "safer": "Välj en arbetsbladstyp för att se alla tillgängliga arbetsblad — interaktiv HTML att spela i webbläsaren plus en utskrivbar PDF för varje set."
+    },
+    "tileCta": "Se arbetsbladen",
+    "tileAlt": "Arbetsbladsexempel: {typeName}",
+    "emptyTitle": "Inga arbetsblad tillgängliga på det här språket ännu.",
+    "emptyBody": "Vår katalog växer språk för språk. Kom tillbaka snart eller bläddra på ett annat språk."
   }
 }

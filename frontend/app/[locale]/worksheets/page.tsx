@@ -4,12 +4,16 @@
    locale, each tile linking to its corresponding native-language topic
    page (/[locale]/topic/<native-slug>/).
 
-   v1: English-only static copy (H1 / intro / tile CTA / empty-state).
-   Native-language fan-out deferred to a follow-up commission. */
+   v2: chrome strings localized across all 11 site locales via
+   worksheetsPage namespace (commit 2026-05-24). Routing + tile data +
+   topic links were already locale-aware in v1; this completes the
+   localization. NSR-flag deferred review for SV/DA/NO/FI per §17.5.1
+   Nordic+Finnic doctrine. */
 
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
+import { getTranslations } from 'next-intl/server';
 import { prisma } from '@/lib/prisma';
 import { getAxisSlug, getAxisName } from '@/lib/taxonomy';
 
@@ -19,19 +23,6 @@ const BASE_URL = 'https://www.lessoncraftstudio.com';
 // es / it / pt today) get the "Hundreds…" variant. Seed-only locales fall
 // to the safer copy until Track C deck-publish lands per CLAUDE.md §19.5.
 const HUNDREDS_THRESHOLD = 100;
-
-const TITLE_HUNDREDS = 'Hundreds of worksheets, organized by type';
-const TITLE_SAFER = 'Worksheets, organized by type';
-
-const INTRO_HUNDREDS =
-  'Worksheets across themes, age levels, and eleven languages — pick a type to see every available worksheet in that category.';
-const INTRO_SAFER =
-  'Pick a worksheet type to see every available worksheet — interactive HTML to play in the browser plus a printable PDF for every set.';
-
-const META_DESC_HUNDREDS =
-  'Hundreds of worksheets across themes, age levels, and eleven languages — interactive HTML plus printable PDFs, organized by exercise type.';
-const META_DESC_SAFER =
-  'Browse worksheets by exercise type — interactive HTML plus printable PDFs across K-3 math, literacy, puzzles, and more.';
 
 interface Tile {
   exerciseType: string;
@@ -55,9 +46,10 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   const locale = params.locale || 'en';
   const total = await countLocaleDecks(locale);
   const useHundreds = total >= HUNDREDS_THRESHOLD;
+  const t = await getTranslations({ locale, namespace: 'worksheetsPage' });
   return {
-    title: `${useHundreds ? TITLE_HUNDREDS : TITLE_SAFER} | LessonCraftStudio`,
-    description: useHundreds ? META_DESC_HUNDREDS : META_DESC_SAFER,
+    title: `${useHundreds ? t('metaTitle.hundreds') : t('metaTitle.safer')} | LessonCraftStudio`,
+    description: useHundreds ? t('metaDescription.hundreds') : t('metaDescription.safer'),
     alternates: { canonical: `${BASE_URL}/${locale}/worksheets/` },
     robots: { index: true, follow: true },
   };
@@ -69,6 +61,7 @@ export default async function AllWorksheetsPage({
   params: { locale: string };
 }) {
   const locale = params.locale || 'en';
+  const t = await getTranslations({ locale, namespace: 'worksheetsPage' });
 
   let tiles: Tile[] = [];
   let totalCount = 0;
@@ -108,8 +101,8 @@ export default async function AllWorksheetsPage({
   }
 
   const useHundreds = totalCount >= HUNDREDS_THRESHOLD;
-  const h1 = useHundreds ? TITLE_HUNDREDS : TITLE_SAFER;
-  const intro = useHundreds ? INTRO_HUNDREDS : INTRO_SAFER;
+  const h1 = useHundreds ? t('h1.hundreds') : t('h1.safer');
+  const intro = useHundreds ? t('intro.hundreds') : t('intro.safer');
 
   return (
     <main className="container mx-auto px-4 max-w-6xl py-16 md:py-24">
@@ -123,11 +116,10 @@ export default async function AllWorksheetsPage({
       {tiles.length === 0 ? (
         <div className="bg-cream-50 border border-cream-300 rounded-lg p-10 md:p-12 text-center max-w-2xl mx-auto">
           <p className="font-display font-semibold text-xl text-ink-900 mb-3">
-            No worksheets available in this language yet.
+            {t('emptyTitle')}
           </p>
           <p className="text-ink-600">
-            Our catalog is expanding language by language. Please check back
-            soon, or browse another language.
+            {t('emptyBody')}
           </p>
         </div>
       ) : (
@@ -147,7 +139,7 @@ export default async function AllWorksheetsPage({
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={tile.thumbnailUrl}
-                    alt={`${tile.typeName} worksheet sample`}
+                    alt={t('tileAlt', { typeName: tile.typeName })}
                     className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-300"
                     loading="lazy"
                   />
@@ -157,7 +149,7 @@ export default async function AllWorksheetsPage({
                     {tile.typeName}
                   </h3>
                   <span className="inline-flex items-center gap-1 text-sm font-medium text-terracotta-500 group-hover:text-terracotta-600 transition-colors">
-                    View worksheets
+                    {t('tileCta')}
                     <ArrowRight size={14} strokeWidth={2} aria-hidden="true" />
                   </span>
                 </div>

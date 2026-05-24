@@ -134,7 +134,7 @@
       },
       "pdf": {
         "title": "Skapa en utskriftsbar PDF.",
-        "body": "Varje deck laddas ner som en ren utskriftsbar PDF — facit ingår. Ingen vattenstämpel, ingen gräns per deck, ingenting hålls tillbaka för betalversionen."
+        "body": "Varje deck laddas ner som en ren utskrivbar PDF med facit — ingen registrering, ingen gräns per deck, gratis för klassrummet."
       },
       "embed": {
         "title": "Bädda in valfritt deck på din klassida eller blogg.",
@@ -160,7 +160,7 @@
       },
       "assets": {
         "title": "Ett omfattande temabibliotek, en stor bildsamling, flera språk",
-        "body": "Illustrationsbiblioteket och ordförrådssystemet som låter samma arbetsblad fungera på olika språk — grammatiskt korrekt genus, plural och diakritiska tecken på varje språk."
+        "body": "Ett K-3 illustrationsbibliotek och ett ordförrådssystem som ger korrekt singular, plural, genus och diakritiska tecken på elva språk."
       },
       "price": "Gratis för alla med ett lärarkonto.",
       "subscribeCta": "Gå med gratis →",
@@ -594,8 +594,8 @@
   },
   "faq": {
     "metaTitle": "Vanliga frågor - LessonCraftStudio",
-    "metaDescription": "Svar på vanliga frågor om våra arbetsbladsgeneratorer, prisplaner, kommersiella licenser och teknisk support",
-    "metaKeywords": "FAQ, hjälp med arbetsbladsgeneratorer, prisfrågor, kommersiell licens, teknisk support",
+    "metaDescription": "Vanliga frågor om LessonCraftStudio — gratis F-3 arbetsblad och interaktiva aktiviteter på elva språk för flerspråkiga klassrum.",
+    "metaKeywords": "F-3 arbetsblad, flerspråkigt klassrum, tvåspråkig utbildning, gratis utskrivbart, interaktiva aktiviteter",
     "hero": {
       "title": "Vanliga frågor",
       "subtitle": "Allt du behöver veta om LessonCraftStudios arbetsbladsgeneratorer"
@@ -1018,8 +1018,8 @@
     }
   },
   "about": {
-    "metaTitle": "Om LessonCraftStudio | Professionella Printable-Generatorer",
-    "metaDescription": "Lär dig mer om LessonCraftStudio — professionella printable-generatorer för Etsy-säljare, Amazon KDP-utgivare och printable-entreprenörer. flera språk, tusentals bilder, kommersiell licens ingår.",
+    "metaTitle": "Om — F-3 arbetsblad på 11 språk",
+    "metaDescription": "LessonCraftStudio är en gratis F-3 arbetsblads- och aktivitetsplattform på elva språk, byggd för tvåspråkiga, flerspråkiga och internationella klassrum.",
     "hero": {
       "title": "Om LessonCraftStudio",
       "subtitle": "Professionella printable-generatorer för Etsy-säljare, KDP-utgivare och entreprenörer"
@@ -1074,7 +1074,7 @@
       "subtitle": "Börja skapa professionella arbetsblad på sekunder — gratis att prova.",
       "button": "Utforska generatorer"
     },
-    "metaKeywords": "om LessonCraftStudio, arbetsbladsgeneratorer, verktyg foer utskriftsbar skapande, Etsy utskriftsbart, Amazon KDP arbetsblad, pusselbok-skapare, kommersiell arbetsbladsgenerator, flersprakiga arbetsblad",
+    "metaKeywords": "F-3 arbetsblad, flerspråkigt klassrum, tvåspråkig utbildning, gratis utskrivbart, interaktiva aktiviteter",
     "expertise": {
       "title": "Byggt foer saeljare",
       "subtitle": "Varje funktion aer utformad foer att hjaelpa dig skapa och saelja fler produkter, snabbare",

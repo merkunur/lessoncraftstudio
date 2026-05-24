@@ -134,7 +134,7 @@
       },
       "pdf": {
         "title": "Generate a printable PDF.",
-        "body": "Every deck downloads as a clean printable PDF — including an answer key. No watermark, no per-deck limit, nothing held back for the paid tier."
+        "body": "Every deck downloads as a clean printable PDF with the answer key — no signup required, no per-deck limit, free for the classroom."
       },
       "embed": {
         "title": "Embed any deck on your class site or blog.",
@@ -160,7 +160,7 @@
       },
       "assets": {
         "title": "A vast theme library, a large image collection, many languages",
-        "body": "The illustration library and vocabulary system that lets the same worksheet work across languages — grammatically correct gender, plurals, and diacritics in each language."
+        "body": "A K-3 illustration library and a vocabulary system that gets singular, plural, gender, and accents right in 11 languages."
       },
       "price": "Free for everyone with a teacher account.",
       "subscribeCta": "Join for free →",
@@ -286,7 +286,7 @@
   },
   "terms": {
     "metaTitle": "Terms of Service — Usage Agreement | LessonCraftStudio",
-    "metaDescription": "Review LessonCraftStudio terms of service. Covers usage rights for free generators, one-time purchases, license key activation, and commercial rights under Swedish law.",
+    "metaDescription": "LessonCraftStudio terms of service — usage rights for free K-3 worksheets, interactive activities, and downloadable resources, under Swedish law.",
     "title": "Terms of Service",
     "lastUpdated": "Last Updated",
     "effectiveDate": "February 2027",
@@ -362,7 +362,7 @@
   },
   "license": {
     "metaTitle": "License Terms — Content Usage Rights | LessonCraftStudio",
-    "metaDescription": "LessonCraftStudio license terms. Free generators with watermark for personal use. Paid products include full commercial, POD, and resale rights.",
+    "metaDescription": "LessonCraftStudio license terms. Free K-3 worksheets and activities for classroom use; commercial rights for printable resources where authorized.",
     "title": "License Terms",
     "lastUpdated": "Last Updated",
     "effectiveDate": "February 2027",
@@ -510,9 +510,9 @@
     }
   },
   "faq": {
-    "metaTitle": "FAQ: Worksheet Generators, Pricing & Commercial Rights | LessonCraftStudio",
-    "metaDescription": "Get answers about our worksheet generators, one-time purchase pricing, commercial rights, license key activation, and selling on Etsy and Amazon KDP.",
-    "metaKeywords": "worksheet generator FAQ, printable worksheets, commercial license, Etsy worksheets, Amazon KDP worksheets, one-time purchase, license key, LessonCraftStudio help",
+    "metaTitle": "FAQ — K-3 worksheets in 11 languages",
+    "metaDescription": "Frequently asked questions about LessonCraftStudio — free K-3 worksheets and interactive activities in 11 languages for multilingual classrooms.",
+    "metaKeywords": "K-3 worksheets, multilingual classroom, dual-language education, free printables, interactive activities",
     "hero": {
       "title": "Frequently Asked Questions",
       "subtitle": "Everything you need to know about LessonCraftStudio worksheet generators"
@@ -743,9 +743,9 @@
     "copyright": "© 2026 LessonCraftStudio."
   },
   "about": {
-    "metaTitle": "About LessonCraftStudio | Professional Printable Creation Tools",
-    "metaDescription": "LessonCraftStudio offers professional worksheet and puzzle generators with thousands of themed images in many languages. Free to use with watermark. One-time purchase for full commercial rights.",
-    "metaKeywords": "about LessonCraftStudio, worksheet generators, printable creation tools, Etsy printables, Amazon KDP worksheets, puzzle book maker, commercial worksheet generator, multilingual worksheets",
+    "metaTitle": "About — K-3 worksheets in 11 languages",
+    "metaDescription": "LessonCraftStudio is a free K-3 worksheets and interactive activities platform in 11 languages, built for dual-language, bilingual, and international-school classrooms.",
+    "metaKeywords": "K-3 worksheets, multilingual classroom, dual-language education, free printables, interactive activities",
     "hero": {
       "title": "About LessonCraftStudio",
       "subtitle": "Professional printable creation tools for entrepreneurs, educators, and publishers"

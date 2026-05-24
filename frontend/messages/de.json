@@ -134,7 +134,7 @@
       },
       "pdf": {
         "title": "Druckbares PDF erstellen.",
-        "body": "Jedes Deck lässt sich als sauberes PDF herunterladen — inklusive Lösungsbogen. Kein Wasserzeichen, keine Mengenbegrenzung, nichts, was für die Bezahlversion zurückgehalten wird."
+        "body": "Jedes Deck lässt sich als sauberes druckbares PDF mit Lösungsbogen herunterladen — keine Anmeldung, keine Mengenbegrenzung, kostenlos für den Unterricht."
       },
       "embed": {
         "title": "Jedes Deck auf Ihrer Klassenseite oder Ihrem Blog einbetten.",
@@ -160,7 +160,7 @@
       },
       "assets": {
         "title": "Eine umfangreiche Themenbibliothek, eine große Bildersammlung, viele Sprachen",
-        "body": "Die Illustrationsbibliothek und das Vokabelsystem, mit dem dasselbe Arbeitsblatt über Sprachen hinweg funktioniert — grammatikalisch korrektes Genus, Plural und Diakritika in jeder Sprache."
+        "body": "Eine K-3 Illustrationsbibliothek und ein Vokabelsystem mit korrektem Singular, Plural, Genus und Akzenten in elf Sprachen."
       },
       "price": "Kostenlos für alle mit einem Lehrkonto.",
       "subscribeCta": "Kostenlos registrieren →",
@@ -635,8 +635,8 @@
   },
   "faq": {
     "metaTitle": "Häufig gestellte Fragen - LessonCraftStudio",
-    "metaDescription": "Antworten auf häufige Fragen zu unseren unsere Arbeitsblatt-Generatoren, Preisplänen, Gewerbelizenzen und technischem Support",
-    "metaKeywords": "FAQ, Arbeitsblatt-Generatoren Hilfe, Preisfragen, Gewerbelizenz, technischer Support",
+    "metaDescription": "Häufig gestellte Fragen zu LessonCraftStudio — kostenlose K-3 Arbeitsblätter und interaktive Aktivitäten in elf Sprachen für mehrsprachige Klassen.",
+    "metaKeywords": "K-3 Arbeitsblätter, mehrsprachige Klassen, bilingualer Unterricht, kostenlose Printables, interaktive Aktivitäten",
     "hero": {
       "title": "Häufig gestellte Fragen",
       "subtitle": "Alles Wissenswerte über die Arbeitsblatt-Generatoren von LessonCraftStudio"
@@ -834,8 +834,8 @@
     "loadError": "Beim Laden der Anfragen ist ein Fehler aufgetreten. Bitte laden Sie die Seite neu."
   },
   "about": {
-    "metaTitle": "Über LessonCraftStudio | Professionelle Printable-Generatoren für Verkäufer",
-    "metaDescription": "LessonCraftStudio — professionelle Printable-Generatoren für Etsy-Verkäufer, Amazon-KDP-Publisher und Printable-Unternehmer. vielen Sprachen, tausende Bilder, kommerzielle Lizenz inklusive.",
+    "metaTitle": "Über — K-3 Arbeitsblätter in 11 Sprachen",
+    "metaDescription": "LessonCraftStudio ist eine kostenlose K-3 Arbeitsblatt- und Aktivitätenplattform in elf Sprachen, entwickelt für zweisprachige, bilinguale und internationale Klassen.",
     "hero": {
       "title": "Über LessonCraftStudio",
       "subtitle": "Professionelle Printable-Generatoren für Etsy-Verkäufer und KDP-Publisher weltweit"
@@ -890,7 +890,7 @@
       "subtitle": "Erstellen Sie in Sekunden professionelle Arbeitsblätter — kostenlos testen.",
       "button": "Generatoren entdecken"
     },
-    "metaKeywords": "ueber LessonCraftStudio, Arbeitsblatt-Generatoren, Druckvorlagen-Erstellungstools, Etsy-Druckvorlagen, Amazon-KDP-Arbeitsblaetter, Raetselbuch-Ersteller, kommerzieller Arbeitsblatt-Generator, mehrsprachige Arbeitsblaetter",
+    "metaKeywords": "K-3 Arbeitsblätter, mehrsprachige Klassen, bilingualer Unterricht, kostenlose Printables, interaktive Aktivitäten",
     "expertise": {
       "title": "Fuer Verkaeufer entwickelt",
       "subtitle": "Jede Funktion ist darauf ausgelegt, Ihnen zu helfen, mehr Produkte schneller zu erstellen und zu verkaufen",

@@ -134,7 +134,7 @@
       },
       "pdf": {
         "title": "Een afdrukbare PDF genereren.",
-        "body": "Elk deck wordt gedownload als een schone afdrukbare PDF — inclusief antwoordblad. Geen watermerk, geen limiet per deck, niets wat voor de betaalde versie wordt achtergehouden."
+        "body": "Elk deck wordt gedownload als een schone afdrukbare PDF met antwoordblad — geen aanmelding, geen limiet per deck, gratis voor de klas."
       },
       "embed": {
         "title": "Elk deck insluiten op uw klassen-website of blog.",
@@ -160,7 +160,7 @@
       },
       "assets": {
         "title": "Een uitgebreide thema-bibliotheek, een grote beeldcollectie, vele talen",
-        "body": "De illustratiebibliotheek en het vocabulairesysteem die hetzelfde werkblad in verschillende talen laten werken — grammaticaal correct geslacht, meervoud en accenten in elke taal."
+        "body": "Een K-3 illustratiebibliotheek en een woordenschatsysteem dat enkelvoud, meervoud, geslacht en accenten correct levert in elf talen."
       },
       "price": "Gratis voor iedereen met een leerkracht-account.",
       "subscribeCta": "Gratis aanmelden →",
@@ -504,8 +504,8 @@
   },
   "faq": {
     "metaTitle": "Veelgestelde Vragen - LessonCraftStudio",
-    "metaDescription": "Antwoorden op veelgestelde vragen over onze onze werkbladgeneratoren, prijsplannen, commerciële licenties en technische ondersteuning",
-    "metaKeywords": "FAQ, hulp werkbladgeneratoren, prijsvragen, commerciële licentie, technische ondersteuning",
+    "metaDescription": "Veelgestelde vragen over LessonCraftStudio — gratis K-3 werkbladen en interactieve activiteiten in elf talen voor meertalige klassen.",
+    "metaKeywords": "K-3 werkbladen, meertalige klas, tweetalig onderwijs, gratis printables, interactieve activiteiten",
     "hero": {
       "title": "Veelgestelde Vragen",
       "subtitle": "Alles wat je moet weten over de werkbladgeneratoren van LessonCraftStudio"
@@ -691,8 +691,8 @@
     "copyright": "© 2026 LessonCraftStudio."
   },
   "about": {
-    "metaTitle": "Over LessonCraftStudio | Professionele Printable-Generatoren",
-    "metaDescription": "Leer meer over LessonCraftStudio — professionele printable-generatoren voor Etsy-verkopers, Amazon KDP-uitgevers en printable-ondernemers. vele talen, duizenden afbeeldingen, commerciële licentie inbegrepen.",
+    "metaTitle": "Over — K-3 werkbladen in 11 talen",
+    "metaDescription": "LessonCraftStudio is een gratis platform voor K-3 werkbladen en interactieve activiteiten in elf talen, gebouwd voor tweetalige, bilinguale en internationale klassen.",
     "hero": {
       "title": "Over LessonCraftStudio",
       "subtitle": "Professionele printable-generatoren voor Etsy-verkopers en KDP-uitgevers wereldwijd"
@@ -747,7 +747,7 @@
       "subtitle": "Begin direct met het maken van professionele werkbladen — gratis uitproberen.",
       "button": "Generatoren bekijken"
     },
-    "metaKeywords": "over LessonCraftStudio, werkbladgeneratoren, tools voor printbare creatie, Etsy printables, Amazon KDP werkbladen, puzzelboekmaker, commerciele werkbladgenerator, meertalige werkbladen",
+    "metaKeywords": "K-3 werkbladen, meertalige klas, tweetalig onderwijs, gratis printables, interactieve activiteiten",
     "expertise": {
       "title": "Gebouwd voor verkopers",
       "subtitle": "Elke functie is ontworpen om u te helpen meer producten sneller te maken en te verkopen",

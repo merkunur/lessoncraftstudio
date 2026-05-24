@@ -134,7 +134,7 @@
       },
       "pdf": {
         "title": "Luo tulostettava PDF.",
-        "body": "Jokainen korttipakka latautuu siistinä tulostettavana PDF:nä — vastausavain mukana. Ei vesileimaa, ei pakkakohtaista rajaa, ei mitään pidätelty maksulliseen versioon."
+        "body": "Jokainen korttipakka latautuu siistinä tulostettavana PDF:nä, jossa on vastausavain — ei rekisteröitymistä, ei pakkakohtaista rajaa, ilmainen luokkaan."
       },
       "embed": {
         "title": "Upota mikä tahansa korttipakka luokkasivullesi tai blogiisi.",
@@ -160,7 +160,7 @@
       },
       "assets": {
         "title": "Laaja teemakirjasto, suuri kuvakokoelma, useita kieliä",
-        "body": "Kuvituskirjasto ja sanasto­järjestelmä, jotka mahdollistavat saman tehtäväarkin toimimisen eri kielillä — kieliopillisesti oikea sukupuoli, monikko ja diakriittiset merkit jokaisella kielellä."
+        "body": "K-3 kuvituskirjasto ja sanasto­järjestelmä, joka tuottaa oikean yksikön, monikon, suvun ja diakriittiset merkit yhdellätoista kielellä."
       },
       "price": "Ilmainen kaikille opettajan tilin omistajille.",
       "subscribeCta": "Liity ilmaiseksi →",
@@ -594,8 +594,8 @@
   },
   "faq": {
     "metaTitle": "Usein kysytyt kysymykset - LessonCraftStudio",
-    "metaDescription": "Vastauksia yleisiin kysymyksiin tehtäväarkki-generaattoristamme, hinnoista, kaupallisista lisensseistä ja teknisestä tuesta",
-    "metaKeywords": "FAQ, apua tehtäväarkki-generaattoreihin, hintakysymykset, kaupallinen lisenssi, tekninen tuki",
+    "metaDescription": "Usein kysytyt kysymykset LessonCraftStudiosta — ilmaisia K-3 tehtäväarkkeja ja interaktiivisia aktiviteetteja yhdellätoista kielellä monikielisiin luokkiin.",
+    "metaKeywords": "K-3 tehtäväarkit, monikielinen luokka, kaksikielinen opetus, ilmaisia tulostettavia, interaktiivisia aktiviteetteja",
     "hero": {
       "title": "Usein kysytyt kysymykset",
       "subtitle": "Kaikki mitä tarvitset tietää LessonCraftStudion tehtäväarkki-generaattoreista"
@@ -1007,8 +1007,8 @@
     }
   },
   "about": {
-    "metaTitle": "Tietoa LessonCraftStudiosta | Ammattimaiset Printable-Generaattorit",
-    "metaDescription": "Tutustu LessonCraftStudioon — ammattimaisia printable-generaattoreita Etsy-myyjille, Amazon KDP-julkaisijoille ja printable-yrittäjille. monilla kielillä, tuhansia kuvia, kaupallinen lisenssi sisältyy.",
+    "metaTitle": "Tietoa — K-3 tehtäväarkit 11 kielellä",
+    "metaDescription": "LessonCraftStudio on ilmainen K-3 tehtäväarkki- ja aktiviteettialusta yhdellätoista kielellä, rakennettu kaksikielisiin, monikielisiin ja kansainvälisiin luokkiin.",
     "hero": {
       "title": "Tietoa LessonCraftStudiosta",
       "subtitle": "Ammattimaiset printable-generaattorit Etsy-myyjille, KDP-julkaisijoille ja yrittäjille"
@@ -1063,7 +1063,7 @@
       "subtitle": "Aloita ammattimaisten työarkkien luominen sekunneissa — ilmainen kokeilu.",
       "button": "Tutustu generaattoreihin"
     },
-    "metaKeywords": "tietoa LessonCraftStudiosta, tyoarkkigeneraattorit, tulostettavien luontityokalut, Etsy tulostettavat, Amazon KDP tyoarkit, palapelikiirjan tekija, kaupallinen tyoarkkigeneraattori, monikieliset tyoarkit",
+    "metaKeywords": "K-3 tehtäväarkit, monikielinen luokka, kaksikielinen opetus, ilmaisia tulostettavia, interaktiivisia aktiviteetteja",
     "expertise": {
       "title": "Rakennettu myyjille",
       "subtitle": "Jokainen ominaisuus on suunniteltu auttamaan sinua luomaan ja myymaan enemman tuotteita, nopeammin",

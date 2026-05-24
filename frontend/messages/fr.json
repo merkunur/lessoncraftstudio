@@ -134,7 +134,7 @@
       },
       "pdf": {
         "title": "Générez un PDF imprimable.",
-        "body": "Chaque deck se télécharge en PDF imprimable propre — corrigé inclus. Pas de filigrane, pas de limite par deck, rien retenu pour la version payante."
+        "body": "Chaque deck se télécharge en PDF imprimable propre avec corrigé — sans inscription, sans limite par deck, gratuit pour la classe."
       },
       "embed": {
         "title": "Intégrez un deck sur le site de votre classe ou votre blog.",
@@ -160,7 +160,7 @@
       },
       "assets": {
         "title": "Une vaste bibliothèque thématique, une grande collection d'images, plusieurs langues",
-        "body": "La bibliothèque d'illustrations et le système de vocabulaire qui permettent à la même fiche de fonctionner dans plusieurs langues — genre, pluriels et accents corrects dans chaque langue."
+        "body": "Une bibliothèque d'illustrations K-3 et un système de vocabulaire qui produit singulier, pluriel, genre et accents corrects dans onze langues."
       },
       "price": "Gratuit pour quiconque a un compte enseignant.",
       "subscribeCta": "Inscription gratuite →",
@@ -594,8 +594,8 @@
   },
   "faq": {
     "metaTitle": "Questions Fréquentes - LessonCraftStudio",
-    "metaDescription": "Réponses aux questions courantes sur nos générateurs de fiches d'exercices, formules tarifaires, licences commerciales et assistance technique",
-    "metaKeywords": "FAQ, aide générateurs de fiches, questions tarifs, licence commerciale, support technique",
+    "metaDescription": "Foire aux questions LessonCraftStudio — fiches K-3 et activités interactives gratuites en onze langues pour classes multilingues.",
+    "metaKeywords": "fiches K-3, classes multilingues, éducation bilingue, imprimables gratuits, activités interactives",
     "hero": {
       "title": "Questions Fréquentes",
       "subtitle": "Tout ce que vous devez savoir sur les générateurs de fiches de LessonCraftStudio"
@@ -1038,8 +1038,8 @@
     "loadError": "Impossible de charger vos demandes. Veuillez actualiser la page."
   },
   "about": {
-    "metaTitle": "À propos de LessonCraftStudio | Générateurs de Printables pour Vendeurs",
-    "metaDescription": "LessonCraftStudio — nos générateurs de printables professionnels pour vendeurs Etsy, éditeurs Amazon KDP et entrepreneurs. plusieurs langues, des milliers d’images, licence commerciale incluse.",
+    "metaTitle": "À propos — Fiches K-3 en 11 langues",
+    "metaDescription": "LessonCraftStudio est une plateforme gratuite de fiches K-3 et d'activités interactives en onze langues, conçue pour classes bilingues, duales et écoles internationales.",
     "hero": {
       "title": "À propos de LessonCraftStudio",
       "subtitle": "Générateurs de printables professionnels pour vendeurs Etsy et éditeurs KDP dans le monde entier"
@@ -1094,7 +1094,7 @@
       "subtitle": "Commencez à créer des fiches professionnelles en quelques secondes — essai gratuit.",
       "button": "Découvrir les générateurs"
     },
-    "metaKeywords": "a propos de LessonCraftStudio, generateurs de fiches, outils de creation imprimables, imprimables Etsy, fiches Amazon KDP, createur de livres de puzzles, generateur de fiches commercial, fiches multilingues",
+    "metaKeywords": "fiches K-3, classes multilingues, éducation bilingue, imprimables gratuits, activités interactives",
     "expertise": {
       "title": "Concu pour les vendeurs",
       "subtitle": "Chaque fonctionnalite est concue pour vous aider a creer et vendre plus de produits, plus rapidement",

@@ -17,11 +17,11 @@
     "blog": "Blogg",
     "resourcesDesc": {
       "tools": "Testa alla våra generatorer online",
-      "guides": "Steg-för-steg säljguider",
-      "bundles": "Spara med paket",
-      "ideas": "Inspiration för lönsamma nischer",
-      "start": "Starta din verksamhet",
-      "blog": "Tips och strategier för säljare"
+      "guides": "Guider för lärare",
+      "bundles": "Kategoripaket",
+      "ideas": "Arbetsbladsidéer per ämne",
+      "start": "Kom igång",
+      "blog": "Tips och strategier för lärare"
     },
     "pricing": "Priser"
   },
@@ -383,7 +383,7 @@
     },
     "serviceDescription": {
       "title": "2. TJÄNSTEBESKRIVNING",
-      "content": "LessonCraftStudio erbjuder verktyg för att skapa arbetsblad i tre prenumerationsnivåer: Gratis (begränsad), Core (utökad) och Fullständig åtkomst (obegränsad)."
+      "content": "LessonCraftStudio tillhandahåller verktyg för arbetsblads- och pusselgenerering för flerspråkiga F-3-klassrum. Gratis användning omfattar personlig användning, klassrumsanvändning och icke-kommersiell användning. Betalda produkter (engångsköp) inkluderar fullständiga kommersiella rättigheter och aktiveras med en licensnyckel som skickas till din e-post efter köp."
     },
     "userAccounts": {
       "title": "3. ANVÄNDARKONTON",
@@ -462,7 +462,7 @@
     "dataCollection": {
       "title": "3. INSAMLADE UPPGIFTER",
       "intro": "Vi samlar in:",
-      "personal": "Kontouppgifter (namn, e-post)",
+      "personal": "Köpdata (e-postadress, namn) — anges när du köper en produkt via Lemon Squeezy",
       "usage": "Användningsanalyser",
       "technical": "Tekniska data (IP, webbläsare)",
       "cookies": "Cookie-preferenser"
@@ -486,8 +486,8 @@
     "dataSharing": {
       "title": "6. DATADELNING",
       "intro": "Begränsad delning med:",
-      "providers": "Tjänsteleverantörer (personuppgiftsbiträden)",
-      "payment": "Betalningsprocessorer",
+      "providers": "Lemon Squeezy (betalningshantering och orderhantering)",
+      "payment": "Större kreditkort och PayPal (betalningshantering via Lemon Squeezy)",
       "legal": "Myndigheter vid krav",
       "consent": "Tredje part med samtycke"
     },
@@ -520,11 +520,11 @@
     },
     "children": {
       "title": "11. BARN",
-      "content": "Tjänst för lärare/föräldrar. Ingen insamling från barn under 16."
+      "content": "Vår tjänst är utformad för vuxna lärare, föräldrar och andra pedagoger. Vi samlar inte medvetet in personuppgifter från personer under 16 år. Våra generatorer skapar innehåll avsett för barn men drivs av vuxna."
     },
     "international": {
       "title": "12. INTERNATIONELLA ÖVERFÖRINGAR",
-      "content": "Data lagras inom EU/EES. Externa överföringar med standardavtalsklausuler."
+      "content": "Data lagras främst inom EU/EES. När data överförs utanför EU (t.ex. till Lemon Squeezy i USA) finns lämpliga skyddsåtgärder såsom standardavtalsklausuler på plats."
     },
     "changes": {
       "title": "13. ÄNDRINGAR",
@@ -545,8 +545,8 @@
     "grantOfLicense": {
       "title": "1. LICENSBEVILJANDE",
       "intro": "LessonCraftStudio beviljar dig en licens att använda genererat innehåll baserat på din prenumeration:",
-      "freeTier": "Gratis: Endast personlig icke-kommersiell utbildningsanvändning",
-      "coreBundle": "Core: Kommersiell utbildningsanvändning inom din institution",
+      "freeTier": "Gratis användning: Alla generatorer är gratis att använda. Resultatet är för personlig användning, klassrumsanvändning och icke-kommersiell användning.",
+      "coreBundle": "Betalda produkter (engångsköp): Fullständiga kommersiella rättigheter. Skapa obegränsat innehåll och sälj på vilken plattform du vill. Ingen tillskrivning krävs.",
       "fullAccess": "Fullständig åtkomst: Obegränsad kommersiell användning inklusive print-on-demand och återförsäljning"
     },
     "intellectualProperty": {
@@ -559,13 +559,13 @@
       "reverseEngineer": "Bakåtkonstruera plattformen",
       "competing": "Skapa konkurrerande tjänster",
       "sublicense": "Underlicensiera plattformsåtkomst",
-      "removeNotices": "Ta bort vattenstämplar från gratis innehåll",
+      "removeNotices": "Ta bort eller kringgå meddelanden eller identifierare på gratisresultat",
       "illegal": "Använda för olagliga syften"
     },
     "commercialDistribution": {
       "title": "4. KOMMERSIELL DISTRIBUTION",
-      "pod": "Print-on-demand: Fullständig åtkomst-prenumeranter kan sälja obegränsat via print-on-demand-plattformar.",
-      "digital": "Digital distribution: Alla nivåer kan distribuera digitala versioner enligt sin licens."
+      "pod": "Print-on-demand-rättigheter: Innehavare av betald licens får sälja obegränsade kopior av genererat innehåll via valfri print-on-demand-tjänst.",
+      "digital": "Digital distribution: Innehavare av betald licens får sälja digitala nedladdningar av genererat innehåll på valfri plattform. Inga royalties eller tillskrivning krävs."
     },
     "termination": {
       "title": "5. UPPSÄGNING",
@@ -605,7 +605,7 @@
       "apps": "Om våra appar",
       "pricing": "Priser & abonnemang",
       "technical": "Teknisk support",
-      "commercial": "Kommersiellt bruk & licensiering"
+      "commercial": "Klassrumsanvändning & licensiering"
     },
     "cta": {
       "title": "Har du fler frågor?",
@@ -691,7 +691,7 @@
         ]
       },
       "core": {
-        "description": "Idealisk för att bygga ditt printable-företag",
+        "description": "Perfekt för ett flerspråkigt klassrum",
         "features": [
           "De 10 mest populära generatorerna",
           "Obegränsat antal arbetsblad",
@@ -935,7 +935,7 @@
       },
       "CORE": {
         "name": "Bas",
-        "description": "Perfekt för att bygga en printable-produktlinje",
+        "description": "Perfekt för flerspråkiga klassrum",
         "features": [
           "Tillgång till 10 populära arbetsbladsgeneratorer",
           "Obegränsad arbetsbladsgenerering",
@@ -1022,7 +1022,7 @@
     "metaDescription": "LessonCraftStudio är en gratis F-3 arbetsblads- och aktivitetsplattform på elva språk, byggd för tvåspråkiga, flerspråkiga och internationella klassrum.",
     "hero": {
       "title": "Om LessonCraftStudio",
-      "subtitle": "Professionella printable-generatorer för Etsy-säljare, KDP-utgivare och entreprenörer"
+      "subtitle": "Gratis F-3 arbetsblad och arbetsbladsgeneratorer på elva språk, för tvåspråkiga, flerspråkiga och internationella klassrum"
     },
     "stats": {
       "generators": "many",
@@ -1036,8 +1036,8 @@
     },
     "mission": {
       "title": "Vårt uppdrag",
-      "description": "LessonCraftStudio skapades för att hjälpa Etsy-säljare, KDP-utgivare och printable-entreprenörer att skapa professionella arbetsblad direkt — utan designkunskaper, dyr programvara eller timmar av förberedelse.",
-      "description2": "Våra generatorer skapar utskriftsklara PDF-filer i 300 DPI med svarsnycklar, tusentals temabilder och flera språk — allt med kommersiell licens för försäljning på alla plattformar."
+      "description": "LessonCraftStudio ger lärare i tvåspråkiga, flerspråkiga och internationella klassrum verktygen att skapa F-3 arbetsblad och aktiviteter på elevernas andraspråk — utan designkunskaper, dyr programvara eller timmar av manuellt arbete. Varje generator skapar utskriftsklara arbetsblad och en webbläsarspelbar interaktiv version från samma uppsättning, på några minuter.",
+      "description2": "Varje generator är gratis för lärare. Inga prenumerationer, inga återkommande avgifter, inga gränser för vad du skapar. Bläddra, förhandsgranska, ladda ner, bädda in och dela utan att logga in."
     },
     "methodology": {
       "title": "Vår metod",
@@ -1046,8 +1046,8 @@
         "description": "Välj ett tema, anpassa inställningarna och generera ett utskriftsfärdigt arbetsblad på sekunder. Inga designkunskaper krävs."
       },
       "research": {
-        "title": "Professionell kvalitet",
-        "description": "Varje generator producerar säljklara PDF-filer i 300 DPI med automatiska svarsnycklar, KDP-optimerad formatering och gråskaleläge för kostnadseffektiv utskrift."
+        "title": "Klassrumskvalitet",
+        "description": "Varje generator skapar klassrumsklart resultat med rätt sidstorlek, hög upplösning, automatiska facit och tydlig formatering. Skriv ut, bädda in på din klasswebbplats eller LMS, eller dela som en länk."
       },
       "inclusive": {
         "title": "Flerspråkigt & inkluderande",
@@ -1057,16 +1057,16 @@
     "audience": {
       "title": "Vilka vi tjänar",
       "teachers": {
-        "title": "Etsy- och KDP-säljare",
-        "description": "Bygg snabbt upp en katalog av utskrivbara produkter. Skapa unika, tematiska arbetsblad som sticker ut på marknaden."
+        "title": "Tvåspråkiga och flerspråkiga lärare",
+        "description": "Bygg en katalog med F-3 arbetsblad och aktiviteter på elevernas andraspråk. Skapa fonologisk medvetenhet, matematik och ordförråd över många teman — både utskrivbara PDF-filer och webbläsarspelbara interaktiva versioner från samma uppsättning."
       },
       "parents": {
-        "title": "Personligt bruk",
-        "description": "Skapa anpassade arbetsblad för dina barn hemma — välj bland många teman och flera språk för engagerande inlärning."
+        "title": "Hemundervisande föräldrar och privatlärare",
+        "description": "Skapa anpassade F-3 arbetsblad för hemundervisning eller enskild handledning på sekunder. Varje generator är gratis att använda — ingen registrering krävs."
       },
       "therapists": {
-        "title": "Innehållsskapare och utgivare",
-        "description": "Producera professionella arbetsböcker och aktivitetshäften för Amazon KDP, Gumroad eller din egen webbshop — med kommersiell licens."
+        "title": "Lärare på internationella skolor",
+        "description": "Leverera F-3 arbetsblad och aktiviteter på elva språk från en enda plattform. Varje arbetsbladsgenerator, många teman och ett ordförrådssystem som hanterar artiklar, plural, genus och accenter korrekt på varje språk du undervisar i."
       }
     },
     "cta": {
@@ -1076,19 +1076,19 @@
     },
     "metaKeywords": "F-3 arbetsblad, flerspråkigt klassrum, tvåspråkig utbildning, gratis utskrivbart, interaktiva aktiviteter",
     "expertise": {
-      "title": "Byggt foer saeljare",
-      "subtitle": "Varje funktion aer utformad foer att hjaelpa dig skapa och saelja fler produkter, snabbare",
+      "title": "Byggt för lärare",
+      "subtitle": "Varje funktion är utformad för att hjälpa lärare leverera fler lektioner på fler språk, snabbare",
       "curriculum": {
-        "title": "Saeljklar produktion",
-        "description": "300 DPI PDF-export, automatiska svarsmanualer, KDP-optimerad formatering och graskalalaege. Din produktion aer redo att publicera pa Etsy, Amazon KDP eller Teachers Pay Teachers omedelbart."
+        "title": "Klassrumsklart resultat",
+        "description": "300 DPI PDF-export, automatiska facit, utskriftsklar formatering och gråskaleläge. Ditt resultat är redo att skriva ut, bädda in på din klasswebbplats eller LMS, eller dela som en länk omedelbart."
       },
       "educators": {
-        "title": "Fullstaendiga kommersiella raettigheter",
-        "description": "Varje betald produkt inkluderar obegrraensade kommersiella raettigheter. Saelj pa vilken plattform som helst, i vilken maengd som helst. Ingen tillskrivning kraevs, inga royalties, inga begraensningar."
+        "title": "11 språk, kurerade av lärare",
+        "description": "Varje språk i vår katalog är kurerat av personer som faktiskt undervisar på det språket. Artiklar, plural, genus och accenter är korrekta — inte autoöversatta. Bygg autentiska arbetsblad på engelska, tyska, franska, spanska, portugisiska, italienska, nederländska, svenska, danska, norska eller finska."
       },
       "evidence": {
-        "title": "Engaangskoep",
-        "description": "Inga prenumerationer, inga maanadsavgifter, inga dolda kostnader. Betala en gang och anvaend dina generatorer foer alltid. Alla produkter inkluderar en 30 dagars pengarna-tillbaka-garanti."
+        "title": "Ingen registrering för att bläddra",
+        "description": "Inga prenumerationer, inga månadsavgifter, inga dolda kostnader. Bläddra, förhandsgranska och spela vilket arbetsblad som helst utan konto. Ett valfritt gratis konto lägger till arbetsytefunktioner som samlingar och favoriter."
       }
     }
   },

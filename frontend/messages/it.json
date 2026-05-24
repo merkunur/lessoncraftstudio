@@ -17,11 +17,11 @@
     "blog": "Blog",
     "resourcesDesc": {
       "tools": "Prova tutti i nostri generatori online",
-      "guides": "Guide alla vendita passo passo",
-      "bundles": "Risparmia con i pacchetti",
-      "ideas": "Ispirazione per nicchie redditizie",
-      "start": "Avvia la tua attività",
-      "blog": "Consigli e strategie per venditori"
+      "guides": "Guide passo passo per insegnanti",
+      "bundles": "Risparmia con i pacchetti per categoria",
+      "ideas": "Idee per la tua classe K-3",
+      "start": "Inizia con LessonCraftStudio",
+      "blog": "Consigli e strategie per insegnanti"
     },
     "pricing": "Prezzi"
   },
@@ -383,7 +383,7 @@
     },
     "serviceDescription": {
       "title": "2. DESCRIZIONE DEL SERVIZIO",
-      "content": "LessonCraftStudio offre strumenti per creare schede didattiche in tre piani: Gratuito (limitato), Core (esteso) e Accesso Completo (illimitato)."
+      "content": "LessonCraftStudio offre generatori di schede e puzzle per classi multilingui K-3. L'uso gratuito copre l'uso personale, didattico e non commerciale. I prodotti a pagamento (acquisto una tantum) includono diritti commerciali completi e si attivano con una chiave di licenza inviata via email dopo l'acquisto."
     },
     "userAccounts": {
       "title": "3. ACCOUNT UTENTE",
@@ -462,7 +462,7 @@
     "dataCollection": {
       "title": "3. DATI RACCOLTI",
       "intro": "Raccogliamo:",
-      "personal": "Dati dell'account (nome, email)",
+      "personal": "Dati di acquisto (email, nome) — forniti al momento dell'acquisto di un prodotto tramite Lemon Squeezy",
       "usage": "Analisi di utilizzo",
       "technical": "Dati tecnici (IP, browser)",
       "cookies": "Preferenze sui cookie"
@@ -486,8 +486,8 @@
     "dataSharing": {
       "title": "6. CONDIVISIONE DEI DATI",
       "intro": "Condivisione limitata con:",
-      "providers": "Fornitori di servizi (responsabili)",
-      "payment": "Processori di pagamento",
+      "providers": "Lemon Squeezy (elaborazione pagamenti ed evasione ordini)",
+      "payment": "Principali carte di credito e PayPal (elaborazione pagamenti tramite Lemon Squeezy)",
       "legal": "Autorità quando richiesto",
       "consent": "Terze parti con consenso"
     },
@@ -520,11 +520,11 @@
     },
     "children": {
       "title": "11. MINORI",
-      "content": "Servizio per imprenditori e uso personale. Nessuna raccolta da minori di 16 anni."
+      "content": "Il nostro servizio è progettato per insegnanti, genitori e altri educatori adulti. Non raccogliamo consapevolmente dati personali da minori di 16 anni. I nostri generatori creano contenuti destinati ai bambini ma sono utilizzati da adulti."
     },
     "international": {
       "title": "12. TRASFERIMENTI INTERNAZIONALI",
-      "content": "Dati archiviati in UE/SEE. Trasferimenti esterni con clausole contrattuali standard."
+      "content": "I dati sono archiviati principalmente nell'UE/SEE. Quando i dati vengono trasferiti al di fuori dell'UE (ad esempio, a Lemon Squeezy negli Stati Uniti), sono in atto adeguate garanzie come le clausole contrattuali standard."
     },
     "changes": {
       "title": "13. MODIFICHE",
@@ -544,10 +544,10 @@
     "effectiveDate": "Gennaio 2025",
     "grantOfLicense": {
       "title": "1. CONCESSIONE DI LICENZA",
-      "intro": "LessonCraftStudio vi concede una licenza per utilizzare i contenuti generati in base al vostro abbonamento:",
-      "freeTier": "Gratuito: Solo uso didattico personale non commerciale",
-      "coreBundle": "Core: Uso didattico commerciale nella vostra istituzione",
-      "fullAccess": "Accesso Completo: Uso commerciale illimitato inclusa stampa su richiesta e rivendita"
+      "intro": "LessonCraftStudio vi concede una licenza per utilizzare i suoi generatori di schede e i contenuti generati in base al vostro acquisto:",
+      "freeTier": "Uso gratuito: Tutti i generatori sono gratuiti. L'output è destinato all'uso personale, didattico e non commerciale.",
+      "coreBundle": "Prodotti a pagamento (acquisto una tantum): Diritti commerciali completi. Crea contenuti illimitati e vendi su qualsiasi piattaforma a tua scelta. Nessuna attribuzione richiesta.",
+      "fullAccess": "Attivazione della chiave di licenza: I prodotti a pagamento si attivano con una chiave di licenza collegata all'indirizzo email utilizzato per l'acquisto. Ogni chiave di licenza è per un solo utente."
     },
     "intellectualProperty": {
       "title": "2. PROPRIETÀ INTELLETTUALE",
@@ -559,13 +559,13 @@
       "reverseEngineer": "Decompilare la piattaforma",
       "competing": "Creare servizi concorrenti",
       "sublicense": "Sublicenziare l'accesso alla piattaforma",
-      "removeNotices": "Rimuovere filigrane dai contenuti gratuiti",
+      "removeNotices": "Rimuovere o eludere avvisi o identificativi nei contenuti dell'uso gratuito",
       "illegal": "Utilizzare per scopi illegali"
     },
     "commercialDistribution": {
       "title": "4. DISTRIBUZIONE COMMERCIALE",
-      "pod": "Stampa su richiesta: Gli abbonati Accesso Completo possono vendere illimitatamente attraverso piattaforme di stampa su richiesta.",
-      "digital": "Distribuzione digitale: Tutti i livelli possono distribuire versioni digitali secondo la loro licenza."
+      "pod": "Diritti di stampa su richiesta: I titolari di licenza a pagamento possono vendere copie illimitate dei contenuti generati tramite qualsiasi servizio di stampa su richiesta.",
+      "digital": "Distribuzione digitale: I titolari di licenza a pagamento possono vendere download digitali dei contenuti generati su qualsiasi piattaforma scelgano. Nessuna royalty o attribuzione richiesta."
     },
     "termination": {
       "title": "5. RISOLUZIONE",
@@ -605,7 +605,7 @@
       "apps": "Le Nostre Applicazioni",
       "pricing": "Prezzi e Piani",
       "technical": "Supporto Tecnico",
-      "commercial": "Uso Commerciale e Licenze"
+      "commercial": "Uso in classe e licenze"
     },
     "cta": {
       "title": "Hai altre domande?",
@@ -935,7 +935,7 @@
       },
       "CORE": {
         "name": "Pacchetto Essenziale",
-        "description": "Ideale per costruire il tuo business di stampabili",
+        "description": "Perfetto per una classe multilingue",
         "features": [
           "Accesso a 10 generatori popolari",
           "Schede illimitate",
@@ -1032,7 +1032,7 @@
     "metaDescription": "LessonCraftStudio è una piattaforma gratuita di schede K-3 e attività interattive in undici lingue, pensata per classi bilingui, duali e scuole internazionali.",
     "hero": {
       "title": "Chi siamo",
-      "subtitle": "Generatori professionali di stampabili per venditori Etsy e editori KDP in tutto il mondo"
+      "subtitle": "Schede K-3 gratuite e generatori di schede in 11 lingue, per classi bilingui, duali e scuole internazionali"
     },
     "stats": {
       "generators": "many",
@@ -1046,8 +1046,8 @@
     },
     "mission": {
       "title": "La nostra missione",
-      "description": "LessonCraftStudio è stato creato per aiutare venditori Etsy, editori KDP e imprenditori di stampabili a generare schede professionali in un istante — senza competenze di design, software costoso o ore di preparazione.",
-      "description2": "I nostri generatori creano PDF pronti per la stampa a 300 DPI con chiavi di risposta, migliaia di immagini tematiche e molte lingue — tutto con licenza commerciale per vendere su qualsiasi piattaforma."
+      "description": "LessonCraftStudio dà agli insegnanti di classi bilingui, duali e scuole internazionali gli strumenti per produrre schede e attività K-3 nella seconda lingua dei loro studenti — senza competenze di design, software costoso o ore di lavoro manuale. Ogni generatore produce schede pronte per la stampa e una versione interattiva giocabile nel browser dalla stessa configurazione, in pochi minuti.",
+      "description2": "Ogni generatore è gratuito per gli insegnanti. Nessun abbonamento, nessun canone ricorrente, nessun limite a quello che crei. Sfoglia, anteprima, scarica, incorpora e condividi senza registrazione."
     },
     "methodology": {
       "title": "Il nostro approccio",
@@ -1056,8 +1056,8 @@
         "description": "Scegli un tema, personalizza le impostazioni e genera una scheda pronta da stampare in pochi secondi. Nessuna competenza di design richiesta."
       },
       "research": {
-        "title": "Qualità professionale",
-        "description": "Ogni generatore crea PDF pronti per la vendita a 300 DPI con chiavi di risposta — perfetti per negozi Etsy, libri KDP e download digitali."
+        "title": "Qualità da classe",
+        "description": "Ogni generatore produce output pronto per la classe con dimensioni di pagina corrette, alta risoluzione, chiavi di risposta automatiche e formattazione pulita. Stampa, incorpora nel sito della tua classe o nel LMS, oppure condividi come link."
       },
       "inclusive": {
         "title": "Multilingue e inclusivo",
@@ -1067,38 +1067,38 @@
     "audience": {
       "title": "Chi serviamo",
       "teachers": {
-        "title": "Venditori Etsy e KDP",
-        "description": "Crea rapidamente un catalogo di prodotti stampabili. Genera schede tematiche uniche che si distinguono sul mercato."
+        "title": "Insegnanti di classi bilingui e duali",
+        "description": "Costruisci un catalogo di schede e attività K-3 nella seconda lingua dei tuoi studenti. Genera mazzi di fonetica, matematica e vocabolario su molti temi — sia PDF stampabili sia versioni interattive giocabili nel browser dalla stessa configurazione."
       },
       "parents": {
-        "title": "Uso personale",
-        "description": "Crea schede per homeschooling o progetti personali in pochi secondi. Prova gratuita con filigrana — senza registrazione."
+        "title": "Genitori homeschool e tutor",
+        "description": "Crea schede K-3 personalizzate per homeschooling o tutoraggio uno-a-uno in pochi secondi. Ogni generatore è gratuito — nessuna registrazione richiesta."
       },
       "therapists": {
-        "title": "Creatori di contenuti ed editori",
-        "description": "Produci contenuti stampabili professionali su larga scala. nostri generatori, molti temi, molte lingue — crea centinaia di prodotti unici su un'unica piattaforma."
+        "title": "Insegnanti di scuole internazionali",
+        "description": "Offri schede e attività K-3 in 11 lingue da un'unica piattaforma. Ogni generatore di schede, molti temi, e un sistema di vocabolario che gestisce correttamente articoli, plurali, generi e accenti in ogni lingua che insegni."
       }
     },
     "cta": {
       "title": "Pronto a creare?",
-      "subtitle": "Inizia a creare schede professionali in pochi secondi — prova gratuita.",
+      "subtitle": "Ogni generatore è gratuito da provare — nessuna registrazione richiesta.",
       "button": "Scopri i generatori"
     },
     "metaKeywords": "schede K-3, classi multilingui, educazione bilingue, stampabili gratuiti, attività interattive",
     "expertise": {
-      "title": "Progettato per i venditori",
-      "subtitle": "Ogni funzione e progettata per aiutarti a creare e vendere piu prodotti, piu velocemente",
+      "title": "Progettato per gli insegnanti",
+      "subtitle": "Ogni funzione è pensata per aiutare gli insegnanti a tenere più lezioni in più lingue, più velocemente",
       "curriculum": {
-        "title": "Produzione pronta per la vendita",
-        "description": "Esportazione PDF 300 DPI, chiavi di risposta automatiche, formattazione ottimizzata per KDP e modalita scala di grigi. Il tuo output e pronto per la pubblicazione su Etsy, Amazon KDP o Teachers Pay Teachers immediatamente."
+        "title": "Output pronto per la classe",
+        "description": "Esportazione PDF 300 DPI, chiavi di risposta automatiche, formattazione pronta per la stampa e modalità scala di grigi. Il tuo output è pronto per essere stampato, incorporato nel sito della tua classe o nel LMS, o condiviso come link immediatamente."
       },
       "educators": {
-        "title": "Diritti commerciali completi",
-        "description": "Ogni prodotto a pagamento include diritti commerciali senza restrizioni. Vendi su qualsiasi piattaforma, in qualsiasi quantita. Nessuna attribuzione richiesta, nessuna royalty, nessuna restrizione."
+        "title": "11 lingue, curate da insegnanti",
+        "description": "Ogni lingua del nostro catalogo è curata da persone che insegnano davvero in quella lingua. Articoli, plurali, generi e accenti sono corretti — non tradotti automaticamente. Costruisci schede autentiche in inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese o finlandese."
       },
       "evidence": {
-        "title": "Acquisto una tantum",
-        "description": "Nessun abbonamento, nessun canone mensile, nessun costo nascosto. Paga una volta e usa i tuoi generatori per sempre. Tutti i prodotti includono una garanzia di rimborso di 30 giorni."
+        "title": "Nessuna registrazione per sfogliare",
+        "description": "Nessun abbonamento, nessun canone mensile, nessun costo nascosto. Sfoglia, fai anteprima e gioca con qualsiasi mazzo senza alcun account. Un account gratuito opzionale aggiunge funzionalità dell'area di lavoro come raccolte e preferiti."
       }
     }
   },

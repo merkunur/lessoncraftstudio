@@ -16,12 +16,12 @@
     "start": "Aloita",
     "blog": "Blogi",
     "resourcesDesc": {
-      "tools": "Kokeile kaikkia generaattorejamme verkossa",
-      "guides": "Vaihe vaiheelta myyntioppaita",
-      "bundles": "Säästä paketeilla",
-      "ideas": "Inspiraatiota tuottoisiin nicheihin",
-      "start": "Käynnistä liiketoimintasi",
-      "blog": "Vinkkejä ja strategioita myyjille"
+      "tools": "Kokeile kaikkia generaattoreja verkossa",
+      "guides": "Oppaita opettajille",
+      "bundles": "Kategoriapaketit",
+      "ideas": "Tehtäväarkki-ideoita aiheittain",
+      "start": "Aloita tästä",
+      "blog": "Vinkkejä ja strategioita opettajille"
     },
     "pricing": "Hinnat"
   },
@@ -383,7 +383,7 @@
     },
     "serviceDescription": {
       "title": "2. PALVELUN KUVAUS",
-      "content": "LessonCraftStudio tarjoaa työkaluja työarkkien luomiseen kolmella tilaustyypillä: Ilmainen (rajoitettu), Core (laajennettu) ja Täysi pääsy (rajoittamaton)."
+      "content": "LessonCraftStudio tarjoaa tehtäväarkki- ja pulmageneraattoreita monikielisille K-3-luokille. Ilmainen käyttö kattaa henkilökohtaisen, luokkahuone- ja ei-kaupallisen käytön. Maksullisiin tuotteisiin (kertaostot) sisältyvät täydet kaupalliset oikeudet, ja ne aktivoidaan lisenssiavaimella, joka lähetetään sähköpostiisi oston jälkeen."
     },
     "userAccounts": {
       "title": "3. KÄYTTÄJÄTILIT",
@@ -462,7 +462,7 @@
     "dataCollection": {
       "title": "3. KERÄTTÄVÄT TIEDOT",
       "intro": "Keräämme:",
-      "personal": "Tilitiedot (nimi, sähköposti)",
+      "personal": "Ostotiedot (sähköpostiosoite, nimi) — annetaan ostaessasi tuotteen Lemon Squeezyn kautta",
       "usage": "Käyttöanalytiikka",
       "technical": "Tekniset tiedot (IP, selain)",
       "cookies": "Evästeasetukset"
@@ -486,8 +486,8 @@
     "dataSharing": {
       "title": "6. TIETOJEN JAKAMINEN",
       "intro": "Rajoitettu jakaminen:",
-      "providers": "Palveluntarjoajat (tietojenkäsittelijät)",
-      "payment": "Maksuprosessorit",
+      "providers": "Lemon Squeezy (maksun käsittely ja tilausten täyttäminen)",
+      "payment": "Suuret luottokortit ja PayPal (maksun käsittely Lemon Squeezyn kautta)",
       "legal": "Viranomaiset tarvittaessa",
       "consent": "Kolmannet osapuolet suostumuksella"
     },
@@ -520,11 +520,11 @@
     },
     "children": {
       "title": "11. LAPSET",
-      "content": "Palvelu opettajille/vanhemmille. Ei tietojen keräämistä alle 16-vuotiailta."
+      "content": "Palvelumme on suunniteltu aikuisille opettajille, vanhemmille ja muille kasvattajille. Emme tietoisesti kerää henkilötietoja alle 16-vuotiailta. Generaattorimme luovat lapsille tarkoitettua sisältöä, mutta niitä käyttävät aikuiset."
     },
     "international": {
       "title": "12. KANSAINVÄLISET SIIRROT",
-      "content": "Tiedot säilytetään EU/ETA-alueella. Ulkoiset siirrot vakiosopimuslausekkeilla."
+      "content": "Tiedot säilytetään pääasiassa EU/ETA-alueella. Kun tietoja siirretään EU:n ulkopuolelle (esim. Lemon Squeezylle Yhdysvaltoihin), käytössä on asianmukaiset suojatoimet, kuten vakiosopimuslausekkeet."
     },
     "changes": {
       "title": "13. MUUTOKSET",
@@ -545,8 +545,8 @@
     "grantOfLicense": {
       "title": "1. LISENSSIN MYÖNTÄMINEN",
       "intro": "LessonCraftStudio myöntää sinulle lisenssin käyttää luotua sisältöä tilauksesi perusteella:",
-      "freeTier": "Ilmainen: Vain henkilökohtainen ei-kaupallinen opetuskäyttö",
-      "coreBundle": "Core: Kaupallinen opetuskäyttö omassa oppilaitoksessasi",
+      "freeTier": "Ilmainen käyttö: Kaikki generaattorit ovat ilmaisia käyttää. Tulokset ovat henkilökohtaiseen, luokkahuone- ja ei-kaupalliseen käyttöön.",
+      "coreBundle": "Maksulliset tuotteet (kertaosto): Täydet kaupalliset oikeudet. Luo rajoittamattomasti sisältöä ja myy millä tahansa valitsemallasi alustalla. Lähdeviittausta ei vaadita.",
       "fullAccess": "Täysi pääsy: Rajoittamaton kaupallinen käyttö mukaan lukien print-on-demand ja jälleenmyynti"
     },
     "intellectualProperty": {
@@ -559,13 +559,13 @@
       "reverseEngineer": "Käänteismallintaa alustaa",
       "competing": "Luoda kilpailevia palveluita",
       "sublicense": "Alilisensoida alustan käyttöä",
-      "removeNotices": "Poistaa vesileimoja ilmaissisällöstä",
+      "removeNotices": "Poistaa tai kiertää huomautuksia tai tunnisteita ilmaistuloksessa",
       "illegal": "Käyttää laittomiin tarkoituksiin"
     },
     "commercialDistribution": {
       "title": "4. KAUPALLINEN JAKELU",
-      "pod": "Print-on-demand: Täysi pääsy -tilaajat voivat myydä rajoittamattomasti print-on-demand-alustoilla.",
-      "digital": "Digitaalinen jakelu: Kaikki tasot voivat jakaa digitaalisia versioita lisenssinsä mukaisesti."
+      "pod": "Print-on-demand-oikeudet: Maksullisen lisenssin haltijat voivat myydä rajoittamattomia kopioita luodusta sisällöstä minkä tahansa print-on-demand-palvelun kautta.",
+      "digital": "Digitaalinen jakelu: Maksullisen lisenssin haltijat voivat myydä luodun sisällön digitaalisia latauksia millä tahansa valitsemallaan alustalla. Rojalteja tai lähdeviittausta ei vaadita."
     },
     "termination": {
       "title": "5. IRTISANOMINEN",
@@ -605,7 +605,7 @@
       "apps": "Sovelluksistamme",
       "pricing": "Hinnat & tilaukset",
       "technical": "Tekninen tuki",
-      "commercial": "Kaupallinen käyttö & lisensointi"
+      "commercial": "Luokkahuonekäyttö & lisensointi"
     },
     "cta": {
       "title": "Onko sinulla lisää kysymyksiä?",
@@ -691,7 +691,7 @@
         ]
       },
       "core": {
-        "description": "Ihanteellinen printable-liiketoiminnan rakentamiseen",
+        "description": "Täydellinen monikieliseen luokkahuoneeseen",
         "features": [
           "10 suosituinta generaattoria",
           "Rajaton määrä tehtävämonisteja",
@@ -927,7 +927,7 @@
       },
       "CORE": {
         "name": "Perus",
-        "description": "Ihanteellinen printable-tuotelinjan rakentamiseen",
+        "description": "Täydellinen monikieliseen luokkahuoneeseen",
         "features": [
           "Pääsy 10 suosituimpaan generaattoriin",
           "Rajaton määrä tehtävämonisteja",
@@ -1011,7 +1011,7 @@
     "metaDescription": "LessonCraftStudio on ilmainen K-3 tehtäväarkki- ja aktiviteettialusta yhdellätoista kielellä, rakennettu kaksikielisiin, monikielisiin ja kansainvälisiin luokkiin.",
     "hero": {
       "title": "Tietoa LessonCraftStudiosta",
-      "subtitle": "Ammattimaiset printable-generaattorit Etsy-myyjille, KDP-julkaisijoille ja yrittäjille"
+      "subtitle": "Ilmaisia K-3 tehtäväarkkeja ja tehtäväarkkigeneraattoreita 11 kielellä, kaksikielisiin, monikielisiin ja kansainvälisiin luokkiin"
     },
     "stats": {
       "generators": "many",
@@ -1025,8 +1025,8 @@
     },
     "mission": {
       "title": "Tehtävämme",
-      "description": "LessonCraftStudio luotiin auttamaan Etsy-myyjiä, KDP-julkaisijoita ja printable-yrittäjiä luomaan ammattimaisia työarkkeja välittömästi — ilman suunnittelutaitoja, kallista ohjelmistoa tai tuntien valmistelutyötä.",
-      "description2": "generaattorimme luovat tulostusvalmiita PDF-tiedostoja 300 DPI:llä vastausavaimineen, tuhansia teemakuvia ja monilla kielillä — kaikki kaupallisella lisenssillä myyntiin kaikilla alustoilla."
+      "description": "LessonCraftStudio antaa kaksikielisten, monikielisten ja kansainvälisten luokkien opettajille työkalut K-3 tehtäväarkkien ja aktiviteettien luomiseen oppilaiden toisella kielellä — ilman suunnittelutaitoja, kallista ohjelmistoa tai tuntien manuaalista työtä. Jokainen generaattori tuottaa tulostusvalmiit tehtäväarkit ja selaimessa pelattavan interaktiivisen version samasta asetuksesta minuuteissa.",
+      "description2": "Jokainen generaattori on ilmainen opettajille. Ei tilauksia, ei toistuvia maksuja, ei rajoja sille mitä luot. Selaa, esikatsele, lataa, upota ja jaa kirjautumatta sisään."
     },
     "methodology": {
       "title": "Lähestymistapamme",
@@ -1035,8 +1035,8 @@
         "description": "Valitse teema, muokkaa asetuksia ja luo tulostusvalmis työarkki sekunneissa. Suunnittelutaitoja ei tarvita."
       },
       "research": {
-        "title": "Ammattilainen laatu",
-        "description": "Jokainen generaattori tuottaa myyntivalmiita PDF-tiedostoja 300 DPI:llä automaattisilla vastausavaimilla, KDP-optimoidulla muotoilulla ja harmaasävytilalla kustannustehokkaaseen tulostukseen."
+        "title": "Luokkahuonelaatu",
+        "description": "Jokainen generaattori tuottaa luokkahuonevalmista tulosta oikealla sivukoolla, korkealla resoluutiolla, automaattisilla vastausavaimilla ja siistillä muotoilulla. Tulosta, upota luokan verkkosivustolle tai LMS:ään tai jaa linkkinä."
       },
       "inclusive": {
         "title": "Monikielinen ja inklusiivinen",
@@ -1046,16 +1046,16 @@
     "audience": {
       "title": "Kenelle palvelumme on",
       "teachers": {
-        "title": "Etsy- ja KDP-myyjät",
-        "description": "Rakenna nopeasti tulostettavien tuotteiden katalogi. Luo ainutlaatuisia, temaattisia työarkkeja, jotka erottuvat markkinoilla."
+        "title": "Kaksikieliset ja monikieliset opettajat",
+        "description": "Rakenna katalogi K-3 tehtäväarkkeja ja aktiviteetteja oppilaiden toisella kielellä. Luo fonologista tietoisuutta, matematiikkaa ja sanastoa monien teemojen poikki — sekä tulostettavia PDF-tiedostoja että selaimessa pelattavia interaktiivisia versioita samasta asetuksesta."
       },
       "parents": {
-        "title": "Henkilökohtainen käyttö",
-        "description": "Luo räätälöityjä työarkkeja lapsillesi kotona — valitse monista teemoista ja monista kielistä innostavaan oppimiseen."
+        "title": "Kotiopetusta antavat vanhemmat ja yksityisopettajat",
+        "description": "Luo räätälöityjä K-3 tehtäväarkkeja kotiopetukseen tai henkilökohtaiseen tukiopetukseen sekunneissa. Jokainen generaattori on ilmainen käyttää — rekisteröitymistä ei vaadita."
       },
       "therapists": {
-        "title": "Sisällöntuottajat ja julkaisijat",
-        "description": "Tuota ammattimaisia työkirjoja ja aktiviteettivihkoja Amazon KDP:hen, Gumroadiin tai omaan verkkokauppaasi — kaupallisella lisenssillä."
+        "title": "Kansainvälisten koulujen opettajat",
+        "description": "Toimita K-3 tehtäväarkkeja ja aktiviteetteja yhdellätoista kielellä yhdeltä alustalta. Jokainen tehtäväarkkigeneraattori, monia teemoja ja sanastojärjestelmä, joka käsittelee artikkelit, monikon, suvun ja aksentit oikein jokaisella opettamallasi kielellä."
       }
     },
     "cta": {
@@ -1065,19 +1065,19 @@
     },
     "metaKeywords": "K-3 tehtäväarkit, monikielinen luokka, kaksikielinen opetus, ilmaisia tulostettavia, interaktiivisia aktiviteetteja",
     "expertise": {
-      "title": "Rakennettu myyjille",
-      "subtitle": "Jokainen ominaisuus on suunniteltu auttamaan sinua luomaan ja myymaan enemman tuotteita, nopeammin",
+      "title": "Rakennettu opettajille",
+      "subtitle": "Jokainen ominaisuus on suunniteltu auttamaan opettajia toteuttamaan enemmän oppitunteja useammalla kielellä, nopeammin",
       "curriculum": {
-        "title": "Myyntivalmis tuotanto",
-        "description": "300 DPI PDF-vienti, automaattiset vastausavaimet, KDP-optimoitu muotoilu ja harmaasavytila. Tuotantosi on valmis julkaistavaksi Etsyssa, Amazon KDP:ssa tai Teachers Pay Teachersissa valittomasti."
+        "title": "Luokkahuonevalmis tulos",
+        "description": "300 DPI PDF-vienti, automaattiset vastausavaimet, tulostusvalmis muotoilu ja harmaasävytila. Tuloksesi on valmis tulostettavaksi, upotettavaksi luokan verkkosivustolle tai LMS:ään tai jaettavaksi linkkinä välittömästi."
       },
       "educators": {
-        "title": "Taydet kaupalliset oikeudet",
-        "description": "Jokainen maksullinen tuote sisaltaa rajoittamattomat kaupalliset oikeudet. Myy milla tahansa alustalla, missa tahansa maarassa. Ei mainintavaatimusta, ei rojalteja, ei rajoituksia."
+        "title": "11 kieltä, opettajien kuratoimaa",
+        "description": "Jokainen katalogimme kieli on kuratoitu ihmisten toimesta, jotka todella opettavat kyseisellä kielellä. Artikkelit, monikko, suku ja aksentit ovat oikein — eivät automaattikäännöksiä. Rakenna autenttisia tehtäväarkkeja englanniksi, saksaksi, ranskaksi, espanjaksi, portugaliksi, italiaksi, hollanniksi, ruotsiksi, tanskaksi, norjaksi tai suomeksi."
       },
       "evidence": {
-        "title": "Kertaosto",
-        "description": "Ei tilauksia, ei kuukausimaksuja, ei piilokustannuksia. Maksa kerran ja kaytta generaattoreitasi ikuisesti. Kaikki tuotteet sisaltavat 30 paivan rahat-takaisin-takuun."
+        "title": "Ei rekisteröitymistä selaamiseen",
+        "description": "Ei tilauksia, ei kuukausimaksuja, ei piilokustannuksia. Selaa, esikatsele ja pelaa mitä tahansa tehtäväkokoelmaa ilman tiliä. Valinnainen ilmainen tili lisää työtila-ominaisuuksia kuten kokoelmia ja suosikkeja."
       }
     }
   },

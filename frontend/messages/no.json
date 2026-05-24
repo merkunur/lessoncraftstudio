@@ -16,12 +16,12 @@
     "start": "Kom i gang",
     "blog": "Blogg",
     "resourcesDesc": {
-      "tools": "Prøv alle vores generatorer på nett",
-      "guides": "Steg-for-steg salgsguider",
-      "bundles": "Spar med pakker",
-      "ideas": "Inspirasjon til lønnsomme nisjer",
-      "start": "Start din virksomhet",
-      "blog": "Tips og strategier for selgere"
+      "tools": "Prøv alle generatorene på nett",
+      "guides": "Veiledninger for lærere",
+      "bundles": "Kategoripakker",
+      "ideas": "Arbeidsark-idéer etter tema",
+      "start": "Kom i gang",
+      "blog": "Tips og strategier for lærere"
     },
     "pricing": "Priser"
   },
@@ -383,7 +383,7 @@
     },
     "serviceDescription": {
       "title": "2. TJENESTEBESKRIVELSE",
-      "content": "LessonCraftStudio tilbyr verktøy for å lage arbeidsark i tre abonnementsnivåer: Gratis (begrenset), Core (utvidet) og Full tilgang (ubegrenset)."
+      "content": "LessonCraftStudio leverer arbeidsark- og puslespillgeneratorer for flerspråklige K-3-klasserom. Gratis bruk dekker personlig, klasserom- og ikke-kommersiell bruk. Betalte produkter (engangskjøp) inkluderer fulle kommersielle rettigheter og aktiveres med en lisensnøkkel som sendes til e-posten din etter kjøp."
     },
     "userAccounts": {
       "title": "3. BRUKERKONTOER",
@@ -462,7 +462,7 @@
     "dataCollection": {
       "title": "3. DATA VI SAMLER INN",
       "intro": "Vi samler inn:",
-      "personal": "Kontodata (navn, e-post)",
+      "personal": "Kjøpsdata (e-postadresse, navn) — oppgis når du kjøper et produkt via Lemon Squeezy",
       "usage": "Bruksanalyse",
       "technical": "Tekniske data (IP, nettleser)",
       "cookies": "Cookie-preferanser"
@@ -486,8 +486,8 @@
     "dataSharing": {
       "title": "6. DATADELING",
       "intro": "Begrenset deling med:",
-      "providers": "Tjenesteleverandører (databehandlere)",
-      "payment": "Betalingsprosessorer",
+      "providers": "Lemon Squeezy (betalingsbehandling og ordrelevering)",
+      "payment": "Store kredittkort og PayPal (betalingsbehandling via Lemon Squeezy)",
       "legal": "Myndigheter når påkrevd",
       "consent": "Tredjeparter med samtykke"
     },
@@ -520,11 +520,11 @@
     },
     "children": {
       "title": "11. BARN",
-      "content": "Tjeneste for lærere/foreldre. Ingen innsamling fra barn under 16."
+      "content": "Tjenesten vår er designet for voksne lærere, foreldre og andre pedagoger. Vi samler ikke bevisst inn personopplysninger fra personer under 16 år. Generatorene våre lager innhold beregnet på barn, men drives av voksne."
     },
     "international": {
       "title": "12. INTERNASJONALE OVERFØRINGER",
-      "content": "Data lagres i EU/EØS. Eksterne overføringer med standardkontraktsklausuler."
+      "content": "Data lagres primært i EU/EØS. Når data overføres utenfor EU (f.eks. til Lemon Squeezy i USA), er passende sikkerhetstiltak som standardkontraktsklausuler på plass."
     },
     "changes": {
       "title": "13. ENDRINGER",
@@ -545,8 +545,8 @@
     "grantOfLicense": {
       "title": "1. LISENSTILLATELSE",
       "intro": "LessonCraftStudio gir deg lisens til å bruke generert innhold basert på ditt abonnement:",
-      "freeTier": "Gratis: Kun personlig ikke-kommersiell utdanningsbruk",
-      "coreBundle": "Core: Kommersiell utdanningsbruk innenfor din institusjon",
+      "freeTier": "Gratis bruk: Alle generatorer er gratis å bruke. Resultatet er til personlig, klasserom- og ikke-kommersiell bruk.",
+      "coreBundle": "Betalte produkter (engangskjøp): Fulle kommersielle rettigheter. Lag ubegrenset innhold og selg på en hvilken som helst plattform du velger. Ingen kreditering kreves.",
       "fullAccess": "Full tilgang: Ubegrenset kommersiell bruk inkludert print-on-demand og videresalg"
     },
     "intellectualProperty": {
@@ -559,13 +559,13 @@
       "reverseEngineer": "Reverse-engineere plattformen",
       "competing": "Lage konkurrerende tjenester",
       "sublicense": "Underlisensiere plattformtilgang",
-      "removeNotices": "Fjerne vannmerker fra gratisinnhold",
+      "removeNotices": "Fjerne eller omgå merknader eller identifikatorer på gratisresultatet",
       "illegal": "Bruke til ulovlige formål"
     },
     "commercialDistribution": {
       "title": "4. KOMMERSIELL DISTRIBUSJON",
-      "pod": "Print-on-demand: Full tilgang-abonnenter kan selge ubegrenset via print-on-demand-plattformer.",
-      "digital": "Digital distribusjon: Alle nivåer kan distribuere digitale versjoner i henhold til sin lisens."
+      "pod": "Print-on-demand-rettigheter: Innehavere av betalt lisens kan selge ubegrensede kopier av generert innhold gjennom enhver print-on-demand-tjeneste.",
+      "digital": "Digital distribusjon: Innehavere av betalt lisens kan selge digitale nedlastinger av generert innhold på enhver plattform de velger. Ingen royalties eller kreditering kreves."
     },
     "termination": {
       "title": "5. OPPSIGELSE",
@@ -605,14 +605,14 @@
       "apps": "Om våre apper",
       "pricing": "Priser & abonnement",
       "technical": "Teknisk support",
-      "commercial": "Kommersiell bruk & lisensiering"
+      "commercial": "Klasseromsbruk & lisensiering"
     },
     "items": {
-      "general": "[{\"question\":\"Hva er LessonCraftStudio?\",\"answer\":\"LessonCraftStudio er en omfattende plattform med profesjonelle arbeidsark-generatorer for lærere og utdanningsforlag. Lag tilpassede arbeidsark med tematiske bilder, flere språk og kommersielle lisensalternativer.\"},{\"question\":\"Hvem er LessonCraftStudio for?\",\"answer\":\"Plattformen vår er designet for lærere, hjemmeskoleforeldre, utdanningsforlag og innholdsskapere som selger på plattformer som Teachers Pay Teachers, Amazon KDP, Etsy eller sine egne nettbutikker.\"},{\"question\":\"Trenger jeg designferdigheter for å bruke generatorene?\",\"answer\":\"Nei! Generatorene våre er brukervennlige. Bare legg inn innholdet ditt, velg innstillingene og generer profesjonelle arbeidsark på få minutter.\"},{\"question\":\"Kan jeg prøve før jeg kjøper?\",\"answer\":\"Ja! Start med vår Gratis-pakke som inkluderer ordsøk-generatoren med vannmerke. Det er perfekt for å teste plattformen før du oppgraderer til en betalt pakke.\"}]",
-      "apps": "[{\"question\":\"Hvor mange arbeidsark-generatorer tilbyr dere?\",\"answer\":\"Vi tilbyr et bredt utvalg arbeidsark-generatorer som dekker matte, språkfag, oppgaver, spill, visuell persepsjon, finmotorikk og mer.\"},{\"question\":\"Hva er inkludert i Gratis-pakken?\",\"answer\":\"Gratis-pakken gir deg tilgang til ordsøk-generatoren med vannmerke. Det er perfekt for å teste plattformen før du velger en betalt pakke.\"},{\"question\":\"Hvilke apper er inkludert i Kjernepakke?\",\"answer\":\"Kjernepakke inkluderer våre 10 mest populære apper: Ordsøk, Bilde-addisjon, Alfabettog, Fargelegging, Mattearbeidsark, Bokstavmiks, Finn og tell, Kobling, Tegne linjer, Bilde-bingo og Sudoku for barn.\"},{\"question\":\"Hvilke ekstra apper får jeg med Full Tilgang?\",\"answer\":\"Full Tilgang gir deg alle våre apper, inkludert spesialiserte verktøy som Kode-addisjon, Kryptogram, Mønsterarbeidsark, Skattejakt, Skyggematch, Preposisjoner og 16 flere unike generatorer.\"},{\"question\":\"Hvor mange bildetemaer er tilgjengelige?\",\"answer\":\"Vi tilbyr mange tematiske bildesamlinger inkludert dyr, mat, høytider, årstider, transport, yrker og pedagogiske temaer.\"},{\"question\":\"Kan jeg lage arbeidsark på flere språk?\",\"answer\":\"Ja! Plattformen vår støtter flera språk: norsk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, dansk og finsk.\"},{\"question\":\"Kan jeg tilpasse arbeidsarkene?\",\"answer\":\"Absolutt! Hver generator har tilpasningsmuligheter inkludert vanskelighetsgrader, rutenettstørrelser, antall elementer, fargevalg og mer.\"}]",
-      "pricing": "[{\"question\":\"Hvor mye koster LessonCraftStudio?\",\"answer\":\"Vi tilbyr tre nivåer: Gratis (kr 0 - ordsøk med vannmerke), Kjernepakke (kr 112/måned eller kr 1 075/år) og Full Tilgang (kr 187/måned eller kr 1 800/år). Årlige abonnementer gir 20% rabatt.\"},{\"question\":\"Kan jeg prøve før jeg kjøper?\",\"answer\":\"Ja! Start med vår Gratis-pakke som inkluderer ordsøk-generatoren med vannmerke. Det er perfekt for å teste plattformen før du oppgraderer til en betalt pakke.\"},{\"question\":\"Kan jeg bytte pakke når som helst?\",\"answer\":\"Absolutt! Du kan oppgradere eller nedgradere pakken din når som helst. Ved oppgradering betaler du bare differansen. Nedgraderinger trer i kraft ved neste faktureringssyklus.\"},{\"question\":\"Hvilke betalingsmetoder aksepterer dere?\",\"answer\":\"Vi aksepterer alle store kredittkort (Visa, Mastercard, American Express). Alle betalinger behandles sikkert gjennom Stripe.\"},{\"question\":\"Kan jeg avbryte abonnementet?\",\"answer\":\"Ja, du kan avbryte når som helst fra kontoinnstillingene. Du beholder tilgangen til slutten av gjeldende fakturaperiode, og det er ingen avbrytelsegebyr.\"},{\"question\":\"Tilbyr dere refusjon?\",\"answer\":\"Vi tilbyr ikke refusjon for delvise fakturaperioder. Vi anbefaler at du bruker Gratis-pakken for å sikre at plattformen oppfyller dine behov før du abonnerer.\"},{\"question\":\"Er det rabatt på årlige abonnementer?\",\"answer\":\"Ja! Årlige abonnementer gir 20% rabatt sammenlignet med månedlig fakturering. Kjernepakke er kr 1 075/år (mot kr 1 344), og Full Tilgang er kr 1 800/år (mot kr 2 244).\"}]",
-      "technical": "[{\"question\":\"Hvilke filformater kan jeg eksportere til?\",\"answer\":\"Alle generatorer eksporterer til høykvalitets PDF- og JPEG-formater, perfekt for utskrift eller digital distribusjon.\"},{\"question\":\"Fungerer generatorene på mobile enheter?\",\"answer\":\"Ja! Generatorene våre er fullt responsive og fungerer på stasjonære datamaskiner, nettbrett og mobiltelefoner gjennom nettleseren din.\"},{\"question\":\"Må jeg installere programvare?\",\"answer\":\"Ingen installasjon nødvendig! LessonCraftStudio er helt nettbasert. Bare logg inn på kontoen din fra enhver enhet med internettilkobling.\"},{\"question\":\"Lagres arbeidsarkene mine?\",\"answer\":\"Du kan laste ned de genererte arbeidsarkene. Vi anbefaler at du lagrer dem på enheten din eller i skylagring for fremtidig bruk.\"},{\"question\":\"Hva hvis jeg støter på en feil?\",\"answer\":\"Kontakt supportteamet vårt på support@lessoncraftstudio.com. Kjernepakke-brukere får standard support, mens Full Tilgang-brukere får prioritert hjelp.\"},{\"question\":\"Er det noen bruksbegrensninger?\",\"answer\":\"Nei! Lag ubegrenset med arbeidsark med abonnementet ditt. Det er ingen daglige eller månedlige begrensninger.\"}]",
-      "commercial": "[{\"question\":\"Hva er POD kommersiell lisens?\",\"answer\":\"POD (Print-on-Demand) kommersiell lisens lar deg selge arbeidsark du lager på plattformer som Teachers Pay Teachers, Amazon KDP, Etsy eller din egen nettbutikk. Den er inkludert i Kjernepakke og Full Tilgang.\"},{\"question\":\"Kan jeg selge arbeidsark jeg lager med Gratis-pakken?\",\"answer\":\"Nei, Gratis-pakken er kun for personlig, ikke-kommersiell bruk. For å selge arbeidsark trenger du enten Kjernepakke eller Full Tilgang.\"},{\"question\":\"Kan jeg bruke arbeidsarkene i klasserommet mitt?\",\"answer\":\"Ja! Alle pakker, inkludert Gratis, tillater bruk i ditt eget klasserom eller hjemmeskole.\"},{\"question\":\"Kan jeg dele arbeidsark med andre lærere?\",\"answer\":\"Med Kjernepakke og Full Tilgang kan du selge arbeidsark på markedsplasser. For gratis deling innenfor skolen din, sjekk med institusjonens retningslinjer for kommersielle lisenser.\"},{\"question\":\"Må jeg kreditere LessonCraftStudio på arbeidsark jeg selger?\",\"answer\":\"Ingen kreditering er nødvendig på arbeidsark laget med Kjernepakke eller Full Tilgang. Gratis-pakke arbeidsark inkluderer et vannmerke.\"},{\"question\":\"Kan jeg bruke bildene i andre prosjekter?\",\"answer\":\"Den kommersielle lisensen gjelder kun for komplette arbeidsark generert gjennom plattformen vår. Individuell bildeekstraksjon eller bruk i ikke-arbeidsark-prosjekter er ikke tillatt.\"},{\"question\":\"Hva hvis jeg avbryter abonnementet - kan jeg fortsatt selge eksisterende arbeidsark?\",\"answer\":\"Ja! Arbeidsark laget under en aktiv abonnementsperiode beholder sin kommersielle lisens selv etter at du avbryter.\"}]"
+      "general": "[{\"question\":\"Hva er LessonCraftStudio?\",\"answer\":\"LessonCraftStudio er en plattform med gratis K-3 arbeidsark og arbeidsark-generatorer på 11 språk — fonologisk bevissthet, matematikk, ordforråd — for tospråklige, flerspråklige og internasjonale klasserom. Hvert arbeidsark, hver PDF og hvert interaktivt sett er gratis å bruke, uten registrering.\"},{\"question\":\"Hvem er LessonCraftStudio for?\",\"answer\":\"Plattformen vår er bygget for lærere i tospråklige, flerspråklige og internasjonale klasserom, samt foreldre og andre pedagoger som jobber med K-3 elever på et andrespråk.\"},{\"question\":\"Trenger jeg designferdigheter for å bruke generatorene?\",\"answer\":\"Nei. Generatorene våre er laget for lærere, ikke designere. Velg emne, tema og språk — appene produserer en utskriftsklar PDF og en nettleserspillbar interaktiv versjon på minutter.\"},{\"question\":\"Må jeg registrere meg?\",\"answer\":\"Nei. Hvert arbeidsark, hver PDF-nedlasting og hver arbeidsark-skaper er gratis å bruke uten å logge inn. En valgfri gratis konto legger til arbeidsområde-funksjoner som samlinger og favoritter.\"}]",
+      "apps": "[{\"question\":\"Hvor mange arbeidsark-generatorer tilbyr dere?\",\"answer\":\"Vi tilbyr et bredt utvalg arbeidsark-generatorer som dekker matematikk, fonologisk bevissthet, ordforråd, puslespill, kobling, visuell persepsjon, finmotorikk og mer. Alle generatorer er gratis å bruke.\"},{\"question\":\"Hva kan jeg gjøre uten å logge inn?\",\"answer\":\"Alt som betyr noe. Bla gjennom, forhåndsvis og spill hvert interaktivt sett. Last ned hver PDF og fasit. Bruk hver arbeidsark-generator, inkludert å laste ned det interaktive HTML-resultatet.\"},{\"question\":\"Hva får jeg ved å logge inn?\",\"answer\":\"En valgfri gratis konto legger til arbeidsområde-funksjoner: lag og del samlinger, lagre favoritter og administrer delbare lenker. Ressurser forblir gratis for alle.\"},{\"question\":\"Hvor mange bildetemaer er tilgjengelige?\",\"answer\":\"Vi tilbyr mange tematiske bildesamlinger med tusenvis av K-3 illustrasjoner, inkludert dyr, kjøretøy, mat, høytider, kroppsdeler, årstider og mer.\"},{\"question\":\"Kan jeg lage arbeidsark på flere språk?\",\"answer\":\"Ja. Plattformen vår støtter 11 språk: engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, dansk, norsk og finsk — hvert språk kuratert av folk som faktisk underviser på det språket.\"},{\"question\":\"Kan jeg tilpasse arbeidsarkene?\",\"answer\":\"Ja. Hver generator har tilpasningsmuligheter inkludert vanskelighetsgrader, rutenettstørrelser, antall elementer, fargevalg, fonter og mer.\"}]",
+      "pricing": "[{\"question\":\"Hvor mye koster LessonCraftStudio?\",\"answer\":\"LessonCraftStudio er gratis. Hvert arbeidsark, hver PDF, hvert interaktivt sett og hver arbeidsark-generator er gratis å bruke — ingen abonnement, ingen tilbakevendende gebyrer.\"},{\"question\":\"Er dette et abonnement?\",\"answer\":\"Nei. Det er ingen abonnement og ingen tilbakevendende gebyr.\"},{\"question\":\"Må jeg registrere meg for å bruke det?\",\"answer\":\"Nei. Hver ressurs er anonymt tilgjengelig. En valgfri gratis konto legger til arbeidsområde-funksjoner som samlinger og favoritter.\"},{\"question\":\"Trenger jeg et kredittkort?\",\"answer\":\"Nei. Det er ikke krav om kredittkort på noe tidspunkt.\"},{\"question\":\"Er det noen bruksgrenser?\",\"answer\":\"Nei. Lag, last ned, bygg inn og del ubegrenset med arbeidsark. Det er ingen daglige eller månedlige grenser.\"},{\"question\":\"Vil prisene endre seg i fremtiden?\",\"answer\":\"Den nåværende modellen er gratis for alle. Hvis noe endres, blir det annonsert på forhånd.\"}]",
+      "technical": "[{\"question\":\"Hvilke filformater kan jeg eksportere?\",\"answer\":\"Alle generatorer eksporterer til høykvalitets 300 DPI PDF, perfekt for klasseromsutskrift, pluss en nettleserspillbar interaktiv versjon av samme sett for elevenheter.\"},{\"question\":\"Fungerer generatorene på mobile enheter?\",\"answer\":\"Ja. Generatorene og interaktive sett er fullt responsive og fungerer på stasjonær PC, nettbrett, Chromebook og telefon gjennom enhver moderne nettleser.\"},{\"question\":\"Må jeg installere programvare?\",\"answer\":\"Ingen installasjon nødvendig. LessonCraftStudio er helt nettbasert, og det kreves ingen konto for å bla, forhåndsvise eller spille noe sett.\"},{\"question\":\"Lagres arbeidsarkene mine?\",\"answer\":\"Arbeidsark genereres på forespørsel — last dem ned umiddelbart etter opprettelse. Vi anbefaler at du lagrer filene dine på enheten, skoledisken eller LMS-en din.\"},{\"question\":\"Hva hvis jeg støter på en feil?\",\"answer\":\"Kontakt supportteamet vårt på support@lessoncraftstudio.com. Vi svarer innen 24–48 timer.\"},{\"question\":\"Er det noen bruksgrenser?\",\"answer\":\"Nei. Lag ubegrenset med arbeidsark. Det er ingen daglige eller månedlige generasjonsgrenser.\"}]",
+      "commercial": "[{\"question\":\"Kan jeg bruke arbeidsarkene i klasserommet mitt?\",\"answer\":\"Ja. Gratis bruk dekker personlig, klasserom- og ikke-kommersiell bruk — utskriftsklare PDF-er, interaktive sett og innebygging på klassens nettsted eller LMS.\"},{\"question\":\"Kan jeg dele arbeidsark med elevene mine?\",\"answer\":\"Ja. Send et hvilket som helst sett som lenke eller bygg det inn på klassens nettsted, blogg eller læringsplattform. Elever spiller direkte i nettleseren — ingen registrering, ingen app, ingen konto påkrevd.\"},{\"question\":\"Kan jeg dele arbeidsark med andre lærere?\",\"answer\":\"Ja. Du kan gjerne dele genererte arbeidsark og settlenker med kolleger for klasseromsbruk. Hver lærer kan også opprette sin egen gratis konto på et øyeblikk.\"},{\"question\":\"Kan jeg bruke arbeidsarkene til hjemmeundervisning?\",\"answer\":\"Ja. Gratis bruk dekker hjemmeundervisning og privatundervisning på samme måte som klasseromsbruk.\"},{\"question\":\"Må jeg kreditere LessonCraftStudio når jeg deler et arbeidsark?\",\"answer\":\"Ingen kreditering er påkrevd for klasserom-, hjemmeundervisnings- eller personlig bruk.\"},{\"question\":\"Kan jeg bruke bildene alene, utenfor arbeidsarkene?\",\"answer\":\"Gratis brukslisens gjelder for komplette arbeidsark generert gjennom plattformen vår. Individuell bildeekstraksjon eller bruk utenfor generatorene er ikke tillatt.\"},{\"question\":\"Vil tilgangen min endre seg i fremtiden?\",\"answer\":\"Den nåværende modellen er gratis for alle. Hvis noe endres, blir det annonsert på forhånd.\"}]"
     },
     "cta": {
       "title": "Har du flere spørsmål?",
@@ -698,7 +698,7 @@
         ]
       },
       "core": {
-        "description": "Ideell for å bygge din printable-virksomhet",
+        "description": "Perfekt for et flerspråklig klasserom",
         "features": [
           "De 10 mest populære generatorene",
           "Ubegrenset antall oppgaveark",
@@ -942,7 +942,7 @@
       },
       "CORE": {
         "name": "Standard",
-        "description": "Ideell for å bygge en printable-produktlinje",
+        "description": "Perfekt for et flerspråklig klasserom",
         "features": [
           "Tilgang til 10 populære generatorer",
           "Ubegrenset antall oppgaveark",
@@ -1026,7 +1026,7 @@
     "metaDescription": "LessonCraftStudio er en gratis plattform for K-3 arbeidsark og interaktive aktiviteter på elleve språk, bygget for tospråklige, flerspråklige og internasjonale klasserom.",
     "hero": {
       "title": "Om LessonCraftStudio",
-      "subtitle": "Profesjonelle printable-generatorer for Etsy-selgere, KDP-utgivere og gründere"
+      "subtitle": "Gratis K-3 arbeidsark og arbeidsark-generatorer på elleve språk, for tospråklige, flerspråklige og internasjonale klasserom"
     },
     "stats": {
       "generators": "many",
@@ -1040,8 +1040,8 @@
     },
     "mission": {
       "title": "Vårt oppdrag",
-      "description": "LessonCraftStudio ble skapt for å hjelpe Etsy-selgere, KDP-utgivere og printable-gründere med å lage profesjonelle arbeidsark umiddelbart — uten designferdigheter, dyr programvare eller timevis med forberedelse.",
-      "description2": "Våre generatorer lager utskriftsklare PDF-filer i 300 DPI med svarark, tusenvis av temabilder og flera språk — alt med kommersiell lisens for salg på alle plattformer."
+      "description": "LessonCraftStudio gir lærere i tospråklige, flerspråklige og internasjonale klasserom verktøyene til å lage K-3 arbeidsark og aktiviteter på elevenes andrespråk — uten designferdigheter, dyr programvare eller timevis med manuelt arbeid. Hver generator lager utskriftsklare arbeidsark og en nettleserspillbar interaktiv versjon fra samme oppsett, på minutter.",
+      "description2": "Hver generator er gratis for lærere. Ingen abonnementer, ingen tilbakevendende avgifter, ingen grenser for hva du lager. Bla, forhåndsvis, last ned, bygg inn og del uten å logge inn."
     },
     "methodology": {
       "title": "Vår tilnærming",
@@ -1050,8 +1050,8 @@
         "description": "Velg et tema, tilpass innstillingene og generer et utskriftsklart arbeidsark på sekunder. Ingen designferdigheter nødvendig."
       },
       "research": {
-        "title": "Profesjonell kvalitet",
-        "description": "Hver generator produserer salgsklare PDF-filer i 300 DPI med automatiske svarnøkler, KDP-optimert formatering og gråtonemodus for kostnadseffektiv utskrift."
+        "title": "Klasseromskvalitet",
+        "description": "Hver generator produserer klasseromsklart resultat med riktig sidestørrelse, høy oppløsning, automatiske svarnøkler og ryddig formatering. Skriv ut, bygg inn på klassens nettsted eller LMS, eller del som lenke."
       },
       "inclusive": {
         "title": "Flerspråklig & inkluderende",
@@ -1061,16 +1061,16 @@
     "audience": {
       "title": "Hvem vi tjener",
       "teachers": {
-        "title": "Etsy- og KDP-selgere",
-        "description": "Bygg raskt opp en katalog av utskrivbare produkter. Lag unike, tematiske arbeidsark som skiller seg ut i markedet."
+        "title": "Tospråklige og flerspråklige lærere",
+        "description": "Bygg en katalog med K-3 arbeidsark og aktiviteter på elevenes andrespråk. Lag fonologisk bevissthet, matematikk og ordforråd på tvers av mange temaer — både utskrivbare PDF-er og nettleserspillbare interaktive versjoner fra samme oppsett."
       },
       "parents": {
-        "title": "Personlig bruk",
-        "description": "Lag tilpassede arbeidsark for barna dine hjemme — velg blant mange temaer og flera språk for engasjerende læring."
+        "title": "Hjemmeskolende foreldre og privatlærere",
+        "description": "Lag tilpassede K-3 arbeidsark for hjemmeskole eller en-til-en-undervisning på sekunder. Hver generator er gratis å bruke — ingen registrering kreves."
       },
       "therapists": {
-        "title": "Innholdsskapere og utgivere",
-        "description": "Produser profesjonelle arbeidsbøker og aktivitetshefter for Amazon KDP, Gumroad eller din egen nettbutikk — med kommersiell lisens."
+        "title": "Lærere på internasjonale skoler",
+        "description": "Lever K-3 arbeidsark og aktiviteter på elleve språk fra én plattform. Hver arbeidsark-skaper, mange temaer og et ordforrådssystem som får artikler, flertall, kjønn og aksenter riktig på hvert språk du underviser i."
       }
     },
     "cta": {
@@ -1080,19 +1080,19 @@
     },
     "metaKeywords": "K-3 arbeidsark, flerspråklig klasserom, tospråklig undervisning, gratis utskriftsklart, interaktive aktiviteter",
     "expertise": {
-      "title": "Bygget for selgere",
-      "subtitle": "Hver funksjon er designet for a hjelpe deg med a lage og selge flere produkter, raskere",
+      "title": "Bygget for lærere",
+      "subtitle": "Hver funksjon er designet for å hjelpe lærere levere flere undervisningstimer på flere språk, raskere",
       "curriculum": {
-        "title": "Salgsklar produksjon",
-        "description": "300 DPI PDF-eksport, automatiske svarnoekler, KDP-optimert formatering og graskalamodus. Produksjonen din er klar til a publisere pa Etsy, Amazon KDP eller Teachers Pay Teachers umiddelbart."
+        "title": "Klasseromsklart resultat",
+        "description": "300 DPI PDF-eksport, automatiske svarnøkler, utskriftsklar formatering og gråtonemodus. Resultatet ditt er klar til å skrive ut, bygge inn på klassens nettsted eller LMS, eller dele som lenke umiddelbart."
       },
       "educators": {
-        "title": "Fulle kommersielle rettigheter",
-        "description": "Hvert betalt produkt inkluderer ubegrensede kommersielle rettigheter. Selg pa hvilken som helst plattform, i hvilken som helst mengde. Ingen tilskrivning krevet, ingen royalties, ingen begrensninger."
+        "title": "11 språk, kuratert av lærere",
+        "description": "Hvert språk i katalogen vår er kuratert av personer som faktisk underviser på det språket. Artikler, flertall, kjønn og aksenter er riktige — ikke autooversatte. Bygg autentiske arbeidsark på engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, dansk, norsk eller finsk."
       },
       "evidence": {
-        "title": "Engangskjop",
-        "description": "Ingen abonnementer, ingen manedlige avgifter, ingen skjulte kostnader. Betal en gang og bruk generatorene dine for alltid. Alle produkter inkluderer en 30 dagers pengene-tilbake-garanti."
+        "title": "Ingen registrering for å bla",
+        "description": "Ingen abonnementer, ingen månedlige avgifter, ingen skjulte kostnader. Bla, forhåndsvis og spill et hvilket som helst sett uten konto i det hele tatt. En valgfri gratis konto legger til arbeidsområde-funksjoner som samlinger og favoritter."
       }
     }
   },

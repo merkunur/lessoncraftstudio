@@ -17,11 +17,11 @@
     "blog": "Blog",
     "resourcesDesc": {
       "tools": "Prueba todos nuestros generadores en línea",
-      "guides": "Guías de venta paso a paso",
-      "bundles": "Ahorra con paquetes",
-      "ideas": "Inspiración de nichos rentables",
-      "start": "Lanza tu negocio",
-      "blog": "Consejos y estrategias para vendedores"
+      "guides": "Guías prácticas para docentes",
+      "bundles": "Paquetes por categoría",
+      "ideas": "Ideas de fichas por tema",
+      "start": "Primeros pasos",
+      "blog": "Consejos y estrategias para docentes"
     },
     "pricing": "Precios"
   },
@@ -378,7 +378,7 @@
       "reverseEngineer": "Aplicar ingeniería inversa a la plataforma",
       "competing": "Crear servicios competidores",
       "sublicense": "Sublicenciar acceso a la plataforma",
-      "removeNotices": "Eliminar marcas de agua del contenido gratuito",
+      "removeNotices": "Eliminar o eludir avisos o identificadores en las salidas gratuitas",
       "illegal": "Usar para fines ilegales"
     },
     "commercialDistribution": {
@@ -600,7 +600,7 @@
       },
       "CORE": {
         "name": "Paquete Esencial",
-        "description": "Ideal para construir tu negocio de imprimibles",
+        "description": "Ideal para un aula multilingüe",
         "features": [
           "Acceso a 10 generadores populares",
           "Fichas ilimitadas",
@@ -708,7 +708,7 @@
     "metaDescription": "LessonCraftStudio es una plataforma gratuita de hojas de trabajo K-3 y actividades interactivas en once idiomas, hecha para aulas bilingües, duales e internacionales.",
     "hero": {
       "title": "Sobre LessonCraftStudio",
-      "subtitle": "Apoyando a educadores en todo el mundo con generadores de fichas profesionales"
+      "subtitle": "Hojas de trabajo K-3 y generadores de hojas de trabajo gratis en 11 idiomas, para aulas bilingües, duales e internacionales"
     },
     "stats": {
       "generators": "many",
@@ -722,8 +722,8 @@
     },
     "mission": {
       "title": "Nuestra misión",
-      "description": "LessonCraftStudio fue creado para ayudar a vendedores de Etsy, editores KDP y emprendedores de imprimibles a generar fichas profesionales al instante — sin habilidades de diseño, software costoso ni horas de preparación.",
-      "description2": "Nuestros nuestros generadores crean PDFs listos para imprimir en 300 DPI con claves de respuesta, miles de imágenes temáticas y muchos idiomas — todo con licencia comercial para vender en cualquier plataforma."
+      "description": "LessonCraftStudio ofrece a los docentes de aulas bilingües, duales e internacionales las herramientas para producir hojas de trabajo y actividades K-3 en la segunda lengua de sus estudiantes — sin habilidades de diseño, sin software costoso ni horas de preparación manual. Cada generador produce, a partir de la misma configuración, una hoja lista para imprimir y una versión interactiva jugable en el navegador, en minutos.",
+      "description2": "Cada generador es gratuito para los docentes. Sin suscripciones, sin cuotas recurrentes, sin límites en lo que crea. Navegue, previsualice, descargue, incruste y comparta sin tener que iniciar sesión."
     },
     "methodology": {
       "title": "Nuestro enfoque",
@@ -733,7 +733,7 @@
       },
       "research": {
         "title": "Calidad profesional",
-        "description": "Cada generador crea PDFs listos para vender en 300 DPI con claves de respuesta — perfectos para tiendas Etsy, libros KDP y descargas digitales."
+        "description": "Cada generador produce salidas listas para el aula con tamaño de página correcto, alta resolución, claves de respuesta automáticas y formato impecable. Imprima, incruste en su sitio de aula o LMS, o comparta como enlace."
       },
       "inclusive": {
         "title": "Multilingüe e inclusivo",
@@ -743,16 +743,16 @@
     "audience": {
       "title": "¿A quién servimos?",
       "teachers": {
-        "title": "Vendedores Etsy y KDP",
-        "description": "Cree rápidamente un catálogo de productos imprimibles. Genere fichas temáticas únicas que destaquen en el mercado."
+        "title": "Docentes de aulas bilingües y duales",
+        "description": "Construya un catálogo de hojas de trabajo y actividades K-3 en la segunda lengua de sus estudiantes. Genere series de fonética, matemáticas y vocabulario sobre numerosos temas — PDFs imprimibles y versiones interactivas jugables en el navegador a partir de la misma configuración."
       },
       "parents": {
-        "title": "Uso personal",
-        "description": "Cree fichas para educación en casa o proyectos personales en segundos. Prueba gratuita con marca de agua — sin registro."
+        "title": "Familias homeschool y tutores",
+        "description": "Cree en segundos hojas de trabajo K-3 personalizadas para educación en casa o tutoría individual. Cada generador es gratuito — sin registro."
       },
       "therapists": {
-        "title": "Creadores de contenido y editores",
-        "description": "Produzca contenido imprimible profesional a gran escala. nuestros generadores, muchos temas, muchos idiomas — cree cientos de productos únicos en una sola plataforma."
+        "title": "Docentes de escuelas internacionales",
+        "description": "Ofrezca hojas de trabajo y actividades K-3 en 11 idiomas desde una sola plataforma. Cada generador de hojas de trabajo, numerosos temas y un sistema de vocabulario que respeta artículos, plurales, género y acentos en cada idioma que enseñe."
       }
     },
     "cta": {
@@ -762,19 +762,19 @@
     },
     "metaKeywords": "hojas de trabajo K-3, aula multilingüe, educación bilingüe, imprimibles gratis, actividades interactivas",
     "expertise": {
-      "title": "Creado para vendedores",
-      "subtitle": "Cada funcion esta disenada para ayudarte a crear y vender mas productos, mas rapido",
+      "title": "Hecho para docentes",
+      "subtitle": "Cada función está diseñada para ayudar a los docentes a impartir más clases en más idiomas, más rápido",
       "curriculum": {
-        "title": "Produccion lista para vender",
-        "description": "Exportacion PDF 300 DPI, claves de respuesta automaticas, formato optimizado para KDP y modo escala de grises. Tu produccion esta lista para publicar en Etsy, Amazon KDP o Teachers Pay Teachers inmediatamente."
+        "title": "Salidas listas para el aula",
+        "description": "Exportación PDF a 300 DPI, claves de respuesta automáticas, formato listo para imprimir y modo escala de grises. Su salida está lista para imprimir, para incrustar en su sitio de aula o LMS, o para compartir como enlace de inmediato."
       },
       "educators": {
-        "title": "Derechos comerciales completos",
-        "description": "Cada producto de pago incluye derechos comerciales sin restricciones. Vende en cualquier plataforma, en cualquier cantidad. Sin atribucion requerida, sin regalias, sin restricciones."
+        "title": "11 idiomas, curados por docentes",
+        "description": "Cada idioma de nuestro catálogo está curado por personas que enseñan realmente en ese idioma. Artículos, plurales, género y acentos son correctos — no se generan por traducción automática. Construya hojas de trabajo auténticas en inglés, alemán, francés, español, portugués, italiano, neerlandés, sueco, danés, noruego o finés."
       },
       "evidence": {
-        "title": "Compra unica",
-        "description": "Sin suscripciones, sin cuotas mensuales, sin costos ocultos. Paga una vez y usa tus generadores para siempre. Todos los productos incluyen una garantia de devolucion de 30 dias."
+        "title": "Sin registro para navegar",
+        "description": "Sin suscripciones, sin cuotas mensuales, sin costes ocultos. Navegue, previsualice y juegue cualquier deck sin necesidad de cuenta. Una cuenta gratuita opcional añade funciones de espacio de trabajo como colecciones y favoritos."
       }
     }
   },
@@ -1252,7 +1252,7 @@
         ]
       },
       "core": {
-        "description": "Ideal para construir tu negocio de imprimibles",
+        "description": "Ideal para un aula multilingüe",
         "features": [
           "Los 10 generadores más populares",
           "Fichas ilimitadas",

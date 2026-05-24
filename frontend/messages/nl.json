@@ -16,12 +16,12 @@
     "start": "Aan de slag",
     "blog": "Blog",
     "resourcesDesc": {
-      "tools": "Probeer alle every generator online",
-      "guides": "Stap-voor-stap verkoopgidsen",
-      "bundles": "Bespaar met bundels",
-      "ideas": "Inspiratie voor winstgevende niches",
-      "start": "Start uw bedrijf",
-      "blog": "Tips & strategieën voor verkopers"
+      "tools": "Probeer elke generator online",
+      "guides": "Stap-voor-stap gidsen voor leerkrachten",
+      "bundles": "Bespaar met categoriepakketten",
+      "ideas": "Ideeën voor uw K-3-klas",
+      "start": "Begin met LessonCraftStudio",
+      "blog": "Tips & strategieën voor leerkrachten"
     },
     "pricing": "Prijzen"
   },
@@ -293,7 +293,7 @@
     },
     "serviceDescription": {
       "title": "2. DIENSTOMSCHRIJVING",
-      "content": "LessonCraftStudio biedt hulpmiddelen voor het maken van werkbladen in drie abonnementen: Gratis (beperkt), Core (uitgebreid) en Volledige Toegang (onbeperkt)."
+      "content": "LessonCraftStudio biedt werkblad- en puzzelgeneratoren voor multilinguale K-3-klassen. Het gratis gebruik omvat persoonlijk, klassikaal en niet-commercieel gebruik. Betaalde producten (eenmalige aankopen) bevatten volledige commerciële rechten en worden geactiveerd met een licentiesleutel die na aankoop per e-mail wordt geleverd."
     },
     "userAccounts": {
       "title": "3. GEBRUIKERSACCOUNTS",
@@ -363,10 +363,10 @@
     "effectiveDate": "Januari 2025",
     "grantOfLicense": {
       "title": "1. LICENTIEVERLENING",
-      "intro": "LessonCraftStudio verleent u een licentie om gegenereerde inhoud te gebruiken volgens uw abonnement:",
-      "freeTier": "Gratis: Alleen persoonlijk niet-commercieel educatief gebruik",
-      "coreBundle": "Core: Commercieel educatief gebruik binnen uw instelling",
-      "fullAccess": "Volledige Toegang: Onbeperkt commercieel gebruik inclusief print-on-demand en doorverkoop"
+      "intro": "LessonCraftStudio verleent u een licentie om de werkbladgeneratoren en gegenereerde inhoud te gebruiken op basis van uw aankoop:",
+      "freeTier": "Gratis gebruik: Alle generatoren zijn gratis te gebruiken. De output is voor persoonlijk, klassikaal en niet-commercieel gebruik.",
+      "coreBundle": "Betaalde producten (eenmalige aankoop): Volledige commerciële rechten. Maak onbeperkte inhoud en verkoop op elk gewenst platform. Geen attributie vereist.",
+      "fullAccess": "Activering met licentiesleutel: Betaalde producten worden geactiveerd met een licentiesleutel die gekoppeld is aan het bij de aankoop gebruikte e-mailadres. Elke licentiesleutel is voor één gebruiker."
     },
     "intellectualProperty": {
       "title": "2. INTELLECTUEEL EIGENDOM",
@@ -378,13 +378,13 @@
       "reverseEngineer": "Platform reverse engineeren",
       "competing": "Concurrerende diensten creëren",
       "sublicense": "Platformtoegang sublicentiëren",
-      "removeNotices": "Watermerken van gratis inhoud verwijderen",
+      "removeNotices": "Mededelingen of identificatiekenmerken op gratis output verwijderen of omzeilen",
       "illegal": "Voor illegale doeleinden gebruiken"
     },
     "commercialDistribution": {
       "title": "4. COMMERCIËLE DISTRIBUTIE",
-      "pod": "Print-on-demand: Volledige Toegang-abonnees kunnen onbeperkt verkopen via print-on-demand platformen.",
-      "digital": "Digitale distributie: Alle niveaus kunnen digitale versies distribueren volgens hun licentie."
+      "pod": "Print-on-demand rechten: Houders van een betaalde licentie kunnen onbeperkt kopieën van gegenereerde inhoud verkopen via elke print-on-demand-dienst.",
+      "digital": "Digitale distributie: Houders van een betaalde licentie kunnen digitale downloads van gegenereerde inhoud verkopen op elk platform van hun keuze. Geen royalty's of attributie vereist."
     },
     "termination": {
       "title": "5. BEËINDIGING",
@@ -426,7 +426,7 @@
     "dataCollection": {
       "title": "3. VERZAMELDE GEGEVENS",
       "intro": "Wij verzamelen:",
-      "personal": "Accountgegevens (naam, e-mail)",
+      "personal": "Aankoopgegevens (e-mailadres, naam) — verstrekt bij aankoop van een product via Lemon Squeezy",
       "usage": "Gebruiksanalyses",
       "technical": "Technische gegevens (IP, browser)",
       "cookies": "Cookievoorkeuren"
@@ -450,8 +450,8 @@
     "dataSharing": {
       "title": "6. GEGEVENSDELING",
       "intro": "Beperkt delen met:",
-      "providers": "Dienstverleners (verwerkers)",
-      "payment": "Betalingsverwerkers",
+      "providers": "Lemon Squeezy (betalingsverwerking en orderafhandeling)",
+      "payment": "Belangrijkste creditcards en PayPal (betalingsverwerking via Lemon Squeezy)",
       "legal": "Autoriteiten indien vereist",
       "consent": "Derden met toestemming"
     },
@@ -484,11 +484,11 @@
     },
     "children": {
       "title": "11. KINDEREN",
-      "content": "Dienst voor ondernemers en persoonlijk gebruik. Geen verzameling bij kinderen onder 16."
+      "content": "Onze dienst is ontworpen voor volwassen leerkrachten, ouders en andere opvoeders. Wij verzamelen niet bewust persoonsgegevens van personen jonger dan 16 jaar. Onze generatoren maken inhoud bedoeld voor kinderen, maar worden bediend door volwassenen."
     },
     "international": {
       "title": "12. INTERNATIONALE DOORGIFTEN",
-      "content": "Gegevens opgeslagen in EU/EER. Externe doorgiften met standaardcontractbepalingen."
+      "content": "Gegevens worden voornamelijk opgeslagen in de EU/EER. Wanneer gegevens buiten de EU worden overgedragen (bijvoorbeeld naar Lemon Squeezy in de VS), zijn passende waarborgen zoals standaardcontractbepalingen van toepassing."
     },
     "changes": {
       "title": "13. WIJZIGINGEN",
@@ -515,7 +515,7 @@
       "apps": "Over Onze Apps",
       "pricing": "Prijzen & Abonnementen",
       "technical": "Technische Ondersteuning",
-      "commercial": "Commercieel Gebruik & Licenties"
+      "commercial": "Klasgebruik & licenties"
     },
     "cta": {
       "title": "Heb je nog vragen?",
@@ -600,7 +600,7 @@
       },
       "CORE": {
         "name": "Basispakket",
-        "description": "Ideaal voor het opbouwen van uw printable-bedrijf",
+        "description": "Perfect voor een meertalige klas",
         "features": [
           "Toegang tot 10 populaire werkbladgeneratoren",
           "Onbeperkt werkbladen maken",
@@ -695,7 +695,7 @@
     "metaDescription": "LessonCraftStudio is een gratis platform voor K-3 werkbladen en interactieve activiteiten in elf talen, gebouwd voor tweetalige, bilinguale en internationale klassen.",
     "hero": {
       "title": "Over LessonCraftStudio",
-      "subtitle": "Professionele printable-generatoren voor Etsy-verkopers en KDP-uitgevers wereldwijd"
+      "subtitle": "Gratis K-3 werkbladen en werkblad-makers in 11 talen, voor tweetalige, dual-language en internationale klassen"
     },
     "stats": {
       "generators": "many",
@@ -709,8 +709,8 @@
     },
     "mission": {
       "title": "Onze missie",
-      "description": "LessonCraftStudio is gebouwd om Etsy-verkopers, KDP-uitgevers en printable-ondernemers te helpen direct professionele werkbladen te maken — zonder designvaardigheden, dure software of uren voorbereiding.",
-      "description2": "Onze generatoren maken drukklare PDF's in 300 DPI met antwoordsleutels, duizenden thematische afbeeldingen en vele talen — alles met commerciële licentie om op elk platform te verkopen."
+      "description": "LessonCraftStudio geeft leerkrachten in tweetalige, dual-language en internationale klassen de tools om K-3 werkbladen en activiteiten in de tweede taal van hun leerlingen te maken — zonder designvaardigheden, dure software of uren handwerk. Elke generator maakt drukklare werkbladen en een in de browser speelbare interactieve versie vanuit dezelfde opzet, in enkele minuten.",
+      "description2": "Elke generator is gratis voor leerkrachten. Geen abonnementen, geen terugkerende kosten, geen limieten aan wat u maakt. Bladeren, voorvertonen, downloaden, insluiten en delen zonder in te loggen."
     },
     "methodology": {
       "title": "Onze aanpak",
@@ -719,8 +719,8 @@
         "description": "Kies een thema, pas de instellingen aan en genereer in enkele seconden een drukklaar werkblad. Geen designvaardigheden nodig."
       },
       "research": {
-        "title": "Professionele kwaliteit",
-        "description": "Elke generator maakt verkoopklare PDF's in 300 DPI met antwoordsleutels — perfect voor Etsy-winkels, KDP-boeken en digitale downloads."
+        "title": "Klaskwaliteit output",
+        "description": "Elke generator maakt klaslokaalklare output met de juiste paginagrootte, hoge resolutie, automatische antwoordsleutels en nette opmaak. Print, sluit in op uw klassensite of LMS, of deel als link."
       },
       "inclusive": {
         "title": "Meertalig & inclusief",
@@ -730,38 +730,38 @@
     "audience": {
       "title": "Voor wie",
       "teachers": {
-        "title": "Etsy- en KDP-verkopers",
-        "description": "Bouw snel een catalogus van printable producten op. Genereer unieke thematische werkbladen die opvallen op de markt."
+        "title": "Leerkrachten in tweetalige en dual-language klassen",
+        "description": "Bouw een catalogus van K-3 werkbladen en activiteiten in de tweede taal van uw leerlingen. Genereer dekken voor fonologie, rekenen en woordenschat over vele thema's — zowel drukklare PDF's als in de browser speelbare interactieve versies vanuit dezelfde opzet."
       },
       "parents": {
-        "title": "Persoonlijk gebruik",
-        "description": "Maak werkbladen voor thuisonderwijs of persoonlijke projecten in seconden. Gratis uitproberen met watermerk — zonder registratie."
+        "title": "Thuisonderwijsouders en bijlesdocenten",
+        "description": "Maak op maat gemaakte K-3 werkbladen voor thuisonderwijs of één-op-één bijles in seconden. Elke generator is gratis te gebruiken — geen registratie nodig."
       },
       "therapists": {
-        "title": "Contentmakers en uitgevers",
-        "description": "Produceer professionele printbare content op schaal. onze generatoren, plenty of thema’s, vele talen — maak honderden unieke producten op een enkel platform."
+        "title": "Leerkrachten internationale scholen",
+        "description": "Lever K-3 werkbladen en activiteiten in 11 talen vanuit één platform. Elke werkblad-maker, vele thema's en een woordenschatsysteem dat lidwoorden, meervouden, geslacht en accenten in elke taal die u onderwijst correct krijgt."
       }
     },
     "cta": {
       "title": "Klaar om te beginnen?",
-      "subtitle": "Begin direct met het maken van professionele werkbladen — gratis uitproberen.",
+      "subtitle": "Elke generator is gratis uit te proberen — geen registratie nodig.",
       "button": "Generatoren bekijken"
     },
     "metaKeywords": "K-3 werkbladen, meertalige klas, tweetalig onderwijs, gratis printables, interactieve activiteiten",
     "expertise": {
-      "title": "Gebouwd voor verkopers",
-      "subtitle": "Elke functie is ontworpen om u te helpen meer producten sneller te maken en te verkopen",
+      "title": "Gebouwd voor leerkrachten",
+      "subtitle": "Elke functie is ontworpen om leerkrachten te helpen meer lessen in meer talen te geven, sneller",
       "curriculum": {
-        "title": "Verkoopklare output",
-        "description": "300 DPI PDF-export, automatische antwoordsleutels, KDP-geoptimaliseerde opmaak en grijstintenmodus. Uw output is direct klaar voor Etsy, Amazon KDP of Teachers Pay Teachers."
+        "title": "Klaslokaalklare output",
+        "description": "300 DPI PDF-export, automatische antwoordsleutels, drukklare opmaak en grijstintenmodus. Uw output is direct klaar om te printen, in te sluiten op uw klassensite of LMS, of als link te delen."
       },
       "educators": {
-        "title": "Volledige commerciele rechten",
-        "description": "Elk betaald product bevat onbeperkte commerciele rechten. Verkoop op elk platform, in elke hoeveelheid. Geen naamsvermelding vereist, geen royalties, geen beperkingen."
+        "title": "11 talen, samengesteld door leerkrachten",
+        "description": "Elke taal in onze catalogus is samengesteld door mensen die echt in die taal lesgeven. Lidwoorden, meervouden, geslacht en accenten kloppen — niet automatisch vertaald. Maak authentieke werkbladen in Engels, Duits, Frans, Spaans, Portugees, Italiaans, Nederlands, Zweeds, Deens, Noors of Fins."
       },
       "evidence": {
-        "title": "Eenmalige aankoop",
-        "description": "Geen abonnementen, geen maandelijkse kosten, geen verborgen kosten. Betaal eenmaal en gebruik uw generatoren voor altijd. Alle producten bevatten een 30 dagen geld-terug-garantie."
+        "title": "Geen registratie om te bladeren",
+        "description": "Geen abonnementen, geen maandelijkse kosten, geen verborgen kosten. Blader, voorvertoon en speel elk deck zonder enig account. Een optioneel gratis account voegt werkruimte-functies toe zoals collecties en favorieten."
       }
     }
   },

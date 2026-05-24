@@ -17,11 +17,11 @@
     "blog": "Blog",
     "resourcesDesc": {
       "tools": "Prøv alle vores generatorer online",
-      "guides": "Trin-for-trin salgsguider",
-      "bundles": "Spar med pakker",
-      "ideas": "Inspiration til profitable nicher",
-      "start": "Start din virksomhed",
-      "blog": "Tips og strategier for sælgere"
+      "guides": "Vejledninger til lærere",
+      "bundles": "Kategoripakker",
+      "ideas": "Arbejdsarkidéer efter emne",
+      "start": "Kom i gang",
+      "blog": "Tips og strategier for lærere"
     },
     "pricing": "Priser"
   },
@@ -383,7 +383,7 @@
     },
     "serviceDescription": {
       "title": "2. TJENESTEBESKRIVELSE",
-      "content": "LessonCraftStudio tilbyder værktøjer til at oprette arbejdsark i tre abonnementstyper: Gratis (begrænset), Core (udvidet) og Fuld adgang (ubegrænset)."
+      "content": "LessonCraftStudio leverer arbejdsark- og puslespilsgeneratorer til flersprogede K-3 klasseværelser. Gratis brug dækker personlig, klasseværelses- og ikke-kommerciel brug. Betalte produkter (engangskøb) inkluderer fulde kommercielle rettigheder og aktiveres med en licensnøgle, som sendes til din e-mail efter køb."
     },
     "userAccounts": {
       "title": "3. BRUGERKONTI",
@@ -462,7 +462,7 @@
     "dataCollection": {
       "title": "3. INDSAMLEDE DATA",
       "intro": "Vi indsamler:",
-      "personal": "Kontodata (navn, e-mail)",
+      "personal": "Købsdata (e-mailadresse, navn) — opgives når du køber et produkt via Lemon Squeezy",
       "usage": "Brugsanalyser",
       "technical": "Tekniske data (IP, browser)",
       "cookies": "Cookie-præferencer"
@@ -486,8 +486,8 @@
     "dataSharing": {
       "title": "6. DATADELING",
       "intro": "Begrænset deling med:",
-      "providers": "Tjenesteleverandører (databehandlere)",
-      "payment": "Betalingsprocessorer",
+      "providers": "Lemon Squeezy (betalingsbehandling og ordrelevering)",
+      "payment": "Større kreditkort og PayPal (betalingsbehandling via Lemon Squeezy)",
       "legal": "Myndigheder når påkrævet",
       "consent": "Tredjeparter med samtykke"
     },
@@ -520,11 +520,11 @@
     },
     "children": {
       "title": "11. BØRN",
-      "content": "Tjeneste for undervisere/forældre. Ingen indsamling fra børn under 16."
+      "content": "Vores tjeneste er designet til voksne lærere, forældre og andre undervisere. Vi indsamler ikke bevidst personoplysninger fra personer under 16 år. Vores generatorer skaber indhold beregnet til børn, men drives af voksne."
     },
     "international": {
       "title": "12. INTERNATIONALE OVERFØRSLER",
-      "content": "Data opbevares i EU/EØS. Eksterne overførsler med standardkontraktbestemmelser."
+      "content": "Data opbevares primært i EU/EØS. Når data overføres uden for EU (f.eks. til Lemon Squeezy i USA), er der passende sikkerhedsforanstaltninger såsom standardkontraktbestemmelser på plads."
     },
     "changes": {
       "title": "13. ÆNDRINGER",
@@ -545,8 +545,8 @@
     "grantOfLicense": {
       "title": "1. LICENSTILDELING",
       "intro": "LessonCraftStudio giver dig licens til at bruge genereret indhold baseret på dit abonnement:",
-      "freeTier": "Gratis: Kun personlig ikke-kommerciel uddannelsesbrug",
-      "coreBundle": "Core: Kommerciel uddannelsesbrug inden for din institution",
+      "freeTier": "Gratis brug: Alle generatorer er gratis at bruge. Resultatet er til personlig, klasseværelses- og ikke-kommerciel brug.",
+      "coreBundle": "Betalte produkter (engangskøb): Fulde kommercielle rettigheder. Opret ubegrænset indhold og sælg på enhver platform, du vælger. Ingen kildeangivelse påkrævet.",
       "fullAccess": "Fuld adgang: Ubegrænset kommerciel brug inklusive print-on-demand og videresalg"
     },
     "intellectualProperty": {
@@ -559,13 +559,13 @@
       "reverseEngineer": "Reverse-engineere platformen",
       "competing": "Oprette konkurrerende tjenester",
       "sublicense": "Underlicensere platformsadgang",
-      "removeNotices": "Fjerne vandmærker fra gratis indhold",
+      "removeNotices": "Fjerne eller omgå meddelelser eller identifikatorer på gratisresultatet",
       "illegal": "Bruge til ulovlige formål"
     },
     "commercialDistribution": {
       "title": "4. KOMMERCIEL DISTRIBUTION",
-      "pod": "Print-on-demand: Fuld adgang-abonnenter kan sælge ubegrænset via print-on-demand-platforme.",
-      "digital": "Digital distribution: Alle niveauer kan distribuere digitale versioner ifølge deres licens."
+      "pod": "Print-on-demand-rettigheder: Indehavere af en betalt licens må sælge ubegrænsede kopier af genereret indhold gennem enhver print-on-demand-tjeneste.",
+      "digital": "Digital distribution: Indehavere af en betalt licens må sælge digitale downloads af genereret indhold på enhver platform efter eget valg. Ingen royalties eller kildeangivelse påkrævet."
     },
     "termination": {
       "title": "5. OPSIGELSE",
@@ -605,7 +605,7 @@
       "apps": "Om vores apps",
       "pricing": "Priser & abonnementer",
       "technical": "Teknisk support",
-      "commercial": "Kommerciel brug & licensiering"
+      "commercial": "Klasseværelsesbrug & licensiering"
     },
     "cta": {
       "title": "Har du flere spørgsmål?",
@@ -691,7 +691,7 @@
         ]
       },
       "core": {
-        "description": "Ideel til at opbygge din printable-forretning",
+        "description": "Perfekt til et flersproget klasseværelse",
         "features": [
           "De 10 mest populære generatorer",
           "Ubegrænset antal opgaveark",
@@ -935,7 +935,7 @@
       },
       "CORE": {
         "name": "Standard",
-        "description": "Ideel til at opbygge en printable-produktlinje",
+        "description": "Perfekt til et flersproget klasseværelse",
         "features": [
           "Adgang til 10 populære generatorer",
           "Ubegrænset antal opgaveark",
@@ -1019,7 +1019,7 @@
     "metaDescription": "LessonCraftStudio er en gratis platform til K-3 arbejdsark og interaktive aktiviteter på elleve sprog, bygget til tosprogede, flersprogede og internationale klasseværelser.",
     "hero": {
       "title": "Om LessonCraftStudio",
-      "subtitle": "Professionelle printable-generatorer til Etsy-sælgere, KDP-udgivere og iværksættere"
+      "subtitle": "Gratis K-3 arbejdsark og arbejdsark-generatorer på elleve sprog, til tosprogede, flersprogede og internationale klasseværelser"
     },
     "stats": {
       "generators": "many",
@@ -1033,8 +1033,8 @@
     },
     "mission": {
       "title": "Vores mission",
-      "description": "LessonCraftStudio blev skabt for at hjælpe Etsy-sælgere, KDP-udgivere og printable-iværksættere med at generere professionelle arbejdsark øjeblikkeligt — uden designkompetencer, dyr software eller timevis forberedelse.",
-      "description2": "Vores generatorer skaber printklare PDF-filer i 300 DPI med svarark, tusindvis af temabilleder og flere sprog — alt med kommerciel licens til salg på alle platforme."
+      "description": "LessonCraftStudio giver lærere i tosprogede, flersprogede og internationale klasseværelser værktøjerne til at skabe K-3 arbejdsark og aktiviteter på elevernes andetsprog — uden designkompetencer, dyr software eller timevis af manuelt arbejde. Hver generator skaber printklare arbejdsark og en browserafspilbar interaktiv version fra samme opsætning, på få minutter.",
+      "description2": "Hver generator er gratis for lærere. Ingen abonnementer, ingen tilbagevendende gebyrer, ingen grænser for hvad du skaber. Gennemse, forhåndsvis, download, indlejr og del uden at logge ind."
     },
     "methodology": {
       "title": "Vores tilgang",
@@ -1043,8 +1043,8 @@
         "description": "Vælg et tema, tilpas indstillingerne og generér et printklar arbejdsark på sekunder. Ingen designkompetencer nødvendige."
       },
       "research": {
-        "title": "Professionel kvalitet",
-        "description": "Hver generator producerer salgsklar PDF i 300 DPI med automatiske svarnøgler, KDP-optimeret formatering og gråtonetilstand for omkostningseffektiv udskrivning."
+        "title": "Klasseværelseskvalitet",
+        "description": "Hver generator producerer klasseværelsesklart resultat med korrekt sidestørrelse, høj opløsning, automatiske svarnøgler og ren formatering. Print, indlejr på din klasses websted eller LMS, eller del som et link."
       },
       "inclusive": {
         "title": "Flersproget & inkluderende",
@@ -1054,16 +1054,16 @@
     "audience": {
       "title": "Hvem vi tjener",
       "teachers": {
-        "title": "Etsy- og KDP-sælgere",
-        "description": "Opbyg hurtigt et katalog af printbare produkter. Skab unikke, tematiske arbejdsark der skiller sig ud på markedet."
+        "title": "Tosprogede og flersprogede lærere",
+        "description": "Opbyg et katalog af K-3 arbejdsark og aktiviteter på elevernes andetsprog. Skab fonologisk bevidsthed, matematik og ordforråd på tværs af mange temaer — både printbare PDF-filer og browserafspilbare interaktive versioner fra samme opsætning."
       },
       "parents": {
-        "title": "Personlig brug",
-        "description": "Skab tilpassede arbejdsark til dine børn derhjemme — vælg mellem mange temaer og flere sprog for engagerende læring."
+        "title": "Hjemmeundervisende forældre og privatlærere",
+        "description": "Skab tilpassede K-3 arbejdsark til hjemmeundervisning eller en-til-en-undervisning på sekunder. Hver generator er gratis at bruge — ingen tilmelding påkrævet."
       },
       "therapists": {
-        "title": "Indholdsskabere og udgivere",
-        "description": "Producér professionelle arbejdsbøger og aktivitetshæfter til Amazon KDP, Gumroad eller din egen webshop — med kommerciel licens."
+        "title": "Lærere på internationale skoler",
+        "description": "Lever K-3 arbejdsark og aktiviteter på elleve sprog fra én platform. Hver arbejdsark-generator, mange temaer og et ordforrådssystem der får artikler, plural, køn og accenter rigtigt på hvert sprog, du underviser i."
       }
     },
     "cta": {
@@ -1073,19 +1073,19 @@
     },
     "metaKeywords": "K-3 arbejdsark, flersproget klasseværelse, tosproget undervisning, gratis printbart, interaktive aktiviteter",
     "expertise": {
-      "title": "Bygget til saelgere",
-      "subtitle": "Hver funktion er designet til at hjaelpe dig med at skabe og saelge flere produkter, hurtigere",
+      "title": "Bygget til lærere",
+      "subtitle": "Hver funktion er designet til at hjælpe lærere med at levere flere lektioner på flere sprog, hurtigere",
       "curriculum": {
-        "title": "Salgsklar produktion",
-        "description": "300 DPI PDF-eksport, automatiske svarnogler, KDP-optimeret formatering og graskalatilstand. Din produktion er klar til at publicere pa Etsy, Amazon KDP eller Teachers Pay Teachers med det samme."
+        "title": "Klasseværelsesklart resultat",
+        "description": "300 DPI PDF-eksport, automatiske svarnøgler, printklar formatering og gråtonetilstand. Dit resultat er klar til at printe, indlejre på din klasses websted eller LMS, eller dele som et link med det samme."
       },
       "educators": {
-        "title": "Fulde kommercielle rettigheder",
-        "description": "Hvert betalt produkt inkluderer ubegraensede kommercielle rettigheder. Saelg pa enhver platform, i enhver maengde. Ingen tilskrivning kraevet, ingen royalties, ingen begraensninger."
+        "title": "11 sprog, kurateret af lærere",
+        "description": "Hvert sprog i vores katalog er kurateret af mennesker, der faktisk underviser på det sprog. Artikler, plural, køn og accenter er korrekte — ikke autooversatte. Byg autentiske arbejdsark på engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, dansk, norsk eller finsk."
       },
       "evidence": {
-        "title": "Engangskob",
-        "description": "Ingen abonnementer, ingen manedlige gebyrer, ingen skjulte omkostninger. Betal en gang og brug dine generatorer for evigt. Alle produkter inkluderer en 30 dages pengene-tilbage-garanti."
+        "title": "Ingen tilmelding for at gennemse",
+        "description": "Ingen abonnementer, ingen månedlige gebyrer, ingen skjulte omkostninger. Gennemse, forhåndsvis og afspil ethvert sæt uden konto. En valgfri gratis konto tilføjer arbejdsområde-funktioner som samlinger og favoritter."
       }
     }
   },

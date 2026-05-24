@@ -39,11 +39,11 @@
   },
   "homepage": {
     "meta": {
-      "title": "LessonCraftStudio — Des fiches qui fonctionnent vraiment dans votre seconde langue",
-      "description": "Une bibliothèque d'illustrations K-3 sélectionnées et un système de vocabulaire multilingue avec genre, pluriels et accents corrects. Conçu pour les classes bilingues et les programmes en immersion.",
-      "ogTitle": "Des fiches qui fonctionnent vraiment dans votre seconde langue.",
-      "ogDescription": "Conçu pour les enseignants en programmes bilingues, classes bilingues et écoles internationales.",
-      "ogAlt": "LessonCraftStudio — fiches K-3 en plusieurs langues"
+      "title": "Fiches K-3 gratuites en 11 langues",
+      "description": "Fiches K-3 imprimables et interactives en onze langues — phonologie, mathématiques, vocabulaire. Gratuit. Pour classes bilingues et écoles internationales.",
+      "ogTitle": "LessonCraftStudio — Des fiches K-3 dans votre seconde langue.",
+      "ogDescription": "Phonologie, mathématiques, vocabulaire. PDFs imprimables et activités jouables dans le navigateur. Pour classes bilingues et écoles internationales.",
+      "ogAlt": "LessonCraftStudio — fiches et activités K-3 en 11 langues"
     },
     "hero": {
       "title": "Des fiches en plusieurs langues, imprimables et interactives.",

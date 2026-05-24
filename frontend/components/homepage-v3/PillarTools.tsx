@@ -145,7 +145,7 @@ export default async function PillarTools({ locale }: PillarToolsProps) {
               <div className="hv3-icon-stage mb-5" aria-hidden="true">
                 {tool.icon}
               </div>
-              <h3 className="font-lcsDisplay font-bold text-xl text-lcs-teal mb-2 relative inline-flex items-center gap-2">
+              <h3 className="font-lcsDisplay font-bold text-xl text-lcs-teal mb-2 relative flex items-center gap-2">
                 {tool.name}
                 <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <Sparkle className="text-lcs-coral" size={14} rotate={18} />

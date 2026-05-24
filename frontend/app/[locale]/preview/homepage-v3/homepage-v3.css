@@ -122,25 +122,46 @@
   color: #FBF3E4;
 }
 
-/* Eyebrow chip — small caps coral underline marker. */
+/* Eyebrow chip — small caps coral underline marker.
+   Size ramp 18→20→22px (mobile→tablet→desktop) per 2026-05-25 polish:
+   operator wanted these section labels "twice bigger" so they read as
+   pre-headings rather than micro-labels; deeper teal default lifts
+   contrast on the sage Pillar 3 ground (was #146B5E on #DCE3D3 — both
+   desaturated greens; now teal-deep on sage reads cleanly). */
 .hv3-eyebrow {
   font-family: var(--font-nunito), system-ui, sans-serif;
   font-weight: 700;
-  font-size: 0.75rem;
-  letter-spacing: 0.12em;
+  font-size: 1.125rem;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #146B5E;
+  color: #0E544A;
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.625rem;
+}
+@media (min-width: 768px) {
+  .hv3-eyebrow { font-size: 1.25rem; }
+}
+@media (min-width: 1024px) {
+  .hv3-eyebrow { font-size: 1.375rem; }
 }
 .hv3-eyebrow::before {
   content: '';
   display: inline-block;
-  width: 1.5rem;
-  height: 2px;
+  width: 2.25rem;
+  height: 3px;
   background: #F2784B;
-  border-radius: 1px;
+  border-radius: 1.5px;
+}
+
+/* Dark-ground variant — Pillars 2/4/5 sit on coral/teal-mid/teal-deep
+   where the default coral underline disappears on coral and the
+   teal-deep label disappears on teal-deep. Flip both to cream. */
+.hv3-eyebrow-on-dark {
+  color: #FBF3E4;
+}
+.hv3-eyebrow-on-dark::before {
+  background: #FBF3E4;
 }
 
 /* Pillar number marker — large editorial numeral.

@@ -29,7 +29,7 @@ export default async function SignupV3({ locale }: Props) {
             character waves you off / welcomes you in." */}
         <div
           aria-hidden="true"
-          className="hidden md:block absolute right-2 lg:right-8 top-1/2 -translate-y-1/2 z-10 pointer-events-none w-[280px] lg:w-[340px]"
+          className="hidden lg:block absolute right-2 lg:right-8 top-1/2 -translate-y-1/2 z-10 pointer-events-none w-[280px] lg:w-[340px]"
         >
           <MascotPlaceholder
             size="signup"
@@ -40,7 +40,7 @@ export default async function SignupV3({ locale }: Props) {
 
         <div className="text-center md:text-left md:max-w-2xl">
         <p className="hv3-eyebrow inline-flex items-center" style={{ color: '#FBE3D8' }}>
-          <span style={{ background: '#F2784B' }} className="!w-6 !h-0.5 inline-block" />
+          <span style={{ background: '#F2784B' }} className="!w-9 !h-[3px] inline-block" />
           {t('eyebrow')}
           <Sparkle className="text-lcs-coral ml-2" size={16} rotate={20} />
         </p>

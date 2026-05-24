@@ -66,7 +66,7 @@ export default async function HeroV3({ locale }: HeroV3Props) {
             {/* Headline at editorial billboard scale. Cream on teal. */}
             <h1 className="hv3-anim-fade-up hv3-anim-d2 mt-6 md:mt-8 font-lcsDisplay font-bold text-lcs-cream leading-[1.08] tracking-tight text-[3rem] sm:text-[4rem] md:text-[5rem] lg:text-[5.75rem] xl:text-[6.5rem]">
               <span className="block">
-                {t('h1Line1Before')}<span className="hv3-squiggle-word-on-dark">{t('h1Line1Squiggle')}</span>{t('h1Line1After')}
+                {t('h1Line1Before')}<span className="inline-block whitespace-nowrap"><span className="hv3-squiggle-word-on-dark">{t('h1Line1Squiggle')}</span>{t('h1Line1After')}</span>
               </span>
               <span className="block text-lcs-coral mt-3 md:mt-4">
                 {t('h1Line2')}

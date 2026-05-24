@@ -110,7 +110,7 @@ export default async function PillarInteractive({ locale }: PillarInteractivePro
         <div className="max-w-3xl mb-12 md:mb-16">
           <div className="flex items-center gap-4 mb-4">
             <span className="hv3-pillar-num-cream">02</span>
-            <span className="hv3-eyebrow text-lcs-cream/85">{t('eyebrow')}</span>
+            <span className="hv3-eyebrow hv3-eyebrow-on-dark">{t('eyebrow')}</span>
           </div>
           <h2 className="font-lcsDisplay font-bold text-lcs-cream leading-[1.05] tracking-tight text-[2rem] sm:text-[2.5rem] md:text-[3rem] lg:text-[3.75rem]">
             {t('h2Line1')}<br />

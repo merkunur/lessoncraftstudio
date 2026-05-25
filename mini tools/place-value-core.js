@@ -38,33 +38,36 @@
    ===================================================================== */
 window.PlaceValueCore = {
 
-  /* EN + DE + ES shipped. Additional locales fan-out one at a time per the
-     §A.13.48 plan-mode-per-locale + 3-agent ensemble discipline. Engine
-     falls back to `en` via api.t() if any unfilled locale routes here.
-     The manifest row's `slug` map gates URL resolution before the engine
-     ever boots — if a locale lacks a slug, /<locale>/activities/... 404s. */
+  /* EN + DE + ES + IT shipped. Additional locales fan-out one at a time
+     per the §A.13.48 plan-mode-per-locale + 3-agent ensemble discipline.
+     Engine falls back to `en` via api.t() if any unfilled locale routes
+     here. The manifest row's `slug` map gates URL resolution before the
+     engine ever boots — if a locale lacks a slug, /<locale>/activities/...
+     404s. */
   strings: {
-    title:        { en: 'Place Value', de: 'Stellenwert', es: 'Valor posicional' },
+    title:        { en: 'Place Value', de: 'Stellenwert', es: 'Valor posicional', it: 'Valore posizionale' },
     instruction:  {
       en: 'Tap to add tens and ones. Tap a block to remove it.',
       de: 'Tippe, um Zehner und Einer hinzuzufügen. Tippe auf einen Stein, um ihn zu entfernen.',
-      es: 'Toca para añadir decenas y unidades. Toca un bloque para quitarlo.'
+      es: 'Toca para añadir decenas y unidades. Toca un bloque para quitarlo.',
+      it: 'Tocca per aggiungere decine e unità. Tocca un blocco per rimuoverlo.'
     },
-    tensLabel:    { en: 'Tens',     de: 'Zehner',              es: 'Decenas' },
-    onesLabel:    { en: 'Ones',     de: 'Einer',               es: 'Unidades' },
-    buildLabel:   { en: 'Build',    de: 'Wert',                es: 'Valor' },
-    addTenLabel:  { en: 'Add ten',  de: 'Zehner hinzufügen',   es: 'Añadir una decena' },
-    addOneLabel:  { en: 'Add one',  de: 'Einer hinzufügen',    es: 'Añadir una unidad' },
+    tensLabel:    { en: 'Tens',     de: 'Zehner',              es: 'Decenas',                 it: 'Decine' },
+    onesLabel:    { en: 'Ones',     de: 'Einer',               es: 'Unidades',                it: 'Unità' },
+    buildLabel:   { en: 'Build',    de: 'Wert',                es: 'Valor',                   it: 'Valore' },
+    addTenLabel:  { en: 'Add ten',  de: 'Zehner hinzufügen',   es: 'Añadir una decena',       it: 'Aggiungi una decina' },
+    addOneLabel:  { en: 'Add one',  de: 'Einer hinzufügen',    es: 'Añadir una unidad',       it: 'Aggiungi una unità' },
     /* wordTen / wordOne are the placed-unit names spoken on tap. DE + ES
-       use the place-unit nouns (NOT cardinals) to reinforce the 1.NBT.B.2
-       place-value vocabulary the activity teaches and to match the column
-       labels the kid sees. ES "decena" / "unidad" both feminine singular. */
-    wordTen:      { en: 'ten',      de: 'Zehner',              es: 'decena' },
-    wordOne:      { en: 'one',      de: 'Einer',               es: 'unidad' },
+       + IT use the place-unit nouns (NOT cardinals) to reinforce the
+       1.NBT.B.2 place-value vocabulary the activity teaches and to match
+       the column labels the kid sees. ES "decena/unidad" + IT "decina/
+       unità" both feminine singular. */
+    wordTen:      { en: 'ten',      de: 'Zehner',              es: 'decena',                  it: 'decina' },
+    wordOne:      { en: 'one',      de: 'Einer',               es: 'unidad',                  it: 'unità' },
     /* Screen-reader fragments for placed-block aria-labels. */
-    srTenRod:     { en: 'ten-rod',  de: 'Zehnerstab',          es: 'barra de diez' },
-    srUnitCube:   { en: 'unit-cube',de: 'Einerwürfel',         es: 'cubo de uno' },
-    srRemove:     { en: 'remove',   de: 'entferne',            es: 'quitar' }
+    srTenRod:     { en: 'ten-rod',  de: 'Zehnerstab',          es: 'barra de diez',           it: 'barra di dieci' },
+    srUnitCube:   { en: 'unit-cube',de: 'Einerwürfel',         es: 'cubo de uno',             it: 'cubo da uno' },
+    srRemove:     { en: 'remove',   de: 'entferne',            es: 'quitar',                  it: 'rimuovi' }
   },
 
   defaults: {},
@@ -164,83 +167,108 @@ window.PlaceValueCore = {
   },
 
   /* Number-words 0-99 for the celebration speech, per-locale.
-       lang  = 'en' | 'de' | 'es' | … (default: this.language || 'en')
+       lang  = 'en' | 'de' | 'es' | 'it' | … (default: this.language || 'en')
        mode  = 'cardinal' (default) | 'attributive' | 'attributive-fem'
        capitalize = boolean (capitalize first letter; e.g. sentence-start "Ein")
-     EN: mode is ignored (cardinal === attributive in English).
-     DE: mode = 'attributive' returns 'ein' (the form before a masculine
-         noun like Zehner / Einer); mode = 'cardinal' returns 'eins' (the
-         standalone counting word). Compound forms 20-99 always use the
-         attributive 'ein' internally (einundzwanzig), regardless of mode.
-     ES: mode = 'attributive-fem' returns 'una' for 1 (feminine, before
-         feminine nouns like decena / unidad) and 'cero' for 0; otherwise
-         identical to cardinal. The full 0-99 cardinal handles compound
-         numbers per Spanish grammar (16-29 are single contracted words
-         with accents; 30+ uses "<tens> y <ones>").
-     Localized tables fan out per the §14.3a.2 number-word convention;
-     promotion to a per-locale lookup config at the 4th-locale fan-out
-     per §A.13's refactor-during-already-opened-surface threshold. */
+
+     At the 4th-locale fan-out (IT), the per-locale logic was promoted from
+     inline if/else branches into a `_NUMBER_WORD_HELPERS` config table per
+     §A.13's refactor-during-already-opened-surface doctrine. Adding a new
+     locale = add one entry to `_NUMBER_WORD_HELPERS`. The dispatcher below
+     stays trivial.
+
+     Per-locale grammar:
+       EN: mode is ignored (cardinal === attributive in English).
+       DE: mode = 'attributive' returns 'ein' before masculine nouns (Zehner
+           / Einer); mode = 'cardinal' returns 'eins' standalone. Compound
+           20-99 is units-first: 'einundzwanzig' (1 + 'und' + 20).
+       ES: mode = 'attributive-fem' returns 'una' for 1 (feminine, before
+           decena/unidad) and 'cero' for 0; cardinal handles compounds via
+           <tens> y <ones>.
+       IT: mode = 'attributive-fem' returns 'una' for 1 (feminine, before
+           decina/unità) and 'zero' for 0; cardinal handles compounds with
+           vowel-elision before uno (1) and otto (8) — e.g. venti+uno =
+           'ventuno', trenta+otto = 'trentotto'. Compound `tre` takes the
+           grave-é accent: ventitré, trentatré, ..., novantatré. */
   _numberWord: function (n, lang, mode, capitalize) {
     lang = lang || (this && this.language) || 'en';
     mode = mode || 'cardinal';
     if (n < 0 || n > 99) return String(n);
-    var word;
-    if (lang === 'de') {
+    var helper = (this._NUMBER_WORD_HELPERS && this._NUMBER_WORD_HELPERS[lang])
+                  ? this._NUMBER_WORD_HELPERS[lang]
+                  : this._NUMBER_WORD_HELPERS.en;
+    var word = helper(n, mode);
+    if (capitalize && word && word.length > 0) {
+      word = word.charAt(0).toUpperCase() + word.slice(1);
+    }
+    return word;
+  },
+
+  _NUMBER_WORD_HELPERS: {
+    en: function (n, mode) {
+      /* 0-19 lookup; 20-99 = tens-word + "-" + ones-word (or tens-word
+         alone when ones===0). mode is ignored (cardinal===attributive). */
+      var ones = ['zero','one','two','three','four','five','six','seven','eight','nine',
+                  'ten','eleven','twelve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen'];
+      var tens = ['','','twenty','thirty','forty','fifty','sixty','seventy','eighty','ninety'];
+      if (n < 20) return ones[n];
+      var t = Math.floor(n / 10), o = n % 10;
+      return (o === 0) ? tens[t] : (tens[t] + '-' + ones[o]);
+    },
+    de: function (n, mode) {
+      /* Units-first compound: 'einundzwanzig' = 1 + 'und' + 20. */
       var onesCard = ['null','eins','zwei','drei','vier','fünf','sechs','sieben','acht','neun'];
       var onesAttr = ['null','ein', 'zwei','drei','vier','fünf','sechs','sieben','acht','neun'];
       var teens    = ['zehn','elf','zwölf','dreizehn','vierzehn','fünfzehn','sechzehn','siebzehn','achtzehn','neunzehn'];
-      var tensDE   = ['','','zwanzig','dreißig','vierzig','fünfzig','sechzig','siebzig','achtzig','neunzig'];
-      if (n < 10) {
-        word = (mode === 'attributive') ? onesAttr[n] : onesCard[n];
-      } else if (n < 20) {
-        word = teens[n - 10];
-      } else {
-        var tDE = Math.floor(n / 10), oDE = n % 10;
-        if (oDE === 0) word = tensDE[tDE];
-        else word = onesAttr[oDE] + 'und' + tensDE[tDE];  // e.g. einundzwanzig
-      }
-    } else if (lang === 'es') {
-      /* 0-29 direct lookup table (irregular forms 11-15 + dieci-16-19 +
-         veinti-21-29 are single contracted words). 30+ uses <tens> y <ones>.
-         Accents (dieciséis, veintidós, veintitrés, veintiséis) embedded as
-         literal Unicode per the no-\uXXXX-escapes rule in MEMORY.md. */
-      var lookupES = [
+      var tens     = ['','','zwanzig','dreißig','vierzig','fünfzig','sechzig','siebzig','achtzig','neunzig'];
+      if (n < 10) return (mode === 'attributive') ? onesAttr[n] : onesCard[n];
+      if (n < 20) return teens[n - 10];
+      var t = Math.floor(n / 10), o = n % 10;
+      if (o === 0) return tens[t];
+      return onesAttr[o] + 'und' + tens[t];  // e.g. einundzwanzig
+    },
+    es: function (n, mode) {
+      /* 0-29 lookup (irregulars 11-15 + dieci-16-19 + veinti-21-29 are
+         single contracted words). 30+ uses <tens> y <ones>. */
+      var lookup = [
         'cero','uno','dos','tres','cuatro','cinco','seis','siete','ocho','nueve',
         'diez','once','doce','trece','catorce','quince',
         'dieciséis','diecisiete','dieciocho','diecinueve',
         'veinte','veintiuno','veintidós','veintitrés','veinticuatro',
         'veinticinco','veintiséis','veintisiete','veintiocho','veintinueve'
       ];
-      /* For 0-9 in attributive-feminine mode: 0 -> "cero" (no infl change),
-         1 -> "una" (feminine), 2-9 same as cardinal. */
-      var attrFemES = ['cero','una','dos','tres','cuatro','cinco','seis','siete','ocho','nueve'];
-      var tensES = ['','','veinte','treinta','cuarenta','cincuenta','sesenta','setenta','ochenta','noventa'];
-      if (n < 10) {
-        word = (mode === 'attributive-fem') ? attrFemES[n] : lookupES[n];
-      } else if (n < 30) {
-        word = lookupES[n];
-      } else {
-        var tES = Math.floor(n / 10), oES = n % 10;
-        if (oES === 0) word = tensES[tES];
-        else word = tensES[tES] + ' y ' + lookupES[oES];  // e.g. cuarenta y siete
-      }
-    } else {
-      /* EN default: 0-19 lookup; 20-99 = tens-word + "-" + ones-word (or
-         tens-word alone when ones===0). */
-      var onesEN = ['zero','one','two','three','four','five','six','seven','eight','nine',
-                    'ten','eleven','twelve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen'];
-      var tensEN = ['','','twenty','thirty','forty','fifty','sixty','seventy','eighty','ninety'];
-      if (n < 20) {
-        word = onesEN[n];
-      } else {
-        var tEN = Math.floor(n / 10), oEN = n % 10;
-        word = (oEN === 0) ? tensEN[tEN] : (tensEN[tEN] + '-' + onesEN[oEN]);
-      }
+      var attrFem = ['cero','una','dos','tres','cuatro','cinco','seis','siete','ocho','nueve'];
+      var tens = ['','','veinte','treinta','cuarenta','cincuenta','sesenta','setenta','ochenta','noventa'];
+      if (n < 10) return (mode === 'attributive-fem') ? attrFem[n] : lookup[n];
+      if (n < 30) return lookup[n];
+      var t = Math.floor(n / 10), o = n % 10;
+      if (o === 0) return tens[t];
+      return tens[t] + ' y ' + lookup[o];  // e.g. cuarenta y siete
+    },
+    it: function (n, mode) {
+      /* 0-19 lookup. 20-99 = tens-word + ones-word with TWO grammar rules:
+         (a) When ones is 1 or 8, drop the final vowel of the tens-word
+             (vowel elision): venti+uno=ventuno, venti+otto=ventotto,
+             trenta+uno=trentuno, ..., ottanta+otto=ottantotto.
+         (b) When ones is 3, the ones-word in compound position takes the
+             grave-é accent: ventitré, trentatré, ..., novantatré. */
+      var lookup = [
+        'zero','uno','due','tre','quattro','cinque','sei','sette','otto','nove',
+        'dieci','undici','dodici','tredici','quattordici','quindici',
+        'sedici','diciassette','diciotto','diciannove'
+      ];
+      var attrFem = ['zero','una','due','tre','quattro','cinque','sei','sette','otto','nove'];
+      var tens = ['','','venti','trenta','quaranta','cinquanta','sessanta','settanta','ottanta','novanta'];
+      /* Compound-position ones forms: same as standalone except 3 → 'tré'. */
+      var onesForCompound = ['','uno','due','tré','quattro','cinque','sei','sette','otto','nove'];
+      if (n < 10) return (mode === 'attributive-fem') ? attrFem[n] : lookup[n];
+      if (n < 20) return lookup[n];
+      var t = Math.floor(n / 10), o = n % 10;
+      if (o === 0) return tens[t];
+      var tensStr = tens[t];
+      if (o === 1 || o === 8) tensStr = tensStr.slice(0, -1);  // elision: ventuno, ventotto
+      return tensStr + onesForCompound[o];
     }
-    if (capitalize && word && word.length > 0) {
-      word = word.charAt(0).toUpperCase() + word.slice(1);
-    }
-    return word;
   },
 
   /* Speak the full decomposition on correct Check, per-locale.
@@ -257,13 +285,29 @@ window.PlaceValueCore = {
           decena → decenas (-s), unidad → unidades (-es after consonant);
           "cero" takes the plural form ("cero decenas" / "cero unidades")
           per the 1.NBT.B.2.C decade case; plural verb "son")
+     IT: "una decina e due unità fanno dodici"
+         (tens-first; mixed inflection within one locale — decina/decine
+          INFLECTS for number (1st-declension feminine -a → -e), unità is
+          INVARIANT (stressed -à doesn't decline). "una" attributive
+          feminine for 1; "zero" for 0; 0 takes plural decine per the
+          decade case. Plural verb "fanno". Non-elided "una unità" form
+          per the operator spec — classroom-acceptable K-3 register.)
      Type 'ui' for instruction-shaped sentences per lcs-shell.js TYPES;
      TTS picks the voice from the `lang` parameter. */
   speakDecomposition: function () {
     if (!window.LCSAudio || !window.LCSAudio.speak) return;
     var lang = this.language;
     var sentence;
-    if (lang === 'es') {
+    if (lang === 'it') {
+      var tensWordIT   = this._numberWord(this.targetTens,   'it', 'attributive-fem', false);
+      var onesWordIT   = this._numberWord(this.targetOnes,   'it', 'attributive-fem', false);
+      var targetWordIT = this._numberWord(this.targetNumber, 'it', 'cardinal',         false);
+      /* decina inflects: 1 → decina (singular), 0 or 2+ → decine (plural). */
+      var tensPartIT = tensWordIT + ' decin' + (this.targetTens === 1 ? 'a' : 'e');
+      /* unità INVARIANT regardless of number. */
+      var onesPartIT = onesWordIT + ' unità';
+      sentence = tensPartIT + ' e ' + onesPartIT + ' fanno ' + targetWordIT;
+    } else if (lang === 'es') {
       var tensWordES   = this._numberWord(this.targetTens,   'es', 'attributive-fem', false);
       var onesWordES   = this._numberWord(this.targetOnes,   'es', 'attributive-fem', false);
       var targetWordES = this._numberWord(this.targetNumber, 'es', 'cardinal',         false);

@@ -38,36 +38,37 @@
    ===================================================================== */
 window.PlaceValueCore = {
 
-  /* EN + DE + ES + IT shipped. Additional locales fan-out one at a time
-     per the §A.13.48 plan-mode-per-locale + 3-agent ensemble discipline.
-     Engine falls back to `en` via api.t() if any unfilled locale routes
-     here. The manifest row's `slug` map gates URL resolution before the
-     engine ever boots — if a locale lacks a slug, /<locale>/activities/...
-     404s. */
+  /* EN + DE + ES + IT + FR shipped. Additional locales fan-out one at a
+     time per the §A.13.48 plan-mode-per-locale + 3-agent ensemble
+     discipline. Engine falls back to `en` via api.t() if any unfilled
+     locale routes here. The manifest row's `slug` map gates URL resolution
+     before the engine ever boots — if a locale lacks a slug,
+     /<locale>/activities/... 404s. */
   strings: {
-    title:        { en: 'Place Value', de: 'Stellenwert', es: 'Valor posicional', it: 'Valore posizionale' },
+    title:        { en: 'Place Value', de: 'Stellenwert', es: 'Valor posicional', it: 'Valore posizionale', fr: 'Valeur de position' },
     instruction:  {
       en: 'Tap to add tens and ones. Tap a block to remove it.',
       de: 'Tippe, um Zehner und Einer hinzuzufügen. Tippe auf einen Stein, um ihn zu entfernen.',
       es: 'Toca para añadir decenas y unidades. Toca un bloque para quitarlo.',
-      it: 'Tocca per aggiungere decine e unità. Tocca un blocco per rimuoverlo.'
+      it: 'Tocca per aggiungere decine e unità. Tocca un blocco per rimuoverlo.',
+      fr: 'Touche pour ajouter des dizaines et des unités. Touche un bloc pour le retirer.'
     },
-    tensLabel:    { en: 'Tens',     de: 'Zehner',              es: 'Decenas',                 it: 'Decine' },
-    onesLabel:    { en: 'Ones',     de: 'Einer',               es: 'Unidades',                it: 'Unità' },
-    buildLabel:   { en: 'Build',    de: 'Wert',                es: 'Valor',                   it: 'Valore' },
-    addTenLabel:  { en: 'Add ten',  de: 'Zehner hinzufügen',   es: 'Añadir una decena',       it: 'Aggiungi una decina' },
-    addOneLabel:  { en: 'Add one',  de: 'Einer hinzufügen',    es: 'Añadir una unidad',       it: 'Aggiungi una unità' },
+    tensLabel:    { en: 'Tens',     de: 'Zehner',              es: 'Decenas',                 it: 'Decine',                                              fr: 'Dizaines' },
+    onesLabel:    { en: 'Ones',     de: 'Einer',               es: 'Unidades',                it: 'Unità',                                               fr: 'Unités' },
+    buildLabel:   { en: 'Build',    de: 'Wert',                es: 'Valor',                   it: 'Valore',                                              fr: 'Valeur' },
+    addTenLabel:  { en: 'Add ten',  de: 'Zehner hinzufügen',   es: 'Añadir una decena',       it: 'Aggiungi una decina',                                 fr: 'Ajoute une dizaine' },
+    addOneLabel:  { en: 'Add one',  de: 'Einer hinzufügen',    es: 'Añadir una unidad',       it: 'Aggiungi una unità',                                  fr: 'Ajoute une unité' },
     /* wordTen / wordOne are the placed-unit names spoken on tap. DE + ES
-       + IT use the place-unit nouns (NOT cardinals) to reinforce the
-       1.NBT.B.2 place-value vocabulary the activity teaches and to match
-       the column labels the kid sees. ES "decena/unidad" + IT "decina/
-       unità" both feminine singular. */
-    wordTen:      { en: 'ten',      de: 'Zehner',              es: 'decena',                  it: 'decina' },
-    wordOne:      { en: 'one',      de: 'Einer',               es: 'unidad',                  it: 'unità' },
+       + IT + FR all use the place-unit nouns (NOT cardinals) to reinforce
+       the 1.NBT.B.2 place-value vocabulary the activity teaches and to
+       match the column labels the kid sees. ES "decena/unidad", IT
+       "decina/unità", FR "dizaine/unité" all feminine singular. */
+    wordTen:      { en: 'ten',      de: 'Zehner',              es: 'decena',                  it: 'decina',                                              fr: 'dizaine' },
+    wordOne:      { en: 'one',      de: 'Einer',               es: 'unidad',                  it: 'unità',                                               fr: 'unité' },
     /* Screen-reader fragments for placed-block aria-labels. */
-    srTenRod:     { en: 'ten-rod',  de: 'Zehnerstab',          es: 'barra de diez',           it: 'barra di dieci' },
-    srUnitCube:   { en: 'unit-cube',de: 'Einerwürfel',         es: 'cubo de uno',             it: 'cubo da uno' },
-    srRemove:     { en: 'remove',   de: 'entferne',            es: 'quitar',                  it: 'rimuovi' }
+    srTenRod:     { en: 'ten-rod',  de: 'Zehnerstab',          es: 'barra de diez',           it: 'barra di dieci',                                      fr: 'barre de dix' },
+    srUnitCube:   { en: 'unit-cube',de: 'Einerwürfel',         es: 'cubo de uno',             it: 'cubo da uno',                                         fr: 'cube unité' },
+    srRemove:     { en: 'remove',   de: 'entferne',            es: 'quitar',                  it: 'rimuovi',                                             fr: 'retire' }
   },
 
   defaults: {},
@@ -268,6 +269,52 @@ window.PlaceValueCore = {
       var tensStr = tens[t];
       if (o === 1 || o === 8) tensStr = tensStr.slice(0, -1);  // elision: ventuno, ventotto
       return tensStr + onesForCompound[o];
+    },
+    fr: function (n, mode) {
+      /* Standard France French. Handles:
+         - 0-19 direct lookup (irregulars: 11 onze, 12 douze, …, 16 seize;
+           17-19 are compound dix-sept / dix-huit / dix-neuf).
+         - 20-69 regular pattern: <tens-word> + connector + <ones-word>.
+             ones === 1 → " et un" (NO hyphen, with "et"): 21 vingt et un, …
+             ones === 2-9 → "-" + ones-word: 22 vingt-deux, 47 quarante-sept.
+         - 70-79 vigesimal: "soixante" + (10..19). 70=soixante-dix; 71 with
+           "et" → "soixante et onze"; 72 soixante-douze; 79 soixante-dix-neuf.
+         - 80: "quatre-vingts" with -s ONLY at exact 80.
+         - 81-89: "quatre-vingt-" + ones-word (NO -s, NO "et"). 81=quatre-
+           vingt-un, 89=quatre-vingt-neuf.
+         - 90-99: "quatre-vingt-" + (10..19) (NO "et" even at 91). 90=quatre-
+           vingt-dix, 91=quatre-vingt-onze, 99=quatre-vingt-dix-neuf.
+         - attributive-fem: 0→"zéro", 1→"une" (feminine of "un"); 2-9 = cardinal. */
+      var lookup = [
+        'zéro','un','deux','trois','quatre','cinq','six','sept','huit','neuf',
+        'dix','onze','douze','treize','quatorze','quinze','seize',
+        'dix-sept','dix-huit','dix-neuf'
+      ];
+      var attrFem = ['zéro','une','deux','trois','quatre','cinq','six','sept','huit','neuf'];
+      var tens20to60 = ['','','vingt','trente','quarante','cinquante','soixante'];
+      if (n < 10) return (mode === 'attributive-fem') ? attrFem[n] : lookup[n];
+      if (n < 20) return lookup[n];
+      var t = Math.floor(n / 10), o = n % 10;
+      if (t >= 2 && t <= 6) {
+        /* 20-69 */
+        if (o === 0) return tens20to60[t];
+        if (o === 1) return tens20to60[t] + ' et un';
+        return tens20to60[t] + '-' + lookup[o];
+      }
+      if (t === 7) {
+        /* 70-79 = soixante + (10..19); "soixante et onze" at 71 */
+        if (o === 0) return 'soixante-dix';
+        if (o === 1) return 'soixante et onze';
+        return 'soixante-' + lookup[10 + o];
+      }
+      if (t === 8) {
+        /* 80 = "quatre-vingts" with -s; 81-89 = "quatre-vingt-" + ones (no -s, no "et") */
+        if (o === 0) return 'quatre-vingts';
+        return 'quatre-vingt-' + lookup[o];
+      }
+      /* t === 9: 90-99 = "quatre-vingt-" + (10..19), NO "et" */
+      if (o === 0) return 'quatre-vingt-dix';
+      return 'quatre-vingt-' + lookup[10 + o];
     }
   },
 
@@ -292,13 +339,31 @@ window.PlaceValueCore = {
           feminine for 1; "zero" for 0; 0 takes plural decine per the
           decade case. Plural verb "fanno". Non-elided "una unità" form
           per the operator spec — classroom-acceptable K-3 register.)
+     FR: "une dizaine et deux unités font douze"
+         (tens-first; BOTH nouns inflect — dizaine/dizaines, unité/unités.
+          "une" attributive feminine for 1; "zéro" for 0. DIFFERENCE from
+          ES/IT/DE/EN: SINGULAR noun after "zéro" per standard French
+          grammar — "zéro unité" not "zéro unités" (zéro treated as <1 in
+          agreement). Plural verb "font". Cardinal target via the FR
+          number-word helper handles irregular forms soixante-douze,
+          quatre-vingt-neuf, quatre-vingt-onze etc.)
      Type 'ui' for instruction-shaped sentences per lcs-shell.js TYPES;
      TTS picks the voice from the `lang` parameter. */
   speakDecomposition: function () {
     if (!window.LCSAudio || !window.LCSAudio.speak) return;
     var lang = this.language;
     var sentence;
-    if (lang === 'it') {
+    if (lang === 'fr') {
+      var tensWordFR   = this._numberWord(this.targetTens,   'fr', 'attributive-fem', false);
+      var onesWordFR   = this._numberWord(this.targetOnes,   'fr', 'attributive-fem', false);
+      var targetWordFR = this._numberWord(this.targetNumber, 'fr', 'cardinal',         false);
+      /* FR inflection: 0 or 1 → singular noun; 2+ → plural. Singular after
+         "zéro" is the FR-specific decade-case rule (zéro treated as <1 in
+         agreement) — different from ES/IT/DE/EN which take plural after 0. */
+      var tensPartFR = tensWordFR + ' dizaine' + (this.targetTens >= 2 ? 's' : '');
+      var onesPartFR = onesWordFR + ' unité'   + (this.targetOnes >= 2 ? 's' : '');
+      sentence = tensPartFR + ' et ' + onesPartFR + ' font ' + targetWordFR;
+    } else if (lang === 'it') {
       var tensWordIT   = this._numberWord(this.targetTens,   'it', 'attributive-fem', false);
       var onesWordIT   = this._numberWord(this.targetOnes,   'it', 'attributive-fem', false);
       var targetWordIT = this._numberWord(this.targetNumber, 'it', 'cardinal',         false);

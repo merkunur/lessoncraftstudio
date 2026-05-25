@@ -22,21 +22,22 @@
    segment->blend pattern.
    ===================================================================== */
 
-/* Localized chrome strings for activity tasks. EN + DE + ES + IT shipped.
-   Additional locales fan out one at a time per the §A.13.48 plan-mode-
-   per-locale + 3-agent native ensemble discipline. Warm K-3 register:
-   "du" form for DE; "tú" form for ES; "tu" form for IT — mirrors choice-
-   board / ten-frame precedent. */
+/* Localized chrome strings for activity tasks. EN + DE + ES + IT + FR
+   shipped. Additional locales fan out one at a time per the §A.13.48
+   plan-mode-per-locale + 3-agent native ensemble discipline. Warm K-3
+   register: "du" form for DE; "tú" form for ES; "tu" form for IT/FR —
+   mirrors choice-board / ten-frame precedent. */
 var ACTIVITY_STRINGS = {
-  taskBuild:      { en: 'Build {n}',                       de: 'Baue {n}',                                            es: 'Construye {n}',                                       it: 'Costruisci {n}' },
-  hintBuildMore:  { en: 'Keep going — you need more',      de: 'Mach weiter — du brauchst mehr',                      es: 'Sigue — necesitas más',                               it: 'Continua — ti servono di più' },
-  hintTooMany:    { en: 'Too many — take some away',       de: 'Zu viele — nimm einige weg',                          es: 'Demasiados — quita algunos',                          it: 'Troppi — togline qualcuno' },
+  taskBuild:      { en: 'Build {n}',                       de: 'Baue {n}',                                            es: 'Construye {n}',                                       it: 'Costruisci {n}',                                       fr: 'Construis {n}' },
+  hintBuildMore:  { en: 'Keep going — you need more',      de: 'Mach weiter — du brauchst mehr',                      es: 'Sigue — necesitas más',                               it: 'Continua — ti servono di più',                        fr: 'Continue — il en faut plus' },
+  hintTooMany:    { en: 'Too many — take some away',       de: 'Zu viele — nimm einige weg',                          es: 'Demasiados — quita algunos',                          it: 'Troppi — togline qualcuno',                           fr: 'Trop — enlève-en' },
   /* hintBundleTen is defensive (unreachable with maxOnes=9), but kept
      so a future grade-2 extension that lifts the cap can lean on it. */
   hintBundleTen:  { en: 'Ten ones make one ten — bundle them',
                     de: 'Zehn Einer ergeben einen Zehner — bündele sie',
                     es: 'Diez unidades forman una decena — agrúpalas',
-                    it: 'Dieci unità fanno una decina — raggruppale' }
+                    it: 'Dieci unità fanno una decina — raggruppale',
+                    fr: 'Dix unités font une dizaine — regroupe-les' }
 };
 
 /* Fallback static task set when no ?activity= is given. Mirrors the
@@ -89,13 +90,15 @@ window.PlaceValueActivity = Object.assign({}, PlaceValueCore, {
       en: 'Place Value Activity',
       de: 'Stellenwert-Aufgaben',
       es: 'Actividad de valor posicional',
-      it: 'Attività di valore posizionale'
+      it: 'Attività di valore posizionale',
+      fr: 'Activité de valeur de position'
     },
     instruction: {
       en: 'Follow the prompt. Tap Check when you’re ready.',
       de: 'Folge der Aufforderung. Tippe auf Prüfen, wenn du fertig bist.',
       es: 'Sigue la indicación. Toca Comprobar cuando estés listo.',
-      it: 'Segui l\'istruzione. Tocca Verifica quando sei pronto.'
+      it: 'Segui l\'istruzione. Tocca Verifica quando sei pronto.',
+      fr: 'Suis la consigne. Touche Vérifier quand tu es prêt.'
     }
   }),
 

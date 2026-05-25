@@ -13,15 +13,18 @@
     "theme": null,
     "slug": {
       "en": "tens-and-ones",
-      "de": "zehner-und-einer"
+      "de": "zehner-und-einer",
+      "es": "decenas-y-unidades"
     },
     "page_title": {
       "en": "Tens and Ones",
-      "de": "Zehner und Einer"
+      "de": "Zehner und Einer",
+      "es": "Decenas y unidades"
     },
     "page_intro": {
       "en": "Build each number using tens and ones. Tap to add a ten-rod or a unit-cube — and watch the number grow.",
-      "de": "Baue jede Zahl mit Zehnern und Einern. Tippe, um einen Zehnerstab oder einen Einerwürfel hinzuzufügen — und sieh zu, wie die Zahl wächst."
+      "de": "Baue jede Zahl mit Zehnern und Einern. Tippe, um einen Zehnerstab oder einen Einerwürfel hinzuzufügen — und sieh zu, wie die Zahl wächst.",
+      "es": "Construye cada número usando decenas y unidades. Toca para añadir una barra de diez o un cubo de uno — y mira cómo crece el número."
     },
     "kid_prompt_template": "taskBuild"
   }

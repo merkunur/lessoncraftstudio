@@ -22,18 +22,20 @@
    segment->blend pattern.
    ===================================================================== */
 
-/* Localized chrome strings for activity tasks. EN + DE shipped.
+/* Localized chrome strings for activity tasks. EN + DE + ES shipped.
    Additional locales fan out one at a time per the §A.13.48 plan-mode-
-   per-locale + 3-agent native ensemble discipline. Warm K-3 "du"-form
-   register for DE matching the choice-board / ten-frame precedent. */
+   per-locale + 3-agent native ensemble discipline. Warm K-3 register:
+   "du" form for DE; "tú" form for ES — mirrors choice-board / ten-frame
+   precedent. */
 var ACTIVITY_STRINGS = {
-  taskBuild:      { en: 'Build {n}',                       de: 'Baue {n}' },
-  hintBuildMore:  { en: 'Keep going — you need more',      de: 'Mach weiter — du brauchst mehr' },
-  hintTooMany:    { en: 'Too many — take some away',       de: 'Zu viele — nimm einige weg' },
+  taskBuild:      { en: 'Build {n}',                       de: 'Baue {n}',                                            es: 'Construye {n}' },
+  hintBuildMore:  { en: 'Keep going — you need more',      de: 'Mach weiter — du brauchst mehr',                      es: 'Sigue — necesitas más' },
+  hintTooMany:    { en: 'Too many — take some away',       de: 'Zu viele — nimm einige weg',                          es: 'Demasiados — quita algunos' },
   /* hintBundleTen is defensive (unreachable with maxOnes=9), but kept
      so a future grade-2 extension that lifts the cap can lean on it. */
   hintBundleTen:  { en: 'Ten ones make one ten — bundle them',
-                    de: 'Zehn Einer ergeben einen Zehner — bündele sie' }
+                    de: 'Zehn Einer ergeben einen Zehner — bündele sie',
+                    es: 'Diez unidades forman una decena — agrúpalas' }
 };
 
 /* Fallback static task set when no ?activity= is given. Mirrors the
@@ -82,10 +84,15 @@ function makeBuildTasks(targets, idPrefix) {
 window.PlaceValueActivity = Object.assign({}, PlaceValueCore, {
   id: 'place-value-activity',
   strings: Object.assign({}, PlaceValueCore.strings, ACTIVITY_STRINGS, {
-    title:       { en: 'Place Value Activity', de: 'Stellenwert-Aufgaben' },
+    title:       {
+      en: 'Place Value Activity',
+      de: 'Stellenwert-Aufgaben',
+      es: 'Actividad de valor posicional'
+    },
     instruction: {
       en: 'Follow the prompt. Tap Check when you’re ready.',
-      de: 'Folge der Aufforderung. Tippe auf Prüfen, wenn du fertig bist.'
+      de: 'Folge der Aufforderung. Tippe auf Prüfen, wenn du fertig bist.',
+      es: 'Sigue la indicación. Toca Comprobar cuando estés listo.'
     }
   }),
 

@@ -234,5 +234,36 @@
     "page_title": { "sv": "Bygg ordet av stavelser — Fonetik i förskoleklass" },
     "page_intro": { "sv": "Titta på bilden och bygg ordet genom att lägga stavelserna i rätt ordning. Anpassat efter Common Core RF.K.2.B — räkna, uttala, blanda och dela upp stavelser i talade ord." },
     "kid_prompt_template": "promptBuildSyllables"
+  },
+  {
+    "id": "syllable-builder.bygg-ordet-av-stavelser.no.rf-k-2-b",
+    "tool": "syllable-builder-activity",
+    "task_template": "build-syllables-word",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.2.B",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "language": "no-NO",
+      "words": [
+        { "noun": "bear",       "themeDir": "camping",          "targetWord": "bjørn",       "syllables": ["bjørn"],                  "label": "bjørn" },
+        { "noun": "clock",      "themeDir": "around the house", "targetWord": "klokke",      "syllables": ["klok","ke"],              "label": "klokke" },
+        { "noun": "angel",      "themeDir": "christmas",        "targetWord": "engel",       "syllables": ["en","gel"],               "label": "engel" },
+        { "noun": "dress",      "themeDir": "clothing",         "targetWord": "kjole",       "syllables": ["kjo","le"],               "label": "kjole" },
+        { "noun": "shirt",      "themeDir": "clothing",         "targetWord": "skjorte",     "syllables": ["skjor","te"],             "label": "skjorte" },
+        { "noun": "butterfly",  "themeDir": "easter",           "targetWord": "sommerfugl",  "syllables": ["som","mer","fugl"],       "label": "sommerfugl" },
+        { "noun": "toothbrush", "themeDir": "around the house", "targetWord": "tannbørste",  "syllables": ["tann","børs","te"],       "label": "tannbørste" },
+        { "noun": "bat",        "themeDir": "animals",          "targetWord": "flaggermus",  "syllables": ["flag","ger","mus"],       "label": "flaggermus" },
+        { "noun": "blueberry",  "themeDir": "fruits",           "targetWord": "blåbær",      "syllables": ["blå","bær"],              "label": "blåbær" },
+        { "noun": "chocolate",  "themeDir": "easter",           "targetWord": "sjokolade",   "syllables": ["sjo","ko","la","de"],     "label": "sjokolade" }
+      ]
+    },
+    "theme": null,
+    "slug": { "no": "bygg-ordet-av-stavelser" },
+    "page_title": { "no": "Bygg ordet av stavelser — Fonetikk i barnehagen" },
+    "page_intro": { "no": "Se på bildet og bygg ordet ved å legge stavelsene i riktig rekkefølge. Tilpasset Common Core RF.K.2.B — telle, uttale, blande og dele stavelser i talte ord." },
+    "kid_prompt_template": "promptBuildSyllables"
   }
 ]

@@ -11,12 +11,14 @@
 
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 
   body {
     @apply antialiased;
     color: theme(colors.ink.600);
     position: relative;
+    overflow-x: hidden;
   }
 
   /* Paper-grain atmosphere for the editorial-scholarly aesthetic.

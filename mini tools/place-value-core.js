@@ -38,37 +38,40 @@
    ===================================================================== */
 window.PlaceValueCore = {
 
-  /* EN + DE + ES + IT + FR shipped. Additional locales fan-out one at a
-     time per the §A.13.48 plan-mode-per-locale + 3-agent ensemble
-     discipline. Engine falls back to `en` via api.t() if any unfilled
-     locale routes here. The manifest row's `slug` map gates URL resolution
-     before the engine ever boots — if a locale lacks a slug,
-     /<locale>/activities/... 404s. */
+  /* EN + DE + ES + IT + FR + PT shipped. PT is Brazilian Portuguese
+     (locale code 'pt' only, NEVER 'pt-BR' per CLAUDE.md §6). Additional
+     locales fan-out one at a time per the §A.13.48 plan-mode-per-locale
+     + 3-agent ensemble discipline. Engine falls back to `en` via api.t()
+     if any unfilled locale routes here. The manifest row's `slug` map
+     gates URL resolution before the engine ever boots — if a locale
+     lacks a slug, /<locale>/activities/... 404s. */
   strings: {
-    title:        { en: 'Place Value', de: 'Stellenwert', es: 'Valor posicional', it: 'Valore posizionale', fr: 'Valeur de position' },
+    title:        { en: 'Place Value', de: 'Stellenwert', es: 'Valor posicional', it: 'Valore posizionale', fr: 'Valeur de position', pt: 'Valor posicional' },
     instruction:  {
       en: 'Tap to add tens and ones. Tap a block to remove it.',
       de: 'Tippe, um Zehner und Einer hinzuzufügen. Tippe auf einen Stein, um ihn zu entfernen.',
       es: 'Toca para añadir decenas y unidades. Toca un bloque para quitarlo.',
       it: 'Tocca per aggiungere decine e unità. Tocca un blocco per rimuoverlo.',
-      fr: 'Touche pour ajouter des dizaines et des unités. Touche un bloc pour le retirer.'
+      fr: 'Touche pour ajouter des dizaines et des unités. Touche un bloc pour le retirer.',
+      pt: 'Toque para adicionar dezenas e unidades. Toque em um bloco para removê-lo.'
     },
-    tensLabel:    { en: 'Tens',     de: 'Zehner',              es: 'Decenas',                 it: 'Decine',                                              fr: 'Dizaines' },
-    onesLabel:    { en: 'Ones',     de: 'Einer',               es: 'Unidades',                it: 'Unità',                                               fr: 'Unités' },
-    buildLabel:   { en: 'Build',    de: 'Wert',                es: 'Valor',                   it: 'Valore',                                              fr: 'Valeur' },
-    addTenLabel:  { en: 'Add ten',  de: 'Zehner hinzufügen',   es: 'Añadir una decena',       it: 'Aggiungi una decina',                                 fr: 'Ajoute une dizaine' },
-    addOneLabel:  { en: 'Add one',  de: 'Einer hinzufügen',    es: 'Añadir una unidad',       it: 'Aggiungi una unità',                                  fr: 'Ajoute une unité' },
+    tensLabel:    { en: 'Tens',     de: 'Zehner',              es: 'Decenas',                 it: 'Decine',                                              fr: 'Dizaines',                                            pt: 'Dezenas' },
+    onesLabel:    { en: 'Ones',     de: 'Einer',               es: 'Unidades',                it: 'Unità',                                               fr: 'Unités',                                              pt: 'Unidades' },
+    buildLabel:   { en: 'Build',    de: 'Wert',                es: 'Valor',                   it: 'Valore',                                              fr: 'Valeur',                                              pt: 'Valor' },
+    addTenLabel:  { en: 'Add ten',  de: 'Zehner hinzufügen',   es: 'Añadir una decena',       it: 'Aggiungi una decina',                                 fr: 'Ajoute une dizaine',                                  pt: 'Adicionar uma dezena' },
+    addOneLabel:  { en: 'Add one',  de: 'Einer hinzufügen',    es: 'Añadir una unidad',       it: 'Aggiungi una unità',                                  fr: 'Ajoute une unité',                                    pt: 'Adicionar uma unidade' },
     /* wordTen / wordOne are the placed-unit names spoken on tap. DE + ES
-       + IT + FR all use the place-unit nouns (NOT cardinals) to reinforce
-       the 1.NBT.B.2 place-value vocabulary the activity teaches and to
-       match the column labels the kid sees. ES "decena/unidad", IT
-       "decina/unità", FR "dizaine/unité" all feminine singular. */
-    wordTen:      { en: 'ten',      de: 'Zehner',              es: 'decena',                  it: 'decina',                                              fr: 'dizaine' },
-    wordOne:      { en: 'one',      de: 'Einer',               es: 'unidad',                  it: 'unità',                                               fr: 'unité' },
+       + IT + FR + PT all use the place-unit nouns (NOT cardinals) to
+       reinforce the 1.NBT.B.2 place-value vocabulary the activity teaches
+       and to match the column labels the kid sees. ES "decena/unidad", IT
+       "decina/unità", FR "dizaine/unité", PT "dezena/unidade" all feminine
+       singular. */
+    wordTen:      { en: 'ten',      de: 'Zehner',              es: 'decena',                  it: 'decina',                                              fr: 'dizaine',                                             pt: 'dezena' },
+    wordOne:      { en: 'one',      de: 'Einer',               es: 'unidad',                  it: 'unità',                                               fr: 'unité',                                               pt: 'unidade' },
     /* Screen-reader fragments for placed-block aria-labels. */
-    srTenRod:     { en: 'ten-rod',  de: 'Zehnerstab',          es: 'barra de diez',           it: 'barra di dieci',                                      fr: 'barre de dix' },
-    srUnitCube:   { en: 'unit-cube',de: 'Einerwürfel',         es: 'cubo de uno',             it: 'cubo da uno',                                         fr: 'cube unité' },
-    srRemove:     { en: 'remove',   de: 'entferne',            es: 'quitar',                  it: 'rimuovi',                                             fr: 'retire' }
+    srTenRod:     { en: 'ten-rod',  de: 'Zehnerstab',          es: 'barra de diez',           it: 'barra di dieci',                                      fr: 'barre de dix',                                        pt: 'barra de dez' },
+    srUnitCube:   { en: 'unit-cube',de: 'Einerwürfel',         es: 'cubo de uno',             it: 'cubo da uno',                                         fr: 'cube unité',                                          pt: 'cubinho' },
+    srRemove:     { en: 'remove',   de: 'entferne',            es: 'quitar',                  it: 'rimuovi',                                             fr: 'retire',                                              pt: 'remova' }
   },
 
   defaults: {},
@@ -315,6 +318,28 @@ window.PlaceValueCore = {
       /* t === 9: 90-99 = "quatre-vingt-" + (10..19), NO "et" */
       if (o === 0) return 'quatre-vingt-dix';
       return 'quatre-vingt-' + lookup[10 + o];
+    },
+    pt: function (n, mode) {
+      /* Brazilian Portuguese ('pt' canonical per CLAUDE.md §6; NEVER pt-BR).
+         0-19 lookup with BR-canonical forms: 14=quatorze (BR-preferred over
+         catorze), 16=dezesseis, 17=dezessete, 19=dezenove (NOT EU forms
+         dezasseis/dezassete/dezanove). 20-99: <tens-word> + " e " +
+         <ones-word>, simple compound.
+         attributive-fem: 1→"uma" (feminine of "um"), 2→"duas" (feminine
+         plural of "dois"). PT specificity vs ES which has only 1→"una"
+         (ES 2 is invariant "dos"). 3-9 are invariant for gender. */
+      var lookup = [
+        'zero','um','dois','três','quatro','cinco','seis','sete','oito','nove',
+        'dez','onze','doze','treze','quatorze','quinze',
+        'dezesseis','dezessete','dezoito','dezenove'
+      ];
+      var attrFem = ['zero','uma','duas','três','quatro','cinco','seis','sete','oito','nove'];
+      var tens = ['','','vinte','trinta','quarenta','cinquenta','sessenta','setenta','oitenta','noventa'];
+      if (n < 10) return (mode === 'attributive-fem') ? attrFem[n] : lookup[n];
+      if (n < 20) return lookup[n];
+      var t = Math.floor(n / 10), o = n % 10;
+      if (o === 0) return tens[t];
+      return tens[t] + ' e ' + lookup[o];  // e.g. quarenta e sete; setenta e dois
     }
   },
 
@@ -347,13 +372,32 @@ window.PlaceValueCore = {
           agreement). Plural verb "font". Cardinal target via the FR
           number-word helper handles irregular forms soixante-douze,
           quatre-vingt-neuf, quatre-vingt-onze etc.)
+     PT: "uma dezena e duas unidades são doze"
+         (Brazilian Portuguese; tens-first; BOTH nouns inflect —
+          dezena/dezenas, unidade/unidades. PT-SPECIFIC divergence from
+          ES/IT/FR: 1 → "uma" AND 2 → "duas" both have feminine forms
+          (ES only has "una"/1; IT has only "una"/1; FR has only "une"/1).
+          Zero takes plural per ES/IT/DE/EN convention (opposite of FR
+          singular-after-zéro). Plural verb "são". Cardinal target uses
+          Brazilian forms: dezesseis/dezessete/dezenove etc.)
      Type 'ui' for instruction-shaped sentences per lcs-shell.js TYPES;
      TTS picks the voice from the `lang` parameter. */
   speakDecomposition: function () {
     if (!window.LCSAudio || !window.LCSAudio.speak) return;
     var lang = this.language;
     var sentence;
-    if (lang === 'fr') {
+    if (lang === 'pt') {
+      var tensWordPT   = this._numberWord(this.targetTens,   'pt', 'attributive-fem', false);
+      var onesWordPT   = this._numberWord(this.targetOnes,   'pt', 'attributive-fem', false);
+      var targetWordPT = this._numberWord(this.targetNumber, 'pt', 'cardinal',         false);
+      /* PT inflection: 1 → singular; 0 or 2+ → plural (zero takes plural).
+         Plural verb "são". Note feminine "duas" at ones=2 (e.g., 12 → "uma
+         dezena e duas unidades são doze") — PT divergence from ES "dos"
+         invariant. */
+      var tensPartPT = tensWordPT + ' dezena' + (this.targetTens === 1 ? '' : 's');
+      var onesPartPT = onesWordPT + ' unidade' + (this.targetOnes === 1 ? '' : 's');
+      sentence = tensPartPT + ' e ' + onesPartPT + ' são ' + targetWordPT;
+    } else if (lang === 'fr') {
       var tensWordFR   = this._numberWord(this.targetTens,   'fr', 'attributive-fem', false);
       var onesWordFR   = this._numberWord(this.targetOnes,   'fr', 'attributive-fem', false);
       var targetWordFR = this._numberWord(this.targetNumber, 'fr', 'cardinal',         false);

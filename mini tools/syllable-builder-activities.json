@@ -141,5 +141,36 @@
     "page_title": { "it": "Forma la parola con le sillabe — Fonetica nella scuola dell'infanzia" },
     "page_intro": { "it": "Guarda l'immagine e forma la parola posizionando le sillabe in ordine. Allineato con Common Core RF.K.2.B — contare, pronunciare, fondere e segmentare le sillabe nelle parole parlate." },
     "kid_prompt_template": "promptBuildSyllables"
+  },
+  {
+    "id": "syllable-builder.bau-das-wort-aus-silben.rf-k-2-b",
+    "tool": "syllable-builder-activity",
+    "task_template": "build-syllables-word",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.2.B",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "language": "de-DE",
+      "words": [
+        { "noun": "butterfly",   "themeDir": "insects and bugs", "targetWord": "Schmetterling", "syllables": ["Schmet","ter","ling"], "label": "Schmetterling" },
+        { "noun": "pancake",     "themeDir": "breakfast",        "targetWord": "Pfannkuchen",   "syllables": ["Pfann","ku","chen"],   "label": "Pfannkuchen" },
+        { "noun": "baker",       "themeDir": "occupations",      "targetWord": "Bäcker",        "syllables": ["Bä","cker"],            "label": "Bäcker" },
+        { "noun": "ham",         "themeDir": "At the Supermarket","targetWord": "Schinken",     "syllables": ["Schin","ken"],          "label": "Schinken" },
+        { "noun": "necklace",    "themeDir": "accessories",      "targetWord": "Halskette",     "syllables": ["Hals","ket","te"],      "label": "Halskette" },
+        { "noun": "acorn",       "themeDir": "miscellaneous",    "targetWord": "Eichel",        "syllables": ["Ei","chel"],            "label": "Eichel" },
+        { "noun": "ambulance",   "themeDir": "vehicles",         "targetWord": "Krankenwagen",  "syllables": ["Kran","ken","wa","gen"],"label": "Krankenwagen" },
+        { "noun": "brush",       "themeDir": "around the house", "targetWord": "Bürste",        "syllables": ["Bürs","te"],            "label": "Bürste" },
+        { "noun": "cake",        "themeDir": "bakery",           "targetWord": "Kuchen",        "syllables": ["Ku","chen"],            "label": "Kuchen" },
+        { "noun": "bear",        "themeDir": "forest creatures", "targetWord": "Bär",           "syllables": ["Bär"],                  "label": "Bär" }
+      ]
+    },
+    "theme": null,
+    "slug": { "de": "bau-das-wort-aus-silben" },
+    "page_title": { "de": "Bau das Wort aus Silben — Phonetik im Kindergarten" },
+    "page_intro": { "de": "Schau dir das Bild an und baue das Wort, indem du die Silben in die richtige Reihenfolge legst. Ausgerichtet an Common Core RF.K.2.B — Silben in gesprochenen Wörtern zählen, aussprechen, verbinden und segmentieren." },
+    "kid_prompt_template": "promptBuildSyllables"
   }
 ]

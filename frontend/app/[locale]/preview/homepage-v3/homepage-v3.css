@@ -622,9 +622,13 @@
 
 /* Embed pop-up panel — overlay over the deck-page mockup body.
    Mirrors the actual product's "Embed this worksheet on your site"
-   modal from the share affordance per §17.8.15. */
+   modal from the share affordance per §17.8.15.
+   Mobile-first: stack below the deck preview as a normal block so
+   nothing clips on iPhone widths. At sm:+ (≥640px) revert to the
+   absolute top-right overlay that matches the desktop illustration. */
 .hv3-embed-popup {
-  position: absolute;
+  position: relative;
+  margin: 0.85rem 1.1rem 1rem;
   background: #FFFFFF;
   border: 1px solid rgba(20, 107, 94, 0.18);
   border-radius: 10px;
@@ -634,6 +638,16 @@
     0 14px 28px -8px rgba(0, 0, 0, 0.22),
     0 32px 48px -16px rgba(0, 0, 0, 0.18);
   font-family: var(--font-nunito), system-ui, sans-serif;
+}
+
+@media (min-width: 640px) {
+  .hv3-embed-popup {
+    position: absolute;
+    top: 38px;
+    right: 14px;
+    width: 220px;
+    margin: 0;
+  }
 }
 
 .hv3-embed-popup-header {

@@ -575,6 +575,7 @@
   border-radius: 14px;
   border: 1px solid rgba(20, 107, 94, 0.12);
   overflow: hidden;
+  min-width: 0;
   box-shadow:
     0 1px 0 rgba(255, 255, 255, 0.7) inset,
     0 2px 0 rgba(0, 0, 0, 0.14),
@@ -587,6 +588,8 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.55rem 0.85rem;
+  min-width: 0;
+  overflow: hidden;
   background: linear-gradient(to bottom, rgba(20, 107, 94, 0.05), rgba(20, 107, 94, 0.02));
   border-bottom: 1px solid rgba(20, 107, 94, 0.10);
 }

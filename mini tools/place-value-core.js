@@ -622,14 +622,14 @@ window.PlaceValueCore = {
       '.pv-add-btn:focus-visible{outline:2px solid var(--lcs-structure) !important;outline-offset:3px !important;}',
       '.pv-add-btn:disabled{opacity:0.45 !important;cursor:not-allowed !important;transform:none !important;}',
 
-      /* Tens tray: HORIZONTAL stack of vertical rods, bottom-aligned.
-         FIXED height (NOT max-height) + overflow:hidden — the engine
-         content NEVER exceeds the iframe's min-height floor (66.67vh
-         desktop / 85vh mobile), so the iframe never grows past floor and
-         the activity card stays at constant height regardless of how many
-         rods the kid places (1-9). Defensive overflow:hidden clips rather
-         than scrolls if a future change adds rods past 9. */
-      '.pv-tray--tens{display:flex !important;flex-direction:row !important;align-items:flex-end !important;justify-content:center !important;gap:clamp(3px,0.8vw,5px) !important;width:clamp(180px,46vw,280px) !important;height:clamp(180px,38vw,280px) !important;overflow:hidden !important;padding:clamp(6px,1.4vw,12px) clamp(6px,1vw,10px) !important;background:rgba(255,255,255,0.4) !important;border-radius:14px !important;box-shadow:inset 0 1px 3px rgba(20,30,28,0.06) !important;}',
+      /* Tens tray: HORIZONTAL stack of vertical rods, all rods stretch to
+         fill column height. FIXED height (NOT max-height) + overflow:hidden
+         — engine content NEVER exceeds the iframe's min-height floor
+         (66.67vh desktop / 85vh mobile), so iframe stays at floor and the
+         card height is locked regardless of how many rods are placed.
+         align-items:stretch (NOT flex-end) so rods cleanly fill column
+         height without the layout-instability of mixing flex-end + height:100%. */
+      '.pv-tray--tens{display:flex !important;flex-direction:row !important;align-items:stretch !important;justify-content:center !important;gap:clamp(2px,0.6vw,4px) !important;width:clamp(180px,46vw,280px) !important;height:clamp(180px,38vw,280px) !important;overflow:hidden !important;padding:clamp(6px,1.4vw,12px) clamp(6px,1vw,10px) !important;background:rgba(255,255,255,0.4) !important;border-radius:14px !important;box-shadow:inset 0 1px 3px rgba(20,30,28,0.06) !important;}',
 
       /* Ones tray: 3-WIDE grid (was 2-wide). 9 cubes → 3 rows. Same fixed
          height as tens for visual parity. Cubes anchor at bottom matching
@@ -659,7 +659,7 @@ window.PlaceValueCore = {
          carries width + height; the SVG inside fills it 100% via the
          preserveAspectRatio="none" baked into _rodSvg. Cube SVG sized
          square to fit its 3-wide grid cell. */
-      '.pv-rod{width:clamp(16px,3.6vw,26px) !important;height:100% !important;flex-shrink:0 !important;}',
+      '.pv-rod{width:clamp(14px,3.2vw,22px) !important;flex-shrink:0 !important;align-self:stretch !important;}',
       '.pv-rod svg{width:100% !important;height:100% !important;display:block !important;filter:drop-shadow(0 2px 4px rgba(20,30,28,0.18)) !important;}',
       '.pv-cube{flex-shrink:0 !important;}',
       '.pv-cube svg{width:clamp(28px,6vw,44px) !important;height:clamp(28px,6vw,44px) !important;display:block !important;filter:drop-shadow(0 2px 3px rgba(20,30,28,0.16)) !important;}',
@@ -682,22 +682,24 @@ window.PlaceValueCore = {
       '  .pv-cube svg{width:clamp(24px,6vw,36px) !important;height:clamp(24px,6vw,36px) !important;}',
       '}',
 
-      /* Tablet 768-1023 — own breakpoint per §A.13.47 rule 8. */
+      /* Tablet 768-1023 — own breakpoint per §A.13.47 rule 8.
+         9 rods × 18px + 8 gaps × 3px + 20px padding = 206px → tray 240. */
       '@media (min-width: 768px) and (max-width: 1023px){',
       '  .pv-mat{max-width:600px !important;}',
-      '  .pv-tray--tens{width:clamp(240px,30vw,290px) !important;height:clamp(240px,26vw,300px) !important;}',
-      '  .pv-tray--ones{height:clamp(240px,26vw,300px) !important;grid-template-columns:repeat(3,clamp(30px,3.4vw,40px)) !important;grid-auto-rows:clamp(30px,3.4vw,40px) !important;}',
-      '  .pv-rod{width:clamp(20px,2.4vw,26px) !important;}',
+      '  .pv-tray--tens{width:clamp(240px,30vw,280px) !important;height:clamp(220px,24vw,260px) !important;gap:clamp(3px,0.5vw,4px) !important;}',
+      '  .pv-tray--ones{height:clamp(220px,24vw,260px) !important;grid-template-columns:repeat(3,clamp(30px,3.4vw,40px)) !important;grid-auto-rows:clamp(30px,3.4vw,40px) !important;}',
+      '  .pv-rod{width:clamp(18px,2.2vw,22px) !important;}',
       '  .pv-cube svg{width:clamp(30px,3.4vw,40px) !important;height:clamp(30px,3.4vw,40px) !important;}',
       '}',
 
-      /* Desktop >= 1024. */
+      /* Desktop >= 1024.
+         9 rods × 22px + 8 gaps × 4px + 20px padding = 250px → tray 280. */
       '@media (min-width: 1024px){',
       '  .pv-mat{max-width:620px !important;}',
-      '  .pv-tray--tens{width:clamp(260px,14vw,320px) !important;height:clamp(260px,18vw,320px) !important;}',
-      '  .pv-tray--ones{height:clamp(260px,18vw,320px) !important;grid-template-columns:repeat(3,clamp(36px,3vw,48px)) !important;grid-auto-rows:clamp(36px,3vw,48px) !important;}',
-      '  .pv-rod{width:clamp(22px,1.6vw,26px) !important;}',
-      '  .pv-cube svg{width:clamp(36px,3vw,48px) !important;height:clamp(36px,3vw,48px) !important;}',
+      '  .pv-tray--tens{width:clamp(280px,16vw,320px) !important;height:clamp(240px,16vw,280px) !important;gap:clamp(3px,0.4vw,4px) !important;}',
+      '  .pv-tray--ones{height:clamp(240px,16vw,280px) !important;grid-template-columns:repeat(3,clamp(34px,2.6vw,44px)) !important;grid-auto-rows:clamp(34px,2.6vw,44px) !important;}',
+      '  .pv-rod{width:clamp(20px,1.4vw,22px) !important;}',
+      '  .pv-cube svg{width:clamp(34px,2.6vw,44px) !important;height:clamp(34px,2.6vw,44px) !important;}',
       '}'
     ].join('\n');
     var tag = document.createElement('style');

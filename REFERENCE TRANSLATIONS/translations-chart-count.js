@@ -233,7 +233,6 @@ const CHART_COUNT_TRANSLATIONS = {
     "endDeckBrowseAll": "Browse all worksheets",
     "srExerciseChartCount": "Question {n}: Count the {word} in the picture and shade the column to show how many you counted.",
     "runtimeTitle": "Picture Graph"
-    "worksheet": "Worksheet",
 },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -453,7 +452,6 @@ const CHART_COUNT_TRANSLATIONS = {
     "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
     "srExerciseChartCount": "Frage {n}: Zähle die {word} im Bild und schattiere die Spalte, um zu zeigen, wie viele du gezählt hast.",
     "runtimeTitle": "Bilddiagramm"
-    "worksheet": "Arbeitsblatt",
 },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",
@@ -662,7 +660,6 @@ const CHART_COUNT_TRANSLATIONS = {
     "chartcount.export.chart": "Exporter le graphique",
     "chartcount.upload.placeholder": "Vos images importées apparaîtront ici.",
     "runtimeTitle": "Graphique d'images"
-    "worksheet": "Fiche",
 },
   "es": {
     "exportToCatalog": "Exportar al catálogo",
@@ -870,7 +867,6 @@ const CHART_COUNT_TRANSLATIONS = {
     "chartcount.export.chart": "Exportar gráfico",
     "chartcount.upload.placeholder": "Tus imágenes subidas aparecerán aquí.",
     "runtimeTitle": "Gráfico de Imágenes"
-    "worksheet": "Ficha",
 },
   "pt": {
     "exportToCatalog": "Exportar para o catálogo",
@@ -1081,7 +1077,6 @@ const CHART_COUNT_TRANSLATIONS = {
     "chartcount.export.chart": "Exportar gráfico",
     "chartcount.upload.placeholder": "Suas imagens enviadas aparecerão aqui.",
     "runtimeTitle": "Gráfico de Imagens"
-    "worksheet": "Folha de Exercícios",
 },
   "it": {
     "exportToCatalog": "Esporta nel catalogo",
@@ -1289,7 +1284,6 @@ const CHART_COUNT_TRANSLATIONS = {
     "chartcount.export.chart": "Esporta grafico",
     "chartcount.upload.placeholder": "Le tue immagini caricate appariranno qui.",
     "runtimeTitle": "Grafico di Immagini"
-    "worksheet": "Scheda",
 },
   "nl": {
     "exportToCatalog": "Naar catalogus exporteren",
@@ -1498,7 +1492,6 @@ const CHART_COUNT_TRANSLATIONS = {
     "chartcount.export.chart": "Grafiek exporteren",
     "chartcount.upload.placeholder": "Je geüploade afbeeldingen verschijnen hier.",
     "runtimeTitle": "Beeldgrafiek"
-    "worksheet": "Werkblad",
 },
   "sv": {
     "exportToCatalog": "Exportera till katalog",
@@ -1707,7 +1700,6 @@ const CHART_COUNT_TRANSLATIONS = {
     "chartcount.export.chart": "Exportera diagram",
     "chartcount.upload.placeholder": "Dina uppladdade bilder visas här.",
     "runtimeTitle": "Bilddiagram"
-    "worksheet": "Övningsblad",
 },
   "da": {
     "exportToCatalog": "Eksporter til kataloget",
@@ -1916,7 +1908,6 @@ const CHART_COUNT_TRANSLATIONS = {
     "chartcount.export.chart": "Eksporter diagram",
     "chartcount.upload.placeholder": "Dine uploadede billeder vises her.",
     "runtimeTitle": "Billeddiagram"
-    "worksheet": "Opgaveark",
 },
   "no": {
     "exportToCatalog": "Eksporter til katalog",
@@ -2127,7 +2118,6 @@ const CHART_COUNT_TRANSLATIONS = {
     "chartcount.export.chart": "Eksporter diagram",
     "chartcount.upload.placeholder": "Dine opplastede bilder vises her.",
     "runtimeTitle": "Bildediagram"
-    "worksheet": "Oppgaveark",
 },
   "fi": {
     "exportToCatalog": "Vie katalogiin",
@@ -2338,7 +2328,6 @@ const CHART_COUNT_TRANSLATIONS = {
     "chartcount.export.chart": "Vie kaavio",
     "chartcount.upload.placeholder": "Ladatut kuvasi näkyvät täällä.",
     "runtimeTitle": "Kuvakaavio"
-    "worksheet": "Tehtäväpaperi",
 }
 };
 

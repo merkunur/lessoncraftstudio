@@ -22,16 +22,18 @@
    segment->blend pattern.
    ===================================================================== */
 
-/* Localized chrome strings for activity tasks. EN-only for this
-   commission; fan-out to 10 other locales is a separate commission per
-   §A.13.48 (plan-mode-per-locale + 3-agent native ensemble). */
+/* Localized chrome strings for activity tasks. EN + DE shipped.
+   Additional locales fan out one at a time per the §A.13.48 plan-mode-
+   per-locale + 3-agent native ensemble discipline. Warm K-3 "du"-form
+   register for DE matching the choice-board / ten-frame precedent. */
 var ACTIVITY_STRINGS = {
-  taskBuild:      { en: 'Build {n}' },
-  hintBuildMore:  { en: 'Keep going — you need more' },
-  hintTooMany:    { en: 'Too many — take some away' },
+  taskBuild:      { en: 'Build {n}',                       de: 'Baue {n}' },
+  hintBuildMore:  { en: 'Keep going — you need more',      de: 'Mach weiter — du brauchst mehr' },
+  hintTooMany:    { en: 'Too many — take some away',       de: 'Zu viele — nimm einige weg' },
   /* hintBundleTen is defensive (unreachable with maxOnes=9), but kept
      so a future grade-2 extension that lifts the cap can lean on it. */
-  hintBundleTen:  { en: 'Ten ones make one ten — bundle them' }
+  hintBundleTen:  { en: 'Ten ones make one ten — bundle them',
+                    de: 'Zehn Einer ergeben einen Zehner — bündele sie' }
 };
 
 /* Fallback static task set when no ?activity= is given. Mirrors the
@@ -80,8 +82,11 @@ function makeBuildTasks(targets, idPrefix) {
 window.PlaceValueActivity = Object.assign({}, PlaceValueCore, {
   id: 'place-value-activity',
   strings: Object.assign({}, PlaceValueCore.strings, ACTIVITY_STRINGS, {
-    title:       { en: 'Place Value Activity' },
-    instruction: { en: 'Follow the prompt. Tap Check when you’re ready.' }
+    title:       { en: 'Place Value Activity', de: 'Stellenwert-Aufgaben' },
+    instruction: {
+      en: 'Follow the prompt. Tap Check when you’re ready.',
+      de: 'Folge der Aufforderung. Tippe auf Prüfen, wenn du fertig bist.'
+    }
   }),
 
   /* tasks resolved lazily: by ?activity=<id> if present, else fallback. */

@@ -38,25 +38,32 @@
    ===================================================================== */
 window.PlaceValueCore = {
 
-  /* EN-only for this commission; fan-out is a separate commission per
+  /* EN + DE shipped. Additional locales fan-out one at a time per the
      §A.13.48 plan-mode-per-locale + 3-agent ensemble discipline. Engine
-     falls back to `en` via api.t() if any non-en URL routes here, but
-     the manifest row's `slug` is `{en}`-only so non-en URLs 404 at slug
-     resolution before this engine ever boots. */
+     falls back to `en` via api.t() if any unfilled locale routes here.
+     The manifest row's `slug` map gates URL resolution before the engine
+     ever boots — if a locale lacks a slug, /<locale>/activities/... 404s. */
   strings: {
-    title:        { en: 'Place Value' },
-    instruction:  { en: 'Tap to add tens and ones. Tap a block to remove it.' },
-    tensLabel:    { en: 'Tens' },
-    onesLabel:    { en: 'Ones' },
-    buildLabel:   { en: 'Build' },
-    addTenLabel:  { en: 'Add ten' },
-    addOneLabel:  { en: 'Add one' },
-    wordTen:      { en: 'ten' },
-    wordOne:      { en: 'one' },
+    title:        { en: 'Place Value', de: 'Stellenwert' },
+    instruction:  {
+      en: 'Tap to add tens and ones. Tap a block to remove it.',
+      de: 'Tippe, um Zehner und Einer hinzuzufügen. Tippe auf einen Stein, um ihn zu entfernen.'
+    },
+    tensLabel:    { en: 'Tens',     de: 'Zehner' },
+    onesLabel:    { en: 'Ones',     de: 'Einer' },
+    buildLabel:   { en: 'Build',    de: 'Wert' },
+    addTenLabel:  { en: 'Add ten',  de: 'Zehner hinzufügen' },
+    addOneLabel:  { en: 'Add one',  de: 'Einer hinzufügen' },
+    /* wordTen / wordOne are the placed-unit names spoken on tap. DE uses
+       the place-unit nouns "Zehner" / "Einer" (NOT cardinals zehn/eins) to
+       reinforce the 1.NBT.B.2 place-value vocabulary the activity teaches
+       and to match the column labels the kid sees. */
+    wordTen:      { en: 'ten',      de: 'Zehner' },
+    wordOne:      { en: 'one',      de: 'Einer' },
     /* Screen-reader fragments for placed-block aria-labels. */
-    srTenRod:     { en: 'ten-rod' },
-    srUnitCube:   { en: 'unit-cube' },
-    srRemove:     { en: 'remove' }
+    srTenRod:     { en: 'ten-rod',  de: 'Zehnerstab' },
+    srUnitCube:   { en: 'unit-cube',de: 'Einerwürfel' },
+    srRemove:     { en: 'remove',   de: 'entferne' }
   },
 
   defaults: {},
@@ -155,42 +162,92 @@ window.PlaceValueCore = {
     this.api.announce(this.api.t('buildLabel') + ': ' + built);
   },
 
-  /* Number-words 0-99 for the celebration speech. Engine-side EN table
-     for this commission; localized tables come with fan-out commissions
-     per §14.3a.2's number-word convention (4th-consumer threshold for
-     shared-module promotion). */
-  _numberWord: function (n) {
-    var ones = ['zero','one','two','three','four','five','six','seven','eight','nine',
-                'ten','eleven','twelve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen'];
-    var tens = ['','','twenty','thirty','forty','fifty','sixty','seventy','eighty','ninety'];
+  /* Number-words 0-99 for the celebration speech, per-locale.
+       lang  = 'en' | 'de' | … (default: this.language || 'en')
+       mode  = 'cardinal' (default) | 'attributive'
+       capitalize = boolean (capitalize first letter; e.g. sentence-start "Ein")
+     EN: mode is ignored (cardinal === attributive in English).
+     DE: mode = 'attributive' returns 'ein' (the form before a masculine
+         noun like Zehner / Einer); mode = 'cardinal' returns 'eins' (the
+         standalone counting word). Compound forms 20-99 always use the
+         attributive 'ein' internally (einundzwanzig), regardless of mode.
+     Localized tables fan out per the §14.3a.2 number-word convention;
+     promotion to a shared module triggers at 4th-consumer per the rule. */
+  _numberWord: function (n, lang, mode, capitalize) {
+    lang = lang || (this && this.language) || 'en';
+    mode = mode || 'cardinal';
     if (n < 0 || n > 99) return String(n);
-    if (n < 20) return ones[n];
-    var t = Math.floor(n / 10), o = n % 10;
-    if (o === 0) return tens[t];
-    return tens[t] + '-' + ones[o];
+    var word;
+    if (lang === 'de') {
+      var onesCard = ['null','eins','zwei','drei','vier','fünf','sechs','sieben','acht','neun'];
+      var onesAttr = ['null','ein', 'zwei','drei','vier','fünf','sechs','sieben','acht','neun'];
+      var teens    = ['zehn','elf','zwölf','dreizehn','vierzehn','fünfzehn','sechzehn','siebzehn','achtzehn','neunzehn'];
+      var tensDE   = ['','','zwanzig','dreißig','vierzig','fünfzig','sechzig','siebzig','achtzig','neunzig'];
+      if (n < 10) {
+        word = (mode === 'attributive') ? onesAttr[n] : onesCard[n];
+      } else if (n < 20) {
+        word = teens[n - 10];
+      } else {
+        var tDE = Math.floor(n / 10), oDE = n % 10;
+        if (oDE === 0) word = tensDE[tDE];
+        else word = onesAttr[oDE] + 'und' + tensDE[tDE];  // e.g. einundzwanzig
+      }
+    } else {
+      /* EN default: 0-19 lookup; 20-99 = tens-word + "-" + ones-word (or
+         tens-word alone when ones===0). */
+      var onesEN = ['zero','one','two','three','four','five','six','seven','eight','nine',
+                    'ten','eleven','twelve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen'];
+      var tensEN = ['','','twenty','thirty','forty','fifty','sixty','seventy','eighty','ninety'];
+      if (n < 20) {
+        word = onesEN[n];
+      } else {
+        var tEN = Math.floor(n / 10), oEN = n % 10;
+        word = (oEN === 0) ? tensEN[tEN] : (tensEN[tEN] + '-' + onesEN[oEN]);
+      }
+    }
+    if (capitalize && word && word.length > 0) {
+      word = word.charAt(0).toUpperCase() + word.slice(1);
+    }
+    return word;
   },
 
-  /* Speak the full decomposition on correct Check.
-       e.g. "four tens and two ones make forty-two"
-       e.g. "one ten and zero ones make ten"
-       e.g. "five tens and zero ones make fifty"
-     For decade tasks (ones === 0), "zero ones" still reads correctly per
-     CCSS 1.NBT.B.2.C ("N tens and 0 ones"); no special-case for "no
-     ones" required. Type 'ui' for instruction-shaped sentences per
-     lcs-shell.js TYPES. */
+  /* Speak the full decomposition on correct Check, per-locale.
+     EN: "four tens and two ones make forty-two"
+     DE: "Vier Zehner und zwei Einer ergeben zweiundvierzig"
+         (tens-first to mirror the columns even though spoken German
+          number-words are units-first; Zehner/Einer invariant; "Ein"
+          for tens=1 / "ein" for ones=1 — attributive form before
+          masculine noun; "null" for the 0 case; plural verb "ergeben"
+          because two subjects connect with "und")
+     Type 'ui' for instruction-shaped sentences per lcs-shell.js TYPES;
+     TTS picks the voice from the `lang` parameter. */
   speakDecomposition: function () {
     if (!window.LCSAudio || !window.LCSAudio.speak) return;
-    var tensWord = this._numberWord(this.targetTens);
-    var onesWord = this._numberWord(this.targetOnes);
-    var targetWord = this._numberWord(this.targetNumber);
-    /* Grammar: "one ten" singular vs "two tens" plural; same for ones. */
-    var tensPart = tensWord + ' ten' + (this.targetTens === 1 ? '' : 's');
-    var onesPart = onesWord + ' one' + (this.targetOnes === 1 ? '' : 's');
-    var sentence = tensPart + ' and ' + onesPart + ' make ' + targetWord;
+    var lang = this.language;
+    var sentence;
+    if (lang === 'de') {
+      /* tensWord capitalized as sentence-start ("Ein" / "Vier" / …);
+         onesWord lower-case ("ein" / "zwei" / …); targetWord cardinal
+         lower-case (TTS reads "zwölf" / "zweiundvierzig" naturally). */
+      var tensWord  = this._numberWord(this.targetTens,   'de', 'attributive', true);
+      var onesWord  = this._numberWord(this.targetOnes,   'de', 'attributive', false);
+      var targetWord = this._numberWord(this.targetNumber, 'de', 'cardinal',    false);
+      sentence = tensWord + ' Zehner und ' + onesWord + ' Einer ergeben ' + targetWord;
+    } else {
+      /* EN default: "N tens and M ones make T". Grammar: "one ten" (sg)
+         vs "two tens" (pl); same for ones. For decade tasks (ones === 0)
+         "zero ones" reads correctly per CCSS 1.NBT.B.2.C. */
+      var tensWordEN   = this._numberWord(this.targetTens,   'en');
+      var onesWordEN   = this._numberWord(this.targetOnes,   'en');
+      var targetWordEN = this._numberWord(this.targetNumber, 'en');
+      var tensPart = tensWordEN + ' ten' + (this.targetTens === 1 ? '' : 's');
+      var onesPart = onesWordEN + ' one' + (this.targetOnes === 1 ? '' : 's');
+      sentence = tensPart + ' and ' + onesPart + ' make ' + targetWordEN;
+    }
     window.LCSAudio.speak({
       type: 'ui',
       text: sentence,
-      lang: this.language,
+      lang: lang,
       rate: 0.9
     });
   },

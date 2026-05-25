@@ -17,7 +17,8 @@
       "es": "decenas-y-unidades",
       "it": "decine-e-unita",
       "fr": "dizaines-et-unites",
-      "pt": "dezenas-e-unidades"
+      "pt": "dezenas-e-unidades",
+      "nl": "tientallen-en-eenheden"
     },
     "page_title": {
       "en": "Tens and Ones",
@@ -25,7 +26,8 @@
       "es": "Decenas y unidades",
       "it": "Decine e unità",
       "fr": "Dizaines et unités",
-      "pt": "Dezenas e unidades"
+      "pt": "Dezenas e unidades",
+      "nl": "Tientallen en eenheden"
     },
     "page_intro": {
       "en": "Build each number using tens and ones. Tap to add a ten-rod or a unit-cube — and watch the number grow.",
@@ -33,7 +35,8 @@
       "es": "Construye cada número usando decenas y unidades. Toca para añadir una barra de diez o un cubo de uno — y mira cómo crece el número.",
       "it": "Costruisci ogni numero usando decine e unità. Tocca per aggiungere una barra di dieci o un cubo da uno — e guarda crescere il numero.",
       "fr": "Construis chaque nombre avec des dizaines et des unités. Touche pour ajouter une barre de dix ou un cube unité — et regarde le nombre grandir.",
-      "pt": "Construa cada número usando dezenas e unidades. Toque para adicionar uma barra de dez ou um cubinho — e veja o número crescer."
+      "pt": "Construa cada número usando dezenas e unidades. Toque para adicionar uma barra de dez ou um cubinho — e veja o número crescer.",
+      "nl": "Bouw elk getal met tientallen en eenheden. Tik om een tienstaaf of een blokje toe te voegen — en kijk hoe het getal groeit."
     },
     "kid_prompt_template": "taskBuild"
   }

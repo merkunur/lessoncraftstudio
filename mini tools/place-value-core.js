@@ -38,7 +38,7 @@
    ===================================================================== */
 window.PlaceValueCore = {
 
-  /* EN + DE + ES + IT + FR + PT shipped. PT is Brazilian Portuguese
+  /* EN + DE + ES + IT + FR + PT + NL shipped. PT is Brazilian Portuguese
      (locale code 'pt' only, NEVER 'pt-BR' per CLAUDE.md §6). Additional
      locales fan-out one at a time per the §A.13.48 plan-mode-per-locale
      + 3-agent ensemble discipline. Engine falls back to `en` via api.t()
@@ -46,32 +46,32 @@ window.PlaceValueCore = {
      gates URL resolution before the engine ever boots — if a locale
      lacks a slug, /<locale>/activities/... 404s. */
   strings: {
-    title:        { en: 'Place Value', de: 'Stellenwert', es: 'Valor posicional', it: 'Valore posizionale', fr: 'Valeur de position', pt: 'Valor posicional' },
+    title:        { en: 'Place Value', de: 'Stellenwert', es: 'Valor posicional', it: 'Valore posizionale', fr: 'Valeur de position', pt: 'Valor posicional', nl: 'Plaatswaarde' },
     instruction:  {
       en: 'Tap to add tens and ones. Tap a block to remove it.',
       de: 'Tippe, um Zehner und Einer hinzuzufügen. Tippe auf einen Stein, um ihn zu entfernen.',
       es: 'Toca para añadir decenas y unidades. Toca un bloque para quitarlo.',
       it: 'Tocca per aggiungere decine e unità. Tocca un blocco per rimuoverlo.',
       fr: 'Touche pour ajouter des dizaines et des unités. Touche un bloc pour le retirer.',
-      pt: 'Toque para adicionar dezenas e unidades. Toque em um bloco para removê-lo.'
+      pt: 'Toque para adicionar dezenas e unidades. Toque em um bloco para removê-lo.',
+      nl: 'Tik om tientallen en eenheden toe te voegen. Tik op een blok om het te verwijderen.'
     },
-    tensLabel:    { en: 'Tens',     de: 'Zehner',              es: 'Decenas',                 it: 'Decine',                                              fr: 'Dizaines',                                            pt: 'Dezenas' },
-    onesLabel:    { en: 'Ones',     de: 'Einer',               es: 'Unidades',                it: 'Unità',                                               fr: 'Unités',                                              pt: 'Unidades' },
-    buildLabel:   { en: 'Build',    de: 'Wert',                es: 'Valor',                   it: 'Valore',                                              fr: 'Valeur',                                              pt: 'Valor' },
-    addTenLabel:  { en: 'Add ten',  de: 'Zehner hinzufügen',   es: 'Añadir una decena',       it: 'Aggiungi una decina',                                 fr: 'Ajoute une dizaine',                                  pt: 'Adicionar uma dezena' },
-    addOneLabel:  { en: 'Add one',  de: 'Einer hinzufügen',    es: 'Añadir una unidad',       it: 'Aggiungi una unità',                                  fr: 'Ajoute une unité',                                    pt: 'Adicionar uma unidade' },
-    /* wordTen / wordOne are the placed-unit names spoken on tap. DE + ES
-       + IT + FR + PT all use the place-unit nouns (NOT cardinals) to
-       reinforce the 1.NBT.B.2 place-value vocabulary the activity teaches
-       and to match the column labels the kid sees. ES "decena/unidad", IT
-       "decina/unità", FR "dizaine/unité", PT "dezena/unidade" all feminine
-       singular. */
-    wordTen:      { en: 'ten',      de: 'Zehner',              es: 'decena',                  it: 'decina',                                              fr: 'dizaine',                                             pt: 'dezena' },
-    wordOne:      { en: 'one',      de: 'Einer',               es: 'unidad',                  it: 'unità',                                               fr: 'unité',                                               pt: 'unidade' },
+    tensLabel:    { en: 'Tens',     de: 'Zehner',              es: 'Decenas',                 it: 'Decine',                                              fr: 'Dizaines',                                            pt: 'Dezenas',                                             nl: 'Tientallen' },
+    onesLabel:    { en: 'Ones',     de: 'Einer',               es: 'Unidades',                it: 'Unità',                                               fr: 'Unités',                                              pt: 'Unidades',                                            nl: 'Eenheden' },
+    buildLabel:   { en: 'Build',    de: 'Wert',                es: 'Valor',                   it: 'Valore',                                              fr: 'Valeur',                                              pt: 'Valor',                                               nl: 'Waarde' },
+    addTenLabel:  { en: 'Add ten',  de: 'Zehner hinzufügen',   es: 'Añadir una decena',       it: 'Aggiungi una decina',                                 fr: 'Ajoute une dizaine',                                  pt: 'Adicionar uma dezena',                                nl: 'Tiental toevoegen' },
+    addOneLabel:  { en: 'Add one',  de: 'Einer hinzufügen',    es: 'Añadir una unidad',       it: 'Aggiungi una unità',                                  fr: 'Ajoute une unité',                                    pt: 'Adicionar uma unidade',                               nl: 'Eenheid toevoegen' },
+    /* wordTen / wordOne are the placed-unit names spoken on tap. All
+       locales use the place-unit nouns (NOT cardinals) to reinforce the
+       1.NBT.B.2 place-value vocabulary the activity teaches and to match
+       the column labels the kid sees. NL "tiental" (neuter) / "eenheid"
+       (common-gender) — singular place-unit nouns. */
+    wordTen:      { en: 'ten',      de: 'Zehner',              es: 'decena',                  it: 'decina',                                              fr: 'dizaine',                                             pt: 'dezena',                                              nl: 'tiental' },
+    wordOne:      { en: 'one',      de: 'Einer',               es: 'unidad',                  it: 'unità',                                               fr: 'unité',                                               pt: 'unidade',                                             nl: 'eenheid' },
     /* Screen-reader fragments for placed-block aria-labels. */
-    srTenRod:     { en: 'ten-rod',  de: 'Zehnerstab',          es: 'barra de diez',           it: 'barra di dieci',                                      fr: 'barre de dix',                                        pt: 'barra de dez' },
-    srUnitCube:   { en: 'unit-cube',de: 'Einerwürfel',         es: 'cubo de uno',             it: 'cubo da uno',                                         fr: 'cube unité',                                          pt: 'cubinho' },
-    srRemove:     { en: 'remove',   de: 'entferne',            es: 'quitar',                  it: 'rimuovi',                                             fr: 'retire',                                              pt: 'remova' }
+    srTenRod:     { en: 'ten-rod',  de: 'Zehnerstab',          es: 'barra de diez',           it: 'barra di dieci',                                      fr: 'barre de dix',                                        pt: 'barra de dez',                                        nl: 'tienstaaf' },
+    srUnitCube:   { en: 'unit-cube',de: 'Einerwürfel',         es: 'cubo de uno',             it: 'cubo da uno',                                         fr: 'cube unité',                                          pt: 'cubinho',                                             nl: 'blokje' },
+    srRemove:     { en: 'remove',   de: 'entferne',            es: 'quitar',                  it: 'rimuovi',                                             fr: 'retire',                                              pt: 'remova',                                              nl: 'verwijder' }
   },
 
   defaults: {},
@@ -340,6 +340,32 @@ window.PlaceValueCore = {
       var t = Math.floor(n / 10), o = n % 10;
       if (o === 0) return tens[t];
       return tens[t] + ' e ' + lookup[o];  // e.g. quarenta e sete; setenta e dois
+    },
+    nl: function (n, mode) {
+      /* Standard Dutch. 0-12 direct lookup; 13-19 irregular teens with
+         morphological stems (dertien/veertien). Tens 20-90 with irregular
+         forms (dertig/veertig/tachtig). 20-99: units-first compound
+         <onesForCompound> + connector + <tens-word> where connector is
+         "ën" (TREMA) when ones is 2 or 3, else plain "en". The trema
+         marks vowel-collision: twee+en→tweeën (two syllables); without
+         trema "tweeen" could misread as a digraph.
+         attributive: 1→"één" (with acute accents) to disambiguate from
+         indefinite article "een" (which means "a/an"). K-1 readers benefit
+         from the visual disambiguator before noun. */
+      var lookup = [
+        'nul','een','twee','drie','vier','vijf','zes','zeven','acht','negen',
+        'tien','elf','twaalf','dertien','veertien','vijftien','zestien',
+        'zeventien','achttien','negentien'
+      ];
+      var attr = ['nul','één','twee','drie','vier','vijf','zes','zeven','acht','negen'];
+      var tens = ['','','twintig','dertig','veertig','vijftig','zestig','zeventig','tachtig','negentig'];
+      var onesForCompound = ['','een','twee','drie','vier','vijf','zes','zeven','acht','negen'];
+      if (n < 10) return (mode === 'attributive') ? attr[n] : lookup[n];
+      if (n < 20) return lookup[n];
+      var t = Math.floor(n / 10), o = n % 10;
+      if (o === 0) return tens[t];
+      var joinPart = (o === 2 || o === 3) ? 'ën' : 'en';  // trema when ones is 2 or 3
+      return onesForCompound[o] + joinPart + tens[t];  // e.g. tweeëntwintig, zevenenveertig
     }
   },
 
@@ -380,13 +406,32 @@ window.PlaceValueCore = {
           Zero takes plural per ES/IT/DE/EN convention (opposite of FR
           singular-after-zéro). Plural verb "são". Cardinal target uses
           Brazilian forms: dezesseis/dezessete/dezenove etc.)
+     NL: "één tiental en twee eenheden maken twaalf"
+         (Standard Dutch; tens-first; BOTH nouns inflect — tiental/
+          tientallen (neuter -tal → -tallen), eenheid/eenheden (-eid →
+          -eden). 1 → accented "één" disambiguates from indefinite article
+          "een" (=a/an). Zero takes plural (matches Germanic+Romance
+          convention; opposite of FR). Plural verb "maken". Cardinal target
+          is units-first compound with TREMA rule: tweeënzeventig at 72,
+          negenentachtig at 89, etc.)
      Type 'ui' for instruction-shaped sentences per lcs-shell.js TYPES;
      TTS picks the voice from the `lang` parameter. */
   speakDecomposition: function () {
     if (!window.LCSAudio || !window.LCSAudio.speak) return;
     var lang = this.language;
     var sentence;
-    if (lang === 'pt') {
+    if (lang === 'nl') {
+      var tensWordNL   = this._numberWord(this.targetTens,   'nl', 'attributive', false);
+      var onesWordNL   = this._numberWord(this.targetOnes,   'nl', 'attributive', false);
+      var targetWordNL = this._numberWord(this.targetNumber, 'nl', 'cardinal',     false);
+      /* NL inflection: 1 → singular noun; 0 or 2+ → plural.
+         tiental → tientallen (Dutch neuter -tal → -tallen suffix);
+         eenheid → eenheden (Dutch -eid → -eden suffix).
+         Plural verb "maken" (3pl present of maken = "to make"). */
+      var tensPartNL = tensWordNL + ' tiental' + (this.targetTens === 1 ? '' : 'len');
+      var onesPartNL = onesWordNL + ' eenhe' + (this.targetOnes === 1 ? 'id' : 'den');
+      sentence = tensPartNL + ' en ' + onesPartNL + ' maken ' + targetWordNL;
+    } else if (lang === 'pt') {
       var tensWordPT   = this._numberWord(this.targetTens,   'pt', 'attributive-fem', false);
       var onesWordPT   = this._numberWord(this.targetOnes,   'pt', 'attributive-fem', false);
       var targetWordPT = this._numberWord(this.targetNumber, 'pt', 'cardinal',         false);

@@ -228,7 +228,7 @@ export default async function EmbedShareV3({ locale }: Props) {
               </ul>
             </div>
 
-            <div className="relative max-w-lg mx-auto lg:max-w-none lg:mx-0">
+            <div className="relative min-w-0 max-w-lg mx-auto lg:max-w-none lg:mx-0">
               <div
                 aria-hidden="true"
                 className="hidden lg:flex absolute top-[42%] -left-12 lg:-left-14 z-20 opacity-85 flex-col items-center gap-1"

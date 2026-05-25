@@ -551,7 +551,12 @@ window.PlaceValueCore = {
   _rodSvg: function () {
     /* Single coral rect with thin white horizontal divider lines at the
        9 internal stripe boundaries (between the 10 unit divisions). Stripe
-       height = 50px in viewBox units (500 / 10). Dividers at y = 50,100,...450. */
+       height = 50px in viewBox units (500 / 10). Dividers at y = 50,100,...450.
+       preserveAspectRatio="none" lets the rod stretch to fill the parent
+       box's full height (the new tens-column layout uses a fixed column
+       height and rods sit side-by-side at full column height) — internal
+       stripes spread evenly across the stretched box; visual remains "tall
+       thin stick with 10 internal stripes." */
     var dividers = '';
     for (var i = 1; i < 10; i++) {
       var y = i * 50;
@@ -559,7 +564,7 @@ window.PlaceValueCore = {
                   '" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="2"/>';
     }
     return [
-      '<svg viewBox="0 0 100 500" preserveAspectRatio="xMidYMid meet" aria-hidden="true">',
+      '<svg viewBox="0 0 100 500" preserveAspectRatio="none" aria-hidden="true">',
         '<rect x="4" y="4" width="92" height="492" rx="12" ry="12" fill="#F2784B"/>',
         /* Stripe highlights at the top of each unit division for the "10 cubes
            stacked" read — a soft white wash at the top 12px of each stripe. */
@@ -580,9 +585,8 @@ window.PlaceValueCore = {
 
       /* Mat: two-column grid at ALL widths (don't stack phone — the
          spatial Tens-vs-Ones separation IS the place-value cognition).
-         Tens column hugs its single-rod content (auto); Ones column gets
-         the remaining width (1fr) for its 2-wide cube grid. */
-      '.pv-mat{display:grid !important;grid-template-columns:auto 1fr !important;gap:clamp(12px,3vw,28px) !important;align-items:start !important;justify-content:center !important;width:100% !important;max-width:540px !important;}',
+         Both columns auto-sized to their fixed-height trays; centered. */
+      '.pv-mat{display:grid !important;grid-template-columns:auto auto !important;gap:clamp(12px,3vw,24px) !important;align-items:stretch !important;justify-content:center !important;width:100% !important;max-width:540px !important;}',
 
       /* Column: vertical stack, label + Add button + tray. The Tens column
          carries a soft teal-tinted wash to mark "this is the tens PLACE"
@@ -618,11 +622,19 @@ window.PlaceValueCore = {
       '.pv-add-btn:focus-visible{outline:2px solid var(--lcs-structure) !important;outline-offset:3px !important;}',
       '.pv-add-btn:disabled{opacity:0.45 !important;cursor:not-allowed !important;transform:none !important;}',
 
-      /* Tens tray: vertical column of rods stacked downward. */
-      '.pv-tray--tens{display:flex !important;flex-direction:column !important;align-items:center !important;gap:clamp(4px,1vmin,8px) !important;min-width:clamp(36px,9vw,64px) !important;max-height:clamp(360px,86vw,640px) !important;overflow-y:auto !important;padding:clamp(4px,1vmin,8px) !important;}',
+      /* Tens tray: HORIZONTAL stack of vertical rods, bottom-aligned.
+         FIXED height (NOT max-height) + overflow:hidden — the engine
+         content NEVER exceeds the iframe's min-height floor (66.67vh
+         desktop / 85vh mobile), so the iframe never grows past floor and
+         the activity card stays at constant height regardless of how many
+         rods the kid places (1-9). Defensive overflow:hidden clips rather
+         than scrolls if a future change adds rods past 9. */
+      '.pv-tray--tens{display:flex !important;flex-direction:row !important;align-items:flex-end !important;justify-content:center !important;gap:clamp(3px,0.8vw,5px) !important;width:clamp(180px,46vw,280px) !important;height:clamp(180px,38vw,280px) !important;overflow:hidden !important;padding:clamp(6px,1.4vw,12px) clamp(6px,1vw,10px) !important;background:rgba(255,255,255,0.4) !important;border-radius:14px !important;box-shadow:inset 0 1px 3px rgba(20,30,28,0.06) !important;}',
 
-      /* Ones tray: 2-column grid of cubes. */
-      '.pv-tray--ones{display:grid !important;grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:clamp(6px,1.4vmin,10px) !important;justify-items:center !important;align-content:start !important;width:100% !important;max-width:clamp(120px,40vw,220px) !important;max-height:clamp(360px,86vw,640px) !important;overflow-y:auto !important;padding:clamp(4px,1vmin,8px) !important;}',
+      /* Ones tray: 3-WIDE grid (was 2-wide). 9 cubes → 3 rows. Same fixed
+         height as tens for visual parity. Cubes anchor at bottom matching
+         the rods\' baseline. */
+      '.pv-tray--ones{display:grid !important;grid-template-columns:repeat(3,clamp(28px,6vw,44px)) !important;grid-auto-rows:clamp(28px,6vw,44px) !important;gap:clamp(4px,1vw,8px) !important;justify-content:center !important;align-content:end !important;width:auto !important;height:clamp(180px,38vw,280px) !important;overflow:hidden !important;padding:clamp(6px,1.4vw,12px) clamp(6px,1vw,10px) !important;background:rgba(255,255,255,0.3) !important;border-radius:14px !important;box-shadow:inset 0 1px 3px rgba(20,30,28,0.06) !important;}',
 
       /* Block-button base: removes default <button> chrome so the SVG
          block sits clean; the SVG is the entire visual. */
@@ -643,10 +655,14 @@ window.PlaceValueCore = {
       '.pv-block:focus-visible{outline:2px solid var(--lcs-structure) !important;outline-offset:3px !important;border-radius:4px !important;}',
 
       /* Cube + rod sizing — vw + px only per §A.13.47 rule 1.
-         Rod capped at max-height 180px (px, not vh) to prevent iframe-
-         grow-iframe cycle. */
-      '.pv-cube svg{width:clamp(22px,5.5vw,40px) !important;height:clamp(22px,5.5vw,40px) !important;display:block !important;filter:drop-shadow(0 2px 3px rgba(20,30,28,0.16)) !important;}',
-      '.pv-rod svg{width:clamp(14px,3.2vw,28px) !important;height:clamp(70px,16vw,140px) !important;max-height:180px !important;display:block !important;filter:drop-shadow(0 2px 4px rgba(20,30,28,0.18)) !important;}',
+         Each rod is a narrow vertical block; .pv-rod (the parent button)
+         carries width + height; the SVG inside fills it 100% via the
+         preserveAspectRatio="none" baked into _rodSvg. Cube SVG sized
+         square to fit its 3-wide grid cell. */
+      '.pv-rod{width:clamp(16px,3.6vw,26px) !important;height:100% !important;flex-shrink:0 !important;}',
+      '.pv-rod svg{width:100% !important;height:100% !important;display:block !important;filter:drop-shadow(0 2px 4px rgba(20,30,28,0.18)) !important;}',
+      '.pv-cube{flex-shrink:0 !important;}',
+      '.pv-cube svg{width:clamp(28px,6vw,44px) !important;height:clamp(28px,6vw,44px) !important;display:block !important;filter:drop-shadow(0 2px 3px rgba(20,30,28,0.16)) !important;}',
 
       /* Readout: pill carrying the running total, large + teal + Baloo 2. */
       '.pv-readout{display:inline-flex !important;align-items:center !important;gap:14px !important;background:linear-gradient(180deg,#FFFEFB 0%,#FAF1DF 100%) !important;padding:clamp(6px,1.4vmin,10px) clamp(16px,3vw,24px) !important;border-radius:999px !important;box-shadow:inset 0 1px 0 rgba(255,255,255,0.8),0 4px 10px rgba(20,30,28,0.08) !important;}',
@@ -656,18 +672,32 @@ window.PlaceValueCore = {
       /* Pop-in animation for newly-placed blocks. */
       '@keyframes pv-pop{from{transform:scale(.3);opacity:0;}to{transform:scale(1);opacity:1;}}',
 
-      /* Mobile <= 599: tighten tray padding + gap; cubes stay readable. */
+      /* Mobile <= 599: tighter sizing; 3-wide cubes shrink. */
       '@media (max-width: 599px){',
-      '  .pv-mat{gap:clamp(10px,2.6vw,16px) !important;max-width:96vw !important;}',
+      '  .pv-mat{gap:clamp(8px,2vw,14px) !important;max-width:96vw !important;}',
       '  .pv-col{padding:clamp(6px,1.6vw,10px) clamp(4px,1vw,8px) !important;}',
-      '  .pv-tray--ones{max-width:clamp(110px,36vw,180px) !important;}',
+      '  .pv-tray--tens{width:clamp(170px,48vw,230px) !important;height:clamp(170px,46vw,240px) !important;}',
+      '  .pv-tray--ones{height:clamp(170px,46vw,240px) !important;grid-template-columns:repeat(3,clamp(24px,6vw,36px)) !important;grid-auto-rows:clamp(24px,6vw,36px) !important;}',
+      '  .pv-rod{width:clamp(14px,3.6vw,22px) !important;}',
+      '  .pv-cube svg{width:clamp(24px,6vw,36px) !important;height:clamp(24px,6vw,36px) !important;}',
       '}',
 
-      /* Desktop >= 768: scale rod + cube up. */
-      '@media (min-width: 768px){',
-      '  .pv-cube svg{width:clamp(32px,4.5vw,46px) !important;height:clamp(32px,4.5vw,46px) !important;}',
-      '  .pv-rod svg{width:clamp(24px,2.8vw,34px) !important;height:clamp(110px,14vw,170px) !important;max-height:180px !important;}',
+      /* Tablet 768-1023 — own breakpoint per §A.13.47 rule 8. */
+      '@media (min-width: 768px) and (max-width: 1023px){',
       '  .pv-mat{max-width:600px !important;}',
+      '  .pv-tray--tens{width:clamp(240px,30vw,290px) !important;height:clamp(240px,26vw,300px) !important;}',
+      '  .pv-tray--ones{height:clamp(240px,26vw,300px) !important;grid-template-columns:repeat(3,clamp(30px,3.4vw,40px)) !important;grid-auto-rows:clamp(30px,3.4vw,40px) !important;}',
+      '  .pv-rod{width:clamp(20px,2.4vw,26px) !important;}',
+      '  .pv-cube svg{width:clamp(30px,3.4vw,40px) !important;height:clamp(30px,3.4vw,40px) !important;}',
+      '}',
+
+      /* Desktop >= 1024. */
+      '@media (min-width: 1024px){',
+      '  .pv-mat{max-width:620px !important;}',
+      '  .pv-tray--tens{width:clamp(260px,14vw,320px) !important;height:clamp(260px,18vw,320px) !important;}',
+      '  .pv-tray--ones{height:clamp(260px,18vw,320px) !important;grid-template-columns:repeat(3,clamp(36px,3vw,48px)) !important;grid-auto-rows:clamp(36px,3vw,48px) !important;}',
+      '  .pv-rod{width:clamp(22px,1.6vw,26px) !important;}',
+      '  .pv-cube svg{width:clamp(36px,3vw,48px) !important;height:clamp(36px,3vw,48px) !important;}',
       '}'
     ].join('\n');
     var tag = document.createElement('style');

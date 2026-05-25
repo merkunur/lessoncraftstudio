@@ -1,0 +1,19 @@
+[
+  {
+    "id": "place-value.tens-and-ones.1-nbt-b-2",
+    "tool": "place-value-activity",
+    "task_template": "build-tens-and-ones",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "1.NBT.B.2",
+      "grade": "1",
+      "strand": "Number and Operations in Base Ten"
+    },
+    "params": { "targets": [12, 19, 47, 50, 72, 89] },
+    "theme": null,
+    "slug": { "en": "tens-and-ones" },
+    "page_title": { "en": "Tens and Ones" },
+    "page_intro": { "en": "Build each number using tens and ones. Tap to add a ten-rod or a unit-cube — and watch the number grow." },
+    "kid_prompt_template": "taskBuild"
+  }
+]

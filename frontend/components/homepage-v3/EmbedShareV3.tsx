@@ -47,7 +47,8 @@ function ProductEmbedMockup({ tr }: { tr: MockupTranslations }) {
         <span className="hv3-browser-dot" style={{ background: '#DCE3D3' }} />
         <span className="hv3-browser-dot" style={{ background: '#146B5E' }} />
         <span className="hv3-browser-address">
-          lessoncraftstudio.com/en/decks/match-up-zoo-animals/
+          <span className="md:hidden">lessoncraftstudio.com/match-up</span>
+          <span className="hidden md:inline">lessoncraftstudio.com/en/decks/match-up-zoo-animals/</span>
         </span>
       </div>
 

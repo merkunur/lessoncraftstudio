@@ -22,20 +22,21 @@
    segment->blend pattern.
    ===================================================================== */
 
-/* Localized chrome strings for activity tasks. EN + DE + ES shipped.
+/* Localized chrome strings for activity tasks. EN + DE + ES + IT shipped.
    Additional locales fan out one at a time per the §A.13.48 plan-mode-
    per-locale + 3-agent native ensemble discipline. Warm K-3 register:
-   "du" form for DE; "tú" form for ES — mirrors choice-board / ten-frame
-   precedent. */
+   "du" form for DE; "tú" form for ES; "tu" form for IT — mirrors choice-
+   board / ten-frame precedent. */
 var ACTIVITY_STRINGS = {
-  taskBuild:      { en: 'Build {n}',                       de: 'Baue {n}',                                            es: 'Construye {n}' },
-  hintBuildMore:  { en: 'Keep going — you need more',      de: 'Mach weiter — du brauchst mehr',                      es: 'Sigue — necesitas más' },
-  hintTooMany:    { en: 'Too many — take some away',       de: 'Zu viele — nimm einige weg',                          es: 'Demasiados — quita algunos' },
+  taskBuild:      { en: 'Build {n}',                       de: 'Baue {n}',                                            es: 'Construye {n}',                                       it: 'Costruisci {n}' },
+  hintBuildMore:  { en: 'Keep going — you need more',      de: 'Mach weiter — du brauchst mehr',                      es: 'Sigue — necesitas más',                               it: 'Continua — ti servono di più' },
+  hintTooMany:    { en: 'Too many — take some away',       de: 'Zu viele — nimm einige weg',                          es: 'Demasiados — quita algunos',                          it: 'Troppi — togline qualcuno' },
   /* hintBundleTen is defensive (unreachable with maxOnes=9), but kept
      so a future grade-2 extension that lifts the cap can lean on it. */
   hintBundleTen:  { en: 'Ten ones make one ten — bundle them',
                     de: 'Zehn Einer ergeben einen Zehner — bündele sie',
-                    es: 'Diez unidades forman una decena — agrúpalas' }
+                    es: 'Diez unidades forman una decena — agrúpalas',
+                    it: 'Dieci unità fanno una decina — raggruppale' }
 };
 
 /* Fallback static task set when no ?activity= is given. Mirrors the
@@ -87,12 +88,14 @@ window.PlaceValueActivity = Object.assign({}, PlaceValueCore, {
     title:       {
       en: 'Place Value Activity',
       de: 'Stellenwert-Aufgaben',
-      es: 'Actividad de valor posicional'
+      es: 'Actividad de valor posicional',
+      it: 'Attività di valore posizionale'
     },
     instruction: {
       en: 'Follow the prompt. Tap Check when you’re ready.',
       de: 'Folge der Aufforderung. Tippe auf Prüfen, wenn du fertig bist.',
-      es: 'Sigue la indicación. Toca Comprobar cuando estés listo.'
+      es: 'Sigue la indicación. Toca Comprobar cuando estés listo.',
+      it: 'Segui l\'istruzione. Tocca Verifica quando sei pronto.'
     }
   }),
 

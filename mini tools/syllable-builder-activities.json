@@ -203,5 +203,36 @@
     "page_title": { "nl": "Bouw het woord met klankgroepen — Fonetiek in de kleuterklas" },
     "page_intro": { "nl": "Kijk naar het plaatje en bouw het woord door de klankgroepen in de juiste volgorde te leggen. Afgestemd op Common Core RF.K.2.B — klankgroepen in gesproken woorden tellen, uitspreken, samenvoegen en opdelen." },
     "kid_prompt_template": "promptBuildSyllables"
+  },
+  {
+    "id": "syllable-builder.bygg-ordet-av-stavelser.rf-k-2-b",
+    "tool": "syllable-builder-activity",
+    "task_template": "build-syllables-word",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.2.B",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "language": "sv-SE",
+      "words": [
+        { "noun": "bear",        "themeDir": "camping",          "targetWord": "björn",       "syllables": ["björn"],                  "label": "björn" },
+        { "noun": "bell",        "themeDir": "christmas",        "targetWord": "klocka",      "syllables": ["kloc","ka"],              "label": "klocka" },
+        { "noun": "angel",       "themeDir": "christmas",        "targetWord": "ängel",       "syllables": ["äng","el"],               "label": "ängel" },
+        { "noun": "bull",        "themeDir": "farm animals",     "targetWord": "tjur",        "syllables": ["tjur"],                   "label": "tjur" },
+        { "noun": "shirt",       "themeDir": "clothing",         "targetWord": "skjorta",     "syllables": ["skjor","ta"],             "label": "skjorta" },
+        { "noun": "butterfly",   "themeDir": "easter",           "targetWord": "fjäril",      "syllables": ["fjä","ril"],              "label": "fjäril" },
+        { "noun": "toothbrush",  "themeDir": "around the house", "targetWord": "tandborste",  "syllables": ["tand","bors","te"],       "label": "tandborste" },
+        { "noun": "pancake",     "themeDir": "breakfast",        "targetWord": "pannkaka",    "syllables": ["pann","ka","ka"],         "label": "pannkaka" },
+        { "noun": "birdhouse",   "themeDir": "spring",           "targetWord": "fågelholk",   "syllables": ["få","gel","holk"],        "label": "fågelholk" },
+        { "noun": "lake",        "themeDir": "camping",          "targetWord": "sjö",         "syllables": ["sjö"],                    "label": "sjö" }
+      ]
+    },
+    "theme": null,
+    "slug": { "sv": "bygg-ordet-av-stavelser" },
+    "page_title": { "sv": "Bygg ordet av stavelser — Fonetik i förskoleklass" },
+    "page_intro": { "sv": "Titta på bilden och bygg ordet genom att lägga stavelserna i rätt ordning. Anpassat efter Common Core RF.K.2.B — räkna, uttala, blanda och dela upp stavelser i talade ord." },
+    "kid_prompt_template": "promptBuildSyllables"
   }
 ]

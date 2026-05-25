@@ -28,7 +28,7 @@ var SYLLABLE_ACTIVITY_STRINGS = {
     es: 'Toca las sílabas en orden para formar la palabra de esta imagen.',
     pt: 'Toque nas sílabas em ordem para formar a palavra.',
     nl: 'Tik op de klankgroepen in de juiste volgorde om het woord bij dit plaatje te bouwen.',
-    sv: 'Toca las sílabas en orden para formar la palabra de esta imagen.',
+    sv: 'Tryck på stavelserna i rätt ordning för att bygga ordet till den här bilden.',
     da: 'Toca las sílabas en orden para formar la palabra de esta imagen.',
     no: 'Toca las sílabas en orden para formar la palabra de esta imagen.',
     fi: 'Napauta tavut järjestyksessä muodostaaksesi sanan.'
@@ -41,7 +41,7 @@ var SYLLABLE_ACTIVITY_STRINGS = {
     es: 'Pon una sílaba en cada espacio y luego revisa.',
     pt: 'Coloque uma sílaba em cada espaço e toque em Verificar.',
     nl: 'Leg een klankgroep in elk vakje en tik dan op Controleren.',
-    sv: 'Pon una sílaba en cada espacio y luego revisa.',
+    sv: 'Lägg en stavelse i varje ruta och tryck sedan på Kontrollera.',
     da: 'Pon una sílaba en cada espacio y luego revisa.',
     no: 'Pon una sílaba en cada espacio y luego revisa.',
     fi: 'Aseta tavu jokaiseen ruutuun ja paina Tarkista.'
@@ -54,7 +54,7 @@ var SYLLABLE_ACTIVITY_STRINGS = {
     es: 'Casi. Escucha otra vez y prueba otro orden.',
     pt: 'Quase! Ouça de novo e tente outra ordem.',
     nl: 'Bijna! Luister nog eens en probeer een andere volgorde.',
-    sv: 'Casi. Escucha otra vez y prueba otro orden.',
+    sv: 'Nästan! Lyssna igen och försök med en annan ordning.',
     da: 'Casi. Escucha otra vez y prueba otro orden.',
     no: 'Casi. Escucha otra vez y prueba otro orden.',
     fi: 'Melkein! Kuuntele uudelleen ja kokeile toista järjestystä.'
@@ -144,8 +144,8 @@ function _tilesEqual(a, b) {
 window.SyllableBuilderActivity = Object.assign({}, WordBuilderCore, {
   id: 'syllable-builder-activity',
   strings: Object.assign({}, WordBuilderCore.strings, SYLLABLE_ACTIVITY_STRINGS, {
-    title: {en:'Syllable Builder',de:'Silbenbauer',fr:'Constructeur de syllabes',it:'Costruttore di sillabe',es:'Constructor de sílabas',pt:'Construtor de sílabas',nl:'Klankgroepenbouwer',sv:'Constructor de sílabas',da:'Constructor de sílabas',no:'Constructor de sílabas',fi:'Sanan rakentaja'},
-    instruction: {en:'Look at the picture. Tap each syllable in order. Tap Check when you are ready.',de:'Schau dir das Bild an. Tippe die Silben in der richtigen Reihenfolge an. Tippe auf Überprüfen, wenn du fertig bist.',fr:'Regarde l\'image. Touche les syllabes dans l\'ordre. Touche Vérifier quand tu as fini.',it:'Guarda l\'immagine. Tocca ogni sillaba in ordine. Tocca Verifica quando sei pronto.',es:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.',pt:'Olhe a imagem. Toque nas sílabas em ordem. Toque em Verificar quando estiver pronto.',nl:'Kijk naar het plaatje. Tik op elke klankgroep in de juiste volgorde. Tik op Controleren als je klaar bent.',sv:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.',da:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.',no:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.',fi:'Katso kuvaa. Napauta tavut järjestyksessä. Paina Tarkista, kun olet valmis.'}
+    title: {en:'Syllable Builder',de:'Silbenbauer',fr:'Constructeur de syllabes',it:'Costruttore di sillabe',es:'Constructor de sílabas',pt:'Construtor de sílabas',nl:'Klankgroepenbouwer',sv:'Stavelsebyggaren',da:'Constructor de sílabas',no:'Constructor de sílabas',fi:'Sanan rakentaja'},
+    instruction: {en:'Look at the picture. Tap each syllable in order. Tap Check when you are ready.',de:'Schau dir das Bild an. Tippe die Silben in der richtigen Reihenfolge an. Tippe auf Überprüfen, wenn du fertig bist.',fr:'Regarde l\'image. Touche les syllabes dans l\'ordre. Touche Vérifier quand tu as fini.',it:'Guarda l\'immagine. Tocca ogni sillaba in ordine. Tocca Verifica quando sei pronto.',es:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.',pt:'Olhe a imagem. Toque nas sílabas em ordem. Toque em Verificar quando estiver pronto.',nl:'Kijk naar het plaatje. Tik op elke klankgroep in de juiste volgorde. Tik op Controleren als je klaar bent.',sv:'Titta på bilden. Tryck på varje stavelse i rätt ordning. Tryck på Kontrollera när du är klar.',da:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.',no:'Mira la imagen. Toca cada sílaba en orden. Toca Comprobar cuando estés listo.',fi:'Katso kuvaa. Napauta tavut järjestyksessä. Paina Tarkista, kun olet valmis.'}
   }),
 
   tasks: STATIC_DEMO_SYLLABLE_TASKS,

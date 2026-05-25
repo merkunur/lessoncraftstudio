@@ -1,6 +1,6 @@
 # CLAUDE.md — LessonCraftStudio Interactive Worksheets Platform
 
-**Version:** 3.3 (post SEO-thumbnail commission) **Last updated:** 2026-05-19
+**Version:** 3.4 (post Group-C E9 completion + DA policy-decoration doctrine) **Last updated:** 2026-05-25
 
 ---
 
@@ -1540,14 +1540,15 @@ Activities are THE product. Target: full K-3 Common Core coverage across BOTH Ma
 **Two-builder workflow.** A separate Claude instance (PM Claude) writes the prompts; this CC instance builds + deploys. **One prompt → one activity → one engine at a time.** Each must be 100% complete + deployed + operator-approved before next starts. Nothing accumulates.
 
 ### 20.2 Engine inventory + live surface
-See [[project-activities-live-inventory]] for the canonical list. As of 2026-05-22 (commit `693b3e86`):
+See [[project-activities-live-inventory]] for the canonical list. As of 2026-05-25 (commit `4b014cbc`):
 - **3 manipulatives** live: ten-frame, number-line, ruler (`/mini-tools/*.html`)
 - **E1 ten-frame-activity** — 5 K-Math activities (K.CC.B.4 ×2, K.CC.B.5, K.CC.A.3, K.NBT.A.1)
 - **E2 choice-tap** — 8 activities (K.G.A.2, K.G.B.4, K.CC.C.6, K.CC.C.7 ×2, K.CC.B.5, K.G.A.3, 2.OA.C.3). **K-Math distinct-skill phase essentially done.**
 - **E7 CVC builder** — 1 EN-only activity (RF.K.3 "Build the CVC Word"). Non-EN return 404 by design.
 - **E8 Syllable Builder** — 3 fan-outs LIVE (RF.K.2.B): ES "Forma las sílabas" (`forma-las-silabas`, 8 words, commit `dde3e037`) + FI "Muodosta sana tavuista" (`muodosta-sana-tavuista`, 7 words, commit `92d0a136`) + PT "Forme as sílabas" (`forme-as-silabas`, 7 words, commit `693b3e86`). Engine: `mini tools/word-builder-core.js` + `syllable-builder-activity.js` (sibling to E7's cvc-builder-core; NOT a refactor). Tap-to-place + per-tile TTS + blended-word TTS on correct Check.
+- **E9 Sound-Chunk Builder** — **5 Nordic-cluster Group-C fan-outs LIVE (RF.K.2.B) — Group-C COMPLETE:** DE "Bau das Wort aus Silben" + NL "Bouw het woord met klankgroepen" (both shipped pre-2026-05-23) + SV "Bygg ordet av stavelser" (`c2bc4249`) + NO "Bygg ordet av stavelser" (`f834efd1`) + DA "Byg ordet af stavelser" (`4b014cbc`). Same engine as E8 (`word-builder-core.js` + `syllable-builder-activity.js`); only word-source pool differs. **Manifest-id `.<locale>` suffix convention** (started NO; defensive against `_loadActivity` find() collisions when slug-shapes overlap — SV+NO share slug-shape `bygg-ordet-av-stavelser` differentiated only by `/sv/` vs `/no/` locale + manifest id `.no`). **NO+DA ng-rule**: default 2-chunk walker → boundary BETWEEN n and g (engel → en-gel); DIFFERENT from SV `sv.js` ng-as-coda special case (ängel → äng-el). **DA K-1-safe pool**: per §20.7 phonemic-divergence policy, only 402/794 approved DA words are `policy_managed:false`; first DA activity authored exclusively from this pool. See [[project-phonics-safety-pipeline]] for per-locale gate state.
 
-Engines NOT yet built: E8 fan-out to **FR** (next active commission; fr.js confirmed CORRECT) + **IT** (NSR-flagged commission alongside FR; it.js iato/dittongo register-sensitive); E9 Sound-Chunk Builder (de/nl/sv/da/no); E4 match-pairs, E12 place-value, E5/E6 tracing, E9 sight-word, E14 fraction, E3 sort, E13 array, E10 clock, E18 number-bond. See [[project-activities-master-queue]] for leverage ranking + queue triage.
+Engines NOT yet built: E8 fan-out to **FR** (next active commission; fr.js confirmed CORRECT) + **IT** (NSR-flagged commission alongside FR; it.js iato/dittongo register-sensitive); E4 match-pairs, E12 place-value, E5/E6 tracing, E9 sight-word, E14 fraction, E3 sort, E13 array, E10 clock, E18 number-bond. See [[project-activities-master-queue]] for leverage ranking + queue triage.
 
 ### 20.3 Architecture summary
 See [[project-activities-architecture]] for full doctrine. Key constraints:
@@ -1594,7 +1595,7 @@ See [[project-phonics-safety-pipeline]]. Built + SV+FI proven at commit `91421bd
 - **no** — safe + ~30-60 kj/sj/skj quarantine (one merger-policy decision; treat kj+sj as distinct in K-1, awareness in grade 2)
 - **de** — safe + ~80-120 multigraph-onset quarantine (Augst & Dehn-cited chunk table)
 - **nl** — safe + ~200-300 multigraph quarantine; thinnest source coverage (Wiktionary pre-flight passed at 84% — above 60% threshold)
-- **da** — safe + 35-55% quarantine (stød/weakened-final/post-vocalic-r/s-stop/ld-nd-rd, regex-detectable from NST IPA) + ONE curriculum policy decision **DECIDED: orthographic syllables for K-1, phonemic-divergence awareness grade 2** (Elbro lydrethed-first)
+- **da** — safe + 35-55% policy-managed-decoration rate (stød/weakened-final/post-vocalic-r/s-stop/ld-nd-rd, regex-detectable from NST IPA) + ONE curriculum policy decision **DECIDED: orthographic syllables for K-1, phonemic-divergence awareness grade 2** (Elbro lydrethed-first). **CRITICAL implementation detail (per `cli.js:100-103`)**: the 5-criterion `da-quarantine.js` regex is DECORATION on PASS verdicts (`policy_managed:true` flag), NOT hard quarantine. DA flagged words still pass the syllable-count gate; the policy determines which activities they're eligible for (K-1 strict uses `policy_managed:false` pool; grade-2 inclusive uses full approved). DA STEP 1 empirical (2026-05-25, 794/1263 approved): 392 of 794 (49.4%) carry the flag — exactly the §20.7-predicted "haircut" — leaving 402 K-1-safe non-policy-managed words for K-1 activity authoring
 - **es/it/pt/fr/fi** — GREEN auto-gate, no concern
 
 **No live per-word human review required for any language.** Pipeline outputs `scripts/v2-data/verify-syllable-boundaries/output/approved-words-<locale>.json` (activity-authoring source of truth) + `quarantine-report.json` (operator-reviewable). Read-only inputs: image-vocabulary.js + vocabulary-phonics.json (NEVER touched).
@@ -2181,6 +2182,35 @@ Origin: CategoryNav `browseAllHref` change 2026-05-24 commit `69d7cfdb` — fix 
 **Cross-ref**: `card3ByLocale` map in PillarActivities.tsx serves as the precedent pattern if/when card1 is per-localized.
 
 Origin: 10-commission homepageV3 arc 2026-05-23/24 + homepage-v3 promotion 2026-05-24 commit `bc215a5c`.
+
+#### A.13.52 Rule-syllabifier WORD_BLACKLIST — R abstains, never overrides T
+
+Per the locked safety invariant ("a wrong split NEVER reaches an activity; quarantine ALWAYS beats publishing a wrong split"), rule-syllabifier R is an ADDITIONAL agreeing source under the strict gate — never authoritative. Empirically confirmed at `gate.js:226-238`: `split_source_disagreement` check fires BEFORE count-agreement check; T+R disagreement → quarantine regardless of N+S+W. SV STEP 2 evidence: 964/964 SV-approved have BOTH `TeX` AND `rule` in `sources_agreed`; zero R-overrides-T recoveries.
+
+**When R's principled K-1 convention conflicts with TeX's empirically-inconsistent choice for specific words AND the word is native (not loanword), R RETURNS NULL for those words.** Effect: gate sees only T as split source → no split-disagreement → word recovers via T+N+S count agreement. The locked safety invariant is preserved as "R abstains" rather than "R overrides."
+
+**Implementation:** in `rule-syllabifiers/<locale>.js`, add a `WORD_BLACKLIST = new Set([...])` const + early-return in `syllabify(word)`:
+```js
+function syllabify(word) {
+  if (!word || typeof word !== 'string') return null;
+  if (word.length <= 1) return [word];
+  if (WORD_BLACKLIST.has(word.toLowerCase())) return null;
+  return syllabifyCompound(word);
+}
+```
+
+**Canonical example: NO STEP 2 (`rule-syllabifiers/no.js`).** 9 words blacklisted: `kjegle / kongle / kringle` (Norwegian native -gle ending where TeX picks closed-syl; R's gl-INSEPARABLE would mismatch), `sykling / tøfler` (TeX-inconsistent on stop+liquid/fl in specific words), `gjøkur` (compound where second element 'ur' is too short for compound-suffix match), `oppvaskmaskin / symaskin` (TeX-inconsistent on sk inside maskin element), `forstørrelsesglass` (Norwegian compound with internal st-cluster handled differently by TeX in compound context). All 9 entries are Norwegian-native; loanword regressions remain (acceptable per operator). Final NO STEP 2 result: 829/1263 approved (65.6%); 29 residual regressions all foreign loanwords.
+
+**When NOT to use:** loanwords (acceptable regressions per operator); words where R's principled convention is correct AND TeX is wrong (those quarantine appropriately; that IS the safety mechanism working).
+
+**When to use:** native-locale word where (a) TeX's split is what operator expects K-1 children to see, (b) R's principled convention produces a different split, (c) N+S agree with TeX's count, (d) blacklisting R would let the word recover via T+N+S without R contributing a contradicting split.
+
+Cross-references:
+- §20.7 — phonics safety pipeline; per-language verdicts
+- [[project-phonics-safety-pipeline]] memory — full WORD_BLACKLIST + ng-rule doctrine
+- gate.js:226-238 — empirical safety mechanism this discipline honors
+
+Origin: NO STEP 2 commission 2026-05-25 commits leading to `f834efd1` (no.js + WORD_BLACKLIST shipped; 5 iteration rounds; final +58 net to 829 approved).
 
 ### A.14 Scaling Arc audit doctrine
 

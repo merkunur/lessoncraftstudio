@@ -725,6 +725,19 @@
   cursor: default;
 }
 
+/* Mobile viewport clamp for EmbedShareV3 — last-resort defense against
+   any horizontal-overflow source within the section. Belt-and-suspenders
+   alongside the cascade-breakers at .hv3-browser-{frame,chrome,address}. */
+@media (max-width: 768px) {
+  .hv3-section-coral-soft {
+    overflow-x: hidden;
+  }
+  .hv3-browser-frame {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
 /* Prefers-reduced-motion */
 @media (prefers-reduced-motion: reduce) {
   .hv3-anim-fade-up,

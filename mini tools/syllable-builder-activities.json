@@ -172,5 +172,36 @@
     "page_title": { "de": "Bau das Wort aus Silben — Phonetik im Kindergarten" },
     "page_intro": { "de": "Schau dir das Bild an und baue das Wort, indem du die Silben in die richtige Reihenfolge legst. Ausgerichtet an Common Core RF.K.2.B — Silben in gesprochenen Wörtern zählen, aussprechen, verbinden und segmentieren." },
     "kid_prompt_template": "promptBuildSyllables"
+  },
+  {
+    "id": "syllable-builder.bouw-het-woord-met-klankgroepen.rf-k-2-b",
+    "tool": "syllable-builder-activity",
+    "task_template": "build-syllables-word",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.2.B",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "language": "nl-NL",
+      "words": [
+        { "noun": "chimney",    "themeDir": "christmas",        "targetWord": "schoorsteen",  "syllables": ["schoor","steen"],         "label": "schoorsteen" },
+        { "noun": "bat",        "themeDir": "animals",          "targetWord": "vleermuis",    "syllables": ["vleer","muis"],           "label": "vleermuis" },
+        { "noun": "pancake",    "themeDir": "breakfast",        "targetWord": "pannenkoek",   "syllables": ["pan","nen","koek"],       "label": "pannenkoek" },
+        { "noun": "glove",      "themeDir": "accessories",      "targetWord": "handschoen",   "syllables": ["hand","schoen"],          "label": "handschoen" },
+        { "noun": "binoculars", "themeDir": "camping",          "targetWord": "verrekijker",  "syllables": ["ver","re","kij","ker"],   "label": "verrekijker" },
+        { "noun": "bookcase",   "themeDir": "furniture",        "targetWord": "boekenkast",   "syllables": ["boe","ken","kast"],       "label": "boekenkast" },
+        { "noun": "carpet",     "themeDir": "around the house", "targetWord": "tapijt",       "syllables": ["ta","pijt"],              "label": "tapijt" },
+        { "noun": "biscuit",    "themeDir": "breakfast",        "targetWord": "koekje",       "syllables": ["koek","je"],              "label": "koekje" },
+        { "noun": "girl",       "themeDir": "toys",             "targetWord": "meisje",       "syllables": ["meis","je"],              "label": "meisje" },
+        { "noun": "bee",        "themeDir": "farm animals",     "targetWord": "bij",          "syllables": ["bij"],                    "label": "bij" }
+      ]
+    },
+    "theme": null,
+    "slug": { "nl": "bouw-het-woord-met-klankgroepen" },
+    "page_title": { "nl": "Bouw het woord met klankgroepen — Fonetiek in de kleuterklas" },
+    "page_intro": { "nl": "Kijk naar het plaatje en bouw het woord door de klankgroepen in de juiste volgorde te leggen. Afgestemd op Common Core RF.K.2.B — klankgroepen in gesproken woorden tellen, uitspreken, samenvoegen en opdelen." },
+    "kid_prompt_template": "promptBuildSyllables"
   }
 ]

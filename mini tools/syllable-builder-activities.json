@@ -265,5 +265,36 @@
     "page_title": { "no": "Bygg ordet av stavelser — Fonetikk i barnehagen" },
     "page_intro": { "no": "Se på bildet og bygg ordet ved å legge stavelsene i riktig rekkefølge. Tilpasset Common Core RF.K.2.B — telle, uttale, blande og dele stavelser i talte ord." },
     "kid_prompt_template": "promptBuildSyllables"
+  },
+  {
+    "id": "syllable-builder.byg-ordet-af-stavelser.da.rf-k-2-b",
+    "tool": "syllable-builder-activity",
+    "task_template": "build-syllables-word",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.2.B",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "language": "da-DK",
+      "words": [
+        { "noun": "clock",     "themeDir": "around the house", "targetWord": "klokke",    "syllables": ["klok","ke"],          "label": "klokke" },
+        { "noun": "angel",     "themeDir": "christmas",        "targetWord": "engel",     "syllables": ["en","gel"],           "label": "engel" },
+        { "noun": "dress",     "themeDir": "clothing",         "targetWord": "kjole",     "syllables": ["kjo","le"],           "label": "kjole" },
+        { "noun": "banana",    "themeDir": "fruits",           "targetWord": "banan",     "syllables": ["ba","nan"],           "label": "banan" },
+        { "noun": "balloon",   "themeDir": "toys",             "targetWord": "ballon",    "syllables": ["bal","lon"],          "label": "ballon" },
+        { "noun": "belt",      "themeDir": "clothing",         "targetWord": "bælte",     "syllables": ["bæl","te"],           "label": "bælte" },
+        { "noun": "bicycle",   "themeDir": "vehicles",         "targetWord": "cykel",     "syllables": ["cy","kel"],           "label": "cykel" },
+        { "noun": "armchair",  "themeDir": "around the house", "targetWord": "lænestol",  "syllables": ["læ","ne","stol"],     "label": "lænestol" },
+        { "noun": "ambulance", "themeDir": "vehicles",         "targetWord": "ambulance", "syllables": ["am","bu","lan","ce"], "label": "ambulance" },
+        { "noun": "ankle",     "themeDir": "body parts",       "targetWord": "ankel",     "syllables": ["an","kel"],           "label": "ankel" }
+      ]
+    },
+    "theme": null,
+    "slug": { "da": "byg-ordet-af-stavelser" },
+    "page_title": { "da": "Byg ordet af stavelser — Fonetik i børnehaveklassen" },
+    "page_intro": { "da": "Se på billedet og byg ordet ved at lægge stavelserne i den rigtige rækkefølge. Tilpasset Common Core RF.K.2.B — tælle, udtale, blande og dele stavelser i talte ord." },
+    "kid_prompt_template": "promptBuildSyllables"
   }
 ]

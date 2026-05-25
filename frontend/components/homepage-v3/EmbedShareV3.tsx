@@ -121,7 +121,6 @@ function ProductEmbedMockup({ tr }: { tr: MockupTranslations }) {
 
         <div
           className="hv3-embed-popup"
-          style={{ top: '38px', right: '14px', width: '220px' }}
           aria-hidden="true"
         >
           <p className="hv3-embed-popup-header">{tr.popupTitle}</p>

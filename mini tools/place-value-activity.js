@@ -23,16 +23,16 @@
    ===================================================================== */
 
 /* Localized chrome strings for activity tasks. EN + DE + ES + IT + FR
-   + PT + NL shipped. PT is Brazilian Portuguese ('pt' canonical per
+   + PT + NL + SV shipped. PT is Brazilian Portuguese ('pt' canonical per
    CLAUDE.md §6; NEVER pt-BR). Additional locales fan out one at a time
    per the §A.13.48 plan-mode-per-locale + 3-agent native ensemble
-   discipline. Warm K-3 register: "du" form for DE; "tú" form for ES;
+   discipline. Warm K-3 register: "du" form for DE/SV; "tú" form for ES;
    "tu" form for IT/FR; "você" form for PT (BR-informal); "je" form for
    NL — mirrors choice-board / ten-frame precedent. */
 var ACTIVITY_STRINGS = {
-  taskBuild:      { en: 'Build {n}',                       de: 'Baue {n}',                                            es: 'Construye {n}',                                       it: 'Costruisci {n}',                                       fr: 'Construis {n}',                                       pt: 'Construa {n}',                                        nl: 'Bouw {n}' },
-  hintBuildMore:  { en: 'Keep going — you need more',      de: 'Mach weiter — du brauchst mehr',                      es: 'Sigue — necesitas más',                               it: 'Continua — ti servono di più',                        fr: 'Continue — il en faut plus',                          pt: 'Continue — precisa de mais',                          nl: 'Ga door — je hebt er meer nodig' },
-  hintTooMany:    { en: 'Too many — take some away',       de: 'Zu viele — nimm einige weg',                          es: 'Demasiados — quita algunos',                          it: 'Troppi — togline qualcuno',                           fr: 'Trop — enlève-en',                                    pt: 'Demais — remova alguns',                              nl: 'Te veel — haal er een paar weg' },
+  taskBuild:      { en: 'Build {n}',                       de: 'Baue {n}',                                            es: 'Construye {n}',                                       it: 'Costruisci {n}',                                       fr: 'Construis {n}',                                       pt: 'Construa {n}',                                        nl: 'Bouw {n}',                                            sv: 'Bygg {n}' },
+  hintBuildMore:  { en: 'Keep going — you need more',      de: 'Mach weiter — du brauchst mehr',                      es: 'Sigue — necesitas más',                               it: 'Continua — ti servono di più',                        fr: 'Continue — il en faut plus',                          pt: 'Continue — precisa de mais',                          nl: 'Ga door — je hebt er meer nodig',                     sv: 'Fortsätt — du behöver fler' },
+  hintTooMany:    { en: 'Too many — take some away',       de: 'Zu viele — nimm einige weg',                          es: 'Demasiados — quita algunos',                          it: 'Troppi — togline qualcuno',                           fr: 'Trop — enlève-en',                                    pt: 'Demais — remova alguns',                              nl: 'Te veel — haal er een paar weg',                      sv: 'För många — ta bort några' },
   /* hintBundleTen is defensive (unreachable with maxOnes=9), but kept
      so a future grade-2 extension that lifts the cap can lean on it. */
   hintBundleTen:  { en: 'Ten ones make one ten — bundle them',
@@ -41,7 +41,8 @@ var ACTIVITY_STRINGS = {
                     it: 'Dieci unità fanno una decina — raggruppale',
                     fr: 'Dix unités font une dizaine — regroupe-les',
                     pt: 'Dez unidades formam uma dezena — agrupe-as',
-                    nl: 'Tien eenheden maken één tiental — groepeer ze' }
+                    nl: 'Tien eenheden maken één tiental — groepeer ze',
+                    sv: 'Tio ental blir ett tiotal — gruppera dem' }
 };
 
 /* Fallback static task set when no ?activity= is given. Mirrors the
@@ -97,7 +98,8 @@ window.PlaceValueActivity = Object.assign({}, PlaceValueCore, {
       it: 'Attività di valore posizionale',
       fr: 'Activité de valeur de position',
       pt: 'Atividade de valor posicional',
-      nl: 'Plaatswaarde-oefening'
+      nl: 'Plaatswaarde-oefening',
+      sv: 'Platsvärde-övning'
     },
     instruction: {
       en: 'Follow the prompt. Tap Check when you’re ready.',
@@ -106,7 +108,8 @@ window.PlaceValueActivity = Object.assign({}, PlaceValueCore, {
       it: 'Segui l\'istruzione. Tocca Verifica quando sei pronto.',
       fr: 'Suis la consigne. Touche Vérifier quand tu es prêt.',
       pt: 'Siga a indicação. Toque em Verificar quando estiver pronto.',
-      nl: 'Volg de aanwijzing. Tik op Controleer wanneer je klaar bent.'
+      nl: 'Volg de aanwijzing. Tik op Controleer wanneer je klaar bent.',
+      sv: 'Följ instruktionen. Tryck på Kontrollera när du är klar.'
     }
   }),
 

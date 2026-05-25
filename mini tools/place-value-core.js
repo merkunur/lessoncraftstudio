@@ -38,15 +38,15 @@
    ===================================================================== */
 window.PlaceValueCore = {
 
-  /* EN + DE + ES + IT + FR + PT + NL shipped. PT is Brazilian Portuguese
-     (locale code 'pt' only, NEVER 'pt-BR' per CLAUDE.md §6). Additional
-     locales fan-out one at a time per the §A.13.48 plan-mode-per-locale
-     + 3-agent ensemble discipline. Engine falls back to `en` via api.t()
-     if any unfilled locale routes here. The manifest row's `slug` map
-     gates URL resolution before the engine ever boots — if a locale
-     lacks a slug, /<locale>/activities/... 404s. */
+  /* EN + DE + ES + IT + FR + PT + NL + SV shipped. PT is Brazilian
+     Portuguese (locale code 'pt' only, NEVER 'pt-BR' per CLAUDE.md §6).
+     Additional locales fan-out one at a time per the §A.13.48 plan-mode-
+     per-locale + 3-agent ensemble discipline. Engine falls back to `en`
+     via api.t() if any unfilled locale routes here. The manifest row's
+     `slug` map gates URL resolution before the engine ever boots — if a
+     locale lacks a slug, /<locale>/activities/... 404s. */
   strings: {
-    title:        { en: 'Place Value', de: 'Stellenwert', es: 'Valor posicional', it: 'Valore posizionale', fr: 'Valeur de position', pt: 'Valor posicional', nl: 'Plaatswaarde' },
+    title:        { en: 'Place Value', de: 'Stellenwert', es: 'Valor posicional', it: 'Valore posizionale', fr: 'Valeur de position', pt: 'Valor posicional', nl: 'Plaatswaarde', sv: 'Platsvärde' },
     instruction:  {
       en: 'Tap to add tens and ones. Tap a block to remove it.',
       de: 'Tippe, um Zehner und Einer hinzuzufügen. Tippe auf einen Stein, um ihn zu entfernen.',
@@ -54,24 +54,25 @@ window.PlaceValueCore = {
       it: 'Tocca per aggiungere decine e unità. Tocca un blocco per rimuoverlo.',
       fr: 'Touche pour ajouter des dizaines et des unités. Touche un bloc pour le retirer.',
       pt: 'Toque para adicionar dezenas e unidades. Toque em um bloco para removê-lo.',
-      nl: 'Tik om tientallen en eenheden toe te voegen. Tik op een blok om het te verwijderen.'
+      nl: 'Tik om tientallen en eenheden toe te voegen. Tik op een blok om het te verwijderen.',
+      sv: 'Tryck för att lägga till tiotal och ental. Tryck på ett block för att ta bort det.'
     },
-    tensLabel:    { en: 'Tens',     de: 'Zehner',              es: 'Decenas',                 it: 'Decine',                                              fr: 'Dizaines',                                            pt: 'Dezenas',                                             nl: 'Tientallen' },
-    onesLabel:    { en: 'Ones',     de: 'Einer',               es: 'Unidades',                it: 'Unità',                                               fr: 'Unités',                                              pt: 'Unidades',                                            nl: 'Eenheden' },
-    buildLabel:   { en: 'Build',    de: 'Wert',                es: 'Valor',                   it: 'Valore',                                              fr: 'Valeur',                                              pt: 'Valor',                                               nl: 'Waarde' },
-    addTenLabel:  { en: 'Add ten',  de: 'Zehner hinzufügen',   es: 'Añadir una decena',       it: 'Aggiungi una decina',                                 fr: 'Ajoute une dizaine',                                  pt: 'Adicionar uma dezena',                                nl: 'Tiental toevoegen' },
-    addOneLabel:  { en: 'Add one',  de: 'Einer hinzufügen',    es: 'Añadir una unidad',       it: 'Aggiungi una unità',                                  fr: 'Ajoute une unité',                                    pt: 'Adicionar uma unidade',                               nl: 'Eenheid toevoegen' },
+    tensLabel:    { en: 'Tens',     de: 'Zehner',              es: 'Decenas',                 it: 'Decine',                                              fr: 'Dizaines',                                            pt: 'Dezenas',                                             nl: 'Tientallen',                                          sv: 'Tiotal' },
+    onesLabel:    { en: 'Ones',     de: 'Einer',               es: 'Unidades',                it: 'Unità',                                               fr: 'Unités',                                              pt: 'Unidades',                                            nl: 'Eenheden',                                            sv: 'Ental' },
+    buildLabel:   { en: 'Build',    de: 'Wert',                es: 'Valor',                   it: 'Valore',                                              fr: 'Valeur',                                              pt: 'Valor',                                               nl: 'Waarde',                                              sv: 'Värde' },
+    addTenLabel:  { en: 'Add ten',  de: 'Zehner hinzufügen',   es: 'Añadir una decena',       it: 'Aggiungi una decina',                                 fr: 'Ajoute une dizaine',                                  pt: 'Adicionar uma dezena',                                nl: 'Tiental toevoegen',                                   sv: 'Lägg till ett tiotal' },
+    addOneLabel:  { en: 'Add one',  de: 'Einer hinzufügen',    es: 'Añadir una unidad',       it: 'Aggiungi una unità',                                  fr: 'Ajoute une unité',                                    pt: 'Adicionar uma unidade',                               nl: 'Eenheid toevoegen',                                   sv: 'Lägg till ett ental' },
     /* wordTen / wordOne are the placed-unit names spoken on tap. All
        locales use the place-unit nouns (NOT cardinals) to reinforce the
        1.NBT.B.2 place-value vocabulary the activity teaches and to match
-       the column labels the kid sees. NL "tiental" (neuter) / "eenheid"
-       (common-gender) — singular place-unit nouns. */
-    wordTen:      { en: 'ten',      de: 'Zehner',              es: 'decena',                  it: 'decina',                                              fr: 'dizaine',                                             pt: 'dezena',                                              nl: 'tiental' },
-    wordOne:      { en: 'one',      de: 'Einer',               es: 'unidad',                  it: 'unità',                                               fr: 'unité',                                               pt: 'unidade',                                             nl: 'eenheid' },
+       the column labels the kid sees. SV "tiotal" / "ental" are NEUTER
+       nouns with zero-plural (invariant). */
+    wordTen:      { en: 'ten',      de: 'Zehner',              es: 'decena',                  it: 'decina',                                              fr: 'dizaine',                                             pt: 'dezena',                                              nl: 'tiental',                                             sv: 'tiotal' },
+    wordOne:      { en: 'one',      de: 'Einer',               es: 'unidad',                  it: 'unità',                                               fr: 'unité',                                               pt: 'unidade',                                             nl: 'eenheid',                                             sv: 'ental' },
     /* Screen-reader fragments for placed-block aria-labels. */
-    srTenRod:     { en: 'ten-rod',  de: 'Zehnerstab',          es: 'barra de diez',           it: 'barra di dieci',                                      fr: 'barre de dix',                                        pt: 'barra de dez',                                        nl: 'tienstaaf' },
-    srUnitCube:   { en: 'unit-cube',de: 'Einerwürfel',         es: 'cubo de uno',             it: 'cubo da uno',                                         fr: 'cube unité',                                          pt: 'cubinho',                                             nl: 'blokje' },
-    srRemove:     { en: 'remove',   de: 'entferne',            es: 'quitar',                  it: 'rimuovi',                                             fr: 'retire',                                              pt: 'remova',                                              nl: 'verwijder' }
+    srTenRod:     { en: 'ten-rod',  de: 'Zehnerstab',          es: 'barra de diez',           it: 'barra di dieci',                                      fr: 'barre de dix',                                        pt: 'barra de dez',                                        nl: 'tienstaaf',                                           sv: 'tiostav' },
+    srUnitCube:   { en: 'unit-cube',de: 'Einerwürfel',         es: 'cubo de uno',             it: 'cubo da uno',                                         fr: 'cube unité',                                          pt: 'cubinho',                                             nl: 'blokje',                                              sv: 'enhetskub' },
+    srRemove:     { en: 'remove',   de: 'entferne',            es: 'quitar',                  it: 'rimuovi',                                             fr: 'retire',                                              pt: 'remova',                                              nl: 'verwijder',                                           sv: 'ta bort' }
   },
 
   defaults: {},
@@ -366,6 +367,27 @@ window.PlaceValueCore = {
       if (o === 0) return tens[t];
       var joinPart = (o === 2 || o === 3) ? 'ën' : 'en';  // trema when ones is 2 or 3
       return onesForCompound[o] + joinPart + tens[t];  // e.g. tweeëntwintig, zevenenveertig
+    },
+    sv: function (n, mode) {
+      /* Swedish. 0-19 lookup; 20-99 = tens-first concat (no space, no
+         joiner). Tens-words have IRREGULAR forms (load-bearing):
+           fyrtio (NOT fyratio — 40)
+           sjuttio (NOT sjutio — 70)
+         attributive: 1→"ett" (neuter form before neuter nouns tiotal/
+         ental). Cardinal[1] also "ett" (locked as Swedish K-1 counting
+         default; "en" is the common-gender variant, not emitted here). */
+      var lookup = [
+        'noll','ett','två','tre','fyra','fem','sex','sju','åtta','nio',
+        'tio','elva','tolv','tretton','fjorton','femton','sexton',
+        'sjutton','arton','nitton'
+      ];
+      var attr = ['noll','ett','två','tre','fyra','fem','sex','sju','åtta','nio'];
+      var tens = ['','','tjugo','trettio','fyrtio','femtio','sextio','sjuttio','åttio','nittio'];
+      if (n < 10) return (mode === 'attributive') ? attr[n] : lookup[n];
+      if (n < 20) return lookup[n];
+      var t = Math.floor(n / 10), o = n % 10;
+      if (o === 0) return tens[t];
+      return tens[t] + lookup[o];  // e.g. fyrtiosju, sjuttiotvå, åttionio
     }
   },
 
@@ -414,13 +436,31 @@ window.PlaceValueCore = {
           convention; opposite of FR). Plural verb "maken". Cardinal target
           is units-first compound with TREMA rule: tweeënzeventig at 72,
           negenentachtig at 89, etc.)
+     SV: "ett tiotal och två ental blir tolv"
+         (Swedish; tens-first; place-unit nouns INVARIANT (zero-plural
+          neuter nouns — ett tiotal, fyra tiotal, noll tiotal all same
+          word form; same as får/får sheep). NO plural suffix. "ett" =
+          neuter "a/one" before neuter noun. Copula "blir" (becomes) —
+          K-1 Swedish math convention. Cardinal target tens-first compound
+          with irregular tens-words: fyrtiosju, sjuttiotvå, åttionio.)
      Type 'ui' for instruction-shaped sentences per lcs-shell.js TYPES;
      TTS picks the voice from the `lang` parameter. */
   speakDecomposition: function () {
     if (!window.LCSAudio || !window.LCSAudio.speak) return;
     var lang = this.language;
     var sentence;
-    if (lang === 'nl') {
+    if (lang === 'sv') {
+      var tensWordSV   = this._numberWord(this.targetTens,   'sv', 'attributive', false);
+      var onesWordSV   = this._numberWord(this.targetOnes,   'sv', 'attributive', false);
+      var targetWordSV = this._numberWord(this.targetNumber, 'sv', 'cardinal',     false);
+      /* SV: tiotal/ental are NEUTER nouns with ZERO-PLURAL morphology.
+         Same form singular and plural (like får/får sheep, bord/bord
+         table). NEVER append a plural suffix. Copula "blir" (becomes)
+         per K-1 Swedish math-decomposition convention. */
+      var tensPartSV = tensWordSV + ' tiotal';   // INVARIANT
+      var onesPartSV = onesWordSV + ' ental';    // INVARIANT
+      sentence = tensPartSV + ' och ' + onesPartSV + ' blir ' + targetWordSV;
+    } else if (lang === 'nl') {
       var tensWordNL   = this._numberWord(this.targetTens,   'nl', 'attributive', false);
       var onesWordNL   = this._numberWord(this.targetOnes,   'nl', 'attributive', false);
       var targetWordNL = this._numberWord(this.targetNumber, 'nl', 'cardinal',     false);

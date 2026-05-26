@@ -30,7 +30,8 @@
       "nl": "maak-het-getal",
       "sv": "gor-talet",
       "da": "lav-tallet",
-      "no": "lag-tallet"
+      "no": "lag-tallet",
+      "fi": "tee-luku"
     },
     "page_title": {
       "en": "Make the Number",
@@ -42,7 +43,8 @@
       "nl": "Maak het getal",
       "sv": "Gör talet",
       "da": "Lav tallet",
-      "no": "Lag tallet"
+      "no": "Lag tallet",
+      "fi": "Tee luku"
     },
     "page_intro": {
       "en": "Find pairs of numbers that add up to the target. Tap a number, then tap its partner — and watch the pairs link. Aligned to Common Core K.OA.A.3 — decompose numbers less than or equal to 10 into pairs in more than one way.",
@@ -54,7 +56,8 @@
       "nl": "Zoek getallenparen die samen het doel maken. Tik op een getal, dan op zijn partner — en kijk hoe de paren verbinden. Afgestemd op Common Core K.OA.A.3 — getallen tot 10 op meerdere manieren ontleden in paren.",
       "sv": "Hitta talpar som tillsammans blir målet. Tryck på ett tal, sedan på dess kompis — och se hur paren kopplas ihop. Anpassat till Common Core K.OA.A.3 — dela upp tal upp till 10 i par på flera olika sätt.",
       "da": "Find talpar, der tilsammen bliver målet. Tryk på et tal, derefter på dets makker — og se hvordan parrene forbindes. Tilpasset Common Core K.OA.A.3 — opdel tal op til 10 i par på flere forskellige måder.",
-      "no": "Finn tallpar som til sammen blir målet. Trykk på et tall, deretter på makkeren — og se hvordan parene kobles. Tilpasset Common Core K.OA.A.3 — del opp tall opp til 10 i par på flere ulike måter."
+      "no": "Finn tallpar som til sammen blir målet. Trykk på et tall, deretter på makkeren — og se hvordan parene kobles. Tilpasset Common Core K.OA.A.3 — del opp tall opp til 10 i par på flere ulike måter.",
+      "fi": "Etsi lukupareja, jotka yhdessä tekevät tavoitteen. Paina numeroa, sitten paina sen paria — ja katso, miten parit yhdistyvät. Yhteensopiva Common Core K.OA.A.3 -standardin kanssa — jaa luvut enintään kymmeneen pareihin useilla eri tavoilla."
     },
     "kid_prompt_template": "taskMakeN"
   }

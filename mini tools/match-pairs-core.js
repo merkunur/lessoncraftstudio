@@ -44,14 +44,14 @@ window.MatchPairsCore = {
      discipline; the engine falls back to `en` via api.t() if any
      unfilled locale routes here. */
   strings: {
-    title:       { en: 'Match Pairs',                                                              de: 'Paare bilden',                                                                          es: 'Forma parejas' },
-    instruction: { en: 'Tap two cards that go together — and watch the pairs link.',               de: 'Tippe auf zwei Karten, die zusammengehören — und sieh zu, wie sich die Paare verbinden.', es: 'Toca dos tarjetas que van juntas — y mira cómo se enlazan las parejas.' },
+    title:       { en: 'Match Pairs',                                                              de: 'Paare bilden',                                                                          es: 'Forma parejas',                                                                                       it: 'Forma le coppie' },
+    instruction: { en: 'Tap two cards that go together — and watch the pairs link.',               de: 'Tippe auf zwei Karten, die zusammengehören — und sieh zu, wie sich die Paare verbinden.', es: 'Toca dos tarjetas que van juntas — y mira cómo se enlazan las parejas.',                              it: 'Tocca due carte che vanno insieme — e guarda come le coppie si collegano.' },
     /* Banner label above the board ("Target: 5"). Per-locale; previously
        hard-coded EN in render(); hoisted at the DE fan-out. */
-    targetLabel:    { en: 'Target',                                                                de: 'Ziel',                                                                                  es: 'Objetivo' },
+    targetLabel:    { en: 'Target',                                                                de: 'Ziel',                                                                                  es: 'Objetivo',                                                                                            it: 'Obiettivo' },
     /* Screen-reader prefix for the card aria-label ("Card 5"). Per-locale;
        previously hard-coded EN in render(); hoisted at DE fan-out. */
-    cardAriaPrefix: { en: 'Card ',                                                                 de: 'Karte ',                                                                                es: 'Tarjeta ' },
+    cardAriaPrefix: { en: 'Card ',                                                                 de: 'Karte ',                                                                                es: 'Tarjeta ',                                                                                            it: 'Carta ' },
     /* Per-card tap-utterance: speak the card's numeric value as a
        number-word. Cards are 0-10 only (K.OA.A.3 range). This lookup is
        value-verified against PlaceValueCore._NUMBER_WORD_HELPERS.<lang>
@@ -61,14 +61,15 @@ window.MatchPairsCore = {
     cardSpoken:  {
       en: ['zero','one','two','three','four','five','six','seven','eight','nine','ten'],
       de: ['null','eins','zwei','drei','vier','fünf','sechs','sieben','acht','neun','zehn'],
-      es: ['cero','uno','dos','tres','cuatro','cinco','seis','siete','ocho','nueve','diez']
+      es: ['cero','uno','dos','tres','cuatro','cinco','seis','siete','ocho','nueve','diez'],
+      it: ['zero','uno','due','tre','quattro','cinque','sei','sette','otto','nove','dieci']
     },
     /* Speech on Check correct — "All pairs make {n}!" templated.
        {n} substituted with the spoken target word from cardSpoken[lang]
        (same lookup as tap-audio; value-equivalent to PVC helper). */
-    speakAllPairsMake: { en: 'All pairs make {n}!',                                                de: 'Alle Paare ergeben {n}!',                                                              es: '¡Todas las parejas forman {n}!' },
+    speakAllPairsMake: { en: 'All pairs make {n}!',                                                de: 'Alle Paare ergeben {n}!',                                                              es: '¡Todas las parejas forman {n}!',                                                                      it: 'Tutte le coppie fanno {n}!' },
     /* Speech on Check wrong. */
-    speakTryAgain:     { en: 'Some pairs don\'t add up yet. Try again.',                           de: 'Manche Paare passen noch nicht. Versuch\'s nochmal.',                                  es: 'Algunas parejas no encajan todavía. Inténtalo de nuevo.' }
+    speakTryAgain:     { en: 'Some pairs don\'t add up yet. Try again.',                           de: 'Manche Paare passen noch nicht. Versuch\'s nochmal.',                                  es: 'Algunas parejas no encajan todavía. Inténtalo de nuevo.',                                             it: 'Alcune coppie non vanno ancora. Riprova.' }
   },
 
   defaults: {},

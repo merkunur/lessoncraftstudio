@@ -7,6 +7,7 @@ import {
 } from "@/config/topic-locales";
 import { listAllActivities } from "@/lib/activities";
 import BreadcrumbTrail from "@/components/breadcrumbs/BreadcrumbTrail";
+import { CANONICAL_HOST, canonicalUrl, localePath } from "@/lib/seo/url";
 
 /**
  * Activities index landing — /<locale>/activities/
@@ -23,7 +24,7 @@ import BreadcrumbTrail from "@/components/breadcrumbs/BreadcrumbTrail";
  */
 export const revalidate = 3600;
 
-const BASE_URL = "https://www.lessoncraftstudio.com";
+const BASE_URL = CANONICAL_HOST;
 
 const LANDING_STRINGS: Record<string, {
   pageTitle: string;
@@ -142,12 +143,12 @@ export function generateMetadata({
 }): Metadata {
   if (!isTopicLocale(params.locale)) return {};
   const strings = LANDING_STRINGS[params.locale] ?? LANDING_STRINGS.en;
-  const canonical = `${BASE_URL}/${params.locale}/activities/`;
+  const canonical = canonicalUrl(localePath(params.locale, "activities"));
   const alternates: Record<string, string> = {};
   for (const loc of TOPIC_ENABLED_LOCALES) {
-    alternates[loc] = `${BASE_URL}/${loc}/activities/`;
+    alternates[loc] = canonicalUrl(localePath(loc, "activities"));
   }
-  alternates["x-default"] = `${BASE_URL}/en/activities/`;
+  alternates["x-default"] = canonicalUrl(localePath("en", "activities"));
   return {
     title: strings.metaTitle,
     description: strings.metaDescription,
@@ -159,6 +160,21 @@ export function generateMetadata({
       siteName: "LessonCraftStudio",
       locale: params.locale,
       type: "website",
+      images: [
+        {
+          url: `${CANONICAL_HOST}/og-homepage.png`,
+          width: 1200,
+          height: 630,
+          type: "image/png",
+          alt: "LessonCraftStudio — K-3 worksheets in 11 languages",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: strings.metaTitle,
+      description: strings.metaDescription,
+      images: [`${CANONICAL_HOST}/og-homepage.png`],
     },
     robots: { index: true, follow: true },
   };
@@ -195,7 +211,7 @@ export default async function ActivitiesIndexPage({
             const title = row.page_title[locale];
             const intro = row.page_intro[locale];
             const slug = row.slug[locale];
-            const href = `/${locale}/activities/${slug}/`;
+            const href = localePath(locale, "activities", slug);
             return (
               <div
                 key={row.id}

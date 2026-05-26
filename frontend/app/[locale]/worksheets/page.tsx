@@ -16,8 +16,16 @@ import { ArrowRight } from 'lucide-react';
 import { getTranslations } from 'next-intl/server';
 import { prisma } from '@/lib/prisma';
 import { getAxisSlug, getAxisName } from '@/lib/taxonomy';
+import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
+import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
+import { SUPPORTED_LOCALES } from '@/config/locales';
 
-const BASE_URL = 'https://www.lessoncraftstudio.com';
+const BASE_URL = CANONICAL_HOST;
+
+// Brand-only 1200×630 OG asset shared with the homepage (Direction A
+// palette). Reused on worksheets hub + topic + activities pages until
+// per-surface OG composites are commissioned separately.
+const OG_IMAGE_PATH = '/og-homepage.png';
 
 // Substrate-honesty floor — only locales with genuine catalog depth (en /
 // es / it / pt today) get the "Hundreds…" variant. Seed-only locales fall
@@ -47,10 +55,51 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   const total = await countLocaleDecks(locale);
   const useHundreds = total >= HUNDREDS_THRESHOLD;
   const t = await getTranslations({ locale, namespace: 'worksheetsPage' });
+
+  const title = useHundreds ? t('metaTitle.hundreds') : t('metaTitle.safer');
+  const description = useHundreds ? t('metaDescription.hundreds') : t('metaDescription.safer');
+  const canonical = canonicalUrl(localePath(locale, 'worksheets'));
+
+  // Reciprocal hreflang × 11 + x-default — every locale renders the same
+  // worksheets-hub surface, so unconditional alternates are correct here
+  // (unlike topic pages where presence depends on per-axis deck count).
+  const hreflangAlternates: Record<string, string> = {};
+  for (const lang of SUPPORTED_LOCALES) {
+    hreflangAlternates[getHreflangCode(lang)] = canonicalUrl(localePath(lang, 'worksheets'));
+  }
+  hreflangAlternates['x-default'] = canonicalUrl(localePath('en', 'worksheets'));
+
   return {
-    title: `${useHundreds ? t('metaTitle.hundreds') : t('metaTitle.safer')} | LessonCraftStudio`,
-    description: useHundreds ? t('metaDescription.hundreds') : t('metaDescription.safer'),
-    alternates: { canonical: `${BASE_URL}/${locale}/worksheets/` },
+    title: `${title} | LessonCraftStudio`,
+    description,
+    alternates: {
+      canonical,
+      languages: hreflangAlternates,
+    },
+    openGraph: {
+      title,
+      description,
+      type: 'website',
+      url: canonical,
+      siteName: 'LessonCraftStudio',
+      locale: ogLocaleMap[locale] || locale,
+      alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
+      images: [
+        {
+          url: `${CANONICAL_HOST}${OG_IMAGE_PATH}`,
+          width: 1200,
+          height: 630,
+          type: 'image/png',
+          alt: 'LessonCraftStudio — K-3 worksheets in 11 languages',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [`${CANONICAL_HOST}${OG_IMAGE_PATH}`],
+    },
     robots: { index: true, follow: true },
   };
 }

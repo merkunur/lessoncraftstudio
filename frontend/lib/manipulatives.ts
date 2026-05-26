@@ -256,9 +256,10 @@ export const LANDING_STRINGS: Record<string, {
  */
 export function landingHreflangAlternates(baseUrl: string): Record<string, string> {
   const out: Record<string, string> = {};
+  // No trailing slash — Next.js routes per `next.config.js: trailingSlash: false`.
   for (const loc of ["en", "de", "es", "fr", "it", "pt", "nl", "sv", "da", "no", "fi"]) {
-    out[loc] = `${baseUrl}/${loc}/tools/`;
+    out[loc] = `${baseUrl}/${loc}/tools`;
   }
-  out["x-default"] = `${baseUrl}/en/tools/`;
+  out["x-default"] = `${baseUrl}/en/tools`;
   return out;
 }

@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { notFound, redirect } from 'next/navigation';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
+import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import {
   Axis,
   getAxisName,
@@ -89,7 +90,11 @@ function parseSearchParams(
   if (mode) sp.set('mode', mode);
   if (theme) sp.set('theme', theme);
   if (type) sp.set('type', type);
-  const canonicalUrl = buildFilterUrl(basePath, sp);
+  // Local name `canonicalForm` avoids shadowing the imported `canonicalUrl`
+  // helper from `@/lib/seo/url`. The two have different semantics: this is
+  // the canonical filter-URL form (path + sorted query string); the import
+  // builds absolute canonical URLs with no trailing slash.
+  const canonicalForm = buildFilterUrl(basePath, sp);
 
   // Detect non-canonical input — see [slug]/page.tsx for rationale.
   const rawCurrentSp = new URLSearchParams();
@@ -100,7 +105,7 @@ function parseSearchParams(
     ? `${basePath}?${rawCurrentSp.toString()}`
     : basePath;
 
-  const canonicalRedirect = rawCurrentUrl !== canonicalUrl ? canonicalUrl : null;
+  const canonicalRedirect = rawCurrentUrl !== canonicalForm ? canonicalForm : null;
 
   return {
     parsed: { sort, page: pageNum, level, theme, type, mode },
@@ -127,7 +132,10 @@ import { TOPIC_ENABLED_LOCALES, TopicEnabledLocale } from '@/config/topic-locale
 const TOPIC_LOCALES = TOPIC_ENABLED_LOCALES;
 type TopicLocale = TopicEnabledLocale;
 
-const BASE_URL = 'https://www.lessoncraftstudio.com';
+// SEO URLs go through `canonicalUrl()` / `localePath()` from `@/lib/seo/url`
+// to enforce the no-trailing-slash invariant. `BASE_URL` retained as alias of
+// `CANONICAL_HOST` for non-URL string usage (schema @id refs, etc.).
+const BASE_URL = CANONICAL_HOST;
 
 // Per-axis canonical-order rank; lower wins primary slot.
 const AXIS_ORDER_RANK: Record<Axis, number> = {
@@ -204,7 +212,7 @@ async function resolveOrThrow(params: IntersectionParams): Promise<IntersectionR
   const r = resolveIntersection(params.slug, params.secondary, params.locale);
   if (r.kind === 'notfound') notFound();
   if (r.kind === 'redirect') {
-    redirect(`/${params.locale}/topic/${r.canonicalPrimarySlug}/${r.canonicalSecondarySlug}/`);
+    redirect(localePath(params.locale, 'topic', r.canonicalPrimarySlug, r.canonicalSecondarySlug));
   }
   // Confirm the intersection has ≥1 published deck (defense-in-depth per
   // §16.6.1 — sitemap pruning prevents most empty hits but external links
@@ -291,12 +299,12 @@ export async function generateMetadata({
     const sibCount = await countDecksForIntersection(axis1, axisKey1, axis2, axisKey2, sibLocale);
     if (sibCount === 0) continue;
     hreflangAlternates[getHreflangCode(sibLocale)] =
-      `${BASE_URL}/${sibLocale}/topic/${slug1}/${slug2}/`;
+      canonicalUrl(localePath(sibLocale, 'topic', slug1, slug2));
   }
   const enHref = hreflangAlternates[getHreflangCode('en')];
   if (enHref) hreflangAlternates['x-default'] = enHref;
 
-  const canonical = `${BASE_URL}/${locale}/topic/${params.slug}/${params.secondary}/`;
+  const canonical = canonicalUrl(localePath(locale, 'topic', params.slug, params.secondary));
 
   // Prefer intersection prose first sentence as meta description (per §16.7.2
   // alphabetic-key lookup). Falls back to template for long-tail intersections.
@@ -318,11 +326,21 @@ export async function generateMetadata({
       url: canonical,
       siteName: 'LessonCraftStudio',
       locale: ogLocaleMap[locale] || locale,
+      images: [
+        {
+          url: `${CANONICAL_HOST}/og-homepage.png`,
+          width: 1200,
+          height: 630,
+          type: 'image/png',
+          alt: 'LessonCraftStudio — K-3 worksheets in 11 languages',
+        },
+      ],
     },
     twitter: {
-      card: 'summary',
+      card: 'summary_large_image',
       title: t('title', { topic: compositeName }),
       description,
+      images: [`${CANONICAL_HOST}/og-homepage.png`],
     },
   };
 }
@@ -391,7 +409,9 @@ export default async function IntersectionPage({
   const name1 = getAxisName(axis1, axisKey1, locale) ?? params.slug;
   const name2 = getAxisName(axis2, axisKey2, locale) ?? params.secondary;
   const compositeName = `${name1} · ${name2}`;
-  const basePath = `/${locale}/topic/${params.slug}/${params.secondary}/`;
+  // No trailing slash — Next.js routes per `next.config.js: trailingSlash: false`.
+  // basePath flows to canonical and to buildFilterUrl; both must emit no-slash.
+  const basePath = `/${locale}/topic/${params.slug}/${params.secondary}`;
 
   // Arc 6b — searchParams parse + canonical-redirect + 404 for invalid input
   const sp = parseSearchParams(searchParams, basePath);
@@ -529,7 +549,7 @@ export default async function IntersectionPage({
     return out.toString();
   })();
 
-  const canonical = `${BASE_URL}${basePath}`;
+  const canonical = canonicalUrl(basePath);
   const intersectionProseForSchema = await getIntersectionProse(locale, axisKey1, axisKey2);
   const schema = buildCollectionSchema(locale, compositeName, canonical, decks, intersectionProseForSchema);
 

@@ -20,6 +20,7 @@ import {
 } from '@/lib/activities';
 import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
 import { ActivityIframe } from '@/components/activities/ActivityIframe';
+import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 
 // "Activities" section label per locale — used for the middle breadcrumb
 // crumb on individual activity landing pages. Same string as the title of
@@ -56,7 +57,11 @@ const ACTIVITIES_SECTION_LABEL: Record<string, string> = {
  */
 export const revalidate = 3600;
 
-const BASE_URL = 'https://www.lessoncraftstudio.com';
+// SEO URLs go through `canonicalUrl()` / `localePath()` from `@/lib/seo/url`
+// to enforce the no-trailing-slash invariant. `BASE_URL` retained as alias
+// of `CANONICAL_HOST` for the activity-sitemap-entries helper which builds
+// hreflang URLs from a base argument.
+const BASE_URL = CANONICAL_HOST;
 
 interface PageParams {
   locale: string;
@@ -85,7 +90,7 @@ export async function generateMetadata({
   if (!isTopicLocale(params.locale)) return {};
   const row = await resolveActivitySlug(params.slug, params.locale);
   if (!row) return {};
-  const canonical = `${BASE_URL}/${params.locale}/activities/${params.slug}/`;
+  const canonical = canonicalUrl(localePath(params.locale, 'activities', params.slug));
   return {
     title: row.page_title[params.locale],
     description: row.page_intro[params.locale],
@@ -100,13 +105,28 @@ export async function generateMetadata({
       siteName: 'LessonCraftStudio',
       locale: params.locale,
       type: 'article',
+      images: [
+        {
+          url: `${CANONICAL_HOST}/og-homepage.png`,
+          width: 1200,
+          height: 630,
+          type: 'image/png',
+          alt: 'LessonCraftStudio — K-3 worksheets in 11 languages',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: row.page_title[params.locale],
+      description: row.page_intro[params.locale],
+      images: [`${CANONICAL_HOST}/og-homepage.png`],
     },
     robots: { index: true, follow: true },
   };
 }
 
 function jsonLdFor(row: ActivityRow, locale: string): string {
-  const canonical = `${BASE_URL}/${locale}/activities/${row.slug[locale]}/`;
+  const canonical = canonicalUrl(localePath(locale, 'activities', row.slug[locale]));
   const data = {
     '@context': 'https://schema.org',
     '@type': 'LearningResource',

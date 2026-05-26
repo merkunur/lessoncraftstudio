@@ -138,7 +138,8 @@ export function hreflangAlternatesForRow(
   const out: Record<string, string> = {};
   for (const loc of TOPIC_ENABLED_LOCALES) {
     const s = row.slug[loc];
-    if (s) out[loc] = `${baseUrl}/${loc}/activities/${s}/`;
+    // No trailing slash — Next.js routes per `next.config.js: trailingSlash: false`.
+    if (s) out[loc] = `${baseUrl}/${loc}/activities/${s}`;
   }
   out['x-default'] = out['en'] || Object.values(out)[0] || baseUrl;
   return out;

@@ -65,13 +65,16 @@
     "params": { "targets": [200, 247, 305, 420, 583, 906] },
     "theme": null,
     "slug": {
-      "en": "hundreds-tens-and-ones"
+      "en": "hundreds-tens-and-ones",
+      "de": "hunderter-zehner-und-einer"
     },
     "page_title": {
-      "en": "Hundreds, Tens, and Ones"
+      "en": "Hundreds, Tens, and Ones",
+      "de": "Hunderter, Zehner und Einer"
     },
     "page_intro": {
-      "en": "Build each three-digit number using hundreds, tens, and ones. Tap to add a hundreds-flat, a ten-rod, or a unit-cube — and watch the number grow."
+      "en": "Build each three-digit number using hundreds, tens, and ones. Tap to add a hundreds-flat, a ten-rod, or a unit-cube — and watch the number grow.",
+      "de": "Baue jede dreistellige Zahl mit Hundertern, Zehnern und Einern. Tippe, um eine Hunderterplatte, einen Zehnerstab oder einen Einerwürfel hinzuzufügen — und sieh zu, wie die Zahl wächst."
     },
     "kid_prompt_template": "taskBuild"
   }

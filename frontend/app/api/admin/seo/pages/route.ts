@@ -6,21 +6,25 @@ export const dynamic = 'force-dynamic';
 // GET /api/admin/seo/pages - Get all pages with SEO data
 export async function GET(request: NextRequest) {
   try {
-    // Mock pages data for development
+    // Synthetic mock data for the admin SEO dashboard during dev. URLs
+    // reference live classroom surfaces (post-teardown — `/en/apps/*` and
+    // `/en/pricing` are 410-Gone / reshelled 404 per middleware
+    // REMOVED_PREFIXES + CLAUDE.md §17.1). Scores and metaTag strings are
+    // obviously synthetic; no real SEO metrics here.
     const pages: PageSEO[] = [
       {
         id: 'page_1',
-        url: '/en/apps/word-search',
-        title: 'Word Search Generator',
+        url: '/en/topic/wordsearch',
+        title: 'Word search worksheets',
         metaTags: {
-          title: 'Word Search Puzzle Generator - Create Custom Word Searches',
-          description: 'Create custom word search puzzles to sell on Etsy and Amazon KDP. Commercial license included.',
-          keywords: ['word search', 'puzzle generator', 'educational games'],
-          canonical: 'https://www.lessoncraftstudio.com/en/apps/word-search',
-          ogTitle: 'Word Search Puzzle Generator',
-          ogDescription: 'Create custom word search puzzles instantly',
-          ogImage: 'https://www.lessoncraftstudio.com/images/word-search-og.png',
-          ogUrl: 'https://www.lessoncraftstudio.com/en/apps/word-search'
+          title: 'Word search worksheets in 11 languages | LessonCraftStudio',
+          description: 'Browser-playable and printable word search worksheets in 11 languages, made for K-3 multilingual classrooms.',
+          keywords: ['word search', 'worksheets', 'multilingual classroom'],
+          canonical: 'https://www.lessoncraftstudio.com/en/topic/wordsearch',
+          ogTitle: 'Word search worksheets',
+          ogDescription: 'Word search worksheets for K-3 multilingual classrooms',
+          ogImage: 'https://www.lessoncraftstudio.com/og-homepage.png',
+          ogUrl: 'https://www.lessoncraftstudio.com/en/topic/wordsearch'
         },
         lastModified: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000).toISOString(),
         indexable: true,
@@ -29,17 +33,17 @@ export async function GET(request: NextRequest) {
       },
       {
         id: 'page_2',
-        url: '/en/apps/math-puzzles',
-        title: 'Math Puzzle Worksheets',
+        url: '/en/topic/math-puzzle',
+        title: 'Math puzzle worksheets',
         metaTags: {
-          title: 'Math Puzzle Worksheets - Fun Mathematics Practice',
-          description: 'Generate engaging math puzzles for students. Addition, subtraction, multiplication practice.',
-          keywords: ['math puzzles', 'math worksheets', 'educational math'],
-          canonical: 'https://www.lessoncraftstudio.com/en/apps/math-puzzles',
-          ogTitle: 'Math Puzzle Worksheets',
-          ogDescription: 'Fun mathematics practice for students',
-          ogImage: 'https://www.lessoncraftstudio.com/images/math-puzzles-og.png',
-          ogUrl: 'https://www.lessoncraftstudio.com/en/apps/math-puzzles'
+          title: 'Math puzzle worksheets for K-3 | LessonCraftStudio',
+          description: 'Printable and interactive math puzzle worksheets for K-3 classrooms. Free in 11 languages.',
+          keywords: ['math puzzles', 'K-3 math', 'math worksheets'],
+          canonical: 'https://www.lessoncraftstudio.com/en/topic/math-puzzle',
+          ogTitle: 'Math puzzle worksheets',
+          ogDescription: 'K-3 math puzzle worksheets',
+          ogImage: 'https://www.lessoncraftstudio.com/og-homepage.png',
+          ogUrl: 'https://www.lessoncraftstudio.com/en/topic/math-puzzle'
         },
         lastModified: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000).toISOString(),
         indexable: true,
@@ -48,17 +52,17 @@ export async function GET(request: NextRequest) {
       },
       {
         id: 'page_3',
-        url: '/en/pricing',
-        title: 'Pricing Plans',
+        url: '/en/worksheets',
+        title: 'All worksheets',
         metaTags: {
-          title: 'Pricing - Professional Printable Generators | LessonCraftStudio',
-          description: 'Try all 33 generators free with watermark. One-time purchase, commercial license included. Sell on Etsy, KDP & more.',
-          keywords: ['pricing', 'commercial license', 'printable generator pricing'],
-          canonical: 'https://www.lessoncraftstudio.com/en/pricing',
-          ogTitle: 'LessonCraftStudio Pricing',
-          ogDescription: 'One-time purchase, commercial license included for printable sellers',
-          ogImage: 'https://www.lessoncraftstudio.com/images/pricing-og.png',
-          ogUrl: 'https://www.lessoncraftstudio.com/en/pricing'
+          title: 'All worksheets — K-3 in 11 languages | LessonCraftStudio',
+          description: 'Free printable and interactive K-3 worksheets in 11 languages. Phonics, math, vocabulary for dual-language and international classrooms.',
+          keywords: ['K-3 worksheets', '11 languages', 'multilingual classroom'],
+          canonical: 'https://www.lessoncraftstudio.com/en/worksheets',
+          ogTitle: 'All worksheets — K-3 in 11 languages',
+          ogDescription: 'Free printable and interactive K-3 worksheets',
+          ogImage: 'https://www.lessoncraftstudio.com/og-homepage.png',
+          ogUrl: 'https://www.lessoncraftstudio.com/en/worksheets'
         },
         lastModified: new Date(Date.now() - 10 * 24 * 60 * 60 * 1000).toISOString(),
         indexable: true,
@@ -69,15 +73,15 @@ export async function GET(request: NextRequest) {
       {
         id: 'page_4',
         url: '/en/about',
-        title: 'About Us',
+        title: 'About',
         metaTags: {
-          title: 'About LessonCraftStudio - Your Educational Partner',
-          description: 'Learn about our mission to make education more engaging and accessible.',
-          keywords: ['about', 'educational technology', 'teaching resources'],
+          title: 'About | LessonCraftStudio',
+          description: 'About LessonCraftStudio — free K-3 worksheets and interactive activities in 11 languages, built for dual-language, bilingual, and international-school classrooms.',
+          keywords: ['about', 'K-3', 'multilingual classroom'],
           canonical: 'https://www.lessoncraftstudio.com/en/about',
           ogTitle: 'About LessonCraftStudio',
-          ogDescription: 'Making education more engaging',
-          ogImage: 'https://www.lessoncraftstudio.com/images/about-og.png',
+          ogDescription: 'K-3 worksheets and activities in 11 languages',
+          ogImage: 'https://www.lessoncraftstudio.com/og-homepage.png',
           ogUrl: 'https://www.lessoncraftstudio.com/en/about'
         },
         lastModified: new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString(),
@@ -90,7 +94,7 @@ export async function GET(request: NextRequest) {
         url: '/admin',
         title: 'Admin Dashboard',
         metaTags: {
-          title: 'Admin Dashboard - LessonCraftStudio',
+          title: 'Admin Dashboard — LessonCraftStudio',
           description: 'Admin dashboard for managing content',
           robots: 'noindex, nofollow'
         },

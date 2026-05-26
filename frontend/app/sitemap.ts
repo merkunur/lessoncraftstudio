@@ -143,6 +143,9 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
             if (!slug1 || !slug2) continue;
 
             // Hreflang alternates: O(1) Map lookup per sibling.
+            // Next.js-route URLs ship without trailing slash (matches
+            // `next.config.js: trailingSlash: false`); deck.html nginx
+            // URLs keep their slash in the deck-shard route handlers.
             const alternates: Record<string, string> = {};
             for (const sib of TOPIC_LOCALES) {
               const sibSlug1 = getAxisSlug(axis1, key1, sib);
@@ -151,13 +154,13 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
               const sibMap = sibIntersectionMap.get(sib);
               if (!sibMap || !sibMap.has(tupleKey)) continue;
               alternates[getHreflangCode(sib)] =
-                `${baseUrl}/${sib}/topic/${sibSlug1}/${sibSlug2}/`;
+                `${baseUrl}/${sib}/topic/${sibSlug1}/${sibSlug2}`;
             }
             const enKey = getHreflangCode('en' as TopicLocale);
             if (alternates[enKey]) alternates['x-default'] = alternates[enKey];
 
             routes.push({
-              url: `${baseUrl}/${locale}/topic/${slug1}/${slug2}/`,
+              url: `${baseUrl}/${locale}/topic/${slug1}/${slug2}`,
               lastModified: tupleLastMod ?? STATIC_CONTENT_DATE,
               changeFrequency: 'weekly',
               priority: 0.4,
@@ -229,22 +232,22 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
             const alternates: Record<string, string> = {};
             for (const sib of siblingLocales) {
               const sibSlug = getAxisSlug(axis, axisKey, sib);
-              if (sibSlug) alternates[getHreflangCode(sib)] = `${baseUrl}/${sib}/topic/${sibSlug}/`;
+              if (sibSlug) alternates[getHreflangCode(sib)] = `${baseUrl}/${sib}/topic/${sibSlug}`;
             }
             const enSlug = getAxisSlug(axis, axisKey, 'en');
             if (siblingLocales.includes('en') && enSlug) {
-              alternates['x-default'] = `${baseUrl}/en/topic/${enSlug}/`;
+              alternates['x-default'] = `${baseUrl}/en/topic/${enSlug}`;
             } else {
               const fallbackSlug = getAxisSlug(axis, axisKey, siblingLocales[0]);
               if (fallbackSlug) {
-                alternates['x-default'] = `${baseUrl}/${siblingLocales[0]}/topic/${fallbackSlug}/`;
+                alternates['x-default'] = `${baseUrl}/${siblingLocales[0]}/topic/${fallbackSlug}`;
               }
             }
 
             const lastMod = await topicLastModified(axis, axisKey, locale);
 
             routes.push({
-              url: `${baseUrl}/${locale}/topic/${slug}/`,
+              url: `${baseUrl}/${locale}/topic/${slug}`,
               lastModified: lastMod ?? STATIC_CONTENT_DATE,
               changeFrequency: 'weekly',
               priority: 0.5,
@@ -266,7 +269,7 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       const acts = await listActivitySitemapEntries();
       for (const a of acts) {
         routes.push({
-          url: `${baseUrl}/${a.locale}/activities/${a.slug}/`,
+          url: `${baseUrl}/${a.locale}/activities/${a.slug}`,
           lastModified: STATIC_CONTENT_DATE,
           changeFrequency: 'monthly',
           priority: 0.6,
@@ -284,7 +287,7 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       const toolsAlternates = landingHreflangAlternates(baseUrl);
       for (const loc of TOPIC_LOCALES) {
         routes.push({
-          url: `${baseUrl}/${loc}/tools/`,
+          url: `${baseUrl}/${loc}/tools`,
           lastModified: STATIC_CONTENT_DATE,
           changeFrequency: 'monthly',
           priority: 0.5,
@@ -297,6 +300,10 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
 
     // Activities + Topics index landings — one URL per locale (11 + 11 = 22).
     // Same hreflang shape: all 11 sibling locales + x-default.
+    // Next.js-route paths are no-trailing-slash per `next.config.js:
+    // trailingSlash: false`. The helper appends the static basePath
+    // (e.g. '/activities') after the locale segment without an additional
+    // trailing slash.
     const buildLocaleAlternates = (basePath: string): Record<string, string> => {
       const out: Record<string, string> = {};
       for (const loc of TOPIC_LOCALES) out[loc] = `${baseUrl}/${loc}${basePath}`;
@@ -306,18 +313,27 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
 
     for (const loc of TOPIC_LOCALES) {
       routes.push({
-        url: `${baseUrl}/${loc}/activities/`,
+        url: `${baseUrl}/${loc}/activities`,
         lastModified: STATIC_CONTENT_DATE,
         changeFrequency: 'monthly',
         priority: 0.5,
-        alternates: { languages: buildLocaleAlternates('/activities/') },
+        alternates: { languages: buildLocaleAlternates('/activities') },
       });
       routes.push({
-        url: `${baseUrl}/${loc}/topic/`,
+        url: `${baseUrl}/${loc}/topic`,
         lastModified: STATIC_CONTENT_DATE,
         changeFrequency: 'monthly',
         priority: 0.5,
-        alternates: { languages: buildLocaleAlternates('/topic/') },
+        alternates: { languages: buildLocaleAlternates('/topic') },
+      });
+      // /about/ added Phase 6 of the SEO remediation arc — all 11
+      // locales return 200 with reciprocal hreflang.
+      routes.push({
+        url: `${baseUrl}/${loc}/about`,
+        lastModified: STATIC_CONTENT_DATE,
+        changeFrequency: 'monthly',
+        priority: 0.5,
+        alternates: { languages: buildLocaleAlternates('/about') },
       });
     }
 

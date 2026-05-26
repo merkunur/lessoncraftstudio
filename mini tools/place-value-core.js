@@ -807,15 +807,19 @@ window.PlaceValueCore = {
     var mat = this.api.el('div', 'pv-mat');
 
     /* 3-place mode (activity 2 — 2.NBT.A.1): add the .pv-mat--3p
-       modifier class which scopes the narrower tray/manipulative
-       sizings (CSS below at the .pv-mat--3p selectors), AND override
-       grid-template-columns inline so the default `auto auto` becomes
-       `auto auto auto`. 2-place mode does NEITHER — the existing CSS
-       default applies and tens/ones trays render byte-identical. */
+       modifier class which scopes the 3-column grid + narrower tray /
+       manipulative sizings (CSS rules below at the .pv-mat--3p
+       selectors). The .pv-mat--3p CSS rule itself carries
+       grid-template-columns:repeat(3,auto) !important — that wins over
+       the base .pv-mat's `auto auto !important` via cascade order
+       (later rule at matching specificity + !important). Earlier
+       attempt at inline `mat.style.gridTemplateColumns = ...` was
+       silently no-op (inline style without !important loses to
+       !important CSS rules). 2-place mode does NOT add this class →
+       base CSS applies → tens/ones render byte-identical. */
     var has3places = this.places && this.places.indexOf('hundreds') >= 0;
     if (has3places) {
       mat.classList.add('pv-mat--3p');
-      mat.style.gridTemplateColumns = 'repeat(' + this.places.length + ', auto)';
     }
 
     /* HUNDREDS column — APPENDED FIRST in 3-place mode so column order is
@@ -1187,19 +1191,31 @@ window.PlaceValueCore = {
          narrower than 2-place mode. Scoped via .pv-mat--3p so the
          2-place mat (no --3p class) preserves its byte-identical
          original sizing across all breakpoints. */
-      '.pv-mat--3p{max-width:96vw !important;gap:clamp(6px,1.6vw,14px) !important;}',
+      '.pv-mat--3p{grid-template-columns:repeat(3,auto) !important;max-width:96vw !important;gap:clamp(6px,1.6vw,14px) !important;}',
       '.pv-mat--3p .pv-col{padding:clamp(6px,1.4vw,10px) clamp(3px,0.8vw,7px) !important;}',
       '.pv-mat--3p .pv-col-label{font-size:clamp(10px,2.2vw,14px) !important;}',
       '.pv-mat--3p .pv-add-btn{font-size:clamp(11px,2.2vw,14px) !important;padding:clamp(6px,1.4vmin,9px) clamp(8px,2vw,14px) !important;min-width:clamp(48px,12vw,100px) !important;}',
-      /* Tens tray narrower in 3-place: width ~28vw instead of 46vw. */
-      '.pv-mat--3p .pv-tray--tens{width:clamp(92px,24vw,140px) !important;height:clamp(150px,32vw,220px) !important;gap:clamp(1px,0.4vw,3px) !important;}',
+      /* Tens tray in 3-place mode: 3-wide grid mirroring Hundreds layout
+         (operator-locked visual parity). Tall-rectangle cells preserve
+         rod identity (10-stripe SVG reads as vertical bar even at
+         compressed cell sizes). align-content:end anchors rods at the
+         bottom of the tray like Hundreds + Ones. Defensive flex resets
+         (flex-direction:initial, align-items:initial) for DevTools
+         clarity — grid display already nullifies flex semantics but the
+         explicit resets stop future devs being surprised by stale flex
+         props bleeding through inspector. */
+      '.pv-mat--3p .pv-tray--tens{display:grid !important;grid-template-columns:repeat(3,clamp(24px,6.4vw,42px)) !important;grid-auto-rows:clamp(40px,10vw,60px) !important;gap:clamp(3px,0.8vw,6px) !important;justify-content:center !important;align-content:end !important;width:auto !important;height:clamp(150px,32vw,220px) !important;flex-direction:initial !important;align-items:initial !important;}',
       /* Ones tray smaller 3-wide cells in 3-place. */
       '.pv-mat--3p .pv-tray--ones{grid-template-columns:repeat(3,clamp(18px,4.6vw,30px)) !important;grid-auto-rows:clamp(18px,4.6vw,30px) !important;height:clamp(150px,32vw,220px) !important;}',
       /* Hundreds tray: 3-wide grid of flats. Slightly more opaque than
          ones-tray to distinguish; same fixed height for column parity. */
       '.pv-mat--3p .pv-tray--hundreds{display:grid !important;grid-template-columns:repeat(3,clamp(24px,6.4vw,42px)) !important;grid-auto-rows:clamp(24px,6.4vw,42px) !important;gap:clamp(3px,0.8vw,6px) !important;justify-content:center !important;align-content:end !important;width:auto !important;height:clamp(150px,32vw,220px) !important;overflow:hidden !important;padding:clamp(6px,1.4vw,12px) clamp(4px,1vw,10px) !important;background:rgba(255,255,255,0.5) !important;border-radius:14px !important;box-shadow:inset 0 1px 3px rgba(20,30,28,0.06) !important;}',
-      /* Manipulative SVG sizing in 3-place mode. */
-      '.pv-mat--3p .pv-rod{width:clamp(9px,2.4vw,15px) !important;}',
+      /* Manipulative SVG sizing in 3-place mode. Rod now fills the grid
+         cell (set by .pv-mat--3p .pv-tray--tens above) instead of being
+         a narrow flex-row item. width:auto + height:auto + align-self:
+         stretch lets the cell dictate the rod box; _rodSvg's
+         preserveAspectRatio="none" stretches the 10-stripe SVG to fill. */
+      '.pv-mat--3p .pv-rod{width:auto !important;height:auto !important;align-self:stretch !important;}',
       '.pv-mat--3p .pv-cube svg{width:clamp(18px,4.6vw,30px) !important;height:clamp(18px,4.6vw,30px) !important;}',
       '.pv-mat--3p .pv-flat svg{width:clamp(24px,6.4vw,42px) !important;height:clamp(24px,6.4vw,42px) !important;display:block !important;filter:drop-shadow(0 2px 4px rgba(20,30,28,0.18)) !important;}'
     ].join('\n');

@@ -1,0 +1,33 @@
+{
+  "state": "REVERTED (fi restored to NSR_PENDING_LOCALES)",
+  "at": "2026-05-26T21:48:12.674Z",
+  "sitemapAboutLocales": [
+    "de",
+    "en",
+    "es",
+    "fr",
+    "it",
+    "nl",
+    "pt"
+  ],
+  "sitemapAboutCount": 7,
+  "robotsPerLocale": {
+    "en": "index, follow",
+    "de": "index, follow",
+    "fr": "index, follow",
+    "es": "index, follow",
+    "pt": "index, follow",
+    "it": "index, follow",
+    "nl": "index, follow",
+    "sv": "noindex, follow",
+    "da": "noindex, follow",
+    "no": "noindex, follow",
+    "fi": "noindex, follow"
+  },
+  "nsrPendingLocales": [
+    "sv",
+    "da",
+    "no",
+    "fi"
+  ]
+}

@@ -21,13 +21,16 @@
     },
     "theme": null,
     "slug": {
-      "en": "make-the-number"
+      "en": "make-the-number",
+      "de": "bilde-die-zahl"
     },
     "page_title": {
-      "en": "Make the Number"
+      "en": "Make the Number",
+      "de": "Bilde die Zahl"
     },
     "page_intro": {
-      "en": "Find pairs of numbers that add up to the target. Tap a number, then tap its partner — and watch the pairs link. Aligned to Common Core K.OA.A.3 — decompose numbers less than or equal to 10 into pairs in more than one way."
+      "en": "Find pairs of numbers that add up to the target. Tap a number, then tap its partner — and watch the pairs link. Aligned to Common Core K.OA.A.3 — decompose numbers less than or equal to 10 into pairs in more than one way.",
+      "de": "Finde Zahlenpaare, die zusammen das Ziel ergeben. Tippe auf eine Zahl, dann auf ihren Partner — und sieh zu, wie sich die Paare verbinden. Angepasst an Common Core K.OA.A.3 — Zahlen bis 10 in Paare auf verschiedene Weise zerlegen."
     },
     "kid_prompt_template": "taskMakeN"
   }

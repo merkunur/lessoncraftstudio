@@ -44,18 +44,30 @@ window.MatchPairsCore = {
      discipline; the engine falls back to `en` via api.t() if any
      unfilled locale routes here. */
   strings: {
-    title:       { en: 'Match Pairs' },
-    instruction: { en: 'Tap two cards that go together — and watch the pairs link.' },
+    title:       { en: 'Match Pairs',                                                              de: 'Paare bilden' },
+    instruction: { en: 'Tap two cards that go together — and watch the pairs link.',               de: 'Tippe auf zwei Karten, die zusammengehören — und sieh zu, wie sich die Paare verbinden.' },
+    /* Banner label above the board ("Target: 5"). Per-locale; previously
+       hard-coded EN in render(); hoisted here at the DE fan-out. */
+    targetLabel:    { en: 'Target',                                                                de: 'Ziel' },
+    /* Screen-reader prefix for the card aria-label ("Card 5"). Per-locale;
+       previously hard-coded EN in render(); hoisted at DE fan-out. */
+    cardAriaPrefix: { en: 'Card ',                                                                 de: 'Karte ' },
     /* Per-card tap-utterance: speak the card's numeric value as a
-       number-word. The wrapper does not pre-bake these; the engine
-       resolves at tap time via window.LCSAudio.speak({type:'number'}). */
+       number-word. Cards are 0-10 only (K.OA.A.3 range). This lookup is
+       value-verified against PlaceValueCore._NUMBER_WORD_HELPERS.<lang>
+       (n, 'cardinal') for the 0-10 range — no algorithmic divergence;
+       just the flat 11-entry table. Future targets >10 would warrant
+       sourcing from PVC directly. */
     cardSpoken:  {
-      en: ['zero','one','two','three','four','five','six','seven','eight','nine','ten']
+      en: ['zero','one','two','three','four','five','six','seven','eight','nine','ten'],
+      de: ['null','eins','zwei','drei','vier','fünf','sechs','sieben','acht','neun','zehn']
     },
-    /* Speech on Check correct — "All pairs make {n}!" templated. */
-    speakAllPairsMake: { en: 'All pairs make {n}!' },
+    /* Speech on Check correct — "All pairs make {n}!" templated.
+       {n} substituted with the spoken target word from cardSpoken[lang]
+       (same lookup as tap-audio; value-equivalent to PVC helper). */
+    speakAllPairsMake: { en: 'All pairs make {n}!',                                                de: 'Alle Paare ergeben {n}!' },
     /* Speech on Check wrong. */
-    speakTryAgain:     { en: 'Some pairs don\'t add up yet. Try again.' }
+    speakTryAgain:     { en: 'Some pairs don\'t add up yet. Try again.',                           de: 'Manche Paare passen noch nicht. Versuch\'s nochmal.' }
   },
 
   defaults: {},
@@ -198,12 +210,23 @@ window.MatchPairsCore = {
     });
   },
 
-  /* Speak the Check-correct celebration utterance, templated with target. */
+  /* Speak the Check-correct celebration utterance, templated with target.
+     {n} is substituted with the SPOKEN word for the target value (from
+     cardSpoken[lang], same lookup as tap-audio) rather than the digit —
+     reads naturally for any locale's TTS engine, matches the kid's
+     mental model of the number-word, and value-equivalent to
+     PlaceValueCore._NUMBER_WORD_HELPERS[lang](target, 'cardinal') for
+     the 0-10 range. */
   speakAllPairs: function () {
     if (!window.LCSAudio || !window.LCSAudio.speak) return;
     var template = (this.strings.speakAllPairsMake && this.strings.speakAllPairsMake[this.language])
                    || this.strings.speakAllPairsMake.en;
-    var text = template.replace('{n}', String(this.target));
+    var table = (this.strings.cardSpoken && this.strings.cardSpoken[this.language])
+                || this.strings.cardSpoken.en;
+    var targetWord = (typeof this.target === 'number' && this.target >= 0 && this.target < table.length)
+                     ? table[this.target]
+                     : String(this.target);
+    var text = template.replace('{n}', targetWord);
     window.LCSAudio.speak({
       type: 'ui',
       text: text,
@@ -253,7 +276,7 @@ window.MatchPairsCore = {
        above the activity surface. Big coral number; readable at 375px. */
     var targetEl = this.api.el('div', 'mp-target');
     var targetLabel = this.api.el('span', 'mp-target-label');
-    targetLabel.textContent = 'Target';
+    targetLabel.textContent = this.api.t('targetLabel') || 'Target';
     var targetNum = this.api.el('span', 'mp-target-num');
     targetNum.textContent = String(this.target);
     targetEl.append(targetLabel, targetNum);
@@ -273,7 +296,7 @@ window.MatchPairsCore = {
       var card = self.api.el('button', 'mp-card');
       card.type = 'button';
       card.setAttribute('data-idx', String(idx));
-      card.setAttribute('aria-label', 'Card ' + String(val));
+      card.setAttribute('aria-label', (self.api.t('cardAriaPrefix') || 'Card ') + String(val));
       var num = self.api.el('span', 'mp-card-num');
       num.textContent = String(val);
       card.appendChild(num);

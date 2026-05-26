@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import { notFound, redirect } from 'next/navigation';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
+import { buildBreadcrumbSchema, BreadcrumbCrumb } from '@/lib/seo/breadcrumb-schema';
 import {
   Axis,
   getAxisName,
@@ -556,11 +557,27 @@ export default async function TopicPage({
   const topicProseForSchema = await getTopicProse(locale, axisKey);
   const schema = buildCollectionSchema(locale, topicName, canonical, decks, topicProseForSchema);
 
+  // BreadcrumbList JSON-LD — mirrors the visible <Breadcrumbs> component
+  // below (same order + labels + URLs). Per Phase 4 of the SEO arc.
+  const homeLabel = await (async () => {
+    const tBreadcrumb = await getTranslations({ locale, namespace: 'topicPage.breadcrumb' });
+    return tBreadcrumb('home');
+  })();
+  const breadcrumbTrail: BreadcrumbCrumb[] = [
+    { name: homeLabel, path: localePath(locale) },
+    { name: topicName, path: localePath(locale, 'topic', params.slug) },
+  ];
+  const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbTrail);
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
       <main className="container mx-auto px-4 max-w-6xl py-12">

@@ -3,6 +3,7 @@ import { Baloo_2, Nunito } from 'next/font/google';
 import { getTranslations } from 'next-intl/server';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
+import { buildOrganizationSchema, buildWebSiteSchema } from '@/lib/seo/organization-schema';
 import HeroV3 from '@/components/homepage-v3/HeroV3';
 import PillarActivities from '@/components/homepage-v3/PillarActivities';
 import PillarInteractive from '@/components/homepage-v3/PillarInteractive';
@@ -103,45 +104,17 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   };
 }
 
-// Schema.org JSON-LD: Organization + WebSite. Carried verbatim from
-// homepage-v2 swap. SearchAction omitted; sameAs omitted (no official
-// social profiles per HOMEPAGE-SAVE-STATE.md). Per CLAUDE.md §17.4 /
-// §17.8, deck and topic pages carry their own schema; home page does not
-// duplicate those.
-function buildSchemas(locale: string, title: string, description: string) {
-  const organization = {
-    '@context': 'https://schema.org',
-    '@type': 'Organization',
-    '@id': `${BASE_URL}/#organization`,
-    name: 'LessonCraftStudio',
-    url: BASE_URL,
-    logo: {
-      '@type': 'ImageObject',
-      '@id': `${BASE_URL}/#logo`,
-      url: `${BASE_URL}/logo-lcs.png`,
-      width: 600,
-      height: 600,
-    },
-    description,
-    areaServed: 'Worldwide',
-    availableLanguage: [
-      'English', 'German', 'French', 'Spanish', 'Portuguese', 'Italian',
-      'Dutch', 'Swedish', 'Danish', 'Norwegian', 'Finnish',
-    ],
-  };
-
-  const website = {
-    '@context': 'https://schema.org',
-    '@type': 'WebSite',
-    '@id': `${BASE_URL}/#website`,
-    url: BASE_URL,
-    name: 'LessonCraftStudio',
-    description,
-    publisher: { '@id': `${BASE_URL}/#organization` },
-    inLanguage: locale,
-  };
-
-  return [organization, website];
+// Schema.org JSON-LD: Organization + WebSite. Sourced from the single
+// sitewide module at `@/lib/seo/organization-schema` (see §17.8 + Phase 4
+// of the SEO remediation arc). Every page that needs to identify the
+// publisher references the same `@id` rather than duplicating properties.
+// SearchAction + sameAs omitted (no operator-confirmed search endpoint or
+// social profiles — TODO(operator) is tracked in organization-schema.ts).
+function buildSchemas(locale: string, _title: string, description: string) {
+  return [
+    buildOrganizationSchema(description),
+    buildWebSiteSchema(locale, description),
+  ];
 }
 
 export default async function HomePage({ params }: { params: { locale: string } }) {

@@ -71,7 +71,8 @@
       "it": "centinaia-decine-e-unita",
       "fr": "centaines-dizaines-et-unites",
       "pt": "centenas-dezenas-e-unidades",
-      "nl": "honderdtallen-tientallen-en-eenheden"
+      "nl": "honderdtallen-tientallen-en-eenheden",
+      "sv": "hundratal-tiotal-och-ental"
     },
     "page_title": {
       "en": "Hundreds, Tens, and Ones",
@@ -80,7 +81,8 @@
       "it": "Centinaia, decine e unità",
       "fr": "Centaines, dizaines et unités",
       "pt": "Centenas, dezenas e unidades",
-      "nl": "Honderdtallen, tientallen en eenheden"
+      "nl": "Honderdtallen, tientallen en eenheden",
+      "sv": "Hundratal, tiotal och ental"
     },
     "page_intro": {
       "en": "Build each three-digit number using hundreds, tens, and ones. Tap to add a hundreds-flat, a ten-rod, or a unit-cube — and watch the number grow.",
@@ -89,7 +91,8 @@
       "it": "Costruisci ogni numero di tre cifre usando centinaia, decine e unità. Tocca per aggiungere una piastra da cento, una barra di dieci o un cubo da uno — e guarda crescere il numero.",
       "fr": "Construis chaque nombre à trois chiffres avec des centaines, des dizaines et des unités. Touche pour ajouter une plaque de cent, une barre de dix ou un cube unité — et regarde le nombre grandir.",
       "pt": "Construa cada número de três dígitos usando centenas, dezenas e unidades. Toque para adicionar uma placa de cem, uma barra de dez ou um cubinho — e veja o número crescer.",
-      "nl": "Bouw elk getal van drie cijfers met honderdtallen, tientallen en eenheden. Tik om een honderdplaat, een tienstaaf of een blokje toe te voegen — en kijk hoe het getal groeit."
+      "nl": "Bouw elk getal van drie cijfers met honderdtallen, tientallen en eenheden. Tik om een honderdplaat, een tienstaaf of een blokje toe te voegen — en kijk hoe het getal groeit.",
+      "sv": "Bygg varje tresiffrigt tal med hundratal, tiotal och ental. Tryck för att lägga till en hundraplatta, en tiostav eller en enhetskub — och se talet växa."
     },
     "kid_prompt_template": "taskBuild"
   }

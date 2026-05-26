@@ -92,10 +92,10 @@ window.PlaceValueCore = {
        inflect by count (singular at 1; plural -s/-es at 0 or 2+, zero
        takes plural). Feminine "uma" article in add-button (matches
        activity 1's "Adicionar uma dezena"/"Adicionar uma unidade"). */
-    hundredsLabel:   { en: 'Hundreds',     de: 'Hunderter',           es: 'Centenas',         it: 'Centinaia',         fr: 'Centaines',         pt: 'Centenas',          nl: 'Honderdtallen' },
-    addHundredLabel: { en: 'Add hundred',  de: 'Hunderter hinzufügen',es: 'Añadir una centena',it: 'Aggiungi un centinaio',fr: 'Ajoute une centaine',pt: 'Adicionar uma centena',nl: 'Honderdtal toevoegen' },
-    wordHundred:     { en: 'hundred',      de: 'Hunderter',           es: 'centena',          it: 'centinaio',         fr: 'centaine',          pt: 'centena',           nl: 'honderdtal' },     // tap-utterance, singular
-    srHundredsFlat:  { en: 'hundreds-flat',de: 'Hunderterplatte',     es: 'placa de cien',    it: 'piastra da cento',  fr: 'plaque de cent',    pt: 'placa de cem',      nl: 'honderdplaat' } // sr-only aria-label fragment
+    hundredsLabel:   { en: 'Hundreds',     de: 'Hunderter',           es: 'Centenas',         it: 'Centinaia',         fr: 'Centaines',         pt: 'Centenas',          nl: 'Honderdtallen',          sv: 'Hundratal' },
+    addHundredLabel: { en: 'Add hundred',  de: 'Hunderter hinzufügen',es: 'Añadir una centena',it: 'Aggiungi un centinaio',fr: 'Ajoute une centaine',pt: 'Adicionar uma centena',nl: 'Honderdtal toevoegen',  sv: 'Lägg till ett hundratal' },
+    wordHundred:     { en: 'hundred',      de: 'Hunderter',           es: 'centena',          it: 'centinaio',         fr: 'centaine',          pt: 'centena',           nl: 'honderdtal',             sv: 'hundratal' },     // tap-utterance, singular
+    srHundredsFlat:  { en: 'hundreds-flat',de: 'Hunderterplatte',     es: 'placa de cien',    it: 'piastra da cento',  fr: 'plaque de cent',    pt: 'placa de cem',      nl: 'honderdplaat',           sv: 'hundraplatta' } // sr-only aria-label fragment
   },
 
   defaults: {},
@@ -650,13 +650,34 @@ window.PlaceValueCore = {
       return hWord + sub99(rem);  // agglutinated; no joiner
     },
     sv: function (n, mode) {
-      /* Swedish. 0-19 lookup; 20-99 = tens-first concat (no space, no
+      /* Swedish 0-999. 0-99 BYTE-IDENTICAL to prior shipped (load-bearing
+         for the LIVE 1.NBT.B.2 SV activity at /sv/activities/tiotal-och-
+         ental; existing tens-first compound + irregular fyrtio/sjuttio +
+         ett-at-1 logic preserved verbatim under `if (n < 100)` guard).
+
+         Swedish. 0-19 lookup; 20-99 = tens-first concat (no space, no
          joiner). Tens-words have IRREGULAR forms (load-bearing):
            fyrtio (NOT fyratio — 40)
            sjuttio (NOT sjutio — 70)
          attributive: 1→"ett" (neuter form before neuter nouns tiotal/
-         ental). Cardinal[1] also "ett" (locked as Swedish K-1 counting
-         default; "en" is the common-gender variant, not emitted here). */
+         ental/hundratal). Cardinal[1] also "ett" (locked as Swedish K-1
+         counting default; "en" is the common-gender variant, not
+         emitted here).
+
+         100-999 NEW layer for 2.NBT.A.1 activity 2 SV fan-out:
+         - n=100 → "hundra" (bare; K-1 classroom standard; "etthundra"
+           is formal/numerical, not emitted)
+         - n=101-199 → "hundra" + sub99(rem) (agglutinated; 101 →
+           "hundraett", 121 → "hundratjugoett", 147 → "hundrafyrtiosju")
+         - n=200-999 → onesForCompound[h] + "hundra" + (rem ? sub99(rem) : "")
+           — hundra INVARIANT (NEVER "hundror"). Examples:
+             200 = tvåhundra
+             247 = tvåhundrafyrtiosju (irregular fyrtio preserved)
+             305 = trehundrafem (zero-tens; NO "noll" inserted in cardinal)
+             420 = fyrahundratjugo (zero-ones; tens-only tail)
+             583 = femhundraåttiotre (irregular åttio preserved)
+             906 = niohundrasex
+             999 = niohundranittionio */
       var lookup = [
         'noll','ett','två','tre','fyra','fem','sex','sju','åtta','nio',
         'tio','elva','tolv','tretton','fjorton','femton','sexton',
@@ -664,11 +685,32 @@ window.PlaceValueCore = {
       ];
       var attr = ['noll','ett','två','tre','fyra','fem','sex','sju','åtta','nio'];
       var tens = ['','','tjugo','trettio','fyrtio','femtio','sextio','sjuttio','åttio','nittio'];
-      if (n < 10) return (mode === 'attributive') ? attr[n] : lookup[n];
-      if (n < 20) return lookup[n];
-      var t = Math.floor(n / 10), o = n % 10;
-      if (o === 0) return tens[t];
-      return tens[t] + lookup[o];  // e.g. fyrtiosju, sjuttiotvå, åttionio
+      /* onesForCompound: ones-multiplier for hundreds layer. Swedish
+         doesn't drop "ett" at sub-100 compound boundaries the way some
+         Germanic locales do, but at n=100 standalone canonical Swedish
+         emits bare "hundra" (not "etthundra"); so onesForCompound[1] is
+         unused for hundreds construction (n=100 is handled by hWord
+         shortcut). */
+      var onesForCompound = ['','ett','två','tre','fyra','fem','sex','sju','åtta','nio'];
+      if (n < 100) {
+        if (n < 10) return (mode === 'attributive') ? attr[n] : lookup[n];
+        if (n < 20) return lookup[n];
+        var t = Math.floor(n / 10), o = n % 10;
+        if (o === 0) return tens[t];
+        return tens[t] + lookup[o];  // e.g. fyrtiosju, sjuttiotvå, åttionio
+      }
+      /* 100-999 layer */
+      /* sub99 inline — cardinal-form tail, tens-first agglutinated. */
+      function sub99(m) {
+        if (m < 20) return lookup[m];
+        var t2 = Math.floor(m / 10), o2 = m % 10;
+        if (o2 === 0) return tens[t2];
+        return tens[t2] + lookup[o2];
+      }
+      var h = Math.floor(n / 100), rem = n % 100;
+      var hWord = (h === 1) ? 'hundra' : onesForCompound[h] + 'hundra';
+      if (rem === 0) return hWord;
+      return hWord + sub99(rem);  // agglutinated; no joiner
     },
     fi: function (n, mode) {
       /* Finnish (Uralic; not Indo-European). 0-19 lookup; 20-99 =
@@ -986,6 +1028,27 @@ window.PlaceValueCore = {
         var tPartNL3 = tWordNL3 + ' tiental'    + (this.targetTens     === 1 ? '' : 'len');
         var oPartNL3 = oWordNL3 + ' eenhe'      + (this.targetOnes     === 1 ? 'id' : 'den');
         sentence = hPartNL3 + ', ' + tPartNL3 + ' en ' + oPartNL3 + ' maken ' + nWordNL3;
+      } else if (lang === 'sv') {
+        /* SV 3-place: hundratal/tiotal/ental ALL INVARIANT (neuter
+           zero-plural per activity 1 SV lock — same form singular and
+           plural, like får/får sheep, bord/bord table). NEVER append
+           plural suffix. Attributive mode for counts (returns "ett" at
+           count=1; otherwise standard cardinal). Copula "blir" plural
+           (matches activity 1). Connective: standard Swedish
+           enumeration of 3+ items uses comma between first two and
+           "och" before last (NOT triple-"och"). Zero places SPOKEN per
+           2.NBT.A.1 teaching point. Cardinal target via SV helper
+           renders tens-first agglutinated compound with hundra
+           invariant and irregular tens (fyrtio/sjuttio/etc.) preserved
+           inside (tvåhundrafyrtiosju, trehundrafem, femhundraåttiotre). */
+        var hWordSV3 = this._numberWord(this.targetHundreds, 'sv', 'attributive', false);
+        var tWordSV3 = this._numberWord(this.targetTens,     'sv', 'attributive', false);
+        var oWordSV3 = this._numberWord(this.targetOnes,     'sv', 'attributive', false);
+        var nWordSV3 = this._numberWord(this.targetNumber,   'sv', 'cardinal',    false);
+        var hPartSV3 = hWordSV3 + ' hundratal';   // INVARIANT
+        var tPartSV3 = tWordSV3 + ' tiotal';      // INVARIANT
+        var oPartSV3 = oWordSV3 + ' ental';       // INVARIANT
+        sentence = hPartSV3 + ', ' + tPartSV3 + ' och ' + oPartSV3 + ' blir ' + nWordSV3;
       }
       /* Other locales in 3-place mode without a per-locale 3P branch
          leave `sentence` undefined → falls through to the 2-place

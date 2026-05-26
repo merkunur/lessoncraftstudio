@@ -135,13 +135,21 @@ export function hreflangAlternatesForRow(
   row: ActivityRow,
   baseUrl: string
 ): Record<string, string> {
+  // hreflang KEY must be the hreflang code (pt → pt-BR per CLAUDE.md §6),
+  // not the bare locale code. Mirrors `frontend/lib/schema-generator.ts:
+  // hreflangMap` inline (avoiding cross-lib import).
+  const HREFLANG_MAP: Record<string, string> = {
+    en: 'en', de: 'de', fr: 'fr', es: 'es',
+    pt: 'pt-BR',
+    it: 'it', nl: 'nl', sv: 'sv', da: 'da', no: 'no', fi: 'fi',
+  };
   const out: Record<string, string> = {};
   for (const loc of TOPIC_ENABLED_LOCALES) {
     const s = row.slug[loc];
     // No trailing slash — Next.js routes per `next.config.js: trailingSlash: false`.
-    if (s) out[loc] = `${baseUrl}/${loc}/activities/${s}`;
+    if (s) out[HREFLANG_MAP[loc] || loc] = `${baseUrl}/${loc}/activities/${s}`;
   }
-  out['x-default'] = out['en'] || Object.values(out)[0] || baseUrl;
+  out['x-default'] = out['en'] || out['en-US'] || Object.values(out)[0] || baseUrl;
   return out;
 }
 

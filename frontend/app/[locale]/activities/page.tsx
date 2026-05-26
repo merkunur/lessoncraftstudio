@@ -8,6 +8,7 @@ import {
 import { listAllActivities } from "@/lib/activities";
 import BreadcrumbTrail from "@/components/breadcrumbs/BreadcrumbTrail";
 import { CANONICAL_HOST, canonicalUrl, localePath } from "@/lib/seo/url";
+import { getHreflangCode } from "@/lib/schema-generator";
 
 /**
  * Activities index landing — /<locale>/activities/
@@ -145,8 +146,10 @@ export function generateMetadata({
   const strings = LANDING_STRINGS[params.locale] ?? LANDING_STRINGS.en;
   const canonical = canonicalUrl(localePath(params.locale, "activities"));
   const alternates: Record<string, string> = {};
+  // hreflang KEY must be the hreflang code (pt → pt-BR per CLAUDE.md §6),
+  // not the bare locale code. Mirrors homepage/worksheets/about pattern.
   for (const loc of TOPIC_ENABLED_LOCALES) {
-    alternates[loc] = canonicalUrl(localePath(loc, "activities"));
+    alternates[getHreflangCode(loc)] = canonicalUrl(localePath(loc, "activities"));
   }
   alternates["x-default"] = canonicalUrl(localePath("en", "activities"));
   return {

@@ -29,6 +29,15 @@ import { ORGANIZATION_ID } from '@/lib/seo/organization-schema';
 
 const OG_IMAGE_PATH = '/og-homepage.png';
 
+// NSR-flagged About locales — Bucket-A positioning copy was authored
+// from cross-locale precedent rather than a native-speaker review (see
+// CLAUDE.md §17.5.1 + commit accd2139). These locale variants ship as
+// `noindex` until NSR clears; the other 7 are indexable normally.
+// TODO(operator): once NSR clears for a locale, remove it from this
+// list AND restore its entry in `frontend/app/sitemap.ts` shard-3
+// About loop.
+const UNREVIEWED_ABOUT_LOCALES = ['sv', 'da', 'no', 'fi'] as const;
+
 export const revalidate = 3600;
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
@@ -74,7 +83,14 @@ export async function generateMetadata({ params }: { params: { locale: string } 
       description: t('meta.description'),
       images: [`${CANONICAL_HOST}${OG_IMAGE_PATH}`],
     },
-    robots: { index: true, follow: true },
+    // Per CLAUDE.md §17.5.1: NSR-flagged Nordic+Finnic About locales
+    // ship as `noindex` until native-speaker review clears. The other 7
+    // are indexable. Hreflang cluster still covers all 11 so the
+    // unreviewed variants stay reachable + linkable, just not request-
+    // indexed by Google.
+    robots: UNREVIEWED_ABOUT_LOCALES.includes(locale as typeof UNREVIEWED_ABOUT_LOCALES[number])
+      ? { index: false, follow: true }
+      : { index: true, follow: true },
   };
 }
 

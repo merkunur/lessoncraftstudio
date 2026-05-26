@@ -85,18 +85,20 @@ window.PlaceValueCore = {
     srUnitCube:   { en: 'unit-cube',de: 'Einerwürfel',         es: 'cubo de uno',             it: 'cubo da uno',                                         fr: 'cube unité',                                          pt: 'cubinho',                                             nl: 'blokje',                                              sv: 'enhetskub',                                           da: 'ener-terning',                                        no: 'enerterning',                                         fi: 'ykköskuutio' },
     srRemove:     { en: 'remove',   de: 'entferne',            es: 'quitar',                  it: 'rimuovi',                                             fr: 'retire',                                              pt: 'remova',                                              nl: 'verwijder',                                           sv: 'ta bort',                                             da: 'fjern',                                               no: 'fjern',                                               fi: 'poista' },
 
-    /* ---- 3-place activity (2.NBT.A.1) strings — EN + DE + ES shipped.
+    /* ---- 3-place activity (2.NBT.A.1) strings — EN + DE + ES + IT shipped.
        These keys are read ONLY when this.places contains 'hundreds'.
        2-place activity ignores them entirely (byte-identical behavior).
-       ES follows activity 1's convention: centena/decena/unidad inflect
-       by count (singular vs plural with -s / -es suffixes); attributive-
-       feminine `una` form in add-button (matches activity 1's "Añadir
-       una decena"). srHundredsFlat = "placa de cien" matches activity
-       1's "barra de diez"/"cubo de uno" compound-shape convention. */
-    hundredsLabel:   { en: 'Hundreds',     de: 'Hunderter',           es: 'Centenas' },
-    addHundredLabel: { en: 'Add hundred',  de: 'Hunderter hinzufügen',es: 'Añadir una centena' },
-    wordHundred:     { en: 'hundred',      de: 'Hunderter',           es: 'centena' },        // tap-utterance, singular
-    srHundredsFlat:  { en: 'hundreds-flat',de: 'Hunderterplatte',     es: 'placa de cien' }   // sr-only aria-label fragment
+       IT follows activity 1's convention: mixed inflection (centinaio
+       masc sg → centinaia fem pl irregular -aio/-aia; decina fem sg →
+       decine fem pl; unità invariant). Masculine `un` article in
+       add-button for centinaio (matches IT noun gender), feminine `una`
+       for decina/unità per activity 1 precedent. srHundredsFlat =
+       "piastra da cento" mirrors activity 1's "barra di dieci"/
+       "cubo da uno" preposition-based compound. */
+    hundredsLabel:   { en: 'Hundreds',     de: 'Hunderter',           es: 'Centenas',         it: 'Centinaia' },
+    addHundredLabel: { en: 'Add hundred',  de: 'Hunderter hinzufügen',es: 'Añadir una centena',it: 'Aggiungi un centinaio' },
+    wordHundred:     { en: 'hundred',      de: 'Hunderter',           es: 'centena',          it: 'centinaio' },     // tap-utterance, singular
+    srHundredsFlat:  { en: 'hundreds-flat',de: 'Hunderterplatte',     es: 'placa de cien',    it: 'piastra da cento' } // sr-only aria-label fragment
   },
 
   defaults: {},
@@ -380,12 +382,26 @@ window.PlaceValueCore = {
       return hPart + ' ' + sub99(rem);
     },
     it: function (n, mode) {
-      /* 0-19 lookup. 20-99 = tens-word + ones-word with TWO grammar rules:
-         (a) When ones is 1 or 8, drop the final vowel of the tens-word
-             (vowel elision): venti+uno=ventuno, venti+otto=ventotto,
-             trenta+uno=trentuno, ..., ottanta+otto=ottantotto.
-         (b) When ones is 3, the ones-word in compound position takes the
-             grave-é accent: ventitré, trentatré, ..., novantatré. */
+      /* Italian 0-999. 0-99 BYTE-IDENTICAL to prior shipped (load-bearing
+         for the LIVE 1.NBT.B.2 IT activity at /it/activities/decine-e-unita;
+         existing logic — ventuno/ventotto vowel-elision + tré grave-accent
+         in compound — preserved verbatim under `if (n < 100)` guard).
+
+         100-999 NEW layer for 2.NBT.A.1 activity 2 IT fan-out:
+         - n=100 → "cento" (standalone)
+         - n=200-900 round → multiplier + "cento": duecento, trecento,
+           ..., novecento. cento INVARIANT (NEVER "duecenti").
+         - n=101-999 compound → hundreds-word + sub99(rem) AGGLUTINATED
+           with VOWEL ELISION at cento boundary when sub99 starts with
+           'o' or 'u':
+             cento + uno → centuno
+             cento + otto → centotto
+             cento + ottanta → centottanta
+             cinquecento + ottantatré → cinquecentottantatré
+           No elision when sub99 starts with consonant or other vowel:
+             cento + due → centodue
+             cento + venti → centoventi (no cento elision; internal
+             ventuno/ventotto elision preserved in sub99). */
       var lookup = [
         'zero','uno','due','tre','quattro','cinque','sei','sette','otto','nove',
         'dieci','undici','dodici','tredici','quattordici','quindici',
@@ -395,13 +411,39 @@ window.PlaceValueCore = {
       var tens = ['','','venti','trenta','quaranta','cinquanta','sessanta','settanta','ottanta','novanta'];
       /* Compound-position ones forms: same as standalone except 3 → 'tré'. */
       var onesForCompound = ['','uno','due','tré','quattro','cinque','sei','sette','otto','nove'];
-      if (n < 10) return (mode === 'attributive-fem') ? attrFem[n] : lookup[n];
-      if (n < 20) return lookup[n];
-      var t = Math.floor(n / 10), o = n % 10;
-      if (o === 0) return tens[t];
-      var tensStr = tens[t];
-      if (o === 1 || o === 8) tensStr = tensStr.slice(0, -1);  // elision: ventuno, ventotto
-      return tensStr + onesForCompound[o];
+      if (n < 100) {
+        if (n < 10) return (mode === 'attributive-fem') ? attrFem[n] : lookup[n];
+        if (n < 20) return lookup[n];
+        var t = Math.floor(n / 10), o = n % 10;
+        if (o === 0) return tens[t];
+        var tensStr = tens[t];
+        if (o === 1 || o === 8) tensStr = tensStr.slice(0, -1);  // elision: ventuno, ventotto
+        return tensStr + onesForCompound[o];
+      }
+      /* 100-999 layer */
+      var hundredsMul = ['','','due','tre','quattro','cinque','sei','sette','otto','nove'];
+      var h = Math.floor(n / 100), rem = n % 100;
+      var hWord = (h === 1) ? 'cento' : hundredsMul[h] + 'cento';
+      if (rem === 0) return hWord;
+      /* sub99 inline — cardinal-form tail with internal ventuno/ventotto
+         elision + tré grave-accent preserved. */
+      function sub99(m) {
+        if (m < 20) return lookup[m];
+        var t2 = Math.floor(m / 10), o2 = m % 10;
+        if (o2 === 0) return tens[t2];
+        var tensStr2 = tens[t2];
+        if (o2 === 1 || o2 === 8) tensStr2 = tensStr2.slice(0, -1);
+        return tensStr2 + onesForCompound[o2];
+      }
+      var tail = sub99(rem);
+      /* Cento elision: drop final 'o' of hundreds-word when tail starts
+         with 'o' or 'u' (cento+uno → centuno; cento+ottanta → centottanta;
+         cinquecento+ottantatré → cinquecentottantatré). */
+      var first = tail.charAt(0);
+      if (first === 'o' || first === 'u') {
+        hWord = hWord.slice(0, -1);
+      }
+      return hWord + tail;
     },
     fr: function (n, mode) {
       /* Standard France French. Handles:
@@ -747,6 +789,31 @@ window.PlaceValueCore = {
         var tPartES3 = tWordES3 + ' decena' + (this.targetTens === 1 ? '' : 's');
         var oPartES3 = oWordES3 + ' unidad' + (this.targetOnes === 1 ? '' : 'es');
         sentence = hPartES3 + ', ' + tPartES3 + ' y ' + oPartES3 + ' son ' + nWordES3;
+      } else if (lang === 'it') {
+        /* IT 3-place: MIXED inflection per activity 1 lock —
+           - centinaio (masc sg) / centinaia (fem pl) — irregular
+             -aio/-aia plural
+           - decina (fem sg) / decine (fem pl) — regular -a/-e
+           - unità (fem) — INVARIANT
+           Article at count=1: "un centinaio" (masc), "una decina"
+           (fem), "una unità" (fem). Task targets [200..906] all have
+           H≥2 → centinaia plural path; H=1 defensive path emits
+           masculine "un" hardcoded. Copula "fanno" plural (matches
+           activity 1). Comma between Centinaia and Decine; "e" before
+           Unità. Zero places SPOKEN ("zero decine" / "zero unità")
+           per 2.NBT.A.1 teaching point. Cardinal target via IT helper
+           renders cento-elision compounds (duecentoquarantasette,
+           trecentocinque, cinquecentottantatré). */
+        var hWordIT3 = (this.targetHundreds === 1)
+          ? 'un'
+          : this._numberWord(this.targetHundreds, 'it', 'attributive-fem', false);
+        var tWordIT3 = this._numberWord(this.targetTens, 'it', 'attributive-fem', false);
+        var oWordIT3 = this._numberWord(this.targetOnes, 'it', 'attributive-fem', false);
+        var nWordIT3 = this._numberWord(this.targetNumber, 'it', 'cardinal', false);
+        var hPartIT3 = hWordIT3 + ' ' + (this.targetHundreds === 1 ? 'centinaio' : 'centinaia');
+        var tPartIT3 = tWordIT3 + ' decin' + (this.targetTens === 1 ? 'a' : 'e');
+        var oPartIT3 = oWordIT3 + ' unità';   // INVARIANT
+        sentence = hPartIT3 + ', ' + tPartIT3 + ' e ' + oPartIT3 + ' fanno ' + nWordIT3;
       }
       /* Other locales in 3-place mode without a per-locale 3P branch
          leave `sentence` undefined → falls through to the 2-place

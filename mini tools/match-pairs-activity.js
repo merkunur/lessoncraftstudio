@@ -23,8 +23,8 @@
    locale fan-outs add entries under each key per the §A.13.48 plan-mode-
    per-locale discipline. */
 var ACTIVITY_STRINGS_MP = {
-  taskMakeN:       { en: 'Make {n}',                                                de: 'Bilde {n}',                                                                                            es: 'Forma {n}',                                                                                            it: 'Forma {n}',                                                                                                            fr: 'Compose {n}',                                                                                                                                                       pt: 'Forme {n}',                                                                                                                                                                                                                            nl: 'Maak {n}',                                                                                                                       sv: 'Gör {n}' },
-  hintFormPairs:   { en: 'Tap a number, then tap its partner',                      de: 'Tippe auf eine Zahl, dann auf ihren Partner',                                                          es: 'Toca un número, luego toca su pareja',                                                                 it: 'Tocca un numero, poi tocca il suo compagno',                                                                           fr: 'Touche un nombre, puis touche son partenaire',                                                                                                                      pt: 'Toque em um número, depois toque no par dele',                                                                                                                                                                                         nl: 'Tik op een getal, dan op zijn partner',                                                                                          sv: 'Tryck på ett tal, sedan på dess kompis' },
+  taskMakeN:       { en: 'Make {n}',                                                de: 'Bilde {n}',                                                                                            es: 'Forma {n}',                                                                                            it: 'Forma {n}',                                                                                                            fr: 'Compose {n}',                                                                                                                                                       pt: 'Forme {n}',                                                                                                                                                                                                                            nl: 'Maak {n}',                                                                                                                       sv: 'Gör {n}',                                                                                                              da: 'Lav {n}' },
+  hintFormPairs:   { en: 'Tap a number, then tap its partner',                      de: 'Tippe auf eine Zahl, dann auf ihren Partner',                                                          es: 'Toca un número, luego toca su pareja',                                                                 it: 'Tocca un numero, poi tocca il suo compagno',                                                                           fr: 'Touche un nombre, puis touche son partenaire',                                                                                                                      pt: 'Toque em um número, depois toque no par dele',                                                                                                                                                                                         nl: 'Tik op een getal, dan op zijn partner',                                                                                          sv: 'Tryck på ett tal, sedan på dess kompis',                                                                               da: 'Tryk på et tal, derefter på dets makker' },
   hintTryDifferent:{ en: 'Some pairs don\'t add up — tap a pair to break it and try again',
                      de: 'Manche Paare ergeben nicht das Ziel — tippe ein Paar an, um es zu trennen, und versuch\'s nochmal',
                      es: 'Algunas parejas no forman el objetivo — toca una pareja para deshacerla e inténtalo de nuevo',
@@ -32,7 +32,8 @@ var ACTIVITY_STRINGS_MP = {
                      fr: 'Certaines paires ne font pas l\'objectif — touche une paire pour la défaire et réessaie',
                      pt: 'Alguns pares não fazem o objetivo — toque em um par para desfazê-lo e tente novamente',
                      nl: 'Sommige paren maken het doel niet — tik op een paar om het te ontkoppelen en probeer opnieuw',
-                     sv: 'Vissa par når inte målet — tryck på ett par för att lösa upp det och försök igen' }
+                     sv: 'Vissa par når inte målet — tryck på ett par för att lösa upp det och försök igen',
+                     da: 'Nogle par når ikke målet — tryk på et par for at løse det op og prøv igen' }
 };
 
 /* Fallback static task set when no ?activity= is given. Same shape as
@@ -93,7 +94,8 @@ window.MatchPairsActivity = Object.assign({}, MatchPairsCore, {
       fr: 'Compose le nombre',
       pt: 'Forme o número',
       nl: 'Maak het getal',
-      sv: 'Gör talet'
+      sv: 'Gör talet',
+      da: 'Lav tallet'
     },
     instruction: {
       en: 'Find pairs of numbers that add up to the target. Tap Check when you\'re ready.',
@@ -103,7 +105,8 @@ window.MatchPairsActivity = Object.assign({}, MatchPairsCore, {
       fr: 'Trouve des paires de nombres qui font l\'objectif. Touche Vérifier quand tu es prêt.',
       pt: 'Encontre pares de números que formam o objetivo. Toque em Verificar quando estiver pronto.',
       nl: 'Zoek getallenparen die samen het doel maken. Tik op Controleer als je klaar bent.',
-      sv: 'Hitta talpar som tillsammans blir målet. Tryck på Kontrollera när du är klar.'
+      sv: 'Hitta talpar som tillsammans blir målet. Tryck på Kontrollera när du är klar.',
+      da: 'Find talpar, der tilsammen bliver målet. Tryk på Tjek, når du er klar.'
     }
   }),
 

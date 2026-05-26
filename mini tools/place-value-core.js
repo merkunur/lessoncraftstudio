@@ -38,15 +38,17 @@
    ===================================================================== */
 window.PlaceValueCore = {
 
-  /* EN + DE + ES + IT + FR + PT + NL + SV + DA shipped. PT is Brazilian
+  /* EN + DE + ES + IT + FR + PT + NL + SV + DA + NO shipped. PT is Brazilian
      Portuguese (locale code 'pt' only, NEVER 'pt-BR' per CLAUDE.md §6).
+     NO is Norwegian Bokmål (locale code 'no'; matches E9 syllable-builder
+     Bokmål locking).
      Additional locales fan-out one at a time per the §A.13.48 plan-mode-
      per-locale + 3-agent ensemble discipline. Engine falls back to `en`
      via api.t() if any unfilled locale routes here. The manifest row's
      `slug` map gates URL resolution before the engine ever boots — if a
      locale lacks a slug, /<locale>/activities/... 404s. */
   strings: {
-    title:        { en: 'Place Value', de: 'Stellenwert', es: 'Valor posicional', it: 'Valore posizionale', fr: 'Valeur de position', pt: 'Valor posicional', nl: 'Plaatswaarde', sv: 'Platsvärde', da: 'Pladsværdi' },
+    title:        { en: 'Place Value', de: 'Stellenwert', es: 'Valor posicional', it: 'Valore posizionale', fr: 'Valeur de position', pt: 'Valor posicional', nl: 'Plaatswaarde', sv: 'Platsvärde', da: 'Pladsværdi', no: 'Plassverdi' },
     instruction:  {
       en: 'Tap to add tens and ones. Tap a block to remove it.',
       de: 'Tippe, um Zehner und Einer hinzuzufügen. Tippe auf einen Stein, um ihn zu entfernen.',
@@ -56,26 +58,28 @@ window.PlaceValueCore = {
       pt: 'Toque para adicionar dezenas e unidades. Toque em um bloco para removê-lo.',
       nl: 'Tik om tientallen en eenheden toe te voegen. Tik op een blok om het te verwijderen.',
       sv: 'Tryck för att lägga till tiotal och ental. Tryck på ett block för att ta bort det.',
-      da: 'Tryk for at tilføje tiere og enere. Tryk på en klods for at fjerne den.'
+      da: 'Tryk for at tilføje tiere og enere. Tryk på en klods for at fjerne den.',
+      no: 'Trykk for å legge til tiere og enere. Trykk på en blokk for å fjerne den.'
     },
-    tensLabel:    { en: 'Tens',     de: 'Zehner',              es: 'Decenas',                 it: 'Decine',                                              fr: 'Dizaines',                                            pt: 'Dezenas',                                             nl: 'Tientallen',                                          sv: 'Tiotal',                                              da: 'Tiere' },
-    onesLabel:    { en: 'Ones',     de: 'Einer',               es: 'Unidades',                it: 'Unità',                                               fr: 'Unités',                                              pt: 'Unidades',                                            nl: 'Eenheden',                                            sv: 'Ental',                                               da: 'Enere' },
-    buildLabel:   { en: 'Build',    de: 'Wert',                es: 'Valor',                   it: 'Valore',                                              fr: 'Valeur',                                              pt: 'Valor',                                               nl: 'Waarde',                                              sv: 'Värde',                                               da: 'Værdi' },
-    addTenLabel:  { en: 'Add ten',  de: 'Zehner hinzufügen',   es: 'Añadir una decena',       it: 'Aggiungi una decina',                                 fr: 'Ajoute une dizaine',                                  pt: 'Adicionar uma dezena',                                nl: 'Tiental toevoegen',                                   sv: 'Lägg till ett tiotal',                                da: 'Tilføj en tier' },
-    addOneLabel:  { en: 'Add one',  de: 'Einer hinzufügen',    es: 'Añadir una unidad',       it: 'Aggiungi una unità',                                  fr: 'Ajoute une unité',                                    pt: 'Adicionar uma unidade',                               nl: 'Eenheid toevoegen',                                   sv: 'Lägg till ett ental',                                 da: 'Tilføj en ener' },
+    tensLabel:    { en: 'Tens',     de: 'Zehner',              es: 'Decenas',                 it: 'Decine',                                              fr: 'Dizaines',                                            pt: 'Dezenas',                                             nl: 'Tientallen',                                          sv: 'Tiotal',                                              da: 'Tiere',                                               no: 'Tiere' },
+    onesLabel:    { en: 'Ones',     de: 'Einer',               es: 'Unidades',                it: 'Unità',                                               fr: 'Unités',                                              pt: 'Unidades',                                            nl: 'Eenheden',                                            sv: 'Ental',                                               da: 'Enere',                                               no: 'Enere' },
+    buildLabel:   { en: 'Build',    de: 'Wert',                es: 'Valor',                   it: 'Valore',                                              fr: 'Valeur',                                              pt: 'Valor',                                               nl: 'Waarde',                                              sv: 'Värde',                                               da: 'Værdi',                                               no: 'Verdi' },
+    addTenLabel:  { en: 'Add ten',  de: 'Zehner hinzufügen',   es: 'Añadir una decena',       it: 'Aggiungi una decina',                                 fr: 'Ajoute une dizaine',                                  pt: 'Adicionar uma dezena',                                nl: 'Tiental toevoegen',                                   sv: 'Lägg till ett tiotal',                                da: 'Tilføj en tier',                                      no: 'Legg til en tier' },
+    addOneLabel:  { en: 'Add one',  de: 'Einer hinzufügen',    es: 'Añadir una unidad',       it: 'Aggiungi una unità',                                  fr: 'Ajoute une unité',                                    pt: 'Adicionar uma unidade',                               nl: 'Eenheid toevoegen',                                   sv: 'Lägg till ett ental',                                 da: 'Tilføj en ener',                                      no: 'Legg til en ener' },
     /* wordTen / wordOne are the placed-unit names spoken on tap. All
        locales use the place-unit nouns (NOT cardinals) to reinforce the
        1.NBT.B.2 place-value vocabulary the activity teaches and to match
        the column labels the kid sees. SV "tiotal" / "ental" are NEUTER
        nouns with zero-plural (invariant). DA "tier" / "ener" are COMMON-
        gender nouns that DECLINE (tier/tiere, ener/enere); tap-utterance
-       speaks the singular form per "one rod was just placed". */
-    wordTen:      { en: 'ten',      de: 'Zehner',              es: 'decena',                  it: 'decina',                                              fr: 'dizaine',                                             pt: 'dezena',                                              nl: 'tiental',                                             sv: 'tiotal',                                              da: 'tier' },
-    wordOne:      { en: 'one',      de: 'Einer',               es: 'unidad',                  it: 'unità',                                               fr: 'unité',                                               pt: 'unidade',                                             nl: 'eenheid',                                             sv: 'ental',                                               da: 'ener' },
+       speaks the singular form per "one rod was just placed". NO "tier" /
+       "ener" are COMMON-gender nouns that DECLINE identically to DA. */
+    wordTen:      { en: 'ten',      de: 'Zehner',              es: 'decena',                  it: 'decina',                                              fr: 'dizaine',                                             pt: 'dezena',                                              nl: 'tiental',                                             sv: 'tiotal',                                              da: 'tier',                                                no: 'tier' },
+    wordOne:      { en: 'one',      de: 'Einer',               es: 'unidad',                  it: 'unità',                                               fr: 'unité',                                               pt: 'unidade',                                             nl: 'eenheid',                                             sv: 'ental',                                               da: 'ener',                                                no: 'ener' },
     /* Screen-reader fragments for placed-block aria-labels. */
-    srTenRod:     { en: 'ten-rod',  de: 'Zehnerstab',          es: 'barra de diez',           it: 'barra di dieci',                                      fr: 'barre de dix',                                        pt: 'barra de dez',                                        nl: 'tienstaaf',                                           sv: 'tiostav',                                             da: 'tier-stang' },
-    srUnitCube:   { en: 'unit-cube',de: 'Einerwürfel',         es: 'cubo de uno',             it: 'cubo da uno',                                         fr: 'cube unité',                                          pt: 'cubinho',                                             nl: 'blokje',                                              sv: 'enhetskub',                                           da: 'ener-terning' },
-    srRemove:     { en: 'remove',   de: 'entferne',            es: 'quitar',                  it: 'rimuovi',                                             fr: 'retire',                                              pt: 'remova',                                              nl: 'verwijder',                                           sv: 'ta bort',                                             da: 'fjern' }
+    srTenRod:     { en: 'ten-rod',  de: 'Zehnerstab',          es: 'barra de diez',           it: 'barra di dieci',                                      fr: 'barre de dix',                                        pt: 'barra de dez',                                        nl: 'tienstaaf',                                           sv: 'tiostav',                                             da: 'tier-stang',                                          no: 'tierstav' },
+    srUnitCube:   { en: 'unit-cube',de: 'Einerwürfel',         es: 'cubo de uno',             it: 'cubo da uno',                                         fr: 'cube unité',                                          pt: 'cubinho',                                             nl: 'blokje',                                              sv: 'enhetskub',                                           da: 'ener-terning',                                        no: 'enerterning' },
+    srRemove:     { en: 'remove',   de: 'entferne',            es: 'quitar',                  it: 'rimuovi',                                             fr: 'retire',                                              pt: 'remova',                                              nl: 'verwijder',                                           sv: 'ta bort',                                             da: 'fjern',                                               no: 'fjern' }
   },
 
   defaults: {},
@@ -392,6 +396,37 @@ window.PlaceValueCore = {
       if (o === 0) return tens[t];
       return tens[t] + lookup[o];  // e.g. fyrtiosju, sjuttiotvå, åttionio
     },
+    no: function (n, mode) {
+      /* Norwegian Bokmål. 0-19 lookup; 20-99 = TENS-FIRST concat (no
+         space, no joiner; modern post-1951 reform; mirrors SV pattern;
+         OPPOSITE of DA's ones-first compound).
+         Tens-words 20-90 IRREGULAR (load-bearing Norwegian-specific):
+           tjue    (20; NOT pre-1951 "tyve" which is DA's form)
+           tretti  (30; NOT pre-1951 "tredve")
+           førti   (40; ø vowel — irregular)
+           femti
+           seksti
+           sytti
+           åtti    (80; å vowel — irregular)
+           nitti
+         "sju" preferred over "syv" per modern K-1 Bokmål convention.
+         attributive: 1 → "én" with acute accent (K-1 emphatic form
+         before noun, distinguishes from indefinite article "en").
+         Cardinal[1] also "én". Compound examples: 21=tjueén,
+         47=førtisju, 72=syttito, 89=åttini, 99=nittini. */
+      var lookup = [
+        'null','én','to','tre','fire','fem','seks','sju','åtte','ni',
+        'ti','elleve','tolv','tretten','fjorten','femten','seksten',
+        'sytten','atten','nitten'
+      ];
+      var attr = ['null','én','to','tre','fire','fem','seks','sju','åtte','ni'];
+      var tens = ['','','tjue','tretti','førti','femti','seksti','sytti','åtti','nitti'];
+      if (n < 10) return (mode === 'attributive') ? attr[n] : lookup[n];
+      if (n < 20) return lookup[n];
+      var t = Math.floor(n / 10), o = n % 10;
+      if (o === 0) return tens[t];
+      return tens[t] + lookup[o];  // tens-first concat: førtisju, syttito, åttini
+    },
     da: function (n, mode) {
       /* Danish. 0-19 lookup; 20-99 = ONES-FIRST + "og" (and) + TENS-word
          compound (Germanic, like German "einundzwanzig").
@@ -485,13 +520,40 @@ window.PlaceValueCore = {
           47, niogfirs at 89. Vicesimal tens-words 50-90 (halvtreds /
           tres / halvfjerds / firs / halvfems) are the load-bearing
           Danish-specific irregularity rooted in Old Norse base-20.)
+     NO: "én tier og to enere blir tolv"
+         (Norwegian Bokmål; tens-first; place-unit nouns DECLINE
+          identically to DA — tier/tiere, ener/enere (common-gender).
+          Zero takes plural (matches Germanic+Romance convention;
+          opposite of FR). Copula "blir" (becomes) — K-1 Norwegian
+          Bokmål math-decomposition convention; mirrors SV. Acute "én"
+          for count=1 — K-1 emphatic form distinguishing from indefinite
+          article "en". Cardinal target is TENS-FIRST concat (post-1951
+          reform; mirrors SV): førtisju at 47, åttini at 89. Irregular
+          ø/å tens-words førti (40) and åtti (80) are the load-bearing
+          Norwegian-specific irregularity.)
      Type 'ui' for instruction-shaped sentences per lcs-shell.js TYPES;
      TTS picks the voice from the `lang` parameter. */
   speakDecomposition: function () {
     if (!window.LCSAudio || !window.LCSAudio.speak) return;
     var lang = this.language;
     var sentence;
-    if (lang === 'da') {
+    if (lang === 'no') {
+      var tensWordNO   = this._numberWord(this.targetTens,   'no', 'attributive', false);
+      var onesWordNO   = this._numberWord(this.targetOnes,   'no', 'attributive', false);
+      var targetWordNO = this._numberWord(this.targetNumber, 'no', 'cardinal',     false);
+      /* NO inflection: tier/ener are COMMON-gender nouns that decline
+         identically to DA. count=1 → singular (tier/ener); count=0 or
+         2+ → plural (tiere/enere). Zero takes plural per Germanic+
+         Romance convention. Copula "blir" (3sg/3pl present of "bli" =
+         "to become") — K-1 Norwegian Bokmål math-decomposition
+         convention; mirrors SV. Cardinal target via NO helper handles
+         modern post-1951 tens-first compound with irregular ø/å tens-
+         words (førti, åtti). Acute "én" emitted by helper's attributive
+         lookup at count=1. */
+      var tensNounNO = (this.targetTens === 1) ? 'tier' : 'tiere';
+      var onesNounNO = (this.targetOnes === 1) ? 'ener' : 'enere';
+      sentence = tensWordNO + ' ' + tensNounNO + ' og ' + onesWordNO + ' ' + onesNounNO + ' blir ' + targetWordNO;
+    } else if (lang === 'da') {
       var tensWordDA   = this._numberWord(this.targetTens,   'da', 'attributive', false);
       var onesWordDA   = this._numberWord(this.targetOnes,   'da', 'attributive', false);
       var targetWordDA = this._numberWord(this.targetNumber, 'da', 'cardinal',     false);

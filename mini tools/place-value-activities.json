@@ -68,19 +68,22 @@
       "en": "hundreds-tens-and-ones",
       "de": "hunderter-zehner-und-einer",
       "es": "centenas-decenas-y-unidades",
-      "it": "centinaia-decine-e-unita"
+      "it": "centinaia-decine-e-unita",
+      "fr": "centaines-dizaines-et-unites"
     },
     "page_title": {
       "en": "Hundreds, Tens, and Ones",
       "de": "Hunderter, Zehner und Einer",
       "es": "Centenas, decenas y unidades",
-      "it": "Centinaia, decine e unità"
+      "it": "Centinaia, decine e unità",
+      "fr": "Centaines, dizaines et unités"
     },
     "page_intro": {
       "en": "Build each three-digit number using hundreds, tens, and ones. Tap to add a hundreds-flat, a ten-rod, or a unit-cube — and watch the number grow.",
       "de": "Baue jede dreistellige Zahl mit Hundertern, Zehnern und Einern. Tippe, um eine Hunderterplatte, einen Zehnerstab oder einen Einerwürfel hinzuzufügen — und sieh zu, wie die Zahl wächst.",
       "es": "Construye cada número de tres dígitos usando centenas, decenas y unidades. Toca para añadir una placa de cien, una barra de diez o un cubo de uno — y mira cómo crece el número.",
-      "it": "Costruisci ogni numero di tre cifre usando centinaia, decine e unità. Tocca per aggiungere una piastra da cento, una barra di dieci o un cubo da uno — e guarda crescere il numero."
+      "it": "Costruisci ogni numero di tre cifre usando centinaia, decine e unità. Tocca per aggiungere una piastra da cento, una barra di dieci o un cubo da uno — e guarda crescere il numero.",
+      "fr": "Construis chaque nombre à trois chiffres avec des centaines, des dizaines et des unités. Touche pour ajouter une plaque de cent, une barre de dix ou un cube unité — et regarde le nombre grandir."
     },
     "kid_prompt_template": "taskBuild"
   }

@@ -2212,6 +2212,45 @@ Cross-references:
 
 Origin: NO STEP 2 commission 2026-05-25 commits leading to `f834efd1` (no.js + WORD_BLACKLIST shipped; 5 iteration rounds; final +58 net to 829 approved).
 
+#### A.13.53 Cognate-aware locale-leakage verify discipline at sequential per-locale fan-outs
+
+When a commission ships ONE activity across all 11 locales as N sequential per-locale commissions (operator approves each before next), apply this doctrine from commission 1 — NOT commission N. **Distinct from §A.13.48 parallel-agent recreation** (different commission shape: §A.13.48 = 3-agent native ensemble for namespace recreation; THIS = sequential per-locale fan-out of one activity instance using PVC-locked cardinal tables + cognate-aware verify).
+
+**Discipline:**
+
+1. **Single-row-multi-locale manifest pattern.** One row id in `<engine>-activities.json` with per-locale `slug`/`page_title`/`page_intro` maps. `resolveActivitySlug` disambiguates by locale. Avoids per-locale row proliferation + hreflang fragility. NEVER add a new row per locale.
+
+2. **Per-locale Puppeteer verify script** at `mini tools/.verify-<slug>.js` with `FORBIDDEN_SUBSTR` array listing OTHER locales' distinctive tokens. Each locale's verify greps its own iframe DOM body for those tokens; expects 0 matches at all 3 viewports (375/768/1920).
+
+3. **Cognate-drop calibration when shared roots exist.** Drop genuine shared cognates from the FORBIDDEN list of the OTHER locale at the CURRENT shipping locale's verify. Empirical progression at E4 match-pairs K.OA.A.3 rollout:
+   - SV first Nordic — no prior Nordic; no drops needed
+   - DA verify: drops `Mål`, `Kort ` from FORBIDDEN_SV (Nordic-trio cognates)
+   - NO verify: drops `Mål`, `Kort ` from FORBIDDEN_{SV,DA}; drops `makker`, `Tryk`, `Prøv` from FORBIDDEN_DA
+   - FI verify: ZERO drops (Uralic distinctness; FI shares no cognates with the 9 Indo-European prior locales)
+
+4. **Full-phrase forbidden tokens, NEVER bare root fragments.** A 4-char substring of locale A is often a substring of locale B's longer word. Use full phrases (e.g., `Alla par blir`, `Alle par bliver`) NOT bare roots (e.g., bare `blir` would false-positive on DA `bliver` ⊃ `blir`).
+
+5. **Substring-trap empirical catalog:**
+
+| Substring trap | Class | Drop discipline |
+|---|---|---|
+| `blir` (SV+NO copula, 4 ch) ⊂ `bliver` (DA copula, 6 ch) | bare ⊂ longer | drop bare `blir`; use full-phrase `Alla par blir`/`Alle par blir` |
+| `Tryk` (DA "tap", 4 ch) ⊂ `Trykk` (NO "tap", 5 ch) | bare ⊂ longer | drop bare `Tryk` from FORBIDDEN_DA in NO verify |
+| `Kort ` (Nordic "card" + space, 5 ch) ⊄ `Kortti ` (FI "card", 7 ch) | NOT a trap (trailing space @position-4 differs from `t` @position-4) | SAFE to keep `Kort ` in FORBIDDEN_{SV,DA,NO} for FI verify |
+| `en` (DA cardinal-1 bare) vs `én` (NO cardinal-1 acute) | distinct codepoints | NOT a substring trap; cards aren't in FORBIDDEN anyway (internal data) |
+
+6. **Forward-looking cognate documentation.** At each locale's commission close, the operator report MUST document which cognates the NEXT locale's verify will need to drop. Knowledge accumulates across commissions.
+
+7. **Pre-commit gate** at `mini tools/.gate-<locale>-<engine>.js` asserts: current locale strings populated; ALL prior locales byte-untouched (regression floor); manifest row keys preserved for priors; per-task pair-validity probes (typically × 6); spoken summary text exact-match per target (via sandbox `LCSAudio.speak` stub capturing `sandbox.__lastSpeak.text`); cross-locale byte-distinctness sanity.
+
+8. **PVC-locked cardinal tables, NO PVC import.** Cardinals (0-10 for K.OA.A.3 range) value-verified against `PlaceValueCore._NUMBER_WORD_HELPERS.<locale>(n, 'cardinal')` for inline storage; confirm 0 PVC imports in shipped wrapper HTML via curl-grep.
+
+9. **Operator-strategic register adjudications per locale.** Cardinal-1 disambiguation (NL `één`, SV `ett`, NO `én`, DA bare `en`, FI `yksi`), copula choice for "pairs make N" (SV/NO `blir`, DA `bliver` per operator-authorized deviation from E12 `er`, FI `on` singular distributive `Jokainen pari on {n}!`). PVC source comment or operator commission text is the lock.
+
+**Empirical anchor:** E4 match-pairs K.OA.A.3 "Make the Number" 11-locale rollout, 2026-05-26 session (10 sequential commissions DE→ES→IT→FR→PT→NL→SV→DA→NO→FI on top of EN baseline). Key commits: SV `3a24e3a8` → DA `61944985` → NO `a61b9977` → FI `4bf56943` (rollout closed 11/11). Engine `match-pairs-core.js` shipped untouched mechanically across all 10 commissions.
+
+**Cross-references:** §A.13.48 (parallel-agent recreation pattern, distinct shape); §A.13.42 (cache-buster bump per ship); §A.13.36 (CC↔assistant cooperation cadence — per-locale routing rhythm); [[feedback-cognate-aware-verify-discipline]] memory file (full doctrine write-up).
+
 ### A.14 Scaling Arc audit doctrine
 
 `[CHORE][AUDIT]` commissions measure publish-cli's path against scale targets without production change.

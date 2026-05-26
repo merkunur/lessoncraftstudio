@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import { notFound, redirect } from 'next/navigation';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
+import { buildBreadcrumbSchema, BreadcrumbCrumb } from '@/lib/seo/breadcrumb-schema';
 import {
   Axis,
   getAxisName,
@@ -553,11 +554,28 @@ export default async function IntersectionPage({
   const intersectionProseForSchema = await getIntersectionProse(locale, axisKey1, axisKey2);
   const schema = buildCollectionSchema(locale, compositeName, canonical, decks, intersectionProseForSchema);
 
+  // BreadcrumbList JSON-LD — 3-level shape mirrors visible <Breadcrumbs>:
+  //   Home › <axis1-name> › <axis1-name · axis2-name>
+  const homeLabel = await (async () => {
+    const tBreadcrumb = await getTranslations({ locale, namespace: 'topicPage.breadcrumb' });
+    return tBreadcrumb('home');
+  })();
+  const breadcrumbTrail: BreadcrumbCrumb[] = [
+    { name: homeLabel, path: localePath(locale) },
+    { name: name1, path: localePath(locale, 'topic', params.slug) },
+    { name: compositeName, path: localePath(locale, 'topic', params.slug, params.secondary) },
+  ];
+  const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbTrail);
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
       <main className="container mx-auto px-4 max-w-6xl py-12">

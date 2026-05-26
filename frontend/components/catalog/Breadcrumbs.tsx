@@ -33,14 +33,14 @@ export default async function Breadcrumbs({
 
   return (
     <nav className="text-sm text-ink-500 mb-4 flex flex-wrap items-center gap-x-2 gap-y-1" aria-label="Breadcrumb">
-      <a href={`/${locale}/`} className="hover:text-ink-900 hover:underline">
+      <a href={`/${locale}`} className="hover:text-ink-900 hover:underline">
         {homeLabel}
       </a>
       <span aria-hidden="true">›</span>
       {isIntersection ? (
         <>
           <a
-            href={`/${locale}/topic/${slug1}/`}
+            href={`/${locale}/topic/${slug1}`}
             className="hover:text-ink-900 hover:underline"
           >
             {axisName1}

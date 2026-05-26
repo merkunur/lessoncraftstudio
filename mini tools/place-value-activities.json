@@ -21,7 +21,8 @@
       "nl": "tientallen-en-eenheden",
       "sv": "tiotal-och-ental",
       "da": "tiere-og-enere",
-      "no": "tiere-og-enere"
+      "no": "tiere-og-enere",
+      "fi": "kymmenet-ja-ykkoset"
     },
     "page_title": {
       "en": "Tens and Ones",
@@ -33,7 +34,8 @@
       "nl": "Tientallen en eenheden",
       "sv": "Tiotal och ental",
       "da": "Tiere og enere",
-      "no": "Tiere og enere"
+      "no": "Tiere og enere",
+      "fi": "Kymmenet ja ykköset"
     },
     "page_intro": {
       "en": "Build each number using tens and ones. Tap to add a ten-rod or a unit-cube — and watch the number grow.",
@@ -45,7 +47,8 @@
       "nl": "Bouw elk getal met tientallen en eenheden. Tik om een tienstaaf of een blokje toe te voegen — en kijk hoe het getal groeit.",
       "sv": "Bygg varje tal med tiotal och ental. Tryck för att lägga till en tiostav eller en enhetskub — och se talet växa.",
       "da": "Byg hvert tal med tiere og enere. Tryk for at tilføje en tier-stang eller en ener-terning — og se tallet vokse.",
-      "no": "Bygg hvert tall med tiere og enere. Trykk for å legge til en tierstav eller en enerterning — og se tallet vokse."
+      "no": "Bygg hvert tall med tiere og enere. Trykk for å legge til en tierstav eller en enerterning — og se tallet vokse.",
+      "fi": "Rakenna jokainen luku kymmenillä ja ykkösillä. Napauta lisätäksesi kymmensauvan tai ykköskuution — ja katso, kuinka luku kasvaa."
     },
     "kid_prompt_template": "taskBuild"
   }

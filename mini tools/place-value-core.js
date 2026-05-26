@@ -38,17 +38,18 @@
    ===================================================================== */
 window.PlaceValueCore = {
 
-  /* EN + DE + ES + IT + FR + PT + NL + SV + DA + NO shipped. PT is Brazilian
-     Portuguese (locale code 'pt' only, NEVER 'pt-BR' per CLAUDE.md §6).
-     NO is Norwegian Bokmål (locale code 'no'; matches E9 syllable-builder
-     Bokmål locking).
+  /* EN + DE + ES + IT + FR + PT + NL + SV + DA + NO + FI shipped — FULL
+     11-locale E12 rollout complete. PT is Brazilian Portuguese (locale
+     code 'pt' only, NEVER 'pt-BR' per CLAUDE.md §6). NO is Norwegian
+     Bokmål (matches E9 syllable-builder Bokmål locking). FI is Finnish
+     (Uralic; opposite-of-everyone-else partitive case after numbers).
      Additional locales fan-out one at a time per the §A.13.48 plan-mode-
      per-locale + 3-agent ensemble discipline. Engine falls back to `en`
      via api.t() if any unfilled locale routes here. The manifest row's
      `slug` map gates URL resolution before the engine ever boots — if a
      locale lacks a slug, /<locale>/activities/... 404s. */
   strings: {
-    title:        { en: 'Place Value', de: 'Stellenwert', es: 'Valor posicional', it: 'Valore posizionale', fr: 'Valeur de position', pt: 'Valor posicional', nl: 'Plaatswaarde', sv: 'Platsvärde', da: 'Pladsværdi', no: 'Plassverdi' },
+    title:        { en: 'Place Value', de: 'Stellenwert', es: 'Valor posicional', it: 'Valore posizionale', fr: 'Valeur de position', pt: 'Valor posicional', nl: 'Plaatswaarde', sv: 'Platsvärde', da: 'Pladsværdi', no: 'Plassverdi', fi: 'Paikka-arvo' },
     instruction:  {
       en: 'Tap to add tens and ones. Tap a block to remove it.',
       de: 'Tippe, um Zehner und Einer hinzuzufügen. Tippe auf einen Stein, um ihn zu entfernen.',
@@ -59,13 +60,14 @@ window.PlaceValueCore = {
       nl: 'Tik om tientallen en eenheden toe te voegen. Tik op een blok om het te verwijderen.',
       sv: 'Tryck för att lägga till tiotal och ental. Tryck på ett block för att ta bort det.',
       da: 'Tryk for at tilføje tiere og enere. Tryk på en klods for at fjerne den.',
-      no: 'Trykk for å legge til tiere og enere. Trykk på en blokk for å fjerne den.'
+      no: 'Trykk for å legge til tiere og enere. Trykk på en blokk for å fjerne den.',
+      fi: 'Napauta lisätäksesi kymmeniä ja ykkösiä. Napauta palikkaa poistaaksesi sen.'
     },
-    tensLabel:    { en: 'Tens',     de: 'Zehner',              es: 'Decenas',                 it: 'Decine',                                              fr: 'Dizaines',                                            pt: 'Dezenas',                                             nl: 'Tientallen',                                          sv: 'Tiotal',                                              da: 'Tiere',                                               no: 'Tiere' },
-    onesLabel:    { en: 'Ones',     de: 'Einer',               es: 'Unidades',                it: 'Unità',                                               fr: 'Unités',                                              pt: 'Unidades',                                            nl: 'Eenheden',                                            sv: 'Ental',                                               da: 'Enere',                                               no: 'Enere' },
-    buildLabel:   { en: 'Build',    de: 'Wert',                es: 'Valor',                   it: 'Valore',                                              fr: 'Valeur',                                              pt: 'Valor',                                               nl: 'Waarde',                                              sv: 'Värde',                                               da: 'Værdi',                                               no: 'Verdi' },
-    addTenLabel:  { en: 'Add ten',  de: 'Zehner hinzufügen',   es: 'Añadir una decena',       it: 'Aggiungi una decina',                                 fr: 'Ajoute une dizaine',                                  pt: 'Adicionar uma dezena',                                nl: 'Tiental toevoegen',                                   sv: 'Lägg till ett tiotal',                                da: 'Tilføj en tier',                                      no: 'Legg til en tier' },
-    addOneLabel:  { en: 'Add one',  de: 'Einer hinzufügen',    es: 'Añadir una unidad',       it: 'Aggiungi una unità',                                  fr: 'Ajoute une unité',                                    pt: 'Adicionar uma unidade',                               nl: 'Eenheid toevoegen',                                   sv: 'Lägg till ett ental',                                 da: 'Tilføj en ener',                                      no: 'Legg til en ener' },
+    tensLabel:    { en: 'Tens',     de: 'Zehner',              es: 'Decenas',                 it: 'Decine',                                              fr: 'Dizaines',                                            pt: 'Dezenas',                                             nl: 'Tientallen',                                          sv: 'Tiotal',                                              da: 'Tiere',                                               no: 'Tiere',                                               fi: 'Kymmenet' },
+    onesLabel:    { en: 'Ones',     de: 'Einer',               es: 'Unidades',                it: 'Unità',                                               fr: 'Unités',                                              pt: 'Unidades',                                            nl: 'Eenheden',                                            sv: 'Ental',                                               da: 'Enere',                                               no: 'Enere',                                               fi: 'Ykköset' },
+    buildLabel:   { en: 'Build',    de: 'Wert',                es: 'Valor',                   it: 'Valore',                                              fr: 'Valeur',                                              pt: 'Valor',                                               nl: 'Waarde',                                              sv: 'Värde',                                               da: 'Værdi',                                               no: 'Verdi',                                               fi: 'Arvo' },
+    addTenLabel:  { en: 'Add ten',  de: 'Zehner hinzufügen',   es: 'Añadir una decena',       it: 'Aggiungi una decina',                                 fr: 'Ajoute une dizaine',                                  pt: 'Adicionar uma dezena',                                nl: 'Tiental toevoegen',                                   sv: 'Lägg till ett tiotal',                                da: 'Tilføj en tier',                                      no: 'Legg til en tier',                                    fi: 'Lisää kymmen' },
+    addOneLabel:  { en: 'Add one',  de: 'Einer hinzufügen',    es: 'Añadir una unidad',       it: 'Aggiungi una unità',                                  fr: 'Ajoute une unité',                                    pt: 'Adicionar uma unidade',                               nl: 'Eenheid toevoegen',                                   sv: 'Lägg till ett ental',                                 da: 'Tilføj en ener',                                      no: 'Legg til en ener',                                    fi: 'Lisää ykkönen' },
     /* wordTen / wordOne are the placed-unit names spoken on tap. All
        locales use the place-unit nouns (NOT cardinals) to reinforce the
        1.NBT.B.2 place-value vocabulary the activity teaches and to match
@@ -73,13 +75,15 @@ window.PlaceValueCore = {
        nouns with zero-plural (invariant). DA "tier" / "ener" are COMMON-
        gender nouns that DECLINE (tier/tiere, ener/enere); tap-utterance
        speaks the singular form per "one rod was just placed". NO "tier" /
-       "ener" are COMMON-gender nouns that DECLINE identically to DA. */
-    wordTen:      { en: 'ten',      de: 'Zehner',              es: 'decena',                  it: 'decina',                                              fr: 'dizaine',                                             pt: 'dezena',                                              nl: 'tiental',                                             sv: 'tiotal',                                              da: 'tier',                                                no: 'tier' },
-    wordOne:      { en: 'one',      de: 'Einer',               es: 'unidad',                  it: 'unità',                                               fr: 'unité',                                               pt: 'unidade',                                             nl: 'eenheid',                                             sv: 'ental',                                               da: 'ener',                                                no: 'ener' },
+       "ener" are COMMON-gender nouns that DECLINE identically to DA.
+       FI "kymmen" / "ykkönen" are nominative-singular Finnish nouns; the
+       count-governed case-switch is in speakDecomposition, not here. */
+    wordTen:      { en: 'ten',      de: 'Zehner',              es: 'decena',                  it: 'decina',                                              fr: 'dizaine',                                             pt: 'dezena',                                              nl: 'tiental',                                             sv: 'tiotal',                                              da: 'tier',                                                no: 'tier',                                                fi: 'kymmen' },
+    wordOne:      { en: 'one',      de: 'Einer',               es: 'unidad',                  it: 'unità',                                               fr: 'unité',                                               pt: 'unidade',                                             nl: 'eenheid',                                             sv: 'ental',                                               da: 'ener',                                                no: 'ener',                                                fi: 'ykkönen' },
     /* Screen-reader fragments for placed-block aria-labels. */
-    srTenRod:     { en: 'ten-rod',  de: 'Zehnerstab',          es: 'barra de diez',           it: 'barra di dieci',                                      fr: 'barre de dix',                                        pt: 'barra de dez',                                        nl: 'tienstaaf',                                           sv: 'tiostav',                                             da: 'tier-stang',                                          no: 'tierstav' },
-    srUnitCube:   { en: 'unit-cube',de: 'Einerwürfel',         es: 'cubo de uno',             it: 'cubo da uno',                                         fr: 'cube unité',                                          pt: 'cubinho',                                             nl: 'blokje',                                              sv: 'enhetskub',                                           da: 'ener-terning',                                        no: 'enerterning' },
-    srRemove:     { en: 'remove',   de: 'entferne',            es: 'quitar',                  it: 'rimuovi',                                             fr: 'retire',                                              pt: 'remova',                                              nl: 'verwijder',                                           sv: 'ta bort',                                             da: 'fjern',                                               no: 'fjern' }
+    srTenRod:     { en: 'ten-rod',  de: 'Zehnerstab',          es: 'barra de diez',           it: 'barra di dieci',                                      fr: 'barre de dix',                                        pt: 'barra de dez',                                        nl: 'tienstaaf',                                           sv: 'tiostav',                                             da: 'tier-stang',                                          no: 'tierstav',                                            fi: 'kymmensauva' },
+    srUnitCube:   { en: 'unit-cube',de: 'Einerwürfel',         es: 'cubo de uno',             it: 'cubo da uno',                                         fr: 'cube unité',                                          pt: 'cubinho',                                             nl: 'blokje',                                              sv: 'enhetskub',                                           da: 'ener-terning',                                        no: 'enerterning',                                         fi: 'ykköskuutio' },
+    srRemove:     { en: 'remove',   de: 'entferne',            es: 'quitar',                  it: 'rimuovi',                                             fr: 'retire',                                              pt: 'remova',                                              nl: 'verwijder',                                           sv: 'ta bort',                                             da: 'fjern',                                               no: 'fjern',                                               fi: 'poista' }
   },
 
   defaults: {},
@@ -396,6 +400,35 @@ window.PlaceValueCore = {
       if (o === 0) return tens[t];
       return tens[t] + lookup[o];  // e.g. fyrtiosju, sjuttiotvå, åttionio
     },
+    fi: function (n, mode) {
+      /* Finnish (Uralic; not Indo-European). 0-19 lookup; 20-99 =
+         AGGLUTINATED compound (tens-first, single word, no joiner,
+         no space). Teens 11-19 use "-toista" suffix (yksitoista,
+         kaksitoista, ..., yhdeksäntoista). Tens 20-90: Xkymmentä
+         (kaksikymmentä 20, ..., yhdeksänkymmentä 90). Compound 21-99
+         is single agglutinated word: tens[t] + lookup[o] without space
+         (neljäkymmentäseitsemän 47, seitsemänkymmentäkaksi 72,
+         kahdeksankymmentäyhdeksän 89, yhdeksänkymmentäyhdeksän 99).
+         Cardinal[10] = "kymmenen" — the genitive form of the noun
+         "kymmen" functions as the standalone cardinal "10" in Finnish.
+         Attributive mode: same as cardinal lookup for the number-word
+         itself. Finnish has no gender — the number-word doesn't change
+         form for attributive use. What CHANGES is the case of the
+         COUNTED NOUN (nominative sg at 1, partitive sg at 0 or 2+) —
+         that case-switch lives in speakDecomposition, not here. */
+      var lookup = [
+        'nolla','yksi','kaksi','kolme','neljä','viisi','kuusi','seitsemän','kahdeksan','yhdeksän',
+        'kymmenen','yksitoista','kaksitoista','kolmetoista','neljätoista','viisitoista','kuusitoista',
+        'seitsemäntoista','kahdeksantoista','yhdeksäntoista'
+      ];
+      var attr = ['nolla','yksi','kaksi','kolme','neljä','viisi','kuusi','seitsemän','kahdeksan','yhdeksän'];
+      var tens = ['','','kaksikymmentä','kolmekymmentä','neljäkymmentä','viisikymmentä','kuusikymmentä','seitsemänkymmentä','kahdeksankymmentä','yhdeksänkymmentä'];
+      if (n < 10) return (mode === 'attributive') ? attr[n] : lookup[n];
+      if (n < 20) return lookup[n];
+      var t = Math.floor(n / 10), o = n % 10;
+      if (o === 0) return tens[t];
+      return tens[t] + lookup[o];  // agglutinated: neljäkymmentäseitsemän, kahdeksankymmentäyhdeksän
+    },
     no: function (n, mode) {
       /* Norwegian Bokmål. 0-19 lookup; 20-99 = TENS-FIRST concat (no
          space, no joiner; modern post-1951 reform; mirrors SV pattern;
@@ -531,13 +564,41 @@ window.PlaceValueCore = {
           reform; mirrors SV): førtisju at 47, åttini at 89. Irregular
           ø/å tens-words førti (40) and åtti (80) are the load-bearing
           Norwegian-specific irregularity.)
+     FI: "yksi kymmen ja kaksi ykköstä on kaksitoista"
+         (Finnish, Uralic; tens-first. LOAD-BEARING case-rule OPPOSITE
+          to every prior locale: count=1 → NOMINATIVE singular
+          (kymmen / ykkönen); count=0 or 2+ → PARTITIVE singular
+          (kymmentä / ykköstä — NOT pluralized; Finnish counts govern
+          partitive SG, not partitive PL). Zero takes partitive
+          (Finnish-canonical decade case: "nolla ykköstä"). Copula "on"
+          (3sg of olla = is/equals) — K-1 Finnish math convention.
+          Cardinal target is AGGLUTINATED single-word compound:
+          neljäkymmentäseitsemän at 47, kahdeksankymmentäyhdeksän at 89.
+          Teens use -toista suffix: kaksitoista 12, yhdeksäntoista 19.)
      Type 'ui' for instruction-shaped sentences per lcs-shell.js TYPES;
      TTS picks the voice from the `lang` parameter. */
   speakDecomposition: function () {
     if (!window.LCSAudio || !window.LCSAudio.speak) return;
     var lang = this.language;
     var sentence;
-    if (lang === 'no') {
+    if (lang === 'fi') {
+      var tensWordFI   = this._numberWord(this.targetTens,   'fi', 'attributive', false);
+      var onesWordFI   = this._numberWord(this.targetOnes,   'fi', 'attributive', false);
+      var targetWordFI = this._numberWord(this.targetNumber, 'fi', 'cardinal',     false);
+      /* FI case-rule (LOAD-BEARING — opposite of every prior locale):
+           count=1   → NOMINATIVE singular (kymmen / ykkönen)
+           count=0 OR 2+ → PARTITIVE singular (kymmentä / ykköstä —
+                      NOT pluralized; Finnish counts govern partitive
+                      SG, not partitive PL).
+         Copula "on" (3sg present of olla = is/equals) — Finnish K-1
+         math-decomposition convention; matches existing FI math
+         precedent in ten-frame + choice-board + syllable-builder.
+         Cardinal target via FI helper handles agglutinated tens-first
+         compound: neljäkymmentäseitsemän, kahdeksankymmentäyhdeksän. */
+      var tensNounFI = (this.targetTens === 1) ? 'kymmen' : 'kymmentä';
+      var onesNounFI = (this.targetOnes === 1) ? 'ykkönen' : 'ykköstä';
+      sentence = tensWordFI + ' ' + tensNounFI + ' ja ' + onesWordFI + ' ' + onesNounFI + ' on ' + targetWordFI;
+    } else if (lang === 'no') {
       var tensWordNO   = this._numberWord(this.targetTens,   'no', 'attributive', false);
       var onesWordNO   = this._numberWord(this.targetOnes,   'no', 'attributive', false);
       var targetWordNO = this._numberWord(this.targetNumber, 'no', 'cardinal',     false);

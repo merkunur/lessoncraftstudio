@@ -50,6 +50,7 @@ const MANIFEST_FILES = [
   'cvc-builder-activities.json',
   'syllable-builder-activities.json',
   'place-value-activities.json',
+  'match-pairs-activities.json',
   // future: 'number-line-activities.json', 'ruler-activities.json', …
 ];
 

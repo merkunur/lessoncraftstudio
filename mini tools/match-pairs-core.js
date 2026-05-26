@@ -1,0 +1,379 @@
+/* =====================================================================
+   MATCH PAIRS — SHARED CORE   (match-pairs-core.js)
+   ---------------------------------------------------------------------
+   Engine E4 per the master arc. Tap-to-pair board for forming addend
+   pairs that decompose a target number (K.OA.A.3 number bonds —
+   "Decompose numbers less than or equal to 10 into pairs in more than
+   one way").
+
+   Kid mechanic: a target number is shown in the prompt ("Make 5");
+   a shuffled board shows N addend cards (small numerals 0-10); child
+   taps one card (it highlights), taps a partner card (a coral line
+   links them, both lock to paired-state), repeats until all cards are
+   paired. Tap a paired card to unlink. Check Answers validates every
+   pair sums to the target.
+
+   Tap-to-pair (NOT drag) — kid-robust at 375px; mirrors successful
+   tap-to-place in E7/E8/E9 word-builder. No fine-motor demands.
+
+   API CONTRACT (sibling-shape with PlaceValueCore / ChoiceBoardCore /
+   WordBuilderCore):
+     init(api)                  — wire api; zero state
+     setupTask(opts)            — { target, cards }; resets pairs; renders board
+     render()                   — build DOM skeleton inside api.stage
+     paint()                    — reflect cardsState + redraw connection lines
+     reset()                    — clear pairs + selection
+     injectCSS()                — one-shot stage CSS (idempotent)
+     onCardTap(idx)             — tap-handler (called by card click)
+
+   tool.pairsFormed = [[idxA, idxB], ...] is the public state surface
+   read by the per-task check(tool) function in the activity wrapper
+   (answerType: 'state'). Engine has NO 'check' or 'showFeedback' method
+   itself — the shell handles celebrate / try-again chrome via the
+   tasks-array contract; per-task check function in the wrapper compares
+   pairsFormed against the task's target.
+
+   Direction A locked: cream #FBF3E4 + teal #146B5E + coral #F2784B;
+   Baloo 2 + Nunito; chunky teal Check button; warm-sage field outside
+   the card via the activity-page wrapper.
+   ===================================================================== */
+window.MatchPairsCore = {
+
+  /* EN base-locale only this commission. Future locale fan-out adds
+     entries here per the §A.13.48 plan-mode-per-locale + 3-agent
+     discipline; the engine falls back to `en` via api.t() if any
+     unfilled locale routes here. */
+  strings: {
+    title:       { en: 'Match Pairs' },
+    instruction: { en: 'Tap two cards that go together — and watch the pairs link.' },
+    /* Per-card tap-utterance: speak the card's numeric value as a
+       number-word. The wrapper does not pre-bake these; the engine
+       resolves at tap time via window.LCSAudio.speak({type:'number'}). */
+    cardSpoken:  {
+      en: ['zero','one','two','three','four','five','six','seven','eight','nine','ten']
+    },
+    /* Speech on Check correct — "All pairs make {n}!" templated. */
+    speakAllPairsMake: { en: 'All pairs make {n}!' },
+    /* Speech on Check wrong. */
+    speakTryAgain:     { en: 'Some pairs don\'t add up yet. Try again.' }
+  },
+
+  defaults: {},
+  settings: [],
+
+  /* ---- state + setup ---- */
+  init: function (api) {
+    this.api = api;
+    this.target = 0;
+    this.cards = [];                  // [int,int,...] card values
+    this.cardsState = [];             // 'unpaired'|'selected'|'paired'
+    this.pairsFormed = [];            // [[idxA, idxB], ...]
+    this.selectedIdx = null;          // currently-selected card index, or null
+    this.wrongIdxSet = {};            // idx → true if last-Check marked wrong (visual)
+    this.readOnly = false;
+    this.language = (api && api.lang) || 'en';
+  },
+
+  /* Per-task hook. opts = { target, cards }.
+     target: int (sum each pair must equal)
+     cards:  [int,int,...] card values to render on the board.
+     Card count must be even — every card pairs with exactly one other.
+     Caller (activity wrapper) guarantees this from the manifest. */
+  setupTask: function (opts) {
+    opts = opts || {};
+    this.target = (typeof opts.target === 'number') ? opts.target : 0;
+    this.cards = Array.isArray(opts.cards) ? opts.cards.slice() : [];
+    this.cardsState = this.cards.map(function () { return 'unpaired'; });
+    this.pairsFormed = [];
+    this.selectedIdx = null;
+    this.wrongIdxSet = {};
+    this.readOnly = false;
+  },
+
+  /* True when every card is paired (all-pairs-formed; Check enables). */
+  allPaired: function () {
+    if (!this.cardsState.length) return false;
+    for (var i = 0; i < this.cardsState.length; i++) {
+      if (this.cardsState[i] !== 'paired') return false;
+    }
+    return true;
+  },
+
+  /* Find the partner index of a paired card. Returns -1 if not paired. */
+  partnerOf: function (idx) {
+    for (var i = 0; i < this.pairsFormed.length; i++) {
+      var p = this.pairsFormed[i];
+      if (p[0] === idx) return p[1];
+      if (p[1] === idx) return p[0];
+    }
+    return -1;
+  },
+
+  /* Tap handler — public state machine. */
+  onCardTap: function (idx) {
+    if (this.readOnly) return;
+    if (idx < 0 || idx >= this.cards.length) return;
+
+    /* Clear any wrong-state on first interaction after a wrong-Check. */
+    this.wrongIdxSet = {};
+
+    var state = this.cardsState[idx];
+
+    if (state === 'selected') {
+      /* Deselect the currently-selected card. */
+      this.cardsState[idx] = 'unpaired';
+      this.selectedIdx = null;
+      this._speakCard(idx);
+      this.paint();
+      return;
+    }
+
+    if (state === 'paired') {
+      /* Unlink the pair containing idx. Both cards return to unpaired. */
+      var partner = this.partnerOf(idx);
+      if (partner >= 0) {
+        this.cardsState[idx] = 'unpaired';
+        this.cardsState[partner] = 'unpaired';
+        this.pairsFormed = this.pairsFormed.filter(function (p) {
+          return p[0] !== idx && p[1] !== idx && p[0] !== partner && p[1] !== partner;
+        });
+      }
+      /* If a different card is selected, leave that selection intact —
+         the kid can now tap a new partner for it. */
+      this.api.sound(380);
+      this.paint();
+      return;
+    }
+
+    /* state === 'unpaired' */
+    if (this.selectedIdx === null) {
+      /* Select this card. */
+      this.cardsState[idx] = 'selected';
+      this.selectedIdx = idx;
+      this._speakCard(idx);
+      this.api.sound(720);
+      this.paint();
+      return;
+    }
+
+    /* Another unpaired card is selected → form pair. */
+    var a = this.selectedIdx;
+    this.cardsState[a] = 'paired';
+    this.cardsState[idx] = 'paired';
+    this.pairsFormed.push([a, idx]);
+    this.selectedIdx = null;
+    this.api.sound(660);
+    this._speakCard(idx);
+    this.paint();
+    /* If all cards are now paired, broadcast the "Check enabled" state
+       via a postMessage to the shell — the shell's Check button auto-
+       enables for answerType:'state', but we want a visual paint pass. */
+  },
+
+  /* Speak the tapped card's value as a number-word via LCSAudio. */
+  _speakCard: function (idx) {
+    if (!window.LCSAudio || !window.LCSAudio.speak) return;
+    var val = this.cards[idx];
+    var table = (this.strings.cardSpoken && this.strings.cardSpoken[this.language])
+                || this.strings.cardSpoken.en;
+    if (typeof val !== 'number' || val < 0 || val >= table.length) return;
+    window.LCSAudio.speak({
+      type: 'number',
+      text: table[val],
+      lang: this.language,
+      rate: 0.95
+    });
+  },
+
+  /* Speak the Check-correct celebration utterance, templated with target. */
+  speakAllPairs: function () {
+    if (!window.LCSAudio || !window.LCSAudio.speak) return;
+    var template = (this.strings.speakAllPairsMake && this.strings.speakAllPairsMake[this.language])
+                   || this.strings.speakAllPairsMake.en;
+    var text = template.replace('{n}', String(this.target));
+    window.LCSAudio.speak({
+      type: 'ui',
+      text: text,
+      lang: this.language,
+      rate: 0.95
+    });
+  },
+
+  /* Speak the Check-wrong nudge. */
+  speakTryAgain: function () {
+    if (!window.LCSAudio || !window.LCSAudio.speak) return;
+    var text = (this.strings.speakTryAgain && this.strings.speakTryAgain[this.language])
+               || this.strings.speakTryAgain.en;
+    window.LCSAudio.speak({
+      type: 'ui',
+      text: text,
+      lang: this.language,
+      rate: 0.95
+    });
+  },
+
+  /* Mark all cards in pairs that sum != target as "wrong" for visual
+     feedback. Called by the activity wrapper from check() when Check
+     returned false. */
+  markWrongPairs: function () {
+    this.wrongIdxSet = {};
+    var self = this;
+    this.pairsFormed.forEach(function (p) {
+      var sum = self.cards[p[0]] + self.cards[p[1]];
+      if (sum !== self.target) {
+        self.wrongIdxSet[p[0]] = true;
+        self.wrongIdxSet[p[1]] = true;
+      }
+    });
+    this.paint();
+  },
+
+  /* ---- render + paint ---- */
+  render: function () {
+    var self = this;
+    var stage = this.api.stage;
+    stage.innerHTML = '';
+
+    var wrap = this.api.el('div', 'mp-wrap');
+
+    /* Target banner — shown above the board; matches the prompt strip
+       above the activity surface. Big coral number; readable at 375px. */
+    var targetEl = this.api.el('div', 'mp-target');
+    var targetLabel = this.api.el('span', 'mp-target-label');
+    targetLabel.textContent = 'Target';
+    var targetNum = this.api.el('span', 'mp-target-num');
+    targetNum.textContent = String(this.target);
+    targetEl.append(targetLabel, targetNum);
+
+    /* SVG layer for connection lines. Positioned absolutely behind cards. */
+    var linesSvg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    linesSvg.setAttribute('class', 'mp-lines');
+    linesSvg.setAttribute('aria-hidden', 'true');
+
+    /* Board — CSS grid with auto-fit; cards size to fit. */
+    var board = this.api.el('div', 'mp-board');
+    board.setAttribute('data-card-count', String(this.cards.length));
+
+    /* Build card DOM. Each card is a button (semantic + keyboard-tappable). */
+    this._cardEls = [];
+    this.cards.forEach(function (val, idx) {
+      var card = self.api.el('button', 'mp-card');
+      card.type = 'button';
+      card.setAttribute('data-idx', String(idx));
+      card.setAttribute('aria-label', 'Card ' + String(val));
+      var num = self.api.el('span', 'mp-card-num');
+      num.textContent = String(val);
+      card.appendChild(num);
+      card.addEventListener('click', function () { self.onCardTap(idx); });
+      board.appendChild(card);
+      self._cardEls.push(card);
+    });
+
+    wrap.append(targetEl, linesSvg, board);
+    stage.appendChild(wrap);
+
+    this._wrapEl = wrap;
+    this._linesSvgEl = linesSvg;
+    this._boardEl = board;
+
+    /* Redraw lines on resize. Cleanup any prior listener — render()
+       can be called multiple times (per-task setup); we hold ONE
+       listener. */
+    if (this._resizeHandler) {
+      window.removeEventListener('resize', this._resizeHandler);
+    }
+    this._resizeHandler = function () { self._drawLines(); };
+    window.addEventListener('resize', this._resizeHandler);
+
+    this.paint();
+  },
+
+  paint: function () {
+    if (!this._cardEls) return;
+    var self = this;
+    this._cardEls.forEach(function (el, idx) {
+      var state = self.cardsState[idx];
+      el.classList.remove('selected', 'paired', 'wrong');
+      if (state === 'selected') el.classList.add('selected');
+      if (state === 'paired')   el.classList.add('paired');
+      if (self.wrongIdxSet[idx]) el.classList.add('wrong');
+    });
+    this._drawLines();
+  },
+
+  _drawLines: function () {
+    if (!this._linesSvgEl || !this._wrapEl) return;
+    var svg = this._linesSvgEl;
+    /* Clear prior lines. */
+    while (svg.firstChild) svg.removeChild(svg.firstChild);
+
+    /* Size SVG to wrap. */
+    var wrapRect = this._wrapEl.getBoundingClientRect();
+    svg.setAttribute('width', String(wrapRect.width));
+    svg.setAttribute('height', String(wrapRect.height));
+    svg.setAttribute('viewBox', '0 0 ' + wrapRect.width + ' ' + wrapRect.height);
+
+    var self = this;
+    this.pairsFormed.forEach(function (p) {
+      var elA = self._cardEls[p[0]];
+      var elB = self._cardEls[p[1]];
+      if (!elA || !elB) return;
+      var rectA = elA.getBoundingClientRect();
+      var rectB = elB.getBoundingClientRect();
+      var x1 = (rectA.left + rectA.right) / 2 - wrapRect.left;
+      var y1 = (rectA.top + rectA.bottom) / 2 - wrapRect.top;
+      var x2 = (rectB.left + rectB.right) / 2 - wrapRect.left;
+      var y2 = (rectB.top + rectB.bottom) / 2 - wrapRect.top;
+      var line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+      line.setAttribute('x1', String(x1));
+      line.setAttribute('y1', String(y1));
+      line.setAttribute('x2', String(x2));
+      line.setAttribute('y2', String(y2));
+      /* Wrong pair → red-tinged line; correct pair → coral. */
+      var isWrong = self.wrongIdxSet[p[0]] || self.wrongIdxSet[p[1]];
+      line.setAttribute('stroke', isWrong ? '#C44' : '#F2784B');
+      line.setAttribute('stroke-width', '4');
+      line.setAttribute('stroke-linecap', 'round');
+      svg.appendChild(line);
+    });
+  },
+
+  reset: function () {
+    this.cardsState = this.cards.map(function () { return 'unpaired'; });
+    this.pairsFormed = [];
+    this.selectedIdx = null;
+    this.wrongIdxSet = {};
+    this.readOnly = false;
+    this.paint();
+  },
+
+  /* ---- CSS (one-shot, idempotent) ---- */
+  injectCSS: function () {
+    if (document.getElementById('mp-core-css')) return;
+    var s = document.createElement('style');
+    s.id = 'mp-core-css';
+    s.textContent = [
+      '.mp-wrap{position:relative;padding:1rem 0.5rem;display:flex;flex-direction:column;align-items:center;gap:0.75rem;}',
+      '.mp-target{display:flex;align-items:baseline;gap:0.5rem;padding:0.4rem 1.2rem;background:#FBF3E4;border:3px solid #146B5E;border-radius:999px;font-family:"Baloo 2",sans-serif;}',
+      '.mp-target-label{font-size:1rem;color:#146B5E;font-weight:600;}',
+      '.mp-target-num{font-size:1.8rem;color:#F2784B;font-weight:800;line-height:1;}',
+      '.mp-board{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0.75rem;width:100%;max-width:560px;margin:0 auto;position:relative;z-index:2;justify-items:stretch;}',
+      '@media (min-width:600px){.mp-board{grid-template-columns:repeat(4,minmax(0,1fr));}}',
+      '.mp-board[data-card-count="4"]{grid-template-columns:repeat(2,minmax(0,1fr));max-width:340px;}',
+      '.mp-board[data-card-count="6"]{grid-template-columns:repeat(2,minmax(0,1fr));max-width:340px;}',
+      '@media (min-width:600px){.mp-board[data-card-count="6"]{grid-template-columns:repeat(3,minmax(0,1fr));max-width:480px;}}',
+      '@media (min-width:600px){.mp-board[data-card-count="8"]{grid-template-columns:repeat(4,minmax(0,1fr));}}',
+      '.mp-card{background:#FBF3E4;border:3px solid #146B5E;border-radius:18px;aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;font-family:"Baloo 2",sans-serif;font-weight:800;color:#F2784B;cursor:pointer;transition:transform 160ms ease,border-color 160ms ease,box-shadow 160ms ease,background 160ms ease;padding:0;min-width:0;min-height:64px;-webkit-tap-highlight-color:transparent;outline:none;}',
+      '.mp-card:hover:not(.paired){transform:scale(1.03);box-shadow:0 4px 12px rgba(20,107,94,0.15);}',
+      '.mp-card:focus-visible{box-shadow:0 0 0 3px rgba(242,120,75,0.5);}',
+      '.mp-card-num{font-size:clamp(2rem,7vw,3.6rem);line-height:1;}',
+      '.mp-card.selected{border-color:#F2784B;border-width:5px;transform:scale(1.06);box-shadow:0 0 0 4px rgba(242,120,75,0.25);}',
+      '.mp-card.paired{background:#E8F3E5;border-color:#5BAE5E;color:#2E6B33;cursor:pointer;}',
+      '.mp-card.paired:hover{transform:scale(1.02);}',
+      '.mp-card.wrong{border-color:#C44;background:#FCEBEB;color:#A33;animation:mp-shake 360ms cubic-bezier(0.36,0.07,0.19,0.97) both;}',
+      '@keyframes mp-shake{10%,90%{transform:translateX(-1px);}20%,80%{transform:translateX(2px);}30%,50%,70%{transform:translateX(-3px);}40%,60%{transform:translateX(3px);}}',
+      '.mp-lines{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:1;}'
+    ].join('\n');
+    document.head.appendChild(s);
+  }
+};

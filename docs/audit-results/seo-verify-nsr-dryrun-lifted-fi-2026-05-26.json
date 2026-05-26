@@ -1,0 +1,33 @@
+{
+  "state": "LIFTED-FI (fi removed from NSR_PENDING_LOCALES)",
+  "at": "2026-05-26T21:47:00.555Z",
+  "sitemapAboutLocales": [
+    "de",
+    "en",
+    "es",
+    "fi",
+    "fr",
+    "it",
+    "nl",
+    "pt"
+  ],
+  "sitemapAboutCount": 8,
+  "robotsPerLocale": {
+    "en": "index, follow",
+    "de": "index, follow",
+    "fr": "index, follow",
+    "es": "index, follow",
+    "pt": "index, follow",
+    "it": "index, follow",
+    "nl": "index, follow",
+    "sv": "noindex, follow",
+    "da": "noindex, follow",
+    "no": "noindex, follow",
+    "fi": "index, follow"
+  },
+  "nsrPendingLocales": [
+    "sv",
+    "da",
+    "no"
+  ]
+}

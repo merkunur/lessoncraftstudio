@@ -1,0 +1,62 @@
+{
+  "state": "PROD-BASELINE-PRE-DEPLOY",
+  "base": "https://www.lessoncraftstudio.com",
+  "at": "2026-05-26T21:48:59.962Z",
+  "note": "Run against current prod before seo-remediation deploys. Defect rows are expected — they document the pre-fix state.",
+  "results": [
+    {
+      "target": "/en",
+      "kind": "home",
+      "pageStatus": 200,
+      "canonical": "https://www.lessoncraftstudio.com/en",
+      "canonicalStatus": 200,
+      "canonicalLocation": null,
+      "defectFlag": null
+    },
+    {
+      "target": "/en/worksheets",
+      "kind": "worksheets",
+      "pageStatus": 200,
+      "canonical": "https://www.lessoncraftstudio.com/en/worksheets/",
+      "canonicalStatus": 308,
+      "canonicalLocation": "/en/worksheets",
+      "defectFlag": "BASELINE-defect: canonical resolves 308"
+    },
+    {
+      "target": "/de/worksheets",
+      "kind": "worksheets",
+      "pageStatus": 200,
+      "canonical": "https://www.lessoncraftstudio.com/de/worksheets/",
+      "canonicalStatus": 308,
+      "canonicalLocation": "/de/worksheets",
+      "defectFlag": "BASELINE-defect: canonical resolves 308"
+    },
+    {
+      "target": "/en/topic/animals",
+      "kind": "topic",
+      "pageStatus": 200,
+      "canonical": "https://www.lessoncraftstudio.com/en/topic/animals/",
+      "canonicalStatus": 308,
+      "canonicalLocation": "/en/topic/animals",
+      "defectFlag": "BASELINE-defect: canonical resolves 308"
+    },
+    {
+      "target": "/de/topic/tiere",
+      "kind": "topic",
+      "pageStatus": 200,
+      "canonical": "https://www.lessoncraftstudio.com/de/topic/tiere/",
+      "canonicalStatus": 308,
+      "canonicalLocation": "/de/topic/tiere",
+      "defectFlag": "BASELINE-defect: canonical resolves 308"
+    },
+    {
+      "target": "/en/activities",
+      "kind": "activities",
+      "pageStatus": 200,
+      "canonical": "https://www.lessoncraftstudio.com/en/activities/",
+      "canonicalStatus": 308,
+      "canonicalLocation": "/en/activities",
+      "defectFlag": "BASELINE-defect: canonical resolves 308"
+    }
+  ]
+}

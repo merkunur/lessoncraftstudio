@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { ALL_APPS } from '@/config/products';
 import { ArrowRight } from 'lucide-react';
+import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 
 // /[locale]/worksheet-makers/ — Worksheet creators (Apps) category landing.
 // Reopened publicly per operator's 2026-05-17 strategic lock §8.1; daily
@@ -14,7 +15,7 @@ import { ArrowRight } from 'lucide-react';
 // contract, NOT Next.js <Link>). Per-app marketing pages don't exist yet —
 // direct generator anchor is the v1 surface.
 
-const BASE_URL = 'https://www.lessoncraftstudio.com';
+const BASE_URL = CANONICAL_HOST;
 
 // §14.10 canonical 29-app list — the 4 PDF-only apps (coloring / writing /
 // draw-and-color / drawing-lines) excluded since they're not catalog-shipping.
@@ -49,7 +50,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   return {
     title: `${t('title')} | LessonCraftStudio`,
     description: t('description'),
-    alternates: { canonical: `${BASE_URL}/${locale}/worksheet-makers/` },
+    alternates: { canonical: canonicalUrl(localePath(locale, 'worksheet-makers')) },
     robots: { index: false, follow: true }, // noindex until full marketing surface ships
   };
 }

@@ -9,6 +9,7 @@ import { listNonEmptyAxisKeys } from "@/lib/topic-decks";
 import { getAxisSlug } from "@/lib/taxonomy";
 import topicsTaxonomy from "@/config/topics-taxonomy.json";
 import BreadcrumbTrail from "@/components/breadcrumbs/BreadcrumbTrail";
+import { CANONICAL_HOST, canonicalUrl, localePath } from "@/lib/seo/url";
 
 /**
  * Topics index landing — /<locale>/topic/
@@ -25,7 +26,7 @@ import BreadcrumbTrail from "@/components/breadcrumbs/BreadcrumbTrail";
  */
 export const revalidate = 3600;
 
-const BASE_URL = "https://www.lessoncraftstudio.com";
+const BASE_URL = CANONICAL_HOST;
 
 interface PageParams {
   locale: string;
@@ -200,12 +201,12 @@ export function generateMetadata({
 }): Metadata {
   if (!isTopicLocale(params.locale)) return {};
   const strings = LANDING_STRINGS[params.locale] ?? LANDING_STRINGS.en;
-  const canonical = `${BASE_URL}/${params.locale}/topic/`;
+  const canonical = canonicalUrl(localePath(params.locale, "topic"));
   const alternates: Record<string, string> = {};
   for (const loc of TOPIC_ENABLED_LOCALES) {
-    alternates[loc] = `${BASE_URL}/${loc}/topic/`;
+    alternates[loc] = canonicalUrl(localePath(loc, "topic"));
   }
-  alternates["x-default"] = `${BASE_URL}/en/topic/`;
+  alternates["x-default"] = canonicalUrl(localePath("en", "topic"));
   return {
     title: strings.metaTitle,
     description: strings.metaDescription,

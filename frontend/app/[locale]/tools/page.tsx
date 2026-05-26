@@ -11,6 +11,7 @@ import {
   TopicEnabledLocale,
 } from "@/config/topic-locales";
 import BreadcrumbTrail from "@/components/breadcrumbs/BreadcrumbTrail";
+import { CANONICAL_HOST, canonicalUrl, localePath } from "@/lib/seo/url";
 
 /**
  * Manipulatives landing page — /<locale>/tools/
@@ -28,7 +29,7 @@ import BreadcrumbTrail from "@/components/breadcrumbs/BreadcrumbTrail";
  */
 export const revalidate = 3600;
 
-const BASE_URL = "https://www.lessoncraftstudio.com";
+const BASE_URL = CANONICAL_HOST;
 
 interface PageParams {
   locale: string;
@@ -49,7 +50,7 @@ export function generateMetadata({
 }): Metadata {
   if (!isTopicLocale(params.locale)) return {};
   const strings = LANDING_STRINGS[params.locale] ?? LANDING_STRINGS.en;
-  const canonical = `${BASE_URL}/${params.locale}/tools/`;
+  const canonical = canonicalUrl(localePath(params.locale, "tools"));
   return {
     title: strings.metaTitle,
     description: strings.metaDescription,

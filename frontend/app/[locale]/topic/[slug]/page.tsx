@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { notFound, redirect } from 'next/navigation';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
+import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import {
   Axis,
   getAxisName,
@@ -43,7 +44,10 @@ import { TOPIC_ENABLED_LOCALES, TopicEnabledLocale } from '@/config/topic-locale
 const TOPIC_LOCALES = TOPIC_ENABLED_LOCALES;
 type TopicLocale = TopicEnabledLocale;
 
-const BASE_URL = 'https://www.lessoncraftstudio.com';
+// SEO URLs go through `canonicalUrl()` / `localePath()` from `@/lib/seo/url`
+// to enforce the no-trailing-slash invariant. `BASE_URL` retained as alias of
+// `CANONICAL_HOST` for any non-URL string usage that still references it.
+const BASE_URL = CANONICAL_HOST;
 
 // Topic pages revalidate hourly to pick up newly-published decks without a
 // rebuild. Static at build time + ISR.
@@ -189,15 +193,15 @@ export async function generateMetadata({
   const hreflangAlternates: Record<string, string> = {};
   for (const sib of siblings) {
     hreflangAlternates[getHreflangCode(sib.locale)] =
-      `${BASE_URL}/${sib.locale}/topic/${sib.slug}/`;
+      canonicalUrl(localePath(sib.locale, 'topic', sib.slug));
   }
   const enSibling = siblings.find(s => s.locale === 'en');
   const xDefault = enSibling ?? siblings[0];
   if (xDefault) {
-    hreflangAlternates['x-default'] = `${BASE_URL}/${xDefault.locale}/topic/${xDefault.slug}/`;
+    hreflangAlternates['x-default'] = canonicalUrl(localePath(xDefault.locale, 'topic', xDefault.slug));
   }
 
-  const canonical = `${BASE_URL}/${locale}/topic/${params.slug}/`;
+  const canonical = canonicalUrl(localePath(locale, 'topic', params.slug));
   const otherSiblings = siblings.filter(s => s.locale !== locale);
 
   // Prefer topicProse first sentence as meta description (per CLAUDE.md §17.4
@@ -222,11 +226,24 @@ export async function generateMetadata({
       siteName: 'LessonCraftStudio',
       locale: ogLocaleMap[locale] || locale,
       alternateLocale: otherSiblings.map(s => ogLocaleMap[s.locale] || s.locale),
+      // Brand-only 1200×630 OG asset (Direction A palette). Per-topic OG
+      // images are a separate asset-pipeline commission; brand-fallback is
+      // adequate for social-share previews on topic pages.
+      images: [
+        {
+          url: `${CANONICAL_HOST}/og-homepage.png`,
+          width: 1200,
+          height: 630,
+          type: 'image/png',
+          alt: 'LessonCraftStudio — K-3 worksheets in 11 languages',
+        },
+      ],
     },
     twitter: {
-      card: 'summary',
+      card: 'summary_large_image',
       title: t('title', { topic: topicName }),
       description,
+      images: [`${CANONICAL_HOST}/og-homepage.png`],
     },
   };
 }
@@ -345,7 +362,11 @@ function parseSearchParams(
   if (mode) sp.set('mode', mode);
   if (theme) sp.set('theme', theme);
   if (type) sp.set('type', type);
-  const canonicalUrl = buildFilterUrl(basePath, sp);
+  // Local name `canonicalForm` avoids shadowing the imported `canonicalUrl`
+  // helper from `@/lib/seo/url`. The two have different semantics: this is
+  // the canonical filter-URL form (path + sorted query string); the import
+  // builds absolute canonical URLs with no trailing slash.
+  const canonicalForm = buildFilterUrl(basePath, sp);
 
   // Detect non-canonical input: default values present in URL, empty
   // values, or non-alphabetic param order. Compare the raw incoming
@@ -360,7 +381,7 @@ function parseSearchParams(
     ? `${basePath}?${rawCurrentSp.toString()}`
     : basePath;
 
-  const canonicalRedirect = rawCurrentUrl !== canonicalUrl ? canonicalUrl : null;
+  const canonicalRedirect = rawCurrentUrl !== canonicalForm ? canonicalForm : null;
 
   return {
     parsed: { sort, page: pageNum, level, theme, type, mode },
@@ -382,7 +403,10 @@ export default async function TopicPage({
   const t = await getTranslations({ locale, namespace: 'topicPage' });
   const topicName = getAxisName(axis, axisKey, locale) ?? params.slug;
   const intent = intentKey(axis);
-  const basePath = `/${locale}/topic/${params.slug}/`;
+  // No trailing slash — Next.js routes are trailing-slash-stripped per
+  // `next.config.js: trailingSlash: false`. basePath flows to canonical
+  // and to buildFilterUrl; both must emit the no-slash form.
+  const basePath = `/${locale}/topic/${params.slug}`;
 
   // Arc 6b — searchParams parse + canonical-redirect + 404 for invalid input
   const sp = parseSearchParams(searchParams, basePath);
@@ -524,7 +548,7 @@ export default async function TopicPage({
     return out.toString();
   })();
 
-  const canonical = `${BASE_URL}${basePath}`;
+  const canonical = canonicalUrl(basePath);
   // Topic prose feeds CollectionPage schema description (rich snippet
   // eligibility) — same prose substrate the meta description first-sentence
   // is extracted from. Long-tail axis-keys without authored prose pass

@@ -92,10 +92,10 @@ window.PlaceValueCore = {
        inflect by count (singular at 1; plural -s/-es at 0 or 2+, zero
        takes plural). Feminine "uma" article in add-button (matches
        activity 1's "Adicionar uma dezena"/"Adicionar uma unidade"). */
-    hundredsLabel:   { en: 'Hundreds',     de: 'Hunderter',           es: 'Centenas',         it: 'Centinaia',         fr: 'Centaines',         pt: 'Centenas' },
-    addHundredLabel: { en: 'Add hundred',  de: 'Hunderter hinzufügen',es: 'Añadir una centena',it: 'Aggiungi un centinaio',fr: 'Ajoute une centaine',pt: 'Adicionar uma centena' },
-    wordHundred:     { en: 'hundred',      de: 'Hunderter',           es: 'centena',          it: 'centinaio',         fr: 'centaine',          pt: 'centena' },     // tap-utterance, singular
-    srHundredsFlat:  { en: 'hundreds-flat',de: 'Hunderterplatte',     es: 'placa de cien',    it: 'piastra da cento',  fr: 'plaque de cent',    pt: 'placa de cem' } // sr-only aria-label fragment
+    hundredsLabel:   { en: 'Hundreds',     de: 'Hunderter',           es: 'Centenas',         it: 'Centinaia',         fr: 'Centaines',         pt: 'Centenas',          nl: 'Honderdtallen' },
+    addHundredLabel: { en: 'Add hundred',  de: 'Hunderter hinzufügen',es: 'Añadir una centena',it: 'Aggiungi un centinaio',fr: 'Ajoute une centaine',pt: 'Adicionar uma centena',nl: 'Honderdtal toevoegen' },
+    wordHundred:     { en: 'hundred',      de: 'Hunderter',           es: 'centena',          it: 'centinaio',         fr: 'centaine',          pt: 'centena',           nl: 'honderdtal' },     // tap-utterance, singular
+    srHundredsFlat:  { en: 'hundreds-flat',de: 'Hunderterplatte',     es: 'placa de cien',    it: 'piastra da cento',  fr: 'plaque de cent',    pt: 'placa de cem',      nl: 'honderdplaat' } // sr-only aria-label fragment
   },
 
   defaults: {},
@@ -587,7 +587,13 @@ window.PlaceValueCore = {
       return hPart + ' e ' + sub99(rem);  // BR "e"-connector between hundreds and tail
     },
     nl: function (n, mode) {
-      /* Standard Dutch. 0-12 direct lookup; 13-19 irregular teens with
+      /* Dutch 0-999. 0-99 BYTE-IDENTICAL to prior shipped (load-bearing
+         for the LIVE 1.NBT.B.2 NL activity at /nl/activities/tientallen-
+         en-eenheden; existing units-first compound + trema "ën" at
+         ones=2/3 + accented "één" at attributive 1 logic preserved
+         verbatim under `if (n < 100)` guard).
+
+         Standard Dutch. 0-12 direct lookup; 13-19 irregular teens with
          morphological stems (dertien/veertien). Tens 20-90 with irregular
          forms (dertig/veertig/tachtig). 20-99: units-first compound
          <onesForCompound> + connector + <tens-word> where connector is
@@ -596,7 +602,23 @@ window.PlaceValueCore = {
          trema "tweeen" could misread as a digraph.
          attributive: 1→"één" (with acute accents) to disambiguate from
          indefinite article "een" (which means "a/an"). K-1 readers benefit
-         from the visual disambiguator before noun. */
+         from the visual disambiguator before noun.
+
+         100-999 NEW layer for 2.NBT.A.1 activity 2 NL fan-out:
+         - n=100 → "honderd" (bare; K-1 classroom standard; "éénhonderd"
+           is formal/archaic, not emitted)
+         - n=101-199 → "honderd" + sub99(rem) (agglutinated; 101 →
+           "honderdeen", 121 → "honderdeenentwintig", 122 →
+           "honderdtweeëntwintig" with trema preserved)
+         - n=200-999 → onesForCompound[h] + "honderd" + (rem ? sub99(rem) : "")
+           — honderd INVARIANT (NEVER "honderden"). Examples:
+             200 = tweehonderd
+             247 = tweehonderdzevenenveertig
+             305 = driehonderdvijf (zero-tens; NO "nul" inserted in cardinal)
+             420 = vierhonderdtwintig (zero-ones; tens-only tail)
+             583 = vijfhonderddrieëntachtig (trema at ones=3 preserved)
+             906 = negenhonderdzes
+             999 = negenhonderdnegenennegentig */
       var lookup = [
         'nul','een','twee','drie','vier','vijf','zes','zeven','acht','negen',
         'tien','elf','twaalf','dertien','veertien','vijftien','zestien',
@@ -605,12 +627,27 @@ window.PlaceValueCore = {
       var attr = ['nul','één','twee','drie','vier','vijf','zes','zeven','acht','negen'];
       var tens = ['','','twintig','dertig','veertig','vijftig','zestig','zeventig','tachtig','negentig'];
       var onesForCompound = ['','een','twee','drie','vier','vijf','zes','zeven','acht','negen'];
-      if (n < 10) return (mode === 'attributive') ? attr[n] : lookup[n];
-      if (n < 20) return lookup[n];
-      var t = Math.floor(n / 10), o = n % 10;
-      if (o === 0) return tens[t];
-      var joinPart = (o === 2 || o === 3) ? 'ën' : 'en';  // trema when ones is 2 or 3
-      return onesForCompound[o] + joinPart + tens[t];  // e.g. tweeëntwintig, zevenenveertig
+      if (n < 100) {
+        if (n < 10) return (mode === 'attributive') ? attr[n] : lookup[n];
+        if (n < 20) return lookup[n];
+        var t = Math.floor(n / 10), o = n % 10;
+        if (o === 0) return tens[t];
+        var joinPart = (o === 2 || o === 3) ? 'ën' : 'en';  // trema when ones is 2 or 3
+        return onesForCompound[o] + joinPart + tens[t];  // e.g. tweeëntwintig, zevenenveertig
+      }
+      /* 100-999 layer */
+      /* sub99 inline — cardinal-form tail, units-first with trema preserved. */
+      function sub99(m) {
+        if (m < 20) return lookup[m];
+        var t2 = Math.floor(m / 10), o2 = m % 10;
+        if (o2 === 0) return tens[t2];
+        var joinPart2 = (o2 === 2 || o2 === 3) ? 'ën' : 'en';
+        return onesForCompound[o2] + joinPart2 + tens[t2];
+      }
+      var h = Math.floor(n / 100), rem = n % 100;
+      var hWord = (h === 1) ? 'honderd' : onesForCompound[h] + 'honderd';
+      if (rem === 0) return hWord;
+      return hWord + sub99(rem);  // agglutinated; no joiner
     },
     sv: function (n, mode) {
       /* Swedish. 0-19 lookup; 20-99 = tens-first concat (no space, no
@@ -928,6 +965,27 @@ window.PlaceValueCore = {
         var tPartIT3 = tWordIT3 + ' decin' + (this.targetTens === 1 ? 'a' : 'e');
         var oPartIT3 = oWordIT3 + ' unità';   // INVARIANT
         sentence = hPartIT3 + ', ' + tPartIT3 + ' e ' + oPartIT3 + ' fanno ' + nWordIT3;
+      } else if (lang === 'nl') {
+        /* NL 3-place: honderdtal/tiental/eenheid INFLECT per activity 1
+           NL lock — count=1 → singular; count=0 or 2+ → plural (zero
+           takes plural, matches activity 1 "nul eenheden"). Suffix
+           patterns: -tal → -tallen (honderdtal/tiental); -eid → -eden
+           (eenheid). Attributive mode for counts (returns accented "één"
+           at count=1). Copula "maken" plural (matches activity 1).
+           Connective: standard Dutch enumeration of 3+ items uses comma
+           between first two and "en" before last (NOT triple-"en").
+           Zero places SPOKEN per 2.NBT.A.1 teaching point. Cardinal
+           target via NL helper renders units-first agglutinated compound
+           with honderd invariant and trema preserved inside
+           (tweehonderd, vijfhonderddrieëntachtig). */
+        var hWordNL3 = this._numberWord(this.targetHundreds, 'nl', 'attributive', false);
+        var tWordNL3 = this._numberWord(this.targetTens,     'nl', 'attributive', false);
+        var oWordNL3 = this._numberWord(this.targetOnes,     'nl', 'attributive', false);
+        var nWordNL3 = this._numberWord(this.targetNumber,   'nl', 'cardinal',    false);
+        var hPartNL3 = hWordNL3 + ' honderdtal' + (this.targetHundreds === 1 ? '' : 'len');
+        var tPartNL3 = tWordNL3 + ' tiental'    + (this.targetTens     === 1 ? '' : 'len');
+        var oPartNL3 = oWordNL3 + ' eenhe'      + (this.targetOnes     === 1 ? 'id' : 'den');
+        sentence = hPartNL3 + ', ' + tPartNL3 + ' en ' + oPartNL3 + ' maken ' + nWordNL3;
       }
       /* Other locales in 3-place mode without a per-locale 3P branch
          leave `sentence` undefined → falls through to the 2-place

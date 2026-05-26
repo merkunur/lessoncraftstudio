@@ -326,15 +326,24 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
         priority: 0.5,
         alternates: { languages: buildLocaleAlternates('/topic') },
       });
-      // /about/ added Phase 6 of the SEO remediation arc — all 11
-      // locales return 200 with reciprocal hreflang.
-      routes.push({
-        url: `${baseUrl}/${loc}/about`,
-        lastModified: STATIC_CONTENT_DATE,
-        changeFrequency: 'monthly',
-        priority: 0.5,
-        alternates: { languages: buildLocaleAlternates('/about') },
-      });
+      // /about/ added Phase 6 of the SEO remediation arc; NSR-flagged
+      // Nordic+Finnic variants are noindexed via robots in the route
+      // handler — exclude them from the sitemap too so we don't request
+      // indexing for pages we've told Google not to index. Hreflang
+      // alternates in the 7 indexable entries still reference all 11
+      // locales so the cluster stays consistent (and links work).
+      // TODO(operator): restore sv/da/no/fi entries once NSR clears —
+      // see UNREVIEWED_ABOUT_LOCALES in frontend/app/[locale]/about/page.tsx.
+      const UNREVIEWED_ABOUT_LOCALES = ['sv', 'da', 'no', 'fi'] as const;
+      if (!(UNREVIEWED_ABOUT_LOCALES as readonly string[]).includes(loc)) {
+        routes.push({
+          url: `${baseUrl}/${loc}/about`,
+          lastModified: STATIC_CONTENT_DATE,
+          changeFrequency: 'monthly',
+          priority: 0.5,
+          alternates: { languages: buildLocaleAlternates('/about') },
+        });
+      }
     }
 
     return routes;

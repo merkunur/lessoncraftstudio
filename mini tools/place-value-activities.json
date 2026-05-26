@@ -66,15 +66,18 @@
     "theme": null,
     "slug": {
       "en": "hundreds-tens-and-ones",
-      "de": "hunderter-zehner-und-einer"
+      "de": "hunderter-zehner-und-einer",
+      "es": "centenas-decenas-y-unidades"
     },
     "page_title": {
       "en": "Hundreds, Tens, and Ones",
-      "de": "Hunderter, Zehner und Einer"
+      "de": "Hunderter, Zehner und Einer",
+      "es": "Centenas, decenas y unidades"
     },
     "page_intro": {
       "en": "Build each three-digit number using hundreds, tens, and ones. Tap to add a hundreds-flat, a ten-rod, or a unit-cube — and watch the number grow.",
-      "de": "Baue jede dreistellige Zahl mit Hundertern, Zehnern und Einern. Tippe, um eine Hunderterplatte, einen Zehnerstab oder einen Einerwürfel hinzuzufügen — und sieh zu, wie die Zahl wächst."
+      "de": "Baue jede dreistellige Zahl mit Hundertern, Zehnern und Einern. Tippe, um eine Hunderterplatte, einen Zehnerstab oder einen Einerwürfel hinzuzufügen — und sieh zu, wie die Zahl wächst.",
+      "es": "Construye cada número de tres dígitos usando centenas, decenas y unidades. Toca para añadir una placa de cien, una barra de diez o un cubo de uno — y mira cómo crece el número."
     },
     "kid_prompt_template": "taskBuild"
   }

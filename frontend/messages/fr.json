@@ -317,7 +317,8 @@
     "contact": "Contact",
     "terms": "Mentions légales",
     "privacy": "Confidentialité",
-    "copyright": "© 2026 LessonCraftStudio."
+    "copyright": "© 2026 LessonCraftStudio.",
+    "about": "À propos"
   },
   "contact": {
     "title": "Nous contacter",
@@ -1628,5 +1629,19 @@
     "tileAlt": "Exemple de fiche : {typeName}",
     "emptyTitle": "Aucune fiche disponible dans cette langue pour le moment.",
     "emptyBody": "Notre catalogue s'étend langue par langue. Reviens bientôt ou parcours une autre langue."
+  },
+  "aboutPage": {
+    "meta": {
+      "title": "À propos | LessonCraftStudio",
+      "description": "À propos de LessonCraftStudio — fiches K-3 gratuites et activités interactives en 11 langues, pour les classes bilingues, plurilingues et internationales."
+    },
+    "pageTitle": "À propos de LessonCraftStudio",
+    "intro": "LessonCraftStudio publie gratuitement des fiches K-3 et des activités interactives en 11 langues. Tout est en libre accès — pas d'inscription.",
+    "whatWeOfferHeading": "Ce que nous proposons",
+    "whatWeOfferBody": "Fiches imprimables en PDF et activités jouables dans le navigateur en mathématiques, phonétique et vocabulaire, disponibles en anglais, allemand, français, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien et finnois.",
+    "audienceHeading": "Pour qui",
+    "audienceBody": "Conçu pour les enseignants et les parents en classes bilingues, plurilingues et internationales, en particulier pour la petite enfance (3 à 7 ans).",
+    "teamHeading": "À propos de notre équipe",
+    "teamBody": "Nous mettons à jour cette section — à très vite."
   }
 }

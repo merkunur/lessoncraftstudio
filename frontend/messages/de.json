@@ -270,7 +270,8 @@
     "contact": "Kontakt",
     "terms": "Nutzungsbedingungen",
     "privacy": "Datenschutz",
-    "copyright": "© 2026 LessonCraftStudio."
+    "copyright": "© 2026 LessonCraftStudio.",
+    "about": "Über uns"
   },
   "worksheetSamples": {
     "title": "Arbeitsblätter-Beispielgalerie",
@@ -1421,5 +1422,19 @@
     "tileAlt": "{typeName} — Arbeitsblatt-Beispiel",
     "emptyTitle": "Noch keine Arbeitsblätter in dieser Sprache verfügbar.",
     "emptyBody": "Unser Katalog wächst Sprache für Sprache. Schau bald wieder vorbei oder durchsuche eine andere Sprache."
+  },
+  "aboutPage": {
+    "meta": {
+      "title": "Über uns | LessonCraftStudio",
+      "description": "Über LessonCraftStudio — kostenlose K-3 Arbeitsblätter und interaktive Aufgaben in 11 Sprachen, für mehrsprachige, bilinguale und internationale Klassen."
+    },
+    "pageTitle": "Über LessonCraftStudio",
+    "intro": "LessonCraftStudio veröffentlicht kostenlose K-3 Arbeitsblätter und interaktive Aufgaben in 11 Sprachen. Alles ist frei zugänglich — keine Anmeldung nötig.",
+    "whatWeOfferHeading": "Was wir anbieten",
+    "whatWeOfferBody": "Druckbare PDFs und im Browser spielbare Aufgaben rund um Mathe, Phonetik und Wortschatz, verfügbar in Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch.",
+    "audienceHeading": "Für wen",
+    "audienceBody": "Entwickelt für Lehrkräfte und Eltern in mehrsprachigen, bilingualen und internationalen Klassen, vor allem für die frühe Kindheit (3 bis 7 Jahre).",
+    "teamHeading": "Über unser Team",
+    "teamBody": "Wir aktualisieren diesen Abschnitt — bald gibt es mehr."
   }
 }

@@ -51,6 +51,12 @@ export function Footer({
         {/* Row 2: utility links, single horizontal row, centered. */}
         <ul className="flex items-center justify-center gap-3 text-sm text-ink-600">
           <li>
+            <Link href={`/${locale}/about`} className="hover:text-ink-900 transition-colors">
+              {t('about')}
+            </Link>
+          </li>
+          <li aria-hidden="true" className="text-ink-300">·</li>
+          <li>
             <Link href={`/${locale}/contact`} className="hover:text-ink-900 transition-colors">
               {t('contact')}
             </Link>

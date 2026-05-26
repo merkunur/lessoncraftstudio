@@ -41,6 +41,12 @@ const CANONICAL_HOST = 'https://www.lessoncraftstudio.com';
 const ARTIFACT_DIR = process.env.ARTIFACT_DIR || path.join(REPO_ROOT, 'docs', 'audit-results');
 
 const SUPPORTED_LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+// Mirrors `frontend/config/locales.ts: NSR_PENDING_LOCALES` — keep in
+// sync. The harness lives outside Next.js TS module resolution; this
+// inline mirror follows the same comment-anchored convention as
+// `HREFLANG_MAP` below. When the live array changes (a locale clears
+// NSR), update this mirror in the same commit so the harness still
+// asserts the live behavior.
 const UNREVIEWED_ABOUT_LOCALES = ['sv', 'da', 'no', 'fi'];
 const INDEXABLE_ABOUT_LOCALES = SUPPORTED_LOCALES.filter(l => !UNREVIEWED_ABOUT_LOCALES.includes(l));
 

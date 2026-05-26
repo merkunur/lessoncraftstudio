@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
-import { SUPPORTED_LOCALES } from '@/config/locales';
+import { SUPPORTED_LOCALES, NSR_PENDING_LOCALES } from '@/config/locales';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import { ORGANIZATION_ID } from '@/lib/seo/organization-schema';
@@ -29,14 +29,11 @@ import { ORGANIZATION_ID } from '@/lib/seo/organization-schema';
 
 const OG_IMAGE_PATH = '/og-homepage.png';
 
-// NSR-flagged About locales — Bucket-A positioning copy was authored
-// from cross-locale precedent rather than a native-speaker review (see
-// CLAUDE.md §17.5.1 + commit accd2139). These locale variants ship as
-// `noindex` until NSR clears; the other 7 are indexable normally.
-// TODO(operator): once NSR clears for a locale, remove it from this
-// list AND restore its entry in `frontend/app/sitemap.ts` shard-3
-// About loop.
-const UNREVIEWED_ABOUT_LOCALES = ['sv', 'da', 'no', 'fi'] as const;
+// NSR-flagged About locales are sourced from the single SoT at
+// `@/config/locales: NSR_PENDING_LOCALES`. That same array is read by
+// `frontend/app/sitemap.ts` shard 3 — one edit there flips both robots
+// and sitemap inclusion. Do NOT redefine the list locally or re-filter
+// it; the SoT comment carries the lift-one-locale instructions.
 
 export const revalidate = 3600;
 
@@ -87,8 +84,8 @@ export async function generateMetadata({ params }: { params: { locale: string } 
     // ship as `noindex` until native-speaker review clears. The other 7
     // are indexable. Hreflang cluster still covers all 11 so the
     // unreviewed variants stay reachable + linkable, just not request-
-    // indexed by Google.
-    robots: UNREVIEWED_ABOUT_LOCALES.includes(locale as typeof UNREVIEWED_ABOUT_LOCALES[number])
+    // indexed by Google. SoT: `@/config/locales: NSR_PENDING_LOCALES`.
+    robots: (NSR_PENDING_LOCALES as readonly string[]).includes(locale)
       ? { index: false, follow: true }
       : { index: true, follow: true },
   };

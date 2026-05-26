@@ -82,7 +82,20 @@ window.MatchPairsCore = {
   setupTask: function (opts) {
     opts = opts || {};
     this.target = (typeof opts.target === 'number') ? opts.target : 0;
-    this.cards = Array.isArray(opts.cards) ? opts.cards.slice() : [];
+    /* Shuffle a copy so the layout doesn't reveal pairs by adjacency.
+       The manifest stores cards in natural order (e.g., [0,6,1,5,2,4]
+       for Make-6); a 2-col CSS Grid would put each pair on the same
+       row — kid never has to do the math, just reads rows. Fisher-
+       Yates shuffle every setupTask invocation produces a fresh
+       layout per task render, forcing the kid to actually find
+       which cards sum to the target. Pedagogically required for
+       K.OA.A.3 decomposition. */
+    var src = Array.isArray(opts.cards) ? opts.cards.slice() : [];
+    for (var i = src.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = src[i]; src[i] = src[j]; src[j] = t;
+    }
+    this.cards = src;
     this.cardsState = this.cards.map(function () { return 'unpaired'; });
     this.pairsFormed = [];
     this.selectedIdx = null;

@@ -16,9 +16,10 @@ The prior round's failure mode was treating "implemented" as "verified" and lett
 | **1A.2** | C.6 apex → www (HTTPS) | **PASS — observed against live prod, 2026-05-26** | `curl https://lessoncraftstudio.com/` | `301` → `https://www.lessoncraftstudio.com/` |
 | **1A.3** | C.6 www self-check | **PASS — observed against live prod, 2026-05-26** | `curl https://www.lessoncraftstudio.com/en` | `200` direct, no redirect |
 | **1A.4** | C.1 home `/en` canonical | **PASS — observed against live prod, 2026-05-26** | prod baseline probe | canonical `/en` (no slash) → 200 direct |
-| **1A.5** | C.1 dynamic-route canonical chain (`/worksheets`, `/topic/<slug>`, `/activities`) | **BASELINE — defect present on current prod, as expected** | prod baseline probe (5 of 5 surveyed) | canonical-with-slash → `308` → no-slash. This is the exact defect this branch fixes. |
-| **1B.1** | C.1 dynamic-route fix confirmation (canonical resolves 200-direct on the 5 baseline-defect rows) | **NOT-YET-OBSERVED** — no DB-backed staging carries this branch | — | Staged command below. Operator runs post-deploy. |
-| **1B.2** | B.2 deck runtime — slash-form `/<locale>/decks/<slug>/` → 200 direct; deck canonical ends in `/` | **NOT-YET-OBSERVED** — same reason | — | Staged command below. |
+| **1A.5** | C.1 dynamic-route canonical chain (`/worksheets`, `/topic/<slug>`, `/activities`) | **BASELINE — defect captured 2026-05-26 (pre-deploy); flipped POST-DEPLOY (see 1B.1)** | prod baseline probe (5 of 5 surveyed) | canonical-with-slash → `308` → no-slash. The exact defect this branch fixed. |
+| **1B.1** | C.1 dynamic-route fix confirmation (canonical resolves 200-direct on the 5 baseline-defect rows) | **PASS — observed against live prod, 2026-05-27** | `node scripts/seo-verify.mjs` after deploy | All 5 rows flipped: canonical now no-slash → 200 direct. See diff in §1B below. |
+| **1B.2** | B.2 deck runtime — slash-form `/<locale>/decks/<slug>/` → 200 direct; deck canonical ends in `/` | **PASS — observed against live prod, 2026-05-27** | C.3 deck-slash in post-deploy harness | `/en/decks/word-scramble-easy-beach/` + `/it/decks/cruciverba-colori-753f/` both 200-direct with `/`-ending self-canonical. |
+| **1B.3** | Full harness sweep against prod (C.1–C.9, 103 checks) | **PASS — observed against live prod, 2026-05-27** | post-deploy harness run, exit 0 | 103 PASS / 0 FAIL / 0 OPERATOR-VERIFY. Every prior dev-mode ovrfy resolved. Artifact: `docs/audit-results/seo-verify-prod-postdeploy-2026-05-27.json`. |
 
 ### 1A artifact
 `docs/audit-results/seo-verify-prod-baseline-2026-05-26.json` — 6 representative URLs probed against current prod with `redirect: 'manual'`. Captures the 5 BASELINE-defect rows verbatim:
@@ -32,30 +33,41 @@ The prior round's failure mode was treating "implemented" as "verified" and lett
 /en/activities    → canonical=/en/activities/            → 308                    (defect)
 ```
 
-### 1B staged post-deploy command (verbatim — paste-and-run)
+### 1B — Post-deploy run (executed 2026-05-27)
 
-```bash
-# Run AFTER seo-remediation merges into pivot/printable-business-toolkit
-# AND `bash /opt/lessoncraftstudio/deploy.sh` completes on Hetzner.
-#
-# Substitute the two deck slugs with any two known-published slugs
-# (en + non-en) from the catalog — see `npx prisma studio` or a quick
-# DB query.
+Command actually run:
 
-DECK_SAMPLE="en:<known-en-slug>,de:<known-de-slug>" \
+```
 BASE=https://www.lessoncraftstudio.com \
-SERVER_MODE="prod post-deploy" \
+SERVER_MODE="prod post-deploy 2026-05-27" \
 ARTIFACT_DIR=docs/audit-results \
 node scripts/seo-verify.mjs
 
-# Expected: exit 0; full harness green.
-# The 5 BASELINE-defect rows in 1A.5 flip to PASS:
-#   /en/worksheets canonical now /en/worksheets (no slash) → 200 direct
-#   /de/worksheets, /en/topic/animals, /de/topic/tiere, /en/activities — all same flip.
-# C.3 deck slash (1B.2) closes: real deck URLs return 200 with /-ending canonical.
+→ exit 0 — All checks passed.
+  103 PASS / 0 FAIL / 0 OPERATOR-VERIFY
+  Artifact: docs/audit-results/seo-verify-prod-postdeploy-2026-05-27.json
 ```
 
-Diff before/after = `seo-verify-prod-baseline-2026-05-26.json` (this branch) vs `seo-verify-prod-<ISO>.json` (post-deploy).
+The 5 baseline-defect rows — before/after diff against `seo-verify-prod-baseline-2026-05-26.json`:
+
+| URL | Before (2026-05-26) | After (2026-05-27) |
+|---|---|---|
+| `/en/worksheets` | canonical=`/en/worksheets/` → **308** → `/en/worksheets` | canonical=`/en/worksheets` → **200 direct** ✓ |
+| `/de/worksheets` | canonical=`/de/worksheets/` → **308** | canonical=`/de/worksheets` → **200 direct** ✓ |
+| `/en/topic/animals` | canonical=`/en/topic/animals/` → **308** | canonical=`/en/topic/animals` → **200 direct** ✓ |
+| `/de/topic/tiere` | canonical=`/de/topic/tiere/` → **308** | canonical=`/de/topic/tiere` → **200 direct** ✓ |
+| `/en/activities` | canonical=`/en/activities/` → **308** | canonical=`/en/activities` → **200 direct** ✓ |
+
+Additional live-prod confirmations from the same post-deploy run:
+
+- C.3 deck-slash both directions: `/en/decks/word-scramble-easy-beach/` + `/it/decks/cruciverba-colori-753f/` → 200 direct with `/`-ending self-canonical.
+- C.4 robots matrix: `/sv/about` + `/fi/about` emit `noindex, follow`; the other 7 `/about` are indexable.
+- C.5 410/200 matrix: seller paths 410, classroom paths 200, `/tools` carve-out intact, `/en/pricing` reshelled 404.
+- C.6 apex→www: `301` confirmed at hosting layer.
+- C.8 structured data: One Organization defined sitewide; BreadcrumbList matches visible breadcrumb hrefs; AboutPage references Organization by `@id`.
+- C.9 i18n regression guard: 10/10 locales PASS — no missing/placeholder regression vs baseline.
+
+**The headline guarantee — `rel=canonical` resolves 200-direct on Next.js routes — is now proven against live prod, not believed.** Hetzner Linux deploy via `bash /opt/lessoncraftstudio/deploy.sh` exited 0. Deploy-side smoke: 72 edge seller-410 + 44 classroom-200 + deck route serves correctly.
 
 ---
 
@@ -206,40 +218,46 @@ External actions Claude Code cannot perform from a dev host:
 
 ## §7 — Release-gate checklist (for the PR description)
 
-When `seo-remediation` is approved for merge into `pivot/printable-business-toolkit`, complete these steps in order:
+Release-gate completed 2026-05-27:
 
-1. **Merge the PR** into `pivot/printable-business-toolkit`. No squash (atomic commits are intentional).
-2. **Deploy** via `plink ... "bash /opt/lessoncraftstudio/deploy.sh"`.
-3. **Run the Phase 1B harness post-deploy** — the verbatim command in §1 above. Expected: exit 0, the 5 BASELINE-defect rows from §1.4 flip to PASS. Paste output here in the PR or as a follow-up comment.
-4. **Confirm apex→www at hosting** still routes correctly post-deploy (it's an Nginx-layer redirect, not a code change — should be untouched, but `curl -sI -o /dev/null -w '%{http_code} -> %{redirect_url}\n' http://lessoncraftstudio.com/` is a 30-second sanity check).
-5. **Keep tracked, separately:**
-   - **NSR lift (one-edit):** when sv/da/no/fi About-page NSR clears for any locale, remove that locale from `NSR_PENDING_LOCALES` in `frontend/config/locales.ts`. The dry-run in §2 proves both consumers flip from that single edit. No second edit anywhere.
-   - **`main` reconciliation:** open a dedicated `[CHORE][REPO]` arc per `docs/MAIN-RECONCILIATION-PLAN.md`. Never bundle with feature work.
-6. **GSC re-index requests** per §6.
+1. ✅ **Merged** `seo-remediation` into `pivot/printable-business-toolkit` via fast-forward (operator-authorized GO; PR skipped per operator preference for path A). New pivot HEAD: `ad8a00ed`. Rollback SHA captured pre-merge: `6e203974`.
+2. ✅ **Pushed** `pivot/printable-business-toolkit` to origin.
+3. ✅ **Deployed** via `plink ... "bash /opt/lessoncraftstudio/deploy.sh"` on Hetzner. Exit 0. Deploy-side smoke: 72 seller-410 + 44 classroom-200 + deck route serves; 2 pre-existing image-asset warnings unrelated to this branch.
+4. ✅ **Phase 1B harness ran post-deploy against live prod** — exit 0; 103 PASS / 0 FAIL / 0 OPERATOR-VERIFY. The 5 baseline-defect rows flipped (see §1B table above).
+5. ✅ **Apex→www confirmed at hosting** by the harness's C.6 check during the same post-deploy run.
+
+**Still tracked, separately:**
+- **NSR lift (one-edit):** when sv/da/no/fi About-page native-speaker review clears for any locale, remove that locale from `NSR_PENDING_LOCALES` in `frontend/config/locales.ts`. The dry-run in §2 proves both consumers flip from that single edit. No second edit anywhere.
+- **`main` reconciliation:** open a dedicated `[CHORE][REPO]` arc per `docs/MAIN-RECONCILIATION-PLAN.md`. Never bundle with feature work.
+- **GSC re-index requests** per §6.
 
 ---
 
 ## §8 — Build gates + branch state
 
+- Phase 0 pre-flight: all six gates green (clean tree, rollback SHA captured, i18n no regression, tsc + lint clean, merge-tree clean, teardown in base).
 - `npx tsc --noEmit` clean for app code (7 pre-existing test-file errors documented in MEMORY.md — unchanged).
 - `npm run lint` clean.
-- C.9 i18n regression guard ran as part of the prior verification arc (commit `2168a3ee`); no edits in this close-out arc touched message files, so no regression possible.
-- Operator's pre-existing dirty image-library tree untouched through all four commits of this close-out arc.
+- C.9 i18n regression guard: 10/10 locales PASS against committed baseline both pre-deploy (gate 0.3) and post-deploy (harness §1B).
+- Operator's pre-existing dirty image-library tree untouched throughout — merged unmodified into `pivot/printable-business-toolkit` for the operator's separate WIP to continue.
 
-Branch `seo-remediation` final state (11 commits on top of `pivot/printable-business-toolkit`):
+**Final shipped state:**
 
 ```
-<this commit>  [CHORE][SEO] Close-out — Phase 1A prod baseline + Phase 2 dry-run artifacts + verification report
-8f3d5da7        [DOCS] main reconciliation plan (plan-only; no merge)
-f4e6a78b        [CHORE][SEO] Refresh admin SEO/marketing mocks to live classroom URLs
-bb90ea8f        [REFACTOR][SEO] Single source of truth for NSR-pending /about locales
-2168a3ee        [CHORE][SEO] Close-out — B.1 noindex About + harness + green run + verification report
-ff52dd66        [CHORE][SEO] Strip trailing slashes from sitemap entries; add /about to shard 3
-accd2139        [FEATURE][ROUTE] Add /[locale]/about/ in 11 locales [NSR-FLAG][SV][DA][NO][FI]
-64458cab        [CHORE][AUDIT] Phase 5 SEO content quality — scope gate clean + 11-locale i18n integrity sweep
-9cd2d35b        [FEATURE][SCHEMA] Centralize Organization JSON-LD; add BreadcrumbList to topic + intersection
-cd415688        [FIX][SEO] Strip trailing slashes + add OG/hreflang via centralized canonicalUrl()
-679b568d        [INFRA][SEO] Add canonicalUrl helper + Organization JSON-LD module
+pivot/printable-business-toolkit
+@ ad8a00ed [CHORE][SEO] Close-out — Phase 1A prod baseline + Phase 2 dry-run + final report
+   8f3d5da7  [DOCS] main reconciliation plan (plan-only; no merge)
+   f4e6a78b  [CHORE][SEO] Refresh admin SEO/marketing mocks to live classroom URLs
+   bb90ea8f  [REFACTOR][SEO] Single source of truth for NSR-pending /about locales
+   2168a3ee  [CHORE][SEO] Close-out — B.1 noindex About + harness + green run + verification report
+   b4e18958  [CHORE][SEO] Phase 8 — SEO-REMEDIATION-REPORT.md + spot-check script
+   ff52dd66  [CHORE][SEO] Strip trailing slashes from sitemap entries; add /about to shard 3
+   accd2139  [FEATURE][ROUTE] Add /[locale]/about/ in 11 locales [NSR-FLAG][SV][DA][NO][FI]
+   64458cab  [CHORE][AUDIT] Phase 5 SEO content quality — scope gate clean + 11-locale i18n integrity sweep
+   9cd2d35b  [FEATURE][SCHEMA] Centralize Organization JSON-LD; add BreadcrumbList to topic + intersection
+   cd415688  [FIX][SEO] Strip trailing slashes + add OG/hreflang via centralized canonicalUrl()
+   679b568d  [INFRA][SEO] Add canonicalUrl helper + Organization JSON-LD module
+   6e203974  ← ROLLBACK_SHA (pivot HEAD before merge; what we'd reset to on emergency rollback)
 ```
 
-PR base: `pivot/printable-business-toolkit`. Merge target confirmed; teardown lives there; premise holds.
+Deployed live 2026-05-27 via `bash /opt/lessoncraftstudio/deploy.sh` on Hetzner Linux. **The headline canonical-chain guarantee is now PASS-observed against live prod.**

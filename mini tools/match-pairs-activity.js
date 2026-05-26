@@ -23,10 +23,11 @@
    locale fan-outs add entries under each key per the §A.13.48 plan-mode-
    per-locale discipline. */
 var ACTIVITY_STRINGS_MP = {
-  taskMakeN:       { en: 'Make {n}',                                                de: 'Bilde {n}' },
-  hintFormPairs:   { en: 'Tap a number, then tap its partner',                      de: 'Tippe auf eine Zahl, dann auf ihren Partner' },
+  taskMakeN:       { en: 'Make {n}',                                                de: 'Bilde {n}',                                                                                            es: 'Forma {n}' },
+  hintFormPairs:   { en: 'Tap a number, then tap its partner',                      de: 'Tippe auf eine Zahl, dann auf ihren Partner',                                                          es: 'Toca un número, luego toca su pareja' },
   hintTryDifferent:{ en: 'Some pairs don\'t add up — tap a pair to break it and try again',
-                     de: 'Manche Paare ergeben nicht das Ziel — tippe ein Paar an, um es zu trennen, und versuch\'s nochmal' }
+                     de: 'Manche Paare ergeben nicht das Ziel — tippe ein Paar an, um es zu trennen, und versuch\'s nochmal',
+                     es: 'Algunas parejas no forman el objetivo — toca una pareja para deshacerla e inténtalo de nuevo' }
 };
 
 /* Fallback static task set when no ?activity= is given. Same shape as
@@ -81,11 +82,13 @@ window.MatchPairsActivity = Object.assign({}, MatchPairsCore, {
   strings: Object.assign({}, MatchPairsCore.strings, ACTIVITY_STRINGS_MP, {
     title: {
       en: 'Make the Number',
-      de: 'Bilde die Zahl'
+      de: 'Bilde die Zahl',
+      es: 'Forma el número'
     },
     instruction: {
       en: 'Find pairs of numbers that add up to the target. Tap Check when you\'re ready.',
-      de: 'Finde Zahlenpaare, die zusammen das Ziel ergeben. Tippe auf Prüfen, wenn du fertig bist.'
+      de: 'Finde Zahlenpaare, die zusammen das Ziel ergeben. Tippe auf Prüfen, wenn du fertig bist.',
+      es: 'Encuentra parejas de números que sumen el objetivo. Toca Comprobar cuando estés listo.'
     }
   }),
 

@@ -23,18 +23,18 @@
    ===================================================================== */
 
 /* Localized chrome strings for activity tasks. EN + DE + ES + IT + FR
-   + PT + NL + SV + DA + NO shipped. PT is Brazilian Portuguese ('pt'
-   canonical per CLAUDE.md §6; NEVER pt-BR). NO is Norwegian Bokmål
-   (matches E9 syllable-builder locking). Additional locales fan out
-   one at a time per the §A.13.48 plan-mode-per-locale + 3-agent native
-   ensemble discipline. Warm K-3 register: "du" form for DE/SV/DA/NO;
-   "tú" form for ES; "tu" form for IT/FR; "você" form for PT (BR-
-   informal); "je" form for NL — mirrors choice-board / ten-frame
-   precedent. */
+   + PT + NL + SV + DA + NO + FI shipped — FULL 11-locale E12 rollout
+   complete. PT is Brazilian Portuguese ('pt' canonical per CLAUDE.md §6;
+   NEVER pt-BR). NO is Norwegian Bokmål (matches E9 syllable-builder
+   locking). FI is Finnish (Uralic; partitive case after numbers).
+   Warm K-3 register: "du" form for DE/SV/DA/NO; "tú" form for ES;
+   "tu" form for IT/FR; "você" form for PT (BR-informal); "je" form
+   for NL; "sinä"-implicit (Finnish drops 2sg pronoun in imperative)
+   for FI — all mirror choice-board / ten-frame precedent. */
 var ACTIVITY_STRINGS = {
-  taskBuild:      { en: 'Build {n}',                       de: 'Baue {n}',                                            es: 'Construye {n}',                                       it: 'Costruisci {n}',                                       fr: 'Construis {n}',                                       pt: 'Construa {n}',                                        nl: 'Bouw {n}',                                            sv: 'Bygg {n}',                                            da: 'Byg {n}',                                             no: 'Bygg {n}' },
-  hintBuildMore:  { en: 'Keep going — you need more',      de: 'Mach weiter — du brauchst mehr',                      es: 'Sigue — necesitas más',                               it: 'Continua — ti servono di più',                        fr: 'Continue — il en faut plus',                          pt: 'Continue — precisa de mais',                          nl: 'Ga door — je hebt er meer nodig',                     sv: 'Fortsätt — du behöver fler',                          da: 'Fortsæt — du skal bruge flere',                       no: 'Fortsett — du trenger flere' },
-  hintTooMany:    { en: 'Too many — take some away',       de: 'Zu viele — nimm einige weg',                          es: 'Demasiados — quita algunos',                          it: 'Troppi — togline qualcuno',                           fr: 'Trop — enlève-en',                                    pt: 'Demais — remova alguns',                              nl: 'Te veel — haal er een paar weg',                      sv: 'För många — ta bort några',                           da: 'For mange — fjern nogle',                             no: 'For mange — fjern noen' },
+  taskBuild:      { en: 'Build {n}',                       de: 'Baue {n}',                                            es: 'Construye {n}',                                       it: 'Costruisci {n}',                                       fr: 'Construis {n}',                                       pt: 'Construa {n}',                                        nl: 'Bouw {n}',                                            sv: 'Bygg {n}',                                            da: 'Byg {n}',                                             no: 'Bygg {n}',                                            fi: 'Rakenna {n}' },
+  hintBuildMore:  { en: 'Keep going — you need more',      de: 'Mach weiter — du brauchst mehr',                      es: 'Sigue — necesitas más',                               it: 'Continua — ti servono di più',                        fr: 'Continue — il en faut plus',                          pt: 'Continue — precisa de mais',                          nl: 'Ga door — je hebt er meer nodig',                     sv: 'Fortsätt — du behöver fler',                          da: 'Fortsæt — du skal bruge flere',                       no: 'Fortsett — du trenger flere',                         fi: 'Jatka — tarvitset lisää' },
+  hintTooMany:    { en: 'Too many — take some away',       de: 'Zu viele — nimm einige weg',                          es: 'Demasiados — quita algunos',                          it: 'Troppi — togline qualcuno',                           fr: 'Trop — enlève-en',                                    pt: 'Demais — remova alguns',                              nl: 'Te veel — haal er een paar weg',                      sv: 'För många — ta bort några',                           da: 'For mange — fjern nogle',                             no: 'For mange — fjern noen',                              fi: 'Liikaa — poista joitakin' },
   /* hintBundleTen is defensive (unreachable with maxOnes=9), but kept
      so a future grade-2 extension that lifts the cap can lean on it. */
   hintBundleTen:  { en: 'Ten ones make one ten — bundle them',
@@ -46,7 +46,8 @@ var ACTIVITY_STRINGS = {
                     nl: 'Tien eenheden maken één tiental — groepeer ze',
                     sv: 'Tio ental blir ett tiotal — gruppera dem',
                     da: 'Ti enere bliver til en tier — grupper dem',
-                    no: 'Ti enere blir én tier — grupper dem' }
+                    no: 'Ti enere blir én tier — grupper dem',
+                    fi: 'Kymmenen ykköstä on yksi kymmen — niputa ne' }
 };
 
 /* Fallback static task set when no ?activity= is given. Mirrors the
@@ -105,7 +106,8 @@ window.PlaceValueActivity = Object.assign({}, PlaceValueCore, {
       nl: 'Plaatswaarde-oefening',
       sv: 'Platsvärde-övning',
       da: 'Pladsværdi-øvelse',
-      no: 'Plassverdi-øvelse'
+      no: 'Plassverdi-øvelse',
+      fi: 'Paikka-arvotehtävä'
     },
     instruction: {
       en: 'Follow the prompt. Tap Check when you’re ready.',
@@ -117,7 +119,8 @@ window.PlaceValueActivity = Object.assign({}, PlaceValueCore, {
       nl: 'Volg de aanwijzing. Tik op Controleer wanneer je klaar bent.',
       sv: 'Följ instruktionen. Tryck på Kontrollera när du är klar.',
       da: 'Følg anvisningen. Tryk på Tjek, når du er klar.',
-      no: 'Følg instruksjonen. Trykk på Sjekk når du er klar.'
+      no: 'Følg instruksjonen. Trykk på Sjekk når du er klar.',
+      fi: 'Seuraa ohjetta. Napauta Tarkista, kun olet valmis.'
     }
   }),
 

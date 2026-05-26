@@ -700,7 +700,8 @@
     "contact": "Contacto",
     "terms": "Términos",
     "privacy": "Privacidad",
-    "copyright": "© 2026 LessonCraftStudio."
+    "copyright": "© 2026 LessonCraftStudio.",
+    "about": "Acerca de"
   },
   "about": {
     "metaTitle": "Acerca de — Hojas de trabajo K-3 en 11 idiomas",
@@ -1618,5 +1619,19 @@
     "tileAlt": "Ejemplo de ficha: {typeName}",
     "emptyTitle": "Todavía no hay fichas disponibles en este idioma.",
     "emptyBody": "Nuestro catálogo crece idioma por idioma. Vuelve pronto o explora otro idioma."
+  },
+  "aboutPage": {
+    "meta": {
+      "title": "Acerca de | LessonCraftStudio",
+      "description": "Acerca de LessonCraftStudio — hojas de trabajo K-3 gratis y actividades interactivas en 11 idiomas, para aulas bilingües, plurilingües e internacionales."
+    },
+    "pageTitle": "Acerca de LessonCraftStudio",
+    "intro": "LessonCraftStudio publica hojas de trabajo K-3 gratis y actividades interactivas en 11 idiomas. Todo es de acceso libre — sin registro.",
+    "whatWeOfferHeading": "Lo que ofrecemos",
+    "whatWeOfferBody": "Hojas imprimibles en PDF y actividades jugables en el navegador de matemáticas, fonética y vocabulario, disponibles en inglés, alemán, francés, español, portugués, italiano, neerlandés, sueco, danés, noruego y finés.",
+    "audienceHeading": "Para quién",
+    "audienceBody": "Pensado para docentes y familias en aulas bilingües, plurilingües e internacionales, especialmente en la primera infancia (3 a 7 años).",
+    "teamHeading": "Sobre nuestro equipo",
+    "teamBody": "Estamos actualizando esta sección — vuelve pronto."
   }
 }

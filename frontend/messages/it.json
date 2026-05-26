@@ -317,7 +317,8 @@
     "contact": "Contatti",
     "terms": "Termini",
     "privacy": "Privacy",
-    "copyright": "© 2026 LessonCraftStudio."
+    "copyright": "© 2026 LessonCraftStudio.",
+    "about": "Chi siamo"
   },
   "common": {
     "loading": "Caricamento...",
@@ -1621,5 +1622,19 @@
     "tileAlt": "Esempio di scheda: {typeName}",
     "emptyTitle": "Nessuna scheda disponibile in questa lingua per ora.",
     "emptyBody": "Il nostro catalogo cresce lingua per lingua. Torna presto o esplora un'altra lingua."
+  },
+  "aboutPage": {
+    "meta": {
+      "title": "Chi siamo | LessonCraftStudio",
+      "description": "Chi siamo — LessonCraftStudio: schede K-3 gratuite e attività interattive in 11 lingue, per classi bilingui, plurilingui e internazionali."
+    },
+    "pageTitle": "Chi siamo",
+    "intro": "LessonCraftStudio pubblica schede K-3 gratuite e attività interattive in 11 lingue. Tutto è ad accesso libero — nessuna registrazione.",
+    "whatWeOfferHeading": "Cosa offriamo",
+    "whatWeOfferBody": "Schede stampabili in PDF e attività giocabili nel browser per matematica, fonetica e vocabolario, disponibili in inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese e finlandese.",
+    "audienceHeading": "Per chi",
+    "audienceBody": "Pensato per insegnanti e famiglie in classi bilingui, plurilingui e internazionali, soprattutto nella prima infanzia (3-7 anni).",
+    "teamHeading": "Il nostro team",
+    "teamBody": "Stiamo aggiornando questa sezione — torna presto."
   }
 }

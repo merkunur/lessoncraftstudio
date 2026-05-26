@@ -317,7 +317,8 @@
     "contact": "Kontakt",
     "terms": "Vilkår",
     "privacy": "Personvern",
-    "copyright": "© 2026 LessonCraftStudio."
+    "copyright": "© 2026 LessonCraftStudio.",
+    "about": "Om oss"
   },
   "common": {
     "loading": "Laster...",
@@ -1612,5 +1613,19 @@
     "tileAlt": "Eksempel på oppgave: {typeName}",
     "emptyTitle": "Ingen oppgaver tilgjengelig på dette språket ennå.",
     "emptyBody": "Katalogen vår vokser språk for språk. Kom tilbake snart eller bla i et annet språk."
+  },
+  "aboutPage": {
+    "meta": {
+      "title": "Om oss | LessonCraftStudio",
+      "description": "Om LessonCraftStudio — gratis K-3 arbeidsark og interaktive aktiviteter på 11 språk, for tospråklige, flerspråklige og internasjonale klasser."
+    },
+    "pageTitle": "Om LessonCraftStudio",
+    "intro": "LessonCraftStudio publiserer gratis K-3 arbeidsark og interaktive aktiviteter på 11 språk. Alt er fritt tilgjengelig — ingen registrering.",
+    "whatWeOfferHeading": "Hva vi tilbyr",
+    "whatWeOfferBody": "Utskrivbare PDF-er og aktiviteter som spilles i nettleseren, for matematikk, fonetikk og ordforråd, tilgjengelig på engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, dansk, norsk og finsk.",
+    "audienceHeading": "For hvem",
+    "audienceBody": "Laget for lærere og foreldre i tospråklige, flerspråklige og internasjonale klasser, spesielt i tidlig barndom (3 til 7 år).",
+    "teamHeading": "Om teamet vårt",
+    "teamBody": "Vi oppdaterer denne delen — kom tilbake snart."
   }
 }

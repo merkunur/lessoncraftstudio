@@ -687,7 +687,8 @@
     "contact": "Contact",
     "terms": "Voorwaarden",
     "privacy": "Privacy",
-    "copyright": "© 2026 LessonCraftStudio."
+    "copyright": "© 2026 LessonCraftStudio.",
+    "about": "Over ons"
   },
   "about": {
     "metaTitle": "Over — K-3 werkbladen in 11 talen",
@@ -1608,5 +1609,19 @@
     "tileAlt": "Voorbeeld werkblad: {typeName}",
     "emptyTitle": "Nog geen werkbladen beschikbaar in deze taal.",
     "emptyBody": "Onze catalogus groeit taal per taal. Kom snel terug of blader door een andere taal."
+  },
+  "aboutPage": {
+    "meta": {
+      "title": "Over ons | LessonCraftStudio",
+      "description": "Over LessonCraftStudio — gratis K-3 werkbladen en interactieve activiteiten in 11 talen, voor tweetalige, meertalige en internationale klassen."
+    },
+    "pageTitle": "Over LessonCraftStudio",
+    "intro": "LessonCraftStudio publiceert gratis K-3 werkbladen en interactieve activiteiten in 11 talen. Alles is vrij toegankelijk — geen aanmelding nodig.",
+    "whatWeOfferHeading": "Wat we bieden",
+    "whatWeOfferBody": "Afdrukbare PDF's en activiteiten die je in de browser speelt voor rekenen, fonetiek en woordenschat, beschikbaar in Engels, Duits, Frans, Spaans, Portugees, Italiaans, Nederlands, Zweeds, Deens, Noors en Fins.",
+    "audienceHeading": "Voor wie",
+    "audienceBody": "Gemaakt voor leerkrachten en ouders in tweetalige, meertalige en internationale klassen, vooral in de vroege jeugd (3 tot 7 jaar).",
+    "teamHeading": "Over ons team",
+    "teamBody": "We werken deze sectie bij — kom snel terug."
   }
 }

@@ -317,7 +317,8 @@
     "contact": "Yhteystiedot",
     "terms": "Käyttöehdot",
     "privacy": "Tietosuoja",
-    "copyright": "© 2026 LessonCraftStudio."
+    "copyright": "© 2026 LessonCraftStudio.",
+    "about": "Tietoa"
   },
   "common": {
     "loading": "Ladataan...",
@@ -1597,5 +1598,19 @@
     "tileAlt": "Esimerkkitehtävä: {typeName}",
     "emptyTitle": "Tällä kielellä ei ole vielä saatavilla tehtäviä.",
     "emptyBody": "Katalogimme kasvaa kieli kerrallaan. Käy uudelleen pian tai selaa toista kieltä."
+  },
+  "aboutPage": {
+    "meta": {
+      "title": "Tietoa meistä | LessonCraftStudio",
+      "description": "Tietoa LessonCraftStudiosta — ilmaisia K-3 tehtäväarkkeja ja interaktiivisia tehtäviä 11 kielellä, kaksikielisille, monikielisille ja kansainvälisille luokille."
+    },
+    "pageTitle": "Tietoa LessonCraftStudiosta",
+    "intro": "LessonCraftStudio julkaisee ilmaisia K-3 tehtäväarkkeja ja interaktiivisia tehtäviä 11 kielellä. Kaikki on vapaasti käytettävissä — ei rekisteröintiä.",
+    "whatWeOfferHeading": "Mitä tarjoamme",
+    "whatWeOfferBody": "Tulostettavia PDF-tiedostoja ja selaimessa pelattavia tehtäviä matematiikkaan, fonetiikkaan ja sanavarastoon, saatavilla englanniksi, saksaksi, ranskaksi, espanjaksi, portugaliksi, italiaksi, hollanniksi, ruotsiksi, tanskaksi, norjaksi ja suomeksi.",
+    "audienceHeading": "Kenelle",
+    "audienceBody": "Tarkoitettu opettajille ja vanhemmille kaksikielisillä, monikielisillä ja kansainvälisillä luokilla, erityisesti varhaislapsuudessa (3-7-vuotiaat).",
+    "teamHeading": "Tietoa tiimistämme",
+    "teamBody": "Päivitämme tätä osiota — palaa pian."
   }
 }

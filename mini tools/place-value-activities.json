@@ -20,7 +20,8 @@
       "pt": "dezenas-e-unidades",
       "nl": "tientallen-en-eenheden",
       "sv": "tiotal-och-ental",
-      "da": "tiere-og-enere"
+      "da": "tiere-og-enere",
+      "no": "tiere-og-enere"
     },
     "page_title": {
       "en": "Tens and Ones",
@@ -31,7 +32,8 @@
       "pt": "Dezenas e unidades",
       "nl": "Tientallen en eenheden",
       "sv": "Tiotal och ental",
-      "da": "Tiere og enere"
+      "da": "Tiere og enere",
+      "no": "Tiere og enere"
     },
     "page_intro": {
       "en": "Build each number using tens and ones. Tap to add a ten-rod or a unit-cube — and watch the number grow.",
@@ -42,7 +44,8 @@
       "pt": "Construa cada número usando dezenas e unidades. Toque para adicionar uma barra de dez ou um cubinho — e veja o número crescer.",
       "nl": "Bouw elk getal met tientallen en eenheden. Tik om een tienstaaf of een blokje toe te voegen — en kijk hoe het getal groeit.",
       "sv": "Bygg varje tal med tiotal och ental. Tryck för att lägga till en tiostav eller en enhetskub — och se talet växa.",
-      "da": "Byg hvert tal med tiere og enere. Tryk for at tilføje en tier-stang eller en ener-terning — og se tallet vokse."
+      "da": "Byg hvert tal med tiere og enere. Tryk for at tilføje en tier-stang eller en ener-terning — og se tallet vokse.",
+      "no": "Bygg hvert tall med tiere og enere. Trykk for å legge til en tierstav eller en enerterning — og se tallet vokse."
     },
     "kid_prompt_template": "taskBuild"
   }

@@ -6,37 +6,40 @@ export const dynamic = 'force-dynamic';
 // GET /api/admin/marketing/social - Get social media posts
 export async function GET(request: NextRequest) {
   try {
-    // Mock social media posts for development
+    // Synthetic mock data for the admin Marketing dashboard during dev.
+    // URLs reference live classroom surfaces (post-teardown — `/en/apps/*`
+    // is 410-Gone per middleware REMOVED_PREFIXES). Numbers and content
+    // strings are obviously synthetic; no real engagement metrics here.
     const posts: SocialMediaPost[] = [
       {
         id: 'post_1',
         platform: 'facebook',
-        content: '🎒 Back to school season means peak demand! Create printable worksheets to sell on Etsy with our easy-to-use generators. Try free today! #PrintableBusiness #EtsySellers #BackToSchool',
+        content: 'Free K-3 worksheets and interactive activities in 11 languages — built for dual-language and international-school classrooms. Browse the catalog.',
         images: ['https://example.com/image1.jpg'],
-        link: 'https://www.lessoncraftstudio.com/en/apps',
-        hashtags: ['#PrintableBusiness', '#EtsySellers', '#BackToSchool'],
+        link: 'https://www.lessoncraftstudio.com/en/worksheets',
+        hashtags: ['#K3', '#Multilingual', '#BackToSchool'],
         scheduledAt: new Date(Date.now() + 2 * 60 * 60 * 1000).toISOString(),
         status: 'scheduled'
       },
       {
         id: 'post_2',
         platform: 'twitter',
-        content: 'New feature alert! 🚀 Create word search puzzles in 30+ languages. Perfect for language teachers worldwide! #EdTech #LanguageLearning',
-        link: 'https://www.lessoncraftstudio.com/en/apps/word-search',
-        hashtags: ['#EdTech', '#LanguageLearning'],
+        content: 'Word search worksheets in 11 languages — handy for vocabulary review in bilingual classrooms. #K3 #LanguageLearning',
+        link: 'https://www.lessoncraftstudio.com/en/topic/wordsearch',
+        hashtags: ['#K3', '#LanguageLearning'],
         scheduledAt: new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString(),
         status: 'scheduled'
       },
       {
         id: 'post_3',
         platform: 'instagram',
-        content: 'Make math fun with our colorful puzzle generators! 🔢✨ Swipe to see examples from happy teachers.',
+        content: 'Browser-playable K-3 math activities aligned to Common Core. Each one is a short, single-standard task set.',
         images: [
           'https://example.com/math1.jpg',
           'https://example.com/math2.jpg',
           'https://example.com/math3.jpg'
         ],
-        hashtags: ['#MathIsFun', '#TeacherResources', '#ElementaryMath'],
+        hashtags: ['#K3Math', '#CommonCore', '#ElementaryMath'],
         publishedAt: new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString(),
         status: 'published',
         engagement: {
@@ -49,7 +52,7 @@ export async function GET(request: NextRequest) {
       {
         id: 'post_4',
         platform: 'linkedin',
-        content: 'Empowering educators with innovative worksheet generation tools. Our platform helps teachers save time while creating engaging educational content. Learn how schools are transforming their teaching methods.',
+        content: 'About LessonCraftStudio — free K-3 worksheets and activities in 11 languages, made for dual-language, bilingual, and international-school classrooms.',
         link: 'https://www.lessoncraftstudio.com/en/about',
         scheduledAt: new Date(Date.now() + 3 * 24 * 60 * 60 * 1000).toISOString(),
         status: 'scheduled'
@@ -57,10 +60,10 @@ export async function GET(request: NextRequest) {
       {
         id: 'post_5',
         platform: 'pinterest',
-        content: 'Free printable worksheets for preschool and kindergarten! Pin this collection for endless learning activities.',
+        content: 'Free K-3 worksheets for preschool and kindergarten classrooms. Pin this collection for everyday classroom activities.',
         images: ['https://example.com/pinterest-collection.jpg'],
-        link: 'https://www.lessoncraftstudio.com/en/apps',
-        hashtags: ['#PrintableWorksheets', '#PreschoolActivities', '#KindergartenLearning'],
+        link: 'https://www.lessoncraftstudio.com/en/worksheets',
+        hashtags: ['#K3Worksheets', '#PreschoolActivities', '#KindergartenLearning'],
         publishedAt: new Date(Date.now() - 48 * 60 * 60 * 1000).toISOString(),
         status: 'published',
         engagement: {
@@ -73,9 +76,9 @@ export async function GET(request: NextRequest) {
       {
         id: 'post_6',
         platform: 'facebook',
-        content: 'Teacher tip of the week: Use our crossword generator to create vocabulary reviews tailored to your lesson plans! 📚',
+        content: 'Crossword worksheets are a handy classroom warm-up for vocabulary review. Browse the topic page for samples in 11 languages.',
         images: ['https://example.com/crossword-tip.jpg'],
-        link: 'https://www.lessoncraftstudio.com/en/apps/crossword',
+        link: 'https://www.lessoncraftstudio.com/en/topic/crossword',
         status: 'draft'
       }
     ];

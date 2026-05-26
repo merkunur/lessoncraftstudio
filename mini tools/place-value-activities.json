@@ -73,7 +73,8 @@
       "pt": "centenas-dezenas-e-unidades",
       "nl": "honderdtallen-tientallen-en-eenheden",
       "sv": "hundratal-tiotal-och-ental",
-      "da": "hundreder-tiere-og-enere"
+      "da": "hundreder-tiere-og-enere",
+      "no": "hundrere-tiere-og-enere"
     },
     "page_title": {
       "en": "Hundreds, Tens, and Ones",
@@ -84,7 +85,8 @@
       "pt": "Centenas, dezenas e unidades",
       "nl": "Honderdtallen, tientallen en eenheden",
       "sv": "Hundratal, tiotal och ental",
-      "da": "Hundreder, tiere og enere"
+      "da": "Hundreder, tiere og enere",
+      "no": "Hundrere, tiere og enere"
     },
     "page_intro": {
       "en": "Build each three-digit number using hundreds, tens, and ones. Tap to add a hundreds-flat, a ten-rod, or a unit-cube — and watch the number grow.",
@@ -95,7 +97,8 @@
       "pt": "Construa cada número de três dígitos usando centenas, dezenas e unidades. Toque para adicionar uma placa de cem, uma barra de dez ou um cubinho — e veja o número crescer.",
       "nl": "Bouw elk getal van drie cijfers met honderdtallen, tientallen en eenheden. Tik om een honderdplaat, een tienstaaf of een blokje toe te voegen — en kijk hoe het getal groeit.",
       "sv": "Bygg varje tresiffrigt tal med hundratal, tiotal och ental. Tryck för att lägga till en hundraplatta, en tiostav eller en enhetskub — och se talet växa.",
-      "da": "Byg hvert tresifret tal med hundreder, tiere og enere. Tryk for at tilføje en hundrede-plade, en tier-stang eller en ener-terning — og se tallet vokse."
+      "da": "Byg hvert tresifret tal med hundreder, tiere og enere. Tryk for at tilføje en hundrede-plade, en tier-stang eller en ener-terning — og se tallet vokse.",
+      "no": "Bygg hvert tresifret tall med hundrere, tiere og enere. Trykk for å legge til en hundrerplate, en tierstav eller en enerterning — og se tallet vokse."
     },
     "kid_prompt_template": "taskBuild"
   }

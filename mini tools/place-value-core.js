@@ -85,20 +85,18 @@ window.PlaceValueCore = {
     srUnitCube:   { en: 'unit-cube',de: 'Einerwürfel',         es: 'cubo de uno',             it: 'cubo da uno',                                         fr: 'cube unité',                                          pt: 'cubinho',                                             nl: 'blokje',                                              sv: 'enhetskub',                                           da: 'ener-terning',                                        no: 'enerterning',                                         fi: 'ykköskuutio' },
     srRemove:     { en: 'remove',   de: 'entferne',            es: 'quitar',                  it: 'rimuovi',                                             fr: 'retire',                                              pt: 'remova',                                              nl: 'verwijder',                                           sv: 'ta bort',                                             da: 'fjern',                                               no: 'fjern',                                               fi: 'poista' },
 
-    /* ---- 3-place activity (2.NBT.A.1) strings — EN + DE + ES + IT shipped.
-       These keys are read ONLY when this.places contains 'hundreds'.
-       2-place activity ignores them entirely (byte-identical behavior).
-       IT follows activity 1's convention: mixed inflection (centinaio
-       masc sg → centinaia fem pl irregular -aio/-aia; decina fem sg →
-       decine fem pl; unità invariant). Masculine `un` article in
-       add-button for centinaio (matches IT noun gender), feminine `una`
-       for decina/unità per activity 1 precedent. srHundredsFlat =
-       "piastra da cento" mirrors activity 1's "barra di dieci"/
-       "cubo da uno" preposition-based compound. */
-    hundredsLabel:   { en: 'Hundreds',     de: 'Hunderter',           es: 'Centenas',         it: 'Centinaia' },
-    addHundredLabel: { en: 'Add hundred',  de: 'Hunderter hinzufügen',es: 'Añadir una centena',it: 'Aggiungi un centinaio' },
-    wordHundred:     { en: 'hundred',      de: 'Hunderter',           es: 'centena',          it: 'centinaio' },     // tap-utterance, singular
-    srHundredsFlat:  { en: 'hundreds-flat',de: 'Hunderterplatte',     es: 'placa de cien',    it: 'piastra da cento' } // sr-only aria-label fragment
+    /* ---- 3-place activity (2.NBT.A.1) strings — EN + DE + ES + IT + FR
+       shipped. These keys are read ONLY when this.places contains
+       'hundreds'. 2-place activity ignores them entirely. FR follows
+       activity 1's convention: centaine/dizaine/unité inflect by count
+       (singular at 0 or 1; plural -s at 2+); feminine `une` article in
+       add-button (matches FR feminine noun gender). srHundredsFlat =
+       "plaque de cent" mirrors activity 1's "barre de dix"/"cube unité"
+       preposition-based compound. */
+    hundredsLabel:   { en: 'Hundreds',     de: 'Hunderter',           es: 'Centenas',         it: 'Centinaia',         fr: 'Centaines' },
+    addHundredLabel: { en: 'Add hundred',  de: 'Hunderter hinzufügen',es: 'Añadir una centena',it: 'Aggiungi un centinaio',fr: 'Ajoute une centaine' },
+    wordHundred:     { en: 'hundred',      de: 'Hunderter',           es: 'centena',          it: 'centinaio',         fr: 'centaine' },    // tap-utterance, singular
+    srHundredsFlat:  { en: 'hundreds-flat',de: 'Hunderterplatte',     es: 'placa de cien',    it: 'piastra da cento',  fr: 'plaque de cent' } // sr-only aria-label fragment
   },
 
   defaults: {},
@@ -446,20 +444,25 @@ window.PlaceValueCore = {
       return hWord + tail;
     },
     fr: function (n, mode) {
-      /* Standard France French. Handles:
-         - 0-19 direct lookup (irregulars: 11 onze, 12 douze, …, 16 seize;
-           17-19 are compound dix-sept / dix-huit / dix-neuf).
-         - 20-69 regular pattern: <tens-word> + connector + <ones-word>.
-             ones === 1 → " et un" (NO hyphen, with "et"): 21 vingt et un, …
-             ones === 2-9 → "-" + ones-word: 22 vingt-deux, 47 quarante-sept.
-         - 70-79 vigesimal: "soixante" + (10..19). 70=soixante-dix; 71 with
-           "et" → "soixante et onze"; 72 soixante-douze; 79 soixante-dix-neuf.
-         - 80: "quatre-vingts" with -s ONLY at exact 80.
-         - 81-89: "quatre-vingt-" + ones-word (NO -s, NO "et"). 81=quatre-
-           vingt-un, 89=quatre-vingt-neuf.
-         - 90-99: "quatre-vingt-" + (10..19) (NO "et" even at 91). 90=quatre-
-           vingt-dix, 91=quatre-vingt-onze, 99=quatre-vingt-dix-neuf.
-         - attributive-fem: 0→"zéro", 1→"une" (feminine of "un"); 2-9 = cardinal. */
+      /* French 0-999. 0-99 BYTE-IDENTICAL to prior shipped (load-bearing
+         for the LIVE 1.NBT.B.2 FR activity at /fr/activities/dizaines-
+         et-unites; existing vigesimal 70s/80s/90s + "et un" at 21/31/…/
+         71 + soixante-et-onze + quatre-vingts -s at exactly 80 logic
+         preserved verbatim under `if (n < 100)` guard).
+
+         100-999 NEW layer for 2.NBT.A.1 activity 2 FR fan-out — the
+         TWO -s rules colliding:
+         - n=100 → "cent" (bare, no multiplier, no -s)
+         - n=200-900 round → multiplier + "cents" WITH -s (multiplied
+           AND final): "deux cents", "cinq cents", "neuf cents"
+         - n=201-999 non-final → multiplier + "cent" DROPS -s
+           (multiplied but non-final): "deux cent quarante-sept",
+           "trois cent cinq", "trois cent quatre-vingts" (cent drops;
+           quatre-vingts keeps via sub99's own rule), "trois cent
+           quatre-vingt-deux" (both drop)
+         - "et" join preserved inside sub99 only (cent vingt et un = 121,
+           deux cent soixante et onze = 271; NO "et" at 81/91 even in
+           hundreds frame: quatre-vingt-un, quatre-vingt-onze) */
       var lookup = [
         'zéro','un','deux','trois','quatre','cinq','six','sept','huit','neuf',
         'dix','onze','douze','treize','quatorze','quinze','seize',
@@ -467,29 +470,71 @@ window.PlaceValueCore = {
       ];
       var attrFem = ['zéro','une','deux','trois','quatre','cinq','six','sept','huit','neuf'];
       var tens20to60 = ['','','vingt','trente','quarante','cinquante','soixante'];
-      if (n < 10) return (mode === 'attributive-fem') ? attrFem[n] : lookup[n];
-      if (n < 20) return lookup[n];
-      var t = Math.floor(n / 10), o = n % 10;
-      if (t >= 2 && t <= 6) {
-        /* 20-69 */
-        if (o === 0) return tens20to60[t];
-        if (o === 1) return tens20to60[t] + ' et un';
-        return tens20to60[t] + '-' + lookup[o];
+      if (n < 100) {
+        if (n < 10) return (mode === 'attributive-fem') ? attrFem[n] : lookup[n];
+        if (n < 20) return lookup[n];
+        var t = Math.floor(n / 10), o = n % 10;
+        if (t >= 2 && t <= 6) {
+          /* 20-69 */
+          if (o === 0) return tens20to60[t];
+          if (o === 1) return tens20to60[t] + ' et un';
+          return tens20to60[t] + '-' + lookup[o];
+        }
+        if (t === 7) {
+          /* 70-79 = soixante + (10..19); "soixante et onze" at 71 */
+          if (o === 0) return 'soixante-dix';
+          if (o === 1) return 'soixante et onze';
+          return 'soixante-' + lookup[10 + o];
+        }
+        if (t === 8) {
+          /* 80 = "quatre-vingts" with -s; 81-89 = "quatre-vingt-" + ones (no -s, no "et") */
+          if (o === 0) return 'quatre-vingts';
+          return 'quatre-vingt-' + lookup[o];
+        }
+        /* t === 9: 90-99 = "quatre-vingt-" + (10..19), NO "et" */
+        if (o === 0) return 'quatre-vingt-dix';
+        return 'quatre-vingt-' + lookup[10 + o];
       }
-      if (t === 7) {
-        /* 70-79 = soixante + (10..19); "soixante et onze" at 71 */
-        if (o === 0) return 'soixante-dix';
-        if (o === 1) return 'soixante et onze';
-        return 'soixante-' + lookup[10 + o];
+      /* 100-999 layer */
+      /* Inline sub99 for the tail — cardinal mode only. Replicates the
+         0-99 logic above (no attributive-fem needed in compound
+         position; gender-invariant cardinal). The vigesimal -s rule at
+         exactly 80 emerges naturally: sub99(80)="quatre-vingts" with
+         -s; sub99(82)="quatre-vingt-deux" without. This drives 380
+         vs 382 distinction inside the hundreds frame. */
+      function sub99(m) {
+        if (m < 20) return lookup[m];
+        var t2 = Math.floor(m / 10), o2 = m % 10;
+        if (t2 >= 2 && t2 <= 6) {
+          if (o2 === 0) return tens20to60[t2];
+          if (o2 === 1) return tens20to60[t2] + ' et un';
+          return tens20to60[t2] + '-' + lookup[o2];
+        }
+        if (t2 === 7) {
+          if (o2 === 0) return 'soixante-dix';
+          if (o2 === 1) return 'soixante et onze';
+          return 'soixante-' + lookup[10 + o2];
+        }
+        if (t2 === 8) {
+          if (o2 === 0) return 'quatre-vingts';
+          return 'quatre-vingt-' + lookup[o2];
+        }
+        if (o2 === 0) return 'quatre-vingt-dix';
+        return 'quatre-vingt-' + lookup[10 + o2];
       }
-      if (t === 8) {
-        /* 80 = "quatre-vingts" with -s; 81-89 = "quatre-vingt-" + ones (no -s, no "et") */
-        if (o === 0) return 'quatre-vingts';
-        return 'quatre-vingt-' + lookup[o];
+      var hMul = ['','','deux','trois','quatre','cinq','six','sept','huit','neuf'];
+      var h = Math.floor(n / 100), rem = n % 100;
+      var hWord;
+      if (h === 1) {
+        hWord = 'cent';  // bare; no multiplier, no -s
+      } else {
+        /* h ≥ 2: multiplier + cent/cents. Rule: -s ONLY when rem === 0
+           (multiplied AND final). Drop -s when rem > 0 (multiplied but
+           non-final — tail follows). */
+        hWord = hMul[h] + ' cent' + (rem === 0 ? 's' : '');
       }
-      /* t === 9: 90-99 = "quatre-vingt-" + (10..19), NO "et" */
-      if (o === 0) return 'quatre-vingt-dix';
-      return 'quatre-vingt-' + lookup[10 + o];
+      if (rem === 0) return hWord;
+      return hWord + ' ' + sub99(rem);
     },
     pt: function (n, mode) {
       /* Brazilian Portuguese ('pt' canonical per CLAUDE.md §6; NEVER pt-BR).
@@ -789,6 +834,27 @@ window.PlaceValueCore = {
         var tPartES3 = tWordES3 + ' decena' + (this.targetTens === 1 ? '' : 's');
         var oPartES3 = oWordES3 + ' unidad' + (this.targetOnes === 1 ? '' : 'es');
         sentence = hPartES3 + ', ' + tPartES3 + ' y ' + oPartES3 + ' son ' + nWordES3;
+      } else if (lang === 'fr') {
+        /* FR 3-place: centaine/dizaine/unité INFLECT per activity 1 FR
+           lock — count=0 OR 1 → SINGULAR; count=2+ → plural with -s
+           suffix. Zero places spoken AS SINGULAR per FR convention
+           ("zéro dizaine" not "zéro dizaines") — matches activity 1's
+           "zéro unité" lock. attributive-fem mode for counts (matches
+           "une dizaine"/"une unité" feminine agreement from activity 1).
+           Copula "font" plural (matches activity 1). Comma between
+           Centaines and Dizaines; "et" before Unités. Cardinal target
+           via FR helper renders BOTH -s rules: cent → cents add/drop
+           by position (multiplied+final vs multiplied+non-final); and
+           quatre-vingts -s preserved from sub99 (drives 280→quatre-
+           vingts vs 282→quatre-vingt-deux distinction inside hundreds). */
+        var hWordFR3 = this._numberWord(this.targetHundreds, 'fr', 'attributive-fem', false);
+        var tWordFR3 = this._numberWord(this.targetTens,     'fr', 'attributive-fem', false);
+        var oWordFR3 = this._numberWord(this.targetOnes,     'fr', 'attributive-fem', false);
+        var nWordFR3 = this._numberWord(this.targetNumber,   'fr', 'cardinal',         false);
+        var hPartFR3 = hWordFR3 + ' centaine' + (this.targetHundreds >= 2 ? 's' : '');
+        var tPartFR3 = tWordFR3 + ' dizaine' + (this.targetTens     >= 2 ? 's' : '');
+        var oPartFR3 = oWordFR3 + ' unité'   + (this.targetOnes     >= 2 ? 's' : '');
+        sentence = hPartFR3 + ', ' + tPartFR3 + ' et ' + oPartFR3 + ' font ' + nWordFR3;
       } else if (lang === 'it') {
         /* IT 3-place: MIXED inflection per activity 1 lock —
            - centinaio (masc sg) / centinaia (fem pl) — irregular

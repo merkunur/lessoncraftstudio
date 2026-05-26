@@ -85,17 +85,18 @@ window.PlaceValueCore = {
     srUnitCube:   { en: 'unit-cube',de: 'Einerwürfel',         es: 'cubo de uno',             it: 'cubo da uno',                                         fr: 'cube unité',                                          pt: 'cubinho',                                             nl: 'blokje',                                              sv: 'enhetskub',                                           da: 'ener-terning',                                        no: 'enerterning',                                         fi: 'ykköskuutio' },
     srRemove:     { en: 'remove',   de: 'entferne',            es: 'quitar',                  it: 'rimuovi',                                             fr: 'retire',                                              pt: 'remova',                                              nl: 'verwijder',                                           sv: 'ta bort',                                             da: 'fjern',                                               no: 'fjern',                                               fi: 'poista' },
 
-    /* ---- 3-place activity (2.NBT.A.1) strings — EN + DE shipped.
+    /* ---- 3-place activity (2.NBT.A.1) strings — EN + DE + ES shipped.
        These keys are read ONLY when this.places contains 'hundreds'.
        2-place activity ignores them entirely (byte-identical behavior).
-       DE follows activity 1's convention: Hunderter/Zehner/Einer
-       invariant (no plural -s); compound verb-noun add-button pattern
-       `<Noun> hinzufügen`; sr-label as compound `Hunderterplatte` (the
-       standard DE math vocabulary for a 10×10 flat). */
-    hundredsLabel:   { en: 'Hundreds',     de: 'Hunderter' },
-    addHundredLabel: { en: 'Add hundred',  de: 'Hunderter hinzufügen' },
-    wordHundred:     { en: 'hundred',      de: 'Hunderter' },         // tap-utterance, singular invariant
-    srHundredsFlat:  { en: 'hundreds-flat',de: 'Hunderterplatte' }    // sr-only aria-label fragment
+       ES follows activity 1's convention: centena/decena/unidad inflect
+       by count (singular vs plural with -s / -es suffixes); attributive-
+       feminine `una` form in add-button (matches activity 1's "Añadir
+       una decena"). srHundredsFlat = "placa de cien" matches activity
+       1's "barra de diez"/"cubo de uno" compound-shape convention. */
+    hundredsLabel:   { en: 'Hundreds',     de: 'Hunderter',           es: 'Centenas' },
+    addHundredLabel: { en: 'Add hundred',  de: 'Hunderter hinzufügen',es: 'Añadir una centena' },
+    wordHundred:     { en: 'hundred',      de: 'Hunderter',           es: 'centena' },        // tap-utterance, singular
+    srHundredsFlat:  { en: 'hundreds-flat',de: 'Hunderterplatte',     es: 'placa de cien' }   // sr-only aria-label fragment
   },
 
   defaults: {},
@@ -331,8 +332,22 @@ window.PlaceValueCore = {
       return hPart + onesAttr[o2] + 'und' + tens[t2]; // 247 → zweihundertsiebenundvierzig
     },
     es: function (n, mode) {
-      /* 0-29 lookup (irregulars 11-15 + dieci-16-19 + veinti-21-29 are
-         single contracted words). 30+ uses <tens> y <ones>. */
+      /* Spanish 0-999. 0-99 BYTE-IDENTICAL to prior shipped (load-bearing
+         for the LIVE 1.NBT.B.2 ES tens-and-ones activity at /es/activities/
+         decenas-y-unidades; existing logic preserved verbatim under
+         `if (n < 100)` guard).
+
+         100-999 NEW layer for 2.NBT.A.1 activity 2 ES fan-out:
+         - n=100 → "cien" (standalone form; NOT "ciento")
+         - n=101-199 → "ciento " + sub99(rem) (space-separated)
+         - n=200-999 → hundreds[h] + (rem ? " " + sub99(rem) : "")
+         - hundreds[2..9]: doscientos, trescientos, cuatrocientos,
+           QUINIENTOS (irregular 500, NOT cincocientos), seiscientos,
+           SETECIENTOS (irregular 700, NOT sietecientos), ochocientos,
+           NOVECIENTOS (irregular 900, NOT nuevecientos)
+         - "y" appears ONLY inside sub99 between tens and units
+           (existing rule). NEVER between hundreds and tens:
+           305 = "trescientos cinco", NOT "trescientos y cinco". */
       var lookup = [
         'cero','uno','dos','tres','cuatro','cinco','seis','siete','ocho','nueve',
         'diez','once','doce','trece','catorce','quince',
@@ -342,11 +357,27 @@ window.PlaceValueCore = {
       ];
       var attrFem = ['cero','una','dos','tres','cuatro','cinco','seis','siete','ocho','nueve'];
       var tens = ['','','veinte','treinta','cuarenta','cincuenta','sesenta','setenta','ochenta','noventa'];
-      if (n < 10) return (mode === 'attributive-fem') ? attrFem[n] : lookup[n];
-      if (n < 30) return lookup[n];
-      var t = Math.floor(n / 10), o = n % 10;
-      if (o === 0) return tens[t];
-      return tens[t] + ' y ' + lookup[o];  // e.g. cuarenta y siete
+      if (n < 100) {
+        if (n < 10) return (mode === 'attributive-fem') ? attrFem[n] : lookup[n];
+        if (n < 30) return lookup[n];
+        var t = Math.floor(n / 10), o = n % 10;
+        if (o === 0) return tens[t];
+        return tens[t] + ' y ' + lookup[o];  // e.g. cuarenta y siete
+      }
+      /* 100-999 layer */
+      if (n === 100) return 'cien';
+      var hundredsBare = ['','ciento','doscientos','trescientos','cuatrocientos','quinientos','seiscientos','setecientos','ochocientos','novecientos'];
+      var h = Math.floor(n / 100), rem = n % 100;
+      var hPart = hundredsBare[h];
+      if (rem === 0) return hPart;
+      /* sub99 inline — cardinal-form tail; "y" between tens and units */
+      function sub99(m) {
+        if (m < 30) return lookup[m];
+        var t2 = Math.floor(m / 10), o2 = m % 10;
+        if (o2 === 0) return tens[t2];
+        return tens[t2] + ' y ' + lookup[o2];
+      }
+      return hPart + ' ' + sub99(rem);
     },
     it: function (n, mode) {
       /* 0-19 lookup. 20-99 = tens-word + ones-word with TWO grammar rules:
@@ -697,6 +728,25 @@ window.PlaceValueCore = {
         var oWordDE3 = this._numberWord(this.targetOnes,     'de', 'attributive', false);
         var nWordDE3 = this._numberWord(this.targetNumber,   'de', 'cardinal',    false);
         sentence = hWordDE3 + ' Hunderter, ' + tWordDE3 + ' Zehner und ' + oWordDE3 + ' Einer ergeben ' + nWordDE3;
+      } else if (lang === 'es') {
+        /* ES 3-place: centena/decena/unidad INFLECT (matches activity 1
+           lock — 1 → singular; 0 or 2+ → plural with -s / -es suffix).
+           attributive-fem mode for counts (matches "una decena"
+           feminine agreement from activity 1; gender-invariant 2-9).
+           Zero places SPOKEN ("cero decenas" / "cero unidades") per
+           2.NBT.A.1 teaching point. Copula "son" matches activity 1.
+           Comma between Centenas and Decenas; "y" before Unidades.
+           Cardinal target via ES helper renders cien/ciento split +
+           three irregular hundreds (quinientos/setecientos/novecientos);
+           NO "y" between hundreds and tens. */
+        var hWordES3 = this._numberWord(this.targetHundreds, 'es', 'attributive-fem', false);
+        var tWordES3 = this._numberWord(this.targetTens,     'es', 'attributive-fem', false);
+        var oWordES3 = this._numberWord(this.targetOnes,     'es', 'attributive-fem', false);
+        var nWordES3 = this._numberWord(this.targetNumber,   'es', 'cardinal',         false);
+        var hPartES3 = hWordES3 + ' centena' + (this.targetHundreds === 1 ? '' : 's');
+        var tPartES3 = tWordES3 + ' decena' + (this.targetTens === 1 ? '' : 's');
+        var oPartES3 = oWordES3 + ' unidad' + (this.targetOnes === 1 ? '' : 'es');
+        sentence = hPartES3 + ', ' + tPartES3 + ' y ' + oPartES3 + ' son ' + nWordES3;
       }
       /* Other locales in 3-place mode without a per-locale 3P branch
          leave `sentence` undefined → falls through to the 2-place

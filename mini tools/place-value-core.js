@@ -85,13 +85,17 @@ window.PlaceValueCore = {
     srUnitCube:   { en: 'unit-cube',de: 'Einerwürfel',         es: 'cubo de uno',             it: 'cubo da uno',                                         fr: 'cube unité',                                          pt: 'cubinho',                                             nl: 'blokje',                                              sv: 'enhetskub',                                           da: 'ener-terning',                                        no: 'enerterning',                                         fi: 'ykköskuutio' },
     srRemove:     { en: 'remove',   de: 'entferne',            es: 'quitar',                  it: 'rimuovi',                                             fr: 'retire',                                              pt: 'remova',                                              nl: 'verwijder',                                           sv: 'ta bort',                                             da: 'fjern',                                               no: 'fjern',                                               fi: 'poista' },
 
-    /* ---- 3-place activity (2.NBT.A.1) strings — EN-only for now.
+    /* ---- 3-place activity (2.NBT.A.1) strings — EN + DE shipped.
        These keys are read ONLY when this.places contains 'hundreds'.
-       2-place activity ignores them entirely (byte-identical behavior). */
-    hundredsLabel:   { en: 'Hundreds' },
-    addHundredLabel: { en: 'Add hundred' },
-    wordHundred:     { en: 'hundred' },      // tap-utterance, singular (matches ten/one convention)
-    srHundredsFlat:  { en: 'hundreds-flat' } // sr-only aria-label fragment
+       2-place activity ignores them entirely (byte-identical behavior).
+       DE follows activity 1's convention: Hunderter/Zehner/Einer
+       invariant (no plural -s); compound verb-noun add-button pattern
+       `<Noun> hinzufügen`; sr-label as compound `Hunderterplatte` (the
+       standard DE math vocabulary for a 10×10 flat). */
+    hundredsLabel:   { en: 'Hundreds',     de: 'Hunderter' },
+    addHundredLabel: { en: 'Add hundred',  de: 'Hunderter hinzufügen' },
+    wordHundred:     { en: 'hundred',      de: 'Hunderter' },         // tap-utterance, singular invariant
+    srHundredsFlat:  { en: 'hundreds-flat',de: 'Hunderterplatte' }    // sr-only aria-label fragment
   },
 
   defaults: {},
@@ -291,16 +295,40 @@ window.PlaceValueCore = {
       return hPart + ' ' + sub99(rem);
     },
     de: function (n, mode) {
-      /* Units-first compound: 'einundzwanzig' = 1 + 'und' + 20. */
+      /* German 0-999. 0-99 units-first compound (einundzwanzig = 1 +
+         und + 20) — BYTE-IDENTICAL to prior shipped (load-bearing for
+         the LIVE 1.NBT.B.2 DE tens-and-ones activity at /de/activities/
+         zehner-und-einer; the existing logic is preserved verbatim
+         under `if (n < 100)` guard).
+
+         100-999 NEW layer (2.NBT.A.1 activity 2 DE fan-out):
+         <ones-attributive>hundert + agglutinated 0-99 tail as a single
+         word (zweihundertsiebenundvierzig). Classroom convention:
+         100 = "einhundert" (NOT colloquial bare "hundert"); 101 =
+         "einhunderteins" (cardinal `eins` at ones-only tail position,
+         not attributive `ein`); 305 = "dreihundertfünf" (zero-tens
+         skipped, no `null` inserted); 420 = "vierhundertzwanzig"
+         (zero-ones, ends on tens-word). */
       var onesCard = ['null','eins','zwei','drei','vier','fünf','sechs','sieben','acht','neun'];
       var onesAttr = ['null','ein', 'zwei','drei','vier','fünf','sechs','sieben','acht','neun'];
       var teens    = ['zehn','elf','zwölf','dreizehn','vierzehn','fünfzehn','sechzehn','siebzehn','achtzehn','neunzehn'];
       var tens     = ['','','zwanzig','dreißig','vierzig','fünfzig','sechzig','siebzig','achtzig','neunzig'];
-      if (n < 10) return (mode === 'attributive') ? onesAttr[n] : onesCard[n];
-      if (n < 20) return teens[n - 10];
-      var t = Math.floor(n / 10), o = n % 10;
-      if (o === 0) return tens[t];
-      return onesAttr[o] + 'und' + tens[t];  // e.g. einundzwanzig
+      if (n < 100) {
+        if (n < 10) return (mode === 'attributive') ? onesAttr[n] : onesCard[n];
+        if (n < 20) return teens[n - 10];
+        var t = Math.floor(n / 10), o = n % 10;
+        if (o === 0) return tens[t];
+        return onesAttr[o] + 'und' + tens[t];  // e.g. einundzwanzig
+      }
+      /* 100-999 layer */
+      var h = Math.floor(n / 100), rem = n % 100;
+      var hPart = onesAttr[h] + 'hundert';     // ein/zwei/.../neun + hundert
+      if (rem === 0) return hPart;             // 200 → zweihundert
+      if (rem < 10) return hPart + onesCard[rem];     // 305 → dreihundertfünf, 101 → einhunderteins
+      if (rem < 20) return hPart + teens[rem - 10];   // 215 → zweihundertfünfzehn
+      var t2 = Math.floor(rem / 10), o2 = rem % 10;
+      if (o2 === 0) return hPart + tens[t2];          // 420 → vierhundertzwanzig
+      return hPart + onesAttr[o2] + 'und' + tens[t2]; // 247 → zweihundertsiebenundvierzig
     },
     es: function (n, mode) {
       /* 0-29 lookup (irregulars 11-15 + dieci-16-19 + veinti-21-29 are
@@ -654,10 +682,26 @@ window.PlaceValueCore = {
         var tPartEN3 = tWordEN3 + ' ten'     + (this.targetTens     === 1 ? '' : 's');
         var oPartEN3 = oWordEN3 + ' one'     + (this.targetOnes     === 1 ? '' : 's');
         sentence = hPartEN3 + ', ' + tPartEN3 + ', and ' + oPartEN3 + ' make ' + nWordEN3;
+      } else if (lang === 'de') {
+        /* DE 3-place: Hunderter/Zehner/Einer INVARIANT (no plural -s
+           per activity 1's lock — matches the 1.NBT.B.2 DE convention).
+           Capitalize tens-of-hundreds-word at sentence start (Zwei /
+           Drei / etc. via capitalize=true). Zero places SPOKEN
+           ("null Zehner" / "null Einer") per 2.NBT.A.1 teaching point.
+           Copula "ergeben" (plural verb; matches activity 1). Comma
+           between Hunderter and Zehner; "und" before Einer. Cardinal
+           target via DE helper renders agglutinated units-first inside
+           hundreds frame (zweihundertsiebenundvierzig, dreihundertfünf). */
+        var hWordDE3 = this._numberWord(this.targetHundreds, 'de', 'attributive', true);   // capitalize sentence-start
+        var tWordDE3 = this._numberWord(this.targetTens,     'de', 'attributive', false);
+        var oWordDE3 = this._numberWord(this.targetOnes,     'de', 'attributive', false);
+        var nWordDE3 = this._numberWord(this.targetNumber,   'de', 'cardinal',    false);
+        sentence = hWordDE3 + ' Hunderter, ' + tWordDE3 + ' Zehner und ' + oWordDE3 + ' Einer ergeben ' + nWordDE3;
       }
-      /* Other locales in 3-place mode without an EN-3P branch leave
-         `sentence` undefined → falls through to the 2-place branches
-         below (graceful degradation; will not occur in shipped state). */
+      /* Other locales in 3-place mode without a per-locale 3P branch
+         leave `sentence` undefined → falls through to the 2-place
+         branches below (graceful degradation; will not occur in
+         shipped state — activity 2 manifest only ships en + de). */
     }
     if (sentence) {
       // 3-place sentence resolved above; skip 2-place branches.

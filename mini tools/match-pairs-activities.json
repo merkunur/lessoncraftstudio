@@ -27,7 +27,8 @@
       "it": "forma-il-numero",
       "fr": "compose-le-nombre",
       "pt": "forme-o-numero",
-      "nl": "maak-het-getal"
+      "nl": "maak-het-getal",
+      "sv": "gor-talet"
     },
     "page_title": {
       "en": "Make the Number",
@@ -36,7 +37,8 @@
       "it": "Forma il numero",
       "fr": "Compose le nombre",
       "pt": "Forme o número",
-      "nl": "Maak het getal"
+      "nl": "Maak het getal",
+      "sv": "Gör talet"
     },
     "page_intro": {
       "en": "Find pairs of numbers that add up to the target. Tap a number, then tap its partner — and watch the pairs link. Aligned to Common Core K.OA.A.3 — decompose numbers less than or equal to 10 into pairs in more than one way.",
@@ -45,7 +47,8 @@
       "it": "Trova coppie di numeri che fanno l'obiettivo. Tocca un numero, poi tocca il suo compagno — e guarda come le coppie si collegano. Allineato a Common Core K.OA.A.3 — scomporre numeri fino a 10 in coppie in più di un modo.",
       "fr": "Trouve des paires de nombres qui font l'objectif. Touche un nombre, puis touche son partenaire — et regarde les paires se relier. Aligné à Common Core K.OA.A.3 — décomposer les nombres jusqu'à 10 en paires de plusieurs façons.",
       "pt": "Encontre pares de números que formam o objetivo. Toque em um número, depois toque no par dele — e veja os pares se conectarem. Alinhado a Common Core K.OA.A.3 — decompor números até 10 em pares de várias maneiras.",
-      "nl": "Zoek getallenparen die samen het doel maken. Tik op een getal, dan op zijn partner — en kijk hoe de paren verbinden. Afgestemd op Common Core K.OA.A.3 — getallen tot 10 op meerdere manieren ontleden in paren."
+      "nl": "Zoek getallenparen die samen het doel maken. Tik op een getal, dan op zijn partner — en kijk hoe de paren verbinden. Afgestemd op Common Core K.OA.A.3 — getallen tot 10 op meerdere manieren ontleden in paren.",
+      "sv": "Hitta talpar som tillsammans blir målet. Tryck på ett tal, sedan på dess kompis — och se hur paren kopplas ihop. Anpassat till Common Core K.OA.A.3 — dela upp tal upp till 10 i par på flera olika sätt."
     },
     "kid_prompt_template": "taskMakeN"
   }

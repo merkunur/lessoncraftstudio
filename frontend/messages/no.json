@@ -1617,15 +1617,15 @@
   "aboutPage": {
     "meta": {
       "title": "Om oss | LessonCraftStudio",
-      "description": "Om LessonCraftStudio — gratis K-3 arbeidsark og interaktive aktiviteter på 11 språk, for tospråklige, flerspråklige og internasjonale klasser."
+      "description": "Om LessonCraftStudio – gratis oppgaveark og interaktive aktiviteter for barnehage til 3. trinn på 11 språk, laget for tospråklige klasser, språkbadsklasser og internasjonale skoler."
     },
     "pageTitle": "Om LessonCraftStudio",
-    "intro": "LessonCraftStudio publiserer gratis K-3 arbeidsark og interaktive aktiviteter på 11 språk. Alt er fritt tilgjengelig — ingen registrering.",
+    "intro": "LessonCraftStudio publiserer gratis oppgaveark og interaktive aktiviteter for barnehage til 3. trinn på 11 språk. Alt er gratis å bla i, skrive ut, dele og bygge inn – ingen registrering nødvendig.",
     "whatWeOfferHeading": "Hva vi tilbyr",
-    "whatWeOfferBody": "Utskrivbare PDF-er og aktiviteter som spilles i nettleseren, for matematikk, fonetikk og ordforråd, tilgjengelig på engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, dansk, norsk og finsk.",
-    "audienceHeading": "For hvem",
-    "audienceBody": "Laget for lærere og foreldre i tospråklige, flerspråklige og internasjonale klasser, spesielt i tidlig barndom (3 til 7 år).",
+    "whatWeOfferBody": "PDF-er til utskrift og aktiviteter som spilles i nettleseren, innen matematikk, lese- og skriveopplæring og ordforråd, på engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, dansk, norsk og finsk.",
+    "audienceHeading": "Hvem det er for",
+    "audienceBody": "Laget for lærere og foreldre i tospråklige klasser, språkbadsklasser og internasjonale skoler, særlig på småbarnstrinnet (3–7 år).",
     "teamHeading": "Om teamet vårt",
-    "teamBody": "Vi oppdaterer denne delen — kom tilbake snart."
+    "teamBody": "Vi oppdaterer denne delen – stikk innom igjen snart."
   }
 }

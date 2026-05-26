@@ -92,10 +92,10 @@ window.PlaceValueCore = {
        inflect by count (singular at 1; plural -s/-es at 0 or 2+, zero
        takes plural). Feminine "uma" article in add-button (matches
        activity 1's "Adicionar uma dezena"/"Adicionar uma unidade"). */
-    hundredsLabel:   { en: 'Hundreds',     de: 'Hunderter',           es: 'Centenas',         it: 'Centinaia',         fr: 'Centaines',         pt: 'Centenas',          nl: 'Honderdtallen',          sv: 'Hundratal',                 da: 'Hundreder',           no: 'Hundrere' },
-    addHundredLabel: { en: 'Add hundred',  de: 'Hunderter hinzufügen',es: 'Añadir una centena',it: 'Aggiungi un centinaio',fr: 'Ajoute une centaine',pt: 'Adicionar uma centena',nl: 'Honderdtal toevoegen',  sv: 'Lägg till ett hundratal',   da: 'Tilføj et hundrede',  no: 'Legg til en hundrer' },
-    wordHundred:     { en: 'hundred',      de: 'Hunderter',           es: 'centena',          it: 'centinaio',         fr: 'centaine',          pt: 'centena',           nl: 'honderdtal',             sv: 'hundratal',                 da: 'hundrede',            no: 'hundrer' },     // tap-utterance, singular
-    srHundredsFlat:  { en: 'hundreds-flat',de: 'Hunderterplatte',     es: 'placa de cien',    it: 'piastra da cento',  fr: 'plaque de cent',    pt: 'placa de cem',      nl: 'honderdplaat',           sv: 'hundraplatta',              da: 'hundrede-plade',      no: 'hundrerplate' } // sr-only aria-label fragment
+    hundredsLabel:   { en: 'Hundreds',     de: 'Hunderter',           es: 'Centenas',         it: 'Centinaia',         fr: 'Centaines',         pt: 'Centenas',          nl: 'Honderdtallen',          sv: 'Hundratal',                 da: 'Hundreder',           no: 'Hundrere',            fi: 'Sadat' },
+    addHundredLabel: { en: 'Add hundred',  de: 'Hunderter hinzufügen',es: 'Añadir una centena',it: 'Aggiungi un centinaio',fr: 'Ajoute une centaine',pt: 'Adicionar uma centena',nl: 'Honderdtal toevoegen',  sv: 'Lägg till ett hundratal',   da: 'Tilføj et hundrede',  no: 'Legg til en hundrer', fi: 'Lisää sata' },
+    wordHundred:     { en: 'hundred',      de: 'Hunderter',           es: 'centena',          it: 'centinaio',         fr: 'centaine',          pt: 'centena',           nl: 'honderdtal',             sv: 'hundratal',                 da: 'hundrede',            no: 'hundrer',             fi: 'sata' },     // tap-utterance, singular
+    srHundredsFlat:  { en: 'hundreds-flat',de: 'Hunderterplatte',     es: 'placa de cien',    it: 'piastra da cento',  fr: 'plaque de cent',    pt: 'placa de cem',      nl: 'honderdplaat',           sv: 'hundraplatta',              da: 'hundrede-plade',      no: 'hundrerplate',        fi: 'satalevy' } // sr-only aria-label fragment
   },
 
   defaults: {},
@@ -713,21 +713,46 @@ window.PlaceValueCore = {
       return hWord + sub99(rem);  // agglutinated; no joiner
     },
     fi: function (n, mode) {
-      /* Finnish (Uralic; not Indo-European). 0-19 lookup; 20-99 =
-         AGGLUTINATED compound (tens-first, single word, no joiner,
-         no space). Teens 11-19 use "-toista" suffix (yksitoista,
-         kaksitoista, ..., yhdeksäntoista). Tens 20-90: Xkymmentä
-         (kaksikymmentä 20, ..., yhdeksänkymmentä 90). Compound 21-99
-         is single agglutinated word: tens[t] + lookup[o] without space
-         (neljäkymmentäseitsemän 47, seitsemänkymmentäkaksi 72,
-         kahdeksankymmentäyhdeksän 89, yhdeksänkymmentäyhdeksän 99).
-         Cardinal[10] = "kymmenen" — the genitive form of the noun
-         "kymmen" functions as the standalone cardinal "10" in Finnish.
-         Attributive mode: same as cardinal lookup for the number-word
-         itself. Finnish has no gender — the number-word doesn't change
-         form for attributive use. What CHANGES is the case of the
-         COUNTED NOUN (nominative sg at 1, partitive sg at 0 or 2+) —
-         that case-switch lives in speakDecomposition, not here. */
+      /* Finnish 0-999 (Uralic; not Indo-European). 0-99 BYTE-IDENTICAL
+         to prior shipped (load-bearing for the LIVE 1.NBT.B.2 FI
+         activity at /fi/activities/kymmenet-ja-ykkoset; agglutinated
+         tens-first compound + -toista teens + nolla-at-0 + kymmenen
+         cardinal-10 logic preserved verbatim under `if (n < 100)`
+         guard).
+
+         Finnish. 0-19 lookup; 20-99 = AGGLUTINATED compound (tens-
+         first, single word, no joiner, no space). Teens 11-19 use
+         "-toista" suffix (yksitoista, kaksitoista, ...,
+         yhdeksäntoista). Tens 20-90: Xkymmentä (kaksikymmentä 20, ...,
+         yhdeksänkymmentä 90). Compound 21-99 is single agglutinated
+         word: tens[t] + lookup[o] without space (neljäkymmentä-
+         seitsemän 47, seitsemänkymmentäkaksi 72, kahdeksankymmentä-
+         yhdeksän 89, yhdeksänkymmentäyhdeksän 99). Cardinal[10] =
+         "kymmenen" — the genitive form of the noun "kymmen" functions
+         as the standalone cardinal "10" in Finnish. Attributive mode:
+         same as cardinal lookup for the number-word itself. Finnish
+         has no gender — the number-word doesn't change form for
+         attributive use. What CHANGES is the case of the COUNTED NOUN
+         (nominative sg at 1, partitive sg at 0 or 2+) — that case-
+         switch lives in speakDecomposition, not here.
+
+         100-999 NEW layer for 2.NBT.A.1 activity 2 FI fan-out:
+         - n=100 → "sata" (bare nominative; K-1 classroom standard;
+           "yksisataa" with multiplier-1 is formal/redundant, not emitted)
+         - n=101-199 → "sata" + sub99(rem) (agglutinated single word;
+           101 → "satayksi", 110 → "satakymmenen", 147 →
+           "sataneljäkymmentäseitsemän")
+         - n=200-999 → onesForCompound[h] + "sataa" + (rem ? sub99(rem) : "")
+           — multiplier governs partitive `sataa` inside cardinal
+           (Finnish 2+ governs partitive). Agglutinated single word.
+           Examples:
+             200 = kaksisataa
+             247 = kaksisataaneljäkymmentäseitsemän
+             305 = kolmesataaviisi (zero-tens; NO "nolla" inserted)
+             420 = neljäsataakaksikymmentä (zero-ones; tens-only tail)
+             583 = viisisataakahdeksankymmentäkolme
+             906 = yhdeksänsataakuusi
+             999 = yhdeksänsataayhdeksänkymmentäyhdeksän */
       var lookup = [
         'nolla','yksi','kaksi','kolme','neljä','viisi','kuusi','seitsemän','kahdeksan','yhdeksän',
         'kymmenen','yksitoista','kaksitoista','kolmetoista','neljätoista','viisitoista','kuusitoista',
@@ -735,11 +760,30 @@ window.PlaceValueCore = {
       ];
       var attr = ['nolla','yksi','kaksi','kolme','neljä','viisi','kuusi','seitsemän','kahdeksan','yhdeksän'];
       var tens = ['','','kaksikymmentä','kolmekymmentä','neljäkymmentä','viisikymmentä','kuusikymmentä','seitsemänkymmentä','kahdeksankymmentä','yhdeksänkymmentä'];
-      if (n < 10) return (mode === 'attributive') ? attr[n] : lookup[n];
-      if (n < 20) return lookup[n];
-      var t = Math.floor(n / 10), o = n % 10;
-      if (o === 0) return tens[t];
-      return tens[t] + lookup[o];  // agglutinated: neljäkymmentäseitsemän, kahdeksankymmentäyhdeksän
+      /* onesForCompound: ones-multiplier for hundreds layer. n=100 is
+         bare "sata" (not "yksisataa"), so onesForCompound[1] is unused
+         for hundreds construction (handled by hWord shortcut). For
+         h=2..9, bare cardinal multiplier prepends to partitive "sataa". */
+      var onesForCompound = ['','yksi','kaksi','kolme','neljä','viisi','kuusi','seitsemän','kahdeksan','yhdeksän'];
+      if (n < 100) {
+        if (n < 10) return (mode === 'attributive') ? attr[n] : lookup[n];
+        if (n < 20) return lookup[n];
+        var t = Math.floor(n / 10), o = n % 10;
+        if (o === 0) return tens[t];
+        return tens[t] + lookup[o];  // agglutinated: neljäkymmentäseitsemän, kahdeksankymmentäyhdeksän
+      }
+      /* 100-999 layer */
+      /* sub99 inline — cardinal-form tail, agglutinated tens-first; partitive `kymmentä` inside tens-word preserved. */
+      function sub99(m) {
+        if (m < 20) return lookup[m];
+        var t2 = Math.floor(m / 10), o2 = m % 10;
+        if (o2 === 0) return tens[t2];
+        return tens[t2] + lookup[o2];
+      }
+      var h = Math.floor(n / 100), rem = n % 100;
+      var hWord = (h === 1) ? 'sata' : onesForCompound[h] + 'sataa';  // n=100 bare nominative; n=200+ multiplier+partitive
+      if (rem === 0) return hWord;
+      return hWord + sub99(rem);  // agglutinated single word (no joiner)
     },
     no: function (n, mode) {
       /* Norwegian Bokmål 0-999. 0-99 BYTE-IDENTICAL to prior shipped
@@ -1192,6 +1236,29 @@ window.PlaceValueCore = {
         var tPartNO3 = tWordNO3 + ' tier'    + (this.targetTens     === 1 ? '' : 'e');
         var oPartNO3 = oWordNO3 + ' ener'    + (this.targetOnes     === 1 ? '' : 'e');
         sentence = hPartNO3 + ', ' + tPartNO3 + ' og ' + oPartNO3 + ' blir ' + nWordNO3;
+      } else if (lang === 'fi') {
+        /* FI 3-place: sata/kymmen/ykkönen all FOLLOW THE PARTITIVE
+           CASE-RULE (load-bearing FI-specific morphology — OPPOSITE
+           of every other locale): count=1 → NOMINATIVE singular
+           (sata/kymmen/ykkönen); count=0 or 2+ → PARTITIVE singular
+           (sataa/kymmentä/ykköstä — NOT pluralized to satoja/kymmeniä/
+           ykkösiä; Finnish counts govern partitive SG, not partitive
+           PL). Copula "on" (3sg present of olla = is/equals; Finnish
+           K-1 math-decomposition convention; matches activity 1).
+           Connective: standard Finnish enumeration of 3+ items uses
+           comma between first two and "ja" before last. Zero places
+           SPOKEN per 2.NBT.A.1 teaching point. Cardinal target via FI
+           helper renders agglutinated single-word compound with
+           partitive sataa inside (kaksisataaneljäkymmentäseitsemän,
+           kolmesataaviisi, viisisataakahdeksankymmentäkolme). */
+        var hWordFI3 = this._numberWord(this.targetHundreds, 'fi', 'attributive', false);
+        var tWordFI3 = this._numberWord(this.targetTens,     'fi', 'attributive', false);
+        var oWordFI3 = this._numberWord(this.targetOnes,     'fi', 'attributive', false);
+        var nWordFI3 = this._numberWord(this.targetNumber,   'fi', 'cardinal',    false);
+        var hNounFI3 = (this.targetHundreds === 1) ? 'sata'    : 'sataa';
+        var tNounFI3 = (this.targetTens     === 1) ? 'kymmen'  : 'kymmentä';
+        var oNounFI3 = (this.targetOnes     === 1) ? 'ykkönen' : 'ykköstä';
+        sentence = hWordFI3 + ' ' + hNounFI3 + ', ' + tWordFI3 + ' ' + tNounFI3 + ' ja ' + oWordFI3 + ' ' + oNounFI3 + ' on ' + nWordFI3;
       }
       /* Other locales in 3-place mode without a per-locale 3P branch
          leave `sentence` undefined → falls through to the 2-place

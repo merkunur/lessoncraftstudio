@@ -1,0 +1,554 @@
+{
+  "meta": {
+    "base": "https://www.lessoncraftstudio.com",
+    "canonicalHost": "https://www.lessoncraftstudio.com",
+    "nodeVersion": "v22.19.0",
+    "startedAt": "2026-05-26T22:51:03.882Z",
+    "serverMode": "prod post-deploy NSR-clearance 2026-05-27",
+    "finishedAt": "2026-05-26T22:51:34.984Z"
+  },
+  "checks": {
+    "C.1-canonical-chain": [
+      {
+        "target": "/en",
+        "status": "PASS",
+        "message": "canonical 200-direct: https://www.lessoncraftstudio.com/en"
+      },
+      {
+        "target": "/de",
+        "status": "PASS",
+        "message": "canonical 200-direct: https://www.lessoncraftstudio.com/de"
+      },
+      {
+        "target": "/es",
+        "status": "PASS",
+        "message": "canonical 200-direct: https://www.lessoncraftstudio.com/es"
+      },
+      {
+        "target": "/fi",
+        "status": "PASS",
+        "message": "canonical 200-direct: https://www.lessoncraftstudio.com/fi"
+      },
+      {
+        "target": "/en/worksheets",
+        "status": "PASS",
+        "message": "canonical 200-direct: https://www.lessoncraftstudio.com/en/worksheets"
+      },
+      {
+        "target": "/de/worksheets",
+        "status": "PASS",
+        "message": "canonical 200-direct: https://www.lessoncraftstudio.com/de/worksheets"
+      },
+      {
+        "target": "/es/worksheets",
+        "status": "PASS",
+        "message": "canonical 200-direct: https://www.lessoncraftstudio.com/es/worksheets"
+      },
+      {
+        "target": "/en/topic/animals",
+        "status": "PASS",
+        "message": "canonical 200-direct: https://www.lessoncraftstudio.com/en/topic/animals"
+      },
+      {
+        "target": "/de/topic/tiere",
+        "status": "PASS",
+        "message": "canonical 200-direct: https://www.lessoncraftstudio.com/de/topic/tiere"
+      },
+      {
+        "target": "/en/topic/animals/addition",
+        "status": "PASS",
+        "message": "canonical 200-direct: https://www.lessoncraftstudio.com/en/topic/animals/addition"
+      },
+      {
+        "target": "/en/activities",
+        "status": "PASS",
+        "message": "canonical 200-direct: https://www.lessoncraftstudio.com/en/activities"
+      },
+      {
+        "target": "/de/activities",
+        "status": "PASS",
+        "message": "canonical 200-direct: https://www.lessoncraftstudio.com/de/activities"
+      },
+      {
+        "target": "/es/activities",
+        "status": "PASS",
+        "message": "canonical 200-direct: https://www.lessoncraftstudio.com/es/activities"
+      },
+      {
+        "target": "/en/tools",
+        "status": "PASS",
+        "message": "canonical 200-direct: https://www.lessoncraftstudio.com/en/tools"
+      },
+      {
+        "target": "/de/tools",
+        "status": "PASS",
+        "message": "canonical 200-direct: https://www.lessoncraftstudio.com/de/tools"
+      },
+      {
+        "target": "/en/about",
+        "status": "PASS",
+        "message": "canonical 200-direct: https://www.lessoncraftstudio.com/en/about"
+      },
+      {
+        "target": "/de/about",
+        "status": "PASS",
+        "message": "canonical 200-direct: https://www.lessoncraftstudio.com/de/about"
+      },
+      {
+        "target": "/sv/about",
+        "status": "PASS",
+        "message": "canonical 200-direct: https://www.lessoncraftstudio.com/sv/about"
+      },
+      {
+        "target": "/fi/about",
+        "status": "PASS",
+        "message": "canonical 200-direct: https://www.lessoncraftstudio.com/fi/about"
+      }
+    ],
+    "C.2-hreflang-reciprocity": [
+      {
+        "target": "/en",
+        "status": "PASS",
+        "message": "12 alternates all 200-direct"
+      },
+      {
+        "target": "/de",
+        "status": "PASS",
+        "message": "12 alternates all 200-direct"
+      },
+      {
+        "target": "/es",
+        "status": "PASS",
+        "message": "12 alternates all 200-direct"
+      },
+      {
+        "target": "/fi",
+        "status": "PASS",
+        "message": "12 alternates all 200-direct"
+      },
+      {
+        "target": "/en/worksheets",
+        "status": "PASS",
+        "message": "12 alternates all 200-direct"
+      },
+      {
+        "target": "/de/worksheets",
+        "status": "PASS",
+        "message": "12 alternates all 200-direct"
+      },
+      {
+        "target": "/es/worksheets",
+        "status": "PASS",
+        "message": "12 alternates all 200-direct"
+      },
+      {
+        "target": "/en/topic/animals",
+        "status": "PASS",
+        "message": "11 sibling alternate(s) all 200-direct"
+      },
+      {
+        "target": "/de/topic/tiere",
+        "status": "PASS",
+        "message": "11 sibling alternate(s) all 200-direct"
+      },
+      {
+        "target": "/en/topic/animals/addition",
+        "status": "PASS",
+        "message": "11 sibling alternate(s) all 200-direct"
+      },
+      {
+        "target": "/en/activities",
+        "status": "PASS",
+        "message": "12 alternates all 200-direct"
+      },
+      {
+        "target": "/de/activities",
+        "status": "PASS",
+        "message": "12 alternates all 200-direct"
+      },
+      {
+        "target": "/es/activities",
+        "status": "PASS",
+        "message": "12 alternates all 200-direct"
+      },
+      {
+        "target": "/en/tools",
+        "status": "PASS",
+        "message": "12 alternates all 200-direct"
+      },
+      {
+        "target": "/de/tools",
+        "status": "PASS",
+        "message": "12 alternates all 200-direct"
+      },
+      {
+        "target": "/en/about",
+        "status": "PASS",
+        "message": "12 alternates all 200-direct"
+      },
+      {
+        "target": "/de/about",
+        "status": "PASS",
+        "message": "12 alternates all 200-direct"
+      },
+      {
+        "target": "/sv/about",
+        "status": "PASS",
+        "message": "12 alternates all 200-direct"
+      },
+      {
+        "target": "/fi/about",
+        "status": "PASS",
+        "message": "12 alternates all 200-direct"
+      }
+    ],
+    "C.3-deck-slash": [
+      {
+        "target": "en/decks/word-scramble-easy-beach/",
+        "status": "PASS",
+        "message": "200-direct, canonical=https://www.lessoncraftstudio.com/en/decks/word-scramble-easy-beach/"
+      },
+      {
+        "target": "it/decks/cruciverba-colori-753f/",
+        "status": "PASS",
+        "message": "200-direct, canonical=https://www.lessoncraftstudio.com/it/decks/cruciverba-colori-753f/"
+      }
+    ],
+    "C.4-robots-matrix": [
+      {
+        "target": "/en",
+        "status": "PASS",
+        "message": "indexable (no robots noindex)"
+      },
+      {
+        "target": "/de",
+        "status": "PASS",
+        "message": "indexable (no robots noindex)"
+      },
+      {
+        "target": "/es",
+        "status": "PASS",
+        "message": "indexable (no robots noindex)"
+      },
+      {
+        "target": "/fi",
+        "status": "PASS",
+        "message": "indexable (no robots noindex)"
+      },
+      {
+        "target": "/en/worksheets",
+        "status": "PASS",
+        "message": "indexable (no robots noindex)"
+      },
+      {
+        "target": "/de/worksheets",
+        "status": "PASS",
+        "message": "indexable (no robots noindex)"
+      },
+      {
+        "target": "/es/worksheets",
+        "status": "PASS",
+        "message": "indexable (no robots noindex)"
+      },
+      {
+        "target": "/en/topic/animals",
+        "status": "PASS",
+        "message": "indexable (no robots noindex)"
+      },
+      {
+        "target": "/de/topic/tiere",
+        "status": "PASS",
+        "message": "indexable (no robots noindex)"
+      },
+      {
+        "target": "/en/topic/animals/addition",
+        "status": "PASS",
+        "message": "indexable (no robots noindex)"
+      },
+      {
+        "target": "/en/activities",
+        "status": "PASS",
+        "message": "indexable (no robots noindex)"
+      },
+      {
+        "target": "/de/activities",
+        "status": "PASS",
+        "message": "indexable (no robots noindex)"
+      },
+      {
+        "target": "/es/activities",
+        "status": "PASS",
+        "message": "indexable (no robots noindex)"
+      },
+      {
+        "target": "/en/tools",
+        "status": "PASS",
+        "message": "indexable (no robots noindex)"
+      },
+      {
+        "target": "/de/tools",
+        "status": "PASS",
+        "message": "indexable (no robots noindex)"
+      },
+      {
+        "target": "/en/about",
+        "status": "PASS",
+        "message": "indexable (no robots noindex)"
+      },
+      {
+        "target": "/de/about",
+        "status": "PASS",
+        "message": "indexable (no robots noindex)"
+      },
+      {
+        "target": "/sv/about",
+        "status": "PASS",
+        "message": "indexable (no robots noindex)"
+      },
+      {
+        "target": "/fi/about",
+        "status": "PASS",
+        "message": "indexable (no robots noindex)"
+      }
+    ],
+    "C.5-410-200-matrix": [
+      {
+        "target": "/en/apps/big-small-worksheets",
+        "status": "PASS",
+        "message": "410 Gone"
+      },
+      {
+        "target": "/en/tools/niche-finder",
+        "status": "PASS",
+        "message": "410 Gone"
+      },
+      {
+        "target": "/en/blog",
+        "status": "PASS",
+        "message": "410 Gone"
+      },
+      {
+        "target": "/en/guides",
+        "status": "PASS",
+        "message": "410 Gone"
+      },
+      {
+        "target": "/en",
+        "status": "PASS",
+        "message": "200-direct"
+      },
+      {
+        "target": "/en/worksheets",
+        "status": "PASS",
+        "message": "200-direct"
+      },
+      {
+        "target": "/en/topic/animals",
+        "status": "PASS",
+        "message": "200-direct"
+      },
+      {
+        "target": "/en/activities",
+        "status": "PASS",
+        "message": "200-direct"
+      },
+      {
+        "target": "/en/tools",
+        "status": "PASS",
+        "message": "200-direct"
+      },
+      {
+        "target": "/en/about",
+        "status": "PASS",
+        "message": "200-direct"
+      },
+      {
+        "target": "/en/tools",
+        "status": "PASS",
+        "message": "manipulatives carve-out 200-direct"
+      },
+      {
+        "target": "/en/tools/niche-finder",
+        "status": "PASS",
+        "message": "sub-path correctly 410-Gone"
+      },
+      {
+        "target": "/en/pricing",
+        "status": "PASS",
+        "message": "reshelled 404 (intentional per CLAUDE.md §17.1)"
+      }
+    ],
+    "C.6-host-canonicalization": [
+      {
+        "target": "apex→www",
+        "status": "PASS",
+        "message": "301 → https://www.lessoncraftstudio.com/"
+      }
+    ],
+    "C.7-og-image-reality": [
+      {
+        "target": "/en/worksheets",
+        "status": "PASS",
+        "message": "og:image=https://www.lessoncraftstudio.com/og-homepage.png (1200×630), twitter=summary_large_image, HEAD 200 image/png"
+      },
+      {
+        "target": "/de/worksheets",
+        "status": "PASS",
+        "message": "og:image=https://www.lessoncraftstudio.com/og-homepage.png (1200×630), twitter=summary_large_image, HEAD 200 image/png"
+      },
+      {
+        "target": "/es/worksheets",
+        "status": "PASS",
+        "message": "og:image=https://www.lessoncraftstudio.com/og-homepage.png (1200×630), twitter=summary_large_image, HEAD 200 image/png"
+      },
+      {
+        "target": "/en/topic/animals",
+        "status": "PASS",
+        "message": "og:image=https://www.lessoncraftstudio.com/og-homepage.png (1200×630), twitter=summary_large_image, HEAD 200 image/png"
+      },
+      {
+        "target": "/de/topic/tiere",
+        "status": "PASS",
+        "message": "og:image=https://www.lessoncraftstudio.com/og-homepage.png (1200×630), twitter=summary_large_image, HEAD 200 image/png"
+      },
+      {
+        "target": "/en/topic/animals/addition",
+        "status": "PASS",
+        "message": "og:image=https://www.lessoncraftstudio.com/og-homepage.png (1200×630), twitter=summary_large_image, HEAD 200 image/png"
+      },
+      {
+        "target": "/en/activities",
+        "status": "PASS",
+        "message": "og:image=https://www.lessoncraftstudio.com/og-homepage.png (1200×630), twitter=summary_large_image, HEAD 200 image/png"
+      },
+      {
+        "target": "/de/activities",
+        "status": "PASS",
+        "message": "og:image=https://www.lessoncraftstudio.com/og-homepage.png (1200×630), twitter=summary_large_image, HEAD 200 image/png"
+      },
+      {
+        "target": "/es/activities",
+        "status": "PASS",
+        "message": "og:image=https://www.lessoncraftstudio.com/og-homepage.png (1200×630), twitter=summary_large_image, HEAD 200 image/png"
+      },
+      {
+        "target": "/en/about",
+        "status": "PASS",
+        "message": "og:image=https://www.lessoncraftstudio.com/og-homepage.png (1200×630), twitter=summary_large_image, HEAD 200 image/png"
+      },
+      {
+        "target": "/de/about",
+        "status": "PASS",
+        "message": "og:image=https://www.lessoncraftstudio.com/og-homepage.png (1200×630), twitter=summary_large_image, HEAD 200 image/png"
+      },
+      {
+        "target": "/sv/about",
+        "status": "PASS",
+        "message": "og:image=https://www.lessoncraftstudio.com/og-homepage.png (1200×630), twitter=summary_large_image, HEAD 200 image/png"
+      },
+      {
+        "target": "/fi/about",
+        "status": "PASS",
+        "message": "og:image=https://www.lessoncraftstudio.com/og-homepage.png (1200×630), twitter=summary_large_image, HEAD 200 image/png"
+      }
+    ],
+    "C.8-structured-data": [
+      {
+        "target": "/en/topic/animals",
+        "status": "PASS",
+        "message": "BreadcrumbList matches visible hrefs (2 items)"
+      },
+      {
+        "target": "/de/topic/tiere",
+        "status": "PASS",
+        "message": "BreadcrumbList matches visible hrefs (2 items)"
+      },
+      {
+        "target": "/en/topic/animals/addition",
+        "status": "PASS",
+        "message": "BreadcrumbList matches visible hrefs (3 items)"
+      },
+      {
+        "target": "/en/about",
+        "status": "PASS",
+        "message": "AboutPage references Organization by @id (no duplicate definition)"
+      },
+      {
+        "target": "/de/about",
+        "status": "PASS",
+        "message": "AboutPage references Organization by @id (no duplicate definition)"
+      },
+      {
+        "target": "/sv/about",
+        "status": "PASS",
+        "message": "AboutPage references Organization by @id (no duplicate definition)"
+      },
+      {
+        "target": "/fi/about",
+        "status": "PASS",
+        "message": "AboutPage references Organization by @id (no duplicate definition)"
+      }
+    ],
+    "C.9-i18n-regression": [
+      {
+        "target": "de",
+        "status": "PASS",
+        "message": "no regression: missing 50→50 (0), placeholder 0→0 (0)"
+      },
+      {
+        "target": "fr",
+        "status": "PASS",
+        "message": "no regression: missing 50→50 (0), placeholder 1→1 (0)"
+      },
+      {
+        "target": "es",
+        "status": "PASS",
+        "message": "no regression: missing 51→51 (0), placeholder 1→1 (0)"
+      },
+      {
+        "target": "pt",
+        "status": "PASS",
+        "message": "no regression: missing 51→51 (0), placeholder 1→1 (0)"
+      },
+      {
+        "target": "it",
+        "status": "PASS",
+        "message": "no regression: missing 51→51 (0), placeholder 1→1 (0)"
+      },
+      {
+        "target": "nl",
+        "status": "PASS",
+        "message": "no regression: missing 51→51 (0), placeholder 1→1 (0)"
+      },
+      {
+        "target": "sv",
+        "status": "PASS",
+        "message": "no regression: missing 50→50 (0), placeholder 1→1 (0)"
+      },
+      {
+        "target": "da",
+        "status": "PASS",
+        "message": "no regression: missing 51→51 (0), placeholder 1→1 (0)"
+      },
+      {
+        "target": "no",
+        "status": "PASS",
+        "message": "no regression: missing 46→46 (0), placeholder 1→1 (0)"
+      },
+      {
+        "target": "fi",
+        "status": "PASS",
+        "message": "no regression: missing 51→51 (0), placeholder 1→1 (0)"
+      }
+    ]
+  },
+  "passCount": 103,
+  "failCount": 0,
+  "verifyOnly": 0,
+  "summary": {
+    "pass": 103,
+    "fail": 0,
+    "operatorVerify": 0,
+    "total": 103
+  }
+}

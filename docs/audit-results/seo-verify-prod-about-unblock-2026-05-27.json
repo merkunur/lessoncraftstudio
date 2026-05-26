@@ -1,0 +1,78 @@
+{
+  "state": "POST-DEPLOY live prod (2026-05-27 NSR clearance)",
+  "base": "https://www.lessoncraftstudio.com",
+  "sitemapUrl": "https://www.lessoncraftstudio.com/sitemap/3.xml",
+  "at": "2026-05-26T22:50:54.085Z",
+  "sitemapAboutLocales": [
+    "da",
+    "de",
+    "en",
+    "es",
+    "fi",
+    "fr",
+    "it",
+    "nl",
+    "no",
+    "pt",
+    "sv"
+  ],
+  "sitemapAboutCount": 11,
+  "sitemapAboutNewlyAdded": [
+    "da",
+    "fi",
+    "no",
+    "sv"
+  ],
+  "robotsPerLocale": {
+    "en": {
+      "status": 200,
+      "robots": "index, follow"
+    },
+    "de": {
+      "status": 200,
+      "robots": "index, follow"
+    },
+    "fr": {
+      "status": 200,
+      "robots": "index, follow"
+    },
+    "es": {
+      "status": 200,
+      "robots": "index, follow"
+    },
+    "pt": {
+      "status": 200,
+      "robots": "index, follow"
+    },
+    "it": {
+      "status": 200,
+      "robots": "index, follow"
+    },
+    "nl": {
+      "status": 200,
+      "robots": "index, follow"
+    },
+    "sv": {
+      "status": 200,
+      "robots": "index, follow"
+    },
+    "da": {
+      "status": 200,
+      "robots": "index, follow"
+    },
+    "no": {
+      "status": 200,
+      "robots": "index, follow"
+    },
+    "fi": {
+      "status": 200,
+      "robots": "index, follow"
+    }
+  },
+  "summary": {
+    "allElevenReturn200": true,
+    "allElevenIndexable": true,
+    "sitemapHasAll11": true,
+    "nsrClearedLocalesNowInSitemap": true
+  }
+}

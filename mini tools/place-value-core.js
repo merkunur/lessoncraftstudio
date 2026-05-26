@@ -83,7 +83,15 @@ window.PlaceValueCore = {
     /* Screen-reader fragments for placed-block aria-labels. */
     srTenRod:     { en: 'ten-rod',  de: 'Zehnerstab',          es: 'barra de diez',           it: 'barra di dieci',                                      fr: 'barre de dix',                                        pt: 'barra de dez',                                        nl: 'tienstaaf',                                           sv: 'tiostav',                                             da: 'tier-stang',                                          no: 'tierstav',                                            fi: 'kymmensauva' },
     srUnitCube:   { en: 'unit-cube',de: 'Einerwürfel',         es: 'cubo de uno',             it: 'cubo da uno',                                         fr: 'cube unité',                                          pt: 'cubinho',                                             nl: 'blokje',                                              sv: 'enhetskub',                                           da: 'ener-terning',                                        no: 'enerterning',                                         fi: 'ykköskuutio' },
-    srRemove:     { en: 'remove',   de: 'entferne',            es: 'quitar',                  it: 'rimuovi',                                             fr: 'retire',                                              pt: 'remova',                                              nl: 'verwijder',                                           sv: 'ta bort',                                             da: 'fjern',                                               no: 'fjern',                                               fi: 'poista' }
+    srRemove:     { en: 'remove',   de: 'entferne',            es: 'quitar',                  it: 'rimuovi',                                             fr: 'retire',                                              pt: 'remova',                                              nl: 'verwijder',                                           sv: 'ta bort',                                             da: 'fjern',                                               no: 'fjern',                                               fi: 'poista' },
+
+    /* ---- 3-place activity (2.NBT.A.1) strings — EN-only for now.
+       These keys are read ONLY when this.places contains 'hundreds'.
+       2-place activity ignores them entirely (byte-identical behavior). */
+    hundredsLabel:   { en: 'Hundreds' },
+    addHundredLabel: { en: 'Add hundred' },
+    wordHundred:     { en: 'hundred' },      // tap-utterance, singular (matches ten/one convention)
+    srHundredsFlat:  { en: 'hundreds-flat' } // sr-only aria-label fragment
   },
 
   defaults: {},
@@ -93,34 +101,73 @@ window.PlaceValueCore = {
   init: function (api) {
     this.api = api;
     this.targetNumber = 0;
+    this.targetHundreds = 0;  // 3-place mode only; 0 in 2-place mode
     this.targetTens = 0;
     this.targetOnes = 0;
+    this.hundredsCount = 0;   // 3-place mode only
     this.tensCount = 0;
     this.onesCount = 0;
+    this.maxHundreds = 0;     // 0 in 2-place mode (gates rendering)
     this.maxTens = 9;
     this.maxOnes = 9;
     this.readOnly = false;
+    this.places = ['tens', 'ones'];  // default 2-place; 3-place activity sets ['hundreds','tens','ones']
     this.language = (api && api.lang) || 'en';
   },
 
-  /* Per-task hook. opts = { target, maxTens=9, maxOnes=9 }. Derives the
-     decomposition deterministically so per-task `check(tool)` is just
-     `tool.tensCount === tool.targetTens && tool.onesCount === tool.targetOnes`. */
+  /* Per-task hook. opts = { target, places?, maxHundreds=9, maxTens=9, maxOnes=9 }.
+     When opts.places is omitted or doesn't include 'hundreds', behaves
+     BYTE-IDENTICAL to the original 2-place engine (this.places defaults to
+     ['tens','ones']; derivation uses target/10 and target%10; hundreds state
+     stays at zero). When opts.places includes 'hundreds', derives
+     hundreds/tens/ones from target/100/10/1 for the 2.NBT.A.1 activity. */
   setupTask: function (opts) {
     opts = opts || {};
     var target = (typeof opts.target === 'number' && opts.target >= 0) ? opts.target : 0;
     this.targetNumber = target;
-    this.targetTens = Math.floor(target / 10);
-    this.targetOnes = target % 10;
+    this.places = Array.isArray(opts.places) ? opts.places.slice() : ['tens', 'ones'];
+    var has3 = this.places.indexOf('hundreds') >= 0;
+    if (has3) {
+      this.targetHundreds = Math.floor(target / 100);
+      this.targetTens = Math.floor((target % 100) / 10);
+      this.targetOnes = target % 10;
+      this.maxHundreds = (typeof opts.maxHundreds === 'number') ? opts.maxHundreds : 9;
+    } else {
+      this.targetHundreds = 0;
+      this.targetTens = Math.floor(target / 10);
+      this.targetOnes = target % 10;
+      this.maxHundreds = 0;
+    }
     this.maxTens = (typeof opts.maxTens === 'number') ? opts.maxTens : 9;
     this.maxOnes = (typeof opts.maxOnes === 'number') ? opts.maxOnes : 9;
+    this.hundredsCount = 0;
     this.tensCount = 0;
     this.onesCount = 0;
     this.readOnly = false;
   },
 
-  /* Derived build value for prompt readout + hints. */
-  builtValue: function () { return this.tensCount * 10 + this.onesCount; },
+  /* Derived build value for prompt readout + hints. In 2-place mode
+     hundredsCount is always 0 → byte-identical to original tens*10 + ones. */
+  builtValue: function () { return this.hundredsCount * 100 + this.tensCount * 10 + this.onesCount; },
+
+  addHundred: function () {
+    if (this.readOnly) return;
+    if (this.hundredsCount >= this.maxHundreds) return;
+    this.hundredsCount++;
+    this._speakWord(this.api.t('wordHundred'));
+    this.api.sound(560);  // lower pitch than ten (660) — hundred is "bigger"
+    this.paint();
+    this._announceBuild();
+  },
+
+  removeHundred: function (idx) {
+    if (this.readOnly) return;
+    if (typeof idx !== 'number' || idx < 0 || idx >= this.hundredsCount) return;
+    this.hundredsCount--;
+    this.api.sound(340);
+    this.paint();
+    this._announceBuild();
+  },
 
   addTen: function () {
     if (this.readOnly) return;
@@ -209,7 +256,7 @@ window.PlaceValueCore = {
   _numberWord: function (n, lang, mode, capitalize) {
     lang = lang || (this && this.language) || 'en';
     mode = mode || 'cardinal';
-    if (n < 0 || n > 99) return String(n);
+    if (n < 0 || n > 999) return String(n);
     var helper = (this._NUMBER_WORD_HELPERS && this._NUMBER_WORD_HELPERS[lang])
                   ? this._NUMBER_WORD_HELPERS[lang]
                   : this._NUMBER_WORD_HELPERS.en;
@@ -223,13 +270,25 @@ window.PlaceValueCore = {
   _NUMBER_WORD_HELPERS: {
     en: function (n, mode) {
       /* 0-19 lookup; 20-99 = tens-word + "-" + ones-word (or tens-word
-         alone when ones===0). mode is ignored (cardinal===attributive). */
+         alone when ones===0). 100-999 = ones-word + "hundred" + " " +
+         sub99(remainder) — US Common Core convention with NO "and"
+         between hundreds and tens (305 = "three hundred five", NOT
+         "three hundred and five"). Round hundreds: 200 = "two hundred".
+         Zero-tens: 305 = "three hundred five". Zero-ones: 420 = "four
+         hundred twenty". mode is ignored (cardinal===attributive). */
       var ones = ['zero','one','two','three','four','five','six','seven','eight','nine',
                   'ten','eleven','twelve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen'];
       var tens = ['','','twenty','thirty','forty','fifty','sixty','seventy','eighty','ninety'];
-      if (n < 20) return ones[n];
-      var t = Math.floor(n / 10), o = n % 10;
-      return (o === 0) ? tens[t] : (tens[t] + '-' + ones[o]);
+      function sub99(m) {
+        if (m < 20) return ones[m];
+        var t = Math.floor(m / 10), o = m % 10;
+        return (o === 0) ? tens[t] : (tens[t] + '-' + ones[o]);
+      }
+      if (n < 100) return sub99(n);
+      var h = Math.floor(n / 100), rem = n % 100;
+      var hPart = ones[h] + ' hundred';
+      if (rem === 0) return hPart;
+      return hPart + ' ' + sub99(rem);
     },
     de: function (n, mode) {
       /* Units-first compound: 'einundzwanzig' = 1 + 'und' + 20. */
@@ -581,7 +640,28 @@ window.PlaceValueCore = {
     if (!window.LCSAudio || !window.LCSAudio.speak) return;
     var lang = this.language;
     var sentence;
-    if (lang === 'fi') {
+    /* 3-place mode (activity 2 — 2.NBT.A.1). Gated on this.places
+       including 'hundreds'. EN-only for now; future fan-out adds other
+       locale branches here. Zero places ARE spoken — naming "0 tens" is
+       the 2.NBT.A.1 teaching point. */
+    if (this.places && this.places.indexOf('hundreds') >= 0) {
+      if (lang === 'en') {
+        var hWordEN3 = this._numberWord(this.targetHundreds, 'en');
+        var tWordEN3 = this._numberWord(this.targetTens,     'en');
+        var oWordEN3 = this._numberWord(this.targetOnes,     'en');
+        var nWordEN3 = this._numberWord(this.targetNumber,   'en');
+        var hPartEN3 = hWordEN3 + ' hundred' + (this.targetHundreds === 1 ? '' : 's');
+        var tPartEN3 = tWordEN3 + ' ten'     + (this.targetTens     === 1 ? '' : 's');
+        var oPartEN3 = oWordEN3 + ' one'     + (this.targetOnes     === 1 ? '' : 's');
+        sentence = hPartEN3 + ', ' + tPartEN3 + ', and ' + oPartEN3 + ' make ' + nWordEN3;
+      }
+      /* Other locales in 3-place mode without an EN-3P branch leave
+         `sentence` undefined → falls through to the 2-place branches
+         below (graceful degradation; will not occur in shipped state). */
+    }
+    if (sentence) {
+      // 3-place sentence resolved above; skip 2-place branches.
+    } else if (lang === 'fi') {
       var tensWordFI   = this._numberWord(this.targetTens,   'fi', 'attributive', false);
       var onesWordFI   = this._numberWord(this.targetOnes,   'fi', 'attributive', false);
       var targetWordFI = this._numberWord(this.targetNumber, 'fi', 'cardinal',     false);
@@ -726,6 +806,43 @@ window.PlaceValueCore = {
 
     var mat = this.api.el('div', 'pv-mat');
 
+    /* 3-place mode (activity 2 — 2.NBT.A.1): add the .pv-mat--3p
+       modifier class which scopes the narrower tray/manipulative
+       sizings (CSS below at the .pv-mat--3p selectors), AND override
+       grid-template-columns inline so the default `auto auto` becomes
+       `auto auto auto`. 2-place mode does NEITHER — the existing CSS
+       default applies and tens/ones trays render byte-identical. */
+    var has3places = this.places && this.places.indexOf('hundreds') >= 0;
+    if (has3places) {
+      mat.classList.add('pv-mat--3p');
+      mat.style.gridTemplateColumns = 'repeat(' + this.places.length + ', auto)';
+    }
+
+    /* HUNDREDS column — APPENDED FIRST in 3-place mode so column order is
+       hundreds → tens → ones (mirrors written place-value order). In
+       2-place mode this block is skipped entirely; mat contains only
+       tens + ones columns in the same order as before (byte-identical). */
+    var addHundredBtn = null;
+    var hundredsTray = null;
+    if (has3places) {
+      var hundredsCol = this.api.el('div', 'pv-col pv-col--hundreds');
+      var hundredsLabel = this.api.el('div', 'pv-col-label');
+      hundredsLabel.textContent = this.api.t('hundredsLabel');
+      hundredsCol.appendChild(hundredsLabel);
+
+      addHundredBtn = this.api.el('button', 'pv-add-btn pv-add-btn--hundred');
+      addHundredBtn.type = 'button';
+      addHundredBtn.textContent = this.api.t('addHundredLabel');
+      addHundredBtn.setAttribute('aria-label', this.api.t('addHundredLabel'));
+      addHundredBtn.addEventListener('click', function () { self.addHundred(); });
+      hundredsCol.appendChild(addHundredBtn);
+
+      hundredsTray = this.api.el('div', 'pv-tray pv-tray--hundreds');
+      hundredsCol.appendChild(hundredsTray);
+
+      mat.appendChild(hundredsCol);
+    }
+
     /* TENS column */
     var tensCol = this.api.el('div', 'pv-col pv-col--tens');
     var tensLabel = this.api.el('div', 'pv-col-label');
@@ -775,10 +892,13 @@ window.PlaceValueCore = {
 
     stage.appendChild(wrap);
 
-    /* Stash refs for paint(). */
+    /* Stash refs for paint(). hundreds refs are null in 2-place mode
+       (paint() guards on this._hundredsTray presence). */
+    this._hundredsTray = hundredsTray;
     this._tensTray = tensTray;
     this._onesTray = onesTray;
     this._readoutNum = readoutNum;
+    this._addHundredBtn = addHundredBtn;
     this._addTenBtn = addTenBtn;
     this._addOneBtn = addOneBtn;
 
@@ -791,6 +911,26 @@ window.PlaceValueCore = {
   paint: function () {
     if (!this._tensTray) return;
     var self = this;
+
+    /* Hundreds tray (3-place mode only): hundredsCount flats, each
+       tappable to remove. In 2-place mode this._hundredsTray is null
+       (the guard skips the loop entirely). */
+    if (this._hundredsTray) {
+      this._hundredsTray.innerHTML = '';
+      for (var hi = 0; hi < this.hundredsCount; hi++) {
+        var flatWrap = document.createElement('button');
+        flatWrap.type = 'button';
+        flatWrap.className = 'pv-block pv-flat';
+        flatWrap.dataset.idx = String(hi);
+        flatWrap.setAttribute('aria-label',
+          this.api.t('srRemove') + ' ' + this.api.t('srHundredsFlat') + ' ' + (hi + 1));
+        flatWrap.innerHTML = this._flatSvg();
+        (function (idx) {
+          flatWrap.addEventListener('click', function () { self.removeHundred(idx); });
+        }(hi));
+        this._hundredsTray.appendChild(flatWrap);
+      }
+    }
 
     /* Tens tray: tensCount rods, each tappable to remove. */
     this._tensTray.innerHTML = '';
@@ -828,11 +968,13 @@ window.PlaceValueCore = {
     if (this._readoutNum) this._readoutNum.textContent = String(this.builtValue());
 
     /* Add-buttons disable at cap. */
+    if (this._addHundredBtn) this._addHundredBtn.disabled = (this.hundredsCount >= this.maxHundreds) || this.readOnly;
     if (this._addTenBtn) this._addTenBtn.disabled = (this.tensCount >= this.maxTens) || this.readOnly;
     if (this._addOneBtn) this._addOneBtn.disabled = (this.onesCount >= this.maxOnes) || this.readOnly;
   },
 
   reset: function () {
+    this.hundredsCount = 0;
     this.tensCount = 0;
     this.onesCount = 0;
     this.readOnly = false;
@@ -881,6 +1023,31 @@ window.PlaceValueCore = {
     ].join('');
   },
 
+  _flatSvg: function () {
+    /* Hundreds-flat: 10×10 grid square. Same coral fill #F2784B as cube
+       and rod (per Direction A: same color, same semantic, just bundled).
+       9 horizontal + 9 vertical white divider lines partition the flat
+       into 100 visible unit cells — the load-bearing teaching cue that
+       a flat = 10 rods = 100 cubes. Smaller rx=6 (vs cube's rx=12) so
+       the flat reads as a "rigid grid of units" rather than a soft
+       rounded block. preserveAspectRatio="xMidYMid meet" keeps the flat
+       square at any size. Small white highlight at top-left echoes the
+       cube's highlight motif. */
+    var lines = '';
+    for (var i = 1; i < 10; i++) {
+      var pos = i * 10;
+      lines += '<line x1="' + pos + '" y1="4" x2="' + pos + '" y2="96" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="0.6"/>';
+      lines += '<line x1="4" y1="' + pos + '" x2="96" y2="' + pos + '" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="0.6"/>';
+    }
+    return [
+      '<svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet" aria-hidden="true">',
+        '<rect x="4" y="4" width="92" height="92" rx="6" ry="6" fill="#F2784B"/>',
+        '<rect x="14" y="14" width="14" height="10" rx="2" ry="2" fill="#FFFFFF" opacity="0.30"/>',
+        lines,
+      '</svg>'
+    ].join('');
+  },
+
   /* ---- stage CSS — Direction A tokens, !important per §A.13.47 rule 6 ---- */
   _cssInjected: false,
   injectCSS: function () {
@@ -899,6 +1066,7 @@ window.PlaceValueCore = {
          carries a soft teal-tinted wash to mark "this is the tens PLACE"
          without recoloring the blocks. */
       '.pv-col{display:flex !important;flex-direction:column !important;align-items:center !important;gap:clamp(8px,1.8vmin,14px) !important;padding:clamp(8px,2vmin,14px) clamp(6px,1.6vmin,12px) !important;border-radius:18px !important;}',
+      '.pv-col--hundreds{background:rgba(20,107,94,0.10) !important;}',
       '.pv-col--tens{background:rgba(20,107,94,0.06) !important;}',
       '.pv-col--ones{background:rgba(20,107,94,0.02) !important;}',
 
@@ -970,6 +1138,9 @@ window.PlaceValueCore = {
       '.pv-rod svg{width:100% !important;height:100% !important;display:block !important;filter:drop-shadow(0 2px 4px rgba(20,30,28,0.18)) !important;}',
       '.pv-cube{flex-shrink:0 !important;}',
       '.pv-cube svg{width:clamp(28px,6vw,44px) !important;height:clamp(28px,6vw,44px) !important;display:block !important;filter:drop-shadow(0 2px 3px rgba(20,30,28,0.16)) !important;}',
+      /* Flat (hundreds-block): square aspect; sizing scoped under
+         .pv-mat--3p (the only mode where hundreds-tray renders). */
+      '.pv-flat{flex-shrink:0 !important;}',
 
       /* Readout: pill carrying the running total, large + teal + Baloo 2. */
       '.pv-readout{display:inline-flex !important;align-items:center !important;gap:14px !important;background:linear-gradient(180deg,#FFFEFB 0%,#FAF1DF 100%) !important;padding:clamp(6px,1.4vmin,10px) clamp(16px,3vw,24px) !important;border-radius:999px !important;box-shadow:inset 0 1px 0 rgba(255,255,255,0.8),0 4px 10px rgba(20,30,28,0.08) !important;}',
@@ -1007,7 +1178,30 @@ window.PlaceValueCore = {
       '  .pv-tray--ones{height:clamp(240px,16vw,280px) !important;grid-template-columns:repeat(3,clamp(34px,2.6vw,44px)) !important;grid-auto-rows:clamp(34px,2.6vw,44px) !important;}',
       '  .pv-rod{width:clamp(20px,1.4vw,22px) !important;}',
       '  .pv-cube svg{width:clamp(34px,2.6vw,44px) !important;height:clamp(34px,2.6vw,44px) !important;}',
-      '}'
+      '}',
+
+      /* === 3-PLACE MODE (.pv-mat--3p) — activity 2 / 2.NBT.A.1 ===
+         Three columns must fit side-by-side at phone 375px without
+         stacking (the spatial Hundreds-Tens-Ones cognition IS the
+         place-value teaching point). Trays + manipulatives scale
+         narrower than 2-place mode. Scoped via .pv-mat--3p so the
+         2-place mat (no --3p class) preserves its byte-identical
+         original sizing across all breakpoints. */
+      '.pv-mat--3p{max-width:96vw !important;gap:clamp(6px,1.6vw,14px) !important;}',
+      '.pv-mat--3p .pv-col{padding:clamp(6px,1.4vw,10px) clamp(3px,0.8vw,7px) !important;}',
+      '.pv-mat--3p .pv-col-label{font-size:clamp(10px,2.2vw,14px) !important;}',
+      '.pv-mat--3p .pv-add-btn{font-size:clamp(11px,2.2vw,14px) !important;padding:clamp(6px,1.4vmin,9px) clamp(8px,2vw,14px) !important;min-width:clamp(48px,12vw,100px) !important;}',
+      /* Tens tray narrower in 3-place: width ~28vw instead of 46vw. */
+      '.pv-mat--3p .pv-tray--tens{width:clamp(92px,24vw,140px) !important;height:clamp(150px,32vw,220px) !important;gap:clamp(1px,0.4vw,3px) !important;}',
+      /* Ones tray smaller 3-wide cells in 3-place. */
+      '.pv-mat--3p .pv-tray--ones{grid-template-columns:repeat(3,clamp(18px,4.6vw,30px)) !important;grid-auto-rows:clamp(18px,4.6vw,30px) !important;height:clamp(150px,32vw,220px) !important;}',
+      /* Hundreds tray: 3-wide grid of flats. Slightly more opaque than
+         ones-tray to distinguish; same fixed height for column parity. */
+      '.pv-mat--3p .pv-tray--hundreds{display:grid !important;grid-template-columns:repeat(3,clamp(24px,6.4vw,42px)) !important;grid-auto-rows:clamp(24px,6.4vw,42px) !important;gap:clamp(3px,0.8vw,6px) !important;justify-content:center !important;align-content:end !important;width:auto !important;height:clamp(150px,32vw,220px) !important;overflow:hidden !important;padding:clamp(6px,1.4vw,12px) clamp(4px,1vw,10px) !important;background:rgba(255,255,255,0.5) !important;border-radius:14px !important;box-shadow:inset 0 1px 3px rgba(20,30,28,0.06) !important;}',
+      /* Manipulative SVG sizing in 3-place mode. */
+      '.pv-mat--3p .pv-rod{width:clamp(9px,2.4vw,15px) !important;}',
+      '.pv-mat--3p .pv-cube svg{width:clamp(18px,4.6vw,30px) !important;height:clamp(18px,4.6vw,30px) !important;}',
+      '.pv-mat--3p .pv-flat svg{width:clamp(24px,6.4vw,42px) !important;height:clamp(24px,6.4vw,42px) !important;display:block !important;filter:drop-shadow(0 2px 4px rgba(20,30,28,0.18)) !important;}'
     ].join('\n');
     var tag = document.createElement('style');
     tag.textContent = css;

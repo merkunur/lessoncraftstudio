@@ -51,5 +51,28 @@
       "fi": "Rakenna jokainen luku kymmenillä ja ykkösillä. Napauta lisätäksesi kymmensauvan tai ykköskuution — ja katso, kuinka luku kasvaa."
     },
     "kid_prompt_template": "taskBuild"
+  },
+  {
+    "id": "place-value.hundreds-tens-and-ones.2-nbt-a-1",
+    "tool": "place-value-activity",
+    "task_template": "build-hundreds-tens-and-ones",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "2.NBT.A.1",
+      "grade": "2",
+      "strand": "Number and Operations in Base Ten"
+    },
+    "params": { "targets": [200, 247, 305, 420, 583, 906] },
+    "theme": null,
+    "slug": {
+      "en": "hundreds-tens-and-ones"
+    },
+    "page_title": {
+      "en": "Hundreds, Tens, and Ones"
+    },
+    "page_intro": {
+      "en": "Build each three-digit number using hundreds, tens, and ones. Tap to add a hundreds-flat, a ten-rod, or a unit-cube — and watch the number grow."
+    },
+    "kid_prompt_template": "taskBuild"
   }
 ]

@@ -47,7 +47,10 @@ var ACTIVITY_STRINGS = {
                     sv: 'Tio ental blir ett tiotal — gruppera dem',
                     da: 'Ti enere bliver til en tier — grupper dem',
                     no: 'Ti enere blir én tier — grupper dem',
-                    fi: 'Kymmenen ykköstä on yksi kymmen — niputa ne' }
+                    fi: 'Kymmenen ykköstä on yksi kymmen — niputa ne' },
+  /* 3-place activity (2.NBT.A.1) defensive hint — EN-only; unreachable
+     with maxTens=9 but kept for future extensions that lift the cap. */
+  hintBundleHundred: { en: 'Ten tens make one hundred — bundle them' }
 };
 
 /* Fallback static task set when no ?activity= is given. Mirrors the
@@ -55,9 +58,13 @@ var ACTIVITY_STRINGS = {
    the canonical six-task set. */
 var STATIC_DEMO_TASKS = makeBuildTasks([12, 19, 47, 50, 72, 89], 'demo');
 
-function makeBuildTasks(targets, idPrefix) {
+function makeBuildTasks(targets, idPrefix, opts) {
+  opts = opts || {};
+  var places = Array.isArray(opts.places) ? opts.places.slice() : null;
+  var is3p = places && places.indexOf('hundreds') >= 0;
   return targets.map(function (n) {
-    var tens = Math.floor(n / 10);
+    var hundreds = is3p ? Math.floor(n / 100) : 0;
+    var tens = is3p ? Math.floor((n % 100) / 10) : Math.floor(n / 10);
     var ones = n % 10;
     return {
       id: idPrefix + '.build-' + n,
@@ -65,7 +72,9 @@ function makeBuildTasks(targets, idPrefix) {
       promptArgs: { n: n },
       answerType: 'state',
       setup: function (tool) {
-        tool.setupTask({ target: n });
+        /* 2-place call (no opts.places) preserves byte-identical
+           setupTask({target: n}) invocation. 3-place call adds places. */
+        tool.setupTask(places ? { target: n, places: places } : { target: n });
         /* force a re-render so the new task's tray DOM is fresh +
            empty (paint() alone wouldn't tear down the old block
            buttons attached to the prior task's tray refs). */
@@ -73,10 +82,12 @@ function makeBuildTasks(targets, idPrefix) {
       },
       check: function (tool) {
         var correct = (tool.tensCount === tens) && (tool.onesCount === ones);
+        if (is3p) correct = correct && (tool.hundredsCount === hundreds);
         if (correct) {
           tool.readOnly = true;
           tool.paint();
-          tool.speakDecomposition();   /* "N tens and M ones make T" */
+          tool.speakDecomposition();   /* 2-place: "N tens and M ones make T";
+                                          3-place: "H hundreds, T tens, and O ones make N" */
         }
         return correct;
       },
@@ -85,8 +96,10 @@ function makeBuildTasks(targets, idPrefix) {
         if (built === 0) return 'hintBuildMore';
         if (built > n)   return 'hintTooMany';
         if (built < n)   return 'hintBuildMore';
-        /* Same total but wrong decomposition (e.g., 0 tens + 12 ones = 12).
-           Cap=9 makes >=10 ones unreachable, but defensive: */
+        /* Same total but wrong decomposition. Cap=9 per place makes the
+           bundle-up case unreachable, but defensive: in 3-place mode
+           bubble up tens→hundreds; in 2-place mode bubble up ones→tens. */
+        if (is3p && tool.tensCount >= 10) return 'hintBundleHundred';
         return 'hintBundleTen';
       }
     };
@@ -159,6 +172,10 @@ window.PlaceValueActivity = Object.assign({}, PlaceValueCore, {
     if (row.task_template === 'build-tens-and-ones') {
       var targets = (row.params && Array.isArray(row.params.targets)) ? row.params.targets : [];
       return makeBuildTasks(targets, row.id);
+    }
+    if (row.task_template === 'build-hundreds-tens-and-ones') {
+      var targets3 = (row.params && Array.isArray(row.params.targets)) ? row.params.targets : [];
+      return makeBuildTasks(targets3, row.id, { places: ['hundreds', 'tens', 'ones'] });
     }
     return STATIC_DEMO_TASKS;
   }

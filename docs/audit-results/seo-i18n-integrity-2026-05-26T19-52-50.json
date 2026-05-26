@@ -1,0 +1,4412 @@
+{
+  "baseline": {
+    "locale": "en",
+    "keys": 942
+  },
+  "sweepDate": "2026-05-26T19:52:50.208Z",
+  "findings": {
+    "de": {
+      "missing": [
+        "contact.metaTitle",
+        "contact.metaDescription",
+        "terms.metaTitle",
+        "terms.metaDescription",
+        "license.metaTitle",
+        "privacy.metaTitle",
+        "privacy.metaDescription",
+        "faq.categories.education",
+        "faq.items.general",
+        "faq.items.apps",
+        "faq.items.pricing",
+        "faq.items.technical",
+        "faq.items.commercial",
+        "support.status",
+        "support.submitFirstTicket",
+        "support.yourSupportTickets",
+        "support.refresh",
+        "support.responseAvailable",
+        "support.supportTeamResponse",
+        "support.waitingForResponse",
+        "support.supportWillRespond",
+        "support.resolvedOn",
+        "support.confirmDelete",
+        "support.cannotUndo",
+        "support.ticketSubmittedTitle",
+        "support.ticketSubmittedMessage",
+        "support.subject",
+        "support.submitted",
+        "support.whatHappensNext",
+        "support.nextSteps.step1",
+        "support.nextSteps.step2",
+        "support.nextSteps.step3",
+        "support.submitAnotherTicket",
+        "support.priorityOptions.low",
+        "support.priorityOptions.medium",
+        "support.priorityOptions.high",
+        "support.priorityOptions.urgent",
+        "support.email",
+        "support.accountType",
+        "support.quickResponseTitle",
+        "support.quickResponseText",
+        "support.trackTicketTitle",
+        "support.trackTicketText",
+        "support.errorLoadTickets",
+        "support.successDelete",
+        "support.errorDelete",
+        "support.errorSignIn",
+        "support.successSubmit",
+        "support.errorSubmit",
+        "support.errorSubmitRetry"
+      ],
+      "placeholder": [],
+      "enLeak": [
+        {
+          "key": "navigation.blog",
+          "value": "Blog"
+        },
+        {
+          "key": "contact.name",
+          "value": "Name"
+        },
+        {
+          "key": "contact.subjects.feedback",
+          "value": "Feedback"
+        },
+        {
+          "key": "privacy.cookies.title",
+          "value": "10. COOKIES"
+        },
+        {
+          "key": "billing.statusCard.title",
+          "value": "Status"
+        },
+        {
+          "key": "billing.tiers.FREE.availability",
+          "value": "available"
+        },
+        {
+          "key": "billing.tiers.CORE.availability",
+          "value": "not-currently-available"
+        },
+        {
+          "key": "billing.tiers.FULL.availability",
+          "value": "not-currently-available"
+        },
+        {
+          "key": "footer.copyright",
+          "value": "© 2026 LessonCraftStudio."
+        },
+        {
+          "key": "about.stats.generators",
+          "value": "many"
+        },
+        {
+          "key": "about.stats.languages",
+          "value": "many"
+        },
+        {
+          "key": "about.stats.themes",
+          "value": "plenty"
+        },
+        {
+          "key": "seo.educational_level.kindergarten",
+          "value": "Kindergarten"
+        },
+        {
+          "key": "collections.create.nameLabel",
+          "value": "Name"
+        },
+        {
+          "key": "collections.detail.metaTitle",
+          "value": "{name} | LessonCraftStudio"
+        },
+        {
+          "key": "topicPage.intersection.heading",
+          "value": "{primary} · {secondary}"
+        },
+        {
+          "key": "topicPage.crossAxis.pivot",
+          "value": "{primary} · {secondary}"
+        },
+        {
+          "key": "workspace.metadata.description",
+          "value": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
+        },
+        {
+          "key": "homepageV3.pillar01.card2GradeLabel",
+          "value": "Kindergarten"
+        },
+        {
+          "key": "homepageV3.pillar03.paperStack.pdfA4",
+          "value": "PDF · A4"
+        },
+        {
+          "key": "homepageV3.embedShare.mockup.animalTiger",
+          "value": "Tiger"
+        },
+        {
+          "key": "homepageV3.embedShare.mockup.animalGiraffe",
+          "value": "Giraffe"
+        },
+        {
+          "key": "homepageV3.embedShare.mockup.animalZebra",
+          "value": "Zebra"
+        }
+      ]
+    },
+    "fr": {
+      "missing": [
+        "contact.metaTitle",
+        "contact.metaDescription",
+        "terms.metaTitle",
+        "terms.metaDescription",
+        "license.metaTitle",
+        "privacy.metaTitle",
+        "privacy.metaDescription",
+        "faq.categories.education",
+        "faq.items.general",
+        "faq.items.apps",
+        "faq.items.pricing",
+        "faq.items.technical",
+        "faq.items.commercial",
+        "support.status",
+        "support.submitFirstTicket",
+        "support.yourSupportTickets",
+        "support.refresh",
+        "support.responseAvailable",
+        "support.supportTeamResponse",
+        "support.waitingForResponse",
+        "support.supportWillRespond",
+        "support.resolvedOn",
+        "support.confirmDelete",
+        "support.cannotUndo",
+        "support.ticketSubmittedTitle",
+        "support.ticketSubmittedMessage",
+        "support.subject",
+        "support.submitted",
+        "support.whatHappensNext",
+        "support.nextSteps.step1",
+        "support.nextSteps.step2",
+        "support.nextSteps.step3",
+        "support.submitAnotherTicket",
+        "support.priorityOptions.low",
+        "support.priorityOptions.medium",
+        "support.priorityOptions.high",
+        "support.priorityOptions.urgent",
+        "support.email",
+        "support.accountType",
+        "support.quickResponseTitle",
+        "support.quickResponseText",
+        "support.trackTicketTitle",
+        "support.trackTicketText",
+        "support.errorLoadTickets",
+        "support.successDelete",
+        "support.errorDelete",
+        "support.errorSignIn",
+        "support.successSubmit",
+        "support.errorSubmit",
+        "support.errorSubmitRetry"
+      ],
+      "placeholder": [
+        {
+          "key": "auth.signUp.termsEnd",
+          "value": ""
+        }
+      ],
+      "enLeak": [
+        {
+          "key": "navigation.contact",
+          "value": "Contact"
+        },
+        {
+          "key": "navigation.blog",
+          "value": "Blog"
+        },
+        {
+          "key": "contact.message",
+          "value": "Message"
+        },
+        {
+          "key": "terms.contact.title",
+          "value": "13. CONTACT"
+        },
+        {
+          "key": "license.restrictions.title",
+          "value": "3. RESTRICTIONS"
+        },
+        {
+          "key": "license.modifications.title",
+          "value": "9. MODIFICATIONS"
+        },
+        {
+          "key": "license.contact.title",
+          "value": "10. CONTACT"
+        },
+        {
+          "key": "privacy.introduction.title",
+          "value": "1. INTRODUCTION"
+        },
+        {
+          "key": "privacy.cookies.title",
+          "value": "10. COOKIES"
+        },
+        {
+          "key": "privacy.contact.title",
+          "value": "14. CONTACT"
+        },
+        {
+          "key": "billing.tiers.FREE.availability",
+          "value": "available"
+        },
+        {
+          "key": "billing.tiers.CORE.availability",
+          "value": "not-currently-available"
+        },
+        {
+          "key": "billing.tiers.FULL.availability",
+          "value": "not-currently-available"
+        },
+        {
+          "key": "footer.contact",
+          "value": "Contact"
+        },
+        {
+          "key": "footer.copyright",
+          "value": "© 2026 LessonCraftStudio."
+        },
+        {
+          "key": "about.stats.generators",
+          "value": "many"
+        },
+        {
+          "key": "about.stats.languages",
+          "value": "many"
+        },
+        {
+          "key": "about.stats.themes",
+          "value": "plenty"
+        },
+        {
+          "key": "collections.meta.title",
+          "value": "Your collections | LessonCraftStudio"
+        },
+        {
+          "key": "collections.meta.description",
+          "value": "Save and organize decks into collections — by class, by unit, by week."
+        },
+        {
+          "key": "collections.list.title",
+          "value": "Your collections"
+        },
+        {
+          "key": "collections.list.loading",
+          "value": "Loading…"
+        },
+        {
+          "key": "collections.list.newCollection",
+          "value": "+ New collection"
+        },
+        {
+          "key": "collections.list.emptyStateTitle",
+          "value": "No collections yet"
+        },
+        {
+          "key": "collections.list.emptyStateBody",
+          "value": "Save and organize decks into collections — by class, by unit, by week. Click + New collection to start."
+        },
+        {
+          "key": "collections.list.deckCount",
+          "value": "{count, plural, =0 {No decks} =1 {1 deck} other {# decks}}"
+        },
+        {
+          "key": "collections.list.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "collections.create.title",
+          "value": "New collection"
+        },
+        {
+          "key": "collections.create.nameLabel",
+          "value": "Name"
+        },
+        {
+          "key": "collections.create.namePlaceholder",
+          "value": "e.g. Spring vocabulary"
+        },
+        {
+          "key": "collections.create.descriptionLabel",
+          "value": "Description (optional)"
+        },
+        {
+          "key": "collections.create.submit",
+          "value": "Create"
+        },
+        {
+          "key": "collections.create.cancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.create.submitting",
+          "value": "Creating…"
+        },
+        {
+          "key": "collections.create.errorRequired",
+          "value": "Please enter a name."
+        },
+        {
+          "key": "collections.create.errorGeneric",
+          "value": "Could not create the collection. Please try again."
+        },
+        {
+          "key": "collections.detail.metaTitle",
+          "value": "{name} | LessonCraftStudio"
+        },
+        {
+          "key": "collections.detail.back",
+          "value": "← All collections"
+        },
+        {
+          "key": "collections.detail.renameCta",
+          "value": "Rename"
+        },
+        {
+          "key": "collections.detail.renameTitle",
+          "value": "Rename collection"
+        },
+        {
+          "key": "collections.detail.renameSubmit",
+          "value": "Save"
+        },
+        {
+          "key": "collections.detail.renameCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.detail.renameSubmitting",
+          "value": "Saving…"
+        },
+        {
+          "key": "collections.detail.deleteCta",
+          "value": "Delete collection"
+        },
+        {
+          "key": "collections.detail.deleteConfirmTitle",
+          "value": "Delete this collection?"
+        },
+        {
+          "key": "collections.detail.deleteConfirmBody",
+          "value": "Decks won't be removed from the catalog."
+        },
+        {
+          "key": "collections.detail.deleteConfirmCta",
+          "value": "Delete"
+        },
+        {
+          "key": "collections.detail.deleteCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.detail.deleteSubmitting",
+          "value": "Deleting…"
+        },
+        {
+          "key": "collections.detail.removeDeck",
+          "value": "Remove"
+        },
+        {
+          "key": "collections.detail.removeDeckConfirm",
+          "value": "Remove this deck from the collection?"
+        },
+        {
+          "key": "collections.detail.playOnline",
+          "value": "Play online"
+        },
+        {
+          "key": "collections.detail.pdf",
+          "value": "Print PDF"
+        },
+        {
+          "key": "collections.detail.emptyTitle",
+          "value": "No decks in this collection yet"
+        },
+        {
+          "key": "collections.detail.emptyBody",
+          "value": "Browse the catalog and click \"Add to collection\" on any deck card."
+        },
+        {
+          "key": "collections.detail.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "collections.gate.signInPromptTitle",
+          "value": "Sign-in required"
+        },
+        {
+          "key": "collections.gate.signInPromptBody",
+          "value": "Free sign-up needed to access this feature. Takes a moment."
+        },
+        {
+          "key": "collections.gate.signInCta",
+          "value": "Join for free"
+        },
+        {
+          "key": "collections.addAffordance.label",
+          "value": "Add to collection"
+        },
+        {
+          "key": "collections.addAffordance.pickerTitle",
+          "value": "Add to a collection"
+        },
+        {
+          "key": "collections.addAffordance.pickerLoading",
+          "value": "Loading collections…"
+        },
+        {
+          "key": "collections.addAffordance.pickerEmpty",
+          "value": "You don't have any collections yet. Create one first."
+        },
+        {
+          "key": "collections.addAffordance.pickerCreate",
+          "value": "+ New collection"
+        },
+        {
+          "key": "collections.addAffordance.pickerCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.addAffordance.added",
+          "value": "Added to {collectionName}"
+        },
+        {
+          "key": "collections.addAffordance.alreadyIn",
+          "value": "Already in this collection"
+        },
+        {
+          "key": "collections.addAffordance.errorGeneric",
+          "value": "Could not add. Please try again."
+        },
+        {
+          "key": "topicPage.intersection.heading",
+          "value": "{primary} · {secondary}"
+        },
+        {
+          "key": "topicPage.crossAxis.pivot",
+          "value": "{primary} · {secondary}"
+        },
+        {
+          "key": "workspace.metadata.title",
+          "value": "Your workspace | LessonCraftStudio"
+        },
+        {
+          "key": "workspace.metadata.description",
+          "value": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
+        },
+        {
+          "key": "workspace.header.title",
+          "value": "Workspace"
+        },
+        {
+          "key": "workspace.header.welcomeLine",
+          "value": "Your collections and recent activity, all in one place."
+        },
+        {
+          "key": "workspace.gate.signInPromptTitle",
+          "value": "Sign-in required"
+        },
+        {
+          "key": "workspace.gate.signInPromptBody",
+          "value": "Free sign-up needed to access this feature. Takes a moment."
+        },
+        {
+          "key": "workspace.gate.signInCta",
+          "value": "Join for free"
+        },
+        {
+          "key": "workspace.loading",
+          "value": "Loading…"
+        },
+        {
+          "key": "workspace.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "workspace.collections.heading",
+          "value": "Your collections"
+        },
+        {
+          "key": "workspace.collections.viewAll",
+          "value": "View all ({count})"
+        },
+        {
+          "key": "workspace.collections.cardDeckCount",
+          "value": "{count, plural, =0 {No decks} =1 {1 deck} other {# decks}}"
+        },
+        {
+          "key": "workspace.collections.empty.title",
+          "value": "No collections yet"
+        },
+        {
+          "key": "workspace.collections.empty.body",
+          "value": "Save and organize decks into collections — by class, by unit, by week."
+        },
+        {
+          "key": "workspace.recentActivity.heading",
+          "value": "Recent activity"
+        },
+        {
+          "key": "workspace.recentActivity.empty.title",
+          "value": "Nothing here yet"
+        },
+        {
+          "key": "workspace.recentActivity.empty.body",
+          "value": "Activity will appear here as you collect, organize, and share decks."
+        },
+        {
+          "key": "workspace.recentActivity.activityType.collected",
+          "value": "Added {deckTitle} to {collectionName}"
+        },
+        {
+          "key": "workspace.recentActivity.activityType.modified",
+          "value": "Updated {collectionName}"
+        },
+        {
+          "key": "workspace.recentActivity.activityType.shared",
+          "value": "Shared {deckTitle}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.justNow",
+          "value": "just now"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.minutesAgo",
+          "value": "{count, plural, =1 {1 minute ago} other {# minutes ago}}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.hoursAgo",
+          "value": "{count, plural, =1 {1 hour ago} other {# hours ago}}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.daysAgo",
+          "value": "{count, plural, =1 {1 day ago} other {# days ago}}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.weeksAgo",
+          "value": "{count, plural, =1 {1 week ago} other {# weeks ago}}"
+        },
+        {
+          "key": "bulk.toggleSelect",
+          "value": "Select"
+        },
+        {
+          "key": "bulk.toggleDone",
+          "value": "Done"
+        },
+        {
+          "key": "bulk.toolbarAria",
+          "value": "Bulk selection actions"
+        },
+        {
+          "key": "bulk.selectionCount",
+          "value": "{count, plural, =1 {1 deck selected} other {# decks selected}}"
+        },
+        {
+          "key": "bulk.checkboxAria",
+          "value": "Select {title}"
+        },
+        {
+          "key": "bulk.action.addToCollection",
+          "value": "Add to collection"
+        },
+        {
+          "key": "bulk.action.removeFromCollection",
+          "value": "Remove"
+        },
+        {
+          "key": "bulk.action.shareLinks",
+          "value": "Share links"
+        },
+        {
+          "key": "bulk.action.cancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "bulk.addedConfirmation",
+          "value": "{count, plural, =1 {Added 1 deck to {collectionName}} other {Added # decks to {collectionName}}}"
+        },
+        {
+          "key": "bulk.removedConfirmation",
+          "value": "{count, plural, =1 {Removed 1 deck} other {Removed # decks}}"
+        },
+        {
+          "key": "bulk.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerTitle",
+          "value": "{count, plural, =1 {Add 1 deck to a collection} other {Add # decks to a collection}}"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerLoading",
+          "value": "Loading collections…"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerEmpty",
+          "value": "You don't have any collections yet. Create one first."
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerCreate",
+          "value": "+ New collection"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.errorGeneric",
+          "value": "Could not load collections. Please try again."
+        },
+        {
+          "key": "share.label",
+          "value": "Share link"
+        },
+        {
+          "key": "share.singleDeckTitle",
+          "value": "Share this deck"
+        },
+        {
+          "key": "share.singleDeckBody",
+          "value": "Anyone with this link can play the deck. The link doesn't expire."
+        },
+        {
+          "key": "share.generating",
+          "value": "Generating link…"
+        },
+        {
+          "key": "share.copy",
+          "value": "Copy"
+        },
+        {
+          "key": "share.copied",
+          "value": "Copied!"
+        },
+        {
+          "key": "share.copyAll",
+          "value": "Copy all"
+        },
+        {
+          "key": "share.copiedAll",
+          "value": "Copied all!"
+        },
+        {
+          "key": "share.close",
+          "value": "Close"
+        },
+        {
+          "key": "share.errorGeneric",
+          "value": "Could not generate the link. Please try again."
+        },
+        {
+          "key": "share.errorClipboard",
+          "value": "Could not access clipboard. Select the link and copy manually."
+        },
+        {
+          "key": "share.bulkResultsTitle",
+          "value": "{count, plural, =1 {1 share link} other {# share links}}"
+        },
+        {
+          "key": "share.bulkResultsSkipped",
+          "value": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
+        },
+        {
+          "key": "homepageV3.pillar03.paperStack.pdfA4",
+          "value": "PDF · A4"
+        },
+        {
+          "key": "homepageV3.embedShare.mockup.animalLion",
+          "value": "Lion"
+        }
+      ]
+    },
+    "es": {
+      "missing": [
+        "contact.metaTitle",
+        "contact.metaDescription",
+        "terms.metaTitle",
+        "terms.metaDescription",
+        "license.metaTitle",
+        "privacy.metaTitle",
+        "privacy.metaDescription",
+        "faq.categories.education",
+        "faq.items.general",
+        "faq.items.apps",
+        "faq.items.pricing",
+        "faq.items.technical",
+        "faq.items.commercial",
+        "billing.paymentHistory.title",
+        "support.status",
+        "support.submitFirstTicket",
+        "support.yourSupportTickets",
+        "support.refresh",
+        "support.responseAvailable",
+        "support.supportTeamResponse",
+        "support.waitingForResponse",
+        "support.supportWillRespond",
+        "support.resolvedOn",
+        "support.confirmDelete",
+        "support.cannotUndo",
+        "support.ticketSubmittedTitle",
+        "support.ticketSubmittedMessage",
+        "support.subject",
+        "support.submitted",
+        "support.whatHappensNext",
+        "support.nextSteps.step1",
+        "support.nextSteps.step2",
+        "support.nextSteps.step3",
+        "support.submitAnotherTicket",
+        "support.priorityOptions.low",
+        "support.priorityOptions.medium",
+        "support.priorityOptions.high",
+        "support.priorityOptions.urgent",
+        "support.email",
+        "support.accountType",
+        "support.quickResponseTitle",
+        "support.quickResponseText",
+        "support.trackTicketTitle",
+        "support.trackTicketText",
+        "support.errorLoadTickets",
+        "support.successDelete",
+        "support.errorDelete",
+        "support.errorSignIn",
+        "support.successSubmit",
+        "support.errorSubmit",
+        "support.errorSubmitRetry"
+      ],
+      "placeholder": [
+        {
+          "key": "auth.signUp.termsEnd",
+          "value": ""
+        }
+      ],
+      "enLeak": [
+        {
+          "key": "navigation.blog",
+          "value": "Blog"
+        },
+        {
+          "key": "homepage.fourCardGrid.apps.categories.visual",
+          "value": "Visual"
+        },
+        {
+          "key": "privacy.cookies.title",
+          "value": "10. COOKIES"
+        },
+        {
+          "key": "billing.planCard.title",
+          "value": "Plan"
+        },
+        {
+          "key": "billing.upgradeModal.subtotal",
+          "value": "Subtotal:"
+        },
+        {
+          "key": "billing.tiers.FREE.availability",
+          "value": "available"
+        },
+        {
+          "key": "billing.tiers.CORE.availability",
+          "value": "not-currently-available"
+        },
+        {
+          "key": "billing.tiers.FULL.availability",
+          "value": "not-currently-available"
+        },
+        {
+          "key": "footer.copyright",
+          "value": "© 2026 LessonCraftStudio."
+        },
+        {
+          "key": "about.stats.generators",
+          "value": "many"
+        },
+        {
+          "key": "about.stats.languages",
+          "value": "many"
+        },
+        {
+          "key": "about.stats.themes",
+          "value": "plenty"
+        },
+        {
+          "key": "collections.detail.metaTitle",
+          "value": "{name} | LessonCraftStudio"
+        },
+        {
+          "key": "collections.gate.signInPromptTitle",
+          "value": "Sign-in required"
+        },
+        {
+          "key": "collections.gate.signInPromptBody",
+          "value": "Free sign-up needed to access this feature. Takes a moment."
+        },
+        {
+          "key": "collections.gate.signInCta",
+          "value": "Join for free"
+        },
+        {
+          "key": "topicPage.intersection.heading",
+          "value": "{primary} · {secondary}"
+        },
+        {
+          "key": "topicPage.crossAxis.pivot",
+          "value": "{primary} · {secondary}"
+        },
+        {
+          "key": "workspace.metadata.description",
+          "value": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
+        },
+        {
+          "key": "workspace.gate.signInPromptTitle",
+          "value": "Sign-in required"
+        },
+        {
+          "key": "workspace.gate.signInPromptBody",
+          "value": "Free sign-up needed to access this feature. Takes a moment."
+        },
+        {
+          "key": "workspace.gate.signInCta",
+          "value": "Join for free"
+        },
+        {
+          "key": "homepageV3.pillar01.card3Title",
+          "value": "Forma las sílabas"
+        },
+        {
+          "key": "homepageV3.pillar01.card3Prompt",
+          "value": "Toca las sílabas en orden para formar la palabra."
+        },
+        {
+          "key": "homepageV3.pillar01.card3CheckLabel",
+          "value": "Comprobar"
+        },
+        {
+          "key": "homepageV3.pillar01.card3SubjectAlt",
+          "value": "caballo"
+        },
+        {
+          "key": "homepageV3.pillar03.paperStack.pdfA4",
+          "value": "PDF · A4"
+        }
+      ]
+    },
+    "pt": {
+      "missing": [
+        "contact.metaTitle",
+        "contact.metaDescription",
+        "terms.metaTitle",
+        "terms.metaDescription",
+        "license.metaTitle",
+        "privacy.metaTitle",
+        "privacy.metaDescription",
+        "faq.categories.education",
+        "faq.items.general",
+        "faq.items.apps",
+        "faq.items.pricing",
+        "faq.items.technical",
+        "faq.items.commercial",
+        "billing.paymentHistory.title",
+        "support.status",
+        "support.submitFirstTicket",
+        "support.yourSupportTickets",
+        "support.refresh",
+        "support.responseAvailable",
+        "support.supportTeamResponse",
+        "support.waitingForResponse",
+        "support.supportWillRespond",
+        "support.resolvedOn",
+        "support.confirmDelete",
+        "support.cannotUndo",
+        "support.ticketSubmittedTitle",
+        "support.ticketSubmittedMessage",
+        "support.subject",
+        "support.submitted",
+        "support.whatHappensNext",
+        "support.nextSteps.step1",
+        "support.nextSteps.step2",
+        "support.nextSteps.step3",
+        "support.submitAnotherTicket",
+        "support.priorityOptions.low",
+        "support.priorityOptions.medium",
+        "support.priorityOptions.high",
+        "support.priorityOptions.urgent",
+        "support.email",
+        "support.accountType",
+        "support.quickResponseTitle",
+        "support.quickResponseText",
+        "support.trackTicketTitle",
+        "support.trackTicketText",
+        "support.errorLoadTickets",
+        "support.successDelete",
+        "support.errorDelete",
+        "support.errorSignIn",
+        "support.successSubmit",
+        "support.errorSubmit",
+        "support.errorSubmitRetry"
+      ],
+      "placeholder": [
+        {
+          "key": "auth.signUp.termsEnd",
+          "value": ""
+        }
+      ],
+      "enLeak": [
+        {
+          "key": "navigation.blog",
+          "value": "Blog"
+        },
+        {
+          "key": "homepage.fourCardGrid.apps.categories.visual",
+          "value": "Visual"
+        },
+        {
+          "key": "contact.subjects.feedback",
+          "value": "Feedback"
+        },
+        {
+          "key": "privacy.cookies.title",
+          "value": "10. COOKIES"
+        },
+        {
+          "key": "billing.statusCard.title",
+          "value": "Status"
+        },
+        {
+          "key": "billing.upgradeModal.subtotal",
+          "value": "Subtotal:"
+        },
+        {
+          "key": "billing.tiers.FREE.availability",
+          "value": "available"
+        },
+        {
+          "key": "billing.tiers.CORE.availability",
+          "value": "not-currently-available"
+        },
+        {
+          "key": "billing.tiers.FULL.availability",
+          "value": "not-currently-available"
+        },
+        {
+          "key": "footer.copyright",
+          "value": "© 2026 LessonCraftStudio."
+        },
+        {
+          "key": "about.stats.generators",
+          "value": "many"
+        },
+        {
+          "key": "about.stats.languages",
+          "value": "many"
+        },
+        {
+          "key": "about.stats.themes",
+          "value": "plenty"
+        },
+        {
+          "key": "collections.meta.title",
+          "value": "Your collections | LessonCraftStudio"
+        },
+        {
+          "key": "collections.meta.description",
+          "value": "Save and organize decks into collections — by class, by unit, by week."
+        },
+        {
+          "key": "collections.list.title",
+          "value": "Your collections"
+        },
+        {
+          "key": "collections.list.loading",
+          "value": "Loading…"
+        },
+        {
+          "key": "collections.list.newCollection",
+          "value": "+ New collection"
+        },
+        {
+          "key": "collections.list.emptyStateTitle",
+          "value": "No collections yet"
+        },
+        {
+          "key": "collections.list.emptyStateBody",
+          "value": "Save and organize decks into collections — by class, by unit, by week. Click + New collection to start."
+        },
+        {
+          "key": "collections.list.deckCount",
+          "value": "{count, plural, =0 {No decks} =1 {1 deck} other {# decks}}"
+        },
+        {
+          "key": "collections.list.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "collections.create.title",
+          "value": "New collection"
+        },
+        {
+          "key": "collections.create.nameLabel",
+          "value": "Name"
+        },
+        {
+          "key": "collections.create.namePlaceholder",
+          "value": "e.g. Spring vocabulary"
+        },
+        {
+          "key": "collections.create.descriptionLabel",
+          "value": "Description (optional)"
+        },
+        {
+          "key": "collections.create.submit",
+          "value": "Create"
+        },
+        {
+          "key": "collections.create.cancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.create.submitting",
+          "value": "Creating…"
+        },
+        {
+          "key": "collections.create.errorRequired",
+          "value": "Please enter a name."
+        },
+        {
+          "key": "collections.create.errorGeneric",
+          "value": "Could not create the collection. Please try again."
+        },
+        {
+          "key": "collections.detail.metaTitle",
+          "value": "{name} | LessonCraftStudio"
+        },
+        {
+          "key": "collections.detail.back",
+          "value": "← All collections"
+        },
+        {
+          "key": "collections.detail.renameCta",
+          "value": "Rename"
+        },
+        {
+          "key": "collections.detail.renameTitle",
+          "value": "Rename collection"
+        },
+        {
+          "key": "collections.detail.renameSubmit",
+          "value": "Save"
+        },
+        {
+          "key": "collections.detail.renameCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.detail.renameSubmitting",
+          "value": "Saving…"
+        },
+        {
+          "key": "collections.detail.deleteCta",
+          "value": "Delete collection"
+        },
+        {
+          "key": "collections.detail.deleteConfirmTitle",
+          "value": "Delete this collection?"
+        },
+        {
+          "key": "collections.detail.deleteConfirmBody",
+          "value": "Decks won't be removed from the catalog."
+        },
+        {
+          "key": "collections.detail.deleteConfirmCta",
+          "value": "Delete"
+        },
+        {
+          "key": "collections.detail.deleteCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.detail.deleteSubmitting",
+          "value": "Deleting…"
+        },
+        {
+          "key": "collections.detail.removeDeck",
+          "value": "Remove"
+        },
+        {
+          "key": "collections.detail.removeDeckConfirm",
+          "value": "Remove this deck from the collection?"
+        },
+        {
+          "key": "collections.detail.playOnline",
+          "value": "Play online"
+        },
+        {
+          "key": "collections.detail.pdf",
+          "value": "Print PDF"
+        },
+        {
+          "key": "collections.detail.emptyTitle",
+          "value": "No decks in this collection yet"
+        },
+        {
+          "key": "collections.detail.emptyBody",
+          "value": "Browse the catalog and click \"Add to collection\" on any deck card."
+        },
+        {
+          "key": "collections.detail.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "collections.gate.signInPromptTitle",
+          "value": "Sign-in required"
+        },
+        {
+          "key": "collections.gate.signInPromptBody",
+          "value": "Free sign-up needed to access this feature. Takes a moment."
+        },
+        {
+          "key": "collections.gate.signInCta",
+          "value": "Join for free"
+        },
+        {
+          "key": "collections.addAffordance.label",
+          "value": "Add to collection"
+        },
+        {
+          "key": "collections.addAffordance.pickerTitle",
+          "value": "Add to a collection"
+        },
+        {
+          "key": "collections.addAffordance.pickerLoading",
+          "value": "Loading collections…"
+        },
+        {
+          "key": "collections.addAffordance.pickerEmpty",
+          "value": "You don't have any collections yet. Create one first."
+        },
+        {
+          "key": "collections.addAffordance.pickerCreate",
+          "value": "+ New collection"
+        },
+        {
+          "key": "collections.addAffordance.pickerCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.addAffordance.added",
+          "value": "Added to {collectionName}"
+        },
+        {
+          "key": "collections.addAffordance.alreadyIn",
+          "value": "Already in this collection"
+        },
+        {
+          "key": "collections.addAffordance.errorGeneric",
+          "value": "Could not add. Please try again."
+        },
+        {
+          "key": "topicPage.intersection.heading",
+          "value": "{primary} · {secondary}"
+        },
+        {
+          "key": "topicPage.crossAxis.pivot",
+          "value": "{primary} · {secondary}"
+        },
+        {
+          "key": "workspace.metadata.title",
+          "value": "Your workspace | LessonCraftStudio"
+        },
+        {
+          "key": "workspace.metadata.description",
+          "value": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
+        },
+        {
+          "key": "workspace.header.title",
+          "value": "Workspace"
+        },
+        {
+          "key": "workspace.header.welcomeLine",
+          "value": "Your collections and recent activity, all in one place."
+        },
+        {
+          "key": "workspace.gate.signInPromptTitle",
+          "value": "Sign-in required"
+        },
+        {
+          "key": "workspace.gate.signInPromptBody",
+          "value": "Free sign-up needed to access this feature. Takes a moment."
+        },
+        {
+          "key": "workspace.gate.signInCta",
+          "value": "Join for free"
+        },
+        {
+          "key": "workspace.loading",
+          "value": "Loading…"
+        },
+        {
+          "key": "workspace.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "workspace.collections.heading",
+          "value": "Your collections"
+        },
+        {
+          "key": "workspace.collections.viewAll",
+          "value": "View all ({count})"
+        },
+        {
+          "key": "workspace.collections.cardDeckCount",
+          "value": "{count, plural, =0 {No decks} =1 {1 deck} other {# decks}}"
+        },
+        {
+          "key": "workspace.collections.empty.title",
+          "value": "No collections yet"
+        },
+        {
+          "key": "workspace.collections.empty.body",
+          "value": "Save and organize decks into collections — by class, by unit, by week."
+        },
+        {
+          "key": "workspace.recentActivity.heading",
+          "value": "Recent activity"
+        },
+        {
+          "key": "workspace.recentActivity.empty.title",
+          "value": "Nothing here yet"
+        },
+        {
+          "key": "workspace.recentActivity.empty.body",
+          "value": "Activity will appear here as you collect, organize, and share decks."
+        },
+        {
+          "key": "workspace.recentActivity.activityType.collected",
+          "value": "Added {deckTitle} to {collectionName}"
+        },
+        {
+          "key": "workspace.recentActivity.activityType.modified",
+          "value": "Updated {collectionName}"
+        },
+        {
+          "key": "workspace.recentActivity.activityType.shared",
+          "value": "Shared {deckTitle}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.justNow",
+          "value": "just now"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.minutesAgo",
+          "value": "{count, plural, =1 {1 minute ago} other {# minutes ago}}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.hoursAgo",
+          "value": "{count, plural, =1 {1 hour ago} other {# hours ago}}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.daysAgo",
+          "value": "{count, plural, =1 {1 day ago} other {# days ago}}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.weeksAgo",
+          "value": "{count, plural, =1 {1 week ago} other {# weeks ago}}"
+        },
+        {
+          "key": "bulk.toggleSelect",
+          "value": "Select"
+        },
+        {
+          "key": "bulk.toggleDone",
+          "value": "Done"
+        },
+        {
+          "key": "bulk.toolbarAria",
+          "value": "Bulk selection actions"
+        },
+        {
+          "key": "bulk.selectionCount",
+          "value": "{count, plural, =1 {1 deck selected} other {# decks selected}}"
+        },
+        {
+          "key": "bulk.checkboxAria",
+          "value": "Select {title}"
+        },
+        {
+          "key": "bulk.action.addToCollection",
+          "value": "Add to collection"
+        },
+        {
+          "key": "bulk.action.removeFromCollection",
+          "value": "Remove"
+        },
+        {
+          "key": "bulk.action.shareLinks",
+          "value": "Share links"
+        },
+        {
+          "key": "bulk.action.cancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "bulk.addedConfirmation",
+          "value": "{count, plural, =1 {Added 1 deck to {collectionName}} other {Added # decks to {collectionName}}}"
+        },
+        {
+          "key": "bulk.removedConfirmation",
+          "value": "{count, plural, =1 {Removed 1 deck} other {Removed # decks}}"
+        },
+        {
+          "key": "bulk.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerTitle",
+          "value": "{count, plural, =1 {Add 1 deck to a collection} other {Add # decks to a collection}}"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerLoading",
+          "value": "Loading collections…"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerEmpty",
+          "value": "You don't have any collections yet. Create one first."
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerCreate",
+          "value": "+ New collection"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.errorGeneric",
+          "value": "Could not load collections. Please try again."
+        },
+        {
+          "key": "share.label",
+          "value": "Share link"
+        },
+        {
+          "key": "share.singleDeckTitle",
+          "value": "Share this deck"
+        },
+        {
+          "key": "share.singleDeckBody",
+          "value": "Anyone with this link can play the deck. The link doesn't expire."
+        },
+        {
+          "key": "share.generating",
+          "value": "Generating link…"
+        },
+        {
+          "key": "share.copy",
+          "value": "Copy"
+        },
+        {
+          "key": "share.copied",
+          "value": "Copied!"
+        },
+        {
+          "key": "share.copyAll",
+          "value": "Copy all"
+        },
+        {
+          "key": "share.copiedAll",
+          "value": "Copied all!"
+        },
+        {
+          "key": "share.close",
+          "value": "Close"
+        },
+        {
+          "key": "share.errorGeneric",
+          "value": "Could not generate the link. Please try again."
+        },
+        {
+          "key": "share.errorClipboard",
+          "value": "Could not access clipboard. Select the link and copy manually."
+        },
+        {
+          "key": "share.bulkResultsTitle",
+          "value": "{count, plural, =1 {1 share link} other {# share links}}"
+        },
+        {
+          "key": "share.bulkResultsSkipped",
+          "value": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
+        },
+        {
+          "key": "homepageV3.pillar03.paperStack.pdfA4",
+          "value": "PDF · A4"
+        },
+        {
+          "key": "homepageV3.embedShare.mockup.animalZebra",
+          "value": "Zebra"
+        }
+      ]
+    },
+    "it": {
+      "missing": [
+        "contact.metaTitle",
+        "contact.metaDescription",
+        "terms.metaTitle",
+        "terms.metaDescription",
+        "license.metaTitle",
+        "privacy.metaTitle",
+        "privacy.metaDescription",
+        "faq.categories.education",
+        "faq.items.general",
+        "faq.items.apps",
+        "faq.items.pricing",
+        "faq.items.technical",
+        "faq.items.commercial",
+        "billing.paymentHistory.title",
+        "support.status",
+        "support.submitFirstTicket",
+        "support.yourSupportTickets",
+        "support.refresh",
+        "support.responseAvailable",
+        "support.supportTeamResponse",
+        "support.waitingForResponse",
+        "support.supportWillRespond",
+        "support.resolvedOn",
+        "support.confirmDelete",
+        "support.cannotUndo",
+        "support.ticketSubmittedTitle",
+        "support.ticketSubmittedMessage",
+        "support.subject",
+        "support.submitted",
+        "support.whatHappensNext",
+        "support.nextSteps.step1",
+        "support.nextSteps.step2",
+        "support.nextSteps.step3",
+        "support.submitAnotherTicket",
+        "support.priorityOptions.low",
+        "support.priorityOptions.medium",
+        "support.priorityOptions.high",
+        "support.priorityOptions.urgent",
+        "support.email",
+        "support.accountType",
+        "support.quickResponseTitle",
+        "support.quickResponseText",
+        "support.trackTicketTitle",
+        "support.trackTicketText",
+        "support.errorLoadTickets",
+        "support.successDelete",
+        "support.errorDelete",
+        "support.errorSignIn",
+        "support.successSubmit",
+        "support.errorSubmit",
+        "support.errorSubmitRetry"
+      ],
+      "placeholder": [
+        {
+          "key": "auth.signUp.termsEnd",
+          "value": ""
+        }
+      ],
+      "enLeak": [
+        {
+          "key": "navigation.blog",
+          "value": "Blog"
+        },
+        {
+          "key": "auth.signIn.email",
+          "value": "Email"
+        },
+        {
+          "key": "auth.signIn.password",
+          "value": "Password"
+        },
+        {
+          "key": "auth.signUp.email",
+          "value": "Email"
+        },
+        {
+          "key": "auth.signUp.password",
+          "value": "Password"
+        },
+        {
+          "key": "contact.email",
+          "value": "Email"
+        },
+        {
+          "key": "contact.subjects.feedback",
+          "value": "Feedback"
+        },
+        {
+          "key": "billing.tiers.FREE.availability",
+          "value": "available"
+        },
+        {
+          "key": "billing.tiers.CORE.availability",
+          "value": "not-currently-available"
+        },
+        {
+          "key": "billing.tiers.FULL.availability",
+          "value": "not-currently-available"
+        },
+        {
+          "key": "footer.privacy",
+          "value": "Privacy"
+        },
+        {
+          "key": "footer.copyright",
+          "value": "© 2026 LessonCraftStudio."
+        },
+        {
+          "key": "about.stats.generators",
+          "value": "many"
+        },
+        {
+          "key": "about.stats.languages",
+          "value": "many"
+        },
+        {
+          "key": "about.stats.themes",
+          "value": "plenty"
+        },
+        {
+          "key": "seo.words.variant_label",
+          "value": "Set"
+        },
+        {
+          "key": "collections.meta.title",
+          "value": "Your collections | LessonCraftStudio"
+        },
+        {
+          "key": "collections.meta.description",
+          "value": "Save and organize decks into collections — by class, by unit, by week."
+        },
+        {
+          "key": "collections.list.title",
+          "value": "Your collections"
+        },
+        {
+          "key": "collections.list.loading",
+          "value": "Loading…"
+        },
+        {
+          "key": "collections.list.newCollection",
+          "value": "+ New collection"
+        },
+        {
+          "key": "collections.list.emptyStateTitle",
+          "value": "No collections yet"
+        },
+        {
+          "key": "collections.list.emptyStateBody",
+          "value": "Save and organize decks into collections — by class, by unit, by week. Click + New collection to start."
+        },
+        {
+          "key": "collections.list.deckCount",
+          "value": "{count, plural, =0 {No decks} =1 {1 deck} other {# decks}}"
+        },
+        {
+          "key": "collections.list.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "collections.create.title",
+          "value": "New collection"
+        },
+        {
+          "key": "collections.create.nameLabel",
+          "value": "Name"
+        },
+        {
+          "key": "collections.create.namePlaceholder",
+          "value": "e.g. Spring vocabulary"
+        },
+        {
+          "key": "collections.create.descriptionLabel",
+          "value": "Description (optional)"
+        },
+        {
+          "key": "collections.create.submit",
+          "value": "Create"
+        },
+        {
+          "key": "collections.create.cancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.create.submitting",
+          "value": "Creating…"
+        },
+        {
+          "key": "collections.create.errorRequired",
+          "value": "Please enter a name."
+        },
+        {
+          "key": "collections.create.errorGeneric",
+          "value": "Could not create the collection. Please try again."
+        },
+        {
+          "key": "collections.detail.metaTitle",
+          "value": "{name} | LessonCraftStudio"
+        },
+        {
+          "key": "collections.detail.back",
+          "value": "← All collections"
+        },
+        {
+          "key": "collections.detail.renameCta",
+          "value": "Rename"
+        },
+        {
+          "key": "collections.detail.renameTitle",
+          "value": "Rename collection"
+        },
+        {
+          "key": "collections.detail.renameSubmit",
+          "value": "Save"
+        },
+        {
+          "key": "collections.detail.renameCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.detail.renameSubmitting",
+          "value": "Saving…"
+        },
+        {
+          "key": "collections.detail.deleteCta",
+          "value": "Delete collection"
+        },
+        {
+          "key": "collections.detail.deleteConfirmTitle",
+          "value": "Delete this collection?"
+        },
+        {
+          "key": "collections.detail.deleteConfirmBody",
+          "value": "Decks won't be removed from the catalog."
+        },
+        {
+          "key": "collections.detail.deleteConfirmCta",
+          "value": "Delete"
+        },
+        {
+          "key": "collections.detail.deleteCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.detail.deleteSubmitting",
+          "value": "Deleting…"
+        },
+        {
+          "key": "collections.detail.removeDeck",
+          "value": "Remove"
+        },
+        {
+          "key": "collections.detail.removeDeckConfirm",
+          "value": "Remove this deck from the collection?"
+        },
+        {
+          "key": "collections.detail.playOnline",
+          "value": "Play online"
+        },
+        {
+          "key": "collections.detail.pdf",
+          "value": "Print PDF"
+        },
+        {
+          "key": "collections.detail.emptyTitle",
+          "value": "No decks in this collection yet"
+        },
+        {
+          "key": "collections.detail.emptyBody",
+          "value": "Browse the catalog and click \"Add to collection\" on any deck card."
+        },
+        {
+          "key": "collections.detail.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "collections.gate.signInPromptTitle",
+          "value": "Sign-in required"
+        },
+        {
+          "key": "collections.gate.signInPromptBody",
+          "value": "Free sign-up needed to access this feature. Takes a moment."
+        },
+        {
+          "key": "collections.gate.signInCta",
+          "value": "Join for free"
+        },
+        {
+          "key": "collections.addAffordance.label",
+          "value": "Add to collection"
+        },
+        {
+          "key": "collections.addAffordance.pickerTitle",
+          "value": "Add to a collection"
+        },
+        {
+          "key": "collections.addAffordance.pickerLoading",
+          "value": "Loading collections…"
+        },
+        {
+          "key": "collections.addAffordance.pickerEmpty",
+          "value": "You don't have any collections yet. Create one first."
+        },
+        {
+          "key": "collections.addAffordance.pickerCreate",
+          "value": "+ New collection"
+        },
+        {
+          "key": "collections.addAffordance.pickerCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.addAffordance.added",
+          "value": "Added to {collectionName}"
+        },
+        {
+          "key": "collections.addAffordance.alreadyIn",
+          "value": "Already in this collection"
+        },
+        {
+          "key": "collections.addAffordance.errorGeneric",
+          "value": "Could not add. Please try again."
+        },
+        {
+          "key": "topicPage.intersection.heading",
+          "value": "{primary} · {secondary}"
+        },
+        {
+          "key": "topicPage.breadcrumb.home",
+          "value": "Home"
+        },
+        {
+          "key": "topicPage.crossAxis.pivot",
+          "value": "{primary} · {secondary}"
+        },
+        {
+          "key": "workspace.metadata.title",
+          "value": "Your workspace | LessonCraftStudio"
+        },
+        {
+          "key": "workspace.metadata.description",
+          "value": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
+        },
+        {
+          "key": "workspace.header.title",
+          "value": "Workspace"
+        },
+        {
+          "key": "workspace.header.welcomeLine",
+          "value": "Your collections and recent activity, all in one place."
+        },
+        {
+          "key": "workspace.gate.signInPromptTitle",
+          "value": "Sign-in required"
+        },
+        {
+          "key": "workspace.gate.signInPromptBody",
+          "value": "Free sign-up needed to access this feature. Takes a moment."
+        },
+        {
+          "key": "workspace.gate.signInCta",
+          "value": "Join for free"
+        },
+        {
+          "key": "workspace.loading",
+          "value": "Loading…"
+        },
+        {
+          "key": "workspace.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "workspace.collections.heading",
+          "value": "Your collections"
+        },
+        {
+          "key": "workspace.collections.viewAll",
+          "value": "View all ({count})"
+        },
+        {
+          "key": "workspace.collections.cardDeckCount",
+          "value": "{count, plural, =0 {No decks} =1 {1 deck} other {# decks}}"
+        },
+        {
+          "key": "workspace.collections.empty.title",
+          "value": "No collections yet"
+        },
+        {
+          "key": "workspace.collections.empty.body",
+          "value": "Save and organize decks into collections — by class, by unit, by week."
+        },
+        {
+          "key": "workspace.recentActivity.heading",
+          "value": "Recent activity"
+        },
+        {
+          "key": "workspace.recentActivity.empty.title",
+          "value": "Nothing here yet"
+        },
+        {
+          "key": "workspace.recentActivity.empty.body",
+          "value": "Activity will appear here as you collect, organize, and share decks."
+        },
+        {
+          "key": "workspace.recentActivity.activityType.collected",
+          "value": "Added {deckTitle} to {collectionName}"
+        },
+        {
+          "key": "workspace.recentActivity.activityType.modified",
+          "value": "Updated {collectionName}"
+        },
+        {
+          "key": "workspace.recentActivity.activityType.shared",
+          "value": "Shared {deckTitle}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.justNow",
+          "value": "just now"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.minutesAgo",
+          "value": "{count, plural, =1 {1 minute ago} other {# minutes ago}}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.hoursAgo",
+          "value": "{count, plural, =1 {1 hour ago} other {# hours ago}}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.daysAgo",
+          "value": "{count, plural, =1 {1 day ago} other {# days ago}}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.weeksAgo",
+          "value": "{count, plural, =1 {1 week ago} other {# weeks ago}}"
+        },
+        {
+          "key": "bulk.toggleSelect",
+          "value": "Select"
+        },
+        {
+          "key": "bulk.toggleDone",
+          "value": "Done"
+        },
+        {
+          "key": "bulk.toolbarAria",
+          "value": "Bulk selection actions"
+        },
+        {
+          "key": "bulk.selectionCount",
+          "value": "{count, plural, =1 {1 deck selected} other {# decks selected}}"
+        },
+        {
+          "key": "bulk.checkboxAria",
+          "value": "Select {title}"
+        },
+        {
+          "key": "bulk.action.addToCollection",
+          "value": "Add to collection"
+        },
+        {
+          "key": "bulk.action.removeFromCollection",
+          "value": "Remove"
+        },
+        {
+          "key": "bulk.action.shareLinks",
+          "value": "Share links"
+        },
+        {
+          "key": "bulk.action.cancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "bulk.addedConfirmation",
+          "value": "{count, plural, =1 {Added 1 deck to {collectionName}} other {Added # decks to {collectionName}}}"
+        },
+        {
+          "key": "bulk.removedConfirmation",
+          "value": "{count, plural, =1 {Removed 1 deck} other {Removed # decks}}"
+        },
+        {
+          "key": "bulk.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerTitle",
+          "value": "{count, plural, =1 {Add 1 deck to a collection} other {Add # decks to a collection}}"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerLoading",
+          "value": "Loading collections…"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerEmpty",
+          "value": "You don't have any collections yet. Create one first."
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerCreate",
+          "value": "+ New collection"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.errorGeneric",
+          "value": "Could not load collections. Please try again."
+        },
+        {
+          "key": "share.label",
+          "value": "Share link"
+        },
+        {
+          "key": "share.singleDeckTitle",
+          "value": "Share this deck"
+        },
+        {
+          "key": "share.singleDeckBody",
+          "value": "Anyone with this link can play the deck. The link doesn't expire."
+        },
+        {
+          "key": "share.generating",
+          "value": "Generating link…"
+        },
+        {
+          "key": "share.copy",
+          "value": "Copy"
+        },
+        {
+          "key": "share.copied",
+          "value": "Copied!"
+        },
+        {
+          "key": "share.copyAll",
+          "value": "Copy all"
+        },
+        {
+          "key": "share.copiedAll",
+          "value": "Copied all!"
+        },
+        {
+          "key": "share.close",
+          "value": "Close"
+        },
+        {
+          "key": "share.errorGeneric",
+          "value": "Could not generate the link. Please try again."
+        },
+        {
+          "key": "share.errorClipboard",
+          "value": "Could not access clipboard. Select the link and copy manually."
+        },
+        {
+          "key": "share.bulkResultsTitle",
+          "value": "{count, plural, =1 {1 share link} other {# share links}}"
+        },
+        {
+          "key": "share.bulkResultsSkipped",
+          "value": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
+        },
+        {
+          "key": "homepageV3.pillar01.card1Title",
+          "value": "Costruttore di sillabe"
+        },
+        {
+          "key": "homepageV3.pillar01.card1Prompt",
+          "value": "Tocca le sillabe in ordine per formare la parola."
+        },
+        {
+          "key": "homepageV3.pillar01.card1CheckLabel",
+          "value": "Verifica"
+        },
+        {
+          "key": "homepageV3.pillar01.card1SubjectAlt",
+          "value": "gatto"
+        },
+        {
+          "key": "homepageV3.pillar03.paperStack.pdfA4",
+          "value": "PDF · A4"
+        },
+        {
+          "key": "homepageV3.embedShare.mockup.animalZebra",
+          "value": "Zebra"
+        }
+      ]
+    },
+    "nl": {
+      "missing": [
+        "contact.metaTitle",
+        "contact.metaDescription",
+        "terms.metaTitle",
+        "terms.metaDescription",
+        "license.metaTitle",
+        "privacy.metaTitle",
+        "privacy.metaDescription",
+        "faq.categories.education",
+        "faq.items.general",
+        "faq.items.apps",
+        "faq.items.pricing",
+        "faq.items.technical",
+        "faq.items.commercial",
+        "billing.paymentHistory.title",
+        "support.status",
+        "support.submitFirstTicket",
+        "support.yourSupportTickets",
+        "support.refresh",
+        "support.responseAvailable",
+        "support.supportTeamResponse",
+        "support.waitingForResponse",
+        "support.supportWillRespond",
+        "support.resolvedOn",
+        "support.confirmDelete",
+        "support.cannotUndo",
+        "support.ticketSubmittedTitle",
+        "support.ticketSubmittedMessage",
+        "support.subject",
+        "support.submitted",
+        "support.whatHappensNext",
+        "support.nextSteps.step1",
+        "support.nextSteps.step2",
+        "support.nextSteps.step3",
+        "support.submitAnotherTicket",
+        "support.priorityOptions.low",
+        "support.priorityOptions.medium",
+        "support.priorityOptions.high",
+        "support.priorityOptions.urgent",
+        "support.email",
+        "support.accountType",
+        "support.quickResponseTitle",
+        "support.quickResponseText",
+        "support.trackTicketTitle",
+        "support.trackTicketText",
+        "support.errorLoadTickets",
+        "support.successDelete",
+        "support.errorDelete",
+        "support.errorSignIn",
+        "support.successSubmit",
+        "support.errorSubmit",
+        "support.errorSubmitRetry"
+      ],
+      "placeholder": [
+        {
+          "key": "auth.signUp.termsEnd",
+          "value": ""
+        }
+      ],
+      "enLeak": [
+        {
+          "key": "navigation.contact",
+          "value": "Contact"
+        },
+        {
+          "key": "navigation.blog",
+          "value": "Blog"
+        },
+        {
+          "key": "contact.subjects.feedback",
+          "value": "Feedback"
+        },
+        {
+          "key": "terms.contact.title",
+          "value": "13. CONTACT"
+        },
+        {
+          "key": "license.contact.title",
+          "value": "10. CONTACT"
+        },
+        {
+          "key": "privacy.cookies.title",
+          "value": "10. COOKIES"
+        },
+        {
+          "key": "privacy.contact.title",
+          "value": "14. CONTACT"
+        },
+        {
+          "key": "billing.statusCard.title",
+          "value": "Status"
+        },
+        {
+          "key": "billing.tiers.FREE.availability",
+          "value": "available"
+        },
+        {
+          "key": "billing.tiers.CORE.availability",
+          "value": "not-currently-available"
+        },
+        {
+          "key": "billing.tiers.FULL.availability",
+          "value": "not-currently-available"
+        },
+        {
+          "key": "support.priority.urgent",
+          "value": "URGENT"
+        },
+        {
+          "key": "footer.contact",
+          "value": "Contact"
+        },
+        {
+          "key": "footer.privacy",
+          "value": "Privacy"
+        },
+        {
+          "key": "footer.copyright",
+          "value": "© 2026 LessonCraftStudio."
+        },
+        {
+          "key": "about.stats.generators",
+          "value": "many"
+        },
+        {
+          "key": "about.stats.languages",
+          "value": "many"
+        },
+        {
+          "key": "about.stats.themes",
+          "value": "plenty"
+        },
+        {
+          "key": "seo.words.variant_label",
+          "value": "Set"
+        },
+        {
+          "key": "collections.detail.metaTitle",
+          "value": "{name} | LessonCraftStudio"
+        },
+        {
+          "key": "collections.gate.signInPromptTitle",
+          "value": "Sign-in required"
+        },
+        {
+          "key": "collections.gate.signInPromptBody",
+          "value": "Free sign-up needed to access this feature. Takes a moment."
+        },
+        {
+          "key": "collections.gate.signInCta",
+          "value": "Join for free"
+        },
+        {
+          "key": "topicPage.intersection.heading",
+          "value": "{primary} · {secondary}"
+        },
+        {
+          "key": "topicPage.breadcrumb.home",
+          "value": "Home"
+        },
+        {
+          "key": "topicPage.crossAxis.pivot",
+          "value": "{primary} · {secondary}"
+        },
+        {
+          "key": "topicPage.facets.heading",
+          "value": "Filters"
+        },
+        {
+          "key": "topicPage.mobileDrawer.openTrigger",
+          "value": "Filters"
+        },
+        {
+          "key": "workspace.metadata.description",
+          "value": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
+        },
+        {
+          "key": "workspace.gate.signInPromptTitle",
+          "value": "Sign-in required"
+        },
+        {
+          "key": "workspace.gate.signInPromptBody",
+          "value": "Free sign-up needed to access this feature. Takes a moment."
+        },
+        {
+          "key": "workspace.gate.signInCta",
+          "value": "Join for free"
+        },
+        {
+          "key": "homepageV3.pillar03.paperStack.pdfA4",
+          "value": "PDF · A4"
+        },
+        {
+          "key": "homepageV3.pillar05.perTileCta",
+          "value": "Open"
+        },
+        {
+          "key": "homepageV3.embedShare.mockup.animalZebra",
+          "value": "Zebra"
+        }
+      ]
+    },
+    "sv": {
+      "missing": [
+        "contact.metaTitle",
+        "contact.metaDescription",
+        "terms.metaTitle",
+        "terms.metaDescription",
+        "license.metaTitle",
+        "privacy.metaTitle",
+        "privacy.metaDescription",
+        "faq.categories.education",
+        "faq.items.general",
+        "faq.items.apps",
+        "faq.items.pricing",
+        "faq.items.technical",
+        "faq.items.commercial",
+        "support.status",
+        "support.submitFirstTicket",
+        "support.yourSupportTickets",
+        "support.refresh",
+        "support.responseAvailable",
+        "support.supportTeamResponse",
+        "support.waitingForResponse",
+        "support.supportWillRespond",
+        "support.resolvedOn",
+        "support.confirmDelete",
+        "support.cannotUndo",
+        "support.ticketSubmittedTitle",
+        "support.ticketSubmittedMessage",
+        "support.subject",
+        "support.submitted",
+        "support.whatHappensNext",
+        "support.nextSteps.step1",
+        "support.nextSteps.step2",
+        "support.nextSteps.step3",
+        "support.submitAnotherTicket",
+        "support.priorityOptions.low",
+        "support.priorityOptions.medium",
+        "support.priorityOptions.high",
+        "support.priorityOptions.urgent",
+        "support.email",
+        "support.accountType",
+        "support.quickResponseTitle",
+        "support.quickResponseText",
+        "support.trackTicketTitle",
+        "support.trackTicketText",
+        "support.errorLoadTickets",
+        "support.successDelete",
+        "support.errorDelete",
+        "support.errorSignIn",
+        "support.successSubmit",
+        "support.errorSubmit",
+        "support.errorSubmitRetry"
+      ],
+      "placeholder": [
+        {
+          "key": "auth.signUp.termsEnd",
+          "value": ""
+        }
+      ],
+      "enLeak": [
+        {
+          "key": "contact.subjects.feedback",
+          "value": "Feedback"
+        },
+        {
+          "key": "privacy.cookies.title",
+          "value": "10. COOKIES"
+        },
+        {
+          "key": "billing.statusCard.title",
+          "value": "Status"
+        },
+        {
+          "key": "billing.tiers.FREE.availability",
+          "value": "available"
+        },
+        {
+          "key": "billing.tiers.CORE.availability",
+          "value": "not-currently-available"
+        },
+        {
+          "key": "billing.tiers.FULL.availability",
+          "value": "not-currently-available"
+        },
+        {
+          "key": "footer.copyright",
+          "value": "© 2026 LessonCraftStudio."
+        },
+        {
+          "key": "about.stats.generators",
+          "value": "many"
+        },
+        {
+          "key": "about.stats.languages",
+          "value": "many"
+        },
+        {
+          "key": "about.stats.themes",
+          "value": "plenty"
+        },
+        {
+          "key": "seo.words.variant_label",
+          "value": "Set"
+        },
+        {
+          "key": "collections.meta.title",
+          "value": "Your collections | LessonCraftStudio"
+        },
+        {
+          "key": "collections.meta.description",
+          "value": "Save and organize decks into collections — by class, by unit, by week."
+        },
+        {
+          "key": "collections.list.title",
+          "value": "Your collections"
+        },
+        {
+          "key": "collections.list.loading",
+          "value": "Loading…"
+        },
+        {
+          "key": "collections.list.newCollection",
+          "value": "+ New collection"
+        },
+        {
+          "key": "collections.list.emptyStateTitle",
+          "value": "No collections yet"
+        },
+        {
+          "key": "collections.list.emptyStateBody",
+          "value": "Save and organize decks into collections — by class, by unit, by week. Click + New collection to start."
+        },
+        {
+          "key": "collections.list.deckCount",
+          "value": "{count, plural, =0 {No decks} =1 {1 deck} other {# decks}}"
+        },
+        {
+          "key": "collections.list.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "collections.create.title",
+          "value": "New collection"
+        },
+        {
+          "key": "collections.create.nameLabel",
+          "value": "Name"
+        },
+        {
+          "key": "collections.create.namePlaceholder",
+          "value": "e.g. Spring vocabulary"
+        },
+        {
+          "key": "collections.create.descriptionLabel",
+          "value": "Description (optional)"
+        },
+        {
+          "key": "collections.create.submit",
+          "value": "Create"
+        },
+        {
+          "key": "collections.create.cancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.create.submitting",
+          "value": "Creating…"
+        },
+        {
+          "key": "collections.create.errorRequired",
+          "value": "Please enter a name."
+        },
+        {
+          "key": "collections.create.errorGeneric",
+          "value": "Could not create the collection. Please try again."
+        },
+        {
+          "key": "collections.detail.metaTitle",
+          "value": "{name} | LessonCraftStudio"
+        },
+        {
+          "key": "collections.detail.back",
+          "value": "← All collections"
+        },
+        {
+          "key": "collections.detail.renameCta",
+          "value": "Rename"
+        },
+        {
+          "key": "collections.detail.renameTitle",
+          "value": "Rename collection"
+        },
+        {
+          "key": "collections.detail.renameSubmit",
+          "value": "Save"
+        },
+        {
+          "key": "collections.detail.renameCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.detail.renameSubmitting",
+          "value": "Saving…"
+        },
+        {
+          "key": "collections.detail.deleteCta",
+          "value": "Delete collection"
+        },
+        {
+          "key": "collections.detail.deleteConfirmTitle",
+          "value": "Delete this collection?"
+        },
+        {
+          "key": "collections.detail.deleteConfirmBody",
+          "value": "Decks won't be removed from the catalog."
+        },
+        {
+          "key": "collections.detail.deleteConfirmCta",
+          "value": "Delete"
+        },
+        {
+          "key": "collections.detail.deleteCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.detail.deleteSubmitting",
+          "value": "Deleting…"
+        },
+        {
+          "key": "collections.detail.removeDeck",
+          "value": "Remove"
+        },
+        {
+          "key": "collections.detail.removeDeckConfirm",
+          "value": "Remove this deck from the collection?"
+        },
+        {
+          "key": "collections.detail.playOnline",
+          "value": "Play online"
+        },
+        {
+          "key": "collections.detail.pdf",
+          "value": "Print PDF"
+        },
+        {
+          "key": "collections.detail.emptyTitle",
+          "value": "No decks in this collection yet"
+        },
+        {
+          "key": "collections.detail.emptyBody",
+          "value": "Browse the catalog and click \"Add to collection\" on any deck card."
+        },
+        {
+          "key": "collections.detail.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "collections.gate.signInPromptTitle",
+          "value": "Sign-in required"
+        },
+        {
+          "key": "collections.gate.signInPromptBody",
+          "value": "Free sign-up needed to access this feature. Takes a moment."
+        },
+        {
+          "key": "collections.gate.signInCta",
+          "value": "Join for free"
+        },
+        {
+          "key": "collections.addAffordance.label",
+          "value": "Add to collection"
+        },
+        {
+          "key": "collections.addAffordance.pickerTitle",
+          "value": "Add to a collection"
+        },
+        {
+          "key": "collections.addAffordance.pickerLoading",
+          "value": "Loading collections…"
+        },
+        {
+          "key": "collections.addAffordance.pickerEmpty",
+          "value": "You don't have any collections yet. Create one first."
+        },
+        {
+          "key": "collections.addAffordance.pickerCreate",
+          "value": "+ New collection"
+        },
+        {
+          "key": "collections.addAffordance.pickerCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.addAffordance.added",
+          "value": "Added to {collectionName}"
+        },
+        {
+          "key": "collections.addAffordance.alreadyIn",
+          "value": "Already in this collection"
+        },
+        {
+          "key": "collections.addAffordance.errorGeneric",
+          "value": "Could not add. Please try again."
+        },
+        {
+          "key": "topicPage.intersection.heading",
+          "value": "{primary} · {secondary}"
+        },
+        {
+          "key": "topicPage.crossAxis.pivot",
+          "value": "{primary} · {secondary}"
+        },
+        {
+          "key": "workspace.metadata.title",
+          "value": "Your workspace | LessonCraftStudio"
+        },
+        {
+          "key": "workspace.metadata.description",
+          "value": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
+        },
+        {
+          "key": "workspace.header.title",
+          "value": "Workspace"
+        },
+        {
+          "key": "workspace.header.welcomeLine",
+          "value": "Your collections and recent activity, all in one place."
+        },
+        {
+          "key": "workspace.gate.signInPromptTitle",
+          "value": "Sign-in required"
+        },
+        {
+          "key": "workspace.gate.signInPromptBody",
+          "value": "Free sign-up needed to access this feature. Takes a moment."
+        },
+        {
+          "key": "workspace.gate.signInCta",
+          "value": "Join for free"
+        },
+        {
+          "key": "workspace.loading",
+          "value": "Loading…"
+        },
+        {
+          "key": "workspace.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "workspace.collections.heading",
+          "value": "Your collections"
+        },
+        {
+          "key": "workspace.collections.viewAll",
+          "value": "View all ({count})"
+        },
+        {
+          "key": "workspace.collections.cardDeckCount",
+          "value": "{count, plural, =0 {No decks} =1 {1 deck} other {# decks}}"
+        },
+        {
+          "key": "workspace.collections.empty.title",
+          "value": "No collections yet"
+        },
+        {
+          "key": "workspace.collections.empty.body",
+          "value": "Save and organize decks into collections — by class, by unit, by week."
+        },
+        {
+          "key": "workspace.recentActivity.heading",
+          "value": "Recent activity"
+        },
+        {
+          "key": "workspace.recentActivity.empty.title",
+          "value": "Nothing here yet"
+        },
+        {
+          "key": "workspace.recentActivity.empty.body",
+          "value": "Activity will appear here as you collect, organize, and share decks."
+        },
+        {
+          "key": "workspace.recentActivity.activityType.collected",
+          "value": "Added {deckTitle} to {collectionName}"
+        },
+        {
+          "key": "workspace.recentActivity.activityType.modified",
+          "value": "Updated {collectionName}"
+        },
+        {
+          "key": "workspace.recentActivity.activityType.shared",
+          "value": "Shared {deckTitle}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.justNow",
+          "value": "just now"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.minutesAgo",
+          "value": "{count, plural, =1 {1 minute ago} other {# minutes ago}}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.hoursAgo",
+          "value": "{count, plural, =1 {1 hour ago} other {# hours ago}}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.daysAgo",
+          "value": "{count, plural, =1 {1 day ago} other {# days ago}}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.weeksAgo",
+          "value": "{count, plural, =1 {1 week ago} other {# weeks ago}}"
+        },
+        {
+          "key": "bulk.toggleSelect",
+          "value": "Select"
+        },
+        {
+          "key": "bulk.toggleDone",
+          "value": "Done"
+        },
+        {
+          "key": "bulk.toolbarAria",
+          "value": "Bulk selection actions"
+        },
+        {
+          "key": "bulk.selectionCount",
+          "value": "{count, plural, =1 {1 deck selected} other {# decks selected}}"
+        },
+        {
+          "key": "bulk.checkboxAria",
+          "value": "Select {title}"
+        },
+        {
+          "key": "bulk.action.addToCollection",
+          "value": "Add to collection"
+        },
+        {
+          "key": "bulk.action.removeFromCollection",
+          "value": "Remove"
+        },
+        {
+          "key": "bulk.action.shareLinks",
+          "value": "Share links"
+        },
+        {
+          "key": "bulk.action.cancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "bulk.addedConfirmation",
+          "value": "{count, plural, =1 {Added 1 deck to {collectionName}} other {Added # decks to {collectionName}}}"
+        },
+        {
+          "key": "bulk.removedConfirmation",
+          "value": "{count, plural, =1 {Removed 1 deck} other {Removed # decks}}"
+        },
+        {
+          "key": "bulk.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerTitle",
+          "value": "{count, plural, =1 {Add 1 deck to a collection} other {Add # decks to a collection}}"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerLoading",
+          "value": "Loading collections…"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerEmpty",
+          "value": "You don't have any collections yet. Create one first."
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerCreate",
+          "value": "+ New collection"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.errorGeneric",
+          "value": "Could not load collections. Please try again."
+        },
+        {
+          "key": "share.label",
+          "value": "Share link"
+        },
+        {
+          "key": "share.singleDeckTitle",
+          "value": "Share this deck"
+        },
+        {
+          "key": "share.singleDeckBody",
+          "value": "Anyone with this link can play the deck. The link doesn't expire."
+        },
+        {
+          "key": "share.generating",
+          "value": "Generating link…"
+        },
+        {
+          "key": "share.copy",
+          "value": "Copy"
+        },
+        {
+          "key": "share.copied",
+          "value": "Copied!"
+        },
+        {
+          "key": "share.copyAll",
+          "value": "Copy all"
+        },
+        {
+          "key": "share.copiedAll",
+          "value": "Copied all!"
+        },
+        {
+          "key": "share.close",
+          "value": "Close"
+        },
+        {
+          "key": "share.errorGeneric",
+          "value": "Could not generate the link. Please try again."
+        },
+        {
+          "key": "share.errorClipboard",
+          "value": "Could not access clipboard. Select the link and copy manually."
+        },
+        {
+          "key": "share.bulkResultsTitle",
+          "value": "{count, plural, =1 {1 share link} other {# share links}}"
+        },
+        {
+          "key": "share.bulkResultsSkipped",
+          "value": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
+        },
+        {
+          "key": "homepageV3.pillar03.paperStack.pdfA4",
+          "value": "PDF · A4"
+        },
+        {
+          "key": "homepageV3.embedShare.mockup.animalTiger",
+          "value": "Tiger"
+        },
+        {
+          "key": "homepageV3.embedShare.mockup.animalZebra",
+          "value": "Zebra"
+        }
+      ]
+    },
+    "da": {
+      "missing": [
+        "contact.metaTitle",
+        "contact.metaDescription",
+        "terms.metaTitle",
+        "terms.metaDescription",
+        "license.metaTitle",
+        "privacy.metaTitle",
+        "privacy.metaDescription",
+        "faq.categories.education",
+        "faq.items.general",
+        "faq.items.apps",
+        "faq.items.pricing",
+        "faq.items.technical",
+        "faq.items.commercial",
+        "billing.paymentHistory.title",
+        "support.status",
+        "support.submitFirstTicket",
+        "support.yourSupportTickets",
+        "support.refresh",
+        "support.responseAvailable",
+        "support.supportTeamResponse",
+        "support.waitingForResponse",
+        "support.supportWillRespond",
+        "support.resolvedOn",
+        "support.confirmDelete",
+        "support.cannotUndo",
+        "support.ticketSubmittedTitle",
+        "support.ticketSubmittedMessage",
+        "support.subject",
+        "support.submitted",
+        "support.whatHappensNext",
+        "support.nextSteps.step1",
+        "support.nextSteps.step2",
+        "support.nextSteps.step3",
+        "support.submitAnotherTicket",
+        "support.priorityOptions.low",
+        "support.priorityOptions.medium",
+        "support.priorityOptions.high",
+        "support.priorityOptions.urgent",
+        "support.email",
+        "support.accountType",
+        "support.quickResponseTitle",
+        "support.quickResponseText",
+        "support.trackTicketTitle",
+        "support.trackTicketText",
+        "support.errorLoadTickets",
+        "support.successDelete",
+        "support.errorDelete",
+        "support.errorSignIn",
+        "support.successSubmit",
+        "support.errorSubmit",
+        "support.errorSubmitRetry"
+      ],
+      "placeholder": [
+        {
+          "key": "auth.signUp.termsEnd",
+          "value": ""
+        }
+      ],
+      "enLeak": [
+        {
+          "key": "navigation.blog",
+          "value": "Blog"
+        },
+        {
+          "key": "contact.subjects.feedback",
+          "value": "Feedback"
+        },
+        {
+          "key": "privacy.cookies.title",
+          "value": "10. COOKIES"
+        },
+        {
+          "key": "billing.upgradeModal.subtotal",
+          "value": "Subtotal:"
+        },
+        {
+          "key": "billing.tiers.FREE.availability",
+          "value": "available"
+        },
+        {
+          "key": "billing.tiers.CORE.availability",
+          "value": "not-currently-available"
+        },
+        {
+          "key": "billing.tiers.FULL.availability",
+          "value": "not-currently-available"
+        },
+        {
+          "key": "footer.copyright",
+          "value": "© 2026 LessonCraftStudio."
+        },
+        {
+          "key": "about.stats.generators",
+          "value": "many"
+        },
+        {
+          "key": "about.stats.languages",
+          "value": "many"
+        },
+        {
+          "key": "about.stats.themes",
+          "value": "plenty"
+        },
+        {
+          "key": "collections.meta.title",
+          "value": "Your collections | LessonCraftStudio"
+        },
+        {
+          "key": "collections.meta.description",
+          "value": "Save and organize decks into collections — by class, by unit, by week."
+        },
+        {
+          "key": "collections.list.title",
+          "value": "Your collections"
+        },
+        {
+          "key": "collections.list.loading",
+          "value": "Loading…"
+        },
+        {
+          "key": "collections.list.newCollection",
+          "value": "+ New collection"
+        },
+        {
+          "key": "collections.list.emptyStateTitle",
+          "value": "No collections yet"
+        },
+        {
+          "key": "collections.list.emptyStateBody",
+          "value": "Save and organize decks into collections — by class, by unit, by week. Click + New collection to start."
+        },
+        {
+          "key": "collections.list.deckCount",
+          "value": "{count, plural, =0 {No decks} =1 {1 deck} other {# decks}}"
+        },
+        {
+          "key": "collections.list.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "collections.create.title",
+          "value": "New collection"
+        },
+        {
+          "key": "collections.create.nameLabel",
+          "value": "Name"
+        },
+        {
+          "key": "collections.create.namePlaceholder",
+          "value": "e.g. Spring vocabulary"
+        },
+        {
+          "key": "collections.create.descriptionLabel",
+          "value": "Description (optional)"
+        },
+        {
+          "key": "collections.create.submit",
+          "value": "Create"
+        },
+        {
+          "key": "collections.create.cancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.create.submitting",
+          "value": "Creating…"
+        },
+        {
+          "key": "collections.create.errorRequired",
+          "value": "Please enter a name."
+        },
+        {
+          "key": "collections.create.errorGeneric",
+          "value": "Could not create the collection. Please try again."
+        },
+        {
+          "key": "collections.detail.metaTitle",
+          "value": "{name} | LessonCraftStudio"
+        },
+        {
+          "key": "collections.detail.back",
+          "value": "← All collections"
+        },
+        {
+          "key": "collections.detail.renameCta",
+          "value": "Rename"
+        },
+        {
+          "key": "collections.detail.renameTitle",
+          "value": "Rename collection"
+        },
+        {
+          "key": "collections.detail.renameSubmit",
+          "value": "Save"
+        },
+        {
+          "key": "collections.detail.renameCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.detail.renameSubmitting",
+          "value": "Saving…"
+        },
+        {
+          "key": "collections.detail.deleteCta",
+          "value": "Delete collection"
+        },
+        {
+          "key": "collections.detail.deleteConfirmTitle",
+          "value": "Delete this collection?"
+        },
+        {
+          "key": "collections.detail.deleteConfirmBody",
+          "value": "Decks won't be removed from the catalog."
+        },
+        {
+          "key": "collections.detail.deleteConfirmCta",
+          "value": "Delete"
+        },
+        {
+          "key": "collections.detail.deleteCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.detail.deleteSubmitting",
+          "value": "Deleting…"
+        },
+        {
+          "key": "collections.detail.removeDeck",
+          "value": "Remove"
+        },
+        {
+          "key": "collections.detail.removeDeckConfirm",
+          "value": "Remove this deck from the collection?"
+        },
+        {
+          "key": "collections.detail.playOnline",
+          "value": "Play online"
+        },
+        {
+          "key": "collections.detail.pdf",
+          "value": "Print PDF"
+        },
+        {
+          "key": "collections.detail.emptyTitle",
+          "value": "No decks in this collection yet"
+        },
+        {
+          "key": "collections.detail.emptyBody",
+          "value": "Browse the catalog and click \"Add to collection\" on any deck card."
+        },
+        {
+          "key": "collections.detail.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "collections.gate.signInPromptTitle",
+          "value": "Sign-in required"
+        },
+        {
+          "key": "collections.gate.signInPromptBody",
+          "value": "Free sign-up needed to access this feature. Takes a moment."
+        },
+        {
+          "key": "collections.gate.signInCta",
+          "value": "Join for free"
+        },
+        {
+          "key": "collections.addAffordance.label",
+          "value": "Add to collection"
+        },
+        {
+          "key": "collections.addAffordance.pickerTitle",
+          "value": "Add to a collection"
+        },
+        {
+          "key": "collections.addAffordance.pickerLoading",
+          "value": "Loading collections…"
+        },
+        {
+          "key": "collections.addAffordance.pickerEmpty",
+          "value": "You don't have any collections yet. Create one first."
+        },
+        {
+          "key": "collections.addAffordance.pickerCreate",
+          "value": "+ New collection"
+        },
+        {
+          "key": "collections.addAffordance.pickerCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.addAffordance.added",
+          "value": "Added to {collectionName}"
+        },
+        {
+          "key": "collections.addAffordance.alreadyIn",
+          "value": "Already in this collection"
+        },
+        {
+          "key": "collections.addAffordance.errorGeneric",
+          "value": "Could not add. Please try again."
+        },
+        {
+          "key": "topicPage.intersection.heading",
+          "value": "{primary} · {secondary}"
+        },
+        {
+          "key": "topicPage.crossAxis.pivot",
+          "value": "{primary} · {secondary}"
+        },
+        {
+          "key": "workspace.metadata.title",
+          "value": "Your workspace | LessonCraftStudio"
+        },
+        {
+          "key": "workspace.metadata.description",
+          "value": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
+        },
+        {
+          "key": "workspace.header.title",
+          "value": "Workspace"
+        },
+        {
+          "key": "workspace.header.welcomeLine",
+          "value": "Your collections and recent activity, all in one place."
+        },
+        {
+          "key": "workspace.gate.signInPromptTitle",
+          "value": "Sign-in required"
+        },
+        {
+          "key": "workspace.gate.signInPromptBody",
+          "value": "Free sign-up needed to access this feature. Takes a moment."
+        },
+        {
+          "key": "workspace.gate.signInCta",
+          "value": "Join for free"
+        },
+        {
+          "key": "workspace.loading",
+          "value": "Loading…"
+        },
+        {
+          "key": "workspace.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "workspace.collections.heading",
+          "value": "Your collections"
+        },
+        {
+          "key": "workspace.collections.viewAll",
+          "value": "View all ({count})"
+        },
+        {
+          "key": "workspace.collections.cardDeckCount",
+          "value": "{count, plural, =0 {No decks} =1 {1 deck} other {# decks}}"
+        },
+        {
+          "key": "workspace.collections.empty.title",
+          "value": "No collections yet"
+        },
+        {
+          "key": "workspace.collections.empty.body",
+          "value": "Save and organize decks into collections — by class, by unit, by week."
+        },
+        {
+          "key": "workspace.recentActivity.heading",
+          "value": "Recent activity"
+        },
+        {
+          "key": "workspace.recentActivity.empty.title",
+          "value": "Nothing here yet"
+        },
+        {
+          "key": "workspace.recentActivity.empty.body",
+          "value": "Activity will appear here as you collect, organize, and share decks."
+        },
+        {
+          "key": "workspace.recentActivity.activityType.collected",
+          "value": "Added {deckTitle} to {collectionName}"
+        },
+        {
+          "key": "workspace.recentActivity.activityType.modified",
+          "value": "Updated {collectionName}"
+        },
+        {
+          "key": "workspace.recentActivity.activityType.shared",
+          "value": "Shared {deckTitle}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.justNow",
+          "value": "just now"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.minutesAgo",
+          "value": "{count, plural, =1 {1 minute ago} other {# minutes ago}}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.hoursAgo",
+          "value": "{count, plural, =1 {1 hour ago} other {# hours ago}}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.daysAgo",
+          "value": "{count, plural, =1 {1 day ago} other {# days ago}}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.weeksAgo",
+          "value": "{count, plural, =1 {1 week ago} other {# weeks ago}}"
+        },
+        {
+          "key": "bulk.toggleSelect",
+          "value": "Select"
+        },
+        {
+          "key": "bulk.toggleDone",
+          "value": "Done"
+        },
+        {
+          "key": "bulk.toolbarAria",
+          "value": "Bulk selection actions"
+        },
+        {
+          "key": "bulk.selectionCount",
+          "value": "{count, plural, =1 {1 deck selected} other {# decks selected}}"
+        },
+        {
+          "key": "bulk.checkboxAria",
+          "value": "Select {title}"
+        },
+        {
+          "key": "bulk.action.addToCollection",
+          "value": "Add to collection"
+        },
+        {
+          "key": "bulk.action.removeFromCollection",
+          "value": "Remove"
+        },
+        {
+          "key": "bulk.action.shareLinks",
+          "value": "Share links"
+        },
+        {
+          "key": "bulk.action.cancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "bulk.addedConfirmation",
+          "value": "{count, plural, =1 {Added 1 deck to {collectionName}} other {Added # decks to {collectionName}}}"
+        },
+        {
+          "key": "bulk.removedConfirmation",
+          "value": "{count, plural, =1 {Removed 1 deck} other {Removed # decks}}"
+        },
+        {
+          "key": "bulk.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerTitle",
+          "value": "{count, plural, =1 {Add 1 deck to a collection} other {Add # decks to a collection}}"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerLoading",
+          "value": "Loading collections…"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerEmpty",
+          "value": "You don't have any collections yet. Create one first."
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerCreate",
+          "value": "+ New collection"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.errorGeneric",
+          "value": "Could not load collections. Please try again."
+        },
+        {
+          "key": "share.label",
+          "value": "Share link"
+        },
+        {
+          "key": "share.singleDeckTitle",
+          "value": "Share this deck"
+        },
+        {
+          "key": "share.singleDeckBody",
+          "value": "Anyone with this link can play the deck. The link doesn't expire."
+        },
+        {
+          "key": "share.generating",
+          "value": "Generating link…"
+        },
+        {
+          "key": "share.copy",
+          "value": "Copy"
+        },
+        {
+          "key": "share.copied",
+          "value": "Copied!"
+        },
+        {
+          "key": "share.copyAll",
+          "value": "Copy all"
+        },
+        {
+          "key": "share.copiedAll",
+          "value": "Copied all!"
+        },
+        {
+          "key": "share.close",
+          "value": "Close"
+        },
+        {
+          "key": "share.errorGeneric",
+          "value": "Could not generate the link. Please try again."
+        },
+        {
+          "key": "share.errorClipboard",
+          "value": "Could not access clipboard. Select the link and copy manually."
+        },
+        {
+          "key": "share.bulkResultsTitle",
+          "value": "{count, plural, =1 {1 share link} other {# share links}}"
+        },
+        {
+          "key": "share.bulkResultsSkipped",
+          "value": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
+        },
+        {
+          "key": "homepageV3.pillar03.paperStack.pdfA4",
+          "value": "PDF · A4"
+        },
+        {
+          "key": "homepageV3.embedShare.mockup.animalTiger",
+          "value": "Tiger"
+        },
+        {
+          "key": "homepageV3.embedShare.mockup.animalZebra",
+          "value": "Zebra"
+        }
+      ]
+    },
+    "no": {
+      "missing": [
+        "contact.metaTitle",
+        "contact.metaDescription",
+        "terms.metaTitle",
+        "terms.metaDescription",
+        "license.metaTitle",
+        "privacy.metaTitle",
+        "privacy.metaDescription",
+        "faq.categories.education",
+        "billing.paymentHistory.title",
+        "support.status",
+        "support.submitFirstTicket",
+        "support.yourSupportTickets",
+        "support.refresh",
+        "support.responseAvailable",
+        "support.supportTeamResponse",
+        "support.waitingForResponse",
+        "support.supportWillRespond",
+        "support.resolvedOn",
+        "support.confirmDelete",
+        "support.cannotUndo",
+        "support.ticketSubmittedTitle",
+        "support.ticketSubmittedMessage",
+        "support.subject",
+        "support.submitted",
+        "support.whatHappensNext",
+        "support.nextSteps.step1",
+        "support.nextSteps.step2",
+        "support.nextSteps.step3",
+        "support.submitAnotherTicket",
+        "support.priorityOptions.low",
+        "support.priorityOptions.medium",
+        "support.priorityOptions.high",
+        "support.priorityOptions.urgent",
+        "support.email",
+        "support.accountType",
+        "support.quickResponseTitle",
+        "support.quickResponseText",
+        "support.trackTicketTitle",
+        "support.trackTicketText",
+        "support.errorLoadTickets",
+        "support.successDelete",
+        "support.errorDelete",
+        "support.errorSignIn",
+        "support.successSubmit",
+        "support.errorSubmit",
+        "support.errorSubmitRetry"
+      ],
+      "placeholder": [
+        {
+          "key": "auth.signUp.termsEnd",
+          "value": ""
+        }
+      ],
+      "enLeak": [
+        {
+          "key": "billing.tiers.FREE.availability",
+          "value": "available"
+        },
+        {
+          "key": "billing.tiers.CORE.availability",
+          "value": "not-currently-available"
+        },
+        {
+          "key": "billing.tiers.FULL.availability",
+          "value": "not-currently-available"
+        },
+        {
+          "key": "footer.copyright",
+          "value": "© 2026 LessonCraftStudio."
+        },
+        {
+          "key": "about.stats.generators",
+          "value": "many"
+        },
+        {
+          "key": "about.stats.languages",
+          "value": "many"
+        },
+        {
+          "key": "about.stats.themes",
+          "value": "plenty"
+        },
+        {
+          "key": "seo.words.for",
+          "value": "for"
+        },
+        {
+          "key": "collections.meta.title",
+          "value": "Your collections | LessonCraftStudio"
+        },
+        {
+          "key": "collections.meta.description",
+          "value": "Save and organize decks into collections — by class, by unit, by week."
+        },
+        {
+          "key": "collections.list.title",
+          "value": "Your collections"
+        },
+        {
+          "key": "collections.list.loading",
+          "value": "Loading…"
+        },
+        {
+          "key": "collections.list.newCollection",
+          "value": "+ New collection"
+        },
+        {
+          "key": "collections.list.emptyStateTitle",
+          "value": "No collections yet"
+        },
+        {
+          "key": "collections.list.emptyStateBody",
+          "value": "Save and organize decks into collections — by class, by unit, by week. Click + New collection to start."
+        },
+        {
+          "key": "collections.list.deckCount",
+          "value": "{count, plural, =0 {No decks} =1 {1 deck} other {# decks}}"
+        },
+        {
+          "key": "collections.list.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "collections.create.title",
+          "value": "New collection"
+        },
+        {
+          "key": "collections.create.nameLabel",
+          "value": "Name"
+        },
+        {
+          "key": "collections.create.namePlaceholder",
+          "value": "e.g. Spring vocabulary"
+        },
+        {
+          "key": "collections.create.descriptionLabel",
+          "value": "Description (optional)"
+        },
+        {
+          "key": "collections.create.submit",
+          "value": "Create"
+        },
+        {
+          "key": "collections.create.cancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.create.submitting",
+          "value": "Creating…"
+        },
+        {
+          "key": "collections.create.errorRequired",
+          "value": "Please enter a name."
+        },
+        {
+          "key": "collections.create.errorGeneric",
+          "value": "Could not create the collection. Please try again."
+        },
+        {
+          "key": "collections.detail.metaTitle",
+          "value": "{name} | LessonCraftStudio"
+        },
+        {
+          "key": "collections.detail.back",
+          "value": "← All collections"
+        },
+        {
+          "key": "collections.detail.renameCta",
+          "value": "Rename"
+        },
+        {
+          "key": "collections.detail.renameTitle",
+          "value": "Rename collection"
+        },
+        {
+          "key": "collections.detail.renameSubmit",
+          "value": "Save"
+        },
+        {
+          "key": "collections.detail.renameCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.detail.renameSubmitting",
+          "value": "Saving…"
+        },
+        {
+          "key": "collections.detail.deleteCta",
+          "value": "Delete collection"
+        },
+        {
+          "key": "collections.detail.deleteConfirmTitle",
+          "value": "Delete this collection?"
+        },
+        {
+          "key": "collections.detail.deleteConfirmBody",
+          "value": "Decks won't be removed from the catalog."
+        },
+        {
+          "key": "collections.detail.deleteConfirmCta",
+          "value": "Delete"
+        },
+        {
+          "key": "collections.detail.deleteCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.detail.deleteSubmitting",
+          "value": "Deleting…"
+        },
+        {
+          "key": "collections.detail.removeDeck",
+          "value": "Remove"
+        },
+        {
+          "key": "collections.detail.removeDeckConfirm",
+          "value": "Remove this deck from the collection?"
+        },
+        {
+          "key": "collections.detail.playOnline",
+          "value": "Play online"
+        },
+        {
+          "key": "collections.detail.pdf",
+          "value": "Print PDF"
+        },
+        {
+          "key": "collections.detail.emptyTitle",
+          "value": "No decks in this collection yet"
+        },
+        {
+          "key": "collections.detail.emptyBody",
+          "value": "Browse the catalog and click \"Add to collection\" on any deck card."
+        },
+        {
+          "key": "collections.detail.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "collections.gate.signInPromptTitle",
+          "value": "Sign-in required"
+        },
+        {
+          "key": "collections.gate.signInPromptBody",
+          "value": "Free sign-up needed to access this feature. Takes a moment."
+        },
+        {
+          "key": "collections.gate.signInCta",
+          "value": "Join for free"
+        },
+        {
+          "key": "collections.addAffordance.label",
+          "value": "Add to collection"
+        },
+        {
+          "key": "collections.addAffordance.pickerTitle",
+          "value": "Add to a collection"
+        },
+        {
+          "key": "collections.addAffordance.pickerLoading",
+          "value": "Loading collections…"
+        },
+        {
+          "key": "collections.addAffordance.pickerEmpty",
+          "value": "You don't have any collections yet. Create one first."
+        },
+        {
+          "key": "collections.addAffordance.pickerCreate",
+          "value": "+ New collection"
+        },
+        {
+          "key": "collections.addAffordance.pickerCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.addAffordance.added",
+          "value": "Added to {collectionName}"
+        },
+        {
+          "key": "collections.addAffordance.alreadyIn",
+          "value": "Already in this collection"
+        },
+        {
+          "key": "collections.addAffordance.errorGeneric",
+          "value": "Could not add. Please try again."
+        },
+        {
+          "key": "topicPage.intersection.heading",
+          "value": "{primary} · {secondary}"
+        },
+        {
+          "key": "topicPage.crossAxis.pivot",
+          "value": "{primary} · {secondary}"
+        },
+        {
+          "key": "workspace.metadata.title",
+          "value": "Your workspace | LessonCraftStudio"
+        },
+        {
+          "key": "workspace.metadata.description",
+          "value": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
+        },
+        {
+          "key": "workspace.header.title",
+          "value": "Workspace"
+        },
+        {
+          "key": "workspace.header.welcomeLine",
+          "value": "Your collections and recent activity, all in one place."
+        },
+        {
+          "key": "workspace.gate.signInPromptTitle",
+          "value": "Sign-in required"
+        },
+        {
+          "key": "workspace.gate.signInPromptBody",
+          "value": "Free sign-up needed to access this feature. Takes a moment."
+        },
+        {
+          "key": "workspace.gate.signInCta",
+          "value": "Join for free"
+        },
+        {
+          "key": "workspace.loading",
+          "value": "Loading…"
+        },
+        {
+          "key": "workspace.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "workspace.collections.heading",
+          "value": "Your collections"
+        },
+        {
+          "key": "workspace.collections.viewAll",
+          "value": "View all ({count})"
+        },
+        {
+          "key": "workspace.collections.cardDeckCount",
+          "value": "{count, plural, =0 {No decks} =1 {1 deck} other {# decks}}"
+        },
+        {
+          "key": "workspace.collections.empty.title",
+          "value": "No collections yet"
+        },
+        {
+          "key": "workspace.collections.empty.body",
+          "value": "Save and organize decks into collections — by class, by unit, by week."
+        },
+        {
+          "key": "workspace.recentActivity.heading",
+          "value": "Recent activity"
+        },
+        {
+          "key": "workspace.recentActivity.empty.title",
+          "value": "Nothing here yet"
+        },
+        {
+          "key": "workspace.recentActivity.empty.body",
+          "value": "Activity will appear here as you collect, organize, and share decks."
+        },
+        {
+          "key": "workspace.recentActivity.activityType.collected",
+          "value": "Added {deckTitle} to {collectionName}"
+        },
+        {
+          "key": "workspace.recentActivity.activityType.modified",
+          "value": "Updated {collectionName}"
+        },
+        {
+          "key": "workspace.recentActivity.activityType.shared",
+          "value": "Shared {deckTitle}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.justNow",
+          "value": "just now"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.minutesAgo",
+          "value": "{count, plural, =1 {1 minute ago} other {# minutes ago}}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.hoursAgo",
+          "value": "{count, plural, =1 {1 hour ago} other {# hours ago}}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.daysAgo",
+          "value": "{count, plural, =1 {1 day ago} other {# days ago}}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.weeksAgo",
+          "value": "{count, plural, =1 {1 week ago} other {# weeks ago}}"
+        },
+        {
+          "key": "bulk.toggleSelect",
+          "value": "Select"
+        },
+        {
+          "key": "bulk.toggleDone",
+          "value": "Done"
+        },
+        {
+          "key": "bulk.toolbarAria",
+          "value": "Bulk selection actions"
+        },
+        {
+          "key": "bulk.selectionCount",
+          "value": "{count, plural, =1 {1 deck selected} other {# decks selected}}"
+        },
+        {
+          "key": "bulk.checkboxAria",
+          "value": "Select {title}"
+        },
+        {
+          "key": "bulk.action.addToCollection",
+          "value": "Add to collection"
+        },
+        {
+          "key": "bulk.action.removeFromCollection",
+          "value": "Remove"
+        },
+        {
+          "key": "bulk.action.shareLinks",
+          "value": "Share links"
+        },
+        {
+          "key": "bulk.action.cancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "bulk.addedConfirmation",
+          "value": "{count, plural, =1 {Added 1 deck to {collectionName}} other {Added # decks to {collectionName}}}"
+        },
+        {
+          "key": "bulk.removedConfirmation",
+          "value": "{count, plural, =1 {Removed 1 deck} other {Removed # decks}}"
+        },
+        {
+          "key": "bulk.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerTitle",
+          "value": "{count, plural, =1 {Add 1 deck to a collection} other {Add # decks to a collection}}"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerLoading",
+          "value": "Loading collections…"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerEmpty",
+          "value": "You don't have any collections yet. Create one first."
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerCreate",
+          "value": "+ New collection"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.errorGeneric",
+          "value": "Could not load collections. Please try again."
+        },
+        {
+          "key": "share.label",
+          "value": "Share link"
+        },
+        {
+          "key": "share.singleDeckTitle",
+          "value": "Share this deck"
+        },
+        {
+          "key": "share.singleDeckBody",
+          "value": "Anyone with this link can play the deck. The link doesn't expire."
+        },
+        {
+          "key": "share.generating",
+          "value": "Generating link…"
+        },
+        {
+          "key": "share.copy",
+          "value": "Copy"
+        },
+        {
+          "key": "share.copied",
+          "value": "Copied!"
+        },
+        {
+          "key": "share.copyAll",
+          "value": "Copy all"
+        },
+        {
+          "key": "share.copiedAll",
+          "value": "Copied all!"
+        },
+        {
+          "key": "share.close",
+          "value": "Close"
+        },
+        {
+          "key": "share.errorGeneric",
+          "value": "Could not generate the link. Please try again."
+        },
+        {
+          "key": "share.errorClipboard",
+          "value": "Could not access clipboard. Select the link and copy manually."
+        },
+        {
+          "key": "share.bulkResultsTitle",
+          "value": "{count, plural, =1 {1 share link} other {# share links}}"
+        },
+        {
+          "key": "share.bulkResultsSkipped",
+          "value": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
+        },
+        {
+          "key": "homepageV3.pillar03.paperStack.pdfA4",
+          "value": "PDF · A4"
+        },
+        {
+          "key": "homepageV3.embedShare.mockup.animalTiger",
+          "value": "Tiger"
+        }
+      ]
+    },
+    "fi": {
+      "missing": [
+        "contact.metaTitle",
+        "contact.metaDescription",
+        "terms.metaTitle",
+        "terms.metaDescription",
+        "license.metaTitle",
+        "privacy.metaTitle",
+        "privacy.metaDescription",
+        "faq.categories.education",
+        "faq.items.general",
+        "faq.items.apps",
+        "faq.items.pricing",
+        "faq.items.technical",
+        "faq.items.commercial",
+        "billing.paymentHistory.title",
+        "support.status",
+        "support.submitFirstTicket",
+        "support.yourSupportTickets",
+        "support.refresh",
+        "support.responseAvailable",
+        "support.supportTeamResponse",
+        "support.waitingForResponse",
+        "support.supportWillRespond",
+        "support.resolvedOn",
+        "support.confirmDelete",
+        "support.cannotUndo",
+        "support.ticketSubmittedTitle",
+        "support.ticketSubmittedMessage",
+        "support.subject",
+        "support.submitted",
+        "support.whatHappensNext",
+        "support.nextSteps.step1",
+        "support.nextSteps.step2",
+        "support.nextSteps.step3",
+        "support.submitAnotherTicket",
+        "support.priorityOptions.low",
+        "support.priorityOptions.medium",
+        "support.priorityOptions.high",
+        "support.priorityOptions.urgent",
+        "support.email",
+        "support.accountType",
+        "support.quickResponseTitle",
+        "support.quickResponseText",
+        "support.trackTicketTitle",
+        "support.trackTicketText",
+        "support.errorLoadTickets",
+        "support.successDelete",
+        "support.errorDelete",
+        "support.errorSignIn",
+        "support.successSubmit",
+        "support.errorSubmit",
+        "support.errorSubmitRetry"
+      ],
+      "placeholder": [
+        {
+          "key": "auth.signUp.termsEnd",
+          "value": ""
+        }
+      ],
+      "enLeak": [
+        {
+          "key": "billing.tiers.FREE.availability",
+          "value": "available"
+        },
+        {
+          "key": "billing.tiers.CORE.availability",
+          "value": "not-currently-available"
+        },
+        {
+          "key": "billing.tiers.FULL.availability",
+          "value": "not-currently-available"
+        },
+        {
+          "key": "footer.copyright",
+          "value": "© 2026 LessonCraftStudio."
+        },
+        {
+          "key": "about.stats.generators",
+          "value": "many"
+        },
+        {
+          "key": "about.stats.languages",
+          "value": "many"
+        },
+        {
+          "key": "about.stats.themes",
+          "value": "plenty"
+        },
+        {
+          "key": "collections.meta.title",
+          "value": "Your collections | LessonCraftStudio"
+        },
+        {
+          "key": "collections.meta.description",
+          "value": "Save and organize decks into collections — by class, by unit, by week."
+        },
+        {
+          "key": "collections.list.title",
+          "value": "Your collections"
+        },
+        {
+          "key": "collections.list.loading",
+          "value": "Loading…"
+        },
+        {
+          "key": "collections.list.newCollection",
+          "value": "+ New collection"
+        },
+        {
+          "key": "collections.list.emptyStateTitle",
+          "value": "No collections yet"
+        },
+        {
+          "key": "collections.list.emptyStateBody",
+          "value": "Save and organize decks into collections — by class, by unit, by week. Click + New collection to start."
+        },
+        {
+          "key": "collections.list.deckCount",
+          "value": "{count, plural, =0 {No decks} =1 {1 deck} other {# decks}}"
+        },
+        {
+          "key": "collections.list.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "collections.create.title",
+          "value": "New collection"
+        },
+        {
+          "key": "collections.create.nameLabel",
+          "value": "Name"
+        },
+        {
+          "key": "collections.create.namePlaceholder",
+          "value": "e.g. Spring vocabulary"
+        },
+        {
+          "key": "collections.create.descriptionLabel",
+          "value": "Description (optional)"
+        },
+        {
+          "key": "collections.create.submit",
+          "value": "Create"
+        },
+        {
+          "key": "collections.create.cancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.create.submitting",
+          "value": "Creating…"
+        },
+        {
+          "key": "collections.create.errorRequired",
+          "value": "Please enter a name."
+        },
+        {
+          "key": "collections.create.errorGeneric",
+          "value": "Could not create the collection. Please try again."
+        },
+        {
+          "key": "collections.detail.metaTitle",
+          "value": "{name} | LessonCraftStudio"
+        },
+        {
+          "key": "collections.detail.back",
+          "value": "← All collections"
+        },
+        {
+          "key": "collections.detail.renameCta",
+          "value": "Rename"
+        },
+        {
+          "key": "collections.detail.renameTitle",
+          "value": "Rename collection"
+        },
+        {
+          "key": "collections.detail.renameSubmit",
+          "value": "Save"
+        },
+        {
+          "key": "collections.detail.renameCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.detail.renameSubmitting",
+          "value": "Saving…"
+        },
+        {
+          "key": "collections.detail.deleteCta",
+          "value": "Delete collection"
+        },
+        {
+          "key": "collections.detail.deleteConfirmTitle",
+          "value": "Delete this collection?"
+        },
+        {
+          "key": "collections.detail.deleteConfirmBody",
+          "value": "Decks won't be removed from the catalog."
+        },
+        {
+          "key": "collections.detail.deleteConfirmCta",
+          "value": "Delete"
+        },
+        {
+          "key": "collections.detail.deleteCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.detail.deleteSubmitting",
+          "value": "Deleting…"
+        },
+        {
+          "key": "collections.detail.removeDeck",
+          "value": "Remove"
+        },
+        {
+          "key": "collections.detail.removeDeckConfirm",
+          "value": "Remove this deck from the collection?"
+        },
+        {
+          "key": "collections.detail.playOnline",
+          "value": "Play online"
+        },
+        {
+          "key": "collections.detail.pdf",
+          "value": "Print PDF"
+        },
+        {
+          "key": "collections.detail.emptyTitle",
+          "value": "No decks in this collection yet"
+        },
+        {
+          "key": "collections.detail.emptyBody",
+          "value": "Browse the catalog and click \"Add to collection\" on any deck card."
+        },
+        {
+          "key": "collections.detail.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "collections.gate.signInPromptTitle",
+          "value": "Sign-in required"
+        },
+        {
+          "key": "collections.gate.signInPromptBody",
+          "value": "Free sign-up needed to access this feature. Takes a moment."
+        },
+        {
+          "key": "collections.gate.signInCta",
+          "value": "Join for free"
+        },
+        {
+          "key": "collections.addAffordance.label",
+          "value": "Add to collection"
+        },
+        {
+          "key": "collections.addAffordance.pickerTitle",
+          "value": "Add to a collection"
+        },
+        {
+          "key": "collections.addAffordance.pickerLoading",
+          "value": "Loading collections…"
+        },
+        {
+          "key": "collections.addAffordance.pickerEmpty",
+          "value": "You don't have any collections yet. Create one first."
+        },
+        {
+          "key": "collections.addAffordance.pickerCreate",
+          "value": "+ New collection"
+        },
+        {
+          "key": "collections.addAffordance.pickerCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "collections.addAffordance.added",
+          "value": "Added to {collectionName}"
+        },
+        {
+          "key": "collections.addAffordance.alreadyIn",
+          "value": "Already in this collection"
+        },
+        {
+          "key": "collections.addAffordance.errorGeneric",
+          "value": "Could not add. Please try again."
+        },
+        {
+          "key": "topicPage.intersection.heading",
+          "value": "{primary} · {secondary}"
+        },
+        {
+          "key": "topicPage.crossAxis.pivot",
+          "value": "{primary} · {secondary}"
+        },
+        {
+          "key": "workspace.metadata.title",
+          "value": "Your workspace | LessonCraftStudio"
+        },
+        {
+          "key": "workspace.metadata.description",
+          "value": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
+        },
+        {
+          "key": "workspace.header.title",
+          "value": "Workspace"
+        },
+        {
+          "key": "workspace.header.welcomeLine",
+          "value": "Your collections and recent activity, all in one place."
+        },
+        {
+          "key": "workspace.gate.signInPromptTitle",
+          "value": "Sign-in required"
+        },
+        {
+          "key": "workspace.gate.signInPromptBody",
+          "value": "Free sign-up needed to access this feature. Takes a moment."
+        },
+        {
+          "key": "workspace.gate.signInCta",
+          "value": "Join for free"
+        },
+        {
+          "key": "workspace.loading",
+          "value": "Loading…"
+        },
+        {
+          "key": "workspace.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "workspace.collections.heading",
+          "value": "Your collections"
+        },
+        {
+          "key": "workspace.collections.viewAll",
+          "value": "View all ({count})"
+        },
+        {
+          "key": "workspace.collections.cardDeckCount",
+          "value": "{count, plural, =0 {No decks} =1 {1 deck} other {# decks}}"
+        },
+        {
+          "key": "workspace.collections.empty.title",
+          "value": "No collections yet"
+        },
+        {
+          "key": "workspace.collections.empty.body",
+          "value": "Save and organize decks into collections — by class, by unit, by week."
+        },
+        {
+          "key": "workspace.recentActivity.heading",
+          "value": "Recent activity"
+        },
+        {
+          "key": "workspace.recentActivity.empty.title",
+          "value": "Nothing here yet"
+        },
+        {
+          "key": "workspace.recentActivity.empty.body",
+          "value": "Activity will appear here as you collect, organize, and share decks."
+        },
+        {
+          "key": "workspace.recentActivity.activityType.collected",
+          "value": "Added {deckTitle} to {collectionName}"
+        },
+        {
+          "key": "workspace.recentActivity.activityType.modified",
+          "value": "Updated {collectionName}"
+        },
+        {
+          "key": "workspace.recentActivity.activityType.shared",
+          "value": "Shared {deckTitle}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.justNow",
+          "value": "just now"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.minutesAgo",
+          "value": "{count, plural, =1 {1 minute ago} other {# minutes ago}}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.hoursAgo",
+          "value": "{count, plural, =1 {1 hour ago} other {# hours ago}}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.daysAgo",
+          "value": "{count, plural, =1 {1 day ago} other {# days ago}}"
+        },
+        {
+          "key": "workspace.recentActivity.relativeTime.weeksAgo",
+          "value": "{count, plural, =1 {1 week ago} other {# weeks ago}}"
+        },
+        {
+          "key": "bulk.toggleSelect",
+          "value": "Select"
+        },
+        {
+          "key": "bulk.toggleDone",
+          "value": "Done"
+        },
+        {
+          "key": "bulk.toolbarAria",
+          "value": "Bulk selection actions"
+        },
+        {
+          "key": "bulk.selectionCount",
+          "value": "{count, plural, =1 {1 deck selected} other {# decks selected}}"
+        },
+        {
+          "key": "bulk.checkboxAria",
+          "value": "Select {title}"
+        },
+        {
+          "key": "bulk.action.addToCollection",
+          "value": "Add to collection"
+        },
+        {
+          "key": "bulk.action.removeFromCollection",
+          "value": "Remove"
+        },
+        {
+          "key": "bulk.action.shareLinks",
+          "value": "Share links"
+        },
+        {
+          "key": "bulk.action.cancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "bulk.addedConfirmation",
+          "value": "{count, plural, =1 {Added 1 deck to {collectionName}} other {Added # decks to {collectionName}}}"
+        },
+        {
+          "key": "bulk.removedConfirmation",
+          "value": "{count, plural, =1 {Removed 1 deck} other {Removed # decks}}"
+        },
+        {
+          "key": "bulk.errorGeneric",
+          "value": "Something went wrong. Please try again."
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerTitle",
+          "value": "{count, plural, =1 {Add 1 deck to a collection} other {Add # decks to a collection}}"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerLoading",
+          "value": "Loading collections…"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerEmpty",
+          "value": "You don't have any collections yet. Create one first."
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerCreate",
+          "value": "+ New collection"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.pickerCancel",
+          "value": "Cancel"
+        },
+        {
+          "key": "bulk.addToCollectionPicker.errorGeneric",
+          "value": "Could not load collections. Please try again."
+        },
+        {
+          "key": "share.label",
+          "value": "Share link"
+        },
+        {
+          "key": "share.singleDeckTitle",
+          "value": "Share this deck"
+        },
+        {
+          "key": "share.singleDeckBody",
+          "value": "Anyone with this link can play the deck. The link doesn't expire."
+        },
+        {
+          "key": "share.generating",
+          "value": "Generating link…"
+        },
+        {
+          "key": "share.copy",
+          "value": "Copy"
+        },
+        {
+          "key": "share.copied",
+          "value": "Copied!"
+        },
+        {
+          "key": "share.copyAll",
+          "value": "Copy all"
+        },
+        {
+          "key": "share.copiedAll",
+          "value": "Copied all!"
+        },
+        {
+          "key": "share.close",
+          "value": "Close"
+        },
+        {
+          "key": "share.errorGeneric",
+          "value": "Could not generate the link. Please try again."
+        },
+        {
+          "key": "share.errorClipboard",
+          "value": "Could not access clipboard. Select the link and copy manually."
+        },
+        {
+          "key": "share.bulkResultsTitle",
+          "value": "{count, plural, =1 {1 share link} other {# share links}}"
+        },
+        {
+          "key": "share.bulkResultsSkipped",
+          "value": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
+        },
+        {
+          "key": "homepageV3.pillar03.paperStack.pdfA4",
+          "value": "PDF · A4"
+        }
+      ]
+    }
+  },
+  "notes": [
+    "EN_LEAK includes legitimate cognates (Blog, Email, Status, Contact, Plan) that share spelling across many locales. Not all entries are defects.",
+    "PLACEHOLDER entries may be intentional empty strings — e.g. auth.signUp.termsEnd (\"\") is a trailing terms-sentence fragment that is empty in en.json by design.",
+    "Section-header capital strings (e.g. \"13. CONTACT\", \"10. COOKIES\", \"1. INTRODUCTION\") in fr/pt/it/sv/da/no/fi are real translation gaps on legal pages.",
+    "Nordic+Finnic (sv/da/no/fi) require NSR per CLAUDE.md §17.5.1 before any auto-fix."
+  ]
+}

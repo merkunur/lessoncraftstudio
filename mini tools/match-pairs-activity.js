@@ -23,12 +23,13 @@
    locale fan-outs add entries under each key per the §A.13.48 plan-mode-
    per-locale discipline. */
 var ACTIVITY_STRINGS_MP = {
-  taskMakeN:       { en: 'Make {n}',                                                de: 'Bilde {n}',                                                                                            es: 'Forma {n}',                                                                                            it: 'Forma {n}' },
-  hintFormPairs:   { en: 'Tap a number, then tap its partner',                      de: 'Tippe auf eine Zahl, dann auf ihren Partner',                                                          es: 'Toca un número, luego toca su pareja',                                                                 it: 'Tocca un numero, poi tocca il suo compagno' },
+  taskMakeN:       { en: 'Make {n}',                                                de: 'Bilde {n}',                                                                                            es: 'Forma {n}',                                                                                            it: 'Forma {n}',                                                                                                            fr: 'Compose {n}' },
+  hintFormPairs:   { en: 'Tap a number, then tap its partner',                      de: 'Tippe auf eine Zahl, dann auf ihren Partner',                                                          es: 'Toca un número, luego toca su pareja',                                                                 it: 'Tocca un numero, poi tocca il suo compagno',                                                                           fr: 'Touche un nombre, puis touche son partenaire' },
   hintTryDifferent:{ en: 'Some pairs don\'t add up — tap a pair to break it and try again',
                      de: 'Manche Paare ergeben nicht das Ziel — tippe ein Paar an, um es zu trennen, und versuch\'s nochmal',
                      es: 'Algunas parejas no forman el objetivo — toca una pareja para deshacerla e inténtalo de nuevo',
-                     it: 'Alcune coppie non vanno — tocca una coppia per scioglierla e riprova' }
+                     it: 'Alcune coppie non vanno — tocca una coppia per scioglierla e riprova',
+                     fr: 'Certaines paires ne font pas l\'objectif — touche une paire pour la défaire et réessaie' }
 };
 
 /* Fallback static task set when no ?activity= is given. Same shape as
@@ -85,13 +86,15 @@ window.MatchPairsActivity = Object.assign({}, MatchPairsCore, {
       en: 'Make the Number',
       de: 'Bilde die Zahl',
       es: 'Forma el número',
-      it: 'Forma il numero'
+      it: 'Forma il numero',
+      fr: 'Compose le nombre'
     },
     instruction: {
       en: 'Find pairs of numbers that add up to the target. Tap Check when you\'re ready.',
       de: 'Finde Zahlenpaare, die zusammen das Ziel ergeben. Tippe auf Prüfen, wenn du fertig bist.',
       es: 'Encuentra parejas de números que sumen el objetivo. Toca Comprobar cuando estés listo.',
-      it: 'Trova coppie di numeri che fanno l\'obiettivo. Tocca Verifica quando sei pronto.'
+      it: 'Trova coppie di numeri che fanno l\'obiettivo. Tocca Verifica quando sei pronto.',
+      fr: 'Trouve des paires de nombres qui font l\'objectif. Touche Vérifier quand tu es prêt.'
     }
   }),
 

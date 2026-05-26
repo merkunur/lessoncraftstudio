@@ -86,17 +86,16 @@ window.PlaceValueCore = {
     srRemove:     { en: 'remove',   de: 'entferne',            es: 'quitar',                  it: 'rimuovi',                                             fr: 'retire',                                              pt: 'remova',                                              nl: 'verwijder',                                           sv: 'ta bort',                                             da: 'fjern',                                               no: 'fjern',                                               fi: 'poista' },
 
     /* ---- 3-place activity (2.NBT.A.1) strings — EN + DE + ES + IT + FR
-       shipped. These keys are read ONLY when this.places contains
-       'hundreds'. 2-place activity ignores them entirely. FR follows
-       activity 1's convention: centaine/dizaine/unité inflect by count
-       (singular at 0 or 1; plural -s at 2+); feminine `une` article in
-       add-button (matches FR feminine noun gender). srHundredsFlat =
-       "plaque de cent" mirrors activity 1's "barre de dix"/"cube unité"
-       preposition-based compound. */
-    hundredsLabel:   { en: 'Hundreds',     de: 'Hunderter',           es: 'Centenas',         it: 'Centinaia',         fr: 'Centaines' },
-    addHundredLabel: { en: 'Add hundred',  de: 'Hunderter hinzufügen',es: 'Añadir una centena',it: 'Aggiungi un centinaio',fr: 'Ajoute une centaine' },
-    wordHundred:     { en: 'hundred',      de: 'Hunderter',           es: 'centena',          it: 'centinaio',         fr: 'centaine' },    // tap-utterance, singular
-    srHundredsFlat:  { en: 'hundreds-flat',de: 'Hunderterplatte',     es: 'placa de cien',    it: 'piastra da cento',  fr: 'plaque de cent' } // sr-only aria-label fragment
+       + PT shipped. These keys are read ONLY when this.places contains
+       'hundreds'. 2-place activity ignores them entirely. PT (Brazilian
+       canonical) follows activity 1's convention: centena/dezena/unidade
+       inflect by count (singular at 1; plural -s/-es at 0 or 2+, zero
+       takes plural). Feminine "uma" article in add-button (matches
+       activity 1's "Adicionar uma dezena"/"Adicionar uma unidade"). */
+    hundredsLabel:   { en: 'Hundreds',     de: 'Hunderter',           es: 'Centenas',         it: 'Centinaia',         fr: 'Centaines',         pt: 'Centenas' },
+    addHundredLabel: { en: 'Add hundred',  de: 'Hunderter hinzufügen',es: 'Añadir una centena',it: 'Aggiungi un centinaio',fr: 'Ajoute une centaine',pt: 'Adicionar uma centena' },
+    wordHundred:     { en: 'hundred',      de: 'Hunderter',           es: 'centena',          it: 'centinaio',         fr: 'centaine',          pt: 'centena' },     // tap-utterance, singular
+    srHundredsFlat:  { en: 'hundreds-flat',de: 'Hunderterplatte',     es: 'placa de cien',    it: 'piastra da cento',  fr: 'plaque de cent',    pt: 'placa de cem' } // sr-only aria-label fragment
   },
 
   defaults: {},
@@ -537,14 +536,26 @@ window.PlaceValueCore = {
       return hWord + ' ' + sub99(rem);
     },
     pt: function (n, mode) {
-      /* Brazilian Portuguese ('pt' canonical per CLAUDE.md §6; NEVER pt-BR).
-         0-19 lookup with BR-canonical forms: 14=quatorze (BR-preferred over
-         catorze), 16=dezesseis, 17=dezessete, 19=dezenove (NOT EU forms
-         dezasseis/dezassete/dezanove). 20-99: <tens-word> + " e " +
-         <ones-word>, simple compound.
-         attributive-fem: 1→"uma" (feminine of "um"), 2→"duas" (feminine
-         plural of "dois"). PT specificity vs ES which has only 1→"una"
-         (ES 2 is invariant "dos"). 3-9 are invariant for gender. */
+      /* Brazilian Portuguese ('pt' canonical per CLAUDE.md §6; NEVER
+         pt-BR). 0-99 BYTE-IDENTICAL to prior shipped (load-bearing for
+         the LIVE 1.NBT.B.2 PT activity at /pt/activities/dezenas-e-
+         unidades; existing BR forms preserved verbatim under `if (n <
+         100)` guard: dezesseis/dezessete/dezenove + cinquenta/setenta
+         + feminine duas at count=2).
+
+         100-999 NEW layer for 2.NBT.A.1 activity 2 PT fan-out:
+         - n=100 → "cem" (standalone)
+         - n=101-199 → "cento e " + sub99(rem) (BR "e"-connector)
+         - n=200-999 → hundreds[h] + (rem ? " e " + sub99(rem) : "")
+         - hundreds[2..9] BR-canonical: duzentos, trezentos,
+           quatrocentos, QUINHENTOS (irregular 500), seiscentos,
+           SETECENTOS (irregular 700), oitocentos, NOVECENTOS
+           (irregular 900) — distinct from ES doscientos/trescientos/
+           cuatrocientos/quinientos/etc.
+         - "e" appears BETWEEN hundreds and tail (BR-specific; ES omits
+           "y" there): 305 = "trezentos e cinco". Internal "e" inside
+           sub99 stays between tens and units. So 247 = "duzentos e
+           quarenta e sete" (two "e"s). */
       var lookup = [
         'zero','um','dois','três','quatro','cinco','seis','sete','oito','nove',
         'dez','onze','doze','treze','quatorze','quinze',
@@ -552,11 +563,28 @@ window.PlaceValueCore = {
       ];
       var attrFem = ['zero','uma','duas','três','quatro','cinco','seis','sete','oito','nove'];
       var tens = ['','','vinte','trinta','quarenta','cinquenta','sessenta','setenta','oitenta','noventa'];
-      if (n < 10) return (mode === 'attributive-fem') ? attrFem[n] : lookup[n];
-      if (n < 20) return lookup[n];
-      var t = Math.floor(n / 10), o = n % 10;
-      if (o === 0) return tens[t];
-      return tens[t] + ' e ' + lookup[o];  // e.g. quarenta e sete; setenta e dois
+      if (n < 100) {
+        if (n < 10) return (mode === 'attributive-fem') ? attrFem[n] : lookup[n];
+        if (n < 20) return lookup[n];
+        var t = Math.floor(n / 10), o = n % 10;
+        if (o === 0) return tens[t];
+        return tens[t] + ' e ' + lookup[o];  // e.g. quarenta e sete; setenta e dois
+      }
+      /* 100-999 layer */
+      if (n === 100) return 'cem';
+      var hundredsBare = ['','cento','duzentos','trezentos','quatrocentos','quinhentos','seiscentos','setecentos','oitocentos','novecentos'];
+      var h = Math.floor(n / 100), rem = n % 100;
+      var hPart = hundredsBare[h];
+      if (rem === 0) return hPart;
+      /* sub99 inline — cardinal-form tail; internal "e" between
+         tens and units preserved (47 → "quarenta e sete"). */
+      function sub99(m) {
+        if (m < 20) return lookup[m];
+        var t2 = Math.floor(m / 10), o2 = m % 10;
+        if (o2 === 0) return tens[t2];
+        return tens[t2] + ' e ' + lookup[o2];
+      }
+      return hPart + ' e ' + sub99(rem);  // BR "e"-connector between hundreds and tail
     },
     nl: function (n, mode) {
       /* Standard Dutch. 0-12 direct lookup; 13-19 irregular teens with
@@ -834,6 +862,26 @@ window.PlaceValueCore = {
         var tPartES3 = tWordES3 + ' decena' + (this.targetTens === 1 ? '' : 's');
         var oPartES3 = oWordES3 + ' unidad' + (this.targetOnes === 1 ? '' : 'es');
         sentence = hPartES3 + ', ' + tPartES3 + ' y ' + oPartES3 + ' son ' + nWordES3;
+      } else if (lang === 'pt') {
+        /* PT 3-place: centena/dezena/unidade INFLECT per activity 1 PT
+           lock — count=1 → singular; count=0 or 2+ → plural with -s
+           suffix (zero takes plural, matches activity 1's "zero
+           unidades"). attributive-fem mode for counts (matches
+           feminine duas at count=2 — PT divergence from ES "dos").
+           Copula "são" matches activity 1. Comma between Centenas and
+           Dezenas; "e" before Unidades. Zero places SPOKEN per
+           2.NBT.A.1 teaching point. Cardinal target via PT helper
+           renders BR forms with cem/cento split + irregular
+           quinhentos/setecentos/novecentos + "e"-connector between
+           hundreds and tail. */
+        var hWordPT3 = this._numberWord(this.targetHundreds, 'pt', 'attributive-fem', false);
+        var tWordPT3 = this._numberWord(this.targetTens,     'pt', 'attributive-fem', false);
+        var oWordPT3 = this._numberWord(this.targetOnes,     'pt', 'attributive-fem', false);
+        var nWordPT3 = this._numberWord(this.targetNumber,   'pt', 'cardinal',         false);
+        var hPartPT3 = hWordPT3 + ' centena' + (this.targetHundreds === 1 ? '' : 's');
+        var tPartPT3 = tWordPT3 + ' dezena'  + (this.targetTens     === 1 ? '' : 's');
+        var oPartPT3 = oWordPT3 + ' unidade' + (this.targetOnes     === 1 ? '' : 's');
+        sentence = hPartPT3 + ', ' + tPartPT3 + ' e ' + oPartPT3 + ' são ' + nWordPT3;
       } else if (lang === 'fr') {
         /* FR 3-place: centaine/dizaine/unité INFLECT per activity 1 FR
            lock — count=0 OR 1 → SINGULAR; count=2+ → plural with -s

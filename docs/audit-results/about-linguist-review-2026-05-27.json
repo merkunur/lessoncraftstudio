@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "reviewedAt": "2026-05-27",
+    "namespace": "aboutPage + footer.about",
+    "locales": ["sv", "da", "no", "fi"],
+    "reviewer": "4 parallel general-purpose linguist agents (one per locale), in plan mode",
+    "englishSource": "frontend/messages/en.json (canonical for meaning)",
+    "rubric": [
+      "faithful to English meaning",
+      "grammatically correct in target locale",
+      "natural register for K-3 teacher/parent audience",
+      "consistent terminology",
+      "locale punctuation conventions (em-dash vs en-dash, etc.)",
+      "specifically flag: fonetik/fonetikk/fonetiikka (= academic phonetics) vs phonics (= K-3 reading instruction); K-3 grade-range marker; locale list inside whatWeOfferBody"
+    ],
+    "outputContract": "per key: verdict (ok|fix) + correction (if fix) + reason"
+  },
+  "crossCuttingFindings": {
+    "phonics_mistranslation": {
+      "severity": "critical",
+      "scope": "all 4 locales",
+      "explanation": "English 'phonics' = letter-sound reading instruction for early readers. The current translations all use the academic phonetics word (= the study of speech sounds), which is the wrong concept. K-3 teachers in each locale use a specific reading-instruction term.",
+      "corrections": {
+        "sv": "fonetik → läsinlärning (reading instruction)",
+        "da": "fonetik → lydmetoden (the sound-method)",
+        "no": "fonetikk → lese- og skriveopplæring (literacy instruction)",
+        "fi": "fonetiikka → lukemisen alkeet (reading basics)"
+      }
+    },
+    "intro_drops_affordances": {
+      "severity": "high",
+      "scope": "all 4 locales",
+      "explanation": "English intro enumerates four affordances ('browse, print, share, embed') + 'no signup required'. The current translations collapse this to a vague 'fritt tilgängligt/frit tilgængeligt/fritt tilgjengelig/vapaasti käytettävissä — ingen registrering/ei rekisteröintiä'. The four verbs are load-bearing for K-3 teachers who need to know exactly what they can do with the resources. Restored in all four corrections."
+    },
+    "K3_grade_range": {
+      "severity": "medium",
+      "scope": "differs per locale",
+      "explanation": "K-3 is American kindergarten-grade 3 shorthand. Per-locale adaptation per agent recommendation: sv = F-3 (Swedish equivalent); da/no = expand to børnehaveklasse til 3. klasse / barnehage til 3. trinn on first mention; fi = gloss as 'esi- ja alkuopetuksen'."
+    },
+    "tidig_barndom_clinical_register": {
+      "severity": "medium",
+      "scope": "all 4 locales",
+      "explanation": "'In early childhood' / 'tidig barndom / tidlig barndom / varhaislapsuus' is a literal calque that reads clinical/developmental-psychology in all four Nordic+Finnic locales. Replaced with classroom-friendly terms per agent."
+    }
+  },
+  "reports": {
+    "sv": {
+      "agent": "Swedish native-speaker linguist",
+      "review": [
+        {"key": "aboutPage.meta.title", "current": "Om oss | LessonCraftStudio", "verdict": "ok", "reason": "natural standard Swedish convention"},
+        {"key": "aboutPage.meta.description", "current": "Om LessonCraftStudio — gratis F-3 arbetsblad och interaktiva aktiviteter på 11 språk, för tvåspråkiga, flerspråkiga och internationella klassrum.", "verdict": "fix", "correction": "Om LessonCraftStudio — gratis arbetsblad och interaktiva aktiviteter för F-3 på 11 språk, för tvåspråkiga, flerspråkiga och internationella klassrum.", "reason": "naturalness — 'F-3 arbetsblad' is an English-style noun-stack; Swedish reads more naturally as 'arbetsblad ... för F-3'"},
+        {"key": "aboutPage.pageTitle", "current": "Om LessonCraftStudio", "verdict": "ok", "reason": "natural idiomatic heading"},
+        {"key": "aboutPage.intro", "current": "LessonCraftStudio publicerar gratis F-3 arbetsblad och interaktiva aktiviteter på 11 språk. Allt är fritt tillgängligt — ingen registrering.", "verdict": "fix", "correction": "LessonCraftStudio publicerar gratis arbetsblad och interaktiva aktiviteter för F-3 på 11 språk. Allt är fritt att bläddra i, skriva ut, dela och bädda in — ingen registrering krävs.", "reason": "mistranslation — drops the four English affordances and 'no signup required' clause"},
+        {"key": "aboutPage.whatWeOfferHeading", "current": "Vad vi erbjuder", "verdict": "ok", "reason": "natural Swedish section heading"},
+        {"key": "aboutPage.whatWeOfferBody", "current": "Utskrivbara PDF:er och aktiviteter som spelas i webbläsaren för matematik, fonetik och ordförråd, tillgängliga på engelska, tyska, franska, spanska, portugisiska, italienska, nederländska, svenska, danska, norska och finska.", "verdict": "fix", "correction": "Utskrivbara PDF:er och webbläsarbaserade aktiviteter inom matematik, läsinlärning och ordförråd — på engelska, tyska, franska, spanska, portugisiska, italienska, nederländska, svenska, danska, norska och finska.", "reason": "term-choice — 'fonetik' means academic phonetics, NOT phonics; corrected to 'läsinlärning'. Also tightened phrasing."},
+        {"key": "aboutPage.audienceHeading", "current": "För vem", "verdict": "ok", "reason": "natural concise heading"},
+        {"key": "aboutPage.audienceBody", "current": "Gjort för lärare och föräldrar i tvåspråkiga, flerspråkiga och internationella klassrum, särskilt i tidig barndom (3 till 7 år).", "verdict": "fix", "correction": "För lärare och föräldrar i tvåspråkiga, flerspråkiga och internationella klassrum, särskilt i förskoleåldern och tidiga skolåren (3–7 år).", "reason": "naturalness — 'tidig barndom' reads clinical; replaced with 'förskoleåldern och tidiga skolåren'. En-dash for number range per Swedish convention."},
+        {"key": "aboutPage.teamHeading", "current": "Om vårt team", "verdict": "ok", "reason": "natural idiomatic Swedish"},
+        {"key": "aboutPage.teamBody", "current": "Vi uppdaterar det här avsnittet — kom tillbaka snart.", "verdict": "ok", "reason": "warm and direct"},
+        {"key": "footer.about", "current": "Om oss", "verdict": "ok", "reason": "standard Swedish footer convention"}
+      ]
+    },
+    "da": {
+      "agent": "Danish native-speaker linguist",
+      "review": [
+        {"key": "aboutPage.meta.title", "current": "Om os | LessonCraftStudio", "verdict": "ok", "reason": "idiomatic Danish About page title"},
+        {"key": "aboutPage.meta.description", "current": "Om LessonCraftStudio — gratis K-3 arbejdsark og interaktive aktiviteter på 11 sprog, til tosprogede, flersprogede og internationale klasser.", "verdict": "fix", "correction": "Om LessonCraftStudio — gratis opgaveark og interaktive aktiviteter til børnehaveklasse til 3. klasse på 11 sprog, til tosprogede klasser, sprogbadsklasser og internationale skoler.", "reason": "term-choice — arbejdsark → opgaveark (more classroom-natural); K-3 opaque to Danish reader, expand to grade range; dual-language vs bilingual distinction → 'sprogbadsklasser' captures immersion programs"},
+        {"key": "aboutPage.pageTitle", "current": "Om LessonCraftStudio", "verdict": "ok", "reason": "direct idiomatic page heading"},
+        {"key": "aboutPage.intro", "current": "LessonCraftStudio udgiver gratis K-3 arbejdsark og interaktive aktiviteter på 11 sprog. Alt er frit tilgængeligt — ingen tilmelding.", "verdict": "fix", "correction": "LessonCraftStudio udgiver gratis opgaveark og interaktive aktiviteter til børnehaveklasse til 3. klasse på 11 sprog. Alt kan frit gennemses, printes, deles og indlejres — ingen tilmelding nødvendig.", "reason": "mistranslation — four English affordances collapsed to vague 'frit tilgængeligt'. Also worksheet term + K-3 expansion."},
+        {"key": "aboutPage.whatWeOfferHeading", "current": "Hvad vi tilbyder", "verdict": "ok", "reason": "standard Danish section heading"},
+        {"key": "aboutPage.whatWeOfferBody", "current": "Printbare PDF'er og aktiviteter, der spilles i browseren, til matematik, fonetik og ordforråd, tilgængelige på engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, dansk, norsk og finsk.", "verdict": "fix", "correction": "Printbare PDF'er og aktiviteter, der kan spilles direkte i browseren, inden for matematik, lydmetoden og ordforråd — på engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, dansk, norsk og finsk.", "reason": "term-choice — 'fonetik' = academic phonetics, NOT phonics; corrected to 'lydmetoden'. 'nederlandsk' → 'hollandsk' (Danish everyday usage)."},
+        {"key": "aboutPage.audienceHeading", "current": "Til hvem", "verdict": "fix", "correction": "Hvem er det til?", "reason": "naturalness — 'Til hvem' reads abruptly as a heading"},
+        {"key": "aboutPage.audienceBody", "current": "Lavet til lærere og forældre i tosprogede, flersprogede og internationale klasser, især i tidlig barndom (3 til 7 år).", "verdict": "fix", "correction": "Lavet til lærere og forældre i tosprogede klasser, sprogbadsklasser og internationale skoler — især til de små fra 3 til 7 år.", "reason": "mistranslation + naturalness — tosprogede/flersprogede redundant; English distinguishes immersion ('sprogbadsklasser') from bilingual ('tosprogede'). 'tidlig barndom' clinical."},
+        {"key": "aboutPage.teamHeading", "current": "Om vores team", "verdict": "ok", "reason": "natural Danish"},
+        {"key": "aboutPage.teamBody", "current": "Vi opdaterer dette afsnit — kom snart tilbage.", "verdict": "fix", "correction": "Vi opdaterer dette afsnit — kig forbi igen snart.", "reason": "naturalness — 'kom snart tilbage' = literal calque; 'kig forbi igen' is the idiomatic warm phrasing"},
+        {"key": "footer.about", "current": "Om os", "verdict": "ok", "reason": "standard Danish footer label"}
+      ],
+      "operator_consideration": "Danish has no widely-shared single-word distinction between 'dual-language' (immersion) and 'bilingual' (individual bilingualism). The corrections use 'sprogbadsklasser' (language-bath classes) vs 'tosprogede klasser' to preserve the English three-way distinction. Operator may verify this distinction is load-bearing for Danish audiences or accept the simpler two-way 'tosprogede klasser og internationale skoler' framing."
+    },
+    "no": {
+      "agent": "Norwegian Bokmål native-speaker linguist",
+      "review": [
+        {"key": "aboutPage.meta.title", "current": "Om oss | LessonCraftStudio", "verdict": "ok", "reason": "natural standard Norwegian"},
+        {"key": "aboutPage.meta.description", "current": "Om LessonCraftStudio — gratis K-3 arbeidsark og interaktive aktiviteter på 11 språk, for tospråklige, flerspråklige og internasjonale klasser.", "verdict": "fix", "correction": "Om LessonCraftStudio – gratis oppgaveark og interaktive aktiviteter for barnehage til 3. trinn på 11 språk, laget for tospråklige klasser, språkbadsklasser og internasjonale skoler.", "reason": "term-choice + register — arbeidsark → oppgaveark; K-3 opaque; dual-language vs bilingual distinction → språkbadsklasser. Em-dash → en-dash with spaces per Norwegian typography."},
+        {"key": "aboutPage.pageTitle", "current": "Om LessonCraftStudio", "verdict": "ok", "reason": "natural page heading"},
+        {"key": "aboutPage.intro", "current": "LessonCraftStudio publiserer gratis K-3 arbeidsark og interaktive aktiviteter på 11 språk. Alt er fritt tilgjengelig — ingen registrering.", "verdict": "fix", "correction": "LessonCraftStudio publiserer gratis oppgaveark og interaktive aktiviteter for barnehage til 3. trinn på 11 språk. Alt er gratis å bla i, skrive ut, dele og bygge inn – ingen registrering nødvendig.", "reason": "mistranslation + register — four affordances dropped; warmer 'gratis å [verb]' parallel."},
+        {"key": "aboutPage.whatWeOfferHeading", "current": "Hva vi tilbyr", "verdict": "ok", "reason": "natural section heading"},
+        {"key": "aboutPage.whatWeOfferBody", "current": "Utskrivbare PDF-er og aktiviteter som spilles i nettleseren, for matematikk, fonetikk og ordforråd, tilgjengelig på engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, dansk, norsk og finsk.", "verdict": "fix", "correction": "PDF-er til utskrift og aktiviteter som spilles i nettleseren, innen matematikk, lese- og skriveopplæring og ordforråd, på engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, dansk, norsk og finsk.", "reason": "term-choice (critical) — 'fonetikk' = academic phonetics, NOT phonics; corrected to 'lese- og skriveopplæring'."},
+        {"key": "aboutPage.audienceHeading", "current": "For hvem", "verdict": "fix", "correction": "Hvem det er for", "reason": "naturalness — 'For hvem' is literal calque, reads stilted"},
+        {"key": "aboutPage.audienceBody", "current": "Laget for lærere og foreldre i tospråklige, flerspråklige og internasjonale klasser, spesielt i tidlig barndom (3 til 7 år).", "verdict": "fix", "correction": "Laget for lærere og foreldre i tospråklige klasser, språkbadsklasser og internasjonale skoler, særlig på småbarnstrinnet (3–7 år).", "reason": "mistranslation + register — 'tidlig barndom' clinical; dual-language vs bilingual distinction. En-dash for number range."},
+        {"key": "aboutPage.teamHeading", "current": "Om teamet vårt", "verdict": "ok", "reason": "natural and direct"},
+        {"key": "aboutPage.teamBody", "current": "Vi oppdaterer denne delen — kom tilbake snart.", "verdict": "fix", "correction": "Vi oppdaterer denne delen – stikk innom igjen snart.", "reason": "register + punctuation — 'kom tilbake snart' literal calque; 'stikk innom igjen' is the warmer idiomatic phrasing"},
+        {"key": "footer.about", "current": "Om oss", "verdict": "ok", "reason": "standard Norwegian footer label"}
+      ]
+    },
+    "fi": {
+      "agent": "Finnish native-speaker linguist",
+      "review": [
+        {"key": "aboutPage.meta.title", "current": "Tietoa meistä | LessonCraftStudio", "verdict": "ok", "reason": "idiomatic Finnish web-convention for About page title"},
+        {"key": "aboutPage.meta.description", "current": "Tietoa LessonCraftStudiosta — ilmaisia K-3 tehtäväarkkeja ja interaktiivisia tehtäviä 11 kielellä, kaksikielisille, monikielisille ja kansainvälisille luokille.", "verdict": "fix", "correction": "Tietoa LessonCraftStudiosta – maksuttomia esi- ja alkuopetuksen tehtäväarkkeja ja interaktiivisia tehtäviä 11 kielellä kaksikielisille, monikielisille ja kansainvälisille luokille.", "reason": "punctuation + register + term-choice — em-dash → ajatusviiva (–); 'ilmainen' too cheap/promotional, 'maksuton' standard register; K-3 glossed as 'esi- ja alkuopetuksen'"},
+        {"key": "aboutPage.pageTitle", "current": "Tietoa LessonCraftStudiosta", "verdict": "ok", "reason": "elative case correct for 'About <Brand>'"},
+        {"key": "aboutPage.intro", "current": "LessonCraftStudio julkaisee ilmaisia K-3 tehtäväarkkeja ja interaktiivisia tehtäviä 11 kielellä. Kaikki on vapaasti käytettävissä — ei rekisteröintiä.", "verdict": "fix", "correction": "LessonCraftStudio julkaisee maksuttomia esi- ja alkuopetuksen tehtäväarkkeja ja interaktiivisia tehtäviä 11 kielellä. Kaikkea saa vapaasti selata, tulostaa, jakaa ja upottaa – rekisteröitymistä ei tarvita.", "reason": "mistranslation + register + punctuation — four affordances dropped; 'ei rekisteröintiä' verbless telegram-style → 'rekisteröitymistä ei tarvita'; em-dash → ajatusviiva"},
+        {"key": "aboutPage.whatWeOfferHeading", "current": "Mitä tarjoamme", "verdict": "ok", "reason": "natural warm Finnish heading"},
+        {"key": "aboutPage.whatWeOfferBody", "current": "Tulostettavia PDF-tiedostoja ja selaimessa pelattavia tehtäviä matematiikkaan, fonetiikkaan ja sanavarastoon, saatavilla englanniksi, saksaksi, ranskaksi, espanjaksi, portugaliksi, italiaksi, hollanniksi, ruotsiksi, tanskaksi, norjaksi ja suomeksi.", "verdict": "fix", "correction": "Tulostettavia PDF-tiedostoja ja selaimessa pelattavia tehtäviä matematiikkaan, lukemisen alkeisiin ja sanavarastoon. Saatavilla englanniksi, saksaksi, ranskaksi, espanjaksi, portugaliksi, italiaksi, hollanniksi, ruotsiksi, tanskaksi, norjaksi ja suomeksi.", "reason": "term-choice (critical) — 'fonetiikka' = academic phonetics, NOT phonics; corrected to 'lukemisen alkeet' (reading basics). Split into two sentences for readability."},
+        {"key": "aboutPage.audienceHeading", "current": "Kenelle", "verdict": "ok", "reason": "terse natural Finnish heading"},
+        {"key": "aboutPage.audienceBody", "current": "Tarkoitettu opettajille ja vanhemmille kaksikielisillä, monikielisillä ja kansainvälisillä luokilla, erityisesti varhaislapsuudessa (3-7-vuotiaat).", "verdict": "fix", "correction": "Tarkoitettu opettajille ja vanhemmille kaksikielisissä, monikielisissä ja kansainvälisissä luokissa, erityisesti varhaiskasvatuksessa ja esiopetuksessa (3–7-vuotiaat).", "reason": "grammar + term-choice + punctuation — adessive 'luokilla' (on classes) → inessive 'luokissa' (in classes); 'varhaislapsuus' clinical → institutional 'varhaiskasvatuksessa ja esiopetuksessa'; hyphen '3-7' → en-dash '3–7' per Finnish typography"},
+        {"key": "aboutPage.teamHeading", "current": "Tietoa tiimistämme", "verdict": "ok", "reason": "possessive 1pl 'tiimistämme' correctly formed"},
+        {"key": "aboutPage.teamBody", "current": "Päivitämme tätä osiota — palaa pian.", "verdict": "fix", "correction": "Päivitämme tätä osiota – palaathan pian uudelleen.", "reason": "register + punctuation — em-dash → ajatusviiva; bare 'palaa pian' abrupt; clitic '-han' on 'palaathan' warms it to 'please come back'"},
+        {"key": "footer.about", "current": "Tietoa", "verdict": "fix", "correction": "Meistä", "reason": "term-choice — 'Tietoa' alone means generic 'Information', not 'About us'. 'Meistä' is the Finnish web-convention About footer label."}
+      ],
+      "operator_consideration": "The fi agent flagged English-source ambiguity in teamBody: 'check back soon' could mean (a) 'visit this page again later' or (b) 'we're working on this; updates promised'. The corrected Finnish reads (a). If the English source intends (b), the English itself should be revised to be more committal — operator decision."
+    }
+  }
+}

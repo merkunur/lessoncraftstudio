@@ -318,7 +318,7 @@
     "terms": "Käyttöehdot",
     "privacy": "Tietosuoja",
     "copyright": "© 2026 LessonCraftStudio.",
-    "about": "Tietoa"
+    "about": "Meistä"
   },
   "common": {
     "loading": "Ladataan...",
@@ -1602,15 +1602,15 @@
   "aboutPage": {
     "meta": {
       "title": "Tietoa meistä | LessonCraftStudio",
-      "description": "Tietoa LessonCraftStudiosta — ilmaisia K-3 tehtäväarkkeja ja interaktiivisia tehtäviä 11 kielellä, kaksikielisille, monikielisille ja kansainvälisille luokille."
+      "description": "Tietoa LessonCraftStudiosta – maksuttomia esi- ja alkuopetuksen tehtäväarkkeja ja interaktiivisia tehtäviä 11 kielellä kaksikielisille, monikielisille ja kansainvälisille luokille."
     },
     "pageTitle": "Tietoa LessonCraftStudiosta",
-    "intro": "LessonCraftStudio julkaisee ilmaisia K-3 tehtäväarkkeja ja interaktiivisia tehtäviä 11 kielellä. Kaikki on vapaasti käytettävissä — ei rekisteröintiä.",
+    "intro": "LessonCraftStudio julkaisee maksuttomia esi- ja alkuopetuksen tehtäväarkkeja ja interaktiivisia tehtäviä 11 kielellä. Kaikkea saa vapaasti selata, tulostaa, jakaa ja upottaa – rekisteröitymistä ei tarvita.",
     "whatWeOfferHeading": "Mitä tarjoamme",
-    "whatWeOfferBody": "Tulostettavia PDF-tiedostoja ja selaimessa pelattavia tehtäviä matematiikkaan, fonetiikkaan ja sanavarastoon, saatavilla englanniksi, saksaksi, ranskaksi, espanjaksi, portugaliksi, italiaksi, hollanniksi, ruotsiksi, tanskaksi, norjaksi ja suomeksi.",
+    "whatWeOfferBody": "Tulostettavia PDF-tiedostoja ja selaimessa pelattavia tehtäviä matematiikkaan, lukemisen alkeisiin ja sanavarastoon. Saatavilla englanniksi, saksaksi, ranskaksi, espanjaksi, portugaliksi, italiaksi, hollanniksi, ruotsiksi, tanskaksi, norjaksi ja suomeksi.",
     "audienceHeading": "Kenelle",
-    "audienceBody": "Tarkoitettu opettajille ja vanhemmille kaksikielisillä, monikielisillä ja kansainvälisillä luokilla, erityisesti varhaislapsuudessa (3-7-vuotiaat).",
+    "audienceBody": "Tarkoitettu opettajille ja vanhemmille kaksikielisissä, monikielisissä ja kansainvälisissä luokissa, erityisesti varhaiskasvatuksessa ja esiopetuksessa (3–7-vuotiaat).",
     "teamHeading": "Tietoa tiimistämme",
-    "teamBody": "Päivitämme tätä osiota — palaa pian."
+    "teamBody": "Päivitämme tätä osiota – palaathan pian uudelleen."
   }
 }

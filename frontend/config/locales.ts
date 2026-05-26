@@ -43,18 +43,25 @@ export const LOCALE_NAMES: Record<SupportedLocale, string> = {
  *   - frontend/app/sitemap.ts shard-3 /about loop
  *       → entry excluded from sitemap
  *
- * TODO(operator): remove a locale from this array once its About page
- * native-speaker review clears. That single edit simultaneously restores
- * `index: true` on the page AND restores its sitemap entry. Consumers
- * MUST import this constant directly and use `.includes()` — never
- * re-derive or re-filter, that's a silent fork.
+ * To re-gate a locale: add its 2-letter code to this array. That single
+ * edit simultaneously sets `robots: { index: false, follow: true }` on
+ * the About page AND removes its sitemap entry. Consumers MUST import
+ * this constant directly and use `.includes()` — never re-derive or
+ * re-filter, that's a silent fork.
+ *
+ * 2026-05-27: cleared from `['sv','da','no','fi']` → `[]` after the four
+ * Nordic+Finnic About pages were reviewed by parallel linguist agents
+ * (reports archived at `docs/audit-results/about-linguist-review-2026-
+ * 05-27.json`). Corrections applied in the same arc to message files
+ * + a critical phonics-vs-phonetics term-choice fix across all four.
+ * Native-speaker spot-check welcome but not required to keep them live.
  *
  * Mirror (keep in sync): scripts/seo-verify.mjs `UNREVIEWED_ABOUT_LOCALES`
  * — the harness lives outside Next.js TS module resolution and mirrors
  * this constant by comment-anchored convention (same pattern as
  * HREFLANG_MAP in that file).
  */
-export const NSR_PENDING_LOCALES: readonly SupportedLocale[] = ['sv', 'da', 'no', 'fi'];
+export const NSR_PENDING_LOCALES: readonly SupportedLocale[] = [];
 
 /**
  * Mapping from locale code to folder name used in /samples/ directory

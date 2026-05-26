@@ -44,14 +44,14 @@ window.MatchPairsCore = {
      discipline; the engine falls back to `en` via api.t() if any
      unfilled locale routes here. */
   strings: {
-    title:       { en: 'Match Pairs',                                                              de: 'Paare bilden',                                                                          es: 'Forma parejas',                                                                                       it: 'Forma le coppie',                                                                                                      fr: 'Forme les paires' },
-    instruction: { en: 'Tap two cards that go together — and watch the pairs link.',               de: 'Tippe auf zwei Karten, die zusammengehören — und sieh zu, wie sich die Paare verbinden.', es: 'Toca dos tarjetas que van juntas — y mira cómo se enlazan las parejas.',                              it: 'Tocca due carte che vanno insieme — e guarda come le coppie si collegano.',                                            fr: 'Touche deux cartes qui vont ensemble — et regarde les paires se relier.' },
+    title:       { en: 'Match Pairs',                                                              de: 'Paare bilden',                                                                          es: 'Forma parejas',                                                                                       it: 'Forma le coppie',                                                                                                      fr: 'Forme les paires',                                                                                                                                                  pt: 'Forme os pares' },
+    instruction: { en: 'Tap two cards that go together — and watch the pairs link.',               de: 'Tippe auf zwei Karten, die zusammengehören — und sieh zu, wie sich die Paare verbinden.', es: 'Toca dos tarjetas que van juntas — y mira cómo se enlazan las parejas.',                              it: 'Tocca due carte che vanno insieme — e guarda come le coppie si collegano.',                                            fr: 'Touche deux cartes qui vont ensemble — et regarde les paires se relier.',                                                                                          pt: 'Toque em duas cartas que combinam — e veja os pares se conectarem.' },
     /* Banner label above the board ("Target: 5"). Per-locale; previously
        hard-coded EN in render(); hoisted at the DE fan-out. */
-    targetLabel:    { en: 'Target',                                                                de: 'Ziel',                                                                                  es: 'Objetivo',                                                                                            it: 'Obiettivo',                                                                                                            fr: 'Objectif' },
+    targetLabel:    { en: 'Target',                                                                de: 'Ziel',                                                                                  es: 'Objetivo',                                                                                            it: 'Obiettivo',                                                                                                            fr: 'Objectif',                                                                                                                                                          pt: 'Objetivo' },
     /* Screen-reader prefix for the card aria-label ("Card 5"). Per-locale;
        previously hard-coded EN in render(); hoisted at DE fan-out. */
-    cardAriaPrefix: { en: 'Card ',                                                                 de: 'Karte ',                                                                                es: 'Tarjeta ',                                                                                            it: 'Carta ',                                                                                                               fr: 'Carte ' },
+    cardAriaPrefix: { en: 'Card ',                                                                 de: 'Karte ',                                                                                es: 'Tarjeta ',                                                                                            it: 'Carta ',                                                                                                               fr: 'Carte ',                                                                                                                                                            pt: 'Carta ' },
     /* Per-card tap-utterance: speak the card's numeric value as a
        number-word. Cards are 0-10 only (K.OA.A.3 range). This lookup is
        value-verified against PlaceValueCore._NUMBER_WORD_HELPERS.<lang>
@@ -63,17 +63,19 @@ window.MatchPairsCore = {
       de: ['null','eins','zwei','drei','vier','fünf','sechs','sieben','acht','neun','zehn'],
       es: ['cero','uno','dos','tres','cuatro','cinco','seis','siete','ocho','nueve','diez'],
       it: ['zero','uno','due','tre','quattro','cinque','sei','sette','otto','nove','dieci'],
-      fr: ['zéro','un','deux','trois','quatre','cinq','six','sept','huit','neuf','dix']
+      fr: ['zéro','un','deux','trois','quatre','cinq','six','sept','huit','neuf','dix'],
+      pt: ['zero','um','dois','três','quatro','cinco','seis','sete','oito','nove','dez']
     },
     /* Speech on Check correct — "All pairs make {n}!" templated.
        {n} substituted with the spoken target word from cardSpoken[lang]
        (same lookup as tap-audio; value-equivalent to PVC helper).
        FR uses regular space (U+0020) before "!" per shipped convention
        (lcs-shell + syllable-builder consistently use regular space, not
-       NNBSP — verified Phase 1 of FR fan-out). */
-    speakAllPairsMake: { en: 'All pairs make {n}!',                                                de: 'Alle Paare ergeben {n}!',                                                              es: '¡Todas las parejas forman {n}!',                                                                      it: 'Tutte le coppie fanno {n}!',                                                                                           fr: 'Toutes les paires font {n} !' },
+       NNBSP — verified Phase 1 of FR fan-out). PT canonical = BR; at
+       0-10 BR-vs-EU cardinals are identical. */
+    speakAllPairsMake: { en: 'All pairs make {n}!',                                                de: 'Alle Paare ergeben {n}!',                                                              es: '¡Todas las parejas forman {n}!',                                                                      it: 'Tutte le coppie fanno {n}!',                                                                                           fr: 'Toutes les paires font {n} !',                                                                                                                                      pt: 'Todos os pares formam {n}!' },
     /* Speech on Check wrong. */
-    speakTryAgain:     { en: 'Some pairs don\'t add up yet. Try again.',                           de: 'Manche Paare passen noch nicht. Versuch\'s nochmal.',                                  es: 'Algunas parejas no encajan todavía. Inténtalo de nuevo.',                                             it: 'Alcune coppie non vanno ancora. Riprova.',                                                                             fr: 'Certaines paires ne vont pas encore. Réessaie.' }
+    speakTryAgain:     { en: 'Some pairs don\'t add up yet. Try again.',                           de: 'Manche Paare passen noch nicht. Versuch\'s nochmal.',                                  es: 'Algunas parejas no encajan todavía. Inténtalo de nuevo.',                                             it: 'Alcune coppie non vanno ancora. Riprova.',                                                                             fr: 'Certaines paires ne vont pas encore. Réessaie.',                                                                                                                    pt: 'Alguns pares ainda não fazem o objetivo. Tente novamente.' }
   },
 
   defaults: {},

@@ -92,10 +92,10 @@ window.PlaceValueCore = {
        inflect by count (singular at 1; plural -s/-es at 0 or 2+, zero
        takes plural). Feminine "uma" article in add-button (matches
        activity 1's "Adicionar uma dezena"/"Adicionar uma unidade"). */
-    hundredsLabel:   { en: 'Hundreds',     de: 'Hunderter',           es: 'Centenas',         it: 'Centinaia',         fr: 'Centaines',         pt: 'Centenas',          nl: 'Honderdtallen',          sv: 'Hundratal' },
-    addHundredLabel: { en: 'Add hundred',  de: 'Hunderter hinzufügen',es: 'Añadir una centena',it: 'Aggiungi un centinaio',fr: 'Ajoute une centaine',pt: 'Adicionar uma centena',nl: 'Honderdtal toevoegen',  sv: 'Lägg till ett hundratal' },
-    wordHundred:     { en: 'hundred',      de: 'Hunderter',           es: 'centena',          it: 'centinaio',         fr: 'centaine',          pt: 'centena',           nl: 'honderdtal',             sv: 'hundratal' },     // tap-utterance, singular
-    srHundredsFlat:  { en: 'hundreds-flat',de: 'Hunderterplatte',     es: 'placa de cien',    it: 'piastra da cento',  fr: 'plaque de cent',    pt: 'placa de cem',      nl: 'honderdplaat',           sv: 'hundraplatta' } // sr-only aria-label fragment
+    hundredsLabel:   { en: 'Hundreds',     de: 'Hunderter',           es: 'Centenas',         it: 'Centinaia',         fr: 'Centaines',         pt: 'Centenas',          nl: 'Honderdtallen',          sv: 'Hundratal',                 da: 'Hundreder' },
+    addHundredLabel: { en: 'Add hundred',  de: 'Hunderter hinzufügen',es: 'Añadir una centena',it: 'Aggiungi un centinaio',fr: 'Ajoute une centaine',pt: 'Adicionar uma centena',nl: 'Honderdtal toevoegen',  sv: 'Lägg till ett hundratal',   da: 'Tilføj et hundrede' },
+    wordHundred:     { en: 'hundred',      de: 'Hunderter',           es: 'centena',          it: 'centinaio',         fr: 'centaine',          pt: 'centena',           nl: 'honderdtal',             sv: 'hundratal',                 da: 'hundrede' },     // tap-utterance, singular
+    srHundredsFlat:  { en: 'hundreds-flat',de: 'Hunderterplatte',     es: 'placa de cien',    it: 'piastra da cento',  fr: 'plaque de cent',    pt: 'placa de cem',      nl: 'honderdplaat',           sv: 'hundraplatta',              da: 'hundrede-plade' } // sr-only aria-label fragment
   },
 
   defaults: {},
@@ -773,7 +773,14 @@ window.PlaceValueCore = {
       return tens[t] + lookup[o];  // tens-first concat: førtisju, syttito, åttini
     },
     da: function (n, mode) {
-      /* Danish. 0-19 lookup; 20-99 = ONES-FIRST + "og" (and) + TENS-word
+      /* Danish 0-999. 0-99 BYTE-IDENTICAL to prior shipped (load-bearing
+         for the LIVE 1.NBT.B.2 DA activity at /da/activities/tiere-og-
+         enere; vigesimal tens (halvtreds/tres/halvfjerds/firs/halvfems)
+         + ones-first "og" compound + en-at-1 logic preserved verbatim
+         under `if (n < 100)` guard. Strictest 0-99 preservation across
+         the 11-locale set — DA has the most irregular sub-100 logic).
+
+         Danish. 0-19 lookup; 20-99 = ONES-FIRST + "og" (and) + TENS-word
          compound (Germanic, like German "einundzwanzig").
          Tens-words 50/60/70/80/90 are VICESIMAL (base-20) — load-bearing
          irregulars rooted in Old Norse halv-tredje-sinds-tyve etc.:
@@ -788,7 +795,28 @@ window.PlaceValueCore = {
          Cardinal[1] also "en" (locked as Danish K-1 default; "et" is the
          neuter variant, not emitted here for tier/ener). Compound
          examples: 21=enogtyve, 47=syvogfyrre, 50=halvtreds, 72=tooghalv-
-         fjerds, 89=niogfirs, 90=halvfems, 99=niooghalvfems. */
+         fjerds, 89=niogfirs, 90=halvfems, 99=niooghalvfems.
+
+         100-999 NEW layer for 2.NBT.A.1 activity 2 DA fan-out:
+         - n=100 → "hundrede" (bare; K-1 classroom standard; "ethundrede"
+           is formal/numerical, not emitted)
+         - n=101-199 → "hundrede og " + sub99(rem) (Danish "og"-join
+           between hundreds-word and tail; 101 → "hundrede og en",
+           147 → "hundrede og syvogfyrre" with vigesimal tens via sub99)
+         - n=200-999 → onesForCompound[h] + "hundrede" + (rem ? " og " + sub99(rem) : "")
+           — `hundrede` is the cardinal hundreds-word, agglutinated to
+           ones-multiplier (tohundrede, trehundrede, firehundrede ...
+           nihundrede). NEVER pluralizes to "hundreder" inside cardinal
+           (hundreder is the place-unit-noun plural for column/decomp).
+           DA joins hundreds to tail with explicit " og " (DISTINCT from
+           DE's fully-agglutinated compound). Examples:
+             200 = tohundrede
+             247 = tohundrede og syvogfyrre
+             305 = trehundrede og fem (zero-tens; bare-5 tail via "og")
+             420 = firehundrede og tyve (zero-ones; tens-20 tail via "og")
+             583 = femhundrede og treogfirs (VIGESIMAL firs=80 inside)
+             906 = nihundrede og seks
+             999 = nihundrede og niooghalvfems (VIGESIMAL halvfems=90) */
       var lookup = [
         'nul','en','to','tre','fire','fem','seks','syv','otte','ni',
         'ti','elleve','tolv','tretten','fjorten','femten','seksten',
@@ -796,11 +824,30 @@ window.PlaceValueCore = {
       ];
       var attr = ['nul','en','to','tre','fire','fem','seks','syv','otte','ni'];
       var tens = ['','','tyve','tredive','fyrre','halvtreds','tres','halvfjerds','firs','halvfems'];
-      if (n < 10) return (mode === 'attributive') ? attr[n] : lookup[n];
-      if (n < 20) return lookup[n];
-      var t = Math.floor(n / 10), o = n % 10;
-      if (o === 0) return tens[t];
-      return lookup[o] + 'og' + tens[t];  // ones-first: syvogfyrre, niogfirs, tooghalvfjerds
+      /* onesForCompound: ones-multiplier for hundreds layer. n=100 is
+         bare "hundrede" (not "ethundrede" — kid-natural K-1), so
+         onesForCompound[1] is unused for hundreds construction (handled
+         by hWord shortcut). */
+      var onesForCompound = ['','en','to','tre','fire','fem','seks','syv','otte','ni'];
+      if (n < 100) {
+        if (n < 10) return (mode === 'attributive') ? attr[n] : lookup[n];
+        if (n < 20) return lookup[n];
+        var t = Math.floor(n / 10), o = n % 10;
+        if (o === 0) return tens[t];
+        return lookup[o] + 'og' + tens[t];  // ones-first: syvogfyrre, niogfirs, tooghalvfjerds
+      }
+      /* 100-999 layer */
+      /* sub99 inline — cardinal-form tail, ones-first; vigesimal tens preserved. */
+      function sub99(m) {
+        if (m < 20) return lookup[m];
+        var t2 = Math.floor(m / 10), o2 = m % 10;
+        if (o2 === 0) return tens[t2];
+        return lookup[o2] + 'og' + tens[t2];
+      }
+      var h = Math.floor(n / 100), rem = n % 100;
+      var hWord = (h === 1) ? 'hundrede' : onesForCompound[h] + 'hundrede';
+      if (rem === 0) return hWord;
+      return hWord + ' og ' + sub99(rem);  // "og"-join between hundreds-word and tail
     }
   },
 
@@ -1049,6 +1096,33 @@ window.PlaceValueCore = {
         var tPartSV3 = tWordSV3 + ' tiotal';      // INVARIANT
         var oPartSV3 = oWordSV3 + ' ental';       // INVARIANT
         sentence = hPartSV3 + ', ' + tPartSV3 + ' och ' + oPartSV3 + ' blir ' + nWordSV3;
+      } else if (lang === 'da') {
+        /* DA 3-place: hundrede/tier/ener all DECLINE per activity 1 DA
+           lock — count=1 → singular (hundrede/tier/ener); count=0 or
+           2+ → plural (hundreder/tiere/enere). Zero takes plural per
+           Germanic+Romance convention. Article gender at count=1: "et
+           hundrede" (neuter) vs "en tier"/"en ener" (common). All 6
+           task targets are H≥2 so hundreds-count=1 path is defensive-
+           only — DA helper attr[1]='en' (common gender for tier/ener);
+           the H=1 path here hardcodes the correct neuter article "et"
+           rather than relying on attributive. Copula "er" (matches
+           activity 1). Connective: standard Danish enumeration of 3+
+           items uses comma between first two and "og" before last.
+           Zero places SPOKEN per 2.NBT.A.1 teaching point. Cardinal
+           target via DA helper renders the VIGESIMAL-inside-hundreds
+           frame with explicit "og"-join between hundreds and tail
+           (tohundrede og syvogfyrre, trehundrede og fem, femhundrede
+           og treogfirs). */
+        var hWordDA3 = (this.targetHundreds === 1)
+          ? 'et'   // neuter article for neuter noun hundrede (defensive; H≥2 in shipped targets)
+          : this._numberWord(this.targetHundreds, 'da', 'attributive', false);
+        var tWordDA3 = this._numberWord(this.targetTens,     'da', 'attributive', false);
+        var oWordDA3 = this._numberWord(this.targetOnes,     'da', 'attributive', false);
+        var nWordDA3 = this._numberWord(this.targetNumber,   'da', 'cardinal',    false);
+        var hPartDA3 = hWordDA3 + ' hundred' + (this.targetHundreds === 1 ? 'e' : 'er');  // hundrede/hundreder
+        var tPartDA3 = tWordDA3 + ' tier'    + (this.targetTens     === 1 ? '' : 'e');
+        var oPartDA3 = oWordDA3 + ' ener'    + (this.targetOnes     === 1 ? '' : 'e');
+        sentence = hPartDA3 + ', ' + tPartDA3 + ' og ' + oPartDA3 + ' er ' + nWordDA3;
       }
       /* Other locales in 3-place mode without a per-locale 3P branch
          leave `sentence` undefined → falls through to the 2-place

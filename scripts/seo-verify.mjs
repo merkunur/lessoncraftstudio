@@ -47,7 +47,7 @@ const SUPPORTED_LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da',
 // `HREFLANG_MAP` below. When the live array changes (a locale clears
 // NSR), update this mirror in the same commit so the harness still
 // asserts the live behavior.
-const UNREVIEWED_ABOUT_LOCALES = ['sv', 'da', 'no', 'fi'];
+const UNREVIEWED_ABOUT_LOCALES = []; // 2026-05-27: cleared after linguist agent review
 const INDEXABLE_ABOUT_LOCALES = SUPPORTED_LOCALES.filter(l => !UNREVIEWED_ABOUT_LOCALES.includes(l));
 
 // Mirrors frontend/lib/schema-generator.ts:hreflangMap (the live emission
@@ -129,8 +129,10 @@ const NEXT_TARGETS = [
   // About × 4 (covers noindex + indexable cases)
   { path: '/en/about', kind: 'about-indexable' },
   { path: '/de/about', kind: 'about-indexable' },
-  { path: '/sv/about', kind: 'about-noindex' },
-  { path: '/fi/about', kind: 'about-noindex' },
+  // 2026-05-27: sv/da/no/fi About pages cleared from NSR_PENDING_LOCALES
+  // post linguist-agent review; now indexable.
+  { path: '/sv/about', kind: 'about-indexable' },
+  { path: '/fi/about', kind: 'about-indexable' },
 ];
 
 // === Fetch helpers ===========================================================

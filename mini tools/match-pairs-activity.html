@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Match Pairs — Activity — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=13">
+  <!-- v7 cascade — activity-page parent forces iframe to 66.67vh +
+       renders sage field; these rules transparent-body + cascade
+       height: 100% to .lcs-app. Engine CSS injected at runtime by
+       match-pairs-core.js per §A.13.47 rule 6. -->
+  <style>
+    html, body { background: transparent !important; }
+    html, body, #lcs-root { height: 100% !important; }
+  </style>
+</head>
+<body>
+  <div id="lcs-root"></div>
+
+  <!-- Shell first, then the match-pairs core, then this activity wrapper.
+       NOTE: Bump ?v=N on EVERY change to match-pairs-core.js or
+       match-pairs-activity.js. Browsers cache by URL including the query
+       string; without a bump, clients that visited any earlier version
+       will keep serving the stale local copy. See CLAUDE.md §A.13.42. -->
+  <script src="/mini-tools/lcs-shell.js?v=1"></script>
+  <script src="/mini-tools/match-pairs-core.js?v=1"></script>
+  <script src="/mini-tools/match-pairs-activity.js?v=1"></script>
+  <script>
+    LCS.mount(MatchPairsActivity, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

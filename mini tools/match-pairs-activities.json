@@ -1,0 +1,34 @@
+[
+  {
+    "id": "match-pairs.make-the-number.k-oa-a-3",
+    "tool": "match-pairs-activity",
+    "task_template": "make-n",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.OA.A.3",
+      "grade": "K",
+      "strand": "Operations & Algebraic Thinking"
+    },
+    "params": {
+      "tasks": [
+        { "target":  3, "cards": [0, 3, 1, 2] },
+        { "target":  5, "cards": [0, 5, 1, 4, 2, 3] },
+        { "target":  6, "cards": [0, 6, 1, 5, 2, 4] },
+        { "target":  7, "cards": [0, 7, 1, 6, 2, 5, 3, 4] },
+        { "target":  9, "cards": [0, 9, 1, 8, 3, 6, 4, 5] },
+        { "target": 10, "cards": [1, 9, 2, 8, 3, 7, 4, 6] }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "make-the-number"
+    },
+    "page_title": {
+      "en": "Make the Number"
+    },
+    "page_intro": {
+      "en": "Find pairs of numbers that add up to the target. Tap a number, then tap its partner — and watch the pairs link. Aligned to Common Core K.OA.A.3 — decompose numbers less than or equal to 10 into pairs in more than one way."
+    },
+    "kid_prompt_template": "taskMakeN"
+  }
+]

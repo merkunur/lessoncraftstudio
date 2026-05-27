@@ -280,6 +280,37 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       console.warn('[sitemap] activity URLs failed; skipping:', (err as Error).message);
     }
 
+    // Curriculum-standards landing pages — one URL per (CC code × locale).
+    // Per external SEO audit (2026-05-27): teachers search for codes
+    // directly. Each code has a dedicated /[locale]/standards/<code>/
+    // page (e.g. /en/standards/K.CC.B.4). Hreflang is symmetric since
+    // codes are universal identifiers (not localized).
+    try {
+      const { listStandardsSitemapEntries, hreflangAlternatesForCode } =
+        await import('@/lib/standards');
+      const standards = await listStandardsSitemapEntries(TOPIC_LOCALES);
+      for (const s of standards) {
+        routes.push({
+          url: `${baseUrl}/${s.locale}/standards/${s.code}`,
+          lastModified: STATIC_CONTENT_DATE,
+          changeFrequency: 'monthly',
+          priority: 0.6,
+          alternates: {
+            languages: hreflangAlternatesForCode(
+              s.code,
+              TOPIC_LOCALES,
+              baseUrl,
+            ),
+          },
+        });
+      }
+    } catch (err) {
+      console.warn(
+        '[sitemap] standards URLs failed; skipping:',
+        (err as Error).message,
+      );
+    }
+
     // Manipulatives landing page — one URL per locale (11 total). Static
     // metadata lives in frontend/lib/manipulatives.ts; no DB or manifest IO.
     try {

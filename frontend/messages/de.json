@@ -1432,6 +1432,21 @@
     "emptyTitle": "Noch keine Arbeitsblätter in dieser Sprache verfügbar.",
     "emptyBody": "Unser Katalog wächst Sprache für Sprache. Schau bald wieder vorbei oder durchsuche eine andere Sprache."
   },
+  "standardsPage": {
+    "meta": {
+      "title": "Kostenlose {code} Aktivitäten & Arbeitsblätter in 11 Sprachen | LessonCraftStudio",
+      "description": "Kostenlose interaktive K-3 Aktivitäten und druckbare Arbeitsblätter passend zum Common Core Standard {code} ({strand}). Verfügbar in 11 Sprachen."
+    },
+    "pageTitle": "{code} — Kostenlose Aktivitäten & Arbeitsblätter",
+    "intro": "Kostenlose Common Core {code} Aktivitäten und Arbeitsblätter für {grade}, passend zum Strang {strand}. Im Browser spielbare interaktive Aufgaben plus druckbare PDFs, verfügbar in allen 11 unterstützten Sprachen — keine Anmeldung, keine Bezahlschranke.",
+    "activitiesHeading": "Interaktive Aktivitäten",
+    "noActivitiesYet": "Zu diesem Standard sind noch keine Aktivitäten veröffentlicht. Schau bald wieder vorbei.",
+    "relatedStandardsHeading": "Verwandte Standards in {domain}",
+    "relatedCodeLinkAriaLabel": "Aktivitäten zum Standard {code} ansehen",
+    "gradeLabel": "Klasse",
+    "tryItLink": "Ausprobieren",
+    "standardsBreadcrumb": "Standards"
+  },
   "aboutPage": {
     "meta": {
       "title": "Über uns | LessonCraftStudio",

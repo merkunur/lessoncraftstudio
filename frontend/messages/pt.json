@@ -1632,6 +1632,21 @@
     "emptyTitle": "Ainda não há atividades disponíveis nesse idioma.",
     "emptyBody": "Nosso catálogo cresce idioma por idioma. Volte em breve ou explore outro idioma."
   },
+  "standardsPage": {
+    "meta": {
+      "title": "Atividades e fichas {code} grátis em 11 idiomas | LessonCraftStudio",
+      "description": "Atividades K-3 interativas e fichas imprimíveis grátis alinhadas ao Common Core State Standard {code} ({strand}). Disponíveis em 11 idiomas."
+    },
+    "pageTitle": "{code} — Atividades e fichas grátis",
+    "intro": "Atividades e fichas Common Core {code} grátis para {grade}, alinhadas ao eixo {strand}. Exercícios interativos jogáveis no navegador mais PDFs imprimíveis, disponíveis nos 11 idiomas suportados — sem cadastro, sem pagamento.",
+    "activitiesHeading": "Atividades interativas",
+    "noActivitiesYet": "Ainda não há atividades publicadas alinhadas a este padrão. Volte em breve.",
+    "relatedStandardsHeading": "Padrões relacionados em {domain}",
+    "relatedCodeLinkAriaLabel": "Ver atividades alinhadas ao padrão {code}",
+    "gradeLabel": "Série",
+    "tryItLink": "Experimentar",
+    "standardsBreadcrumb": "Padrões"
+  },
   "aboutPage": {
     "meta": {
       "title": "Sobre | LessonCraftStudio",

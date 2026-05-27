@@ -1616,6 +1616,21 @@
     "emptyTitle": "Ingen opgaver tilgængelige på dette sprog endnu.",
     "emptyBody": "Vores katalog vokser sprog for sprog. Kom snart igen eller gennemse et andet sprog."
   },
+  "standardsPage": {
+    "meta": {
+      "title": "Gratis {code}-aktiviteter & arbejdsark på 11 sprog | LessonCraftStudio",
+      "description": "Gratis interaktive K-3-aktiviteter og printbare arbejdsark tilpasset Common Core State Standard {code} ({strand}). Tilgængelige på 11 sprog."
+    },
+    "pageTitle": "{code} — Gratis aktiviteter & arbejdsark",
+    "intro": "Gratis Common Core {code}-aktiviteter og arbejdsark til {grade}, tilpasset området {strand}. Interaktive øvelser der kan spilles i browseren plus printbare PDF'er, tilgængelige på alle 11 understøttede sprog — ingen tilmelding, ingen betalingsmur.",
+    "activitiesHeading": "Interaktive aktiviteter",
+    "noActivitiesYet": "Der er endnu ikke udgivet aktiviteter tilpasset denne standard. Kig forbi snart.",
+    "relatedStandardsHeading": "Relaterede standarder i {domain}",
+    "relatedCodeLinkAriaLabel": "Se aktiviteter tilpasset standard {code}",
+    "gradeLabel": "Klasse",
+    "tryItLink": "Prøv",
+    "standardsBreadcrumb": "Standarder"
+  },
   "aboutPage": {
     "meta": {
       "title": "Om os | LessonCraftStudio",

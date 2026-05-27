@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import Script from 'next/script';
 import { getTranslations } from 'next-intl/server';
@@ -219,7 +220,16 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
               <span className="text-teal-800/40">·</span>
               <span className="hidden sm:inline">{row.alignment.strand}</span>
               <span className="hidden sm:inline text-teal-800/40">·</span>
-              <span className="font-mono">{row.alignment.code}</span>
+              {/* Code is clickable: navigates to the per-standard landing
+                  page (/[locale]/standards/<code>) which aggregates every
+                  activity aligned to this code. Internal-linking surface
+                  per external SEO audit 2026-05-27. */}
+              <Link
+                href={`/${params.locale}/standards/${row.alignment.code}`}
+                className="font-mono underline decoration-dotted underline-offset-2 hover:decoration-solid"
+              >
+                {row.alignment.code}
+              </Link>
             </div>
           </header>
 

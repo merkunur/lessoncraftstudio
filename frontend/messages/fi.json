@@ -1608,6 +1608,21 @@
     "emptyTitle": "Tällä kielellä ei ole vielä saatavilla tehtäviä.",
     "emptyBody": "Katalogimme kasvaa kieli kerrallaan. Käy uudelleen pian tai selaa toista kieltä."
   },
+  "standardsPage": {
+    "meta": {
+      "title": "Ilmaisia {code}-tehtäviä ja työarkkeja 11 kielellä | LessonCraftStudio",
+      "description": "Ilmaisia interaktiivisia K-3-tehtäviä ja tulostettavia työarkkeja Common Core State Standard {code} ({strand}) -mukaisesti. Saatavilla 11 kielellä."
+    },
+    "pageTitle": "{code} — Ilmaisia tehtäviä ja työarkkeja",
+    "intro": "Ilmaisia Common Core {code} -tehtäviä ja työarkkeja {grade}-tasolle, {strand} -osa-alueeseen sidottuna. Selaimessa pelattavia interaktiivisia harjoituksia sekä tulostettavia PDF-tiedostoja, saatavilla kaikilla 11 tuetulla kielellä — ei rekisteröitymistä, ei maksumuuria.",
+    "activitiesHeading": "Interaktiiviset tehtävät",
+    "noActivitiesYet": "Tähän standardiin sidottuja tehtäviä ei ole vielä julkaistu. Käy pian uudelleen.",
+    "relatedStandardsHeading": "Aiheeseen liittyvät standardit kohdassa {domain}",
+    "relatedCodeLinkAriaLabel": "Näytä standardiin {code} sidotut tehtävät",
+    "gradeLabel": "Luokka",
+    "tryItLink": "Kokeile",
+    "standardsBreadcrumb": "Standardit"
+  },
   "aboutPage": {
     "meta": {
       "title": "Tietoa meistä | LessonCraftStudio",

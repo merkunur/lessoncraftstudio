@@ -39,11 +39,11 @@
   },
   "homepage": {
     "meta": {
-      "title": "Ilmaisia K-3 tehtäväarkkeja 11 kielellä",
-      "description": "Ilmaisia K-3 tehtäväarkkeja 11 kielellä — fonologinen tietoisuus, matematiikka, sanasto. Kaksikielisiin ja kansainvälisiin luokkiin.",
-      "ogTitle": "LessonCraftStudio — K-3 tehtäväarkit toisella kielelläsi.",
-      "ogDescription": "Fonologinen tietoisuus, matematiikka, sanasto. Tulostettavia PDF:iä ja selaimessa pelattavia aktiviteetteja. Kaksikielisiin ja kansainvälisiin luokkiin.",
-      "ogAlt": "LessonCraftStudio — K-3 tehtäväarkit ja aktiviteetit 11 kielellä"
+      "title": "Ilmaisia tulostettavia tehtäviä esiopetuksesta 3. luokkaan, 11 kielellä",
+      "description": "Tulostettavia tehtäviä ja interaktiivisia harjoituksia esiopetuksesta 3. luokkaan. OPS 2014 -yhteensopiva. Ilmaiseksi, ei rekisteröitymistä, 11 kielellä.",
+      "ogTitle": "LessonCraftStudio — Ilmaisia tulostettavia tehtäviä ja interaktiivisia harjoituksia esiopetuksesta 3. luokkaan, 11 kielellä.",
+      "ogDescription": "Fonologinen tietoisuus, matematiikka, sanasto. Tulostettavia tehtäviä ja interaktiivisia harjoituksia. Kaksikielisiin ja kansainvälisiin luokkiin — ei rekisteröitymistä.",
+      "ogAlt": "LessonCraftStudio — tulostettavia tehtäviä ja interaktiivisia harjoituksia esiopetuksesta 3. luokkaan, 11 kielellä"
     },
     "hero": {
       "title": "Tehtäväarkit monilla kielillä, tulostettavia ja interaktiivisia.",
@@ -1412,7 +1412,7 @@
   "homepageV3": {
     "hero": {
       "eyebrow": "Varhaiskasvatuksesta 3. luokkaan · OPS 2014 -yhteensopiva · Yksitoista kieltä",
-      "h1": "Ilmaisia K-3 tehtäväarkkeja 11 kielellä",
+      "h1": "Ilmaisia tulostettavia tehtäviä ja interaktiivisia harjoituksia esiopetuksesta 3. luokkaan, 11 kielellä",
       "keywordHeading": "Ilmaisia K-3 tehtäväarkkeja 11 kielellä",
       "h1Line1Before": "Toimii kuin ",
       "h1Line1Squiggle": "peli",

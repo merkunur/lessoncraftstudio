@@ -1126,7 +1126,27 @@
     "deckCardAlt": {
       "withTheme": "Pré-visualização da ficha de {exerciseType} com {theme} para {level}",
       "withoutTheme": "Pré-visualização da ficha de {exerciseType} para {level}"
-    }
+    },
+    "ogImageAlt": {
+      "withTheme": "Ficha de {exerciseType} interativa gratuita ({theme}) para {level}: {vocab}.",
+      "withThemeNoVocab": "Ficha de {exerciseType} interativa gratuita ({theme}) para {level}.",
+      "withoutTheme": "Ficha de {exerciseType} interativa gratuita para {level}: {vocab}.",
+      "withoutThemeNoVocab": "Ficha de {exerciseType} interativa gratuita para {level}."
+    },
+    "worksheetMainAlt": {
+      "withTheme": "Ficha de {exerciseType} imprimível com {vocab} para {level}",
+      "withThemeNoVocab": "Ficha de {exerciseType} imprimível sobre {theme} para {level}",
+      "withoutTheme": "Ficha de {exerciseType} imprimível com {vocab} para {level}",
+      "withoutThemeNoVocab": "Ficha de {exerciseType} imprimível para {level}"
+    },
+    "celebrationMiniAlt": "Sua ficha de {exerciseType} concluída"
+  },
+  "aria": {
+    "deckContainerTemplate": {
+      "withTheme": "Ficha de {exerciseType} interativa sobre {theme} para {level}. {instruction}",
+      "withoutTheme": "Ficha de {exerciseType} interativa para {level}. {instruction}"
+    },
+    "iframeEmbedTitle": "{deckTitle} — ficha interativa do LessonCraftStudio"
   },
   "endDeck": {
     "heading": "Quer mais?",
@@ -1472,17 +1492,17 @@
       "card1Prompt": "Toque as sílabas em ordem para formar a palavra.",
       "card1GradeLabel": "Educação infantil (pré-escola, 5-7 anos)",
       "card1CheckLabel": "Verificar",
-      "card1SubjectAlt": "gato",
+      "card1SubjectAlt": "Jogue a atividade interativa italiana de construção de sílabas para a educação infantil.",
       "card2Title": "Conte até 10",
       "card2Prompt": "Toque no quadro para formar 5.",
       "card2GradeLabel": "Educação infantil (pré-escola, 5-7 anos)",
       "card2CheckLabel": "Verificar",
-      "card2SubjectAlt": "cinco gatos",
+      "card2SubjectAlt": "Jogue a atividade interativa Contar até 10 com um quadro de dez para a educação infantil.",
       "card3Title": "Forme as sílabas",
       "card3Prompt": "Toque as sílabas em ordem para formar a palavra.",
       "card3GradeLabel": "Educação infantil (pré-escola, 5-7 anos)",
       "card3CheckLabel": "Verificar",
-      "card3SubjectAlt": "cavalo"
+      "card3SubjectAlt": "Jogue a atividade interativa de fonética silábica para a educação infantil."
     },
     "pillar02": {
       "eyebrow": "Atividades interativas",

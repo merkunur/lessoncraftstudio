@@ -8,6 +8,12 @@ interface Props {
   languageLabel: string;
   thumbnailUrl: string;
   topicUrl: string;
+  /**
+   * Optional richer alt text per the alt-text SEO commission 2026-05-27.
+   * Caller composes via `buildDeckRichAlt(deck, locale, t)` server-side.
+   * Falls back to bare `title` when undefined (e.g. cross-locale strips).
+   */
+  richAlt?: string;
 }
 
 export default function BreadthThumbV3({
@@ -15,17 +21,18 @@ export default function BreadthThumbV3({
   languageLabel,
   thumbnailUrl,
   topicUrl,
+  richAlt,
 }: Props) {
   return (
     <Link
       href={topicUrl}
       className="hv3-card group relative block overflow-hidden hover:-translate-y-1 transition-transform duration-300"
-      aria-label={title}
+      aria-label={richAlt ?? title}
     >
       <div className="relative aspect-[480/620] overflow-hidden rounded-t-3xl">
         <img
           src={thumbnailUrl}
-          alt={title}
+          alt={richAlt ?? title}
           loading="lazy"
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
         />

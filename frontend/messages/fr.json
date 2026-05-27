@@ -1133,7 +1133,27 @@
     "deckCardAlt": {
       "withTheme": "Aperçu de la fiche {exerciseType} avec {theme} pour {level}",
       "withoutTheme": "Aperçu de la fiche {exerciseType} pour {level}"
-    }
+    },
+    "ogImageAlt": {
+      "withTheme": "Fiche {exerciseType} interactive gratuite ({theme}) pour {level} : {vocab}.",
+      "withThemeNoVocab": "Fiche {exerciseType} interactive gratuite ({theme}) pour {level}.",
+      "withoutTheme": "Fiche {exerciseType} interactive gratuite pour {level} : {vocab}.",
+      "withoutThemeNoVocab": "Fiche {exerciseType} interactive gratuite pour {level}."
+    },
+    "worksheetMainAlt": {
+      "withTheme": "Fiche {exerciseType} à imprimer avec {vocab} pour {level}",
+      "withThemeNoVocab": "Fiche {exerciseType} à imprimer sur le thème {theme} pour {level}",
+      "withoutTheme": "Fiche {exerciseType} à imprimer avec {vocab} pour {level}",
+      "withoutThemeNoVocab": "Fiche {exerciseType} à imprimer pour {level}"
+    },
+    "celebrationMiniAlt": "Ta fiche {exerciseType} terminée"
+  },
+  "aria": {
+    "deckContainerTemplate": {
+      "withTheme": "Fiche {exerciseType} interactive sur le thème {theme} pour {level}. {instruction}",
+      "withoutTheme": "Fiche {exerciseType} interactive pour {level}. {instruction}"
+    },
+    "iframeEmbedTitle": "{deckTitle} — fiche interactive de LessonCraftStudio"
   },
   "endDeck": {
     "heading": "Vous en voulez plus ?",
@@ -1479,17 +1499,17 @@
       "card1Prompt": "Touche les syllabes dans l'ordre pour former le mot.",
       "card1GradeLabel": "Grande section",
       "card1CheckLabel": "Vérifier",
-      "card1SubjectAlt": "chaton",
+      "card1SubjectAlt": "Joue à l'activité interactive italienne de construction de syllabes pour la maternelle.",
       "card2Title": "Compter jusqu'à 10",
       "card2Prompt": "Touche le cadre pour faire 5.",
       "card2GradeLabel": "Grande section",
       "card2CheckLabel": "Vérifier",
-      "card2SubjectAlt": "cinq chats",
+      "card2SubjectAlt": "Joue à l'activité interactive Compter jusqu'à 10 avec un cadre de dix pour la maternelle.",
       "card3Title": "Forme les syllabes",
       "card3Prompt": "Touche les syllabes dans l'ordre pour former le mot.",
       "card3GradeLabel": "Grande section",
       "card3CheckLabel": "Vérifier",
-      "card3SubjectAlt": "éléphant"
+      "card3SubjectAlt": "Joue à l'activité interactive de phonétique syllabique pour la maternelle."
     },
     "pillar02": {
       "eyebrow": "Fiches interactives",

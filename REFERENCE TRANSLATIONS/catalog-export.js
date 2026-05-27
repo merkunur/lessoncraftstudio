@@ -929,9 +929,15 @@
 
     var slots = [];
     for (var i = 1; i <= 6; i++) {
+      // alt-text SEO commission 2026-05-27 (Dimension 1): suggestion-thumb
+      // alt is filled at publish-time by substitute.js using the suggested
+      // deck's own deck-card alt template. Pre-2026-05-27 emit had alt=""
+      // hardcoded — 6 empty-alt instances per deck × ~9,200 decks = ~55,200
+      // empty-alt instances. Forward path closes that gap; retrofit per
+      // §15.17 rewrites already-published decks.
       slots.push(
         '    <li><a href="__SUGGESTION_' + i + '_URL__" class="lcs-deckend-tile">' +
-        '<img src="__SUGGESTION_' + i + '_THUMB__" alt="" class="lcs-deckend-thumb">' +
+        '<img src="__SUGGESTION_' + i + '_THUMB__" alt="__SUGGESTION_' + i + '_ALT__" class="lcs-deckend-thumb">' +
         '<span class="lcs-deckend-title">__SUGGESTION_' + i + '_TITLE__</span>' +
         '</a></li>'
       );
@@ -1316,6 +1322,14 @@
     var attribKeyword = str('embedAttributionKeyword', 'free printable worksheets');
     var homepageURL = 'https://www.lessoncraftstudio.com';
 
+    // WCAG 4.1.2 / SEO commission 2026-05-27 Dimension 2(a): every iframe
+    // shipped in an embed snippet needs an accessible name. Use the
+    // `iframeEmbedTitle` template baked into translations-shared.js per
+    // locale (interpolates {deckTitle}). Fallback: bare deck title or
+    // generic "Interactive worksheet" sentinel.
+    var iframeTitleTpl = str('iframeEmbedTitle', '{deckTitle} — interactive worksheet from LessonCraftStudio');
+    var iframeTitle = iframeTitleTpl.replace(/\{deckTitle\}/g, title || 'Interactive worksheet');
+
     function escAttr(s) {
       return String(s == null ? '' : s)
         .replace(/&/g, '&amp;')
@@ -1410,6 +1424,9 @@
       'var brandText=' + JSON.stringify(attribBrandHtml) + ';',
       'var sepText=' + JSON.stringify(attribSeparatorHtml) + ';',
       'var keywordText=' + JSON.stringify(attribKeywordHtml) + ';',
+      // Iframe title for WCAG accessible name; baked at gen time per
+      // deck's content locale. escAttr applied at emission below.
+      'var iframeTitle=' + JSON.stringify(escAttr(iframeTitle)) + ';',
       // Read deck canvas dimensions from DECK_BUNDLE.page at runtime to
       // compute exact-fit iframe height. Empirical chrome=200 lets the
       // sticky-bottom Check Answers footer pull UP over the lcs-app
@@ -1458,7 +1475,7 @@
       'var iframeId=\'lcs-embed-\'+Math.random().toString(36).slice(2,10);',
       'var lines=[];',
       'lines.push(\'<div style="max-width: \'+w+\'px; margin: 0 auto;">\');',
-      'lines.push(\'  <iframe id="\'+iframeId+\'" src="\'+url+\'" frameborder="0" style="display: block; width: 100%; max-width: \'+w+\'px; aspect-ratio: \'+w+\' / \'+h+\'; border: 1px solid #e0d8c5; border-radius: 8px;"></iframe>\');',
+      'lines.push(\'  <iframe id="\'+iframeId+\'" title="\'+iframeTitle+\'" src="\'+url+\'" frameborder="0" style="display: block; width: 100%; max-width: \'+w+\'px; aspect-ratio: \'+w+\' / \'+h+\'; border: 1px solid #e0d8c5; border-radius: 8px;"></iframe>\');',
       'lines.push(\'  <p style="font-size: 13px; color: #6b6357; text-align: center; margin: 8px 0 0; font-family: system-ui, sans-serif;">\');',
       'lines.push(\'    \'+prefixText+\' <a href="\'+url+\'" style="color: #6b6357; text-decoration: underline;">\'+brandText+\'</a>\'+sepText+\'<a href="\'+homeURL+\'" style="color: #6b6357; text-decoration: underline;">\'+keywordText+\'</a>\');',
       'lines.push(\'  </p>\');',

@@ -1117,7 +1117,27 @@
     "deckCardAlt": {
       "withTheme": "Forhåndsvisning av {exerciseType}-arbeidsark med {theme} for {level}",
       "withoutTheme": "Forhåndsvisning av {exerciseType}-arbeidsark for {level}"
-    }
+    },
+    "ogImageAlt": {
+      "withTheme": "Gratis interaktivt {exerciseType}-arbeidsark ({theme}) for {level}: {vocab}.",
+      "withThemeNoVocab": "Gratis interaktivt {exerciseType}-arbeidsark ({theme}) for {level}.",
+      "withoutTheme": "Gratis interaktivt {exerciseType}-arbeidsark for {level}: {vocab}.",
+      "withoutThemeNoVocab": "Gratis interaktivt {exerciseType}-arbeidsark for {level}."
+    },
+    "worksheetMainAlt": {
+      "withTheme": "Utskrivbart {exerciseType}-arbeidsark med {vocab} for {level}",
+      "withThemeNoVocab": "Utskrivbart {exerciseType}-arbeidsark om {theme} for {level}",
+      "withoutTheme": "Utskrivbart {exerciseType}-arbeidsark med {vocab} for {level}",
+      "withoutThemeNoVocab": "Utskrivbart {exerciseType}-arbeidsark for {level}"
+    },
+    "celebrationMiniAlt": "Ditt ferdige {exerciseType}-arbeidsark"
+  },
+  "aria": {
+    "deckContainerTemplate": {
+      "withTheme": "Interaktivt {exerciseType}-arbeidsark om {theme} for {level}. {instruction}",
+      "withoutTheme": "Interaktivt {exerciseType}-arbeidsark for {level}. {instruction}"
+    },
+    "iframeEmbedTitle": "{deckTitle} — interaktivt arbeidsark fra LessonCraftStudio"
   },
   "endDeck": {
     "heading": "Vil du ha mer?",
@@ -1463,17 +1483,17 @@
       "card1Prompt": "Trykk stavelsene i riktig rekkefølge for å lage ordet.",
       "card1GradeLabel": "Barnehage (5-7 år)",
       "card1CheckLabel": "Sjekk",
-      "card1SubjectAlt": "katt",
+      "card1SubjectAlt": "Spill den interaktive italienske stavelsesbygger-aktiviteten for barnehagen.",
       "card2Title": "Tell til 10",
       "card2Prompt": "Trykk på rammen for å lage 5.",
       "card2GradeLabel": "Barnehage (5-7 år)",
       "card2CheckLabel": "Sjekk",
-      "card2SubjectAlt": "fem katter",
+      "card2SubjectAlt": "Spill den interaktive Tell til 10-aktiviteten med en tier-ramme for barnehagen.",
       "card3Title": "Bygg stavelsene",
       "card3Prompt": "Trykk stavelsene i riktig rekkefølge for å lage ordet.",
       "card3GradeLabel": "Barnehage (5-7 år)",
       "card3CheckLabel": "Sjekk",
-      "card3SubjectAlt": "elefant"
+      "card3SubjectAlt": "Spill den interaktive fonikk-stavelsesbygger-aktiviteten for barnehagen."
     },
     "pillar02": {
       "eyebrow": "Interaktive oppgaver",

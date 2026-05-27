@@ -4724,7 +4724,7 @@ async function downloadPDF(canvasToExport, baseFilename, opts) {
         '      "<h2 class=\\"lcs-celebration__title\\">"+T("youDidIt")+"</h2>"+',
         '      "<div class=\\"lcs-stars\\" aria-label=\\""+stars+" out of 3 stars\\">"+starsHTML+"</div>"+',
         '      "<p class=\\"lcs-celebration__sub\\">"+correct+" / "+total+" "+T("correct")+"</p>"+',
-        '      "<img class=\\"lcs-mini\\" alt=\\"Your completed worksheet\\" src=\\""+DECK_BUNDLE.worksheetImage+"\\" />"+',
+        '      "<img class=\\"lcs-mini\\" alt=\\""+(window.translations&&window.translations[(DECK_BUNDLE&&DECK_BUNDLE.contentLanguage)||"en"]&&window.translations[(DECK_BUNDLE&&DECK_BUNDLE.contentLanguage)||"en"].celebrationMiniAlt||(window.translations&&window.translations.en&&window.translations.en.celebrationMiniAlt)||"Your completed worksheet")+"\\" src=\\""+DECK_BUNDLE.worksheetImage+"\\" />"+',
         '      "<div class=\\"lcs-celebration__cta\\">"+',
         '        "<button class=\\"lcs-btn lcs-btn--primary\\" type=\\"button\\" id=\\"lcs-do-another\\">"+T("doAnother")+"</button>"+',
         '        "<button class=\\"lcs-btn lcs-btn--ghost\\" type=\\"button\\" id=\\"lcs-cel-print\\">"+T("printMyWorksheet")+"</button>"+',
@@ -4826,7 +4826,7 @@ async function downloadPDF(canvasToExport, baseFilename, opts) {
         parts.push(hreflangMarker);
         parts.push('</head>');
         parts.push('<body>');
-        parts.push('<main id="lcs-app">');
+        parts.push('<main id="lcs-app" role="application" aria-label="__APP_ARIA_LABEL__">');
         parts.push('  <div class="lcs-bar">');
         parts.push('    <h1 class="lcs-title" id="lcs-title">' + escapeHtml(displayTitle) + '</h1>');
         parts.push('    <nav class="lcs-progress" id="lcs-progress" aria-label="Wagon progress"></nav>');
@@ -4842,7 +4842,7 @@ async function downloadPDF(canvasToExport, baseFilename, opts) {
         }
         parts.push('  <div class="lcs-worksheet-wrap">');
         parts.push('    <div class="lcs-worksheet" id="lcs-worksheet">');
-        parts.push('      <img class="lcs-worksheet__img" id="lcs-worksheet-img" alt="" src="' + bundle.worksheetImage + '">');
+        parts.push('      <img class="lcs-worksheet__img" id="lcs-worksheet-img" alt="__WORKSHEET_MAIN_ALT__" src="' + bundle.worksheetImage + '">');
         parts.push('      <div class="lcs-overlay" id="lcs-overlay"></div>');
         parts.push('    </div>');
         parts.push('  </div>');

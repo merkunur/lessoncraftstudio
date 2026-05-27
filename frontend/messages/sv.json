@@ -1113,7 +1113,27 @@
     "deckCardAlt": {
       "withTheme": "Förhandsvisning av {exerciseType}-arbetsblad med {theme} för {level}",
       "withoutTheme": "Förhandsvisning av {exerciseType}-arbetsblad för {level}"
-    }
+    },
+    "ogImageAlt": {
+      "withTheme": "Gratis interaktivt {exerciseType}-arbetsblad ({theme}) för {level}: {vocab}.",
+      "withThemeNoVocab": "Gratis interaktivt {exerciseType}-arbetsblad ({theme}) för {level}.",
+      "withoutTheme": "Gratis interaktivt {exerciseType}-arbetsblad för {level}: {vocab}.",
+      "withoutThemeNoVocab": "Gratis interaktivt {exerciseType}-arbetsblad för {level}."
+    },
+    "worksheetMainAlt": {
+      "withTheme": "Utskrivbart {exerciseType}-arbetsblad med {vocab} för {level}",
+      "withThemeNoVocab": "Utskrivbart {exerciseType}-arbetsblad om {theme} för {level}",
+      "withoutTheme": "Utskrivbart {exerciseType}-arbetsblad med {vocab} för {level}",
+      "withoutThemeNoVocab": "Utskrivbart {exerciseType}-arbetsblad för {level}"
+    },
+    "celebrationMiniAlt": "Ditt klara {exerciseType}-arbetsblad"
+  },
+  "aria": {
+    "deckContainerTemplate": {
+      "withTheme": "Interaktivt {exerciseType}-arbetsblad om {theme} för {level}. {instruction}",
+      "withoutTheme": "Interaktivt {exerciseType}-arbetsblad för {level}. {instruction}"
+    },
+    "iframeEmbedTitle": "{deckTitle} — interaktivt arbetsblad från LessonCraftStudio"
   },
   "endDeck": {
     "heading": "Vill du ha mer?",
@@ -1459,17 +1479,17 @@
       "card1Prompt": "Tryck på stavelserna i rätt ordning för att bilda ordet.",
       "card1GradeLabel": "Förskoleklass",
       "card1CheckLabel": "Kontrollera",
-      "card1SubjectAlt": "katt",
+      "card1SubjectAlt": "Spela den interaktiva italienska stavelsebyggar-aktiviteten för förskoleklassen.",
       "card2Title": "Räkna till 10",
       "card2Prompt": "Tryck på rutan för att bilda 5.",
       "card2GradeLabel": "Förskoleklass",
       "card2CheckLabel": "Kontrollera",
-      "card2SubjectAlt": "fem katter",
+      "card2SubjectAlt": "Spela den interaktiva Räkna till 10-aktiviteten med tioramen för förskoleklassen.",
       "card3Title": "Bygg stavelserna",
       "card3Prompt": "Tryck på stavelserna i rätt ordning för att bilda ordet.",
       "card3GradeLabel": "Förskoleklass",
       "card3CheckLabel": "Kontrollera",
-      "card3SubjectAlt": "elefant"
+      "card3SubjectAlt": "Spela den interaktiva fonik-stavelsebyggar-aktiviteten för förskoleklassen."
     },
     "pillar02": {
       "eyebrow": "Interaktiva arbetsblad",

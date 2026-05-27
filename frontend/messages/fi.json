@@ -1102,7 +1102,27 @@
     "deckCardAlt": {
       "withTheme": "Esikatselu: {exerciseType}-tehtäväarkki, aiheena {theme}, {level}",
       "withoutTheme": "Esikatselu: {exerciseType}-tehtäväarkki, {level}"
-    }
+    },
+    "ogImageAlt": {
+      "withTheme": "Ilmainen interaktiivinen {exerciseType}-tehtäväarkki ({theme}), {level}: {vocab}.",
+      "withThemeNoVocab": "Ilmainen interaktiivinen {exerciseType}-tehtäväarkki ({theme}), {level}.",
+      "withoutTheme": "Ilmainen interaktiivinen {exerciseType}-tehtäväarkki, {level}: {vocab}.",
+      "withoutThemeNoVocab": "Ilmainen interaktiivinen {exerciseType}-tehtäväarkki, {level}."
+    },
+    "worksheetMainAlt": {
+      "withTheme": "Tulostettava {exerciseType}-tehtäväarkki, sisältää {vocab}, {level}",
+      "withThemeNoVocab": "Tulostettava {exerciseType}-tehtäväarkki, aiheena {theme}, {level}",
+      "withoutTheme": "Tulostettava {exerciseType}-tehtäväarkki, sisältää {vocab}, {level}",
+      "withoutThemeNoVocab": "Tulostettava {exerciseType}-tehtäväarkki, {level}"
+    },
+    "celebrationMiniAlt": "Valmis {exerciseType}-tehtäväarkkisi"
+  },
+  "aria": {
+    "deckContainerTemplate": {
+      "withTheme": "Interaktiivinen {exerciseType}-tehtäväarkki, aiheena {theme}, {level}. {instruction}",
+      "withoutTheme": "Interaktiivinen {exerciseType}-tehtäväarkki, {level}. {instruction}"
+    },
+    "iframeEmbedTitle": "{deckTitle} — interaktiivinen tehtäväarkki LessonCraftStudio-palvelusta"
   },
   "endDeck": {
     "heading": "Lisää tällaisia?",
@@ -1448,17 +1468,17 @@
       "card1Prompt": "Napauta tavut järjestyksessä muodostaaksesi sanan.",
       "card1GradeLabel": "Esiopetus",
       "card1CheckLabel": "Tarkista",
-      "card1SubjectAlt": "kissa",
+      "card1SubjectAlt": "Pelaa interaktiivinen italialainen tavujen rakennustehtävä esiopetukseen.",
       "card2Title": "Laske kymmeneen",
       "card2Prompt": "Napauta kehystä muodostaaksesi viisi.",
       "card2GradeLabel": "Esiopetus",
       "card2CheckLabel": "Tarkista",
-      "card2SubjectAlt": "viisi kissaa",
+      "card2SubjectAlt": "Pelaa interaktiivinen Laske kymmeneen -matematiikkatehtävä kymmenen ruudukolla esiopetukseen.",
       "card3Title": "Muodosta sana tavuista",
       "card3Prompt": "Napauta tavut järjestyksessä muodostaaksesi sanan.",
       "card3GradeLabel": "Esiopetus",
       "card3CheckLabel": "Tarkista",
-      "card3SubjectAlt": "kirahvi"
+      "card3SubjectAlt": "Pelaa interaktiivinen tavu-fonetiikkatehtävä esiopetukseen."
     },
     "pillar02": {
       "eyebrow": "Vuorovaikutteiset tehtävät",

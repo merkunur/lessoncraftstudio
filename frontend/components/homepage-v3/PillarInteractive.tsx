@@ -14,6 +14,7 @@ import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { prisma } from '@/lib/prisma';
 import { getAxisSlug } from '@/lib/taxonomy';
+import { buildDeckRichAlt } from '@/lib/deck-seo';
 import FeaturedDeckTileV3 from './FeaturedDeckTileV3';
 import BreadthThumbV3 from './BreadthThumbV3';
 import { HandCheck, Sparkle } from './DoodleAccents';
@@ -31,6 +32,7 @@ interface DeckRow {
   language: string;
   title: unknown; // Prisma Json
   exerciseType: string;
+  ageRange: string;
   thumbnailUrl: string;
   subjectTags: string[];
   publishedAt: Date | null;
@@ -57,6 +59,7 @@ async function selectPillarInteractiveDecks(locale: string): Promise<{ featured:
           language: true,
           title: true,
           exerciseType: true,
+          ageRange: true,
           thumbnailUrl: true,
           subjectTags: true,
           publishedAt: true,
@@ -99,10 +102,25 @@ async function selectPillarInteractiveDecks(locale: string): Promise<{ featured:
 }
 
 export default async function PillarInteractive({ locale }: PillarInteractiveProps) {
-  const [{ featured, thumbs }, t] = await Promise.all([
+  const [{ featured, thumbs }, t, tAlt] = await Promise.all([
     selectPillarInteractiveDecks(locale),
     getTranslations({ locale, namespace: 'homepageV3.pillar02' }),
+    getTranslations({ locale, namespace: 'seo.deckCardAlt' }),
   ]);
+  // Same-locale invariant: selectPillarInteractiveDecks queries
+  // `language: locale` only, so every rendered deck.language === locale.
+  // Safe to compose richAlt in the page locale without cross-locale guard.
+  const richAltFor = (deck: DeckRow): string =>
+    buildDeckRichAlt(
+      {
+        exerciseType: deck.exerciseType,
+        subjectTags: deck.subjectTags,
+        ageRange: deck.ageRange,
+        title: titleFor(deck),
+      },
+      locale,
+      (key, params) => tAlt(key, params),
+    );
 
   return (
     <section id="interactive-worksheets" className="hv3-section-coral relative overflow-hidden py-20 md:py-28 lg:py-36">
@@ -179,6 +197,7 @@ export default async function PillarInteractive({ locale }: PillarInteractivePro
                 slug={featured.slug}
                 locale={featured.language}
                 title={titleFor(featured)}
+                richAlt={richAltFor(featured)}
                 languageLabel={featured.language.toUpperCase()}
                 thumbnailUrl={featured.thumbnailUrl}
                 deckUrl={`/${featured.language}/decks/${featured.slug}/`}
@@ -201,6 +220,7 @@ export default async function PillarInteractive({ locale }: PillarInteractivePro
                     <BreadthThumbV3
                       key={`${deck.language}-${deck.slug}`}
                       title={titleFor(deck)}
+                      richAlt={richAltFor(deck)}
                       languageLabel={deck.language.toUpperCase()}
                       thumbnailUrl={deck.thumbnailUrl}
                       topicUrl={`/${locale}/topic/${typeSlug}/`}

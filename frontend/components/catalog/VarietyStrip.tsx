@@ -7,6 +7,7 @@ import {
   fetchDecksCatalogHighlights,
 } from '@/lib/topic-variety';
 import { TopicDeckSummary } from '@/lib/topic-decks';
+import { buildDeckRichAlt } from '@/lib/deck-seo';
 import VarietyStripCard from './VarietyStripCard';
 
 // Catalog variety Arc 1 — below-the-fold variety strips on topic pages
@@ -96,6 +97,14 @@ export default async function VarietyStrip(props: VarietyStripProps) {
 
   const t = await getTranslations({ locale: props.currentLocale, namespace: 'topicPage.variety' });
   const tAria = await getTranslations({ locale: props.currentLocale, namespace: 'topicPage.variety.aria' });
+  // Cross-locale richAlt composition: for variety strips, decks may have a
+  // content language different from the page UI locale (same-axis-key-other-locales
+  // strip). Per VarietyStripCard.tsx:14-19 JSDoc, when deck.language !==
+  // currentLocale we fall back to bare title — the rich-alt composed in
+  // currentLocale would mismatch the displayed (deck-language) title.
+  // For same-locale strips (related-topics, catalog-highlights, other-ages),
+  // we compose richAlt in the deck's own language (== currentLocale here).
+  const tAlt = await getTranslations({ locale: props.currentLocale, namespace: 'seo.deckCardAlt' });
 
   const heading = t(headingKey(props.kind, props.axis), { topic: props.topicName });
 
@@ -110,6 +119,19 @@ export default async function VarietyStrip(props: VarietyStripProps) {
       <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
         {decks.map(deck => {
           const title = deckTitleFor(deck, props.currentLocale);
+          const sameLocale = deck.language === props.currentLocale;
+          const richAlt = sameLocale
+            ? buildDeckRichAlt(
+                {
+                  exerciseType: deck.exerciseType,
+                  subjectTags: deck.subjectTags,
+                  ageRange: deck.ageRange,
+                  title,
+                },
+                props.currentLocale,
+                (key, params) => tAlt(key, params),
+              )
+            : undefined;
           return (
             <li
               key={`${deck.language}-${deck.id}`}
@@ -118,6 +140,7 @@ export default async function VarietyStrip(props: VarietyStripProps) {
               <VarietyStripCard
                 deckUrl={deckLinkFor(deck)}
                 title={title}
+                richAlt={richAlt}
                 thumbnailUrl={deck.thumbnailUrl}
                 languageLabel={languageLabelFor(deck.language)}
                 languageAriaLabel={tAria('languageBadge', { label: languageLabelFor(deck.language) })}

@@ -399,6 +399,43 @@ async function runChecksForDeck(dbDeck, htmlText, manifestObj, ctx) {
     checks.mainWorksheetAlt = { pass: true, skip: 'no lcs-worksheet-img element' };
   }
 
+  // ===== Check 15: meta description length 120-170 chars =====
+  // Meta-description SEO arc 2026-05-28: §17.4 mandates 120-170 char range.
+  // Under 120 = thin / Google may rewrite the snippet from on-page text and
+  // lose keyword targeting. Over 170 = truncated mid-sentence in SERP. Applies
+  // to BOTH deck pages and topic pages; this audit covers deck.html. The
+  // `renderedDesc` variable was captured in Check 2 (function-scoped var).
+  if (renderedDesc) {
+    var descLen = renderedDesc.length;
+    if (descLen < 120) {
+      checks.metaDescriptionLength = { pass: false, category: 'TOO_SHORT', length: descLen, value: renderedDesc };
+      defects.push('META_DESCRIPTION_LENGTH_TOO_SHORT');
+    } else if (descLen > 170) {
+      checks.metaDescriptionLength = { pass: false, category: 'TOO_LONG', length: descLen, value: renderedDesc.slice(0, 180) };
+      defects.push('META_DESCRIPTION_LENGTH_TOO_LONG');
+    } else {
+      checks.metaDescriptionLength = { pass: true, length: descLen };
+    }
+  } else {
+    // Already flagged by Check 2 as DESCRIPTION_HASH_NULL — don't double-count.
+    checks.metaDescriptionLength = { pass: true, skip: 'no description (already flagged)' };
+  }
+
+  // ===== Check 16: cannibalized fallback-template detection =====
+  // Meta-description SEO arc 2026-05-28: the topic-page generic template
+  // `"Free {topic} worksheets and printable PDFs. Interactive activities
+  // for early-childhood classrooms."` produces non-unique meta descriptions
+  // across thousands of pages and degrades SEO ranking. It must NEVER reach
+  // production. On deck pages this regex should never match (deck pages use
+  // a different template via buildSeoHead) — a hit indicates a serious leak.
+  var FALLBACK_TEMPLATE_RE = /Free .{1,40} worksheets and printable PDFs\. Interactive activities for early-childhood classrooms/i;
+  if (renderedDesc && FALLBACK_TEMPLATE_RE.test(renderedDesc)) {
+    checks.metaDescriptionFallback = { pass: false, category: 'CANNIBALIZED_FALLBACK_DETECTED', value: renderedDesc };
+    defects.push('META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED');
+  } else {
+    checks.metaDescriptionFallback = { pass: true };
+  }
+
   return {
     id: dbDeck.id,
     language: dbDeck.language,

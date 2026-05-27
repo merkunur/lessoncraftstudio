@@ -270,10 +270,11 @@ async function applySubstitution(deckDir, htmlText, slugCandidate, language) {
   // the placeholders must be filled at retrofit time so __SUGGESTION_i_ALT__
   // resolves to composed alt text per-suggestion in the deck's content locale).
   // warmUpIndices() is idempotent — only the FIRST call hits the DB.
+  // selectDeckEndSuggestions IS async — must await.
   var suggestions = [];
   try {
     await deckEndSuggestions.warmUpIndices();
-    suggestions = deckEndSuggestions.selectDeckEndSuggestions(language, slugCandidate) || [];
+    suggestions = (await deckEndSuggestions.selectDeckEndSuggestions(language, slugCandidate)) || [];
   } catch (e) {
     // Substrate-honesty per §16.6.1: degraded-substitution is better than
     // halt — the static rewrites still ship; suggestion-alt placeholders

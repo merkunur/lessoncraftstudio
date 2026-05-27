@@ -49,6 +49,7 @@
 var fs = require('fs');
 var path = require('path');
 var substitute = require('./substitute');
+var deckEndSuggestions = require('./deck-end-suggestions');
 
 var DEFAULT_DECKS_ROOT = '/var/www/lcs-media/decks';
 var LOCALE_CHUNK_ORDER = ['no', 'da', 'fi', 'sv', 'nl', 'it', 'pt', 'es', 'fr', 'de', 'en'];
@@ -254,7 +255,7 @@ function rewriteHtml(htmlText, deckId) {
 // Manifest load + substitute.apply
 // ============================================================
 
-function applySubstitution(deckDir, htmlText, slugCandidate) {
+async function applySubstitution(deckDir, htmlText, slugCandidate, language) {
   var manifestPath = path.join(deckDir, 'manifest.json');
   if (!fs.existsSync(manifestPath)) {
     return { html: htmlText, substituted: false, error: 'manifest.json missing' };
@@ -265,13 +266,26 @@ function applySubstitution(deckDir, htmlText, slugCandidate) {
   } catch (e) {
     return { html: htmlText, substituted: false, error: 'manifest parse: ' + e.message };
   }
+  // Pull real deck-end suggestions for this deck (per §A.13 retrofit doctrine:
+  // the placeholders must be filled at retrofit time so __SUGGESTION_i_ALT__
+  // resolves to composed alt text per-suggestion in the deck's content locale).
+  // warmUpIndices() is idempotent — only the FIRST call hits the DB.
+  var suggestions = [];
+  try {
+    await deckEndSuggestions.warmUpIndices();
+    suggestions = deckEndSuggestions.selectDeckEndSuggestions(language, slugCandidate) || [];
+  } catch (e) {
+    // Substrate-honesty per §16.6.1: degraded-substitution is better than
+    // halt — the static rewrites still ship; suggestion-alt placeholders
+    // remain raw until next retrofit pass with DB available.
+  }
   try {
     var result = substitute.apply({
       manifest: manifest,
       metadata: { age_range: manifest.metadata && manifest.metadata.age_range || manifest.age_range },
       deckHtml: htmlText,
       slugCandidate: slugCandidate,
-      suggestions: [],  // suggestions left raw; retrofit can re-run with real suggestions later
+      suggestions: suggestions,
     });
     return { html: result.html, substituted: true, warnings: result.warnings, errors: result.errors };
   } catch (e) {
@@ -294,7 +308,7 @@ function listDeckDirs(decksRoot, locale, sampleN) {
   return dirs;
 }
 
-function processDeck(deckDir, slug, opts) {
+async function processDeck(deckDir, slug, language, opts) {
   var htmlPath = path.join(deckDir, 'deck.html');
   if (!fs.existsSync(htmlPath)) {
     return { skip: 'deck.html missing', deckDir: deckDir };
@@ -313,7 +327,7 @@ function processDeck(deckDir, slug, opts) {
   var finalHtml = rewritten.html;
 
   if (!opts.skipSubstitute) {
-    var subResult = applySubstitution(deckDir, finalHtml, slug);
+    var subResult = await applySubstitution(deckDir, finalHtml, slug, language);
     finalHtml = subResult.html;
     if (subResult.error) {
       return {
@@ -357,7 +371,7 @@ function processDeck(deckDir, slug, opts) {
 // Main
 // ============================================================
 
-function main() {
+async function main() {
   var opts = parseArgs(process.argv);
   console.log('=== alt-text retrofit ===');
   console.log('mode:        ' + (opts.dryRun ? 'DRY-RUN (no writes)' : 'APPLY (--confirm)'));
@@ -368,37 +382,39 @@ function main() {
   console.log('');
 
   var totals = {};
-  opts.locales.forEach(function (locale) {
+  for (var li = 0; li < opts.locales.length; li++) {
+    var locale = opts.locales[li];
     var t = { total: 0, written: 0, idempotent: 0, errors: 0, wouldWrite: 0 };
     var dirs = listDeckDirs(opts.decksRoot, locale, opts.sample);
-    dirs.forEach(function (deckDir) {
+    for (var di = 0; di < dirs.length; di++) {
+      var deckDir = dirs[di];
       var slug = path.basename(deckDir).replace(/-v\d+$/, '');
-      var result = processDeck(deckDir, slug, opts);
+      var result = await processDeck(deckDir, slug, locale, opts);
       t.total++;
       if (result.skip) { /* missing */ }
       else if (result.idempotent) t.idempotent++;
       else if (result.error || result.substituteError) t.errors++;
       else if (result.written) t.written++;
       else if (result.wouldWrite) t.wouldWrite++;
-    });
+    }
     totals[locale] = t;
     console.log('[' + locale + '] ' + t.total + ' decks; ' +
       (opts.dryRun
         ? t.wouldWrite + ' would-rewrite, '
         : t.written + ' written, ') +
       t.idempotent + ' idempotent, ' + t.errors + ' errors');
-  });
+  }
 
   console.log('');
   console.log('=== Summary ===');
   var grand = { total: 0, written: 0, idempotent: 0, errors: 0, wouldWrite: 0 };
   Object.keys(totals).forEach(function (loc) {
-    var t = totals[loc];
-    grand.total += t.total;
-    grand.written += t.written;
-    grand.idempotent += t.idempotent;
-    grand.errors += t.errors;
-    grand.wouldWrite += t.wouldWrite;
+    var ttt = totals[loc];
+    grand.total += ttt.total;
+    grand.written += ttt.written;
+    grand.idempotent += ttt.idempotent;
+    grand.errors += ttt.errors;
+    grand.wouldWrite += ttt.wouldWrite;
   });
   console.log('Grand total:   ' + grand.total + ' decks across ' + opts.locales.length + ' locales');
   if (opts.dryRun) {
@@ -408,11 +424,16 @@ function main() {
   }
   console.log('Idempotent:    ' + grand.idempotent);
   console.log('Errors:        ' + grand.errors);
+  // Close DB connection so the script exits cleanly after the long retrofit.
+  try { await deckEndSuggestions.disconnect(); } catch (e) {}
   process.exit(grand.errors > 0 ? 1 : 0);
 }
 
 if (require.main === module) {
-  main();
+  main().catch(function (e) {
+    console.error('FATAL:', e.message);
+    process.exit(2);
+  });
 }
 
 module.exports = {

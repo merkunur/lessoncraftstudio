@@ -39,11 +39,11 @@
   },
   "homepage": {
     "meta": {
-      "title": "Gratis K-3 arbeidsark på 11 språk",
-      "description": "Gratis utskrivbare og interaktive K-3 arbeidsark på elleve språk — fonologisk bevissthet, matematikk, ordforråd. For tospråklige og internasjonale klasserom.",
-      "ogTitle": "LessonCraftStudio — K-3 arbeidsark på andrespråket ditt.",
-      "ogDescription": "Fonologisk bevissthet, matematikk, ordforråd. Utskrivbare PDF-er og spillbare aktiviteter i nettleseren. For tospråklige og internasjonale klasserom.",
-      "ogAlt": "LessonCraftStudio — K-3 arbeidsark og aktiviteter på 11 språk"
+      "title": "Gratis arbeidsark og oppgaver til utskrift, barnehage til 3. trinn — på 11 språk",
+      "description": "Gratis arbeidsark til utskrift og interaktive oppgaver for barnehage og 1.-3. trinn — matematikk, lesing, ordforråd. Tilpasset LK20. Ingen registrering.",
+      "ogTitle": "LessonCraftStudio — Gratis arbeidsark til utskrift og interaktive oppgaver for barnehage til 3. trinn — på 11 språk.",
+      "ogDescription": "Fonologisk bevissthet, matematikk, ordforråd. Gratis arbeidsark til utskrift og interaktive oppgaver. For tospråklige og internasjonale klasserom — ingen registrering.",
+      "ogAlt": "LessonCraftStudio — arbeidsark til utskrift og interaktive oppgaver for barnehage til 3. trinn — på 11 språk"
     },
     "hero": {
       "title": "Arbeidsark på flere språk, utskrivbare og interaktive.",
@@ -1427,7 +1427,7 @@
   "homepageV3": {
     "hero": {
       "eyebrow": "Fra barnehage til 3. trinn · Tilpasset LK20 · Elleve språk",
-      "h1": "Gratis K-3 arbeidsark på 11 språk",
+      "h1": "Gratis arbeidsark til utskrift og interaktive oppgaver for barnehage til 3. trinn — på 11 språk",
       "keywordHeading": "Gratis K-3 arbeidsark på 11 språk",
       "h1Line1Before": "Føles som et ",
       "h1Line1Squiggle": "spill",

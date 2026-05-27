@@ -39,11 +39,11 @@
   },
   "homepage": {
     "meta": {
-      "title": "Schede K-3 gratuite in 11 lingue",
-      "description": "Schede K-3 stampabili e interattive gratuite in undici lingue — fonetica, matematica, vocabolario. Per classi bilingui, duali e scuole internazionali.",
-      "ogTitle": "LessonCraftStudio — Schede K-3 nella vostra seconda lingua.",
-      "ogDescription": "Fonetica, matematica, vocabolario. PDF stampabili e attività giocabili nel browser. Per classi bilingui, duali e scuole internazionali.",
-      "ogAlt": "LessonCraftStudio — schede e attività K-3 in 11 lingue"
+      "title": "Schede didattiche da stampare e attività interattive gratis",
+      "description": "Schede didattiche da stampare e attività interattive gratis per scuola dell’infanzia e primaria, in 11 lingue. In linea con le Indicazioni nazionali.",
+      "ogTitle": "LessonCraftStudio — Schede didattiche da stampare e attività interattive per infanzia e primaria, in 11 lingue.",
+      "ogDescription": "Fonetica, matematica, vocabolario. Schede didattiche da stampare e attività interattive gratis. Per classi bilingui, duali e scuole internazionali — senza registrazione.",
+      "ogAlt": "LessonCraftStudio — schede didattiche da stampare e attività interattive per infanzia e primaria, in 11 lingue"
     },
     "hero": {
       "title": "Schede in molte lingue, stampabili e interattive.",
@@ -1436,7 +1436,7 @@
   "homepageV3": {
     "hero": {
       "eyebrow": "Dalla scuola dell'infanzia alla classe terza · In linea con le Indicazioni nazionali · Undici lingue",
-      "h1": "Schede K-3 gratuite in 11 lingue",
+      "h1": "Schede didattiche da stampare e attività interattive gratis per infanzia e primaria, in 11 lingue",
       "keywordHeading": "Schede K-3 gratuite in 11 lingue",
       "h1Line1Before": "Si gioca come un ",
       "h1Line1Squiggle": "gioco",

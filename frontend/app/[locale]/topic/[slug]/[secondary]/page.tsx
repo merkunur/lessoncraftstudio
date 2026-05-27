@@ -252,7 +252,8 @@ async function getIntersectionProse(locale: string, axisKey1: string, axisKey2: 
     const tp = await getTranslations({ locale, namespace: 'topicProse' });
     const sorted = [axisKey1, axisKey2].sort().join('__');
     const v = tp(sorted);
-    if (!v || v === sorted) return null;
+    // Reject both next-intl miss forms — bare-key + namespaced-path.
+    if (!v || v === sorted || v === 'topicProse.' + sorted) return null;
     return v;
   } catch {
     return null;
@@ -270,7 +271,7 @@ async function getIntersectionMeta(locale: string, axisKey1: string, axisKey2: s
     const tm = await getTranslations({ locale, namespace: 'topicMeta' });
     const sorted = [axisKey1, axisKey2].sort().join('__');
     const v = tm(sorted);
-    if (!v || v === sorted) return null;
+    if (!v || v === sorted || v === 'topicMeta.' + sorted) return null;
     return v;
   } catch {
     return null;

@@ -172,8 +172,10 @@ async function getTopicProse(locale: string, axisKey: string): Promise<string | 
   try {
     const tp = await getTranslations({ locale, namespace: 'topicProse' });
     const v = tp(axisKey);
-    // next-intl returns the key itself when missing; treat as no prose
-    if (!v || v === axisKey) return null;
+    // next-intl returns the key itself OR the namespaced path on missing key.
+    // Both forms must be treated as "no prose" — without the namespaced check
+    // the literal `topicProse.<axisKey>` string leaks into meta descriptions.
+    if (!v || v === axisKey || v === 'topicProse.' + axisKey) return null;
     return v;
   } catch {
     return null;
@@ -190,7 +192,9 @@ async function getTopicMeta(locale: string, axisKey: string): Promise<string | n
   try {
     const tm = await getTranslations({ locale, namespace: 'topicMeta' });
     const v = tm(axisKey);
-    if (!v || v === axisKey) return null;
+    // Defensive against both missing-key return forms from next-intl. See
+    // getTopicProse comment for why both checks matter.
+    if (!v || v === axisKey || v === 'topicMeta.' + axisKey) return null;
     return v;
   } catch {
     return null;

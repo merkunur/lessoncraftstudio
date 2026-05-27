@@ -39,11 +39,11 @@
   },
   "homepage": {
     "meta": {
-      "title": "Fiches K-3 gratuites en 11 langues",
-      "description": "Fiches K-3 imprimables et interactives en onze langues — phonologie, mathématiques, vocabulaire. Gratuit. Pour classes bilingues et écoles internationales.",
-      "ogTitle": "LessonCraftStudio — Des fiches K-3 dans votre seconde langue.",
-      "ogDescription": "Phonologie, mathématiques, vocabulaire. PDFs imprimables et activités jouables dans le navigateur. Pour classes bilingues et écoles internationales.",
-      "ogAlt": "LessonCraftStudio — fiches et activités K-3 en 11 langues"
+      "title": "Fiches gratuites à imprimer et activités interactives, en 11 langues",
+      "description": "Fiches gratuites à imprimer et activités interactives pour la maternelle, CP, CE1, CE2, en 11 langues. Conformes aux programmes officiels. Sans inscription.",
+      "ogTitle": "LessonCraftStudio — Fiches gratuites à imprimer et activités interactives, de la maternelle au CE2, en 11 langues.",
+      "ogDescription": "Phonologie, mathématiques, vocabulaire. Fiches gratuites à imprimer et activités interactives. Pour classes bilingues et écoles internationales — sans inscription.",
+      "ogAlt": "LessonCraftStudio — fiches gratuites à imprimer et activités interactives, de la maternelle au CE2, en 11 langues"
     },
     "hero": {
       "title": "Des fiches en plusieurs langues, imprimables et interactives.",
@@ -1443,7 +1443,7 @@
   "homepageV3": {
     "hero": {
       "eyebrow": "Maternelle au CE2 · Conforme aux programmes · Onze langues",
-      "h1": "Fiches K-3 gratuites en 11 langues",
+      "h1": "Fiches gratuites à imprimer et activités interactives, de la maternelle au CE2, en 11 langues",
       "keywordHeading": "Fiches K-3 gratuites en 11 langues",
       "h1Line1Before": "Ça se joue comme un ",
       "h1Line1Squiggle": "jeu",

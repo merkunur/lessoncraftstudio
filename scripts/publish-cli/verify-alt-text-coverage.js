@@ -62,10 +62,16 @@ var FORBIDDEN_FROM_OTHERS = {
         sv: ['arbetsblad'], da: ['arbejdsark'], no: ['arbeidsark'] },
   fr: { de: ['Arbeitsblatt'], es: ['Hoja de '], it: ['Scheda di '], pt: ['Ficha de '],
         nl: ['werkblad'] },
-  es: { de: ['Arbeitsblatt'], fr: ['Fiche '], it: ['Scheda di '], pt: ['Ficha de '],
+  // ES + PT share Romance worksheet-cognates: "Ficha de" appears in both
+  // (Spanish "Ficha de Trabajo" / Portuguese "Ficha de trabalho"). Drop
+  // "Ficha de" from each other's FORBIDDEN per §A.13.53 cognate-aware-verify
+  // — empirical: verify-alt-text-coverage 2026-05-28 false-positive on
+  // /es/adivina-la-palabra-mascotas (title carries legit Spanish "Ficha de
+  // Trabajo"). "Hoja de" is Spanish-distinct so PT's FORBIDDEN keeps it.
+  es: { de: ['Arbeitsblatt'], fr: ['Fiche '], it: ['Scheda di '],
         nl: ['werkblad'] },
   pt: { de: ['Arbeitsblatt'], fr: ['Fiche '], it: ['Scheda di '],
-        es: ['Hoja de '], nl: ['werkblad'] },
+        nl: ['werkblad'] },
   it: { de: ['Arbeitsblatt'], fr: ['Fiche '], es: ['Hoja de '],
         pt: ['Ficha de '], nl: ['werkblad'] },
   nl: { de: ['Arbeitsblatt'], fr: ['Fiche '], es: ['Hoja de '],

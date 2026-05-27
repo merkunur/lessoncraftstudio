@@ -39,11 +39,11 @@
   },
   "homepage": {
     "meta": {
-      "title": "Gratis K-3 werkbladen in 11 talen",
-      "description": "Gratis afdrukbare en interactieve K-3 werkbladen in elf talen — fonologisch bewustzijn, rekenen, woordenschat. Voor tweetalige en internationale klassen.",
-      "ogTitle": "LessonCraftStudio — K-3 werkbladen in uw tweede taal.",
-      "ogDescription": "Fonologisch bewustzijn, rekenen, woordenschat. Afdrukbare PDF's en in de browser speelbare activiteiten. Voor tweetalige en internationale klassen.",
-      "ogAlt": "LessonCraftStudio — K-3 werkbladen en activiteiten in 11 talen"
+      "title": "Gratis werkbladen en oefeningen voor kleuters en groep 3-5 in 11 talen",
+      "description": "Gratis afdrukbare werkbladen en interactieve oefeningen voor groep 1 t/m 5 — rekenen, taal en lezen. Aansluiting op SLO Kerndoelen. Geen aanmelding.",
+      "ogTitle": "LessonCraftStudio — Gratis afdrukbare werkbladen en interactieve oefeningen voor kleuters en groep 3 t/m 5, in 11 talen.",
+      "ogDescription": "Fonologisch bewustzijn, rekenen, woordenschat. Afdrukbare werkbladen en interactieve oefeningen. Voor tweetalige en internationale klassen — geen aanmelding.",
+      "ogAlt": "LessonCraftStudio — afdrukbare werkbladen en interactieve oefeningen voor kleuters en groep 3 t/m 5 in 11 talen"
     },
     "hero": {
       "title": "Werkbladen in vele talen, afdrukbaar en interactief.",
@@ -1423,7 +1423,7 @@
   "homepageV3": {
     "hero": {
       "eyebrow": "Peuter t/m groep 5 · Volgens de SLO Kerndoelen · Elf talen",
-      "h1": "Gratis K-3 werkbladen in 11 talen",
+      "h1": "Gratis afdrukbare werkbladen en interactieve oefeningen voor kleuters en groep 3 t/m 5, in 11 talen",
       "keywordHeading": "Gratis K-3 werkbladen in 11 talen",
       "h1Line1Before": "Speelt als een ",
       "h1Line1Squiggle": "spel",

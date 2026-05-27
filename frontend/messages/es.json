@@ -792,6 +792,10 @@
       "for": "para",
       "print_or_play_online": "Imprime o juega en línea",
       "variant_label": "Conjunto"
+    },
+    "deckCardAlt": {
+      "withTheme": "Vista previa de la hoja de {exerciseType} con {theme} para {level}",
+      "withoutTheme": "Vista previa de la hoja de {exerciseType} para {level}"
     }
   },
   "endDeck": {
@@ -885,7 +889,11 @@
     "deckCard": {
       "playLink": "Jugar en línea",
       "pdfLink": "Imprimir PDF",
-      "answerKeyLink": "Respuestas"
+      "answerKeyLink": "Respuestas",
+      "ariaThumbnail": "Abrir {title}",
+      "ariaPlay": "Jugar a {title} — hoja interactiva",
+      "ariaPdf": "Descargar PDF imprimible — {title}",
+      "ariaAnswerKey": "Descargar hoja de respuestas — {title}"
     },
     "emptyState": {
       "heading": "Ninguna hoja de trabajo coincide con estos filtros.",
@@ -1425,6 +1433,7 @@
   "homepageV3": {
     "hero": {
       "eyebrow": "Del jardín al tercer grado · Conforme a los planes de estudio · Once idiomas",
+      "h1": "Hojas de trabajo K-3 gratis en 11 idiomas",
       "keywordHeading": "Hojas de trabajo K-3 gratis en 11 idiomas",
       "h1Line1Before": "Se juega como un ",
       "h1Line1Squiggle": "juego",

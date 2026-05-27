@@ -1098,6 +1098,10 @@
       "for": "varten",
       "print_or_play_online": "Tulosta tai pelaa verkossa",
       "variant_label": "Sarja"
+    },
+    "deckCardAlt": {
+      "withTheme": "Esikatselu: {exerciseType}-tehtäväarkki, aiheena {theme}, {level}",
+      "withoutTheme": "Esikatselu: {exerciseType}-tehtäväarkki, {level}"
     }
   },
   "endDeck": {
@@ -1127,7 +1131,11 @@
     "deckCard": {
       "playLink": "Pelaa verkossa",
       "pdfLink": "Tulosta PDF",
-      "answerKeyLink": "Vastaukset"
+      "answerKeyLink": "Vastaukset",
+      "ariaThumbnail": "Avaa {title}",
+      "ariaPlay": "Pelaa {title} — interaktiivinen tehtäväarkki",
+      "ariaPdf": "Lataa tulostettava PDF — {title}",
+      "ariaAnswerKey": "Lataa vastausavain — {title}"
     },
     "emptyState": {
       "heading": "Mikään tehtäväarkki ei vastaa näitä suodattimia.",
@@ -1404,6 +1412,7 @@
   "homepageV3": {
     "hero": {
       "eyebrow": "Varhaiskasvatuksesta 3. luokkaan · OPS 2014 -yhteensopiva · Yksitoista kieltä",
+      "h1": "Ilmaisia K-3 tehtäväarkkeja 11 kielellä",
       "keywordHeading": "Ilmaisia K-3 tehtäväarkkeja 11 kielellä",
       "h1Line1Before": "Toimii kuin ",
       "h1Line1Squiggle": "peli",

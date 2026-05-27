@@ -1106,6 +1106,10 @@
       "for": "til",
       "print_or_play_online": "Udskriv eller spil online",
       "variant_label": "Sæt"
+    },
+    "deckCardAlt": {
+      "withTheme": "Forhåndsvisning af {exerciseType}-arbejdsark med {theme} til {level}",
+      "withoutTheme": "Forhåndsvisning af {exerciseType}-arbejdsark til {level}"
     }
   },
   "endDeck": {
@@ -1135,7 +1139,11 @@
     "deckCard": {
       "playLink": "Spil online",
       "pdfLink": "Udskriv PDF",
-      "answerKeyLink": "Facitliste"
+      "answerKeyLink": "Facitliste",
+      "ariaThumbnail": "Åbn {title}",
+      "ariaPlay": "Spil {title} — interaktivt arbejdsark",
+      "ariaPdf": "Hent printbar PDF — {title}",
+      "ariaAnswerKey": "Hent facitliste — {title}"
     },
     "emptyState": {
       "heading": "Ingen arbejdsark matcher disse filtre.",
@@ -1412,6 +1420,7 @@
   "homepageV3": {
     "hero": {
       "eyebrow": "Fra børnehave til 3. klasse · Tilpasset Fælles Mål · Elleve sprog",
+      "h1": "Gratis K-3 arbejdsark på 11 sprog",
       "keywordHeading": "Gratis K-3 arbejdsark på 11 sprog",
       "h1Line1Before": "Spilles som et ",
       "h1Line1Squiggle": "spil",

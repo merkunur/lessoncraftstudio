@@ -922,6 +922,10 @@
       "for": "für",
       "print_or_play_online": "Drucken oder online spielen",
       "variant_label": "Satz"
+    },
+    "deckCardAlt": {
+      "withTheme": "Vorschau: {exerciseType}-Arbeitsblatt mit {theme} für {level}",
+      "withoutTheme": "Vorschau: {exerciseType}-Arbeitsblatt für {level}"
     }
   },
   "endDeck": {
@@ -1015,7 +1019,11 @@
     "deckCard": {
       "playLink": "Online spielen",
       "pdfLink": "PDF drucken",
-      "answerKeyLink": "Lösungen"
+      "answerKeyLink": "Lösungen",
+      "ariaThumbnail": "{title} öffnen",
+      "ariaPlay": "{title} spielen — interaktives Arbeitsblatt",
+      "ariaPdf": "Druckbares PDF herunterladen — {title}",
+      "ariaAnswerKey": "Lösungsbogen herunterladen — {title}"
     },
     "emptyState": {
       "heading": "Keine Arbeitsblätter passen zu diesen Filtern.",
@@ -1228,6 +1236,7 @@
   "homepageV3": {
     "hero": {
       "eyebrow": "Kita bis 3. Klasse · Lehrplanbezogen · Elf Sprachen",
+      "h1": "Kostenlose K-3 Arbeitsblätter in 11 Sprachen",
       "keywordHeading": "Kostenlose K-3 Arbeitsblätter in 11 Sprachen",
       "h1Line1Before": "Spielt sich wie ein ",
       "h1Line1Squiggle": "Spiel",

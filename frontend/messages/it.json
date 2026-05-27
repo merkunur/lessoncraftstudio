@@ -1122,6 +1122,10 @@
       "for": "per",
       "print_or_play_online": "Stampa o gioca online",
       "variant_label": "Set"
+    },
+    "deckCardAlt": {
+      "withTheme": "Anteprima della scheda di {exerciseType} con {theme} per {level}",
+      "withoutTheme": "Anteprima della scheda di {exerciseType} per {level}"
     }
   },
   "endDeck": {
@@ -1151,7 +1155,11 @@
     "deckCard": {
       "playLink": "Gioca online",
       "pdfLink": "Stampa PDF",
-      "answerKeyLink": "Risposte"
+      "answerKeyLink": "Risposte",
+      "ariaThumbnail": "Apri {title}",
+      "ariaPlay": "Gioca a {title} — scheda interattiva",
+      "ariaPdf": "Scarica PDF stampabile — {title}",
+      "ariaAnswerKey": "Scarica soluzioni — {title}"
     },
     "emptyState": {
       "heading": "Nessuna scheda corrisponde a questi filtri.",
@@ -1428,6 +1436,7 @@
   "homepageV3": {
     "hero": {
       "eyebrow": "Dalla scuola dell'infanzia alla classe terza · In linea con le Indicazioni nazionali · Undici lingue",
+      "h1": "Schede K-3 gratuite in 11 lingue",
       "keywordHeading": "Schede K-3 gratuite in 11 lingue",
       "h1Line1Before": "Si gioca come un ",
       "h1Line1Squiggle": "gioco",

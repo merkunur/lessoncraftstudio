@@ -779,6 +779,10 @@
       "for": "voor",
       "print_or_play_online": "Afdrukken of online spelen",
       "variant_label": "Set"
+    },
+    "deckCardAlt": {
+      "withTheme": "Voorbeeld van het {exerciseType}-werkblad met {theme} voor {level}",
+      "withoutTheme": "Voorbeeld van het {exerciseType}-werkblad voor {level}"
     }
   },
   "endDeck": {
@@ -872,7 +876,11 @@
     "deckCard": {
       "playLink": "Online spelen",
       "pdfLink": "PDF afdrukken",
-      "answerKeyLink": "Antwoorden"
+      "answerKeyLink": "Antwoorden",
+      "ariaThumbnail": "{title} openen",
+      "ariaPlay": "{title} spelen — interactief werkblad",
+      "ariaPdf": "Printbare PDF downloaden — {title}",
+      "ariaAnswerKey": "Antwoordblad downloaden — {title}"
     },
     "emptyState": {
       "heading": "Geen werkbladen passen bij deze filters.",
@@ -1415,6 +1423,7 @@
   "homepageV3": {
     "hero": {
       "eyebrow": "Peuter t/m groep 5 · Volgens de SLO Kerndoelen · Elf talen",
+      "h1": "Gratis K-3 werkbladen in 11 talen",
       "keywordHeading": "Gratis K-3 werkbladen in 11 talen",
       "h1Line1Before": "Speelt als een ",
       "h1Line1Squiggle": "spel",

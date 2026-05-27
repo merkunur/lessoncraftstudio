@@ -63,24 +63,34 @@ export default async function HeroV3({ locale }: HeroV3Props) {
               {t('eyebrow')}
             </p>
 
-            {/* Headline at editorial billboard scale. Cream on teal. */}
-            <h1 className="hv3-anim-fade-up hv3-anim-d2 mt-6 md:mt-8 font-lcsDisplay font-bold text-lcs-cream leading-[1.08] tracking-tight text-[3rem] sm:text-[4rem] md:text-[5rem] lg:text-[5.75rem] xl:text-[6.5rem]">
+            {/* Brand tagline at editorial billboard scale (H2). Cream on teal.
+                Was H1 until the 2026-05-27 SEO audit flagged the H1/H2
+                inversion: brand voice as H1 squandered the page's strongest
+                topic-signal slot. Demoted to H2 here; squiggle styling +
+                billboard typography preserved so the tagline remains the
+                visually dominant surface above the fold (Option (a) — pure
+                tag swap, no visual reshuffle). */}
+            <h2 className="hv3-anim-fade-up hv3-anim-d2 mt-6 md:mt-8 font-lcsDisplay font-bold text-lcs-cream leading-[1.08] tracking-tight text-[3rem] sm:text-[4rem] md:text-[5rem] lg:text-[5.75rem] xl:text-[6.5rem]">
               <span className="block">
                 {t('h1Line1Before')}<span className="inline-block whitespace-nowrap"><span className="hv3-squiggle-word-on-dark">{t('h1Line1Squiggle')}</span>{t('h1Line1After')}</span>
               </span>
               <span className="block text-lcs-coral mt-3 md:mt-4">
                 {t('h1Line2')}
               </span>
-            </h1>
-
-            {/* Keyword-bearing H2 — mirrors the homepage.meta.title per locale
-                so Google sees the same descriptive phrase in <title>, meta
-                description, and on-page heading. Brand voice stays in the H1
-                above; this H2 carries the search-intent signal. Added 2026-05
-                as Task C of the SEO cleanup follow-on commission. */}
-            <h2 className="hv3-anim-fade-up hv3-anim-d3 mt-5 md:mt-6 font-lcsDisplay font-semibold text-lcs-cream/90 leading-snug text-xl sm:text-2xl md:text-3xl max-w-xl">
-              {t('keywordHeading')}
             </h2>
+
+            {/* Keyword-bearing H1 — the single page H1 carrying the
+                topic-signal Google + Bing weight most heavily. Mirrors the
+                homepage.meta.title per locale so <title>, meta description,
+                and on-page H1 align on the same descriptive phrase. EN ships
+                fresh keyword-rich copy ("Free K-3 printable worksheets and
+                interactive activities in 11 languages"); the 10 non-EN
+                locales ship with the prior keywordHeading value as a
+                provisional bridge — per-locale NEW H1 recreation is queued
+                as 10 follow-up commissions per CLAUDE.md §A.13.48. */}
+            <h1 className="hv3-anim-fade-up hv3-anim-d3 mt-5 md:mt-6 font-lcsDisplay font-semibold text-lcs-cream/90 leading-snug text-xl sm:text-2xl md:text-3xl max-w-xl">
+              {t('h1')}
+            </h1>
 
             <p className="hv3-anim-fade-up hv3-anim-d3 mt-5 md:mt-6 font-lcsBody text-lg md:text-xl text-lcs-cream/85 leading-relaxed max-w-xl">
               {t('body')}

@@ -1129,6 +1129,10 @@
       "for": "pour",
       "print_or_play_online": "Imprimer ou jouer en ligne",
       "variant_label": "Série"
+    },
+    "deckCardAlt": {
+      "withTheme": "Aperçu de la fiche {exerciseType} avec {theme} pour {level}",
+      "withoutTheme": "Aperçu de la fiche {exerciseType} pour {level}"
     }
   },
   "endDeck": {
@@ -1158,7 +1162,11 @@
     "deckCard": {
       "playLink": "Jouer en ligne",
       "pdfLink": "Imprimer le PDF",
-      "answerKeyLink": "Corrigé"
+      "answerKeyLink": "Corrigé",
+      "ariaThumbnail": "Ouvrir {title}",
+      "ariaPlay": "Jouer à {title} — fiche interactive",
+      "ariaPdf": "Télécharger le PDF imprimable — {title}",
+      "ariaAnswerKey": "Télécharger le corrigé — {title}"
     },
     "emptyState": {
       "heading": "Aucune fiche ne correspond à ces filtres.",
@@ -1435,6 +1443,7 @@
   "homepageV3": {
     "hero": {
       "eyebrow": "Maternelle au CE2 · Conforme aux programmes · Onze langues",
+      "h1": "Fiches K-3 gratuites en 11 langues",
       "keywordHeading": "Fiches K-3 gratuites en 11 langues",
       "h1Line1Before": "Ça se joue comme un ",
       "h1Line1Squiggle": "jeu",

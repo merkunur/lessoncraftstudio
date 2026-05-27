@@ -328,16 +328,27 @@ async function publish(opts) {
   }
 
   // Step 5: asset placement (writes to disk; atomic symlink swap; chown; prune).
+  //
+  // PDF filename convention (post external SEO audit 2026-05-27, third audit):
+  // PDFs ship under slug-based filenames `<slug>-printable.pdf` and
+  // `<slug>-answer-key.pdf` rather than the legacy generic `printable.pdf` /
+  // `answer-key.pdf`. Google reads the filename in the URL path as a ranking
+  // signal; descriptive filename reinforces the keyword path. Nginx 301
+  // redirects the legacy filenames → new pattern at the server boundary so
+  // existing Google-indexed links + teacher embeds keep working. Per plan
+  // .claude/plans/heading-structure-audit-critical-eager-dongarra.md Phase 2.
+  var printablePdfName = slug + '-printable.pdf';
+  var answerKeyPdfName = slug + '-answer-key.pdf';
   var assets = {
     'manifest.json': JSON.stringify(manifest, null, 2),
     'deck.html': subResult.html,
-    'printable.pdf': enhancedPrintable,
-    'answer-key.pdf': enhancedAnswerKey,
     'thumbnail.png': thumbnailBuffer,
     'og-image.png': ogBuffer
   };
+  assets[printablePdfName] = enhancedPrintable;
+  assets[answerKeyPdfName] = enhancedAnswerKey;
   // Drop null answer-key.
-  if (!assets['answer-key.pdf']) delete assets['answer-key.pdf'];
+  if (!assets[answerKeyPdfName]) delete assets[answerKeyPdfName];
 
   var placeResult;
   try {
@@ -371,8 +382,8 @@ async function publish(opts) {
         subjectTags: subjectTagsForUpdate,
         ageRange: '5-7',  // TODO: derive from taxonomy.appConfig per app
         htmlUrl: canonicalURL + 'deck.html',
-        pdfUrl: canonicalURL + 'printable.pdf',
-        answerKeyUrl: assets['answer-key.pdf'] ? canonicalURL + 'answer-key.pdf' : null,
+        pdfUrl: canonicalURL + printablePdfName,
+        answerKeyUrl: assets[answerKeyPdfName] ? canonicalURL + answerKeyPdfName : null,
         thumbnailUrl: canonicalURL + 'thumbnail.png',
         manifestUrl: canonicalURL + 'manifest.json',
         // [ARC][SEO][DECK-PAGE] Phase 3a.1 Checkpoint 2: persist SEO hashes
@@ -406,8 +417,8 @@ async function publish(opts) {
         topicSlugs: [],   // future amendment to derive from taxonomy
         ageRange: ageRange,
         htmlUrl: canonicalURL + 'deck.html',
-        pdfUrl: canonicalURL + 'printable.pdf',
-        answerKeyUrl: assets['answer-key.pdf'] ? canonicalURL + 'answer-key.pdf' : null,
+        pdfUrl: canonicalURL + printablePdfName,
+        answerKeyUrl: assets[answerKeyPdfName] ? canonicalURL + answerKeyPdfName : null,
         thumbnailUrl: canonicalURL + 'thumbnail.png',
         manifestUrl: canonicalURL + 'manifest.json',
         createdBy: createdBy,

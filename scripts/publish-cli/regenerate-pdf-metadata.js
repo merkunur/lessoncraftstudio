@@ -138,14 +138,25 @@ async function processOneDeck(rootDir, locale, entry, args) {
   var slug = entry.slug;
 
   var manifestPath = path.join(versionDir, 'manifest.json');
-  var printablePath = path.join(versionDir, 'printable.pdf');
-  var answerKeyPath = path.join(versionDir, 'answer-key.pdf');
+  // Filename convention: new slug-based per external SEO audit (2026-05-27);
+  // legacy generic name retained as fallback for transitional period when
+  // some deck dirs may not have been renamed yet by rename-pdf-files.js.
+  var printableSlugPath = path.join(versionDir, slug + '-printable.pdf');
+  var printableLegacyPath = path.join(versionDir, 'printable.pdf');
+  var answerKeySlugPath = path.join(versionDir, slug + '-answer-key.pdf');
+  var answerKeyLegacyPath = path.join(versionDir, 'answer-key.pdf');
+  var printablePath = fs.existsSync(printableSlugPath)
+    ? printableSlugPath
+    : printableLegacyPath;
+  var answerKeyPath = fs.existsSync(answerKeySlugPath)
+    ? answerKeySlugPath
+    : answerKeyLegacyPath;
 
   if (!fs.existsSync(manifestPath)) {
     return { ok: false, slug: slug, reason: 'no manifest.json' };
   }
   if (!fs.existsSync(printablePath)) {
-    return { ok: false, slug: slug, reason: 'no printable.pdf' };
+    return { ok: false, slug: slug, reason: 'no printable.pdf (tried slug-based + legacy)' };
   }
 
   var manifest;

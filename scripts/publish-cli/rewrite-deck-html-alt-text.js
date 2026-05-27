@@ -85,6 +85,28 @@ var TWITTER_META_ALT_REGEX = /(<meta\s+name="twitter:image:alt"\s+content=)"[^"]
 // Match `"caption":"…"` inside the image object — the schema fragment varies
 // but the caption always appears as a JSON string value.
 var JSONLD_CAPTION_REGEX = /("caption"\s*:\s*)"[^"]*"/g;
+
+// R6: <section class="lcs-sr" aria-label="Worksheet questions"> — the
+// hardcoded English literal leaks onto all 10 non-EN locales because the
+// worksheet-generator app's per-app t() function resolves to operator UI
+// locale (often EN) instead of deck content language. Surfaced by
+// verify-alt-text-coverage 2026-05-28 on /fi/ + /es/ FORBIDDEN_FROM_OTHERS
+// cross-locale-leak check. Fix at retrofit time per deck's manifest.language;
+// forward path requires per-app codemod (separate follow-up commission).
+var SR_WORKSHEET_QUESTIONS_REGEX = /(<section\s+class="lcs-sr"\s+aria-label=)"Worksheet questions"/g;
+var SR_WORKSHEET_QUESTIONS_BY_LOCALE = {
+  en: 'Worksheet questions',
+  de: 'Arbeitsblatt-Fragen',
+  fr: 'Questions de la fiche',
+  es: 'Preguntas de la hoja',
+  pt: 'Perguntas da ficha',
+  it: 'Domande della scheda',
+  nl: 'Werkbladvragen',
+  sv: 'Arbetsbladsfrågor',
+  da: 'Arbejdsarkets spørgsmål',
+  no: 'Arbeidsarkets spørsmål',
+  fi: 'Tehtäväarkin kysymykset',
+};
 var CELEBRATION_REPLACEMENT_PREFIX = '$1alt=\\"';
 var CELEBRATION_REPLACEMENT_SUFFIX = '\\"$2';
 // The runtime alt resolution per Phase 2 codemod:
@@ -127,13 +149,14 @@ function parseArgs(argv) {
 // Per-deck classifier (Phase 1 — no writes)
 // ============================================================
 
-function classify(htmlText) {
+function classify(htmlText, language) {
   var report = {
     r1Applies: false, r1AlreadyDone: false,
     r2Applies: false, r2AlreadyDone: false,
     r3Applies: 0, r3AlreadyDone: false,
     r4Applies: false, r4AlreadyDone: false,
     r5Applies: false, r5AlreadyDone: false,
+    r6Applies: false, r6AlreadyDone: false,
     notes: []
   };
 
@@ -183,6 +206,17 @@ function classify(htmlText) {
     report.r5Applies = true;
   }
 
+  // R6 check — sr-only section aria-label leak. Only applies to non-EN decks
+  // (EN literal is correct on en pages). Already-done state: the section
+  // aria-label is the locale-correct value, not the English literal.
+  if (language && language !== 'en') {
+    if (/class="lcs-sr"\s+aria-label="Worksheet questions"/.test(htmlText)) {
+      report.r6Applies = true;
+    } else if (/class="lcs-sr"\s+aria-label="[^"]+"/.test(htmlText)) {
+      report.r6AlreadyDone = true;
+    }
+  }
+
   return report;
 }
 
@@ -190,7 +224,7 @@ function classify(htmlText) {
 // Per-deck rewrite (Phase 2 — applies all 4 rewrites)
 // ============================================================
 
-function rewriteHtml(htmlText, deckId) {
+function rewriteHtml(htmlText, deckId, language) {
   var changes = [];
 
   // R1: inject role + aria-label placeholder on <main>
@@ -247,6 +281,14 @@ function rewriteHtml(htmlText, deckId) {
     r5Hits++;
   }
   if (r5Hits > 0) changes.push('R5(' + r5Hits + ')');
+
+  // R6: sr-only section aria-label leak — replace "Worksheet questions"
+  // English literal with locale-correct value from SR_WORKSHEET_QUESTIONS_BY_LOCALE.
+  if (language && language !== 'en' && SR_WORKSHEET_QUESTIONS_REGEX.test(htmlText)) {
+    var localized = SR_WORKSHEET_QUESTIONS_BY_LOCALE[language] || SR_WORKSHEET_QUESTIONS_BY_LOCALE.en;
+    htmlText = htmlText.replace(SR_WORKSHEET_QUESTIONS_REGEX, '$1"' + localized + '"');
+    changes.push('R6');
+  }
 
   return { html: htmlText, changes: changes };
 }
@@ -315,16 +357,16 @@ async function processDeck(deckDir, slug, language, opts) {
     return { skip: 'deck.html missing', deckDir: deckDir };
   }
   var raw = fs.readFileSync(htmlPath, 'utf8');
-  var classified = classify(raw);
+  var classified = classify(raw, language);
 
   // Skip if everything already done
   var allDone = !classified.r1Applies && !classified.r2Applies && classified.r3Applies === 0
-    && !classified.r4Applies && !classified.r5Applies;
+    && !classified.r4Applies && !classified.r5Applies && !classified.r6Applies;
   if (allDone) {
     return { idempotent: true, deckDir: deckDir, classified: classified };
   }
 
-  var rewritten = rewriteHtml(raw, slug);
+  var rewritten = rewriteHtml(raw, slug, language);
   var finalHtml = rewritten.html;
 
   if (!opts.skipSubstitute) {

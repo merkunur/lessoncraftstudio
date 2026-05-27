@@ -71,6 +71,19 @@ var DECKEND_THUMB_ALT_EMPTY_REGEX = /(<img\s+src="[^"]*"\s+)alt=""(\s+class="lcs
 // R4: celebration mini img with hardcoded English literal
 // Matches the JS-string template inside showCelebration()
 var CELEBRATION_LITERAL_REGEX = /(<img class=\\"lcs-mini\\" )alt=\\"Your completed worksheet\\"(\s+src=)/g;
+
+// R5: og:image:alt + twitter:image:alt + Schema.org image.caption — these
+// were substituted at ORIGINAL publish time with the old title-mirror value
+// per pre-commission substitute.js logic. To allow re-substitution with the
+// new composeOgImageAlt formula, reset their content back to the
+// __OG_IMAGE_ALT__ placeholder. substitute.apply() then fills with the
+// composed locale-correct rich alt.
+var OG_META_ALT_REGEX = /(<meta\s+property="og:image:alt"\s+content=)"[^"]*"/g;
+var TWITTER_META_ALT_REGEX = /(<meta\s+name="twitter:image:alt"\s+content=)"[^"]*"/g;
+// JSON-LD caption field inside the <script type="application/ld+json"> block.
+// Match `"caption":"…"` inside the image object — the schema fragment varies
+// but the caption always appears as a JSON string value.
+var JSONLD_CAPTION_REGEX = /("caption"\s*:\s*)"[^"]*"/g;
 var CELEBRATION_REPLACEMENT_PREFIX = '$1alt=\\"';
 var CELEBRATION_REPLACEMENT_SUFFIX = '\\"$2';
 // The runtime alt resolution per Phase 2 codemod:
@@ -119,6 +132,7 @@ function classify(htmlText) {
     r2Applies: false, r2AlreadyDone: false,
     r3Applies: 0, r3AlreadyDone: false,
     r4Applies: false, r4AlreadyDone: false,
+    r5Applies: false, r5AlreadyDone: false,
     notes: []
   };
 
@@ -157,6 +171,15 @@ function classify(htmlText) {
     report.r4Applies = true;
   } else if (htmlText.indexOf('window.translations[(DECK_BUNDLE&&DECK_BUNDLE.contentLanguage)') !== -1) {
     report.r4AlreadyDone = true;
+  }
+
+  // R5 check — meta-tag alt-text was substituted at original publish time
+  // (pre-commission code used title-mirror; we need to reset to placeholder
+  // so substitute.apply() can re-fill with the new composeOgImageAlt formula).
+  if (/<meta\s+property="og:image:alt"\s+content="__OG_IMAGE_ALT__"/.test(htmlText)) {
+    report.r5AlreadyDone = true;
+  } else if (/<meta\s+property="og:image:alt"\s+content="[^"]+"/.test(htmlText)) {
+    report.r5Applies = true;
   }
 
   return report;
@@ -203,6 +226,26 @@ function rewriteHtml(htmlText, deckId) {
     );
     changes.push('R4');
   }
+
+  // R5: reset og:image:alt + twitter:image:alt + JSON-LD caption back to
+  // __OG_IMAGE_ALT__ placeholder so substitute.apply() can re-fill with the
+  // composeOgImageAlt formula. Pre-commission code substituted these to the
+  // title-mirror value at original publish; the placeholder needs to be
+  // restored for re-substitution to take effect.
+  var r5Hits = 0;
+  if (OG_META_ALT_REGEX.test(htmlText)) {
+    htmlText = htmlText.replace(OG_META_ALT_REGEX, '$1"__OG_IMAGE_ALT__"');
+    r5Hits++;
+  }
+  if (TWITTER_META_ALT_REGEX.test(htmlText)) {
+    htmlText = htmlText.replace(TWITTER_META_ALT_REGEX, '$1"__OG_IMAGE_ALT__"');
+    r5Hits++;
+  }
+  if (JSONLD_CAPTION_REGEX.test(htmlText)) {
+    htmlText = htmlText.replace(JSONLD_CAPTION_REGEX, '$1"__OG_IMAGE_ALT__"');
+    r5Hits++;
+  }
+  if (r5Hits > 0) changes.push('R5(' + r5Hits + ')');
 
   return { html: htmlText, changes: changes };
 }
@@ -260,7 +303,8 @@ function processDeck(deckDir, slug, opts) {
   var classified = classify(raw);
 
   // Skip if everything already done
-  var allDone = !classified.r1Applies && !classified.r2Applies && classified.r3Applies === 0 && !classified.r4Applies;
+  var allDone = !classified.r1Applies && !classified.r2Applies && classified.r3Applies === 0
+    && !classified.r4Applies && !classified.r5Applies;
   if (allDone) {
     return { idempotent: true, deckDir: deckDir, classified: classified };
   }

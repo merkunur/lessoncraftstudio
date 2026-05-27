@@ -39,11 +39,11 @@
   },
   "homepage": {
     "meta": {
-      "title": "Gratis K-3 arbejdsark på 11 sprog",
-      "description": "Gratis printbare og interaktive K-3 arbejdsark på elleve sprog — fonologisk bevidsthed, matematik, ordforråd. Til tosprogede og internationale klasseværelser.",
-      "ogTitle": "LessonCraftStudio — K-3 arbejdsark på dit andetsprog.",
-      "ogDescription": "Fonologisk bevidsthed, matematik, ordforråd. Printbare PDF'er og spilbare aktiviteter i browseren. Til tosprogede og internationale klasseværelser.",
-      "ogAlt": "LessonCraftStudio — K-3 arbejdsark og aktiviteter på 11 sprog"
+      "title": "Gratis arbejdsark og opgaver til print, børnehave til 3. klasse — på 11 sprog",
+      "description": "Gratis arbejdsark til print og interaktive opgaver for børnehave og 1.-3. klasse — matematik, læsning, ordforråd. Tilpasset Fælles Mål. Ingen tilmelding.",
+      "ogTitle": "LessonCraftStudio — Gratis arbejdsark til print og interaktive opgaver for børnehave til 3. klasse — på 11 sprog.",
+      "ogDescription": "Fonologisk opmærksomhed, matematik, ordforråd. Gratis arbejdsark til print og interaktive opgaver. Til tosprogede og internationale klasseværelser — ingen tilmelding.",
+      "ogAlt": "LessonCraftStudio — arbejdsark til print og interaktive opgaver for børnehave til 3. klasse — på 11 sprog"
     },
     "hero": {
       "title": "Arbejdsark på flere sprog, printbare og interaktive.",
@@ -1420,7 +1420,7 @@
   "homepageV3": {
     "hero": {
       "eyebrow": "Fra børnehave til 3. klasse · Tilpasset Fælles Mål · Elleve sprog",
-      "h1": "Gratis K-3 arbejdsark på 11 sprog",
+      "h1": "Gratis arbejdsark til print og interaktive opgaver for børnehave til 3. klasse — på 11 sprog",
       "keywordHeading": "Gratis K-3 arbejdsark på 11 sprog",
       "h1Line1Before": "Spilles som et ",
       "h1Line1Squiggle": "spil",

@@ -260,6 +260,24 @@ async function getIntersectionProse(locale: string, axisKey1: string, axisKey2: 
 }
 
 /**
+ * Resolve purpose-built SEO meta description for the (a1, a2) intersection
+ * from the topicMeta namespace. Same alphabetic-key convention as prose.
+ * Returns null when no entry — chain falls through to prose first-sentence,
+ * then template fallback. Authored per §A.13.48 cadence.
+ */
+async function getIntersectionMeta(locale: string, axisKey1: string, axisKey2: string): Promise<string | null> {
+  try {
+    const tm = await getTranslations({ locale, namespace: 'topicMeta' });
+    const sorted = [axisKey1, axisKey2].sort().join('__');
+    const v = tm(sorted);
+    if (!v || v === sorted) return null;
+    return v;
+  } catch {
+    return null;
+  }
+}
+
+/**
  * Extract first sentence from prose for use as meta description (mirrors
  * the single-axis topic page helper for consistency).
  */
@@ -308,11 +326,15 @@ export async function generateMetadata({
 
   const canonical = canonicalUrl(localePath(locale, 'topic', params.slug, params.secondary));
 
-  // Prefer intersection prose first sentence as meta description (per §16.7.2
-  // alphabetic-key lookup). Falls back to template for long-tail intersections.
+  // Description chain (3 levels, most specific to most generic):
+  //   1. topicMeta.<a1>__<a2>          — alphabetic-key, purpose-built SEO copy
+  //   2. firstSentenceOf(topicProse)   — first sentence of authored prose
+  //   3. topicPage.meta.description    — ICU template fallback
+  // Cross-reference single-axis page.tsx comment for arc context.
+  const intersectionMeta = await getIntersectionMeta(locale, axisKey1, axisKey2);
   const intersectionProse = await getIntersectionProse(locale, axisKey1, axisKey2);
   const prosePreview = firstSentenceOf(intersectionProse, 155);
-  const description = prosePreview ?? t('description', { topic: compositeName });
+  const description = intersectionMeta ?? prosePreview ?? t('description', { topic: compositeName });
 
   return {
     title: t('title', { topic: compositeName }),

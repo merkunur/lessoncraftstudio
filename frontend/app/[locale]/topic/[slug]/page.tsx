@@ -180,6 +180,23 @@ async function getTopicProse(locale: string, axisKey: string): Promise<string | 
   }
 }
 
+/**
+ * Resolve purpose-built SEO meta description from the topicMeta namespace.
+ * Authored per (axis-key, locale) as tight 120-170 char copy. Returns null
+ * when no entry — falls through to topicProse first-sentence, then template
+ * fallback per generateMetadata description chain.
+ */
+async function getTopicMeta(locale: string, axisKey: string): Promise<string | null> {
+  try {
+    const tm = await getTranslations({ locale, namespace: 'topicMeta' });
+    const v = tm(axisKey);
+    if (!v || v === axisKey) return null;
+    return v;
+  } catch {
+    return null;
+  }
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -206,12 +223,18 @@ export async function generateMetadata({
   const canonical = canonicalUrl(localePath(locale, 'topic', params.slug));
   const otherSiblings = siblings.filter(s => s.locale !== locale);
 
-  // Prefer topicProse first sentence as meta description (per CLAUDE.md §17.4
-  // content-depth doctrine + §16.7.1 fallback chain). Falls back to template
-  // for long-tail axis-keys without authored prose.
+  // Description chain (3 levels, most specific to most generic):
+  //   1. topicMeta.<axisKey>           — purpose-built 120-170 char SEO copy
+  //   2. firstSentenceOf(topicProse)   — first sentence of authored prose
+  //   3. topicPage.meta.description    — ICU template fallback
+  // The topicMeta layer was added 2026-05-28 to close the cannibalization
+  // gap where most axis-keys (no topicProse authored) hit the identical
+  // ~95-char template per §17.4. Authored per-locale × per-axis-cohort via
+  // the §A.13.48 plan-mode-per-locale + 3-agent ensemble cadence.
+  const meta = await getTopicMeta(locale, axisKey);
   const prose = await getTopicProse(locale, axisKey);
   const prosePreview = firstSentenceOf(prose, 155);
-  const description = prosePreview ?? t('description', { topic: topicName });
+  const description = meta ?? prosePreview ?? t('description', { topic: topicName });
 
   return {
     title: t('title', { topic: topicName }),

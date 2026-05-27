@@ -127,7 +127,14 @@ const SHARED_TRANSLATIONS = {
     // celebrationMiniAlt drives the celebration mini worksheet image alt
     // (was hardcoded English "Your completed worksheet" pre-commission).
     "iframeEmbedTitle": "{deckTitle} — interactive worksheet from LessonCraftStudio",
-    "celebrationMiniAlt": "Your completed worksheet"
+    "celebrationMiniAlt": "Your completed worksheet",
+    // sr-only section aria-label on <section class="lcs-sr"> — was per-app
+    // (only en+de authored) so 9 locales fell through to English literal
+    // "Worksheet questions" via the worksheet-generator app's t() lookup
+    // resolving to operator UI locale not deck content language.
+    // Promoted to shared per §14.3a (23 consumers). Verify-alt-text-coverage
+    // 2026-05-28 surfaced the empirical leak on /fi/ deck.
+    "srWorksheetQuestions": "Worksheet questions"
   },
   "de": {
     "srShapeSquare": "Quadrat",
@@ -196,7 +203,8 @@ const SHARED_TRANSLATIONS = {
     "jpegImage": "JPEG-Bild",
     "grayscale": "Graustufen",
     "iframeEmbedTitle": "{deckTitle} — interaktives Arbeitsblatt von LessonCraftStudio",
-    "celebrationMiniAlt": "Dein ausgefülltes Arbeitsblatt"
+    "celebrationMiniAlt": "Dein ausgefülltes Arbeitsblatt",
+    "srWorksheetQuestions": "Arbeitsblatt-Fragen"
   },
 
   // Tier-1+2 + Tier-4 Romance locales — operator-best-effort embed authoring
@@ -243,7 +251,8 @@ const SHARED_TRANSLATIONS = {
     "jpegImage": "Imagen JPEG",
     "grayscale": "Escala de grises",
     "iframeEmbedTitle": "{deckTitle} — hoja interactiva de LessonCraftStudio",
-    "celebrationMiniAlt": "Tu hoja de ejercicios completada"
+    "celebrationMiniAlt": "Tu hoja de ejercicios completada",
+    "srWorksheetQuestions": "Preguntas de la hoja"
   },
   "nl": {
     "embedHeader": "Dit werkblad op je site insluiten",
@@ -285,7 +294,8 @@ const SHARED_TRANSLATIONS = {
     "jpegImage": "JPEG-afbeelding",
     "grayscale": "Grijswaarden",
     "iframeEmbedTitle": "{deckTitle} — interactief werkblad van LessonCraftStudio",
-    "celebrationMiniAlt": "Jouw voltooide werkblad"
+    "celebrationMiniAlt": "Jouw voltooide werkblad",
+    "srWorksheetQuestions": "Werkbladvragen"
   },
   "fr": {
     "embedHeader": "Intégrer cette fiche sur votre site",
@@ -327,7 +337,8 @@ const SHARED_TRANSLATIONS = {
     "jpegImage": "Image JPEG",
     "grayscale": "Niveaux de gris",
     "iframeEmbedTitle": "{deckTitle} — fiche interactive de LessonCraftStudio",
-    "celebrationMiniAlt": "Ta fiche d'exercices terminée"
+    "celebrationMiniAlt": "Ta fiche d'exercices terminée",
+    "srWorksheetQuestions": "Questions de la fiche"
   },
   "it": {
     "embedHeader": "Incorpora questa scheda sul tuo sito",
@@ -369,7 +380,8 @@ const SHARED_TRANSLATIONS = {
     "jpegImage": "Immagine JPEG",
     "grayscale": "Scala di grigi",
     "iframeEmbedTitle": "{deckTitle} — scheda interattiva di LessonCraftStudio",
-    "celebrationMiniAlt": "La tua scheda di esercizi completata"
+    "celebrationMiniAlt": "La tua scheda di esercizi completata",
+    "srWorksheetQuestions": "Domande della scheda"
   },
   "pt": {
     // Brazilian Portuguese canonical per §6 (single 'pt' locale code; BR register).
@@ -412,7 +424,8 @@ const SHARED_TRANSLATIONS = {
     "jpegImage": "Imagem JPEG",
     "grayscale": "Escala de cinza",
     "iframeEmbedTitle": "{deckTitle} — ficha interativa do LessonCraftStudio",
-    "celebrationMiniAlt": "Sua folha de exercícios concluída"
+    "celebrationMiniAlt": "Sua folha de exercícios concluída",
+    "srWorksheetQuestions": "Perguntas da ficha"
   },
 
   // Nordic locales — operator-best-effort embed authoring + NSR-flagged
@@ -462,7 +475,8 @@ const SHARED_TRANSLATIONS = {
     "jpegImage": "JPEG-bild",
     "grayscale": "Gråskala",
     "iframeEmbedTitle": "{deckTitle} — interaktivt arbetsblad från LessonCraftStudio",
-    "celebrationMiniAlt": "Ditt klara arbetsblad"
+    "celebrationMiniAlt": "Ditt klara arbetsblad",
+    "srWorksheetQuestions": "Arbetsbladsfrågor"
   },
   "da": {
     "embedHeader": "Indlejr dette arbejdsark på dit websted",
@@ -507,7 +521,8 @@ const SHARED_TRANSLATIONS = {
     "jpegImage": "JPEG-billede",
     "grayscale": "Gråtoner",
     "iframeEmbedTitle": "{deckTitle} — interaktivt arbejdsark fra LessonCraftStudio",
-    "celebrationMiniAlt": "Dit færdige arbejdsark"
+    "celebrationMiniAlt": "Dit færdige arbejdsark",
+    "srWorksheetQuestions": "Arbejdsarkets spørgsmål"
   },
   "no": {
     // Bokmål canonical per §6 (single 'no' locale code).
@@ -553,7 +568,8 @@ const SHARED_TRANSLATIONS = {
     "jpegImage": "JPEG-bilde",
     "grayscale": "Gråtoner",
     "iframeEmbedTitle": "{deckTitle} — interaktivt arbeidsark fra LessonCraftStudio",
-    "celebrationMiniAlt": "Ditt ferdige arbeidsark"
+    "celebrationMiniAlt": "Ditt ferdige arbeidsark",
+    "srWorksheetQuestions": "Arbeidsarkets spørsmål"
   },
   "fi": {
     "embedHeader": "Upota tämä työarkki sivustollesi",
@@ -598,7 +614,8 @@ const SHARED_TRANSLATIONS = {
     "jpegImage": "JPEG-kuva",
     "grayscale": "Harmaasävy",
     "iframeEmbedTitle": "{deckTitle} — interaktiivinen tehtäväarkki LessonCraftStudio-palvelusta",
-    "celebrationMiniAlt": "Valmis tehtäväarkkisi"
+    "celebrationMiniAlt": "Valmis tehtäväarkkisi",
+    "srWorksheetQuestions": "Tehtäväarkin kysymykset"
   }
 };
 

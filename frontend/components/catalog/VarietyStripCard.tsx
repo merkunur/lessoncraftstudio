@@ -10,6 +10,13 @@
 interface VarietyStripCardProps {
   deckUrl: string;
   title: string;
+  /**
+   * Optional richer alt text per the 2026-05-27 SEO audit. When omitted
+   * (e.g., cross-locale variety strips where the deck's content language
+   * differs from the page locale, so a current-locale alt would mismatch
+   * the displayed title), the card falls back to the bare title.
+   */
+  richAlt?: string;
   thumbnailUrl: string;
   languageLabel: string;
   languageAriaLabel: string;
@@ -18,6 +25,7 @@ interface VarietyStripCardProps {
 export default function VarietyStripCard({
   deckUrl,
   title,
+  richAlt,
   thumbnailUrl,
   languageLabel,
   languageAriaLabel,
@@ -27,7 +35,7 @@ export default function VarietyStripCard({
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={thumbnailUrl}
-        alt={title}
+        alt={richAlt ?? title}
         width={480}
         height={620}
         loading="lazy"

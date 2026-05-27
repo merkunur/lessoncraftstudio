@@ -1109,6 +1109,10 @@
       "for": "för",
       "print_or_play_online": "Skriv ut eller spela online",
       "variant_label": "Set"
+    },
+    "deckCardAlt": {
+      "withTheme": "Förhandsvisning av {exerciseType}-arbetsblad med {theme} för {level}",
+      "withoutTheme": "Förhandsvisning av {exerciseType}-arbetsblad för {level}"
     }
   },
   "endDeck": {
@@ -1138,7 +1142,11 @@
     "deckCard": {
       "playLink": "Spela online",
       "pdfLink": "Skriv ut PDF",
-      "answerKeyLink": "Facit"
+      "answerKeyLink": "Facit",
+      "ariaThumbnail": "Öppna {title}",
+      "ariaPlay": "Spela {title} — interaktivt arbetsblad",
+      "ariaPdf": "Ladda ner utskrivbar PDF — {title}",
+      "ariaAnswerKey": "Ladda ner facit — {title}"
     },
     "emptyState": {
       "heading": "Inga arbetsblad matchar dessa filter.",
@@ -1415,6 +1423,7 @@
   "homepageV3": {
     "hero": {
       "eyebrow": "F-3 · Anpassad till Lgr22 · Elva språk",
+      "h1": "Gratis F-3 arbetsblad på 11 språk",
       "keywordHeading": "Gratis F-3 arbetsblad på 11 språk",
       "h1Line1Before": "Lika kul som ett ",
       "h1Line1Squiggle": "spel",

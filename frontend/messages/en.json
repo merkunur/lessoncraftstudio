@@ -830,6 +830,10 @@
       "for": "for",
       "print_or_play_online": "Print or play online",
       "variant_label": "Set"
+    },
+    "deckCardAlt": {
+      "withTheme": "Preview of {exerciseType} worksheet featuring {theme} for {level}",
+      "withoutTheme": "Preview of {exerciseType} worksheet for {level}"
     }
   },
   "endDeck": {
@@ -923,7 +927,11 @@
     "deckCard": {
       "playLink": "Play online",
       "pdfLink": "Print PDF",
-      "answerKeyLink": "Answer key"
+      "answerKeyLink": "Answer key",
+      "ariaThumbnail": "Open {title}",
+      "ariaPlay": "Play {title} — interactive worksheet",
+      "ariaPdf": "Download printable PDF — {title}",
+      "ariaAnswerKey": "Download answer key — {title}"
     },
     "emptyState": {
       "heading": "No worksheets match these filters.",
@@ -1136,6 +1144,7 @@
   "homepageV3": {
     "hero": {
       "eyebrow": "K-3 Common Core · Eleven languages",
+      "h1": "Free K-3 printable worksheets and interactive activities in 11 languages",
       "keywordHeading": "Free K-3 worksheets and activities in 11 languages",
       "h1Line1Before": "Plays like a ",
       "h1Line1Squiggle": "game",

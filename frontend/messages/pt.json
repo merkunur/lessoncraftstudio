@@ -1122,6 +1122,10 @@
       "for": "para",
       "print_or_play_online": "Imprima ou jogue online",
       "variant_label": "Conjunto"
+    },
+    "deckCardAlt": {
+      "withTheme": "Pré-visualização da ficha de {exerciseType} com {theme} para {level}",
+      "withoutTheme": "Pré-visualização da ficha de {exerciseType} para {level}"
     }
   },
   "endDeck": {
@@ -1151,7 +1155,11 @@
     "deckCard": {
       "playLink": "Jogar online",
       "pdfLink": "Imprimir PDF",
-      "answerKeyLink": "Respostas"
+      "answerKeyLink": "Respostas",
+      "ariaThumbnail": "Abrir {title}",
+      "ariaPlay": "Jogar {title} — ficha interativa",
+      "ariaPdf": "Baixar PDF imprimível — {title}",
+      "ariaAnswerKey": "Baixar gabarito — {title}"
     },
     "emptyState": {
       "heading": "Nenhuma ficha corresponde a esses filtros.",
@@ -1428,6 +1436,7 @@
   "homepageV3": {
     "hero": {
       "eyebrow": "Educação infantil e anos iniciais · Alinhado à BNCC · Onze idiomas",
+      "h1": "Fichas K-3 grátis em 11 idiomas",
       "keywordHeading": "Fichas K-3 grátis em 11 idiomas",
       "h1Line1Before": "Diverte como um ",
       "h1Line1Squiggle": "jogo",

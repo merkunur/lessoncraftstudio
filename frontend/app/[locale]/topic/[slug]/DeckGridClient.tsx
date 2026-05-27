@@ -22,6 +22,14 @@ export interface TopicDeckCardData {
   slug: string;
   language: string;
   title: string;
+  /**
+   * Richer image-search-friendly alt text composed server-side by
+   * `buildDeckRichAlt` (frontend/lib/deck-seo.ts) from the deck's
+   * exercise-type + theme + educational-level taxonomy entries. Falls
+   * back to the bare title when taxonomy lookup fails. Added 2026-05-27
+   * per external SEO audit (image-search query alignment).
+   */
+  richAlt: string;
   href: string;
   thumbnailUrl: string;
   pdfUrl: string;
@@ -42,6 +50,12 @@ export default function DeckGridClient({
   labels,
 }: DeckGridClientProps) {
   const t = useTranslations('bulk');
+  // Per-deck-card aria-labels for the thumbnail link, Play link, PDF link,
+  // and answer-key link. Same-card surfaces all link to different resources;
+  // without aria-labels screen readers and image-search crawlers can't
+  // disambiguate "PDF" vs "answer key" vs "play" on the same card. Added
+  // 2026-05-27 per external SEO audit (accessibility + image-search SEO).
+  const tCard = useTranslations('topicPage.deckCard');
 
   const [bulkMode, setBulkMode] = useState(false);
   const [selectedDeckIds, setSelectedDeckIds] = useState<Set<string>>(new Set());
@@ -156,12 +170,13 @@ export default function DeckGridClient({
                 <button
                   type="button"
                   onClick={() => toggleDeckSelection(deck.id)}
+                  aria-label={tCard('ariaThumbnail', { title: deck.title })}
                   className="block w-full text-left"
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={deck.thumbnailUrl}
-                    alt={deck.title}
+                    alt={deck.richAlt}
                     width={480}
                     height={620}
                     loading="lazy"
@@ -169,11 +184,15 @@ export default function DeckGridClient({
                   />
                 </button>
               ) : (
-                <a href={deck.href} className="block">
+                <a
+                  href={deck.href}
+                  aria-label={tCard('ariaThumbnail', { title: deck.title })}
+                  className="block"
+                >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={deck.thumbnailUrl}
-                    alt={deck.title}
+                    alt={deck.richAlt}
                     width={480}
                     height={620}
                     loading="lazy"
@@ -202,6 +221,7 @@ export default function DeckGridClient({
                   <div className="flex items-center gap-3 text-sm flex-wrap">
                     <a
                       href={deck.href}
+                      aria-label={tCard('ariaPlay', { title: deck.title })}
                       className="text-leaf-700 font-semibold hover:underline"
                     >
                       {labels.playLink}
@@ -209,6 +229,7 @@ export default function DeckGridClient({
                     <span className="text-ink-300" aria-hidden="true">·</span>
                     <a
                       href={deck.pdfUrl}
+                      aria-label={tCard('ariaPdf', { title: deck.title })}
                       className="text-ink-600 hover:text-ink-900"
                       target="_blank"
                       rel="noopener"
@@ -220,6 +241,7 @@ export default function DeckGridClient({
                         <span className="text-ink-300" aria-hidden="true">·</span>
                         <a
                           href={deck.answerKeyUrl}
+                          aria-label={tCard('ariaAnswerKey', { title: deck.title })}
                           className="text-ink-600 hover:text-ink-900"
                           target="_blank"
                           rel="noopener"

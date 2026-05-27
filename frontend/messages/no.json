@@ -1113,6 +1113,10 @@
       "for": "for",
       "print_or_play_online": "Skriv ut eller spill online",
       "variant_label": "Sett"
+    },
+    "deckCardAlt": {
+      "withTheme": "Forhåndsvisning av {exerciseType}-arbeidsark med {theme} for {level}",
+      "withoutTheme": "Forhåndsvisning av {exerciseType}-arbeidsark for {level}"
     }
   },
   "endDeck": {
@@ -1142,7 +1146,11 @@
     "deckCard": {
       "playLink": "Spill online",
       "pdfLink": "Skriv ut PDF",
-      "answerKeyLink": "Fasit"
+      "answerKeyLink": "Fasit",
+      "ariaThumbnail": "Åpne {title}",
+      "ariaPlay": "Spill {title} — interaktivt arbeidsark",
+      "ariaPdf": "Last ned utskriftsvennlig PDF — {title}",
+      "ariaAnswerKey": "Last ned fasit — {title}"
     },
     "emptyState": {
       "heading": "Ingen arbeidsark matcher disse filtrene.",
@@ -1419,6 +1427,7 @@
   "homepageV3": {
     "hero": {
       "eyebrow": "Fra barnehage til 3. trinn · Tilpasset LK20 · Elleve språk",
+      "h1": "Gratis K-3 arbeidsark på 11 språk",
       "keywordHeading": "Gratis K-3 arbeidsark på 11 språk",
       "h1Line1Before": "Føles som et ",
       "h1Line1Squiggle": "spill",

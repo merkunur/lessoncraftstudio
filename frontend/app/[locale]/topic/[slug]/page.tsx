@@ -23,6 +23,7 @@ import {
   TOPIC_PAGE_SIZE,
   TopicSortKey,
 } from '@/lib/topic-decks';
+import { buildDeckRichAlt } from '@/lib/deck-seo';
 import VarietyStrip from '@/components/catalog/VarietyStrip';
 import Breadcrumbs from '@/components/catalog/Breadcrumbs';
 import SiblingAxisStrip from '@/components/catalog/SiblingAxisStrip';
@@ -402,6 +403,7 @@ export default async function TopicPage({
   const { axis, axisKey, locale } = resolution;
 
   const t = await getTranslations({ locale, namespace: 'topicPage' });
+  const tDeckAlt = await getTranslations({ locale, namespace: 'seo.deckCardAlt' });
   const topicName = getAxisName(axis, axisKey, locale) ?? params.slug;
   const intent = intentKey(axis);
   // No trailing slash — Next.js routes are trailing-slash-stripped per
@@ -631,16 +633,29 @@ export default async function TopicPage({
               />
             ) : (
               <DeckGridClient
-                decks={decks.map<TopicDeckCardData>(deck => ({
-                  id: deck.id,
-                  slug: deck.slug,
-                  language: deck.language,
-                  title: deckTitleFor(deck, locale),
-                  href: deckLinkFor(deck),
-                  thumbnailUrl: deck.thumbnailUrl,
-                  pdfUrl: deck.pdfUrl,
-                  answerKeyUrl: deck.answerKeyUrl,
-                }))}
+                decks={decks.map<TopicDeckCardData>(deck => {
+                  const title = deckTitleFor(deck, locale);
+                  return {
+                    id: deck.id,
+                    slug: deck.slug,
+                    language: deck.language,
+                    title,
+                    richAlt: buildDeckRichAlt(
+                      {
+                        exerciseType: deck.exerciseType,
+                        subjectTags: deck.subjectTags,
+                        ageRange: deck.ageRange,
+                        title,
+                      },
+                      locale,
+                      (key, params) => tDeckAlt(key, params),
+                    ),
+                    href: deckLinkFor(deck),
+                    thumbnailUrl: deck.thumbnailUrl,
+                    pdfUrl: deck.pdfUrl,
+                    answerKeyUrl: deck.answerKeyUrl,
+                  };
+                })}
                 labels={{
                   playLink: t('deckCard.playLink'),
                   pdfLink: t('deckCard.pdfLink'),

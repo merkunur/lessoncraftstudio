@@ -35,6 +35,7 @@ import EmptyDecksState from '@/components/catalog/EmptyDecksState';
 import Pagination from '@/components/catalog/Pagination';
 import { buildFilterUrl } from '@/components/catalog/filterUrl';
 import DeckGridClient, { TopicDeckCardData } from '../DeckGridClient';
+import { buildDeckRichAlt } from '@/lib/deck-seo';
 
 // Arc 6b — searchParams validation. Reused per the [slug]/page.tsx pattern;
 // duplicated here rather than imported because the route files are siblings
@@ -407,6 +408,7 @@ export default async function IntersectionPage({
   const { axis1, axisKey1, axis2, axisKey2, locale } = resolution;
 
   const t = await getTranslations({ locale, namespace: 'topicPage' });
+  const tDeckAlt = await getTranslations({ locale, namespace: 'seo.deckCardAlt' });
   const name1 = getAxisName(axis1, axisKey1, locale) ?? params.slug;
   const name2 = getAxisName(axis2, axisKey2, locale) ?? params.secondary;
   const compositeName = `${name1} · ${name2}`;
@@ -626,16 +628,29 @@ export default async function IntersectionPage({
               />
             ) : (
               <DeckGridClient
-                decks={decks.map<TopicDeckCardData>(deck => ({
-                  id: deck.id,
-                  slug: deck.slug,
-                  language: deck.language,
-                  title: deckTitleFor(deck, locale),
-                  href: deckLinkFor(deck),
-                  thumbnailUrl: deck.thumbnailUrl,
-                  pdfUrl: deck.pdfUrl,
-                  answerKeyUrl: deck.answerKeyUrl,
-                }))}
+                decks={decks.map<TopicDeckCardData>(deck => {
+                  const title = deckTitleFor(deck, locale);
+                  return {
+                    id: deck.id,
+                    slug: deck.slug,
+                    language: deck.language,
+                    title,
+                    richAlt: buildDeckRichAlt(
+                      {
+                        exerciseType: deck.exerciseType,
+                        subjectTags: deck.subjectTags,
+                        ageRange: deck.ageRange,
+                        title,
+                      },
+                      locale,
+                      (key, params) => tDeckAlt(key, params),
+                    ),
+                    href: deckLinkFor(deck),
+                    thumbnailUrl: deck.thumbnailUrl,
+                    pdfUrl: deck.pdfUrl,
+                    answerKeyUrl: deck.answerKeyUrl,
+                  };
+                })}
                 labels={{
                   playLink: t('deckCard.playLink'),
                   pdfLink: t('deckCard.pdfLink'),

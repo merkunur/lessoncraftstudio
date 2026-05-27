@@ -1619,6 +1619,21 @@
     "emptyTitle": "Nog geen werkbladen beschikbaar in deze taal.",
     "emptyBody": "Onze catalogus groeit taal per taal. Kom snel terug of blader door een andere taal."
   },
+  "standardsPage": {
+    "meta": {
+      "title": "Gratis {code} activiteiten & werkbladen in 11 talen | LessonCraftStudio",
+      "description": "Gratis K-3 interactieve activiteiten en printbare werkbladen aansluitend op Common Core State Standard {code} ({strand}). Beschikbaar in 11 talen."
+    },
+    "pageTitle": "{code} — Gratis activiteiten & werkbladen",
+    "intro": "Gratis Common Core {code} activiteiten en werkbladen voor {grade}, aansluitend op de leerlijn {strand}. In de browser speelbare interactieve oefeningen plus printbare PDF's, beschikbaar in alle 11 ondersteunde talen — geen registratie, geen betaalmuur.",
+    "activitiesHeading": "Interactieve activiteiten",
+    "noActivitiesYet": "Er zijn nog geen activiteiten aansluitend op deze standaard gepubliceerd. Kom snel terug.",
+    "relatedStandardsHeading": "Gerelateerde standaarden in {domain}",
+    "relatedCodeLinkAriaLabel": "Activiteiten aansluitend op standaard {code} bekijken",
+    "gradeLabel": "Groep",
+    "tryItLink": "Probeer",
+    "standardsBreadcrumb": "Standaarden"
+  },
   "aboutPage": {
     "meta": {
       "title": "Over ons | LessonCraftStudio",

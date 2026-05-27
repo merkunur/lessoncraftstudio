@@ -1619,6 +1619,21 @@
     "emptyTitle": "Inga arbetsblad tillgängliga på det här språket ännu.",
     "emptyBody": "Vår katalog växer språk för språk. Kom tillbaka snart eller bläddra på ett annat språk."
   },
+  "standardsPage": {
+    "meta": {
+      "title": "Gratis {code}-aktiviteter & arbetsblad på 11 språk | LessonCraftStudio",
+      "description": "Gratis interaktiva F-3-aktiviteter och utskrivbara arbetsblad anpassade till Common Core State Standard {code} ({strand}). Tillgängliga på 11 språk."
+    },
+    "pageTitle": "{code} — Gratis aktiviteter & arbetsblad",
+    "intro": "Gratis Common Core {code}-aktiviteter och arbetsblad för {grade}, anpassade till området {strand}. Interaktiva övningar som kan spelas i webbläsaren plus utskrivbara PDF:er, tillgängliga på alla 11 språk som stöds — ingen registrering, ingen betalspärr.",
+    "activitiesHeading": "Interaktiva aktiviteter",
+    "noActivitiesYet": "Inga aktiviteter anpassade till denna standard har publicerats ännu. Kom tillbaka snart.",
+    "relatedStandardsHeading": "Relaterade standarder i {domain}",
+    "relatedCodeLinkAriaLabel": "Visa aktiviteter anpassade till standard {code}",
+    "gradeLabel": "Klass",
+    "tryItLink": "Prova",
+    "standardsBreadcrumb": "Standarder"
+  },
   "aboutPage": {
     "meta": {
       "title": "Om oss | LessonCraftStudio",

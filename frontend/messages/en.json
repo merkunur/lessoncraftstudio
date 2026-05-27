@@ -1340,6 +1340,21 @@
     "emptyTitle": "No worksheets available in this language yet.",
     "emptyBody": "Our catalog is expanding language by language. Please check back soon, or browse another language."
   },
+  "standardsPage": {
+    "meta": {
+      "title": "Free {code} Activities & Worksheets in 11 Languages | LessonCraftStudio",
+      "description": "Free K-3 interactive activities and printable worksheets aligned to Common Core State Standard {code} ({strand}). Available in 11 languages."
+    },
+    "pageTitle": "{code} — Free Activities & Worksheets",
+    "intro": "Free Common Core {code} activities and worksheets for {grade}, aligned to the {strand} strand. Browser-playable interactive exercises plus printable PDFs, available in all 11 supported languages — no signup, no paywall.",
+    "activitiesHeading": "Interactive activities",
+    "noActivitiesYet": "No activities aligned to this standard are published yet. Check back soon.",
+    "relatedStandardsHeading": "Related standards in {domain}",
+    "relatedCodeLinkAriaLabel": "View activities aligned to standard {code}",
+    "gradeLabel": "Grade",
+    "tryItLink": "Try it",
+    "standardsBreadcrumb": "Standards"
+  },
   "aboutPage": {
     "meta": {
       "title": "About | LessonCraftStudio",

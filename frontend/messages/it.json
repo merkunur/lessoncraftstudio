@@ -1126,7 +1126,27 @@
     "deckCardAlt": {
       "withTheme": "Anteprima della scheda di {exerciseType} con {theme} per {level}",
       "withoutTheme": "Anteprima della scheda di {exerciseType} per {level}"
-    }
+    },
+    "ogImageAlt": {
+      "withTheme": "Scheda di {exerciseType} interattiva gratuita ({theme}) per {level}: {vocab}.",
+      "withThemeNoVocab": "Scheda di {exerciseType} interattiva gratuita ({theme}) per {level}.",
+      "withoutTheme": "Scheda di {exerciseType} interattiva gratuita per {level}: {vocab}.",
+      "withoutThemeNoVocab": "Scheda di {exerciseType} interattiva gratuita per {level}."
+    },
+    "worksheetMainAlt": {
+      "withTheme": "Scheda di {exerciseType} stampabile con {vocab} per {level}",
+      "withThemeNoVocab": "Scheda di {exerciseType} stampabile sul tema {theme} per {level}",
+      "withoutTheme": "Scheda di {exerciseType} stampabile con {vocab} per {level}",
+      "withoutThemeNoVocab": "Scheda di {exerciseType} stampabile per {level}"
+    },
+    "celebrationMiniAlt": "La tua scheda di {exerciseType} completata"
+  },
+  "aria": {
+    "deckContainerTemplate": {
+      "withTheme": "Scheda di {exerciseType} interattiva sul tema {theme} per {level}. {instruction}",
+      "withoutTheme": "Scheda di {exerciseType} interattiva per {level}. {instruction}"
+    },
+    "iframeEmbedTitle": "{deckTitle} — scheda interattiva di LessonCraftStudio"
   },
   "endDeck": {
     "heading": "Ne vuoi altre?",
@@ -1472,17 +1492,17 @@
       "card1Prompt": "Tocca le sillabe in ordine per formare la parola.",
       "card1GradeLabel": "Scuola dell'infanzia (5-7 anni)",
       "card1CheckLabel": "Verifica",
-      "card1SubjectAlt": "gatto",
+      "card1SubjectAlt": "Gioca all'attività interattiva italiana di costruzione delle sillabe per la scuola dell'infanzia.",
       "card2Title": "Conta fino a 10",
       "card2Prompt": "Tocca la cornice per fare 5.",
       "card2GradeLabel": "Scuola dell'infanzia (5-7 anni)",
       "card2CheckLabel": "Verifica",
-      "card2SubjectAlt": "cinque gatti",
+      "card2SubjectAlt": "Gioca all'attività interattiva Conta fino a 10 con la cornice del dieci per la scuola dell'infanzia.",
       "card3Title": "Forma le sillabe",
       "card3Prompt": "Tocca le sillabe in ordine per formare la parola.",
       "card3GradeLabel": "Scuola dell'infanzia (5-7 anni)",
       "card3CheckLabel": "Verifica",
-      "card3SubjectAlt": "cavallo"
+      "card3SubjectAlt": "Gioca all'attività interattiva di fonetica sillabica per la scuola dell'infanzia."
     },
     "pillar02": {
       "eyebrow": "Schede interattive",

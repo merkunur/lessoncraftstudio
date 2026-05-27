@@ -38,7 +38,25 @@ var REQUIRED_KEYS = [
   'endDeck.moreType',
   'endDeck.moreTheme',
   'endDeck.moreLevel',
-  'endDeck.browseAll'
+  'endDeck.browseAll',
+  // Alt-text SEO commission 2026-05-27: image SEO + a11y templates.
+  // Per CLAUDE.md §A.13.48 (11-locale recreation discipline) + §17.5.1
+  // (NSR-flag for sv/da/no/fi). Consumed by deck-rich-alt.js composer
+  // + substitute.js __OG_IMAGE_ALT__ / __WORKSHEET_MAIN_ALT__ / __APP_ARIA_LABEL__.
+  'seo.deckCardAlt.withTheme',
+  'seo.deckCardAlt.withoutTheme',
+  'seo.ogImageAlt.withTheme',
+  'seo.ogImageAlt.withThemeNoVocab',
+  'seo.ogImageAlt.withoutTheme',
+  'seo.ogImageAlt.withoutThemeNoVocab',
+  'seo.worksheetMainAlt.withTheme',
+  'seo.worksheetMainAlt.withThemeNoVocab',
+  'seo.worksheetMainAlt.withoutTheme',
+  'seo.worksheetMainAlt.withoutThemeNoVocab',
+  'seo.celebrationMiniAlt',
+  'aria.deckContainerTemplate.withTheme',
+  'aria.deckContainerTemplate.withoutTheme',
+  'aria.iframeEmbedTitle'
 ];
 
 var _cache = {};

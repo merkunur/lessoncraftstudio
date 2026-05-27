@@ -796,7 +796,27 @@
     "deckCardAlt": {
       "withTheme": "Vista previa de la hoja de {exerciseType} con {theme} para {level}",
       "withoutTheme": "Vista previa de la hoja de {exerciseType} para {level}"
-    }
+    },
+    "ogImageAlt": {
+      "withTheme": "Hoja de {exerciseType} interactiva gratuita ({theme}) para {level}: {vocab}.",
+      "withThemeNoVocab": "Hoja de {exerciseType} interactiva gratuita ({theme}) para {level}.",
+      "withoutTheme": "Hoja de {exerciseType} interactiva gratuita para {level}: {vocab}.",
+      "withoutThemeNoVocab": "Hoja de {exerciseType} interactiva gratuita para {level}."
+    },
+    "worksheetMainAlt": {
+      "withTheme": "Hoja de {exerciseType} imprimible con {vocab} para {level}",
+      "withThemeNoVocab": "Hoja de {exerciseType} imprimible sobre {theme} para {level}",
+      "withoutTheme": "Hoja de {exerciseType} imprimible con {vocab} para {level}",
+      "withoutThemeNoVocab": "Hoja de {exerciseType} imprimible para {level}"
+    },
+    "celebrationMiniAlt": "Tu hoja de {exerciseType} completada"
+  },
+  "aria": {
+    "deckContainerTemplate": {
+      "withTheme": "Hoja de {exerciseType} interactiva sobre {theme} para {level}. {instruction}",
+      "withoutTheme": "Hoja de {exerciseType} interactiva para {level}. {instruction}"
+    },
+    "iframeEmbedTitle": "{deckTitle} — hoja interactiva de LessonCraftStudio"
   },
   "endDeck": {
     "heading": "¿Quieres más?",
@@ -1469,17 +1489,17 @@
       "card1Prompt": "Toca las sílabas en orden para formar la palabra.",
       "card1GradeLabel": "Jardín infantil",
       "card1CheckLabel": "Comprobar",
-      "card1SubjectAlt": "gato",
+      "card1SubjectAlt": "Juega la actividad interactiva italiana de construcción de sílabas para jardín de infancia.",
       "card2Title": "Cuenta hasta 10",
       "card2Prompt": "Toca el marco para formar 5.",
       "card2GradeLabel": "Jardín infantil",
       "card2CheckLabel": "Comprobar",
-      "card2SubjectAlt": "cinco gatos",
+      "card2SubjectAlt": "Juega la actividad interactiva Contar hasta 10 con un marco de diez para jardín de infancia.",
       "card3Title": "Forma las sílabas",
       "card3Prompt": "Toca las sílabas en orden para formar la palabra.",
       "card3GradeLabel": "Jardín infantil",
       "card3CheckLabel": "Comprobar",
-      "card3SubjectAlt": "caballo"
+      "card3SubjectAlt": "Juega la actividad interactiva de fonética silábica para jardín de infancia."
     },
     "pillar02": {
       "eyebrow": "Fichas interactivas",

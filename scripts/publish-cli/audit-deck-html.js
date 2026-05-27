@@ -285,6 +285,120 @@ async function runChecksForDeck(dbDeck, htmlText, manifestObj, ctx) {
     checks.canonicalHostVarUrl = { pass: true, skip: 'no var url found' };
   }
 
+  // ===== Check 11: APP_ARIA_LABEL on <main id="lcs-app"> =====
+  // Alt-text SEO commission 2026-05-27 Dimension 2(b): every deck.html
+  // top-level interactive container MUST carry role="application" +
+  // non-empty aria-label per WCAG 4.1.2 + SEO accessible-name surface.
+  var mainTagMatch = /<main\s+id="lcs-app"([^>]*)>/i.exec(htmlText);
+  if (mainTagMatch) {
+    var mainAttrs = mainTagMatch[1];
+    var hasRole = /role="application"/.test(mainAttrs);
+    var ariaLabelMatch = /aria-label="([^"]*)"/i.exec(mainAttrs);
+    var ariaLabelValue = ariaLabelMatch ? ariaLabelMatch[1] : '';
+    var ariaIsUnsubstituted = ariaLabelValue === '__APP_ARIA_LABEL__';
+    if (!hasRole) {
+      checks.appAriaLabel = { pass: false, category: 'NO_ROLE', value: mainAttrs };
+      defects.push('APP_ARIA_LABEL_NO_ROLE');
+    } else if (!ariaLabelMatch || !ariaLabelValue) {
+      checks.appAriaLabel = { pass: false, category: 'EMPTY', value: mainAttrs };
+      defects.push('APP_ARIA_LABEL_EMPTY');
+    } else if (ariaIsUnsubstituted) {
+      checks.appAriaLabel = { pass: false, category: 'UNSUBSTITUTED_PLACEHOLDER', value: ariaLabelValue };
+      defects.push('APP_ARIA_LABEL_UNSUBSTITUTED');
+    } else {
+      checks.appAriaLabel = { pass: true, value: ariaLabelValue };
+    }
+  } else {
+    // No <main id="lcs-app"> tag at all — likely pre-Phase-2 codemod deck.html
+    checks.appAriaLabel = { pass: false, category: 'TAG_MISSING', value: null };
+    defects.push('APP_ARIA_LABEL_TAG_MISSING');
+  }
+
+  // ===== Check 12: deck-end suggestion thumbnails alt non-empty =====
+  // Alt-text SEO commission 2026-05-27 Dimension 1: each of the 6 thumbnails
+  // in the deck-end suggestion strip MUST carry non-empty alt. Pre-commission
+  // emit was `alt=""` HARDCODED (catalog-export.js:934). Retrofit closes the
+  // gap on already-published decks; new publishes get composed alt via
+  // substitute.js __SUGGESTION_i_ALT__ placeholder.
+  var deckendThumbMatches = htmlText.match(/<img[^>]*class="lcs-deckend-thumb"[^>]*>/g) || [];
+  if (deckendThumbMatches.length > 0) {
+    var emptyAltCount = 0;
+    var unsubstitutedCount = 0;
+    deckendThumbMatches.forEach(function (img) {
+      var aMatch = /alt="([^"]*)"/i.exec(img);
+      var aVal = aMatch ? aMatch[1] : '';
+      if (!aVal) emptyAltCount++;
+      else if (/^__SUGGESTION_\d+_ALT__$/.test(aVal)) unsubstitutedCount++;
+    });
+    if (emptyAltCount > 0) {
+      checks.deckendThumbAlt = { pass: false, category: 'EMPTY_ALT', emptyCount: emptyAltCount, total: deckendThumbMatches.length };
+      defects.push('DECKEND_THUMB_EMPTY_ALT');
+    } else if (unsubstitutedCount > 0) {
+      checks.deckendThumbAlt = { pass: false, category: 'UNSUBSTITUTED', unsubstitutedCount: unsubstitutedCount, total: deckendThumbMatches.length };
+      defects.push('DECKEND_THUMB_UNSUBSTITUTED');
+    } else {
+      checks.deckendThumbAlt = { pass: true, total: deckendThumbMatches.length };
+    }
+  } else {
+    checks.deckendThumbAlt = { pass: true, skip: 'no deckend-thumb images' };
+  }
+
+  // ===== Check 13: celebration-mini <img alt> non-empty + locale-correct =====
+  // Alt-text SEO commission 2026-05-27 Dimension 1 + Dimension 3: the
+  // celebration mini-image alt was pre-commission a hardcoded English string
+  // ("Your completed worksheet") baked into all 29 REFERENCE APPS. On non-EN
+  // decks, that's a Dimension 3 (locale-leak) violation. Post-Phase-2 codemod
+  // the alt is resolved at runtime from window.translations[contentLanguage].
+  // For published-deck audit, look at the rendered deck.html: the alt expression
+  // is JavaScript (resolved client-side); we check that the JS expression
+  // contains the runtime-translation lookup (vs the hardcoded English literal).
+  var celebMiniRegex = /class=\\?"lcs-mini\\?"\s*alt=\\?"([^"\\]*(?:\\.[^"\\]*)*)\\?"/;
+  var celebMatch = celebMiniRegex.exec(htmlText);
+  if (celebMatch) {
+    var celebVal = celebMatch[1];
+    if (celebVal === 'Your completed worksheet' && dbDeck.language !== 'en') {
+      checks.celebrationMiniAlt = { pass: false, category: 'ENGLISH_LEAK_NONEN', value: celebVal };
+      defects.push('CELEBRATION_MINI_ALT_ENGLISH_LEAK');
+    } else if (!celebVal) {
+      checks.celebrationMiniAlt = { pass: false, category: 'EMPTY', value: celebVal };
+      defects.push('CELEBRATION_MINI_ALT_EMPTY');
+    } else {
+      checks.celebrationMiniAlt = { pass: true, value: celebVal };
+    }
+  } else {
+    // Post-codemod, the alt expression is a JS template — the static regex
+    // won't match. Look for the runtime-translation lookup as a positive signal.
+    var hasRuntimeLookup = htmlText.indexOf('celebrationMiniAlt') !== -1 &&
+                           htmlText.indexOf('class=\\"lcs-mini\\"') !== -1;
+    if (hasRuntimeLookup) {
+      checks.celebrationMiniAlt = { pass: true, value: 'runtime-resolved via window.translations' };
+    } else {
+      checks.celebrationMiniAlt = { pass: false, category: 'NOT_FOUND', value: null };
+      defects.push('CELEBRATION_MINI_ALT_NOT_FOUND');
+    }
+  }
+
+  // ===== Check 14: main worksheet <img alt> non-empty + substituted =====
+  // Alt-text SEO commission 2026-05-27 Dimension 1: the largest image on
+  // every deck page. Pre-commission alt="" HARDCODED. Post-Phase-2 codemod
+  // emits alt="__WORKSHEET_MAIN_ALT__" filled by substitute.js at publish.
+  var mainWsRegex = /<img[^>]*id="lcs-worksheet-img"[^>]*alt="([^"]*)"[^>]*>/i;
+  var mainWsMatch = mainWsRegex.exec(htmlText);
+  if (mainWsMatch) {
+    var wsAlt = mainWsMatch[1];
+    if (!wsAlt) {
+      checks.mainWorksheetAlt = { pass: false, category: 'EMPTY', value: wsAlt };
+      defects.push('MAIN_WORKSHEET_ALT_EMPTY');
+    } else if (wsAlt === '__WORKSHEET_MAIN_ALT__') {
+      checks.mainWorksheetAlt = { pass: false, category: 'UNSUBSTITUTED', value: wsAlt };
+      defects.push('MAIN_WORKSHEET_ALT_UNSUBSTITUTED');
+    } else {
+      checks.mainWorksheetAlt = { pass: true, value: wsAlt };
+    }
+  } else {
+    checks.mainWorksheetAlt = { pass: true, skip: 'no lcs-worksheet-img element' };
+  }
+
   return {
     id: dbDeck.id,
     language: dbDeck.language,

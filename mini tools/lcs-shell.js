@@ -41,7 +41,25 @@
     tasksDone:  {en:'Tasks done: {n}',de:'Aufgaben erledigt: {n}',fr:'Tâches faites : {n}',it:'Compiti fatti: {n}',es:'Tareas hechas: {n}',pt:'Tarefas feitas: {n}',nl:'Taken gedaan: {n}',sv:'Klara uppgifter: {n}',da:'Færdige opgaver: {n}',no:'Ferdige oppgaver: {n}',fi:'Tehtyjä tehtäviä: {n}'},
     /* Direction A: progress pill label (uppercase letter-spaced, separate from the count). */
     tasksDoneLabel: {en:'TASKS DONE',de:'AUFGABEN',fr:'FAITES',it:'FATTI',es:'COMPLETADAS',pt:'CONCLUÍDAS',nl:'KLAAR',sv:'KLARA',da:'FÆRDIGE',no:'FERDIGE',fi:'VALMIIT'},
-    readAloud:  {en:'Read aloud',de:'Vorlesen',fr:'Lire à voix haute',it:'Leggi ad alta voce',es:'Leer en voz alta',pt:'Ler em voz alta',nl:'Voorlezen',sv:'Läs högt',da:'Læs højt',no:'Les høyt',fi:'Lue ääneen'}
+    readAloud:  {en:'Read aloud',de:'Vorlesen',fr:'Lire à voix haute',it:'Leggi ad alta voce',es:'Leer en voz alta',pt:'Ler em voz alta',nl:'Voorlezen',sv:'Läs högt',da:'Læs højt',no:'Les høyt',fi:'Lue ääneen'},
+    /* Alt-text SEO commission 2026-05-27 (Dimension 2): drives the
+       role="application" container's aria-label per WCAG 4.1.2. Composed
+       at mount() time from the tool's title + instruction via {title}
+       and {instruction} interpolation. Per §A.13.48 hybrid-clause batch
+       fanout (≤10 short strings; established vocabulary already in CHROME). */
+    activityContainerTemplate: {
+      en:'Interactive {title} activity. {instruction}',
+      de:'Interaktive {title}-Aufgabe. {instruction}',
+      fr:'Activité interactive {title}. {instruction}',
+      it:'Attività interattiva {title}. {instruction}',
+      es:'Actividad interactiva {title}. {instruction}',
+      pt:'Atividade interativa {title}. {instruction}',
+      nl:'Interactieve {title}-activiteit. {instruction}',
+      sv:'Interaktiv {title}-aktivitet. {instruction}',
+      da:'Interaktiv {title}-aktivitet. {instruction}',
+      no:'Interaktiv {title}-aktivitet. {instruction}',
+      fi:'Interaktiivinen {title}-tehtävä. {instruction}'
+    }
   };
 
   /* Simple {key} interpolation for prompt + progress strings. */
@@ -419,10 +437,28 @@
     document.documentElement.dir = i18n.isRTL() ? 'rtl' : 'ltr';
 
     var app = el('div', 'lcs-app' + (embed ? ' embed' : '') + (compact ? ' compact' : ''));
+    /* Alt-text SEO commission 2026-05-27 (Dimension 2): WCAG-correct
+       accessible-name on the interactive activity container. role="application"
+       tells assistive tech to defer browse-mode keys to the app's own
+       handlers; safe here because every interactive element in the mini-
+       tool engines (ten-frame-core cells, match-pairs-core cards, etc.) is
+       a <button> with implicit keyboard activation via Space/Enter. The
+       aria-label gives a stable activity-level description; per-task
+       prompts continue to flow through the polite live region below (line 439). */
+    var _toolTitle = i18n.t(tool.strings, 'title');
+    var _toolInstruction = i18n.t(tool.strings, 'instruction');
+    app.setAttribute('role', 'application');
+    app.setAttribute(
+      'aria-label',
+      interpolate(i18n.chrome('activityContainerTemplate'), {
+        title: _toolTitle,
+        instruction: _toolInstruction
+      }).replace(/\s+\.\s*$/, '.').trim()
+    );
     var header = el('div', 'lcs-header');
     var titles = el('div', 'lcs-titles');
-    var h1 = el('h1', 'lcs-title'); h1.textContent = i18n.t(tool.strings, 'title');
-    var instr = el('p', 'lcs-instruction'); instr.textContent = i18n.t(tool.strings, 'instruction');
+    var h1 = el('h1', 'lcs-title'); h1.textContent = _toolTitle;
+    var instr = el('p', 'lcs-instruction'); instr.textContent = _toolInstruction;
     titles.append(h1, instr);
 
     var controls = el('div', 'lcs-controls');

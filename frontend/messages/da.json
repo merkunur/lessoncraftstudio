@@ -1110,7 +1110,27 @@
     "deckCardAlt": {
       "withTheme": "Forhåndsvisning af {exerciseType}-arbejdsark med {theme} til {level}",
       "withoutTheme": "Forhåndsvisning af {exerciseType}-arbejdsark til {level}"
-    }
+    },
+    "ogImageAlt": {
+      "withTheme": "Gratis interaktivt {exerciseType}-arbejdsark ({theme}) til {level}: {vocab}.",
+      "withThemeNoVocab": "Gratis interaktivt {exerciseType}-arbejdsark ({theme}) til {level}.",
+      "withoutTheme": "Gratis interaktivt {exerciseType}-arbejdsark til {level}: {vocab}.",
+      "withoutThemeNoVocab": "Gratis interaktivt {exerciseType}-arbejdsark til {level}."
+    },
+    "worksheetMainAlt": {
+      "withTheme": "Printbart {exerciseType}-arbejdsark med {vocab} til {level}",
+      "withThemeNoVocab": "Printbart {exerciseType}-arbejdsark om {theme} til {level}",
+      "withoutTheme": "Printbart {exerciseType}-arbejdsark med {vocab} til {level}",
+      "withoutThemeNoVocab": "Printbart {exerciseType}-arbejdsark til {level}"
+    },
+    "celebrationMiniAlt": "Dit færdige {exerciseType}-arbejdsark"
+  },
+  "aria": {
+    "deckContainerTemplate": {
+      "withTheme": "Interaktivt {exerciseType}-arbejdsark om {theme} til {level}. {instruction}",
+      "withoutTheme": "Interaktivt {exerciseType}-arbejdsark til {level}. {instruction}"
+    },
+    "iframeEmbedTitle": "{deckTitle} — interaktivt arbejdsark fra LessonCraftStudio"
   },
   "endDeck": {
     "heading": "Vil du have mere?",
@@ -1456,17 +1476,17 @@
       "card1Prompt": "Tryk på stavelserne i rigtig rækkefølge for at lave ordet.",
       "card1GradeLabel": "Børnehaveklasse",
       "card1CheckLabel": "Tjek",
-      "card1SubjectAlt": "kat",
+      "card1SubjectAlt": "Spil den interaktive italienske stavelsesbygger-aktivitet til børnehaveklassen.",
       "card2Title": "Tæl til 10",
       "card2Prompt": "Tryk på rammen for at lave 5.",
       "card2GradeLabel": "Børnehaveklasse",
       "card2CheckLabel": "Tjek",
-      "card2SubjectAlt": "fem katte",
+      "card2SubjectAlt": "Spil den interaktive Tæl til 10-aktivitet med en tier-ramme til børnehaveklassen.",
       "card3Title": "Byg stavelserne",
       "card3Prompt": "Tryk på stavelserne for at danne ordet.",
       "card3GradeLabel": "Børnehaveklasse",
       "card3CheckLabel": "Tjek",
-      "card3SubjectAlt": "elefant"
+      "card3SubjectAlt": "Spil den interaktive fonik-stavelsesbygger-aktivitet til børnehaveklassen."
     },
     "pillar02": {
       "eyebrow": "Interaktive opgaver",

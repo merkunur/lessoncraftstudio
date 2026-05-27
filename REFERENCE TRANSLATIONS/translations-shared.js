@@ -118,7 +118,16 @@ const SHARED_TRANSLATIONS = {
     "pdfAnswerKey": "Answer Key (PDF)",
     "interactiveWorksheetHtml": "Interactive Worksheet (HTML)",
     "jpegImage": "JPEG Image",
-    "grayscale": "Grayscale"
+    "grayscale": "Grayscale",
+
+    // Alt-text SEO commission 2026-05-27 (Dimension 2 + Dimension 1):
+    // iframeEmbedTitle drives the WCAG-required <iframe title>; emitted
+    // by buildEmbedAffordance + by ActivityIframe. {deckTitle}
+    // interpolates the per-deck title.
+    // celebrationMiniAlt drives the celebration mini worksheet image alt
+    // (was hardcoded English "Your completed worksheet" pre-commission).
+    "iframeEmbedTitle": "{deckTitle} — interactive worksheet from LessonCraftStudio",
+    "celebrationMiniAlt": "Your completed worksheet"
   },
   "de": {
     "srShapeSquare": "Quadrat",
@@ -185,7 +194,9 @@ const SHARED_TRANSLATIONS = {
     "pdfAnswerKey": "Lösungsbogen (PDF)",
     "interactiveWorksheetHtml": "Interaktives Arbeitsblatt (HTML)",
     "jpegImage": "JPEG-Bild",
-    "grayscale": "Graustufen"
+    "grayscale": "Graustufen",
+    "iframeEmbedTitle": "{deckTitle} — interaktives Arbeitsblatt von LessonCraftStudio",
+    "celebrationMiniAlt": "Dein ausgefülltes Arbeitsblatt"
   },
 
   // Tier-1+2 + Tier-4 Romance locales — operator-best-effort embed authoring
@@ -230,7 +241,9 @@ const SHARED_TRANSLATIONS = {
     "pdfAnswerKey": "Soluciones (PDF)",
     "interactiveWorksheetHtml": "Ficha interactiva (HTML)",
     "jpegImage": "Imagen JPEG",
-    "grayscale": "Escala de grises"
+    "grayscale": "Escala de grises",
+    "iframeEmbedTitle": "{deckTitle} — hoja interactiva de LessonCraftStudio",
+    "celebrationMiniAlt": "Tu hoja de ejercicios completada"
   },
   "nl": {
     "embedHeader": "Dit werkblad op je site insluiten",
@@ -270,7 +283,9 @@ const SHARED_TRANSLATIONS = {
     "pdfAnswerKey": "Antwoordsleutel (PDF)",
     "interactiveWorksheetHtml": "Interactief werkblad (HTML)",
     "jpegImage": "JPEG-afbeelding",
-    "grayscale": "Grijswaarden"
+    "grayscale": "Grijswaarden",
+    "iframeEmbedTitle": "{deckTitle} — interactief werkblad van LessonCraftStudio",
+    "celebrationMiniAlt": "Jouw voltooide werkblad"
   },
   "fr": {
     "embedHeader": "Intégrer cette fiche sur votre site",
@@ -310,7 +325,9 @@ const SHARED_TRANSLATIONS = {
     "pdfAnswerKey": "Corrigé (PDF)",
     "interactiveWorksheetHtml": "Fiche interactive (HTML)",
     "jpegImage": "Image JPEG",
-    "grayscale": "Niveaux de gris"
+    "grayscale": "Niveaux de gris",
+    "iframeEmbedTitle": "{deckTitle} — fiche interactive de LessonCraftStudio",
+    "celebrationMiniAlt": "Ta fiche d'exercices terminée"
   },
   "it": {
     "embedHeader": "Incorpora questa scheda sul tuo sito",
@@ -350,7 +367,9 @@ const SHARED_TRANSLATIONS = {
     "pdfAnswerKey": "Soluzioni (PDF)",
     "interactiveWorksheetHtml": "Scheda interattiva (HTML)",
     "jpegImage": "Immagine JPEG",
-    "grayscale": "Scala di grigi"
+    "grayscale": "Scala di grigi",
+    "iframeEmbedTitle": "{deckTitle} — scheda interattiva di LessonCraftStudio",
+    "celebrationMiniAlt": "La tua scheda di esercizi completata"
   },
   "pt": {
     // Brazilian Portuguese canonical per §6 (single 'pt' locale code; BR register).
@@ -391,7 +410,9 @@ const SHARED_TRANSLATIONS = {
     "pdfAnswerKey": "Gabarito (PDF)",
     "interactiveWorksheetHtml": "Atividade interativa (HTML)",
     "jpegImage": "Imagem JPEG",
-    "grayscale": "Escala de cinza"
+    "grayscale": "Escala de cinza",
+    "iframeEmbedTitle": "{deckTitle} — ficha interativa do LessonCraftStudio",
+    "celebrationMiniAlt": "Sua folha de exercícios concluída"
   },
 
   // Nordic locales — operator-best-effort embed authoring + NSR-flagged
@@ -439,7 +460,9 @@ const SHARED_TRANSLATIONS = {
     "pdfAnswerKey": "Facit (PDF)",
     "interactiveWorksheetHtml": "Interaktivt arbetsblad (HTML)",
     "jpegImage": "JPEG-bild",
-    "grayscale": "Gråskala"
+    "grayscale": "Gråskala",
+    "iframeEmbedTitle": "{deckTitle} — interaktivt arbetsblad från LessonCraftStudio",
+    "celebrationMiniAlt": "Ditt klara arbetsblad"
   },
   "da": {
     "embedHeader": "Indlejr dette arbejdsark på dit websted",
@@ -482,7 +505,9 @@ const SHARED_TRANSLATIONS = {
     "pdfAnswerKey": "Facitliste (PDF)",
     "interactiveWorksheetHtml": "Interaktivt arbejdsark (HTML)",
     "jpegImage": "JPEG-billede",
-    "grayscale": "Gråtoner"
+    "grayscale": "Gråtoner",
+    "iframeEmbedTitle": "{deckTitle} — interaktivt arbejdsark fra LessonCraftStudio",
+    "celebrationMiniAlt": "Dit færdige arbejdsark"
   },
   "no": {
     // Bokmål canonical per §6 (single 'no' locale code).
@@ -526,7 +551,9 @@ const SHARED_TRANSLATIONS = {
     "pdfAnswerKey": "Fasit (PDF)",
     "interactiveWorksheetHtml": "Interaktivt arbeidsark (HTML)",
     "jpegImage": "JPEG-bilde",
-    "grayscale": "Gråtoner"
+    "grayscale": "Gråtoner",
+    "iframeEmbedTitle": "{deckTitle} — interaktivt arbeidsark fra LessonCraftStudio",
+    "celebrationMiniAlt": "Ditt ferdige arbeidsark"
   },
   "fi": {
     "embedHeader": "Upota tämä työarkki sivustollesi",
@@ -569,7 +596,9 @@ const SHARED_TRANSLATIONS = {
     "pdfAnswerKey": "Vastaukset (PDF)",
     "interactiveWorksheetHtml": "Interaktiivinen työarkki (HTML)",
     "jpegImage": "JPEG-kuva",
-    "grayscale": "Harmaasävy"
+    "grayscale": "Harmaasävy",
+    "iframeEmbedTitle": "{deckTitle} — interaktiivinen tehtäväarkki LessonCraftStudio-palvelusta",
+    "celebrationMiniAlt": "Valmis tehtäväarkkisi"
   }
 };
 

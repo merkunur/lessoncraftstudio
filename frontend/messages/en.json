@@ -834,7 +834,27 @@
     "deckCardAlt": {
       "withTheme": "Preview of {exerciseType} worksheet featuring {theme} for {level}",
       "withoutTheme": "Preview of {exerciseType} worksheet for {level}"
-    }
+    },
+    "ogImageAlt": {
+      "withTheme": "Free interactive {exerciseType} worksheet ({theme}) for {level}: {vocab}.",
+      "withThemeNoVocab": "Free interactive {exerciseType} worksheet ({theme}) for {level}.",
+      "withoutTheme": "Free interactive {exerciseType} worksheet for {level}: {vocab}.",
+      "withoutThemeNoVocab": "Free interactive {exerciseType} worksheet for {level}."
+    },
+    "worksheetMainAlt": {
+      "withTheme": "Printable {exerciseType} worksheet featuring {vocab} for {level}",
+      "withThemeNoVocab": "Printable {exerciseType} worksheet about {theme} for {level}",
+      "withoutTheme": "Printable {exerciseType} worksheet featuring {vocab} for {level}",
+      "withoutThemeNoVocab": "Printable {exerciseType} worksheet for {level}"
+    },
+    "celebrationMiniAlt": "Your completed {exerciseType} worksheet"
+  },
+  "aria": {
+    "deckContainerTemplate": {
+      "withTheme": "Interactive {exerciseType} worksheet about {theme} for {level}. {instruction}",
+      "withoutTheme": "Interactive {exerciseType} worksheet for {level}. {instruction}"
+    },
+    "iframeEmbedTitle": "{deckTitle} — interactive worksheet from LessonCraftStudio"
   },
   "endDeck": {
     "heading": "Want more?",
@@ -1180,17 +1200,17 @@
       "card1Prompt": "Tocca le sillabe in ordine per formare la parola.",
       "card1GradeLabel": "Scuola dell'infanzia",
       "card1CheckLabel": "Verifica",
-      "card1SubjectAlt": "gatto",
+      "card1SubjectAlt": "Play the interactive Italian Syllable Builder phonics activity for kindergarten students.",
       "card2Title": "Count to 10",
       "card2Prompt": "Tap the frame to make 5.",
       "card2GradeLabel": "Kindergarten",
       "card2CheckLabel": "Check",
-      "card2SubjectAlt": "five cats",
+      "card2SubjectAlt": "Play the interactive Count to 10 math activity using a ten-frame manipulative for kindergarten.",
       "card3Title": "Forma las sílabas",
       "card3Prompt": "Toca las sílabas en orden para formar la palabra.",
       "card3GradeLabel": "Jardín de infancia",
       "card3CheckLabel": "Comprobar",
-      "card3SubjectAlt": "caballo"
+      "card3SubjectAlt": "Play the interactive Spanish Syllable Builder phonics activity for kindergarten students."
     },
     "pillar02": {
       "eyebrow": "Interactive worksheets",

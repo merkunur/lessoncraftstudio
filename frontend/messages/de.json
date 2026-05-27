@@ -926,7 +926,27 @@
     "deckCardAlt": {
       "withTheme": "Vorschau: {exerciseType}-Arbeitsblatt mit {theme} für {level}",
       "withoutTheme": "Vorschau: {exerciseType}-Arbeitsblatt für {level}"
-    }
+    },
+    "ogImageAlt": {
+      "withTheme": "Kostenloses interaktives {exerciseType}-Arbeitsblatt ({theme}) für {level}: {vocab}.",
+      "withThemeNoVocab": "Kostenloses interaktives {exerciseType}-Arbeitsblatt ({theme}) für {level}.",
+      "withoutTheme": "Kostenloses interaktives {exerciseType}-Arbeitsblatt für {level}: {vocab}.",
+      "withoutThemeNoVocab": "Kostenloses interaktives {exerciseType}-Arbeitsblatt für {level}."
+    },
+    "worksheetMainAlt": {
+      "withTheme": "Druckbares {exerciseType}-Arbeitsblatt mit {vocab} für {level}",
+      "withThemeNoVocab": "Druckbares {exerciseType}-Arbeitsblatt zum Thema {theme} für {level}",
+      "withoutTheme": "Druckbares {exerciseType}-Arbeitsblatt mit {vocab} für {level}",
+      "withoutThemeNoVocab": "Druckbares {exerciseType}-Arbeitsblatt für {level}"
+    },
+    "celebrationMiniAlt": "Dein ausgefülltes {exerciseType}-Arbeitsblatt"
+  },
+  "aria": {
+    "deckContainerTemplate": {
+      "withTheme": "Interaktives {exerciseType}-Arbeitsblatt zum Thema {theme} für {level}. {instruction}",
+      "withoutTheme": "Interaktives {exerciseType}-Arbeitsblatt für {level}. {instruction}"
+    },
+    "iframeEmbedTitle": "{deckTitle} — interaktives Arbeitsblatt von LessonCraftStudio"
   },
   "endDeck": {
     "heading": "Mehr davon?",
@@ -1272,17 +1292,17 @@
       "card1Prompt": "Tippe die Silben der Reihe nach an, um das Wort zu bilden.",
       "card1GradeLabel": "Kindergarten",
       "card1CheckLabel": "Prüfen",
-      "card1SubjectAlt": "Katze",
+      "card1SubjectAlt": "Spiele die interaktive italienische Silbenbildner-Aktivität für den Kindergarten.",
       "card2Title": "Bis 10 zählen",
       "card2Prompt": "Tippe das Feld an, um 5 zu machen.",
       "card2GradeLabel": "Kindergarten",
       "card2CheckLabel": "Prüfen",
-      "card2SubjectAlt": "fünf Katzen",
+      "card2SubjectAlt": "Spiele die interaktive Bis-10-zählen-Aktivität mit dem Zehnerfeld für den Kindergarten.",
       "card3Title": "Silben formen",
       "card3Prompt": "Tippe die Silben der Reihe nach an, um das Wort zu bilden.",
       "card3GradeLabel": "Kindergarten",
       "card3CheckLabel": "Prüfen",
-      "card3SubjectAlt": "Elefant"
+      "card3SubjectAlt": "Spiele die interaktive Phonik-Silbenbildner-Aktivität für den Kindergarten."
     },
     "pillar02": {
       "eyebrow": "Interaktive Arbeitsblätter",

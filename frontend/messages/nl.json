@@ -783,7 +783,27 @@
     "deckCardAlt": {
       "withTheme": "Voorbeeld van het {exerciseType}-werkblad met {theme} voor {level}",
       "withoutTheme": "Voorbeeld van het {exerciseType}-werkblad voor {level}"
-    }
+    },
+    "ogImageAlt": {
+      "withTheme": "Gratis interactief {exerciseType}-werkblad ({theme}) voor {level}: {vocab}.",
+      "withThemeNoVocab": "Gratis interactief {exerciseType}-werkblad ({theme}) voor {level}.",
+      "withoutTheme": "Gratis interactief {exerciseType}-werkblad voor {level}: {vocab}.",
+      "withoutThemeNoVocab": "Gratis interactief {exerciseType}-werkblad voor {level}."
+    },
+    "worksheetMainAlt": {
+      "withTheme": "Afdrukbaar {exerciseType}-werkblad met {vocab} voor {level}",
+      "withThemeNoVocab": "Afdrukbaar {exerciseType}-werkblad over {theme} voor {level}",
+      "withoutTheme": "Afdrukbaar {exerciseType}-werkblad met {vocab} voor {level}",
+      "withoutThemeNoVocab": "Afdrukbaar {exerciseType}-werkblad voor {level}"
+    },
+    "celebrationMiniAlt": "Jouw voltooide {exerciseType}-werkblad"
+  },
+  "aria": {
+    "deckContainerTemplate": {
+      "withTheme": "Interactief {exerciseType}-werkblad over {theme} voor {level}. {instruction}",
+      "withoutTheme": "Interactief {exerciseType}-werkblad voor {level}. {instruction}"
+    },
+    "iframeEmbedTitle": "{deckTitle} — interactief werkblad van LessonCraftStudio"
   },
   "endDeck": {
     "heading": "Meer hiervan?",
@@ -1459,17 +1479,17 @@
       "card1Prompt": "Tik de lettergrepen in de juiste volgorde aan om het woord te maken.",
       "card1GradeLabel": "Kleuterklas",
       "card1CheckLabel": "Nakijken",
-      "card1SubjectAlt": "kat",
+      "card1SubjectAlt": "Speel de interactieve Italiaanse lettergreepbouwer-activiteit voor de kleuterklas.",
       "card2Title": "Tel tot 10",
       "card2Prompt": "Tik op het tienkader om 5 te maken.",
       "card2GradeLabel": "Kleuterklas",
       "card2CheckLabel": "Nakijken",
-      "card2SubjectAlt": "vijf katten",
+      "card2SubjectAlt": "Speel de interactieve Tot 10 tellen-activiteit met een tienraam voor de kleuterklas.",
       "card3Title": "Bouw het woord",
       "card3Prompt": "Tik de lettergrepen in de juiste volgorde aan om het woord te maken.",
       "card3GradeLabel": "Kleuterklas",
       "card3CheckLabel": "Nakijken",
-      "card3SubjectAlt": "olifant"
+      "card3SubjectAlt": "Speel de interactieve fonetische lettergreepbouwer-activiteit voor de kleuterklas."
     },
     "pillar02": {
       "eyebrow": "Interactieve werkbladen",

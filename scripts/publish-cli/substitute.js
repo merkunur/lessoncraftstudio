@@ -29,7 +29,21 @@
  *  34. __OG_DESCRIPTION__        mirrors <meta name="description"> content
  *  35. __OG_IMAGE__              computed canonical-relative og-image.png URL per §15.14
  *  36. __OG_LOCALE__             BCP-47 mapping per concern 1 supplement (es_MX, pt_BR, etc.)
- *  37. __OG_IMAGE_ALT__          mirrors __OG_TITLE__ at Phase 3a; Phase 3b refines
+ *  37. __OG_IMAGE_ALT__          composed via deck-rich-alt.js (alt-text SEO commission 2026-05-27)
+ *
+ * Alt-text SEO commission 2026-05-27 extension (placeholders 42-43 + suggestion ALT slots):
+ *  42. __WORKSHEET_MAIN_ALT__    composed via deck-rich-alt.js composeWorksheetMainAlt;
+ *                                replaces hardcoded alt="" on main <img> in every deck.html.
+ *                                Shape: "Printable {type} worksheet featuring {top3vocab}
+ *                                for {level}". Per-locale; vocab from manifest.images_used.
+ *  43. __APP_ARIA_LABEL__        composed via deck-rich-alt.js composeDeckContainerAriaLabel;
+ *                                drives <main role="application" aria-label="..."> on deck.html
+ *                                for WCAG accessible-name + Bing-classic-crawler SEO content.
+ *                                Shape: "Interactive {type} worksheet about {theme} for {level}.
+ *                                {instruction}". Per-locale.
+ *  __SUGGESTION_<N>_ALT__        Composed per-suggestion via deck-rich-alt.js composeDeckCardAlt
+ *                                (N=1..6). Replaces hardcoded alt="" on the 6 deck-end suggestion
+ *                                thumbnails (~55,200 empty-alt instances pre-commission).
  *
  * Forward-compatible: placeholders 33-37 are no-ops until Phase 3a.2 ships
  * the catalog-export.js extension that emits them. Once emitted, substitution
@@ -54,6 +68,21 @@
 var i18n = require('./i18n');
 var taxonomy = require('./taxonomy');
 var slugMod = require('./slug');
+var deckRichAlt = require('./deck-rich-alt');
+
+/**
+ * Escape a string for use inside an HTML attribute (alt="…" / aria-label="…" /
+ * meta content="…"). Per alt-text SEO commission 2026-05-27: rich alt/aria
+ * values contain locale-specific punctuation (German `&`, French `'`,
+ * Spanish `«»`) — must escape before substitution into HTML attributes.
+ */
+function escAttrSafe(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
 
 // www. form per CLAUDE.md §A.10. The apex variant 301-redirects to www at
 // nginx layer, but that redirect breaks the embed iframe's auto-resize:
@@ -284,6 +313,27 @@ function apply(opts) {
         placeholder: '__SUGGESTION_' + sIdx + '_THUMB__',
         value: slot.thumbnailUrl || '',
       });
+      // Alt-text SEO commission 2026-05-27 (Dimension 1): suggestion thumbs
+      // get their own deck-card-shape alt per the suggested deck's data.
+      // Each suggestion's locale equals deck's locale per selectDeckEndSuggestions
+      // hard locale-match contract — safe to compose in slot.language.
+      var slotRichAlt = slot.richAlt || (function () {
+        try {
+          return deckRichAlt.composeDeckCardAlt({
+            exerciseType: slot.exerciseType,
+            subjectTags: slot.subjectTags || (slot.theme ? [slot.theme] : []),
+            ageRange: slot.ageRange,
+            language: slot.language,
+            title: slotTitleLocalized,
+          });
+        } catch (e) {
+          return slotTitleLocalized;
+        }
+      })();
+      suggestionSubstitutions.push({
+        placeholder: '__SUGGESTION_' + sIdx + '_ALT__',
+        value: escAttrSafe(slotRichAlt),
+      });
       note('__SUGGESTION_' + sIdx + '_*__', 'opts.suggestions[' + (sIdx - 1) + ']', slot.slug, false);
     } else {
       note('__SUGGESTION_' + sIdx + '_*__', 'no slot — placeholders left raw', '', true,
@@ -360,10 +410,67 @@ function apply(opts) {
   var ogLocale = OG_LOCALE_MAP[locale] || locale;
   note('__OG_LOCALE__', 'BCP-47 mapping', ogLocale, false);
 
-  // 37. __OG_IMAGE_ALT__ — mirrors __OG_TITLE__ at Phase 3a.1; Phase 3b refines
-  // (Phase 3b path-(b) trace upgrade may compose a more specific alt text)
-  var ogImageAlt = ogTitle;
-  note('__OG_IMAGE_ALT__', 'mirrors __OG_TITLE__', ogImageAlt, false);
+  // 37. __OG_IMAGE_ALT__ — alt-text SEO commission 2026-05-27 (Dimension 1):
+  // composed from manifest+taxonomy+i18n+image-vocabulary per deck-rich-alt.js
+  // composeOgImageAlt. Shape: "Free interactive {type} worksheet ({theme})
+  // for {level}: {top3vocab}." Locale-resolved in deck.language. Fallback:
+  // ogTitle (matches pre-commission behavior) on any composer error.
+  var ogImageAlt;
+  try {
+    var ogImageMeta = {
+      exerciseType: manifest.exercise_type,
+      subjectTags: manifest.theme ? [manifest.theme] : [],
+      ageRange: ageRange,
+      language: locale,
+      title: ogTitle,
+    };
+    ogImageAlt = deckRichAlt.composeOgImageAlt(ogImageMeta, manifest.images_used);
+    if (!ogImageAlt) ogImageAlt = ogTitle;
+  } catch (e) {
+    ogImageAlt = ogTitle;
+    warnings.push('__OG_IMAGE_ALT__ composer failed; fell back to ogTitle: ' + e.message);
+  }
+  note('__OG_IMAGE_ALT__', 'composed via deck-rich-alt', ogImageAlt, false);
+
+  // 42. __WORKSHEET_MAIN_ALT__ — alt-text SEO commission 2026-05-27 (Dimension 1):
+  // alt for the main worksheet <img> shown post-completion (was hardcoded
+  // alt="" pre-commission). Composed in deck.language; falls back to ogTitle.
+  var worksheetMainAlt;
+  try {
+    worksheetMainAlt = deckRichAlt.composeWorksheetMainAlt({
+      exerciseType: manifest.exercise_type,
+      subjectTags: manifest.theme ? [manifest.theme] : [],
+      ageRange: ageRange,
+      language: locale,
+      title: ogTitle,
+    }, manifest.images_used);
+    if (!worksheetMainAlt) worksheetMainAlt = ogTitle;
+  } catch (e) {
+    worksheetMainAlt = ogTitle;
+    warnings.push('__WORKSHEET_MAIN_ALT__ composer failed; fell back to ogTitle: ' + e.message);
+  }
+  note('__WORKSHEET_MAIN_ALT__', 'composed via deck-rich-alt', worksheetMainAlt, false);
+
+  // 43. __APP_ARIA_LABEL__ — alt-text SEO commission 2026-05-27 (Dimension 2):
+  // <main role="application" aria-label="..."> on deck.html. Drives WCAG-correct
+  // accessible name for the interactive worksheet container. Uses ogDescription
+  // as the {instruction} fragment when present (deck.html's meta description IS
+  // the canonical instruction sentence per §17.8.1).
+  var appAriaLabel;
+  try {
+    appAriaLabel = deckRichAlt.composeDeckContainerAriaLabel({
+      exerciseType: manifest.exercise_type,
+      subjectTags: manifest.theme ? [manifest.theme] : [],
+      ageRange: ageRange,
+      language: locale,
+      title: ogTitle,
+    }, ogDescription);
+    if (!appAriaLabel) appAriaLabel = ogTitle;
+  } catch (e) {
+    appAriaLabel = ogTitle;
+    warnings.push('__APP_ARIA_LABEL__ composer failed; fell back to ogTitle: ' + e.message);
+  }
+  note('__APP_ARIA_LABEL__', 'composed via deck-rich-alt', appAriaLabel, false);
 
   // 38. __DATE_PUBLISHED__ — ISO 8601 timestamp from manifest.generated_at per
   // §15.1 generation.json schema. Drives Schema.org LearningResource.datePublished
@@ -438,11 +545,14 @@ function apply(opts) {
     .replace(/__OG_DESCRIPTION__/g, ogDescription)
     .replace(/__OG_IMAGE__/g, ogImage)
     .replace(/__OG_LOCALE__/g, ogLocale)
-    .replace(/__OG_IMAGE_ALT__/g, ogImageAlt)
+    .replace(/__OG_IMAGE_ALT__/g, escAttrSafe(ogImageAlt))
     .replace(/__DATE_PUBLISHED__/g, datePublished)
     .replace(/__THUMBNAIL_URL__/g, thumbnailUrl)
     .replace(/__AGE_RANGE__/g, ageRangeRaw)
-    .replace(/__SEO_KEYWORDS__/g, seoKeywords);
+    .replace(/__SEO_KEYWORDS__/g, seoKeywords)
+    // Alt-text SEO commission 2026-05-27 (Dimension 1 + 2):
+    .replace(/__WORKSHEET_MAIN_ALT__/g, escAttrSafe(worksheetMainAlt))
+    .replace(/__APP_ARIA_LABEL__/g, escAttrSafe(appAriaLabel));
 
   return {
     html: html,

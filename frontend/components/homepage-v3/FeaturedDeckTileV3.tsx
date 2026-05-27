@@ -14,6 +14,11 @@ interface Props {
   languageLabel: string;
   thumbnailUrl: string;
   deckUrl: string;
+  /**
+   * Optional richer alt text per the alt-text SEO commission 2026-05-27.
+   * Composed server-side via `buildDeckRichAlt(deck, locale, t)`.
+   */
+  richAlt?: string;
 }
 
 export default function FeaturedDeckTileV3({
@@ -21,6 +26,7 @@ export default function FeaturedDeckTileV3({
   languageLabel,
   thumbnailUrl,
   deckUrl,
+  richAlt,
 }: Props) {
   const t = useTranslations('homepageV3.featuredTile');
   const [open, setOpen] = useState(false);
@@ -45,12 +51,12 @@ export default function FeaturedDeckTileV3({
         type="button"
         onClick={() => setOpen(true)}
         className="hv3-card-deep group relative block w-full text-left overflow-hidden"
-        aria-label={`${t('badge')}: ${title}`}
+        aria-label={`${t('badge')}: ${richAlt ?? title}`}
       >
         <div className="relative aspect-[480/620] bg-lcs-cream overflow-hidden rounded-t-[28px]">
           <img
             src={thumbnailUrl}
-            alt={title}
+            alt={richAlt ?? title}
             loading="lazy"
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
           />

@@ -29,6 +29,9 @@ var db = require('./db');
 var deckEndSuggestions = require('./deck-end-suggestions');
 var seoReconMod = require('./seo-reconciliation');
 var countInboundMod = require('./count-inbound-surfaces');
+var pdfMetadata = require('./pdf-metadata');
+var taxonomy = require('./taxonomy');
+var i18n = require('./i18n');
 
 var CANONICAL_URL_BASE = 'https://lessoncraftstudio.com';
 
@@ -250,12 +253,86 @@ async function publish(opts) {
     meta.warnings.forEach(function (w) { console.error('[publish] WARN ' + w); });
   }
 
+  // Step 4.5: PDF metadata + canonical-URL link annotation.
+  //
+  // Per external SEO audit (2026-05-27) + plan
+  // .claude/plans/heading-structure-audit-critical-eager-dongarra.md:
+  // Google indexes PDFs directly and relies on the /Info dict for snippet
+  // generation; the "Made with LessonCraftStudio.com" attribution baked
+  // into the JPEG was visible but not a hyperlink, so teacher-shared
+  // PDFs carried zero backlink authority. enhancePdf adds (a) /Info
+  // metadata (Title/Author/Subject/Keywords/Creator/Producer) and (b) a
+  // clickable URI link annotation on the bottom-center attribution band
+  // of every page pointing to the canonical deck URL. Idempotent via
+  // LCS_LINK_ANNOT_TAG marker so retrofit re-runs don't duplicate.
+  //
+  // Architectural precedent: publish-cli post-processing at the asset
+  // boundary, same pattern as og-image-xmp.js (§A.14.10). Image-alt-text
+  // inside the PDF is structurally infeasible (flat JPEG snapshot; no
+  // image-object granularity for PDF /Alt entries).
+  var canonicalURLForPdf = subResult.resolved.canonicalURL;
+  var pdfKeywordsParts = [];
+  try {
+    var et = taxonomy.exerciseTypeFor(manifest.generator.app, locale);
+    if (et && et.name) pdfKeywordsParts.push(et.name);
+  } catch (e) { /* axis-key gap — skip silently */ }
+  if (manifest.theme) {
+    try {
+      var themeEntry = taxonomy.themeFor(manifest.theme, locale);
+      if (themeEntry && themeEntry.name) pdfKeywordsParts.push(themeEntry.name);
+    } catch (e) { /* off-taxonomy theme — skip */ }
+  }
+  // Source age_range from manifest if present (metadata.json layer per
+  // §15.1), else fall back to app's default per taxonomy.
+  var ageRangeForPdf;
+  try {
+    ageRangeForPdf = (manifest.metadata && manifest.metadata.age_range)
+      || taxonomy.appConfig(manifest.generator.app).default_age_range;
+    var levelEntry = taxonomy.levelFor(ageRangeForPdf, locale);
+    if (levelEntry && levelEntry.name) pdfKeywordsParts.push(levelEntry.name);
+  } catch (e) { /* skip */ }
+  pdfKeywordsParts.push('worksheet', 'K-3');
+
+  var basePdfOpts = {
+    title: meta.title,
+    author: 'LessonCraftStudio',
+    subject: meta.description || meta.title,
+    keywords: pdfKeywordsParts.join(', '),
+    canonicalUrl: canonicalURLForPdf
+  };
+
+  var printablePdfRaw = b.byName['printable.pdf'].getData();
+  var enhancedPrintable;
+  try {
+    enhancedPrintable = await pdfMetadata.enhancePdf(printablePdfRaw, basePdfOpts);
+  } catch (pdfErr) {
+    console.error('[publish] WARN PDF metadata injection failed on printable.pdf: ' + pdfErr.message + ' — shipping unenhanced');
+    enhancedPrintable = printablePdfRaw;
+  }
+
+  var enhancedAnswerKey = null;
+  if (b.byName['answer-key.pdf']) {
+    var answerKeyRaw = b.byName['answer-key.pdf'].getData();
+    // Differentiate answer-key title via the localized topicPage.deckCard.
+    // answerKeyLink string (already authored + reviewed per locale).
+    var answerKeyLabel = i18n.resolve(locale, 'topicPage.deckCard.answerKeyLink', 'Answer Key').value;
+    var answerKeyOpts = Object.assign({}, basePdfOpts, {
+      title: meta.title + ' — ' + answerKeyLabel
+    });
+    try {
+      enhancedAnswerKey = await pdfMetadata.enhancePdf(answerKeyRaw, answerKeyOpts);
+    } catch (pdfErr) {
+      console.error('[publish] WARN PDF metadata injection failed on answer-key.pdf: ' + pdfErr.message + ' — shipping unenhanced');
+      enhancedAnswerKey = answerKeyRaw;
+    }
+  }
+
   // Step 5: asset placement (writes to disk; atomic symlink swap; chown; prune).
   var assets = {
     'manifest.json': JSON.stringify(manifest, null, 2),
     'deck.html': subResult.html,
-    'printable.pdf': b.byName['printable.pdf'].getData(),
-    'answer-key.pdf': b.byName['answer-key.pdf'] ? b.byName['answer-key.pdf'].getData() : null,
+    'printable.pdf': enhancedPrintable,
+    'answer-key.pdf': enhancedAnswerKey,
     'thumbnail.png': thumbnailBuffer,
     'og-image.png': ogBuffer
   };

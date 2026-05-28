@@ -1052,7 +1052,15 @@
     },
     "intersection": {
       "heading": "{primary} · {secondary}",
-      "intro": "Arbeitsblätter an der Schnittstelle von {primary} und {secondary}."
+      "intro": "Arbeitsblätter an der Schnittstelle von {primary} und {secondary}.",
+      "meta": {
+        "themeLevel": "Kostenlose druckbare und interaktive Arbeitsblätter zu {theme} für {level}: PDFs zum Ausdrucken plus Online-Übungen für Kita und Grundschule.",
+        "themeType": "Kostenlose druckbare und interaktive {type}-Arbeitsblätter mit {theme}-Motiven: PDFs zum Ausdrucken plus Online-Übungen für Kita und Grundschule.",
+        "levelType": "Kostenlose druckbare und interaktive {type}-Arbeitsblätter für {level}: PDFs zum Ausdrucken plus Online-Übungen für Kita und Grundschule.",
+        "themeLevelShort": "Kostenlose Arbeitsblätter zu {theme} für {level} — druckbare PDFs plus interaktive Online-Übungen für die Grundschule.",
+        "themeTypeShort": "Kostenlose {type}-Arbeitsblätter mit {theme}-Motiven — druckbare PDFs plus interaktive Online-Übungen für die Grundschule.",
+        "levelTypeShort": "Kostenlose {type}-Arbeitsblätter für {level} — druckbare PDFs plus interaktive Online-Übungen für die Grundschule."
+      }
     },
     "variety": {
       "sameAxisKeyOtherLocales": "{topic} in anderen Sprachen",

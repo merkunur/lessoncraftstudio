@@ -960,7 +960,15 @@
     },
     "intersection": {
       "heading": "{primary} · {secondary}",
-      "intro": "Worksheets at the intersection of {primary} and {secondary}."
+      "intro": "Worksheets at the intersection of {primary} and {secondary}.",
+      "meta": {
+        "themeLevel": "Free printable and interactive {theme} worksheets for {level}: PDFs to print plus play-online activities for the multilingual K-3 classroom.",
+        "themeType": "Free printable and interactive {type} worksheets with a {theme} theme: PDFs to print plus play-online activities for multilingual K-3 learners.",
+        "levelType": "Free printable and interactive {type} worksheets for {level}: PDFs to print plus play-online activities for the multilingual K-3 classroom.",
+        "themeLevelShort": "Free {theme} worksheets for {level} — printable PDFs plus interactive play-online activities for K-3 classes.",
+        "themeTypeShort": "Free {type} worksheets with a {theme} theme — printable PDFs plus interactive play-online activities for K-3.",
+        "levelTypeShort": "Free {type} worksheets for {level} — printable PDFs plus interactive play-online activities for K-3 classes."
+      }
     },
     "variety": {
       "sameAxisKeyOtherLocales": "{topic} in other languages",

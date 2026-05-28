@@ -1179,7 +1179,15 @@
     },
     "intersection": {
       "heading": "{primary} · {secondary}",
-      "intro": "Arbeidsark i skjæringspunktet mellom {primary} og {secondary}."
+      "intro": "Arbeidsark i skjæringspunktet mellom {primary} og {secondary}.",
+      "meta": {
+        "themeLevel": "Gratis utskrivbare og interaktive oppgaveark om {theme} for {level}: PDF-filer til utskrift pluss aktiviteter du spiller online for barnehage og småtrinn.",
+        "themeType": "Gratis utskrivbare og interaktive {type}-oppgaveark med {theme} som tema: PDF-filer til utskrift pluss aktiviteter du spiller online for småtrinnet.",
+        "levelType": "Gratis utskrivbare og interaktive {type}-oppgaveark for {level}: PDF-filer til utskrift pluss aktiviteter du spiller online for barnehage og småtrinn.",
+        "themeLevelShort": "Gratis oppgaveark om {theme} for {level} — utskrivbare PDF-filer pluss interaktive aktiviteter du spiller online.",
+        "themeTypeShort": "Gratis {type}-oppgaveark med {theme} som tema — utskrivbare PDF-filer pluss interaktive aktiviteter online.",
+        "levelTypeShort": "Gratis {type}-oppgaveark for {level} — utskrivbare PDF-filer pluss interaktive aktiviteter du spiller online."
+      }
     },
     "variety": {
       "sameAxisKeyOtherLocales": "{topic} på andre språk",

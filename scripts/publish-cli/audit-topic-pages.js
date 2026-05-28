@@ -22,7 +22,7 @@
  *   node scripts/publish-cli/audit-topic-pages.js --concurrency=8
  *   node scripts/publish-cli/audit-topic-pages.js --base-url=https://www.lessoncraftstudio.com
  *   node scripts/publish-cli/audit-topic-pages.js --sample=10
- *   node scripts/publish-cli/audit-topic-pages.js --include-intersections   (FUTURE — single-axis only by default)
+ *   node scripts/publish-cli/audit-topic-pages.js --include-intersections   (adds 2-axis intersection URLs; 404s counted as substrate-honest per §16.6.1)
  */
 
 'use strict';
@@ -82,6 +82,7 @@ function parseArgs(argv) {
     else if (a === '--include-intersections') out.includeIntersections = true;
     else if (a === '--help' || a === '-h') {
       console.log('Usage: node audit-topic-pages.js [--base-url=URL] [--locales=en,de,...] [--axes=exercise-type,theme,educational-level] [--concurrency=N] [--sample=N] [--include-intersections]');
+      console.log('  --include-intersections adds 2-axis pages (/<locale>/topic/<a1>/<a2>/); 404s are substrate-honest per §16.6.1, not quality defects.');
       process.exit(0);
     }
   });
@@ -115,6 +116,52 @@ function enumerateSingleAxisURLs(tx, opts) {
           axisKey: axisKey,
           slug: slug,
           url: opts.baseUrl + '/' + locale + '/topic/' + slug + '/'
+        });
+      });
+    });
+  });
+  return out;
+}
+
+// Canonical axis-ordering (locked §16.5.3): theme → educational-level →
+// exercise-type. Only these three ordered pairs produce canonical intersection
+// URLs; the route 308-redirects wrong-order slugs.
+var INTERSECTION_PAIRS = [
+  ['theme', 'educational-level'],
+  ['theme', 'exercise-type'],
+  ['educational-level', 'exercise-type']
+];
+
+function enumerateIntersectionURLs(tx, opts) {
+  // Returns array of { locale, axis:'intersection', axisPair, axisKey, slug, url, isIntersection:true }.
+  // Combinatorial over the 3 canonical pairs × slug combos × locales. Most are
+  // substrate-honest 404 (no published deck for both axes) — the audit counts
+  // those separately from quality defects per §16.6.1.
+  var out = [];
+  INTERSECTION_PAIRS.forEach(function (pair) {
+    var axis1 = pair[0], axis2 = pair[1];
+    var block1 = tx.axes && tx.axes[axis1];
+    var block2 = tx.axes && tx.axes[axis2];
+    if (!block1 || !block2) return;
+    Object.keys(block1).forEach(function (key1) {
+      var e1 = block1[key1];
+      if (!e1 || !e1.slug) return;
+      Object.keys(block2).forEach(function (key2) {
+        var e2 = block2[key2];
+        if (!e2 || !e2.slug) return;
+        opts.locales.forEach(function (locale) {
+          var slug1 = e1.slug[locale];
+          var slug2 = e2.slug[locale];
+          if (!slug1 || !slug2) return;
+          out.push({
+            locale: locale,
+            axis: 'intersection',
+            axisPair: axis1 + '×' + axis2,
+            axisKey: key1 + '__' + key2,
+            slug: slug1 + '/' + slug2,
+            url: opts.baseUrl + '/' + locale + '/topic/' + slug1 + '/' + slug2 + '/',
+            isIntersection: true
+          });
         });
       });
     });
@@ -177,10 +224,22 @@ function runChecks(rec, ctx) {
   var checks = {};
   var defects = [];
 
+  // Intersection pages are substrate-honest per §16.6.1: a 404 means no
+  // published deck satisfies both axes — expected for most combos, NOT a
+  // quality defect. Mark notLive so the summary buckets it separately.
+  if (rec.isIntersection && rec.status === 404) {
+    return {
+      url: rec.url, locale: rec.locale, axis: 'intersection', axisPair: rec.axisPair,
+      axisKey: rec.axisKey, slug: rec.slug, status: 404, isIntersection: true,
+      notLive: true, checks: { fetch: { pass: true, category: 'SUBSTRATE_HONEST_404' } },
+      defectClasses: [], defectCount: 0, passAll: true
+    };
+  }
+
   if (rec.status !== 200) {
     checks.fetch = { pass: false, category: 'HTTP_' + rec.status };
     defects.push('PAGE_HTTP_' + rec.status);
-    return { url: rec.url, locale: rec.locale, axis: rec.axis, axisKey: rec.axisKey, slug: rec.slug, status: rec.status, checks: checks, defectClasses: defects, defectCount: defects.length, passAll: false };
+    return { url: rec.url, locale: rec.locale, axis: rec.axis, axisPair: rec.axisPair, axisKey: rec.axisKey, slug: rec.slug, status: rec.status, isIntersection: rec.isIntersection, checks: checks, defectClasses: defects, defectCount: defects.length, passAll: false };
   }
 
   var desc = extractMetaDescription(rec.body || '');
@@ -188,8 +247,8 @@ function runChecks(rec, ctx) {
     checks.metaDescriptionPresent = { pass: false, category: 'NO_META_DESCRIPTION' };
     defects.push('META_DESCRIPTION_MISSING');
     return {
-      url: rec.url, locale: rec.locale, axis: rec.axis, axisKey: rec.axisKey, slug: rec.slug,
-      status: rec.status, checks: checks, defectClasses: defects, defectCount: defects.length, passAll: false
+      url: rec.url, locale: rec.locale, axis: rec.axis, axisPair: rec.axisPair, axisKey: rec.axisKey, slug: rec.slug,
+      status: rec.status, isIntersection: rec.isIntersection, checks: checks, defectClasses: defects, defectCount: defects.length, passAll: false
     };
   }
   checks.metaDescriptionPresent = { pass: true };
@@ -236,8 +295,8 @@ function runChecks(rec, ctx) {
   }
 
   return {
-    url: rec.url, locale: rec.locale, axis: rec.axis, axisKey: rec.axisKey, slug: rec.slug,
-    status: rec.status, descriptionLength: len, descriptionPreview: desc.slice(0, 200),
+    url: rec.url, locale: rec.locale, axis: rec.axis, axisPair: rec.axisPair, axisKey: rec.axisKey, slug: rec.slug,
+    status: rec.status, isIntersection: rec.isIntersection, descriptionLength: len, descriptionPreview: desc.slice(0, 200),
     checks: checks, defectClasses: defects, defectCount: defects.length, passAll: defects.length === 0
   };
 }
@@ -278,10 +337,17 @@ function summarizeByLocale(perPage) {
         locale: r.locale, total: 0, pass: 0, fail: 0,
         byAxis: { 'exercise-type': { total: 0, pass: 0 }, 'theme': { total: 0, pass: 0 }, 'educational-level': { total: 0, pass: 0 } },
         defectCounts: {}, fallbackCount: 0, tooShortCount: 0, tooLongCount: 0, nonUniqueCount: 0, missingCount: 0,
+        intersectionLive: 0, intersectionPass: 0, intersectionNotLive: 0,
         sampleFailures: []
       };
     }
     var b = byLocale[r.locale];
+    // Substrate-honest intersection 404s (§16.6.1): counted, not quality-graded.
+    if (r.notLive) { b.intersectionNotLive++; return; }
+    if (r.isIntersection) {
+      b.intersectionLive++;
+      if (r.passAll) b.intersectionPass++;
+    }
     b.total++;
     if (b.byAxis[r.axis]) {
       b.byAxis[r.axis].total++;
@@ -334,6 +400,9 @@ function buildMarkdown(perPage, byLocale, opts, stamp) {
       var a = b.byAxis[ax];
       lines.push('- ' + ax + ': ' + a.pass + ' / ' + a.total + ' pass');
     });
+    if (b.intersectionLive || b.intersectionNotLive) {
+      lines.push('- intersection: ' + b.intersectionPass + ' / ' + b.intersectionLive + ' live pass; ' + b.intersectionNotLive + ' substrate-honest 404');
+    }
     lines.push('');
   });
   lines.push('## Sample failures (up to 5 per locale)');
@@ -360,13 +429,16 @@ async function main() {
   var opts = parseArgs(process.argv);
   var tx = loadTaxonomy();
   var targets = enumerateSingleAxisURLs(tx, opts);
+  var intersectionCount = 0;
   if (opts.includeIntersections) {
-    console.warn('[warn] --include-intersections requested but intersection enumeration is deferred to a later commission. Auditing single-axis only.');
+    var intersectionTargets = enumerateIntersectionURLs(tx, opts);
+    intersectionCount = intersectionTargets.length;
+    targets = targets.concat(intersectionTargets);
   }
   if (opts.sample && targets.length > opts.sample) {
     targets = targets.slice(0, opts.sample);
   }
-  console.log('[info] Topic-page audit start: ' + targets.length + ' single-axis URLs across ' + opts.locales.length + ' locales × ' + opts.axes.length + ' axes.');
+  console.log('[info] Topic-page audit start: ' + targets.length + ' URLs (' + (targets.length - intersectionCount) + ' single-axis + ' + intersectionCount + ' intersection) across ' + opts.locales.length + ' locales.');
   console.log('[info] Concurrency: ' + opts.concurrency + '. Base URL: ' + opts.baseUrl);
 
   var ctx = { hashSetByLocale: {} };
@@ -403,6 +475,9 @@ async function main() {
   Object.keys(byLocale).sort().forEach(function (loc) {
     var b = byLocale[loc];
     console.log('  ' + loc + ': ' + b.pass + ' / ' + b.total + ' pass (' + b.fail + ' fail; ' + b.fallbackCount + ' fallback, ' + b.tooShortCount + ' too short, ' + b.tooLongCount + ' too long, ' + b.nonUniqueCount + ' non-unique, ' + b.missingCount + ' missing)');
+    if (b.intersectionLive || b.intersectionNotLive) {
+      console.log('      intersections: ' + b.intersectionPass + ' / ' + b.intersectionLive + ' live pass; ' + b.intersectionNotLive + ' substrate-honest 404');
+    }
   });
   console.log('');
   console.log('[output] JSON: ' + jsonPath);
@@ -424,5 +499,6 @@ module.exports = {
   sha1Normalized: sha1Normalized,
   extractMetaDescription: extractMetaDescription,
   enumerateSingleAxisURLs: enumerateSingleAxisURLs,
+  enumerateIntersectionURLs: enumerateIntersectionURLs,
   FALLBACK_PATTERNS: FALLBACK_PATTERNS
 };

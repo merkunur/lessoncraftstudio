@@ -1195,7 +1195,15 @@
     },
     "intersection": {
       "heading": "{primary} · {secondary}",
-      "intro": "Fiches à l’intersection de {primary} et {secondary}."
+      "intro": "Fiches à l’intersection de {primary} et {secondary}.",
+      "meta": {
+        "themeLevel": "Fiches gratuites et interactives de {theme} pour {level} : PDF à imprimer et activités à jouer en ligne pour la maternelle et l'élémentaire.",
+        "themeType": "Fiches gratuites et interactives de {type} sur le thème {theme} : PDF à imprimer et activités à jouer en ligne pour la maternelle et l'élémentaire.",
+        "levelType": "Fiches gratuites et interactives de {type} pour {level} : PDF à imprimer et activités à jouer en ligne pour la maternelle et l'élémentaire.",
+        "themeLevelShort": "Fiches de {theme} pour {level} — PDF gratuites à imprimer et activités interactives à jouer en ligne pour l'élémentaire.",
+        "themeTypeShort": "Fiches de {type} sur le thème {theme} — PDF gratuites à imprimer et activités interactives à jouer en ligne.",
+        "levelTypeShort": "Fiches de {type} pour {level} — PDF gratuites à imprimer et activités interactives à jouer en ligne pour l'élémentaire."
+      }
     },
     "variety": {
       "sameAxisKeyOtherLocales": "{topic} dans d'autres langues",

@@ -1172,7 +1172,15 @@
     },
     "intersection": {
       "heading": "{primary} · {secondary}",
-      "intro": "Arbejdsark i krydsfeltet mellem {primary} og {secondary}."
+      "intro": "Arbejdsark i krydsfeltet mellem {primary} og {secondary}.",
+      "meta": {
+        "themeLevel": "Gratis printbare og interaktive opgaveark om {theme} til {level}: PDF-filer til at printe plus aktiviteter til at spille online for børnehave og indskoling.",
+        "themeType": "Gratis printbare og interaktive {type}-opgaveark med {theme} som tema: PDF-filer til at printe plus aktiviteter til at spille online for indskolingen.",
+        "levelType": "Gratis printbare og interaktive {type}-opgaveark til {level}: PDF-filer til at printe plus aktiviteter til at spille online for børnehave og indskoling.",
+        "themeLevelShort": "Gratis opgaveark om {theme} til {level} — printbare PDF-filer plus interaktive aktiviteter til at spille online.",
+        "themeTypeShort": "Gratis {type}-opgaveark med {theme} som tema — printbare PDF-filer plus interaktive aktiviteter online.",
+        "levelTypeShort": "Gratis {type}-opgaveark til {level} — printbare PDF-filer plus interaktive aktiviteter til at spille online."
+      }
     },
     "variety": {
       "sameAxisKeyOtherLocales": "{topic} på andre sprog",

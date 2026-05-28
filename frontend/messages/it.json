@@ -1188,7 +1188,15 @@
     },
     "intersection": {
       "heading": "{primary} · {secondary}",
-      "intro": "Schede all’intersezione di {primary} e {secondary}."
+      "intro": "Schede all’intersezione di {primary} e {secondary}.",
+      "meta": {
+        "themeLevel": "Schede gratuite e interattive di {theme} per {level}: PDF da stampare e attività da giocare online per la scuola dell'infanzia e primaria.",
+        "themeType": "Schede gratuite e interattive di {type} sul tema {theme}: PDF da stampare e attività da giocare online per la scuola dell'infanzia e primaria.",
+        "levelType": "Schede gratuite e interattive di {type} per {level}: PDF da stampare e attività da giocare online per la scuola dell'infanzia e primaria.",
+        "themeLevelShort": "Schede di {theme} per {level} — PDF gratuiti da stampare e attività interattive da giocare online per la primaria.",
+        "themeTypeShort": "Schede di {type} sul tema {theme} — PDF gratuiti da stampare e attività interattive da giocare online.",
+        "levelTypeShort": "Schede di {type} per {level} — PDF gratuiti da stampare e attività interattive da giocare online per la primaria."
+      }
     },
     "variety": {
       "sameAxisKeyOtherLocales": "{topic} in altre lingue",

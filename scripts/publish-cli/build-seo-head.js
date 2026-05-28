@@ -135,6 +135,12 @@ function composeTitle(opts) {
   var budgetMax = (cfg.charBudget && cfg.charBudget.max) || 70;
   var segCase = cfg.segmentCasing === 'sentence' ? sentenceCase : function (s) { return s; };
   var dropModeKeys = Array.isArray(cfg.headDropModes) ? cfg.headDropModes : [];
+  // headStyle 'of-type' (Italian): native head-initial "Scheda di {type}" for
+  // noun math types (ofTypeKeys); a meaningful mode becomes the head itself
+  // ("Trova l'addendo"); all other types stand alone with no worksheet word.
+  var headStyle = cfg.headStyle || 'default';
+  var ofTypeKeys = Array.isArray(cfg.ofTypeKeys) ? cfg.ofTypeKeys : [];
+  var typeKey = String(opts.exerciseTypeSlug || '');
 
   var typeName = String(opts.exerciseTypeName || '');
   var modeName = (opts.exerciseModeName !== undefined && opts.exerciseModeName !== null && opts.exerciseModeName !== '')
@@ -160,10 +166,20 @@ function composeTitle(opts) {
   var levelResolved = (opts.educationalLevelLocalized !== undefined && opts.educationalLevelLocalized !== null && String(opts.educationalLevelLocalized) !== '');
   var levelText = levelResolved ? String(opts.educationalLevelLocalized) : '__EDUCATIONAL_LEVEL_LOCALIZED__';
 
-  // head = {Type}[ {Mode}]{ Worksheet}; dropMode sheds the (secondary) mode keyword
-  // when the title would otherwise overflow the budget.
+  // head builder. Default (en/es): {Type}[ {Mode}]{ Worksheet}. of-type (it):
+  // noun math types → meaningful mode AS head ("Trova l'addendo") else
+  // "{Worksheet} di {Type}" ("Scheda di addizione"); other types → {Type}[ {Mode}]
+  // standalone, no worksheet word ("Cruciverba"). dropMode sheds the secondary
+  // mode keyword when the title would otherwise overflow the budget.
   function headStr(dropMode) {
-    return typeName + (effMode && !dropMode ? ' ' + effMode : '') + wWordPart;
+    var m = (effMode && !dropMode) ? effMode : null;
+    if (headStyle === 'of-type') {
+      if (ofTypeKeys.indexOf(typeKey) !== -1) {
+        return m ? m : (wWord + ' di ' + typeName);
+      }
+      return typeName + (m ? ' ' + m : '');
+    }
+    return typeName + (m ? ' ' + m : '') + wWordPart;
   }
   function build(useShortDiff, dropLevel, dropMode) {
     var segVals = {

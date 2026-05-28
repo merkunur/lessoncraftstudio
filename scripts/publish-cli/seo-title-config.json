@@ -57,5 +57,21 @@
     "numericTemplates": {},
     "diff": { "enableVocab": true, "enableNumeric": false, "enableMode": false, "excludeTypes": ["cryptogram"] },
     "charBudget": { "min": 50, "max": 70 }
+  },
+
+  "_comment_it": "Native Italian 3-agent ensemble 2026-05-28. Operator-locked: 5-7 level = 'Prescolare' (messages/it.json seo.educational_level.kindergarten); head = 'Scheda di {type}' (headStyle of-type). Consensus: sentence-case, drop jargon head modes, connector 'e' (joinStyle conjunction), exclude cryptogram cipher, normalize ALL-CAPS vocab. Type-name softening (Crittogramma, Più o meno) flagged future (taxonomy slugs).",
+  "it": {
+    "titleSegmentOrder": ["head", "theme", "diff", "level"],
+    "separator": " — ",
+    "includeLevel": true,
+    "segmentCasing": "sentence",
+    "headStyle": "of-type",
+    "ofTypeKeys": ["addition", "subtraction"],
+    "worksheetWordOverride": "Scheda",
+    "headDropModes": ["image-image", "three-symbols-add-sub", "image-number", "mixed"],
+    "vocab": { "maxNouns": 2, "joinStyle": "conjunction", "casing": "sentence" },
+    "numericTemplates": {},
+    "diff": { "enableVocab": true, "enableNumeric": false, "enableMode": false, "excludeTypes": ["cryptogram"] },
+    "charBudget": { "min": 50, "max": 70 }
   }
 }

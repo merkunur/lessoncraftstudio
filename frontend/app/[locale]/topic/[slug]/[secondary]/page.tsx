@@ -360,6 +360,45 @@ function firstSentenceOf(prose: string | null | undefined, maxLen = 155): string
   return candidate;
 }
 
+/**
+ * Prose-derived intersection meta with a guaranteed 120-char floor (C15).
+ *
+ * The legacy first-sentence path (firstSentenceOf) returns a single short
+ * sentence as-is, which can fall under the 120-char SEO floor for the ~35
+ * authored intersection prose entries whose opening sentence is terse
+ * ("Animal-themed shadow-match worksheets pair each creature picture with its
+ * silhouette." = 85 chars). This wrapper preserves the legacy output VERBATIM
+ * when the first sentence already renders ≥120 (zero churn for the passing
+ * majority), otherwise accumulates following sentences from the same authored
+ * prose until the floor is reached (capped at MULTI_CAP rendered, word-boundary
+ * + ellipsis). Returns null when the prose is too short even when fully
+ * consumed — the chain then falls through to composeIntersectionDescription,
+ * which is proven to always land 120-170.
+ *
+ * Reuses authored prose; introduces no new copy. Affects only the intersection
+ * route (the single-axis route has its own helper and is gated by topicMeta).
+ */
+function intersectionProseMeta(prose: string | null | undefined): string | null {
+  const FLOOR = 120;
+  const MULTI_CAP = 168;
+  const legacy = firstSentenceOf(prose, 155);
+  if (!legacy) return null;
+  if (renderedMetaLen(legacy) >= FLOOR) return legacy;
+  const sentences = String(prose || '').trim().match(/[^.!?]+[.!?]+(?=\s|$)|[^.!?]+$/g) || [];
+  let acc = '';
+  for (const s of sentences) {
+    acc = acc ? acc + ' ' + s.trim() : s.trim();
+    if (renderedMetaLen(acc) >= FLOOR) break;
+  }
+  if (renderedMetaLen(acc) < FLOOR) return null;
+  if (renderedMetaLen(acc) <= MULTI_CAP) return acc;
+  let cut = acc;
+  while (renderedMetaLen(cut) > MULTI_CAP - 1 && cut.length > 0) cut = cut.slice(0, -1);
+  const lastSpace = cut.lastIndexOf(' ');
+  if (lastSpace > cut.length * 0.7) cut = cut.slice(0, lastSpace);
+  return cut.replace(/[\s,;:·—-]+$/, '') + '…';
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -400,7 +439,9 @@ export async function generateMetadata({
   const ti = await getTranslations({ locale, namespace: 'topicPage.intersection.meta' });
   const intersectionMeta = await getIntersectionMeta(locale, axisKey1, axisKey2);
   const intersectionProse = await getIntersectionProse(locale, axisKey1, axisKey2);
-  const prosePreview = firstSentenceOf(intersectionProse, 155);
+  // C15: prose path now guarantees the 120-char floor (accumulates sentences),
+  // returning null when the authored prose is too short — chain then composes.
+  const prosePreview = intersectionProseMeta(intersectionProse);
   const description =
     intersectionMeta ?? prosePreview ?? composeIntersectionDescription(axis1, axis2, name1, name2, ti);
 

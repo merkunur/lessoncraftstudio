@@ -144,6 +144,8 @@ function composeTitle(opts) {
   // ofTypeWordPosition: 'before' (Romance: "Scheda di addizione") | 'after'
   // (German compound order: "Addition Arbeitsblatt").
   var ofTypeWordPosition = cfg.ofTypeWordPosition || 'before';
+  // ofTypeElision: French "de" + vowel-initial type → "d'" ("Fiche d'addition").
+  var ofTypeElision = !!cfg.ofTypeElision;
   var typeKey = String(opts.exerciseTypeSlug || '');
 
   var typeName = String(opts.exerciseTypeName || '');
@@ -181,9 +183,11 @@ function composeTitle(opts) {
     var m = (effMode && !dropMode) ? effMode : null;
     if (headStyle === 'of-type') {
       if (ofTypeKeys.indexOf(typeKey) !== -1) {
-        return ofTypeWordPosition === 'after'
-          ? typeName + ' ' + wWord                       // "Addition Arbeitsblatt"
-          : wWord + ' ' + ofTypeConn + ' ' + typeName;   // "Scheda di addizione"
+        if (ofTypeWordPosition === 'after') return typeName + ' ' + wWord;  // "Addition Arbeitsblatt"
+        if (ofTypeElision && /^[aeiouhàâäéèêëíïîôöòûüù]/i.test(typeName)) {
+          return wWord + ' ' + ofTypeConn.slice(0, -1) + "'" + typeName;    // "Fiche d'addition"
+        }
+        return wWord + ' ' + ofTypeConn + ' ' + typeName;                   // "Scheda di addizione" / "Fiche de soustraction"
       }
       return typeName + (m ? ' ' + m : '');
     }
@@ -196,8 +200,10 @@ function composeTitle(opts) {
       head: segCase(headStr(dropMode)),
       theme: themeName ? segCase(themeName) : themeName,
       diff: useShortDiff ? diffShort : diffPhrase,
-      // Never sentence-case the unresolved placeholder (would corrupt the token).
-      level: (includeLevel && !dropLevel) ? (levelResolved ? segCase(levelText) : levelText) : null
+      // Level comes from i18n already correctly cased (incl. acronyms like "CP"/
+      // "CE1"); NEVER sentence-case it (would break "CP"→"Cp"). Placeholder also
+      // passes through untouched.
+      level: (includeLevel && !dropLevel) ? levelText : null
     };
     var parts = [];
     for (var i = 0; i < order.length; i++) {

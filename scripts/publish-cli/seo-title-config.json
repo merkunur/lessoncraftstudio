@@ -107,5 +107,23 @@
     "numericTemplates": {},
     "diff": { "enableVocab": true, "enableNumeric": false, "enableMode": false, "excludeTypes": ["cryptogram"] },
     "charBudget": { "min": 50, "max": 70 }
+  },
+
+  "_comment_fr": "Native French 3-agent ensemble 2026-05-29. Romance (es/it/pt family). head = 'Fiche de/d' {type}' (of-type 'before', connector 'de', ELISION 'd'' before vowels — 'Fiche d'addition'); activity-named types standalone (Mots croisés, Chasse au trésor). Consensus: sentence-case, worksheet word 'Fiche', connector 'et', drop jargon modes, exclude cryptogram, normalize ALL-CAPS. Levels Maternelle/Grande section/CP/CE1/CE2 SEO-confirmed (mild maternelle-umbrella tension noted). Type-name flags future: Apparier les ombres→Associe les ombres, Train de modèles→suites logiques, Trouve les objets→Cherche et trouve, Cryptogramme→Mots codés.",
+  "fr": {
+    "titleSegmentOrder": ["head", "theme", "diff", "level"],
+    "separator": " — ",
+    "includeLevel": true,
+    "segmentCasing": "sentence",
+    "headStyle": "of-type",
+    "ofTypeKeys": ["addition", "subtraction"],
+    "ofTypeConnector": "de",
+    "ofTypeElision": true,
+    "worksheetWordOverride": "Fiche",
+    "headDropModes": ["image-image", "three-symbols-add-sub", "two-symbols-add-sub", "four-symbols-add-sub", "image-number", "mixed", "cardinal-arrows", "find-shadow", "make-whole", "check-cross", "i-spy", "letter-spotting", "one-missing", "two-missing"],
+    "vocab": { "maxNouns": 2, "joinStyle": "conjunction", "casing": "sentence" },
+    "numericTemplates": {},
+    "diff": { "enableVocab": true, "enableNumeric": false, "enableMode": false, "excludeTypes": ["cryptogram"] },
+    "charBudget": { "min": 50, "max": 70 }
   }
 }

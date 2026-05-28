@@ -472,6 +472,9 @@ function buildSeoOpts(c) {
   // differentiator (replaces the old "Set NNN" tail). buildSeoHead's new engine
   // composes a 50-70-char, brand-free, unique title when titleConfig is present.
   seoOpts.titleConfig = resolveTitleConfig(c.manifest.language);
+  // Mode axis-key (raw) so the title engine can drop locale-specific jargon modes
+  // from the head (config.headDropModes) — distinct from the localized modeName.
+  seoOpts.exerciseModeKey = c.manifest.exercise_mode || null;
   var diffResult = seoDifferentiator.deriveDifferentiator(
     c.manifest, c.manifest.language,
     { config: seoOpts.titleConfig, exerciseModeName: seoOpts.exerciseModeName }

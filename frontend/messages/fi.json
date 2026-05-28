@@ -1086,8 +1086,8 @@
   },
   "seo": {
     "educational_level": {
-      "preschool": "Päiväkoti",
-      "kindergarten": "Esikoulu",
+      "preschool": "Varhaiskasvatus",
+      "kindergarten": "Esiopetus",
       "grade_1": "1. luokka",
       "grade_2": "2. luokka",
       "grade_3": "3. luokka"

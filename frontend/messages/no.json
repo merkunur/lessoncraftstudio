@@ -1102,13 +1102,13 @@
   "seo": {
     "educational_level": {
       "preschool": "Barnehage",
-      "kindergarten": "Førskole",
+      "kindergarten": "Skolestart",
       "grade_1": "1. trinn",
       "grade_2": "2. trinn",
       "grade_3": "3. trinn"
     },
     "words": {
-      "worksheet": "Oppgaveark",
+      "worksheet": "Arbeidsark",
       "free_interactive": "Gratis interaktivt",
       "for": "for",
       "print_or_play_online": "Skriv ut eller spill online",

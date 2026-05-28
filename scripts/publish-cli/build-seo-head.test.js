@@ -1065,6 +1065,70 @@ test('da differentiator: "og" connector + sentence-case + ALL-CAPS normalized', 
 });
 
 console.log('');
+console.log('Title overhaul: Norwegian config (of-type "compound" + Fugen-s + sentence-case):');
+
+var NO_CFG = require('./seo-title-config.json').no;
+
+test('no of-type "compound": addition -> "Addisjonsarbeidsark" (Fugen-s)', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'no', titleConfig: NO_CFG,
+    exerciseTypeName: 'Addisjon', exerciseTypeSlug: 'addition', themeName: 'Dyr',
+    educationalLevelLocalized: 'Skolestart',
+    differentiator: { kind: 'vocab', phrase: 'Katt og hund', phraseShort: 'Katt', raw: 'cat|dog' }
+  }));
+  assert.strictEqual(titleText(out), 'Addisjonsarbeidsark — Dyr — Katt og hund — Skolestart');
+});
+
+test('no of-type "compound": subtraction -> "Subtraksjonsarbeidsark"', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'no', titleConfig: NO_CFG,
+    exerciseTypeName: 'Subtraksjon', exerciseTypeSlug: 'subtraction', themeName: 'Dyr',
+    educationalLevelLocalized: '1. trinn',
+    differentiator: { kind: 'vocab', phrase: 'Rådyr', phraseShort: 'Rådyr', raw: 'deer' }
+  }));
+  assert.strictEqual(titleText(out), 'Subtraksjonsarbeidsark — Dyr — Rådyr — 1. trinn');
+});
+
+test('no non-of-type: activity type stands alone, no arbeidsark ("Kryssord")', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'no', titleConfig: NO_CFG,
+    exerciseTypeName: 'Kryssord', exerciseTypeSlug: 'crossword', themeName: 'Frukt',
+    educationalLevelLocalized: '1. trinn',
+    differentiator: { kind: 'none', phrase: null }
+  }));
+  assert.strictEqual(titleText(out), 'Kryssord — Frukt — 1. trinn');
+});
+
+test('no pattern-worksheet: "Mønsterark" not ofType, stands alone (no arbeidsark)', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'no', titleConfig: NO_CFG,
+    exerciseTypeName: 'Mønsterark', exerciseTypeSlug: 'pattern-worksheet', themeName: null,
+    educationalLevelLocalized: '1. trinn',
+    differentiator: { kind: 'none', phrase: null }
+  }));
+  assert.strictEqual(titleText(out), 'Mønsterark — 1. trinn');
+});
+
+test('no non-of-type: Title-Case type sentence-cased ("Mer Eller Mindre"->"Mer eller mindre")', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'no', titleConfig: NO_CFG,
+    exerciseTypeName: 'Mer Eller Mindre', exerciseTypeSlug: 'more-less', themeName: 'Dyr',
+    educationalLevelLocalized: 'Barnehage',
+    differentiator: { kind: 'none', phrase: null }
+  }));
+  assert.strictEqual(titleText(out), 'Mer eller mindre — Dyr — Barnehage');
+});
+
+test('no differentiator: "og" connector + sentence-case + ALL-CAPS normalized', function () {
+  var d = require('./seo-differentiator');
+  var r = d.deriveDifferentiator(
+    { exercise_type: 'addition', theme: 'animals', language: 'no', vocabulary: ['KATT', 'HUND'], images_used: ['/images/animals/cat.png', '/images/animals/dog.png'] },
+    'no', { config: { vocab: { maxNouns: 2, joinStyle: 'conjunction', casing: 'sentence' }, diff: { enableVocab: true } } }
+  );
+  assert.strictEqual(r.phrase, 'Katt og hund', 'expected "Katt og hund", got: ' + r.phrase);
+});
+
+console.log('');
 console.log('============================================================');
 console.log('Tests: ' + passCount + ' passed, ' + failCount + ' failed');
 process.exit(failCount > 0 ? 1 : 0);

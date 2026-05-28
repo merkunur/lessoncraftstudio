@@ -664,6 +664,74 @@ test('es: differentiator sentence-case via deriveDifferentiator (phrase-level)',
 });
 
 console.log('');
+console.log('Title overhaul: Italian locale config (headStyle of-type + Prescolare):');
+
+var IT_CFG = require('./seo-title-config.json').it;
+
+test('it of-type: noun math type, no mode -> "Scheda di {type}"', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'it', titleConfig: IT_CFG,
+    exerciseTypeName: 'Addizione', exerciseTypeSlug: 'addition', themeName: 'Animali',
+    educationalLevelLocalized: 'Prescolare',
+    differentiator: { kind: 'vocab', phrase: 'Mucca', phraseShort: 'Mucca', raw: 'cow' }
+  }));
+  assert.strictEqual(titleText(out), 'Scheda di addizione — Animali — Mucca — Prescolare');
+});
+
+test('it of-type: meaningful mode becomes the head', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'it', titleConfig: IT_CFG,
+    exerciseTypeName: 'Addizione', exerciseTypeSlug: 'addition',
+    exerciseModeName: "Trova l'addendo", exerciseModeKey: 'find-addend',
+    themeName: 'Animali', educationalLevelLocalized: 'Prescolare',
+    differentiator: { kind: 'vocab', phrase: 'Mucca', phraseShort: 'Mucca', raw: 'cow' }
+  }));
+  assert.strictEqual(titleText(out), "Trova l'addendo — Animali — Mucca — Prescolare");
+});
+
+test('it of-type: jargon mode (image-image) dropped -> falls back to "Scheda di {type}"', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'it', titleConfig: IT_CFG,
+    exerciseTypeName: 'Addizione', exerciseTypeSlug: 'addition',
+    exerciseModeName: 'Immagine-Immagine', exerciseModeKey: 'image-image',
+    themeName: 'Animali', educationalLevelLocalized: 'Prescolare',
+    differentiator: { kind: 'none', phrase: null }
+  }));
+  assert.strictEqual(titleText(out), 'Scheda di addizione — Animali — Prescolare');
+});
+
+test('it non-of-type: type stands alone, no worksheet word', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'it', titleConfig: IT_CFG,
+    exerciseTypeName: 'Cruciverba', exerciseTypeSlug: 'crossword', themeName: 'Frutta',
+    educationalLevelLocalized: 'Prescolare',
+    differentiator: { kind: 'none', phrase: null }
+  }));
+  assert.strictEqual(titleText(out), 'Cruciverba — Frutta — Prescolare');
+  assert.strictEqual(titleText(out).toLowerCase().indexOf('scheda'), -1, 'no worksheet word on non-of-type');
+});
+
+test('it non-of-type: Title-Case type sentence-cased ("Più O Meno" -> "Più o meno")', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'it', titleConfig: IT_CFG,
+    exerciseTypeName: 'Più O Meno', exerciseTypeSlug: 'more-less', themeName: 'Vita marina',
+    educationalLevelLocalized: 'Prescolare',
+    differentiator: { kind: 'none', phrase: null }
+  }));
+  assert.strictEqual(titleText(out), 'Più o meno — Vita marina — Prescolare');
+});
+
+test('it: differentiator connector is "e" (conjunction) + sentence-case', function () {
+  var d = require('./seo-differentiator');
+  var r = d.deriveDifferentiator(
+    { exercise_type: 'addition', theme: 'animals', language: 'it', vocabulary: ['mucca', 'pecora'], images_used: ['/images/animals/cow.png', '/images/animals/sheep.png'] },
+    'it',
+    { config: { vocab: { maxNouns: 2, joinStyle: 'conjunction', casing: 'sentence' }, diff: { enableVocab: true } } }
+  );
+  assert.strictEqual(r.phrase, 'Mucca e pecora', 'expected "Mucca e pecora", got: ' + r.phrase);
+});
+
+console.log('');
 console.log('============================================================');
 console.log('Tests: ' + passCount + ' passed, ' + failCount + ' failed');
 process.exit(failCount > 0 ? 1 : 0);

@@ -622,8 +622,14 @@ function inferAgeRange(manifest) {
  */
 function skillSentenceFor(locale, exerciseType) {
   if (!exerciseType) return { full: '', short: '' };
+  // NEVER fall back to the EN skill sentence for a non-en locale — that leaks
+  // English into the (localized) description and trips the locale-residue gate
+  // (it surfaced when the shorter 'Prescolare' it level pushed cores below the
+  // 120-floor, making the band reach for the absent it skill → EN). A locale
+  // without its own skill block simply emits no skill sentence; the description
+  // falls back to its localized instruction + core.
   var byLoc = SKILL_SENTENCES[locale] || {};
-  var e = byLoc[exerciseType] || (SKILL_SENTENCES.en && SKILL_SENTENCES.en[exerciseType]) || {};
+  var e = byLoc[exerciseType] || {};
   if (typeof e === 'string') return { full: e, short: '' }; // C16b single-tier back-compat
   return { full: e.full || '', short: e.short || '' };       // C19 {full, short} tiers
 }

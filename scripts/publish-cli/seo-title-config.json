@@ -91,5 +91,21 @@
     "numericTemplates": {},
     "diff": { "enableVocab": true, "enableNumeric": false, "enableMode": false, "excludeTypes": ["cryptogram"] },
     "charBudget": { "min": 50, "max": 70 }
+  },
+
+  "_comment_de": "Native German 3-agent ensemble 2026-05-28. Operator-locked: levels swapped (German Kindergarten=younger so preschool→'Kindergarten', kindergarten→'Vorschule' in messages/de.json — §17.4.3 taxonomy axis also inverted, topic-page follow-up); head = '{Type} Arbeitsblatt' (of-type, ofTypeWordPosition 'after'). German capitalizes nouns → NO segmentCasing (preserve); vocab casing 'german' (preserve + normalize ALL-CAPS). 9 wrongly-Title-Cased de type names fixed in topics-taxonomy.json (Mehr oder weniger, Wort raten, etc.). Type-name flags future: Musterzug→Muster fortsetzen, Objekte finden→Gegenstände finden, Kryptogramm→Geheimschrift.",
+  "de": {
+    "titleSegmentOrder": ["head", "theme", "diff", "level"],
+    "separator": " — ",
+    "includeLevel": true,
+    "headStyle": "of-type",
+    "ofTypeKeys": ["addition", "subtraction"],
+    "ofTypeWordPosition": "after",
+    "worksheetWordOverride": "Arbeitsblatt",
+    "headDropModes": ["image-image", "three-symbols-add-sub", "two-symbols-add-sub", "four-symbols-add-sub", "image-number", "mixed", "cardinal-arrows", "find-shadow", "make-whole", "check-cross", "i-spy", "letter-spotting", "one-missing", "two-missing"],
+    "vocab": { "maxNouns": 2, "joinStyle": "conjunction", "casing": "german" },
+    "numericTemplates": {},
+    "diff": { "enableVocab": true, "enableNumeric": false, "enableMode": false, "excludeTypes": ["cryptogram"] },
+    "charBudget": { "min": 50, "max": 70 }
   }
 }

@@ -778,6 +778,56 @@ test('it of-type still uses "di" (ofTypeConnector backstop after default change)
 });
 
 console.log('');
+console.log('Title overhaul: German config (of-type "after" + german casing):');
+
+var DE_CFG = require('./seo-title-config.json').de;
+
+test('de of-type "after": "{Type} Arbeitsblatt" (type-first, preserve noun caps)', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'de', titleConfig: DE_CFG,
+    exerciseTypeName: 'Addition', exerciseTypeSlug: 'addition', themeName: 'Tiere',
+    educationalLevelLocalized: 'Kindergarten',
+    differentiator: { kind: 'vocab', phrase: 'Specht', phraseShort: 'Specht', raw: 'woodpecker' }
+  }));
+  assert.strictEqual(titleText(out), 'Addition Arbeitsblatt — Tiere — Specht — Kindergarten');
+});
+
+test('de non-of-type: type stands alone (no Arbeitsblatt double)', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'de', titleConfig: DE_CFG,
+    exerciseTypeName: 'Kreuzworträtsel', exerciseTypeSlug: 'crossword', themeName: 'Obst',
+    educationalLevelLocalized: 'Vorschule',
+    differentiator: { kind: 'none', phrase: null }
+  }));
+  assert.strictEqual(titleText(out), 'Kreuzworträtsel — Obst — Vorschule');
+});
+
+test('de math-worksheet: type already has "Arbeitsblatt", no double', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'de', titleConfig: DE_CFG,
+    exerciseTypeName: 'Mathe-Arbeitsblatt', exerciseTypeSlug: 'math-worksheet', themeName: 'Tiere',
+    educationalLevelLocalized: 'Kindergarten',
+    differentiator: { kind: 'none', phrase: null }
+  }));
+  assert.strictEqual((titleText(out).match(/Arbeitsblatt/g) || []).length, 1);
+  assert.strictEqual(titleText(out), 'Mathe-Arbeitsblatt — Tiere — Kindergarten');
+});
+
+test('de german casing: ALL-CAPS normalized, proper-cased nouns preserved, "und" connector', function () {
+  var d = require('./seo-differentiator');
+  var allcaps = d.deriveDifferentiator(
+    { exercise_type: 'word-guess', theme: 'activities', language: 'de', vocabulary: ['SCHACH', 'TANZEN'], images_used: [] },
+    'de', { config: { vocab: { maxNouns: 2, joinStyle: 'conjunction', casing: 'german' }, diff: { enableVocab: true } } }
+  );
+  assert.strictEqual(allcaps.phrase, 'Schach und Tanzen', 'all-caps normalized; got: ' + allcaps.phrase);
+  var proper = d.deriveDifferentiator(
+    { exercise_type: 'addition', theme: 'animals', language: 'de', vocabulary: ['Katze', 'Hund'], images_used: [] },
+    'de', { config: { vocab: { maxNouns: 2, joinStyle: 'conjunction', casing: 'german' }, diff: { enableVocab: true } } }
+  );
+  assert.strictEqual(proper.phrase, 'Katze und Hund', 'proper nouns preserved; got: ' + proper.phrase);
+});
+
+console.log('');
 console.log('============================================================');
 console.log('Tests: ' + passCount + ' passed, ' + failCount + ' failed');
 process.exit(failCount > 0 ? 1 : 0);

@@ -345,7 +345,7 @@
         },
         "name": {
           "en": "More Or Less",
-          "de": "Mehr Oder Weniger",
+          "de": "Mehr oder weniger",
           "es": "Más O Menos",
           "nl": "Meer Of Minder",
           "it": "Più O Meno",
@@ -429,7 +429,7 @@
         },
         "name": {
           "en": "Big Or Small",
-          "de": "Groß Oder Klein",
+          "de": "Groß oder klein",
           "es": "Grande O Pequeño",
           "nl": "Groot Of Klein",
           "it": "Grande O Piccolo",
@@ -457,7 +457,7 @@
         },
         "name": {
           "en": "Chart Count",
-          "de": "Tabelle Zählen",
+          "de": "Tabelle zählen",
           "es": "Contar En Gráfico",
           "nl": "Grafiek Tellen",
           "it": "Conteggio Grafico",
@@ -653,7 +653,7 @@
         },
         "name": {
           "en": "Shadow Match",
-          "de": "Schatten Zuordnen",
+          "de": "Schatten zuordnen",
           "es": "Emparejar Sombras",
           "nl": "Schaduw Koppelen",
           "it": "Abbina Le Ombre",
@@ -737,7 +737,7 @@
         },
         "name": {
           "en": "Word Guess",
-          "de": "Wort Raten",
+          "de": "Wort raten",
           "es": "Adivina La Palabra",
           "nl": "Woord Raden",
           "it": "Indovina La Parola",
@@ -849,7 +849,7 @@
         },
         "name": {
           "en": "Find And Count",
-          "de": "Suchen Und Zählen",
+          "de": "Suchen und zählen",
           "es": "Busca Y Cuenta",
           "nl": "Zoek En Tel",
           "it": "Trova E Conta",
@@ -877,7 +877,7 @@
         },
         "name": {
           "en": "Find Objects",
-          "de": "Objekte Finden",
+          "de": "Objekte finden",
           "es": "Encuentra Los Objetos",
           "nl": "Objecten Zoeken",
           "it": "Trova Gli Oggetti",
@@ -933,7 +933,7 @@
         },
         "name": {
           "en": "Missing Pieces",
-          "de": "Was Fehlt",
+          "de": "Was fehlt",
           "es": "Piezas Faltantes",
           "nl": "Ontbrekende Stukken",
           "it": "Pezzi Mancanti",
@@ -961,7 +961,7 @@
         },
         "name": {
           "en": "Odd One Out",
-          "de": "Was Passt Nicht",
+          "de": "Was passt nicht",
           "es": "El Intruso",
           "nl": "Welke Hoort Er Niet Thuis",
           "it": "L'intruso",

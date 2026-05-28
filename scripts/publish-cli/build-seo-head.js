@@ -80,6 +80,94 @@ function modeRedundant(typeName, modeName) {
   return false;
 }
 
+// Title overhaul: the appended worksheetWord ("Worksheet") is REDUNDANT when the
+// exercise-type NAME already contains it — e.g. type "Math Worksheet" + appended
+// "Worksheet" produced "...Math Worksheet 3 Symbols, Add+Sub Worksheet" (doubled).
+// Commission 19's modeRedundant only deduped type-vs-mode; this dedupes
+// type-vs-worksheetWord. Suppress only when EVERY worksheetWord token already
+// appears in the type name (so a multi-word worksheetWord isn't half-matched).
+function worksheetWordRedundant(typeName, worksheetWord) {
+  var wt = tokensOf(worksheetWord);
+  if (!wt.length) return false;
+  var tt = tokensOf(typeName);
+  if (!tt.length) return false;
+  for (var i = 0; i < wt.length; i++) { if (tt.indexOf(wt[i]) === -1) return false; }
+  return true;
+}
+
+// Title overhaul: config-driven, length-budgeted title composer. Active only
+// when opts.titleConfig is supplied (retrofit path + future fresh-publish);
+// when absent, buildSeoHead keeps the byte-equivalent legacy title.
+//
+// Segment model: head ({Type}[ {Mode}][ {Worksheet}]), theme, diff
+// (content-derived differentiator phrase — replaces the old meaningless
+// "Set NNN"), level. Order is per-locale config (titleSegmentOrder). The brand
+// suffix is dropped (substitute.js OG-title strip becomes a no-op).
+//
+// Budget (charBudget.max, default 70): measured on the DISPLAYED (unescaped)
+// length — '&' counts as one char, matching what Google renders. Trim order:
+// 2-noun diff -> 1-noun diff -> drop level -> (theme NEVER dropped when set, to
+// keep the theme-in-title audit invariant; diff is the last keyword sacrificed,
+// preferring a few chars over budget to losing the uniqueness-bearing phrase).
+//
+// levelResolved=false (fresh-publish, level still a placeholder): segments +
+// order + brand-drop + diff apply, but the level-dependent trim is SKIPPED — the
+// republish-seo retrofit (which has the concrete level) finalizes the budget.
+function composeTitle(opts) {
+  var cfg = opts.titleConfig || {};
+  var order = (Array.isArray(cfg.titleSegmentOrder) && cfg.titleSegmentOrder.length)
+                ? cfg.titleSegmentOrder : ['head', 'theme', 'diff', 'level'];
+  var sep = cfg.separator || ' — ';
+  var includeLevel = cfg.includeLevel !== false;
+  var budgetMax = (cfg.charBudget && cfg.charBudget.max) || 70;
+
+  var typeName = String(opts.exerciseTypeName || '');
+  var modeName = (opts.exerciseModeName !== undefined && opts.exerciseModeName !== null && opts.exerciseModeName !== '')
+                   ? String(opts.exerciseModeName) : null;
+  var effMode = (modeName && !modeRedundant(typeName, modeName)) ? modeName : null;
+  var wWord = String(opts.worksheetWord || 'Worksheet');
+  var wWordPart = worksheetWordRedundant(typeName, wWord) ? '' : (' ' + wWord);
+  var head = typeName + (effMode ? ' ' + effMode : '') + wWordPart;
+
+  var themeName = opts.themeName ? String(opts.themeName) : null;
+  var diff = opts.differentiator || null;
+  var diffPhrase = (diff && diff.kind && diff.kind !== 'none' && diff.phrase) ? String(diff.phrase) : null;
+  var diffShort = (diff && diff.phraseShort) ? String(diff.phraseShort) : diffPhrase;
+  var disamb = (opts.disambiguator !== undefined && opts.disambiguator !== null && opts.disambiguator !== '')
+                 ? String(opts.disambiguator) : null;
+
+  var levelResolved = (opts.educationalLevelLocalized !== undefined && opts.educationalLevelLocalized !== null && String(opts.educationalLevelLocalized) !== '');
+  var levelText = levelResolved ? String(opts.educationalLevelLocalized) : '__EDUCATIONAL_LEVEL_LOCALIZED__';
+
+  function build(useShortDiff, dropLevel) {
+    var segVals = {
+      head: head,
+      theme: themeName,
+      diff: useShortDiff ? diffShort : diffPhrase,
+      level: (includeLevel && !dropLevel) ? levelText : null
+    };
+    var parts = [];
+    for (var i = 0; i < order.length; i++) {
+      var v = segVals[order[i]];
+      if (v) parts.push(v);
+    }
+    var s = parts.join(sep);
+    if (disamb) s += sep + disamb;
+    return s;
+  }
+
+  var title = build(false, false);
+  if (!levelResolved) return title;          // can't budget-trim without concrete level
+  if (title.length <= budgetMax) return title;
+
+  if (diffShort && diffShort !== diffPhrase) {
+    var t1 = build(true, false);
+    if (t1.length <= budgetMax) return t1;
+    return build(true, true);                // short diff + drop level; keep diff even if over
+  }
+  return build(false, true);                  // drop level; keep theme + diff even if over
+}
+
 // Commission 16b + 19: compose a deck meta description that lands in the
 // 120-170 band as a COMPLETE sentence — never a mid-phrase truncation. The
 // "core" (lead-with-theme + tail-with-variant) is uniqueness-complete and
@@ -169,17 +257,32 @@ function buildSeoHead(opts) {
   // pass variantLabel (e.g., legacy republish-seo invocations pre-locale-fix).
   var variantLabel    = String(opts.variantLabel || 'Set');
 
-  // Title: "{Type} {Mode?} {Worksheet} — {Theme} — __EDUCATIONAL_LEVEL_LOCALIZED__ — Set {variantId}? | LessonCraftStudio"
-  // Mode segment included when non-null (non-default mode); omitted for default mode.
-  // Theme segment + its em-dashes are omitted when no theme is set.
-  // Variant segment included when non-null (§11 commission); omitted for legacy decks.
-  var titleHead = typeName + (effectiveModeName ? ' ' + effectiveModeName : '') + ' ' + worksheetWord;
-  var titleSegments = [titleHead];
-  if (themeName) titleSegments.push(themeName);
-  titleSegments.push('__EDUCATIONAL_LEVEL_LOCALIZED__');
-  if (variantId) titleSegments.push(variantLabel + ' ' + variantId);
-  var titleCore = titleSegments.join(' — ');
-  var titleFull = titleCore + ' | LessonCraftStudio';
+  // Title composition. Two paths:
+  //
+  // (A) NEW (title overhaul) — active when opts.titleConfig is supplied. The
+  //     config-driven composeTitle() builds a 50-70-char, brand-free title whose
+  //     uniqueness comes from opts.differentiator (a real content-derived
+  //     keyword) instead of the old meaningless "Set NNN" tail. titleCore ===
+  //     titleFull (no brand suffix); substitute.js's OG-title brand-strip becomes
+  //     a no-op (still correct).
+  //
+  // (B) LEGACY — when opts.titleConfig is absent, the original template is
+  //     reproduced byte-for-byte so untouched callers never regress:
+  //     "{Type} {Mode?} {Worksheet} — {Theme} — __EDUCATIONAL_LEVEL_LOCALIZED__
+  //      — Set {variantId}? | LessonCraftStudio"
+  var titleCore, titleFull;
+  if (opts.titleConfig) {
+    titleCore = composeTitle(opts);
+    titleFull = titleCore;
+  } else {
+    var titleHead = typeName + (effectiveModeName ? ' ' + effectiveModeName : '') + ' ' + worksheetWord;
+    var titleSegments = [titleHead];
+    if (themeName) titleSegments.push(themeName);
+    titleSegments.push('__EDUCATIONAL_LEVEL_LOCALIZED__');
+    if (variantId) titleSegments.push(variantLabel + ' ' + variantId);
+    titleCore = titleSegments.join(' — ');
+    titleFull = titleCore + ' | LessonCraftStudio';
+  }
 
   // Description: "{freeInteractive} {type} {mode?} {worksheet} ({theme}) {for} {LEVEL}. {middle}. {printOrPlay} (Set {variantId})?."
   // Preserve input casing — German requires capitalized nouns; lowercasing

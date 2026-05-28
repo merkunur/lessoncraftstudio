@@ -455,6 +455,154 @@ test('buildSeoHead description includes "(Set {variantId})" when variantId set',
 });
 
 console.log('');
+console.log('Title overhaul: config-driven composer (opts.titleConfig present):');
+
+var TITLE_CFG = require('./seo-title-config.json').en;
+
+function titleText(out) {
+  var m = /<title>([^<]*)<\/title>/.exec(out);
+  return m ? m[1].replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>') : null;
+}
+
+test('legacy path unchanged when titleConfig ABSENT (brand kept, placeholder level)', function () {
+  var out = buildSeoHead(optsFixture());
+  assert.ok(out.indexOf('<title>Addition Worksheet — Animals — __EDUCATIONAL_LEVEL_LOCALIZED__ | LessonCraftStudio</title>') !== -1);
+});
+
+test('new path: brand suffix DROPPED', function () {
+  var out = buildSeoHead(optsFixture({
+    titleConfig: TITLE_CFG,
+    educationalLevelLocalized: 'Kindergarten',
+    differentiator: { kind: 'none', phrase: null }
+  }));
+  assert.strictEqual(out.indexOf('| LessonCraftStudio</title>'), -1, 'no brand in <title>');
+  assert.ok(titleText(out).indexOf('LessonCraftStudio') === -1, 'no brand text in title');
+});
+
+test('new path: no "Set NNN" tail even when variantId provided', function () {
+  var out = buildSeoHead(optsFixture({
+    titleConfig: TITLE_CFG,
+    educationalLevelLocalized: 'Kindergarten',
+    variantId: 'a3f2',
+    differentiator: { kind: 'vocab', phrase: 'Cat & Dog', phraseShort: 'Cat', raw: 'cat|dog' }
+  }));
+  assert.strictEqual(titleText(out).indexOf('Set a3f2'), -1, 'no Set NNN in new title');
+});
+
+test('new path: redundant mode suppressed (Shadow Match + Match the Shadow)', function () {
+  var out = buildSeoHead(optsFixture({
+    titleConfig: TITLE_CFG,
+    exerciseTypeName: 'Shadow Match',
+    exerciseModeName: 'Match the Shadow',
+    themeName: 'Around the House',
+    educationalLevelLocalized: 'Kindergarten',
+    differentiator: { kind: 'vocab', phrase: 'Cup & Door', phraseShort: 'Cup', raw: 'cup|door' }
+  }));
+  var t = titleText(out);
+  assert.strictEqual(t, 'Shadow Match Worksheet — Around the House — Cup & Door — Kindergarten');
+});
+
+test('new path: worksheetWord dedupe (Math Worksheet type does not double "Worksheet")', function () {
+  var out = buildSeoHead(optsFixture({
+    titleConfig: TITLE_CFG,
+    exerciseTypeName: 'Math Worksheet',
+    exerciseModeName: '3 Symbols, Add+Sub',
+    themeName: '4th of July',
+    educationalLevelLocalized: 'Kindergarten',
+    differentiator: { kind: 'none', phrase: null }
+  }));
+  var t = titleText(out);
+  assert.strictEqual((t.match(/Worksheet/g) || []).length, 1, 'exactly one "Worksheet"');
+  assert.strictEqual(t, 'Math Worksheet 3 Symbols, Add+Sub — 4th of July — Kindergarten');
+});
+
+test('new path: vocab differentiator inserted in config segment order', function () {
+  var out = buildSeoHead(optsFixture({
+    titleConfig: TITLE_CFG,
+    exerciseTypeName: 'Addition',
+    themeName: 'Animals',
+    educationalLevelLocalized: 'Kindergarten',
+    differentiator: { kind: 'vocab', phrase: 'Snake & Lizard', phraseShort: 'Snake', raw: 'lizard|snake' }
+  }));
+  assert.strictEqual(titleText(out), 'Addition Worksheet — Animals — Snake & Lizard — Kindergarten');
+});
+
+test('new path: budget trim reduces 2-noun diff to 1-noun then drops level', function () {
+  var out = buildSeoHead(optsFixture({
+    titleConfig: TITLE_CFG,
+    exerciseTypeName: 'Pattern Worksheet',
+    themeName: 'Reptiles and Amphibians',
+    educationalLevelLocalized: 'Kindergarten',
+    differentiator: { kind: 'vocab', phrase: 'Crocodile & Salamander', phraseShort: 'Crocodile', raw: 'a|b' }
+  }));
+  var t = titleText(out);
+  assert.ok(t.length <= 70, 'within budget after trim, got ' + t.length + ': ' + t);
+  assert.ok(t.indexOf('Reptiles and Amphibians') !== -1, 'theme NEVER dropped');
+  assert.ok(t.indexOf('Crocodile') !== -1, 'diff (uniqueness) retained');
+});
+
+test('new path: themeless + none differentiator → clean short title', function () {
+  var out = buildSeoHead(optsFixture({
+    titleConfig: TITLE_CFG,
+    exerciseTypeName: 'Picture Sudoku',
+    themeName: null,
+    educationalLevelLocalized: 'Kindergarten',
+    differentiator: { kind: 'none', phrase: null }
+  }));
+  assert.strictEqual(titleText(out), 'Picture Sudoku Worksheet — Kindergarten');
+});
+
+test('new path: disambiguator appended as final segment (collision fallback)', function () {
+  var out = buildSeoHead(optsFixture({
+    titleConfig: TITLE_CFG,
+    exerciseTypeName: 'Picture Sudoku',
+    themeName: null,
+    educationalLevelLocalized: 'Kindergarten',
+    differentiator: { kind: 'none', phrase: null },
+    disambiguator: 'b4e1'
+  }));
+  assert.strictEqual(titleText(out), 'Picture Sudoku Worksheet — Kindergarten — b4e1');
+});
+
+test('new path: fresh-publish (no resolved level) keeps placeholder + skips trim', function () {
+  var out = buildSeoHead(optsFixture({
+    titleConfig: TITLE_CFG,
+    exerciseTypeName: 'Addition',
+    themeName: 'Animals',
+    differentiator: { kind: 'vocab', phrase: 'Snake & Lizard', phraseShort: 'Snake', raw: 'lizard|snake' }
+    // educationalLevelLocalized omitted → placeholder
+  }));
+  assert.ok(titleText(out).indexOf('__EDUCATIONAL_LEVEL_LOCALIZED__') !== -1, 'placeholder retained for substitute.js');
+});
+
+test('new path: JSON-LD name mirrors brandless composed title', function () {
+  var out = buildSeoHead(optsFixture({
+    titleConfig: TITLE_CFG,
+    exerciseTypeName: 'Addition',
+    themeName: 'Animals',
+    educationalLevelLocalized: 'Kindergarten',
+    differentiator: { kind: 'vocab', phrase: 'Snake & Lizard', phraseShort: 'Snake', raw: 'lizard|snake' }
+  }));
+  var ld = JSON.parse(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/.exec(out)[1]);
+  assert.strictEqual(ld.name, 'Addition Worksheet — Animals — Snake & Lizard — Kindergarten');
+  assert.strictEqual(ld.name.indexOf('LessonCraftStudio'), -1);
+});
+
+test('new path: description branch UNTOUCHED (still uses legacy variant suffix)', function () {
+  var out = buildSeoHead(optsFixture({
+    titleConfig: TITLE_CFG,
+    exerciseTypeName: 'Addition',
+    themeName: 'Animals',
+    educationalLevelLocalized: 'Kindergarten',
+    variantId: 'a3f2',
+    instruction: 'Add the numbers',
+    differentiator: { kind: 'vocab', phrase: 'Snake & Lizard', phraseShort: 'Snake', raw: 'lizard|snake' }
+  }));
+  // description still carries "(Set a3f2)" — title overhaul does not touch the description path
+  assert.ok(out.indexOf('(Set a3f2)') !== -1, 'description keeps its own variant suffix (out of scope)');
+});
+
+console.log('');
 console.log('============================================================');
 console.log('Tests: ' + passCount + ' passed, ' + failCount + ' failed');
 process.exit(failCount > 0 ? 1 : 0);

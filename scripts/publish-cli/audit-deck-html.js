@@ -352,26 +352,34 @@ async function runChecksForDeck(dbDeck, htmlText, manifestObj, ctx) {
   // For published-deck audit, look at the rendered deck.html: the alt expression
   // is JavaScript (resolved client-side); we check that the JS expression
   // contains the runtime-translation lookup (vs the hardcoded English literal).
-  var celebMiniRegex = /class=\\?"lcs-mini\\?"\s*alt=\\?"([^"\\]*(?:\\.[^"\\]*)*)\\?"/;
-  var celebMatch = celebMiniRegex.exec(htmlText);
-  if (celebMatch) {
-    var celebVal = celebMatch[1];
-    if (celebVal === 'Your completed worksheet' && dbDeck.language !== 'en') {
-      checks.celebrationMiniAlt = { pass: false, category: 'ENGLISH_LEAK_NONEN', value: celebVal };
-      defects.push('CELEBRATION_MINI_ALT_ENGLISH_LEAK');
-    } else if (!celebVal) {
-      checks.celebrationMiniAlt = { pass: false, category: 'EMPTY', value: celebVal };
-      defects.push('CELEBRATION_MINI_ALT_EMPTY');
-    } else {
-      checks.celebrationMiniAlt = { pass: true, value: celebVal };
-    }
+  // Commission 17 false-positive fix: evaluate the runtime-resolved signal
+  // FIRST. The post-codemod alt is a JS expression — `alt=\""+(window.translations
+  // [<contentLanguage>].celebrationMiniAlt || ... || "Your completed worksheet")+"\"`.
+  // The static celebMiniRegex below matches the opening `alt=\""` and captures the
+  // EMPTY string between `alt=\"` and the next `"` (the `"+(` concatenation
+  // boundary), which previously short-circuited to a false CELEBRATION_MINI_ALT_EMPTY
+  // on every post-codemod deck. A deck whose HTML carries both the celebrationMiniAlt
+  // runtime lookup and a lcs-mini image IS the correct runtime-resolved form and
+  // must pass; the static regex only applies to the (now-absent) pre-codemod
+  // literal-alt form.
+  var hasMini = htmlText.indexOf('class=\\"lcs-mini\\"') !== -1 || htmlText.indexOf('class="lcs-mini"') !== -1;
+  var hasRuntimeLookup = hasMini && htmlText.indexOf('celebrationMiniAlt') !== -1;
+  if (hasRuntimeLookup) {
+    checks.celebrationMiniAlt = { pass: true, value: 'runtime-resolved via window.translations' };
   } else {
-    // Post-codemod, the alt expression is a JS template — the static regex
-    // won't match. Look for the runtime-translation lookup as a positive signal.
-    var hasRuntimeLookup = htmlText.indexOf('celebrationMiniAlt') !== -1 &&
-                           htmlText.indexOf('class=\\"lcs-mini\\"') !== -1;
-    if (hasRuntimeLookup) {
-      checks.celebrationMiniAlt = { pass: true, value: 'runtime-resolved via window.translations' };
+    var celebMiniRegex = /class=\\?"lcs-mini\\?"\s*alt=\\?"([^"\\]*(?:\\.[^"\\]*)*)\\?"/;
+    var celebMatch = celebMiniRegex.exec(htmlText);
+    if (celebMatch) {
+      var celebVal = celebMatch[1];
+      if (celebVal === 'Your completed worksheet' && dbDeck.language !== 'en') {
+        checks.celebrationMiniAlt = { pass: false, category: 'ENGLISH_LEAK_NONEN', value: celebVal };
+        defects.push('CELEBRATION_MINI_ALT_ENGLISH_LEAK');
+      } else if (!celebVal) {
+        checks.celebrationMiniAlt = { pass: false, category: 'EMPTY', value: celebVal };
+        defects.push('CELEBRATION_MINI_ALT_EMPTY');
+      } else {
+        checks.celebrationMiniAlt = { pass: true, value: celebVal };
+      }
     } else {
       checks.celebrationMiniAlt = { pass: false, category: 'NOT_FOUND', value: null };
       defects.push('CELEBRATION_MINI_ALT_NOT_FOUND');

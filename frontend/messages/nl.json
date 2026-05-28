@@ -767,8 +767,8 @@
   },
   "seo": {
     "educational_level": {
-      "preschool": "Peuterspeelzaal",
-      "kindergarten": "Kleuterschool",
+      "preschool": "Peuters",
+      "kindergarten": "Kleuters",
       "grade_1": "Groep 3",
       "grade_2": "Groep 4",
       "grade_3": "Groep 5"

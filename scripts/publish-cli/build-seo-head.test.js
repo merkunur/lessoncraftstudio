@@ -872,6 +872,71 @@ test('fr differentiator: "et" connector + sentence-case', function () {
 });
 
 console.log('');
+console.log('Title overhaul: Dutch config (of-type "after" + sentence-case):');
+
+var NL_CFG = require('./seo-title-config.json').nl;
+
+test('nl of-type "after" + sentence: "Optellen werkblad" (werkblad lowercased mid-head)', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'nl', titleConfig: NL_CFG,
+    exerciseTypeName: 'Optellen', exerciseTypeSlug: 'addition', themeName: 'Dieren',
+    educationalLevelLocalized: 'Kleuters',
+    differentiator: { kind: 'vocab', phrase: 'Vleermuis', phraseShort: 'Vleermuis', raw: 'bat' }
+  }));
+  assert.strictEqual(titleText(out), 'Optellen werkblad — Dieren — Vleermuis — Kleuters');
+});
+
+test('nl of-type "after": subtraction -> "Aftrekken werkblad"', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'nl', titleConfig: NL_CFG,
+    exerciseTypeName: 'Aftrekken', exerciseTypeSlug: 'subtraction', themeName: 'Dieren',
+    educationalLevelLocalized: 'Groep 4',
+    differentiator: { kind: 'vocab', phrase: 'Vos', phraseShort: 'Vos', raw: 'fox' }
+  }));
+  assert.strictEqual(titleText(out), 'Aftrekken werkblad — Dieren — Vos — Groep 4');
+});
+
+test('nl non-of-type: activity type stands alone, no werkblad ("Kruiswoordraadsel")', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'nl', titleConfig: NL_CFG,
+    exerciseTypeName: 'Kruiswoordraadsel', exerciseTypeSlug: 'crossword', themeName: 'Fruit',
+    educationalLevelLocalized: 'Groep 3',
+    differentiator: { kind: 'none', phrase: null }
+  }));
+  assert.strictEqual(titleText(out), 'Kruiswoordraadsel — Fruit — Groep 3');
+});
+
+test('nl math-worksheet: "Rekenwerkblad" already has werkblad, no double', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'nl', titleConfig: NL_CFG,
+    exerciseTypeName: 'Rekenwerkblad', exerciseTypeSlug: 'math-worksheet', themeName: 'Dieren',
+    educationalLevelLocalized: 'Groep 3',
+    differentiator: { kind: 'none', phrase: null }
+  }));
+  assert.strictEqual((titleText(out).match(/werkblad/gi) || []).length, 1, 'no werkblad double');
+  assert.strictEqual(titleText(out), 'Rekenwerkblad — Dieren — Groep 3');
+});
+
+test('nl non-of-type: Title-Case type sentence-cased ("Meer Of Minder"->"Meer of minder")', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'nl', titleConfig: NL_CFG,
+    exerciseTypeName: 'Meer Of Minder', exerciseTypeSlug: 'more-less', themeName: 'Voertuigen',
+    educationalLevelLocalized: 'Peuters',
+    differentiator: { kind: 'none', phrase: null }
+  }));
+  assert.strictEqual(titleText(out), 'Meer of minder — Voertuigen — Peuters');
+});
+
+test('nl differentiator: "en" connector + sentence-case + ALL-CAPS normalized', function () {
+  var d = require('./seo-differentiator');
+  var r = d.deriveDifferentiator(
+    { exercise_type: 'addition', theme: 'animals', language: 'nl', vocabulary: ['SLANG', 'HAGEDIS'], images_used: ['/images/animals/snake.png', '/images/animals/lizard.png'] },
+    'nl', { config: { vocab: { maxNouns: 2, joinStyle: 'conjunction', casing: 'sentence' }, diff: { enableVocab: true } } }
+  );
+  assert.strictEqual(r.phrase, 'Slang en hagedis', 'expected "Slang en hagedis", got: ' + r.phrase);
+});
+
+console.log('');
 console.log('============================================================');
 console.log('Tests: ' + passCount + ' passed, ' + failCount + ' failed');
 process.exit(failCount > 0 ? 1 : 0);

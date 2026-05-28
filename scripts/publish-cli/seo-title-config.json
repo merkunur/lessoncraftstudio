@@ -125,5 +125,22 @@
     "numericTemplates": {},
     "diff": { "enableVocab": true, "enableNumeric": false, "enableMode": false, "excludeTypes": ["cryptogram"] },
     "charBudget": { "min": 50, "max": 70 }
+  },
+
+  "_comment_nl": "Native Dutch 3-agent ensemble 2026-05-28 (unanimous). Germanic, but Dutch is sentence-case (caps first word + proper nouns only, UNLIKE German) → segmentCasing 'sentence' (Romance-shaped). Operator-locked: levels Peuters/Kleuters (messages/nl.json — 'Kleuterschool' is dated/abolished-1985; 'Peuters'/'Kleuters' are the child terms teachers actually search); head '{Type} werkblad' (headStyle of-type, ofTypeWordPosition 'after' like de) → 'Optellen werkblad'. segCase lowercases the mid-head worksheet word → Dutch-correct 'Optellen werkblad' (verified build-seo-head.js:200). Consensus: worksheet word 'Werkblad', connector 'en' (joinStyle conjunction via Intl.ListFormat('nl') → 'Slang en hagedis'), drop jargon head modes, exclude cryptogram cipher, normalize ALL-CAPS vocab (casing 'sentence'). Activity-named types stand alone (Kruiswoordraadsel, Schatzoektocht); math-worksheet 'Rekenwerkblad' is NOT ofType → standalone, no werkblad-double. Type-name softening (Objecten zoeken→Voorwerpen zoeken, Grafiek tellen→Staafdiagram tellen, Schaduw koppelen→Schaduwen koppelen) flagged future (taxonomy slugs, out of title scope).",
+  "nl": {
+    "titleSegmentOrder": ["head", "theme", "diff", "level"],
+    "separator": " — ",
+    "includeLevel": true,
+    "segmentCasing": "sentence",
+    "headStyle": "of-type",
+    "ofTypeKeys": ["addition", "subtraction"],
+    "ofTypeWordPosition": "after",
+    "worksheetWordOverride": "Werkblad",
+    "headDropModes": ["image-image", "three-symbols-add-sub", "two-symbols-add-sub", "four-symbols-add-sub", "image-number", "mixed", "cardinal-arrows", "find-shadow", "make-whole", "check-cross", "i-spy", "letter-spotting", "one-missing", "two-missing"],
+    "vocab": { "maxNouns": 2, "joinStyle": "conjunction", "casing": "sentence" },
+    "numericTemplates": {},
+    "diff": { "enableVocab": true, "enableNumeric": false, "enableMode": false, "excludeTypes": ["cryptogram"] },
+    "charBudget": { "min": 50, "max": 70 }
   }
 }

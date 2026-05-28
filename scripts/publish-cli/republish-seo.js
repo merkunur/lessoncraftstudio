@@ -422,7 +422,9 @@ function computeNewHtml(c) {
   var ageRange16b = inferAgeRange(c.manifest);
   var lvlKey16b = taxonomy.AGE_RANGE_TO_LEVEL_I18N_KEY ? taxonomy.AGE_RANGE_TO_LEVEL_I18N_KEY[ageRange16b] : null;
   seoOpts.educationalLevelLocalized = lvlKey16b ? tryI18n(c.manifest.language, 'seo.educational_level.' + lvlKey16b, '') : '';
-  seoOpts.skillSentence = skillSentenceFor(c.manifest.language, c.manifest.exercise_type);
+  var skill16b = skillSentenceFor(c.manifest.language, c.manifest.exercise_type);
+  seoOpts.skillSentence = skill16b.full;
+  seoOpts.skillSentenceShort = skill16b.short;
 
   // Step 1: emit SEO block with placeholders
   var seoBlockTemplate = buildSeoHeadMod.buildSeoHead(seoOpts);
@@ -529,9 +531,11 @@ function inferAgeRange(manifest) {
  * filler available and returns the best-effort core).
  */
 function skillSentenceFor(locale, exerciseType) {
-  if (!exerciseType) return '';
+  if (!exerciseType) return { full: '', short: '' };
   var byLoc = SKILL_SENTENCES[locale] || {};
-  return byLoc[exerciseType] || (SKILL_SENTENCES.en && SKILL_SENTENCES.en[exerciseType]) || '';
+  var e = byLoc[exerciseType] || (SKILL_SENTENCES.en && SKILL_SENTENCES.en[exerciseType]) || {};
+  if (typeof e === 'string') return { full: e, short: '' }; // C16b single-tier back-compat
+  return { full: e.full || '', short: e.short || '' };       // C19 {full, short} tiers
 }
 
 // ============================================================

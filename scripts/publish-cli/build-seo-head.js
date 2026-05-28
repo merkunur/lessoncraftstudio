@@ -60,14 +60,36 @@ function descLenRendered(s) {
   return escapeAttr(s).length;
 }
 
-// Commission 16b: compose a deck meta description guaranteed (best-effort) to
-// land in the 120-170 band. The "core" (lead-with-theme + tail-with-variant)
-// is uniqueness-complete and always retained; the instruction/skill sentence
-// is the adjustable middle — added to lift a short core to the floor, dropped
-// to bring a long core under the ceiling. When the core itself exceeds the
-// ceiling and a variant_id is present (which alone distinguishes decks that
-// differ only by theme), the theme parenthetical may be dropped — never when
-// it would collide descriptionHash.
+// Commission 19: an exercise-mode name is REDUNDANT when it shares a
+// significant word (≥3 letters, case-insensitive) with the exercise-type
+// name — e.g. type "Shadow Match" + mode "Match the Shadow", type "Find the
+// Odd One Out" + mode "Find the Odd One", type "Picture Path" + mode "Picture
+// Pathway", type "Code Addition" + mode "Addition". Such a mode just repeats
+// the type's keywords in the title + description (reads like stuffing, hurts
+// CTR), so it is suppressed. Genuinely-distinct modes (Find Addend, Cross Out,
+// Image-Image, Classic Maze, Letter, 2 Symbols…) share no word and are kept.
+function tokensOf(s) {
+  return String(s || '').toLowerCase().split(/[^a-z0-9]+/).filter(function (t) { return t.length >= 3; });
+}
+function modeRedundant(typeName, modeName) {
+  if (!modeName) return false;
+  var tt = tokensOf(typeName);
+  var mt = tokensOf(modeName);
+  if (!tt.length || !mt.length) return false;
+  for (var i = 0; i < mt.length; i++) { if (tt.indexOf(mt[i]) !== -1) return true; }
+  return false;
+}
+
+// Commission 16b + 19: compose a deck meta description that lands in the
+// 120-170 band as a COMPLETE sentence — never a mid-phrase truncation. The
+// "core" (lead-with-theme + tail-with-variant) is uniqueness-complete and
+// always retained; the adjustable middle is chosen from an ordered list of
+// WHOLE sentences (instruction, full skill, short skill) — the richest that
+// fits is used, else none. C19 replaced the earlier word-by-word truncation
+// (which left dangling fragments like "…to build early.") with this tiered
+// whole-sentence selection. When the core itself exceeds the ceiling and a
+// variant_id is present (which alone distinguishes theme-differing decks), the
+// theme parenthetical may be dropped — never when it would collide.
 function bandedDescription(spec) {
   var FLOOR = 120;
   var CEIL = 170;
@@ -76,38 +98,27 @@ function bandedDescription(spec) {
     var m = String(mid).replace(/\s*[.!?]+\s*$/, '');
     return lead + '. ' + m + '.' + spec.descTail;
   }
-  // Best description for a given lead, sizing the adjustable middle:
-  //  - core already in band  → full middle if it fits ≤CEIL (richer), else core (drop middle cleanly)
-  //  - core below floor      → full middle if in band; else truncate middle to land in band; else best-effort
-  // Returns { desc, inBand } or null when the lead's bare core already exceeds
-  // the ceiling (signals the caller to try dropping the theme).
+  // middles: ordered preference of complete sentences (richest first).
+  var middles = (spec.middles || []).filter(function (m) { return m && String(m).trim(); });
+  // Returns { desc, inBand } or null when the lead's bare core exceeds the
+  // ceiling (signals the caller to try dropping the theme).
   function bestForLead(lead) {
     var core = assemble(lead, '');
     var coreLen = descLenRendered(core);
     if (coreLen > CEIL) return null;
-    var mid = spec.middlePrimary || spec.middleSecondary || '';
-    if (!mid) return { desc: core, inBand: coreLen >= FLOOR };
-    var full = assemble(lead, mid);
-    var fullLen = descLenRendered(full);
-    if (coreLen >= FLOOR) {
-      if (fullLen <= CEIL) return { desc: full, inBand: true };
-      return { desc: core, inBand: true };
+    var cands = [{ d: core, len: coreLen }];
+    for (var i = 0; i < middles.length; i++) {
+      var d = assemble(lead, middles[i]);
+      cands.push({ d: d, len: descLenRendered(d) });
     }
-    // core < FLOOR → the middle is needed to reach the floor.
-    if (fullLen >= FLOOR && fullLen <= CEIL) return { desc: full, inBand: true };
-    if (fullLen > CEIL) {
-      var m = String(mid).replace(/\s*[.!?]+\s*$/, '');
-      while (true) {
-        var ls = m.lastIndexOf(' ');
-        if (ls <= 0) break;
-        m = m.slice(0, ls).replace(/[,;:]+$/, '');
-        var cand = assemble(lead, m);
-        var L = descLenRendered(cand);
-        if (L <= CEIL) { if (L >= FLOOR) return { desc: cand, inBand: true }; break; }
-      }
-      return { desc: core, inBand: false };
-    }
-    return { desc: full, inBand: false }; // middle too short to reach floor; best-effort
+    // In-band (120-170): take the longest (richest) complete option.
+    var inBand = cands.filter(function (c) { return c.len >= FLOOR && c.len <= CEIL; });
+    if (inBand.length) { inBand.sort(function (a, b) { return b.len - a.len; }); return { desc: inBand[0].d, inBand: true }; }
+    // None in band (core < FLOOR and no whole middle lands in [FLOOR,CEIL]):
+    // best-effort = the longest complete option still under the ceiling.
+    var underCeil = cands.filter(function (c) { return c.len <= CEIL; });
+    underCeil.sort(function (a, b) { return b.len - a.len; });
+    return { desc: (underCeil[0] || cands[0]).d, inBand: false };
   }
   // Priority 1: retain the theme (primary keyword + uniqueness) — size the middle.
   var withTheme = bestForLead(spec.descLead);
@@ -139,6 +150,10 @@ function buildSeoHead(opts) {
   // emits-null contract). Mirrors catalog-export.js buildSeoHead change.
   var modeName        = (opts.exerciseModeName !== undefined && opts.exerciseModeName !== null && opts.exerciseModeName !== '')
                           ? String(opts.exerciseModeName) : null;
+  // Commission 19: suppress the mode segment when it just repeats the type's
+  // keywords (e.g. "Shadow Match" + "Match the Shadow"). Applies to title +
+  // description so neither carries redundant keyword repetition.
+  var effectiveModeName = (modeName && !modeRedundant(typeName, modeName)) ? modeName : null;
   // §11 commission: variant_id discriminator (4-char hex hash of bundle content).
   // Mirrors catalog-export.js. Title/description gain "Set {variantId}" segment
   // when present.
@@ -158,7 +173,7 @@ function buildSeoHead(opts) {
   // Mode segment included when non-null (non-default mode); omitted for default mode.
   // Theme segment + its em-dashes are omitted when no theme is set.
   // Variant segment included when non-null (§11 commission); omitted for legacy decks.
-  var titleHead = typeName + (modeName ? ' ' + modeName : '') + ' ' + worksheetWord;
+  var titleHead = typeName + (effectiveModeName ? ' ' + effectiveModeName : '') + ' ' + worksheetWord;
   var titleSegments = [titleHead];
   if (themeName) titleSegments.push(themeName);
   titleSegments.push('__EDUCATIONAL_LEVEL_LOCALIZED__');
@@ -181,9 +196,12 @@ function buildSeoHead(opts) {
   // out-of-band result there.
   var levelProvided = (opts.educationalLevelLocalized !== undefined && opts.educationalLevelLocalized !== null && String(opts.educationalLevelLocalized) !== '');
   var levelText = levelProvided ? String(opts.educationalLevelLocalized) : '__EDUCATIONAL_LEVEL_LOCALIZED__';
+  // Commission 19: two complete skill-sentence tiers (full + short). The band
+  // logic picks the richest WHOLE sentence that fits — never truncates.
   var skillSentence = String(opts.skillSentence || '');
+  var skillSentenceShort = String(opts.skillSentenceShort || '');
 
-  var descLeadBase = freeInteractive + ' ' + typeName + (modeName ? ' ' + modeName : '') + ' ' + worksheetWord;
+  var descLeadBase = freeInteractive + ' ' + typeName + (effectiveModeName ? ' ' + effectiveModeName : '') + ' ' + worksheetWord;
   var descLeadNoTheme = descLeadBase + ' ' + forWord + ' ' + levelText;
   var descLead = (themeName ? descLeadBase + ' (' + themeName + ')' : descLeadBase) + ' ' + forWord + ' ' + levelText;
   var descTail = ' ' + printOrPlay + (variantId ? ' (' + variantLabel + ' ' + variantId + ')' : '') + '.';
@@ -194,8 +212,7 @@ function buildSeoHead(opts) {
       descLead: descLead,
       descLeadNoTheme: themeName ? descLeadNoTheme : null,
       descTail: descTail,
-      middlePrimary: instruction,
-      middleSecondary: skillSentence,
+      middles: [instruction, skillSentence, skillSentenceShort],
       hasVariant: !!variantId
     });
   } else {

@@ -55,7 +55,7 @@
     "headDropModes": ["image-image", "three-symbols-add-sub"],
     "vocab": { "maxNouns": 2, "joinStyle": "conjunction", "casing": "sentence" },
     "numericTemplates": {},
-    "diff": { "enableVocab": true, "enableNumeric": false, "enableMode": false },
+    "diff": { "enableVocab": true, "enableNumeric": false, "enableMode": false, "excludeTypes": ["cryptogram"] },
     "charBudget": { "min": 50, "max": 70 }
   }
 }

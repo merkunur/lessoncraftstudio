@@ -267,9 +267,15 @@ function deriveDifferentiator(manifest, locale, ctx) {
   var maxNouns = (typeof vocabCfg.maxNouns === 'number' && vocabCfg.maxNouns > 0) ? vocabCfg.maxNouns : 2;
   var joinStyle = vocabCfg.joinStyle || 'ampersand';
   var casing = vocabCfg.casing || 'title';
+  // Exercise types whose "vocabulary" is NOT a localizable featured noun and must
+  // not become a title differentiator. cryptogram's vocab is a fixed English
+  // cipher pangram ("The Quick Brown Fox…") → on non-en locales it trips the
+  // locale-residue gate; everywhere it's puzzle-answer text, not a keyword.
+  var excludeTypes = Array.isArray(diff.excludeTypes) ? diff.excludeTypes : [];
+  var typeExcluded = manifest.exercise_type && excludeTypes.indexOf(manifest.exercise_type) !== -1;
 
   // -- Precedence 1: featured vocabulary (themed decks) -----------------------
-  if (diff.enableVocab !== false) {
+  if (diff.enableVocab !== false && !typeExcluded) {
     var nouns = resolveLocalizedNouns(manifest, loc, maxNouns, deckRichAlt);
     if (nouns && nouns.length) {
       var phrase, phraseShort;

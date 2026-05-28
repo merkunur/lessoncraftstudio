@@ -85,7 +85,8 @@ var SCHEMAS = {
       '--dry-run': 'bool',
       '--confirm': 'bool',       // required for non-dry-run
       '--backup-dir': 'value',   // optional belt-and-suspenders backup
-      '--base-dir': 'value'      // optional override of /var/www/lcs-media/decks
+      '--base-dir': 'value',     // optional override of /var/www/lcs-media/decks
+      '--disambiguator-map': 'value' // title-overhaul: pre-flight collision map (locale->slug->code)
     }
   }
 };
@@ -430,6 +431,7 @@ async function republishSeoCmd(parsed) {
   var confirm = !!parsed.flags['--confirm'];
   var backupDir = parsed.flags['--backup-dir'] || null;
   var baseDir = parsed.flags['--base-dir'] || null;
+  var disambiguatorMapFile = parsed.flags['--disambiguator-map'] || null;
 
   if (!language) {
     console.error('USAGE ERROR: republish-seo requires --language flag (or --language all)');
@@ -456,7 +458,8 @@ async function republishSeoCmd(parsed) {
       slug: slug,
       dryRun: dryRunMode,
       backupDir: backupDir,
-      baseDir: baseDir
+      baseDir: baseDir,
+      disambiguatorMapFile: disambiguatorMapFile
     });
     await db.disconnect();
     process.exit(result.ok ? 0 : 1);

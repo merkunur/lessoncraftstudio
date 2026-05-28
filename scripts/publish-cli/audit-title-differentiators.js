@@ -66,8 +66,25 @@ function decodeEntities(s) {
     .replace(/&#39;/g, "'");
 }
 
+// walkDecks returns EVERY <slug>-v<N> version dir; the same slug can have v1/v2/v3
+// (KEEP_VERSIONS=3 per §15.14). Only the CURRENT version (highest -vN ≈ the
+// <slug> symlink target) is the live deck — collisions must be measured across
+// distinct SLUGS, not version dirs (else 3 versions of one deck look like a
+// 3-way collision). Dedupe to one entry per slug, keeping the highest version.
+function dedupeToCurrentVersion(entries) {
+  var bySlug = {};
+  entries.forEach(function (e) {
+    var dir = path.basename(path.dirname(e.deckHtml));
+    var vm = /-v(\d+)$/.exec(dir);
+    var v = vm ? parseInt(vm[1], 10) : 0;
+    var prev = bySlug[e.slug];
+    if (!prev || v > prev._v) { e._v = v; bySlug[e.slug] = e; }
+  });
+  return Object.keys(bySlug).map(function (s) { return bySlug[s]; });
+}
+
 function auditLocale(locale, baseDir, samples) {
-  var entries = rs.walkDecks(baseDir, { language: locale });
+  var entries = dedupeToCurrentVersion(rs.walkDecks(baseDir, { language: locale }));
   var rows = [];
   var errors = [];
   var kindCounts = { vocab: 0, numeric: 0, mode: 0, none: 0 };

@@ -637,7 +637,19 @@
     // Mode segment included when non-null (non-default mode); omitted for default mode.
     // Theme segment + its em-dashes are omitted when no theme is set.
     // Variant segment included when non-null (§11 commission); omitted for legacy decks.
-    var titleHead = typeName + (modeName ? ' ' + modeName : '') + ' ' + worksheetWord;
+    // Commission 19: suppress a mode segment that just repeats the type's
+    // keywords (e.g. "Shadow Match" + "Match the Shadow"). Mirrors
+    // scripts/publish-cli/build-seo-head.js per §A.14.8.
+    function tokensOf(s) { return String(s || '').toLowerCase().split(/[^a-z0-9]+/).filter(function (t) { return t.length >= 3; }); }
+    function modeRedundant(typeNm, modeNm) {
+      if (!modeNm) return false;
+      var tt = tokensOf(typeNm), mt = tokensOf(modeNm);
+      if (!tt.length || !mt.length) return false;
+      for (var ri = 0; ri < mt.length; ri++) { if (tt.indexOf(mt[ri]) !== -1) return true; }
+      return false;
+    }
+    var effectiveModeName = (modeName && !modeRedundant(typeName, modeName)) ? modeName : null;
+    var titleHead = typeName + (effectiveModeName ? ' ' + effectiveModeName : '') + ' ' + worksheetWord;
     var titleSegments = [titleHead];
     if (themeName) titleSegments.push(themeName);
     titleSegments.push('__EDUCATIONAL_LEVEL_LOCALIZED__');
@@ -656,6 +668,8 @@
     // placeholder (legacy branch); the retrofit path supplies the resolved
     // level + per-type skill sentence.
     function descLenRendered(s) { return escapeAttr(s).length; }
+    // Commission 19: pick the richest WHOLE middle sentence that keeps the
+    // description in 120-170 — never truncate mid-phrase. Mirrors build-seo-head.js.
     function bandedDescription(spec) {
       var FLOOR = 120;
       var CEIL = 170;
@@ -664,32 +678,21 @@
         var m = String(mid).replace(/\s*[.!?]+\s*$/, '');
         return lead + '. ' + m + '.' + spec.descTail;
       }
+      var middles = (spec.middles || []).filter(function (m) { return m && String(m).trim(); });
       function bestForLead(lead) {
         var core = assemble(lead, '');
         var coreLen = descLenRendered(core);
         if (coreLen > CEIL) return null;
-        var mid = spec.middlePrimary || spec.middleSecondary || '';
-        if (!mid) return { desc: core, inBand: coreLen >= FLOOR };
-        var full = assemble(lead, mid);
-        var fullLen = descLenRendered(full);
-        if (coreLen >= FLOOR) {
-          if (fullLen <= CEIL) return { desc: full, inBand: true };
-          return { desc: core, inBand: true };
+        var cands = [{ d: core, len: coreLen }];
+        for (var i = 0; i < middles.length; i++) {
+          var d = assemble(lead, middles[i]);
+          cands.push({ d: d, len: descLenRendered(d) });
         }
-        if (fullLen >= FLOOR && fullLen <= CEIL) return { desc: full, inBand: true };
-        if (fullLen > CEIL) {
-          var m = String(mid).replace(/\s*[.!?]+\s*$/, '');
-          while (true) {
-            var ls = m.lastIndexOf(' ');
-            if (ls <= 0) break;
-            m = m.slice(0, ls).replace(/[,;:]+$/, '');
-            var cand = assemble(lead, m);
-            var L = descLenRendered(cand);
-            if (L <= CEIL) { if (L >= FLOOR) return { desc: cand, inBand: true }; break; }
-          }
-          return { desc: core, inBand: false };
-        }
-        return { desc: full, inBand: false };
+        var inBand = cands.filter(function (c) { return c.len >= FLOOR && c.len <= CEIL; });
+        if (inBand.length) { inBand.sort(function (a, b) { return b.len - a.len; }); return { desc: inBand[0].d, inBand: true }; }
+        var underCeil = cands.filter(function (c) { return c.len <= CEIL; });
+        underCeil.sort(function (a, b) { return b.len - a.len; });
+        return { desc: (underCeil[0] || cands[0]).d, inBand: false };
       }
       var withTheme = bestForLead(spec.descLead);
       if (withTheme && withTheme.inBand) return withTheme.desc;
@@ -708,8 +711,9 @@
     var levelProvided = (opts.educationalLevelLocalized !== undefined && opts.educationalLevelLocalized !== null && String(opts.educationalLevelLocalized) !== '');
     var levelText = levelProvided ? String(opts.educationalLevelLocalized) : '__EDUCATIONAL_LEVEL_LOCALIZED__';
     var skillSentence = String(opts.skillSentence || '');
+    var skillSentenceShort = String(opts.skillSentenceShort || '');
 
-    var descLeadBase = freeInteractive + ' ' + typeName + (modeName ? ' ' + modeName : '') + ' ' + worksheetWord;
+    var descLeadBase = freeInteractive + ' ' + typeName + (effectiveModeName ? ' ' + effectiveModeName : '') + ' ' + worksheetWord;
     var descLeadNoTheme = descLeadBase + ' ' + forWord + ' ' + levelText;
     var descLead = (themeName ? descLeadBase + ' (' + themeName + ')' : descLeadBase) + ' ' + forWord + ' ' + levelText;
     var descTail = ' ' + printOrPlay + (variantId ? ' (' + variantLabel + ' ' + variantId + ')' : '') + '.';
@@ -720,8 +724,7 @@
         descLead: descLead,
         descLeadNoTheme: themeName ? descLeadNoTheme : null,
         descTail: descTail,
-        middlePrimary: instruction,
-        middleSecondary: skillSentence,
+        middles: [instruction, skillSentence, skillSentenceShort],
         hasVariant: !!variantId
       });
     } else {

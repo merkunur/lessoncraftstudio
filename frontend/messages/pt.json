@@ -1110,11 +1110,11 @@
   },
   "seo": {
     "educational_level": {
-      "preschool": "Pré-escolar",
-      "kindergarten": "Jardim de infância",
-      "grade_1": "1.º ano",
-      "grade_2": "2.º ano",
-      "grade_3": "3.º ano"
+      "preschool": "Educação infantil",
+      "kindergarten": "Pré-escola",
+      "grade_1": "1º ano",
+      "grade_2": "2º ano",
+      "grade_3": "3º ano"
     },
     "words": {
       "worksheet": "Folha de exercícios",

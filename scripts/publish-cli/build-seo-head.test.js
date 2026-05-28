@@ -733,6 +733,51 @@ test('it: differentiator connector is "e" (conjunction) + sentence-case', functi
 });
 
 console.log('');
+console.log('Title overhaul: Brazilian Portuguese config (of-type, "de" connector):');
+
+var PT_CFG = require('./seo-title-config.json').pt;
+
+test('pt of-type: "Atividade de {type}" (de connector, not di)', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'pt', titleConfig: PT_CFG,
+    exerciseTypeName: 'Adição', exerciseTypeSlug: 'addition', themeName: 'Animais',
+    educationalLevelLocalized: 'Educação infantil',
+    differentiator: { kind: 'vocab', phrase: 'Vaca', phraseShort: 'Vaca', raw: 'cow' }
+  }));
+  assert.strictEqual(titleText(out), 'Atividade de adição — Animais — Vaca — Educação infantil');
+});
+
+test('pt non-of-type: activity-named type stands alone (no "Atividade de")', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'pt', titleConfig: PT_CFG,
+    exerciseTypeName: 'Palavras Cruzadas', exerciseTypeSlug: 'crossword', themeName: 'Frutas',
+    educationalLevelLocalized: 'Pré-escola',
+    differentiator: { kind: 'none', phrase: null }
+  }));
+  assert.strictEqual(titleText(out), 'Palavras cruzadas — Frutas — Pré-escola');
+});
+
+test('pt: differentiator connector is "e" + sentence-case', function () {
+  var d = require('./seo-differentiator');
+  var r = d.deriveDifferentiator(
+    { exercise_type: 'addition', theme: 'animals', language: 'pt', vocabulary: ['cobra', 'lagarto'], images_used: ['/images/animals/snake.png', '/images/animals/lizard.png'] },
+    'pt',
+    { config: { vocab: { maxNouns: 2, joinStyle: 'conjunction', casing: 'sentence' }, diff: { enableVocab: true } } }
+  );
+  assert.strictEqual(r.phrase, 'Cobra e lagarto', 'expected "Cobra e lagarto", got: ' + r.phrase);
+});
+
+test('it of-type still uses "di" (ofTypeConnector backstop after default change)', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'it', titleConfig: IT_CFG,
+    exerciseTypeName: 'Addizione', exerciseTypeSlug: 'addition', themeName: 'Animali',
+    educationalLevelLocalized: 'Prescolare',
+    differentiator: { kind: 'vocab', phrase: 'Mucca', phraseShort: 'Mucca', raw: 'cow' }
+  }));
+  assert.strictEqual(titleText(out), 'Scheda di addizione — Animali — Mucca — Prescolare');
+});
+
+console.log('');
 console.log('============================================================');
 console.log('Tests: ' + passCount + ' passed, ' + failCount + ' failed');
 process.exit(failCount > 0 ? 1 : 0);

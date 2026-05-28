@@ -40,6 +40,9 @@ var i18n = require('./i18n');
 var taxonomy = require('./taxonomy');
 var db = require('./db');
 var seoRecon = require('./seo-reconciliation');
+// Commission 16b: per-(exercise-type × locale) deck-description floor skill
+// sentences (distilled from the verified single-axis topicMeta entries).
+var SKILL_SENTENCES = require('./seo-skill-sentences.json');
 
 var DEFAULT_DECKS_DIR = '/var/www/lcs-media/decks';
 var SEO_MARKER_START = '<!-- SEO_INSERTION_POINT_START -->';
@@ -410,6 +413,17 @@ function computeNewHtml(c) {
   var html = c.html;
   var seoOpts = resolveSeoOpts(c);
 
+  // Commission 16b: resolve the educational level + per-type skill sentence so
+  // buildSeoHead can enforce the 120-170 description band — the final length is
+  // only knowable once the level is concrete (not the __EDUCATIONAL_LEVEL_LOCALIZED__
+  // placeholder). The level is resolved via the SAME path substitute.js uses, so
+  // the title (placeholder, filled by substitute downstream) and the description
+  // (resolved here for the band) carry identical level text.
+  var ageRange16b = inferAgeRange(c.manifest);
+  var lvlKey16b = taxonomy.AGE_RANGE_TO_LEVEL_I18N_KEY ? taxonomy.AGE_RANGE_TO_LEVEL_I18N_KEY[ageRange16b] : null;
+  seoOpts.educationalLevelLocalized = lvlKey16b ? tryI18n(c.manifest.language, 'seo.educational_level.' + lvlKey16b, '') : '';
+  seoOpts.skillSentence = skillSentenceFor(c.manifest.language, c.manifest.exercise_type);
+
   // Step 1: emit SEO block with placeholders
   var seoBlockTemplate = buildSeoHeadMod.buildSeoHead(seoOpts);
 
@@ -506,6 +520,18 @@ function inferAgeRange(manifest) {
   } catch (e) {
     return '5-7';
   }
+}
+
+/**
+ * Commission 16b: look up the per-(locale, exercise-type) floor skill sentence
+ * from seo-skill-sentences.json. Falls back to the EN sentence, then empty
+ * (buildSeoHead tolerates an empty skill sentence — it simply has no floor
+ * filler available and returns the best-effort core).
+ */
+function skillSentenceFor(locale, exerciseType) {
+  if (!exerciseType) return '';
+  var byLoc = SKILL_SENTENCES[locale] || {};
+  return byLoc[exerciseType] || (SKILL_SENTENCES.en && SKILL_SENTENCES.en[exerciseType]) || '';
 }
 
 // ============================================================

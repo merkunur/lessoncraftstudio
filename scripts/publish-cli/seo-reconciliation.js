@@ -341,6 +341,41 @@ async function reconcileDescriptionUniqueness(manifest, renderedDescription, opt
 }
 
 // =====================================================================
+// Predicate 8 (Commission 16b): reconcileDescriptionLength
+// =====================================================================
+
+/**
+ * Publish-time predicate: the rendered meta description must sit in the
+ * 120-170 char band. `renderedDescription` is the post-substitution
+ * `<meta name="description" content="...">` attribute value (escapeAttr-
+ * encoded), so `.length` matches exactly what audit-deck-html.js Check 15
+ * measures. This is the 8th HALT predicate; it closes the drift root-cause
+ * (the gate previously did not check description length, so descriptions
+ * could publish out of band). A missing description is owned by
+ * reconcileDescriptionUniqueness (DESCRIPTION_MISSING) — return CLEAN here to
+ * avoid a duplicate halt.
+ *
+ * Halt classes:
+ *   DESCRIPTION_LENGTH_TOO_SHORT  — < 120 rendered chars
+ *   DESCRIPTION_LENGTH_TOO_LONG   — > 170 rendered chars
+ */
+function reconcileDescriptionLength(manifest, renderedDescription, opts) {
+  var deckId = manifest && manifest.deck_id ? manifest.deck_id : null;
+  var app = manifest && manifest.exercise_type ? manifest.exercise_type : null;
+  if (!renderedDescription) {
+    return { category: 'CLEAN', length: 0, deckId: deckId, app: app };
+  }
+  var len = renderedDescription.length;
+  if (len < 120) {
+    return { category: 'DESCRIPTION_LENGTH_TOO_SHORT', length: len, value: renderedDescription, deckId: deckId, app: app };
+  }
+  if (len > 170) {
+    return { category: 'DESCRIPTION_LENGTH_TOO_LONG', length: len, value: renderedDescription.slice(0, 180), deckId: deckId, app: app };
+  }
+  return { category: 'CLEAN', length: len, deckId: deckId, app: app };
+}
+
+// =====================================================================
 // Predicate 3: reconcileCanonicalURLPattern
 // =====================================================================
 
@@ -906,10 +941,12 @@ async function reconcileDeckPageSEO(opts) {
   var localeResult = reconcileLocaleResidue(manifest, renderedTitle, renderedDescription, predicateOpts);
   var h1Result = reconcileSingleH1(substitutedHtml, predicateOpts);
   var inboundResult = await reconcileInboundLinkSurface(predicateOpts);
+  var descLengthResult = reconcileDescriptionLength(manifest, renderedDescription, predicateOpts);
 
   var predicates = {
     title: titleResult,
     description: descResult,
+    descriptionLength: descLengthResult,
     canonical: canonicalResult,
     og: ogResult,
     locale: localeResult,
@@ -932,7 +969,9 @@ async function reconcileDeckPageSEO(opts) {
     'CANONICAL_WRONG_SCHEME',
     'OG_TAG_MISSING',
     'LOCALE_RESIDUE_DETECTED',
-    'MULTIPLE_H1_DETECTED'
+    'MULTIPLE_H1_DETECTED',
+    'DESCRIPTION_LENGTH_TOO_SHORT',
+    'DESCRIPTION_LENGTH_TOO_LONG'
   ]);
   var WARN_CATEGORIES = new Set([
     'OG_IMAGE_FALLBACK_USED',
@@ -987,6 +1026,8 @@ module.exports = {
   reconcileLocaleResidueViaLexicon: reconcileLocaleResidueViaLexicon,
   reconcileSingleH1: reconcileSingleH1,
   reconcileInboundLinkSurface: reconcileInboundLinkSurface,
+  // Commission 16b: 8th HALT predicate — description 120-170 band.
+  reconcileDescriptionLength: reconcileDescriptionLength,
   // Orchestrator
   reconcileDeckPageSEO: reconcileDeckPageSEO,
   // Helpers (exported for tests + reuse)

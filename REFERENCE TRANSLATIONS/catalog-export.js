@@ -645,14 +645,88 @@
     var titleCore = titleSegments.join(' — ');
     var titleFull = titleCore + ' | LessonCraftStudio';
 
-    // Description: "{freeInteractive} {type} {mode?} {worksheet} ({theme}) {for} __EDUCATIONAL_LEVEL_LOCALIZED__. {instruction}. {printOrPlay} ({VariantLabel} {variantId})?."
+    // Description: "{freeInteractive} {type} {mode?} {worksheet} ({theme}) {for} {LEVEL}. {middle}. {printOrPlay} ({VariantLabel} {variantId})?."
     // Preserve input casing — German requires capitalized nouns; lowercasing
     // breaks grammar in 5+ of the 11 supported languages.
-    var descLead = freeInteractive + ' ' + typeName + (modeName ? ' ' + modeName : '') + ' ' + worksheetWord;
-    if (themeName) descLead += ' (' + themeName + ')';
-    descLead += ' ' + forWord + ' __EDUCATIONAL_LEVEL_LOCALIZED__';
+    //
+    // Commission 16b: mirrors scripts/publish-cli/build-seo-head.js per §A.14.8.
+    // When opts.educationalLevelLocalized is supplied (resolved level), enforce
+    // the 120-170 band via bandedDescription(); else preserve the legacy
+    // placeholder composition byte-for-byte. The app-gen path emits the
+    // placeholder (legacy branch); the retrofit path supplies the resolved
+    // level + per-type skill sentence.
+    function descLenRendered(s) { return escapeAttr(s).length; }
+    function bandedDescription(spec) {
+      var FLOOR = 120;
+      var CEIL = 170;
+      function assemble(lead, mid) {
+        if (!mid) return lead + '.' + spec.descTail;
+        var m = String(mid).replace(/\s*[.!?]+\s*$/, '');
+        return lead + '. ' + m + '.' + spec.descTail;
+      }
+      function bestForLead(lead) {
+        var core = assemble(lead, '');
+        var coreLen = descLenRendered(core);
+        if (coreLen > CEIL) return null;
+        var mid = spec.middlePrimary || spec.middleSecondary || '';
+        if (!mid) return { desc: core, inBand: coreLen >= FLOOR };
+        var full = assemble(lead, mid);
+        var fullLen = descLenRendered(full);
+        if (coreLen >= FLOOR) {
+          if (fullLen <= CEIL) return { desc: full, inBand: true };
+          return { desc: core, inBand: true };
+        }
+        if (fullLen >= FLOOR && fullLen <= CEIL) return { desc: full, inBand: true };
+        if (fullLen > CEIL) {
+          var m = String(mid).replace(/\s*[.!?]+\s*$/, '');
+          while (true) {
+            var ls = m.lastIndexOf(' ');
+            if (ls <= 0) break;
+            m = m.slice(0, ls).replace(/[,;:]+$/, '');
+            var cand = assemble(lead, m);
+            var L = descLenRendered(cand);
+            if (L <= CEIL) { if (L >= FLOOR) return { desc: cand, inBand: true }; break; }
+          }
+          return { desc: core, inBand: false };
+        }
+        return { desc: full, inBand: false };
+      }
+      var withTheme = bestForLead(spec.descLead);
+      if (withTheme && withTheme.inBand) return withTheme.desc;
+      if (spec.hasVariant && spec.descLeadNoTheme) {
+        var noTheme = bestForLead(spec.descLeadNoTheme);
+        if (noTheme && noTheme.inBand) return noTheme.desc;
+      }
+      if (withTheme && withTheme.desc) return withTheme.desc;
+      if (spec.descLeadNoTheme) {
+        var nt2 = bestForLead(spec.descLeadNoTheme);
+        if (nt2 && nt2.desc) return nt2.desc;
+      }
+      return assemble(spec.descLead, '');
+    }
+
+    var levelProvided = (opts.educationalLevelLocalized !== undefined && opts.educationalLevelLocalized !== null && String(opts.educationalLevelLocalized) !== '');
+    var levelText = levelProvided ? String(opts.educationalLevelLocalized) : '__EDUCATIONAL_LEVEL_LOCALIZED__';
+    var skillSentence = String(opts.skillSentence || '');
+
+    var descLeadBase = freeInteractive + ' ' + typeName + (modeName ? ' ' + modeName : '') + ' ' + worksheetWord;
+    var descLeadNoTheme = descLeadBase + ' ' + forWord + ' ' + levelText;
+    var descLead = (themeName ? descLeadBase + ' (' + themeName + ')' : descLeadBase) + ' ' + forWord + ' ' + levelText;
     var descTail = ' ' + printOrPlay + (variantId ? ' (' + variantLabel + ' ' + variantId + ')' : '') + '.';
-    var description = descLead + '.' + (instruction ? ' ' + instruction + (/[.!?]$/.test(instruction) ? '' : '.') : '') + descTail;
+
+    var description;
+    if (levelProvided) {
+      description = bandedDescription({
+        descLead: descLead,
+        descLeadNoTheme: themeName ? descLeadNoTheme : null,
+        descTail: descTail,
+        middlePrimary: instruction,
+        middleSecondary: skillSentence,
+        hasVariant: !!variantId
+      });
+    } else {
+      description = descLead + '.' + (instruction ? ' ' + instruction + (/[.!?]$/.test(instruction) ? '' : '.') : '') + descTail;
+    }
 
     // Schema.org LearningResource. Placeholders sit INSIDE string-quoted JSON
     // values so JSON.parse stays valid both before and after publish-cli's

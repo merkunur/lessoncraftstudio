@@ -52,6 +52,82 @@ function escapeAttr(s) {
     .replace(/>/g, '&gt;');
 }
 
+// Commission 16b: rendered length of a description as it appears in the
+// `<meta name="description" content="...">` attribute — i.e. after escapeAttr
+// (& → &amp; +4, " → &quot; +5, < / > +3; apostrophe stays literal). This is
+// exactly what audit-deck-html.js Check 15 measures from the deck.html.
+function descLenRendered(s) {
+  return escapeAttr(s).length;
+}
+
+// Commission 16b: compose a deck meta description guaranteed (best-effort) to
+// land in the 120-170 band. The "core" (lead-with-theme + tail-with-variant)
+// is uniqueness-complete and always retained; the instruction/skill sentence
+// is the adjustable middle — added to lift a short core to the floor, dropped
+// to bring a long core under the ceiling. When the core itself exceeds the
+// ceiling and a variant_id is present (which alone distinguishes decks that
+// differ only by theme), the theme parenthetical may be dropped — never when
+// it would collide descriptionHash.
+function bandedDescription(spec) {
+  var FLOOR = 120;
+  var CEIL = 170;
+  function assemble(lead, mid) {
+    if (!mid) return lead + '.' + spec.descTail;
+    var m = String(mid).replace(/\s*[.!?]+\s*$/, '');
+    return lead + '. ' + m + '.' + spec.descTail;
+  }
+  // Best description for a given lead, sizing the adjustable middle:
+  //  - core already in band  → full middle if it fits ≤CEIL (richer), else core (drop middle cleanly)
+  //  - core below floor      → full middle if in band; else truncate middle to land in band; else best-effort
+  // Returns { desc, inBand } or null when the lead's bare core already exceeds
+  // the ceiling (signals the caller to try dropping the theme).
+  function bestForLead(lead) {
+    var core = assemble(lead, '');
+    var coreLen = descLenRendered(core);
+    if (coreLen > CEIL) return null;
+    var mid = spec.middlePrimary || spec.middleSecondary || '';
+    if (!mid) return { desc: core, inBand: coreLen >= FLOOR };
+    var full = assemble(lead, mid);
+    var fullLen = descLenRendered(full);
+    if (coreLen >= FLOOR) {
+      if (fullLen <= CEIL) return { desc: full, inBand: true };
+      return { desc: core, inBand: true };
+    }
+    // core < FLOOR → the middle is needed to reach the floor.
+    if (fullLen >= FLOOR && fullLen <= CEIL) return { desc: full, inBand: true };
+    if (fullLen > CEIL) {
+      var m = String(mid).replace(/\s*[.!?]+\s*$/, '');
+      while (true) {
+        var ls = m.lastIndexOf(' ');
+        if (ls <= 0) break;
+        m = m.slice(0, ls).replace(/[,;:]+$/, '');
+        var cand = assemble(lead, m);
+        var L = descLenRendered(cand);
+        if (L <= CEIL) { if (L >= FLOOR) return { desc: cand, inBand: true }; break; }
+      }
+      return { desc: core, inBand: false };
+    }
+    return { desc: full, inBand: false }; // middle too short to reach floor; best-effort
+  }
+  // Priority 1: retain the theme (primary keyword + uniqueness) — size the middle.
+  var withTheme = bestForLead(spec.descLead);
+  if (withTheme && withTheme.inBand) return withTheme.desc;
+  // Priority 2: drop the theme ONLY when a variant_id is present (it alone makes
+  // descriptions of theme-differing decks unique) and the theme-lead could not
+  // reach the band (its bare core exceeds the ceiling).
+  if (spec.hasVariant && spec.descLeadNoTheme) {
+    var noTheme = bestForLead(spec.descLeadNoTheme);
+    if (noTheme && noTheme.inBand) return noTheme.desc;
+  }
+  // Best-effort: prefer the theme-retaining result, else the no-theme result, else bare core.
+  if (withTheme && withTheme.desc) return withTheme.desc;
+  if (spec.descLeadNoTheme) {
+    var nt2 = bestForLead(spec.descLeadNoTheme);
+    if (nt2 && nt2.desc) return nt2.desc;
+  }
+  return assemble(spec.descLead, '');
+}
+
 function buildSeoHead(opts) {
   if (!opts) throw new Error('buildSeoHead: opts is required.');
   var language        = String(opts.language || 'en');
@@ -90,14 +166,41 @@ function buildSeoHead(opts) {
   var titleCore = titleSegments.join(' — ');
   var titleFull = titleCore + ' | LessonCraftStudio';
 
-  // Description: "{freeInteractive} {type} {mode?} {worksheet} ({theme}) {for} __EDUCATIONAL_LEVEL_LOCALIZED__. {instruction}. {printOrPlay} (Set {variantId})?."
+  // Description: "{freeInteractive} {type} {mode?} {worksheet} ({theme}) {for} {LEVEL}. {middle}. {printOrPlay} (Set {variantId})?."
   // Preserve input casing — German requires capitalized nouns; lowercasing
   // breaks grammar in 5+ of the 11 supported languages.
-  var descLead = freeInteractive + ' ' + typeName + (modeName ? ' ' + modeName : '') + ' ' + worksheetWord;
-  if (themeName) descLead += ' (' + themeName + ')';
-  descLead += ' ' + forWord + ' __EDUCATIONAL_LEVEL_LOCALIZED__';
+  //
+  // Commission 16b: when the caller supplies a RESOLVED educational level
+  // (opts.educationalLevelLocalized) the description length is final at compose
+  // time, so bandedDescription() enforces the 120-170 band — sizing the
+  // adjustable instruction/skill middle against a uniqueness-complete core. The
+  // republish-seo retrofit path supplies the resolved level + a per-type skill
+  // sentence. When the level is NOT supplied (app-gen path emits the
+  // __EDUCATIONAL_LEVEL_LOCALIZED__ placeholder), the legacy composition is
+  // preserved byte-for-byte; the §17.8.17 publish-time length gate catches any
+  // out-of-band result there.
+  var levelProvided = (opts.educationalLevelLocalized !== undefined && opts.educationalLevelLocalized !== null && String(opts.educationalLevelLocalized) !== '');
+  var levelText = levelProvided ? String(opts.educationalLevelLocalized) : '__EDUCATIONAL_LEVEL_LOCALIZED__';
+  var skillSentence = String(opts.skillSentence || '');
+
+  var descLeadBase = freeInteractive + ' ' + typeName + (modeName ? ' ' + modeName : '') + ' ' + worksheetWord;
+  var descLeadNoTheme = descLeadBase + ' ' + forWord + ' ' + levelText;
+  var descLead = (themeName ? descLeadBase + ' (' + themeName + ')' : descLeadBase) + ' ' + forWord + ' ' + levelText;
   var descTail = ' ' + printOrPlay + (variantId ? ' (' + variantLabel + ' ' + variantId + ')' : '') + '.';
-  var description = descLead + '.' + (instruction ? ' ' + instruction + (/[.!?]$/.test(instruction) ? '' : '.') : '') + descTail;
+
+  var description;
+  if (levelProvided) {
+    description = bandedDescription({
+      descLead: descLead,
+      descLeadNoTheme: themeName ? descLeadNoTheme : null,
+      descTail: descTail,
+      middlePrimary: instruction,
+      middleSecondary: skillSentence,
+      hasVariant: !!variantId
+    });
+  } else {
+    description = descLead + '.' + (instruction ? ' ' + instruction + (/[.!?]$/.test(instruction) ? '' : '.') : '') + descTail;
+  }
 
   // Schema.org LearningResource. Placeholders sit INSIDE string-quoted JSON
   // values so JSON.parse stays valid both before and after publish-cli's

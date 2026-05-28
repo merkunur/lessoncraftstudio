@@ -64,7 +64,7 @@ const LANDING_STRINGS: Record<string, {
     sectionLevels: "Grade levels",
     showAllThemes: (n) => `Show all ${n} themes`,
     emptyState: "Catalog coming soon — full content rolls out by language.",
-    metaTitle: "Topics — LessonCraftStudio",
+    metaTitle: "Topics",
     metaDescription: "Browse K-3 worksheets and activities by subject, theme, or grade level.",
   },
   de: {
@@ -75,7 +75,7 @@ const LANDING_STRINGS: Record<string, {
     sectionLevels: "Klassenstufen",
     showAllThemes: (n) => `Alle ${n} Themen anzeigen`,
     emptyState: "Katalog kommt bald — Inhalte werden nach Sprache ausgerollt.",
-    metaTitle: "Themen — LessonCraftStudio",
+    metaTitle: "Themen",
     metaDescription: "K-3-Arbeitsblätter und Aufgaben nach Fach, Thema oder Klassenstufe durchsuchen.",
   },
   es: {
@@ -86,7 +86,7 @@ const LANDING_STRINGS: Record<string, {
     sectionLevels: "Niveles",
     showAllThemes: (n) => `Ver los ${n} temas`,
     emptyState: "Catálogo en camino — el contenido se publica por idioma.",
-    metaTitle: "Temas — LessonCraftStudio",
+    metaTitle: "Temas",
     metaDescription: "Explora hojas de trabajo y actividades K-3 por materia, tema o nivel.",
   },
   fr: {
@@ -97,7 +97,7 @@ const LANDING_STRINGS: Record<string, {
     sectionLevels: "Niveaux",
     showAllThemes: (n) => `Voir les ${n} thèmes`,
     emptyState: "Catalogue à venir — le contenu se déploie par langue.",
-    metaTitle: "Sujets — LessonCraftStudio",
+    metaTitle: "Sujets",
     metaDescription: "Parcours les fiches et activités K-3 par matière, thème ou niveau.",
   },
   it: {
@@ -108,7 +108,7 @@ const LANDING_STRINGS: Record<string, {
     sectionLevels: "Livelli scolastici",
     showAllThemes: (n) => `Mostra tutti i ${n} temi`,
     emptyState: "Catalogo in arrivo — i contenuti vengono pubblicati per lingua.",
-    metaTitle: "Argomenti — LessonCraftStudio",
+    metaTitle: "Argomenti",
     metaDescription: "Sfoglia schede e attività K-3 per materia, tema o livello.",
   },
   pt: {
@@ -119,7 +119,7 @@ const LANDING_STRINGS: Record<string, {
     sectionLevels: "Níveis",
     showAllThemes: (n) => `Ver os ${n} temas`,
     emptyState: "Catálogo em breve — o conteúdo é publicado por idioma.",
-    metaTitle: "Tópicos — LessonCraftStudio",
+    metaTitle: "Tópicos",
     metaDescription: "Navegue por fichas e atividades K-3 por matéria, tema ou nível.",
   },
   nl: {
@@ -130,7 +130,7 @@ const LANDING_STRINGS: Record<string, {
     sectionLevels: "Leerjaren",
     showAllThemes: (n) => `Alle ${n} thema's tonen`,
     emptyState: "Catalogus komt eraan — inhoud wordt per taal uitgerold.",
-    metaTitle: "Onderwerpen — LessonCraftStudio",
+    metaTitle: "Onderwerpen",
     metaDescription: "Doorzoek K-3-werkbladen en activiteiten op vak, thema of leerjaar.",
   },
   sv: {
@@ -141,7 +141,7 @@ const LANDING_STRINGS: Record<string, {
     sectionLevels: "Årskurser",
     showAllThemes: (n) => `Visa alla ${n} teman`,
     emptyState: "Katalog på väg — innehåll publiceras språk för språk.",
-    metaTitle: "Ämnen — LessonCraftStudio",
+    metaTitle: "Ämnen",
     metaDescription: "Bläddra i K-3-arbetsblad och aktiviteter efter ämne, tema eller årskurs.",
   },
   da: {
@@ -152,7 +152,7 @@ const LANDING_STRINGS: Record<string, {
     sectionLevels: "Klassetrin",
     showAllThemes: (n) => `Vis alle ${n} temaer`,
     emptyState: "Katalog på vej — indhold udrulles sprog for sprog.",
-    metaTitle: "Emner — LessonCraftStudio",
+    metaTitle: "Emner",
     metaDescription: "Gennemse K-3-opgaveark og aktiviteter efter fag, tema eller klassetrin.",
   },
   no: {
@@ -163,7 +163,7 @@ const LANDING_STRINGS: Record<string, {
     sectionLevels: "Trinn",
     showAllThemes: (n) => `Vis alle ${n} temaer`,
     emptyState: "Katalog kommer — innhold rulles ut språk for språk.",
-    metaTitle: "Emner — LessonCraftStudio",
+    metaTitle: "Emner",
     metaDescription: "Bla gjennom K-3-arbeidsark og aktiviteter etter fag, tema eller trinn.",
   },
   fi: {
@@ -174,7 +174,7 @@ const LANDING_STRINGS: Record<string, {
     sectionLevels: "Luokkatasot",
     showAllThemes: (n) => `Näytä kaikki ${n} teemaa`,
     emptyState: "Luettelo tulossa — sisältö julkaistaan kielittäin.",
-    metaTitle: "Aiheet — LessonCraftStudio",
+    metaTitle: "Aiheet",
     metaDescription: "Selaa K-3-tehtäväpapereita ja aktiviteetteja aiheen, teeman tai tason mukaan.",
   },
 };

@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   const locale = params.locale || 'en';
   const t = await getTranslations({ locale, namespace: 'contact' });
 
-  const pageTitle = t.has('metaTitle') ? t('metaTitle') : `${t('title')} | LessonCraftStudio`;
+  const pageTitle = t.has('metaTitle') ? t('metaTitle') : `${t('title')}`;
   const pageDescription = t.has('metaDescription') ? t('metaDescription') : t('subtitle');
 
   const hreflangAlternates: Record<string, string> = {};
@@ -51,7 +51,7 @@ export default async function ContactPage({
 }) {
   const t = await getTranslations({ locale, namespace: 'contact' });
 
-  const pageTitle = t.has('metaTitle') ? t('metaTitle') : `${t('title')} | LessonCraftStudio`;
+  const pageTitle = t.has('metaTitle') ? t('metaTitle') : `${t('title')}`;
   const pageDescription = t.has('metaDescription') ? t('metaDescription') : t('subtitle');
   const schemas = generateStaticPageSchemas({
     pagePath: '/contact',

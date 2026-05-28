@@ -1145,7 +1145,7 @@
   },
   "topicPage": {
     "meta": {
-      "title": "{topic}-arbetsblad | LessonCraftStudio",
+      "title": "{topic}-arbetsblad",
       "description": "Gratis {topic}-arbetsblad och utskrivbara PDF-filer. Interaktiva aktiviteter för förskolan."
     },
     "heading": {
@@ -1462,7 +1462,7 @@
   },
   "collections": {
     "meta": {
-      "title": "Your collections | LessonCraftStudio",
+      "title": "Your collections",
       "description": "Save and organize decks into collections — by class, by unit, by week."
     },
     "list": {
@@ -1486,7 +1486,7 @@
       "errorGeneric": "Could not create the collection. Please try again."
     },
     "detail": {
-      "metaTitle": "{name} | LessonCraftStudio",
+      "metaTitle": "{name}",
       "back": "← All collections",
       "renameCta": "Rename",
       "renameTitle": "Rename collection",
@@ -1541,7 +1541,7 @@
   },
   "workspace": {
     "metadata": {
-      "title": "Your workspace | LessonCraftStudio",
+      "title": "Your workspace",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
     },
     "header": {
@@ -1757,7 +1757,7 @@
       "defaultAlt": "Vänlig elefantmaskot"
     },
     "metadata": {
-      "title": "Förhandsvisning av startsida v3 · LessonCraftStudio",
+      "title": "Förhandsvisning av startsida v3",
       "description": "Intern prototyp av den omdesignade startsidan. Indexeras inte."
     }
   },
@@ -1785,7 +1785,7 @@
   },
   "standardsPage": {
     "meta": {
-      "title": "Gratis {code}-aktiviteter & arbetsblad på 11 språk | LessonCraftStudio",
+      "title": "Gratis {code}-aktiviteter & arbetsblad på 11 språk",
       "description": "Gratis interaktiva F-3-aktiviteter och utskrivbara arbetsblad anpassade till Common Core State Standard {code} ({strand}). Tillgängliga på 11 språk."
     },
     "pageTitle": "{code} — Gratis aktiviteter & arbetsblad",
@@ -1800,7 +1800,7 @@
   },
   "aboutPage": {
     "meta": {
-      "title": "Om oss | LessonCraftStudio",
+      "title": "Om oss",
       "description": "Om LessonCraftStudio — gratis arbetsblad och interaktiva aktiviteter för F-3 på 11 språk, för tvåspråkiga, flerspråkiga och internationella klassrum."
     },
     "pageTitle": "Om LessonCraftStudio",

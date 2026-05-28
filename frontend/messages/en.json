@@ -281,11 +281,11 @@
     "faq": "Frequently Asked Questions",
     "faqInfo": "Check our FAQ page for instant answers to common questions.",
     "followUs": "Follow Us",
-    "metaTitle": "Contact Us — Support & Inquiries | LessonCraftStudio",
+    "metaTitle": "Contact Us — Support & Inquiries",
     "metaDescription": "Get in touch with the LessonCraftStudio team. Questions about worksheet generators, subscriptions, licensing, or partnerships? We respond within 24-48 hours."
   },
   "terms": {
-    "metaTitle": "Terms of Service — Usage Agreement | LessonCraftStudio",
+    "metaTitle": "Terms of Service — Usage Agreement",
     "metaDescription": "LessonCraftStudio terms of service — usage rights for free K-3 worksheets, interactive activities, and downloadable resources, under Swedish law.",
     "title": "Terms of Service",
     "lastUpdated": "Last Updated",
@@ -361,7 +361,7 @@
     }
   },
   "license": {
-    "metaTitle": "License Terms — Content Usage Rights | LessonCraftStudio",
+    "metaTitle": "License Terms — Content Usage Rights",
     "metaDescription": "LessonCraftStudio license terms. Free K-3 worksheets and activities; one uniform license for all users; personal, classroom, and paid-instruction use permitted; no resale of the worksheet files.",
     "title": "License Terms",
     "lastUpdated": "Last Updated",
@@ -417,7 +417,7 @@
     }
   },
   "privacy": {
-    "metaTitle": "Privacy Policy — Data Practices & GDPR | LessonCraftStudio",
+    "metaTitle": "Privacy Policy — Data Practices & GDPR",
     "metaDescription": "Read our privacy policy. Learn how LessonCraftStudio handles your data under GDPR and Swedish law. We collect minimal data and never sell personal information.",
     "title": "Privacy Policy",
     "lastUpdated": "Last Updated",
@@ -866,7 +866,7 @@
   },
   "collections": {
     "meta": {
-      "title": "Your collections | LessonCraftStudio",
+      "title": "Your collections",
       "description": "Save and organize decks into collections — by class, by unit, by week."
     },
     "list": {
@@ -890,7 +890,7 @@
       "errorGeneric": "Could not create the collection. Please try again."
     },
     "detail": {
-      "metaTitle": "{name} | LessonCraftStudio",
+      "metaTitle": "{name}",
       "back": "← All collections",
       "renameCta": "Rename",
       "renameTitle": "Rename collection",
@@ -930,7 +930,7 @@
   },
   "topicPage": {
     "meta": {
-      "title": "{topic} worksheets | LessonCraftStudio",
+      "title": "{topic} worksheets",
       "description": "Free {topic} worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
     },
     "heading": {
@@ -1224,7 +1224,7 @@
   },
   "workspace": {
     "metadata": {
-      "title": "Your workspace | LessonCraftStudio",
+      "title": "Your workspace",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
     },
     "header": {
@@ -1479,7 +1479,7 @@
       "defaultAlt": "Friendly elephant mascot"
     },
     "metadata": {
-      "title": "Homepage v3 Preview · LessonCraftStudio",
+      "title": "Homepage v3 Preview",
       "description": "Internal prototype of the redesigned homepage. Not indexed."
     }
   },
@@ -1507,7 +1507,7 @@
   },
   "standardsPage": {
     "meta": {
-      "title": "Free {code} Activities & Worksheets in 11 Languages | LessonCraftStudio",
+      "title": "Free {code} Activities & Worksheets in 11 Languages",
       "description": "Free K-3 interactive activities and printable worksheets aligned to Common Core State Standard {code} ({strand}). Available in 11 languages."
     },
     "pageTitle": "{code} — Free Activities & Worksheets",
@@ -1522,7 +1522,7 @@
   },
   "aboutPage": {
     "meta": {
-      "title": "About | LessonCraftStudio",
+      "title": "About",
       "description": "About LessonCraftStudio — free K-3 worksheets and interactive activities in 11 languages, built for dual-language, bilingual, and international-school classrooms."
     },
     "pageTitle": "About LessonCraftStudio",

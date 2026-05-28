@@ -815,7 +815,7 @@
   },
   "collections": {
     "meta": {
-      "title": "Uw verzamelingen | LessonCraftStudio",
+      "title": "Uw verzamelingen",
       "description": "Bewaar en organiseer decks in verzamelingen — per klas, per eenheid, per week."
     },
     "list": {
@@ -839,7 +839,7 @@
       "errorGeneric": "De verzameling kon niet worden aangemaakt. Probeer het opnieuw."
     },
     "detail": {
-      "metaTitle": "{name} | LessonCraftStudio",
+      "metaTitle": "{name}",
       "back": "← Alle verzamelingen",
       "renameCta": "Hernoemen",
       "renameTitle": "Verzameling hernoemen",
@@ -879,7 +879,7 @@
   },
   "topicPage": {
     "meta": {
-      "title": "Werkbladen voor {topic} | LessonCraftStudio",
+      "title": "Werkbladen voor {topic}",
       "description": "Gratis {topic}-werkbladen en afdrukbare PDFs. Interactieve activiteiten voor klassen in de eerste schooljaren."
     },
     "heading": {
@@ -1172,7 +1172,7 @@
   },
   "workspace": {
     "metadata": {
-      "title": "Uw werkruimte | LessonCraftStudio",
+      "title": "Uw werkruimte",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
     },
     "header": {
@@ -1757,7 +1757,7 @@
       "defaultAlt": "Vriendelijke olifant-mascotte"
     },
     "metadata": {
-      "title": "Voorvertoning homepage v3 · LessonCraftStudio",
+      "title": "Voorvertoning homepage v3",
       "description": "Interne prototype van de heringerichte homepage. Niet geïndexeerd."
     }
   },
@@ -1785,7 +1785,7 @@
   },
   "standardsPage": {
     "meta": {
-      "title": "Gratis {code} activiteiten & werkbladen in 11 talen | LessonCraftStudio",
+      "title": "Gratis {code} activiteiten & werkbladen in 11 talen",
       "description": "Gratis K-3 interactieve activiteiten en printbare werkbladen aansluitend op Common Core State Standard {code} ({strand}). Beschikbaar in 11 talen."
     },
     "pageTitle": "{code} — Gratis activiteiten & werkbladen",
@@ -1800,7 +1800,7 @@
   },
   "aboutPage": {
     "meta": {
-      "title": "Over ons | LessonCraftStudio",
+      "title": "Over ons",
       "description": "Over LessonCraftStudio — gratis K-3 werkbladen en interactieve activiteiten in 11 talen, voor tweetalige, meertalige en internationale klassen."
     },
     "pageTitle": "Over LessonCraftStudio",

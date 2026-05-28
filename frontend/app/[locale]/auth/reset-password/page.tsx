@@ -6,7 +6,7 @@ export const dynamic = 'force-dynamic';
 
 // SEO: Auth pages should not be indexed
 export const metadata: Metadata = {
-  title: 'Reset Password | LessonCraftStudio',
+  title: 'Reset Password',
   robots: {
     index: false,
     follow: false,

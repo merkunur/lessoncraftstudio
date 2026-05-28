@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { headers } from 'next/headers';
 
 export const metadata: Metadata = {
-  title: '404 - Page Not Found | LessonCraftStudio',
+  title: '404 - Page Not Found',
   robots: {
     index: false,
     follow: false,

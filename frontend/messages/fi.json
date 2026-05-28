@@ -1134,7 +1134,7 @@
   },
   "topicPage": {
     "meta": {
-      "title": "{topic}-tehtäviä | LessonCraftStudio",
+      "title": "{topic}-tehtäviä",
       "description": "Ilmaisia {topic}-tehtäviä ja tulostettavia PDF-tiedostoja. Interaktiivisia tehtäviä varhaiskasvatukseen."
     },
     "heading": {
@@ -1451,7 +1451,7 @@
   },
   "collections": {
     "meta": {
-      "title": "Your collections | LessonCraftStudio",
+      "title": "Your collections",
       "description": "Save and organize decks into collections — by class, by unit, by week."
     },
     "list": {
@@ -1475,7 +1475,7 @@
       "errorGeneric": "Could not create the collection. Please try again."
     },
     "detail": {
-      "metaTitle": "{name} | LessonCraftStudio",
+      "metaTitle": "{name}",
       "back": "← All collections",
       "renameCta": "Rename",
       "renameTitle": "Rename collection",
@@ -1530,7 +1530,7 @@
   },
   "workspace": {
     "metadata": {
-      "title": "Your workspace | LessonCraftStudio",
+      "title": "Your workspace",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
     },
     "header": {
@@ -1746,7 +1746,7 @@
       "defaultAlt": "Ystävällinen norsumaskotti"
     },
     "metadata": {
-      "title": "Etusivun v3 esikatselu · LessonCraftStudio",
+      "title": "Etusivun v3 esikatselu",
       "description": "Uudelleensuunnitellun etusivun sisäinen prototyyppi. Ei indeksoitu."
     }
   },
@@ -1774,7 +1774,7 @@
   },
   "standardsPage": {
     "meta": {
-      "title": "Ilmaisia {code}-tehtäviä ja työarkkeja 11 kielellä | LessonCraftStudio",
+      "title": "Ilmaisia {code}-tehtäviä ja työarkkeja 11 kielellä",
       "description": "Ilmaisia interaktiivisia K-3-tehtäviä ja tulostettavia työarkkeja Common Core State Standard {code} ({strand}) -mukaisesti. Saatavilla 11 kielellä."
     },
     "pageTitle": "{code} — Ilmaisia tehtäviä ja työarkkeja",
@@ -1789,7 +1789,7 @@
   },
   "aboutPage": {
     "meta": {
-      "title": "Tietoa meistä | LessonCraftStudio",
+      "title": "Tietoa meistä",
       "description": "Tietoa LessonCraftStudiosta – maksuttomia esi- ja alkuopetuksen tehtäväarkkeja ja interaktiivisia tehtäviä 11 kielellä kaksikielisille, monikielisille ja kansainvälisille luokille."
     },
     "pageTitle": "Tietoa LessonCraftStudiosta",

@@ -828,6 +828,50 @@ test('de german casing: ALL-CAPS normalized, proper-cased nouns preserved, "und"
 });
 
 console.log('');
+console.log('Title overhaul: French config (of-type + elision + sentence-case):');
+
+var FR_CFG = require('./seo-title-config.json').fr;
+
+test('fr of-type elision: "Fiche d\'addition" (de + vowel → d\')', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'fr', titleConfig: FR_CFG,
+    exerciseTypeName: 'Addition', exerciseTypeSlug: 'addition', themeName: 'Animaux',
+    educationalLevelLocalized: 'Maternelle',
+    differentiator: { kind: 'vocab', phrase: 'Loup', phraseShort: 'Loup', raw: 'wolf' }
+  }));
+  assert.strictEqual(titleText(out), "Fiche d'addition — Animaux — Loup — Maternelle");
+});
+
+test('fr of-type no elision: "Fiche de soustraction" (de + consonant)', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'fr', titleConfig: FR_CFG,
+    exerciseTypeName: 'Soustraction', exerciseTypeSlug: 'subtraction', themeName: 'Animaux',
+    educationalLevelLocalized: 'CE1',
+    differentiator: { kind: 'vocab', phrase: 'Renard', phraseShort: 'Renard', raw: 'fox' }
+  }));
+  assert.strictEqual(titleText(out), 'Fiche de soustraction — Animaux — Renard — CE1');
+});
+
+test('fr non-of-type: activity type standalone, sentence-cased ("Mots Croisés"→"Mots croisés")', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'fr', titleConfig: FR_CFG,
+    exerciseTypeName: 'Mots Croisés', exerciseTypeSlug: 'crossword', themeName: 'Fruits',
+    educationalLevelLocalized: 'CP',
+    differentiator: { kind: 'none', phrase: null }
+  }));
+  assert.strictEqual(titleText(out), 'Mots croisés — Fruits — CP');
+});
+
+test('fr differentiator: "et" connector + sentence-case', function () {
+  var d = require('./seo-differentiator');
+  var r = d.deriveDifferentiator(
+    { exercise_type: 'addition', theme: 'animals', language: 'fr', vocabulary: ['serpent', 'lézard'], images_used: ['/images/animals/snake.png', '/images/animals/lizard.png'] },
+    'fr', { config: { vocab: { maxNouns: 2, joinStyle: 'conjunction', casing: 'sentence' }, diff: { enableVocab: true } } }
+  );
+  assert.strictEqual(r.phrase, 'Serpent et lézard', 'expected "Serpent et lézard", got: ' + r.phrase);
+});
+
+console.log('');
 console.log('============================================================');
 console.log('Tests: ' + passCount + ' passed, ' + failCount + ' failed');
 process.exit(failCount > 0 ? 1 : 0);

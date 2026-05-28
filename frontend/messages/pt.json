@@ -1188,7 +1188,15 @@
     },
     "intersection": {
       "heading": "{primary} · {secondary}",
-      "intro": "Atividades na interseção de {primary} e {secondary}."
+      "intro": "Atividades na interseção de {primary} e {secondary}.",
+      "meta": {
+        "themeLevel": "Atividades gratuitas e interativas de {theme} para {level}: PDFs para imprimir e jogos online para a educação infantil e anos iniciais.",
+        "themeType": "Atividades gratuitas e interativas de {type} com o tema {theme}: PDFs para imprimir e jogos online para a educação infantil e anos iniciais.",
+        "levelType": "Atividades gratuitas e interativas de {type} para {level}: PDFs para imprimir e jogos online para a educação infantil e anos iniciais.",
+        "themeLevelShort": "Atividades de {theme} para {level} — PDFs gratuitos para imprimir e jogos interativos online para os anos iniciais.",
+        "themeTypeShort": "Atividades de {type} com o tema {theme} — PDFs gratuitos para imprimir e jogos interativos online.",
+        "levelTypeShort": "Atividades de {type} para {level} — PDFs gratuitos para imprimir e jogos interativos online para os anos iniciais."
+      }
     },
     "variety": {
       "sameAxisKeyOtherLocales": "{topic} em outros idiomas",

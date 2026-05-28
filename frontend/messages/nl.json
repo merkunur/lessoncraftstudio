@@ -909,7 +909,15 @@
     },
     "intersection": {
       "heading": "{primary} · {secondary}",
-      "intro": "Werkbladen op het snijvlak van {primary} en {secondary}."
+      "intro": "Werkbladen op het snijvlak van {primary} en {secondary}.",
+      "meta": {
+        "themeLevel": "Gratis printbare en interactieve werkbladen over {theme} voor {level}: PDF-bestanden om te printen plus online oefeningen voor de basisschool.",
+        "themeType": "Gratis printbare en interactieve {type}-werkbladen met {theme} als thema: PDF-bestanden om te printen plus online oefeningen voor de basisschool.",
+        "levelType": "Gratis printbare en interactieve {type}-werkbladen voor {level}: PDF-bestanden om te printen plus online oefeningen voor de basisschool.",
+        "themeLevelShort": "Gratis werkbladen over {theme} voor {level} — printbare PDF-bestanden plus interactieve online oefeningen voor de basisschool.",
+        "themeTypeShort": "Gratis {type}-werkbladen met {theme} als thema — printbare PDF-bestanden plus interactieve online oefeningen voor de basisschool.",
+        "levelTypeShort": "Gratis {type}-werkbladen voor {level} — printbare PDF-bestanden plus interactieve online oefeningen voor de basisschool."
+      }
     },
     "variety": {
       "sameAxisKeyOtherLocales": "{topic} in andere talen",

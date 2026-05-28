@@ -1175,7 +1175,15 @@
     },
     "intersection": {
       "heading": "{primary} · {secondary}",
-      "intro": "Arbetsblad i skärningen mellan {primary} och {secondary}."
+      "intro": "Arbetsblad i skärningen mellan {primary} och {secondary}.",
+      "meta": {
+        "themeLevel": "Gratis utskrivbara och interaktiva arbetsblad om {theme} för {level}: PDF-filer att skriva ut plus aktiviteter att spela online för förskola och lågstadium.",
+        "themeType": "Gratis utskrivbara och interaktiva {type}-arbetsblad med {theme} som tema: PDF-filer att skriva ut plus aktiviteter att spela online för lågstadiet.",
+        "levelType": "Gratis utskrivbara och interaktiva {type}-arbetsblad för {level}: PDF-filer att skriva ut plus aktiviteter att spela online för förskola och lågstadium.",
+        "themeLevelShort": "Gratis arbetsblad om {theme} för {level} — utskrivbara PDF-filer plus interaktiva aktiviteter att spela online.",
+        "themeTypeShort": "Gratis {type}-arbetsblad med {theme} som tema — utskrivbara PDF-filer plus interaktiva aktiviteter online.",
+        "levelTypeShort": "Gratis {type}-arbetsblad för {level} — utskrivbara PDF-filer plus interaktiva aktiviteter att spela online."
+      }
     },
     "variety": {
       "sameAxisKeyOtherLocales": "{topic} på andra språk",

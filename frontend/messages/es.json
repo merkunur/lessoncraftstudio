@@ -922,7 +922,15 @@
     },
     "intersection": {
       "heading": "{primary} · {secondary}",
-      "intro": "Hojas de trabajo en la intersección de {primary} y {secondary}."
+      "intro": "Hojas de trabajo en la intersección de {primary} y {secondary}.",
+      "meta": {
+        "themeLevel": "Fichas gratis e interactivas de {theme} para {level}: PDF imprimibles y actividades para jugar en línea en el aula de infantil y primaria.",
+        "themeType": "Fichas gratis e interactivas de {type} con tema de {theme}: PDF imprimibles y actividades para jugar en línea en infantil y primaria.",
+        "levelType": "Fichas gratis e interactivas de {type} para {level}: PDF imprimibles y actividades para jugar en línea en el aula de infantil y primaria.",
+        "themeLevelShort": "Fichas de {theme} para {level} — PDF gratis imprimibles y actividades interactivas para jugar en línea en primaria.",
+        "themeTypeShort": "Fichas de {type} con tema de {theme} — PDF gratis imprimibles y actividades interactivas para jugar en línea.",
+        "levelTypeShort": "Fichas de {type} para {level} — PDF gratis imprimibles y actividades interactivas para jugar en línea en primaria."
+      }
     },
     "variety": {
       "sameAxisKeyOtherLocales": "{topic} en otros idiomas",

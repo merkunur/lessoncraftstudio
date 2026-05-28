@@ -1164,7 +1164,15 @@
     },
     "intersection": {
       "heading": "{primary} · {secondary}",
-      "intro": "Tehtäväarkit aiheiden {primary} ja {secondary} risteyksessä."
+      "intro": "Tehtäväarkit aiheiden {primary} ja {secondary} risteyksessä.",
+      "meta": {
+        "themeLevel": "Ilmaisia tulostettavia ja interaktiivisia {theme}-tehtäviä tasolle {level}: PDF-tiedostoja tulostettavaksi ja verkossa pelattavia harjoituksia K-3-luokille.",
+        "themeType": "Ilmaisia tulostettavia ja interaktiivisia {type}-tehtäviä teemalla {theme}: PDF-tiedostoja tulostettavaksi ja verkossa pelattavia harjoituksia K-3-luokille.",
+        "levelType": "Ilmaisia tulostettavia ja interaktiivisia {type}-tehtäviä tasolle {level}: PDF-tiedostoja tulostettavaksi ja verkossa pelattavia harjoituksia K-3-luokille.",
+        "themeLevelShort": "Ilmaisia {theme}-tehtäviä tasolle {level} — tulostettavia PDF-tiedostoja ja interaktiivisia verkkoharjoituksia K-3-luokille.",
+        "themeTypeShort": "Ilmaisia {type}-tehtäviä teemalla {theme} — tulostettavia PDF-tiedostoja ja interaktiivisia verkkoharjoituksia K-3-luokille.",
+        "levelTypeShort": "Ilmaisia {type}-tehtäviä tasolle {level} — tulostettavia PDF-tiedostoja ja interaktiivisia verkkoharjoituksia K-3-luokille."
+      }
     },
     "variety": {
       "sameAxisKeyOtherLocales": "{topic} muilla kielillä",

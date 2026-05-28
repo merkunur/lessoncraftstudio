@@ -278,6 +278,69 @@ async function getIntersectionMeta(locale: string, axisKey1: string, axisKey2: s
   }
 }
 
+// Rendered length of a meta-description string as it appears in the HTML
+// `<meta content="...">` attribute: apostrophe → &#x27; (+5), & → &amp; (+4),
+// " → &quot; (+5), < / > → &lt; / &gt; (+3). Accented chars render literally
+// (1 each). Mirrors the C11/C12 single-axis rendered-length discipline.
+const INTERSECTION_RENDER_MAX = 170;
+function renderedMetaLen(s: string): number {
+  let n = s.length;
+  n += (s.match(/'/g) || []).length * 5;
+  n += (s.match(/&/g) || []).length * 4;
+  n += (s.match(/"/g) || []).length * 5;
+  n += (s.match(/</g) || []).length * 3;
+  n += (s.match(/>/g) || []).length * 3;
+  return n;
+}
+
+type IntersectionMetaT = (key: string, vars?: Record<string, string>) => string;
+
+/**
+ * Compose a pair-aware, axis-name-driven meta description for an intersection
+ * page — the universal long-tail fallback per §16.7.3 Path B. Canonical axis
+ * ordering (theme=1 → educational-level=2 → exercise-type=3) means only three
+ * pairs occur; each gets a per-pair ICU template with NAMED vars so the
+ * preposition/article grammar is right (positional primary/secondary would
+ * garble it). Picks a SHORT variant when the base exceeds the rendered ceiling
+ * (long IT/PT level names + long themes); hard-truncates only in the
+ * pathological case where even the short variant overflows.
+ */
+function composeIntersectionDescription(
+  axis1: Axis,
+  axis2: Axis,
+  name1: string,
+  name2: string,
+  ti: IntersectionMetaT,
+): string {
+  let baseKey: string;
+  let shortKey: string;
+  let vars: Record<string, string>;
+  if (axis1 === 'theme' && axis2 === 'educational-level') {
+    baseKey = 'themeLevel';
+    shortKey = 'themeLevelShort';
+    vars = { theme: name1, level: name2 };
+  } else if (axis1 === 'theme' && axis2 === 'exercise-type') {
+    baseKey = 'themeType';
+    shortKey = 'themeTypeShort';
+    vars = { theme: name1, type: name2 };
+  } else {
+    // educational-level × exercise-type (canonical order: level is primary).
+    baseKey = 'levelType';
+    shortKey = 'levelTypeShort';
+    vars = { level: name1, type: name2 };
+  }
+  const base = ti(baseKey, vars);
+  if (renderedMetaLen(base) <= INTERSECTION_RENDER_MAX) return base;
+  const short = ti(shortKey, vars);
+  if (renderedMetaLen(short) <= INTERSECTION_RENDER_MAX) return short;
+  // Pathological: even the short variant overflows. Trim to the ceiling at a
+  // word/punctuation boundary and append an ellipsis.
+  let trimmed = short.slice(0, INTERSECTION_RENDER_MAX - 3);
+  const lastBreak = Math.max(trimmed.lastIndexOf(' '), trimmed.lastIndexOf('·'));
+  if (lastBreak > (INTERSECTION_RENDER_MAX - 3) * 0.7) trimmed = trimmed.slice(0, lastBreak);
+  return trimmed.replace(/[\s,;:·—-]+$/, '') + '…';
+}
+
 /**
  * Extract first sentence from prose for use as meta description (mirrors
  * the single-axis topic page helper for consistency).
@@ -328,14 +391,18 @@ export async function generateMetadata({
   const canonical = canonicalUrl(localePath(locale, 'topic', params.slug, params.secondary));
 
   // Description chain (3 levels, most specific to most generic):
-  //   1. topicMeta.<a1>__<a2>          — alphabetic-key, purpose-built SEO copy
-  //   2. firstSentenceOf(topicProse)   — first sentence of authored prose
-  //   3. topicPage.meta.description    — ICU template fallback
-  // Cross-reference single-axis page.tsx comment for arc context.
+  //   1. topicMeta.<a1>__<a2>            — alphabetic-key, purpose-built SEO copy (C15+ top-N)
+  //   2. firstSentenceOf(topicProse)     — first sentence of authored prose
+  //   3. composeIntersectionDescription  — pair-aware axis-name-composed template (§16.7.3 Path B; C14)
+  // Cross-reference single-axis page.tsx comment for arc context. Level 3 was
+  // previously the thin single-axis generic (`topicPage.meta.description` with a
+  // "·"-joined composite); replaced by the composed per-pair template in C14.
+  const ti = await getTranslations({ locale, namespace: 'topicPage.intersection.meta' });
   const intersectionMeta = await getIntersectionMeta(locale, axisKey1, axisKey2);
   const intersectionProse = await getIntersectionProse(locale, axisKey1, axisKey2);
   const prosePreview = firstSentenceOf(intersectionProse, 155);
-  const description = intersectionMeta ?? prosePreview ?? t('description', { topic: compositeName });
+  const description =
+    intersectionMeta ?? prosePreview ?? composeIntersectionDescription(axis1, axis2, name1, name2, ti);
 
   return {
     title: t('title', { topic: compositeName }),

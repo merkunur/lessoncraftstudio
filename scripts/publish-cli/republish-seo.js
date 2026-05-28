@@ -462,12 +462,16 @@ function buildSeoOpts(c) {
     { config: seoOpts.titleConfig, exerciseModeName: seoOpts.exerciseModeName }
   );
   seoOpts.differentiator = diffResult;
-  // Collision-safe fallback: a deck with NO content differentiator (kind 'none'
-  // — themeless, no vocab, no numeric) keeps the content-hash (manifest.variant_id)
-  // as an honest disambiguator so near-identical themeless decks stay unique under
-  // @@unique([language, titleHash]). audit-title-differentiators.js reports any
-  // residual same-differentiator (TRUE_DUPLICATE) collisions.
-  if ((!diffResult || diffResult.kind === 'none') && seoOpts.variantId) {
+  // Collision-safe disambiguator: manifest.variant_id is the practice-set ordinal
+  // (e.g. '002') that was assigned ONLY to decks generated as multi-set variants
+  // of the same (type, theme, mode, images) — exactly the decks whose content
+  // differentiator is identical to their siblings (same single image / empty vocab).
+  // The set BASE has no variant_id (stays clean); siblings get '002'/'003'/… → the
+  // group is unique under @@unique([language, titleHash]) while every SOLO deck
+  // keeps a clean, code-free title. (Operator-approved "keep a short content code
+  // for near-dupes".) audit-title-differentiators.js reports any residual collisions
+  // where even this fails (genuine exact duplicates).
+  if (seoOpts.variantId) {
     seoOpts.disambiguator = seoOpts.variantId;
   }
   return seoOpts;

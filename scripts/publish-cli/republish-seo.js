@@ -432,21 +432,20 @@ function capitalize(s) {
 }
 
 /**
- * Compute the new deck.html bytes for a classified deck.
- * Phase 2 of the salvage-script lifecycle (called per-deck).
- * Pure-ish: takes classification, returns new bytes string. Reads i18n
- * + taxonomy modules; no FS writes here.
+ * Assemble the full buildSeoHead opts for a classified deck — the SINGLE source
+ * of truth for the deck's SEO surface (title + description). Both computeNewHtml
+ * (full rewrite) and composeProjectedTitle (lightweight pre-flight) call this so
+ * the projected title can never drift from the rewritten one.
+ *
+ * Resolves the educational level + skill sentences (for the 120-170 description
+ * band, Commission 16b) AND the title config + per-deck content differentiator +
+ * collision-safe disambiguator (title overhaul). Reads i18n + taxonomy; no FS/DB.
  */
-function computeNewHtml(c) {
-  var html = c.html;
+function buildSeoOpts(c) {
   var seoOpts = resolveSeoOpts(c);
 
-  // Commission 16b: resolve the educational level + per-type skill sentence so
-  // buildSeoHead can enforce the 120-170 description band — the final length is
-  // only knowable once the level is concrete (not the __EDUCATIONAL_LEVEL_LOCALIZED__
-  // placeholder). The level is resolved via the SAME path substitute.js uses, so
-  // the title (placeholder, filled by substitute downstream) and the description
-  // (resolved here for the band) carry identical level text.
+  // Resolve the level via the SAME path substitute.js uses, so title (level now
+  // baked directly by the new engine) + description carry identical level text.
   var ageRange16b = inferAgeRange(c.manifest);
   var lvlKey16b = taxonomy.AGE_RANGE_TO_LEVEL_I18N_KEY ? taxonomy.AGE_RANGE_TO_LEVEL_I18N_KEY[ageRange16b] : null;
   seoOpts.educationalLevelLocalized = lvlKey16b ? tryI18n(c.manifest.language, 'seo.educational_level.' + lvlKey16b, '') : '';
@@ -454,27 +453,49 @@ function computeNewHtml(c) {
   seoOpts.skillSentence = skill16b.full;
   seoOpts.skillSentenceShort = skill16b.short;
 
-  // Title overhaul: attach the per-locale title config + the per-deck
-  // content-derived differentiator. buildSeoHead's new title engine reads these
-  // (when titleConfig is present) to emit a 50-70-char, brand-free, unique
-  // title — replacing the old "{...} — Set NNN | LessonCraftStudio" template.
-  // The level is now resolved (educationalLevelLocalized set above), so the
-  // budget trim measures real title length.
+  // Title overhaul: per-locale title config + per-deck content-derived
+  // differentiator (replaces the old "Set NNN" tail). buildSeoHead's new engine
+  // composes a 50-70-char, brand-free, unique title when titleConfig is present.
   seoOpts.titleConfig = resolveTitleConfig(c.manifest.language);
   var diffResult = seoDifferentiator.deriveDifferentiator(
     c.manifest, c.manifest.language,
     { config: seoOpts.titleConfig, exerciseModeName: seoOpts.exerciseModeName }
   );
   seoOpts.differentiator = diffResult;
-  // Collision-safe fallback: when a deck has NO content differentiator
-  // (kind 'none' — themeless, no vocab, no numeric), retain the content-hash
-  // (manifest.variant_id) as an honest disambiguator so near-identical themeless
-  // decks stay unique under @@unique([language, titleHash]). Decks WITH a
-  // differentiator (vocab/numeric/mode) need no suffix. audit-title-differentiators.js
-  // reports any residual same-differentiator (TRUE_DUPLICATE) collisions.
+  // Collision-safe fallback: a deck with NO content differentiator (kind 'none'
+  // — themeless, no vocab, no numeric) keeps the content-hash (manifest.variant_id)
+  // as an honest disambiguator so near-identical themeless decks stay unique under
+  // @@unique([language, titleHash]). audit-title-differentiators.js reports any
+  // residual same-differentiator (TRUE_DUPLICATE) collisions.
   if ((!diffResult || diffResult.kind === 'none') && seoOpts.variantId) {
     seoOpts.disambiguator = seoOpts.variantId;
   }
+  return seoOpts;
+}
+
+/**
+ * Compose ONLY the projected <title> for a classified deck — no substitute, no
+ * full-HTML rewrite (the new title bakes the resolved level, so substitute is
+ * not needed to finalize it). Used by the read-only pre-flight to compute all
+ * projected titles cheaply (avoids the OOM of running computeNewHtml catalog-wide).
+ * Returns the rendered (HTML-escaped) <title> text.
+ */
+function composeProjectedTitle(c) {
+  var seoOpts = buildSeoOpts(c);
+  var block = buildSeoHeadMod.buildSeoHead(seoOpts);
+  var m = /<title>([\s\S]*?)<\/title>/i.exec(block);
+  return m ? m[1].trim() : '';
+}
+
+/**
+ * Compute the new deck.html bytes for a classified deck.
+ * Phase 2 of the salvage-script lifecycle (called per-deck).
+ * Pure-ish: takes classification, returns new bytes string. Reads i18n
+ * + taxonomy modules; no FS writes here.
+ */
+function computeNewHtml(c) {
+  var html = c.html;
+  var seoOpts = buildSeoOpts(c);
 
   // Step 1: emit SEO block with placeholders
   var seoBlockTemplate = buildSeoHeadMod.buildSeoHead(seoOpts);
@@ -778,6 +799,8 @@ module.exports = {
   resolveSeoOpts: resolveSeoOpts,
   resolveTitleConfig: resolveTitleConfig,
   inferAgeRange: inferAgeRange,
+  buildSeoOpts: buildSeoOpts,
+  composeProjectedTitle: composeProjectedTitle,
   computeNewHtml: computeNewHtml,
   computeSeoHashes: computeSeoHashes,
   SEO_MARKER_START: SEO_MARKER_START,

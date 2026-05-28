@@ -167,15 +167,17 @@ function composeTitle(opts) {
   var levelText = levelResolved ? String(opts.educationalLevelLocalized) : '__EDUCATIONAL_LEVEL_LOCALIZED__';
 
   // head builder. Default (en/es): {Type}[ {Mode}]{ Worksheet}. of-type (it):
-  // noun math types → meaningful mode AS head ("Trova l'addendo") else
-  // "{Worksheet} di {Type}" ("Scheda di addizione"); other types → {Type}[ {Mode}]
-  // standalone, no worksheet word ("Cruciverba"). dropMode sheds the secondary
-  // mode keyword when the title would otherwise overflow the budget.
+  // noun math types (ofTypeKeys) → "{Worksheet} di {Type}" ("Scheda di addizione"),
+  // ALWAYS keeping the math keyword (the mode is NOT promoted to head — e.g.
+  // subtraction cross-out stays "Scheda di sottrazione", not "Barrare"); the
+  // differentiator carries uniqueness. Other types → {Type}[ {Mode}] standalone,
+  // no worksheet word ("Cruciverba"). dropMode sheds the secondary mode keyword
+  // when the title would otherwise overflow the budget.
   function headStr(dropMode) {
     var m = (effMode && !dropMode) ? effMode : null;
     if (headStyle === 'of-type') {
       if (ofTypeKeys.indexOf(typeKey) !== -1) {
-        return m ? m : (wWord + ' di ' + typeName);
+        return wWord + ' di ' + typeName;
       }
       return typeName + (m ? ' ' + m : '');
     }

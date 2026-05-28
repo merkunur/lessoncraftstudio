@@ -678,15 +678,16 @@ test('it of-type: noun math type, no mode -> "Scheda di {type}"', function () {
   assert.strictEqual(titleText(out), 'Scheda di addizione — Animali — Mucca — Prescolare');
 });
 
-test('it of-type: meaningful mode becomes the head', function () {
+test('it of-type: math keyword ALWAYS kept (mode NOT promoted to head)', function () {
+  // subtraction cross-out must stay "Scheda di sottrazione", never "Barrare".
   var out = buildSeoHead(optsFixture({
     language: 'it', titleConfig: IT_CFG,
-    exerciseTypeName: 'Addizione', exerciseTypeSlug: 'addition',
-    exerciseModeName: "Trova l'addendo", exerciseModeKey: 'find-addend',
+    exerciseTypeName: 'Sottrazione', exerciseTypeSlug: 'subtraction',
+    exerciseModeName: 'Barrare', exerciseModeKey: 'cross-out',
     themeName: 'Animali', educationalLevelLocalized: 'Prescolare',
-    differentiator: { kind: 'vocab', phrase: 'Mucca', phraseShort: 'Mucca', raw: 'cow' }
+    differentiator: { kind: 'vocab', phrase: 'Maiale', phraseShort: 'Maiale', raw: 'pig' }
   }));
-  assert.strictEqual(titleText(out), "Trova l'addendo — Animali — Mucca — Prescolare");
+  assert.strictEqual(titleText(out), 'Scheda di sottrazione — Animali — Maiale — Prescolare');
 });
 
 test('it of-type: jargon mode (image-image) dropped -> falls back to "Scheda di {type}"', function () {

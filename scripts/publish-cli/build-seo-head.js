@@ -141,6 +141,9 @@ function composeTitle(opts) {
   var headStyle = cfg.headStyle || 'default';
   var ofTypeKeys = Array.isArray(cfg.ofTypeKeys) ? cfg.ofTypeKeys : [];
   var ofTypeConn = cfg.ofTypeConnector || 'de';  // "{Worksheet} {conn} {type}" — it:'di', pt/es-Romance:'de'
+  // ofTypeWordPosition: 'before' (Romance: "Scheda di addizione") | 'after'
+  // (German compound order: "Addition Arbeitsblatt").
+  var ofTypeWordPosition = cfg.ofTypeWordPosition || 'before';
   var typeKey = String(opts.exerciseTypeSlug || '');
 
   var typeName = String(opts.exerciseTypeName || '');
@@ -178,7 +181,9 @@ function composeTitle(opts) {
     var m = (effMode && !dropMode) ? effMode : null;
     if (headStyle === 'of-type') {
       if (ofTypeKeys.indexOf(typeKey) !== -1) {
-        return wWord + ' ' + ofTypeConn + ' ' + typeName;
+        return ofTypeWordPosition === 'after'
+          ? typeName + ' ' + wWord                       // "Addition Arbeitsblatt"
+          : wWord + ' ' + ofTypeConn + ' ' + typeName;   // "Scheda di addizione"
       }
       return typeName + (m ? ' ' + m : '');
     }

@@ -61,6 +61,14 @@ function applyCasing(noun, casing) {
   if (!s) return s;
   if (casing === 'lower') return s.toLocaleLowerCase();
   if (casing === 'preserve') return s;
+  if (casing === 'german') {
+    // German keeps noun capitalization as authored; only normalize SHOUTING
+    // all-caps (word-guess answers "FLEDERMAUS" → "Fledermaus").
+    if (s === s.toLocaleUpperCase() && s !== s.toLocaleLowerCase()) {
+      return s.charAt(0) + s.slice(1).toLocaleLowerCase();
+    }
+    return s;
+  }
   // 'title' (default)
   return s.replace(/(^|[\s\-/'’])(\p{L})/gu, function (m, sep, ch) {
     return sep + ch.toLocaleUpperCase();

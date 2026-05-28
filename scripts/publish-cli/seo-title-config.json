@@ -196,5 +196,23 @@
     "numericTemplates": {},
     "diff": { "enableVocab": true, "enableNumeric": false, "enableMode": false, "excludeTypes": ["cryptogram"] },
     "charBudget": { "min": 50, "max": 70 }
+  },
+
+  "_comment_fi": "Native Finnish 3-agent ensemble 2026-05-28 (strong consensus). Uralic; Finnish sentence-case (caps first word + proper nouns only). Reuses the 'compound' knob with an EMPTY linking element (Finnish nominative+nominative compound, no Fugen): head 'Yhteenlasku'+'tehtävä' = 'Yhteenlaskutehtävä' (ofTypeWordPosition 'compound' + ofTypeLinkingElement ''). worksheet word 'Tehtävä' (compounding root; all 3 experts over the longer 'tehtäväarkki'/'tehtävämoniste'); messages/fi.json seo.words.worksheet stays 'Tehtävämoniste' for the description path (valid Finnish, no residue). Levels (operator): 3-5 'Varhaiskasvatus' (formal OPS term, matches topic-page taxonomy §17.4.3 + OPS framing §A.13.49), 5-7 'Esiopetus' (unanimous over colloquial Esikoulu), grades 1./2./3. luokka; messages/fi.json fixed. Connector 'ja' (joinStyle conjunction via Intl.ListFormat('fi')). Drop jargon head modes (Kuva-Kuva etc.); exclude cryptogram cipher; normalize ALL-CAPS. Activity-named types stand alone (Ristikko, Aarteenetsintä, Bingo, Kuvasudoku, Sanahaku, Kryptogrammi, Kuvapolku); math-worksheet 'Matematiikkatehtävä' + pattern-worksheet 'Kuviotehtävä' NOT ofType → standalone (already end -tehtävä). No 'for'/'and' homograph (fi: ja/ankka/varten). Type-name flags future (taxonomy name.fi): Kirjainsekoitus→Sanasekoitus (word-scramble misnamed), Ruudukkoyhdistys→Ruudukon yhdistäminen, Yhdistäminen→Yhdistä parit.",
+  "fi": {
+    "titleSegmentOrder": ["head", "theme", "diff", "level"],
+    "separator": " — ",
+    "includeLevel": true,
+    "segmentCasing": "sentence",
+    "headStyle": "of-type",
+    "ofTypeKeys": ["addition", "subtraction"],
+    "ofTypeWordPosition": "compound",
+    "ofTypeLinkingElement": "",
+    "worksheetWordOverride": "Tehtävä",
+    "headDropModes": ["image-image", "three-symbols-add-sub", "two-symbols-add-sub", "four-symbols-add-sub", "image-number", "mixed", "cardinal-arrows", "find-shadow", "make-whole", "check-cross", "i-spy", "letter-spotting", "one-missing", "two-missing"],
+    "vocab": { "maxNouns": 2, "joinStyle": "conjunction", "casing": "sentence" },
+    "numericTemplates": {},
+    "diff": { "enableVocab": true, "enableNumeric": false, "enableMode": false, "excludeTypes": ["cryptogram"] },
+    "charBudget": { "min": 50, "max": 70 }
   }
 }

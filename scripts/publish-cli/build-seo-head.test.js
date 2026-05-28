@@ -1129,6 +1129,71 @@ test('no differentiator: "og" connector + sentence-case + ALL-CAPS normalized', 
 });
 
 console.log('');
+console.log('Title overhaul: Finnish config (of-type "compound" + empty linker + sentence-case):');
+
+var FI_CFG = require('./seo-title-config.json').fi;
+
+test('fi of-type "compound" (no Fugen): addition -> "Yhteenlaskutehtävä"', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'fi', titleConfig: FI_CFG,
+    exerciseTypeName: 'Yhteenlasku', exerciseTypeSlug: 'addition', themeName: 'Eläimet',
+    educationalLevelLocalized: 'Esiopetus',
+    differentiator: { kind: 'vocab', phrase: 'Lepakko', phraseShort: 'Lepakko', raw: 'bat' }
+  }));
+  assert.strictEqual(titleText(out), 'Yhteenlaskutehtävä — Eläimet — Lepakko — Esiopetus');
+});
+
+test('fi of-type "compound": subtraction -> "Vähennyslaskutehtävä"', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'fi', titleConfig: FI_CFG,
+    exerciseTypeName: 'Vähennyslasku', exerciseTypeSlug: 'subtraction', themeName: 'Hedelmät',
+    educationalLevelLocalized: '1. luokka',
+    differentiator: { kind: 'vocab', phrase: 'Omena', phraseShort: 'Omena', raw: 'apple' }
+  }));
+  assert.strictEqual(titleText(out), 'Vähennyslaskutehtävä — Hedelmät — Omena — 1. luokka');
+});
+
+test('fi non-of-type: activity type stands alone, no tehtävä ("Ristikko")', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'fi', titleConfig: FI_CFG,
+    exerciseTypeName: 'Ristikko', exerciseTypeSlug: 'crossword', themeName: 'Hedelmät',
+    educationalLevelLocalized: '1. luokka',
+    differentiator: { kind: 'none', phrase: null }
+  }));
+  assert.strictEqual(titleText(out), 'Ristikko — Hedelmät — 1. luokka');
+});
+
+test('fi math-worksheet: "Matematiikkatehtävä" not ofType, stands alone (no double tehtävä)', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'fi', titleConfig: FI_CFG,
+    exerciseTypeName: 'Matematiikkatehtävä', exerciseTypeSlug: 'math-worksheet', themeName: 'Eläimet',
+    educationalLevelLocalized: '1. luokka',
+    differentiator: { kind: 'none', phrase: null }
+  }));
+  assert.strictEqual((titleText(out).match(/tehtävä/gi) || []).length, 1, 'no tehtävä double');
+  assert.strictEqual(titleText(out), 'Matematiikkatehtävä — Eläimet — 1. luokka');
+});
+
+test('fi non-of-type: Title-Case type sentence-cased ("Enemmän Vai Vähemmän"->"Enemmän vai vähemmän")', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'fi', titleConfig: FI_CFG,
+    exerciseTypeName: 'Enemmän Vai Vähemmän', exerciseTypeSlug: 'more-less', themeName: 'Eläimet',
+    educationalLevelLocalized: 'Varhaiskasvatus',
+    differentiator: { kind: 'none', phrase: null }
+  }));
+  assert.strictEqual(titleText(out), 'Enemmän vai vähemmän — Eläimet — Varhaiskasvatus');
+});
+
+test('fi differentiator: "ja" connector + sentence-case + ALL-CAPS normalized', function () {
+  var d = require('./seo-differentiator');
+  var r = d.deriveDifferentiator(
+    { exercise_type: 'addition', theme: 'animals', language: 'fi', vocabulary: ['KISSA', 'KOIRA'], images_used: ['/images/animals/cat.png', '/images/animals/dog.png'] },
+    'fi', { config: { vocab: { maxNouns: 2, joinStyle: 'conjunction', casing: 'sentence' }, diff: { enableVocab: true } } }
+  );
+  assert.strictEqual(r.phrase, 'Kissa ja koira', 'expected "Kissa ja koira", got: ' + r.phrase);
+});
+
+console.log('');
 console.log('============================================================');
 console.log('Tests: ' + passCount + ' passed, ' + failCount + ' failed');
 process.exit(failCount > 0 ? 1 : 0);

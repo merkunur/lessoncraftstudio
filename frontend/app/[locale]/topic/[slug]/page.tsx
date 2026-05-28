@@ -201,6 +201,15 @@ async function getTopicMeta(locale: string, axisKey: string): Promise<string | n
   }
 }
 
+// Title-segment casing: uppercase only the first char (Unicode-aware), preserving
+// the rest — fixes educational-level axis names that arrive lowercase
+// ("kindergarten" → "Kindergarten") while leaving acronyms/"Groep 3"/"CE1" + already-
+// capitalized exercise-type/theme names untouched. Title scope only (descriptions
+// keep their natural sentence case).
+function capFirst(s: string): string {
+  return s ? s.charAt(0).toUpperCase() + s.slice(1) : s;
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -211,6 +220,7 @@ export async function generateMetadata({
 
   const t = await getTranslations({ locale, namespace: 'topicPage.meta' });
   const topicName = getAxisName(axis, axisKey, locale) ?? params.slug;
+  const titleTopic = capFirst(topicName);
 
   const siblings = await getTopicSiblings(axis, axisKey);
   const hreflangAlternates: Record<string, string> = {};
@@ -241,14 +251,14 @@ export async function generateMetadata({
   const description = meta ?? prosePreview ?? t('description', { topic: topicName });
 
   return {
-    title: t('title', { topic: topicName }),
+    title: t('title', { topic: titleTopic }),
     description,
     alternates: {
       canonical,
       languages: hreflangAlternates,
     },
     openGraph: {
-      title: t('title', { topic: topicName }),
+      title: t('title', { topic: titleTopic }),
       description,
       type: 'website',
       url: canonical,
@@ -270,7 +280,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: 'summary_large_image',
-      title: t('title', { topic: topicName }),
+      title: t('title', { topic: titleTopic }),
       description,
       images: [`${CANONICAL_HOST}/og-homepage.png`],
     },

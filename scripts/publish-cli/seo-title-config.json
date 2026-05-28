@@ -160,5 +160,23 @@
     "numericTemplates": {},
     "diff": { "enableVocab": true, "enableNumeric": false, "enableMode": false, "excludeTypes": ["cryptogram"] },
     "charBudget": { "min": 50, "max": 70 }
+  },
+
+  "_comment_da": "Native Danish 3-agent ensemble 2026-05-28 (strong consensus). Nordic; Danish sentence-case (caps first word + proper nouns only, like sv/nl). Reuses the sv 'compound' knob: head CLOSED COMPOUND 'Additionsarbejdsark' (ofTypeWordPosition 'compound' + ofTypeLinkingElement 's' = Danish Fugen-s; all 3 experts confirmed). worksheet word 'Arbejdsark' (all 3 unanimous over the config's old 'Opgaveark'; messages/da.json seo.words.worksheet also fixed). Levels Børnehave/Børnehaveklasse/1.-3. klasse CONFIRMED current — NO swap; operator kept 'Børnehaveklasse' over '0. klasse' (official Fælles Mål term, unambiguous next to '1. klasse'). Connector 'og' (joinStyle conjunction via Intl.ListFormat('da')). Drop jargon head modes (Billede-Billede etc.); exclude cryptogram cipher; normalize ALL-CAPS. Activity-named types stand alone (Krydsord, Skattejagt, Bingo, Billedsudoku, Ordsøgning); math-worksheet 'Matematikark' NOT ofType → standalone (already has 'ark'). Type-name flags future (taxonomy name.da): Bogstavpuslespil→Ordpuslespil (word-scramble misnamed; education-expert genuine error), Matchning→Find par, Gittermatch→Match i gitter, shadow-match label unify Match skygger.",
+  "da": {
+    "titleSegmentOrder": ["head", "theme", "diff", "level"],
+    "separator": " — ",
+    "includeLevel": true,
+    "segmentCasing": "sentence",
+    "headStyle": "of-type",
+    "ofTypeKeys": ["addition", "subtraction"],
+    "ofTypeWordPosition": "compound",
+    "ofTypeLinkingElement": "s",
+    "worksheetWordOverride": "Arbejdsark",
+    "headDropModes": ["image-image", "three-symbols-add-sub", "two-symbols-add-sub", "four-symbols-add-sub", "image-number", "mixed", "cardinal-arrows", "find-shadow", "make-whole", "check-cross", "i-spy", "letter-spotting", "one-missing", "two-missing"],
+    "vocab": { "maxNouns": 2, "joinStyle": "conjunction", "casing": "sentence" },
+    "numericTemplates": {},
+    "diff": { "enableVocab": true, "enableNumeric": false, "enableMode": false, "excludeTypes": ["cryptogram"] },
+    "charBudget": { "min": 50, "max": 70 }
   }
 }

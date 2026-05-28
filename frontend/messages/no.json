@@ -1149,7 +1149,7 @@
   },
   "topicPage": {
     "meta": {
-      "title": "{topic}-arbeidsark | LessonCraftStudio",
+      "title": "{topic}-arbeidsark",
       "description": "Gratis {topic}-arbeidsark og utskrivbare PDF-filer. Interaktive aktiviteter for barnehagen."
     },
     "heading": {
@@ -1466,7 +1466,7 @@
   },
   "collections": {
     "meta": {
-      "title": "Your collections | LessonCraftStudio",
+      "title": "Your collections",
       "description": "Save and organize decks into collections — by class, by unit, by week."
     },
     "list": {
@@ -1490,7 +1490,7 @@
       "errorGeneric": "Could not create the collection. Please try again."
     },
     "detail": {
-      "metaTitle": "{name} | LessonCraftStudio",
+      "metaTitle": "{name}",
       "back": "← All collections",
       "renameCta": "Rename",
       "renameTitle": "Rename collection",
@@ -1545,7 +1545,7 @@
   },
   "workspace": {
     "metadata": {
-      "title": "Your workspace | LessonCraftStudio",
+      "title": "Your workspace",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
     },
     "header": {
@@ -1761,7 +1761,7 @@
       "defaultAlt": "Vennlig elefantmaskot"
     },
     "metadata": {
-      "title": "Forhåndsvisning av forside v3 · LessonCraftStudio",
+      "title": "Forhåndsvisning av forside v3",
       "description": "Internt prototypeoppsett av den redesignede forsiden. Ikke indeksert."
     }
   },
@@ -1789,7 +1789,7 @@
   },
   "standardsPage": {
     "meta": {
-      "title": "Gratis {code}-aktiviteter & arbeidsark på 11 språk | LessonCraftStudio",
+      "title": "Gratis {code}-aktiviteter & arbeidsark på 11 språk",
       "description": "Gratis interaktive K-3-aktiviteter og utskriftsvennlige arbeidsark tilpasset Common Core State Standard {code} ({strand}). Tilgjengelige på 11 språk."
     },
     "pageTitle": "{code} — Gratis aktiviteter & arbeidsark",
@@ -1804,7 +1804,7 @@
   },
   "aboutPage": {
     "meta": {
-      "title": "Om oss | LessonCraftStudio",
+      "title": "Om oss",
       "description": "Om LessonCraftStudio – gratis oppgaveark og interaktive aktiviteter for barnehage til 3. trinn på 11 språk, laget for tospråklige klasser, språkbadsklasser og internasjonale skoler."
     },
     "pageTitle": "Om LessonCraftStudio",

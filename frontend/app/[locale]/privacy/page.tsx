@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   hreflangAlternates['x-default'] = `${baseUrl}/en/privacy`;
 
   // SEO: Use dedicated meta keys when available, fallback to content strings for non-EN locales
-  const pageTitle = t.has('metaTitle') ? t('metaTitle') : `${t('title')} | LessonCraftStudio`;
+  const pageTitle = t.has('metaTitle') ? t('metaTitle') : `${t('title')}`;
   const pageDescription = t.has('metaDescription') ? t('metaDescription') : t('introduction.content');
 
   return {
@@ -53,7 +53,7 @@ export default async function PrivacyPage({
 
 
 
-  const pageTitle = t.has('metaTitle') ? t('metaTitle') : `${t('title')} | LessonCraftStudio`;
+  const pageTitle = t.has('metaTitle') ? t('metaTitle') : `${t('title')}`;
   const pageDescription = t.has('metaDescription') ? t('metaDescription') : t('introduction.content');
   const schemas = generateStaticPageSchemas({
     pagePath: '/privacy',

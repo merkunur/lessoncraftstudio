@@ -828,7 +828,7 @@
   },
   "collections": {
     "meta": {
-      "title": "Sus colecciones | LessonCraftStudio",
+      "title": "Sus colecciones",
       "description": "Guarde y organice los decks en colecciones — por clase, por unidad, por semana."
     },
     "list": {
@@ -852,7 +852,7 @@
       "errorGeneric": "No se pudo crear la colección. Por favor, inténtelo de nuevo."
     },
     "detail": {
-      "metaTitle": "{name} | LessonCraftStudio",
+      "metaTitle": "{name}",
       "back": "← Todas las colecciones",
       "renameCta": "Renombrar",
       "renameTitle": "Renombrar colección",
@@ -892,7 +892,7 @@
   },
   "topicPage": {
     "meta": {
-      "title": "Hojas de trabajo de {topic} | LessonCraftStudio",
+      "title": "Hojas de trabajo de {topic}",
       "description": "Hojas de trabajo de {topic} gratuitas y PDFs imprimibles. Actividades interactivas para aulas de la primera infancia."
     },
     "heading": {
@@ -1185,7 +1185,7 @@
   },
   "workspace": {
     "metadata": {
-      "title": "Su espacio de trabajo | LessonCraftStudio",
+      "title": "Su espacio de trabajo",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
     },
     "header": {
@@ -1767,7 +1767,7 @@
       "defaultAlt": "Elefantito simpático"
     },
     "metadata": {
-      "title": "Vista previa de la página de inicio v3 · LessonCraftStudio",
+      "title": "Vista previa de la página de inicio v3",
       "description": "Prototipo interno de la página de inicio rediseñada. No indexable."
     }
   },
@@ -1795,7 +1795,7 @@
   },
   "standardsPage": {
     "meta": {
-      "title": "Actividades y hojas {code} gratis en 11 idiomas | LessonCraftStudio",
+      "title": "Actividades y hojas {code} gratis en 11 idiomas",
       "description": "Actividades K-3 interactivas y hojas de trabajo imprimibles gratis alineadas al Common Core State Standard {code} ({strand}). Disponibles en 11 idiomas."
     },
     "pageTitle": "{code} — Actividades y hojas gratis",
@@ -1810,7 +1810,7 @@
   },
   "aboutPage": {
     "meta": {
-      "title": "Acerca de | LessonCraftStudio",
+      "title": "Acerca de",
       "description": "Acerca de LessonCraftStudio — hojas de trabajo K-3 gratis y actividades interactivas en 11 idiomas, para aulas bilingües, plurilingües e internacionales."
     },
     "pageTitle": "Acerca de LessonCraftStudio",

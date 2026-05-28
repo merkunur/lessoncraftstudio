@@ -1158,7 +1158,7 @@
   },
   "topicPage": {
     "meta": {
-      "title": "Atividades de {topic} | LessonCraftStudio",
+      "title": "Atividades de {topic}",
       "description": "Atividades de {topic} gratuitas e PDFs imprimíveis. Atividades interativas para a educação infantil."
     },
     "heading": {
@@ -1475,7 +1475,7 @@
   },
   "collections": {
     "meta": {
-      "title": "Your collections | LessonCraftStudio",
+      "title": "Your collections",
       "description": "Save and organize decks into collections — by class, by unit, by week."
     },
     "list": {
@@ -1499,7 +1499,7 @@
       "errorGeneric": "Could not create the collection. Please try again."
     },
     "detail": {
-      "metaTitle": "{name} | LessonCraftStudio",
+      "metaTitle": "{name}",
       "back": "← All collections",
       "renameCta": "Rename",
       "renameTitle": "Rename collection",
@@ -1554,7 +1554,7 @@
   },
   "workspace": {
     "metadata": {
-      "title": "Your workspace | LessonCraftStudio",
+      "title": "Your workspace",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
     },
     "header": {
@@ -1770,7 +1770,7 @@
       "defaultAlt": "Mascote elefante amigável"
     },
     "metadata": {
-      "title": "Prévia da página inicial v3 · LessonCraftStudio",
+      "title": "Prévia da página inicial v3",
       "description": "Protótipo interno da nova página inicial. Não indexada."
     }
   },
@@ -1798,7 +1798,7 @@
   },
   "standardsPage": {
     "meta": {
-      "title": "Atividades e fichas {code} grátis em 11 idiomas | LessonCraftStudio",
+      "title": "Atividades e fichas {code} grátis em 11 idiomas",
       "description": "Atividades K-3 interativas e fichas imprimíveis grátis alinhadas ao Common Core State Standard {code} ({strand}). Disponíveis em 11 idiomas."
     },
     "pageTitle": "{code} — Atividades e fichas grátis",
@@ -1813,7 +1813,7 @@
   },
   "aboutPage": {
     "meta": {
-      "title": "Sobre | LessonCraftStudio",
+      "title": "Sobre",
       "description": "Sobre o LessonCraftStudio — fichas K-3 grátis e atividades interativas em 11 idiomas, para turmas bilíngues, plurilíngues e internacionais."
     },
     "pageTitle": "Sobre o LessonCraftStudio",

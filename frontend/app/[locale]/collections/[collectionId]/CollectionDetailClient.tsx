@@ -122,7 +122,7 @@ export default function CollectionDetailClient({
       setCollection(data.collection);
       // Update document title to include collection name.
       if (typeof document !== 'undefined' && data.collection?.name) {
-        document.title = `${data.collection.name} | LessonCraftStudio`;
+        document.title = `${data.collection.name}`;
       }
     } catch {
       setError(t('detail.errorGeneric'));

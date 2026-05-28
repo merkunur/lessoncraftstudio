@@ -70,7 +70,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   hreflangAlternates['x-default'] = canonicalUrl(localePath('en', 'worksheets'));
 
   return {
-    title: `${title} | LessonCraftStudio`,
+    title: `${title}`,
     description,
     alternates: {
       canonical,

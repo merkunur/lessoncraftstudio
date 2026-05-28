@@ -958,7 +958,7 @@
   },
   "collections": {
     "meta": {
-      "title": "Ihre Sammlungen | LessonCraftStudio",
+      "title": "Ihre Sammlungen",
       "description": "Decks in Sammlungen ablegen und organisieren — nach Klasse, nach Einheit, nach Woche."
     },
     "list": {
@@ -982,7 +982,7 @@
       "errorGeneric": "Sammlung konnte nicht erstellt werden. Bitte versuchen Sie es erneut."
     },
     "detail": {
-      "metaTitle": "{name} | LessonCraftStudio",
+      "metaTitle": "{name}",
       "back": "← Alle Sammlungen",
       "renameCta": "Umbenennen",
       "renameTitle": "Sammlung umbenennen",
@@ -1022,7 +1022,7 @@
   },
   "topicPage": {
     "meta": {
-      "title": "{topic}-Arbeitsblätter | LessonCraftStudio",
+      "title": "{topic}-Arbeitsblätter",
       "description": "Kostenlose {topic}-Arbeitsblätter und druckbare PDFs. Interaktive Aktivitäten für die frühe Kindheit."
     },
     "heading": {
@@ -1315,7 +1315,7 @@
   },
   "workspace": {
     "metadata": {
-      "title": "Ihr Arbeitsbereich | LessonCraftStudio",
+      "title": "Ihr Arbeitsbereich",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
     },
     "header": {
@@ -1570,7 +1570,7 @@
       "defaultAlt": "Freundliches Elefanten-Maskottchen"
     },
     "metadata": {
-      "title": "Startseiten-Vorschau v3 · LessonCraftStudio",
+      "title": "Startseiten-Vorschau v3",
       "description": "Interner Prototyp der neu gestalteten Startseite. Nicht indexiert."
     }
   },
@@ -1598,7 +1598,7 @@
   },
   "standardsPage": {
     "meta": {
-      "title": "Kostenlose {code} Aktivitäten & Arbeitsblätter in 11 Sprachen | LessonCraftStudio",
+      "title": "Kostenlose {code} Aktivitäten & Arbeitsblätter in 11 Sprachen",
       "description": "Kostenlose interaktive K-3 Aktivitäten und druckbare Arbeitsblätter passend zum Common Core Standard {code} ({strand}). Verfügbar in 11 Sprachen."
     },
     "pageTitle": "{code} — Kostenlose Aktivitäten & Arbeitsblätter",
@@ -1613,7 +1613,7 @@
   },
   "aboutPage": {
     "meta": {
-      "title": "Über uns | LessonCraftStudio",
+      "title": "Über uns",
       "description": "Über LessonCraftStudio — kostenlose K-3 Arbeitsblätter und interaktive Aufgaben in 11 Sprachen, für mehrsprachige, bilinguale und internationale Klassen."
     },
     "pageTitle": "Über LessonCraftStudio",

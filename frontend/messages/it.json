@@ -1158,7 +1158,7 @@
   },
   "topicPage": {
     "meta": {
-      "title": "Schede di {topic} | LessonCraftStudio",
+      "title": "Schede di {topic}",
       "description": "Schede di {topic} gratuite e PDF stampabili. Attività interattive per la scuola dell'infanzia."
     },
     "heading": {
@@ -1475,7 +1475,7 @@
   },
   "collections": {
     "meta": {
-      "title": "Your collections | LessonCraftStudio",
+      "title": "Your collections",
       "description": "Save and organize decks into collections — by class, by unit, by week."
     },
     "list": {
@@ -1499,7 +1499,7 @@
       "errorGeneric": "Could not create the collection. Please try again."
     },
     "detail": {
-      "metaTitle": "{name} | LessonCraftStudio",
+      "metaTitle": "{name}",
       "back": "← All collections",
       "renameCta": "Rename",
       "renameTitle": "Rename collection",
@@ -1554,7 +1554,7 @@
   },
   "workspace": {
     "metadata": {
-      "title": "Your workspace | LessonCraftStudio",
+      "title": "Your workspace",
       "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
     },
     "header": {
@@ -1770,7 +1770,7 @@
       "defaultAlt": "Simpatico elefantino mascotte"
     },
     "metadata": {
-      "title": "Anteprima Homepage v3 · LessonCraftStudio",
+      "title": "Anteprima Homepage v3",
       "description": "Prototipo interno della homepage ridisegnata. Non indicizzato."
     }
   },
@@ -1798,7 +1798,7 @@
   },
   "standardsPage": {
     "meta": {
-      "title": "Attività e schede {code} gratuite in 11 lingue | LessonCraftStudio",
+      "title": "Attività e schede {code} gratuite in 11 lingue",
       "description": "Attività K-3 interattive e schede stampabili gratuite allineate al Common Core State Standard {code} ({strand}). Disponibili in 11 lingue."
     },
     "pageTitle": "{code} — Attività e schede gratuite",
@@ -1813,7 +1813,7 @@
   },
   "aboutPage": {
     "meta": {
-      "title": "Chi siamo | LessonCraftStudio",
+      "title": "Chi siamo",
       "description": "Chi siamo — LessonCraftStudio: schede K-3 gratuite e attività interattive in 11 lingue, per classi bilingui, plurilingui e internazionali."
     },
     "pageTitle": "Chi siamo",

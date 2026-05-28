@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   hreflangAlternates['x-default'] = `${baseUrl}/en/contact`;
 
   // SEO: Use dedicated meta keys when available, fallback to content strings for non-EN locales
-  const pageTitle = t.has('metaTitle') ? t('metaTitle') : `${t('title')} | LessonCraftStudio`;
+  const pageTitle = t.has('metaTitle') ? t('metaTitle') : `${t('title')}`;
   const pageDescription = t.has('metaDescription') ? t('metaDescription') : t('subtitle');
 
   return {
@@ -44,7 +44,7 @@ export default async function ContactLayout({ children, params }: { children: Re
   const locale = params.locale || 'en';
   const t = await getTranslations({ locale, namespace: 'contact' });
 
-  const pageTitle = t.has('metaTitle') ? t('metaTitle') : `${t('title')} | LessonCraftStudio`;
+  const pageTitle = t.has('metaTitle') ? t('metaTitle') : `${t('title')}`;
   const pageDescription = t.has('metaDescription') ? t('metaDescription') : t('subtitle');
   const schemas = generateStaticPageSchemas({
     pagePath: '/contact',

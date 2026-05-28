@@ -48,7 +48,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   const locale = params.locale || 'en';
   const t = await getTranslations({ locale, namespace: 'homepage.fourCardGrid.apps' });
   return {
-    title: `${t('title')} | LessonCraftStudio`,
+    title: `${t('title')}`,
     description: t('description'),
     alternates: { canonical: canonicalUrl(localePath(locale, 'worksheet-makers')) },
     robots: { index: false, follow: true }, // noindex until full marketing surface ships

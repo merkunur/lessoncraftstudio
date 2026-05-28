@@ -776,6 +776,8 @@ module.exports = {
   walkDecks: walkDecks,
   classifyDeck: classifyDeck,
   resolveSeoOpts: resolveSeoOpts,
+  resolveTitleConfig: resolveTitleConfig,
+  inferAgeRange: inferAgeRange,
   computeNewHtml: computeNewHtml,
   computeSeoHashes: computeSeoHashes,
   SEO_MARKER_START: SEO_MARKER_START,

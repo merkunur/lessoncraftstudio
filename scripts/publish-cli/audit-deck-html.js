@@ -444,6 +444,28 @@ async function runChecksForDeck(dbDeck, htmlText, manifestObj, ctx) {
     checks.metaDescriptionFallback = { pass: true };
   }
 
+  // ===== Check 17: title displayed-length target 50-70 =====
+  // Deck-title overhaul 2026-05-28: a good title is 50-70 displayed chars.
+  // Displayed length = entity-decoded (& not &amp;) — what Google renders +
+  // counts. >70 truncates in the SERP (a defect). <50 is acceptable (a clean
+  // short title like "Picture Sudoku Worksheet — Kindergarten" should NOT be
+  // padded) — recorded as band 'short', not a defect. Title UNIQUENESS /
+  // cannibalization is covered by Check 1 (TITLE_NON_UNIQUE collision map).
+  if (renderedTitle) {
+    var titleDisplayLen = renderedTitle
+      .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+      .replace(/&quot;/g, '"').replace(/&#39;/g, "'").length;
+    if (titleDisplayLen > 70) {
+      checks.titleLength = { pass: false, category: 'TITLE_TOO_LONG', length: titleDisplayLen, value: renderedTitle.slice(0, 120) };
+      defects.push('TITLE_LENGTH_TOO_LONG');
+    } else {
+      checks.titleLength = { pass: true, length: titleDisplayLen, band: (titleDisplayLen < 50 ? 'short' : 'in') };
+    }
+  } else {
+    // No title — already flagged by Check 1 (TITLE_HASH_NULL); don't double-count.
+    checks.titleLength = { pass: true, skip: 'no title (already flagged)' };
+  }
+
   return {
     id: dbDeck.id,
     language: dbDeck.language,

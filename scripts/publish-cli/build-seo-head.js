@@ -142,8 +142,12 @@ function composeTitle(opts) {
   var ofTypeKeys = Array.isArray(cfg.ofTypeKeys) ? cfg.ofTypeKeys : [];
   var ofTypeConn = cfg.ofTypeConnector || 'de';  // "{Worksheet} {conn} {type}" — it:'di', pt/es-Romance:'de'
   // ofTypeWordPosition: 'before' (Romance: "Scheda di addizione") | 'after'
-  // (German compound order: "Addition Arbeitsblatt").
+  // (German two-word: "Addition Arbeitsblatt") | 'compound' (Nordic closed
+  // compound: "Additionsarbetsblad").
   var ofTypeWordPosition = cfg.ofTypeWordPosition || 'before';
+  // ofTypeLinkingElement: Nordic Fugen/binding morpheme glued between the type
+  // and the worksheet word in 'compound' mode (sv 's' → "Addition"+"s"+"arbetsblad").
+  var ofTypeLinkingElement = cfg.ofTypeLinkingElement || '';
   // ofTypeElision: French "de" + vowel-initial type → "d'" ("Fiche d'addition").
   var ofTypeElision = !!cfg.ofTypeElision;
   var typeKey = String(opts.exerciseTypeSlug || '');
@@ -183,6 +187,13 @@ function composeTitle(opts) {
     var m = (effMode && !dropMode) ? effMode : null;
     if (headStyle === 'of-type') {
       if (ofTypeKeys.indexOf(typeKey) !== -1) {
+        if (ofTypeWordPosition === 'compound') {
+          // Nordic closed compound: "Addition"+"s"+"arbetsblad" -> "Additionsarbetsblad".
+          // segCase keeps the leading cap; redundancy guard for a type already embedding wWord.
+          return worksheetWordRedundant(typeName, wWord)
+            ? typeName
+            : typeName + ofTypeLinkingElement + wWord.toLowerCase();
+        }
         if (ofTypeWordPosition === 'after') return typeName + ' ' + wWord;  // "Addition Arbeitsblatt"
         if (ofTypeElision && /^[aeiouhàâäéèêëíïîôöòûüù]/i.test(typeName)) {
           return wWord + ' ' + ofTypeConn.slice(0, -1) + "'" + typeName;    // "Fiche d'addition"

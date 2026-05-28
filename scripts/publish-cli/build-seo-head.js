@@ -127,7 +127,6 @@ function composeTitle(opts) {
   var effMode = (modeName && !modeRedundant(typeName, modeName)) ? modeName : null;
   var wWord = String(opts.worksheetWord || 'Worksheet');
   var wWordPart = worksheetWordRedundant(typeName, wWord) ? '' : (' ' + wWord);
-  var head = typeName + (effMode ? ' ' + effMode : '') + wWordPart;
 
   var themeName = opts.themeName ? String(opts.themeName) : null;
   var diff = opts.differentiator || null;
@@ -139,9 +138,14 @@ function composeTitle(opts) {
   var levelResolved = (opts.educationalLevelLocalized !== undefined && opts.educationalLevelLocalized !== null && String(opts.educationalLevelLocalized) !== '');
   var levelText = levelResolved ? String(opts.educationalLevelLocalized) : '__EDUCATIONAL_LEVEL_LOCALIZED__';
 
-  function build(useShortDiff, dropLevel) {
+  // head = {Type}[ {Mode}]{ Worksheet}; dropMode sheds the (secondary) mode keyword
+  // when the title would otherwise overflow the budget.
+  function headStr(dropMode) {
+    return typeName + (effMode && !dropMode ? ' ' + effMode : '') + wWordPart;
+  }
+  function build(useShortDiff, dropLevel, dropMode) {
     var segVals = {
-      head: head,
+      head: headStr(dropMode),
       theme: themeName,
       diff: useShortDiff ? diffShort : diffPhrase,
       level: (includeLevel && !dropLevel) ? levelText : null
@@ -156,16 +160,25 @@ function composeTitle(opts) {
     return s;
   }
 
-  var title = build(false, false);
+  var title = build(false, false, false);
   if (!levelResolved) return title;          // can't budget-trim without concrete level
-  if (title.length <= budgetMax) return title;
 
-  if (diffShort && diffShort !== diffPhrase) {
-    var t1 = build(true, false);
-    if (t1.length <= budgetMax) return t1;
-    return build(true, true);                // short diff + drop level; keep diff even if over
+  // Budget trim: progressively shed the LEAST-critical pieces until <= max.
+  // Order: 2-noun diff -> 1-noun diff -> drop level -> drop mode-from-head.
+  // Theme + the differentiator phrase + the disambiguator are NEVER dropped —
+  // they carry the primary keyword + uniqueness (theme also protects the
+  // theme-in-title audit invariant).
+  var attempts = [
+    [false, false, false],
+    [true,  false, false],
+    [true,  true,  false],
+    [true,  true,  true]
+  ];
+  for (var a = 0; a < attempts.length; a++) {
+    var cand = build(attempts[a][0], attempts[a][1], attempts[a][2]);
+    if (cand.length <= budgetMax) return cand;
   }
-  return build(false, true);                  // drop level; keep theme + diff even if over
+  return build(true, true, true);            // most-trimmed; keep theme + diff + disamb even if slightly over
 }
 
 // Commission 16b + 19: compose a deck meta description that lands in the

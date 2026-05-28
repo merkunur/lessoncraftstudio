@@ -83,12 +83,14 @@ function auditLocale(locale, baseDir, samples) {
     if (c.classification !== 'rewrite') continue;
 
     var beforeTitle = titleFromHtml(c.html);
-    var afterTitle, computed;
+    var afterTitle;
     try {
-      computed = rs.computeNewHtml(c);
-      afterTitle = titleFromHtml(computed.newHtml);
+      // Lightweight: composes ONLY the <title> (no substitute / full-HTML
+      // rewrite) — the new title bakes the resolved level so substitute isn't
+      // needed to finalize it. Shares buildSeoOpts() with computeNewHtml (zero drift).
+      afterTitle = rs.composeProjectedTitle(c);
     } catch (e) {
-      errors.push({ slug: c.slug, stage: 'computeNewHtml', error: e.message });
+      errors.push({ slug: c.slug, stage: 'composeProjectedTitle', error: e.message });
       continue;
     }
 

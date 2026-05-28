@@ -24,7 +24,7 @@
       "math-puzzle": "Numbers to {max}",
       "_generic": "Numbers to {max}"
     },
-    "diff": { "enableVocab": true, "enableNumeric": true, "enableMode": true },
+    "diff": { "enableVocab": true, "enableNumeric": true, "enableMode": false },
     "charBudget": { "min": 50, "max": 70 }
   },
 
@@ -41,7 +41,7 @@
       "math-puzzle": "Numbers to {max}",
       "_generic": "Numbers to {max}"
     },
-    "diff": { "enableVocab": true, "enableNumeric": true, "enableMode": true },
+    "diff": { "enableVocab": true, "enableNumeric": true, "enableMode": false },
     "charBudget": { "min": 50, "max": 70 }
   }
 }

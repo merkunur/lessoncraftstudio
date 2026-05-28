@@ -1,0 +1,47 @@
+{
+  "_comment": "Per-locale deck-title formula + keyword tuning for the title overhaul (replaces the old '{Type} {Worksheet} — {Theme} — {Level} — Set NNN | LessonCraftStudio' template). The ENGINE (segment assembly, separator join, 50-70 budget trim, HTML-escape, brand-drop) is shared in build-seo-head.js + catalog-export.js; this file supplies only the per-locale WORD ORDER + keyword/style choices a native SEO expert decides. Keyword STRINGS for type/theme/level still come from topics-taxonomy.json (do NOT duplicate here); this file tunes ORDER, the vocabulary-differentiator style, numeric-range phrasing, and which differentiator sources are enabled. '_default' is the EN-shaped fallback so any locale missing a block never crashes. numericTemplates are NOT inherited from _default for non-en locales (would leak English on themeless math decks) — a locale gets numeric phrasing only when its own block defines numericTemplates (or it is 'en'). Per CLAUDE.md §A.13.48, non-en blocks are authored by a 3-agent native ensemble (SEO + marketing + K-3 ed) in plan-mode per locale; sv/da/no/fi carry an [NSR-FLAG]. Only en/es/pt carry published decks today; the other 8 blocks ship ready for when those locales publish.",
+
+  "_schema": {
+    "titleSegmentOrder": "array of 'head'|'theme'|'diff'|'level' in render order; theme omitted automatically when the deck has no theme; level omitted when includeLevel=false; diff omitted when the differentiator kind is 'none'",
+    "separator": "string joining segments (default ' — ')",
+    "includeLevel": "boolean; whether the educational-level segment appears",
+    "vocab": "{ maxNouns:int, joinStyle:'ampersand'|'conjunction', casing:'title'|'preserve'|'lower' } — how the featured-vocabulary differentiator renders",
+    "numericTemplates": "{ '<exercise-type>': '... {max} ...', '_generic': '...' } — phrasing for the numeric-range differentiator on themeless math decks; per-locale strings",
+    "diff": "{ enableVocab:bool, enableNumeric:bool, enableMode:bool } — which differentiator sources are active (experts disable enableMode for locales whose exercise-mode names are sparse, to avoid English residue)",
+    "charBudget": "{ min:int, max:int } — target title length; trim order is 2-nouns -> 1-noun -> drop level -> (diff dropped last); theme is never dropped when set (protects the theme-in-title audit check)"
+  },
+
+  "_default": {
+    "titleSegmentOrder": ["head", "theme", "diff", "level"],
+    "separator": " — ",
+    "includeLevel": true,
+    "vocab": { "maxNouns": 2, "joinStyle": "ampersand", "casing": "title" },
+    "numericTemplates": {
+      "addition": "Sums to {max}",
+      "subtraction": "Take Away to {max}",
+      "code-addition": "Sums to {max}",
+      "math-worksheet": "Numbers to {max}",
+      "math-puzzle": "Numbers to {max}",
+      "_generic": "Numbers to {max}"
+    },
+    "diff": { "enableVocab": true, "enableNumeric": true, "enableMode": true },
+    "charBudget": { "min": 50, "max": 70 }
+  },
+
+  "en": {
+    "titleSegmentOrder": ["head", "theme", "diff", "level"],
+    "separator": " — ",
+    "includeLevel": true,
+    "vocab": { "maxNouns": 2, "joinStyle": "ampersand", "casing": "title" },
+    "numericTemplates": {
+      "addition": "Sums to {max}",
+      "subtraction": "Take Away to {max}",
+      "code-addition": "Sums to {max}",
+      "math-worksheet": "Numbers to {max}",
+      "math-puzzle": "Numbers to {max}",
+      "_generic": "Numbers to {max}"
+    },
+    "diff": { "enableVocab": true, "enableNumeric": true, "enableMode": true },
+    "charBudget": { "min": 50, "max": 70 }
+  }
+}

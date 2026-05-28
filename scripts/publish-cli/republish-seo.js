@@ -43,6 +43,10 @@ var seoRecon = require('./seo-reconciliation');
 // Commission 16b: per-(exercise-type × locale) deck-description floor skill
 // sentences (distilled from the verified single-axis topicMeta entries).
 var SKILL_SENTENCES = require('./seo-skill-sentences.json');
+// Title overhaul: per-locale title formula/keyword config + per-deck
+// content-derived differentiator (replaces the old "Set NNN" tail).
+var SEO_TITLE_CONFIG = require('./seo-title-config.json');
+var seoDifferentiator = require('./seo-differentiator');
 
 var DEFAULT_DECKS_DIR = '/var/www/lcs-media/decks';
 var SEO_MARKER_START = '<!-- SEO_INSERTION_POINT_START -->';
@@ -350,6 +354,30 @@ function resolveSeoOpts(c) {
 }
 
 /**
+ * Title overhaul: resolve the per-locale title config block, merging
+ * seo-title-config.json `_default` with the locale block. numericTemplates are
+ * NOT inherited from _default for non-en locales (English numeric phrasing like
+ * "Sums to 20" would leak on themeless math decks of locales whose expert
+ * ensemble hasn't authored templates yet) — they are inherited only for en.
+ */
+function resolveTitleConfig(locale) {
+  var def = SEO_TITLE_CONFIG._default || {};
+  var loc = SEO_TITLE_CONFIG[locale] || null;
+  var merged = Object.assign({}, def, loc || {});
+  merged.diff = Object.assign({}, def.diff || {}, (loc && loc.diff) || {});
+  merged.vocab = Object.assign({}, def.vocab || {}, (loc && loc.vocab) || {});
+  merged.charBudget = Object.assign({}, def.charBudget || {}, (loc && loc.charBudget) || {});
+  if (loc && loc.numericTemplates) {
+    merged.numericTemplates = loc.numericTemplates;
+  } else if (locale === 'en') {
+    merged.numericTemplates = def.numericTemplates;
+  } else {
+    merged.numericTemplates = {}; // disables numeric phrasing for non-en until authored
+  }
+  return merged;
+}
+
+/**
  * Local helper: title-case `manifest.exercise_mode` slug for Class A.2/B
  * fallback. Mirrors build-seo-head.js deriveExerciseModeName + catalog-
  * export.js shared helper.
@@ -425,6 +453,28 @@ function computeNewHtml(c) {
   var skill16b = skillSentenceFor(c.manifest.language, c.manifest.exercise_type);
   seoOpts.skillSentence = skill16b.full;
   seoOpts.skillSentenceShort = skill16b.short;
+
+  // Title overhaul: attach the per-locale title config + the per-deck
+  // content-derived differentiator. buildSeoHead's new title engine reads these
+  // (when titleConfig is present) to emit a 50-70-char, brand-free, unique
+  // title — replacing the old "{...} — Set NNN | LessonCraftStudio" template.
+  // The level is now resolved (educationalLevelLocalized set above), so the
+  // budget trim measures real title length.
+  seoOpts.titleConfig = resolveTitleConfig(c.manifest.language);
+  var diffResult = seoDifferentiator.deriveDifferentiator(
+    c.manifest, c.manifest.language,
+    { config: seoOpts.titleConfig, exerciseModeName: seoOpts.exerciseModeName }
+  );
+  seoOpts.differentiator = diffResult;
+  // Collision-safe fallback: when a deck has NO content differentiator
+  // (kind 'none' — themeless, no vocab, no numeric), retain the content-hash
+  // (manifest.variant_id) as an honest disambiguator so near-identical themeless
+  // decks stay unique under @@unique([language, titleHash]). Decks WITH a
+  // differentiator (vocab/numeric/mode) need no suffix. audit-title-differentiators.js
+  // reports any residual same-differentiator (TRUE_DUPLICATE) collisions.
+  if ((!diffResult || diffResult.kind === 'none') && seoOpts.variantId) {
+    seoOpts.disambiguator = seoOpts.variantId;
+  }
 
   // Step 1: emit SEO block with placeholders
   var seoBlockTemplate = buildSeoHeadMod.buildSeoHead(seoOpts);

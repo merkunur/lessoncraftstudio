@@ -603,6 +603,67 @@ test('new path: description branch UNTOUCHED (still uses legacy variant suffix)'
 });
 
 console.log('');
+console.log('Title overhaul: Spanish locale config (sentence-case + Ficha + drop-jargon-modes):');
+
+var ES_CFG = require('./seo-title-config.json').es;
+
+test('es: sentence-case head/theme/level (no English Title-Case)', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'es', titleConfig: ES_CFG,
+    exerciseTypeName: 'Más O Menos', themeName: 'Vida Marina',
+    educationalLevelLocalized: 'Kínder',
+    differentiator: { kind: 'vocab', phrase: 'Pez payaso', phraseShort: 'Pez payaso', raw: 'clownfish' }
+  }));
+  assert.strictEqual(titleText(out), 'Más o menos ficha — Vida marina — Pez payaso — Kínder');
+});
+
+test('es: worksheetWordOverride forces "Ficha" (ignores opts.worksheetWord)', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'es', titleConfig: ES_CFG,
+    exerciseTypeName: 'Crucigrama', worksheetWord: 'Hoja de ejercicios', themeName: null,
+    educationalLevelLocalized: '2.º de primaria',
+    differentiator: { kind: 'none', phrase: null }
+  }));
+  assert.strictEqual(titleText(out), 'Crucigrama ficha — 2.º de primaria');
+});
+
+test('es: headDropModes drops jargon mode "image-image" from the head', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'es', titleConfig: ES_CFG,
+    exerciseTypeName: 'Más O Menos', exerciseModeName: 'Imagen-Imagen', exerciseModeKey: 'image-image',
+    themeName: 'Vida Marina', educationalLevelLocalized: 'Preescolar',
+    differentiator: { kind: 'none', phrase: null }
+  }));
+  var t = titleText(out);
+  assert.strictEqual(t.indexOf('Imagen'), -1, 'image-image mode removed from head');
+  assert.strictEqual(t, 'Más o menos ficha — Vida marina — Preescolar');
+});
+
+test('es: a non-listed mode is KEPT in the head (cardinal directions)', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'es', titleConfig: ES_CFG,
+    exerciseTypeName: 'Búsqueda Del Tesoro', exerciseModeName: 'Puntos cardinales', exerciseModeKey: 'compass',
+    themeName: 'Accesorios', educationalLevelLocalized: 'Kínder',
+    differentiator: { kind: 'none', phrase: null }
+  }));
+  assert.ok(titleText(out).indexOf('puntos cardinales') !== -1, 'cardinal-directions mode retained (sentence-cased)');
+});
+
+// Note: 'Más O Menos Ficha' — 'Ficha' stays capitalized because it is the
+// worksheetWordOverride appended AFTER segCase lowercases the type; segCase runs
+// on the WHOLE head string, so verify the real rendered form rather than assume.
+test('es: differentiator sentence-case via deriveDifferentiator (phrase-level)', function () {
+  var d = require('./seo-differentiator');
+  var r = d.deriveDifferentiator(
+    { exercise_type: 'word-guess', theme: 'animals', language: 'es', vocabulary: ['MURCIÉLAGO'], images_used: ['/images/animals/bat.png'] },
+    'es',
+    { config: { vocab: { maxNouns: 2, joinStyle: 'conjunction', casing: 'sentence' }, diff: { enableVocab: true } } }
+  );
+  assert.strictEqual(r.kind, 'vocab');
+  assert.strictEqual(r.phrase, 'Murciélago', 'ALL-CAPS vocab normalized to sentence-case; got: ' + r.phrase);
+});
+
+console.log('');
 console.log('============================================================');
 console.log('Tests: ' + passCount + ' passed, ' + failCount + ' failed');
 process.exit(failCount > 0 ? 1 : 0);

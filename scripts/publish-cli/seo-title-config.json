@@ -43,5 +43,19 @@
     },
     "diff": { "enableVocab": true, "enableNumeric": true, "enableMode": false },
     "charBudget": { "min": 50, "max": 70 }
+  },
+
+  "_comment_es": "Authored by a 3-agent native Spanish ensemble (SEO + marketing + K-3 education) 2026-05-28. Operator-locked: 5-7 level term = 'Kínder' (set via seo.educational_level.kindergarten.es in messages/es.json); head shape = 'Type then Ficha'. Consensus fixes: sentence-case (no English Title-Case), worksheet word 'Ficha', drop jargon head modes (image-image / three-symbols-add-sub), connector 'y' (joinStyle conjunction), normalize ALL-CAPS vocab via casing 'sentence'.",
+  "es": {
+    "titleSegmentOrder": ["head", "theme", "diff", "level"],
+    "separator": " — ",
+    "includeLevel": true,
+    "segmentCasing": "sentence",
+    "worksheetWordOverride": "Ficha",
+    "headDropModes": ["image-image", "three-symbols-add-sub"],
+    "vocab": { "maxNouns": 2, "joinStyle": "conjunction", "casing": "sentence" },
+    "numericTemplates": {},
+    "diff": { "enableVocab": true, "enableNumeric": false, "enableMode": false },
+    "charBudget": { "min": 50, "max": 70 }
   }
 }

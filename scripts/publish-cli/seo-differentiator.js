@@ -67,6 +67,13 @@ function applyCasing(noun, casing) {
   });
 }
 
+// Capitalize only the first letter of a phrase (locale-aware); rest as-is.
+function sentenceCap(s) {
+  var str = String(s == null ? '' : s);
+  if (!str) return str;
+  return str.charAt(0).toLocaleUpperCase() + str.slice(1);
+}
+
 // Order-independent, lowercased, de-duplicated canonical-key join for `raw`.
 function rawJoin(keys) {
   var seen = {};
@@ -265,11 +272,22 @@ function deriveDifferentiator(manifest, locale, ctx) {
   if (diff.enableVocab !== false) {
     var nouns = resolveLocalizedNouns(manifest, loc, maxNouns, deckRichAlt);
     if (nouns && nouns.length) {
-      var casedNouns = nouns.map(function (n) { return applyCasing(n, casing); });
-      var phrase = joinNouns(casedNouns, loc, joinStyle, deckRichAlt);
-      // phraseShort: 1-noun fallback the title engine substitutes when the
-      // 2-noun phrase pushes the title over the char budget.
-      var phraseShort = casedNouns.length > 1 ? casedNouns[0] : phrase;
+      var phrase, phraseShort;
+      if (casing === 'sentence') {
+        // Phrase-level sentence-case (Spanish/Romance): lowercase every noun,
+        // join, capitalize only the FIRST letter — "serpiente y lagarto" ->
+        // "Serpiente y lagarto"; also normalizes ALL-CAPS vocab ("MURCIÉLAGO" ->
+        // "Murciélago"). Connector comes from joinStyle (es: 'conjunction' -> "y").
+        var lowered = nouns.map(function (n) { return String(n).toLocaleLowerCase(); });
+        phrase = sentenceCap(joinNouns(lowered, loc, joinStyle, deckRichAlt));
+        phraseShort = sentenceCap(lowered[0]);
+      } else {
+        var casedNouns = nouns.map(function (n) { return applyCasing(n, casing); });
+        phrase = joinNouns(casedNouns, loc, joinStyle, deckRichAlt);
+        // phraseShort: 1-noun fallback the title engine substitutes when the
+        // 2-noun phrase pushes the title over the char budget.
+        phraseShort = casedNouns.length > 1 ? casedNouns[0] : phrase;
+      }
       var keys = canonicalKeys(manifest, maxNouns, deckRichAlt);
       var raw = rawJoin(keys.length ? keys : nouns);
       var src = isNonEmptyArray(manifest.vocabulary) ? 'vocabulary' : 'images_used';

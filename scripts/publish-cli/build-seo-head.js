@@ -113,6 +113,19 @@ function worksheetWordRedundant(typeName, worksheetWord) {
 // levelResolved=false (fresh-publish, level still a placeholder): segments +
 // order + brand-drop + diff apply, but the level-dependent trim is SKIPPED — the
 // republish-seo retrofit (which has the concrete level) finalizes the budget.
+// Spanish/Romance sentence-case for a title segment: lowercase the whole segment
+// then capitalize the first letter (locale-aware so accents survive). Fixes the
+// English Title-Case artifact ("Más O Menos" -> "Más o menos") that reads as
+// machine-translated to native speakers. Applied when a locale config sets
+// segmentCasing:'sentence'. Trade-off: lowercases genuine mid-segment proper nouns
+// (rare in K-3 worksheet themes; "4 de Julio" -> "4 de julio" is in fact correct ES).
+function sentenceCase(s) {
+  var str = String(s == null ? '' : s);
+  if (!str) return str;
+  var lower = str.toLocaleLowerCase();
+  return lower.charAt(0).toLocaleUpperCase() + lower.slice(1);
+}
+
 function composeTitle(opts) {
   var cfg = opts.titleConfig || {};
   var order = (Array.isArray(cfg.titleSegmentOrder) && cfg.titleSegmentOrder.length)
@@ -120,12 +133,21 @@ function composeTitle(opts) {
   var sep = cfg.separator || ' — ';
   var includeLevel = cfg.includeLevel !== false;
   var budgetMax = (cfg.charBudget && cfg.charBudget.max) || 70;
+  var segCase = cfg.segmentCasing === 'sentence' ? sentenceCase : function (s) { return s; };
+  var dropModeKeys = Array.isArray(cfg.headDropModes) ? cfg.headDropModes : [];
 
   var typeName = String(opts.exerciseTypeName || '');
   var modeName = (opts.exerciseModeName !== undefined && opts.exerciseModeName !== null && opts.exerciseModeName !== '')
                    ? String(opts.exerciseModeName) : null;
-  var effMode = (modeName && !modeRedundant(typeName, modeName)) ? modeName : null;
-  var wWord = String(opts.worksheetWord || 'Worksheet');
+  var modeKey = (opts.exerciseModeKey !== undefined && opts.exerciseModeKey !== null) ? String(opts.exerciseModeKey) : null;
+  // Suppress the head mode when it just repeats the type (modeRedundant) OR when
+  // the locale config lists this mode axis-key as jargon to drop from titles
+  // (e.g. es: "image-image", math-worksheet's symbol-config mode).
+  var modeDropped = modeKey && dropModeKeys.indexOf(modeKey) !== -1;
+  var effMode = (modeName && !modeRedundant(typeName, modeName) && !modeDropped) ? modeName : null;
+  // Per-locale worksheet-word override (es title = "Ficha" regardless of the i18n
+  // description word). Title-scoped; the description path is untouched.
+  var wWord = String(cfg.worksheetWordOverride || opts.worksheetWord || 'Worksheet');
   var wWordPart = worksheetWordRedundant(typeName, wWord) ? '' : (' ' + wWord);
 
   var themeName = opts.themeName ? String(opts.themeName) : null;
@@ -145,10 +167,13 @@ function composeTitle(opts) {
   }
   function build(useShortDiff, dropLevel, dropMode) {
     var segVals = {
-      head: headStr(dropMode),
-      theme: themeName,
+      // segCase applies to taxonomy/i18n-sourced segments (head/theme/level).
+      // diff is already cased by the differentiator; disamb is a bare code.
+      head: segCase(headStr(dropMode)),
+      theme: themeName ? segCase(themeName) : themeName,
       diff: useShortDiff ? diffShort : diffPhrase,
-      level: (includeLevel && !dropLevel) ? levelText : null
+      // Never sentence-case the unresolved placeholder (would corrupt the token).
+      level: (includeLevel && !dropLevel) ? (levelResolved ? segCase(levelText) : levelText) : null
     };
     var parts = [];
     for (var i = 0; i < order.length; i++) {

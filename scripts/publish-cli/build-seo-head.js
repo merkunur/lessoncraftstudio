@@ -140,6 +140,7 @@ function composeTitle(opts) {
   // ("Trova l'addendo"); all other types stand alone with no worksheet word.
   var headStyle = cfg.headStyle || 'default';
   var ofTypeKeys = Array.isArray(cfg.ofTypeKeys) ? cfg.ofTypeKeys : [];
+  var ofTypeConn = cfg.ofTypeConnector || 'de';  // "{Worksheet} {conn} {type}" — it:'di', pt/es-Romance:'de'
   var typeKey = String(opts.exerciseTypeSlug || '');
 
   var typeName = String(opts.exerciseTypeName || '');
@@ -177,7 +178,7 @@ function composeTitle(opts) {
     var m = (effMode && !dropMode) ? effMode : null;
     if (headStyle === 'of-type') {
       if (ofTypeKeys.indexOf(typeKey) !== -1) {
-        return wWord + ' di ' + typeName;
+        return wWord + ' ' + ofTypeConn + ' ' + typeName;
       }
       return typeName + (m ? ' ' + m : '');
     }

@@ -48,6 +48,21 @@ var SKILL_SENTENCES = require('./seo-skill-sentences.json');
 var SEO_TITLE_CONFIG = require('./seo-title-config.json');
 var seoDifferentiator = require('./seo-differentiator');
 
+// Title-overhaul disambiguator map (locale -> slug -> code) for the small set of
+// decks that GENUINELY collide on their composed title (same type+theme+level AND
+// same content differentiator — e.g. practice-set variants of one image). Built
+// by the audit-title-differentiators.js pre-flight; loaded here for --confirm.
+// null = no disambiguators applied (clean titles) — the pre-flight's first pass
+// runs with null to surface the real collisions, then re-runs with the map to
+// verify zero. Decks NOT in the map stay code-free (so decks already made unique
+// by their own content differentiator never get a redundant code).
+var _disambiguatorMap = null;
+function setDisambiguatorMap(m) { _disambiguatorMap = m || null; }
+function loadDisambiguatorMapFile(p) {
+  _disambiguatorMap = JSON.parse(fs.readFileSync(p, 'utf8'));
+  return _disambiguatorMap;
+}
+
 var DEFAULT_DECKS_DIR = '/var/www/lcs-media/decks';
 var SEO_MARKER_START = '<!-- SEO_INSERTION_POINT_START -->';
 var SEO_MARKER_END = '<!-- SEO_INSERTION_POINT_END -->';
@@ -462,17 +477,14 @@ function buildSeoOpts(c) {
     { config: seoOpts.titleConfig, exerciseModeName: seoOpts.exerciseModeName }
   );
   seoOpts.differentiator = diffResult;
-  // Collision-safe disambiguator: manifest.variant_id is the practice-set ordinal
-  // (e.g. '002') that was assigned ONLY to decks generated as multi-set variants
-  // of the same (type, theme, mode, images) — exactly the decks whose content
-  // differentiator is identical to their siblings (same single image / empty vocab).
-  // The set BASE has no variant_id (stays clean); siblings get '002'/'003'/… → the
-  // group is unique under @@unique([language, titleHash]) while every SOLO deck
-  // keeps a clean, code-free title. (Operator-approved "keep a short content code
-  // for near-dupes".) audit-title-differentiators.js reports any residual collisions
-  // where even this fails (genuine exact duplicates).
-  if (seoOpts.variantId) {
-    seoOpts.disambiguator = seoOpts.variantId;
+  // Disambiguator: ONLY decks that genuinely collide on their composed title get a
+  // short code, per the pre-flight-built map (locale -> slug -> code). Decks made
+  // unique by their own content differentiator (e.g. find-and-count sets that each
+  // feature a distinct object) stay code-free. When no map is loaded, no code is
+  // applied — that's the pre-flight's first pass, used to detect the real collisions.
+  if (_disambiguatorMap) {
+    var dmLoc = _disambiguatorMap[c.manifest.language];
+    if (dmLoc && dmLoc[c.slug]) seoOpts.disambiguator = dmLoc[c.slug];
   }
   return seoOpts;
 }
@@ -722,6 +734,10 @@ function computeSeoHashes(renderedTitle, renderedDescription) {
 async function republishSeo(opts) {
   var rootDir = opts.baseDir || DEFAULT_DECKS_DIR;
   var dryRun = !!opts.dryRun;
+  // Title-overhaul: load the collision disambiguator map (pre-flight artifact) so
+  // genuinely-colliding decks get their short code at rewrite time.
+  if (opts.disambiguatorMap) setDisambiguatorMap(opts.disambiguatorMap);
+  else if (opts.disambiguatorMapFile) loadDisambiguatorMapFile(opts.disambiguatorMapFile);
 
   // Phase 1: walk + classify
   var entries = walkDecks(rootDir, { language: opts.language, slug: opts.slug });
@@ -805,6 +821,8 @@ module.exports = {
   inferAgeRange: inferAgeRange,
   buildSeoOpts: buildSeoOpts,
   composeProjectedTitle: composeProjectedTitle,
+  setDisambiguatorMap: setDisambiguatorMap,
+  loadDisambiguatorMapFile: loadDisambiguatorMapFile,
   computeNewHtml: computeNewHtml,
   computeSeoHashes: computeSeoHashes,
   SEO_MARKER_START: SEO_MARKER_START,

@@ -30,11 +30,12 @@
 
 var fs = require('fs');
 var path = require('path');
+var crypto = require('crypto');
 var rs = require('./republish-seo');
 var seoDifferentiator = require('./seo-differentiator');
 
 function parseArgs(argv) {
-  var out = { locales: ['en'], baseDir: rs.DEFAULT_DECKS_DIR, out: null, samples: 15 };
+  var out = { locales: ['en'], baseDir: rs.DEFAULT_DECKS_DIR, out: null, samples: 15, emitMap: null, map: null };
   argv.slice(2).forEach(function (a) {
     var m = /^--([^=]+)=(.*)$/.exec(a);
     if (!m) return;
@@ -43,8 +44,17 @@ function parseArgs(argv) {
     else if (k === 'base-dir') out.baseDir = v;
     else if (k === 'out') out.out = v;
     else if (k === 'samples') out.samples = parseInt(v, 10) || 15;
+    else if (k === 'emit-map') out.emitMap = v;   // write a disambiguator map for the detected collisions
+    else if (k === 'map') out.map = v;            // load a disambiguator map first (verification pass)
   });
   return out;
+}
+
+// Code for a colliding deck: prefer its existing set-ordinal variant_id (e.g.
+// '002'), else a stable 6-hex slug hash. Deterministic so the map is reproducible.
+function codeForDeck(row) {
+  if (row.variantId) return String(row.variantId);
+  return crypto.createHash('sha1').update(row.slug).digest('hex').slice(0, 6);
 }
 
 function titleFromHtml(html) {
@@ -111,17 +121,17 @@ function auditLocale(locale, baseDir, samples) {
       continue;
     }
 
-    // Recompute the differentiator for richer collision context (matches what
-    // computeNewHtml used internally).
+    // Recompute the differentiator + capture variant_id for richer collision
+    // context + map building (matches what computeNewHtml/buildSeoOpts use).
     var diff = { kind: 'none', raw: null };
-    var disambiguator = null;
+    var variantId = null;
     try {
       var seoOpts = rs.resolveSeoOpts(c);
       var cfg = rs.resolveTitleConfig(c.manifest.language);
       diff = seoDifferentiator.deriveDifferentiator(c.manifest, c.manifest.language, {
         config: cfg, exerciseModeName: seoOpts.exerciseModeName
       }) || diff;
-      if ((!diff || diff.kind === 'none') && seoOpts.variantId) disambiguator = seoOpts.variantId;
+      variantId = seoOpts.variantId || null;
     } catch (e) { /* context-only; non-fatal */ }
 
     if (kindCounts[diff.kind] === undefined) kindCounts[diff.kind] = 0;
@@ -137,7 +147,7 @@ function auditLocale(locale, baseDir, samples) {
       titleHash: hash,
       diffKind: diff.kind,
       raw: diff.raw || null,
-      disambiguator: disambiguator,
+      variantId: variantId,
       theme: c.manifest.theme || null
     });
   }
@@ -160,10 +170,23 @@ function auditLocale(locale, baseDir, samples) {
     collisions.push({
       titleHash: h, class: klass, count: grp.length,
       title: grp[0].afterDisplay,
-      members: grp.map(function (r) { return { slug: r.slug, raw: r.raw, diffKind: r.diffKind }; })
+      members: grp.map(function (r) { return { slug: r.slug, raw: r.raw, diffKind: r.diffKind, variantId: r.variantId }; })
     });
   });
   collisions.sort(function (a, b) { return b.count - a.count; });
+
+  // Disambiguator submap (slug -> code) for THIS locale: per collision group,
+  // sort members by slug, keep member[0] clean (no entry), code the rest with
+  // their set-ordinal variant_id (or a stable slug hash). Distinct codes within
+  // a group → distinct titles → uniqueness restored, while every non-colliding
+  // deck and the group's base stay code-free.
+  var disambiguatorSubmap = {};
+  collisions.forEach(function (col) {
+    var sorted = col.members.slice().sort(function (a, b) { return a.slug < b.slug ? -1 : (a.slug > b.slug ? 1 : 0); });
+    for (var k = 1; k < sorted.length; k++) {
+      disambiguatorSubmap[sorted[k].slug] = codeForDeck(sorted[k]);
+    }
+  });
 
   var outOfBand = rows.filter(function (r) { return r.len < 50 || r.len > 70; });
   var over70 = rows.filter(function (r) { return r.len > 70; });
@@ -182,6 +205,7 @@ function auditLocale(locale, baseDir, samples) {
     },
     collisions: collisions,
     collisionCount: collisions.length,
+    disambiguatorSubmap: disambiguatorSubmap,
     outOfBandSamples: outOfBand.slice(0, samples).map(function (r) { return { slug: r.slug, len: r.len, title: r.afterDisplay }; }),
     over70Samples: over70.slice(0, samples).map(function (r) { return { slug: r.slug, len: r.len, title: r.afterDisplay }; }),
     samples: rows.slice(0, samples).map(function (r) { return { slug: r.slug, len: r.len, before: r.before, after: r.afterDisplay, diffKind: r.diffKind }; })
@@ -191,13 +215,21 @@ function auditLocale(locale, baseDir, samples) {
 function main() {
   var args = parseArgs(process.argv);
   console.log('[audit-title-differentiators] base-dir=' + args.baseDir + ' locales=' + args.locales.join(','));
+  // Verification pass: load a previously-emitted map so composeProjectedTitle
+  // applies the codes — collisions should then read 0.
+  if (args.map) {
+    rs.loadDisambiguatorMapFile(path.resolve(args.map));
+    console.log('[audit-title-differentiators] loaded disambiguator map: ' + args.map);
+  }
   var report = { generatedAt: new Date().toISOString(), baseDir: args.baseDir, locales: {} };
+  var combinedMap = {};
   var anyCollision = false;
 
   args.locales.forEach(function (loc) {
     var r = auditLocale(loc, args.baseDir, args.samples);
     report.locales[loc] = r;
     if (r.collisionCount > 0) anyCollision = true;
+    if (r.disambiguatorSubmap && Object.keys(r.disambiguatorSubmap).length) combinedMap[loc] = r.disambiguatorSubmap;
 
     console.log('');
     console.log('=== ' + loc + ' ===');
@@ -224,6 +256,17 @@ function main() {
       console.log('\n[audit-title-differentiators] full report → ' + args.out);
     } catch (e) {
       console.error('[audit-title-differentiators] could not write --out: ' + e.message);
+    }
+  }
+
+  if (args.emitMap) {
+    try {
+      fs.mkdirSync(path.dirname(path.resolve(args.emitMap)), { recursive: true });
+      fs.writeFileSync(path.resolve(args.emitMap), JSON.stringify(combinedMap, null, 2));
+      var nEntries = Object.keys(combinedMap).reduce(function (s, l) { return s + Object.keys(combinedMap[l]).length; }, 0);
+      console.log('[audit-title-differentiators] disambiguator map (' + nEntries + ' entries) → ' + args.emitMap);
+    } catch (e) {
+      console.error('[audit-title-differentiators] could not write --emit-map: ' + e.message);
     }
   }
 

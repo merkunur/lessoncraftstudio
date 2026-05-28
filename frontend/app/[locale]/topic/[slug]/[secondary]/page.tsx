@@ -399,6 +399,12 @@ function intersectionProseMeta(prose: string | null | undefined): string | null 
   return cut.replace(/[\s,;:·—-]+$/, '') + '…';
 }
 
+// Title-segment casing (mirror single-axis page.tsx): uppercase only the first
+// char (Unicode-aware), preserving the rest.
+function capFirst(s: string): string {
+  return s ? s.charAt(0).toUpperCase() + s.slice(1) : s;
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -410,7 +416,20 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: 'topicPage.meta' });
   const name1 = getAxisName(axis1, axisKey1, locale) ?? params.slug;
   const name2 = getAxisName(axis2, axisKey2, locale) ?? params.secondary;
-  const compositeName = `${name1} · ${name2}`;
+
+  // Title: type-first, em-dash join (matches the deck-title segment style +
+  // disambiguates from the brand "·" the root template appends). The exercise-type
+  // axis (always axis2 in the canonical theme→level→type ordering when present) is
+  // the primary keyword head and reuses each locale's single-axis "{primary}
+  // worksheets" grammar; the other axis is appended as the secondary segment.
+  const primaryIsAxis2 = axis2 === 'exercise-type';
+  const primaryName = capFirst(primaryIsAxis2 ? name2 : name1);
+  const secondaryName = capFirst(primaryIsAxis2 ? name1 : name2);
+  const primaryTitle = t('title', { topic: primaryName });
+  const withSecondary = `${primaryTitle} — ${secondaryName}`;
+  // Keep the full rendered title (incl. root brand " · LessonCraftStudio" ≈ 19 chars)
+  // ≤ 70; on overflow drop the secondary segment (rare; long type+theme in a verbose locale).
+  const pageTitle = withSecondary.length + 19 <= 70 ? withSecondary : primaryTitle;
 
   // Hreflang alternates: only the locales where the same intersection exists.
   // Each sibling-locale's slugs differ per §17.4 native-language doctrine.
@@ -446,14 +465,14 @@ export async function generateMetadata({
     intersectionMeta ?? prosePreview ?? composeIntersectionDescription(axis1, axis2, name1, name2, ti);
 
   return {
-    title: t('title', { topic: compositeName }),
+    title: pageTitle,
     description,
     alternates: {
       canonical,
       languages: hreflangAlternates,
     },
     openGraph: {
-      title: t('title', { topic: compositeName }),
+      title: pageTitle,
       description,
       type: 'website',
       url: canonical,
@@ -471,7 +490,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: 'summary_large_image',
-      title: t('title', { topic: compositeName }),
+      title: pageTitle,
       description,
       images: [`${CANONICAL_HOST}/og-homepage.png`],
     },

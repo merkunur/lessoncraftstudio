@@ -1501,6 +1501,286 @@
           "q": "Which languages are they available in?",
           "a": "All 11 languages we publish in."
         }
+      ],
+      "animals": [
+        {
+          "q": "What is on the animal worksheets page?",
+          "a": "Animal-themed worksheets across counting, addition, sorting, matching, odd-one-out, and early spelling — one familiar picture set, many skills, for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "christmas": [
+        {
+          "q": "What is on the Christmas worksheets page?",
+          "a": "Christmas-themed worksheets across counting, addition, sorting, patterns, matching, and word work — one festive picture set for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "4th_of_july": [
+        {
+          "q": "What is on the Fourth of July worksheets page?",
+          "a": "Independence-Day-themed worksheets across counting, addition, sorting, patterns, matching, and word work — one festive picture set for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "at_the_supermarket": [
+        {
+          "q": "What does the supermarket worksheets page cover?",
+          "a": "Supermarket and grocery-themed worksheets across counting, addition, sorting, matching, and early reading — practical everyday vocabulary for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "around_the_house": [
+        {
+          "q": "What is on the around-the-house worksheets page?",
+          "a": "Home-themed worksheets (rooms, furniture, household objects) across counting, sorting, matching, and early reading for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "forest_creatures": [
+        {
+          "q": "What is on the forest creatures worksheets page?",
+          "a": "Woodland-animal-themed worksheets across counting, sorting, matching, odd-one-out, and early spelling for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "kitchen_tools": [
+        {
+          "q": "What does the kitchen tools worksheets page cover?",
+          "a": "Kitchen-utensil-themed worksheets across counting, sorting, matching, and early reading — practical everyday vocabulary for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "clothing": [
+        {
+          "q": "What is on the clothing worksheets page?",
+          "a": "Clothing-themed worksheets across counting, sorting, matching, and early reading — everyday wearable vocabulary for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "accessories": [
+        {
+          "q": "What is on the accessories worksheets page?",
+          "a": "Accessory-themed worksheets (bags, hats, glasses, and more) across counting, sorting, matching, and early reading for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "activities": [
+        {
+          "q": "What is on the activities worksheets page?",
+          "a": "Everyday-action and verb-themed worksheets across matching, sorting, counting, and early reading for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "beach": [
+        {
+          "q": "What is on the beach worksheets page?",
+          "a": "Beach-themed worksheets across counting, sorting, matching, and early reading — a sunny picture set for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "camping": [
+        {
+          "q": "What is on the camping worksheets page?",
+          "a": "Camping-themed worksheets (tents, campfires, gear) across counting, sorting, matching, and early reading for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "classroom": [
+        {
+          "q": "What is on the classroom worksheets page?",
+          "a": "Classroom-object-themed worksheets across counting, sorting, matching, and early reading — essential school vocabulary for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "music": [
+        {
+          "q": "What is on the music worksheets page?",
+          "a": "Musical-instrument-themed worksheets across counting, sorting, matching, and early reading for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "zoo_animals": [
+        {
+          "q": "What is on the zoo animals worksheets page?",
+          "a": "Zoo-animal-themed worksheets across counting, sorting, matching, odd-one-out, and early spelling for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "body_parts": [
+        {
+          "q": "What is on the body parts worksheets page?",
+          "a": "Body-parts-themed worksheets across counting, matching, sorting, and early reading — essential personal vocabulary for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "breakfast": [
+        {
+          "q": "What is on the breakfast worksheets page?",
+          "a": "Breakfast-food-themed worksheets across counting, sorting, matching, and early reading — everyday food vocabulary for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "fruits": [
+        {
+          "q": "What is on the fruits worksheets page?",
+          "a": "Fruit-themed worksheets across counting, sorting, matching, and early reading — colourful everyday vocabulary for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "furniture": [
+        {
+          "q": "What is on the furniture worksheets page?",
+          "a": "Furniture-themed worksheets across counting, sorting, matching, and early reading — everyday home vocabulary for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "vehicles": [
+        {
+          "q": "What is on the vehicles worksheets page?",
+          "a": "Vehicle-themed worksheets across counting, sorting, matching, odd-one-out, and early reading for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
       ]
     },
     "fallback": {
@@ -1685,7 +1965,7 @@
     "grade-3": "Grade 3 worksheets for multiplication within 100, equivalent fractions, multi-step word problems, and paragraph reading. Aligned to Common Core standards."
   },
   "topicProse": {
-    "animals": "Animal-themed worksheets give early-childhood teachers a vocabulary foundation that travels across the K-3 curriculum. Counting cows, sorting birds by what they eat, recognising the first letter of every farm name — the same set of pictures supports number sense, classification, and early literacy without asking children to switch contexts. The vocabulary itself is high-frequency in every language we publish in, which makes these worksheets particularly useful when a class has children at different language levels.",
+    "animals": "Animal worksheets are the most useful theme in an early-childhood classroom because the vocabulary travels everywhere. The same friendly cast — cats, cows, birds, fish — turns up across counting and addition, sorting and matching, odd-one-out, and first-letter spelling, so children practise a new skill on pictures they already know and love rather than decoding a fresh context each time. Animal names are also high-frequency in every language we publish, which makes these sheets especially handy when a class has children at different language levels. This page gathers every animal-themed worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, and the whole set is available in all 11 languages we publish in.",
     "addition": "Addition worksheets meet children at the moment adding stops being a counting trick and becomes a fact they can recall. The sheets on this page move along that path: picture-supported sums for the youngest, where a child counts two groups and combines them, through single-digit number sentences, to small two-digit problems for those who are ready. Keeping the format steady lets the thinking stay on the math rather than on figuring out what to do. Each addition worksheet is a free printable PDF with a matching play-online version — the interactive one checks each answer and cheers a clean first pass, the printable is ready for morning work, a maths centre, or homework, and every sheet has an answer key. Pair a picture set with a number-only set to scaffold a lesson, or send one home for five minutes of practice. The whole collection is available in all 11 languages we publish in, so dual-language and international classrooms can give every child addition practice in the language they understand best.",
     "subtraction": "Subtraction worksheets help children see taking-away as something they can picture before it becomes something they just know. The sheets here start with picture problems — cross out what leaves, count what remains — then move to single-digit number sentences and small two-digit differences as a child grows surer. Because the layout stays consistent, attention goes to the operation rather than to new instructions each time. Each subtraction worksheet is a free printable PDF with a matching play-online activity: the interactive version marks answers immediately and celebrates a clean first pass, while the printable suits guided practice, partner work, or homework, and an answer key is always included. Mix a picture-supported sheet with a number-only one to meet different readiness levels in the same room, or send a sheet home for extra practice. The full set is available in all 11 languages we publish in, so immersion and international classrooms can give every learner subtraction practice in the language they need.",
     "alphabet-train": "Alphabet train worksheets turn learning the ABCs into something a child can move with their hands. Letter cards ride along the train, and the task is to drag or write each one into the right wagon so the alphabet runs in order — which builds letter recognition, the shape of the sequence, and the left-to-right habit reading depends on. Because the cards are big and picture-clear, a child just meeting these letters, or meeting them in a new language, can take part straight away. Each alphabet train worksheet is a free printable PDF with a matching play-online version: the interactive one snaps cards into place and cheers a finished line, the printable suits a literacy centre or homework, and an answer key is included. The whole set is available in all 11 languages we publish in.",
@@ -1754,7 +2034,26 @@
     "grid-match": "Grid-match worksheets ask a child to place tiles into a grid so each lands in its matching spot — pairing pictures, or fitting an item to its place, while holding the layout in mind. It is hands-on practice in matching, visual memory, and working systematically across a grid. The tasks suit K-3 and lean on clear pictures, so no reading is needed to start. Each grid-match worksheet is a free printable PDF with a matching play-online version: the interactive one lets children drag tiles into cells and checks the finished grid, while the printable suits partner work or homework, and an answer key is included. The full set is available in all 11 languages we publish in.",
     "pattern-worksheet": "Pattern worksheets build one of the earliest maths habits — seeing a rule and continuing it. A child reads a repeating sequence (AB, ABC, and on) and works out what comes next, completing the pattern with the right picture. Recognising and extending patterns underlies skip counting, multiplication, and the reasoning maths leans on later, and the picture format means a child can succeed before they read. Suited across K-3. Each pattern worksheet is a free printable PDF with a matching play-online version: the interactive one places the next item and checks the rule, the printable suits a maths centre or homework, and an answer key is included. The full set is available in all 11 languages we publish in.",
     "word-guess": "Word-guess worksheets give early spellers a friendly way to build words. A picture clue shows the word, and the child fills the blank letters to spell it — sounding out, matching letters to sounds, and confirming with the picture. It is phonics and spelling practice that feels like a small puzzle, with word length and support pitched for K-3. Each word-guess worksheet is a free printable PDF with a matching play-online version: the interactive one accepts typed letters and checks the spelling, the printable suits a literacy centre or homework, and an answer key is included. The whole set is available in all 11 languages we publish in.",
-    "word-scramble": "Word-scramble worksheets turn spelling into a satisfying unscramble. The letters of a word are mixed up beside its picture, and the child rearranges them into the right order — practising letter recognition, spelling patterns, and the sounds that hold a word together, with the picture as a clue. Word length is pitched for K-3 readers. Each word-scramble worksheet is a free printable PDF with a matching play-online version: the interactive one lets children order the letters and checks the word, the printable suits a literacy centre or homework, and an answer key is included. The whole set is available in all 11 languages we publish in."
+    "word-scramble": "Word-scramble worksheets turn spelling into a satisfying unscramble. The letters of a word are mixed up beside its picture, and the child rearranges them into the right order — practising letter recognition, spelling patterns, and the sounds that hold a word together, with the picture as a clue. Word length is pitched for K-3 readers. Each word-scramble worksheet is a free printable PDF with a matching play-online version: the interactive one lets children order the letters and checks the word, the printable suits a literacy centre or homework, and an answer key is included. The whole set is available in all 11 languages we publish in.",
+    "christmas": "Christmas worksheets bring a little seasonal warmth to December practice without losing the learning. The holiday picture set — trees, gifts, ornaments, winter friends — carries children through counting and addition, sorting and patterning, matching, and festive word work, so the season becomes a reason to practise rather than a break from it. Themed sheets like these are easy wins for keeping a class engaged in a busy month, and the pictures make them welcoming for children who celebrate differently or are still learning the classroom language. This page collects every Christmas-themed worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "4th_of_july": "Fourth of July worksheets bring a burst of red-white-and-blue to early-summer practice. The holiday picture set — flags, fireworks, stars, and parades — carries children through counting and addition, sorting and patterning, matching, and simple word work, turning a festive day into a reason to practise. Seasonal sheets like these are an easy way to keep a class engaged around the holiday, and because the tasks lean on pictures they stay welcoming for every child regardless of reading level. This page gathers every Fourth-of-July-themed worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "at_the_supermarket": "Supermarket worksheets put learning into a setting every child knows. The \"at the supermarket\" picture set — fruit and bread, baskets and shelves, everyday groceries — runs across counting and addition, sorting items into groups, matching, and early reading, so practice happens in a context children can talk about. The vocabulary is high-frequency and practical, which makes these sheets a strong fit for language learners building everyday words. This page collects every supermarket-themed worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "around_the_house": "Around-the-house worksheets build the everyday vocabulary of home — rooms, furniture, and the objects children see every day. That familiar picture set carries them through counting and addition, sorting by room or kind, matching, and first word work, so new skills land on words they already use. Home vocabulary is high-frequency and immediately useful, which makes these sheets especially helpful for children learning the classroom language. This page gathers every around-the-house worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "forest_creatures": "Forest-creatures worksheets gather the woodland animals children find most charming — foxes, deer, owls, hedgehogs — into one picture set that runs across counting and addition, sorting and classifying, matching, odd-one-out, and first-letter spelling. Animal vocabulary is high-frequency in every language and naturally engaging, so these sheets keep young learners interested while they practise, and the forest theme pairs nicely with seasons and nature topics. This page collects every forest-creatures worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "kitchen_tools": "Kitchen-tools worksheets turn the busiest room in the house into vocabulary practice. The picture set — spoons, pots, whisks, and the other tools children watch grown-ups use — runs across counting and addition, sorting by use, matching, and early reading. It is practical, high-frequency vocabulary, and the familiar objects make the tasks welcoming for children still building the classroom language. This page gathers every kitchen-tools worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "clothing": "Clothing worksheets build one of the most practical early vocabularies — the words children need to talk about what they wear. The picture set of shirts, shoes, hats, and coats runs across counting and addition, sorting by type or season, matching, and first word work. Clothing words are high-frequency and useful from day one, which makes these sheets a strong fit for language learners. This page collects every clothing-themed worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "accessories": "Accessories worksheets round out the everyday-objects vocabulary with the things children carry and wear — bags, hats, glasses, watches, and more. The picture set runs across counting and addition, sorting, matching, and early reading, giving practice on familiar, nameable objects, and the vocabulary pairs naturally with clothing and around-the-house themes for a fuller everyday-life unit. This page gathers every accessories worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "activities": "Activities worksheets focus on action words — the everyday things children do, shown in clear pictures. The set runs across matching, sorting, counting, and early reading, and because it centres on verbs and routines it builds the language children use to describe their own day. Action vocabulary is a valuable, sometimes-overlooked strand for early language learners. This page collects every activities-themed worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "beach": "Beach worksheets carry the fun of a day by the sea into practice. The picture set — buckets and spades, shells, umbrellas, waves — runs across counting and addition, sorting, matching, and early word work, and its sunny, familiar imagery keeps children engaged. The theme pairs well with summer and water units. This page gathers every beach-themed worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "camping": "Camping worksheets take learning into the great outdoors. The picture set — tents, campfires, backpacks, lanterns — runs across counting and addition, sorting, matching, and early reading, wrapping practice in an adventure children enjoy, and the theme connects naturally to nature and seasons topics. This page collects every camping-themed worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "classroom": "Classroom worksheets build the vocabulary children meet the moment they walk through the door — pencils, books, scissors, desks. The picture set runs across counting and addition, sorting, matching, and early reading, and because the objects are right there in the room, the words stick fast. This is foundational vocabulary for any child new to the classroom language. This page gathers every classroom-themed worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "music": "Music worksheets bring instruments and sound into early practice. The picture set — drums, guitars, pianos, and more — runs across counting and addition, sorting by family, matching, and early word work, giving a lively, engaging context children respond to, and the theme pairs well with arts and activities units. This page collects every music-themed worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "zoo_animals": "Zoo-animals worksheets gather the big, exciting creatures children love to name — lions, elephants, giraffes, monkeys — into one picture set spanning counting and addition, sorting and classifying, matching, odd-one-out, and first-letter spelling. Animal vocabulary is high-frequency across languages and reliably engaging, so these sheets hold attention while building skills, and they pair naturally with the broader animals theme. This page collects every zoo-animals worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "body_parts": "Body-parts worksheets build a vocabulary every child needs early — the words for their own body. The picture set runs across counting and addition, matching, sorting, and first word work, and because the subject is personal and concrete, the words are easy to anchor. This is essential, high-frequency vocabulary and a strong fit for language learners. This page gathers every body-parts worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "breakfast": "Breakfast worksheets start the day with familiar foods. The picture set — bread, eggs, fruit, milk — runs across counting and addition, sorting, matching, and early reading, giving practice on practical, everyday vocabulary children use at home, and it pairs naturally with the broader food themes for a fuller mealtime unit. This page collects every breakfast-themed worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "fruits": "Fruit worksheets are a classroom favourite — colourful, familiar, and perfect for counting. The picture set of apples, bananas, oranges, and more runs across counting and addition, sorting by colour or kind, matching, and early word work, and its bright imagery keeps young children keen. Fruit vocabulary is high-frequency and healthy-eating-friendly, a strong fit for language learners. This page gathers every fruit-themed worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "furniture": "Furniture worksheets build the vocabulary of home and classroom — chairs, tables, beds, shelves. The picture set runs across counting and addition, sorting by room, matching, and early reading, giving practice on objects children see all day, and it pairs naturally with the around-the-house theme for a fuller home unit. This page collects every furniture-themed worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "vehicles": "Vehicle worksheets tap into something young children love — things that go. The picture set of cars, buses, trains, planes, and boats runs across counting and addition, sorting by where they travel, matching, odd-one-out, and early word work, and its high-energy appeal keeps learners engaged. Vehicle vocabulary is high-frequency across languages and reliably motivating. This page gathers every vehicle-themed worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in."
   },
   "workspace": {
     "metadata": {

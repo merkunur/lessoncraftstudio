@@ -1945,13 +1945,13 @@
       "axis": "exercise-type",
       "axisKey": "pattern-worksheet",
       "url": "https://www.lessoncraftstudio.com/en/topic/pattern-worksheet/",
-      "primaryKeyword": "Pattern Worksheet worksheets",
+      "primaryKeyword": "Pattern worksheets",
       "secondaryKeywords": [
-        "free Pattern Worksheet worksheets",
-        "printable Pattern Worksheet worksheets pdf",
-        "Pattern Worksheet worksheets for kids"
+        "free pattern worksheets",
+        "printable pattern worksheets pdf",
+        "pattern worksheets for kids"
       ],
-      "source": "grammar",
+      "source": "grammar+bespoke",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },

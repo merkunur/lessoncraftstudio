@@ -1117,7 +1117,1170 @@
   },
   "topicFaq": {
     "heading": "Häufig gestellte Fragen",
-    "overrides": {},
+    "overrides": {
+      "kindergarten": [
+        {
+          "q": "Für welches Alter sind die Kindergarten-Arbeitsblätter gedacht?",
+          "a": "Für Kinder von ungefähr 5 bis 7 Jahren. Die Aufgaben sind spielerisch und vorbereitend angelegt und üben Zählen, erstes Rechnen, Buchstaben und Laute, ohne zu überfordern."
+        },
+        {
+          "q": "Sind die Kindergarten-Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Kindergarten-Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "grade-1": [
+        {
+          "q": "Was üben Kinder mit den Arbeitsblättern für 1. Klasse?",
+          "a": "Vor allem Addieren und Subtrahieren im Zahlenraum bis 20, das Unterscheiden von Zehnern und Einern sowie das Verbinden von Buchstaben zu ersten Wörtern, ergänzt durch einfache Logikaufgaben."
+        },
+        {
+          "q": "Sind die Arbeitsblätter für 1. Klasse kostenlos?",
+          "a": "Ja. Alle Arbeitsblätter für die 1. Klasse sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "preschool": [
+        {
+          "q": "Müssen Kinder für die Vorschul-Arbeitsblätter schon lesen können?",
+          "a": "Nein. Die Arbeitsblätter für Vorschule kommen ohne Lesen aus und arbeiten mit Bildern, Mengen und einfachen Formen für Kinder von ungefähr 3 bis 5 Jahren."
+        },
+        {
+          "q": "Sind die Vorschul-Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Vorschul-Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "grade-2": [
+        {
+          "q": "Was üben Kinder mit den Arbeitsblättern für 2. Klasse?",
+          "a": "Zweistelliges Addieren und Subtrahieren, erstes Malnehmen sowie Zehner und Hunderter, dazu längeres Lesen, Wortarbeit, Kreuzwort- und Wortsucherätsel und Logikaufgaben."
+        },
+        {
+          "q": "Sind die Arbeitsblätter für 2. Klasse kostenlos?",
+          "a": "Ja. Alle Arbeitsblätter für die 2. Klasse sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "pattern-train": [
+        {
+          "q": "Welche Fähigkeit üben Kinder mit den Musterzug-Arbeitsblättern?",
+          "a": "Sie üben, Muster zu erkennen und fortzusetzen. Kinder bestimmen die Regel einer Bildreihe und ergänzen den nächsten Waggon, was Konzentration und logisches Denken stärkt."
+        },
+        {
+          "q": "Sind die Musterzug-Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Musterzug-Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "subtraction": [
+        {
+          "q": "Wie üben Kinder das Minusrechnen auf diesen Arbeitsblättern?",
+          "a": "Sie streichen die Dinge durch, die weggenommen werden, und zählen den Rest. Aus dem Bild entsteht so nach und nach eine Rechenaufgabe, die das Subtrahieren verständlich macht."
+        },
+        {
+          "q": "Sind die Subtraktion-Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Subtraktion-Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "addition": [
+        {
+          "q": "Wie führen die Addition-Arbeitsblätter an das Plusrechnen heran?",
+          "a": "Kinder zählen zwei Bildgruppen und fügen sie zusammen. Aus dem anschaulichen Zählen entstehen einstellige und kleine zweistellige Rechenaufgaben, sodass der Sinn des Addierens klar wird."
+        },
+        {
+          "q": "Sind die Addition-Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Addition-Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "code-addition": [
+        {
+          "q": "Was macht die Code-Addition-Arbeitsblätter besonders?",
+          "a": "Kinder rechnen kleine Summen, deren Ergebnisse für Buchstaben stehen, und decken so ein verstecktes Wort auf. Das verbindet das Plusrechnen mit dem Erkennen von Buchstaben."
+        },
+        {
+          "q": "Sind die Code-Addition-Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Code-Addition-Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "more-less": [
+        {
+          "q": "Müssen Kinder für diese Arbeitsblätter lesen können?",
+          "a": "Nein. Bei Mehr oder weniger vergleichen Kinder nur Bildgruppen und zählen, welche mehr, weniger oder gleich viele Dinge hat. Das eignet sich gut für Vorschule und Kindergarten."
+        },
+        {
+          "q": "Sind die Mehr oder weniger Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Mehr oder weniger Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "math-puzzle": [
+        {
+          "q": "Was üben Kinder mit den Mathe-Rätsel-Arbeitsblättern?",
+          "a": "Sie setzen Teile zu einem Zahlenrätsel zusammen und festigen dabei ihr Zahlenverständnis. Gleichzeitig lernen sie, Schritte zu planen und Lösungen auszuprobieren."
+        },
+        {
+          "q": "Sind die Mathe-Rätsel-Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Mathe-Rätsel-Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "shadow-match": [
+        {
+          "q": "Welche Fähigkeit üben Kinder beim Schatten zuordnen?",
+          "a": "Sie üben das Erkennen von Formen und Umrissen, indem sie jedes Bild mit seinem passenden Schatten verbinden. Das stärkt die visuelle Wahrnehmung ohne Lesen."
+        },
+        {
+          "q": "Sind die Schatten zuordnen Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Schatten zuordnen Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "cryptogram": [
+        {
+          "q": "Was üben Kinder mit den Kryptogramm-Arbeitsblättern?",
+          "a": "Sie entschlüsseln einen Bild- oder Symbolcode, bei dem jedes Zeichen für einen Buchstaben steht, und schreiben so ein Lösungswort. Das verbindet Buchstaben und erstes Schreiben."
+        },
+        {
+          "q": "Sind die Kryptogramm-Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Kryptogramm-Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "picture-sort": [
+        {
+          "q": "Was üben Kinder mit den Bildersortierung-Arbeitsblättern?",
+          "a": "Sie ordnen Bilder in beschriftete Gruppen ein und üben dabei das Klassifizieren nach gemeinsamen Merkmalen. Das stärkt genaues Hinsehen und erstes logisches Denken."
+        },
+        {
+          "q": "Sind die Bildersortierung-Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Bildersortierung-Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "math-worksheet": [
+        {
+          "q": "Was üben Kinder mit den Mathe-Arbeitsblättern?",
+          "a": "Sie bearbeiten Rechenaufgaben, ergänzen fehlende Teile und lösen gemischte Summen und Differenzen. Das festigt Addieren, Subtrahieren und das Zahlenverständnis."
+        },
+        {
+          "q": "Sind die Mathe-Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Mathe-Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "word-guess": [
+        {
+          "q": "Wie funktionieren die Wort raten Arbeitsblätter?",
+          "a": "Kinder sehen einen Bildhinweis und füllen die Lücken Buchstabe für Buchstabe, um das passende Wort zu schreiben. Das übt Buchstaben und erstes Schreiben über die Laute."
+        },
+        {
+          "q": "Sind die Wort raten Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Wort raten Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "word-scramble": [
+        {
+          "q": "Was üben Kinder mit den Buchstabensalat-Arbeitsblättern?",
+          "a": "Sie ordnen durcheinandergeratene Buchstaben zum richtigen Wort und nutzen dabei ein Bild als Hilfe. Das übt Rechtschreibung und festigt den Wortschatz."
+        },
+        {
+          "q": "Sind die Buchstabensalat-Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Buchstabensalat-Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "sudoku": [
+        {
+          "q": "Brauchen Kinder für das Bilder-Sudoku Zahlen oder Lesen?",
+          "a": "Nein. Beim Bilder-Sudoku setzen Kinder nur Bilder in ein 4x4-Gitter, sodass jedes Bild pro Zeile, Spalte und Block einmal vorkommt. Das schult Logik ganz ohne Zahlen und Lesen."
+        },
+        {
+          "q": "Sind die Bilder-Sudoku-Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Bilder-Sudoku-Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "prepositions": [
+        {
+          "q": "Was üben Kinder mit den Präpositionen-Arbeitsblättern?",
+          "a": "Sie üben Lagewörter wie in, auf, unter und neben, indem sie das passende Bild zur beschriebenen Lage wählen. Das stärkt das räumliche Verständnis und den Wortschatz."
+        },
+        {
+          "q": "Sind die Präpositionen-Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Präpositionen-Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "treasure-hunt": [
+        {
+          "q": "Was üben Kinder mit den Schatzsuche-Arbeitsblättern?",
+          "a": "Sie folgen Richtungshinweisen über ein Gitter und üben dabei räumliches Denken sowie Richtungen wie oben, unten, links und rechts, bis sie den Schatz erreichen."
+        },
+        {
+          "q": "Sind die Schatzsuche-Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Schatzsuche-Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "missing-pieces": [
+        {
+          "q": "Was üben Kinder mit den Was fehlt Arbeitsblättern?",
+          "a": "Sie setzen das passende ausgeschnittene Teil in jede Lücke und vervollständigen so das Bild. Das übt visuelle Ergänzung und das Erkennen von Formen ohne Lesen."
+        },
+        {
+          "q": "Sind die Was fehlt Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Was fehlt Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "find-objects": [
+        {
+          "q": "Was üben Kinder mit den Objekte finden Arbeitsblättern?",
+          "a": "Sie suchen versteckte Gegenstände in einer wimmeligen Szene und markieren sie. Das schult visuelle Wahrnehmung, Konzentration und Ausdauer, ganz ohne Lesen."
+        },
+        {
+          "q": "Sind die Objekte finden Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Objekte finden Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "big-small": [
+        {
+          "q": "Was üben Kinder mit den Groß oder klein Arbeitsblättern?",
+          "a": "Sie finden das größte oder kleinste Bild und ordnen Bilder nach Größe. Das fördert ein erstes Größenverständnis und genaues Vergleichen ohne Lesen."
+        },
+        {
+          "q": "Sind die Groß oder klein Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Groß oder klein Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "matching": [
+        {
+          "q": "Was üben Kinder mit den Zuordnung-Arbeitsblättern?",
+          "a": "Sie verbinden zusammengehörende Bilder mit einer Linie und üben so die Eins-zu-eins-Zuordnung. Das stärkt Konzentration und erstes logisches Denken ohne Lesen."
+        },
+        {
+          "q": "Sind die Zuordnung-Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Zuordnung-Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "odd-one-out": [
+        {
+          "q": "Was üben Kinder mit den Was passt nicht Arbeitsblättern?",
+          "a": "Sie suchen in einer Bildreihe das Bild, das nicht dazugehört, und begründen ihre Wahl. Das übt Klassifizieren, Begründen und genaues Hinsehen ohne Lesen."
+        },
+        {
+          "q": "Sind die Was passt nicht Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Was passt nicht Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "picture-path": [
+        {
+          "q": "Was üben Kinder mit den Bildpfad-Arbeitsblättern?",
+          "a": "Sie zeichnen einen Weg durch ein Gitter bis zum Ziel und üben dabei räumliches Denken und Richtungen. Die Aufgabe kommt ganz ohne Lesen aus."
+        },
+        {
+          "q": "Sind die Bildpfad-Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Bildpfad-Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "find-and-count": [
+        {
+          "q": "Was üben Kinder mit den Suchen und zählen Arbeitsblättern?",
+          "a": "Sie finden Zielobjekte in einer Szene und zählen, wie viele es davon gibt. Das verbindet visuelle Wahrnehmung mit dem Zählen und der Menge-Zahl-Zuordnung."
+        },
+        {
+          "q": "Sind die Suchen und zählen Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Suchen und zählen Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "bingo": [
+        {
+          "q": "Eignen sich die Bingo-Arbeitsblätter für die ganze Klasse?",
+          "a": "Ja. Beim Bingo markieren Kinder das aufgerufene Bild, den Buchstaben oder die Zahl auf ihrer Karte. Das schult Zuhören und Wiederholung und eignet sich gut für die ganze Klasse."
+        },
+        {
+          "q": "Sind die Bingo-Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Bingo-Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "chart-count": [
+        {
+          "q": "Was üben Kinder mit den Tabelle zählen Arbeitsblättern?",
+          "a": "Sie zählen Gegenstände und tragen die Menge in die Spalte eines Balkendiagramms ein. Das verbindet Zählen mit einer ersten Darstellung von Daten."
+        },
+        {
+          "q": "Sind die Tabelle zählen Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Tabelle zählen Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "grid-match": [
+        {
+          "q": "Was üben Kinder mit den Gitter-Zuordnung-Arbeitsblättern?",
+          "a": "Sie ziehen Kärtchen an ihren passenden Platz im Gitter und üben dabei Zuordnen und visuelles Gedächtnis. Die Aufgabe kommt ohne Lesen aus."
+        },
+        {
+          "q": "Sind die Gitter-Zuordnung-Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Gitter-Zuordnung-Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "wordsearch": [
+        {
+          "q": "Was üben Kinder mit den Wortsuche-Arbeitsblättern?",
+          "a": "Sie finden versteckte Wörter zu einem Thema in einem Buchstabengitter. Das übt das Erkennen von Buchstaben, festigt den Wortschatz und schult die Konzentration."
+        },
+        {
+          "q": "Sind die Wortsuche-Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Wortsuche-Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "pattern-worksheet": [
+        {
+          "q": "Was üben Kinder mit den Musterarbeitsblättern?",
+          "a": "Sie erkennen ein sich wiederholendes AB- oder ABC-Muster und setzen es fort. Das übt das Muster erkennen und fortsetzen und stärkt das mathematische Denken."
+        },
+        {
+          "q": "Sind die Musterarbeitsblätter kostenlos?",
+          "a": "Ja. Alle Musterarbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "crossword": [
+        {
+          "q": "Was üben Kinder mit den Kreuzworträtsel-Arbeitsblättern?",
+          "a": "Sie tragen Buchstaben anhand von Bildhinweisen in ein sich kreuzendes Gitter ein. Das übt Rechtschreibung und festigt den Wortschatz auf spielerische Weise."
+        },
+        {
+          "q": "Sind die Kreuzworträtsel-Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Kreuzworträtsel-Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "alphabet-train": [
+        {
+          "q": "Was üben Kinder mit den Buchstabenzug-Arbeitsblättern?",
+          "a": "Sie setzen Buchstabenkarten von A bis Z in die Waggons eines Zuges und üben so das Erkennen von Buchstaben und die alphabetische Reihenfolge."
+        },
+        {
+          "q": "Sind die Buchstabenzug-Arbeitsblätter kostenlos?",
+          "a": "Ja. Alle Buchstabenzug-Arbeitsblätter sind kostenlos und lassen sich als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Arbeitsblätter?",
+          "a": "Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, zur Verfügung."
+        }
+      ],
+      "bakery": [
+        {
+          "q": "Was finde ich auf der Seite mit Bäckerei-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3, die das Bildset der Bäckerei nutzen: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, sowie erste Buchstaben."
+        },
+        {
+          "q": "Sind die Bäckerei-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Bäckerei-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "animals": [
+        {
+          "q": "Was finde ich auf der Seite mit Tiere-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Tiere: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Tiere-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Tiere-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "ocean_life": [
+        {
+          "q": "Was finde ich auf der Seite mit Meeresleben-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Meeresleben: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Meeresleben-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Meeresleben-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "spring": [
+        {
+          "q": "Was finde ich auf der Seite mit Frühling-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Frühling: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Frühling-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Frühling-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "accessories": [
+        {
+          "q": "Was finde ich auf der Seite mit Accessoires-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Accessoires: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Accessoires-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Accessoires-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "activities": [
+        {
+          "q": "Was finde ich auf der Seite mit Aktivitäten-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Aktivitäten: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Aktivitäten-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Aktivitäten-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "at_the_supermarket": [
+        {
+          "q": "Was finde ich auf der Seite mit Im Supermarkt-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 rund um den Supermarkt: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Im Supermarkt-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Im Supermarkt-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "body_parts": [
+        {
+          "q": "Was finde ich auf der Seite mit Körperteile-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Körperteile: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Körperteile-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Körperteile-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "camping": [
+        {
+          "q": "Was finde ich auf der Seite mit Camping-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Camping: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Camping-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Camping-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "classroom": [
+        {
+          "q": "Was finde ich auf der Seite mit Klassenzimmer-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Klassenzimmer: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Klassenzimmer-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Klassenzimmer-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "clothing": [
+        {
+          "q": "Was finde ich auf der Seite mit Kleidung-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Kleidung: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Kleidung-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Kleidung-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "desserts_and_sweets": [
+        {
+          "q": "Was finde ich auf der Seite mit Desserts und Süßigkeiten-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Desserts und Süßigkeiten: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Desserts und Süßigkeiten-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Desserts und Süßigkeiten-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "easter": [
+        {
+          "q": "Was finde ich auf der Seite mit Ostern-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Ostern: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Ostern-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Ostern-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "fruits": [
+        {
+          "q": "Was finde ich auf der Seite mit Früchte-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Früchte: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Früchte-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Früchte-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "kitchen_tools": [
+        {
+          "q": "Was finde ich auf der Seite mit Küchenwerkzeuge-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Küchenwerkzeuge: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Küchenwerkzeuge-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Küchenwerkzeuge-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "occupations": [
+        {
+          "q": "Was finde ich auf der Seite mit Berufe-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Berufe: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Berufe-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Berufe-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "summer": [
+        {
+          "q": "Was finde ich auf der Seite mit Sommer-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Sommer: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Sommer-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Sommer-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "things_that_fly": [
+        {
+          "q": "Was finde ich auf der Seite mit Dinge die fliegen-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Dinge die fliegen: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Dinge die fliegen-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Dinge die fliegen-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "toys": [
+        {
+          "q": "Was finde ich auf der Seite mit Spielzeug-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Spielzeug: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Spielzeug-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Spielzeug-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "vegetables": [
+        {
+          "q": "Was finde ich auf der Seite mit Gemüse-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Gemüse: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Gemüse-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Gemüse-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "vehicles": [
+        {
+          "q": "Was finde ich auf der Seite mit Fahrzeuge-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Fahrzeuge: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Fahrzeuge-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Fahrzeuge-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "around_the_house": [
+        {
+          "q": "Was finde ich auf der Seite mit Rund ums Haus-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset rund ums Haus: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Rund ums Haus-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Rund ums Haus-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "beach": [
+        {
+          "q": "Was finde ich auf der Seite mit Strand-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Strand: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Strand-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Strand-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "forest_creatures": [
+        {
+          "q": "Was finde ich auf der Seite mit Waldtiere-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Waldtiere: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Waldtiere-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Waldtiere-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "hospital": [
+        {
+          "q": "Was finde ich auf der Seite mit Krankenhaus-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Krankenhaus: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Krankenhaus-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Krankenhaus-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "pets": [
+        {
+          "q": "Was finde ich auf der Seite mit Haustiere-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Haustiere: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Haustiere-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Haustiere-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "weather": [
+        {
+          "q": "Was finde ich auf der Seite mit Wetter-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Wetter: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Wetter-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Wetter-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "zoo_animals": [
+        {
+          "q": "Was finde ich auf der Seite mit Zootiere-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Zootiere: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Zootiere-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Zootiere-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "birds_2": [
+        {
+          "q": "Was finde ich auf der Seite mit Vögel 2-Arbeitsblättern?",
+          "a": "Sie finden eine zweite Sammlung von Vogel-Arbeitsblättern für K-3: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Vögel 2-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Vögel 2-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "farm_animals": [
+        {
+          "q": "Was finde ich auf der Seite mit Bauernhoftiere-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Bauernhoftiere: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Bauernhoftiere-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Bauernhoftiere-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "furniture": [
+        {
+          "q": "Was finde ich auf der Seite mit Möbel-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Möbel: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Möbel-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Möbel-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "music": [
+        {
+          "q": "Was finde ich auf der Seite mit Musik-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Musik: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Musik-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Musik-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "4th_of_july": [
+        {
+          "q": "Was finde ich auf der Seite mit 4. Juli-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset 4. Juli: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die 4. Juli-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die 4. Juli-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "breakfast": [
+        {
+          "q": "Was finde ich auf der Seite mit Frühstück-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Frühstück: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Frühstück-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Frühstück-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "flowers": [
+        {
+          "q": "Was finde ich auf der Seite mit Blumen-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Blumen: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Blumen-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Blumen-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "shapes": [
+        {
+          "q": "Was finde ich auf der Seite mit Formen-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Formen: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Formen-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Formen-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "space": [
+        {
+          "q": "Was finde ich auf der Seite mit Weltraum-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Weltraum: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Weltraum-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Weltraum-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "thanksgivinng": [
+        {
+          "q": "Was finde ich auf der Seite mit Erntedankfest-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Erntedankfest: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Erntedankfest-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Erntedankfest-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "tools": [
+        {
+          "q": "Was finde ich auf der Seite mit Werkzeuge-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Werkzeuge: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Werkzeuge-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Werkzeuge-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "christmas": [
+        {
+          "q": "Was finde ich auf der Seite mit Weihnachten-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Weihnachten: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Weihnachten-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Weihnachten-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "post_office": [
+        {
+          "q": "Was finde ich auf der Seite mit Postamt-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Postamt: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Postamt-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Postamt-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "winter": [
+        {
+          "q": "Was finde ich auf der Seite mit Winter-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Winter: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Winter-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Winter-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "emotions": [
+        {
+          "q": "Was finde ich auf der Seite mit Emotionen-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Emotionen: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Emotionen-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Emotionen-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "tree": [
+        {
+          "q": "Was finde ich auf der Seite mit Bäume-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Bäume: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Bäume-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Bäume-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "insects_and_bugs": [
+        {
+          "q": "Was finde ich auf der Seite mit Insekten und Käfer-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Insekten und Käfer: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Insekten und Käfer-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Insekten und Käfer-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "birds": [
+        {
+          "q": "Was finde ich auf der Seite mit Vögel-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Vögel: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Vögel-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Vögel-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "colors": [
+        {
+          "q": "Was finde ich auf der Seite mit Farben-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Farben: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Farben-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Farben-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "dinosaurs": [
+        {
+          "q": "Was finde ich auf der Seite mit Dinosaurier-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Dinosaurier: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Dinosaurier-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Dinosaurier-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "reptiles_and_amphibians": [
+        {
+          "q": "Was finde ich auf der Seite mit Reptilien und Amphibien-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit dem Bildset Reptilien und Amphibien: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Reptilien und Amphibien-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Reptilien und Amphibien-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "miscellaneous": [
+        {
+          "q": "Was finde ich auf der Seite mit Verschiedenes-Arbeitsblättern?",
+          "a": "Sie finden Arbeitsblätter für K-3 mit einem gemischten Bildset: Zählen und erstes Addieren, Sortieren und Zuordnen, was nicht dazugehört, und erste Buchstaben."
+        },
+        {
+          "q": "Sind die Verschiedenes-Arbeitsblätter kostenlos?",
+          "a": "Ja. Sie können jedes Arbeitsblatt kostenlos als PDF ausdrucken oder online spielen, jeweils mit Lösungsbogen, ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es die Verschiedenes-Arbeitsblätter?",
+          "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ]
+    },
     "fallback": {
       "single": {
         "q1": "Welche Arbeitsblätter sind auf dieser {topic}-Seite?",
@@ -1299,31 +2462,31 @@
     "grade-3": "Arbeitsblätter für die 3. Klasse: Multiplikation, Division, Lesen, Schreiben. Druckbar und interaktiv, geeignet für Hausaufgaben."
   },
   "topicProse": {
-    "animals": "Arbeitsblätter zum Thema Tiere geben Lehrkräften in der frühen Kindheit ein Vokabular-Fundament, das durch den gesamten K-3-Lehrplan trägt. Kühe zählen, Vögel nach ihrer Nahrung sortieren, den Anfangsbuchstaben jedes Bauernhoftiers erkennen — derselbe Bildersatz unterstützt Zahlenverständnis, Klassifikation und frühe Literalität, ohne dass Kinder den Kontext wechseln müssen. Das Vokabular selbst ist in jeder unserer elf Sprachen hochfrequent, was diese Arbeitsblätter besonders nützlich macht, wenn eine Klasse Kinder mit unterschiedlichem Sprachstand hat.",
-    "addition": "Additions-Arbeitsblätter holen Kinder genau in dem Moment ab, in dem das Addieren aufhört, ein Zähltrick zu sein, und beginnt, eine abrufbare Tatsache zu werden. Die Arbeitsblätter hier geben diese Abruf-Übung über einstellige und kleine zweistellige Summen hinweg, mit bildgestützten Aufgaben für jüngere Lernende und reinen Zahlenformaten, sobald die Operation gefestigt ist. Mischen Sie interaktive und druckbare Formate: Die interaktiven Versionen geben sofortiges Feedback, die druckbaren PDFs eignen sich gut für Partnerarbeit, bei der ein Kind schreibt und das andere kontrolliert.",
-    "subtraction": "Subtraktion ist die Operation, die die Intuitionen der Kinder darüber zeigt, was bleibt und was geht. Diese Arbeitsblätter bauen diese Intuition mit bildbasierten Wegnahme-Aufgaben für die jüngsten Lernenden auf, fortschreitend zur abstrakten Zahlensubtraktion, sobald die Wegnahme-Geste nicht mehr nötig ist. Das Format passt gut zu Manipulativen im Klassenzimmer — Kinder können die erste Reihe mit Plättchen nachstellen und dann den Rest auf der Seite ausfüllen.",
-    "alphabet-train": "Die Alphabet-Zug-Arbeitsblätter bauen Buchstabenerkennung durch positionelle Anordnung auf. Jeder Wagen des Zuges trägt einen Buchstaben, und die Kinder ergänzen entweder die fehlenden Wagen oder ordnen die Wagen in alphabetischer Reihenfolge an. Das Format ist nachsichtig — ein Kind, das die Hälfte des Alphabets kennt, kann die Reihen mit den vertrauten Buchstaben dennoch ausfüllen und die unvertrauten aus dem Kontext aufnehmen. Nützlich für Buchstabe-Laut-Arbeit, zur Festigung des Alphabet-Lieds und zur frühen Literalitätsdiagnose.",
-    "wordsearch": "Buchstabensalat-Arbeitsblätter trainieren ausdauerndes Lesen: Das Auge scannt ein Buchstabengitter, und das Gehirn gleicht jeden Buchstaben mit einem im Arbeitsgedächtnis gehaltenen Zielwort ab. Für K-3-Lesende sind die Zielwörter kurz und thematisch gruppiert, was bedeutet, dass die Aktivität Vokabular und Dekodieren gleichzeitig festigt. Diese Arbeitsblätter eignen sich gut als ruhige Aufgaben, Übergangs-Beschäftigung oder Partnerarbeit, bei der ein Kind das Zielwort vorliest, während das andere sucht.",
-    "matching": "Zuordnungs-Arbeitsblätter geben Kindern Übung mit der kognitiven Bewegung, die dem meisten frühkindlichen Denken zugrunde liegt: zu erkennen, dass zwei Dinge zusammengehören, weil sie eine Eigenschaft teilen. Diese Seiten paaren Bilder mit ihren Anfangsbuchstaben, Wörter mit ihren Bedeutungen oder Mengen mit ihren Ziffern. Das visuelle Layout — Elemente in zwei Spalten, durch direkt auf das Arbeitsblatt gezeichnete Linien verbunden — hält die kognitive Last auf der Beziehung statt auf dem Verfahren.",
-    "sudoku": "Bilder-Sudoku-Arbeitsblätter geben jungen Kindern die Logik-Erfahrung des vollen Sudokus in einem 4×4-Gitter mit vertrauten Bildern statt Ziffern. Jede Zeile, Spalte und Quadrant muss jedes der vier Bilder einmal enthalten, und die Kinder leiten die fehlenden durch Ausschluss ab. Das Rätsel ist für die K-3-Altersgruppe wirklich herausfordernd, ohne Zahlenlesen zu erfordern, was es für Kinder auf jedem Lese-Niveau zugänglich macht.",
-    "find-and-count": "Suchen-und-Zählen-Arbeitsblätter bitten Kinder, eine vielseitige Szene abzusuchen, jedes Vorkommen eines Zielobjekts zu finden und die Anzahl aufzuschreiben. Die Aktivität trainiert drei Fertigkeiten gleichzeitig: visuelle Diskrimination, Eins-zu-eins-Zuordnung und Ziffernschreiben. Für Lehrkräfte in der frühen Kindheit ist Suchen-und-Zählen ein nützliches Diagnoseinstrument — ein Kind, das sechs zählt, aber vier schreibt, zeigt Ihnen etwas Konkretes darüber, wo die Lücke ist.",
-    "prepositions": "Präpositions-Arbeitsblätter verknüpfen räumliches Vokabular mit konkreten Bildern: Die Katze sitzt unter dem Stuhl, der Ball liegt zwischen den Kisten, der Vogel sitzt auf dem Ast. Die Bilder geben Kindern einen Bezugspunkt für Wörter, die sonst abstrakt sind, und das Multiple-Choice-Format hält die kognitive Last auf der Beziehung statt auf dem Schreiben. Nützlich für Lernende mit Deutsch als Zweitsprache, für zweisprachige Klassenzimmer und für jeden Kontext, in dem räumliches Vokabular explizit vermittelt werden muss.",
-    "picture-sort": "Bild-Sortier-Arbeitsblätter üben die Klassifikationsbewegung, die der frühen Naturwissenschaft und dem frühen Lesen zugrunde liegt. Kinder betrachten eine Reihe von Bildern und gruppieren sie nach Kategorie — nach Anfangsbuchstabe, nach Nahrung, nach Lebensraum, nach Farbe. Das Zwei-Behälter-Format hält die Wahl binär, was der richtige kognitive Ausgangspunkt für K-3-Sortieren ist.",
-    "big-small": "Groß-Klein-Arbeitsblätter üben den relativen Größenvergleich, die Grundfertigkeit, die dem Messen und Ordnen zugrunde liegt. Kinder identifizieren das Größte oder Kleinste in einer Menge oder ordnen eine Reihe von Objekten nach Größe an. Die Bilder sind bewusst überzeichnet, sodass der Vergleich eindeutig ist — sobald Kinder den Bildhinweis sicher lesen können, überträgt sich dieselbe Fertigkeit auf weniger offensichtliche Vergleiche im Leben und in der Zahlenarbeit.",
-    "more-less": "Mehr-Weniger-Arbeitsblätter sind die Vorläufer der formalen Addition und Subtraktion: Kinder vergleichen zwei Mengen und entscheiden, welche mehr enthält. Die Aktivität ist stark bildgestützt, da viele K-3-Kinder sie lösen können, bevor sie die Wörter „mehr“ und „weniger“ zuverlässig lesen können. Nützlich als Überprüfung des Zahlenverständnisses und als Grundgerüst für frühe Arithmetik.",
-    "math-puzzle": "Mathe-Rätsel-Arbeitsblätter verpacken arithmetische Übung als etwas zum Knobeln statt zum Drillen. Jedes Rätsel verlangt vom Kind, Zahlenfakten mit logischer Schlussfolgerung zu kombinieren — welche zwei Zahlen ergeben diese Summe, welche Folge vervollständigt dieses Muster, welche Operation macht diese Gleichung wahr. Das Format hält Mathematik interessant, sobald die grundlegenden Fakten gefestigt sind.",
-    "math-worksheet": "Mathe-Arbeitsblatt-Seiten geben Kindern Übung mit den Operationen, an denen sie gerade arbeiten, in dem Format, von dem Lehrkräfte wissen, dass es zur Festigung der Fertigkeit funktioniert. Jede Seite zielt auf eine oder zwei Operationen ab und bietet genug Aufgaben für ausdauernde Übung, ohne überwältigend zu werden. Verwenden Sie sie als Hausaufgaben, Morgen-Arbeit oder als unabhängige Übung während des Unterrichts in Kleingruppen.",
-    "missing-pieces": "Fehlende-Teile-Arbeitsblätter trainieren visuelle Vervollständigung: Kinder betrachten ein Bild, in dem ein Abschnitt entfernt wurde, und wählen aus einer kleinen Auswahl das Teil, das es vervollständigt. Die Aktivität übt räumliches Denken, Detailaufmerksamkeit und Formerkennung gleichzeitig. Besonders nützlich als ruhige unabhängige Aufgabe im Kindergarten- und 1.-Klasse-Bereich.",
-    "odd-one-out": "Was-passt-nicht-Arbeitsblätter üben die Diskriminationsfertigkeit, die der Klassifikation zugrunde liegt: Kinder betrachten eine kleine Gruppe von Bildern und identifizieren das, das nicht dazugehört. Das Kriterium variiert — nach Kategorie, nach Farbe, nach Anfangsbuchstabe — und die Bilder sind so gewählt, dass die Antwort eindeutig ist, sobald das Kriterium benannt ist. Ein nützliches Diagnoseinstrument für frühkindliches Denken.",
-    "shadow-match": "Schatten-Zuordnungs-Arbeitsblätter paaren jedes Bild mit seiner Silhouette. Die Aktivität übt Formerkennung und visuelle Diskrimination auf der Ebene, auf der Umriss und Detail getrennt verarbeitet werden müssen, was eine der Grundfertigkeiten für frühes Lesen ist. Kinder, die Schatten sicher zuordnen, bewältigen tendenziell auch die Buchstabenform-Erkennung mit weniger Anstrengung.",
-    "code-addition": "Code-Additions-Arbeitsblätter paaren eine Additionsaufgabe mit einem Buchstaben, sodass die Antwort der Summe ein Wort oder eine Botschaft entschlüsselt. Das Format gibt der arithmetischen Übung einen literalen Rahmen: Kinder lösen Addition nicht als Selbstzweck, sondern als Mittel zur Botschaft. Nützlich für Kinder im mittleren Kindergarten- und 1.-Klasse-Alter, die die Grundfakten haben, aber Übung brauchen, die motivierend wirkt.",
-    "pattern-train": "Muster-Zug-Arbeitsblätter geben Kindern Übung im Erweitern und Vervollständigen visueller Muster. Jeder Zug trägt eine Sequenz, und das Kind ergänzt die fehlenden Wagen, indem es der Musterlogik folgt — alternierende Farben, sich wiederholende Formen, zunehmende Größen. Mustererkennung ist eine Grundfertigkeit, die sowohl der frühen Mathematik als auch dem frühen Lesen zugrunde liegt, und das Zugformat hält das visuelle Layout einfach.",
-    "picture-path": "Bild-Pfad-Arbeitsblätter trainieren räumliches Denken und Wegfindung: Kinder ziehen einen Pfad durch ein Gitter von einem Startbild zu einem Endbild, manchmal um Wände herum oder an Ablenkern vorbei. Die Aktivität baut die gleichen kognitiven Bewegungen auf, die dem Labyrinth-Lösen, dem Planen und der frühen Geometrie zugrunde liegen. Kinder entwickeln die Geduld, Wege zu betrachten, bevor sie den Stift ansetzen.",
-    "treasure-hunt": "Schatzsuche-Arbeitsblätter geben Kindern eine Folge von Richtungshinweisen — zwei Felder nach Norden, eines nach Osten, drei nach Süden — und bitten sie, den Weg nachzuziehen, den die Hinweise beschreiben. Die Aktivität baut räumliches Denken, Arbeitsgedächtnis und Richtungs-Vokabular gleichzeitig auf. Das Format funktioniert besonders gut für Kinder der 1. und 2. Klasse, die für mehrstufige Anweisungen bereit sind.",
-    "preschool": "Vorschul-Arbeitsblätter holen Kinder im Entwicklungsmoment ab, in dem der Stiftgriff zuverlässig wird und das Gehirn für gezielte vor-akademische Arbeit bereit ist. Die Aktivitäten hier halten die kognitive Last gering und die visuelle Unterstützung hoch — jede Aufgabe ist illustriert, jede Antwort eindeutig, jede Seite kann in wenigen konzentrierten Minuten erledigt werden. Verwenden Sie sie für die Momente am Morgen, in denen Kinder bereit sind, sich hinzusetzen und zu arbeiten, oder als sanfte Hausaufgabe, die Familien ohne akademischen Hintergrund unterstützen können.",
-    "kindergarten": "Kindergarten-Arbeitsblätter sind auf das Jahr abgestimmt, in dem vor-akademische Neugier zu akademischer Bereitschaft wird. Kinder auf diesem Niveau können zuverlässig einen Stift halten, die ersten Buchstaben ihres Namens erkennen, über zehn hinaus zählen und zweistufigen Anweisungen auf einer Seite folgen. Die Aktivitäten hier üben diese Fertigkeiten in Mathematik, Literalität, Logik und räumlichem Denken, in Formaten, die kurz genug für die Aufmerksamkeitsspanne eines Kindergartenkinds und substanziell genug sind, um sich wie echte Arbeit anzufühlen.",
-    "grade-1": "Arbeitsblätter für die 1. Klasse holen den Moment ab, in dem Kinder die im Kindergarten gelegten Grundlagen zu fließender unabhängiger Übung verfestigen. Sie können kurze Anweisungen lesen, ihre Antworten schreiben und einfache Fehler ohne Erwachsenen-Aufforderung selbst korrigieren. Die Aktivitäten hier umfassen den Standard-Lehrplan der 1. Klasse — Addition und Subtraktion innerhalb von zwanzig, Sichtwort-Erkennung, einfache Sequenzierung, grundlegende räumliche Logik — und jede Seite ist so gestaltet, dass sie in einem konzentrierten Fünfzehn-Minuten-Block erledigt werden kann.",
-    "grade-2": "Arbeitsblätter für die 2. Klasse holen Kinder ab, die jetzt unabhängig lesen, in Sätzen schreiben und für mehrstufiges Problemlösen bereit sind. Die Aktivitäten hier führen die längeren kognitiven Sequenzen ein — mehrstellige Addition, längere Buchstabensalate, komplexere Rätsel — die Kinder der 2. Klasse durchhalten können. Paaren Sie sie mit Klassendiskussionen über Strategie, da der kognitive Wert auf diesem Niveau zunehmend ebenso im Vorgehen wie in der Antwort liegt.",
+    "animals": "Tiere gehören zu den ersten Bildern, die Kinder sicher benennen, und genau dieses vertraute Bildset zieht sich durch alle Übungstypen. Mit Tieren zählen und addieren die Kinder, sie sortieren und ordnen zu, sie entscheiden, was nicht dazugehört, und sie erkennen erste Buchstaben. Der Themenwortschatz mit Tieren ist in jeder Sprache hochfrequent und damit ideal für mehrsprachige Klassen, in denen jedes Kind die Begriffe schnell aufgreift. Alle Arbeitsblätter mit Tieren gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. So können die Kinder zu Hause und in der Schule üben. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "addition": "Bei den Addition-Arbeitsblättern zählen Kinder zwei Gruppen von Bildern und fügen sie zusammen. So erleben sie das erste Plusrechnen ganz anschaulich, bevor daraus einstellige und kleine zweistellige Rechenaufgaben werden. Die bildgestützten Aufgaben verbinden Menge-Zahl-Zuordnung mit dem Addieren und geben sichere Orientierung. Die Blätter passen für Kindergarten, 1. und 2. Klasse und lassen sich nach Zahlenraum abstufen. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Lassen Sie Kinder zuerst zählen und dann die Zahlen verbinden, damit der Sinn klar bleibt. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "subtraction": "Bei den Subtraktion-Arbeitsblättern üben Kinder das Wegnehmen ganz anschaulich. Sie streichen die Dinge durch, die wegfallen, und zählen, was übrig bleibt. So wird aus dem Bild Schritt für Schritt eine Rechenaufgabe, und das Minusrechnen wird begreifbar. Die Blätter eignen sich für Kindergarten, 1. und 2. Klasse und lassen sich nach Zahlenraum auswählen. Bildgestützte Aufgaben geben dabei sichere Orientierung. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Beginnen Sie mit kleinen Mengen und steigern Sie den Zahlenraum behutsam. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "alphabet-train": "Bei den Buchstabenzug-Arbeitsblättern setzen Kinder Buchstabenkarten in der richtigen Reihenfolge von A bis Z in die Waggons eines Zuges. Sie erkennen die Buchstaben, denken an die Abfolge des Alphabets und ordnen jeden Buchstaben an seinen Platz. Das übt das Erkennen von Buchstaben und festigt die alphabetische Reihenfolge. Die Aufgabe eignet sich gut für Kindergarten und 1. Klasse. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Singen Sie mit Kindern das Alphabet mit, während sie die Waggons füllen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "wordsearch": "Bei den Wortsuche-Arbeitsblättern finden Kinder versteckte Wörter zu einem Thema in einem Buchstabengitter. Sie suchen Buchstabe für Buchstabe, erkennen bekannte Wörter und markieren sie, sobald sie sie gefunden haben. Das übt das Erkennen von Buchstaben, festigt den Wortschatz und schult Konzentration und Ausdauer. Die Aufgabe eignet sich für 1. und 2. Klasse. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Lassen Sie Kinder zuerst die Wortliste durchlesen, bevor sie suchen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "matching": "Bei den Zuordnung-Arbeitsblättern ziehen Kinder eine Linie, um jedes Bild mit seinem passenden Partner zu verbinden. Sie überlegen, welche zwei Dinge zusammengehören, und üben so die Eins-zu-eins-Zuordnung. Das schult genaues Hinsehen, Konzentration und erstes logisches Denken. Die Aufgabe kommt ohne Lesen aus und eignet sich für Vorschule, Kindergarten und 1. Klasse. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Lassen Sie Kinder die Paare zuerst mit dem Finger zeigen, bevor sie eine Linie ziehen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "sudoku": "Bei den Bilder-Sudoku-Arbeitsblättern platzieren Kinder Bilder in einem 4x4-Gitter so, dass in jeder Zeile, jeder Spalte und jedem Feldblock jedes Bild genau einmal vorkommt. Die Aufgabe kommt ohne Zahlen und ohne Lesen aus und schult dennoch logisches Denken, Ausdauer und planvolles Vorgehen. Sie eignet sich gut für Kindergarten und 1. Klasse. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Lassen Sie Kinder zuerst die schon gefüllten Felder anschauen und daraus schließen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "find-and-count": "Bei Suchen und zählen finden Kinder bestimmte Gegenstände in einer Szene und zählen, wie viele es davon gibt. Sie suchen aufmerksam, behalten den Überblick und tragen die gezählte Menge ein. Das verbindet visuelle Wahrnehmung mit dem Zählen und der Menge-Zahl-Zuordnung. Die Aufgabe ist bildgestützt und eignet sich für Vorschule, Kindergarten und 1. Klasse. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Lassen Sie Kinder beim Zählen mit dem Finger tippen, damit nichts doppelt gezählt wird. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "prepositions": "Bei den Präpositionen-Arbeitsblättern wählen Kinder das Bild, das eine bestimmte Lage zeigt, etwa in, auf, unter oder neben. Sie schauen genau hin und ordnen das passende Lagewort der richtigen Darstellung zu. So üben sie räumliche Lagewörter, die für Sprache und Orientierung wichtig sind. Die Aufgabe ist bildgestützt und eignet sich für Vorschule, Kindergarten und 1. Klasse. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Beschreiben Sie mit Kindern laut, wo sich der Gegenstand befindet. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "picture-sort": "Bei den Bildersortierung-Arbeitsblättern ordnen Kinder Bilder in beschriftete Gruppen oder Kategorien ein. Sie überlegen, welches Bild wohin gehört, und üben so das Klassifizieren nach gemeinsamen Merkmalen. Das schult genaues Hinsehen, Begründen und erstes logisches Denken. Die Aufgabe eignet sich gut für Vorschule, Kindergarten und 1. Klasse. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Sprechen Sie mit Kindern darüber, warum ein Bild in eine bestimmte Gruppe gehört. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "big-small": "Bei Groß oder klein finden Kinder das größte oder kleinste Bild und ordnen Bilder nach ihrer Größe. Sie vergleichen genau und entwickeln so ein erstes Größenverständnis, das für Mathematik und Sprache wichtig ist. Die Aufgabe kommt ohne Lesen aus und stützt sich ganz auf das genaue Hinsehen. Sie eignet sich gut für Vorschule und Kindergarten. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Sprechen Sie mit Kindern über groß, größer und am größten, während sie ordnen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "more-less": "Bei Mehr oder weniger vergleichen Kinder zwei Gruppen von Bildern und entscheiden, welche mehr, weniger oder gleich viele Dinge enthält. Die Aufgabe kommt ohne Lesen aus und stützt sich ganz auf das Zählen und genaue Hinsehen. So entsteht ein erstes Mengenverständnis, das später das Rechnen trägt. Die Blätter eignen sich gut für Vorschule und Kindergarten. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Lassen Sie Kinder zuerst beide Gruppen zählen und dann vergleichen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "math-puzzle": "Bei den Mathe-Rätsel-Arbeitsblättern ziehen Kinder einzelne Teile an die richtige Stelle, um ein Zahlenrätsel zu vervollständigen. Dabei überlegen sie, welches Teil passt, planen ihre Schritte und vertiefen ihr Zahlenverständnis. Die Aufgabe verbindet Logik mit erstem Rechnen und macht das Üben abwechslungsreich. Die Blätter eignen sich für Kindergarten, 1. und 2. Klasse und sind bildgestützt aufgebaut. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Lassen Sie Kinder ruhig erst probieren, bevor sie sich festlegen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "math-worksheet": "Die Mathe-Arbeitsblätter bieten allgemeines Üben rund um Zahlen. Kinder lösen Rechenaufgaben, ergänzen fehlende Teile und bearbeiten gemischte Summen und Differenzen. So festigen sie das Addieren und Subtrahieren und entwickeln ein sicheres Zahlenverständnis. Die Blätter eignen sich für Kindergarten, 1. und 2. Klasse und lassen sich nach Zahlenraum abstufen. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Mischen Sie leichte und anspruchsvollere Aufgaben, damit Kinder Erfolg erleben und gefordert bleiben. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "missing-pieces": "Bei Was fehlt ziehen Kinder das richtige ausgeschnittene Teil in jede Lücke, um das Bild zu vervollständigen. Sie vergleichen Form und Inhalt der Lücke mit den angebotenen Teilen und entscheiden, welches passt. Das schult die visuelle Ergänzung, das Erkennen von Formen und genaues Hinsehen. Die Aufgabe kommt ohne Lesen aus und eignet sich für Vorschule, Kindergarten und 1. Klasse. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Lassen Sie Kinder die Teile ruhig zuerst probeweise anlegen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "odd-one-out": "Bei Was passt nicht wählen Kinder das Bild, das nicht dazugehört, und überlegen, warum. Sie vergleichen die Bilder einer Reihe, suchen das gemeinsame Merkmal und erkennen den Ausreißer. Das übt Klassifizieren und Begründen und fördert genaues Hinsehen und Sprache zugleich. Die Aufgabe kommt ohne Lesen aus und eignet sich für Vorschule, Kindergarten und 1. Klasse. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Lassen Sie Kinder erklären, warum ein Bild nicht passt. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "shadow-match": "Bei Schatten zuordnen verbinden Kinder jedes Bild mit seinem passenden Schatten. Sie achten genau auf Form und Umriss und finden heraus, welcher dunkle Umriss zu welchem Gegenstand gehört. Das schult die visuelle Wahrnehmung und das Erkennen von Formen, ganz ohne Lesen. Die Aufgabe eignet sich gut für Vorschule und Kindergarten. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Lassen Sie Kinder die Umrisse mit dem Finger nachfahren, wenn die Zuordnung schwerfällt. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "code-addition": "Bei den Code-Addition-Arbeitsblättern lösen Kinder kleine Summen, deren Ergebnisse für bestimmte Buchstaben stehen. Stimmt das Ergebnis, lässt sich der passende Buchstabe eintragen, und nach und nach erscheint ein verstecktes Wort. So verbindet die Aufgabe das erste Plusrechnen mit dem Erkennen von Buchstaben und macht das Üben spannend. Die Blätter eignen sich für 1. und 2. Klasse und arbeiten bildgestützt. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Lassen Sie Kinder erst rechnen und dann das Lösungswort vorlesen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "pattern-train": "Bei den Musterzug-Arbeitsblättern setzen Kinder ein Bildmuster entlang der Waggons eines Zuges fort. Sie schauen genau hin, erkennen die Regel der Reihe und ergänzen, welches Bild als Nächstes folgt. Das fördert das Muster erkennen und fortsetzen, schult Konzentration und legt eine wichtige Grundlage für späteres mathematisches Denken. Die Aufgaben eignen sich gut für Kindergarten und Vorschule und kommen ohne Lesen aus. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Setzen Sie den Musterzug als ruhigen Einstieg oder an der Lernstation ein. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "picture-path": "Bei den Bildpfad-Arbeitsblättern zeichnen Kinder einen Weg durch ein Gitter bis zum Ziel. Sie überlegen Schritt für Schritt, in welche Richtung es weitergeht, und folgen dem Pfad bis zum Ende. Das fördert räumliches Denken und das Verstehen von Richtungen. Die Aufgabe kommt ohne Lesen aus und eignet sich für Kindergarten und 1. Klasse. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Lassen Sie Kinder den Weg zuerst mit dem Finger erproben, bevor sie ihn zeichnen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "treasure-hunt": "Bei den Schatzsuche-Arbeitsblättern folgen Kinder Schritt für Schritt den Richtungshinweisen über ein Gitter, bis sie den Schatz erreichen. Sie lesen jede Anweisung, bewegen sich Feld für Feld und behalten dabei den Überblick. Das fördert räumliches Denken und das Verstehen von Richtungen wie oben, unten, links und rechts. Die Aufgabe eignet sich gut für Kindergarten, 1. und 2. Klasse. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Lassen Sie Kinder jeden Schritt mit dem Finger nachgehen, bevor sie ihn zeichnen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "preschool": "Die Arbeitsblätter für Vorschule sind für Kinder von ungefähr 3 bis 5 Jahren gedacht und kommen ganz ohne Lesen aus. Kinder zählen kleine Mengen, ordnen passende Bilder zu, sortieren nach einfachen Merkmalen, vergleichen groß und klein und überlegen, was nicht dazugehört. Erste Buchstaben werden spielerisch nachgespurt. So entstehen früh und ohne Druck wichtige Grundlagen für Konzentration, Wahrnehmung und Feinmotorik. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Geben Sie Kindern viel Zeit und lassen Sie die Aufgaben spielerisch wirken. Die Sammlung steht in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "kindergarten": "Die Arbeitsblätter für Kindergarten bündeln erste Aufgaben für Kinder von ungefähr 5 bis 7 Jahren. Kinder zählen kleine Mengen, üben das erste Plus- und Minusrechnen, ordnen Menge und Zahl einander zu, sortieren Bilder und setzen einfache Muster fort. Dazu kommen das Erkennen von Buchstaben, das Hören erster Laute und das spielerische Erlesen erster Wörter. Alles bleibt vorbereitend und altersgerecht, ohne schulischen Druck. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Setzen Sie die Blätter als ruhigen Einstieg, an der Lernstation oder als Hausaufgabe ein. Die Sammlung steht in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "grade-1": "Die Arbeitsblätter für 1. Klasse begleiten Kinder von ungefähr 6 bis 8 Jahren beim Schritt vom spielerischen Üben zum sicheren Rechnen und Lesen. Kinder addieren und subtrahieren im Zahlenraum bis 20, lernen Zehner und Einer zu unterscheiden und verbinden Buchstaben zu ersten Wörtern. Logikaufgaben fördern dabei genaues Hinsehen und planvolles Denken. Die Aufgaben bauen aufeinander auf und geben klare, überschaubare Schritte vor. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Kombinieren Sie Rechen- und Leseblätter, um beide Bereiche gleichmäßig zu festigen. Die Sammlung steht in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "grade-2": "Die Arbeitsblätter für 2. Klasse richten sich an Kinder von ungefähr 7 bis 9 Jahren und vertiefen das Gelernte. Kinder addieren und subtrahieren zweistellig, machen erste Schritte beim Malnehmen und arbeiten mit Zehnern und Hundertern. Im sprachlichen Bereich lesen sie längere Texte, üben Wortarbeit und lösen Kreuzwort- und Wortsucherätsel. Logikaufgaben fordern dabei Ausdauer und genaues Denken. Die Aufgaben sind anspruchsvoller, bleiben aber klar strukturiert. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Nutzen Sie die Blätter zum Wiederholen, als Hausaufgabe oder für die Freiarbeit. Die Sammlung steht in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
     "addition__animals": "Tier-Additions-Arbeitsblätter paaren die Operation, die Kinder üben, mit Vokabular, das Kinder bereits gut kennen. Das Format reduziert die kognitive Last auf dem Bild und hält sie auf der Arithmetik — nützlich für Kinder, die noch ihre Additions-Faktenbasis aufbauen.",
     "animals__subtraction": "Tier-Subtraktions-Arbeitsblätter zeigen Wegnahme mit Lebewesen, die Kinder sofort erkennen, was die Operation einfacher zu lesen macht. Die Bilder halten den Fokus auf der Subtraktion selbst.",
     "alphabet-train__animals": "Tier-Alphabet-Zug-Arbeitsblätter verwenden Tiernamen als Alphabet-Anker — jeder Wagen steht für ein Tier, dessen Name mit einem anderen Buchstaben beginnt. Die Paarung verstärkt die Buchstabe-Laut-Zuordnung, während Kinder die Alphabet-Sequenz üben.",
@@ -1358,7 +2521,65 @@
     "code-addition__kindergarten": "Kindergarten-Code-Additions-Arbeitsblätter geben arithmetischer Übung einen literalen Rahmen: Jede Summe entschlüsselt einen Buchstaben oder ein Wort, was die Übung für Kinder zielgerichtet wirken lässt, die die Grundfakten haben, aber Motivation brauchen.",
     "kindergarten__pattern-train": "Kindergarten-Muster-Zug-Arbeitsblätter üben Mustererkennung — alternierend, sich wiederholend, zunehmend — in einem Zugformat, das visuell leicht zu lesen ist. Mustererkennung ist grundlegend in Mathematik und Lesen.",
     "kindergarten__picture-path": "Kindergarten-Bild-Pfad-Arbeitsblätter üben Wegfindung durch ein Gitter, was räumliches Denken und Geduld trainiert. Kinder auf diesem Entwicklungsstand sind bereit, Wege zu betrachten, bevor sie den Stift ansetzen.",
-    "grade-1__treasure-hunt": "Schatzsuchen für die 1. Klasse geben Kindern eine mehrstufige Richtungssequenz, der sie auf einem Gitter folgen. Die Aktivität baut räumliches Denken, Arbeitsgedächtnis und Richtungs-Vokabular auf einem Niveau auf, das Kinder der 1. Klasse durchhalten können."
+    "grade-1__treasure-hunt": "Schatzsuchen für die 1. Klasse geben Kindern eine mehrstufige Richtungssequenz, der sie auf einem Gitter folgen. Die Aktivität baut räumliches Denken, Arbeitsgedächtnis und Richtungs-Vokabular auf einem Niveau auf, das Kinder der 1. Klasse durchhalten können.",
+    "cryptogram": "Bei den Kryptogramm-Arbeitsblättern entschlüsseln Kinder einen Bild- oder Symbolcode, um ein Wort zu schreiben. Jedes Symbol steht für einen Buchstaben, und Schritt für Schritt füllen Kinder die Lücken, bis das Lösungswort vollständig ist. Das verbindet das Erkennen von Buchstaben mit erstem Schreiben und macht das Üben zum Rätsel. Die Blätter eignen sich für 1. und 2. Klasse und arbeiten bildgestützt. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Lassen Sie Kinder den Code zuerst an leichten Buchstaben erproben. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "word-guess": "Bei Wort raten füllen Kinder die Lücken, um das Wort zu einem Bildhinweis zu schreiben. Sie schauen sich das Bild an, denken an die passenden Laute und tragen Buchstabe für Buchstabe ein. So üben sie das Erkennen von Buchstaben und erstes Schreiben über die Laute. Die Aufgabe ist bildgestützt und eignet sich für Kindergarten, 1. und 2. Klasse. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Lassen Sie Kinder das Wort zuerst laut sprechen, bevor sie es schreiben. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "word-scramble": "Bei den Buchstabensalat-Arbeitsblättern bringen Kinder durcheinandergeratene Buchstaben in die richtige Reihenfolge, um das Wort zu einem Bild zu schreiben. Sie nutzen das Bild als Hilfe, denken an die Laute und ordnen die Buchstaben Schritt für Schritt. So üben sie Rechtschreibung und festigen ihren Wortschatz. Die Aufgabe ist bildgestützt und eignet sich für 1. und 2. Klasse. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Lassen Sie Kinder das gesuchte Wort erst leise vorsprechen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "find-objects": "Bei Objekte finden suchen Kinder versteckte Gegenstände in einer wimmeligen Szene und markieren sie, sobald sie sie entdeckt haben. Sie schauen genau hin, behalten die Liste im Blick und freuen sich über jeden Fund. Das schult die visuelle Wahrnehmung, Konzentration und Ausdauer. Die Aufgabe kommt ohne Lesen aus und eignet sich für Vorschule, Kindergarten und 1. Klasse. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Lassen Sie Kinder die Szene erst in Ruhe betrachten, bevor sie suchen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "bingo": "Bei den Bingo-Arbeitsblättern markieren Kinder das aufgerufene Bild, den Buchstaben oder die Zahl auf ihrer Bingokarte. Sie hören aufmerksam zu, suchen das passende Feld und decken es ab. Das schult Zuhören, schnelles Erkennen und macht gemeinsames Üben in der ganzen Klasse möglich. Die Aufgabe eignet sich für Kindergarten, 1. und 2. Klasse. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Rufen Sie die Begriffe ruhig und deutlich auf, damit alle Kinder folgen können. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "chart-count": "Bei Tabelle zählen zählen Kinder Gegenstände und füllen die passende Spalte eines Balkendiagramms aus. Sie verbinden so das Zählen mit einer ersten Darstellung von Daten und erkennen, welche Gruppe mehr oder weniger enthält. Das schult Menge-Zahl-Zuordnung und ein frühes Verständnis für Diagramme. Die Aufgabe ist bildgestützt und eignet sich für Kindergarten, 1. und 2. Klasse. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Lassen Sie Kinder die fertigen Balken vergleichen und beschreiben. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "grid-match": "Bei den Gitter-Zuordnung-Arbeitsblättern ziehen Kinder Kärtchen in ein Gitter an ihren passenden Platz. Sie merken sich Positionen, vergleichen Bilder und ordnen jedes Kärtchen dem richtigen Feld zu. Das schult Zuordnen und visuelles Gedächtnis sowie planvolles Vorgehen. Die Aufgabe kommt ohne Lesen aus und eignet sich für Kindergarten und 1. Klasse. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Lassen Sie Kinder das Gitter zuerst aufmerksam betrachten, bevor sie die Kärtchen setzen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "pattern-worksheet": "Bei den Musterarbeitsblättern lesen Kinder ein sich wiederholendes Muster und setzen es fort, zum Beispiel als AB- oder ABC-Folge. Sie erkennen die Regel der Reihe und ergänzen, welches Element als Nächstes kommt. Das übt Muster erkennen und fortsetzen und legt eine wichtige Grundlage für mathematisches Denken. Die Aufgabe kommt ohne Lesen aus und eignet sich für Vorschule, Kindergarten und 1. Klasse. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Lassen Sie Kinder das Muster zuerst laut benennen, etwa rot, blau, rot, blau. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "crossword": "Bei den Kreuzworträtsel-Arbeitsblättern tragen Kinder Buchstaben in ein sich kreuzendes Gitter ein, wobei Bilder als Hinweise dienen. Sie überlegen, welches Wort zum Bild gehört, denken an die Laute und schreiben es Buchstabe für Buchstabe in die richtigen Felder. Das übt Rechtschreibung und festigt den Wortschatz. Die Aufgabe ist bildgestützt und eignet sich für 1. und 2. Klasse. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Lassen Sie Kinder das gesuchte Wort erst leise vorsprechen, bevor sie es eintragen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "bakery": "Die Bäckerei ist ein vertrauter Ort, an dem Kinder Vokabeln wie Brot, Brötchen, Brezel und Kuchen mit allen Sinnen verbinden. Dasselbe Bildset begleitet die Kinder durch die verschiedenen Übungstypen: Sie zählen die Backwaren und rechnen erste Aufgaben, sortieren und ordnen zu, finden heraus, was nicht in die Bäckerei gehört, und erkennen erste Buchstaben. Dieser Themenwortschatz ist in jeder Sprache hochfrequent und besonders wertvoll für mehrsprachige Klassen. Jedes Arbeitsblatt rund um die Bäckerei gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "ocean_life": "Das Meeresleben mit Fischen, Krebsen, Seesternen und Walen lädt Kinder zum Entdecken einer ganzen Unterwasserwelt ein. Dieses Bildset begleitet sie durch die verschiedenen Übungstypen: Sie zählen die Meerestiere und rechnen erste Aufgaben, sortieren und ordnen zu, finden heraus, was nicht ins Meer gehört, und erkennen erste Buchstaben. Der Themenwortschatz rund um das Meer ist in jeder Sprache hochfrequent und unterstützt mehrsprachige Klassen beim Wortschatzaufbau. Jedes Arbeitsblatt mit Meeresleben gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "spring": "Der Frühling bietet einen schönen Anlass zum Üben in der jeweiligen Jahreszeit, wenn Blumen, Schmetterlinge und junge Tiere überall auftauchen. Dieses Bildset trägt die Kinder durch alle Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was nicht zum Frühling gehört, und sie erkennen erste Buchstaben. Der jahreszeitliche Themenwortschatz ist in jeder Sprache hochfrequent und hilft mehrsprachigen Klassen, neue Begriffe im passenden Moment zu festigen. Alle Arbeitsblätter mit Frühling gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "accessories": "Accessoires wie Mütze, Tasche, Schal und Uhr sind kleine Alltagsdinge, die Kinder schnell wiedererkennen. Dieses Bildset zieht sich durch die verschiedenen Übungstypen: Die Kinder zählen und addieren, sie sortieren und ordnen zu, sie finden heraus, was nicht zu den Accessoires gehört, und sie erkennen erste Buchstaben. Der Themenwortschatz mit Accessoires ist in jeder Sprache hochfrequent und unterstützt mehrsprachige Klassen beim Benennen vertrauter Gegenstände. Jedes Arbeitsblatt mit Accessoires gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "activities": "Aktivitäten zeigen Kinder beim Spielen, Malen, Lesen und Bauen und spiegeln den Alltag im Kindergarten und in der Schule wider. Dieses Bildset begleitet die Kinder durch alle Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was nicht dazugehört, und sie erkennen erste Buchstaben. Der Themenwortschatz rund um Aktivitäten ist in jeder Sprache hochfrequent und hilft mehrsprachigen Klassen, Tätigkeiten zu benennen. Alle Arbeitsblätter mit Aktivitäten gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "at_the_supermarket": "Im Supermarkt erleben Kinder echten Alltagswortschatz und können im Rollenspiel einkaufen, wiegen und bezahlen. Dieses Bildset rund um den Supermarkt zieht sich durch die verschiedenen Übungstypen: Die Kinder zählen Waren und rechnen erste Aufgaben, sie sortieren und ordnen zu, sie finden heraus, was nicht in den Einkaufswagen gehört, und sie erkennen erste Buchstaben. Der Themenwortschatz ist in jeder Sprache hochfrequent und besonders nützlich für mehrsprachige Klassen. Alle Arbeitsblätter rund um den Supermarkt gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "body_parts": "Körperteile wie Hand, Fuß, Auge und Ohr gehören zum allerersten Wortschatz, den Kinder am eigenen Körper begreifen. Dieses Bildset begleitet sie durch alle Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was nicht dazugehört, und sie erkennen erste Buchstaben. Der Themenwortschatz mit Körperteilen ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll, weil jedes Kind ihn täglich braucht. Alle Arbeitsblätter mit Körperteilen gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "camping": "Camping mit Zelt, Lagerfeuer, Rucksack und Taschenlampe weckt bei Kindern die Lust auf Abenteuer in der Natur. Dieses Bildset trägt sie durch die verschiedenen Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie finden heraus, was nicht zum Camping gehört, und sie erkennen erste Buchstaben. Der Themenwortschatz rund um das Campen ist in jeder Sprache hochfrequent und unterstützt mehrsprachige Klassen beim spielerischen Lernen. Alle Arbeitsblätter mit Camping gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "classroom": "Das Klassenzimmer mit Tafel, Stift, Schere und Heft ist der vertraute Ort, an dem Kinder jeden Tag lernen. Dieses Bildset zieht sich durch die verschiedenen Übungstypen: Die Kinder zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was nicht ins Klassenzimmer gehört, und sie erkennen erste Buchstaben. Der Themenwortschatz rund um das Klassenzimmer ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders nützlich. Alle Arbeitsblätter mit Klassenzimmer gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "clothing": "Kleidung wie Hose, Pullover, Jacke und Schuhe begleitet Kinder durch jeden Tag und liefert reichlich Anlass zum Benennen. Dieses Bildset trägt sie durch alle Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie finden heraus, was nicht zur Kleidung gehört, und sie erkennen erste Buchstaben. Der Themenwortschatz mit Kleidung ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll, weil jedes Kind ihn täglich nutzt. Alle Arbeitsblätter mit Kleidung gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "desserts_and_sweets": "Desserts und Süßigkeiten wie Eis, Kuchen, Bonbons und Schokolade bringen Kindern beim Lernen ein Lächeln ins Gesicht. Dieses Bildset begleitet sie durch die verschiedenen Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was nicht dazugehört, und sie erkennen erste Buchstaben. Der Themenwortschatz rund um Süßes ist in jeder Sprache hochfrequent und hilft mehrsprachigen Klassen, vertraute Begriffe zu festigen. Alle Arbeitsblätter mit Desserts und Süßigkeiten gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "easter": "Ostern bietet einen schönen Anlass zum Üben in der jeweiligen Jahreszeit, wenn bunte Eier, Hasen und Frühlingsblumen das Bild prägen. Dieses Bildset trägt die Kinder durch alle Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie finden heraus, was nicht zu Ostern gehört, und sie erkennen erste Buchstaben. Der jahreszeitliche Themenwortschatz ist in jeder Sprache hochfrequent und hilft mehrsprachigen Klassen, neue Begriffe im passenden Moment aufzunehmen. Alle Arbeitsblätter mit Ostern gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "fruits": "Früchte wie Apfel, Banane, Erdbeere und Birne gehören zu den ersten Wörtern, die Kinder im Alltag wiedererkennen. Dieses Bildset zieht sich durch die verschiedenen Übungstypen: Die Kinder zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was nicht zu den Früchten gehört, und sie erkennen erste Buchstaben. Der Themenwortschatz mit Früchten ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll. Alle Arbeitsblätter mit Früchten gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. So üben die Kinder Zahlen und Wörter mit demselben vertrauten Material. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "kitchen_tools": "Küchenwerkzeuge wie Löffel, Topf, Pfanne und Messer begegnen Kindern jeden Tag und eignen sich gut für Rollenspiele beim Kochen. Dieses Bildset begleitet sie durch alle Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie finden heraus, was nicht in die Küche gehört, und sie erkennen erste Buchstaben. Der Themenwortschatz rund um die Küche ist in jeder Sprache hochfrequent und unterstützt mehrsprachige Klassen beim Benennen vertrauter Gegenstände. Alle Arbeitsblätter mit Küchenwerkzeugen gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "occupations": "Berufe wie Bäcker, Ärztin, Feuerwehrmann und Lehrerin laden Kinder zum Rollenspiel ein und bringen echten Alltagswortschatz mit. Dieses Bildset zieht sich durch die verschiedenen Übungstypen: Die Kinder zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was nicht zu den Berufen gehört, und sie erkennen erste Buchstaben. Der Themenwortschatz rund um Berufe ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders nützlich. Alle Arbeitsblätter mit Berufen gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "summer": "Der Sommer bietet einen schönen Anlass zum Üben in der jeweiligen Jahreszeit, wenn Sonne, Eis, Strand und Schmetterlinge das Bild bestimmen. Dieses Bildset trägt die Kinder durch alle Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie finden heraus, was nicht zum Sommer gehört, und sie erkennen erste Buchstaben. Der jahreszeitliche Themenwortschatz ist in jeder Sprache hochfrequent und hilft mehrsprachigen Klassen, neue Begriffe im passenden Moment zu festigen. Alle Arbeitsblätter mit Sommer gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "things_that_fly": "Dinge die fliegen, vom Vogel über das Flugzeug bis zum Drachen und Schmetterling, faszinieren Kinder und regen zum Beobachten an. Dieses Bildset begleitet sie durch die verschiedenen Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was nicht fliegt, und sie erkennen erste Buchstaben. Der Themenwortschatz rund ums Fliegen ist in jeder Sprache hochfrequent und unterstützt mehrsprachige Klassen beim Wortschatzaufbau. Alle Arbeitsblätter zum Thema Dinge die fliegen gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "toys": "Spielzeug wie Ball, Puppe, Bauklotz und Auto gehört zur Welt der Kinder und sorgt für freudiges Wiedererkennen beim Lernen. Dieses Bildset zieht sich durch alle Übungstypen: Die Kinder zählen und addieren, sie sortieren und ordnen zu, sie finden heraus, was nicht zum Spielzeug gehört, und sie erkennen erste Buchstaben. Der Themenwortschatz rund um Spielzeug ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll. Alle Arbeitsblätter mit Spielzeug gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "vegetables": "Gemüse wie Karotte, Tomate, Gurke und Paprika begegnet Kindern beim Essen und Einkaufen und lädt zum Benennen ein. Dieses Bildset begleitet sie durch die verschiedenen Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was nicht zum Gemüse gehört, und sie erkennen erste Buchstaben. Der Themenwortschatz mit Gemüse ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders nützlich. Alle Arbeitsblätter mit Gemüse gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "vehicles": "Fahrzeuge wie Auto, Bus, Zug und Bagger gehören zu den ersten Bildern, die Kinder voller Begeisterung benennen. Dieses Bildset zieht sich durch alle Übungstypen: Die Kinder zählen und addieren, sie sortieren und ordnen zu, sie finden heraus, was nicht zu den Fahrzeugen gehört, und sie erkennen erste Buchstaben. Der Themenwortschatz mit Fahrzeugen ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll, weil jedes Kind ihn schnell aufgreift. Alle Arbeitsblätter mit Fahrzeugen gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "around_the_house": "Rund ums Haus begegnen Kindern alltägliche Dinge wie Tür, Lampe, Bett und Stuhl, die sie aus dem eigenen Zuhause kennen. Dieses Bildset begleitet sie durch die verschiedenen Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was nicht ins Haus gehört, und sie erkennen erste Buchstaben. Der Themenwortschatz rund ums Haus ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll. Alle Arbeitsblätter rund ums Haus gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "beach": "Der Strand mit Sand, Muscheln, Eimer und Sonnenschirm weckt bei Kindern Erinnerungen an Ausflüge und schöne Tage. Dieses Bildset zieht sich durch alle Übungstypen: Die Kinder zählen und addieren, sie sortieren und ordnen zu, sie finden heraus, was nicht an den Strand gehört, und sie erkennen erste Buchstaben. Der Themenwortschatz rund um den Strand ist in jeder Sprache hochfrequent und unterstützt mehrsprachige Klassen beim Wortschatzaufbau. Alle Arbeitsblätter mit Strand gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "forest_creatures": "Waldtiere wie Fuchs, Reh, Eichhörnchen und Igel führen Kinder in die heimische Natur und laden zum Entdecken ein. Dieses Bildset begleitet sie durch die verschiedenen Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was nicht in den Wald gehört, und sie erkennen erste Buchstaben. Der Themenwortschatz mit Waldtieren ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll. Alle Arbeitsblätter mit Waldtieren gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "hospital": "Das Krankenhaus mit Ärztin, Pflaster, Spritze und Krankenwagen liefert echten Alltagswortschatz und eignet sich gut für Rollenspiele. Dieses Bildset zieht sich durch die verschiedenen Übungstypen: Die Kinder zählen und addieren, sie sortieren und ordnen zu, sie finden heraus, was nicht ins Krankenhaus gehört, und sie erkennen erste Buchstaben. Der Themenwortschatz rund um das Krankenhaus ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders nützlich. Alle Arbeitsblätter mit Krankenhaus gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "pets": "Haustiere wie Hund, Katze, Hamster und Kaninchen gehören für viele Kinder zur Familie und sorgen für freudiges Wiedererkennen. Dieses Bildset begleitet sie durch alle Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was kein Haustier ist, und sie erkennen erste Buchstaben. Der Themenwortschatz mit Haustieren ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll. Alle Arbeitsblätter mit Haustieren gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "weather": "Das Wetter mit Sonne, Wolke, Regen und Schnee beobachten Kinder jeden Tag und lernen dabei, ihre Umwelt zu beschreiben. Dieses Bildset zieht sich durch die verschiedenen Übungstypen: Die Kinder zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was nicht zum Wetter gehört, und sie erkennen erste Buchstaben. Der Themenwortschatz rund um das Wetter ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders nützlich. Alle Arbeitsblätter mit Wetter gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "zoo_animals": "Zootiere wie Löwe, Elefant, Giraffe und Affe begeistern Kinder und holen den Besuch im Zoo ins Klassenzimmer. Dieses Bildset begleitet sie durch alle Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie finden heraus, welches Tier nicht in den Zoo gehört, und sie erkennen erste Buchstaben. Der Themenwortschatz mit Zootieren ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll. Alle Arbeitsblätter mit Zootieren gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "birds_2": "Vögel 2 ist eine zweite Sammlung von Vogel-Arbeitsblättern und bietet weitere Vögel zum Entdecken und Benennen. Auch dieses Bildset zieht sich durch die verschiedenen Übungstypen: Die Kinder zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was kein Vogel ist, und sie erkennen erste Buchstaben. Der Themenwortschatz rund um Vögel ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll. Alle weiteren Vogel-Arbeitsblätter gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "farm_animals": "Bauernhoftiere wie Kuh, Schwein, Huhn und Schaf gehören zu den vertrautesten Bildern und begeistern schon die jüngsten Kinder. Dieses Bildset zieht sich durch alle Übungstypen: Die Kinder zählen und addieren, sie sortieren und ordnen zu, sie finden heraus, welches Tier nicht auf den Bauernhof gehört, und sie erkennen erste Buchstaben. Der Themenwortschatz mit Bauernhoftieren ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll. Alle Arbeitsblätter mit Bauernhoftieren gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "furniture": "Möbel wie Tisch, Stuhl, Schrank und Sofa gehören zu jedem Zuhause und lassen sich von Kindern leicht wiedererkennen. Dieses Bildset begleitet sie durch die verschiedenen Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was kein Möbelstück ist, und sie erkennen erste Buchstaben. Der Themenwortschatz mit Möbeln ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll. Alle Arbeitsblätter mit Möbeln gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "music": "Musik mit Trommel, Gitarre, Geige und Flöte bringt Klang und Rhythmus ins Lernen und spricht Kinder unmittelbar an. Dieses Bildset zieht sich durch die verschiedenen Übungstypen: Die Kinder zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was kein Instrument ist, und sie erkennen erste Buchstaben. Der Themenwortschatz rund um Musik ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll. Alle Arbeitsblätter mit Musik gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "4th_of_july": "Der 4. Juli bietet einen schönen Anlass zum Üben in der jeweiligen Jahreszeit, wenn Flaggen, Feuerwerk und sommerliche Festmotive das Bild bestimmen. Dieses Bildset trägt die Kinder durch alle Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie finden heraus, was nicht zum Fest gehört, und sie erkennen erste Buchstaben. Der thematische Wortschatz ist in jeder Sprache hochfrequent und hilft mehrsprachigen Klassen, neue Begriffe im passenden Moment zu festigen. Alle Arbeitsblätter mit 4. Juli gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "breakfast": "Das Frühstück mit Brot, Ei, Milch und Marmelade begleitet Kinder in den Tag und liefert vertrauten Wortschatz. Dieses Bildset zieht sich durch die verschiedenen Übungstypen: Die Kinder zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was nicht zum Frühstück gehört, und sie erkennen erste Buchstaben. Der Themenwortschatz rund um das Frühstück ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders nützlich. Alle Arbeitsblätter mit Frühstück gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "flowers": "Blumen wie Tulpe, Rose, Sonnenblume und Gänseblümchen lassen Kinder die Natur beobachten und Farben benennen. Dieses Bildset begleitet sie durch die verschiedenen Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was keine Blume ist, und sie erkennen erste Buchstaben. Der Themenwortschatz mit Blumen ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll. Alle Arbeitsblätter mit Blumen gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "shapes": "Formen wie Kreis, Quadrat, Dreieck und Stern begegnen Kindern überall im Alltag und schärfen den Blick für Muster. Dieses Bildset zieht sich durch die verschiedenen Übungstypen: Die Kinder zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, welche Form nicht dazugehört, und sie erkennen erste Buchstaben. Der Themenwortschatz rund um Formen ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders nützlich. Alle Arbeitsblätter mit Formen gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "space": "Der Weltraum mit Sternen, Planeten, Rakete und Mond regt die Fantasie der Kinder an und lädt zum Staunen ein. Dieses Bildset begleitet sie durch die verschiedenen Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was nicht in den Weltraum gehört, und sie erkennen erste Buchstaben. Der Themenwortschatz rund um den Weltraum ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll. Alle Arbeitsblätter mit Weltraum gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "thanksgivinng": "Das Erntedankfest bietet einen schönen Anlass zum Üben in der jeweiligen Jahreszeit, wenn Kürbis, Mais, Truthahn und herbstliche Motive das Bild bestimmen. Dieses Bildset trägt die Kinder durch alle Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie finden heraus, was nicht zum Fest gehört, und sie erkennen erste Buchstaben. Der jahreszeitliche Themenwortschatz ist in jeder Sprache hochfrequent und hilft mehrsprachigen Klassen, neue Begriffe im passenden Moment zu festigen. Alle Arbeitsblätter mit Erntedankfest gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "tools": "Werkzeuge wie Hammer, Säge, Zange und Schraubenzieher begegnen Kindern in Werkstatt und Garten und laden zum Benennen ein. Dieses Bildset zieht sich durch die verschiedenen Übungstypen: Die Kinder zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was kein Werkzeug ist, und sie erkennen erste Buchstaben. Der Themenwortschatz rund um Werkzeuge ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders nützlich. Alle Arbeitsblätter mit Werkzeugen gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "christmas": "Weihnachten bietet einen schönen Anlass zum Üben in der jeweiligen Jahreszeit, wenn Baum, Geschenke, Stern und Schneemann das Bild prägen. Dieses Bildset trägt die Kinder durch alle Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie finden heraus, was nicht zu Weihnachten gehört, und sie erkennen erste Buchstaben. Der jahreszeitliche Themenwortschatz ist in jeder Sprache hochfrequent und hilft mehrsprachigen Klassen, neue Begriffe im passenden Moment zu festigen. Alle Arbeitsblätter mit Weihnachten gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "post_office": "Das Postamt mit Brief, Paket, Briefmarke und Briefkasten liefert echten Alltagswortschatz und eignet sich gut für Rollenspiele. Dieses Bildset zieht sich durch die verschiedenen Übungstypen: Die Kinder zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was nicht ins Postamt gehört, und sie erkennen erste Buchstaben. Der Themenwortschatz rund um das Postamt ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders nützlich. Alle Arbeitsblätter mit Postamt gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "winter": "Der Winter bietet einen schönen Anlass zum Üben in der jeweiligen Jahreszeit, wenn Schnee, Schlitten, Handschuhe und Schneeflocken das Bild bestimmen. Dieses Bildset trägt die Kinder durch alle Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie finden heraus, was nicht zum Winter gehört, und sie erkennen erste Buchstaben. Der jahreszeitliche Themenwortschatz ist in jeder Sprache hochfrequent und hilft mehrsprachigen Klassen, neue Begriffe im passenden Moment zu festigen. Alle Arbeitsblätter mit Winter gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "emotions": "Emotionen wie Freude, Wut, Angst und Traurigkeit beobachten Kinder bei sich und anderen und lernen, Gefühle zu benennen. Dieses Bildset zieht sich durch die verschiedenen Übungstypen: Die Kinder zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, welches Gesicht nicht dazugehört, und sie erkennen erste Buchstaben. Der Themenwortschatz rund um Gefühle ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll. Alle Arbeitsblätter mit Emotionen gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "tree": "Bäume mit Blättern, Ästen, Stamm und Früchten bringen Kindern die Natur nahe und laden zum Beobachten der Jahreszeiten ein. Dieses Bildset begleitet sie durch die verschiedenen Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was nicht zum Baum gehört, und sie erkennen erste Buchstaben. Der Themenwortschatz rund um Bäume ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll. Alle Arbeitsblätter mit Bäumen gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "insects_and_bugs": "Insekten und Käfer wie Marienkäfer, Biene, Ameise und Schmetterling laden Kinder zum genauen Hinsehen in der Natur ein. Dieses Bildset zieht sich durch die verschiedenen Übungstypen: Die Kinder zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was kein Insekt ist, und sie erkennen erste Buchstaben. Der Themenwortschatz zum Thema Insekten und Käfer ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll. Alle Arbeitsblätter zum Thema Insekten und Käfer gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "birds": "Vögel wie Spatz, Eule, Ente und Adler begeistern Kinder und lassen sich gut im Garten oder Park beobachten. Dieses Bildset begleitet sie durch die verschiedenen Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was kein Vogel ist, und sie erkennen erste Buchstaben. Der Themenwortschatz mit Vögeln ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll. Alle Arbeitsblätter mit Vögeln gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "colors": "Farben wie Rot, Blau, Gelb und Grün begegnen Kindern überall im Alltag und gehören zu den ersten Begriffen, die sie sicher benennen. Dieses Bildset zieht sich durch die verschiedenen Übungstypen: Die Kinder zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, welche Farbe nicht dazugehört, und sie erkennen erste Buchstaben. Der Themenwortschatz rund um Farben ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll. Alle Arbeitsblätter mit Farben gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "dinosaurs": "Dinosaurier wie Tyrannosaurus, Triceratops und Stegosaurus faszinieren Kinder und wecken die Lust am Entdecken längst vergangener Zeiten. Dieses Bildset begleitet sie durch die verschiedenen Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was kein Dinosaurier ist, und sie erkennen erste Buchstaben. Der Themenwortschatz rund um Dinosaurier ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll. Alle Arbeitsblätter mit Dinosauriern gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "reptiles_and_amphibians": "Reptilien und Amphibien wie Schlange, Frosch, Eidechse und Schildkröte führen Kinder an eine spannende Tiergruppe heran. Dieses Bildset zieht sich durch die verschiedenen Übungstypen: Die Kinder zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, welches Tier nicht dazugehört, und sie erkennen erste Buchstaben. Der Themenwortschatz zum Thema Reptilien und Amphibien ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll. Alle Arbeitsblätter zum Thema Reptilien und Amphibien gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "miscellaneous": "Verschiedenes versammelt ein gemischtes Bildset mit ganz unterschiedlichen Gegenständen aus dem Alltag der Kinder. Gerade diese Vielfalt zieht sich gut durch die verschiedenen Übungstypen: Die Kinder zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was nicht in eine Gruppe gehört, und sie erkennen erste Buchstaben. Der gemischte Themenwortschatz ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll, weil er viele vertraute Begriffe abdeckt. Alle Arbeitsblätter mit Verschiedenes gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit."
   },
   "workspace": {
     "metadata": {

@@ -1244,7 +1244,484 @@
   },
   "topicFaq": {
     "heading": "Ofte stilte spørsmål",
-    "overrides": {},
+    "overrides": {
+      "cryptogram": [
+        {
+          "q": "Hva øver kryptogram-arbeidsark på?",
+          "a": "Avkoding fra symbol til bokstav, staving og tålmodig problemløsning — korte, bildestøttede oppgaver for barnehage og småtrinn."
+        },
+        {
+          "q": "Er de gratis å bruke?",
+          "a": "Ja — gratis å skrive ut som PDF og å spille online, hvert ark med en fasit, uten innlogging eller betalingsmur."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "chart-count": [
+        {
+          "q": "Hva øver disse arbeidsarkene på?",
+          "a": "Telling sammen med å lese og fylle et enkelt stolpediagram — tidlig arbeid med data og grafer for barnehage og småtrinn."
+        },
+        {
+          "q": "Er de gratis å bruke?",
+          "a": "Ja — gratis å skrive ut som PDF og å spille online, hvert ark med en fasit, uten innlogging eller betalingsmur."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "pattern-worksheet": [
+        {
+          "q": "Hva øver mønster-arbeidsark på?",
+          "a": "Å kjenne igjen og forlenge AB- og ABC-mønstre — grunnlaget for tellesprang og multiplikasjon; for barnehage og småtrinn, bildebasert."
+        },
+        {
+          "q": "Er de gratis å bruke?",
+          "a": "Ja — gratis å skrive ut som PDF og å spille online, hvert ark med en fasit, uten innlogging eller betalingsmur."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "bingo": [
+        {
+          "q": "Hva kan bingo-arbeidsark brukes til?",
+          "a": "Repetisjon i hel klasse med bilder, bokstaver eller tall — gjenkjenning, lytting og turtaking for barnehage og småtrinn."
+        },
+        {
+          "q": "Er de gratis å bruke?",
+          "a": "Ja — gratis å skrive ut som PDF og å spille online, hvert ark med en fasit, uten innlogging eller betalingsmur."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "grid-match": [
+        {
+          "q": "Hva øver rutenettmatch-arbeidsark på?",
+          "a": "Å koble sammen, visuell hukommelse og systematisk arbeid i rutenett — dra brikker til riktig rute; for barnehage og småtrinn, bildebasert."
+        },
+        {
+          "q": "Er de gratis å bruke?",
+          "a": "Ja — gratis å skrive ut som PDF og å spille online, hvert ark med en fasit, uten innlogging eller betalingsmur."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "shadow-match": [
+        {
+          "q": "Hva øver Match Skygger-arbeidsark på?",
+          "a": "Visuell skjelning og formforståelse — koble hver ting til sin skygge; ideelt for de yngste i barnehage og småtrinn."
+        },
+        {
+          "q": "Er de gratis å bruke?",
+          "a": "Ja — gratis å skrive ut som PDF og å spille online, hvert ark med en fasit, uten innlogging eller betalingsmur."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "word-guess": [
+        {
+          "q": "Hva øver Gjett Ordet-arbeidsark på?",
+          "a": "Fonologisk bevissthet og staving — fyll de tomme feltene for å stave et bildevist ord ved å lydere; for barnehage og småtrinn."
+        },
+        {
+          "q": "Er de gratis å bruke?",
+          "a": "Ja — gratis å skrive ut som PDF og å spille online, hvert ark med en fasit, uten innlogging eller betalingsmur."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "word-scramble": [
+        {
+          "q": "Hva øver Bokstavspill-arbeidsark på?",
+          "a": "Staving og bokstavgjenkjenning — ordne bokstavene for å stave et bildevist ord; for barnehage og småtrinn."
+        },
+        {
+          "q": "Er de gratis å bruke?",
+          "a": "Ja — gratis å skrive ut som PDF og å spille online, hvert ark med en fasit, uten innlogging eller betalingsmur."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "crossword": [
+        {
+          "q": "Hvordan fungerer disse kryssord-arbeidsarkene for små barn?",
+          "a": "Puslespillene bruker bildehint i stedet for tekst: barnet navngir bildet og fyller bokstavene inn i rutenettet, med kryssende bokstaver som hjelper — ideelt for staving og ordforråd i barnehage og småtrinn."
+        },
+        {
+          "q": "Er de gratis?",
+          "a": "Ja — gratis å skrive ut som PDF og å spille online, med en fasit og uten innlogging."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "find-objects": [
+        {
+          "q": "Hvilken alder er Finn Objektene-arbeidsark for?",
+          "a": "Barnehage og småtrinn (3-8 år): en lete-jakt for visuell skjelning etter skjulte ting, bildebasert, uten krav om lesing."
+        },
+        {
+          "q": "Er de gratis å bruke?",
+          "a": "Ja — gratis å skrive ut som PDF og å spille online, hvert ark med en fasit, uten innlogging eller betalingsmur."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "missing-pieces": [
+        {
+          "q": "Hva øver Manglende Brikker-arbeidsark på?",
+          "a": "Visuell utfylling og oppmerksomhet på form og retning — velg og plasser brikken som passer hullet; for barnehage og småtrinn, bildebasert."
+        },
+        {
+          "q": "Er de gratis å bruke?",
+          "a": "Ja — gratis å skrive ut som PDF og å spille online, hvert ark med en fasit, uten innlogging eller betalingsmur."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "addition": [
+        {
+          "q": "Hvilket nivå er disse addisjon-arbeidsarkene for?",
+          "a": "Barnehage og småtrinn (rundt 4-8 år): bildestøttede regnestykker for nybegynnere, videre til ettsifret og små tosifrede addisjon for sikre tellere."
+        },
+        {
+          "q": "Er addisjon-arbeidsarkene gratis?",
+          "a": "Ja — gratis å skrive ut som PDF og å spille online, hvert ark med en fasit, uten innlogging."
+        },
+        {
+          "q": "Kan barna øve på addisjon online?",
+          "a": "Ja; hvert ark har en interaktiv versjon med umiddelbar tilbakemelding, i tillegg til den utskrivbare PDF-en — på alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "sudoku": [
+        {
+          "q": "Hvilken alder er Bildesudoku for?",
+          "a": "Barnehage og småtrinn (rundt 4-8 år): et 4x4-rutenett med bilder som lærer samme logikk som tallsudoku, uten krav om lesing."
+        },
+        {
+          "q": "Er disse Bildesudoku-arbeidsarkene gratis?",
+          "a": "Ja — gratis utskrivbare PDF-er og en interaktiv versjon, hvert ark med en fasit, uten innlogging."
+        },
+        {
+          "q": "Må barnet lese for å løse dem?",
+          "a": "Nei — de bruker bilder, så de fungerer på alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "picture-path": [
+        {
+          "q": "Hva øver Bildevei-arbeidsark på?",
+          "a": "Romforståelse og retning — å spore en sti gjennom et rutenett til målet, for barnehage og småtrinn, helt bildebasert."
+        },
+        {
+          "q": "Er disse arbeidsarkene gratis?",
+          "a": "Ja — hvert ark her er gratis å skrive ut som PDF og å spille online, med en fasit og uten innlogging."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "subtraction": [
+        {
+          "q": "Hva dekker disse subtraksjon-arbeidsarkene?",
+          "a": "Bildestøttet trekke-fra for nybegynnere, videre til ettsifret og små tosifrede subtraksjon, for barnehage og småtrinn (4-8 år)."
+        },
+        {
+          "q": "Er de gratis å bruke?",
+          "a": "Ja — gratis utskrivbare PDF-er og interaktive versjoner, hvert ark med en fasit, uten innlogging eller betalingsmur."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på, med bildestøtte der en flerspråklig elev har nytte av det."
+        }
+      ],
+      "code-addition": [
+        {
+          "q": "Hva øver Kodeaddisjon på?",
+          "a": "Ettsifret addisjon pluss en bokstavkode-avsløring — svar peker til bokstaver som staver et ord; barnehage til 2. trinn."
+        },
+        {
+          "q": "Er de gratis å bruke?",
+          "a": "Ja — gratis å skrive ut som PDF og å spille online, hvert ark med en fasit, uten innlogging eller betalingsmur."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "more-less": [
+        {
+          "q": "Hvilken alder er Mer Eller Mindre-arbeidsark for?",
+          "a": "Barnehage, både 3-5 år og 5-7 år: bildebasert sammenligning av mengder, uten krav om lesing."
+        },
+        {
+          "q": "Er de gratis?",
+          "a": "Ja — gratis utskrivbare PDF-er og interaktive versjoner med en fasit, uten innlogging."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "math-puzzle": [
+        {
+          "q": "Hva bygger Mattepuslespill-arbeidsark?",
+          "a": "Tallforståelse og prøve-sjekke-justere-tenkning — dra brikker for å fullføre et tallpuslespill; for barnehage og småtrinn, fra bilde til tall alene."
+        },
+        {
+          "q": "Er de gratis å bruke?",
+          "a": "Ja — gratis å skrive ut som PDF og å spille online, hvert ark med en fasit, uten innlogging eller betalingsmur."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "math-worksheet": [
+        {
+          "q": "Hvilken slags matematikk dekker disse arbeidsarkene?",
+          "a": "Regnestykker, likninger med manglende tall, og blandede summer og differanser for barnehage og småtrinn (4-8 år), med bildestøtte som leder inn i arbeid med tall alene."
+        },
+        {
+          "q": "Er disse Matematikk-arbeidsarkene gratis?",
+          "a": "Ja — gratis å skrive ut som PDF og å spille online, hvert ark med en fasit, uten innlogging."
+        },
+        {
+          "q": "Finnes de på andre språk?",
+          "a": "Ja, på alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "big-small": [
+        {
+          "q": "Hvem er Stor Eller Liten-arbeidsark for?",
+          "a": "Barnehage (3-6 år): bildebasert sammenligning og rekkefølge etter størrelse, uten krav om lesing."
+        },
+        {
+          "q": "Er disse arbeidsarkene gratis?",
+          "a": "Ja — gratis å skrive ut som PDF og å spille online, med en fasit og uten innlogging."
+        },
+        {
+          "q": "Hvilke språk?",
+          "a": "Alle de 11 vi publiserer på."
+        }
+      ],
+      "pattern-train": [
+        {
+          "q": "Hva øver Mønstertoget-arbeidsark på?",
+          "a": "Å kjenne igjen og forlenge gjentakende mønstre — fyll vognene for å fortsette rekken; grunnleggende matematikk for barnehage og småtrinn."
+        },
+        {
+          "q": "Er de gratis å bruke?",
+          "a": "Ja — gratis å skrive ut som PDF og å spille online, hvert ark med en fasit, uten innlogging eller betalingsmur."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "matching": [
+        {
+          "q": "Hva øver matching-arbeidsark på?",
+          "a": "Å koble sammen og en-til-en-samsvar — forbind hver ting med sin partner med en strek; for barnehage og småtrinn, bildestøttet."
+        },
+        {
+          "q": "Er de gratis å bruke?",
+          "a": "Ja — gratis å skrive ut som PDF og å spille online, hvert ark med en fasit, uten innlogging eller betalingsmur."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "picture-sort": [
+        {
+          "q": "Hva øver Sorter Bilder-arbeidsark på?",
+          "a": "Klassifisering — sorter bilder i merkede kategorier og forklar hvorfor; for barnehage og småtrinn, bildebasert."
+        },
+        {
+          "q": "Er de gratis å bruke?",
+          "a": "Ja — gratis å skrive ut som PDF og å spille online, hvert ark med en fasit, uten innlogging eller betalingsmur."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "alphabet-train": [
+        {
+          "q": "Hvilken alder er Alfabettoget for?",
+          "a": "Barnehage (3-6 år), som lærer bokstavnavn og A-til-Å-rekkefølge — uten krav om lesing."
+        },
+        {
+          "q": "Er de gratis å bruke?",
+          "a": "Ja — gratis å skrive ut som PDF og å spille online, hvert ark med en fasit, uten innlogging eller betalingsmur."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "prepositions": [
+        {
+          "q": "Hva øver Preposisjoner-arbeidsark på?",
+          "a": "Posisjonsord — i, på, under, ved siden av — ved å velge bildet som passer; flott for språkinnlærere, for barnehage og småtrinn."
+        },
+        {
+          "q": "Er de gratis å bruke?",
+          "a": "Ja — gratis å skrive ut som PDF og å spille online, hvert ark med en fasit, uten innlogging eller betalingsmur."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "wordsearch": [
+        {
+          "q": "Hva øver Ordleting-arbeidsark på?",
+          "a": "Bokstavgjenkjenning, venstre-til-høyre-skanning og tematisk ordforråd for lesere i barnehage og småtrinn — korte, bildestøttede ordlister."
+        },
+        {
+          "q": "Er de gratis å skrive ut og spille?",
+          "a": "Ja — gratis utskrivbare PDF-er og en interaktiv versjon, hvert ark med en fasit, uten innlogging."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "find-and-count": [
+        {
+          "q": "Hva bygger Finn Og Tell-arbeidsark?",
+          "a": "Visuell skanning pluss en-til-en-telling — finn målting i et bilde og tell dem; for barnehage og småtrinn, uten krav om lesing."
+        },
+        {
+          "q": "Er de gratis å bruke?",
+          "a": "Ja — gratis å skrive ut som PDF og å spille online, hvert ark med en fasit, uten innlogging eller betalingsmur."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "treasure-hunt": [
+        {
+          "q": "Hva øver Skattejakt-arbeidsark på?",
+          "a": "Å følge anvisninger og romforståelse — spor en sti etter retningsledetråder over et rutenett; for barnehage og småtrinn (4-8 år)."
+        },
+        {
+          "q": "Er de gratis å bruke?",
+          "a": "Ja — gratis å skrive ut som PDF og å spille online, hvert ark med en fasit, uten innlogging eller betalingsmur."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "odd-one-out": [
+        {
+          "q": "Hva øver Hvilken Passer Ikke-arbeidsark på?",
+          "a": "Klassifisering og resonnement — finn bildet som ikke hører hjemme og si hvorfor; for barnehage og småtrinn, bildebasert."
+        },
+        {
+          "q": "Er de gratis å bruke?",
+          "a": "Ja — gratis å skrive ut som PDF og å spille online, hvert ark med en fasit, uten innlogging eller betalingsmur."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på."
+        }
+      ],
+      "preschool": [
+        {
+          "q": "Hvilken alder er disse arbeidsarkene for?",
+          "a": "Arkene er laget for tre- til femåringer, med bildebaserte oppgaver som ikke krever lesing for å begynne — lekbasert utforsking, ikke formell skole."
+        },
+        {
+          "q": "Er arbeidsarkene gratis?",
+          "a": "Ja — hvert ark er gratis å skrive ut som PDF og å spille online, med en fasit og uten innlogging."
+        },
+        {
+          "q": "Kan jeg bruke dem i en tospråklig barnehage?",
+          "a": "Ja. Akkurat de samme bildeledede aktivitetene finnes på de 11 språkene vi publiserer på, slik at hvert barn kan arbeide på språket det trenger."
+        }
+      ],
+      "kindergarten": [
+        {
+          "q": "Hva dekker disse arbeidsarkene?",
+          "a": "Sikrere telling 10-20, gjenkjenning av tallsymboler, fonologisk bevissthet (rim, stavelser, første lyd) og skoleforberedende lek med sortering og mønstre — alt bildestøttet og lekbasert."
+        },
+        {
+          "q": "Er de gratis å skrive ut og spille?",
+          "a": "Ja — gratis utskrivbare PDF-er og interaktive versjoner, hvert ark med en fasit, uten innlogging eller betalingsmur."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på, slik at tospråklige barnehager kan gi den samme aktiviteten på hvert barns språk."
+        }
+      ],
+      "grade-1": [
+        {
+          "q": "Hva dekker 1. trinn her?",
+          "a": "Begynnende addisjon og subtraksjon innenfor 20 med konkreter og bilder, bokstav-lyd, lydering av korte ord, og tidlig logikk — med bildestøtte som leder inn i formater med tall og ord alene."
+        },
+        {
+          "q": "Er disse arbeidsarkene for 1. trinn gratis?",
+          "a": "Ja — gratis å skrive ut som PDF og å spille online, hvert ark med en fasit, uten innlogging."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 vi publiserer på, slik at internasjonale og fordypningsklasserom på 1. trinn deler ett samlet bibliotek."
+        }
+      ],
+      "grade-2": [
+        {
+          "q": "Hvilke ferdigheter bygger disse arbeidsarkene for 2. trinn?",
+          "a": "Tosifret addisjon og subtraksjon 20-100, tiere og enere, begynnende multiplikasjon, lengre lesing og ordarbeid, kryssord, og logikk basert på planlegging."
+        },
+        {
+          "q": "Er de gratis?",
+          "a": "Ja — gratis utskrivbare PDF-er og interaktive versjoner, hvert ark med en fasit og uten innlogging."
+        },
+        {
+          "q": "Er de gode for klasser med flere språk?",
+          "a": "Ja; de samme oppgavene finnes på de 11 språkene vi publiserer på, med bildehint der de hjelper."
+        }
+      ],
+      "animals": [
+        {
+          "q": "Hva finnes på siden med arbeidsark med dyr?",
+          "a": "Arbeidsark med dyr på tvers av telling, addisjon, sortering, koble sammen, finne den som ikke passer, og tidlig staving — ett kjent bildesett, mange ferdigheter, for barnehage og småtrinn."
+        },
+        {
+          "q": "Er disse arbeidsarkene gratis?",
+          "a": "Ja — hvert ark her er gratis å skrive ut som PDF og å spille online, med en fasit og uten innlogging."
+        },
+        {
+          "q": "Hvilke språk finnes de på?",
+          "a": "På alle de 11 språkene vi publiserer på."
+        }
+      ]
+    },
     "fallback": {
       "single": {
         "q1": "Hvilke arbeidsark finnes på denne {topic}-siden?",
@@ -1426,31 +1903,31 @@
     "zoo_animals_bw": "Dyrehagedyr i strektegning til fargelegging. Tonersparende klassesett — bruk dem etter dyrehagebesøk eller i savanne-tema på trinnet."
   },
   "topicProse": {
-    "animals": "Arbeidsark med dyretema gir lærere i tidlig barndom et ordforrådsfundament som bærer gjennom hele K-3-læreplanen. Telle kuer, sortere fugler etter hva de spiser, kjenne igjen begynnelsesbokstaven i hvert gårdsdyrs navn — det samme settet med bilder støtter tallforståelse, klassifisering og tidlig lese- og skriveferdighet uten å be barna bytte kontekst. Selve ordforrådet er høyfrekvent på hvert av de elleve språkene vi publiserer på, noe som gjør disse arbeidsarkene særlig nyttige når en klasse har barn med ulike språknivåer.",
-    "addition": "Arbeidsark for addisjon møter barna i det øyeblikket der det å legge sammen slutter å være et telletriks og begynner å være et faktum de kan huske. Arbeidsarkene her gir den henkalls-øvelsen over ensifrede og små tosifrede summer, med bildestøttede oppgaver for de yngre og kun-tall-formater når operasjonen er befestet. Kombiner interaktive og utskrivbare formater: de interaktive versjonene gir umiddelbar tilbakemelding, de utskrivbare PDF-ene fungerer godt for pararbeid der ett barn skriver og det andre kontrollerer.",
-    "subtraction": "Subtraksjon er operasjonen som bringer barnas intuisjoner om hva som blir igjen og hva som går bort til overflaten. Disse arbeidsarkene bygger den intuisjonen med bildebaserte ta-bort-oppgaver for de yngste, og går så videre til abstrakt subtraksjon når ta-bort-gesten ikke lenger er nødvendig. Formatet passer godt med manipulativer i klasserommet — barna kan iscenesette første rad med tellerikker og deretter fullføre resten på siden.",
-    "alphabet-train": "Alfabettog-arbeidsarkene bygger bokstavgjenkjenning gjennom posisjonell ordning. Hver vogn på toget bærer én bokstav, og barna fyller enten ut de manglende vognene eller ordner vognene i alfabetisk rekkefølge. Formatet er overbærende — et barn som kan halve alfabetet kan likevel fylle ut radene med kjente bokstaver og plukke opp de ukjente fra konteksten. Nyttig for bokstav-lyd-arbeid, til å forsterke alfabetsangen og til tidlig lese- og skrivediagnostikk.",
-    "wordsearch": "Ordleting-arbeidsark bygger utholdende leseoppmerksomhet: øyet skanner et rutenett av bokstaver og hjernen sammenholder hver med et målord holdt i arbeidsminnet. For K-3-lesere er målene korte og gruppert rundt et tema, noe som betyr at aktiviteten styrker ordforrådet samtidig med avkoding. Disse arbeidsarkene fungerer godt som rolige oppgaver, overgangsstunder eller pararbeid der ett barn leser målet høyt mens det andre leter.",
-    "matching": "Para-sammen-arbeidsark gir barn øvelse i den kognitive bevegelsen som ligger til grunn for det meste av tenkningen i tidlig barndom: å legge merke til at to ting hører sammen fordi de deler en egenskap. Disse sidene parer bilder med deres begynnelsesbokstaver, ord med deres betydninger, eller mengder med deres sifre. Den visuelle layouten — elementer i to kolonner forbundet med linjer trukket direkte på arbeidsarket — holder den kognitive belastningen på relasjonen i stedet for på prosedyren.",
-    "sudoku": "Bildesudoku-arbeidsark gir små barn den logiske erfaringen av full sudoku på et 4×4-rutenett med kjente bilder i stedet for sifre. Hver rad, kolonne og kvadrant må inneholde hvert av de fire bildene én gang, og barna utleder de manglende ved utelukkelse. Puslespillet er ekte utfordrende for K-3-aldersspennet uten å kreve sifferlesing, noe som gjør det tilgjengelig for barn på hvilket som helst lesenivå.",
-    "find-and-count": "Finn-og-tell-arbeidsark ber barna skanne en travel scene, lokalisere hver forekomst av et målobjekt og skrive antallet. Aktiviteten øver tre ferdigheter samtidig: visuell diskriminering, en-til-en-tilsvarighet og sifferskriving. For lærere i tidlig barndom er finn-og-tell et nyttig diagnostisk verktøy — et barn som teller seks men skriver fire viser deg noe konkret om hvor gapet er.",
-    "prepositions": "Preposisjons-arbeidsark knytter romlig ordforråd til konkrete bilder: katten ligger under stolen, ballen ligger mellom boksene, fuglen sitter på greinen. Bildene gir barna en referanse for ord som ellers ville være abstrakte, og flervalgsformatet holder den kognitive belastningen på relasjonen i stedet for på skrivingen. Nyttig for elever som lærer norsk som andrespråk, for tospråklige klasserom og for enhver kontekst der romlig ordforråd trenger eksplisitt undervisning.",
-    "picture-sort": "Bildesorterings-arbeidsark øver klassifiseringsbevegelsen som ligger til grunn for tidlig naturfag og tidlig lesing. Barna ser på et sett med bilder og grupperer dem etter kategori — etter begynnelsesbokstav, etter hva de spiser, etter hvor de bor, etter farge. Tokurv-formatet holder valget binært, noe som er det riktige kognitive utgangspunktet for å sortere i K-3.",
-    "big-small": "Stor-liten-arbeidsark øver relativ størrelsessammenligning, den grunnleggende ferdigheten som ligger under måling og ordning. Barna identifiserer den største eller minste i et sett, eller ordner en serie gjenstander etter størrelse. Bildene er bevisst overdrevne så sammenligningen er entydig — når barna kan lese billedhintet sikkert, overføres samme ferdighet til mindre åpenbare sammenligninger i livet og i tallarbeidet.",
-    "more-less": "Mer-mindre-arbeidsark er forløperne til formell addisjon og subtraksjon: barna sammenligner to mengder og avgjør hvilken som har mer. Aktiviteten er sterkt billedstøttet fordi mange K-3-barn kan løse den før de pålitelig kan lese ordene «mer» og «mindre». Nyttig som kontroll av tallforståelse og som stillas for tidlig aritmetikk.",
-    "math-puzzle": "Mattepusle-arbeidsark pakker den aritmetiske øvelsen inn som noe å regne ut i stedet for noe å drille. Hvert puslespill krever at barnet kombinerer tallfakta med logisk slutning — hvilke to tall danner denne summen, hvilken sekvens fullfører dette mønsteret, hvilken operasjon gjør denne ligningen sann. Formatet holder matematikken interessant når grunnfakta er på plass.",
-    "math-worksheet": "Mattearksider gir barna øvelse med de operasjonene de jobber med nå, i det formatet lærere vet fungerer for å konsolidere ferdigheter. Hver side retter seg mot én eller to operasjoner og gir nok oppgaver til vedvarende øvelse uten å bli overveldende. Bruk dem som lekser, morgenarbeid eller selvstendig øvelse under småhjelps-undervisning.",
-    "missing-pieces": "Manglende-biter-arbeidsark øver visuell komplettering: barna ser på et bilde der en del er fjernet og velger biten som fullfører det fra en liten palett. Aktiviteten øver samtidig romlig tenkning, oppmerksomhet på detaljer og formgjenkjenning. Spesielt nyttig som rolig selvstendig oppgave i barnehageklasse- og 1. trinns-området.",
-    "odd-one-out": "Hvilken-passer-ikke-arbeidsark øver diskrimineringsferdigheten som ligger under klassifisering: barna ser på en liten gruppe bilder og identifiserer den som ikke hører hjemme. Kriteriet varierer — etter kategori, etter farge, etter begynnelsesbokstav — og bildene er valgt så svaret er entydig når kriteriet er navngitt. Et nyttig diagnostisk verktøy for tenkning i tidlig barndom.",
-    "shadow-match": "Skyggepar-arbeidsark parer hvert bilde med dets silhuett. Aktiviteten øver formgjenkjenning og visuell diskriminering på det nivået der kontur og detalj må behandles separat, noe som er en av grunnferdighetene for tidlig lesing. Barn som parer skygger med sikkerhet håndterer ofte også gjenkjenning av bokstavformer med mindre anstrengelse.",
-    "code-addition": "Kode-addisjons-arbeidsark parer en addisjonsoppgave med en bokstav, slik at svaret på summen avkoder et ord eller en melding. Formatet gir den aritmetiske øvelsen en lese- og skriveramme: barna løser addisjon ikke som mål i seg selv, men som middel til meldingen. Nyttig for barn midt i barnehage og 1. trinn som har grunnfakta men trenger at øvelsen føles motiverende.",
-    "pattern-train": "Mønstertog-arbeidsark gir barna øvelse i å utvide og fullføre visuelle mønstre. Hvert tog bærer en sekvens og barnet fyller ut de manglende vognene ved å følge mønsterlogikken — vekslende farger, gjentakende former, voksende størrelser. Mønstergjenkjenning er en grunnleggende ferdighet som ligger under både tidlig matematikk og tidlig lesing, og togformatet holder den visuelle layouten enkel.",
-    "picture-path": "Bildevei-arbeidsark øver romlig tenkning og rutefinning: barna trekker en vei gjennom et rutenett fra et startbilde til et sluttbilde, noen ganger rundt vegger eller forbi distraktorer. Aktiviteten bygger de samme kognitive bevegelsene som ligger under labyrintløsning, planlegging og tidlig geometri. Barna utvikler tålmodigheten til å vurdere ruter før de setter blyanten på papiret.",
-    "treasure-hunt": "Skattejakt-arbeidsark gir barna en sekvens av retningsspor — to ruter mot nord, én mot øst, tre mot sør — og ber dem spore ruten som sporene beskriver. Aktiviteten bygger romlig tenkning, arbeidsminne og flytende retningsordforråd samtidig. Formatet fungerer særlig godt for barn på 1. og 2. trinn som er klare for instruksjoner i flere trinn.",
-    "preschool": "Barnehage-arbeidsark (3-5 år) møter barna i det utviklingsøyeblikket der blyantgrepet blir pålitelig og hjernen er klar for målrettet før-akademisk arbeid. Aktivitetene her holder den kognitive belastningen lav og den visuelle støtten høy — hver oppfordring er illustrert, hvert svar er entydig, hver side kan fullføres på noen få konsentrerte minutter. Bruk dem til de morgenstundene der barna er klare til å sette seg ned og arbeide, eller som milde lekser som familier kan støtte selv uten akademisk bakgrunn.",
-    "kindergarten": "Barnehage-arbeidsark (5-7 år) er avstemt mot året da før-akademisk nysgjerrighet krystalliserer i akademisk beredskap. Barn på dette nivået kan holde en blyant pålitelig, gjenkjenne de første bokstavene i navnet sitt, telle forbi ti og følge totrins-instruksjoner på en side. Aktivitetene her øver disse ferdighetene innen matematikk, lese- og skriveferdighet, logikk og romlig tenkning, i formater korte nok for et barns oppmerksomhetsspenn i denne alderen og innholdsrike nok til å føles som ekte arbeid.",
-    "grade-1": "Arbeidsark for 1. trinn møter øyeblikket der barna konsoliderer fundamentene lagt i barnehagen til flytende selvstendig øvelse. De kan lese korte instruksjoner, skrive svarene sine og selvkorrigere enkle feil uten voksenstøtte. Aktivitetene her spenner over 1. trinns standardlæreplan — addisjon og subtraksjon innenfor tjue, gjenkjenning av høyfrekvente ord, enkel sekvensering, grunnleggende romlig logikk — og hver side er utformet til å føles fullførbar i en konsentrert kvarters-bolk.",
-    "grade-2": "Arbeidsark for 2. trinn møter barn som nå leser selvstendig, skriver i setninger og er klare for problemløsning i flere trinn. Aktivitetene her introduserer de lengre kognitive sekvensene — flersifret addisjon, lengre ordleting, mer komplekse puslespill — som barn på 2. trinn kan holde ut i. Par dem med klassesamtale om strategi, da den kognitive verdien på dette nivået i økende grad ligger i tilnærmingen like mye som i svaret.",
+    "animals": "Arbeidsark med dyr er det mest nyttige temaet i et klasserom for de minste, fordi ordene går igjen overalt. Den samme vennlige gjengen — katter, kuer, fugler, fisk — dukker opp på tvers av telling og addisjon, sortering og koble sammen, finne den som ikke passer, og staving av første bokstav, så barna øver på en ny ferdighet med bilder de allerede kjenner og er glad i, i stedet for å tolke en fersk sammenheng hver gang. Dyrenavn er også høyfrekvente i hvert språk, noe som gjør disse arkene særlig nyttige når en klasse har barn på ulike språknivåer. Denne siden samler alle arbeidsark med dyr på tvers av oppgavetypene. Hvert ark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av og en fasit, og hele settet er tilgjengelig på de 11 språkene vi publiserer på.",
+    "addition": "Addisjon-arbeidsark tar barna imot akkurat når det å legge sammen slutter å være et knep med telling og blir et tall de husker. Arkene følger den veien: bildestøttede regnestykker for de yngste, der barnet teller to grupper og slår dem sammen, videre til regnestykker med ettsifrede tall, og til slutt små oppgaver med tosifrede tall for dem som er klare. Et fast oppsett lar tenkingen bli på matematikken i stedet for på å finne ut hva som skal gjøres. Hvert addisjon-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av — den interaktive sjekker hvert svar og jubler for et rent førsteforsøk, den utskrivbare er klar til stasjonsarbeid eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på, slik at tospråklige klasserom kan gi hvert barn øving i addisjon på det språket det forstår best.",
+    "subtraction": "Subtraksjon-arbeidsark hjelper barna med å se det å trekke fra som noe de kan se for seg før det blir noe de bare kan. Arkene her starter med bildeoppgaver — kryss ut det som forsvinner, tell det som er igjen — og går videre til regnestykker med ettsifrede tall og små tosifrede differanser etter hvert som barnet blir sikrere. Fordi oppsettet holdes likt, går oppmerksomheten til regneoperasjonen i stedet for til nye instruksjoner hver gang. Hvert subtraksjon-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive markerer svar med en gang og feirer et rent førsteforsøk, mens den utskrivbare passer til veiledet øving, pararbeid eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på, slik at fordypnings- og internasjonale klasserom kan gi hvert barn øving i subtraksjon på det språket det trenger.",
+    "alphabet-train": "Alfabettoget-arbeidsark gjør det å lære ABC-en til noe et barn kan bevege med hendene. Bokstavkort kjører langs toget, og oppgaven er å dra eller skrive hvert kort inn i riktig vogn slik at alfabetet løper i rekkefølge — noe som bygger bokstavgjenkjenning, formen på rekken og venstre-til-høyre-vanen lesing hviler på. Fordi kortene er store og bildeklare, kan et barn som akkurat møter disse bokstavene, eller møter dem på et nytt språk, delta med en gang. Hvert Alfabettoget-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive klikker kort på plass og jubler for en ferdig rekke, den utskrivbare passer til stasjonsarbeid eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på.",
+    "wordsearch": "Ordleting-arbeidsark gjør tidlig lesing til en jakt barna faktisk vil fullføre. Hvert puslespill skjuler et lite sett med tematiske ord i et rutenett av bokstaver; barnet skanner, får øye på, og drar over hvert ord, og matcher det det ser mot bildehintene ved siden av rutenettet. Den skanningen er ekte øving — bokstavgjenkjenning, venstre-til-høyre-sporing og det å feste nytt ordforråd — pakket inn i et spill. Ordene er korte og temagruppert slik at utfordringen holder seg riktig for barnehage og småtrinn, og bilder støtter lesere som fortsatt lærer klasseromsspråket. Hvert Ordleting-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive lar barna velge ord rett på skjermen, den utskrivbare er klar til stasjonsarbeid eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på, slik at hvert klasserom kan bygge ordforråd på språket barna lærer.",
+    "matching": "Matching-arbeidsark bygger en av de mest nyttige tidlige ferdighetene — å se hvordan to ting hører sammen. Barnet tegner en strek fra hver ting på den ene siden til partneren på den andre: et bilde til ordet sitt, et tall til en mengde, en ting til der den hører hjemme. Det er tydelig, fokusert øving i å koble sammen og en-til-en-samsvar, og det fungerer for barnehage og småtrinn med bildestøtte hele veien. Hvert matching-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive tegner streken når barnet trykker to ganger og markerer hvert par, den utskrivbare passer til stasjonsarbeid eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på.",
+    "sudoku": "Bildesudoku-arbeidsark bringer ekte logikk til barna lenge før de kan lese et regelhefte. På et fire-ganger-fire-rutenett plasserer barnet vennlige bilder slik at hver rad, hver kolonne og hver lille boks rommer ett av hvert bilde — samme slutning som voksen sudoku ber om, skalert til små hender og bygd av bilder i stedet for tall. Det er tålmodig, tilfredsstillende resonnement som bygger oppmerksomhet og eliminasjonstenkning, og siden det bygger på bilder fungerer det for hvert barn uansett lesenivå eller hjemmespråk. Hvert Bildesudoku-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive lar barna dra bilder på plass og sjekker det ferdige rutenettet, mens den utskrivbare passer til stille arbeid, stasjonsarbeid eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på.",
+    "find-and-count": "Finn Og Tell-arbeidsark forener skarpt blikk med nøye telling. Barnet leter i et travelt bilde etter en bestemt ting, finner hver enkelt, og noterer hvor mange — og øver på visuell skanning, en-til-en-telling og tålmodigheten til å sjekke hele bildet. Bildene er vennlige og målene tydelige, så det fungerer på tvers av barnehage og småtrinn og krever ingen lesing for å begynne. Hvert Finn Og Tell-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive markerer hvert funn og teller underveis, den utskrivbare passer til et rolig bord eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på.",
+    "prepositions": "Preposisjoner-arbeidsark lærer barna de små, men viktige ordene som beskriver hvor ting er — i, på, under, ved siden av, bak. Barnet ser på bildene og velger det som passer posisjonsordet, og bygger det romlige ordforrådet hverdagslige instruksjoner og tidlig lesing hviler på. Fordi svaret er et bildevalg, fungerer det særlig godt for barn som lærer klasseromsspråket. Tilpasset barnehage og småtrinn. Hvert Preposisjoner-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive markerer det valgte bildet og bekrefter svaret, den utskrivbare passer til stasjonsarbeid eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på.",
+    "picture-sort": "Sorter Bilder-arbeidsark gir barna øving i å klassifisere — tenkningen bak så mye tidlig naturfag og matematikk. Barnet sorterer et sett med bilder i merkede grupper: levende og ikke-levende, ting som hører til på kjøkkenet, dyr som flyr. Å avgjøre hvor hvert bilde hører hjemme bygger kategorier, egenskaper og ordforrådet til å forklare et valg. Bildebasert og tilpasset barnehage og småtrinn, med en egendefinerte-ord-mulighet for lærere. Hvert Sorter Bilder-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive tar imot bilder i kurver og sjekker sorteringen, den utskrivbare passer til stasjonsarbeid eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på.",
+    "big-small": "Stor Eller Liten-arbeidsark gir de yngste øving med størrelse — å finne den største, finne den minste, og sette noen få bilder i rekkefølge fra stort til lite. Oppgavene bruker tydelige, vennlige bilder og ett enkelt trykk eller merke, så en tre- eller fireåring kan lykkes uten å lese et eneste ord. Å sammenligne etter størrelse er tidlig måletenkning og gir ordforrådet barna trenger for å beskrive og sortere verden rundt seg. Hvert Stor Eller Liten-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive svarer umiddelbart og varmt, mens den utskrivbare er klar til et rolig bord, samlingsstund eller et ark å ta med hjem, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på, slik at tospråklige barnehager kan gi hvert barn den samme bildeoppgaven på sitt eget språk.",
+    "more-less": "Mer Eller Mindre-arbeidsark bygger en av de aller tidligste tallideene: hvilken gruppe har flere, hvilken har færre, og når to grupper er like. På disse arkene ser barnet på to sett med vennlige bilder og velger svaret — ingen lesing eller skriving trengs for å begynne — slik at selve sammenligningen er hele oppgaven. Det er grunnlaget for telling med mening, for større-enn-ideen senere, og for sammenligningsspråket barna bruker gjennom hele skoledagen. Hvert Mer Eller Mindre-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive gir umiddelbar, mild tilbakemelding, den utskrivbare passer til samlingsstund, stasjonsarbeid eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på, slik at hvert barn kan sammenligne og avgjøre på språket det forstår best.",
+    "math-puzzle": "Mattepuslespill-arbeidsark gjør tallarbeid til noe som skal løses. Barnet drar eller skriver brikker på plass for å fullføre et tallpuslespill — fyller hull slik at regnestykket går opp — og bygger tallforståelse og en vilje til å prøve, sjekke og justere. Puslespillene skalerer fra enkle bildestøttede oppgaver til oppgaver med tall alene, så de passer for barnehage og småtrinn. Hvert Mattepuslespill-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive klikker brikker på plass og bekrefter en riktig løsning, den utskrivbare passer til stasjonsarbeid eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på.",
+    "math-worksheet": "Disse Matematikk-arbeidsark samler tallarbeidet et klasserom i barnehage og småtrinn griper etter oftest: å bygge regnestykker, fylle inn manglende deler av en likning, og arbeide gjennom blandede summer og differanser på et nivå som passer barnet. Yngre elever lener seg på bildestøtte for å forankre mengdene; eldre arbeider med tall alene etter hvert som flyten vokser. Siden samler hvert generelt matematikk-arbeidsark vi gir ut, slik at et raskt, fokusert sett kan settes sammen uten leting på tvers av temaer. Hvert ark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av — den interaktive gir umiddelbar tilbakemelding for selvstendig arbeid, den utskrivbare er klar til stasjonsarbeid eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på, slik at tospråklige og internasjonale klasserom kan holde ett samlet mattebibliotek på tvers av hvert hjemmespråk i rommet.",
+    "missing-pieces": "Manglende Brikker-arbeidsark er et puslespill med form og blikk: en del av et bilde er skåret bort, og barnet velger brikken som passer hullet og drar den på plass. Det bygger visuell utfylling, oppmerksomhet på form og retning, og nøye sammenligning — å velge riktig brikke blant flere som ligner. Oppgavene er bildebaserte og passer for barnehage og småtrinn uten krav om lesing. Hvert Manglende Brikker-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive tar imot riktig brikke i hvert hull og flagger en feil passform, den utskrivbare passer til et rolig bord eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på.",
+    "odd-one-out": "Hvilken Passer Ikke-arbeidsark ber barnet se på en liten gruppe bilder og velge det som ikke hører hjemme — dyret blant kjøretøyene, sirkelen blant firkantene. Det er tidlig klassifisering og resonnement: å legge merke til hva et sett har felles og hva som bryter regelen, og å kunne begrunne valget. Oppgavene er bildebaserte og passer for barnehage og småtrinn uten krav om lesing. Hvert Hvilken Passer Ikke-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive markerer det valgte bildet og avslører svaret, den utskrivbare passer til stasjonsarbeid eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på.",
+    "shadow-match": "Match Skygger-arbeidsark er en ren visuell parings-oppgave: hver ting skal kobles sammen med sin egen skygge eller silhuett. Barnet sammenligner former — omriss, størrelse, retning — for å finne treffet, og skjerper visuell skjelning og oppmerksomhet på form. Oppgavene er bildebaserte, krever ingen lesing og passer for barnehage og småtrinn, særlig de yngste. Hvert Match Skygger-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive tegner forbindelsen når barnet trykker to ganger og markerer hvert riktig par, den utskrivbare passer til et rolig bord eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på.",
+    "code-addition": "Kodeaddisjon-arbeidsark gir øving i addisjon en tilfredsstillende vri: hvert regnestykke har et svar, og hvert svar står for en bokstav, så når raden med regnestykker er løst, staves et skjult ord. Barna får ekte gjentakelse i addisjon og en grunn til å fortsette — avsløringen til slutt. Det passer for barn som er sikre nok med regnestykker til å like et puslespill, vanligvis barnehage til 2. trinn. Hvert Kodeaddisjon-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive sjekker hvert regnestykke og fyller koden, den utskrivbare passer til dem som blir tidlig ferdig eller til lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på.",
+    "pattern-train": "Mønstertoget-arbeidsark setter mønsterarbeid på skinner: en gjentakende rekke med bilder løper langs toget, og barnet finner ut hva som kommer neste og fyller de tomme vognene for å holde mønsteret i gang. Å kjenne igjen og forlenge mønstre er sentral tidlig matematisk tenkning — grunnlaget for tellesprang, multiplikasjon og algebra senere — og toget gjør venstre-til-høyre-rekken konkret. Bildebasert og tilpasset barnehage og småtrinn. Hvert Mønstertoget-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive plasserer neste bilde og sjekker rekken, den utskrivbare passer til stasjonsarbeid eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på.",
+    "picture-path": "Bildevei-arbeidsark gir barna en sti å spore gjennom et rutenett — fra én rute beveger barnet seg steg for steg mot målet og velger riktig vei underveis. Det er øving i romforståelse og retning (hvilken vei nå?) som bygger venstre-til-høyre- og topp-til-bunn-vanene lesing og skriving hviler på, og siden det bygger på bilder og piler, fungerer det før et barn leser flytende. Hvert Bildevei-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av som lar barnet spore stien på skjermen og sjekker ruten, i tillegg til en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på, slik at hvert klasserom kan øve på språket barna trenger.",
+    "treasure-hunt": "Skattejakt-arbeidsark gir barna en tidlig smakebit på å følge anvisninger og lese rom. Fra en merket rute følger barnet enkle steg-for-steg-ledetråder — så mange ruter denne veien, så den veien — og sporer en sti over rutenettet til det når den skjulte skatten. Det er ekte øving i romforståelse og retningsord (opp, ned, venstre, høyre, ved siden av) kledd opp som et eventyr, og siden ledetrådene bygger på bilder og piler, fungerer det før et barn leser flytende. Hvert Skattejakt-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive lar barnet spore ruten på skjermen og sjekker stien, mens den utskrivbare er klar til pararbeid eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på.",
+    "preschool": "arbeidsark for Barnehage (3-5 år) fungerer best når de føles som lek, og arkene her er bygd slik: store vennlige bilder, én tydelig oppgave per ark, og ingen lesing for å komme i gang. Tre- til femåringer øver på de aller tidligste tingene her — lekbasert telling av små grupper konkreter, koble sammen og sortere etter farge eller slag, legge merke til hvilket bilde som er størst eller hvilket som ikke passer, og spore de første bokstavlydene og formene. Siden hver aktivitet bygger på bilder fra det felles ordforrådet vårt, kan et barn som fortsatt lærer klasseromsspråket bli med med en gang. Det er lekbasert utforsking av tall og lyder, ikke formell addisjon eller lesing. Hvert ark kommer som en gratis utskrivbar PDF og som en interaktiv versjon som gir mild tilbakemelding, med en fasit til den voksne. Hele samlingen finnes på de 11 språkene vi publiserer på, slik at tospråklige barnehager kan gi hvert barn den samme aktiviteten på språket det trenger.",
+    "kindergarten": "arbeidsark for Barnehage (5-7 år) gir barna den lekbaserte øvingen som forbereder dem på skolestart, uten å bli formell skole. Fem- til sjuåringer øver på sikrere telling fra 10 til 20, å kjenne igjen tallsymboler, fonologisk bevissthet (rim, stavelser og første lyd), og skoleforberedende lek med sortering og mønstre, alt med bildestøtte slik at tenkingen blir på ferdigheten i stedet for på å tolke instruksjoner. Dette er fortsatt lekbasert utforsking, ikke formell addisjon eller lesing — i Norge starter den formelle opplæringen først på 1. trinn. Siden samler det vi gir ut for denne alderen på tvers av tall, bokstaver, logikk og romforståelse, slik at en kort økt kan bygges fra ett sted. Hvert ark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av som gir mild tilbakemelding, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på — en reell hjelp for tospråklige barnehager der barna kommer med ulike hjemmespråk.",
+    "grade-1": "arbeidsark for 1. trinn møter barna akkurat der de går fra å telle til å regne og fra bokstaver til lesing. Seks- til sjuåringer øver på begynnende addisjon og subtraksjon med tall opp til 20, ved hjelp av konkreter og bilder, kobler bokstav til lyd, lyderer korte ord, og arbeider med sortering og enkel logikk som bygger resonnement. Oppgavene bærer fortsatt bildestøtte der det hjelper, og letter deretter mot formater med tall og ord alene etter hvert som tryggheten vokser, så barnet alltid arbeider like over det komfortable. Siden samler det vi gir ut for 1. trinn, slik at et fokusert sett kan hentes på sekunder. Hvert ark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av — den interaktive gir umiddelbar tilbakemelding for selvstendig arbeid, den utskrivbare er klar til veiledet øving eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på, noe som holder flerspråklige og internasjonale klasserom arbeidende fra ett samlet bibliotek.",
+    "grade-2": "På 2. trinn er barna klare for flere steg og mer selvstendighet, og arbeidsark for 2. trinn gir dem begge deler. Sju- til åtteåringer arbeider med tosifret addisjon og subtraksjon fra 20 til 100, tiere og enere, begynnende multiplikasjonstenkning, lengre og mer flytende lesing og ordarbeid, kryssord og ordleting som strekker ordforrådet, og logikkoppgaver som belønner planlegging. Oppgavene er laget for å gjøres med mindre veiledning — tydelige nok til å starte alene, rike nok til å holde en som blir tidlig ferdig opptatt — mens de fortsatt tilbyr bildehint der en flerspråklig elev har nytte av det. Siden samler det vi gir ut for 2. trinn, slik at et differensiert sett kan settes sammen uten leting. Hvert ark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive sjekker arbeidet umiddelbart, den utskrivbare passer til stasjonsarbeid, pararbeid eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på, slik at tospråklige og internasjonale klasserom kan holde tritt sammen uansett hvert barns hjemmespråk.",
     "addition__animals": "Addisjons-arbeidsark med dyretema parer operasjonen barna øver med ordforråd som barna allerede kjenner godt. Formatet reduserer den kognitive belastningen på bildet og holder den på aritmetikken — nyttig for barn som fortsatt bygger sitt faktagrunnlag for addisjon.",
     "animals__subtraction": "Subtraksjons-arbeidsark med dyretema viser ta-bort med skapninger barna gjenkjenner umiddelbart, noe som gjør operasjonen lettere å lese. Bildene holder fokus på selve subtraksjonen.",
     "alphabet-train__animals": "Alfabettog-arbeidsark med dyretema bruker dyrenavn som alfabet-anker — hver vogn representerer et dyr hvis navn begynner med en annen bokstav. Paringen forsterker bokstav-lyd-koblingen mens barna øver alfabetsekvensen.",
@@ -1485,7 +1962,16 @@
     "code-addition__kindergarten": "Barnehage-kode-addisjons-arbeidsark (5-7 år) gir den aritmetiske øvelsen en lese- og skriveramme: hver sum avkoder en bokstav eller et ord, noe som får øvelsen til å føles målrettet for barn som har grunnfakta men trenger motivasjon.",
     "kindergarten__pattern-train": "Barnehage-mønstertog-arbeidsark (5-7 år) øver mønstergjenkjenning — vekslende, gjentakende, voksende — i et togformat som er visuelt lett å lese. Mønstergjenkjenning er grunnleggende innen matematikk og lesing.",
     "kindergarten__picture-path": "Barnehage-bildevei-arbeidsark (5-7 år) øver rutefinning gjennom et rutenett, noe som øver romlig tenkning og tålmodighet. Barn på dette utviklingsnivået er klare for å vurdere ruter før de setter blyanten på papiret.",
-    "grade-1__treasure-hunt": "Skattejakter for 1. trinn gir barna en flertrinns-retningssekvens å følge på et rutenett. Aktiviteten bygger romlig tenkning, arbeidsminne og flytende retningsordforråd på et nivå barn på 1. trinn kan holde ut i."
+    "grade-1__treasure-hunt": "Skattejakter for 1. trinn gir barna en flertrinns-retningssekvens å følge på et rutenett. Aktiviteten bygger romlig tenkning, arbeidsminne og flytende retningsordforråd på et nivå barn på 1. trinn kan holde ut i.",
+    "cryptogram": "Kryptogram-arbeidsark lar barna knekke en enkel kode og avsløre ordet bak. Hvert bilde eller symbol står for en bokstav, og ved å finne nøkkelen og fylle den inn avkoder barnet beskjeden — bokstavgjenkjenning, staving og tålmodig problemløsning øves samtidig. Oppgavene holdes korte og bildestøttede slik at de passer barnehage og småtrinn. Hvert kryptogram-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive fyller en bokstav over alt der symbolet dukker opp og bekrefter løsningen, mens den utskrivbare passer til stasjonsarbeid eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på.",
+    "chart-count": "Tell I Diagram-arbeidsark forener to tidlige ferdigheter — telling og det å lese en enkel graf. Barnet teller hvor mange det er av hver ting, og fyller deretter inn den tilhørende søylen i et stolpediagram, slik at en haug med bilder blir et ryddig bilde av hvor mange. Det er første skritt mot data og grafer, og det styrker en-til-en-telling underveis. Hvert Tell I Diagram-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive fyller søyler mens barnet trykker og sjekker summene, mens den utskrivbare passer til stasjonsarbeid eller lekser, og hvert ark har en fasit. Hele samlingen er tilgjengelig på de 11 språkene vi publiserer på.",
+    "pattern-worksheet": "Mønster-arbeidsark bygger en av de aller tidligste matematiske vanene — å se en regel og fortsette den. Barnet leser en gjentakende rekke (AB, ABC og videre) og finner ut hva som kommer neste, og fullfører mønsteret med riktig bilde. Å kjenne igjen og forlenge mønstre ligger til grunn for tellesprang, multiplikasjon og resonnementet matematikken hviler på senere, og bildeformatet gjør at barnet kan lykkes før det leser. Passer for barnehage og småtrinn. Hvert mønster-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive plasserer neste element og sjekker regelen, den utskrivbare passer til stasjonsarbeid eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på.",
+    "bingo": "Bingo-arbeidsark samler hele klassen rundt lytting og rask gjenkjenning. Hvert barn får et kort med bilder, bokstaver eller tall, og etter hvert som ting ropes opp, finner og markerer barnet treffet på sitt eget kort. Det er lekbasert øving i å kjenne igjen et mål raskt, vente på tur og holde fast ved en felles oppgave — og siden et kort kan bygges av bilder, bokstaver eller tall, vokser samme spill med klassen på tvers av telling, alfabetet og tidlig ordforråd. Hvert bingo-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive roper opp ting og markerer trykk, den utskrivbare er klar til å dele ut til en gruppe, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på.",
+    "grid-match": "Rutenettmatch-arbeidsark ber barnet plassere brikker i et rutenett slik at hver havner på sin riktige plass — pare bilder, eller passe en ting til der den hører hjemme, mens oppsettet holdes i hodet. Det er praktisk øving i å koble sammen, visuell hukommelse og det å arbeide systematisk gjennom et rutenett. Oppgavene passer for barnehage og småtrinn og bygger på tydelige bilder, så ingen lesing trengs for å komme i gang. Hvert rutenettmatch-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive lar barna dra brikker inn i ruter og sjekker det ferdige rutenettet, mens den utskrivbare passer til pararbeid eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på.",
+    "word-guess": "Gjett Ordet-arbeidsark gir de yngste staverne en vennlig måte å bygge ord på. Et bildehint viser ordet, og barnet fyller de tomme bokstavene for å stave det — ved å lydere, koble bokstaver til lyder og bekrefte med bildet. Det er fonologisk bevissthet og staving som føles som et lite puslespill, med ordlengde og støtte tilpasset barnehage og småtrinn. Hvert Gjett Ordet-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive tar imot tastede bokstaver og sjekker stavingen, den utskrivbare passer til stasjonsarbeid eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på.",
+    "word-scramble": "Bokstavspill-arbeidsark gjør staving til en tilfredsstillende oppgave med å ordne bokstaver. Bokstavene i et ord ligger blandet ved siden av bildet, og barnet stokker dem om til riktig rekkefølge — og øver på bokstavgjenkjenning, stavemønstre og lydene som holder et ord sammen, med bildet som hint. Ordlengden er tilpasset barnehage og småtrinn. Hvert Bokstavspill-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive lar barna ordne bokstavene og sjekker ordet, den utskrivbare passer til stasjonsarbeid eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på.",
+    "crossword": "Kryssord-arbeidsark gir tidlige lesere en mild og givende måte å knytte sammen bilder, lyder og staving. I stedet for tekstledetråder bruker hvert puslespill bildehint: barnet ser et bilde, sier ordet, og skriver bokstavene inn i det krysningende rutenettet, der de kryssende bokstavene gir en god kontroll underveis. Det er staving og ordforråd som føles som å løse, ikke å bli testet, og det passer for barnehage og småtrinn fordi ordene holdes korte og kjente. Hvert kryssord-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av — den interaktive lar barna skrive i rutenettet og bekrefter hver oppføring, mens den utskrivbare passer til stasjonsarbeid, pararbeid eller lekser, og en fasit følger alltid med. Hele samlingen finnes på de 11 språkene vi publiserer på, slik at barna kan bygge staving og ordforråd på språket de lærer å lese på.",
+    "find-objects": "Finn Objektene-arbeidsark er en lete-oppgave: barnet leter i et detaljert bilde etter de oppførte tingene og markerer hver enkelt etter hvert som det får øye på dem. Det er målrettet øving i visuell skjelning, oppmerksomhet på detaljer og det å matche et mål mot det som er på arket — og siden målene er bilder, kan hvert barn delta uansett lesenivå. Bildene passer for barnehage og småtrinn og belønner et nøye, rolig blikk. Hvert Finn Objektene-arbeidsark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av: den interaktive registrerer hvert trykk på en funnet ting, den utskrivbare er klar til stasjonsarbeid eller lekser, og hvert ark har en fasit. Hele samlingen finnes på de 11 språkene vi publiserer på."
   },
   "bulk": {
     "toggleSelect": "Select",

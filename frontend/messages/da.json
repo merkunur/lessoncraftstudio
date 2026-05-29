@@ -1237,7 +1237,484 @@
   },
   "topicFaq": {
     "heading": "Ofte stillede spørgsmål",
-    "overrides": {},
+    "overrides": {
+      "kindergarten": [
+        {
+          "q": "Hvad dækker disse arbejdsark til børnehaveklasse?",
+          "a": "Tælling og begyndende addition og subtraktion, kobling af tal til mængde, sortering og mønstre, bogstav-lyd og de første læste ord, alt sammen billedstøttet."
+        },
+        {
+          "q": "Er de gratis at printe og spille?",
+          "a": "Ja, gratis printbare PDF'er og interaktive versioner, hver med en facitliste, uden tilmelding og uden betalingsmur."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på, så tosprogede og internationale børnehaveklasser kan give samme aktivitet på hvert barns sprog."
+        }
+      ],
+      "animals": [
+        {
+          "q": "Hvad findes på siden med dyre-arbejdsark?",
+          "a": "Arbejdsark med dyr på tværs af tælling, addition, sortering, matchning, hvilken der ikke passer og tidlig stavning, ét velkendt billedsæt og mange færdigheder, til indskolingen."
+        },
+        {
+          "q": "Er disse arbejdsark gratis?",
+          "a": "Ja, hvert ark her er gratis at printe og at spille online, med en facitliste og uden tilmelding."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "grade-1": [
+        {
+          "q": "Hvad dækker 1. klasse her?",
+          "a": "Addition og subtraktion inden for 0-20, talmønstre, lydering og enkel læsning samt tidlig logik, med billedstøtte der letter over mod tal- og ordformat."
+        },
+        {
+          "q": "Er disse arbejdsark til 1. klasse gratis?",
+          "a": "Ja, gratis at printe og spille online, hvert ark med en facitliste og uden tilmelding."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på, så internationale klasser og immersionsklasser deler ét sammenhængende bibliotek."
+        }
+      ],
+      "preschool": [
+        {
+          "q": "Hvilken alder er disse arbejdsark til børnehave til?",
+          "a": "De er lavet til børn på tre til fem år, med billedbaserede opgaver der ikke kræver læsning for at starte."
+        },
+        {
+          "q": "Er arbejdsarkene til børnehave gratis?",
+          "a": "Ja, hvert ark er gratis at printe og at spille online, med en facitliste og uden tilmelding."
+        },
+        {
+          "q": "Kan jeg bruge dem i en tosproget klasse?",
+          "a": "Ja. De samme billedledede aktiviteter findes på de 11 sprog vi udgiver på, så hvert barn kan arbejde på det sprog, det har brug for."
+        }
+      ],
+      "cryptogram": [
+        {
+          "q": "Hvad øver kryptogram-arbejdsark?",
+          "a": "Afkodning fra symbol til bogstav, stavning og tålmodig problemløsning, korte billedstøttede opgaver til indskolingen."
+        },
+        {
+          "q": "Er de gratis at bruge?",
+          "a": "Ja, gratis at printe og at spille online, hver med en facitliste, uden tilmelding eller betalingsmur."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "chart-count": [
+        {
+          "q": "Hvad øver tæl i diagram-arbejdsark?",
+          "a": "Tælling plus at læse og udfylde et enkelt søjlediagram, tidlige data og grafer til indskolingen."
+        },
+        {
+          "q": "Er de gratis at bruge?",
+          "a": "Ja, gratis at printe og at spille online, hver med en facitliste, uden tilmelding eller betalingsmur."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "pattern-worksheet": [
+        {
+          "q": "Hvad øver mønster-arbejdsark?",
+          "a": "At genkende og forlænge AB- og ABC-mønstre, fundamentet for springtælling og multiplikation, til indskolingen og billedbaseret."
+        },
+        {
+          "q": "Er de gratis at bruge?",
+          "a": "Ja, gratis at printe og at spille online, hver med en facitliste, uden tilmelding eller betalingsmur."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "bingo": [
+        {
+          "q": "Hvad kan jeg bruge bingo-arbejdsark til?",
+          "a": "Klassedækkende repetition af billeder, bogstaver eller tal, genkendelse, lytning og turtagning til indskolingen."
+        },
+        {
+          "q": "Er de gratis at bruge?",
+          "a": "Ja, gratis at printe og at spille online, hver med en facitliste, uden tilmelding eller betalingsmur."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "grid-match": [
+        {
+          "q": "Hvad øver gittermatch-arbejdsark?",
+          "a": "Matchning, visuel hukommelse og systematisk gitterarbejde, træk brikker til det matchende felt, til indskolingen og billedbaseret."
+        },
+        {
+          "q": "Er de gratis at bruge?",
+          "a": "Ja, gratis at printe og at spille online, hver med en facitliste, uden tilmelding eller betalingsmur."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "shadow-match": [
+        {
+          "q": "Hvad øver match skygger-arbejdsark?",
+          "a": "Visuel skelnen og formbevidsthed, match hver genstand til sin skygge, ideelt til de yngste i indskolingen."
+        },
+        {
+          "q": "Er de gratis at bruge?",
+          "a": "Ja, gratis at printe og at spille online, hver med en facitliste, uden tilmelding eller betalingsmur."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "word-guess": [
+        {
+          "q": "Hvad øver gæt ordet-arbejdsark?",
+          "a": "Fonik og stavning, udfyld de tomme felter og stav et billedstøttet ord ved lydering, til indskolingens læsere."
+        },
+        {
+          "q": "Er de gratis at bruge?",
+          "a": "Ja, gratis at printe og at spille online, hver med en facitliste, uden tilmelding eller betalingsmur."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "word-scramble": [
+        {
+          "q": "Hvad øver bogstavpuslespil-arbejdsark?",
+          "a": "Stavning og bogstavgenkendelse, stil bogstaverne i orden og stav et billedstøttet ord, til indskolingens læsere."
+        },
+        {
+          "q": "Er de gratis at bruge?",
+          "a": "Ja, gratis at printe og at spille online, hver med en facitliste, uden tilmelding eller betalingsmur."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "crossword": [
+        {
+          "q": "Hvordan virker disse krydsord-arbejdsark for små børn?",
+          "a": "De bruger billed-ledetråde i stedet for tekst: barnet navngiver billedet og udfylder dets bogstaver i gitteret, hvor de krydsende bogstaver hjælper, ideelt til stavning og ordforråd i indskolingen."
+        },
+        {
+          "q": "Er de gratis?",
+          "a": "Ja, gratis at printe og at spille online, med en facitliste og uden tilmelding."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "find-objects": [
+        {
+          "q": "Hvilken alder er find genstandene-arbejdsark til?",
+          "a": "Indskolingen, en kig-og-find-jagt efter skjulte genstande, billedbaseret og uden krav om læsning."
+        },
+        {
+          "q": "Er de gratis at bruge?",
+          "a": "Ja, gratis at printe og at spille online, hver med en facitliste, uden tilmelding eller betalingsmur."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "missing-pieces": [
+        {
+          "q": "Hvad øver manglende brikker-arbejdsark?",
+          "a": "Visuel fuldendelse og bevidsthed om form og retning, vælg og placér den brik der passer i hullet, til indskolingen og billedbaseret."
+        },
+        {
+          "q": "Er de gratis at bruge?",
+          "a": "Ja, gratis at printe og at spille online, hver med en facitliste, uden tilmelding eller betalingsmur."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "addition": [
+        {
+          "q": "Hvilket niveau er disse addition-arbejdsark til?",
+          "a": "Indskolingen, billedstøttede regnestykker for begyndere videre til en- og små tocifrede opgaver for sikre tællere."
+        },
+        {
+          "q": "Er addition-arbejdsarkene gratis?",
+          "a": "Ja, gratis at printe og at spille online, hver med en facitliste, uden tilmelding."
+        },
+        {
+          "q": "Kan børnene øve addition online?",
+          "a": "Ja, hvert ark har en interaktiv version med øjeblikkelig respons plus den printbare PDF, på de 11 sprog vi udgiver på."
+        }
+      ],
+      "sudoku": [
+        {
+          "q": "Hvilken alder er billedsudoku til?",
+          "a": "Indskolingen, et 4x4-billedgitter der lærer samme logik som tal-sudoku, uden krav om læsning."
+        },
+        {
+          "q": "Er disse billedsudoku-arbejdsark gratis?",
+          "a": "Ja, gratis printbare PDF'er og en interaktiv version, hver med en facitliste, uden tilmelding."
+        },
+        {
+          "q": "Skal man kunne læse for at løse dem?",
+          "a": "Nej, de bruger billeder, så de virker på alle de 11 sprog vi udgiver på."
+        }
+      ],
+      "picture-path": [
+        {
+          "q": "Hvad øver billedvej-arbejdsark?",
+          "a": "Rumlig forståelse og retningssans, at følge en sti gennem et gitter til målet, til indskolingen og fuldt billedbaseret."
+        },
+        {
+          "q": "Er disse arbejdsark gratis?",
+          "a": "Ja, hvert ark her er gratis at printe og at spille online, med en facitliste og uden tilmelding."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "subtraction": [
+        {
+          "q": "Hvad dækker disse subtraktion-arbejdsark?",
+          "a": "Billedstøttet fra-trækning for begyndere videre til encifret og lille tocifret subtraktion, indskolingen."
+        },
+        {
+          "q": "Er de gratis at bruge?",
+          "a": "Ja, gratis printbare PDF'er og interaktive versioner, hver med en facitliste, uden tilmelding eller betalingsmur."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på, med billedstøtte hvor en flersproget elev har gavn af den."
+        }
+      ],
+      "code-addition": [
+        {
+          "q": "Hvad øver kodeaddition?",
+          "a": "Encifret addition plus en bogstavkode-afsløring, hvor regnestykker svarer til bogstaver der staver et ord, fra børnehaveklasse til 2. klasse."
+        },
+        {
+          "q": "Er de gratis at bruge?",
+          "a": "Ja, gratis at printe og at spille online, hver med en facitliste, uden tilmelding eller betalingsmur."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "more-less": [
+        {
+          "q": "Hvilken alder er mere eller mindre-arbejdsark til?",
+          "a": "Børnehave og børnehaveklasse, billedbaseret sammenligning af mængder, uden krav om læsning."
+        },
+        {
+          "q": "Er de gratis?",
+          "a": "Ja, gratis printbare PDF'er og interaktive versioner med en facitliste, uden tilmelding."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "math-puzzle": [
+        {
+          "q": "Hvad opbygger matematikpuslespil-arbejdsark?",
+          "a": "Talforståelse og prøv-tjek-justér-tænkning, træk brikker for at fuldføre et talpuslespil, til indskolingen og skalerer fra billede til ren tal."
+        },
+        {
+          "q": "Er de gratis at bruge?",
+          "a": "Ja, gratis at printe og at spille online, hver med en facitliste, uden tilmelding eller betalingsmur."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "math-worksheet": [
+        {
+          "q": "Hvilken slags matematik dækker disse arbejdsark?",
+          "a": "Regnestykker, ligninger med manglende tal og blandede plus- og minusopgaver til indskolingen, med billedstøtte der letter over mod ren tal-arbejde."
+        },
+        {
+          "q": "Er disse matematik-arbejdsark gratis?",
+          "a": "Ja, gratis at printe og at spille online, hver med en facitliste, uden tilmelding."
+        },
+        {
+          "q": "Findes de på andre sprog?",
+          "a": "Ja, på de 11 sprog vi udgiver på."
+        }
+      ],
+      "big-small": [
+        {
+          "q": "Hvem er stor eller lille-arbejdsark til?",
+          "a": "Børnehave og børnehaveklasse, billedbaseret sammenligning af størrelse og at stille i orden, uden krav om læsning."
+        },
+        {
+          "q": "Er disse arbejdsark gratis?",
+          "a": "Ja, gratis at printe og spille online, med en facitliste og uden tilmelding."
+        },
+        {
+          "q": "Hvilke sprog?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "pattern-train": [
+        {
+          "q": "Hvad øver mønstertoget-arbejdsark?",
+          "a": "At genkende og forlænge gentagende mønstre, fyld vognene for at fortsætte sekvensen, fundamental matematik til indskolingen."
+        },
+        {
+          "q": "Er de gratis at bruge?",
+          "a": "Ja, gratis at printe og at spille online, hver med en facitliste, uden tilmelding eller betalingsmur."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "matching": [
+        {
+          "q": "Hvad øver matchning-arbejdsark?",
+          "a": "Forbindelse og en-til-en-korrespondance, forbind hver genstand til sin makker med en streg, til indskolingen og billedstøttet."
+        },
+        {
+          "q": "Er de gratis at bruge?",
+          "a": "Ja, gratis at printe og at spille online, hver med en facitliste, uden tilmelding eller betalingsmur."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "picture-sort": [
+        {
+          "q": "Hvad øver sortér billeder-arbejdsark?",
+          "a": "Klassifikation, sortér billeder i navngivne kategorier og forklar hvorfor, til indskolingen og billedbaseret."
+        },
+        {
+          "q": "Er de gratis at bruge?",
+          "a": "Ja, gratis at printe og at spille online, hver med en facitliste, uden tilmelding eller betalingsmur."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "alphabet-train": [
+        {
+          "q": "Hvilken alder er alfabettoget til?",
+          "a": "Børnehave og børnehaveklasse, til at lære bogstavnavne og A-Å-orden, uden krav om læsning."
+        },
+        {
+          "q": "Er de gratis at bruge?",
+          "a": "Ja, gratis at printe og at spille online, hver med en facitliste, uden tilmelding eller betalingsmur."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "prepositions": [
+        {
+          "q": "Hvad øver præpositioner-arbejdsark?",
+          "a": "Positions-ordforråd, i, på, under, ved siden af, ved at vælge det matchende billede, godt for sproglærere, til indskolingen."
+        },
+        {
+          "q": "Er de gratis at bruge?",
+          "a": "Ja, gratis at printe og at spille online, hver med en facitliste, uden tilmelding eller betalingsmur."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "wordsearch": [
+        {
+          "q": "Hvad øver ordsøgning-arbejdsark?",
+          "a": "Bogstavgenkendelse, venstre-mod-højre-skanning og tematisk ordforråd til indskolingens læsere, korte billedstøttede ordlister."
+        },
+        {
+          "q": "Er de gratis at printe og spille?",
+          "a": "Ja, gratis printbare PDF'er og en interaktiv version, hver med en facitliste, uden tilmelding."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "find-and-count": [
+        {
+          "q": "Hvad opbygger find og tæl-arbejdsark?",
+          "a": "Visuel skanning plus en-til-en-tælling, find mål-genstande i en scene og tæl dem op, til indskolingen og uden krav om læsning."
+        },
+        {
+          "q": "Er de gratis at bruge?",
+          "a": "Ja, gratis at printe og at spille online, hver med en facitliste, uden tilmelding eller betalingsmur."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "treasure-hunt": [
+        {
+          "q": "Hvad øver skattejagten?",
+          "a": "At følge anvisninger og rumlig forståelse, spor en sti efter retnings-ledetråde hen over et gitter, til indskolingen."
+        },
+        {
+          "q": "Er de gratis at bruge?",
+          "a": "Ja, gratis at printe og at spille online, hver med en facitliste, uden tilmelding eller betalingsmur."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "odd-one-out": [
+        {
+          "q": "Hvad øver hvilken passer ikke-arbejdsark?",
+          "a": "Klassifikation og ræsonnement, find billedet der ikke hører til og forklar hvorfor, til indskolingen og billedbaseret."
+        },
+        {
+          "q": "Er de gratis at bruge?",
+          "a": "Ja, gratis at printe og at spille online, hver med en facitliste, uden tilmelding eller betalingsmur."
+        },
+        {
+          "q": "Hvilke sprog findes de på?",
+          "a": "På de 11 sprog vi udgiver på."
+        }
+      ],
+      "grade-2": [
+        {
+          "q": "Hvilke færdigheder opbygger disse arbejdsark til 2. klasse?",
+          "a": "Tocifret addition og subtraktion inden for 0-100, begyndende multiplikation, positionssystem, længere læsning og ordarbejde, krydsord og planlægningsbaseret logik."
+        },
+        {
+          "q": "Er de gratis?",
+          "a": "Ja, gratis printbare PDF'er og interaktive versioner, hver med en facitliste og uden tilmelding."
+        },
+        {
+          "q": "Egner de sig til klasser med blandede sprog?",
+          "a": "Ja, de samme opgaver findes på de 11 sprog vi udgiver på, med billed-ledetråde hvor de hjælper."
+        }
+      ]
+    },
     "fallback": {
       "single": {
         "q1": "Hvilke arbejdsark er på denne {topic}-side?",
@@ -1419,31 +1896,31 @@
     "zoo_animals_bw": "Zoodyr som stregtegninger til farvelægning. Brug dem som lektie efter klassens udflugt til Zoologisk Have i forbindelse med naturfag."
   },
   "topicProse": {
-    "animals": "Arbejdsark med dyretema giver lærere i den tidlige barndom en ordforrådsbase, der bærer gennem hele K-3-læseplanen. Tælle køer, sortere fugle efter hvad de spiser, genkende begyndelsesbogstavet i hvert gårddyrs navn — det samme sæt billeder understøtter talforståelse, klassifikation og tidlig læse- og skrivekyndighed uden at bede børnene skifte kontekst. Selve ordforrådet er højfrekvent på hvert af de elleve sprog, vi udgiver på, hvilket gør disse arbejdsark særligt nyttige, når en klasse har børn med forskellige sprogniveauer.",
-    "addition": "Arbejdsark til addition møder børnene i det øjeblik, hvor det at lægge sammen ophører med at være et tælletrick og begynder at være en kendsgerning, de kan kalde frem fra hukommelsen. Arbejdsarkene her giver den fremkaldelses-øvelse over encifrede og små tocifrede summer, med billedunderstøttede opgaver til de yngre elever og kun-tal-formater, når operationen er konsolideret. Kombiner interaktive og udskrivbare formater: de interaktive versioner giver øjeblikkelig tilbagemelding, de udskrivbare PDF'er fungerer godt til pararbejde, hvor det ene barn skriver og det andet kontrollerer.",
-    "subtraction": "Subtraktion er den operation, der bringer børnenes intuitioner om, hvad der bliver, og hvad der går bort, til overfladen. Disse arbejdsark bygger den intuition op med billedbaserede tag-væk-opgaver til de yngste elever og skrider derefter videre til abstrakt subtraktion, når tag-væk-gestussen ikke længere er nødvendig. Formatet passer godt sammen med manipulativer i klasseværelset — børnene kan iscenesætte den første række med tællerikker og derefter fuldføre resten på siden.",
-    "alphabet-train": "Alfabettog-arbejdsarkene bygger bogstavgenkendelse op gennem positionel ordning. Hver vogn på toget bærer ét bogstav, og børnene fylder enten de manglende vogne ud eller arrangerer vognene i alfabetisk rækkefølge. Formatet er overbærende — et barn, der kender halvdelen af alfabetet, kan stadig udfylde rækkerne med de kendte bogstaver og opfange de ukendte ud fra konteksten. Nyttigt til bogstav-lyd-arbejde, til at forstærke alfabetsangen og til tidlig læse- og skrive-diagnostik.",
-    "wordsearch": "Ordsøgnings-arbejdsark opbygger udholdende læse-opmærksomhed: øjet scanner et gitter af bogstaver, og hjernen sammenholder hvert med et målord, der holdes i arbejdshukommelsen. For K-3-læsere er målene korte og grupperet omkring et tema, hvilket betyder, at aktiviteten styrker ordforrådet samtidig med afkodningen. Disse arbejdsark fungerer godt som stille opgaver, overgange eller pararbejde, hvor det ene barn læser målet højt, mens det andet søger.",
-    "matching": "Sammenkoblings-arbejdsark giver børn øvelse i den kognitive bevægelse, der ligger til grund for det meste af tænkningen i den tidlige barndom: at bemærke, at to ting hører sammen, fordi de deler en egenskab. Disse sider parrer billeder med deres begyndelsesbogstaver, ord med deres betydninger, eller mængder med deres cifre. Det visuelle layout — elementer i to kolonner forbundet af linjer trukket direkte på arbejdsarket — holder den kognitive belastning på relationen i stedet for på proceduren.",
-    "sudoku": "Billedsudoku-arbejdsark giver små børn den logiske erfaring af fuld sudoku på et 4×4-gitter med velkendte billeder i stedet for cifre. Hver række, kolonne og kvadrant skal indeholde hver af de fire billeder én gang, og børnene udleder de manglende ved udelukkelse. Puslespillet er ægte udfordrende for K-3-aldersgruppen uden at kræve cifferlæsning, hvilket gør det tilgængeligt for børn på ethvert læseniveau.",
-    "find-and-count": "Find-og-tæl-arbejdsark beder børnene scanne en travl scene, lokalisere hver forekomst af et målobjekt og skrive antallet. Aktiviteten øver tre færdigheder samtidig: visuel diskrimination, en-til-en-modsvar og cifferskrivning. For lærere i den tidlige barndom er find-og-tæl et nyttigt diagnostisk værktøj — et barn, der tæller seks, men skriver fire, viser dig noget konkret om, hvor hullet er.",
-    "prepositions": "Præpositions-arbejdsark knytter rumligt ordforråd til konkrete billeder: katten ligger under stolen, bolden ligger mellem kasserne, fuglen sidder på grenen. Billederne giver børnene en reference for ord, der ellers ville være abstrakte, og multiple-choice-formatet holder den kognitive belastning på relationen i stedet for på skrivningen. Nyttigt for elever, der lærer dansk som andetsprog, for tosprogede klasser og for enhver kontekst, hvor rumligt ordforråd kræver eksplicit undervisning.",
-    "picture-sort": "Billedsorterings-arbejdsark øver klassifikationsbevægelsen, der ligger til grund for tidlig naturvidenskab og tidlig læsning. Børnene ser på et sæt billeder og grupperer dem efter kategori — efter begyndelsesbogstav, efter hvad de spiser, efter hvor de bor, efter farve. Tokurv-formatet holder valget binært, hvilket er det rette kognitive udgangspunkt for at sortere i K-3.",
-    "big-small": "Stor-lille-arbejdsark øver relativ størrelsessammenligning, den grundlæggende færdighed, der ligger under måling og ordning. Børnene identificerer det største eller mindste i et sæt eller ordner en serie genstande efter størrelse. Billederne er bevidst overdrevne, så sammenligningen er entydig — når børnene kan læse billedhintet sikkert, overføres samme færdighed til mindre indlysende sammenligninger i livet og i talarbejdet.",
-    "more-less": "Mere-mindre-arbejdsark er forløberne for formel addition og subtraktion: børnene sammenligner to mængder og afgør, hvilken der har mere. Aktiviteten er stærkt billedunderstøttet, fordi mange K-3-børn kan løse den, før de pålideligt kan læse ordene »mere« og »mindre«. Nyttigt som kontrol af talforståelse og som stillads for tidlig aritmetik.",
-    "math-puzzle": "Matematikpusle-arbejdsark pakker den aritmetiske øvelse ind som noget, der skal regnes ud, snarere end noget, der skal trænes. Hvert puslespil kræver, at barnet kombinerer talfakta med logisk slutning — hvilke to tal danner denne sum, hvilken sekvens fuldender dette mønster, hvilken operation gør denne ligning sand. Formatet holder matematikken interessant, når grundfakta er på plads.",
-    "math-worksheet": "Matematikark-sider giver børnene øvelse med de operationer, de aktuelt arbejder med, i det format, lærerne ved virker til konsolidering af færdigheder. Hver side retter sig mod en eller to operationer og giver nok opgaver til vedvarende øvelse uden at blive overvældende. Brug dem som lektier, morgenarbejde eller selvstændig øvelse under undervisning i små grupper.",
-    "missing-pieces": "Manglende-stykker-arbejdsark øver visuel komplettering: børnene ser på et billede, hvorfra et afsnit er fjernet, og vælger det stykke, der fuldender det, fra en lille palet. Aktiviteten øver samtidig rumlig tænkning, opmærksomhed på detaljer og formgenkendelse. Særligt nyttig som stille selvstændig opgave i børnehaveklassens og 1. klasses område.",
-    "odd-one-out": "Hvilken-passer-ikke-arbejdsark øver diskriminationsfærdigheden, der ligger under klassifikation: børnene ser på en lille gruppe billeder og identificerer det, der ikke hører hjemme. Kriteriet varierer — efter kategori, efter farve, efter begyndelsesbogstav — og billederne er valgt, så svaret er entydigt, når kriteriet er nævnt. Et nyttigt diagnostisk værktøj for tænkning i den tidlige barndom.",
-    "shadow-match": "Skyggepar-arbejdsark parrer hvert billede med dets silhuet. Aktiviteten øver formgenkendelse og visuel diskrimination på det niveau, hvor kontur og detalje skal behandles separat, hvilket er en af grundlæggende færdigheder for tidlig læsning. Børn, der parrer skygger med sikkerhed, håndterer ofte også genkendelse af bogstavformer med mindre anstrengelse.",
-    "code-addition": "Kode-addition-arbejdsark parrer en additionsopgave med et bogstav, så svaret på summen afkoder et ord eller en besked. Formatet giver den aritmetiske øvelse en læse- og skriveramme: børnene løser addition ikke som mål i sig selv, men som middel til at nå beskeden. Nyttigt for børn midt i børnehaveklasse og 1. klasse, der har grundfakta men har brug for, at øvelsen føles motiverende.",
-    "pattern-train": "Mønstertog-arbejdsarkene giver børnene øvelse i at udvide og fuldende visuelle mønstre. Hvert tog bærer en sekvens, og barnet udfylder de manglende vogne ved at følge mønsterlogikken — skiftende farver, gentagne former, voksende størrelser. Mønstergenkendelse er en grundlæggende færdighed, der ligger under både tidlig matematik og tidlig læsning, og togformatet holder det visuelle layout enkelt.",
-    "picture-path": "Billedsti-arbejdsark øver rumlig tænkning og rutefinding: børnene tegner en sti gennem et gitter fra et startbillede til et slutbillede, undertiden uden om vægge eller forbi distraktorer. Aktiviteten opbygger de samme kognitive bevægelser, der ligger under labyrintløsning, planlægning og tidlig geometri. Børnene udvikler tålmodigheden til at overveje ruter, før de sætter blyanten på papiret.",
-    "treasure-hunt": "Skattejagts-arbejdsark giver børnene en sekvens af retningsspor — to felter mod nord, et mod øst, tre mod syd — og beder dem spore ruten, sporene beskriver. Aktiviteten opbygger rumlig tænkning, arbejdshukommelse og flydende retningsordforråd samtidigt. Formatet fungerer særligt godt for børn i 1. og 2. klasse, der er klar til instruktioner i flere trin.",
-    "preschool": "Børnehave-arbejdsark møder børnene i det udviklingsøjeblik, hvor blyantgrebet bliver pålideligt, og hjernen er klar til målrettet før-akademisk arbejde. Aktiviteterne her holder den kognitive belastning lav og den visuelle støtte høj — hver opfordring er illustreret, hvert svar er entydigt, hver side kan fuldføres på nogle få koncentrerede minutter. Brug dem til de morgenstunder, hvor børnene er klar til at sætte sig og arbejde, eller som blide lektier, som familier kan understøtte selv uden akademisk baggrund.",
-    "kindergarten": "Børnehaveklasse-arbejdsark er afstemt med det år, hvor før-akademisk nysgerrighed krystalliserer i akademisk parathed. Børn på dette niveau kan holde en blyant pålideligt, genkende de første bogstaver i deres navn, tælle ud over ti og følge totrins-instruktioner på en side. Aktiviteterne her øver disse færdigheder inden for matematik, læse- og skrivekyndighed, logik og rumlig tænkning, i formater korte nok til en børnehaveklasse-elevs opmærksomhedsspand og fyldige nok til at føles som rigtigt arbejde.",
-    "grade-1": "Arbejdsark til 1. klasse møder øjeblikket, hvor børnene konsoliderer fundamenterne lagt i børnehaveklassen til flydende selvstændig øvelse. De kan læse korte instruktioner, skrive deres svar og selvkorrigere enkle fejl uden voksenstøtte. Aktiviteterne her spænder over 1. klasses standard-læseplan — addition og subtraktion inden for tyve, genkendelse af kig-ord, simpel sekventering, grundlæggende rumlig logik — og hver side er udformet til at føles fuldførbar i en koncentreret kvarter-blok.",
-    "grade-2": "Arbejdsark til 2. klasse møder børn, der nu læser selvstændigt, skriver i sætninger og er klar til problemløsning i flere trin. Aktiviteterne her introducerer de længere kognitive sekvenser — flercifret addition, længere ordsøgninger, mere komplekse puslespil — som børn i 2. klasse kan holde ud i. Par dem med klassesamtale om strategi, da den kognitive værdi på dette niveau i stigende grad ligger i tilgangen lige så meget som i svaret.",
+    "animals": "Arbejdsark med dyr er det mest brugbare tema i en indskolingsklasse, fordi ordene går igen overalt. Den samme velkendte flok af katte, køer, fugle og fisk dukker op i tælling og addition, sortering og matchning, hvilken der ikke passer og staveøvelser med forlyd, så børnene øver en ny færdighed på billeder, de allerede kender og holder af, frem for at afkode en ny sammenhæng hver gang. Dyrenavne er også højfrekvente på alle de sprog, vi udgiver på, hvilket gør disse ark særligt nyttige, når en klasse har børn på forskellige sprogniveauer. Denne side samler hvert dyretema-ark på tværs af øvelsestyperne. Hvert ark er en gratis printbar PDF at printe med en tilhørende interaktiv version og en facitliste, og hele samlingen findes på de 11 sprog vi udgiver på.",
+    "addition": "Addition arbejdsark rammer børnene præcis dér, hvor det at lægge sammen holder op med at være noget, man tæller sig frem til, og bliver noget, de bare ved. Arkene følger den vej: billedstøttede regnestykker for de yngste i børnehaveklasse, hvor et barn tæller to grupper og lægger dem sammen, videre til plusstykker inden for 0-20 med tiervenner i 1. klasse, og små tocifrede opgaver i 2. klasse. Når formatet holdes ensartet, bliver tænkningen på regningen frem for på at finde ud af, hvad man skal. Hvert addition arbejdsark er en gratis printbar PDF at printe med en tilhørende interaktiv version, man kan spille online, og hvert ark har en facitliste. Brug den printbare til stationer eller lektier, og kombinér med online-versionen til fælles opvarmning. Hele samlingen findes på de 11 sprog vi udgiver på, så tosprogede og internationale klasser kan give hvert barn addition på det sprog, de forstår bedst.",
+    "subtraction": "Subtraktion arbejdsark hjælper børnene med at se det at trække fra som noget, de kan forestille sig, før det bliver noget, de bare ved. Arkene her starter med billedopgaver, streg det ud der går væk og tæl det, der bliver tilbage, og bevæger sig videre til encifrede regnestykker og små tocifrede differenser, efterhånden som et barn bliver mere sikkert. Fordi layoutet holdes ensartet, går opmærksomheden på regnearten frem for på nye instruktioner hver gang. Hvert subtraktion arbejdsark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive markerer svar med det samme og fejrer en ren første gennemgang, mens den printbare passer til vejledt øvelse, pararbejde eller lektier, og en facitliste følger altid med. Bland et billedstøttet ark med et tal-ark for at ramme forskellige niveauer i samme rum, eller send et ark hjem til ekstra øvelse. Hele sættet findes på de 11 sprog vi udgiver på, så immersionsklasser og internationale klasser kan give hver elev subtraktion på det sprog, de har brug for.",
+    "alphabet-train": "Alfabettoget arbejdsark gør det at lære ABC til noget, et barn kan bevæge med hænderne. Bogstavkort kører langs toget, og opgaven er at trække eller skrive hvert kort i den rigtige vogn, så alfabetet løber i orden, hvilket opbygger bogstavgenkendelse, sekvensens form og den venstre-mod-højre-vane, læsning hviler på. Fordi kortene er store og billedklare, kan et barn, der lige møder disse bogstaver eller møder dem på et nyt sprog, deltage med det samme. Hvert alfabettoget-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive klikker kort på plads og fejrer en færdig række, den printbare passer til en læsestation eller lektier, og en facitliste følger med. Hele samlingen findes på de 11 sprog vi udgiver på.",
+    "wordsearch": "Ordsøgning arbejdsark gør tidlig læsning til en jagt, børnene faktisk vil gøre færdig. Hvert puslespil gemmer et lille sæt tematiske ord i et gitter af bogstaver, og et barn skanner, får øje på og trækker hen over hvert ord, idet det matcher det, det ser, til billed-ledetrådene ved siden af gitteret. Den skanning er ægte øvelse, bogstavgenkendelse, venstre-mod-højre-sporing og at låse nyt ordforråd fast, pakket ind i et spil. Ordene er korte og temasamlede, så udfordringen forbliver rigtig for indskolingen, og billeder støtter læsere, der stadig lærer klassens sprog. Hvert ordsøgning-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive lader børnene markere ord direkte på skærmen, den printbare er klar til hurtige elever, en læsestation eller lektier, og en facitliste følger med. Hele samlingen findes på de 11 sprog vi udgiver på, så hver klasse kan opbygge ordforråd på det sprog, dens børn lærer.",
+    "matching": "Matchning arbejdsark opbygger en af de mest brugbare tidlige færdigheder, nemlig at se, hvordan to ting hører sammen. Et barn tegner en streg fra hver genstand på den ene side til dens makker på den anden, et billede til sit ord, et tal til en mængde, en genstand til hvor den hører til. Det er tydelig, fokuseret øvelse i forbindelse og en-til-en-korrespondance, og det virker i hele indskolingen med billedstøtte hele vejen. Hvert matchning-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive tegner stregen på et tryk-og-tryk og markerer hvert par, den printbare passer til en station eller lektier, og en facitliste følger med. Hele samlingen findes på de 11 sprog vi udgiver på.",
+    "sudoku": "Billedsudoku arbejdsark bringer rigtig logik til børnene længe før, de kan læse et regelsæt. På et fire-gange-fire-gitter placerer et barn venlige billeder, så hver række, hver søjle og hver lille kasse rummer ét af hvert billede, den samme deduktion som voksen-sudoku kræver, skaleret til små hænder og bygget af billeder i stedet for tal. Det er tålmodig, tilfredsstillende ræsonnementsøvelse, der opbygger opmærksomhed og udelukkelsestænkning, og fordi den hviler på billeder, virker den for hvert barn uanset læseniveau eller hjemmesprog. Hvert billedsudoku-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive lader børnene trække billeder på plads og kontrollerer det færdige gitter, mens den printbare passer til stille arbejde, en logikstation eller lektier, og en facitliste følger med. Hele samlingen findes på de 11 sprog vi udgiver på.",
+    "find-and-count": "Find og tæl arbejdsark forener skarpt blik med omhyggelig tælling. Et barn gennemsøger en travl scene for en bestemt genstand, finder hver enkelt og noterer hvor mange, og øver visuel skanning, en-til-en-tælling og tålmodigheden til at tjekke hele billedet. Scenerne er venlige og målene tydelige, så det virker i hele indskolingen og kræver ingen læsning for at begynde. Hvert find og tæl-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive markerer hvert fund og tæller op undervejs, den printbare passer til et stille bord eller lektier, og en facitliste følger med. Hele sættet findes på de 11 sprog vi udgiver på.",
+    "prepositions": "Præpositioner arbejdsark lærer børnene de små, men vigtige ord, der beskriver hvor ting er, i, på, under, ved siden af, bag. Et barn ser på billederne og vælger det, der passer til positionsordet, og opbygger det rumlige ordforråd, som hverdagens instruktioner og tidlig læsning hviler på. Fordi svaret er et billedvalg, virker det især godt for børn, der lærer klassens sprog. Egnet i hele indskolingen. Hvert præpositioner-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive markerer det valgte billede og bekræfter svaret, den printbare passer til en læsestation eller lektier, og en facitliste følger med. Hele samlingen findes på de 11 sprog vi udgiver på.",
+    "picture-sort": "Sortér billeder arbejdsark giver børnene øvelse i at klassificere, tænkningen bag så meget tidlig naturfag og matematik. Et barn sorterer et sæt billeder i navngivne grupper, levende og ikke-levende, ting der hører til i køkkenet, dyr der flyver. At afgøre, hvor hvert billede hører til, opbygger kategorier, egenskaber og ordforrådet til at forklare et valg. Billedbaseret og egnet til indskolingen, med en valgmulighed for egne ord til læreren. Hvert sortér billeder-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive tager imod billeder i kasser og kontrollerer sorteringen, den printbare passer til en station eller lektier, og en facitliste følger med. Hele sættet findes på de 11 sprog vi udgiver på.",
+    "big-small": "Stor eller lille arbejdsark giver de yngste elever øvelse med størrelse, at få øje på den største, finde den mindste og stille nogle få billeder i orden fra stor til lille. Opgaverne bruger tydelige, venlige billeder og et enkelt tryk eller mærke, så et barn på tre eller fire år kan lykkes uden at læse et ord. At sammenligne efter størrelse er tidlig måletænkning og giver det ordforråd, børnene har brug for til at beskrive og sortere verden omkring sig. Hvert stor eller lille-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive svarer øjeblikkeligt og varmt, mens den printbare er klar til et stille bord, samling eller et ark at tage med hjem, og en facitliste følger med. Del dem ud til en opvarmning, eller brug dem til at se, hvem der er klar til at ordne flere genstande. Hele samlingen findes på de 11 sprog vi udgiver på, så tosprogede og indskolingsklasser kan give hvert barn samme billedopgave på dets eget sprog.",
+    "more-less": "Mere eller mindre arbejdsark opbygger en af de tidligste talidéer: hvilken gruppe har mere, hvilken har mindre, og hvornår er to grupper lige store. På disse ark ser et barn på to sæt venlige billeder og vælger svaret, ingen læsning eller skrivning nødvendig for at begynde, hvilket gør selve sammenligningen til hele opgaven. Det er grundlaget for tælling med mening, for større-end-idéen senere og for det sammenligningssprog, børnene bruger gennem hele skoledagen. Hvert mere eller mindre-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive giver blid, øjeblikkelig respons, den printbare virker til samling, en matematikstation eller lektier, og hvert ark har en facitliste. Brug en bunke til at varme en lektion op eller til at se, hvem der er klar til næste skridt. Hele sættet findes på de 11 sprog vi udgiver på, så hvert barn kan sammenligne og vælge på det sprog, det forstår bedst.",
+    "math-puzzle": "Matematikpuslespil arbejdsark gør taløvelse til noget, der skal løses. Et barn trækker eller skriver brikker på plads for at fuldføre et talpuslespil, idet huller fyldes så regningen går op, hvilket opbygger talforståelse og en vilje til at prøve, tjekke og justere. Puslespillene skalerer fra simple billedstøttede opgaver til ren tal-udfordringer, så de passer i hele indskolingen. Hvert matematikpuslespil-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive klikker brikker på plads og bekræfter en korrekt løsning, den printbare passer til en matematikstation eller lektier, og en facitliste følger med. Hele sættet findes på de 11 sprog vi udgiver på.",
+    "math-worksheet": "Disse Matematik arbejdsark samler den taløvelse, en indskolingsklasse griber efter oftest: at bygge regnestykker, udfylde manglende dele af en ligning og arbejde med blandede plus- og minusopgaver på et niveau, der passer barnet. Yngre elever læner sig op ad billedstøtte for at forankre mængderne, ældre arbejder med tal alene, efterhånden som sikkerheden vokser. Siden samler hvert generelt matematik-ark, vi udgiver, så et hurtigt, fokuseret sæt kan sættes sammen uden at lede på tværs af emner. Hvert ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive giver umiddelbar respons til selvstændigt arbejde, den printbare er klar til en matematikstation, morgenarbejde eller lektier, og en facitliste følger med hvert ark. Kombinér nogle stykker for at fylde en blok, eller vælg ét til en hurtig elev. Hele samlingen findes på de 11 sprog vi udgiver på, så tosprogede og internationale klasser kan holde ét sammenhængende matematikbibliotek på tværs af hvert hjemmesprog i rummet.",
+    "missing-pieces": "Manglende brikker arbejdsark er et form- og kig-puslespil: en del af et billede er klippet væk, og barnet vælger den brik, der passer i hullet, og trækker den på plads. Det opbygger visuel fuldendelse, opmærksomhed på form og retning samt omhyggelig sammenligning, idet den rette brik vælges blandt lignende. Opgaverne er billedbaserede og passer til indskolingen uden krav om læsning. Hvert manglende brikker-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive tager imod den korrekte brik i hvert hul og markerer en forkert pasning, den printbare passer til et stille bord eller lektier, og en facitliste følger med. Hele samlingen findes på de 11 sprog vi udgiver på.",
+    "odd-one-out": "Hvilken passer ikke arbejdsark beder et barn se på en lille gruppe billeder og vælge det, der ikke hører til, dyret blandt køretøjerne, cirklen blandt firkanterne. Det er tidlig klassifikation og ræsonnement, at lægge mærke til hvad et sæt har til fælles, og hvad der bryder reglen, og at kunne begrunde valget. Opgaverne er billedbaserede og passer til indskolingen uden krav om læsning. Hvert hvilken passer ikke-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive markerer det valgte billede og afslører svaret, den printbare passer til en station eller lektier, og en facitliste følger med. Hele sættet findes på de 11 sprog vi udgiver på.",
+    "shadow-match": "Match skygger arbejdsark er en ren visuel matchopgave: hver genstand skal parres med sin egen skygge eller silhuet. Et barn sammenligner former, omrids, størrelse og retning, for at finde den rette, og skærper visuel skelnen og opmærksomhed på form. Det er billedbaseret, kræver ingen læsning og passer til indskolingen, især de yngste. Hvert match skygger-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive tegner forbindelsen på et tryk-og-tryk og markerer hvert korrekt par, den printbare passer til et stille bord eller lektier, og en facitliste følger med. Hele sættet findes på de 11 sprog vi udgiver på.",
+    "code-addition": "Kodeaddition arbejdsark giver additionsøvelse et tilfredsstillende twist: hvert regnestykke har et svar, og hvert svar står for et bogstav, så når rækken af regnestykker løses, staves et skjult ord. Børnene får ægte additionsgentagelse og en grund til at blive ved, nemlig afsløringen til sidst. Det passer til børn, der er sikre nok i regnestykker til at nyde et puslespil, typisk fra børnehaveklasse til 2. klasse. Hvert kodeaddition-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive kontrollerer hvert regnestykke og udfylder koden, den printbare virker til hurtige elever eller lektier, og en facitliste følger med. Hele sættet findes på de 11 sprog vi udgiver på.",
+    "pattern-train": "Mønstertoget arbejdsark sætter mønstre på skinner: en gentagende sekvens af billeder løber langs toget, og barnet regner ud, hvad der kommer næst, og fylder de tomme vogne for at holde mønstret i gang. At genkende og forlænge mønstre er kerne-tænkning i tidlig matematik, fundamentet for springtælling, multiplikation og algebra senere, og toget gør venstre-mod-højre-sekvensen konkret. Billedbaseret og egnet til indskolingen. Hvert mønstertoget-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive placerer det næste billede og kontrollerer sekvensen, den printbare passer til en matematikstation eller lektier, og en facitliste følger med. Hele samlingen findes på de 11 sprog vi udgiver på.",
+    "picture-path": "Billedvej arbejdsark giver børnene en sti at følge gennem et gitter, idet barnet starter i ét felt og bevæger sig skridt for skridt frem til målet og vælger den rette vej undervejs. Det er øvelse i rumlig forståelse og retningssans, hvad er vej næste gang, der opbygger de venstre-mod-højre- og top-mod-bund-vaner, læsning og skrivning hviler på, og fordi den hviler på billeder og pile, virker den før et barn læser flydende. Hvert billedvej-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version, der lader et barn følge stien på skærmen og kontrollerer ruten, plus en facitliste. Hele samlingen findes på de 11 sprog vi udgiver på, så hver klasse kan øve på det sprog, dens børn har brug for.",
+    "treasure-hunt": "Skattejagt arbejdsark giver børnene en tidlig smag af at følge anvisninger og læse rum. Med start i et markeret felt følger et barn enkle trin-for-trin-ledetråde, så mange felter denne vej og så den vej, og sporer en sti hen over gitteret, indtil det når den skjulte skat. Det er ægte øvelse i rumlig forståelse og retningsord, op, ned, venstre, højre, ved siden af, klædt ud som et eventyr, og fordi ledetrådene hviler på billeder og pile, virker det før et barn læser flydende. Hvert skattejagt-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive lader et barn følge ruten på skærmen og kontrollerer stien, mens den printbare er klar til pararbejde eller lektier, og en facitliste følger med. Hele sættet findes på de 11 sprog vi udgiver på.",
+    "preschool": "Arbejdsark til Børnehave virker bedst, når de føles som leg, og dem på denne side er bygget sådan: store venlige billeder, én klar opgave per ark og ingen krav om læsning for at komme i gang. Børn på tre til fem år øver de allertidligste færdigheder her, nemlig remse-tælling af små grupper, matchning og sortering efter farve eller slags, at lægge mærke til hvilket billede der er størst eller hvilken der ikke passer, samt at tegne de første bogstaver og former. Fordi hver aktivitet hviler på billeder fra vores fælles ordforråd, kan et barn, der stadig lærer klassens sprog, deltage med det samme. Hvert ark er en gratis printbar PDF at printe og en interaktiv version med blid, øjeblikkelig respons, med en facitliste til den voksne. Print en bunke til et stille bord, åbn ét på tavlen til samling, eller send et ark hjem til fem minutters øvelse. Hele samlingen findes på de 11 sprog vi udgiver på, så tosprogede og internationale indskolingsmiljøer kan give hvert barn samme aktivitet på det sprog, det har brug for.",
+    "kindergarten": "I børnehaveklassen begynder tingene at falde på plads, og disse arbejdsark giver børnene den gentagelse, der gør færdighederne sikre, uden at det føles som terperi. Børn på fem til syv år øver sikker tælling og begyndende addition og subtraktion, kobler tal til mængder, sorterer og laver mønstre, genkender bogstaver og deres lyde og møder de første læste ord, alt sammen billedstøttet så tænkningen bliver på færdigheden frem for på instruktionen. Siden samler hvert arbejdsark til Børnehaveklasse på tværs af matematik, bogstaver, logik og rumlig forståelse, så en kort lektion kan bygges ét sted fra. Hvert ark er en gratis printbar PDF at printe med en tilhørende interaktiv version, man kan spille online, og hvert ark har en facitliste. Brug den printbare til stationer eller lektier, og kombinér med online-versionen til fælles opvarmning. Hele samlingen findes på de 11 sprog vi udgiver på, en reel hjælp i internationale klasser med forskellige hjemmesprog.",
+    "grade-1": "I 1. klasse går børnene fra at tælle til at regne og fra bogstaver til at læse, og disse arbejdsark rammer børnene præcis dér, hvor det skift sker. Børn på seks til otte år øver addition og subtraktion inden for 0-20, tiervenner og talmønstre, lydering af lydrette ord, læsning af korte sætninger og sorterings- og logikopgaver, der opbygger ræsonnement. Opgaverne har stadig billedstøtte, hvor det hjælper, og letter derefter over mod tal- og ordformat, efterhånden som sikkerheden vokser, så barnet altid arbejder lige ud over det bekvemme. Denne side samler hvert arbejdsark til 1. klasse, vi udgiver, så et fokuseret sæt kan hentes på få sekunder. Hvert ark er en gratis printbar PDF at printe og en interaktiv version, man kan spille online: den interaktive giver umiddelbar respons til selvstændigt arbejde, den printbare er klar til vejledt øvelse eller lektier, og en facitliste følger altid med. Kombinér ark på tværs af matematik og læsning, eller send ét hjem til ekstra øvelse. Hele sættet til 1. klasse findes på de 11 sprog vi udgiver på.",
+    "grade-2": "I 2. klasse er børnene klar til flere trin og mere selvstændighed, og disse arbejdsark giver dem begge dele. Børn på syv til ni år arbejder med tocifret addition og subtraktion inden for 0-100, begyndende multiplikationstænkning, positionssystem med tiere og enere, længere læsning og ordarbejde, krydsord og ordsøgninger der udvider ordforrådet, og logikpuslespil der belønner at planlægge frem. Opgaverne er lavet til at klares med mindre hjælp, tydelige nok til at starte alene, rige nok til at holde en hurtig elev i gang, og med billed-ledetråde hvor en flersproget elev har gavn af dem. Denne side samler hvert arbejdsark til 2. klasse, vi udgiver, så et differentieret sæt kan sættes sammen uden at lede. Hvert ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive kontrollerer arbejdet med det samme, den printbare passer til stationer, pararbejde eller lektier, og en facitliste følger med hvert ark. Hele sættet til 2. klasse findes på de 11 sprog vi udgiver på.",
     "addition__animals": "Additions-arbejdsark med dyretema parrer den operation, børnene øver, med ordforråd, som børnene allerede kender godt. Formatet reducerer den kognitive belastning på billedet og holder den på aritmetikken — nyttigt for børn, der stadig opbygger deres faktagrundlag for addition.",
     "animals__subtraction": "Subtraktions-arbejdsark med dyretema viser tag-væk med skabninger, som børnene genkender med det samme, hvilket gør operationen lettere at læse. Billederne holder fokus på selve subtraktionen.",
     "alphabet-train__animals": "Alfabettog-arbejdsark med dyretema bruger dyrenavne som alfabet-anker — hver vogn repræsenterer et dyr, hvis navn begynder med et andet bogstav. Parringen forstærker bogstav-lyd-koblingen, mens børnene øver alfabetsekvensen.",
@@ -1478,7 +1955,16 @@
     "code-addition__kindergarten": "Børnehaveklasse-kode-addition-arbejdsark giver den aritmetiske øvelse en læse- og skriveramme: hver sum afkoder et bogstav eller et ord, hvilket får øvelsen til at føles målrettet for børn, der har grundfakta, men har brug for motivation.",
     "kindergarten__pattern-train": "Børnehaveklasse-mønstertog-arbejdsark øver mønstergenkendelse — skiftende, gentagende, voksende — i et togformat, der er visuelt let at læse. Mønstergenkendelse er grundlæggende inden for matematik og læsning.",
     "kindergarten__picture-path": "Børnehaveklasse-billedsti-arbejdsark øver rutefinding gennem et gitter, hvilket øver rumlig tænkning og tålmodighed. Børn på dette udviklingsniveau er klar til at overveje ruter, før de sætter blyanten på papiret.",
-    "grade-1__treasure-hunt": "Skattejagter til 1. klasse giver børnene en flertrins-retningssekvens at følge på et gitter. Aktiviteten opbygger rumlig tænkning, arbejdshukommelse og flydende retningsordforråd på et niveau, børn i 1. klasse kan holde ud i."
+    "grade-1__treasure-hunt": "Skattejagter til 1. klasse giver børnene en flertrins-retningssekvens at følge på et gitter. Aktiviteten opbygger rumlig tænkning, arbejdshukommelse og flydende retningsordforråd på et niveau, børn i 1. klasse kan holde ud i.",
+    "cryptogram": "Kryptogram arbejdsark lader børnene knække en simpel kode og afsløre ord. Hvert billede eller symbol står for et bogstav, og ved at finde nøglen og udfylde den afkoder barnet beskeden og øver bogstavgenkendelse, stavning og tålmodig problemløsning på én gang. Opgaverne holdes korte og billedstøttede, så de passer til indskolingen. Hvert kryptogram-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive udfylder et bogstav overalt, hvor symbolet optræder, og bekræfter løsningen, mens den printbare passer til en læsestation eller lektier, og en facitliste følger med. Hele samlingen findes på de 11 sprog vi udgiver på.",
+    "chart-count": "Tæl i diagram arbejdsark forener to tidlige færdigheder, nemlig tælling og at læse et enkelt diagram. Et barn tæller, hvor mange der er af hver genstand, og udfylder så den tilsvarende søjle i et søjlediagram, hvorved en bunke billeder bliver til et ryddeligt billede af hvor mange. Det er første skridt mod data og grafer, og det styrker en-til-en-tælling undervejs. Hvert tæl i diagram-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive fylder søjler, efterhånden som barnet trykker, og kontrollerer totalerne, mens den printbare passer til en station eller lektier, og en facitliste følger med. Egnet i hele indskolingen, med billedstøtte hele vejen. Hele samlingen findes på de 11 sprog vi udgiver på.",
+    "pattern-worksheet": "Mønster arbejdsark opbygger en af de tidligste matematikvaner, nemlig at se en regel og fortsætte den. Et barn læser en gentagende sekvens som AB eller ABC og regner ud, hvad der kommer næst, og fuldfører mønstret med det rigtige billede. At genkende og forlænge mønstre ligger under springtælling, multiplikation og det ræsonnement, matematik senere hviler på, og billedformatet betyder, at et barn kan lykkes, før det læser. Egnet i hele indskolingen. Hvert mønster-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive placerer den næste genstand og kontrollerer reglen, den printbare passer til en station eller lektier, og en facitliste følger med. Hele sættet findes på de 11 sprog vi udgiver på.",
+    "bingo": "Bingo arbejdsark samler hele klassen om at lytte og genkende hurtigt. Hvert barn får en plade med billeder, bogstaver eller tal, og når en genstand kaldes op, finder og markerer barnet den på sin plade. Det er legende øvelse i at genkende et mål hurtigt, vente på tur og blive i en fælles opgave, og fordi en plade kan bygges af billeder, bogstaver eller tal, vokser samme spil med klassen på tværs af tælling, alfabetet og tidligt ordforråd. Hvert bingo-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive kalder genstande op og markerer tryk, den printbare er klar til at dele ud til en gruppe, og en facitliste følger med. Hele sættet findes på de 11 sprog vi udgiver på.",
+    "grid-match": "Gittermatch arbejdsark beder et barn placere brikker i et gitter, så hver lander på sit matchende felt, idet billeder parres eller en genstand sættes på sin plads, mens layoutet holdes i hovedet. Det er konkret øvelse i matchning, visuel hukommelse og at arbejde systematisk hen over et gitter. Opgaverne passer til indskolingen og hviler på tydelige billeder, så ingen læsning er nødvendig for at starte. Hvert gittermatch-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive lader børnene trække brikker ind i felter og kontrollerer det færdige gitter, mens den printbare passer til pararbejde eller lektier, og en facitliste følger med. Hele sættet findes på de 11 sprog vi udgiver på.",
+    "word-guess": "Gæt ordet arbejdsark giver de tidlige stavere en venlig måde at bygge ord på. Et billede viser ordet, og barnet udfylder de tomme bogstaver for at stave det, lydering, kobling af bogstaver til lyde og bekræftelse via billedet. Det er fonik- og staveøvelse, der føles som et lille puslespil, med ordlængde og støtte tilpasset indskolingen. Hvert gæt ordet-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive tager imod indtastede bogstaver og kontrollerer stavningen, den printbare passer til en læsestation eller lektier, og en facitliste følger med. Hele samlingen findes på de 11 sprog vi udgiver på.",
+    "word-scramble": "Bogstavpuslespil arbejdsark gør stavning til en tilfredsstillende ordnen. Bogstaverne i et ord er blandet ved siden af dets billede, og barnet stiller dem i den rigtige rækkefølge og øver bogstavgenkendelse, stavemønstre og de lyde, der holder et ord sammen, med billedet som ledetråd. Ordlængden er tilpasset indskolingens læsere. Hvert bogstavpuslespil-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive lader børnene ordne bogstaverne og kontrollerer ordet, den printbare passer til en læsestation eller lektier, og en facitliste følger med. Hele samlingen findes på de 11 sprog vi udgiver på.",
+    "crossword": "Krydsord arbejdsark giver tidlige læsere en blid og belønnende måde at forbinde billeder, lyde og stavning på. I stedet for tekst-ledetråde bruger hvert puslespil billed-ledetråde: et barn ser et billede, siger ordet og skriver dets bogstaver ind i det krydsende gitter, hvor de krydsende bogstaver giver en hjælpsom kontrol undervejs. Det er stave- og ordforrådsøvelse, der føles som at løse frem for at blive testet, og det passer til indskolingen, fordi ordene holdes korte og velkendte. Hvert krydsord-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive lader børnene skrive i gitteret og bekræfter hver indtastning, mens den printbare virker til en læsestation, pararbejde eller lektier, og en facitliste følger altid med. Hele sættet findes på de 11 sprog vi udgiver på, så børnene kan bygge stavning og ordforråd på det sprog, de lærer at læse på.",
+    "find-objects": "Find genstandene arbejdsark er en kig-og-find-jagt: et barn gennemsøger en detaljeret scene for de oplistede genstande og markerer hver enkelt, efterhånden som det får øje på den. Det er fokuseret øvelse i visuel skelnen, opmærksomhed på detaljer og at matche et mål til det, der er på siden, og fordi målene er billeder, kan hvert barn deltage uanset læseniveau. Scenerne passer til indskolingen og belønner et omhyggeligt, roligt blik. Hvert find genstandene-ark er en gratis printbar PDF at printe med en tilhørende interaktiv version: den interaktive registrerer hvert tryk på en fundet genstand, den printbare er klar til en station eller lektier, og en facitliste følger med. Hele samlingen findes på de 11 sprog vi udgiver på."
   },
   "bulk": {
     "toggleSelect": "Select",

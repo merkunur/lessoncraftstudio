@@ -1433,13 +1433,13 @@
       "axis": "exercise-type",
       "axisKey": "math-worksheet",
       "url": "https://www.lessoncraftstudio.com/da/topic/matematikark/",
-      "primaryKeyword": "Matematikark arbejdsark",
+      "primaryKeyword": "Matematik arbejdsark",
       "secondaryKeywords": [
-        "gratis Matematikark arbejdsark",
-        "Matematikark arbejdsark til print",
-        "Matematikark for børn"
+        "gratis matematik arbejdsark",
+        "matematik arbejdsark til print",
+        "matematikopgaver til børnehaveklasse"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -2073,13 +2073,13 @@
       "axis": "exercise-type",
       "axisKey": "pattern-worksheet",
       "url": "https://www.lessoncraftstudio.com/da/topic/monsterark/",
-      "primaryKeyword": "Mønsterark arbejdsark",
+      "primaryKeyword": "Mønster arbejdsark",
       "secondaryKeywords": [
-        "gratis Mønsterark arbejdsark",
-        "Mønsterark arbejdsark til print",
-        "Mønsterark for børn"
+        "gratis mønster arbejdsark",
+        "mønster arbejdsark til print",
+        "mønsteropgaver for børn"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },

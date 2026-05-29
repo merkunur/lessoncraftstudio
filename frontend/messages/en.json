@@ -2425,6 +2425,370 @@
           "q": "Which languages are they available in?",
           "a": "All 11 languages we publish in."
         }
+      ],
+      "find-and-count__preschool": [
+        {
+          "q": "Are find-and-count worksheets right for preschool?",
+          "a": "Yes — children scan a small scene, find target pictures, and count them; no reading needed, ideal for ages 3-5."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "kindergarten__missing-pieces": [
+        {
+          "q": "What do missing-pieces worksheets build in kindergarten?",
+          "a": "Shape awareness, visual discrimination, and compare-before-you-choose reasoning for ages 5-7 — a picture puzzle, no reading needed."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "kindergarten__pattern-train": [
+        {
+          "q": "What do pattern-train worksheets practise in kindergarten?",
+          "a": "Recognising and extending repeating picture patterns — foundational maths thinking for ages 5-7, fully picture-based."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "kindergarten__picture-sort": [
+        {
+          "q": "What do picture-sort worksheets teach in kindergarten?",
+          "a": "Sorting and classifying pictures by category — early logic and vocabulary for ages 5-7, no reading needed."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "addition__kindergarten": [
+        {
+          "q": "Are these addition worksheets right for kindergarten?",
+          "a": "Yes — small, picture-supported sums for ages 5-7, moving toward first number sentences as children are ready."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "kindergarten__subtraction": [
+        {
+          "q": "Are subtraction worksheets suitable for kindergarten?",
+          "a": "Yes — picture-supported take-away for ages 5-7, easing toward simple number sentences, with pictures keeping the focus on the idea."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "kindergarten__math-worksheet": [
+        {
+          "q": "What math do these kindergarten worksheets cover?",
+          "a": "Simple number sentences, missing-number problems, and small sums and differences for ages 5-7, with picture support."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "more-less__preschool": [
+        {
+          "q": "Are more-or-less worksheets right for preschool?",
+          "a": "Yes — picture-based which-has-more comparison for ages 3-5, no reading or writing needed."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "code-addition__kindergarten": [
+        {
+          "q": "What do code-addition worksheets practise in kindergarten?",
+          "a": "Small sums plus letter recognition — children solve additions to reveal a hidden word, for ages 5-7."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "grid-match__kindergarten": [
+        {
+          "q": "What do grid-match worksheets build in kindergarten?",
+          "a": "Visual matching, position sense, and working memory for ages 5-7 — a picture grid puzzle, no reading needed."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "grade-1__math-puzzle": [
+        {
+          "q": "Are math-puzzle worksheets right for grade 1?",
+          "a": "Yes — drag-to-complete number puzzles that build number sense and planning for ages 6-8."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "kindergarten__shadow-match": [
+        {
+          "q": "What do shadow-match worksheets practise in kindergarten?",
+          "a": "Matching objects to their shadows — shape and outline recognition for ages 5-7, fully picture-based."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "4th_of_july__grade-1": [
+        {
+          "q": "What do these Fourth-of-July worksheets cover for grade 1?",
+          "a": "Addition and subtraction within 20, reading and word work, sorting, and logic — on a festive holiday picture set, for ages 6-8."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "big-small__preschool": [
+        {
+          "q": "Are big-or-small worksheets right for preschool?",
+          "a": "Yes — picture-based size comparison and ordering for ages 3-5, no reading needed."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "kindergarten__prepositions": [
+        {
+          "q": "What do prepositions worksheets teach in kindergarten?",
+          "a": "Positional words (in, on, under, next to) through picture choices — spatial vocabulary for ages 5-7."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "kindergarten__sudoku": [
+        {
+          "q": "Is picture sudoku suitable for kindergarten?",
+          "a": "Yes — a 4x4 picture grid that teaches real deduction for ages 5-7, with no reading or numbers required."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "cryptogram__kindergarten": [
+        {
+          "q": "What do cryptogram worksheets practise in kindergarten?",
+          "a": "Letter recognition and early spelling via a picture-and-symbol code, with a word to reveal, for ages 5-7."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "kindergarten__odd-one-out": [
+        {
+          "q": "What do odd-one-out worksheets build in kindergarten?",
+          "a": "Classification and reasoning — finding (and explaining) the picture that doesn't belong, for ages 5-7."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "grade-1__treasure-hunt": [
+        {
+          "q": "What do treasure-hunt worksheets practise in grade 1?",
+          "a": "Following multi-step directions and spatial reasoning on a grid, for ages 6-8."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "4th_of_july__treasure-hunt": [
+        {
+          "q": "What do these worksheets practise?",
+          "a": "Following directions and spatial reasoning on a grid, with a Fourth-of-July theme, for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "kindergarten__picture-trail": [
+        {
+          "q": "What do picture-trail worksheets build in kindergarten?",
+          "a": "Spatial reasoning and directionality — tracing a path through a grid, for ages 5-7, fully picture-based."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "find-objects__kindergarten": [
+        {
+          "q": "What do find-objects worksheets practise in kindergarten?",
+          "a": "Visual discrimination, attention to detail, and vocabulary — an I-Spy hunt for ages 5-7, no reading needed."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "grade-1__wordsearch": [
+        {
+          "q": "Are word-search worksheets right for grade 1?",
+          "a": "Yes — short, picture-supported word hunts that build letter recognition, scanning, and vocabulary for ages 6-8."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "kindergarten__matching": [
+        {
+          "q": "What do matching worksheets build in kindergarten?",
+          "a": "One-to-one association, visual attention, and vocabulary — connecting pictures to their pairs, for ages 5-7."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "animals__kindergarten": [
+        {
+          "q": "What is on the animal worksheets for kindergarten page?",
+          "a": "Animal-themed worksheets across counting, addition, sorting, matching, odd-one-out, and early spelling — pitched for ages 5-7."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "picture-trail": [
+        {
+          "q": "What do picture trail worksheets teach?",
+          "a": "Spatial reasoning and directionality — tracing a path through a grid to the goal, for K-3, fully picture-based."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
       ]
     },
     "fallback": {
@@ -2646,29 +3010,29 @@
     "animals__big-small": "Animal-themed big-small worksheets use the natural size variation across creatures — elephant to mouse — to make relative-size comparison concrete. Children read the size cue confidently and the underlying skill transfers.",
     "animals__more-less": "Animal-themed more-less worksheets ask children to compare quantities of familiar creatures — three sheep or five sheep — and decide which group has more. The visual support keeps the focus on the quantity comparison itself.",
     "animals__shadow-match": "Animal-themed shadow-match worksheets pair each creature picture with its silhouette. The activity is particularly accessible because children recognise the animal shapes confidently before they have to manage the outline-only version.",
-    "animals__kindergarten": "Animal-themed kindergarten worksheets pair familiar creature vocabulary with the activities a kindergartener is ready for: matching, sorting, simple counting, beginning-letter work. The animal context makes the work feel approachable; the activities themselves stretch a kindergartener's developing skills.",
+    "animals__kindergarten": "Animal worksheets for kindergarten put the most loved picture set in early childhood to work for five- to seven-year-olds. The familiar cast — cats, cows, birds, fish — carries children through counting and early addition, sorting and matching, odd-one-out, and first-letter spelling, so a new skill is practised on pictures children already know rather than a fresh context each time. Animal names are also high-frequency in every language we publish, a real help in a dual-language kindergarten. This page gathers the animal-themed worksheets that suit the kindergarten stage. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
     "animals__preschool": "Animal-themed preschool worksheets give the youngest learners high-recognition pictures paired with simple pre-academic tasks — colour the bird, count the ducks, find the dog that's different. The familiar pictures keep cognitive load low while the activities exercise the skills preschool is meant to develop.",
     "animals__grade-1": "Animal-themed grade-1 worksheets use familiar creatures as the vehicle for the more demanding work the year brings — longer wordsearches, multi-step counting, beginning addition with picture support. Children stay engaged with the topic while the cognitive demand steps up.",
-    "addition__kindergarten": "Kindergarten addition worksheets give children practice with the small sums their developing number sense can manage — single-digit addition, picture-supported problems, sums within ten. The format builds toward fact recall without rushing past the picture-counting stage that kindergarteners often still rely on.",
-    "kindergarten__subtraction": "Kindergarten subtraction worksheets practise take-away with quantities children can hold in mind — usually within ten, often with picture support that lets children physically cross out the items leaving. The activity builds the take-away intuition before children need to manage abstract subtraction.",
+    "addition__kindergarten": "Addition worksheets for kindergarten meet five- to seven-year-olds at the moment counting starts to become adding. At this stage the sums stay small and picture-supported: a child counts two groups, then combines them, before moving to simple number sentences as confidence grows. Keeping the numbers low and the pictures clear lets the thinking stay on the idea of putting together rather than on reading instructions. These sheets suit morning work, a maths centre, or a quick partner task, and each comes as a free printable PDF with a matching play-online version that checks answers instantly, plus an answer key. The whole set is available in all 11 languages we publish in, so a dual-language kindergarten can give every child the same step in the language they need.",
+    "kindergarten__subtraction": "Subtraction worksheets for kindergarten introduce taking-away in the gentlest way: five- to seven-year-olds start with picture problems — cross out what leaves, count what remains — before moving to simple number sentences as they grow surer. Keeping the numbers small and the pictures clear lets the idea of how many are left land without the distraction of new instructions each time. The sheets suit morning work, a maths centre, or a quick partner task. Each is a free printable PDF with a matching play-online version that marks answers instantly, plus an answer key. The whole set is available in all 11 languages we publish in, so a dual-language kindergarten can give every child the same step.",
     "alphabet-train__preschool": "Preschool alphabet-train worksheets introduce the alphabet sequence at the developmental moment when children are starting to recognise that letters have an order. The format is forgiving — a child who knows their first letter and a few more can still complete a row.",
-    "grade-1__wordsearch": "Grade-1 wordsearches give independent reading practice once children have moved past sight-word recognition into sustained letter-by-letter scanning. The targets are short and themed, which keeps the cognitive demand on the scanning rather than on remembering what to look for.",
-    "kindergarten__matching": "Kindergarten matching worksheets practise the relationship-finding move that underlies most early reading and early math: this picture goes with that letter, this quantity goes with that numeral. The format gives kindergarteners independent practice with a cognitive operation they're rapidly developing.",
-    "kindergarten__sudoku": "Kindergarten picture sudoku gives logic-puzzle experience at a developmental level a kindergartener can manage — four images, a 4×4 grid, deduction by elimination. Useful as an enrichment task for kindergarteners ready for more cognitive challenge.",
-    "find-and-count__preschool": "Preschool find-and-count worksheets ask the youngest learners to scan a small scene, locate target objects, and count them. The activity is short and visual, which suits preschool attention; the underlying skills — visual discrimination and one-to-one correspondence — are foundational.",
-    "kindergarten__prepositions": "Kindergarten preposition worksheets attach spatial vocabulary to concrete pictures at the developmental moment when children are ready to make this language explicit. The picture-supported format keeps the cognitive load on the relationship.",
-    "kindergarten__picture-sort": "Kindergarten picture-sort worksheets practise binary classification with the categories kindergarteners are ready to manage — colour, initial letter, what something eats, where something lives. Each page gives independent practice with an underlying classification skill.",
-    "big-small__preschool": "Preschool big-small worksheets give the youngest learners practice with relative-size comparison, the precursor skill to measurement and ordering. The pictures are exaggerated so the comparison is unambiguous.",
-    "more-less__preschool": "Preschool more-less worksheets practise quantity comparison at the developmental level where children can count two small groups but aren't yet handling abstract numerals confidently. Useful as a precursor to formal addition.",
-    "grade-1__math-puzzle": "Grade-1 math puzzles give the year's number facts a logical framing — children solve arithmetic to figure something out rather than to drill it. Suits the grade-1 readiness for slightly more sustained cognitive work.",
-    "kindergarten__math-worksheet": "Kindergarten math worksheets give targeted practice with the operations a kindergartener is currently consolidating, in formats short enough to suit kindergarten attention. Pair them with manipulatives during small-group instruction.",
-    "kindergarten__missing-pieces": "Kindergarten missing-pieces worksheets exercise visual completion at the level kindergarteners can manage — straightforward shapes, unambiguous targets, small palettes of options. The activity builds spatial reasoning during a developmental window where it's strongly available.",
-    "kindergarten__odd-one-out": "Kindergarten odd-one-out worksheets give the discrimination practice underlying classification: a small group of pictures, one of which doesn't fit. The criterion varies, which keeps children attending closely to what's actually being asked.",
-    "kindergarten__shadow-match": "Kindergarten shadow-match worksheets pair pictures with their silhouettes. The shape-recognition move involved is foundational for letter recognition; the picture context makes it accessible at the kindergarten level.",
-    "code-addition__kindergarten": "Kindergarten code-addition worksheets give arithmetic practice a literacy framing: each sum decodes a letter or word, which makes the practice feel purposeful for children who have basic facts but need the motivation.",
-    "kindergarten__pattern-train": "Kindergarten pattern-train worksheets practise pattern recognition — alternating, repeating, increasing — using a train format that's easy to read visually. Pattern recognition is foundational across math and reading.",
+    "grade-1__wordsearch": "Word-search worksheets turn early reading into a hunt grade 1 children actually want to finish. Each puzzle hides a small set of themed words in a grid of letters; a child scans, spots, and marks each word, matching what they see to the picture clues beside the grid. For six- to eight-year-olds that scanning is real practice — letter recognition, left-to-right tracking, and locking in new vocabulary — wrapped in a game. Each sheet is a free printable PDF with a matching play-online version where words are selected on screen and checked, plus an answer key. The whole set is available in all 11 languages we publish in.",
+    "kindergarten__matching": "Matching worksheets give kindergartners a clear, satisfying task: draw a line to connect each item to its pair. For five- to seven-year-olds, deciding what goes with what builds one-to-one association, visual attention, and the vocabulary that comes from naming each pair. The picture-based task suits every child whatever their reading level or home language. Each sheet is a free printable PDF with a matching play-online version where children tap to draw each line and check it, plus an answer key. The whole set is available in all 11 languages we publish in, so every kindergarten can practise in the language its children need.",
+    "kindergarten__sudoku": "Picture-sudoku worksheets bring real logic to kindergarten long before children can read a rulebook. On a four-by-four grid, a child places friendly pictures so that each row, column, and small box holds one of every image — the same deduction grown-up sudoku asks for, scaled to five- to seven-year-olds and built from pictures instead of numbers. It is patient, satisfying reasoning that builds attention and process-of-elimination thinking. Each sheet is a free printable PDF with a matching play-online version where children drag pictures into place and the grid is checked, plus an answer key. The whole set is available in all 11 languages we publish in.",
+    "find-and-count__preschool": "Find-and-count worksheets are a wonderful first counting task for preschool, because they ask three- to five-year-olds to do two things they love: hunt for pictures and count what they find. A child scans a small, friendly scene, spots the target objects, and counts how many — no reading needed to begin, just looking carefully and keeping track. That gentle search builds visual attention and one-to-one counting at exactly the right level for the youngest learners. Each sheet comes as a free printable PDF with a matching play-online version that gives instant, encouraging feedback, plus an answer key for the grown-up. The whole set is available in all 11 languages we publish in, so every preschooler can join in straight away.",
+    "kindergarten__prepositions": "Prepositions worksheets help kindergartners master the little words that describe where things are — in, on, under, next to. The child looks at pictures and chooses the one that shows the position, building the spatial vocabulary five- to seven-year-olds use all day, in maths and in stories alike. Because the task is picture-led, it works for every child regardless of reading level or home language, and it sparks useful describing talk. Each sheet is a free printable PDF with a matching play-online version that checks each choice, plus an answer key. The whole set is available in all 11 languages we publish in.",
+    "kindergarten__picture-sort": "Picture-sort worksheets ask kindergartners to put pictures where they belong — sorting images into labelled groups by kind, colour, or category. For five- to seven-year-olds, deciding what goes together and why is early logic and vocabulary practice at once, and it sparks plenty of useful talk. Because the sorting is done with pictures, every child can take part regardless of reading level or home language. Each sheet is a free printable PDF with a matching play-online version where children drag pictures into bins and check their work, plus an answer key. The whole set is available in all 11 languages we publish in.",
+    "big-small__preschool": "Big-or-small worksheets give preschoolers their first taste of measurement thinking: spotting the biggest, finding the smallest, and putting a few pictures in order by size. For three- to five-year-olds the task uses clear images and a single tap or mark, so a child can succeed without reading a word. Comparing by size also feeds the vocabulary children need to describe and sort the world around them. Each sheet is a free printable PDF with a matching play-online version that responds warmly and instantly, plus an answer key. The whole set is available in all 11 languages we publish in.",
+    "more-less__preschool": "More-or-less worksheets are one of the very first number ideas preschoolers meet: looking at two groups of pictures and deciding which has more, which has fewer, and when they are the same. For three- to five-year-olds this is the groundwork for counting with meaning, and the task needs no reading or writing — just a look and a choice. The friendly pictures make it welcoming for every child, whatever their home language. Each sheet is a free printable PDF with a matching play-online version that gives gentle, instant feedback, plus an answer key. The whole set is available in all 11 languages we publish in.",
+    "grade-1__math-puzzle": "Math-puzzle worksheets give grade 1 a hands-on way to build number sense: children drag pieces to complete a number puzzle, working out where each one belongs. For six- to eight-year-olds this rewards a little planning and trial-and-adjust thinking on top of the arithmetic, which suits the step from counting to calculating. The format is clear enough to start independently and rich enough to keep a fast finisher busy. Each sheet is a free printable PDF with a matching play-online version that checks the completed puzzle, plus an answer key. The whole set is available in all 11 languages we publish in.",
+    "kindergarten__math-worksheet": "These math worksheets gather the core number practice a kindergarten reaches for most — building simple number sentences, filling in a missing part, and working through small sums and differences at a level that fits five- to seven-year-olds. Picture support anchors the quantities so the thinking stays on the maths rather than on decoding instructions. Pulling the general number work together in one place makes it quick to build a short lesson or a maths-centre task. Each sheet is a free printable PDF with a matching play-online version that gives instant feedback, plus an answer key. The whole set is available in all 11 languages we publish in.",
+    "kindergarten__missing-pieces": "Missing-pieces worksheets give kindergartners a satisfying visual puzzle: each picture has a gap, and the child drags the right cut-out piece into the hole to complete it. For five- to seven-year-olds this builds shape awareness, visual discrimination, and the patience to compare options before choosing — early reasoning dressed up as play. Because the task is picture-based, it works whatever a child's reading level or home language, and the clear shapes keep the focus on the thinking. Each sheet is a free printable PDF with a matching play-online version that snaps pieces into place and checks the finished picture, plus an answer key. The whole set is available in all 11 languages we publish in.",
+    "kindergarten__odd-one-out": "Odd-one-out worksheets ask kindergartners to find the picture that does not belong — and, just as importantly, to think about why. For five- to seven-year-olds this is early classification and reasoning: noticing what a group has in common and spotting the exception. The picture-based task suits every child whatever their reading level or home language, and it prompts plenty of useful explaining talk. Each sheet is a free printable PDF with a matching play-online version that reveals the answer after a choice, plus an answer key. The whole set is available in all 11 languages we publish in.",
+    "kindergarten__shadow-match": "Shadow-match worksheets ask kindergartners to pair each object with its shadow — a clean visual-matching task that sharpens attention to shape and outline. For five- to seven-year-olds, looking past colour and detail to recognise a form by its silhouette is genuinely good observation practice, and it feels like a game. The picture-based task works for every child whatever their reading level or home language. Each sheet is a free printable PDF with a matching play-online version that draws the match and checks it, plus an answer key. The whole set is available in all 11 languages we publish in.",
+    "code-addition__kindergarten": "Code-addition worksheets add a dash of mystery to early maths: a kindergartner solves small sums, and each answer maps to a letter that reveals a hidden word. For five- to seven-year-olds it pairs simple addition with the thrill of cracking a code, so number practice and letter recognition happen together. The sums stay small and picture-friendly so the puzzle is the reward, not a barrier. Each sheet is a free printable PDF with a matching play-online version that checks the sums and the revealed word, plus an answer key. The whole set is available in all 11 languages we publish in.",
+    "kindergarten__pattern-train": "Pattern-train worksheets turn early patterning into a game kindergartners want to finish: a train runs along the page and the child continues the picture pattern wagon by wagon. Spotting what repeats and predicting what comes next is foundational maths thinking for five- to seven-year-olds, and the friendly train keeps it playful. The pictures carry the task, so a child still learning the classroom language can join in fully. Each sheet is a free printable PDF with a matching play-online version that confirms each placement, plus an answer key. The whole set is available in all 11 languages we publish in, so every kindergarten can practise patterns in the language its children need.",
     "kindergarten__picture-path": "Kindergarten picture-path worksheets practise route-finding through a grid, which exercises spatial reasoning and patience. Children at this developmental level are ready to consider routes before committing pen to paper.",
-    "grade-1__treasure-hunt": "Grade-1 treasure hunts give children a multi-step direction sequence to follow on a grid. The activity builds spatial reasoning, working memory, and direction-vocabulary fluency at a level grade-1 children can sustain.",
+    "grade-1__treasure-hunt": "Treasure-hunt worksheets give grade 1 a taste of following directions and reading space. Starting from a marked square, a child follows step-by-step clues — so many squares this way, then that way — tracing a path across the grid until they reach the treasure. For six- to eight-year-olds it is real spatial-reasoning and direction-word practice (up, down, left, right, next to) wrapped in an adventure, and it rewards careful, step-by-step thinking. Each sheet is a free printable PDF with a matching play-online version that traces the route and checks the path, plus an answer key. The whole set is available in all 11 languages we publish in.",
     "grade-3": "Grade 3 worksheets ask children to reason, not just recall, and the activities on this page are built for that shift. Eight- to ten-year-olds practise multi-digit addition and subtraction, multiplication and the first division, place value into the thousands, fluent reading with richer vocabulary, and multi-step logic and spatial puzzles that reward careful thinking. The formats lean on numbers and words now, with picture support kept where it still earns its place for a child learning the language of instruction. This page brings together every grade 3 worksheet we publish so a teacher can build a focused, appropriately stretching set quickly. Each is a free printable PDF with a matching play-online activity — instant feedback for independent practice, a clean printable for class or homework, and an answer key every time. Pair sheets across math and literacy to fill a lesson, or hand one to an early finisher who needs a challenge. The full grade 3 set is available in all 11 languages we publish in, helping international and immersion classrooms hold a consistent standard across every home language in the room.",
     "crossword": "Crossword worksheets give early readers a gentle, rewarding way to connect pictures, sounds, and spelling. Instead of text clues, each puzzle uses picture clues: a child sees an image, says the word, and types or writes its letters into the intersecting grid, with the crossing letters giving a helpful check along the way. It is spelling and vocabulary practice that feels like solving, not testing, and it suits the K-3 years because the words stay short and familiar. Each crossword worksheet is a free printable PDF with a matching play-online version — the interactive one lets children type into the grid and confirms each entry, while the printable works for a literacy centre, partner work, or homework, and an answer key is always included. The full set is available in all 11 languages we publish in, so children can build spelling and vocabulary in the language they are learning to read.",
     "bingo": "Bingo worksheets bring the whole class together around listening and quick recognition. Each child gets a card of pictures, letters, or numbers; as items are called, they find and mark the match on their card. It is playful practice in recognising a target fast, taking turns, and staying with a group task — and because a card can be built from pictures, letters, or numbers, the same game grows with the class across counting, the alphabet, and early vocabulary. Each bingo worksheet is a free printable PDF with a matching play-online version: the interactive one calls items and marks taps, the printable is ready to hand out to a group, and an answer key is included. The full set is available in all 11 languages we publish in.",
@@ -2743,7 +3107,14 @@
     "easter_bw": "Easter black-and-white worksheets are the printer-friendly version of the spring-holiday set — eggs, bunnies, chicks, and baskets in clean line art that prints without color ink and is ready for children to color in. The same pictures run through counting and addition, sorting and patterning, matching, and festive word work, so the activity doubles as seasonal practice and a coloring page. Black-and-white sheets are a staple when color printing isn't available, and the clear outlines welcome learners still building the classroom language. This page collects every black-and-white Easter worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
     "food_bw": "Food black-and-white worksheets picture meals and snacks — fruit, bread, drinks, and treats — in clean line art that prints crisply without color ink and is ready for children to color in. The same images carry a child through counting and early addition, sorting and matching, odd-one-out, and first-letter spelling, so mealtime vocabulary doubles as real practice. Black-and-white sheets are a staple when color printing isn't available, and the clear outlines welcome learners still building the classroom language. This page collects every black-and-white food worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
     "food_bw_2": "This page gathers a further set of black-and-white food worksheets — more meals, snacks, and ingredients in clean line art for when a class has worked through the first collection. Like the rest, they print crisply without color ink and are ready for children to color in, and they run through counting and early addition, sorting and matching, odd-one-out, and first-letter spelling. Extra black-and-white food sheets make it easy to revisit a favourite topic without repeating the same worksheets, and the clear outlines welcome learners still building the classroom language. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
-    "travel_and_holiday_bw": "Travel and holiday black-and-white worksheets capture suitcases, planes, beaches, and landmarks in clean line art that prints without color ink and is ready for children to color in. The same pictures run through counting and early addition, sorting and matching, odd-one-out, and first-letter spelling, so holiday talk turns into practice. Black-and-white sheets are a staple when color printing isn't available, and the clear outlines welcome learners still building the classroom language. This page collects every black-and-white travel and holiday worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in."
+    "travel_and_holiday_bw": "Travel and holiday black-and-white worksheets capture suitcases, planes, beaches, and landmarks in clean line art that prints without color ink and is ready for children to color in. The same pictures run through counting and early addition, sorting and matching, odd-one-out, and first-letter spelling, so holiday talk turns into practice. Black-and-white sheets are a staple when color printing isn't available, and the clear outlines welcome learners still building the classroom language. This page collects every black-and-white travel and holiday worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "grid-match__kindergarten": "Grid-match worksheets give kindergartners a tidy matching puzzle: drag each tile to its matching spot on the grid. For five- to seven-year-olds this builds visual matching, position sense, and a little working memory as they hold a picture in mind while they find its place. The picture-based task suits every child regardless of reading level or home language. Each sheet is a free printable PDF with a matching play-online version where pieces drop into place and the finished grid is checked, plus an answer key. The whole set is available in all 11 languages we publish in, so every kindergarten can practise in the language its children need.",
+    "4th_of_july__grade-1": "These Fourth-of-July worksheets bring a little holiday spirit to grade 1 practice. The festive picture set — flags, fireworks, stars, and parades — carries six- to eight-year-olds through addition and subtraction within twenty, reading and word work, sorting, and logic, so the celebration becomes a reason to practise rather than a break from it. The familiar holiday images keep a class engaged and welcome children still building the classroom language. Each sheet is a free printable PDF with a matching play-online version that gives instant feedback, plus an answer key. The whole set is available in all 11 languages we publish in.",
+    "cryptogram__kindergarten": "Cryptogram worksheets give kindergartners a gentle code to crack: each picture or symbol stands for a letter, and the child decodes the clues to spell a word. For five- to seven-year-olds it turns letter recognition and early spelling into a puzzle with a satisfying reveal at the end. The picture-based clues keep it accessible for children still learning the classroom language. Each sheet is a free printable PDF with a matching play-online version that checks the decoded word, plus an answer key. The whole set is available in all 11 languages we publish in, so every kindergarten can build early literacy in the language its children are learning.",
+    "4th_of_july__treasure-hunt": "These treasure-hunt worksheets bring a Fourth-of-July theme to a direction-following adventure. Starting from a marked square, a child follows simple step-by-step clues across a grid — so many squares this way, then that way — until they reach the holiday treasure, practising spatial reasoning and direction words (up, down, left, right) along the way. The festive pictures make it a natural fit for the week around the holiday, and because the clues lean on arrows and pictures it works before a child reads fluently. Each is a free printable PDF with a matching play-online version that checks the path, plus an answer key, available in all 11 languages we publish in.",
+    "kindergarten__picture-trail": "Picture-trail worksheets give kindergartners a path to trace: starting from one square, the child moves step by step through a grid to reach the goal, choosing the right way as they go. For five- to seven-year-olds it builds spatial reasoning, directionality, and the left-to-right, top-to-bottom habits that reading and writing depend on. The picture-based task works for every child whatever their reading level or home language. Each sheet is a free printable PDF with a matching play-online version that lets a child trace the trail on screen and checks it, plus an answer key. The whole set is available in all 11 languages we publish in.",
+    "find-objects__kindergarten": "Find-objects worksheets turn looking carefully into a game kindergartners love: a busy, friendly scene hides target objects, and the child hunts them down and marks each one. For five- to seven-year-olds this builds visual discrimination, attention to detail, and vocabulary as they name what they find. The picture-based I-Spy task welcomes every child, whatever their reading level or home language. Each sheet is a free printable PDF with a matching play-online version that marks finds and tallies them, plus an answer key. The whole set is available in all 11 languages we publish in.",
+    "picture-trail": "Picture trail worksheets give children a path to trace through a grid — starting from one square, a child moves step by step to reach the goal, choosing the right way as they go. It is spatial-reasoning and directionality practice (which way next?) that builds the left-to-right, top-to-bottom habits reading and writing depend on, and because it leans on pictures and arrows it works before a child reads fluently. Each picture trail worksheet is a free printable PDF with a matching play-online version that lets a child trace the trail on screen and checks the route, plus an answer key. The whole set is available in all 11 languages we publish in, so every classroom can practise in the language its children need."
   },
   "workspace": {
     "metadata": {

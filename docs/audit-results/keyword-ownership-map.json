@@ -123929,13 +123929,13 @@
       "axis": "intersection",
       "axisKey": "kindergarten__math-worksheet",
       "url": "https://www.lessoncraftstudio.com/de/topic/kindergarten/mathe-arbeitsblatt/",
-      "primaryKeyword": "Mathe-Arbeitsblatt-Arbeitsblätter für Kindergarten",
+      "primaryKeyword": "Mathe-Arbeitsblätter für Kindergarten",
       "secondaryKeywords": [
-        "Arbeitsblätter für Kindergarten",
-        "Mathe-Arbeitsblatt-Arbeitsblätter",
-        "kostenlose Mathe-Arbeitsblatt-Arbeitsblätter"
+        "kostenlose Mathe-Arbeitsblätter Kindergarten",
+        "Mathe-Arbeitsblätter Kindergarten zum Ausdrucken",
+        "Rechnen Kindergarten Arbeitsblätter"
       ],
-      "source": "grammar-intersection",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -126185,13 +126185,13 @@
       "axis": "intersection",
       "axisKey": "grade-1__pattern-worksheet",
       "url": "https://www.lessoncraftstudio.com/de/topic/1-klasse/muster-arbeitsblatt/",
-      "primaryKeyword": "Musterarbeitsblatt-Arbeitsblätter für 1. Klasse",
+      "primaryKeyword": "Musterarbeitsblätter für die 1. Klasse",
       "secondaryKeywords": [
-        "Arbeitsblätter für 1. Klasse",
-        "Musterarbeitsblatt-Arbeitsblätter",
-        "kostenlose Musterarbeitsblatt-Arbeitsblätter"
+        "kostenlose Musterarbeitsblätter 1. Klasse",
+        "Muster Arbeitsblätter 1. Klasse zum Ausdrucken",
+        "Muster und Reihen 1. Klasse"
       ],
-      "source": "grammar-intersection",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },

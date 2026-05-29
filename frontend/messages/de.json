@@ -2279,6 +2279,636 @@
           "q": "In welchen Sprachen gibt es die Verschiedenes-Arbeitsblätter?",
           "a": "Die Arbeitsblätter gibt es in allen 11 Sprachen, in denen wir veröffentlichen."
         }
+      ],
+      "kindergarten__pattern-train": [
+        {
+          "q": "Was üben Musterzug-Arbeitsblätter im Kindergarten?",
+          "a": "Wiederkehrende Bildmuster erkennen und fortsetzen — erstes mathematisches Denken für Fünf- bis Siebenjährige, ganz bildgestützt und ohne Lesen."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "kindergarten__subtraction": [
+        {
+          "q": "Eignen sich Subtraktions-Arbeitsblätter für den Kindergarten?",
+          "a": "Ja — erstes, bildgestütztes Wegnehmen bis 10 für Fünf- bis Siebenjährige, spielerisch und noch ohne formales Rechnen."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "addition__kindergarten": [
+        {
+          "q": "Passen diese Additions-Arbeitsblätter zum Kindergarten?",
+          "a": "Ja — kleine, bildgestützte Aufgaben zum ersten Zusammenzählen bis 10 für Fünf- bis Siebenjährige, spielerisch und ohne formales Rechnen."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "code-addition__kindergarten": [
+        {
+          "q": "Was üben Code-Addition-Arbeitsblätter im Kindergarten?",
+          "a": "Erstes Zusammenzählen bis 10 plus Bild-Symbol-Zuordnung — Kinder lösen kleine Aufgaben und decken ein verstecktes Wort auf, für Fünf- bis Siebenjährige."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "more-less__preschool": [
+        {
+          "q": "Eignen sich Mehr oder weniger-Arbeitsblätter für die Vorschule?",
+          "a": "Ja — bildgestütztes Vergleichen von Mengen für Drei- bis Fünfjährige, ohne Lesen oder Schreiben."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "grade-1__math-puzzle": [
+        {
+          "q": "Eignen sich Mathe-Rätsel-Arbeitsblätter für die 1. Klasse?",
+          "a": "Ja — Zahlenrätsel zum Ziehen und Vervollständigen, die Zahlverständnis und Planen für Sechs- bis Achtjährige stärken."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "kindergarten__shadow-match": [
+        {
+          "q": "Was üben Schatten zuordnen-Arbeitsblätter im Kindergarten?",
+          "a": "Objekte ihrem Schatten zuordnen — Form- und Umrisswahrnehmung für Fünf- bis Siebenjährige, ganz bildgestützt."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "cryptogram__kindergarten": [
+        {
+          "q": "Was üben Kryptogramm-Arbeitsblätter im Kindergarten?",
+          "a": "Eine spielerische Symbol-Bild-Zuordnung zum genauen Hinsehen für Fünf- bis Siebenjährige, noch ganz ohne Buchstaben oder Lesen."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "kindergarten__picture-sort": [
+        {
+          "q": "Was vermitteln Bildersortierung-Arbeitsblätter im Kindergarten?",
+          "a": "Bilder nach Kategorien sortieren und ordnen — erstes logisches Denken und Wortschatz für Fünf- bis Siebenjährige, ohne Lesen."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "kindergarten__math-worksheet": [
+        {
+          "q": "Welche Mathematik decken diese Kindergarten-Arbeitsblätter ab?",
+          "a": "Einfache Rechenaufgaben, Aufgaben mit fehlender Zahl und erstes Zusammenzählen und Wegnehmen kleiner Mengen für Fünf- bis Siebenjährige, mit Bildhinweisen."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "kindergarten__sudoku": [
+        {
+          "q": "Eignet sich Bilder-Sudoku für den Kindergarten?",
+          "a": "Ja — ein Vier-mal-vier-Bildgitter, das echtes Schlussfolgern für Fünf- bis Siebenjährige übt, ganz ohne Lesen oder Zahlen."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "kindergarten__prepositions": [
+        {
+          "q": "Was vermitteln Präpositionen-Arbeitsblätter im Kindergarten?",
+          "a": "Lagewörter (in, auf, unter, neben) über Bildauswahl — Lagewortschatz für Fünf- bis Siebenjährige."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "kindergarten__word-guess": [
+        {
+          "q": "Was üben Wort raten-Arbeitsblätter im Kindergarten?",
+          "a": "Erste Laute und Anfangsbuchstaben — Kinder füllen Lücken, um ein abgebildetes Wort zu schreiben, für Fünf- bis Siebenjährige."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "grade-1__word-scramble": [
+        {
+          "q": "Was üben Buchstabensalat-Arbeitsblätter in der 1. Klasse?",
+          "a": "Durcheinandergeratene Buchstaben zum richtigen Wort ordnen — Laut-Buchstaben-Zuordnung und erstes Schreiben für Sechs- bis Achtjährige, mit Bildhinweis."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "grade-1__treasure-hunt": [
+        {
+          "q": "Was üben Schatzsuche-Arbeitsblätter in der 1. Klasse?",
+          "a": "Mehrschrittigen Anweisungen folgen und räumliches Denken auf einem Gitter, für Sechs- bis Achtjährige."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "kindergarten__missing-pieces": [
+        {
+          "q": "Was bauen Was fehlt-Arbeitsblätter im Kindergarten auf?",
+          "a": "Formwahrnehmung, genaues Unterscheiden und Vergleichen-bevor-man-wählt für Fünf- bis Siebenjährige — ein Bildrätsel, ohne Lesen."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "find-objects__kindergarten": [
+        {
+          "q": "Was üben Objekte finden-Arbeitsblätter im Kindergarten?",
+          "a": "Genaues Unterscheiden, Aufmerksamkeit fürs Detail und Wortschatz — eine Ich-sehe-was-Suche für Fünf- bis Siebenjährige, ohne Lesen."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "big-small__preschool": [
+        {
+          "q": "Eignen sich Groß oder klein-Arbeitsblätter für die Vorschule?",
+          "a": "Ja — bildgestütztes Vergleichen und Ordnen nach Größe für Drei- bis Fünfjährige, ohne Lesen."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "kindergarten__matching": [
+        {
+          "q": "Was bauen Zuordnung-Arbeitsblätter im Kindergarten auf?",
+          "a": "Eins-zu-eins-Zuordnung, visuelle Aufmerksamkeit und Wortschatz — Bilder mit ihren Partnern verbinden, für Fünf- bis Siebenjährige."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "kindergarten__odd-one-out": [
+        {
+          "q": "Was bauen Was passt nicht-Arbeitsblätter im Kindergarten auf?",
+          "a": "Klassifizieren und Überlegen — das Bild finden (und erklären), das nicht dazugehört, für Fünf- bis Siebenjährige."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "find-and-count__preschool": [
+        {
+          "q": "Eignen sich Suchen und zählen-Arbeitsblätter für die Vorschule?",
+          "a": "Ja — Kinder suchen eine kleine Szene ab, finden Suchbilder und zählen kleine Mengen ab; ohne Lesen, ideal für Drei- bis Fünfjährige."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "kindergarten__picture-path": [
+        {
+          "q": "Was üben Bildpfad-Arbeitsblätter im Kindergarten?",
+          "a": "Einen Weg Feld für Feld über ein Gitter verfolgen — räumliche Wahrnehmung und erstes Richtungsgefühl für Fünf- bis Siebenjährige, ohne Lesen."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "bakery__kindergarten": [
+        {
+          "q": "Was findet sich auf der Seite mit Bäckerei-Arbeitsblättern für den Kindergarten?",
+          "a": "Arbeitsblätter mit Bäckerei rund um Zählen, Zusammenzählen, Sortieren, Zuordnen, Was-passt-nicht und erste Laute — passend für Fünf- bis Siebenjährige."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "bingo__kindergarten": [
+        {
+          "q": "Was üben Bingo-Arbeitsblätter im Kindergarten?",
+          "a": "Wortschatz, Aufmerksamkeit und das Wiedererkennen von Bildern für 5-7 Jahre — spielerisch und ganz ohne Lesen."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es sie?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "chart-count__kindergarten": [
+        {
+          "q": "Was üben Tabelle zählen-Arbeitsblätter im Kindergarten?",
+          "a": "Erstes Zählen und Eintragen mit kleinen Mengen bis zehn — die Kinder zählen Gegenstände und füllen eine Spalte, für 5-7 Jahre."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es sie?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "grid-match__kindergarten": [
+        {
+          "q": "Was üben Gitter-Zuordnung-Arbeitsblätter im Kindergarten?",
+          "a": "Visuelle Zuordnung, Lagegefühl und Arbeitsgedächtnis für 5-7 Jahre — ein Bildrätsel, ganz ohne Lesen."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es sie?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "grade-1__wordsearch": [
+        {
+          "q": "Sind Wortsuche-Arbeitsblätter für die 1. Klasse geeignet?",
+          "a": "Ja — kurze, bildgestützte Wortsuchen, die Buchstabenerkennung, das Absuchen und den Wortschatz für 6-8 Jahre aufbauen."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es sie?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "grade-1__pattern-worksheet": [
+        {
+          "q": "Was üben Musterarbeitsblätter in der 1. Klasse?",
+          "a": "Sich wiederholende AB-/ABC-Muster lesen und fortsetzen — Vorhersagen und Verallgemeinern für 6-8 Jahre."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es sie?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "crossword__grade-2": [
+        {
+          "q": "Was üben Kreuzworträtsel-Arbeitsblätter in der 2. Klasse?",
+          "a": "Schreiben und Rechtschreibung mit Bildhinweisen — die Kinder tragen Wörter in sich kreuzende Felder ein, für 7-9 Jahre."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es sie?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "animals__kindergarten": [
+        {
+          "q": "Was findet sich auf der Seite Tiere-Arbeitsblätter für den Kindergarten?",
+          "a": "Tier-Arbeitsblätter rund um Zählen, erstes Zusammenzählen, Sortieren, Zuordnen, Was passt nicht und erste Laute — für 5-7 Jahre."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es sie?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "bakery__odd-one-out": [
+        {
+          "q": "Was üben Was passt nicht-Arbeitsblätter mit der Bäckerei?",
+          "a": "Erstes Einordnen und Begründen — das Bild rund ums Backen finden, das nicht dazugehört, und erklären, warum."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es sie?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "kindergarten__ocean_life": [
+        {
+          "q": "Was findet sich auf der Seite Meeresleben-Arbeitsblätter für den Kindergarten?",
+          "a": "Meerestier-Arbeitsblätter rund um Zählen, erstes Zusammenzählen, Sortieren, Zuordnen, Was passt nicht und erste Laute — für 5-7 Jahre."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es sie?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "kindergarten__spring": [
+        {
+          "q": "Was findet sich auf der Seite Frühling-Arbeitsblätter für den Kindergarten?",
+          "a": "Frühlings-Arbeitsblätter rund um Zählen, erstes Zusammenzählen, Sortieren, Muster, Zuordnen und erste Wörter — für 5-7 Jahre."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es sie?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "accessories__kindergarten": [
+        {
+          "q": "Was findet sich auf der Seite Accessoires-Arbeitsblätter für den Kindergarten?",
+          "a": "Accessoire-Arbeitsblätter rund um Zählen, erstes Zusammenzählen, Sortieren, Zuordnen und erste Laute — für 5-7 Jahre."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es sie?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "activities__kindergarten": [
+        {
+          "q": "Was findet sich auf der Seite Aktivitäten-Arbeitsblätter für den Kindergarten?",
+          "a": "Aktivitäten-Arbeitsblätter rund um Zählen, erstes Zusammenzählen, Sortieren, Zuordnen und erste Tätigkeitswörter — für 5-7 Jahre."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es sie?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "at_the_supermarket__kindergarten": [
+        {
+          "q": "Was findet sich auf der Seite Im Supermarkt-Arbeitsblätter für den Kindergarten?",
+          "a": "Supermarkt-Arbeitsblätter rund um Zählen, erstes Zusammenzählen, Sortieren, Zuordnen und erste Wörter — für 5-7 Jahre, ideal fürs Rollenspiel."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es sie?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "body_parts__kindergarten": [
+        {
+          "q": "Was findet sich auf der Seite Körperteile-Arbeitsblätter für den Kindergarten?",
+          "a": "Körperteil-Arbeitsblätter rund um Zählen, erstes Zusammenzählen, Sortieren, Zuordnen und erste Laute — für 5-7 Jahre."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es sie?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "camping__kindergarten": [
+        {
+          "q": "Was findet sich auf der Seite Camping-Arbeitsblätter für den Kindergarten?",
+          "a": "Camping-Arbeitsblätter rund um Zählen, erstes Zusammenzählen, Sortieren, Zuordnen und erste Laute — für 5-7 Jahre."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es sie?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "classroom__kindergarten": [
+        {
+          "q": "Was findet sich auf der Seite Klassenzimmer-Arbeitsblätter für den Kindergarten?",
+          "a": "Klassenzimmer-Arbeitsblätter rund um Zählen, erstes Zusammenzählen, Sortieren, Zuordnen und erste Laute — für 5-7 Jahre."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es sie?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "clothing__kindergarten": [
+        {
+          "q": "Was findet sich auf der Seite Kleidung-Arbeitsblätter für den Kindergarten?",
+          "a": "Kleidungs-Arbeitsblätter rund um Zählen, erstes Zusammenzählen, Sortieren, Zuordnen und erste Laute — für 5-7 Jahre."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es sie?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "desserts_and_sweets__kindergarten": [
+        {
+          "q": "Was findet sich auf der Seite Desserts und Süßigkeiten-Arbeitsblätter für den Kindergarten?",
+          "a": "Süßspeisen-Arbeitsblätter rund um Zählen, erstes Zusammenzählen, Sortieren, Zuordnen und erste Laute — für 5-7 Jahre."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es sie?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "easter__kindergarten": [
+        {
+          "q": "Was findet sich auf der Seite Ostern-Arbeitsblätter für den Kindergarten?",
+          "a": "Oster-Arbeitsblätter rund um Zählen, erstes Zusammenzählen, Sortieren, Muster, Zuordnen und erste Wörter — für 5-7 Jahre."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es sie?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "fruits__kindergarten": [
+        {
+          "q": "Was findet sich auf der Seite Früchte-Arbeitsblätter für den Kindergarten?",
+          "a": "Obst-Arbeitsblätter rund um Zählen, erstes Zusammenzählen, Sortieren, Zuordnen, Was passt nicht und erste Laute — für 5-7 Jahre."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es sie?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "hospital__kindergarten": [
+        {
+          "q": "Was findet sich auf der Seite Krankenhaus-Arbeitsblätter für den Kindergarten?",
+          "a": "Krankenhaus-Arbeitsblätter rund um Zählen, erstes Zusammenzählen, Sortieren, Zuordnen und erste Wörter — für 5-7 Jahre, ideal fürs Rollenspiel."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es sie?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "kindergarten__kitchen_tools": [
+        {
+          "q": "Was findet sich auf der Seite Küchenwerkzeuge-Arbeitsblätter für den Kindergarten?",
+          "a": "Küchenwerkzeug-Arbeitsblätter rund um Zählen, erstes Zusammenzählen, Sortieren, Zuordnen, Was passt nicht und erste Laute — für 5-7 Jahre."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja — jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen gibt es sie?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
       ]
     },
     "fallback": {
@@ -2499,29 +3129,29 @@
     "animals__big-small": "Tier-Groß-Klein-Arbeitsblätter nutzen die natürliche Größenvariation zwischen Lebewesen — Elefant bis Maus — um den relativen Größenvergleich konkret zu machen. Kinder lesen den Größen-Hinweis sicher, und die zugrunde liegende Fertigkeit überträgt sich.",
     "animals__more-less": "Tier-Mehr-Weniger-Arbeitsblätter bitten Kinder, Mengen vertrauter Lebewesen zu vergleichen — drei Schafe oder fünf Schafe — und zu entscheiden, welche Gruppe mehr enthält. Die visuelle Unterstützung hält den Fokus auf dem Mengenvergleich selbst.",
     "animals__shadow-match": "Tier-Schatten-Zuordnungs-Arbeitsblätter paaren jedes Lebewesen-Bild mit seiner Silhouette. Die Aktivität ist besonders zugänglich, da Kinder die Tierformen sicher erkennen, bevor sie die Umriss-Version bewältigen müssen.",
-    "animals__kindergarten": "Tier-Kindergarten-Arbeitsblätter paaren vertrautes Lebewesen-Vokabular mit den Aktivitäten, für die ein Kindergartenkind bereit ist: Zuordnen, Sortieren, einfaches Zählen, Anfangsbuchstaben-Arbeit. Der Tier-Kontext lässt die Arbeit zugänglich wirken; die Aktivitäten selbst dehnen die sich entwickelnden Fertigkeiten eines Kindergartenkinds aus.",
+    "animals__kindergarten": "Tiere-Arbeitsblätter für den Kindergarten setzen das beliebteste Bilderset der frühen Kindheit für Fünf- bis Siebenjährige ein. Die vertrauten Motive — Katze, Kuh, Vogel, Fisch — tragen die Kinder durch Zählen und erstes Zusammenzählen, Sortieren und Zuordnen, Was passt nicht und erste Laute und Anfangsbuchstaben, sodass jede Fertigkeit an Bildern geübt wird, die sie schon kennen — spielerisch und vorbereitend. Tiernamen sind außerdem häufig in jeder Sprache, in der wir veröffentlichen, eine echte Hilfe in einer mehrsprachigen Gruppe. Diese Seite bündelt die Tier-Arbeitsblätter, die zum Kindergartenalter passen. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version und einen Lösungsbogen — verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ganz ohne Anmeldung.",
     "animals__preschool": "Tier-Vorschul-Arbeitsblätter geben den jüngsten Lernenden gut erkennbare Bilder, gepaart mit einfachen vor-akademischen Aufgaben — den Vogel ausmalen, die Enten zählen, den Hund finden, der sich unterscheidet. Die vertrauten Bilder halten die kognitive Last gering, während die Aktivitäten die Fertigkeiten üben, die die Vorschule entwickeln soll.",
     "animals__grade-1": "Tier-Arbeitsblätter für die 1. Klasse verwenden vertraute Lebewesen als Vehikel für die anspruchsvollere Arbeit, die das Jahr bringt — längere Buchstabensalate, mehrstufiges Zählen, beginnende Addition mit Bildunterstützung. Kinder bleiben am Thema interessiert, während die kognitive Anforderung steigt.",
-    "addition__kindergarten": "Kindergarten-Additions-Arbeitsblätter geben Kindern Übung mit den kleinen Summen, die ihr sich entwickelndes Zahlenverständnis bewältigen kann — einstellige Addition, bildgestützte Aufgaben, Summen innerhalb von zehn. Das Format führt zum Faktenabruf hin, ohne die Bild-Zähl-Phase zu überspringen, auf die Kindergartenkinder sich oft noch verlassen.",
-    "kindergarten__subtraction": "Kindergarten-Subtraktions-Arbeitsblätter üben Wegnahme mit Mengen, die Kinder im Kopf behalten können — meist innerhalb von zehn, oft mit Bildunterstützung, die Kindern erlaubt, die abgehenden Elemente physisch durchzustreichen. Die Aktivität baut die Wegnahme-Intuition auf, bevor Kinder abstrakte Subtraktion bewältigen müssen.",
+    "addition__kindergarten": "Arbeitsblätter zum Addieren für den Kindergarten setzen genau dort an, wo Fünf- bis Siebenjährige stehen: Aus dem Zählen wird gerade erstes Zusammenzählen. In dieser Phase bleiben die Aufgaben klein und bildgestützt — ein Kind zählt zwei Gruppen und fasst sie dann zusammen, noch ganz ohne formales Plusrechnen, bevor mit wachsender Sicherheit erste einfache Rechenaufgaben dazukommen. Kleine Zahlen und klare Bilder halten das Denken beim Zusammenfügen statt beim Lesen von Anweisungen. Die Blätter eignen sich als Einstieg in den Tag, für die Rechenstation oder eine kurze Partnerübung. Jedes gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version, die die Lösungen sofort überprüft, sowie einen Lösungsbogen. Der gesamte Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen — ohne Anmeldung.",
+    "kindergarten__subtraction": "Subtraktions-Arbeitsblätter für den Kindergarten führen das Wegnehmen auf die behutsamste Weise ein: Fünf- bis Siebenjährige beginnen mit Bildaufgaben — sie streichen weg, was geht, und zählen, was bleibt — noch ganz ohne formales Rechnen. In dieser Phase geht es um erstes, spielerisches Wegnehmen bis 10 über Bilder; kleine Mengen und klare Bilder lassen die Idee von wie viele bleiben übrig ankommen, ohne dass jedes Mal neue Anweisungen ablenken. Die Blätter eignen sich als Einstieg in den Tag, für die Rechenstation oder eine kurze Partnerübung. Jedes gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version, die die Lösungen sofort überprüft, sowie einen Lösungsbogen. Der gesamte Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen — ohne Anmeldung.",
     "alphabet-train__preschool": "Vorschul-Alphabet-Zug-Arbeitsblätter führen die Alphabet-Sequenz im Entwicklungsmoment ein, in dem Kinder zu erkennen beginnen, dass Buchstaben eine Reihenfolge haben. Das Format ist nachsichtig — ein Kind, das seinen ersten Buchstaben und einige weitere kennt, kann eine Reihe dennoch ausfüllen.",
-    "grade-1__wordsearch": "Buchstabensalate für die 1. Klasse geben unabhängige Leseübung, sobald Kinder über die Sichtwort-Erkennung hinaus zum ausdauernden Buchstabe-für-Buchstabe-Scannen übergegangen sind. Die Zielwörter sind kurz und thematisch, was die kognitive Anforderung beim Scannen hält statt beim Erinnern, wonach gesucht werden soll.",
-    "kindergarten__matching": "Kindergarten-Zuordnungs-Arbeitsblätter üben die Beziehungsfindungs-Bewegung, die dem meisten frühen Lesen und der frühen Mathematik zugrunde liegt: Dieses Bild gehört zu jenem Buchstaben, diese Menge gehört zu jener Ziffer. Das Format gibt Kindergartenkindern unabhängige Übung mit einer kognitiven Operation, die sie gerade rasch entwickeln.",
-    "kindergarten__sudoku": "Kindergarten-Bilder-Sudoku gibt Logik-Rätsel-Erfahrung auf einem Entwicklungsstand, den ein Kindergartenkind bewältigen kann — vier Bilder, ein 4×4-Gitter, Ableitung durch Ausschluss. Nützlich als Anreicherungs-Aufgabe für Kindergartenkinder, die für mehr kognitive Herausforderung bereit sind.",
-    "find-and-count__preschool": "Vorschul-Suchen-und-Zählen-Arbeitsblätter bitten die jüngsten Lernenden, eine kleine Szene abzusuchen, Zielobjekte zu finden und zu zählen. Die Aktivität ist kurz und visuell, was zur Vorschul-Aufmerksamkeit passt; die zugrunde liegenden Fertigkeiten — visuelle Diskrimination und Eins-zu-eins-Zuordnung — sind grundlegend.",
-    "kindergarten__prepositions": "Kindergarten-Präpositions-Arbeitsblätter verknüpfen räumliches Vokabular mit konkreten Bildern im Entwicklungsmoment, in dem Kinder bereit sind, diese Sprache explizit zu machen. Das bildgestützte Format hält die kognitive Last auf der Beziehung.",
-    "kindergarten__picture-sort": "Kindergarten-Bild-Sortier-Arbeitsblätter üben binäre Klassifikation mit den Kategorien, die Kindergartenkinder bewältigen können — Farbe, Anfangsbuchstabe, Nahrung, Lebensraum. Jede Seite gibt unabhängige Übung mit einer zugrunde liegenden Klassifikations-Fertigkeit.",
-    "big-small__preschool": "Vorschul-Groß-Klein-Arbeitsblätter geben den jüngsten Lernenden Übung im relativen Größenvergleich, der Vorgängerfertigkeit zum Messen und Ordnen. Die Bilder sind überzeichnet, sodass der Vergleich eindeutig ist.",
-    "more-less__preschool": "Vorschul-Mehr-Weniger-Arbeitsblätter üben Mengenvergleich auf dem Entwicklungsstand, auf dem Kinder zwei kleine Gruppen zählen können, aber abstrakte Ziffern noch nicht sicher bewältigen. Nützlich als Vorläufer der formalen Addition.",
-    "grade-1__math-puzzle": "Mathe-Rätsel für die 1. Klasse geben den Zahlenfakten des Jahres einen logischen Rahmen — Kinder lösen Arithmetik, um etwas herauszufinden, statt sie zu drillen. Passt zur 1.-Klasse-Bereitschaft für etwas länger anhaltende kognitive Arbeit.",
-    "kindergarten__math-worksheet": "Kindergarten-Mathe-Arbeitsblätter geben gezielte Übung mit den Operationen, die ein Kindergartenkind gerade festigt, in Formaten, die kurz genug für die Kindergarten-Aufmerksamkeit sind. Paaren Sie sie mit Manipulativen während des Unterrichts in Kleingruppen.",
-    "kindergarten__missing-pieces": "Kindergarten-Fehlende-Teile-Arbeitsblätter trainieren visuelle Vervollständigung auf dem Niveau, das Kindergartenkinder bewältigen können — geradlinige Formen, eindeutige Ziele, kleine Auswahlen an Optionen. Die Aktivität baut räumliches Denken in einem Entwicklungsfenster auf, in dem es stark verfügbar ist.",
-    "kindergarten__odd-one-out": "Kindergarten-Was-passt-nicht-Arbeitsblätter geben die Diskriminations-Übung, die der Klassifikation zugrunde liegt: eine kleine Gruppe von Bildern, eines passt nicht. Das Kriterium variiert, was Kinder dazu bringt, genau auf das zu achten, was tatsächlich gefragt ist.",
-    "kindergarten__shadow-match": "Kindergarten-Schatten-Zuordnungs-Arbeitsblätter paaren Bilder mit ihren Silhouetten. Die beteiligte Formerkennungs-Bewegung ist grundlegend für die Buchstabenerkennung; der Bild-Kontext macht sie auf Kindergarten-Niveau zugänglich.",
-    "code-addition__kindergarten": "Kindergarten-Code-Additions-Arbeitsblätter geben arithmetischer Übung einen literalen Rahmen: Jede Summe entschlüsselt einen Buchstaben oder ein Wort, was die Übung für Kinder zielgerichtet wirken lässt, die die Grundfakten haben, aber Motivation brauchen.",
-    "kindergarten__pattern-train": "Kindergarten-Muster-Zug-Arbeitsblätter üben Mustererkennung — alternierend, sich wiederholend, zunehmend — in einem Zugformat, das visuell leicht zu lesen ist. Mustererkennung ist grundlegend in Mathematik und Lesen.",
-    "kindergarten__picture-path": "Kindergarten-Bild-Pfad-Arbeitsblätter üben Wegfindung durch ein Gitter, was räumliches Denken und Geduld trainiert. Kinder auf diesem Entwicklungsstand sind bereit, Wege zu betrachten, bevor sie den Stift ansetzen.",
-    "grade-1__treasure-hunt": "Schatzsuchen für die 1. Klasse geben Kindern eine mehrstufige Richtungssequenz, der sie auf einem Gitter folgen. Die Aktivität baut räumliches Denken, Arbeitsgedächtnis und Richtungs-Vokabular auf einem Niveau auf, das Kinder der 1. Klasse durchhalten können.",
+    "grade-1__wordsearch": "Wortsuche-Arbeitsblätter machen aus erstem Lesen eine Suche, die Kinder der 1. Klasse gern zu Ende bringen. In jedem Rätsel verstecken sich ein paar thematische Wörter in einem Buchstabengitter; die Kinder suchen, finden und markieren jedes Wort und ordnen das Gesehene den Bildhinweisen neben dem Gitter zu. Für Sechs- bis Achtjährige ist dieses Absuchen echte Übung — Buchstabenerkennung, das Verfolgen von links nach rechts und das Festigen neuen Wortschatzes, verpackt in ein Spiel. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, in der die Wörter am Bildschirm ausgewählt und überprüft werden, und einen Lösungsbogen. Das ganze Set ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ganz ohne Anmeldung.",
+    "kindergarten__matching": "Zuordnung-Arbeitsblätter geben Kindergartenkindern eine klare, befriedigende Aufgabe: eine Linie ziehen, die jedes Ding mit seinem Partner verbindet. Für Fünf- bis Siebenjährige baut zu entscheiden, was zu was gehört, die Eins-zu-eins-Zuordnung, die visuelle Aufmerksamkeit und den Wortschatz auf, der vom Benennen jedes Paares kommt. Die bildgestützte Aufgabe eignet sich für jedes Kind, unabhängig von Lesestand oder Sprache zu Hause, und sie passt gut zur Lernstation, zur Partnerarbeit oder zu einem kurzen Einstieg in den Tag. Jedes Blatt gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version, in der Kinder durch Tippen jede Linie ziehen und prüfen, sowie einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen.",
+    "kindergarten__sudoku": "Bilder-Sudoku-Arbeitsblätter bringen echtes logisches Denken in den Kindergarten, lange bevor Kinder ein Regelheft lesen können. Auf einem Vier-mal-vier-Gitter legt ein Kind freundliche Bilder so, dass jede Zeile, jede Spalte und jedes kleine Feld jedes Bild genau einmal enthält — dieselbe Schlussfolgerung wie beim Erwachsenen-Sudoku, auf Fünf- bis Siebenjährige zugeschnitten und aus Bildern statt aus Zahlen aufgebaut. Das ist geduldiges, befriedigendes Überlegen, das Aufmerksamkeit und das Denken im Ausschlussverfahren aufbaut. Jedes Blatt gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version, in der Kinder Bilder an ihren Platz ziehen und das Gitter geprüft wird, sowie einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen.",
+    "find-and-count__preschool": "Suchen und zählen-Arbeitsblätter sind eine wunderbare erste Zählaufgabe für die Vorschule, denn sie verbinden zwei Dinge, die Drei- bis Fünfjährige lieben: nach Bildern suchen und zählen, was sie finden. Ein Kind sucht eine kleine, freundliche Szene ab, entdeckt die Suchbilder und zählt erst einmal ab, wie viele es sind — kein Lesen nötig, nur genaues Hinsehen und den Überblick behalten. Die Mengen bleiben klein, sodass dieses sanfte Suchen visuelle Aufmerksamkeit und erstes Abzählen genau auf dem richtigen Niveau für die Jüngsten aufbaut. Jedes Blatt gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version mit sofortiger, ermutigender Rückmeldung, sowie einen Lösungsbogen für die erwachsene Begleitung. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen.",
+    "kindergarten__prepositions": "Präpositionen-Arbeitsblätter helfen Kindergartenkindern, die kleinen Wörter zu meistern, die beschreiben, wo etwas ist — in, auf, unter, neben. Das Kind schaut sich Bilder an und wählt das, welches die Position zeigt, und baut so den Lagewortschatz auf, den Fünf- bis Siebenjährige den ganzen Tag nutzen, in der Mathematik wie in Geschichten. Weil die Aufgabe bildgeführt ist, funktioniert sie für jedes Kind, unabhängig von Lesestand oder Sprache zu Hause, und sie regt nützliches Beschreiben an. Jedes Blatt gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version, die jede Wahl prüft, sowie einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen.",
+    "kindergarten__picture-sort": "Bildersortierung-Arbeitsblätter bitten Kindergartenkinder, Bilder dorthin zu legen, wo sie hingehören — sie ordnen Bilder nach Art, Farbe oder Kategorie in beschriftete Gruppen. Für Fünf- bis Siebenjährige ist zu entscheiden, was zusammengehört und warum, zugleich erstes logisches Denken und Wortschatzarbeit, und es regt viel nützliches Sprechen an. Weil sortiert wird mit Bildern, kann jedes Kind mitmachen, unabhängig von Lesestand oder Sprache zu Hause. Jedes Blatt gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version, in der Kinder Bilder in Felder ziehen und ihre Lösung überprüfen, sowie einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen.",
+    "big-small__preschool": "Groß oder klein-Arbeitsblätter geben Vorschulkindern einen ersten Vorgeschmack auf das Vergleichen von Größen: das Größte entdecken, das Kleinste finden und ein paar Bilder nach Größe ordnen. Für Drei- bis Fünfjährige nutzt die Aufgabe klare Bilder und ein einziges Tippen oder Markieren, sodass ein Kind ganz ohne Lesen Erfolg hat. Nach Größe zu vergleichen nährt auch den Wortschatz, den Kinder brauchen, um die Welt um sich herum zu beschreiben und zu ordnen. Jedes Blatt gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version, die warm und sofort reagiert, sowie einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen.",
+    "more-less__preschool": "Mehr oder weniger-Arbeitsblätter gehören zu den allerersten Zahlideen, die Vorschulkinder entdecken: Sie schauen zwei Bildgruppen an und entscheiden spielerisch, welche mehr hat, welche weniger und wann beide gleich sind. Für Drei- bis Fünfjährige ist das eine erste Wahrnehmung von Mengen, ganz ohne Lesen oder Schreiben — nur hinsehen und wählen. Die freundlichen Bilder machen die Aufgabe für jedes Kind zugänglich, ganz gleich, welche Sprache es zu Hause spricht. Jedes Blatt gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version mit sanfter, sofortiger Rückmeldung, sowie einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen.",
+    "grade-1__math-puzzle": "Mathe-Rätsel-Arbeitsblätter für die 1. Klasse bieten einen handlungsorientierten Weg, das Zahlverständnis aufzubauen: Kinder ziehen Teile an ihren Platz und vervollständigen so ein Zahlenrätsel. Für Sechs- bis Achtjährige im Zahlenraum bis 20 lohnt sich neben dem Rechnen ein wenig Planen und Ausprobieren-und-Anpassen, was gut zum Schritt vom Zählen zum Rechnen im Anfangsunterricht passt. Das Format ist klar genug, um selbstständig zu beginnen, und reichhaltig genug, um auch schnelle Kinder zu beschäftigen. Jedes Blatt gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version, die das fertige Rätsel überprüft, sowie einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen.",
+    "kindergarten__math-worksheet": "Diese Mathe-Arbeitsblätter für den Kindergarten bündeln die erste Zahlarbeit, zu der in dieser Phase am häufigsten gegriffen wird — einfache Rechenaufgaben bilden, einen fehlenden Teil ergänzen und über Bilder kleine Mengen zusammenzählen und wegnehmen, auf einem Niveau, das zu Fünf- bis Siebenjährigen passt. Bildhinweise verankern die Mengen, sodass das Denken beim Zusammenzählen bleibt statt beim Lesen von Anweisungen. Die allgemeine Zahlarbeit an einem Ort zu versammeln, macht es schnell, einen kurzen Einstieg oder eine Aufgabe für die Rechenstation aufzubauen. Jedes Blatt gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version mit sofortiger Rückmeldung, sowie einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen.",
+    "kindergarten__missing-pieces": "Was fehlt-Arbeitsblätter geben Kindergartenkindern ein befriedigendes Bildrätsel: Jedes Bild hat eine Lücke, und das Kind zieht das passende Ausschnittteil in die Öffnung, um es zu vervollständigen. Für Fünf- bis Siebenjährige baut das Formwahrnehmung, genaues Unterscheiden und die Geduld auf, Möglichkeiten zu vergleichen, bevor man wählt — erstes Überlegen, als Spiel verkleidet. Weil die Aufgabe bildgestützt ist, funktioniert sie unabhängig von Lesestand oder Sprache zu Hause, und die klaren Formen halten das Denken im Mittelpunkt. Jedes Blatt gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version, die Teile einrasten lässt und das fertige Bild prüft, sowie einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen.",
+    "kindergarten__odd-one-out": "Was passt nicht-Arbeitsblätter bitten Kindergartenkinder, das Bild zu finden, das nicht dazugehört — und, ebenso wichtig, darüber nachzudenken, warum. Für Fünf- bis Siebenjährige ist das erstes Klassifizieren und Überlegen: bemerken, was eine Gruppe gemeinsam hat, und die Ausnahme entdecken. Die bildgestützte Aufgabe eignet sich für jedes Kind, unabhängig von Lesestand oder Sprache zu Hause, und sie regt viel nützliches Erklären an. Sie passt gut zur Lernstation, zur Partnerarbeit oder zu einem kurzen Einstieg in den Tag. Jedes Blatt gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version, die nach der Wahl die Lösung zeigt, sowie einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen.",
+    "kindergarten__shadow-match": "Schatten zuordnen-Arbeitsblätter bitten Kindergartenkinder, jedes Objekt mit seinem Schatten zu verbinden — eine klare Aufgabe zum genauen Hinsehen, die die Aufmerksamkeit für Form und Umriss schult. Für Fünf- bis Siebenjährige ist es eine erste, spielerische Übung, über Farbe und Detail hinwegzusehen und eine Gestalt allein an ihrer Silhouette zu erkennen, und es fühlt sich wie ein Spiel an. Die bildgestützte Aufgabe funktioniert für jedes Kind, unabhängig von Lesestand oder Sprache zu Hause. Jedes Blatt gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version, die die Verbindung zieht und prüft, sowie einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen.",
+    "code-addition__kindergarten": "Code-Addition-Arbeitsblätter bringen einen Hauch Geheimnis in die ersten Zahlübungen: Ein Kind löst kleine Aufgaben zum Zusammenzählen, und jede Lösung führt über eine Bild-Symbol-Zuordnung zu einem versteckten Wort. Für Fünf- bis Siebenjährige verbindet das erstes Zusammenzählen mit dem Reiz, einen Code zu knacken, sodass Mengenarbeit und Buchstabenwahrnehmung zusammen geschehen — spielerisch und noch ganz ohne formales Rechnen. Die Mengen bleiben bei höchstens 10 und bildfreundlich, damit das Rätsel die Belohnung ist und keine Hürde. Jedes Blatt gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version, die die Aufgaben und das aufgedeckte Wort prüft, sowie einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen.",
+    "kindergarten__pattern-train": "Musterzug-Arbeitsblätter für den Kindergarten machen aus erstem Mustererkennen ein Spiel, das Fünf- bis Siebenjährige gern zu Ende bringen: Ein Zug fährt über die Seite, und das Kind setzt das Bildmuster Waggon für Waggon fort. Zu erkennen, was sich wiederholt, und vorherzusagen, was als Nächstes kommt, gehört zu den ersten mathematischen Denkschritten in dieser Phase, und der freundliche Zug hält das Ganze spielerisch. Die Bilder tragen die Aufgabe, sodass auch ein Kind, das die Gruppensprache noch lernt, voll mitmachen kann. Jedes Blatt gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version, die jede Platzierung sofort bestätigt, sowie einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen.",
+    "kindergarten__picture-path": "Bildpfad-Arbeitsblätter geben Kindergartenkindern eine ruhige Aufgabe zum genauen Hinsehen: Das Kind zeichnet Feld für Feld einen Weg über ein Gitter, immer geradeaus oder um die Ecke, bis das Bild am Ziel erreicht ist. Für Fünf- bis Siebenjährige baut das räumliche Wahrnehmung, Aufmerksamkeit und ein erstes Gespür für Richtung auf — eine spielerische, befriedigende Übung im Verfolgen eines Pfads. Weil die Aufgabe bildgeführt ist, kann jedes Kind mitmachen, unabhängig von Lesestand oder Sprache zu Hause. Jedes Blatt gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version, die den Weg nachzeichnet und prüft, sowie einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen.",
+    "grade-1__treasure-hunt": "Schatzsuche-Arbeitsblätter geben der 1. Klasse einen Vorgeschmack darauf, Anweisungen zu folgen und Raum zu lesen. Von einem markierten Feld aus folgt ein Kind Schritt-für-Schritt-Hinweisen — so viele Felder in die eine Richtung, dann in die andere — und zeichnet einen Weg über das Gitter, bis es den Schatz erreicht. Für Sechs- bis Achtjährige ist das echtes Üben von räumlichem Denken und Richtungswörtern (oben, unten, links, rechts, neben), in ein Abenteuer verpackt, und es belohnt sorgfältiges, schrittweises Vorgehen. Jedes Blatt gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version, die die Route nachzeichnet und den Weg prüft, sowie einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen.",
     "cryptogram": "Bei den Kryptogramm-Arbeitsblättern entschlüsseln Kinder einen Bild- oder Symbolcode, um ein Wort zu schreiben. Jedes Symbol steht für einen Buchstaben, und Schritt für Schritt füllen Kinder die Lücken, bis das Lösungswort vollständig ist. Das verbindet das Erkennen von Buchstaben mit erstem Schreiben und macht das Üben zum Rätsel. Die Blätter eignen sich für 1. und 2. Klasse und arbeiten bildgestützt. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Lassen Sie Kinder den Code zuerst an leichten Buchstaben erproben. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
     "word-guess": "Bei Wort raten füllen Kinder die Lücken, um das Wort zu einem Bildhinweis zu schreiben. Sie schauen sich das Bild an, denken an die passenden Laute und tragen Buchstabe für Buchstabe ein. So üben sie das Erkennen von Buchstaben und erstes Schreiben über die Laute. Die Aufgabe ist bildgestützt und eignet sich für Kindergarten, 1. und 2. Klasse. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Lassen Sie Kinder das Wort zuerst laut sprechen, bevor sie es schreiben. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
     "word-scramble": "Bei den Buchstabensalat-Arbeitsblättern bringen Kinder durcheinandergeratene Buchstaben in die richtige Reihenfolge, um das Wort zu einem Bild zu schreiben. Sie nutzen das Bild als Hilfe, denken an die Laute und ordnen die Buchstaben Schritt für Schritt. So üben sie Rechtschreibung und festigen ihren Wortschatz. Die Aufgabe ist bildgestützt und eignet sich für 1. und 2. Klasse. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Lassen Sie Kinder das gesuchte Wort erst leise vorsprechen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
@@ -2579,7 +3209,32 @@
     "colors": "Farben wie Rot, Blau, Gelb und Grün begegnen Kindern überall im Alltag und gehören zu den ersten Begriffen, die sie sicher benennen. Dieses Bildset zieht sich durch die verschiedenen Übungstypen: Die Kinder zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, welche Farbe nicht dazugehört, und sie erkennen erste Buchstaben. Der Themenwortschatz rund um Farben ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll. Alle Arbeitsblätter mit Farben gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
     "dinosaurs": "Dinosaurier wie Tyrannosaurus, Triceratops und Stegosaurus faszinieren Kinder und wecken die Lust am Entdecken längst vergangener Zeiten. Dieses Bildset begleitet sie durch die verschiedenen Übungstypen: Sie zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was kein Dinosaurier ist, und sie erkennen erste Buchstaben. Der Themenwortschatz rund um Dinosaurier ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll. Alle Arbeitsblätter mit Dinosauriern gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
     "reptiles_and_amphibians": "Reptilien und Amphibien wie Schlange, Frosch, Eidechse und Schildkröte führen Kinder an eine spannende Tiergruppe heran. Dieses Bildset zieht sich durch die verschiedenen Übungstypen: Die Kinder zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, welches Tier nicht dazugehört, und sie erkennen erste Buchstaben. Der Themenwortschatz zum Thema Reptilien und Amphibien ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll. Alle Arbeitsblätter zum Thema Reptilien und Amphibien gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
-    "miscellaneous": "Verschiedenes versammelt ein gemischtes Bildset mit ganz unterschiedlichen Gegenständen aus dem Alltag der Kinder. Gerade diese Vielfalt zieht sich gut durch die verschiedenen Übungstypen: Die Kinder zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was nicht in eine Gruppe gehört, und sie erkennen erste Buchstaben. Der gemischte Themenwortschatz ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll, weil er viele vertraute Begriffe abdeckt. Alle Arbeitsblätter mit Verschiedenes gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit."
+    "miscellaneous": "Verschiedenes versammelt ein gemischtes Bildset mit ganz unterschiedlichen Gegenständen aus dem Alltag der Kinder. Gerade diese Vielfalt zieht sich gut durch die verschiedenen Übungstypen: Die Kinder zählen und addieren, sie sortieren und ordnen zu, sie entscheiden, was nicht in eine Gruppe gehört, und sie erkennen erste Buchstaben. Der gemischte Themenwortschatz ist in jeder Sprache hochfrequent und für mehrsprachige Klassen besonders wertvoll, weil er viele vertraute Begriffe abdeckt. Alle Arbeitsblätter mit Verschiedenes gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
+    "cryptogram__kindergarten": "Kryptogramm-Arbeitsblätter für den Kindergarten bieten einen sanften Code zum Knacken: Jedes Symbol steht für ein Bild, und das Kind ordnet die Symbole den passenden Bildern zu. Für Fünf- bis Siebenjährige bleibt es bei dieser Symbol-Bild-Zuordnung — eine spielerische Aufgabe zum genauen Hinsehen und Vergleichen, noch ganz ohne Buchstaben oder Lesen, das erst in der 1. Klasse beginnt. Die Bildhinweise halten das Ganze zugänglich für Kinder, die die Gruppensprache noch lernen. Jedes Blatt gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version, die die Zuordnung prüft, sowie einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen.",
+    "kindergarten__word-guess": "Wort raten-Arbeitsblätter geben Kindergartenkindern eine sanfte erste Schreibaufgabe: Ein Bildhinweis zeigt das Wort, und das Kind füllt die Lücken Buchstabe für Buchstabe aus, um es zu schreiben. Für Fünf- bis Siebenjährige verbindet das die Wahrnehmung von Anfangsbuchstaben und ersten Lauten mit erstem Buchstabieren, auf entspannte und befriedigende Weise, und das Bild hält die Bedeutung klar. Es eignet sich für die Lernstation, die Partnerarbeit oder einen kurzen Einstieg. Jedes Blatt gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version, die jeden Buchstaben prüft, sowie einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen.",
+    "grade-1__word-scramble": "Buchstabensalat-Arbeitsblätter für die 1. Klasse machen aus dem ersten Schreiben ein Rätsel: Ein Bildhinweis zeigt das Wort, dessen Buchstaben durcheinandergeraten sind, und das Kind ordnet sie zur richtigen Schreibweise. Für Sechs- bis Achtjährige im Anfangsunterricht verbindet das die Laut-Buchstaben-Zuordnung mit erstem Lesen und Schreiben und festigt vertraute Wörter, während das Bild die Bedeutung klar hält. Das Format ist klar genug, um selbstständig zu beginnen, und eignet sich gut für die Lernstation oder eine kurze Partnerübung. Jedes Blatt gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version, die das fertige Wort prüft, sowie einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen.",
+    "find-objects__kindergarten": "Objekte finden-Arbeitsblätter machen aus dem genauen Hinsehen ein Spiel, das Kindergartenkinder lieben: In einer belebten, freundlichen Szene verstecken sich Suchbilder, und das Kind spürt sie auf und markiert jedes einzelne. Für Fünf- bis Siebenjährige baut das genaues Unterscheiden, Aufmerksamkeit fürs Detail und Wortschatz auf, während sie benennen, was sie finden. Die bildgestützte Ich-sehe-was-Aufgabe heißt jedes Kind willkommen, unabhängig von Lesestand oder Sprache zu Hause, und sie eignet sich gut für eine ruhige Einzelarbeit, die Lernstation oder einen kurzen Einstieg in den Tag. Jedes Blatt gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version, die Funde markiert und zählt, sowie einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen.",
+    "bakery__kindergarten": "Bäckerei-Arbeitsblätter für den Kindergarten setzen ein vertrautes Bildmotiv für Fünf- bis Siebenjährige ein: Brot, Brötchen, Kuchen und Torten. Das Bildmotiv rund um die Bäckerei trägt Kinder durch erstes Zählen und Zusammenzählen, Sortieren und Zuordnen, Was-passt-nicht sowie erste Laute und Anfangsbuchstaben, sodass eine neue Fertigkeit an Bildern geübt wird, die Kinder bereits kennen — spielerisch und der Phase angemessen. Bäckerei-Wörter eignen sich natürlich für Rollenspiel und Gespräche übers Essen, und die klaren Bilder heißen Kinder willkommen, die die Gruppensprache noch lernen. Diese Seite versammelt die Bäckerei-Arbeitsblätter, die zur Kindergartenstufe passen. Jedes gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version und einen Lösungsbogen, verfügbar in allen 11 Sprachen, in denen wir veröffentlichen.",
+    "bingo__kindergarten": "Bingo-Arbeitsblätter für den Kindergarten machen aus dem genauen Hinsehen ein Spiel, das Fünf- bis Siebenjährige gern mitspielen: Eine Karte wird angesagt, und die Kinder suchen das passende Bild auf ihrem Feld und decken es ab. Ganz nebenbei wachsen Wortschatz, Aufmerksamkeit und das Wiedererkennen vertrauter Motive — spielerisch und vorbereitend, ganz ohne Lesen. Die Bilder tragen die Aufgabe, sodass auch ein Kind mitmachen kann, das die Sprache der Gruppe noch lernt. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, die jede Markierung sofort überprüft, und einen Lösungsbogen. Das ganze Set ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ganz ohne Anmeldung.",
+    "chart-count__kindergarten": "Mit Tabelle zählen-Arbeitsblättern machen Kinder im Kindergarten erste Erfahrungen mit dem Eintragen: Sie zählen die Gegenstände und tragen das Ergebnis Spalte für Spalte in ein einfaches Balkenfeld ein. Für Fünf- bis Siebenjährige verbindet das genaue Abzählen sich mit dem ganz frühen Gedanken, dass eine höhere Spalte mehr bedeutet — ein schöner Übergang vom Zählen zum Darstellen. Die Mengen bleiben klein (bis zehn), und die Bilder halten die Aufgabe leicht zugänglich, unabhängig von Lesestand oder Herkunftssprache. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, die die Spalten füllt und gegen die Anzahl prüft, und einen Lösungsbogen. Das ganze Set ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ganz ohne Anmeldung.",
+    "grid-match__kindergarten": "Gitter-Zuordnung-Arbeitsblätter für den Kindergarten bieten ein ordentliches Zuordnungsrätsel: Jedes Plättchen wird an seinen passenden Platz im Gitter gezogen. Für Fünf- bis Siebenjährige stärkt das die visuelle Zuordnung, das Lagegefühl und ein wenig Arbeitsgedächtnis, weil sie ein Bild im Kopf behalten, während sie seinen Platz suchen — spielerisch und vorbereitend. Die bildgestützte Aufgabe passt zu jedem Kind, unabhängig von Lesestand oder Herkunftssprache. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, in der die Teile einrasten und das fertige Gitter überprüft wird, und einen Lösungsbogen. Das ganze Set ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ganz ohne Anmeldung.",
+    "grade-1__pattern-worksheet": "Musterarbeitsblätter für die 1. Klasse bauen das Denken hinter Mustern auf: Die Kinder lesen eine sich wiederholende AB- oder ABC-Folge, überlegen, was als Nächstes kommt, und setzen sie fort. Für Sechs- bis Achtjährige stärkt das jenes Vorhersagen und Verallgemeinern, das der frühen Algebra zugrunde liegt — mit Bildunterstützung dort, wo sie hilft. Die Form ist klar genug, um selbstständig zu beginnen, und reich genug, um ein schnelles Kind weiter zu fordern. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, die jeden Schritt überprüft, und einen Lösungsbogen. Das ganze Set ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ganz ohne Anmeldung.",
+    "crossword__grade-2": "Kreuzworträtsel-Arbeitsblätter für die 2. Klasse verbinden Schreiben und Rechtschreibung mit klaren Bildhinweisen: Jedes Bild neben dem Gitter zeigt ein Wort, und die Kinder tragen es Buchstabe für Buchstabe in die sich kreuzenden Felder ein. Für Sieben- bis Neunjährige festigt das die Rechtschreibung und das sichere Lesen, denn ein Buchstabe muss in zwei Wörtern zugleich stimmen — das fordert genaues Hinsehen und ein wenig Planung. Die Bildhinweise halten die Bedeutung klar, auch für Kinder, die die Sprache der Klasse noch aufbauen. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, die jeden Buchstaben überprüft, und einen Lösungsbogen. Das ganze Set ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ganz ohne Anmeldung.",
+    "bakery__odd-one-out": "Was passt nicht-Arbeitsblätter mit der Bäckerei lassen Kinder das Bild finden, das nicht dazugehört — und überlegen, warum. Mit Motiven rund ums Backen, etwa Brot, Brezel und Kuchen, üben die Kinder erstes Einordnen und Begründen: Sie bemerken, was eine Gruppe gemeinsam hat, und entdecken die Ausnahme. Die bildgestützte Aufgabe passt zu jedem Kind, unabhängig von Lesestand oder Herkunftssprache, und sie regt zu hilfreichem Erklären an. So wächst nebenbei der Wortschatz rund um die Bäckerei. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, die nach der Wahl die Lösung zeigt, und einen Lösungsbogen. Das ganze Set ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ganz ohne Anmeldung.",
+    "kindergarten__ocean_life": "Meeresleben-Arbeitsblätter für den Kindergarten tauchen in ein Bilderset ein, das Fünf- bis Siebenjährige spannend finden — Fische, Tintenfisch, Krebs, Delfin und Seestern. Die Meerestiere tragen die Kinder durch Zählen und erstes Zusammenzählen, Sortieren und Zuordnen, Was passt nicht und erste Laute und Anfangsbuchstaben, sodass die Neugier das Üben antreibt — spielerisch und vorbereitend. Der Meereswortschatz passt gut zu Sachunterricht und Vorlesezeit, und die klaren Bilder holen auch Kinder ab, die die Sprache der Gruppe noch aufbauen. Diese Seite bündelt die Meeresleben-Arbeitsblätter, die zum Kindergartenalter passen. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version und einen Lösungsbogen — verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ganz ohne Anmeldung.",
+    "kindergarten__spring": "Frühling-Arbeitsblätter für den Kindergarten fangen die Jahreszeit ein, deren Ankunft Fünf- bis Siebenjährige beobachten — Blumen, Regen, Knospen und Küken. Das Bilderset trägt die Kinder durch Zählen und erstes Zusammenzählen, Sortieren und Mustern, Zuordnen und erste Frühlingswörter, sodass das, was draußen geschieht, zum Anlass fürs Üben wird — spielerisch und vorbereitend. Der Frühling fügt sich gut in Kalender- und Naturgespräche ein, und die klaren Bilder holen auch Kinder ab, die die Sprache der Gruppe noch aufbauen. Diese Seite bündelt die Frühling-Arbeitsblätter, die zum Kindergartenalter passen. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version und einen Lösungsbogen — verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ganz ohne Anmeldung.",
+    "accessories__kindergarten": "Accessoires-Arbeitsblätter für den Kindergarten bringen ein vertrautes Bilderset in die Übung für das Kindergartenalter (5-7): Mit Hut, Brille, Tasche und Schal zählen Kinder, sortieren, ordnen zu und entdecken erste Laute und Anfangsbuchstaben — alles spielerisch und vorbereitend, an Dingen, die sie aus dem Alltag kennen. So wird aus dem Zählen erstes Zusammenzählen, und nebenbei wächst der Wortschatz rund um die kleinen Begleiter des Tages. Die Blätter passen gut an die Lernstation oder als kurze Aufgabe zu zweit. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, die die Lösungen sofort überprüft, und einen Lösungsbogen. Das ganze Set ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ganz ohne Anmeldung.",
+    "activities__kindergarten": "Aktivitäten-Arbeitsblätter für den Kindergarten benennen die Dinge, die Fünf- bis Siebenjährige den ganzen Tag tun — laufen, springen, malen, lesen — in einem Bilderset, das Tätigkeitswörter zur Übung macht. Die Bilder tragen die Kinder durch Zählen und erstes Zusammenzählen, Sortieren und Zuordnen, Was passt nicht und erste Laute und Anfangsbuchstaben, sodass der Alltagswortschatz zugleich echte Fertigkeit wird und viel Gespräch anregt — spielerisch und vorbereitend. Die klaren Bilder holen auch Kinder ab, die die Sprache der Gruppe noch aufbauen. Diese Seite bündelt die Aktivitäten-Arbeitsblätter, die zum Kindergartenalter passen. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version und einen Lösungsbogen — verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ganz ohne Anmeldung.",
+    "at_the_supermarket__kindergarten": "Im Supermarkt-Arbeitsblätter für den Kindergarten machen aus einem vertrauten Einkauf reiche Übung und fertiges Rollenspiel für Fünf- bis Siebenjährige. Das Bilderset — Einkaufswagen, Regale, Lebensmittel und Kasse — trägt die Kinder durch Zählen und erstes Zusammenzählen, Sortieren und Zuordnen, Was passt nicht und erste Wörter, sodass der Einkaufswortschatz zugleich echte Fertigkeit wird — spielerisch und vorbereitend. Eine Kaufladenecke ist im Kindergarten beliebt, und diese Blätter spielen ihr direkt zu, während sie auch Kinder abholen, die die Sprache der Gruppe noch aufbauen. Diese Seite bündelt die Supermarkt-Arbeitsblätter, die zum Kindergartenalter passen. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version und einen Lösungsbogen — verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ganz ohne Anmeldung.",
+    "body_parts__kindergarten": "Körperteile-Arbeitsblätter für den Kindergarten bringen ein Bilderset in die Übung für das Kindergartenalter (5-7), das Kinder buchstäblich am eigenen Leib kennen: Mit Hand, Fuß, Auge und Ohr zählen sie, sortieren, ordnen zu und entdecken erste Laute und Anfangsbuchstaben — alles spielerisch und vorbereitend. So wird aus dem Zählen erstes Zusammenzählen, und nebenbei wächst der Wortschatz rund um den eigenen Körper, der sich gut mit Bewegungs- und Liedspielen verbinden lässt. Die klaren Bilder holen auch Kinder ab, die die Sprache der Gruppe noch aufbauen. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, die die Lösungen sofort überprüft, und einen Lösungsbogen. Das ganze Set ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ganz ohne Anmeldung.",
+    "camping__kindergarten": "Camping-Arbeitsblätter für den Kindergarten holen das Abenteuer im Freien in die Übung für das Kindergartenalter (5-7): Mit Zelt, Taschenlampe, Lagerfeuer und Rucksack zählen Kinder, sortieren, ordnen zu und entdecken erste Laute und Anfangsbuchstaben — alles spielerisch und vorbereitend, an Dingen, die sie aus dem Familienurlaub kennen. So wird aus dem Zählen erstes Zusammenzählen, und nebenbei wächst der Wortschatz rund ums Draußensein. Die Blätter passen gut an die Lernstation oder als kurze Aufgabe zu zweit. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, die die Lösungen sofort überprüft, und einen Lösungsbogen. Das ganze Set ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ganz ohne Anmeldung.",
+    "classroom__kindergarten": "Klassenzimmer-Arbeitsblätter für den Kindergarten setzen ein Bilderset aus dem nächsten Umfeld der Kinder ein: Mit Stift, Schere, Buch und Tafel zählen Fünf- bis Siebenjährige, sortieren, ordnen zu und entdecken erste Laute und Anfangsbuchstaben — alles spielerisch und vorbereitend, an Gegenständen, die sie täglich vor sich haben. So wird aus dem Zählen erstes Zusammenzählen, und nebenbei wächst der Wortschatz rund um den Gruppenraum, der sich gut mit Aufräum- und Ordnungsgesprächen verbinden lässt. Die Blätter passen gut an die Lernstation oder als kurze Aufgabe zu zweit. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, die die Lösungen sofort überprüft, und einen Lösungsbogen. Das ganze Set ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ganz ohne Anmeldung.",
+    "clothing__kindergarten": "Kleidung-Arbeitsblätter für den Kindergarten bringen ein Bilderset in die Übung für das Kindergartenalter (5-7), das Kinder jeden Morgen selbst anziehen: Mit Pullover, Hose, Schuh und Mütze zählen sie, sortieren, ordnen zu und entdecken erste Laute und Anfangsbuchstaben — alles spielerisch und vorbereitend. So wird aus dem Zählen erstes Zusammenzählen, und nebenbei wächst der Wortschatz rund ums Anziehen, der sich gut mit Jahreszeiten- und Wettergesprächen verbinden lässt. Die Blätter passen gut an die Lernstation oder als kurze Aufgabe zu zweit. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, die die Lösungen sofort überprüft, und einen Lösungsbogen. Das ganze Set ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ganz ohne Anmeldung.",
+    "desserts_and_sweets__kindergarten": "Desserts und Süßigkeiten-Arbeitsblätter für den Kindergarten holen ein besonders beliebtes Bilderset in die Übung für das Kindergartenalter (5-7): Mit Eis, Bonbon, Keks und Kuchen zählen Kinder, sortieren, ordnen zu und entdecken erste Laute und Anfangsbuchstaben — alles spielerisch und vorbereitend. So wird aus dem Zählen erstes Zusammenzählen, und nebenbei wächst der Wortschatz rund ums Naschen, der sich gut mit Feier- und Geburtstagsgesprächen verbinden lässt. Die Blätter passen gut an die Lernstation oder als kurze Aufgabe zu zweit. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, die die Lösungen sofort überprüft, und einen Lösungsbogen. Das ganze Set ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ganz ohne Anmeldung.",
+    "easter__kindergarten": "Ostern-Arbeitsblätter für den Kindergarten bringen einen Hauch Frühlingsfest in die Übung für Fünf- bis Siebenjährige. Das Bilderset — Eier, Hasen, Küken und Körbe — trägt die Kinder durch Zählen und erstes Zusammenzählen, Sortieren und Mustern, Zuordnen und erste festliche Wörter, sodass das Fest zum Anlass fürs Üben wird — spielerisch und vorbereitend. Jahreszeitliche Blätter halten eine Gruppe bei der Sache, und die klaren Bilder holen auch Kinder ab, die anders feiern oder die Sprache der Gruppe noch lernen. Diese Seite bündelt die Ostern-Arbeitsblätter, die zum Kindergartenalter passen. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version und einen Lösungsbogen — verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ganz ohne Anmeldung.",
+    "fruits__kindergarten": "Früchte-Arbeitsblätter für den Kindergarten setzen ein gesundes, vertrautes Bilderset — Apfel, Banane, Orange und Weintrauben — für Fünf- bis Siebenjährige ein. Die Früchte tragen die Kinder durch Zählen und erstes Zusammenzählen, Sortieren und Zuordnen, Was passt nicht und erste Laute und Anfangsbuchstaben, sodass der Wortschatz von der Brotzeit zugleich echte Übung wird — spielerisch und vorbereitend. Obstwörter sind häufig in jeder Sprache, in der wir veröffentlichen, und passen gut zu Gesprächen über gesundes Essen, eine Hilfe in einer mehrsprachigen Gruppe. Diese Seite bündelt die Früchte-Arbeitsblätter, die zum Kindergartenalter passen. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version und einen Lösungsbogen — verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ganz ohne Anmeldung.",
+    "hospital__kindergarten": "Krankenhaus-Arbeitsblätter für den Kindergarten machen aus einem Ort, den Fünf- bis Siebenjährige schon besucht haben, Übung und beruhigendes Rollenspiel. Das Bilderset — Ärztin, Pfleger, Bett, Krankenwagen und Pflaster — trägt die Kinder durch Zählen und erstes Zusammenzählen, Sortieren und Zuordnen, Was passt nicht und erste Wörter, sodass der Wortschatz rund ums Helfen zugleich echte Fertigkeit wird — spielerisch und vorbereitend. Über einen Krankenhausbesuch zu sprechen hilft jungen Kindern, ruhiger damit umzugehen, und die klaren Bilder holen auch Kinder ab, die die Sprache der Gruppe noch aufbauen. Diese Seite bündelt die Krankenhaus-Arbeitsblätter, die zum Kindergartenalter passen. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version und einen Lösungsbogen — verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ganz ohne Anmeldung.",
+    "kindergarten__kitchen_tools": "Küchenwerkzeuge-Arbeitsblätter für den Kindergarten zeigen die Utensilien, die Fünf- bis Siebenjährige zu Hause sehen — Löffel, Topf, Schneebesen und Tasse — und setzen sie quer durch die Übung ein. Das Bilderset trägt die Kinder durch Zählen und erstes Zusammenzählen, Sortieren und Zuordnen, Was passt nicht und erste Laute und Anfangsbuchstaben, sodass der Küchenwortschatz zugleich echte Übung wird und sich gut mit Koch- und Backspielen verbinden lässt — spielerisch und vorbereitend. Die klaren Bilder holen auch Kinder ab, die die Sprache der Gruppe noch aufbauen. Diese Seite bündelt die Küchenwerkzeug-Arbeitsblätter, die zum Kindergartenalter passen. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version und einen Lösungsbogen — verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ganz ohne Anmeldung."
   },
   "workspace": {
     "metadata": {

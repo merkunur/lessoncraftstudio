@@ -987,7 +987,1170 @@
   },
   "topicFaq": {
     "heading": "Preguntas frecuentes",
-    "overrides": {},
+    "overrides": {
+      "kindergarten": [
+        {
+          "q": "¿Para qué edad son las fichas para jardín infantil?",
+          "a": "Están pensadas para niños de unos 5 a 7 años: conteo, primeras sumas y restas, asociación número-cantidad, clasificar, patrones, reconocer letras y sonidos iniciales y primeras palabras frecuentes."
+        },
+        {
+          "q": "¿Son gratis las fichas para jardín infantil?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, así que puedes elegir el que necesite tu aula."
+        }
+      ],
+      "grade-1": [
+        {
+          "q": "¿Qué trabajan las fichas para grado 1?",
+          "a": "Para niños de unos 6 a 8 años: sumar y restar hasta 20, decenas y unidades, unir letras en primeras palabras y lectura inicial, además de lógica."
+        },
+        {
+          "q": "¿Son gratis las fichas para grado 1?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En cuántos idiomas se pueden usar?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, para que elijas el que mejor sirva a tus alumnos."
+        }
+      ],
+      "preschool": [
+        {
+          "q": "¿Sirven para niños que aún no leen?",
+          "a": "Sí. Las fichas para preescolar, de unos 3 a 5 años, se basan en imágenes: contar cantidades pequeñas, emparejar, clasificar, grande o pequeño, el intruso y trazar primeras letras, sin lectura."
+        },
+        {
+          "q": "¿Son gratis las fichas para preescolar?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, así que puedes usarlas en cualquiera de ellos."
+        }
+      ],
+      "grade-2": [
+        {
+          "q": "¿Qué nivel trabajan las fichas para grado 2?",
+          "a": "Para niños de unos 7 a 9 años: sumar y restar de dos cifras, inicio de la multiplicación, decenas y centenas, lectura más larga, trabajo con palabras, crucigramas, sopas de letras y lógica."
+        },
+        {
+          "q": "¿Son gratis las fichas para grado 2?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En cuántos idiomas se publican?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, para que elijas el que necesites."
+        }
+      ],
+      "pattern-train": [
+        {
+          "q": "¿Qué habilidad trabajan las fichas de Tren De Patrones?",
+          "a": "Los patrones y la atención visual: los niños de preescolar y jardín infantil descubren la regla del tren y colocan la imagen que sigue en cada vagón."
+        },
+        {
+          "q": "¿Son gratis las fichas de Tren De Patrones?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, así que puedes elegir el que prefieras."
+        }
+      ],
+      "addition": [
+        {
+          "q": "¿Para qué nivel son las fichas de Suma?",
+          "a": "Desde jardín infantil hasta grado 2: los niños cuentan dos grupos y los combinan, empezando con cantidades pequeñas y avanzando a operaciones de una y dos cifras."
+        },
+        {
+          "q": "¿Son gratis las fichas de Suma?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En cuántos idiomas están disponibles?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, para que elijas el que necesite tu aula."
+        }
+      ],
+      "math-worksheet": [
+        {
+          "q": "¿Qué trabajan las fichas de Matemáticas?",
+          "a": "Práctica general de números: operaciones, completar partes que faltan y sumas y restas variadas, útiles desde jardín infantil hasta grado 2 según el tema."
+        },
+        {
+          "q": "¿Son gratis las fichas de Matemáticas?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas se pueden usar?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, así que puedes elegir el que prefieras."
+        }
+      ],
+      "subtraction": [
+        {
+          "q": "¿Cómo trabajan la resta estas fichas?",
+          "a": "Los niños tachan lo que se va y cuentan lo que queda, de modo que el gesto hace visible la idea de restar; avanzan de grupos pequeños a operaciones de una y dos cifras."
+        },
+        {
+          "q": "¿Son gratis las fichas de Resta?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En cuántos idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, para que elijas el que necesites."
+        }
+      ],
+      "picture-sort": [
+        {
+          "q": "¿Qué habilidad desarrollan las fichas de Clasificar Imágenes?",
+          "a": "Clasificar y razonar: los niños de preescolar y jardín infantil agrupan imágenes en categorías según una característica común, sin necesidad de leer."
+        },
+        {
+          "q": "¿Son gratis las fichas de Clasificar Imágenes?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, así que puedes elegir el que prefieras."
+        }
+      ],
+      "code-addition": [
+        {
+          "q": "¿Qué trabajan las fichas de Suma Codificada?",
+          "a": "La suma y el reconocimiento de letras: los niños resuelven sumas pequeñas cuyos resultados son letras y, al ordenarlas, descubren una palabra; ideales para jardín infantil y grado 1."
+        },
+        {
+          "q": "¿Son gratis las fichas de Suma Codificada?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En cuántos idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, para que elijas el que necesites."
+        }
+      ],
+      "sudoku": [
+        {
+          "q": "¿Necesitan leer o saber números?",
+          "a": "No. En las fichas de Sudoku De Imágenes los niños colocan imágenes en una cuadrícula de cuatro por cuatro para que no se repitan en fila, columna ni bloque; se resuelve solo con lógica visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Sudoku De Imágenes?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, así que puedes elegir el que prefieras."
+        }
+      ],
+      "more-less": [
+        {
+          "q": "¿Para qué edad son las fichas de Más O Menos?",
+          "a": "Para preescolar y jardín infantil: los niños comparan dos grupos de imágenes y deciden cuál tiene más, menos o igual, sin leer ni usar números."
+        },
+        {
+          "q": "¿Son gratis las fichas de Más O Menos?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En cuántos idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, para que elijas el que necesites."
+        }
+      ],
+      "math-puzzle": [
+        {
+          "q": "¿Qué trabajan las fichas de Rompecabezas Matemático?",
+          "a": "El sentido numérico y la planificación: los niños de jardín infantil y grado 1 arrastran piezas para completar un rompecabezas de números, anticipando dónde encaja cada una."
+        },
+        {
+          "q": "¿Son gratis las fichas de Rompecabezas Matemático?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, así que puedes elegir el que prefieras."
+        }
+      ],
+      "big-small": [
+        {
+          "q": "¿Qué habilidad desarrollan las fichas de Grande O Pequeño?",
+          "a": "Las primeras nociones de medida: los niños de preescolar y jardín infantil encuentran el más grande o el más pequeño y ordenan por tamaño, sin leer."
+        },
+        {
+          "q": "¿Son gratis las fichas de Grande O Pequeño?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En cuántos idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, para que elijas el que necesites."
+        }
+      ],
+      "cryptogram": [
+        {
+          "q": "¿Qué trabajan las fichas de Criptograma?",
+          "a": "El reconocimiento de letras y la discriminación visual: los niños descifran un código de imágenes y símbolos para escribir una palabra, ideales para jardín infantil y grado 1."
+        },
+        {
+          "q": "¿Son gratis las fichas de Criptograma?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, así que puedes elegir el que prefieras."
+        }
+      ],
+      "prepositions": [
+        {
+          "q": "¿Qué trabajan las fichas de Preposiciones?",
+          "a": "Las palabras de lugar como en, sobre, debajo y al lado: los niños de preescolar a grado 1 eligen la imagen que muestra cada posición, con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Preposiciones?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En cuántos idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, para que elijas el que necesites."
+        }
+      ],
+      "word-scramble": [
+        {
+          "q": "¿Qué habilidad trabajan las fichas de Letras Revueltas?",
+          "a": "La escritura y la ortografía inicial: los niños de jardín infantil y grado 1 ordenan letras desordenadas para escribir la palabra de cada imagen, que sirve de pista."
+        },
+        {
+          "q": "¿Son gratis las fichas de Letras Revueltas?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, así que puedes elegir el que prefieras."
+        }
+      ],
+      "find-objects": [
+        {
+          "q": "¿Qué desarrollan las fichas de Encuentra Los Objetos?",
+          "a": "La discriminación visual y la atención: los niños de preescolar y jardín infantil buscan objetos escondidos en una escena y los marcan, sin necesidad de leer."
+        },
+        {
+          "q": "¿Son gratis las fichas de Encuentra Los Objetos?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En cuántos idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, para que elijas el que necesites."
+        }
+      ],
+      "treasure-hunt": [
+        {
+          "q": "¿Qué trabajan las fichas de Búsqueda Del Tesoro?",
+          "a": "El razonamiento espacial y las direcciones: los niños de jardín infantil y grado 1 siguen pistas paso a paso por una cuadrícula hasta llegar al tesoro."
+        },
+        {
+          "q": "¿Son gratis las fichas de Búsqueda Del Tesoro?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, así que puedes elegir el que prefieras."
+        }
+      ],
+      "missing-pieces": [
+        {
+          "q": "¿Qué habilidad trabajan las fichas de Piezas Faltantes?",
+          "a": "La discriminación visual y la atención: los niños de preescolar y jardín infantil eligen y arrastran la pieza recortada que encaja en cada hueco para completar la imagen."
+        },
+        {
+          "q": "¿Son gratis las fichas de Piezas Faltantes?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En cuántos idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, para que elijas el que necesites."
+        }
+      ],
+      "matching": [
+        {
+          "q": "¿Qué trabajan las fichas de Emparejar?",
+          "a": "La correspondencia uno a uno y la atención visual: los niños de preescolar y jardín infantil trazan una línea para unir cada elemento con su pareja."
+        },
+        {
+          "q": "¿Son gratis las fichas de Emparejar?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, así que puedes elegir el que prefieras."
+        }
+      ],
+      "picture-path": [
+        {
+          "q": "¿Qué desarrollan las fichas de Sendero De Imágenes?",
+          "a": "El razonamiento espacial y la dirección: los niños de jardín infantil y grado 1 trazan un camino casilla a casilla por una cuadrícula hasta la meta."
+        },
+        {
+          "q": "¿Son gratis las fichas de Sendero De Imágenes?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En cuántos idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, para que elijas el que necesites."
+        }
+      ],
+      "word-guess": [
+        {
+          "q": "¿Qué trabajan las fichas de Adivina La Palabra?",
+          "a": "Las letras y la escritura inicial: los niños de jardín infantil y grado 1 rellenan los huecos para escribir la palabra de cada imagen, que sirve de pista."
+        },
+        {
+          "q": "¿Son gratis las fichas de Adivina La Palabra?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, así que puedes elegir el que prefieras."
+        }
+      ],
+      "shadow-match": [
+        {
+          "q": "¿Qué habilidad trabajan las fichas de Emparejar Sombras?",
+          "a": "La discriminación visual y la percepción de formas: los niños de preescolar y jardín infantil unen cada objeto con su sombra comparando contorno y silueta, sin leer."
+        },
+        {
+          "q": "¿Son gratis las fichas de Emparejar Sombras?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En cuántos idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, para que elijas el que necesites."
+        }
+      ],
+      "find-and-count": [
+        {
+          "q": "¿Qué trabajan las fichas de Busca Y Cuenta?",
+          "a": "La búsqueda visual y el conteo: los niños de preescolar y jardín infantil encuentran objetos en una escena y cuentan cuántos hay de cada uno."
+        },
+        {
+          "q": "¿Son gratis las fichas de Busca Y Cuenta?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, así que puedes elegir el que prefieras."
+        }
+      ],
+      "bingo": [
+        {
+          "q": "¿Para qué sirven las fichas de Bingo?",
+          "a": "Para escuchar y repasar en grupo: los niños de preescolar a grado 1 marcan en su cartón la imagen, letra o número que se canta, ideal para toda la clase."
+        },
+        {
+          "q": "¿Son gratis las fichas de Bingo?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En cuántos idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, para que elijas el que necesites."
+        }
+      ],
+      "odd-one-out": [
+        {
+          "q": "¿Qué desarrollan las fichas de El Intruso?",
+          "a": "Clasificar y razonar: los niños de preescolar y jardín infantil eligen la imagen que no pertenece y explican por qué, sin necesidad de leer."
+        },
+        {
+          "q": "¿Son gratis las fichas de El Intruso?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, así que puedes elegir el que prefieras."
+        }
+      ],
+      "chart-count": [
+        {
+          "q": "¿Qué trabajan las fichas de Contar En Gráfico?",
+          "a": "El conteo y los primeros datos: los niños de jardín infantil y grado 1 cuentan objetos y rellenan la columna de un gráfico de barras hasta la altura justa."
+        },
+        {
+          "q": "¿Son gratis las fichas de Contar En Gráfico?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En cuántos idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, para que elijas el que necesites."
+        }
+      ],
+      "pattern-worksheet": [
+        {
+          "q": "¿Qué habilidad trabajan las fichas de Patrones?",
+          "a": "La lógica y la anticipación: los niños de preescolar y jardín infantil leen un patrón que se repite, de tipo AB o ABC, y eligen lo que viene después."
+        },
+        {
+          "q": "¿Son gratis las fichas de Patrones?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, así que puedes elegir el que prefieras."
+        }
+      ],
+      "grid-match": [
+        {
+          "q": "¿Qué trabajan las fichas de Emparejar En Cuadrícula?",
+          "a": "El emparejar y la memoria visual: los niños de jardín infantil y grado 1 arrastran cada ficha a su lugar correcto dentro de una cuadrícula."
+        },
+        {
+          "q": "¿Son gratis las fichas de Emparejar En Cuadrícula?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En cuántos idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, para que elijas el que necesites."
+        }
+      ],
+      "wordsearch": [
+        {
+          "q": "¿Qué trabajan las fichas de Sopa De Letras?",
+          "a": "El reconocimiento de letras y la búsqueda visual: los niños de grado 1 y grado 2 encuentran palabras escondidas de un tema en una cuadrícula de letras."
+        },
+        {
+          "q": "¿Son gratis las fichas de Sopa De Letras?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, así que puedes elegir el que prefieras."
+        }
+      ],
+      "crossword": [
+        {
+          "q": "¿Qué trabajan las fichas de Crucigrama?",
+          "a": "La ortografía y el vocabulario: los niños de grado 1 y grado 2 escriben palabras a partir de pistas de imagen en una cuadrícula que se cruza."
+        },
+        {
+          "q": "¿Son gratis las fichas de Crucigrama?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En cuántos idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, para que elijas el que necesites."
+        }
+      ],
+      "alphabet-train": [
+        {
+          "q": "¿Qué trabajan las fichas de Tren Del Abecedario?",
+          "a": "El reconocimiento de letras y el orden alfabético: los niños de preescolar y jardín infantil colocan las letras de la A a la Z en los vagones del tren."
+        },
+        {
+          "q": "¿Son gratis las fichas de Tren Del Abecedario?",
+          "a": "Sí. Todas son gratis para imprimir en PDF o jugar en línea en su versión interactiva, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, así que puedes elegir el que prefieras."
+        }
+      ],
+      "accessories": [
+        {
+          "q": "¿Qué hay en la página de fichas de Accesorios?",
+          "a": "Encontrarás fichas para conteo y primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer primeras letras, pensadas para niños de K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Accesorios?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con su hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos, así que puedes elegir la lengua que necesites."
+        }
+      ],
+      "ocean_life": [
+        {
+          "q": "¿Qué hay en la página de fichas de Vida marina?",
+          "a": "Hay fichas de conteo y sumas, clasificar y emparejar, el intruso y primeras letras, para niños de K a 3.º con imágenes que les resultan cercanas."
+        },
+        {
+          "q": "¿Son gratis las fichas de Vida marina?",
+          "a": "Sí. Son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "animals": [
+        {
+          "q": "¿Qué hay en la página de fichas de Animales?",
+          "a": "Encontrarás fichas para conteo y primeras sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Animales?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "post_office": [
+        {
+          "q": "¿Qué hay en la página de fichas de Oficina de correos?",
+          "a": "Hay fichas de conteo y sumas, clasificar y emparejar, el intruso y primeras letras, para K a 3.º con vocabulario real del tema."
+        },
+        {
+          "q": "¿Son gratis las fichas de Oficina de correos?",
+          "a": "Sí. Son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "activities": [
+        {
+          "q": "¿Qué hay en la página de fichas de Actividades?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Actividades?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "things_that_fly": [
+        {
+          "q": "¿Qué hay en la página de fichas de Cosas que vuelan?",
+          "a": "Hay fichas de conteo y sumas, clasificar y emparejar, el intruso y primeras letras, para K a 3.º con imágenes cercanas a los niños."
+        },
+        {
+          "q": "¿Son gratis las fichas de Cosas que vuelan?",
+          "a": "Sí. Son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "beach": [
+        {
+          "q": "¿Qué hay en la página de fichas de Playa?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Playa?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "occupations": [
+        {
+          "q": "¿Qué hay en la página de fichas de Ocupaciones?",
+          "a": "Hay fichas de conteo y sumas, clasificar y emparejar, el intruso y primeras letras, para K a 3.º con vocabulario real de oficios."
+        },
+        {
+          "q": "¿Son gratis las fichas de Ocupaciones?",
+          "a": "Sí. Son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "summer": [
+        {
+          "q": "¿Qué hay en la página de fichas de Verano?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Verano?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "camping": [
+        {
+          "q": "¿Qué hay en la página de fichas de Campamento?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Campamento?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "christmas": [
+        {
+          "q": "¿Qué hay en la página de fichas de Navidad?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Navidad?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "classroom": [
+        {
+          "q": "¿Qué hay en la página de fichas de Salón de clases?",
+          "a": "Hay fichas de conteo y sumas, clasificar y emparejar, el intruso y primeras letras, para K a 3.º con vocabulario cotidiano del aula."
+        },
+        {
+          "q": "¿Son gratis las fichas de Salón de clases?",
+          "a": "Sí. Son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "clothing": [
+        {
+          "q": "¿Qué hay en la página de fichas de Ropa?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Ropa?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "flowers": [
+        {
+          "q": "¿Qué hay en la página de fichas de Flores?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Flores?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "hospital": [
+        {
+          "q": "¿Qué hay en la página de fichas de Hospital?",
+          "a": "Hay fichas de conteo y sumas, clasificar y emparejar, el intruso y primeras letras, para K a 3.º con vocabulario real del tema."
+        },
+        {
+          "q": "¿Son gratis las fichas de Hospital?",
+          "a": "Sí. Son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "toys": [
+        {
+          "q": "¿Qué hay en la página de fichas de Juguetes?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Juguetes?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "weather": [
+        {
+          "q": "¿Qué hay en la página de fichas de Clima?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Clima?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "4th_of_july": [
+        {
+          "q": "¿Qué hay en la página de fichas de 4 de Julio?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de 4 de Julio?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "at_the_supermarket": [
+        {
+          "q": "¿Qué hay en la página de fichas de En el supermercado?",
+          "a": "Hay fichas de conteo y sumas, clasificar y emparejar, el intruso y primeras letras, para K a 3.º con vocabulario real del tema."
+        },
+        {
+          "q": "¿Son gratis las fichas de En el supermercado?",
+          "a": "Sí. Son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "bakery": [
+        {
+          "q": "¿Qué hay en la página de fichas de Panadería?",
+          "a": "Hay fichas de conteo y sumas, clasificar y emparejar, el intruso y primeras letras, para K a 3.º con vocabulario real del tema."
+        },
+        {
+          "q": "¿Son gratis las fichas de Panadería?",
+          "a": "Sí. Son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "breakfast": [
+        {
+          "q": "¿Qué hay en la página de fichas de Desayuno?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Desayuno?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "easter": [
+        {
+          "q": "¿Qué hay en la página de fichas de Pascua?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Pascua?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "fruits": [
+        {
+          "q": "¿Qué hay en la página de fichas de Frutas?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Frutas?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "furniture": [
+        {
+          "q": "¿Qué hay en la página de fichas de Muebles?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Muebles?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "kitchen_tools": [
+        {
+          "q": "¿Qué hay en la página de fichas de Utensilios de cocina?",
+          "a": "Hay fichas de conteo y sumas, clasificar y emparejar, el intruso y primeras letras, para K a 3.º con vocabulario cotidiano del tema."
+        },
+        {
+          "q": "¿Son gratis las fichas de Utensilios de cocina?",
+          "a": "Sí. Son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "space": [
+        {
+          "q": "¿Qué hay en la página de fichas de Espacio?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Espacio?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "vegetables": [
+        {
+          "q": "¿Qué hay en la página de fichas de Verduras?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Verduras?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "vehicles": [
+        {
+          "q": "¿Qué hay en la página de fichas de Vehículos?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Vehículos?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "winter": [
+        {
+          "q": "¿Qué hay en la página de fichas de Invierno?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Invierno?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "body_parts": [
+        {
+          "q": "¿Qué hay en la página de fichas de Partes del cuerpo?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Partes del cuerpo?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "forest_creatures": [
+        {
+          "q": "¿Qué hay en la página de fichas de Criaturas del bosque?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Criaturas del bosque?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "music": [
+        {
+          "q": "¿Qué hay en la página de fichas de Música?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Música?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "pets": [
+        {
+          "q": "¿Qué hay en la página de fichas de Mascotas?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Mascotas?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "birds_2": [
+        {
+          "q": "¿Qué hay en la página de fichas de Aves 2?",
+          "a": "Es una segunda colección de fichas de aves para conteo y sumas, clasificar y emparejar, el intruso y primeras letras, de K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Aves 2?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "tools": [
+        {
+          "q": "¿Qué hay en la página de fichas de Herramientas?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Herramientas?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "farm_animals": [
+        {
+          "q": "¿Qué hay en la página de fichas de Animales de granja?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Animales de granja?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "tree": [
+        {
+          "q": "¿Qué hay en la página de fichas de Árboles?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Árboles?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "zoo_animals": [
+        {
+          "q": "¿Qué hay en la página de fichas de Animales del zoológico?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Animales del zoológico?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "desserts_and_sweets": [
+        {
+          "q": "¿Qué hay en la página de fichas de Postres y dulces?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Postres y dulces?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "emotions": [
+        {
+          "q": "¿Qué hay en la página de fichas de Emociones?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Emociones?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "birds": [
+        {
+          "q": "¿Qué hay en la página de fichas de Aves?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Aves?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "shapes": [
+        {
+          "q": "¿Qué hay en la página de fichas de Formas?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Formas?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "insects_and_bugs": [
+        {
+          "q": "¿Qué hay en la página de fichas de Insectos y bichos?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Insectos y bichos?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "thanksgivinng": [
+        {
+          "q": "¿Qué hay en la página de fichas de Día de Acción de Gracias?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Día de Acción de Gracias?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "colors": [
+        {
+          "q": "¿Qué hay en la página de fichas de Colores?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Colores?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "miscellaneous": [
+        {
+          "q": "¿Qué hay en la página de fichas de Misceláneo?",
+          "a": "Es un conjunto variado de imágenes para conteo y sumas, clasificar y emparejar, el intruso y primeras letras, de K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Misceláneo?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "spring": [
+        {
+          "q": "¿Qué hay en la página de fichas de Primavera?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Primavera?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "dinosaurs": [
+        {
+          "q": "¿Qué hay en la página de fichas de Dinosaurios?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Dinosaurios?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "around_the_house": [
+        {
+          "q": "¿Qué hay en la página de fichas de Alrededor de la casa?",
+          "a": "Hay fichas de conteo y sumas, clasificar y emparejar, el intruso y primeras letras, para K a 3.º con vocabulario cotidiano del hogar."
+        },
+        {
+          "q": "¿Son gratis las fichas de Alrededor de la casa?",
+          "a": "Sí. Son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ],
+      "reptiles_and_amphibians": [
+        {
+          "q": "¿Qué hay en la página de fichas de Reptiles y anfibios?",
+          "a": "Encontrarás fichas de conteo y sumas, clasificar y emparejar, el intruso y reconocer letras, pensadas para K a 3.º con apoyo visual."
+        },
+        {
+          "q": "¿Son gratis las fichas de Reptiles y anfibios?",
+          "a": "Sí. Todas son gratis para imprimir o jugar en línea, con hoja de respuestas, sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están?",
+          "a": "Están disponibles en los 11 idiomas en los que publicamos."
+        }
+      ]
+    },
     "fallback": {
       "single": {
         "q1": "¿Qué hojas de trabajo hay en esta página de {topic}?",
@@ -1169,31 +2332,31 @@
     "grade-3": "Fichas de grado 3 para niños de 8 a 10 años: matemáticas, lengua y comprensión lectora del segundo ciclo de primaria con actividades imprimibles y digitales."
   },
   "topicProse": {
-    "animals": "Las fichas con tema de animales ofrecen al profesorado de educación infantil una base de vocabulario que recorre todo el currículo de K-3. Contar vacas, clasificar pájaros por lo que comen, reconocer la primera letra de cada animal de granja: el mismo conjunto de imágenes apoya el sentido numérico, la clasificación y la lectoescritura inicial sin pedir a los niños que cambien de contexto. El propio vocabulario es de alta frecuencia en cada uno de los once idiomas en los que publicamos, lo que hace que estas fichas sean especialmente útiles cuando una clase tiene niños con distintos niveles de lengua.",
-    "addition": "Las fichas de suma alcanzan a los niños en el momento en que sumar deja de ser un truco de conteo y empieza a ser un hecho que pueden recordar. Las fichas que ofrecemos aquí proporcionan esa práctica de recuperación con sumas de un dígito y de dos dígitos pequeños, con problemas apoyados en imágenes para los más jóvenes y formatos solo de números una vez que la operación está consolidada. Combine formatos interactivos e imprimibles: las versiones interactivas dan retroalimentación inmediata, los PDF imprimibles funcionan bien para el trabajo en parejas en el que un niño escribe y otro comprueba.",
-    "subtraction": "La resta es la operación que saca a la luz las intuiciones de los niños sobre lo que queda y lo que se va. Estas fichas construyen esa intuición con problemas de quitar basados en imágenes para los más jóvenes, y luego avanzan hacia la resta abstracta cuando el gesto de quitar ya no es necesario. El formato encaja bien con manipulativos en el aula: los niños pueden representar la primera fila con fichas y luego completar el resto en la página.",
-    "alphabet-train": "Las fichas del tren del abecedario construyen el reconocimiento de letras a través de la ordenación posicional. Cada vagón del tren lleva una letra, y los niños rellenan los vagones que faltan o colocan los vagones en orden alfabético. El formato es indulgente: un niño que conoce la mitad del abecedario aún puede completar las filas con letras familiares y captar las desconocidas por contexto. Útil para el trabajo de letra-sonido, el refuerzo de la canción del abecedario y la evaluación inicial de lectoescritura.",
-    "wordsearch": "Las fichas de sopa de letras construyen una lectura de atención sostenida: la vista escanea una cuadrícula de letras y el cerebro coteja cada una con una palabra objetivo guardada en la memoria de trabajo. Para lectores de K-3 los objetivos son cortos y se agrupan en torno a un tema, lo que significa que la actividad refuerza el vocabulario al tiempo que la decodificación. Estas fichas funcionan bien como tareas tranquilas, momentos de transición o trabajo en parejas en el que un niño lee la palabra objetivo en voz alta mientras el otro busca.",
-    "matching": "Las fichas de emparejar dan a los niños práctica con el movimiento cognitivo que subyace a la mayor parte del razonamiento en la educación infantil: notar que dos cosas van juntas porque comparten una propiedad. Estas páginas emparejan imágenes con sus letras iniciales, palabras con sus significados, o cantidades con sus cifras. El diseño visual —elementos en dos columnas conectados por líneas trazadas directamente en la ficha— mantiene la carga cognitiva en la relación, no en el procedimiento.",
-    "sudoku": "Las fichas de sudoku de imágenes ofrecen a los niños pequeños la experiencia lógica del sudoku completo en una cuadrícula de 4×4 con imágenes familiares en lugar de cifras. Cada fila, columna y cuadrante debe contener cada una de las cuatro imágenes una vez, y los niños deducen las que faltan por eliminación. El rompecabezas es genuinamente desafiante para la franja de K-3 sin requerir lectura de números, lo que lo hace accesible a niños de cualquier nivel lector.",
-    "find-and-count": "Las fichas de buscar y contar piden a los niños que escaneen una escena llena de detalles, localicen cada aparición de un objeto objetivo y escriban el conteo. La actividad ejercita tres destrezas a la vez: discriminación visual, correspondencia uno a uno y escritura de cifras. Para el profesorado de educación infantil, buscar y contar es un diagnóstico útil: un niño que cuenta seis pero escribe cuatro le está mostrando algo concreto sobre dónde está la brecha.",
-    "prepositions": "Las fichas de preposiciones vinculan el vocabulario espacial a imágenes concretas: el gato está debajo de la silla, la pelota está entre las cajas, el pájaro está sobre la rama. Las imágenes dan a los niños un referente para palabras que de otro modo serían abstractas, y el formato de opción múltiple mantiene la carga cognitiva en la relación, no en la escritura. Útil para alumnado que aprende español como segunda lengua, para aulas bilingües y para cualquier contexto en el que el vocabulario espacial necesite enseñanza explícita.",
-    "picture-sort": "Las fichas de clasificar imágenes practican el movimiento de clasificación que subyace a la ciencia inicial y a la lectura inicial. Los niños miran un conjunto de imágenes y las agrupan por categoría: por letra inicial, por lo que comen, por dónde viven, por su color. El formato de dos cestos mantiene la elección binaria, que es el punto de partida cognitivo correcto para clasificar en K-3.",
-    "big-small": "Las fichas de grande-pequeño practican la comparación de tamaño relativo, la destreza fundamental que subyace a la medición y la ordenación. Los niños identifican el más grande o el más pequeño de un conjunto, o disponen una serie de objetos por tamaño. Las imágenes están deliberadamente exageradas para que la comparación sea inequívoca: una vez que los niños pueden leer la pista visual con seguridad, la misma destreza se transfiere a comparaciones menos obvias en la vida y en el trabajo numérico.",
-    "more-less": "Las fichas de más-menos son el precursor de la suma y la resta formales: los niños comparan dos cantidades y deciden cuál tiene más. La actividad se apoya fuertemente en imágenes porque muchos niños de K-3 pueden resolverla antes de poder leer las palabras «más» y «menos» con fiabilidad. Útil como verificación del sentido numérico y como andamio para la aritmética inicial.",
-    "math-puzzle": "Las fichas de rompecabezas matemáticos empaquetan la práctica aritmética como algo que descubrir más que como algo que ejercitar. Cada rompecabezas requiere que el niño combine hechos numéricos con inferencia lógica: qué dos números suman este resultado, qué secuencia completa este patrón, qué operación hace verdadera esta ecuación. El formato mantiene las matemáticas interesantes una vez que los hechos básicos están consolidados.",
-    "math-worksheet": "Las páginas de fichas matemáticas dan a los niños práctica con las operaciones en las que están trabajando, en el formato que el profesorado sabe que funciona para consolidar la destreza. Cada página apunta a una o dos operaciones y proporciona suficientes problemas para una práctica sostenida sin volverse abrumadora. Úselas como deberes, trabajo de la mañana o práctica independiente durante la instrucción en grupos pequeños.",
-    "missing-pieces": "Las fichas de piezas que faltan ejercitan la completación visual: los niños miran una imagen a la que se le ha quitado una sección y eligen la pieza que la completa de una pequeña paleta. La actividad practica simultáneamente el razonamiento espacial, la atención al detalle y el reconocimiento de formas. Particularmente útil como tarea silenciosa e independiente en el rango de jardín infantil y grado 1.",
-    "odd-one-out": "Las fichas del que sobra practican la destreza de discriminación que subyace a la clasificación: los niños miran un grupo pequeño de imágenes e identifican la que no pertenece. El criterio varía —por categoría, por color, por letra inicial— y las imágenes están elegidas para que la respuesta sea inequívoca una vez nombrado el criterio. Un diagnóstico útil para el razonamiento en la educación infantil.",
-    "shadow-match": "Las fichas de emparejar sombras emparejan cada imagen con su silueta. La actividad practica el reconocimiento de formas y la discriminación visual al nivel en el que el contorno y el detalle deben procesarse por separado, una de las destrezas fundamentales para la lectura inicial. Los niños que emparejan sombras con seguridad también suelen manejar el reconocimiento de formas de letras con menos esfuerzo.",
-    "code-addition": "Las fichas de suma codificada emparejan un problema de suma con una letra, de modo que la respuesta de la suma decodifica una palabra o un mensaje. El formato da a la práctica aritmética un marco de lectoescritura: los niños resuelven sumas no como un fin en sí mismo sino como medio para llegar al mensaje. Útil para niños de mediados de jardín infantil y grado 1 que ya tienen los hechos básicos pero necesitan que la práctica les resulte motivadora.",
-    "pattern-train": "Las fichas del tren de patrones dan a los niños práctica para extender y completar patrones visuales. Cada tren lleva una secuencia y el niño rellena los vagones que faltan siguiendo la lógica del patrón: colores alternos, formas que se repiten, tamaños crecientes. El reconocimiento de patrones es una destreza fundamental que subyace tanto a las matemáticas iniciales como a la lectura inicial, y el formato del tren mantiene el diseño visual sencillo.",
-    "picture-path": "Las fichas de camino de imágenes ejercitan el razonamiento espacial y la búsqueda de rutas: los niños trazan un camino a través de una cuadrícula desde una imagen de inicio hasta una imagen de fin, a veces rodeando muros o pasando junto a distractores. La actividad construye los mismos movimientos cognitivos que subyacen a la resolución de laberintos, la planificación y la geometría inicial. Los niños desarrollan la paciencia para considerar rutas antes de poner el lápiz en el papel.",
-    "treasure-hunt": "Las fichas de búsqueda del tesoro dan a los niños una secuencia de pistas direccionales —dos casillas al norte, una al este, tres al sur— y les piden que tracen la ruta que las pistas describen. La actividad construye razonamiento espacial, memoria de trabajo y fluidez de vocabulario direccional al mismo tiempo. El formato funciona particularmente bien para niños de grado 1 y grado 2 que están preparados para instrucciones de varios pasos.",
-    "preschool": "Las fichas de preescolar alcanzan a los niños en el momento del desarrollo en que el agarre del lápiz se vuelve fiable y el cerebro está listo para un trabajo preacadémico con propósito. Las actividades aquí mantienen baja la carga cognitiva y alta la apoyatura visual: cada consigna está ilustrada, cada respuesta es inequívoca, cada página puede completarse en unos pocos minutos concentrados. Úselas para los momentos de la mañana en que los niños están listos para sentarse y trabajar, o como deberes suaves que las familias pueden apoyar sin formación académica.",
-    "kindergarten": "Las fichas de jardín infantil están afinadas para el año en que la curiosidad preacadémica se afianza en disposición académica. Los niños en este nivel pueden sostener un lápiz con fiabilidad, reconocer las primeras letras de su nombre, contar más allá de diez y seguir instrucciones de dos pasos en una página. Las actividades aquí ejercitan esas destrezas en matemáticas, lectoescritura, lógica y razonamiento espacial, en formatos lo bastante cortos para la atención de un niño de jardín infantil y lo bastante sustanciales para sentirse como trabajo real.",
-    "grade-1": "Las fichas de grado 1 alcanzan el momento en que los niños consolidan los cimientos puestos en jardín infantil convirtiéndolos en una práctica independiente fluida. Pueden leer instrucciones cortas, escribir sus respuestas y autocorregir errores sencillos sin que un adulto se lo indique. Las actividades aquí abarcan el currículo estándar de grado 1 —suma y resta dentro de veinte, reconocimiento de palabras a la vista, secuenciación sencilla, lógica espacial básica— y cada página está diseñada para sentirse completable en un bloque concentrado de quince minutos.",
-    "grade-2": "Las fichas de grado 2 alcanzan a niños que ya leen de forma independiente, escriben en oraciones y están preparados para resolver problemas de varios pasos. Las actividades aquí introducen las secuencias cognitivas más largas —suma de varios dígitos, sopas de letras más extensas, rompecabezas más complejos— que los niños de grado 2 pueden sostener. Combínelas con discusión de clase sobre estrategia, ya que el valor cognitivo en este nivel está cada vez más en el enfoque tanto como en la respuesta.",
+    "animals": "El conjunto de imágenes conocidas de Animales acompaña a los niños por todos los tipos de ejercicio. Con perros, gatos, vacas y leones se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras los niños trabajan. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Animales sirve a niños que aprenden en lenguas diferentes.",
+    "addition": "En las fichas de Suma los niños cuentan dos grupos de imágenes y los combinan para hallar el total. Empiezan con cantidades pequeñas y avanzan hacia operaciones de una y dos cifras, siempre con apoyo visual que hace concreto el concepto de juntar. Sirven desde jardín infantil hasta grado 1 y 2, y refuerzan la asociación número-cantidad y el sentido numérico. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Combina varias para practicar la suma en clase o en casa como tarea. Y al estar disponibles en los 11 idiomas en los que publicamos, sirven igual en aulas monolingües y bilingües.",
+    "subtraction": "En las fichas de Resta los niños practican quitar: tachan lo que se va y cuentan lo que queda. El gesto de tachar hace visible la idea de restar y prepara el camino hacia las operaciones escritas. Empiezan con grupos pequeños de imágenes y avanzan hacia restas de una y dos cifras, con apoyo visual en cada paso. Sirven desde jardín infantil hasta grado 1 y 2. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Combina varias para repasar la resta en el aula o como tarea. Y al estar disponibles en los 11 idiomas en los que publicamos, funcionan en clases monolingües y bilingües.",
+    "alphabet-train": "En las fichas de Tren Del Abecedario los niños colocan las letras en orden, de la A a la Z, en los vagones de un tren. Recuerdan la secuencia del abecedario, reconocen cada letra y completan los vagones que faltan, así que afianzan el reconocimiento de letras y el orden alfabético. Resultan perfectas para preescolar y jardín infantil, cuando empiezan a familiarizarse con las letras. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Usa una para repasar el abecedario al inicio de la jornada. Y al estar disponibles en los 11 idiomas en los que publicamos, el abecedario aparece en la lengua de tu aula.",
+    "wordsearch": "En las fichas de Sopa De Letras los niños encuentran palabras escondidas de un tema dentro de una cuadrícula de letras. Recorren filas y columnas, reconocen cada letra y rodean la palabra cuando la localizan, así que combinan el reconocimiento de letras con la búsqueda visual. Resultan ideales para grado 1 y grado 2, cuando ya manejan sus primeras palabras frecuentes. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Elige el tema de palabras que encaje con tu unidad de vocabulario. Y al estar disponibles en los 11 idiomas en los que publicamos, las palabras escondidas están en la lengua de tu aula.",
+    "matching": "En las fichas de Emparejar los niños trazan una línea para unir cada elemento con su pareja. Observan las dos columnas, encuentran lo que va junto y enlazan los pares, así que practican la correspondencia uno a uno y la atención visual. Es una actividad muy versátil para preescolar y jardín infantil, y según el tema repasa vocabulario, números o categorías. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Elige los temas que encajen con lo que estás trabajando en el aula. Y al estar disponibles en los 11 idiomas en los que publicamos, sirven en clases monolingües y bilingües.",
+    "sudoku": "En las fichas de Sudoku De Imágenes los niños completan una cuadrícula de cuatro por cuatro colocando imágenes para que cada fila, cada columna y cada bloque tengan una de cada una. No hacen falta números ni saber leer: todo se resuelve mirando y deduciendo. Es una introducción suave a la lógica y al razonamiento, perfecta para jardín infantil y grado 1. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Elige el tema de imágenes que más les guste para enganchar a los más pequeños. Y al estar disponibles en los 11 idiomas en los que publicamos, encajan en cualquier aula.",
+    "find-and-count": "En las fichas de Busca Y Cuenta los niños encuentran unos objetos dentro de una escena y cuentan cuántos hay de cada uno. Combinan la búsqueda visual con el conteo, así que primero localizan y luego cuentan con cuidado para no dejarse ninguno. Resultan ideales para preescolar y jardín infantil porque se apoyan en imágenes y refuerzan la asociación número-cantidad. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Elige las escenas con los temas que más les gusten. Y al estar disponibles en los 11 idiomas en los que publicamos, encajan en aulas monolingües y bilingües.",
+    "prepositions": "En las fichas de Preposiciones los niños eligen la imagen que muestra una posición concreta: en, sobre, debajo o al lado. Trabajan las palabras de lugar uniendo lo que oyen o leen con lo que ven, de modo que el vocabulario espacial se vuelve concreto. Resultan muy útiles desde preescolar hasta grado 1, tanto para primeras palabras como para aulas bilingües que repasan estas nociones. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Elige los temas de imágenes que conecten con tu unidad. Y al estar disponibles en los 11 idiomas en los que publicamos, sirven para enseñar las posiciones en cualquier lengua.",
+    "picture-sort": "En las fichas de Clasificar Imágenes los niños agrupan las imágenes en categorías según una característica común. Miran cada elemento, deciden a qué grupo pertenece y lo colocan donde corresponde. Clasificar es una de las primeras destrezas de razonamiento y de organización del pensamiento, perfecta para preescolar y jardín infantil porque se apoya en imágenes y no exige leer. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Elige los temas que conecten con lo que estás trabajando en el aula. Y al estar disponibles en los 11 idiomas en los que publicamos, sirven en cualquier clase.",
+    "big-small": "En las fichas de Grande O Pequeño los niños encuentran el elemento más grande o el más pequeño y ordenan varios objetos por tamaño. Son las primeras nociones de medida y de comparación, todo con apoyo visual y sin necesidad de leer. Resultan perfectas para preescolar y jardín infantil porque entrenan la observación y el lenguaje de tamaños. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Elige los temas de imágenes que más motiven a tu grupo. Y al estar disponibles en los 11 idiomas en los que publicamos, sirven en aulas monolingües y bilingües por igual.",
+    "more-less": "En las fichas de Más O Menos los niños comparan dos grupos de imágenes y deciden cuál tiene más, cuál tiene menos o si los dos son iguales. Es una de las primeras nociones de cantidad y se apoya por completo en imágenes, sin necesidad de leer ni de manejar números. Resultan perfectas para preescolar y jardín infantil y preparan el camino hacia la suma y la resta. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Usa varias seguidas para afianzar la idea de más y menos en los rincones de aprendizaje. Y al estar disponibles en los 11 idiomas en los que publicamos, sirven en clases monolingües y bilingües.",
+    "math-puzzle": "En las fichas de Rompecabezas Matemático los niños arrastran piezas para completar un rompecabezas numérico. Tienen que observar, planificar y comprobar dónde encaja cada pieza, de modo que trabajan el sentido numérico y la capacidad de anticipar a la vez. Resultan ideales para jardín infantil y grado 1, con apoyo visual que mantiene concreto el reto. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Su versión interactiva luce muy bien para arrastrar y soltar en la pizarra digital del aula. Y al estar disponibles en los 11 idiomas en los que publicamos, encajan en cualquier clase.",
+    "math-worksheet": "Las fichas de Matemáticas ofrecen práctica general de números para repasar lo esencial. Los niños resuelven operaciones, completan las partes que faltan y trabajan sumas y restas variadas con apoyo visual cuando ayuda. Son flexibles y útiles desde jardín infantil hasta grado 2, según el tema que elijas, y consolidan el sentido numérico y la confianza con los números. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Descarga varias para armar una sesión completa o repartir en los rincones de aprendizaje. Y al estar disponibles en los 11 idiomas en los que publicamos, encajan en aulas de distintas lenguas.",
+    "missing-pieces": "En las fichas de Piezas Faltantes los niños arrastran la pieza recortada correcta hasta cada hueco para completar la imagen. Tienen que fijarse en la forma, el color y el contorno para elegir entre varias opciones la que encaja, así que entrenan la discriminación visual y la atención al detalle. Resultan ideales para preescolar y jardín infantil porque se apoyan por completo en imágenes. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Su versión interactiva es perfecta para arrastrar y soltar en la pizarra del aula. Y al estar disponibles en los 11 idiomas en los que publicamos, encajan en cualquier clase.",
+    "odd-one-out": "En las fichas de El Intruso los niños eligen la imagen que no pertenece al grupo y piensan por qué. Comparan los elementos, descubren qué tienen en común la mayoría y detectan al que sobra, así que clasifican y razonan a la vez. Es una actividad estupenda para preescolar y jardín infantil porque se apoya en imágenes y abre la conversación sobre categorías. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Aprovecha cada ficha para preguntar a los niños el motivo de su elección. Y al estar disponibles en los 11 idiomas en los que publicamos, sirven en cualquier clase.",
+    "shadow-match": "En las fichas de Emparejar Sombras los niños unen cada objeto con su sombra. Comparan la forma y el contorno de cada imagen con su silueta y enlazan la pareja correcta, así que entrenan la discriminación visual y la percepción de formas. Resultan perfectas para preescolar y jardín infantil porque se apoyan por completo en imágenes, sin necesidad de leer. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Elige los temas de imágenes que más motiven a los más pequeños. Y al estar disponibles en los 11 idiomas en los que publicamos, sirven en cualquier clase.",
+    "code-addition": "En las fichas de Suma Codificada los niños resuelven pequeñas sumas cuyos resultados corresponden a letras y, al ordenarlas, descubren una palabra escondida. Cada operación es una pista, así que la motivación de revelar la palabra los mantiene contando con ganas. Combinan la suma con el reconocimiento de letras, ideales para jardín infantil y grado 1. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Usa una como actividad sorpresa para cerrar la sesión de matemáticas. Y al estar disponibles en los 11 idiomas en los que publicamos, la palabra final aparece en la lengua que elijas.",
+    "pattern-train": "En las fichas de Tren De Patrones los niños continúan un patrón de imágenes a lo largo de los vagones de un tren. Observan qué se repite, descubren la regla y colocan la imagen que sigue, vagón tras vagón. Es una actividad ideal para preescolar y jardín infantil porque trabaja los patrones, la atención visual y el primer razonamiento lógico con apoyo visual y sin necesidad de leer. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Elige el tema de imágenes que más motive a tu grupo. Y al estar disponibles en los 11 idiomas en los que publicamos, encajan en cualquier aula.",
+    "picture-path": "En las fichas de Sendero De Imágenes los niños trazan un camino por una cuadrícula hasta llegar a la meta. Avanzan casilla a casilla, deciden por dónde seguir y evitan los caminos sin salida, de modo que trabajan el razonamiento espacial y la noción de dirección. Resultan perfectas para jardín infantil y grado 1, con apoyo visual y sin necesidad de leer demasiado. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Su versión interactiva permite trazar el sendero con el dedo o el ratón. Y al estar disponibles en los 11 idiomas en los que publicamos, encajan en cualquier aula.",
+    "treasure-hunt": "En las fichas de Búsqueda Del Tesoro los niños siguen pistas de dirección por una cuadrícula hasta llegar al tesoro. Avanzan paso a paso, interpretan instrucciones como mover dos casillas hacia arriba o una hacia la derecha, y trazan el camino correcto. Trabajan el razonamiento espacial y la comprensión de direcciones, perfectas para jardín infantil y grado 1. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Su versión interactiva resulta muy atractiva para trazar el recorrido en la pizarra digital. Y al estar disponibles en los 11 idiomas en los que publicamos, las pistas se leen en la lengua de tu aula.",
+    "preschool": "Las fichas para preescolar están hechas para los más pequeños, de unos 3 a 5 años, que todavía no leen. Cuentan cantidades pequeñas, emparejan y clasifican imágenes, comparan grande y pequeño y eligen el intruso, es decir, la imagen que no pertenece. También trazan sus primeras letras y desarrollan la motricidad fina, todo con apoyo visual y consignas muy sencillas. El diseño es claro y sin distracciones para mantener la atención. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Usa varias seguidas en los rincones de aprendizaje. Y al estar disponibles en los 11 idiomas en los que publicamos, funcionan muy bien con familias y aulas de distintas lenguas.",
+    "kindergarten": "Las fichas para jardín infantil reúnen todo lo que los niños de unos 5 a 7 años practican en esta etapa: cuentan cantidades, hacen sus primeras sumas y restas y trabajan la asociación número-cantidad con apoyo visual. También clasifican imágenes, continúan patrones, reconocen letras y sonidos iniciales y descubren sus primeras palabras frecuentes con un enfoque lúdico y preparatorio. Cada actividad cuida el ritmo de quienes empiezan a leer. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Elige el tema que mejor encaje con tu aula o rincones de aprendizaje. Y al estar disponibles en los 11 idiomas en los que publicamos, sirven igual de bien en clases monolingües y bilingües.",
+    "grade-1": "Las fichas para grado 1 acompañan a los niños de unos 6 a 8 años cuando dan el salto a operaciones más completas. Suman y restan hasta 20, empiezan a trabajar decenas y unidades y consolidan el sentido numérico con apoyo visual. En el área de letras, unen letras para formar sus primeras palabras y avanzan en la lectura inicial, además de resolver actividades de lógica que afianzan el razonamiento. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Combina varias en una misma sesión o en los rincones de aprendizaje. Y al estar disponibles en los 11 idiomas en los que publicamos, encajan en aulas monolingües y bilingües por igual.",
+    "grade-2": "Las fichas para grado 2 plantean retos para niños de unos 7 a 9 años que ya manejan lo básico. Suman y restan números de dos cifras, dan los primeros pasos en la multiplicación y trabajan decenas y centenas con apoyo visual cuando hace falta. En el área de letras avanzan con lecturas más largas, trabajo con palabras, crucigramas y sopas de letras, junto a actividades de lógica que afianzan el razonamiento. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Descarga las que encajen con lo que estás repasando esta semana. Y al estar disponibles en los 11 idiomas en los que publicamos, sirven tanto para tarea como para el aula bilingüe.",
     "addition__animals": "Las fichas de suma con tema de animales emparejan la operación que los niños están practicando con vocabulario que ya conocen bien. El formato reduce la carga cognitiva de la imagen y la mantiene en la aritmética: útil para niños que aún están construyendo su base de hechos de suma.",
     "animals__subtraction": "Las fichas de resta con tema de animales muestran el quitar con criaturas que los niños reconocen al instante, lo que hace la operación más fácil de leer. Las imágenes mantienen el foco en la propia resta.",
     "alphabet-train__animals": "Las fichas del tren del abecedario con tema de animales usan los nombres de los animales como anclajes del abecedario: cada vagón representa un animal cuyo nombre empieza con una letra distinta. El emparejamiento refuerza el mapeo letra-sonido mientras los niños practican la secuencia del abecedario.",
@@ -1228,7 +2391,65 @@
     "code-addition__kindergarten": "Las fichas de suma codificada para jardín infantil dan a la práctica aritmética un marco de lectoescritura: cada suma decodifica una letra o palabra, lo que hace que la práctica se sienta con propósito para niños que tienen los hechos básicos pero necesitan motivación.",
     "kindergarten__pattern-train": "Las fichas del tren de patrones para jardín infantil practican el reconocimiento de patrones —alterno, repetitivo, creciente— en un formato de tren visualmente fácil de leer. El reconocimiento de patrones es fundamental en matemáticas y lectura.",
     "kindergarten__picture-path": "Las fichas de camino de imágenes para jardín infantil practican la búsqueda de rutas a través de una cuadrícula, lo que ejercita razonamiento espacial y paciencia. Los niños en este nivel de desarrollo están preparados para considerar rutas antes de poner el lápiz en el papel.",
-    "grade-1__treasure-hunt": "Las búsquedas del tesoro de grado 1 dan a los niños una secuencia de instrucciones direccionales de varios pasos para seguir en una cuadrícula. La actividad construye razonamiento espacial, memoria de trabajo y fluidez de vocabulario direccional a un nivel que los niños de grado 1 pueden sostener."
+    "grade-1__treasure-hunt": "Las búsquedas del tesoro de grado 1 dan a los niños una secuencia de instrucciones direccionales de varios pasos para seguir en una cuadrícula. La actividad construye razonamiento espacial, memoria de trabajo y fluidez de vocabulario direccional a un nivel que los niños de grado 1 pueden sostener.",
+    "cryptogram": "En las fichas de Criptograma los niños descifran un código de imágenes y símbolos para escribir una palabra escondida. Cada símbolo corresponde a una letra, así que tienen que mirar con atención, buscar la pista correcta y completar la palabra letra a letra. Combinan el reconocimiento de letras con la discriminación visual, ideales para jardín infantil y grado 1. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Usa una como reto divertido para terminar la sesión de letras. Y al estar disponibles en los 11 idiomas en los que publicamos, la palabra secreta aparece en la lengua que elijas.",
+    "word-scramble": "En las fichas de Letras Revueltas los niños ordenan unas letras desordenadas para escribir la palabra que muestra cada imagen. La imagen sirve de pista, así que combinan el reconocimiento de letras con la escritura y la ortografía inicial mientras buscan el orden correcto. Resultan ideales para jardín infantil y grado 1, cuando empiezan a formar sus primeras palabras. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Combina varias del mismo tema para repasar un grupo de palabras frecuentes. Y al estar disponibles en los 11 idiomas en los que publicamos, las palabras encajan con la lengua de tu aula.",
+    "find-objects": "En las fichas de Encuentra Los Objetos los niños buscan objetos escondidos en una escena y los marcan cuando los localizan. Tienen que explorar la imagen con la mirada, comparar lo que ven con la lista de búsqueda y prestar atención a los detalles. Es una actividad excelente para la discriminación visual y la concentración, perfecta para preescolar y jardín infantil porque se apoya en imágenes. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Elige las escenas con los temas que más les diviertan. Y al estar disponibles en los 11 idiomas en los que publicamos, encajan en cualquier clase.",
+    "word-guess": "En las fichas de Adivina La Palabra los niños rellenan los huecos para escribir la palabra que muestra cada imagen. La imagen da la pista y los espacios marcan cuántas letras faltan, así que combinan el reconocimiento de letras con la escritura inicial. Resultan ideales para jardín infantil y grado 1, cuando están formando sus primeras palabras frecuentes. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Combina varias del mismo tema para repasar un grupo de palabras a la vez. Y al estar disponibles en los 11 idiomas en los que publicamos, las palabras encajan con la lengua de tu aula.",
+    "bingo": "En las fichas de Bingo los niños marcan en su cartón la imagen, la letra o el número que se canta. Es una actividad para toda la clase que mezcla escuchar con atención y repasar lo aprendido, ya que cada niño busca en su cartón lo que se anuncia. Resultan muy versátiles desde preescolar hasta grado 1, según el tema que elijas. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Usa el bingo como repaso animado al final de una unidad. Y al estar disponibles en los 11 idiomas en los que publicamos, lo que se canta encaja con la lengua de tu aula.",
+    "chart-count": "En las fichas de Contar En Gráfico los niños cuentan objetos y rellenan la columna correspondiente de un gráfico de barras. Cuentan cada grupo, colorean o marcan hasta la altura justa y empiezan a leer la información que muestran las barras. Combinan el conteo con los primeros datos, ideales para jardín infantil y grado 1. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Usa una para introducir la idea de comparar cantidades de un vistazo. Y al estar disponibles en los 11 idiomas en los que publicamos, encajan en aulas monolingües y bilingües por igual.",
+    "pattern-worksheet": "En las fichas de Patrones los niños leen un patrón que se repite y lo continúan. Descubren la regla, ya sea de tipo AB o ABC, y eligen lo que viene después, así que trabajan la observación, la lógica y la anticipación. Resultan perfectas para preescolar y jardín infantil porque se apoyan en imágenes y formas, sin necesidad de leer. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Combina varias de menor a mayor dificultad para subir el reto poco a poco. Y al estar disponibles en los 11 idiomas en los que publicamos, sirven en cualquier aula.",
+    "grid-match": "En las fichas de Emparejar En Cuadrícula los niños arrastran fichas hasta su lugar correcto dentro de una cuadrícula. Tienen que recordar dónde va cada una y comprobar que coincide, así que combinan el emparejar con la memoria visual y la atención. Resultan ideales para jardín infantil y grado 1, y según el tema repasan vocabulario, números o categorías. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Su versión interactiva funciona muy bien para arrastrar y soltar en la pizarra digital. Y al estar disponibles en los 11 idiomas en los que publicamos, encajan en cualquier clase.",
+    "crossword": "En las fichas de Crucigrama los niños completan la cuadrícula que se cruza escribiendo las letras a partir de pistas de imagen. Cada imagen indica una palabra, así que tienen que reconocer el dibujo, recordar cómo se escribe y encajar las letras donde se cruzan unas con otras. Trabajan la ortografía y el vocabulario, ideales para grado 1 y grado 2. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Elige el tema de palabras que repase tu unidad de vocabulario. Y al estar disponibles en los 11 idiomas en los que publicamos, las palabras encajan con la lengua de tu aula.",
+    "accessories": "El conjunto de imágenes conocidas de Accesorios acompaña a los niños por todos los tipos de ejercicio. Con bolsos, gafas, relojes y sombreros se practica el conteo y las primeras sumas, clasificar y emparejar objetos parecidos, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se afianzan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma actividad sirve a niños que aprenden en distintas lenguas.",
+    "ocean_life": "El conjunto de imágenes conocidas de Vida marina lleva a los niños a través de todos los tipos de ejercicio. Con peces, pulpos, ballenas y estrellas de mar se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, siempre con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, por lo que en clases bilingües las palabras se refuerzan en cada actividad. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, la misma ficha de Vida marina funciona para grupos que aprenden en distintas lenguas.",
+    "post_office": "La Oficina de correos ofrece vocabulario real y juego de roles que acompaña a los niños por todos los tipos de ejercicio. Con cartas, sellos, paquetes y buzones se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, siempre con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, por lo que en clases bilingües las palabras se afianzan en contexto. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, la misma actividad de Oficina de correos funciona para grupos que aprenden en distintas lenguas.",
+    "activities": "El conjunto de imágenes conocidas de Actividades acompaña a los niños por todos los tipos de ejercicio. Con escenas de juego, deporte y vida diaria se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se refuerzan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Actividades sirve a niños que aprenden en lenguas diferentes.",
+    "things_that_fly": "El conjunto de imágenes conocidas de Cosas que vuelan lleva a los niños a través de todos los tipos de ejercicio. Con aviones, globos, mariposas y pájaros se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, siempre con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, por lo que en clases bilingües las palabras se asientan en cada actividad. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, la misma ficha de Cosas que vuelan funciona para grupos que aprenden en distintas lenguas.",
+    "beach": "El conjunto de imágenes conocidas de Playa acompaña a los niños por todos los tipos de ejercicio. Con cubos, palas, conchas y sombrillas se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se refuerzan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Playa sirve a niños que aprenden en lenguas diferentes.",
+    "occupations": "Las Ocupaciones aportan vocabulario real y juego de roles que acompaña a los niños por todos los tipos de ejercicio. Con médicos, bomberos, cocineros y maestros se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, siempre con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, por lo que en clases bilingües las palabras se afianzan en contexto. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, la misma actividad de Ocupaciones funciona para grupos que aprenden en distintas lenguas.",
+    "summer": "El tema de Verano es una buena ocasión para practicar en cada temporada y acompaña a los niños por todos los tipos de ejercicio. Con helados, soles, gafas y flotadores se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se refuerzan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Verano sirve a niños que aprenden en lenguas diferentes.",
+    "camping": "El conjunto de imágenes conocidas de Campamento acompaña a los niños por todos los tipos de ejercicio. Con tiendas, fogatas, mochilas y linternas se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Campamento sirve a niños que aprenden en lenguas diferentes.",
+    "christmas": "El tema de Navidad es una buena ocasión para practicar en cada temporada y acompaña a los niños por todos los tipos de ejercicio. Con árboles, regalos, estrellas y campanas se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se refuerzan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Navidad sirve a niños que aprenden en lenguas diferentes.",
+    "classroom": "El Salón de clases ofrece vocabulario cotidiano que acompaña a los niños por todos los tipos de ejercicio. Con lápices, libros, mochilas y pizarras se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, siempre con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, por lo que en clases bilingües las palabras se afianzan en contexto. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, la misma actividad de Salón de clases funciona para grupos que aprenden en distintas lenguas.",
+    "clothing": "El conjunto de imágenes conocidas de Ropa acompaña a los niños por todos los tipos de ejercicio. Con camisas, zapatos, sombreros y abrigos se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Ropa sirve a niños que aprenden en lenguas diferentes.",
+    "flowers": "El conjunto de imágenes conocidas de Flores acompaña a los niños por todos los tipos de ejercicio. Con rosas, tulipanes, margaritas y girasoles se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se refuerzan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Flores sirve a niños que aprenden en lenguas diferentes.",
+    "hospital": "El Hospital aporta vocabulario real y juego de roles que acompaña a los niños por todos los tipos de ejercicio. Con médicos, ambulancias, vendas y termómetros se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, siempre con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, por lo que en clases bilingües las palabras se afianzan en contexto. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, la misma actividad de Hospital funciona para grupos que aprenden en distintas lenguas.",
+    "toys": "El conjunto de imágenes conocidas de Juguetes acompaña a los niños por todos los tipos de ejercicio. Con pelotas, muñecas, bloques y trenes se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Juguetes sirve a niños que aprenden en lenguas diferentes.",
+    "weather": "El Clima parte de la observación de la vida cotidiana y acompaña a los niños por todos los tipos de ejercicio. Con soles, nubes, lluvia y nieve se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se refuerzan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Clima sirve a niños que aprenden en lenguas diferentes.",
+    "4th_of_july": "El tema de 4 de Julio es una buena ocasión para practicar en cada temporada y acompaña a los niños por todos los tipos de ejercicio. Con banderas, fuegos artificiales, globos y estrellas se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se refuerzan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de 4 de Julio sirve a niños que aprenden en lenguas diferentes.",
+    "at_the_supermarket": "En el supermercado se ofrece vocabulario real y juego de roles que acompaña a los niños por todos los tipos de ejercicio. Con carritos, frutas, latas y cajas registradoras se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, siempre con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, por lo que en clases bilingües las palabras se afianzan en contexto. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, la misma actividad de En el supermercado funciona para grupos que aprenden en distintas lenguas.",
+    "bakery": "La Panadería aporta vocabulario real y juego de roles que acompaña a los niños por todos los tipos de ejercicio. Con panes, pasteles, galletas y rosquillas se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, siempre con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, por lo que en clases bilingües las palabras se afianzan en contexto. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, la misma actividad de Panadería funciona para grupos que aprenden en distintas lenguas.",
+    "breakfast": "El conjunto de imágenes conocidas de Desayuno acompaña a los niños por todos los tipos de ejercicio. Con huevos, tostadas, leche y frutas se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Desayuno sirve a niños que aprenden en lenguas diferentes.",
+    "easter": "El tema de Pascua es una buena ocasión para practicar en cada temporada y acompaña a los niños por todos los tipos de ejercicio. Con huevos, conejos, cestas y flores se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se refuerzan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Pascua sirve a niños que aprenden en lenguas diferentes.",
+    "fruits": "El conjunto de imágenes conocidas de Frutas acompaña a los niños por todos los tipos de ejercicio. Con manzanas, plátanos, naranjas y uvas se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Frutas sirve a niños que aprenden en lenguas diferentes.",
+    "furniture": "El conjunto de imágenes conocidas de Muebles acompaña a los niños por todos los tipos de ejercicio. Con sillas, mesas, camas y armarios se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Muebles sirve a niños que aprenden en lenguas diferentes.",
+    "kitchen_tools": "Los Utensilios de cocina ofrecen vocabulario cotidiano que acompaña a los niños por todos los tipos de ejercicio. Con cucharas, ollas, tenedores y tazas se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, siempre con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, por lo que en clases bilingües las palabras se afianzan en contexto. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, la misma actividad de Utensilios de cocina funciona para grupos que aprenden en distintas lenguas.",
+    "space": "El Espacio invita a la observación y la curiosidad, y acompaña a los niños por todos los tipos de ejercicio. Con planetas, cohetes, estrellas y astronautas se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se refuerzan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Espacio sirve a niños que aprenden en lenguas diferentes.",
+    "vegetables": "El conjunto de imágenes conocidas de Verduras acompaña a los niños por todos los tipos de ejercicio. Con zanahorias, tomates, pimientos y lechugas se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Verduras sirve a niños que aprenden en lenguas diferentes.",
+    "vehicles": "El conjunto de imágenes conocidas de Vehículos acompaña a los niños por todos los tipos de ejercicio. Con coches, camiones, autobuses y trenes se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Vehículos sirve a niños que aprenden en lenguas diferentes.",
+    "winter": "El tema de Invierno es una buena ocasión para practicar en cada temporada y acompaña a los niños por todos los tipos de ejercicio. Con copos de nieve, muñecos de nieve, bufandas y guantes se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se refuerzan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Invierno sirve a niños que aprenden en lenguas diferentes.",
+    "body_parts": "Las Partes del cuerpo parten de la vida cotidiana y acompañan a los niños por todos los tipos de ejercicio. Con manos, pies, ojos y orejas se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se refuerzan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Partes del cuerpo sirve a niños que aprenden en lenguas diferentes.",
+    "forest_creatures": "El conjunto de imágenes conocidas de Criaturas del bosque acompaña a los niños por todos los tipos de ejercicio. Con zorros, ciervos, ardillas y búhos se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Criaturas del bosque sirve a niños que aprenden en lenguas diferentes.",
+    "music": "El conjunto de imágenes conocidas de Música acompaña a los niños por todos los tipos de ejercicio. Con guitarras, tambores, pianos y trompetas se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Música sirve a niños que aprenden en lenguas diferentes.",
+    "pets": "El conjunto de imágenes conocidas de Mascotas acompaña a los niños por todos los tipos de ejercicio. Con perros, gatos, peces y conejos se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Mascotas sirve a niños que aprenden en lenguas diferentes.",
+    "birds_2": "Aves 2 es una segunda colección de fichas de aves que acompaña a los niños por todos los tipos de ejercicio. Con más pájaros, patos, loros y águilas se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Aves 2 sirve a niños que aprenden en lenguas diferentes.",
+    "tools": "El conjunto de imágenes conocidas de Herramientas acompaña a los niños por todos los tipos de ejercicio. Con martillos, destornilladores, sierras y llaves se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Herramientas sirve a niños que aprenden en lenguas diferentes.",
+    "farm_animals": "El conjunto de imágenes conocidas de Animales de granja acompaña a los niños por todos los tipos de ejercicio. Con vacas, cerdos, gallinas y ovejas se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Animales de granja sirve a niños que aprenden en lenguas diferentes.",
+    "tree": "El conjunto de imágenes conocidas de Árboles parte de la naturaleza y acompaña a los niños por todos los tipos de ejercicio. Con pinos, robles, palmeras y manzanos se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Árboles sirve a niños que aprenden en lenguas diferentes.",
+    "zoo_animals": "El conjunto de imágenes conocidas de Animales del zoológico acompaña a los niños por todos los tipos de ejercicio. Con elefantes, jirafas, leones y monos se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Animales del zoológico sirve a niños que aprenden en lenguas diferentes.",
+    "desserts_and_sweets": "El conjunto de imágenes conocidas de Postres y dulces acompaña a los niños por todos los tipos de ejercicio. Con pasteles, helados, caramelos y galletas se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Postres y dulces sirve a niños que aprenden en lenguas diferentes.",
+    "emotions": "Las Emociones parten de la vida cotidiana y la observación, y acompañan a los niños por todos los tipos de ejercicio. Con caras de alegría, tristeza, sorpresa y enfado se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se refuerzan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Emociones sirve a niños que aprenden en lenguas diferentes.",
+    "birds": "El conjunto de imágenes conocidas de Aves acompaña a los niños por todos los tipos de ejercicio. Con pájaros, patos, búhos y loros se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Aves sirve a niños que aprenden en lenguas diferentes.",
+    "shapes": "Las Formas parten de la observación de la vida cotidiana y acompañan a los niños por todos los tipos de ejercicio. Con círculos, cuadrados, triángulos y estrellas se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se refuerzan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Formas sirve a niños que aprenden en lenguas diferentes.",
+    "insects_and_bugs": "El conjunto de imágenes conocidas de Insectos y bichos acompaña a los niños por todos los tipos de ejercicio. Con mariposas, hormigas, abejas y mariquitas se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Insectos y bichos sirve a niños que aprenden en lenguas diferentes.",
+    "thanksgivinng": "El tema de Día de Acción de Gracias es una buena ocasión para practicar en cada temporada y acompaña a los niños por todos los tipos de ejercicio. Con pavos, calabazas, maíz y hojas de otoño se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se refuerzan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Día de Acción de Gracias sirve a niños que aprenden en lenguas diferentes.",
+    "colors": "Los Colores parten de la observación de la vida cotidiana y acompañan a los niños por todos los tipos de ejercicio. Con rojos, azules, verdes y amarillos se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se refuerzan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Colores sirve a niños que aprenden en lenguas diferentes.",
+    "miscellaneous": "El conjunto variado de imágenes de Misceláneo reúne objetos diversos y acompaña a los niños por todos los tipos de ejercicio. Con una mezcla de cosas conocidas se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Misceláneo sirve a niños que aprenden en lenguas diferentes.",
+    "spring": "El tema de Primavera es una buena ocasión para practicar en cada temporada y acompaña a los niños por todos los tipos de ejercicio. Con flores, mariposas, lluvia y brotes se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se refuerzan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Primavera sirve a niños que aprenden en lenguas diferentes.",
+    "dinosaurs": "El conjunto de imágenes conocidas de Dinosaurios acompaña a los niños por todos los tipos de ejercicio. Con tiranosaurios, estegosaurios, triceratops y huevos se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Dinosaurios sirve a niños que aprenden en lenguas diferentes.",
+    "around_the_house": "Alrededor de la casa ofrece vocabulario cotidiano que acompaña a los niños por todos los tipos de ejercicio. Con puertas, ventanas, lámparas y relojes se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, siempre con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, por lo que en clases bilingües las palabras se afianzan en contexto. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, la misma actividad de Alrededor de la casa funciona para grupos que aprenden en distintas lenguas.",
+    "reptiles_and_amphibians": "El conjunto de imágenes conocidas de Reptiles y anfibios acompaña a los niños por todos los tipos de ejercicio. Con tortugas, ranas, lagartos y serpientes se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Reptiles y anfibios sirve a niños que aprenden en lenguas diferentes."
   },
   "workspace": {
     "metadata": {

@@ -1353,13 +1353,13 @@
       "axis": "exercise-type",
       "axisKey": "math-worksheet",
       "url": "https://www.lessoncraftstudio.com/es/topic/ficha-matematica/",
-      "primaryKeyword": "Fichas de Ficha Matemática",
+      "primaryKeyword": "Fichas de Matemáticas",
       "secondaryKeywords": [
-        "fichas de Ficha Matemática para imprimir",
-        "Ficha Matemática en PDF gratis",
-        "Ficha Matemática para infantil"
+        "fichas de matemáticas para imprimir",
+        "matemáticas en PDF gratis",
+        "matemáticas para infantil"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -1993,13 +1993,13 @@
       "axis": "exercise-type",
       "axisKey": "pattern-worksheet",
       "url": "https://www.lessoncraftstudio.com/es/topic/ficha-de-patrones/",
-      "primaryKeyword": "Fichas de Ficha De Patrones",
+      "primaryKeyword": "Fichas de Patrones",
       "secondaryKeywords": [
-        "fichas de Ficha De Patrones para imprimir",
-        "Ficha De Patrones en PDF gratis",
-        "Ficha De Patrones para infantil"
+        "fichas de patrones para imprimir",
+        "patrones en PDF gratis",
+        "patrones para infantil"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },

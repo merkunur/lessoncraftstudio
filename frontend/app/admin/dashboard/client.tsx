@@ -51,9 +51,93 @@ import {
   generateDashboardStats
 } from '@/lib/admin-utils';
 
+// Mock metrics used as the initial (and current) systemMetrics value. Defined at
+// module scope so the dashboard is non-null on the server render (the route is
+// force-dynamic). Without this, SSR ran generateDashboardStats(...metrics=null)
+// -> calculateSystemHealth(null) -> read of metrics.cpu -> crash -> the root
+// error boundary ("Something went wrong"), which blocked operator login.
+const INITIAL_SYSTEM_METRICS: SystemMetrics = {
+  timestamp: new Date().toISOString(),
+  cpu: {
+    usage: 45.2,
+    cores: 8,
+    loadAverage: [2.1, 1.8, 1.5],
+    processes: 234,
+    threads: 512
+  },
+  memory: {
+    total: 16 * 1024 * 1024 * 1024,
+    used: 10 * 1024 * 1024 * 1024,
+    free: 6 * 1024 * 1024 * 1024,
+    percentage: 62.5,
+    swap: {
+      total: 8 * 1024 * 1024 * 1024,
+      used: 2 * 1024 * 1024 * 1024,
+      free: 6 * 1024 * 1024 * 1024
+    }
+  },
+  disk: {
+    total: 500 * 1024 * 1024 * 1024,
+    used: 350 * 1024 * 1024 * 1024,
+    free: 150 * 1024 * 1024 * 1024,
+    percentage: 70,
+    iops: 1200,
+    throughput: 450 * 1024 * 1024
+  },
+  network: {
+    bytesIn: 125 * 1024 * 1024,
+    bytesOut: 89 * 1024 * 1024,
+    packetsIn: 125000,
+    packetsOut: 98000,
+    errors: 12,
+    dropped: 3,
+    latency: 15
+  },
+  database: {
+    connections: 45,
+    activeQueries: 12,
+    slowQueries: 3,
+    queryTime: 125,
+    deadlocks: 0,
+    replicationLag: 250
+  },
+  cache: {
+    hits: 8945,
+    misses: 234,
+    evictions: 45,
+    hitRate: 97.5,
+    memory: 512 * 1024 * 1024,
+    keys: 12345
+  },
+  queue: {
+    pending: 234,
+    processing: 12,
+    completed: 5678,
+    failed: 23,
+    averageTime: 450,
+    throughput: 125
+  },
+  errors: {
+    total: 45,
+    byType: {
+      '404': 12,
+      '500': 8,
+      '503': 3
+    },
+    byStatus: {
+      404: 12,
+      500: 8,
+      503: 3
+    },
+    critical: 2,
+    warnings: 15,
+    rate: 2.3
+  }
+};
+
 function AdminDashboardContent() {
   const [activeTab, setActiveTab] = useState<'overview' | 'metrics' | 'users' | 'content' | 'security' | 'logs'>('overview');
-  const [systemMetrics, setSystemMetrics] = useState<SystemMetrics | null>(null);
+  const [systemMetrics, setSystemMetrics] = useState<SystemMetrics>(INITIAL_SYSTEM_METRICS);
   const [notifications, setNotifications] = useState<AdminNotification[]>([]);
   const [auditLogs, setAuditLogs] = useState<AuditLog[]>([]);
   const [users, setUsers] = useState<AdminUser[]>([]);
@@ -81,85 +165,9 @@ function AdminDashboardContent() {
   };
 
   const fetchSystemMetrics = async () => {
-    // Mock data - replace with API call
-    setSystemMetrics({
-      timestamp: new Date().toISOString(),
-      cpu: {
-        usage: 45.2,
-        cores: 8,
-        loadAverage: [2.1, 1.8, 1.5],
-        processes: 234,
-        threads: 512
-      },
-      memory: {
-        total: 16 * 1024 * 1024 * 1024,
-        used: 10 * 1024 * 1024 * 1024,
-        free: 6 * 1024 * 1024 * 1024,
-        percentage: 62.5,
-        swap: {
-          total: 8 * 1024 * 1024 * 1024,
-          used: 2 * 1024 * 1024 * 1024,
-          free: 6 * 1024 * 1024 * 1024
-        }
-      },
-      disk: {
-        total: 500 * 1024 * 1024 * 1024,
-        used: 350 * 1024 * 1024 * 1024,
-        free: 150 * 1024 * 1024 * 1024,
-        percentage: 70,
-        iops: 1200,
-        throughput: 450 * 1024 * 1024
-      },
-      network: {
-        bytesIn: 125 * 1024 * 1024,
-        bytesOut: 89 * 1024 * 1024,
-        packetsIn: 125000,
-        packetsOut: 98000,
-        errors: 12,
-        dropped: 3,
-        latency: 15
-      },
-      database: {
-        connections: 45,
-        activeQueries: 12,
-        slowQueries: 3,
-        queryTime: 125,
-        deadlocks: 0,
-        replicationLag: 250
-      },
-      cache: {
-        hits: 8945,
-        misses: 234,
-        evictions: 45,
-        hitRate: 97.5,
-        memory: 512 * 1024 * 1024,
-        keys: 12345
-      },
-      queue: {
-        pending: 234,
-        processing: 12,
-        completed: 5678,
-        failed: 23,
-        averageTime: 450,
-        throughput: 125
-      },
-      errors: {
-        total: 45,
-        byType: {
-          '404': 12,
-          '500': 8,
-          '503': 3
-        },
-        byStatus: {
-          404: 12,
-          500: 8,
-          503: 3
-        },
-        critical: 2,
-        warnings: 15,
-        rate: 2.3
-      }
-    });
+    // Mock data - replace with API call. Reuses the module-scope initial value so
+    // the SSR render and the post-mount render show identical metrics (no flash).
+    setSystemMetrics(INITIAL_SYSTEM_METRICS);
   };
 
   const fetchNotifications = async () => {

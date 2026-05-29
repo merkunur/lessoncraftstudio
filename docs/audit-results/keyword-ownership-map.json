@@ -1321,13 +1321,13 @@
       "axis": "exercise-type",
       "axisKey": "math-worksheet",
       "url": "https://www.lessoncraftstudio.com/de/topic/mathe-arbeitsblatt/",
-      "primaryKeyword": "Mathe-Arbeitsblatt-Arbeitsblätter",
+      "primaryKeyword": "Mathe-Arbeitsblätter",
       "secondaryKeywords": [
-        "kostenlose Mathe-Arbeitsblatt-Arbeitsblätter",
-        "Mathe-Arbeitsblatt-Arbeitsblätter zum Ausdrucken",
-        "Mathe-Arbeitsblatt Grundschule"
+        "kostenlose Mathe-Arbeitsblätter",
+        "Mathe-Arbeitsblätter zum Ausdrucken",
+        "Mathe Grundschule"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -1961,13 +1961,13 @@
       "axis": "exercise-type",
       "axisKey": "pattern-worksheet",
       "url": "https://www.lessoncraftstudio.com/de/topic/muster-arbeitsblatt/",
-      "primaryKeyword": "Musterarbeitsblatt-Arbeitsblätter",
+      "primaryKeyword": "Musterarbeitsblätter",
       "secondaryKeywords": [
-        "kostenlose Musterarbeitsblatt-Arbeitsblätter",
-        "Musterarbeitsblatt-Arbeitsblätter zum Ausdrucken",
-        "Musterarbeitsblatt Grundschule"
+        "kostenlose Musterarbeitsblätter",
+        "Musterarbeitsblätter zum Ausdrucken",
+        "Muster Grundschule"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
